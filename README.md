@@ -369,14 +369,14 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
 * Typically, the player who receives a clue that causes a *Bluff* blind play knows that the card that was clued is one away from being playable.
 * Our group plays with an artificial *3 Bluffs* convention. This means that in addition to being one away from being playable, the touched card can be ANY 3 that will be useful in the future.
 * The priority of *3 Bluffs* can be confusing, so here are some examples that cover the four most common situations:
-    * **Color mismatch (valid *3 Bluff*):**
- On the first turn of the game, Alice clues Cathy a Red 3 with red. Bob blind plays Blue 1. Cathy knows that it is either a Red 2 or a Red 3.
-    * **Number 3 with suit mismatch (valid *3 Bluff*):**
- On the first turn of the game, Alice clues Cathy a Red 3 with number 3. Bob blind plays Blue 1. Cathy knows nothing about the card, besides that it is a 3 (since it has a number 3 clue on it).
-    * **Color match (NOT a valid *3 Bluff*):** 
-On the first turn of the game, Alice clues Cathy a Red 3 with red. Bob blind plays Red 1. Cathy sees that Bob had both Red 1 and Red 2 on *Finesse Position* at the time the clue was given, so she knows that she has either Red 2 or Red 3. Bob is promised a Red 2, since if he does not blind play a card, Cathy will go on to misplay the Red 3 as Red 2.
-    * **Number 3 with suit match (valid *3 Bluff*):**
- On the first turn of the game, Alice clues Cathy a Red 3 with number 3. Bob blind plays Red 1. Cathy knows nothing about the card, besides that it is a 3 (since it has a number 3 clue on it). Even though Red 1 and Red 3 are the same suit, Bob is not promised a Red 2, because if he does nothing, Cathy will not go on to misplay the Red 3.
+    * **Color mismatch (valid):**<br />
+    On the first turn of the game, Alice clues Cathy a Red 3 with red. Bob blind plays Blue 1. Cathy knows that it is either a Red 2 or a Red 3.
+    * **Number 3 with suit mismatch (valid):**<br />
+    On the first turn of the game, Alice clues Cathy a Red 3 with number 3. Bob blind plays Blue 1. Cathy knows nothing about the card, besides that it is a 3 (since it has a number 3 clue on it).
+    * **Color match (NOT valid):**<br />
+    On the first turn of the game, Alice clues Cathy a Red 3 with red. Bob blind plays Red 1. Cathy sees that Bob had both Red 1 and Red 2 on *Finesse Position* at the time the clue was given, so she knows that she has either Red 2 or Red 3. Bob is promised a Red 2, since if he does not blind play a card, Cathy will go on to misplay the Red 3 as Red 2.
+    * **Number 3 with suit match (valid):**<br />
+    On the first turn of the game, Alice clues Cathy a Red 3 with number 3. Bob blind plays Red 1. Cathy knows nothing about the card, besides that it is a 3 (since it has a number 3 clue on it). Even though Red 1 and Red 3 are the same suit, Bob is not promised a Red 2, because if he does nothing, Cathy will not go on to misplay the Red 3.
 
 ### Critical 4 Bluffs
 
