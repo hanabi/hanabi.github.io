@@ -377,11 +377,12 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
       * On the first turn of the game, Alice clues Cathy a Red 3 with number 3.
       * Bob blind plays Blue 1.
       * Cathy knows nothing about the card, besides that it is a 3 (since it has a number 3 clue on it).
-    * **Color match (NOT valid):**
+    * **Color match (NOT valid; looks like a Double Finesse):**
       * On the first turn of the game, Alice clues Cathy a Red 3 with red.
       * Bob blind plays Red 1.
-      * Cathy sees that Bob had both Red 1 and Red 2 on *Finesse Position* at the time the clue was given, so she knows that she has either Red 2 or Red 3.
-      * Bob is promised a Red 2, since if he does not blind play a card, Cathy will go on to misplay the Red 3 as Red 2.
+      * Cathy sees that Bob does not have Red 2, so since red matches red, Cathy assumes that she has the Red 2.
+      * Cathy misplays Red 3 as Red 2.
+      * Alternatively, if Cathy saw that Bob had both Red 1 and Red 2 on *Finesse Position* at the time the clue was given, she would know that she has Red 2 OR Red 3. Subsequently, Bob is promised a Red 2, since if he does not blind play a card, Cathy will go on to misplay the Red 3 as Red 2.
     * **Number 3 with suit match (valid):**
       * On the first turn of the game, Alice clues Cathy a Red 3 with number 3.
       * Bob blind plays Red 1.
