@@ -45,8 +45,10 @@ This document is split up into different sections so that you can better digest 
 ## Quick Links
 
 * This document assumes that you are ALREADY familiar with the basic rules of Hanabi. If you need to brush up on them, see [this Pastebin written by Tricky](http://pastebin.com/6brGz2J4).
-* The best place to play Hanabi online is at [Hanabi Live](http://hanabi.live/).
-* Find other people to play with and discuss strategy with on the [Hanabi Discord server](https://discord.gg/FADvkJp). (Discord is a voice and text chat application that you can run in a browser.)
+* The best place to play Hanabi online is at 
+[Hanabi Live](http://hanabi.live/).
+* Find other people to play with and discuss strategy with on the [Hanabi Discord server](https://discord.gg/FADvkJp). 
+(Discord is a voice and text chat application that you can run in a browser.)
 
 <br />
 
@@ -72,7 +74,8 @@ While there are some weird strategies that could throw you for a loop if you hav
 * Cards that meet the following criteria need to be saved:
   * only one copy remains (e.g. 5s or unplayed cards in the discard pile)
   * it is currently playable and not visible elsewhere in players' hands
-  * it is a 2 and not visible elsewhere in players' hands(this is the *2 Saves* convention)
+  * it is a 2 and not visible elsewhere in players' hands
+(this is the *2 Saves* convention)
 * When a card that needs to be saved is at immediate risk of being discarded, it must be indicated with a save clue.
 * A player receiving a clue should give precedence to a  "save" clue interpretation over a “play” clue interpretation.
 
@@ -214,13 +217,15 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
 * *5's Chop Moves* are different from *1's Chop Moves* in that you can ONLY chop move ONE card with it. Thus, if you clue a 5 and it is TWO (or more) slots away from the chop, then it is to be assumed to be a *Play Clue* on the 5.
 * When you get clued a 5, the *5's Chop Move* interpretation ALWAYS takes precedence over a play clue interpretation.
 
-### The Scream Discard Chop Move (Deliberately Discarding Instead of Playing)
+### The Scream Discard Chop Move
+ (Deliberately Discarding Instead of Playing)
 
 * The *Chop Move* outlined above is a tool to save multiple cards with one clue. However, sometimes you may not have a clue at all. One way to solve this situation is with a special kind of discard.
 * Typically, discarding is a last resort. So, if you have a known playable card in your hand, you can send a powerful signal to your partner by discarding. This is called a *Scream Discard*. Since your partner expected you to play the card, it is like screaming at them to let them know that things are very bad.
 * The player being "screamed at" should permanently move their chop by one position.
 * Furthermore, the player being "screamed at" is not allowed to discard on this turn. They must make some clue. Clues in this situation are treated the same as a *Double Discard Situation* (see *Avoiding Double Discards* below).
-* Players are only allowed to *Scream Discard* for cards that are playable or critical.(You are not allowed to Scream Discard for a card that is one away from being playable.)
+* Players are only allowed to *Scream Discard* for cards that are playable or critical.
+(You are not allowed to Scream Discard for a card that is one away from being playable.)
 * *Scream Discards* do NOT apply when a player has a "blind" card to play in their hand AND the blind card could exist in your hand. This is a special exception that you have to remember. When this happens, you will usually want to blind play your finesse position card, since this sequence of events indicates either an *Ambiguous Finesse* or a *Pass Bluff*.
 
 ### Tempo Clues (Re-cluing a Card)
@@ -280,7 +285,8 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
 * Beyond this, they can also give the additional bad clues that are allowed in the "fully clued hands" situation:
   * Saving any card on chop
 * And beyond this, they can also give additional bad clues that are not allowed in the either two situations:
-  * Saving any card on chop or off chop(all clues are saves, unless it was just drawn)
+  * Saving any card on chop or off chop
+(all clues are saves, unless it was just drawn)
 
 <br />
 
@@ -313,7 +319,8 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
 * Here, player 3 is actually the one making the mistake. It follows from *High-Value Principle* that you should never assume that your teammates are making a mistake. If player 2 is discarding, then it means that player 3 also has the exact same copy of the card, and player 3 should immediately blind play.
   * It is also possible that player 2 is performing a special move called a *Hesitation Blind Play*, which is covered later on in the document.
 
-### Positional Discards (Indicating a Play with a Discard)
+### Positional Discards
+ (Indicating a Play with a Discard)
 
 * On the final go-around of the game, if you have no clues left and no cards to play, you can transmit information based on which card you discard.
 * Thus, you can discard the slot in your hand that matches the slot in someone else's hand that they are supposed to play.
@@ -360,10 +367,14 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
 * Typically, the player who receives a clue that causes a *Bluff* blind play knows that the card that was clued is one away from being playable.
 * Our group plays with an artificial *3 Bluffs* convention. This means that in addition to being one away from being playable, the touched card can be ANY 3 that will be useful in the future.
 * The priority of *3 Bluffs* can be confusing, so here are some examples that cover the four most common situations:
-    * **Color mismatch (valid *3 Bluff*):** On the first turn of the game, Alice clues Cathy a Red 3 with red. Bob blind plays Blue 1. Cathy knows that it is either a Red 2 or a Red 3.
-    * **Number 3 with suit mismatch (valid *3 Bluff*):** On the first turn of the game, Alice clues Cathy a Red 3 with number 3. Bob blind plays Blue 1. Cathy knows nothing about the card, besides that it is a 3 (since it has a number 3 clue on it).
-    * **Color match (NOT a valid *3 Bluff*):** On the first turn of the game, Alice clues Cathy a Red 3 with red. Bob blind plays Red 1. Cathy sees that Bob had both Red 1 and Red 2 on *Finesse Position* at the time the clue was given, so she knows that she has either Red 2 or Red 3. Bob is promised a Red 2, since if he does not blind play a card, Cathy will go on to misplay the Red 3 as Red 2.
-    * **Number 3 with suit match (valid *3 Bluff*):** On the first turn of the game, Alice clues Cathy a Red 3 with number 3. Bob blind plays Red 1. Cathy knows nothing about the card, besides that it is a 3 (since it has a number 3 clue on it). Even though Red 1 and Red 3 are the same suit, Bob is not promised a Red 2, because if he does nothing, Cathy will not go on to misplay the Red 3.
+    * **Color mismatch (valid *3 Bluff*):**
+ On the first turn of the game, Alice clues Cathy a Red 3 with red. Bob blind plays Blue 1. Cathy knows that it is either a Red 2 or a Red 3.
+    * **Number 3 with suit mismatch (valid *3 Bluff*):**
+ On the first turn of the game, Alice clues Cathy a Red 3 with number 3. Bob blind plays Blue 1. Cathy knows nothing about the card, besides that it is a 3 (since it has a number 3 clue on it).
+    * **Color match (NOT a valid *3 Bluff*):** 
+On the first turn of the game, Alice clues Cathy a Red 3 with red. Bob blind plays Red 1. Cathy sees that Bob had both Red 1 and Red 2 on *Finesse Position* at the time the clue was given, so she knows that she has either Red 2 or Red 3. Bob is promised a Red 2, since if he does not blind play a card, Cathy will go on to misplay the Red 3 as Red 2.
+    * **Number 3 with suit match (valid *3 Bluff*):**
+ On the first turn of the game, Alice clues Cathy a Red 3 with number 3. Bob blind plays Red 1. Cathy knows nothing about the card, besides that it is a 3 (since it has a number 3 clue on it). Even though Red 1 and Red 3 are the same suit, Bob is not promised a Red 2, because if he does nothing, Cathy will not go on to misplay the Red 3.
 
 ### Critical 4 Bluffs
 
@@ -498,15 +509,16 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
 * You are ONLY allowed to do a *Certain Discard* if you know you have not been bluffed. (This means that *Certain Finesses* can't be performed from *Bluff Position*.)
 * This convention takes priority over the *Layered Finesse*. Thus, it is impossible to perform a *Layered Finesse* on a card that could be in your own hand.
 
-<br/ >
+<br />
 
 ## Level 3 - Variant-Specific Strategies
 
 ### Black 2 & Black 5 Saves
 
 * In the *Black One-of-Each* and *Wild & Crazy* variant, it is expected that you should save black 2s and black 5s with a number clue instead of a black color clue. (This helps narrow down what card is being clued.)
-* There are three exceptions to this:
+* There are four exceptions to this:
   * if the black clue touched two or more brand new cards
+  * if the black clue was required to avoid violating *Good Touch Principle*
   * if the black clue "filled in" an ancillary card
   * if the black clue gave important negative information to one or more cards in the hand (which mostly applies to the *Wild & Crazy* variant)
 * Subsequently, if a black clue is used to touch a black 2 or a black 5 (and the above exceptions are not applicable), then it implies a *Finesse*.
