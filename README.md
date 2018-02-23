@@ -29,16 +29,16 @@ We generally only play games with 3-5 players, since 2-player games can be quite
 This document is split up into different sections so that you can better digest it. As a new player, you should probably not read the entire document at once. Rather, it might be better to only read the first two sections and then use the rest of the document as a reference as you continue to improve at the game.
 
 1. [Quick Links](#quick-links)
-2. [Level 0 - First Principles](#first-principles)
-3. [Level 1 - Beginner Strategies]()
-4. [Level 2 - Intermediate Strategies]()
-5. [Level 3 - Advanced Strategies]()
-6. [Level 4 - Expert Strategies]()
-7. [Level 3 - Variant-Specific Strategies]()
-8. [Level 3 - Rarely Used Advanced Strategies]()
-9. [Level 4 - Rarely Used Expert Strategies]()
-10. [Non-Formalized Proposals]()
-11. [Convention Attribution]()
+2. [Level 0 - First Principles](#level-0---first-principles)
+3. [Level 1 - Beginner Strategies](#level-1---beginner-strategies)
+4. [Level 2 - Intermediate Strategies](#level-2---intermediate-strategies)
+5. [Level 3 - Advanced Strategies](#level-3---advanced-strategies)
+6. [Level 4 - Expert Strategies](#level-4---expert-strategies)
+7. [Level 3 - Variant-Specific Strategies](#level-3---variant-specific-strategies)
+8. [Level 3 - Rarely Used Advanced Strategies](#level-3---rarely-used-advanced-strategies)
+9. [Level 4 - Rarely Used Expert Strategies](#level-4---rarely-used-expert-strategies)
+10. [Non-Formalized Proposals](#non-formalized-proposals)
+11. [Convention Attribution](#convention-attribution)
 
 <br />
 
@@ -451,11 +451,11 @@ On the first turn of the game, Alice clues Cathy a Red 3 with red. Bob blind pla
 * The *Sarcastic Discard* is very similar to the *Prompt* convention, because it gets someone to play a card that already had a clue on it. It is also possible to intentionally discard a known card in order to get someone to blind play a card, similar to a *Finesse*. When this occurs, it is called a *Gentleman Discard* to signify that the card played was completely blind as opposed to having a clue on it already.
 * "Why did Bob just discard the red 3 that he JUST got a play clue on? That makes no sense. Wait - it must be because he realized that the red 3 was ALSO in someone else's hand. I don't have any clued cards in my hand, so I must have the red 3 in my *Finesse Position*."
 
-## The Layered Gentleman's Discard
+### The Layered Gentleman's Discard
 
 * One great reason to want to do a *Gentleman's Discard* is if the card you are discarding is also behind playable cards. Doing this gets "free" value.
 
-## Top Hat Clue
+### Top Hat Clue
 
 * Since the *Layered Gentleman's Discard* convention is so good, clever players that see the opportunity to perform one will almost always want to do so.
 * Thus, it follows that in rare cases, when a teammate gives you a play clue on some card, they DON'T intend for you to play it. They intend for you to see the opportunity for a *Layered Gentleman's Discard*, and then immediately discard the card.
