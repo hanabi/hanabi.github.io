@@ -346,8 +346,10 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
 ### Double Tempo Clues (Re-cluing 2+ Cards)
 
 * Typically, when a tempo clue is given that touches two or more cards, it means that ALL of the cards touched are playable in order from left to right.
-* However, this interpretation does not apply when the clue unlocks a player's hand.
-* Additionally, this interpretation does not apply when the second card touched is strictly not playable. In these situations, all players can see that since only one card is getting tempo, the interpretation of the clue should be a *Tempo Clue Chop Move*.
+* However, this interpretation does not apply when:
+  * the clue unlocks a player's hand
+  * it gets two or more cards played in total (using cards in someone else's hand)
+* Furthermore, it also does not apply when the second card touched is strictly not playable. In this situations, all players can see that since only one card is getting tempo, the interpretation of the clue should be a *Tempo Clue Chop Move*.
 * However, if the other players can see that the card being chop moved is useless (or not very good), it implies a *Finesse* on the touched cards that are not strictly playable right now.
 
 ### Early Fix Clue Chop Moves
