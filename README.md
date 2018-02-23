@@ -716,6 +716,14 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
 * Given enough negative clues on a card (and potentially some ancillary information based on the history of the game), it is possible to narrow down the identity of an unclued card in your hand to possibilities that only include playable cards that are not already touched in someone else's hand.
 * In this situation, you are expected to blind play the card.
 
+### Reverse Misplay Chop Move
+
+* Sometimes, a *Misplay Chop Move* will not immediately misplay because of circumstances similar to *Focus Inversion*, meaning that there is:
+  * negative clues present on the card
+  * historical / contextual information about the card (derived from moves that teammates performed earlier on in the game)
+* In such a scenario, the clue will look like a *Reverse Finesse* and then next person will misplay their *Finesse Position* card.
+* After the misplay, the person who received the clue is to treat it like a normal *Misplay Chop Move*, and chop move all the cards to the right of the clued card.
+
 ### Elimination Bluffs / Elimination Layered Finesses
 
 * It is possible to lie to a player who has *Elimination Notes* on their hand and pretend like you are performing an *Elimination Finesse* on them, causing them to play their oldest card as per the convention. This can cause an unrelated playable card to play.
