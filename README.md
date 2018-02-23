@@ -551,8 +551,10 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
 
 ### Crazy 3s & Crazy 4s Save
 
-* When playing the *Wild and Crazy* variant, a second exception to the *Black 3 and Black 4 Saves* convention is added:
-  * if there is a blocking rainbow card in the player's hand
+* In the *Black One-of-Each* variant, it is not possible to violate *Good Touch Principle* by cluing black to save a Black 3 or a Black 4.
+* However, in the *Wild and Crazy* variant, it is possible, because there can be other useless rainbow cards in the hand.
+* Thus, for the *Wild and Crazy* variant, a second exception to the *Black 3 and Black 4 Saves* convention is added:
+  * if the number clue was required to avoid violating *Good Touch Principle*
 
 ### Negative Prompts
 
