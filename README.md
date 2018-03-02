@@ -45,9 +45,9 @@ This document is split up into different sections so that you can better digest 
 ## Quick Links
 
 * This document assumes that you are ALREADY familiar with the basic rules of Hanabi. If you need to brush up on them, see [this Pastebin written by Tricky](http://pastebin.com/6brGz2J4).
-* The best place to play Hanabi online is at 
+* The best place to play Hanabi online is at
 [Hanabi Live](http://hanabi.live/).
-* Find other people to play with and discuss strategy with on the [Hanabi Discord server](https://discord.gg/FADvkJp). 
+* Find other people to play with and discuss strategy with on the [Hanabi Discord server](https://discord.gg/FADvkJp).
 (Discord is a voice and text chat application that you can run in a browser.)
 
 <br />
@@ -142,7 +142,7 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
 
 * As mentioned above, cluing 5's off-chop with a number 5 clue is **mandatory** in the *Early Game*.
   * The exception to this is if there is an off-chop 5 in the hand of the player that came immediately before you (because they gave you permission to discard). In this situation, you can clue it if you want to.
-* In the *Mid-Game* and beyond, saving 5s off chop is only permitted in specific "stall" situations, when someone is afraid of discarding. If it is not a "stall" situation, cluing a 5 off-chop may look like a **5's Chop Move**.
+* In the *Mid-Game* and beyond, saving 5s off chop is only permitted in specific "stall" situations, when someone is afraid of discarding. If it is not a "stall" situation, cluing a 5 off-chop may look like a *5's Chop Move* (which is covered later).
 
 ### Saving 2s on Chop
 
@@ -217,8 +217,7 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
 * *5's Chop Moves* are different from *1's Chop Moves* in that you can ONLY chop move ONE card with it. Thus, if you clue a 5 and it is TWO (or more) slots away from the chop, then it is to be assumed to be a *Play Clue* on the 5.
 * When you get clued a 5, the *5's Chop Move* interpretation ALWAYS takes precedence over a play clue interpretation.
 
-### The Scream Discard Chop Move
- (Deliberately Discarding Instead of Playing)
+### The Scream Discard Chop Move (Deliberately Discarding Instead of Playing)
 
 * The *Chop Move* outlined above is a tool to save multiple cards with one clue. However, sometimes you may not have a clue at all. One way to solve this situation is with a special kind of discard.
 * Typically, discarding is a last resort. So, if you have a known playable card in your hand, you can send a powerful signal to your partner by discarding. This is called a *Scream Discard*. Since your partner expected you to play the card, it is like screaming at them to let them know that things are very bad.
@@ -226,7 +225,7 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
 * Furthermore, the player being "screamed at" is not allowed to discard on this turn. They must make some clue. Clues in this situation are treated the same as a *Double Discard Situation* (see *Avoiding Double Discards* below).
 * Players are only allowed to *Scream Discard* for cards that are playable or critical.
 (You are not allowed to Scream Discard for a card that is one away from being playable.)
-* *Scream Discards* do NOT apply when a player has a "blind" card to play in their hand AND the blind card could exist in your hand. This is a special exception that you have to remember. When this happens, you will usually want to blind play your finesse position card, since this sequence of events indicates either an *Ambiguous Finesse* or a *Pass Bluff*.
+* *Scream Discards* do NOT apply when a player has a "blind" card to play in their hand AND the blind card could exist in your hand. This is a special exception that you have to remember. When this happens, you will usually want to blind play your *Finesse Position* card, since this sequence of events indicates either an *Ambiguous Finesse* or a *Pass Bluff*.
 
 ### Tempo Clues (Re-cluing a Card)
 
@@ -315,12 +314,11 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
 ### Ambiguous Finesses
 
 * Sometimes, the person who is supposed to blind play a card into a *Finesse* is ambiguous. For example, on the first turn of a 4 player game, Player 1 clues player 4 about a Red 2. Both player 2 and player 3 have red 1 on their *Finesse Position*.
-* In this situation, player 2 would think it is a *Reverse Finesse *directed at player 3, and discard. Next, player 3 might think that player 2 made a mistake and "missed" the *Finesse*, discarding himself.
+* In this situation, player 2 would think it is a *Reverse Finesse* directed at player 3, and discard. Next, player 3 might think that player 2 made a mistake and "missed" the *Finesse*, discarding himself.
 * Here, player 3 is actually the one making the mistake. It follows from *High-Value Principle* that you should never assume that your teammates are making a mistake. If player 2 is discarding, then it means that player 3 also has the exact same copy of the card, and player 3 should immediately blind play.
-  * It is also possible that player 2 is performing a special move called a *Hesitation Blind Play*, which is covered later on in the document.
+  * It is also possible that player 2 is performing a special move called a *Pass Bluff* (which is covered later on in the document).
 
-### Positional Discards
- (Indicating a Play with a Discard)
+### Positional Discards (Indicating a Play with a Discard)
 
 * On the final go-around of the game, if you have no clues left and no cards to play, you can transmit information based on which card you discard.
 * Thus, you can discard the slot in your hand that matches the slot in someone else's hand that they are supposed to play.
@@ -613,13 +611,13 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
 
 ### Elimination Finesses
 
-* Normally, if a player is finessed, they are supposed to play their finesse position card. However, if the player has two or more elimination notes in their hand for the specific finessed card, they know that it cannot be on finesse position.
+* Normally, if a player is *Finessed*, they are supposed to play their *Finesse Position* card. However, if the player has two or more *Elimination Notes* in their hand for the specific finessed card, they know that it cannot be on *Finesse Position*. (This follows from *Information Lock Principle*.)
 * In this situation, the player is expected to play the OLDEST of the cards with the elimination notes on them.
 
 ### Patch Finesses
 
 * If a player performs a *Layered Finesse* through a card that is one-away from being playable, it is possible to see that an impending misplay will occur.
-* This is a signal to you that you need to "patch" the problem, so you have the matching card in your finesse position to make the one-away card actually playable.
+* This is a signal to you that you need to "patch" the problem, so you have the matching card in your *Finesse Position* to make the one-away card actually playable.
 * In general, you must give preference to a patch interpretation. Thus, you might need to hold off before playing a card for a while to see if a patch blind-play occurs.
 
 ### Reverse Bluffs / Out-of-Position Bluffs (bad)
@@ -648,7 +646,7 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
 * For example:
   * Yellow 1 and 2 are currently played in the middle.
   * Player 1 clues a yellow 5 in player 4's hand with a yellow color play clue.
-  * Player 2 thinks he has yellow 3 and yellow 4. They blind-play their finesse position card, but it is actually a blue 1.
+  * Player 2 thinks he has yellow 3 and yellow 4. They blind-play their *Finesse Position* card, but it is actually a blue 1.
   * Player 3 sees that player 2 blind-played because of the yellow clue. However, since the yellow 5 is two away instead of 1 away, it must mean that it is a double bluff instead of a single bluff, so player 3 blind plays slot 1 and it is red 1.
   * Player 4 knows that this yellow card must be yellow 5 because it caused 2 blind plays.
 * Normally, you are only allowed to bluff while in bluff position. But *Double Bluffs* do not violate *Good Lie Principle*, and thus they are allowed.
@@ -674,7 +672,7 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
 ### The Lost Tempo Priority Finesse
 
 * When a player has a choice between two playable cards to play, they always choose the card that leads towards someone else's hand. So, when a player does not do this, it is very strange.
-* In this situation, if you see a player choose not to play a card in this way AND it deliberately loses tempo, they are playing towards a card on your finesse position.
+* In this situation, if you see a player choose not to play a card in this way AND it deliberately loses tempo, they are playing towards a card on your *Finesse Position*.
 * Note that for this to work, the player choosing priority must have full knowledge of the two cards that they are prioritizing.
 
 ### The Hesitation Blind Play
@@ -682,7 +680,7 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
 * If you see that someone gets a play clue on a card and they discard instead of playing it, this would normally be a *Scream Discard*. However, sometimes you know from the context of the game that your chop has to be safe.
 * In such a situation, the only reason that they would discard is that they are allowing for the possibility of a *Reverse Finesse*, and that you have a playable card on your newest that "matches" the card that they got the play clue on. Thus, you may want to blind play your newest.
 * If there is no intermediary players in between the blind player and the player who received the play clue, great care must be taken to not blind play anything that implies a Double Finesse with a "self" component on the player who received the play clue. Thus, the player blind playing must evaluate what would happen for all 6 cards that he could be blind playing.
-  * For example, if a 4 number clue causes a hesitation blind play of a red 2 and then the person who received the 4 clue comes immediately afterwards, they will misplay their finesse position card as a red 3.
+  * For example, if a 4 number clue causes a hesitation blind play of a red 2 and then the person who received the 4 clue comes immediately afterwards, they will misplay their *Finesse Position* card as a red 3.
 
 ### Pass Bluffs
 
@@ -696,7 +694,7 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
 ### The Hesitation Chop Move
 
 * Remember that as a special exception, *Scream Discards* do NOT apply when a player has a "blind" card to play in their hand AND the blind card can exist in your hand.
-* Thus, when this occurs, you will usually want to blind play your finesse position card, since this sequence of events indicates either an *Ambiguous Finesse* or a *Pass Bluff*.
+* Thus, when this occurs, you will usually want to blind play your *Finesse Position* card, since this sequence of events indicates either an *Ambiguous Finesse* or a *Pass Bluff*.
 * When you blind play a card in this situation and it misplays, it means that the unusual discard really was a *Scream Discard* after all, so you should treat it like a normal *Scream Discard* and permanently chop move.
 * This is called a *Hesitation Chop Move* for short, since it was triggered by a (failed) *Hesitation Blind Play*.
 
@@ -732,12 +730,12 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
 
 ### Promise Bluffs
 
-* Typically, we are only allowed to *Bluff *with cards that are 1-away (normal *Bluff*) or a 3 (*3 Bluff*) or a critical 4 (*Critical 4 Bluff*). However, *Bluffs* can also be performed with cards that are 2 away if the true intermediary card exists on someone's *Finesse Position*. Doing such a move is essentially like doing a *Bluff* and a Finesse at the same time, with one component of each. This is called a *Promise Bluff*, because it promises the true card in addition to being a *Bluff*.
-* For example, in the following screenshot, the P4 was saved with a 4 clue originally and is known P4. Then, it is colored in with purples. Cak199164 plays M2 thinking that he is playing P2. And it also promises to MeGotsThis that he has P3 on *Finesse Position*:
+* Typically, we are only allowed to *Bluff* with cards that are 1-away (normal *Bluff*) or a 3 (*3 Bluff*) or a critical 4 (*Critical 4 Bluff*). However, *Bluffs* can also be performed with cards that are 2 away if the true intermediary card exists on someone's *Finesse Position*. Doing such a move is essentially like doing a *Bluff* and a *Finesse* at the same time, with one component of each. This is called a *Promise Bluff*, because it promises the true one-away card in addition to being a *Bluff*.
+* For example, in the following screenshot, the purple 4 was saved with a 4 clue originally and is known purple 4. Then, it is colored in with purples. Cak199164 plays rainbow 2 thinking that he is playing purple 2. And it also promises to MeGotsThis that he has purple 3 on *Finesse Position*:
 
 ![Promise Bluff](promise_bluff.png)
 
-* *Promise Bluffs* take priority over *Double Bluffs*; Zamiel assumes that it is a *Promise Bluff* since he sees the true connecting card. So, since Zamiel does not blind play his finesse position card, MeGotsThis can know it was a Promise Bluff instead of a Double Bluff. (And also because Zamiel's Finesse position card is junk.)
+* *Promise Bluffs* take priority over *Double Bluffs*; Zamiel assumes that it is a *Promise Bluff* since he sees the true connecting card. So, since Zamiel does not blind play his *Finesse Position* card, MeGotsThis can know it was a Promise Bluff instead of a Double Bluff. (And also because Zamiel's *Finesse Position* card is junk.)
   * As the receiver of the clue that initiates a *Promise Bluff*, it may be ambiguous as to what exactly the connecting card is, if it exists. As long as there is at least one candidate on someone's *Finesse Position*, then you have to assume a *Promise Bluff* over a *Double Bluff*.
 * Promise Bluffs also take priority over *Layered Finesses*. This isn't normally an issue, since it is rare to actually to perform a *Layered Finesse* from *Bluff Position*, but it is worth mentioning.
 
