@@ -702,7 +702,7 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
 
 ![Triple Bluff](triple_bluff.png)
 
-* In this screenshot, if Zealousy blind played a red 2 from newest, then it would be a *Triple Two-Thirds Bluff* instead of a *Triple Bluff*.
+* In this screenshot, if Zealousy blind played a red 2 from newest AND the focus of the initial clue was red 4, then it would be a *Triple Two-Thirds Bluff* instead of a *Triple Bluff*.
 
 ### Good Touch Bluff
 
