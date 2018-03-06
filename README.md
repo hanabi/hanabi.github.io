@@ -120,8 +120,14 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
 ### The Early Game
 
 * The *Early Game* is defined as the period of time before someone discards for the first time. When they do, they initiate the *Mid-Game*. The general goal of the *Early Game* is to extend it for as long as reasonably possible.
-* In the *Early Game*, you MUST "extinguish" all of the available *Play Clues* and *Save Clues* on the board before discarding.
-* If possible, this ALSO includes cluing at least one off-chop 5 with number 5. This is special, because you can't normally do this during the *Mid-Game*; see *Saving 5's off Chop* below.
+  * Misplaying a card does NOT count as ending the *Early Game*.
+  * Discarding known trash does NOT count as ending the *Early Game*.
+  * Doing special discards that "transfer" cards to other players does NOT count as ending the *Early Game*.
+* In the *Early Game*, everyone agrees that they MUST "extinguish" all of the available *Play Clues* and *Save Clues* on the board before discarding. (There are no cards in the discard pile yet, but *Save Clues* still need to be given to all of the 5s on chop and all of the 2s on chop that are not present in someone else's hand.)
+* As an exception to the above rule, if the only thing left to clue is in the hand of the person who came directly before you, then cluing is optional, and you can choose to either clue it or discard at your discretion. This is because the player who came before you did not see anything for you to do, and is therefore giving you "permission" to discard.
+* Furthermore, as a "special" rule to extend the *Early Game*, you can also clue off-chop 5s with number 5 as an early-save. This is special because you can't normally do this during the *Mid-Game*; see *Saving 5's off Chop* below.
+* As another special rule, for the purposes of satisfying the "extinguish" principle above, it is only mandatory to clue at least ONE off-chop 5s. After that, players are allowed to discard at their discretion.
+  * Thus, if no off-chop 5s have been clued yet and you see that the next player can do that, you can safely let something important ride on their chop. Conversely, if at least one off-chop 5 has been clued, you must save the next person's chop right now.
 
 ### When to Discard
 
@@ -140,9 +146,7 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
 
 ### Saving 5s off Chop
 
-* As mentioned above, cluing at least one off-chop 5 with a number 5 clue is **mandatory** in the *Early Game*.
-* 
-* The exception to this rule is if there is an 5 in the hand of the player that came immediately before you (because they gave you permission to discard). In this situation, you can clue it if you want to.
+* As mentioned above, cluing at least one off-chop 5 with a number 5 clue (if available) is **mandatory** in the *Early Game*.
 * In the *Mid-Game* and beyond, saving 5s off chop is only permitted in specific "stall" situations, when someone is afraid of discarding. If it is not a "stall" situation, cluing a 5 off-chop may look like a *5's Chop Move* (which is covered later).
 
 ### Saving 2s on Chop
@@ -785,18 +789,6 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
 ## Non-Formalized Proposals
 
 These are moves that are proposed by certain members of the group. However, they have not yet reached a consensus that they are good enough to play with by default.
-
-### The Early Game
-
-* The *Early Game* is defined as the period of time before someone discards for the first time. When they do, they initiate the *Mid-Game*. The general goal of the *Early Game* is to extend it for as long as reasonably possible.
-  * Misplaying a card does NOT count as ending the *Early Game*.
-  * Discarding known trash does NOT count as ending the *Early Game*.
-  * Doing special discards that "transfer" cards to other players does NOT count as ending the *Early Game*.
-* In the *Early Game*, everyone agrees that they MUST "extinguish" all of the available *Play Clues* and *Save Clues* on the board before discarding. (There are no cards in the discard pile yet, but *Save Clues* still need to be given to all of the 5s on chop and all of the 2s on chop that are not present in someone else's hand.)
-* As an exception to the above rule, if the only thing left to clue is in the hand of the person who came directly before you, then cluing is optional, and you can choose to either clue it or discard at your discretion. This is because the player who came before you did not see anything for you to do, and is therefore giving you "permission" to discard.
-* Furthermore, as a "special" rule to extend the *Early Game*, you can also clue off-chop 5s with number 5 as an early-save. This is special because you can't normally do this during the *Mid-Game*; see *Saving 5's off Chop* below.
-* As another special rule, for the purposes of satisfying the "extinguish" principle above, it is only mandatory to clue at least ONE off-chop 5s. After that, players are allowed to discard at their discretion.
-  * Thus, if no off-chop 5s have been clued yet and you see that the next player can do that, you can safely let something important ride on their chop. Conversely, if at least one off-chop 5 has been clued, you must save the next person's chop right now.
 
 ### White Power
 
