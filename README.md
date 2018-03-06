@@ -244,7 +244,7 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
   6. When the clue receiver is receiving a tempo clue on a card that unlocks someone else's hand
   7. When there are 8 clues in the bank (a forced clue)
   8. When there are 7 clues in the bank (since discarding would take the team to 8 clues, which is generally bad)
-  9. When in "end-game" or the team is behind pace (specifically, when score + deck is 30 or below in rainbow games or 25 and below in normal games)
+  9. When in "end-game" or the team is behind pace (specifically, when score + deck is below the maximum score)
   10.  When the game has been going so well that further clue efficiency is no longer required to win the game
   11.  When the tempo clue gets 2 or more cards played.
 * *Tempo Clues* that are done outside of these special circumstances are a different convention called *Tempo Clue Chop Moves*, which are detailed further on in this document.
