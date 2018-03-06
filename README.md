@@ -793,9 +793,9 @@ These are moves that are proposed by certain members of the group. However, they
 ### White Power
 
 * This convention only applies to the *Colorless & Rainbow Suits* variant.
-* When you clue a white 5 one away from chop, it would normally look like a *5's Chop Move*. This move is commonly done in order to save "1-away" cards.
-* However, if the white 5 is chop moving a one-away card, it is to be instead treated as a *Play Clue*, implying a *Prompt* or a *Finesse*.
-* *White Power* does not apply if the white 5 is chop moving a critical and/or playable card.
+* When you clue a white 5 one away from chop, it would normally look like a *5's Chop Move*.
+* However, if the white 4 is currently played, this kind of clue is always to be interpretted as a play clue on the white 5 instead of a chop move.
+* This is called *White Power* because the *Play Clue* interpretation overpowers *5's Chop Move* interpretation.
 
 <br />
 
