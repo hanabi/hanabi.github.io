@@ -119,9 +119,9 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
 
 ### The Early Game
 
-* The *Early Game* is defined as the period of time before someone discards for the first time. When they do, they initiate the *Mid-Game*. The goal of the *Early Game* is to extend it for as long as reasonably possible.
+* The *Early Game* is defined as the period of time before someone discards for the first time. When they do, they initiate the *Mid-Game*. The general goal of the *Early Game* is to extend it for as long as reasonably possible.
 * In the *Early Game*, you MUST "extinguish" all of the available *Play Clues* and *Save Clues* on the board before discarding.
-* This ALSO includes cluing all of the non-chop 5s with number 5 (see *Saving 5's off Chop* below). This is special, because you can't normally do this during the *Mid-Game*.
+* If possible, this ALSO includes cluing at least one off-chop 5 with number 5. This is special, because you can't normally do this during the *Mid-Game*; see *Saving 5's off Chop* below.
 
 ### When to Discard
 
@@ -140,8 +140,9 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
 
 ### Saving 5s off Chop
 
-* As mentioned above, cluing 5's off-chop with a number 5 clue is **mandatory** in the *Early Game*.
-  * The exception to this is if there is an off-chop 5 in the hand of the player that came immediately before you (because they gave you permission to discard). In this situation, you can clue it if you want to.
+* As mentioned above, cluing at least one off-chop 5 with a number 5 clue is **mandatory** in the *Early Game*.
+* 
+* The exception to this rule is if there is an 5 in the hand of the player that came immediately before you (because they gave you permission to discard). In this situation, you can clue it if you want to.
 * In the *Mid-Game* and beyond, saving 5s off chop is only permitted in specific "stall" situations, when someone is afraid of discarding. If it is not a "stall" situation, cluing a 5 off-chop may look like a *5's Chop Move* (which is covered later).
 
 ### Saving 2s on Chop
@@ -564,6 +565,24 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
 
 ## Level 3 - Rarely Used Advanced Strategies
 
+### Hard Bluff
+
+* Sometimes, it can be ambiguous as to whether a player blind played a card into a *Bluff* or a *Finesse* + *Prompt*. In this situation, *Occam's Razor* applies, so players should always opt with the former (simpler) interpretation. When such a *Bluff* occurs, it is called a *Hard Bluff* to disambiguate from situations where *Bluffs* happen with no ambiguity.
+* For example, this is a *Finesse* + *Prompt* and NOT a *Hard Bluff*:
+  * Only red 1 is played on the stacks. No cards are in the discard pile.
+  * Cathy has a 3 clued in her hand (with no color information on it).
+  * Alice clues Cathy about a brand new 4.
+  * Bob blind plays red 2.
+  * Cathy sees that the highest stack is the red stack, so the 4 was that clued in her hand must be "2-away" instead of "1-away" like in what happens with normal bluffs.
+  * Thus, Cathy DOES read it as a *Bluff*; she is promised red 3 and red 4, so plays the unknown 3 as red 3.
+* For example, this IS a *Hard Bluff*:
+  * Red 1 AND blue 2 are played on the stacks. No cards are in the discard pile.
+  * Cathy has a 3 clued in her hand (with no color information on it).
+  * Alice clues Cathy about a brand new 4.
+  * Bob blind plays red 2.
+  * This could be a normal *Bluff* if the 4 in her hand is blue 4, since blue 4 is currently "1-away". Thus, Cathy DOES NOT assume that her 4 is red 4, and subsequently, does DOES NOT assume that her unknown 3 is a red 3. However, it could ALSO be the case that the 4 is a red 4 (if the 3 in her hand happens to be red 3).
+  * Thus, Cathy marks down both possibilities for later and does not play anything right now.
+
 ### The Setup Clue
 
 * In the *Early Game*, the order of operations is usually:
@@ -767,7 +786,24 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
 
 These are moves that are proposed by certain members of the group. However, they have not yet reached a consensus that they are good enough to play with by default.
 
-* n/a
+### The Early Game
+
+* The *Early Game* is defined as the period of time before someone discards for the first time. When they do, they initiate the *Mid-Game*. The general goal of the *Early Game* is to extend it for as long as reasonably possible.
+  * Misplaying a card does NOT count as ending the *Early Game*.
+  * Discarding known trash does NOT count as ending the *Early Game*.
+  * Doing special discards that "transfer" cards to other players does NOT count as ending the *Early Game*.
+* In the *Early Game*, everyone agrees that they MUST "extinguish" all of the available *Play Clues* and *Save Clues* on the board before discarding. (There are no cards in the discard pile yet, but *Save Clues* still need to be given to all of the 5s on chop and all of the 2s on chop that are not present in someone else's hand.)
+* As an exception to the above rule, if the only thing left to clue is in the hand of the person who came directly before you, then cluing is optional, and you can choose to either clue it or discard at your discretion. This is because the player who came before you did not see anything for you to do, and is therefore giving you "permission" to discard.
+* Furthermore, as a "special" rule to extend the *Early Game*, you can also clue off-chop 5s with number 5 as an early-save. This is special because you can't normally do this during the *Mid-Game*; see *Saving 5's off Chop* below.
+* As another special rule, for the purposes of satisfying the "extinguish" principle above, it is only mandatory to clue at least ONE off-chop 5s. After that, players are allowed to discard at their discretion.
+  * Thus, if no off-chop 5s have been clued yet and you see that the next player can do that, you can safely let something important ride on their chop. Conversely, if at least one off-chop 5 has been clued, you must save the next person's chop right now.
+
+### White Power
+
+* This convention only applies to the *Colorless & Rainbow Suits* variant.
+* When you clue a white 5 one away from chop, it would normally look like a *5's Chop Move*. This move is commonly done in order to save "1-away" cards.
+* However, if the white 5 is chop moving a one-away card, it is to be instead treated as a *Play Clue*, implying a *Prompt* or a *Finesse*.
+* *White Power* does not apply if the white 5 is chop moving a critical and/or playable card.
 
 <br />
 
@@ -818,3 +854,5 @@ These are moves that are proposed by certain members of the group. However, they
 | Elimination Bluffs | Zamiel
 | Elimination Layered Finesse | Zamiel
 | Modified Black 3 / Black 4 Saves | Florrat
+| Early Game | Libster and Florrat
+| White Power | Postmans
