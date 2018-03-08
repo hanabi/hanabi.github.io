@@ -790,12 +790,26 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
 
 These are moves that are proposed by certain members of the group. However, they have not yet reached a consensus that they are good enough to play with by default.
 
-### White Power
+### White Compromise
 
 * This convention only applies to the *Colorless & Rainbow Suits* variant.
 * When you clue a white 5 that is one away from chop, it would normally look like a *5's Chop Move*.
-- However, if white 4 is currently played, all 5 clues that could be *5's Chop Moves* are instead *Play Clues* on white 5.
-* This is called *White Power* because the *Play Clue* interpretation overpowers *5's Chop Move* interpretation.
+* However, if white 4 is currently played, all 5 clues that could be *5's Chop Moves* are instead *Play Clues* on white 5.
+
+### Acid Trip Colors
+
+* These conventions only apply to the *Acid Trip* variant.
+* Cards with color clues on them are not treated as clued cards. In other words, your chop is your right-most (oldest) card without a number clue on it.
+* Number clues mean the same thing as normal.
+* All color clues have a special meaning:
+  * Blue means play slot 1.
+  * Green means play slot 2.
+  * Yellow means play slot 3.
+  * Red means play slot 4.
+  * Purple means play slot 5 (in 2 and 3 player games).
+  * Purple means play slot 1 AND the next person plays their *Finesse Position* card (in 4 and 5 player games).
+  * Orange means chop move.
+* All color clues have to be treated as potential *Delayed Play Clues*, *Prompts*, and *Reverse Finesses*.
 
 <br />
 
@@ -845,6 +859,7 @@ These are moves that are proposed by certain members of the group. However, they
 | Good Touch Bluff | Postmans
 | Elimination Bluffs | Zamiel
 | Elimination Layered Finesse | Zamiel
-| Modified Black 3 / Black 4 Saves | Florrat
-| Early Game | Libster and Florrat
-| White Power | Postmans
+| Modified Black 3 & Black 4 Saves | Florrat
+| Modified Early Game | Libster and Florrat
+| White Compromise | Postmans
+| Acid Trip Colors | Zamiel
