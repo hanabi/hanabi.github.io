@@ -593,7 +593,7 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
   * give play clues
   * give save clues to cards that are on chop
   * clue off-chop 5s
-* Thus, in the *Early Game*, if someone jumps ahead and ignores all of the play clues on the board to clue an off-chop 5, this is very strange, and would usually communicate an advanced strategy like a *Finesse*.
+* Thus, in the *Early Game*, if someone jumps ahead and ignores all of the *Play Clues* and *Save Clues* on the board to clue an off-chop 5, this is very strange, and would usually communicate an advanced strategy like a *Finesse*.
 * However, if by cluing the 5, it moved that player's *Finesse Position* card to a playable card, then the point of the 5's clue may have been to set up a *Finesse* or *Bluff* of some kind.
 * Subsequently, if you see that an off-chop 5's clue allowed a *Finesse* or *Bluff* to occur, then you should not read very strongly into the original 5's clue.
 
