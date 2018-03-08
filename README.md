@@ -230,7 +230,15 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
 * Furthermore, the player being "screamed at" is not allowed to discard on this turn. They must make some clue. Clues in this situation are treated the same as a *Double Discard Situation* (see *Avoiding Double Discards* below).
 * Players are only allowed to *Scream Discard* for cards that are playable or critical.
 (You are not allowed to Scream Discard for a card that is one away from being playable.)
-* *Scream Discards* do NOT apply when a player has a "blind" card to play in their hand AND the blind card could exist in your hand. This is a special exception that you have to remember. When this happens, you will usually want to blind play your *Finesse Position* card, since this sequence of events indicates either an *Ambiguous Finesse* or a *Pass Bluff*.
+* There are two exceptions to the *Scream Discards* convention:
+  * It is not a *Scream Discard* if the next player HAS to generate a clue for a separate reason. This is called a *Generation Discard*; see below.
+  * It is not a *Scream Discard* when the card that the player did not play was a "blind" card AND they could see the blind card in your hand. When this happens, you will usually want to blind play your *Finesse Position* card, since this sequence of events indicates either an *Ambiguous Finesse* or a *Pass Bluff*.
+
+### The Generation Discard
+
+* Usually, if someone has a known playable card and they discard instead of playing that card, this would indicate a *Scream Discard Chop Move*.
+* However, if playing the card (player 1) would cause the next player to discard (player 2) and the next player after that (player 3) to have a critical and/or playable card "ride" on chop, it is a very bad situation. Thus, the discard is JUST for the purposes of generating a clue so that player 2 can clue player 3.
+* The *Generation Discard* is ONLY to be used as a last resort. If player 3 has something else to do (like play a card or give some obvious clue), then it is NOT a *Generation Discard*, and is instead to be interpretted as a *Scream Discard Chop Move*.
 
 ### Tempo Clues (Re-cluing a Card)
 
@@ -810,6 +818,22 @@ These are moves that are proposed by certain members of the group. However, they
   * Purple means play slot 1 AND the next person plays their *Finesse Position* card (in 4 and 5 player games).
   * Orange means chop move.
 * All color clues have to be treated as potential *Delayed Play Clues*, *Prompts*, and *Reverse Finesses*.
+
+## New Early Game
+
+* (see above)
+
+## Hard Bluffs
+
+* (see above)
+
+## Scream Discard Exceptions
+
+* (see above)
+
+## The Generation Discard
+
+* (see above)
 
 <br />
 
