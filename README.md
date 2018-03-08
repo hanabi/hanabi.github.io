@@ -862,4 +862,4 @@ These are moves that are proposed by certain members of the group. However, they
 | Modified Black 3 & Black 4 Saves | Florrat
 | Modified Early Game | Libster and Florrat
 | White Compromise | Postmans
-| Acid Trip Colors | Zamiel
+| Acid Trip Colors | Zamiel and Florrat
