@@ -577,7 +577,7 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
 
 ## Level 3 - Rarely Used Advanced Strategies
 
-### Hard Bluff
+### Hard Bluffs
 
 * Sometimes, it can be ambiguous as to whether a player blind played a card into a *Bluff* or a *Finesse* + *Prompt*. In this situation, *Occam's Razor* applies, so players should always opt with the former (simpler) interpretation. When such a *Bluff* occurs, it is called a *Hard Bluff* to disambiguate from situations where *Bluffs* happen with no ambiguity.
 * For example, this is a *Finesse* + *Prompt* and NOT a *Hard Bluff*:
@@ -585,8 +585,8 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
   * Cathy has a 3 clued in her hand (with no color information on it).
   * Alice clues Cathy about a brand new 4.
   * Bob blind plays red 2.
-  * Cathy sees that the highest stack is the red stack, so the 4 was that clued in her hand must be "2-away" instead of "1-away" like in what happens with normal bluffs.
-  * Thus, Cathy DOES read it as a *Bluff*; she is promised red 3 and red 4, so plays the unknown 3 as red 3.
+  * In a normal Bluff, a "1-away" card is clued. However, Cathy sees that the highest stack is the red stack, so the 4 in her hand must be "2-away".
+  * Thus, Cathy does NOT read it as a *Bluff*; she is promised red 3 and red 4, so she plays the unknown 3 as red 3.
 * For example, this IS a *Hard Bluff*:
   * Red 1 AND blue 2 are played on the stacks. No cards are in the discard pile.
   * Cathy has a 3 clued in her hand (with no color information on it).
