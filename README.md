@@ -560,6 +560,18 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
 * When performing a *Prompt* by touching a sole rainbow card, the player doing the clue may have a free choice between multiple colors. In other words, there may exist multiple colors that will ONLY touch the rainbow card.
 * If a player has a free choice to choose the color that matches the intended prompt target but instead deliberately chooses a different color, this signals that it is a *Finesse* instead of a *Prompt*, and they should blind-play their newest.
 
+### White Compromise
+
+* This convention only applies to the *Colorless & Rainbow Suits* variant.
+* When you clue a white 5 that is one away from chop, it would normally look like a *5's Chop Move*.
+* However, if white 4 is currently played, all 5 clues that could be *5's Chop Moves* are treated instead *Play Clues* on white 5.
+
+### Negative Prompts
+
+* This convention ONLY applies when playing the "Dual-color Suits" variant.
+* In this variant, since negative color information conveys just as much information as positive color information, you should include that when deciding which card to play into a prompt.
+* For example, if you have a red card in slot 1 with no negative clues, and a red card in slot 2 with negative yellow, then normally you would play left-most if a Magenta card was prompted. But with this convention you would play slot 2.
+
 ### Crazy 3s & Crazy 4s Save
 
 * In the *Black One-of-Each* variant, it is not possible to violate *Good Touch Principle* by cluing black to save a Black 3 or a Black 4.
@@ -567,11 +579,20 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
 * Thus, for the *Wild and Crazy* variant, a second exception to the *Black 3 and Black 4 Saves* convention is added:
   * if the number clue was required to avoid violating *Good Touch Principle*
 
-### Negative Prompts
+### Acid Trip Colors
 
-* This convention ONLY applies when playing the "Dual-color Suits" variant.
-* In this variant, since negative color information conveys just as much information as positive color information, you should include that when deciding which card to play into a prompt.
-* For example, if you have a red card in slot 1 with no negative clues, and a red card in slot 2 with negative yellow, then normally you would play left-most if a Magenta card was prompted. But with this convention you would play slot 2.
+* These conventions only apply to the *Acid Trip* variant.
+* Cards with color clues on them are not treated as clued cards. In other words, your chop is your right-most (oldest) card without a number clue on it.
+* Number clues mean the same thing as normal.
+* All color clues have a special meaning:
+  * Blue means play slot 1.
+  * Green means play slot 2.
+  * Yellow means play slot 3.
+  * Red means play slot 4.
+  * Purple means play slot 5 (in 2 and 3 player games).
+  * Purple means play slot 1 AND the next person plays their *Finesse Position* card (in 4 and 5 player games).
+  * Orange means chop move.
+* All color clues have to be treated as potential *Delayed Play Clues*, *Prompts*, and *Reverse Finesses*.
 
 <br />
 
@@ -798,42 +819,7 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
 
 These are moves that are proposed by certain members of the group. However, they have not yet reached a consensus that they are good enough to play with by default.
 
-### White Compromise
-
-* This convention only applies to the *Colorless & Rainbow Suits* variant.
-* When you clue a white 5 that is one away from chop, it would normally look like a *5's Chop Move*.
-* However, if white 4 is currently played, all 5 clues that could be *5's Chop Moves* are instead *Play Clues* on white 5.
-
-### Acid Trip Colors
-
-* These conventions only apply to the *Acid Trip* variant.
-* Cards with color clues on them are not treated as clued cards. In other words, your chop is your right-most (oldest) card without a number clue on it.
-* Number clues mean the same thing as normal.
-* All color clues have a special meaning:
-  * Blue means play slot 1.
-  * Green means play slot 2.
-  * Yellow means play slot 3.
-  * Red means play slot 4.
-  * Purple means play slot 5 (in 2 and 3 player games).
-  * Purple means play slot 1 AND the next person plays their *Finesse Position* card (in 4 and 5 player games).
-  * Orange means chop move.
-* All color clues have to be treated as potential *Delayed Play Clues*, *Prompts*, and *Reverse Finesses*.
-
-## New Early Game
-
-* (see above)
-
-## Hard Bluffs
-
-* (see above)
-
-## Scream Discard Exceptions
-
-* (see above)
-
-## The Generation Discard
-
-* (see above)
+n/a
 
 <br />
 
