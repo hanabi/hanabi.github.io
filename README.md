@@ -845,7 +845,7 @@ These are moves that are proposed by certain members of the group. However, they
 | Chop Focus | Zamiel and Hyphen-ated
 | Layered Finesse | Antizoubilamka
 | Clandestine Finesse | Antizoubilamka
-| Patch Finesse | Zamiel
+| Patch Finesse | Zamiel and Libster
 | 3 Bluff | Hyphen-ated
 | Double Bluff | Hyphen-ated
 | Double Half Bluff | Hyphen-ated
