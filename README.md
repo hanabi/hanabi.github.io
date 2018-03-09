@@ -852,7 +852,7 @@ These are moves that are proposed by certain members of the group. However, they
 | Triple Bluff | Zamiel
 | Triple Two-Thirds Bluff | Zamiel
 | Playing 1s from Right to Left | Duneaught
-| The 8 First Principles | Duneaught
+| The 9 First Principles | Duneaught
 | Gentleman's Discard | Duneaught
 | Double Gentleman's Discard | Duneaught
 | Layered Gentleman's Discard | Duneaught
@@ -875,15 +875,20 @@ These are moves that are proposed by certain members of the group. However, they
 | The Crazy 8s Save | Hyphen-ated
 | Negative Prompts | Zamiel and Libster
 | Weak Prompts | Hyphen-ated
+| Crazy 3 Saves and Crazy 4 Saves | Libster
 | Scream Discard Chop Move | 910dan and Zamiel
 | Early Fix Clue Chop Move | Zamiel
 | Critical 4 Bluff | Libster
 | Chop Transfer | Duneaught
 | Whisper Discard Chop Move | Zamiel
 | Good Touch Bluff | Postmans
+| Negative Blind Play | Ahming
 | Elimination Bluffs | Zamiel
 | Elimination Layered Finesse | Zamiel
+| Rebellious Discard | Zamiel
+| Focus Inversion | Zamiel
 | Modified Black 3 & Black 4 Saves | Florrat
 | Modified Early Game | Libster and Florrat
+| Double Tempo Clue | Hyphen-ated
 | White Compromise | Postmans
 | Acid Trip Colors | Zamiel and Florrat
