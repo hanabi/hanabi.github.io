@@ -876,7 +876,7 @@ These are moves that are proposed by certain members of the group. However, they
 | Negative Prompts | Zamiel and Libster
 | Weak Prompts | Hyphen-ated
 | Scream Discard Chop Move | 910dan and Zamiel
-| Fix Clue Chop Move | Zamiel
+| Early Fix Clue Chop Move | Zamiel
 | Critical 4 Bluff | Libster
 | Chop Transfer | Duneaught
 | Whisper Discard Chop Move | Zamiel
