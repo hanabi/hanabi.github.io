@@ -818,7 +818,7 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
 
 ## General Principles
 
-These are things that are separate from moves and strategies that we refer to in post-game reviews.
+These are things that are separate from actual moves and strategies. We refer to them in post-game reviews when thinking about the game.
 
 ### Stomping a Finesse
 
@@ -828,36 +828,48 @@ These are things that are separate from moves and strategies that we refer to in
 ### Lines
 
 * During your turn, part of figuring out the best move to do involves looking into the future to see what the next person will do. If they discard, will it be okay? Is there some obvious clue that they will do? And so on.
-* However, as you get better at Hanabi, you will need to do this prediction not just for the next person, but for an entire go-around of the table. And as you really get good at Hanabi, you will need to do this for as far in the future as you can reasonable predict. Sometimes, this means 15 moves or more in the future.
+* However, as you get better at Hanabi, you will need to do this prediction not just for the next person, but for an entire go-around of the table. And as you really get good at Hanabi, you will need to do this for as far in the future as you can reasonable predict. (Sometimes, this means 15 moves or more in the future.)
 * Similar to chess, initiating a move in which you can predict the next sequence of moves is called initiating a "line".
 * In post-game reviews, we will often compare and hypothetically "play through" two different lines to see which one is better.
 
 ### Bluff Position and the Pang of Guilt
 
 * As mentioned in the section on *Bluffs*, you are in *Bluff Position* for a certain player if you are immediately before them.
-* If the player before you immediately draws a playable 
+* If the player before you immediately draws a playable card, you should first notice that the card is in *Finesse Position*. If you clue it directly, you may be "stealing" someone's *Finesse* or *Bluff*.
+* Thus, in this situation, it may be better to discard and let the player in *Bluff Position* get the card in question. If you do decide to clue the card directly, you should always feel a *Pang of Guilt*.
 
 ### Discard Modulation
 
 * Often times, either you or the player who comes after you can perform a move. And this move would have the same result if done by either player.
-* Thus, a good indicator of whether you should do the move or whether the next player should do the move 
-* tbc
+* One way to decide whether you or the next player should give the clue is to look at the next player's chop. Is their chop high-value, low-value, or useless? If it is high-value, then you should discard and let them give the clue. If it is low-value or useless, then you should give the clue and let them discard.
+* "Stealing" clues in this way to cause discards is called *Discard Modulation*. If other players are discarding to let you give all of the clues, you probably have a high-value chop 
 
 ### One-Away
 
 * In general, 3's are pretty high value, and 4's are pretty low value.
 * But combined with this, cards that are one-away are pretty high valuable, and cards that are two-away (or more) are pretty low value.
 * Thus, in some situations, a one-away 4 may be more valuable than a two-away 3.
-* You should try to construct lines such that it gives the opportunity to
-* tbc
+* According to our conventions, it is illegal to clue a one-away card directly without it being some kind of special move like a *Finesse* or *Bluff*. However, sometimes we still want to "save" these cards. Thus, they are prime targets for indirect saves like the *5's Chop Move* or the *Trash Chop Move*.
+* However, in most cases, *Chop Moving* the valuable card just won't be possible. So in general, you should try to construct lines that protects high-value cards for as long as possible.
 
 ### All 4's Test
 
-* tbc
+* According to *Save Principle*, the team must not let any critical and/or playable cards be discarded. So part of constructing a line is figuring out whether this will happen.
+* When considering a line, it is not safe to assume that a player will clue anything in your hand. You should perform the *All 4's Test*: what would everyone do if I have all useless 4's in my hand? If a critical and/or playable card would get discarded, then the line has failed the test, and it is probably a bad idea.
+
+### Schrodinger's Cat Principle
+
+* Often times when you are given a clue, the card could be two or more things.
+  * For example, in a no-variant game, a red *Play Clue* might indicate a red 2 or a red 3 depending on whether or not red 2 will blind-play from someone else's hand.
+  * For example, in a rainbow-game, a red *Play Clue* card might indicate either a red 1 or a *Delayed Play Clue* on a rainbow 2 through another player's yet-to-be-played rainbow 1.
+* After getting a clue, you should immediately mark all of the possibilities down on the card as a note.
+* For all of your subsequent turns, you have to treat that card like it is **all of the possibilities** at the same time. This is a lot like the *Schrodinger's Cat* quantum physics analogy, which states a cat is both alive and dead at the same time, and you won't know until you actually open the box and look. Similarly, treat the unknown card as all the possibilities, and you won't actually know until the card is played and/or prompted.
 
 ### Occam's Razor
 
-* tbc
+* Sometimes, clues can have multiple interpretations. For example, a new player might be confused as to whether a clue was a *Bluff* or a *Layered Finesse*. However, with these two moves, we explicitly define the priority such that *Bluffs* **always** take precendence over *Layered Finesses*. So this situation is not confusing.
+* For other moves, there is no explicitly defined priority. For example, a clue could mean either a *Self-Finesse* or a *Self-Prompt* + *Finesse*. In these cases, *Occam's Razor* applies, meaning that you can slice away all the more complicated interpretations and simply assume the least-complex one.
+* It is important to not confuse *Occam's Razor* with *Schrodinger's Cat Principle* - you almost always have to allow for *Prompts*, *Reverse Finesses*, and so forth. But when you are not waiting on any information from other player's actions, then *Occam's Razor* does apply.
 
 <br />
 
