@@ -868,7 +868,7 @@ These are things that are separate from actual moves and strategies. We refer to
 ### Occam's Razor
 
 * Sometimes, clues can have multiple interpretations. For example, a new player might be confused as to whether a clue was a *Bluff* or a *Layered Finesse*. However, with these two moves, we explicitly define the priority such that *Bluffs* **always** take precendence over *Layered Finesses*. So this situation is not confusing.
-* For other moves, there is no explicitly defined priority. For example, a clue could mean either a *Self-Finesse* or a *Self-Prompt* + *Finesse*. In these cases, *Occam's Razor* applies, meaning that you can slice away all the more complicated interpretations and simply assume the least-complex one.
+* For other moves, there is no explicitly defined priority. For example, a clue could mean either a *Self-Finesse* or a *Self-Prompt* + *Finesse*. In these cases, *Occam's Razor* applies, meaning that you can slice away all the more complicated interpretations and simply assume the least-complex one. In this case, a single *Finesse* is less complicated than a *Finesse* + *Prompt*, so the former interpretation would be assumed.
 * It is important to not confuse *Occam's Razor* with *Schrodinger's Cat Principle* - you almost always have to allow for *Prompts*, *Reverse Finesses*, and so forth. But when you are not waiting on any information from other player's actions, then *Occam's Razor* does apply.
 
 <br />
