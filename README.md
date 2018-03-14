@@ -37,8 +37,9 @@ This document is split up into different sections so that you can better digest 
 7. [Level 3 - Variant-Specific Strategies](#level-3---variant-specific-strategies)
 8. [Level 3 - Rarely Used Advanced Strategies](#level-3---rarely-used-advanced-strategies)
 9. [Level 4 - Rarely Used Expert Strategies](#level-4---rarely-used-expert-strategies)
-10. [Non-Formalized Proposals](#non-formalized-proposals)
-11. [Convention Attribution](#convention-attribution)
+10. [General Principles](#general-principles)
+11. [Non-Formalized Proposals](#non-formalized-proposals)
+12. [Convention Attribution](#convention-attribution)
 
 <br />
 
@@ -812,6 +813,51 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
 * *Promise Bluffs* take priority over *Double Bluffs*; Zamiel assumes that it is a *Promise Bluff* since he sees the true connecting card. So, since Zamiel does not blind play his *Finesse Position* card, MeGotsThis can know it was a Promise Bluff instead of a Double Bluff. (And also because Zamiel's *Finesse Position* card is junk.)
   * As the receiver of the clue that initiates a *Promise Bluff*, it may be ambiguous as to what exactly the connecting card is, if it exists. As long as there is at least one candidate on someone's *Finesse Position*, then you have to assume a *Promise Bluff* over a *Double Bluff*.
 * Promise Bluffs also take priority over *Layered Finesses*. This isn't normally an issue, since it is rare to actually to perform a *Layered Finesse* from *Bluff Position*, but it is worth mentioning.
+
+<br />
+
+## General Principles
+
+These are things that are separate from moves and strategies that we refer to in post-game reviews.
+
+### Stomping a Finesse
+
+* This is when a player clues a card directly that was going to be blind-played from a *Finesse*. Typically, this is a mistake, and it means that the player who gave the clue was not paying attention and failed to see that a *Finesse* happened at all.
+* Occasionally, *Finesses* will be stomped intentionally in order to "speed-up" a delayed *Finesse*. (This may be done to avoid the player discarding, for example.)
+
+### Lines
+
+* During your turn, part of figuring out the best move to do involves looking into the future to see what the next person will do. If they discard, will it be okay? Is there some obvious clue that they will do? And so on.
+* However, as you get better at Hanabi, you will need to do this prediction not just for the next person, but for an entire go-around of the table. And as you really get good at Hanabi, you will need to do this for as far in the future as you can reasonable predict. Sometimes, this means 15 moves or more in the future.
+* Similar to chess, initiating a move in which you can predict the next sequence of moves is called initiating a "line".
+* In post-game reviews, we will often compare and hypothetically "play through" two different lines to see which one is better.
+
+### Bluff Position and the Pang of Guilt
+
+* As mentioned in the section on *Bluffs*, you are in *Bluff Position* for a certain player if you are immediately before them.
+* If the player before you immediately draws a playable 
+
+### Discard Modulation
+
+* Often times, either you or the player who comes after you can perform a move. And this move would have the same result if done by either player.
+* Thus, a good indicator of whether you should do the move or whether the next player should do the move 
+* tbc
+
+### One-Away
+
+* In general, 3's are pretty high value, and 4's are pretty low value.
+* But combined with this, cards that are one-away are pretty high valuable, and cards that are two-away (or more) are pretty low value.
+* Thus, in some situations, a one-away 4 may be more valuable than a two-away 3.
+* You should try to construct lines such that it gives the opportunity to
+* tbc
+
+### All 4's Test
+
+* tbc
+
+### Occam's Razor
+
+* tbc
 
 <br />
 
