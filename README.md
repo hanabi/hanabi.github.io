@@ -403,7 +403,7 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
 
 ### Critical 4 Bluffs
 
-* Building on the *3 Bluffs* convention, it is ALSO possible for a card that initiates a *Bluff* to be a copy of any of the 4s that are currently in the discard pile.
+* Building on the *3 Bluffs* convention, it is ALSO possible for a card that initiates a *Bluff* to be a copy of any of the 4s that are critical (meaning that the other copy is in the discard pile or it is a black 4).
 
 ### The Elimination Blind Play
 
