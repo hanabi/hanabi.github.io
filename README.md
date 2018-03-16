@@ -862,7 +862,6 @@ These are things that are separate from actual moves and strategies. We refer to
 ### Stomping a Finesse
 
 * This is when a player clues a card directly that was going to be blind-played from a *Finesse*. Typically, this is a mistake, and it means that the player who gave the clue was not paying attention and failed to see that a *Finesse* happened at all.
-* Occasionally, *Finesses* will be stomped intentionally in order to "speed-up" a delayed *Finesse*. (This may be done to avoid the player discarding, for example.)
 
 ### Lines
 
