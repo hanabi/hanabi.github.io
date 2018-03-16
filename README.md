@@ -805,6 +805,7 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
 
 * If you see that a player *Trash Pushes* an unplayable one-away card, it is a signal to you that you have the connecting card.
 * If possible, you should allow for the possibility of a *Reverse Trash Push Prompt/Finesse*. Whether this is the correct thing to do or not is contextual on the pacing of the game and historical game state.
+  * Allowing for a *Reverse Trash Push Finesse* also has the advantage of potentially causing *Hesitation Blind Plays*, which can be advantageous to the team.
 
 ### The Lost Tempo Priority Finesse
 
