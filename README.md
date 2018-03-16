@@ -826,7 +826,7 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
 
 * When a card is clued and the next person misplays that card, it is usually the *Misplay Chop Move* - they had no other options and had to protect an important card on chop.
 * However, when a card ON CHOP is clued and the next person misplays that card, it cannot be the *Misplay Chop Move* - it must be something else.
-* Normally, when trash is clued on chop, it is a *Trash Push*. So they should go on to blind play the card that was touching the trash on the next turn.
+* Normally, when trash is clued on chop, it is a *Trash Push*. So they should go on to blind play the card that was touching the trash on their next turn.
 
 ### Reverse Misplay Chop Move
 
