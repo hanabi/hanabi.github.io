@@ -753,8 +753,53 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
 
 ### Good Touch Bluff
 
-* In some rare circumstances, a bluff can occur that can look like a finesse. For example, if the red 2 is played on the red stack and the blue 2 is played on the blue stack, a number 4 clue that touches a blue 4 can cause a red 3 to blind play. However, here the unknown 4 would look like red 4, so this would not typically be done, as it would cause an impending misplay.
-* However, from the perspective of a player who has just seen the above scenario unfold, there must be something else going on. This actually implies that the real red 4 is already clued in someone else's hand. An impending misplay will NOT occur because of *Good Touch Principle*; it would be pointless to duplicate red 4, so the mystery 4 in their hand must be some other one-away 4.
+* Care has to be taken so that a *Bluff* does not look like a *Finesse*. For example, if the red 2 is played on the red stack and the blue 2 is played on the blue stack, a number 4 clue that touches a blue 4 can cause a red 3 to blind play. However, this would not typically be done - the unknown 4 would look like red 4, and they would misplay it.
+* However, from the perspective of a player who has just seen the above scenario unfold, there must be something else going on. This actually implies that the real red 4 is already clued in someone else's hand. An impending misplay will NOT occur because of *Good Touch Principle*; since it would be bad to duplicate red 4, the player who received the clue will know that the 4 is some other one-away 4.
+
+### Disease Bluffs & Heal Clues & Double-Copy Bluffs & Pestilent Bluffs
+
+* In the *Good Touch Bluff* convention, a *Bluff* is given that looks like a *Finesse*. However, what if something that looks like a *Good Touch Bluff* is done, but the "matching" card is not yet clued?
+* For example:
+  * At the beginning of a 4-player game, Alice goes first.
+  * Bob has a red 1 on slot 1 and a blue 2 on slot 2.
+  * Alice clues Bob number 2.
+  * Bob doesn't see any other 1s on *Finesse Position*. Thus, a 2's clue must be a *Self-Finesse*, so he blind plays red 1.
+  * Cathy comes next. From her perspective, Bob will think that his blue 2 is red 2, and will go on to misplay the card.
+* From Cathy's perspective, there are 5 possible situations:
+
+#### 1) A *Disease Bluff*
+
+* Say that Cathy sees the red 2 in Donald's hand and can uniquely clue it. If she does, Donald will go on to immediately play it.
+* This would "heal" the problem, as Bob would not think that he has red 2 anymore. Thus, this clue is called a *Heal Clue*.
+* The original *Bluff* is called a *Disease Bluff*, since it requires healing.
+* The *Disease Bluff* interpretation is the highest priority interpretation!
+
+#### 2) A *Double-Copy Bluff* (with Cathy seeing one copy)
+
+* Say that Cathy sees the red 2 in Donald's hand, but she cannot uniquely clue it due to other blocking cards.
+* This cannot be a *Disease Bluff*, since Alice would not put Bob and Cathy in this bad situation if a clean *Heal Clue* was not available.
+* Cathy should instead conclude that she has the other copy of red 2 somewhere in her own hand. Bob will not go on to misplay the blue 2; this is called a *Double-Copy Bluff*, since Bob will see both copies of blue 2.
+
+#### 3) A *Double-Copy Bluff* (with Cathy seeing zero copies):
+
+* Say that Cathy does not see the red 2 anywhere and has a completely unclued hand.
+* She must have both copies of the red 2 in her hand (but she does not know the order).
+* Like the previous situation, this is also a *Double-Copy Bluff*.
+
+#### 4) A *Pestilent Bluff* (with 1 unclued card):
+
+* Say that Cathy does not see the red 2 anywhere and only has 1 unclued card.
+* Unlike the previous situation, Cathy knows that she cannot have both copies of red 2.
+* Furthermore, from *High Value Principle*, Cathy can conclude that Alice does not intend for Cathy to do a *Fix Clue*, as that would be inefficient.
+* Instead, Cathy can blind play her *Finesse Position* card as red 2. This is similar to a *Disease Bluff*, but instead of wasting a clue to heal the problem, the problem is healed by a blind-play.
+* Note that Cathy could be blind-playing red 2, but could also be blind-playing ANY playable card. Whatever card it is, it will still heal the problem, since Bob can see that the blind-play was related to the clue he received.
+* This is similar to the *Double Bluff* convention, but is different because the move was not initiated by a card that was 2-away from being playable.
+
+#### 5) A *Pestilent Bluff* (with 2 unclued cards):
+
+* Say that Cathy does not see the red 2 anywhere and has exactly 2 unclued cards.
+* Here, Cathy can assume the *Double-Copy Bluff*, but this situation is different - she can immediately blind-play either card as red 2.
+* However, she should always play her *Finesse Position* card, in case it is a *Pestilent Bluff* instead of a *Double-Copy* bluff.
 
 ### The Trash Push Prompt/Finesse
 
