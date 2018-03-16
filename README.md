@@ -513,7 +513,7 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
 * It is possible to perform a *Trash Bluff* outside of *Bluff Position* if there is only one possibility for the useless card to be. When this is done, it promises that someone has that specific card, so it is a *Trash Finesse* rather than a *Trash Bluff*.
 * It is also possible to *Double Trash Finesse*. By touching a useless 2 with TWO 2's remaining, it means that you see BOTH the 2s, so this can cause two people to blind play their *Finesse Position* card (or one person to blind play twice). Note that a *Double Trash Finesse* cannot be done in *Bluff Position*, or it will look like a normal *Trash Bluff*.
 
-### The Trash Finesse (weak form)
+### Trash Finesses (weak form)
 
 * After deciding on the target of a clue, players carefully choose between using a color clue and a number clue in order to avoid violating *Good Touch Principle* with the ancillary cards that will be touched (since every clued card is treated as a card that will eventually be played). Sometimes, when both a color clue AND a number would violate *Good Touch Principle*, players are forced to pick between the lesser of two evils.
 * However, sometimes you can see that it IS possible to use a color or number clue to uniquely touch a clue target without "picking up" extra bad cards. So, when this is done deliberately, it promises that the other players have the exact "missing" cards that the trash cards would look like.
@@ -533,6 +533,23 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
 * This is the similar to the *Dupe Finesse* above, but instead of potentially duping the touched card, the blind card is potentially duplicated. Thus, the blind-playing player will blind-discard their *Finesse Position* card if it is a duplicate.
 * You are ONLY allowed to do a *Certain Discard* if you know you have not been bluffed. (This means that *Certain Finesses* can't be performed from *Bluff Position*.)
 * This convention takes priority over the *Layered Finesse*. Thus, it is impossible to perform a *Layered Finesse* on a card that could be in your own hand.
+
+### Out-of-Order Finesses
+
+* Sometimes, a *Finesse* is invoked by giving a color clue to two or more cards where the next card in the sequence is clued, but it is NOT the focus of the clue.
+* When this happens, the *Finesse* will still work: a player will blind play a matching card. However, a *Fix Clue* must then be given to the person who originally received the clue, or they will go on to misplay.
+* Normally, after receiving a *Fix Clue*, a player would normally "stop" and not assume anything else about his hand. However, this is a special situation: when the original *Finesse* was given, it was a message that the focus of the clue was playable. *Information Lock Principle* applies, and it means that the original focus of the clue is also playable.
+* For example:
+  * At the beginning of the game, Alice goes first.
+  * Bob has a red 3 and a red 2 (on slots 1 and 2 respectively).
+  * Cathy has a red 1 on slot 1 (in *Finesse Position*).
+  * Alice clues Bob reds (as an *Out-of-Order Reverse Finesse*). The focus of the clue is the red 3 on slot 1.
+  * Bob sees the red 1 on Cathy's *Finesse Position*, so he has to respect that it could be *Reverse Finesse*. Bob discards.
+  * Cathy blind plays red 1.
+  * Alice must now give a *Fix Clue* to Bob, or else red 3 will be misplayed as red 2.
+  * Alice clues number 2 to Bob.
+  * Bob plays red 2.
+  * Bob knows that his other red card MUST be red 3, since it was originally clued as playable and it caused a *Reverse Finesse*.
 
 <br />
 
@@ -766,6 +783,12 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
   * They can see that they were in bluff position.
 * *Pass Bluffs* rely on other contextual information to be present in order to work, so the circumstances in which you can do them are narrow.
 
+### Double Pass Bluff / Triple Pass Bluff
+
+* After a player performs a *Pass Bluff*, when it becomes their turn again, if they see an unrelated playable card on the *Second Finesse Position* of the next player, they can perform yet another *Pass Bluff*, implying that the first *Pass Bluff* was not a *Pass Bluff* at all and instead simply a *Layered Finesse* or *Clandestine Finesse*.
+* Then, after the unrelated card is played, the player who initiated the *Double Pass Bluff* can go ahead and play into the real *Finesse*.
+* Alternatively, if there continue to be playable cards, they can keep *Pass Bluffing*.
+
 ### The Hesitation Chop Move
 
 * Remember that as a special exception, *Scream Discards* do NOT apply when a player has a "blind" card to play in their hand AND the blind card can exist in your hand.
@@ -788,6 +811,22 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
 
 * Given enough negative clues on a card (and potentially some ancillary information based on the history of the game), it is possible to narrow down the identity of an unclued card in your hand to possibilities that only include playable cards that are not already touched in someone else's hand.
 * In this situation, you are expected to blind play the card.
+
+### The Speed-up Clue
+
+* The *Layered Finesse* convention (and its derivatives) are very efficient (in terms of "X for 1"). However, sometimes it can be very slow (low tempo), as players will have to allow for all possible *Reverse Finesses* before playing anything. This is generally not a problem in 3 player games, but tempo is extremely important in 5 player player games, 
+* Normally, when the *Finesse Target* (the card that is to be blind-played) is clued directly, it is a mistake due to someone not paying close enough attention. We refer to this as *Stomping* on a *Finesse*.
+* However, if high tempo is needed, a player can consider intentionally *Stomping* on a *Layered Finesse* in order to "speed up" the play of a specific card that leads into other players hands.
+* One complicating factor of the *Speed-up Clue* is how to differentiate it from a more-ordinary *Fix Clue*. In other words, after the clued card is played, on their next turn, should the player go back and blind-play the other cards? If it was a *Speed-up Clue*, they should. If it was a *Fix Clue*, they should not.
+* The key lies in the context of the clue:
+  * Would another player have tried to blind play something before the potential *Fix Clue* was given? If yes, then it is not a *Fix Clue*, and it is a *Speed-up Clue*.
+  * Was it possible to take an equivalent line where a *Fix Clue* would not be needed? (In terms of the same number of clues, and no risk of discarding critical/playable cards.) If yes, it is not a *Speed-up Clue*.
+
+### The Misplay Trash Push
+
+* When a card is clued and the next person misplays that card, it is usually the *Misplay Chop Move* - they had no other options and had to protect an important card on chop.
+* However, when a card ON CHOP is clued and the next person misplays that card, it cannot be the *Misplay Chop Move* - it must be something else.
+* Normally, when trash is clued on chop, it is a *Trash Push*. So they should go on to blind play the card that was touching the trash on the next turn.
 
 ### Reverse Misplay Chop Move
 
@@ -937,3 +976,8 @@ n/a
 | Hard Bluffs | Florrat
 | White Compromise | Postmans
 | Acid Trip Colors | Zamiel and Florrat
+| Double / Triple Pass Bluff | Zamiel
+| Out-of-Order Finesse | Zamiel
+| The Speed-up Clue | Libster
+| General Principles | Zamiel
+| Misplay Trash Push | Zamiel
