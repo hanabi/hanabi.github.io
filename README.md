@@ -26,7 +26,7 @@ We generally only play games with 3-5 players, since 2-player games can be quite
 
 ## Table of Contents
 
-This document is split up into different sections so that you can better digest it. As a new player, you should probably not read the entire document at once. Rather, it might be better to only read the first two sections and then use the rest of the document as a reference as you continue to improve at the game.
+This document is split up into different sections so that you can better digest it. As a new player, you should probably **not** read the entire document at once. Rather, it might be better to only read Level 0 and Level 1 sections. The other sections can be just used as a reference as you continue to naturally improve at the game.
 
 1. [Quick Links](#quick-links)
 2. [Level 0 - First Principles](#level-0---first-principles)
