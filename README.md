@@ -2,8 +2,7 @@
 
 For the *Hyphen-ated group*. Written and maintained by Zamiel.
 
-All document updates are listed in the `#announcements` channel on the [Hanabi Discord server](https://discord.gg/FADvkJp).
-(You can also see the [commit history](https://github.com/Zamiell/hanabi-conventions/commits/master) of this repository.)
+All document updates are listed in the `#announcements` channel on the [Hanabi Discord server](https://discord.gg/FADvkJp). (You can also see the [commit history](https://github.com/Zamiell/hanabi-conventions/commits/master) of this repository.)
 
 <br />
 
