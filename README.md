@@ -416,6 +416,11 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
 * If there are only 2 cards left in your hand with *Elimination Notes* on them AND the players before you let your chop card ride AND the players before you weren't busy, then the playable card cannot be on your chop.
 * This means you can "jump ahead" and immediately blind play the newest of the 2 cards with the note.
 
+### The Elimination Self-Chop Move
+
+* Sometimes, you will have narrowed down your *Elimiation Notes* to one specific card. Thus, even though the card has no positive clues on it, you know the exact identity of the card.
+* If the card in question is on your chop AND the card is not yet playable AND you need to discard, you should obviously not discard the important elimination card. You should instead self-chop move and discard the next thing.
+
 ### Weak Prompts
 
 * If a teammate performs the *Prompt* convention on you and you have multiple cards in your hand that match the connecting card, normally you would be promised that the left-most (newest) is playable.
