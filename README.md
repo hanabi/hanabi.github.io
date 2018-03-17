@@ -558,7 +558,7 @@ This section is unique in that it contains things that are separate from actual 
 * A form of *Layered Finesse* that gets around this restriction is called the *Clandestine Finesse*, because it is similar to a *Hidden Finesse*. When this move is performed, the player who is blind playing cards knows to keep playing because they see that if they do nothing, the next player will go on to misplay.
 * In the following example, in Zealousy's hand, green 2 and green 3 are already touched with a green clue. Thus, a number 3 clue to Zealousy will get both the red 2 and the purple 2, because if Hyphen-ated does not continue to play the purple 3, Zealousy will think he has red 3 and misplay it.
 
-![Clandestine Finesse](clandestine_finesse.png)
+![Clandestine Finesse](screenshots/clandestine_finesse.png)
 
 ### Stacked Finesses
 
