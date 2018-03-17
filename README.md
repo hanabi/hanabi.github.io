@@ -992,7 +992,7 @@ These are things that are separate from actual moves and strategies. We refer to
   * The end-game has not started yet (see *End-Game*).
   * You know that someone else will have to discard if you don't do it. If someone will have to discard before the last card of the deck is drawn, it is generally best to do it as early as possible.
   * There is only one more useful card in the deck (possibly more than one copy of it), and all useful cards in your hand are of the same color as that card. This is known as *Same Suit Stall Principle*. 
-    * For example, if the only useful cards in the deck are two yellow 2's, and you hold yellow 3 and yellow 5. In this case there is no reason for you to stall, since the yellow 3 will not be played sooner if you stall.
+    * For example, the only useful cards in the deck are two yellow 2's, and you hold yellow 3 and yellow 5. In this case there is no reason for you to stall, since the yellow 3 will not be played sooner if you stall.
 
 <br />
 
