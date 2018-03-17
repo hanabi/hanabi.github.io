@@ -32,12 +32,12 @@ This document is split up into different sections so that you can better digest 
 2. [Level 0 - First Principles](#level-0---first-principles)
 3. [Level 1 - Beginner Strategies](#level-1---beginner-strategies)
 4. [Level 2 - Intermediate Strategies](#level-2---intermediate-strategies)
-5. [Level 3 - Advanced Strategies](#level-3---advanced-strategies)
-6. [Level 4 - Expert Strategies](#level-4---expert-strategies)
-7. [Level 3 - Variant-Specific Strategies](#level-3---variant-specific-strategies)
-8. [Level 3 - Rarely Used Advanced Strategies](#level-3---rarely-used-advanced-strategies)
-9. [Level 4 - Rarely Used Expert Strategies](#level-4---rarely-used-expert-strategies)
-10. [General Principles](#general-principles)
+5. [Level 2 - General Principles)(#level-2--general-principles)
+6. [Level 3 - Advanced Strategies](#level-3---advanced-strategies)
+7. [Level 4 - Expert Strategies](#level-4---expert-strategies)
+8. [Level 3 - Variant-Specific Strategies](#level-3---variant-specific-strategies)
+9. [Level 3 - Rarely Used Advanced Strategies](#level-3---rarely-used-advanced-strategies)
+10. [Level 4 - Rarely Used Expert Strategies](#level-4---rarely-used-expert-strategies)
 11. [Non-Formalized Proposals](#non-formalized-proposals)
 12. [Convention Attribution](#convention-attribution)
 
@@ -253,7 +253,7 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
   6. When the clue receiver is receiving a tempo clue on a card that unlocks someone else's hand
   7. When there are 8 clues in the bank (a forced clue)
   8. When there are 7 clues in the bank (since discarding would take the team to 8 clues, which is generally bad)
-  9. When in "end-game" or the team is behind pace (specifically, when score + deck is below the maximum score)
+  9. When in *End-Game* or the team is behind pace (specifically, when score + deck is below the maximum score)
   10.  When the game has been going so well that further clue efficiency is no longer required to win the game
   11.  When the tempo clue gets 2 or more cards played.
 * *Tempo Clues* that are done outside of these special circumstances are a different convention called *Tempo Clue Chop Moves*, which are detailed further on in this document.
@@ -303,11 +303,83 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
 
 <br />
 
+## Level 2 - General Principles
+
+This section is unique in that it contains things that are separate from actual moves and strategies. We refer to them in post-game reviews when thinking about the game.
+
+### Stomping a Finesse
+
+* This is when a player clues a card directly that was going to be blind-played from a *Finesse*. Typically, this is a mistake, and it means that the player who gave the clue was not paying attention and failed to see that a *Finesse* happened at all.
+
+### Lines
+
+* During your turn, part of figuring out the best move to do involves looking into the future to see what the next person will do. If they discard, will it be okay? Is there some obvious clue that they will do? And so on.
+* However, as you get better at Hanabi, you will need to do this prediction not just for the next person, but for an entire go-around of the table. And as you really get good at Hanabi, you will need to do this for as far in the future as you can reasonable predict. (Sometimes, this means 15 moves or more in the future.)
+* Similar to chess, initiating a move in which you can predict the next sequence of moves is called initiating a "line".
+* In post-game reviews, we will often compare and hypothetically "play through" two different lines to see which one is better.
+
+### Bluff Position and the Pang of Guilt
+
+* As mentioned in the section on *Bluffs*, you are in *Bluff Position* for a certain player if you are immediately before them.
+* If the player before you immediately draws a playable card, you should first notice that the card is in *Finesse Position*. If you clue it directly, you may be "stealing" someone's *Finesse* or *Bluff*.
+* Thus, in this situation, it may be better to discard and let the player in *Bluff Position* get the card in question. If you do decide to clue the card directly, you should always feel a *Pang of Guilt*.
+
+### Discard Modulation
+
+* Often times, either you or the player who comes after you can perform a move. And this move would have the same result if done by either player.
+* One way to decide whether you or the next player should give the clue is to look at the next player's chop. Is their chop high-value, low-value, or useless? If it is high-value, then you should discard and let them give the clue. If it is low-value or useless, then you should give the clue and let them discard.
+* "Stealing" clues in this way to cause discards is called *Discard Modulation*. If other players are discarding to let you give all of the clues, you probably have a high-value chop 
+
+### One-Away
+
+* In general, 3's are pretty high value, and 4's are pretty low value.
+* But combined with this, cards that are one-away are pretty high value, and cards that are two-away (or more) are pretty low value.
+* Thus, in some situations, a one-away 4 may be more valuable than a two-away 3.
+* According to our conventions, it is illegal to clue a one-away card directly without it being some kind of special move like a *Finesse* or *Bluff*. However, sometimes we still want to "save" these cards. Thus, they are prime targets for indirect saves like the *5's Chop Move* or the *Trash Chop Move*.
+* However, in most cases, *Chop Moving* the valuable card just won't be possible. So in general, you should try to construct lines that protect high-value cards for as long as possible.
+
+### All 4's Test
+
+* According to *Save Principle*, the team must not let any critical and/or playable cards be discarded. So part of constructing a line is figuring out whether this will happen.
+* When considering a line, it is not safe to assume that a player will clue anything in your hand. You should perform the *All 4's Test*: what would everyone do if I have all useless 4's in my hand? If a critical and/or playable card would get discarded, then the line has failed the test, and it is probably a bad idea.
+
+### Schrodinger's Cat Principle
+
+* Often times when you are given a clue, the card could be two or more things.
+  * For example, in a no-variant game, a red *Play Clue* might indicate a red 2 or a red 3 depending on whether or not red 2 will blind-play from someone else's hand.
+  * For example, in a rainbow-game, a red *Play Clue* card might indicate either a red 1 or a *Delayed Play Clue* on a rainbow 2 through another player's yet-to-be-played rainbow 1.
+* After getting a clue, you should immediately mark all of the possibilities down on the card as a note.
+* For all of your subsequent turns, you have to treat that card like it is **all of the possibilities** at the same time. This is a lot like the *Schrodinger's Cat* quantum physics analogy, which states a cat is both alive and dead at the same time, and you won't know until you actually open the box and look. Similarly, treat the unknown card as all the possibilities, and you won't actually know until the card is played.
+
+### Occam's Razor
+
+* Sometimes, clues can have multiple interpretations. For example, a new player might be confused as to whether a clue was a *Bluff* or a *Layered Finesse*. However, with these two moves, we explicitly define the priority such that *Bluffs* **always** take precendence over *Layered Finesses*. So this situation is not confusing.
+* For other moves, there is no explicitly defined priority. For example, a clue could mean either a *Self-Finesse* or a *Self-Prompt* + *Finesse*. In these cases, *Occam's Razor* applies, meaning that you can slice away all the more complicated interpretations and simply assume the least-complex one. In this case, a single *Finesse* is less complicated than a *Finesse* + *Prompt*, so the former interpretation would be assumed.
+* It is important to not confuse *Occam's Razor* with *Schrodinger's Cat Principle* - you almost always have to allow for *Prompts*, *Reverse Finesses*, and so forth. But when you are not waiting on any information from other player's actions, then *Occam's Razor* does apply.
+
+### Team Distribution Principle
+
+* In general, it is better for useful cards to be distributed **evenly** throughout the team. This is especially important in 5 player games.
+* Thus, if one of your teammates has 3 of 4 cards clued, it may be better for THEM to be the one giving the clues, and you to be the one discarding - even if their chop is known trash.
+* There are multiple reasons for this. First, you don't want them to get a *Locked Hand*, which is generally bad. Second, if they continue to draw playable cards, the game may end before they get a chance to play them all.
+
+### End-Game Threshold
+
+* Towards the end of the game, the strategy of the team will change. In most games, you stop becoming conerned with efficiency and become more concerned with tempo - every card needs to play **right now** before the game ends!
+* Thus, since clues can mean different things whether you are in the *Mid-Game* or the *End-Game*, you need to be able to keep track of when the *End-Game* has arrived.
+* This can be estimated with the following formula: `n = current score + cards in deck - maximum score`
+  * If `n ≥ 0`, you are not yet in the *End-Game*, and you should not hesitate to discard.
+  * If `n < 0`, the *End-Game* has arrived.
+* When `n = -1` (the beginning of the *End-Game*), it is usually okay to discard, unless there is a single person who holds all the useful cards.
+* When `n` is smaller than `-1`, you should be very careful with discarding. It might still be the best thing to do, but it is usually better to *Burn* a clue.
+
+<br />
+
 ## Level 3 - Advanced Strategies
 
 ### Bluffs
 
-* When you see a good playable card in someone's newest slot, you will often want to get the efficiency of a finesse. However, the proper "connecting" card may just not be on the board. One alternate strategy that you can do is to indicate to them that they have a different card than what they really have in their first slot with a finesse clue to someone else. This forces them to blind-play their newest card to avoid a misplay. Next, the player who received the finesse clue knows that since the last person “randomly” blind-played their newest card, it was a bluff and they can't actually play the clued card. However, they should know exactly what card it is (or have a specific narrow set of possibilities), so the sequence still gets the efficiency of a normal finesse.
+* When you see a good playable card in someone's newest slot, you will often want to get the efficiency of a *Finesse*. However, the proper "connecting" card may just not be on the board. One alternate strategy that you can do is to indicate to them that they have a different card than what they really have in their first slot with a finesse clue to someone else. This forces them to blind-play their newest card to avoid a misplay. Next, the player who received the finesse clue knows that since the last person “randomly” blind-played their newest card, it was a bluff and they can't actually play the clued card. However, they should know exactly what card it is (or have a specific narrow set of possibilities), so the sequence still gets the efficiency of a normal finesse.
 * For example, on the first turn of a 3 player game:
   * Alice clues Cathy red, which highlights her red 2.
   * Next, it is Bob's turn. Bob sees that, with this weird red clue, Cathy has just been signaled that he has the red 1. Oh no! Cathy is going to misplay that next turn! What could Alice have been thinking! Oh wait - something must be in Bob's hand to make that red 2 playable. It must be the red 1 in his newest slot, so he blind-plays it. However, it isn't the red 1, it was the green 1! Now Bob knows that he has been bluffed by Alice.
@@ -437,6 +509,27 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
 * In the following screenshot, nmego has a negative 1 clue on his chop so he should play his slot 1 card immediately. The chop card can be either yellow 2, yellow 3, yellow 4, but not yellow 5 (since Zamiel has it).
 
 ![Focus Inversion](focus_inversion.png)
+
+### Burning (End-Game Stalling) & Same-Suit Principle
+
+* In the *End-Game*, often times there are still a lot of cards yet to be played. Thus, you need to be very careful when discarding, since by drawing a card you can make the game end before everyone has a chance to play all of the cards.
+* If there are enough of clues available, you can choose to stall, by giving a low-value (or even a completely useless) clue. This is referred to as *Burning* a clue.
+* The best way to give a useless clue is to reclue cards which are already known to be playable.
+* Give a *Burn Clue* if:
+  * There is a possibility that the game can be completed without anyone discarding from now on.
+  * You have two or more useful cards in your hand, and you want to follow *Team Distribution Principle*.
+* Do not give a *Burn Clue* if:
+  * The end-game has not started yet (see the *End-Game Threshold*).
+  * You know that someone else will have to discard in the future.
+  * There is only one more useful card in the deck and all of the useful cards in your hand are of the same suit as that card. This is known as *Same-Suit Principle*. For example:
+    * You have two cards clued in your hand that you know to be yellow 3 and yellow 5.
+    * The only useful cards left in the deck are two yellow 2's.
+    * Here, there is no reason for you to stall, since the yellow 3 will NOT be played sooner if you stall.
+
+### Distribution Clues
+
+* In the *End-Game*, it can sometimes be useful to clue a card that has already been clued in someone else's hand. This violates *Good Touch Principle*, but being in the *End-Game* changes the strategy.
+* When a player has many playable cards, there is the risk that they will not be able to play all cards before the end of the game. Thus, it makes sense to spend a clue in order to relieve them from some of the card-playing burden. This distribute the plays more evenly throughout the team and is called a *Distribution Clue*, in order to better satisfy *Team Distribution Principle*.
 
 <br />
 
@@ -903,96 +996,6 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
 * *Promise Bluffs* take priority over *Double Bluffs*; Zamiel assumes that it is a *Promise Bluff* since he sees the true connecting card. So, since Zamiel does not blind play his *Finesse Position* card, MeGotsThis can know it was a Promise Bluff instead of a Double Bluff. (And also because Zamiel's *Finesse Position* card is junk.)
   * As the receiver of the clue that initiates a *Promise Bluff*, it may be ambiguous as to what exactly the connecting card is, if it exists. As long as there is at least one candidate on someone's *Finesse Position*, then you have to assume a *Promise Bluff* over a *Double Bluff*.
 * Promise Bluffs also take priority over *Layered Finesses*. This isn't normally an issue, since it is rare to actually to perform a *Layered Finesse* from *Bluff Position*, but it is worth mentioning.
-
-<br />
-
-## General Principles
-
-These are things that are separate from actual moves and strategies. We refer to them in post-game reviews when thinking about the game.
-
-### Stomping a Finesse
-
-* This is when a player clues a card directly that was going to be blind-played from a *Finesse*. Typically, this is a mistake, and it means that the player who gave the clue was not paying attention and failed to see that a *Finesse* happened at all.
-
-### Lines
-
-* During your turn, part of figuring out the best move to do involves looking into the future to see what the next person will do. If they discard, will it be okay? Is there some obvious clue that they will do? And so on.
-* However, as you get better at Hanabi, you will need to do this prediction not just for the next person, but for an entire go-around of the table. And as you really get good at Hanabi, you will need to do this for as far in the future as you can reasonable predict. (Sometimes, this means 15 moves or more in the future.)
-* Similar to chess, initiating a move in which you can predict the next sequence of moves is called initiating a "line".
-* In post-game reviews, we will often compare and hypothetically "play through" two different lines to see which one is better.
-
-### Bluff Position and the Pang of Guilt
-
-* As mentioned in the section on *Bluffs*, you are in *Bluff Position* for a certain player if you are immediately before them.
-* If the player before you immediately draws a playable card, you should first notice that the card is in *Finesse Position*. If you clue it directly, you may be "stealing" someone's *Finesse* or *Bluff*.
-* Thus, in this situation, it may be better to discard and let the player in *Bluff Position* get the card in question. If you do decide to clue the card directly, you should always feel a *Pang of Guilt*.
-
-### Discard Modulation
-
-* Often times, either you or the player who comes after you can perform a move. And this move would have the same result if done by either player.
-* One way to decide whether you or the next player should give the clue is to look at the next player's chop. Is their chop high-value, low-value, or useless? If it is high-value, then you should discard and let them give the clue. If it is low-value or useless, then you should give the clue and let them discard.
-* "Stealing" clues in this way to cause discards is called *Discard Modulation*. If other players are discarding to let you give all of the clues, you probably have a high-value chop 
-
-### One-Away
-
-* In general, 3's are pretty high value, and 4's are pretty low value.
-* But combined with this, cards that are one-away are pretty high value, and cards that are two-away (or more) are pretty low value.
-* Thus, in some situations, a one-away 4 may be more valuable than a two-away 3.
-* According to our conventions, it is illegal to clue a one-away card directly without it being some kind of special move like a *Finesse* or *Bluff*. However, sometimes we still want to "save" these cards. Thus, they are prime targets for indirect saves like the *5's Chop Move* or the *Trash Chop Move*.
-* However, in most cases, *Chop Moving* the valuable card just won't be possible. So in general, you should try to construct lines that protect high-value cards for as long as possible.
-
-### All 4's Test
-
-* According to *Save Principle*, the team must not let any critical and/or playable cards be discarded. So part of constructing a line is figuring out whether this will happen.
-* When considering a line, it is not safe to assume that a player will clue anything in your hand. You should perform the *All 4's Test*: what would everyone do if I have all useless 4's in my hand? If a critical and/or playable card would get discarded, then the line has failed the test, and it is probably a bad idea.
-
-### Schrodinger's Cat Principle
-
-* Often times when you are given a clue, the card could be two or more things.
-  * For example, in a no-variant game, a red *Play Clue* might indicate a red 2 or a red 3 depending on whether or not red 2 will blind-play from someone else's hand.
-  * For example, in a rainbow-game, a red *Play Clue* card might indicate either a red 1 or a *Delayed Play Clue* on a rainbow 2 through another player's yet-to-be-played rainbow 1.
-* After getting a clue, you should immediately mark all of the possibilities down on the card as a note.
-* For all of your subsequent turns, you have to treat that card like it is **all of the possibilities** at the same time. This is a lot like the *Schrodinger's Cat* quantum physics analogy, which states a cat is both alive and dead at the same time, and you won't know until you actually open the box and look. Similarly, treat the unknown card as all the possibilities, and you won't actually know until the card is played.
-
-### Occam's Razor
-
-* Sometimes, clues can have multiple interpretations. For example, a new player might be confused as to whether a clue was a *Bluff* or a *Layered Finesse*. However, with these two moves, we explicitly define the priority such that *Bluffs* **always** take precendence over *Layered Finesses*. So this situation is not confusing.
-* For other moves, there is no explicitly defined priority. For example, a clue could mean either a *Self-Finesse* or a *Self-Prompt* + *Finesse*. In these cases, *Occam's Razor* applies, meaning that you can slice away all the more complicated interpretations and simply assume the least-complex one. In this case, a single *Finesse* is less complicated than a *Finesse* + *Prompt*, so the former interpretation would be assumed.
-* It is important to not confuse *Occam's Razor* with *Schrodinger's Cat Principle* - you almost always have to allow for *Prompts*, *Reverse Finesses*, and so forth. But when you are not waiting on any information from other player's actions, then *Occam's Razor* does apply.
-
-### End-Game
-
-* Towards the end of most games, the strategy in hanabi changes. Efficiency is often less important, and you have to be careful with discarding too much, triggering the end of the game too early. Some strategies change in the end-game, such as the *End-Game Stall* below if you don't want to discard.
-* We can estimate whether we are in the end-game by calculating the following number: `n = score + deck - max score`. Here `max score` is the maximal score you can achieve this game (usually 25 or 30, but it can be less if you lost critical cards).
-  * If `n ≥ 0`, you are not yet in the end-game, and you should not hesitate to discard.
-  * If `n = -1`, it is usually fine to discard, unless there is a single person who holds all the useful cards.
-  * If `n` is smaller than `-1` you should be very careful with discarding (but it might still be the best thing to do).
-
-### Team Distribution Principle
-
-* In general, it is better for useful cards to be distributed **evenly** throughout the team. This is especially important in 5 player games.
-* Thus, if one of your teammates has 3 of 4 cards clued, it may be better for THEM to be the one giving the clues, and you to be make more sense for you to be discarding - even if their chop is known trash.
-* There are multiple reasons for this. First, you don't want them to get a *Locked Hand*, which is generally bad. Second, if they continue to draw playable cards, the game may end before they get a chance to play them all.
-
-### Distribution Clue
-* In or near the end-game it is sometimes useful to give a clue on a card, even if the second copy of that card has already been clued in someone else's hand. This violates *Good Touch Principle*, but it can still be useful for two reasons.
-  * The player who holds the clued cards has too much useful cards in their hand, and there is the risk that they will not be able to play all cards before the end of the game (see *Team Distribution Principle*)
-  * It gets tempo on that color.
-* This clue is often bad if there are other play or save clues to give.
-
-### End-Game Stalling
-
-* In the end-game, you often don't want to discard even if there is nothing to do, since discarding makes you draw a card, ending the game sooner.
-* Therefore, if there are enough of clues in the bank, you can choose to stall, by giving a low-value or useless clue.
-* The best way to give a useless clue is to reclue cards which are already known to be playable. Another possibility is to clue known useless cards off-chop. This should not be interpreted as a chop move, and players receiving such clues should not blind-play these potentially chop-moved cards. Try to avoid useless cards on chop, as this can be misinterpreted as a *Trash Push*.
-* You can stall if
-  * There is a possibility that the game can be completed without anyone discarding from now on.
-  * You have two or more useful cards in your hand, and you want to follow *Team Distribution Principle*.
-* Avoid stalling if
-  * The end-game has not started yet (see *End-Game*).
-  * You know that someone else will have to discard if you don't do it. If someone will have to discard before the last card of the deck is drawn, it is generally best to do it as early as possible.
-  * There is only one more useful card in the deck (possibly more than one copy of it), and all useful cards in your hand are of the same color as that card. This is known as *Same Suit Stall Principle*. 
-    * For example, the only useful cards in the deck are two yellow 2's, and you hold yellow 3 and yellow 5. In this case there is no reason for you to stall, since the yellow 3 will not be played sooner if you stall.
 
 <br />
 
