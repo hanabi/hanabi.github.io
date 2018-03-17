@@ -769,7 +769,7 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
 
 #### 1) A *Disease Bluff*
 
-* Say that Cathy sees the red 2 in Donald's hand and can uniquely clue it. If she does, Donald will go on to immediately play it.
+* Say that Cathy sees the red 2 in Donald's hand and she can uniquely clue it. If she does, Donald will go on to immediately play it.
 * This would "heal" the problem, as Bob would not think that he has red 2 anymore. Thus, this clue is called a *Heal Clue*.
 * The original *Bluff* is called a *Disease Bluff*, since it requires healing.
 * The *Disease Bluff* interpretation is the highest priority interpretation!
