@@ -1063,5 +1063,5 @@ n/a
 | Double / Triple Pass Bluff | Zamiel
 | Out-of-Order Finesse | Zamiel
 | The Speed-up Clue | Libster
-| General Principles | Zamiel
+| General Principles | Zamiel and Florrat
 | Misplay Trash Push | Zamiel
