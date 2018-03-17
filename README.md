@@ -955,6 +955,19 @@ These are things that are separate from actual moves and strategies. We refer to
 * For other moves, there is no explicitly defined priority. For example, a clue could mean either a *Self-Finesse* or a *Self-Prompt* + *Finesse*. In these cases, *Occam's Razor* applies, meaning that you can slice away all the more complicated interpretations and simply assume the least-complex one. In this case, a single *Finesse* is less complicated than a *Finesse* + *Prompt*, so the former interpretation would be assumed.
 * It is important to not confuse *Occam's Razor* with *Schrodinger's Cat Principle* - you almost always have to allow for *Prompts*, *Reverse Finesses*, and so forth. But when you are not waiting on any information from other player's actions, then *Occam's Razor* does apply.
 
+### Team Distribution Principle
+
+* In general, it is better for useful cards to be distributed **evenly** throughout the team. This is especially important in 5 player games.
+* Thus, if one of your teammates has 3 of 4 cards clued, it may be better for THEM to be the one giving the clues, and you to be make more sense for you to be discarding - even if their chop is known trash.
+* There are multiple reasons for this. First, you don't want them to get a *Locked Hand*, which is generally bad. Second, if they continue to draw playable cards, the game may end before they get a chance to play them all.
+
+### End-Game Stalling
+
+* In the end-game, it is common to waste all of the remaining clues as a means to stall, giving a chance for all of the other players with playable cards to play them before the game is ended.
+* Obviously, wasting clues with the intent of stalling is only good if other players actually have playable cards.
+* The exception to this is if you have two or more yet-to-be-playable cards in your own hand. Then, you might want to stall as a means of satisfying *Team Distribution Principle*.
+  * However, do NOT stall if the only playable cards remaining in the deck are the same suit as the cards in your own hand. This is known as *Same Suit Stall Principle* - stalling in this situation would not actually be beneficial because even if you draw the card in question, the rest of the cards would not get played any faster.
+
 <br />
 
 ## Non-Formalized Proposals
