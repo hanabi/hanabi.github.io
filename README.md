@@ -974,11 +974,11 @@ These are things that are separate from actual moves and strategies. We refer to
 * Thus, if one of your teammates has 3 of 4 cards clued, it may be better for THEM to be the one giving the clues, and you to be make more sense for you to be discarding - even if their chop is known trash.
 * There are multiple reasons for this. First, you don't want them to get a *Locked Hand*, which is generally bad. Second, if they continue to draw playable cards, the game may end before they get a chance to play them all.
 
-### Bad Touch Clue
+### Distribution Clue
 * In or near the end-game it is sometimes useful to give a clue on a card, even if the second copy of that card has already been clued in someone else's hand. This violates *Good Touch Principle*, but it can still be useful for two reasons.
   * The player who holds the clued cards has too much useful cards in their hand, and there is the risk that they will not be able to play all cards before the end of the game (see *Team Distribution Principle*)
   * It gets tempo on that color.
-- This clue is often bad if there are other play or save clues to give.
+* This clue is often bad if there are other play or save clues to give.
 
 ### End-Game Stalling
 
