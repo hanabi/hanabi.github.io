@@ -960,18 +960,39 @@ These are things that are separate from actual moves and strategies. We refer to
 * For other moves, there is no explicitly defined priority. For example, a clue could mean either a *Self-Finesse* or a *Self-Prompt* + *Finesse*. In these cases, *Occam's Razor* applies, meaning that you can slice away all the more complicated interpretations and simply assume the least-complex one. In this case, a single *Finesse* is less complicated than a *Finesse* + *Prompt*, so the former interpretation would be assumed.
 * It is important to not confuse *Occam's Razor* with *Schrodinger's Cat Principle* - you almost always have to allow for *Prompts*, *Reverse Finesses*, and so forth. But when you are not waiting on any information from other player's actions, then *Occam's Razor* does apply.
 
+### End-Game
+
+* Towards the end of most games, the strategy in hanabi changes. Efficiency is often less important, and you have to be careful with discarding too much, triggering the end of the game too early. Some strategies change in the end-game, such as the *End-Game Stall* below if you don't want to discard.
+* We can estimate whether we are in the end-game by calculating the following number: `n = score + deck - max score`. Here `max score` is the maximal score you can achieve this game (usually 25 or 30, but it can be less if you lost critical cards).
+  * If `n ≥ 0`, you are not yet in the end-game, and you should not hesitate to discard.
+  * If `n = -1`, it is usually fine to discard, unless there is a single person who holds all the useful cards.
+  * If `n` is smaller than `-1` you should be very careful with discarding (but it might still be the best thing to do).
+
 ### Team Distribution Principle
 
 * In general, it is better for useful cards to be distributed **evenly** throughout the team. This is especially important in 5 player games.
 * Thus, if one of your teammates has 3 of 4 cards clued, it may be better for THEM to be the one giving the clues, and you to be make more sense for you to be discarding - even if their chop is known trash.
 * There are multiple reasons for this. First, you don't want them to get a *Locked Hand*, which is generally bad. Second, if they continue to draw playable cards, the game may end before they get a chance to play them all.
 
+### Distribution Clue
+* In or near the end-game it is sometimes useful to give a clue on a card, even if the second copy of that card has already been clued in someone else's hand. This violates *Good Touch Principle*, but it can still be useful for two reasons.
+  * The player who holds the clued cards has too much useful cards in their hand, and there is the risk that they will not be able to play all cards before the end of the game (see *Team Distribution Principle*)
+  * It gets tempo on that color.
+* This clue is often bad if there are other play or save clues to give.
+
 ### End-Game Stalling
 
-* In the end-game, it is common to waste all of the remaining clues as a means to stall, giving a chance for all of the other players with playable cards to play them before the game is ended.
-* Obviously, wasting clues with the intent of stalling is only good if other players actually have playable cards.
-* The exception to this is if you have two or more yet-to-be-playable cards in your own hand. Then, you might want to stall as a means of satisfying *Team Distribution Principle*.
-  * However, do NOT stall if the only playable cards remaining in the deck are the same suit as the cards in your own hand. This is known as *Same Suit Stall Principle* - stalling in this situation would not actually be beneficial because even if you draw the card in question, the rest of the cards would not get played any faster.
+* In the end-game, you often don't want to discard even if there is nothing to do, since discarding makes you draw a card, ending the game sooner.
+* Therefore, if there are enough of clues in the bank, you can choose to stall, by giving a low-value or useless clue.
+* The best way to give a useless clue is to reclue cards which are already known to be playable. Another possibility is to clue known useless cards off-chop. This should not be interpreted as a chop move, and players receiving such clues should not blind-play these potentially chop-moved cards. Try to avoid useless cards on chop, as this can be misinterpreted as a *Trash Push*.
+* You can stall if
+  * There is a possibility that the game can be completed without anyone discarding from now on.
+  * You have two or more useful cards in your hand, and you want to follow *Team Distribution Principle*.
+* Avoid stalling if
+  * The end-game has not started yet (see *End-Game*).
+  * You know that someone else will have to discard if you don't do it. If someone will have to discard before the last card of the deck is drawn, it is generally best to do it as early as possible.
+  * There is only one more useful card in the deck (possibly more than one copy of it), and all useful cards in your hand are of the same color as that card. This is known as *Same Suit Stall Principle*. 
+    * For example, the only useful cards in the deck are two yellow 2's, and you hold yellow 3 and yellow 5. In this case there is no reason for you to stall, since the yellow 3 will not be played sooner if you stall.
 
 <br />
 
@@ -1042,5 +1063,5 @@ n/a
 | Double / Triple Pass Bluff | Zamiel
 | Out-of-Order Finesse | Zamiel
 | The Speed-up Clue | Libster
-| General Principles | Zamiel
+| General Principles | Zamiel and Florrat
 | Misplay Trash Push | Zamiel
