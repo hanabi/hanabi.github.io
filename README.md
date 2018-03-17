@@ -1,3 +1,7 @@
+<p align="center">
+    <img src="img/hanabi.jpg" height="150" />
+</p>
+
 # Hanabi Strategies & Conventions
 
 For the *Hyphen-ated group*. Written and maintained by Zamiel.
@@ -508,7 +512,7 @@ This section is unique in that it contains things that are separate from actual 
 * Just like a "normal" play clue that touches multiple new cards, the chop card (and other other new cards introduced) are not necessarily playable right now.
 * In the following screenshot, nmego has a negative 1 clue on his chop so he should play his slot 1 card immediately. The chop card can be either yellow 2, yellow 3, yellow 4, but not yellow 5 (since Zamiel has it).
 
-![Focus Inversion](focus_inversion.png)
+![Focus Inversion](img/focus_inversion.png)
 
 ### Burning (End-Game Stalling) & Same-Suit Principle
 
@@ -550,7 +554,7 @@ This section is unique in that it contains things that are separate from actual 
 * Since we don't allow lying outside of *Bluff Position*, it is possible to perform a *Finesse* on a card that is not in *Finesse Position*, as long as all of the cards leading to it are playable. Essentially, the intended *Finesse* blind play target is layered behind other playable cards.
 * For example, at the beginning of the game, this is a 4-for-1 clue with full tempo:
 
-![Layered Finesse](layered_finesse.jpg)
+![Layered Finesse](img/layered_finesse.jpg)
 
 ### Clandestine Finesses
 
@@ -558,7 +562,7 @@ This section is unique in that it contains things that are separate from actual 
 * A form of *Layered Finesse* that gets around this restriction is called the *Clandestine Finesse*, because it is similar to a *Hidden Finesse*. When this move is performed, the player who is blind playing cards knows to keep playing because they see that if they do nothing, the next player will go on to misplay.
 * In the following example, in Zealousy's hand, green 2 and green 3 are already touched with a green clue. Thus, a number 3 clue to Zealousy will get both the red 2 and the purple 2, because if Hyphen-ated does not continue to play the purple 3, Zealousy will think he has red 3 and misplay it.
 
-![Clandestine Finesse](screenshots/clandestine_finesse.png)
+![Clandestine Finesse](img/clandestine_finesse.png)
 
 ### Stacked Finesses
 
@@ -845,7 +849,7 @@ This section is unique in that it contains things that are separate from actual 
 
 * Following from the *Double Bluff* convention, it is possible to perform a *Triple Bluff*. For example, on the first turn of the game:
 
-![Triple Bluff](triple_bluff.png)
+![Triple Bluff](img/triple_bluff.png)
 
 * In this screenshot, if Zealousy blind played a red 2 from newest AND the focus of the initial clue was red 4, then it would be a *Triple Two-Thirds Bluff* instead of a *Triple Bluff*.
 
@@ -991,7 +995,7 @@ This section is unique in that it contains things that are separate from actual 
 * Typically, we are only allowed to *Bluff* with cards that are 1-away (normal *Bluff*) or a 3 (*3 Bluff*) or a critical 4 (*Critical 4 Bluff*). However, *Bluffs* can also be performed with cards that are 2 away if the true intermediary card exists on someone's *Finesse Position*. Doing such a move is essentially like doing a *Bluff* and a *Finesse* at the same time, with one component of each. This is called a *Promise Bluff*, because it promises the true one-away card in addition to being a *Bluff*.
 * For example, in the following screenshot, the purple 4 was saved with a 4 clue originally and is known purple 4. Then, it is colored in with purples. Cak199164 plays rainbow 2 thinking that he is playing purple 2. And it also promises to MeGotsThis that he has purple 3 on *Finesse Position*:
 
-![Promise Bluff](promise_bluff.png)
+![Promise Bluff](img/promise_bluff.png)
 
 * *Promise Bluffs* take priority over *Double Bluffs*; Zamiel assumes that it is a *Promise Bluff* since he sees the true connecting card. So, since Zamiel does not blind play his *Finesse Position* card, MeGotsThis can know it was a Promise Bluff instead of a Double Bluff. (And also because Zamiel's *Finesse Position* card is junk.)
   * As the receiver of the clue that initiates a *Promise Bluff*, it may be ambiguous as to what exactly the connecting card is, if it exists. As long as there is at least one candidate on someone's *Finesse Position*, then you have to assume a *Promise Bluff* over a *Double Bluff*.
