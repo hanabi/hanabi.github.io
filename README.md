@@ -16,7 +16,7 @@ Hanabi is a fantastic cooperative game of logic and reasoning. Our group, starte
 
 The purpose of this document is:
 
-1. To explain the **"first principles"** to a beginner.
+1. To explain the *First Principles* to a beginner.
 
     Briefing a beginner on every possible strategy would quickly become overwhelming. It is much easier to just describe some guiding principles that everyone agrees upon. Once these are known, a beginner should be able to use logic and reason to derive (most of) the resulting strategy that their teammate is intending.
 
@@ -157,7 +157,7 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
 ### Saving 2s on Chop
 
 * Similar to saving 5s, always save a 2 with a number clue instead of a color clue.
-  * You can violate *Good Touch Principle* and duplicate a 2 in the situation where a color clue would look like a playable card and cause a misplay.
+* You can violate *Good Touch Principle* and duplicate a 2 in the situation where a color clue would look like a playable card and cause a misplay.
 
 ### Delayed Play Clues
 
