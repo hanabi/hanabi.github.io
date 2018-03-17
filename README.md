@@ -574,7 +574,7 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
 
 ### Free Choice Convention
 
-* This convention ONLY applies when playing a variant with a *Rainbow* suit (which is touched by all color clues).
+* This convention ONLY applies when playing a variant with a *Rainbow* suit or a dual-color suit.
 * When performing a *Prompt* by touching a sole rainbow card, the player doing the clue may have a free choice between multiple colors. In other words, there may exist multiple colors that will ONLY touch the rainbow card.
 * If a player has a free choice to choose the color that matches the intended prompt target but instead deliberately chooses a different color, this signals that it is a *Finesse* instead of a *Prompt*, and they should blind-play their newest.
 
