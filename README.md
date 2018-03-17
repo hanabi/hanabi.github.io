@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="img/hanabi.jpg" height="150" />
+    <img src="img/hanabi.jpg" height="200" />
 </p>
 
 # Hanabi Strategies & Conventions
