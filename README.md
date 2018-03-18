@@ -36,7 +36,7 @@ This document is split up into different sections so that you can better digest 
 2. [Level 0 - First Principles](#level-0---first-principles)
 3. [Level 1 - Beginner Strategies](#level-1---beginner-strategies)
 4. [Level 2 - Intermediate Strategies](#level-2---intermediate-strategies)
-5. [Level 2 - General Principles](#level-2--general-principles)
+5. [Level 2 - General Principles](#level-2---general-principles)
 6. [Level 3 - Advanced Strategies](#level-3---advanced-strategies)
 7. [Level 4 - Expert Strategies](#level-4---expert-strategies)
 8. [Level 3 - Variant-Specific Strategies](#level-3---variant-specific-strategies)
