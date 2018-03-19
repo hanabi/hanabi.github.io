@@ -830,7 +830,7 @@ This section is unique in that it contains things that are separate from actual 
   * The *Elimination Finesse* promises that it is her oldest card, so she plays slot 5 as blue 3.
 * Note that normal *Finesses* take priority over *Elimiation Finesses*. For example:
   * On the stacks, blue 2 and green 2 are played.
-  * Alice has *Elimination Notes* on slots 3 and 4 for red 3.
+  * Alice has *Elimination Notes* on slot 3 and slot 4 for red 3.
   * Someone clues a number 4 in Alice's slot 1 as a *Self-Finesse*.
   * Alice must assume that it is a normal *Self-Finesse* and play blue 3 from slot 2. (If it was an *Elimiation Self-Finesse*, she would play red 3 from slot 4.)
 
