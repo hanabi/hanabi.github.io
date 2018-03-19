@@ -762,6 +762,13 @@ This section is unique in that it contains things that are separate from actual 
   * If one of the cards includes the chop card, it means to play all of the cards from 2nd oldest to newest, and then the chop last.
 * If you are re-clued about a bunch of cards after you have already taken a turn, see the *Double Tempo Clue* convention.
 
+### Elimination Blind Play Riding Deduction Bluff
+
+* Typically, when a player has two cards with *Elimination Notes* and the "true" copy of the card is on chop, you must clue it to let them know.
+* However, if the other card is also playable, you can "lie" to them and not clue anything.
+* Next, the player should perform an *Elimination Blind Play Riding Deduction*, and play the unrelated card.
+* After that, there will be only one card left with an *Elimination Note*, so they will go on to play the "true" card on the next turn.
+
 ### Chop Transfer
 
 * Sometimes, cards are accidently chop moved through a mistake or through a complicated situation. In these kinds of situations, it is pointless to waste a clue to "undo" the chop move; you can just continue to allow them to discard normally. That is, until they get something good on chop.
