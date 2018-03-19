@@ -767,7 +767,7 @@ This section is unique in that it contains things that are separate from actual 
 * Typically, when a player has two cards with *Elimination Notes* and the "true" copy of the card is on chop, you must clue it to let them know.
 * However, if the other card is also playable, you can "lie" to them and not clue anything.
 * Next, the player should perform an *Elimination Blind Play Riding Deduction*, and play the unrelated card.
-* After that, there will be only one card left with an *Elimination Note*, so they will go on to play the "true" card on the next turn.
+* After that, there will be only one card left with an *Elimination Note*, so they will go on to play the "true" card on their next turn.
 
 ### Chop Transfer
 
