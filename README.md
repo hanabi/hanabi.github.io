@@ -204,6 +204,12 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
 * If the player whom you suspected the *Reverse Finesse* was directed towards blind-plays their card, then it means that the card that was clued originally is the next card in the chain and you can play it on your next turn.
 * Or, if the player whom you suspected the *Reverse Finesse* was directed towards did NOT blind-play, then you can safely play yours.
 
+### Wrong Prompt
+
+* A common mistake in Hanabi is to attempt to perform a *Finesse* when there is a "matching" card in that player's hand. Since *Prompts* take precedence over *Finesses*, the player will always play their matching clued cards first.
+* When a card is *Prompted* and it misplays, everyone can read into this mistake - it was almost certainly a *Wrong Prompt*, meaning that the player who gave the clue probably intended for the *Finesse Position* card to play instead.
+* Thus, if there is nothing else special about the situation, the player who misplayed should go on to play their *Finesse Position* card on the next turn.
+
 ### Order of Playing Two or More Playable Cards
 
 * If you have a two cards in your hand that are playable right now, you have a decision on which to play first. PRIORITIZE the cards that have a follow-up card in someone else's hand.
@@ -807,6 +813,19 @@ This section is unique in that it contains things that are separate from actual 
 
 * Normally, if a player is *Finessed*, they are supposed to play their *Finesse Position* card. However, if the player has two or more *Elimination Notes* in their hand for the specific finessed card, they know that it cannot be on *Finesse Position*. (This follows from *Information Lock Principle*.)
 * In this situation, the player is expected to play the OLDEST of the cards with the elimination notes on them.
+* For example:
+  * It is the middle of a 3-player game.
+  * On the stacks, blue 2 is played.
+  * Alice has a completely unclued hand.
+  * Alice discards a blue 3. She writes *Elimination Notes* on slots 2, 3, 4, and 5.
+  * Bob clues Cathy blues, indicating a blue 4. Cathy discards.
+  * At first, this looks like a *Reverse Finesse*, as it is calling for the blue 3. However, the blue 3 cannot be in her *Finesse Position* (slot 1), as she knows it must be either on slot 2, 3, 4, or 5. So it must be a *Reverse Elimination Finesse*.
+  * The *Elimination Finesse* promises that it is her oldest card, so she plays slot 5 as blue 3.
+* Note that normal *Finesses* take priority over *Elimiation Finesses*. For example:
+  * On the stacks, blue 2 and green 2 are played.
+  * Alice has *Elimination Notes* on slots 3 and 4 for red 3.
+  * Someone clues a number 4 in Alice's slot 1 as a *Self-Finesse*.
+  * Alice must assume that it is a normal *Self-Finesse* and play blue 3 from slot 2. (If it was an *Elimiation Self-Finesse*, she would play red 3 from slot 4.)
 
 ### Patch Finesses
 
