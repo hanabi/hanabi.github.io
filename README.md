@@ -481,7 +481,7 @@ This section is unique in that it contains things that are separate from actual 
 
 * Building on the *3 Bluffs* convention, it is ALSO possible for a card that initiates a *Bluff* to be a copy of any of the 4s that are critical (meaning that the other copy is in the discard pile or it is a black 4).
 
-### The Elimination Blind Play
+### Discard Elimination & The Elimination Blind Play
 
 * Normally, your teammates would never let you discard anything important. So when you discard some playable card (or a needed 2) AND your teammates were not busy AND you don't see that card in anyone else's hand, you should write a note on all of your other remaining cards that they could be that card. These are called *Elimination Notes*.
 * Thus, when you get a follow-up clue, you will know exactly what card it is.
@@ -496,6 +496,11 @@ This section is unique in that it contains things that are separate from actual 
 
 * Sometimes, you will have narrowed down your *Elimiation Notes* to one specific card. Thus, even though the card has no positive clues on it, you know the exact identity of the card.
 * If the card in question is on your chop AND the card is not yet playable AND you need to discard, you should obviously not discard the important elimination card. You should instead self-chop move and discard the next thing.
+
+### Play Elimination
+
+* When you discard something important, that triggers the writing of *Elimination Notes* on your own hand. This is *Discard Elimination* and is described above. But there are other ways that *Elimimation Notes* are triggered.
+* When another player plays a clued card in their hand that they should not have known was playable yet, it implies that they saw the other possibilities in someone else's hand. Thus, this should rigger you to write *Elimination Notes* on your hand. This is called **Play Elimination**.
 
 ### Weak Prompts
 
@@ -593,6 +598,13 @@ This section is unique in that it contains things that are separate from actual 
 * This kind of clue is called a *Top Hat Clue* because you are giving them an opportunity to be a gentleman.
 * Note that you should not mistake a *Top Hat Clue* for a clue that initiates a *Layered Finesse*. You are only allowed to discard the card if you can determine the exact identity.
 
+### Baking a Cake
+
+* Sometimes, you have a choice between playing two different playable cards and it does not matter which one you play.
+* If you notice that a teammate has one of your two playable cards on their *Finesse Position*, you may want to perform a *Gentleman's Discard* if some other card in their hand needs to be protected. However, often times this is not the case, and doing a *Gentleman's Discard* would be pointless (or even bad).
+* In this situation, it is better to play the card that is not present in your teammates hand. This way, if your teammate discards and draws a playable card, you can THEN do the *Gentleman's Discard*, and this would be a *Layered Gentleman's Discard*, which is much more valuable.
+* When you choose a card to play with a potential future *Layered Gentleman's Discard* in mind, this is referred to as *Baking a Cake*, as you are incubating something with layers.
+
 ### Trash Pushes
 
 * Normally, when a useless card is clued, it signifies a *Trash Chop Move*. However, what if the useless card is actually the card on chop? Then it wouldn't be chop moving anything.
@@ -609,12 +621,15 @@ This section is unique in that it contains things that are separate from actual 
 * Normally, when a useless card is clued, it signifies a *Trash Chop Move* or a *Trash Push*. However, for both of these strategies to work, it is assumed that the recipient of the clue will know that the card that was touched is useless.
 * What if the recipient of the clue does NOT know that the card that was clued is useless? They will go on to misplay that card, mistaking it for a "normal" *Play Clue*.
 * When you see this occur, it works like a *Bluff*; you must blind-play your *Finesse Position* card, or the player who received the clue will go on to misplay.
+* *Trash Bluffs* are a good tool to get a card played that is sitting behind other annoying cards.
 * For example, in 3 player game where all of the 1s are played already EXCEPT for red 1:
   * Cathy has no clued cards in her hand.
   * Alice clues Cathy number 1, which only touches her newest (slot 1) card. This card is a green 1, so Cathy will assume that it is a red 1.
   * Bob blind plays his *Finesse Position* card, and it is a playable red 1.
 * Just like normal *Bluffs*, *Trash Bluffs* can only be done while in *Bluff Position*.
-* Sometimes, a *Trash Bluff* is the only way to get a card played that is sitting behind some other annoying cards.
+* If multiple cards are clued that cause a *Trash Bluff*, it means that ALL of the cards are trash. However, the focus of the clue should be the first thing discarded, which allows for the possibility of your teammates to give a follow-up *Fix Clue*.
+
+### Trash Bluffs
 
 ### Trash Finesses (strong form)
 
