@@ -629,8 +629,6 @@ This section is unique in that it contains things that are separate from actual 
 * Just like normal *Bluffs*, *Trash Bluffs* can only be done while in *Bluff Position*.
 * If multiple cards are clued that cause a *Trash Bluff*, it means that ALL of the cards are trash. However, the focus of the clue should be the first thing discarded, which allows for the possibility of your teammates to give a follow-up *Fix Clue*.
 
-### Trash Bluffs
-
 ### Trash Finesses (strong form)
 
 * It is possible to perform a *Trash Bluff* outside of *Bluff Position* if there is only one possibility for the useless card to be. When this is done, it promises that someone has that specific card, so it is a *Trash Finesse* rather than a *Trash Bluff*.
@@ -673,6 +671,14 @@ This section is unique in that it contains things that are separate from actual 
   * Alice clues number 2 to Bob.
   * Bob plays red 2.
   * Bob knows that his other red card MUST be red 3, since it was originally clued as playable and it caused a *Reverse Finesse*.
+
+### Finesses with a Lie Component
+
+* *Good Lie Principle* states all that lies must resolve immediately. However, some players will ocassionally perform *Finesses* that violate this principle. We would say that such *Finesses* have a *Lie Component*.
+* Do NOT perform any moves with a *Lie Component* unless you are an expert player and understand the deep nuance involved in such a line. With that said, it is sometimes possible to construct safe lines that contain a *Lie Component*.
+* The previously mentioned *Out-of-order Finesse* is an specific example of a *Finesse* with a *Lie Component*. One key attribute of the *Out-of-order Finesse* is that the player who recieves the fix clue knows that ALL of the related cards are playable, or it would not have been worth the risk (and the confusion) to perform a line with a *Lie Component* in the first place.
+* This concept can also be generalized to all *Finesses* that have a *Lie Component* - even after a *Fix Clue*, you should assume that all of the cards are playable.
+* Like everything in Hanabi, there are exceptions to this rule. For example, if a huge *Finesse* happens that gets five cards blind-played and then you get a *Fix Clue* at the very end, the normal logic doens't apply: you can reason that your teammates would have wanted to perform a lie in order to get a huge Finesse, so it was worth it even if the final card from the *Fix Clue* was not necessarily playable.
 
 <br />
 
