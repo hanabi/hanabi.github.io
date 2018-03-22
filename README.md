@@ -822,6 +822,11 @@ This section is unique in that it contains things that are separate from actual 
 
 * This kind of save is called a Crazy 8s Save, because it is "abusing" the 8 clue situation to save a card that would otherwise be impossible to touch without causing a misplay.
 
+### No-Information Double Finesse (for 3's)
+
+* When a 3 exists in someone else's hand and already has a clue on it, it can be filled in with a second clue to cause a *3-Bluff* to occur. This is still a normal *3-Bluff*; it is only supposed to get 1 card to blind-play and does not imply a *Finesse*.
+* However, if a 3 is reclued and gives no additional information on the card, it always implies a *Double Finesse* instead of a *3-Bluff*.
+
 ### Sacrifice Discard
 
 * It is generally undesirable for a player to have a "fully locked" hand, but sometimes it happens. And sometimes, one card in the locked hand is useful in the future, but not critical (meaning there is another copy of the card in someone else's hand or still in the deck).
