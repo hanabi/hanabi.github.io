@@ -20,24 +20,24 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 
 ## Modulus Cheat Sheet
 
-| operation | result | action
-| --------- | ------ | ---------
-| 0 mod 9   | 0      | give clue
-| 1 mod 9   | 1      | play 1
-| 2 mod 9   | 2      | play 2
-| 3 mod 9   | 3      | play 3
-| 4 mod 9   | 4      | play 4
-| 5 mod 9   | 5      | discard 1
-| 6 mod 9   | 6      | discard 2
-| 7 mod 9   | 7      | discard 3
-| 8 mod 9   | 8      | discard 4
-| 9 mod 9   | 0      | give clue
-| 10 mod 9  | 1      | play 1
-| 11 mod 9  | 2      | play 2
-| 12 mod 9  | 3      | play 3
-| 13 mod 9  | 4      | play 4
-| 14 mod 9  | 5      | discard 1
-| 15 mod 9  | 6      | discard 2
-| 16 mod 9  | 7      | discard 3
-| 17 mod 9  | 8      | discard 4
-| 18 mod 9  | 0      | give clue
+| operation | result | type of clue
+| --------- | ------ | ----------------------
+| 0 mod 9   | 0      | number on newest card
+| 1 mod 9   | 1      | color on newest card
+| 2 mod 9   | 2      | any clue not touching the newest card
+| 3 mod 9   | 3      | number on newest card
+| 4 mod 9   | 4      | color on newest card
+| 5 mod 9   | 5      | any clue not touching the newest card
+| 6 mod 9   | 6      | number on newest card
+| 7 mod 9   | 7      | color on newest card
+| 8 mod 9   | 8      | any clue not touching the newest card
+| 9 mod 9   | 0      | number on newest card
+| 10 mod 9  | 1      | color on newest card
+| 11 mod 9  | 2      | any clue not touching the newest card
+| 12 mod 9  | 3      | number on newest card
+| 13 mod 9  | 4      | color on newest card
+| 14 mod 9  | 5      | any clue not touching the newest card
+| 15 mod 9  | 6      | number on newest card
+| 16 mod 9  | 7      | color on newest card
+| 17 mod 9  | 8      | any clue not touching the newest card
+| 18 mod 9  | 0      | number on newest card
