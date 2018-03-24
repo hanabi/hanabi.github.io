@@ -20,8 +20,8 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 
 ## Modulus Cheat Sheet
 
-| operation | result | type of clue
-| --------- | ------ | ------------
+| operation | result | action
+| --------- | ------ | ---------
 | 0 mod 9   | 0      | give clue
 | 1 mod 9   | 1      | play 1
 | 2 mod 9   | 2      | play 2
