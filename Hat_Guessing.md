@@ -6,36 +6,38 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 
 ## Clue Interpretation Table
 
-mod 9 | action    | person clued   | type of clue
---------+-----------+----------------+---------------------------------------
-0       | give clue | 1 player away  | number on newest card
-1       | play 1    | 1 player away  | color on newest card
-2       | play 2    | 1 player away  | any clue not touching the newest card
-3       | play 3    | 2 player away  | number on newest card
-4       | play 4    | 2 players away | color on newest card
-5       | discard 1 | 2 players away | any clue not touching the newest card
-6       | discard 2 | 3 players away | number on newest card
-7       | discard 3 | 3 players away | color on newest card
-8       | discard 4 | 3 players away | any clue not touching the newest card
+| # mod 9 | action    | person clued   | type of clue
+| ------- | --------- | -------------- | -------------
+| 0       | give clue | 1 player away  | number on newest card
+| 1       | play 1    | 1 player away  | color on newest card
+| 2       | play 2    | 1 player away  | any clue not touching the newest card
+| 3       | play 3    | 2 player away  | number on newest card
+| 4       | play 4    | 2 players away | color on newest card
+| 5       | discard 1 | 2 players away | any clue not touching the newest card
+| 6       | discard 2 | 3 players away | number on newest card
+| 7       | discard 3 | 3 players away | color on newest card
+| 8       | discard 4 | 3 players away | any clue not touching the newest card
 
 ## Modulus Cheat Sheet
 
-0 mod 9  | 0
-1 mod 9  | 1
-2 mod 9  | 2
-3 mod 9  | 3
-4 mod 9  | 4
-5 mod 9  | 5
-6 mod 9  | 6
-7 mod 9  | 7
-8 mod 9  | 8
-9 mod 9  | 0
-10 mod 9 | 1
-11 mod 9 | 2
-12 mod 9 | 3
-13 mod 9 | 4
-14 mod 9 | 5
-15 mod 9 | 6
-16 mod 9 | 7
-17 mod 9 | 8
-18 mod 9 | 0
+| operation | result | type of clue
+| --- | ---
+| 0 mod 9  | 0 | give clue
+| 1 mod 9  | 1 | play 1
+| 2 mod 9  | 2 | play 2
+| 3 mod 9  | 3 | play 3
+| 4 mod 9  | 4 | play 4
+| 5 mod 9  | 5 | discard 1
+| 6 mod 9  | 6 | discard 2
+| 7 mod 9  | 7 | discard 3
+| 8 mod 9  | 8 | discard 4
+| 9 mod 9  | 0 | give clue
+| 10 mod 9 | 1 | play 1
+| 11 mod 9 | 2 | play 2
+| 12 mod 9 | 3 | play 3
+| 13 mod 9 | 4 | play 4
+| 14 mod 9 | 5 | discard 1
+| 15 mod 9 | 6 | discard 2
+| 16 mod 9 | 7 | discard 3
+| 17 mod 9 | 8 | discard 4
+| 18 mod 9 | 0 | give clue
