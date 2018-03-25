@@ -20,8 +20,11 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 
 ## Modulus Cheat Sheet
 
+<table>
+<tr><td>
+
 | operation | result
-| --------- | ------
+| --- | ---
 | -9 mod 9  | 0
 | -8 mod 9  | 1
 | -7 mod 9  | 2
@@ -31,6 +34,11 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 | -3 mod 9  | 6
 | -2 mod 9  | 7
 | -1 mod 9  | 8
+
+</td><td>
+
+| operation | result
+| --- | ---
 | 0 mod 9   | 0
 | 1 mod 9   | 1
 | 2 mod 9   | 2
@@ -40,6 +48,11 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 | 6 mod 9   | 6
 | 7 mod 9   | 7
 | 8 mod 9   | 8
+
+</td><td>
+  
+| operation | result
+| --- | ---
 | 9 mod 9   | 0
 | 10 mod 9  | 1
 | 11 mod 9  | 2
@@ -49,6 +62,11 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 | 15 mod 9  | 6
 | 16 mod 9  | 7
 | 17 mod 9  | 8
+
+</td><td>
+  
+| operation | result
+| --- | ---
 | 18 mod 9  | 0
 | 19 mod 9  | 1
 | 20 mod 9  | 2
@@ -56,3 +74,7 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 | 22 mod 9  | 4
 | 23 mod 9  | 5
 | 24 mod 9  | 6
+| 25 mod 9  | 7
+| 26 mod 9  | 8
+
+</td></tr> </table>
