@@ -50,3 +50,9 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 | 16 mod 9  | 7
 | 17 mod 9  | 8
 | 18 mod 9  | 0
+| 19 mod 9  | 1
+| 20 mod 9  | 2
+| 21 mod 9  | 3
+| 22 mod 9  | 4
+| 23 mod 9  | 5
+| 24 mod 9  | 6
