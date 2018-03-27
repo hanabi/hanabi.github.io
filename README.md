@@ -1042,19 +1042,6 @@ This section is unique in that it contains things that are separate from actual 
 * If the player who performed the clue was in *Bluff Position*, then it is to be treated like a *Bluff*, and thus they will not know where the actual *Elimination Card* is. (However, in most cases, at this point there will only be one remaining card with an *Elimination Note* on it, so it won't matter.)
 * If the player who performed the clue was not in *Bluff Position*, then the blind-playing person is expected to keep playing until they find the intended card. This is similar to how a *Layered Finesse* works, but it is inverted such that they play cards from oldest to newest.
 
-### Promise Bluffs
-
-* Typically, we are only allowed to *Bluff* with cards that are 1-away (normal *Bluff*) or a 3 (*3 Bluff*) or a critical 4 (*Critical 4 Bluff*). However, *Bluffs* can also be performed with cards that are 2 away if the true intermediary card exists on someone's *Finesse Position*. Doing such a move is essentially like doing a *Bluff* and a *Finesse* at the same time, with one component of each. This is called a *Promise Bluff*, because it promises the true one-away card in addition to being a *Bluff*.
-* For example, in the following screenshot, the purple 4 was saved with a 4 clue originally and is known purple 4. Then, it is colored in with purples. Cak199164 plays rainbow 2 thinking that he is playing purple 2. And it also promises to MeGotsThis that he has purple 3 on *Finesse Position*:
-
-![Promise Bluff](img/promise_bluff.png)
-
-* *Promise Bluffs* take priority over *Double Bluffs*; Zamiel assumes that it is a *Promise Bluff* since he sees the true connecting card. So, since Zamiel does not blind play his *Finesse Position* card, MeGotsThis can know it was a Promise Bluff instead of a Double Bluff. (And also because Zamiel's *Finesse Position* card is junk.)
-  * As the receiver of the clue that initiates a *Promise Bluff*, it may be ambiguous as to what exactly the connecting card is, if it exists. As long as there is at least one candidate on someone's *Finesse Position*, then you have to assume a *Promise Bluff* over a *Double Bluff*.
-* Promise Bluffs also take priority over *Layered Finesses*. This isn't normally an issue, since it is rare to actually to perform a *Layered Finesse* from *Bluff Position*, but it is worth mentioning.
-
-<br />
-
 ## Non-Formalized Proposals
 
 These are moves that are proposed by certain members of the group. However, they have not yet reached a consensus that they are good enough to play with by default.
@@ -1096,7 +1083,6 @@ n/a
 | Hesitation Blind Play | Zamiel
 | Lost Tempo Priority Finesse | Libster
 | Dupe Bluff | Duneaught
-| Promise Bluff | Instantiation / Mathgeek
 | Certain Finesse | Zamiel
 | The Crazy 8s Save | Hyphen-ated
 | Negative Prompts | Zamiel and Libster
