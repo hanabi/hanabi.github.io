@@ -249,7 +249,7 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
 
 * This is the name given to clues that do not meet *Minimum Clue Value Principle*. They get a card played **right now** that already had a clue on it.
 * *Tempo Clues* are only done in the following special circumstances:
-  1. When the cards are "out of order" (meaning that it is impossible for a *Prompt* to get the cards played)
+  1. When the card is "out of order" (meaning that it is impossible for a *Prompt* to get the cards played)
   2. When the card was *Chop Moved* and it is now playable
   3. When the clue giver is "locked"
   4. When the clue giver has been signaled by another player that they have an unsafe discard
