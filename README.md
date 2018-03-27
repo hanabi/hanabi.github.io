@@ -249,17 +249,18 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
 
 * This is the name given to clues that do not meet *Minimum Clue Value Principle*. They get a card played **right now** that already had a clue on it.
 * *Tempo Clues* are only done in the following special circumstances:
-  1. When the cards are "out of order" (meaning that it is impossible for a “prompt” to get the cards played; this also applies to chop moved cards)
-  2. When the clue giver is "locked"
-  3. When the clue giver has been signaled by another player that they have an unsafe discard
-  4. When the clue giver is in a "double discard" situation
-  5. When the clue receiver is "locked"
-  6. When the clue receiver is receiving a tempo clue on a card that unlocks someone else's hand
-  7. When there are 8 clues in the bank (a forced clue)
-  8. When there are 7 clues in the bank (since discarding would take the team to 8 clues, which is generally bad)
-  9. When in *End-Game* or the team is behind pace (specifically, when score + deck is below the maximum score)
-  10.  When the game has been going so well that further clue efficiency is no longer required to win the game
-  11.  When the tempo clue gets 2 or more cards played.
+  1. When the cards are "out of order" (meaning that it is impossible for a *Prompt* to get the cards played)
+  2. When the card was *Chop Moved* and it is now playable
+  3. When the clue giver is "locked"
+  4. When the clue giver has been signaled by another player that they have an unsafe discard
+  5. When the clue giver is in a "double discard" situation
+  6. When the clue receiver is "locked"
+  7. When the clue receiver is receiving a tempo clue on a card that unlocks someone else's hand
+  8. When there are 8 clues in the bank (a forced clue)
+  9. When there are 7 clues in the bank (since discarding would take the team to 8 clues, which is generally bad)
+  10. When in *End-Game* or the team is behind pace (specifically, when score + deck is below the maximum score)
+  11.  When the game has been going so well that further clue efficiency is no longer required to win the game
+  12.  When the tempo clue gets 2 or more cards played.
 * *Tempo Clues* that are done outside of these special circumstances are a different convention called *Tempo Clue Chop Moves*, which are detailed further on in this document.
 * Sometimes, a *Tempo Clue* can touch multiple cards, which typically means that all of the cards touched are playable. See the *Double Tempo Clue* section further on in this document.
 
