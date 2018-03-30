@@ -929,6 +929,8 @@ This section is unique in that it contains things that are separate from actual 
 * The original *Bluff* is called a *Disease Bluff*, since it requires healing.
 * The *Disease Bluff* interpretation is the highest priority interpretation!
 
+![Disease Bluff](img/disease_bluff.png)
+
 #### 2) A *Double-Copy Bluff* (with Cathy seeing one copy)
 
 * Say that Cathy sees the red 2 in Donald's hand, but she cannot uniquely clue it due to other blocking cards.
