@@ -976,12 +976,6 @@ This section is unique in that it contains things that are separate from actual 
 * When performing a *Layered Finesse* with a *Lie Component*, it is important to wait until the last moment to give the *Fix Clue*. This is because after recieving the *Fix Clue*, the player will not play any more blind cards.
 * Thus, you should first wait for all of the "good" blind cards to play, and THEN give the *Fix Clue*.
 
-### The Trash Push Prompt/Finesse
-
-* If you see that a player *Trash Pushes* an unplayable one-away card, it is a signal to you that you have the connecting card.
-* If possible, you should allow for the possibility of a *Reverse Trash Push Prompt/Finesse*. Whether this is the correct thing to do or not is contextual on the pacing of the game and historical game state.
-  * Allowing for a *Reverse Trash Push Finesse* also has the advantage of potentially causing *Hesitation Blind Plays*, which can be advantageous to the team.
-
 ### The Lost Tempo Priority Finesse
 
 * When a player has a choice between two playable cards to play, they always choose the card that leads towards someone else's hand. So, when a player does not do this, it is very strange.
@@ -1022,6 +1016,20 @@ This section is unique in that it contains things that are separate from actual 
 * Part of the *Scream Discard* convention states that after a *Scream Discard*, the next player CANNOT discard. Thus, a player in this situation must completely waste a clue if there is nothing productive to do.
 * However, in some situations, the player who has been screamed at sees that if they give a clue, the next player will be left at 0 clues and will be forced to discard a critical card.
 * Thus, in this situation, the player should chop move as normal and then discard their new chop, which will functionally act as a second *Scream Discard*. This second *Scream Discard* is called a *Rebellious Discard*, because they are not doing what they are told.
+
+### Oblivious Finesse
+
+* Sometimes a *Layered Finesse* is given where one of the cards in a layer is currently unplayable. In this situation, a player who is responsible for blind-playing a card may have to instead played *Prompted* cards first so that the layered card does not misplay.
+* For the player with the layered card, this will be extremely confusing and look like the blind-playing player is oblivious to the *Finesse* that just occured. The typical response to this is to assume an *Ambiguous Finesse*, and to blind-play the *Finesse Position* card.
+* Thus, *Oblivious Finesses* can be quite dangerous and should only be performed in very specific circumstances where you can see that confusion will be minimized.
+
+![Oblivious Finesse](img/oblivious_finesse.png)
+
+### The Trash Push Prompt/Finesse
+
+* If you see that a player *Trash Pushes* an unplayable one-away card, it is a signal to you that you have the connecting card.
+* If possible, you should allow for the possibility of a *Reverse Trash Push Prompt/Finesse*. Whether this is the correct thing to do or not is contextual on the pacing of the game and historical game state.
+  * Allowing for a *Reverse Trash Push Finesse* also has the advantage of potentially causing *Hesitation Blind Plays*, which can be advantageous to the team.
 
 ### Dupe Bluffs
 
