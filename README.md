@@ -971,6 +971,11 @@ This section is unique in that it contains things that are separate from actual 
 * Here, Cathy can assume the *Double-Copy Bluff*, but this situation is different - she can immediately blind-play either card as red 2.
 * However, she should always play her *Finesse Position* card, in case it is a *Pestilent Bluff* instead of a *Double-Copy* bluff.
 
+### The Just-In-Time Fix Clue (To Fix a Layered Finesse with a Lie Component)
+
+* When performing a *Layered Finesse* with a *Lie Component*, it is important to wait until the last moment to give the *Fix Clue*. This is because after recieving the *Fix Clue*, the player will not play any more blind cards.
+* Thus, you should first wait for all of the "good" blind cards to play, and THEN give the *Fix Clue*.
+
 ### The Trash Push Prompt/Finesse
 
 * If you see that a player *Trash Pushes* an unplayable one-away card, it is a signal to you that you have the connecting card.
@@ -1063,8 +1068,6 @@ This section is unique in that it contains things that are separate from actual 
 * It is possible to lie to a player who has *Elimination Notes* on their hand and pretend like you are performing an *Elimination Finesse* on them, causing them to play their oldest card as per the convention. This can cause an unrelated playable card to play.
 * If the player who performed the clue was in *Bluff Position*, then it is to be treated like a *Bluff*, and thus they will not know where the actual *Elimination Card* is. (However, in most cases, at this point there will only be one remaining card with an *Elimination Note* on it, so it won't matter.)
 * If the player who performed the clue was not in *Bluff Position*, then the blind-playing person is expected to keep playing until they find the intended card. This is similar to how a *Layered Finesse* works, but it is inverted such that they play cards from oldest to newest.
-
-
 
 ## Non-Formalized Proposals
 
