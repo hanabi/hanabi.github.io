@@ -556,6 +556,13 @@ This section is unique in that it contains things that are separate from actual 
 
 ## Level 4 - Expert Strategies
 
+### Occupied Play Clues & Occupied Finesses
+
+* If a clue could be given by multiple players, who should give the clue? Usually, it makes the most sense for the players with playable cards to play those cards, and the players with nothing to do to give the clue.
+* If someone gives a clue with a playable card in their hand and forces the next person to have nothing to do, this is bad teamwork - unless there was a reason!
+* When this occurs, even if the clue looks like an ordinary *Save Clue*, it MUST be a *Play Clue*, since the player who was doing it was occupied.
+* Furthermore, if an *Occupied Play Clue* is given to a card that is not directly playable right now, it must be an *Occupied Finesse*!
+
 ### Hidden Finesses
 
 * Sometimes, you want to *Finesse* someone with a clued card already in their hand. However, if you try to *Finesse* them, they will assume it is a *Prompt* and will misplay their already clued card, so it doesn't work out.
