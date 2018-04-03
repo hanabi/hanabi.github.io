@@ -855,7 +855,7 @@ This section is unique in that it contains things that are separate from actual 
   * Bob clues Cathy blues, indicating a blue 4. Cathy discards.
   * At first, this looks like a *Reverse Finesse*, as it is calling for the blue 3. However, the blue 3 cannot be in her *Finesse Position* (slot 1), as she knows it must be either on slot 2, 3, 4, or 5. So it must be a *Reverse Elimination Finesse*.
   * The *Elimination Finesse* promises that it is her oldest card, so she plays slot 5 as blue 3.
-* Note that normal *Finesses* take priority over *Elimiation Finesses*. For example:
+* Note that normal *Finesses* take priority over *Self-Elimiation Finesses*. For example:
   * On the stacks, blue 2 and green 2 are played.
   * Alice has *Elimination Notes* on slot 3 and slot 4 for red 3.
   * Someone clues a number 4 in Alice's slot 1 as a *Self-Finesse*.
