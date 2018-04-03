@@ -693,6 +693,23 @@ This section is unique in that it contains things that are separate from actual 
 * This concept can also be generalized to all *Finesses* that have a *Lie Component* - even after a *Fix Clue*, you should assume that all of the cards are playable.
 * There are exceptions to this rule. For example, if a huge *Finesse* happens that gets five cards blind-played and then you get a *Fix Clue* at the very end, the normal logic doens't apply: you can reason that your teammates would have wanted to perform a lie in order to get a huge Finesse, so it was worth it even if the final card from the *Fix Clue* was not necessarily playable.
 
+### Early 5's Chop Move
+
+* In the *Early Game*, since you are allowed to stall by cluing off-chop 5's, it is generally impossible to perform the *5's Chop Move*.
+* However, players are not generally supposed to stall until all of the "normal" *Play Clues* and *Save Clues* have been given.
+* Thus, if you receive a clue that looks like a *5's Chop Move* in the *Early Game* and you can see that the player had a good non-stall clue to give, then it IS a chop move after all.
+
+### Higher-Rank Finesses
+
+* When a player has a choice between two or more cards to play, they are always supposed to play the card that leads into someone else's hand.
+* However, if both cards do not lead into someone else's hand, then players are supposed to play the card with the lower number (rank) first.
+* If a player plays a higher-rank card first, it implies that the next copy of that suit is in someone's *Finesse Position*.
+
+### Higher-Rank Bluffs
+
+* If is possible to lie to the next player and imply a *Higher-Rank Finesse* when they have an unrelated card on *Finesse Position*.
+* After the unrelated card is played, since the person who lied was in *Bluff Position*, no further cards should be promised.
+
 <br />
 
 ## Level 3 - Variant-Specific Strategies
@@ -725,6 +742,13 @@ This section is unique in that it contains things that are separate from actual 
 * This convention ONLY applies when playing a variant with a *Rainbow* suit or a dual-color suit.
 * It is possible to use the *Free Choice* convention to communicate to a teammate that you want a *Finesse* instead of a *Prompt* in order to get them to play an unrelated playable card from their *Finesse Position*.
 * Like a normal *Bluff*, after a *Free Choice Bluff*, the person who blind-played does not necessarily have the "matching" card in their hand.
+
+### Suboptimal Color Bluff
+
+* This convention ONLY applies when playing a variant with a *Rainbow* suit or a dual-color suit.
+* Often, when giving a color clue to a Rainbow or dual-color card, you want to pick a color that will "fill-in" ancillary cards in the hand as to give the maximum amount of information.
+* If a suboptimal color is chosen that does not fill in ancillary cards, it follows from *High Value Principle* that there must be a reason, so you should blind play your *Finesse Position* card.
+* This move is contextual in that you don't want to make it appear as if the clued card is currently unplayable. Thus, it is best performed as a *Reverse Bluff* or a *Long-Distance Bluff*.
 
 ### White Compromise
 
@@ -1037,6 +1061,11 @@ This section is unique in that it contains things that are separate from actual 
 * If possible, you should allow for the possibility of a *Reverse Trash Push Prompt/Finesse*. Whether this is the correct thing to do or not is contextual on the pacing of the game and historical game state.
   * Allowing for a *Reverse Trash Push Finesse* also has the advantage of potentially causing *Hesitation Blind Plays*, which can be advantageous to the team.
 
+### Suboptimal Color Prompt & Suboptimal Color Finesse
+
+* When saving a critical card, players will generally choose either color or number in order to best satisfy *Good Touch Principle*. Or, in situations where either color or number will satisfy *Good Touch Principle*, they will choose the clue that touches the maximum amount of useful ancillary cards (in order to get a "2 for 1" or "3 for 1" instead of a "1 for 1").
+* When a player does NOT do this, it very strange. From *High Value Principle*, it implies it is a *Play Clue* instead of a *Save Clue*, so it is either a *Prompt* or a *Finesse* on the critical card being saved.
+
 ### Dupe Bluffs
 
 * This is where you perform a *Bluff* such that the card that is blind played is already touched in someone else's hand AND the player who has the other copy has full knowledge of the card.
@@ -1165,7 +1194,7 @@ n/a
 | The Layered Jump | Libster
 | Oblivious Finesse | Sankala
 | Free Choice Bluff | Zamiel
+| Suboptimal Color Prompt & Suboptimal Color Finesse | Zamiel
 | Suboptimal Color Bluff | Zamiel
-| Suboptimal Color Finesse | Zamiel
 | Higher Order Blind Play | Libster
 | Pestilence Finesse | Sankala
