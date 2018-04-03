@@ -703,13 +703,17 @@ This section is unique in that it contains things that are separate from actual 
 
 * When a player has a choice between two or more cards to play, if other players are waiting on one of their cards in order to play themselves, then those cards should always be prioritized.
 * However, if both cards are not being "waited on", then players are supposed to play the card with the lower number (rank) first.
-* If a player plays a higher-rank card first, it implies that the next copy of that suit is in someone's *Finesse Position*.
-* For example:
+* If a player plays a higher-rank card first, it implies that the next copy of that suit is in someone else's hand. And if it is not immediately clued directly, that player should blind-play their *Finesse Position* card.
+* For example, this is NOT a *Higher-Rank Finesse*:
+  * Alice has a known playable red 1 and a known playable blue 2 in her hand.
+  * Alice plays blue 2.
+  * Bob comes next. Bob does not see any red 2s. Bob does see blue 3 on the chop of Cathy. Thus, Alice played the blue 2 to give Cathy something to do.
+  * Bob clues blues to Cathy as a chop-focus *Play Clue*.
+* For example, this IS a *Higher-Rank Finesse*:
   * Alice has a known playable red 1 and a known playable blue 2 in her hand.
   * Alice plays blue 2.
   * Bob comes next. Bob does not see any red 2s. He does not see any blue 3s either. Thus, Alice was supposed to play the red 2 first.
   * This means that Bob must have blue 3, so he blind-plays his *Finesse Position* card.
-
 
 ### Higher-Rank Bluffs
 
