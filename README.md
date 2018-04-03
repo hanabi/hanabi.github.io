@@ -233,7 +233,7 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
 * Typically, discarding is a last resort. So, if you have a known playable card in your hand, you can send a powerful signal to your partner by discarding. This is called a *Scream Discard*. Since your partner expected you to play the card, it is like screaming at them to let them know that things are very bad.
 * The player being "screamed at" should permanently move their chop by one position.
 * Furthermore, the player being "screamed at" is not allowed to discard on this turn. They must make some clue. Clues in this situation are treated the same as a *Double Discard Situation* (see *Avoiding Double Discards* below).
-* Players are only allowed to *Scream Discard* for cards that are playable or critical.
+* Players are only allowed to *Scream Discard* for cards that are playable or critical (or a needed 2 that isn't seen anywhere else).
 (You are not allowed to Scream Discard for a card that is one away from being playable.)
 * There are two exceptions to the *Scream Discards* convention:
   * It is not a *Scream Discard* if the next player HAS to generate a clue for a separate reason. This is called a *Generation Discard*; see below.
