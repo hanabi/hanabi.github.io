@@ -679,7 +679,7 @@ This section is unique in that it contains things that are separate from actual 
 * Do NOT perform any moves with a *Lie Component* unless you are an expert player and understand the deep nuance involved in such a line. With that said, it is sometimes possible to construct safe lines that contain a *Lie Component*.
 * The previously mentioned *Out-of-order Finesse* is an specific example of a *Finesse* with a *Lie Component*. One key attribute of the *Out-of-order Finesse* is that the player who recieves the fix clue knows that ALL of the related cards are playable, or it would not have been worth the risk (and the confusion) to perform a line with a *Lie Component* in the first place.
 * This concept can also be generalized to all *Finesses* that have a *Lie Component* - even after a *Fix Clue*, you should assume that all of the cards are playable.
-* Like everything in Hanabi, there are exceptions to this rule. For example, if a huge *Finesse* happens that gets five cards blind-played and then you get a *Fix Clue* at the very end, the normal logic doens't apply: you can reason that your teammates would have wanted to perform a lie in order to get a huge Finesse, so it was worth it even if the final card from the *Fix Clue* was not necessarily playable.
+* There are exceptions to this rule. For example, if a huge *Finesse* happens that gets five cards blind-played and then you get a *Fix Clue* at the very end, the normal logic doens't apply: you can reason that your teammates would have wanted to perform a lie in order to get a huge Finesse, so it was worth it even if the final card from the *Fix Clue* was not necessarily playable.
 
 <br />
 
