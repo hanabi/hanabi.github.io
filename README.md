@@ -714,11 +714,17 @@ This section is unique in that it contains things that are separate from actual 
   * if the number clue also touched a critical card
 * Subsequently, if a number clue is used to touch a black 3 or a black 4 (and the above exception is not applicable), then it implies a *Finesse*.
 
-### Free Choice Convention
+### Free Choice Finesse
 
 * This convention ONLY applies when playing a variant with a *Rainbow* suit or a dual-color suit.
 * When performing a *Prompt* by touching a sole rainbow card, the player doing the clue may have a free choice between multiple colors. In other words, there may exist multiple colors that will ONLY touch the rainbow card.
 * If a player has a free choice to choose the color that matches the intended prompt target but instead deliberately chooses a different color, this signals that it is a *Finesse* instead of a *Prompt*, and they should blind-play their newest.
+
+### Free Choice Bluff
+
+* This convention ONLY applies when playing a variant with a *Rainbow* suit or a dual-color suit.
+* It is possible to use the *Free Choice* convention to communicate to a teammate that you want a *Finesse* instead of a *Prompt* in order to get them to play an unrelated playable card from their *Finesse Position*.
+* Like a normal *Bluff*, after a *Free Choice Bluff*, the person who blind-played does not necessarily have the "matching" card in their hand.
 
 ### White Compromise
 
