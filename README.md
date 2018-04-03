@@ -704,6 +704,12 @@ This section is unique in that it contains things that are separate from actual 
 * When a player has a choice between two or more cards to play, they are always supposed to play the card that leads into someone else's hand.
 * However, if both cards do not lead into someone else's hand, then players are supposed to play the card with the lower number (rank) first.
 * If a player plays a higher-rank card first, it implies that the next copy of that suit is in someone's *Finesse Position*.
+* For example:
+  * Alice has a known playable red 1 and a known playable blue 2 in her hand.
+  * Alice plays blue 2.
+  * Bob comes next. Bob does not see any red 2s. He does not see any blue 3s either. Thus, Alice was supposed to play the red 2 first.
+  * This means that Bob must have blue 3, so he blind-plays his *Finesse Position* card.
+
 
 ### Higher-Rank Bluffs
 
