@@ -701,8 +701,8 @@ This section is unique in that it contains things that are separate from actual 
 
 ### Higher-Rank Finesses
 
-* When a player has a choice between two or more cards to play, they are always supposed to play the card that leads into someone else's hand.
-* However, if both cards do not lead into someone else's hand, then players are supposed to play the card with the lower number (rank) first.
+* When a player has a choice between two or more cards to play, if other players are waiting on one of their cards in order to play themselves, then those cards should always be prioritized.
+* However, if both cards are not being "waited on", then players are supposed to play the card with the lower number (rank) first.
 * If a player plays a higher-rank card first, it implies that the next copy of that suit is in someone's *Finesse Position*.
 * For example:
   * Alice has a known playable red 1 and a known playable blue 2 in her hand.
