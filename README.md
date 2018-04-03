@@ -503,6 +503,11 @@ This section is unique in that it contains things that are separate from actual 
 * When you discard something important, that triggers the writing of *Elimination Notes* on your own hand. This is *Discard Elimination* and is described above. But there are other ways that *Elimimation Notes* are triggered.
 * When another player plays a clued card in their hand that they should not have known was playable yet, it implies that they saw the other possibilities in someone else's hand. Thus, this should trigger you to write *Elimination Notes* on your hand. This is called **Play Elimination**.
 
+### Double Discard Elimination
+
+* When a player who is in a *Double Discard* situation discards anyway with an obvious clue to give (such as an off-chop 5), it implies that they SEE the other copy of the card, and were not double discarding at all.
+* Thus, when this occurs, you should write *Elimination Notes* on your entire hand for that card.
+
 ### Weak Prompts
 
 * If a teammate performs the *Prompt* convention on you and you have multiple cards in your hand that match the connecting card, normally you would be promised that the left-most (newest) is playable.
@@ -845,7 +850,7 @@ This section is unique in that it contains things that are separate from actual 
 
 ### Elimination Finesses
 
-* Normally, if a player is *Finessed*, they are supposed to play their *Finesse Position* card. However, if the player has two or more *Elimination Notes* in their hand for the specific finessed card, they know that it cannot be on *Finesse Position*. (This follows from *Information Lock Principle*.)
+* Normally, if a player is *Finessed*, they are supposed to play their *Finesse Position* card. However, if the player has two or more *Elimination Notes* in their hand for the specific finessed card, they know that it cannot be on *Finesse Position*.
 * In this situation, the player is expected to play the OLDEST of the cards with the elimination notes on them.
 * For example:
   * It is the middle of a 3-player game.
@@ -855,6 +860,7 @@ This section is unique in that it contains things that are separate from actual 
   * Bob clues Cathy blues, indicating a blue 4. Cathy discards.
   * At first, this looks like a *Reverse Finesse*, as it is calling for the blue 3. However, the blue 3 cannot be in her *Finesse Position* (slot 1), as she knows it must be either on slot 2, 3, 4, or 5. So it must be a *Reverse Elimination Finesse*.
   * The *Elimination Finesse* promises that it is her oldest card, so she plays slot 5 as blue 3.
+* *Elimination Finesses* apply to ALL types of situations with *Elimination Notes* (including *Discard Elimination Notes*, *Play Elimination Notes*, and *Double Discard Elimination Notes*). Subsequently, you can more specifically describe an *Elimination Finesse* as a *Discard Elimination Finesse*, a *Play Elimination Finesse*, or a *Double Discard Elimination Finesse*.
 * Note that normal *Finesses* take priority over *Self-Elimiation Finesses*. For example:
   * On the stacks, blue 2 and green 2 are played.
   * Alice has *Elimination Notes* on slot 3 and slot 4 for red 3.
@@ -1059,8 +1065,8 @@ n/a
 | --- | ---
 | 2 Saves | Hyphen-ated and Duneaught
 | Chop Focus | Zamiel and Hyphen-ated
-| Layered Finesse | Antizoubilamka
-| Clandestine Finesse | Antizoubilamka
+| Layered Finesse | Antizoubilamaka
+| Clandestine Finesse | Antizoubilamaka
 | Patch Finesse | Zamiel and Libster
 | 3 Bluff | Hyphen-ated
 | Double Bluff | Hyphen-ated
@@ -1073,7 +1079,7 @@ n/a
 | Double Gentleman's Discard | Duneaught
 | Layered Gentleman's Discard | Duneaught
 | Tempo Clue Chop Moves | Zamiel
-| Elimination Blind Play | Aridolomo (with heavy revisions)
+| Discard Elimination & The Elimination Blind Play | Aridolomo (with revisions from Hyphen-ated and Duneaught)
 | Immediate Double Clue | Duneaught
 | Elimination Finesse | Zamiel and Ahming
 | Elimination Blind Play Riding Deduction | Duneaught
@@ -1113,3 +1119,21 @@ n/a
 | The Speed-up Clue | Libster
 | General Principles | Zamiel and Florrat
 | Misplay Trash Push | Zamiel
+| Disease Bluffs & Heal Clues | Zamiel
+| Double-Copy Bluff | Zamiel
+| Pestilence Finesses & Pestilence Bluffs | Zamiel
+| Distribution Clue | Libster
+| Elimination Blind Play Riding Deduction Bluff | Duneaught
+| Self-Elimination Finesse Priority | 910dan
+| Baking a Cake | Zamiel
+| Multiple-card Trash Bluff | Zamiel & Antizoubilamaka
+| Play Elimination | Zamiel
+| Double Discard Elimination | Zamiel
+| No-Information Double Finesse | Zamiel
+| Layered Jump | Libster
+| Oblivious Finesse | Sankala
+| Free Choice Bluff | Zamiel
+| Suboptimal Color Bluff | Zamiel
+| Suboptimal Color Finesse | Zamiel
+| Higher Order Blind Play | Libster
+| Pestilence Finesse | Sankala
