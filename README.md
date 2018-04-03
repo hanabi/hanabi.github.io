@@ -358,8 +358,8 @@ This section is unique in that it contains things that are separate from actual 
 
 ### Occam's Razor
 
-* Sometimes, clues can have multiple interpretations. For example, a new player might be confused as to whether a clue was a *Bluff* or a *Layered Finesse*. However, with these two moves, we explicitly define the priority such that *Bluffs* **always** take precendence over *Layered Finesses*. So this situation is not confusing.
-* For other moves, there is no explicitly defined priority. For example, a clue could mean either a *Self-Finesse* or a *Self-Prompt* + *Finesse*. In these cases, *Occam's Razor* applies, meaning that you can slice away all the more complicated interpretations and simply assume the least-complex one. In this case, a single *Finesse* is less complicated than a *Finesse* + *Prompt*, so the former interpretation would be assumed.
+* Sometimes, clues can have multiple interpretations. For some moves, we make it a point to explicitly define the priority in order to avoid confusion. For example, we say that *Prompts* take precendence over *Finesses*.
+* For other situation, there is no explicitly defined priority. For example, a clue could mean either a *Self-Finesse* or a *Self-Prompt* + *Finesse*. In these cases, *Occam's Razor* applies, meaning that you can slice away all the more complicated interpretations and simply assume the least-complex one. In this case, a single *Finesse* is less complicated than a *Finesse* + *Prompt*, so the former interpretation would be assumed.
 * It is important to not confuse *Occam's Razor* with *Schrodinger's Cat Principle* - you almost always have to allow for *Prompts*, *Reverse Finesses*, and so forth. But when you are not waiting on any information from other player's actions, then *Occam's Razor* does apply.
 
 ### Team Distribution Principle
@@ -1038,6 +1038,12 @@ This section is unique in that it contains things that are separate from actual 
   * Would another player have tried to blind play something before the potential *Fix Clue* was given? If yes, then it is not a *Fix Clue*, and it is a *Speed-up Clue*.
   * Was it possible to take an equivalent line where a *Fix Clue* would not be needed? (In terms of the same number of clues, and no risk of discarding critical/playable cards.) If yes, it is not a *Speed-up Clue*.
 
+### The Layered Jump
+
+* If a player who is blind-playing into a *Layered Finesse* skips over a card, they are performing a *Layered Jump*. This player has deduced that the card they are skipping over is duplicated (or otherwise bad).
+* The card skipped over in this way will be the next thing discarded, as it is now considered known trash.
+* If a *Layered Jump* skips over a card that cannot be in your own hand, then you can determine that it must be a mistake. In this situation, the skipped-over card must be clued directly to re-signify that it is good.
+
 ### The Misplay Trash Push
 
 * When a card is clued and the next person misplays that card, it is usually the *Misplay Chop Move* - they had no other options and had to protect an important card on chop.
@@ -1057,6 +1063,8 @@ This section is unique in that it contains things that are separate from actual 
 * It is possible to lie to a player who has *Elimination Notes* on their hand and pretend like you are performing an *Elimination Finesse* on them, causing them to play their oldest card as per the convention. This can cause an unrelated playable card to play.
 * If the player who performed the clue was in *Bluff Position*, then it is to be treated like a *Bluff*, and thus they will not know where the actual *Elimination Card* is. (However, in most cases, at this point there will only be one remaining card with an *Elimination Note* on it, so it won't matter.)
 * If the player who performed the clue was not in *Bluff Position*, then the blind-playing person is expected to keep playing until they find the intended card. This is similar to how a *Layered Finesse* works, but it is inverted such that they play cards from oldest to newest.
+
+
 
 ## Non-Formalized Proposals
 
@@ -1137,7 +1145,7 @@ n/a
 | Play Elimination | Zamiel
 | Double Discard Elimination | Zamiel
 | No-Information Double Finesse | Zamiel
-| Layered Jump | Libster
+| The Layered Jump | Libster
 | Oblivious Finesse | Sankala
 | Free Choice Bluff | Zamiel
 | Suboptimal Color Bluff | Zamiel
