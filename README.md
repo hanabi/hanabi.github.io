@@ -762,7 +762,7 @@ This section is unique in that it contains things that are separate from actual 
 
 ### White Compromise
 
-* This convention only applies to the *Colorless & Rainbow Suits* variant.
+* This convention only applies to the *Colorless & Rainbow Suits* and *Wild and Crazy* variants.
 * When you clue a white 5 that is one away from chop, it would normally look like a *5's Chop Move*.
 * However, if white 4 is currently played, all 5 clues that could be *5's Chop Moves* are treated instead *Play Clues* on white 5.
 
