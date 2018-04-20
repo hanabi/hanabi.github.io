@@ -1256,3 +1256,13 @@ n/a
 | Suboptimal Color Bluff | Zamiel
 | Higher Order Blind Play | Libster
 | Pestilence Finesse | Sankala
+| Continuation Clues | Libster
+| Just-In-Time Fix Clues | Zamiel
+| Occupied Play Clue & Occupied Finesse | Zamiel
+| Higher-Rank Prompt & Higher-Rank Finesse | Libster
+| Higher-Rank Bluff & Higher-Rank Layered Finesse | Zamiel
+| Long-Range Scream Discard | Florrat
+| Bad Touch Double Finesse | Zamiel
+| Bad Touch Double Bluff & Bad Touch Double Half Bluff | Sankala
+| The Dump Truck | Ahming
+| The Fuel Clue | Ahming
