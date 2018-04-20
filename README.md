@@ -1262,7 +1262,7 @@ n/a
 | Higher-Rank Prompt & Higher-Rank Finesse | Libster
 | Higher-Rank Bluff & Higher-Rank Layered Finesse | Zamiel
 | Long-Range Scream Discard | Florrat
-| Bad Touch Double Finesse | Zamiel
+| Bad Touch Double Finesse | Sankala
 | Bad Touch Double Bluff & Bad Touch Double Half Bluff | Sankala
 | The Dump Truck | Ahming
 | The Fuel Clue | Ahming
