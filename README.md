@@ -878,6 +878,21 @@ This section is unique in that it contains things that are separate from actual 
 * Thus, if a player instead discards their right-most unclued card instead of known trash, it must be a signal that something is wrong, exactly like a Scream Discard. This is more subtle than a Scream Discard though, so it is called a Whisper Discard.
 * Whisper Discards are to be treated identically to Scream Discards. In short, this means that they 1) cause a chop move and 2) force a clue to be given on the next turn.
 
+### Long-Range Scream Discard
+
+* A *Scream Discard Chop Move* is done only as a last resort. So, if the next player has an unimportant card on chop, then the move is usually a *Generation Discard* and does not chop move anyone.
+* In other words, from the perspective of the next player:
+  * if a safe card is on the next person's chop --> *Scream Discard* --> self-chop move
+  * if a critical/playable card is on the next person's chop --> *Generation Discard* --> clue critical card directly with the generated clue
+* However, what if the next player has either:
+  * a known playable card
+  * a known safe trash discard
+* This means that it CANNOT be a *Scream Discard* on them, and this information is synchronous (in that all players can know it). Thus, everyone can conclude the other possibility, so there is no need to waste a clue on the next person's critical card at all!
+* So, when a *Scream Discard* happens and the next player has a known play / known safe discard, is a *Long-Range Scream Discard* and the NEXT person should treat it as a *Scream Discard* on them (meaning that they chop move and can't discard on their next turn).
+* In the unlikely scenario where two people in a row have known plays / known safe discards, then the *Long-Range Scream Discard* is on the next person after that, and so forth.
+* A *Long-Range Scream Discard* is useful if multiple players in a row have critical/playable chops, because you don't want them *Scream Discarding* for each other. Alternatively, it is also useful if they won't know that the next chop needs to be saved (if it plays through cards in their own hand, for example).
+* A *Long-Range Whisper Discard* works in the same way.
+
 ### Crazy 8s Save
 
 * Being at 8 clues is considered bad, since there might not be anything to do, and a player will have to waste a clue. Thus, players typically avoid discarding to send the team to 8 clues if they can avoid it.
