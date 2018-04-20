@@ -906,6 +906,13 @@ This section is unique in that it contains things that are separate from actual 
 * When a 3 exists in someone else's hand and already has a clue on it, it can be filled in with a second clue to cause a *3-Bluff* to occur. This is still a normal *3-Bluff*; it is only supposed to get 1 card to blind-play and does not imply a *Finesse*.
 * However, if a 3 is reclued and gives no additional information on the card, it always implies a *Double Finesse* instead of a *3-Bluff*.
 
+### Bad Touch Double Finesse
+
+* Normally, a *3 Bluff* takes priority over a *Double Finesse*. This means that if someone clues a blue 3 using the number 3, and then a blue 1 blind plays on the very next turn, no-one is promised the blue 2.
+* However, if BOTH blue 3's were touched with the number 3 clue, then that would violate *Good Touch Principle*, and this would be considered a "bad touch".
+* If someone is violating *Good Touch Principle*, they must have a very good reason, so the clue must be a *Double Finesse* instead of a *3 Bluff*. In the above example, you should blind-play the blue 2 from your *Finesse Position*.
+* The player who recieved the clue can safely discard the 3 that was on chop.
+
 ### Sacrifice Discard
 
 * It is generally undesirable for a player to have a "fully locked" hand, but sometimes it happens. And sometimes, one card in the locked hand is useful in the future, but not critical (meaning there is another copy of the card in someone else's hand or still in the deck).
@@ -978,6 +985,10 @@ This section is unique in that it contains things that are separate from actual 
 ![Triple Bluff](img/triple_bluff.png)
 
 * In this screenshot, if Zealousy blind played a red 2 from newest AND the focus of the initial clue was red 4, then it would be a *Triple Two-Thirds Bluff* instead of a *Triple Bluff*.
+
+### Bad Touch Double Bluff & Bad Touch Double Half Bluff
+
+* Following from the *Bad Touch Double Finesse* convention, it is also possible to *Bad Touch Double Bluff* or *Bad Touch Double Half Bluff* in order to get unrelated cards played from *Finesse Position*.
 
 ### Good Touch Bluff
 
@@ -1141,6 +1152,23 @@ This section is unique in that it contains things that are separate from actual 
 * It is possible to lie to a player who has *Elimination Notes* on their hand and pretend like you are performing an *Elimination Finesse* on them, causing them to play their oldest card as per the convention. This can cause an unrelated playable card to play.
 * If the player who performed the clue was in *Bluff Position*, then it is to be treated like a *Bluff*, and thus they will not know where the actual *Elimination Card* is. (However, in most cases, at this point there will only be one remaining card with an *Elimination Note* on it, so it won't matter.)
 * If the player who performed the clue was not in *Bluff Position*, then the blind-playing person is expected to keep playing until they find the intended card. This is similar to how a *Layered Finesse* works, but it is inverted such that they play cards from oldest to newest.
+
+### The Dump Truck
+
+* When someone blind plays their chop, it is normally either a *Scream Blind-Play* or a *Stop Blind Play*. In other words, there was an emergency.
+* However, what if someone blind plays their chop and there was no emergency, it must be something else.
+* This means that one player has a fully playable hand from left to right. Like a dump truck, they are expected to unload everything onto the table.
+* Most times, all cards in the hand will be unclued. But if not, the player is still expected to play everything from left to right in order.
+* In the middle of the game, it is relatively safe to blind play your chop card, since it is known to not be a critical/playable card.
+* In the beginning of the game, it may not be safe to blind play your chop card. In this situation, you may see that multiple players have the opportunity to initiate the *Dump Truck*. Normally, it is best to let the player immediately before the blind-player do it. If they have an unsafe chop, then the 2nd player before the blind-player should do it, and so forth.
+
+### The Fuel Clue (cluing 3's or 4's on chop at the beginning of the game)
+
+* In order to initiate a *Dump Truck*, someone will have to play their chop, which usually involves a misplay.
+* However, it would be better if no misplay occurred at all. If you look into the future and see that someone will misplay their chop, then it is possible to give a "setup" clue that will "fuel" the *Dump Truck* in such a way that a playable card is played instead of something that is misplayed. 
+* Only number 3 and number 4 clues that touch chop are to be interpreted as *Fuel Clues*. Then, they know that the *Fuel Clue* was moving their chop, and their new chop is playable.
+* For example, at the beginning of the game, say a number 3's is clued to someone as a chop focus *Play Clue*. If they play their *Finesse Position* card, you know it was a *3 Bluff*. If they play their chop, you know it was a *Fuel Clue* and a *Dump Truck* was initiated.
+* *Fuel Clues* are the highest priority interpretation. In other words, if someone has a fully-playable hand, it is impossible to perform a *Self 3-Bluff*.
 
 ## Non-Formalized Proposals
 
