@@ -715,10 +715,11 @@ This section is unique in that it contains things that are separate from actual 
   * Bob comes next. Bob does not see any red 2s. He does not see any blue 3s either. Thus, Alice was supposed to play the red 2 first.
   * This means that Bob must have blue 3, so he blind-plays his *Finesse Position* card.
 
-### Higher-Rank Bluffs
+### Higher-Rank Bluffs & Higher-Rank Layered Finesses
 
 * If is possible to lie to the next player and imply a *Higher-Rank Finesse* when they have an unrelated card on *Finesse Position*.
 * After the unrelated card is played, since the person who lied was in *Bluff Position*, no further cards should be promised.
+* If an unrelated card was played and the person who lied was not in *Bluff Position*, it implies a *Higher-Rank Layered Finesse*.
 
 <br />
 
