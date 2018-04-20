@@ -1059,7 +1059,7 @@ This section is unique in that it contains things that are separate from actual 
 
 ### Oblivious Finesse
 
-* Sometimes a *Layered Finesse* is given where one of the cards in a layer is currently unplayable. In this situation, a player who is responsible for blind-playing a card may have to instead played *Prompted* cards first so that the layered card does not misplay.
+* Sometimes a *Layered Finesse* is given where one of the cards in a layer is currently unplayable. In this situation, a player who is responsible for blind-playing a card may have to instead play *Prompted* cards first so that the layered card does not misplay.
 * For the player with the layered card, this will be extremely confusing and look like the blind-playing player is oblivious to the *Finesse* that just occured. The typical response to this is to assume an *Ambiguous Finesse*, and to blind-play the *Finesse Position* card.
 * Thus, *Oblivious Finesses* can be quite dangerous and should only be performed in very specific circumstances where you can see that confusion will be minimized.
 
