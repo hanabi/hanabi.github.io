@@ -245,6 +245,10 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
 * However, if playing the card (player 1) would cause the next player to discard (player 2) and the next player after that (player 3) to have a critical and/or playable card "ride" on chop, it is a very bad situation. Thus, the discard is JUST for the purposes of generating a clue so that player 2 can clue player 3.
 * The *Generation Discard* is ONLY to be used as a last resort. If player 3 has something else to do (like play a card or give some obvious clue), then it is NOT a *Generation Discard*, and is instead to be interpretted as a *Scream Discard Chop Move*.
 
+### A Scream Discard Flow Chart
+
+![Focus Inversion](img/scream_discard_flowchart.png)
+
 ### Tempo Clues (Re-cluing a Card)
 
 * This is the name given to clues that do not meet *Minimum Clue Value Principle*. They get a card played **right now** that already had a clue on it.
