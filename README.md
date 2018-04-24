@@ -191,7 +191,7 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
 
 * If someone gives a play clue to a card that is currently unplayable, then they could be telling YOU to play a card. Normally, this would indicate a prompt. But, what if you have no clued cards in your hand or no clued cards that apply to the situation? They can't possibly be prompting you, so what are they doing? This is called a *Finesse*. In this situation, you should blindly play your left-most unclued card. Then, the other player will play the card that was directly clued. This way, your team will have gotten 2 plays with only 1 clue, which is very efficient.
 * The position that a player's left-most unclued card is in is called *Finesse Position*.
-* For example, on the first turn of a 3 player game:
+* For example, on the first turn of a 3-player game:
   * Alice clues Cathy red, which highlights her red 2.
   * Next, it is Bob's turn. Bob sees that, with this weird red clue, Cathy has just been signaled that she has the red 1. Oh no! Cathy is going to misplay that on the next turn! What could Alice have been thinking! Oh wait - something must be in Bob's hand to make that red 2 playable. This must be the *Finesse* convention, so he blindly plays his left-most card and it is the red 1.
   * Next, Cathy plays her red 2.
@@ -210,9 +210,9 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
 * For example, in a game with red 1 and blue 1 already played:
   * Alice has red 2 and blue 2 in her hand and she knows that both are playable right now.
   * The red 3 is in Bob's hand (and happens to be tagged with a number clue). Alice does not see the blue 3 at all. So, Alice plays the red 2 first.
-  * Bob sees that this decision was made, so he should KNOW that the 3 in his hand is not blue.
+  * Bob sees that this decision was made, so he should KNOW that the 3 in his hand is not blue. (He doesn't necessarily know that it is exactly red yet.)
 
-### 1's Chop Move
+### The 1's Chop Move
 
 * Sometimes, a player will have two critical cards in a row on chop that will require two separate clues to save. In this situation, the two preceding players should realize that this is happening and both issue clues before it rotates around to that player. However, sometimes it falls to only one player to somehow save TWO cards.
 * One tool to solve the problem is to make a number clue to a card that is NOT the chop. This generally only works if the card is a 1 or a 5.
@@ -220,7 +220,7 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
 * After the chop move clue, the player should consider ALL of the cards to the right of the 1 like they have been touched with an "invisible" clue and therefore never discard them. (Thus, if you clued a 1 on someone's newest slot, it would chop move the entire rest of the hand.)
 * Once a card has been chop moved and is no longer in danger of being discarded, it is treated as an already-clued card with regards to new clues given to that hand.
 
-### 5's Chop Move
+### The 5's Chop Move
 
 * See the *1's Chop Move* section above for an explanation on what a *Chop Move* is.
 * It is also possible to chop move with a number 5 clue. The player receiving the clue would think something along the lines of: "Why was I clued a 5 EARLY? It isn't even on my chop yet! This must mean my card to the right of the 5 is important, so I should try to give a decent clue if possible, or discard the card to the LEFT of the 5."
@@ -252,31 +252,33 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
 ### Tempo Clues (Re-cluing a Card)
 
 * This is the name given to clues that do not meet *Minimum Clue Value Principle*. They get a card played **right now** that already had a clue on it.
-* *Tempo Clues* are only done in the following special circumstances:
+* Players do not generally give *Tempo Clues*, as they are considered inefficient, and in Hanabi you want to be as efficient as possible.
+* However, *Tempo Clues* are allowed in the following special circumstances:
   1. When the card is "out of order" (meaning that it is impossible for a *Prompt* to get the cards played)
   2. When the card was *Chop Moved* and it is now playable
   3. When the clue giver is "locked"
   4. When the clue giver has been signaled by another player that they have an unsafe discard
-  5. When the clue giver is in a "double discard" situation
-  6. When the clue receiver is "locked"
+  5. When the clue giver is in a *Double Discard* situation (see *Avoiding Double Discards* below)
+  6. When the clue receiver is "locked" (see *Fully Clued Hands* below)
   7. When the clue receiver is receiving a tempo clue on a card that unlocks someone else's hand
   8. When there are 8 clues in the bank (a forced clue)
   9. When there are 7 clues in the bank (since discarding would take the team to 8 clues, which is generally bad)
-  10. When in *End-Game* or the team is behind pace (specifically, when score + deck is below the maximum score)
-  11.  When the game has been going so well that further clue efficiency is no longer required to win the game
-  12.  When the tempo clue gets 2 or more cards played.
+  10. When in the *End-Game* or the team is behind pace (specifically, when score + deck is below the maximum score)
+  11. When the game has been going so well that further clue efficiency is no longer required to win the game
+  12. When the tempo clue gets 2 or more cards played.
 * *Tempo Clues* that are done outside of these special circumstances are a different convention called *Tempo Clue Chop Moves*, which are detailed further on in this document.
 * Sometimes, a *Tempo Clue* can touch multiple cards, which typically means that all of the cards touched are playable. See the *Double Tempo Clue* section further on in this document.
 
 ### Avoiding Double Discards
 
-* If the player before you just discarded a card (say the red 4), and you don't see that card in anyone else's hand, there is a possibility that you could have that same card on your chop. In this example, if you discarded, both red 4s could be lost and your team would not be able to get a perfect score. This is called double discarding.
-* Since double discarding can "lose" the game, you should make any decent clue if you can to avoid it. Even a low-value clue might be better than discarding. After a go-around, you can safely discard - if your chop was indeed the same card, it would have been given a save clue by your teammates.
-* If, to avoid a double discard, the clue that you are considering is so low value that it will cause a fair amount of confusion to your teammates, then it is probably better to just risk it and double discard. Sometimes, you really don't have any clues to give, and that's okay. However, the following "bad" clues are always allowed in double discard situations:
+* If the player before you just discarded a card (say the red 4), and you don't see that card in anyone else's hand, there is a possibility that you could have that same card on your chop. In this example, if you discarded, both red 4s could be lost and your team would not be able to get a perfect score. This is called *Double Discarding*.
+* Since *Double Discarding* can "lose" the game, you should make any decent clue if you can to avoid it. Even a low-value clue might be better than discarding. After a go-around, you can safely discard - if your chop was indeed the same card, it would have been given a save clue by your teammates.
+* If, to avoid a *Double Discard*, the clue that you are considering is so low value that it will cause a fair amount of confusion to your teammates, then it is probably better to just risk it and double discard. Sometimes, you really don't have any clues to give, and that's okay. However, the following "bad" clues are always allowed in *Double Discard* situations:
   * Tempo clues
   * Cluing off-chop 5s
   * Saving 2s on chop that are present in another player's hand
   * Filling in extra info on ambiguously saved cards that are still not playable
+  * Re-cluing 5's to a player (a "hard burn")
 * The plus side of this strategy is that, because players should not generally double discard, you do not need to be overly worried about the same card being on two simultaneous chops.
 * Generally speaking, a weird or super low-value clue can communicate an advanced strategy like a *Finesse*. However, always pay attention to see the situation that the clue-giver is in. From their perspective, are they giving the clue to avoid a double discard? If so, then you should not read too closely into their clue.
 
@@ -285,7 +287,6 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
 * Generally speaking, it is a bad situation when someone's hand gets fully clued. This is also known as being "locked", and it should be avoided if possible. However, sometimes it cannot be helped, like if the player draws three 5s in a row.
 * A person with a fully clued hand may give a low value clue because they are not sure that they can play anything (and they can't discard because their hand is fully clued). Do NOT read too closely into any clues given during this state.
 * If your team is out of clues and someone's hand is fully clued, then you HAVE to discard to generate a clue for them. Similarly, if there is only 1 clue left, you cannot steal it from them.
-* If the fully clued player has a playable card but they do not know that they can play it yet, one interesting way to signal this information is to deliberately not discard or to steal the last clue, which will leave them at 0 clues. For example, from the perspective of the fully clued player: "Darn, why would Bob steal the last clue like that? Now I have to discard one of these critical clued cards! Hold on - it must mean that the my unknown 2 is actually playable!"
 * Explicitly, while in a locked hand, a player can do the following "bad" clues that are also allowed while in double discard situations:
   * Tempo clues
   * Cluing off-chop 5s
@@ -293,6 +294,12 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
   * Filling in extra info on ambiguously saved cards that are still not playable
 * Beyond this, they can also give additional bad clues that are not allowed in double discard situations:
   * Saving any card on chop
+
+### The Forced Play Unlock
+
+* Sometimes, someone with a locked hand has a playable card but they do not know that they can play it yet. Re-cluing the card would signal this, but would not be very efficient.
+* A better way to signal this information is to deliberately leave them at 0 clues. For example, from the perspective of the fully clued player: "Darn, why would Alice steal the last clue like that? Now I have to discard one of these already-clued cards that could be imporant! Hold on - it must mean that the my unknown 2 is actually playable!"
+* If multiple cards could be playable, the locked player should choose the left-most one to play.
 
 ### Clues Given While at 8 Clues
 
@@ -337,7 +344,7 @@ This section is unique in that it contains things that are separate from actual 
 
 * Often times, either you or the player who comes after you can perform a move. And this move would have the same result if done by either player.
 * One way to decide whether you or the next player should give the clue is to look at the next player's chop. Is their chop high-value, low-value, or useless? If it is high-value, then you should discard and let them give the clue. If it is low-value or useless, then you should give the clue and let them discard.
-* "Stealing" clues in this way to cause discards is called *Discard Modulation*. If other players are discarding to let you give all of the clues, you probably have a high-value chop 
+* "Stealing" clues in this way to cause discards is called *Discard Modulation*. If other players are discarding to let you give all of the clues, you probably have a high-value chop.
 
 ### One-Away
 
@@ -363,12 +370,12 @@ This section is unique in that it contains things that are separate from actual 
 ### Occam's Razor
 
 * Sometimes, clues can have multiple interpretations. For some moves, we make it a point to explicitly define the priority in order to avoid confusion. For example, we say that *Prompts* take precendence over *Finesses*.
-* For other situation, there is no explicitly defined priority. For example, a clue could mean either a *Self-Finesse* or a *Self-Prompt* + *Finesse*. In these cases, *Occam's Razor* applies, meaning that you can slice away all the more complicated interpretations and simply assume the least-complex one. In this case, a single *Finesse* is less complicated than a *Finesse* + *Prompt*, so the former interpretation would be assumed.
+* For other situations, there is no explicitly defined priority. For example, a clue could mean either a *Self-Finesse* or a *Self-Prompt* + *Finesse*. In these cases, *Occam's Razor* applies, meaning that you can slice away all the more complicated interpretations and simply assume the least-complex one. In this case, a single *Finesse* is less complicated than a *Finesse* + *Prompt*, so the former interpretation would be assumed.
 * It is important to not confuse *Occam's Razor* with *Schrodinger's Cat Principle* - you almost always have to allow for *Prompts*, *Reverse Finesses*, and so forth. But when you are not waiting on any information from other player's actions, then *Occam's Razor* does apply.
 
 ### Team Distribution Principle
 
-* In general, it is better for useful cards to be distributed **evenly** throughout the team. This is especially important in 5 player games.
+* In general, it is better for useful cards to be distributed **evenly** throughout the team. This is especially important in 5-player games.
 * Thus, if one of your teammates has 3 of 4 cards clued, it may be better for THEM to be the one giving the clues, and you to be the one discarding - even if their chop is known trash.
 * There are multiple reasons for this. First, you don't want them to get a *Locked Hand*, which is generally bad. Second, if they continue to draw playable cards, the game may end before they get a chance to play them all.
 
@@ -380,7 +387,7 @@ This section is unique in that it contains things that are separate from actual 
   * If `n ≥ 0`, you are not yet in the *End-Game*, and you should not hesitate to discard.
   * If `n < 0`, the *End-Game* has arrived.
 * When `n = -1` (the beginning of the *End-Game*), it is usually okay to discard, unless there is a single person who holds all the useful cards.
-* When `n` is smaller than `-1`, you should be very careful with discarding. It might still be the best thing to do, but it is usually better to *Burn* a clue.
+* When `n` is smaller than `-1`, you should be very careful with discarding. It might still be the best thing to do, but it is usually better to *Burn* a clue (meaning to deliberately waste a clue).
 
 <br />
 
@@ -388,32 +395,42 @@ This section is unique in that it contains things that are separate from actual 
 
 ### Bluffs
 
-* When you see a good playable card in someone's newest slot, you will often want to get the efficiency of a *Finesse*. However, the proper "connecting" card may just not be on the board. One alternate strategy that you can do is to indicate to them that they have a different card than what they really have in their first slot with a finesse clue to someone else. This forces them to blind-play their newest card to avoid a misplay. Next, the player who received the finesse clue knows that since the last person “randomly” blind-played their newest card, it was a bluff and they can't actually play the clued card. However, they should know exactly what card it is (or have a specific narrow set of possibilities), so the sequence still gets the efficiency of a normal finesse.
-* For example, on the first turn of a 3 player game:
+* When you see a playable card in someone's *Finesse Position* slot, you will often want to get the efficiency of a *Finesse*. However, often times, the proper "connecting" card is not on the board.
+* One alternate strategy is to lie to the next player and clue a completely unrelated card to indicate a *Finesse*. This manipulates them into blind-playing and is called a *Bluff*.
+* Next, the player who received the *Finesse* clue knows that since the other person "randomly" blind-played their *Finesse Position* card, it was a *Bluff* and not a real *Finesse*. This means that they can't actually play the clued card. However, they should know exactly what card it is (or have a specific narrow set of possibilities), so the sequence still gets a lot of efficiency.
+* For example, on the first turn of a 3-player game:
   * Alice clues Cathy red, which highlights her red 2.
-  * Next, it is Bob's turn. Bob sees that, with this weird red clue, Cathy has just been signaled that he has the red 1. Oh no! Cathy is going to misplay that next turn! What could Alice have been thinking! Oh wait - something must be in Bob's hand to make that red 2 playable. It must be the red 1 in his newest slot, so he blind-plays it. However, it isn't the red 1, it was the green 1! Now Bob knows that he has been bluffed by Alice.
-  * Next, Cathy sees that Bob just played his unclued green 1 immediately after this red clue, so she knows that she must have the red 2. Cathy holds on to the red 2 for later and discards.
+  * Next, it is Bob's turn. Bob sees that, with this red clue, Cathy has just been signaled that she has the red 1.
+  * This must be a *Finesse*, so Bob knows that he must have the red 1, and he must blind-play it right now or else Cathy will go on to misplay the red 2 as the red 1.
+  * Bob blind-plays his slot 1 card. However, it is not the red 1, it was the green 1! Now Bob knows that he has been *Bluffed* by Alice.
+  * Next, Cathy sees that Bob just blind-played a green 1 immediately after this red clue, so she knows that she must have the red 2. Cathy holds on to the red 2 for later and discards.
 * Except in rare circumstances, **bluffing is only permissible when you are the person directly before the player who is blind-playing a card**. This is called being in *Bluff Position*. Do not *Bluff* unless you are in *Bluff Position*!
 
-### Double/Triple Prompts
+### The Double/Triple Prompt
 
-* Sometimes, someone can give a prompt clue that is prompting TWO (or more) cards with one clue, which is pretty efficient.
+* Sometimes, someone can give a *Prompt* that is prompting TWO (or more) cards with one clue, which is pretty efficient.
 * For example, say that a red 1 is played on the pile, you have 2 clued red cards in your hand, and no-one else has any red cards in any of their hands. Then, someone draws a red 4 and it is immediately clued as red. How can the red 4 be playable? Well, the only way is that if you have the red 2 and the red 3. So, you would play these from left to right during your next two turns.
 
-### Double/Triple/Quadruple Finesses
+### The Double/Triple/Quadruple Finesse
 
-* In a 4 player game, it is possible to get two different people to blind-play their cards in a row if you give a clue to a card that is two-away from being playable. This is very efficient, as it is a 3-for-1 clue.
-* Similarly, it is possible to get one person to blind-play 2 cards in a row. In this situation, since they see that the clue can't apply to anyone else's hands, they will assume that the finesse clue is talking about their two newest unclued cards and they will play from left to right.
+* In a 4-player game, it is possible to get two different people to blind-play their cards in a row if you give a clue to a card that is two-away from being playable. This is very efficient, as it is a 3-for-1 clue.
+* For example:
+  * A red 1 is currently played on the stacks.
+  * Alice clues Donald red, highlighting a red 4.
+  * Bob plays red 2 from his *Finesse Position*.
+  * Cathy plays red 3 from her *Finesse Position*.
+  * Donald plays red 4.
+* Similarly, it is possible to get a single person to blind-play 2 cards in a row. In this situation, since they see that the clue can't apply to anyone else's hands, they will assume that the clue is talking about their two newest unclued cards, and they will play from left to right.
 * In general, remember that players will always assume *Prompts* over *Finesses*. Thus, is it possible to do a clue that prompts a card from a player's hand and THEN gets them to blind-play their *Finesse Position* card on the next turn (or vice-versa, depending on the negative information on the card and the situation).
 
-### Ambiguous Finesses
+### The Ambiguous Finesse
 
-* Sometimes, the person who is supposed to blind play a card into a *Finesse* is ambiguous. For example, on the first turn of a 4 player game, Player 1 clues player 4 about a Red 2. Both player 2 and player 3 have red 1 on their *Finesse Position*.
+* Sometimes, the person who is supposed to blind play a card into a *Finesse* is ambiguous. For example, on the first turn of a 4-player game, Player 1 clues player 4 about a Red 2. Both player 2 and player 3 have red 1 on their *Finesse Position*.
 * In this situation, player 2 would think it is a *Reverse Finesse* directed at player 3, and discard. Next, player 3 might think that player 2 made a mistake and "missed" the *Finesse*, discarding himself.
 * Here, player 3 is actually the one making the mistake. It follows from *High-Value Principle* that you should never assume that your teammates are making a mistake. If player 2 is discarding, then it means that player 3 also has the exact same copy of the card, and player 3 should immediately blind play.
   * It is also possible that player 2 is performing a special move called a *Pass Bluff* (which is covered later on in the document).
 
-### Positional Discards (Indicating a Play with a Discard)
+### The Positional Discard (Indicating a Play with a Discard)
 
 * On the final go-around of the game, if you have no clues left and no cards to play, you can transmit information based on which card you discard.
 * Thus, you can discard the slot in your hand that matches the slot in someone else's hand that they are supposed to play.
@@ -422,42 +439,42 @@ This section is unique in that it contains things that are separate from actual 
 
 * Occasionally, through a mistake (or complicated situation), the same card will be clued in two different people's hands. Generally, this is to be avoided, but sometimes it happens. Handling this can be tricky.
 * Generally, the FIRST person who 100% realizes that they have the duplicate card should discard it (as opposed to playing it or holding on to it). This is called a *Sarcastic Discard*, and it communicates to the other player that they 100% have the discarded card.
-* "Why did Bob just discard the red 3 that he JUST got a play clue on? That makes no sense. Wait - it must be because he realized that the red 3 was ALSO clued in someone else's hand. I must have the red 3!"
+* "Why did Bob just discard the red 3 that I JUST gave him a play clue on? That makes no sense. Wait - it must be because he realized that the red 3 was ALSO clued in someone else's hand. I must have the red 3!"
 
-### Trash Chop Moves
+### The Trash Chop Move
 
 * The *1s Chop Move* is listed above as an intermediate strategy, but in truth it is just a specific form of the more general *Trash Chop Move*, in which you clue a card that is known useless in order to tell someone that their chop is unsafe.
 * This move is most commonly done with a number 1 clue because it is likely that in the middle of a game, all of the 1s will be already played. But it could also be done with a number two 2 clue if all the 2s are already played / accounted for. Or, it could be done with a yellow clue if all of the yellow cards are already played / accounted for. And so forth.
 
-### Tempo Clue Chop Moves
+### The Tempo Clue Chop Move
 
 * *Tempo Clues* are defined as clues that touch no new cards. Their purpose is to get 1 or more cards played that already have clues on them.
 * In general, *Tempo Clues* do not follow from *Minimum Clue Value Principle* (first principle #4), which states that a clue must get at least 1 new card played or save at least 1 new card from being discarded.
 * Thus, a *Tempo Clue* with no other purpose MUST save at least 1 new card, and the player should "chop move" their chop card to the next slot.
 * *Tempo Clue Chop Moves* do NOT apply in the special situations where natural *Tempo Clues* are allowed. See the *Tempo Clues* section earlier in the document for an explicit listing of these situations.
 
-### Double Tempo Clues (Re-cluing 2+ Cards)
+### The Double Tempo Clue (Re-cluing 2+ Cards)
 
-* Typically, when a tempo clue is given that touches two or more cards, it means that ALL of the cards touched are playable in order from left to right.
+* Typically, when a *Tempo Clue* is given that touches two or more cards, it means that ALL of the cards touched are playable in order from left to right.
 * However, this interpretation does not apply when:
   * the clue unlocks a player's hand
   * it gets two or more cards played in total (using cards in someone else's hand)
 * Furthermore, it also does not apply when the second card touched is strictly not playable. In this situations, all players can see that since only one card is getting tempo, the interpretation of the clue should be a *Tempo Clue Chop Move*.
 * However, if the other players can see that the card being chop moved is useless (or not very good), it implies a *Finesse* on the touched cards that are not strictly playable right now.
 
-### Early Fix Clue Chop Moves
+### The Early Fix Clue Chop Move
 
-* As noted in the *Fix Clues* section, a *Fix Clue* is required before a misplay occurs on duplicated cards. But usually, the misplay will not occur until the end of the game, because there is an extra card (that is not currently playable) that it could be.
-* Thus, it if other urgent things are at hand, you can usually defer giving some fix clues for a long time and hope that through ancillary information and the context of the game, the player will "naturally" figure out that the card is duplicated.
+* As noted in the *Fix Clues* section, a *Fix Clue* is required before a misplay occurs on duplicated cards. But usually, the misplay will not occur until late in the game, because there is always some other extra card (that is not currently playable) that it could be.
+* Thus, if other urgent things are at hand, you can usually defer giving some *Fix Clue* for a long time and hope that through ancillary information and the context of the game, the player will "naturally" figure out that the card is duplicated.
 * So if a *Fix Clue* is given early to you, it can be strange. You were happily discarding, and now all of a sudden you are being fixed on a card that was just sitting in your hand and was not in danger of being misplayed.
-* This usually means that your chop suddenly became important, so the Fix Clue was given early to give you a good discard and keep you occupied. Thus, you should permanently chop move one card.
+* This usually means that your chop suddenly became important, so the *Fix Clue* was given early to give you a good discard and keep you occupied. Thus, you should permanently chop move one card.
 
-### Misplay Chop Moves
+### The Misplay Chop Move
 
 * Sometimes, a desirable card is on the next person's chop and it is not directly cluable. In this situation, players can cleverly use the various kinds of chop moves in order to save the card (e.g. *1's Chop Move*, *5's Chop Move*, *Tempo Clue Chop Move*, *Early Fix Clue Chop Move*).
 * However, none of these chop moves may be available to perform. In such a situation, you can revert to the final type of chop move - the *Misplay Chop Move*. This is done by intentionally touching a card in the next person's hand that signifies that it is currently playable. The next person will misplay, and then they will know that every card to the right of the misplayed card is valuable and is now permanently chop moved.
 
-### 3 Bluffs
+### The 3 Bluff
 
 * Typically, the player who receives a clue that causes a *Bluff* blind play knows that the card that was clued is one away from being playable.
 * Our group plays with an artificial *3 Bluffs* convention. This means that in addition to being one away from being playable, the touched card can be ANY 3 that will be useful in the future.
@@ -482,7 +499,7 @@ This section is unique in that it contains things that are separate from actual 
       * Cathy knows nothing about the card, besides that it is a 3 (since it has a number 3 clue on it).
       * Even though Red 1 and Red 3 are the same suit, Bob is not promised a Red 2, because if he does nothing, Cathy will not go on to misplay the Red 3.
 
-### Critical 4 Bluffs
+### The Critical 4 Bluff
 
 * Building on the *3 Bluffs* convention, it is ALSO possible for a card that initiates a *Bluff* to be a copy of any of the 4s that are critical (meaning that the other copy is in the discard pile or it is a black 4).
 
@@ -512,13 +529,13 @@ This section is unique in that it contains things that are separate from actual 
 * When a player who is in a *Double Discard* situation discards anyway with an obvious clue to give (such as an off-chop 5), it implies that they SEE the other copy of the card, and were not double discarding at all.
 * Thus, when this occurs, you should write *Elimination Notes* on your entire hand for that card.
 
-### Weak Prompts
+### The Weak Prompt
 
 * If a teammate performs the *Prompt* convention on you and you have multiple cards in your hand that match the connecting card, normally you would be promised that the left-most (newest) is playable.
 * However, if the card that initiated the prompt was ON CHOP when it was touched AND it was in danger of being discarded, the left-most rule no longer applies, since your teammate had to take drastic measures to prevent the discard of that card.
 * So instead, you are promised that you have the connecting card somewhere in your hand, but it could be any of the cards, and not strictly the left-most.
 
-### Wrong Prompt
+### The Wrong Prompt
 
 * A common mistake in Hanabi is to attempt to perform a *Finesse* when there is a "matching" card in that player's hand. Since *Prompts* take precedence over *Finesses*, the player will always play their matching clued cards first.
 * When a card is *Prompted* and it misplays, everyone can read into this mistake - it was almost certainly a *Wrong Prompt*, meaning that the player who gave the clue probably intended for the *Finesse Position* card to play instead.
@@ -551,7 +568,7 @@ This section is unique in that it contains things that are separate from actual 
     * The only useful cards left in the deck are two yellow 2's.
     * Here, there is no reason for you to stall, since the yellow 3 will NOT be played sooner if you stall.
 
-### Distribution Clues
+### The Distribution Clue
 
 * In the *End-Game*, it can sometimes be useful to clue a card that has already been clued in someone else's hand. This violates *Good Touch Principle*, but being in the *End-Game* changes the strategy.
 * When a player has many playable cards, there is the risk that they will not be able to play all cards before the end of the game. Thus, it makes sense to spend a clue in order to relieve them from some of the card-playing burden. This distribute the plays more evenly throughout the team and is called a *Distribution Clue*, in order to better satisfy *Team Distribution Principle*.
@@ -560,14 +577,14 @@ This section is unique in that it contains things that are separate from actual 
 
 ## Level 4 - Expert Strategies
 
-### Occupied Play Clues & Occupied Finesses
+### The Occupied Play Clue & The Occupied Finesse
 
 * If a clue could be given by multiple players, who should give the clue? Usually, it makes the most sense for the players with playable cards to play those cards, and the players with nothing to do to give the clue.
 * If someone gives a clue with a playable card in their hand and forces the next person to have nothing to do, this is bad teamwork - unless there was a reason!
 * When this occurs, even if the clue looks like an ordinary *Save Clue*, it MUST be a *Play Clue*, since the player who was doing it was occupied.
 * Furthermore, if an *Occupied Play Clue* is given to a card that is not directly playable right now, it must be an *Occupied Finesse*!
 
-### Hidden Finesses
+### The Hidden Finesse
 
 * Sometimes, you want to *Finesse* someone with a clued card already in their hand. However, if you try to *Finesse* them, they will assume it is a *Prompt* and will misplay their already clued card, so it doesn't work out.
 * However, what if the clued card actually is playable? That means you can still do the *Finesse* - they will play the prompted card, see that it wasn't the card you had intended, and then blind play their 2nd newest card on the next turn. This is called a *Hidden Finesse* because the *Finesse* was temporarily hidden by the presence of another playable clued card.
@@ -577,14 +594,14 @@ This section is unique in that it contains things that are separate from actual 
     * Bob's red 3 is clued and now it is Alice's turn. Alice sees this as a prompt and plays her clued red card, which was just represented to be the red 2. However, it was the rainbow 3!
     * Since it wasn't the red 2, where could the red 2 be to make this clued red 3 playable? It must have been on Alice's newest slot. On her next turn, she blind-plays her 2nd slot card (it moved from 1st to 2nd slot since she drew a card from playing the rainbow 3).
 
-### Layered Finesses
+### The Layered Finesse
 
 * Since we don't allow lying outside of *Bluff Position*, it is possible to perform a *Finesse* on a card that is not in *Finesse Position*, as long as all of the cards leading to it are playable. Essentially, the intended *Finesse* blind play target is layered behind other playable cards.
 * For example, at the beginning of the game, this is a 4-for-1 clue with full tempo:
 
 ![Layered Finesse](img/layered_finesse.jpg)
 
-### Clandestine Finesses
+### The Clandestine Finesse
 
 * Since we are allowed to lie in *Bluff Position*, doing a *Layered Finesse* in *Bluff Position* can be problematic, since it will typically only get one card played (instead of a big layered chain of cards).
 * A form of *Layered Finesse* that gets around this restriction is called the *Clandestine Finesse*, because it is similar to a *Hidden Finesse*. When this move is performed, the player who is blind playing cards knows to keep playing because they see that if they do nothing, the next player will go on to misplay.
@@ -592,7 +609,7 @@ This section is unique in that it contains things that are separate from actual 
 
 ![Clandestine Finesse](img/clandestine_finesse.png)
 
-### Stacked Finesses
+### The Stacked Finesse
 
 * If a player has already been *Finessed* for a card in their *Finesse Position*, then their *Finesse Position* moves right one slot. (This is a similar concept to how the chop moves left one slot when a player is chop moved.)
 * If another player does ANOTHER *Finesse* on a person who has already been *Finessed*, it is stacking a 2nd *Finesse* on top of the first, and they are expected to blind play the new *Finesse Position* card.
@@ -610,53 +627,46 @@ This section is unique in that it contains things that are separate from actual 
 
 ### The Top Hat Clue
 
-* Since the *Layered Gentleman's Discard* convention is so good, clever players that see the opportunity to perform one will almost always want to do so.
+* Since the *Layered Gentleman's Discard* convention is so efficient, clever players that see the opportunity to perform one will almost always want to do so.
 * Thus, it follows that in rare cases, when a teammate gives you a play clue on some card, they DON'T intend for you to play it. They intend for you to see the opportunity for a *Layered Gentleman's Discard*, and then immediately discard the card.
 * This kind of clue is called a *Top Hat Clue* because you are giving them an opportunity to be a gentleman.
-* Note that you should not mistake a *Top Hat Clue* for a clue that initiates a *Layered Finesse*. You are only allowed to discard the card if you can determine the exact identity.
+* Note that you should not mistake a *Top Hat Clue* for a clue that initiates a *Layered Finesse*. You are only allowed to discard the card if you can determine its exact identity.
 
-### Baking a Cake
-
-* Sometimes, you have a choice between playing two different playable cards and it does not matter which one you play.
-* If you notice that a teammate has one of your two playable cards on their *Finesse Position*, you may want to perform a *Gentleman's Discard* if some other card in their hand needs to be protected. However, often times this is not the case, and doing a *Gentleman's Discard* would be pointless (or even bad).
-* In this situation, it is better to play the card that is not present in your teammates hand. This way, if your teammate discards and draws a playable card, you can THEN do the *Gentleman's Discard*, and this would be a *Layered Gentleman's Discard*, which is much more valuable.
-* When you choose a card to play with a potential future *Layered Gentleman's Discard* in mind, this is referred to as *Baking a Cake*, as you are incubating something with layers.
-
-### Trash Pushes
+### The Trash Push
 
 * Normally, when a useless card is clued, it signifies a *Trash Chop Move*. However, what if the useless card is actually the card on chop? Then it wouldn't be chop moving anything.
 * From *Good Touch Principle*, we know that it is pointless to spend a clue to touch useless cards on someone's chop, because if we just do nothing, the useless card will get automatically discarded.
 * Subsequently, if this is done deliberately, it must have a meaning. By doing this, it means that we want to "push" the card that is next to the useless card onto the table.
-* For example, in 3 player game where all of the 1s are played already:
+* For example, in a 3-player game where all of the 1s are played already:
   * Bob has no clued cards in his hand. His chop is his slot 5.
   * Alice clues Bob number 1, which only touches his slot 5 card.
   * Bob blind plays his slot 4 card, and it is a playable red 2.
 * Sometimes, a *Trash Push* is the only way to get a card played that is sitting between two other annoying cards.
 
-### Trash Bluffs
+### The Trash Bluff
 
 * Normally, when a useless card is clued, it signifies a *Trash Chop Move* or a *Trash Push*. However, for both of these strategies to work, it is assumed that the recipient of the clue will know that the card that was touched is useless.
 * What if the recipient of the clue does NOT know that the card that was clued is useless? They will go on to misplay that card, mistaking it for a "normal" *Play Clue*.
 * When you see this occur, it works like a *Bluff*; you must blind-play your *Finesse Position* card, or the player who received the clue will go on to misplay.
 * *Trash Bluffs* are a good tool to get a card played that is sitting behind other annoying cards.
-* For example, in 3 player game where all of the 1s are played already EXCEPT for red 1:
+* For example, in a 3-player game where all of the 1s are played already EXCEPT for red 1:
   * Cathy has no clued cards in her hand.
   * Alice clues Cathy number 1, which only touches her newest (slot 1) card. This card is a green 1, so Cathy will assume that it is a red 1.
   * Bob blind plays his *Finesse Position* card, and it is a playable red 1.
 * Just like normal *Bluffs*, *Trash Bluffs* can only be done while in *Bluff Position*.
 * If multiple cards are clued that cause a *Trash Bluff*, it means that ALL of the cards are trash. However, the focus of the clue should be the first thing discarded, which allows for the possibility of your teammates to give a follow-up *Fix Clue*.
 
-### Trash Finesses (strong form)
+### The Trash Finesse (strong form)
 
 * It is possible to perform a *Trash Bluff* outside of *Bluff Position* if there is only one possibility for the useless card to be. When this is done, it promises that someone has that specific card, so it is a *Trash Finesse* rather than a *Trash Bluff*.
 * It is also possible to *Double Trash Finesse*. By touching a useless 2 with TWO 2's remaining, it means that you see BOTH the 2s, so this can cause two people to blind play their *Finesse Position* card (or one person to blind play twice). Note that a *Double Trash Finesse* cannot be done in *Bluff Position*, or it will look like a normal *Trash Bluff*.
 
-### Trash Finesses (weak form)
+### The Trash Finesse (weak form)
 
 * After deciding on the target of a clue, players carefully choose between using a color clue and a number clue in order to avoid violating *Good Touch Principle* with the ancillary cards that will be touched (since every clued card is treated as a card that will eventually be played). Sometimes, when both a color clue AND a number would violate *Good Touch Principle*, players are forced to pick between the lesser of two evils.
 * However, sometimes you can see that it IS possible to use a color or number clue to uniquely touch a clue target without "picking up" extra bad cards. So, when this is done deliberately, it promises that the other players have the exact "missing" cards that the trash cards would look like.
 
-### Dupe Finesse / Dupe Discard
+### The Dupe Finesse
 
 * Player A performs a *Finesse* by touching a card in player B's hand that could potentially be already clued in their own hand.
 * The blind play occurs, and then player B knows that they have the next card in the chain.
@@ -666,18 +676,18 @@ This section is unique in that it contains things that are separate from actual 
   * In the best case, you get a "true" *Finesse* (a 2-for-1 or better).
   * In the worst case, you get a 1-for-1 and full knowledge on a clued card in your own hand that was previously a mystery.
 
-### Certain Finesse / Certain Discard
+### The Certain Finesse / The Certain Discard
 
 * This is the similar to the *Dupe Finesse* above, but instead of potentially duping the touched card, the blind card is potentially duplicated. Thus, the blind-playing player will blind-discard their *Finesse Position* card if it is a duplicate.
 * You are ONLY allowed to do a *Certain Discard* if you know you have not been bluffed. (This means that *Certain Finesses* can't be performed from *Bluff Position*.)
 * This convention takes priority over the *Layered Finesse*. Thus, it is impossible to perform a *Layered Finesse* on a card that could be in your own hand.
 
-### Out-of-Order Finesses
+### The Out-of-Order Finesse
 
 * Sometimes, a *Finesse* is invoked by giving a color clue to two or more cards where the next card in the sequence is clued, but it is NOT the focus of the clue.
 * When this happens, the *Finesse* will still work: a player will blind play a matching card. However, a *Fix Clue* must then be given to the person who originally received the clue, or they will go on to misplay.
 * Normally, after receiving a *Fix Clue*, a player would normally "stop" and not assume anything else about his hand. However, this is a special situation: when the original *Finesse* was given, it was a message that the focus of the clue was playable. *Information Lock Principle* applies, and it means that the original focus of the clue is also playable.
-* For example:
+* For example, in a 3-player game:
   * At the beginning of the game, Alice goes first.
   * Bob has a red 3 and a red 2 (on slots 1 and 2 respectively).
   * Cathy has a red 1 on slot 1 (in *Finesse Position*).
@@ -697,13 +707,13 @@ This section is unique in that it contains things that are separate from actual 
 * This concept can also be generalized to all *Finesses* that have a *Lie Component* - even after a *Fix Clue*, you should assume that all of the cards are playable.
 * There are exceptions to this rule. For example, if a huge *Finesse* happens that gets five cards blind-played and then you get a *Fix Clue* at the very end, the normal logic doens't apply: you can reason that your teammates would have wanted to perform a lie in order to get a huge Finesse, so it was worth it even if the final card from the *Fix Clue* was not necessarily playable.
 
-### Early 5's Chop Move
+### The Early 5's Chop Move
 
 * In the *Early Game*, since you are allowed to stall by cluing off-chop 5's, it is generally impossible to perform the *5's Chop Move*.
 * However, players are not generally supposed to stall until all of the "normal" *Play Clues* and *Save Clues* have been given.
 * Thus, if you receive a clue that looks like a *5's Chop Move* in the *Early Game* and you can see that the player had a good non-stall clue to give, then it IS a chop move after all.
 
-### Higher-Rank Finesses
+### The Higher-Rank Finesse
 
 * When a player has a choice between two or more cards to play, if other players are waiting on one of their cards in order to play themselves, then those cards should always be prioritized.
 * However, if both cards are not being "waited on", then players are supposed to play the card with the lower number (rank) first.
@@ -719,11 +729,25 @@ This section is unique in that it contains things that are separate from actual 
   * Bob comes next. Bob does not see any red 2s. He does not see any blue 3s either. Thus, Alice was supposed to play the red 2 first.
   * This means that Bob must have blue 3, so he blind-plays his *Finesse Position* card.
 
-### Higher-Rank Bluffs & Higher-Rank Layered Finesses
+### The Higher-Rank Bluff & The Higher-Rank Layered Finesse
 
 * If is possible to lie to the next player and imply a *Higher-Rank Finesse* when they have an unrelated card on *Finesse Position*.
 * After the unrelated card is played, since the person who lied was in *Bluff Position*, no further cards should be promised.
 * If an unrelated card was played and the person who lied was not in *Bluff Position*, it implies a *Higher-Rank Layered Finesse*.
+
+### The Lower Rank Finesse & The Lower Rank Bluff
+
+* When you have two playable cards in your hand, you are usually supposed to play the lower rank one. If you play the higher one, it could imply a *Higher Rank Finesse*.
+* However, playing 5's is good in that it immediately grants the team an extra clue. Furthermore, since 5's are unique, playing the 5 first may give the team flexibility to use someone else's 4 with a *Distribution Clue* later on.
+* Thus, since by default it is better to play a 5 instead of a 4, playing a 4 instead of a 5 promises the matching 5 in someone else's hand, similar to a *Higher Rank Finesse*.
+* Alternatively, it can also be a *Lower Rank Bluff* if you just want the next person to play their *Finesse Position* card.
+
+### The Right-to-Left Finesse & The Right-to-Left Bluff
+
+* When you have two playable cards in your hand of the same rank, you are usually supposed to play the left-most one.
+* If you instead play the right-most one, it signals that something special is going on, and it promises the next card in that suit as a *Right-to-Left Finesse*.
+* Alternatively, it can also be a *Right-to-Left Bluff* if you just want the next person to play their *Finesse Position* card.
+* Note that *Right-to-Left Finesses* are contextual and do not always apply. For example, they do not apply when someone plays their right-most card that was originally clued as a *Save Clue*, since that card was explicitly saved and that the other cards in the hand of the same rank could potentially be duplicates.
 
 <br />
 
@@ -746,19 +770,19 @@ This section is unique in that it contains things that are separate from actual 
   * if the number clue also touched a critical card
 * Subsequently, if a number clue is used to touch a black 3 or a black 4 (and the above exception is not applicable), then it implies a *Finesse*.
 
-### Free Choice Finesse
+### The Free Choice Finesse
 
 * This convention ONLY applies when playing a variant with a *Rainbow* suit or a dual-color suit.
 * When performing a *Prompt* by touching a sole rainbow card, the player doing the clue may have a free choice between multiple colors. In other words, there may exist multiple colors that will ONLY touch the rainbow card.
 * If a player has a free choice to choose the color that matches the intended prompt target but instead deliberately chooses a different color, this signals that it is a *Finesse* instead of a *Prompt*, and they should blind-play their newest.
 
-### Free Choice Bluff
+### The Free Choice Bluff
 
 * This convention ONLY applies when playing a variant with a *Rainbow* suit or a dual-color suit.
 * It is possible to use the *Free Choice* convention to communicate to a teammate that you want a *Finesse* instead of a *Prompt* in order to get them to play an unrelated playable card from their *Finesse Position*.
 * Like a normal *Bluff*, after a *Free Choice Bluff*, the person who blind-played does not necessarily have the "matching" card in their hand.
 
-### Suboptimal Color Bluff
+### The Suboptimal Color Bluff
 
 * This convention ONLY applies when playing a variant with a *Rainbow* suit or a dual-color suit.
 * Often, when giving a color clue to a Rainbow or dual-color card, you want to pick a color that will "fill-in" ancillary cards in the hand as to give the maximum amount of information.
@@ -771,7 +795,7 @@ This section is unique in that it contains things that are separate from actual 
 * When you clue a white 5 that is one away from chop, it would normally look like a *5's Chop Move*.
 * However, if white 4 is currently played, all 5 clues that could be *5's Chop Moves* are treated instead *Play Clues* on white 5.
 
-### Negative Prompts
+### The Negative Prompt
 
 * This convention ONLY applies when playing the "Dual-color Suits" variant.
 * In this variant, since negative color information conveys just as much information as positive color information, you should include that when deciding which card to play into a prompt.
@@ -784,7 +808,7 @@ This section is unique in that it contains things that are separate from actual 
 * Thus, for the *Wild and Crazy* variant, a second exception to the *Black 3 and Black 4 Saves* convention is added:
   * if the number clue was required to avoid violating *Good Touch Principle*
 
-### Acid Trip Colors
+### Acid Trip Conventions
 
 * These conventions only apply to the *Acid Trip* variant.
 * Cards with color clues on them are not treated as clued cards. In other words, your chop is your right-most (oldest) card without a number clue on it.
@@ -794,8 +818,8 @@ This section is unique in that it contains things that are separate from actual 
   * Green means play slot 2.
   * Yellow means play slot 3.
   * Red means play slot 4.
-  * Purple means play slot 5 (in 2 and 3 player games).
-  * Purple means play slot 1 AND the next person plays their *Finesse Position* card (in 4 and 5 player games).
+  * Purple means play slot 5 (in 2 and 3-player games).
+  * Purple means play slot 1 AND the next person plays their *Finesse Position* card (in 4 and 5-player games).
   * Orange means chop move.
 * All color clues have to be treated as potential *Delayed Play Clues*, *Prompts*, and *Reverse Finesses*.
 
@@ -831,6 +855,11 @@ This section is unique in that it contains things that are separate from actual 
 * However, if by cluing the 5, it moved that player's *Finesse Position* card to a playable card, then the point of the 5's clue may have been to set up a *Finesse* or *Bluff* of some kind.
 * Subsequently, if you see that an off-chop 5's clue allowed a *Finesse* or *Bluff* to occur, then you should not read very strongly into the original 5's clue.
 
+### The Setup Finesse
+
+* In the *Early Game*, it is common to clue a 5 on slot 1 as a *Setup Clue*. This is usually followed up by a *Finesse* or *Bluff* on the new *Finesse Position* (slot 2).
+* However, if the *Setup Clue* is never followed up, the player who recieved the *Setup Clue* should blind-play their new *Finesse Position* card.
+
 ### Cluing Off-Chop 2s
 
 * During the beginning of the game, it is very dangerous to discard. It is permissible in this situation to use a 2 number clue to save a 2 that is not on chop, but only if the other players can see that you had no other choice to avoid discarding.
@@ -841,14 +870,14 @@ This section is unique in that it contains things that are separate from actual 
   * If one of the cards includes the chop card, it means to play all of the cards from 2nd oldest to newest, and then the chop last.
 * If you are re-clued about a bunch of cards after you have already taken a turn, see the *Double Tempo Clue* convention.
 
-### Elimination Blind Play Riding Deduction Bluff
+### The Elimination Blind Play Riding Deduction Bluff
 
 * Typically, when a player has two cards with *Elimination Notes* and the "true" copy of the card is on chop, you must clue it to let them know.
 * However, if the other card is also playable, you can "lie" to them and not clue anything.
 * Next, the player should perform an *Elimination Blind Play Riding Deduction*, and play the unrelated card.
 * After that, there will be only one card left with an *Elimination Note*, so they will go on to play the "true" card on their next turn.
 
-### Chop Transfer
+### The Chop Transfer
 
 * Sometimes, cards are accidently chop moved through a mistake or through a complicated situation. In these kinds of situations, it is pointless to waste a clue to "undo" the chop move; you can just continue to allow them to discard normally. That is, until they get something good on chop.
 * Only then will the team bother cluing the chop directly to convey that it is useless. And then, the player receiving the clue will know that the card they were about to discard is important, and permanently chop move that card, and discard the now known useless card.
@@ -872,13 +901,13 @@ This section is unique in that it contains things that are separate from actual 
 * If you see someone blind-play their chop and it works, your first thought may be that it could be a *Stop Blind Play*. However, it could also be a *Negative Blind Play*, so it is important to not confuse these two strategies.
 * Note that a *Scream Blind Play* (listed above) is almost exactly the same as this move, but it has a completely different interpretation. Whether or not a move is a *Scream Blind Play* or a *Stop Blind Play* is entirely dependent on the context of the situation.
 
-### Whisper Discard Chop Move
+### The Whisper Discard Chop Move
 
 * Occasionally, a player will have known trash in their hand. They are always expected to discard the known trash first before discarding their right-most unclued card.
 * Thus, if a player instead discards their right-most unclued card instead of known trash, it must be a signal that something is wrong, exactly like a Scream Discard. This is more subtle than a Scream Discard though, so it is called a Whisper Discard.
 * Whisper Discards are to be treated identically to Scream Discards. In short, this means that they 1) cause a chop move and 2) force a clue to be given on the next turn.
 
-### Long-Range Scream Discard
+### The Long-Range Scream Discard
 
 * A *Scream Discard Chop Move* is done only as a last resort. So, if the next player has an unimportant card on chop, then the move is usually a *Generation Discard* and does not chop move anyone.
 * In other words, from the perspective of the next player:
@@ -893,27 +922,33 @@ This section is unique in that it contains things that are separate from actual 
 * A *Long-Range Scream Discard* is useful if multiple players in a row have critical/playable chops, because you don't want them *Scream Discarding* for each other. Alternatively, it is also useful if they won't know that the next chop needs to be saved (if it plays through cards in their own hand, for example).
 * A *Long-Range Whisper Discard* works in the same way.
 
-### Crazy 8s Save
+### Stop Discard
+
+* Normally, when someone discards with a known play and the next person already has something to do, it is a *Long-Range Scream Discard*.
+* However, it could also be the case that the next person after that does not have a playable/critical card on chop. Or, alternatively, it could be the case that EVERYONE has something to do on their turn. Thus, discarding is normally considered a mistake.
+* But the player who is discarding is not making a mistake - they are communicating that the very next player with a "known play" should STOP what they are doing, because the card is not actually playable.
+* This is very similar to a *Stop Blind Play*, but since the player has a known play, there is no reason to use up one of the strikes when the same message can be communicated in a safer way.
+* If there is a card that could potentially be playable on on chop, then the *Long-Range Scream Discard* interpretation takes priority over the *Stop Discard* interpretation.
+
+### The Crazy 8s Save
 
 * Being at 8 clues is considered bad, since there might not be anything to do, and a player will have to waste a clue. Thus, players typically avoid discarding to send the team to 8 clues if they can avoid it.
-
 * However, a player might DELIBERATELY take the team to 8 clues for a special reason. As stated earlier in this document, one property of being at 8 clues is that since a player is forced to make a clue, they are allowed to save ANY card on someone's chop. Thus, your teammate can take advantage of this and save a juicy useful one-away card that is about to be discarded.
-
 * This kind of save is called a Crazy 8s Save, because it is "abusing" the 8 clue situation to save a card that would otherwise be impossible to touch without causing a misplay.
 
-### No-Information Double Finesse (for 3's)
+### The No-Information Double Finesse (for 3's)
 
 * When a 3 exists in someone else's hand and already has a clue on it, it can be filled in with a second clue to cause a *3-Bluff* to occur. This is still a normal *3-Bluff*; it is only supposed to get 1 card to blind-play and does not imply a *Finesse*.
 * However, if a 3 is reclued and gives no additional information on the card, it always implies a *Double Finesse* instead of a *3-Bluff*.
 
-### Bad Touch Double Finesse
+### The Bad Touch Double Finesse (for 3's)
 
 * Normally, a *3 Bluff* takes priority over a *Double Finesse*. This means that if someone clues a blue 3 using the number 3, and then a blue 1 blind plays on the very next turn, no-one is promised the blue 2.
 * However, if BOTH blue 3's were touched with the number 3 clue, then that would violate *Good Touch Principle*, and this would be considered a "bad touch".
 * If someone is violating *Good Touch Principle*, they must have a very good reason, so the clue must be a *Double Finesse* instead of a *3 Bluff*. In the above example, you should blind-play the blue 2 from your *Finesse Position*.
 * The player who recieved the clue can safely discard the 3 that was on chop.
 
-### Sacrifice Discard
+### The Sacrifice Discard
 
 * It is generally undesirable for a player to have a "fully locked" hand, but sometimes it happens. And sometimes, one card in the locked hand is useful in the future, but not critical (meaning there is another copy of the card in someone else's hand or still in the deck).
 * Normally, you are never supposed to discard cards that have clues on them, as if you do, it implies a *Sarcastic Discard* or a *Gentleman's Discard*. However, in this situation, the player who is locked can choose to "sacrifice" one of the cards in their hand that is non-critical. And in this situation, it does NOT imply a *Sarcastic Discard* or a *Gentleman's Discard*.
@@ -922,7 +957,7 @@ This section is unique in that it contains things that are separate from actual 
 
 ## Level 4 - Rarely Used Expert Strategies
 
-### Elimination Finesses
+### The Elimination Finesse
 
 * Normally, if a player is *Finessed*, they are supposed to play their *Finesse Position* card. However, if the player has two or more *Elimination Notes* in their hand for the specific finessed card, they know that it cannot be on *Finesse Position*.
 * In this situation, the player is expected to play the OLDEST of the cards with the elimination notes on them.
@@ -941,35 +976,39 @@ This section is unique in that it contains things that are separate from actual 
   * Someone clues a number 4 in Alice's slot 1 as a *Self-Finesse*.
   * Alice must assume that it is a normal *Self-Finesse* and play blue 3 from slot 2. (If it was an *Elimiation Self-Finesse*, she would play red 3 from slot 4.)
 
-### Patch Finesses
+### The Patch Finesse
 
 * If a player performs a *Layered Finesse* through a card that is one-away from being playable, it is possible to see that an impending misplay will occur.
 * This is a signal to you that you need to "patch" the problem, so you have the matching card in your *Finesse Position* to make the one-away card actually playable.
 * In general, you must give preference to a patch interpretation. Thus, you might need to hold off before playing a card for a while to see if a patch blind-play occurs.
 
-### Reverse Bluffs / Out-of-Position Bluffs (bad)
+### The Patch Gentleman's Discard
 
-* Similar to a *Reverse Finesse*, it is possible to perform a *Reverse Bluff*. However, we outlaw bluffing any player who is not immediately after you (as per *Good Lie Principle*).
+* Similar to a *Patch Finesse*, a *Gentleman's Discard* can also contain a "patch" component.
+
+### The Reverse Bluff / The Out-of-Position Bluff (bad)
+
+* Similar to a *Reverse Finesse*, it is possible to perform a *Reverse Bluff*. However, according to *Good Lie Principle*, it is only allowed to lie to the player who comes immediately after you.
   * Why this policy? It is not possible to play with both *Layered Finesses* and *Reverse Bluffs* at the same time, and *Layered Finesses* are much better.
 * However, you can break the *Bluff Position* rule in rare situations where the player that is being passed over cannot actually act on their state of misinformation. For example,
   * they are at 0 clues (and won't blind play anything)
   * they have negative information on their entire hand
 * Since valid *Reverse Bluffs* are so rare, it is important to remember that a valid *Reverse Bluff* is distinct from a *Layered Finesse*, and that blind playing should stop after the first blind play. (This is a common mistake.)
 
-### Double Half Bluffs
+### The Double Half Bluff
 
-* Sometimes, you see that two players in a row have cards on their newest slot that are playable. However, they are unrelated, so you can't get them both played with a double finesse. This is where the double half bluff comes in - it is very similar to a double finesse. In this situation, by performing a normal double finesse clue, you can get the first one played like a normal finesse, and the 2nd card like a bluff.
-* For example, on the first turn of a 4 player game:
-  * A red 3 is clued in Cathy's hand with red color clue.
-  * Alice goes next and assumes that it is a double self-finesse - she has the red 1 and red 2 in the two newest slots. Thus, she blind-plays her left-most and it is red 1.
-  * Next, Bob sees that Alice does NOT have red 2 in her next newest slot, so he must have the red 2, so he blind-plays his left-most card. However, it is NOT the red 2, but the blue 1. Bob now knows he was bluffed.
-  * Alice sees Bob blind play "for no reason", so she knows that she must not have the red 2 and it must have been a double half bluff.
+* Sometimes, you see that two players in a row have cards on their newest slot that are playable. However, they are unrelated, so you can't get them both played with a double finesse. This is where the *Double Half Bluff* comes in - it is very similar to a *Double Finesse*. In this situation, by performing a clue that looks like a *Double Finesse*, you can get the first card played like a normal *Finesse* and the 2nd card like a *Bluff*.
+* For example, on the first turn of a 4-player game:
+  * Alice clues Donald red to highlight a red 3.
+  * Bob goes next and assumes that it is a *Double Self-Finesse* - he has the red 1 and red 2 in the two newest slots. Thus, he blind-plays his left-most and it is red 1.
+  * Cathy goes next. Cathy sees that Donald does NOT have red 2 in her next newest slot, so he must have the red 2, so he blind-plays his left-most card. However, it is NOT the red 2, but the blue 1. Bob now knows he was bluffed.
+  * Alice sees Bob blind play "for no reason", so she knows that she must not have the red 2 and it must have been a *Double Half Bluff*.
   * Finally, Cathy sees this sequence of events occur. Since Alice and Bob blind-played, she must have the red 3.
 * Normally, you are only allowed to *Bluff* while in *Bluff Position*. But *Double Half Bluffs* do not violate *Good Lie Principle*, and thus they are allowed.
 
-### Double Bluffs
+### The Double Bluff
 
-* Similar to a Double Half Bluff, it is also possible to get 2 cards played in a row that are completely unrelated.
+* Similar to a *Double Half Bluff*, it is also possible to get 2 cards played in a row that are completely unrelated.
 * For example:
   * Yellow 1 and 2 are currently played in the middle.
   * Player 1 clues a yellow 5 in player 4's hand with a yellow color play clue.
@@ -978,7 +1017,7 @@ This section is unique in that it contains things that are separate from actual 
   * Player 4 knows that this yellow card must be yellow 5 because it caused 2 blind plays.
 * Normally, you are only allowed to bluff while in bluff position. But *Double Bluffs* do not violate *Good Lie Principle*, and thus they are allowed.
 
-### Triple Bluffs / Triple Two-Thirds Bluffs
+### The Triple Bluff / The Triple Two-Thirds Bluff
 
 * Following from the *Double Bluff* convention, it is possible to perform a *Triple Bluff*. For example, on the first turn of the game:
 
@@ -986,16 +1025,16 @@ This section is unique in that it contains things that are separate from actual 
 
 * In this screenshot, if Zealousy blind played a red 2 from newest AND the focus of the initial clue was red 4, then it would be a *Triple Two-Thirds Bluff* instead of a *Triple Bluff*.
 
-### Bad Touch Double Bluff & Bad Touch Double Half Bluff
+### The Bad Touch Double Bluff & The Bad Touch Double Half Bluff (for 3's)
 
 * Following from the *Bad Touch Double Finesse* convention, it is also possible to *Bad Touch Double Bluff* or *Bad Touch Double Half Bluff* in order to get unrelated cards played from *Finesse Position*.
 
-### Good Touch Bluff
+### The Good Touch Bluff
 
 * Care has to be taken so that a *Bluff* does not look like a *Finesse*. For example, if the red 2 is played on the red stack and the blue 2 is played on the blue stack, a number 4 clue that touches a blue 4 can cause a red 3 to blind play. However, this would not typically be done - the unknown 4 would look like red 4, and they would misplay it.
 * However, from the perspective of a player who has just seen the above scenario unfold, there must be something else going on. This actually implies that the real red 4 is already clued in someone else's hand. An impending misplay will NOT occur because of *Good Touch Principle*; since it would be bad to duplicate red 4, the player who received the clue will know that the 4 is some other one-away 4.
 
-### Disease Bluffs & Heal Clues & Double-Copy Bluffs & Pestilent Bluffs
+### The Disease Bluff & The Heal Clue & The Double-Copy Bluff & The Pestilent (Double) Bluff
 
 * In the *Good Touch Bluff* convention, a *Bluff* is given that looks like a *Finesse*. However, what if something that looks like a *Good Touch Bluff* is done, but the "matching" card is not yet clued?
 * For example:
@@ -1027,7 +1066,7 @@ This section is unique in that it contains things that are separate from actual 
 * She must have both copies of the red 2 in her hand (but she does not know the order).
 * Like the previous situation, this is also a *Double-Copy Bluff*.
 
-#### 4) A *Pestilent Bluff* (with 1 unclued card):
+#### 4) A *Pestilent (Double) Bluff* (with 1 unclued card):
 
 * Say that Cathy does not see the red 2 anywhere and only has 1 unclued card.
 * Unlike the previous situation, Cathy knows that she cannot have both copies of red 2.
@@ -1036,11 +1075,17 @@ This section is unique in that it contains things that are separate from actual 
 * Note that Cathy could be blind-playing red 2, but could also be blind-playing ANY playable card. Whatever card it is, it will still heal the problem, since Bob can see that the blind-play was related to the clue he received.
 * This is similar to the *Double Bluff* convention, but is different because the move was not initiated by a card that was 2-away from being playable.
 
-#### 5) A *Pestilent Bluff* (with 2 unclued cards):
+#### 5) A *Pestilent (Double) Bluff* (with 2 unclued cards):
 
 * Say that Cathy does not see the red 2 anywhere and has exactly 2 unclued cards.
 * Here, Cathy can assume the *Double-Copy Bluff*, but this situation is different - she can immediately blind-play either card as red 2.
 * However, she should always play her *Finesse Position* card, in case it is a *Pestilent Bluff* instead of a *Double-Copy* bluff.
+
+### The Continuation Clue (Touching Both Inside and Outside a Layer)
+
+* Sometimes, a person who is blind playing cards into a *Layered Finesse* receives another clue that touches cards BOTH inside the layer and outside the layer.
+* By default, the player should assume that it is another normal *Play Clue* or *Save Clue* on a card outside of the layer, and CONTINUE to blind play cards. This follows from *Information Lock Principle*. *Play Clues* given in this manner are called *Continuation Clues*.
+* Because *Continuation Clues* are the default interpretation, it can be difficult to give a *Fix Clue*, since a *Fix Clue* must ONLY touch cards inside of the layer.
 
 ### The Just-In-Time Fix Clue (To Fix a Layered Finesse with a Lie Component)
 
@@ -1060,7 +1105,7 @@ This section is unique in that it contains things that are separate from actual 
 * If there is no intermediary players in between the blind player and the player who received the play clue, great care must be taken to not blind play anything that implies a Double Finesse with a "self" component on the player who received the play clue. Thus, the player blind playing must evaluate what would happen for all 6 cards that he could be blind playing.
   * For example, if a 4 number clue causes a hesitation blind play of a red 2 and then the person who received the 4 clue comes immediately afterwards, they will misplay their *Finesse Position* card as a red 3.
 
-### Pass Bluffs
+### The Pass Bluff
 
 * It is possible for a *Hesitation Blind Play* to occur without anyone intending it to happen. However, if a player intentionally tries to make a *Hesitation Blind Play* occur, it is called a *Pass Bluff*.
 * In other words, after a *Finesse* occurs that is directed at you, you will know that your *Finesse Position* card is playable. If the next immediate player also has an unrelated playable card on their *Finesse Position*, you can pretend like the *Finesse* wasn't directed at you. This will cause them to think that the *Finesse* was directed at them, and you will get the unrelated card played for free.
@@ -1069,7 +1114,7 @@ This section is unique in that it contains things that are separate from actual 
   * They can see that they were in bluff position.
 * *Pass Bluffs* rely on other contextual information to be present in order to work, so the circumstances in which you can do them are narrow.
 
-### Double Pass Bluff / Triple Pass Bluff
+### The Double/Triple Pass Bluff
 
 * After a player performs a *Pass Bluff*, when it becomes their turn again, if they see an unrelated playable card on the *Second Finesse Position* of the next player, they can perform yet another *Pass Bluff*, implying that the first *Pass Bluff* was not a *Pass Bluff* at all and instead simply a *Layered Finesse* or *Clandestine Finesse*.
 * Then, after the unrelated card is played, the player who initiated the *Double Pass Bluff* can go ahead and play into the real *Finesse*.
@@ -1082,13 +1127,13 @@ This section is unique in that it contains things that are separate from actual 
 * When you blind play a card in this situation and it misplays, it means that the unusual discard really was a *Scream Discard* after all, so you should treat it like a normal *Scream Discard* and permanently chop move.
 * This is called a *Hesitation Chop Move* for short, since it was triggered by a (failed) *Hesitation Blind Play*.
 
-### Rebellious Discard
+### The Rebellious Discard
 
 * Part of the *Scream Discard* convention states that after a *Scream Discard*, the next player CANNOT discard. Thus, a player in this situation must completely waste a clue if there is nothing productive to do.
 * However, in some situations, the player who has been screamed at sees that if they give a clue, the next player will be left at 0 clues and will be forced to discard a critical card.
 * Thus, in this situation, the player should chop move as normal and then discard their new chop, which will functionally act as a second *Scream Discard*. This second *Scream Discard* is called a *Rebellious Discard*, because they are not doing what they are told.
 
-### Oblivious Finesse
+### The Oblivious Finesse
 
 * Sometimes a *Layered Finesse* is given where one of the cards in a layer is currently unplayable. In this situation, a player who is responsible for blind-playing a card may have to instead play *Prompted* cards first so that the layered card does not misplay.
 * For the player with the layered card, this will be extremely confusing and look like the blind-playing player is oblivious to the *Finesse* that just occured. The typical response to this is to assume an *Ambiguous Finesse*, and to blind-play the *Finesse Position* card.
@@ -1102,12 +1147,12 @@ This section is unique in that it contains things that are separate from actual 
 * If possible, you should allow for the possibility of a *Reverse Trash Push Prompt/Finesse*. Whether this is the correct thing to do or not is contextual on the pacing of the game and historical game state.
   * Allowing for a *Reverse Trash Push Finesse* also has the advantage of potentially causing *Hesitation Blind Plays*, which can be advantageous to the team.
 
-### Suboptimal Color Prompt & Suboptimal Color Finesse
+### The Suboptimal Color Prompt & The Suboptimal Color Finesse
 
 * When saving a critical card, players will generally choose either color or number in order to best satisfy *Good Touch Principle*. Or, in situations where either color or number will satisfy *Good Touch Principle*, they will choose the clue that touches the maximum amount of useful ancillary cards (in order to get a "2 for 1" or "3 for 1" instead of a "1 for 1").
 * When a player does NOT do this, it very strange. From *High Value Principle*, it implies it is a *Play Clue* instead of a *Save Clue*, so it is either a *Prompt* or a *Finesse* on the critical card being saved.
 
-### Dupe Bluffs
+### The Dupe Bluff
 
 * This is where you perform a *Bluff* such that the card that is blind played is already touched in someone else's hand AND the player who has the other copy has full knowledge of the card.
 * You wouldn't normally do this since it is only a 1-for-1 instead of a 2-for-1. However, it can be useful if you want to touch a card that you wouldn't otherwise be able to, like a 1-away card. Alternatively, you may strongly want to give ancillary information to some other card.
@@ -1119,7 +1164,7 @@ This section is unique in that it contains things that are separate from actual 
 
 ### The Speed-up Clue
 
-* The *Layered Finesse* convention (and its derivatives) are very efficient (in terms of "X for 1"). However, sometimes it can be very slow (low tempo), as players will have to allow for all possible *Reverse Finesses* before playing anything. This is generally not a problem in 3 player games, but tempo is extremely important in 5 player player games, 
+* The *Layered Finesse* convention (and its derivatives) are very efficient (in terms of "X for 1"). However, sometimes it can be very slow (low tempo), as players will have to allow for all possible *Reverse Finesses* before playing anything. This is generally not a problem in 3-player games, but tempo is extremely important in 5-player games, 
 * Normally, when the *Finesse Target* (the card that is to be blind-played) is clued directly, it is a mistake due to someone not paying close enough attention. We refer to this as *Stomping* on a *Finesse*.
 * However, if high tempo is needed, a player can consider intentionally *Stomping* on a *Layered Finesse* in order to "speed up" the play of a specific card that leads into other players hands.
 * One complicating factor of the *Speed-up Clue* is how to differentiate it from a more-ordinary *Fix Clue*. In other words, after the clued card is played, on their next turn, should the player go back and blind-play the other cards? If it was a *Speed-up Clue*, they should. If it was a *Fix Clue*, they should not.
@@ -1139,7 +1184,7 @@ This section is unique in that it contains things that are separate from actual 
 * However, when a card ON CHOP is clued and the next person misplays that card, it cannot be the *Misplay Chop Move* - it must be something else.
 * Normally, when trash is clued on chop, it is a *Trash Push*. So they should go on to blind play the card that was touching the trash on their next turn.
 
-### Reverse Misplay Chop Move
+### The Reverse Misplay Chop Move
 
 * Sometimes, a *Misplay Chop Move* will not immediately misplay because of circumstances similar to *Focus Inversion*, meaning that there is:
   * negative clues present on the card
@@ -1147,7 +1192,7 @@ This section is unique in that it contains things that are separate from actual 
 * In such a scenario, the clue will look like a *Reverse Finesse* and then next person will misplay their *Finesse Position* card.
 * After the misplay, the person who received the clue is to treat it like a normal *Misplay Chop Move*, and chop move all the cards to the right of the clued card.
 
-### Elimination Bluffs / Elimination Layered Finesses
+### The Elimination Bluff / The Elimination Layered Finesse
 
 * It is possible to lie to a player who has *Elimination Notes* on their hand and pretend like you are performing an *Elimination Finesse* on them, causing them to play their oldest card as per the convention. This can cause an unrelated playable card to play.
 * If the player who performed the clue was in *Bluff Position*, then it is to be treated like a *Bluff*, and thus they will not know where the actual *Elimination Card* is. (However, in most cases, at this point there will only be one remaining card with an *Elimination Note* on it, so it won't matter.)
@@ -1184,85 +1229,86 @@ n/a
 | --- | ---
 | 2 Saves | Hyphen-ated and Duneaught
 | Chop Focus | Zamiel and Hyphen-ated
-| Layered Finesse | Antizoubilamaka
-| Clandestine Finesse | Antizoubilamaka
-| Patch Finesse | Zamiel and Libster
-| 3 Bluff | Hyphen-ated
-| Double Bluff | Hyphen-ated
-| Double Half Bluff | Hyphen-ated
-| Triple Bluff | Zamiel
-| Triple Two-Thirds Bluff | Zamiel
+| The Layered Finesse | Antizoubilamaka
+| The Clandestine Finesse | Antizoubilamaka
+| The Patch Finesse | Zamiel and Libster
+| The 3 Bluff | Hyphen-ated
+| The Double Bluff | Hyphen-ated
+| The Double Half Bluff | Hyphen-ated
+| The Triple Bluff | Zamiel
+| The Triple Two-Thirds Bluff | Zamiel
 | Playing 1s from Right to Left | Duneaught
 | The 9 First Principles | Duneaught
-| Gentleman's Discard | Duneaught
-| Double Gentleman's Discard | Duneaught
-| Layered Gentleman's Discard | Duneaught
-| Tempo Clue Chop Moves | Zamiel
+| The Gentleman's Discard | Duneaught
+| The Layered Gentleman's Discard | Duneaught
+| The Tempo Clue Chop Moves | Zamiel
 | Discard Elimination & The Elimination Blind Play | Aridolomo (with revisions from Hyphen-ated and Duneaught)
 | Immediate Double Clue | Duneaught
-| Elimination Finesse | Zamiel and Ahming
-| Elimination Blind Play Riding Deduction | Duneaught
+| The Elimination Finesse | Zamiel and Ahming
+| The Elimination Blind Play Riding Deduction | Duneaught
 | Free Choice Convention | Hyphen-ated
-| Trash Push | Duneaught
-| Trash Bluff | Duneaught
-| Trash Finesse | Duneaught
-| Double Trash Finesse | Duneaught
-| Trash Push Finesse | Duneaught
-| Hesitation Blind Play | Zamiel
-| Lost Tempo Priority Finesse | Libster
-| Dupe Bluff | Duneaught
-| Certain Finesse | Zamiel
+| The Trash Push | Duneaught
+| The Trash Bluff | Duneaught
+| The Trash Finesse | Duneaught
+| The Double Trash Finesse | Duneaught
+| The Trash Push Finesse | Duneaught
+| The Hesitation Blind Play | Zamiel
+| The Lost Tempo Priority Finesse | Libster
+| The Dupe Bluff | Duneaught
+| The Certain Finesse | Zamiel
 | The Crazy 8s Save | Hyphen-ated
-| Negative Prompts | Zamiel and Libster
+| The Negative Prompt | Zamiel and Libster
 | Weak Prompts | Hyphen-ated
-| Crazy 3 Saves and Crazy 4 Saves | Libster
-| Scream Discard Chop Move | 910dan and Zamiel
-| Early Fix Clue Chop Move | Zamiel
-| Critical 4 Bluff | Libster
-| Chop Transfer | Duneaught
-| Whisper Discard Chop Move | Zamiel
-| Good Touch Bluff | Postmans
-| Negative Blind Play | Ahming
-| Elimination Bluffs | Zamiel
-| Elimination Layered Finesse | Zamiel
-| Rebellious Discard | Zamiel
+| Crazy 3 Saves & Crazy 4 Saves | Libster
+| The Scream Discard Chop Move | 910dan and Zamiel
+| The Early Fix Clue Chop Move | Zamiel
+| The Critical 4 Bluff | Libster
+| The Chop Transfer | Duneaught
+| The Whisper Discard Chop Move | Zamiel
+| The Good Touch Bluff | Postmans
+| The Negative Blind Play | Ahming
+| The Elimination Bluff | Zamiel
+| The Elimination Layered Finesse | Zamiel
+| The Rebellious Discard | Zamiel
 | Focus Inversion | Zamiel
 | Modified Black 3 & Black 4 Saves | Florrat
 | Modified Early Game | Libster and Florrat
-| Double Tempo Clue | Hyphen-ated
+| The Double Tempo Clue | Hyphen-ated
 | Hard Bluffs | Florrat
 | White Compromise | Postmans
-| Acid Trip Colors | Zamiel and Florrat
-| Double / Triple Pass Bluff | Zamiel
-| Out-of-Order Finesse | Zamiel
+| Acid Trip Conventions | Zamiel and Florrat
+| The Double/Triple Pass Bluff | Zamiel
+| The Out-of-Order Finesse | Zamiel
 | The Speed-up Clue | Libster
 | General Principles | Zamiel and Florrat
-| Misplay Trash Push | Zamiel
-| Disease Bluffs & Heal Clues | Zamiel
-| Double-Copy Bluff | Zamiel
-| Pestilence Finesses & Pestilence Bluffs | Zamiel
-| Distribution Clue | Libster
-| Elimination Blind Play Riding Deduction Bluff | Duneaught
+| The Misplay Trash Push | Zamiel
+| The Disease Bluff & The Heal Clue | Zamiel
+| The Double-Copy Bluff | Zamiel
+| The Pestilent (Double) Bluff | Zamiel
+| The Distribution Clue | Libster
+| The Elimination Blind Play Riding Deduction Bluff | Duneaught
 | Self-Elimination Finesse Priority | 910dan
-| Baking a Cake | Zamiel
 | Multiple-card Trash Bluff | Zamiel & Antizoubilamaka
 | Play Elimination | Zamiel
 | Double Discard Elimination | Zamiel
-| No-Information Double Finesse | Zamiel
+| The No-Information Double Finesse | Zamiel
 | The Layered Jump | Libster
-| Oblivious Finesse | Sankala
-| Free Choice Bluff | Zamiel
-| Suboptimal Color Prompt & Suboptimal Color Finesse | Zamiel
-| Suboptimal Color Bluff | Zamiel
-| Higher Order Blind Play | Libster
-| Pestilence Finesse | Sankala
-| Continuation Clues | Libster
-| Just-In-Time Fix Clues | Zamiel
-| Occupied Play Clue & Occupied Finesse | Zamiel
-| Higher-Rank Prompt & Higher-Rank Finesse | Libster
-| Higher-Rank Bluff & Higher-Rank Layered Finesse | Zamiel
-| Long-Range Scream Discard | Florrat
-| Bad Touch Double Finesse | Sankala
-| Bad Touch Double Bluff & Bad Touch Double Half Bluff | Sankala
+| The Oblivious Finesse | Sankala
+| The Free Choice Bluff | Zamiel
+| The Suboptimal Color Prompt & The Suboptimal Color Finesse | Zamiel
+| The Suboptimal Color Bluff | Zamiel
+| The Higher Order Finesse | Libster
+| The Continuation Clue | Libster
+| The Just-In-Time Fix Clue | Zamiel
+| The Occupied Play Clue & The Occupied Finesse | Zamiel
+| The Higher-Rank Prompt & The Higher-Rank Finesse | Libster
+| The Higher-Rank Bluff & The Higher-Rank Layered Finesse | Zamiel
+| The Long-Range Scream Discard | Florrat
+| The Bad Touch Double Finesse | Sankala
+| The Bad Touch Double Bluff & The Bad Touch Double Half Bluff | Sankala
 | The Dump Truck | Ahming
 | The Fuel Clue | Ahming
+| The Lower Rank Finesse & The Lower Rank Bluff | Libster
+| The Right-to-Left Finesse & The Right-to-Left Bluff | Libster
+| The Setup Finesse | Zamiel
+| The Stop Discard | Zamiel
