@@ -675,12 +675,14 @@ This section is unique in that it contains things that are separate from actual 
 * This move is powerful because it allows you to "fish" for information:
   * In the best case, you get a "true" *Finesse* (a 2-for-1 or better).
   * In the worst case, you get a 1-for-1 and full knowledge on a clued card in your own hand that was previously a mystery.
+* Normally, if a *Sacrastic Discard* could apply to multiple cards in your hand, you assume it is the left-most card. However, in the case of a *Sacrastic Discard* initiated from a *Dupe Finesse*, it does NOT promise the order, because they HAD to put something on the fishing line that you sent out, so to speak.
 
 ### The Certain Finesse / The Certain Discard
 
 * This is the similar to the *Dupe Finesse* above, but instead of potentially duping the touched card, the blind card is potentially duplicated. Thus, the blind-playing player will blind-discard their *Finesse Position* card if it is a duplicate.
 * You are ONLY allowed to do a *Certain Discard* if you know you have not been bluffed. (This means that *Certain Finesses* can't be performed from *Bluff Position*.)
 * This convention takes priority over the *Layered Finesse*. Thus, it is impossible to perform a *Layered Finesse* on a card that could be in your own hand.
+* Much like a *Sacrastic Discard* from a *Dupe Finesse*, if someone performs a *Certain Discard*, it does NOT promise the order, because they HAD to put something on the fishing line that you sent out, so to speak.
 
 ### The Out-of-Order Finesse
 
