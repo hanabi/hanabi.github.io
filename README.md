@@ -1232,7 +1232,7 @@ These are moves that are proposed by certain members of the group. However, they
 #### Double Play Ejection
 
 * If a player knows that a card in their hand is playable, and then they recieve ANOTHER clue on that card, it is usually a *Stop Clue*, which means that the card is actually bad and they should discard it instead of playing it.
-* However, if this happens on a good card, the only players can see that the clue must have some other purpose - it should signal an *Ejection* on the very next player.
+* However, if this happens on a good card, the other players can see that the clue must have some other purpose - it should signal an *Ejection* on the very next player.
 
 ### The Dump Truck
 
