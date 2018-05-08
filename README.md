@@ -469,7 +469,7 @@ This section is unique in that it contains things that are separate from actual 
 * So if a *Fix Clue* is given early to you, it can be strange. You were happily discarding, and now all of a sudden you are being fixed on a card that was just sitting in your hand and was not in danger of being misplayed.
 * This usually means that your chop suddenly became important, so the *Fix Clue* was given early to give you a good discard and keep you occupied. Thus, you should permanently chop move one card.
 
-## 1's Out of Order Chop Move
+### 1's Out of Order Chop Move
 
 * Normally, at the beginning of the game, players are expected to play their 1s from right to left.
 * If a player does not do this, and there is nothing else special going on, it means that the next person should chop move one card.
