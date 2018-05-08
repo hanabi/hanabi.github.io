@@ -1200,6 +1200,10 @@ This section is unique in that it contains things that are separate from actual 
 * If the player who performed the clue was in *Bluff Position*, then it is to be treated like a *Bluff*, and thus they will not know where the actual *Elimination Card* is. (However, in most cases, at this point there will only be one remaining card with an *Elimination Note* on it, so it won't matter.)
 * If the player who performed the clue was not in *Bluff Position*, then the blind-playing person is expected to keep playing until they find the intended card. This is similar to how a *Layered Finesse* works, but it is inverted such that they play cards from oldest to newest.
 
+## Non-Formalized Proposals
+
+These are moves that are proposed by certain members of the group. However, they have not yet reached a consensus that they are good enough to play with by default.
+
 ### The Dump Truck
 
 * When someone blind plays their chop, it is normally either a *Scream Blind-Play* or a *Stop Blind Play*. In other words, there was an emergency.
@@ -1216,12 +1220,6 @@ This section is unique in that it contains things that are separate from actual 
 * Only number 3 and number 4 clues that touch chop are to be interpreted as *Fuel Clues*. Then, they know that the *Fuel Clue* was moving their chop, and their new chop is playable.
 * For example, at the beginning of the game, say a number 3's is clued to someone as a chop focus *Play Clue*. If they play their *Finesse Position* card, you know it was a *3 Bluff*. If they play their chop, you know it was a *Fuel Clue* and a *Dump Truck* was initiated.
 * *Fuel Clues* are the highest priority interpretation. In other words, if someone has a fully-playable hand, it is impossible to perform a *Self 3-Bluff*.
-
-## Non-Formalized Proposals
-
-These are moves that are proposed by certain members of the group. However, they have not yet reached a consensus that they are good enough to play with by default.
-
-n/a
 
 <br />
 
