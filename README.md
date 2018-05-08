@@ -930,7 +930,7 @@ This section is unique in that it contains things that are separate from actual 
   * a known safe trash discard
 * This means that it CANNOT be a *Scream Discard* on them, and all players can know this. Thus, everyone can conclude the other possibility, so there is no need to waste a clue on the next person's critical card at all!
 * So, when a *Scream Discard* happens and the next player has a known play / known safe discard, is a *Long-Range Scream Discard* and the NEXT person should treat it as a *Scream Discard* on them (meaning that they chop move and can't discard on their next turn).
-* In the unlikely scenario where two people in a row have known plays / known safe discards, then the *Long-Range Scream Discard* is on the next person after that, and so forth.
+* In the unlikely scenario where two people in a row have known plays / known safe discards, then it is an *Extremely Long-Range Scream Discard* on the next person after that, and so forth.
 * A *Long-Range Scream Discard* is useful if multiple players in a row have critical/playable chops, because you don't want them *Scream Discarding* for each other. Alternatively, it is also useful if they won't know that the next chop needs to be saved (if it plays through cards in their own hand, for example).
 * A *Long-Range Whisper Discard* works in the same way.
 
