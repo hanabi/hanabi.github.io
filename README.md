@@ -295,7 +295,7 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
 * Beyond this, they can also give additional bad clues that are not allowed in double discard situations:
   * Saving any card on chop
 
-### The Forced Play Unlock
+### The Anxiety Play
 
 * Sometimes, someone with a locked hand has a playable card but they do not know that they can play it yet. Re-cluing the card would signal this, but would not be very efficient.
 * A better way to signal this information is to deliberately leave them at 0 clues. For example, from the perspective of the fully clued player: "Darn, why would Alice steal the last clue like that? Now I have to discard one of these already-clued cards that could be imporant! Hold on - it must mean that the my unknown 2 is actually playable!"
@@ -472,7 +472,11 @@ This section is unique in that it contains things that are separate from actual 
 ## 1's Out of Order Chop Move
 
 * Normally, at the beginning of the game, players are expected to play their 1s from right to left.
-* If a player does not do this, it means that the next person should chop move one card.
+* If a player does not do this, and there is nothing else special going on, it means that the next person should chop move one card.
+* There are some common special situations that do NOT imply a *1's Out of Order Chop Move*:
+  * The 1 that was played was newly drawn and did NOT exist in the opening hand. (Fresh 1's always have priority.)
+  * The 1 that was played was originally *Finessed* from a clue that happened BEFORE the 1's number clue.
+  * The right-most 1 is known to be bad from contextual information, and the original 1's number clue was intended to have *Focus Inversion*. For example, if someone discards to end the *Early Game* (implying that there is nothing to do), and the next player clues two or more 1s, it means that the right-most 1 must be bad, so skipping over it does not imply anything special.
 
 ### The Misplay Chop Move
 
@@ -1209,6 +1213,26 @@ This section is unique in that it contains things that are separate from actual 
 ## Non-Formalized Proposals
 
 These are moves that are proposed by certain members of the group. However, they have not yet reached a consensus that they are good enough to play with by default.
+
+### Ejection
+
+* *Ejection* refers to a move like a *Finesse*, but instead of playing your *Finesse Position* card, you instead play your *Second Finesse Position* card. (For example, if your hand is completely unclued, your *Second Finesse Position* is slot 2.)
+* Certain types of "wasted" clues signal an *Ejection*.
+
+#### Dupe Ejection
+
+* If someone clues a card as a "one for one", and that card is already clued in someone else's hand, this is usually a *Distribution Clue*, which is sometimes done in the *End Game*.
+* However, if this type of move is done before the *End Game*, it must have some other purpose - it should signal an *Ejection* on the very next player.
+
+#### Known Trash Ejection
+
+* Often times, a player can have one or more cards that are known duplicates / trash. They will discard them it without being told anything further.
+* If a clue is given that ONLY touches cards that are already known trash, then it must have some other purpose - it should signal an *Ejection* on the very next player.
+
+#### Double Play Ejection
+
+* If a player knows that a card in their hand is playable, and then they recieve ANOTHER clue on that card, it is usually a *Stop Clue*, which means that the card is actually bad and they should discard it instead of playing it.
+* However, if this happens on a good card, the only players can see that the clue must have some other purpose - it should signal an *Ejection* on the very next player.
 
 ### The Dump Truck
 
