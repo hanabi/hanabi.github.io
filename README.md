@@ -808,12 +808,13 @@ This section is unique in that it contains things that are separate from actual 
 * In this variant, since negative color information conveys just as much information as positive color information, you should include that when deciding which card to play into a prompt.
 * For example, if you have a red card in slot 1 with no negative clues, and a red card in slot 2 with negative yellow, then normally you would play left-most if a Magenta card was prompted. But with this convention you would play slot 2.
 
-### Crazy 3s & Crazy 4s Save
+### Crazy 3 Saves & Crazy 4 Saves
 
 * In the *Black One-of-Each* variant, it is not possible to violate *Good Touch Principle* by cluing black to save a Black 3 or a Black 4.
 * However, in the *Wild and Crazy* variant, it is possible, because there can be other useless rainbow cards in the hand.
 * Thus, for the *Wild and Crazy* variant, a second exception to the *Black 3 and Black 4 Saves* convention is added:
   * if the number clue was required to avoid violating *Good Touch Principle*
+* *Crazy 3 Saves* & *Crazy 4 Saves* do NOT apply to 5 player games; getting a perfect score is difficult and this move is too conservative.
 
 ### Acid Trip Conventions
 
