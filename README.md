@@ -476,7 +476,7 @@ This section is unique in that it contains things that are separate from actual 
 * There are some common special situations that do NOT imply a *1's Out of Order Chop Move*:
   * The 1 that was played was newly drawn and did NOT exist in the opening hand. (Fresh 1's always have priority.)
   * The 1 that was played was originally *Finessed* from a clue that happened BEFORE the 1's number clue.
-  * The right-most 1 is known to be bad from contextual information, and the original 1's number clue was intended to have *Focus Inversion*. For example, if someone discards to end the *Early Game* (implying that there is nothing to do), and the next player clues two or more 1s, it means that the right-most 1 must be bad, so skipping over it does not imply anything special.
+  * The 1 that was skipped over is known to be bad from contextual information, and the original 1's number clue was intended to have *Focus Inversion*. For example, if someone discards to end the *Early Game* (implying that there is nothing to do), and the next player clues two or more 1s, it means that the right-most 1 must be bad, so skipping over it does not imply anything special.
 
 ### The Misplay Chop Move
 
@@ -724,27 +724,38 @@ This section is unique in that it contains things that are separate from actual 
 * However, players are not generally supposed to stall until all of the "normal" *Play Clues* and *Save Clues* have been given.
 * Thus, if you receive a clue that looks like a *5's Chop Move* in the *Early Game* and you can see that the player had a good non-stall clue to give, then it IS a chop move after all.
 
-### The Higher-Rank Finesse
+### The Higher Rank Finesse
 
 * When a player has a choice between two or more cards to play, if other players are waiting on one of their cards in order to play themselves, then those cards should always be prioritized.
 * However, if both cards are not being "waited on", then players are supposed to play the card with the lower number (rank) first.
-* If a player plays a higher-rank card first, it implies that the next copy of that suit is in someone else's hand. And if it is not immediately clued directly, that player should blind-play their *Finesse Position* card.
-* For example, this is NOT a *Higher-Rank Finesse*:
+* If a player plays a higher rank card first, it implies that the next copy of that suit is in someone else's hand. And if it is not immediately clued directly, that player should blind-play their *Finesse Position* card.
+* For example, this is NOT a *Higher Rank Finesse*:
   * Alice has a known playable red 1 and a known playable blue 2 in her hand.
   * Alice plays blue 2.
   * Bob comes next. Bob does not see any red 2s. Bob does see blue 3 on the chop of Cathy. Thus, Alice played the blue 2 to give Cathy something to do.
   * Bob clues blues to Cathy as a chop-focus *Play Clue*.
-* For example, this IS a *Higher-Rank Finesse*:
+* For example, this IS a *Higher Rank Finesse*:
   * Alice has a known playable red 1 and a known playable blue 2 in her hand.
   * Alice plays blue 2.
   * Bob comes next. Bob does not see any red 2s. He does not see any blue 3s either. Thus, Alice was supposed to play the red 2 first.
   * This means that Bob must have blue 3, so he blind-plays his *Finesse Position* card.
 
-### The Higher-Rank Bluff & The Higher-Rank Layered Finesse
+### The Higher Rank Finesse in Dual-Color Variants
 
-* If is possible to lie to the next player and imply a *Higher-Rank Finesse* when they have an unrelated card on *Finesse Position*.
+* When you get a play clue on a card that could be multiple suits, you must take the average of all of the ranks and treat the card as having that rank for the purposes of performing a *Higher Rank Finesse*.
+* For example, in a 3-player Wild & Crazy game:
+  * The Green 1 and Rainbow 2 are played on the stacks.
+  * Mike receives a yellow *Play Clue* on slot 1.
+  * This means that the card could be a Green 2, Orange 1, or Rainbow 3.
+  * Thus, the average rank is: (2 + 1 + 3) / 3 = 2
+  * Mike also knows that he can play a White 2 on slot 4.
+  * If the average value ended up being higher than 2.0, then Mike would have to play the White 2 first, or else it would initiate a *Higher Rank Finessse*.
+
+### The Higher Rank Bluff & The Higher Rank Layered Finesse
+
+* If is possible to lie to the next player and imply a *Higher Rank Finesse* when they have an unrelated card on *Finesse Position*.
 * After the unrelated card is played, since the person who lied was in *Bluff Position*, no further cards should be promised.
-* If an unrelated card was played and the person who lied was not in *Bluff Position*, it implies a *Higher-Rank Layered Finesse*.
+* If an unrelated card was played and the person who lied was not in *Bluff Position*, it implies a *Higher Rank Layered Finesse*.
 
 ### The Lower Rank Finesse & The Lower Rank Bluff
 
@@ -1331,8 +1342,8 @@ These are moves that are proposed by certain members of the group. However, they
 | The Continuation Clue | Libster
 | The Just-In-Time Fix Clue | Zamiel
 | The Occupied Play Clue & The Occupied Finesse | Zamiel
-| The Higher-Rank Prompt & The Higher-Rank Finesse | Libster
-| The Higher-Rank Bluff & The Higher-Rank Layered Finesse | Zamiel
+| The Higher Rank Prompt & The Higher Rank Finesse | Libster
+| The Higher Rank Bluff & The Higher Rank Layered Finesse | Zamiel
 | The Long-Range Scream Discard | Florrat
 | The Bad Touch Double Finesse | Sankala
 | The Bad Touch Double Bluff & The Bad Touch Double Half Bluff | Sankala
