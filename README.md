@@ -779,7 +779,7 @@ This section is unique in that it contains things that are separate from actual 
 
 * In the *Black One-of-Each* and *Wild & Crazy* variant, it is expected that you should save black 2s and black 5s with a number clue instead of a black color clue. (This helps narrow down what card is being clued.)
 * There are four exceptions to this:
-  * if the black clue touched two or more brand new cards
+  * if the black clue touched two or more brand new black cards (not Rainbow)
   * if the black clue was required to avoid violating *Good Touch Principle*
   * if the black clue "filled in" an ancillary card
   * if the black clue gave important negative information to one or more cards in the hand (which mostly applies to the *Wild & Crazy* variant)
