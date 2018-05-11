@@ -968,8 +968,8 @@ This section is unique in that it contains things that are separate from actual 
 
 * Normally, a *3 Bluff* takes priority over a *Double Finesse*. This means that if someone clues a blue 3 using the number 3, and then a blue 1 blind plays on the very next turn, no-one is promised the blue 2.
 * However, if BOTH blue 3's were touched with the number 3 clue, then that would violate *Good Touch Principle*, and this would be considered a "bad touch".
-* If someone is violating *Good Touch Principle*, they must have a very good reason, so the clue must be a *Double Finesse* instead of a *3 Bluff*. In the above example, you should blind-play the blue 2 from your *Finesse Position*.
-* The player who received the clue can safely discard the 3 that was on chop.
+* If someone is violating *Good Touch Principle*, they must have a very good reason, so the clue must be a *Double Finesse* instead of a *3 Bluff*. In the above example, the next player should blind-play the blue 2 from their *Finesse Position*.
+* After that, the player who recieved the clue can safely discard the non-focused 3.
 
 ### The Sacrifice Discard
 
