@@ -881,7 +881,7 @@ This section is unique in that it contains things that are separate from actual 
 ### The Setup Finesse
 
 * In the *Early Game*, it is common to clue a 5 on slot 1 as a *Setup Clue*. This is usually followed up by a *Finesse* or *Bluff* on the new *Finesse Position* (slot 2).
-* However, if the *Setup Clue* is never followed up, the player who recieved the *Setup Clue* should blind-play their new *Finesse Position* card.
+* However, if the *Setup Clue* is never followed up, the player who received the *Setup Clue* should blind-play their new *Finesse Position* card.
 
 ### Cluing Off-Chop 2s
 
@@ -969,7 +969,7 @@ This section is unique in that it contains things that are separate from actual 
 * Normally, a *3 Bluff* takes priority over a *Double Finesse*. This means that if someone clues a blue 3 using the number 3, and then a blue 1 blind plays on the very next turn, no-one is promised the blue 2.
 * However, if BOTH blue 3's were touched with the number 3 clue, then that would violate *Good Touch Principle*, and this would be considered a "bad touch".
 * If someone is violating *Good Touch Principle*, they must have a very good reason, so the clue must be a *Double Finesse* instead of a *3 Bluff*. In the above example, you should blind-play the blue 2 from your *Finesse Position*.
-* The player who recieved the clue can safely discard the 3 that was on chop.
+* The player who received the clue can safely discard the 3 that was on chop.
 
 ### The Sacrifice Discard
 
