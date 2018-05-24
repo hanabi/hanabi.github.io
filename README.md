@@ -1115,11 +1115,14 @@ This section is unique in that it contains things that are separate from actual 
 * When performing a *Layered Finesse* with a *Lie Component*, it is important to wait until the last moment to give the *Fix Clue*. This is because after recieving the *Fix Clue*, the player will not play any more blind cards.
 * Thus, you should first wait for all of the "good" blind cards to play, and THEN give the *Fix Clue*.
 
-### The Lost Tempo Priority Finesse
+### The Lost Tempo Priority Prompt / Finesse
 
 * When a player has a choice between two playable cards to play, they always choose the card that leads towards someone else's hand. So, when a player does not do this, it is very strange.
-* In this situation, if you see a player choose not to play a card in this way AND it deliberately loses tempo, they are playing towards a card on your *Finesse Position*.
+* In this situation, if you see a player choose not to play a card in this way AND it deliberately loses tempo, they are playing towards a card that is already clued in your hand. This is similar to a *Prompt*, except instead of initiating it with a clue, they initiate it with the order that they played cards.
+* If you do not have any clued cards in your hand that matches the card that they played, then you you should play your *Finesse Position* card as a *Lost Tempo Priority Finesse*.
 * Note that for this to work, the player choosing priority must have full knowledge of the two cards that they are prioritizing.
+* Similar to a normal *Prompt*, if you have two or more clued cards that it could apply to, then you should play the left-most one.
+* Similar to a normal *Prompt*, if you have two or more clued cards and the left-most one was not the matching card, then you should continuing playing clued cards until you find the matching card.
 
 ### The Hesitation Blind Play
 
