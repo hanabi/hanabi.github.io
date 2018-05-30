@@ -274,13 +274,14 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
 * If the player before you just discarded a card (say the red 4), and you don't see that card in anyone else's hand, there is a possibility that you could have that same card on your chop. In this example, if you discarded, both red 4s could be lost and your team would not be able to get a perfect score. This is called *Double Discarding*.
 * Since *Double Discarding* can "lose" the game, you should make any decent clue if you can to avoid it. Even a low-value clue might be better than discarding. After a go-around, you can safely discard - if your chop was indeed the same card, it would have been given a save clue by your teammates.
 * If, to avoid a *Double Discard*, the clue that you are considering is so low value that it will cause a fair amount of confusion to your teammates, then it is probably better to just risk it and double discard. Sometimes, you really don't have any clues to give, and that's okay. However, the following "bad" clues are always allowed in *Double Discard* situations:
-  * Tempo clues
-  * Cluing off-chop 5s
-  * Saving 2s on chop that are present in another player's hand
-  * Filling in extra info on ambiguously saved cards that are still not playable
-  * Re-cluing 5's to a player (a "hard burn")
+  1) Tempo clues
+  2) Cluing off-chop 5s
+  3) Saving 2s on chop that are present in another player's hand
+  4) Filling in extra info on ambiguously saved cards that are still not playable
+  5) Re-cluing 5's to a player (a "hard burn")
 * The plus side of this strategy is that, because players should not generally double discard, you do not need to be overly worried about the same card being on two simultaneous chops.
 * Generally speaking, a weird or super low-value clue can communicate an advanced strategy like a *Finesse*. However, always pay attention to see the situation that the clue-giver is in. From their perspective, are they giving the clue to avoid a double discard? If so, then you should not read too closely into their clue.
+* From *High Value Principle*, you can know that a player in a double discard situation is NOT giving a "bad" clue if there is some other better clue available for them to give. Thus, players in double discards situations are often able to still give tricky-looking *Finesses*.
 
 ### Fully Clued Hands (Locked Hands)
 
@@ -288,12 +289,14 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
 * A person with a fully clued hand may give a low value clue because they are not sure that they can play anything (and they can't discard because their hand is fully clued). Do NOT read too closely into any clues given during this state.
 * If your team is out of clues and someone's hand is fully clued, then you HAVE to discard to generate a clue for them. Similarly, if there is only 1 clue left, you cannot steal it from them.
 * Explicitly, while in a locked hand, a player can do the following "bad" clues that are also allowed while in double discard situations:
-  * Tempo clues
-  * Cluing off-chop 5s
-  * Saving 2s on chop that are present in another player's hand
-  * Filling in extra info on ambiguously saved cards that are still not playable
+  1) Tempo clues
+  2) Cluing off-chop 5s
+  3) Saving 2s on chop that are present in another player's hand
+  4) Filling in extra info on ambiguously saved cards that are still not playable
+  5) Re-cluing 5's to a player (a "hard burn")
 * Beyond this, they can also give additional bad clues that are not allowed in double discard situations:
-  * Saving any card on chop
+  6) Saving any card on chop (referred to as a *Locked Hand Save*)
+* Players who are locked MUST follow general clue priority. For example, a locked player cannot save an off-chop 5 if there is a normal *Play Clue* or *Save Clue* to give. (If they do, it will look like a *Play Clue* on the 5.) And a locked player cannot perform a *Locked Hand Save* if there is a *Tempo Clue* to give. (If they do, it will look like a *Play Clue* on the clued chop card.) And so forth.
 
 ### The Anxiety Play
 
@@ -314,8 +317,8 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
 * Beyond this, they can also give the additional bad clues that are allowed in the "fully clued hands" situation:
   * Saving any card on chop
 * And beyond this, they can also give additional bad clues that are not allowed in the either two situations:
-  * Saving any card on chop or off chop
-(all clues are saves, unless it was just drawn)
+  * Saving any card on chop or off chop (referred to as a *8 Clue Save*; all clues are saves, unless it was just drawn)
+* Similar to being locked, players who are at 8 clues MUST follow general clue priority. For example, a player at 8 clues cannot save an off-chop 5 if there is a normal *Play Clue* or *Save Clue* to give. (If they do, it will look like a *Play Clue* on the 5.) And a player at 8 clues cannot perform a *8 Clue Save* if there is a *Tempo Clue* to give. (If they do, it will look like a *Play Clue* on the clued chop card.) And so forth.
 
 <br />
 
@@ -388,6 +391,12 @@ This section is unique in that it contains things that are separate from actual 
   * If `n < 0`, the *End-Game* has arrived.
 * When `n = -1` (the beginning of the *End-Game*), it is usually okay to discard, unless there is a single person who holds all the useful cards.
 * When `n` is smaller than `-1`, you should be very careful with discarding. It might still be the best thing to do, but it is usually better to *Burn* a clue (meaning to deliberately waste a clue).
+
+### Critical Discards after a Chop Move
+
+* If a player chop moves, and then the next time they discard, they discard a playable or critical card, then obviously some kind of mistake occurred.
+* The best explanation is that the chop move was never intended in the first place.
+* Thus, when this happens, the player should "undo" the chop move.
 
 <br />
 
@@ -476,7 +485,9 @@ This section is unique in that it contains things that are separate from actual 
 * There are some common special situations that do NOT imply a *1's Out of Order Chop Move*:
   * The 1 that was played was newly drawn and did NOT exist in the opening hand. (Fresh 1's always have priority.)
   * The 1 that was played was originally *Finessed* from a clue that happened BEFORE the 1's number clue.
+  * The 1 that was played had some unique positive or negative color information on it and could potentially lead into someone else's hand.
   * The 1 that was skipped over is known to be bad from contextual information, and the original 1's number clue was intended to have *Focus Inversion*. For example, if someone discards to end the *Early Game* (implying that there is nothing to do), and the next player clues two or more 1s, it means that the right-most 1 must be bad, so skipping over it does not imply anything special.
+
 
 ### The Misplay Chop Move
 
@@ -766,19 +777,39 @@ This section is unique in that it contains things that are separate from actual 
 * After the unrelated card is played, since the person who lied was in *Bluff Position*, no further cards should be promised.
 * If an unrelated card was played and the person who lied was not in *Bluff Position*, it implies a *Higher Rank Layered Finesse*.
 
-### The Lower Rank Finesse & The Lower Rank Bluff
+### The Lower Rank Prompt & The Lower Rank Finesse & The Lower Rank Bluff
 
 * When you have two playable cards in your hand, you are usually supposed to play the lower rank one. If you play the higher one, it could imply a *Higher Rank Finesse*.
-* However, playing 5's is good in that it immediately grants the team an extra clue. Furthermore, since 5's are unique, playing the 5 first may give the team flexibility to use someone else's 4 with a *Distribution Clue* later on.
-* Thus, since by default it is better to play a 5 instead of a 4, playing a 4 instead of a 5 promises the matching 5 in someone else's hand, similar to a *Higher Rank Finesse*.
+* However, playing 5's is good in that it immediately grants the team an extra clue. Furthermore, since 5's are unique, playing the 5 first may give the team flexibility to use the other copy in someone else's hand with a *Distribution Clue* later on.
+* Thus, since by default it is better to play a 5 instead of a 4/3/2/1, playing the other card promises the next card of that suit, similar to a *Higher Rank Finesse*.
 * Alternatively, it can also be a *Lower Rank Bluff* if you just want the next person to play their *Finesse Position* card.
 
-### The Right-to-Left Finesse & The Right-to-Left Bluff
+### The Right-to-Left Prompt & The Right-to-Left Finesse & The Right-to-Left Bluff
 
 * When you have two playable cards in your hand of the same rank, you are usually supposed to play the left-most one.
 * If you instead play the right-most one, it signals that something special is going on, and it promises the next card in that suit as a *Right-to-Left Finesse*.
 * Alternatively, it can also be a *Right-to-Left Bluff* if you just want the next person to play their *Finesse Position* card.
 * Note that *Right-to-Left Finesses* are contextual and do not always apply. For example, they do not apply when someone plays their right-most card that was originally clued as a *Save Clue*, since that card was explicitly saved and that the other cards in the hand of the same rank could potentially be duplicates.
+
+### Ejection
+
+* *Ejection* refers to a move like a *Finesse*, but instead of playing your *Finesse Position* card, you instead play your *Second Finesse Position* card. (For example, if your hand is completely unclued, your *Second Finesse Position* is slot 2.)
+* Certain types of "wasted" clues signal an *Ejection*.
+
+#### Dupe Ejection
+
+* If someone clues a card as a "one for one", and that card is already clued in someone else's hand, this is usually a *Distribution Clue*, which is sometimes done in the *End Game*.
+* However, if this type of move is done before the *End Game*, it must have some other purpose - it should signal an *Ejection* on the very next player.
+
+#### Known Trash Ejection
+
+* Often times, a player can have one or more cards that are known duplicates / trash. They will discard them it without being told anything further.
+* If a clue is given that ONLY touches cards that are already known trash, then it must have some other purpose - it should signal an *Ejection* on the very next player.
+
+#### Double Play Ejection
+
+* If a player knows that a card in their hand is playable, and then they recieve ANOTHER clue on that card, it is usually a *Stop Clue*, which means that the card is actually bad and they should discard it instead of playing it.
+* However, if this happens on a good card, the other players can see that the clue must have some other purpose - it should signal an *Ejection* on the very next player.
 
 <br />
 
@@ -961,12 +992,6 @@ This section is unique in that it contains things that are separate from actual 
 * But the player who is discarding is not making a mistake - they are communicating that the very next player with a "known play" should STOP what they are doing, because the card is not actually playable.
 * This is very similar to a *Stop Blind Play*, but since the player has a known play, there is no reason to use up one of the strikes when the same message can be communicated in a safer way.
 * If there is a card that could potentially be playable on on chop, then the *Long-Range Scream Discard* interpretation takes priority over the *Stop Discard* interpretation.
-
-### The Crazy 8s Save
-
-* Being at 8 clues is considered bad, since there might not be anything to do, and a player will have to waste a clue. Thus, players typically avoid discarding to send the team to 8 clues if they can avoid it.
-* However, a player might DELIBERATELY take the team to 8 clues for a special reason. As stated earlier in this document, one property of being at 8 clues is that since a player is forced to make a clue, they are allowed to save ANY card on someone's chop. Thus, your teammate can take advantage of this and save a juicy useful one-away card that is about to be discarded.
-* This kind of save is called a Crazy 8s Save, because it is "abusing" the 8 clue situation to save a card that would otherwise be impossible to touch without causing a misplay.
 
 ### The No-Information Double Finesse (for 3's)
 
@@ -1228,42 +1253,14 @@ This section is unique in that it contains things that are separate from actual 
 
 These are moves that are proposed by certain members of the group. However, they have not yet reached a consensus that they are good enough to play with by default.
 
-### Ejection
-
-* *Ejection* refers to a move like a *Finesse*, but instead of playing your *Finesse Position* card, you instead play your *Second Finesse Position* card. (For example, if your hand is completely unclued, your *Second Finesse Position* is slot 2.)
-* Certain types of "wasted" clues signal an *Ejection*.
-
-#### Dupe Ejection
-
-* If someone clues a card as a "one for one", and that card is already clued in someone else's hand, this is usually a *Distribution Clue*, which is sometimes done in the *End Game*.
-* However, if this type of move is done before the *End Game*, it must have some other purpose - it should signal an *Ejection* on the very next player.
-
-#### Known Trash Ejection
-
-* Often times, a player can have one or more cards that are known duplicates / trash. They will discard them it without being told anything further.
-* If a clue is given that ONLY touches cards that are already known trash, then it must have some other purpose - it should signal an *Ejection* on the very next player.
-
-#### Double Play Ejection
-
-* If a player knows that a card in their hand is playable, and then they recieve ANOTHER clue on that card, it is usually a *Stop Clue*, which means that the card is actually bad and they should discard it instead of playing it.
-* However, if this happens on a good card, the other players can see that the clue must have some other purpose - it should signal an *Ejection* on the very next player.
-
 ### The Dump Truck
 
-* When someone blind plays their chop, it is normally either a *Scream Blind-Play* or a *Stop Blind Play*. In other words, there was an emergency.
-* However, what if someone blind plays their chop and there was no emergency, it must be something else.
+* When someone blind plays their chop, there is usually an emergency happening and it was either a *Scream Blind-Play* or a *Stop Blind Play*.
+* However, if someone blind plays their chop and there was no emergency, it must be something else.
 * This means that one player has a fully playable hand from left to right. Like a dump truck, they are expected to unload everything onto the table.
 * Most times, all cards in the hand will be unclued. But if not, the player is still expected to play everything from left to right in order.
 * In the middle of the game, it is relatively safe to blind play your chop card, since it is known to not be a critical/playable card.
 * In the beginning of the game, it may not be safe to blind play your chop card. In this situation, you may see that multiple players have the opportunity to initiate the *Dump Truck*. Normally, it is best to let the player immediately before the blind-player do it. If they have an unsafe chop, then the 2nd player before the blind-player should do it, and so forth.
-
-### The Fuel Clue (cluing 3's or 4's on chop at the beginning of the game)
-
-* In order to initiate a *Dump Truck*, someone will have to play their chop, which usually involves a misplay.
-* However, it would be better if no misplay occurred at all. If you look into the future and see that someone will misplay their chop, then it is possible to give a "setup" clue that will "fuel" the *Dump Truck* in such a way that a playable card is played instead of something that is misplayed. 
-* Only number 3 and number 4 clues that touch chop are to be interpreted as *Fuel Clues*. Then, they know that the *Fuel Clue* was moving their chop, and their new chop is playable.
-* For example, at the beginning of the game, say a number 3's is clued to someone as a chop focus *Play Clue*. If they play their *Finesse Position* card, you know it was a *3 Bluff*. If they play their chop, you know it was a *Fuel Clue* and a *Dump Truck* was initiated.
-* *Fuel Clues* are the highest priority interpretation. In other words, if someone has a fully-playable hand, it is impossible to perform a *Self 3-Bluff*.
 
 <br />
 
@@ -1300,7 +1297,6 @@ These are moves that are proposed by certain members of the group. However, they
 | The Priority Prompt & The Priority Finesse | Libster
 | The Dupe Bluff | Duneaught
 | The Certain Finesse | Zamiel
-| The Crazy 8s Save | Hyphen-ated
 | The Negative Prompt | Zamiel and Libster
 | Weak Prompts | Hyphen-ated
 | Crazy 3 Saves & Crazy 4 Saves | Libster
@@ -1345,7 +1341,7 @@ These are moves that are proposed by certain members of the group. However, they
 | The Continuation Clue | Libster
 | The Just-In-Time Fix Clue | Zamiel
 | The Occupied Play Clue & The Occupied Finesse | Zamiel
-| The Higher Rank Prompt & The Higher Rank Finesse | Libster
+| The Higher Rank Prompt & The Higher Rank Finesse | Libster and Zamiel
 | The Higher Rank Bluff & The Higher Rank Layered Finesse | Zamiel
 | The Long-Range Scream Discard | Florrat
 | The Bad Touch Double Finesse | Sankala
@@ -1356,3 +1352,5 @@ These are moves that are proposed by certain members of the group. However, they
 | The Right-to-Left Finesse & The Right-to-Left Bluff | Libster
 | The Setup Finesse | Zamiel
 | The Stop Discard | Zamiel
+| Ejection | Razvogor & Zamiel & Sankala
+| 1's Out of Order Chop Move | Zamiel
