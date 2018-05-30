@@ -1292,7 +1292,7 @@ These are moves that are proposed by certain members of the group. However, they
 | The 9 First Principles | Duneaught
 | The Gentleman's Discard | Duneaught
 | The Layered Gentleman's Discard | Duneaught
-| The Tempo Clue Chop Moves | Zamiel
+| The Tempo Clue Chop Move | Zamiel
 | Discard Elimination & The Elimination Blind Play | Aridolomo (with revisions from Hyphen-ated and Duneaught)
 | Immediate Double Clue | Duneaught
 | The Elimination Finesse | Zamiel and Ahming
