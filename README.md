@@ -281,7 +281,7 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
   5) Re-cluing 5's to a player (a "hard burn")
 * The plus side of this strategy is that, because players should not generally double discard, you do not need to be overly worried about the same card being on two simultaneous chops.
 * Generally speaking, a weird or super low-value clue can communicate an advanced strategy like a *Finesse*. However, always pay attention to see the situation that the clue-giver is in. From their perspective, are they giving the clue to avoid a double discard? If so, then you should not read too closely into their clue.
-* From *High Value Principle*, you can know that a player in a double discard situation is NOT giving a "bad" clue if there is some other better clue available for them to give. Thus, players in double discards situations are often able to still give tricky-looking *Finesses*.
+* From *High Value Principle*, you can know that a player in a double discard situation is NOT giving a "bad" clue if there is some other better clue available for them to give. Thus, players in double discard situations are often able to still give tricky-looking *Finesses*.
 
 ### Fully Clued Hands (Locked Hands)
 
