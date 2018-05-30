@@ -765,7 +765,7 @@ This section is unique in that it contains things that are separate from actual 
 ### The Higher Rank Finesse in Dual-Color Variants
 
 * When you get a play clue on a card that could be multiple suits, you must take the average of all of the ranks and treat the card as having that rank for the purposes of performing a *Higher Rank Finesse*.
-* For example, in a 3-player Wild & Crazy game:
+* For example, in a 3-player *Wild & Crazy* game:
   * The Green 1 and Rainbow 2 are played on the stacks.
   * Mike receives a yellow *Play Clue* on slot 1.
   * This means that the card could be a Green 2, Orange 1, or Rainbow 3.
@@ -783,7 +783,7 @@ This section is unique in that it contains things that are separate from actual 
 
 * When you have two playable cards in your hand, you are usually supposed to play the lower rank one. If you play the higher one, it could imply a *Higher Rank Finesse*.
 * However, playing 5's is good in that it immediately grants the team an extra clue. Furthermore, since 5's are unique, playing the 5 first may give the team flexibility to use the other copy in someone else's hand with a *Distribution Clue* later on.
-* Thus, since by default it is better to play a 5 instead of a 4/3/2/1, playing the other card promises the next card of that suit, similar to a *Higher Rank Finesse*.
+* Thus, since by default it is better to play a 5 instead of a card of some other rank, playing the other card promises the next card of that suit, similar to a *Higher Rank Finesse*.
 * Alternatively, it can also be a *Lower Rank Bluff* if you just want the next person to play their *Finesse Position* card.
 
 ### The Right-to-Left Prompt & The Right-to-Left Finesse & The Right-to-Left Bluff
@@ -819,7 +819,8 @@ This section is unique in that it contains things that are separate from actual 
 
 ### Black 2 & Black 5 Saves
 
-* In the *Black One-of-Each* and *Wild & Crazy* variant, it is expected that you should save black 2s and black 5s with a number clue instead of a black color clue. (This helps narrow down what card is being clued.)
+* This convention applies to the *Black Suit (One-of-Each)* and *Wild & Crazy* variants.
+* Players should save black 2s and black 5s with a number clue instead of a color clue. (This helps narrow down what card is being clued.)
 * There are four exceptions to this:
   * if the black clue touched two or more brand new black cards (not Rainbow)
   * if the black clue was required to avoid violating *Good Touch Principle*
@@ -829,53 +830,60 @@ This section is unique in that it contains things that are separate from actual 
 
 ### Black 3 & Black 4 Saves
 
-* In the *Black One-of-Each* and *Wild & Crazy* variant, it is expected that you should save black 3s and black 4s with a color clue instead of a number clue. (This helps narrow down what card is being clued.)
+* This convention applies to the *Black Suit (One-of-Each)* and *Wild & Crazy* variants.
+* Players should save black 3s and black 4s with a color clue instead of a number clue. (This helps narrow down what card is being clued.)
 * There is one exception to this:
   * if the number clue also touched a critical card
 * Subsequently, if a number clue is used to touch a black 3 or a black 4 (and the above exception is not applicable), then it implies a *Finesse*.
 
 ### The Free Choice Finesse
 
-* This convention ONLY applies when playing a variant with a *Rainbow* suit or a dual-color suit.
+* This convention applies to any variant with a *Rainbow* suit or a dual-color suit.
 * When performing a *Prompt* by touching a sole rainbow card, the player doing the clue may have a free choice between multiple colors. In other words, there may exist multiple colors that will ONLY touch the rainbow card.
-* If a player has a free choice to choose the color that matches the intended prompt target but instead deliberately chooses a different color, this signals that it is a *Finesse* instead of a *Prompt*, and they should blind-play their newest.
+* If a player has a free choice to choose the color that matches the intended prompt target but instead deliberately chooses a different color, this signals that it is actually a *Finesse* instead of a *Prompt*.
 
 ### The Free Choice Bluff
 
-* This convention ONLY applies when playing a variant with a *Rainbow* suit or a dual-color suit.
+* This convention applies to any variant with a *Rainbow* suit or a dual-color suit.
 * It is possible to use the *Free Choice* convention to communicate to a teammate that you want a *Finesse* instead of a *Prompt* in order to get them to play an unrelated playable card from their *Finesse Position*.
 * Like a normal *Bluff*, after a *Free Choice Bluff*, the person who blind-played does not necessarily have the "matching" card in their hand.
 
 ### The Suboptimal Color Bluff
 
-* This convention ONLY applies when playing a variant with a *Rainbow* suit or a dual-color suit.
+* This convention applies to any variant with a *Rainbow* suit or a dual-color suit.
 * Often, when giving a color clue to a Rainbow or dual-color card, you want to pick a color that will "fill-in" ancillary cards in the hand as to give the maximum amount of information.
 * If a suboptimal color is chosen that does not fill in ancillary cards, it follows from *High Value Principle* that there must be a reason, so you should blind play your *Finesse Position* card.
 * This move is contextual in that you don't want to make it appear as if the clued card is currently unplayable. Thus, it is best performed as a *Reverse Bluff* or a *Long-Distance Bluff*.
 
 ### White Compromise
 
-* This convention only applies to the *Colorless & Rainbow Suits* and *Wild and Crazy* variants.
+* This convention applies to any variant with a white (colorless) suit.
 * When you clue a white 5 that is one away from chop, it would normally look like a *5's Chop Move*.
 * However, if white 4 is currently played, all 5 clues that could be *5's Chop Moves* are treated instead *Play Clues* on white 5.
 
 ### The Negative Prompt
 
-* This convention ONLY applies when playing the "Dual-color Suits" variant.
+* This convention applies to the *Dual-color Suits* variant.
 * In this variant, since negative color information conveys just as much information as positive color information, you should include that when deciding which card to play into a prompt.
 * For example, if you have a red card in slot 1 with no negative clues, and a red card in slot 2 with negative yellow, then normally you would play left-most if a Magenta card was prompted. But with this convention you would play slot 2.
 
 ### Crazy 3 Saves & Crazy 4 Saves
 
-* In the *Black One-of-Each* variant, it is not possible to violate *Good Touch Principle* by cluing black to save a Black 3 or a Black 4.
-* However, in the *Wild and Crazy* variant, it is possible, because there can be other useless rainbow cards in the hand.
+* This convention applies to the *Wild and Crazy* variant.
+* In this variant, it is possible to violate *Good Touch Principle* by cluing black to save a black 3 or a black 4, because there can be other useless rainbow cards in the hand.
 * Thus, for the *Wild and Crazy* variant, a second exception to the *Black 3 and Black 4 Saves* convention is added:
   * if the number clue was required to avoid violating *Good Touch Principle*
 * *Crazy 3 Saves* & *Crazy 4 Saves* do NOT apply to 5 player games; getting a perfect score is difficult and this move is too conservative.
 
+### Wild & Crazy Black 4 Bluffs
+
+* This convention applies to the *Wild and Crazy* variant.
+* The *Critical 4 Bluff* convention is deleted in this variant (since it conflicts with *Finesses* using white 4).
+* Even though the *Critical 4 Bluff* is deleted, it is still legal to use a black 4 to bluff. However, this MUST be done with color.
+
 ### Acid Trip Conventions
 
-* These conventions only apply to the *Acid Trip* variant.
+* These conventions apply to the *Acid Trip* variant.
 * Cards with color clues on them are not treated as clued cards. In other words, your chop is your right-most (oldest) card without a number clue on it.
 * Number clues mean the same thing as normal.
 * All color clues have a special meaning:
@@ -1356,3 +1364,4 @@ These are moves that are proposed by certain members of the group. However, they
 | The Stop Discard | Zamiel
 | Ejection | Razvogor & Zamiel & Sankala
 | 1's Out of Order Chop Move | Zamiel
+| Wild & Crazy Black 4 Bluffs | Zamiel and Libster
