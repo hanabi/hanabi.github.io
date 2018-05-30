@@ -310,14 +310,15 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
 * Generally speaking, a weird or low-value clue can communicate an advanced strategy like a *Finesse*. However, when there are 8 clues in the bank, it is not possible to discard - the game forces you to play a card or make a clue. But, if you don't know if any of the cards in your hand are playable, you HAVE to give a clue.
 * For this reason, do NOT read too closely into any clues given during this state - it might just be a "stall" clue because the player had no other choice.
 * Explicitly, while at 8 clues, a player can do the following "bad" clues that are also allowed while in double discard situations:
-  * Tempo clues
-  * Cluing off-chop 5s
-  * Saving 2s on chop that are present in another player's hand
-  * Filling in extra info on ambiguously saved cards that are still not playable
+  1) Tempo clues
+  2) Cluing off-chop 5s
+  3) Saving 2s on chop that are present in another player's hand
+  4) Filling in extra info on ambiguously saved cards that are still not playable
+  5) Re-cluing 5's to a player (a "hard burn")
 * Beyond this, they can also give the additional bad clues that are allowed in the "fully clued hands" situation:
-  * Saving any card on chop
+  6) Saving any card on chop (referred to as a *8 Clue Save*)
 * And beyond this, they can also give additional bad clues that are not allowed in the either two situations:
-  * Saving any card on chop or off chop (referred to as a *8 Clue Save*; all clues are saves, unless it was just drawn)
+  7) Saving any card off chop, unless it was just drawn (referred to as a *8 Clue Save*)
 * Similar to being locked, players who are at 8 clues MUST follow general clue priority. For example, a player at 8 clues cannot save an off-chop 5 if there is a normal *Play Clue* or *Save Clue* to give. (If they do, it will look like a *Play Clue* on the 5.) And a player at 8 clues cannot perform a *8 Clue Save* if there is a *Tempo Clue* to give. (If they do, it will look like a *Play Clue* on the clued chop card.) And so forth.
 
 <br />
@@ -749,6 +750,7 @@ This section is unique in that it contains things that are separate from actual 
 * When a player has a choice between two or more cards to play, if other players are waiting on one of their cards in order to play themselves, then those cards should always be prioritized.
 * However, if both cards are not being "waited on", then players are supposed to play the card with the lower number (rank) first.
 * If a player plays a higher rank card first, it implies that the next copy of that suit is in someone else's hand, similar to the *The Priority Prompt* convention. And if there are no matching clued cards, it should cause a blind play, similar to *The Priority Finesse*.
+* This convention does NOT apply if the player does not have full knowledge of what the higher rank card is. In other words, players might just be trying to potentially play into someone else's hand (with only a chance that they have a matching suit), and this does not promise anything special.
 * For example, this is NOT a *Higher Rank Finesse*:
   * Alice has a known playable red 1 and a known playable blue 2 in her hand.
   * Alice plays blue 2.
