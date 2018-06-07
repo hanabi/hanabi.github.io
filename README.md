@@ -206,13 +206,21 @@ Note that in this user interface, players are holding their hands like they woul
 ### Prompts
 
 * Imagine that you have one or more cards in your hand that have a clue on them, but their full identity is currently unknown. In this situation, you are supposed to just keep the cards in your hand, and continue to discard unclued cards.
-* If someone gives a *Play Clue* to a card that is currently unplayable, then they could be telling YOU to play a card that is already clued in your hand. This is called a *Prompt* because it is "prompting" you to play a card that you otherwise would have held on to.
+* If someone gives a *Play Clue* to a card that is currently unplayable, then they could be telling YOU to play a card that is already clued in your hand. This is called a *Prompt* because it is "prompting" you to play a card that you would have otherwise held on to.
 * For example, in a 3-player game:
   * All the 2's have been played on the stacks.
   * Alice clues a red 4 in Cathy's hand as a *Play Clue* (since it was not on chop).
   * Bob has a card in his hand with a red clue on it, but no number information.
   * Since Bob can see that the red 4 is supposed to play right now, he must have the red 3. So the unknown red card in his hand must be red 3, and he can safely play it.
-* If there are nd the prompt could apply to either of them, play the left-most. (This follows from *Left-Most Playable Principle*.)
+* If a player is *Prompted* and there are multiple cards in the hand that the *Prompt* could apply to, they should play the left-most. (This follows from *Left-Most Playable Principle*.) For example, in a 3-player game:
+  * Similar to the last example, Bob is *Prompted* for a red 3.
+  * Bob has 3 cards clued as red in slots 2, 3, and 4.
+  * Since all 3 cards are equally likely to be red 3, Bob should choose to slot 2 as red 3 since it is the left-most.
+* In multi-color variants, *Prompts* apply to the card with the most positive information. For example, in a 3-player game:
+  * Similar to the last example, Bob is *Prompted* for a red 3.
+  * In slot 1, Bob has a card with only a red clue on it.
+  * In slot 2, Bob has a card with a red clue and a 3 clue on it.
+  * Since slot 2 has more positive information, Bob should choose to play slot 2 as red 3.
 
 ### Finesses
 
@@ -720,7 +728,7 @@ This section is unique in that it contains things that are separate from actual 
 
 ### The Dupe Finesse
 
-* Imagine that in a 3 player game:
+* Imagine that in a 3-player game:
   * Nothing is played on the stacks.
   * Alice has an already-clued 2 in her hand. She has no idea what color 2 it is.
   * Alice performs a *Finesse* by giving a red color *Play Clue* to a red 2 in Cathy's hand.
@@ -734,7 +742,7 @@ This section is unique in that it contains things that are separate from actual 
 
 ### The Certain Finesse / The Certain Discard
 
-* Imagine that in a 3 player game:
+* Imagine that in a 3-player game:
   * Red 2 is played on the stacks.
   * Alice has an already-clued red card in her hand. It has a negative 4 clue on it, so from *Good Touch Principle* Alice knows that it is either red 3 or red 5.
   * Alice performs a *Reverse Finesse* by giving a red color *Play Clue* to a red 4 in Bob's hand.
@@ -914,7 +922,7 @@ This section is unique in that it contains things that are separate from actual 
 * In this variant, it is possible to violate *Good Touch Principle* by cluing black to save a black 3 or a black 4, because there can be other useless rainbow cards in the hand.
 * Thus, for the *Wild and Crazy* variant, a second exception to the *Black 3 and Black 4 Saves* convention is added:
   * if the number clue was required to avoid violating *Good Touch Principle*
-* *Crazy 3 Saves* & *Crazy 4 Saves* do NOT apply to 5 player games; getting a perfect score is difficult and this move is too conservative.
+* *Crazy 3 Saves* & *Crazy 4 Saves* do NOT apply to 5-player games; getting a perfect score is difficult and this move is too conservative.
 
 ### Wild & Crazy Black 4 Bluffs
 
@@ -1117,7 +1125,7 @@ This section is unique in that it contains things that are separate from actual 
 ### The Double Bluff
 
 * Similar to a *Double Half Bluff*, it is also possible to get 2 cards played in a row that are completely unrelated.
-* For example, in a 4 player game:
+* For example, in a 4-player game:
   * Yellow 2 is currently played in the stacks.
   * Alice clues a yellow 5 in Donald's hand with a yellow color *Play Clue*.
   * Since yellow 5 is playable right now, Bob thinks he has yellow 3 and yellow 4. Bob blind-plays his *Finesse Position* card, but it is actually a blue 1.
