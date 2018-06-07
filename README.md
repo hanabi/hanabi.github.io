@@ -184,8 +184,13 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
 ### Prompts
 
 * If someone gives a play clue to a card that is currently unplayable, then they could be telling YOU to play a card that is already clued in your hand (a card that has a clue but before now, you weren't exactly sure as to what it was). This is called a prompt because it is "prompting" you to play your card that you otherwise would have held onto for a while longer.
-* For example, if there are only 2's on the played piles and a red 4 is clued in someone else's newest slot, then it clearly isn't a save clue. So it must be a play clue. But where is the 3? It must be your unknown red card, so you can safely play it.
-* If you have two or more clued cards in your hand and the prompt could apply to either of them, play the left-most. (This follows from *Left-Most Playable Principle*.)
+* For example, in a 3-player game:
+  * There are only 2's on the played piles ASDF
+  if  and a red 4 is clued in someone else's newest slot, then it clearly isn't a save clue. So it must be a play clue. But where is the 3? It must be your unknown red card, so you can safely play it.
+* If you have two or more clued cards in your hand, the *Prompt* applies to the one with the most positive information on it.
+  * For example, in a 
+  
+  and the prompt could apply to either of them, play the left-most. (This follows from *Left-Most Playable Principle*.)
 
 ### Finesses
 
