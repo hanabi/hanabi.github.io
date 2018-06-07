@@ -34,16 +34,17 @@ This document is split up into different sections so that you can better digest 
 
 1. [Quick Links](#quick-links)
 2. [Level 0 - First Principles](#level-0---first-principles)
-3. [Level 1 - Beginner Strategies](#level-1---beginner-strategies)
-4. [Level 2 - Intermediate Strategies](#level-2---intermediate-strategies)
-5. [Level 2 - General Principles](#level-2---general-principles)
-6. [Level 3 - Advanced Strategies](#level-3---advanced-strategies)
-7. [Level 4 - Expert Strategies](#level-4---expert-strategies)
-8. [Level 3 - Variant-Specific Strategies](#level-3---variant-specific-strategies)
-9. [Level 3 - Rarely Used Advanced Strategies](#level-3---rarely-used-advanced-strategies)
-10. [Level 4 - Rarely Used Expert Strategies](#level-4---rarely-used-expert-strategies)
-11. [Non-Formalized Proposals](#non-formalized-proposals)
-12. [Convention Attribution](#convention-attribution)
+3. [Examples](#examples)
+4. [Level 1 - Beginner Strategies](#level-1---beginner-strategies)
+5. [Level 2 - Intermediate Strategies](#level-2---intermediate-strategies)
+6. [Level 2 - General Principles](#level-2---general-principles)
+7. [Level 3 - Advanced Strategies](#level-3---advanced-strategies)
+8. [Level 4 - Expert Strategies](#level-4---expert-strategies)
+9. [Level 3 - Variant-Specific Strategies](#level-3---variant-specific-strategies)
+10. [Level 3 - Rarely Used Advanced Strategies](#level-3---rarely-used-advanced-strategies)
+11. [Level 4 - Rarely Used Expert Strategies](#level-4---rarely-used-expert-strategies)
+12. [Non-Formalized Proposals](#non-formalized-proposals)
+13. [Convention Attribution](#convention-attribution)
 
 <br />
 
@@ -117,6 +118,27 @@ While there are some weird strategies that could throw you for a loop if you hav
 ### Appendix A: Basic Clue Logic:
 
 Following from these principles, this is [a basic logic flowchart](https://cdn.discordapp.com/attachments/140016142600241152/266467290101317632/Hanabi_Clue_Flowchart.png) that describes the general interpretation of a clue.
+
+<br />
+
+## Examples
+
+Throughout this document, there will be a mix of both text-based examples and graphical screenshots.
+
+In a text-based example:
+* The player who goes first will always be Alice.
+* The second player will always be Bob.
+* The third player will always be Cathy.
+* The forth player will always be Donald.
+* The fifth player will always be Emily.
+
+(This is a historial convention created by [Keldon Jones](http://keldon.net/).)
+
+A screenshot will look like the following:
+
+![Example Screenshot](img/example.png)
+
+Note that in this user interface, players are holding their hands like they would be if they were playing in real life. For example, in this screenshot, Donald's chop (right-most card) is the green 5, and Alice's chop (right-most) card is the yellow 1.
 
 <br />
 
