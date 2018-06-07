@@ -138,7 +138,7 @@ A screenshot will look like the following:
 
 ![Example Screenshot](img/example.png)
 
-Note that in this user interface, players are holding their hands like they would be if they were playing in real life. For example, in this screenshot, Donald's chop (right-most card) is the green 5, and Alice's chop (right-most) card is the yellow 1.
+Note that in this user interface, players are holding their hands like they would be if they were playing in real life. For example, in this screenshot, Donald's chop card / right-most card / slot 4 card is the green 5, and Alice's chop card / right-most card / slot 4 card is the yellow 1.
 
 <br />
 
@@ -193,11 +193,11 @@ Note that in this user interface, players are holding their hands like they woul
 * Fix clues are often needed when a duplicate card is touched. (For example, when a red 2 is clued in Player A's hand, and the other red 2 is clued in Player B's hand.) Cards are not normally duplicated (which follows from *Good Touch Principle*), but sometimes someone makes a mistake, or a sequence of particular cards makes duplicating necessary.
 * In such a situation, because of *Good Touch Principle*, one of the players with the duplicate cards may misplay it since they will assume the identity of the card to be something else. Thus, it is the team's responsibility to fix the problem and intervene before this happens.
 * **A clue cannot be a *Play Clue* and a *Fix Clue* at the same time.** If you receive a Fix Clue and it touches other ancillary cards, none of them are necessarily playable; the primary point of the clue is to fix the impending misplay.
-* Usually a fix clue will "fill in" the card to explicitly make it known that the card is unplayable or duplicated. However, it is also possible to perform a fix clue just by cluing the card again.
-  * For example, Alice clues Bob number 1 and it highlights three 1s.
+* Usually a fix clue will "fill in" the card to explicitly make it known that the card is unplayable or duplicated. However, it is also possible to perform a fix clue just by cluing the card again. For example:
+  * Alice clues Bob number 1 and it highlights three 1s.
   * Bob successfully plays two 1s.
   * Before Bob can play the 3rd 1, Alice clues Bob number 1 again, and it re-highlights the remaining one.
-  * Now it is Bob's turn. Since he was going to play the 1 already without Alice doing anything, the clue must have some other meaning. Thus, it is a fix clue: the remaining 1 is bad, and Bob can safely discard it.
+  * Now it is Bob's turn. Since he was going to play the 1 already without Alice doing anything, the clue must have some other meaning. Thus, it is a *Fix Clue*: the remaining 1 is bad, and Bob can safely discard it.
 
 <br />
 
@@ -205,14 +205,14 @@ Note that in this user interface, players are holding their hands like they woul
 
 ### Prompts
 
-* If someone gives a play clue to a card that is currently unplayable, then they could be telling YOU to play a card that is already clued in your hand (a card that has a clue but before now, you weren't exactly sure as to what it was). This is called a prompt because it is "prompting" you to play your card that you otherwise would have held onto for a while longer.
+* Imagine that you have one or more cards in your hand that have a clue on them, but their full identity is currently unknown. In this situation, you are supposed to just keep the cards in your hand, and continue to discard unclued cards.
+* If someone gives a *Play Clue* to a card that is currently unplayable, then they could be telling YOU to play a card that is already clued in your hand. This is called a *Prompt* because it is "prompting" you to play a card that you otherwise would have held on to.
 * For example, in a 3-player game:
-  * There are only 2's on the played piles ASDF
-  if  and a red 4 is clued in someone else's newest slot, then it clearly isn't a save clue. So it must be a play clue. But where is the 3? It must be your unknown red card, so you can safely play it.
-* If you have two or more clued cards in your hand, the *Prompt* applies to the one with the most positive information on it.
-  * For example, in a 
-  
-  and the prompt could apply to either of them, play the left-most. (This follows from *Left-Most Playable Principle*.)
+  * All the 2's have been played on the stacks.
+  * Alice clues a red 4 in Cathy's hand as a *Play Clue* (since it was not on chop).
+  * Bob has a card in his hand with a red clue on it, but no number information.
+  * Since Bob can see that the red 4 is supposed to play right now, he must have the red 3. So the unknown red card in his hand must be red 3, and he can safely play it.
+* If there are nd the prompt could apply to either of them, play the left-most. (This follows from *Left-Most Playable Principle*.)
 
 ### Finesses
 
@@ -462,10 +462,14 @@ This section is unique in that it contains things that are separate from actual 
 
 ### The Ambiguous Finesse
 
-* Sometimes, the person who is supposed to blind play a card into a *Finesse* is ambiguous. For example, on the first turn of a 4-player game, Player 1 clues player 4 about a Red 2. Both player 2 and player 3 have red 1 on their *Finesse Position*.
-* In this situation, player 2 would think it is a *Reverse Finesse* directed at player 3, and discard. Next, player 3 might think that player 2 made a mistake and "missed" the *Finesse*, discarding himself.
-* Here, player 3 is actually the one making the mistake. It follows from *High-Value Principle* that you should never assume that your teammates are making a mistake. If player 2 is discarding, then it means that player 3 also has the exact same copy of the card, and player 3 should immediately blind play.
-  * It is also possible that player 2 is performing a special move called a *Pass Bluff* (which is covered later on in the document).
+* Sometimes, the person who is supposed to blind play a card into a *Finesse* is ambiguous. For example, in a 4-player game:
+  * Nothing is played on the stacks.
+  * Alice clues Donald about a red 2 as a *Play clue*.
+  * Both Bob AND Cathy have red 1 on their *Finesse Position*.
+  * Bob will think that it is a *Reverse Finesse* directed at Cathy, and he will discard.
+  * Next, Cathy thinks that Bob made a mistake and "missed" the *Finesse*. Cathy discards.
+* Here, Cathy is actually the one making the mistake. It follows from *High-Value Principle* that you should never assume that your teammates are making a mistake. If Bob is discarding, then it means that Cathy also has the exact same copy of the card, and Cathy should immediately blind play.
+* From Cathy's perspective, it is also possible that Bob is performing a special move called a *Pass Bluff* (which is covered later on in the document).
 
 ### The Positional Discard (Indicating a Play with a Discard)
 
@@ -716,20 +720,30 @@ This section is unique in that it contains things that are separate from actual 
 
 ### The Dupe Finesse
 
-* Player A performs a *Finesse* by touching a card in player B's hand that could potentially be already clued in their own hand.
-* The blind play occurs, and then player B knows that they have the next card in the chain.
-  * If the card is a duplicate, player B will *Sarcastic Discard* it.
-  * If the card is not a duplicate, player B will play it as normal.
-* This move is powerful because it allows you to "fish" for information:
+* Imagine that in a 3 player game:
+  * Nothing is played on the stacks.
+  * Alice has an already-clued 2 in her hand. She has no idea what color 2 it is.
+  * Alice performs a *Finesse* by giving a red color *Play Clue* to a red 2 in Cathy's hand.
+  * Bob blind plays red 1 from his *Finesse Position*.
+  * Normally, Cathy would think that she has the next red card, which is red 2, and play it.
+  * However, what if Alice actually has the red 2? In this situation, Cathy is expected to perform a *Sacrastic Discard*.
+* Doing a *Finesse* that potentially duplicates a card in this way is called a *Dupe Finesse*. Normally, potentially duplicating a card is bad - it violates *Good Touch Principle* and could lead to a clue being wasted. However, potentially duplicating a card with the *Dupe Finesse* is not bad because:
   * In the best case, you get a "true" *Finesse* (a 2-for-1 or better).
   * In the worst case, you get a 1-for-1 and full knowledge on a clued card in your own hand that was previously a mystery.
 * Normally, if a *Sacrastic Discard* could apply to multiple cards in your hand, you assume it is the left-most card. However, in the case of a *Sacrastic Discard* initiated from a *Dupe Finesse*, it does NOT promise the order, because they HAD to put something on the fishing line that you sent out, so to speak.
 
 ### The Certain Finesse / The Certain Discard
 
-* This is the similar to the *Dupe Finesse* above, but instead of potentially duping the touched card, the blind card is potentially duplicated. Thus, the blind-playing player will blind-discard their *Finesse Position* card if it is a duplicate.
-* You are ONLY allowed to do a *Certain Discard* if you know you have not been bluffed. (This means that *Certain Finesses* can't be performed from *Bluff Position*.)
-* This convention takes priority over the *Layered Finesse*. Thus, it is impossible to perform a *Layered Finesse* on a card that could be in your own hand.
+* Imagine that in a 3 player game:
+  * Red 2 is played on the stacks.
+  * Alice has an already-clued red card in her hand. It has a negative 4 clue on it, so from *Good Touch Principle* Alice knows that it is either red 3 or red 5.
+  * Alice performs a *Reverse Finesse* by giving a red color *Play Clue* to a red 4 in Bob's hand.
+  * Bob discards.
+  * Cathy knows that she is promised the red 3 in her *Finesse Position*.
+* This is an example of a *Certain Finesse* - it is similar to the *Dupe Finesse* above, but the "blind" card was potentially duplicated instead of the clued card.
+* In this situation, if Alice really has the red 3, Cathy is allowed to blind-discard their *Finesse Position* card. This is called a *Certain Discard*, because Cathy can be certain that it is exactly red 3.
+* A separate way to explain this convention is that everyone agrees that performing a *Layered Finesse* on a card that could potentially be in your own hand is illegal. So, everyone can be certain that they can safely blind discard a card to pass it back to someone who potentially duplicated.
+* Note that players are ONLY allowed to do a *Certain Discard* if they know they have not been bluffed. (This means that *Certain Finesses* cannot be performed from *Bluff Position*.)
 * Much like a *Sacrastic Discard* from a *Dupe Finesse*, if someone performs a *Certain Discard*, it does NOT promise the order, because they HAD to put something on the fishing line that you sent out, so to speak.
 
 ### The Out-of-Order Finesse
@@ -1098,18 +1112,18 @@ This section is unique in that it contains things that are separate from actual 
   * Cathy goes next. Cathy sees that Donald does NOT have red 2 in her next newest slot, so he must have the red 2, so he blind-plays his left-most card. However, it is NOT the red 2, but the blue 1. Bob now knows he was bluffed.
   * Alice sees Bob blind play "for no reason", so she knows that she must not have the red 2 and it must have been a *Double Half Bluff*.
   * Finally, Cathy sees this sequence of events occur. Since Alice and Bob blind-played, she must have the red 3.
-* Normally, you are only allowed to *Bluff* while in *Bluff Position*. But *Double Half Bluffs* do not violate *Good Lie Principle*, and thus they are allowed.
+* Normally, you are only allowed to *Bluff* while in *Bluff Position*. But *Double Half Bluffs* do not violate *Good Lie Principle*, so we allow them.
 
 ### The Double Bluff
 
 * Similar to a *Double Half Bluff*, it is also possible to get 2 cards played in a row that are completely unrelated.
-* For example:
-  * Yellow 1 and 2 are currently played in the middle.
-  * Player 1 clues a yellow 5 in player 4's hand with a yellow color play clue.
-  * Player 2 thinks he has yellow 3 and yellow 4. They blind-play their *Finesse Position* card, but it is actually a blue 1.
-  * Player 3 sees that player 2 blind-played because of the yellow clue. However, since the yellow 5 is two away instead of 1 away, it must mean that it is a double bluff instead of a single bluff, so player 3 blind plays slot 1 and it is red 1.
-  * Player 4 knows that this yellow card must be yellow 5 because it caused 2 blind plays.
-* Normally, you are only allowed to bluff while in bluff position. But *Double Bluffs* do not violate *Good Lie Principle*, and thus they are allowed.
+* For example, in a 4 player game:
+  * Yellow 2 is currently played in the stacks.
+  * Alice clues a yellow 5 in Donald's hand with a yellow color *Play Clue*.
+  * Since yellow 5 is playable right now, Bob thinks he has yellow 3 and yellow 4. Bob blind-plays his *Finesse Position* card, but it is actually a blue 1.
+  * Cathy sees that Bob blind-played because of the yellow clue. However, since the yellow 5 is a two away card instead of one away card, it must mean that it is a *Double Bluff* instead of a single *Bluff*. Cathy blind plays her *Finesse Position* card and it is red 1.
+  * Donald knows that this yellow card must be yellow 5 because it caused 2 blind plays.
+* Normally, you are only allowed to *Bluff* while in *Bluff Position*. But *Double Bluffs* do not violate *Good Lie Principle*, so we allow them.
 
 ### The Triple Bluff / The Triple Two-Thirds Bluff
 
