@@ -428,44 +428,6 @@ This section is unique in that it contains things that are separate from actual 
 * When `n = -1` (the beginning of the *End-Game*), it is usually okay to discard, unless there is a single person who holds all the useful cards.
 * When `n` is smaller than `-1`, you should be very careful with discarding. It might still be the best thing to do, but it is usually better to *Burn* a clue (meaning to deliberately waste a clue).
 
-### Critical Discards after a Chop Move
-
-* If a player chop moves, and then the next time they discard, they discard a playable or critical card, then obviously some kind of mistake occurred.
-* The best explanation is that the chop move was never intended in the first place.
-* Thus, when this happens, the player should "undo" the chop move.
-
-### Duplication Responsibility
-
-* Usually, if a 2 needs to be saved, it is not the responsibility of a player with already-clued 2's in his hand, because they could potentially violate *Good Touch Principle* by cluing it, so they should defer and let someone else on the team do it. (The same general concept also applies to cluing playable cards on chop, for example.)
-* However, if all players have a clued 2 in their hand, then someone has to take a risk of violating *Good Touch Principle* in order to satisfy *Save Principle*. Who should do it?
-* In this situation, the player who has the least number of matching clued cards should take responsibility. If 2+ players are tied, then the player with the more specific type of clue on their card(s) should take responsibility.
-* If 2+ players have the exact same number of clued cards and type of clued cards, then either player should save the card.
-* Example 1:
-  * In a 3 player no-variant game, Alice has a blue 2 on chop that needs to be saved.
-  * Bob has 2 unknown 2's.
-  * Cathy has 1 unknown 2.
-  * Bob should let Cathy perform the save, since 1 matching card is less than 2 matching cards.
-* Example 2:
-  * In a 3 player no-variant game, Alice has a blue 2 on chop that needs to be saved.
-  * Bob has 2 unknown 2's.
-  * Cathy has 2 unknown 2s.
-  * The responsibility is shared, so Bob should perform the clue if Cathy has a good discard, or he can discard and let Cathy do it.
-* Example 3:
-  * In a 3 player no-variant game, Alice has a blue 2 on chop that needs to be saved.
-  * Bob has 2 unknown blue cards.
-  * Cathy has 1 unknown 2s.
-  * Bob should let Cathy perform the save, since 1 matching card is less than 2 matching cards.
-* Example 4:
-  * In a 3 player no-variant game, Alice has a blue 2 on chop that needs to be saved.
-  * Bob has 2 unknown blue cards. No blue cards have been played yet, so from Bob's perspective, each blue card has a 1/5 chance of being the blue 2.
-  * Cathy has 2 unknown 2s. No 2's have been played yet, so from Cathy's perspective, each 2 has a 1/5 chance of being the blue 2.
-  * The responsibility is shared, so Bob should perform the clue if Cathy has a good discard, or he can discard and let Cathy do it.
-* Example 5:
-  * In a 3 player no-variant game, Alice has a blue 2 on chop that needs to be saved.
-  * Bob has 2 unknown blue cards. No blue cards have been played yet, so from Bob's perspective, each blue card has a 1/5 chance of being the blue 2.
-  * Cathy has 2 unknown 2s. One 2 has been played already, so from Cathy's perspective, each 2 has a 1/4 chance of being the blue 2.
-  * Thus, it is Cathy's responsibility to save the blue 2.
-
 <br />
 
 ## Level 3 - Advanced Strategies
@@ -560,7 +522,6 @@ This section is unique in that it contains things that are separate from actual 
   * The 1 that was played had some unique positive or negative color information on it and could potentially lead into someone else's hand.
   * The 1 that was skipped over is known to be bad from contextual information, and the original 1's number clue was intended to have *Focus Inversion*. For example, if someone discards to end the *Early Game* (implying that there is nothing to do), and the next player clues two or more 1s, it means that the right-most 1 must be bad, so skipping over it does not imply anything special.
 
-
 ### The Misplay Chop Move
 
 * Sometimes, a desirable card is on the next person's chop and it is not directly cluable. In this situation, players can cleverly use the various kinds of chop moves in order to save the card (e.g. *1's Chop Move*, *5's Chop Move*, *Tempo Clue Chop Move*, and so forth).
@@ -627,11 +588,49 @@ This section is unique in that it contains things that are separate from actual 
 * However, if the card that initiated the prompt was ON CHOP when it was touched AND it was in danger of being discarded, the left-most rule no longer applies, since your teammate had to take drastic measures to prevent the discard of that card.
 * So instead, you are promised that you have the connecting card somewhere in your hand, but it could be any of the cards, and not strictly the left-most.
 
-### The Wrong Prompt
+### The Wrong Prompt (Mistake)
 
 * A common mistake in Hanabi is to attempt to perform a *Finesse* when there is a "matching" card in that player's hand. Since *Prompts* take precedence over *Finesses*, the player will always play their matching clued cards first.
 * When a card is *Prompted* and it misplays, everyone can read into this mistake - it was almost certainly a *Wrong Prompt*, meaning that the player who gave the clue probably intended for the *Finesse Position* card to play instead.
 * Thus, if there is nothing else special about the situation, the player who misplayed should go on to play their *Finesse Position* card on the next turn.
+
+### Critical Discards after a Chop Move (Mistake)
+
+* If a player chop moves, and then the next time they discard, they discard a critical card, then obviously some kind of mistake occurred.
+* The best explanation is that the chop move was never intended in the first place.
+* Thus, when this happens, the player should "undo" the chop move.
+
+### Duplication Responsibility
+
+* Usually, if a 2 needs to be saved, it is not the responsibility of a player with already-clued 2's in his hand, because they could potentially violate *Good Touch Principle* by cluing it, so they should defer and let someone else on the team do it. (The same general concept also applies to cluing playable cards on chop, for example.)
+* However, if all players have a clued 2 in their hand, then someone has to take a risk of violating *Good Touch Principle* in order to satisfy *Save Principle*. Who should do it?
+* In this situation, the player who has the least number of matching clued cards should take responsibility. If 2+ players are tied, then the player with the more specific type of clue on their card(s) should take responsibility.
+* If 2+ players have the exact same number of clued cards and type of clued cards, then either player should save the card.
+* Example 1:
+  * In a 3 player no-variant game, Alice has a blue 2 on chop that needs to be saved.
+  * Bob has 2 unknown 2's.
+  * Cathy has 1 unknown 2.
+  * Bob should let Cathy perform the save, since 1 matching card is less than 2 matching cards.
+* Example 2:
+  * In a 3 player no-variant game, Alice has a blue 2 on chop that needs to be saved.
+  * Bob has 2 unknown 2's.
+  * Cathy has 2 unknown 2s.
+  * The responsibility is shared, so Bob should perform the clue if Cathy has a good discard, or he can discard and let Cathy do it.
+* Example 3:
+  * In a 3 player no-variant game, Alice has a blue 2 on chop that needs to be saved.
+  * Bob has 2 unknown blue cards.
+  * Cathy has 1 unknown 2s.
+  * Bob should let Cathy perform the save, since 1 matching card is less than 2 matching cards.
+* Example 4:
+  * In a 3 player no-variant game, Alice has a blue 2 on chop that needs to be saved.
+  * Bob has 2 unknown blue cards. No blue cards have been played yet, so from Bob's perspective, each blue card has a 1/5 chance of being the blue 2.
+  * Cathy has 2 unknown 2s. No 2's have been played yet, so from Cathy's perspective, each 2 has a 1/5 chance of being the blue 2.
+  * The responsibility is shared, so Bob should perform the clue if Cathy has a good discard, or he can discard and let Cathy do it.
+* Example 5:
+  * In a 3 player no-variant game, Alice has a blue 2 on chop that needs to be saved.
+  * Bob has 2 unknown blue cards. No blue cards have been played yet, so from Bob's perspective, each blue card has a 1/5 chance of being the blue 2.
+  * Cathy has 2 unknown 2s. One 2 has been played already, so from Cathy's perspective, each 2 has a 1/4 chance of being the blue 2.
+  * Thus, it is Cathy's responsibility to save the blue 2.
 
 ### Focus Inversion
 
