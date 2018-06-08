@@ -434,6 +434,38 @@ This section is unique in that it contains things that are separate from actual 
 * The best explanation is that the chop move was never intended in the first place.
 * Thus, when this happens, the player should "undo" the chop move.
 
+### Duplication Responsibility
+
+* Usually, if a 2 needs to be saved, it is not the responsibility of a player with already-clued 2's in his hand, because they could potentially violate *Good Touch Principle* by cluing it, so they should defer and let someone else on the team do it. (The same general concept also applies to cluing playable cards on chop, for example.)
+* However, if all players have a clued 2 in their hand, then someone has to take a risk of violating *Good Touch Principle* in order to satisfy *Save Principle*. Who should do it?
+* In this situation, the player who has the least number of matching clued cards should take responsibility. If 2+ players are tied, then the player with the more specific type of clue on their card(s) should take responsibility.
+* If 2+ players have the exact same number of clued cards and type of clued cards, then either player should save the card.
+* Example 1:
+  * In a 3 player no-variant game, Alice has a blue 2 on chop that needs to be saved.
+  * Bob has 2 unknown 2's.
+  * Cathy has 1 unknown 2.
+  * Bob should let Cathy perform the save, since 1 matching card is less than 2 matching cards.
+* Example 2:
+  * In a 3 player no-variant game, Alice has a blue 2 on chop that needs to be saved.
+  * Bob has 2 unknown 2's.
+  * Cathy has 2 unknown 2s.
+  * The responsibility is shared, so Bob should perform the clue if Cathy has a good discard, or he can discard and let Cathy do it.
+* Example 3:
+  * In a 3 player no-variant game, Alice has a blue 2 on chop that needs to be saved.
+  * Bob has 2 unknown blue cards.
+  * Cathy has 1 unknown 2s.
+  * Bob should let Cathy perform the save, since 1 matching card is less than 2 matching cards.
+* Example 4:
+  * In a 3 player no-variant game, Alice has a blue 2 on chop that needs to be saved.
+  * Bob has 2 unknown blue cards. No blue cards have been played yet, so from Bob's perspective, each blue card has a 1/5 chance of being the blue 2.
+  * Cathy has 2 unknown 2s. No 2's have been played yet, so from Cathy's perspective, each 2 has a 1/5 chance of being the blue 2.
+  * The responsibility is shared, so Bob should perform the clue if Cathy has a good discard, or he can discard and let Cathy do it.
+* Example 5:
+  * In a 3 player no-variant game, Alice has a blue 2 on chop that needs to be saved.
+  * Bob has 2 unknown blue cards. No blue cards have been played yet, so from Bob's perspective, each blue card has a 1/5 chance of being the blue 2.
+  * Cathy has 2 unknown 2s. One 2 has been played already, so from Cathy's perspective, each 2 has a 1/4 chance of being the blue 2.
+  * Thus, it is Cathy's responsibility to save the blue 2.
+
 <br />
 
 ## Level 3 - Advanced Strategies
