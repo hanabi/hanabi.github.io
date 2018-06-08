@@ -924,7 +924,7 @@ This section is unique in that it contains things that are separate from actual 
   * if the number clue was required to avoid violating *Good Touch Principle*
 * *Crazy 3 Saves* & *Crazy 4 Saves* do NOT apply to 5-player games; getting a perfect score is difficult and this move is too conservative.
 
-### Wild & Crazy Black 4 Bluffs
+### Crazy Black 4 Bluffs
 
 * This convention applies to the *Wild and Crazy* variant.
 * The *Critical 4 Bluff* convention is deleted in this variant (since it conflicts with *Finesses* using white 4).
