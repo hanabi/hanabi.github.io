@@ -512,15 +512,16 @@ This section is unique in that it contains things that are separate from actual 
 * So if a *Fix Clue* is given early to you, it can be strange. You were happily discarding, and now all of a sudden you are being fixed on a card that was just sitting in your hand and was not in danger of being misplayed.
 * This usually means that your chop suddenly became important, so the *Fix Clue* was given early to give you a good discard and keep you occupied. Thus, you should permanently chop move one card.
 
-### 1's Out of Order Chop Move
+### 1's Out-of-Order Chop Move
 
 * Normally, at the beginning of the game, players are expected to play their 1s from right to left.
-* If a player does not do this, and there is nothing else special going on, it means that the next person should chop move one card.
-* There are some common special situations that do NOT imply a *1's Out of Order Chop Move*:
+* If a player skips over their rightmost 1, and there is nothing else special going on, it means that the next person should chop move one card.
+* There are some common special situations that do NOT imply a *1's Out-of-Order Chop Move*:
   * The 1 that was played was newly drawn and did NOT exist in the opening hand. (Fresh 1's always have priority.)
   * The 1 that was played was originally *Finessed* from a clue that happened BEFORE the 1's number clue.
   * The 1 that was played had some unique positive or negative color information on it and could potentially lead into someone else's hand.
   * The 1 that was skipped over is known to be bad from contextual information, and the original 1's number clue was intended to have *Focus Inversion*. For example, if someone discards to end the *Early Game* (implying that there is nothing to do), and the next player clues two or more 1s, it means that the right-most 1 must be bad, so skipping over it does not imply anything special.
+* Note that if a player has three or more 1's and they want to perform this move, then they should skip over the right-most 1 and play the second right-most 1. Otherwise it will be interpretted as the *Skipped 1's Out-of-Order Chop Move*.
 
 ### The Misplay Chop Move
 
@@ -785,6 +786,16 @@ This section is unique in that it contains things that are separate from actual 
 * Note that players are ONLY allowed to do a *Certain Discard* if they know they have not been bluffed. (This means that *Certain Finesses* cannot be performed from *Bluff Position*.)
 * Much like a *Sacrastic Discard* from a *Dupe Finesse*, if someone performs a *Certain Discard*, it does NOT promise the order, because they HAD to put something on the fishing line that you sent out, so to speak.
 
+### The Certain Discard Duplication Promise
+
+* As the recipient of a *Finesse*, you are promised a card that you have to blind play. However, as long as it is not a *Certain Finesse*, you HAVE to account for the possibility of a *Layered Finesse*. This means that you can never blind-discard the promised card to perform a *Gentleman's Discard*, for example.
+* After the *Finesse* has occurred, but before the promised card has been blind played, there is a window where a teammate might find strategic value in duplicating the promised card in someone else's hand.
+* Unless the duplication was a last-resort, if the teammate duplicates the blind card, it PROMISES that the duplicated card is on *Finesse Position* (and there is NO *Layered Finesse*), which allows the recipient of the *Finesse* to blind-discard that card, similar to a *Certain Discard*.
+* Note that as long as the duplication clue touches two or more cards, the *Certain Discard Duplication Promise* interpretation takes priority over the *Dupe Ejection* interpretation.
+* Examples:
+  * Game #6817, turn 15
+  * Game #6799, turn 5
+
 ### The Out-of-Order Finesse
 
 * Sometimes, a *Finesse* is invoked by giving a color clue to two or more cards where the next card in the sequence is clued, but it is NOT the focus of the clue.
@@ -831,6 +842,8 @@ This section is unique in that it contains things that are separate from actual 
 * However, if both cards are not being "waited on", then players are supposed to play the card with the lower number (rank) first.
 * If a player plays a higher rank card first, it implies that the next copy of that suit is in someone else's hand, similar to the *The Priority Prompt* convention. And if there are no matching clued cards, it should cause a blind play, similar to *The Priority Finesse*.
 * This convention does NOT apply if the player does not have full knowledge of what the higher rank card is. In other words, players might just be trying to potentially play into someone else's hand (with only a chance that they have a matching suit), and this does not promise anything special.
+* This convention does NOT apply if one of the cards is a "blind" card. Blind cards should take priority so that *Ambiguous Finesses* can resolve faster.
+  * Note that unclued cards from *Gentleman's Discards* which are known to be non-layered do not count as "blind" cards.
 * For example, this is NOT a *Higher Rank Finesse*:
   * Alice has a known playable red 1 and a known playable blue 2 in her hand.
   * Alice plays blue 2.
@@ -1443,5 +1456,10 @@ These are moves that are proposed by certain members of the group. However, they
 | The Setup Finesse | Zamiel
 | The Stop Discard | Zamiel
 | Ejection | Razvogor & Zamiel & Sankala
-| 1's Out of Order Chop Move | Zamiel
+| 1's Out-of-Order Chop Move | Zamiel
 | Wild & Crazy Black 4 Bluffs | Zamiel and Libster
+| Duplication Responsibility | Zamiel
+| Certain Discard Duplication Promise | Zamiel and Libster
+| Suboptimal Trash Bluff Chop Move | Libster
+| Skipped 1's Out of Order Chop Move | Zamiel
+| Delayed 1's Out of Order Chop Move | Zamiel
