@@ -833,11 +833,12 @@ This section is unique in that it contains things that are separate from actual 
 * This concept can also be generalized to all *Finesses* that have a *Lie Component* - even after a *Fix Clue*, you should assume that all of the cards are playable.
 * There are exceptions to this rule. For example, if a huge *Finesse* happens that gets five cards blind-played and then you get a *Fix Clue* at the very end, the normal logic doens't apply: you can reason that your teammates would have wanted to perform a lie in order to get a huge Finesse, so it was worth it even if the final card from the *Fix Clue* was not necessarily playable.
 
-### The Early 5's Chop Move
+### The Early 5's Play Clue & The Early 5's Chop Move
 
 * In the *Early Game*, since you are allowed to stall by cluing off-chop 5's, it is generally impossible to perform the *5's Chop Move*.
 * However, players are not generally supposed to stall until all of the "normal" *Play Clues* and *Save Clues* have been given.
-* Thus, if you receive a clue that looks like a *5's Chop Move* in the *Early Game* and you can see that the player had a good non-stall clue to give, then it IS a chop move after all.
+* Thus, if you receive a number 5 clue that looks like a stall in the *Early Game* and you can see that the player had a good non-stall clue to give, then it is actually a *Play Clue* on the 5.
+* Alternatively, if the 5 is one away from chop, then it turns into a *5's Chop Move*.
 
 ### The Priority Prompt & The Priority Finesse
 
@@ -1324,6 +1325,7 @@ This section is unique in that it contains things that are separate from actual 
 * However, sometimes there IS a way to "cleanly" touch the next person's *Finesse Position* card, but the positive/negative information on the rest of the hand would be useless. In these types of situations, the *Trash Bluff* is used to stall out the discard of a potentially useful card in the clue receiver's hand.
 * And other times, there IS a way to "cleanly" touch the next person's *Finesse Position* card, and it would be a "free" touch on a useful ancillary card. Or, the positive/negative information on the rest of the hand would be very useful - it would "fill in" a mystery card, or make a mystery card playable.
 * In this third situation, if a *Trash Bluff* is STILL used, then it follows from *High Value Principle* that it should *Chop Move* the clue receiver in addition to getting the blind play. (It should only chop move one card.)
+* *Suboptimal Trash Bluff Chop Moves* are tricky in that they have information asymmetry: the person who blind-plays will NOT know that the card is chop moved, while everyone else will. All players will have to keep this in mind until the chop move has been demonstrated.
 
 ### The Dupe Bluff
 
