@@ -521,7 +521,7 @@ This section is unique in that it contains things that are separate from actual 
   * The 1 that was played was originally *Finessed* from a clue that happened BEFORE the 1's number clue.
   * The 1 that was played had some unique positive or negative color information on it and could potentially lead into someone else's hand.
   * The 1 that was skipped over is known to be bad from contextual information, and the original 1's number clue was intended to have *Focus Inversion*. For example, if someone discards to end the *Early Game* (implying that there is nothing to do), and the next player clues two or more 1s, it means that the right-most 1 must be bad, so skipping over it does not imply anything special.
-* Note that if a player has three or more 1's and they want to perform this move, then they should skip over the right-most 1 and play the second right-most 1. Otherwise it will be interpreted as the *Skipped 1's Out-of-Order Chop Move*.
+* Note that if a player has three or more 1's and they want to perform this move, then they should play the second right-most 1. Otherwise it will be interpreted as the *Skipped 1's Out-of-Order Chop Move*.
 
 ### Skipped 1's Out-of-Order Chop Move
 
