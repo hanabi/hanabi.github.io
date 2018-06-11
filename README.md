@@ -1317,6 +1317,13 @@ This section is unique in that it contains things that are separate from actual 
 * When saving a critical card, players will generally choose either color or number in order to best satisfy *Good Touch Principle*. Or, in situations where either color or number will satisfy *Good Touch Principle*, they will choose the clue that touches the maximum amount of useful ancillary cards (in order to get a "2 for 1" or "3 for 1" instead of a "1 for 1").
 * When a player does NOT do this, it very strange. From *High Value Principle*, it implies it is a *Play Clue* instead of a *Save Clue*, so it is either a *Prompt* or a *Finesse* on the critical card being saved.
 
+### The Suboptimal Trash Bluff Chop Move
+
+* The *Trash Bluff* is often done as a last resort - there was no other way to touch the next person's *Finesse Position* card without violating *Good Touch Principle*.
+* However, sometimes there IS a way to "cleanly" touch the next person's *Finesse Position* card, but the positive/negative information on the rest of the hand would be useless. In these types of situations, the *Trash Bluff* is used to stall out the discard of a potentially useful card in the clue receiver's hand.
+* And other times, there IS a way to "cleanly" touch the next person's *Finesse Position* card, and it would be a "free" touch on a useful ancillary card. Or, the positive/negative information on the rest of the hand would be very useful - it would "fill in" a mystery card, or make an mystery card playable.
+* In this third situation, if a *Trash Bluff* is STILL used, then it follows from *High Value Principle* that it should *Chop Move* the clue receiver in addition to getting the blind play. (It should only chop move one card.)
+
 ### The Dupe Bluff
 
 * This is where you perform a *Bluff* such that the card that is blind played is already touched in someone else's hand AND the player who has the other copy has full knowledge of the card.
