@@ -525,14 +525,15 @@ This section is unique in that it contains things that are separate from actual 
 
 ### Skipped 1's Out-of-Order Chop Move
 
-* In the *1's Out-of-Order Chop Move*, a player is supposed to only skip over one 1.
-* If nothing special is going on and a player skips over two 1s, then they must be trying to communicate something extra.
-* This means that the player should chop move the card NEXT to their chop. (Or, in other words, the card that would be on their chop if they discarded once.)
+* In the *1's Out-of-Order Chop Move*, a player is supposed to skip over one 1.
+* If nothing special is going on and a player skips over TWO 1s, then they must be trying to communicate something extra.
+* This means that the next player should chop move the card NEXT to their chop. (Or, in other words, the card that would be on their chop if they discarded once.) Their current chop is NOT chop moved.
 
 ### Delayed 1's Out-of-Order Chop Move
 
-* If a player has three or more 1's in their hand, they have the potential to do a 1's Out-of-Order Chop Move when playing the first 1.
-* If a player does NOT do this, but then does it when playing the 2nd one, AND the next player's chop has not changed, it is quite strange. This should mean that the next player should chop move the card NEXT to their chop. (Or, in other words, the card that would be on their chop if they discarded once.)
+* If a player has three or more 1's in their hand, they have the potential to do a *1's Out-of-Order Chop Move* when playing the first 1.
+* If a player does NOT do this, but then does it when playing the 2nd one, AND the next player's chop has not changed, it is quite strange, and they must be trying to communicate something extra.
+* This means that the next player should chop move the card NEXT to their chop. (Or, in other words, the card that would be on their chop if they discarded once.) Their current chop is NOT chop moved.
 
 ### The Misplay Chop Move
 
