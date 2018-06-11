@@ -390,7 +390,7 @@ This section is unique in that it contains things that are separate from actual 
 * In general, 3's are pretty high value, and 4's are pretty low value.
 * But combined with this, cards that are one-away are pretty high value, and cards that are two-away (or more) are pretty low value.
 * Thus, in some situations, a one-away 4 may be more valuable than a two-away 3.
-* According to our conventions, it is illegal to clue a one-away card directly without it being some kind of special move like a *Finesse* or *Bluff*. However, sometimes we still want to "save" these cards. Thus, they are prime targets for indirect saves like the *5's Chop Move* or the *Trash Chop Move*.
+* According to our conventions, it is illegal to clue a one-away card directly without it being some kind of special move like a *Finesse* or *Bluff*. However, sometimes we still want to "save" these cards. Thus, they are prime targets for indirect saves like the *5's Chop Move* or the *1's Chop Move*.
 * However, in most cases, *Chop Moving* the valuable card just won't be possible. So in general, you should try to construct lines that protect high-value cards for as long as possible.
 
 ### All 4's Test
@@ -488,6 +488,12 @@ This section is unique in that it contains things that are separate from actual 
 
 * The *1s Chop Move* is listed above as an intermediate strategy, but in truth it is just a specific form of the more general *Trash Chop Move*, in which you clue a card that is known useless in order to tell someone that their chop is unsafe.
 * This move is most commonly done with a number 1 clue because it is likely that in the middle of a game, all of the 1s will be already played. But it could also be done with a number two 2 clue if all the 2s are already played / accounted for. Or, it could be done with a yellow clue if all of the yellow cards are already played / accounted for. And so forth.
+
+### A Trash Flowchart
+
+Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash Chop Move* listed above is one common reason to intentionally clue trash. However, there are other reasons to clue trash that are detailed later on in the document.
+
+[Here is a handy flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/cluing_trash_flowchart.png) for determining the difference between the different types of special moves that touch trash.
 
 ### The Tempo Clue Chop Move
 
