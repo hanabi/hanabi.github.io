@@ -1322,7 +1322,7 @@ This section is unique in that it contains things that are separate from actual 
 
 * The *Trash Bluff* is often done as a last resort - there was no other way to touch the next person's *Finesse Position* card without violating *Good Touch Principle*.
 * However, sometimes there IS a way to "cleanly" touch the next person's *Finesse Position* card, but the positive/negative information on the rest of the hand would be useless. In these types of situations, the *Trash Bluff* is used to stall out the discard of a potentially useful card in the clue receiver's hand.
-* And other times, there IS a way to "cleanly" touch the next person's *Finesse Position* card, and it would be a "free" touch on a useful ancillary card. Or, the positive/negative information on the rest of the hand would be very useful - it would "fill in" a mystery card, or make an mystery card playable.
+* And other times, there IS a way to "cleanly" touch the next person's *Finesse Position* card, and it would be a "free" touch on a useful ancillary card. Or, the positive/negative information on the rest of the hand would be very useful - it would "fill in" a mystery card, or make a mystery card playable.
 * In this third situation, if a *Trash Bluff* is STILL used, then it follows from *High Value Principle* that it should *Chop Move* the clue receiver in addition to getting the blind play. (It should only chop move one card.)
 
 ### The Dupe Bluff
