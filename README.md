@@ -521,7 +521,18 @@ This section is unique in that it contains things that are separate from actual 
   * The 1 that was played was originally *Finessed* from a clue that happened BEFORE the 1's number clue.
   * The 1 that was played had some unique positive or negative color information on it and could potentially lead into someone else's hand.
   * The 1 that was skipped over is known to be bad from contextual information, and the original 1's number clue was intended to have *Focus Inversion*. For example, if someone discards to end the *Early Game* (implying that there is nothing to do), and the next player clues two or more 1s, it means that the right-most 1 must be bad, so skipping over it does not imply anything special.
-* Note that if a player has three or more 1's and they want to perform this move, then they should skip over the right-most 1 and play the second right-most 1. Otherwise it will be interpretted as the *Skipped 1's Out-of-Order Chop Move*.
+* Note that if a player has three or more 1's and they want to perform this move, then they should skip over the right-most 1 and play the second right-most 1. Otherwise it will be interpreted as the *Skipped 1's Out-of-Order Chop Move*.
+
+### Skipped 1's Out-of-Order Chop Move
+
+* In the *1's Out-of-Order Chop Move*, a player is supposed to only skip over one 1.
+* If nothing special is going on and a player skips over two 1s, then they must be trying to communicate something extra.
+* This means that the player should chop move the card NEXT to their chop. (Or, in other words, the card that would be on their chop if they discarded once.)
+
+### Delayed 1's Out-of-Order Chop Move
+
+* If a player has three or more 1's in their hand, they have the potential to do a 1's Out-of-Order Chop Move when playing the first 1.
+* If a player does NOT do this, but then does it when playing the 2nd one, AND the next player's chop has not changed, it is quite strange. This should mean that the next player should chop move the card NEXT to their chop. (Or, in other words, the card that would be on their chop if they discarded once.)
 
 ### The Misplay Chop Move
 
