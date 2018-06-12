@@ -521,19 +521,20 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
 ### 1's Out-of-Order Chop Move
 
 * Normally, at the beginning of the game, players are expected to play their 1s from right to left.
-* If a player skips over their rightmost 1, and there is nothing else special going on, it means that the next person should chop move one card.
+* If a player skips over their right-most 1, and there is nothing else special going on, it means that the next person should chop move one card.
+* If they skip over TWO of their right-most 1s, it means that the next person should chop move the card next to their chop.
+* A skip of three 1s means a chop move shift of 2, and so forth.
+* For example, in a 3-player game:
+  * It is the first turn of the game.
+  * Alice clues Bob number 1, which highlights three 1's. They are in slots 1, 2, and 3.
+  * Bob is expected to play slot 3 (which is the oldest 1). If he plays slot 3, nothing special happens.
+  * If Bob plays slot 2, he is performing a *1's Out-of-Order Chop Move*, and Cathy should chop move one card (her slot 4).
+  * If Bob plays slot 1, he is performing a *Skipped 1's Out-of-Order-Chop Move*, and Cathy should chop move the card next to her chop (her slot 3).
 * There are some common special situations that do NOT imply a *1's Out-of-Order Chop Move*:
   * The 1 that was played was newly drawn and did NOT exist in the opening hand. (Fresh 1's always have priority.)
   * The 1 that was played was originally *Finessed* from a clue that happened BEFORE the 1's number clue.
   * The 1 that was played had some unique positive or negative color information on it and could potentially lead into someone else's hand.
   * The 1 that was skipped over is known to be bad from contextual information, and the original 1's number clue was intended to have *Focus Inversion*. For example, if someone discards to end the *Early Game* (implying that there is nothing to do), and the next player clues two or more 1s, it means that the right-most 1 must be bad, so skipping over it does not imply anything special.
-* Note that if a player has three or more 1's and they want to perform this move, then they should play the second right-most 1. Otherwise it will be interpreted as the *Skipped 1's Out-of-Order Chop Move*.
-
-### Skipped 1's Out-of-Order Chop Move
-
-* In the *1's Out-of-Order Chop Move*, a player is supposed to skip over one 1.
-* If nothing special is going on and a player skips over TWO 1s, then they must be trying to communicate something extra.
-* This means that the next player should chop move the card NEXT to their chop. (Or, in other words, the card that would be on their chop if they discarded once.) Their current chop is NOT chop moved.
 
 ### The Misplay Chop Move
 
