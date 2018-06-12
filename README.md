@@ -1326,6 +1326,12 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
 * And other times, there IS a way to "cleanly" touch the next person's *Finesse Position* card, and it would be a "free" touch on a useful ancillary card. Or, the positive/negative information on the rest of the hand would be very useful - it would "fill in" a mystery card, or make a mystery card playable.
 * In this third situation, if a *Trash Bluff* is STILL used, then it follows from *High Value Principle* that it should *Chop Move* the clue receiver in addition to getting the blind play. (It should only chop move one card.)
 * *Suboptimal Trash Bluff Chop Moves* are tricky in that they have information asymmetry: the person who blind-plays will NOT know that the card is chop moved, while everyone else will. All players will have to keep this in mind until the chop move has been demonstrated.
+* An alternate form of the *Suboptimal Trash Bluff* exists where the suboptimality is NOT in the clue recievers hand but in someone else's hand. For example, in a 4-player game:
+  * Blue 1 and red 4 are played on the stacks.
+  * It is Alice's turn. Bob has blue 2 in his *Finesse Position*. It is possible for Alice to *Finesse* blue 2 by cluing blue 3 in Cathy's hand. This would be a 2-for-1 clue.
+  * Instead, Alice clues reds to Donald, which highlights a red 1. This is a *Trash Bluff* because it makes Bob think he has red 5, but he instead blind-plays blue 2. This is a 1-for-1 clue.
+  * Donald knows that since Alice did a 1-for-1 instead of a 2-for-1, he should chop move.
+  * Cathy does not know that Donald will chop move until he demonstrates it or until the blue 3 in her hand is directly clued.
 
 ### The Dupe Bluff
 
