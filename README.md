@@ -528,8 +528,8 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
   * It is the first turn of the game.
   * Alice clues Bob number 1, which highlights three 1's. They are in slots 1, 2, and 3.
   * Bob is expected to play slot 3 (which is the oldest 1). If he plays slot 3, nothing special happens.
-  * If Bob plays slot 2, he is performing a *1's Out-of-Order Chop Move*, and Cathy should chop move one card (her slot 4).
-  * If Bob plays slot 1, he is performing a *Skipped 1's Out-of-Order-Chop Move*, and Cathy should chop move the card next to her chop (her slot 3).
+  * If Bob plays slot 2, he is performing a *1's Out-of-Order Chop Move*, and Cathy should chop move one card (her slot 5).
+  * If Bob plays slot 1, he is performing a *Skipped 1's Out-of-Order-Chop Move*, and Cathy should chop move the card next to her chop (her slot 4).
 * There are some common special situations that do NOT imply a *1's Out-of-Order Chop Move*:
   * The 1 that was played was newly drawn and did NOT exist in the opening hand. (Fresh 1's always have priority.)
   * The 1 that was played was originally *Finessed* from a clue that happened BEFORE the 1's number clue.
