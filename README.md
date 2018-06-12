@@ -580,6 +580,14 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
 
 * If there are only 2 cards left in your hand with *Elimination Notes* on them AND the players before you let your chop card ride AND the players before you weren't busy, then the playable card cannot be on your chop.
 * This means you can "jump ahead" and immediately blind play the newest of the 2 cards with the note.
+* For example, in a 3-player game:
+  * Red 1 has been played on the red stack.
+  * Alice discards red 2.
+  * Alice knows that her teammates would not have let the only copy of red 2 be discarded, so she must have the OTHER copy of red 2 in her hand.
+  * Alice has no cards clued in her hand, so she writes *Elimination Notes* on slots 2, 3, 4, and 5.
+  * Alice recieves no clues on the next go-around of the table. She discards, and now has *Elimination Notes* on slots 3, 4, and 5.
+  * Alice recieves no clues on the next go-around of the table. She discards, and now has *Elimination Notes* on slots 4, and 5.
+  * Alice recieves no clues on the next go-around of the table. Her teammates would not let the other copy of red 2 be discarded, so it must be on slot 4. Alice blind plays red 2 from slot 4.
 
 ### The Elimination Self-Chop Move
 
