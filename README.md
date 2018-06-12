@@ -535,12 +535,6 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
 * If nothing special is going on and a player skips over TWO 1s, then they must be trying to communicate something extra.
 * This means that the next player should chop move the card NEXT to their chop. (Or, in other words, the card that would be on their chop if they discarded once.) Their current chop is NOT chop moved.
 
-### Delayed 1's Out-of-Order Chop Move
-
-* If a player has three or more 1's in their hand, they have the potential to do a *1's Out-of-Order Chop Move* when playing the first 1.
-* If a player does NOT do this, but then does it when playing the 2nd one, AND the next player's chop has not changed, it is quite strange, and they must be trying to communicate something extra.
-* This means that the next player should chop move the card NEXT to their chop. (Or, in other words, the card that would be on their chop if they discarded once.) Their current chop is NOT chop moved.
-
 ### The Misplay Chop Move
 
 * Sometimes, a desirable card is on the next person's chop and it is not directly cluable. In this situation, players can cleverly use the various kinds of chop moves in order to save the card (e.g. *1's Chop Move*, *5's Chop Move*, *Tempo Clue Chop Move*, and so forth).
