@@ -852,12 +852,16 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
 
 ### The Priority Prompt & The Priority Finesse
 
-* When a player has a choice between two playable cards to play, they always choose the card that leads towards someone else's hand. So, when a player does not do this, it is very strange.
+* When a player has a choice between two playable cards to play, they should always choose the card that leads towards someone else's hand. So, when a player does not do this, it is very strange.
 * In this situation, if you see a player choose not to play a card in this way AND it deliberately loses tempo, they are playing towards a card that is already clued in your hand. This is similar to a *Prompt*, except instead of initiating it with a clue, they initiate it with the order that they played cards.
 * If you do not have any clued cards in your hand that matches the card that they played, then you you should play your *Finesse Position* card as a *Priority Finesse*.
 * Note that for this to work, the player choosing priority must have full knowledge of the two cards that they are prioritizing.
 * Similar to a normal *Prompt*, if you have two or more clued cards that it could apply to, then you should play the left-most one.
 * Similar to a normal *Prompt*, if you have two or more clued cards and the left-most one was not the matching card, then you should continuing playing clued cards until you find the matching card.
+
+### A Priority Flowchart (For Choosing Between 2+ Playable Cards)
+
+Beyond the *Priority Prompt* / *Priority Finesse*, there are other situations where players that have two or more playable cards can communicate that something special is happening by playing an unexpected card. These specific conventions are listed below. But, in general, what is expected and which cards should have priority? [Here is a handy flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/priority_flowchart.png) that shows, in general, which card should be played when there is a choice between two cards.
 
 ### The Higher Rank Prompt & The Higher Rank Finesse
 
