@@ -166,7 +166,7 @@ Note that in this user interface, players are holding their hands like they woul
 * If you need to clue a single 1, it is better to do it with a color clue than a number clue. This is because it allows them to potentially clue other 1s on the board.
 * If one or more 1s in your hand are clued, you should assume that they are ALL playable. (This ONLY applies to 1s, and follows from *Good Touch Principle*.)
 * Playing 1s at the beginning of the game is a special case - you should always play your 1s from oldest to newest.
-* Also freshly drawn 1s should always play over the starting hand's 1s.
+* Also note that freshly drawn 1s should be played before any 1s that were present in the starting hand. (The freshly drawn 1s are least likely to be duplicates.)
 
 ### Saving 5s on Chop
 
