@@ -1044,14 +1044,18 @@ Beyond the *Priority Prompt* / *Priority Finesse*, there are other situations wh
   * give play clues
   * give save clues to cards that are on chop
   * clue off-chop 5s
-* Thus, in the *Early Game*, if someone jumps ahead and ignores all of the *Play Clues* and *Save Clues* on the board to clue an off-chop 5, this is very strange, and would usually communicate an advanced strategy like a *Finesse*.
+* Thus, in the *Early Game*, if someone jumps ahead and ignores all of the *Play Clues* and *Save Clues* on the board to number-clue an off-chop 5, this is very strange, and would usually communicate an advanced strategy like a *Finesse*.
 * However, if by cluing the 5, it moved that player's *Finesse Position* card to a playable card, then the point of the 5's clue may have been to set up a *Finesse* or *Bluff* of some kind.
 * Subsequently, if you see that an off-chop 5's clue allowed a *Finesse* or *Bluff* to occur, then you should not read very strongly into the original 5's clue.
+* Note that rarely, *Setup Clues* can also be given to 5's in the middle of the hand that don't modify the *Finesse Position*. The point of this is to allow valid *Layered Finesses* to occur that "skip" over the 5.
 
 ### The Setup Finesse
 
-* In the *Early Game*, it is common to clue a 5 on slot 1 as a *Setup Clue*. This is usually followed up by a *Finesse* or *Bluff* on the new *Finesse Position* (slot 2).
+* In the *Early Game*, it is common to number-clue a 5 on slot 1 as a *Setup Clue*. This is usually followed up by a *Finesse* or *Bluff* on the new *Finesse Position* (slot 2).
 * However, if the *Setup Clue* is never followed up, the player who received the *Setup Clue* should blind-play their new *Finesse Position* card.
+* One problem with the *Setup Finesse* is that sometimes, in the *Early Game*, people clue on off-chop 5s as a "stall" clue. And sometimes, they clue an off chop 5s as a *Setup Finesse*. How can everyone tell the difference?
+* The way to tell the difference is the "2 Thing Rule", which states that it is a *Setup Finesse* if there are at least 2 other things to do that are better than cluing an off-chop 5 (from the perspective of the player blind-playing into the *Setup Finesse*).
+* Players should keep in mind the "2 Thing Rule" is tricky in that it has information asymmetry: if there are ONLY 2 things to do in 2 separate hands, then those 2 players will NOT know that a *Setup Finesse* has occurred. All players will have to keep this in mind until the *Setup Finesse* has been demonstrated.
 
 ### Cluing Off-Chop 2s
 
@@ -1359,9 +1363,9 @@ Beyond the *Priority Prompt* / *Priority Finesse*, there are other situations wh
 
 ### The Speed-up Clue
 
-* The *Layered Finesse* convention (and its derivatives) are very efficient (in terms of "X for 1"). However, sometimes it can be very slow (low tempo), as players will have to allow for all possible *Reverse Finesses* before playing anything. This is generally not a problem in 3-player games, but tempo is extremely important in 5-player games, 
+* The *Layered Finesse* convention (and its derivatives) are very efficient (in terms of "X for 1"). However, sometimes it can be very slow (low tempo), as players will have to allow for all possible *Reverse Finesses* before playing anything. This is generally not a problem in 3-player games, but tempo is important in 5-player games.
 * Normally, when the *Finesse Target* (the card that is to be blind-played) is clued directly, it is a mistake due to someone not paying close enough attention. We refer to this as *Stomping on a Finesse*.
-* However, if high tempo is needed, a player can consider intentionally *Stomp* on a *Layered Finesse* in order to "speed up" the play of a specific card that leads into other players hands.
+* However, if high tempo is needed, a player can consider intentionally *Stomping* on a *Layered Finesse* in order to "speed up" the play of a specific card that leads into other players hands.
 * One complicating factor of the *Speed-up Clue* is how to differentiate it from a more-ordinary *Fix Clue*. In other words, after the clued card is played, on their next turn, should the player go back and blind-play the other cards? If it was a *Speed-up Clue*, they should. If it was a *Fix Clue*, they should not.
 * The key lies in the context of the clue:
   * Would another player have tried to blind play something before the potential *Fix Clue* was given? If yes, then it is not a *Fix Clue*, and it is a *Speed-up Clue*.
