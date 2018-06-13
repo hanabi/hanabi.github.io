@@ -1490,7 +1490,7 @@ These are moves that are proposed by certain members of the group. However, they
 | The Fuel Clue | Ahming
 | The Lower Rank Finesse & The Lower Rank Bluff | Libster
 | The Right-to-Left Finesse & The Right-to-Left Bluff | Libster
-| The Setup Finesse | Zamiel
+| The Setup Finesse | Zamiel and RaKXeR
 | The Stop Discard | Zamiel
 | Ejection | Razvogor & Zamiel & Sankala
 | 1's Out-of-Order Chop Move | Zamiel
@@ -1498,5 +1498,3 @@ These are moves that are proposed by certain members of the group. However, they
 | Duplication Responsibility | Zamiel
 | Certain Discard Duplication Promise | Zamiel and Libster
 | Suboptimal Trash Bluff Chop Move | Libster
-| Skipped 1's Out of Order Chop Move | Zamiel
-| Delayed 1's Out of Order Chop Move | Zamiel
