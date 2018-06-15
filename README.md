@@ -213,7 +213,7 @@ Note that in this user interface, players are holding their hands like they woul
   * Alice clues a red 4 in Cathy's hand as a *Play Clue* (since it was not on chop).
   * Bob has a card in his hand with a red clue on it, but no number information.
   * Since Bob can see that the red 4 is supposed to play right now, he must have the red 3. So the unknown red card in his hand must be red 3, and he can safely play it.
-* If a player is *Prompted* and there are multiple cards in the hand that the *Prompt* could apply to, they should play the left-most. (This follows from *Left-Most Playable Principle*.) For example, in a 3-player game:
+* If a player is *Prompted* and there are multiple cards in the hand that the *Prompt* could apply to, they should play the left-most. (This follows from *Left-Most Playable Principle*.) For example, in a 3-player Rainbow game:
   * Similar to the last example, Bob is *Prompted* for a red 3.
   * Bob has 3 cards clued as red in slots 2, 3, and 4.
   * Since all 3 cards are equally likely to be red 3, Bob should choose to slot 2 as red 3 since it is the left-most.
