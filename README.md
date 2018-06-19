@@ -1082,6 +1082,14 @@ Beyond the *Priority Prompt* / *Priority Finesse*, there are other situations wh
   * If one of the cards includes the chop card, it means to play all of the cards from 2nd oldest to newest, and then the chop last.
 * If you are re-clued about a bunch of cards after you have already taken a turn, see the *Double Tempo Clue* convention.
 
+### Out-of-Order Trash Discard Chop Move
+
+* Sometimes, a player will have two known trash cards in their hand (and these cards are explicitly known trash, meaning that everyone on the team can equally see that they are known trash).
+* In this situation, the player is expected to discard the oldest (right-most) trash card, just in case someone made a mistake. (The older card is more likely to be truly trash.)
+* Thus, if a player skips over their oldest card and instead discards the other one, they must be trying to communicate something extra.
+* This means that the next player should chop move, which is similar to the *1's Out-of-Order Chop Move*.
+* Note that a player is NOT necessarily trying to perform a *Out-of-Order Trash Discard Chop Move* if the two trash cards have different kinds of clues on them. For example, by discarding specific trash cards, it can communicate that the player "sees" all of the non-trash possibilities of that card.
+
 ### The Elimination Blind Play Riding Deduction Bluff
 
 * Typically, when a player has two cards with *Elimination Notes* and the "true" copy of the card is on chop, you must clue it to let them know.
@@ -1089,11 +1097,24 @@ Beyond the *Priority Prompt* / *Priority Finesse*, there are other situations wh
 * Next, the player should perform an *Elimination Blind Play Riding Deduction*, and play the unrelated card.
 * After that, there will be only one card left with an *Elimination Note*, so they will go on to play the "true" card on their next turn.
 
-### The Elimination Bluff / The Elimination Layered Finesse
+### The Elimination Finesse
 
-* It is possible to lie to a player who has *Elimination Notes* on their hand and pretend like you are performing an *Elimination Finesse* on them, causing them to play their oldest card as per the convention. This can cause an unrelated playable card to play.
-* If the player who performed the clue was in *Bluff Position*, then it is to be treated like a *Bluff*, and thus they will not know where the actual *Elimination Card* is. (However, in most cases, at this point there will only be one remaining card with an *Elimination Note* on it, so it won't matter.)
-* If the player who performed the clue was not in *Bluff Position*, then the blind-playing person is expected to keep playing until they find the intended card. This is similar to how a *Layered Finesse* works, but it is inverted such that they play cards from oldest to newest.
+* Normally, if a player is *Finessed*, they are supposed to play their *Finesse Position* card. However, if the player has two or more *Elimination Notes* in their hand for the specific finessed card, they know that it cannot be on *Finesse Position*.
+* In this situation, the player is expected to play the OLDEST of the cards with the elimination notes on them.
+* For example:
+  * It is the middle of a 3-player game.
+  * On the stacks, blue 2 is played.
+  * Alice has a completely unclued hand.
+  * Alice discards a blue 3. She writes *Elimination Notes* on slots 2, 3, 4, and 5.
+  * Bob clues Cathy blues, indicating a blue 4. Cathy discards.
+  * At first, this looks like a *Reverse Finesse*, as it is calling for the blue 3. However, the blue 3 cannot be in her *Finesse Position* (slot 1), as she knows it must be either on slot 2, 3, 4, or 5. So it must be a *Reverse Elimination Finesse*.
+  * The *Elimination Finesse* promises that it is her oldest card, so she plays slot 5 as blue 3.
+* *Elimination Finesses* apply to ALL types of situations with *Elimination Notes* (including *Discard Elimination Notes*, *Play Elimination Notes*, and *Double Discard Elimination Notes*). Subsequently, you can more specifically describe an *Elimination Finesse* as a *Discard Elimination Finesse*, a *Play Elimination Finesse*, or a *Double Discard Elimination Finesse*.
+* Note that normal *Finesses* take priority over *Self-Elimiation Finesses*. For example:
+  * On the stacks, blue 2 and green 2 are played.
+  * Alice has *Elimination Notes* on slot 3 and slot 4 for red 3.
+  * Someone clues a number 4 in Alice's slot 1 as a *Self-Finesse*.
+  * Alice must assume that it is a normal *Self-Finesse* and play blue 3 from slot 2. (If it was an *Elimiation Self-Finesse*, she would play red 3 from slot 4.)
 
 ### The Chop Transfer
 
@@ -1169,24 +1190,11 @@ Beyond the *Priority Prompt* / *Priority Finesse*, there are other situations wh
 
 ## Level 4 - Rarely Used Expert Strategies
 
-### The Elimination Finesse
+### The Elimination Bluff / The Elimination Layered Finesse
 
-* Normally, if a player is *Finessed*, they are supposed to play their *Finesse Position* card. However, if the player has two or more *Elimination Notes* in their hand for the specific finessed card, they know that it cannot be on *Finesse Position*.
-* In this situation, the player is expected to play the OLDEST of the cards with the elimination notes on them.
-* For example:
-  * It is the middle of a 3-player game.
-  * On the stacks, blue 2 is played.
-  * Alice has a completely unclued hand.
-  * Alice discards a blue 3. She writes *Elimination Notes* on slots 2, 3, 4, and 5.
-  * Bob clues Cathy blues, indicating a blue 4. Cathy discards.
-  * At first, this looks like a *Reverse Finesse*, as it is calling for the blue 3. However, the blue 3 cannot be in her *Finesse Position* (slot 1), as she knows it must be either on slot 2, 3, 4, or 5. So it must be a *Reverse Elimination Finesse*.
-  * The *Elimination Finesse* promises that it is her oldest card, so she plays slot 5 as blue 3.
-* *Elimination Finesses* apply to ALL types of situations with *Elimination Notes* (including *Discard Elimination Notes*, *Play Elimination Notes*, and *Double Discard Elimination Notes*). Subsequently, you can more specifically describe an *Elimination Finesse* as a *Discard Elimination Finesse*, a *Play Elimination Finesse*, or a *Double Discard Elimination Finesse*.
-* Note that normal *Finesses* take priority over *Self-Elimiation Finesses*. For example:
-  * On the stacks, blue 2 and green 2 are played.
-  * Alice has *Elimination Notes* on slot 3 and slot 4 for red 3.
-  * Someone clues a number 4 in Alice's slot 1 as a *Self-Finesse*.
-  * Alice must assume that it is a normal *Self-Finesse* and play blue 3 from slot 2. (If it was an *Elimiation Self-Finesse*, she would play red 3 from slot 4.)
+* It is possible to lie to a player who has *Elimination Notes* on their hand and pretend like you are performing an *Elimination Finesse* on them, causing them to play their oldest card as per the convention. This can cause an unrelated playable card to play.
+* If the player who performed the clue was in *Bluff Position*, then it is to be treated like a *Bluff*, and thus they will not know where the actual *Elimination Card* is. (However, in most cases, at this point there will only be one remaining card with an *Elimination Note* on it, so it won't matter.)
+* If the player who performed the clue was not in *Bluff Position*, then the blind-playing person is expected to keep playing until they find the intended card. This is similar to how a *Layered Finesse* works, but it is inverted such that they play cards from oldest to newest.
 
 ### The Patch Finesse
 
