@@ -672,9 +672,9 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
 
 ### Focus Inversion
 
-* Sometimes, a play clue is given that both touches the chop card and one or more other card. The normal interpretation of this is to treat it as a chop-focus play clue, and play the chop. However, sometimes a player can know that the chop is not actually playable. This is determined through:
-  * negative clues present on the card
-  * historical / contextual information about the card (derived from moves that teammates performed earlier on in the game)
+* Sometimes, a play clue is given that both touches the chop card and one or more other card. The normal interpretation of this is to treat it as a chop-focus play clue, and play the chop. However, sometimes a player can know that the chop is not actually playable. This can be determined through:
+  * explicit information - negative clues present on the card
+  * implicit information - historical / contextual information about the card derived from moves that teammates performed earlier on in the game
 * When this occurs, the clue is meant to be a play clue on the left-most card INSTEAD of being chop focused.
 * Just like a "normal" play clue that touches multiple new cards, the chop card (and other other new cards introduced) are not necessarily playable right now.
 * In the following screenshot, nmego has a negative 1 clue on his chop so he should play his slot 1 card immediately. The chop card can be either yellow 2, yellow 3, yellow 4, but not yellow 5 (since Zamiel has it).
