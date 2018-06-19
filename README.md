@@ -290,7 +290,7 @@ Note that in this user interface, players are holding their hands like they woul
 * Sometimes, in order to satisfy *Save Principle*, a player will perform an unnecessary *Generation Discard*, which generates a clue to save a card that they actually already have in their hand.
 * This puts the next player in an ambiguous situation: was it really a *Generation Discard*, or could it a *Scream Discard*? In order to cover both situations, they should not *Chop Move*, but they should also not discard on this turn.
 * For example, in a 3-player game:
-  * Red 3 is played in the stacks. No blue cards are played in the stacks.
+  * Red 3 is played on the stacks. No blue cards are played on the stacks.
   * Alice has a blue 1 in her hand. She knows the exact identity of it, so it is known playable.
   * Alice also has a 4 clued in her hand. She does not know what color it is.
   * There are 0 clues, so if Alice plays the blue 1, Bob will be forced to discard.
@@ -1089,6 +1089,12 @@ Beyond the *Priority Prompt* / *Priority Finesse*, there are other situations wh
 * Next, the player should perform an *Elimination Blind Play Riding Deduction*, and play the unrelated card.
 * After that, there will be only one card left with an *Elimination Note*, so they will go on to play the "true" card on their next turn.
 
+### The Elimination Bluff / The Elimination Layered Finesse
+
+* It is possible to lie to a player who has *Elimination Notes* on their hand and pretend like you are performing an *Elimination Finesse* on them, causing them to play their oldest card as per the convention. This can cause an unrelated playable card to play.
+* If the player who performed the clue was in *Bluff Position*, then it is to be treated like a *Bluff*, and thus they will not know where the actual *Elimination Card* is. (However, in most cases, at this point there will only be one remaining card with an *Elimination Note* on it, so it won't matter.)
+* If the player who performed the clue was not in *Bluff Position*, then the blind-playing person is expected to keep playing until they find the intended card. This is similar to how a *Layered Finesse* works, but it is inverted such that they play cards from oldest to newest.
+
 ### The Chop Transfer
 
 * Sometimes, cards are accidently chop moved through a mistake or through a complicated situation. In these kinds of situations, it is pointless to waste a clue to "undo" the chop move; you can just continue to allow them to discard normally. That is, until they get something good on chop.
@@ -1216,7 +1222,7 @@ Beyond the *Priority Prompt* / *Priority Finesse*, there are other situations wh
 
 * Similar to a *Double Half Bluff*, it is also possible to get 2 cards played in a row that are completely unrelated.
 * For example, in a 4-player game:
-  * Yellow 2 is currently played in the stacks.
+  * Yellow 2 is currently played on the stacks.
   * Alice clues a yellow 5 in Donald's hand with a yellow color *Play Clue*.
   * Since yellow 5 is playable right now, Bob thinks he has yellow 3 and yellow 4. Bob blind-plays his *Finesse Position* card, but it is actually a blue 1.
   * Cathy sees that Bob blind-played because of the yellow clue. However, since the yellow 5 is a two away card instead of one away card, it must mean that it is a *Double Bluff* instead of a single *Bluff*. Cathy blind plays her *Finesse Position* card and it is red 1.
@@ -1366,6 +1372,15 @@ Beyond the *Priority Prompt* / *Priority Finesse*, there are other situations wh
   * Donald knows that since Alice did a 1-for-1 instead of a 2-for-1, he should chop move.
   * Cathy does not know that Donald will chop move until he demonstrates it or until the blue 3 in her hand is directly clued.
 
+### The Dump Truck
+
+* When someone blind plays their chop, there is usually an emergency happening and it was either a *Scream Blind-Play* or a *Stop Blind Play*.
+* However, if someone blind plays their chop and there was no emergency, it must be something else.
+* This means that one player has a fully playable hand from left to right. Like a dump truck, they are expected to unload everything onto the table.
+* Most times, all cards in the hand will be unclued. But if not, the player is still expected to play everything from left to right in order.
+* In the middle of the game, it is relatively safe to blind play your chop card, since it is known to not be a critical/playable card.
+* In the beginning of the game, it may not be safe to blind play your chop card. In this situation, you may see that multiple players have the opportunity to initiate the *Dump Truck*. Normally, it is best to let the player immediately before the blind-player do it. If they have an unsafe chop, then the 2nd player before the blind-player should do it, and so forth.
+
 ### The Dupe Bluff
 
 * This is where you perform a *Bluff* such that the card that is blind played is already touched in someone else's hand AND the player who has the other copy has full knowledge of the card.
@@ -1406,24 +1421,11 @@ Beyond the *Priority Prompt* / *Priority Finesse*, there are other situations wh
 * In such a scenario, the clue will look like a *Reverse Finesse* and then next person will misplay their *Finesse Position* card.
 * After the misplay, the person who received the clue is to treat it like a normal *Misplay Chop Move*, and chop move all the cards to the right of the clued card.
 
-### The Elimination Bluff / The Elimination Layered Finesse
-
-* It is possible to lie to a player who has *Elimination Notes* on their hand and pretend like you are performing an *Elimination Finesse* on them, causing them to play their oldest card as per the convention. This can cause an unrelated playable card to play.
-* If the player who performed the clue was in *Bluff Position*, then it is to be treated like a *Bluff*, and thus they will not know where the actual *Elimination Card* is. (However, in most cases, at this point there will only be one remaining card with an *Elimination Note* on it, so it won't matter.)
-* If the player who performed the clue was not in *Bluff Position*, then the blind-playing person is expected to keep playing until they find the intended card. This is similar to how a *Layered Finesse* works, but it is inverted such that they play cards from oldest to newest.
-
 ## Non-Formalized Proposals
 
 These are moves that are proposed by certain members of the group. However, they have not yet reached a consensus that they are good enough to play with by default.
 
-### The Dump Truck
-
-* When someone blind plays their chop, there is usually an emergency happening and it was either a *Scream Blind-Play* or a *Stop Blind Play*.
-* However, if someone blind plays their chop and there was no emergency, it must be something else.
-* This means that one player has a fully playable hand from left to right. Like a dump truck, they are expected to unload everything onto the table.
-* Most times, all cards in the hand will be unclued. But if not, the player is still expected to play everything from left to right in order.
-* In the middle of the game, it is relatively safe to blind play your chop card, since it is known to not be a critical/playable card.
-* In the beginning of the game, it may not be safe to blind play your chop card. In this situation, you may see that multiple players have the opportunity to initiate the *Dump Truck*. Normally, it is best to let the player immediately before the blind-player do it. If they have an unsafe chop, then the 2nd player before the blind-player should do it, and so forth.
+n/a
 
 <br />
 
