@@ -559,7 +559,7 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
 ### The 3 Bluff
 
 * Typically, the player who receives a clue that causes a *Bluff* blind play knows that the card that was clued is one away from being playable.
-* Our group plays with an artificial *3 Bluffs* convention. This means that in addition to being one away from being playable, the touched card can be ANY 3 that will be useful in the future.
+* Our group plays with an artificial *3 Bluffs* convention. This means that in addition to being one away from being playable, we agree that the touched card can be ANY 3 that will be useful in the future.
 * The priority of *3 Bluffs* can be confusing, so here are some examples that cover the four most common situations:
     * **Color mismatch (valid):**
       * On the first turn of the game, Alice clues Cathy a Red 3 with red.
@@ -583,7 +583,8 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
 
 ### The Critical 4 Bluff
 
-* Building on the *3 Bluffs* convention, it is ALSO possible for a card that initiates a *Bluff* to be a copy of any of the 4s that are critical (meaning that the other copy is in the discard pile or it is a black 4).
+* Building on the *3 Bluffs* convention, we also agree that is possible for a card that initiates a *Bluff* to be a copy of any of the 4s that are critical (meaning that the other copy is in the discard pile or it is a black 4).
+* Note that this convention does not apply to the *Wild & Crazy* variant.
 
 ### Discard Elimination & The Elimination Blind Play
 
