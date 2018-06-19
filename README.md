@@ -281,6 +281,10 @@ Note that in this user interface, players are holding their hands like they woul
 * However, if playing the card (player 1) would cause the next player to discard (player 2) and the next player after that (player 3) to have a critical and/or playable card "ride" on chop, it is a very bad situation. Thus, the discard is JUST for the purposes of generating a clue so that player 2 can clue player 3.
 * The *Generation Discard* is ONLY to be used as a last resort. If player 3 has something else to do (like play a card or give some obvious clue), then it is NOT a *Generation Discard*, and is instead to be interpretted as a *Scream Discard Chop Move*.
 
+### A Scream Discard Flowchart
+
+[Here is a handy flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/scream_discard_flowchart.png) for determining whether something is a *Scream Discard Chop Move* or a *Generation Discard* or a *Long-Range Scream Discard Chop Move* (which is much more rare and is covered later on in this document).
+
 ### The Unnecessary Generation Discard
 
 * Sometimes, in order to satisfy *Save Principle*, a player will perform an unnecessary *Generation Discard*, which generates a clue to save a card that they actually already have in their hand.
@@ -294,10 +298,6 @@ Note that in this user interface, players are holding their hands like they woul
   * So, Alice performs a *Generation Discard* to generate a clue so that Bob can clue the get the red 4, if necessary.
   * Bob sees that Alice does indeed already have the red 4 in her hand, so from his perspective, if Alice was performing a *Generation Discard*, it was unnecessary.
   * However, it could also be the case that Bob's chop is unsafe. So, Bob will NOT clue the red 4 on Cathy's chop, but he WILL spend the clue in some other productive fashion. If Bob has nothing productive to do, he must "burn" a clue, similar to what happens when a *Scream Discard* occurs.
-
-### A Scream Discard Flowchart
-
-[Here is a handy flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/scream_discard_flowchart.png) for determining whether something is a *Scream Discard Chop Move* or a *Generation Discard* or a *Long-Range Scream Discard Chop Move* (which is much more rare and is covered later on in this document).
 
 ### Tempo Clues (Re-cluing a Card)
 
