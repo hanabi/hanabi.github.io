@@ -1301,6 +1301,22 @@ Beyond the *Priority Prompt* / *Priority Finesse*, there are other situations wh
 * Here, Cathy can assume the *Double-Copy Bluff*, but this situation is different - she can immediately blind-play either card as red 2.
 * However, she should always play her *Finesse Position* card, in case it is a *Pestilent Bluff* instead of a *Double-Copy* bluff.
 
+### The Surreptitious Self-Finesse
+
+* *Clandestine Finesses* are when a color or rank clue "matches" the card from a blind play, but the clue receiver must wait for ADDITIONAL matching playable cards to blind play. Another way of saying this is that *Clandestine Finesses* have a *Misplay Component*; if the blind player does not continue to blind play cards, then the clue receiver will go on to misplay the "matching" card.
+* A similar situation can also happen when a rank clue "matches" the card from a blind play, but the clue receiver sees UNMATCHING rank cards in the blind player's hand that are currently playable.
+* If the clue receiver waits for these non-matching cards to blind play, and they DO blind play, then it means that the original clue had a *Self-Finesse* component to it. This is called a *Surreptitious Self-Finesse* in order to disambiguate it from a more ordinary *Clandestine Finesse*.
+* *Surreptitious Self-Finesses* have a *Misplay Component* in almost the exact same way that *Clandestine Finesses* do, but they just involve unmatching rank cards.
+* Generally speaking, this means that when a RANK clue initiates a *Finesse*, the clue receiver must always allow for the possibility that subsequent unmatching rank cards in the blind player's hand (that are of a LOWER rank than the clue) can possibly be caught up in the *Finesse*.
+* For example, in a 3-player game:
+  * Red 1 is played on the stacks.
+  * Alice clues number 3 to Cathy, which highlights one 3.
+  * Bob blind plays red 2.
+  * Cathy knows that red 2 "matches" number 3, so by convention she should probably have red 3.
+  * However, Cathy also sees that before Bob blind played the red 2, he had a blue 1 in the slot right after it.
+  * Thus, it is possible for Cathy's 3 to actually be blue 3. If it is, Bob will blind play the blue 1 and Cathy will know that she has blue 2 on her *Finesse Position*.
+  * So, Cathy discards (instead of potentially playing the red 3 on this turn) to allow for the possibility of a *Surreptitious Self-Finesse*.
+
 ### The Continuation Clue (Touching Both Inside and Outside a Layer)
 
 * Sometimes, a person who is blind playing cards into a *Layered Finesse* receives another clue that touches cards BOTH inside the layer and outside the layer.
