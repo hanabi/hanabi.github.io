@@ -1060,7 +1060,7 @@ Beyond the *Priority Prompt* / *Priority Finesse*, there are other situations wh
   * give save clues to cards that are on chop
   * clue off-chop 5s
 * Thus, in the *Early Game*, if someone jumps ahead and ignores all of the *Play Clues* and *Save Clues* on the board to number-clue an off-chop 5, this is very strange, and would usually communicate an advanced strategy like a *Finesse*.
-* However, if by cluing the 5, it moved that player's *Finesse Position* card to a playable card, then the point of the 5's clue may have been to set up a *Finesse* or *Bluff* of some kind.
+* However, if cluing the 5 moved that player's *Finesse Position* card to a playable card, then the point of the 5's clue may have been to set up a *Finesse* or *Bluff* of some kind.
 * Subsequently, if you see that an off-chop 5's clue allowed a *Finesse* or *Bluff* to occur, then you should not read very strongly into the original 5's clue.
 * Note that rarely, *Setup Clues* can also be given to 5's in the middle of the hand that don't modify the *Finesse Position*. The point of this is to allow valid *Layered Finesses* to occur that "skip" over the 5.
 
