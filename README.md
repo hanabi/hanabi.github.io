@@ -1006,7 +1006,7 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
 * In this variant, it is possible to violate *Good Touch Principle* by cluing black to save a black 3 or a black 4, because there can be other useless rainbow cards in the hand.
 * Thus, for the *Wild & Crazy* variant, a second exception to the *Black 3 and Black 4 Saves* convention is added:
   * if the number clue was required to avoid violating *Good Touch Principle*
-* *Crazy 3 Saves* & *Crazy 4 Saves* do NOT apply to 5-player games; getting a perfect score is difficult and this move is too conservative.
+* *Crazy 3 Saves* & *Crazy 4 Saves* do NOT apply to 5-player games; see the "Wild & Crazy 5-Player Alterations" section below.
 
 ### Crazy Black 4 Bluffs
 
