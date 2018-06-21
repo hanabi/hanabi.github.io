@@ -670,12 +670,26 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
   * Cathy has 2 unknown 2s. One 2 has been played already, so from Cathy's perspective, each 2 has a 1/4 chance of being the blue 2.
   * Thus, it is Cathy's responsibility to save the blue 2.
 
+### Context Clues & The Stale 1s Clue
+
+* Based on the *First Principles*, we have conventions that define what a clue means. But combined with this, we are always expected to look at the context of the game.
+* For example, sometimes players will receive a clue that just feels strange. If this good clue could have been given a bunch of turns ago, why is it only being given now? Were the other players not paying close enough attention, and are only getting around to cluing this card now?
+* In these types of situations, from *High Value Principle*, you can assume that the team is not making any mistakes, which means that the meaning of the clue should be altered from the "textbook" definition. We call these types of clues *Context Clues* because they rely on contextual reading of the game state.
+* The most common *Context Clue* is given to "stale" 1's towards the beginning of the game. For example, in a 3-player game:
+  * After a few ordinary clues happen, Alice discards, which ends the *Early Game* and initiates the *Mid-Game*. By doing this, she implies that there is nothing to do (because players are mandated to "extinguish" all of the available *Play Clues* and *Save Clues* in the *Early Game*).
+  * Bob then immediately clues Cathy about two 1s.
+  * Normally, from *Good Touch Principle*, Cathy would assume that both of the 1s were "good" and play both.
+  * However, Cathy also knows that if both of these 1s were good, then Alice was required to clue them before discarding.
+  * Thus, Cathy can reason that one of the 1s are bad. Furthermore, by convention, she knows that the oldest (right-most) 1 is bad, because that would be the one that she would ordinarily play first.
+  * So, Cathy should skip over the oldest (right-most) 1, and play the other 1. Cathy should also treat the other 1 as known-trash.
+* The *Stale 1s Clue* is specific example of a more general concept called *Focus Inversion*, which is covered later.
+
 ### Focus Inversion
 
 * Sometimes, a play clue is given that both touches the chop card and one or more other card. The normal interpretation of this is to treat it as a chop-focus play clue, and play the chop. However, sometimes a player can know that the chop is not actually playable. This can be determined through:
   * explicit information - negative clues present on the card
   * implicit information - historical / contextual information about the card derived from moves that teammates performed earlier on in the game
-* When this occurs, the clue is meant to be a play clue on the left-most card INSTEAD of being chop focused.
+* When this occurs, the clue is meant to be a play clue on the left-most card INSTEAD of the chop card.
 * Just like a "normal" play clue that touches multiple new cards, the chop card (and other other new cards introduced) are not necessarily playable right now.
 * In the following screenshot, nmego has a negative 1 clue on his chop so he should play his slot 1 card immediately. The chop card can be either yellow 2, yellow 3, yellow 4, but not yellow 5 (since Zamiel has it).
 
