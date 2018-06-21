@@ -881,66 +881,50 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
 
 ### The Priority Prompt & The Priority Finesse
 
-* When a player has a choice between two playable cards to play, they should always choose the card that leads towards someone else's hand. So, when a player does not do this, it is very strange.
-* In this situation, if you see a player choose not to play a card in this way AND it deliberately loses tempo, they are playing towards a card that is already clued in your hand. This is similar to a *Prompt*, except instead of initiating it with a clue, they initiate it with the order that they played cards.
-* If you do not have any clued cards in your hand that matches the card that they played, then you you should play your *Finesse Position* card as a *Priority Finesse*.
-* Note that for this to work, the player choosing priority must have full knowledge of the two cards that they are prioritizing.
-* Similar to a normal *Prompt*, if you have two or more clued cards that it could apply to, then you should play the left-most one.
-* Similar to a normal *Prompt*, if you have two or more clued cards and the left-most one was not the matching card, then you should continuing playing clued cards until you find the matching card.
-
-### A Priority Flowchart (For Choosing Between 2+ Playable Cards)
-
-Beyond the *Priority Prompt* / *Priority Finesse*, there are other situations where players that have two or more playable cards can communicate that something special is happening by playing an unexpected card. These specific conventions are listed below. But, in general, what is expected and which cards should have priority? [Here is a handy flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/priority_flowchart.png) that shows, in general, which card should be played when there is a choice between two cards.
-
-### The Higher Rank Prompt & The Higher Rank Finesse
-
-* When a player has a choice between two or more cards to play, if other players are waiting on one of their cards in order to play themselves, then those cards should always be prioritized.
-* However, if both cards are not being "waited on", then players are supposed to play the card with the lower number (rank) first.
-* If a player plays a higher rank card first, it implies that the next copy of that suit is in someone else's hand, similar to the *The Priority Prompt* convention. And if there are no matching clued cards, it should cause a blind play, similar to *The Priority Finesse*.
-* This convention does NOT apply if the player does not have full knowledge of what the higher rank card is. In other words, players might just be trying to potentially play into someone else's hand (with only a chance that they have a matching suit), and this does not promise anything special.
-* This convention does NOT apply if one of the cards is a "blind" card. Blind cards should take priority so that *Ambiguous Finesses* can resolve faster.
-  * Note that unclued cards from *Gentleman's Discards* which are known to be non-layered do not count as "blind" cards.
-* For example, this is NOT a *Higher Rank Finesse*:
-  * Alice has a known playable red 1 and a known playable blue 2 in her hand.
-  * Alice plays blue 2.
-  * Bob comes next. Bob does not see any red 2s. Bob does see blue 3 on the chop of Cathy. Thus, Alice played the blue 2 to give Cathy something to do.
-  * Bob clues blues to Cathy as a chop-focus *Play Clue*.
-* For example, this IS a *Higher Rank Finesse*:
+* When a player has a choice between two playable cards to play, everyone agrees that there should be a specific *Priority* that they should be played in. The agreed *Priority* is as follows:
+  1) Blind-plays — demonstrating that a *Finesse* or *Bluff* occurred is very important
+  2) Cards that lead into someone else's hand — otherwise the team would lose *Tempo*
+  3) 5s — playing a 5 gets the team a free clue, which is really good
+  4) The lower rank card — smaller stacks are more important to fill up
+  5) The left-most card — the left-most one is more likely to be good
+* When a player does NOT play the card with *Priority*, it is strange, and they must be trying to send a special message.
+* Based on what card they did play, if you have any cards in your hand that match the next "connecting" card, it is a message that you can play it right now, similar to a *Prompt*. (The difference is that instead of initiating the *Prompt* with a clue, they initiated it with the order that they played cards.)
+* Alternatively, if you do not have any clued cards in your hand that matches the card that they played, then you you should play your *Finesse Position* card as a *Priority Finesse*.
+* Note that *Priority Prompts* and *Priority Finesses* are only a thing when the player has FULL KNOWLEDGE of the two cards that they are prioritizing. For example, players might be trying to potentially play into someone else's hand, with only a chance that they have a matching card.
+* For example, this IS a *Priority Finesse*:
   * Alice has a known playable red 1 and a known playable blue 2 in her hand.
   * Alice plays blue 2.
   * Bob comes next. Bob does not see any red 2s. He does not see any blue 3s either. Thus, Alice was supposed to play the red 2 first.
   * This means that Bob must have blue 3, so he blind-plays his *Finesse Position* card.
+* For example, this is NOT a *Priority Finesse*:
+  * Alice has a known playable red 1 and a known playable blue 2 in her hand.
+  * Alice plays blue 2.
+  * Bob comes next. Bob does not see any red 2s. Bob does see blue 3 on the chop of Cathy. Thus, Alice played the blue 2 to give Cathy something to do.
+  * Bob clues blues to Cathy as a chop-focus *Play Clue*.
+* Similar to a normal *Prompt*, if a *Priority Prompt* could apply to two or more clued cards, then you should play the left-most one.
+* Similar to a normal *Prompt*, if a *Priority Prompt* mades you play the left-most card and it was not the matching card, then you should continuing playing clued cards until you find the matching card.
+* Finally, note that the "left-most" *Priority* is contextual and does not always apply. For example, it is common for players to play a right-most card that was originally clued with a *Save Clue*, since that card was explicitly saved and that the other cards in the hand of the same rank could potentially be duplicates.
 
-### The Higher Rank Finesse in Dual-Color Variants
+### A Priority Flowchart (For Choosing Between 2+ Playable Cards)
 
-* When you get a play clue on a card that could be multiple suits, you must take the average of all of the ranks and treat the card as having that rank for the purposes of performing a *Higher Rank Finesse*.
+*Priority* can sometimes be confusing. [Here is a handy flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/priority_flowchart.png) that shows, in general, which card should be played when there is a choice between two cards.
+
+### Rank Priority Prompts/Finesses in Dual-Color Variants
+
+* When you get a play clue on a card that could be multiple suits, you must take the average of all of the ranks and treat the card as having that rank for the purposes of performing a *Rank Priority Finesse*.
 * For example, in a 3-player *Wild & Crazy* game:
-  * The Green 1 and Rainbow 2 are played on the stacks.
+  * The green 1 and rainbow 2 are played on the stacks.
   * Mike receives a yellow *Play Clue* on slot 1.
-  * This means that the card could be a Green 2, Orange 1, or Rainbow 3.
+  * This means that the card could be a green 2, orange 1, or rainbow 3.
   * Thus, the average rank is: (2 + 1 + 3) / 3 = 2
-  * Mike also knows that he can play a White 2 on slot 4.
-  * If the average value ended up being higher than 2.0, then Mike would have to play the White 2 first, or else it would initiate a *Higher Rank Finessse*.
+  * Mike also knows that he can play a white 2 on slot 4.
+  * If the average value ended up being higher than 2.0, then Mike would have to play the white 2 first, or else it would initiate a *Rank Priority Finessse*.
 
-### The Higher Rank Bluff & The Higher Rank Layered Finesse
+### The Priority Bluff & The Priority Layered Finesse
 
-* If is possible to lie to the next player and imply a *Higher Rank Finesse* when they have an unrelated card on *Finesse Position*.
+* If is possible to lie to the next player and imply a *Priority Finesse* when they have an unrelated card on *Finesse Position*.
 * After the unrelated card is played, since the person who lied was in *Bluff Position*, no further cards should be promised.
-* If an unrelated card was played and the person who lied was not in *Bluff Position*, it implies a *Higher Rank Layered Finesse*.
-
-### The Lower Rank Prompt & The Lower Rank Finesse & The Lower Rank Bluff
-
-* When you have two playable cards in your hand, you are usually supposed to play the lower rank one. If you play the higher one, it could imply a *Higher Rank Finesse*.
-* However, playing 5's is good in that it immediately grants the team an extra clue. Furthermore, since 5's are unique, playing the 5 first may give the team flexibility to use the other copy in someone else's hand with a *Distribution Clue* later on.
-* Thus, since by default it is better to play a 5 instead of a card of some other rank, playing the other card promises the next card of that suit, similar to a *Higher Rank Finesse*.
-* Alternatively, it can also be a *Lower Rank Bluff* if you just want the next person to play their *Finesse Position* card.
-
-### The Right-to-Left Prompt & The Right-to-Left Finesse & The Right-to-Left Bluff
-
-* When you have two playable cards in your hand of the same rank, you are usually supposed to play the left-most one.
-* If you instead play the right-most one, it signals that something special is going on, and it promises the next card in that suit as a *Right-to-Left Finesse*.
-* Alternatively, it can also be a *Right-to-Left Bluff* if you just want the next person to play their *Finesse Position* card.
-* Note that *Right-to-Left Finesses* are contextual and do not always apply. For example, they do not apply when someone plays their right-most card that was originally clued as a *Save Clue*, since that card was explicitly saved and that the other cards in the hand of the same rank could potentially be duplicates.
+* If an unrelated card was played and the person who lied was not in *Bluff Position*, it implies a *Priority Layered Finesse*.
 
 ### Ejection
 
