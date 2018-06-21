@@ -1002,17 +1002,27 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
 
 ### Crazy 3 Saves & Crazy 4 Saves
 
-* This convention applies to the *Wild and Crazy* variant.
+* This convention applies to the *Wild & Crazy* variant.
 * In this variant, it is possible to violate *Good Touch Principle* by cluing black to save a black 3 or a black 4, because there can be other useless rainbow cards in the hand.
-* Thus, for the *Wild and Crazy* variant, a second exception to the *Black 3 and Black 4 Saves* convention is added:
+* Thus, for the *Wild & Crazy* variant, a second exception to the *Black 3 and Black 4 Saves* convention is added:
   * if the number clue was required to avoid violating *Good Touch Principle*
 * *Crazy 3 Saves* & *Crazy 4 Saves* do NOT apply to 5-player games; getting a perfect score is difficult and this move is too conservative.
 
 ### Crazy Black 4 Bluffs
 
-* This convention applies to the *Wild and Crazy* variant.
+* This convention applies to the *Wild & Crazy* variant.
 * The *Critical 4 Bluff* convention is deleted in this variant (since it conflicts with *Finesses* using white 4).
 * Even though the *Critical 4 Bluff* is deleted, it is still legal to use a black 4 to bluff. However, this MUST be done with color.
+
+### Wild & Crazy 5-Player Alterations
+
+* These conventions only apply to the *Wild & Crazy* variant with 5 players.
+* Nearly all of the conventional "rules" are closely followed in 5-player games, regardless of the variant. And the same goes for 4-player games in the *Wild & Crazy* variant.
+* However, 5-player *Wild & Crazy* is extremely difficult. Thus, we have slightly altered some conventions to be more "aggressive" in this game type:
+  1) No *Crazy 3 Saves* and no *Crazy 4 Saves* – you must duplicate a rainbow card if you want to save a black 3 or black 4
+  2) No Locked Hand Saves – locked players must perform a "hard burn" if they have no normal *Play Clues* or *Save Clues* or off-chop 5s to clue
+  3) Ending the *Early Game* – players may choose to not "extinguish" all of the available clues, especially if the last remaining clue is a 1-for-1
+* Besides these specific alterations, you should also account for the fact that the team will play more risky in general – more aggressive discards, more letting cards "ride" on chop, and so forth.
 
 ### Acid Trip Conventions
 
@@ -1455,11 +1465,11 @@ n/a
 
 | Convention Name | Inventor
 | --- | ---
-| 2 Saves | Hyphen-ated and Duneaught
-| Chop Focus | Zamiel and Hyphen-ated
+| 2 Saves | Hyphen-ated & Duneaught
+| Chop Focus | Zamiel & Hyphen-ated
 | The Layered Finesse | Antizoubilamaka
 | The Clandestine Finesse | Antizoubilamaka
-| The Patch Finesse | Zamiel and Libster
+| The Patch Finesse | Zamiel & Libster
 | The 3 Bluff | Hyphen-ated
 | The Double Bluff | Hyphen-ated
 | The Double Half Bluff | Hyphen-ated
@@ -1470,9 +1480,9 @@ n/a
 | The Gentleman's Discard | Duneaught
 | The Layered Gentleman's Discard | Duneaught
 | The Tempo Clue Chop Move | Zamiel
-| Discard Elimination & The Elimination Blind Play | Aridolomo (with revisions from Hyphen-ated and Duneaught)
+| Discard Elimination & The Elimination Blind Play | Aridolomo (with revisions from Hyphen-ated & Duneaught)
 | Immediate Double Clue | Duneaught
-| The Elimination Finesse | Zamiel and Ahming
+| The Elimination Finesse | Zamiel & Ahming
 | The Elimination Blind Play Riding Deduction | Duneaught
 | Free Choice Convention | Hyphen-ated
 | The Trash Push | Duneaught
@@ -1484,10 +1494,10 @@ n/a
 | The Priority Prompt & The Priority Finesse | Libster
 | The Dupe Bluff | Duneaught
 | The Certain Finesse | Zamiel
-| The Negative Prompt | Zamiel and Libster
+| The Negative Prompt | Zamiel & Libster
 | Weak Prompts | Hyphen-ated
 | Crazy 3 Saves & Crazy 4 Saves | Libster
-| The Scream Discard Chop Move | 910dan and Zamiel
+| The Scream Discard Chop Move | 910dan & Zamiel
 | The Early Fix Clue Chop Move | Zamiel
 | The Critical 4 Bluff | Libster
 | The Chop Transfer | Duneaught
@@ -1499,15 +1509,15 @@ n/a
 | The Rebellious Discard | Zamiel
 | Focus Inversion | Zamiel
 | Modified Black 3 & Black 4 Saves | Florrat
-| Modified Early Game | Libster and Florrat
+| Modified Early Game | Libster & Florrat
 | The Double Tempo Clue | Hyphen-ated
 | Hard Bluffs | Florrat
 | White Compromise | Postmans
-| Acid Trip Conventions | Zamiel and Florrat
+| Acid Trip Conventions | Zamiel & Florrat
 | The Double/Triple Pass Bluff | Zamiel
 | The Out-of-Order Finesse | Zamiel
 | The Speed-up Clue | Libster
-| General Principles | Zamiel and Florrat
+| General Principles | Zamiel & Florrat
 | The Misplay Trash Push | Zamiel
 | The Disease Bluff & The Heal Clue | Zamiel
 | The Double-Copy Bluff | Zamiel
@@ -1528,7 +1538,7 @@ n/a
 | The Continuation Clue | Libster
 | The Just-In-Time Fix Clue | Zamiel
 | The Occupied Play Clue & The Occupied Finesse | Zamiel
-| The Higher Rank Prompt & The Higher Rank Finesse | Libster and Zamiel
+| The Higher Rank Prompt & The Higher Rank Finesse | Libster & Zamiel
 | The Higher Rank Bluff & The Higher Rank Layered Finesse | Zamiel
 | The Long-Range Scream Discard | Florrat
 | The Bad Touch Double Finesse | Sankala
@@ -1537,11 +1547,13 @@ n/a
 | The Fuel Clue | Ahming
 | The Lower Rank Finesse & The Lower Rank Bluff | Libster
 | The Right-to-Left Finesse & The Right-to-Left Bluff | Libster
-| The Setup Finesse | Zamiel and RaKXeR
+| The Setup Finesse | Zamiel, RaKXeR, & Libster
 | The Stop Discard | Zamiel
 | Ejection | Razvogor & Zamiel & Sankala
 | 1's Out-of-Order Chop Move | Zamiel
-| Wild & Crazy Black 4 Bluffs | Zamiel and Libster
+| Wild & Crazy Black 4 Bluffs | Zamiel & Libster
 | Duplication Responsibility | Zamiel
-| Certain Discard Duplication Promise | Zamiel and Libster
+| Certain Discard Duplication Promise | Zamiel & Libster
 | Suboptimal Trash Bluff Chop Move | Libster
+| Out-of-Order Trash Discard Chop Move | Zamiel
+| Surreptitious Self-Finesse | Sankala
