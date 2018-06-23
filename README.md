@@ -1454,6 +1454,8 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
 * In such a scenario, the clue will look like a *Reverse Finesse* and then next person will misplay their *Finesse Position* card.
 * After the misplay, the person who received the clue is to treat it like a normal *Misplay Chop Move*, and chop move all the cards to the right of the clued card.
 
+<br />
+
 ## Non-Formalized Proposals
 
 These are moves that are proposed by certain members of the group. However, they have not yet reached a consensus that they are good enough to play with by default.
