@@ -1083,7 +1083,7 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
 
 ### Cluing Off-Chop 2s
 
-* During the beginning of the game, it is very dangerous to discard. It is permissible in this situation to use a 2 number clue to save a 2 that is not on chop, but only if the other players can see that you had no other choice to avoid discarding.
+* On the first turn of the game, it is not possible to discard. If there is absolutely nothing else to do, it is permissible in this situation to use a 2 number clue to save a 2 that is not on chop (but only if the other players can see that you had no other choice).
 
 ### Immediate Double Clue
 
