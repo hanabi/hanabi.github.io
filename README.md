@@ -1548,8 +1548,6 @@ n/a
 | The Bad Touch Double Bluff & The Bad Touch Double Half Bluff | Sankala
 | The Dump Truck | Ahming
 | The Fuel Clue | Ahming
-| The Lower Rank Finesse & The Lower Rank Bluff | Libster
-| The Right-to-Left Finesse & The Right-to-Left Bluff | Libster
 | The Setup Finesse | Zamiel, RaKXeR, & Libster
 | The Stop Discard | Zamiel
 | Ejection | Razvogor & Zamiel & Sankala
