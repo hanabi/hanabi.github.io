@@ -185,7 +185,7 @@ Note that in this user interface, players are holding their hands like they woul
 ### Delayed Play Clues
 
 * When you receive a play clue, it does NOT necessarily mean that you can play that card immediately. Look around the board for other ALREADY CLUED cards that might be related to the card that you are considering playing and then wait for them to be played.
-* For example, if Alice was clued about a bunch of 1s and then Bob is then clued about a 2, he should WAIT for Alice to play all of her 1s first BEFORE playing the 2.
+* For example, if Alice was clued about a bunch of 1s and then Bob is then clued about a 2, Bob should WAIT for Alice to play all of her 1s first BEFORE playing the 2.
 * In other words, treat all *Play Clues* as potential *Delayed Play Clues*.
 
 ### Fix Clues
