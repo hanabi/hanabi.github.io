@@ -954,7 +954,7 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
 
 ### Black 2 & Black 5 Saves
 
-* This convention applies to the *Black Suit (One-of-Each)* and *Wild & Crazy* variants.
+* This convention applies to the *Black Suit (one of each)* and *Wild & Crazy* variants.
 * Players should save black 2s and black 5s with a number clue instead of a color clue. (This helps narrow down what card is being clued.)
 * There are four exceptions to this:
   * if the black clue touched two or more brand new black cards OR critical Rainbow cards
@@ -965,10 +965,10 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
 
 ### Black 3 & Black 4 Saves
 
-* This convention applies to the *Black Suit (One-of-Each)* and *Wild & Crazy* variants.
+* This convention applies to the *Black Suit (one of each)* and *Wild & Crazy* variants.
 * Players should save black 3s and black 4s with a color clue instead of a number clue. (This helps narrow down what card is being clued.)
 * There is one exception to this:
-  * if the number clue also touched a critical card
+  * if the number clue also touched another critical card
 * Subsequently, if a number clue is used to touch a black 3 or a black 4 (and the above exception is not applicable), then it implies a *Finesse*.
 
 ### The Free Choice Finesse
@@ -1040,6 +1040,14 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
   * Purple means play slot 1 AND the next person plays their *Finesse Position* card (in 4 and 5-player games).
   * Orange means chop move.
 * All color clues have to be treated as potential *Delayed Play Clues*, *Prompts*, and *Reverse Finesses*.
+
+### Rainbow 1oE Saves
+
+* This convention applies to the *Rainbow Suit (one of each)* and *Rainbow & Black Suits (one of each)* variants.
+* Players should save rainbow cards with a number clue.
+* There are two exceptions to this:
+  * if the color clue also touched another critical card
+  * if the color is a stack that happens to be completed played already
 
 <br />
 
@@ -1561,3 +1569,4 @@ n/a
 | Suboptimal Trash Bluff Chop Move | Libster
 | Out-of-Order Trash Discard Chop Move | Zamiel
 | Surreptitious Self-Finesse | Sankala
+| Rainbow 1oE Saves | Florrat and Libster
