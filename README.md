@@ -1342,9 +1342,10 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
 ### The Hesitation Blind Play
 
 * If you see that someone gets a play clue on a card and they discard instead of playing it, this would normally be a *Scream Discard*. However, sometimes you know from the context of the game that your chop has to be safe.
-* In such a situation, the only reason that they would discard is that they are allowing for the possibility of a *Reverse Finesse*, and that you have a playable card on your newest that "matches" the card that they got the play clue on. Thus, you may want to blind play your newest.
-* If there is no intermediary players in between the blind player and the player who received the play clue, great care must be taken to not blind play anything that implies a Double Finesse with a "self" component on the player who received the play clue. Thus, the player blind playing must evaluate what would happen for all 6 cards that he could be blind playing.
-  * For example, if a 4 number clue causes a hesitation blind play of a red 2 and then the person who received the 4 clue comes immediately afterwards, they will misplay their *Finesse Position* card as a red 3.
+* In such a situation, the only reason that they would discard is that they are allowing for the possibility of a *Reverse Finesse*, and that you have a playable card on your newest that "matches" the card that they got the play clue on. Thus, you may be able to just immediately blind play your *Finesse Position* card as a *Hesitation Blind Play*.
+* However, doing this is not always safe, so you have to evalulate what exact cards that you could be playing:
+  * For example, if you could be playing the other copy of the clued card, then that would cause a duplication and violate *Good Touch Principle*.
+  * Another problem is if the blind play causes the original clue to look like a *Double Finesse* with a "self" component. For example, if a 4 number clue causes a *Hesitation Blind Play* of a red 2, the clue reciever might misplay their *Finesse Position* card as a red 3.
 
 ### The Pass Bluff
 
