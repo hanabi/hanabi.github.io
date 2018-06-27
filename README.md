@@ -1084,7 +1084,7 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
 
 ### Cluing Off-Chop 2s
 
-* On the first turn of the game, it is not possible to discard. If there is absolutely nothing else to do, it is permissible in this situation to use a 2 number clue to save a 2 that is not on chop (but only if the other players can see that you had no other choice).
+* On the first turn of the game, it is not possible to discard. If there is absolutely nothing else to do, it is permissible in this situation to use a number 2 clue to save a 2 that is not on chop (but only if the other players can see that you had no other choice).
 
 ### Immediate Double Clue
 
@@ -1345,7 +1345,7 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
 * In such a situation, the only reason that they would discard is that they are allowing for the possibility of a *Reverse Finesse*, and that you have a playable card on your newest that "matches" the card that they got the play clue on. Thus, you may be able to just immediately blind play your *Finesse Position* card as a *Hesitation Blind Play*.
 * However, doing this is not always safe, so you have to evalulate what exact cards that you could be playing:
   * For example, if you could be playing the other copy of the clued card, then that would cause a duplication and violate *Good Touch Principle*.
-  * Another problem is if the blind play causes the original clue to look like a *Double Finesse* with a "self" component. For example, if a 4 number clue causes a *Hesitation Blind Play* of a red 2, the clue reciever might misplay their *Finesse Position* card as a red 3.
+  * Another problem is if the blind play causes the original clue to look like a *Double Finesse* with a "self" component. For example, if a number 4 clue causes a *Hesitation Blind Play* of a red 2, the clue reciever might misplay their *Finesse Position* card as a red 3.
 
 ### The Pass Bluff
 
