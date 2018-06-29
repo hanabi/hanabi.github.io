@@ -1043,7 +1043,7 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
 
 ### Rainbow 1oE Saves
 
-* This convention applies to the *Rainbow Suit (one of each)* and *Rainbow & Black Suits (one of each)* variants.
+* This convention applies to the *Rainbow Suit (one of each)* variant.
 * Players should save rainbow cards with a number clue.
 * There are two exceptions to this:
   * if the color clue also touched another critical card
