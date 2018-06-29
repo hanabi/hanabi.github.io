@@ -1187,11 +1187,12 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
 * This is very similar to a *Stop Blind Play*, but since the player has a known play, there is no reason to use up one of the strikes when the same message can be communicated in a safer way.
 * If there is a card that could potentially be playable on on chop, then the *Long-Range Scream Discard* interpretation takes priority over the *Stop Discard* interpretation.
 
-### The No-Information Finesse
+### The No-Information Double Finesse & The No-Information Double Bluff
 
 * Sometimes, cards are re-clued in order to initiate a *Finesse* or a *Bluff*. Most times, the clue will "fill in" or give extra information to the existing card.
-* Other times, the clue will give no information (e.g. re-cluing a 3 on an already known 3). In this situation, if it was merely a *Bluff*, it would be pretty low value.
-* Thus, by convention it MUST be a *Finesse* instead of a *Bluff*.
+* Other times, the clue will give no information (e.g. re-cluing number 3 to an already known 3). In this situation, if it was merely a *Bluff*, it would be pretty low value.
+* Thus, by convention it MUST "get" at least 2 new cards (as opposed to a single *Bluff* that only gets 1 brand new card).
+* Usually, a "no-information" clue conveys a *Double Finesse*. But you can also use it to perform a *Double Bluff*.
 
 ### The Bad Touch Double Finesse (for 3's)
 
