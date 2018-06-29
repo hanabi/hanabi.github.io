@@ -78,7 +78,7 @@ While there are some weird strategies that could throw you for a loop if you hav
 ### 3. Save Principle
 
 * Cards that meet the following criteria need to be saved:
-  * only one copy remains (e.g. 5s or unplayed cards in the discard pile)
+  * only one copy remains (e.g. 5's or unplayed cards in the discard pile)
   * it is currently playable and not visible elsewhere in players' hands
   * it is a 2 and not visible elsewhere in players' hands
 (this is the *2 Saves* convention)
@@ -159,13 +159,13 @@ Note that in this user interface, players are holding their hands like they woul
 
 ### 5 Saves (on Chop)
 
-* Since there is only one copy of each 5, all of the 5s need to be saved so that they won't be discarded.
+* Since there is only one copy of each 5, all of the 5's need to be saved so that they won't be discarded.
 * Always save a 5 with a number clue instead of a color clue. Otherwise, it will look like a *Play Clue* (or potentially a *Save Clue* on some other critical card).
 
 ### 2 Saves (on Chop)
 
-* Even though there are two copies of each 2, we agree that they are so important that we must save them in a manner similar to 5s.
-* Similar to saving 5s, always save a 2 with a number clue instead of a color clue.
+* Even though there are two copies of each 2, we agree that they are so important that we must save them in a manner similar to 5's.
+* Similar to saving 5's, always save a 2 with a number clue instead of a color clue.
 * You can violate *Good Touch Principle* and duplicate a 2 in the situation where a color clue would look like a playable card and cause a misplay.
 
 ### Play Clues
@@ -176,24 +176,24 @@ Note that in this user interface, players are holding their hands like they woul
 ### Delayed Play Clues
 
 * When you receive a *Play Clue*, it does NOT necessarily mean that you can play that card immediately. Look around the table for other ALREADY CLUED cards that might be related to the card that you got the *Play Clue* on. If there are any, you must wait for them to be played.
-* For example, if Alice was clued about a bunch of 1s and then Bob is then clued about a 2, Bob should WAIT for Alice to play all of her 1s first BEFORE playing the 2.
+* For example, if Alice was clued about a bunch of 1's and then Bob is then clued about a 2, Bob should WAIT for Alice to play all of her 1's first BEFORE playing the 2.
 * In other words, treat all *Play Clues* as potential *Delayed Play Clues*.
 
-### Cluing 1s
+### Cluing 1's
 
-* If you need to clue a single 1, it is better to do it with a color clue than a number clue. This is because it allows them to potentially clue other 1s on the table.
+* If you need to clue a single 1, it is better to do it with a color clue than a number clue. This is because it allows them to potentially clue other 1's on the table.
 
-### Playing Multiple 1s
+### Playing Multiple 1's
 
-* If one or more 1s in your hand are clued, you should assume that they are ALL playable. (This ONLY applies to 1s, and follows from *Good Touch Principle*.)
-* We agree that playing 1s at the beginning of the game is a special case - you should always play your 1s from oldest to newest.
-* Furthermore, freshly drawn 1s should be played before any 1s that were present in the starting hand.
+* If one or more 1's in your hand are clued, you should assume that they are ALL playable. (This ONLY applies to 1's, and follows from *Good Touch Principle*.)
+* We agree that playing 1's at the beginning of the game is a special case - you should always play your 1's from oldest to newest.
+* Furthermore, freshly drawn 1's should be played before any 1's that were present in the starting hand.
 
 ### The Early Game (Beginner Section)
 
 * The *Early Game* is defined as the period of time before someone discards for the first time. When they do, they initiate the *Mid-Game*.
-* The general goal of the *Early Game* is to extend it for as long as reasonably possible. Thus, everyone agrees that they MUST "extinguish" all of the available *Play Clues* and *Save Clues* before discarding. (There are no cards in the discard pile yet, but *Save Clues* still need to be given to all of the 5s on chop and all of the 2s on chop that are not present in someone else's hand.)
-* Normally, you are only allowed to save 5s if they are on chop. But as a special rule, in the *Early Game*, you are allowed to clue number 5 to save off-chop 5s as a "stall" clue. However, you are only allowed to do this if there are no "normal" *Play Clues* or *Save Clues* to give.
+* The general goal of the *Early Game* is to extend it for as long as reasonably possible. Thus, everyone agrees that they MUST "extinguish" all of the available *Play Clues* and *Save Clues* before discarding. (There are no cards in the discard pile yet, but *Save Clues* still need to be given to all of the 5's on chop and all of the 2's on chop that are not present in someone else's hand.)
+* Normally, you are only allowed to save 5's if they are on chop. But as a special rule, in the *Early Game*, you are allowed to clue number 5 to save off-chop 5's as a "stall" clue. However, you are only allowed to do this if there are no "normal" *Play Clues* or *Save Clues* to give.
 * That covers the basics. Some more edge-case specifics that you don't need to know right now are listed in *The Early Game (Intermediate Section)*.
 
 ### When to Discard
@@ -208,8 +208,8 @@ Note that in this user interface, players are holding their hands like they woul
 * In such a situation, because of *Good Touch Principle*, the players with the duplicate cards will assume the identity of their cards to be something else, and may go on to misplay those cards. Thus, it is the team's responsibility to fix the problem and intervene before this happens.
 * **A clue cannot be a *Play Clue* and a *Fix Clue* at the same time.** If you receive a *Fix Clue* and it touches other ancillary cards, none of them are necessarily playable; the primary point of the clue is to fix the impending misplay.
 * Usually a *Fix Clue* will "fill in" the card to explicitly make it known that the card is unplayable or duplicated. However, it is also possible to perform a *Fix Clue* just by cluing the card again. For example:
-  * Alice clues Bob number 1 and it touches three 1s.
-  * Bob successfully plays two 1s.
+  * Alice clues Bob number 1 and it touches three 1's.
+  * Bob successfully plays two 1's.
   * Before Bob can play the 3rd 1, Alice clues Bob number 1 again, and it re-touches the remaining 1.
   * Now it is Bob's turn. Since he was going to play the 1 already without Alice doing anything, the clue must have some other meaning. Thus, it is a *Fix Clue*: the remaining 1 is bad, and Bob can safely discard it.
 
@@ -219,8 +219,8 @@ Note that in this user interface, players are holding their hands like they woul
 
 ### Prompts
 
-* Imagine that you have one or more cards in your hand that have a clue on them, but their full identity is currently unknown. In this situation, you are supposed to just keep the cards in your hand, and continue to discard unclued cards.
-* If someone gives a *Play Clue* to a card that is currently unplayable, then they could be telling YOU to play a card that is already clued in your hand. This is called a *Prompt* because it is "prompting" you to play a card that you would have otherwise held on to.
+* Imagine that you have a card in your hand that has a clue on it, but the full identity of the card is currently unknown. In this situation, you are supposed to just keep the card in your hand, and continue to discard unclued cards.
+* If someone gives a *Play Clue* to a card that is currently unplayable, and the "in-between" card matches the clued card in your hand, then they could be telling YOU to play the clued card. This is called a *Prompt* because it is "prompting" you to play a card that you would have otherwise held on to.
 * For example, in a 3-player game:
   * All the 2's have been played on the stacks.
   * Alice clues a red 4 in Cathy's hand as a *Play Clue* (since it was not on chop).
@@ -260,8 +260,8 @@ Note that in this user interface, players are holding their hands like they woul
   * Misplaying a card does NOT count as ending the *Early Game*.
   * Discarding known trash does NOT count as ending the *Early Game*.
   * Doing special discards that "transfer" cards to other players does NOT count as ending the *Early Game*.
-* In the *Early Game*, you are allowed to clue off-chop 5s if there is nothing else to do. However, you are also allowed to clue an off-chop 5 if there is only ONE *Play Clue* remaining and it would touch a card on *Finesse Position*.
-* In the *Early Game*, players must "extinguish" all of the available clues on the board. This does include cluing off-chop 5s, but it is mandatory to only clue ONE off-chop 5. If one off-chop 5 has already been clued and there is another off-chop 5 clue available, players are allowed (but not required) to clue it.
+* In the *Early Game*, you are allowed to clue off-chop 5's if there is nothing else to do. However, you are also allowed to clue an off-chop 5 if there is only ONE *Play Clue* remaining and it would touch a card on *Finesse Position*.
+* In the *Early Game*, players must "extinguish" all of the available clues on the board. This does include cluing off-chop 5's, but it is mandatory to only clue ONE off-chop 5. If one off-chop 5 has already been clued and there is another off-chop 5 clue available, players are allowed (but not required) to clue it.
 * In the *Early Game*, players must "extinguish" all of the available clues on the board. But if the only thing left to clue is in the hand of the person who came directly before you, then cluing is optional, and you can choose to either clue it or discard at your discretion. This is because the player who came before you did not see anything for you to do, and is therefore giving you "permission" to discard.
 
 ### The Priority Prompt & The Priority Finesse
@@ -269,7 +269,7 @@ Note that in this user interface, players are holding their hands like they woul
 * When a player has a choice between two playable cards to play, everyone agrees that there should be a specific *Priority* that they should be played in. The agreed *Priority* is as follows:
   1) Blind-plays — demonstrating that a *Finesse* or *Bluff* occurred is very important
   2) Cards that lead into someone else's hand — otherwise the team would lose *Tempo*
-  3) 5s — playing a 5 gets the team a free clue, which is really good
+  3) 5's — playing a 5 gets the team a free clue, which is really good
   4) The lower rank card — smaller stacks are more important to fill up
   5) The left-most card — the left-most one is more likely to be good
 * When a player does NOT play the card with *Priority*, it is strange, and they must be trying to send a special message.
@@ -279,12 +279,12 @@ Note that in this user interface, players are holding their hands like they woul
 * For example, this IS a *Priority Finesse*:
   * Alice has a known playable red 1 and a known playable blue 2 in her hand.
   * Alice plays blue 2.
-  * Bob comes next. Bob does not see any red 2s. He does not see any blue 3s either. Thus, Alice was supposed to play the red 2 first.
+  * Bob comes next. Bob does not see any red 2's. He does not see any blue 3's either. Thus, Alice was supposed to play the red 2 first.
   * This means that Bob must have blue 3, so he blind-plays his *Finesse Position* card.
 * For example, this is NOT a *Priority Finesse*:
   * Alice has a known playable red 1 and a known playable blue 2 in her hand.
   * Alice plays blue 2.
-  * Bob comes next. Bob does not see any red 2s. Bob does see blue 3 on the chop of Cathy. Thus, Alice played the blue 2 to give Cathy something to do.
+  * Bob comes next. Bob does not see any red 2's. Bob does see blue 3 on the chop of Cathy. Thus, Alice played the blue 2 to give Cathy something to do.
   * Bob clues blues to Cathy as a chop-focus *Play Clue*.
 * Similar to a normal *Prompt*, if a *Priority Prompt* could apply to two or more clued cards, then you should play the left-most one.
 * Similar to a normal *Prompt*, if a *Priority Prompt* mades you play the left-most card and it was not the matching card, then you should continuing playing clued cards until you find the matching card.
@@ -298,7 +298,7 @@ Note that in this user interface, players are holding their hands like they woul
 
 * Sometimes, a player will have two critical cards in a row on chop that will require two separate clues to save. In this situation, the two preceding players should realize that this is happening and both issue clues before it rotates around to that player. However, sometimes it falls to only one player to somehow save TWO cards.
 * One tool to solve the problem is to make a number clue to a card that is NOT the chop. This generally only works if the card is a 1 or a 5.
-* If the card clued is a 1 AND all of the 1s have already been played, the player should think: "Why was I clued a 1 when all of the 1s are already played? Oh, the cards behind the 1 must be critical, so I should try to give a decent clue if possible, or discard the 1."
+* If the card clued is a 1 AND all of the 1's have already been played, the player should think: "Why was I clued a 1 when all of the 1's are already played? Oh, the cards behind the 1 must be critical, so I should try to give a decent clue if possible, or discard the 1."
 * After the chop move clue, the player should consider ALL of the cards to the right of the 1 like they have been touched with an "invisible" clue and therefore never discard them. (Thus, if you clued a 1 on someone's newest slot, it would chop move the entire rest of the hand.)
 * Once a card has been chop moved and is no longer in danger of being discarded, it is treated as an already-clued card with regards to new clues given to that hand.
 
@@ -367,12 +367,12 @@ Note that in this user interface, players are holding their hands like they woul
 
 ### Avoiding Double Discards
 
-* If the player before you just discarded a card (say the red 4), and you don't see that card in anyone else's hand, there is a possibility that you could have that same card on your chop. In this example, if you discarded, both red 4s could be lost and your team would not be able to get a perfect score. This is called *Double Discarding*.
+* If the player before you just discarded a card (say the red 4), and you don't see that card in anyone else's hand, there is a possibility that you could have that same card on your chop. In this example, if you discarded, both red 4's could be lost and your team would not be able to get a perfect score. This is called *Double Discarding*.
 * Since *Double Discarding* can "lose" the game, you should make any decent clue if you can to avoid it. Even a low-value clue might be better than discarding. After a go-around, you can safely discard - if your chop was indeed the same card, it would have been given a save clue by your teammates.
 * If, to avoid a *Double Discard*, the clue that you are considering is so low value that it will cause a fair amount of confusion to your teammates, then it is probably better to just risk it and double discard. Sometimes, you really don't have any clues to give, and that's okay. However, the following "bad" clues are always allowed in *Double Discard* situations:
   1) Tempo clues
-  2) Cluing off-chop 5s
-  3) Saving 2s on chop that are present in another player's hand
+  2) Cluing off-chop 5's
+  3) Saving 2's on chop that are present in another player's hand
   4) Filling in extra info on ambiguously saved cards that are still not playable
   5) Re-cluing 5's to a player (a "hard burn")
 * The plus side of this strategy is that, because players should not generally double discard, you do not need to be overly worried about the same card being on two simultaneous chops.
@@ -381,13 +381,13 @@ Note that in this user interface, players are holding their hands like they woul
 
 ### Fully Clued Hands (Locked Hands)
 
-* Generally speaking, it is a bad situation when someone's hand gets fully clued. This is also known as being "locked", and it should be avoided if possible. However, sometimes it cannot be helped, like if the player draws three 5s in a row.
+* Generally speaking, it is a bad situation when someone's hand gets fully clued. This is also known as being "locked", and it should be avoided if possible. However, sometimes it cannot be helped, like if the player draws three 5's in a row.
 * A person with a fully clued hand may give a low value clue because they are not sure that they can play anything (and they can't discard because their hand is fully clued). Do NOT read too closely into any clues given during this state.
 * If your team is out of clues and someone's hand is fully clued, then you HAVE to discard to generate a clue for them. Similarly, if there is only 1 clue left, you cannot steal it from them.
 * Explicitly, while in a locked hand, a player can do the following "bad" clues that are also allowed while in double discard situations:
   1) Tempo clues
-  2) Cluing off-chop 5s
-  3) Saving 2s on chop that are present in another player's hand
+  2) Cluing off-chop 5's
+  3) Saving 2's on chop that are present in another player's hand
   4) Filling in extra info on ambiguously saved cards that are still not playable
   5) Re-cluing 5's to a player (a "hard burn")
 * Beyond this, they can also give additional bad clues that are not allowed in double discard situations:
@@ -407,8 +407,8 @@ Note that in this user interface, players are holding their hands like they woul
 * For this reason, do NOT read too closely into any clues given during this state - it might just be a "stall" clue because the player had no other choice.
 * Explicitly, while at 8 clues, a player can do the following "bad" clues that are also allowed while in double discard situations:
   1) Tempo clues
-  2) Cluing off-chop 5s
-  3) Saving 2s on chop that are present in another player's hand
+  2) Cluing off-chop 5's
+  3) Saving 2's on chop that are present in another player's hand
   4) Filling in extra info on ambiguously saved cards that are still not playable
   5) Re-cluing 5's to a player (a "hard burn")
 * Beyond this, they can also give the additional bad clues that are allowed in the "fully clued hands" situation:
@@ -551,8 +551,8 @@ This section is unique in that it contains things that are separate from actual 
 
 ### The Trash Chop Move
 
-* The *1s Chop Move* is listed above as an intermediate strategy, but in truth it is just a specific form of the more general *Trash Chop Move*, in which you clue a card that is known useless in order to tell someone that their chop is unsafe.
-* This move is most commonly done with a number 1 clue because it is likely that in the middle of a game, all of the 1s will be already played. But it could also be done with a number two 2 clue if all the 2s are already played / accounted for. Or, it could be done with a yellow clue if all of the yellow cards are already played / accounted for. And so forth.
+* The *1's Chop Move* is listed above as an intermediate strategy, but in truth it is just a specific form of the more general *Trash Chop Move*, in which you clue a card that is known useless in order to tell someone that their chop is unsafe.
+* This move is most commonly done with a number 1 clue because it is likely that in the middle of a game, all of the 1's will be already played. But it could also be done with a number two 2 clue if all the 2's are already played / accounted for. Or, it could be done with a yellow clue if all of the yellow cards are already played / accounted for. And so forth.
 
 ### A Trash Flowchart
 
@@ -585,10 +585,10 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
 
 ### 1's Out-of-Order Chop Move
 
-* Normally, at the beginning of the game, players are expected to play their 1s from right to left.
+* Normally, at the beginning of the game, players are expected to play their 1's from right to left.
 * If a player skips over their right-most 1, and there is nothing else special going on, it means that the next person should chop move one card.
-* If they skip over TWO of their right-most 1s, it means that the next person should chop move the card next to their chop.
-* A skip of three 1s means a chop move shift of 2, and so forth.
+* If they skip over TWO of their right-most 1's, it means that the next person should chop move the card next to their chop.
+* A skip of three 1's means a chop move shift of 2, and so forth.
 * For example, in a 3-player game:
   * It is the first turn of the game.
   * Alice clues Bob number 1, which touches three 1's. They are in slots 1, 2, and 3.
@@ -599,7 +599,7 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
   * The 1 that was played was newly drawn and did NOT exist in the opening hand. (Fresh 1's always have priority.)
   * The 1 that was played was originally *Finessed* from a clue that happened BEFORE the 1's number clue.
   * The 1 that was played had some unique positive or negative color information on it and could potentially lead into someone else's hand.
-  * The 1 that was skipped over is known to be bad from contextual information, and the original 1's number clue was intended to have *Focus Inversion*. For example, if someone discards to end the *Early Game* (implying that there is nothing to do), and the next player clues two or more 1s, it means that the right-most 1 must be bad, so skipping over it does not imply anything special.
+  * The 1 that was skipped over is known to be bad from contextual information, and the original 1's number clue was intended to have *Focus Inversion*. For example, if someone discards to end the *Early Game* (implying that there is nothing to do), and the next player clues two or more 1's, it means that the right-most 1 must be bad, so skipping over it does not imply anything special.
 * If the *1's Out-of-Order Chop Move* is performed, but the next played has every single card clued, then the chop move "skips" over that person and chop moves the next person.
 
 ### The Misplay Chop Move
@@ -634,7 +634,7 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
 
 ### The Critical 4 Bluff
 
-* Building on the *3 Bluffs* convention, we also agree that is possible for a card that initiates a *Bluff* to be a copy of any of the 4s that are critical (meaning that the other copy is in the discard pile or it is a black 4).
+* Building on the *3 Bluffs* convention, we also agree that is possible for a card that initiates a *Bluff* to be a copy of any of the 4's that are critical (meaning that the other copy is in the discard pile or it is a black 4).
 * Note that this convention does not apply to the *Wild & Crazy* variant.
 
 ### Discard Elimination & The Elimination Blind Play
@@ -671,13 +671,13 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
 * When a player who is in a *Double Discard* situation discards anyway with an obvious clue to give (such as an off-chop 5), it implies that they SEE the other copy of the card, and were not double discarding at all.
 * Thus, when this occurs, you should write *Elimination Notes* on your entire hand for that card.
 
-### The Early 5s Chop Move & The 5 Pull
+### The Early 5's Chop Move & The 5 Pull
 
 * In the *Early Game*, players are only allowed to clue an off-chop 5 if there is nothing left to do. (Or, as a special exception, if there is only one *Play Clue* to give to a card that happens to be on *Finesse Position*.)
 * Thus, if someone clues a 5 and there IS something else to do, they are performing a special move.
 * If the 5 is one-away from chop, then they are performing an *Early 5's Chop Move*. This functions in the same way a normal *5's Chop Move* does (except it was done in the *Early Game*, which isn't normally possible).
 * If the 5 is two or more away from chop, then they are performing a *5 Pull*. A *5 Pull* causes the player to blind-play the card to the right of the 5. For the player receiving the clue, it is understood that the 5 is not actually related to the blind-play. This is why it is called a *Pull* instead of a *Finesse* or a *Bluff*.
-* *5 Pulls* are typically done to 5s that are in slot 1. But, for example, you can also clue a 5 in slot 2 in order to get a blind-play on slot 3.
+* *5 Pulls* are typically done to 5's that are in slot 1. But, for example, you can also clue a 5 in slot 2 in order to get a blind-play on slot 3.
 * Normally, you are allowed to defer playing into a *Finesse* or *Bluff* if you are doing a *Finesse* or *Bluff* of your own. However, this does NOT apply to *5 Pulls*. If you are *5 Pulled*, you MUST play the blind card immediately.
 
 ### The 5 Pull Prompt & The 5 Pull Finesse
@@ -718,37 +718,37 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
 * Example 2:
   * In a 3 player no-variant game, Alice has a blue 2 on chop that needs to be saved.
   * Bob has 2 unknown 2's.
-  * Cathy has 2 unknown 2s.
+  * Cathy has 2 unknown 2's.
   * The responsibility is shared, so Bob should perform the clue if Cathy has a good discard, or he can discard and let Cathy do it.
 * Example 3:
   * In a 3 player no-variant game, Alice has a blue 2 on chop that needs to be saved.
   * Bob has 2 unknown blue cards.
-  * Cathy has 1 unknown 2s.
+  * Cathy has 1 unknown 2's.
   * Bob should let Cathy perform the save, since 1 matching card is less than 2 matching cards.
 * Example 4:
   * In a 3 player no-variant game, Alice has a blue 2 on chop that needs to be saved.
   * Bob has 2 unknown blue cards. No blue cards have been played yet, so from Bob's perspective, each blue card has a 1/5 chance of being the blue 2.
-  * Cathy has 2 unknown 2s. No 2's have been played yet, so from Cathy's perspective, each 2 has a 1/5 chance of being the blue 2.
+  * Cathy has 2 unknown 2's. No 2's have been played yet, so from Cathy's perspective, each 2 has a 1/5 chance of being the blue 2.
   * The responsibility is shared, so Bob should perform the clue if Cathy has a good discard, or he can discard and let Cathy do it.
 * Example 5:
   * In a 3 player no-variant game, Alice has a blue 2 on chop that needs to be saved.
   * Bob has 2 unknown blue cards. No blue cards have been played yet, so from Bob's perspective, each blue card has a 1/5 chance of being the blue 2.
-  * Cathy has 2 unknown 2s. One 2 has been played already, so from Cathy's perspective, each 2 has a 1/4 chance of being the blue 2.
+  * Cathy has 2 unknown 2's. One 2 has been played already, so from Cathy's perspective, each 2 has a 1/4 chance of being the blue 2.
   * Thus, it is Cathy's responsibility to save the blue 2.
 
-### Context Clues & The Stale 1s Clue
+### Context Clues & The Stale 1's Clue
 
 * Based on the *First Principles*, we have conventions that define what a clue means. But combined with this, we are always expected to look at the context of the game.
 * For example, sometimes players will receive a clue that just feels strange. If this good clue could have been given a bunch of turns ago, why is it only being given now? Were the other players not paying close enough attention, and are only getting around to cluing this card now?
 * In these types of situations, from *High Value Principle*, you can assume that the team is not making any mistakes, which means that the meaning of the clue should be altered from the "textbook" definition. We call these types of clues *Context Clues* because they rely on contextual reading of the game state.
 * The most common *Context Clue* is given to "stale" 1's towards the beginning of the game. For example, in a 3-player game:
   * After a few ordinary clues happen, Alice discards, which ends the *Early Game* and initiates the *Mid-Game*. By doing this, she implies that there is nothing to do (because players are mandated to "extinguish" all of the available *Play Clues* and *Save Clues* in the *Early Game*).
-  * Bob then immediately clues Cathy about two 1s.
-  * Normally, from *Good Touch Principle*, Cathy would assume that both of the 1s were "good" and play both.
-  * However, Cathy also knows that if both of these 1s were good, then Alice was required to clue them before discarding.
-  * Thus, Cathy can reason that one of the 1s are bad. Furthermore, by convention, she knows that the oldest (right-most) 1 is bad, because that would be the one that she would ordinarily play first.
+  * Bob then immediately clues Cathy about two 1's.
+  * Normally, from *Good Touch Principle*, Cathy would assume that both of the 1's were "good" and play both.
+  * However, Cathy also knows that if both of these 1's were good, then Alice was required to clue them before discarding.
+  * Thus, Cathy can reason that one of the 1's are bad. Furthermore, by convention, she knows that the oldest (right-most) 1 is bad, because that would be the one that she would ordinarily play first.
   * So, Cathy should skip over the oldest (right-most) 1, and play the other 1. Cathy should also treat the other 1 as known-trash.
-* The *Stale 1s Clue* is specific example of a more general concept called *Focus Inversion*, which is covered later.
+* The *Stale 1's Clue* is specific example of a more general concept called *Focus Inversion*, which is covered later.
 
 ### Focus Inversion
 
@@ -849,7 +849,7 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
 * Normally, when a useless card is clued, it signifies a *Trash Chop Move*. However, what if the useless card is actually the card on chop? Then it wouldn't be chop moving anything.
 * From *Good Touch Principle*, we know that it is pointless to spend a clue to touch useless cards on someone's chop, because if we just do nothing, the useless card will get automatically discarded.
 * Subsequently, if this is done deliberately, it must have a meaning. By doing this, it means that we want to "push" the card that is next to the useless card onto the table.
-* For example, in a 3-player game where all of the 1s are played already:
+* For example, in a 3-player game where all of the 1's are played already:
   * Bob has no clued cards in his hand. His chop is his slot 5.
   * Alice clues Bob number 1, which only touches his slot 5 card.
   * Bob blind plays his slot 4 card, and it is a playable red 2.
@@ -861,7 +861,7 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
 * What if the recipient of the clue does NOT know that the card that was clued is useless? They will go on to misplay that card, mistaking it for a "normal" *Play Clue*.
 * When you see this occur, it works like a *Bluff*; you must blind-play your *Finesse Position* card, or the player who received the clue will go on to misplay.
 * *Trash Bluffs* are a good tool to get a card played that is sitting behind other annoying cards.
-* For example, in a 3-player game where all of the 1s are played already EXCEPT for red 1:
+* For example, in a 3-player game where all of the 1's are played already EXCEPT for red 1:
   * Cathy has no clued cards in her hand.
   * Alice clues Cathy number 1, which only touches her newest (slot 1) card. This card is a green 1, so Cathy will assume that it is a red 1.
   * Bob blind plays his *Finesse Position* card, and it is a playable red 1.
@@ -871,7 +871,7 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
 ### The Trash Finesse (strong form)
 
 * It is possible to perform a *Trash Bluff* outside of *Bluff Position* if there is only one possibility for the useless card to be. When this is done, it promises that someone has that specific card, so it is a *Trash Finesse* rather than a *Trash Bluff*.
-* It is also possible to *Double Trash Finesse*. By touching a useless 2 with TWO 2's remaining, it means that you see BOTH the 2s, so this can cause two people to blind play their *Finesse Position* card (or one person to blind play twice). Note that a *Double Trash Finesse* cannot be done in *Bluff Position*, or it will look like a normal *Trash Bluff*.
+* It is also possible to *Double Trash Finesse*. By touching a useless 2 with TWO 2's remaining, it means that you see BOTH the 2's, so this can cause two people to blind play their *Finesse Position* card (or one person to blind play twice). Note that a *Double Trash Finesse* cannot be done in *Bluff Position*, or it will look like a normal *Trash Bluff*.
 
 ### The Trash Finesse (weak form)
 
@@ -986,7 +986,7 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
 ### Black 2 & Black 5 Saves
 
 * This convention applies to the *Black Suit (one of each)* and *Wild & Crazy* variants.
-* Players should save black 2s and black 5s with a number clue instead of a color clue. (This helps narrow down what card is being clued.)
+* Players should save black 2's and black 5's with a number clue instead of a color clue. (This helps narrow down what card is being clued.)
 * There are four exceptions to this:
   * if the black clue touched two or more brand new black cards OR critical Rainbow cards
   * if the black clue was required to avoid violating *Good Touch Principle*
@@ -997,7 +997,7 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
 ### Black 3 & Black 4 Saves
 
 * This convention applies to the *Black Suit (one of each)* and *Wild & Crazy* variants.
-* Players should save black 3s and black 4s with a color clue instead of a number clue. (This helps narrow down what card is being clued.)
+* Players should save black 3's and black 4's with a color clue instead of a number clue. (This helps narrow down what card is being clued.)
 * There is one exception to this:
   * if the number clue also touched another critical card
 * Subsequently, if a number clue is used to touch a black 3 or a black 4 (and the above exception is not applicable), then it implies a *Finesse*.
@@ -1053,7 +1053,7 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
 * Nearly all of the conventional "rules" are closely followed in 5-player games, regardless of the variant. And the same goes for 4-player games in the *Wild & Crazy* variant.
 * However, 5-player *Wild & Crazy* is extremely difficult. Thus, we have slightly altered some conventions to be more "aggressive" in this game type:
   1) No *Crazy 3 Saves* and no *Crazy 4 Saves* – you must duplicate a rainbow card if you want to save a black 3 or black 4
-  2) No Locked Hand Saves – locked players must perform a "hard burn" if they have no normal *Play Clues* or *Save Clues* or off-chop 5s to clue
+  2) No Locked Hand Saves – locked players must perform a "hard burn" if they have no normal *Play Clues* or *Save Clues* or off-chop 5's to clue
   3) Ending the *Early Game* – players may choose to not "extinguish" all of the available clues, especially if the last remaining clue is a 1-for-1
 * Besides these specific alterations, you should also account for the fact that the team will play more risky in general – more aggressive discards, more letting cards "ride" on chop, and so forth.
 
@@ -1102,7 +1102,7 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
   * This could be a normal *Bluff* if the 4 in her hand is blue 4, since blue 4 is currently "one-away". Thus, Cathy DOES NOT assume that her 4 is red 4, and subsequently, does DOES NOT assume that her unknown 3 is a red 3. However, it could ALSO be the case that the 4 is a red 4 (if the 3 in her hand happens to be red 3).
   * Thus, Cathy marks down both possibilities for later and does not play anything right now.
 
-### Cluing Off-Chop 2s
+### Cluing Off-Chop 2's
 
 * On the first turn of the game, it is not possible to discard. If there is absolutely nothing else to do, it is permissible in this situation to use a number 2 clue to save a 2 that is not on chop (but only if the other players can see that you had no other choice).
 
@@ -1293,7 +1293,7 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
   * At the beginning of a 4-player game, Alice goes first.
   * Bob has a red 1 on slot 1 and a blue 2 on slot 2.
   * Alice clues Bob number 2.
-  * Bob doesn't see any other 1s on *Finesse Position*. Thus, a 2's clue must be a *Self-Finesse*, so he blind plays red 1.
+  * Bob doesn't see any other 1's on *Finesse Position*. Thus, a 2's clue must be a *Self-Finesse*, so he blind plays red 1.
   * Cathy comes next. From her perspective, Bob will think that his blue 2 is red 2, and will go on to misplay the card.
 * From Cathy's perspective, there are 5 possible situations:
 
@@ -1500,7 +1500,7 @@ n/a
 | The Double Half Bluff | Hyphen-ated
 | The Triple Bluff | Zamiel
 | The Triple Two-Thirds Bluff | Zamiel
-| Playing 1s from Right to Left | Duneaught
+| Playing 1's from Right to Left | Duneaught
 | The 9 First Principles | Duneaught
 | The Gentleman's Discard | Duneaught
 | The Layered Gentleman's Discard | Duneaught
