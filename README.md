@@ -1522,7 +1522,8 @@ n/a
 | The Double Trash Finesse | Duneaught
 | The Trash Push Finesse | Duneaught
 | The Hesitation Blind Play | Zamiel
-| The Priority Prompt & The Priority Finesse | Libster
+| The Priority Prompt & The Priority Finesse | Libster & Zamiel
+| The Priority Bluff & The Priority Layered Finesse | Zamiel
 | The Dupe Bluff | Duneaught
 | The Certain Finesse | Zamiel
 | The Negative Prompt | Zamiel & Libster
@@ -1569,8 +1570,6 @@ n/a
 | The Continuation Clue | Libster
 | The Just-In-Time Fix Clue | Zamiel
 | The Occupied Play Clue & The Occupied Finesse | Zamiel
-| The Higher Rank Prompt & The Higher Rank Finesse | Libster & Zamiel
-| The Higher Rank Bluff & The Higher Rank Layered Finesse | Zamiel
 | The Long-Range Scream Discard | Florrat
 | The Bad Touch Double Finesse | Sankala
 | The Bad Touch Double Bluff & The Bad Touch Double Half Bluff | Sankala
