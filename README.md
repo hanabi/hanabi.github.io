@@ -1559,8 +1559,6 @@ n/a
 | The Bad Touch Double Finesse | Sankala
 | The Bad Touch Double Bluff & The Bad Touch Double Half Bluff | Sankala
 | The Dump Truck | Ahming
-| The Fuel Clue | Ahming
-| The Setup Finesse | Zamiel, RaKXeR, & Libster
 | The Stop Discard | Zamiel
 | Ejection | Razvogor & Zamiel & Sankala
 | 1's Out-of-Order Chop Move | Zamiel
@@ -1571,3 +1569,4 @@ n/a
 | Out-of-Order Trash Discard Chop Move | Zamiel
 | Surreptitious Self-Finesse | Sankala
 | Rainbow 1oE Saves | Florrat and Libster
+| 5 Pull | Libster
