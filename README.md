@@ -132,7 +132,7 @@ In a text-based example:
 * The forth player will always be Donald.
 * The fifth player will always be Emily.
 
-(This is a historial convention created by [Keldon Jones](http://keldon.net/).)
+(This is a historial convention created by [Keldon Jones](http://keldon.net/) and follows loosely from [cryptography](https://en.wikipedia.org/wiki/Alice_and_Bob).)
 
 A screenshot will look like the following:
 
