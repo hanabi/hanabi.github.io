@@ -154,7 +154,7 @@ Note that in this user interface, players are holding their hands like they woul
 
 * If a player's chop card is clued, even if other new cards are introduced, the focus of the clue is on the chop.
 * All clues that touch the chop have to be treated as potential *Save Clues*. Some common types of *Save Clues* are listed below.
-* Players will use both color and number clues to perform *Save Clues* - always look to see if there is a matching card in the discard pile.
+* Players will use both color and number clues to perform *Save Clues* - always look to see if there is a card in the discard pile that "matches" the clue you were given to the card on chop.
 * From *Save Principle*, if you can determine that the card on your chop does NOT need to be saved, then it must be a *Chop-Focus Play Clue* instead.
 
 ### 5 Saves (on Chop)
