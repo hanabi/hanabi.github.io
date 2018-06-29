@@ -160,7 +160,7 @@ Note that in this user interface, players are holding their hands like they woul
 ### 5 Saves (on Chop)
 
 * Since there is only one copy of each 5, all of the 5s need to be saved so that they won't be discarded.
-* Always save a 5 with a number clue instead of a color clue. Otherwise, it will look like a *Play Clue* (or potentially a *Save Clue* on some other a critical card).
+* Always save a 5 with a number clue instead of a color clue. Otherwise, it will look like a *Play Clue* (or potentially a *Save Clue* on some other critical card).
 
 ### 2 Saves (on Chop)
 
