@@ -1476,14 +1476,6 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
 * However, when a card ON CHOP is clued and the next person misplays that card, it cannot be the *Misplay Chop Move* - it must be something else.
 * Normally, when trash is clued on chop, it is a *Trash Push*. So they should go on to blind play the card that was touching the trash on their next turn.
 
-### The Reverse Misplay Chop Move
-
-* Sometimes, a *Misplay Chop Move* will not immediately misplay because of circumstances similar to *Focus Inversion*, meaning that there is:
-  * negative clues present on the card
-  * historical / contextual information about the card (derived from moves that teammates performed earlier on in the game)
-* In such a scenario, the clue will look like a *Reverse Finesse* and then next person will misplay their *Finesse Position* card.
-* After the misplay, the person who received the clue is to treat it like a normal *Misplay Chop Move*, and chop move all the cards to the right of the clued card.
-
 <br />
 
 ## Non-Formalized Proposals
