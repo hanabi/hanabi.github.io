@@ -1392,11 +1392,9 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
 
 ![Oblivious Finesse](img/oblivious_finesse.png)
 
-### The Trash Push Prompt/Finesse
+### The Trash Push Prompt & The Trash Push Finesse
 
 * If you see that a player *Trash Pushes* an unplayable one-away card, it is a signal to you that you have the connecting card.
-* If possible, you should allow for the possibility of a *Reverse Trash Push Prompt/Finesse*. Whether this is the correct thing to do or not is contextual on the pacing of the game and historical game state.
-  * Allowing for a *Reverse Trash Push Finesse* also has the advantage of potentially causing *Hesitation Blind Plays*, which can be advantageous to the team.
 
 ### The Suboptimal Color Prompt & The Suboptimal Color Finesse
 
