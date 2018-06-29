@@ -223,7 +223,7 @@ Note that in this user interface, players are holding their hands like they woul
 * If someone gives a *Play Clue* to a card that is currently unplayable, and the "in-between" card matches the clued card in your hand, then they could be telling YOU to play the clued card. This is called a *Prompt* because it is "prompting" you to play a card that you would have otherwise held on to.
 * For example, in a 3-player game:
   * All the 2's have been played on the stacks.
-  * Alice clues a red 4 in Cathy's hand as a *Play Clue* (since it was not on chop).
+  * Alice clues a red 4 in Cathy's hand as a *Play Clue*.
   * Bob has a card in his hand with a red clue on it, but no number information.
   * Since Bob can see that the red 4 is supposed to play right now, he must have the red 3. So the unknown red card in his hand must be red 3, and he can safely play it.
 * If a player is *Prompted* and there are multiple cards in the hand that the *Prompt* could apply to, they should play the left-most. (This follows from *Left-Most Playable Principle*.) For example, in a 3-player Rainbow game:
@@ -238,11 +238,13 @@ Note that in this user interface, players are holding their hands like they woul
 
 ### Finesses
 
-* If someone gives a play clue to a card that is currently unplayable, then they could be telling YOU to play a card. Normally, this would indicate a prompt. But, what if you have no clued cards in your hand or no clued cards that apply to the situation? They can't possibly be prompting you, so what are they doing? This is called a *Finesse*. In this situation, you should blindly play your left-most unclued card. Then, the other player will play the card that was directly clued. This way, your team will have gotten 2 plays with only 1 clue, which is very efficient.
+* If someone gives a play clue to a card that is currently unplayable, then they could be telling YOU to play a card. Normally, this would indicate a *Prompt*. But, what if you have no clued cards in your hand or no clued cards that apply to the situation?
+* In this situation, you should blindly play your left-most unclued card. Then, the other player will know that the clued card directly matches the blind-play, and will play it. By doing this, the team will have gotten 2 plays with only 1 clue, which is very efficient. This is called a *Finesse*.
 * The position that a player's left-most unclued card is in is called *Finesse Position*.
 * For example, on the first turn of a 3-player game:
   * Alice clues Cathy red, which touches her red 2.
-  * Next, it is Bob's turn. Bob sees that, with this weird red clue, Cathy has just been signaled that she has the red 1. Oh no! Cathy is going to misplay that on the next turn! What could Alice have been thinking! Oh wait - something must be in Bob's hand to make that red 2 playable. This must be the *Finesse* convention, so he blindly plays his left-most card and it is the red 1.
+  * Next, it is Bob's turn. Bob sees that, with this weird red clue, Cathy has just been signaled that she has the red 1. Oh no! Cathy is going to misplay that on the next turn! What could Alice have been thinking!
+  * If Alice is not making a mistake, something must be in Bob's hand to make the red 2 playable. This must be the *Finesse* convention, so he blindly plays his left-most card and it is the red 1.
   * Next, Cathy plays her red 2.
 * **Note that *Prompts* take priority over *Finesses*!** Do not blindly play your left-most card if the situation can apply to any of the clued cards in your hand.
 
@@ -252,6 +254,12 @@ Note that in this user interface, players are holding their hands like they woul
 * Since *Reverse Finesses* exist as a strategy, before playing ANYTHING that you aren't 100% sure about, you should always check out everyone's *Finesse Position* card (the left-most unclued card). If the card in this slot "matches" the card that you were just clued, then you should DEFER playing it for at least one go-around.
 * If the player whom you suspected the *Reverse Finesse* was directed towards blind-plays their card, then it means that the card that was clued originally is the next card in the chain and you can play it on your next turn.
 * Or, if the player whom you suspected the *Reverse Finesse* was directed towards did NOT blind-play, then you can safely play yours.
+* For example, on the first turn of a 3-player game:
+  * Alice clues Bob red, which touches his red 2.
+  * Next, it is Bob's turn. Normally, Bob would think that he had the red 1, and play it immediatley.
+  * However, Bob also notices that on Cathy has a red 1 on her slot 1 position. Thus, he has to give a chance for Cathy to prove whether or not the clue was a *Reverse Finesse*. If Cathy doesn't blind-play anything, then Bob should have the red 1, and he can play it on his next turn.
+  * Bob discards.
+  * Cathy blind plays red 1. Bob now knows that he has the red 2.
 
 ### The Early Game (Intermediate Section)
 
