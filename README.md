@@ -506,22 +506,26 @@ This section is unique in that it contains things that are separate from actual 
   * Next, Cathy sees that Bob just blind-played a green 1 immediately after this red clue, so she knows that she must have the red 2. Cathy holds on to the red 2 for later and discards.
 * Except in rare circumstances, **bluffing is only permissible when you are the person directly before the player who is blind-playing a card**. This is called being in *Bluff Position*. Do not *Bluff* unless you are in *Bluff Position*!
 
-### The Double/Triple Prompt
+### The Double/Triple/Quadruple Prompt
 
 * Sometimes, someone can give a *Prompt* that is prompting TWO (or more) cards with one clue, which is pretty efficient.
-* For example, say that a red 1 is played on the pile, you have 2 clued red cards in your hand, and no-one else has any red cards in any of their hands. Then, someone draws a red 4 and it is immediately clued as red. How can the red 4 be playable? Well, the only way is that if you have the red 2 and the red 3. So, you would play these from left to right during your next two turns.
+* For example, in a 3-player game:
+  * A red 1 is played on the stacks.
+  * Alice clues Cathy red, which touches a red 4.
+  * Bob has two clued red cards in his hand. Since the red 4 is playable right now, he knows that his two red cards must be a red 2 and a red 3 (in order from left-to-right).
+  * Bob plays both of them.
 
 ### The Double/Triple/Quadruple Finesse
 
 * In a 4-player game, it is possible to get two different people to blind-play their cards in a row if you give a clue to a card that is two-away from being playable. This is very efficient, as it is a 3-for-1 clue.
-* For example:
-  * A red 1 is currently played on the stacks.
+* For example, in a 4-player game:
+  * A red 1 is played on the stacks.
   * Alice clues Donald red, touches a red 4.
   * Bob plays red 2 from his *Finesse Position*.
   * Cathy plays red 3 from her *Finesse Position*.
   * Donald plays red 4.
 * Similarly, it is possible to get a single person to blind-play 2 cards in a row. In this situation, since they see that the clue can't apply to anyone else's hands, they will assume that the clue is talking about their two newest unclued cards, and they will play from left to right.
-* In general, remember that players will always assume *Prompts* over *Finesses*. Thus, is it possible to do a clue that prompts a card from a player's hand and THEN gets them to blind-play their *Finesse Position* card on the next turn (or vice-versa, depending on the negative information on the card and the situation).
+* In general, remember that players will always assume *Prompts* over *Finesses*. Thus, is it possible to do a clue that prompts a card from a player's hand and THEN gets them to blind-play their *Finesse Position* card on the next turn.
 
 ### The Ambiguous Finesse
 
@@ -666,6 +670,21 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
 
 * When a player who is in a *Double Discard* situation discards anyway with an obvious clue to give (such as an off-chop 5), it implies that they SEE the other copy of the card, and were not double discarding at all.
 * Thus, when this occurs, you should write *Elimination Notes* on your entire hand for that card.
+
+### The Early 5s Chop Move & The 5 Pull
+
+* In the *Early Game*, players are only allowed to clue an off-chop 5 if there is nothing left to do. (Or, as a special exception, if there is only one *Play Clue* to give to a card that happens to be on *Finesse Position*.)
+* Thus, if someone clues a 5 and there IS something else to do, they are performing a special move.
+* If the 5 is one-away from chop, then they are performing an *Early 5's Chop Move*. This functions in the same way a normal *5's Chop Move* does (except it was done in the *Early Game*, which isn't normally possible).
+* If the 5 is two or more away from chop, then they are performing a *5 Pull*. A *5 Pull* causes the player to blind-play the card to the right of the 5. For the player receiving the clue, it is understood that the 5 is not actually related to the blind-play. This is why it is called a *Pull* instead of a *Finesse* or a *Bluff*.
+* *5 Pulls* are typically done to 5s that are in slot 1. But, for example, you can also clue a 5 in slot 2 in order to get a blind-play on slot 3.
+* Normally, you are allowed to defer playing into a *Finesse* or *Bluff* if you are doing a *Finesse* or *Bluff* of your own. However, this does NOT apply to *5 Pulls*. If you are *5 Pulled*, you MUST play the blind card immediately.
+
+### The 5 Pull Prompt & The 5 Pull Finesse
+
+* *5 Pulls* are also allowed to initiate a *Prompt* or *Finesse*.
+* However, *5 Pulls* are NOT allowed to initiate a *Reverse Finesse*.
+* With that said, players DO have to respect that forward *5 Pull Finesses* could be layered/clandestine.
 
 ### The Weak Prompt
 
@@ -923,13 +942,6 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
 * This concept can also be generalized to all *Finesses* that have a *Lie Component* - even after a *Fix Clue*, you should assume that all of the cards are playable.
 * There are exceptions to this rule. For example, if a huge *Finesse* happens that gets five cards blind-played and then you get a *Fix Clue* at the very end, the normal logic doens't apply: you can reason that your teammates would have wanted to perform a lie in order to get a huge Finesse, so it was worth it even if the final card from the *Fix Clue* was not necessarily playable.
 
-### The Early 5's Play Clue & The Early 5's Chop Move
-
-* In the *Early Game*, since you are allowed to stall by cluing off-chop 5's, it is generally impossible to perform the *5's Chop Move*.
-* However, players are not generally supposed to stall until all of the "normal" *Play Clues* and *Save Clues* have been given.
-* Thus, if you receive a number 5 clue that looks like a stall in the *Early Game* and you can see that the player had a good non-stall clue to give, then it is actually a *Play Clue* on the 5.
-* Alternatively, if the 5 is one away from chop, then it turns into a *5's Chop Move*.
-
 ### Rank Priority Prompts/Finesses in Dual-Color Variants
 
 * When you get a play clue on a card that could be multiple suits, you must take the average of all of the ranks and treat the card as having that rank for the purposes of performing a *Rank Priority Finesse*.
@@ -1089,25 +1101,6 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
   * Bob blind plays red 2.
   * This could be a normal *Bluff* if the 4 in her hand is blue 4, since blue 4 is currently "one-away". Thus, Cathy DOES NOT assume that her 4 is red 4, and subsequently, does DOES NOT assume that her unknown 3 is a red 3. However, it could ALSO be the case that the 4 is a red 4 (if the 3 in her hand happens to be red 3).
   * Thus, Cathy marks down both possibilities for later and does not play anything right now.
-
-### The Setup Clue
-
-* In the *Early Game*, the order of operations is usually:
-  * give play clues
-  * give save clues to cards that are on chop
-  * clue off-chop 5s
-* Thus, in the *Early Game*, if someone jumps ahead and ignores all of the *Play Clues* and *Save Clues* on the table to number-clue an off-chop 5, this is very strange, and would usually communicate an advanced strategy like a *Finesse*.
-* However, if cluing the 5 moved that player's *Finesse Position* card to a playable card, then the point of the 5's clue may have been to set up a *Finesse* or *Bluff* of some kind.
-* Subsequently, if you see that an off-chop 5's clue allowed a *Finesse* or *Bluff* to occur, then you should not read very strongly into the original 5's clue.
-* Note that rarely, *Setup Clues* can also be given to 5's in the middle of the hand that don't modify the *Finesse Position*. The point of this is to allow valid *Layered Finesses* to occur that "skip" over the 5.
-
-### The Setup Finesse
-
-* In the *Early Game*, it is common to number-clue a 5 on slot 1 as a *Setup Clue*. This is usually followed up by a *Finesse* or *Bluff* on the new *Finesse Position* (slot 2).
-* However, if the *Setup Clue* is never followed up, the player who received the *Setup Clue* should blind-play their new *Finesse Position* card.
-* One problem with the *Setup Finesse* is that sometimes, in the *Early Game*, people clue on off-chop 5s as a "stall" clue. And sometimes, they clue an off chop 5s as a *Setup Finesse*. How can everyone tell the difference?
-* The way to tell the difference is the "2 Thing Rule", which states that it is a *Setup Finesse* if there are at least 2 other things to do that are better than cluing an off-chop 5 (from the perspective of the player blind-playing into the *Setup Finesse*).
-* Players should keep in mind the "2 Thing Rule" is tricky in that it has information asymmetry: if there are ONLY 2 things to do in 2 separate hands, then those 2 players will NOT know that a *Setup Finesse* has occurred. All players will have to keep this in mind until the *Setup Finesse* has been demonstrated.
 
 ### Cluing Off-Chop 2s
 
@@ -1541,7 +1534,7 @@ n/a
 | The Rebellious Discard | Zamiel
 | Focus Inversion | Zamiel
 | Modified Black 3 & Black 4 Saves | Florrat
-| Modified Early Game | Libster & Florrat
+| The Early Game | Libster & Florrat
 | The Double Tempo Clue | Hyphen-ated
 | Hard Bluffs | Florrat
 | White Compromise | Postmans
@@ -1586,4 +1579,5 @@ n/a
 | Out-of-Order Trash Discard Chop Move | Zamiel
 | Surreptitious Self-Finesse | Sankala
 | Rainbow 1oE Saves | Florrat and Libster
+| Early 5 Chop Move | Libster
 | 5 Pull | Libster
