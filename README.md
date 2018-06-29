@@ -800,7 +800,7 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
 
 ## Level 4 - Expert Strategies
 
-### The Occupied Play Clue & The Occupied Finesse
+### The Occupied Play Clue & The Occupied Finesse (OPC / O.P.C.)
 
 * If a clue could be given by multiple players, who should give the clue? Usually, it makes the most sense for the players with playable cards to play those cards, and the players with nothing to do to give the clue.
 * If someone gives a clue with a playable card in their hand and forces the next person to have nothing to do, this is bad teamwork - unless there was a reason!
@@ -1369,7 +1369,7 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
 * By default, the player should assume that it is another normal *Play Clue* or *Save Clue* on a card outside of the layer, and CONTINUE to blind play cards. This follows from *Information Lock Principle*. *Play Clues* given in this manner are called *Continuation Clues*.
 * Because *Continuation Clues* are the default interpretation, it can be difficult to give a *Fix Clue*, since a *Fix Clue* must ONLY touch cards inside of the layer.
 
-### The Just-In-Time Fix Clue (To Fix a Layered Finesse with a Lie Component)
+### The Just-In-Time Fix Clue (To Fix a Layered Finesse with a Lie Component) (JIT / J.I.T.)
 
 * When performing a *Layered Finesse* with a *Lie Component*, it is important to wait until the last moment to give the *Fix Clue*. This is because after recieving the *Fix Clue*, the player will not play any more blind cards.
 * Thus, you should first wait for all of the "good" blind cards to play, and THEN give the *Fix Clue*.
