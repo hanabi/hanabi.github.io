@@ -687,6 +687,12 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
 * If the 5 is two or more away from chop, then they are performing a *5 Pull*. A *5 Pull* causes the player to blind-play the card to the right of the 5. For the player receiving the clue, it is understood that the 5 is not actually related to the blind-play. This is why it is called a *Pull* instead of a *Finesse* or a *Bluff*.
 * *5 Pulls* are typically done to 5's that are in slot 1. But, for example, you can also clue a 5 in slot 2 in order to get a blind-play on slot 3.
 * Normally, you are allowed to defer playing into a *Finesse* or *Bluff* if you are doing a *Finesse* or *Bluff* of your own. However, this does NOT apply to *5 Pulls*. If you are *5 Pulled*, you MUST play the blind card immediately.
+* *5 Pulls* also take precedence over *Finesses* and *Bluffs*. For example:
+  * It is the *Early Game*.
+  * On the stacks, yellow 3 is played.
+  * A yellow 5 is clued with number 5 on slot 1. (There are other *Play Clues* to give, so this is NOT an off-chop 5's stall clue.)
+  * Normally, this would imply a *Finesse* on a yellow 4.
+  * However, since *5 Pulls* override *Finesses*, as long as there is a playable card to the right of the 5, then NO-ONE is promised the yellow 4.
 
 ### The 5 Pull Prompt & The 5 Pull Finesse
 
