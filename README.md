@@ -264,13 +264,35 @@ Note that in this user interface, players are holding their hands like they woul
 * In the *Early Game*, players must "extinguish" all of the available clues on the board. This does include cluing off-chop 5s, but it is mandatory to only clue ONE off-chop 5. If one off-chop 5 has already been clued and there is another off-chop 5 clue available, players are allowed (but not required) to clue it.
 * In the *Early Game*, players must "extinguish" all of the available clues on the board. But if the only thing left to clue is in the hand of the person who came directly before you, then cluing is optional, and you can choose to either clue it or discard at your discretion. This is because the player who came before you did not see anything for you to do, and is therefore giving you "permission" to discard.
 
-### Order of Playing Two or More Playable Cards
+### The Priority Prompt & The Priority Finesse
 
-* If you have a two cards in your hand that are playable right now, you have a decision on which to play first. PRIORITIZE the cards that have a follow-up card in someone else's hand.
-* For example, in a game with red 1 and blue 1 already played:
-  * Alice has red 2 and blue 2 in her hand and she knows that both are playable right now.
-  * The red 3 is in Bob's hand (and happens to be tagged with a number clue). Alice does not see the blue 3 at all. So, Alice plays the red 2 first.
-  * Bob sees that this decision was made, so he should KNOW that the 3 in his hand is not blue. (He doesn't necessarily know that it is exactly red yet.)
+* When a player has a choice between two playable cards to play, everyone agrees that there should be a specific *Priority* that they should be played in. The agreed *Priority* is as follows:
+  1) Blind-plays — demonstrating that a *Finesse* or *Bluff* occurred is very important
+  2) Cards that lead into someone else's hand — otherwise the team would lose *Tempo*
+  3) 5s — playing a 5 gets the team a free clue, which is really good
+  4) The lower rank card — smaller stacks are more important to fill up
+  5) The left-most card — the left-most one is more likely to be good
+* When a player does NOT play the card with *Priority*, it is strange, and they must be trying to send a special message.
+* Based on what card they did play, if you have any cards in your hand that match the next "connecting" card, it is a message that you can play it right now, similar to a *Prompt*. (The difference is that instead of initiating the *Prompt* with a clue, they initiated it with the order that they played cards.)
+* Alternatively, if you do not have any clued cards in your hand that matches the card that they played, then you you should play your *Finesse Position* card as a *Priority Finesse*.
+* Note that *Priority Prompts* and *Priority Finesses* are only a thing when the player has FULL KNOWLEDGE of the two cards that they are prioritizing. For example, players might be trying to potentially play into someone else's hand, with only a chance that they have a matching card.
+* For example, this IS a *Priority Finesse*:
+  * Alice has a known playable red 1 and a known playable blue 2 in her hand.
+  * Alice plays blue 2.
+  * Bob comes next. Bob does not see any red 2s. He does not see any blue 3s either. Thus, Alice was supposed to play the red 2 first.
+  * This means that Bob must have blue 3, so he blind-plays his *Finesse Position* card.
+* For example, this is NOT a *Priority Finesse*:
+  * Alice has a known playable red 1 and a known playable blue 2 in her hand.
+  * Alice plays blue 2.
+  * Bob comes next. Bob does not see any red 2s. Bob does see blue 3 on the chop of Cathy. Thus, Alice played the blue 2 to give Cathy something to do.
+  * Bob clues blues to Cathy as a chop-focus *Play Clue*.
+* Similar to a normal *Prompt*, if a *Priority Prompt* could apply to two or more clued cards, then you should play the left-most one.
+* Similar to a normal *Prompt*, if a *Priority Prompt* mades you play the left-most card and it was not the matching card, then you should continuing playing clued cards until you find the matching card.
+* Finally, note that the "left-most" *Priority* is contextual and does not always apply. For example, it is common for players to play a right-most card that was originally clued with a *Save Clue*, since that card was explicitly saved and that the other cards in the hand of the same rank could potentially be duplicates.
+
+### A Priority Flowchart (For Choosing Between 2+ Playable Cards)
+
+*Priority* can sometimes be confusing. [Here is a handy flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/priority_flowchart.png) that shows, in general, which card should be played when there is a choice between two cards.
 
 ### The 1's Chop Move
 
@@ -907,36 +929,6 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
 * However, players are not generally supposed to stall until all of the "normal" *Play Clues* and *Save Clues* have been given.
 * Thus, if you receive a number 5 clue that looks like a stall in the *Early Game* and you can see that the player had a good non-stall clue to give, then it is actually a *Play Clue* on the 5.
 * Alternatively, if the 5 is one away from chop, then it turns into a *5's Chop Move*.
-
-### The Priority Prompt & The Priority Finesse
-
-* When a player has a choice between two playable cards to play, everyone agrees that there should be a specific *Priority* that they should be played in. The agreed *Priority* is as follows:
-  1) Blind-plays — demonstrating that a *Finesse* or *Bluff* occurred is very important
-  2) Cards that lead into someone else's hand — otherwise the team would lose *Tempo*
-  3) 5s — playing a 5 gets the team a free clue, which is really good
-  4) The lower rank card — smaller stacks are more important to fill up
-  5) The left-most card — the left-most one is more likely to be good
-* When a player does NOT play the card with *Priority*, it is strange, and they must be trying to send a special message.
-* Based on what card they did play, if you have any cards in your hand that match the next "connecting" card, it is a message that you can play it right now, similar to a *Prompt*. (The difference is that instead of initiating the *Prompt* with a clue, they initiated it with the order that they played cards.)
-* Alternatively, if you do not have any clued cards in your hand that matches the card that they played, then you you should play your *Finesse Position* card as a *Priority Finesse*.
-* Note that *Priority Prompts* and *Priority Finesses* are only a thing when the player has FULL KNOWLEDGE of the two cards that they are prioritizing. For example, players might be trying to potentially play into someone else's hand, with only a chance that they have a matching card.
-* For example, this IS a *Priority Finesse*:
-  * Alice has a known playable red 1 and a known playable blue 2 in her hand.
-  * Alice plays blue 2.
-  * Bob comes next. Bob does not see any red 2s. He does not see any blue 3s either. Thus, Alice was supposed to play the red 2 first.
-  * This means that Bob must have blue 3, so he blind-plays his *Finesse Position* card.
-* For example, this is NOT a *Priority Finesse*:
-  * Alice has a known playable red 1 and a known playable blue 2 in her hand.
-  * Alice plays blue 2.
-  * Bob comes next. Bob does not see any red 2s. Bob does see blue 3 on the chop of Cathy. Thus, Alice played the blue 2 to give Cathy something to do.
-  * Bob clues blues to Cathy as a chop-focus *Play Clue*.
-* Similar to a normal *Prompt*, if a *Priority Prompt* could apply to two or more clued cards, then you should play the left-most one.
-* Similar to a normal *Prompt*, if a *Priority Prompt* mades you play the left-most card and it was not the matching card, then you should continuing playing clued cards until you find the matching card.
-* Finally, note that the "left-most" *Priority* is contextual and does not always apply. For example, it is common for players to play a right-most card that was originally clued with a *Save Clue*, since that card was explicitly saved and that the other cards in the hand of the same rank could potentially be duplicates.
-
-### A Priority Flowchart (For Choosing Between 2+ Playable Cards)
-
-*Priority* can sometimes be confusing. [Here is a handy flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/priority_flowchart.png) that shows, in general, which card should be played when there is a choice between two cards.
 
 ### Rank Priority Prompts/Finesses in Dual-Color Variants
 
