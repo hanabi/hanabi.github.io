@@ -434,7 +434,7 @@ Note that in this user interface, players are holding their hands like they woul
     * a blue 1 on slot 5 with no clues on it yet (on chop)
   * Alice clues red to Bob, which re-touches his slot 2 card and "fills in" his red 5.
   * Bob knows that this is a *Tempo Clue*, and plays red 2.
-  * Cathy sees that if this was a *Tempo Clue Chop Move*, it would be *Chop Moving* the blue 1. Thus, for both the red 2 and the red 5 to be playable, Cathy must have both the red 3 and the red 4 on *Finesse Position*.
+  * Cathy sees that if this was a *Tempo Clue Chop Move*, it would be saving the blue 1, which is useless. Thus, for both the red 2 and the red 5 to be playable, Cathy must have both the red 3 and the red 4 on *Finesse Position*.
   * Cathy blind plays red 3.
 
 ### Avoiding Double Discards
