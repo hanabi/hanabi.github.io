@@ -413,7 +413,7 @@ Note that in this user interface, players are holding their hands like they woul
   * Bob plays red 1 from slot 1. The other two red cards in his hand could be nearly anything.
   * Cathy clues red to Bob, which does not introduce any new cards, but it does re-touch slot 2 and slot 3.
   * Bob knows that this is a *Double Tempo* clue. Both must be playable in order, so he has red 2 in slot 2, and red 3 in slot 3.
-* Note that the normal *Double Tempo Clue* interpretation does not apply when:
+* Note that the normal *Double Tempo Clue* interpretation does not apply in some special situations:
   * the clue unlocks a player's hand
   * it gets two or more cards played in total (using cards in someone else's hand)
 * As another special exception, the normal *Double Tempo Clue* interpretation does not apply when the second card touched is strictly not playable. In this situation, all players can see that since only one card is getting tempo, the interpretation of the clue should be a *Tempo Clue Chop Move*. For example, in a 3-player game:
