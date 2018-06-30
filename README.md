@@ -596,7 +596,7 @@ This section is unique in that it contains things that are separate from actual 
 * In a 4-player game, it is possible to get two different people to blind-play their cards in a row if you give a clue to a card that is two-away from being playable. This is very efficient, as it is a 3-for-1 clue.
 * For example, in a 4-player game:
   * A red 1 is played on the stacks.
-  * Alice clues Donald red, touches a red 4.
+  * Alice clues Donald red, which touches a red 4.
   * Bob plays red 2 from his *Finesse Position*.
   * Cathy plays red 3 from her *Finesse Position*.
   * Donald plays red 4.
