@@ -342,20 +342,20 @@ Note that in this user interface, players are holding their hands like they woul
 ### The Scream Discard Chop Move (Deliberately Discarding Instead of Playing)
 
 * The *Chop Move* outlined above is a tool to save multiple cards with one clue. However, sometimes you may not have a clue at all. One way to solve this situation is with a special kind of discard.
-* Typically, discarding is a last resort. So, if you have a known playable card in your hand, you can send a powerful signal to your partner by discarding. This is called a *Scream Discard*. Since your partner expected you to play the card, it is like screaming at them to let them know that things are very bad.
+* Typically, discarding is a last resort. So, if you have a known playable card in your hand, you can send a powerful signal to your partner by discarding instead. This is called a *Scream Discard*. Since your partner expected you to play the card, it is like screaming at them to let them know that things are very bad.
 * The player being "screamed at" should permanently move their chop by one position.
-* Furthermore, the player being "screamed at" is not allowed to discard on this turn. They must make some clue. Clues in this situation are treated the same as a *Double Discard Situation* (see *Avoiding Double Discards* below).
-* Players are only allowed to *Scream Discard* for cards that are playable or critical (or a needed 2 that isn't seen anywhere else).
-(You are not allowed to Scream Discard for a card that is one away from being playable.)
-* There are two exceptions to the *Scream Discards* convention:
-  * It is not a *Scream Discard* if the next player HAS to generate a clue for a separate reason. This is called a *Generation Discard*; see below.
-  * It is not a *Scream Discard* when the card that the player did not play was a "blind" card AND they could see the blind card in your hand. When this happens, you will usually want to blind play your *Finesse Position* card, since this sequence of events indicates either an *Ambiguous Finesse* or a *Pass Bluff*.
+* Furthermore, the player being "screamed at" is not allowed to discard on this turn. They must make some clue. Clues in this situation are treated the same as a *Double Discard Situation* (see *Avoiding Double Discards* below). In short, this means that they are allowed to give "stall" clues, if necessary.
+* Players are only allowed to *Scream Discard* for **cards that are playable or critical** (or a needed 2 that isn't seen anywhere else). (This follows from *Save Principle*.)
+* Players are NOT allowed to *Scream Discard* for cards that are one-away from being playable.
+* Sometimes, a player will discard with a known-playable card in their hand, but they are NOT intending a *Scream Discard* - it is some other special situation:
+  1) It is not a *Scream Discard* if the next player HAS to generate a clue for cluing the next player. This is called a *Generation Discard*; see below.
+  2) It is not a *Scream Discard* when the card that the player did not play was a "blind" card from a *Finesse* AND the blind card could also be in your hand. When this happens, you will usually want to blind play your *Finesse Position* card, since this sequence of events indicates either an *Ambiguous Finesse* or a *Pass Bluff* (which are both covered later on).
 
 ### The Generation Discard
 
 * Usually, if someone has a known playable card and they discard instead of playing that card, this would indicate a *Scream Discard Chop Move*.
 * However, if playing the card (player 1) would cause the next player to discard (player 2) and the next player after that (player 3) to have a critical and/or playable card "ride" on chop, it is a very bad situation. Thus, the discard is JUST for the purposes of generating a clue so that player 2 can clue player 3.
-* The *Generation Discard* is ONLY to be used as a last resort. If player 3 has something else to do (like play a card or give some obvious clue), then it is NOT a *Generation Discard*, and is instead to be interpretted as a *Scream Discard Chop Move*.
+* The *Generation Discard* is ONLY to be used as a last resort. If player 3 has something else to do (like play a card or give some obvious clue), then player 1 should just play their card and let the card "ride" on chop.
 
 ### A Scream Discard Flowchart
 
@@ -377,9 +377,8 @@ Note that in this user interface, players are holding their hands like they woul
 
 ### Tempo Clues (Re-cluing a Card)
 
-* This is the name given to clues that do not meet *Minimum Clue Value Principle*. They get a card played **right now** that already had a clue on it.
-* Players do not generally give *Tempo Clues*, as they are considered inefficient, and in Hanabi you want to be as efficient as possible.
-* However, *Tempo Clues* are allowed in the following special circumstances:
+* *Tempo Clues* are defined as clues that touch no new cards. Their purpose is to get 1 or more cards played that already had a clue.
+* Note that *Tempo Clues* do not meet *Minimum Clue Value Principle*. They are inefficient, and in Hanabi you want to be as efficient as possible. Thus, we agree that *Tempo Clues* are only allowed in the following special circumstances:
   1. When the card is "out of order" (meaning that it is impossible for a *Prompt* to get the cards played)
   2. When the card was *Chop Moved* and it is now playable
   3. When the clue giver is "locked"
@@ -392,8 +391,51 @@ Note that in this user interface, players are holding their hands like they woul
   10. When in the *End-Game* or the team is behind pace (specifically, when score + deck is below the maximum score)
   11. When the game has been going so well that further clue efficiency is no longer required to win the game
   12. When the tempo clue gets 2 or more cards played.
-* *Tempo Clues* that are done outside of these special circumstances are a different convention called *Tempo Clue Chop Moves*, which are detailed further on in this document.
-* Sometimes, a *Tempo Clue* can touch multiple cards, which typically means that all of the cards touched are playable. See the *Double Tempo Clue* section further on in this document.
+* *Tempo Clues* that are done outside of these special circumstances are a different convention called *Tempo Clue Chop Moves*; see below.
+* Sometimes, a *Tempo Clue* can touch multiple cards, which typically means that all of the cards touched are playable. See *The Double Tempo Clue* section below.
+
+### The Tempo Clue Chop Move
+
+* In general, *Tempo Clues* do not follow from *Minimum Clue Value Principle*, which states that a clue must get at least 1 new card played or save at least 1 new card from being discarded.
+* Thus, a *Tempo Clue* with no other purpose MUST save at least 1 new card, and the player should *Chop Move* their chop card.
+* For example, on the first turn of a no-variant 3-player game:
+  * Alice clues red to Bob, which touches slot 1 and slot 2.
+  * Bob plays red 1 from slot 1. The two red card in his hand could be nearly anything.
+  * Cathy clues number 2 to Bob, which does not introduce any new cards, but it does "fill in" his slot 2 card.
+  * Bob now knows that he has exactly red 2 on slot 2 and that this was a *Tempo Clue*. Since it does not get any new cards and only get tempo on one card in total, he knows that he should also *Chop Move* his slot 5 card.
+* Naturally, *Tempo Clue Chop Moves* do NOT apply in the special situations listed above where natural *Tempo Clues* are allowed.
+
+### The Double Tempo Clue (Re-cluing 2+ Cards)
+
+* Typically, when a *Tempo Clue* is given that touches two or more cards, it means that ALL of the cards touched are playable in order from left to right.
+* For example, on the first turn of a 3-player game:
+  * Alice clues red to Bob, which touches slot 1, slot 2, and slot 3.
+  * Bob plays red 1 from slot 1. The other two red cards in his hand could be nearly anything.
+  * Cathy clues red to Bob, which does not introduce any new cards, but it does re-touch slot 2 and slot 3.
+  * Bob knows that this is a *Double Tempo* clue. Both must be playable in order, so he has red 2 in slot 2, and red 3 in slot 3.
+* Note that the normal *Double Tempo Clue* interpretation does not apply when:
+  * the clue unlocks a player's hand
+  * it gets two or more cards played in total (using cards in someone else's hand)
+* As another special exception, the normal *Double Tempo Clue* interpretation does not apply when the second card touched is strictly not playable. In this situation, all players can see that since only one card is getting tempo, the interpretation of the clue should be a *Tempo Clue Chop Move*. For example, in a 3-player game:
+  * Red 1 is played on the stacks.
+  * Green 4 is in the trash.
+  * Bob has:
+    * a red 2 on slot 2 with a red clue on it
+    * a red 5 on slot 4 with a 5 clue on it
+    * a green 4 on slot 5 with no clues on it yet (on chop and critical)
+  * Alice clues red to Bob, which re-touches his slot 2 card and "fills in" his red 5.
+  * Bob knows that this is a *Tempo Clue*, and plays red 2.
+  * In most cases, since two cards were re-touched, they should both be playable. However, Bob knows that the red 5 is strictly not playable right now. Thus, since the clue did not get any new cards and only got tempo on one card in total, he knows that he should also *Chop Move* his slot 5 card.
+* Building on the previous example, if the other players can see that the card being *Chop Moved* is useless (or not very good), it implies a *Finesse* on the touched cards that are not strictly playable right now. For example, in a 3-player game:
+  * Red 1 and blue 1 are played on the stacks.
+  * Bob has:
+    * a red 2 on slot 2 with a red clue on it
+    * a red 5 on slot 4 with a 5 clue on it
+    * a blue 1 on slot 5 with no clues on it yet (on chop)
+  * Alice clues red to Bob, which re-touches his slot 2 card and "fills in" his red 5.
+  * Bob knows that this is a *Tempo Clue*, and plays red 2.
+  * Cathy sees that if this was a *Tempo Clue Chop Move*, it would be *Chop Moving* the blue 1. Thus, for both the red 2 and the red 5 to be playable, Cathy must have both the red 3 and the red 4 on *Finesse Position*.
+  * Cathy blind plays red 3.
 
 ### Avoiding Double Discards
 
@@ -589,22 +631,6 @@ This section is unique in that it contains things that are separate from actual 
 Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash Chop Move* listed above is one common reason to intentionally clue trash. However, there are other reasons to clue trash that are detailed later on in the document.
 
 [Here is a handy flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/cluing_trash_flowchart.png) for determining the difference between the different types of special moves that touch trash.
-
-### The Tempo Clue Chop Move
-
-* *Tempo Clues* are defined as clues that touch no new cards. Their purpose is to get 1 or more cards played that already have clues on them.
-* In general, *Tempo Clues* do not follow from *Minimum Clue Value Principle* (first principle #4), which states that a clue must get at least 1 new card played or save at least 1 new card from being discarded.
-* Thus, a *Tempo Clue* with no other purpose MUST save at least 1 new card, and the player should "chop move" their chop card to the next slot.
-* *Tempo Clue Chop Moves* do NOT apply in the special situations where natural *Tempo Clues* are allowed. See the *Tempo Clues* section earlier in the document for an explicit listing of these situations.
-
-### The Double Tempo Clue (Re-cluing 2+ Cards)
-
-* Typically, when a *Tempo Clue* is given that touches two or more cards, it means that ALL of the cards touched are playable in order from left to right.
-* However, this interpretation does not apply when:
-  * the clue unlocks a player's hand
-  * it gets two or more cards played in total (using cards in someone else's hand)
-* Furthermore, it also does not apply when the second card touched is strictly not playable. In this situation, all players can see that since only one card is getting tempo, the interpretation of the clue should be a *Tempo Clue Chop Move*.
-* However, if the other players can see that the card being chop moved is useless (or not very good), it implies a *Finesse* on the touched cards that are not strictly playable right now.
 
 ### The Early Fix Clue Chop Move
 
