@@ -107,7 +107,7 @@ While there are some weird strategies that could throw you for a loop if you hav
 
 ### 8. Good Lie Principle
 
-* When a play clue is given, it's a message that says the card is playable. Sometimes this message can be a lie, in order to usefully manipulate other players.
+* When a *Play Clue* is given, it's a message that says the card is playable. Sometimes this message can be a lie, in order to usefully manipulate other players.
 * Valid lies must not allow for the possibility of any misinformed player to give a conflicting clue or misplay. In simpler terms, this means that good lies almost always reveal themselves on the very next turn.
 
 ### 9. High Value Principle
@@ -155,7 +155,7 @@ Note that in this user interface, players are holding their hands like they woul
 * If a player's chop card is clued, even if other new cards are introduced, the focus of the clue is on the chop.
 * All clues that touch the chop have to be treated as potential *Save Clues*. Some common types of *Save Clues* are listed below.
 * Players will use both color and number clues to perform *Save Clues* - always look to see if there is a card in the discard pile that "matches" the clue you were given to the card on chop.
-* From *Save Principle*, if you can determine that the card on your chop does NOT need to be saved, then it must be a *Chop-Focus Play Clue* instead.
+* From *Save Principle*, if you can determine that the card on your chop does NOT need to be saved, then it must be a chop-focus *Play Clue* instead.
 
 ### 5 Saves (on Chop)
 
@@ -199,7 +199,7 @@ Note that in this user interface, players are holding their hands like they woul
 ### When to Discard
 
 * In general (not just in the *Early Game*), discarding is a last resort. If you have known playable cards in your hand, you are expected to play them before discarding. Furthermore, if there are good play clues to give, you are expected to make them before discarding.
-* Thus, if there are more urgent things at hand, you can defer saving important cards on someone else's chop if you see they have playable cards or even a good play clue to give.
+* Thus, if there are more urgent things at hand, you can defer saving important cards on someone else's chop if you see they have playable cards or even a good *Play Clue* to give.
 
 ### Fix Clues
 
@@ -238,7 +238,7 @@ Note that in this user interface, players are holding their hands like they woul
 
 ### Finesses
 
-* If someone gives a play clue to a card that is currently unplayable, then they could be telling YOU to play a card. Normally, this would indicate a *Prompt*. But, what if you have no clued cards in your hand or no clued cards that apply to the situation?
+* If someone gives a *Play Clue* to a card that is currently unplayable, then they could be telling YOU to play a card. Normally, this would indicate a *Prompt*. But, what if you have no clued cards in your hand or no clued cards that apply to the situation?
 * In this situation, you should blindly play your left-most unclued card. Then, the other player will know that the clued card directly matches the blind-play, and will play it. By doing this, the team will have gotten 2 plays with only 1 clue, which is very efficient. This is called a *Finesse*.
 * The position that a player's left-most unclued card is in is called *Finesse Position*.
 * For example, on the first turn of a 3-player game:
@@ -275,7 +275,7 @@ Note that in this user interface, players are holding their hands like they woul
 ### The Priority Prompt & The Priority Finesse
 
 * When a player has a choice between two playable cards to play, everyone agrees that there should be a specific *Priority* that they should be played in. The agreed *Priority* is as follows:
-  1) Blind-plays — demonstrating that a *Finesse* or *Bluff* occurred is very important
+  1) Blind-plays — demonstrating that a *Finesse* occurred is very important
   2) Cards that lead into someone else's hand — otherwise the team would lose *Tempo*
   3) 5's — playing a 5 gets the team a free clue, which is really good
   4) The lower rank card — smaller stacks are more important to fill up
@@ -288,7 +288,7 @@ Note that in this user interface, players are holding their hands like they woul
   * Alice has a known playable red 1 and a known playable blue 2 in her hand.
   * Alice plays blue 2.
   * Bob comes next. Bob does not see any red 2's. He does not see any blue 3's either. Thus, Alice was supposed to play the red 2 first.
-  * This means that Bob must have blue 3, so he blind-plays his *Finesse Position* card.
+  * This means that Bob must have blue 3. Bob does not have any clued cards in his hand, so he blind-plays his *Finesse Position* card.
 * For example, this is NOT a *Priority Finesse*:
   * Alice has a known playable red 1 and a known playable blue 2 in her hand.
   * Alice plays blue 2.
@@ -304,18 +304,40 @@ Note that in this user interface, players are holding their hands like they woul
 
 ### The 1's Chop Move
 
-* Sometimes, a player will have two critical cards in a row on chop that will require two separate clues to save. In this situation, the two preceding players should realize that this is happening and both issue clues before it rotates around to that player. However, sometimes it falls to only one player to somehow save TWO cards.
-* One tool to solve the problem is to make a number clue to a card that is NOT the chop. This generally only works if the card is a 1 or a 5.
-* If the card clued is a 1 AND all of the 1's have already been played, the player should think: "Why was I clued a 1 when all of the 1's are already played? Oh, the cards behind the 1 must be critical, so I should try to give a decent clue if possible, or discard the 1."
-* After the chop move clue, the player should consider ALL of the cards to the right of the 1 like they have been touched with an "invisible" clue and therefore never discard them. (Thus, if you clued a 1 on someone's newest slot, it would chop move the entire rest of the hand.)
-* Once a card has been chop moved and is no longer in danger of being discarded, it is treated as an already-clued card with regards to new clues given to that hand.
+* In the middle of a game, if all of the 1s have been played already, and someone clues a 1, it is quite strange - from *Good Touch Principle*, you are not supposed to touch cards that have already been played.
+* Thus, the clue must have some deeper meaning, and we agree that it means that the cards to the right of the 1 are important. The point of the clue was to give the player a known-safe discard.
+* However, not only does it give a known-safe discard, but it also *Chop Moves* ALL of the cards to the right of the 1. This means that the player should consider the cards to be touched with an "invisible" clue, and never discard them.
+* Most of the time, the *1's Chop Move* is done to *Chop Move* a single card (meaning that the clued 1 was one-away from chop). However, you can also use the *1's Chop Move* to *Chop Move* multiple cards. For example, in a 3-player game:
+  * All of the 1s have been played on the stacks.
+  * Bob has a completely unclued hand.
+  * Alice clues 1s to Bob, which touches a 1 in his slot 1.
+  * Bob *Chop Moves* his slot 2, his slot 3, and his slot 4.
+  * Bob discards the 1.
+  * Bob's chop is now his slot 1.
+* Once a card has been chop moved and is no longer in danger of being discarded, it is treated as an already-clued card with regards to new clues given to that hand. For example, in a 3-player game:
+  * All of the 1s have been played on the stacks.
+  * Bob has a completely unclued hand.
+  * Alice clues 1s to Bob, which touches a 1 in his slot 3.
+  * Bob *Chop Moves* his slot 4.
+  * Bob discards the 1.
+  * Bob's chop is now his slot 3.
+  * Cathy clues blues to Bob, which touches his slot 1 (the card he just drew) and his slot 4 (the card that was just chop moved).
+  * Bob knows that the focus of the clue is always on the brand-new card introduced, so this is NOT chop-focus, and the focus of the clue is on slot 1.
+  * Thus, Bob will play blue 2 from slot 1 on his next turn.
+* Strategy wise, the *1's Chop Move* is used for two main reasons:
+  1) Some cards (e.g. a one-away 3) are quite useful to the team, but illegal to touch directly (as touching them directly with a clue would imply that they are playable right now). If the game is going well, then it can be useful to "waste" a clue in order to have the card saved permanently.
+  2) Sometimes there are multiple critical cards in a row on chop and it falls to one player to save all of them. In this situation, a multiple-card *Chop Move* could be the only way to do it.
+* Note that you are NOT allowed to *Chop Move* a card that you can just clue directly with a *Save Clue* (unless there are multiple critical cards in a row on chop and you have no other choice). This should be obvious, as having some positive information is always better than having the card be a complete mystery.
+* The *1's Chop Move* is a more specific form of the *Trash Chop Move*, which is covered later.
 
 ### The 5's Chop Move
 
 * See the *1's Chop Move* section above for an explanation on what a *Chop Move* is.
-* It is also possible to chop move with a number 5 clue. The player receiving the clue would think something along the lines of: "Why was I clued a 5 EARLY? It isn't even on my chop yet! This must mean my card to the right of the 5 is important, so I should try to give a decent clue if possible, or discard the card to the LEFT of the 5."
-* *5's Chop Moves* are different from *1's Chop Moves* in that you can ONLY chop move ONE card with it. Thus, if you clue a 5 and it is TWO (or more) slots away from the chop, then it is to be assumed to be a *Play Clue* on the 5.
-* When you get clued a 5, the *5's Chop Move* interpretation ALWAYS takes precedence over a play clue interpretation.
+* Normally, we are only allowed to save 5's on chop (unless it is the *Early Game* and there is nothing else to do).
+* So, in the *Mid Game*, if a 5 is clued that is not on chop, it will normally look like a *Play Clue* on that 5.
+* However, if the 5 is **one-away** from chop, then we agree that it has a special meaning, and that the clue is NOT a *Play Clue* at all.
+* Instead, it is understood that the clue is a *5's Chop Move*, and the player should *Chop Move* their chop in a manner similar to the *1's Chop Move*.
+* Note that the *5's Chop Move* is different than the *1's Chop Move* in that you can only chop move ONE card with it. Thus, if you clue a 5 and it is TWO (or more) slots away from the chop, then it is to be assumed to be a *Play Clue* on the 5.
 
 ### The Scream Discard Chop Move (Deliberately Discarding Instead of Playing)
 
@@ -555,7 +577,7 @@ This section is unique in that it contains things that are separate from actual 
 
 * Occasionally, through a mistake (or complicated situation), the same card will be clued in two different people's hands. Generally, this is to be avoided, but sometimes it happens. Handling this can be tricky.
 * Generally, the FIRST person who 100% realizes that they have the duplicate card should discard it (as opposed to playing it or holding on to it). This is called a *Sarcastic Discard*, and it communicates to the other player that they 100% have the discarded card.
-* "Why did Bob just discard the red 3 that I JUST gave him a play clue on? That makes no sense. Wait - it must be because he realized that the red 3 was ALSO clued in someone else's hand. I must have the red 3!"
+* "Why did Bob just discard the red 3 that I JUST gave him a *Play Clue* on? That makes no sense. Wait - it must be because he realized that the red 3 was ALSO clued in someone else's hand. I must have the red 3!"
 
 ### The Trash Chop Move
 
@@ -766,11 +788,11 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
 
 ### Focus Inversion
 
-* Sometimes, a play clue is given that both touches the chop card and one or more other card. The normal interpretation of this is to treat it as a chop-focus play clue, and play the chop. However, sometimes a player can know that the chop is not actually playable. This can be determined through:
+* Sometimes, a *Play Clue* is given that both touches the chop card and one or more other card. The normal interpretation of this is to treat it as a chop-focus *Play Clue*, and play the chop. However, sometimes a player can know that the chop is not actually playable. This can be determined through:
   * explicit information - negative clues present on the card
   * implicit information - historical / contextual information about the card derived from moves that teammates performed earlier on in the game
-* When this occurs, the clue is meant to be a play clue on the left-most card INSTEAD of the chop card.
-* Just like a "normal" play clue that touches multiple new cards, the chop card (and other other new cards introduced) are not necessarily playable right now.
+* When this occurs, the clue is meant to be a *Play Clue* on the left-most card INSTEAD of the chop card.
+* Just like a "normal" *Play Clue* that touches multiple new cards, the chop card (and other other new cards introduced) are not necessarily playable right now.
 * In the following screenshot, nmego has a negative 1 clue on his chop so he should play his slot 1 card immediately. The chop card can be either yellow 2, yellow 3, yellow 4, but not yellow 5 (since Zamiel has it).
 
 ![Focus Inversion](img/focus_inversion.png)
@@ -1218,7 +1240,24 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
 * Sometimes, cards are re-clued in order to initiate a *Finesse* or a *Bluff*. Most times, the clue will "fill in" or give extra information to the existing card.
 * Other times, the clue will give no information (e.g. re-cluing number 3 to an already known 3). In this situation, if it was merely a *Bluff*, it would be pretty low value.
 * Thus, by convention it MUST "get" at least 2 new cards (as opposed to a single *Bluff* that only gets 1 brand new card).
-* Usually, a "no-information" clue conveys a *Double Finesse*. But you can also use it to perform a *Double Bluff*.
+* For example, in a 3-player game:
+  * Nothing is played on the stacks.
+  * Alice clues 3's to Cathy, which touches one 3, the red 3.
+  * Bob blind plays blue 1. At this point, everyone knows that Alice has performed a *3 Bluff*, and from Cathy's perspective, her 3 can be any 3 at all.
+  * Bob discards.
+  * Cathy discards.
+  * Alice clues 3's to Cathy, which re-touches the red 3 (and gives no additional information to it).
+  * Bob blind plays red 1. If this was a *3 Bluff*, then no-one would be promised the red 2. However, since no new information was given, it must be a *No-Information Double Finesse*. Bob sees that Cathy does not have the red 2, so he must have the red 2, and can blind play it on his next turn.
+* Usually, a "no-information" clue conveys a *Double Finesse*. But you can also use it to perform a *Double Bluff*. For example, in a 3-player game:
+  * Nothing is played on the stacks.
+  * Alice clues 3's to Cathy, which touches one 3, the red 3.
+  * Bob blind plays blue 1. At this point, everyone knows that Alice has performed a *3 Bluff*, and from Cathy's perspective, her 3 can be any 3 at all.
+  * Bob discards.
+  * Cathy discards.
+  * Alice clues 3's to Cathy, which re-touches the red 3 (and gives no additional information to it).
+  * Bob blind plays red 1. If this was a *3 Bluff*, then no-one would be promised the red 2. However, since no new information was given, it must be a *No-Information Double Finesse*. Bob sees that Cathy does not have the red 2, so he must have the red 2, and can blind play it on his next turn.
+  * However, Cathy sees that Bob does NOT have a red 2 next to where the red 1 was played from. Therefore, she must have the red 2, so she blind plays her *Finesse Position* card, and it is green 1 instead of red 2.
+  * Since two cards were blind played, everyone now knows that the *No-Information* clue was a *Double Bluff* instead of a *Double Finesse*.
 
 ### The Bad Touch Double Finesse (for 3's)
 
@@ -1497,7 +1536,7 @@ n/a
 | Convention Name | Inventor
 | --- | ---
 | 2 Saves | Hyphen-ated & Duneaught
-| Chop Focus | Zamiel & Hyphen-ated
+| Chop-Focus | Zamiel & Hyphen-ated
 | The Layered Finesse | Antizoubilamaka
 | The Clandestine Finesse | Antizoubilamaka
 | The Patch Finesse | Zamiel & Libster
