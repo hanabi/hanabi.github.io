@@ -1033,8 +1033,8 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
 
 #### Dupe Ejection
 
-* If someone clues a card as a "one for one", and that card is already clued in someone else's hand, this is usually a *Distribution Clue*, which is sometimes done in the *End Game*.
-* However, if this type of move is done before the *End Game*, it must have some other purpose - it should signal an *Ejection* on the very next player.
+* If someone clues a card as a "one for one", and that card is already clued in someone else's hand, this is usually a *Distribution Clue*, which is sometimes done in the *End-Game*.
+* However, if this type of move is done before the *End-Game*, it must have some other purpose - it should signal an *Ejection* on the very next player.
 
 #### Known Trash Ejection
 
