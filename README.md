@@ -648,21 +648,19 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
 ### 1's Out-of-Order Chop Move
 
 * Normally, at the beginning of the game, players are expected to play their 1's from right to left.
-* If a player skips over their right-most 1, and there is nothing else special going on, it means that the next person should chop move one card.
-* If they skip over TWO of their right-most 1's, it means that the next person should chop move the card next to their chop.
-* A skip of three 1's means a chop move shift of 2, and so forth.
+* If a player skips over their right-most 1, and there is nothing else special going on, it means that the next person should *Chop Move* one card.
+* If a player skips over TWO of their right-most 1's, the message skips over the next player, and the player after that should *Chop Move* one card. (And a skip of three 1s means that the player three seats away should *Chop Move*.)
 * For example, in a 3-player game:
   * It is the first turn of the game.
   * Alice clues Bob number 1, which touches three 1's. They are in slots 1, 2, and 3.
   * Bob is expected to play slot 3 (which is the oldest 1). If he plays slot 3, nothing special happens.
   * If Bob plays slot 2, he is performing a *1's Out-of-Order Chop Move*, and Cathy should chop move one card (her slot 5).
-  * If Bob plays slot 1, he is performing a *Skipped 1's Out-of-Order-Chop Move*, and Cathy should chop move the card next to her chop (her slot 4).
+  * If Bob plays slot 1, he is performing a *Skipped 1's Out-of-Order-Chop Move*, and Alice should chop move one card (her slot 5).
 * There are some common special situations that do NOT imply a *1's Out-of-Order Chop Move*:
   * The 1 that was played was newly drawn and did NOT exist in the opening hand. (Fresh 1's always have priority.)
   * The 1 that was played was originally *Finessed* from a clue that happened BEFORE the 1's number clue.
   * The 1 that was played had some unique positive or negative color information on it and could potentially lead into someone else's hand.
-  * The 1 that was skipped over is known to be bad from contextual information, and the original 1's number clue was intended to have *Focus Inversion*. For example, if someone discards to end the *Early Game* (implying that there is nothing to do), and the next player clues two or more 1's, it means that the right-most 1 must be bad, so skipping over it does not imply anything special.
-* If the *1's Out-of-Order Chop Move* is performed, but the next played has every single card clued, then the chop move "skips" over that person and chop moves the next person.
+  * The 1 that was skipped over is known to be bad from contextual information. (See *The Stale 1s Clue* section.)
 
 ### The Misplay Chop Move
 
@@ -1188,6 +1186,11 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
 * Thus, if a player skips over their oldest card and instead discards the other one, they must be trying to communicate something extra.
 * This means that the next player should chop move, which is similar to the *1's Out-of-Order Chop Move*.
 * Note that a player is NOT necessarily trying to perform a *Out-of-Order Trash Discard Chop Move* if the two trash cards have different kinds of clues on them. For example, by discarding specific trash cards, it can communicate that the player "sees" all of the non-trash possibilities of that card.
+
+### Spillover Chop Move
+
+* If a *1's Out-of-Order Chop Move* or a *Out-of-Order Trash Discard Chop Move* is performed, but the player who is supposed to *Chop Move* already has every single card in their hand clued, then this is very strange.
+* In this situation, the *Chop Move* should "skip" over that person and *Chop Moves* the next person after that.
 
 ### The Elimination Blind Play Riding Deduction Bluff
 
