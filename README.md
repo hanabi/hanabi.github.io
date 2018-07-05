@@ -1181,10 +1181,10 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
 ### Out-of-Order Trash Discard Chop Move
 
 * Sometimes, a player will have two known trash cards in their hand (and these cards are explicitly known trash, meaning that everyone on the team can equally see that they are known trash).
-* In this situation, the player is expected to discard the oldest (right-most) trash card, just in case someone made a mistake. (The older card is more likely to be truly trash.)
-* Thus, if a player skips over their oldest card and instead discards the other one, they must be trying to communicate something extra.
-* This means that the next player should chop move, which is similar to the *1's Out-of-Order Chop Move*.
-* Note that a player is NOT necessarily trying to perform a *Out-of-Order Trash Discard Chop Move* if the two trash cards have different kinds of clues on them. For example, by discarding specific trash cards, it can communicate that the player "sees" all of the non-trash possibilities of that card.
+* In this situation, the player is expected to discard the newest (left-most) trash card.
+* Thus, if a player skips over their newest trash card and instead discards the second newest trash card, they must be trying to communicate something extra.
+* This means that the next player should *Chop Move* (in a manner similar to the *1's Out-of-Order Chop Move*).
+* Note that a player is not necessarily trying to perform a *Out-of-Order Trash Discard Chop Move* if the two trash cards have different kinds of clues on them. For example, by discarding specific trash cards, it can communicate that the player "sees" all of the non-trash possibilities of that card.
 
 ### Spillover Chop Move
 
