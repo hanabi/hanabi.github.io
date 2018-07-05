@@ -359,7 +359,7 @@ Note that in this user interface, players are holding their hands like they woul
 
 ### A Scream Discard Flowchart
 
-[Here is a handy flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/scream_discard_flowchart.png) for determining whether something is a *Scream Discard Chop Move* or a *Generation Discard* or a *Long-Range Scream Discard Chop Move* (which is much more rare and is covered later on in this document).
+[Here is a handy flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/scream_discard_flowchart.png) for determining whether something is a *Scream Discard Chop Move* or a *Generation Discard* or a *Echo Scream Discard Chop Move* (which is much more rare and is covered later on in this document).
 
 ### The Unnecessary Generation Discard
 
@@ -1242,23 +1242,18 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
 ### The Whisper Discard Chop Move
 
 * Occasionally, a player will have known trash in their hand. They are always expected to discard the known trash first before discarding their right-most unclued card.
-* Thus, if a player instead discards their right-most unclued card instead of known trash, it must be a signal that something is wrong, exactly like a Scream Discard. This is more subtle than a Scream Discard though, so it is called a Whisper Discard.
-* Whisper Discards are to be treated identically to Scream Discards. In short, this means that they 1) cause a chop move and 2) force a clue to be given on the next turn.
+* Thus, if a player instead discards their right-most unclued card instead of known trash, it must be a signal that something is wrong, exactly like a *Scream Discard*. This is more subtle than a *Scream Discard* though, so it is called a Whisper Discard.
+* *Whisper Discards* are to be treated identically to *Scream Discards*. In short, this means that they 1) cause a *Chop Move* and 2) force a clue to be given on the next turn.
 
-### The Long-Range Scream Discard
+### The Echo Scream Discard Chop Move
 
 * A *Scream Discard Chop Move* is done only as a last resort. So, if the next player has an unimportant card on chop, then the move is usually a *Generation Discard* and does not chop move anyone.
-* In other words, from the perspective of the next player:
-  * if a safe card is on the next person's chop --> *Scream Discard* --> self-chop move
-  * if a critical/playable card is on the next person's chop --> *Generation Discard* --> clue critical card directly with the generated clue
-* However, what if the next player has either:
+* However, what if a *Scream Discard* is done and the next player has either:
   * a known playable card
   * a known safe trash discard
-* This means that it CANNOT be a *Scream Discard* on them, and all players can know this. Thus, everyone can conclude the other possibility, so there is no need to waste a clue on the next person's critical card at all!
-* So, when a *Scream Discard* happens and the next player has a known play / known safe discard, is a *Long-Range Scream Discard* and the NEXT person should treat it as a *Scream Discard* on them (meaning that they chop move and can't discard on their next turn).
-* In the unlikely scenario where two people in a row have known plays / known safe discards, then it is an *Extremely Long-Range Scream Discard* on the next person after that, and so forth.
-* A *Long-Range Scream Discard* is useful if multiple players in a row have critical/playable chops, because you don't want them *Scream Discarding* for each other. Alternatively, it is also useful if they won't know that the next chop needs to be saved (if it plays through cards in their own hand, for example).
-* A *Long-Range Whisper Discard* works in the same way.
+* Since *Scream Discards* are only done as a last resort, the clue must have some other meaning. So, it *Chop Moves* both the next player AND the player after that. This is called an *Echo Scream Discard*, because it "bounces" off the next player and travels to the next player after that as a "double scream".
+* In the unlikely scenario where TWO people in a row have known plays / known safe discards, then the *Echo Scream Discard* will bounce off of two people and perform THREE *Chop Moves* in total. (And three people in a row cause four chop moves, and so forth.)
+* An *Echo Whisper Discard* works in the same way.
 
 ### Stop Discard
 
