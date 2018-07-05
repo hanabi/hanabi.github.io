@@ -416,6 +416,8 @@ Note that in this user interface, players are holding their hands like they woul
 * Note that the normal "play all the cards" interpretation does not apply in some special situations:
   * when the clue unlocks a player's hand
   * when the clue got 2+ cards played in total (using cards in someone else's hand)
+  * when the clue touched a *Chop Moved* card; in this situation, ONLY the *Chop Moved* card is playable
+
 * As another special exception, the "play all the cards" interpretation does not apply when the second card is strictly not playable. In this situation, all players can see that since only one card is getting tempo, the interpretation of the clue should be a *Tempo Clue Chop Move*. For example, in a 3-player game:
   * Red 1 is played on the stacks.
   * Green 4 is in the trash.
