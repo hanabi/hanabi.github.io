@@ -1254,6 +1254,7 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
   * a known playable card
   * a known safe trash discard
 * Since *Scream Discards* are only done as a last resort, the clue must have some other meaning. So, it *Chop Moves* both the next player AND the player after that. This is called an *Echo Scream Discard*, because it "bounces" off the next player and travels to the next player after that as a "double scream".
+* Similar to a normal *Scream Discard*, all of the players who are *Chop Moved* are not allowed to discard on their next turn.
 * In the unlikely scenario where TWO people in a row have known plays / known safe discards, then the *Echo Scream Discard* will bounce off of two people and perform THREE *Chop Moves* in total. (And three people in a row cause four chop moves, and so forth.)
 * An *Echo Whisper Discard* works in the same way.
 
