@@ -563,9 +563,9 @@ This section is unique in that it contains things that are separate from actual 
 * A value called *Pace* is used to determine *End-Game* status; it is calculated by the following formula: `current score + cards in deck + number of players - maximum score`
   * On [Hanabi Live](https://hanabi.live), the user interface will calculate this for you on the right side of the screen. (You may have to enable the "Show efficiency statistics" setting for it to appear.)
 * Pace is essentially the maximum amount of discards that can happen while still having a chance to get the maximum score.
-* If pace is **less than** to the number of players, the *End-Game* has arrived.
+* If pace is **less than the number of players**, the *End-Game* has arrived.
   * On [Hanabi Live](https://hanabi.live), pace will turn yellow when this occurs.
-* If pace is **less than** the number of players / 2, you should be very careful with discarding. It might still be the best thing to do, but if there are enough clues in the bank, it is usually better to *Burn* a clue (meaning to deliberately waste a clue).
+* If pace is **less than the number of players / 2**, you should be very careful with discarding. It might still be the best thing to do, but if there are enough clues in the bank, it is usually better to *Burn* a clue (meaning to deliberately waste a clue).
 * If pace is 0, no more discards can happen in order to get the maximum score.
 * If pace is below 0, it is impossible to get the maximum score.
 
