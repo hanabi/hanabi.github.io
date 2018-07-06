@@ -1420,10 +1420,10 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
 ### The Surreptitious Self-Finesse
 
 * *Clandestine Finesses* are when a color or rank clue "matches" the card from a blind play, but the clue receiver must wait for ADDITIONAL matching playable cards to blind play. Another way of saying this is that *Clandestine Finesses* have a *Misplay Component*; if the blind player does not continue to blind play cards, then the clue receiver will go on to misplay the "matching" card.
-* A similar situation can also happen when a rank clue "matches" the card from a blind play, but the clue receiver sees UNMATCHING rank cards in the blind player's hand that are currently playable.
+* A similar situation can also happen when a rank clue "matches" the card from a blind play, but the clue receiver sees NON-MATCHING rank cards in the blind player's hand that are currently playable.
 * If the clue receiver waits for these non-matching cards to blind play, and they DO blind play, then it means that the original clue had a *Self-Finesse* component to it. This is called a *Surreptitious Self-Finesse* in order to disambiguate it from a more ordinary *Clandestine Finesse*.
-* *Surreptitious Self-Finesses* have a *Misplay Component* in almost the exact same way that *Clandestine Finesses* do, but they just involve unmatching rank cards.
-* Generally speaking, this means that when a RANK clue initiates a *Finesse*, the clue receiver must always allow for the possibility that subsequent unmatching rank cards in the blind player's hand (that are of a LOWER rank than the clue) can possibly be caught up in the *Finesse*.
+* *Surreptitious Self-Finesses* have a *Misplay Component* in almost the exact same way that *Clandestine Finesses* do, but they just involve non-matching rank cards.
+* Generally speaking, this means that when a RANK clue initiates a *Finesse*, the clue receiver must always allow for the possibility that subsequent non-matching rank cards in the blind player's hand (that are of a LOWER rank than the clue) can possibly be caught up in the *Finesse*.
 * For example, in a 3-player game:
   * Red 1 is played on the stacks.
   * Alice clues number 3 to Cathy, which touches one 3.
