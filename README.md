@@ -560,11 +560,14 @@ This section is unique in that it contains things that are separate from actual 
 
 * Towards the end of the game, the strategy of the team will change. In most games, you stop becoming conerned with efficiency and become more concerned with tempo - every card needs to play **right now** before the game ends!
 * Thus, since clues can mean different things whether you are in the *Mid-Game* or the *End-Game*, you need to be able to keep track of when the *End-Game* has arrived.
-* This can be estimated with the following formula: `n = current score + cards in deck - maximum score`
-  * If `n ≥ 0`, you are not yet in the *End-Game*, and you should not hesitate to discard.
-  * If `n < 0`, the *End-Game* has arrived.
-* When `n = -1` (the beginning of the *End-Game*), it is usually okay to discard, unless there is a single person who holds all the useful cards.
-* When `n` is smaller than `-1`, you should be very careful with discarding. It might still be the best thing to do, but it is usually better to *Burn* a clue (meaning to deliberately waste a clue).
+* A value called *Pace* is used to determine the *End-Game* status; it is calculated by the following formula: `current score + cards in deck + number of players - maximum score`
+  * On [Hanabi Live](https://hanabi.live), the user interface will calculate this for you on the right side of the screen.
+* Pace is essentially the maximum amount of discards that can happen in order to get the maximum score.
+* If pace is **equal** to the number of players in the game, the *End-Game* has arrived. At this point, it is usually still okay to discard, unless there is a single person who holds all the useful cards.
+  * On [Hanabi Live](https://hanabi.live), pace will turn yellow when it is <= number of players.
+* If pace is **less than** the number of players in the game, you should be very careful with discarding. It might still be the best thing to do, but it is usually better to *Burn* a clue (meaning to deliberately waste a clue).
+* If pace is 0, a card must be played on every remaining turn in order to get the maximum score.
+* If pace is below 0, it is impossible to get the maximum score.
 
 <br />
 
