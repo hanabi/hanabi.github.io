@@ -1278,7 +1278,6 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
   * Nothing is played on the stacks.
   * Alice clues 3's to Cathy, which touches one 3, the red 3.
   * Bob blind plays blue 1. At this point, everyone knows that Alice has performed a *3 Bluff*, and from Cathy's perspective, her 3 can be any 3 at all.
-  * Bob discards.
   * Cathy discards.
   * Alice clues 3's to Cathy, which re-touches the red 3 (and gives no additional information to it).
   * Bob blind plays red 1. If this was a *3 Bluff*, then no-one would be promised the red 2. However, since no new information was given, it must be a *No-Information Double Finesse*. Bob sees that Cathy does not have the red 2, so he must have the red 2, and can blind play it on his next turn.
@@ -1286,11 +1285,10 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
   * Nothing is played on the stacks.
   * Alice clues 3's to Cathy, which touches one 3, the red 3.
   * Bob blind plays blue 1. At this point, everyone knows that Alice has performed a *3 Bluff*, and from Cathy's perspective, her 3 can be any 3 at all.
-  * Bob discards.
   * Cathy discards.
   * Alice clues 3's to Cathy, which re-touches the red 3 (and gives no additional information to it).
-  * Bob blind plays red 1. If this was a *3 Bluff*, then no-one would be promised the red 2. However, since no new information was given, it must be a *No-Information Double Finesse*. Bob sees that Cathy does not have the red 2, so he must have the red 2, and can blind play it on his next turn.
-  * However, Cathy sees that Bob does NOT have a red 2 next to where the red 1 was played from. Therefore, she must have the red 2, so she blind plays her *Finesse Position* card, and it is green 1 instead of red 2.
+  * Bob blind plays green 1. If this was a *3 Bluff*, then no-one would be promised the green 2. However, since no new information was given, it must be a *No-Information Double Finesse*.
+  * Cathy sees that Bob does not have the green 2, so she must have the green 2, so she blind plays her *Finesse Position* card, and it is yellow 1 instead of green 2.
   * Since two cards were blind played, everyone now knows that the *No-Information* clue was a *Double Bluff* instead of a *Double Finesse*.
 
 ### The Bad Touch Double Finesse (for 3's)
