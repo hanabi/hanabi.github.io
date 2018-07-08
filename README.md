@@ -748,6 +748,12 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
   * A yellow 5 is clued with number 5 on slot 1. (There are other *Play Clues* to give, so this is NOT an off-chop 5's stall clue.)
   * Normally, this would imply a *Finesse* on a yellow 4.
   * However, since *5 Pulls* override *Finesses*, as long as there is a playable card to the right of the 5, then NO-ONE is promised the yellow 4.
+* Normal *Play Clues* and *Delayed Play Clues* take priority over *5 Pulls* (as long as they don't cause any blind cards to play). For example:
+  * It is the *Early Game*.
+  * On the stacks, red 4 is played.
+  * A blue 1 is available to clue in Bob's hand.
+  * Instead, Alice clues an off-chop 5 in Cathy's hand (as number 5).
+  * This is to be interpreted as a *Play Clue* on the red 5 (as opposed to a *5 Pull* on some other card).
 
 ### The 5 Pull Prompt & The 5 Pull Finesse
 
