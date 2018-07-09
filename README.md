@@ -193,8 +193,15 @@ Note that in this user interface, players are holding their hands like they woul
 
 * The *Early Game* is defined as the period of time before someone discards for the first time. When they do, they initiate the *Mid-Game*.
 * The general goal of the *Early Game* is to extend it for as long as reasonably possible. Thus, everyone agrees that they MUST "extinguish" all of the available *Play Clues* and *Save Clues* before discarding. (There are no cards in the discard pile yet, but *Save Clues* still need to be given to all of the 5's on chop and all of the 2's on chop that are not present in someone else's hand.)
-* Normally, you are only allowed to save 5's if they are on chop. But as a special rule, in the *Early Game*, you are allowed to clue number 5 to save off-chop 5's as a "stall" clue. However, you are only allowed to do this if there are no "normal" *Play Clues* or *Save Clues* to give.
+* In the *Early Game*, you can do a special move called a *5 Stall*; see below.
 * That covers the basics. Some more edge-case specifics that you don't need to know right now are listed in *The Early Game (Intermediate Section)*.
+
+### The 5 Stall (cluing off-chop 5s)
+
+* Normally, you are only allowed to give a *Save Clue* to a 5 if it is on chop. So if you use number 5 to clue a 5 that is NOT on chop, then it will typically look like a *Play Clue* on that 5 (or some other advanced strategy).
+* As a special rule, in the *Early Game*, you ARE allowed to clue number 5 as a *Save Clue* to off-chop 5's.
+* However, you are ONLY allowed to do this if there is nothing else to do, meaning that all of the "normal" *Play Clues* and *Save Clues* have been extinguished.
+* Normally, a *5 Stall* is only done in the *Early Game*. However, you might see someone give a *5 Stall* in the *Mid-Game* if they are in a special situation where they need to give a stall clue.
 
 ### When to Discard
 
@@ -268,9 +275,12 @@ Note that in this user interface, players are holding their hands like they woul
   * Misplaying a card does NOT count as ending the *Early Game*.
   * Discarding known trash does NOT count as ending the *Early Game*.
   * Doing special discards that "transfer" cards to other players does NOT count as ending the *Early Game*.
-* In the *Early Game*, you are allowed to clue off-chop 5's if there is nothing else to do. However, you are also allowed to clue an off-chop 5 if there is only ONE *Play Clue* remaining and it would touch a card on *Finesse Position*.
-* In the *Early Game*, players must "extinguish" all of the available clues on the board. This does include cluing off-chop 5's, but it is mandatory to only clue ONE off-chop 5. If one off-chop 5 has already been clued and there is another off-chop 5 clue available, players are allowed (but not required) to clue it.
-* In the *Early Game*, players must "extinguish" all of the available clues on the board. But if the only thing left to clue is in the hand of the person who came directly before you, then cluing is optional, and you can choose to either clue it or discard at your discretion. This is because the player who came before you did not see anything for you to do, and is therefore giving you "permission" to discard.
+* In the *Early Game*, you are allowed to *5 Stall* (on off-chop 5s) if there is nothing else to do. However:
+  * You are ALSO allowed to *5 Stall* if there is only ONE *Play Clue* remaining and it would touch a card on *Finesse Position*.
+  * You are NOT allowed to stall if there happens to be a playable 5. If there is a playable 5, any off-chop 5 clue will be interpreted as a *Play Clue* or a *Delayed Play Clue*.
+* In the *Early Game*, players must "extinguish" all of the available clues on the board. Note that:
+  * This DOES include cluing off-chop 5's, but it is only mandatory to clue ONE off-chop 5. If one off-chop 5 has already been clued and there is another off-chop 5 clue available, players are allowed (but not required) to clue it.
+  * If the only thing left to clue is in the hand of the person who came directly before you, then cluing is optional, and you can choose to either clue it or discard at your discretion. This is because the player who came before you did not see anything for you to do, and is therefore giving you "permission" to discard.
 
 ### The Priority Prompt & The Priority Finesse
 
