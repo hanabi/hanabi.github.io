@@ -511,11 +511,11 @@ This section is unique in that it contains things that are separate from actual 
 * Similar to chess, initiating a move in which you can predict the next sequence of moves is called initiating a "line".
 * In post-game reviews, we will often compare and hypothetically "play through" two different lines to see which one is better.
 
-### Bluff Position and the Pang of Guilt
+### Bluff Seat and the Pang of Guilt
 
-* As mentioned in the section on *Bluffs*, you are in *Bluff Position* for a certain player if you are immediately before them.
+* As mentioned in the section on *Bluffs*, you are in *Bluff Seat* for a certain player if you are immediately before them.
 * If the player before you immediately draws a playable card, you should first notice that the card is in *Finesse Position*. If you clue it directly, you may be "stealing" someone's *Finesse* or *Bluff*.
-* Thus, in this situation, it may be better to discard and let the player in *Bluff Position* get the card in question. If you do decide to clue the card directly, you should always feel a *Pang of Guilt*.
+* Thus, in this situation, it may be better to discard and let the player in *Bluff Seat* get the card in question. If you do decide to clue the card directly, you should always feel a *Pang of Guilt*.
 
 ### Discard Modulation
 
@@ -584,7 +584,7 @@ This section is unique in that it contains things that are separate from actual 
   * This must be a *Finesse*, so Bob knows that he must have the red 1, and he must blind-play it right now or else Cathy will go on to misplay the red 2 as the red 1.
   * Bob blind-plays his slot 1 card. However, it is not the red 1, it was the green 1! Now Bob knows that he has been *Bluffed* by Alice.
   * Next, Cathy sees that Bob just blind-played a green 1 immediately after this red clue, so she knows that she must have the red 2. Cathy holds on to the red 2 for later and discards.
-* Except in rare circumstances, **bluffing is only permissible when you are the person directly before the player who is blind-playing a card**. This is called being in *Bluff Position*. Do not *Bluff* unless you are in *Bluff Position*!
+* Except in rare circumstances, **bluffing is only permissible when you are the person directly before the player who is blind-playing a card**. This is called being in *Bluff Seat*. Do not *Bluff* unless you are in *Bluff Seat*!
 
 ### The Double/Triple/Quadruple Prompt
 
@@ -883,14 +883,14 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
 
 ### The Layered Finesse
 
-* Since we don't allow lying outside of *Bluff Position*, it is possible to perform a *Finesse* on a card that is not in *Finesse Position*, as long as all of the cards leading to it are playable. Essentially, the intended *Finesse* blind play target is layered behind other playable cards.
+* Since we don't allow lying outside of *Bluff Seat*, it is possible to perform a *Finesse* on a card that is not in *Finesse Position*, as long as all of the cards leading to it are playable. Essentially, the intended *Finesse* blind play target is layered behind other playable cards.
 * For example, at the beginning of the game, this is a 4-for-1 clue with full tempo:
 
 ![Layered Finesse](img/layered_finesse.jpg)
 
 ### The Clandestine Finesse
 
-* Since we are allowed to lie in *Bluff Position*, doing a *Layered Finesse* in *Bluff Position* can be problematic, since it will typically only get one card played (instead of a big layered chain of cards).
+* Since we are allowed to lie in *Bluff Seat*, doing a *Layered Finesse* in *Bluff Seat* can be problematic, since it will typically only get one card played (instead of a big layered chain of cards).
 * A form of *Layered Finesse* that gets around this restriction is called the *Clandestine Finesse*, because it is similar to a *Hidden Finesse*. When this move is performed, the player who is blind playing cards knows to keep playing because they see that if they do nothing, the next player will go on to misplay.
 * In the following example, in Zealousy's hand, green 2 and green 3 are already touched with a green clue. Thus, a number 3 clue to Zealousy will get both the red 2 and the purple 2, because if Hyphen-ated does not continue to play the purple 3, Zealousy will think he has red 3 and misplay it.
 
@@ -940,13 +940,13 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
   * Cathy has no clued cards in her hand.
   * Alice clues Cathy number 1, which only touches her newest (slot 1) card. This card is a green 1, so Cathy will assume that it is a red 1.
   * Bob blind plays his *Finesse Position* card, and it is a playable red 1.
-* Just like normal *Bluffs*, *Trash Bluffs* can only be done while in *Bluff Position*.
+* Just like normal *Bluffs*, *Trash Bluffs* can only be done while in *Bluff Seat*.
 * If multiple cards are clued that cause a *Trash Bluff*, it means that ALL of the cards are trash. However, the focus of the clue should be the first thing discarded, which allows for the possibility of your teammates to give a follow-up *Fix Clue*.
 
 ### The Trash Finesse (strong form)
 
-* It is possible to perform a *Trash Bluff* outside of *Bluff Position* if there is only one possibility for the useless card to be. When this is done, it promises that someone has that specific card, so it is a *Trash Finesse* rather than a *Trash Bluff*.
-* It is also possible to *Double Trash Finesse*. By touching a useless 2 with TWO 2's remaining, it means that you see BOTH the 2's, so this can cause two people to blind play their *Finesse Position* card (or one person to blind play twice). Note that a *Double Trash Finesse* cannot be done in *Bluff Position*, or it will look like a normal *Trash Bluff*.
+* It is possible to perform a *Trash Bluff* outside of *Bluff Seat* if there is only one possibility for the useless card to be. When this is done, it promises that someone has that specific card, so it is a *Trash Finesse* rather than a *Trash Bluff*.
+* It is also possible to *Double Trash Finesse*. By touching a useless 2 with TWO 2's remaining, it means that you see BOTH the 2's, so this can cause two people to blind play their *Finesse Position* card (or one person to blind play twice). Note that a *Double Trash Finesse* cannot be done in *Bluff Seat*, or it will look like a normal *Trash Bluff*.
 
 ### The Trash Finesse (weak form)
 
@@ -978,7 +978,7 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
 * This is an example of a *Certain Finesse* - it is similar to the *Sarcastic Finesse* above, but the "blind" card was potentially duplicated instead of the clued card.
 * In this situation, if Alice really has the red 3, Cathy is allowed to blind-discard their *Finesse Position* card. This is called a *Certain Discard*, because Cathy can be certain that it is exactly red 3.
 * A separate way to explain this convention is that everyone agrees that performing a *Layered Finesse* on a card that could potentially be in your own hand is illegal. So, everyone can be certain that they can safely blind discard a card to pass it back to someone who potentially duplicated.
-* Note that players are ONLY allowed to do a *Certain Discard* if they know they have not been bluffed. (This means that *Certain Finesses* cannot be performed from *Bluff Position*.)
+* Note that players are ONLY allowed to do a *Certain Discard* if they know they have not been bluffed. (This means that *Certain Finesses* cannot be performed from *Bluff Seat*.)
 * Much like a *Sacrastic Discard* from a *Sarcastic Finesse*, if someone performs a *Certain Discard*, it does NOT promise the order, because they HAD to put something on the fishing line that you sent out, so to speak.
 
 ### The Certain Discard Duplication Promise
@@ -1031,8 +1031,8 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
 ### The Priority Bluff & The Priority Layered Finesse
 
 * If is possible to lie to the next player and imply a *Priority Finesse* when they have an unrelated card on *Finesse Position*.
-* After the unrelated card is played, since the person who lied was in *Bluff Position*, no further cards should be promised.
-* If an unrelated card was played and the person who lied was not in *Bluff Position*, it implies a *Priority Layered Finesse*.
+* After the unrelated card is played, since the person who lied was in *Bluff Seat*, no further cards should be promised.
+* If an unrelated card was played and the person who lied was not in *Bluff Seat*, it implies a *Priority Layered Finesse*.
 
 ### Ejection
 
@@ -1316,8 +1316,8 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
 ### The Elimination Bluff / The Elimination Layered Finesse
 
 * It is possible to lie to a player who has *Elimination Notes* on their hand and pretend like you are performing an *Elimination Finesse* on them, causing them to play their oldest card as per the convention. This can cause an unrelated playable card to play.
-* If the player who performed the clue was in *Bluff Position*, then it is to be treated like a *Bluff*, and thus they will not know where the actual *Elimination Card* is. (However, in most cases, at this point there will only be one remaining card with an *Elimination Note* on it, so it won't matter.)
-* If the player who performed the clue was not in *Bluff Position*, then the blind-playing person is expected to keep playing until they find the intended card. This is similar to how a *Layered Finesse* works, but it is inverted such that they play cards from oldest to newest.
+* If the player who performed the clue was in *Bluff Seat*, then it is to be treated like a *Bluff*, and thus they will not know where the actual *Elimination Card* is. (However, in most cases, at this point there will only be one remaining card with an *Elimination Note* on it, so it won't matter.)
+* If the player who performed the clue was not in *Bluff Seat*, then the blind-playing person is expected to keep playing until they find the intended card. This is similar to how a *Layered Finesse* works, but it is inverted such that they play cards from oldest to newest.
 
 ### The Patch Finesse
 
@@ -1333,7 +1333,7 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
 
 * Similar to a *Reverse Finesse*, it is possible to perform a *Reverse Bluff*. However, according to *Good Lie Principle*, it is only allowed to lie to the player who comes immediately after you.
   * Why this policy? It is not possible to play with both *Layered Finesses* and *Reverse Bluffs* at the same time, and *Layered Finesses* are much better.
-* However, you can break the *Bluff Position* rule in rare situations where the player that is being passed over cannot actually act on their state of misinformation. For example,
+* However, you can break the *Bluff Seat* rule in rare situations where the player that is being passed over cannot actually act on their state of misinformation. For example,
   * they are at 0 clues (and won't blind play anything)
   * they have negative information on their entire hand
 * Since valid *Reverse Bluffs* are so rare, it is important to remember that a valid *Reverse Bluff* is distinct from a *Layered Finesse*, and that blind playing should stop after the first blind play. (This is a common mistake.)
@@ -1347,7 +1347,7 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
   * Cathy goes next. Cathy sees that Donald does NOT have red 2 in her next newest slot, so he must have the red 2, so he blind-plays his left-most card. However, it is NOT the red 2, but the blue 1. Bob now knows he was bluffed.
   * Alice sees Bob blind play "for no reason", so she knows that she must not have the red 2 and it must have been a *Double Half Bluff*.
   * Finally, Cathy sees this sequence of events occur. Since Alice and Bob blind-played, she must have the red 3.
-* Normally, you are only allowed to *Bluff* while in *Bluff Position*. But *Double Half Bluffs* do not violate *Good Lie Principle*, so we allow them.
+* Normally, you are only allowed to *Bluff* while in *Bluff Seat*. But *Double Half Bluffs* do not violate *Good Lie Principle*, so we allow them.
 
 ### The Double Bluff
 
@@ -1358,7 +1358,7 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
   * Since yellow 5 is playable right now, Bob thinks he has yellow 3 and yellow 4. Bob blind-plays his *Finesse Position* card, but it is actually a blue 1.
   * Cathy sees that Bob blind-played because of the yellow clue. However, since the yellow 5 is a two away card instead of one away card, it must mean that it is a *Double Bluff* instead of a single *Bluff*. Cathy blind plays her *Finesse Position* card and it is red 1.
   * Donald knows that this yellow card must be yellow 5 because it caused 2 blind plays.
-* Normally, you are only allowed to *Bluff* while in *Bluff Position*. But *Double Bluffs* do not violate *Good Lie Principle*, so we allow them.
+* Normally, you are only allowed to *Bluff* while in *Bluff Seat*. But *Double Bluffs* do not violate *Good Lie Principle*, so we allow them.
 
 ### The Triple Bluff / The Triple Two-Thirds Bluff
 
@@ -1465,7 +1465,7 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
 * In other words, after a *Finesse* occurs that is directed at you, you will know that your *Finesse Position* card is playable. If the next immediate player also has an unrelated playable card on their *Finesse Position*, you can pretend like the *Finesse* wasn't directed at you. This will cause them to think that the *Finesse* was directed at them, and you will get the unrelated card played for free.
 * Unlike a *Layered Finesse*, they should not continue to play to find the finesse card because:
   * You fulfill the real *Finesse* on the next go around.
-  * They can see that they were in bluff position.
+  * They can see that they were in *Bluff Seat*.
 * *Pass Bluffs* rely on other contextual information to be present in order to work, so the circumstances in which you can do them are narrow.
 
 ### The Double/Triple Pass Bluff
