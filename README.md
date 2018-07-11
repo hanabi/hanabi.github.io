@@ -657,7 +657,7 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
 * So if a *Fix Clue* is given early to you, it can be strange. You were happily discarding, and now all of a sudden you are being fixed on a card that was just sitting in your hand and was not in danger of being misplayed.
 * This usually means that your chop suddenly became important, so the *Fix Clue* was given early to give you a good discard and keep you occupied. Thus, you should permanently chop move one card.
 
-### 1's Out-of-Order Chop Move
+### Order Chop Move
 
 * Normally, at the beginning of the game, players are expected to play their 1's from right to left.
 * If a player skips over their right-most 1, and there is nothing else special going on, it means that the next person should *Chop Move* one card.
@@ -666,9 +666,9 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
   * It is the first turn of the game.
   * Alice clues Bob number 1, which touches three 1's. They are in slots 1, 2, and 3.
   * Bob is expected to play slot 3 (which is the oldest 1). If he plays slot 3, nothing special happens.
-  * If Bob plays slot 2, he is performing a *1's Out-of-Order Chop Move*, and Cathy should chop move one card (her slot 5).
-  * If Bob plays slot 1, he is performing a *Skipped 1's Out-of-Order-Chop Move*, and Alice should chop move one card (her slot 5).
-* There are some common special situations that do NOT imply a *1's Out-of-Order Chop Move*:
+  * If Bob plays slot 2, he is performing an *Order Chop Move*, and Cathy should chop move one card (her slot 5).
+  * If Bob plays slot 1, he is performing a *Skipped Order Chop Move*, and Alice should chop move one card (her slot 5).
+* There are some common special situations that do NOT imply an *Order Chop Move*:
   * The 1 that was played was newly drawn and did NOT exist in the opening hand. (Fresh 1's always have priority.)
   * The 1 that was played was originally *Finessed* from a clue that happened BEFORE the 1's number clue.
   * The 1 that was played had some unique positive or negative color information on it and could potentially lead into someone else's hand.
@@ -1197,17 +1197,17 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
   * If one of the cards includes the chop card, it means to play all of the cards from 2nd oldest to newest, and then the chop last.
 * If you are re-clued about a bunch of cards after you have already taken a turn, see the *Double Tempo Clue* convention.
 
-### Out-of-Order Trash Discard Chop Move
+### Trash Order Chop Move
 
 * Sometimes, a player will have two known trash cards in their hand (and these cards are explicitly known trash, meaning that everyone on the team can equally see that they are known trash).
 * In this situation, the player is expected to discard the newest (left-most) trash card.
 * Thus, if a player skips over their newest trash card and instead discards the second newest trash card, they must be trying to communicate something extra.
-* This means that the next player should *Chop Move* (in a manner similar to the *1's Out-of-Order Chop Move*).
-* Note that a player is not necessarily trying to perform a *Out-of-Order Trash Discard Chop Move* if the two trash cards have different kinds of clues on them. For example, by discarding specific trash cards, it can communicate that the player "sees" all of the non-trash possibilities of that card.
+* This means that the next player should *Chop Move* (in a manner similar to a *Order Chop Move*).
+* Note that a player is not necessarily trying to perform a *Trash Order Chop Move* if the two trash cards have different kinds of clues on them. For example, by discarding specific trash cards, it can communicate that the player "sees" all of the non-trash possibilities of that card.
 
 ### Spillover Chop Move
 
-* If a *1's Out-of-Order Chop Move* or a *Out-of-Order Trash Discard Chop Move* is performed, but the player who is supposed to *Chop Move* already has every single card in their hand clued, then this is very strange.
+* If an *Order Chop Move* or a *Trash Order Chop Move* is performed, but the player who is supposed to *Chop Move* already has every single card in their hand clued, then this is very strange.
 * In this situation, the *Chop Move* should "skip" over that person and *Chop Moves* the next person after that.
 
 ### The Elimination Blind Play Riding Deduction Bluff
