@@ -276,15 +276,15 @@ Note that in this user interface, players are holding their hands like they woul
 
 ### Bluffs
 
-* When you see a playable card in someone's *Finesse Position* slot, you will often want to get the efficiency of a *Finesse*. However, often times, the proper "connecting" card is not on the table.
-* One alternate strategy is to lie to the next player and clue a completely unrelated card to indicate a *Finesse*. This manipulates them into blind-playing and is called a *Bluff*.
-* Next, the player who received the *Finesse* clue knows that since the other person "randomly" blind-played their *Finesse Position* card, it was a *Bluff* and not a real *Finesse*. This means that they can't actually play the clued card. However, they should know exactly what card it is (or have a specific narrow set of possibilities), so the sequence still gets a lot of efficiency.
+* *Finesses* are quite efficient. So, when you see a playable card in someone's *Finesse Position* slot, you will often want to "get" the card with a *Finesse* (instead of cluing it directly). However, often times, the proper "connecting" card is not on the table.
+* In this situation, you perform an alternate strategy by lying to the next player. By cluing an unrelated, one-away card, the next player will think that it is a *Finesse* and that they have the matching card, so they will blind-play their *Finesse Position* card. This is called a *Bluff*.
+* After the card is blind-played, the player who received the clue will realize that something strange has happened - the type of clue did NOT match the card that was blind-played. Thus, the clued card is not currently playable and must be a one-away card.
 * For example, on the first turn of a 3-player game:
   * Alice clues Cathy red, which touches her red 2.
   * Next, it is Bob's turn. Bob sees that, with this red clue, Cathy has just been signaled that she has the red 1.
-  * This must be a *Finesse*, so Bob knows that he must have the red 1, and he must blind-play it right now or else Cathy will go on to misplay the red 2 as the red 1.
+  * From Bob's perspective, this looks like a *Finesse* - if Bob does not blind-play the red 1 right now, Cathy will go on to misplay the red 2 as the red 1.
   * Bob blind-plays his slot 1 card. However, it is not the red 1, it was the green 1! Now Bob knows that he has been *Bluffed* by Alice.
-  * Next, Cathy sees that Bob just blind-played a green 1 immediately after this red clue, so she knows that she must have the red 2. Cathy holds on to the red 2 for later and discards.
+  * Next, Cathy sees that Bob just blind-played a green 1 immediately after this red clue, so she knows that she must have a one-away red card - the red 2. Cathy holds on to the red 2 for later and discards.
 * Except in rare circumstances, **bluffing is only permissible when you are the person directly before the player who is blind-playing a card**. This is called being in *Bluff Seat*. Do not *Bluff* unless you are in *Bluff Seat*!
 
 
