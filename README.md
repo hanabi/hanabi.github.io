@@ -674,6 +674,14 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
   * The 1 that was played had some unique positive or negative color information on it and could potentially lead into someone else's hand.
   * The 1 that was skipped over is known to be bad from contextual information. (See *The Stale 1s Clue* section.)
 
+### Trash Order Chop Move
+
+* Sometimes, a player will have two known trash cards in their hand (and these cards are explicitly known trash, meaning that everyone on the team can equally see that they are known trash).
+* In this situation, the player is expected to discard the newest (left-most) trash card.
+* Thus, if a player skips over their newest trash card and instead discards the second newest trash card, they must be trying to communicate something extra.
+* This means that the next player should *Chop Move* (in a manner similar to a *Order Chop Move*).
+* Note that a player is not necessarily trying to perform a *Trash Order Chop Move* if the two trash cards have different kinds of clues on them. For example, by discarding specific trash cards, it can communicate that the player "sees" all of the non-trash possibilities of that card.
+
 ### The Misplay Chop Move
 
 * Sometimes, a desirable card is on the next person's chop and it is not directly cluable. In this situation, players can cleverly use the various kinds of chop moves in order to save the card (e.g. *1's Chop Move*, *5's Chop Move*, *Tempo Clue Chop Move*, and so forth).
@@ -1197,14 +1205,6 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
 * If you are clued the exact same thing twice before it gets to be your turn, it means that you can play ALL of the cards that the clue applies to, but in the opposite order than normal (right-to-left, since you would normally play cards from left-to-right).
   * If one of the cards includes the chop card, it means to play all of the cards from 2nd oldest to newest, and then the chop last.
 * If you are re-clued about a bunch of cards after you have already taken a turn, see the *Double Tempo Clue* convention.
-
-### Trash Order Chop Move
-
-* Sometimes, a player will have two known trash cards in their hand (and these cards are explicitly known trash, meaning that everyone on the team can equally see that they are known trash).
-* In this situation, the player is expected to discard the newest (left-most) trash card.
-* Thus, if a player skips over their newest trash card and instead discards the second newest trash card, they must be trying to communicate something extra.
-* This means that the next player should *Chop Move* (in a manner similar to a *Order Chop Move*).
-* Note that a player is not necessarily trying to perform a *Trash Order Chop Move* if the two trash cards have different kinds of clues on them. For example, by discarding specific trash cards, it can communicate that the player "sees" all of the non-trash possibilities of that card.
 
 ### Spillover Chop Move
 
