@@ -217,7 +217,7 @@ Note that in this user interface, players are holding their hands like they woul
 * Usually a *Fix Clue* will "fill in" the card to explicitly make it known that the card is unplayable or duplicated. However, it is also possible to perform a *Fix Clue* just by cluing the card again. For example:
   * Alice clues Bob number 1 and it touches three 1's.
   * Bob successfully plays two 1's.
-  * Before Bob can play the 3rd 1, Alice clues Bob number 1 again, and it re-touches the remaining 1.
+  * Before Bob can play the 3rd 1, Alice clues Bob number 1 again, and it re-touching the remaining 1.
   * Now it is Bob's turn. Since he was going to play the 1 already without Alice doing anything, the clue must have some other meaning. Thus, it is a *Fix Clue*: the remaining 1 is bad, and Bob can safely discard it.
 
 ### Prompts
