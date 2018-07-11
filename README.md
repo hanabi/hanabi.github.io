@@ -264,15 +264,29 @@ Note that in this user interface, players are holding their hands like they woul
 ### Reverse Finesses
 
 * In a normal *Finesse*, you would give a clue to a person AFTER the person blindly playing the card. If you give a *Finesse* clue to someone BEFORE the blind-play occurs, it is called a *Reverse Finesse*. This is more complicated than a normal *Finesse* and is harder to see.
-* Since *Reverse Finesses* exist as a strategy, before playing ANYTHING that you aren't 100% sure about, you should always check out everyone's *Finesse Position* card (the left-most unclued card). If the card in this slot "matches" the card that you were just clued, then you should DEFER playing it for at least one go-around.
-* If the player whom you suspected the *Reverse Finesse* was directed towards blind-plays their card, then it means that the card that was clued originally is the next card in the chain and you can play it on your next turn.
-* Or, if the player whom you suspected the *Reverse Finesse* was directed towards did NOT blind-play, then you can safely play yours.
+* Since *Reverse Finesses* exist as a strategy, before playing ANYTHING that you aren't 100% sure about, you should always check out everyone's *Finesse Position* card (the left-most unclued card). If the card in this slot is PLAYABLE and "matches" the clue that you jsut got, then you should DEFER playing it for at least one go-around and wait to see what happens.
+* If the player with the "matching" card blind-plays it, then it means that your clued card is the next card in the chain. You can safely play it on the next turn.
+* Or, if the player with the "matching" card does NOT blind-play, then you probably have the other copy. You can safely play it on the next turn.
 * For example, on the first turn of a 3-player game:
   * Alice clues Bob red, which touches his red 2.
   * Next, it is Bob's turn. Normally, Bob would think that he had the red 1, and play it immediatley.
-  * However, Bob also notices that on Cathy has a red 1 on her slot 1 position. Thus, he has to give a chance for Cathy to prove whether or not the clue was a *Reverse Finesse*. If Cathy doesn't blind-play anything, then Bob should have the red 1, and he can play it on his next turn.
+  * However, Bob also notices that on Cathy has a red 1 on her slot 1 position. Thus, he has to give a chance for Cathy to prove whether or a *Reverse Finesse* is happening. If Cathy does not blind-play anything, then Bob should have the red 1, and he can play it on his next turn.
   * Bob discards.
   * Cathy blind plays red 1. Bob now knows that he has the red 2.
+
+### Bluffs
+
+* When you see a playable card in someone's *Finesse Position* slot, you will often want to get the efficiency of a *Finesse*. However, often times, the proper "connecting" card is not on the table.
+* One alternate strategy is to lie to the next player and clue a completely unrelated card to indicate a *Finesse*. This manipulates them into blind-playing and is called a *Bluff*.
+* Next, the player who received the *Finesse* clue knows that since the other person "randomly" blind-played their *Finesse Position* card, it was a *Bluff* and not a real *Finesse*. This means that they can't actually play the clued card. However, they should know exactly what card it is (or have a specific narrow set of possibilities), so the sequence still gets a lot of efficiency.
+* For example, on the first turn of a 3-player game:
+  * Alice clues Cathy red, which touches her red 2.
+  * Next, it is Bob's turn. Bob sees that, with this red clue, Cathy has just been signaled that she has the red 1.
+  * This must be a *Finesse*, so Bob knows that he must have the red 1, and he must blind-play it right now or else Cathy will go on to misplay the red 2 as the red 1.
+  * Bob blind-plays his slot 1 card. However, it is not the red 1, it was the green 1! Now Bob knows that he has been *Bluffed* by Alice.
+  * Next, Cathy sees that Bob just blind-played a green 1 immediately after this red clue, so she knows that she must have the red 2. Cathy holds on to the red 2 for later and discards.
+* Except in rare circumstances, **bluffing is only permissible when you are the person directly before the player who is blind-playing a card**. This is called being in *Bluff Seat*. Do not *Bluff* unless you are in *Bluff Seat*!
+
 
 ### The Early Game (Intermediate Section)
 
@@ -588,19 +602,6 @@ This section is unique in that it contains things that are separate from actual 
 <br />
 
 ## Level 3 - Advanced Strategies
-
-### Bluffs
-
-* When you see a playable card in someone's *Finesse Position* slot, you will often want to get the efficiency of a *Finesse*. However, often times, the proper "connecting" card is not on the table.
-* One alternate strategy is to lie to the next player and clue a completely unrelated card to indicate a *Finesse*. This manipulates them into blind-playing and is called a *Bluff*.
-* Next, the player who received the *Finesse* clue knows that since the other person "randomly" blind-played their *Finesse Position* card, it was a *Bluff* and not a real *Finesse*. This means that they can't actually play the clued card. However, they should know exactly what card it is (or have a specific narrow set of possibilities), so the sequence still gets a lot of efficiency.
-* For example, on the first turn of a 3-player game:
-  * Alice clues Cathy red, which touches her red 2.
-  * Next, it is Bob's turn. Bob sees that, with this red clue, Cathy has just been signaled that she has the red 1.
-  * This must be a *Finesse*, so Bob knows that he must have the red 1, and he must blind-play it right now or else Cathy will go on to misplay the red 2 as the red 1.
-  * Bob blind-plays his slot 1 card. However, it is not the red 1, it was the green 1! Now Bob knows that he has been *Bluffed* by Alice.
-  * Next, Cathy sees that Bob just blind-played a green 1 immediately after this red clue, so she knows that she must have the red 2. Cathy holds on to the red 2 for later and discards.
-* Except in rare circumstances, **bluffing is only permissible when you are the person directly before the player who is blind-playing a card**. This is called being in *Bluff Seat*. Do not *Bluff* unless you are in *Bluff Seat*!
 
 ### The Double/Triple/Quadruple Prompt
 
