@@ -344,7 +344,7 @@ Note that in this user interface, players are holding their hands like they woul
 
 * See the *1's Chop Move* section above for an explanation on what a *Chop Move* is.
 * Normally, we are only allowed to save 5's on chop (unless it is the *Early Game* and there is nothing else to do).
-* So, in the *Mid Game*, if a 5 is clued that is not on chop, it will normally look like a *Play Clue* on that 5.
+* So, in the *Mid-Game*, if a 5 is clued that is not on chop, it will normally look like a *Play Clue* on that 5.
 * However, if the 5 is **one-away** from chop, then we agree that it has a special meaning, and that the clue is NOT a *Play Clue* at all.
 * Instead, it is understood that the clue is a *5's Chop Move*, and the player should *Chop Move* their chop in a manner similar to the *1's Chop Move*.
 * Note that the *5's Chop Move* is different than the *1's Chop Move* in that you can only chop move ONE card with it. Thus, if you clue a 5 and it is TWO (or more) slots away from the chop, then it is to be assumed to be a *Play Clue* on the 5.
