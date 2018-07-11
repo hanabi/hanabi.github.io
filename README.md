@@ -1663,12 +1663,12 @@ n/a
 | The Dump Truck | Ahming
 | The Stop Discard | Zamiel
 | Ejection | Razvogor & Zamiel & Sankala
-| 1's Out-of-Order Chop Move | Zamiel
+| Order Chop Move | Zamiel
 | Wild & Crazy Black 4 Bluffs | Zamiel & Libster
 | Duplication Responsibility | Zamiel
 | Certain Discard Duplication Promise | Zamiel & Libster
 | Suboptimal Trash Bluff Chop Move | Libster
-| Out-of-Order Trash Discard Chop Move | Zamiel
+| Trash Order Chop Move | Zamiel & Libster
 | Surreptitious Self-Finesse | Sankala
 | Rainbow 1oE Saves | Florrat and Libster
 | Early 5 Chop Move | Libster
