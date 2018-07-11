@@ -1670,6 +1670,6 @@ n/a
 | Suboptimal Trash Bluff Chop Move | Libster
 | Trash Order Chop Move | Zamiel & Libster
 | Surreptitious Self-Finesse | Sankala
-| Rainbow 1oE Saves | Florrat and Libster
+| Rainbow 1oE Saves | Florrat & Libster
 | Early 5 Chop Move | Libster
 | 5 Pull | Libster
