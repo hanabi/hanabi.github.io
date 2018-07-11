@@ -1484,7 +1484,7 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
 * Then, after the unrelated card is played, the player who initiated the *Double Pass Bluff* can go ahead and play into the real *Finesse*.
 * Alternatively, if there continue to be playable cards, they can keep *Pass Bluffing*.
 
-### The Hesitation Chop Move (Misplay)
+### The Hesitation Chop Move (From a Misplay)
 
 * Remember that as a special exception, *Scream Discards* do NOT apply when a player has a "blind" card to play in their hand AND the blind card can exist in your hand.
 * Thus, when this occurs, you will usually want to blind play your *Finesse Position* card, since this sequence of events indicates either an *Ambiguous Finesse* or a *Pass Bluff*.
