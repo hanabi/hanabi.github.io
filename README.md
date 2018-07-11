@@ -243,13 +243,19 @@ Note that in this user interface, players are holding their hands like they woul
 
 * If someone gives a *Play Clue* to a card that is currently unplayable, then they could be telling YOU to play a card. Normally, this would indicate a *Prompt*. But, what if you have no clued cards in your hand or no clued cards that apply to the situation?
 * In this situation, you should blindly play your left-most unclued card. Then, the other player will know that the clued card directly matches the blind-play, and will play it. By doing this, the team will have gotten 2 plays with only 1 clue, which is very efficient. This is called a *Finesse*.
-* The position that a player's left-most unclued card is in is called *Finesse Position*.
 * For example, on the first turn of a 3-player game:
   * Alice clues Cathy red, which touches her red 2.
-  * Next, it is Bob's turn. Bob sees that, with this weird red clue, Cathy has just been signaled that she has the red 1. Oh no! Cathy is going to misplay that on the next turn! What could Alice have been thinking!
-  * If Alice is not making a mistake, something must be in Bob's hand to make the red 2 playable. This must be the *Finesse* convention, so he blindly plays his left-most card and it is the red 1.
+  * Next, it is Bob's turn. Bob sees that Cathy has been signaled that she has the red 1, and she will go on to misplay this card.
+  * If Alice is not making a mistake, something must be in Bob's hand to make the red 2 playable. This must be a *Finesse*, so he blindly plays his left-most card and it is the red 1.
   * Next, Cathy plays her red 2.
 * **Note that *Prompts* take priority over *Finesses*!** Do not blindly play your left-most card if the situation can apply to any of the clued cards in your hand.
+* *Finesse Position* is the position that a player's left-most unclued card is in. Notice that even if a player's *Finesse Position* moves around, it is still possible to *Finesse* them. For example, on the first turn of a 4-player game:
+  * Alice clues Cathy red, which touches two red cards on slot 1 and slot 2.
+  * Cathy assumes that the slot 1 card is red 1.
+  * Next, Bob clues Donald blue, which touches a blue 2.
+  * Cathy assumes that this is a *Finesse* and that she must have a blue 1.
+  * Now, it is Cathy's turn. Blind playing the blue 1 is more important than playing the red 1.
+  * Normally, the *Finesse Position* would be the left-most card. However, since Cathy's slot 1 and slot 2 card are already clued, Cathy's *Finesse Position* card has shifted down to her slot 3. Thus, she must blind play the blue 1 from slot 3.
 
 <br />
 
