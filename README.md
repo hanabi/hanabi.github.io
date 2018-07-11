@@ -358,8 +358,8 @@ Note that in this user interface, players are holding their hands like they woul
 * Players are only allowed to *Scream Discard* for **cards that are playable or critical** (or a needed 2 that isn't seen anywhere else). (This follows from *Save Principle*.)
 * Players are NOT allowed to *Scream Discard* for cards that are one-away from being playable.
 * Sometimes, a player will discard with a known-playable card in their hand, but they are NOT intending a *Scream Discard* - it is some other special situation:
-  1) It is not a *Scream Discard* if the next player HAS to generate a clue for cluing the next player. This is called a *Generation Discard*; see below.
-  2) It is not a *Scream Discard* when the card that the player did not play was a "blind" card from a *Finesse* AND the blind card could also be in your hand. When this happens, you will usually want to blind play your *Finesse Position* card, since this sequence of events indicates either an *Ambiguous Finesse* or a *Pass Bluff* (which are both covered later on).
+  1) It is not a *Scream Discard* if the next player HAS to generate a clue for cluing the next player after that. This is called a *Generation Discard*; see below.
+  2) It is not a *Scream Discard* when the card that the player did not play was a "blind" card from a *Finesse* AND the blind card could also be in the next person's *Finesse Position*. When this happens, the next player will usually want to blind play their *Finesse Position* card, since this sequence of events indicates either an *Ambiguous Finesse* or a *Pass Bluff* (which are both covered later on).
 
 ### The Generation Discard
 
