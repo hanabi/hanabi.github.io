@@ -220,10 +220,6 @@ Note that in this user interface, players are holding their hands like they woul
   * Before Bob can play the 3rd 1, Alice clues Bob number 1 again, and it re-touches the remaining 1.
   * Now it is Bob's turn. Since he was going to play the 1 already without Alice doing anything, the clue must have some other meaning. Thus, it is a *Fix Clue*: the remaining 1 is bad, and Bob can safely discard it.
 
-<br />
-
-## Level 2 - Intermediate Strategies
-
 ### Prompts
 
 * Imagine that you have a card in your hand that has a clue on it, but the full identity of the card is currently unknown. In this situation, you are supposed to just keep the card in your hand, and continue to discard unclued cards.
@@ -254,6 +250,10 @@ Note that in this user interface, players are holding their hands like they woul
   * If Alice is not making a mistake, something must be in Bob's hand to make the red 2 playable. This must be the *Finesse* convention, so he blindly plays his left-most card and it is the red 1.
   * Next, Cathy plays her red 2.
 * **Note that *Prompts* take priority over *Finesses*!** Do not blindly play your left-most card if the situation can apply to any of the clued cards in your hand.
+
+<br />
+
+## Level 2 - Intermediate Strategies
 
 ### Reverse Finesses
 
