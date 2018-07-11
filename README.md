@@ -474,9 +474,9 @@ Note that in this user interface, players are holding their hands like they woul
 * Since *Double Discarding* can "lose" the game, you should make any decent clue if you can to avoid it. Even a low-value clue might be better than discarding. After a go-around, you can safely discard, as your team would have had time to give you a *Save Clue* if necessary.
 * When a player is in a *Double Discard* situation, everyone understands that they might be giving a "stall" clue. However, there are limits - they are not allowed to just clue anything they want. The following are the specific stall clues that they are allowed to give:
   1) Tempo clues
-  2) Cluing off-chop 5's
-  3) Saving 2's on chop that are present in another player's hand
-  4) Filling in extra info on ambiguously saved cards that are still not playable
+  2) 5 Stalls (cluing off-chop 5's)
+  3) 2 Saves on 2's that are present in another player's hand
+  4) Filling in extra info on "mystery" cards that are still not playable
   5) Re-cluing 5's to a player (a "hard burn")
 * From a strategy perspective, because players are strongly deincentivized to *Double Discard*, you do not need to be worried about the same card being on two different chops simultaneously.
 * Generally speaking, a weird or low-value clue can communicate an advanced strategy like a *Finesse*. However, always pay attention to see the situation that the clue-giver is in. From their perspective, are they giving the clue to avoid a *Double Discard*? If so, then you should not read too closely into their clue.
@@ -489,9 +489,9 @@ Note that in this user interface, players are holding their hands like they woul
 * If the team is out of clues and someone's hand is fully clued, then you HAVE to discard to generate a clue for them. Similarly, if there is only 1 clue left, you cannot steal it from them.
 * When a player is in a *Locked Hand* situation, everyone understands that they might be giving a "stall" clue. However, there are limits - they are not allowed to just clue anything they want. The following are the specific stall clues that they are allowed to give. First, they can do the same "stall" clues that players in a *Double Discard* situation can do:
   1) Tempo clues
-  2) Cluing off-chop 5's
-  3) Saving 2's on chop that are present in another player's hand
-  4) Filling in extra info on ambiguously saved cards that are still not playable
+  2) 5 Stalls (cluing off-chop 5's)
+  3) 2 Saves on 2's that are present in another player's hand
+  4) Filling in extra info on "mystery" cards that are still not playable
   5) Re-cluing 5's to a player (a "hard burn")
 * They can also:
   6) Save any card on chop (referred to as a *Locked Hand Save*)
@@ -512,14 +512,14 @@ Note that in this user interface, players are holding their hands like they woul
 * For this reason, do NOT read too closely into any clues given during this state - it might just be a "stall" clue because the player had no other choice.
 * When a player is in an *8 Clue* situation, everyone understands that they might be giving a "stall" clue. However, there are limits. The following are the specific stall clues that they are allowed to give. First, they can do the same "stall" clues that players in a *Double Discard* situation can do:
   1) Tempo clues
-  2) Cluing off-chop 5's
-  3) Saving 2's on chop that are present in another player's hand
-  4) Filling in extra info on ambiguously saved cards that are still not playable
+  2) 5 Stalls (cluing off-chop 5's)
+  3) 2 Saves on 2's that are present in another player's hand
+  4) Filling in extra info on "mystery" cards that are still not playable
   5) Re-cluing 5's to a player (a "hard burn")
 * They can also give clues allowed in *Locked Hand* situations:
-  6) Saving any card on chop (referred to as a *8 Clue Save*)
+  6) Saving any card on chop (similar to a *Locked Hand Save*, but in this context referred to as a *8 Clue Chop Save*)
 * And finally, they can give clues not allowed in either situation:
-  7) Saving any card off chop, unless it was just drawn (referred to as a *8 Clue Save*)
+  7) Saving ANY card off chop, unless it was just drawn (referred to as a *8 Clue Save*)
 * Similar to being locked, players who are at 8 clues MUST follow general clue priority. For example:
   * A player at 8 clues cannot save an off-chop 5 if there is a normal *Play Clue* or *Save Clue* to give. (If they do, it will look like a *Play Clue* on the 5.)
   * A player at 8 clues cannot perform a *8 Clue Save* if there is a *Tempo Clue* to give. (If they do, it will look like a *Play Clue* on the clued chop card.)
