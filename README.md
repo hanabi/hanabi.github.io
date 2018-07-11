@@ -428,7 +428,7 @@ Note that in this user interface, players are holding their hands like they woul
 
 * In general, *Tempo Clues* do not follow from *Minimum Clue Value Principle*, which states that a clue must get at least 1 new card played or save at least 1 new card from being discarded.
 * Thus, a *Tempo Clue* with no other purpose MUST save at least 1 new card, and the player should *Chop Move* their chop card.
-* For example, on the first turn of a no-variant 3-player game:
+* For example, on the first turn of a 3-player game:
   * Alice clues red to Bob, which touches slot 1 and slot 2.
   * Bob plays red 1 from slot 1. The two red card in his hand could be nearly anything.
   * Cathy clues number 2 to Bob, which does not introduce any new cards, but it does "fill in" his slot 2 card.
@@ -820,27 +820,27 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
 * In this situation, the player who has the least number of matching clued cards should take responsibility. If 2+ players are tied, then the player with the more specific type of clue on their card(s) should take responsibility.
 * If 2+ players have the exact same number of clued cards and type of clued cards, then either player should save the card.
 * Example 1:
-  * In a 3 player no-variant game, Alice has a blue 2 on chop that needs to be saved.
+  * In a 3 player game, Alice has a blue 2 on chop that needs to be saved.
   * Bob has 2 unknown 2's.
   * Cathy has 1 unknown 2.
   * Bob should let Cathy perform the save, since 1 matching card is less than 2 matching cards.
 * Example 2:
-  * In a 3 player no-variant game, Alice has a blue 2 on chop that needs to be saved.
+  * In a 3 player game, Alice has a blue 2 on chop that needs to be saved.
   * Bob has 2 unknown 2's.
   * Cathy has 2 unknown 2's.
   * The responsibility is shared, so Bob should perform the clue if Cathy has a good discard, or he can discard and let Cathy do it.
 * Example 3:
-  * In a 3 player no-variant game, Alice has a blue 2 on chop that needs to be saved.
+  * In a 3 player game, Alice has a blue 2 on chop that needs to be saved.
   * Bob has 2 unknown blue cards.
   * Cathy has 1 unknown 2's.
   * Bob should let Cathy perform the save, since 1 matching card is less than 2 matching cards.
 * Example 4:
-  * In a 3 player no-variant game, Alice has a blue 2 on chop that needs to be saved.
+  * In a 3 player game, Alice has a blue 2 on chop that needs to be saved.
   * Bob has 2 unknown blue cards. No blue cards have been played yet, so from Bob's perspective, each blue card has a 1/5 chance of being the blue 2.
   * Cathy has 2 unknown 2's. No 2's have been played yet, so from Cathy's perspective, each 2 has a 1/5 chance of being the blue 2.
   * The responsibility is shared, so Bob should perform the clue if Cathy has a good discard, or he can discard and let Cathy do it.
 * Example 5:
-  * In a 3 player no-variant game, Alice has a blue 2 on chop that needs to be saved.
+  * In a 3 player game, Alice has a blue 2 on chop that needs to be saved.
   * Bob has 2 unknown blue cards. No blue cards have been played yet, so from Bob's perspective, each blue card has a 1/5 chance of being the blue 2.
   * Cathy has 2 unknown 2's. One 2 has been played already, so from Cathy's perspective, each 2 has a 1/4 chance of being the blue 2.
   * Thus, it is Cathy's responsibility to save the blue 2.
