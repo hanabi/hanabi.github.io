@@ -157,12 +157,12 @@ Note that in this user interface, players are holding their hands like they woul
 * Players will use both color and number clues to perform *Save Clues* - always look to see if there is a card in the discard pile that "matches" the clue you were given to the card on chop.
 * From *Save Principle*, if you can determine that the card on your chop does NOT need to be saved, then it must be a chop-focus *Play Clue* instead.
 
-### 5 Saves (on Chop)
+### 5 Saves (On Chop)
 
 * Since there is only one copy of each 5, all of the 5's need to be saved so that they won't be discarded.
 * Always save a 5 with a number clue instead of a color clue. Otherwise, it will look like a *Play Clue* (or potentially a *Save Clue* on some other critical card).
 
-### 2 Saves (on Chop)
+### 2 Saves (On Chop)
 
 * Even though there are two copies of each 2, we agree that they are so important that we must save them in a manner similar to 5's.
 * Similar to saving 5's, always save a 2 with a number clue instead of a color clue.
@@ -196,7 +196,7 @@ Note that in this user interface, players are holding their hands like they woul
 * In the *Early Game*, you can do a special move called a *5 Stall*; see below.
 * That covers the basics. Some more edge-case specifics that you don't need to know right now are listed in *The Early Game (Intermediate Section)*.
 
-### The 5 Stall (cluing off-chop 5s)
+### The 5 Stall (Cluing Off-Chop 5s)
 
 * Normally, you are only allowed to give a *Save Clue* to a 5 if it is on chop. So if you use number 5 to clue a 5 that is NOT on chop, then it will typically look like a *Play Clue* on that 5 (or some other advanced strategy).
 * As a special rule, in the *Early Game*, you ARE allowed to clue number 5 as a *Save Clue* to off-chop 5's.
@@ -953,12 +953,12 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
 * Just like normal *Bluffs*, *Trash Bluffs* can only be done while in *Bluff Seat*.
 * If multiple cards are clued that cause a *Trash Bluff*, it means that ALL of the cards are trash. However, the focus of the clue should be the first thing discarded, which allows for the possibility of your teammates to give a follow-up *Fix Clue*.
 
-### The Trash Finesse (strong form)
+### The Trash Finesse (Strong Form)
 
 * It is possible to perform a *Trash Bluff* outside of *Bluff Seat* if there is only one possibility for the useless card to be. When this is done, it promises that someone has that specific card, so it is a *Trash Finesse* rather than a *Trash Bluff*.
 * It is also possible to *Double Trash Finesse*. By touching a useless 2 with TWO 2's remaining, it means that you see BOTH the 2's, so this can cause two people to blind play their *Finesse Position* card (or one person to blind play twice). Note that a *Double Trash Finesse* cannot be done in *Bluff Seat*, or it will look like a normal *Trash Bluff*.
 
-### The Trash Finesse (weak form)
+### The Trash Finesse (Weak Form)
 
 * After deciding on the target of a clue, players carefully choose between using a color clue and a number clue in order to avoid violating *Good Touch Principle* with the ancillary cards that will be touched (since every clued card is treated as a card that will eventually be played). Sometimes, when both a color clue AND a number would violate *Good Touch Principle*, players are forced to pick between the lesser of two evils.
 * However, sometimes you can see that it IS possible to use a color or number clue to uniquely touch a clue target without "picking up" extra bad cards. So, when this is done deliberately, it promises that the other players have the exact "missing" cards that the trash cards would look like.
@@ -1187,9 +1187,10 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
   * This could be a normal *Bluff* if the 4 in her hand is blue 4, since blue 4 is currently "one-away". Thus, Cathy DOES NOT assume that her 4 is red 4, and subsequently, does DOES NOT assume that her unknown 3 is a red 3. However, it could ALSO be the case that the 4 is a red 4 (if the 3 in her hand happens to be red 3).
   * Thus, Cathy marks down both possibilities for later and does not play anything right now.
 
-### Cluing Off-Chop 2's
+### 2 Saves (Off Chop on the First Turn)
 
-* On the first turn of the game, it is not possible to discard. If there is absolutely nothing else to do, it is permissible in this situation to use a number 2 clue to save a 2 that is not on chop (but only if the other players can see that you had no other choice).
+* On the first turn of the game, it is not possible to discard. If there is absolutely nothing else to do, it is permissible in this situation to use a number 2 clue to save a 2 that is NOT on chop, but only if the other players can see that you had no other choice.
+* This situation typically only happens in 3-player games.
 
 ### Immediate Double Clue
 
