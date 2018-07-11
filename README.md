@@ -499,7 +499,7 @@ Note that in this user interface, players are holding their hands like they woul
   * A locked player cannot save an off-chop 5 if there is a normal *Play Clue* or *Save Clue* to give. (If they do, it will look like a *Play Clue* on the 5.)
   * A locked player cannot perform a *Locked Hand Save* if there is a *Tempo Clue* to give. (If they do, it will look like a *Play Clue* on the clued chop card.)
 
-### The Anxiety Play
+### The Anxiety Play (Forcing a Locked Player to Play)
 
 * Sometimes, someone with a locked hand has a playable card, but they do not know that they can play it yet. Re-cluing the card would signal this, but that would waste a clue and not be very efficient.
 * A better way to signal this information is to deliberately leave them at 0 clues. By convention, this means that one of their cards is actually playable. If there is more than one option, then they should know that the left-most is the one that they should play. (This follows from *Left-Most Playable Principle*.)
