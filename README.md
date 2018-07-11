@@ -782,7 +782,7 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
 ### The 5 Pull Promise (Followup Play Clue After a 5 Pull)
 
 * Normally, *5 Pulls* have to be treated as *Delayed Play Clues*. This means that sometimes, it can take a long time for the pulled card to blind play.
-* From the perspective of the person who is *5 Pulled*, if a follow up *Play Clue* is given to a currently unplayable card, then they can throw the *Delayed Play Clue* interpretation is thrown out the window - the *5 Pulled* player is **promised** the card that makes the unplayable card playable.
+* From the perspective of the person who is *5 Pulled*, if a follow up *Play Clue* is given to a currently unplayable card, then they can disregard the *Delayed Play Clue* interpretation - the *5 Pulled* player is **promised** the card that makes the unplayable card playable.
 * For example, in a 4-player game:
   * Alice two clued 1s in her hand - yellow 1 and purple 1.
   * Bob does a *5 Pull* on Donald. Donald knows that the *5 Pulled* card could be either yellow 2 or purple 2 (if it is a *Delayed Play Clue*).
