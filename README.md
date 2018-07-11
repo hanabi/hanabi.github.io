@@ -471,7 +471,7 @@ Note that in this user interface, players are holding their hands like they woul
 ### Avoiding Double Discards
 
 * If the player before you just discarded a card (say the red 4), and you don't see that card in anyone else's hand, there is a possibility that you could have that same card on your chop. In this example, if you discarded, both red 4's could be lost and your team would not be able to get a perfect score. This is called *Double Discarding*.
-* Since *Double Discarding* can "lose" the game, you should make any decent clue if you can to avoid it. Even a low-value clue might be better than discarding. After a go-around, you can safely discard, as your team would have had time to give you a *Save Clue* if it was indeed the same card.
+* Since *Double Discarding* can "lose" the game, you should make any decent clue if you can to avoid it. Even a low-value clue might be better than discarding. After a go-around, you can safely discard, as your team would have had time to give you a *Save Clue* if necessary.
 * When a player is in a *Double Discard* situation, everyone understands that they might be giving a "stall" clue. However, there are limits - they are not allowed to just clue anything they want. The following are the specific stall clues that they are allowed to give:
   1) Tempo clues
   2) Cluing off-chop 5's
