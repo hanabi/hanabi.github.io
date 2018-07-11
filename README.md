@@ -614,15 +614,31 @@ This section is unique in that it contains things that are separate from actual 
 
 ### The Double/Triple/Quadruple Finesse
 
-* In a 4-player game, it is possible to get two different people to blind-play their cards in a row if you give a clue to a card that is two-away from being playable. This is very efficient, as it is a 3-for-1 clue.
+* Typically, *Finesses* are performed by cluing a one-away card. However, it is possible to get two different people to blind-play their cards in a row if you give a clue to a card that is two-away from being playable. This is very efficient, as it is a 3-for-1 clue.
 * For example, in a 4-player game:
   * A red 1 is played on the stacks.
   * Alice clues Donald red, which touches a red 4.
   * Bob plays red 2 from his *Finesse Position*.
   * Cathy plays red 3 from her *Finesse Position*.
   * Donald plays red 4.
-* Similarly, it is possible to get a single person to blind-play 2 cards in a row. In this situation, since they see that the clue can't apply to anyone else's hands, they will assume that the clue is talking about their two newest unclued cards, and they will play from left to right.
-* In general, remember that players will always assume *Prompts* over *Finesses*. Thus, is it possible to do a clue that prompts a card from a player's hand and THEN gets them to blind-play their *Finesse Position* card on the next turn.
+* Similarly, it is possible to get a single person to blind-play 2 cards in a row. In this situation, since they see that the blind cards are not in anyone else's hands, they will blind play two turns in a row, playing from left to right.
+* For example, on the first turn of a 3-player game:
+  * Alice clues red to Cathy, touching a red 3.
+  * Bob blind plays red 1 from slot 1.
+  * Cathy would normally think that she has red 2, which would match the red 1 that was just played. However, she sees that when the clue happened, there was a red 2 next to the red 1.
+  * Thus, Cathy discards, giving Bob the chance to blind the play the red 2. If he does not blind play it, then it was a normal *Finesse* and she has red 2. If he does blind play it, then it was a *Double Finesse* and she has red 3.
+  * On his next turn, Bob blind plays red 2 from slot 2. Cathy now knows she has the red 3.
+
+### The Prompt + Finesse
+
+* In general, remember that players will always assume *Prompts* over *Finesses*. Thus, is it possible to do a clue that *Prompts* a card from a player's hand and THEN gets them to blind-play their *Finesse Position* card on the next turn.
+* For example, in a 3-player game:
+  * Red 1 is played on the stacks.
+  * Bob has a clued red card in his hand on slot 4.
+  * Alice clues Cathy reds, touching a red 4.
+  * Bob knows he has both red 2 and red 3, but he only has one clued red card in his hand. So this must be both a *Prompt* on him and a *Finesse* on him at the same time.
+  * Since *Prompts* take precedence over *Finesses*, he plays the clued red card first from slot 4 as red 2.
+  * On his next turn, he blind plays slot 2 as red 3. (His *Finesse Position* at the time of the clue was slot 1, but he drew a card, and now the red 3 slid down to slot 2.)
 
 ### The Ambiguous Finesse
 
