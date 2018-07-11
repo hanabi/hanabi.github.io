@@ -544,7 +544,7 @@ This section is unique in that it contains things that are separate from actual 
 ### Bluff Seat and the Pang of Guilt
 
 * As mentioned in the section on *Bluffs*, you are in *Bluff Seat* for a certain player if you are immediately before them.
-* If the player before you immediately draws a playable card, you should first notice that the card is in *Finesse Position*. If you clue it directly, you may be "stealing" someone's *Finesse* or *Bluff*.
+* Before cluing a card directly, you should first consider if it is on *Finesse Position*. If it is, and you clue it directly, you may be "stealing" someone's *Finesse* or *Bluff*.
 * Thus, in this situation, it may be better to discard and let the player in *Bluff Seat* get the card in question. If you do decide to clue the card directly, you should always feel a *Pang of Guilt*.
 
 ### Discard Modulation
