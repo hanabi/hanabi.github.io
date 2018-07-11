@@ -670,7 +670,7 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
   * If Bob plays slot 1, he is performing a *Skipped Order Chop Move*, and Alice should chop move one card (her slot 5).
 * There are some common special situations that do NOT imply an *Order Chop Move*:
   * The 1 that was played was newly drawn and did NOT exist in the opening hand. (Fresh 1's always have priority.)
-  * The 1 that was played was originally *Finessed* from a clue that happened BEFORE the 1's number clue.
+  * The 1 that was played was originally *Finessed* from a clue that happened BEFORE the number 1 clue.
   * The 1 that was played had some unique positive or negative color information on it and could potentially lead into someone else's hand.
   * The 1 that was skipped over is known to be bad from contextual information. (See *The Stale 1s Clue* section.)
 
