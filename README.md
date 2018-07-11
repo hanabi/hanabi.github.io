@@ -715,7 +715,7 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
 * Thus, when you get a follow-up clue, you will know exactly what card it is.
 * In other situations, your teammates will choose to NOT to give any follow-up clues. After a few more discards, you should know exactly what card it is and be able to blind play it.
 
-### The Elimination Blind Play Riding Deduction
+### The Elimination Riding Deduction
 
 * If there are only 2 cards left in your hand with *Elimination Notes* on them AND the players before you let your chop card ride AND the players before you weren't busy, then the playable card cannot be on your chop.
 * This means you can "jump ahead" and immediately blind play the newest of the 2 cards with the note.
