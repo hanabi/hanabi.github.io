@@ -1239,7 +1239,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * Players should save rainbow cards with a number clue.
 * There are two exceptions to this:
   * if the color clue also touched another critical card
-  * if the color is a stack that happens to be completely played already
+  * if the color is a stack that is completely played already
 
 <br />
 
