@@ -1376,12 +1376,13 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Cathy sees that Bob does not have the green 2, so she must have the green 2, so she blind-plays her *Finesse Position* card, and it is yellow 1 instead of green 2.
   * Since two cards were blind-played (that did not match), everyone now knows that the *No-Information* clue was a *Double Bluff* instead of a *Double Finesse*. From Cathy's perspective, her 3 can (still) be any 3 at all.
 
-### The Bad Touch Double Finesse & The Bad Touch Double Bluff (For 3's)
+### The Bad Touch Double Finesse & The Bad Touch Double Bluff & The Bad Touch Double-Half Bluff (For 3's)
 
 * Normally, a *3 Bluff* takes priority over a *Double Finesse*. This means that if someone clues a blue 3 using the number 3, and then a blue 1 blind-plays on the very next turn, no-one is promised the blue 2.
 * However, if BOTH blue 3's were touched with the number 3 clue, then that would violate *Good Touch Principle*, and this would be considered a "bad touch".
 * If someone is violating *Good Touch Principle*, they must have a very good reason, so the clue must be a *Double Finesse* instead of a *3 Bluff*. In the above example, the next player should blind-play the blue 2 from their *Finesse Position*.
 * After that, the player who recieved the clue can safely discard the focused 3.
+* In the same way, it is also possible to *Bad Touch Double Bluff* or *Bad Touch Double Half Bluff* in order to get unrelated cards played from *Finesse Position*. In order to understand this, first see the section on *Double Bluffs*.
 
 ### The Sacrifice Discard
 
@@ -1410,11 +1411,12 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### The Reverse Bluff / The Out-of-Position Bluff (bad)
 
-* Similar to a *Reverse Finesse*, it is possible to perform a *Reverse Bluff*. However, according to *Good Lie Principle*, it is only allowed to lie to the player who comes immediately after you.
+* Similar to a *Reverse Finesse*, it is possible to perform a *Reverse Bluff*. However, according to *Good Lie Principle*, you are only allowed to lie to the player who comes immediately after you, so this is illegal.
   * Why this policy? It is not possible to play with both *Layered Finesses* and *Reverse Bluffs* at the same time, and *Layered Finesses* are much better.
-* However, you can break the *Bluff Seat* rule in rare situations where the player that is being passed over cannot actually act on their state of misinformation. For example,
-  * they are at 0 clues (and won't blind-play anything)
-  * they have negative information on their entire hand
+* However, you CAN break the *Bluff Seat* rule if either of the following is true:
+  1) the next player is at 0 clues (and won't blind-play anything)
+  2) the next player has negative information on their entire hand (so that they know they do not have the correct card)
+* Essentially, if either of these is true, then the player being passed over cannot actually act on their state of misinformation.
 * Since valid *Reverse Bluffs* are so rare, it is important to remember that a valid *Reverse Bluff* is distinct from a *Layered Finesse*, and that blind-playing should stop after the first blind-play. (This is a common mistake.)
 
 ### The Double Half Bluff
@@ -1423,20 +1425,26 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * For example, on the first turn of a 4-player game:
   * Alice clues Donald red, which touches a red 3.
   * Bob goes next and assumes that it is a *Double Self-Finesse* - he has the red 1 and red 2 in the two newest slots. Thus, he blind-plays his left-most and it is red 1.
-  * Cathy goes next. Cathy sees that Donald does NOT have red 2 in her next newest slot, so he must have the red 2, so he blind-plays his left-most card. However, it is NOT the red 2, but the blue 1. Bob now knows he was bluffed.
-  * Alice sees Bob blind-play "for no reason", so she knows that she must not have the red 2 and it must have been a *Double Half Bluff*.
-  * Finally, Cathy sees this sequence of events occur. Since Alice and Bob blind-played, she must have the red 3.
+  * Cathy goes next. Cathy sees that Donald does NOT have red 2 in his next newest slot, so she must have the red 2. Cathy blind-plays her left-most card. However, it is NOT the red 2, but the blue 1.
+  * Bob now knows he does not have the red 2 anymore, since Cathy blind-played.
+  * Cathy now knows that since two blind-plays happened in a row, she does NOT have the red 2.
+  * At first, Donald thought that the red card in his hand was red 1 (as a *Play Clue*).
+  * After Alice blind-played, Donald thought that the red card in his hand was red 2 (as a *Finesse*).
+  * After Bob blind-played, Donald knows that he must have the red 3 (as a *Double Half Bluff*).
 * Normally, you are only allowed to *Bluff* while in *Bluff Seat*. But *Double Half Bluffs* do not violate *Good Lie Principle*, so we allow them.
 
 ### The Double Bluff
 
 * Similar to a *Double Half Bluff*, it is also possible to get 2 cards played in a row that are completely unrelated.
 * For example, in a 4-player game:
-  * Yellow 2 is currently played on the stacks.
-  * Alice clues a yellow 5 in Donald's hand with a yellow color *Play Clue*.
-  * Since yellow 5 is playable right now, Bob thinks he has yellow 3 and yellow 4. Bob blind-plays his *Finesse Position* card, but it is actually a blue 1.
-  * Cathy sees that Bob blind-played because of the yellow clue. However, since the yellow 5 is a two away card instead of one away card, it must mean that it is a *Double Bluff* instead of a single *Bluff*. Cathy blind-plays her *Finesse Position* card and it is red 1.
-  * Donald knows that this yellow card must be yellow 5 because it caused 2 blind-plays.
+  * Red 2 is currently played on the stacks.
+  * Alice clues a red 5 in Donald's hand with a yellow color *Play Clue*.
+  * Since red 5 is playable right now, Bob thinks he has the red 3 and the red 4. Bob blind-plays his *Finesse Position* card, but it is actually a blue 1.
+  * Cathy sees that Bob blind-played because of the red clue. However, since the red 5 is a two-away card instead of one-away card, it must mean that it is a *Double Bluff* instead of a single *Bluff*. Cathy blind-plays her *Finesse Position* card and it is yellow 1.
+  * At first, Donald thought that the red card in his hand was red 3 (as a *Play Clue*).
+  * After Alice blind-played, Donald thought that the red card in his hand was red 4 (as a *Bluff*).
+  * After Bob blind-played, Donald knows that he must have the red 5 (as a *Double Bluff*).
+caused 2 blind-plays.
 * Normally, you are only allowed to *Bluff* while in *Bluff Seat*. But *Double Bluffs* do not violate *Good Lie Principle*, so we allow them.
 
 ### The Triple Bluff / The Triple Two-Thirds Bluff
@@ -1446,10 +1454,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 ![Triple Bluff](img/triple_bluff.png)
 
 * In this screenshot, if Zealousy blind-played a red 2 from newest AND the focus of the initial clue was red 4, then it would be a *Triple Two-Thirds Bluff* instead of a *Triple Bluff*.
-
-### The Bad Touch Double Bluff & The Bad Touch Double Half Bluff (for 3's)
-
-* Following from the *Bad Touch Double Finesse* convention, it is also possible to *Bad Touch Double Bluff* or *Bad Touch Double Half Bluff* in order to get unrelated cards played from *Finesse Position*.
 
 ### The Good Touch Bluff
 
