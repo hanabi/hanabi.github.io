@@ -1515,7 +1515,7 @@ caused 2 blind-plays.
 
 ### The Rank Choice Bluff & The Rank Choice Finesse
 
-* *Reverse Finesses* take precedence over *Bluffs*. This means that you cannot use cards to *Bluff* that have "matching" cards in the *Finesse Position* of other players, since the player you want to *Bluff* will sit and give a chance for the matching cards to play first.
+* *Reverse Finesses* take precedence over *Bluffs*. This means that you cannot use cards to *Bluff* that have "matching" cards in the *Finesse Position* of other players, since the player you want to *Bluff* will pause to give a chance for the matching cards to play first.
 * However, in some rare situations, when initiating a *Reverse Finesse*, you have a free choice between a color clue and a rank clue, meaning that both rank and color will ONLY touch the one target card.
 * By convention, if you use rank instead of color, you communicate that you really want a *Bluff* to happen, and that they should NOT wait for other matching cards to play first. This is called a *Rank Choice Bluff*.
 * After communicating that you want a *Rank Choice Bluff* to happen, the next person will blind-play their *Finesse Position* card. But if that card matches the clued card, then it was actually a *Rank Choice Finesse* instead of a *Rank Choice Bluff*. A *Rank Choice Finesse* may be preferable to a (more ordinary) *Ambiguous Finesse*, which will resolve more slowly.
