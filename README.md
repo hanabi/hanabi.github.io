@@ -659,8 +659,13 @@ This section is unique in that it contains things that are separate from actual 
 ### The Sarcastic Discard
 
 * Occasionally, through a mistake (or complicated situation), the same card will be clued in two different people's hands. Generally, this is to be avoided, but sometimes it happens. Handling this can be tricky.
-* Generally, the FIRST person who 100% realizes that they have the duplicate card should discard it (as opposed to playing it or holding on to it). This is called a *Sarcastic Discard*, and it communicates to the other player that they 100% have the discarded card.
-* "Why did Bob just discard the red 3 that I JUST gave him a *Play Clue* on? That makes no sense. Wait - it must be because he realized that the red 3 was ALSO clued in someone else's hand. I must have the red 3!"
+* Generally, the FIRST person who fully realizes that they have the duplicate card should discard it (as opposed to playing it or holding on to it). This is called a *Sarcastic Discard*, and it communicates to the other player that they 100% have the discarded card.
+* For example, in a 3-player game:
+  * On the stacks, red 2 is played.
+  * Alice has one red 3 clued in his hand with just number 3.
+  * Alice clues number 3 to Bob, which touches one 3. (This is a mistake, because it might be violating *Good Touch Principle*.)
+  * Bob knows that the only playable 3 is red 3. He also knows that Alice has a clued red 3 already in her hand. Thus, he knows that he has the red 3 and that Alice made a mistake.
+  * Bob performs a *Sarcastic Discard* to pass the red 3 back to Alice.
 
 ### The Trash Chop Move
 
