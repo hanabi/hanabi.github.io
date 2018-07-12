@@ -1348,11 +1348,11 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### Stop Discard
 
-* Normally, when someone discards with a known play and the next person already has something to do, it is a *Long-Range Scream Discard*.
+* Normally, when someone discards with a known play and the next person already has something to do, it is an *Echo Scream Discard*.
 * However, it could also be the case that the next person after that does not have a playable/critical card on chop. Or, alternatively, it could be the case that EVERYONE has something to do on their turn. Thus, discarding is normally considered a mistake.
-* But the player who is discarding is not making a mistake - they are communicating that the very next player with a "known play" should STOP what they are doing, because the card is not actually playable.
+* If the player who is discarding is not making a mistake, then they are communicating that the very next player with a "known play" should STOP what they are doing, because the card is not actually playable.
 * This is very similar to a *Stop Blind Play*, but since the player has a known play, there is no reason to use up one of the strikes when the same message can be communicated in a safer way.
-* If there is a card that could potentially be playable on on chop, then the *Long-Range Scream Discard* interpretation takes priority over the *Stop Discard* interpretation.
+* If there is a card that could potentially be playable on on chop, then the *Echo Scream Discard* interpretation takes priority over the *Stop Discard* interpretation.
 
 ### The No-Information Double Finesse & The No-Information Double Bluff
 
@@ -1735,7 +1735,7 @@ n/a
 | The Continuation Clue | Libster
 | The Just-In-Time Fix Clue | Zamiel
 | The Occupied Play Clue & The Occupied Finesse | Zamiel
-| The Long-Range Scream Discard | Florrat
+| The Echo Scream Discard | Florrat & Zamiel
 | The Bad Touch Double Finesse | Sankala
 | The Bad Touch Double Bluff & The Bad Touch Double Half Bluff | Sankala
 | The Dump Truck | Ahming
