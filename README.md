@@ -1279,11 +1279,11 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * If an *Order Chop Move* or a *Trash Order Chop Move* is performed, but the player who is supposed to *Chop Move* already has every single card in their hand clued, then this is very strange.
 * In this situation, the *Chop Move* should "skip" over that person and *Chop Move* the next person after that.
 
-### The Elimination Blind Play Riding Deduction Bluff
+### The Elimination Riding Deduction Bluff
 
 * Typically, when a player has two cards with *Elimination Notes* and the "true" copy of the card is on chop, you must clue it to let them know.
 * However, if the other card is also playable, you can "lie" to them and not clue anything.
-* Next, the player should perform an *Elimination Blind Play Riding Deduction*, and play the unrelated card.
+* Next, the player should perform an *Elimination Riding Deduction*, and play the unrelated card.
 * After that, there will be only one card left with an *Elimination Note*, so they will go on to play the "true" card on their next turn.
 
 ### The Elimination Finesse
