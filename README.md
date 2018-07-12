@@ -2,7 +2,7 @@
     <img src="img/hanabi.jpg" height="200" />
 </p>
 
-# Hanabi Strategies & conventions
+# Hanabi Strategies & Conventions
 
 For the *Hyphen-ated group*. Written and maintained by Zamiel.
 
