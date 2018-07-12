@@ -667,6 +667,16 @@ This section is unique in that it contains things that are separate from actual 
   * Bob knows that the only playable 3 is red 3. He also knows that Alice has a clued red 3 already in her hand. Thus, he knows that he has the red 3 and that Alice made a mistake.
   * Bob performs a *Sarcastic Discard* to pass the red 3 back to Alice.
 
+### The Gentleman's Discard
+
+* The *Sarcastic Discard* is very similar to the *Prompt* convention, because it gets someone to play a card that already had a clue on it. It is also possible to intentionally discard a known card in order to get someone to blind play a card, similar to a *Finesse*. 
+* When this occurs, it is called a *Gentleman Discard* to signify that the card played was completely blind as opposed to having a clue on it already.
+* For example, on the first turn of a 3-player game:
+  * Alice clues number 1 to Cathy, touching one 1.
+  * Bob clues reds to Cathy, filling in the already-touched 1 as red 1, as well as touching a new card, which must be red 2.
+  * Cathy discards the known red 1 as a *Gentleman's Discard*.
+  * Alice blind-plays her *Finesse Position* card as red 1.
+
 ### The Early Fix Clue Chop Move
 
 * As noted in the *Fix Clues* section, a *Fix Clue* is required before a misplay occurs on duplicated cards. But usually, the misplay will not occur until late in the game, because there is always some other extra card (that is not currently playable) that it could be.
@@ -947,20 +957,10 @@ This section is unique in that it contains things that are separate from actual 
 
 ### The Stacked Finesse
 
-* If a player has already been *Finessed* for a card in their *Finesse Position*, then their *Finesse Position* moves right one slot. (This is a similar concept to how the chop moves left one slot when a player is chop moved.)
-* If another player does ANOTHER *Finesse* on a person who has already been *Finessed*, it is stacking a 2nd *Finesse* on top of the first, and they are expected to blind play the new *Finesse Position* card.
-* However, because of the possibility of *Layered Finesses*, you should blind play your cards in order from left to right (and not jump ahead).
-* When you have determined that a *Layered Finesse* was impossible AND that the order you play the cards in is not important, you should always jump ahead to demonstrate to the team that you "got" both *Finesses*.
-
-### The Gentleman's Discard
-
-* The *Sarcastic Discard* is very similar to the *Prompt* convention, because it gets someone to play a card that already had a clue on it. It is also possible to intentionally discard a known card in order to get someone to blind play a card, similar to a *Finesse*. 
-* When this occurs, it is called a *Gentleman Discard* to signify that the card played was completely blind as opposed to having a clue on it already.
-* For example, on the first turn of a 3-player game:
-  * Alice clues number 1 to Cathy, touching one 1.
-  * Bob clues reds to Cathy, filling in the already-touched 1 as red 1, as well as touching a new card, which must be red 2.
-  * Cathy discards the known red 1 as a *Gentleman's Discard*.
-  * Alice blind-plays her *Finesse Position* card as red 1.
+* If a player has been *Finessed*, then their *Finesse Position* moves right one slot, exactly like if the blind card was clued. (This is a similar concept to how the chop moves left one slot when a player is *Chop Moved*.)
+* If ANOTHER *Finesse* is performed on the person who has already been *Finessed*, it is stacking a 2nd *Finesse* on top of the first, and they are expected to blind play the new *Finesse Position* card.
+* However, because of the possibility of *Layered Finesses*, players should always blind play their cards in order from left to right (and not jump ahead).
+* In rare cases, players can determine that a *Layered Finesse* was impossible (due to negative clues or some other piece of context). In this situation, if the play order of the cards does not matter, players should always "jump ahead" and play the second card to demonstrate to the team that they "got" both *Finesses*.
 
 ### The Layered Gentleman's Discard
 
