@@ -1277,7 +1277,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 ### Spillover Chop Move
 
 * If an *Order Chop Move* or a *Trash Order Chop Move* is performed, but the player who is supposed to *Chop Move* already has every single card in their hand clued, then this is very strange.
-* In this situation, the *Chop Move* should "skip" over that person and *Chop Moves* the next person after that.
+* In this situation, the *Chop Move* should "skip" over that person and *Chop Move* the next person after that.
 
 ### The Elimination Blind Play Riding Deduction Bluff
 
