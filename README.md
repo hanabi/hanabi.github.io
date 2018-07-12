@@ -1468,7 +1468,7 @@ caused 2 blind-plays.
 
 ### The Disease Bluff & The Heal Clue & The Double-Copy Bluff & The Pestilent (Double) Bluff
 
-* In the *Good Touch Bluff* convention, a *Bluff* is given that looks like a *Finesse*. However, what if something that looks like a *Good Touch Bluff* is done, but the "matching" card is not yet clued?
+* In the *Good Touch Bluff*, a *Bluff* is given that looks like a *Finesse*. However, what if something that looks like a *Good Touch Bluff* is done, but the "matching" card is not yet clued?
 * For example:
   * At the beginning of a 4-player game, Alice goes first.
   * Bob has a red 1 on slot 1 and a blue 2 on slot 2.
