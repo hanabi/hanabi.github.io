@@ -12,19 +12,23 @@ All document updates are listed in the `#announcements` channel on the [Hanabi D
 
 ## Introduction & Purpose
 
-Hanabi is a fantastic cooperative game of logic and reasoning. Our group, started by Hyphen-ated, gets online games going regularly. Everything doesn't always go perfectly, but we strive to constantly improve. Naturally, we have also built up a set of conventions that we all agree upon at the beginning of the game so that it is easier to understand what everyone else is doing.
+Hanabi is a fantastic cooperative game of logic and reasoning. Our group, started by Hyphen-ated, gets online games going regularly. Everything doesn't always go perfectly, but we strive to constantly improve. Naturally, we have also built up a set of conventions that we all agree upon at the beginning of the game so that it is easier to understand what everyone else is doing. As the list of conventions got longer, we wanted to make sure that everything was completely documented in an official capacity.
 
 The purpose of this document is:
 
-1. To explain the *First Principles* to a beginner.
+1. To explain the *First Principles* to brand-new players playing with our group.
 
     Briefing a beginner on every possible strategy would quickly become overwhelming. It is much easier to just describe some guiding principles that everyone agrees upon. Once these are known, a beginner should be able to use logic and reason to derive (most of) the resulting strategy that their teammate is intending.
 
-2. To serve as **a reference** for intermediate and expert players.
+2. To serve as **a reference** for intermediate and expert players of our group.
 
     Based on the guiding principles, we have come up with many different strategies. It is helpful to give specific names to each strategy to aid in both discussion and comprehension. If you know the general way we play but don't know about a specific kind of move, then you can look it up in this document.
 
-We generally only play games with 3 to 5 players, since 2-player games can be quite boring. Thus, this document doesn't really apply to 2-player games; separate conventions are probably necessary for optimized play in that game type.
+If you have found your way here from the Internet and are not a part of our group already, then welcome! You can use this document to cherry-pick strategies for your own group, or even adopt the whole convention framework if you want. We enjoy talking to other Hanabi players, so make sure to say hi in the [Hanabi Discord server](https://discord.gg/FADvkJp) as well. (Discord is a voice and text chat application that you can run in a browser.)
+
+Note that our group generally only plays games with 3 to 5 players, since 2-player games can be quite boring. Thus, this document doesn't really apply to 2-player games; separate conventions are probably necessary for optimized play in that game type.
+
+
 
 <br />
 
@@ -53,8 +57,8 @@ This document is split up into different sections so that you can better digest 
 * This document assumes that you are ALREADY familiar with the basic rules of Hanabi. If you need to brush up on them, see [this Pastebin written by Tricky](http://pastebin.com/6brGz2J4).
 * The best place to play Hanabi online is at
 [Hanabi Live](http://hanabi.live/).
-* Find other people to play with and discuss strategy with on the [Hanabi Discord server](https://discord.gg/FADvkJp).
-(Discord is a voice and text chat application that you can run in a browser.)
+* There are also lots of players who play Hanabi online at [Board Game Arena](http://boardgamearena.com), although the user interface is not very good.
+* Find other people to play with and discuss strategy with on the [Hanabi Discord server](https://discord.gg/FADvkJp). (Discord is a voice and text chat application that you can run in a browser.)
 
 <br />
 
