@@ -1354,6 +1354,20 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * This is very similar to a *Stop Blind-Play*, but since the player has a known play, there is no reason to use up one of the strikes when the same message can be communicated in a safer way.
 * If there is a card that could potentially be playable on on chop, then the *Echo Scream Discard* interpretation takes priority over the *Stop Discard* interpretation.
 
+### The Double Half Bluff
+
+* Sometimes, you see that two players in a row have cards on their newest slot that are playable. However, they are unrelated, so you can't get them both played with a double finesse. This is where the *Double Half Bluff* comes in - it is very similar to a *Double Finesse*. In this situation, by performing a clue that looks like a *Double Finesse*, you can get the first card played like a normal *Finesse* and the 2nd card like a *Bluff*.
+* For example, on the first turn of a 4-player game:
+  * Alice clues Donald red, which touches a red 3.
+  * Bob goes next and assumes that it is a *Double Self-Finesse* - he has the red 1 and red 2 in the two newest slots. Thus, he blind-plays his left-most and it is red 1.
+  * Cathy goes next. Cathy sees that Donald does NOT have red 2 in his next newest slot, so she must have the red 2. Cathy blind-plays her left-most card. However, it is NOT the red 2, but the blue 1.
+  * Bob now knows he does not have the red 2 anymore, since Cathy blind-played.
+  * Cathy now knows that since two blind-plays happened in a row, she does NOT have the red 2.
+  * At first, Donald thought that the red card in his hand was red 1 (as a *Play Clue*).
+  * After Alice blind-played, Donald thought that the red card in his hand was red 2 (as a *Finesse*).
+  * After Bob blind-played, Donald knows that he must have the red 3 (as a *Double Half Bluff*).
+* Normally, you are only allowed to *Bluff* while in *Bluff Seat*. But *Double Half Bluffs* do not violate *Good Lie Principle*, so we allow them.
+
 ### The Double Bluff
 
 * Similar to a *Double Half Bluff*, it is also possible to get 2 cards played in a row that are completely unrelated.
@@ -1440,20 +1454,6 @@ caused 2 blind-plays.
   2) the next player has negative information on their entire hand (so that they know they do not have the correct card)
 * Essentially, if either of these is true, then the player being passed over cannot actually act on their state of misinformation.
 * Since valid *Reverse Bluffs* are so rare, it is important to remember that a valid *Reverse Bluff* is distinct from a *Layered Finesse*, and that blind-playing should stop after the first blind-play. (This is a common mistake.)
-
-### The Double Half Bluff
-
-* Sometimes, you see that two players in a row have cards on their newest slot that are playable. However, they are unrelated, so you can't get them both played with a double finesse. This is where the *Double Half Bluff* comes in - it is very similar to a *Double Finesse*. In this situation, by performing a clue that looks like a *Double Finesse*, you can get the first card played like a normal *Finesse* and the 2nd card like a *Bluff*.
-* For example, on the first turn of a 4-player game:
-  * Alice clues Donald red, which touches a red 3.
-  * Bob goes next and assumes that it is a *Double Self-Finesse* - he has the red 1 and red 2 in the two newest slots. Thus, he blind-plays his left-most and it is red 1.
-  * Cathy goes next. Cathy sees that Donald does NOT have red 2 in his next newest slot, so she must have the red 2. Cathy blind-plays her left-most card. However, it is NOT the red 2, but the blue 1.
-  * Bob now knows he does not have the red 2 anymore, since Cathy blind-played.
-  * Cathy now knows that since two blind-plays happened in a row, she does NOT have the red 2.
-  * At first, Donald thought that the red card in his hand was red 1 (as a *Play Clue*).
-  * After Alice blind-played, Donald thought that the red card in his hand was red 2 (as a *Finesse*).
-  * After Bob blind-played, Donald knows that he must have the red 3 (as a *Double Half Bluff*).
-* Normally, you are only allowed to *Bluff* while in *Bluff Seat*. But *Double Half Bluffs* do not violate *Good Lie Principle*, so we allow them.
 
 ### The Good Touch Bluff
 
