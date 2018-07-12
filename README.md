@@ -1155,7 +1155,16 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 * This convention applies to any variant with a *Rainbow* suit or a dual-color suit.
 * When performing a *Prompt* by touching a sole rainbow card, the player doing the clue may have a free choice between multiple colors. In other words, there may exist multiple colors that will ONLY touch the rainbow card.
-* If a player has a free choice to choose the color that matches the intended prompt target but instead deliberately chooses a different color, this signals that it is actually a *Finesse* instead of a *Prompt*.
+* If a player has a free choice to choose the color that matches the intended *Prompt* target but instead deliberately chooses a different color, this signals that it is actually a *Finesse* instead of a *Prompt*.
+* For example, on the first turn of a 3-player game:
+  * Alice clues Bob reds, which touches a red 1 in slot 1 and a red 3 in slot 2.
+  * Bob plays red 1 from slot 1. He draws a rainbow 1, which is now in his slot 1.
+  * Cathy discards.
+  * Alice notices that Bob has a rainbow 1 in *Finesse Position*. And Cathy has a rainbow 2 in her hand.
+  * Since *Prompts* take precedence over *Finesses*, if Cathy clues the rainbow 2 with red, then Bob will misplay the red 3 as rainbow 1. This is a problem.
+  * However, Cathy has no other red cards in her hand, and no other blue cards in her hand. Thus, Alice has a free choice between reds and blues.
+  * Alice clues blues to Cathy, which only touches the rainbow 2.
+  * Bob knows that since Alice did not color-match with red, he should play his slot 1 instead of his slot 2.
 
 ### The Free Choice Bluff
 
