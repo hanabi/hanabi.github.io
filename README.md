@@ -1222,7 +1222,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 ### Acid Trip Conventions
 
 * These conventions apply to the *Acid Trip* variant.
-* Cards with color clues on them are not treated as clued cards. In other words, your chop is your right-most (oldest) card without a number clue on it.
 * Number clues mean the same thing as normal.
 * All color clues have a special meaning:
   * Blue means play slot 1.
@@ -1230,9 +1229,9 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Yellow means play slot 3.
   * Red means play slot 4.
   * Purple means play slot 5 (in 2 and 3-player games).
-  * Purple means play slot 1 AND the next person plays their *Finesse Position* card (in 4 and 5-player games).
+  * Purple means that the next two players should play their *Finesse Position* card (in 4 and 5-player games).
   * Orange means chop move.
-* All color clues have to be treated as potential *Delayed Play Clues*, *Prompts*, and *Reverse Finesses*.
+* All color *Play Clues* have to be treated as potential *Delayed Play Clues*, *Prompts*, and *Reverse Finesses*.
 
 ### Rainbow 1oE Saves
 
@@ -1240,7 +1239,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * Players should save rainbow cards with a number clue.
 * There are two exceptions to this:
   * if the color clue also touched another critical card
-  * if the color is a stack that happens to be completed played already
+  * if the color is a stack that happens to be completely played already
 
 <br />
 
