@@ -812,7 +812,7 @@ This section is unique in that it contains things that are separate from actual 
 
 ### The Weak Prompt
 
-* If a teammate performs the *Prompt* convention on you and you have multiple cards in your hand that match the connecting card, normally you would be promised that the left-most (newest) is playable.
+* If a teammate performs a *Prompt* on you, and you have multiple cards in your hand that match the connecting card, normally you would be promised that the left-most (newest) is playable.
 * However, if the card that initiated the prompt was ON CHOP when it was touched AND it was in danger of being discarded, the left-most rule no longer applies, since your teammate had to take drastic measures to prevent the discard of that card.
 * So instead, you are promised that you have the connecting card somewhere in your hand, but it could be any of the cards, and not strictly the left-most.
 
