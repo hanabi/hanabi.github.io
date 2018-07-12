@@ -1354,6 +1354,28 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * This is very similar to a *Stop Blind-Play*, but since the player has a known play, there is no reason to use up one of the strikes when the same message can be communicated in a safer way.
 * If there is a card that could potentially be playable on on chop, then the *Echo Scream Discard* interpretation takes priority over the *Stop Discard* interpretation.
 
+### The Double Bluff
+
+* Similar to a *Double Half Bluff*, it is also possible to get 2 cards played in a row that are completely unrelated.
+* For example, in a 4-player game:
+  * Red 2 is currently played on the stacks.
+  * Alice clues a red 5 in Donald's hand with a yellow color *Play Clue*.
+  * Since red 5 is playable right now, Bob thinks he has the red 3 and the red 4. Bob blind-plays his *Finesse Position* card, but it is actually a blue 1.
+  * Cathy sees that Bob blind-played because of the red clue. However, since the red 5 is a two-away card instead of one-away card, it must mean that it is a *Double Bluff* instead of a single *Bluff*. Cathy blind-plays her *Finesse Position* card and it is yellow 1.
+  * At first, Donald thought that the red card in his hand was red 3 (as a *Play Clue*).
+  * After Alice blind-played, Donald thought that the red card in his hand was red 4 (as a *Bluff*).
+  * After Bob blind-played, Donald knows that he must have the red 5 (as a *Double Bluff*).
+caused 2 blind-plays.
+* Normally, you are only allowed to *Bluff* while in *Bluff Seat*. But *Double Bluffs* do not violate *Good Lie Principle*, so we allow them.
+
+### The Triple Bluff / The Triple Two-Thirds Bluff
+
+* Following from the *Double Bluff* convention, it is possible to perform a *Triple Bluff*. For example, on the first turn of the game:
+
+![Triple Bluff](img/triple_bluff.png)
+
+* In this screenshot, if Zealousy blind-played a red 2 from newest AND the focus of the initial clue was red 4, then it would be a *Triple Two-Thirds Bluff* instead of a *Triple Bluff*.
+
 ### The No-Information Double Finesse & The No-Information Double Bluff
 
 * Sometimes, cards are re-clued in order to initiate a *Finesse* or a *Bluff*. Most times, the clue will "fill in" or give extra information to the existing card.
@@ -1382,7 +1404,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * However, if BOTH blue 3's were touched with the number 3 clue, then that would violate *Good Touch Principle*, and this would be considered a "bad touch".
 * If someone is violating *Good Touch Principle*, they must have a very good reason, so the clue must be a *Double Finesse* instead of a *3 Bluff*. In the above example, the next player should blind-play the blue 2 from their *Finesse Position*.
 * After that, the player who recieved the clue can safely discard the focused 3.
-* In the same way, it is also possible to *Bad Touch Double Bluff* or *Bad Touch Double Half Bluff* in order to get unrelated cards played from *Finesse Position*. In order to understand this, first see the section on *Double Bluffs*.
+* In the same way, it is also possible to *Bad Touch Double Bluff* or *Bad Touch Double Half Bluff* in order to get unrelated cards played from *Finesse Position*.
 
 ### The Sacrifice Discard
 
@@ -1432,28 +1454,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * After Alice blind-played, Donald thought that the red card in his hand was red 2 (as a *Finesse*).
   * After Bob blind-played, Donald knows that he must have the red 3 (as a *Double Half Bluff*).
 * Normally, you are only allowed to *Bluff* while in *Bluff Seat*. But *Double Half Bluffs* do not violate *Good Lie Principle*, so we allow them.
-
-### The Double Bluff
-
-* Similar to a *Double Half Bluff*, it is also possible to get 2 cards played in a row that are completely unrelated.
-* For example, in a 4-player game:
-  * Red 2 is currently played on the stacks.
-  * Alice clues a red 5 in Donald's hand with a yellow color *Play Clue*.
-  * Since red 5 is playable right now, Bob thinks he has the red 3 and the red 4. Bob blind-plays his *Finesse Position* card, but it is actually a blue 1.
-  * Cathy sees that Bob blind-played because of the red clue. However, since the red 5 is a two-away card instead of one-away card, it must mean that it is a *Double Bluff* instead of a single *Bluff*. Cathy blind-plays her *Finesse Position* card and it is yellow 1.
-  * At first, Donald thought that the red card in his hand was red 3 (as a *Play Clue*).
-  * After Alice blind-played, Donald thought that the red card in his hand was red 4 (as a *Bluff*).
-  * After Bob blind-played, Donald knows that he must have the red 5 (as a *Double Bluff*).
-caused 2 blind-plays.
-* Normally, you are only allowed to *Bluff* while in *Bluff Seat*. But *Double Bluffs* do not violate *Good Lie Principle*, so we allow them.
-
-### The Triple Bluff / The Triple Two-Thirds Bluff
-
-* Following from the *Double Bluff* convention, it is possible to perform a *Triple Bluff*. For example, on the first turn of the game:
-
-![Triple Bluff](img/triple_bluff.png)
-
-* In this screenshot, if Zealousy blind-played a red 2 from newest AND the focus of the initial clue was red 4, then it would be a *Triple Two-Thirds Bluff* instead of a *Triple Bluff*.
 
 ### The Good Touch Bluff
 
