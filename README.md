@@ -261,6 +261,17 @@ Note that in this user interface, players are holding their hands like they woul
 
 ## Level 2 - Intermediate Strategies
 
+### The Prompt + Finesse
+
+* In general, remember that players will always assume *Prompts* over *Finesses*. Thus, is it possible to do a clue that *Prompts* a card from a player's hand and THEN gets them to blind-play their *Finesse Position* card on the next turn.
+* For example, in a 3-player game:
+  * Red 1 is played on the stacks.
+  * Bob has a clued red card in his hand on slot 4.
+  * Alice clues Cathy reds, touching a red 4.
+  * Bob knows he has both red 2 and red 3, but he only has one clued red card in his hand. So this must be both a *Prompt* on him and a *Finesse* on him at the same time.
+  * Since *Prompts* take precedence over *Finesses*, he plays the clued red card first from slot 4 as red 2.
+  * On his next turn, he blind plays slot 2 as red 3. (His *Finesse Position* at the time of the clue was slot 1, but he drew a card, and now the red 3 slid down to slot 2.)
+
 ### Reverse Finesses
 
 * In a normal *Finesse*, you would give a clue to a person AFTER the person blindly playing the card. If you give a *Finesse* clue to someone BEFORE the blind-play occurs, it is called a *Reverse Finesse*. This is more complicated than a normal *Finesse* and is harder to see.
@@ -628,17 +639,6 @@ This section is unique in that it contains things that are separate from actual 
   * Cathy would normally think that she has red 2, which would match the red 1 that was just played. However, she sees that when the clue happened, there was a red 2 next to the red 1.
   * Thus, Cathy discards, giving Bob the chance to blind the play the red 2. If he does not blind play it, then it was a normal *Finesse* and she has red 2. If he does blind play it, then it was a *Double Finesse* and she has red 3.
   * On his next turn, Bob blind plays red 2 from slot 2. Cathy now knows she has the red 3.
-
-### The Prompt + Finesse
-
-* In general, remember that players will always assume *Prompts* over *Finesses*. Thus, is it possible to do a clue that *Prompts* a card from a player's hand and THEN gets them to blind-play their *Finesse Position* card on the next turn.
-* For example, in a 3-player game:
-  * Red 1 is played on the stacks.
-  * Bob has a clued red card in his hand on slot 4.
-  * Alice clues Cathy reds, touching a red 4.
-  * Bob knows he has both red 2 and red 3, but he only has one clued red card in his hand. So this must be both a *Prompt* on him and a *Finesse* on him at the same time.
-  * Since *Prompts* take precedence over *Finesses*, he plays the clued red card first from slot 4 as red 2.
-  * On his next turn, he blind plays slot 2 as red 3. (His *Finesse Position* at the time of the clue was slot 1, but he drew a card, and now the red 3 slid down to slot 2.)
 
 ### The Ambiguous Finesse
 
