@@ -1088,11 +1088,12 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * When you get a play clue on a card that could be multiple suits, you must take the average of all of the ranks and treat the card as having that rank for the purposes of performing a *Rank Priority Finesse*.
 * For example, in a 3-player *Wild & Crazy* game:
   * The green 1 and rainbow 2 are played on the stacks.
-  * Mike receives a yellow *Play Clue* on slot 1.
+  * Alice receives a yellow *Play Clue* on slot 1.
   * This means that the card could be a green 2, orange 1, or rainbow 3.
   * Thus, the average rank is: (2 + 1 + 3) / 3 = 2
-  * Mike also knows that he can play a white 2 on slot 4.
-  * If the average value ended up being higher than 2.0, then Mike would have to play the white 2 first, or else it would initiate a *Rank Priority Finessse*.
+  * Alice also knows that she can play a white 2 on slot 4.
+  * Since 2 is equal to 2, Alice is expected to play the left-most card first, and she should play the slot 1 yellow card.
+  * If the average rank of the yellow card ended up being higher than 2.0, then Alice would have to play the white 2 first from slot 4, or else it would initiate a *Rank Priority Finessse*.
 
 ### The Priority Bluff & The Priority Layered Finesse
 
