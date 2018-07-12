@@ -666,16 +666,7 @@ This section is unique in that it contains things that are separate from actual 
   * Alice clues number 3 to Bob, which touches one 3. (This is a mistake, because it might be violating *Good Touch Principle*.)
   * Bob knows that the only playable 3 is red 3. He also knows that Alice has a clued red 3 already in her hand. Thus, he knows that he has the red 3 and that Alice made a mistake.
   * Bob performs a *Sarcastic Discard* to pass the red 3 back to Alice.
-
-### The Gentleman's Discard
-
-* The *Sarcastic Discard* is very similar to the *Prompt* convention, because it gets someone to play a card that already had a clue on it. It is also possible to intentionally discard a known card in order to get someone to blind play a card, similar to a *Finesse*. 
-* When this occurs, it is called a *Gentleman Discard* to signify that the card played was completely blind as opposed to having a clue on it already.
-* For example, on the first turn of a 3-player game:
-  * Alice clues number 1 to Cathy, touching one 1.
-  * Bob clues reds to Cathy, filling in the already-touched 1 as red 1, as well as touching a new card, which must be red 2.
-  * Cathy discards the known red 1 as a *Gentleman's Discard*.
-  * Alice blind-plays her *Finesse Position* card as red 1.
+* If there are multiple cards that a *Sarcastic Discard* could apply to, then it promises that the left-most card, similar to how a *Prompt* works.
 
 ### The Sarcastic Finesse
 
@@ -690,6 +681,16 @@ This section is unique in that it contains things that are separate from actual 
   * In the best case, you get a "true" *Finesse* (a 2-for-1 or better).
   * In the worst case, you get a 1-for-1 and full knowledge on a clued card in your own hand that was previously a mystery.
 * Normally, if a *Sarcastic Discard* could apply to multiple cards in your hand, you assume it is the left-most card. However, in the case of a *Sarcastic Discard* initiated from a *Sarcastic Finesse*, it does NOT promise the order, because they HAD to put something on the fishing line that you sent out, so to speak.
+
+### The Gentleman's Discard
+
+* The *Sarcastic Discard* is very similar to the *Prompt* convention, because it gets someone to play a card that already had a clue on it. It is also possible to intentionally discard a known card in order to get someone to blind play a card, similar to a *Finesse*. 
+* When this occurs, it is called a *Gentleman Discard* to signify that the card played was completely blind as opposed to having a clue on it already.
+* For example, on the first turn of a 3-player game:
+  * Alice clues number 1 to Cathy, touching one 1.
+  * Bob clues reds to Cathy, filling in the already-touched 1 as red 1, as well as touching a new card, which must be red 2.
+  * Cathy discards the known red 1 as a *Gentleman's Discard*.
+  * Alice blind-plays her *Finesse Position* card as red 1.
 
 ### The Certain Finesse / The Certain Discard
 
