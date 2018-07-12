@@ -1561,10 +1561,10 @@ caused 2 blind-plays.
 
 * It is possible for a *Hesitation Blind-Play* to occur without anyone intending it to happen. However, if a player intentionally tries to make a *Hesitation Blind-Play* occur, it is called a *Pass Bluff*.
 * In other words, after a *Finesse* occurs that is directed at you, you will know that your *Finesse Position* card is playable. If the next immediate player also has an unrelated playable card on their *Finesse Position*, you can pretend like the *Finesse* wasn't directed at you. This will cause them to think that the *Finesse* was directed at them, and you will get the unrelated card played for free.
-* Unlike a *Layered Finesse*, they should not continue to play to find the finesse card because:
-  * You fulfill the real *Finesse* on the next go around.
-  * They can see that they were in *Bluff Seat*.
-* *Pass Bluffs* rely on other contextual information to be present in order to work, so the circumstances in which you can do them are narrow.
+* After the unrelated card is played, the next player should NOT continue to blind play cards (as a *Layered Finesse*) because:
+  * You "passing" player fulfills the real *Finesse* on their next turn.
+  * The "passing" player was in *Bluff Seat*.
+* *Pass Bluffs* rely on contextual information in order to work, so the circumstances in which you can do them are narrow.
 
 ### The Double/Triple Pass Bluff
 
