@@ -1402,7 +1402,7 @@ caused 2 blind-plays.
   * Cathy discards.
   * Alice clues 3's to Cathy, which re-touches the red 3 (and gives no additional information to it).
   * Bob blind-plays red 1. If this was a *3 Bluff*, then no-one would be promised the red 2. However, since no new information was given, it must be a *No-Information Double Finesse*. Bob sees that Cathy does not have the red 2, so he must have the red 2, and can blind-play it on his next turn.
-* Usually, a "no-information" clue conveys a *Double Finesse*. But you can also use it to perform a *Double Bluff*. For example, in a 3-player game:
+* Usually, a "no-information" clue conveys a *Double Finesse*. But you can also use it to perform a *Double Bluff* (or a *Double Half Bluff*). For example, in a 3-player game:
   * Nothing is played on the stacks.
   * Alice clues 3's to Cathy, which touches one 3, the red 3.
   * Bob blind-plays blue 1. At this point, everyone knows that Alice has performed a *3 Bluff*, and from Cathy's perspective, her 3 can be any 3 at all.
@@ -1412,13 +1412,13 @@ caused 2 blind-plays.
   * Cathy sees that Bob does not have the green 2, so she must have the green 2, so she blind-plays her *Finesse Position* card, and it is yellow 1 instead of green 2.
   * Since two cards were blind-played (that did not match), everyone now knows that the *No-Information* clue was a *Double Bluff* instead of a *Double Finesse*. From Cathy's perspective, her 3 can (still) be any 3 at all.
 
-### The Bad Touch Double Finesse & The Bad Touch Double Bluff & The Bad Touch Double-Half Bluff (For 3's)
+### The Bad Touch Double Finesse & The Bad Touch Double Bluff (For 3's)
 
 * Normally, a *3 Bluff* takes priority over a *Double Finesse*. This means that if someone clues a blue 3 using the number 3, and then a blue 1 blind-plays on the very next turn, no-one is promised the blue 2.
 * However, if BOTH blue 3's were touched with the number 3 clue, then that would violate *Good Touch Principle*, and this would be considered a "bad touch".
 * If someone is violating *Good Touch Principle*, they must have a very good reason, so the clue must be a *Double Finesse* instead of a *3 Bluff*. In the above example, the next player should blind-play the blue 2 from their *Finesse Position*.
 * After that, the player who recieved the clue can safely discard the focused 3.
-* In the same way, it is also possible to *Bad Touch Double Bluff* or *Bad Touch Double Half Bluff* in order to get unrelated cards played from *Finesse Position*.
+* In the same way, it is also possible to *Bad Touch Double Bluff* (or *Bad Touch Double Half Bluff*) in order to get unrelated cards played from *Finesse Position*.
 
 ### The Sacrifice Discard
 
