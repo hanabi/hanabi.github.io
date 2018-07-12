@@ -1457,8 +1457,14 @@ caused 2 blind-plays.
 
 ### The Good Touch Bluff
 
-* Care has to be taken so that a *Bluff* does not look like a *Finesse*. For example, if the red 2 is played on the red stack and the blue 2 is played on the blue stack, a number 4 clue that touches a blue 4 can cause a red 3 to blind-play. However, this would not typically be done - the unknown 4 would look like red 4, and they would misplay it.
-* However, from the perspective of a player who has just seen the above scenario unfold, there must be something else going on. This actually implies that the real red 4 is already clued in someone else's hand. An impending misplay will NOT occur because of *Good Touch Principle*; since it would be bad to duplicate red 4, the player who received the clue will know that the 4 is some other one-away 4.
+* Care has to be taken so that a *Bluff* does not look like a *Finesse*. For example, in a 4-player game:
+  * Red 2 and blue 2 are played on the stacks.
+  * Alice clues Cathy number 4, which touches a red 4.
+  * Bob blind-plays a blue 3 from his *Finesse Position*.
+  * Since 3 matches 4, Cathy knows she has the blue 4, and goes on to misplay red 4 as blue 4.
+  * Thus, Alice should not have given this clue.
+* However, what if in the same example, Donald ALREADY has a blue 4 clued in his hand. Now, Cathy will know that she does NOT have the blue 4, because then Alice's clue would have violated *Good Touch Principle*. Cathy will instead know that the 4 is some OTHER one-away 4.
+* Furthermore, Donald can see that the above occured and will know that he definately has the blue 4 clued in his hand (if he did not know already).
 
 ### The Disease Bluff & The Heal Clue & The Double-Copy Bluff & The Pestilent (Double) Bluff
 
