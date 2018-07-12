@@ -1551,10 +1551,10 @@ caused 2 blind-plays.
 
 ### The Hesitation Blind-Play
 
-* If you see that someone gets a play clue on a card and they discard instead of playing it, this would normally be a *Scream Discard*. However, sometimes you know from the context of the game that your chop has to be safe.
-* In such a situation, the only reason that they would discard is that they are allowing for the possibility of a *Reverse Finesse*, and that you have a playable card on your newest that "matches" the card that they got the play clue on. Thus, you may be able to just immediately blind-play your *Finesse Position* card as a *Hesitation Blind-Play*.
-* However, doing this is not always safe, so you have to evalulate what exact cards that you could be playing:
-  * For example, if you could be playing the other copy of the clued card, then that would cause a duplication and violate *Good Touch Principle*.
+* Sometimes, a player will get a *Play Clue* on a card. And then, instead of playing it, they will discard their chop instead. This would normally indicate a *Scream Discard*. However, sometimes the next player will know from the context of the game that their chop has to be safe.
+* In such a situation, the only reason that the player would discard is that they are allowing for the possibility of a *Reverse Finesse*, and that the next player has a playable card on *Finesse Position* slot that "matches" the card that they got the *Play Clue* on. Thus, the next player may be able to just immediately blind-play their *Finesse Position* card as a *Hesitation Blind-Play*.
+* However, doing this is not always safe, so players have to carefully evalulate what exact cards that they could be playing:
+  * For example, if they played the other copy of the clued card (that caused the *Hesitation*), then that would cause a duplication and violate *Good Touch Principle*.
   * Another problem is if the blind-play causes the original clue to look like a *Double Finesse* with a "self" component. For example, if a number 4 clue causes a *Hesitation Blind-Play* of a red 2, the clue reciever might misplay their *Finesse Position* card as a red 3.
 
 ### The Pass Bluff
