@@ -708,9 +708,10 @@ This section is unique in that it contains things that are separate from actual 
 
 * Typically, the player who receives a clue that causes a *Bluff* blind play knows that the card that was clued is one away from being playable.
 * Our group plays with an artificial *3 Bluffs* convention. This means that in addition to being one away from being playable, we agree that the touched card can be ANY 3 that will be useful in the future.
-* Two "easy" ways to tell whether something is a *3 Bluff* or not is to:
-  1) 
-* The priority of *3 Bluffs* can be confusing, so here are some examples that cover the four most common situations:
+* The priority of *3 Bluffs* can be confusing. There are two main ways that you can tell whether something is a *3 Bluff* or not. You can ask:
+  1) Does the clue "match" the blind play? If it matches, then it is a *Finesse*. If it doesn't match, then it is a *Bluff*. Red matches red, but red does NOT match blue. 2 matches 3, but 1 does NOT match 3.
+  2) Will the person who recieved the clue go on to misplay if nothing else is blind played? If yes, then it is a *Finesse*. If no, then it is a *Bluff*.
+* Here are some examples that cover the four most common *3 Bluff* situations:
     * **Color mismatch (valid):**
       * On the first turn of the game, Alice clues Cathy reds, which touches a red 3.
       * Bob blind plays blue 1.
