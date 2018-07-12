@@ -432,7 +432,7 @@ Note that in this user interface, players are holding their hands like they woul
   10. When in the *End-Game* or the team is behind pace (specifically, when score + deck is below the maximum score)
   11. When the game has been going so well that further clue efficiency is no longer required to win the game
   12. When the tempo clue gets 2 or more cards played.
-* *Tempo Clues* that are done outside of these special circumstances are a different convention called *Tempo Clue Chop Moves*; see below.
+* Since they are so inefficient, *Tempo Clues* that are done outside of these special circumstances are assigned a special meaning. See the *Tempo Clue Chop Moves* section below.
 * Sometimes, a *Tempo Clue* can touch multiple cards, which typically means that all of the cards touched are playable. See *The Double Tempo Clue* section below.
 
 ### The Tempo Clue Chop Move
