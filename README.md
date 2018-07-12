@@ -1272,7 +1272,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 * If you are clued the exact same thing twice before it gets to be your turn, it means that you can play ALL of the cards that the clue applies to, but in the opposite order than normal (right-to-left, since you would normally play cards from left-to-right).
   * If one of the cards includes the chop card, it means to play all of the cards from 2nd oldest to newest, and then the chop last.
-* If you are re-clued about a bunch of cards after you have already taken a turn, see the *Double Tempo Clue* convention.
+* If you are re-clued about a bunch of cards after you have already taken a turn, see the *Double Tempo Clue* section.
 
 ### Spillover Chop Move
 
