@@ -1402,7 +1402,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 * If a player performs a *Layered Finesse* through a card that is one-away from being playable, it is possible to see that an impending misplay will occur.
 * This is a signal to you that you need to "patch" the problem, so you have the matching card in your *Finesse Position* to make the one-away card actually playable.
-* In general, you must give preference to a patch interpretation. Thus, you might need to hold off before playing a card for a while to see if a patch blind-play occurs.
+* In general, you must give preference to a patch interpretation. However, it is illegal to perform a *Patch Finesse* where the person blind-playing the patching card comes after the person blind-playing into the *Layered Finesse*. Another way of saying that is that the *Patch Component* of the *Patch Finesse* cannot be in reverse.
 
 ### The Patch Gentleman's Discard
 
