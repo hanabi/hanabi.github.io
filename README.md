@@ -1162,9 +1162,9 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Cathy discards.
   * Alice notices that Bob has a rainbow 1 in *Finesse Position*. And Cathy has a rainbow 2 in her hand.
   * Since *Prompts* take precedence over *Finesses*, if Cathy clues the rainbow 2 with red, then Bob will misplay the red 3 as rainbow 1. This is a problem.
-  * However, Cathy has no other red cards in her hand, and no other blue cards in her hand. Thus, Alice has a free choice between reds and blues.
-  * Alice clues blues to Cathy, which only touches the rainbow 2.
-  * Bob knows that since Alice did not color-match with red, he should play his slot 1 instead of his slot 2.
+  * However, Cathy has no red cards, no blue cards, and no other rainbow cards in her hand. Thus, if Alice wants to clue the rainbow 2 with a color, Alice has a free choice between cluing red and cluing blue.
+  * Alice clues blue to Cathy, which only touches the rainbow 2.
+  * Bob knows that since Alice had a free choice and did not color-match with red, he should play his slot 1 instead of his slot 2.
 
 ### The Free Choice Bluff
 
