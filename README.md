@@ -1188,8 +1188,12 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 ### The Negative Prompt
 
 * This convention applies to the *Dual-color Suits* variant.
-* In this variant, since negative color information conveys just as much information as positive color information, you should include that when deciding which card to play into a prompt.
-* For example, if you have a red card in slot 1 with no negative clues, and a red card in slot 2 with negative yellow, then normally you would play left-most if a Magenta card was prompted. But with this convention you would play slot 2.
+* In this variant, since negative color information conveys just as much information as positive color information, you should include that when deciding which card to play into a *Prompt*.
+* For example:
+  * Imagine that you have a red card in slot 1 and a red card in slot 2.
+  * You are then *Prompted* for a Burgundy 2. (Burgundy is composed of red and black.)
+  * Normally, you would play slot 1, since *Prompts* promise the left-most card.
+  * However, if the slot 1 card has no negative clues, and the slot 2 card has a negative yellow clue, then this is a *Negative Prompt* and you should play slot 2 instead of slot 1.
 
 ### Crazy 3 Saves & Crazy 4 Saves
 
