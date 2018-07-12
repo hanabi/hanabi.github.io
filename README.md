@@ -1406,7 +1406,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### The Patch Gentleman's Discard
 
-* Similar to a *Patch Finesse*, a *Gentleman's Discard* can also contain a "patch" component.
+* Similar to a *Patch Finesse*, a *Gentleman's Discard* can also contain a *Patch Component*.
 
 ### The Reverse Bluff / The Out-of-Position Bluff (bad)
 
