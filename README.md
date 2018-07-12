@@ -1585,14 +1585,6 @@ caused 2 blind-plays.
 * However, in some situations, the player who has been screamed at sees that if they give a clue, the next player will be left at 0 clues and will be forced to discard a critical card.
 * Thus, in this situation, the player should chop move as normal and then discard their new chop, which will functionally act as a second *Scream Discard*. This second *Scream Discard* is called a *Rebellious Discard*, because they are not doing what they are told.
 
-### The Oblivious Finesse
-
-* Sometimes a *Layered Finesse* is given where one of the cards in a layer is currently unplayable. In this situation, a player who is responsible for blind-playing a card may have to instead play *Prompted* cards first so that the layered card does not misplay.
-* For the player with the layered card, this will be extremely confusing and look like the blind-playing player is oblivious to the *Finesse* that just occured. The typical response to this is to assume an *Ambiguous Finesse*, and to blind-play the *Finesse Position* card.
-* Thus, *Oblivious Finesses* can be quite dangerous and should only be performed in very specific circumstances where you can see that confusion will be minimized.
-
-![Oblivious Finesse](img/oblivious_finesse.png)
-
 ### The Trash Push Prompt & The Trash Push Finesse
 
 * If you see that a player *Trash Pushes* an unplayable one-away card, it is a signal to you that you have the connecting card.
@@ -1737,7 +1729,6 @@ n/a
 | Double Discard Elimination | Zamiel
 | The No-Information Double Finesse & The No-Information Double Bluff | Zamiel
 | The Layered Jump | Libster
-| The Oblivious Finesse | Sankala
 | The Free Choice Bluff | Zamiel
 | The Suboptimal Color Prompt & The Suboptimal Color Finesse | Zamiel
 | The Suboptimal Color Bluff | Zamiel
