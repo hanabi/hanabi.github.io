@@ -677,6 +677,34 @@ This section is unique in that it contains things that are separate from actual 
   * Cathy discards the known red 1 as a *Gentleman's Discard*.
   * Alice blind-plays her *Finesse Position* card as red 1.
 
+### The Sarcastic Finesse
+
+* Imagine that in a 3-player game:
+  * Nothing is played on the stacks.
+  * Alice has an already-clued 2 in her hand. She has no idea what color 2 it is.
+  * Alice performs a *Finesse* by giving a red color *Play Clue* to a red 2 in Cathy's hand.
+  * Bob blind plays red 1 from his *Finesse Position*.
+  * Normally, Cathy would think that she has the next red card, which is red 2, and play it.
+  * However, what if Alice actually has the red 2? In this situation, Cathy is expected to perform a *Sarcastic Discard*.
+* Doing a *Finesse* that potentially duplicates a card in this way is called a *Sarcastic Finesse*. Normally, potentially duplicating a card is bad - it violates *Good Touch Principle* and could lead to a clue being wasted. However, potentially duplicating a card with the *Sarcastic Finesse* is not bad because:
+  * In the best case, you get a "true" *Finesse* (a 2-for-1 or better).
+  * In the worst case, you get a 1-for-1 and full knowledge on a clued card in your own hand that was previously a mystery.
+* Normally, if a *Sarcastic Discard* could apply to multiple cards in your hand, you assume it is the left-most card. However, in the case of a *Sarcastic Discard* initiated from a *Sarcastic Finesse*, it does NOT promise the order, because they HAD to put something on the fishing line that you sent out, so to speak.
+
+### The Certain Finesse / The Certain Discard
+
+* Imagine that in a 3-player game:
+  * Red 2 is played on the stacks.
+  * Alice has an already-clued red card in her hand. It has a negative 4 clue on it, so from *Good Touch Principle* Alice knows that it is either red 3 or red 5.
+  * Alice performs a *Reverse Finesse* by giving a red color *Play Clue* to a red 4 in Bob's hand.
+  * Bob discards.
+  * Cathy knows that she is promised the red 3 in her *Finesse Position*.
+* This is an example of a *Certain Finesse* - it is similar to the *Sarcastic Finesse* above, but the "blind" card was potentially duplicated instead of the clued card.
+* In this situation, if Alice really has the red 3, Cathy is allowed to blind-discard their *Finesse Position* card. This is called a *Certain Discard*, because Cathy can be certain that it is exactly red 3.
+* A separate way to explain this convention is that everyone agrees that performing a *Layered Finesse* on a card that could potentially be in your own hand is illegal. So, everyone can be certain that they can safely blind discard a card to pass it back to someone who potentially duplicated.
+* Note that players are ONLY allowed to do a *Certain Discard* if they know they have not been bluffed. (This means that *Certain Finesses* cannot be performed from *Bluff Seat*.)
+* Much like a *Sarcastic Discard* from a *Sarcastic Finesse*, if someone performs a *Certain Discard*, it does NOT promise the order, because they HAD to put something on the fishing line that you sent out, so to speak.
+
 ### The Early Fix Clue Chop Move
 
 * As noted in the *Fix Clues* section, a *Fix Clue* is required before a misplay occurs on duplicated cards. But usually, the misplay will not occur until late in the game, because there is always some other extra card (that is not currently playable) that it could be.
@@ -1016,34 +1044,6 @@ This section is unique in that it contains things that are separate from actual 
 ### A Trash Flowchart
 
 There are a lot of different moves that involve cluing trash. [Here is a handy flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/cluing_trash_flowchart.png) for determining the difference between the different types of special moves that touch trash.
-
-### The Sarcastic Finesse
-
-* Imagine that in a 3-player game:
-  * Nothing is played on the stacks.
-  * Alice has an already-clued 2 in her hand. She has no idea what color 2 it is.
-  * Alice performs a *Finesse* by giving a red color *Play Clue* to a red 2 in Cathy's hand.
-  * Bob blind plays red 1 from his *Finesse Position*.
-  * Normally, Cathy would think that she has the next red card, which is red 2, and play it.
-  * However, what if Alice actually has the red 2? In this situation, Cathy is expected to perform a *Sarcastic Discard*.
-* Doing a *Finesse* that potentially duplicates a card in this way is called a *Sarcastic Finesse*. Normally, potentially duplicating a card is bad - it violates *Good Touch Principle* and could lead to a clue being wasted. However, potentially duplicating a card with the *Sarcastic Finesse* is not bad because:
-  * In the best case, you get a "true" *Finesse* (a 2-for-1 or better).
-  * In the worst case, you get a 1-for-1 and full knowledge on a clued card in your own hand that was previously a mystery.
-* Normally, if a *Sarcastic Discard* could apply to multiple cards in your hand, you assume it is the left-most card. However, in the case of a *Sarcastic Discard* initiated from a *Sarcastic Finesse*, it does NOT promise the order, because they HAD to put something on the fishing line that you sent out, so to speak.
-
-### The Certain Finesse / The Certain Discard
-
-* Imagine that in a 3-player game:
-  * Red 2 is played on the stacks.
-  * Alice has an already-clued red card in her hand. It has a negative 4 clue on it, so from *Good Touch Principle* Alice knows that it is either red 3 or red 5.
-  * Alice performs a *Reverse Finesse* by giving a red color *Play Clue* to a red 4 in Bob's hand.
-  * Bob discards.
-  * Cathy knows that she is promised the red 3 in her *Finesse Position*.
-* This is an example of a *Certain Finesse* - it is similar to the *Sarcastic Finesse* above, but the "blind" card was potentially duplicated instead of the clued card.
-* In this situation, if Alice really has the red 3, Cathy is allowed to blind-discard their *Finesse Position* card. This is called a *Certain Discard*, because Cathy can be certain that it is exactly red 3.
-* A separate way to explain this convention is that everyone agrees that performing a *Layered Finesse* on a card that could potentially be in your own hand is illegal. So, everyone can be certain that they can safely blind discard a card to pass it back to someone who potentially duplicated.
-* Note that players are ONLY allowed to do a *Certain Discard* if they know they have not been bluffed. (This means that *Certain Finesses* cannot be performed from *Bluff Seat*.)
-* Much like a *Sarcastic Discard* from a *Sarcastic Finesse*, if someone performs a *Certain Discard*, it does NOT promise the order, because they HAD to put something on the fishing line that you sent out, so to speak.
 
 ### The Certain Discard Duplication Promise
 
