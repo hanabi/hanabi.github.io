@@ -1659,7 +1659,7 @@ n/a
 | The Dupe Bluff | Duneaught
 | The Certain Finesse | Zamiel
 | The Negative Prompt | Zamiel & Libster
-| Weak Prompts | Hyphen-ated
+| The Weak Prompt | Hyphen-ated
 | Crazy 3 Saves & Crazy 4 Saves | Libster
 | The Scream Discard Chop Move | 910dan & Zamiel
 | The Early Fix Clue Chop Move | Zamiel
