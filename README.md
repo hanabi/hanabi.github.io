@@ -1717,7 +1717,7 @@ n/a
 | Focus Inversion | Zamiel
 | Modified Black 3 & Black 4 Saves | Florrat
 | The Early Game | Libster & Florrat
-| The Double Tempo Clue | Hyphen-ated
+| The Double Tempo Clue | Hyphen-ated & Zamiel
 | Hard Bluffs | Florrat
 | White Compromise | Postmans
 | Acid Trip Conventions | Zamiel & Florrat
@@ -1735,13 +1735,12 @@ n/a
 | Multiple-card Trash Bluff | Zamiel & Antizoubilamaka
 | Play Elimination | Zamiel
 | Double Discard Elimination | Zamiel
-| The No-Information Double Finesse | Zamiel
+| The No-Information Double Finesse & The No-Information Double Bluff | Zamiel
 | The Layered Jump | Libster
 | The Oblivious Finesse | Sankala
 | The Free Choice Bluff | Zamiel
 | The Suboptimal Color Prompt & The Suboptimal Color Finesse | Zamiel
 | The Suboptimal Color Bluff | Zamiel
-| The Higher Order Finesse | Libster
 | The Continuation Clue | Libster
 | The Just-In-Time Fix Clue | Zamiel
 | The Occupied Play Clue & The Occupied Finesse | Zamiel
@@ -1752,12 +1751,15 @@ n/a
 | The Stop Discard | Zamiel
 | Ejection | Razvogor & Zamiel & Sankala
 | Order Chop Move | Zamiel
+| Skipped Order Chop Move | Zamiel & Libster
+| Trash Order Chop Move | Zamiel & Libster
 | Wild & Crazy Black 4 Bluffs | Zamiel & Libster
 | Duplication Responsibility | Zamiel
 | Certain Discard Duplication Promise | Zamiel & Libster
 | Suboptimal Trash Bluff Chop Move | Libster
-| Trash Order Chop Move | Zamiel & Libster
 | Surreptitious Self-Finesse | Sankala
 | Rainbow 1oE Saves | Florrat & Libster
 | Early 5 Chop Move | Libster
-| 5 Pull | Libster
+| The 5 Pull | Libster
+| The 5 Pull Promise | Libster
+| Rank Choice Bluff & Rank Choice Finesse | Zamiel
