@@ -1081,7 +1081,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * With that said, it is sometimes possible to construct SAFE lines that contain a *Lie Component*. There is usually deep levels of nuance involved in these lines, so this kind of thing is only recommended for advanced and expert players.
 * The previously mentioned *Out-of-Order Finesse* is an specific example of a *Finesse* with a *Lie Component*. One key attribute of the *Out-of-Order Finesse* is that the player who receives the *Fix Clue* knows that ALL of the related cards are playable, or it would not have been worth the risk (and the confusion) to perform a line with a *Lie Component* in the first place.
 * This concept can be generalized to all *Finesses* that have a *Lie Component*. After a player receives a *Fix Clue* in such a situation, they should assume that the *Finesse* is "still on". So, depending on the situation, they should either know that the initial card that was clued is playable (like in an *Out-of-Order Finesse*) or continue to blind-play cards to the right of the card that got the *Fix Clue* (if more blind cards need to be played to fulfill the initial *Finesse*).
-* For more information, see the *Just-In-Time Fix Clue*.
 
 ### Rank Priority Prompts/Finesses in Dual-Color Variants
 
@@ -1546,8 +1545,9 @@ caused 2 blind-plays.
 
 ### The Just-In-Time Fix Clue (To Fix a Layered Finesse with a Lie Component) (JIT / J.I.T.)
 
-* When performing a *Layered Finesse* with a *Lie Component*, it is important to wait until the last moment to give the *Fix Clue*. This is because after recieving the *Fix Clue*, the player will not play any more blind cards.
-* Thus, you should first wait for all of the "good" blind cards to play, and THEN give the *Fix Clue*.
+* When performing a *Layered Finesse* with a *Lie Component*, if the plan is to give a *Fix Clue* to the *Finesse Target* card (the "final" card that is to be blind-played), then it is important to wait until the LAST moment to give the *Fix Clue*. This is because after recieving the *Fix Clue*, the player will not play any more blind cards.
+* Thus, you should first wait for all of the "good" blind cards to play, and THEN give the *Fix Clue* to the *Finesse Target*, so that it comes "just in time" before the misplay.
+* Alternatively, if the plan is to give a *Fix Clue* to some OTHER card than the *Finesse Target* (e.g. a number 5 clue to a 5 in the middle of the hand), then the *Fix Clue* does not necessarily have to be just in time. It can be done early, and the player will know that they have to continue blind-playing cards until they find the *Finesse Target*.
 
 ### The Hesitation Blind-Play
 
