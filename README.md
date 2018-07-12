@@ -2,7 +2,7 @@
     <img src="img/hanabi.jpg" height="200" />
 </p>
 
-# Hanabi Strategies & Conventions
+# Hanabi Strategies & conventions
 
 For the *Hyphen-ated group*. Written and maintained by Zamiel.
 
@@ -1647,7 +1647,7 @@ n/a
 | Immediate Double Clue | Duneaught
 | The Elimination Finesse | Zamiel & Ahming
 | The Elimination Blind Play Riding Deduction | Duneaught
-| Free Choice Convention | Hyphen-ated
+| Free Choice | Hyphen-ated
 | The Trash Push | Duneaught
 | The Trash Bluff | Duneaught
 | The Trash Finesse | Duneaught
