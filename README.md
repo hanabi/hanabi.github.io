@@ -954,12 +954,23 @@ This section is unique in that it contains things that are separate from actual 
 
 ### The Gentleman's Discard
 
-* The *Sarcastic Discard* is very similar to the *Prompt* convention, because it gets someone to play a card that already had a clue on it. It is also possible to intentionally discard a known card in order to get someone to blind play a card, similar to a *Finesse*. When this occurs, it is called a *Gentleman Discard* to signify that the card played was completely blind as opposed to having a clue on it already.
-* "Why did Bob just discard the red 3 that he JUST got a play clue on? That makes no sense. Wait - it must be because he realized that the red 3 was ALSO in someone else's hand. I don't have any clued cards in my hand, so I must have the red 3 in my *Finesse Position*."
+* The *Sarcastic Discard* is very similar to the *Prompt* convention, because it gets someone to play a card that already had a clue on it. It is also possible to intentionally discard a known card in order to get someone to blind play a card, similar to a *Finesse*. 
+* When this occurs, it is called a *Gentleman Discard* to signify that the card played was completely blind as opposed to having a clue on it already.
+* For example, on the first turn of a 3-player game:
+  * Alice clues number 1 to Cathy, touching one 1.
+  * Bob clues reds to Cathy, filling in the already-touched 1 as red 1, as well as touching a new card, which must be red 2.
+  * Cathy discards the known red 1 as a *Gentleman's Discard*.
+  * Alice blind-plays her *Finesse Position* card as red 1.
 
 ### The Layered Gentleman's Discard
 
-* One great reason to want to do a *Gentleman's Discard* is if the card you are discarding is also behind playable cards. Doing this gets "free" value.
+* One great reason to want to do a *Gentleman's Discard* is if the card you are discarding is also behind playable cards. This is similar to a *Layered Finesse*, only it was initiated by a discard instead of a clue.
+* For example, on the first turn of a 3-player game:
+  * Alice clues number 1 to Cathy, touching one 1.
+  * Bob clues reds to Cathy, filling in the already-touched 1 as red 1, as well as touching a new card, which must be red 2.
+  * Cathy discards the known red 1 as a *Gentleman's Discard*.
+  * Alice blind-plays her *Finesse Position* card as red 1, but it is green 1.
+  * Alice knows that she is promised the red 1, so she will blind-play her slot 2 on her next turn.
 
 ### The Top Hat Clue
 
