@@ -268,7 +268,7 @@ Note that in this user interface, players are holding their hands like they woul
   * Red 1 is played on the stacks.
   * Bob has a clued red card in his hand on slot 4.
   * Alice clues Cathy reds, touching a red 4.
-  * Bob knows he has both red 2 and red 3, but he only has one clued red card in his hand. So this must be both a *Prompt* on him and a *Finesse* on him at the same time.
+  * Bob knows he must have both red 2 and red 3, but he only has one clued red card in his hand. So this must be both a *Prompt* on him and a *Finesse* on him at the same time.
   * Since *Prompts* take precedence over *Finesses*, he plays the clued red card first from slot 4 as red 2.
   * On his next turn, he blind plays slot 2 as red 3. (His *Finesse Position* at the time of the clue was slot 1, but he drew a card, and now the red 3 slid down to slot 2.)
 
