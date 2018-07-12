@@ -1469,12 +1469,12 @@ caused 2 blind-plays.
 ### The Disease Bluff & The Heal Clue & The Double-Copy Bluff & The Pestilent (Double) Bluff
 
 * In the *Good Touch Bluff*, a *Bluff* is given that looks like a *Finesse*. However, what if something that looks like a *Good Touch Bluff* is done, but the "matching" card is not yet clued?
-* For example:
-  * At the beginning of a 4-player game, Alice goes first.
+* For example, on the first turn of a 4-player game:
+  * Alice goes first.
   * Bob has a red 1 on slot 1 and a blue 2 on slot 2.
-  * Alice clues Bob number 2.
-  * Bob doesn't see any other 1's on *Finesse Position*. Thus, a 2's clue must be a *Self-Finesse*, so he blind-plays red 1.
-  * Cathy comes next. From her perspective, Bob will think that his blue 2 is red 2, and will go on to misplay the card.
+  * Alice clues Bob number 2, which touches the blue 2 on slot 2.
+  * Bob doesn't see any other 1's on *Finesse Position*. Thus, the number 2 clue must be a *Self-Finesse*, so he blind-plays red 1.
+  * Cathy comes next. From her perspective, Bob should currently think that his slot 2 card is red 2 (instead of blue 2). If nothing else happens, Bob will go on to misplay that card.
 * From Cathy's perspective, there are 5 possible situations:
 
 #### 1) A *Disease Bluff*
