@@ -343,12 +343,12 @@ Note that in this user interface, players are holding their hands like they woul
 
 *Priority* can sometimes be confusing. [Here is a handy flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/priority_flowchart.png) that shows, in general, which card should be played when there is a choice between two cards.
 
-### The 1's Chop Move
+### The Trash Chop Move
 
-* In the middle of a game, if all of the 1s have been played already, and someone clues a 1, it is quite strange - from *Good Touch Principle*, you are not supposed to touch cards that have already been played.
-* Thus, the clue must have some deeper meaning, and we agree that it means that the cards to the right of the 1 are important. The point of the clue was to give the player a known-safe discard.
-* However, not only does it give a known-safe discard, but it also *Chop Moves* ALL of the cards to the right of the 1. This means that the player should consider the cards to be touched with an "invisible" clue, and never discard them.
-* Most of the time, the *1's Chop Move* is done to *Chop Move* a single card (meaning that the clued 1 was one-away from chop). However, you can also use the *1's Chop Move* to *Chop Move* multiple cards. For example, in a 3-player game:
+* In the middle of a game, if all of the 1s have been played already, and someone clues a 1, it is quite strange - from *Good Touch Principle*, you are not supposed to touch cards that have already been played. In this situation, the 1 is considered "trash".
+* Thus, the clue must have some deeper meaning, and we agree that it means that the cards to the right of the trash are important. The point of the clue was to give the player a known-safe discard.
+* However, not only does it give a known-safe discard, but it also *Chop Moves* ALL of the cards to the right of the trash. This means that the player should consider the cards to be touched with an "invisible" clue, and never discard them.
+* Most of the time, the *Trash Chop Move* is done to *Chop Move* a single card (meaning that the clued 1 was one-away from chop). However, you can also use the *Trash Chop Move* to *Chop Move* multiple cards. For example, in a 3-player game:
   * All of the 1s have been played on the stacks.
   * Bob has a completely unclued hand.
   * Alice clues 1s to Bob, which touches a 1 in his slot 1.
@@ -365,20 +365,20 @@ Note that in this user interface, players are holding their hands like they woul
   * Cathy clues blues to Bob, which touches his slot 1 (the card he just drew) and his slot 4 (the card that was just chop moved).
   * Bob knows that the focus of the clue is always on the brand-new card introduced, so this is NOT chop-focus, and the focus of the clue is on slot 1.
   * Thus, Bob will play blue 2 from slot 1 on his next turn.
-* Strategy wise, the *1's Chop Move* is used for two main reasons:
+* This move is most commonly done with a number 1 clue because it is likely that in the middle of a game, all of the 1's will be already played. But it could also be done with a number two 2 clue if all the 2's are already played / accounted for. Or, it could be done with a yellow clue if all of the yellow cards are already played / accounted for. And so forth.
+* Strategy wise, the *Trash Chop Move* is used for two main reasons:
   1) Some cards (e.g. a one-away 3) are quite useful to the team, but illegal to touch directly (as touching them directly with a clue would imply that they are playable right now). If the game is going well, then it can be useful to "waste" a clue in order to have the card saved permanently.
   2) Sometimes there are multiple critical cards in a row on chop and it falls to one player to save all of them. In this situation, a multiple-card *Chop Move* could be the only way to do it.
 * Note that you are NOT allowed to *Chop Move* a card that you can just clue directly with a *Save Clue* (unless there are multiple critical cards in a row on chop and you have no other choice). This should be obvious, as having some positive information is always better than having the card be a complete mystery.
-* The *1's Chop Move* is a more specific form of the *Trash Chop Move*, which is covered later.
 
 ### The 5's Chop Move
 
-* See the *1's Chop Move* section above for an explanation on what a *Chop Move* is.
+* See the *Trash Chop Move* section above for an explanation on what a *Chop Move* is.
 * Normally, we are only allowed to save 5's on chop (unless it is the *Early Game* and there is nothing else to do).
 * So, in the *Mid-Game*, if a 5 is clued that is not on chop, it will normally look like a *Play Clue* on that 5.
 * However, if the 5 is **one-away** from chop, then we agree that it has a special meaning, and that the clue is NOT a *Play Clue* at all.
-* Instead, it is understood that the clue is a *5's Chop Move*, and the player should *Chop Move* their chop in a manner similar to the *1's Chop Move*.
-* Note that the *5's Chop Move* is different than the *1's Chop Move* in that you can only chop move ONE card with it. Thus, if you clue a 5 and it is TWO (or more) slots away from the chop, then it is to be assumed to be a *Play Clue* on the 5.
+* Instead, it is understood that the clue is a *5's Chop Move*, and the player should *Chop Move* their chop in a manner similar to the *Trash Chop Move*.
+* Note that the *5's Chop Move* is different than the *Trash Chop Move* in that you can only chop move ONE card with it. Thus, if you clue a 5 and it is TWO (or more) slots away from the chop, then it is to be assumed to be a *Play Clue* on the 5.
 
 ### The Scream Discard Chop Move (Deliberately Discarding Instead of Playing)
 
@@ -569,7 +569,7 @@ This section is unique in that it contains things that are separate from actual 
 * In general, 3's are pretty high value, and 4's are pretty low value.
 * But combined with this, cards that are one-away are pretty high value, and cards that are two-away (or more) are pretty low value.
 * Thus, in some situations, a one-away 4 may be more valuable than a two-away 3.
-* According to our conventions, it is illegal to clue a one-away card directly without it being some kind of special move like a *Finesse* or *Bluff*. However, sometimes we still want to "save" these cards. Thus, they are prime targets for indirect saves like the *5's Chop Move* or the *1's Chop Move*.
+* According to our conventions, it is illegal to clue a one-away card directly without it being some kind of special move like a *Finesse* or *Bluff*. However, sometimes we still want to "save" these cards. Thus, they are prime targets for indirect saves like the *Trash Chop Move* or the *5's Chop Move*.
 * However, in most cases, *Chop Moving* the valuable card just won't be possible. So in general, you should try to construct lines that protect high-value cards for as long as possible.
 
 ### All 4's Test
@@ -667,11 +667,6 @@ This section is unique in that it contains things that are separate from actual 
   * Bob knows that the only playable 3 is red 3. He also knows that Alice has a clued red 3 already in her hand. Thus, he knows that he has the red 3 and that Alice made a mistake.
   * Bob performs a *Sarcastic Discard* to pass the red 3 back to Alice.
 
-### The Trash Chop Move
-
-* The *1's Chop Move* is listed above as an intermediate strategy, but in truth it is just a specific form of the more general *Trash Chop Move*, in which you clue a card that is known useless in order to tell someone that their chop is unsafe.
-* This move is most commonly done with a number 1 clue because it is likely that in the middle of a game, all of the 1's will be already played. But it could also be done with a number two 2 clue if all the 2's are already played / accounted for. Or, it could be done with a yellow clue if all of the yellow cards are already played / accounted for. And so forth.
-
 ### A Trash Flowchart
 
 Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash Chop Move* listed above is one common reason to intentionally clue trash. However, there are other reasons to clue trash that are detailed later on in the document.
@@ -712,7 +707,7 @@ Trash is not commonly clued, as it violates *Good Touch Principle*. The *Trash C
 
 ### The Misplay Chop Move
 
-* Sometimes, a desirable card is on the next person's chop and it is not directly cluable. In this situation, players can cleverly use the various kinds of chop moves in order to save the card (e.g. *1's Chop Move*, *5's Chop Move*, *Tempo Clue Chop Move*, and so forth).
+* Sometimes, a desirable card is on the next person's chop and it is not directly cluable. In this situation, players can cleverly use the various kinds of chop moves in order to save the card (e.g. *Trash Chop Move*, *5's Chop Move*, *Tempo Clue Chop Move*, and so forth).
 * However, none of these chop moves may be available to perform. In such a situation, you can revert to the final type of chop move - the *Misplay Chop Move*. This is done by intentionally touching a card in the next person's hand that signifies that it is currently playable. The next person will misplay, and then they will know that every card to the right of the misplayed card is valuable and is now permanently chop moved.
 
 ### The 3 Bluff
