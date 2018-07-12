@@ -1011,7 +1011,7 @@ This section is unique in that it contains things that are separate from actual 
 ### The Trash Finesse (Weak Form)
 
 * After deciding on the target of a clue, players carefully choose between using a color clue and a number clue in order to avoid violating *Good Touch Principle* with the ancillary cards that will be touched (since every clued card is treated as a card that will eventually be played). Sometimes, when both a color clue AND a number would violate *Good Touch Principle*, players are forced to pick between the lesser of two evils.
-* However, sometimes you can see that it IS possible to use a color or number clue to uniquely touch a clue target without "picking up" extra bad cards. So, when this is done deliberately, it promises that the other players have the exact "missing" cards that the trash cards would look like.
+* However, sometimes you can see that it IS possible to use a color or number clue to uniquely touch a clue target without "picking up" extra bad cards. So, when extra bad cards are deliberately touched in this way, it promises that the other players have the exact "missing" cards that the trash cards would look like.
 
 ### A Trash Flowchart
 
