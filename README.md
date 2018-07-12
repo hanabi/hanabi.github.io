@@ -1668,7 +1668,7 @@ n/a
 | Immediate Double Clue | Duneaught
 | The Elimination Finesse | Zamiel & Ahming
 | The Elimination Blind Play Riding Deduction | Duneaught
-| Free Choice | Hyphen-ated
+| The Free Choice Finesse | Hyphen-ated
 | The Trash Push | Duneaught
 | The Trash Bluff | Duneaught
 | The Trash Finesse | Duneaught
