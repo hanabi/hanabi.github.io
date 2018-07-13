@@ -670,7 +670,11 @@ This section is unique in that it contains things that are separate from actual 
   * Alice clues number 3 to Bob, which touches one 3. (This is a mistake, because it might be violating *Good Touch Principle*.)
   * Bob knows that the only playable 3 is red 3. He also knows that Alice has a clued red 3 already in her hand. Thus, he knows that he has the red 3 and that Alice made a mistake.
   * Bob performs a *Sarcastic Discard* to pass the red 3 back to Alice.
-* If there are multiple cards that a *Sarcastic Discard* could apply to, then it promises that the left-most card, similar to how a *Prompt* works.
+* The *Sarcastic Discard* is similar to the *Prompt*, except that it is initiated by a discard instead of a clue.
+* However, unlike a *Prompt*, if there are multiple cards that a *Sarcastic Discard* could apply to, then it does NOT promise that the left-most card. It only promises that they have the card somewhere. For example:
+  * Alice *Sarcastic Discards* a red 3.
+  * Bob has two cards clued with number 3 in his hand. He doesn't have any color information on either 3.
+  * Bob can be certain that one of the two 3's is red 3, but he does not know which one it is yet.
 
 ### The Sarcastic Finesse
 
