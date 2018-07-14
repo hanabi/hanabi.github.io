@@ -1107,33 +1107,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * After the unrelated card is played, since the person who lied was in *Bluff Seat*, no further cards should be promised.
 * If an unrelated card was played and the person who lied was not in *Bluff Seat*, it implies a *Priority Layered Finesse*.
 
-### Ejection
-
-* *Ejection* refers to a move like a *Finesse*, but instead of playing your *Finesse Position* card, you instead play your *Second Finesse Position* card. (For example, if your hand is completely unclued, your *Second Finesse Position* is slot 2.)
-* Certain types of "wasted" clues signal an *Ejection*.
-
-#### Dupe Ejection
-
-* If someone clues a card as a "one for one", and that card is already clued in someone else's hand, this is usually a *Distribution Clue*, which is sometimes done in the *End-Game*.
-* However, if this type of move is done before the *End-Game*, it must have some other purpose - it should signal an *Ejection* on the very next player.
-
-#### Known Trash Ejection
-
-* Often times, a player can have one or more cards that are known duplicates / trash. They will discard them it without being told anything further.
-* If a clue is given that ONLY touches cards that are already known trash, then it must have some other purpose - it should signal an *Ejection* on the very next player.
-
-#### Double Play Ejection
-
-* If a player knows that a card in their hand is playable, and then they recieve ANOTHER clue on that card, it is usually a *Stop Clue*, which means that the card is actually bad and they should discard it instead of playing it.
-* However, if this happens on a good card, the other players can see that the clue must have some other purpose - it should signal an *Ejection* on the very next player.
-
-#### Unknown Trash Ejection
-
-* In general, *Bluffs* work because the person who received the clue knows that they have a "one-away" card of that color.
-* If none of the stacks are finished and someone clues a trash card, it might look like a *Trash Bluff*. But, if the *Finesse Position* card is played, then the person will think that the card is actually a useful 1-away card (instead of trash).
-* Since that would be a lie, the clue must have some other purpose - it should signal an *Ejection* on the very next player.
-* Since the *Second Finesse Position* card was played instead of the *Finesse Position* card, then the player who received the clue will know that the card is trash.
-
 <br />
 
 ## Level 3 - Variant-Specific Strategies
@@ -1614,6 +1587,33 @@ caused 2 blind-plays.
   * Instead, Alice clues reds to Donald, which touches a red 1. This is a *Trash Bluff* because it makes Bob think he has red 5, but he instead blind-plays blue 2. This is a 1-for-1 clue.
   * Donald knows that since Alice did a 1-for-1 instead of a 2-for-1, he should chop move.
   * Cathy does not know that Donald will chop move until he demonstrates it or until the blue 3 in her hand is directly clued.
+
+### Ejection
+
+* *Ejection* refers to a move like a *Finesse*, but instead of playing your *Finesse Position* card, you instead play your *Second Finesse Position* card. (For example, if your hand is completely unclued, your *Second Finesse Position* is slot 2.)
+* Certain types of "wasted" clues signal an *Ejection*.
+
+#### Dupe Ejection
+
+* If someone clues a card as a "one for one", and that card is already clued in someone else's hand, this is usually a *Distribution Clue*, which is sometimes done in the *End-Game*.
+* However, if this type of move is done before the *End-Game*, it must have some other purpose - it should signal an *Ejection* on the very next player.
+
+#### Known Trash Ejection
+
+* Often times, a player can have one or more cards that are known duplicates / trash. They will discard them it without being told anything further.
+* If a clue is given that ONLY touches cards that are already known trash, then it must have some other purpose - it should signal an *Ejection* on the very next player.
+
+#### Double Play Ejection
+
+* If a player knows that a card in their hand is playable, and then they recieve ANOTHER clue on that card, it is usually a *Stop Clue*, which means that the card is actually bad and they should discard it instead of playing it.
+* However, if this happens on a good card, the other players can see that the clue must have some other purpose - it should signal an *Ejection* on the very next player.
+
+#### Unknown Trash Ejection
+
+* In general, *Bluffs* work because the person who received the clue knows that they have a "one-away" card of that color.
+* If none of the stacks are finished and someone clues a trash card, it might look like a *Trash Bluff*. But, if the *Finesse Position* card is played, then the person will think that the card is actually a useful 1-away card (instead of trash).
+* Since that would be a lie, the clue must have some other purpose - it should signal an *Ejection* on the very next player.
+* Since the *Second Finesse Position* card was played instead of the *Finesse Position* card, then the player who received the clue will know that the card is trash.
 
 ### The Dump Truck
 
