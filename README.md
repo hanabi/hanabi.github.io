@@ -242,6 +242,7 @@ Note that in this user interface, players are holding their hands like they woul
   * In slot 1, Bob has a card with only a red clue on it.
   * In slot 2, Bob has a card with a red clue and a 3 clue on it.
   * Since slot 2 has more positive information, Bob should choose to play slot 2 as red 3.
+* The *Chop Move* is a special move that is covered later on. *Chop Moves* touch cards with an "invisible clue". Note that *Prompts* do NOT apply to *Chop Moved* cards. When fulfilling a *Prompt*, players should skip over the *Chop Moved* card and play something else.
 
 ### Finesses
 
@@ -349,9 +350,9 @@ Note that in this user interface, players are holding their hands like they woul
 
 ### The Trash Chop Move
 
-* In the middle of a game, if all of the 1s have been played already, and someone clues a 1, it is quite strange - from *Good Touch Principle*, you are not supposed to touch cards that have already been played. In this situation, the 1 is considered "trash".
+* In the middle of a game, if all of the 1s have been played already, and someone clues a 1, it is quite strange - from *Good Touch Principle*, players are not supposed to touch cards that have already been played. In this situation, the 1 is considered "trash".
 * Thus, the clue must have some deeper meaning, and we agree that it means that the cards to the right of the trash are important. The point of the clue was to give the player a known-safe discard.
-* However, not only does it give a known-safe discard, but it also *Chop Moves* ALL of the cards to the right of the trash. This means that the player should consider the cards to be touched with an "invisible" clue, and never discard them.
+* However, not only does it give a known-safe discard, but it also *Chop Moves* ALL of the cards to the right of the trash. This means that the player should consider the cards to be touched with an "invisible" clue, and never discard them for the rest of the game.
 * Most of the time, the *Trash Chop Move* is done to *Chop Move* a single card (meaning that the clued 1 was one-away from chop). However, you can also use the *Trash Chop Move* to *Chop Move* multiple cards. For example, in a 3-player game:
   * All of the 1s have been played on the stacks.
   * Bob has a completely unclued hand.
@@ -369,11 +370,22 @@ Note that in this user interface, players are holding their hands like they woul
   * Cathy clues blues to Bob, which touches his slot 1 (the card he just drew) and his slot 4 (the card that was just chop moved).
   * Bob knows that the focus of the clue is always on the brand-new card introduced, so this is NOT chop-focus, and the focus of the clue is on slot 1.
   * Thus, Bob will play blue 2 from slot 1 on his next turn.
-* This move is most commonly done with a number 1 clue because it is likely that in the middle of a game, all of the 1's will be already played. But it could also be done with a number two 2 clue if all the 2's are already played / accounted for. Or, it could be done with a yellow clue if all of the yellow cards are already played / accounted for. And so forth.
+* This move is most commonly done with a number 1 clue because it is likely that in the middle of a game, all of the 1's will be already played. But it could also be done with a number two 2 clue if all the 2's are already played / accounted for. Or, it could be done with a red clue if all of the red cards are already played / accounted for. And so forth.
 * Strategy wise, the *Trash Chop Move* is used for two main reasons:
   1) Some cards (e.g. a one-away 3) are quite useful to the team, but illegal to touch directly (as touching them directly with a clue would imply that they are playable right now). If the game is going well, then it can be useful to "waste" a clue in order to have the card saved permanently.
   2) Sometimes there are multiple critical cards in a row on chop and it falls to one player to save all of them. In this situation, a multiple-card *Chop Move* could be the only way to do it.
 * Note that you are NOT allowed to *Chop Move* a card that you can just clue directly with a *Save Clue* (unless there are multiple critical cards in a row on chop and you have no other choice). This should be obvious, as having some positive information is always better than having the card be a complete mystery.
+
+### Chop Moves & Prompts
+
+* There are many different kinds of *Chop Moves*. The most common is the *Trash Chop Move*, but there are others, which are covered later.
+* *Chop Moves* interact with *Prompts* & *Finesses* in a potentially confusing way. *Chop Moved* cards should NOT be played into *Prompts*, even though they are imagined to have an "invisible" clue on them. For example:
+  * All the 1's are played on the stacks.
+  * Bob has no cards clued in his hand, but he is *Chop Moved* for a mystery card on his slot 5.
+  * Alice clues Cathy red, which touches a red 3.
+  * Bob knows that he is promised the red 2. If this is a *Finesse*, then he has the red 2 on his *Finesse Position* (slot 1).
+  * However, Bob is also *Chop Moved* for a card. Bob knows that *Chop Moved* cards have an "invisible" clue around them, and Bob also knows that *Prompts* are said to take precedence over *Finesses*.
+  * So should he play his slot 1 as a *Finesse* or his slot 5 as a *Prompt*? In this situation, Bob knows that *Prompts* do not apply to *Chop Moved* cards, so Bob should play his slot 1.
 
 ### The 5's Chop Move
 
