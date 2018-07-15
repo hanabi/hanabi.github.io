@@ -557,7 +557,7 @@ Note that in this user interface, players are holding their hands like they woul
 
 This section is unique in that it contains things that are separate from actual moves and strategies. We refer to them in post-game reviews when thinking about the game.
 
-### Stomping a Finesse
+### Stomping on a Finesse
 
 * This is when a player clues a card directly that was going to be blind-played from a *Finesse*. Typically, this is a mistake, and it means that the player who gave the clue was not paying attention and failed to see that a *Finesse* happened at all.
 
