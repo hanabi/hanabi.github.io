@@ -563,8 +563,8 @@ This section is unique in that it contains things that are separate from actual 
 
 ### Lines
 
-* During your turn, part of figuring out the best move to do involves looking into the future to see what the next person will do. If they discard, will it be okay? Is there some obvious clue that they will do? And so on.
-* However, as you get better at Hanabi, you will need to do this prediction not just for the next person, but for an entire go-around of the table. And as you really get good at Hanabi, you will need to do this for as far in the future as you can reasonable predict. (Sometimes, this means 15 moves or more in the future.)
+* During your turn, part of figuring out the best move involves looking into the future to see what the next person will do. If they discard, will it be okay? Is there some obvious clue that they will do? And so on.
+* As you get better at Hanabi, you will need to do this prediction not just for the next person, but for an entire go-around of the table. And as you really get good at Hanabi, you will need to do this for as far in the future as you can reasonable predict. (Sometimes, this means 15 moves or more in the future.)
 * Similar to chess, initiating a move in which you can predict the next sequence of moves is called initiating a "line".
 * In post-game reviews, we will often compare and hypothetically "play through" two different lines to see which one is better.
 
@@ -572,13 +572,13 @@ This section is unique in that it contains things that are separate from actual 
 
 * As mentioned in the section on *Bluffs*, you are in *Bluff Seat* for a certain player if you are immediately before them.
 * Before cluing a card directly, you should first consider if it is on *Finesse Position*. If it is, and you clue it directly, you may be "stealing" someone's *Finesse* or *Bluff*.
-* Thus, in this situation, it may be better to discard and let the player in *Bluff Seat* get the card in question. If you do decide to clue the card directly, you should always feel a *Pang of Guilt*.
+* Thus, in this situation, it may be better to discard and let the player in *Bluff Seat* get the card. If you do decide to clue the card directly, you should always feel a *Pang of Guilt*.
 
 ### Discard Modulation
 
-* Often times, either you or the player who comes after you can perform a move. And this move would have the same result if done by either player.
-* One way to decide whether you or the next player should give the clue is to look at the next player's chop. Is their chop high-value, low-value, or useless? If it is high-value, then you should discard and let them give the clue. If it is low-value or useless, then you should give the clue and let them discard.
-* "Stealing" clues in this way to cause discards is called *Discard Modulation*. If other players are discarding to let you give all of the clues, you probably have a high-value chop.
+* Often times, either you or the player who comes after you can perform a clue. And the clue would have the same result if done by either player. So who should do it?
+* One way to decide is to look at the next player's chop. Is their chop high-value, low-value, or useless? If it is high-value, then you should discard and let them give the clue. If it is low-value or useless, then you should give the clue and let them discard.
+* "Stealing" clues in this way is called *Discard Modulation*. If other players are discarding to let you give all of the clues, you probably have a high-value chop.
 
 ### One-Away
 
@@ -586,11 +586,11 @@ This section is unique in that it contains things that are separate from actual 
 * But combined with this, cards that are one-away are pretty high value, and cards that are two-away (or more) are pretty low value.
 * Thus, in some situations, a one-away 4 may be more valuable than a two-away 3.
 * According to our conventions, it is illegal to clue a one-away card directly without it being some kind of special move like a *Finesse* or *Bluff*. However, sometimes we still want to "save" these cards. Thus, they are prime targets for indirect saves like the *Trash Chop Move* or the *5's Chop Move*.
-* However, in most cases, *Chop Moving* the valuable card just won't be possible. So in general, you should try to construct lines that protect high-value cards for as long as possible.
+* However, in most cases, *Chop Moving* the valuable card just won't be possible. So in general, you should try to construct lines that protect high-value cards from being discarded for as long as possible.
 
-### All 4's Test
+### The All 4's Test
 
-* According to *Save Principle*, the team must not let any critical and/or playable cards be discarded. So part of constructing a line is figuring out whether this will happen.
+* According to *Save Principle*, the team must not let any critical and/or playable cards be discarded. So part of constructing a line is figuring out whether this might happen.
 * When considering a line, it is not safe to assume that a player will clue anything in your hand. You should perform the *All 4's Test*: what would everyone do if I have all useless 4's in my hand? If a critical and/or playable card would get discarded, then the line has failed the test, and it is probably a bad idea.
 
 ### Schrodinger's Cat Principle
@@ -617,7 +617,7 @@ This section is unique in that it contains things that are separate from actual 
 
 * Towards the end of the game, the strategy of the team will change. In most games, you stop becoming conerned with efficiency and become more concerned with tempo - every card needs to play **right now** before the game ends!
 * Thus, since clues can mean different things depending on whether you are in the *Mid-Game* or the *End-Game*, you need to be able to keep track of when the *End-Game* has arrived.
-* A value called *Pace* is used to determine *End-Game* status; it is calculated by the following formula: `current score + cards in deck + number of players - maximum score`
+* A value called *Pace* is used to determine *End-Game* status. *Pace* is calculated by the following formula: `current score + cards in deck + number of players - maximum score`
   * On [Hanabi Live](https://hanabi.live), the user interface will calculate this for you on the right side of the screen. (You may have to enable the "Show efficiency statistics" setting for it to appear.)
 * Pace is essentially the maximum amount of discards that can happen while still having a chance to get the maximum score.
 * If pace is **less than the number of players**, the *End-Game* has arrived.
