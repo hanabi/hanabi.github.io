@@ -847,6 +847,7 @@ This section is unique in that it contains things that are separate from actual 
   * A blue 1 is available to clue in Bob's hand.
   * Instead, Alice clues an off-chop 5 in Cathy's hand (as number 5).
   * This is to be interpreted as a *Play Clue* on the red 5 (as opposed to a *5 Pull* on some other card).
+* When a player is *Finessed* or *Bluffed*, they are allowed to defer playing the blind card in order to do a *Finesse* or *Bluff* of their own. However, if they could be *Bluffed*, you are NOT allowed to perform a *5 Pull*. (Players are still allowed to defer playing into a *Finesse* in order to do a *5 Pull*.)
 
 ### The 5 Pull Prompt & The 5 Pull Finesse
 
