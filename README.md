@@ -301,7 +301,7 @@ Note that in this user interface, players are holding their hands like they woul
   * From Bob's perspective, this looks like a *Finesse* - if Bob does not blind-play the red 1 right now, Cathy will go on to misplay the red 2 as the red 1.
   * Bob blind-plays his slot 1 card. However, it is not the red 1, it was the blue 1! Now Bob knows that he has been *Bluffed* by Alice.
   * Next, Cathy sees that Bob just blind-played a blue 1 immediately after this red clue, so she knows that she must have a one-away red card - the red 2. Cathy holds on to the red 2 for later and discards.
-* Except in rare circumstances, **bluffing is only permissible when you are the person directly before the player who is blind-playing a card**. This is called being in *Bluff Seat*. Do not *Bluff* unless you are in *Bluff Seat*! (This follows from *Good Lie Principle*.)
+* Except in rare circumstances, ***Bluffing* is only permissible when you are the person directly before the player who is blind-playing a card**. This is called being in *Bluff Seat*. Do not *Bluff* unless you are in *Bluff Seat*! (This follows from *Good Lie Principle*.)
 
 ### Bluffs Through Already Clued Cards
 
