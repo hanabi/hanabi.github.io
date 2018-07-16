@@ -344,7 +344,7 @@ Note that in this user interface, players are holding their hands like they woul
 * For example, this IS a *Priority Finesse*:
   * Alice has a known playable red 1 and a known playable blue 2 in her hand.
   * Alice plays blue 2.
-  * Bob comes next. Bob does not see any red 2's. He does not see any blue 3's either. Thus, Alice was supposed to play the red 2 first.
+  * Bob comes next. Bob does not see any red 2's. He does not see any blue 3's either. Thus, Alice was supposed to play the red 1 first, since red 1 is a lower rank than blue 2. Alice is NOT play the card with *Priority*.
   * This means that Bob must have blue 3. Bob does not have any clued cards in his hand, so he blind-plays his *Finesse Position* card.
 * For example, this is NOT a *Priority Finesse*:
   * Alice has a known playable red 1 and a known playable blue 2 in her hand.
