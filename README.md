@@ -305,11 +305,11 @@ Note that in this user interface, players are holding their hands like they woul
 
 ### Bluffs Through Already Clued Cards
 
-* It is also permissible to *Bluff* "through" cards that already clued. For example, in a 4-player game:
+* It is also permissible to *Bluff* "through" cards that are already clued. For example, in a 4-player game:
   * All the 1's are played on the stacks.
   * Bob has nothing clued in his hand.
-  * Cathy has a red 3 clued in her hand with just a number 3 (so she does not know what color it is).
-  * Alice clues Donald reds, which touches one red 4.
+  * Cathy has a red 3 clued in her hand with just a number 3 (she does not know what color it is).
+  * Alice clues Donald red, which touches one red 4.
   * Bob knows that he must have the red 2. If he plays the red 2, then Cathy will play the red 3, and Donald will play the red 4.
   * Bob plays his *Finesse Position* card and it is instead the blue 2.
   * From Donald's perspective, since blue does not match red, he knows that this is a *Bluff*. Normally, he would think he has the one-away red card, but that would be red 3, and Cathy already has that clued. If he had red 3, then the clue would be violating *Good Touch Principle*. Thus, he must have the red 4 instead.
