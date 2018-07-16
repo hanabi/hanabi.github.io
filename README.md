@@ -1472,32 +1472,20 @@ caused 2 blind-plays.
 
 ![Disease Bluff](img/disease_bluff.png)
 
-#### 2) A *Double-Copy Bluff* (with Cathy seeing one copy)
+#### 2) A *Double-Copy Bluff* (with Cathy seeing one uncluable copy)
 
 * Say that Cathy sees the red 2 in Donald's hand, but she cannot uniquely clue it due to other blocking cards.
 * This cannot be a *Disease Bluff*, since Alice would not put Bob and Cathy in this bad situation if a clean *Heal Clue* was not available.
-* Cathy should instead conclude that she has the other copy of red 2 somewhere in her own hand. Bob will not go on to misplay the blue 2; this is called a *Double-Copy Bluff*, since Bob will see both copies of blue 2.
+* Cathy should instead conclude that she has the other copy of red 2 somewhere in her own hand. If she does, Bob will NOT go on to misplay the blue 2 because he will see both copies.
 
-#### 3) A *Double-Copy Bluff* (with Cathy seeing zero copies):
+#### 3) A *Pestilent (Double) Bluff* (with Cathy seeing zero copies):
 
-* Say that Cathy does not see the red 2 anywhere and has a completely unclued hand.
-* She must have both copies of the red 2 in her hand (but she does not know the order).
-* Like the previous situation, this is also a *Double-Copy Bluff*.
-
-#### 4) A *Pestilent (Double) Bluff* (with 1 unclued card):
-
-* Say that Cathy does not see the red 2 anywhere and only has 1 unclued card.
-* Unlike the previous situation, Cathy knows that she cannot have both copies of red 2.
-* Furthermore, from *High Value Principle*, Cathy can conclude that Alice does not intend for Cathy to do a *Fix Clue*, as that would be inefficient.
+* Say that Cathy does not see the red 2 anywhere.
+* From *High Value Principle*, Cathy can conclude that Alice does not intend for Cathy to do a *Fix Clue*, as that would be inefficient.
 * Instead, Cathy can blind-play her *Finesse Position* card as red 2. This is similar to a *Disease Bluff*, but instead of wasting a clue to heal the problem, the problem is healed by a blind-play.
 * Note that Cathy could be blind-playing red 2, but could also be blind-playing ANY playable card. Whatever card it is, it will still heal the problem, since Bob can see that the blind-play was related to the clue he received.
 * This is similar to the *Double Bluff* convention, but is different because the move was not initiated by a card that was 2-away from being playable.
-
-#### 5) A *Pestilent (Double) Bluff* (with 2 unclued cards):
-
-* Say that Cathy does not see the red 2 anywhere and has exactly 2 unclued cards.
-* Here, Cathy can assume the *Double-Copy Bluff*, but this situation is different - she can immediately blind-play either card as red 2.
-* However, she should always play her *Finesse Position* card, in case it is a *Pestilent Bluff* instead of a *Double-Copy* bluff.
+* Note that in this situation, it could be possible for Cathy to have both red 2's in her hand and not necessarily have anything playable on *Finesse Position*. But by convention, the clue giver is intending her to play her *Finesse Position* card.
 
 ### The Rank Choice Bluff & The Rank Choice Finesse
 
