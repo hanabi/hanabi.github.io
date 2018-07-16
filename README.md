@@ -793,11 +793,6 @@ This section is unique in that it contains things that are separate from actual 
   1) Does the clue "match" the blind-play? If it matches, then it is a *Finesse*. If it doesn't match, then it is a *Bluff*. Red matches red, but red does NOT match blue. 2 matches 3, but 1 does NOT match 3.
   2) Will the person who recieved the clue go on to misplay if nothing else is blind-played? If yes, then it is a *Finesse*. If no, then it is a *Bluff*.
 
-### The Critical 4 Bluff
-
-* Building on the *3 Bluffs* convention, we also agree that is possible for a card that initiates a *Bluff* to be a copy of any of the 4's that are critical (meaning that the other copy is in the discard pile or it is a black 4).
-* Note that this convention does not apply to the *Wild & Crazy* variant.
-
 ### Discard Elimination & The Elimination Blind-Play
 
 * Normally, your teammates would never let you discard anything important. So when you discard some playable card (or a needed 2) AND your teammates were not busy AND you don't see that card in anyone else's hand, you should write a note on all of your other remaining cards that they could be that card. These are called *Elimination Notes*.
@@ -1142,6 +1137,11 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * if the number clue also touched another critical card
 * Subsequently, if a number clue is used to touch a black 3 or a black 4 (and the above exception is not applicable), then it implies a *Finesse*.
 
+### Black 4 Bluffs
+
+* This convention applies to the *Black Suit (one of each)* and *Wild & Crazy* variants.
+* Building on the *3 Bluffs* convention, we also agree that is possible for a card that initiates a *Bluff* to be a copy of black 4.
+
 ### The Free Choice Finesse
 
 * This convention applies to any variant with a *Rainbow* suit or a dual-color suit.
@@ -1193,12 +1193,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * Thus, for the *Wild & Crazy* variant, a second exception to the *Black 3 and Black 4 Saves* convention is added:
   * if the number clue was required to avoid violating *Good Touch Principle*
 * *Crazy 3 Saves* & *Crazy 4 Saves* do NOT apply to 5-player games; see the "Wild & Crazy 5-Player Alterations" section below.
-
-### Crazy Black 4 Bluffs
-
-* This convention applies to the *Wild & Crazy* variant.
-* The *Critical 4 Bluff* convention is deleted in this variant (since it conflicts with *Finesses* using white 4).
-* Even though the *Critical 4 Bluff* is deleted, it is still legal to use a black 4 to bluff. However, this MUST be done with color.
 
 ### Wild & Crazy 5-Player Alterations
 
