@@ -1029,7 +1029,7 @@ This section is unique in that it contains things that are separate from actual 
 
 ### The Top Hat Clue
 
-* Since the *Layered Gentleman's Discard* convention is so efficient, clever players that see the opportunity to perform one will almost always want to do so.
+* Since the *Layered Gentleman's Discard* is so efficient, clever players that see the opportunity to perform one will almost always want to do so.
 * Thus, it follows that in rare cases, when a teammate gives you a play clue on some card, they DON'T intend for you to play it. They intend for you to see the opportunity for a *Layered Gentleman's Discard*, and then immediately discard the card.
 * This kind of clue is called a *Top Hat Clue* because you are giving them an opportunity to be a gentleman.
 * Note that you should not mistake a *Top Hat Clue* for a clue that initiates a *Layered Finesse*. You are only allowed to discard the card if you can determine its exact identity.
