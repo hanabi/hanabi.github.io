@@ -1495,7 +1495,7 @@ caused 2 blind-plays.
 * From *High Value Principle*, Cathy can conclude that Alice does not intend for Cathy to do a *Fix Clue*, as that would be inefficient.
 * Instead, Cathy can blind-play her *Finesse Position* card as red 2. This is similar to a *Disease Bluff*, but instead of wasting a clue to heal the problem, the problem is healed by a blind-play.
 * Note that Cathy could be blind-playing red 2, but could also be blind-playing ANY playable card. Whatever card it is, it will still heal the problem, since Bob can see that the blind-play was related to the clue he received.
-* This is similar to the *Double Bluff* convention, but is different because the move was not initiated by a card that was 2-away from being playable.
+* This is similar to a *Double Bluff*, but is different because the move was not initiated by a card that was 2-away from being playable.
 * Note that in this situation, it could be possible for Cathy to have both red 2's in her hand and not necessarily have anything playable on *Finesse Position*. But by convention, the clue giver is intending her to play her *Finesse Position* card.
 
 ### The Rank Choice Bluff & The Rank Choice Finesse
