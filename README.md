@@ -715,7 +715,7 @@ This section is unique in that it contains things that are separate from actual 
 
 ### The Gentleman's Discard
 
-* The *Sarcastic Discard* is very similar to the *Prompt* convention, because it gets someone to play a card that already had a clue on it. It is also possible to intentionally discard a known card in order to get someone to blind-play a card, similar to a *Finesse*. 
+* The *Sarcastic Discard* is very similar to the *Prompt*, because it gets someone to play a card that already had a clue on it. It is also possible to intentionally discard a known card in order to get someone to blind-play a card, similar to a *Finesse*. 
 * When this occurs, it is called a *Gentleman Discard* to signify that the card played was completely blind as opposed to having a clue on it already.
 * For example, on the first turn of a 3-player game:
   * Alice clues number 1 to Cathy, touching one 1.
