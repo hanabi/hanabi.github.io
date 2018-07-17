@@ -214,7 +214,7 @@ Note that in this user interface, players are holding their hands like they woul
 
 ### Fix Clues
 
-* Normally, every clue that is given is either a *Save Clue* or a *Play Clue*. One small exception to this is a *Fix Clue,* which is attempting to "fix" an impending misplay. (This is also referred to as a *Stop Clue*.)
+* Normally, every clue that is given is either a *Save Clue* or a *Play Clue*. One small exception to this is a *Fix Clue,* which is attempting to "fix" an impending misplay.
 * *Fix Clues* are often needed when a duplicate card is touched. (For example, when a red 2 is clued in Player A's hand, and the other red 2 is clued in Player B's hand.) Cards are not normally duplicated (which follows from *Good Touch Principle*), but sometimes someone makes a mistake, or a sequence of particular cards makes duplicating necessary.
 * In such a situation, because of *Good Touch Principle*, the players with the duplicate cards will assume the identity of their cards to be something else, and may go on to misplay those cards. Thus, it is the team's responsibility to fix the problem and intervene before this happens.
 * **A clue cannot be a *Play Clue* and a *Fix Clue* at the same time.** If you receive a *Fix Clue* and it touches other ancillary cards, none of them are necessarily playable; the primary point of the clue is to fix the impending misplay.
