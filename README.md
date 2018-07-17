@@ -272,7 +272,7 @@ Note that in this user interface, players are holding their hands like they woul
 * For example, in a 3-player game:
   * Red 1 is played on the stacks.
   * Bob has a clued red card in his hand on slot 4.
-  * Alice clues Cathy reds, touching a red 4.
+  * Alice clues Cathy red, which touches a red 4.
   * Bob knows he must have both red 2 and red 3, but he only has one clued red card in his hand. So this must be both a *Prompt* on him and a *Finesse* on him at the same time.
   * Since *Prompts* take precedence over *Finesses*, he plays the clued red card first from slot 4 as red 2.
   * On his next turn, he blind-plays slot 2 as red 3. (His *Finesse Position* at the time of the clue was slot 1, but he drew a card, and now the red 3 slid down to slot 2.)
@@ -295,12 +295,13 @@ Note that in this user interface, players are holding their hands like they woul
 * *Finesses* are quite efficient. So, when you see a playable card in someone's *Finesse Position* slot, you will often want to "get" the card with a *Finesse* (instead of cluing it directly). However, often times, the proper "connecting" card is not on the table.
 * In this situation, you can perform an alternate strategy by lying to the next player. By cluing an unrelated, one-away card, the next player will think that it is a *Finesse* and that they have the matching card, so they will blind-play their *Finesse Position* card. This is called a *Bluff*.
 * After the card is blind-played, the player who received the clue will realize that something strange has happened - the type of clue did NOT match the card that was blind-played. Thus, the clued card is not currently playable and must be a one-away card.
-* For example, on the first turn of a 3-player game:
-  * Alice clues Cathy red, which touches her red 2.
-  * Next, it is Bob's turn. Bob sees that, with this red clue, Cathy has just been signaled that she has the red 1.
-  * From Bob's perspective, this looks like a *Finesse* - if Bob does not blind-play the red 1 right now, Cathy will go on to misplay the red 2 as the red 1.
-  * Bob blind-plays his slot 1 card. However, it is not the red 1, it was the blue 1! Now Bob knows that he has been *Bluffed* by Alice.
-  * Next, Cathy sees that Bob just blind-played a blue 1 immediately after this red clue, so she knows that she must have a one-away red card - the red 2. Cathy holds on to the red 2 for later and discards.
+* For example, in a 3-player game:
+  * All the 2's are played on the stacks.
+  * Alice clues Cathy red, which touches a red 4 as a *Play Clue*.
+  * Next, it is Bob's turn. Bob sees that, with this red clue, Cathy has just been signaled that she has the red 3.
+  * From Bob's perspective, this looks like a *Finesse* - if Bob does not blind-play the red 3 right now, Cathy will go on to misplay the red 4 as the red 3.
+  * Bob blind-plays his slot 1 card. However, it is not the red 3, it was the blue 3! Now Bob knows that he has been *Bluffed* by Alice.
+  * Next, Cathy sees that Bob just blind-played a blue 3 immediately after this red clue, so she knows that she must have a one-away red card - the red 4. Cathy holds on to the red 4 for later and discards.
 * Except in rare circumstances, ***Bluffing* is only permissible when you are the person directly before the player who is blind-playing a card**. This is called being in *Bluff Seat*. Do not *Bluff* unless you are in *Bluff Seat*! (This follows from *Good Lie Principle*.)
 
 ### Bluffs Through Already Clued Cards
@@ -350,7 +351,7 @@ Note that in this user interface, players are holding their hands like they woul
   * Alice has a known playable red 1 and a known playable blue 2 in her hand.
   * Alice plays blue 2.
   * Bob comes next. Bob does not see any red 2's. Bob does see blue 3 on the chop of Cathy. Thus, even though the red 1 was supposed to have *Priority*, Alice played the blue 2 to give Cathy something to do.
-  * Bob clues blues to Cathy as a chop-focus *Play Clue*.
+  * Bob clues blue to Cathy as a chop-focus *Play Clue*.
 * Similar to a normal *Prompt*, if a *Priority Prompt* could apply to two or more clued cards, then you should play the left-most one.
 * Similar to a normal *Prompt*, if a *Priority Prompt* made you play the left-most card and it was not the matching card, then you should continuing playing clued cards until you find the matching card.
 * Finally, note that the "left-most" *Priority* is contextual and does not always apply. For example, it is common for players to play a right-most card that was originally clued with a *Save Clue*, since that card was explicitly saved and that the other cards in the hand of the same rank could potentially be duplicates.
@@ -387,7 +388,7 @@ a lie or mistake. It is a *Load Clue* because it is loading the player up with s
   * Bob *Chop Moves* his slot 4.
   * Bob discards the 1.
   * Bob's chop is now his slot 3.
-  * Cathy clues blues to Bob, which touches his slot 1 (the card he just drew) and his slot 4 (the card that was just chop moved).
+  * Cathy clues blue to Bob, which touches his slot 1 (the card he just drew) and his slot 4 (the card that was just chop moved).
   * Bob knows that the focus of the clue is always on the brand-new card introduced, so this is NOT chop-focus, and the focus of the clue is on slot 1.
   * Thus, Bob will play blue 2 from slot 1 on his next turn.
 * This move is most commonly done with a number 1 clue because it is likely that in the middle of a game, all of the 1's will be already played. But it could also be done with a number two 2 clue if all the 2's are already played / accounted for. Or, it could be done with a red clue if all of the red cards are already played / accounted for. And so forth.
@@ -738,7 +739,7 @@ This section is unique in that it contains things that are separate from actual 
 * When this occurs, it is called a *Gentleman Discard* to signify that the card played was completely blind as opposed to having a clue on it already.
 * For example, on the first turn of a 3-player game:
   * Alice clues number 1 to Cathy, touching one 1.
-  * Bob clues reds to Cathy, filling in the already-touched 1 as red 1, as well as touching a new card, which must be red 2.
+  * Bob clues red to Cathy, filling in the already-touched 1 as red 1, as well as touching a new card, which must be red 2.
   * Cathy discards the known red 1 as a *Gentleman's Discard*.
   * Alice blind-plays her *Finesse Position* card as red 1.
 
@@ -809,7 +810,7 @@ This section is unique in that it contains things that are separate from actual 
 * Our group plays with an artificial *3 Bluffs* convention. This means that in addition to being one away from being playable, we agree that the touched card can also be any 3 that will be useful in the future.
 * Here are some examples that cover the four most common *3 Bluff* situations:
     * **Color mismatch (valid):**
-      * On the first turn of the game, Alice clues Cathy reds, which touches a red 3.
+      * On the first turn of the game, Alice clues Cathy red, which touches a red 3.
       * Bob blind-plays blue 1.
       * Cathy knows that it is either a red 2 (if it was a normal *Bluff*) or a red 3 (if it was a *3 Bluff*).
     * **Number 3 with suit mismatch (valid):**
@@ -818,7 +819,7 @@ This section is unique in that it contains things that are separate from actual 
       * Cathy knows that it was a *3 Bluff*, because a played 1 does not "match" number 3.
       * Beyond that, Cathy knows nothing about the card, besides that it is a 3 (since it has a number 3 clue on it).
     * **Color match (NOT valid; looks like a Double Finesse):**
-      * On the first turn of the game, Alice clues Cathy reds, which touches a red 3.
+      * On the first turn of the game, Alice clues Cathy red, which touches a red 3.
       * Bob blind-plays red 1.
       * Cathy sees that Bob does not have red 2, so since red matches red, Cathy assumes that she has the red 2.
       * Cathy misplays red 3 as Red 2.
@@ -900,9 +901,9 @@ This section is unique in that it contains things that are separate from actual 
 * Normally, *5 Pulls* have to be treated as *Delayed Play Clues*. This means that sometimes, it can take a long time for the pulled card to blind-play.
 * From the perspective of the person who is *5 Pulled*, if a follow up *Play Clue* is given to a currently unplayable card, then they can disregard the *Delayed Play Clue* interpretation - the *5 Pulled* player is **promised** the card that makes the unplayable card playable.
 * For example, in a 4-player game:
-  * Alice two clued 1's in her hand - yellow 1 and purple 1.
-  * Bob does a *5 Pull* on Donald. Donald knows that the *5 Pulled* card could be either yellow 2 or purple 2 (if it is a *Delayed Play Clue*).
-  * Cathy clues Alice about a yellow 3. Now, Donald knows that he is **promised** the yellow 2 as his *5 Pulled* card (and he no longer has to wait for the purple 1 to come down before blind-playing).
+  * Alice two clued 1's in her hand - red 1 and blue 1.
+  * Bob does a *5 Pull* on Donald. Donald knows that the *5 Pulled* card could be either red 2 or blue 2 (if it is a *Delayed Play Clue*).
+  * Cathy clues Alice about a red 3. Now, Donald knows that he is **promised** the red 2 as his *5 Pulled* card (and he no longer has to wait for the purple 1 to come down before blind-playing).
 
 ### The Weak Prompt
 
@@ -991,9 +992,9 @@ This section is unique in that it contains things that are separate from actual 
   * The end-game has not started yet (see the *End-Game Threshold*).
   * You know that someone else will have to discard in the future.
   * There is only one more useful card in the deck and all of the useful cards in your hand are of the same suit as that card. This is known as *Same-Suit Principle*. For example:
-    * You have two cards clued in your hand that you know to be yellow 3 and yellow 5.
-    * The only useful cards left in the deck are two yellow 2's.
-    * Here, there is no reason for you to stall, since the yellow 3 will NOT be played sooner if you stall.
+    * You have two cards clued in your hand that you know to be red 3 and red 5.
+    * The only useful cards left in the deck are two red 2's.
+    * Here, there is no reason for you to stall, since the red 3 will NOT be played sooner if you stall.
 
 ### The Distribution Clue
 
@@ -1051,7 +1052,7 @@ This section is unique in that it contains things that are separate from actual 
 * One great reason to want to do a *Gentleman's Discard* is if the card you are discarding is also behind playable cards. This is similar to a *Layered Finesse*, only it was initiated by a discard instead of a clue.
 * For example, on the first turn of a 3-player game:
   * Alice clues number 1 to Cathy, touching one 1.
-  * Bob clues reds to Cathy, filling in the already-touched 1 as red 1, as well as touching a new card, which must be red 2.
+  * Bob clues red to Cathy, filling in the already-touched 1 as red 1, as well as touching a new card, which must be red 2.
   * Cathy discards the known red 1 as a *Gentleman's Discard*.
   * Alice blind-plays her *Finesse Position* card as red 1, but it is green 1.
   * Alice knows that she is promised the red 1, so she will blind-play her slot 2 on her next turn.
@@ -1121,7 +1122,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * At the beginning of the game, Alice goes first.
   * Bob has a red 3 and a red 2 (on slots 1 and 2 respectively).
   * Cathy has a red 1 on slot 1 (in *Finesse Position*).
-  * Alice clues Bob reds (as an *Out-of-Order Reverse Finesse*). The focus of the clue is the red 3 on slot 1.
+  * Alice clues Bob red (as an *Out-of-Order Reverse Finesse*). The focus of the clue is the red 3 on slot 1.
   * Bob sees the red 1 on Cathy's *Finesse Position*, so he has to respect that it could be *Reverse Finesse*. Bob discards.
   * Cathy blind-plays red 1.
   * Alice must now give a *Fix Clue* to Bob, or else red 3 will be misplayed as red 2.
@@ -1189,7 +1190,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * When performing a *Prompt* by touching a sole rainbow card, the player doing the clue may have a free choice between multiple colors. In other words, there may exist multiple colors that will ONLY touch the rainbow card.
 * If a player has a free choice to choose the color that matches the intended *Prompt* target but instead deliberately chooses a different color, this signals that it is actually a *Finesse* instead of a *Prompt*.
 * For example, on the first turn of a 3-player game:
-  * Alice clues Bob reds, which touches a red 1 in slot 1 and a red 3 in slot 2.
+  * Alice clues Bob red, which touches a red 1 in slot 1 and a red 3 in slot 2.
   * Bob plays red 1 from slot 1. He draws a rainbow 1, which is now in his slot 1.
   * Cathy discards.
   * Alice notices that Bob has a rainbow 1 in *Finesse Position*. And Cathy has a rainbow 2 in her hand.
@@ -1382,13 +1383,13 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### The Double Half Bluff
 
-* Sometimes, you see that two players in a row have cards on their newest slot that are playable. However, they are unrelated, so you can't get them both played with a double finesse. This is where the *Double Half Bluff* comes in - it is very similar to a *Double Finesse*. In this situation, by performing a clue that looks like a *Double Finesse*, you can get the first card played like a normal *Finesse* and the 2nd card like a *Bluff*.
+* Sometimes, you see that two players in a row have playable *Finesse Position* cards. However, they are unrelated, so you can't get them both played with a *Double Finesse*. In this situation, by performing a clue that looks like a *Double Finesse*, you can get the first card played like a normal *Finesse* and the second card like a *Bluff*.
 * For example, on the first turn of a 4-player game:
-  * Alice clues Donald red, which touches a red 3.
-  * Bob goes next and assumes that it is a *Double Self-Finesse* - he has the red 1 and red 2 in the two newest slots. Thus, he blind-plays his left-most and it is red 1.
+  * Alice clues Donald red, which touches a red 3 as a *Play Clue*.
+  * Bob goes next and assumes that it is a *Double Self-Finesse* - he has the red 1 and red 2 in his two newest slots. Thus, he blind-plays his left-most and it is red 1, as expected.
   * Cathy goes next. Cathy sees that Donald does NOT have red 2 in his next newest slot, so she must have the red 2. Cathy blind-plays her left-most card. However, it is NOT the red 2, but the blue 1.
   * Bob now knows he does not have the red 2 anymore, since Cathy blind-played.
-  * Cathy now knows that since two blind-plays happened in a row, she does NOT have the red 2.
+  * Cathy now knows that since two blind-plays happened in a row, she does NOT have the red 2 and that she was *Bluffed*.
   * At first, Donald thought that the red card in his hand was red 1 (as a *Play Clue*).
   * After Alice blind-played, Donald thought that the red card in his hand was red 2 (as a *Finesse*).
   * After Bob blind-played, Donald knows that he must have the red 3 (as a *Double Half Bluff*).
@@ -1399,13 +1400,12 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * Similar to a *Double Half Bluff*, it is also possible to get 2 cards played in a row that are completely unrelated.
 * For example, in a 4-player game:
   * Red 2 is currently played on the stacks.
-  * Alice clues a red 5 in Donald's hand with a yellow color *Play Clue*.
+  * Alice clues Donald red, which touches a red 5 as a *Play Clue*.
   * Since red 5 is playable right now, Bob thinks he has the red 3 and the red 4. Bob blind-plays his *Finesse Position* card, but it is actually a blue 1.
   * Cathy sees that Bob blind-played because of the red clue. However, since the red 5 is a two-away card instead of one-away card, it must mean that it is a *Double Bluff* instead of a single *Bluff*. Cathy blind-plays her *Finesse Position* card and it is yellow 1.
   * At first, Donald thought that the red card in his hand was red 3 (as a *Play Clue*).
   * After Alice blind-played, Donald thought that the red card in his hand was red 4 (as a *Bluff*).
   * After Bob blind-played, Donald knows that he must have the red 5 (as a *Double Bluff*).
-caused 2 blind-plays.
 * Normally, you are only allowed to *Bluff* while in *Bluff Seat*. But *Double Bluffs* do not violate *Good Lie Principle*, so we allow them.
 
 ### The Triple Bluff / The Triple Two-Thirds Bluff
@@ -1619,7 +1619,7 @@ caused 2 blind-plays.
 * An alternate form of the *Suboptimal Trash Bluff Chop Move* exists where the suboptimality is NOT in the clue receivers hand but in someone else's hand. For example, in a 4-player game:
   * Blue 1 and red 4 are played on the stacks.
   * It is Alice's turn. Bob has blue 2 in his *Finesse Position*. It is possible for Alice to *Finesse* blue 2 by cluing blue 3 in Cathy's hand. This would be a 2-for-1 clue.
-  * Instead, Alice clues reds to Donald, which touches a red 1. This is a *Trash Bluff* because it makes Bob think he has red 5, but he instead blind-plays blue 2. This is a 1-for-1 clue.
+  * Instead, Alice clues red to Donald, which touches a red 1. This is a *Trash Bluff* because it makes Bob think he has red 5, but he instead blind-plays blue 2. This is a 1-for-1 clue.
   * Donald knows that since Alice did a 1-for-1 instead of a 2-for-1, he should chop move.
   * Cathy does not know that Donald will chop move until he demonstrates it or until the blue 3 in her hand is directly clued.
 
