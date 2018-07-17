@@ -1,4 +1,4 @@
-<p align="center">
+p align="center">
     <img src="img/hanabi.jpg" height="200" />
 </p>
 
@@ -200,7 +200,7 @@ Note that in this user interface, players are holding their hands like they woul
 * In the *Early Game*, you can do a special move called a *5 Stall*; see below.
 * That covers the basics. Some more edge-case specifics that you don't need to know right now are listed in *The Early Game (Intermediate Section)*.
 
-### The 5 Stall (Cluing Off-Chop 5s)
+### The 5 Stall (Cluing Off-Chop 5's)
 
 * Normally, you are only allowed to give a *Save Clue* to a 5 if it is on chop. So if you use number 5 to clue a 5 that is NOT on chop, then it will typically look like a *Play Clue* on that 5 (or some other advanced strategy).
 * As a special rule, in the *Early Game*, you ARE allowed to clue number 5 as a *Save Clue* to off-chop 5's. Doing this is just interpretted as a "stall" clue and that you are trying to extend the *Early Game* for a little bit longer.
@@ -322,7 +322,7 @@ Note that in this user interface, players are holding their hands like they woul
   * Misplaying a card does NOT count as ending the *Early Game*.
   * Discarding known trash does NOT count as ending the *Early Game*.
   * Doing special discards that "transfer" cards to other players does NOT count as ending the *Early Game*.
-* In the *Early Game*, you are allowed to *5 Stall* (on off-chop 5s) if there is nothing else to do. However:
+* In the *Early Game*, you are allowed to *5 Stall* (on off-chop 5's) if there is nothing else to do. However:
   * You are ALSO allowed to *5 Stall* if there is only ONE *Play Clue* remaining and it would touch a card on *Finesse Position*.
   * You are NOT allowed to stall if there happens to be a playable 5. If there is a playable 5, any off-chop 5 clue will be interpreted as a *Play Clue*, a *Delayed Play Clue*, or a *Prompt*.
 * In the *Early Game*, players must "extinguish" all of the available clues on the board. Note that:
@@ -370,20 +370,20 @@ a lie or mistake. It is a *Load Clue* because it is loading the player up with s
 
 ### The Trash Chop Move
 
-* In the middle of a game, if all of the 1s have been played already, and someone clues a 1, it is quite strange - from *Good Touch Principle*, players are not supposed to touch cards that have already been played. In this situation, the 1 is considered "trash".
+* In the middle of a game, if all of the 1's have been played already, and someone clues a 1, it is quite strange - from *Good Touch Principle*, players are not supposed to touch cards that have already been played. In this situation, the 1 is considered "trash".
 * Thus, the clue must have some deeper meaning, and we agree that it means that the cards to the right of the trash are important. The point of the clue was to give the player a known-safe discard.
 * However, not only does it give a known-safe discard, but it also *Chop Moves* ALL of the cards to the right of the trash. This means that the player should consider the cards to be touched with an "invisible" clue, and never discard them for the rest of the game.
 * Most of the time, the *Trash Chop Move* is done to *Chop Move* a single card (meaning that the clued 1 was one-away from chop). However, you can also use the *Trash Chop Move* to *Chop Move* multiple cards. For example, in a 3-player game:
-  * All of the 1s have been played on the stacks.
+  * All of the 1's have been played on the stacks.
   * Bob has a completely unclued hand.
-  * Alice clues 1s to Bob, which touches a 1 in his slot 1.
+  * Alice clues 1's to Bob, which touches a 1 in his slot 1.
   * Bob *Chop Moves* his slot 2, his slot 3, and his slot 4.
   * Bob discards the 1.
   * Bob's chop is now his slot 1.
 * Once a card has been chop moved and is no longer in danger of being discarded, it is treated as an already-clued card with regards to new clues given to that hand. For example, in a 3-player game:
-  * All of the 1s have been played on the stacks.
+  * All of the 1's have been played on the stacks.
   * Bob has a completely unclued hand.
-  * Alice clues 1s to Bob, which touches a 1 in his slot 3.
+  * Alice clues 1's to Bob, which touches a 1 in his slot 3.
   * Bob *Chop Moves* his slot 4.
   * Bob discards the 1.
   * Bob's chop is now his slot 3.
@@ -395,6 +395,11 @@ a lie or mistake. It is a *Load Clue* because it is loading the player up with s
   1) Some cards (e.g. a one-away 3) are quite useful to the team, but illegal to touch directly (as touching them directly with a clue would imply that they are playable right now). If the game is going well, then it can be useful to "waste" a clue in order to have the card saved permanently.
   2) Sometimes there are multiple critical cards in a row on chop and it falls to one player to save all of them. In this situation, a multiple-card *Chop Move* could be the only way to do it.
 * Note that you are NOT allowed to *Chop Move* a card that you can just clue directly with a *Save Clue* (unless there are multiple critical cards in a row on chop and you have no other choice). This should be obvious, as having some positive information is always better than having the card be a complete mystery.
+* If a *Trash Chop Move* touches MULTIPLE trash cards, then it only *Chop Moves* the cards to the right of the right-most trash card. For example, in a 3-player game:
+  * All the 1's are played on the stacks.
+  * Bob has a completely unclued hand.
+  * Alice clues 1's to Bob, which touches a 1 in slot 2 and a 1 in slot 4.
+  * Bob ONLY *Chop Moves* his slot 5 card.
 
 ### Chop Moves & Prompts
 
@@ -415,6 +420,11 @@ a lie or mistake. It is a *Load Clue* because it is loading the player up with s
 * However, if the 5 is **one-away** from chop, then we agree that it has a special meaning, and that the clue is NOT a *Play Clue* at all.
 * Instead, it is understood that the clue is a *5's Chop Move*, and the player should *Chop Move* their chop in a manner similar to the *Trash Chop Move*.
 * Note that the *5's Chop Move* is different than the *Trash Chop Move* in that you can only chop move ONE card with it. Thus, if you clue a 5 and it is TWO (or more) slots away from the chop, then it is to be assumed to be a *Play Clue* on the 5.
+* Similar to the *Trash Chop Move*, if a *5's Chop Move* touches MULTIPLE 5's, then it only *Chop Moves* the cards to the right of the right-most 5. For example, in a 3-player game:
+  * All the 1's are played on the stacks.
+  * Bob has a completely unclued hand.
+  * Alice clues 5's to Bob, which touches a 5 in slot 2 and a 5 in slot 4.
+  * Bob ONLY *Chop Moves* his slot 5 card.
 
 ### The Scream Discard Chop Move (Deliberately Discarding Instead of Playing)
 
@@ -757,7 +767,7 @@ This section is unique in that it contains things that are separate from actual 
 
 * Normally, at the beginning of the game, players are expected to play their 1's from right to left.
 * If a player skips over their right-most 1, and there is nothing else special going on, it means that the next person should *Chop Move* one card.
-* If a player skips over TWO of their right-most 1's, the message skips over the next player, and the player after that should *Chop Move* one card. (And a skip of three 1s means that the player three seats away should *Chop Move*.)
+* If a player skips over TWO of their right-most 1's, the message skips over the next player, and the player after that should *Chop Move* one card. (And a skip of three 1's means that the player three seats away should *Chop Move*.)
 * For example, in a 3-player game:
   * It is the first turn of the game.
   * Alice clues Bob number 1, which touches three 1's. They are in slots 1, 2, and 3.
@@ -768,7 +778,7 @@ This section is unique in that it contains things that are separate from actual 
   * The 1 that was played was newly drawn and did NOT exist in the opening hand. (Fresh 1's always have priority.)
   * The 1 that was played was originally *Finessed* from a clue that happened BEFORE the number 1 clue.
   * The 1 that was played had some unique positive or negative color information on it and could potentially lead into someone else's hand.
-  * The 1 that was skipped over is known to be bad from contextual information. (See *The Stale 1s Clue* section.)
+  * The 1 that was skipped over is known to be bad from contextual information. (See *The Stale 1's Clue* section.)
 
 ### Trash Order Chop Move
 
@@ -889,7 +899,7 @@ This section is unique in that it contains things that are separate from actual 
 * Normally, *5 Pulls* have to be treated as *Delayed Play Clues*. This means that sometimes, it can take a long time for the pulled card to blind-play.
 * From the perspective of the person who is *5 Pulled*, if a follow up *Play Clue* is given to a currently unplayable card, then they can disregard the *Delayed Play Clue* interpretation - the *5 Pulled* player is **promised** the card that makes the unplayable card playable.
 * For example, in a 4-player game:
-  * Alice two clued 1s in her hand - yellow 1 and purple 1.
+  * Alice two clued 1's in her hand - yellow 1 and purple 1.
   * Bob does a *5 Pull* on Donald. Donald knows that the *5 Pulled* card could be either yellow 2 or purple 2 (if it is a *Delayed Play Clue*).
   * Cathy clues Alice about a yellow 3. Now, Donald knows that he is **promised** the yellow 2 as his *5 Pulled* card (and he no longer has to wait for the purple 1 to come down before blind-playing).
 
