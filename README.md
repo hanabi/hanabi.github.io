@@ -246,7 +246,7 @@ Note that in this user interface, players are holding their hands like they woul
 
 ### Finesses
 
-* If someone gives a *Play Clue* to a card that is currently unplayable, then they could be telling YOU to play a card. Normally, this would indicate a *Prompt*. But, what if you have no clued cards in your hand or no clued cards that apply to the situation?
+* If someone gives a *Play Clue* to a card that is currently unplayable, then they could be telling YOU to play a card. Normally, this would indicate a *Prompt*. But, what if you have no clued cards in your hand? Or, what if you have no clued cards that apply to the situation?
 * In this situation, you should blindly play your left-most unclued card. Then, the other player will know that the clued card directly matches the blind-play, and will play it. By doing this, the team will have gotten 2 plays with only 1 clue, which is very efficient. This is called a *Finesse*.
 * For example, on the first turn of a 3-player game:
   * Alice clues Cathy red, which touches her red 2.
