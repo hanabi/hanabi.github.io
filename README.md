@@ -26,7 +26,7 @@ The purpose of this document is:
 
 If you have found your way here from the Internet and are not a part of our group already, then welcome! You can use this document to cherry-pick strategies for your own group, or even adopt the whole convention framework if you want. We enjoy talking to other Hanabi players, so make sure to say hi in the [Hanabi Discord server](https://discord.gg/FADvkJp) as well. (Discord is a voice and text chat application that you can run in a browser.)
 
-Note that our group generally only plays games with 3 to 5 players, since 2-player games can be quite boring. Thus, this document doesn't really apply to 2-player games; separate conventions are probably necessary for optimized play in that game type.
+Note that while Hanabi is a 2 to 5 player game, our group generally only plays games with 3 to 5 players, since 2-player games can be quite boring. Thus, this document doesn't really apply to 2-player games; separate conventions are probably necessary for optimized play in that game type.
 
 
 
