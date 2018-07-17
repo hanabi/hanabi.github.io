@@ -1,4 +1,4 @@
-p align="center">
+<p align="center">
     <img src="img/hanabi.jpg" height="200" />
 </p>
 
