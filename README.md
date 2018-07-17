@@ -324,7 +324,7 @@ Note that in this user interface, players are holding their hands like they woul
   * Doing special discards that "transfer" cards to other players does NOT count as ending the *Early Game*.
 * In the *Early Game*, you are allowed to *5 Stall* (on off-chop 5's) if there is nothing else to do. However:
   * You are ALSO allowed to *5 Stall* if there is only ONE *Play Clue* remaining and it would touch a card on *Finesse Position*.
-  * You are NOT allowed to stall if there happens to be a playable 5. If there is a playable 5, any off-chop 5 clue will be interpreted as a *Play Clue*, a *Delayed Play Clue*, or a *Prompt*.
+  * You are NOT allowed to *5 Stall* if there happens to be a playable 5. If there is a playable 5, any off-chop 5 clue will be interpreted as a *Play Clue*, a *Delayed Play Clue*, or a *Prompt*.
 * In the *Early Game*, players must "extinguish" all of the available clues on the board. Note that:
   * This DOES include cluing off-chop 5's, but it is only mandatory to clue ONE off-chop 5. If one off-chop 5 has already been clued and there is another off-chop 5 clue available, players are allowed (but not required) to clue it.
   * If the only thing left to clue is in the hand of the person who came directly before you, then cluing is optional, and you can choose to either clue it or discard at your discretion. This is because the player who came before you did not see anything for you to do, and is therefore giving you "permission" to discard.
