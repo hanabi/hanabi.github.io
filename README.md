@@ -279,10 +279,10 @@ Note that in this user interface, players are holding their hands like they woul
 
 ### Reverse Finesses
 
-* In a normal *Finesse*, you would give a clue to a person AFTER the person blindly playing the card. If you give a *Finesse* clue to someone BEFORE the blind-play occurs, it is called a *Reverse Finesse*. This is more complicated than a normal *Finesse* and is harder to see.
-* Since *Reverse Finesses* exist as a strategy, before playing ANYTHING that you aren't 100% sure about, you should always check out everyone's *Finesse Position* card (the left-most unclued card). If the card in this slot is PLAYABLE and "matches" the clue that you jsut got, then you should DEFER playing it for at least one go-around and wait to see what happens.
-* If the player with the "matching" card blind-plays it, then it means that your clued card is the next card in the chain. You can safely play it on the next turn.
-* Or, if the player with the "matching" card does NOT blind-play, then you probably have the other copy. You can safely play it on the next turn.
+* In a normal *Finesse*, you would give a clue to a player who comes after the player blind playing a card. If you give a *Finesse* clue to someone who gets to have a turn BEFORE the blind-play occurs, it is called a *Reverse Finesse*. This is more complicated than a normal *Finesse* and is harder to see.
+* Since *Reverse Finesses* exist as a strategy, before playing any cards, players should always check out everyone's *Finesse Position* card (the left-most unclued card). If a card in someone's *Finesse Position* is PLAYABLE and "matches" the clue, then they need to DEFER playing the clued card for at least one go-around and wait to see what happens.
+* If the player with the "matching" card blind-plays it, then it means that the clued card is the next card in the chain.
+* Or, if the player with the "matching" card does NOT blind-play, then the clued card is probably the other copy, and can be played on the next turn.
 * For example, on the first turn of a 3-player game:
   * Alice clues Bob red, which touches his red 2.
   * Next, it is Bob's turn. Normally, Bob would think that he had the red 1, and play it immediatley.
