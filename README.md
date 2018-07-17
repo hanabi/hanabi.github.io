@@ -752,8 +752,8 @@ This section is unique in that it contains things that are separate from actual 
   * Cathy knows that she is promised the red 3 in her *Finesse Position*.
 * This is an example of a *Certain Finesse* - it is similar to the *Sarcastic Finesse* above, but the "blind" card was potentially duplicated instead of the clued card.
 * In this situation, if Alice really has the red 3, Cathy is allowed to blind-discard their *Finesse Position* card. This is called a *Certain Discard*, because Cathy can be certain that it is exactly red 3.
-* A separate way to explain this convention is that everyone agrees that performing a *Layered Finesse* on a card that could potentially be in your own hand is illegal. So, everyone can be certain that they can safely blind discard a card to pass it back to someone who potentially duplicated.
-* Note that players are ONLY allowed to do a *Certain Discard* if they know they have not been bluffed. (This means that *Certain Finesses* cannot be performed from *Bluff Seat*.)
+* A separate way to explain this convention is that everyone agrees that performing a *Layered Finesse* on a card that could potentially be in your own hand is illegal. So, everyone can be certain that they can safely blind discard a card to pass it back to someone who potentially duplicated. (*Layered Finesses* are an advanced type of *Finesse* that is explained later on.)
+* Note that players are ONLY allowed to do a *Certain Discard* if they know they have not been *Bluffed*. (This means that *Certain Finesses* cannot be performed from *Bluff Seat*.)
 * Much like a *Sarcastic Discard* from a *Sarcastic Finesse*, if someone performs a *Certain Discard*, it does NOT promise the order, because they HAD to put something on the fishing line that you sent out, so to speak.
 
 ### The Early Fix Clue Chop Move
