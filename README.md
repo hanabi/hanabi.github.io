@@ -975,7 +975,7 @@ This section is unique in that it contains things that are separate from actual 
   * implicit information - historical / contextual information about the card derived from moves that teammates performed earlier on in the game
 * When this occurs, the clue is meant to be a *Play Clue* on the left-most card INSTEAD of the chop card.
 * Just like a "normal" *Play Clue* that touches multiple new cards, the chop card (and other other new cards introduced) are not necessarily playable right now.
-* In the following screenshot, nmego has a negative 1 clue on his chop so he should play his slot 1 card immediately. The chop card can be either yellow 2, yellow 3, yellow 4, but not yellow 5 (since Zamiel has it).
+* In the following screenshot, Zamiel clues yellow to nmego, which touches two brand new cards in the hand. Normally, this would bea  *Chop Focus* play clue, and nmego should play the chop card (slot 5) as yellow 1. However, nmego has a negative 1 clue on his chop, so it explicitly cannot be the yellow 1. Therefore, this is *Focus Inversion*, and he can immediately play his slot 1 card. The chop card can be either yellow 2, yellow 3, yellow 4, but not yellow 5 (since Zamiel has it).
 
 ![Focus Inversion](img/focus_inversion.png)
 
