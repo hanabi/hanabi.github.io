@@ -377,7 +377,7 @@ a lie or mistake. It is a *Load Clue* because it is loading the player up with s
   * All of the 1's have been played on the stacks.
   * Bob has a completely unclued hand.
   * Alice clues 1's to Bob, which touches a 1 in his slot 1.
-  * Bob *Chop Moves* his slot 2, his slot 3, and his slot 4.
+  * Bob *Chop Moves* his slot 2, his slot 3, his slot 4, and his slot 5 (a quadruple *Chop Move*).
   * Bob discards the 1.
   * Bob's chop is now his slot 1.
 * Once a card has been *Chop Moved* and is no longer in danger of being discarded, it is treated as an already-clued card with regards to new clues given to that hand. For example, in a 3-player game:
