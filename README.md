@@ -796,6 +796,7 @@ This section is unique in that it contains things that are separate from actual 
 * However, in a 3-player game, this would be nonsensical, since there are only 3 players in total.
 * Thus, in a 3-player game, skipping over three 1's should *Double Chop Move* the very next player.
 * This convention also applies to trash, meaning that it is possible to *Double Trash Order Chop Move*.
+* In the rare case where four things are skipped over, it should skip over the next player and *Double Chop Move* the player after that.
 
 ### The Misplay Chop Move
 
