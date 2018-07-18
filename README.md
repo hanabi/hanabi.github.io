@@ -742,6 +742,20 @@ This section is unique in that it contains things that are separate from actual 
   * Bob clues red to Cathy, filling in the already-touched 1 as red 1, as well as touching a new card, which must be red 2.
   * Cathy discards the known red 1 as a *Gentleman's Discard*.
   * Alice blind-plays her *Finesse Position* card as red 1.
+* The *Gentleman's Discard* essentially transfers a card to another player on the team. However, it has a big negative: if the card is currently playable, it costs the team tempo, because it will take longer to play the card.
+* Thus, a *Gentleman's Discard* is only good if there is some other side benefit to offset the lost tempo. The following are the four main reasons that people do *Gentleman's Discards*:
+  1) To extend the *Early Game*. You almost always want to extend the *Early Game* for as long as possible, and doing a *Gentleman's Discard* both generates a clue and does not count as ending the *Early Game*.
+  2) You want to protect another player's chop. By getting them to blind-play a card, they will not be discarding, and this "protects" their chop from being discarded for at least one go-around of the table.
+  3) You want to protect your own chop. Say that your card is not currently playable (or playable through someone else's cards that have not been played yet). In this situation, if you discard your chop, the team could be losing some high-value one-away card. But if you transfer a card to someone else, it gives you something "safe" to do.
+  4) It gets a "free" card as a *Layered Gentleman's Discard*. (This is a more advanced move that is covered later on.)
+
+### The Baton Discard
+
+* Usually, when a *Gentleman's Discard* happens, it is for a playable card. But it is also possible to do a *Gentleman's Discard* to transfer a card to another player that is just completely unplayable at the current time.
+* In order to disambiguate this from the more ordinary type of *Gentleman's Discard*, we call this a *Baton Discard*.
+* *Baton Discards* are mostly useful for two main reasons:
+  1) To better satisfy *Team Distribution Principle*. It makes sense to transfer a card out of a locked / almost locked hand to a player with an "empty" hand or a hand that only has one card clued in it.
+  2) You want to protect your own chop. If you discard your chop, the team could be losing some high-value one-away card. But if you transfer a card to someone else, it gives you something "safe" to do.
 
 ### The Certain Finesse / The Certain Discard
 
