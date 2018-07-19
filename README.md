@@ -525,14 +525,14 @@ a lie or mistake. It is a *Load Clue* because it is loading the player up with s
 * In certain special situations, everyone understands that a player might be giving a "stall" clue. However, there are limits - they are not allowed to just clue anything they want. These are the specific clues that they are allowed to give along with the priority of each clue:
 
 | Priority | Type of Clue | Double Discard<br />(Level 1) | Locked Hand<br />(Level 2) | 8 Clues<br />(Level 3)
-| --- | --- | --- | --- | ---
-| 1 | Normal *Play Clues* or *Save Clues* | ✔ | ✔ | ✔
-| 2 | *5 Stall* (cluing off-chop 5's) | ✔ | ✔ | ✔
-| 3 | *Tempo Clue* (re-cluing a card to make it play) | ✔ | ✔ | ✔
-| 4 | *Locked Hand Save* (saving any card on chop) | ❌ | ✔ | ✔
-| 5 | *8 Clue Save* (saving any card on or off chop) | ❌ | ❌ | ✔
-| 6 | Filling in extra info on unplayable "mystery" cards | ✔ | ✔ | ✔
-| 7 | *Hard Burn* (re-cluing 5's) | ✔ | ✔ | ✔
+| -------- | ------------ | ----------------------------- | -------------------------- | ----------------------
+| 1        | Normal *Play Clues* or *Save Clues*                 | ✔ | ✔ | ✔
+| 2        | *5 Stall* (cluing off-chop 5's)                     | ✔ | ✔ | ✔
+| 3        | *Tempo Clue* (re-cluing a card to make it play)     | ✔ | ✔ | ✔
+| 4        | *Locked Hand Save* (saving any card on chop)        | ❌ | ✔ | ✔
+| 5        | *8 Clue Save* (saving any card off chop)            | ❌ | ❌ | ✔
+| 6        | Filling in extra info on unplayable "mystery" cards | ✔ | ✔ | ✔
+| 7        | *Hard Burn* (re-cluing 5's)                         | ✔ | ✔ | ✔
 
 ### Locked Hands (Level 2 Stalling)
 
@@ -540,8 +540,7 @@ a lie or mistake. It is a *Load Clue* because it is loading the player up with s
 * A player with a fully clued hand may give a low-value clue because they are not sure that they can play anything (and they can't discard because their hand is fully clued). Similar to a *Double Discard* situation, players should not read too closely into any clues given during this state.
 * If the team is out of clues and someone's hand is fully clued, then you HAVE to discard to generate a clue for them. Similarly, if there is only 1 clue left, you cannot steal it from them.
 * When a player is in a *Locked Hand* situation, everyone understands that they might be giving a "stall" clue. However, there are limits - they are not allowed to just clue anything they want. See the "Allowable Stall Clues" section above.
-* Players with a *Locked Hand* gain the special ability to save any card on chop. This is called a *Locked Hand Save*. However, they can only do this if there is no normal *Play Clues*, *Save Clues*, *Tempo Clues*, or *5 Stalls* to give.
-* Along the same lines, players with a *Locked Hand* MUST follow general clue priority. For example, a *Locked* player cannot *5 Stall* if there is a normal *Play Clue* or *Save Clue* to give. (If they do, it will look like a *Play Clue* on the 5.)
+* Players with a *Locked Hand* gain the special ability to save any card on chop. This is called a *Locked Hand Save*. However, they can only do this if there are no higher priority clues available. (See the priority column in the "Allowable Stall Clues" section above.)
 
 ### The Anxiety Play (Forcing a Locked Player to Play)
 
@@ -554,8 +553,7 @@ a lie or mistake. It is a *Load Clue* because it is loading the player up with s
 * At the beginning of the game, you start with 8 clues. This section only applies to situations where you climb to 8 clues in the middle of the game.
 * A player who has a turn with 8 clues in the bank may give a low-value clue because they are not sure that they can play anything (and they can't discard because the game does not allow you to discard while at 8 clues). Similar to a *Double Discard* or a *Locked Hand* situation, players should not read too closely into any clues given during this state.
 * When a player is at 8 cluesn, everyone understands that they might be giving a "stall" clue. However, there are limits - they are not allowed to just clue anything they want. See the "Allowable Stall Clues" section above.
-* Players at 8 clues gain the special ability to save any card that they want, on or off chop. This is called an *8 Clue Save*. However, similar to a *Locked Hand Save*, they can only do this if there is no normal *Play Clues*, *Save Clues*, *Tempo Clues*, or *5 Stalls* to give.
-* Along the same lines, players at 8 clues MUST follow general clue priority. For example, a player at 8 clues cannot *5 Stall* if there is a normal *Play Clue* or *Save Clue* to give. (If they do, it will look like a *Play Clue* on the 5.)
+* Players at 8 clues gain the special ability to save any card that they want, on OR off chop, as long as the card is not freshly drawn. This is called an *8 Clue Save*. However, similar to a *Locked Hand Save*, they can only do this if there are no higher priority clues available. (See the priority column in the "Allowable Stall Clues" section above.)
 
 <br />
 
