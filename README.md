@@ -555,8 +555,8 @@ a lie or mistake. It is a *Load Clue* because it is loading the player up with s
 
   6) Save any card on chop (referred to as a *Locked Hand Save*)
 * Players with a *Locked Hand* MUST follow general clue priority. For example:
-  * A locked player cannot save an off-chop 5 if there is a normal *Play Clue* or *Save Clue* to give. (If they do, it will look like a *Play Clue* on the 5.)
-  * A locked player cannot perform a *Locked Hand Save* if there is a *Tempo Clue* or *5 Stall* available. (If they do, it will look like a *Play Clue* on the clued card.)
+  * A locked player cannot *5 Stall* if there is a normal *Play Clue* or *Save Clue* to give. (If they do, it will look like a *Play Clue* on the 5.)
+  * A locked player cannot perform a *Locked Hand Save* if there is a *5 Stall* or *Tempo Clue* to give. (If they do, it will look like a *Play Clue* on the clued card.)
 
 ### The Anxiety Play (Forcing a Locked Player to Play)
 
@@ -582,8 +582,8 @@ a lie or mistake. It is a *Load Clue* because it is loading the player up with s
 
   7) Saving ANY card off chop, unless it was just drawn (referred to as a *8 Clue Save*)
 * Similar to being locked, players who are at 8 clues MUST follow general clue priority. For example:
-  * A player at 8 clues cannot save an off-chop 5 if there is a normal *Play Clue* or *Save Clue* to give. (If they do, it will look like a *Play Clue* on the 5.)
-  * A player at 8 clues cannot perform a *8 Clue Save* if there is a *Tempo Clue* to give. (If they do, it will look like a *Play Clue* on the clued card.)
+  * A player at 8 clues cannot *5 Stall* if there is a normal *Play Clue* or *Save Clue* to give. (If they do, it will look like a *Play Clue* on the 5.)
+  * A player at 8 clues cannot perform a *8 Clue Save* if there is a *5 Stall* or *Tempo Clue* to give. (If they do, it will look like a *Play Clue* on the clued card.)
 
 <br />
 
