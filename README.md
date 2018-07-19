@@ -556,7 +556,7 @@ a lie or mistake. It is a *Load Clue* because it is loading the player up with s
   6) Save any card on chop (referred to as a *Locked Hand Save*)
 * Players with a *Locked Hand* MUST follow general clue priority. For example:
   * A locked player cannot save an off-chop 5 if there is a normal *Play Clue* or *Save Clue* to give. (If they do, it will look like a *Play Clue* on the 5.)
-  * A locked player cannot perform a *Locked Hand Save* if there is a *Tempo Clue* to give. (If they do, it will look like a *Play Clue* on the clued chop card.)
+  * A locked player cannot perform a *Locked Hand Save* if there is a *Tempo Clue* or *5 Stall* available. (If they do, it will look like a *Play Clue* on the clued card.)
 
 ### The Anxiety Play (Forcing a Locked Player to Play)
 
@@ -576,8 +576,10 @@ a lie or mistake. It is a *Load Clue* because it is loading the player up with s
   4) Filling in extra info on "mystery" cards that are still not playable
   5) Re-cluing 5's to a player (a "hard burn")
 * They can also give clues allowed in *Locked Hand* situations:
+
   6) Saving any card on chop (similar to a *Locked Hand Save*, but in this context referred to as a *8 Clue Save*)
 * And finally, they can give clues not allowed in either situation:
+
   7) Saving ANY card off chop, unless it was just drawn (referred to as a *8 Clue Save*)
 * Similar to being locked, players who are at 8 clues MUST follow general clue priority. For example:
   * A player at 8 clues cannot save an off-chop 5 if there is a normal *Play Clue* or *Save Clue* to give. (If they do, it will look like a *Play Clue* on the 5.)
