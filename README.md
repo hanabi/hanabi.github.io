@@ -419,7 +419,7 @@ a lie or mistake. It is a *Load Clue* because it is loading the player up with s
 * Normally, we are only allowed to save 5's on chop (unless it is the *Early Game* and there is nothing else to do).
 * So, in the *Mid-Game*, if a 5 is clued that is not on chop, it will normally look like a *Play Clue* on that 5.
 * However, if the 5 is **one-away** from chop, then we agree that it has a special meaning, and that the clue is NOT a *Play Clue* at all.
-* Instead, it is understood that the clue is a *5's Chop Move*, and the player should *Chop Move* their chop in a manner similar to the *Trash Chop Move*.
+* Instead, it is understood that the clue is a *5's Chop Move*, and the player should *Chop Move* in a manner similar to the *Trash Chop Move*.
 * Note that the *5's Chop Move* is different than the *Trash Chop Move* in that you can only chop move ONE card with it. Thus, if you clue a 5 and it is TWO (or more) slots away from the chop, then it is to be assumed to be a *Play Clue* on the 5.
 * Similar to the *Trash Chop Move*, if a *5's Chop Move* touches MULTIPLE 5's, then it only *Chop Moves* the cards to the right of the right-most 5. For example, in a 3-player game:
   * All the 1's are played on the stacks.
@@ -430,7 +430,7 @@ a lie or mistake. It is a *Load Clue* because it is loading the player up with s
 ### The Scream Discard Chop Move (Deliberately Discarding Instead of Playing)
 
 * The *Chop Move* outlined above is a tool to save multiple cards with one clue. However, sometimes you may not have a clue at all. One way to solve this situation is with a special kind of discard.
-* Typically, discarding is a last resort. So, if you have a known playable card in your hand, you can send a powerful signal to your partner by discarding instead. This is called a *Scream Discard*. Since your partner expected you to play the card, it is like screaming at them to let them know that things are very bad.
+* Typically, discarding is a last resort. So, if you have a known playable card in your hand, you can send a powerful message to your teammate by discarding instead. This is called a *Scream Discard*. Since your teammate expected you to play the card, it is like screaming at them to let them know that things are very bad.
 * The player being "screamed at" should permanently move their chop by one position.
 * Furthermore, the player being "screamed at" is not allowed to discard on this turn. They must make some clue. Clues in this situation are treated the same as a *Double Discard Situation* (see *Avoiding Double Discards* below). In short, this means that they are allowed to give "stall" clues, if necessary.
 * Players are only allowed to *Scream Discard* for **cards that are playable or critical** (or a needed 2 that isn't seen anywhere else). (This follows from *Save Principle*.)
@@ -448,20 +448,6 @@ a lie or mistake. It is a *Load Clue* because it is loading the player up with s
 ### A Scream Discard Flowchart
 
 [Here is a handy flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/scream_discard_flowchart.png) for determining whether something is a *Scream Discard Chop Move* or a *Generation Discard*. (It also covers some more rare types of discards that are covered later on in this document.)
-
-### The Unnecessary Generation Discard
-
-* Sometimes, in order to satisfy *Save Principle*, a player will perform an unnecessary *Generation Discard*, which generates a clue to save a card that they actually already have in their hand.
-* This puts the next player in an ambiguous situation: was it really a *Generation Discard*, or could it a *Scream Discard*? In order to cover both situations, they should not *Chop Move*, but they should also not discard on this turn.
-* For example, in a 3-player game:
-  * Red 3 is played on the stacks. No blue cards are played on the stacks.
-  * Alice has a blue 1 in her hand. She knows the exact identity of it, so it is known playable.
-  * Alice also has a 4 clued in her hand. She does not know what color it is.
-  * There are 0 clues, so if Alice plays the blue 1, Bob will be forced to discard.
-  * Alice sees that Cathy has a red 4 on chop, which is playable. If Alice does not have red 4 in her hand, then Cathy could potentially discard the red 4 (after Bob is forced to discard).
-  * So, Alice performs a *Generation Discard* to generate a clue so that Bob can clue the get the red 4, if necessary.
-  * Bob sees that Alice does indeed already have the red 4 in her hand, so from his perspective, if Alice was performing a *Generation Discard*, it was unnecessary.
-  * However, it could also be the case that Bob's chop is unsafe. So, Bob will NOT clue the red 4 on Cathy's chop, but he WILL spend the clue in some other productive fashion. If Bob has nothing productive to do, he must "burn" a clue, similar to what happens when a *Scream Discard* occurs.
 
 ### Tempo Clues (Re-cluing a Card)
 
@@ -1285,6 +1271,20 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 * On the first turn of the game, it is not possible to discard. If there is absolutely nothing else to do, it is permissible in this situation to use a number 2 clue to save a 2 that is NOT on chop, but only if the other players can see that you had no other choice.
 * This situation typically only happens in 3-player games.
+
+### The Unnecessary Generation Discard
+
+* Sometimes, in order to satisfy *Save Principle*, a player will perform an unnecessary *Generation Discard*, which generates a clue to save a card that they actually already have in their hand.
+* This puts the next player in an ambiguous situation: was it really a *Generation Discard*, or could it a *Scream Discard*? In order to cover both situations, they should not *Chop Move*, but they should also not discard on this turn.
+* For example, in a 3-player game:
+  * Red 3 is played on the stacks. No blue cards are played on the stacks.
+  * Alice has a blue 1 in her hand. She knows the exact identity of it, so it is known playable.
+  * Alice also has a 4 clued in her hand. She does not know what color it is.
+  * There are 0 clues, so if Alice plays the blue 1, Bob will be forced to discard.
+  * Alice sees that Cathy has a red 4 on chop, which is playable. If Alice does not have red 4 in her hand, then Cathy could potentially discard the red 4 (after Bob is forced to discard).
+  * So, Alice performs a *Generation Discard* to generate a clue so that Bob can clue the get the red 4, if necessary.
+  * Bob sees that Alice does indeed already have the red 4 in her hand, so from his perspective, if Alice was performing a *Generation Discard*, it was unnecessary.
+  * However, it could also be the case that Bob's chop is unsafe. So, Bob will NOT clue the red 4 on Cathy's chop, but he WILL spend the clue in some other productive fashion. If Bob has nothing productive to do, he must "burn" a clue, similar to what happens when a *Scream Discard* occurs.
 
 ### Double Tempo Clue Inversion (Immediate Double Clue)
 
