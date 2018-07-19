@@ -522,16 +522,17 @@ a lie or mistake. It is a *Load Clue* because it is loading the player up with s
 
 ### Allowable Stall Clues
 
-* In certain special situations, everyone understands that a player might be giving a "stall" clue. However, there are limits - they are not allowed to just clue anything they want. These are the specific clues that they are allowed to give:
+* In certain special situations, everyone understands that a player might be giving a "stall" clue. However, there are limits - they are not allowed to just clue anything they want. These are the specific clues that they are allowed to give along with the priority of each clue:
 
-| Type of Clue | Double Discard<br />(Level 1) | Locked Hand<br />(Level 2) | 8 Clues<br />(Level 3)
-| --- | --- | --- | ---
-| *Tempo Clue* (re-cluing a card to make it play) | ✔ | ✔ | ✔
-| *5 Stall* (cluing off-chop 5's) | ✔ | ✔ | ✔
-| Filling in extra info on unplayable "mystery" cards | ✔ | ✔ | ✔
-| *Hard Burn* (re-cluing 5's) | ✔ | ✔ | ✔
-| *Locked Hand Save* (saving any card on chop) | ❌ | ✔ | ✔
-| *8 Clue Save* (saving any card on or off chop) | ❌ | ❌ | ✔
+| Priority | Type of Clue | Double Discard<br />(Level 1) | Locked Hand<br />(Level 2) | 8 Clues<br />(Level 3)
+| --- | --- | --- | --- | ---
+| 1 | Normal *Play Clues* or *Save Clues* | ✔ | ✔ | ✔
+| 2 | *5 Stall* (cluing off-chop 5's) | ✔ | ✔ | ✔
+| 3 | *Tempo Clue* (re-cluing a card to make it play) | ✔ | ✔ | ✔
+| 4 | *Locked Hand Save* (saving any card on chop) | ❌ | ✔ | ✔
+| 5 | *8 Clue Save* (saving any card on or off chop) | ❌ | ❌ | ✔
+| 6 | Filling in extra info on unplayable "mystery" cards | ✔ | ✔ | ✔
+| 7 | *Hard Burn* (re-cluing 5's) | ✔ | ✔ | ✔
 
 ### Locked Hands (Level 2 Stalling)
 
