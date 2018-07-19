@@ -552,6 +552,7 @@ a lie or mistake. It is a *Load Clue* because it is loading the player up with s
   4) Filling in extra info on "mystery" cards that are still not playable
   5) Re-cluing 5's to a player (a "hard burn")
 * They can also:
+
   6) Save any card on chop (referred to as a *Locked Hand Save*)
 * Players with a *Locked Hand* MUST follow general clue priority. For example:
   * A locked player cannot save an off-chop 5 if there is a normal *Play Clue* or *Save Clue* to give. (If they do, it will look like a *Play Clue* on the 5.)
