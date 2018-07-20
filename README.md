@@ -515,10 +515,10 @@ a lie or mistake. It is a *Load Clue* because it is loading the player up with s
 ### Avoiding Double Discards (Level 1 Stalling)
 
 * If the player before you just discarded a card (say the red 4), and you don't see that card in anyone else's hand, there is a possibility that you could have that same card on your chop. In this example, if you discarded, both red 4's could be lost and your team would not be able to get a perfect score. This is called *Double Discarding*.
-* Since *Double Discarding* can "lose" the game, you should make any decent clue if you can to avoid it. Even a low-value clue might be better than discarding. After a go-around, you can safely discard, as your team would have had time to give you a *Save Clue* if necessary.
-* When a player is in a *Double Discard* situation, everyone understands that they might be giving a "stall" clue. However, there are limits - they are not allowed to just clue anything they want. See the next section for the specific stall clues that they are allowed to give.
+* Since *Double Discarding* can "lose" the game, you should give any decent clue that you can. If there are no clues to give, you are even allowed to give "stall" clues; see below.
+* On your next turn after the *Double Discard* situation, you can safely discard, as the team would have had time to give you a *Save Clue* if necessary.
 * From a strategy perspective, because players are strongly deincentivized to *Double Discard*, you do not need to be worried about the same card being on two different chops simultaneously.
-* Normally, players in *Double Discard* situations are not able to give tricky-looking *Finesses*, because they will just be interpretted as a stall instead. However, from *High Value Principle*, you can know that a player in a *Double Discard* situation is NOT giving a "stall" clue if there is some other better clue available for them to give. Thus, players in *Double Discard* situations are still often able to make *Finesses* happen. See the priority column of the below table.
+* Normally, players in *Double Discard* situations are not able to give tricky-looking *Finesses*, because they will be interpretted as a stall instead. However, from *High Value Principle*, you can know that a player in a *Double Discard* situation is NOT giving a "stall" clue if there is some other better clue available for them to give. Thus, players in *Double Discard* situations are still often able to make *Finesses* happen. See the priority column of the below table for an explicit ranking of what constitutes a "better" clue.
 
 ### Allowable Stall Clues
 
@@ -539,8 +539,7 @@ a lie or mistake. It is a *Load Clue* because it is loading the player up with s
 * Generally speaking, it is a bad situation when someone's hand gets fully clued. This is also known as being *Locked*, and it should be avoided if possible. However, sometimes it cannot be helped, like when a player draws three 5's in a row.
 * A player with a fully clued hand may give a low-value clue because they are not sure that they can play anything (and they can't discard because their hand is fully clued). Similar to a *Double Discard* situation, players should not read too closely into any clues given during this state.
 * If the team is out of clues and someone's hand is fully clued, then you HAVE to discard to generate a clue for them. Similarly, if there is only 1 clue left, you cannot steal it from them.
-* When a player is in a *Locked Hand* situation, everyone understands that they might be giving a "stall" clue. However, there are limits - they are not allowed to just clue anything they want. See the "Allowable Stall Clues" section above.
-* Players with a *Locked Hand* gain the special ability to save any card on chop. This is called a *Locked Hand Save*. However, they can only do this if there are no higher priority clues available. (See the priority column in the "Allowable Stall Clues" section above.)
+* Players with a *Locked Hand* gain the special ability to save any card on chop. This is called a *Locked Hand Save*. However, they can only do this if there are no higher priority clues available. See the "Allowable Stall Clues" section above.
 
 ### The Anxiety Play (Forcing a Locked Player to Play)
 
@@ -552,8 +551,7 @@ a lie or mistake. It is a *Load Clue* because it is loading the player up with s
 
 * At the beginning of the game, you start with 8 clues. This section only applies to situations where you climb to 8 clues in the middle of the game.
 * A player who has a turn with 8 clues in the bank may give a low-value clue because they are not sure that they can play anything (and they can't discard because the game does not allow you to discard while at 8 clues). Similar to a *Double Discard* or a *Locked Hand* situation, players should not read too closely into any clues given during this state.
-* When a player is at 8 cluesn, everyone understands that they might be giving a "stall" clue. However, there are limits - they are not allowed to just clue anything they want. See the "Allowable Stall Clues" section above.
-* Players at 8 clues gain the special ability to save any card that they want, on OR off chop, as long as the card is not freshly drawn. This is called an *8 Clue Save*. However, similar to a *Locked Hand Save*, they can only do this if there are no higher priority clues available. (See the priority column in the "Allowable Stall Clues" section above.)
+* Players at 8 clues gain the special ability to save any card that they want, on OR off chop, as long as the card is not freshly drawn. This is called an *8 Clue Save*. However, similar to a *Locked Hand Save*, they can only do this if there are no higher priority clues available. See the "Allowable Stall Clues" section above.
 
 <br />
 
