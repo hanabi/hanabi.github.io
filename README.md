@@ -512,7 +512,7 @@ a lie or mistake. It is a *Load Clue* because it is loading the player up with s
   * Cathy sees that if this was a *Tempo Clue Chop Move*, it would be saving the blue 1, which is useless. Thus, for both the red 2 and the red 5 to be playable, Cathy must have both the red 3 and the red 4 on *Finesse Position*.
   * Cathy blind-plays red 3.
 
-### Avoiding Double Discards (Level 1 Stalling)
+### Avoiding Double Discards (Level 2 Stalling)
 
 * If the player before you just discarded a card (say the red 4), and you don't see that card in anyone else's hand, there is a possibility that you could have that same card on your chop. In this example, if you discarded, both red 4's could be lost and your team would not be able to get a perfect score. This is called *Double Discarding*.
 * Since *Double Discarding* can "lose" the game, you should give any decent clue that you can. If there are no clues to give, you are even allowed to give "stall" clues; see below.
@@ -524,17 +524,17 @@ a lie or mistake. It is a *Load Clue* because it is loading the player up with s
 
 * In certain special situations, everyone understands that a player might be giving a "stall" clue. However, there are limits - they are not allowed to just clue anything they want. These are the specific clues that they are allowed to give along with the priority of each clue:
 
-| Priority | Type of Clue | Double Discard<br />(Level 1) | Locked Hand<br />(Level 2) | 8 Clues<br />(Level 3)
-| -------- | ------------ | ----------------------------- | -------------------------- | ----------------------
-| 1        | Normal *Play Clues* or *Save Clues*                 | ✔ | ✔ | ✔
-| 2        | *5 Stall* (cluing off-chop 5's)                     | ✔ | ✔ | ✔
-| 3        | *Tempo Clue* (re-cluing a card to make it play)     | ✔ | ✔ | ✔
-| 4        | *Locked Hand Save* (saving any card on chop)        | ❌ | ✔ | ✔
-| 5        | *8 Clue Save* (saving any card off chop)            | ❌ | ❌ | ✔
-| 6        | Filling in extra info on unplayable "mystery" cards | ✔ | ✔ | ✔
-| 7        | *Hard Burn* (re-cluing 5's)                         | ✔ | ✔ | ✔
+| Priority | Type of Clue | Early Game<br />(Level 1) | Double Discard<br />(Level 2) | Locked Hand<br />(Level 3) | 8 Clues<br />(Level 4)
+| -------- | ------------ | --- | --- | --- | ---
+| 1        | Normal *Play Clues* or *Save Clues*                 | ✔ | ✔ | ✔ | ✔
+| 2        | *5 Stall* (cluing off-chop 5's)                     | ✔ | ✔ | ✔ | ✔
+| 3        | *Tempo Clue* (re-cluing a card to make it play)     | ❌ | ✔ | ✔ | ✔
+| 4        | *Locked Hand Save* (saving any card on chop)        | ❌ | ❌ | ✔ | ✔
+| 5        | *8 Clue Save* (saving any card off chop)            | ❌ | ❌ | ❌ | ✔
+| 6        | Filling in extra info on unplayable "mystery" cards | ❌ | ✔ | ✔ | ✔
+| 7        | *Hard Burn* (re-cluing 5's)                         | ❌ | ✔ | ✔ | ✔
 
-### Locked Hands (Level 2 Stalling)
+### Locked Hands (Level 3 Stalling)
 
 * Generally speaking, it is a bad situation when someone's hand gets fully clued. This is also known as being *Locked*, and it should be avoided if possible. However, sometimes it cannot be helped, like when a player draws three 5's in a row.
 * A player with a fully clued hand may give a low-value clue because they are not sure that they can play anything (and they can't discard because their hand is fully clued). Similar to a *Double Discard* situation, players should not read too closely into any clues given during this state.
@@ -547,7 +547,7 @@ a lie or mistake. It is a *Load Clue* because it is loading the player up with s
 * A better way to signal this information is to deliberately leave them at 0 clues. By convention, this means that one of their cards is actually playable. If there is more than one option, then they should know that the left-most is playable. (This follows from *Left-Most Playable Principle*.)
 * This is called an *Anxiety Play* because you are putting the *Locked* player in a "do or die" situation.
 
-### Clues Given While at 8 Clues (Level 3 Stalling)
+### Clues Given While at 8 Clues (Level 4 Stalling)
 
 * At the beginning of the game, you start with 8 clues. This section only applies to situations where you climb to 8 clues in the middle of the game.
 * A player who has a turn with 8 clues in the bank may give a low-value clue because they are not sure that they can play anything (and they can't discard because the game does not allow you to discard while at 8 clues). Similar to a *Double Discard* or a *Locked Hand* situation, players should not read too closely into any clues given during this state.
