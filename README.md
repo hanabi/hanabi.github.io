@@ -524,7 +524,7 @@ a lie or mistake. It is a *Load Clue* because it is loading the player up with s
 
 * In certain special situations, everyone understands that a player might be giving a "stall" clue. However, there are limits - they are not allowed to just clue anything they want. These are the specific clues that they are allowed to give along with the priority of each clue:
 
-| Priority | Type of Clue | Early Game<br />(Level 1) | Double Discard<br />(Level 2) | Locked Hand<br />(Level 3) | 8 Clues<br />(Level 4)
+| Priority | Type of Clue | Early Game (Level 1) | Double Discard (Level 2) | Locked Hand (Level 3) | 8 Clues (Level 4)
 | -------- | ------------ | --- | --- | --- | ---
 | 1        | Normal *Play Clues* or *Save Clues*                 | ✔ | ✔ | ✔ | ✔
 | 2        | *5 Stall* (cluing off-chop 5's)                     | ✔ | ✔ | ✔ | ✔
