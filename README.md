@@ -1623,8 +1623,8 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### Ejection
 
-* *Ejection* refers to a move like a *Finesse*, but instead of playing your *Finesse Position* card, you instead play your *Second Finesse Position* card. (For example, if your hand is completely unclued, your *Second Finesse Position* is slot 2.)
-* Certain types of "wasted" clues signal an *Ejection*.
+* *Ejection* refers to a move like a *Bluff*, but instead of playing an unrelated card from *Finesse Position*, someone plays an unrelated card from their *Second Finesse Position*. For example, if a player's hand hand is completely unclued, their *Second Finesse Position* is slot 2.
+* Certain types of "wasted" clues with no other purpse signal an *Ejection*.
 
 #### Dupe Ejection
 
