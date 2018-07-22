@@ -712,12 +712,15 @@ This section is unique in that it contains things that are separate from actual 
   * Bob clues red to Cathy, filling in the already-touched 1 as red 1, as well as touching a new card, which must be red 2.
   * Cathy discards the known red 1 as a *Gentleman's Discard*.
   * Alice blind-plays her *Finesse Position* card as red 1.
-* The *Gentleman's Discard* essentially transfers a card to another player on the team. However, it has a cost: if the card is currently playable, it costs the team tempo, because it will take longer to play the card.
-* Thus, a *Gentleman's Discard* is only good if there is some other side benefit to offset the lost tempo. The following are the four main reasons that people do *Gentleman's Discards*:
-  1) To extend the *Early Game*. You usually want to extend the *Early Game* for as long as possible, and doing a *Gentleman's Discard* both generates a clue and does not count as ending the *Early Game*.
-  2) You want to protect another player's chop. By getting them to blind-play a card, they will not be discarding, and this "protects" their chop from being discarded for at least one go-around of the table.
-  3) You want to protect your own chop. Say that your card is playable through someone else's cards that have not been played yet. In this situation, if you discard your chop, the team could be losing some high-value one-away card. But if you transfer a card to someone else, it gives you something "safe" to do.
-  4) It gets a "free" card as a *Layered Gentleman's Discard*. (This is a more advanced move that is covered later on.)
+* Here are some situations where this move is useful:
+  * To extend the *Early Game*. You usually want to extend the *Early Game* for as long as possible, and doing a *Gentleman's Discard* both generates a clue and does not count as ending the *Early Game*.
+  * You want to protect another player's chop since they do not have a play. By getting them to blind-play a card, they will not be discarding, and this "protects" their chop from being discarded for at least one go-around of the table.
+* The *Gentleman's Discard* always transfers a card to another player without using a clue, so it is efficient. However, it may still cost tempo.
+  * The next card of the same suit may be delayed a round because of the player seating order.
+  * The player with the other copy may be able to play something else, but now needs to play into this move first. This loses tempo on those other cards and any cards they play into.
+* A *Gentleman's Discard* that loses tempo might still be good if there is some other side benefit to offset the lost tempo. The following are a few examples:
+  * You want to protect your own chop. Say that your card is playable through someone else's cards that have not been played yet. In this situation, if you discard your chop, the team could be losing some high-value one-away card. But if you transfer a card to someone else, it gives you something "safe" to do.
+  * It gets a "free" card as a *Layered Gentleman's Discard*. (This is a more advanced move that is covered later on.)
 
 ### The Baton Discard
 
