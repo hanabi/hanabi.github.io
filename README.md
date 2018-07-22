@@ -1239,7 +1239,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * This convention applies to the *Rainbow Suit (one of each)* variant.
 * Players should save rainbow cards with a number clue.
 * There are two exceptions to this:
-  * if the color clue also touched another critical card
+  * if the color clue also touched another critical card (that is not rainbow)
   * if the color is a stack that is completely played already
 
 <br />
