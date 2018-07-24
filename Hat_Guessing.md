@@ -92,3 +92,25 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 | 6       | discard 2 | 1 player away  | color clue not on newest card
 | 7       | discard 3 | 2 players away | number clue which is not 1 and doesn't hit newest card
 | 8       | discard 4 | 2 players away | color clue not on newest card 
+
+## Other Conventions
+
+### Discarding Threshold
+
+* The discard "threshold" is set to 3 clues.
+* When a clue-giver gives a clue:
+  * If there are >= 4 clues in the bank, then no discard actions can be given. "Give clue" actions will be given instead.
+  * If there are <= 3 clues in the bank, a discard action will be given if a player has no playable cards and one or more *Trash* cards in their hand.
+
+### Play Priority
+
+* If a player has two or more playable cards, the action priority is as follows:
+  * 5's
+  * Lowest rank
+  * Left-most
+* (This is similar to *Priority* in the "normal" conventions.)
+
+### Discard Priority
+
+* If a player has two or more trash cards and are ordered to discard, then should discard the left-most card.
+* (This is similar to *Trash Priority* in the "normal" conventions.)
