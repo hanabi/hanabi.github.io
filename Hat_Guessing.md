@@ -107,7 +107,7 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 
 * The discard "threshold" is set to 3 clues.
 * When a clue-giver gives a clue:
-  * If there are >= 4 clues in the bank, then no discard actions can be given. "Give clue" actions will be given instead.
+  * If there are >= 4 clues in the bank, then no discard actions can be given. "Give clue" actions will be given instead to players who have no playable cards.
   * If there are <= 3 clues in the bank, a discard action will be given if a player has no playable cards and one or more *Trash* cards in their hand.
 
 ### Play Priority
