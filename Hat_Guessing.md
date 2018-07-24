@@ -116,9 +116,7 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
   * 5's
   * Lowest rank
   * Left-most
-* (This is similar to *Priority* in the "normal" conventions.)
 
 ### Discard Priority
 
 * If a player has two or more trash cards, the priority is to discard the left-most card.
-* (This is similar to *Trash Priority* in the "normal" conventions.)
