@@ -113,9 +113,8 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 ### Play Priority
 
 * If a player has two or more playable cards, the priority is as follows:
-  * 5's
-  * Lowest rank
-  * Left-most
+  1) Lowest rank
+  2) Left-most
 
 ### Discard Priority
 
