@@ -4,6 +4,8 @@
 
 This framework is entirely separate from the Hyphen-ated convention framework. This document contains some helpful tools used for humans who are attempting to play with this framework.
 
+<br />
+
 ## Clue Interpretation Table (4 Player and 5 Player)
 
 | # mod 9 | action    | person clued   | type of clue
@@ -17,6 +19,8 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 | 6       | discard 2 | 3 players away | number on newest card
 | 7       | discard 3 | 3 players away | color on newest card
 | 8       | discard 4 | 3 players away | any clue not touching the newest card
+
+<br />
 
 ## Modulus Cheat Sheet
 
@@ -79,6 +83,8 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 
 </td></tr> </table>
 
+<br />
+
 ## Clue Interpretation Table (3 Player)
 
 | # mod 9 | action    | person clued   | type of clue
@@ -92,6 +98,8 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 | 6       | discard 2 | 1 player away  | color clue not on newest card
 | 7       | discard 3 | 2 players away | number clue which is not 1 and doesn't hit newest card
 | 8       | discard 4 | 2 players away | color clue not on newest card 
+
+<br />
 
 ## Other Conventions
 
