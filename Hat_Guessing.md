@@ -109,6 +109,9 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 * When a clue-giver gives a clue:
   * If there are >= 4 clues in the bank, then no discard actions can be given. "Give clue" actions will be given instead to players who have no playable cards.
   * If there are <= 3 clues in the bank, a discard action will be given if a player has no playable cards and one or more *Trash* cards in their hand.
+* There is an exception to the >= 4 clues rule above:
+  * If the last player in the action chain has one or more *Trash* cards, then you should tell them to discard instead of giving a clue.
+  * This gives them the flexibility to discard or give a clue at their discretion.
 
 ### Play Priority
 
