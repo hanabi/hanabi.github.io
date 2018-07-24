@@ -101,6 +101,25 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 
 <br />
 
+## Clue Interpretation Table (5 Player - Experimental)
+
+| # mod 9 | action    | person clued   | type of clue
+| ------- | --------- | -------------- | -------------
+| 0       | give clue       | 1 player away  | number on newest card
+| 1       | play 1          | 1 player away  | color on newest card
+| 2       | play 2          | 1 player away  | any clue not touching the newest card
+| 3       | play 3          | 2 player away  | number on newest card
+| 4       | play 4          | 2 players away | color on newest card
+| 5       | discard 1       | 2 players away | any clue not touching the newest card
+| 6       | discard 2       | 3 players away | number on newest card
+| 7       | discard 3       | 3 players away | color on newest card
+| 8       | discard 4       | 3 players away | any clue not touching the newest card
+| 9       | play 1 + play 2 | 4 players away | number on newest card
+| 10      | play 1 + play 3 | 4 players away | color on newest card
+| 11      | play 1 + play 4 | 4 players away | any clue not touching the newest card
+
+<br />
+
 ## Other Conventions
 
 ### Discarding Threshold
