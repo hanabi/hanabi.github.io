@@ -112,7 +112,7 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 
 ### Play Priority
 
-* If a player has two or more playable cards, the action priority is as follows:
+* If a player has two or more playable cards, the priority is as follows:
   * 5's
   * Lowest rank
   * Left-most
@@ -120,5 +120,5 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 
 ### Discard Priority
 
-* If a player has two or more trash cards and are ordered to discard, then should discard the left-most card.
+* If a player has two or more trash cards, the priority is to discard the left-most card.
 * (This is similar to *Trash Priority* in the "normal" conventions.)
