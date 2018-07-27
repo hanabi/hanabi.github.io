@@ -1152,6 +1152,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 * This convention applies to the *Black Suit (one of each)* and *Wild & Crazy* variants.
 * Building on the *3 Bluffs* convention, we also agree that is possible for a card that initiates a *Bluff* to be a copy of black 4.
+* However, it is only possible to do this with a black color clue.
 
 ### The Free Choice Finesse
 
