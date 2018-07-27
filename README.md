@@ -1279,6 +1279,17 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Bob sees that Alice does indeed already have the red 4 in her hand, so from his perspective, if Alice was performing a *Generation Discard*, it was unnecessary.
   * However, it could also be the case that Bob's chop is unsafe. So, Bob will NOT clue the red 4 on Cathy's chop, but he WILL spend the clue in some other productive fashion. If Bob has nothing productive to do, he must "burn" a clue, similar to what happens when a *Scream Discard* occurs.
 
+### The Generational Scream Discard
+
+* In rare cases, it is possible for a discard to be both a *Scream Discard* and a *Generation Discard* at the same time, for two different players.
+* For example, in a 4-player game:
+  * There are 0 clues in the bank.
+  * Alice needs to plan ahead for her turn.
+  * Bob and Donald both have a critical chop card. Cathy has a safe discard.
+  * Alice and Bob both have one known playable card in their hand. 
+  * So, if Alice plays, Bob will perform a *Generation Discard*, and discard a critical card. This is not an option.
+  * Therefore, Alice must discard. This is a *Scream Discard* to Bob, and he should *Chop Move*. It is also a *Generation Discard* to Cathy, and she should not *Chop Move*.
+
 ### Double Tempo Clue Inversion (Immediate Double Clue)
 
 * If you are clued the exact same thing twice before it gets to be your turn, it means that you can play ALL of the cards that the clue applies to, but in the opposite order than normal (right-to-left, since you would normally play cards from left-to-right).
