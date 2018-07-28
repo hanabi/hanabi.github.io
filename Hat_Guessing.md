@@ -90,8 +90,8 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 | # mod 9 | action    | person clued   | type of clue
 | ------- | --------- | -------------- | -------------
 | 0       | give clue | 1 player away  | number on newest card
-| 1       | discard 5 | 1 player away  | color on newest card
-| 2       | play 2    | 1 player away  | number clue which is not 1 and doesn't hit newest card
+| 1       | play 1    | 1 player away  | color on newest card
+| 2       | discard 5 | 1 player away  | number clue which is not 1 and doesn't hit newest card
 | 3       | play 3    | 1 player away  | color clue not on newest card
 | 4       | play 4    | 2 players away | number on newest card
 | 5       | play 5    | 2 players away | color on newest card
