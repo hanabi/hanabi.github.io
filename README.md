@@ -1775,7 +1775,7 @@ n/a
 | The Distribution Clue | Libster
 | The Elimination Riding Deduction Bluff | Duneaught
 | Self-Elimination Finesse Priority | 910dan
-| Multiple-card Trash Bluff | Zamiel & Antizoubilamaka
+| Multiple-card Trash Bluff | Zamiel
 | Play Elimination | Zamiel
 | Double Discard Elimination | Zamiel
 | The No-Information Double Finesse & The No-Information Double Bluff | Zamiel
