@@ -358,7 +358,7 @@ Note that in this user interface, players are holding their hands like they woul
 
 ### A Priority Flowchart (For Choosing Between 2+ Playable Cards)
 
-*Priority* can sometimes be confusing. [Here is a handy flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/priority_flowchart.png) that shows, in general, which card should be played when there is a choice between two cards.
+* Priority* can sometimes be confusing. [Here is a handy flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/priority_flowchart.png) that shows, in general, which card should be played when there is a choice between two cards.
 
 ### The Load Clue
 
@@ -858,6 +858,10 @@ This section is unique in that it contains things that are separate from actual 
   * Instead, Alice clues an off-chop 5 in Cathy's hand (as number 5).
   * This is to be interpreted as a *Play Clue* on the red 5 (as opposed to a *5 Pull* on some other card).
 * When a player is *Finessed* or *Bluffed*, they are allowed to defer playing the blind card in order to do a *Finesse* or *Bluff* of their own. However, if they could be *Bluffed*, you are NOT allowed to perform a *5 Pull*. (Players are still allowed to defer playing into a *Finesse* in order to do a *5 Pull*.)
+
+### A Flowchart for Cluing 5's in the Early Game
+
+* Differentiating between a *5 Stall* and a *5 Pull* can sometimes be confusing. [Here is a handy flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/early-game-5-flowchart.png) that steps you through how you can tell the difference.
 
 ### The 5 Pull Prompt & The 5 Pull Finesse
 
