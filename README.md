@@ -825,7 +825,7 @@ This section is unique in that it contains things that are separate from actual 
   * Alice discards her chop (slot 5). It is a (playable) red 4.
   * Alice knows that the team was not busy, so she must have the other copy of red 4.
   * Alice writes *Elimination Notes* on slots 2, 3, 4, and 5. (It can't be on slot 1, since that is the card she just drew.)
-  * Bob clues Alice yellow, which touches slots 1, 2, 3, and 4. (This is a *Play Clue* on slot 1.)
+  * Bob clues Alice blue, which touches slots 1, 2, 3, and 4. (This is a *Play Clue* on slot 1.)
   * Alice erases her *Elimination Notes* from slots 2, 3, and 4.
   * The only card left with an *Elimination Note* is slot 5.
   * Alice blind-plays red 4 from slot 5 on her next turn.
