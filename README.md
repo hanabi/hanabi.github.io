@@ -1633,6 +1633,12 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * However, in some situations, the player who has been screamed at sees that if they give a clue, the next player will be left at 0 clues and will be forced to discard a critical card.
 * Thus, in this situation, the player should chop move as normal and then discard their new chop, which will functionally act as a second *Scream Discard*. This second *Scream Discard* is called a *Rebellious Discard*, because they are not doing what they are told.
 
+### The Redundant 5's Chop Move
+
+* Players that have two or more clued 1's in their hand will often use the *Order Chop Move* to *Chop Move* a 5 on the next player's chop.
+* Subsequently, if a player with two or more clued 1's in their hand does not play a 1 and instead clues a single 5 on the next player's chop, this is very strange.
+* In this situation, if there is nothing else special going on, the player who got clued the 5 should *Chop Move* the card next to the 5.
+
 ### The Trash Push Prompt & The Trash Push Finesse
 
 * If you see that a player *Trash Pushes* an unplayable one-away card, it is a signal to you that you have the connecting card.
@@ -1701,6 +1707,12 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 * Given enough negative clues on a card (and potentially some ancillary information based on the history of the game), it is possible to narrow down the identity of an unclued card in your hand to possibilities that only include playable cards that are not already touched in someone else's hand.
 * In this situation, you are expected to blind-play the card.
+
+### The Negative Self-Chop Move
+
+* If a card has negative 1, 2, 3, and 4 on it, then it is explicitly known to be a 5, while not directly clued.
+* In this situation, it would be a waste for the team to waste a clue on it to save it.
+* Thus, the player should self-chop move the card.
 
 ### The Speed-up Clue
 
@@ -1829,3 +1841,7 @@ n/a
 | The 5 Pull | Libster
 | The 5 Pull Promise | Libster
 | Rank Choice Bluff & Rank Choice Finesse | Zamiel
+| The Load Clue | Zamiel
+| The Redundant 5's Chop Move | q
+| The Composition Discard | Libster
+| The Negative Self-Chop Move | Libster
