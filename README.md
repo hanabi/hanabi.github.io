@@ -1055,13 +1055,6 @@ This section is unique in that it contains things that are separate from actual 
   * Alice blind-plays her *Finesse Position* card as red 1, but it is green 1.
   * Alice knows that she is promised the red 1, so she will blind-play her slot 2 on her next turn.
 
-### The Top Hat Clue
-
-* Since the *Layered Gentleman's Discard* is so efficient, clever players that see the opportunity to perform one will almost always want to do so.
-* Thus, it follows that in rare cases, when a teammate gives you a play clue on some card, they DON'T intend for you to play it. They intend for you to see the opportunity for a *Layered Gentleman's Discard*, and then immediately discard the card.
-* This kind of clue is called a *Top Hat Clue* because you are giving them an opportunity to be a gentleman.
-* Note that you should not mistake a *Top Hat Clue* for a clue that initiates a *Layered Finesse*. You are only allowed to discard the card if you can determine its exact identity.
-
 ### The Trash Push
 
 * Normally, when a useless card is clued, it signifies a *Trash Chop Move*. However, what if the useless card is actually the card on chop? Then it wouldn't be chop moving anything.
@@ -1270,6 +1263,13 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 <br />
 
 ## Level 3 - Rarely Used Advanced Strategies
+
+### The Top Hat Clue
+
+* Since the *Layered Gentleman's Discard* is so efficient, clever players that see the opportunity to perform one will almost always want to do so.
+* Thus, it follows that in rare cases, when a teammate gives you a play clue on some card, they DON'T intend for you to play it. They intend for you to see the opportunity for a *Layered Gentleman's Discard*, and then immediately discard the card.
+* This kind of clue is called a *Top Hat Clue* because you are giving them an opportunity to be a gentleman.
+* Note that you should not mistake a *Top Hat Clue* for a clue that initiates a *Layered Finesse*. You are only allowed to discard the card if you can determine its exact identity.
 
 ### Hard Bluffs
 
