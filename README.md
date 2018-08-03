@@ -662,7 +662,7 @@ This section is unique in that it contains things that are separate from actual 
 
 * Sometimes, the player that is supposed to blind-play a card into a *Finesse* is ambiguous. For example, in a 4-player game:
   * Nothing is played on the stacks.
-  * Alice clues Donald about a red 2 as a *Play clue*.
+  * Alice clues Donald about a red 2 as a *Play Clue*.
   * Both Bob AND Cathy have red 1 on their *Finesse Position*.
   * Bob will think that it is a *Reverse Finesse* directed at Cathy, and he will discard.
   * Next, Cathy thinks that Bob made a mistake and "missed" the *Finesse*. Cathy discards.
