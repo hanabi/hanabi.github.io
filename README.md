@@ -900,7 +900,7 @@ This section is unique in that it contains things that are separate from actual 
 * For example, in a 4-player game:
   * Alice has two clued 1's in her hand - red 1 and blue 1.
   * Bob does a *5 Pull* on Donald. Donald knows that the *5 Pulled* card could be either red 2 or blue 2 (if it is a *Delayed Play Clue*).
-  * Cathy clues Alice about a red 3. Now, Donald knows that he is **promised** the red 2 as his *5 Pulled* card (and he no longer has to wait for the purple 1 to come down before blind-playing).
+  * Cathy clues Alice about a red 3. Now, Donald knows that he is **promised** the red 2 as his *5 Pulled* card (and he no longer has to wait for the blue 1 to come down before blind-playing).
 
 ### The Weak Prompt
 
