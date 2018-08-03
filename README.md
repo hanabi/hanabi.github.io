@@ -808,7 +808,6 @@ This section is unique in that it contains things that are separate from actual 
 * Normally, your teammates would never let you discard anything important. So when you discard some playable card (or a needed 2) AND that card is not in anyone else's hand, you might think that the team make a mistake.
 * From *High Value Principle*, you should never assume your teammates are making a mistake. One excellent reason that they would let you discard an important card is that you have the other copy in your hand. (In order to satisfy *Good Touch Principle*, they had to wait for you to discard it so that they would not duplicate the card.)
 * Thus, when you get a follow-up clue, you will know exactly what card it is.
-* In other situations, your teammates will choose to NOT to give any follow-up clues. After a few more discards, you should know exactly what card it is and be able to blind-play it.
 * For example, in a 4-player game:
   * Red 3 is played on the stacks.
   * Alice has a completely unclued hand.
@@ -819,7 +818,18 @@ This section is unique in that it contains things that are separate from actual 
   * Normally, Alice would play the left-most card (slot 1) as red 4. However, because of the *Elimination Notes*, she knows that the red 4 must be on slot 2.
   * However, the focus of the clue is on slot 1, so slot 1 must also be playable.
   * Alice plays red 4 first from slot 2. Alice goes on to play the other red card as red 5 on her next turn.
-* Note that players should not always make *Elimination Notes*. In rare cases, games can be extremely busy, leaving no reasonable way to get the playable card.
+* In other situations, your teammates will choose to NOT to clue the card directly. But once the *Elimination Notes* are whittled down, you should be able to blind-play it.
+* For example, in a 4-player game:
+  * Red 3 is played on the stacks.
+  * Alice has a completely unclued hand.
+  * Alice discards her chop (slot 5). It is a (playable) red 4.
+  * Alice knows that the team was not busy, so she must have the other copy of red 4.
+  * Alice writes *Elimination Notes* on slots 2, 3, 4, and 5. (It can't be on slot 1, since that is the card she just drew.)
+  * Bob clues Alice yellow, which touches slots 1, 2, 3, and 4.
+  * Alice erases her *Elimination Notes* from slots 2, 3, and 4.
+  * The only card left with an *Elimination Note* is slot 5.
+  * Alice blind-plays red 4 from slot 5 on her next turn.
+* One last thing to note is that players should not always make *Elimination Notes* when they discard a playable card. In rare cases, games can be extremely busy, leaving no reasonable way to get the playable card, so you always have to keep that in mind.
 
 ### The Elimination Riding Deduction
 
