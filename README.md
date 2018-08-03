@@ -781,17 +781,17 @@ This section is unique in that it contains things that are separate from actual 
     * **Color mismatch (valid):**
       * On the first turn of the game, Alice clues Cathy red, which touches a red 3.
       * Bob blind-plays blue 1.
-      * Cathy knows that it is either a red 2 (if it was a normal *Bluff*) or a red 3 (if it was a *3 Bluff*).
+      * Cathy knows that it is either a red 2 (if it was a normal *Bluff*) or a red 3 (if it was a *3 Bluff*). She marks down both of the possibilities for later.
     * **Number 3 with suit mismatch (valid):**
       * On the first turn of the game, Alice clues Cathy number 3, which touches a red 3.
-      * Bob blind-plays Blue 1.
+      * Bob blind-plays blue 1.
       * Cathy knows that it was a *3 Bluff*, because a played 1 does not "match" number 3.
       * Beyond that, Cathy knows nothing about the card, besides that it is a 3 (since it has a number 3 clue on it).
     * **Color match (NOT valid; looks like a Double Finesse):**
       * On the first turn of the game, Alice clues Cathy red, which touches a red 3.
       * Bob blind-plays red 1.
-      * Cathy sees that Bob does not have red 2, so since red matches red, Cathy assumes that she has the red 2.
-      * Cathy misplays red 3 as Red 2.
+      * Cathy sees that Bob does not have red 2. Since red matches red, Cathy assumes that she has the red 2.
+      * Cathy misplays red 3 as red 2.
       * Alternatively, if Cathy saw that Bob had both red 1 and red 2 on *Finesse Position* at the time the clue was given, she would know that she has the red 2 OR the red 3. Subsequently, Bob is promised a red 2, since if he does not blind-play a card, Cathy will go on to misplay the red 3 as red 2.
     * **Number 3 with suit match (valid):**
       * On the first turn of the game, Alice clues Cathy number 3, which touches a red 3.
@@ -799,7 +799,7 @@ This section is unique in that it contains things that are separate from actual 
       * Cathy knows that it was a *3 Bluff*, because a played 1 does not "match" number 3.
       * Beyond that, Cathy knows nothing about the card, besides that it is a 3 (since it has a number 3 clue on it).
       * Even though red 1 and red 3 are the same suit, Bob is not promised a red 2, because if he does nothing, Cathy will not go on to misplay the red 3.
-* The priority of *3 Bluffs* can be confusing. There are two main ways that you can tell whether something is a *3 Bluff* or not. You can ask:
+* The priority of *3 Bluffs* can be confusing. If you don't want to memorize the four examples above, you can simply ask the following questions:
   1) Does the clue "match" the blind-play? If it matches, then it is a *Finesse*. If it doesn't match, then it is a *Bluff*. Red matches red, but red does NOT match blue. 2 matches 3, but 1 does NOT match 3.
   2) Will the player who recieved the clue go on to misplay if nothing else is blind-played? If yes, then it is a *Finesse*. If no, then it is a *Bluff*.
 
