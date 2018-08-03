@@ -891,7 +891,7 @@ This section is unique in that it contains things that are separate from actual 
 
 * *5 Pulls* are also allowed to initiate a *Prompt* or *Finesse*.
 * However, *5 Pulls* are NOT allowed to initiate a *Reverse Finesse*.
-* With that said, players DO have to respect that forward *5 Pull Finesses* could be layered/clandestine.
+* With that said, players DO have to respect that forward *5 Pull Finesses* could be *Layered*/*Clandestine*. (This terminology is covered later on.)
 
 ### The 5 Pull Promise (Followup Play Clue After a 5 Pull)
 
