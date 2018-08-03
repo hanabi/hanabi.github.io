@@ -1690,6 +1690,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * If none of the stacks are finished and someone clues a trash card, it might look like a *Trash Bluff*. But, if the *Finesse Position* card is played, then the player will think that the card is actually a useful 1-away card (instead of trash).
 * Since that would be a lie, the clue must have some other purpose - it should signal an *Ejection* on the very next player.
 * Since the *Second Finesse Position* card was played instead of the *Finesse Position* card, then the player who received the clue will know that the card is trash.
+* With the *Trash Bluff*, if multiple cards are clued, it means that ALL of the cards are trash. However, with *Unknown Trash Ejection*, if multiple cards are clued, only the focus of the clue is trash.
 
 ### The Dump Truck
 
