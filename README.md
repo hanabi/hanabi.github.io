@@ -75,7 +75,7 @@ While there are some weird strategies that could throw you for a loop if you hav
 
 * A safe discard is defined as:
   * a copy of a card that has already been played
-  * a copy of a card that already has a clue on it
+  * a copy of a card that is in someone's hand and has been clued
 * Safe discards should NOT be clued (unless there's an important reason to).
 * Players should generally assume that any clued card in their hand will be eventually be played.
 
