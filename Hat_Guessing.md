@@ -122,3 +122,38 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 ### Discard Priority
 
 * If a player has two or more trash cards, the priority is to discard the left-most card.
+
+## Other Clue Interpretation Tables
+
+### 3 Player with Acid Trip
+
+# mod 11 | action    | person clued   | type of clue
+---------+-----------+----------------+--------------
+0        | give clue | 1 player away  | clue blue
+1        | play 1    | 1 player away  | clue green
+2        | play 2    | 1 player away  | clue yellow
+3        | play 3    | 1 player away  | clue red
+4        | play 4    | 1 player away  | clue purple
+5        | play 5    | 1 player away  | clue orange
+6        | discard 1 | 2 players away | clue blue
+7        | discard 2 | 2 players away | clue green
+8        | discard 3 | 2 players away | clue yellow
+9        | discard 4 | 2 players away | clue red
+10       | discard 5 | 2 players away | clue purple
+
+### Hyphen-ated Framework Empty Clue
+
+# mod 11 | type of clue  | action
+---------+---------------+--------------
+0        | clue blue     | play 1
+1        | clue green    | play 2
+2        | clue yellow   | play 3
+3        | clue red      | play 4
+4        | clue purple   | play 5
+5        | clue number 1 | discard 1
+6        | clue number 2 | discard 2
+7        | clue number 3 | discard 3
+8        | clue number 4 | discard 4
+9        | clue number 5 | discard 5
+
+
