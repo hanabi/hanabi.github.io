@@ -130,7 +130,7 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 ### 3 Player with Acid Trip
 
 | # mod 11 | action    | person clued   | type of clue
-| ---------+-----------+----------------+--------------
+| -------- | --------- | -------------- | --------------
 | 0        | give clue | 1 player away  | clue blue
 | 1        | play 1    | 1 player away  | clue green
 | 2        | play 2    | 1 player away  | clue yellow
@@ -146,7 +146,7 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 ### Hyphen-ated Framework Empty Clue
 
 | # mod 11 | type of clue  | action
-| ---------+---------------+--------------
+| -------- | ------------- | -------
 | 0        | clue blue     | play 1
 | 1        | clue green    | play 2
 | 2        | clue yellow   | play 3
