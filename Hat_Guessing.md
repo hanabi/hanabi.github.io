@@ -143,6 +143,8 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 | 9        | discard 4 | 2 players away | clue red
 | 10       | discard 5 | 2 players away | clue purple
 
+<br />
+
 ### Hyphen-ated Framework Empty Clue
 
 | # mod 10 | action    | type of clue
