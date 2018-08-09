@@ -145,15 +145,15 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 
 ### Hyphen-ated Framework Empty Clue
 
-| # mod 11 | type of clue  | action
-| -------- | ------------- | -------
-| 0        | clue blue     | play 1
-| 1        | clue green    | play 2
-| 2        | clue yellow   | play 3
-| 3        | clue red      | play 4
-| 4        | clue purple   | play 5
-| 5        | clue number 1 | discard 1
-| 6        | clue number 2 | discard 2
-| 7        | clue number 3 | discard 3
-| 8        | clue number 4 | discard 4
-| 9        | clue number 5 | discard 5
+| # mod 10 | action    | type of clue
+| -------- | --------- | -------------
+| 0        | play 1    | clue blue
+| 1        | play 2    | clue green
+| 2        | play 3    | clue yellow
+| 3        | play 4    | clue red
+| 4        | play 5    | clue purple
+| 5        | discard 1 | clue number 1
+| 6        | discard 2 | clue number 2
+| 7        | discard 3 | clue number 3
+| 8        | discard 4 | clue number 4
+| 9        | discard 5 | clue number 5
