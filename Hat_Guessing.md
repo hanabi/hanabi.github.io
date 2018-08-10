@@ -149,13 +149,13 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 
 | # mod 10 | action    | type of clue
 | -------- | --------- | -------------
-| 0        | play 1    | clue blue
-| 1        | play 2    | clue green
-| 2        | play 3    | clue yellow
-| 3        | play 4    | clue red
-| 4        | play 5    | clue purple
-| 5        | discard 1 | clue number 1
-| 6        | discard 2 | clue number 2
+| 0        | clue      | clue blue
+| 1        | play 1    | clue green
+| 2        | play 2    | clue yellow
+| 3        | play 3    | clue red
+| 4        | play 4    | clue purple
+| 5        | play 5    | clue number 1
+| 6        | discard 1 | clue number 2
 | 7        | discard 3 | clue number 3
 | 8        | discard 4 | clue number 4
 | 9        | discard 5 | clue number 5
