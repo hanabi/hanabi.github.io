@@ -145,7 +145,11 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 
 <br />
 
-### Hyphen-ated Framework Empty Clue
+## Hyphen-ated Framework with Empty Clues
+
+Separate from Hat Guessing, we can use a Hat-Guessing-like extension tacked on to the existing Hyphen-ated convention framework.
+
+### Empty Clue Interpretation Table 
 
 | # mod 10 | action    | type of clue
 | -------- | --------- | -------------
@@ -159,3 +163,12 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 | 7        | discard 3 | clue number 3
 | 8        | discard 4 | clue number 4
 | 9        | discard 5 | clue number 5
+
+## Empty Clue Play Priority
+
+* In normal Hat Guessing, whether or not a card has a clue on it is irrelevant.
+* In the empty clue convention, the priority is as follows:
+  1) unclued & unknown cards
+  2) clued & unknown cards (includes cards from finesses)
+  3) clued & known cards
+* If there are more than one card that meets the above criteria, the normal Hat Guessing play priority is used.
