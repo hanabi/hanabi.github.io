@@ -153,7 +153,7 @@ Separate from Hat Guessing, we can use a Hat-Guessing-like extension tacked on t
 
 | # mod 5  | action    | number clue | color clue
 | -------- | --------- | ----------- | -----------
-| 0        | clue      | 5           | purple
+| 0        | play 5    | 5           | purple
 | 1        | play 1    | 1           | blue
 | 2        | play 2    | 2           | green
 | 3        | play 3    | 3           | yellow
