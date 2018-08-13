@@ -1,6 +1,6 @@
 # The Hat-Guessing Convention Framework
 
-[Floris van Doorn](https://github.com/fpvandoorn/) created [a convention framework called Hat-Guessing](https://github.com/fpvandoorn/hanabi/blob/master/doc_hat_player.md). This is based on the paper [How to Make the Perfect Fireworks Display: Two Strategies for Hanabi](https://www.researchgate.net/publication/297678249_How_to_Make_the_Perfect_Fireworks_Display_Two_Strategies_for_Hanabi) by Christopher Cox, Jessica De Silva, Phillip Deorsey, and Josh Tobin.
+[Floris van Doorn](https://github.com/fpvandoorn/) created [a convention framework called Hat-Guessing](https://github.com/fpvandoorn/hanabi/blob/master/doc_hat_player.md). This is based on the paper [How to Make the Perfect Fireworks Display: Two Strategies for Hanabi](https://sites.google.com/site/rmgpgrwc/research-papers/Hanabi_final.pdf?attredirects=0) by Christopher Cox, Jessica De Silva, Phillip Deorsey, and Josh Tobin.
 
 This framework is entirely separate from the Hyphen-ated convention framework. This document contains a basic description of how it works and has some helpful tools for people attempting to play with it.
 
@@ -181,8 +181,25 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 
 ## Hyphen-ated Framework with Empty Clues
 
-* Separate from Hat-Guessing, we can use a Hat-Guessing-like extension tacked on to the existing Hyphen-ated convention framework.
-* When an empty clue is given, players drop everything else that they are doing and perform one round of of blind-plays (and/or blind-discards).
+### A Short History of Empty Clues
+
+* In Hanabi, it is generally assumed that you will give clues that "touch" one or more cards in someone else's hand. But what if you want to give a clue that touches NO cards in the hand? We refer to this as an "empty" clue.
+* Empty clues are useful because they give negative information to all other cards in the hand. This is especially useful in the "Rainbow" variant, which is played by expert players as an additional challenge. (In this variant, a 6th suit is added to the deck that is touched by all colors.) Empty clues can be used to more easily disambiguate rainbow cards from non-rainbow cards.
+* Hanabi was first released in several European countries. In these initial versions of the game, it is reported that the printed rules do not specifically disallow empty clues, which implies that they are therefore legal.
+* In later American releases of the game, it is reported that some of the rules explicitly disallow empty clues.
+* Empty clues make it easier for players to get a perfect score and can encourage game-breaking strategies, such as the one described in the [2015 paper by Christopher Cox, Jessica de Silva, Philip Deorsey, Franklin H. J. Kenter, Troy Retter, Josh Tobin](https://sites.google.com/site/rmgpgrwc/research-papers/Hanabi_final.pdf?attredirects=0). This could be the reason that the rule was changed between releases.
+* When I contacted Antoine Bauza (the creator of Hanabi) on Twitter, [he was neutral](https://twitter.com/Zamiel_SRL/status/975919901520130048) to the question of whether or not players should allow empty clues.
+* I acknowledge that players should play the game in the way that they find the most fun. With that said, expert players should challenge themselves to not use empty clues. Resorting to empty clues is analogous to using a crutch - good players should be able to get a perfect score without having to resort to them.
+* The online implementations of the game handle empty clues differently:
+  * [Board Game Arena's implementation](https://en.boardgamearena.com/) does allow empty clues.
+  * [Keldon's implemenation](http://keldon.net/hanabi/) does not allow empty clues.
+  * [Hanabi Live's implementation](https://hanabi.live) follows Keldon's lead and disables empty clues by default. However, game creators can allow empty clues an as optional setting when creating a game.
+
+### Using Empty Clues
+
+* Separate from Hat-Guessing, it is also possible to play with a Hat-Guessing-like extension tacked on to the existing Hyphen-ated convention framework.
+* If empty clues are legal, then they can be used as a means to encode multiple actions for the entire team (by using [modular arithmetic](https://en.wikipedia.org/wiki/Modular_arithmetic) in a manner identical to how Hat-Guessing works).
+* When an empty clue is given, players should drop everything that they are doing and perform one round of of blind-plays (and/or blind-discards).
 * Unlike Hat-Guessing, it does not matter which player recieves a clue. If it is possible to give the empty clue to more than one player, then the clue should be given to the player that would benefit the most from the negative information.
 
 <br />
