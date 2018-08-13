@@ -37,7 +37,7 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 * For example, on the first turn of a 4-player game:
   * Alice goes first.
   * Alice tells Bob to give a clue, Cathy to play slot 1, and Donald to play slot 1.
-  * Bob gives a "1" clue by giving color to the newest card of Cathy.
+  * Bob gives a "1" clue (by giving color to the newest card of Cathy).
   * This "1" clue is ONLY giving an action to Alice, since Bob and Cathy are already loaded.
   * In this case, Alice does not need to perform any addition or subtraction. Since only one action is encoded in the clue, Bob is directly telling Alice to play slot 1.
 
