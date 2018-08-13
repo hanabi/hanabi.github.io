@@ -14,13 +14,17 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
   * Alice goes first.
   * Bob has blue 1 on slot 1, Cathy has red 1 on slot 1, and Donald has green 1 on slot 1.
   * So, Alice wants all 3 of her teammates to play slot 1.
-  * From the clue interpretation table below, we see that "play alot 1" is assigned a value of 1.
-  * Alice adds up all of the actions: 1 + 1 + 1 + 1 = 4
-  * Thus, Alice needs to convey "4" to the team, so she clues red to Cathy (color to the newest card on the player two seats away).
+  * From the clue interpretation table below, we see that "play slot 1" is assigned a value of 1.
+  * Alice adds up all of the actions: 1 + 1 + 1 = 3
+  * Thus, Alice needs to convey "3" to the team, so she clues number 1 to Cathy (which is number to the newest card to the player two seats away).
   * Bob comes next and has to figure out which move that Alice has planned for him.
-  * Bob knows that Alice encoded a value of 4.
+  * Bob knows that Alice encoded a value of 3.
   * Bob also can look ahead and see that Cathy will be assigned a value of 1 and Donald will be assigned a value of 1.
-  * 
+  * Bob calculates: 3 - 1 - 1 = 1
+  * Bob blind-plays slot 1.
+  * Cathy performs a similar analysis that Bob does, but it is a bit easier for her. Instead of having to figure out the actions of two future players (Cathy + Donald), she only has to figure out the action of 1 player (Donald) in order to make her calculation.
+  * Cathy plays slot 1.
+  * Donald has the easiest time of all. He does not have to figure out anyone's action. He just has to plug in the values for what the two previous players did in order to determine that he is supposed to play slot 1.
 
 <br />
 
