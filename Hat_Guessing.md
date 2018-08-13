@@ -8,8 +8,8 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 
 ## Basic Description
 
-* In most Hanabi convention frameworks, you clue cards to tell the player to play that card (or discard that card). In Hat Guessing, clues have nothing to do with the cards that are "touched" by the clue.
-* When a player gives a clue in Hat Guessing, they encode actions for all other members of the team within the clue using [modular arithmetic](https://en.wikipedia.org/wiki/Modular_arithmetic).
+* In most Hanabi convention frameworks, you clue cards to tell the player to play that card (or discard that card). In Hat-Guessing, clues have nothing to do with the cards that are "touched" by the clue.
+* When a player gives a clue in Hat-Guessing, they encode actions for all other members of the team within the clue using [modular arithmetic](https://en.wikipedia.org/wiki/Modular_arithmetic).
 * For example, on the first turn of a 4-player game:
   * Alice goes first.
   * Bob has blue 1 on slot 1, Cathy has red 1 on slot 1, and Donald has green 1 on slot 1.
@@ -181,7 +181,11 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 
 ## Hyphen-ated Framework with Empty Clues
 
-Separate from Hat Guessing, we can use a Hat-Guessing-like extension tacked on to the existing Hyphen-ated convention framework.
+* Separate from Hat-Guessing, we can use a Hat-Guessing-like extension tacked on to the existing Hyphen-ated convention framework.
+* When an empty clue is given, players drop everything else that they are doing and perform one round of of blind-plays (and/or blind-discards).
+* Unlike Hat-Guessing, it does not matter which player recieves a clue. If it is possible to give the empty clue to more than one player, then the clue should be given to the player that would benefit the most from the negative information.
+
+<br />
 
 ### Empty Clue Interpretation Table (4-Player and 5-Player)
 
