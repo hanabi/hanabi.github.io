@@ -3,7 +3,7 @@
 ### A Short History of Empty Clues
 
 * In Hanabi, it is generally assumed that you will give clues that "touch" one or more cards in someone else's hand. But what if you want to give a clue that touches NO cards in the hand? We refer to this as an "empty" clue.
-* Empty clues are useful because they give negative information to all other cards in the hand. This is especially useful in the "Rainbow" variant, which is played by expert players as an additional challenge. (In this variant, a 6th suit is added to the deck that is touched by all colors.) Empty clues can be used to more easily disambiguate rainbow cards from non-rainbow cards.
+* Empty clues are useful because they give negative information to all other cards in the hand. This is especially useful in the "Rainbow" variant, which is played by expert players as an additional challenge. (In this variant, a 6th suit is added to the deck that is touched by all colors. Empty clues can be used to more easily disambiguate rainbow cards from non-rainbow cards.)
 * Hanabi was first released in several European countries. In these initial versions of the game, it is reported that the printed rules do not specifically disallow empty clues, which implies that they are therefore legal.
 * In later American releases of the game, it is reported that some of the rules explicitly disallow empty clues.
 * Empty clues make it easier for players to get a perfect score and can encourage game-breaking strategies, such as the one described in the [2015 paper by Christopher Cox, Jessica de Silva, Philip Deorsey, Franklin H. J. Kenter, Troy Retter, Josh Tobin](https://sites.google.com/site/rmgpgrwc/research-papers/Hanabi_final.pdf?attredirects=0). This could be the reason that the rule was changed between releases.
