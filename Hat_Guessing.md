@@ -6,7 +6,7 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 
 <br />
 
-## Clue Interpretation Table (4 Player and 5 Player)
+## Clue Interpretation Table (4-Player and 5-Player)
 
 | # mod 9 | action    | person clued   | type of clue
 | ------- | --------- | -------------- | -------------
@@ -85,7 +85,7 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 
 <br />
 
-## Clue Interpretation Table (3 Player)
+## Clue Interpretation Table (3-Player)
 
 | # mod 9 | action    | person clued   | type of clue
 | ------- | --------- | -------------- | -------------
@@ -149,6 +149,22 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 
 Separate from Hat Guessing, we can use a Hat-Guessing-like extension tacked on to the existing Hyphen-ated convention framework.
 
+### Empty Clue Interpretation Table (4-Player and 5-Player)
+
+| # mod 9  | action    | type of clue
+| -------- | --------- | -------------
+| 0        | clue      | purple
+| 1        | play 1    | number 1
+| 2        | play 2    | number 2
+| 3        | play 3    | number 3
+| 4        | play 4    | number 4 or number 5
+| 5        | discard 1 | blue
+| 6        | discard 2 | green
+| 7        | discard 3 | yellow
+| 8        | discard 4 | red
+
+<br />
+
 ### Empty Clue Interpretation Table (3-Player)
 
 | # mod 5  | action    | number clue | color clue
@@ -158,6 +174,8 @@ Separate from Hat Guessing, we can use a Hat-Guessing-like extension tacked on t
 | 2        | play 2    | 2           | green
 | 3        | play 3    | 3           | yellow
 | 4        | play 4    | 4           | red
+
+<br />
 
 ### Empty Clue Play Priority
 
