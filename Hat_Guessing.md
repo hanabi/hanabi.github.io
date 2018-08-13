@@ -8,12 +8,19 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 
 ## Basic Description
 
-* In most Hanabi 
-* When a player gives a clue, they encode actions for all other members of the team within the one clue.
+* In most Hanabi convention frameworks, you clue cards to tell the player to play that card (or discard that card). In Hat Guessing, clues have nothing to do with the cards that are "touched" by the clue.
+* When a player gives a clue, they encode actions for all other members of the team within the clue.
 * For example, in a 4-player game:
   * Alice goes first.
   * Bob has blue 1 on slot 1, Cathy has red 1 on slot 1, and Donald has green 1 on slot 1.
-  * Alice wants 
+  * So, Alice wants all 3 of her teammates to play slot 1.
+  * From the clue interpretation table below, we see that "play alot 1" is assigned a value of 1.
+  * Alice adds up all of the actions: 1 + 1 + 1 + 1 = 4
+  * Thus, Alice needs to convey "4" to the team, so she clues red to Cathy (color to the newest card on the player two seats away).
+  * Bob comes next and has to figure out which move that Alice has planned for him.
+  * Bob knows that Alice encoded a value of 4.
+  * Bob also can look ahead and see that Cathy will be assigned a value of 1 and Donald will be assigned a value of 1.
+  * 
 
 <br />
 
