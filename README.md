@@ -12,7 +12,7 @@ All document updates are listed in the `#announcements` channel on the [Hanabi D
 
 ## Introduction & Purpose
 
-Hanabi is a fantastic cooperative card game of logic and reasoning. Our group, started by Hyphen-ated, gets online games going regularly. Everything doesn't always go perfectly, but we strive to constantly improve. Naturally, we have also built up a set of conventions that we all agree upon at the beginning of the game so that it is easier to understand what everyone else is doing. As the list of conventions got longer, we wanted to make sure that everything was completely documented in an official capacity.
+[Hanabi](https://boardgamegeek.com/boardgame/98778/hanabi) is a fantastic cooperative card game of logic and reasoning. Our group, started by Hyphen-ated, gets online games going regularly (at the [Hanabi Live](https://hanabi.live) website). Everything doesn't always go perfectly, but we strive to constantly improve. Naturally, we have also built up a set of conventions that we all agree upon at the beginning of the game so that it is easier to understand what everyone else is doing. As the list of conventions got longer, we wanted to make sure that everything was completely documented in an official capacity.
 
 The purpose of this document is:
 
