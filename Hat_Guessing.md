@@ -6,6 +6,17 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 
 <br />
 
+## Basic Description
+
+* In most Hanabi 
+* When a player gives a clue, they encode actions for all other members of the team within the one clue.
+* For example, in a 4-player game:
+  * Alice goes first.
+  * Bob has blue 1 on slot 1, Cathy has red 1 on slot 1, and Donald has green 1 on slot 1.
+  * Alice wants 
+
+<br />
+
 ## Clue Interpretation Table (4-Player and 5-Player)
 
 | # mod 9 | action    | person clued   | type of clue
