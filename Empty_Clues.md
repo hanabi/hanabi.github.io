@@ -7,7 +7,7 @@
 * Hanabi was first released in several European countries. In these initial versions of the game, it is reported that the printed rules do not specifically disallow empty clues, which implies that they are therefore legal.
 * In later American releases of the game, it is reported that some of the rules explicitly disallow empty clues.
 * Empty clues make it easier for players to get a perfect score and can encourage game-breaking strategies, such as the one described in the 2015 paper [*How to Make the Perfect Fireworks Display: Two Strategies for Hanabi*](https://sites.google.com/site/rmgpgrwc/research-papers/Hanabi_final.pdf?attredirects=0). This could be the reason that the rule was changed between releases.
-* When I contacted Antoine Bauza (the creator of Hanabi) on Twitter, [he was neutral](https://twitter.com/Zamiel_SRL/status/975919901520130048) to the question of whether or empty clues are legal or not.
+* When I contacted Antoine Bauza (the creator of Hanabi) on Twitter, [he was neutral](https://twitter.com/Zamiel_SRL/status/975919901520130048) to the question of whether empty clues are legal.
 * I acknowledge that players should play the game in the way that they find the most fun. With that said, expert players should challenge themselves to not use empty clues. Resorting to empty clues is analogous to using a crutch - good players should be able to get a perfect score without having to resort to them.
 * The online implementations of the game handle empty clues differently:
   * [Board Game Arena's implementation](https://en.boardgamearena.com/) does allow empty clues.
@@ -16,7 +16,7 @@
 
 ### A Note on "Hat-Guessing"
 
-* [Floris van Doorn](https://github.com/fpvandoorn/) created [a convention framework called Hat-Guessing. This framework is entirely separate from the Hyphen-ated convention framework and is covered in a [separate document](https://github.com/Zamiell/hanabi-conventions/blob/master/Hat_Guessing.md).
+* [Floris van Doorn](https://github.com/fpvandoorn/) created a convention framework called Hat-Guessing. This framework is entirely separate from the Hyphen-ated convention framework and is covered in a [separate document](https://github.com/Zamiell/hanabi-conventions/blob/master/Hat_Guessing.md).
 * In most Hanabi convention frameworks (including the Hyphen-ated framework), one clue causes one action to take place. In Hat-Guessing, multiple actions can be encoded into one clue by using [modular arithmetic](https://en.wikipedia.org/wiki/Modular_arithmetic). This can be extremely efficient.
 
 ### Basic Description of the Empty Clue Strategy
