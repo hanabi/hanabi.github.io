@@ -9,11 +9,11 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 ## Basic Description
 
 * In most Hanabi convention frameworks, you clue cards to tell the player to play that card (or discard that card). In Hat Guessing, clues have nothing to do with the cards that are "touched" by the clue.
-* When a player gives a clue, they encode actions for all other members of the team within the clue.
-* For example, in a 4-player game:
+* When a player gives a clue in Hat Guessing, they encode actions for all other members of the team within the clue using [modular arithmetic](https://en.wikipedia.org/wiki/Modular_arithmetic).
+* For example, on the first turn of a 4-player game:
   * Alice goes first.
   * Bob has blue 1 on slot 1, Cathy has red 1 on slot 1, and Donald has green 1 on slot 1.
-  * So, Alice wants all 3 of her teammates to play slot 1.
+  * So, Alice wants all three of her teammates to play slot 1.
   * From the clue interpretation table below, we see that "play slot 1" is assigned a value of 1.
   * Alice adds up all of the actions: 1 + 1 + 1 = 3
   * Thus, Alice needs to convey "3" to the team, so she clues number 1 to Cathy (which is number to the newest card to the player two seats away).
@@ -25,6 +25,16 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
   * Cathy performs a similar analysis that Bob does, but it is a bit easier for her. Instead of having to figure out the actions of two future players (Cathy + Donald), she only has to figure out the action of 1 player (Donald) in order to make her calculation.
   * Cathy plays slot 1.
   * Donald has the easiest time of all. He does not have to figure out anyone's action. He just has to plug in the values for what the two previous players did in order to determine that he is supposed to play slot 1.
+
+## Loaded Actions
+
+* Players can be "loaded" with only one action. If someone gives a clue, it only gives actions to players who do not already have an action loaded.
+* For example, on the first turn of a 4-player game:
+  * Alice goes first.
+  * Alice tells Bob to give a clue, Cathy to play slot 1, and Donald to play slot 1.
+  * Bob gives a "1" clue by giving color to the newest card of Cathy.
+  * This "1" clue is ONLY giving an action to Alice, since Bob and Cathy are already loaded.
+  * In this case, Alice does not need to perform any addition or subtraction. Since only one action is encoded in the clue, Bob is directly telling Alice to play slot 1.
 
 <br />
 
