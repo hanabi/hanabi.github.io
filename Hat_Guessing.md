@@ -26,6 +26,8 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
   * Cathy plays slot 1.
   * Donald has the easiest time of all. He does not have to figure out anyone's action. He just has to plug in the values for what the two previous players did in order to determine that he is supposed to play slot 1.
 
+<br />
+
 ## Loaded Actions
 
 * Players can be "loaded" with only one action. If someone gives a clue, it only gives actions to players who do not already have an action loaded.
