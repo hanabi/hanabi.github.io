@@ -159,10 +159,10 @@ Separate from Hat Guessing, we can use a Hat-Guessing-like extension tacked on t
 | 3        | play 3    | clue number 3
 | 4        | play 4    | clue number 4
 | 5        | play 5    | clue number 5
-| 6        | discard 1 | clue number 1
-| 7        | discard 3 | clue yellow
-| 8        | discard 4 | clue red
-| 9        | discard 5 | clue purple
+| 6        | play 1    | clue number 1
+| 7        | play 2    | clue yellow
+| 8        | play 3    | clue red
+| 9        | play 4    | clue purple
 
 ## Empty Clue Play Priority
 
