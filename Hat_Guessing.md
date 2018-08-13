@@ -159,7 +159,7 @@ Separate from Hat Guessing, we can use a Hat-Guessing-like extension tacked on t
 | 3        | play 3    | 3           | yellow
 | 4        | play 4    | 4           | red
 
-## Empty Clue Play Priority
+### Empty Clue Play Priority
 
 * In normal Hat Guessing, whether or not a card has a clue on it is irrelevant.
 * In the empty clue convention, the priority is as follows:
