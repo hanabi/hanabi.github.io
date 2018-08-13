@@ -155,14 +155,14 @@ Separate from Hat Guessing, we can use a Hat-Guessing-like extension tacked on t
 | -------- | --------- | -------------
 | 0        | clue      | clue blue
 | 1        | play 1    | clue green
-| 2        | play 2    | clue yellow
-| 3        | play 3    | clue red
-| 4        | play 4    | clue purple
-| 5        | play 5    | clue number 1
-| 6        | discard 1 | clue number 2
-| 7        | discard 3 | clue number 3
-| 8        | discard 4 | clue number 4
-| 9        | discard 5 | clue number 5
+| 2        | play 2    | clue number 2
+| 3        | play 3    | clue number 3
+| 4        | play 4    | clue number 4
+| 5        | play 5    | clue number 5
+| 6        | discard 1 | clue number 1
+| 7        | discard 3 | clue yellow
+| 8        | discard 4 | clue red
+| 9        | discard 5 | clue purple
 
 ## Empty Clue Play Priority
 
