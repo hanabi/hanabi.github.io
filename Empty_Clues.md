@@ -70,13 +70,13 @@
 
 ## Clue Interpretation Table (3-Player)
 
-| # mod 5  | action    | number clue | color clue
-| -------- | --------- | ----------- | -----------
-| 0        | play 5    | 5           | purple
-| 1        | play 1    | 1           | blue
-| 2        | play 2    | 2           | green
-| 3        | play 3    | 3           | yellow
-| 4        | play 4    | 4           | red
+| # mod 5  | action    | type of clue
+| -------- | --------- | -------------
+| 0        | play 5    | number 5 or purple
+| 1        | play 1    | number 1 or blue
+| 2        | play 2    | number 2 or green
+| 3        | play 3    | number 3 or yellow
+| 4        | play 4    | number 4 or red
 
 <br />
 
