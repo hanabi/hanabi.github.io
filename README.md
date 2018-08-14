@@ -1751,6 +1751,11 @@ n/a
 
 ## Convention Attribution
 
+The general terms of chop, *Finesse*, and *Bluff* were not invented by this group. I'm not sure which specific players were the pioneers of these terms, but those basic strategies were the building blocks for the current Hyphen-ated framework here. Hanabi came out in 2010 and the earlier mention of "finesse" on the Board Game Geek forums comes from [Adam Kunsemiller
+'s post in 2012](https://boardgamegeek.com/article/9317490#9317490). He uses the term in a colloquial way, which implies that the strategy was already in common use.
+
+The specific inventors of some of our own strategies are listed below:
+
 | Convention Name | Inventor
 | --- | ---
 | 2 Saves | Hyphen-ated & Duneaught
