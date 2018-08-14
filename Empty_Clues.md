@@ -56,13 +56,13 @@
 
 | # mod 7  | action                   | type of clue
 | -------- | ------------------------ | -------------
-| 0        | give clue                | red
-| 1        | play 1                   | number 1 or blue
-| 2        | play 2                   | number 2 or green
+| 0        | give clue                | green
+| 1        | play 1                   | number 1
+| 2        | play 2                   | number 2
 | 3        | play 3                   | number 3 or yellow
-| 4        | play 4                   | number 4
-| 5        | discard chop             | number 5
-| 6        | chop move + discard chop | purple
+| 4        | play 4                   | number 4 or red
+| 5        | discard chop             | number 5 or purple
+| 6        | chop move + discard chop | blue
 
 <br />
 
