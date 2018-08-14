@@ -52,23 +52,9 @@
 
 <br />
 
-## Clue Interpretation Table (4-Player and 5-Player)
+## Clue Interpretation Tables
 
-| # mod 7  | action                   | type of clue
-| -------- | ------------------------ | -------------
-| 0        | give clue                | green
-| 1        | play 1                   | number 1
-| 2        | play 2                   | number 2
-| 3        | play 3                   | number 3 or yellow
-| 4        | play 4                   | number 4 or red
-| 5        | discard chop             | number 5 or purple
-| 6        | chop move + discard chop | blue
-
-(The chop move in row 6 is only allowed for globally-known critical cards.)
-
-<br />
-
-## Clue Interpretation Table (3-Player)
+### 3-Player
 
 | # mod 5  | action    | type of clue
 | -------- | --------- | -------------
@@ -77,6 +63,36 @@
 | 2        | play 2    | number 2 or green
 | 3        | play 3    | number 3 or yellow
 | 4        | play 4    | number 4 or red
+
+<br />
+
+### 4-Player
+
+| # mod 5  | action          | type of clue
+| -------- | --------------- | -------------
+| 0        | clue or discard | number 5 or purple
+| 1        | play 1          | number 1 or blue
+| 2        | play 2          | number 2 or green
+| 3        | play 3          | number 3 or yellow
+| 4        | play 4          | number 4 or red
+
+<br />
+
+### 5-Player
+
+| # mod 6  | action          | type of clue
+| -------- | --------------- | -------------
+| 0        | clue or discard | green or yellow
+| 1        | play 1          | number 1 or blue
+| 2        | play 2          | number 2
+| 3        | play 3          | number 3
+| 4        | play 4          | number 4 or red
+| 5        | chop move       | number 5 or purple
+
+* The chop move in action 5 is only allowed if the player has:
+  * a globally-known critical card on chop
+  * no playable cards in hand
+* The player receiving this action can clue or discard, just like action 0.
 
 <br />
 
