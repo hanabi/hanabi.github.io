@@ -1,5 +1,7 @@
 # Emtpy Clue Conventions for the Hyphen-ated Framework
 
+<br />
+
 ## A Short History of Empty Clues
 
 * In Hanabi, it is generally assumed that you will give clues that "touch" one or more cards in someone else's hand. But what if you want to give a clue that touches NO cards in the hand? We refer to this as an "empty" clue.
@@ -14,10 +16,14 @@
   * [Keldon's implemenation](http://keldon.net/hanabi/) does not allow empty clues.
   * [Hanabi Live's implementation](https://hanabi.live) follows Keldon's lead and disables empty clues by default. However, game creators can allow empty clues an as optional setting when creating a game.
 
+<br />
+
 ## A Note on "Hat-Guessing"
 
 * [Floris van Doorn](https://github.com/fpvandoorn/) created a convention framework called Hat-Guessing. This framework is entirely separate from the Hyphen-ated convention framework and is covered in a [separate document](https://github.com/Zamiell/hanabi-conventions/blob/master/Hat_Guessing.md).
 * In most Hanabi convention frameworks (including the Hyphen-ated framework), one clue causes one action to take place. In Hat-Guessing, multiple actions can be encoded into one clue by using [modular arithmetic](https://en.wikipedia.org/wiki/Modular_arithmetic). This can be extremely efficient.
+
+<br />
 
 ## Basic Description
 
