@@ -358,7 +358,7 @@ Note that in this user interface, players are holding their hands like they woul
 
 ### A Priority Flowchart (For Choosing Between 2+ Playable Cards)
 
-* Priority* can sometimes be confusing. [Here is a handy flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/priority_flowchart.png) that shows, in general, which card should be played when there is a choice between two cards.
+*Priority* can sometimes be confusing. [Here is a handy flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/priority_flowchart.png) that shows, in general, which card should be played when there is a choice between two cards.
 
 ### The Load Clue
 
