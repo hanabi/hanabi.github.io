@@ -56,7 +56,7 @@
 
 | # mod 7  | action                   | type of clue
 | -------- | ------------------------ | -------------
-| 0        | clue                     | red
+| 0        | give clue                | red
 | 1        | play 1                   | number 1 or blue
 | 2        | play 2                   | number 2 or green
 | 3        | play 3                   | number 3 or yellow
