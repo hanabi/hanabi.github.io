@@ -64,6 +64,8 @@
 | 5        | discard chop             | number 5 or purple
 | 6        | chop move + discard chop | blue
 
+(The chop move in row 6 is only allowed for globally-known critical cards.)
+
 <br />
 
 ## Clue Interpretation Table (3-Player)
