@@ -136,7 +136,7 @@ In a text-based example:
 * The forth player will always be Donald.
 * The fifth player will always be Emily.
 
-(This is a historial convention created by [Keldon Jones](http://keldon.net/) and follows loosely from [cryptography](https://en.wikipedia.org/wiki/Alice_and_Bob).)
+(This is a historical convention created by [Keldon Jones](http://keldon.net/) and follows loosely from [cryptography](https://en.wikipedia.org/wiki/Alice_and_Bob).)
 
 A screenshot will look like the following:
 
@@ -203,7 +203,7 @@ Note that in this user interface, players are holding their hands like they woul
 ### The 5 Stall (Cluing Off-Chop 5's)
 
 * Normally, you are only allowed to give a *Save Clue* to a 5 if it is on chop. So if you use number 5 to clue a 5 that is NOT on chop, then it will typically look like a *Play Clue* on that 5 (or some other advanced strategy).
-* As a special rule, in the *Early Game*, you ARE allowed to clue number 5 as a *Save Clue* to off-chop 5's. Doing this is just interpretted as a "stall" clue and that you are trying to extend the *Early Game* for a little bit longer.
+* As a special rule, in the *Early Game*, you ARE allowed to clue number 5 as a *Save Clue* to off-chop 5's. Doing this is just interpreted as a "stall" clue and that you are trying to extend the *Early Game* for a little bit longer.
 * However, you are ONLY allowed to do this if there is nothing else to do, meaning that all of the "normal" *Play Clues* and *Save Clues* have been extinguished.
 * Normally, a *5 Stall* is only done in the *Early Game*. However, you might see someone give a *5 Stall* in the *Mid-Game* if they are in a special situation where they are not allowed to discard.
 
@@ -518,7 +518,7 @@ a lie or mistake. It is a *Load Clue* because it is loading the player up with s
 * Since *Double Discarding* can "lose" the game, you should give any decent clue that you can. If there are no clues to give, you are even allowed to give "stall" clues; see below.
 * On your next turn after the *Double Discard* situation, you can safely discard, as the team would have had time to give you a *Save Clue* if necessary.
 * From a strategy perspective, because players are strongly deincentivized to *Double Discard*, you do not need to be worried about the same card being on two different chops simultaneously.
-* Normally, players in *Double Discard* situations are not able to give tricky-looking *Finesses*, because they will be interpretted as a stall instead. However, from *High Value Principle*, you can know that a player in a *Double Discard* situation is NOT giving a "stall" clue if there is some other better clue available for them to give. Thus, players in *Double Discard* situations are still often able to make *Finesses* happen. See the priority column of the below table for an explicit ranking of what constitutes a "better" clue.
+* Normally, players in *Double Discard* situations are not able to give tricky-looking *Finesses*, because they will be interpreted as a stall instead. However, from *High Value Principle*, you can know that a player in a *Double Discard* situation is NOT giving a "stall" clue if there is some other better clue available for them to give. Thus, players in *Double Discard* situations are still often able to make *Finesses* happen. See the priority column of the below table for an explicit ranking of what constitutes a "better" clue.
 
 ### Allowable Stall Clues
 
@@ -605,7 +605,7 @@ This section is unique in that it contains things that are separate from actual 
 
 ### Occam's Razor
 
-* Sometimes, clues can have multiple interpretations. For some moves, we make it a point to explicitly define the priority in order to avoid confusion. For example, we say that *Prompts* take precendence over *Finesses*.
+* Sometimes, clues can have multiple interpretations. For some moves, we make it a point to explicitly define the priority in order to avoid confusion. For example, we say that *Prompts* take precedence over *Finesses*.
 * For other situations, there is no explicitly defined priority. For example, a clue could mean either a *Self-Finesse* or a *Self-Prompt* + *Finesse*. In these cases, *Occam's Razor* applies, meaning that you can slice away all the more complicated interpretations and simply assume the least-complex one. In this case, a single *Finesse* is less complicated than a *Finesse* + *Prompt*, so the former interpretation would be assumed.
 * It is important to not confuse *Occam's Razor* with *Schrodinger's Cat Principle* - you almost always have to allow for *Prompts*, *Reverse Finesses*, and so forth. But when you are not waiting on any information from other player's actions, then *Occam's Razor* does apply.
 
@@ -617,7 +617,7 @@ This section is unique in that it contains things that are separate from actual 
 
 ### End-Game Threshold
 
-* Towards the end of the game, the strategy of the team will change. In most games, you stop becoming conerned with efficiency and become more concerned with tempo - every card needs to play **right now** before the game ends!
+* Towards the end of the game, the strategy of the team will change. In most games, you stop becoming concerned with efficiency and become more concerned with tempo - every card needs to play **right now** before the game ends!
 * Thus, since clues can mean different things depending on whether you are in the *Mid-Game* or the *End-Game*, you need to be able to keep track of when the *End-Game* has arrived.
 * A value called *Pace* is used to determine *End-Game* status. *Pace* is calculated by the following formula: `current score + cards in deck + number of players - maximum score`
   * On [Hanabi Live](https://hanabi.live), the user interface will calculate this for you on the right side of the screen. (You may have to enable the "Show efficiency statistics" setting for it to appear.)
@@ -801,7 +801,7 @@ This section is unique in that it contains things that are separate from actual 
       * Even though red 1 and red 3 are the same suit, Bob is not promised a red 2, because if he does nothing, Cathy will not go on to misplay the red 3.
 * The priority of *3 Bluffs* can be confusing. If you don't want to memorize the four examples above, you can simply ask the following questions:
   1) Does the clue "match" the blind-play? If it matches, then it is a *Finesse*. If it doesn't match, then it is a *Bluff*. Red matches red, but red does NOT match blue. 2 matches 3, but 1 does NOT match 3.
-  2) Will the player who recieved the clue go on to misplay if nothing else is blind-played? If yes, then it is a *Finesse*. If no, then it is a *Bluff*.
+  2) Will the player who received the clue go on to misplay if nothing else is blind-played? If yes, then it is a *Finesse*. If no, then it is a *Bluff*.
 
 ### Discard Elimination & The Elimination Blind-Play
 
@@ -847,12 +847,12 @@ This section is unique in that it contains things that are separate from actual 
 
 ### The Elimination Self-Chop Move
 
-* Sometimes, you will have narrowed down your *Elimiation Notes* to one specific card. Thus, even though the card has no positive clues on it, you know the exact identity of the card.
+* Sometimes, you will have narrowed down your *Elimination Notes* to one specific card. Thus, even though the card has no positive clues on it, you know the exact identity of the card.
 * If the card in question is on your chop AND the card is not yet playable AND you need to discard, you should obviously not discard the important elimination card. You should instead self-chop move and discard the next thing.
 
 ### Play Elimination
 
-* When you discard something important, that triggers the writing of *Elimination Notes* on your own hand. This is *Discard Elimination* and is described above. But there are other ways that *Elimimation Notes* are triggered.
+* When you discard something important, that triggers the writing of *Elimination Notes* on your own hand. This is *Discard Elimination* and is described above. But there are other ways that *Elimination Notes* are triggered.
 * When another player plays a clued card in their hand that they should not have known was playable yet, it implies that they saw the other possibilities in someone else's hand. Thus, this should trigger you to write *Elimination Notes* on your hand.
 
 ### Double Discard Elimination
@@ -893,7 +893,7 @@ This section is unique in that it contains things that are separate from actual 
 * However, *5 Pulls* are NOT allowed to initiate a *Reverse Finesse*.
 * With that said, players DO have to respect that forward *5 Pull Finesses* could be *Layered*/*Clandestine*. (This terminology is covered later on.)
 
-### The 5 Pull Promise (Followup Play Clue After a 5 Pull)
+### The 5 Pull Promise (A Follow-up Play Clue After a 5 Pull)
 
 * Normally, *5 Pulls* have to be treated as *Delayed Play Clues*. This means that sometimes, it can take a long time for the pulled card to blind-play.
 * From the perspective of the player who is *5 Pulled*, if a follow up *Play Clue* is given to a currently unplayable card, then they can disregard the *Delayed Play Clue* interpretation - the *5 Pulled* player is **promised** the card that makes the unplayable card playable.
@@ -973,7 +973,7 @@ This section is unique in that it contains things that are separate from actual 
   * implicit information - historical / contextual information about the card derived from moves that teammates performed earlier on in the game
 * When this occurs, the clue is meant to be a *Play Clue* on the left-most card INSTEAD of the chop card.
 * Just like a "normal" *Play Clue* that touches multiple new cards, the chop card (and other other new cards introduced) are not necessarily playable right now.
-* In the following screenshot, Zamiel clues yellow to nmego, which touches two brand new cards in the hand. Normally, this would bea  *Chop Focus* play clue, and nmego should play the chop card (slot 5) as yellow 1. However, nmego has a negative 1 clue on his chop, so it explicitly cannot be the yellow 1. Therefore, this is *Focus Inversion*, and he can immediately play his slot 1 card. The chop card can be either yellow 2, yellow 3, yellow 4, but not yellow 5 (since Zamiel has it).
+* In the following screenshot, Zamiel clues yellow to nmego, which touches two brand new cards in the hand. Normally, this would be a *Chop Focus* play clue, and nmego should play the chop card (slot 5) as yellow 1. However, nmego has a negative 1 clue on his chop, so it explicitly cannot be the yellow 1. Therefore, this is *Focus Inversion*, and he can immediately play his slot 1 card. The chop card can be either yellow 2, yellow 3, yellow 4, but not yellow 5 (since Zamiel has it).
 
 ![Focus Inversion](img/focus_inversion.png)
 
@@ -981,7 +981,7 @@ This section is unique in that it contains things that are separate from actual 
 
 * In the *End-Game*, often times there are still a lot of cards yet to be played. Thus, you need to be very careful when discarding, since by drawing a card you can make the game end before everyone has a chance to play all of the cards.
 * If there are enough of clues available, you can choose to stall, by giving a low-value (or even a completely useless) clue. This is referred to as *Burning* a clue.
-* The best way to give a useless clue is to reclue cards which are already known to be playable.
+* The best way to give a useless clue is to re-clue cards which are already known to be playable.
 * Give a *Burn Clue* if:
   * There is a possibility that the game can be completed without anyone discarding from now on.
   * You have two or more useful cards in your hand, and you want to follow *Team Distribution Principle*.
@@ -1018,7 +1018,7 @@ This section is unique in that it contains things that are separate from actual 
     * Red 1 and rainbow 2 are played on the stacks.
     * Alice clues red to Cathy, which touches her red 3.
     * Bob has a rainbow 3 clued as red in her hand and he has no idea what it is.
-    * Bob sees that Alice's clue must be a *Prompt*, so he plays his red card as red 2. He is suprised to see that it is actually rainbow 3.
+    * Bob sees that Alice's clue must be a *Prompt*, so he plays his red card as red 2. He is surprised to see that it is actually rainbow 3.
     * Bob knows that he really must have the red 2, and it must have been on *Finesse Position* when Alice originally gave the clue. Since he just drew a card after he played the rainbow 3, he now knows that the red 2 is on his slot 2 (the second-newest card).
     * On Bob's next turn, he blind-plays his the red 2 from slot 2.
     * In this example, the red 2 was "hidden" by the rainbow 3.
@@ -1124,8 +1124,8 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### Finesses with a Lie Component
 
-* *Good Lie Principle* states all that lies must resolve immediately. However, some players will ocassionally perform *Finesses* that violate this principle. We would say that such *Finesses* have a *Lie Component*.
-* Typically, when players lie out of *Bluff Seat*, the game quickly falls apart; subsequent clues will have different meanings to different players and everyone will become "desyncronized". This typically leads to a loss.
+* *Good Lie Principle* states all that lies must resolve immediately. However, some players will occasionally perform *Finesses* that violate this principle. We would say that such *Finesses* have a *Lie Component*.
+* Typically, when players lie out of *Bluff Seat*, the game quickly falls apart; subsequent clues will have different meanings to different players and everyone will become "desynchronized". This typically leads to a loss.
 * With that said, it is sometimes possible to construct SAFE lines that contain a *Lie Component*. There is usually deep levels of nuance involved in these lines, so this kind of thing is only recommended for advanced and expert players.
 * The previously mentioned *Out-of-Order Finesse* is an specific example of a *Finesse* with a *Lie Component*. One key attribute of the *Out-of-Order Finesse* is that the player who receives the *Fix Clue* knows that ALL of the related cards are playable, or it would not have been worth the risk (and the confusion) to perform a line with a *Lie Component* in the first place.
 * This concept can be generalized to all *Finesses* that have a *Lie Component*. After a player receives a *Fix Clue* in such a situation, they should assume that the *Finesse* is "still on". So, depending on the situation, they should either know that the initial card that was clued is playable (like in an *Out-of-Order Finesse*) or continue to blind-play cards to the right of the card that got the *Fix Clue* (if more blind cards need to be played to fulfill the initial *Finesse*).
@@ -1140,7 +1140,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Thus, the average rank is: (2 + 1 + 3) / 3 = 2
   * Alice also knows that she can play a white 2 on slot 4.
   * Since 2 is equal to 2, Alice is expected to play the left-most card first, and she should play the slot 1 yellow card.
-  * If the average rank of the yellow card ended up being higher than 2.0, then Alice would have to play the white 2 first from slot 4, or else it would initiate a *Rank Priority Finessse*.
+  * If the average rank of the yellow card ended up being higher than 2.0, then Alice would have to play the white 2 first from slot 4, or else it would initiate a *Rank Priority Finesse*.
 
 ### The Priority Bluff & The Priority Layered Finesse
 
@@ -1274,7 +1274,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### Hard Bluffs
 
-* Sometimes, it can be ambiguous as to whether a player blind-played a card into a *Bluff* or a *Finesse* + *Prompt*. In this situation, *Occam's Razor* applies, so players should always opt with the former (simpler) interpretation. When such a *Bluff* occurs, it is called a *Hard Bluff* to disambiguate from situations where *Bluffs* happen with no ambiguity.
+* Sometimes, it can be ambiguous as to whether a player blind-played a card into a *Bluff* or a *Finesse* + *Prompt*. In this situation, *aam's Razor* applies, so players should always opt with the former (simpler) interpretation. When such a *Bluff* occurs, it is called a *Hard Bluff* to disambiguate from situations where *Bluffs* happen with no ambiguity.
 * For example, this is a *Finesse* + *Prompt* and NOT a *Hard Bluff*:
   * Only red 1 is played on the stacks.
   * Cathy has a 3 clued in her hand (with no color information on it).
@@ -1361,15 +1361,15 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Alice knows that this is some sort of *Reverse Finesse*, as it is calling for the blue 3. However, the blue 3 cannot be in her *Finesse Position* (slot 1), as she knows from the *Elimination Notes* that it must be either on slot 2, 3, 4, or 5. So it must instead be a *Reverse Elimination Finesse*.
   * The *Elimination Finesse* promises that it is her oldest card, so she plays slot 5 as blue 3.
 * *Elimination Finesses* apply to ALL types of situations with *Elimination Notes* (including *Discard Elimination Notes*, *Play Elimination Notes*, and *Double Discard Elimination Notes*). Subsequently, you can more specifically describe an *Elimination Finesse* as a *Discard Elimination Finesse*, a *Play Elimination Finesse*, or a *Double Discard Elimination Finesse*.
-* Note that normal *Finesses* take priority over *Self-Elimiation Finesses*. For example:
+* Note that normal *Finesses* take priority over *Self-Elimination Finesses*. For example:
   * On the stacks, blue 2 and green 2 are played.
   * Alice has *Elimination Notes* on slot 3 and slot 4 for red 3.
   * Someone clues a number 4 in Alice's slot 1 as a *Self-Finesse*.
-  * Alice must assume that it is a normal *Self-Finesse* and play blue 3 from slot 2. (If it was an *Elimiation Self-Finesse*, she would play red 3 from slot 4.)
+  * Alice must assume that it is a normal *Self-Finesse* and play blue 3 from slot 2. (If it was an *Elimination Self-Finesse*, she would play red 3 from slot 4.)
 
 ### The Chop Transfer
 
-* Sometimes, cards are accidently chop moved through a mistake or through a complicated situation. In these kinds of situations, it is pointless to waste a clue to "undo" the chop move; you can just continue to allow them to discard normally. That is, until they get something good on chop.
+* Sometimes, cards are accidentally chop moved through a mistake or through a complicated situation. In these kinds of situations, it is pointless to waste a clue to "undo" the chop move; you can just continue to allow them to discard normally. That is, until they get something good on chop.
 * Only then will the team bother cluing the chop directly to convey that it is useless. And then, the player receiving the clue will know that the card they were about to discard is important, and permanently chop move that card, and discard the now known useless card.
 * Thus, this is nearly the same thing as a *Early Fix Clue Chop Move*, but when the *Fix Clue* is given to a card that was already chop moved (and had no positive clues on it already).
 
@@ -1478,7 +1478,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * Normally, a *3 Bluff* takes priority over a *Double Finesse*. This means that if someone clues a blue 3 using the number 3, and then a blue 1 blind-plays on the very next turn, no-one is promised the blue 2.
 * However, if BOTH blue 3's were touched with the number 3 clue, then that would violate *Good Touch Principle*, and this would be considered a "bad touch".
 * If someone is violating *Good Touch Principle*, they must have a very good reason, so the clue must be a *Double Finesse* instead of a *3 Bluff*. In the above example, the next player should blind-play the blue 2 from their *Finesse Position*.
-* After that, the player who recieved the clue can safely discard the focused 3.
+* After that, the player who received the clue can safely discard the focused 3.
 * In the same way, it is also possible to *Bad Touch Double Bluff* (or *Bad Touch Double Half Bluff*) in order to get unrelated cards played from *Finesse Position*.
 
 ### The Sacrifice Discard
@@ -1525,7 +1525,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Since 3 matches 4, Cathy knows she has the blue 4, and goes on to misplay red 4 as blue 4.
   * Thus, Alice should not have given this clue.
 * However, what if in the same example, Donald ALREADY has a blue 4 clued in his hand. Now, Cathy will know that she does NOT have the blue 4, because then Alice's clue would have violated *Good Touch Principle*. Cathy will instead know that the 4 is some OTHER one-away 4.
-* Furthermore, Donald can see that the above occured and will know that he definately has the blue 4 clued in his hand (if he did not know already).
+* Furthermore, Donald can see that the above occurred and will know that he definitely has the blue 4 clued in his hand (if he did not know already).
 
 ### The Disease Bluff & The Heal Clue & The Double-Copy Bluff & The Pestilent (Double) Bluff
 
@@ -1595,7 +1595,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### The Just-In-Time Fix Clue (To Fix a Layered Finesse with a Lie Component) (JIT / J.I.T.)
 
-* When performing a *Layered Finesse* with a *Lie Component*, if the plan is to give a *Fix Clue* to the *Finesse Target* card (the "final" card that is to be blind-played), then it is important to wait until the LAST moment to give the *Fix Clue*. This is because after recieving the *Fix Clue*, the player will not play any more blind cards.
+* When performing a *Layered Finesse* with a *Lie Component*, if the plan is to give a *Fix Clue* to the *Finesse Target* card (the "final" card that is to be blind-played), then it is important to wait until the LAST moment to give the *Fix Clue*. This is because after receiving the *Fix Clue*, the player will not play any more blind cards.
 * Thus, you should first wait for all of the "good" blind cards to play, and THEN give the *Fix Clue* to the *Finesse Target*, so that it comes "just in time" before the misplay.
 * Alternatively, if the plan is to give a *Fix Clue* to some OTHER card than the *Finesse Target* (e.g. a number 5 clue to a 5 in the middle of the hand), then the *Fix Clue* does not necessarily have to be just in time. It can be done early, and the player will know that they have to continue blind-playing cards until they find the *Finesse Target*.
 
@@ -1603,9 +1603,9 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 * Sometimes, a player will get a *Play Clue* on a card. And then, instead of playing it, they will discard their chop instead. This would normally indicate a *Scream Discard*. However, sometimes the next player will know from the context of the game that their chop has to be safe.
 * In such a situation, the only reason that the player would discard is that they are allowing for the possibility of a *Reverse Finesse*, and that the next player has a playable card on *Finesse Position* slot that "matches" the card that they got the *Play Clue* on. Thus, the next player may be able to just immediately blind-play their *Finesse Position* card as a *Hesitation Blind-Play*.
-* However, doing this is not always safe, so players have to carefully evalulate what exact cards that they could be playing:
+* However, doing this is not always safe, so players have to carefully evaluate what exact cards that they could be playing:
   * For example, if they played the other copy of the clued card (that caused the *Hesitation*), then that would cause a duplication and violate *Good Touch Principle*.
-  * Another problem is if the blind-play causes the original clue to look like a *Double Finesse* with a "self" component. For example, if a number 4 clue causes a *Hesitation Blind-Play* of a red 2, the clue reciever might misplay their *Finesse Position* card as a red 3.
+  * Another problem is if the blind-play causes the original clue to look like a *Double Finesse* with a "self" component. For example, if a number 4 clue causes a *Hesitation Blind-Play* of a red 2, the clue receiver might misplay their *Finesse Position* card as a red 3.
 
 ### The Pass Bluff
 
@@ -1667,7 +1667,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 ### Ejection
 
 * *Ejection* refers to a move like a *Bluff*, but instead of playing an unrelated card from *Finesse Position*, someone plays an unrelated card from their *Second Finesse Position*. For example, if a player's hand hand is completely unclued, their *Second Finesse Position* is slot 2.
-* Certain types of "wasted" clues with no other purpse signal an *Ejection*.
+* Certain types of "wasted" clues with no other purppse signal an *Ejection*.
 
 #### Dupe Ejection
 
@@ -1681,7 +1681,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 #### Double Play Ejection
 
-* If a player knows that a card in their hand is playable, and then they recieve ANOTHER clue on that card, it is usually a *Stop Clue*, which means that the card is actually bad and they should discard it instead of playing it.
+* If a player knows that a card in their hand is playable, and then they receive ANOTHER clue on that card, it is usually a *Stop Clue*, which means that the card is actually bad and they should discard it instead of playing it.
 * However, if this happens on a good card, the other players can see that the clue must have some other purpose - it should signal an *Ejection* on the very next player.
 
 #### Unknown Trash Ejection
