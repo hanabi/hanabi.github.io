@@ -620,7 +620,7 @@ This section is unique in that it contains things that are separate from actual 
 * Towards the end of the game, the strategy of the team will change. In most games, you stop becoming concerned with efficiency and become more concerned with tempo - every card needs to play **right now** before the game ends!
 * Thus, since clues can mean different things depending on whether you are in the *Mid-Game* or the *End-Game*, you need to be able to keep track of when the *End-Game* has arrived.
 * A value called *Pace* is used to determine *End-Game* status. *Pace* is calculated by the following formula: `current score + cards in deck + number of players - maximum score`
-  * On [Hanabi Live](https://hanabi.live), the user interface will calculate this for you on the right side of the screen. (You may have to enable the "Show efficiency statistics" setting for it to appear.)
+  * On [Hanabi Live](https://hanabi.live), the user interface will calculate this for you on the right side of the screen.
 * Pace is essentially the maximum amount of discards that can happen while still having a chance to get the maximum score.
 * If pace is **less than the number of players**, the *End-Game* has arrived.
   * On [Hanabi Live](https://hanabi.live), pace will turn yellow when this occurs.
