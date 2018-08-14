@@ -1,4 +1,4 @@
-# Extra Emtpy Clue Conventions for the Hyphen-ated Framework
+# Emtpy Clue Conventions for the Hyphen-ated Framework
 
 ### A Short History of Empty Clues
 
@@ -19,7 +19,7 @@
 * [Floris van Doorn](https://github.com/fpvandoorn/) created a convention framework called Hat-Guessing. This framework is entirely separate from the Hyphen-ated convention framework and is covered in a [separate document](https://github.com/Zamiell/hanabi-conventions/blob/master/Hat_Guessing.md).
 * In most Hanabi convention frameworks (including the Hyphen-ated framework), one clue causes one action to take place. In Hat-Guessing, multiple actions can be encoded into one clue by using [modular arithmetic](https://en.wikipedia.org/wiki/Modular_arithmetic). This can be extremely efficient.
 
-### Basic Description of the Empty Clue Strategy
+### Basic Description
 
 * Separate from Hat-Guessing, it is also possible to play with a Hat-Guessing-like extension tacked on to the existing Hyphen-ated convention framework.
 * If empty clues are legal, then they can be used as a means to encode multiple actions for the entire team in a manner identical to how Hat-Guessing works.
@@ -46,7 +46,7 @@
 
 <br />
 
-### Empty Clue Interpretation Table (4-Player and 5-Player)
+### Clue Interpretation Table (4-Player and 5-Player)
 
 | # mod 9  | action    | type of clue
 | -------- | --------- | -------------
@@ -62,7 +62,7 @@
 
 <br />
 
-### Empty Clue Interpretation Table (3-Player)
+### Clue Interpretation Table (3-Player)
 
 | # mod 5  | action    | number clue | color clue
 | -------- | --------- | ----------- | -----------
@@ -74,11 +74,16 @@
 
 <br />
 
-### Empty Clue Play Priority
+### Play Priority
 
-* In normal Hat Guessing, whether or not a card has a clue on it is irrelevant.
-* In the empty clue convention, the priority is as follows:
+* If a player has two or more playable cards, the priority is as follows:
   1) unclued & unknown cards
-  2) clued & unknown cards (includes cards from finesses)
+  2) clued & unknown cards (which includes cards from *Finesses*)
   3) clued & known cards
-* If there are more than one card that meets the above criteria, the normal Hat Guessing play priority is used.
+* If there two or more cards of the same category, then the priority is as follows:
+  1) lowest rank
+  2) left-most
+
+### Discard Priority
+
+* If a player has two or more trash cards, the priority is to discard the left-most card.
