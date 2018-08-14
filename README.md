@@ -486,7 +486,7 @@ a lie or mistake. It is a *Load Clue* because it is loading the player up with s
   * Alice clues red to Bob, which touches slot 1, slot 2, and slot 3.
   * Bob plays red 1 from slot 1. The other two red cards in his hand could be nearly anything.
   * Cathy clues red to Bob, which does not introduce any new cards, but it does re-touch slot 2 and slot 3.
-  * Bob knows that this is a *Double Tempo* clue. Both must be playable in order, so he has red 2 in slot 2, and red 3 in slot 3.
+  * Bob knows that this is a *Double Tempo* clue. Both must be playable in order, so he must have red 2 in slot 2, and red 3 in slot 3.
 * Note that the normal "play all the cards" interpretation does not apply in some special situations:
   * when the clue unlocks a player's hand
   * when the clue got 2+ cards played in total (using cards in someone else's hand)
