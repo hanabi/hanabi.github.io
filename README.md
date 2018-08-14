@@ -285,7 +285,7 @@ Note that in this user interface, players are holding their hands like they woul
 * Or, if the player with the "matching" card does NOT blind-play, then the clued card is probably the other copy, and can be played on the next turn.
 * For example, on the first turn of a 3-player game:
   * Alice clues Bob red, which touches his red 2.
-  * Next, it is Bob's turn. Normally, Bob would think that he had the red 1, and play it immediatley.
+  * Next, it is Bob's turn. Normally, Bob would think that he had the red 1, and play it immediately.
   * However, Bob also notices that on Cathy has a red 1 on her slot 1 position. Thus, he has to give a chance for Cathy to prove whether or a *Reverse Finesse* is happening. If Cathy does not blind-play anything, then Bob should have the red 1, and he can play it on his next turn.
   * Bob discards.
   * Cathy blind-plays red 1. Bob now knows that he has the red 2.
