@@ -473,8 +473,8 @@ a lie or mistake. It is a *Load Clue* because it is loading the player up with s
 * In general, *Tempo Clues* do not follow from *Minimum Clue Value Principle*, which states that a clue must get at least 1 new card played or save at least 1 new card from being discarded.
 * Thus, a *Tempo Clue* with no other purpose MUST save at least 1 new card, and the player should *Chop Move* their chop card.
 * For example, on the first turn of a 3-player game:
-  * Alice clues red to Bob, which touches slot 1 and slot 2.
-  * Bob plays red 1 from slot 1. The two red card in his hand could be nearly anything.
+  * Alice clues red to Bob, which touches two cards on slot 1 and slot 2.
+  * Bob plays red 1 from slot 1. The red card in slot 2 could be red 2, red 3, red 4, or red 5.
   * Cathy clues number 2 to Bob, which does not introduce any new cards, but it does "fill in" his slot 2 card.
   * Bob now knows that he has exactly red 2 on slot 2 and that this was a *Tempo Clue*. Since it does not get any new cards and only get tempo on one card in total, he knows that he should also *Chop Move* his slot 5 card.
 * Naturally, *Tempo Clue Chop Moves* do NOT apply in the special situations listed above where natural *Tempo Clues* are allowed.
