@@ -1130,7 +1130,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * The previously mentioned *Out-of-Order Finesse* is an specific example of a *Finesse* with a *Lie Component*. One key attribute of the *Out-of-Order Finesse* is that the player who receives the *Fix Clue* knows that ALL of the related cards are playable, or it would not have been worth the risk (and the confusion) to perform a line with a *Lie Component* in the first place.
 * This concept can be generalized to all *Finesses* that have a *Lie Component*. After a player receives a *Fix Clue* in such a situation, they should assume that the *Finesse* is "still on". So, depending on the situation, they should either know that the initial card that was clued is playable (like in an *Out-of-Order Finesse*) or continue to blind-play cards to the right of the card that got the *Fix Clue* (if more blind cards need to be played to fulfill the initial *Finesse*).
 
-### Rank Priority Prompts/Finesses in Dual-Color Variants
+### Rank Priority Prompts/Finesses in Multi-Color Variants
 
 * When you get a play clue on a card that could be multiple suits, you must take the average of all of the ranks and treat the card as having that rank for the purposes of performing a *Rank Priority Finesse*.
 * For example, in a 3-player *Wild & Crazy* game:
