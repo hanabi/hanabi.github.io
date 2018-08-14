@@ -18,7 +18,7 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
   * Alice adds up all of the actions: 1 + 1 + 1 = 3
   * Thus, Alice needs to convey "3" to the team, so she clues number 1 to Cathy (which is number to the newest card to the player two seats away).
   * Bob comes next and has to figure out which move that Alice has planned for him.
-  * Bob knows that Alice encoded a value of 3.
+  * From the clue interpretation table below, Bob knows that Alice encoded a value of 3.
   * Bob also can look ahead and see that Cathy will be assigned a value of 1 and Donald will be assigned a value of 1.
   * Bob calculates: 3 (Alice's clue) - 1 (Cathy's future action) - 1 (Donald's future action) = 1 (play slot 1)
   * Bob blind-plays slot 1.
@@ -128,14 +128,15 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 
 ## Other Conventions
 
-### Basic Cluing
-* An important limitation of hat guessing is that if Alice gives a clue, Bob has to agree with Alice what actions Cathy, Donald and Emily will perform (and Cathy has to agree with both of them what Donald will do, and so on).
-* This means that the actions of Cathy, Donald and Emily cannot be influenced by the cards in Bob's hand
-* In particular, Alice cannot finesse Bob: if Alice tells Bob to play slot 1 (which is red 1) and Cathy to play slot 3 (which is red 2), Bob will not know that the red 2 is playable, so will assign a different action to Cathy)
-* As a clue giver it is best to first look what the player to your right should do (not taking into account the cards in the hands of the other players), then look at the action to the right of that player, and so on.
-  * For example, if Bob and Cathy both have a playable red 1 in their hand, and no other playable cards, Cathy is the one who should play it (because Bob will think that Cathy should play it)
+### Clue Planning
+
+* An important limitation of Hat-Guessing is that if Alice gives a clue, Bob has to agree with Alice what actions Cathy, Donald, and Emily will perform. (And Cathy has to agree with both of them on what Donald will do, and so on.)
+* This means that the actions of Cathy, Donald and Emily cannot be influenced by the cards in Bob's hand.
+* In particular, Alice cannot *Finesse* Bob: if Alice tells Bob to play slot 1 (which is red 1) and Cathy to play slot 3 (which is red 2), Bob will not know that the red 2 is playable, so will assign a different action to Cathy.
+* As a clue giver it is best to first look what the player to your right should do, then look at the action to the right of that player, and so on.
+  * For example, if Bob and Cathy both have a playable red 1 in their hand, and no other playable cards, Cathy is the one who should play it (because Bob will think that Cathy should play it).
 * You always can freely tell the next player what you want them to do, even if the conventions below dictate something else. The reason is that nobody has to agree with you on what the next player should do.
-  * Example 1: if you see few playable cards, you can tell the next player to discard a card which is not useless
+  * Example 1: if you see few playable cards, you can tell the next player to discard a card which is not useless.
   * Example 2: you can tell the next player to play a different card than dictated below, if the other card plays into someone else's hand.
 
 ### Loaded Actions
@@ -154,8 +155,8 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 * Most commonly, they can give a clue when they are instructed to discard, if they think that is more valuable.
   * This is almost always good if the next player has a playable card in their hand.
 * They can also clue instead of playing a card. This is only advisable if they know which card they are playing (which is rare, but possible).
-* The old action they were instructed to do is not forgotten. If you clue this player again, then you want to tell them to do something else.
-  * Example 1: Alice instructs Emily to discard slot 3, but Emily clues instead. The next time Cathy is cluing Emily to discard, Cathy wants to instruct Emily to discard some other trash card in Emily's hand (if possible)
+* The old action they were instructed to do is not forgotten. If this player is clued again, then they can be told to either play a separate playable card or to discard known trash.
+  * Example 1: Alice instructs Emily to discard slot 3, but Emily clues instead. The next time Cathy is cluing Emily to discard, Cathy wants to instruct Emily to discard some other trash card in Emily's hand (if possible).
   * Example 2: Alice instructs Emily to play slot 1, which is a blue 1. From context, Emily knows that this is blue 1 and clues instead. 
     * If Bob has a blue 1 and another playable card in their hand, then Emily will clue Bob to play the other card.
     * If Bob has a blue 1 and no other playable card in their hand, Emily will clue Bob to play blue 1.
@@ -168,7 +169,7 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
   2) Left-most
 * It doesn't matter whether the card is already clued or not.
 
-### Discarding or Cluing
+### Discard Threshold
 
 * If a player has no playable cards, you have to decide whether they should discard or give a clue. 
 * In general, we want to discard aggressively, because then we can give more efficient clues.
@@ -181,7 +182,9 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 * A card is useless if
   * it's already played
   * you instructed another player to play that card
-    * For example, Cathy and Donald both have a playable blue 1, and no other playable cards. Alice tells Donald to play blue 1, and tells Cathy to discard blue 1.
+* For example:
+  * Cathy and Donald both have a playable blue 1, and no other playable cards.
+  * Alice tells Donald to play blue 1, and tells Cathy to discard blue 1.
 
 <br />
 
