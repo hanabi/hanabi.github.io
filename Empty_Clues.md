@@ -66,7 +66,7 @@
 
 <br />
 
-### 4-Player
+### 4-Player and 5-Player
 
 | # mod 5  | action          | type of clue
 | -------- | --------------- | -------------
@@ -78,7 +78,7 @@
 
 <br />
 
-### 5-Player
+### 5-Player (Alternate)
 
 | # mod 6  | action          | type of clue
 | -------- | --------------- | -------------
