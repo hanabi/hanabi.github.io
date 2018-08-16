@@ -1620,6 +1620,10 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * Sometimes, a player who is blind-playing cards into a *Layered Finesse* receives another clue that touches cards BOTH inside the layer and outside the layer.
 * By default, the player should assume that it is another normal *Play Clue* or *Save Clue* on a card outside of the layer, and CONTINUE to blind-play cards. This follows from *Information Lock Principle*. *Play Clues* given in this manner are called *Continuation Clues*.
 * Because *Continuation Clues* are the default interpretation, it can be difficult to give a *Fix Clue*, since a *Fix Clue* must ONLY touch cards inside of the layer.
+* An example of a *Continuation Clue* can be found by looking at the screenshot in the *Clandestine Finesse* section:
+  * After SedNegi's initial clue, if 910dan clues purple to Zamiel, it would touch a card inside the layer (purple 1) and a card outside the layer (purple 2).
+  * Thus, the focus of the clue would be on the card outside of the layer (purple 2), being a *Play Clue* on purple 2.
+  * In this hypothetical, Zamiel would immediately blind-play slot 2 as yellow 1. On his subsequent turns, he would play purple 1, purple 2, and yellow 3 (in that order).
 
 ### The Just-In-Time Fix Clue (To Fix a Layered Finesse with a Lie Component) (JIT / J.I.T.)
 
