@@ -1051,7 +1051,7 @@ This section is unique in that it contains things that are separate from actual 
 
 ![Clandestine Finesse](img/clandestine_finesse.png)
 
-* Since we are allowed to lie in *Bluff Seat*, doing a *Layered Finesse* in *Bluff Seat* typically won't work. Instead of getting a big layered chain of cards, it will be interpretted as a *Bluff*, and only one card will be played. However, note that a *Clandestine Finesses* can get around this restriction, because it induces a potential misplay. The blind-playing player MUST continue to blind play cards, or else the player receiving the clue will assume that it matches the *Finesse* is "over" and play the clued card.
+* Since we are allowed to lie in *Bluff Seat*, doing a *Layered Finesse* in *Bluff Seat* typically won't work. Instead of getting a big layered chain of cards, it will be interpreted as a *Bluff*, and only one card will be played. However, note that a *Clandestine Finesses* can get around this restriction, because it induces a potential misplay. The blind-playing player MUST continue to blind play cards, or else the player receiving the clue will assume that it matches the *Finesse* is "over" and play the clued card.
 
 ### The Stacked Finesse
 
