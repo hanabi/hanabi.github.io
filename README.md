@@ -1191,8 +1191,9 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * For example:
   * Alice has a known-playable red 3, a known-playable blue 4, and a known blue 5.
   * Even though playing the red 4 would allow her to play the blue 5 on the next turn (and get a free clue for the team), the red 3 still has priority over the blue 4, since it is a lower rank.
-* In this example, if Alice played the blue 4, she would NOT be playing the card with priority. Normally, Bob would think that this is a *Priority Finesse* and that he had the blue 5, but he can clearly see it in Alice's hand.
-* Thus, this is a *Known Priority Bluff*, and Bob should blind-play his *Finesse Position* card as any currently-playable card.
+  * Alice plays the blue 4 (which does NOT have priority).
+  * Normally, Bob would think that this is a *Priority Finesse* and that he had the blue 5, but he can clearly see it in Alice's hand. (Furthermore, even Alice already knows that she has the blue 5.)
+  * Thus, this is a *Known Priority Bluff*. Bob blind-plays his *Finesse Position* card, knowing it can be any currently-playable card.
 * Something is NOT a *Known Priority Bluff* if the card that was played leads towards unlocking another player's hand.
 
 <br />
