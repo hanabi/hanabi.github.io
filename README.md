@@ -1032,11 +1032,18 @@ This section is unique in that it contains things that are separate from actual 
 
 ### The Clandestine Finesse
 
-* Since we are allowed to lie in *Bluff Seat*, doing a *Layered Finesse* in *Bluff Seat* can be problematic, since it will typically only get one card played (instead of a big layered chain of cards).
-* A form of *Layered Finesse* that gets around this restriction is called the *Clandestine Finesse*, because it is similar to a *Hidden Finesse*. When this move is performed, the player who is blind-playing cards knows to keep playing because they see that if they do nothing, the next player will go on to misplay.
-* In the following example, in Zealousy's hand, green 2 and green 3 are already touched with a green clue. Thus, a number 3 clue to Zealousy will get both the red 2 and the purple 2, because if Hyphen-ated does not continue to play the purple 3, Zealousy will think he has red 3 and misplay it.
+* To the player who receives a clue that initiates a *Layered Finesse*, it is usually obvious what is going on. For example, in a 4-player game:
+  * Alice clues Donald about one blue card.
+  * Bob discards.
+  * Cathy blind-plays a green 1.
+  * Donald clearly knows that this is a *Layered Finesse* on Cathy, and she will continue to play cards until she finds the blue card that matches the one in his hand.
+* In order words, most *Layered Finesses* cause unrelated cards to blind-play that do not match the type of clue given.
+* With that said, it is also possible to perform a *Layered Finesse* for unrelated cards that DO match the type of the clue given. When this happens, it is hidden from the receiver of the clue, so we call it a *Clandestine Finesse* to disambiguate it from a (more obvious) *Layered Finesse*.
+* For example, in the following screenshot, Zealousy's hand has a green 2 and a green 3 that are already touched with a green clue. Thus, a number 3 clue to Zealousy will "get" both the red 2 and the purple 2, because if Hyphen-ated does not continue to play the purple 3, Zealousy will think he has red 3 and misplay it.
 
 ![Clandestine Finesse](img/clandestine_finesse.png)
+
+* Since we are allowed to lie in *Bluff Seat*, doing a *Layered Finesse* in *Bluff Seat* typically won't work. Instead of getting a big layered chain of cards, it will be interpretted as a *Bluff*, and only one card will be played. However, note that a *Clandestine Finesses* can get around this restriction, because it induces a potential misplay. The blind-playing player MUST continue to blind play cards, or else the player receiving the clue will assume that it matches the *Finesse* is "over" and play the clued card.
 
 ### The Stacked Finesse
 
