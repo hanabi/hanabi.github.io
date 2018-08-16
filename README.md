@@ -1133,7 +1133,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Game #6817, turn 15
   * Game #6799, turn 5
 
-### The Out-of-Order Finesse
+### The Out-of-Order Finesse (Triple O / OOO / O.O.O.)
 
 * Sometimes, a *Finesse* is invoked by giving a color clue to two or more cards where the next card in the sequence is clued, but it is NOT the focus of the clue.
 * When this happens, the *Finesse* will still work: a player will blind-play a matching card. However, a *Fix Clue* must then be given to the player who originally received the clue, or they will go on to misplay.
