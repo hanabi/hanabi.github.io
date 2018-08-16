@@ -1039,7 +1039,15 @@ This section is unique in that it contains things that are separate from actual 
   * Donald clearly knows that this is a *Layered Finesse* on Cathy, and she will continue to play cards until she finds the blue card that matches the one in his hand.
 * In order words, most *Layered Finesses* cause unrelated cards to blind-play that do not match the type of clue given.
 * With that said, it is also possible to perform a *Layered Finesse* for unrelated cards that DO match the type of the clue given. When this happens, it is hidden from the receiver of the clue, so we call it a *Clandestine Finesse* to disambiguate it from a (more obvious) *Layered Finesse*.
-* For example, in the following screenshot, Zealousy's hand has a green 2 and a green 3 that are already touched with a green clue. Thus, a number 3 clue to Zealousy will "get" both the red 2 and the purple 2, because if Hyphen-ated does not continue to play the purple 3, Zealousy will think he has red 3 and misplay it.
+* For example, in the following screenshot:
+  * Zealousy's hand has a green 2 and a green 3 that are already touched with a green clue.
+  * Instantiation clues number 3 to Zealousy, which touches only one brand new card, the purple 3. Thus, the purple 3 is the focus of the clue.
+  * Hyphen-ated knows that the purple 3 is currently unplayable, so it must be a *Finesse*. He attempts to play purple 2 from his *Finesse Position* (slot 1). It is instead a red 2.
+  * Normally, Zealousy would think that he has the red 3 on his slot 1, because the card that was blind-played matches the clue. (Number 2 matches number 3.)
+  * However, Zealousy also sees that Hyphen-ated had a purple 2 on his *Second Finesse Position* at the time of the clue. So there is a possibility that this was a *Clandestine Finesse* instead of a normal *Finesse*. Thus, Zealousy has to give Hyphen-ated a chance to blind-play the purple 2. If he does not, then Zealousy does indeed have the red 3. Zealousy discards.
+  * Instanation also discards.
+  * Hyphen-ated was surprised that he played the red 2, but now knows that it was a *Clandestine Finesse* instead of a normal *Finesse*. He blind-plays his slot 2, and it is the purple 2. If he did not do this, then Zealousy would misplay purple 3 as red 3.
+  * Zealousy plays purple 3.
 
 ![Clandestine Finesse](img/clandestine_finesse.png)
 
