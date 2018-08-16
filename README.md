@@ -1111,12 +1111,21 @@ This section is unique in that it contains things that are separate from actual 
 ### The Trash Finesse (Strong Form)
 
 * It is possible to perform a *Trash Bluff* outside of *Bluff Seat* if there is only one possibility for the useless card to be. When this is done, it promises that someone has that specific card, so it is a *Trash Finesse* rather than a *Trash Bluff*.
-* It is also possible to *Double Trash Finesse*. By touching a useless 2 with TWO 2's remaining, it means that you see BOTH the 2's, so this can cause two people to blind-play their *Finesse Position* card (or one player to blind-play twice). Note that a *Double Trash Finesse* cannot be done in *Bluff Seat*, or it will look like a normal *Trash Bluff*.
+* For example, in a 4-player game:
+  * All the 1's are played on the stacks except for red 1.
+  * Alice clues number 1 to Donald, which touches a blue 1. To Donald, this will look like it is a red 1.
+  * At first glance, Bob might think this is a *Trash Bluff*, causing him to blind-play his *Finesse Position* card as either red 1 or some other currently-playable card.
+  * However, Bob also sees that Cathy has a red 1 on her *Finesse Position*. Thus, Alice's clue was a *Trash Finesse* instead of a *Trash Bluff*, since it is promises exactly red 1 (which is the only non-trash 1).
+  * Thus, Bob discards.
+  * Cathy blind-plays her *Finesse Position* card and it is red 1.
+  * Donald discards his known-trash 1.
+* It is also possible to perform a *Double Trash Finesse*. By touching a useless 1 with TWO 1's remaining, it means that the cluer sees BOTH of the 1's, so this can cause two separate people to blind-play their *Finesse Position* card (or one player to blind-play twice). Note that a *Double Trash Finesse* cannot be done in *Bluff Seat*, or it will look like a normal *Trash Bluff*.
 
 ### The Trash Finesse (Weak Form)
 
 * After deciding on the target of a clue, players carefully choose between using a color clue and a number clue in order to avoid violating *Good Touch Principle* with the ancillary cards that will be touched (since every clued card is treated as a card that will eventually be played). Sometimes, when both a color clue AND a number would violate *Good Touch Principle*, players are forced to pick between the lesser of two evils.
 * However, sometimes you can see that it IS possible to use a color or number clue to uniquely touch a clue target without "picking up" extra bad cards. So, when extra bad cards are deliberately touched in this way, it promises that the other players have the exact "missing" cards that the trash cards would look like.
+* This is more subtle than the strong *Trash Finesse*. In the strong form, the focus of the clue causes an immediate misplay (if no-one blind-plays). In the weak form, the non-focused cards are what causes the blind-play.
 
 ### A Trash Flowchart
 
