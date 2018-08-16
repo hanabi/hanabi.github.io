@@ -1185,6 +1185,15 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * After the unrelated card is played, since the player who lied was in *Bluff Seat*, no further cards should be promised.
 * If an unrelated card was played and the player who lied was not in *Bluff Seat*, it implies a *Priority Layered Finesse*.
 
+### The Known Priority Bluff (Playing into Your Own Hand)
+
+* For the purposes of play *Priority*, you are only supposed to look "one card ahead" instead of two or more. This is to keep things simple.
+* For example:
+  * Alice has a known-playable red 3, a known-playable blue 4, and a known blue 5.
+  * Even though playing the red 4 would allow her to play the blue 5 on the next turn (and get a free clue for the team), the red 3 still has priority over the blue 4, since it is a lower rank.
+* In this example, if Alice played the blue 4, she would NOT be playing the card with priority. Normally, Bob would think that this is a *Priority Finesse* and that he had the blue 5, but he can clearly see it in Alice's hand.
+* Thus, this is a *Known Priority Bluff*, and Bob should blind-play his *Finesse Position* card as any currently-playable card.
+
 <br />
 
 ## Level 3 - Variant-Specific Strategies
