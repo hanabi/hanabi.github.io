@@ -1805,8 +1805,7 @@ n/a
 
 * The general terms of chop, *Finesse*, and *Bluff* were not invented by this group. Those basic strategies were the building blocks for the current Hyphen-ated framework.
 * The earliest mention of "chop" on the Board Game Geek forums comes from [Ben Small's post in 2013](https://boardgamegeek.com/article/13665606#13665606). He may be the originator of the term.
-* The earliest mention of "finesse" and "bluff" on the Board Game Geek forums comes from [Adam Kunsemiller
-'s post in 2012](https://boardgamegeek.com/article/9317490#9317490). He uses the terms in a colloquial way, which implies that these strategies were commonly used at the time of writing.
+* The earliest mention of "finesse" and "bluff" on the Board Game Geek forums comes from [Adam Kunsemiller's post in 2012](https://boardgamegeek.com/article/9317490#9317490). He uses the terms in a colloquial way, which implies that these strategies were commonly used at the time of writing.
 * The specific inventors of some of our own strategies are listed below:
 
 | Convention Name | Inventor
@@ -1906,3 +1905,4 @@ n/a
 | The Redundant 5's Chop Move | q
 | The Composition Discard | Libster
 | The Negative Self-Chop Move | Libster
+| The Known Priority Bluff | Zamiel
