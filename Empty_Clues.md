@@ -33,6 +33,8 @@
 * If empty clues are legal, then they can be used as a means to encode multiple actions for the entire team in a manner identical to how Hat-Guessing works.
 * When an empty clue is given, players should perform one round of of blind-plays.
 
+<br />
+
 ## Empty Clue Example
 
 * For example, on the first turn of a 4-player game:
