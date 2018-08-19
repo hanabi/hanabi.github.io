@@ -31,6 +31,8 @@
   * In a 3-player game, it is possible to give an empty clue as a 2-for-1.
   * In a 4-player game, it is possible to give an empty clue as a 2-for-1 or a 3-for-1.
   * In a 5-player game, it is possible to give an empty clue as a 2-for-1, a 3-for-1, or a 4-for-1.
+* Unlike Hat-Guessing, it does not matter which player recieves a clue. If it is possible to give the empty clue to more than one player, then the clue should be given to the player that would benefit the most from the negative information.
+* Unlike Hat-Guessing, players do not have to blind-play their card immediately, because other players can generally derive what their action is from play priority (which is listed below).
 
 <br />
 
@@ -54,8 +56,6 @@
   * Donald has the easiest time of all. He does not have to figure out anyone's action. He just has to plug in the values for what the two previous players did in order to determine that he is supposed to play slot 1.
   * Donald calculates: 3 (Alice's clue) - 1 (Bob's past action) - 1 (Cathy's past action) = 1 (play slot 1)
   * Donald blind-plays slot 1.
-* Unlike Hat-Guessing, it does not matter which player recieves a clue. If it is possible to give the empty clue to more than one player, then the clue should be given to the player that would benefit the most from the negative information.
-* Unlike Hat-Guessing, players do not have to blind-play their card immediately, because other players can generally derive what their action is from play priority (which is listed below). For example, if a player is playing into a *Finesse* already, it is often desirable to finish playing into that *Finesse* before moving on to the empty clue blind-play.
 
 <br />
 
@@ -110,6 +110,7 @@
 * Thus, if an empty clue is given that looks like it is only getting 1 (or 0) brand new cards, then the clue giver is intending something extra.
 * In this situation, the clue is actually a 2-for-1 or better in the form of a *Finesse* - a card in one player's hand hand leads into a card in the next player's hand.
 * How does the first player know which card to play? They have to enumerate all of the possibilities until they find a sequence that satisfies the initial clue.
+* When looking for a valid sequence, a player might use *Occam's Razor* to default to a 2-for-1 interpretation over a 3-for-1 interpretation. But by convention, if an *Empty Finesse* sequence is possible for a 3-for-1, then players should prefer that over the 2-for-1.
 
 <br />
 
