@@ -2,7 +2,9 @@
 
 <br />
 
-## A Short History of Empty Clues
+## Introduction
+
+### A Short History of Empty Clues
 
 * In Hanabi, it is generally assumed that you will give clues that "touch" one or more cards in someone else's hand. But what if you want to give a clue that touches NO cards in the hand? We refer to this as an "empty" clue.
 * Empty clues can be useful in that they give negative information to all other cards in the hand. This is especially useful in the "Rainbow" variant, which is played by expert players as an additional challenge. (In this variant, a 6th suit is added to the deck that is touched by all colors. Empty clues can be used to more easily disambiguate rainbow cards from non-rainbow cards.)
@@ -18,18 +20,21 @@
 
 <br />
 
-## A Note on "Hat-Guessing"
+### A Note on "Hat-Guessing"
 
 * [Floris van Doorn](https://github.com/fpvandoorn/) created a convention framework called Hat-Guessing in June 2016. This framework is entirely separate from the Hyphen-ated convention framework and is covered in a [separate document](https://github.com/Zamiell/hanabi-conventions/blob/master/Hat_Guessing.md).
 * In most Hanabi convention frameworks (including the Hyphen-ated framework), one clue causes one action to take place. In Hat-Guessing, multiple actions can be encoded into one clue by using [modular arithmetic](https://en.wikipedia.org/wiki/Modular_arithmetic). This can be extremely efficient.
 
 <br />
 
-## Basic Description
+### Basic Description
 
 * Separate from Hat-Guessing, it is also possible to play with a Hat-Guessing-like extension tacked on to the existing Hyphen-ated convention framework.
 * If empty clues are legal, then they can be used as a means to encode multiple actions for the entire team in a manner identical to how Hat-Guessing works.
-* When an empty clue is given, players should perform one round of of blind-plays (and/or blind-discards).
+* When an empty clue is given, players should perform one round of of blind-plays.
+
+## Empty Clue Example
+
 * For example, on the first turn of a 4-player game:
   * Alice goes first.
   * Bob has blue 1 on slot 1, Cathy has red 1 on slot 1, and Donald has green 1 on slot 1.
@@ -53,7 +58,9 @@
 
 <br />
 
-## Play Priority
+## Dealing with Edge Cases
+
+### Play Priority
 
 * If a player has two or more playable cards, the priority is as follows:
   1) unclued & unknown cards
@@ -65,14 +72,14 @@
 
 <br />
 
-## Giving Blind-Plays to Already Called Cards
+### Giving Blind-Plays to Already Called Cards
 
 * As per the play-priority list above, if a player only has one playable card in their hand and it is already fully known, then you DO have to include them in the empty clue action set. In this case, you would tell them to blind-play the slot of the card that they already have full knowledge about.
 * However, if a player is *Finessed* for a card that is currently unplayable AND they have no other current playable cards, then you DO NOT include them in the empty clue action set, since they cannot immediately play anything on their turn. In this case, the player should be assigned an action of 0 (give a clue or discard).
 
 <br />
 
-## Stacked Empty Clues
+### Stacked Empty Clues
 
 * With normal Hyphen-ated conventions, you must unravel an existing layer before moving on to a new one.
 * This also applies to empty clue blind-plays. If a player has an existing *Finesse* that they are playing into, then they are NOT supposed to demonstrate their empty clue action immediately.
@@ -93,6 +100,15 @@
   * Alice discards.
   * Bob blind-plays the red 4.
   * Cathy blind-plays the yellow 2.
+
+<br />
+
+## Empty Finesses
+
+* An empty clue must get at least two (new) blind-plays. Otherwise, it would not be worth resorting to an empty clue.
+* Thus, if an empty clue is given that looks like it is only getting 1 (or 0) brand new cards, then the clue giver is intending something extra.
+* In this situation, the clue is actually a 2-for-1 or better in the form of a *Finesse* - a card in one player's hand hand leads into a card in the next player's hand.
+* How does the first player know which card to play? They have to enumerate all of the possibilities until they find a sequence that satisfies the initial clue.
 
 <br />
 
@@ -119,15 +135,6 @@
 | 2 (7)    | play 2          | number 2 or green
 | 3 (8)    | play 3          | number 3 or yellow
 | 4 (9)    | play 4          | number 4 or red
-
-<br />
-
-## Empty Finesses
-
-* An empty clue must get at least two (new) blind-plays. Otherwise, it would not be worth resorting to an empty clue.
-* Thus, if an empty clue is given that looks like it is only getting 1 (or 0) brand new cards, then the clue giver is intending something extra.
-* In this situation, the clue is actually a 2-for-1 or better in the form of a *Finesse* - a card in one player's hand hand leads into a card in the next player's hand.
-* How does the first player know which card to play? They have to enumerate all of the possibilities until they find a sequence that satisfies the initial clue.
 
 <br />
 
