@@ -91,6 +91,15 @@
 
 <br />
 
+## Empty Finesses
+
+* An empty clues must get at least two (new) blind-plays. Otherwise, it would not be worth resorting to an empty clue.
+* Thus, if an empty clue is given that looks like it is only getting 1 (or 0) brand new cards, then the clue giver is intending something extra.
+* In this situation, the clue is actually a 2-for-1 or better in the form of a *Finesse* - a card in your hand leads into someone else's hand.
+* How do the first player know which card to play? They have to enumerate all of the possibilities until they find a sequence that satisfies the initial clue.
+
+<br />
+
 ### Other Clue Interpretation Tables
 
 ### 5-Player (Alternate)
