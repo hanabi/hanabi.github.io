@@ -58,11 +58,11 @@
 
 | # mod 5  | action    | type of clue
 | -------- | --------- | -------------
-| 0        | play 5    | number 5 or purple
-| 1        | play 1    | number 1 or blue
-| 2        | play 2    | number 2 or green
-| 3        | play 3    | number 3 or yellow
-| 4        | play 4    | number 4 or red
+| 0 (5)    | play 5    | number 5 or purple
+| 1 (6)    | play 1    | number 1 or blue
+| 2 (7)    | play 2    | number 2 or green
+| 3 (8)    | play 3    | number 3 or yellow
+| 4 (9)    | play 4    | number 4 or red
 
 <br />
 
@@ -70,11 +70,11 @@
 
 | # mod 5  | action          | type of clue
 | -------- | --------------- | -------------
-| 0        | clue or discard | number 5 or purple
-| 1        | play 1          | number 1 or blue
-| 2        | play 2          | number 2 or green
-| 3        | play 3          | number 3 or yellow
-| 4        | play 4          | number 4 or red
+| 0 (5)    | clue or discard | number 5 or purple
+| 1 (6)    | play 1          | number 1 or blue
+| 2 (7)    | play 2          | number 2 or green
+| 3 (8)    | play 3          | number 3 or yellow
+| 4 (9)    | play 4          | number 4 or red
 
 <br />
 
