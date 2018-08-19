@@ -105,7 +105,7 @@
 
 <br />
 
-## Empty Finesses
+### Empty Finesses
 
 * An empty clue must get at least two (new) blind-plays. Otherwise, it would not be worth resorting to an empty clue.
 * Thus, if an empty clue is given that looks like it is only getting 1 (or 0) brand new cards, then the clue giver is intending something extra.
@@ -143,7 +143,7 @@
 
 ## Other Clue Interpretation Tables
 
-### 5-Player (Alternate)
+### 5-Player (Florrat's Alternate Proposal)
 
 | # mod 6  | action          | type of clue
 | -------- | --------------- | -------------
