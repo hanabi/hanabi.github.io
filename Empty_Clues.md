@@ -101,6 +101,7 @@
   * Alice discards.
   * Bob blind-plays the red 4.
   * Cathy blind-plays the yellow 2.
+* Note that *Stacked Empty Clues* do NOT apply to *Prompts*. Players do NOT have to wait for other clued cards in their own hand (or in other player's hands) before blind-playing a card assigned to them in an empty clue. (They are only obligated to unravel their own layers first.)
 
 <br />
 
