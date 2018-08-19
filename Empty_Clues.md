@@ -65,6 +65,37 @@
 
 <br />
 
+## Giving Blind-Plays to Already Called Cards
+
+* As per the play-priority list above, if a player only has one playable card in their hand and it is already fully known, then you DO have to include them in the empty clue action set. In this case, you would tell them to blind-play the slot of the card that they already have full knowledge about.
+* However, if a player is *Finessed* for a card that is currently unplayable AND they have no other current playable cards, then you DO NOT include them in the empty clue action set, since they cannot immediately play anything on their turn. In this case, the player should be assigned an action of 0 (give a clue or discard).
+
+<br />
+
+## Stacked Empty Clues
+
+* With normal Hyphen-ated conventions, you must unravel an existing layer before moving on to a new one.
+* This also applies to empty clue blind-plays. If a player has an existing *Finesse* that they are playing into, then they are NOT supposed to demonstrate their empty clue action immediately.
+* Rather, the empty clue action is stacked on top of them, similar to a *Stacked Finesse*. Unlike normal *Hat Guessing*, the other players do NOT need to have the action demonstrated in order to know what the stacked action is, because they can just use the play priority list above.
+* Because of this, it is possible to give *Delayed Play Clues* as part of the empty clue actions, as long as the cards leading to the card are globally known.
+* For example, in a 3-player game:
+  * All the 1's are played on the stacks.
+  * Alice clues number 3 to Cathy, which touches a red 3.
+  * Bob interprets this as a *Finesse*, and blind-plays slot 1. Instead of the red 2, it is the blue 2, and Bob now knows that it was a *Clandestine Finesse* instead of a normal *Finesse*.
+  * Cathy sees that it could be a *Clandestine Finesse*, so she discards.
+  * Alice gives an empty clue of number 2, which tells Bob to blind play slot 1 and Cathy to blind play slot 1.
+  * Bob sees that Cathy has a playable slot 1 card - the yellow 2. Her action must be to play slot 1.
+  * Thus, Bob knows that his action is to also play slot 1 (because 1 + 1 = 2).
+  * However, Bob has to unravel the layer first before blind-playing the empty clue card, so he plays slot 2 and it is the red 2, as expected.
+  * Cathy sees that the only other playable card in Bob's hand besides the red 2 was his slot 1 card, the red 4. His action must be to blind play slot 1.
+  * Thus, Cathy knows that her action is to also blind-play slot 1.*
+  * However, Cathy has to first play the red 3 into Bob's red 4, so she plays the red 3 (with the intent to blind-play her slot 1 card later).
+  * Alice discards.
+  * Bob blind-plays the red 4.
+  * Cathy blind-plays the yellow 2.
+
+<br />
+
 ## Clue Interpretation Tables
 
 ### 3-Player
