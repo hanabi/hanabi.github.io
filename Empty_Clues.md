@@ -91,7 +91,7 @@
   * Alice clues number 3 to Cathy, which touches a red 3.
   * Bob interprets this as a *Finesse*, and blind-plays slot 1. Instead of the red 2, it is the blue 2, and Bob now knows that it was a *Clandestine Finesse* instead of a normal *Finesse*.
   * Cathy sees that it could be a *Clandestine Finesse*, so she discards.
-  * Alice gives an empty clue of number 2, which tells Bob to blind play slot 1 and Cathy to blind play slot 1.
+  * Alice gives an empty clue of number 2, with the intent to have Bob blind-play slot 1 and Cathy to blind-play slot 1.
   * Bob sees that Cathy has a playable slot 1 card - the yellow 2. Her action must be to play slot 1.
   * Thus, Bob knows that his action is to also play slot 1 (because 1 + 1 = 2).
   * However, Bob has to unravel the layer first before blind-playing the empty clue card, so he plays slot 2 and it is the red 2, as expected.
