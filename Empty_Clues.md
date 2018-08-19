@@ -100,7 +100,7 @@
 
 <br />
 
-### Other Clue Interpretation Tables
+## Other Clue Interpretation Tables
 
 ### 5-Player (Alternate)
 
