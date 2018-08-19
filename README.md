@@ -1766,7 +1766,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 ### The Negative Self-Chop Move
 
 * If a card has negative 1, 2, 3, and 4 on it, then it is explicitly known to be a 5, while not directly clued.
-* In this situation, it would be pointless for the team to waste a clue on it to save it.
+* In this situation, it would be a waste of a clue for the team to clue it directly.
 * Thus, the player should self-chop move the card.
 
 ### The Speed-up Clue
