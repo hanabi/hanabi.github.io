@@ -96,7 +96,7 @@
   * Thus, Bob knows that his action is to also play slot 1 (because 1 + 1 = 2).
   * However, Bob has to unravel the layer first before blind-playing the empty clue card, so he plays slot 2 and it is the red 2, as expected.
   * Cathy sees that the only other playable card in Bob's hand besides the red 2 was his slot 1 card, the red 4. His action must be to blind play slot 1.
-  * Thus, Cathy knows that her action is to also blind-play slot 1.*
+  * Thus, Cathy knows that her action is to also blind-play slot 1.
   * However, Cathy has to first play the red 3 into Bob's red 4, so she plays the red 3 (with the intent to blind-play her slot 1 card later).
   * Alice discards.
   * Bob blind-plays the red 4.
