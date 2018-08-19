@@ -29,7 +29,7 @@
 
 * Separate from Hat-Guessing, it is also possible to play with a Hat-Guessing-like extension tacked on to the existing Hyphen-ated convention framework.
 * If empty clues are legal, then they can be used as a means to encode multiple actions for the entire team in a manner identical to how Hat-Guessing works.
-* When an empty clue is given, players should drop everything that they are doing and perform one round of of blind-plays (and/or blind-discards).
+* When an empty clue is given, players should perform one round of of blind-plays (and/or blind-discards).
 * For example, on the first turn of a 4-player game:
   * Alice goes first.
   * Bob has blue 1 on slot 1, Cathy has red 1 on slot 1, and Donald has green 1 on slot 1.
@@ -49,6 +49,19 @@
   * Donald calculates: 3 (Alice's clue) - 1 (Bob's past action) - 1 (Cathy's past action) = 1 (play slot 1)
   * Donald blind-plays slot 1.
 * Unlike Hat-Guessing, it does not matter which player recieves a clue. If it is possible to give the empty clue to more than one player, then the clue should be given to the player that would benefit the most from the negative information.
+* Unlike Hat-Guessing, players do not have to blind-play their card immediately, because other players can generally derive what their action is from play priority (which is listed below). For example, if a player is playing into a *Finesse* already, it is often desirable to finish playing into that *Finesse* before moving on to the empty clue blind-play.
+
+<br />
+
+## Play Priority
+
+* If a player has two or more playable cards, the priority is as follows:
+  1) unclued & unknown cards
+  2) clued & unknown cards (which includes cards from *Finesses*)
+  3) clued & known cards
+* If there two or more cards of the same category, then the priority is as follows:
+  1) lowest rank
+  2) left-most
 
 <br />
 
@@ -78,6 +91,8 @@
 
 <br />
 
+### Other Clue Interpretation Tables
+
 ### 5-Player (Alternate)
 
 | # mod 6  | action          | type of clue
@@ -93,21 +108,3 @@
   * a globally-known critical card on chop
   * no playable cards in hand
 * The player receiving this action can clue or discard, just like action 0.
-
-<br />
-
-## Other Conventions
-
-### Play Priority
-
-* If a player has two or more playable cards, the priority is as follows:
-  1) unclued & unknown cards
-  2) clued & unknown cards (which includes cards from *Finesses*)
-  3) clued & known cards
-* If there two or more cards of the same category, then the priority is as follows:
-  1) lowest rank
-  2) left-most
-
-### Discard Priority
-
-* If a player has two or more trash cards, the priority is to discard the left-most card.
