@@ -1190,7 +1190,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Alice plays the playable blue card as a *Speculation Finesse*.
   * Between green, purple, and navy, the green suit has *Speculation Priority*, since it is the left-most suit of the three.
   * After the card is played, if it happens to be green 2, then the rest of the team is promised the green 3, just like a normal *Priority Prompt* or *Priority Finesse*.
-  * After the card is played, if it is not green 2, then the team knows that the green 3 was promised. Whoever has it should mark it in their hand for later, and perform a *Self-Chop Move* if it gets to their chop.
+  * After the card is played, if it is not green 2, then the team knows that the green 3 was promised. Whoever has it should mark it in their hand for later, and perform a *Self-Chop Move* if it gets to their chop, similar to how *Elimination* works.
 
 ### The Priority Bluff & The Priority Layered Finesse
 
