@@ -80,7 +80,20 @@
 
 <br />
 
-### Stacked Empty Clues
+### Stacked Empty Clues - Through Known Clued Cards
+
+* With normal Hyphen-ated conventions, you must treat all *Play Clues* as *Delayed Play Clues*. For example, if you get clued about four 1's, and then are clued about one 2, then you must play all of the 1's before playing the 2.
+* With empty clue blind-plays, this does NOT apply. You can generally immediately blind-play the cards indicated from an empty clue.
+* However, as a special exception, you DO have to treat an empty clue blind-play as a *Delayed Play Clue* if you have one or more cards in your hand that are already known-playable.
+* For example, in a 3-player game:
+  * Alice clues Bob 1's, which touches two 1's.
+  * Bob plays the rightmost 1.
+  * Cathy gives an empty clue of number 2, with the intent for Alice to blind-play slot 1 and Bob to blind-play slot 1.
+  * Alice blind-plays her slot 1.
+  * Bob knows that Cathy's clue is telling him to blind-play his slot 1. However, he must play all the known-playable cards in his hand first. So, he marks his slot 1 card as currently playable, and plays his other clued 1 first.
+* Note that a blind-play from an empty CANNOT be a *Delayed Play Clue* through someone else's hand.
+
+### Stacked Empty Clues - Through Unknown Already-Finessed Cards
 
 * With normal Hyphen-ated conventions, you must unravel an existing layer before moving on to a new one.
 * This also applies to empty clue blind-plays. If a player has an existing *Finesse* that they are playing into, then they are NOT supposed to demonstrate their empty clue action immediately.
