@@ -1919,3 +1919,8 @@ n/a
 | The Composition Discard | Libster
 | The Negative Self-Chop Move | Libster
 | The Known Priority Bluff | Zamiel
+| Empty Clues | Zamiel
+| The Empty Finesse | Instantiation
+| The Flush Clue | Florrat
+| The Fresh Play Clue | Instantiation
+| The Speculation Prompt & The Speculation Finesse | Libster, Forrat, and Zamiel
