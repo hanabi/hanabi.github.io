@@ -1169,15 +1169,28 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### Rank Priority Prompts/Finesses in Multi-Color Variants
 
-* When you get a play clue on a card that could be multiple suits, you must take the average of all of the ranks and treat the card as having that rank for the purposes of performing a *Rank Priority Finesse*.
-* For example, in a 3-player *Wild & Crazy* game:
-  * The green 1 and rainbow 2 are played on the stacks.
-  * Alice receives a yellow *Play Clue* on slot 1.
-  * This means that the card could be a green 2, orange 1, or rainbow 3.
-  * Thus, the average rank is: (2 + 1 + 3) / 3 = 2
-  * Alice also knows that she can play a white 2 on slot 4.
-  * Since 2 is equal to 2, Alice is expected to play the left-most card first, and she should play the slot 1 yellow card.
-  * If the average rank of the yellow card ended up being higher than 2.0, then Alice would have to play the white 2 first from slot 4, or else it would initiate a *Rank Priority Finesse*.
+* When you get a *Play Clue* on a card that could be two or more different suits, you must take the average of all of the ranks and treat the card as having that rank for the purposes of performing a *Rank Priority Finesse*.
+* For example, in a 3-player *Dual-color Suits* game:
+  * The green 1 and purple 1 are played on the stacks.
+  * Alice receives a blue *Play Clue* on her slot 1 card.
+  * This means that the card could be a green 2, a purple 2, or a navy 1.
+  * Thus, the average rank is: (2 + 2 + 1) / 3 = 1.67
+  * Alice also knows that she can play a white 2 that is in her slot 4.
+  * Since 1.67 is lower than 2, Alice is expected to play the blue card first.
+  * If Alice plays the white 2 instead, it would initiate a *Rank Priority Finesse* and promise that someone has the white 3.
+
+### The Speculation Prompt & The Speculation Finesse (in Multi-Color Variants)
+
+* Normally, a player needs to know the exact identity of a card in order to initiate a *Priority Prompt* or *Priority Finesse*. However, when a player gets a color *Play Clue* in a variant with a multi-color suit, most of the time they will not know the exact identiy of the card they are playing.
+* Subsequently, if a player plays a non-priority card that they do not know the exact identity of, this can be quite strange. In this situation, they are trying to perform a speculative *Priority Prompt* or *Priority Finesse* with the intent that it will only work if they happen to be playing a specific suit. This is called a *Speculation Prompt* or a *Speculation Finesse* for short.
+* We agree that a *Speculation Prompt* or *Speculation Finesse* only promises the next card in the suit that is the left-most of the possible suits that it could be (when looking at the suits in the middle of the table).
+* For example, in a *Dual-color Suits* game:
+  * Alice has a playable blue card with an average rank of 1.67 (green 2, purple 2, or navy 1).
+  * Alice also has a playable orange 1.
+  * Alice plays the playable blue card as a *Speculation Finesse*.
+  * Between green, purple, and navy, the green suit has *Speculation Priority*, since it is the left-most suit of the three.
+  * After the card is played, if it happens to be green 2, then the rest of the team is promised the green 3, just like a normal *Priority Prompt* or *Priority Finesse*.
+  * After the card is played, if it is not green 2, then nothing happens.
 
 ### The Priority Bluff & The Priority Layered Finesse
 
