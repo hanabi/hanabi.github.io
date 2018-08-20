@@ -18,8 +18,6 @@
   * [Keldon's implemenation](http://keldon.net/hanabi/) does not allow empty clues.
   * [Hanabi Live's implementation](https://hanabi.live) follows Keldon's lead and disables empty clues by default. However, game creators can allow empty clues an as optional setting when creating a game.
 
-<br />
-
 ### Basic Description
 
 * [Floris van Doorn](https://github.com/fpvandoorn/) created a convention framework called Hat-Guessing in June 2016. This framework is entirely separate from the Hyphen-ated convention framework and is covered in a [separate document](https://github.com/Zamiell/hanabi-conventions/blob/master/Hat_Guessing.md).
@@ -34,9 +32,7 @@
 * Unlike Hat-Guessing, it does not matter which player recieves a clue. If it is possible to give the empty clue to more than one player, then the clue should be given to the player that would benefit the most from the negative information.
 * Unlike Hat-Guessing, players do not have to blind-play their card immediately, because other players can generally derive what their action is from play priority (which is listed below).
 
-<br />
-
-## Empty Clue Example
+### Example
 
 * For example, on the first turn of a 4-player game:
   * Alice goes first.
@@ -71,14 +67,10 @@
   1) lowest rank
   2) left-most
 
-<br />
-
 ### Giving Blind-Plays to Already Called Cards
 
 * As per the play-priority list above, if a player only has one playable card in their hand and it is already fully known, then you DO have to include them in the empty clue action set. In this case, you would tell them to blind-play the slot of the card that they already have full knowledge about.
 * However, if a player is *Finessed* for a card that is currently unplayable AND they have no other current playable cards, then you DO NOT include them in the empty clue action set, since they cannot immediately play anything on their turn. In this case, the player should be assigned an action of 0 (give a clue or discard).
-
-<br />
 
 ### Stacked Empty Clues - Through Known Clued Cards
 
@@ -115,8 +107,6 @@
   * Bob blind-plays the red 4.
   * Cathy blind-plays the yellow 2.
 * Note that *Stacked Empty Clues* do NOT apply to *Prompts*. Players do NOT have to wait for other clued cards in their own hand (or in other player's hands) before blind-playing a card assigned to them in an empty clue. (They are only obligated to unravel their own layers first.)
-
-<br />
 
 ### Empty Finesses
 
