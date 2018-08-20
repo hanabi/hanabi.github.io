@@ -83,7 +83,7 @@
   * Cathy gives an empty clue of number 2, with the intent for Alice to blind-play slot 1 and Bob to blind-play slot 1.
   * Alice blind-plays her slot 1.
   * Bob knows that Cathy's clue is telling him to blind-play his slot 1. However, he must play all the known-playable cards in his hand first. So, he marks his slot 1 card as currently playable, and plays his other clued 1 first.
-* Note that a blind-play from an empty CANNOT be a *Delayed Play Clue* through someone else's hand.
+* Note that a blind-play from an empty clue CANNOT be a *Delayed Play Clue* through someone else's hand.
 
 ### Stacked Empty Clues - Through Already-Finessed Cards
 
