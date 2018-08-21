@@ -67,10 +67,10 @@
   1) lowest rank
   2) left-most
 
-### Giving Blind-Plays to Already Called Cards
+### Giving Plays to Already Called Cards
 
-* As per the play-priority list above, if a player only has one playable card in their hand and it is already fully known, then you DO have to include them in the empty clue action set. In this case, you would tell them to blind-play the slot of the card that they already have full knowledge about.
-* However, if a player is *Finessed* for a card that is currently unplayable AND they have no other current playable cards, then you DO NOT include them in the empty clue action set, since they cannot immediately play anything on their turn. In this case, the player should be assigned an action of 0 (give a clue or discard).
+* As per the empty clue play priority list above, if a player only has one playable card in their hand and it is already fully known, then you CANNOT assign them a "clue or discard" action. In this case, you would tell them to blind-play the slot of the card that they already have full knowledge about.
+* However, if a player is *Finessed* for a card that is currently unplayable AND they have no other current playable cards, then you MUST assign them a "clue or discard" action, since they cannot immediately play anything on their turn.
 
 ### Stacked Empty Clues - Through Known Clued Cards
 
