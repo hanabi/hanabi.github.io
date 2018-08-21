@@ -539,7 +539,12 @@ Note that in this user interface, players are holding their hands like they woul
 * A player with a fully clued hand may give a low-value clue because they are not sure that they can play anything (and they can't discard because their hand is fully clued). Similar to a *Double Discard* situation, players should not read too closely into any clues given during this state.
 * If the team is out of clues and someone's hand is fully clued, then you HAVE to discard to generate a clue for them. Similarly, if there is only 1 clue left, you cannot steal it from them.
 * Players with a *Locked Hand* gain the special ability to save any card on chop. This is called a *Locked Hand Save* if it saves a card that would otherwise not be legal to save (like some one-away card that is not in the discard pile yet). However, players can only do *Locked Hand Saves* if there are no higher priority clues available. See the "Allowable Stall Clues" section above.
-* Furthermore, if a player's chop is their slot 1, players are NOT allowed to *Locked Hand Save* it. In this situation, the *Play Clue* interpretation would take priority, because it would be unlikely for a player with a *Locked Hand* to want to lock another player on the team with a non-critical card.
+
+### The Fresh Play Clue
+
+* If a player's chop is their slot 1, *Locked* players are NOT allowed to *Locked Hand Save* it. This follows from basic logic: it would be unlikely for a player with a *Locked Hand* to want to lock another player on the team with a non-critical card.
+* Therefore, when a slot 1 chop card is clued by a *Locked* player, a *Play Clue* interpretation always takes priority over a *Locked Hand Save* interpretation.
+* This type of *Play Clue* is called a *Fresh Play Clue* in order to disambiguate it from a *Locked Hand Save*.
 
 ### The Anxiety Play (Forcing a Locked Player to Play)
 
