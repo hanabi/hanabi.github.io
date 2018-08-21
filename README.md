@@ -725,6 +725,7 @@ This section is unique in that it contains things that are separate from actual 
 * *Baton Discards* are mostly useful for two main reasons:
   1) To better satisfy *Team Distribution Principle*. It makes sense to transfer a card out of a locked / almost locked hand to a player with an "empty" hand or a hand that only has one card clued in it.
   2) You want to protect your own chop. If you discard your chop, the team could be losing some high-value one-away card. But if you transfer a card to someone else, it gives you something "safe" to do.
+  3) It sets up for a valuable clue, such as a multiple *Finesse* or *Layered Finesse*, that would only work if given to the matching card in the other player's hand.
 
 ### The Certain Finesse / The Certain Discard
 
