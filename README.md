@@ -71,29 +71,28 @@ While there are some weird strategies that could throw you for a loop if you hav
 * The "chop" is the right-most unclued card.
 * When a player needs to discard and has no known safe discards, they discard the chop card.
 
-### 2. Good Touch Principle
+### 2. Minimum Clue Value Principle
+
+* A given clue must either:
+  * indicate sufficient information for one or more previously unclued cards to be played
+  * prevent the possible discard of a card that needs to be saved
+
+### 3. Save Principle
+
+* Cards that meet the following criteria need to be saved:
+  * only one copy remains (e.g. 5's or unplayed cards in the discard pile)
+  * it is a 2 and not visible elsewhere in players' hands
+  * it is currently playable and not visible elsewhere in players' hands
+* When a card that needs to be saved is at immediate risk of being discarded, it must be indicated with a *Save Clue*.
+* A player receiving a clue should give precedence to a *Save Clue* interpretation over a *Play Clue* interpretation.
+
+### 4. Good Touch Principle
 
 * A safe discard is defined as:
   * a copy of a card that has already been played
   * a copy of a card that is in someone's hand and has been clued
 * Safe discards should NOT be clued (unless there's an important reason to).
 * Players should generally assume that any clued card in their hand will be eventually be played.
-
-### 3. Save Principle
-
-* Cards that meet the following criteria need to be saved:
-  * only one copy remains (e.g. 5's or unplayed cards in the discard pile)
-  * it is currently playable and not visible elsewhere in players' hands
-  * it is a 2 and not visible elsewhere in players' hands
-(this is the *2 Saves* convention)
-* When a card that needs to be saved is at immediate risk of being discarded, it must be indicated with a save clue.
-* A player receiving a clue should give precedence to a *Save Clue* interpretation over a *Play Clue* interpretation.
-
-### 4. Minimum Clue Value Principle
-
-* A given clue must either:
-  * indicate sufficient information for one or more previously unclued cards to be played or
-  * prevent the possible discard of a card that needs to be saved
 
 ### 5. Play Order Principle
 
