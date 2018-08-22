@@ -31,7 +31,25 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 
 <br />
 
-## Clue Interpretation Table (4-Player and 5-Player)
+## Clue Interpretation Tables
+
+### 3-Player
+
+| # mod 9 | action    | person clued   | type of clue
+| ------- | --------- | -------------- | -------------
+| 0 (9)   | give clue | 1 player away  | number on newest card
+| 1 (10)  | play 1    | 1 player away  | color on newest card
+| 2 (11)  | discard 5 | 1 player away  | number clue which is not 1 and doesn't hit newest card
+| 3 (12)  | play 3    | 1 player away  | color clue not on newest card
+| 4 (13)  | play 4    | 2 players away | number on newest card
+| 5 (14)  | play 5    | 2 players away | color on newest card
+| 6 (15)  | discard 2 | 2 players away | number clue which is not 1 and doesn't hit newest card
+| 7 (16)  | discard 3 | 2 players away | color clue not on newest card 
+| 8 (17)  | discard 4 | any player     | 1 clue not on newest card
+
+<br />
+
+### 4-Player and 5-Player
 
 | # mod 9 | action    | person clued   | type of clue
 | ------- | --------- | -------------- | -------------
@@ -107,22 +125,6 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 | 26 mod 9  | 8
 
 </td></tr> </table>
-
-<br />
-
-## Clue Interpretation Table (3-Player)
-
-| # mod 9 | action    | person clued   | type of clue
-| ------- | --------- | -------------- | -------------
-| 0 (9)   | give clue | 1 player away  | number on newest card
-| 1 (10)  | play 1    | 1 player away  | color on newest card
-| 2 (11)  | discard 5 | 1 player away  | number clue which is not 1 and doesn't hit newest card
-| 3 (12)  | play 3    | 1 player away  | color clue not on newest card
-| 4 (13)  | play 4    | 2 players away | number on newest card
-| 5 (14)  | play 5    | 2 players away | color on newest card
-| 6 (15)  | discard 2 | 2 players away | number clue which is not 1 and doesn't hit newest card
-| 7 (16)  | discard 3 | 2 players away | color clue not on newest card 
-| 8 (17)  | discard 4 | any player     | 1 clue not on newest card
 
 <br />
 
