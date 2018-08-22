@@ -117,6 +117,21 @@
 * How does the first player know which card to play? They have to enumerate all of the possibilities until they find a sequence that satisfies the initial clue.
 * When looking for a valid sequence, a player might use *Occam's Razor* to default to a 2-for-1 interpretation over a 3-for-1 interpretation. But by convention, if an *Empty Finesse* sequence is possible for a 3-for-1, then players should prefer that over the 2-for-1.
 
+### The Empty Double-Play (Symmetric Version)
+
+* If an empty clue is given, and that exact empty clue could have been given to three or more players, then the fact that the clue giver had a choice is globally known.
+* In this situation, the empty clue should be given to the left-most player. (This roughly follows from *Left-Most Playable Principle*.)
+* If the empty clue is given to the right-most player instead, then the clue giver must be trying to communicate something extra.
+* This means that the first person assigned with a play action is stacked with another play action on their *Finesse Position*.
+* In this situation, the first empty clue card must be blind-played first. Thus, it is possible to stack a *Play Clue* on a currently unplayable card that will be playable on the next round.
+
+### The Empty Double Play (Asymmetric Version)
+
+* It is also possible to perform an *Empty Double Play* when the empty clue is possible to give to exactly two players. However, in this case, it would not be globally known: the 2nd player (who is not clued) would not see that the clue giver had a choice.
+* In this case, every player should keep in mind that this player "in the dark" may *Play Clue* the *Double Played* card. (And this would not cause a *Double Play Ejection*.)
+* Furthermore, the player "in the dark" may duplicate the *Double Played* card in someone else's hand. (And this would not cause an *Unknown Trash* ejection.) The clue reciever should *Sarcastic Discard* the card if possible.
+* However, it will not always be possible to *Sarcastic Discard*, especially if the duplication is in the empty clue giver's hand. Thus, the asymmetric *Empty Double Play* is quite dangerous - it has a high chance of leading to a misplay. It should only to be done in special circumstances.
+
 <br />
 
 ## Clue Interpretation Tables
