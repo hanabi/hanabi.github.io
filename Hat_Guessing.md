@@ -35,15 +35,15 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 
 | # mod 9 | action    | person clued   | type of clue
 | ------- | --------- | -------------- | -------------
-| 0       | give clue | 1 player away  | number on newest card
-| 1       | play 1    | 1 player away  | color on newest card
-| 2       | play 2    | 1 player away  | any clue not touching the newest card
-| 3       | play 3    | 2 player away  | number on newest card
-| 4       | play 4    | 2 players away | color on newest card
-| 5 = -4  | discard 1 | 2 players away | any clue not touching the newest card
-| 6 = -3  | discard 2 | 3 players away | number on newest card
-| 7 = -2  | discard 3 | 3 players away | color on newest card
-| 8 = -1  | discard 4 | 3 players away | any clue not touching the newest card
+| 0 (9)   | give clue | 1 player away  | number on newest card
+| 1 (10)  | play 1    | 1 player away  | color on newest card
+| 2 (11)  | play 2    | 1 player away  | any clue not touching the newest card
+| 3 (12)  | play 3    | 2 player away  | number on newest card
+| 4 (13)  | play 4    | 2 players away | color on newest card
+| 5 (14)  | discard 1 | 2 players away | any clue not touching the newest card
+| 6 (15)  | discard 2 | 3 players away | number on newest card
+| 7 (16)  | discard 3 | 3 players away | color on newest card
+| 8 (17)  | discard 4 | 3 players away | any clue not touching the newest card
 
 <br />
 
@@ -114,15 +114,15 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 
 | # mod 9 | action    | person clued   | type of clue
 | ------- | --------- | -------------- | -------------
-| 0       | give clue | 1 player away  | number on newest card
-| 1       | play 1    | 1 player away  | color on newest card
-| 2       | discard 5 | 1 player away  | number clue which is not 1 and doesn't hit newest card
-| 3       | play 3    | 1 player away  | color clue not on newest card
-| 4       | play 4    | 2 players away | number on newest card
-| 5 = -4  | play 5    | 2 players away | color on newest card
-| 6 = -3  | discard 2 | 2 players away | number clue which is not 1 and doesn't hit newest card
-| 7 = -2  | discard 3 | 2 players away | color clue not on newest card 
-| 8 = -1  | discard 4 | any player     | 1 clue not on newest card
+| 0 (9)   | give clue | 1 player away  | number on newest card
+| 1 (10)  | play 1    | 1 player away  | color on newest card
+| 2 (11)  | discard 5 | 1 player away  | number clue which is not 1 and doesn't hit newest card
+| 3 (12)  | play 3    | 1 player away  | color clue not on newest card
+| 4 (13)  | play 4    | 2 players away | number on newest card
+| 5 (14)  | play 5    | 2 players away | color on newest card
+| 6 (15)  | discard 2 | 2 players away | number clue which is not 1 and doesn't hit newest card
+| 7 (16)  | discard 3 | 2 players away | color clue not on newest card 
+| 8 (17)  | discard 4 | any player     | 1 clue not on newest card
 
 <br />
 
@@ -194,14 +194,14 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 
 | # mod 11 | action    | person clued   | type of clue
 | -------- | --------- | -------------- | --------------
-| 0        | give clue | 1 player away  | clue blue
-| 1        | play 1    | 1 player away  | clue green
-| 2        | play 2    | 1 player away  | clue yellow
-| 3        | play 3    | 1 player away  | clue red
-| 4        | play 4    | 1 player away  | clue purple
-| 5        | play 5    | 1 player away  | clue orange
-| 6  = -5  | discard 1 | 2 players away | clue blue
-| 7  = -4  | discard 2 | 2 players away | clue green
-| 8  = -3  | discard 3 | 2 players away | clue yellow
-| 9  = -2  | discard 4 | 2 players away | clue red
-| 10 = -1  | discard 5 | 2 players away | clue purple
+| 0  (11)  | give clue | 1 player away  | clue blue
+| 1  (12)  | play 1    | 1 player away  | clue green
+| 2  (13)  | play 2    | 1 player away  | clue yellow
+| 3  (14)  | play 3    | 1 player away  | clue red
+| 4  (15)  | play 4    | 1 player away  | clue purple
+| 5  (16)  | play 5    | 1 player away  | clue orange
+| 6  (17)  | discard 1 | 2 players away | clue blue
+| 7  (18)  | discard 2 | 2 players away | clue green
+| 8  (19)  | discard 3 | 2 players away | clue yellow
+| 9  (20)  | discard 4 | 2 players away | clue red
+| 10 (21)  | discard 5 | 2 players away | clue purple
