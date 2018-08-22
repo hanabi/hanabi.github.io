@@ -1141,7 +1141,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * After the *Finesse* has occurred, but before the promised card has been blind-played, there is a window where a teammate might find strategic value in duplicating the promised card in someone else's hand.
 * Unless the duplication was a last-resort, if the teammate duplicates the blind card, it PROMISES that the duplicated card is on *Finesse Position* (and there is NO *Layered Finesse*), which allows the recipient of the *Finesse* to blind-discard that card, similar to a *Certain Discard*.
 * Finally, from the perspective of the player receiving the clue, if they end up playing the duplicated card first, then they should know that the focus of the original clue was on the other, non-duplicated card, and they can play it immediately afterwards. (Otherwise, the original clue would be fairly low-value.)
-* Note that as long as the duplication clue touches two or more cards, the *Certain Discard Duplication Promise* interpretation takes priority over the *Dupe Ejection* interpretation. (*Ejection* is covered later on.)
+* Note that as long as the duplication clue touches two or more cards, the *Certain Discard Duplication Promise* interpretation takes priority over the *Unknown Trash Ejection* interpretation. (*Ejection* is covered later on.)
 * Examples:
   * Game #6817, turn 15
   * Game #6799, turn 5
@@ -1744,11 +1744,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 * *Ejection* refers to a move like a *Bluff*, but instead of playing an unrelated card from *Finesse Position*, someone plays an unrelated card from their *Second Finesse Position*. For example, if a player's hand hand is completely unclued, their *Second Finesse Position* is slot 2.
 * Certain types of "wasted" clues with no other purppse signal an *Ejection*.
-
-#### Dupe Ejection
-
-* If someone clues a card as a "one for one", and that card is already clued in someone else's hand, this is usually a *Distribution Clue*, which is sometimes done in the *End-Game*.
-* However, if this type of move is done before the *End-Game*, it must have some other purpose - it should signal an *Ejection* on the very next player.
 
 #### Known Trash Ejection
 
