@@ -1945,3 +1945,5 @@ n/a
 | The Fresh Play Clue | Instantiation
 | The Speculation Prompt & The Speculation Finesse | Libster, Forrat, and Zamiel
 | The Declined 5's Finesse | Zamiel
+| The Empty Double-Play | Zamiel & Jeep
+| The Suboptimal Save Prompt & The Suboptimal Save Finesse | Zamiel
