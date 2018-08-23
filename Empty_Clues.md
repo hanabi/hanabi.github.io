@@ -60,8 +60,8 @@
 ### Play Priority
 
 * If a player has two or more playable cards, the priority is as follows:
-  1) unclued & unknown cards
-  2) clued & unknown cards (which includes cards from *Finesses*)
+  1) unclued & unknown cards (which includes *Chop Moved* cards)
+  2) clued & unknown cards (which includes *Finessed* cards)
   3) clued & known cards
 * If there two or more cards of the same category, then the priority is as follows:
   1) lowest rank
