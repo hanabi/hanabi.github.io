@@ -1327,10 +1327,11 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 ### Rainbow 1oE Saves
 
 * This convention applies to the *Rainbow Suit (one of each)* variant.
-* Players should save rainbow cards with a number clue.
+* Players should save rainbow 3 and rainbow 4 with a number clue.
 * There are two exceptions to this:
   * if the color clue also touched another critical card (that is not rainbow)
   * if the color matches a suit that is already completely played or accounted for
+* Note that this convention does NOT apply to the *Rainbow & Black Suits (one of each)* variant. In that variant, you must save rainbow 3 and rainbow 4 with a black color clue.
 
 <br />
 
