@@ -1707,7 +1707,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * The "passing" player was in *Bluff Seat*.
 * *Pass Bluffs* rely on contextual information in order to work, so the circumstances in which you can do them are narrow.
 * It is illegal for a player to perform a *Pass Bluff* if they could be *Bluffed* themself. This is because the first *Bluff* would not resolve immediately and would violate *Good Lie Principle*.
-  * The exception to this is if the *Pass Bluffing* player could be *Double Half Bluffed* and they see that if they are, they can convert it into a true *Layered Finesse*.
 
 ### The Double/Triple Pass Bluff
 
