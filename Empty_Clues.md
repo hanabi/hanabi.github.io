@@ -29,8 +29,9 @@
   * In a 3-player game, it is possible to give an empty clue as a 2-for-1.
   * In a 4-player game, it is possible to give an empty clue as a 2-for-1 or a 3-for-1.
   * In a 5-player game, it is possible to give an empty clue as a 2-for-1, a 3-for-1, or a 4-for-1.
+* Like Hat Guessing, players should generally blind-play their cards immediately, so that other players can figure out what their action is. (Since players can have duplicate cards in their hand, they cannot necessarily know for sure what action was assigned to a player who choses to defer.) With that said, the last player in a sequence can always defer to do something else, because no-one else's action depends on them.
 * Unlike Hat-Guessing, it does not matter which player recieves a clue. If it is possible to give the empty clue to more than one player, then the clue should be given to the player that would benefit the most from the negative information.
-* Unlike Hat-Guessing, players do not have to blind-play their card immediately, because other players can generally derive what their action is from play priority (which is listed below).
+
 
 ### Example
 
