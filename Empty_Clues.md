@@ -114,8 +114,7 @@
 * An empty clue must get at least two (new) blind-plays. Otherwise, it would not be worth resorting to an empty clue.
 * Thus, if an empty clue is given that looks like it is only getting 1 (or 0) brand new cards, then the clue giver is intending something extra.
 * In this situation, the clue is actually a 2-for-1 or better in the form of a *Finesse* - a card in one player's hand hand leads into a card in the next player's hand.
-* How does the first player know which card to play? They have to enumerate all of the possibilities until they find a sequence that satisfies the initial clue.
-* When looking for a valid sequence, a player might use *Occam's Razor* to default to a 2-for-1 interpretation over a 3-for-1 interpretation. But by convention, if an *Empty Finesse* sequence is possible for a 3-for-1, then players should prefer that over the 2-for-1.
+* How does the first player know which card to play? They use the same play priority as above, but use it to find a one-away card.
 
 ### The Empty Double-Play (Symmetric Version)
 
