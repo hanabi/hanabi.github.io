@@ -1336,13 +1336,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ## Level 3 - Rarely Used Advanced Strategies
 
-### The Top Hat Clue
-
-* Since the *Layered Gentleman's Discard* is so efficient, clever players that see the opportunity to perform one will almost always want to do so.
-* Thus, it follows that in rare cases, when a teammate gives you a play clue on some card, they DON'T intend for you to play it. They intend for you to see the opportunity for a *Layered Gentleman's Discard*, and then immediately discard the card.
-* This kind of clue is called a *Top Hat Clue* because you are giving them an opportunity to be a gentleman.
-* Note that you should not mistake a *Top Hat Clue* for a clue that initiates a *Layered Finesse*. You are only allowed to discard the card if you can determine its exact identity.
-
 ### Hard Bluffs
 
 * Sometimes, it can be ambiguous as to whether a player blind-played a card into a *Bluff* or a *Finesse* + *Prompt*. In this situation, *aam's Razor* applies, so players should always opt with the former (simpler) interpretation. When such a *Bluff* occurs, it is called a *Hard Bluff* to disambiguate from situations where *Bluffs* happen with no ambiguity.
@@ -1560,6 +1553,13 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 <br />
 
 ## Level 4 - Rarely Used Expert Strategies
+
+### The Top Hat Clue
+
+* Since the *Layered Gentleman's Discard* is so efficient, clever players that see the opportunity to perform one will almost always want to do so.
+* Thus, it follows that in rare cases, when a teammate gives you a play clue on some card, they DON'T intend for you to play it. They intend for you to see the opportunity for a *Layered Gentleman's Discard*, and then immediately discard the card.
+* This kind of clue is called a *Top Hat Clue* because you are giving them an opportunity to be a gentleman.
+* Note that you should not mistake a *Top Hat Clue* for a clue that initiates a *Layered Finesse*. You are only allowed to discard the card if you can determine its exact identity.
 
 ### The Declined 5's Finesse
 
