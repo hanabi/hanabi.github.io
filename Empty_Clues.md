@@ -129,7 +129,7 @@
 * It is also possible to perform an *Empty Double Play* when the empty clue is possible to give to exactly two players. However, in this case, it would not be globally known: the 2nd player (who is not clued) would not see that the clue giver had a choice.
 * In this case, every player should keep in mind that this player "in the dark" may *Play Clue* the *Double Played* card. (And this would not cause a *Double Play Ejection*.)
 * Furthermore, the player "in the dark" may duplicate the *Double Played* card in someone else's hand. (And this would not cause an *Unknown Trash* ejection.) The clue reciever should *Sarcastic Discard* the card if possible.
-* However, it will not always be possible to *Sarcastic Discard*, especially if the duplication is in the empty clue giver's hand. Thus, the asymmetric *Empty Double Play* is quite dangerous - it has a high chance of leading to a misplay. It should only to be done in special circumstances.
+* However, it will not always be possible to *Sarcastic Discard*, especially if the duplication is in the empty clue giver's hand. Thus, the asymmetric *Empty Double Play* is quite dangerous - it has a decent chance of leading to a misplay. It should only to be done in special circumstances.
 
 <br />
 
