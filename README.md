@@ -215,7 +215,7 @@ Note that in this user interface, players are holding their hands like they woul
 
 * Normally, every clue that is given is either a *Save Clue* or a *Play Clue*. One small exception to this is a *Fix Clue,* which is attempting to "fix" an impending misplay.
 * *Fix Clues* are often needed when a duplicate card is touched. (For example, when a red 2 is clued in Player A's hand, and the other red 2 is clued in Player B's hand.) Cards are not normally duplicated (which follows from *Good Touch Principle*), but sometimes someone makes a mistake, or a sequence of particular cards makes duplicating necessary.
-* In such a situation, because of *Good Touch Principle*, the players with the duplicate cards will assume the identity of their cards to be something else, and may go on to misplay those cards. Thus, it is the team's responsibility to fix the problem and intervene before this happens.
+* In such a situation, because of *Good Touch Principle*, the players with the duplicate cards will assume the identity of their cards to be something else and may go on to misplay those cards. Thus, it is the team's responsibility to fix the problem and intervene before this happens.
 * **A clue cannot be a *Play Clue* and a *Fix Clue* at the same time.** If you receive a *Fix Clue* and it touches other ancillary cards, none of them are necessarily playable; the primary point of the clue is to fix the impending misplay.
 * Usually a *Fix Clue* will "fill in" the card to explicitly make it known that the card is unplayable or duplicated. However, it is also possible to perform a *Fix Clue* just by cluing the card again. For example:
   * Alice clues Bob number 1 and it touches three 1's.
@@ -225,7 +225,7 @@ Note that in this user interface, players are holding their hands like they woul
 
 ### Prompts
 
-* Imagine that you have a card in your hand that has a clue on it, but the full identity of the card is currently unknown. In this situation, you are supposed to just keep the card in your hand, and continue to discard unclued cards.
+* Imagine that you have a card in your hand that has a clue on it, but the full identity of the card is currently unknown. In this situation, you are supposed to just keep the card in your hand and continue to discard unclued cards.
 * If someone gives a *Play Clue* to a card that is currently unplayable, and the "in-between" card matches the clued card in your hand, then they could be telling YOU to play the clued card. This is called a *Prompt* because it is "prompting" you to play a card that you would have otherwise held on to.
 * For example, in a 3-player game:
   * All the 2's have been played on the stacks.
@@ -285,7 +285,7 @@ Note that in this user interface, players are holding their hands like they woul
 * For example, on the first turn of a 3-player game:
   * Alice clues Bob red, which touches his red 2.
   * Next, it is Bob's turn. Normally, Bob would think that he had the red 1, and play it immediately.
-  * However, Bob also notices that on Cathy has a red 1 on her slot 1 position. Thus, he has to give a chance for Cathy to prove whether or a *Reverse Finesse* is happening. If Cathy does not blind-play anything, then Bob should have the red 1, and he can play it on his next turn.
+  * However, Bob also notices that on Cathy has a red 1 on her slot 1 position. Thus, he has to give a chance for Cathy to prove whether or not a *Reverse Finesse* is happening. If Cathy does not blind-play anything, then Bob should have the red 1, and he can play it on his next turn.
   * Bob discards.
   * Cathy blind-plays red 1. Bob now knows that he has the red 2.
 
