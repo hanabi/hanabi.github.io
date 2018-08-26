@@ -354,7 +354,8 @@ Note that in this user interface, players are holding their hands like they woul
   * Bob clues blue to Cathy as a chop-focus *Play Clue*.
 * Similar to a normal *Prompt*, if a *Priority Prompt* could apply to two or more clued cards, then you should play the left-most one.
 * Similar to a normal *Prompt*, if a *Priority Prompt* made you play the left-most card and it was not the matching card, then you should continuing playing clued cards until you find the matching card.
-* Finally, note that the "left-most" *Priority* is contextual and does not always apply. For example, it is common for players to play a right-most card that was originally clued with a *Save Clue*, since that card was explicitly saved and that the other cards in the hand of the same rank could potentially be duplicates.
+* Note that the "left-most" *Priority* is contextual and does not always apply. For example, it is common for players to play a right-most card that was originally clued with a *Save Clue*, since that card was explicitly saved and that the other cards in the hand of the same rank could potentially be duplicates.
+* Normally, blind-playing cards has *Priority* over playing clued cards that lead into other people's hands. However, blind-playing cards from *Gentleman's Discards* is a special exception and does NOT have priority. (*Gentleman's Discards* are a special move that is covered later.)
 
 ### A Priority Flowchart (For Choosing Between 2+ Playable Cards)
 
