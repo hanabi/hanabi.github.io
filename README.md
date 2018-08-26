@@ -719,6 +719,7 @@ This section is unique in that it contains things that are separate from actual 
   * Cathy discards the known red 1 as a *Gentleman's Discard*.
   * Alice blind-plays her *Finesse Position* card as red 1.
 * The *Gentleman's Discard* essentially transfers a card to another player on the team. However, often times, doing this will delay things and cost the team *Tempo*. Thus, a *Gentleman's Discard* that slows things down is only good if there is some other side benefit to offset the lost *Tempo* (such as delaying the discard of a valuable card, for example).
+* For the purposes of *Priority*, *Gentleman's Discards* do not count as a blind-play. This means that if there is a playable clued card that leads into someone else's hand, then it should have priority over the blind-play from the *Gentleman's Discard*. (This is because the *Gentleman's Discard* is an information-symmetric move and nothing needs to be "proven" to other members of the team.)
 
 ### The Baton Discard
 
