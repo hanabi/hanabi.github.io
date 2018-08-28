@@ -109,11 +109,17 @@
   * Cathy blind-plays the yellow 2.
 * Note that *Stacked Empty Clues* do NOT apply to *Prompts*. Players do NOT have to wait for clued cards in other player's hands before blind-playing a card assigned to them in an empty clue.
 
+### Minimum Empty Clue Value Principle
+
+* Normally, a clue is allowed to touch a single card as a 1-for-1. However, this does not apply to empty clues. Empty clues must be better than this.
+* At a bare minimum, an empty clue must either:
+  * Get two brand new cards blind-played (as a 2-for-1)
+  * Get one brand new card blind-played (as a 1-for-1) and *Prompt* at least one card that would not have played otherwise
+
 ### Empty Finesses
 
-* An empty clue must get at least two (new) blind-plays. Otherwise, it would not be worth resorting to an empty clue.
-* Thus, if an empty clue is given that looks like it is only getting 1 (or 0) brand new cards, then the clue giver is intending something extra.
-* In this situation, the clue is actually a 2-for-1 or better in the form of a *Finesse* - a card in one player's hand hand leads into a card in the next player's hand.
+* If an empty clue does NOT meet *Minimum Empty Clue Value Principle*, then this is quite strange. In this situation, the clue giver must be trying to communicate something extra, or else they would not bother to use an empty clue in the first place.
+* In this situation, the clue IS actually meeting *Minimum Empty Clue Value Principle* in the form of a *Finesse* - a card in one player's hand hand leads into a card in the next player's hand.
 * How does the first player know which card to play? They use the same play priority as above, but use it to find a one-away card.
 
 ### The Empty Double-Play (Symmetric Version)
