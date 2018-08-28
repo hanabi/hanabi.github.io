@@ -113,8 +113,8 @@
 
 * Normally, a clue is allowed to touch a single card as a 1-for-1. However, this does not apply to empty clues. Empty clues must be better than this.
 * At a bare minimum, an empty clue must either:
-  * Get two brand new cards blind-played (as a 2-for-1)
-  * Get one brand new card blind-played (as a 1-for-1) and *Prompt* at least one card that would not have played otherwise
+  * get two brand new cards blind-played (as a 2-for-1)
+  * get one brand new card blind-played (as a 1-for-1) and *Prompt* at least one card that would not have played otherwise
 
 ### Empty Finesses
 
