@@ -565,6 +565,13 @@ Note that in this user interface, players are holding their hands like they woul
 
 This section is unique in that it contains things that are separate from actual moves and strategies. We refer to them in post-game reviews when thinking about the game.
 
+### Misplay Cost Principle
+
+* On a turn where a player misplays and accumulates a strike for the team, they could have discarded instead and generated a clue.
+* So, if you can spend one clue to stop one misplay, the value comes out even.
+* Thus, since there are only 3 strikes, it is almost always worth it to spend one clue to stop one strike.
+* If it would require two clues to stop an impending misplay, then as long as the strike would not lose the game, it is usually best to let the player misplay the card and get a strike.
+
 ### Stomping on a Finesse
 
 * This is when a player clues a card directly that was going to be blind-played from a *Finesse*. Typically, this is a mistake, and it means that the player who gave the clue was not paying attention and failed to see that a *Finesse* happened at all.
