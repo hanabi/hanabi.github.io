@@ -83,15 +83,12 @@
   * Cathy gives an empty clue of number 2, with the intent for Alice to blind-play slot 1 and Bob to blind-play slot 1.
   * Alice blind-plays her slot 1.
   * Bob knows that Cathy's clue is telling him to blind-play his slot 1. However, he must play all the known-playable cards in his hand first. So, he marks his slot 1 card as currently playable, and plays his other clued 1 first.
-* Note that a blind-play from an empty clue CANNOT be a *Delayed Play Clue* through someone else's hand.
+* Note that a blind-play from an empty clue CANNOT be a *Delayed Play Clue* through someone else's hand (or a *Prompt* on someone else's card).
 * Players should always assume a stacked empty clue interpretation over a re-target interpretation. (This follows from the play priority list above.)
 
 ### Stacked Empty Clues - Through Already-Finessed Cards
 
-* With normal Hyphen-ated conventions, you must unravel an existing layer before moving on to a new one.
-* This also applies to empty clue blind-plays. If a player has an existing *Finesse* that they are playing into, then they are NOT supposed to demonstrate their empty clue action immediately.
-* Rather, the empty clue action is stacked on top of them, similar to a *Stacked Finesse*. Unlike normal *Hat Guessing*, the other players do NOT need to have the action demonstrated in order to know what the stacked action is, because they can just use the play priority list above.
-* Because of this, it is possible to give *Delayed Play Clues* as part of the empty clue actions, as long as the cards leading to the card are globally known.
+* From the above section, we know that players should play all the known-playable cards in his hand first. This includes blind-plays from previous *Finesses*.
 * For example, in a 3-player game:
   * All the 1's are played on the stacks.
   * Alice clues number 3 to Cathy, which touches a red 3.
