@@ -88,7 +88,7 @@
 
 ### Stacked Empty Clues - Through Already-Finessed Cards
 
-* From the above section, we know that players should play all the known-playable cards in his hand first. This includes blind-plays from previous *Finesses*.
+* From the previous section, we know that players should play all the known-playable cards in his hand first. This includes blind-plays from previous *Finesses*.
 * For example, in a 3-player game:
   * All the 1's are played on the stacks.
   * Alice clues number 3 to Cathy, which touches a red 3.
