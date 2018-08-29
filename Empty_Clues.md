@@ -79,7 +79,7 @@
 * However, as a special exception, you DO have to treat an empty clue blind-play as a *Delayed Play Clue* if you have one or more cards in your hand that are already known-playable.
 * For example, in a 3-player game:
   * Alice clues Bob 1's, which touches two 1's.
-  * Bob plays the rightmost 1.
+  * Bob plays the right-most 1.
   * Cathy gives an empty clue of number 2, with the intent for Alice to blind-play slot 1 and Bob to blind-play slot 1.
   * Alice blind-plays her slot 1.
   * Bob knows that Cathy's clue is telling him to blind-play his slot 1. However, he must play all the known-playable cards in his hand first. So, he marks his slot 1 card as currently playable, and plays his other clued 1 first.
