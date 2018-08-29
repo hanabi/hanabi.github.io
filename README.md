@@ -1679,7 +1679,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Red 1 is played on the stacks.
   * Alice clues number 3 to Cathy, which touches one 3.
   * Bob blind-plays red 2.
-  * Cathy knows that red 2 "matches" number 3, so by convention she should probably have red 3.
+  * Cathy knows that red 2 "matches" number 3, so she knows that she probably has red 3.
   * However, Cathy also sees that before Bob blind-played the red 2, he had a blue 1 in the slot right after it.
   * Thus, it is possible for Cathy's 3 to actually be blue 3. If it is, Bob will blind-play the blue 1 and Cathy will know that she has blue 2 on her *Finesse Position*.
   * So, Cathy discards (instead of potentially playing the red 3 on this turn) to allow for the possibility of a *Surreptitious Self-Finesse*.
