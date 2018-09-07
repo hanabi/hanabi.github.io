@@ -328,7 +328,8 @@ Note that in this user interface, players are holding their hands like they woul
   * You are NOT allowed to *5 Stall* if there happens to be a playable 5. If there is a playable 5, any off-chop 5 clue will be interpreted as a *Play Clue*, a *Delayed Play Clue*, or a *Prompt*.
 * In the *Early Game*, players must "extinguish" all of the available clues on the board. Note that:
   * This DOES include cluing off-chop 5's, but it is only mandatory to clue ONE off-chop 5. If one off-chop 5 has already been clued and there is another off-chop 5 clue available, players are allowed (but not required) to clue it.
-  * If the only thing left to clue is in the hand of the player who came directly before you, then cluing is optional, and you can choose to either clue it or discard at your discretion. This is because the player who came before you did not see anything for you to do, and is therefore giving you "permission" to discard.
+  * This DOES NOT include cluing something in the hand of the player who came directly before you. (This is because the player who came before you did not see anything for you to do, and is therefore giving you "permission" to discard.) In this situation, cluing is optional; players can choose to either clue the previous hand or discard at their discretion.
+  * This DOES NOT include cluing 5's that will be almost certainly be *Order Chop Moved* by an upcoming player who already has two or more 1's clued in their hand. (*Order Chop Moves* are an advanced moved that is covered later.)
 
 ### The Priority Prompt & The Priority Finesse
 
@@ -1855,6 +1856,8 @@ n/a
 
 | Convention Name | Inventor
 | --- | ---
+| The 9 First Principles | Duneaught
+| General Principles | Zamiel & Florrat
 | 2 Saves | Hyphen-ated & Duneaught
 | Chop-Focus | Zamiel & Hyphen-ated
 | The Layered Finesse | Antizoubilamaka
@@ -1866,7 +1869,6 @@ n/a
 | The Triple Bluff | Zamiel
 | The Triple Two-Thirds Bluff | Zamiel
 | Playing 1's from Right to Left | Duneaught
-| The 9 First Principles | Duneaught
 | The Gentleman's Discard | Duneaught
 | The Layered Gentleman's Discard | Duneaught
 | The Tempo Clue Chop Move | Zamiel
@@ -1908,7 +1910,6 @@ n/a
 | The Double/Triple Pass Bluff | Zamiel
 | The Out-of-Order Finesse | Zamiel
 | The Speed-up Clue | Libster
-| General Principles | Zamiel & Florrat
 | The Misplay Trash Push | Zamiel
 | The Disease Bluff & The Heal Clue | Zamiel
 | The Double-Copy Bluff | Zamiel
@@ -1951,7 +1952,7 @@ n/a
 | The Composition Discard | Libster
 | The Negative Self-Chop Move | Libster
 | The Known Priority Bluff | Zamiel
-| Empty Clues | Zamiel
+| Empty Clues | Zamiel and Florrat
 | The Empty Finesse | Instantiation
 | The Flush Clue | Florrat
 | The Fresh Play Clue | Instantiation
