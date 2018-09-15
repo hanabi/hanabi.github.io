@@ -205,9 +205,9 @@
 | 0 (6, 12)  | clue or discard | green or yellow
 | 1 (7, 13)  | play 1          | number 1 or blue
 | 2 (8, 14)  | play 2          | number 2
-| 3 (9, 15)  | play 3          | number 3
-| 4 (10, 16) | play 4          | number 4 or red
-| 5 (11, 17) | chop move       | number 5 or purple/black
+| 3 (9, 15)  | play 3          | number 3 or red
+| 4 (10, 16) | play 4          | number 4 or purple
+| 5 (11, 17) | chop move       | number 5 or black
 
 * The chop move in action 5 is only allowed if the player has:
   * a globally-known critical card on chop
