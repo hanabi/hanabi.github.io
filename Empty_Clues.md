@@ -83,9 +83,9 @@
 * As per the empty target priority list above, if a player only has one playable card in their hand and it is already fully known, then you CANNOT assign them a "clue or discard" action. In this case, you would tell them to blind-play the slot of the card that they already have full knowledge about.
 * However, if a player is *Finessed* for a card that will not yet be playable when it reaches their turn AND they have no other currently playable cards, then you MUST assign them a "clue or discard" action, since they cannot immediately play anything on their turn.
 
-### Empty Clues after Finesses
+### Empty Clues After Finesses
 
-* After a *Finesse* occurs, one or more blind-plays must occur to "prove" what is going on. Another way of stating this is that when a *Finesse* occurs, the team becomes desyncronized, and then when the matching blind-play happens, the team becomes syncronized again.
+* After a *Finesse* is given, one or more blind-plays must occur to "prove" what is going on. Another way of stating this is that when a *Finesse* occurs, the team becomes desynchronized, and then when the matching blind-play happens, the team becomes synchronized again.
 * Giving an *Empty Clue* immediately after a *Finesse* is a BAD IDEA in most cases. This is because players lose the ability the "prove" that a *Finesse* happened, since the resulting blind-play will now be a result of the *Empty Clue* instead of the *Finesse*.
 * Because of this, care has to be taken to only give an *Empty Clue* if there are no other *Finesses* going on, or if confusion will be minimal at the very least.
 
