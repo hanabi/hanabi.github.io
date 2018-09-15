@@ -1969,3 +1969,4 @@ n/a
 | The Declined 5's Finesse | Zamiel
 | The Empty Double-Play | Zamiel & Jeep
 | The Suboptimal Save Prompt & The Suboptimal Save Finesse | Zamiel
+| The Sneaky Black Bluff | Sankala
