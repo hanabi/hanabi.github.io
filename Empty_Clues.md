@@ -60,10 +60,13 @@
 ### Play Priority
 
 * If a player has two or more playable cards, the priority is as follows:
-  1) unclued & unknown cards (which includes *Chop Moved* cards)
-  2) unclued & known playable cards (from a *Finesse* or a *Stacked Empty Clue*, for example)
-  3) clued & unknown cards (which would be an *Empty Prompt* on the card)
-  4) clued & known cards (which would just be retouching the card, which accomplishes nothing)
+  1) unknown playable cards
+    1a) unclued & completely unknown playable cards
+    1b) unclued & unknown *Chop Moved* playable cards
+    1c) clued & unknown playable cards (which would be an *Empty Prompt* on the card)
+  2) known playable cards
+    2a) unclued & known playable cards (from a *Finesse* or a *Stacked Empty Clue*, for example)
+    2b) clued & known playable cards (which would just be retouching the card, essentially accomplishing nothing new)
 * If there two or more cards of the same category, then the priority is as follows:
   1) lowest rank
   2) left-most
