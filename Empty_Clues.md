@@ -80,10 +80,10 @@
 
 ### Giving Plays to Already Called Cards
 
-* As per the empty clue play priority list above, if a player only has one playable card in their hand and it is already fully known, then you CANNOT assign them a "clue or discard" action. In this case, you would tell them to blind-play the slot of the card that they already have full knowledge about.
-* However, if a player is *Finessed* for a card that is currently unplayable AND they have no other current playable cards, then you MUST assign them a "clue or discard" action, since they cannot immediately play anything on their turn.
+* As per the empty target priority list above, if a player only has one playable card in their hand and it is already fully known, then you CANNOT assign them a "clue or discard" action. In this case, you would tell them to blind-play the slot of the card that they already have full knowledge about.
+* However, if a player is *Finessed* for a card that will not yet be playable when it reaches their turn AND they have no other currently playable cards, then you MUST assign them a "clue or discard" action, since they cannot immediately play anything on their turn.
 
-### Stacked Empty Clues - Through Known Clued Cards
+### Stacked Empty Clues
 
 * With normal Hyphen-ated conventions, you must treat all *Play Clues* as *Delayed Play Clues*. For example, if you get clued about four 1's, and then are clued about one 2, then you must play all of the 1's before playing the 2.
 * With empty clue blind-plays, this does NOT apply. You can generally immediately blind-play the cards indicated from an empty clue.
@@ -94,27 +94,31 @@
   * Cathy gives an empty clue of number 2, with the intent for Alice to blind-play slot 1 and Bob to blind-play slot 1.
   * Alice blind-plays her slot 1.
   * Bob knows that Cathy's clue is telling him to blind-play his slot 1. However, he must play all the known-playable cards in his hand first. So, he marks his slot 1 card as currently playable, and plays his other clued 1 first.
-* Note that a blind-play from an empty clue CANNOT be a *Delayed Play Clue* through someone else's hand (or a *Prompt* on someone else's card).
-* Players should always assume a stacked empty clue interpretation over a re-target interpretation. (This follows from the play priority list above.)
+* Players should always assume a stacked empty clue interpretation over a re-target interpretation. (This follows from the empty target priority list above.)
+* Note that a blind-play from an empty clue CANNOT be a *Delayed Play Clue* through someone else's hand (or a *Prompt* on someone else's card). **This is extremely important!**
 
-### Stacked Empty Clues - Through Already-Finessed Cards
+### Jumping Ahead on a Stacked Empty Clue
 
-* From the previous section, we know that players should play all the known-playable cards in his hand first before playing an empty clue blind-play. As you would expect, this includes blind-plays from previous *Finesses*.
-* For example, in a 3-player game:
-  * All the 1's are played on the stacks.
-  * Alice clues number 3 to Cathy, which touches a red 3.
-  * Bob interprets this as a *Finesse*, and blind-plays slot 1. Instead of the red 2, it is the blue 2, and Bob now knows that it was a *Clandestine Finesse* instead of a normal *Finesse*.
-  * Cathy sees that it could be a *Clandestine Finesse*, so she discards.
-  * Alice gives an empty clue of number 2, with the intent to have Bob blind-play slot 1 and Cathy to blind-play slot 1.
-  * Bob sees that Cathy has a playable slot 1 card - the yellow 2. Her action must be to play slot 1.
-  * Thus, Bob knows that his action is to also play slot 1 (because 1 + 1 = 2).
-  * However, Bob has to unravel the layer first before blind-playing the empty clue card, so he plays slot 2 and it is the red 2, as expected.
-  * Cathy sees that the only other playable card in Bob's hand besides the red 2 was his slot 1 card, the red 4. His action must be to blind play slot 1.
-  * Thus, Cathy knows that her action is to also blind-play slot 1.
-  * However, Cathy has to first play the red 3 into Bob's red 4, so she plays the red 3 (with the intent to blind-play her slot 1 card later).
-  * Alice discards.
-  * Bob blind-plays the red 4.
-  * Cathy blind-plays the yellow 2.
+* Normally, when a player receives an empty clue action, they will first play all of the playable cards in their own hand.
+* However, players can and should jump ahead if they can determine that the empty clue blind-play is unrelated to their other cards.
+* For example:
+  * Alice has a known-playable red 2 on her slot 4.
+  * Alice then receives an empty clue instructing her to blind-play slot 2.
+  * Normally, before blind-playing, Alice would play the red 2 from slot 4 first, just in case the slot 2 card is red 3.
+  * However, in this situation Alice has a negative red clue on her slot 2 card. Thus, she knows that it cannot be red 2.
+  * Furthermore, Alice does not see a red 3 elsewhere in other people's hands, so she knows that she does not really need to play the red 2 right now.
+  * So, Alice should "jump ahead" and blind-play the slot 2 card BEFORE playing the red 2 from slot 4.
+
+### Stacked Empty Clues Through Other Player's Hands
+
+* From the previous section, we know that stacking an empty clue target that relies on cards in other people's hands is illegal.
+* An ambitious player might try to do this anyway, with the knowledge that the player will play an already known-playable card first, making the clue "just work". This should almost never be done for the following reasons:
+  * The player might "jump ahead", as described in the previous section.
+  * It may not be globally known which cards play into which other cards, so different players will assign different actions and everything will get messed up.
+* The ONLY time it is possible to give an empty clue that involves other people's cards is when that player ALSO has a playable card that leads into the card AND the other connecting cards are globally known. For example, in a 3-player game:
+  * Alice has a globally known blue 1 that is already clued.
+  * Bob has a globally known blue 2 that is already clued.
+  * Cathy is allowed to give an *Empty Clue* that gives a stacked play to blue 3 in Alice's hand, knowing that Alice must play the blue 1 first.
 
 ### Minimum Empty Clue Value Principle
 
