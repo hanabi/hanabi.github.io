@@ -139,25 +139,25 @@
 
 ### 3-Player
 
-| # mod 5  | action    | type of clue
-| -------- | --------- | -------------
-| 0 (5)    | play 5    | number 5 or purple
-| 1 (6)    | play 1    | number 1 or blue
-| 2 (7)    | play 2    | number 2 or green
-| 3 (8)    | play 3    | number 3 or yellow
-| 4 (9)    | play 4    | number 4 or red
+| # mod 5   | action | type of clue
+| --------- | ------ | -------------
+| 0 (5, 10) | play 5 | number 5 or purple/black
+| 1 (6, 11) | play 1 | number 1 or blue
+| 2 (7, 12) | play 2 | number 2 or green
+| 3 (8, 13) | play 3 | number 3 or yellow
+| 4 (9, 14) | play 4 | number 4 or red
 
 <br />
 
 ### 4-Player and 5-Player
 
-| # mod 5  | action          | type of clue
-| -------- | --------------- | -------------
-| 0 (5)    | clue or discard | number 5 or purple
-| 1 (6)    | play 1          | number 1 or blue
-| 2 (7)    | play 2          | number 2 or green
-| 3 (8)    | play 3          | number 3 or yellow
-| 4 (9)    | play 4          | number 4 or red
+| # mod 5   | action          | type of clue
+| --------- | --------------- | -------------
+| 0 (5, 10) | clue or discard | number 5 or purple/black
+| 1 (6, 11) | play 1          | number 1 or blue
+| 2 (7, 12) | play 2          | number 2 or green
+| 3 (8, 13) | play 3          | number 3 or yellow
+| 4 (9, 14) | play 4          | number 4 or red
 
 <br />
 
@@ -165,14 +165,14 @@
 
 ### 5-Player (Florrat's Alternate Proposal)
 
-| # mod 6  | action          | type of clue
-| -------- | --------------- | -------------
-| 0 (6)    | clue or discard | green or yellow
-| 1 (7)    | play 1          | number 1 or blue
-| 2 (8)    | play 2          | number 2
-| 3 (9)    | play 3          | number 3
-| 4 (10)   | play 4          | number 4 or red
-| 5 (11)   | chop move       | number 5 or purple
+| # mod 6    | action          | type of clue
+| ---------- | --------------- | -------------
+| 0 (6, 12)  | clue or discard | green or yellow
+| 1 (7, 13)  | play 1          | number 1 or blue
+| 2 (8, 14)  | play 2          | number 2
+| 3 (9, 15)  | play 3          | number 3
+| 4 (10, 16) | play 4          | number 4 or red
+| 5 (11, 17) | chop move       | number 5 or purple/black
 
 * The chop move in action 5 is only allowed if the player has:
   * a globally-known critical card on chop
