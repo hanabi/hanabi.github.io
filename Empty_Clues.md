@@ -5,7 +5,7 @@
 ## Quick Links
 
 * [Clue Interpretation Tables](https://github.com/Zamiell/hanabi-conventions/blob/master/Empty_Clues.md#clue-interpretation-tables)
-* [Play Priority](https://github.com/Zamiell/hanabi-conventions/blob/master/Empty_Clues.md#play-priority)
+* [Empty Target Priority](https://github.com/Zamiell/hanabi-conventions/blob/master/Empty_Clues.md#play-priority)
 
 <br />
 
