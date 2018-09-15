@@ -154,6 +154,14 @@
 * Furthermore, the player "in the dark" may duplicate the *Double Played* card in someone else's hand. (And this would not cause an *Unknown Trash* ejection.) The clue reciever should *Sarcastic Discard* the card if possible.
 * However, it will not always be possible to *Sarcastic Discard*, especially if the duplication is in the empty clue giver's hand. Thus, the asymmetric *Empty Double Play* is quite dangerous - it has a decent chance of leading to a misplay. It should only to be done in special circumstances.
 
+### The Empty Bluff
+
+* This convention only applies to 3-player games.
+* When an empty clue is given that doesn't make sense, it is usually a signal for the other players to look one level deeper and look for an *Empty Finesse*.
+* However, after the first blind-play, if the *Empty Finesse* is telling the 2nd player to play a strictly unplayable card, it must have been an *Empty Bluff*.
+* *Empty Bluffs* do not meet *Empty Minimum Value Clue Principle*, but they can be useful to get a 1-for-1 on a card that is otherwise blocked. Alternatively, they can be used to get a 1-for-1 on a card while also telling the other player that a particular card is exactly 1-away from being playable.
+* It is also possible to do a *Known Empty Bluff*, in which the blind-playing player knows that they are playing an unrelated card. In this situation, it would be the only way for the empty clue to make sense.
+
 <br />
 
 ## Clue Interpretation Tables
