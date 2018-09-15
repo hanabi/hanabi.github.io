@@ -111,7 +111,7 @@
 
 ### Stacked Empty Clues Through Other Player's Hands
 
-* From the previous section, we know that stacking an empty clue target that relies on cards in other people's hands is illegal.
+* From the *Stacked Empty Clues* section, we know that stacking an empty clue target that relies on cards in other people's hands is illegal.
 * An ambitious player might try to do this anyway, with the knowledge that the player will play an already known-playable card first, making the clue "just work". This should almost never be done for the following reasons:
   * The player might "jump ahead", as described in the previous section.
   * It may not be globally known which cards play into which other cards, so different players will assign different actions and everything will get messed up.
