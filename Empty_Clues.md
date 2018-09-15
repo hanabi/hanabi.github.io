@@ -1,4 +1,4 @@
-# Emtpy Clue Conventions for the Hyphen-ated Framework
+# Empty Clue Conventions for the Hyphen-ated Framework
 
 <br />
 
