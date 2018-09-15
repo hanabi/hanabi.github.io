@@ -126,6 +126,12 @@
   * Bob has a globally known blue 2 that is already clued.
   * Cathy is allowed to give an *Empty Clue* that gives a stacked play to blue 3 in Alice's hand, knowing that Alice must play the blue 1 first.
 
+### Ejection Disabled
+
+* If *Empty Clues* are enabled for the game, then all conventions relating to *Ejection* are "turned off".
+* Clues that would now trigger an *Ejection* instead are interpreted as an *Empty Clue*. (This is more efficient, since an *Ejection* is a 1-for-1 and an *Empty Clue* will always be better than this.)
+* Care has to be taken to ONLY perform *Ejection*-style clues that are globally known as being *Ejection*-like. For example, often times giving an *Unknown Trash Ejection*-style clue will NOT be globally known, and will then lead to the wrong cards being played.
+
 ### Minimum Empty Clue Value Principle
 
 * Normally, a clue is allowed to touch a single card as a 1-for-1. However, this does not apply to empty clues. Empty clues must be better than this.
