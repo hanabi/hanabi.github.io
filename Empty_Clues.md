@@ -64,7 +64,7 @@
 
 ## Dealing with Edge Cases
 
-### Play Priority
+### Empty Target Priority
 
 * If a player has two or more playable cards, the priority is as follows:
   * #1 - unknown playable cards
