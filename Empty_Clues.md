@@ -72,8 +72,8 @@
     * #1b - unclued & unknown *Chop Moved* playable cards
     * #1c - clued & unknown playable cards (which would be an *Empty Prompt* on the card)
   * #2 - known playable cards
-    * #2a - unclued & known playable cards (from a *Finesse* or a *Stacked Empty Clue*, for example)
-    * #2b - clued & known playable cards (which would just be retouching the card, essentially accomplishing nothing new)
+    * #2a - unclued & known playable cards (which would be confirming that they are indeed *Finessed*, for example)
+    * #2b - clued & known playable cards (which would just be retouching the card, accomplishing nothing new)
 * If there two or more cards of the same subcategory above, then the priority is as follows:
   * #1 - lowest rank
   * #2 - left-most
