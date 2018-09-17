@@ -190,7 +190,7 @@ Note that in this user interface, players are holding their hands like they woul
 
 * If one or more 1's in your hand are clued, you should assume that they are ALL playable. (This ONLY applies to 1's, and follows from *Good Touch Principle*.)
 * We agree that playing 1's at the beginning of the game is a special case - you should always play your 1's from oldest to newest.
-* Furthermore, freshly drawn 1's should be played before any 1's that were present in the starting hand.
+* However, freshly drawn 1's should always be played before any 1's that were present in the starting hand.
 
 ### The Early Game (Beginner Section)
 
