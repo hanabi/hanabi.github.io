@@ -170,6 +170,8 @@ Note that in this user interface, players are holding their hands like they woul
 * Even though there are two copies of each 2, we agree that they are so important that we must save them in a manner similar to 5's.
 * Similar to saving 5's, always save a 2 with a number clue instead of a color clue.
 * *Save Principle* takes priority over *Good Touch Principle*. This means that you can violate *Good Touch Principle* and duplicate a 2 in the situation where a 2 is on chop and needs to be saved.
+* Note that players are only allowed to perform a *2 Save* on a 2 not visible in other people's hands.
+  * The one exception to this is if the same 2 is on two people's chops at the same time. In that situation, players are allowed to save whichever one they want with a *2 Save*.
 
 ### Play Clues
 
