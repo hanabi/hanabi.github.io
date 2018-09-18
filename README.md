@@ -328,7 +328,7 @@ Note that in this user interface, players are holding their hands like they woul
 * In the *Early Game*, players must "extinguish" all of the available clues on the board. Note that:
   * This DOES include cluing off-chop 5's, but it is only mandatory to clue ONE off-chop 5. If one off-chop 5 has already been clued and there is another off-chop 5 clue available, players are allowed (but not required) to clue it.
   * This DOES NOT include cluing something in the hand of the player who came directly before you. (This is because the player who came before you did not see anything for you to do, and is therefore giving you "permission" to discard.) In this situation, cluing is optional; players can choose to either clue the previous hand or discard at their discretion.
-  * This DOES NOT include cluing 5's that will be almost certainly be *Order Chop Moved* by an upcoming player who already has two or more 1's clued in their hand. (*Order Chop Moves* are an advanced moved that is covered later.)
+  * This DOES NOT include cluing 5's that will be almost certainly be *Order Chop Moved* by an upcoming player who already has two or more 1's clued in their hand. (*Order Chop Moves* are an advanced move that is covered later.)
 
 ### The Priority Prompt & The Priority Finesse
 
@@ -773,6 +773,7 @@ This section is unique in that it contains things that are separate from actual 
   * The 1 that was played was originally *Finessed* from a clue that happened BEFORE the number 1 clue.
   * The 1 that was played had some unique positive or negative color information on it and could potentially lead into someone else's hand.
   * The 1 that was skipped over is known to be bad from contextual information. (See *The Stale 1's Clue* section.)
+* Note that *Order Chop Moves* ONLY apply to unknown 1's. If you play any other cards out of order, then it does not mean anything special. (This simplies things a bit, since playing other cards out of order can be difficult to interpret.)
 
 ### Trash Order Chop Move
 
@@ -1123,23 +1124,36 @@ This section is unique in that it contains things that are separate from actual 
 * *Trash Bluffs* are a good tool to get a card played that is sitting behind other annoying cards.
 * For example, in a 3-player game where all of the 1's are played already EXCEPT for red 1:
   * Cathy has no clued cards in her hand.
-  * Alice clues Cathy number 1, which only touches her newest (slot 1) card. This card is a green 1, so Cathy will assume that it is a red 1.
-  * Bob blind-plays his *Finesse Position* card, and it is a playable red 1.
+  * Alice clues Cathy number 1, which only touches her newest (slot 1) card. This card is a blue 1, so Cathy will assume that it is a red 1.
+  * Bob blind-plays his *Finesse Position* card, and it is a playable blue 2.
+  * Cathy now knows that her 1 must not be red 1, or else Bob would not have blind-played anything. The 1 must be some other trash card.
 * Just like normal *Bluffs*, *Trash Bluffs* can only be done while in *Bluff Seat*.
 * If multiple cards are clued that cause a *Trash Bluff*, it means that ALL of the cards are trash. However, the focus of the clue should be the first thing discarded, which allows for the possibility of your teammates to give a follow-up *Fix Clue*.
 
 ### The Trash Finesse (Strong Form)
 
-* It is possible to perform a *Trash Bluff* outside of *Bluff Seat* if there is only one possibility for the useless card to be. When this is done, it promises that someone has that specific card, so it is a *Trash Finesse* rather than a *Trash Bluff*.
+* In a *Finesse*, we would say that the clue "matches" the blind-play. For example, a blue clue on a blue 2 matches a blind-play of blue 1. Or, a number 2 clue on blue 2 matches a blind-play of blue 1.
+* In a *Bluff*, we would say that the clue does not "match" the blind-play. For example, a blue clue on a blue 2 does not match a blind-play of a red 1. Or, a number 2 clue on a blue 2 does not match the blind-play of a red 2.
+* In the *Trash Bluff* example above, a blue 1 is used to *Trash Bluff* a blue 2. Similar to a *Bluff*, we would say this number 1 clue does not match the blind-play of a blue 2.
+* What is the *Trash Bluff* instead got a red 1 to blind-play? In this context, the red 1 would actually "match" the number 1 clue. Another way of saying this is that by cluing the trash 1 with a number 1 clue, the clue giver is saying that they SEE a matching 1 that is good.
+* Thus, it is possible to perform a a *Trash Bluff* outside of *Bluff Seat* if the "matching" card is on someone's *Finesse Position*. When this is done, it promises that someone has that specific card, so we call it a *Trash Finesse* rather than a *Trash Bluff*.
 * For example, in a 4-player game:
   * All the 1's are played on the stacks except for red 1.
   * Alice clues number 1 to Donald, which touches a blue 1. To Donald, this will look like it is a red 1.
   * At first glance, Bob might think this is a *Trash Bluff*, causing him to blind-play his *Finesse Position* card as either red 1 or some other currently-playable card.
-  * However, Bob also sees that Cathy has a red 1 on her *Finesse Position*. Thus, Alice's clue was a *Trash Finesse* instead of a *Trash Bluff*, since it is promises exactly red 1 (which is the only non-trash 1).
+  * However, Bob also sees that Cathy has a red 1 on her *Finesse Position*. Thus, Alice's clue was a *Trash Finesse* instead of a *Trash Bluff*, since it is promises a playable 1.
   * Thus, Bob discards.
   * Cathy blind-plays her *Finesse Position* card and it is red 1.
   * Donald discards his known-trash 1.
-* It is also possible to perform a *Double Trash Finesse*. By touching a useless 1 with TWO 1's remaining, it means that the cluer sees BOTH of the 1's, so this can cause two separate people to blind-play their *Finesse Position* card (or one player to blind-play twice). Note that a *Double Trash Finesse* cannot be done in *Bluff Seat*, or it will look like a normal *Trash Bluff*.
+* *Double Trash Finesses* are explicitly disallowed. Thus, it is possible to perform a *Trash Finesse* in a situation like this:
+  * All the 1's are played on the stacks except for red 1 and blue 1.
+  * Alice clues number 1 to Donald, which touches two green 1's on slot 1 and 2. To Donald, this will look like it is both the red 1 and the blue 1.
+  * Like in the previous example, Bob sees that Cathy has a red 1 on her *Finesse Position*.
+  * At first glance, Bob might think that Alice is promising both red 1 and blue 1, which would mean that he would need to blind-play the blue 1.
+  * However, a *Trash Finesse* only promises at least one matching card, and since he sees that Cathy has a matching card, then that is good enough. Thus, Bob discards.
+  * Cathy blind-plays her *Finesse Position* card and it is red 1.
+  * Donald knows that the focus of the clue (slot 1) is certainly trash, since that caused Cathy to blind play.
+  * Furthermore, Donald knows that his slot 2 card is also trash, because all the cards touched in a *Trash Bluff* or *Trash Finesse* are guaranteed to be trash.
 
 ### The Trash Finesse (Weak Form)
 
