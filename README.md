@@ -536,7 +536,7 @@ Note that in this user interface, players are holding their hands like they woul
 | 6        | Filling in extra info on unplayable "mystery" cards | ❌ | ✔ | ✔ | ✔
 | 7        | *Hard Burn* (re-cluing 5's)                         | ❌ | ✔ | ✔ | ✔
 
-### Locked Hands (Level 3 Stalling)
+### Locked Hands (L.H.S. / LHS) (Level 3 Stalling)
 
 * Generally speaking, it is a bad situation when someone's hand gets fully clued. This is also known as being *Locked*, and it should be avoided if possible. However, sometimes it cannot be helped, like when a player draws three 5's in a row.
 * A player with a fully clued hand may give a low-value clue because they are not sure that they can play anything (and they can't discard because their hand is fully clued). Similar to a *Double Discard* situation, players should not read too closely into any clues given during this state.
