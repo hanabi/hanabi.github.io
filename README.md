@@ -773,7 +773,7 @@ This section is unique in that it contains things that are separate from actual 
   * The 1 that was played was originally *Finessed* from a clue that happened BEFORE the number 1 clue.
   * The 1 that was played had some unique positive or negative color information on it and could potentially lead into someone else's hand.
   * The 1 that was skipped over is known to be bad from contextual information. (See *The Stale 1's Clue* section.)
-* Note that *Order Chop Moves* ONLY apply to unknown 1's. If you play any other cards out of order, then it does not mean anything special. (This simplies things a bit, since playing other cards out of order can be difficult to interpret.)
+* Note that *Order Chop Moves* ONLY apply to unknown 1's. If you play any other unknown cards out of order, then it does not mean anything special.
 
 ### Trash Order Chop Move
 
