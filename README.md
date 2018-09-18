@@ -328,7 +328,7 @@ Note that in this user interface, players are holding their hands like they woul
 * In the *Early Game*, you are allowed to *5 Stall* (on off-chop 5's) if there is nothing else to do. However:
   * You are ALSO allowed to *5 Stall* if there is only ONE *Play Clue* remaining and it would touch a card on *Finesse Position*.
 * In the *Early Game*, players must "extinguish" all of the available clues on the board. Note that:
-  * This DOES include cluing off-chop 5's, but it is only mandatory to clue ONE off-chop 5. If one *5 Stall* clue has already been given and there is another *5 Stall* clue available, players are allowed (but not required) to clue it.
+  * This DOES include *5 Stalling*, but it is only mandatory to perform one *5 Stall*. If one *5 Stall* clue has already been given and there is another *5 Stall* clue available, players are allowed (but not required) to clue it.
   * This DOES NOT include cluing something in the hand of the player who came directly before you. (This is because the player who came before you did not see anything for you to do, and is therefore giving you "permission" to discard.) In this situation, cluing is optional; players can choose to either clue the previous hand or discard at their discretion.
   * This DOES NOT include cluing 5's that will be almost certainly be *Order Chop Moved* by an upcoming player who already has two or more 1's clued in their hand. (*Order Chop Moves* are an advanced move that is covered later.)
 
