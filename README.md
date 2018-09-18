@@ -1272,7 +1272,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * Building on the *3 Bluffs* convention, we also agree that is possible for a card that initiates a *Bluff* to be a copy of black 4.
 * However, it is only possible to do this with a black color clue.
 
-### The Sneaky Black Bluff
+### The Black 1 Bluff
 
 * Normally, if a black 1 is on chop, it is clued with number 1 instead of black. This is because a black color clue would make it look like a *Save Clue* on either black 3 or black 4, and then it would sit there, not being played.
 * Furthermore, if a black 1 is on chop and it was clued as black AND the clue touched other brand new black cards in the hand, then the clue could also be a *Save Clue* on black 2 (as per the *Save Clue* rules outlined in the *Black 2 Saves* section).
