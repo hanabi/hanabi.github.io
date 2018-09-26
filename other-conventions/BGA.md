@@ -91,7 +91,7 @@ If you're reading this far, you'll want to know some of the basic differences be
 
 * The *2 Saves Convention* is when someone clues number 2 and it touches a 2 on chop. Even if it touches some other 2, it doesn't necessarily mean anything is currently playable - the point of the clue was to save one or more 2's.
 * On BGA, *2 Saves* are typically "turned on" in 2-player games, but turned off with 3 or more players.
-* In my group, *2 Saves* are ALWAYS turned on.
+* In my group, *2 Saves* are ALWAYS turned on, even in 5-player games.
 * Why do this? Having this convention turned on eliminates 100% of "bottom-deck" losses to 2's.
 
 ### Clue Focus on Retouched Cards - Changed
