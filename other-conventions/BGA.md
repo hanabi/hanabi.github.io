@@ -96,7 +96,7 @@ If you're reading this far, you'll want to know some of the basic differences be
 ### A Note on the Conventions Themselves
 
 * On BGA, the "rules" or conventions by which people play are largely unwritten, and can change from game to game. But you'll almost certainly know what they are after having played a bunch of games.
-* In my group, the rules are [completely documented](https://github.com/Zamiell/hanabi-conventions). Yeah, don't bother reading this document now, but **you can use it as a quick reference** in case you ever need to look up something specific.
+* In my group, the rules are [completely documented](https://github.com/Zamiell/hanabi-conventions). Yeah, don't bother reading the full document now, but note that **you can use it as a quick reference** in case you ever need to look up something specific.
 * Why do this? Having a strongly defined set of rules cuts out most silly post-game arguments on how an ambiguous-looking clue should be interpreted. Instead, it encourages discussion on finding the most efficient moves and strategies within a shared framework, which is much more productive.
 
 ### 2 Saves - Added Always
