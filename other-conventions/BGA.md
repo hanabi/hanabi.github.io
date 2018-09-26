@@ -171,7 +171,7 @@ Ok, so you've made it this far. All of those changes probably sound pretty stran
 
 ### Scream Discard Chop Moves - Changed
 
-* On BGA, if you discard with a known playable card, it is a usually signal to the next person that it is a really bad situation and that they have something very important on chop. So, the player will give some stall clue, and then the card will be explicitly saved by someone else on the next go-around of the table. There is no name for this move, it is just done.
+* On BGA, if you discard with a known playable card, it is usually a signal to the next person that is a bad situation and that they have something important on chop. So, the next person will give some stall clue, and then the important card in question will be explicitly saved by someone else on the next go-around of the table. On BGA, there is no name for this move.
 * In my group, we give this move a name - the *Scream Discard*, because it is like you are screaming at the next player. And in my group, we don't bother wasting a clue to explicitly save the card. The player is expected to *Chop Move* the card forever.
 * Why do this? Well, it is obviously more efficient to not have to waste clues on critical cards that are not currently playable anyway.
 
