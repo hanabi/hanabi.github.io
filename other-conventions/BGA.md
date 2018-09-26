@@ -164,6 +164,15 @@ Ok, so you've made it this far. The changes so far probably sound pretty strange
 * In my group, it is ONLY permissible to *Bluff* the very next player. We call this being in *Bluff Seat*. Alice is in *Bluff Seat* for Bob, Bob is in *Bluff Seat* for Cathy, and so forth.
 * Why do this? It allows for a powerful move called a *Layered Finesse*, which is covered further on.
 
+### Double Discard Avoidance (DDA) - Changed
+
+* *Double Discarding* is when two players discard the same thing in a row (say, a red 4) and it causes a perfect score to be lost.
+* In BGA, there is some basic strategies to avoid *Double Discards* from occurring. Firstly, you are generally allowed to "early save" the card by cluing it directly. Secondly, you can indirectly solve the problem by planning a line where it sets up one of the players to give an obvious clue. Both of these are viable strategies to solve the problem.
+* In my group, we are not allowed to do the first strategy - we are ONLY allowed to save cards that have already been discarded. (Or 5's, or 2's.)
+* And in my group, there is no need to do the second strategy, because we play with a separate solution: a *Hard Double Discard Avoidance Convention*.
+* In this context, "hard avoidance" means that a player will avoid *Double Discarding* at all costs. If he is in danger of *Double Discarding*, then he will give any clue at all to avoid it, even if it is a complete waste of a clue.
+* Why do this? It narrows the possibilities of what *Save Clues* can be, which is quite useful. Furthermore, it eliminates the silliness involved in dancing around a *Double Discard* situation - players just simply don't have to worry about it anymore and can focus on always giving the highest efficiency clue for the situation.
+
 ### Chop Moves - Added
 
 * On BGA, there are certain situations where you should skip over the chop card and discard the next card in line.
@@ -201,17 +210,8 @@ Ok, so you've made it this far. The changes so far probably sound pretty strange
   * Bob has a red 2 to play and is waiting for Alice to play the red 1.
   * Alice is expected to play the red 1. (The red 1 is said to have *Priority*.) Instead, Alice plays the blue 1.
   * Thus, someone on the team is PROMISED to have the blue 2, so they should blind-play it, similar to if a *Finesse* was performed.
-* You can also do *Priority Prompts* and *Priority Bluffs*. It works suprisingly well in a variety of situations.
+* You can also do *Priority Bluffs*. It works suprisingly well in a variety of situations.
 * Why do this? It's a no-brainer and something that BGA hasn't figured out yet.
-
-### Double Discard Avoidance (DDA) - Changed
-
-* *Double Discarding* is when two players discard the same thing in a row (say, a red 4) and it causes a perfect score to be lost.
-* In BGA, there is some basic strategies to avoid *Double Discards* from occurring. Firstly, you are generally allowed to "early save" the card by cluing it directly. Secondly, you can indirectly solve the problem by planning a line where it sets up one of the players to give an obvious clue. Both of these are viable strategies to solve the problem.
-* In my group, we are not allowed to do the first strategy - we are ONLY allowed to save cards that have already been discarded. (Or 5's, or 2's.)
-* And in my group, there is no need to do the second strategy, because we play with a separate solution: a *Hard Double Discard Avoidance Convention*.
-* In this context, "hard avoidance" means that a player will avoid *Double Discarding* at all costs. If he is in danger of *Double Discarding*, then he will give any clue at all to avoid it, even if it is a complete waste of a clue.
-* Why do this? It narrows the possibilities of what *Save Clues* can be, which is quite useful. Furthermore, it eliminates the silliness involved in dancing around a *Double Discard* situation - players just simply don't have to worry about it anymore and can focus on always giving the highest efficiency clue for the situation.
 
 <br />
 
