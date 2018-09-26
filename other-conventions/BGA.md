@@ -129,7 +129,7 @@ If you're reading this far, you'll want to know some of the basic differences be
   * Otherwise, it is a *Left-most Play Clue*.
 * Why do this? Notice that having this convention compliments *Finesses*. Our group has a wide variety of *Finesses* and *Bluffs*, so it is easy to "get" fresh cards, but more difficult to "get" cards on chop.
 
-### Color Saves - Added
+### Color Saves - Changed
 
 * One problem in Hanabi is when a clue lights up your chop card for the first time. How do you know whether it is a *Play Clue* or a *Save Clue*?
 * On BGA, the system is that number clues mean *Save Clues*, and color clues mean *Play Clues*.
