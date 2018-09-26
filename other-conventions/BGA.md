@@ -180,7 +180,7 @@ Ok, so you've made it this far. All of those changes probably sound pretty stran
 
 * On BGA, if you clue a 5 that is one away from chop, then it is either a stall clue or a *Play Clue* on the 5, depending on the situation.
 * In my group, we assign a special meaning to number 5 clues that introduce a brand new 5 that is exactly one-away from chop. You guessed it - it's a *Chop Move*.
-* You can use this special power to save two cards with one clue. Or, you can even use it to save any useful card at all.
+* You can use this special power to save two cards with one clue. It is very powerful in order to save a critical card that is followed by a 5. Or, you can even use it to save a non-critical but-still-useful card.
 * The *Chop Move* interpretation will always take precedence over a *Play Clue* interpretation, so you have to be careful about that. Of course, at the end of the game, when it would be pointless to *Chop Move* anything, then it will just look like a *Play Clue* instead.
 
 ### The Order Chop Move - Added
