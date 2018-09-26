@@ -5,7 +5,9 @@
 ## Table of Contents
 
 1. [Introduction](#introduction)
-2. [Conventional Changes](#conventional-changes)
+2. [Convention Changes (Beginner)](#convention-changes-beginner)
+3. [Convention Changes (Intermediate)](#convention-changes-intermediate)
+4. [Convention Changes (Advanced)](#convention-changes-advanced)
 
 <br />
 
