@@ -15,7 +15,7 @@
 
 Welcome. This document is written for people who have a bunch of games on [Board Game Arena](https://en.boardgamearena.com/) and may be interested in playing some games with my group on [Hanabi Live](https://www.hanabi.live). Since my group uses some advanced conventions, this document should be a quick guide to get BGA players up to speed.
 
-Why bother branching out from Board Game Arena into the the unknown? In order to properly answer that question, here's a short introduction on the differences between BGA and Hanabi Live. It should explain why, at the very least, you might want to dabble on both platforms.
+Why bother branching out from Board Game Arena into the the unknown? In order to properly answer that question, here's a short introduction on the differences between BGA and Hanabi Live. It should explain why, at the very least, you might want to dabble on both platforms. If you are already convinced, you can skip this section.
 
 <br />
 
