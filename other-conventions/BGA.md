@@ -75,7 +75,7 @@ As a concluding note, I should say that I am NOT necessarily advocating that any
 
 <br />
 
-## Conventional Changes - Beginner and Intermediate
+## Convention Changes (Beginner)
 
 If you're reading this far, you'll want to know some of the basic differences between the the *BGA convention framework* and the *Hyphen-ated convention framework*. Fear not - it isn't so bad once you play a few games.
 
@@ -97,13 +97,13 @@ If you're reading this far, you'll want to know some of the basic differences be
 ### Clue Focus on Retouched Cards - Changed
 
 * When multiple cards are "touched" by a clue, it typically only means to play one card. We call that card the *focus* of the clue.
-* In BGA, the focus can be on either card. But most often, the focus is on the existing card that is "filled in" by the clue.
+* On BGA, the focus can be on either card. But most often, the focus is on the existing card that is "filled in" by the clue.
 * For example, in a Rainbow game:
   * Red 1 is played on the stacks.
   * Alice has a card in her hand clued with number 2.
   * Bob clues Alice red, filling in the 2 with red and also introducing a brand new card on her newest slot.
   * Alice plays the "filled-in" card as the focus of the clue, and holds on to the other red card for later.
-* In BGA, clues given similar to the one in the example above can ALSO mean to play both cards, depending on the situation.
+* On BGA, clues given similar to the one in the example above can ALSO mean to play both cards, depending on the situation.
 * In my group, **the focus of the clue is always on the brand new card introduced**. In the previous example, Alice should play her newest card as either red 2 or rainbow 1. She is promised nothing about her other red card, meaning that it can be either red 2 or rainbow 2.
 * Why do this? Having this convention turned on makes it extremely clear exactly what card is being talked about almost all of the time.
 
@@ -119,20 +119,73 @@ If you're reading this far, you'll want to know some of the basic differences be
 ### Color Saves - Added
 
 * One problem in Hanabi is when a clue lights up your chop card for the first time. How do you know whether it is a *Play Clue* or a *Save Clue*?
-* In BGA, the system is that number clues mean *Save Clues*, and color clues mean *Play Clues*.
+* On BGA, the system is that number clues mean *Save Clues*, and color clues mean *Play Clues*.
 * In my group, both number AND color clues can be used to save cards.
 * ANY clue that touches the chop has to be treated as a *Save Clue* first and foremost. If you can rule out a *Save Clue* interpretation, then you know that it is a *Chop Focus* play clue.
 * Why do this? It allows us to choose the exact clue type that would touch valuable cards, or AVOID touching duplicated cards. (We call this *Good Touch Principle*, by the way.)
 
 ### Early Save Play Clues - Deleted
 
-* In BGA, a timing system is used such that if a card is saved "early" before it really needs to be saved, then the clue must not be a *Save Clue* at all, and instead transforms into a *Play Clue*. Let's call this a *Early Save Play Clue*.
+* On BGA, a timing system is used such that if a card is saved "early" before it really needs to be saved, then the clue must not be a *Save Clue* at all, and instead transforms into a *Play Clue*. Let's call this a *Early Save Play Clue*.
 * In my group, there is no such timing system. ALL clues that look like *Save Clues* are *Save Clues*, even if they are early.
 * Why do this? It allows for better *Discard Modulation*.
 
+### The Early Game - Added
+
+* On BGA, you don't want to discard on the first few turns. But after that, you can pretty much discard whenever you want.
+* In my group, we have a thing called the *Early Game*. The *Early Game* is defined as the period of time before someone discards for the first time. When they do, they initiate the *Mid-Game*.
+* In the *Early Game*, everyone agrees that they MUST "extinguish" all of the available *Play Clues* and *Save Clues* before discarding.
+* Why do this? It prevents a certain percentage of "bottom-deck" losses by forcing that one-away cards on chop stick around for a little longer.
+
 <br />
 
-## Conventional Changes - Advanced and Expert
+## Convention Changes (Intermediate)
+
+Ok, so you've made it this far. All of that stuff probably sounds pretty strange, as there are some big fundamental changes in how general clues are interpretted. Beyond the basics, there are some other changes as well.
+
+<br />
+
+### Bluff Restriction - Added
+
+* On BGA, it is possible to perform a *Bluff* on whomever you want. You just have to be careful that it won't be too confusing.
+* In my group, it is ONLY permissible to *Bluff* the very next player. We call this being in *Bluff Seat*. Alice is in *Bluff Seat* for Bob, Bob is in *Bluff Seat* for Cathy, and so forth.
+* Why do this? It allows for a powerful move called a *Layered Finesse*, which is covered further on.
+
+### Chop Moves - Added
+
+* On BGA, if a card does not have an explicit clue on it, players may forget that they know ancillary information about it (beyond having pure negative clues).
+* In my group, we never forget. Thus, we have several specific types of clues cause a *Chop Move*.
+* A *Chop Move* is like an invisible clue that is applies to the chop card. *Chop Moved* cards are never discarded, similar to how you would never normally discard a card with a clue on it.
+
+### Scream Discard Chop Moves - Changed
+
+* On BGA, if you discard with a known playable card, it is a usually signal to the next person that it is a really bad situation and that they have something very important on chop. So, the player will give some stall clue, and then the card will be explicitly saved by someone else on the next go-around of the table. There is no name for this move, it is just done.
+* In my group, we give this move a name - the *Scream Discard*, because it is like you are screaming at the next player. And in my group, we don't bother wasting a clue to explicitly save the card. The player is expected to *Chop Move* the card forever.
+* Why do this? Well, it is obviously more efficient to not have to waste clues on critical cards that are not currently playable anyway.
+
+### The Order Chop Move - Added
+
+* In the beginning of the game, it is common for two or more 1's to get clued in someone's hand.
+* On BGA, people typically play their 1's from oldest to newest. However, you are allowed to play the 1's in whatever order you want, and no-one really pays too much attention.
+* In my group, we pay attention. If you don't play your 1's from oldest to newest, it *Chop Moves* the next person.
+* Why do this? You get to save 5's (and other valuable stuff) "for free" without having to waste a clue. Yeah, it's good.
+
+### The Priority Finesse
+
+* Often times, a player will have two or more playable cards in their hand and have a choice as to which one to play.
+* On BGA, it is typical for people to play the cards that lead into teammate's hands. However, you are allowed to play your cards in whatever order you want, and no-one really pays too much attention.
+* In my group, we pay attention.
+* For example:
+  * Alice has a red 1 and a blue 1 to play.
+  * Bob has a red 2 to play and is waiting for Alice to play the red 1.
+  * Alice plays the blue 1.
+  * The team is PROMISED to have the blue 2, so someone should blind-play it, similar to a *Finesse* was performed.
+* You can also do *Priority Prompts* and *Priority Bluffs*. It works suprisingly well in a variety of situations.
+* Why do this? It's a no-brainer and something that BGA hasn't figured out yet.
+
+<br />
+
+## Convention Changes (Advanced)
 
 These are conventions that we don't typically turn on for new players, but we do use regularly in high-level games.
 
@@ -145,3 +198,10 @@ These are conventions that we don't typically turn on for new players, but we do
 * To be clear, you are allowed to *3 Bluff* with either color or number.
 * This is one of the more arbitrary and tricky conventions that we have, so it will take a few games to get used to.
 * Why do this? It allows us to get 2-for-1 clues in situatinos where only a 1-for-1 was available. Furthermore, it allows us to mitigates a good percentage of "bottom-deck" losses to 3's.
+
+### Layered Finesses - Added
+
+* On BGA, you generally can't do a *Finesse* that gets a big chain of cards to blind-play one after the other.
+* In my group, you are allowed to promise a card to anyone that you are not in *Bluff Seat* for. Once promised, then will continue to play cards in their hand from left to right until they find the promised card.
+* We call this a *Layered Finesse* because the intended *Finesse* blind-play target is "layered" behind other playable cards.
+* Why do this? It's fucking awesome. =)
