@@ -13,7 +13,9 @@
 
 ## Introduction
 
-Hello there, fellow Hanabi enthusiast. Do you love Hanabi? We would love for you to join us at [Hanabi Live](https://www.hanabi.live), a place for players who are seeking high-level play and a strong community. This document is written for people who have a bunch of games on [Board Game Arena](https://en.boardgamearena.com/) and may be interested in learning some of the more advanced conventions used by some of the players at Hanabi Live. But first, a short introduction on the differences between BGA and Hanabi Live, and why you should bother with, at the very least, dabbling on both platforms.
+Welcome. This document is written for people who have a bunch of games on [Board Game Arena](https://en.boardgamearena.com/) and may be interested in playing some games with my group on [Hanabi Live](https://www.hanabi.live). Since my group uses some more advanced conventions, this document should be a quick guide to get BGA players up to speed.
+
+Why bother branching out from Board Game Arena into the the unknown? In order to properly answer that question, here's a short introduction on the differences between BGA and Hanabi Live. It should explain why, at the very least, you should dabble on both platforms.
 
 <br />
 
