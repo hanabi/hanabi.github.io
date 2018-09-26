@@ -110,7 +110,7 @@ If you're reading this far, you'll want to know some of the basic differences be
 ### Chop Focus - Added
 
 * It is common for a *Play Clue* to introduce several cards in the hand.
-* On BGA, the system is dead simple: always play the left-most card.
+* On BGA, the system is dead simple: (almost) always play the left-most card.
 * In my group, it is a two step process:
   * If one of the new cards introduced was on the chop, then it is a *Chop Focus Play Clue*.
   * Otherwise, it is a *Left-most Play Clue*.
