@@ -157,7 +157,7 @@ Ok, so you've made it this far. All of that stuff probably sounds pretty strange
 
 * On BGA, if a card does not have an explicit clue on it, players may forget that they know ancillary information about it (beyond having pure negative clues).
 * In my group, we never forget. Thus, we have several specific types of clues cause a *Chop Move*.
-* A *Chop Move* is like an invisible clue that is applies to the chop card. *Chop Moved* cards are never discarded, similar to how you would never normally discard a card with a clue on it.
+* A *Chop Move* is like an invisible clue that is applied to the chop card. *Chop Moved* cards are never discarded, similar to how you would never normally discard a card that already has a clue on it. Thus, once a *Chop Move* happens, the player's chop will move one slot over to the next unclued card.
 
 ### Scream Discard Chop Moves - Changed
 
