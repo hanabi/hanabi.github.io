@@ -238,7 +238,7 @@ These are conventions that we don't typically turn on for new players, but we do
   * This promises that someone has the red 1.
   * Cathy knows that she has the red 1, because she doesn't see anyone else have the red 1.
   * Cathy blind-plays a blue 1 (from slot 1).
-  * Cathy knows that she isn't in *Bluff Seat* for Alice. Thus, Cathy knows that she must actually have the red 1, and that a *Layered Finesse* is occurring.
+  * Cathy knows that Alice is in *Bluff Seat* for Bob. Thus, it cannot be a *Bluff* on her; Cathy knows that she must actually have the red 1, and that a *Layered Finesse* is occurring.
   * On her next turn, Cathy tries to blind-play the red 1 (from slot 2), but it is really the blue 2.
   * On her next turn, Cathy tries to blind-play the red 1 (from slot 3), but it is really the blue 3.
   * On her next turn, Cathy blind-plays red 1 (from slot 4).
