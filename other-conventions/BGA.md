@@ -87,6 +87,12 @@ If you're reading this far, you'll want to know some of the basic differences be
 
 <br />
 
+### What's the Same?
+
+* Below, you'll find a whole bunch of scary stuff about how my group does thinsg differently from the way you know and love.
+* Before you get overwhelmed, I think it is important to communicate right from the start that **most stuff will be the exact same as you are used to on BGA**.
+* Stuff like giving *Finesses*, giving *Bluffs*, paying attention to see that no-one on the team discards anything important, using good teamwork - all of this stuff is stuff you are already used to and it will carry over.
+
 ### A Note on the Conventions Themselves
 
 * On BGA, the "rules" or conventions by which people play are largely unwritten, and can change from game to game. But you'll almost certainly know what they are after having played a bunch of games.
@@ -169,6 +175,13 @@ Ok, so you've made it this far. All of that stuff probably sounds pretty strange
 * In my group, we give this move a name - the *Scream Discard*, because it is like you are screaming at the next player. And in my group, we don't bother wasting a clue to explicitly save the card. The player is expected to *Chop Move* the card forever.
 * Why do this? Well, it is obviously more efficient to not have to waste clues on critical cards that are not currently playable anyway.
 
+### The 5's Chop Move - Added
+
+* On BGA, if you clue a 5 that is one away from chop, then it is either a stall clue or a *Play Clue* on the 5, depending on the situation.
+* In my group, we assign a special meaning to number 5 clues that introduce a brand new 5 that is exactly one-away from chop. You guessed it - it's a *Chop Move*.
+* You can use this special power to save two cards with one clue. Or, you can even use it to save any useful card at all.
+* The *Chop Move* interpretation will always take precedence over a *Play Clue* interpretation, so you have to be careful about that. Of course, at the end of the game, when it would be pointless to *Chop Move* anything, then it will just look like a *Play Clue* instead.
+
 ### The Order Chop Move - Added
 
 * In the beginning of the game, it is common for two or more 1's to get clued in someone's hand.
@@ -176,7 +189,7 @@ Ok, so you've made it this far. All of that stuff probably sounds pretty strange
 * In my group, we pay attention. If you don't play your 1's from oldest to newest, it *Chop Moves* the next person.
 * Why do this? You get to save 5's (and other valuable stuff) "for free" without having to waste a clue. Yeah, it's good.
 
-### The Priority Finesse
+### The Priority Finesse - Added
 
 * Often times, a player will have two or more playable cards in their hand and have a choice as to which one to play.
 * On BGA, it is typical for people to play the cards that lead into teammate's hands. However, you are ultimately allowed to play your cards in whatever order you want, and no-one really pays too much attention.
@@ -188,6 +201,15 @@ Ok, so you've made it this far. All of that stuff probably sounds pretty strange
   * The team is PROMISED to have the blue 2, so someone should blind-play it, similar to a *Finesse* was performed.
 * You can also do *Priority Prompts* and *Priority Bluffs*. It works suprisingly well in a variety of situations.
 * Why do this? It's a no-brainer and something that BGA hasn't figured out yet.
+
+### Double Discard - Changed
+
+* *Double Discarding* is when two players discard the same thing in a row (say, a yellow 4) and it causes a perfect score to be lost.
+* In BGA, there is some basic strategies to avoid *Double Discards* from occurring. Firstly, you are generally allowed to "early save" the card by cluing it directly. Secondly, you can indirectly solve the problem by planning a line where it sets up one of the players to give an obvious clue. Both of these are viable strategies to solve the problem.
+* In my group, we are not allowed to do the first strategy - we are ONLY allowed to save cards that have already been discarded.
+* And in my group, there is no need to do the second strategy, because we play with a separate solution: a *Hard Double Discard Avoidance Convention*.
+* In this context, "hard avoidance" means that a player will avoid *Double Discarding* at all costs. If he is in danger of *Double Discarding*, then he will give any clue at all to avoid it, even if it is a complete waste of a clue.
+* Why do this? It narrows the possibilities of what *Save Clues* can be, which is quite useful. Furthermore, it eliminates the silliness involved in dancing around a *Double Discard* situation - players just simply don't have to worry about it anymore and can focus on always giving the highest efficiency clue for the situation.
 
 <br />
 
