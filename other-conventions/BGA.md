@@ -53,7 +53,9 @@ Of course, this problem is compounded by the terrible replay system. Even if pla
 
 Hanabi Live is a modern website that fixes all of the interface issues with BGA. While there are some random players who play on the site, I would say that the majority of games are played by people in my group, the "Hyphen-ated group". We play in a manner similar to how BGA players play, but with a lot more "special moves" thrown in.
 
-More importantly, when Hyphen-ated group members play together, we typically review every single game in a voice chat (using the free [Discord](https://discordapp.com/) web/desktop application). By doing this after every game, it accelerates the process of synchronizing everyone's strategies and playstyle to ensure that we are all on the same page. And it accelerates the process of making everyone really good at Hanabi, because people get the chance to learn from mistakes that they never would have known that they made.
+More importantly, when Hyphen-ated group members play together, we typically review every single game in a voice chat (using the free [Discord](https://discordapp.com/) web/desktop application). By doing this after every game, it accelerates the process of synchronizing everyone's strategies and playstyle to ensure that we are all on the same page. And it accelerates the process of making everyone really good at Hanabi, because people get the chance to learn from mistakes that they never would have known that they made. It's just a lot of fun - reviewing the game can be more fun than actually playing the game.
+
+Overall, there are both good and bad things about Hanabi Live when compared to BGA.
 
 #### The Bad
 
