@@ -8,6 +8,7 @@
 2. [Convention Changes (Beginner)](#convention-changes-beginner)
 3. [Convention Changes (Intermediate)](#convention-changes-intermediate)
 4. [Convention Changes (Advanced)](#convention-changes-advanced)
+5. [A Concluding Note]()
 
 <br />
 
@@ -251,4 +252,4 @@ These are conventions that we don't typically turn on for new players, but we do
 
 Reading the stuff in this document will get you nearly all of the major tools that you can use in my group. And that's good enough - you can and should stop reading now and learn everything else you need to know from direct experience and post-game reviews.
 
-The reason I say this is that there is a common misconception of newcomers to the group. Newcomers are shown [the main conventions document](https://github.com/Zamiell/hanabi-conventions) and assume that in order to play effectively, they have to read and memorize the entire thing. This can't be further from the truth. A lot of the sprawl is enumerating special situations that hardly ever come up. The document is really meant to be used as a reference, not to be read from start to finish, so it is important to keep that in mind.
+The reason I say this is that there is a common misconception of newcomers to the group. Newcomers are shown [the main conventions document](https://github.com/Zamiell/hanabi-conventions) and assume that in order to play effectively, they have to read and memorize the entire thing. This can't be further from the truth. A lot of the sprawl is enumerating special situations that hardly ever come up in a typical game. The document is really meant to be used as a reference, not to be read from start to finish, so it is important to keep that in mind.
