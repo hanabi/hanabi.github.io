@@ -172,6 +172,7 @@ Ok, so you've made it this far. The changes so far probably sound pretty strange
 * And in my group, there is no need to do the second strategy, because we play with a separate solution: a *Hard Double Discard Avoidance Convention*.
 * In this context, "hard avoidance" means that a player will avoid *Double Discarding* at all costs. If he is in danger of *Double Discarding*, then he will give any clue at all to avoid it, even if it is a complete waste of a clue.
 * Why do this? It narrows the possibilities of what *Save Clues* can be, which is quite useful. Furthermore, it eliminates the silliness involved in dancing around a *Double Discard* situation - players just simply don't have to worry about it anymore and can focus on always giving the highest efficiency clue for the situation.
+* Furthermore, if a player notices that someone *Double Discards* when they weren't supposed to, they can mark their hand for the exact card, which is quite powerful.
 
 ### Chop Moves - Added
 
