@@ -141,7 +141,7 @@ If you're reading this far, you'll want to know some of the basic differences be
 
 ## Convention Changes (Intermediate)
 
-Ok, so you've made it this far. All of that stuff probably sounds pretty strange, as there are some big fundamental changes in how general clues are interpretted. Beyond the basics, there are some other changes as well.
+Ok, so you've made it this far. All of that stuff probably sounds pretty strange, as there are some big fundamental changes in how general clues are interpretted. Before reading further, you'll probably want to play a few games with us to get a feel for how the basics work. Beyond the basics, there are some other changes as well.
 
 <br />
 
