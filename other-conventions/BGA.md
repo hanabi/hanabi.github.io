@@ -154,7 +154,7 @@ If you're reading this far, you'll want to know some of the basic differences be
 
 ## Convention Changes (Intermediate)
 
-Ok, so you've made it this far. The changes so far probably sound pretty strange, but at least most of the core stuff is still the same. Before reading further, you'll probably want to play a few games with us to get a feel for how the basics work. Beyond the basics, there are some other changes as well.
+Ok, so you've made it this far. The changes so far probably sound pretty strange, but at least most of the core stuff is still the same. Before reading further, you'll probably want to play a few games with us to get a feel for how the basics work. Beyond the basics, there are some other changes, as well as some brand new moves.
 
 <br />
 
