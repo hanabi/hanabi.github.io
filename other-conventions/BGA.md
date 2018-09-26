@@ -198,8 +198,8 @@ Ok, so you've made it this far. All of those changes probably sound pretty stran
 * For example:
   * Alice has a red 1 and a blue 1 to play.
   * Bob has a red 2 to play and is waiting for Alice to play the red 1.
-  * Alice plays the blue 1.
-  * The team is PROMISED to have the blue 2, so someone should blind-play it, similar to a *Finesse* was performed.
+  * Alice is expected to play the red 1. (The red 1 is said to have *Priority*.) Instead, Alice plays the blue 1.
+  * Thus, someone on the team is PROMISED to have the blue 2, so they should blind-play it, similar to if a *Finesse* was performed.
 * You can also do *Priority Prompts* and *Priority Bluffs*. It works suprisingly well in a variety of situations.
 * Why do this? It's a no-brainer and something that BGA hasn't figured out yet.
 
