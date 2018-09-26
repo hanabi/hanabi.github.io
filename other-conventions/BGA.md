@@ -205,5 +205,15 @@ These are conventions that we don't typically turn on for new players, but we do
 
 * On BGA, you generally can't do a *Finesse* that gets a big chain of cards to blind-play one after the other.
 * In my group, you are allowed to promise a card to anyone that you are not in *Bluff Seat* for. Once promised, then will continue to play cards in their hand from left to right until they find the promised card.
+* For example, in a 4-player game:
+  * Alice clues red to Donald as a *Play Clue* on a red 2.
+  * This promises that someone has the red 1.
+  * Cathy knows that she has the red 1, because she doesn't see anyone else have the red 1.
+  * Cathy blind-plays a blue 1 (from slot 1).
+  * Cathy knows that she isn't in *Bluff Seat* for Alice. Thus, Cathy knows that she must actually have the red 1, and that a *Layered Finesse* is occurring.
+  * On her next turn, Cathy tries to blind-play the red 1 (from slot 2), but it is really the blue 2.
+  * On her next turn, Cathy tries to blind-play the red 1 (from slot 3), but it is really the blue 3.
+  * On her next turn, Cathy blind-plays red 1 (from slot 4).
+  * Donald plays red 2.
 * We call this a *Layered Finesse* because the intended *Finesse* blind-play target is "layered" behind other playable cards.
-* Why do this? It's fucking awesome. =)
+* Why do this? It's pretty awesome. =)
