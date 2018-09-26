@@ -104,7 +104,7 @@ If you're reading this far, you'll want to know some of the basic differences be
 * The *2 Saves Convention* is when someone clues number 2 and it touches a 2 on chop. Even if it touches some other 2, it doesn't necessarily mean anything is currently playable - the point of the clue was to save one or more 2's.
 * On BGA, *2 Saves* are typically "turned on" in 2-player games, but turned off with 3 or more players.
 * In my group, *2 Saves* are ALWAYS turned on, even in 5-player games.
-* Why do this? Having this convention turned on eliminates 100% of "bottom-deck" losses to 2's.
+* Why do this? Having this convention eliminates 100% of "bottom-deck" losses to 2's.
 
 ### Clue Focus on Retouched Cards - Changed
 
@@ -117,7 +117,7 @@ If you're reading this far, you'll want to know some of the basic differences be
   * Alice plays the "filled-in" card as the focus of the clue, and holds on to the other red card for later.
 * On BGA, clues given similar to the one in the example above can ALSO mean to play both cards, depending on the situation. (e.g. Alice plays red 2 and then plays red 3.)
 * In my group, **the focus of the clue is always on the brand new card introduced**. In the previous example, Alice should play her newest card as either red 2 or rainbow 1. She is promised nothing about her other red card, meaning that it can be either red 2 or rainbow 2.
-* Why do this? Having this convention turned on makes it extremely clear exactly what card is being talked about in almost all situations.
+* Why do this? Having this convention makes it extremely clear exactly what card is being talked about in almost all situations.
 
 ### Chop Focus - Added
 
@@ -126,7 +126,7 @@ If you're reading this far, you'll want to know some of the basic differences be
 * In my group, it is a two step process:
   * If one of the new cards introduced was on the chop, then it is a *Chop Focus Play Clue*.
   * Otherwise, it is a *Left-most Play Clue*.
-* Why do this? Notice that having this convention turned on compliments *Finesses*. Our group has a wide variety of *Finesses* and *Bluffs*, so it is easy to "get" fresh cards, but more difficult to "get" cards on chop.
+* Why do this? Notice that having this convention compliments *Finesses*. Our group has a wide variety of *Finesses* and *Bluffs*, so it is easy to "get" fresh cards, but more difficult to "get" cards on chop.
 
 ### Color Saves - Added
 
