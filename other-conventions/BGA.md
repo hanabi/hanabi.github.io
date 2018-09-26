@@ -231,7 +231,7 @@ These are conventions that we don't typically turn on for new players, but we do
 ### Layered Finesses - Added
 
 * On BGA, you generally can't do a *Finesse* that gets a big chain of cards to blind-play one after the other.
-* In my group, you are allowed to promise a card to anyone that you are not in *Bluff Seat* for. Once promised, then will continue to play cards in their hand from left to right until they find the promised card.
+* In my group, you are allowed to perform a *Finesse* that promises a specific card (as long as you are not in *Bluff Seat* for that person). Once promised, the player will continue to play cards in their hand from left to right until they find the promised card.
 * For example, in a 4-player game:
   * Alice clues red to Donald as a *Play Clue* on a red 2.
   * This promises that someone has the red 1.
@@ -244,3 +244,11 @@ These are conventions that we don't typically turn on for new players, but we do
   * Donald plays red 2.
 * We call this a *Layered Finesse* because the intended *Finesse* blind-play target is "layered" behind other playable cards.
 * Why do this? It's pretty awesome. =)
+
+<br />
+
+## A Concluding Note
+
+Reading the stuff in this document will get you nearly all of the major tools that you can use in my group. And that's good enough - you can and should stop reading now and learn everything else you need to know from direct experience and post-game reviews.
+
+The reason I say this is that there is a common misconception of newcomers to the group. Newcomers are shown [the main conventions document](https://github.com/Zamiell/hanabi-conventions) and assume that in order to play effectively, they have to read and memorize the entire thing. This can't be further from the truth. A lot of the sprawl is enumerating special situations that hardly ever come up. The document is really meant to be used as a reference, not to be read from start to finish, so it is important to keep that in mind.
