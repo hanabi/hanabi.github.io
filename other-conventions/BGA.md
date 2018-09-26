@@ -34,7 +34,7 @@ Unfortunately, BGA isn't perfect. The user interface is functional, but really l
 * And a bunch of minor things:
   * No ability to see the cards touched by the last clue.
   * No distinction for playing cards blind (or discarding clued cards).
-  * A ton of delay and super slow animations after doing literally anything.
+  * A ton of delay and super slow animations after making a move.
   * No customizable time controls.
   * Only the 3 most basic variants.
   * And no "shared replays" for reviewing!
