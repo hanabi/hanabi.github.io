@@ -228,7 +228,7 @@ These are conventions that we don't typically turn on for new players, but we do
 * In my group, we arbitrarily agree that any card used to initiate a *Bluff* can be either a one-away card OR a 3.
 * To be clear, you are allowed to *3 Bluff* with either color or number.
 * This is one of the more arbitrary and tricky conventions that we have, so it will take a few games to get used to.
-* Why do this? It allows us to get 2-for-1 clues in situatinos where only a 1-for-1 was available. Furthermore, it allows us to mitigate a good percentage of "bottom-deck" losses to 3's.
+* Why do this? It allows us to get 2-for-1 clues in situations where you would otherwise have to do a 1-for-1. Furthermore, it allows us to mitigate a good percentage of "bottom-deck" losses to 3's.
 
 ### Layered Finesses - Added
 
