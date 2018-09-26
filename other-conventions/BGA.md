@@ -134,7 +134,7 @@ If you're reading this far, you'll want to know some of the basic differences be
 * On BGA, the system is that number clues mean *Save Clues*, and color clues mean *Play Clues*.
 * In my group, both number AND color clues can be used to save cards.
 * ANY clue that touches the chop has to be treated as a *Save Clue* first and foremost. If you can rule out a *Save Clue* interpretation, then you know that it is a *Chop Focus Play Clue*.
-* Why do this? It allows us to choose the exact clue type that would touch valuable cards, or AVOID touching duplicated cards. (We call this *Good Touch Principle*, by the way.)
+* Why do this? It allows us to choose the exact clue type that would avoid touching duplicated cards.
 
 ### Early Save Play Clues - Deleted
 
