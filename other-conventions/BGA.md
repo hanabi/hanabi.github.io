@@ -67,7 +67,7 @@ So, for both of these reasons, playing with my group probably won't appeal to th
 
 #### The Good
 
-What is the flipside of not having very many members? Better cohesion, aided by discussion. If you always wanted to know what a teammate was thinking at a critical point in the game, then you're in luck: when there ARE people around to play, your games with my group will probably be more fulfilling and in-depth than on Board Game Arena. 
+What is the flipside of not having very many members? Better cohesion, aided by discussion. When you can get a crew together, your games will probably be more fulfilling and in-depth than on Board Game Arena.
 
 What is the flipside of more conventions and more complexity? First off, it raises the skill ceiling. Hanabi throws plenty of tricky situations at you, and you only have a limited amount of tools to solve them. By adding some conventions, it can be like adding additional tools to the toolbelt. For expert players, by empowering them with more tools, it increases the total ways in which they can solve problems, making the game take on a new layer of beauty. But even for intermediate players, it can be very fun to gain the powers to make your teammates blind-play cards from their hands in new and exciting ways. =)
 
