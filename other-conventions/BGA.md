@@ -8,7 +8,7 @@
 2. [Convention Changes (Beginner)](#convention-changes-beginner)
 3. [Convention Changes (Intermediate)](#convention-changes-intermediate)
 4. [Convention Changes (Advanced)](#convention-changes-advanced)
-5. [A Concluding Note]()
+5. [A Concluding Note](#a-concluding-note)
 
 <br />
 
