@@ -175,7 +175,7 @@ Ok, so you've made it this far. All of that stuff probably sounds pretty strange
 ### The Priority Finesse
 
 * Often times, a player will have two or more playable cards in their hand and have a choice as to which one to play.
-* On BGA, it is typical for people to play the cards that lead into teammate's hands. However, you are allowed to play your cards in whatever order you want, and no-one really pays too much attention.
+* On BGA, it is typical for people to play the cards that lead into teammate's hands. However, you are ultimately allowed to play your cards in whatever order you want, and no-one really pays too much attention.
 * In my group, we pay attention.
 * For example:
   * Alice has a red 1 and a blue 1 to play.
