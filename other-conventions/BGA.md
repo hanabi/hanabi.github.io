@@ -79,6 +79,8 @@ As a concluding note, I should say that I am NOT necessarily advocating that any
 
 If you're reading this far, you'll want to know some of the basic differences between the the *BGA convention framework* and the *Hyphen-ated convention framework*. Fear not - it isn't so bad once you play a few games.
 
+<br />
+
 ### A Note on the Conventions Themselves
 
 * On BGA, the "rules" or conventions by which people play are largely unwritten, and can change from game to game. But you'll almost certainly know what they are after having played a bunch of games.
@@ -131,6 +133,10 @@ If you're reading this far, you'll want to know some of the basic differences be
 <br />
 
 ## Conventional Changes - Advanced and Expert
+
+These are conventions that we don't typically turn on for new players, but we do use regularly in high-level games.
+
+<br />
 
 ### 3 Bluffs - Added
 
