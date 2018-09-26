@@ -77,7 +77,7 @@ But maybe that's going overboard. Maybe a better description is that we are just
 
 #### Duality
 
-As a concluding note, I should say that I am NOT necessarily advocating that anyone completely "converts" from BGA to my group, like it is some kind of religion. Feel free to dabble on both platforms! It is absolutely possible to switch from one convention set to another. You can think of this as similar to a bilinguial person switching from Spanish to French - you don't necessarily have to choose between the two.
+As a concluding note, I should say that I am NOT necessarily advocating that anyone completely "converts", like it is some kind of religion. Rather, feel free to experiment and play on both platforms! It is absolutely possible to switch back and forth between convention frameworks. You can think of this as similar to a bilinguial person switching from Spanish to French - you don't necessarily have to choose between the two.
 
 <br />
 
