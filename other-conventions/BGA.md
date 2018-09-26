@@ -167,7 +167,7 @@ Ok, so you've made it this far. The changes so far probably sound pretty strange
 ### Chop Moves - Added
 
 * On BGA, there are certain situations where you should skip over the chop card and discard the next card in line.
-* In my group, we give an explicit name to this - the *Chop Move*. We think of the *Chop Move* like an an invisible clue that is applied to the chop card.
+* In my group, we give this move a name - the *Chop Move*. We think of the *Chop Move* like an an invisible clue that is applied to the chop card.
 * Unlike on BGA, *Chop Moved* cards are permanent - you should never discard them, similar to how you would never normally discard a card that already has a clue on it.
 * There are several ways to initiate a *Chop Move*, some of which are detailed below.
 
@@ -182,8 +182,7 @@ Ok, so you've made it this far. The changes so far probably sound pretty strange
 
 * On BGA, if you clue a 5 that is one away from chop, then it is either a stall clue or a *Play Clue* on the 5, depending on the situation.
 * In my group, we assign a special meaning to number 5 clues that introduce a brand new 5 that is exactly one-away from chop. You guessed it - it's a *Chop Move*.
-* You can use this special power to save two cards with one clue. It is very powerful in order to save a critical card that is followed by a 5. Or, you can even use it to save a non-critical but-still-useful card.
-* The *Chop Move* interpretation will always take precedence over a *Play Clue* interpretation, so you have to be careful about that. Of course, at the end of the game, when it would be pointless to *Chop Move* anything, then it will just look like a *Play Clue* instead.
+* Why do this? It allows players to use this special power to save two cards with one clue. For example, it can be used to save a critical card that is followed by a 5. Or, you can even use it to save a non-critical but-still-useful card.
 
 ### The Order Chop Move - Added
 
