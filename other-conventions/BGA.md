@@ -166,9 +166,10 @@ Ok, so you've made it this far. The changes so far probably sound pretty strange
 
 ### Chop Moves - Added
 
-* On BGA, if a card does not have an explicit clue on it, players may forget that they know ancillary information about it (beyond having pure negative clues).
-* In my group, we never forget. Thus, we have several specific types of clues cause a *Chop Move*.
-* A *Chop Move* is like an invisible clue that is applied to the chop card. *Chop Moved* cards are never discarded, similar to how you would never normally discard a card that already has a clue on it. Thus, once a *Chop Move* happens, the player's chop will move one slot over to the next unclued card.
+* On BGA, there are certain situations where you should skip over the chop card and discard the next card in line.
+* In my group, we give an explicit name to this - the *Chop Move*. We think of the *Chop Move* like an an invisible clue that is applied to the chop card.
+* Unlike on BGA, *Chop Moved* cards are permanent - you should never discard them, similar to how you would never normally discard a card that already has a clue on it.
+* There are several ways to initiate a *Chop Move*, some of which are detailed below.
 
 ### Scream Discard Chop Moves - Changed
 
