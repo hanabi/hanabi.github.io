@@ -205,7 +205,7 @@ Ok, so you've made it this far. All of those changes probably sound pretty stran
 
 ### Double Discard Avoidance (DDA) - Changed
 
-* *Double Discarding* is when two players discard the same thing in a row (say, a yellow 4) and it causes a perfect score to be lost.
+* *Double Discarding* is when two players discard the same thing in a row (say, a red 4) and it causes a perfect score to be lost.
 * In BGA, there is some basic strategies to avoid *Double Discards* from occurring. Firstly, you are generally allowed to "early save" the card by cluing it directly. Secondly, you can indirectly solve the problem by planning a line where it sets up one of the players to give an obvious clue. Both of these are viable strategies to solve the problem.
 * In my group, we are not allowed to do the first strategy - we are ONLY allowed to save cards that have already been discarded.
 * And in my group, there is no need to do the second strategy, because we play with a separate solution: a *Hard Double Discard Avoidance Convention*.
