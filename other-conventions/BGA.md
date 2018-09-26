@@ -157,7 +157,7 @@ Ok, so you've made it this far. All of those changes probably sound pretty stran
 
 <br />
 
-### Bluff Restriction - Added
+### Bluff Restriction - Changed
 
 * On BGA, it is possible to perform a *Bluff* on whomever you want. You just have to be careful that it won't be too confusing.
 * In my group, it is ONLY permissible to *Bluff* the very next player. We call this being in *Bluff Seat*. Alice is in *Bluff Seat* for Bob, Bob is in *Bluff Seat* for Cathy, and so forth.
