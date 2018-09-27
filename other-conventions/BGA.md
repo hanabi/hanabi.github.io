@@ -83,7 +83,7 @@ Getting a game going on Hanabi Live is pretty different from how you would get a
 
 In order to find players, we typically do a "@here" ping in the [Hanabi Live Discord Server](https://discord.gg/FADvkJp), which alerts everyone who is at their computer that someone is wanting to get a game going.
 
-Admittedly, this can be a little clunky for players who don't want to figure out how a new program works or download a program on their computer. One handy feature of the Hanabi Live lobby is that it is linked to the Hanabi Live Discord Server - the server will relay messages back and forth. But that doesn't really help all that much, because after playing a game, you would have to use Discord to listen-in for the post-game review. One good thing about Discord is that it can be run from a browser tab, so you always have that option if you don't want to download it on your computer. (With that said, we do recommend that people download the client, as it will work better than the in-browser version.)
+Admittedly, this can be a little clunky for players who don't want to figure out how a new program works or download a program on their computer. One good thing about Discord is that it can be run from a browser tab, so you always have that option if you don't want to download it. (With that said, we do recommend that people download the client, as it will work better than the in-browser version.)
 
 #### Small Number of Players
 
