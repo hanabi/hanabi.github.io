@@ -52,9 +52,17 @@ Of course, this problem is compounded by the terrible replay system. Even if pla
 
 ### Hanabi Live
 
-Hanabi Live is a modern website that fixes all of the interface issues with BGA. While there are some random players who play on the site, I would say that the majority of games are played by people in my group, the "Hyphen-ated group". We play in a manner similar to how BGA players play, but with a lot more "special moves" thrown in.
+Hanabi Live is a modern website that fixes all of the interface issues with BGA. Getting used to the layout of everything might take some getting used to, but at the end of the day it be ill no doubt feel snappier. One major addition is custom time controls: you can enforce 
 
-More importantly, when Hyphen-ated group members play together, we typically review every single game in a voice chat (using the free [Discord](https://discordapp.com/) web/desktop application). By doing this after every game, it accelerates the process of synchronizing everyone's strategies and playstyle to ensure that we are all on the same page. And it accelerates the process of making everyone really good at Hanabi, because people get the chance to learn from mistakes that they never would have known that they made. It's just a lot of fun - reviewing the game can be more fun than actually playing the game.
+However, getting games going is pretty different from how you would get a game going on BGA, since there is not a large pool of players to draw from. This means that you can't just click the "Create Table" button and have random people join your game, like you would on BGA. Instead, most of our players have a program called [Discord](https://discordapp.com/) downloaded on their computer, which is a voice and chat application similar to Skype. In order to find players, we typically perform an "@here" ping in the [Hanabi Live Discord Server](https://discord.gg/FADvkJp), which alerts everyone who is at their computer that someone is wanting to get a game going.
+
+Admittedly, this can be a little clunky for players who don't want to figure out how a new program works or download a program on their computer. One good thing about Discord is that you can always just run it in a browser tab instead of downloading it on your computer. With that said, we recommend that people do download the client, as it will work better than the in-browser version. One handy feature of the Hanabi Live lobby is that it is linked to the Hanabi Live Discord Server - the server will relay messages back and forth.
+
+While there are some random players who play on the site, I would say that the majority of games are played by people in my group, the "Hyphen-ated group". In terms of playstyle, we play in a manner similar to how BGA players play, but with a lot more "special moves" thrown in.
+
+More importantly, when Hyphen-ated group members play together, we typically review every single game in a voice chat. (This is why we use Discord, which allows free voice and text chat without the security vulnerabilities of Skype.) Using voice allows us to 
+
+By doing this after every game, it accelerates the process of synchronizing everyone's strategies and playstyle to ensure that we are all on the same page. And it accelerates the process of making everyone really good at Hanabi, because people get the chance to learn from mistakes that they never would have known that they made. It's just a lot of fun - reviewing the game can be more fun than actually playing the game.
 
 Overall, there are both good and bad things about Hanabi Live when compared to BGA.
 
