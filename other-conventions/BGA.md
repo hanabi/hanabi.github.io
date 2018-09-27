@@ -87,7 +87,7 @@ Admittedly, this can be a little clunky for players who don't want to figure out
 
 #### Small Number of Players
 
-The best aspect of Board Game Arena is the large number of players. And the ELO system, for better or worse, does a pretty good job of motivating players to keep playing. The fact of the matter is that there will never be as many players on Hanabi Live as there are on BGA - not even close. On Hanabi Live, often times there will be no-one will be around when you are interested in getting a game going. So, that can be an annoying part of playing here. (For this reason, some people in our group also dabble on BGA!)
+The best aspect of Board Game Arena is the large number of players. And the ELO system, for better or worse, does a pretty good job of motivating players to keep playing. The fact of the matter is that there will never be as many players on Hanabi Live as there are on BGA - not even close. On Hanabi Live, often times there will be no-one around when you are interested in getting a game going. So, that can be an annoying part of playing here. (For this reason, some people in our group also dabble on BGA!)
 
 What is the flipside of not having very many members? Better cohesion, aided by discussion. When you are able to get a crew together, your games will probably be more fulfilling and in-depth than on Board Game Arena.
 
