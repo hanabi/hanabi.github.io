@@ -123,6 +123,11 @@ If you're reading this far, you'll want to know some of the basic differences be
 * Before you get overwhelmed, I think it is important to communicate right from the start that **most stuff will be the exact same as you are used to on BGA**.
 * Stuff like giving *Finesses*, giving *Bluffs*, paying attention to see that no-one on the team discards anything important, using good teamwork - all of this stuff is stuff you are already used to and it will carry over more or less exactly.
 
+### What's Different?
+
+* We will get into some specifics shortly. But in general, BGA conventions are more focused on **tempo** (getting cards played "right now") and **aggressive discarding**, while Hyphen-ated conventions are focused more on **orchestrating safe discards** and **absolute trust**.
+* Another general difference is when mistakes happen. On BGA, there is more wiggle room when someone makes a small mistake. In my group, even a small mistake can cause cascading failures, because everyone is strongly attuned to what everyone else is doing.
+
 ### A Note on the Conventions Themselves
 
 * On BGA, the "rules" or conventions by which people play are largely unwritten, and can change from game to game. But you'll almost certainly know what they are after having played a bunch of games.
@@ -132,20 +137,20 @@ If you're reading this far, you'll want to know some of the basic differences be
 ### 2 Saves - Added Always
 
 * The *2 Saves Convention* is when someone clues number 2 and it touches a 2 on chop. Even if it touches some other 2, it doesn't necessarily mean anything is currently playable - the point of the clue was to save one or more 2's.
-* On BGA, *2 Saves* are typically "turned on" in 2-player games, but turned off with 3 or more players.
-* In my group, *2 Saves* are ALWAYS turned on, even in 5-player games.
+* On BGA, *2 Saves* are typically "turned on" in 2-player games, and sometimes turned on in 3-player games, but almost always turned off in 4-player games and 5-player games.
+* In my group, *2 Saves* are ALWAYS turned on, regardless of the amount of players.
 * Why do this? Having this convention eliminates 100% of "bottom-deck" losses to 2's.
 
 ### Clue Focus on Retouched Cards - Changed
 
 * When multiple cards are "touched" by a clue, it typically only means to play one card. We call that card the *focus* of the clue.
-* On BGA, the focus can be on either card. But most often, the focus is on the existing card that is "filled in" by the clue.
+* On BGA, the focus can be on either card, and you just have to figure it out depending on the context of the game. Often times, the focus is on the existing card that is "filled in" by the clue.
 * For example, in a Rainbow game:
   * Red 1 is played on the stacks.
   * Alice has a card in her hand clued with number 2.
   * Bob clues Alice red, filling in the 2 with red and also introducing a brand new card on her newest slot.
   * Alice plays the "filled-in" card as the focus of the clue, and holds on to the other red card for later.
-* On BGA, clues given similar to the one in the example above can ALSO mean to play both cards, depending on the situation. (e.g. Alice plays red 2 and then plays red 3.)
+* Furthermore, on BGA, clues given similar to the one in the example above can ALSO mean to play both cards, depending on the situation. (e.g. Alice plays red 2 and then plays red 3.)
 * In my group, **the focus of the clue is always on the brand new card introduced**. In the previous example, Alice should play her newest card as either red 2 or rainbow 1. She is promised nothing about her other red card, meaning that it can be either red 2 or rainbow 2.
 * Why do this? Having this convention makes it extremely clear exactly what card is being talked about in almost all situations.
 
@@ -187,19 +192,15 @@ Ok, so you've made it this far. The changes so far probably sound pretty strange
 
 <br />
 
-### Bluff Restriction - Changed
-
-* On BGA, it is possible to perform a *Bluff* on whomever you want. You just have to be careful that it won't be too confusing.
-* In my group, it is ONLY permissible to *Bluff* the very next player. We call this being in *Bluff Seat*. Alice is in *Bluff Seat* for Bob, Bob is in *Bluff Seat* for Cathy, and so forth.
-* Why do this? It allows for a powerful move called a *Layered Finesse*, which is covered further on.
-
 ### Double Discard Avoidance (DDA) - Changed
 
 * *Double Discarding* is when two players discard the same thing in a row (say, a red 4) and it causes a perfect score to be lost.
-* In BGA, there is some basic strategies to avoid *Double Discards* from occurring. Firstly, you are generally allowed to "early save" the card by cluing it directly. Secondly, you can indirectly solve the problem by planning a line where it sets up one of the players to give an obvious clue. Both of these are viable strategies to solve the problem.
-* In my group, we are not allowed to do the first strategy - we are ONLY allowed to save cards that have already been discarded. (Or 5's, or 2's.)
-* And in my group, there is no need to do the second strategy, because we play with a separate solution: a *Hard Double Discard Avoidance Convention*.
+* On BGA, top players will often perform *Hard Double Discard Avoidance* in 2-player games.
 * In this context, "hard avoidance" means that a player will avoid *Double Discarding* at all costs. If he is in danger of *Double Discarding*, then he will give any clue at all to avoid it, even if it is a complete waste of a clue.
+* On BGA, in 3+ player games, players don't generally do *Hard Double Discard Avoidance*. Instead, they use two other strategies to avoid *Double Discards* from occurring.
+  * Firstly, players are generally allowed to "early save" the card by cluing it directly.
+  * Secondly, players can indirectly solve the problem by planning a line where it sets up one of the players to give an obvious clue. 
+* In my group, there is no need to do either of these strategies, because *Hard Double Discard Avoidance* is ALWAYS turned on, regardless of the amount of players.
 * Why do this? It narrows the possibilities of what *Save Clues* can be, which is quite useful. Furthermore, it eliminates the silliness involved in dancing around a *Double Discard* situation - players just simply don't have to worry about it anymore and can focus on always giving the highest efficiency clue for the situation.
 * Furthermore, if a player notices that someone *Double Discards* when they weren't supposed to, they can mark their hand for the exact card, which is quite powerful.
 
@@ -219,14 +220,14 @@ Ok, so you've made it this far. The changes so far probably sound pretty strange
 
 ### The 5's Chop Move - Added
 
-* On BGA, if you clue a 5 that is one away from chop, then it is either a stall clue or a *Play Clue* on the 5, depending on the situation.
+* On BGA, if you clue a 5 that is one away from chop, high-level players will usually interpret it as a *Play Clue* on the 5, although it can also be interpreted as a stall, depending on the situation.
 * In my group, we assign a special meaning to number 5 clues that introduce a brand new 5 that is exactly one-away from chop. You guessed it - it's a *Chop Move*.
 * Why do this? It allows players to use this special power to save two cards with one clue. For example, it can be used to save a critical card that is followed by a 5. Or, you can even use it to save a non-critical but-still-useful card.
 
 ### The Order Chop Move - Added
 
 * In the beginning of the game, it is common for two or more 1's to get clued in someone's hand.
-* On BGA, people typically play their 1's from oldest to newest. However, you are allowed to play the 1's in whatever order you want, and no-one really pays too much attention.
+* On BGA, people typically play their 1's from oldest to newest. However, if they don't, people just assume that a mistake is being made, and don't pay too much attention beyond that.
 * In my group, we pay attention. If you don't play your 1's from oldest to newest, it *Chop Moves* the next person.
 * Why do this? You get to save 5's (and other valuable stuff) "for free" without having to waste a clue. Yeah, it's good.
 
@@ -253,7 +254,7 @@ These are conventions that we don't typically turn on for new players, but we do
 
 ### 3 Bluffs - Added
 
-* On BGA, cards that are touched to initiate a *Bluff* are known to be one-away cards from being playable.
+* On BGA, cards that are touched to initiate a *Bluff* are typically known to be one-away from being playable. (There is also a more complex interpretation that I won't go into.)
 * In my group, we arbitrarily agree that any card used to initiate a *Bluff* can be either a one-away card OR a 3.
 * To be clear, you are allowed to *3 Bluff* with either color or number.
 * This is one of the more arbitrary and tricky conventions that we have, so it will take a few games to get used to.
@@ -261,14 +262,14 @@ These are conventions that we don't typically turn on for new players, but we do
 
 ### Layered Finesses - Added
 
-* On BGA, you generally can't do a *Finesse* that gets a big chain of cards to blind-play one after the other.
-* In my group, you are allowed to perform a *Finesse* that promises a specific card (as long as you are not in *Bluff Seat* for that person). Once promised, the player will continue to play cards in their hand from left to right until they find the promised card.
-* For example, in a 4-player game:
+* On BGA, you can't do a *Finesse* that gets a big chain of cards to blind-play one after the other.
+* In my group, you are allowed to perform a *Finesse* that promises a specific card (as long as you are not sitting immediately before that person). Once promised, the player will continue to play cards in their hand from left to right until they find the promised card.
+* For example, in a 4-player game with Alice, Bob, Cathy, and Donald:
   * Alice clues red to Donald as a *Play Clue* on a red 2.
   * This promises that someone has the red 1.
   * Cathy knows that she has the red 1, because she doesn't see anyone else have the red 1.
   * Cathy blind-plays a blue 1 (from slot 1).
-  * Cathy knows that Alice is in *Bluff Seat* for Bob. Thus, it cannot be a *Bluff* on her; Cathy knows that she must actually have the red 1, and that a *Layered Finesse* is occurring.
+  * Cathy knows that Alice is sitting two spots away from her. Thus, it cannot be a *Bluff* on her; Cathy knows that she must actually have the red 1, and that a *Layered Finesse* is occurring.
   * On her next turn, Cathy tries to blind-play the red 1 (from slot 2), but it is really the blue 2.
   * On her next turn, Cathy tries to blind-play the red 1 (from slot 3), but it is really the blue 3.
   * On her next turn, Cathy blind-plays red 1 (from slot 4).
