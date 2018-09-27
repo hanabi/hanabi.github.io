@@ -16,13 +16,13 @@
 
 This document is written for people who have a bunch of games on [Board Game Arena](https://en.boardgamearena.com/) and may be interested in playing some games with my group on [Hanabi Live](https://www.hanabi.live). Since my group uses some advanced conventions, this document should be a quick guide to get BGA players up to speed.
 
-Why bother branching out from Board Game Arena into the the unknown? In order to properly answer that question, here's a short introduction on the differences between BGA and Hanabi Live. It should explain why, at the very least, you might want to dabble on both platforms. If you are already convinced, you can skip this section.
+Why bother taking the time to branch out from Board Game Arena to play Hanabi elsewhere? In order to properly answer that question, here's a short introduction on the differences between BGA and Hanabi Live. It should explain why, at the very least, you might want to dabble on both platforms. If you are already convinced, you can skip this section.
 
 <br />
 
 ### Board Game Arena
 
-Board Game Arena is the most popular place to play Hanabi online and it has players online during all hours of the day. As you probably know, it is really easy to hop into a quick 2-player game. Even though you will often be playing with complete strangers, most people on the site play with the same basic conventions, so little coordination is needed. And everyone is generally quite friendly!
+Board Game Arena is a website that allows people to play all different types of board games. It introduced Hanabi on the platform in June 2014, and it is currently the most popular place to play Hanabi online. As you probably know, it has players ready to play at most times of the day, making it easy to hop into a quick game. Even though you will often be playing with complete strangers, most people on the site play with the same basic conventions, so little coordination is needed. And everyone is generally quite friendly!
 
 Board Game Arena also has an ELO system, which insulates the expert players from the newbies. As you move up the ranks, you will start to get games with the same players, which also allows you to get to know everyone in the community a bit more intimately. What could be better?
 
@@ -31,11 +31,12 @@ Board Game Arena also has an ELO system, which insulates the expert players from
 Unfortunately, BGA isn't perfect. The user interface is functional, but really leaves a lot to be desired:
 * There is an in-game replay feature, but using it is frustrating. Once you initiate a replay, you are stuck watching the movie until it reaches the present, with no ability to pause, and no ability to move back and forth at will.
 * There is no ability to see negative clues. You can keep track of them via memory, but this is quite cumbersome to do perfectly. Using negative clues is essential to playing at a high-level.
-* There is no ability to mark notes on a card. It may sound silly to players who have been trained to remember everything, but having the ability to quickly and easily record contextual information really takes the game to another level. On BGA, if you want to make notes, you have to resort to jotting them down in a separate program.
+* There is no ability to mark notes on a card. Making notes may sound silly to players who have been trained to remember everything, but having the ability to quickly and easily record contextual information really takes the game to another level. On BGA, if you want to make notes, you have to resort to jotting them down in a separate program.
 * And a bunch of minor things:
   * No ability to see the cards touched by the last clue.
   * No distinction for playing cards blind (or discarding clued cards).
-  * A ton of delay and super slow animations after making a move.
+  * Delay after making a move, combined with slow animations.
+  * Server instability.
   * No customizable time controls.
   * Only the 3 most basic variants.
   * And no "shared replays" for reviewing!
@@ -46,41 +47,61 @@ Besides the problems with the user interface, there is another big disadvantage 
 
 Since there are so many players on the site, a general culture has emerged where once a game is over, players will typically just jump into the next game with the next player. Of course, this doesn't always occur, and there may be some lively post-game discussions from time to time. But this is the exception rather than the norm. In a way, it makes sense: why bother giving other players tips or have a discussion after the end of the game when you may not ever play with that player again? It's just more practical to move on.
 
-Of course, this problem is compounded by the terrible replay system. Even if players wanted to hop on a voice call together and go through a game to analyze certain key moments, the replay system is just not condusive to the task. Often times, you need to stare at the exact turn for a while in order to come up with the best move. And to do that with the clunky replay system involves refreshing the page over and over.
+Of course, this problem is compounded by the terrible replay system. Even if players wanted to go over the replay of a game to analyze certain key moments, the replay system is just not condusive to this task. Often times, you need to stare at the exact turn for a while in order to come up with the best move. And to do that with the clunky replay system involves refreshing the page over and over.
 
 <br />
 
 ### Hanabi Live
 
-Hanabi Live is a modern website that fixes all of the interface issues with BGA. Getting used to the layout of everything might take some getting used to, but at the end of the day it be ill no doubt feel snappier. One major addition is custom time controls: you can enforce 
+Hanabi Live was created by me (Zamiel) in June 2017 with the goal of improving upon [Keldon's excellent online implementation](http://keldon.net/hanabi/) of the game. Whereas BGA is closed-source and "stuck in time", Hanabi Live is completely open-source and in constant development: we can add new variants, new features, fix bugs, and so forth.
 
-However, getting games going is pretty different from how you would get a game going on BGA, since there is not a large pool of players to draw from. This means that you can't just click the "Create Table" button and have random people join your game, like you would on BGA. Instead, most of our players have a program called [Discord](https://discordapp.com/) downloaded on their computer, which is a voice and chat application similar to Skype. In order to find players, we typically perform an "@here" ping in the [Hanabi Live Discord Server](https://discord.gg/FADvkJp), which alerts everyone who is at their computer that someone is wanting to get a game going.
+#### The Interface
 
-Admittedly, this can be a little clunky for players who don't want to figure out how a new program works or download a program on their computer. One good thing about Discord is that you can always just run it in a browser tab instead of downloading it on your computer. With that said, we recommend that people do download the client, as it will work better than the in-browser version. One handy feature of the Hanabi Live lobby is that it is linked to the Hanabi Live Discord Server - the server will relay messages back and forth.
+Hanabi Live is a modern website that fixes all of the interface issues with BGA. Getting used to the layout might take some getting used to. But after you do, I know you will love it: the interface is snappier, it conveys all the information you need to know, and allows you to move forward and backward through time with ease.
+
+#### Reviewing
 
 While there are some random players who play on the site, I would say that the majority of games are played by people in my group, the "Hyphen-ated group". In terms of playstyle, we play in a manner similar to how BGA players play, but with a lot more "special moves" thrown in.
 
-More importantly, when Hyphen-ated group members play together, we typically review every single game in a voice chat. (This is why we use Discord, which allows free voice and text chat without the security vulnerabilities of Skype.) Using voice allows us to 
+More importantly, when Hyphen-ated group members play together, we typically review every single game, turn by turn. Why do this? It accelerates the process of synchronizing everyone's strategies and playstyle to ensure that we are all on the same page. And it accelerates the process of making everyone really good at Hanabi, because people get the chance to learn from mistakes that they never would have known that they made. It's just a lot of fun - reviewing the game can be more fun than actually playing the game.
 
-By doing this after every game, it accelerates the process of synchronizing everyone's strategies and playstyle to ensure that we are all on the same page. And it accelerates the process of making everyone really good at Hanabi, because people get the chance to learn from mistakes that they never would have known that they made. It's just a lot of fun - reviewing the game can be more fun than actually playing the game.
+For the purposes of reviewing, actually talking to each other in a voice chat is worlds better than typing text snippets at each other. And that's why we always review in a voice chat using a program called [Discord](https://discordapp.com/), which is a voice and chat application similar to Skype. (Discord is in widespread use among gamers nowadays and doesn't have the security vulnerabilities that Skype does.)
 
-Overall, there are both good and bad things about Hanabi Live when compared to BGA.
+If you aren't interested in reviewing your Hanabi games, then that's a full stop - this document isn't really aimed at you. But if you are interested in reviewing, but do not have a microphone, or are scared of talking, that's fine - we only ask that you join the voice chat and listen along, and type back to us in the `#post-game-reviews` Discord text channel.
 
-#### The Bad
+#### Time Controls
+
+One major addition to Hanabi live is that you can set games to have whatever time controls you want. This means that you can have untimed games, reasonably timed games similar to BGA, or even "blitz" games where you only have 5-10 seconds to move. Blitz games can be an extremely fun challenge for experienced Hanabi players, and provides an entirely new way to enjoy the game. In my group, we play a mix of both fast games and normal games.
+
+Beyond just fast games, my group also engages in speedruns, where you try to complete the game as fast as possible. [Every world record](https://www.speedrun.com/hanabi) is held by members of my group. Much like blitz games, speedruns can be an extremely fun challenge for expert players.
+
+A side point here is that speedruns are viable on Hanabi Live because it is nice and snappy. It isn't really possible to do speedruns on BGA with all of the lag, long animations, and server problems.
+
+#### Getting Games Going
+
+Getting a game going on Hanabi Live is pretty different from how you would get a game going on BGA, since there is not a large pool of players to draw from. This means that you can't just click the "Create Table" button and have random people join your game, like you would on BGA. 
+
+In order to find players, we typically do a "@here" ping in the [Hanabi Live Discord Server](https://discord.gg/FADvkJp), which alerts everyone who is at their computer that someone is wanting to get a game going.
+
+Admittedly, this can be a little clunky for players who don't want to figure out how a new program works or download a program on their computer. One handy feature of the Hanabi Live lobby is that it is linked to the Hanabi Live Discord Server - the server will relay messages back and forth. But that doesn't really help all that much, because after playing a game, you would have to use Discord to listen-in for the post-game review. One good thing about Discord is that it can be run from a browser tab, so you always have that option if you don't want to download it on your computer. (With that said, we do recommend that people download the client, as it will work better than the in-browser version.)
+
+#### Small Number of Players
 
 The best aspect of Board Game Arena is the large number of players. And the ELO system, for better or worse, does a pretty good job of motivating players to keep playing. The fact of the matter is that there will never be as many players on Hanabi Live as there are on BGA - not even close. On Hanabi Live, often times there will be no-one will be around when you are interested in getting a game going. So, that can be an annoying part of playing here. (For this reason, some people in our group also dabble on BGA!)
 
-Another potentially bad aspect of playing with my group is the complexity involved. We are very welcoming of noobs, but I won't deny that it is going to be a longer journey to become an expert in our group than it would be to be an expert at BGA. And if you're already comfortable with the BGA conventions, it might just be too frustrating to experiment with different ways of doing things.
+What is the flipside of not having very many members? Better cohesion, aided by discussion. When you are able to get a crew together, your games will probably be more fulfilling and in-depth than on Board Game Arena.
 
-So, for both of these reasons, playing with my group probably won't appeal to the more casual Hanabi players who just want to play a game or two every now and then.
+#### Extra Conventions and Extra Complexity
 
-#### The Good
+Another potentially bad aspect of playing with my group is the complexity involved. We are very welcoming of noobs, but I won't deny that we play at a higher level than that of BGA players. It is going to be a longer journey to become an expert in our group than it would be to be an expert at BGA. And if you are already comfortable with the BGA conventions, it might just be too frustrating to experiment with different ways of doing things.
 
-What is the flipside of not having very many members? Better cohesion, aided by discussion. When you can get a crew together, your games will probably be more fulfilling and in-depth than on Board Game Arena.
+What is the flipside of having more conventions and more complexity? First off, it raises the skill ceiling. Hanabi throws plenty of tricky situations at you, and you only have a limited amount of tools to solve them. By adding some conventions, it can be like adding additional tools to the toolbelt. For expert players, by empowering them with more tools, it increases the total ways in which they can solve problems, making the game take on a new layer of beauty. But even for intermediate players, it can be very fun to gain the powers to make your teammates blind-play cards from their hands in new and exciting ways. =)
 
-What is the flipside of more conventions and more complexity? First off, it raises the skill ceiling. Hanabi throws plenty of tricky situations at you, and you only have a limited amount of tools to solve them. By adding some conventions, it can be like adding additional tools to the toolbelt. For expert players, by empowering them with more tools, it increases the total ways in which they can solve problems, making the game take on a new layer of beauty. But even for intermediate players, it can be very fun to gain the powers to make your teammates blind-play cards from their hands in new and exciting ways. =)
+We know that for people who really like Hanabi, it will be worth the extra effort to play with a little more complexity.
 
-If you are a Hanabi perfectionist, you'll be happy: the goal is to always play a perfect game with no mistakes. If you are a Hanabi theorist, you'll be happy: if someone thinks up a better way to do things, we are always open to refining our conventions by adding new ones (or deleting existing ones). If you're a Hanabi enthusiast, you'll be happy: we strive to push the game to the limits.
+#### Conclusion
+
+Why play games with my group? If you are a Hanabi perfectionist, you'll be happy: the goal is to always play a perfect game with no mistakes. If you are a Hanabi theorist, you'll be happy: if someone thinks up a better way to do things, we are always open to refining our conventions by adding new ones (or deleting existing ones). If you're a Hanabi enthusiast, you'll be happy: we strive to push the game to the limits.
 
 But maybe that's going overboard. Maybe a better description is that we are just a bunch of people who play Hanabi occasionally and really like it, and anyone is free to join us.
 
