@@ -1,4 +1,4 @@
-# The Story of 3 Bluffs (by Zamiel)
+# The Story of 3 Bluffs
 
 Back in 2015, a group of four expert players played Hanabi together. They played 200 games in a row of the rainbow variant, and got a perfect score 95% of the time. But of the very few games that they did not get a perfect score on, the main reason was that one player randomly discarded a 3 near the beginning of the game (through no fault of any of the players), and then the other copy of the 3 happened to be at the bottom of the deck. The players agreed to call this a "bottom-deck" loss.
 
