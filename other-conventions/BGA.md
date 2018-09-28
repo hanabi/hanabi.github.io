@@ -263,7 +263,7 @@ These are conventions that we don't typically turn on for new players, but we do
 * In my group, we arbitrarily agree that any card used to initiate a *Bluff* can be either a one-away card OR a 3.
 * To be clear, you are allowed to *3 Bluff* with either color or number.
 * This is one of the more arbitrary and tricky conventions that we have, so it will take a few games to get used to.
-* Why do this? It allows us to get 2-for-1 clues in situations where you would otherwise have to do a 1-for-1. Furthermore, it allows us to mitigate a good percentage of "bottom-deck" losses to 3's.
+* Why do this? It allows us to get 2-for-1 clues in situations where you would otherwise have to do a 1-for-1. Furthermore, it allows us to mitigate a good percentage of "bottom-deck" losses to 3's. (And if you're really interested, you can read [the story of how 3 Bluffs were invented](https://github.com/Zamiell/hanabi-conventions/blob/master/other-conventions/3_Bluffs.md)).
 
 ### Layered Finesses - Added
 
@@ -288,4 +288,4 @@ These are conventions that we don't typically turn on for new players, but we do
 
 Reading the stuff in this document will get you nearly all of the major tools that you will need to play with my group. And that's good enough - you can and should stop reading now and learn everything else you need to know from direct experience and post-game reviews.
 
-The reason I say this is that there is a common misconception of newcomers to the group. Newcomers are shown [the main conventions document](https://github.com/Zamiell/hanabi-conventions) and assume that in order to play effectively, they have to read and memorize the entire thing. This can't be further from the truth. A lot of the sprawl is enumerating special situations that hardly ever come up in a typical game. The document is really meant to be used as a reference, not to be read from start to finish, so it is important to keep that in mind.
+The reason I say this is that there is a common misconception of newcomers to the group. Newcomers are shown [the main conventions document](https://github.com/Zamiell/hanabi-conventions) and assume that in order to play effectively, they have to read and memorize the entire thing. This can't be further from the truth. A lot of the sprawl in the document is enumerating special situations that hardly ever come up in a typical game. The document is really meant to be used as a reference, not to be read from start to finish, so it is important to keep that in mind.
