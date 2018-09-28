@@ -55,7 +55,7 @@ Of course, this problem is compounded by the terrible replay system. Even if pla
 
 ### Hanabi Live
 
-Hanabi Live was created by me (Zamiel) in June 2017 with the goal of improving upon [Keldon's excellent online implementation](http://keldon.net/hanabi/) of the game. Whereas BGA is closed-source and "stuck in time", Hanabi Live is completely open-source and in constant development: we can add new variants, new features, fix bugs, and so forth.
+Hanabi Live was created by me (Zamiel) in June 2017 with the goal of improving upon [Keldon's excellent online implementation](http://keldon.net/hanabi/) of the game. Whereas BGA is closed-source and "stuck in time", Hanabi Live is completely open-source and in constant development: we can add new variants, add new features, fix bugs, and so forth.
 
 #### The Interface
 
