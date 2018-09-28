@@ -77,7 +77,7 @@ If you aren't interested in reviewing your Hanabi games, then that's a full stop
 
 #### Time Controls
 
-One major addition to Hanabi live is that you can set games to have whatever time controls you want. This means that you can have untimed games, reasonably timed games similar to BGA, or even "blitz" games where you only have 5-10 seconds to move. Blitz games can be an extremely fun challenge for experienced Hanabi players, and provides an entirely new way to enjoy the game. In my group, we play a mix of both fast games and normal games.
+One major addition to Hanabi Live is that you can set games to have whatever time controls you want. This means that you can have untimed games, reasonably timed games similar to BGA, or even "blitz" games where you only have 5-10 seconds to move. Blitz games can be an extremely fun challenge for experienced Hanabi players, and provides an entirely new way to enjoy the game. In my group, we play a mix of both fast games and normal games.
 
 Beyond just fast games, my group also engages in speedruns, where you try to complete the game as fast as possible. [Every world record](https://www.speedrun.com/hanabi) is held by members of my group. Much like blitz games, speedruns can be an extremely fun challenge for expert players.
 
