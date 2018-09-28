@@ -242,8 +242,8 @@ Ok, so you've made it this far. The changes so far probably sound pretty strange
 * On BGA, it is typical for people to play the cards that lead into teammate's hands. However, you are ultimately allowed to play your cards in whatever order you want, and no-one really pays too much attention.
 * In my group, we pay attention.
 * For example:
-  * Alice has a red 1 and a blue 1 to play.
-  * Bob has a red 2 to play and is waiting for Alice to play the red 1.
+  * Alice has a known red 1 and a known blue 1 to play.
+  * Bob has a known red 2 to play and is waiting for Alice to play the red 1.
   * Alice is expected to play the red 1. (The red 1 is said to have *Priority*.) Instead, Alice plays the blue 1.
   * Thus, someone on the team is PROMISED to have the blue 2, so they should blind-play it, similar to if a *Finesse* was performed.
 * You can also do *Priority Bluffs*. It works suprisingly well in a variety of situations.
