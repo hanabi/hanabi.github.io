@@ -61,7 +61,7 @@ Hanabi Live was created by me (Zamiel) in June 2017 with the goal of improving u
 
 <img src="../img/bga-mode-on-hanabi-live.png" alt="The Hanabi Live Interface" height="450px" />
 
-Hanabi Live is a modern website that fixes all of the interface issues with BGA: it is snappier, it conveys all the information you need to know, and allows you to move forward and backward through time with ease.
+All of the interface issues with BGA are fixed in the Hanabi Live interface: it is snappier, it conveys all the information you need to know, and allows you to move forward and backward through time with ease.
 
 Hanabi Live also got a recent update in September of 2018 to give players a "Board Game Arena" option in the settings. That will orient the hands in a manner that you are familiar with. The screenshot above shows what the interface looks like with this option turned on.
 
