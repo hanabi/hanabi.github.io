@@ -231,7 +231,7 @@ Ok, so you've made it this far. The changes so far probably sound pretty strange
 
 ### The Order Chop Move - Added
 
-* In the beginning of the game, it is common for two or more 1's to get clued in someone's hand.
+* In the beginning of the game, it is common for two or more 1's to get clued in the same person's hand.
 * On BGA, people typically play their 1's from oldest to newest. However, if they don't, people just assume that a mistake is being made, and don't pay too much attention beyond that.
 * In my group, we pay attention. If you don't play your 1's from oldest to newest, it *Chop Moves* the next person.
 * Why do this? You get to save 5's (and other valuable stuff) "for free" without having to waste a clue. Yeah, it's good.
