@@ -203,8 +203,8 @@ Ok, so you've made it this far. The changes so far probably sound pretty strange
 * On BGA, top players will often perform *Hard Double Discard Avoidance* in 2-player games.
 * In this context, "hard avoidance" means that a player will avoid *Double Discarding* at all costs. If they are in danger of *Double Discarding*, then they will give any clue at all to avoid it, even if it is a complete waste of a clue.
 * On BGA, in 3+ player games, players don't generally do *Hard Double Discard Avoidance*. Instead, they use two other strategies to prevent *Double Discards* from occurring:
-  * Firstly, players are generally allowed to "early save" the card by cluing it directly.
-  * Secondly, players can indirectly solve the problem by planning a line where it sets up one of the players to give an obvious clue. 
+  * First, players are generally allowed to "early save" the card by cluing it directly.
+  * Second, players can indirectly solve the problem by planning a line where it sets up one of the DD players to give an obvious clue. 
 * In my group, there is no need to do either of these strategies, because *Hard Double Discard Avoidance* is ALWAYS turned on, regardless of the amount of players.
 * Why do this? It narrows the possibilities of what *Save Clues* can be, which is quite useful. Furthermore, it eliminates the silliness involved in dancing around a *Double Discard* situation - players just simply don't have to worry about it anymore and can focus on always giving the highest efficiency clue for the situation.
 * Furthermore, if a player notices that someone *Double Discards* when they weren't supposed to, they can mark their hand for the exact card, which is quite powerful.
