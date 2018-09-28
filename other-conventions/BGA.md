@@ -280,7 +280,7 @@ These are conventions that we don't typically turn on for new players, but we do
   * On her next turn, Cathy blind-plays red 1 (from slot 4).
   * Donald plays red 2.
 * We call this a *Layered Finesse* because the intended *Finesse* blind-play target is "layered" behind other playable cards.
-* Why do this? It's pretty awesome. =)
+* Why do this? It's pretty awesome and one of the most fun parts of playing Hanabi. =)
 
 <br />
 
