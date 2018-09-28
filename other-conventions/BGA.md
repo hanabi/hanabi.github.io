@@ -28,6 +28,8 @@ Board Game Arena also has an ELO system, which insulates the expert players from
 
 #### The Interface
 
+<img src="../img/bga-interface.png" alt="The Board Game Arena Interface" height="450px" />
+
 Unfortunately, BGA isn't perfect. The user interface is functional, but really leaves a lot to be desired:
 * There is an in-game replay feature, but using it is frustrating. Once you initiate a replay, you are stuck watching the movie until it reaches the present, with no ability to pause, and no ability to move back and forth at will.
 * There is no ability to see negative clues. You can keep track of them via memory, but this is quite cumbersome to do perfectly. Using negative clues is essential to playing at a high-level.
@@ -57,9 +59,11 @@ Hanabi Live was created by me (Zamiel) in June 2017 with the goal of improving u
 
 #### The Interface
 
+<img src="../img/bga-mode-on-hanabi-live.png" alt="The Hanabi Live Interface" height="450px" />
+
 Hanabi Live is a modern website that fixes all of the interface issues with BGA: it is snappier, it conveys all the information you need to know, and allows you to move forward and backward through time with ease.
 
-Make sure to enable on the "Board Game Arena mode" in the settings. That will orient the hands in a manner that you are familiar with.
+Hanabi Live also got a recent update in September of 2018 to give players a "Board Game Arena mode" option in the settings. That will orient the hands in a manner that you are familiar with. The screenshot above shows what the interface looks like with this option turned on.
 
 #### Reviewing
 
