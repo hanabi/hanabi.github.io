@@ -75,7 +75,7 @@
     * #2a - unclued & known playable cards (which would be confirming that they are indeed *Finessed*, for example)
     * #2b - clued & known playable cards (which would just be retouching the card, accomplishing nothing new)
 * If there two or more cards of the same subcategory above, then the priority is as follows:
-  * #1 - lowest rank
+  * #1 - lowest rank (even if there is a 5)
   * #2 - left-most
 
 ### Giving Plays to Already Called Cards
