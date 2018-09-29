@@ -39,7 +39,7 @@ Unfortunately, BGA isn't perfect. The user interface is functional, but really l
   * No distinction for playing cards blind (or discarding clued cards).
   * Delay after making a move, combined with slow animations.
   * Server instability.
-  * No customizable time controls.
+  * Non-customizable time controls.
   * Only the 3 most basic variants.
   * And no "shared replays" for reviewing!
 
