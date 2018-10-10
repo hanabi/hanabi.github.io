@@ -2,53 +2,30 @@
     <img src="img/hanabi.jpg" height="200" />
 </p>
 
-# Hanabi Strategies & Conventions
+# Hanabi Conventions for The Hyphen-ated Group
 
-For the *Hyphen-ated group*. Written and maintained by Zamiel.
-
-All document updates are listed in the `#announcements` channel on the [Hanabi Discord server](https://discord.gg/FADvkJp). (You can also see the [commit history](https://github.com/Zamiell/hanabi-conventions/commits/master) of this repository.)
+Written and maintained by Zamiel.
 
 <br />
 
 ## Introduction & Purpose
 
-[Hanabi](https://boardgamegeek.com/boardgame/98778/hanabi) is a fantastic cooperative card game of logic and reasoning. Our group, started by Hyphen-ated, gets online games going regularly (at the [Hanabi Live](https://hanabi.live) website). Everything doesn't always go perfectly, but we strive to constantly improve. Naturally, we have also built up a set of conventions that we all agree upon at the beginning of the game so that it is easier to understand what everyone else is doing. As the list of conventions got longer, we wanted to make sure that everything was completely documented in an official capacity.
+[Hanabi](https://boardgamegeek.com/boardgame/98778/hanabi) is a fantastic cooperative card game of logic and reasoning. Our group, started by a guy named Hyphen-ated, gets online games going regularly on [Hanabi Live](https://hanabi.live). Everything doesn't always go perfectly, but we strive to constantly improve. Naturally, we have also built up a set of conventions that we all agree upon at the beginning of the game so that it is easier to understand what everyone else is doing. As the list of conventions got longer, we wanted to make sure that everything was completely documented in an official capacity.
 
-The purpose of this document is:
+Are you looking to start playing games with my group? Fantastic - we are always looking to welcome new players. Take 5 minutes and go over the *First Principles* below. And skim the *Beginner Strategies* section too so that you can have a good idea of the basics.
 
-1. To explain the *First Principles* to brand-new players playing with our group.
-
-    Briefing a beginner on every possible strategy would quickly become overwhelming. It is much easier to just describe some guiding principles that everyone agrees upon. Once these are known, a beginner should be able to use logic and reason to derive (most of) the resulting strategy that their teammate is intending.
-
-2. To serve as **a reference** for intermediate and expert players of our group.
-
-    Based on the guiding principles, we have come up with many different strategies. It is helpful to give specific names to each strategy to aid in both discussion and comprehension. If you know the general way we play but don't know about a specific kind of move, then you can look it up in this document.
-
-If you have found your way here from the Internet and are not a part of our group already, then welcome! You can use this document to cherry-pick strategies for your own group, or even adopt the whole convention framework if you want. We enjoy talking to other Hanabi players, so make sure to say hi in the [Hanabi Discord server](https://discord.gg/FADvkJp) as well. (Discord is a voice and text chat application that you can run in a browser.)
+Have you found your way here from the Internet and are just interested in browsing? That's fine too - you can use this document to cherry-pick strategies for your own group, or even adopt the whole convention framework if you want. We enjoy talking to other Hanabi players, so make sure to say hi in the [Hanabi Discord server](https://discord.gg/FADvkJp) as well. (Discord is a voice and text chat application that you can run in a browser.)
 
 Note that while Hanabi is a 2 to 5 player game, our group generally only plays games with 3 to 5 players, since 2-player games can be quite boring. Thus, this document doesn't really apply to 2-player games; separate conventions are probably necessary for optimized play in that game type.
-
-
 
 <br />
 
 ## Table of Contents
 
-This document is split up into different sections so that you can better digest it. As a new player, you should probably **not** read the entire document at once. Rather, it might be better to only read Level 0 and Level 1 sections. The other sections can be just used as a reference as you continue to naturally improve at the game.
-
 1. [Quick Links](#quick-links)
-2. [Level 0 - First Principles](#level-0---first-principles)
-3. [Examples](#examples)
-4. [Level 1 - Beginner Strategies](#level-1---beginner-strategies)
-5. [Level 2 - Intermediate Strategies](#level-2---intermediate-strategies)
-6. [Level 2 - General Principles](#level-2---general-principles)
-7. [Level 3 - Advanced Strategies](#level-3---advanced-strategies)
-8. [Level 4 - Expert Strategies](#level-4---expert-strategies)
-9. [Level 3 - Variant-Specific Strategies](#level-3---variant-specific-strategies)
-10. [Level 3 - Rarely Used Advanced Strategies](#level-3---rarely-used-advanced-strategies)
-11. [Level 4 - Rarely Used Expert Strategies](#level-4---rarely-used-expert-strategies)
-12. [Non-Formalized Proposals](#non-formalized-proposals)
-13. [Convention Attribution](#convention-attribution)
+2. [Level 1 - First Principles](#level-0---first-principles)
+3. [Level 2 - Beginner Strategies](#level-1---beginner-strategies)
+4. [Strategy Reference(#strategy-reference)
 
 <br />
 
@@ -59,89 +36,6 @@ This document is split up into different sections so that you can better digest 
 [Hanabi Live](http://hanabi.live/).
 * There are also lots of players who play Hanabi online at [Board Game Arena](http://boardgamearena.com), although the user interface is not very good.
 * Find other people to play with and discuss strategy with on the [Hanabi Discord server](https://discord.gg/FADvkJp). (Discord is a voice and text chat application that you can run in a browser.)
-
-<br />
-
-## Level 0 - First-Principles
-
-While there are some weird strategies that could throw you for a loop if you have never seen them before, mostly everything should follow from these guiding principles. You don't have to memorize all of these all at once; just read them so that you can start to get familiar with them.
-
-### 1. Chop Principle
-
-* The "chop" is the right-most unclued card.
-* When a player needs to discard and has no known safe discards, they discard the chop card.
-
-### 2. Minimum Clue Value Principle
-
-* A given clue must either:
-  * indicate sufficient information for one or more previously unclued cards to be played
-  * prevent the possible discard of a card that needs to be saved
-
-### 3. Save Principle
-
-* Cards that meet the following criteria need to be saved:
-  * only one copy remains (e.g. 5's or unplayed cards in the discard pile)
-  * it is a 2 and not visible elsewhere in players' hands
-  * it is currently playable and not visible elsewhere in players' hands
-* When a card that needs to be saved is at immediate risk of being discarded, it must be indicated with a *Save Clue*.
-* A player receiving a clue should give precedence to a *Save Clue* interpretation over a *Play Clue* interpretation.
-
-### 4. Good Touch Principle
-
-* A safe discard is defined as:
-  * a copy of a card that has already been played
-  * a copy of a card that is in someone's hand and has been clued
-* Safe discards should NOT be clued (unless there's an important reason to).
-* Players should generally assume that any clued card in their hand will be eventually be played.
-
-### 5. Play Order Principle
-
-* When a *Play Clue* touches multiple cards, if it includes the chop, it's focused on the chop.
-* Otherwise it's focused on the newest of the freshly-introduced cards.
-* The non-focused cards may or may not be playable.
-
-### 6. Left-Most Playable Principle
-
-* When a player is expected to play a card (or know a card is playable) in a situation not covered by the *Play Order Principle*, the card to be played is the left-most of the various cards that are most likely to be it.
-
-### 7. Information Lock Principle
-
-* What is indicated by a clue is determined by the known information at the time the clue is given. Subsequent clues may build upon that information, but do not override it unless a direct conflict is evident.
-
-### 8. Good Lie Principle
-
-* When a *Play Clue* is given, it's a message that says the card is playable. Sometimes this message can be a lie, in order to usefully manipulate other players.
-* Valid lies must not allow for the possibility of any misinformed player to give a conflicting clue or misplay. In simpler terms, this means that good lies almost always reveal themselves on the very next turn.
-
-### 9. High Value Principle
-
-* The highest value clue is expected. If a clue is given, it should be interpreted to be the highest value move available to that player.
-* In other words, you can draw many important conclusions from the fact that a player did not do some other (potentially higher-value) move.
-
-### Appendix A: Basic Clue Logic:
-
-Following from these principles, this is [a basic logic flowchart](https://cdn.discordapp.com/attachments/140016142600241152/266467290101317632/Hanabi_Clue_Flowchart.png) that describes the general interpretation of a clue.
-
-<br />
-
-## Examples
-
-Throughout this document, there will be a mix of both text-based examples and graphical screenshots.
-
-In a text-based example:
-* The player who goes first will always be Alice.
-* The second player will always be Bob.
-* The third player will always be Cathy.
-* The forth player will always be Donald.
-* The fifth player will always be Emily.
-
-(This is a historical convention created by [Keldon Jones](http://keldon.net/) and follows loosely from [cryptography](https://en.wikipedia.org/wiki/Alice_and_Bob).)
-
-A screenshot will look like the following:
-
-![Example Screenshot](img/example.png)
-
-Note that in this user interface, players are holding their hands like they would be if they were playing in real life. For example, in this screenshot, Donald's chop card / right-most card / slot 4 card is the green 5, and Alice's chop card / right-most card / slot 4 card is the yellow 1.
 
 <br />
 
@@ -263,3 +157,13 @@ Note that in this user interface, players are holding their hands like they woul
   * Cathy assumes that this is a *Finesse* and that she must have a blue 1.
   * Now, it is Cathy's turn. Blind-playing the blue 1 is more important than playing the red 1.
   * Normally, the *Finesse Position* would be the left-most card. However, since Cathy's slot 1 and slot 2 card are already clued, Cathy's *Finesse Position* card has shifted down to her slot 3. Thus, she must blind-play the blue 1 from slot 3.
+
+<br />
+
+### Clue Logic Flowchart
+
+Following from these principles, this is [a basic logic flowchart](https://cdn.discordapp.com/attachments/140016142600241152/266467290101317632/Hanabi_Clue_Flowchart.png) that describes the general interpretation of a clue.
+
+## Strategy Reference
+
+If you are an intermediate or advanced player and you need to look up a specific kind of move, then you can use the [reference document].
