@@ -5,6 +5,15 @@
 
 <br />
 
+## Table of Contents
+
+1. [The Basic](#the-basics)
+2. [Play Clues & Save Clues](#play-clues-&-save-clues)
+3. [Miscellaneous](#miscellaneous)
+4. [Special Moves](#special-moves)
+
+<br />
+
 ## The Basics
 
 ### The Chop
@@ -92,6 +101,10 @@
 ### Clue Logic Flowchart
 
 * This is [a basic logic flowchart](https://cdn.discordapp.com/attachments/140016142600241152/266467290101317632/Hanabi_Clue_Flowchart.png) that describes the general interpretation of a clue.
+
+<br />
+
+## Miscellaneous
 
 ### Playing Multiple 1's
 
