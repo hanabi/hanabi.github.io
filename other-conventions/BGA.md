@@ -150,7 +150,7 @@ If you're reading this far, you'll want to know some of the basic differences be
 ### Clue Focus on Retouched Cards - Changed
 
 * When multiple cards are "touched" by a clue, it typically only means to play one card. We call that card the *focus* of the clue.
-* On BGA, the focus can be on a card which was already clued before, if that card is now know to be playable (where you may assume that the card is not rainbow if it has no negative color information). For example, in a Rainbow game:
+* On BGA, the focus can either be on the "brand new" card, or a card that is "filled in". Typically, if a filled in card looks like it is playable, then that is the focus. For example, in a Rainbow game:
   * Red 1 is played on the stacks.
   * Alice has a card in her hand clued with number 2.
   * Bob clues Alice red, filling in the 2 with red and also introducing a brand new card on her newest slot.
@@ -166,13 +166,16 @@ If you're reading this far, you'll want to know some of the basic differences be
 * In my group, it is a two step process:
   * If one of the new cards introduced was on the chop, then it is a *Chop Focus Play Clue*.
   * Otherwise, it is a *Left-most Play Clue*.
-* Why do this? With this convention there is never a need to use more than one clue to give a play clue on the chop card. Also notice that having this convention compliments *Finesses*. Our group has a wide variety of *Finesses* and *Bluffs*, so it is easy to "get" fresh cards, but more difficult to "get" cards on chop. Lastly, have you ever been in the situation where all critical 4s are currently playable and you get a 4 clue on multiple cards, including chop? With the BGA conventions it is now ambiguous whether the clue saved the chop card or gave a play clue on the newest. With our conventions, you can always play chop after this clue.
-* If you are afraid that this convention limits your options too much, then the following might alleviate that fear. If you receive a clue on multiple cards, including chop, and you are certain that your chop is not playable (from context or negative information), then the focus of the clue reverts to the left-most card (this is called *Focus Inversion*).
+* Why do this? For multiple reasons:
+  * Without this convention, it takes more than one clue to give a play clue on the chop card.
+  * This convention compliments *Finesses*. (Our group has a wide variety of *Finesses* and *Bluffs*, so it is easy to "get" fresh cards, but more difficult to "get" cards on chop.)
+  * Consider the situation where all critical 4s are currently playable and a player recieves a number 4 clue on newest + chop. On BGA, the focus of the clue is ambiguous. In my group, you can always play chop.
+* Don't worry - having *Chop Focus* turned on does not limit your options as much as you would think. With good players, you can often give a BGA-style clue that is NOT meant to be *Chop Focus*, and the other players will be able to figure it out from the negative information on the card or the context of the game. (We call this *Focus Inversion*.)
 
 ### Color Saves - Changed
 
 * One problem in Hanabi is when a clue lights up your chop card for the first time. How do you know whether it is a *Play Clue* or a *Save Clue*?
-* On BGA, there is a simple system: only number clues can be *Save Clues*, color clues are always *Play Clues*. (Of course, there are exceptions, but this applies most of the time.)
+* On BGA, there is a simple system: number clues mean *Save Clues* and color clues mean *Play Clues*. (Of course, there are exceptions, but this applies most of the time.)
 * In my group, both number AND color clues can be used to save cards.
 * ANY clue that touches the chop has to be treated as a *Save Clue* first and foremost. If you can rule out a *Save Clue* interpretation, then you know that it is a *Chop Focus Play Clue*.
 * Why do this? It allows us to choose the exact clue type that would avoid touching duplicated cards.
@@ -232,8 +235,8 @@ Ok, so you've made it this far. The changes so far probably sound pretty strange
 
 ### Trash Chop Moves - Changed
 
-* On BGA, if you clue some cards which are known trash, this gives the player some safe discards. This is usually done if you don't want that player to discard chop. However, after they have discarded these cards, there are different opinions on what the chop of that player should now be.
-* In my group, a known trash clue causes all cards behind the oldest clued card to be *Chop Moved*.
+* On BGA, if you clue some cards which are known trash, this gives the player some safe discards. This is usually done if you don't want that player to discard their chop card. However, after they have discarded these cards, there are different opinions on what the player should discard next.
+* In my group, a known trash clue causes **all** cards behind the oldest clued card to be *Chop Moved*.
 
 ### The Order Chop Move - Added
 
@@ -251,7 +254,7 @@ Ok, so you've made it this far. The changes so far probably sound pretty strange
   * Alice has a known red 1 and a known blue 1 to play.
   * Bob has a known red 2 to play and is waiting for Alice to play the red 1.
   * Alice is expected to play the red 1. (The red 1 is said to have *Priority*.) Instead, Alice plays the blue 1.
-  * Thus, someone on the team is PROMISED to have the blue 2 on finesse position, so they should blind-play it, similar to if a *Finesse* was performed.
+  * Thus, someone on the team is PROMISED to have the blue 2 on *Finesse Position*, so they should blind-play it, similar to if a *Finesse* was performed.
 * You can also do *Priority Bluffs*. It works suprisingly well in a variety of situations.
 * Why do this? It's a no-brainer and something that BGA hasn't figured out yet.
 
@@ -267,7 +270,7 @@ These are conventions that we don't typically turn on for new players, but we do
 
 * On BGA, if you are playing into *Finesse* but play an unrelated card, then you interpret the *Finesse* as a *Bluff* instead, and stop playing.
 * In my group, you can only bluff the very next player.
-* This means that if you perform a *Finesse* and the first player who plays into it is not the very next player, then players will continue to play cards in their hand from left to right until they find the promised card. 
+* This means that if someone plays into a *Finesse*, and they were not the very next player after the cluer, then they will **continue** to play cards in their hand from left to right until they find the promised card. 
 * This is called a *Layered Finesse* because the intended *Finesse* blind-play target is "layered" behind other playable cards.
 * For example, in a 4-player game with Alice, Bob, Cathy, and Donald:
   * Alice clues red to Donald as a *Play Clue* on a red 2.
@@ -279,7 +282,7 @@ These are conventions that we don't typically turn on for new players, but we do
   * On her next turn, Cathy tries to blind-play the red 1 (from slot 3), but it is really the blue 3.
   * On her next turn, Cathy blind-plays red 1 (from slot 4).
   * Donald plays red 2.
-* If you do a *Double Finesse* on two different players, then both cards could be layered behind other playable cards.
+* By extension, it is also possible to perform a *Double Finesse* where both promised cards are layered behind other playable cards. Essentially, this means that when playing with good players, you always have to keep in mind that a *Finesse* could be layered.
 * Why do this? It's pretty awesome and one of the most fun parts of playing Hanabi. =)
 
 ### 3 Bluffs - Added
