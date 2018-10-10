@@ -124,6 +124,14 @@ If one card is touched, then that is obviously the focus. But what if two or mor
   * Before Bob can play the 3rd 1, Alice clues Bob number 1 again, and it re-touching the remaining 1.
   * Now it is Bob's turn. Since he was going to play the 1 already without Alice doing anything, the clue must have some other meaning. Thus, it is a *Fix Clue*: the remaining 1 is bad, and Bob can safely discard it.
 
+### Clue Logic Flowchart
+
+* This is [a basic logic flowchart](https://cdn.discordapp.com/attachments/140016142600241152/266467290101317632/Hanabi_Clue_Flowchart.png) that describes the general interpretation of a clue.
+
+<br />
+
+## Special Moves
+
 ### Prompts
 
 * Imagine that you have a card in your hand that has a clue on it, but the full identity of the card is currently unknown. In this situation, you are supposed to just keep the card in your hand and continue to discard unclued cards.
@@ -164,10 +172,6 @@ If one card is touched, then that is obviously the focus. But what if two or mor
   * Normally, the *Finesse Position* would be the left-most card. However, since Cathy's slot 1 and slot 2 card are already clued, Cathy's *Finesse Position* card has shifted down to her slot 3. Thus, she must blind-play the blue 1 from slot 3.
 
 <br />
-
-### Clue Logic Flowchart
-
-Following from these principles, this is [a basic logic flowchart](https://cdn.discordapp.com/attachments/140016142600241152/266467290101317632/Hanabi_Clue_Flowchart.png) that describes the general interpretation of a clue.
 
 ## Strategy Reference
 
