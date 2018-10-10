@@ -35,7 +35,7 @@ In general, we want all of our strategies to flow from some basic principles. Th
 ### 1. Chop Principle
 
 * The "chop" is the right-most unclued card.
-* When a player needs to discard and has no known safe discards, they discard the chop card.
+* When a player needs to discard and has no known safe discards, they should discard the chop card.
 
 ### 2. Minimum Clue Value Principle
 
