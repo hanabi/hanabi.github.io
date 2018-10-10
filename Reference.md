@@ -10,16 +10,16 @@ Note that convention updates for the group are listed in the `#announcements` ch
 
 ## Table of Contents
 
-2. [First Principles](#level-0---first-principles)
-1. [Examples](#examples)
-2. [Level 2 - Intermediate Strategies](#level-2---intermediate-strategies)
-3. [Level 2 - General Principles](#level-2---general-principles)
-4. [Level 3 - Advanced Strategies](#level-3---advanced-strategies)
-5. [Level 4 - Expert Strategies](#level-4---expert-strategies)
-6. [Level 3 - Variant-Specific Strategies](#level-3---variant-specific-strategies)
-7. [Level 3 - Rarely Used Advanced Strategies](#level-3---rarely-used-advanced-strategies)
-8. [Level 4 - Rarely Used Expert Strategies](#level-4---rarely-used-expert-strategies)
-9. [Convention Attribution](#convention-attribution)
+1. [First Principles](#level-0---first-principles)
+2. [Examples](#examples)
+3. [Level 2 - Intermediate Strategies](#level-2---intermediate-strategies)
+4. [Level 2 - General Principles](#level-2---general-principles)
+5. [Level 3 - Advanced Strategies](#level-3---advanced-strategies)
+6. [Level 4 - Expert Strategies](#level-4---expert-strategies)
+7. [Level 3 - Variant-Specific Strategies](#level-3---variant-specific-strategies)
+8. [Level 3 - Rarely Used Advanced Strategies](#level-3---rarely-used-advanced-strategies)
+9. [Level 4 - Rarely Used Expert Strategies](#level-4---rarely-used-expert-strategies)
+10. [Convention Attribution](#convention-attribution)
 
 <br />
 
