@@ -49,7 +49,9 @@
 
 ## Play Clues & Save Clues
 
-* A clue can either be a *Save Clue* (meaning to save the focused card for later) or a *Play Clue* (meaning to play the focused card).
+* A clue can either be:
+  * a *Save Clue* (meaning to save the focused card for later)
+  * a *Play Clue* (meaning to play the focused card)
 * Let's go through each in turn.
 
 <br />
