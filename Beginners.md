@@ -30,14 +30,10 @@
 * Because of *Good Touch Principle*, players can generally assume that any clued card in their hand will be eventually be played.
 * *Good Touch Principle* is a powerful building block for logic and reasoning. If everyone only touches good cards, then players can greatly narrow down the possibilities for all of the clued cards in their hand!
 
-### Single Focus
-
-* If multiple cards are touched by a clue, only ONE card is the focus of the clue. Nothing is implied about the extra cards (beyond that they will be useful at some point later on).
-* Thus, a clue cannot be both a *Save Clue* and a *Play Clue* at the same time; either it is one or the other.
-
 ### Which Card is Focused?
 
-* If only one card is touched, then that card is (obviously) the focus of the clue.
+* If only one card is touched, then that clue is (obviously) talking about that card.
+* If two or more cards are touched, then the clue is **focused on a single card**. Nothing is implied about the non-focused cards (beyond that they will be useful at some point later on, which follows from *Good Touch Principle*). 
 * If two or more cards are touched, then *the focus of the clue is always on the brand new card introduced*.
 * If there are multiple brand new cards introduced, then:
   * If the chop card was introduced, then the **focus of the clue is on the chop**. (This is the *Chop Focus* convention.)
