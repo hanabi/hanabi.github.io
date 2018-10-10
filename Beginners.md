@@ -172,5 +172,3 @@
   * Cathy assumes that this is a *Finesse* and that she must have a blue 1.
   * Now, it is Cathy's turn. Blind-playing the blue 1 is more important than playing the red 1.
   * Normally, the *Finesse Position* would be the left-most card. However, since Cathy's slot 1 and slot 2 card are already clued, Cathy's *Finesse Position* card has shifted down to her slot 3. Thus, she must blind-play the blue 1 from slot 3.
-
-<br />
