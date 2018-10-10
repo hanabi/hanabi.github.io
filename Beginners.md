@@ -8,7 +8,7 @@
 ## Table of Contents
 
 1. [The Basic](#the-basics)
-2. [Play Clues & Save Clues](#play-clues-&-save-clues)
+2. [Play Clues & Save Clues](#play-clues--save-clues)
 3. [Miscellaneous](#miscellaneous)
 4. [Special Moves](#special-moves)
 
