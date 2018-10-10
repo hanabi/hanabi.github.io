@@ -10,7 +10,7 @@
 
 [Hanabi](https://boardgamegeek.com/boardgame/98778/hanabi) is a fantastic cooperative card game of logic and reasoning. Our group, started by a guy named Hyphen-ated, gets online games going regularly on [Hanabi Live](https://hanabi.live). Everything doesn't always go perfectly, but we strive to constantly improve. Naturally, we have also built up a set of conventions that we all agree upon at the beginning of the game so that it is easier to understand what everyone else is doing. As the list of conventions got longer, we wanted to make sure that everything was completely documented in an official capacity.
 
-Are you looking to start playing games with my group? Fantastic - we are always looking to welcome new players. Take 5 minutes and go over the [beginner strategies](#beginner-strategies) below.
+Are you looking to start playing games with my group? Fantastic - we are always looking to welcome new players. Take 5 minutes and go over [the basics](#the-basics) below.
 
 Have you found your way here from the Internet? That's fine too - you can use this document to cherry-pick strategies for your own group, or even adopt the whole convention framework if you want. We enjoy talking to other Hanabi players, so make sure to say hi in the [Hanabi Discord server](https://discord.gg/FADvkJp) as well. (Discord is a voice and text chat application that you can run in a browser.)
 
