@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="img/hanabi.jpg" height="200" /><br />
+    <img src="img/hanabi.jpg" height="200" />
 </p>
 
 # Hanabi Conventions for The Hyphen-ated Group
@@ -27,17 +27,34 @@ Note that while Hanabi is a 2 to 5 player game, our group generally only plays g
 
 <br />
 
-## Level 1 - Beginner Strategies
+## The Basics
+
+### The Chop
+
+* The "chop" is the right-most unclued card.
+* When a player needs to discard, they should discard their chop card.
+  * Unless of course, they happen to have a clued card that is known useless - then they would discard the known useless card.
+* This way, everyone discards in a predicable way.
 
 ### Single Focus
 
 * When we clue a card, we refer to that card being "touched" by the clue.
-* If multiple cards are touched by a clue, only ONE card is the focus of the clue. Nothing is implied about the extra cards (beyond that they will be useful at some point in the game, which follows from *Good Touch Principle*).
+* If multiple cards are touched by a clue, only ONE card is the focus of the clue. Nothing is implied about the extra cards (beyond that they will be useful at some point later on).
 * Thus, a clue cannot be both a *Save Clue* and a *Play Clue* at the same time; either it is one or the other.
+
+### Which Card is Focused?
+
+If one card is touched, then that is obviously the focus. But what if two or more cards are touched?
+
+* The focus of the clue is always on the *brand new card introduced*.
+* If there are multiple brand new cards introduced, then:
+  * If the chop card was introduced, then the **focus of the clue is on the chop**. (This is the *Chop Focus* convention.)
+  * If the card chop was not introduced, then the **focus of the clue is on the left-most card**.
+* If there are no brand new cards introduced, then:
+  * The **focus of the clue is on the left-most card**.
 
 ### Save Clues
 
-* If a player's chop card is clued, even if other new cards are introduced, the focus of the clue is on the chop.
 * All clues that touch the chop have to be treated as potential *Save Clues*. Some common types of *Save Clues* are listed below.
 * Players will use both color and number clues to perform *Save Clues* - always look to see if there is a card in the discard pile that "matches" the clue you were given to the card on chop.
 * From *Save Principle*, if you can determine that the card on your chop does NOT need to be saved, then it must be a chop-focus *Play Clue* instead.
@@ -154,4 +171,4 @@ Following from these principles, this is [a basic logic flowchart](https://cdn.d
 
 ## Strategy Reference
 
-If you are an intermediate or advanced player and you need to look up a specific kind of move, then you can use the [reference document].
+If you are an intermediate or advanced player and you need to look up a specific kind of move, then you can use the [reference document](https://github.com/Zamiell/hanabi-conventions/blob/master/Reference.md).
