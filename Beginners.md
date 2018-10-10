@@ -34,7 +34,7 @@
 
 * If only one card is touched, then that clue is (obviously) talking about that card.
 * If two or more cards are touched, then the clue is **focused on a single card**. Nothing is implied about the non-focused cards (beyond that they will be useful at some point later on, which follows from *Good Touch Principle*). 
-* If two or more cards are touched, then *the focus of the clue is always on the brand new card introduced*.
+* If two or more cards are touched, then **the focus of the clue is always on the brand new card introduced**.
 * If there are multiple brand new cards introduced, then:
   * If the chop card was introduced, then the **focus of the clue is on the chop**. (This is the *Chop Focus* convention.)
   * Otherwise, the **focus of the clue is on the left-most card**.
