@@ -31,10 +31,16 @@ Note that while Hanabi is a 2 to 5 player game, our group generally only plays g
 
 ### The Chop
 
-* The "chop" is the right-most unclued card.
+* The right-most unclued card is called the "chop" card.
 * When a player needs to discard, they should discard their chop card.
-  * Unless of course, they happen to have a clued card that is known useless - then they would discard the known useless card.
-* This way, everyone discards in a predicable way.
+  * Unless of course, they happen to have a clued card that is known useless - then they should discard the known useless card.
+* In this way, everyone discards in a predicable way.
+
+### Good Touch Principle
+
+* When cluing cards, we follow *Good Touch Principle* - this means that we DO NOT want to touch any cards that have **already been played** or are **already clued in someone else's hand**. Touching these cards would be a *Bad Touch*.
+* Because of *Good Touch Principle*, players can generally assume that any clued card in their hand will be eventually be played.
+* *Good Touch Principle* is a powerful building block for logic and reasoning. If everyone only touches good cards, then players can greatly narrow down the possibilities for all of the clued cards in their hand.
 
 ### Single Focus
 
@@ -44,46 +50,63 @@ Note that while Hanabi is a 2 to 5 player game, our group generally only plays g
 
 ### Which Card is Focused?
 
-If one card is touched, then that is obviously the focus. But what if two or more cards are touched?
-
-* The focus of the clue is always on the *brand new card introduced*.
+* If only one card is touched, then that card is (obviously) the focus of the clue.
+* If two or more cards are touched, then *the focus of the clue is always on the brand new card introduced*.
 * If there are multiple brand new cards introduced, then:
   * If the chop card was introduced, then the **focus of the clue is on the chop**. (This is the *Chop Focus* convention.)
-  * If the card chop was not introduced, then the **focus of the clue is on the left-most card**.
+  * Otherwise, the **focus of the clue is on the left-most card**.
 * If there are no brand new cards introduced, then:
   * The **focus of the clue is on the left-most card**.
 
+<br />
+
+## Play Clues & Save Clues
+
+* A clue can either be a *Save Clue* (meaning to save the focused card for later) or a *Play Clue* (meaning to play the focused card).
+* Let's go through each in turn.
+
+<br />
+
 ### Save Clues
 
-* All clues that touch the chop have to be treated as potential *Save Clues*. Some common types of *Save Clues* are listed below.
-* Players will use both color and number clues to perform *Save Clues* - always look to see if there is a card in the discard pile that "matches" the clue you were given to the card on chop.
-* From *Save Principle*, if you can determine that the card on your chop does NOT need to be saved, then it must be a chop-focus *Play Clue* instead.
+* *Save Clues* MUST be given to cards on chop. You can't give a *Save Clue* otherwise!
+* The team MUST give save the following cards:
+  * All 5's
+  * All 2's
+  * Critical cards (meaning that the other copy is discarded)
+* Sometimes, a chop focus clue could be either a *Save Clue* OR a *Play Clue*. In this case, players have to treat it like a potential *Save Clue*, and hang on to it for the time being. (The *Save Clue* interpretation always takes priority.)
+* The three kinds of *Save Clues* are listed below.
 
-### 5 Saves (On Chop)
+#### 5 Saves
 
 * Since there is only one copy of each 5, all of the 5's need to be saved so that they won't be discarded.
-* Always save a 5 with a number clue instead of a color clue. Otherwise, it will look like a *Play Clue* (or potentially a *Save Clue* on some other critical card).
+* Always save a 5 with a number clue instead of a color clue. Otherwise, it will look like a *Play Clue* (or potentially a *Save Clue* on some other card that was already discarded).
 
-### 2 Saves (On Chop)
+#### 2 Saves
 
 * Even though there are two copies of each 2, we agree that they are so important that we must save them in a manner similar to 5's.
 * Similar to saving 5's, always save a 2 with a number clue instead of a color clue.
-* *Save Principle* takes priority over *Good Touch Principle*. This means that you can violate *Good Touch Principle* and duplicate a 2 in the situation where a 2 is on chop and needs to be saved.
-* Note that players are only allowed to perform a *2 Save* on a 2 not visible in other people's hands.
+* Players are only allowed to perform a *2 Save* on a 2 not visible in other people's hands.
   * The one exception to this is if the same 2 is on two people's chops at the same time. In that situation, players are allowed to save whichever one they want with a *2 Save*.
+
+##### Critical Saves
+
+* For the same reason that we need to save 5's, critical cards also need to be saved.
+* Players can save critical cards with either a color clue OR a number clues.
 
 ### Play Clues
 
 * We are very strict with what we clue - we don't just randomly clue cards in the hand.
-* So if a card is touched as the focus of the clue, and it is not on chop, then that card is playable!
+* So if a card is touched as the focus of the clue and it is not on chop, then that card must be playable!
+* Alternatively, if a chop-focus *Save Clue* is given to a card that does not meet the above saving criteria, then it is not a *Save Clue* at all, and must be a *Play Clue*!
 
-### Delayed Play Clues
+#### Delayed Play Clues
 
 * When you receive a *Play Clue*, it does NOT necessarily mean that you can play that card immediately. Look around the table for other ALREADY CLUED cards that might be related to the card that you got the *Play Clue* on. If there are any, you must wait for them to be played.
 * For example, if Alice was clued about a bunch of 1's and then Bob is then clued about a 2, Bob should WAIT for Alice to play all of her 1's first BEFORE playing the 2.
 * In other words, treat all *Play Clues* as potential *Delayed Play Clues*.
 
-### Cluing 1's
+#### Cluing 1's
 
 * If you need to clue a single 1, it is better to do it with a color clue than a number clue. This is because it allows them to potentially clue other 1's on the table.
 
@@ -93,7 +116,7 @@ If one card is touched, then that is obviously the focus. But what if two or mor
 * We agree that playing 1's at the beginning of the game is a special case - you should always play your 1's from oldest to newest.
 * However, freshly drawn 1's should always be played before any 1's that were present in the starting hand. (This applies even if one of the clued 1s was on chop.)
 
-### The Early Game (Beginner Section)
+### The Early Game
 
 * The *Early Game* is defined as the period of time before someone discards for the first time. When they do, they initiate the *Mid-Game*.
 * The general goal of the *Early Game* is to extend it for as long as reasonably possible. Thus, everyone agrees that they MUST "extinguish" all of the available *Play Clues* and *Save Clues* before discarding. (There are no cards in the discard pile yet, but *Save Clues* still need to be given to all of the 5's on chop and all of the 2's on chop that are not present in someone else's hand.)
