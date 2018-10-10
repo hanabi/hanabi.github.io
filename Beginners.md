@@ -1,6 +1,6 @@
-# Beginners Guide tp Playing Hanabi with the Hyphen-ated Group
+# Beginners Guide for the Hyphen-ated Group
 
-* Are you looking to start playing games with my group? Fantastic - we are always looking to welcome new players. Take 5 minutes and go over this beginner's guide.
+* Are you looking to start playing games with my group? Fantastic - we are always looking to welcome new players. Take 5 minutes and go over this beginner's guide so that you can get up to speed with the basics.
 * This guide assumes that you are already familiar with the basic rules of Hanabi. If you need to brush up on them, see [this Pastebin written by Tricky](http://pastebin.com/6brGz2J4).
 
 <br />
@@ -47,12 +47,12 @@
 
 ### Save Clues
 
-* *Save Clues* MUST be given to cards on chop. You can't give a *Save Clue* otherwise!
-* The team MUST give save the following cards:
+* *Save Clues* must be given to cards on chop. You can't give a *Save Clue* otherwise!
+* The team must give save the following cards:
   * All 5's
   * All 2's
   * Critical cards (meaning that the other copy is discarded)
-* Sometimes, a chop focus clue could be either a *Save Clue* OR a *Play Clue*. In this case, players have to treat it like a potential *Save Clue*, and hang on to it for the time being. (The *Save Clue* interpretation always takes priority.)
+* Sometimes, a chop focus clue could be either a *Save Clue* or a *Play Clue*. When this happens, the *Save Clue* interpretation always takes priority - the receiving player would have to treat it like a potential *Save Clue*, and hang on to the card for the time being.
 * The three kinds of *Save Clues* are listed below.
 
 #### 5 Saves
@@ -65,12 +65,13 @@
 * Even though there are two copies of each 2, we agree that they are so important that we must save them in a manner similar to 5's.
 * Similar to saving 5's, always save a 2 with a number clue instead of a color clue.
 * Players are only allowed to perform a *2 Save* on a 2 not visible in other people's hands.
-  * The one exception to this is if the same 2 is on two people's chops at the same time. In that situation, players are allowed to save whichever one they want with a *2 Save*.
+  * The one exception to this is if the same 2 is on two people's chops at the same time. In that situation, players are allowed to *2 Save* whichever one they want.
 
 ##### Critical Saves
 
 * For the same reason that we need to save 5's, critical cards also need to be saved.
-* Players can save critical cards with either a color clue OR a number clues.
+* Players can choose to save critical cards with either a color clue or a number clue.
+  * Thus, when players get a clue that touches the chop card, they should always double check the discard pile to see if there are any cards that could possibly match.
 
 ### Play Clues
 
@@ -88,6 +89,10 @@
 
 * If you need to clue a single 1, it is better to do it with a color clue than a number clue. This is because it allows them to potentially clue other 1's on the table.
 
+### Clue Logic Flowchart
+
+* This is [a basic logic flowchart](https://cdn.discordapp.com/attachments/140016142600241152/266467290101317632/Hanabi_Clue_Flowchart.png) that describes the general interpretation of a clue.
+
 ### Playing Multiple 1's
 
 * If one or more 1's in your hand are clued, you should assume that they are ALL playable. (This ONLY applies to 1's, and follows from *Good Touch Principle*.)
@@ -96,7 +101,7 @@
 
 ### The Early Game
 
-* The *Early Game* is defined as the period of time before someone discards for the first time. When they do, they initiate the *Mid-Game*.
+* We define the *Early Game* as the period of time before someone discards for the first time. When they do, they initiate the *Mid-Game*.
 * The general goal of the *Early Game* is to extend it for as long as reasonably possible. Thus, everyone agrees that they MUST "extinguish" all of the available *Play Clues* and *Save Clues* before discarding. (There are no cards in the discard pile yet, but *Save Clues* still need to be given to all of the 5's on chop and all of the 2's on chop that are not present in someone else's hand.)
 * In the *Early Game*, you can do a special move called a *5 Stall*; see below.
 * That covers the basics. Some more edge-case specifics that you don't need to know right now are listed in *The Early Game (Intermediate Section)*.
@@ -124,10 +129,6 @@
   * Bob successfully plays two 1's.
   * Before Bob can play the 3rd 1, Alice clues Bob number 1 again, and it re-touching the remaining 1.
   * Now it is Bob's turn. Since he was going to play the 1 already without Alice doing anything, the clue must have some other meaning. Thus, it is a *Fix Clue*: the remaining 1 is bad, and Bob can safely discard it.
-
-### Clue Logic Flowchart
-
-* This is [a basic logic flowchart](https://cdn.discordapp.com/attachments/140016142600241152/266467290101317632/Hanabi_Clue_Flowchart.png) that describes the general interpretation of a clue.
 
 <br />
 
