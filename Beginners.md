@@ -30,7 +30,7 @@
 * Because of *Good Touch Principle*, players can generally assume that any clued card in their hand will be eventually be played.
 * *Good Touch Principle* is a powerful building block for logic and reasoning. If everyone only touches good cards, then players can greatly narrow down the possibilities for all of the clued cards in their hand!
 
-### Which Card is Focused?
+### Card Focus
 
 * If only one card is touched, then that clue is (obviously) talking about that card.
 * If two or more cards are touched, then the clue is **focused on a single card**. Nothing is implied about the non-focused cards (beyond that they will be useful at some point later on, which follows from *Good Touch Principle*). 
