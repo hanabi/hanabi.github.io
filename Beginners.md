@@ -157,7 +157,7 @@
   * Similar to the last example, Bob is *Prompted* for a red 3.
   * Bob has three different cards clued as red in slots 2, 3, and 4.
   * Since all 3 cards are equally likely to be red 3, Bob should choose to play the slot 2 card as red 3 since it is the left-most.
-* If a player is *Prompted* and they play the left-most card and it was not the matching card, then they should continue playing clued cards until they find the matching card. (They are promised that they have the matching card somewhere in their hand.)
+* If a player is *Prompted* and they play the left-most card and it was not the matching card, then they should continue playing clued cards from left to right until they find the matching card. (They are promised that they have the matching card somewhere in their hand.)
 * In multi-color variants, *Prompts* apply to the card with the most positive information. For example, in a 3-player game:
   * Similar to the last example, Bob is *Prompted* for a red 3.
   * In slot 1, Bob has a card with only a red clue on it.
