@@ -174,7 +174,7 @@
   * If Alice is not making a mistake, something must be in Bob's hand to make the red 2 playable. This must be a *Finesse*, so he blindly plays his left-most card and it is the red 1.
   * Next, Cathy plays her red 2.
 * **Note that *Prompts* take priority over *Finesses*!** Do not blindly play your left-most card if the situation can apply to any of the clued cards in your hand.
-* The *Finesse Position* is the position that a player's left-most unclued card is in. Notice that a player's *Finesse Position* can move around, and if it does, it is still possible to *Finesse* them. For example, on the first turn of a 4-player game:
+* The *Finesse Position* is the slot that a player's left-most unclued card is in. Notice that a player's *Finesse Position* can move around, and if it does, it is still possible to *Finesse* them. For example, on the first turn of a 4-player game:
   * Alice clues Cathy red, which touches two red cards on slot 1 and slot 2.
   * Cathy assumes that the slot 1 card is red 1.
   * Next, Bob clues Donald blue, which touches a blue 2.
