@@ -1,6 +1,6 @@
 # Beginners Guide for the Hyphen-ated Group
 
-* Are you looking to start playing games with the Hyphen-ated group? Fantastic - we are always looking to welcome new players. Take 5 minutes and go over this beginner's guide so that you can get up to speed with the basics.
+* Are you looking to start playing games with the Hyphen-ated group? Fantastic - we are always looking to welcome new players. Take 5 minutes and go over this guide so that you can get up to speed with the basics.
 * This guide assumes that you are already familiar with the basic rules of Hanabi. If you need to brush up on them, see [this Pastebin written by Tricky](http://pastebin.com/6brGz2J4).
 
 <br />
@@ -57,7 +57,7 @@
 * *Save Clues* must be given to cards on chop. You can't give a *Save Clue* otherwise!
 * The team must give save the following cards:
   * All 5's
-  * All 2's
+  * Unique 2's
   * Critical cards (meaning that the other copy is discarded)
 * Sometimes, a chop focus clue could be either a *Save Clue* or a *Play Clue*. When this happens, the *Save Clue* interpretation always takes priority - the receiving player would have to treat it like a potential *Save Clue*, and hang on to the card for the time being.
 * The three kinds of *Save Clues* are listed below.
