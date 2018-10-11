@@ -147,7 +147,7 @@
 ### Prompts
 
 * Imagine that you have a card in your hand that has a clue on it, but the full identity of the card is currently unknown. In this situation, you are supposed to just keep the card in your hand and continue to discard unclued cards.
-* If someone gives a *Play Clue* to a card that is currently unplayable, and the "in-between" card matches the clued card in your hand, then they could be telling YOU to play the clued card. This is called a *Prompt* because it is "prompting" you to play a card that you would have otherwise held on to.
+* Now imagine that someone gives a *Play Clue* to a card that is one-away from being playable and the "in-between" card matches the clued card in your hand. Even though the clue happened to an entirely different player, the clue was a message to YOU that you should play the clued card. This is called a *Prompt* because it is "prompting" you to play a card that you would have otherwise held on to.
 * For example, in a 3-player game:
   * All the 2's have been played on the stacks.
   * Alice clues a red 4 in Cathy's hand as a *Play Clue*.
@@ -174,7 +174,8 @@
   * If Alice is not making a mistake, something must be in Bob's hand to make the red 2 playable. This must be a *Finesse*, so he blindly plays his left-most card and it is the red 1.
   * Next, Cathy plays her red 2.
 * **Note that *Prompts* take priority over *Finesses*!** Do not blindly play your left-most card if the situation can apply to any of the clued cards in your hand.
-* The *Finesse Position* is the slot that a player's left-most unclued card is in. Notice that a player's *Finesse Position* can move around, and if it does, it is still possible to *Finesse* them. For example, on the first turn of a 4-player game:
+* When a *Finesse* occurs, it causes temporary information desynchronization. (In the above example, Cathy thinks she has red 1, but she really doesn't have the red 1, which means that information is not synced up throughout the team.) For this reason, blind-playing a card into a *Finesse* is very important - by doing so, it resyncronizes all of the information. So, if a player is *Finessed*, they should almost always blind-play the card immediately, even if they have other important cards to play or some good clue to give.
+* We define the *Finesse Position* as the slot that a player's left-most unclued card is in. Notice that a player's *Finesse Position* can move around, and if it does, it is still possible to *Finesse* them. For example, on the first turn of a 4-player game:
   * Alice clues Cathy red, which touches two red cards on slot 1 and slot 2.
   * Cathy assumes that the slot 1 card is red 1.
   * Next, Bob clues Donald blue, which touches a blue 2.
