@@ -71,7 +71,7 @@
 
 * Even though there are two copies of each 2, we agree that they are so important that we must save them in a manner similar to 5's.
 * Similar to saving 5's, always save a 2 with a number clue instead of a color clue.
-* Players are only allowed to perform a *2 Save* on a 2 not visible in other people's hands.
+* Players are not allowed to perform a *2 Save* on a 2 if that same 2 is visible in someone else's hand.
   * The one exception to this is if the same 2 is on two people's chops at the same time. In that situation, players are allowed to *2 Save* whichever one they want.
 
 ##### Critical Saves
