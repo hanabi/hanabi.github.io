@@ -163,7 +163,6 @@
   * In slot 1, Bob has a card with only a red clue on it.
   * In slot 2, Bob has a card with a red clue and a 3 clue on it.
   * Since slot 2 has more positive information, Bob should choose to play slot 2 as red 3.
-* The *Chop Move* is a special move that is covered later on. *Chop Moves* touch cards with an "invisible clue". Note that *Prompts* do NOT apply to *Chop Moved* cards. When fulfilling a *Prompt*, players should skip over the *Chop Moved* card and play something else.
 
 ### Finesses
 
