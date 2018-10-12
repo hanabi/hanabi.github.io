@@ -125,7 +125,7 @@ If you're reading this far, you'll want to know some of the basic differences be
 
 ### What's the Same?
 
-* Below, you'll find a whole bunch of stuff about how my group does things differently from the way you know and love.
+* Below, you'll find a whole bunch of stuff about how my group does things differently from the way you are familiar with.
 * Before you get overwhelmed, I think it is important to communicate right from the start that **most stuff will be the exact same as you are used to on BGA**.
 * Stuff like giving *Finesses*, giving *Bluffs*, paying attention to see that no-one on the team discards anything important, using good teamwork - all of will carry over more or less exactly.
 
