@@ -28,7 +28,7 @@ Note that convention updates for the group are listed in the `#announcements` ch
 In general, we want all of our strategies to flow from some basic principles. That way, new players can just learn the first principles, and then use logic and reasoning to find out the resulting strategy that their teammate is intending. However, there are a few wrinkles with this:
 
 1) A good number of our strategies are arbitrary and do not flow from the first principles, such as [The 3 Bluff](#the-3-bluff). So take the phrase "First Principles" with a grain of salt.
-2) Since the principles are a little abstract, they are more useful as a reference than as an actual guide on how to play Hanabi with our group.
+2) Since the principles are a little abstract, they are more useful as a reference than as an actual guide on how to play Hanabi with our group - this is what the [introductory document](https://github.com/Zamiell/hanabi-conventions/blob/master/README.md) is for.
 
 <br />
 
@@ -45,7 +45,7 @@ In general, we want all of our strategies to flow from some basic principles. Th
 
 ### 3. Save Principle
 
-* Cards that meet the following criteria need to be saved:
+* Cards that meet the following criteria must not be discarded:
   * only one copy remains (e.g. 5's or unplayed cards in the discard pile)
   * it is a 2 and not visible elsewhere in players' hands
   * it is currently playable and not visible elsewhere in players' hands
