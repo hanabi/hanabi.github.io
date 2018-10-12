@@ -24,3 +24,9 @@ Note that while Hanabi is a 2 to 5 player game, our group generally only plays g
 * The best place to play Hanabi online is at [Hanabi Live](http://hanabi.live/).
 * There are also lots of players who play Hanabi online at [Board Game Arena](http://boardgamearena.com), although the user interface is not very good.
 * Find other people to play with and discuss strategy with on the [Hanabi Discord server](https://discord.gg/FADvkJp). (Discord is a voice and text chat application that you can run in a browser.)
+
+## List of Main Documents
+
+* [The Beginners Guide](https://github.com/Zamiell/hanabi-conventions/blob/master/Beginners.md)
+* [The Strategy/Move Reference Document](https://github.com/Zamiell/hanabi-conventions/blob/master/Reference.md)
+* [A Guide for Player's Coming from Board Game Arena](https://github.com/Zamiell/hanabi-conventions/blob/master/other-conventions/BGA.md)
