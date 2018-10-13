@@ -873,6 +873,7 @@ This section is unique in that it contains things that are separate from actual 
 * If someone gives a clue with a playable card in their hand and forces the next player to have nothing to do, this is bad teamwork - unless there was a reason!
 * When this occurs, even if the clue looks like an ordinary *Save Clue*, it MUST be a *Play Clue*, since the player who was doing it was occupied.
 * Furthermore, if an *Occupied Play Clue* is given to a card that is not directly playable right now, it must be an *Occupied Finesse*!
+* The concept of an *Occupied Finesse* generalizes to lots of different kind of moves. For example, when an occupied player clues an off-chop 5, it is certainly not a *5 Stall* - it must be an *Occupied 5 Pull*!
 
 ### The Hidden Finesse
 
