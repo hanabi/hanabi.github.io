@@ -1160,11 +1160,17 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * If a suboptimal color is chosen that does not fill in ancillary cards, it follows from *High Value Principle* that there must be a reason, so you should blind-play your *Finesse Position* card.
 * This move is contextual in that you don't want to make it appear as if the clued card is currently unplayable. Thus, it is best performed as a *Reverse Bluff* or a *Long-Distance Bluff*.
 
-### White Compromise
+### White Compromise (5 Chop Moves)
 
 * This convention applies to any variant with a white (colorless) suit.
 * When you clue a white 5 that is one away from chop, it would normally look like a *5's Chop Move*.
 * However, if white 4 is currently played, all 5 clues that could be *5's Chop Moves* are treated instead *Play Clues* on white 5.
+
+### White Compromise (5 Pulls)
+
+* This convention applies to any variant with a white (colorless) suit.
+* When you clue a white 5 in the *Early Game* that is two or more away from chop, it would normally look like a *5 Pull*.
+* However, if there are white cards visible and it could be a *Finesse* on the white 5, then it should be treated as a *Finesse* instead of a *5 Pull*.
 
 ### The Negative Prompt
 
@@ -1710,6 +1716,22 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * However, when a card ON CHOP is clued and the next player misplays that card, it cannot be the *Misplay Chop Move* - it must be something else.
 * Normally, when trash is clued on chop, it is a *Trash Push*. So they should go on to blind-play the card that was touching the trash on their next turn.
 
+### Inverted Priority Finesse
+
+* *Priority Finesses* are considered "free", since they do not cost a clue to perform. Thus, it is extremely rare that a player would decline to perform one if it was possible to do so.
+* If a player declines to perform a *Priority Finesse*, and there is nothing else special going on, then they must be trying to communicate something extra.
+* They are instead calling for a *Priority Finesse* on the card that had *Priority*. This is called an *Inverted Priority Finesse* because it gets a blind-play from playing a card with *Priority* (as opposed to getting a blind-play from playing a card without *Priority*).
+* After a *Inverted Priority Finesse* occurs, the presence of a normal *Priority Finesse* is now known to everyone on the team. Thus, the normal *Priority Finesse* is preserved and should be played into on the next go-around of the table.
+* For example, in a 3-player game:
+  * Alice has a choice between playing a red 1 and a blue 2. Both cards are fully known, and no-one else has any clued cards, so the red 1 has *Priority*.
+  * Bob sees that if Alice plays the blue 2, she can perform a *Priority Finesse* on Cathy's slot 1 card, the blue 3.
+  * However, Alice does not play the blue 2, and plays the red 1 instead.
+  * Bob knows that there was no reason for Alice to decline the *Priority Finesse*, so this must be an *Inverted Priority Finesse*. Bob blind-plays his slot 1 card, and it is the red 2.
+  * Cathy knows that the red 1 had *Priority*, so playing it should not have caused Bob to blind-play anything. Thus, Cathy knows that this must be an *Inverted Priority Finesse*, and she knows that she has a blue 3 on her slot 1. Cathy discards.
+  * Alice plays blue 2.
+  * Bob discards.
+  * Cathy blind-plays blue 3.
+
 <br />
 
 ## Convention Attribution
@@ -1827,3 +1849,4 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 | The Suboptimal Save Prompt & The Suboptimal Save Finesse | Zamiel
 | The Empty Bluff | Cory
 | The Black 1 Bluff | Sankala
+| Inverted Priority Finesse | Zamiel
