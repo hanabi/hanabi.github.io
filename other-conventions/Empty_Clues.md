@@ -111,50 +111,47 @@
 
 ## Dealing with Edge Cases
 
-### Giving Plays to Already Called Cards
+### Minimum Empty Clue Value Principle
 
-* As per the empty target priority list above, if a player only has one playable card in their hand and it is already fully known, then you CANNOT assign them a "clue or discard" action. In this case, you would tell them to blind-play the slot of the card that they already have full knowledge about.
+* Normally, a clue is allowed to touch a single card as a 1-for-1. However, this does not apply to empty clues. Empty clues must be better than this.
+* At a bare minimum, an empty clue must either:
+  * get two brand new cards blind-played (as a 2-for-1)
+  * get one brand new card blind-played (as a 1-for-1) and *Prompt* at least one card that would not have played otherwise
+
+### Giving Plays to Already Called Cards (Good)
+
+* As per the empty target priority list above, if a player only has one playable card in their hand and it is already fully known, then you CANNOT assign them a 0 action (a.k.a. a clue or discard" action). In this case, you would tell them to blind-play the slot of the card that they already have full knowledge about.
 * However, if a player is *Finessed* for a card that will not yet be playable when it reaches their turn AND they have no other currently playable cards, then you MUST assign them a "clue or discard" action, since they cannot immediately play anything on their turn.
 
-### Empty Clues After Finesses
+### Giving an Empty Clue After a Finesse (Bad)
 
-* After a *Finesse* is given, one or more blind-plays must occur to "prove" what is going on. Another way of stating this is that when a *Finesse* occurs, the team becomes desynchronized, and then when the matching blind-play happens, the team becomes synchronized again.
+* After a *Finesse* is given, one or more blind-plays must occur to "prove" what is going on. Another way of stating this is that when a *Finesse* occurs, the team becomes desynchronized, and then when the blind-play happens, the team becomes synchronized again.
 * Giving an *Empty Clue* immediately after a *Finesse* is a BAD IDEA in most cases. This is because players lose the ability the "prove" that a *Finesse* happened, since the resulting blind-play will now be a result of the *Empty Clue* instead of the *Finesse*.
 * Because of this, care has to be taken to only give an *Empty Clue* if there are no other *Finesses* going on, or if confusion will be minimal at the very least.
 
-### Stacked Empty Clues
+### Final Freedom
 
-* With normal Hyphen-ated conventions, you must treat all *Play Clues* as *Delayed Play Clues*. For example, if you get clued about four 1's, and then are clued about one 2, then you must play all of the 1's before playing the 2.
-* With empty clue blind-plays, this does NOT apply. You can generally immediately blind-play the cards indicated from an empty clue.
+* When you are told to blind-play a card from an *Empty Clue*, you must do it immediately - you can't mess around with giving a clue, even if it is a really good clue. This is because someone else will assume that they have the same card that you have, and will try to play it.
+* However, as an exception, the final player to take an action in the empty clue chain is not required to play immediately - they can stop to give a clue if they want. This is because the empty target is safely locked in and there is no-one after them that will get confused.
+
+### Stacked Empty Clues (Through Their Own Hand)
+
+* With normal Hyphen-ated conventions, you must treat all *Play Clues* as *Delayed Play Clues*. For example, if you get clued about four 1's, and then are clued about one 2, then you must play all four of the 1's before playing the 2.
+* With empty clue blind-plays, this does NOT apply. You must immediately blind-play the cards indicated from an empty clue (unless you are the final person in the chain).
 * However, as a special exception, you DO have to treat an empty clue blind-play as a *Delayed Play Clue* if you have one or more cards in your hand that are already known-playable.
+* For this reason, you can use an *Empty Clue* to get a red 2 to play from the same hand that has a known red 1.
 * For example, in a 3-player game:
   * Alice clues Bob 1's, which touches two 1's.
   * Bob plays the right-most 1.
   * Cathy gives an empty clue of number 2, with the intent for Alice to blind-play slot 1 and Bob to blind-play slot 1.
   * Alice blind-plays her slot 1.
   * Bob knows that Cathy's clue is telling him to blind-play his slot 1. However, he must play all the known-playable cards in his hand first. So, he marks his slot 1 card as currently playable, and plays his other clued 1 first.
-* Players should always assume a stacked empty clue interpretation over a re-target interpretation. (This follows from the empty target priority list above.)
-* Note that a blind-play from an empty clue CANNOT be a *Delayed Play Clue* through someone else's hand (or a *Prompt* on someone else's card). **This is extremely important!**
+* Players should always assume a *Stacked Empty Clue* interpretation over a re-target interpretation. (This follows from the empty target priority list above.)
 
-### Jumping Ahead on a Stacked Empty Clue
+### Delayed Empty Clues (Through Other Player's Hands)
 
-* Normally, when a player receives an empty clue action, they will first play all of the playable cards in their own hand.
-* However, players can and should jump ahead if they can determine that the empty clue blind-play is unrelated to their other cards.
-* For example:
-  * Alice has a known-playable red 2 on her slot 4.
-  * Alice then receives an empty clue instructing her to blind-play slot 2.
-  * Normally, before blind-playing, Alice would play the red 2 from slot 4 first, just in case the slot 2 card is red 3.
-  * However, in this situation Alice has a negative red clue on her slot 2 card. Thus, she knows that it cannot be red 2.
-  * Furthermore, Alice does not see a red 3 elsewhere in other people's hands, so she knows that she does not really need to play the red 2 right now.
-  * So, Alice should "jump ahead" and blind-play the slot 2 card BEFORE playing the red 2 from slot 4.
-
-### Stacked Empty Clues Through Other Player's Hands
-
-* From the *Stacked Empty Clues* section, we know that stacking an empty clue target that relies on cards in other people's hands is illegal.
-* An ambitious player might try to do this anyway, with the knowledge that the player will play an already known-playable card first, making the clue "just work". This should almost never be done for the following reasons:
-  * The player might "jump ahead", as described in the previous section.
-  * It may not be globally known which cards play into which other cards, so different players will assign different actions and everything will get messed up.
-* The ONLY time it is possible to give an empty clue that involves other people's cards is when that player ALSO has a playable card that leads into the card AND the other connecting cards are globally known. For example, in a 3-player game:
+* Normally, a stacked play action from an *Empty Clue* should not be related to anyone else's hand. This is because it may not be globally known which cards play into which other cards, so different players will assign different actions and everything will get messed up.
+* However, it is possible to give a *Empty Clue* as a *Delayed Play Clue* through someone else's hand if all of the connecting cards are globally known playable. This way, the information never becomes desyncronized. For example, in a 3-player game:
   * Alice has a globally known blue 1 that is already clued.
   * Bob has a globally known blue 2 that is already clued.
   * Cathy is allowed to give an *Empty Clue* that gives a stacked play to blue 3 in Alice's hand, knowing that Alice must play the blue 1 first.
@@ -166,20 +163,13 @@
 * Clues that would now trigger an *Ejection* instead are interpreted as an *Empty Clue*. (This is more efficient, since an *Ejection* is a 1-for-1 and an *Empty Clue* will always be better than this.)
 * Care has to be taken to ONLY perform *Ejection*-style clues that are globally known as being *Ejection*-like. For example, often times giving an *Unknown Trash Ejection*-style clue will NOT be globally known, and will then lead to the wrong cards being played.
 
-### Minimum Empty Clue Value Principle
-
-* Normally, a clue is allowed to touch a single card as a 1-for-1. However, this does not apply to empty clues. Empty clues must be better than this.
-* At a bare minimum, an empty clue must either:
-  * get two brand new cards blind-played (as a 2-for-1)
-  * get one brand new card blind-played (as a 1-for-1) and *Prompt* at least one card that would not have played otherwise
-
 <br />
 
 ## Special Empty Moves
 
 ### Empty Finesses
 
-* If an empty clue does NOT meet *Minimum Empty Clue Value Principle*, then this is quite strange. In this situation, the clue giver must be trying to communicate something extra, or else they would not bother to use an empty clue in the first place.
+* If an empty clue does NOT meet *Minimum Empty Clue Value Principle*, then this is quite strange. In this situation, the clue giver must be trying to communicate something extra, or else they would not bother to use an *Empty Clue* in the first place.
 * In this situation, the clue IS actually meeting *Minimum Empty Clue Value Principle* in the form of a *Finesse* - a card in one player's hand hand leads into a card in the next player's hand.
 * How does the first player know which card to play? They use the same play priority as above, but use it to find a one-away card.
 
