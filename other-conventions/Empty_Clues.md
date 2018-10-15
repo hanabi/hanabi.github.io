@@ -9,7 +9,8 @@
 3. [History](#history)
 4. [Basic Description](#basic-description)
 5. [Dealing with Edge Cases](#dealing-with-edge-cases)
-6. [Alternate Clue Interpretation Tables](#alternate-clue-interpretation-tables)
+6. [Special Empty Moves](#special-empty-moves)
+7. [Alternate Clue Interpretation Tables](#alternate-clue-interpretation-tables)
 
 <br />
 
@@ -68,6 +69,8 @@
   * [Board Game Arena's implementation](https://en.boardgamearena.com/) does allow empty clues.
   * [Keldon's implemenation](http://keldon.net/hanabi/) does not allow empty clues.
   * [Hanabi Live's implementation](https://hanabi.live) follows Keldon's lead and disables empty clues by default. However, game creators can allow empty clues an as optional setting when creating a game.
+
+<br />
 
 ## Basic Description
 
@@ -169,6 +172,10 @@
 * At a bare minimum, an empty clue must either:
   * get two brand new cards blind-played (as a 2-for-1)
   * get one brand new card blind-played (as a 1-for-1) and *Prompt* at least one card that would not have played otherwise
+
+<br />
+
+## Special Empty Moves
 
 ### Empty Finesses
 
