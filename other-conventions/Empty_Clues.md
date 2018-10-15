@@ -2,16 +2,58 @@
 
 <br />
 
-## Quick Links
+## Table of Contents
 
-* [Clue Interpretation Tables](https://github.com/Zamiell/hanabi-conventions/blob/master/other-conventions/Empty_Clues.md#clue-interpretation-tables)
-* [Empty Target Priority](https://github.com/Zamiell/hanabi-conventions/blob/master/other-conventions/Empty_Clues.md#empty-target-priority)
+1. [Clue Interpretation Tables](#clue-interpretation-tables)
+2. [Empty Target Priority](#empty-target-priority)
+3. [History](#history)
+4. [Basic Description](#basic-description)
+5. [Dealing with Edge Cases](#dealing-with-edge-cases)
+6. [Alternate Clue Interpretation Tables](#alternate-clue-interpretation-tables)
+
+## Clue Interpretation Tables
+
+### 3-Player
+
+| # mod 5   | action | type of clue
+| --------- | ------ | -------------
+| 0 (5, 10) | play 5 | number 5 or purple/black
+| 1 (6, 11) | play 1 | number 1 or blue
+| 2 (7, 12) | play 2 | number 2 or green
+| 3 (8, 13) | play 3 | number 3 or yellow
+| 4 (9, 14) | play 4 | number 4 or red
 
 <br />
 
-## Introduction
+### 4-Player and 5-Player
 
-### A Short History of Empty Clues
+| # mod 5   | action          | type of clue
+| --------- | --------------- | -------------
+| 0 (5, 10) | clue or discard | number 5 or purple/black
+| 1 (6, 11) | play 1          | number 1 or blue
+| 2 (7, 12) | play 2          | number 2 or green
+| 3 (8, 13) | play 3          | number 3 or yellow
+| 4 (9, 14) | play 4          | number 4 or red
+
+<br />
+
+## Empty Target Priority
+
+* If a player has two or more playable cards, the priority is as follows:
+  * #1 - unknown playable cards
+    * #1a - unclued & completely unknown playable cards
+    * #1b - unclued & unknown *Chop Moved* playable cards
+    * #1c - clued & unknown playable cards (which would be an *Empty Prompt* on the card)
+  * #2 - known playable cards
+    * #2a - unclued & known playable cards (which would be confirming that they are indeed *Finessed*, for example)
+    * #2b - clued & known playable cards (which would just be retouching the card, accomplishing nothing new)
+* If there two or more cards of the same subcategory above, then the priority is as follows:
+  * #1 - lowest rank (even if there is a 5)
+  * #2 - left-most
+
+<br />
+
+## History
 
 * In Hanabi, it is generally assumed that you will give clues that "touch" one or more cards in someone else's hand. But what if you want to give a clue that touches NO cards in the hand? We refer to this as an "empty" clue.
 * Empty clues can be useful in that they give negative information to all other cards in the hand. This is especially useful in the "Rainbow" variant, which is played by expert players as an additional challenge. (In this variant, a 6th suit is added to the deck that is touched by all colors. Empty clues can be used to more easily disambiguate rainbow cards from non-rainbow cards.)
@@ -25,7 +67,7 @@
   * [Keldon's implemenation](http://keldon.net/hanabi/) does not allow empty clues.
   * [Hanabi Live's implementation](https://hanabi.live) follows Keldon's lead and disables empty clues by default. However, game creators can allow empty clues an as optional setting when creating a game.
 
-### Basic Description
+## Basic Description
 
 * [Floris van Doorn](https://github.com/fpvandoorn/) created a convention framework called Hat-Guessing in June 2016. This framework is entirely separate from the Hyphen-ated convention framework and is covered in a [separate document](https://github.com/Zamiell/hanabi-conventions/blob/master/Hat_Guessing.md).
 * In most Hanabi convention frameworks (including the Hyphen-ated framework), one clue causes one action to take place. In Hat-Guessing, multiple actions can be encoded into one clue by using [modular arithmetic](https://en.wikipedia.org/wiki/Modular_arithmetic). This can be extremely efficient.
@@ -63,20 +105,6 @@
 <br />
 
 ## Dealing with Edge Cases
-
-### Empty Target Priority
-
-* If a player has two or more playable cards, the priority is as follows:
-  * #1 - unknown playable cards
-    * #1a - unclued & completely unknown playable cards
-    * #1b - unclued & unknown *Chop Moved* playable cards
-    * #1c - clued & unknown playable cards (which would be an *Empty Prompt* on the card)
-  * #2 - known playable cards
-    * #2a - unclued & known playable cards (which would be confirming that they are indeed *Finessed*, for example)
-    * #2b - clued & known playable cards (which would just be retouching the card, accomplishing nothing new)
-* If there two or more cards of the same subcategory above, then the priority is as follows:
-  * #1 - lowest rank (even if there is a 5)
-  * #2 - left-most
 
 ### Giving Plays to Already Called Cards
 
@@ -156,33 +184,7 @@
 
 <br />
 
-## Clue Interpretation Tables
-
-### 3-Player
-
-| # mod 5   | action | type of clue
-| --------- | ------ | -------------
-| 0 (5, 10) | play 5 | number 5 or purple/black
-| 1 (6, 11) | play 1 | number 1 or blue
-| 2 (7, 12) | play 2 | number 2 or green
-| 3 (8, 13) | play 3 | number 3 or yellow
-| 4 (9, 14) | play 4 | number 4 or red
-
-<br />
-
-### 4-Player and 5-Player
-
-| # mod 5   | action          | type of clue
-| --------- | --------------- | -------------
-| 0 (5, 10) | clue or discard | number 5 or purple/black
-| 1 (6, 11) | play 1          | number 1 or blue
-| 2 (7, 12) | play 2          | number 2 or green
-| 3 (8, 13) | play 3          | number 3 or yellow
-| 4 (9, 14) | play 4          | number 4 or red
-
-<br />
-
-## Other Clue Interpretation Tables
+## Alternate Clue Interpretation Tables
 
 ### 5-Player (Florrat's Alternate Proposal)
 
