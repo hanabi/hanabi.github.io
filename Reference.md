@@ -844,7 +844,7 @@ This section is unique in that it contains things that are separate from actual 
   * Normally, Bob would think that this is a *Chop Focus* clue, and play the blue 1 from slot 5.
   * However, his slot 5 card has a negative 1 clue on it (from Alice's number 1 clue), so it explicitly cannot be the blue 1.
   * Thus, this must be *Focus Inversion* and blue 1 must be on slot 1. The blue card on slot 5 can be either blue 2, blue 3, blue 4, or blue 5.
-* Note that **in general, *Self-Finesses* take precedence over *Focus Inversion***.
+* Note that ***Self-Finesses* always take precedence over *Focus Inversion***.
 
 ### Burning (End-Game Stalling) & Same-Suit Principle
 
