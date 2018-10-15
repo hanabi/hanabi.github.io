@@ -11,6 +11,8 @@
 5. [Dealing with Edge Cases](#dealing-with-edge-cases)
 6. [Alternate Clue Interpretation Tables](#alternate-clue-interpretation-tables)
 
+<br />
+
 ## Clue Interpretation Tables
 
 ### 3-Player
