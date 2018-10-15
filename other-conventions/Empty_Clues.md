@@ -58,17 +58,20 @@
 
 ## History
 
-* In Hanabi, it is generally assumed that you will give clues that "touch" one or more cards in someone else's hand. But what if you want to give a clue that touches NO cards in the hand? We refer to this as an "empty" clue.
-* Empty clues can be useful in that they give negative information to all other cards in the hand. This is especially useful in the "Rainbow" variant, which is played by expert players as an additional challenge. (In this variant, a 6th suit is added to the deck that is touched by all colors. Empty clues can be used to more easily disambiguate rainbow cards from non-rainbow cards.)
-* Hanabi was first released in several European countries. In these initial versions of the game, it is reported that the printed rules do not specifically disallow empty clues, which implies that they are therefore legal.
-* In later American releases of the game, [the printed rules](https://github.com/Zamiell/hanabi-conventions/blob/master/other-conventions/Rules.txt) explicitly disallow empty clues.
-* Empty clues make it easier for players to get a perfect score and can encourage game-breaking strategies, such as the one described in the 2015 paper [*How to Make the Perfect Fireworks Display: Two Strategies for Hanabi*](https://sites.google.com/site/rmgpgrwc/research-papers/Hanabi_final.pdf?attredirects=0). This could be the reason that the rule was changed between releases.
-* When I contacted Antoine Bauza (the creator of Hanabi) on Twitter, [he was neutral](https://twitter.com/Zamiel_SRL/status/975919901520130048) to the question of whether empty clues should be legal.
-* I acknowledge that players should play the game in the way that they find the most fun. With that said, expert players should challenge themselves to not use empty clues. Utilizing empty clues is analogous to using a crutch - good players should be able to get a perfect score without having to resort to them.
-* The online implementations of the game handle empty clues differently:
-  * [Board Game Arena's implementation](https://en.boardgamearena.com/) does allow empty clues.
-  * [Keldon's implemenation](http://keldon.net/hanabi/) does not allow empty clues.
-  * [Hanabi Live's implementation](https://hanabi.live) follows Keldon's lead and disables empty clues by default. However, game creators can allow empty clues an as optional setting when creating a game.
+* In Hanabi, it is generally assumed that you will give clues that "touch" one or more cards in someone else's hand. But what if you want to give a clue that touches NO cards in the hand? We refer to this as an *Empty Clue*.
+* *Empty Clues* can be useful in that they give negative information to all other cards in the hand. This is especially useful in the "Rainbow" variant, which is played by expert players as an additional challenge. (In this variant, a 6th suit is added to the deck that is touched by all colors. *Empty Clues* can be used to more easily disambiguate rainbow cards from non-rainbow cards.)
+* Hanabi was first released in several European countries. In these initial versions of the game, it is reported that the printed rules do not specifically disallow *Empty Clues*, which implies that they are therefore legal.
+* In later American releases of the game, [the printed rules](https://github.com/Zamiell/hanabi-conventions/blob/master/other-conventions/Rules.txt) make it a point to explicitly mention:
+
+>IMPORTANT: The player must clearly point to the tiles which he is giving information about. (Thus saying "You have zero of something" is not allowed as you cannot point to anything.)
+
+* *Empty Clues* make it easier for players to get a perfect score and can encourage game-breaking strategies, such as the one described in the 2015 paper [*How to Make the Perfect Fireworks Display: Two Strategies for Hanabi*](https://sites.google.com/site/rmgpgrwc/research-papers/Hanabi_final.pdf?attredirects=0). This could be the reason that the rule was changed between releases.
+* When I contacted Antoine Bauza (the creator of Hanabi) on Twitter, [he was neutral](https://twitter.com/Zamiel_SRL/status/975919901520130048) to the question of whether *Empty Clues* should be legal.
+* I acknowledge that players should play the game in the way that they find the most fun. With that said, expert players should challenge themselves to not use *Empty Clues*. Utilizing *Empty Clues* is analogous to using a crutch - good players should be able to get a perfect score without having to resort to them.
+* The online implementations of the game handle *Empty Clues* differently:
+  * [Board Game Arena's implementation](https://en.boardgamearena.com/) does allow *Empty Clues*.
+  * [Keldon's implemenation](http://keldon.net/hanabi/) does not allow *Empty Clues*.
+  * [Hanabi Live's implementation](https://hanabi.live) follows Keldon's lead and disables *Empty Clues* by default. However, game creators can allow *Empty Clues* an as optional setting when creating a game.
 
 <br />
 
@@ -77,14 +80,14 @@
 * [Floris van Doorn](https://github.com/fpvandoorn/) created a convention framework called Hat-Guessing in June 2016. This framework is entirely separate from the Hyphen-ated convention framework and is covered in a [separate document](https://github.com/Zamiell/hanabi-conventions/blob/master/Hat_Guessing.md).
 * In most Hanabi convention frameworks (including the Hyphen-ated framework), one clue causes one action to take place. In Hat-Guessing, multiple actions can be encoded into one clue by using [modular arithmetic](https://en.wikipedia.org/wiki/Modular_arithmetic). This can be extremely efficient.
 * Separate from Hat-Guessing, it is also possible to play with a Hat-Guessing-like extension tacked on to the existing Hyphen-ated convention framework.
-* If empty clues are legal, then they can be used as a means to encode multiple actions for the entire team in a manner identical to how Hat-Guessing works.
-* When an empty clue is given, players are told to blind-play a certain card in their hand.
+* If *Empty Clues* are legal, then they can be used as a means to encode multiple actions for the entire team in a manner identical to how Hat-Guessing works.
+* When an *Empty Clue* is given, players are told to blind-play a certain card in their hand.
 * Thus:
-  * In a 3-player game, it is possible to give an empty clue as a 2-for-1.
-  * In a 4-player game, it is possible to give an empty clue as a 2-for-1 or a 3-for-1.
-  * In a 5-player game, it is possible to give an empty clue as a 2-for-1, a 3-for-1, or a 4-for-1.
+  * In a 3-player game, it is possible to give an *Empty Clue* as a 2-for-1.
+  * In a 4-player game, it is possible to give an *Empty Clue* as a 2-for-1 or a 3-for-1.
+  * In a 5-player game, it is possible to give an *Empty Clue* as a 2-for-1, a 3-for-1, or a 4-for-1.
 * Like Hat Guessing, players should generally blind-play their cards immediately, so that other players can figure out what their action is. (Since players can have duplicate cards in their hand, they cannot necessarily know for sure what action was assigned to a player who choses to defer.) With that said, the last player in a sequence can always defer to do something else, because no-one else's action depends on them.
-* Unlike Hat-Guessing, it does not matter which player recieves a clue. If it is possible to give the empty clue to more than one player, then the clue should be given to player that would benefit the most from the negative information.
+* Unlike Hat-Guessing, it does not matter which player recieves a clue. If it is possible to give the *Empty Clue* to more than one player, then the clue should be given to player that would benefit the most from the negative information.
 
 ### Example
 
@@ -94,7 +97,7 @@
   * So, Alice wants all three of her teammates to play slot 1.
   * From the clue interpretation table below, we see that "play slot 1" is assigned a value of 1.
   * Alice adds up all of the actions: 1 + 1 + 1 = 3
-  * Thus, Alice needs to convey "3" to the team. Bob does not have any 3's in his hand, so Alice clues number 3 to Bob, which is an empty clue.
+  * Thus, Alice needs to convey "3" to the team. Bob does not have any 3's in his hand, so Alice clues number 3 to Bob, which is an *Empty Clue*.
   * Bob comes next and has to figure out which move that Alice has planned for him.
   * Bob knows that Alice encoded a value of 3.
   * Bob also can look ahead and see that Cathy will be assigned a value of 1 and Donald will be assigned a value of 1.
@@ -113,8 +116,8 @@
 
 ### Minimum Empty Clue Value Principle
 
-* Normally, a clue is allowed to touch a single card as a 1-for-1. However, this does not apply to empty clues. Empty clues must be better than this.
-* At a bare minimum, an empty clue must either:
+* Normally, a clue is allowed to touch a single card as a 1-for-1. However, this does not apply to *Empty Clues*. *Empty Clues* must be better than this.
+* At a bare minimum, an *Empty Clue* must either:
   * get two brand new cards blind-played (as a 2-for-1)
   * get one brand new card blind-played (as a 1-for-1) and *Prompt* at least one card that would not have played otherwise
 
@@ -132,13 +135,13 @@
 ### Final Freedom
 
 * When you are told to blind-play a card from an *Empty Clue*, you must do it immediately - you can't mess around with giving a clue, even if it is a really good clue. This is because someone else will assume that they have the same card that you have, and will try to play it.
-* However, as an exception, the final player to take an action in the empty clue chain is not required to play immediately - they can stop to give a clue if they want. This is because the empty target is safely locked in and there is no-one after them that will get confused.
+* However, as an exception, the final player to take an action in the *Empty Clue* chain is not required to play immediately - they can stop to give a clue if they want. This is because the empty target is safely locked in and there is no-one after them that will get confused.
 
 ### Stacked Empty Clues (Through Their Own Hand)
 
 * With normal Hyphen-ated conventions, you must treat all *Play Clues* as *Delayed Play Clues*. For example, if you get clued about four 1's, and then are clued about one 2, then you must play all four of the 1's before playing the 2.
-* With empty clue blind-plays, this does NOT apply. You must immediately blind-play the cards indicated from an empty clue (unless you are the final person in the chain).
-* However, as a special exception, you DO have to treat an empty clue blind-play as a *Delayed Play Clue* if you have one or more cards in your hand that are already known-playable.
+* With blind-plays from *Empty Clues*, this does NOT apply. You must immediately blind-play the cards indicated from an *Empty Clue* (unless you are the final person in the chain).
+* However, as a special exception, you DO have to treat an *Empty Clue* blind-play as a *Delayed Play Clue* if you have one or more cards in your hand that are already known-playable. Even if you can determine that the blind-play from the is unrelated to the clued cards, you **still have to play all of the clued cards first**.
 * For this reason, you can use an *Empty Clue* to get a red 2 to play from the same hand that has a known red 1.
 * For example, in a 3-player game:
   * Alice clues Bob 1's, which touches two 1's.
@@ -169,17 +172,17 @@
 
 ### Empty Finesses
 
-* If an empty clue does NOT meet *Minimum Empty Clue Value Principle*, then this is quite strange. In this situation, the clue giver must be trying to communicate something extra, or else they would not bother to use an *Empty Clue* in the first place.
+* If an *Empty Clue* does NOT meet *Minimum Empty Clue Value Principle*, then this is quite strange. In this situation, the clue giver must be trying to communicate something extra, or else they would not bother to use an *Empty Clue* in the first place.
 * In this situation, the clue IS actually meeting *Minimum Empty Clue Value Principle* in the form of a *Finesse* - a card in one player's hand hand leads into a card in the next player's hand.
 * How does the first player know which card to play? They use the same play priority as above, but use it to find a one-away card.
 
 ### The Empty Bluff
 
 * This convention only applies to 3-player games.
-* When an empty clue is given that doesn't make sense, it is usually a signal for the other players to look one level deeper and look for an *Empty Finesse*.
+* When an *Empty Clue* is given that doesn't make sense, it is usually a signal for the other players to look one level deeper and look for an *Empty Finesse*.
 * However, after the first blind-play, if the *Empty Finesse* is telling the 2nd player to play a strictly unplayable card, it must have been an *Empty Bluff*.
 * *Empty Bluffs* do not meet *Empty Minimum Value Clue Principle*, but they can be useful to get a 1-for-1 on a card that is otherwise blocked. Alternatively, they can be used to get a 1-for-1 on a card while also telling the other player that a particular card is exactly 1-away from being playable.
-* It is also possible to do a *Known Empty Bluff*, in which the blind-playing player knows that they are playing an unrelated card. In this situation, it would be the only way for the empty clue to make sense.
+* It is also possible to do a *Known Empty Bluff*, in which the blind-playing player knows that they are playing an unrelated card. In this situation, it would be the only way for the *Empty Clue* to make sense.
 
 <br />
 
