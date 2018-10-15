@@ -164,17 +164,17 @@
 
 ## Special Empty Moves
 
-### Empty Finesses
-
-* If an *Empty Clue* does NOT meet *Minimum Empty Clue Value Principle*, then this is quite strange. In this situation, the clue giver must be trying to communicate something extra, or else they would not bother to use an *Empty Clue* in the first place.
-* In this situation, the clue IS actually meeting *Minimum Empty Clue Value Principle* in the form of a *Finesse* - a card in one player's hand hand leads into a card in the next player's hand.
-* How does the first player know which card to play? They use the same play priority as above, but use it to find a one-away card.
-
 ### Empty Ejection (Ejection Disabled)
 
 * If *Empty Clues* are enabled for the game, then it is agreed that all conventions relating to *Ejection* are "turned off".
 * Clues that would trigger an *Ejection* are instead interpreted as an *Empty Clue*. (This is more efficient, since an *Ejection* is a 1-for-1 and an *Empty Clue* will always be better than this.)
 * Care has to be taken to ONLY perform *Ejection*-style clues that are globally known as being *Ejection*-like. For example, often times giving an *Unknown Trash Ejection*-style clue will NOT be globally known, and will then lead to the wrong cards being played.
+
+### Empty Finesses
+
+* If an *Empty Clue* does NOT meet *Minimum Empty Clue Value Principle*, then this is quite strange. In this situation, the clue giver must be trying to communicate something extra, or else they would not bother to use an *Empty Clue* in the first place.
+* In this situation, the clue IS actually meeting *Minimum Empty Clue Value Principle* in the form of a *Finesse* - a card in one player's hand hand leads into a card in the next player's hand.
+* How does the first player know which card to play? They use the same play priority as above, but use it to find a one-away card.
 
 ### The Empty Bluff
 
