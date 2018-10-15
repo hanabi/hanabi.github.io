@@ -146,21 +146,6 @@
 * In this situation, the clue IS actually meeting *Minimum Empty Clue Value Principle* in the form of a *Finesse* - a card in one player's hand hand leads into a card in the next player's hand.
 * How does the first player know which card to play? They use the same play priority as above, but use it to find a one-away card.
 
-### The Empty Double-Play (Symmetric Version)
-
-* If an empty clue is given, and that exact empty clue could have been given to three or more players, then the fact that the clue giver had a choice is globally known.
-* In this situation, the empty clue should be given to the left-most player. (This roughly follows from *Left-Most Playable Principle*.)
-* If the empty clue is given to the right-most player instead, then the clue giver must be trying to communicate something extra.
-* This means that the first person assigned with a play action is stacked with another play action on their *Finesse Position*.
-* In this situation, the first empty clue card must be blind-played first. Thus, it is possible to stack a *Play Clue* on a currently unplayable card that will be playable on the next round.
-
-### The Empty Double Play (Asymmetric Version)
-
-* It is also possible to perform an *Empty Double Play* when the empty clue is possible to give to exactly two players. However, in this case, it would not be globally known: the 2nd player (who is not clued) would not see that the clue giver had a choice.
-* In this case, every player should keep in mind that this player "in the dark" may *Play Clue* the *Double Played* card.
-* Furthermore, the player "in the dark" may duplicate the *Double Played* card in someone else's hand. The clue reciever should *Sarcastic Discard* the card if possible.
-* However, it will not always be possible to *Sarcastic Discard*, especially if the duplication is in the empty clue giver's hand. Thus, the asymmetric *Empty Double Play* could be dangerous - it has a chance of leading to a misplay.
-
 ### The Empty Bluff
 
 * This convention only applies to 3-player games.
