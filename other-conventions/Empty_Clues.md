@@ -170,7 +170,12 @@
 * Clues that would trigger an *Ejection* are instead interpreted as an *Empty Clue*. (This is more efficient, since an *Ejection* is a 1-for-1 and an *Empty Clue* will always be better than this.)
 * Care has to be taken to ONLY perform *Ejection*-style clues that are globally known as being *Ejection*-like. For example, often times giving an *Unknown Trash Ejection*-style clue will NOT be globally known, and will then lead to the wrong cards being played.
 
-### Empty Finesses
+### The Final Freedom Certain Finesse
+
+* If a player uses their *Final Freedom* to perform a *Finesse*, then they could be potentially duplicating the card that they are supposed to be blind-playing from their own hand.
+* Thus, all *Finesses* performed in this situation are to be treated as a *Certain Finesse*.
+
+### The Empty Finesse
 
 * If an *Empty Clue* does NOT meet *Minimum Empty Clue Value Principle*, then this is quite strange. In this situation, the clue giver must be trying to communicate something extra, or else they would not bother to use an *Empty Clue* in the first place.
 * In this situation, the clue IS actually meeting *Minimum Empty Clue Value Principle* in the form of a *Finesse* - a card in one player's hand hand leads into a card in the next player's hand.
