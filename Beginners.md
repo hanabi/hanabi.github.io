@@ -130,15 +130,16 @@
 
 ### Fix Clues
 
-* Normally, every clue that is given is either a *Save Clue* or a *Play Clue*. One small exception to this is a *Fix Clue,* which is attempting to "fix" an impending misplay.
+* 99% of clues are either *Save Clues* or *Play Clues*. The remaining 1% are *Fix Clues,* which are attempting to "fix" an impending misplay.
 * *Fix Clues* are often needed when a duplicate card is touched. (For example, when a red 2 is clued in Player A's hand, and the other red 2 is clued in Player B's hand.) Cards are not normally duplicated (which follows from *Good Touch Principle*), but sometimes someone makes a mistake, or a sequence of particular cards makes duplicating necessary.
-* In such a situation, because of *Good Touch Principle*, the players with the duplicate cards will assume the identity of their cards to be something else and may go on to misplay those cards. Thus, it is the team's responsibility to fix the problem and intervene before this happens.
+* In such a situation, because of *Good Touch Principle*, the players with the duplicate cards will assume their identity to be something else. This means that eventually, they will go on to misplay those cards. Therefore, it is the team's responsibility to fix the problem and intervene before this happens with a *Fix Clue*.
 * **A clue cannot be a *Play Clue* and a *Fix Clue* at the same time.** If you receive a *Fix Clue* and it touches other ancillary cards, none of them are necessarily playable; the primary point of the clue is to fix the impending misplay.
 * Usually a *Fix Clue* will "fill in" the card to explicitly make it known that the card is unplayable or duplicated. However, it is also possible to perform a *Fix Clue* just by cluing the card again. For example:
   * Alice clues Bob number 1 and it touches three 1's.
   * Bob successfully plays two 1's.
   * Before Bob can play the 3rd 1, Alice clues Bob number 1 again, and all the clue does is re-touch the remaining 1.
   * Now it is Bob's turn. Since he was going to play the 1 already without Alice doing anything, the clue must have some other meaning. Thus, it is a *Fix Clue*: the remaining 1 is bad, and Bob can safely discard it.
+* Finally, note that in general, giving a *Fix Clue* should wait until the card is actually in danger of being misplayed (like in the previous example). If a duplicated card is not in danger of being misplayed anytime soon, then players should defer giving the *Fix Clue* until later. This way, it gives the player a chance to figure out the duplication on their own, which can happen from time to time.
 
 <br />
 
