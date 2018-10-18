@@ -30,12 +30,11 @@
 * Because of *Good Touch Principle*, players can generally assume that any clued card in their hand will be eventually be played.
 * *Good Touch Principle* is a powerful building block for logic and reasoning. If everyone only touches good cards, then players can greatly narrow down the possibilities for all of the clued cards in their hand!
 
-### Card Focus
+### Single Card Focus
 
-* When a bunch of cards are clued, what the heck does it mean? Different groups have different opinions on what a clue should mean. In the Hyphen-ated group, we don't want there to be any guesswork - we all agree on a system that specifies **exactly** what a clue means, and that way everyone is always on the same page. So, let's go through the system.
+* When a bunch of cards are clued, what the heck does it mean? Different groups have different opinions on what a clue should mean, but in our group, we don't want there to be any guesswork - we all agree on a system that specifies **exactly** what a clue means, and that way everyone is always on the same page. So, let's go through the system.
 * If only one card is touched, then that clue is (obviously) talking about that card.
-* If two or more cards are touched, then the clue is **focused on a single card**. **Nothing is implied about the non-focused cards** (beyond that they will be useful at some point later on, which follows from *Good Touch Principle*). 
-* If two or more cards are touched, then **the focus of the clue is always on the brand new card introduced**.
+* If two or more cards are touched, then **the clue is focused on a single card - the brand new card introduced**. **Nothing is implied about the non-focused cards** (beyond that they will be useful at some point later on, which follows from *Good Touch Principle*). 
 * If there are multiple brand new cards introduced, then:
   * If the chop card was introduced, then the **focus of the clue is on the chop**. (This is the *Chop Focus* convention.)
   * Otherwise, the **focus of the clue is on the left-most card**.
