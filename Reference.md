@@ -1724,8 +1724,8 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * After a *Inverted Priority Finesse* occurs, the presence of a normal *Priority Finesse* is now known to everyone on the team. Thus, the normal *Priority Finesse* is preserved and should be played into on the next go-around of the table.
 * For example, in a 3-player game:
   * Alice has a choice between playing a red 1 and a blue 2. Both cards are fully known, and no-one else has any clued cards, so the red 1 has *Priority*.
-  * Bob sees that if Alice plays the blue 2, she can perform a *Priority Finesse* on Cathy's slot 1 card, the blue 3.
-  * However, Alice does not play the blue 2, and plays the red 1 instead.
+  * Alice plays the red 1.
+  * Bob sees that if Alice had played the blue 2, she could have performed a *Priority Finesse* on Cathy's slot 1 card, the blue 3.
   * Bob knows that there was no reason for Alice to decline the *Priority Finesse*, so this must be an *Inverted Priority Finesse*. Bob blind-plays his slot 1 card, and it is the red 2.
   * Cathy knows that the red 1 had *Priority*, so playing it should not have caused Bob to blind-play anything. Thus, Cathy knows that this must be an *Inverted Priority Finesse*, and she knows that she has a blue 3 on her slot 1. Cathy discards.
   * Alice plays blue 2.
