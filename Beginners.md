@@ -174,7 +174,7 @@
   * Next, it is Bob's turn. Bob sees that Cathy has been signaled that she has the red 1, and she will go on to misplay this card.
   * If Alice is not making a mistake, something must be in Bob's hand to make the red 2 playable. This must be a *Finesse*, so he blindly plays his left-most card and it is the red 1.
   * Next, Cathy plays her red 2.
-* **Note that *Prompts* take priority over *Finesses*!** Do not blindly play your left-most card if the situation can apply to any of the clued cards in your hand.
+* **Note that *Prompts* take precedence over *Finesses*!** Do not blindly play your left-most card if the situation can apply to any of the clued cards in your hand.
 * When a *Finesse* occurs, it causes temporary information desynchronization. (In the above example, Cathy thinks she has red 1, but she really doesn't have the red 1, which means that information is not synced up throughout the team.) For this reason, blind-playing a card into a *Finesse* is very important - by doing so, it resyncronizes all of the information. So, if a player is *Finessed*, they should almost always blind-play the card immediately, even if they have other important cards to play or some good clue to give.
 * We define the *Finesse Position* as the slot that a player's left-most unclued card is in. Notice that a player's *Finesse Position* can move around, and if it does, it is still possible to *Finesse* them. For example, on the first turn of a 4-player game:
   * Alice clues Cathy red, which touches two red cards on slot 1 and slot 2.
