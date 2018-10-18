@@ -125,8 +125,8 @@
 
 ### When to Discard
 
-* In general (not just in the *Early Game*), discarding is a last resort. If you have known playable cards in your hand, you are expected to play them before discarding. Furthermore, if there are good play clues to give, you are expected to make them before discarding.
-* Thus, if there are more urgent things at hand, you can defer saving important cards on someone else's chop if you see they have playable cards or even a good *Play Clue* to give.
+* In general (not just in the *Early Game*), discarding is a last resort. If you have known playable cards in your hand, you are expected to play them before discarding. Furthermore, if there are good play clues to give, you are expected to give them before discarding.
+* Thus, if there are more urgent things at hand, you can defer saving important cards on the next person's chop if you see they have playable cards or even a good *Play Clue* to give.
 
 ### Fix Clues
 
