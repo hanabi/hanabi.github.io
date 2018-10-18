@@ -54,7 +54,7 @@
 
 ### Save Clues
 
-* *Save Clues* must be given to cards on chop. You can't give a *Save Clue* otherwise!
+* *Save Clues* can only be given to cards on chop. You can't give a *Save Clue* otherwise!
 * The team must give save the following cards:
   * All 5's
   * Unique 2's
