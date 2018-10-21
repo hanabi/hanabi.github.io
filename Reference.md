@@ -1063,18 +1063,18 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Since 1.67 is lower than 2, Alice is expected to play the blue card first.
   * If Alice plays the white 2 instead, it would initiate a *Rank Priority Finesse* and promise that someone has the white 3.
 
-### The Speculation Prompt & The Speculation Finesse (in Multi-Color Variants)
+### The Speculation Prompt & The Speculation Finesse
 
-* Normally, a player needs to know the exact identity of a card in order to initiate a *Priority Prompt* or *Priority Finesse*. However, when a player gets a color *Play Clue* in a variant with a multi-color suit, most of the time they will not know the exact identiy of the card they are playing.
+* Normally, a player needs to know the exact identity of a card in order to initiate a *Priority Prompt* or *Priority Finesse*. However, it is somewhat common that a player will get a *Play Clue* on a card and they will not know its exact identity. (For example, when they get a color *Play Clue* in a multi-color variant.) In this situation, the rules of *Priority* still apply, as enumerated above in the previous section.
 * Subsequently, if a player plays a non-priority card that they do not know the exact identity of, this can be quite strange. In this situation, they are trying to perform a speculative *Priority Prompt* or *Priority Finesse* with the intent that it will only work if they happen to be playing a specific suit. This is called a *Speculation Prompt* or a *Speculation Finesse* for short.
 * We agree that a *Speculation Prompt* or *Speculation Finesse* only promises the next card in the suit that is the left-most of the possible suits that it could be (when looking at the suits in the middle of the table).
-* For example, in a *Dual-color Suits* game:
-  * Alice has a playable blue card with an average rank of 1.67 (green 2, purple 2, or navy 1).
-  * Alice also has a playable orange 1.
-  * Alice plays the playable blue card as a *Speculation Finesse*.
-  * Between green, purple, and navy, the green suit has *Speculation Priority*, since it is the left-most suit of the three.
-  * After the card is played, if it happens to be green 2, then the rest of the team is promised the green 3, just like a normal *Priority Prompt* or *Priority Finesse*.
-  * After the card is played, if it is not green 2, then the team knows that the green 3 was promised. Whoever has it should mark it in their hand for later, and perform a *Self-Chop Move* if it gets to their chop, similar to how *Elimination* works.
+* For example, in a no variant game:
+  * Blue 1 and red 1 are played on the stacks.
+  * Alice has a known playable yellow 1. She also has a known playable 2 that could be either blue 2 or red 2.
+  * Alice plays the 2 as a *Speculation Finesse*.
+  * Between blue and red, the blue suit has *Speculation Priority*, since it is the left-most suit of the two.
+  * After the card is played, if it happens to be blue 2, then the rest of the team is promised the blue 3, just like a normal *Priority Prompt* or *Priority Finesse*.
+  * After the card is played, if it happens to be red 2, then the rest of the team knows that the blue 3 was promised. Whoever has it should mark it in their hand for later, and perform a *Self-Chop Move* if it gets to their chop, similar to how *Elimination* works.
 
 ### The Priority Bluff & The Priority Layered Finesse
 
