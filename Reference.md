@@ -370,14 +370,14 @@ Note that in this user interface, players are holding their hands like they woul
 
 | Priority | Type of Clue | Early Game (Level 1) | Double Discard (Level 2) | Locked Hand (Level 3) | 8 Clues (Level 4)
 | -------- | ------------ | -------------------- | ------------------------ | --------------------- | -----------------
-| 1        | Normal *Play Clues* or *Save Clues*                 | ✔ | ✔ | ✔ | ✔
-| 2        | Early *Fix Clue* (fixing a duplicate before it is in danger of misplaying) | ❌ | ✔ | ✔ | ✔
-| 3        | *5 Stall* (cluing off-chop 5's)                     | ✔ | ✔ | ✔ | ✔
-| 4        | *Tempo Clue* (re-cluing a card to make it play)     | ❌ | ✔ | ✔ | ✔
-| 5        | *Locked Hand Save* (saving any card on chop)        | ❌ | ❌ | ✔ | ✔
-| 6        | *8 Clue Save* (saving any card off chop)            | ❌ | ❌ | ❌ | ✔
-| 7        | Filling in extra info on unplayable "mystery" cards | ❌ | ✔ | ✔ | ✔
-| 8        | *Hard Burn* (re-cluing 5's)                         | ❌ | ✔ | ✔ | ✔
+| 1        | Normal *Play Clues* or *Save Clues*                                        | ✔ | ✔ | ✔ | ✔
+| 2        | *5 Stall* (cluing off-chop 5's)                                            | ✔ | ✔ | ✔ | ✔
+| 3        | Early *Fix Clue* (fixing a duplicate before it is in danger of misplaying) | ❌ | ✔ | ✔ | ✔
+| 4        | *Tempo Clue* (re-cluing a card to make it play)                            | ❌ | ✔ | ✔ | ✔
+| 5        | *Locked Hand Save* (saving any card on chop)                               | ❌ | ❌ | ✔ | ✔
+| 6        | *8 Clue Save* (saving any card off chop)                                   | ❌ | ❌ | ❌ | ✔
+| 7        | Filling in extra info on unplayable "mystery" cards                        | ❌ | ✔ | ✔ | ✔
+| 8        | *Hard Burn* (re-cluing 5's)                                                | ❌ | ✔ | ✔ | ✔
 
 ### Locked Hands & The Locked Hand Save (L.H.S. / LHS) (Level 3 Stalling)
 
