@@ -370,14 +370,13 @@ Note that in this user interface, players are holding their hands like they woul
 
 | Priority | Type of Clue | Early Game (Level 1) | Double Discard (Level 2) | Locked Hand (Level 3) | 8 Clues (Level 4)
 | -------- | ------------ | -------------------- | ------------------------ | --------------------- | -----------------
-| 1        | Normal *Play Clues* or *Save Clues*                                        | ✔ | ✔ | ✔ | ✔
-| 2        | *5 Stall* (cluing off-chop 5's)                                            | ✔ | ✔ | ✔ | ✔
-| 3        | Early *Fix Clue* (fixing a duplicate before it is in danger of misplaying) | ❌ | ✔ | ✔ | ✔
-| 4        | *Tempo Clue* (re-cluing a card to make it play)                            | ❌ | ✔ | ✔ | ✔
-| 5        | *Locked Hand Save* (saving any card on chop)                               | ❌ | ❌ | ✔ | ✔
-| 6        | *8 Clue Save* (saving any card off chop)                                   | ❌ | ❌ | ❌ | ✔
-| 7        | Filling in extra info on unplayable "mystery" cards                        | ❌ | ✔ | ✔ | ✔
-| 8        | *Hard Burn* (re-cluing 5's)                                                | ❌ | ✔ | ✔ | ✔
+| 1        | Normal *Play Clues* or *Save Clues*                 | ✔ | ✔ | ✔ | ✔
+| 2        | *5 Stall* (cluing off-chop 5's)                     | ✔ | ✔ | ✔ | ✔
+| 3        | *Tempo Clue* (re-cluing a card to make it play)     | ❌ | ✔ | ✔ | ✔
+| 4        | *Locked Hand Save* (saving any card on chop)        | ❌ | ❌ | ✔ | ✔
+| 5        | *8 Clue Save* (saving any card off chop)            | ❌ | ❌ | ❌ | ✔
+| 6        | Filling in extra info on unplayable "mystery" cards | ❌ | ✔ | ✔ | ✔
+| 7        | *Hard Burn* (re-cluing 5's)                         | ❌ | ✔ | ✔ | ✔
 
 ### Locked Hands & The Locked Hand Save (L.H.S. / LHS) (Level 3 Stalling)
 
@@ -1076,6 +1075,23 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Between blue and red, the blue suit has *Speculation Priority*, since it is the left-most suit of the two.
   * After the card is played, if it happens to be blue 2, then the rest of the team is promised the blue 3, just like a normal *Priority Prompt* or *Priority Finesse*.
   * After the card is played, if it happens to be red 2, then the rest of the team knows that the blue 3 was promised. Whoever has it should mark it in their hand for later, and perform a *Self-Chop Move* if it gets to their chop, similar to how *Elimination* works.
+
+### The Speculation Bluff
+
+* The *Speculation* mechanism described in the previous section can also be used to perform a *Speculation Bluff*, which is similar to a *Priority Bluff*.
+* In the case where the card played was indeed the left-most of the possibilities, then this works exactly the same as a *Priority Bluff* - the next player will immediately blind-play their *Finesse Position* card and it will be immediately revealed that a *Bluff* has occured.
+* Things become more complicated if the card played does not happen to be the left-most of the possibilities. The next player will mark their *Finesse Position* card in the same way as if a failed *Speculation Finesse* occured. However, the rest of the team will know that it was a *Speculation Bluff*, because they see a playable card in the *Finesse Position* of the next player.
+* When this occurs, the bluffed player will mark their card with the wrong note. This is referred to as a *Speculation Mis-mark*.
+* For example, in a 3-player game:
+  * Blue 1 and red 1 are played on the stacks.
+  * Alice has a known playable yellow 1. She also has a known playable 2 that could be either blue 2 or red 2.
+  * Alice does not see the blue 3 or the red 3, but she does see a playable green 1 on Bob's *Finesse Position*.
+  * Alice plays the 2 as a *Speculation Bluff*, hoping to get the green 1 "for free". However, it happens to be the red 2.
+  * Bob knows that Alice was supposed to play the yellow 1, so this must have been a *Speculation Finesse*. Bob marks his *Finesse Position* card as blue 3. Then, Bob discards.
+  * Alice and Cathy both mark the green 1 as a "blue 3 *Speculation Mis-mark*". At this point, they can either:
+    * Clue green 1 directly to get it to play, which would reveal to everyone that a failed *Speculation Bluff* occured and immediately resyncronize information amoung the team.
+    * Let the card sit there until the real blue 2 is played, after which the green 1 will play for free as blue 2. After this happens, the *Speculation Bluff* will be revealed.
+* Note that to prevent confusion, we agree that it is illegal for players to perform a *Speculation Finesse* on a player who is two or more seats away if the next player has a playable card in *Finesse Position* that is not already gotten.
 
 ### The Priority Bluff & The Priority Layered Finesse
 
