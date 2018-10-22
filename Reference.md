@@ -1076,6 +1076,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Between blue and red, the blue suit has *Speculation Priority*, since it is the left-most suit of the two.
   * After the card is played, if it happens to be blue 2, then the rest of the team is promised the blue 3, just like a normal *Priority Prompt* or *Priority Finesse*.
   * After the card is played, if it happens to be red 2, then the rest of the team knows that the blue 3 was promised. Whoever has it should mark it in their hand for later, and perform a *Self-Chop Move* if it gets to their chop, similar to how *Elimination* works.
+* Note that we agree that it is illegal for players to perform a *Layered Speculation Finesse*, so players should not factor in that possibility.
 
 ### The Speculation Bluff
 
