@@ -236,32 +236,67 @@ In this guide, there will be some screenshots to show off the concepts introduce
 
 ### Prompts
 
-* For example, in a 3-player game:
-  * All the 2's have been played on the stacks.
+<img src="img/beginners/prompt.png" height="300" />
+
+* In the above screenshot:
+  * Alice's hand is blacked out because it does not matter.
   * Bob has a clued red card in his hand, but the full identity of the card is still unknown to him. In this situation, he knows he is supposed to just keep the card in his hand and continue to discard unclued cards.
   * Alice clues a red 4 in Cathy's hand as a *Play Clue*.
   * Bob sees that red 4 is currently unplayable, since the red 3 is not played yet. Thus, this clue implies that someone has the red 3.
   * Bob does not see a red 3 clued in anyone else's hand. So, Alice must be promising him that his unknown red card is red 3 and that he can safely play it.
 * In this way, clues can deliver messages to an entirely different player than the person who actually received the clue.
 * We call this move a *Prompt* because it is "prompting" a player to play a card that they would have otherwise held on to for a while longer.
-* If a player is *Prompted* and there are multiple cards in the hand that the *Prompt* could apply to, they should play the left-most. For example, in a 3-player game:
-  * Similar to the last example, Bob is *Prompted* for a red 3.
+
+<img src="img/beginners/prompt2.png" height="300" />
+
+* If a player is *Prompted* and there are multiple cards in the hand that the *Prompt* could apply to, they should play the left-most.
+* In the above screenshot:
+  * Bob is *Prompted* for a red 3 in the exact same way as the previous example.
   * Bob has three different cards clued as red in slots 2, 3, and 4.
   * Since all 3 cards are equally likely to be red 3, Bob should choose to play the slot 2 card as red 3 since it is the left-most.
-* If a player is *Prompted* and they play the left-most card and it was not the matching card, then they should continue playing clued cards from left to right until they find the matching card. (They are promised that they have the matching card somewhere in their hand.)
+
+<img src="img/beginners/prompt3.png" height="300" />
+
+* In the above screenshot:
+  * Bob has an unknown 3 in his hand.
+  * Alice clues 4's to Bob, which is a *Play Clue* on a 4.
+  * There is no 4 that could possibly be playable right now, so this must be a *Self-Prompt*, meaning that his 3 must be either blue 3 or green 3.
+  * Bob plays his 3, and it is blue 3. Thus, he knows that the 4 must match and be a blue 4.
+
+<img src="img/beginners/prompt4.png" height="300" />
+
+* The *Prompt* is a PROMISE that the player has the connecting card. A *Prompt* cannot be a lie!
+* In the above screenshot:
+  * Bob has three separate unknown 3's in his hand.
+  * Alice clues red to Bob, which is a *Play Clue* on the red 4.
+  * Bob must have the red 3, so this is a *Prompt*. Bob plays the left-most 3 from slot 2.
+  * However, it is not the red 3, it is the blue 3. Bob now knows that the next-left-most 3 must be red 3 (on slot 3).
+  * On his next turn, Bob plays his slot 3 card, but it is not the red 3, it is the green 3. Bob now knows that his final 3 must be red 3 (on slot 4).
+  * On his next turn, Bob plays his slot 4 card, and it is red 3. Bob now knows that Alice did a *Triple Prompt*.
+
+<br />
 
 ### Finesses
 
-* If someone gives a *Play Clue* to a card that is currently unplayable, then they could be telling YOU to play a card. Normally, this would indicate a *Prompt*. But, what if you have no clued cards in your hand? Or, what if you have no clued cards that apply to the situation?
-* In this situation, you should blindly play your left-most unclued card. Then, the other player will know that the clued card directly matches the blind-play, and will play it. By doing this, the team will have gotten 2 plays with only 1 clue, which is very efficient. This is called a *Finesse*.
-* For example, on the first turn of a 3-player game:
-  * Alice clues Cathy red, which touches her red 2.
-  * Next, it is Bob's turn. Bob sees that Cathy has been signaled that she has the red 1, and she will go on to misplay this card.
-  * If Alice is not making a mistake, something must be in Bob's hand to make the red 2 playable. This must be a *Finesse*, so he blindly plays his left-most card and it is the red 1.
-  * Next, Cathy plays her red 2.
-* **Note that *Prompts* take precedence over *Finesses*!** Do not blindly play your left-most card if the situation can apply to any of the clued cards in your hand.
-* When a *Finesse* occurs, it causes temporary information desynchronization. (In the above example, Cathy thinks she has red 1, but she really doesn't have the red 1, which means that information is not synced up throughout the team.) For this reason, blind-playing a card into a *Finesse* is very important - by doing so, it resyncronizes all of the information. So, **if a player is *Finessed*, they should usually blind-play the card immediately**, even if they have other important cards to play or some good clue to give.
-* We define the *Finesse Position* as the slot that a player's left-most unclued card is in. Notice that a player's *Finesse Position* can move around, and if it does, it is still possible to *Finesse* them. For example, on the first turn of a 4-player game:
+<img src="img/beginners/finesse.png" height="300" />
+
+* In the above screenshot:
+  * Alice's hand is blacked out because it does not matter.
+  * Bob has no clued cards in his hand.
+  * Alice clues a red 4 in Cathy's hand as a *Play Clue*.
+  * Bob sees that red 4 is currently unplayable. Thus, assuming Alice is not making a mistake, this clue implies that someone has the red 3...
+  * Bob does not see a red 3 clued in anyone else's hand. So, Alice must be promising him that his has the red 3.
+  * But where is it? Bob knows that this is the *Finesse* convention, and he is promised that his left-most unclued card is the red 3.
+  * Bob blind-plays his slot 1 card, and it is the red 3.
+  * Cathy sees the blind-play happen immediately after this red clue, so she knows that she must have the connecting red card, red 4.
+  * Cathy plays the red 4.
+* **Note that *Prompts* take precedence over *Finesses*!** Players should never blind-play a card if the situation can apply to the clued cards in their hand.
+* When a *Finesse* occurs, it causes temporary information desynchronization. (In the above example, if Bob did nothing, Cathy would go on to think that she had the red 3, but she really doesn't have the red 3, which means that information is not synced up throughout the team.) For this reason, blind-playing a card into a *Finesse* is very important - by doing so, it resyncronizes all of the information. So, **if a player is *Finessed*, they should usually blind-play the card immediately**, even if they have other important cards to play or some good clue to give.
+
+<img src="img/beginners/finesse2.png" height="300" />
+
+* We define the *Finesse Position* as the slot that a player's left-most unclued card is in. Notice that a player's *Finesse Position* can move around, and if it does, it is still possible to *Finesse* them.
+* In the above screenshot:
   * Alice clues Cathy red, which touches two red cards on slot 1 and slot 2.
   * Cathy assumes that the slot 1 card is red 1.
   * Next, Bob clues Donald blue, which touches a blue 2.
