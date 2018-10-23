@@ -109,6 +109,12 @@ Note that in this user interface, players are holding their hands like they woul
 
 ## Level 2 - Intermediate Strategies
 
+### 2 Saves
+
+* As explained in the beginners guide, *2 Saves* must be given with a number 2 clue.
+* Players are not allowed to perform a *2 Save* on a 2 if that same 2 is visible in someone else's hand.
+  * The exception to this rule is when the same 2 is on two people's chops at the same time. In that situation, players are allowed to *2 Save* whichever one they want.
+
 ### Prompts in Multi-Color Variants
 
 * In multi-color variants, *Prompts* apply to the card with the most positive information.
