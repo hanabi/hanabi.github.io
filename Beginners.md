@@ -117,7 +117,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
 
 <img src="img/beginners/single_focus3.png" height="150" />
 
-* In the above screenshot, Alice clues purple to Bob.
+* In the above screenshot, Alice clues purple to Bob (on the first turn of the game).
 * Before this clue, Bob's hand was completely unclued. So, with this clue, **three new cards were introduced** - slot 1, slot 2, and slot 5.
 * Before this clue, Bob's chop was slot 5. So, since the clue touched his chop and *Chop Focus* has priority, this must be a *Chop Focus Play Clue* on purple 1. Bob should play the slot 5 card as purple 1.
 
