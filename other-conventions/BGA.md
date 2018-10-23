@@ -101,7 +101,7 @@ What is the flipside of not having very many members? Better cohesion, aided by 
 
 Another potentially bad aspect of playing with my group is the complexity involved. We are very welcoming of noobs, but I won't deny that we play at a higher level than the averge BGA player. It is going to be a longer journey to become an expert in our group than it would be to be an expert at BGA. And if you are already comfortable with the BGA conventions, it might just be too frustrating to experiment with different ways of doing things.
 
-What is the flipside of having more conventions and more complexity? First off, it raises the skill ceiling. Hanabi throws plenty of tricky situations at you, and you only have a limited amount of tools to solve them. By adding some conventions, it can be like adding additional tools to the toolbelt. For expert players, by empowering them with more tools, it increases the total ways in which they can solve problems, making the game take on a new layer of beauty. But even for intermediate players, it can be very fun to gain the powers to make your teammates blind-play cards from their hands in new and exciting ways. =)
+What is the flipside of having more conventions and more complexity? First off, it raises the skill ceiling. Hanabi throws plenty of tricky situations at you, and you only have a limited amount of tools to solve them. By adding some conventions, it can be like adding additional tools to the toolbelt. For expert players, by empowering them with more tools, it increases the total ways in which they can solve problems, making the game take on a new layer of beauty. But even for intermediate players, it can be very fun to gain the powers to make your teammates blind-play cards from their hands in new and exciting ways.
 
 We know that for people who really like Hanabi, it will be worth the extra effort to play with a little more complexity.
 
@@ -283,7 +283,7 @@ These are conventions that we don't typically turn on for new players, but we do
   * On her next turn, Cathy blind-plays red 1 (from slot 4).
   * Donald plays red 2.
 * By extension, it is also possible to perform a *Double Finesse* where both promised cards are layered behind other playable cards. Essentially, this means that when playing with good players, you always have to keep in mind that a *Finesse* could be layered.
-* Why do this? It's pretty awesome and one of the most fun parts of playing Hanabi. =)
+* Why do this? It's pretty awesome and one of the most fun parts of playing Hanabi.
 
 ### 3 Bluffs - Added
 
