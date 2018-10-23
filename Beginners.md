@@ -28,7 +28,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
 * Bob is always player 2. (He will always go second.)
 * Cards are drawn and added to the left side to each hand. Thus, Alice's newest card is the blue 1 and Bob's newest card is the red 1.
 * Conversely, the oldest card is the right-most card. Alice's oldest card is the blue 5 and Bob's oldest card is the red 5.
-* A card's *slot* referes to its position in the hand. In this screenshot, the blue 1 is on slot 1, the blue 2 is on slot 2, the blue 3 is on slot 3, and so forth. The red 1 is on slot 1, the red 2 is on slot 2, the red 3 is on slot 3, and so forth.
+* A card's *slot* referes to its position in the hand. In the above screenshot, the blue 1 is on slot 1, the blue 2 is on slot 2, the blue 3 is on slot 3, and so forth. The red 1 is on slot 1, the red 2 is on slot 2, the red 3 is on slot 3, and so forth.
 
 <img src="img/beginners/screenshot2.png" height="300" />
 
@@ -207,7 +207,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
 
 <img src="img/beginners/fix_clue.png" height="300" />
 
-* In this screenshot:
+* In the above screenshot:
   * Before the clue was given, Alice had an unknown purple card in her hand.
   * From *Good Touch Principle*, Alice concluded that her card must be purple 5, and had planned to play it as soon as possible.
   * Bob clues number 3 to Alice, which "fills in" the purple card and reveals that it is purple 3.
@@ -216,7 +216,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
 <img src="img/beginners/fix_clue2.png" height="300" />
 
 * **A clue cannot be a *Play Clue* and a *Fix Clue* at the same time.** If you receive a *Fix Clue* and it touches other ancillary cards, none of them are necessarily playable; the primary point of the clue is to fix the impending misplay.
-* In this screenshot:
+* In the above screenshot:
   * Before the clue was, Alice has an unknown 1 in her hand.
   * From *Good Touch Principle*, Alice concluded that her 1 must be green 1, and had planned to play it as soon as possible.
   * Bob clues blue to Alice, which "fills in" the 1 and reveals that it is blue 1. The blue clue also touches a blue card on slot 1.
