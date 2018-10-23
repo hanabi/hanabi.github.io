@@ -192,7 +192,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
 * From *Good Touch Principle*, Bob knows that he can now play all 3 of these cards.
 * Bob should play the slot 4 card first, and then the slot 3 card, and then the slot 2 card.
 * Now imagine:
-  * Bob plays the slot 4 card, and it is blue 1. (He then draws a card, and all of the other cards in his hand slide over.)
+  * Bob plays the slot 4 card. (He then draws a card, and all of the other cards in his hand slide over.)
   * Alice clues 1's to Bob, which touches a brand new card on slot 1 and re-touches the ones on slot 3 and slot 4.
 
 <img src="img/beginners/playing_multiple_1s2.png" height="150" />
