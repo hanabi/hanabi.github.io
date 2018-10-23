@@ -41,7 +41,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
 
 ### The Chop
 
-* The right-most unclued card is called the "chop" card.
+* The right-most unclued card is called the "chop" card. (This is a metaphor of a card being "on the chopping block".)
 * When a player needs to discard, they should discard their chop card.
   * Unless of course, they happen to have a clued card that is known useless - then they should discard the known useless card.
 * In this way, everyone discards in a predicable way.
