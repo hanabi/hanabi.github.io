@@ -241,7 +241,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
 * In the above screenshot:
   * Alice's hand is blacked out because it does not matter.
   * Bob has a clued red card in his hand, but the full identity of the card is still unknown to him. In this situation, he knows he is supposed to just keep the card in his hand and continue to discard unclued cards.
-  * Alice clues a red 4 in Cathy's hand as a *Play Clue*.
+  * Alice clues red to Cathy, which touches a red 4. This must be a *Play Clue* on the red 4.
   * Bob sees that red 4 is currently unplayable, since the red 3 is not played yet. Thus, this clue implies that someone has the red 3.
   * Bob does not see a red 3 clued in anyone else's hand. So, Alice must be promising him that his unknown red card is red 3 and that he can safely play it.
 * In this way, clues can deliver messages to an entirely different player than the person who actually received the clue.
@@ -259,8 +259,8 @@ In this guide, there will be some screenshots to show off the concepts introduce
 
 * In the above screenshot:
   * Bob has an unknown 3 in his hand.
-  * Alice clues 4's to Bob, which is a *Play Clue* on a 4.
-  * There is no 4 that could possibly be playable right now, so this must be a *Self-Prompt*, meaning that his 3 must be either blue 3 or green 3.
+  * Alice clues number 4 to Bob, which touches a 4. It must be a *Play Clue* on the 4.
+  * There is no 4 that could possibly be playable right now. Thus, this must be a *Self-Prompt*, meaning that Bob's 3 must be either blue 3 or green 3.
   * Bob plays his 3, and it is blue 3. Thus, he knows that the 4 must match and be a blue 4.
 
 <img src="img/beginners/prompt4.png" height="300" />
@@ -268,10 +268,10 @@ In this guide, there will be some screenshots to show off the concepts introduce
 * The *Prompt* is a PROMISE that the player has the connecting card. A *Prompt* cannot be a lie!
 * In the above screenshot:
   * Bob has three separate unknown 3's in his hand.
-  * Alice clues red to Bob, which is a *Play Clue* on the red 4.
-  * Bob must have the red 3, so this is a *Prompt*. Bob plays the left-most 3 from slot 2.
-  * However, it is not the red 3, it is the blue 3. Bob now knows that the next-left-most 3 must be red 3 (on slot 3).
-  * On his next turn, Bob plays his slot 3 card, but it is not the red 3, it is the green 3. Bob now knows that his final 3 must be red 3 (on slot 4).
+  * Alice clues red to Bob, which touches the red 4. This is a *Play Clue* on the red 4.
+  * Bob must have the red 3, so this is a *Prompt*. Bob plays his left-most 3 from slot 2.
+  * However, after playing it, Bob sees that it is not the red 3 - it was the blue 3 (which played successfully). Bob now knows that the next-left-most 3 must be the red 3 (on slot 3).
+  * On his next turn, Bob tries to play his slot 3 card as red 3. However, after playing it, Bob sees that it was not the red 3 - it was the green 3 (which played successfully). Bob now knows that his final 3 must be red 3 (on slot 4).
   * On his next turn, Bob plays his slot 4 card, and it is red 3. Bob now knows that Alice did a *Triple Prompt*.
 
 <br />
@@ -283,7 +283,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
 * In the above screenshot:
   * Alice's hand is blacked out because it does not matter.
   * Bob has no clued cards in his hand.
-  * Alice clues a red 4 in Cathy's hand as a *Play Clue*.
+  * Alice clues a red to Cathy, which touches a red 4. This must be a *Play Clue* on the red 4.
   * Bob sees that red 4 is currently unplayable. Thus, assuming Alice is not making a mistake, this clue implies that someone has the red 3...
   * Bob does not see a red 3 clued in anyone else's hand. So, Alice must be promising him that his has the red 3.
   * But where is it? Bob knows that this is the *Finesse* convention, and he is promised that his left-most unclued card is the red 3.
