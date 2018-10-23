@@ -234,7 +234,13 @@ In this guide, there will be some screenshots to show off the concepts introduce
 
 ## Special Moves
 
-### Prompts
+* Hanabi is a game of trying to be as efficient as possible, since there is a limited number of clues.
+* Most of the time, players will use one clue to get one card played. But is it possible to do better?
+* There are two special "moves" that players can do in order to get multiple cards played by only using 1 clue, which is very efficient.
+
+<br />
+
+### The Prompt
 
 <img src="img/beginners/prompt.png" height="300" />
 
@@ -276,7 +282,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
 
 <br />
 
-### Finesses
+### The Finesse
 
 <img src="img/beginners/finesse.png" height="300" />
 
