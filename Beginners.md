@@ -296,7 +296,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
   * Bob blind-plays his slot 1 card, and it is the red 3.
   * Cathy sees the blind-play happen immediately after this red clue, so she knows that she must have the connecting red card, red 4.
   * Cathy plays the red 4.
-* **Note that *Prompts* take precedence over *Finesses*!** Players should never blind-play a card if the situation can apply to the clued cards in their hand.
+* Note that ***Prompts* take precedence over *Finesses*!** Players should never blind-play a card if the situation can apply to the clued cards in their hand.
 * When a *Finesse* occurs, it causes temporary information desynchronization. (In the above example, if Bob did nothing, Cathy would go on to think that she had the red 3, but she really doesn't have the red 3, which means that information is not synced up throughout the team.) For this reason, blind-playing a card into a *Finesse* is very important - by doing so, it resyncronizes all of the information. So, **if a player is *Finessed*, they should usually blind-play the card immediately**, even if they have other important cards to play or some good clue to give.
 
 <img src="img/beginners/finesse2.png" height="300" />
