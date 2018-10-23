@@ -47,7 +47,7 @@ Unfortunately, BGA isn't perfect. The user interface is functional, but really l
 
 Besides the problems with the user interface, there is another big disadvantage with BGA: no reviewing.
 
-Since there are so many players on the site, a general culture has emerged where once a game is over, players will typically just jump into the next game with the next player. Of course, this doesn't always occur, and there may be some lively post-game discussions from time to time. But this is the exception rather than the norm. In a way, it makes sense: why bother giving other players tips or have a discussion after the end of the game when you may not ever play with that player again? It's just more practical to move on.
+Since there are so many players on the site, a general culture has emerged where once a game is over, players will typically just jump into the next game with the next player. Of course, this doesn't always occur, and there may be some lively post-game discussions from time to time. But this is the exception rather than the norm. In a way, it makes sense: why bother giving other players tips or have a discussion after the end of the game when you may not ever play with that player again? It is just more practical to move on.
 
 Of course, this problem is compounded by the terrible replay system. Even if players wanted to go over the replay of a game to analyze certain key moments, the replay system is just not condusive to this task. Often times, you need to stare at the exact turn for a while in order to come up with the best move. And to do that with the clunky replay system involves refreshing the page over and over.
 
