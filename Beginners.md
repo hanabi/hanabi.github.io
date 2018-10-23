@@ -104,8 +104,8 @@ In this guide, there will be some screenshots to show off the concepts introduce
 
 <img src="img/beginners/single_focus.png" height="150" />
 
-* In the above screenshot, Alice clues blue to Bob.
 * If only one card is touched by a clue, then the clue is (obviously) talking about that one card.
+* In the above screenshot, Alice clues blue to Bob.
 * Thus, the focus of the clue is blue 1. This is a *Play Clue* on blue 1.
 
 <img src="img/beginners/single_focus2.png" height="150" />
