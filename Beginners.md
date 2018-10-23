@@ -284,9 +284,12 @@ In this guide, there will be some screenshots to show off the concepts introduce
 
 * Now that you know all of the "rules" and "systems", what about the basic stratgy? How should you decide what to do on your turn?
 * What makes Hanabi so interesting is that there is never a one-size-fits-all prescription for a situation, so you always have to think everything through. With that said, you should know some basic tips.
-* In general, **don't be afraid of discarding**. If you discard something important, it won't be your fault - it is your teammates' responsibility to save any important cards.
+* In general, the first thing you should do on your turn is **look at the chop cards of everyone on the team**. Do you need to save a card, or can someone else do it?
+  * If no-one else can do it, then you need to give the *Save Clue*, even if you have a card to play.
+  * If someone else can do it, would it be better for you to save the card, or for them? If they have a card to play and you do not have a card to play, then it is better teamwork for you to save the card.
 * In general, ***Play Clues* should be given over *Save Clues***. There's no need to give a *Save Clue* to someone if you can preoccupy them with playing a card!
 * In general, **color clues should be given over number clues**. Color clues are usually more specific, telling the player the exact identity of the card. (But of course, don't be afraid to use number clues if it helps to "fill in" other cards in the hand.)
+* In general, **don't be afraid of discarding**. If you discard something important, it won't be your fault - it is your teammates' responsibility to save any important cards.
 
 <br />
 
