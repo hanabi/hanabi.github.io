@@ -1,6 +1,6 @@
 # Beginners Guide for the Hyphen-ated Group
 
-* Are you looking to start playing games with the Hyphen-ated group? Fantastic - we are always looking to welcome new players. Take 10-15 minutes and go over this guide so that you can get up to speed with the basics.
+* Are you looking to start playing games with the Hyphen-ated group? Fantastic - we are always looking to welcome new players. Take 15 minutes and go over this guide so that you can get up to speed with the basics.
 * This guide assumes that you are already familiar with the basic rules of Hanabi. If you need to brush up on them, see [this Pastebin written by Tricky](http://pastebin.com/6brGz2J4).
 
 <br />
