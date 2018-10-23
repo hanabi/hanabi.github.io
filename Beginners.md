@@ -251,7 +251,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
 
 <img src="img/beginners/playing_multiple_1s2.png" height="150" />
 
-* Bob knows that fresh 1's have priority, so he plays the slot 1 card next. After that, he should play the slot 4 card, and then the slot 3 card.
+* Bob knows that fresh 1's have priority, so he plays the slot 1 card next. After that, he should play the slot 4 card, and then the slot 3 card (e.g. resuming the play order from before).
 
 ### The Early Game
 
