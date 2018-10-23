@@ -182,9 +182,22 @@ In this guide, there will be some screenshots to show off the concepts introduce
 
 ### Playing Multiple 1's
 
-* If one or more 1's in your hand are clued, you should assume that they are ALL playable. (This ONLY applies to 1's, and follows from *Good Touch Principle*.)
-* We agree that playing 1's at the beginning of the game is a special case - you should always play your 1's from oldest to newest.
+* If one or more 1's in your hand are clued, **you should assume that they are all playable**. (This only applies to 1's, and follows from *Good Touch Principle*.)
+* We agree that playing 1's at the beginning of the game is a special case - you should always **play your 1's from oldest to newest**. (Normally, *Play Clues* mean to play the left-most card.)
 * However, freshly drawn 1's should always be played before any 1's that were present in the starting hand. (This applies even if one of the clued 1s was on chop.)
+
+<img src="img/beginners/playing_multiple_1s.png" height="150" />
+
+* In the above screenshot, Alice clues 1's to Bob, which touches three 1s on slot 2, slot 3, and slot 4.
+* From *Good Touch Principle*, Bob knows that he can now play all 3 of these cards.
+* Bob should play the slot 4 card first, and then the slot 3 card, and then the slot 2 card.
+* Now imagine:
+  * Bob plays the slot 4 card, and it is blue 1. (He then draws a card, and all of the other cards in his hand slide over.)
+  * Alice clues 1's to Bob, which touches a brand new card on slot 1 and re-touches the ones on slot 3 and slot 4.
+
+<img src="img/beginners/playing_multiple_1s2.png" height="150" />
+
+* Bob knows that fresh 1's have priority, so he plays the slot 1 card next. After that, he should play the slot 4 card, and then the slot 3 card.
 
 ### The Early Game
 
