@@ -164,7 +164,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
   * Before this clue, Bob did not have any clued cards in his hand.
   * Since the clue was focused on his chop, Bob knows that this must be a *2 Save* on the 2. It can be any 2 in the game.
 * Similar to 5's, 2's must be saved with a number clue instead of a color clue.
-* You can think of the *2 Save* as a last resort to save a 2. Thus, players are not allowed to perform a *2 Save* on a 2 if that same 2 is visible in someone else's hand.
+* You can think of the *2 Save* as a last resort to save a 2. Thus, players are not allowed to perform a *2 Save* on a 2 if that same 2 is visible in someone else's hand (because the team does not actually need to save that 2 quite yet - they can *2 Save* it when the other copy reaches the chop).
 
 ##### Critical Saves
 
