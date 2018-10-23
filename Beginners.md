@@ -274,7 +274,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
 * The *Prompt* is a **promise** that the player has the connecting card. **A *Prompt* cannot be a lie!**
 * In the above screenshot:
   * Bob has three separate unknown 3's in his hand.
-  * Alice clues red to Bob, which touches the red 4. This is a *Play Clue* on the red 4.
+  * Alice clues red to Cathy, which touches the red 4. This is a *Play Clue* on the red 4.
   * Bob must have the red 3, so this is a *Prompt*. Bob plays his left-most 3 from slot 2.
   * However, after playing it, Bob sees that it is not the red 3 - it was the blue 3 (which played successfully). Bob now knows that the next-left-most 3 must be the red 3 (on slot 3).
   * On his next turn, Bob tries to play his slot 3 card as red 3. However, after playing it, Bob sees that it was not the red 3 - it was the green 3 (which played successfully). Bob now knows that his final 3 must be red 3 (on slot 4).
