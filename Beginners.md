@@ -7,6 +7,7 @@
 
 ## Table of Contents
 
+1. [Card Layout)(#card-layout)
 1. [The Basics](#the-basics)
 2. [Play Clues & Save Clues](#play-clues--save-clues)
 3. [Miscellaneous](#miscellaneous)
@@ -14,12 +15,19 @@
 
 <br />
 
+## Card Layout
+
+In this document, we will use screenshots to show examples of all the concepts introduced. Here's an example of a screenshot using the "Keldon-style" card lyout:
+
 ## The Basics
 
 ### The Chop
 
 * The right-most unclued card is called the "chop" card.
 * When a player needs to discard, they should discard their chop card.
+
+
+
   * Unless of course, they happen to have a clued card that is known useless - then they should discard the known useless card.
 * In this way, everyone discards in a predicable way.
 
