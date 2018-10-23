@@ -10,8 +10,9 @@
 1. [Card Layout](#card-layout)
 1. [The Basics](#the-basics)
 2. [Play Clues & Save Clues](#play-clues--save-clues)
-3. [Miscellaneous](#miscellaneous)
-4. [Special Moves](#special-moves)
+3. [Fix Clues](#fix-clues)
+4. [Miscellaneous](#miscellaneous)
+5. [Special Moves](#special-moves)
 
 <br />
 
@@ -178,6 +179,21 @@ In this guide, there will be some screenshots to show off the concepts introduce
 
 <br />
 
+## Fix Clues
+
+* 99% of clues are either *Save Clues* or *Play Clues*. The remaining 1% are *Fix Clues*, which are attempting to "fix" an impending misplay.
+* *Fix Clues* are often needed when a duplicate card is touched. (For example, when a red 2 is clued in Player A's hand, and the other red 2 is clued in Player B's hand.) Cards are not normally duplicated (which follows from *Good Touch Principle*), but sometimes someone makes a mistake, or a sequence of particular cards makes duplicating necessary.
+* In such a situation, because of *Good Touch Principle*, the players with the duplicate cards will assume their identity to be something else. This means that eventually, they will go on to misplay those cards. Therefore, it is the team's responsibility to fix the problem and intervene before this happens with a *Fix Clue*.
+* **A clue cannot be a *Play Clue* and a *Fix Clue* at the same time.** If you receive a *Fix Clue* and it touches other ancillary cards, none of them are necessarily playable; the primary point of the clue is to fix the impending misplay.
+* Usually a *Fix Clue* will "fill in" the card to explicitly make it known that the card is unplayable or duplicated. However, it is also possible to perform a *Fix Clue* just by cluing the card again. For example:
+  * Alice clues Bob number 1 and it touches three 1's.
+  * Bob successfully plays two 1's.
+  * Before Bob can play the 3rd 1, Alice clues Bob number 1 again, and all the clue does is re-touch the remaining 1.
+  * Now it is Bob's turn. Since he was going to play the 1 already without Alice doing anything, the clue must have some other meaning. Thus, it is a *Fix Clue*: the remaining 1 is bad, and Bob can safely discard it.
+* Finally, note that in general, giving a *Fix Clue* should wait until the card is actually in danger of being misplayed (like in the previous example). If a duplicated card is not in danger of being misplayed anytime soon, then players should defer giving the *Fix Clue* until later. This way, it gives the player a chance to figure out the duplication on their own, which can happen from time to time.
+
+<br />
+
 ## Miscellaneous
 
 ### Playing Multiple 1's
@@ -217,18 +233,21 @@ In this guide, there will be some screenshots to show off the concepts introduce
 * In general (not just in the *Early Game*), discarding is a last resort. If you have known playable cards in your hand, you are expected to play them before discarding. Furthermore, if there are good play clues to give, you are expected to give them before discarding.
 * Thus, if there are more urgent things at hand, you can defer saving important cards on the next person's chop if you see they have playable cards or even a good *Play Clue* to give.
 
-### Fix Clues
+### Tempo Clues and Minimum Clue Value Principle
 
-* 99% of clues are either *Save Clues* or *Play Clues*. The remaining 1% are *Fix Clues*, which are attempting to "fix" an impending misplay.
-* *Fix Clues* are often needed when a duplicate card is touched. (For example, when a red 2 is clued in Player A's hand, and the other red 2 is clued in Player B's hand.) Cards are not normally duplicated (which follows from *Good Touch Principle*), but sometimes someone makes a mistake, or a sequence of particular cards makes duplicating necessary.
-* In such a situation, because of *Good Touch Principle*, the players with the duplicate cards will assume their identity to be something else. This means that eventually, they will go on to misplay those cards. Therefore, it is the team's responsibility to fix the problem and intervene before this happens with a *Fix Clue*.
-* **A clue cannot be a *Play Clue* and a *Fix Clue* at the same time.** If you receive a *Fix Clue* and it touches other ancillary cards, none of them are necessarily playable; the primary point of the clue is to fix the impending misplay.
-* Usually a *Fix Clue* will "fill in" the card to explicitly make it known that the card is unplayable or duplicated. However, it is also possible to perform a *Fix Clue* just by cluing the card again. For example:
-  * Alice clues Bob number 1 and it touches three 1's.
-  * Bob successfully plays two 1's.
-  * Before Bob can play the 3rd 1, Alice clues Bob number 1 again, and all the clue does is re-touch the remaining 1.
-  * Now it is Bob's turn. Since he was going to play the 1 already without Alice doing anything, the clue must have some other meaning. Thus, it is a *Fix Clue*: the remaining 1 is bad, and Bob can safely discard it.
-* Finally, note that in general, giving a *Fix Clue* should wait until the card is actually in danger of being misplayed (like in the previous example). If a duplicated card is not in danger of being misplayed anytime soon, then players should defer giving the *Fix Clue* until later. This way, it gives the player a chance to figure out the duplication on their own, which can happen from time to time.
+* In the previous section, we said that discarding is a "last resort". But don't take this the wrong way.
+* In order to avoid discarding, you are *not allowed* to just clue any card. You are only allowed to give *Save Clues* to the specific cards outlined in the *Save Clue* section. And you are only allowed to give *Play Clues* on actual playable cards.
+* Furthermore, you might be tempted to **clue a card that already has a clue on it again to make it play right now**. We call this kind of clue a *Tempo Clue*.
+* *Tempo Clues* are quite inefficient (as the team is using two clues to get one card). Since *Tempo Clues* suck so bad, we say that players are **only allowed to perform them in certain special situations**, like when they a player is forced to give a clue.
+* So, if nothing special is going on, and you have a choice between giving a *Tempo Clue* and discarding, then you must discard.
+* We formally express this concept by saying that **all clues must meet *Minimum Clue Value Principle*** - each clue must get at least one brand new card saved or played. In other words, as a group, we hold ourselves to a high standard, and we don't give inefficient clues.
+
+### Other General Strategy
+
+* Now that you know all of the "rules" and "systems", what about the basic stratgy?
+* In general, **don't be afraid of discarding**. If you discard something important, it won't be your fault - it is your teammates' responsibility to save any important cards.
+* In general, ***Play Clues* should be given over *Save Clues***. There's no need to give a *Save Clue* to someone if you can preoccupy them with playing a card!
+* In general, **color clues should be given over number clues**. Color clues are usually more specific to tell the player the exact identity of the card. But of course, don't be afraid to use number clues if it helps "fill in" other cards in the hand.
 
 <br />
 
