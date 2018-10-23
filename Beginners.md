@@ -7,7 +7,7 @@
 
 ## Table of Contents
 
-1. [Card Layout)(#card-layout)
+1. [Card Layout](#card-layout)
 1. [The Basics](#the-basics)
 2. [Play Clues & Save Clues](#play-clues--save-clues)
 3. [Miscellaneous](#miscellaneous)
@@ -17,7 +17,24 @@
 
 ## Card Layout
 
-In this document, we will use screenshots to show examples of all the concepts introduced. Here's an example of a screenshot using the "Keldon-style" card lyout:
+In this guide, there will be some screenshots to show off the concepts introduced. Here's an example of a screenshot using the "BGA-style" card lyout:
+
+<img src="img/beginners/screenshot.png" height="300" />
+
+* The five **play stacks** are on the left.
+* The **player hands** are on the right.
+* Alice is always player 1. (She will always go first.)
+* Bob is always player 2. (He will always go second.)
+* Cards are drawn and added to the left side to each hand. Thus, Alice's newest card is the blue 1 and Bob's newest card is the red 1.
+* Conversely, the oldest card is the right-most card. Alice's oldest card is the blue 5 and Bob's oldest card is the red 5.
+* A card's *slot* referes to its position in the hand. In this screenshot, the red 1 is on slot 1, the red 2 is on slot 2, the red 3 is on slot 3, and so forth. The blue 1 is on slot 1, the blue 2 is on slot 2, the blue 3 is on slot 3, and so forth.
+
+<img src="img/beginners/screenshot2.png" height="300" />
+
+* When a card has one or more clues on it, a yellow border will appear around the card. The blue 1 and the red 1 will now have permanent yellow borders around them (until they are played or discarded).
+* The arrows indicate the specific cards that are "touched" by the last clue that was given.
+
+<br />
 
 ## The Basics
 
@@ -25,29 +42,85 @@ In this document, we will use screenshots to show examples of all the concepts i
 
 * The right-most unclued card is called the "chop" card.
 * When a player needs to discard, they should discard their chop card.
-
-
-
   * Unless of course, they happen to have a clued card that is known useless - then they should discard the known useless card.
 * In this way, everyone discards in a predicable way.
 
+<img src="img/beginners/chop.png" height="300" />
+
+* In the above screenshot:
+  * Alice's chop card is the red 5 (on slot 5).
+  * Bob's chop card is the red 3 (on slot 5).
+
+<img src="img/beginners/chop2.png" height="300" />
+
+* In the above screenshot:
+  * Alice's chop card is the blue 4 (on slot 4).
+  * Bob's chop card is the blue 4 (on slot 2).
+
+<br />
+
 ### Good Touch Principle
 
-* When we clue a card, we refer to the card as being "touched" by the clue.
-* When cluing cards, we follow *Good Touch Principle* - this means that we DO NOT want to touch any cards that have **already been played** or are **already clued in someone else's hand**. Touching these cards would be a *Bad Touch*.
+* When a clue is given, the cards that are "touched" by the clue are highlighted by arrows.
+* When cluing cards, we follow *Good Touch Principle* - this means that we **do not** want to touch any cards that have **already been played** or are **already clued in someone else's hand**. Touching these cards would be a *Bad Touch*.
 * Because of *Good Touch Principle*, players can generally assume that any clued card in their hand will be eventually be played.
 * *Good Touch Principle* is a powerful building block for logic and reasoning. If everyone only touches good cards, then players can greatly narrow down the possibilities for all of the clued cards in their hand!
 
+<img src="img/beginners/good_touch_principle.png" height="300" />
+
+* In the above screenshot:
+  * Alice wants to give a *Play Clue* to the yellow 2.
+  * Alice has a choice between cluing yellow and cluing number 2.
+  * If she clues number 2, it would uniquely touch the yellow 2 on slot 1.
+  * If she clues yellow, then it would touch slot 1, slot 2, and slot 3. This clue would violate *Good Touch Principle*, as the yellow 4's would be duplicated in Bob's hand.
+  * Thus, the correct clue for Alice to give is number 2.
+
+<img src="img/beginners/good_touch_principle2.png" height="300" />
+
+* In the above screenshot:
+  * Alice has an unknown purple card in her hand.
+  * Bob's hand is not important, so it is blacked out.
+  * Alice can see that the purple stack is played up to purple 4. The only other useful purple card left is the purple 5.
+  * Alice also knows that according to *Good Touch Principle*, every clued card will be eventually be played.
+  * Thus, by process of elimination, she can reason that the unknown purple card in her hand must be purple 5, and she can immediately play it.
+
+<br />
+
 ### Single Card Focus
 
-* In some Hanabi groups, when a bunch of cards are clued, there is no agreed-upon definition of what you should do. In our group, we don't want there to be any guesswork - we all agree on a system that specifies **exactly** what a clue means so that everyone is always on the same page. Let's go through the system.
-* If only one card is touched, then the clue is (obviously) talking about that card.
-* If two or more cards are touched, then **the clue is focused on a single card - the brand new card introduced**. **Nothing is implied about the non-focused cards** (beyond that they will be useful at some point later on, which follows from *Good Touch Principle*). 
-* If there are multiple brand new cards introduced, then:
-  * If the chop card was introduced, then the **focus of the clue is on the chop**. (This is the *Chop Focus* convention.)
-  * Otherwise, the **focus of the clue is on the left-most card**.
-* If there are no brand new cards introduced, then:
-  * The **focus of the clue is on the left-most card**.
+* In some Hanabi groups, when a bunch of cards are clued, there is no consistent definition of what you should do.
+* In our group, we don't want there to be any guesswork - we all agree on a system that specifies **exactly** what a clue means so that everyone is always on the same page.
+
+#### The System
+
+* If two or more cards are touched, then **the clue is only focused on a single card** (meaning that it is either a *Play Clue* or a *Save Clue* on the focused card).
+* **Nothing is implied about the non-focused cards** (beyond that they will be useful at some point later on, which follows from *Good Touch Principle*). 
+* So, how do you know which card is focused?
+  * The focus is always on the card that did not have any clues on it already. (We refer to this as the "brand new card introduced".)
+  * If there are multiple "new" cards, then:
+    * If the chop card is a "new" card, then the **focus is on the chop**.
+    * Otherwise, the **focus is on the left-most card**.
+
+#### Examples
+
+<img src="img/beginners/single_focus.png" height="150" />
+
+* In the above screenshot, Alice clues blue to Bob.
+* If only one card is touched by a clue, then the clue is (obviously) talking about that one card.
+* Thus, the focus of the clue is blue 1. This is a *Play Clue* on blue 1.
+
+<img src="img/beginners/single_focus2.png" height="150" />
+
+* In the above screenshot, Alice clues blue to Bob.
+* Before this clue, Bob's hand was completely unclued. So, with this clue, **two new cards were introduced** - the blue card on slot 2 and the blue card on slot 4.
+* Bob knows that in this situation, the focus of the clue is the left-most of the two new cards. Thus, similar to the last example, this is a *Play Clue* on blue 1.
+* From *Good Touch Principle*, Bob can reason that his other blue card on slot 4 is either blue 2, blue 3, blue 4, or blue 5. He will hold on to the card for later.
+
+<img src="img/beginners/single_focus3.png" height="150" />
+
+* In the above screenshot, Alice clues purple to Bob.
+* Before this clue, Bob's hand was completely unclued. So, with this clue, **three new cards were introduced** - slot 1, slot 2, and slot 5.
+* Before this clue, Bob's chop was slot 5. So, since the clue touched his chop and *Chop Focus* has priority, this must be a *Chop Focus Play Clue* on purple 1. Bob should play the slot 5 card as purple 1.
 
 <br />
 
@@ -138,7 +211,7 @@ In this document, we will use screenshots to show examples of all the concepts i
 
 ### Fix Clues
 
-* 99% of clues are either *Save Clues* or *Play Clues*. The remaining 1% are *Fix Clues,* which are attempting to "fix" an impending misplay.
+* 99% of clues are either *Save Clues* or *Play Clues*. The remaining 1% are *Fix Clues*, which are attempting to "fix" an impending misplay.
 * *Fix Clues* are often needed when a duplicate card is touched. (For example, when a red 2 is clued in Player A's hand, and the other red 2 is clued in Player B's hand.) Cards are not normally duplicated (which follows from *Good Touch Principle*), but sometimes someone makes a mistake, or a sequence of particular cards makes duplicating necessary.
 * In such a situation, because of *Good Touch Principle*, the players with the duplicate cards will assume their identity to be something else. This means that eventually, they will go on to misplay those cards. Therefore, it is the team's responsibility to fix the problem and intervene before this happens with a *Fix Clue*.
 * **A clue cannot be a *Play Clue* and a *Fix Clue* at the same time.** If you receive a *Fix Clue* and it touches other ancillary cards, none of them are necessarily playable; the primary point of the clue is to fix the impending misplay.
@@ -155,23 +228,19 @@ In this document, we will use screenshots to show examples of all the concepts i
 
 ### Prompts
 
-* Imagine that you have a card in your hand that has a clue on it, but the full identity of the card is currently unknown. In this situation, you are supposed to just keep the card in your hand and continue to discard unclued cards.
-* Now imagine that someone gives a *Play Clue* to a card that is one-away from being playable and the "in-between" card matches the clued card in your hand. Even though the clue happened to an entirely different player, the clue was a message to YOU that you should play the clued card. This is called a *Prompt* because it is "prompting" you to play a card that you would have otherwise held on to.
 * For example, in a 3-player game:
   * All the 2's have been played on the stacks.
+  * Bob has a clued red card in his hand, but the full identity of the card is still unknown to him. In this situation, he knows he is supposed to just keep the card in his hand and continue to discard unclued cards.
   * Alice clues a red 4 in Cathy's hand as a *Play Clue*.
-  * Bob has a card in his hand with a red clue on it, but no number information.
-  * Since Bob can see that the red 4 is supposed to play right now, he must have the red 3. So the unknown red card in his hand must be red 3, and he can safely play it.
+  * Bob sees that red 4 is currently unplayable, since the red 3 is not played yet. Thus, this clue implies that someone has the red 3.
+  * Bob does not see a red 3 clued in anyone else's hand. So, Alice must be promising him that his unknown red card is red 3 and that he can safely play it.
+* In this way, clues can deliver messages to an entirely different player than the person who actually received the clue.
+* We call this move a *Prompt* because it is "prompting" a player to play a card that they would have otherwise held on to for a while longer.
 * If a player is *Prompted* and there are multiple cards in the hand that the *Prompt* could apply to, they should play the left-most. For example, in a 3-player game:
   * Similar to the last example, Bob is *Prompted* for a red 3.
   * Bob has three different cards clued as red in slots 2, 3, and 4.
   * Since all 3 cards are equally likely to be red 3, Bob should choose to play the slot 2 card as red 3 since it is the left-most.
 * If a player is *Prompted* and they play the left-most card and it was not the matching card, then they should continue playing clued cards from left to right until they find the matching card. (They are promised that they have the matching card somewhere in their hand.)
-* In multi-color variants, *Prompts* apply to the card with the most positive information. For example, in a 3-player game:
-  * Similar to the last example, Bob is *Prompted* for a red 3.
-  * In slot 1, Bob has a card with only a red clue on it.
-  * In slot 2, Bob has a card with a red clue and a 3 clue on it.
-  * Since slot 2 has more positive information, Bob should choose to play slot 2 as red 3.
 
 ### Finesses
 

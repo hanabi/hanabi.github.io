@@ -109,6 +109,15 @@ Note that in this user interface, players are holding their hands like they woul
 
 ## Level 2 - Intermediate Strategies
 
+### Prompts in Multi-Color Variants
+
+* In multi-color variants, *Prompts* apply to the card with the most positive information.
+* For example, in a 3-player game:
+  * Similar to the last example, Bob is *Prompted* for a red 3.
+  * In slot 1, Bob has a card with only a red clue on it.
+  * In slot 2, Bob has a card with a red clue and a 3 clue on it.
+  * Since slot 2 has more positive information, Bob should choose to play slot 2 as red 3.
+
 ### The Prompt + Finesse
 
 * In general, remember that players will always assume *Prompts* over *Finesses*. Thus, is it possible to do a clue that *Prompts* a card from a player's hand and THEN gets them to blind-play their *Finesse Position* card on the next turn.
