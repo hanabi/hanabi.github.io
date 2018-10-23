@@ -240,7 +240,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
 * Furthermore, you might be tempted to **clue a card that already has a clue on it again to make it play right now**. We call this kind of clue a *Tempo Clue*.
 * *Tempo Clues* are quite inefficient (as the team is using two clues to get one card). Since *Tempo Clues* suck so bad, we say that players are **only allowed to perform them in certain special situations**, like when they a player is forced to give a clue.
 * So, if nothing special is going on, and you have a choice between giving a *Tempo Clue* and discarding, then you must discard.
-* We formally express this concept by saying that **all clues must meet *Minimum Clue Value Principle*** - each clue must get at least one brand new card saved or played. In other words, as a group, we hold ourselves to a high standard, and we don't give inefficient clues.
+* We formally express this concept as *Minimum Clue Value Principle*: **all clues must get at least one brand new card saved or played**. In other words, as a group, we hold ourselves to a high standard, and we don't give inefficient clues.
 
 ### Other General Strategy
 
