@@ -248,7 +248,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
 * What makes Hanabi so interesting is that there is never a one-size-fits-all prescription for a situation, so you always have to think everything through. With that said, you should know some basic tips.
 * In general, **don't be afraid of discarding**. If you discard something important, it won't be your fault - it is your teammates' responsibility to save any important cards.
 * In general, ***Play Clues* should be given over *Save Clues***. There's no need to give a *Save Clue* to someone if you can preoccupy them with playing a card!
-* In general, **color clues should be given over number clues**. Color clues are usually more specific to tell the player the exact identity of the card. But of course, don't be afraid to use number clues if it helps "fill in" other cards in the hand.
+* In general, **color clues should be given over number clues**. Color clues are usually more specific, telling the player the exact identity of the card. (But of course, don't be afraid to use number clues if it helps to "fill in" other cards in the hand.)
 
 <br />
 
