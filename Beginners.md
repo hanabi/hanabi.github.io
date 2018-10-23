@@ -170,7 +170,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
 
 <img src="img/beginners/critical_save.png" height="250" />
 
-* For the same reason that we need to save 5's, critical cards also need to be saved. (Critical cards are defined as cards that have the other copy discarded.)
+* For the same reason that 5's need to be saved, critical cards also need to be saved. (Critical cards are defined as cards that have the other copy discarded.)
 * Players can choose to save critical cards with either a color clue or a number clue.
 * In the above screenshot:
   * The current discard pile is shown to the right of the hands.
@@ -213,7 +213,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
   * Bob clues number 3 to Alice, which "fills in" the purple card and reveals that it is purple 3.
   * Since Alice was just about to play this card, Alice knows that this was a *Fix Clue* and that she can now safely discard the purple 3.
 
-<img src="img/beginners/fix_clue.png" height="300" />
+<img src="img/beginners/fix_clue2.png" height="300" />
 
 * **A clue cannot be a *Play Clue* and a *Fix Clue* at the same time.** If you receive a *Fix Clue* and it touches other ancillary cards, none of them are necessarily playable; the primary point of the clue is to fix the impending misplay.
 * In this screenshot:
