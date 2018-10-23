@@ -139,7 +139,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
   * All 5's
   * Unique 2's
   * Critical cards (meaning that the other copy is discarded)
-* Sometimes, a chop focus clue could be either a *Save Clue* or a *Play Clue*. When this happens, the *Save Clue* interpretation always takes priority - the receiving player would have to treat it like a potential *Save Clue*, and hang on to the card for the time being.
+* Sometimes, a *Chop Focus* clue could be either a *Save Clue* or a *Play Clue*. When this happens, the *Save Clue* interpretation always takes priority - the receiving player would have to treat it like a potential *Save Clue*, and hang on to the card for the time being.
 * The three kinds of *Save Clues* are listed below.
 
 #### 5 Saves
