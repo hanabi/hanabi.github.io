@@ -27,7 +27,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
 * Bob is always player 2. (He will always go second.)
 * Cards are drawn and added to the left side to each hand. Thus, Alice's newest card is the blue 1 and Bob's newest card is the red 1.
 * Conversely, the oldest card is the right-most card. Alice's oldest card is the blue 5 and Bob's oldest card is the red 5.
-* A card's *slot* referes to its position in the hand. In this screenshot, the red 1 is on slot 1, the red 2 is on slot 2, the red 3 is on slot 3, and so forth. The blue 1 is on slot 1, the blue 2 is on slot 2, the blue 3 is on slot 3, and so forth.
+* A card's *slot* referes to its position in the hand. In this screenshot, the blue 1 is on slot 1, the blue 2 is on slot 2, the blue 3 is on slot 3, and so forth. The red 1 is on slot 1, the red 2 is on slot 2, the red 3 is on slot 3, and so forth.
 
 <img src="img/beginners/screenshot2.png" height="300" />
 
