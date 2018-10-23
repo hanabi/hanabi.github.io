@@ -17,7 +17,7 @@
 
 ## Card Layout
 
-In this guide, there will be some screenshots to show off the concepts introduced. Here's an example of a screenshot using the "BGA-style" card lyout:
+In this guide, there will be some screenshots to show off the concepts introduced. Here's an example of a screenshot using the "BGA-style" card layout:
 
 <img src="img/beginners/screenshot.png" height="300" />
 
