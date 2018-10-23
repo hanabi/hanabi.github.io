@@ -172,10 +172,6 @@ In this guide, there will be some screenshots to show off the concepts introduce
 * For example, if Alice was clued about a bunch of 1's and then Bob is given a *Play Clue* on an unknown 2, **Bob must wait for Alice to play all of her 1's first** before playing the 2.
 * In other words, treat all *Play Clues* as potential *Delayed Play Clues*.
 
-#### Cluing 1's
-
-* If you need to clue a single 1, it is better to do it with a color clue than a number clue. This is because it allows them to potentially clue other 1's on the table.
-
 ### Clue Logic Flowchart
 
 * This is [a basic logic flowchart](https://cdn.discordapp.com/attachments/140016142600241152/266467290101317632/Hanabi_Clue_Flowchart.png) that describes the general interpretation of a clue.
