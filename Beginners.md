@@ -145,21 +145,43 @@ In this guide, there will be some screenshots to show off the concepts introduce
 
 #### 5 Saves
 
+<img src="img/beginners/5_save.png" height="150" />
+
 * Since there is only one copy of each 5, all of the 5's need to be saved so that they won't be discarded.
-* Always save a 5 with a number clue instead of a color clue. Otherwise, it will look like a *Play Clue* (or potentially a *Save Clue* on some other card that was already discarded).
+* In the above screenshot:
+  * Alice clues Bob number 5, which touches a single 5 on slot 5.
+  * Before this clue, Bob did not have any clued cards in his hand.
+  * Since the clue was focused on his chop, Bob knows that this must be a *5 Save* on the 5. It can be any 5 in the game.
+* 5's must be saved with a number clue instead of a color clue. (Otherwise, it will look like a *Play Clue*!)
 
 #### 2 Saves
 
+<img src="img/beginners/2_save.png" height="150" />
+
 * Even though there are two copies of each 2, we agree that they are so important that we must save them in a manner similar to 5's.
-* Similar to saving 5's, always save a 2 with a number clue instead of a color clue.
-* Players are not allowed to perform a *2 Save* on a 2 if that same 2 is visible in someone else's hand.
-  * The one exception to this is if the same 2 is on two people's chops at the same time. In that situation, players are allowed to *2 Save* whichever one they want.
+* In the above screenshot:
+  * Alice clues Bob number 2, which touches a 2 on slot 3 and slot 5.
+  * Before this clue, Bob did not have any clued cards in his hand.
+  * Since the clue was focused on his chop, Bob knows that this must be a *2 Save* on the 2. It can be any 2 in the game.
+* Similar to 5's, 2's must be saved with a number clue instead of a color clue.
+* You can think of the *2 Save* as a last-resort to save a 2. Thus, players are not allowed to perform a *2 Save* on a 2 if that same 2 is visible in someone else's hand.
+  * The exception to this rule is when the same 2 is on two people's chops at the same time. In that situation, players are allowed to *2 Save* whichever one they want.
 
 ##### Critical Saves
 
-* For the same reason that we need to save 5's, critical cards also need to be saved.
+<img src="img/beginners/critical_save.png" height="300" />
+
+* For the same reason that we need to save 5's, critical cards also need to be saved. (Critical cards are defined as cards that have the other copy discarded.)
 * Players can choose to save critical cards with either a color clue or a number clue.
-  * Thus, when players get a clue that touches the chop card, they should always double check the discard pile to see if there are any cards that could possibly match.
+* In the above screenshot:
+  * The current discard pile is shown to the right of the hands.
+  * Alice clues Bob yellow, which touches a card on slot 4.
+  * Before this clue, the only clued card in Bob's hand was the 5 on slot 5.
+  * This could be a *Play Clue* on the yellow 2. However, since the clue was focused on his chop, this could also be a *Save Clue*.
+  * Bob looks through the discard pile and finds that there is a yellow 4 there. Thus, this could be a *Save Clue* on the yellow 4. *Save Clues* take precedence over *Play Clues*, so Bob knows that for now, he has to hold on to the card.
+  * Bob marks the card as either a yellow 2 or a yellow 4, so that he can keep track of it for later. Then, he discards.
+
+<br />
 
 ### Play Clues
 
@@ -182,15 +204,32 @@ In this guide, there will be some screenshots to show off the concepts introduce
 ## Fix Clues
 
 * 99% of clues are either *Save Clues* or *Play Clues*. The remaining 1% are *Fix Clues*, which are attempting to "fix" an impending misplay.
-* *Fix Clues* are often needed when a duplicate card is touched. (For example, when a red 2 is clued in Player A's hand, and the other red 2 is clued in Player B's hand.) Cards are not normally duplicated (which follows from *Good Touch Principle*), but sometimes someone makes a mistake, or a sequence of particular cards makes duplicating necessary.
-* In such a situation, because of *Good Touch Principle*, the players with the duplicate cards will assume their identity to be something else. This means that eventually, they will go on to misplay those cards. Therefore, it is the team's responsibility to fix the problem and intervene before this happens with a *Fix Clue*.
+* *Fix Clues* are often needed when a duplicate card is touched. Cards are not normally duplicated (which follows from *Good Touch Principle*), but sometimes someone makes a mistake, or a sequence of particular cards makes duplicating necessary. Duplicate cards will lead to misplays, so it is the team's responsibility to fix the problem and intervene before this happens.
+
+<img src="img/beginners/fix_clue.png" height="300" />
+
+* In this screenshot:
+  * Before the clue was given, Alice had an unknown purple card in her hand.
+  * From *Good Touch Principle*, Alice concluded that her card must be purple 5, and had planned to play it as soon as possible.
+  * Bob clues number 3 to Alice, which "fills in" the purple card and reveals that it is purple 3.
+  * Since Alice was just about to play this card, Alice knows that this was a *Fix Clue* and that she can now safely discard the purple 3.
+
+<img src="img/beginners/fix_clue.png" height="300" />
+
 * **A clue cannot be a *Play Clue* and a *Fix Clue* at the same time.** If you receive a *Fix Clue* and it touches other ancillary cards, none of them are necessarily playable; the primary point of the clue is to fix the impending misplay.
+* In this screenshot:
+  * Before the clue was, Alice has an unknown 1 in her hand.
+  * From *Good Touch Principle*, Alice concluded that her 1 must be green 1, and had planned to play it as soon as possible.
+  * Bob clues blue to Alice, which "fills in" the 1 and reveals that it is blue 1. The blue clue also touches a blue card on slot 1.
+  * In this situation, Alice might be tempted to think that this is a *Play Clue* on a blue 2 in slot 1, especially considering that the slot 1 card was the only brand new card introduced in the clue (and that the focus of a clue should always be on the brand new card introduced).
+  * However, the fact that the blue clue "fixed" an impending misplay means that Bob may have had no choice but to clue blue, and he may not be necessarily trying to give a play clue.
+  * Alice marks the blue card as either blue 2, blue 3, blue 4, or blue 5, and discards the blue 1.
 * Usually a *Fix Clue* will "fill in" the card to explicitly make it known that the card is unplayable or duplicated. However, it is also possible to perform a *Fix Clue* just by cluing the card again. For example:
   * Alice clues Bob number 1 and it touches three 1's.
   * Bob successfully plays two 1's.
   * Before Bob can play the 3rd 1, Alice clues Bob number 1 again, and all the clue does is re-touch the remaining 1.
   * Now it is Bob's turn. Since he was going to play the 1 already without Alice doing anything, the clue must have some other meaning. Thus, it is a *Fix Clue*: the remaining 1 is bad, and Bob can safely discard it.
-* Finally, note that in general, giving a *Fix Clue* should wait until the card is actually in danger of being misplayed (like in the previous example). If a duplicated card is not in danger of being misplayed anytime soon, then players should defer giving the *Fix Clue* until later. This way, it gives the player a chance to figure out the duplication on their own, which can happen from time to time.
+* Note that in general, giving a *Fix Clue* should wait until the card is actually in danger of being misplayed (like in the previous example). If a duplicated card is not in danger of being misplayed anytime soon, then players should defer giving the *Fix Clue* until later. This way, it gives the player a chance to figure out the duplication on their own, which can happen from time to time.
 
 <br />
 
