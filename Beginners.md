@@ -271,7 +271,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
 
 <img src="img/beginners/prompt4.png" height="300" />
 
-* The *Prompt* is a PROMISE that the player has the connecting card. A *Prompt* cannot be a lie!
+* The *Prompt* is a **promise** that the player has the connecting card. **A *Prompt* cannot be a lie!**
 * In the above screenshot:
   * Bob has three separate unknown 3's in his hand.
   * Alice clues red to Bob, which touches the red 4. This is a *Play Clue* on the red 4.
