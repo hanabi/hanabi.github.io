@@ -62,8 +62,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
 ### Good Touch Principle
 
 * When a clue is given, the cards that are "touched" by the clue are highlighted by arrows.
-* When cluing cards, we follow *Good Touch Principle* - this means that we **do not** want to touch any cards that have **already been played** or are **already clued in someone else's hand**. Touching these cards would be a *Bad Touch*.
-* Because of *Good Touch Principle*, players can generally assume that any clued card in their hand will be eventually be played.
+* When cluing cards, we follow *Good Touch Principle* - this means that **we only want to touch cards that will eventually be played**. So, if someone touches a card that is already played on the stacks or a card that is already clued in someone else's hand, then that would be a *Bad Touch*.
 * *Good Touch Principle* is a powerful building block for logic and reasoning. If everyone only touches good cards, then players can greatly narrow down the possibilities for all of the clued cards in their hand!
 
 <img src="img/beginners/good_touch_principle.png" height="300" />
