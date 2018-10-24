@@ -95,7 +95,7 @@ Admittedly, this can be a little clunky for players who don't want to figure out
 
 The best aspect of Board Game Arena is the large number of players. And the ELO system, for better or worse, does a pretty good job of motivating players to keep playing. The fact of the matter is that there will never be as many players on Hanabi Live as there are on BGA - not even close. On Hanabi Live, often times there will be no-one around when you are interested in getting a game going. So, that can be an annoying part of playing here. (For this reason, some people in our group also dabble on BGA!)
 
-What is the flipside of not having very many members? Better cohesion, aided by discussion. When you are able to get a crew together, your games will probably be more fulfilling and in-depth than on Board Game Arena.
+What is the flipside of not having very many members? Better cohesion, aided by discussion. When you are able to get a crew together, your games will potentially be more fulfilling and in-depth than on Board Game Arena.
 
 #### Extra Conventions and Extra Complexity
 
@@ -107,13 +107,9 @@ We know that for people who really like Hanabi, it will be worth the extra effor
 
 #### Conclusion
 
-Why play games with my group? If you are a Hanabi perfectionist, you'll be happy: the goal is to always play a perfect game with no mistakes. If you are a Hanabi theorist, you'll be happy: if someone thinks up a better way to do things, we are always open to refining our conventions by adding new ones (or deleting existing ones). If you're a Hanabi enthusiast, you'll be happy: we strive to push the game to the limits.
+As a concluding note, I should say that I am not necessarily advocating that anyone completely "converts" away from BGA, like it is some kind of religion. Rather, feel free to experiment and play on both platforms! It is absolutely possible to switch back and forth between convention frameworks. You can think of this as similar to a bilinguial person switching from Spanish to French - you don't necessarily have to choose between the two.
 
-But maybe that's going overboard. Maybe a better description is that we are just a bunch of people who play Hanabi occasionally and really like it, and anyone is free to join us.
-
-#### Duality
-
-As a concluding note, I should say that I am NOT necessarily advocating that anyone completely "converts" away from BGA, like it is some kind of religion. Rather, feel free to experiment and play on both platforms! It is absolutely possible to switch back and forth between convention frameworks. You can think of this as similar to a bilinguial person switching from Spanish to French - you don't necessarily have to choose between the two.
+With that said, my group always needs new players, so we are always happy to welcome BGA players and Hanabi enthusists alike. I hope you'll give it a try.
 
 <br />
 
