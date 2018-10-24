@@ -151,9 +151,9 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
   * This "1" clue is ONLY giving an action to Alice, since Bob and Cathy are already loaded.
   * In this case, Alice does not need to perform any addition or subtraction. Since only one action is encoded in the clue, Bob is directly telling Alice to play slot 1.
 
-### Last Player Freedom
+### Final Freedom
 
-* The last player instructed by a clue can do something else than what was clued to them.
+* The final player instructed by a clue can do something else than what was clued to them.
 * Most commonly, they can give a clue when they are instructed to discard, if they think that is more valuable.
   * This is almost always good if the next player has a playable card in their hand.
 * They can also clue instead of playing a card. This is only advisable if they know which card they are playing (which is rare, but possible).
@@ -175,7 +175,7 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 
 * If a player has no playable cards, you have to decide whether they should discard or give a clue. 
 * In general, we want to discard aggressively, because then we can give more efficient clues.
-* You should *always* tell the last player to discard if they have a safe discard. They can always ignore it by *Last Player Freedom*.
+* You should *always* tell the last player to discard if they have a safe discard. They can always ignore it if they want with their *Final Freedom*.
 * For the other players, you should tell them to discard unless the pace is too low. You should tell them to clue if `pace ≤ 2`. In very hard variants you can tell them to clue if `pace ≤ 1`.
 
 ### Discard Priority
