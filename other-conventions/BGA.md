@@ -149,10 +149,10 @@ If you're reading this far, you'll want to know some of the basic differences be
 * On BGA, the focus can either be on the "brand new" card, or a card that is "filled in". Typically, if a filled in card looks like it is playable, then that is the focus. For example, in a Rainbow game:
   * Red 1 is played on the stacks.
   * Alice has a card in her hand clued with number 2.
-  * Bob clues Alice red, filling in the 2 with red and also introducing a brand new card on her newest slot.
+  * Bob clues Alice red, filling in the 2 with red and also touching a brand new card on her newest slot.
   * Alice plays the "filled-in" card as the focus of the clue, and holds on to the other red card for later.
 * Furthermore, on BGA, clues given similar to the one in the example above can ALSO mean to play both cards, depending on the situation. (e.g. Alice plays red 2 and then plays red 3.)
-* In my group, **the focus of the clue is always on the brand new card introduced**. In the previous example, Alice should play her newest card as either red 2 or rainbow 1. She is promised nothing about her other red card, meaning that it can be either red 2 or rainbow 2.
+* In my group, **the focus of the clue is always on card that did not have any clues on it already**. (We refer to this as the **the brand new card introduced**.) In the previous example, Alice should play her newest card as either red 2 or rainbow 1. She is promised nothing about her other red card, meaning that it can be either red 2 or rainbow 2.
 * Why do this? Having this convention makes it extremely clear exactly what card is being talked about in almost all situations - **no guesswork involved**.
 
 ### Chop Focus - Added
