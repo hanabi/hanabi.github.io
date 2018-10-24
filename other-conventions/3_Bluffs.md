@@ -6,7 +6,7 @@ One of the players said to the other three: "Why, we are so good at Hanabi that 
 
 This sounded like a good idea. Another player said, "Why yes! We should come up with some sort of tool to allow us the ability to save more 3's at the beginning of the game. What about implementing a *3 Saves* convention, similar to the *2 Saves* convention?
 
-The first player replied, "Well, that does not sound very good, as it would remove the ability to give *Play Clues* (and *Finesses*) a in a lot of circumstances. We should probably find something else."
+The first player replied, "Well, that does not sound very good, as it would remove the ability to give *Play Clues* (and *Finesses*) in a lot of circumstances. We should probably find something else."
 
 The second player had a better idea. "Well, what about if we just extended the *Bluff* convention by agreeing that any *Bluff* can either be a one-away card or a 3. That would be relatively simple."
 
