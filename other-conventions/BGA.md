@@ -163,10 +163,10 @@ If you're reading this far, you'll want to know some of the basic differences be
   * If one of the new cards introduced was on the chop, then it is a *Chop Focus Play Clue*.
   * Otherwise, it is a *Left-most Play Clue*.
 * Why do this? For multiple reasons:
-  * Without this convention, it takes more than one clue to give a play clue on the chop card.
+  * Without this convention, it takes more than one clue to give a *Play Clue* to a chop card.
   * This convention compliments *Finesses*. (Our group has a wide variety of *Finesses* and *Bluffs*, so it is easy to "get" fresh cards, but more difficult to "get" cards on chop.)
   * Consider the situation where all critical 4s are currently playable and a player recieves a number 4 clue on newest + chop. On BGA, the focus of the clue is ambiguous. In my group, you can always play chop.
-* Don't worry - having *Chop Focus* turned on does not limit your options as much as you would think. With good players, you can often give a BGA-style clue that is NOT meant to be *Chop Focus*, and the other players will be able to figure it out from the negative information on the card or the context of the game. (We call this *Focus Inversion*.)
+* Don't worry - having *Chop Focus* turned on does not limit your options as much as you would think. With good players, you can often give a BGA-style clue that is NOT meant to be *Chop Focus*, and the other players will be able to figure it out from the negative information on the card or the context of the game. (We call this *Focus Inversion*, but let's not go into too much detail on that right now.)
 
 ### Color Saves - Changed
 
