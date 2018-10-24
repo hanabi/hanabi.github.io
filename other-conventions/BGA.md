@@ -221,7 +221,7 @@ Ok, so you've made it this far. The changes so far probably sound pretty strange
 * On BGA, if you discard with a known playable card, it is usually a "danger" signal - the next person has something important on chop. So, the next person will give a stall clue, and then the important card in question will be explicitly saved by someone else on the next go-around of the table.
 * In my group, we give this move a name - the *Scream Discard*. This is because when you do it, it is like you are screaming at the next player.
 * Furthermore, in my group, we don't bother wasting a clue to explicitly save the card. The player is expected to *Chop Move* the card forever.
-* Why do this? Well, it is obviously more efficient to not have to waste clues on critical cards that are not currently playable anyway.
+* Why do this? It is more efficient to not have to waste clues on critical cards that are not currently playable.
 
 ### The 5's Chop Move - Added
 
