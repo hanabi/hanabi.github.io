@@ -283,7 +283,7 @@ These are conventions that we don't typically turn on for new players, but we do
 
 ### 3 Bluffs - Added
 
-* On BGA, cards that are touched to initiate a *Bluff* are typically known to be one-away from being playable. (There is also a more complex interpretation that I won't go into.)
+* On BGA, cards that are touched to initiate a *Bluff* are typically known to be one-away from being playable. (There is also a more complex interpretation called a *Promise Bluff* that I won't go into.)
 * In my group, we arbitrarily agree that any card used to initiate a *Bluff* can be either a one-away card OR a 3.
 * To be clear, you are allowed to *3 Bluff* with either color or number.
 * This is one of the more arbitrary and tricky conventions that we have, so it will take a few games to get used to.
