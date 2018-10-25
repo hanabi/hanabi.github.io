@@ -196,7 +196,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
 
 ### Clue Logic Flowchart
 
-* This is [a basic logic flowchart](https://cdn.discordapp.com/attachments/140016142600241152/266467290101317632/Hanabi_Clue_Flowchart.png) that describes the general interpretation of a clue.
+* For reference, this is [a basic logic flowchart](https://cdn.discordapp.com/attachments/140016142600241152/266467290101317632/Hanabi_Clue_Flowchart.png) that describes the general interpretation of a clue.
 
 <br />
 
