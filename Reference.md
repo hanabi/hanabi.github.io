@@ -889,7 +889,7 @@ This section is unique in that it contains things that are separate from actual 
 
 ## Level 4 - Expert Strategies
 
-### The Occupied Play Clue & The Occupied Finesse (OPC / O.P.C.)
+### The Occupied Play Clue & The Occupied Finesse (O.P.C. / OPC)
 
 * If a clue could be given by multiple players, who should give the clue? Usually, it makes the most sense for the players with playable cards to play those cards, and the players with nothing to do to give the clue.
 * If someone gives a clue with a playable card in their hand and forces the next player to have nothing to do, this is bad teamwork - unless there was a reason!
@@ -1500,7 +1500,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 * Similar to a *Patch Finesse*, a *Gentleman's Discard* can also contain a *Patch Component*.
 
-### The Reverse Bluff / The Out-of-Position Bluff (bad)
+### The Reverse Bluff / The Out-of-Position Bluff (O.O.P. / OOP) (bad)
 
 * Similar to a *Reverse Finesse*, it is possible to perform a *Reverse Bluff*. However, according to *Good Lie Principle*, you are only allowed to lie to the player who comes immediately after you, so this is illegal.
   * Why this policy? It is not possible to play with both *Layered Finesses* and *Reverse Bluffs* at the same time, and *Layered Finesses* are much better.
