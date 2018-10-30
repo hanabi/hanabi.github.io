@@ -477,9 +477,9 @@ This section is unique in that it contains things that are separate from actual 
 * For all of your subsequent turns, you have to treat that card like it is **all of the possibilities** at the same time. This is a lot like the *Schrodinger's Cat* quantum physics analogy, which states a cat is both alive and dead at the same time, and you won't know until you actually open the box and look. Similarly, treat the unknown card as all the possibilities, and you won't actually know until the card is played.
 * The implications of *Schrodinger's Cat Principle* is that players must be very careful - before playing a card, they will often have to wait for everyone else to have a turn to allow for the possibility of a *Prompt*, *Reverse Finesse*, and so forth.
 
-### Occam's Razor
+### Clue Interpretation Priority & Occam's Razor
 
-* When a clue could have multiple interpretations, usually *Schrodinger's Cat Principle* is involved - players must wait and see what their teammates do. But what if a clue could have multiple interpretations and a player does NOT have to wait for information from anyone else?
+* When a clue could have multiple interpretations, usually *Schrodinger's Cat Principle* is involved - players must wait a round and see what their teammates do in order to find out the true meaning of the clue. But what if a clue could have multiple interpretations and a player does NOT have to wait for information from anyone else?
 * In this situation, players should use *Occam's Razor* - always assume the simpliest possible interpretation:
   * First, assume a *Play Clue* or a *Delayed Play Clue*.
   * If that is impossible, assume a *Prompt*.
