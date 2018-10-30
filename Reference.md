@@ -475,12 +475,16 @@ This section is unique in that it contains things that are separate from actual 
   * In a rainbow-game, a red clue might indicate either a *Play Clue* on a red 1 or a *Delayed Play Clue* on a rainbow 2 through another player's yet-to-be-played rainbow 1.
 * After getting a clue, you should immediately mark all of the possibilities down on the card as a note.
 * For all of your subsequent turns, you have to treat that card like it is **all of the possibilities** at the same time. This is a lot like the *Schrodinger's Cat* quantum physics analogy, which states a cat is both alive and dead at the same time, and you won't know until you actually open the box and look. Similarly, treat the unknown card as all the possibilities, and you won't actually know until the card is played.
+* The implications of *Schrodinger's Cat Principle* is that players must be very careful - before playing a card, they will often have to wait for everyone else to have a turn to allow for the possibility of a *Prompt*, *Reverse Finesse*, and so forth.
 
 ### Occam's Razor
 
-* Sometimes, clues can have multiple interpretations. For some moves, we make it a point to explicitly define the priority in order to avoid confusion. For example, we say that *Prompts* take precedence over *Finesses*.
-* For other situations, there is no explicitly defined priority. For example, a clue could mean either a *Self-Finesse* or a *Self-Prompt* + *Finesse*. In these cases, *Occam's Razor* applies, meaning that you can slice away all the more complicated interpretations and simply assume the least-complex one. In this case, a single *Finesse* is less complicated than a *Finesse* + *Prompt*, so the former interpretation would be assumed.
-* It is important to not confuse *Occam's Razor* with *Schrodinger's Cat Principle* - you almost always have to allow for *Prompts*, *Reverse Finesses*, and so forth. But when you are not waiting on any information from other player's actions, then *Occam's Razor* does apply.
+* When a clue could have multiple interpretations, usually *Schrodinger's Cat Principle* is involved - players must wait and see what their teammates do. But what if a clue could have multiple interpretations and a player does NOT have to wait for information from anyone else?
+* In this situation, players should use *Occam's Razor* - always assume the simpliest possible interpretation:
+  * First, assume a *Play Clue* or a *Delayed Play Clue*.
+  * If that is impossible, assume a *Prompt*.
+  * If that is impossible, assume a *Finesse*.
+  * If that is impossible, assume a *Bluff*.
 
 ### Team Distribution Principle
 
