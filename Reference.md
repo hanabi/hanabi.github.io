@@ -1118,7 +1118,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ## Level 3 - Variant-Specific Strategies
 
-### Hard Various & Easy Variants
+### Hard Variants & Easy Variants
 
 * We define "hard" variants as variants that demand an enormous amount of efficiency. The following variants are defined as hard:
   * *Black Suit (one of each)* - 5-player only
