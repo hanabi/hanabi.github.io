@@ -1508,10 +1508,11 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 * Similar to a *Reverse Finesse*, it is possible to perform a *Reverse Bluff*. However, according to *Good Lie Principle*, you are only allowed to lie to the player who comes immediately after you, so this is illegal.
   * Why this policy? It is not possible to play with both *Layered Finesses* and *Reverse Bluffs* at the same time, and *Layered Finesses* are much better.
-* However, you CAN break the *Bluff Seat* rule if either of the following is true:
-  1) the next player is at 0 clues (and won't blind-play anything)
-  2) the next player has negative information on their entire hand (so that they know they do not have the correct card)
-* Essentially, if either of these is true, then the player being passed over cannot actually act on their state of misinformation.
+* However, you CAN break the *Bluff Seat* rule if one of the following is true:
+  * 1) the next player is at 0 clues (and won't blind-play anything / will blind-play an unrelated card)
+  * 2) the next player will think that they have the *Bluffed* card in their own hand and will play something else (instead of *Finessing* or *Bluffing* the next player)
+  * 3) the next player has negative information on their entire hand (so that they know they do not have the correct card)
+* Essentially, #1 or #2 is true, then the next player cannot act on their state of misinformation. And if it is #3, then the next player will have full knowledge that a lie is occuring, so they will not mess anything up.
 * Since valid *Reverse Bluffs* are so rare, it is important to remember that a valid *Reverse Bluff* is distinct from a *Layered Finesse*, and that blind-playing should stop after the first blind-play. (This is a common mistake.)
 
 ### The Good Touch Bluff
