@@ -1124,8 +1124,8 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * *Black Suit (one of each)* - 5-player only
   * *Wild & Crazy* - 5-player only
   * *Rainbow Suit (one of each)* - 5 player-only
-  * *Black & Rainbow (one of each* - 3-player, 4-player, and 5-player
-* In hard variants, we make several alterations:
+  * *Black & Rainbow (one of each)* - 3-player, 4-player, and 5-player
+* In hard variants, some changes are made to the conventions:
   * Players are not allowed to *Double Discard Avoid*. Any clue given in a *Double Discard* situation will instead be treated like a normal clue.
   * Players are not allowed to *5 Stall* in the *Early Game*. Any clue that looks like a *5 Stall* is instead treated as either a *5's Chop Move* or a *5 Pull*.
   * Players are not required to clue anything in the *Early Game*; they are allowed to initiate the *Mid-Game* whenever they see fit.
