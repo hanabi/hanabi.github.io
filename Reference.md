@@ -1118,6 +1118,18 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ## Level 3 - Variant-Specific Strategies
 
+### Hard Various & Easy Variants
+
+* We define "hard" variants as variants that demand an enormous amount of efficiency. The following variants are defined as hard:
+  * *Black Suit (one of each)* - 5-player only
+  * *Wild & Crazy* - 5-player only
+  * *Rainbow Suit (one of each)* - 5 player-only
+  * *Black & Rainbow (one of each* - 3-player, 4-player, and 5-player
+* In hard variants, we make several alterations:
+  * Players are not allowed to *Double Discard Avoid*. Any clue given in a *Double Discard* situation will instead be treated like a normal clue.
+  * Players are not allowed to *5 Stall* in the *Early Game*. Any clue that looks like a *5 Stall* is instead treated as either a *5's Chop Move* or a *5 Pull*.
+  * Players are not required to clue anything in the *Early Game*; they are allowed to initiate the *Mid-Game* whenever they see fit.
+
 ### Black 2 & Black 5 Saves
 
 * This convention applies to the *Black Suit (one of each)* and *Wild & Crazy* variants.
@@ -1218,7 +1230,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * However, 5-player *Wild & Crazy* is extremely difficult. Thus, we have slightly altered some conventions to be more "aggressive" in this game type:
   1) No *Crazy 3 Saves* and no *Crazy 4 Saves* – you must duplicate a rainbow card if you want to save a black 3 or black 4
   2) No Locked Hand Saves – locked players must perform a "hard burn" if they have no normal *Play Clues* or *Save Clues* or off-chop 5's to clue
-  3) Ending the *Early Game* – players may choose to not "extinguish" all of the available clues, especially if the last remaining clue is a 1-for-1
 * Besides these specific alterations, you should also account for the fact that the team will play more risky in general – more aggressive discards, more letting cards "ride" on chop, and so forth.
 
 ### Acid Trip Conventions
