@@ -4,8 +4,8 @@
 
 ### Introduction
 
-* As stated in the main document, our group generally only plays games with 3 to 5 players, since 2-player games can be quite boring. Thus, the conventions are not optimized for play with only 2-players.
-* With that said, it is possible to use the Hyphen-ated convention framework to also play 2-player games. While not commonly done, it is still perfectly functional.
+* As stated in the main document, our group generally only plays games with 3 to 5 players, since 2-player games can be quite boring. Thus, the *Hyphen-ated Conventions Framework* is **not optimized for play with only 2-players**.
+* With that said, it is possible to use the Hyphen-ated convention framework to also play 2-player games. While not commonly done, it is still perfectly functional, and it is almost always possible to get a perfect scores with expert players.
 * This document provides some extra conventions that are used by our group while playing 2-player games.
 
 ### The Flush Clue (A Slot 1 Color Clue)
