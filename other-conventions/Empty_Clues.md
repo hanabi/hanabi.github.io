@@ -224,7 +224,7 @@
 
 <br />
 
-### 5-Player (with 4 color clues)
+### 4-Player or 5-Player (with 4 color clues)
 
 | # mod 5   | action          | type of clue
 | --------- | --------------- | -------------
