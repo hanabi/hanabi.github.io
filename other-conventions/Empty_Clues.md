@@ -44,12 +44,12 @@
 
 | # mod 6    | action          | type of clue
 | ---------- | --------------- | -------------
-| 0 (6, 12)  | clue or discard | green or red
+| 0 (6, 12)  | clue or discard | red or purple/black
 | 1 (7, 13)  | play 1          | number 1 or blue
-| 2 (8, 14)  | play 2          | number 2
+| 2 (8, 14)  | play 2          | number 2 or green
 | 3 (9, 15)  | play 3          | number 3 or yellow
 | 4 (10, 16) | play 4          | number 4
-| 5 (11, 17) | chop move       | number 5 or purple/black
+| 5 (11, 17) | chop move       | number 5
 
 * The chop move in action 5 is only allowed if the player has:
   * a globally-known critical card on chop
@@ -228,8 +228,8 @@
 
 | # mod 5   | action          | type of clue
 | --------- | --------------- | -------------
-| 0 (5, 10) | clue or discard | number 5 or color 4
+| 0 (5, 10) | clue or discard | number 5
 | 1 (6, 11) | play 1          | number 1 or color 1
 | 2 (7, 12) | play 2          | number 2 or color 2
 | 3 (8, 13) | play 3          | number 3 or color 3
-| 4 (9, 14) | play 4          | number 4
+| 4 (9, 14) | play 4          | number 4 or color 4
