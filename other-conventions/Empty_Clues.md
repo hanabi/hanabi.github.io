@@ -51,7 +51,7 @@
 | 4 (10, 16) | play 4          | number 4
 | 5 (11, 17) | chop move       | number 5
 
-* The chop move in action 5 is only allowed if the player has:
+* The chop move action is only allowed to be given to a player if BOTH of the following are true:
   * a globally-known critical card on chop
   * no new playable cards in their hand to "get" (which includes non-*Prompted* cards that have clues on them already)
 * The player receiving the chop move action can clue or discard, just like action 0.
