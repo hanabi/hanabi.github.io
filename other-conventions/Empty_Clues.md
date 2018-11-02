@@ -233,3 +233,15 @@
 | 2 (7, 12) | play 2          | number 2 or color 2
 | 3 (8, 13) | play 3          | number 3 or color 3
 | 4 (9, 14) | play 4          | number 4 or color 4
+
+<br />
+
+### 3-Player (with 4 color clues)
+
+| # mod 5   | action          | type of clue
+| --------- | --------------- | -------------
+| 0 (5, 10) | play 5          | number 5
+| 1 (6, 11) | play 1          | number 1 or color 1
+| 2 (7, 12) | play 2          | number 2 or color 2
+| 3 (8, 13) | play 3          | number 3 or color 3
+| 4 (9, 14) | play 4          | number 4 or color 4
