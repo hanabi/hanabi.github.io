@@ -207,4 +207,4 @@
 * The chop move in action 5 is only allowed if the player has:
   * a globally-known critical card on chop
   * no new playable cards in their hand to "get" (which includes non-*Prompted* cards that have clues on them already)
-* The player receiving this action can clue or discard, just like action 0.
+* The player receiving the chop move action can clue or discard, just like action 0.
