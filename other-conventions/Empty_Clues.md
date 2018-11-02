@@ -55,6 +55,8 @@
   * no new playable cards in their hand to "get" (which includes non-*Prompted* cards that have clues on them already)
 * The player receiving the chop move action can clue or discard, just like action 0.
 
+<br />
+
 ## Empty Target Priority
 
 * If a player has two or more playable cards, the priority is as follows:
