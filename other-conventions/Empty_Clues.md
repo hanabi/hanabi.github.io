@@ -10,7 +10,6 @@
 4. [Basic Description](#basic-description)
 5. [Dealing with Edge Cases](#dealing-with-edge-cases)
 6. [Special Empty Moves](#special-empty-moves)
-7. [Alternate Clue Interpretation Tables](#alternate-clue-interpretation-tables)
 
 <br />
 
@@ -28,7 +27,7 @@
 
 <br />
 
-### 4-Player and 5-Player
+### 4-Player
 
 | # mod 5   | action          | type of clue
 | --------- | --------------- | -------------
@@ -39,6 +38,22 @@
 | 4 (9, 14) | play 4          | number 4 or red
 
 <br />
+
+### 5-Player
+
+| # mod 6    | action          | type of clue
+| ---------- | --------------- | -------------
+| 0 (6, 12)  | clue or discard | green or yellow
+| 1 (7, 13)  | play 1          | number 1 or blue
+| 2 (8, 14)  | play 2          | number 2
+| 3 (9, 15)  | play 3          | number 3 or red
+| 4 (10, 16) | play 4          | number 4 or purple
+| 5 (11, 17) | chop move       | number 5 or black
+
+* The chop move in action 5 is only allowed if the player has:
+  * a globally-known critical card on chop
+  * no new playable cards in their hand to "get" (which includes non-*Prompted* cards that have clues on them already)
+* The player receiving the chop move action can clue or discard, just like action 0.
 
 ## Empty Target Priority
 
@@ -188,23 +203,3 @@
 * However, after the first blind-play, if the *Empty Finesse* is telling the 2nd player to play a strictly unplayable card, it must have been an *Empty Bluff*.
 * *Empty Bluffs* do not meet *Empty Minimum Value Clue Principle*, but they can be useful to get a 1-for-1 on a card that is otherwise blocked. Alternatively, they can be used to get a 1-for-1 on a card while also telling the other player that a particular card is exactly 1-away from being playable.
 * It is also possible to do a *Known Empty Bluff*, in which the blind-playing player knows that they are playing an unrelated card. In this situation, it would be the only way for the *Empty Clue* to make sense.
-
-<br />
-
-## Alternate Clue Interpretation Tables
-
-### 5-Player (Florrat's Alternate Proposal)
-
-| # mod 6    | action          | type of clue
-| ---------- | --------------- | -------------
-| 0 (6, 12)  | clue or discard | green or yellow
-| 1 (7, 13)  | play 1          | number 1 or blue
-| 2 (8, 14)  | play 2          | number 2
-| 3 (9, 15)  | play 3          | number 3 or red
-| 4 (10, 16) | play 4          | number 4 or purple
-| 5 (11, 17) | chop move       | number 5 or black
-
-* The chop move in action 5 is only allowed if the player has:
-  * a globally-known critical card on chop
-  * no new playable cards in their hand to "get" (which includes non-*Prompted* cards that have clues on them already)
-* The player receiving the chop move action can clue or discard, just like action 0.
