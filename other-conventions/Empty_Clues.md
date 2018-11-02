@@ -10,6 +10,7 @@
 4. [Basic Description](#basic-description)
 5. [Dealing with Edge Cases](#dealing-with-edge-cases)
 6. [Special Empty Moves](#special-empty-moves)
+7. [Alternate Clue Interpretation Tables](#alternate-clue-interpretation-tables)
 
 <br />
 
@@ -205,3 +206,30 @@
 * However, after the first blind-play, if the *Empty Finesse* is telling the 2nd player to play a strictly unplayable card, it must have been an *Empty Bluff*.
 * *Empty Bluffs* do not meet *Empty Minimum Value Clue Principle*, but they can be useful to get a 1-for-1 on a card that is otherwise blocked. Alternatively, they can be used to get a 1-for-1 on a card while also telling the other player that a particular card is exactly 1-away from being playable.
 * It is also possible to do a *Known Empty Bluff*, in which the blind-playing player knows that they are playing an unrelated card. In this situation, it would be the only way for the *Empty Clue* to make sense.
+
+<br />
+
+## Alternate Clue Interpretation Tables
+
+### 5-Player (with 6 color clues)
+
+| # mod 6    | action          | type of clue
+| ---------- | --------------- | -------------
+| 0 (6, 12)  | clue or discard | red or black
+| 1 (7, 13)  | play 1          | number 1 or blue
+| 2 (8, 14)  | play 2          | number 2 or green
+| 3 (9, 15)  | play 3          | number 3 or yellow
+| 4 (10, 16) | play 4          | number 4
+| 5 (11, 17) | chop move       | number 5 or purple
+
+<br />
+
+### 5-Player (with 4 color clues)
+
+| # mod 5   | action          | type of clue
+| --------- | --------------- | -------------
+| 0 (5, 10) | clue or discard | number 5 or color 4
+| 1 (6, 11) | play 1          | number 1 or color 1
+| 2 (7, 12) | play 2          | number 2 or color 2
+| 3 (8, 13) | play 3          | number 3 or color 3
+| 4 (9, 14) | play 4          | number 4
