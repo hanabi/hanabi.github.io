@@ -132,12 +132,17 @@
 
 ## Dealing with Edge Cases
 
-### Minimum Empty Clue Value Principle
+### Empty Minimum Clue Value Principle
 
 * Normally, a clue is allowed to touch a single card as a 1-for-1. However, this does not apply to *Empty Clues*. *Empty Clues* must be better than this.
-* At a bare minimum, an *Empty Clue* must either:
+* At a bare minimum, an *Empty Clue* must get one brand new card and do one other useful thing. In other words, an empty clue can:
   * get two brand new cards blind-played (as a 2-for-1)
   * get one brand new card blind-played (as a 1-for-1) and *Prompt* at least one card that would not have played otherwise
+  * get one brand new card blind-played (as a 1-for-1) and *Chop Move* a player
+* For example, it would be illegal for an empty clue to be:
+  * *Prompting* three separate cards
+  * *Chop Moving* three separate cards
+* If a player is occupied and still does an *Empty Clue*, then the minimum value needed increases - the clue must get at least two new cards blind-played and do one other useful thing.
 
 ### Giving Plays to Already Called Cards (Good)
 
