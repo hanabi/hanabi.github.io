@@ -176,19 +176,27 @@ Note that in this user interface, players are holding their hands like they woul
 
 ### The Early Game (Intermediate Section)
 
+* The *Early Game* is defined and introduced in the beginner's document. However, in order to squeeze as much value out of the conventions as possible, we have some extra rules about *The Early Game* that are listed here.
 * The *Early Game* is ended when someone discards for the first time. However, note that:
   * Misplaying a card does NOT count as ending the *Early Game*.
   * Discarding known trash does NOT count as ending the *Early Game*.
   * Doing special discards that "transfer" cards to other players does NOT count as ending the *Early Game*.
+* In the *Early Game*, players must "extinguish" all of the available clues on the board. Note that:
+  * This DOES include *5 Stalling*, but it is only mandatory for the team to collectively perform one *5 Stall*. If one *5 Stall* clue has already been given and there is another *5 Stall* clue available, players are allowed (but not required) to clue it.
+  * This DOES NOT include cluing something in the hand of the player who came directly before you. (This is because the player who came before you did not see anything for you to do, and is therefore giving you "permission" to discard.) In this situation, cluing is optional; players can choose to either clue the previous hand or discard at their discretion.
+  * This DOES NOT include cluing 5's that will be almost certainly be *Order Chop Moved* by an upcoming player who already has two or more 1's clued in their hand. (*Order Chop Moves* are an advanced move that is covered later.)
 
 ### 5 Stalls (Intermediate Section)
 
-* In order to squeeze as much value out of the conventions as possible, we have some extra rules about *5 Stalls* which are listed in this section.
-* In the *Early Game*, you are only allowed to *5 Stall* (on off-chop 5's) if there is nothing else to do. However, as an exception, you are also allowed to *5 Stall* if there is only ONE *Play Clue* remaining and it would touch a card on *Finesse Position*.
-* In the *Early Game*, players must "extinguish" all of the available clues on the board. Note that:
-  * This DOES include *5 Stalling*, but it is only mandatory for the team to perform one *5 Stall*. If one *5 Stall* clue has already been given and there is another *5 Stall* clue available, players are allowed (but not required) to clue it.
-  * This DOES NOT include cluing something in the hand of the player who came directly before you. (This is because the player who came before you did not see anything for you to do, and is therefore giving you "permission" to discard.) In this situation, cluing is optional; players can choose to either clue the previous hand or discard at their discretion.
-  * This DOES NOT include cluing 5's that will be almost certainly be *Order Chop Moved* by an upcoming player who already has two or more 1's clued in their hand. (*Order Chop Moves* are an advanced move that is covered later.)
+* As mentioned in the beginner document, *5 Stalls* are when a player clues an off-chop 5 purely because they want (or need) to give a stall clue.
+* *5 Stalls* are usually done in the *Early Game*, but they can also be done in the *Mid-Game* if a player is in a special situation where they are not allowed to discard.
+* *5 Stalls* are only allowed if there is nothing else to do. (If a player does have something else to do, then it is not a *5 Stall* at all, and is either a *5's Chop Move* or a *5 Pull*, which are advanced moves that are covered later.)
+  * However, as an exception, you are also allowed to *5 Stall* if there is only ONE *Play Clue* remaining and it would touch a card on *Finesse Position*. (We refer to this as the *Finesse Position Exception*.)
+* *5 Stalls* MUST be given to the 5 that is closest to chop. For example, in a 3 player game:
+  * It is the *Early Game*. The only thing left for Alice to do is to clue an off-chop 5.
+  * Bob has two playable 1's on slots 1 and 2. He has a 5 on slot 3. Bob's 5 is therefore one-away from chop.
+  * Cathy has nothing clued in her hand. She has a 5 on slot 3. Cathy's 5 is therefore two-away from chop.
+  * Alice must clue number 5 to Bob as a *5 Stall* since his 5 is closer to chop (even though Bob has two plays).
 
 ### The Priority Prompt & The Priority Finesse
 
