@@ -649,6 +649,14 @@ This section is unique in that it contains things that are separate from actual 
   * The 1 that was skipped over is known to be bad from contextual information. (See *The Stale 1's Clue* section.)
 * Note that *Order Chop Moves* ONLY apply to unknown 1's. If you play any other unknown cards out of order, then it does not mean anything special.
 
+### Double Order Chop Move (for 3-Player Games)
+
+* This convention only applies to 3-player games.
+* In the *Order Chop Move* and the *Skipped Order Chop Move*, players can play 1's in a certain order to *Chop Move* a specific player of their choosing.
+* In a 4 or 5-player game, skipping over three 1's would *Chop Move* the player three seats away. However, in a 3-player game, this would be nonsensical, since there are only 3 players in total.
+* Thus, in a 3-player game, skipping over three 1's should *Double Chop Move* the very next player.
+* In the rare case where four things are skipped over, it should skip over the next player and *Double Chop Move* the player after that.
+
 ### Trash Order Chop Move
 
 * Sometimes, a player will have two known trash cards in their hand (and these cards are explicitly known trash, meaning that everyone on the team can equally see that they are known trash).
@@ -1322,16 +1330,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * If you are clued the exact same thing twice before it gets to be your turn, it means that you can play ALL of the cards that the clue applies to, but in the opposite order than normal (right-to-left, since you would normally play cards from left-to-right).
   * If one of the cards includes the chop card, it means to play all of the cards from 2nd oldest to newest, and then the chop last.
 * If you are re-clued about a bunch of cards after you have already taken a turn, see the *Double Tempo Clue* section.
-
-### Double Order Chop Move & Double Trash Order Chop Move (for 3-Player Games)
-
-* This convention only applies to 3-player games.
-* In the *Order Chop Move* and the *Skipped Order Chop Move*, players can play 1's in a certain order to *Chop Move* a specific player of their choosing.
-* In a 4 or 5-player game, skipping over three 1's would *Chop Move* the player three seats away.
-* However, in a 3-player game, this would be nonsensical, since there are only 3 players in total.
-* Thus, in a 3-player game, skipping over three 1's should *Double Chop Move* the very next player.
-* This convention also applies to trash, meaning that it is possible to *Double Trash Order Chop Move*.
-* In the rare case where four things are skipped over, it should skip over the next player and *Double Chop Move* the player after that.
 
 ### Spillover Chop Move
 
