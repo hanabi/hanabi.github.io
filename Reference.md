@@ -1125,16 +1125,15 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * After the unrelated card is played, since the player who lied was in *Bluff Seat*, no further cards should be promised.
 * If an unrelated card was played and the player who lied was not in *Bluff Seat*, it implies a *Priority Layered Finesse*.
 
-### The Known Priority Bluff (Playing into Your Own Hand)
+### The Known Priority Bluff
 
-* For the purposes of play *Priority*, you are only supposed to look "one card ahead" instead of two or more. This is to keep things simple.
-* For example:
-  * Alice has a known-playable red 3, a known-playable blue 4, and a known blue 5.
-  * Even though playing the blue 4 would allow her to play the blue 5 on the next turn (and get a free clue for the team), the red 3 still has priority over the blue 4, since it is a lower rank.
-  * Alice plays the blue 4 (which does NOT have priority).
-  * Normally, Bob would think that this is a *Priority Finesse* and that he had the blue 5, but he can clearly see it in Alice's hand. (Furthermore, even Alice already knows that she has the blue 5.)
-  * Thus, this is a *Known Priority Bluff*. Bob blind-plays his *Finesse Position* card, knowing it can be any currently-playable card.
-* Something is NOT a *Known Priority Bluff* if the card that was played leads towards unlocking another player's hand.
+* It is also possible to perform a *Priority Bluff* that is gloablly-known to be a *Bluff*. For example:
+  * Alice has a three known playable cards: red 1, blue 4, and blue 5.
+  * Bob has a known red 2.
+  * Alice is expected to play the red 1 into the red 2, so the red 2 has *Priority*.
+  * Instead, Alice plays the blue 4.
+  * Normally, Bob would think that this is a *Priority Finesse* on the blue 5. However, both he and Alice know that Alice has the blue 5.
+  * This must be a *Known Priority Bluff*, so Bob plays his *Finesse Position* card as any other playble card.
 
 <br />
 
