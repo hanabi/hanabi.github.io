@@ -183,6 +183,11 @@
   * Cathy is allowed to give an *Empty Clue* that gives a stacked play to blue 3 in Alice's hand, knowing that Alice must play the blue 1 first.
   * Bob knows for sure that Alice would assign a blind-play to the blue 2 in Alice's hand, so he can play his blue 2 into the blue 3 and nothing will get messed up.
 
+### Empty Clue Misplay Agreement
+
+* Sometimes, a player is given an *Empty Clue* action and plays the wrong card, causing a misplay.
+* In this situation, even though they might be able to go back into the in-game replay and figure out their mistake, everyone agrees that the original card that was supposed to be "gotten" from the *Empty Clue* needs to be re-clued.
+
 <br />
 
 ## Special Empty Moves
