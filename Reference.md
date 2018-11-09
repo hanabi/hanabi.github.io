@@ -1133,7 +1133,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Alice is expected to play the red 1 into the red 2, so the red 2 has *Priority*.
   * Instead, Alice plays the blue 4.
   * Normally, Bob would think that this is a *Priority Finesse* on the blue 5. However, both he and Alice know that Alice has the blue 5.
-  * This must be a *Known Priority Bluff*, so Bob plays his *Finesse Position* card as any other playble card.
+  * This must be a *Known Priority Bluff*, so Bob plays his *Finesse Position* card as any other playable card.
 
 <br />
 
