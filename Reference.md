@@ -209,7 +209,6 @@ Note that in this user interface, players are holding their hands like they woul
 * When a player does NOT play the card with *Priority*, it is strange, and they must be trying to send a special message.
 * Based on what card they did play, if you have any cards in your hand that match the next "connecting" card, it is a message that you can play it right now, similar to a *Prompt*. (The difference is that instead of initiating the *Prompt* with a clue, they initiated it with the order that they played cards.)
 * Alternatively, if you do not have any clued cards in your hand that matches the card that they played, then you you should play your *Finesse Position* card as a *Priority Finesse*.
-* Note that *Priority Prompts* and *Priority Finesses* are only a thing when the player has FULL KNOWLEDGE of the two cards that they are prioritizing. For example, players might be trying to potentially play into someone else's hand, with only a chance that they have a matching card.
 * For example, this IS a *Priority Finesse*:
   * Alice has a known playable red 1 and a known playable blue 2 in her hand.
   * Alice plays blue 2.
@@ -223,7 +222,13 @@ Note that in this user interface, players are holding their hands like they woul
 * Similar to a normal *Prompt*, if a *Priority Prompt* could apply to two or more clued cards, then you should play the left-most one.
 * Similar to a normal *Prompt*, if a *Priority Prompt* made you play the left-most card and it was not the matching card, then you should continuing playing clued cards until you find the matching card.
 * Note that the "left-most" *Priority* is contextual and does not always apply. For example, it is common for players to play a right-most card that was originally clued with a *Save Clue*, since that card was explicitly saved and that the other cards in the hand of the same rank could potentially be duplicates.
-* Normally, blind-playing cards has *Priority* over playing clued cards that lead into other people's hands. However, blind-playing a card from a *Gentleman's Discard* is a special exception and does NOT have priority. (*Gentleman's Discards* are a special move that is covered later.)
+* Normally, blind-playing cards has *Priority* over playing clued cards that lead into other people's hands. However, blind-playing a card from a *Gentleman's Discard* is a special exception and does NOT have *Priority*. (The *Gentleman's Discards* is a special move that is covered later.)
+* Typically, when looking for *Priority*, players look at the very next card after the one that was played. If players look deeper past that, then things can get very complicated. In order to simplify *Priority*, we agree that players should only look forward one card. For example, in a 3-player game:
+  * Red 2 and blue 3 are played on the stacks.
+  * Alice has a three known playable cards: the red 3, the blue 4, and the blue 5.
+  * Alice does not see the red 4 anywhere.
+  * If Alice plays the blue 4, it will allow her to play the blue 5 on the next turn, and the team will get a clue back.
+  * However, for the purposes of *Priority*, you are only supposed to look one card ahead. Thus, since red 3 is a lower rank than blue 4, the red 3 should have *Priority*. If Alice played the blue 4, then it would initiate a *Known Priority Bluff* on Bob. (The *Known Priority Bluff* is covered in more detail later.)
 
 ### A Priority Flowchart (For Choosing Between 2+ Playable Cards)
 
