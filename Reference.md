@@ -1284,7 +1284,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### Hard Bluffs
 
-* Sometimes, it can be ambiguous as to whether a player blind-played a card into a *Bluff* or a *Finesse* + *Prompt*. In this situation, *aam's Razor* applies, so players should always opt with the former (simpler) interpretation. When such a *Bluff* occurs, it is called a *Hard Bluff* to disambiguate from situations where *Bluffs* happen with no ambiguity.
+* Sometimes, it can be ambiguous as to whether a player blind-played a card into a *Bluff* or a *Finesse* + *Prompt*. In this situation, *Ocaam's Razor* applies, so players should always opt with the former (simpler) interpretation. When such a *Bluff* occurs, it is called a *Hard Bluff* to disambiguate from situations where *Bluffs* happen with no ambiguity.
 * For example, this is a *Finesse* + *Prompt* and NOT a *Hard Bluff*:
   * Only red 1 is played on the stacks.
   * Cathy has a 3 clued in her hand (with no color information on it).
