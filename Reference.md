@@ -198,14 +198,14 @@ Note that in this user interface, players are holding their hands like they woul
   * Cathy has nothing clued in her hand. She has a 5 on slot 3. Cathy's 5 is therefore two-away from chop.
   * Alice must clue number 5 to Bob as a *5 Stall* since his 5 is closer to chop (even though Bob has two playable cards).
 
-### The Priority Prompt & The Priority Finesse
+### The Prompt & The Priority Finesse
 
-* When a player has a choice between two playable cards to play, everyone agrees that there should be a specific *Priority* that they should be played in. The agreed *Priority* is as follows:
+* When a player has two or more playable cards to play, everyone agrees that they should be played in a specific order. We refer to this as *Prority*. The agreed *Priority* is as follows:
 
 | Priority | Category of card                           | Reason
 | -------- | ------------------------------------------ | ------
 | 1        | Blind-plays                                | Demonstrating that a *Finesse* or *Bluff* occurred is very important.
-| 2        | Cards that lead into someone else's hand   | This is good teamwork; otherwise, the team would lose *Tempo*.
+| 2        | Cards that lead into someone else's hand   | Otherwise, the team would lose *Tempo*.
 | 3        | Cards that lead into the player's own hand | It is bad for a suit to be "held up" on one player.
 | 4        | 5's                                        | Playing a 5 gets the team a free clue.
 | 5        | The lower rank card                        | The smaller stacks are more important to fill up.
@@ -214,12 +214,12 @@ Note that in this user interface, players are holding their hands like they woul
 * When a player does NOT play the card with *Priority*, they must be trying to send a special message.
 * Based on what card they did play, if you have any cards in your hand that match the next "connecting" card, it is a message that you can play it right now, similar to a *Prompt*. (The difference is that instead of initiating the *Prompt* with a clue, they initiated it with the order that they played cards.)
 * Alternatively, if you do not have any clued cards in your hand that matches the card that they played, then you you should play your *Finesse Position* card as a *Priority Finesse*.
-* For example, this IS a *Priority Finesse*:
+* For example, this would be a *Priority Finesse*:
   * Alice has a known playable red 1 and a known playable blue 2 in her hand.
   * Alice plays blue 2.
   * Bob comes next. Bob does not see any red 2's. He does not see any blue 3's either. Thus, Alice was supposed to play the red 1 first, since red 1 is a lower rank than blue 2. Alice did NOT play the card with *Priority*.
   * This means that Bob must have blue 3. Bob does not have any clued cards in his hand, so he blind-plays his *Finesse Position* card.
-* For example, this is NOT a *Priority Finesse*:
+* Sometimes, players do not play cards with *Priority* purely in order to give someone else on the team something to do on their turn. For example, this is NOT a *Priority Finesse*:
   * Alice has a known playable red 1 and a known playable blue 2 in her hand.
   * Alice plays blue 2.
   * Bob comes next. Bob does not see any red 2's. Bob does see blue 3 on the chop of Cathy. Thus, even though the red 1 was supposed to have *Priority*, Alice played the blue 2 to give Cathy something to do.
