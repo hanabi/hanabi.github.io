@@ -78,7 +78,7 @@
 
 * In Hanabi, it is generally assumed that you will give clues that "touch" one or more cards in someone else's hand. But what if you want to give a clue that touches NO cards in the hand? We refer to this as an *Empty Clue*.
 * *Empty Clues* can be useful in that they give negative information to all other cards in the hand. This is especially useful in the "Rainbow" variant, which is played by expert players as an additional challenge. (In this variant, a 6th suit is added to the deck that is touched by all colors. *Empty Clues* can be used to more easily disambiguate rainbow cards from non-rainbow cards.)
-* Hanabi was first released in several European countries. In these initial versions of the game, it is reported that the printed rules do not specifically disallow *Empty Clues*, which implies that they are therefore legal.
+* Hanabi was first released in several European countries. In these initial versions of the game, the printed rules do not specifically disallow *Empty Clues*. The game creator Antoine Bauza clarified on his blog ([French](http://www.antoinebauza.fr/?p=880) - ([English translation](https://boardgamegeek.com/article/6177967#6177967))) that giving empty clues is allowed. 
 * In the later American release of the game, [the printed rules](https://github.com/Zamiell/hanabi-conventions/blob/master/other-conventions/Rules.txt) make it a point to explicitly mention:
 
 >IMPORTANT: The player must clearly point to the tiles which he is giving information about. (Thus saying "You have zero of something" is not allowed as you cannot point to anything.)
