@@ -71,6 +71,7 @@
 * If there two or more cards of the same subcategory above, then the priority is as follows:
   * #1 - lowest rank (even if there is a 5)
   * #2 - left-most
+* If playing with 5-players, the *Chop Move* action has a priority of #1d.
 
 <br />
 
