@@ -1276,6 +1276,12 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * if the color matches a suit that is already completely played or accounted for
 * Note that this convention does NOT apply to the *Rainbow & Black Suits (one of each)* variant. In that variant, you must save rainbow 3 and rainbow 4 with a black color clue.
 
+### Empty Clues
+
+* *Empty Clues* are clues that touch no cards in a hand. On Hanabi Live, each game has the option to allow *Empty Clues*, and we typically disallow this option.
+* If *Empty Clues* are enabled, it allows for a much wider channel of information transfer. We have developed an entire convention framework around this channel and it is too complicated to cover in a single section here.
+* If you are interested in learning about in the extended *Empty Clue* conventions, they are documented [on a separate page](https://github.com/Zamiell/hanabi-conventions/blob/master/other-conventions/Empty_Clues.md).
+
 <br />
 
 ## Level 3 - Rarely Used Advanced Strategies
