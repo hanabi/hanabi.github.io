@@ -1355,7 +1355,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 ### The Elimination Finesse
 
 * Normally, if a player is *Finessed*, they are supposed to play their *Finesse Position* card. However, if the player has two or more *Elimination Notes* in their hand for the specific *Finessed* card, then they know that it cannot be on *Finesse Position*.
-* In this situation, the player is expected to play the OLDEST of the cards with the *Elimination Notes* on them.
+* In this situation, the player is expected to play the OLDEST of the cards with the *Elimination Notes* on them (not counting *Chop Moved* cards, if any).
 * For example, in a 3-player game:
   * Blue 2 is played on the stacks.
   * Alice has a completely unclued hand.
@@ -1364,6 +1364,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Cathy discards.
   * Alice knows that this is some sort of *Reverse Finesse*, as it is calling for the blue 3. However, the blue 3 cannot be in her *Finesse Position* (slot 1), as she knows from the *Elimination Notes* that it must be either on slot 2, 3, 4, or 5. So it must instead be a *Reverse Elimination Finesse*.
   * The *Elimination Finesse* promises that it is her oldest card, so she plays slot 5 as blue 3.
+* As mentioned above, *Chop Moved* cards should be skipped over when finding the *Elimiation Finesse* target. If there are two or more cards with *Elimination Notes* on them and they are all *Chop Moved*, then the oldest *Chop Moved* card should be played.
 * *Elimination Finesses* apply to ALL types of situations with *Elimination Notes* (including *Discard Elimination Notes*, *Play Elimination Notes*, and *Double Discard Elimination Notes*). Subsequently, you can more specifically describe an *Elimination Finesse* as a *Discard Elimination Finesse*, a *Play Elimination Finesse*, or a *Double Discard Elimination Finesse*.
 * Note that normal *Finesses* take priority over *Self-Elimination Finesses*. For example:
   * On the stacks, blue 2 and green 2 are played.
