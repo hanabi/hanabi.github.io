@@ -212,7 +212,7 @@ Note that in this user interface, players are holding their hands like they woul
 | 6        | The left-most card                         | The left-most card is more likely to be good.
 
 * When a player does NOT play the card with *Priority*, they must be trying to send a special message.
-* Based on what card they did play, if you have any cards in your hand that match the next "connecting" card, it is a message that you can play it right now, similar to a *Prompt*. (The difference is that instead of initiating the *Prompt* with a clue, they initiated it with the order that they played cards.)
+* Based on what card they did play, if you have any clued cards in your hand that match the next "connecting" card, it is a message that you can play it right now, similar to a *Prompt*. (The difference is that instead of initiating the *Prompt* with a clue, they initiated it with the order that they played cards.)
 * Alternatively, if you do not have any clued cards in your hand that matches the card that they played, then you you should play your *Finesse Position* card as a *Priority Finesse*.
 * For example, this would be a *Priority Finesse*:
   * Alice has a known playable red 1 and a known playable blue 2 in her hand.
