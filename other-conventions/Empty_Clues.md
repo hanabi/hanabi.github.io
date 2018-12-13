@@ -143,7 +143,7 @@
 * For example, it would be illegal for an empty clue to be:
   * *Prompting* three separate cards
   * *Chop Moving* three separate cards
-* If a player is *Occupied* (meaning that they have a card to play) and still does an *Empty Clue*, then the minimum value needed increases - the clue must get at least two new cards blind-played and do one other useful thing.
+* If a player is *Occupied* (meaning that they are supposed to be playing a card) and they do an *Empty Clue* anyway, then the minimum value needed increases - the clue must get at least two new cards blind-played and do one other useful thing.
 
 ### Giving Plays to Already Called Cards (Good)
 
