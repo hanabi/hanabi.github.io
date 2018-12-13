@@ -116,7 +116,7 @@
   * So, Alice wants all three of her teammates to play slot 1.
   * From the clue interpretation table above, we see that "play slot 1" is assigned a value of 1.
   * Alice adds up all of the actions: 1 + 1 + 1 = 3
-  * Thus, Alice needs to convey "3" to the team. Bob does not have any 3's in his hand, so Alice clues number 3 to Bob, which is an *Empty Clue*.
+  * Thus, Alice needs to convey "3" to the team. Bob does not have any 3's in his hand, so Alice clues number 3 to Bob, which is an *Empty Clue*. (Additionally, if Bob does not have any yellow cards his hand, Alice could equally give a yellow color clue, because yellow also means "3".)
   * Bob comes next and has to figure out which move that Alice has planned for him.
   * Bob knows that Alice encoded a value of 3.
   * Bob also can look ahead and see that Cathy will be assigned a value of 1 and Donald will be assigned a value of 1.
