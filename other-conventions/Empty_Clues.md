@@ -147,7 +147,7 @@
 
 ### Giving Plays to Already Called Cards (Good)
 
-* As per the empty target priority list above, if a player only has one playable card in their hand and it is already fully known, then you CANNOT assign them a 0 action (a.k.a. a clue or discard" action). In this case, you would tell them to blind-play the slot of the card that they already have full knowledge about.
+* As per the empty target priority list above, if a player only has one playable card in their hand and it is already fully known, then you CANNOT assign them a 0 action (a.k.a. a "clue or discard" action). In this case, you would tell them to blind-play the slot of the card that they already have full knowledge about.
 * However, if a player is *Finessed* for a card that will not yet be playable when it reaches their turn AND they have no other currently playable cards, then you MUST assign them a "clue or discard" action, since they cannot immediately play anything on their turn.
 
 ### Giving an Empty Clue After a Finesse (Bad)
