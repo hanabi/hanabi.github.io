@@ -114,7 +114,7 @@
   * Alice goes first.
   * Bob has blue 1 on slot 1, Cathy has red 1 on slot 1, and Donald has green 1 on slot 1.
   * So, Alice wants all three of her teammates to play slot 1.
-  * From the clue interpretation table below, we see that "play slot 1" is assigned a value of 1.
+  * From the clue interpretation table above, we see that "play slot 1" is assigned a value of 1.
   * Alice adds up all of the actions: 1 + 1 + 1 = 3
   * Thus, Alice needs to convey "3" to the team. Bob does not have any 3's in his hand, so Alice clues number 3 to Bob, which is an *Empty Clue*.
   * Bob comes next and has to figure out which move that Alice has planned for him.
