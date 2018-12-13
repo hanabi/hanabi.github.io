@@ -198,7 +198,7 @@ Note that in this user interface, players are holding their hands like they woul
   * Cathy has nothing clued in her hand. She has a 5 on slot 3. Cathy's 5 is therefore two-away from chop.
   * Alice must clue number 5 to Bob as a *5 Stall* since his 5 is closer to chop (even though Bob has two playable cards).
 
-### The Prompt & The Priority Finesse
+### The Priority Prompt & The Priority Finesse
 
 * When a player has two or more playable cards to play, everyone agrees that they should be played in a specific order. We refer to this as *Prority*. The agreed *Priority* is as follows:
 
