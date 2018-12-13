@@ -154,7 +154,7 @@
 
 * After a *Finesse* is given, one or more blind-plays must occur to "prove" what is going on. Another way of stating this is that when a *Finesse* occurs, the team becomes desynchronized, and then when the blind-play happens, the team becomes synchronized again.
 * Giving an *Empty Clue* immediately after a *Finesse* is a **bad idea** in most cases. This is because players lose the ability the "prove" that a *Finesse* happened, since the resulting blind-play will now be a result of the *Empty Clue* instead of the *Finesse*.
-* Because of this, care has to be taken to only give an *Empty Clue* if there are no other *Finesses* going on, or if confusion will be minimal at the very least.
+* Because of this, care has to be taken to only give an *Empty Clue* if there are no other *Finesses* going on (or if confusion will be minimal).
 
 ### Final Freedom
 
