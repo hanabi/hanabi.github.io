@@ -179,10 +179,17 @@
 
 * Normally, a stacked play action from an *Empty Clue* should not be related to anyone else's hand. This is because it may not be globally known which cards play into which other cards, so different players will assign different actions and everything will get messed up.
 * However, it is possible to give a *Empty Clue* as a *Delayed Play Clue* through someone else's hand if all of the connecting cards are globally known playable. This way, the information never becomes desyncronized. For example, in a 3-player game:
-  * Alice has a globally known blue 1 that is already clued.
-  * Bob has a globally known blue 2 that is already clued.
-  * Cathy is allowed to give an *Empty Clue* that gives a stacked play to blue 3 in Alice's hand, knowing that Alice must play the blue 1 first.
-  * Bob knows for sure that Alice would assign a blind-play to the blue 2 in Alice's hand, so he can play his blue 2 into the blue 3 and nothing will get messed up.
+  * Bob has a globally known blue 1 that is already clued.
+  * Cathy has a globally known blue 2 that is already clued.
+  * Bob has an unclued blue 3 that is ready to be *Play Clued* in slot 1.
+  * Cathy has an unclued red 1 that is ready to be *Play Clued* in slot 1.
+  * Alice gives an *Empty Clue* with a value of 2, which is a stacked play to blue 3 in Bob's hand and a stacked play to red 1 in Cathy's hand. (1 + 1 = 2)
+  * Usually, this type of thing is illegal, because the blue 2 that leads into the blue 3 is not played yet and is in someone else's hand. However, since the whole team knows that the blue 3 is playable, everything will work out.
+  * First, Bob is able to see that Alice's clue is probably "getting" the red 1 in Cathy's slot 1, so it must also be getting his slot 1. However, he must first play all the known-playable cards in his hand, so he plays the blue 1.
+  * Second, Cathy knows that Alice's clue is probably "getting" the blue 3 in Bob's hand, so it must also be getting her slot 1. However, she must first play all the known-playable cards in her hand, so she plays the blue 2.
+  * Alice discards.
+  * Now that all of his other playable cards are played, Bob can blind-play the *Empty Clue* target and successfully plays the blue 3 from slot 1.
+  * Now that all of her other playable cards are played, Cathy can blind-play the *Empty Clue* target and successfully plays the red 1 from slot 1.
 
 ### Empty Clue Misplay Agreement
 
