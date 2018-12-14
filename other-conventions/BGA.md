@@ -207,7 +207,7 @@ Ok, so you've made it this far. The changes so far probably sound pretty strange
   * Second, players can indirectly solve the problem by planning a line where it sets up one of the DD players to give an obvious clue. 
 * In my group, there is no need to do either of these strategies, because *Hard Double Discard Avoidance* is ALWAYS turned on, regardless of the amount of players.
 * Why do this? It narrows the possibilities of what *Save Clues* can be, which is quite useful. Furthermore, it eliminates the silliness involved in dancing around a *Double Discard* situation - players just simply don't have to worry about it anymore and can focus on always giving the highest efficiency clue for the situation.
-* Furthermore, if a player notices that someone *Double Discards* when they weren't supposed to, they can mark their hand for the exact card, which is quite powerful.
+* Finally, if a player notices that someone *Double Discards* when they weren't supposed to, they can mark their hand for the exact card, which is quite powerful.
 
 ### Chop Moves - Added
 
