@@ -297,4 +297,4 @@ These are conventions that we don't typically turn on for new players, but we do
 
 Reading the stuff in this document will give you the major tools that you will need to play with my group. You can and should stop reading now and play some games with us! There's certainly some other minor things to learn, but you will quickly learn the rest from direct experience and post-game reviews.
 
-Know that you certainly **do not** have to read and memorize [the extremely long main conventions document](https://github.com/Zamiell/hanabi-conventions) before playing with us! This is a common misconception that new players have. The document is meant to be used as a reference, and not meant to be read from start to finish.
+Know that you certainly **do not** have to read and memorize [the extremely long main conventions document](https://github.com/Zamiell/hanabi-conventions/blob/master/Reference.md) before playing with us! This is a common misconception that new players have. The document is meant to be used as a reference, and not meant to be read from start to finish.
