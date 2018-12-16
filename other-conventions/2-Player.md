@@ -12,6 +12,10 @@
 
 * The *Chop Focus* convention is "turned off".
 
+### No Priority
+
+* *Priority Prompts*, *Priority Finesses*, and so forth are all "turned off".
+
 ### One-Away Saves
 
 * In non-2-player games, *Save Clues* must be given to cards that are on chop.
