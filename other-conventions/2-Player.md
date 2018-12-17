@@ -25,10 +25,15 @@
 
 * The *5's Chop Move* convention is "turned off". Any 5 that is clued one-away from chop will just look like a normal *One-Away Save*.
 
-### First Turn Stalling
+### First Turn Saves
 
-* If a player gets a *Save Clue* on the first turn of the game, then the next player is not allowed to discard and must give a stall clue. (Otherwise, they are allowed to discard.)
-* In a *First Turn Stalling* situation, if a known-unplayable card is clued, then it should be treated as a *Save Clue* (instead of a *Self-Finesse*).
+* On the very first turn of the game, if a known-unplayable card is clued, then it should be treated as a *Save Clue* (instead of a *Self-Finesse*).
+  * Players are allowed to use this ability even if there are other playable cards in the hand.
+
+### Second Turn Stalling
+
+* If a *Save Clue* was given on the first turn of the game, then the next player is not allowed to discard. They must instead give a give a stall clue. (Otherwise, they are allowed to discard.)
+* In a *Second Turn Stalling* situation, if a known-unplayable card is clued, then it should be treated as a *Save Clue* (instead of a *Self-Finesse*), similar to a *First Turn Save*.
 
 ### The Flush Clue (A Slot 1 Color Clue)
 
