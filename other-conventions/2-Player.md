@@ -27,8 +27,8 @@
 
 ### First Turn Stalling
 
-* If a player gets a *Save Clue* on the first turn of the game, then they are not allowed to discard and must give a stall clue. (Otherwise, they are allowed to discard.)
-* In a *First Turn Stalling* situation, if an off-chop one-away card is clued, then it should be treated as a *Save Clue*.
+* If a player gets a *Save Clue* on the first turn of the game, then the next player is not allowed to discard and must give a stall clue. (Otherwise, they are allowed to discard.)
+* In a *First Turn Stalling* situation, if an off-chop known-unplayable card is clued, then it should be treated as a *Save Clue* (instead of a *Self-Finesse*).
 
 ### The Flush Clue (A Slot 1 Color Clue)
 
