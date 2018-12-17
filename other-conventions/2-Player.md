@@ -27,7 +27,7 @@
 
 ### First Turn Stalling
 
-* If a player gets a *Save Clue* on the first turn of the game, then they are not allowed to discard and must give a stall clue. Otherwise, you are allowed to discard on your first turn.
+* If a player gets a *Save Clue* on the first turn of the game, then they are not allowed to discard and must give a stall clue. (Otherwise, they are allowed to discard.)
 
 ### The Flush Clue (A Slot 1 Color Clue)
 
