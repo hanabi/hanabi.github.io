@@ -25,6 +25,10 @@
 
 * The *5's Chop Move* convention is "turned off". Any 5 that is clued one-away from chop will just look like a normal *One-Away Save*.
 
+### First Turn Stalling
+
+* If a player gets a *Save Clue* on the first turn of the game, then they are not allowed to discard and must give a stall clue. Otherwise, you are allowed to discard on your first turn.
+
 ### The Flush Clue (A Slot 1 Color Clue)
 
 * In non-2-player games, it is permissible to use a color clue to save a slot 1 card. In this situation, the player who received the clue would then have a *Locked Hand*.
