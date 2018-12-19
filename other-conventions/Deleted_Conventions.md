@@ -8,7 +8,7 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
 
 <br />
 
-### Promise Bluff
+### The Promise Bluff
 
 * Typically, we are only allowed to *Bluff* with cards that are 1-away (normal *Bluff*) or a 3 (*3 Bluff*) or a critical 4 (*Critical 4 Bluff*). However, *Bluffs* can also be performed with cards that are 2 away if the true intermediary card exists on someone's *Finesse Position*. Doing such a move is essentially like doing a *Bluff* and a *Finesse* at the same time, with one component of each. This is called a *Promise Bluff*, because it promises the true one-away card in addition to being a *Bluff*.
 * *Promise Bluffs* take priority over *Double Bluffs*; the person after the first blind-player will assumes that it is a *Promise Bluff* since they will see the true connecting card. And since that player does not blind-play their *Finesse Position* card, the player with the promised card can know to mark their hand accordingly.
@@ -16,12 +16,17 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
 * *Promise Bluffs* also take priority over *Layered Finesses*. This isn't normally an issue, since it is rare to actually to perform a *Layered Finesse* from *Bluff Position*, but it is worth mentioning.
 * This convention was deleted because it was too rare to be worth the additional cognitive overhead. It also prevents some *Double Bluffs* from occuring.
 
-### Critical 4 Bluff
+### The Double Gentleman's Discard
+
+* Often times, a card will have a clue on it, and a player will know that it is exactly one of two possible cards.
+* This convention was removed because it would lead to misplays after players made information-asymmetric reads.
+
+### The Critical 4 Bluff
 
 * Building on the *3 Bluffs* convention, it is ALSO possible for a card that initiates a *Bluff* to be a copy of any of the 4s that are critical (meaning that the other copy is in the discard pile or it is a black 4).
 * This convention was deleted because it was hardly ever used and it increased complexity.
 
-### Reverse Misplay Chop Move
+### The Reverse Misplay Chop Move
 
 * Sometimes, a *Misplay Chop Move* will not immediately misplay because of circumstances similar to *Focus Inversion*, meaning that there is:
   * negative clues present on the card
@@ -32,7 +37,7 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
 
 ### The Speculation Bluff
 
-* The *Speculation* mechanism described in the previous section can also be used to perform a *Speculation Bluff*, which is similar to a *Priority Bluff*.
+* The *Speculation* mechanism in a *Speculation Finesse* can also be used to perform a *Speculation Bluff*, which is similar to a *Priority Bluff*.
 * In the case where the card played was indeed the left-most of the possibilities, then this works exactly the same as a *Priority Bluff* - the next player will immediately blind-play their *Finesse Position* card and it will be immediately revealed that a *Bluff* has occured.
 * Things become more complicated if the card played does not happen to be the left-most of the possibilities. The next player will mark their *Finesse Position* card in the same way as if a failed *Speculation Finesse* occured. However, the rest of the team will know that it was a *Speculation Bluff*, because they see a playable card in the *Finesse Position* of the next player.
 * When this occurs, the bluffed player will mark their card with the wrong note. This is referred to as a *Speculation Mis-mark*.
