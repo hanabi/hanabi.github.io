@@ -18,7 +18,10 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
 
 ### The Double Gentleman's Discard
 
-* Often times, a card will have a clue on it, and a player will know that it is exactly one of two possible cards.
+* Typically, when a player performs a *Gentleman's Discard*, it means that they knew **exactly** what the card was.
+* However, in some situations, a card will have a clue on it, and a player will know that it is exactly one of two possible cards.
+* If a player discards a card in this state, it promises **both** of the possible cards at the same time. Both cards will be on *Finesse Position*, similar to a normal *Gentleman's Discard*.
+* This is called a *Double Gentleman's Discard* because it "gets" two cards instead of one.
 * This convention was removed because it would lead to misplays after players made information-asymmetric reads.
 
 ### The Critical 4 Bluff
