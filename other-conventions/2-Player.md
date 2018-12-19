@@ -25,6 +25,10 @@
 
 * The *5's Chop Move* convention is "turned off". Any 5 that is clued one-away from chop will just look like a normal *One-Away Save*.
 
+### No Early Game
+
+* The *Early Game* convention is "turned off".
+
 ### First Turn Stalls
 
 * On the very first turn of the game, if a known-unplayable card is clued, then it should be treated as a *Save Clue* (instead of a *Self-Finesse*).
