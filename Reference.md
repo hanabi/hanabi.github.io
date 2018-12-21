@@ -192,9 +192,9 @@ Note that in this user interface, players are holding their hands like they woul
 * *5 Stalls* are usually done in the *Early Game*, but they can also be done in the *Mid-Game* if a player is in a special situation where they are not allowed to discard.
 * *5 Stalls* are only allowed if there is nothing else to do. (If a player does have something else to do, then it is not a *5 Stall* at all, and is either a *5's Chop Move* or a *5 Pull*, which are advanced moves that are covered later.)
   * However, as an exception, you are also allowed to *5 Stall* if there is only ONE *Play Clue* remaining and it would touch a card on *Finesse Position*. This exception only applies in the *Early Game*. (We refer to this as the *Finesse Position Exception*.)
-* *5 Stalls* MUST be given to the 5 that is closest to chop. For example, in a 3 player game:
+* *5 Stalls* MUST be given to the 5 that is closest to chop. For example, in a 3-player game:
   * It is the *Early Game*. The only thing left for Alice to do is to clue an off-chop 5.
-  * Bob has two playable 1's on slots 1 and 2. He has a 5 on slot 3. Bob's 5 is therefore one-away from chop.
+  * Bob has two playable 1's on slots 1 and 2. He has a 5 on slot 4. Bob's 5 is therefore one-away from chop.
   * Cathy has nothing clued in her hand. She has a 5 on slot 3. Cathy's 5 is therefore two-away from chop.
   * Alice must clue number 5 to Bob as a *5 Stall* since his 5 is closer to chop (even though Bob has two playable cards).
 
