@@ -963,7 +963,7 @@ This section is unique in that it contains things that are separate from actual 
   * Bob discards.
   * Cathy blind-plays a green 1.
   * Donald clearly knows that this is a *Layered Finesse* on Cathy, and she will continue to play cards until she finds the blue card that matches the one in his hand.
-* In order words, most *Layered Finesses* cause unrelated cards to blind-play that do not match the type of clue given.
+* In other words, most *Layered Finesses* cause unrelated cards to blind-play that do not match the type of clue given.
 * With that said, it is also possible to perform a *Layered Finesse* for unrelated cards that DO match the type of the clue given. When this happens, it is hidden from the receiver of the clue, so we call it a *Clandestine Finesse* to disambiguate it from a (more obvious) *Layered Finesse*.
 * For example, in the following screenshot:
   * Zealousy's hand has a green 2 and a green 3 that are already touched with a green clue.
