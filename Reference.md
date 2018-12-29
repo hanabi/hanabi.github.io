@@ -200,7 +200,7 @@ Note that in this user interface, players are holding their hands like they woul
 
 ### The Priority Prompt & The Priority Finesse
 
-* When a player has two or more playable cards to play, everyone agrees that they should be played in a specific order. We refer to this as *Prority*. The agreed *Priority* is as follows:
+* When a player has two or more playable cards to play AND those cards are different in some way (e.g. not two unknown 1's), everyone agrees that they should be played in a specific order. We refer to this as *Prority*. The agreed *Priority* is as follows:
 
 | Priority | Category of card                           | Reason
 | -------- | ------------------------------------------ | ------
