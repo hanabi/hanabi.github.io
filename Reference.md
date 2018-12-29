@@ -291,7 +291,7 @@ Note that in this user interface, players are holding their hands like they woul
 * See the *Trash Chop Move* section above for an explanation on what a *Chop Move* is.
 * Normally, we are only allowed to save 5's on chop (unless it is the *Early Game* and there is nothing else to do).
 * So, in the *Mid-Game*, if a 5 is clued that is not on chop, it will normally look like a *Play Clue* on that 5.
-* However, if the 5 is **one-away** from chop, then we agree that it has a special meaning, and that the clue is NOT a *Play Clue* at all.
+* However, if the 5 is **one-away** from chop (or, if two or more 5's are clued and the right-most 5 is one-away from chop), then we agree that it has a special meaning, and that the clue is NOT a *Play Clue* at all.
 * Instead, it is understood that the clue is a *5's Chop Move*, and the player should *Chop Move* in a manner similar to the *Trash Chop Move*.
 * Note that the *5's Chop Move* is different than the *Trash Chop Move* in that you can only chop move ONE card with it. Thus, if you clue a 5 and it is TWO (or more) slots away from the chop, then it is to be assumed to be a *Play Clue* on the 5.
 * Similar to the *Trash Chop Move*, if a *5's Chop Move* touches MULTIPLE 5's, then it only *Chop Moves* the cards to the right of the right-most 5. For example, in a 3-player game:
@@ -302,6 +302,7 @@ Note that in this user interface, players are holding their hands like they woul
 
 ### The Scream Discard Chop Move (Deliberately Discarding Instead of Playing)
 
+* See the *Trash Chop Move* section above for an explanation on what a *Chop Move* is.
 * The *Chop Move* outlined above is a tool to save multiple cards with one clue. However, sometimes you may not have a clue at all. One way to solve this situation is with a special kind of discard.
 * Typically, discarding is a last resort. So, if you have a known playable card in your hand, you can send a powerful message to your teammate by discarding instead. This is called a *Scream Discard*. Since your teammate expected you to play the card, it is like screaming at them to let them know that things are very bad.
 * The player being "screamed at" should permanently move their chop by one position.
@@ -343,6 +344,7 @@ Note that in this user interface, players are holding their hands like they woul
 
 ### The Tempo Clue Chop Move
 
+* See the *Trash Chop Move* section above for an explanation on what a *Chop Move* is.
 * In general, *Tempo Clues* do not follow from *Minimum Clue Value Principle*, which states that a clue must get at least 1 new card played or save at least 1 new card from being discarded.
 * Thus, a *Tempo Clue* with no other purpose MUST save at least 1 new card, and the player should *Chop Move* their chop card.
 * For example, on the first turn of a 3-player game:
