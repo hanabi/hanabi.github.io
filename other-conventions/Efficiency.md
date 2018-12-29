@@ -9,6 +9,8 @@
 | Black (1oE)           | 17       | 13       | 13       | 10       |
 | Black & Rainbow (1oE) | 12       | 8        | 8        | 5        |
 
+<br />
+
 ### Minimum Efficiency Needed for a Perfect Score
 
 | Variant               | 2-player | 3-player | 4-player | 5-player |
