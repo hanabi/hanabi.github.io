@@ -8,6 +8,7 @@
 | Orange                | 22       | 18       | 18       | 15       |
 | Black (1oE)           | 17       | 13       | 13       | 10       |
 | Black & Rainbow (1oE) | 12       | 8        | 8        | 5        |
+| Four Suits            | 12       | 8        | 8        | 5        |
 
 <br />
 
@@ -19,5 +20,6 @@
 | Orange                | 0.86     | 0.97     | 0.97     | 1.07     |
 | Black (1oE)           | 1.00     | 1.15     | 1.15     | 1.30     |
 | Black & Rainbow (1oE) | 1.20     | 1.43     | 1.43     | 1.67     |
+| Four Suits            | 0.87     | 1.05     | 1.05     | 1.25     |
 
 (5 * number of suits) / (pace + number of suits + 7)
