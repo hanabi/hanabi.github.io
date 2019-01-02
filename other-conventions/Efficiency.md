@@ -9,7 +9,7 @@
 | Black (1oE)           | 17       | 13       | 13       | 10       |
 | Black & Rainbow (1oE) | 12       | 8        | 8        | 5        |
 | Four Suits            | 12       | 8        | 8        | 5        |
-| Three Suits           | 12        | 8        | 8        | 5        |
+| Three Suits           | 7        | ?        | ?        | ?        |
 
 Pace is a measure of how many discards you can perform before a perfect score becomes impossible.
 
