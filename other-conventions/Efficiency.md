@@ -11,7 +11,7 @@
 | 4 Suits           | 12       | 8          | 5        |
 | 3 Suits           | 7        | 3          | 0        |
 
-Pace is a measure of how many discards you can perform before a perfect score becomes impossible.
+Pace is a measure of how many discards the team can do before a perfect score becomes impossible.
 
 <br />
 
