@@ -24,7 +24,7 @@ Pace is a measure of how many discards you can perform before a perfect score be
 | Black (1oE)           | 1.00     | 1.15     | 1.15     | 1.30     |
 | Black & Rainbow (1oE) | 1.20     | 1.43     | 1.43     | 1.67     |
 | Four Suits            | 0.87     | 1.05     | 1.05     | 1.25     |
-| Three Suits           | ?        | ?        | ?        | ?        |
+| Three Suits           | 0.88     | 1.15     | 1.15     | 1.5      |
 
 * Efficiency is defined as: `total cards that need to be played / total number of clues given`
 * The formula for this is: `(5 * number of suits) / (pace + number of suits + 7)`
