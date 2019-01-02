@@ -1609,6 +1609,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * However, in some rare situations, when initiating a *Reverse Finesse*, you have a free choice between a color clue and a rank clue, meaning that both rank and color will ONLY touch the one target card.
 * By convention, if you use rank instead of color, you communicate that you really want a *Bluff* to happen, and that they should NOT wait for other matching cards to play first. This is called a *Rank Choice Bluff*.
 * After communicating that you want a *Rank Choice Bluff* to happen, the next player will blind-play their *Finesse Position* card. But if that card matches the clued card, then it was actually a *Rank Choice Finesse* instead of a *Rank Choice Bluff*. A *Rank Choice Finesse* may be preferable to a (more ordinary) *Ambiguous Finesse*, which will resolve more slowly.
+* Note that it is possible to use the *Rank Choice* convention with any kind of *Bluff*. Thus, it is possible to *Rank Choice 3 Bluff*, *Rank Choice Double Bluff*, *Rank Choice Triple Bluff*, and so forth.
 * Examples:
   * Game #8129, turn 4 (cluing Hyakinthus' yellow 3)
 
