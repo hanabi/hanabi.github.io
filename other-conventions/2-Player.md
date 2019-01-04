@@ -8,10 +8,6 @@
 * With that said, it is possible to use the Hyphen-ated convention framework to also play 2-player games. While not commonly done, it is still perfectly functional, and it is almost always possible to get a perfect scores with expert players.
 * This document provides some extra conventions that are used by our group while playing 2-player games.
 
-### No Chop Focus
-
-* The *Chop Focus* convention is "turned off".
-
 ### No Priority
 
 * *Priority Prompts*, *Priority Finesses*, and so forth are all "turned off".
