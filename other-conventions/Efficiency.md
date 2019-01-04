@@ -2,11 +2,12 @@
 
 ### Starting Pace
 
-| Variant              | 2-player | 3/4-player | 5-player | 6-player |
+| Variant Type         | 2-player | 3/4-player | 5-player | 6-player |
 | -------------------- | -------- | ---------- | -------- | -------- |
 | 6 Suits              | 22       | 18         | 15       | 18       |
 | 6 Suits w/ 1x 1oE    | 17       | 13         | 10       | 13       |
 | 6 Suits w/ 2x 1oE    | 12       | 8          | 5        | 8        |
+| 6 Suits (Up or Down) | 16       | 12         | 9        | 12       |
 | 5 Suits              | 17       | 13         | 10       | 13       |
 | 5 Suits w/ 1x 1oE    | 12       | 8          | 5        | 8        |
 | 5 Suits (Up or Down) | 12       | 8          | 5        | 8        |
@@ -21,10 +22,11 @@
 
 ### Minimum Efficiency Needed for a Perfect Score
 
-| Variant              | 2-player | 3/4-player | 5-player | 6-player |
+| Variant Type         | 2-player | 3/4-player | 5-player | 6-player |
 | -------------------- | -------- | ---------- | -------- | -------- |
 | 6 Suits              | 0.86     | 0.97       | 1.07     | 0.97     |
 | 6 Suits w/ 1x 1oE    | 1.00     | 1.15       | 1.30     | 1.15     |
+| 6 Suits (Up or Down) | 1.03     | 1.20       | 1.36     | 1.20     |
 | 6 Suits w/ 2x 1oE    | 1.20     | 1.43       | 1.67     | 1.43     |
 | 5 Suits              | 0.86     | 1.00       | 1.14     | 1.00     |
 | 5 Suits w/ 1x 1oE    | 1.04     | 1.25       | 1.47     | 1.25     |
