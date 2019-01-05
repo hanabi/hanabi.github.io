@@ -1138,16 +1138,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * After the unrelated card is played, since the player who lied was in *Bluff Seat*, no further cards should be promised.
 * If an unrelated card was played and the player who lied was not in *Bluff Seat*, it implies a *Priority Layered Finesse*.
 
-### The Known Priority Bluff
-
-* It is also possible to perform a *Priority Bluff* that is gloablly-known to be a *Bluff*. For example:
-  * Alice has a three known playable cards: red 1, blue 4, and blue 5.
-  * Bob has a known red 2.
-  * Alice is expected to play the red 1 into the red 2, so the red 1 has *Priority*.
-  * Instead, Alice plays the blue 4.
-  * Normally, Bob would think that this is a *Priority Finesse* on the blue 5. However, both he and Alice know that Alice has the blue 5.
-  * This must be a *Known Priority Bluff*, so Bob plays his *Finesse Position* card as any other playable card.
-
 <br />
 
 ## Level 3 - Variant-Specific Strategies
@@ -1903,7 +1893,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 | The Redundant 5's Chop Move | q
 | The Composition Discard | Libster
 | The Negative Self-Chop Move | Libster
-| The Known Priority Bluff | Zamiel
 | Empty Clues | Zamiel and Florrat
 | The Empty Finesse | Instantiation
 | The Flush Clue | Florrat
@@ -1913,5 +1902,5 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 | The Empty Double-Play | Zamiel & Jeep
 | The Suboptimal Save Prompt & The Suboptimal Save Finesse | Zamiel
 | The Empty Bluff | Cory
-| The Black 1 Bluff | Sankala
+| The Black Save Bluff | Sankala
 | Inverted Priority Finesse | Zamiel
