@@ -38,7 +38,7 @@
 | 3 Suits              | 0.88     | 1.15       | 1.50     | ?        |
 
 * Efficiency is defined as: `total cards that need to be played / total number of clues given`
-* The formula for this is: `(5 * number of suits) / (pace + number of suits + 7 (- 1 if a 5/6-player game)`
+* The formula for this is: `(5 * number of suits) / (pace + number of suits + 7 (- 1 if a 5/6-player game))`
 * To calculate the total number of clues given, we use:
   * pace because you get 1 clue per discard
   * number of suits because you get a clue back for each 5 played of the suit
