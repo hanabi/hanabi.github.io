@@ -1672,11 +1672,11 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * However, in some situations, the player who has been screamed at sees that if they give a clue, the next player will be left at 0 clues and will be forced to discard a critical card.
 * Thus, in this situation, the player should chop move as normal and then discard their new chop, which will functionally act as a second *Scream Discard*. This second *Scream Discard* is called a *Rebellious Discard*, because they are not doing what they are told.
 
-### The Redundant 5's Chop Move
+### The Redundant Save Chop Move
 
-* Players that have two or more clued 1's in their hand will often use the *Order Chop Move* to *Chop Move* a 5 on the next player's chop.
-* Subsequently, if a player with two or more clued 1's in their hand does not play a 1 and instead clues a single 5 on the next player's chop, this is very strange.
-* In this situation, if there is nothing else special going on, the player who got clued the 5 should *Chop Move* the card next to the 5.
+* Players that have two or more clued 1's in their hand will often use the *Order Chop Move* to *Chop Move* a 2, a 5, or a critical card on the next player's chop.
+* Subsequently, if a player with two or more clued 1's in their hand does not play a 1 and instead gives a *Save Clue* to a 2, a 5, or a critical card on the next player's chop, this is very strange.
+* In this situation, if there is nothing else special going on, the player who got clued should *Chop Move* the card next to the one that was explicitly saved.
 
 ### The Trash Push Prompt & The Trash Push Finesse
 
@@ -1890,7 +1890,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 | The 5 Pull Promise | Libster
 | Rank Choice Bluff & Rank Choice Finesse | Zamiel
 | The Load Clue | Zamiel
-| The Redundant 5's Chop Move | q
+| The Redundant Save Chop Move | q
 | The Composition Discard | Libster
 | The Negative Self-Chop Move | Libster
 | Empty Clues | Zamiel and Florrat
