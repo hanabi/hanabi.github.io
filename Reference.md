@@ -1283,6 +1283,10 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 * This convention applies to the *Multi-Fives* variant.
 * Since 5's cannot be *5 Saved*, a number 2 clue must be used to save them as a pseudo-*2 Save*.
+
+### 4 Stalls & Early 4's Chop Move & 4 Pull
+
+* This convention applies to the *Multi-Fives* variant.
 * In the *Early Game*, since it is not possible to clue number 5, players cannot *5 Stall*. However, we agree that a number 4's clue in the early game indicates that the card is really a 5. Thus, it is possible to *4 Stall*. (A *4 Stall* interpretation takes precedence over a *Self-Finesse*.)
   * This is only legal if the clue ONLY touches real 5's. In other words, players may not give a *4 Stall* if touches a mix of 4's and 5's.
   * Similar to a *5 Stall*, if there are other things to do and a *4 Stall* is given, then it transforms into a *Early 4's Chop Move* or a *4 Pull*.
@@ -1442,7 +1446,13 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * In the unlikely scenario where TWO people in a row have known plays / known safe discards, then the *Echo Scream Discard* will bounce off of two people and perform THREE *Chop Moves* in total. (And three people in a row cause four chop moves, and so forth.)
 * An *Echo Whisper Discard* works in the same way.
 
-### Stop Discard
+### The Double Scream Discard Chop Move
+
+* If a player has a known playable card and a known trash card, and they discard instead of playing, then that is a *Scream Discard* and the next player should *Chop Move*.
+* If a player has a known playable card and two known trash cards, and they discard the oldest trash card instead of playing, then that is both a *Scream Discard Chop Move* and a *Trash Order Chop Move* at the same time.
+* In this situation, the next player should *Chop Move* twice.
+
+### The Stop Discard
 
 * Normally, when someone discards with a known play and the next player already has something to do, it is an *Echo Scream Discard*.
 * However, it could also be the case that the next player after that does not have a playable/critical card on chop. Or, alternatively, it could be the case that EVERYONE has something to do on their turn. Thus, discarding is normally considered a mistake.
@@ -1535,7 +1545,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 ### The Top Hat Clue
 
 * Since the *Layered Gentleman's Discard* is so efficient, clever players that see the opportunity to perform one will almost always want to do so.
-* Thus, it follows that in rare cases, when a teammate gives you a play clue on some card, they DON'T intend for you to play it. They intend for you to see the opportunity for a *Layered Gentleman's Discard*, and then immediately discard the card.
+* Thus, it follows that in rare cases, when a teammate gives you a play clue on some card, they DO NOT intend for you to play it. They intend for you to see the opportunity for a *Layered Gentleman's Discard*, and then immediately discard the card.
 * This kind of clue is called a *Top Hat Clue* because you are giving them an opportunity to be a gentleman.
 * Note that you should not mistake a *Top Hat Clue* for a clue that initiates a *Layered Finesse*. You are only allowed to discard the card if you can determine its exact identity.
 
@@ -1569,8 +1579,8 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * If the card that is going to misplay is exactly one-away from being playable, then this should be treated as a *Finesse* on the one-away card. By blind-playing the card, it will "repair" the problem, and the *Prompted* player will no longer misplay anything.
 * Note that the *Repair Finesse* will only work in the situations where the "repairing" blind-play will not stop the *Prompted* player from playing. In order words, if a *Prompted* player sees a blind-play immediately after a clue, they will assume that a normal *Bluff* has occurred, which is the simplest interpretation.
 * The *Repair Finesse* is extremely similar to the *Patch Finesse*, with the difference being that the blind-play fixes a player playing a chain of *Prompted* cards instead of a chain of cards inside of a *Layered Finesse*.
-* Example:
-  * Game: #16695, turn 10
+* Examples:
+  * Game #16695, turn 10
 
 ### The Reverse Bluff / The Out-of-Position Bluff (O.O.P. / OOP) (bad)
 
@@ -1717,6 +1727,13 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 ### The Trash Push Prompt & The Trash Push Finesse
 
 * If you see that a player *Trash Pushes* an unplayable one-away card, it is a signal to you that you have the connecting card.
+
+### The Distribution Finesse
+
+* On the final round of the game, it is possible to perform a *Prompt* on a player that would be useless - they will not get a chance to play the *Prompted* card before the game ends.
+* If a player does this anyway, then it must be communicating something extra. In this situation, it is to be interpreted as a *Finesse* instead of a *Prompt* for the purposes of better satisfying *Team Distribution Principle*.
+* Examples:
+  * Game #16887, turn 29 if Instantiation clues blue on the blue 5
 
 ### The Suboptimal Color Prompt & The Suboptimal Color Finesse
 
@@ -1933,10 +1950,17 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 | The Empty Finesse | Instantiation
 | The Flush Clue | Florrat
 | The Fresh Play Clue | Instantiation
-| The Speculation Prompt & The Speculation Finesse | Libster, Forrat, and Zamiel
+| The Speculation Prompt & The Speculation Finesse | Libster, Forrat, & Zamiel
 | The Declined 5's Finesse | Zamiel
 | The Empty Double-Play | Zamiel & Jeep
 | The Suboptimal Save Prompt & The Suboptimal Save Finesse | Zamiel
 | The Empty Bluff | Cory
 | The Black Save Bluff | Sankala
 | Inverted Priority Finesse | Zamiel
+| Multi-Five Saves | Libster
+| 4 Stalls & Early 4's Chop Move & 4 Pull | Andrew U.K.
+| The Trash Pull | Libster
+| The Repair Finesse | Zamiel
+| The Paused Priority Finesse | Asddsa
+| The Double Scream Discard Chop Move | Asddsa
+| The Distribution Finesse | Asddsa
