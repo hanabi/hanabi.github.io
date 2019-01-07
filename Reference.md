@@ -1154,6 +1154,18 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Players are not allowed to *5 Stall* in the *Early Game*. Any clue that looks like a *5 Stall* is instead treated as either a *5's Chop Move* or a *5 Pull*.
   * Players are not required to clue anything in the *Early Game*; they are allowed to initiate the *Mid-Game* whenever they see fit.
 
+### White Compromise (5 Chop Moves)
+
+* This convention applies to any variant with a white (colorless) suit.
+* When you clue a white 5 that is one away from chop, it would normally look like a *5's Chop Move*.
+* However, if the white 4 is currently played, all 5 clues that could be *5's Chop Moves* are treated instead *Play Clues* on white 5.
+
+### White Compromise (5 Pulls)
+
+* This convention applies to any variant with a white (colorless) suit.
+* When you clue a white 5 in the *Early Game* that is two or more away from chop, it would normally look like a *5 Pull*.
+* However, if there are white cards visible and it could be a *Finesse* on the white 5, then it should be treated as a *Finesse* instead of a *5 Pull*.
+
 ### Black 2 & Black 5 Saves
 
 * This convention applies to the *Black Suit (one of each)* and *Wild & Crazy* variants.
@@ -1217,27 +1229,16 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * If a suboptimal color is chosen that does not fill in ancillary cards, it follows from *High Value Principle* that there must be a reason, so you should blind-play your *Finesse Position* card.
 * This move is contextual in that you don't want to make it appear as if the clued card is currently unplayable. Thus, it is best performed as a *Reverse Bluff* or a *Long-Distance Bluff*.
 
-### White Compromise (5 Chop Moves)
-
-* This convention applies to any variant with a white (colorless) suit.
-* When you clue a white 5 that is one away from chop, it would normally look like a *5's Chop Move*.
-* However, if white 4 is currently played, all 5 clues that could be *5's Chop Moves* are treated instead *Play Clues* on white 5.
-
-### White Compromise (5 Pulls)
-
-* This convention applies to any variant with a white (colorless) suit.
-* When you clue a white 5 in the *Early Game* that is two or more away from chop, it would normally look like a *5 Pull*.
-* However, if there are white cards visible and it could be a *Finesse* on the white 5, then it should be treated as a *Finesse* instead of a *5 Pull*.
-
 ### The Negative Prompt
 
 * This convention applies to the *Dual-color Suits* variant.
 * In this variant, since negative color information conveys just as much information as positive color information, you should include that when deciding which card to play into a *Prompt*.
 * For example:
-  * Imagine that you have a red card in slot 1 and a red card in slot 2.
-  * You are then *Prompted* for a Burgundy 2. (Burgundy is composed of red and black.)
-  * Normally, you would play slot 1, since *Prompts* promise the left-most card.
-  * However, if the slot 1 card has no negative clues, and the slot 2 card has a negative yellow clue, then this is a *Negative Prompt* and you should play slot 2 instead of slot 1.
+  * Alice has a red card in slot 1 and a red card in slot 2.
+  * Alice is *Prompted* for a mahogany 2. (Mahogany is composed of red and black.)
+  * Normally, Alice would play slot 1, since *Prompts* promise the left-most card.
+  * However, Alice's slot 1 card has no negative clues, and her slot slot 2 card has a negative yellow clue.
+  * Thus, this is a *Negative Prompt* and Alice plays slot 2 instead of slot 1.
 
 ### Crazy 3 Saves & Crazy 4 Saves
 
