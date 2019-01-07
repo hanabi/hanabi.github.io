@@ -1066,6 +1066,16 @@ This section is unique in that it contains things that are separate from actual 
   * Alice must be sending a signal to the team that someone has a red card ready to play. Thus, Cathy immediately blind-plays her *Finesse Position* card, and it is the red 4.
   * Bob sees Cathy blind-play the next red card for seemingly no reason, so he is able to deduce that his slot 2 card is trash.
 
+### The Trash Pull
+
+* Sometimes, towards the end of the game, there can be a playable card in the middle of someone's hand that is not clueable directly due to the presence of other blocking cards.
+* In this situation, players often resort to a *Trash Push* in order to "get" the card without cluing it directly. However, this will obviously only work if the player has a trash card on their chop, which may not always be the case.
+* Another tool to "get" a card in the middle of a hand is by doing the opposite of a *Trash Push* - a *Trash Pull*.
+* If an off-chop trash card is clued, this would typically be interpreted as a *Trash Chop Move*. However, towards the end of the game, a *Chop Move* would be pointless, as there are no cards left to chop move. Thus, the player should know that it is a *Trash Pull* instead of a *Trash Chop Move*, and should blind-play the card to the right of the trash.
+* Just like how a *5 Pull* can only be done in the *Early Game*, a *Trash Pull* can only be done at the end of the game.
+* Since players often perform *Burn* clues for stalling purposes in the *End-Game*, care has to be taken to not confuse a normal *Burn* clue with a *Trash Pull*. This is especially true if there was nothing else obvious for the cluer to do!
+* *Trash Pulls* should typically be used as a last-resort since they might be misinterpreted.
+
 ### A Trash Flowchart
 
 There are a lot of different moves that involve cluing trash. [Here is a handy flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/cluing_trash_flowchart.png) for determining the difference between the different types of special moves that touch trash.
