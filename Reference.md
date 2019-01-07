@@ -567,6 +567,45 @@ This section is unique in that it contains things that are separate from actual 
 * On the final go-around of the game, if you have no clues left and no cards to play, you can transmit information based on which card you discard.
 * Thus, you can discard the slot in your hand that matches the slot in someone else's hand that they are supposed to play.
 
+### The Hidden Finesse
+
+* Sometimes, you want to *Finesse* someone with a clued card already in their hand. However, if you try to *Finesse* them, they will assume it is a *Prompt* and will misplay their already clued card, so it doesn't work out.
+* However, what if the clued card actually is playable? That means you can still do the *Finesse* - they will play the *Prompted* card, see that it wasn't the card you had intended, and then blind-play their 2nd newest card on the next turn. This is called a *Hidden Finesse* because the *Finesse* was temporarily hidden by the presence of clued card.
+* For example, in a 3-player game:
+    * Red 1 and rainbow 2 are played on the stacks.
+    * Alice clues red to Cathy, which touches her red 3.
+    * Bob has a rainbow 3 clued as red in her hand and he has no idea what it is.
+    * Bob sees that Alice's clue must be a *Prompt*, so he plays his red card as red 2. He is surprised to see that it is actually rainbow 3.
+    * Bob knows that he really must have the red 2, and it must have been on *Finesse Position* when Alice originally gave the clue. Since he just drew a card after he played the rainbow 3, he now knows that the red 2 is on his slot 2 (the second-newest card).
+    * On Bob's next turn, he blind-plays his the red 2 from slot 2.
+    * In this example, the red 2 was "hidden" by the rainbow 3.
+
+### The Layered Finesse
+
+* Normally, if a red card is clued and someone blind-plays a blue card, it would be some kind of *Bluff*. However, we only allow players to perform a *Bluff* on the very next player. (This is referred to as sitting in *Bluff Seat*.)
+* It follows from this that if an unrelated card is blind-played, and it cannot be a *Bluff*, then it must be a special kind of *Finesse*.
+* Normally, a *Finesse* promises the exact copy of the card on *Finesse Position*. However, as long as all of the cards leading to the card are playable, you can still promise the exact copy of the card. With respect to *Good Lie Principle*, we don't count this as a "lie", since the blind-playing player does indeed have the true copy of the card.
+* We call this a *Layered Finesse* because the intended *Finesse* blind-play target is "layered" behind other playable cards.
+* For example, in the following screenshot:
+  * SedNegi clues yellow 3, which is a signal that it is playable right now.
+  * 910dan comes next. At first glance, this might be a *3 Bluff*, since SedNegi used number 3. However, *Finesses* take priority over *Bluffs*, and since it could be a *Layered Finesse* on Zamiel, then it cannot be a *3 Bluff*.
+  * 910dan therefore assumes that it is a *Layered Finesse* on Zamiel and clues blues to SedNegi, which is a *Play Clue* on blue 1.
+  * Zamiel sees the yellow 2 on 910dan's *Finesse Position*. Thus, it would make the most sense for SedNegi's clue to be a *Double Finesse* on yellow 1 and yellow 2. Zamiel blind-plays his *Finesse Position* card, expecting it to be yellow 1. Instead, it is purple 1. Zamiel now thinks that SedNegi's initial clue was touching a purple 3 to initiate a *Double Self-Finesse* on purple 1 and purple 2.
+  * SedNegi plays blue 1.
+  * 910dan now knows that it was indeed a *Layered Finesse*, and that he has the yellow 2 on his *Finesse Position*. But he has to wait for the yellow 1 to come down first before he can play it. So, he clues purple to Zamiel, which is a *Play Clue* on purple 2.
+  * Zamiel now has negative purple on his 3, which means that it must be yellow 3 after all. He now understands that SedNegi's original clue was a *Layered Finesse*. Zamiel blind-plays yellow 1 from slot 2.
+  * SedNegi clues 1's to 910dan, which touches two 1's.
+  * 910dan blind-plays yellow 2 from slot 1.
+  * Zamiel plays yellow 3.
+
+![Layered Finesse](img/layered_finesse.jpg)
+
+### The Paused Priority Finesse
+
+* For the purposes of *Priority*, blind-playing a card is the most important thing to do. When players are supposed to be blind-playing a card, they are usually NOT allowed to perform a *Priority Finesse* - they must stick to playing the blind card.
+* One exception to this is if a player is in the middle of unraveling the layer of a *Layered Finesse*. Since they have already blind-played their first card in the layer, they have demonstrated that the *Finesse* was on them, and now everyone on the team knows that the rest of the cards inside of the layer are "gotten" for sure.
+* Thus, in this situation, a player can "pause" playing into the *Layered Finesse* and play some other clued card to perform a *Paused Priority Finesse*.
+
 ### The Sarcastic Discard
 
 * Occasionally, through a mistake (or complicated situation), the same card will be clued in two different people's hands. Generally, this is to be avoided, but sometimes it happens. Handling this can be tricky.
@@ -794,7 +833,7 @@ This section is unique in that it contains things that are separate from actual 
 
 * *5 Pulls* are also allowed to initiate a *Prompt* or *Finesse*.
 * However, *5 Pulls* are NOT allowed to initiate a *Reverse Finesse*.
-* With that said, players DO have to respect that forward *5 Pull Finesses* could be *Layered*/*Clandestine*. (This terminology is covered later on.)
+* With that said, players DO have to respect that forward *5 Pull Finesses* could be *Layered*/*Clandestine*. ("Clandestine" is terminology is covered later on.)
 
 ### The 5 Pull Promise (A Follow-up Play Clue After a 5 Pull)
 
@@ -924,39 +963,6 @@ This section is unique in that it contains things that are separate from actual 
 * When this occurs, even if the clue looks like an ordinary *Save Clue*, it MUST be a *Play Clue*, since the player who was doing it was occupied.
 * Furthermore, if an *Occupied Play Clue* is given to a card that is not directly playable right now, it must be an *Occupied Finesse*!
 * The concept of an *Occupied Finesse* generalizes to lots of different kind of moves. For example, when an occupied player clues an off-chop 5, it is certainly not a *5 Stall* - it must be an *Occupied 5 Pull*!
-
-### The Hidden Finesse
-
-* Sometimes, you want to *Finesse* someone with a clued card already in their hand. However, if you try to *Finesse* them, they will assume it is a *Prompt* and will misplay their already clued card, so it doesn't work out.
-* However, what if the clued card actually is playable? That means you can still do the *Finesse* - they will play the *Prompted* card, see that it wasn't the card you had intended, and then blind-play their 2nd newest card on the next turn. This is called a *Hidden Finesse* because the *Finesse* was temporarily hidden by the presence of clued card.
-* For example, in a 3-player game:
-    * Red 1 and rainbow 2 are played on the stacks.
-    * Alice clues red to Cathy, which touches her red 3.
-    * Bob has a rainbow 3 clued as red in her hand and he has no idea what it is.
-    * Bob sees that Alice's clue must be a *Prompt*, so he plays his red card as red 2. He is surprised to see that it is actually rainbow 3.
-    * Bob knows that he really must have the red 2, and it must have been on *Finesse Position* when Alice originally gave the clue. Since he just drew a card after he played the rainbow 3, he now knows that the red 2 is on his slot 2 (the second-newest card).
-    * On Bob's next turn, he blind-plays his the red 2 from slot 2.
-    * In this example, the red 2 was "hidden" by the rainbow 3.
-
-### The Layered Finesse
-
-* Normally, if a red card is clued and someone blind-plays a blue card, it would be some kind of *Bluff*. However, recall that we only allow players to perform a *Bluff* on the very next player. (This is referred to as sitting in *Bluff Seat*.)
-* It follows from this that if an unrelated card is blind-played, and it cannot be a *Bluff*, then it must be a special kind of *Finesse*.
-* Normally, a *Finesse* promises the exact copy of the card on *Finesse Position*. However, as long as all of the cards leading to the card are playable, you can still promise the exact copy of the card. With respect to *Good Lie Principle*, we don't count this as a "lie", since the blind-playing player does indeed have the true copy of the card.
-* We call this a *Layered Finesse* because the intended *Finesse* blind-play target is "layered" behind other playable cards.
-* For example, in the following screenshot:
-  * SedNegi clues yellow 3, which is a signal that it is playable right now.
-  * 910dan comes next. At first glance, this might be a *3 Bluff*, since SedNegi used number 3. However, *Finesses* take priority over *Bluffs*, and since it could be a *Layered Finesse* on Zamiel, then it cannot be a *3 Bluff*.
-  * 910dan therefore assumes that it is a *Layered Finesse* on Zamiel and clues blues to SedNegi, which is a *Play Clue* on blue 1.
-  * Zamiel sees the yellow 2 on 910dan's *Finesse Position*. Thus, it would make the most sense for SedNegi's clue to be a *Double Finesse* on yellow 1 and yellow 2. Zamiel blind-plays his *Finesse Position* card, expecting it to be yellow 1. Instead, it is purple 1. Zamiel now thinks that SedNegi's initial clue was touching a purple 3 to initiate a *Double Self-Finesse* on purple 1 and purple 2.
-  * SedNegi plays blue 1.
-  * 910dan now knows that it was indeed a *Layered Finesse*, and that he has the yellow 2 on his *Finesse Position*. But he has to wait for the yellow 1 to come down first before he can play it. So, he clues purple to Zamiel, which is a *Play Clue* on purple 2.
-  * Zamiel now has negative purple on his 3, which means that it must be yellow 3 after all. He now understands that SedNegi's original clue was a *Layered Finesse*. Zamiel blind-plays yellow 1 from slot 2.
-  * SedNegi clues 1's to 910dan, which touches two 1's.
-  * 910dan blind-plays yellow 2 from slot 1.
-  * Zamiel plays yellow 3.
-
-![Layered Finesse](img/layered_finesse.jpg)
 
 ### The Clandestine Finesse
 
