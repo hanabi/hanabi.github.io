@@ -1229,6 +1229,29 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * If a suboptimal color is chosen that does not fill in ancillary cards, it follows from *High Value Principle* that there must be a reason, so you should blind-play your *Finesse Position* card.
 * This move is contextual in that you don't want to make it appear as if the clued card is currently unplayable. Thus, it is best performed as a *Reverse Bluff* or a *Long-Distance Bluff*.
 
+### Dark Rainbow Saves
+
+* This convention applies to the *Dark Rainbow* variant (where each rainbow card is critical).
+* Players should save dark rainbow 3 and dark rainbow 4 with a number clue.
+* There are two exceptions to this:
+  * if the color clue also touched another critical card (that is not dark rainbow)
+  * if the color matches a suit that is already completely played or accounted for
+* Note that this convention does NOT apply to the *Black & Dark Rainbow* variant. In that variant, you must save dark rainbow 3 and dark rainbow 4 with a black color clue.
+
+### Color Blind Conventions
+
+* These conventions apply to the *Color Blind* variants.
+* Number clues mean the same thing as normal.
+* All color clues have a special meaning:
+  * Blue means play slot 1.
+  * Green means play slot 2.
+  * Yellow means play slot 3.
+  * Red means play slot 4.
+  * Purple means play slot 5 (in 2 and 3-player games).
+  * Purple means that the next two players should play their *Finesse Position* card (in 4 and 5-player games).
+  * Orange means chop move.
+* All color *Play Clues* have to be treated as potential *Delayed Play Clues*, *Prompts*, and *Reverse Finesses*.
+
 ### The Negative Prompt
 
 * This convention applies to the *Dual-color Suits* variant.
@@ -1239,6 +1262,15 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Normally, Alice would play slot 1, since *Prompts* promise the left-most card.
   * However, Alice's slot 1 card has no negative clues, and her slot slot 2 card has a negative yellow clue.
   * Thus, this is a *Negative Prompt* and Alice plays slot 2 instead of slot 1.
+
+### Multi-Five Saves
+
+* This convention applies to the *Multi-Fives* variant.
+* Since 5's cannot be *5 Saved*, a number 2 clue must be used to save them as a pseudo-*2 Save*.
+* In the *Early Game*, since it is not possible to clue number 5, players cannot *5 Stall*. However, we agree that a number 4's clue in the early game indicates that the card is really a 5. Thus, it is possible to *4 Stall*. (A *4 Stall* interpretation takes precedence over a *Self-Finesse*.)
+  * This is only legal if the clue ONLY touches real 5's. In other words, players may not give a *4 Stall* if touches a mix of 4's and 5's.
+  * Similar to a *5 Stall*, if there are other things to do and a *4 Stall* is given, then it transforms into a *Early 4's Chop Move* or a *4 Pull*.
+  * Once the *Early Game* is over, players may not *4 Stall*.
 
 ### Crazy 3 Saves & Crazy 4 Saves
 
@@ -1256,29 +1288,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   1) No *Crazy 3 Saves* and no *Crazy 4 Saves* – you must duplicate a rainbow card if you want to save a black 3 or black 4
   2) No Locked Hand Saves – locked players must perform a "hard burn" if they have no normal *Play Clues* or *Save Clues* or off-chop 5's to clue
 * Besides these specific alterations, you should also account for the fact that the team will play more risky in general – more aggressive discards, more letting cards "ride" on chop, and so forth.
-
-### Acid Trip Conventions
-
-* These conventions apply to the *Acid Trip* variant.
-* Number clues mean the same thing as normal.
-* All color clues have a special meaning:
-  * Blue means play slot 1.
-  * Green means play slot 2.
-  * Yellow means play slot 3.
-  * Red means play slot 4.
-  * Purple means play slot 5 (in 2 and 3-player games).
-  * Purple means that the next two players should play their *Finesse Position* card (in 4 and 5-player games).
-  * Orange means chop move.
-* All color *Play Clues* have to be treated as potential *Delayed Play Clues*, *Prompts*, and *Reverse Finesses*.
-
-### Rainbow 1oE Saves
-
-* This convention applies to the *Rainbow Suit (one of each)* variant.
-* Players should save rainbow 3 and rainbow 4 with a number clue.
-* There are two exceptions to this:
-  * if the color clue also touched another critical card (that is not rainbow)
-  * if the color matches a suit that is already completely played or accounted for
-* Note that this convention does NOT apply to the *Rainbow & Black Suits (one of each)* variant. In that variant, you must save rainbow 3 and rainbow 4 with a black color clue.
 
 ### Empty Clues
 
