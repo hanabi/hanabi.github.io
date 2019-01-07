@@ -604,7 +604,7 @@ This section is unique in that it contains things that are separate from actual 
 
 * For the purposes of *Priority*, blind-playing a card is the most important thing to do. When players are supposed to be blind-playing a card, they are usually NOT allowed to perform a *Priority Finesse* - they must stick to playing the blind card.
 * One exception to this is if a player is in the middle of unraveling the layer of a *Layered Finesse*. Since they have already blind-played their first card in the layer, they have demonstrated that the *Finesse* was on them, and now everyone on the team knows that the rest of the cards inside of the layer are "gotten" for sure.
-* Thus, in this situation, a player can "pause" playing into the *Layered Finesse* and play some other clued card to perform a *Paused Priority Finesse*.
+* Thus, in this situation, a player can "pause" finishing up the *Layered Finesse* and play some other clued card to perform a *Paused Priority Finesse*.
 
 ### The Sarcastic Discard
 
@@ -1207,7 +1207,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * Building on the *3 Bluffs* convention, we also agree that is possible for a card that initiates a *Bluff* to be a copy of black 4.
 * However, it is only possible to do this with a black color clue.
 
-### The Black 1 Bluff
+### The Black Save Bluff
 
 * Normally, if a black 1 is on chop, it is clued with number 1 instead of black. This is because a black color clue would make it look like a *Save Clue* on either black 3 or black 4, and then it would sit there, not being played.
 * Furthermore, if a black 1 is on chop and it was clued as black AND the clue touched other brand new black cards in the hand, then the clue could also be a *Save Clue* on black 2 (as per the *Save Clue* rules outlined in the *Black 2 Saves* section).
@@ -1216,6 +1216,8 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * In a normal *Bluff*, the player receiving the clue would think that it is a one-away card. In this case, if it was a normal *Bluff*, they would think that they have the black 2.
 * However, as noted above, in this situation black 2's on chop are allowed to be touched as a *Save Clue*. So, touching a black 2 in this way would NOT cause a blind-play.
 * Thus, by convention, the card should be black 1, and they can play it.
+* It is also possible to use this convention to perform a *Black Save Bluff* on cards other than the black 1. For example, in a 3-player game:
+  * Alice has if a player can cleanly clue number 2 to a black 2 on chop, but they instead clue a black 2 in the situation 
 
 ### The Free Choice Finesse
 
