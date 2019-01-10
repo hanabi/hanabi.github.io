@@ -1160,12 +1160,10 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### Hard Variants & Easy Variants
 
-* We define "hard" variants as variants that demand an enormous amount of efficiency. The following variants are defined as hard:
-  * *Black Suit (one of each)* - 5-player only
-  * *Wild & Crazy* - 5-player only
-  * *Rainbow Suit (one of each)* - 5 player-only
-  * *Black & Rainbow (one of each)* - 3-player, 4-player, and 5-player
-* In hard variants, some changes are made to the conventions:
+* Some variants demand an enormous amount of efficiency. Since our normal conventions result in conservative play, we agree to change the way that we play in some specific variants in order to win more consistently.
+* The necessary efficiency needed in order to win each variant is located on [the efficiency tables page](https://github.com/Zamiell/hanabi-conventions/blob/master/other-conventions/Efficiency.md).
+* We define any variant that requires equal to or greater than 1.30 efficiency as a "hard" variant. (Note that a variant can be considered easy in 4-player, but hard in 5-player, for example.)
+* In hard variants, the following changes are made to the conventions:
   * Players are not allowed to *Double Discard Avoid*. Any clue given in a *Double Discard* situation will instead be treated like a normal clue.
   * Players are not allowed to *5 Stall* in the *Early Game*. Any clue that looks like a *5 Stall* is instead treated as either a *5's Chop Move* or a *5 Pull*.
   * Players are not required to clue anything in the *Early Game*; they are allowed to initiate the *Mid-Game* whenever they see fit.
@@ -1967,3 +1965,4 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 | The Paused Priority Finesse | Asddsa
 | The Double Scream Discard Chop Move | Asddsa
 | The Distribution Finesse | Asddsa
+| The Full Finesse | NoMercy
