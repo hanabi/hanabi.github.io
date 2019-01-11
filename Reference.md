@@ -1257,7 +1257,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 ### The Full Finesse
 
 * This convention applies to any variant with only 3 suits.
-* The *5 Stall*, *Early 5's Chop Move*, and *5 Pull* conventions are "turned off".
+* The *5 Stall*, *5's Chop Move*, and *5 Pull* conventions are "turned off".
 * If a 5 is clued, then it is to be treated as a *Finesse* on the full suit from 1 to 5.
 
 ### Color Blind Conventions
