@@ -133,6 +133,15 @@
 
 ## Dealing with Edge Cases
 
+### Empty Clue Planning
+
+* When mapping out the targets for their *Empty Clue*, players must plan out the line in the opposite order that the cards will play.
+* For example, in a 4-player game:
+  * It is the first turn of the game.
+  * Alice wants to give an empty clue.
+  * Alice must work from right to left, so she first decides an action for Donald, then Cathy, and then Bob.
+* Planning must be done in this way in case two or more players have the same playable card in their hand.
+
 ### Empty Minimum Clue Value Principle
 
 * Normally, a clue is allowed to touch a single card as a 1-for-1. However, this does not apply to *Empty Clues*. *Empty Clues* must be better than this.
@@ -190,6 +199,18 @@
   * Alice discards.
   * Now that all of his other playable cards are played, Bob can blind-play the *Empty Clue* target and successfully plays the blue 3 from slot 1.
   * Now that all of her other playable cards are played, Cathy can blind-play the *Empty Clue* target and successfully plays the red 1 from slot 1.
+
+### Empty Clue Planning with Stacked Plays
+
+* When planning an *Empty Clue*, the "right-to-left" rule does not always work if there are one or more players with known playable cards. The reason is somewhat complicated - players will assume that an *Empty Clue* is giving a *Stacked Play* to the player that already has playable cards to play.
+* In this situation, instead of planning from right-to-left, you must plan by starting with the player with the most playable cards, and then the player with the second most playable cards, and so forth. If there is a tie, then you start with the right-most player.
+* For example, in a 4-player game:
+  * Alice is planning her *Empty Clue*.
+  * Bob has a known red 1 and a known red 2 to play.
+  * Donald has a known blue 1 to play.
+  * Alice would normally plan her line with Donald, Cathy, and then Bob (right-to-left).
+  * However, since players have some known playable cards, this won't work.
+  * Alice instead plans the line with Bob, Donald, and then Cathy.
 
 ### Empty Clue Misplay Agreement
 
