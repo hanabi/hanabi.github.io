@@ -1183,7 +1183,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### Black 2 & Black 5 Saves
 
-* This convention applies to the *Black Suit (one of each)* and *Wild & Crazy* variants.
+* This convention applies to any variant with a black (one of each) suit.
 * Players should save black 2's and black 5's with a number clue instead of a color clue. (This helps narrow down what card is being clued.)
 * There are four exceptions to this:
   * if the black clue touched two or more brand new black cards OR critical Rainbow cards
@@ -1194,7 +1194,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### Black 3 & Black 4 Saves
 
-* This convention applies to the *Black Suit (one of each)* and *Wild & Crazy* variants.
+* This convention applies to any variant with a black (one of each) suit.
 * Players should save black 3's and black 4's with a color clue instead of a number clue. (This helps narrow down what card is being clued.)
 * There is one exception to this:
   * if the number clue also touched another critical card
@@ -1202,12 +1202,13 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### Black 4 Bluffs
 
-* This convention applies to the *Black Suit (one of each)* and *Wild & Crazy* variants.
+* This convention applies to any variant with a black (one of each) suit.
 * Building on the *3 Bluffs* convention, we also agree that is possible for a card that initiates a *Bluff* to be a copy of black 4.
 * However, it is only possible to do this with a black color clue.
 
 ### The Black Save Bluff
 
+* This convention applies to any variant with a black (one of each) suit.
 * Normally, if a black 1 is on chop, it is clued with number 1 instead of black. This is because a black color clue would make it look like a *Save Clue* on either black 3 or black 4, and then it would sit there, not being played.
 * Furthermore, if a black 1 is on chop and it was clued as black AND the clue touched other brand new black cards in the hand, then the clue could also be a *Save Clue* on black 2 (as per the *Save Clue* rules outlined in the *Black 2 Saves* section).
 * Thus, if another player intentionally clues a black 1 on chop with a black color clue AND it touched other brand new black cards, this would be quite strange, as it would not get the black 1 to play, so they must be trying to communicate something extra.
@@ -1220,7 +1221,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### The Free Choice Finesse
 
-* This convention applies to any variant with a *Rainbow* suit or a dual-color suit.
+* This convention applies to any variant with a rainbow (touched by all colors) suit or a dual-color suit.
 * When performing a *Prompt* by touching a sole rainbow card, the player doing the clue may have a free choice between multiple colors. In other words, there may exist multiple colors that will ONLY touch the rainbow card.
 * If a player has a free choice to choose the color that matches the intended *Prompt* target but instead deliberately chooses a different color, this signals that it is actually a *Finesse* instead of a *Prompt*.
 * For example, on the first turn of a 3-player game:
@@ -1235,20 +1236,20 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### The Free Choice Bluff
 
-* This convention applies to any variant with a *Rainbow* suit or a dual-color suit.
+* This convention applies to any variant with a rainbow (touched by all colors) suit or a dual-color suit.
 * It is possible to use the *Free Choice* convention to communicate to a teammate that you want a *Finesse* instead of a *Prompt* in order to get them to play an unrelated playable card from their *Finesse Position*.
 * Like a normal *Bluff*, after a *Free Choice Bluff*, the player who blind-played does not necessarily have the "matching" card in their hand.
 
 ### The Suboptimal Color Bluff
 
-* This convention applies to any variant with a *Rainbow* suit or a dual-color suit.
+* This convention applies to any variant with a rainbow (touched by all colors) suit or a dual-color suit.
 * Often, when giving a color clue to a Rainbow or dual-color card, you want to pick a color that will "fill-in" ancillary cards in the hand as to give the maximum amount of information.
 * If a suboptimal color is chosen that does not fill in ancillary cards, it follows from *High Value Principle* that there must be a reason, so you should blind-play your *Finesse Position* card.
 * This move is contextual in that you don't want to make it appear as if the clued card is currently unplayable. Thus, it is best performed as a *Reverse Bluff* or a *Long-Distance Bluff*.
 
 ### Dark Rainbow Saves
 
-* This convention applies to the *Dark Rainbow* variant (where each rainbow card is critical).
+* This convention applies to any variant with a dark rainbow (touched by all colors and one of each) suit.
 * Players should save dark rainbow 3 and dark rainbow 4 with a number clue.
 * There are two exceptions to this:
   * if the color clue also touched another critical card (that is not dark rainbow)
