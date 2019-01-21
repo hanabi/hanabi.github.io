@@ -1807,6 +1807,43 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * Since the *Second Finesse Position* card was played instead of the *Finesse Position* card, then the player who received the clue will know that the card is trash.
 * With the *Trash Bluff*, if multiple cards are clued, it means that ALL of the cards are trash. However, with *Unknown Trash Ejection*, if multiple cards are clued, only the focus of the clue is trash.
 
+#### Order Ejection
+
+* When a player can perform an *Order Chop Move* on a critical 5 (or a critical black card) at the beginning of the game, and they don't do it, this is very strange.
+* The player must be communicating something extra. In this scenario, they intend for the next person to blind-play slot 2.
+* The *Order Ejection* will also get a free *Chop Move* in addition to getting the blind-play.
+* For example, in a 4-player game:
+  * Blue 1 is played on the stacks.
+  * Alice clues Bob 1's, touching three 1's on slot 2, slot 3, and slot 4.
+  * Donald has a 5 on chop (and the rest of his hand is trash).
+  * Bob could play his 1 on slot 2 to *Skipped Order Chop Move* Donald's 5 for "free".
+  * Bob instead plays his 1 on slot 4 (which does nothing special).
+  * Cathy sees no possible reason for not getting a "free" *Chop Move* on a 5, so she knows that this is an *Order Ejection*. Cathy blind-plays slot 2 and it plays as a blue 2.
+  * Donald knows that Cathy must be blind-playing slot 2 for a reason. The only thing that happened that could have possibly caused the blind-play was the order that Bob played his 1's in. Thus, Donald knows that an *Order Ejection* has occurred and that she should *Chop Move*.
+  * Furthermore, Donald knows that his *Chop Moved* card MUST be a 5 or some other critical card. (This is unlike a normal *Order Chop Move*, since in a *Order Chop Move* is also allowed to get a non-critical card.)
+* Note that *Order Ejections* only apply if the player did not *Order Chop Move* a **critical** card. Unique 2's do NOT count as critical in this case.
+
+#### Reverse Order Ejection
+
+* It is also possible to do a *Reverse Order Ejection*, meaning that the blind-play will occur AFTER the person with the critical card has a turn.
+* For an *Order Ejection* to work, the player must have three or more 1's to choose from. But a *Reverse Order Ejection* is more flexible in that it only requires two 1's.
+* For example, in a 4-player game:
+  * Blue 1 is played on the stacks.
+  * Alice clues Bob 1's, touching a 1 on slot 2 and a 1 on slot 3.
+  * Cathy has a 5 on chop (and the rest of her hand is trash).
+  * If Bob plays the slot 2 card, this would be a "free" *Order Chop Move* on the 5.
+  * Bob plays the 1 from slot 3 (which does nothing special).
+  * Cathy clues number 5 to Bob as a *5 Save*.
+  * Donald knows that Bob should have *Order Chop Moved* Cathy's 5, so he knows that this is a *Reverse Order Ejection*. Donald blind-plays his slot 2 card and it is a blue 2.
+  * Cathy knows that Donald did not blind-play from her *5 Save*, so the blind-play must have been from something else. The only other thing that happened was Bob playing the 1. Thus, Cathy knows that an *Reverse Order Ejection* has occurred and she retroactively *Chop Moves* herself.
+* Unlike a normal *Order Ejection*, the *Reverse Order Ejection* is not guaranteed to work. This is because Cathy is within her rights to "get" the *Second Finesse Position* card of Donald (with a direct *Play Clue* of her own). Thus, *Reverse Order Ejections* should only be done in specific circumstances where it is unlikely that Cathy will do so.
+* If a *Reverse Order Ejection*  fails, everyone on the team should be aware that they now need to save the chop of Cathy.
+* For example, in a 4-player game:
+  * The setup is exactly the same as in the previous example.
+  * When it gets to Cathy's turn, instead of performing a *5 Save* on Bob, she instead clues Donald's blue 2 directly as a *Play Clue*.
+  * Donald plays the blue 2.
+  * Bob now knows that the *Reverse Order Ejection* failed and that the 5 will not get retroactively *Chop Moved* anymore. If Cathy might discard on the next turn, Bob should not play his remaining 1 and should instead give a *5 Save* to Cathy.
+
 ### The Dump Truck
 
 * When someone blind-plays their chop, there is usually an emergency happening and it was either a *Scream Blind-Play* or a *Stop Blind-Play*.
@@ -1851,7 +1888,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 ### The Misplay Trash Push
 
 * When a card is clued and the next player misplays that card, it is usually the *Misplay Chop Move* - they had no other options and had to protect an important card on chop.
-* However, when a card ON CHOP is clued and the next player misplays that card, it cannot be the *Misplay Chop Move* - it must be something else.
+* However, when a card **on chop** is clued and the next player misplays that card, it cannot be the *Misplay Chop Move* - it must be something else.
 * Normally, when trash is clued on chop, it is a *Trash Push*. So they should go on to blind-play the card that was touching the trash on their next turn.
 
 ### Inverted Priority Finesse
@@ -1997,3 +2034,4 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 | The Distribution Finesse | Asddsa
 | The Full Finesse | NoMercy
 | The Double Positional Misplay | Libster
+| Order Ejection & Reverse Order Ejection | Zamiel & q
