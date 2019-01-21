@@ -69,8 +69,9 @@
     * #2a - unclued & known playable cards (which would be confirming that they are indeed *Finessed*, for example)
     * #2b - clued & known playable cards (which would just be retouching the card, accomplishing nothing new)
 * If there two or more cards of the same subcategory above, then the priority is as follows:
-  * #1 - lowest rank (even if there is a 5)
-  * #2 - left-most
+  * #1 - unique (e.g. black 1)
+  * #2 - lowest rank (even if there is a 5)
+  * #3 - left-most
 * If playing with 5-players, the *Chop Move* action has a priority of #1d.
 
 <br />
