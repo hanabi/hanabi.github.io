@@ -578,6 +578,18 @@ This section is unique in that it contains things that are separate from actual 
 * Thus, you can discard the slot in your hand that matches the slot in someone else's hand that they are supposed to play.
 * Usually, players will only do this if they can see all of the remaining useful cards. Since they see everything, they know that they cannot be discarding anything important.
 
+### The Positional Misplay (Indicating a Play with a Misplay)
+
+* On the final round of the game, if a player has no cards in their hand to play, a *Positional Discard* from **any** slot will work, because it is globally known that every card is visible.
+* However, sometimes *Positional Discards* are done before the final round while there are still some cards left in the deck. In this situation, if a player discarded their chop card as a *Positional Discard*, this would not work, because discarding chop is the normal action that the rest of the team is expecting.
+* Thus, in order to more strongly communicate the "play this slot" message, they can instead misplay their chop card. Since the rest of the team can see that the card misplayed for "no reason", they can deduce that it was a *Positional Misplay*.
+
+### The Double Positional Misplay (Indicating Two Plays with a Misplay)
+
+* Normally, the *Positional Misplay* is only used as a last-resort when a *Positional Discard* would fail. But what if a player does a *Positional Misplay* when a normal old *Positional Discard* would have gotten the job done?
+* *Positional Discards* and *Positional Misplays* generally promise that only one card in the specified slot is playable. So, if there are **two** people with a play on the same slot, then it will be ambiguous, because each of them will think that the other person is supposed to play.
+* Thus, a *Positional Misplay* that is unnecessary transforms into a *Double Positional Misplay*, indicating to the team that **two** cards on that exact slot are playable.
+
 ### The Hidden Finesse
 
 * Sometimes, you want to *Finesse* someone with a clued card already in their hand. However, if you try to *Finesse* them, they will assume it is a *Prompt* and will misplay their already clued card, so it doesn't work out.
@@ -1984,3 +1996,4 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 | The Double Scream Discard Chop Move | Asddsa
 | The Distribution Finesse | Asddsa
 | The Full Finesse | NoMercy
+| The Double Positional Misplay | Libster
