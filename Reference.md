@@ -1322,6 +1322,16 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Similar to a *5 Stall*, if there are other things to do and a *4 Stall* is given, then it transforms into a *Early 4's Chop Move* or a *4 Pull*.
   * Once the *Early Game* is over, players may not *4 Stall*.
 
+### Up or Down Conventions
+
+* These conventions apply to the *Up or Down* variants.
+* The *2 Saves* convention is turned off. (2's are not valuable in this variant.)
+* The *3 Bluffs* convention is turned off. (3's are not valuable in this variant.)
+* The *5 Stall*, *5's Chop Move*, and *5 Pull* conventions are turned off.
+* At the beginning of the game, number 5's is a play clue (similar to a number 1's clue).
+* If there are any stacks going up, a number 5 clue to a chop card is to be treated as a normal *5 Save*.
+* If there are any stacks going down, a number 1 clue to a chop card is to be treated as a *1 Save*.
+
 ### Crazy 3 Saves & Crazy 4 Saves
 
 * This convention applies to the *Wild & Crazy* variant.
