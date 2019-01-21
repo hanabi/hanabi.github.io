@@ -2035,3 +2035,4 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 | The Full Finesse | NoMercy
 | The Double Positional Misplay | Libster
 | Order Ejection & Reverse Order Ejection | Zamiel & q
+| The Scream Push | Zamiel
