@@ -1572,6 +1572,18 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ## Level 4 - Rarely Used Expert Strategies
 
+### The Fake Save
+
+* We are only able to perform *Save Clues* on specific cards and in specific ways, as outlined in the Beginner's Guide. For example, we all agree that we must save 5's with number 5.
+* In some specific circumstances, the team will have only one clue available and multiple cards must be saved with a single clue. In this situation, to prevent losing the game (or losing a currently-playable card), it is permissible to "lie" to the player and perform a non-legal *Save Clue*. The player will mark their chop card as something other than what it really is, so this move commits the team to giving a *Fix Clue* at some point in the future.
+* For example, in a 3-player game:
+  * Alice has 1 clue available.
+  * Bob has a red 5 on chop, followed by a red 4. The other copy of the red 4 is in the discard pile, so there are two critical cards in a row.
+  * Alice is not allowed to save the red 5 with a red clue, because then it would look like a *Save Clue* on a red 4.
+  * However, if Alice clues number 5 to Bob, then he will discard the red 4.
+  * Thus, Alice performs a *Fake Save* on both red cards by cluing red.
+  * Bob will mark his chop as the red 4, so the team will have him number 5 as a *Fix Clue* at some point in the future. At that point, he will be able to retroactively see that Alice was in a very tight spot and had to give a *Fake Save*.
+
 ### The Top Hat Clue
 
 * Since the *Layered Gentleman's Discard* is so efficient, clever players that see the opportunity to perform one will almost always want to do so.
