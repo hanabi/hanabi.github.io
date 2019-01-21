@@ -36,3 +36,10 @@
 * In non-2-player games, it is permissible to use a color clue to save a slot 1 card. In this situation, the player who received the clue would then have a *Locked Hand*.
 * However, this is not legal in a 2-player game. Players must use a number clue if they want to give a *Save Clue* to a slot 1 card.
 * Thus, color clues that are focused on slot 1 are always *Play Clues*. This is referred to as a *Flush Clue* in order to disambiguate it from a more ordinary *Play Clue*.
+
+### The Scream Push (Anxiety with a Chop Move)
+
+* If a player performs a *Scream Discard Chop Move* when the team is at 0 clues, it will generate a clue for the next player. Normally, the next player is supposed to *Chop Move*, and then give a *Stall Clue*. (They must give a *Stall Clue* just in case they have 2 critical cards in a row. If they do, the next player will *Scream Discard Chop Move* again.)
+* However, the above situation does not make sense if the first *Scream Discard* **locks** the next player. This is because if the next player gives a *Stall Clue*, then the team would be back to 0 clues again, and there would never be any way for the player who performed the *Scream Discard* to ever clue anything else.
+* This situation should be treated the same as *Anxiety* - even though there is 1 clue available, the locked player **has** to play something to keep the game going.
+* If nothing else in their hand makes sense to play, then the locked player should blind-play the *Chop Moved* card.
