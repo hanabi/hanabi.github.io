@@ -37,6 +37,20 @@
 * However, this is not legal in a 2-player game. Players must use a number clue if they want to give a *Save Clue* to a slot 1 card.
 * Thus, color clues that are focused on slot 1 are always *Play Clues*. This is referred to as a *Flush Clue* in order to disambiguate it from a more ordinary *Play Clue*.
 
+### Double Discard Save Stalls
+
+* Just in like 3 to 5-player games, in a 2-player game, players always perform *Hard Double Discard Avoidance*.
+* In a player gives a clue in *Double Discard* situation and then they immediately receive a clue that "matches" the discarded card, then they know that this could be a *Save Clue* that was unexpected. Since it was unexpected, they might **also** have another critical card after it.
+* Thus, in this situation, the player should give (another) stall clue.
+* For example, on the first turn of a 2-player game:
+  * Alice discards a red 3.
+  * Bob has nothing to do, he *Hard Burns* by cluing number 5 to Alice. (This re-clues some 5's, accomplishing nothing.)
+  * Alice clues red to Bob, which touches a red card on Bob's chop.
+  * Bob interprets this as a potential *Save Clue* on red 3.
+  * Bob also knows that the red 3 is newly critical and that Alice was not expecting to have given this clue.
+  * Bob *Hard Burns* again by cluing number 5 to Alice.
+  * Alice clues number 5 to Bob, saving a 5 on chop. Good thing that Bob stalled!
+
 ### The Scream Push (Anxiety with a Chop Move)
 
 * If a player performs a *Scream Discard Chop Move* when the team is at 0 clues, it will generate a clue for the next player. Normally, the next player is supposed to *Chop Move*, and then give a *Stall Clue*. (They must give a *Stall Clue* just in case they have 2 critical cards in a row. If they do, the next player will *Scream Discard Chop Move* again.)
