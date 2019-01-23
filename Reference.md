@@ -1194,7 +1194,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 * These conventions applies to any variant with only 3 suits.
 
-### No 3 Bluffs
+#### No 3 Bluffs
 
 * The *3 Bluff* convention is "turned off". (This is because *Double Finesses* are much more likely in these variants.)
 
