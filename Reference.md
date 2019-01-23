@@ -1874,6 +1874,11 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * In the middle of the game, it is relatively safe to blind-play your chop card, since it is known to not be a critical/playable card.
 * In the beginning of the game, it may not be safe to blind-play your chop card. In this situation, you may see that multiple players have the opportunity to initiate the *Dump Truck*. Normally, it is best to let the player immediately before the blind-player do it. If they have an unsafe chop, then the 2nd player before the blind-player should do it, and so forth.
 
+### The Useless Bluff
+
+* Normally, when a player clues a known-trash card that is off-chop, it communicates a *Trash Chop Move*. However, what if the *Chop Moved* card is also trash? Then this would be a completely useless *Chop Move*.
+* In this situation, the player who gave the clue must be communicating something extra. They intend for the next player to play their *Finesse Position* card as a known *Bluff*.
+
 ### The Dupe Bluff
 
 * This is where you perform a *Bluff* such that the card that is blind-played is already touched in someone else's hand AND the player who has the other copy has full knowledge of the card.
@@ -2057,3 +2062,4 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 | The Double Positional Misplay | Libster
 | Order Ejection & Reverse Order Ejection | Zamiel & q
 | The Scream Push | Zamiel
+| The Useless Bluff | Zamiel
