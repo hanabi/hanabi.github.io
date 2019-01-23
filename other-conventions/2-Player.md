@@ -2,11 +2,13 @@
 
 <br />
 
-### Introduction
+## Introduction
 
 * As stated in the main document, our group generally only plays games with 3 to 5 players, since 2-player games can be quite boring. Thus, the *Hyphen-ated Conventions Framework* is **not optimized for play with only 2-players**.
 * With that said, it is possible to use the Hyphen-ated convention framework to also play 2-player games. While not commonly done, it is still perfectly functional, and it is almost always possible to get a perfect scores with expert players.
 * This document provides some extra conventions that are used by our group while playing 2-player games.
+
+## Basic Conventions
 
 ### No Priority
 
@@ -38,6 +40,10 @@
 * Thus, color clues that are focused on slot 1 are always *Play Clues*. This is referred to as a *Flush Clue* in order to disambiguate it from a more ordinary *Play Clue*.
 * Note that black color clues are always to be interpreted as normal *Save Clues* instead of *Flush Clues*.
 
+<br />
+
+## Advanced Conventions
+
 ### Double Discard Save Stalls
 
 * Just in like 3 to 5-player games, in a 2-player game, players always perform *Hard Double Discard Avoidance*.
@@ -57,6 +63,13 @@
 * Sometimes, a player will have 0 clues, but needs to save the chop of the next player. Normally, they would resort to the *Scream Discard Chop Move*. If they have no playable cards in their hand, they can instead use the *Scream Blind Play* to accomplish the same thing.
 * However, if a *Scream Blind Play* is used when a normal *Scream Discard Chop Move* would have worked, then the player must be trying to communicate something extra.
 * In this situation, the next player should *Chop Move* twice.
+
+### The Skipped Discard Chop Move
+
+* If the team is at two strikes, players are not able to use the *Scream Blind-Play* (or *Double Scream Blind-Play) because then they would probably strike out and lose the game.
+* In this situation, players can resort to the *Skipped Discard Chop Move* instead. Instead of discarding their chop, they discard a card one-away from chop. This would normally indicate that they are *Chop Moved*. However, if no *Chop Move* has occurred, the other player will be able to tell that an emergency is occurring.
+* If one card is skipped over, the other player should *Chop Move* one time. If two cards are skipped over, then the other player should *Double Chop Move*. And so forth.
+* Players are only allowed to use the *Skipped Discard Chop Move* if the team is at two strikes. This is because this move risks losing the game by discarding some critical card.
 
 ### The Scream Push (Anxiety with a Chop Move)
 
