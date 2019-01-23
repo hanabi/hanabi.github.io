@@ -51,6 +51,12 @@
   * Bob *Hard Burns* again by cluing number 5 to Alice.
   * Alice clues number 5 to Bob, saving a 5 on chop. Good thing that Bob stalled!
 
+### The Double Scream Blind Play
+
+* Sometimes, a player will have 0 clues, but needs to save the chop of the next player. Normally, they would resort to the *Scream Discard Chop Move*. If they have no playable cards in their hand, they can instead use the *Scream Blind Play* to accomplish the same thing.
+* However, if a *Scream Blind Play* is used when a normal *Scream Discard Chop Move* would have worked, then the player must be trying to communicate something extra.
+* In this situation, the next player should *Chop Move* twice.
+
 ### The Scream Push (Anxiety with a Chop Move)
 
 * If a player performs a *Scream Discard Chop Move* when the team is at 0 clues, it will generate a clue for the next player. Normally, the next player is supposed to *Chop Move*, and then give a *Stall Clue*. (They must give a *Stall Clue* just in case they have 2 critical cards in a row. If they do, the next player will *Scream Discard Chop Move* again.)
