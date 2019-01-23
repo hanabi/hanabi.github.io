@@ -2063,3 +2063,4 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 | Order Ejection & Reverse Order Ejection | Zamiel & q
 | The Scream Push | Zamiel
 | The Useless Bluff | Zamiel
+| The Double Scream Blind Play | Zamiel
