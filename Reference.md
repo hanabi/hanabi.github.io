@@ -1190,21 +1190,40 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Players are not allowed to *5 Stall* in the *Early Game*. Any clue that looks like a *5 Stall* is instead treated as either a *5's Chop Move* or a *5 Pull*.
   * Players are not required to clue anything in the *Early Game*; they are allowed to initiate the *Mid-Game* whenever they see fit.
 
-### White Compromise (5 Chop Moves)
+### 3 Suit Conventions
 
-* This convention applies to any variant with a white (colorless) suit.
+* These conventions applies to any variant with only 3 suits.
+
+### No 3 Bluffs
+
+* The *3 Bluff* convention is "turned off". (This is because *Double Finesses* are much more likely in these variants.)
+
+#### The Full Finesse
+
+* The *5 Stall*, *5's Chop Move*, and *5 Pull* conventions are "turned off".
+* If a 5 is clued, then it is to be treated as a *Finesse* on the full suit from 1 to 5.
+
+### White Conventions
+
+* These conventions apply to any variant with a white (colorless) suit.
+
+#### White Compromise (5 Chop Moves)
+
 * When you clue a white 5 that is one away from chop, it would normally look like a *5's Chop Move*.
 * However, if the white 4 is currently played, all 5 clues that could be *5's Chop Moves* are treated instead *Play Clues* on white 5.
 
-### White Compromise (5 Pulls)
+#### White Compromise (5 Pulls)
 
 * This convention applies to any variant with a white (colorless) suit.
 * When you clue a white 5 in the *Early Game* that is two or more away from chop, it would normally look like a *5 Pull*.
 * However, if there are white cards visible and it could be a *Finesse* on the white 5, then it should be treated as a *Finesse* instead of a *5 Pull*.
 
-### Black 2 & Black 5 Saves
+### Black Conventions
 
-* This convention applies to any variant with a black (one of each) suit.
+* These conventions apply to any variant with a black (one of each) suit.
+
+#### Black 2 & Black 5 Saves
+
 * Players should save black 2's and black 5's with a number clue instead of a color clue. (This helps narrow down what card is being clued.)
 * There are four exceptions to this:
   * if the black clue touched two or more brand new black cards OR critical Rainbow cards
@@ -1213,23 +1232,20 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * if the black clue gave important negative information to one or more cards in the hand (which mostly applies to the *Wild & Crazy* variant)
 * Subsequently, if a black clue is used to touch a black 2 or a black 5 (and the above exceptions are not applicable), then it implies a *Finesse*.
 
-### Black 3 & Black 4 Saves
+#### Black 3 & Black 4 Saves
 
-* This convention applies to any variant with a black (one of each) suit.
 * Players should save black 3's and black 4's with a color clue instead of a number clue. (This helps narrow down what card is being clued.)
 * There is one exception to this:
   * if the number clue also touched another critical card
 * Subsequently, if a number clue is used to touch a black 3 or a black 4 (and the above exception is not applicable), then it implies a *Finesse*.
 
-### Black 4 Bluffs
+#### Black 4 Bluffs
 
-* This convention applies to any variant with a black (one of each) suit.
 * Building on the *3 Bluffs* convention, we also agree that is possible for a card that initiates a *Bluff* to be a copy of black 4.
 * However, it is only possible to do this with a black color clue.
 
-### The Black Save Bluff
+#### The Black Save Bluff
 
-* This convention applies to any variant with a black (one of each) suit.
 * Normally, if a black 1 is on chop, it is clued with number 1 instead of black. This is because a black color clue would make it look like a *Save Clue* on either black 3 or black 4, and then it would sit there, not being played.
 * Furthermore, if a black 1 is on chop and it was clued as black AND the clue touched other brand new black cards in the hand, then the clue could also be a *Save Clue* on black 2 (as per the *Save Clue* rules outlined in the *Black 2 Saves* section).
 * Thus, if another player intentionally clues a black 1 on chop with a black color clue AND it touched other brand new black cards, this would be quite strange, as it would not get the black 1 to play, so they must be trying to communicate something extra.
@@ -1240,9 +1256,12 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * It is also possible to use this convention to perform a *Black Save Bluff* on cards other than the black 1. For example, in a 3-player game:
   * Alice has if a player can cleanly clue number 2 to a black 2 on chop, but they instead clue a black 2 in the situation 
 
-### The Free Choice Finesse
+### Rainbow & Dual-Color Conventions
 
-* This convention applies to any variant with a rainbow (touched by all colors) suit or a dual-color suit.
+* These conventions apply to any variant with a rainbow (touched by all colors) or dual-color suit.
+
+#### The Free Choice Finesse
+
 * When performing a *Prompt* by touching a sole rainbow card, the player doing the clue may have a free choice between multiple colors. In other words, there may exist multiple colors that will ONLY touch the rainbow card.
 * If a player has a free choice to choose the color that matches the intended *Prompt* target but instead deliberately chooses a different color, this signals that it is actually a *Finesse* instead of a *Prompt*.
 * For example, on the first turn of a 3-player game:
@@ -1255,15 +1274,13 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Alice clues blue to Cathy, which only touches the rainbow 2.
   * Bob knows that since Alice had a free choice and did not color-match with red, he should play his slot 1 instead of his slot 2.
 
-### The Free Choice Bluff
+#### The Free Choice Bluff
 
-* This convention applies to any variant with a rainbow (touched by all colors) suit or a dual-color suit.
 * It is possible to use the *Free Choice* convention to communicate to a teammate that you want a *Finesse* instead of a *Prompt* in order to get them to play an unrelated playable card from their *Finesse Position*.
 * Like a normal *Bluff*, after a *Free Choice Bluff*, the player who blind-played does not necessarily have the "matching" card in their hand.
 
-### The Suboptimal Color Bluff
+#### The Suboptimal Color Bluff
 
-* This convention applies to any variant with a rainbow (touched by all colors) suit or a dual-color suit.
 * Often, when giving a color clue to a Rainbow or dual-color card, you want to pick a color that will "fill-in" ancillary cards in the hand as to give the maximum amount of information.
 * If a suboptimal color is chosen that does not fill in ancillary cards, it follows from *High Value Principle* that there must be a reason, so you should blind-play your *Finesse Position* card.
 * This move is contextual in that you don't want to make it appear as if the clued card is currently unplayable. Thus, it is best performed as a *Reverse Bluff* or a *Long-Distance Bluff*.
@@ -1276,12 +1293,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * if the color clue also touched another critical card (that is not dark rainbow)
   * if the color matches a suit that is already completely played or accounted for
 * Note that this convention does NOT apply to the *Black & Dark Rainbow* variant. In that variant, you must save dark rainbow 3 and dark rainbow 4 with a black color clue.
-
-### The Full Finesse
-
-* This convention applies to any variant with only 3 suits.
-* The *5 Stall*, *5's Chop Move*, and *5 Pull* conventions are "turned off".
-* If a 5 is clued, then it is to be treated as a *Finesse* on the full suit from 1 to 5.
 
 ### Color Blind Conventions
 
@@ -1299,7 +1310,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### The Negative Prompt
 
-* This convention applies to the *Dual-color Suits* variant.
+* This convention applies to the *Dual-Color (6 Suits)* variant.
 * In this variant, since negative color information conveys just as much information as positive color information, you should include that when deciding which card to play into a *Prompt*.
 * For example:
   * Alice has a red card in slot 1 and a red card in slot 2.
@@ -1308,14 +1319,16 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * However, Alice's slot 1 card has no negative clues, and her slot slot 2 card has a negative yellow clue.
   * Thus, this is a *Negative Prompt* and Alice plays slot 2 instead of slot 1.
 
-### Multi-Five Saves
+### Multi-Fives Conventions
 
-* This convention applies to the *Multi-Fives* variant.
+* These conventions apply to the *Multi-Fives* variants.
+
+#### Multi-Five Saves
+
 * Since 5's cannot be *5 Saved*, a number 2 clue must be used to save them as a pseudo-*2 Save*.
 
-### 4 Stalls & Early 4's Chop Move & 4 Pull
+#### 4 Stalls & Early 4's Chop Move & 4 Pull
 
-* This convention applies to the *Multi-Fives* variant.
 * In the *Early Game*, since it is not possible to clue number 5, players cannot *5 Stall*. However, we agree that a number 4's clue in the early game indicates that the card is really a 5. Thus, it is possible to *4 Stall*. (A *4 Stall* interpretation takes precedence over a *Self-Finesse*.)
   * This is only legal if the clue ONLY touches real 5's. In other words, players may not give a *4 Stall* if touches a mix of 4's and 5's.
   * Similar to a *5 Stall*, if there are other things to do and a *4 Stall* is given, then it transforms into a *Early 4's Chop Move* or a *4 Pull*.
@@ -1331,15 +1344,18 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * If there are any stacks going up, a number 5 clue to a chop card is to be treated as a normal *5 Save*.
 * If there are any stacks going down, a number 1 clue to a chop card is to be treated as a *1 Save*.
 
-### Crazy 3 Saves & Crazy 4 Saves
+### Wild & Crazy Conventions
 
-* This convention applies to the *Wild & Crazy* variant.
+* These conventions apply to the *Wild & Crazy* variant.
+
+#### Crazy 3 Saves & Crazy 4 Saves
+
 * In this variant, it is possible to violate *Good Touch Principle* by cluing black to save a black 3 or a black 4, because there can be other useless rainbow cards in the hand.
 * Thus, for the *Wild & Crazy* variant, a second exception to the *Black 3 and Black 4 Saves* convention is added:
   * if the number clue was required to avoid violating *Good Touch Principle*
 * *Crazy 3 Saves* & *Crazy 4 Saves* do NOT apply to 5-player games; see the "Wild & Crazy 5-Player Alterations" section below.
 
-### Wild & Crazy 5-Player Alterations
+#### 5-Player Alterations
 
 * These conventions only apply to the *Wild & Crazy* variant with 5 players.
 * Nearly all of the conventional "rules" are closely followed in 5-player games, regardless of the variant. And the same goes for 4-player games in the *Wild & Crazy* variant.
