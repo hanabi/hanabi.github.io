@@ -135,7 +135,7 @@ Note that in this user interface, players are holding their hands like they woul
   * Since *Prompts* take precedence over *Finesses*, he plays the clued red card first from slot 4 as red 2.
   * On his next turn, he blind-plays slot 2 as red 3. (His *Finesse Position* at the time of the clue was slot 1, but he drew a card, and now the red 3 slid down to slot 2.)
 
-### Reverse Finesses
+### The Reverse Finesse
 
 * In a normal *Finesse*, you would give a clue to a player who comes after the player blind playing a card. If you give a *Finesse* clue to someone who gets to have a turn BEFORE the blind-play occurs, it is called a *Reverse Finesse*. This is more complicated than a normal *Finesse* and is harder to see.
 * Since *Reverse Finesses* exist as a strategy, before playing any cards, players should always check out everyone's *Finesse Position* card (the left-most unclued card). If a card in someone's *Finesse Position* is PLAYABLE and "matches" the clue, then they need to DEFER playing the clued card for at least one go-around and wait to see what happens.
