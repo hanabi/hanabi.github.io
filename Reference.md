@@ -337,18 +337,17 @@ Note that in this user interface, players are holding their hands like they woul
 
 * *Tempo Clues* are defined as clues that touch no new cards. Their purpose is to get 1 or more cards played that already had a clue.
 * Note that *Tempo Clues* do not meet *Minimum Clue Value Principle*. They are inefficient, and in Hanabi you want to be as efficient as possible. Thus, we agree that *Tempo Clues* are only allowed in the following special circumstances:
-  1. When the card is "out of order" (meaning that it is impossible for a *Prompt* to get the cards played)
-  2. When the card was *Chop Moved* and it is now playable
-  3. When the clue giver has a fully clued hand
-  4. When the clue giver has been signaled by another player that they have an unsafe discard
-  5. When the clue giver is in a *Double Discard* situation (see *Avoiding Double Discards* below)
-  6. When the clue receiver has a fully clued hand
-  7. When the clue receiver is receiving a tempo clue on a card that unlocks someone else's hand
-  8. When there are 8 clues in the bank (a forced clue)
-  9. When there are 7 clues in the bank (since discarding would take the team to 8 clues, which is generally bad)
-  10. When in the *End-Game* or the team is behind pace (specifically, when score + deck is below the maximum score)
-  11. When the game has been going so well that further clue efficiency is no longer required to win the game
-  12. When the tempo clue gets 2 or more cards played.
+  1. When the tempo clue gets 2 or more cards played
+  2. When the card is "out of order" (meaning that it is impossible for a *Prompt* to get the cards played)
+  3. When the card was *Chop Moved* and it is now playable
+  4. When the clue giver has a fully clued hand
+  5. When the clue giver has been *Screamed* at
+  6. When the clue giver is in a *Double Discard* situation (see *Avoiding Double Discards* below)
+  7. When the clue receiver has a fully clued hand
+  8. When the clue receiver is receiving a tempo clue on a card that unlocks someone else's hand
+  9. When there are 8 clues in the bank (a forced clue)
+  10. When there are 7 clues in the bank (since discarding would take the team to 8 clues, which is generally bad)
+  11. When in the *End-Game* / when pace is low
 * Since they are so inefficient, *Tempo Clues* that are done outside of these special circumstances are assigned a special meaning. See the *Tempo Clue Chop Moves* section below.
 * Sometimes, a *Tempo Clue* can touch multiple cards, which typically means that all of the cards touched are playable. See *The Double Tempo Clue* section below.
 
