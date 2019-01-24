@@ -57,7 +57,7 @@ In general, we want all of our strategies to flow from some basic principles. Th
 * A safe discard is defined as:
   * a copy of a card that has already been played
   * a copy of a card that is in someone's hand and has been clued
-* Safe discards should NOT be clued (unless there's an important reason to).
+* Safe discards should **not** be clued (unless there's an important reason to).
 * Players should generally assume that any clued card in their hand will be eventually be played.
 
 ### 5. Play Order Principle
@@ -140,19 +140,22 @@ Note that in this user interface, players are holding their hands like they woul
 * In a normal *Finesse*, you would give a clue to a player who comes after the player blind playing a card. If you give a *Finesse* clue to someone who gets to have a turn BEFORE the blind-play occurs, it is called a *Reverse Finesse*. This is more complicated than a normal *Finesse* and is harder to see.
 * Since *Reverse Finesses* exist as a strategy, before playing any cards, players should always check out everyone's *Finesse Position* card (the left-most unclued card). If a card in someone's *Finesse Position* is PLAYABLE and "matches" the clue, then they need to DEFER playing the clued card for at least one go-around and wait to see what happens.
 * If the player with the "matching" card blind-plays it, then it means that the clued card is the next card in the chain.
-* Or, if the player with the "matching" card does NOT blind-play, then the clued card is probably the other copy, and can be played on the next turn.
 * For example, on the first turn of a 3-player game:
   * Alice clues Bob red, which touches his red 2.
   * Next, it is Bob's turn. Normally, Bob would think that he had the red 1, and play it immediately.
   * However, Bob also notices that on Cathy has a red 1 on her slot 1 position. Thus, he has to give a chance for Cathy to prove whether or not a *Reverse Finesse* is happening. If Cathy does not blind-play anything, then Bob should have the red 1, and he can play it on his next turn.
   * Bob discards.
   * Cathy blind-plays red 1. Bob now knows that he has the red 2.
+* If the player **does not** blind-play, then the clued card is probably the other copy, and can be played on the next turn. For example, in a 3-player game:
+  * The setup is the same as the last example. Bob is clued red, so he suspects a *Reverse Finesse* is occurring and discards.
+  * Cathy discards.
+  * Now Bob knows that the red card in his hand is actually the red 1.
 
 ### Bluffs
 
 * *Finesses* are quite efficient. So, when you see a playable card in someone's *Finesse Position* slot, you will often want to "get" the card with a *Finesse* (instead of cluing it directly). However, often times, the proper "connecting" card is not on the table.
 * In this situation, you can perform an alternate strategy by lying to the next player. By cluing an unrelated, one-away card, the next player will think that it is a *Finesse* and that they have the matching card, so they will blind-play their *Finesse Position* card. This is called a *Bluff*.
-* After the card is blind-played, the player who received the clue will realize that something strange has happened - the type of clue did NOT match the card that was blind-played. Thus, the clued card is not currently playable and must be a one-away card.
+* After the card is blind-played, the player who received the clue will realize that something strange has happened - the type of clue **did not match** the card that was blind-played. Thus, the clued card is not currently playable and must be a one-away card.
 * For example, in a 3-player game:
   * All the 2's are played on the stacks.
   * Alice clues Cathy red, which touches a red 4 as a *Play Clue*.
@@ -178,13 +181,13 @@ Note that in this user interface, players are holding their hands like they woul
 
 * The *Early Game* is defined and introduced in the beginner's document. However, in order to squeeze as much value out of the conventions as possible, we have some extra rules about *The Early Game* that are listed here.
 * The *Early Game* is ended when someone discards for the first time. However, note that:
-  * Misplaying a card does NOT count as ending the *Early Game*.
-  * Discarding known trash does NOT count as ending the *Early Game*.
-  * Doing special discards that "transfer" cards to other players does NOT count as ending the *Early Game*.
+  * Misplaying a card **does not count** as ending the *Early Game*.
+  * Discarding known trash **does not count** as ending the *Early Game*.
+  * Doing special discards that "transfer" cards to other players **does not count** as ending the *Early Game*.
 * In the *Early Game*, players must "extinguish" all of the available clues on the board. Note that:
-  * This DOES include *5 Stalling*, but it is only mandatory for the team to collectively perform one *5 Stall*. If one *5 Stall* clue has already been given and there is another *5 Stall* clue available, players are allowed (but not required) to clue it.
-  * This DOES NOT include cluing something in the hand of the player who came directly before you. (This is because the player who came before you did not see anything for you to do, and is therefore giving you "permission" to discard.) In this situation, cluing is optional; players can choose to either clue the previous hand or discard at their discretion.
-  * This DOES NOT include cluing 5's that will be almost certainly be *Order Chop Moved* by an upcoming player who already has two or more 1's clued in their hand. (*Order Chop Moves* are an advanced move that is covered later.)
+  * This **does** include *5 Stalling*, but it is only mandatory for the team to collectively perform one *5 Stall*. If one *5 Stall* clue has already been given and there is another *5 Stall* clue available, players are allowed (but not required) to clue it.
+  * This **does not** include cluing something in the hand of the player who came directly before you. (This is because the player who came before you did not see anything for you to do, and is therefore giving you "permission" to discard.) In this situation, cluing is optional; players can choose to either clue the previous hand or discard at their discretion.
+  * This **does not** include cluing 5's that will be almost certainly be *Order Chop Moved* by an upcoming player who already has two or more 1's clued in their hand. (*Order Chop Moves* are an advanced move that is covered later.)
 
 ### 5 Stalls (Intermediate Section)
 
@@ -211,15 +214,15 @@ Note that in this user interface, players are holding their hands like they woul
 | 5        | The lower rank card                        | The smaller stacks are more important to fill up.
 | 6        | The left-most card                         | The left-most card is more likely to be good.
 
-* When a player does NOT play the card with *Priority*, they must be trying to send a special message.
+* When a player does not play the card with *Priority*, they must be trying to send a special message.
 * Based on what card they did play, if you have any clued cards in your hand that match the next "connecting" card, it is a message that you can play it right now, similar to a *Prompt*. (The difference is that instead of initiating the *Prompt* with a clue, they initiated it with the order that they played cards.)
 * Alternatively, if you do not have any clued cards in your hand that matches the card that they played, then you you should play your *Finesse Position* card as a *Priority Finesse*.
 * For example, this would be a *Priority Finesse*:
   * Alice has a known playable red 1 and a known playable blue 2 in her hand.
   * Alice plays blue 2.
-  * Bob comes next. Bob does not see any red 2's. He does not see any blue 3's either. Thus, Alice was supposed to play the red 1 first, since red 1 is a lower rank than blue 2. Alice did NOT play the card with *Priority*.
+  * Bob comes next. Bob does not see any red 2's. He does not see any blue 3's either. Thus, Alice was supposed to play the red 1 first, since red 1 is a lower rank than blue 2. Alice **did not** play the card with *Priority*.
   * This means that Bob must have blue 3. Bob does not have any clued cards in his hand, so he blind-plays his *Finesse Position* card.
-* Sometimes, players do not play cards with *Priority* purely in order to give someone else on the team something to do on their turn. For example, this is NOT a *Priority Finesse*:
+* Sometimes, players do not play cards with *Priority* purely in order to give someone else on the team something to do on their turn. For example, this **is not** a *Priority Finesse*:
   * Alice has a known playable red 1 and a known playable blue 2 in her hand.
   * Alice plays blue 2.
   * Bob comes next. Bob does not see any red 2's. Bob does see blue 3 on the chop of Cathy. Thus, even though the red 1 was supposed to have *Priority*, Alice played the blue 2 to give Cathy something to do.
@@ -227,7 +230,7 @@ Note that in this user interface, players are holding their hands like they woul
 * Similar to a normal *Prompt*, if a *Priority Prompt* could apply to two or more clued cards, then you should play the left-most one.
 * Similar to a normal *Prompt*, if a *Priority Prompt* made you play the left-most card and it was not the matching card, then you should continuing playing clued cards until you find the matching card.
 * Note that the "left-most" *Priority* is contextual and does not always apply. For example, it is common for players to play a right-most card that was originally clued with a *Save Clue*, since that card was explicitly saved and that the other cards in the hand of the same rank could potentially be duplicates.
-* Normally, blind-playing cards has *Priority* over playing clued cards that lead into other people's hands. However, blind-playing a card from a *Gentleman's Discard* is a special exception and does NOT have *Priority*. (The *Gentleman's Discards* is a special move that is covered later.)
+* Normally, blind-playing cards has *Priority* over playing clued cards that lead into other people's hands. However, in some advanced cases, the blind-play does not need to be demonstrated to the team - everyone already has full knowledge of what is going on. In this case, players are supposed to treat the cards as clued for the purposes of finding the *Priority*. (The *Gentleman's Discards* is the main move that this applies to, which is a special move that is covered later.)
 
 ### A Priority Flowchart (For Choosing Between 2+ Playable Cards)
 
