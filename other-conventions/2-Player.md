@@ -49,9 +49,9 @@
 * Just in like 3 to 5-player games, in a 2-player game, players always perform *Hard Double Discard Avoidance*.
 * In a player gives a clue in *Double Discard* situation and then they immediately receive a clue that "matches" the discarded card, then they know that this could be a *Save Clue* that was unexpected. Since it was unexpected, they might **also** have another critical card after it.
 * Thus, in this situation, the player should give (another) stall clue.
-* For example, on the first turn of a 2-player game:
+* For example, in a 2-player game:
   * Alice discards a red 3.
-  * Bob has nothing to do, he *Hard Burns* by cluing number 5 to Alice. (This re-clues some 5's, accomplishing nothing.)
+  * Bob has nothing to do, so he *Hard Burns* by cluing number 5 to Alice. (This re-clues some 5's, accomplishing nothing.)
   * Alice clues red to Bob, which touches a red card on Bob's chop.
   * Bob interprets this as a potential *Save Clue* on red 3.
   * Bob also knows that the red 3 is newly critical and that Alice was not expecting to have given this clue.
