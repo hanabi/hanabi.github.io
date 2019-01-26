@@ -56,6 +56,16 @@
   * they have no new playable cards in their hand to "get" (which includes non-*Prompted* cards that have clues on them already)
 * The player receiving the chop move action can clue or discard, just like action 0.
 
+### 5-Player (with 3 color clues)
+
+| # mod 6    | action          | type of clue
+| ---------- | --------------- | -------------
+| 0 (6, 12)  | clue or discard | any color clue
+| 1 (7, 13)  | play 1          | number 1
+| 2 (8, 14)  | play 2          | number 2
+| 3 (9, 15)  | play 3          | number 3
+| 4 (10, 16) | play 4          | number 4
+
 <br />
 
 ## Empty Target Priority
