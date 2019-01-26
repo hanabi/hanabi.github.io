@@ -60,11 +60,11 @@
 
 | # mod 6    | action          | type of clue
 | ---------- | --------------- | -------------
-| 0 (6, 12)  | clue or discard | any color clue
-| 1 (7, 13)  | play 1          | number 1
-| 2 (8, 14)  | play 2          | number 2
-| 3 (9, 15)  | play 3          | number 3
-| 4 (10, 16) | play 4          | number 4
+| 0 (5, 10)  | clue or discard | any color clue
+| 1 (6, 11)  | play 1          | number 1
+| 2 (7, 12)  | play 2          | number 2
+| 3 (8, 13)  | play 3          | number 3
+| 4 (9, 14) | play 4          | number 4
 
 <br />
 
