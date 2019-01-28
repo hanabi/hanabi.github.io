@@ -47,12 +47,12 @@
 
 * Efficiency is defined as: `total cards that need to be played / total number of clues given`
 * The formula for this is:
-  * `(5 * number of suits) / (8 + floor((pace + number of suits - unusable clues) / discards per clue))`
+  * `(5 * number of suits) / (8 + floor((starting pace + number of suits - unusable clues) / discards per clue))`
   * "unusable clues" is 1 by default, but 2 in a 5/6-player game
   * "discards per clue" is 1 by default, but 2 in a *Clue Starved* game
 * To calculate the total number of clues given, we use:
   * +8 for the 8 starting clues
-  * pace because you get 1 clue per discard
+  * starting pace because you get 1 clue per discard
   * number of suits because you get a clue back for each 5 played of the suit
   * unusable clues because you don't get to use the clue that you get for playing the final 5
   * unusable clues is 2 in a 5/6-player game because you cannot play 6 or 7 cards of the same suit in the final round
