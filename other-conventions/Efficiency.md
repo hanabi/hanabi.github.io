@@ -50,7 +50,6 @@
   * `(5 * number of suits) / (8 + floor((pace + number of suits - unusable clues) / discards per clue))`
   * "unusable clues" is 1 by default, but 2 in a 5/6-player game
   * "discards per clue" is 1 by default, but 2 in a *Clue Starved* game
-  * In *Clue Starved*, "pace" is replaced by "floor(pace / 2)".
 * To calculate the total number of clues given, we use:
   * +8 for the 8 starting clues
   * pace because you get 1 clue per discard
