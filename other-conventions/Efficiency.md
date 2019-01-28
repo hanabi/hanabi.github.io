@@ -33,17 +33,17 @@
 | 6 Suits w/ 1x 1oE      | 1.00     | 1.15       | 1.36     | 1.20     |
 | 6 Suits w/ 2x 1oE      | 1.20     | 1.43       | 1.76     | 1.50     |
 | 6 Suits (Up or Down)   | 1.03     | 1.20       | 1.43     | 1.25     |
-| 6 Suits (Clue Starved) | 1.25     | 1.36       | 1.58     | 1.43     |
+| 6 Suits (Clue Starved) | 1.43     | 1.58       | 1.76     | 1.58     |
 | 5 Suits                | 0.86     | 1.00       | 1.19     | 1.04     |
 | 5 Suits w/ 1x 1oE      | 1.04     | 1.25       | 1.56     | 1.32     |
 | 5 Suits (Up or Down)   | 1.04     | 1.25       | 1.56     | 1.32     |
-| 5 Suits (Clue Starved) | 1.25     | 1.39       | 1.56     | 1.47     |
+| 5 Suits (Clue Starved) | 1.39     | 1.56       | 1.79     | 1.56     |
 | 4 Suits                | 0.87     | 1.05       | 1.33     | 1.11     |
 | 4 Suits w/ 1x 1oE      | 1.11     | 1.43       | 2.00     | 1.54     |
 | 4 Suits (Up or Down)   | 1.05     | 1.33       | 1.82     | 1.43     |
-| 4 Suits (Clue Starved) | 1.18     | 1.33       | 1.67     | 1.43     |
+| 4 Suits (Clue Starved) | 1.33     | 1.54       | 1.82     | 1.54     |
 | 3 Suits                | 0.88     | 1.15       | 1.67     | 1.25     |
-| 3 Suits (Clue Starved) | ?     | ?       | ?     | ?     |
+| 3 Suits (Clue Starved) | 1.25     | 1.50       | 1.88     | 1.50     |
 
 * Efficiency is defined as: `total cards that need to be played / total number of clues given`
 * The formula for this is:
