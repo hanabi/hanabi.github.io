@@ -18,6 +18,7 @@
 | 4 Suits (Up or Down)   | 8        | 4          | 1        | 4        |
 | 4 Suits (Clue Starved) | 12       | 8          | 5        | 8        |
 | 3 Suits                | 7        | 3          | 0        | 3        |
+| 3 Suits (Clue Starved) | 7        | 3          | 0        | 3        |
 
 * Pace is a measure of how many discards the team can do before a perfect score becomes impossible.
 * The formula for this is: `total cards in the deck - ((number of cards in a player's hand - 1) * number of players) - (5 * number of suits)`
@@ -42,13 +43,17 @@
 | 4 Suits (Up or Down)   | 1.05     | 1.33       | 1.82     | 1.43     |
 | 4 Suits (Clue Starved) | 1.18     | 1.33       | 1.67     | 1.43     |
 | 3 Suits                | 0.88     | 1.15       | 1.67     | 1.25     |
+| 3 Suits (Clue Starved) | ?     | ?       | ?     | ?     |
 
 * Efficiency is defined as: `total cards that need to be played / total number of clues given`
-* The formula for this is: `(5 * number of suits) / (pace + number of suits + 7 (- 1 if a 5/6-player game))`
-* In *Clue Starved*, "pace" is replaced by "floor(pace / 2)" and the second "number of suits" is replaced with "floor(number of suits / 2)".
+* The formula for this is:
+  * `(5 * number of suits) / (8 + floor((pace + number of suits - unusable clues) / discards per clue))`
+  * "unusable clues" is 1 by default, but 2 in a 5/6-player game
+  * "discards per clue" is 1 by default, but 2 in a *Clue Starved* game
+  * In *Clue Starved*, "pace" is replaced by "floor(pace / 2)".
 * To calculate the total number of clues given, we use:
+  * +8 for the 8 starting clues
   * pace because you get 1 clue per discard
   * number of suits because you get a clue back for each 5 played of the suit
-  * +8 for the 8 starting clues
-  * -1 for not using the clue that you get for the final 5 played
-  * -1 if a 5/6-player game because you cannot play 6 or 7 cards of the same suit in the final round
+  * unusable clues because you don't get to use the clue that you get for playing the final 5
+  * unusable clues is 2 in a 5/6-player game because you cannot play 6 or 7 cards of the same suit in the final round
