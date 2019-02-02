@@ -60,7 +60,7 @@
 
 ### 5-Player (with 3 color clues)
 
-| # mod 6    | action          | type of clue
+| # mod 5    | action          | type of clue
 | ---------- | --------------- | -------------
 | 0 (5, 10)  | clue or discard | number 5
 | 1 (6, 11)  | play 1          | number 1 or blue
