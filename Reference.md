@@ -10,7 +10,7 @@ Note that convention updates for the group are listed in the `#announcements` ch
 
 ## Table of Contents
 
-1. [First Principles](#level-0---first-principles)
+1. [First Principles](#first-principles)
 2. [Examples](#examples)
 3. [Level 2 - Intermediate Strategies](#level-2---intermediate-strategies)
 4. [Level 2 - General Principles](#level-2---general-principles)
