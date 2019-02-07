@@ -238,7 +238,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
 ### Playing Multiple 1's
 
 * If one or more 1's in your hand are clued, **you should assume that they are all playable**. (This only applies to 1's, and follows from *Good Touch Principle*.)
-* We agree that playing 1's at the beginning of the game is a special case - you should always **play your 1's from oldest to newest**. (Normally, *Play Clues* mean to play the left-most card.)
+* We agree that playing 1's at the beginning of the game is a special case - you should always **play the 1's in your starting hand from oldest to newest**. (This is a special case because normally, *Play Clues* mean to play the left-most card.)
 * However, freshly drawn 1's should always be played before any 1's that were present in the starting hand. (This applies even if one of the clued 1s was on chop.)
 
 <img src="img/beginners/playing_multiple_1s.png" height="150" />
