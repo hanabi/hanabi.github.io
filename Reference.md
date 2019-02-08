@@ -244,7 +244,7 @@ Note that in this user interface, players are holding their hands like they woul
 
 ### A Priority Flowchart (For Choosing Between 2+ Playable Cards)
 
-*Priority* can sometimes be confusing. [Here is a handy flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/priority_flowchart.png) that shows, in general, which card should be played when there is a choice between two cards.
+*Priority* can sometimes be confusing. [Here is a handy flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/flowcharts/priority_flowchart.png) that shows, in general, which card should be played when there is a choice between two cards.
 
 ### The Load Clue
 
@@ -344,7 +344,7 @@ Note that in this user interface, players are holding their hands like they woul
 
 ### A Scream Discard Flowchart
 
-[Here is a handy flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/scream_discard_flowchart.png) for determining whether something is a *Scream Discard Chop Move* or a *Generation Discard*. (It also covers some more rare types of discards that are covered later on in this document.)
+[Here is a handy flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/flowcharts/scream_discard_flowchart.png) for determining whether something is a *Scream Discard Chop Move* or a *Generation Discard*. (It also covers some more rare types of discards that are covered later on in this document.)
 
 ### Tempo Clues (Re-cluing a Card)
 
@@ -861,7 +861,7 @@ This section is unique in that it contains things that are separate from actual 
 
 ### A Flowchart for Cluing 5's in the Early Game
 
-* Differentiating between a *5 Stall* and a *5 Pull* can sometimes be confusing. [Here is a handy flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/early-game-5-flowchart.png) that steps you through how you can tell the difference.
+* Differentiating between a *5 Stall* and a *5 Pull* can sometimes be confusing. [Here is a handy flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/flowcharts/early-game-5-flowchart.png) that steps you through how you can tell the difference.
 
 ### The 5 Pull Prompt & The 5 Pull Finesse
 
@@ -1119,7 +1119,7 @@ This section is unique in that it contains things that are separate from actual 
 
 ### A Trash Flowchart
 
-There are a lot of different moves that involve cluing trash. [Here is a handy flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/cluing_trash_flowchart.png) for determining the difference between the different types of special moves that touch trash.
+There are a lot of different moves that involve cluing trash. [Here is a handy flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/flowcharts/cluing_trash_flowchart.png) for determining the difference between the different types of special moves that touch trash.
 
 ### The Certain Discard Duplication Promise
 
