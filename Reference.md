@@ -1608,6 +1608,17 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Cathy sees that Bob does not have the green 2, so she must have the green 2, so she blind-plays her *Finesse Position* card, and it is yellow 1 instead of green 2.
   * Since two cards were blind-played (that did not match), everyone now knows that the *No-Information* clue was a *Double Bluff* instead of a *Double Finesse*. From Cathy's perspective, her 3 can (still) be any 3 at all.
 
+### The Bad Touch Finesse (For 1's)
+
+* In the *Trash Finesse* / *Trash Bluff*, it is possible to clue number 1 to a player in order to get someone to blind-play a card.  After the blind-play, it is understood that all of the 1's are trash.
+* However, what if this is done on the first turn of the game, touching two 1's? If nothing is played on the stacks, then the 1 of every single suit is needed. In this situation, both of the 1's that are clued cannot be trash.
+* In this situation, the 1's clue only communicates that *Good Touch Principle* was violated and that both of the 1's are the same suit.
+* For example, on the first turn of a 3-player game:
+  * Alice clues number 1 to Cathy, touching two red 1's.
+  * Bob sees that Alice could have done something else (like do a *5 Save* to a 5 on Cathy's chop).
+  * Bob knows that Alice's clue violated *Good Touch Principle*. If the clue is not communicating something extra, then it would be a real lousy clue. Therefore it must be a *Good Touch Finesse*, so Bob blind-plays his *Finesse Position* card, and it is a blue 1.
+  * Cathy knows that since this is the first turn of the game, both of her 1's cannot be trash. Similar to a *Stale 1's Clue*, Cathy skips over the older 1 and plays the newest 1. (She would normally play her 1's from right-to-left.) She will then discard the other 1 later.
+
 ### The Bad Touch Double Finesse & The Bad Touch Double Bluff (For 3's)
 
 * Normally, a *3 Bluff* takes priority over a *Double Finesse*. This means that if someone clues a blue 3 using the number 3, and then a blue 1 blind-plays on the very next turn, no-one is promised the blue 2.
