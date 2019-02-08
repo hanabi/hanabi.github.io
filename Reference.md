@@ -1257,17 +1257,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * When you clue a white 5 in the *Early Game* that is two or more away from chop, it would normally look like a *5 Pull*.
 * However, if there are white cards visible and it could be a *Finesse* on the white 5, then it should be treated as a *Finesse* instead of a *5 Pull*.
 
-#### The Crisp White 1 Play Clue
-
-* Fresh 1's are always played ahead of 1's that were in the starting hand. For example, in a 3-player game:
-  * Alice discards.
-  * Bob clues Alice number 1, touching a 1 on slot 1 and slot 5.
-  * The 1 on her slot 5 was in her starting hand.
-  * The 1 on her slot 1 was not in her starting hand, so it is fresh.
-  * Even though the clue looks like it is *Chop Focus*, Alice knows that fresh 1's have priority, so she plays slot 1 first and slot 5 second.
-* In a variant with a white suit, the above situation should play out differently, because *Chop Focus* should override the *Fresh 1's* rule if the chop card could be a white 1. This is because it is impossible to get the white 1 in any other way.
-* Thus, in the above example, if white 1 is not already played, Alice should play her slot 5 instead of her slot 1.
-
 ### Black Conventions
 
 * These conventions apply to any variant with a black (one of each) suit.
