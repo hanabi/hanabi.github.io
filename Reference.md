@@ -807,6 +807,19 @@ This section is unique in that it contains things that are separate from actual 
   * Alice blind-plays red 4 from slot 5 on her next turn.
 * One last thing to note is that players should not always make *Elimination Notes* when they discard a playable card. In rare cases, games can be extremely busy, leaving no reasonable way to get the playable card, so you always have to keep that in mind.
 
+### The Elimination Play Clue
+
+* A clue that touches multiple cards only has one focus. As you probably know by now, if the chop card was not touched, then the focus is the left-most card.
+* However, this rule does not apply if a clue singles out a playable card from *Elimination*. In this case, the card is only focused on the *Elimination* card, and any other cards touched are not necessarily playable right now.
+* For example, in a 3-player game:
+  * Red 1 and blue 1 are played on the stacks.
+  * Alice has both red 2's in her hand on slot 3 and slot 5. (Alice's chop is her slot 5.)
+  * Alice discards her chop, and it is revealed to be the red 2.
+  * Alice is surprised, and writes *Discard Elimination Notes* for red 2 on slots 2, 3, 4, and 5.
+  * Bob gives a number 2 clue to Alice that touches a card in slot 1 and slot 4.
+  * Normally, Alice would treat this as a *Play Clue* on the 2 in her slot 1. However, she now knows that her slot 4 card is exactly red 2 (and that she can play it right now).
+  * Thus, Alice knows that the point of the clue was only to get the red 2. The 2 in her slot 1 can be any 2 in the game and is not necessarily playable right now.
+
 ### The Elimination Riding Deduction
 
 * If there are only two cards left in your hand with *Elimination Notes* on them **and** the players before you let your chop card ride **and** the players before you were not busy, then the playable card cannot be on your chop.
