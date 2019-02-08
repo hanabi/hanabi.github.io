@@ -44,6 +44,12 @@
 
 ## Advanced Conventions
 
+### Scream Discard Modification
+
+* In non-2-player games, *Scream Discards* are only to be used as a last-resort. For example, you are **not** allowed to *Scream Discard* to *Chop Move* a non-critical one-away 3. This is because there is always a risk of discarding a critical card by accident.
+* However, this logic does not apply to 2-player games. In a 2-player game, the other player will typically always keep your chop save.
+* Thus, in 2-player games, you can *Scream Discard Chop Move* a non-critical but-still-useful card if you want.
+
 ### Double Discard Save Stalls
 
 * Just in like 3 to 5-player games, in a 2-player game, players always perform *Hard Double Discard Avoidance*.
