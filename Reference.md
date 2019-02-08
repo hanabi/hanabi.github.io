@@ -197,7 +197,7 @@ Note that in this user interface, players are holding their hands like they woul
 * As mentioned in the beginner document, *5 Stalls* are when a player clues an off-chop 5 purely because they want (or need) to give a stall clue.
 * *5 Stalls* are usually done in the *Early Game*, but they can also be done in the *Mid-Game* if a player is in a special situation where they are not allowed to discard.
 * *5 Stalls* are only allowed if there is nothing else to do. (If a player does have something else to do, then it is not a *5 Stall* at all, and is either a *5's Chop Move* or a *5 Pull*, which are advanced moves that are covered later.)
-  * However, as an exception, you are also allowed to *5 Stall* if there is **only one** *Play Clue* remaining and it would touch a card on *Finesse Position*. This exception only applies in the *Early Game*. (We refer to this as the *Finesse Position Exception*.)
+  * However, as an exception, you are also allowed to *5 Stall* if there is **only one** *Play Clue* remaining and it would touch a card on *Finesse Position*. (We refer to this as the *Finesse Position Exception*.)
 * *5 Stalls* **must** be given to the 5 that is closest to chop. For example, in a 3-player game:
   * It is the *Early Game*. The only thing left for Alice to do is to clue an off-chop 5.
   * Bob has two playable 1's on slots 1 and 2. He has a 5 on slot 4. Bob's 5 is therefore one-away from chop.
@@ -415,6 +415,7 @@ Note that in this user interface, players are holding their hands like they woul
 * Since *Double Discarding* can "lose" the game, you should never *Double Discard* and give a clue instead! In this situation, if there are no normal clues to give, you are allowed to give "stall" clues; see below.
 * Because of this convention, players do not have to be worried about the same card being on two chops in a row.
 * Normally, players in *Double Discard* situations are not able to give tricky-looking *Finesses*, because they will be interpreted as a stall instead. However, from *High Value Principle*, you can know that a player in a *Double Discard* situation is **not** giving a "stall" clue if there is some other better clue available for them to give. Thus, players in *Double Discard* situations are still often able to make *Finesses* happen. See the priority column of the below table for an explicit ranking of what constitutes a "better" clue.
+* One common way of stalling in a *Double Discard* situation is to do a *5 Stall*. Note that the *Finesse Position Exception* applies to both *5 Stalls* in the *Early Game* and *5 Stalls* in *Double Discard* situations.
 
 ### Allowable Stall Clues
 
