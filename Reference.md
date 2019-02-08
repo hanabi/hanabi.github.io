@@ -181,7 +181,7 @@ Note that in this user interface, players are holding their hands like they woul
   * Next, Cathy sees that Bob just blind-played a blue 3 immediately after this red clue, so she knows that she must have a one-away red card - the red 4. Cathy holds on to the red 4 for later and discards.
 * Except in rare circumstances, ***Bluffing* is only permissible when you are the person directly before the player who is blind-playing a card**. This is called being in *Bluff Seat*. Do not *Bluff* unless you are in *Bluff Seat*! (This follows from *Good Lie Principle*.)
 
-### Bluffs Through Already Clued Cards
+### Bluffs Through Already-Clued Cards
 
 * It is also permissible to *Bluff* "through" cards that are already clued. For example, in a 4-player game:
   * All the 1's are played on the stacks.
@@ -617,7 +617,7 @@ This section is unique in that it contains things that are separate from actual 
 
 ### The Hidden Finesse
 
-* Sometimes, you want to *Finesse* someone with a clued card already in their hand. However, if you try to *Finesse* them, they will assume it is a *Prompt* and will misplay their already clued card, so it doesn't work out.
+* Sometimes, you want to *Finesse* someone with a clued card already in their hand. However, if you try to *Finesse* them, they will assume it is a *Prompt* and will misplay their clued card, so it doesn't work out.
 * However, what if the clued card actually is playable? That means you can still do the *Finesse* - they will play the *Prompted* card, see that it wasn't the card you had intended, and then blind-play their 2nd newest card on the next turn. This is called a *Hidden Finesse* because the *Finesse* was temporarily hidden by the presence of clued card.
 * For example, in a 3-player game:
     * Red 1 and rainbow 2 are played on the stacks.
