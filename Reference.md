@@ -1196,7 +1196,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 ### Hard Variants & Easy Variants
 
 * Some variants demand an enormous amount of efficiency. Since our normal conventions result in conservative play, we agree to change the way that we play in some specific variants in order to win more consistently.
-* The necessary efficiency needed in order to win each variant is located on [the efficiency tables page](https://github.com/Zamiell/hanabi-conventions/blob/master/other-conventions/Efficiency.md).
+* The necessary efficiency needed in order to win each variant is located on [the efficiency tables page](https://github.com/Zamiell/hanabi-conventions/blob/master/misc/Efficiency.md).
 * We define any variant that requires equal to or greater than 1.30 efficiency as a "hard" variant. (Note that a variant can be considered easy in 4-player, but hard in 5-player, for example.)
 * In hard variants, the following changes are made to the conventions:
   * Players are not allowed to *Double Discard Avoid*. Any clue given in a *Double Discard* situation will instead be treated like a normal clue.
@@ -1391,7 +1391,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 * *Empty Clues* are clues that touch no cards in a hand. On Hanabi Live, each game has the option to allow *Empty Clues*, and we typically disallow this option since it makes the game too easy.
 * If *Empty Clues* are enabled, it allows for a much wider channel of information transfer. We have developed an entire convention framework around this channel and it is too complicated to cover in a single section here.
-* If you are interested in learning about in the extended *Empty Clue* conventions, they are documented [on a separate page](https://github.com/Zamiell/hanabi-conventions/blob/master/other-conventions/Empty_Clues.md).
+* If you are interested in learning about in the extended *Empty Clue* conventions, they are documented [on a separate page](https://github.com/Zamiell/hanabi-conventions/blob/master/misc/Empty_Clues.md).
 
 <br />
 
