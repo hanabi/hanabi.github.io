@@ -1343,6 +1343,23 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Orange means chop move.
 * All color *Play Clues* have to be treated as potential *Delayed Play Clues*, *Prompts*, and *Reverse Finesses*.
 
+### The Mismatch Finesse
+
+* This convention only applies to *Color Blind* variants.
+* If a player has two of the same playable card in their hand, players are expected to give a *Play Clue* to the left-most one.
+* If a player instead gives a *Play Clue* to the right-most one, then they are trying to communicate something extra.
+* This means that the next player should blind-play their *Finesse Position* as any unrelated playable card.
+* *Mismatch Finesses* can also rarely give a player a safe discard.
+* For example, on the first turn of a 3-player game:
+  * Cathy has a red 1 in slot 1 and another red 1 in slot 2.
+  * Alice clues green to Cathy, giving a *Play Clue* to Cathy's slot 2.
+  * Bob knows that since Cathy had a duplicate card on slot 1 and slot 2, Alice was supposed to get the leftmost card, the slot 1.
+  * Alice must be doing the *Mismatch Finesse*. Bob blind-plays his *Finesse Position*, and it is a blue 1.
+  * Cathy assumes that Alice did a *Finesse* - due to Bob's blind-play, she must have the blue 2 in her slot 2. Cathy plays her slot 2, and it is revealed to be red 1.
+  * Cathy now knows that it was not a normal *Finesse* at all - it was instead a *Mismatch Finesse*, because there is no other explanation for why Bob would blind-play from a *Play Clue* on a red 1.
+  * Cathy also knows that she must have another red 1 in her hand. Since there is only one card to the left of her slot 2, she knows that the red 1 has to be exactly in her slot 1 (at the time of the clue).
+  * Due to this, when Cathy needs to discard next, she will blind-discard her slot 2 card (since slot 1 has now shifted down to slot 2 after she played the red 1).
+
 ### The Negative Prompt
 
 * This convention applies to the *Dual-Color (6 Suits)* variant.
@@ -2161,3 +2178,4 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 | The Double Scream Blind-Play | Zamiel
 | The Bad Touch Finesse | Zamiel
 | The Skipped Discard Chop Move | Libster
+| The Mismatch Finesse | Zamiel
