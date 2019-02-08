@@ -1172,8 +1172,8 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### Priority in Multi-Color Variants
 
-* Multi-color variants can make finding out which card has *Priority* a little tricky, because sometimes they will know a card is playable, but not know its exact identity.
-* In these situations, players should always assume that the suit of their card is the left-most of the possible suits.
+* Multi-color variants can make finding out which card has *Priority* a little tricky, because sometimes players will know that a card is playable, but not know its exact identity.
+* In these situations, players should always assume that the suit of their playable card is the left-most of the possible suits.
 * For example:
   * Alice has a known playable red 2 and a known playable blue card that is either blue 1 or rainbow 3.
   * If the blue card is blue 1, then the blue card would have *Priority*. But if the blue card is rainbow 3, then the red 2 would have *Priority*.
