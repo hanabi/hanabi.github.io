@@ -1772,11 +1772,20 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 * *Reverse Finesses* take precedence over *Bluffs*. This means that you cannot use cards to *Bluff* that have "matching" cards in the *Finesse Position* of other players, since the player you want to *Bluff* will pause to give a chance for the matching cards to play first.
 * However, in some rare situations, when initiating a *Reverse Finesse*, you have a free choice between a color clue and a rank clue, meaning that both rank and color will **only** touch the one target card.
-* By convention, if you use rank instead of color, you communicate that you really want a *Bluff* to happen, and that they should **not** wait for other matching cards to play first. This is called a *Rank Choice Bluff*.
+* By convention, if you use rank instead of color, you communicate that you really want a *Bluff* to happen, and that the next player should **not** wait for other matching cards to play first. This is called a *Rank Choice Bluff*.
 * After communicating that you want a *Rank Choice Bluff* to happen, the next player will blind-play their *Finesse Position* card. But if that card matches the clued card, then it was actually a *Rank Choice Finesse* instead of a *Rank Choice Bluff*. A *Rank Choice Finesse* may be preferable to a (more ordinary) *Ambiguous Finesse*, which will resolve more slowly.
 * Note that it is possible to use the *Rank Choice* convention with any kind of *Bluff*. Thus, it is possible to *Rank Choice 3 Bluff*, *Rank Choice Double Bluff*, *Rank Choice Triple Bluff*, and so forth.
 * Examples:
   * Game #8129, turn 4 (cluing Hyakinthus' yellow 3)
+
+### The Rank Choice Save Finesse
+
+* When saving a card, players have to choose carefully between using a color clue or a rank clue. However, in some rare situations, it makes absolutely no difference which clue is used:
+  * Both color and rank would only touch the specific card.
+  * Both color and rank would communicate the exact identity of the specific card.
+  * Both color and rank would not give any useful negative information to the other cards in the hand.
+* In these situations, the player giving the clue has a completely free choice between rank and color. We agree that by default, players should use color to save the card.
+* If players instead use a rank clue to save the card, this communicates a *Rank Choice Save Finesse*. (This is similar to the more-ordinary *Rank Choice Finesse*, except it is initiated with a *Save Clue* instead of a *Play Clue*).
 
 ### The Surreptitious Self-Finesse
 
