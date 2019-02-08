@@ -28,12 +28,22 @@ When we observe different "organically grown" Hanabi groups, we find some intere
 
 So offline games are different from online games in that players may not end up converging on the same set of strategies. With that said, we **can** discuss how Hanabi groups have a certain meta-progression that they follow as time passes.
 
-1) The group gets familiar with the rules of the game and sets some basic conventions. Players will quickly figure out that a number 5 clue is supposed to mean "save this card for later". They will figure out how to achieve predictable discards with the concept of the "chop" card.
+#### Level 1 - Basic Familiarity
 
-2) The group realizes that Hanabi is mostly about efficiency - you want to get as many cards played as you can with the least amount of clues. So this is the step when strategies like the *Finesse* and *Bluff* are invented. The rate of perfect scores drastically increases.
+The group gets familiar with the rules of the game and sets some basic conventions. Players will quickly figure out that a number 5 clue is supposed to mean "save this card for later". They will figure out how to achieve predictable discards with the concept of the "chop" card.
 
-3) The group starts to get pretty good at Hanabi. Players begin to discard aggressively to ensure that the maximum amount of *Finesses* can occur. More advanced conventions are agreed upon. Sometimes, this is done explicitly, like when players conduct a pre-game briefing on what a certain type of clue should mean. But even if a group refuses to formally agree on any conventions, they will still unconsciously tap into their reservoir of knowledge about how their teammates reacted in past situations. Over time, this will create implicit conventions.
+#### Level 2 - Discovery and Innovation
 
-4) The group reaches the first stage of Hanabi mastery - they get a perfect score in the majority of their games. Indeed, they are so efficient that games are often finished with a ridiculous amount of clues in the bank. However, they find that when they do not get a perfect score, it is usually because they discarded some non-important 3 or 4 in the beginning or middle of the game, and then they got "bottom-decked" by that card in the end of the game.
+The group realizes that Hanabi is mostly about efficiency - you want to get as many cards played as you can with the least amount of clues. So this is the step when strategies like the *Finesse* and *Bluff* are invented. The rate of perfect scores drastically increases.
 
-5) The group realizes that in order to continue to increase winrate and avoiding plateauing, the "efficiency" dial must be turned down. If there is enough efficiency to win every game anyway, configuring things to be more efficient ends up being useless. It actually becomes more important to "trade in" efficiency to mitigate "bottom-deck" losses. In the final stage, the group carefully balances efficiency with orchestrating safe discards.
+#### Level 3 - Cohesion
+
+The group starts to get pretty good at Hanabi. Players begin to discard aggressively to ensure that the maximum amount of *Finesses* can occur. More advanced conventions are agreed upon. Sometimes, this is done explicitly, like when players conduct a pre-game briefing on what a certain type of clue should mean. But even if a group refuses to formally agree on any conventions, they will still unconsciously tap into their reservoir of knowledge about how their teammates reacted in past situations. Over time, this will create implicit conventions.
+
+#### Level 4 - Mastery
+
+The group reaches the first stage of Hanabi mastery - they get a perfect score in the majority of their games. Indeed, they are so efficient that games are often finished with a ridiculous amount of clues in the bank. However, they find that when they do not get a perfect score, it is usually because they discarded some non-important 3 or 4 in the beginning or middle of the game, and then they got "bottom-decked" by that card in the end of the game.
+
+#### Level 5 - Balanced Mastery
+
+The group realizes that in order to continue to increase winrate and avoiding plateauing, the "efficiency" dial must be turned down. If there is enough efficiency to win every game anyway, configuring things to be more efficient is not useful. Rather, it is more beneficial to "trade in" efficiency to mitigate "bottom-deck" losses. In the final stage, the group carefully balances efficiency with orchestrating safe discards.
