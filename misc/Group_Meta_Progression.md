@@ -26,7 +26,7 @@ When we observe different "organically grown" Hanabi groups, we find some intere
 
 ### Hanabi Group Classification
 
-Even though different groups can come up with different strategies, we can discuss how Hanabi groups have a certain meta-progression that they follow as time passes.
+So offline games are different from online games in that players may not end up converging on the same set of strategies. With that said, we **can** discuss how Hanabi groups have a certain meta-progression that they follow as time passes.
 
 1) The group gets familiar with the rules of the game and sets some basic conventions. Players will quickly figure out that a number 5 clue is supposed to mean "save this card for later". They will figure out how to achieve predictable discards with the concept of the "chop" card.
 
