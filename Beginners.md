@@ -195,6 +195,8 @@ In this guide, there will be some screenshots to show off the concepts introduce
 * For example, if Alice was clued about a bunch of 1's and then Bob is given a *Play Clue* on an unknown 2, **Bob must wait for Alice to play all of her 1's first** before playing the 2.
 * In other words, treat all *Play Clues* as potential *Delayed Play Clues*.
 
+<br />
+
 ### Clue Logic Flowchart
 
 * For reference, this is [a basic logic flowchart](../flowcharts/clue_flowchart.png) that describes the general interpretation of a clue.
