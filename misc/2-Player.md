@@ -69,7 +69,7 @@
 * If the team is at two strikes, players are not able to use the *Scream Blind-Play* (or *Double Scream Blind-Play) because then they would probably strike out and lose the game.
 * In this situation, players can resort to the *Skipped Discard Chop Move* instead. Instead of discarding their chop, they discard a card one-away from chop. This would normally indicate that they are *Chop Moved*. However, if no *Chop Move* has occurred, the other player will be able to tell that an emergency is occurring.
 * If one card is skipped over, the other player should *Chop Move* one time. If two cards are skipped over, then the other player should *Double Chop Move*. And so forth.
-* Players are only allowed to use the *Skipped Discard Chop Move* if the team is at two strikes. This is because this move risks losing the game by discarding some critical card.
+* Players are only allowed to use the *Skipped Discard Chop Move* if the team is at two strikes because using it risks losing the game by discarding some critical card.
 
 ### The Scream Push (Anxiety with a Chop Move)
 
