@@ -119,7 +119,7 @@ Note that in this user interface, players are holding their hands like they woul
 
 * Sometimes, a player will get clued about a bunch of 1's. As explained in the beginners guide, freshly drawn 1's should always be played before any 1's that were present in the starting hand.
 * However, as an important exception, *Chop Focus* overrides the *Fresh 1's Rule*.
-* For example:
+* For example, in a 3-player game:
   * No cards are played on the stacks.
   * Alice discards a red 4.
   * Alice gets clued about four 1's on slots 1, 2, 3, and 5.
