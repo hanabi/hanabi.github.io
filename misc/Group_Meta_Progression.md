@@ -44,6 +44,6 @@ The group starts to get pretty good at Hanabi. Players begin to discard aggressi
 
 The group reaches the first stage of Hanabi mastery - they get a perfect score in the majority of their games. Indeed, they are so efficient that games are often finished with a ridiculous amount of clues in the bank. However, they find that when they do not get a perfect score, it is usually because they discarded some non-important 3 or 4 in the beginning or middle of the game, and then they got "bottom-decked" by that card in the end of the game.
 
-#### Level 5 - Balanced Mastery
+#### Level 5 - Balance
 
 The group realizes that in order to continue to increase winrate and avoiding plateauing, the "efficiency" dial must be turned down. If there is enough efficiency to win every game anyway, configuring things to be more efficient is not useful. Rather, it is more beneficial to "trade in" efficiency to mitigate "bottom-deck" losses. In the final stage, the group carefully balances efficiency with orchestrating safe discards.
