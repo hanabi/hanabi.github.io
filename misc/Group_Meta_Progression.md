@@ -22,6 +22,8 @@ With this in mind, Hanabi is interesting because it is **not a shared petri dish
 
 When we observe different "organically grown" Hanabi groups, we find some interesting things. Nearly all groups independently come up with some of the same strategies like *Finesses* and *Bluffs*. But at the same time, groups also develop entirely unique strategies. One important thing to note here is that "poaching" a strategy from another group is oftentimes not effective, because the strategy will only get a lot of value when other seemingly unrelated conventions are "turned on" or when other subtle assumptions are being made.
 
+<br />
+
 ### Hanabi Group Classification
 
 Even though different groups can come up with different strategies, we can discuss how Hanabi groups have a certain meta-progression that they follow as time passes.
