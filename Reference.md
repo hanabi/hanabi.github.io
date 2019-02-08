@@ -141,7 +141,7 @@ Note that in this user interface, players are holding their hands like they woul
 
 ### The Reverse Finesse
 
-* In a normal *Finesse*, you would give a clue to a player who comes after the player blind playing a card. If you give a *Finesse* clue to someone who gets to have a turn **before** the blind-play occurs, it is called a *Reverse Finesse*. This is more complicated than a normal *Finesse* and is harder to see.
+* In a normal *Finesse*, you would give a clue to a player who comes after the player blind-playing a card. If you give a *Finesse* clue to someone who gets to have a turn **before** the blind-play occurs, it is called a *Reverse Finesse*. This is more complicated than a normal *Finesse* and is harder to see.
 * Because *Reverse Finesses* exist as a strategy, before playing any cards, players should always check out everyone's *Finesse Position*. If a card in someone's *Finesse Position* is playable and "matches" the clue, then **they need to defer playing the clued card** for at least one go-around and wait to see what happens.
 * If the player with the "matching" card blind-plays it, then it means that the clued card is the next card in the chain. For example, on the first turn of a 3-player game:
   * Alice clues Bob red, which touches his red 2.
@@ -1033,7 +1033,7 @@ This section is unique in that it contains things that are separate from actual 
 
 ![Clandestine Finesse](img/clandestine_finesse.png)
 
-* Since we are allowed to lie in *Bluff Seat*, doing a *Layered Finesse* in *Bluff Seat* typically won't work. Instead of getting a big layered chain of cards, it will be interpreted as a *Bluff*, and only one card will be played. However, note that a *Clandestine Finesses* can get around this restriction, because it induces a potential misplay. The blind-playing player **must** continue to blind play cards, or else the player receiving the clue will assume that the *Finesse* is "over" and will play the clued card.
+* Since we are allowed to lie in *Bluff Seat*, doing a *Layered Finesse* in *Bluff Seat* typically won't work. Instead of getting a big layered chain of cards, it will be interpreted as a *Bluff*, and only one card will be played. However, note that a *Clandestine Finesses* can get around this restriction, because it induces a potential misplay. The blind-playing player **must** continue to blind-play cards, or else the player receiving the clue will assume that the *Finesse* is "over" and will play the clued card.
 
 ### The Stacked Finesse
 
@@ -1101,7 +1101,7 @@ This section is unique in that it contains things that are separate from actual 
   * At first glance, Bob might think that Alice is promising both red 1 and blue 1, which would mean that he would need to blind-play the blue 1.
   * However, a *Trash Finesse* only promises at least one matching card, and since he sees that Cathy has a matching card, then that is good enough. Thus, Bob discards.
   * Cathy blind-plays her *Finesse Position* card and it is red 1.
-  * Donald knows that the focus of the clue (slot 1) is certainly trash, since that caused Cathy to blind play.
+  * Donald knows that the focus of the clue (slot 1) is certainly trash, since that caused Cathy to blind-play.
   * Furthermore, Donald knows that his slot 2 card is also trash, because all the cards touched in a *Trash Bluff* or *Trash Finesse* are guaranteed to be trash.
 
 ### The Trash Finesse (Weak Form)
@@ -1832,7 +1832,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 * It is possible for a *Hesitation Blind-Play* to occur without anyone intending it to happen. However, if a player intentionally tries to make a *Hesitation Blind-Play* occur, it is called a *Pass Bluff*.
 * In other words, after a *Finesse* occurs that is directed at you, you will know that your *Finesse Position* card is playable. If the next immediate player also has an unrelated playable card on their *Finesse Position*, you can pretend like the *Finesse* wasn't directed at you. This will cause them to think that the *Finesse* was directed at them, and you will get the unrelated card played for free.
-* After the unrelated card is played, the next player should **not** continue to blind play cards (as a *Layered Finesse*) because:
+* After the unrelated card is played, the next player should **not** continue to blind-play cards (as a *Layered Finesse*) because:
   * You "passing" player fulfills the real *Finesse* on their next turn.
   * The "passing" player was in *Bluff Seat*.
 * *Pass Bluffs* rely on contextual information in order to work, so the circumstances in which you can do them are narrow.
@@ -2151,4 +2151,4 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 | Order Ejection & Reverse Order Ejection | Zamiel & q
 | The Scream Push | Zamiel
 | The Useless Bluff | Zamiel
-| The Double Scream Blind Play | Zamiel
+| The Double Scream Blind-Play | Zamiel
