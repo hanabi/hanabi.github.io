@@ -12,7 +12,7 @@ In order to faciliate online play, computer games often have a centralized publi
 
 Indeed, in any environment with many independent agents, the strategies used will never fully converge. However, in the same vein that one can walk around the downtown of a city on Friday night for a few hours to get a sense for what is currently "in vogue" with respect to fashion, it is also possible to observe many different games on a centralized server to get a sense for what is currently "in vogue" with respect to strategies. Things do end up converging quite a bit, and in video game jargon this is referred to as the metagame, or "meta" for short - the current set of popular strategies that you can roughly expect your opponents to be using.
 
-Why do players converge on a meta at all? This has a straightforward explanation: in order to maximize their winrate, players are incentivied to copy the strategies of the players that beat them. Or, to cut to the chase, they can just directly copy the strategies of the best players in the world, as shown in televised / streamed games. In other words, we can see that almost every online game is like a shared petri dish - everyone evolves together.
+Why do players converge on a meta at all? This has a straightforward explanation: in order to maximize their winrate, players are incentivied to copy the strategies of the players that beat them. Or, to cut to the chase, they can just directly copy the strategies of the best players in the world, as shown in televised / streamed games. In other words, we can see that almost every online game is like a shared petri dish - everyone evolves together to roughly converge on the same meta.
 
 <br />
 
