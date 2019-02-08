@@ -115,6 +115,19 @@ Note that in this user interface, players are holding their hands like they woul
 * Players are not allowed to perform a *2 Save* on a 2 if that same 2 is visible in someone else's hand.
   * The exception to this rule is when the same 2 is on two people's chops at the same time. In that situation, players are allowed to *2 Save* whichever one they want.
 
+### The Fresh 1's Rule
+
+* Sometimes, a player will get clued about a bunch of 1's. As explained in the beginners guide, freshly drawn 1's should always be played before any 1's that were present in the starting hand.
+* However, as an important exception, *Chop Focus* overrides the *Fresh 1's Rule*.
+* For example:
+  * No cards are played on the stacks.
+  * Alice discards a red 4.
+  * Alice gets clued about four 1's on slots 1, 2, 3, and 5.
+  * Alice knows that the correct order to play all of the 1's in is 5, 1, 3, 2:
+    * Alice knows that normally, you are supposed to play freshly-drawn 1's because playing the 1's that were present in your starting hand. However, *Chop Focus* overrides this rule, so she knows that when the time comes, the slot 5 card (her chop) should play first.
+    * After that, she uses the *Fresh 1's Rule*, and play the 1 in slot 1 next.
+     * After that, she will play the rest of the 1's from oldest to newest, so she will play slot 3 and then slot 2.
+
 ### Prompts in Multi-Color Variants
 
 * In multi-color variants, *Prompts* apply to the card with the most positive information.
