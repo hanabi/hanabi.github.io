@@ -199,7 +199,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
 
 ### Clue Logic Flowchart
 
-* For reference, this is [a basic logic flowchart](../flowcharts/clue_flowchart.png) that describes the general interpretation of a clue.
+* For reference, this is [a basic logic flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/flowcharts/clue_flowchart.png) that describes the general interpretation of a clue.
 
 <br />
 
