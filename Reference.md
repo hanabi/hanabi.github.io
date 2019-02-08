@@ -1170,17 +1170,15 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * The previously mentioned *Out-of-Order Finesse* is an specific example of a *Finesse* with a *Lie Component*. One key attribute of the *Out-of-Order Finesse* is that the player who receives the *Fix Clue* knows that **all** of the related cards are playable, or it would not have been worth the risk (and the confusion) to perform a line with a *Lie Component* in the first place.
 * This concept can be generalized to all *Finesses* that have a *Lie Component*. After a player receives a *Fix Clue* in such a situation, they should assume that the *Finesse* is "still on". So, depending on the situation, they should either know that the initial card that was clued is playable (like in an *Out-of-Order Finesse*) or continue to blind-play cards to the right of the card that got the *Fix Clue* (if more blind cards need to be played to fulfill the initial *Finesse*).
 
-### Rank Priority Prompts/Finesses in Multi-Color Variants
+### Priority in Multi-Color Variants
 
-* When you get a *Play Clue* on a card that could be two or more different suits, you must take the average of all of the ranks and treat the card as having that rank for the purposes of performing a *Rank Priority Finesse*.
-* For example, in a 3-player *Dual-color Suits* game:
-  * The green 1 and purple 1 are played on the stacks.
-  * Alice receives a blue *Play Clue* on her slot 1 card.
-  * This means that the card could be a green 2, a purple 2, or a navy 1.
-  * Thus, the average rank is: (2 + 2 + 1) / 3 = 1.67
-  * Alice also knows that she can play a white 2 that is in her slot 4.
-  * Since 1.67 is lower than 2, Alice is expected to play the blue card first.
-  * If Alice plays the white 2 instead, it would initiate a *Rank Priority Finesse* and promise that someone has the white 3.
+* Multi-color variants can make finding out which card has *Priority* a little tricky, because sometimes they will know a card is playable, but not know its exact identity.
+* In these situations, players should always assume that the suit of their card is the left-most of the possible suits.
+* For example:
+  * Alice has a known playable red 2 and a known playable blue card that is either blue 1 or rainbow 3.
+  * If the blue card is blue 1, then the blue card would have *Priority*. But if the blue card is rainbow 3, then the red 2 would have *Priority*.
+  * Since the blue stack is the to the left of the rainbow stack, Alice knows that for the purposes of calculating *Priority*, she has to assume that her blue card is the blue 1.
+  * Thus, even if Alice really does have the rainbow 3, playing the red 2 will still cause a *Priority Finesse* to occur on the red 3.
 
 ### The Speculation Prompt & The Speculation Finesse
 
