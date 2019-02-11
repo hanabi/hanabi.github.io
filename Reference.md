@@ -1983,6 +1983,20 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * In the middle of the game, it is relatively safe to blind-play your chop card, since it is known to not be a critical/playable card.
 * In the beginning of the game, it may not be safe to blind-play your chop card. In this situation, you may see that multiple players have the opportunity to initiate the *Dump Truck*. Normally, it is best to let the player immediately before the blind-player do it. If they have an unsafe chop, then the 2nd player before the blind-player should do it, and so forth.
 
+### The Distributed Dump Truck
+
+* This convention only applies to 5-player games.
+* In the *Dump Truck* convention, a blind-play of a chop card induces one person to blind-play their whole hand from left to right.
+* Normally, a *Dump Truck* is not ambiguous - only one player can have a fully-playable hand, so it is clear what is going on.
+* However, what if no players have a fully-playable hand? This must be communicating a different strategy. We agree that this should mean a *Quadruple Bluff*.
+* For example, in 5-player game:
+  * Near the beginning of the game, Alice blind-plays her chop and it fails to play.
+  * Bob interprets this as a *Dump Truck*, and blind-plays his *Finesse Position* card. It is a red 1 and it successfully plays.
+  * Cathy sees that this is **not** a *Dump Truck* - Bob does not have a fully-playable hand. Thus, this move must have some other meaning.
+  * Cathy can see that Donald and Emily have playable cards on their *Finesse Position*. Thus, Cathy knows that this is a *Distributed Dump Truck*, and plays her *Finesse Position* card. It is a blue 1 and it successfully plays.
+  * Donald can see what is going on, so he plays green 1 from his *Finesse Position*.
+  * Emily plays green 2 from her *Finesse Position*.
+
 ### The Useless Bluff
 
 * Normally, when a player clues a known-trash card that is off-chop, it communicates a *Trash Chop Move*. However, what if the *Chop Moved* card is also trash? Then this would be a completely useless *Chop Move*.
@@ -2183,3 +2197,4 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 | The Bad Touch Finesse | Zamiel
 | The Skipped Discard Chop Move | Libster
 | The Mismatch Finesse | Zamiel
+| The Distributed Dump Truck | Razvogor
