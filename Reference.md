@@ -1445,7 +1445,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Cathy has a 3 clued in her hand (with no color information on it).
   * Alice clues Cathy about a brand new 4.
   * Bob blind-plays red 2.
-  * This could be a normal *Bluff* if the 4 in her hand is blue 4, since blue 4 is currently one-away. Thus, Cathy **does not** assume that her 4 is red 4, and subsequently, does **does not** assume that her unknown 3 is a red 3. However, it could **also** be the case that the 4 is a red 4 (if the 3 in her hand happens to be red 3).
+  * This could be a *Bluff* if the 4 in her hand is blue 4, since blue 4 is currently one-away. Thus, Cathy **does not** assume that her 4 is red 4, and subsequently, does **does not** assume that her unknown 3 is a red 3. However, it could **also** be the case that the 4 is a red 4 (if the 3 in her hand happens to be red 3).
   * Thus, Cathy marks down both possibilities for later and does not play anything right now.
 
 ### 2 Saves (Off Chop on the First Turn)
