@@ -559,6 +559,12 @@ This section is unique in that it contains things that are separate from actual 
 * If pace is 0, no more discards can happen in order to get the maximum score.
 * If pace is below 0, it is impossible to get the maximum score.
 
+### The Pace +1 Rule
+
+* Players can use *Pace* to determine if it is safe to discard. In general, a group can discard down to pace 0 and still get a perfect score.
+* However, as a rule, if pace is +1 and one of the players on your team **does not** have any playable cards, then you cannot discard - **you must let them perform the final discard**.
+* If both you and another player do not have any playable cards, then you can do the final discard - the team won't be able to get a perfect score anyway. But if you you **could** have an unknown useful/playable card in your hand, then you should be very careful about discarding, because it could ruin a perfect score.
+
 <br />
 
 ## Level 3 - Advanced Strategies
