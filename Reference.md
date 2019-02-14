@@ -1136,8 +1136,8 @@ This section is unique in that it contains things that are separate from actual 
   * Bob's hand is as follows, from newest to oldest: red 3, red 1, blue 1, green 1, yellow 1.
   * Alice wants to give a play clue to the red 3. Everyone on the team can see that she can give either 3s or red.
     * If she clues number 3, then it will uniquely touch the red 3 (and not violate *Good Touch Principle*).
-    * If she clues red, then it will touch the red 4 and the red 1 (which **will** violate *Good Touch Principle*).
-  * Alice clues red to Bob. Since nothing was stopping her from cluing number 4, this is very strange.
+    * If she clues red, then it will touch the red 3 and the red 1 (which **will** violate *Good Touch Principle*).
+  * Alice clues red to Bob. Since nothing was stopping her from cluing number 3, this is very strange.
   * Bob plays the red 3.
   * Cathy knows that sometimes, when this type of thing happens, the aim is to protect a card on chop (when all cards of the suit are visible). But Alice sees that Bob's hand is filled with trash, so this cannot be the case.
   * Alice must be sending a signal to the team that someone has a red card ready to play. Thus, Cathy immediately blind-plays her *Finesse Position* card, and it is the red 4.
