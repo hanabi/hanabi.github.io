@@ -224,14 +224,14 @@ Note that in this user interface, players are holding their hands like they woul
 
 * When a player has two or more playable cards to play **and** those cards are different in some way (e.g. not two unknown 1's), everyone agrees that they should be played in a specific order. We refer to this as *Priority*. The agreed *Priority* is as follows:
 
-| Priority | Category of card                           | Reason
-| -------- | ------------------------------------------ | ------
-| 1        | Blind-plays                                | Demonstrating that a *Finesse* or *Bluff* occurred is very important.
-| 2        | Cards that lead into someone else's hand   | Otherwise, the team would lose *Tempo*.
-| 3        | Cards that lead into the player's own hand | It is bad for a suit to be "held up" on one player.
-| 4        | 5's                                        | Playing a 5 gets the team a free clue.
-| 5        | The lower rank card                        | The smaller stacks are more important to fill up.
-| 6        | The left-most card                         | The left-most card is more likely to be good.
+| Priority | Category of card                                   | Reason
+| -------- | -------------------------------------------------- | ------
+| 1        | Blind-plays                                        | Demonstrating that a *Finesse* or *Bluff* occurred is very important.
+| 2        | Cards that lead into someone else's hand           | Otherwise, the team would lose *Tempo*.
+| 3        | Cards that *could* lead into the player's own hand | It is bad for a suit to be "held up" on one player.
+| 4        | 5's                                                | Playing a 5 gets the team a free clue.
+| 5        | The lower rank card                                | The smaller stacks are more important to fill up.
+| 6        | The left-most card                                 | The left-most card is more likely to be good.
 
 * When a player does not play the card with *Priority*, they must be trying to send a special message.
 * Based on what card they did play, if you have any clued cards in your hand that match the next "connecting" card, it is a message that you can play it right now, similar to a *Prompt*. (The difference is that instead of initiating the *Prompt* with a clue, they initiated it with the order that they played cards.)
