@@ -816,7 +816,7 @@ This section is unique in that it contains things that are separate from actual 
   * Bob clues Alice red, which touches a card on slot 1 and slot 2.
   * Normally, Alice would play the left-most card (slot 1) as red 4. However, because of the *Elimination Notes*, she knows that the red 4 must be on slot 2.
   * However, the focus of the clue is on slot 1, so slot 1 must also be playable.
-  * Alice plays red 4 first from slot 2. Alice goes on to play the other red card as red 5 on her next turn.
+  * Alice plays red 4 first from slot 2. Since the red 5 is the only good red card left, Alice can assume that her other red card is red 5, and can play it on the next turn.
 * In other situations, your teammates will choose to **not** to clue the card directly. But once the *Elimination Notes* are whittled down, you should be able to blind-play it.
 * For example, in a 4-player game:
   * Red 3 is played on the stacks.
