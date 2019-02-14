@@ -1219,7 +1219,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### The Priority Bluff & The Priority Layered Finesse
 
-* If is possible to lie to the next player and imply a *Priority Finesse* when they have an unrelated card on *Finesse Position*.
+* It is possible to lie to the next player and imply a *Priority Finesse* when they have an unrelated card on *Finesse Position*.
 * After the unrelated card is played, since the player who lied was in *Bluff Seat*, no further cards should be promised.
 * If an unrelated card was played and the player who lied was not in *Bluff Seat*, it implies a *Priority Layered Finesse*.
 
