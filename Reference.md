@@ -747,9 +747,8 @@ This section is unique in that it contains things that are separate from actual 
 * There are some common special situations that do **not** imply an *Order Chop Move*:
   * The 1 had priority from the *Fresh 1's Rule*.
   * The 1 that was played was originally *Finessed* from a clue that happened **before** the number 1 clue.
-  * The 1 that was played had some unique positive or negative color information on it and could potentially lead into someone else's hand.
+  * The 1 that was played was not **exactly** the same as the other 1's. Any positive or negative information "turns off" *Order Chop Moves*.
   * The 1 that was skipped over is known to be bad from contextual information. (See *The Stale 1's Clue* section.)
-* Note that *Order Chop Moves* **only** apply to unknown 1's. If you play any other unknown cards out of order, then it does not mean anything special.
 
 ### Double Order Chop Move (for 3-Player Games)
 
