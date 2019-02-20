@@ -84,6 +84,16 @@ In general, we want all of our strategies to flow from some basic principles. Th
 * The highest value clue is expected. If a clue is given, it should be interpreted to be the highest value move available to that player.
 * In other words, you can draw many important conclusions from the fact that a player did not do some other (potentially higher-value) move.
 
+### 10. Be Cool Principle
+
+* When there is objectively no difference in outcome between two different plays, do the less conventional of the two. This is obviously cooler.
+* Common examples include:
+  * positional-discarding rather than using an available clue to indicate the final card.
+  * positional-misplaying (in lieu of positional discarding) at the end of the game if unused strikes remain.
+  * using ejection when it is totally unnecessary, but does not cause any confusion.
+* Obvious clues (or re-clues with no benefit) are referred to as *Bitch clues*. No one wants to be a bitch.
+* Some players may insist that it is actually *cooler* to give overly-conventional clues. These players are called *Hanabi Hipsters* and shall be ridiculed as such.
+
 <br />
 
 ## Examples
