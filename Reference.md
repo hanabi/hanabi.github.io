@@ -1992,7 +1992,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Donald knows that Bob should have *Order Chop Moved* Cathy's 5, so he knows that this is a *Reverse Order Ejection*. Donald blind-plays his slot 2 card and it is a blue 2.
   * Cathy knows that Donald did not blind-play from her *5 Save*, so the blind-play must have been from something else. The only other thing that happened was Bob playing the 1. Thus, Cathy knows that an *Reverse Order Ejection* has occurred and she retroactively *Chop Moves* herself.
 * Unlike a normal *Order Ejection*, the *Reverse Order Ejection* is not guaranteed to work. This is because Cathy is within her rights to "get" the *Second Finesse Position* card of Donald (with a direct *Play Clue* of her own). Thus, *Reverse Order Ejections* should only be done in specific circumstances where it is unlikely that Cathy will do so.
-* If a *Reverse Order Ejection*  fails, everyone on the team should be aware that they now need to save the chop of Cathy.
+* If a *Reverse Order Ejection* fails, everyone on the team should be aware that they now need to save the chop of Cathy.
 * For example, in a 4-player game:
   * The setup is exactly the same as in the previous example.
   * When it gets to Cathy's turn, instead of performing a *5 Save* on Bob, she instead clues Donald's blue 2 directly as a *Play Clue*.
