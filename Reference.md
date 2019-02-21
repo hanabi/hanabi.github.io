@@ -1981,7 +1981,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 #### Reverse Order Ejection
 
 * It is also possible to do a *Reverse Order Ejection*, meaning that the blind-play will occur **after** the person with the critical card has a turn.
-* For an *Order Ejection* to work, the player must have three or more 1's to choose from. But a *Reverse Order Ejection* is more flexible in that it only requires two 1's.
+* For an *Order Ejection* to work, the player who initiates it must have three or more 1's to choose from. But a *Reverse Order Ejection* is more flexible in that it only requires two 1's.
 * For example, in a 4-player game:
   * Blue 1 is played on the stacks.
   * Alice clues Bob 1's, touching a 1 on slot 2 and a 1 on slot 3.
