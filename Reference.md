@@ -197,15 +197,17 @@ Note that in this user interface, players are holding their hands like they woul
 
 ### The Early Game (Intermediate Section)
 
-* The *Early Game* is defined and introduced in the beginner's document. However, in order to squeeze as much value out of the conventions as possible, we have some extra rules about *The Early Game* that are listed here.
-* The *Early Game* is ended when someone discards for the first time. However, note that:
+* The *Early Game* is introduced in the beginner's document. In short:
+  * The *Early Game* is defined as the period of time before the first discard happens.
+  * Players must "extinguish" all of the available *Play Clues* and *Save Clues* on the board before ending the *Early Game*.
+* As an intermediate player, you should note that:
   * Misplaying a card **does not count** as ending the *Early Game*.
   * Discarding known trash **does not count** as ending the *Early Game*.
   * Doing special discards that "transfer" cards to other players **does not count** as ending the *Early Game*.
-* In the *Early Game*, players must "extinguish" all of the available clues on the board. Note that:
-  * This **does** include *5 Stalling*, but it is only mandatory for the team to collectively perform one *5 Stall*. If one *5 Stall* clue has already been given and there is another *5 Stall* clue available, players are allowed (but not required) to clue it.
-  * This **does not** include cluing something in the hand of the player who came directly before you. (This is because the player who came before you did not see anything for you to do, and is therefore giving you "permission" to discard.) In this situation, cluing is optional; players can choose to either clue the previous hand or discard at their discretion.
-  * This **does not** include cluing cards that will be almost certainly be *Order Chop Moved* by an upcoming player who already has two or more 1's clued in their hand. (*Order Chop Moves* are an advanced move that is covered later.)
+* In order to squeeze as much value out of the conventions as possible, we have some extra rules about "extinguishing" every possible clue:
+  * "Extinguishing" every clue **does** include *5 Stalling*, but it is only mandatory for the team to collectively perform one *5 Stall*. If one *5 Stall* clue has already been given and there is another *5 Stall* clue available, players are allowed (but not required) to clue it.
+  * "Extinguishing" every clue **does not** include cluing something in the hand of the player who came directly before. This is because the player who came before did not see anything for the next player to do, and is therefore giving them "permission" to discard. In this situation, cluing is optional; players can choose to either clue the previous hand or discard at their discretion.
+  * "Extinguishing" every clue **does not** include cluing cards that will be almost certainly be *Order Chop Moved* by an upcoming player who already has two or more 1's clued in their hand. (*Order Chop Moves* are an advanced move that is covered later.)
 
 ### 5 Stalls (Intermediate Section)
 
