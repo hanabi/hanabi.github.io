@@ -1964,7 +1964,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 #### Order Ejection
 
-* When a player can perform an *Order Chop Move* on a critical 5 (or a critical black card) at the beginning of the game, and they don't do it, this is very strange.
+* When a player can perform an *Skipped Order Chop Move* on a critical 5 (or a critical black card) at the beginning of the game, and they don't do it, this is very strange.
 * The player must be communicating something extra. In this scenario, they intend for the next person to blind-play slot 2.
 * The *Order Ejection* will also get a free *Chop Move* in addition to getting the blind-play.
 * For example, in a 4-player game:
