@@ -723,7 +723,24 @@ This section is unique in that it contains things that are separate from actual 
 * This is an example of a *Certain Finesse* - it is similar to the *Sarcastic Finesse* above, but the "blind" card was potentially duplicated instead of the clued card.
 * In this situation, if Alice really has the red 3, Cathy is allowed to blind-discard their *Finesse Position* card. This is called a *Certain Discard*, because Cathy can be certain that it is exactly red 3.
 * A separate way to explain this convention is that everyone agrees that performing a *Layered Finesse* on a card that could potentially clued in your own hand is illegal. So, everyone can be certain that they can safely blind discard a card to pass it back to someone who potentially duplicated. (*Layered Finesses* are an advanced type of *Finesse* that was explained above.)
-* Note that players are **only** allowed to do a *Certain Discard* if they know they have not been *Bluffed*. (This means that *Certain Finesses* cannot be performed from *Bluff Seat*.)
+* Note that players are **only allowed** to do a *Certain Discard* if they know they have not been *Bluffed*. This means that *Certain Finesses* **cannot be performed** from *Bluff Seat*.
+* For example, in a 3-player game:
+  * Red 2 and blue 3 are played on the stacks. Blue 4 is in the discard pile.
+  * Alice has an unknown 3 in her hand that happens to be the red 3.
+  * Alice clues number 4 to Cathy, touching a red 4 as a *Play Clue*.
+  * Bob knows that Alice could be trying to perform a *Finesse* on a red 3. Normally, he would blind-discard his *Finesse Position* card as a *Certain Discard* in order to pass this card back to Alice.
+  * However, Bob **also** knows that you are not allowed to perform a *Certain Discard* from *Bluff Seat*. In other words, there are other possibilities for this move - it could also be a *Bluff* on the blue 4. If he blind-discarded, that could "kill" the blue stack, since the other copy of blue 4 is already discarded.
+  * Bob blind-plays his *Finesse Position* card and it is the blue 4. Good thing he did not discard the card!
+* As an exception to the above rule, *Certain Finesses* **can** be performed from *Bluff Seat* if it is strictly impossible to be a *Bluff*. In other words, this means that it is illegal for a player to perform a *Clandestine Finesse* on the very next player that targets a potentially duplicated card **and** the other player can rule out the possibility of a *Bluff*. (*Clandestine Finesses* are an advanced move that is covered later.)
+* For example, in a 3-player game:
+  * All of the 2's & blue 3 is played on the stacks. Green 3 is in the discard pile.
+  * Alice has an unknown 3 in her hand that happens to be the red 3.
+  * Alice clues number 4 to Cathy, touching a red 4 as a *Play Clue*.
+  * Bob knows that Alice could be trying to perform a *Finesse* on a red 3. Normally, he would blind-discard his *Finesse Position* card as a *Certain Discard* in order to pass this card back to Alice.
+  * However, Bob also knows that this might be a *Bluff*. But wait - his *Finesse Position* card has negative blue on it. So anything that he blind-plays here would have to be a 3. Thus, this cannot be a *Bluff*, since a 3 would match a 4 and look like a *Finesse*.
+  * The only other possibility that Bob has to worry about is a *Clandestine Finesse*. For example, he could be blind-playing a green 3 **and then** a red 3 after that. If he blind-discarded, that could "kill" the green stack, since the other copy of green 3 is already discarded.
+  * However, Bob **also** knows that you are not allowed to perform a *Clandestine Finesse* from *Bluff Seat* that could duplicate a card in your hand. Thus, he can discount both the possibility of a *Bluff* **and** the possibility of a *Clandestine Finesse*.
+  * Bob performs a *Certain Discard* on his *Finesse Position* card and it is the red 3, successfully passing it back to Alice.
 * If someone performs a *Certain Discard* and you have two or more clued cards that could be the target, then you are not promised the order, only that you have the card clued somewhere in your hand. (This part works in the exact same way as a more-ordinary *Sarcastic Discard*.)
 
 ### The Early Fix Clue Chop Move
