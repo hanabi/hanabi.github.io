@@ -195,6 +195,47 @@ Note that in this user interface, players are holding their hands like they woul
   * From Cathy's perspective, she knows that the red 4 is two-away instead of one-away. *Bluffs* on two-away cards are normally illegal, so her mystery 3 must be exactly red 3, making the red 4 one-away after all.
 * Sometimes, the player who has the in-between card might have more than one "matching" clued card. In this situation, the player is promised that they have the in-between card, but they are not promised the position - it can be any of the matching clued cards.
 
+### Telling the Difference Between a Finesse and a Bluff - Part 1
+
+* Sometimes, a player will give a clue that looks like it could be either a *Finesse* or a *Bluff*. Between these two moves, which should have precedence?
+* For example, in a 4-player game:
+  * All of the 1's are played on the stacks.
+  * Cathy has a blue 2 on her *Finesse Position*.
+  * Alice clues blues to Donald, highlighting a blue 3 as a *Play Clue*.
+  * Now, it is Bob's turn.
+* What to think **depends** on whether you are Bob or whether you are someone else on the team.
+* First, let's consider the case of Bob, the very next player. Bob should **always assume a *Finesse* over a *Bluff***. From his perspective:
+  * Bob knows that if this is a *Finesse*, then Cathy will blind-play the blue 2, and then Donald will know that he has the blue 3. If this is the case, Bob should not do anything special.
+  * Bob also knows that if this is a *Bluff*, then Bob should blind-play his *Finesse Position* card immediately.
+  * Bob knows that if there is any way that this could be a *Finesse* (the truth), he should **assume that the truth is being told**. Thus, Bob knows that it must be a *Finesse* on Cathy and should not blind-play anything.
+
+### Telling the Difference Between a Finesse and a Bluff - Part 2
+
+* Let's switch examples and assume that Alice did a clue and then Bob blind-played a card.
+* So secondly, we can consider the case of Bob **after** he has blind-played a card, which also extends to the rest of the team. How does everyone know whether Alice did a *Finesse* or a *Bluff* on Bob?
+* The way to find out is to look at **whether the card that blind-played "matches" the clue that was given**. If the clue matches, then it is a *Finesse*. If the clue did not match, then it is a *Bluff*.
+* If it is ambiguous whether or not the card matches, then the team should **always assume a *Bluff* over a *Finesse***. (Note that this is the opposite of the precedence in step 1!)
+* Some common examples:
+  * Blue 1 is played on the stacks. Alice clues Cathy about a blue card. Bob blind-plays a blue 2. This must be a *Finesse*, because **blue matches blue**. So Cathy should think that she has the blue 3.
+  * Blue 1 is played on the stacks. Alice clues Cathy about a blue card. Bob blind-plays a red 1. This must be a *Bluff*, because **red does not match blue**. So Cathy should think that she has the one-away blue card, blue 3.
+  * Rainbow 1 is played on the stacks. Alice clues Cathy about a blue card. Bob blind-plays a rainbow 2. This must be a *Finesse*, because **blue matches blue**. So Cathy should think that she has the rainbow 3.
+  * Blue 2 is played on the stacks. Alice clues Cathy about a 4. Bob blind-plays the blue 3. This must be a *Finesse*, because **3 matches 4**. So Cathy should think that she has the blue 4.
+  * Blue 2 is played on the stacks. Alice clues Cathy about a 4. Bob blind-plays the red 1. This must be a *Bluff*, because **1 does not match 4**. So Cathy should think that she has the one-away 4, the blue 4. (This is an example of a *Hard Bluff*, which is covered in more detail later.)
+* And a final example that is slightly more complicated:
+  * Nothing is played on the stacks.
+  * Alice clues Cathy about a 4.
+  * Bob blind-plays the red 1.
+  * This **cannot** be a *Bluff*, because there are no one-away 4's. So even though 1 does not match 4, this must be a *Finesse*, because Alice is not allowed to perform a *Bluff* with any old card that she wants.
+  * Cathy does not see any other red cards in Bob's hand. So Cathy should think that she has the red 4, because that would match the blind-play of a red 1. Subsequently, Cathy must have red 2 on her *Finesse Position* and red 3 on her *Second Finesse Position*.
+
+### Playing Into Finesses Right Away & How to Tell If Someone Is Finessed
+
+* Normally, when a *Finesse* or *Bluff* occurs, someone blind-plays right away. This is extremely important, because it resynchronizes the information amongst the team. So, as a group we always agree to blind-play our cards are soon as reasonably possible.
+* Thus, if you see that a player does **not** blind-play into the *Finesse* or *Bluff*, then you know that the *Finesse* must be **on you**. In this way, *Ambiguous Finesses* will resolve very quickly.
+* However, there are some important exceptions:
+  1) Players are allowed to **defer** playing into a *Finesse* or *Bluff* if they are doing a *Finesse* or *Bluff* of their own (and no-one else on the team could have done it).
+  2) Players are allowed to **defer** playing into a *Finesse* or *Bluff* if they are doing something really important, like saving a 5 on chop, giving a *Play Clue* to a card that is about to be discarded*, or something along those lines.
+
 ### The Early Game (Intermediate Section)
 
 * The *Early Game* is introduced in the beginner's document. In short:
