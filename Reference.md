@@ -228,7 +228,7 @@ Note that in this user interface, players are holding their hands like they woul
   * This **cannot** be a *Bluff*, because there are no one-away 4's. So even though 1 does not match 4, this must be a *Finesse*, because Alice is not allowed to perform a *Bluff* with any old card that she wants.
   * Cathy does not see any other red cards in Bob's hand. So Cathy should think that she has the red 4, because that would match the blind-play of a red 1. Subsequently, Cathy must have red 2 on her *Finesse Position* and red 3 on her *Second Finesse Position*.
 
-### Playing Into Finesses Right Away & How to Tell If Someone Is Finessed
+### The Urgency Principle (e.g. How to Tell If Someone Is Finessed)
 
 * Normally, when a *Finesse* or *Bluff* occurs, someone blind-plays right away. This is extremely important, because it resynchronizes the information amongst the team. So, as a group, we always agree to blind-play our cards are soon as reasonably possible.
 * Thus, if you see that a player does **not** blind-play into the *Finesse* or *Bluff*, then you know that the *Finesse* must be **on you**. In this way, *Ambiguous Finesses* will resolve very quickly.
