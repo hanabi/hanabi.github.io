@@ -785,7 +785,11 @@ This section is unique in that it contains things that are separate from actual 
   * Bob knows that Alice could be trying to perform a *Finesse* on a red 3. Normally, he would blind-discard his *Finesse Position* card as a *Certain Discard* in order to pass this card back to Alice.
   * However, Bob **also** knows that you are not allowed to perform a *Certain Discard* from *Bluff Seat*. In other words, there are other possibilities for this move - it could also be a *Bluff* on the blue 4. If he blind-discarded, that could "kill" the blue stack, since the other copy of blue 4 is already discarded.
   * Bob blind-plays his *Finesse Position* card and it is the blue 4. Good thing he did not discard the card!
-* As an exception to the above rule, *Certain Finesses* **can** be performed from *Bluff Seat* if it is strictly impossible to be a *Bluff*. In other words, this means that it is illegal for a player to perform a *Clandestine Finesse* on the very next player that targets a potentially duplicated card **and** the other player can rule out the possibility of a *Bluff*. (*Clandestine Finesses* are an advanced move that is covered later.)
+
+### The Certain Finesse Clandestine Exception
+
+* If you are not an expert player, you can skip over this section, as it just outlines a specific and rare edge-case for *Certain Finesses*.
+* As an exception to the above *Bluff Seat* rule, *Certain Finesses* **can** be performed from *Bluff Seat* if it is strictly impossible to be a *Bluff*. In other words, this means that it is illegal for a player to perform a *Clandestine Finesse* on the very next player that targets a potentially duplicated card **and** the other player can rule out the possibility of a *Bluff*. (*Clandestine Finesses* are an advanced move that is covered later.)
 * For example, in a 3-player game:
   * All of the 2's & blue 3 is played on the stacks. Green 3 is in the discard pile.
   * Alice has an unknown 3 in her hand that happens to be the red 3.
