@@ -662,7 +662,7 @@ This section is unique in that it contains things that are separate from actual 
 
 ### The Positional Discard (Indicating a Play with a Discard)
 
-* At the end of the game, if you have no clues left and no cards to play, you can transmit information based on which card you discard.
+* Near the end of the game, if you have no clues left and no cards to play, you can transmit information based on which card you discard.
 * Thus, you can discard the slot in your hand that matches the slot in someone else's hand that they are supposed to play.
 * Usually, players will only do this if they can see all of the remaining useful cards. Since they see everything, they know that they cannot be discarding anything important.
 
