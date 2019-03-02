@@ -2133,7 +2133,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * However, in an extremely difficult variant, or in a situation where one of the previous players has blundered, it might fall to one player to save the next player's critical chop card. In this situation, they might not be able to perform a *Scream Discard*, because they might not have any playable cards. And they might not be able to perform a *Scream Blind-Play*, because if the team is at 2 strikes, then the game would immediately end.
 * In this situation, the player can discard a card one-away from their chop as a *Skipped Discard Chop Move*. This convention is normally only used in 2-player games, because it is very unsafe, risking the discard of a critical card.
 * It is very common for players to accidently *Chop Move* a card. Thus, the *Skipped Discard Chop Move* interpretation should almost never be entertained, simply because of how rarely it is actually needed.
-* Furthermore, this move should never be performed unless every player at the table has been playing with the group for 6+ months and it is unlikely to be interpreted as a mistake.
+* Furthermore, this move should never be performed if there is a non-expert player playing or if it is likely to be interpreted as a mistake.
 
 <br />
 
