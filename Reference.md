@@ -685,7 +685,7 @@ This section is unique in that it contains things that are separate from actual 
 * For example, in a 3-player game:
     * Red 1 and rainbow 2 are played on the stacks.
     * Alice clues red to Cathy, which touches her red 3.
-    * Bob has a rainbow 3 clued as red in her hand and he has no idea what it is.
+    * Bob has a rainbow 3 clued as red in his hand and he has no idea what it is.
     * Bob sees that Alice's clue must be a *Prompt*, so he plays his red card as red 2. He is surprised to see that it is actually rainbow 3.
     * Bob knows that he really must have the red 2, and it must have been on *Finesse Position* when Alice originally gave the clue. Since he just drew a card after he played the rainbow 3, he now knows that the red 2 is on his slot 2 (the second-newest card).
     * On Bob's next turn, he blind-plays his the red 2 from slot 2.
