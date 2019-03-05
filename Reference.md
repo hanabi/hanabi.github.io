@@ -1127,22 +1127,6 @@ This section is unique in that it contains things that are separate from actual 
   * Alice blind-plays her *Finesse Position* card as red 1, but it is green 1.
   * Alice knows that she is promised the red 1, so she will blind-play her slot 2 on her next turn.
 
-### The Certain Finesse Clandestine Exception
-
-* This section outlines a specific and rare edge-case for *Certain Finesses*.
-* We agree that *Bluffs* take precedence over *Certain Finesses*. This means that a *Certain Finesse* cannot normally be performed from *Bluff Seat*.
-* *Certain Finesses* **can** be performed from *Bluff Seat* if it is strictly impossible to be a *Bluff*. In other words, this means that it is illegal for a player to perform a *Clandestine Finesse* on the very next player that targets a potentially duplicated card **and** the other player can rule out the possibility of a *Bluff*.
-* For example, in a 3-player game:
-  * All of the 2's & blue 3 is played on the stacks. Green 3 is in the discard pile.
-  * Alice has an unknown 3 in her hand that happens to be the red 3.
-  * Alice clues number 4 to Cathy, touching a red 4 as a *Play Clue*.
-  * Bob knows that Alice could be trying to perform a *Finesse* on a red 3. Normally, he would blind-discard his *Finesse Position* card as a *Certain Discard* in order to pass this card back to Alice.
-  * However, Bob also knows that this might be a *Bluff*. But wait - his *Finesse Position* card has negative blue on it. So anything that he blind-plays here would have to be a 3. Thus, this cannot be a *Bluff*, since a 3 would match a 4 and look like a *Finesse*.
-  * The only other possibility that Bob has to worry about is a *Clandestine Finesse*. For example, he could be blind-playing a green 3 **and then** a red 3 after that. If he blind-discarded, that could "kill" the green stack, since the other copy of green 3 is already discarded.
-  * However, Bob **also** knows that you are not allowed to perform a *Clandestine Finesse* from *Bluff Seat* that could duplicate a card in your hand. Thus, he can discount both the possibility of a *Bluff* **and** the possibility of a *Clandestine Finesse*.
-  * Bob performs a *Certain Discard* on his *Finesse Position* card and it is the red 3, successfully passing it back to Alice.
-* If someone performs a *Certain Discard* and you have two or more clued cards that could be the target, then you are not promised the order, only that you have the card clued somewhere in your hand. (This part works in the exact same way as a more-ordinary *Sarcastic Discard*.)
-
 ### The Trash Push
 
 * Normally, when a useless card is clued, it signifies a *Trash Chop Move*. However, what if the useless card is actually the card on chop? Then it wouldn't be *Chop Moving* anything.
@@ -1523,6 +1507,18 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * On the first turn of the game, it is not possible to discard. If there is absolutely nothing else to do, it is permissible in this situation to use a number 2 clue to save a 2 that is **not** on chop, but only if the other players can see that you had no other choice.
 * This situation typically only happens in 3-player games.
 
+### The Fake Save
+
+* We are only able to perform *Save Clues* on specific cards and in specific ways, as outlined in the Beginner's Guide. For example, we all agree that we must save 5's with number 5.
+* In some specific circumstances, the team will have only one clue available and multiple cards must be saved with a single clue. In this situation, to prevent losing the game (or losing a currently-playable card), it is permissible to "lie" to the player and perform a non-legal *Save Clue*. The player will mark their chop card as something other than what it really is, so this move commits the team to giving a *Fix Clue* at some point in the future.
+* For example, in a 3-player game:
+  * Alice has 1 clue available.
+  * Bob has a red 5 on chop, followed by a red 4. The other copy of the red 4 is in the discard pile, so there are two critical cards in a row.
+  * Alice is not allowed to save the red 5 with a red clue, because then it would look like a *Save Clue* on a red 4.
+  * However, if Alice clues number 5 to Bob, then he will discard the red 4.
+  * Thus, Alice performs a *Fake Save* on both red cards by cluing red.
+  * Bob will mark his chop as the red 4, so the team will have him number 5 as a *Fix Clue* at some point in the future. At that point, he will be able to retroactively see that Alice was in a very tight spot and had to give a *Fake Save*.
+
 ### The Unnecessary Generation Discard
 
 * Sometimes, in order to satisfy *Save Principle*, a player will perform an unnecessary *Generation Discard*, which generates a clue to save a card that they actually already have in their hand.
@@ -1762,24 +1758,28 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ## Level 4 - Rarely Used Expert Strategies
 
-### The Fake Save
-
-* We are only able to perform *Save Clues* on specific cards and in specific ways, as outlined in the Beginner's Guide. For example, we all agree that we must save 5's with number 5.
-* In some specific circumstances, the team will have only one clue available and multiple cards must be saved with a single clue. In this situation, to prevent losing the game (or losing a currently-playable card), it is permissible to "lie" to the player and perform a non-legal *Save Clue*. The player will mark their chop card as something other than what it really is, so this move commits the team to giving a *Fix Clue* at some point in the future.
-* For example, in a 3-player game:
-  * Alice has 1 clue available.
-  * Bob has a red 5 on chop, followed by a red 4. The other copy of the red 4 is in the discard pile, so there are two critical cards in a row.
-  * Alice is not allowed to save the red 5 with a red clue, because then it would look like a *Save Clue* on a red 4.
-  * However, if Alice clues number 5 to Bob, then he will discard the red 4.
-  * Thus, Alice performs a *Fake Save* on both red cards by cluing red.
-  * Bob will mark his chop as the red 4, so the team will have him number 5 as a *Fix Clue* at some point in the future. At that point, he will be able to retroactively see that Alice was in a very tight spot and had to give a *Fake Save*.
-
 ### The Top Hat Clue
 
 * Since the *Layered Gentleman's Discard* is so efficient, clever players that see the opportunity to perform one will almost always want to do so.
 * Thus, it follows that in rare cases, when a teammate gives you a play clue on some card, they **do not** intend for you to play it. They intend for you to see the opportunity for a *Layered Gentleman's Discard*, and then immediately discard the card.
 * This kind of clue is called a *Top Hat Clue* because you are giving them an opportunity to be a gentleman.
 * Note that you should not mistake a *Top Hat Clue* for a clue that initiates a *Layered Finesse*. You are only allowed to discard the card if you can determine its exact identity.
+
+### The Certain Finesse Clandestine Exception
+
+* This section outlines a specific and rare edge-case for *Certain Finesses*.
+* We agree that *Bluffs* take precedence over *Certain Finesses*. This means that a *Certain Finesse* cannot normally be performed from *Bluff Seat*.
+* *Certain Finesses* **can** be performed from *Bluff Seat* if it is strictly impossible to be a *Bluff*. In other words, this means that it is illegal for a player to perform a *Clandestine Finesse* on the very next player that targets a potentially duplicated card **and** the other player can rule out the possibility of a *Bluff*.
+* For example, in a 3-player game:
+  * All of the 2's & blue 3 is played on the stacks. Green 3 is in the discard pile.
+  * Alice has an unknown 3 in her hand that happens to be the red 3.
+  * Alice clues number 4 to Cathy, touching a red 4 as a *Play Clue*.
+  * Bob knows that Alice could be trying to perform a *Finesse* on a red 3. Normally, he would blind-discard his *Finesse Position* card as a *Certain Discard* in order to pass this card back to Alice.
+  * However, Bob also knows that this might be a *Bluff*. But wait - his *Finesse Position* card has negative blue on it. So anything that he blind-plays here would have to be a 3. Thus, this cannot be a *Bluff*, since a 3 would match a 4 and look like a *Finesse*.
+  * The only other possibility that Bob has to worry about is a *Clandestine Finesse*. For example, he could be blind-playing a green 3 **and then** a red 3 after that. If he blind-discarded, that could "kill" the green stack, since the other copy of green 3 is already discarded.
+  * However, Bob **also** knows that you are not allowed to perform a *Clandestine Finesse* from *Bluff Seat* that could duplicate a card in your hand. Thus, he can discount both the possibility of a *Bluff* **and** the possibility of a *Clandestine Finesse*.
+  * Bob performs a *Certain Discard* on his *Finesse Position* card and it is the red 3, successfully passing it back to Alice.
+* If someone performs a *Certain Discard* and you have two or more clued cards that could be the target, then you are not promised the order, only that you have the card clued somewhere in your hand. (This part works in the exact same way as a more-ordinary *Sarcastic Discard*.)
 
 ### The Declined 5's Finesse
 
