@@ -1267,6 +1267,12 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * The previously mentioned *Out-of-Order Finesse* is an specific example of a *Finesse* with a *Lie Component*. One key attribute of the *Out-of-Order Finesse* is that the player who receives the *Fix Clue* knows that **all** of the related cards are playable, or it would not have been worth the risk (and the confusion) to perform a line with a *Lie Component* in the first place.
 * This concept can be generalized to all *Finesses* that have a *Lie Component*. After a player receives a *Fix Clue* in such a situation, they should assume that the *Finesse* is "still on". So, depending on the situation, they should either know that the initial card that was clued is playable (like in an *Out-of-Order Finesse*) or continue to blind-play cards to the right of the card that got the *Fix Clue* (if more blind cards need to be played to fulfill the initial *Finesse*).
 
+### The Priority Bluff & The Priority Layered Finesse
+
+* It is possible to lie to the next player and imply a *Priority Finesse* when they have an unrelated card on *Finesse Position*.
+* After the unrelated card is played, since the player who lied was in *Bluff Seat*, no further cards should be promised.
+* If an unrelated card was played and the player who lied was not in *Bluff Seat*, it implies a *Priority Layered Finesse*.
+
 ### The Speculation Prompt & The Speculation Finesse
 
 * Normally, a player needs to know the exact identity of a card in order to initiate a *Priority Prompt* or *Priority Finesse*. However, it is somewhat common that a player will get a *Play Clue* on a card and they will not know its exact identity. (For example, when they get a color *Play Clue* in a multi-color variant.) In this situation, the rules of *Priority* still apply, as enumerated above in the previous section.
@@ -1275,17 +1281,15 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * For example, in a no variant game:
   * Blue 1 and red 1 are played on the stacks.
   * Alice has a known playable yellow 1. She also has a known playable 2 that could be either blue 2 or red 2.
-  * Alice plays the 2 as a *Speculation Finesse*.
-  * Between blue and red, the blue suit has *Speculation Priority*, since it is the left-most suit of the two.
-  * After the card is played, if it happens to be blue 2, then the rest of the team is promised the blue 3, just like a normal *Priority Prompt* or *Priority Finesse*.
-  * After the card is played, if it happens to be red 2, then the rest of the team knows that the blue 3 was promised. Whoever has it should mark it in their hand for later, and perform a *Self-Chop Move* if it gets to their chop, similar to how *Elimination* works.
-* Note that we agree that it is illegal for players to perform a *Layered Speculation Finesse*, so players should not factor in that possibility.
-
-### The Priority Bluff & The Priority Layered Finesse
-
-* It is possible to lie to the next player and imply a *Priority Finesse* when they have an unrelated card on *Finesse Position*.
-* After the unrelated card is played, since the player who lied was in *Bluff Seat*, no further cards should be promised.
-* If an unrelated card was played and the player who lied was not in *Bluff Seat*, it implies a *Priority Layered Finesse*.
+  * The yellow 1 has *Priority* and Alice is expected to play that. Instead, she plays the 2 as a *Speculation Finesse*.
+  * Between blue and red, the blue suit is the *Speculation Target*, since it is the left-most suit between blue and red.
+  * The card happens to be blue 2. The rest of the team is promised the blue 3, just like a normal *Priority Prompt* or *Priority Finesse*.
+* It is also possible for the *Speculation* to fail, meaning that the card does not happen to be the left-most suit. In this situation, the rest of the team is still promised the *Speculation Target*, but they should write *Speculation Elimination Notes* for the card.
+* For example, in a no variant game:
+  * The setup is the same as the previous example.
+  * The card happens to be the red 2 (instead of blue 2).
+  * The rest of the team knows that the blue 3 was promised. Bob does not see anyone else with the blue 3, so he writes *Speculation Elminiation Notes* on every card in his hand.
+* Note that we agree that it is illegal for players to perform a *Amiguous Speculation Finesse*, so players do not have to account for that possibility.
 
 <br />
 
@@ -1586,6 +1590,11 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Alice has *Elimination Notes* on slot 3 and slot 4 for red 3.
   * Someone clues a number 4 in Alice's slot 1 as a *Self-Finesse*.
   * Alice must assume that it is a normal *Self-Finesse* and play blue 3 from slot 2. (If it was an *Elimination Self-Finesse*, she would play red 3 from slot 4.)
+
+### The Speculation Elimination Finesse
+
+* In a normal *Elimination Finesse*, the right-most card is called for.
+* However, if an *Elimination Finesse* calls for a card that specifically has *Speculation Elimination Notes* on it, then the **left-most** card is called for instead of the right-most card.
 
 ### The Chop Transfer
 
