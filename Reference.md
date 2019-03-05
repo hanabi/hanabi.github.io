@@ -1400,8 +1400,11 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Green means play slot 2.
   * Yellow means play slot 3.
   * Red means play slot 4.
-  * Purple means play slot 5 (in 2 and 3-player games).
-  * Purple means that the next two players should play their *Finesse Position* card (in 4 and 5-player games).
+  * Purple means play slot 5 (in 2-player and 3-player games).
+  * Purple means for two people to blind-play their *Finesse Position* card (in 4-player and 5-player games).
+    * The two blind-plays do not necessarily have to be on two players in a row - they can be on anyone.
+    * To reduce confusion, the purple clue should be given to the first player who will be blind-playing.
+    * To reduce confusion, the purple clue is only legal if there are exactly two cards on *Finesse Position* (so that it won't be *Ambiguous*).
   * Orange means chop move.
 * All color *Play Clues* have to be treated as potential *Delayed Play Clues*, *Prompts*, and *Reverse Finesses*.
 
