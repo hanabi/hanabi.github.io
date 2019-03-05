@@ -1246,7 +1246,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * The previously mentioned *Out-of-Order Finesse* is an specific example of a *Finesse* with a *Lie Component*. One key attribute of the *Out-of-Order Finesse* is that the player who receives the *Fix Clue* knows that **all** of the related cards are playable, or it would not have been worth the risk (and the confusion) to perform a line with a *Lie Component* in the first place.
 * This concept can be generalized to all *Finesses* that have a *Lie Component*. After a player receives a *Fix Clue* in such a situation, they should assume that the *Finesse* is "still on". So, depending on the situation, they should either know that the initial card that was clued is playable (like in an *Out-of-Order Finesse*) or continue to blind-play cards to the right of the card that got the *Fix Clue* (if more blind cards need to be played to fulfill the initial *Finesse*).
 
-### The Priority Bluff & The Priority Layered Finesse
+### The Priority Bluff & The Layered Priority Finesse
 
 * It is possible to lie to the next player and imply a *Priority Finesse* when they have an unrelated card on *Finesse Position*.
 * After the unrelated card is played, since the player who lied was in *Bluff Seat*, no further cards should be promised.
@@ -1269,6 +1269,10 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * The card happens to be the red 2 (instead of blue 2).
   * The rest of the team knows that the blue 3 was promised. Bob does not see anyone else with the blue 3, so he writes *Speculation Elminiation Notes* on every card in his hand.
 * Note that we agree that it is illegal for players to perform a *Amiguous Speculation Finesse*, so players do not have to account for that possibility.
+
+### The Speculation Layered Finesse
+
+* Similar to a *Layered Priority Finesse*, it is also possible to *Layered Speculation Finesse*. This is safe to do because if the *Speculation* fails, no lie will have occured, since the other player will write *Elminiation Notes* on their entire hand.
 
 <br />
 
