@@ -170,15 +170,15 @@ Note that in this user interface, players are holding their hands like they woul
 ### Bluffs
 
 * *Finesses* are quite efficient. So, when you see a playable card in someone's *Finesse Position* slot, you will often want to "get" the card with a *Finesse* (instead of cluing it directly). However, often times, the proper "connecting" card is not on the table.
-* In this situation, you can perform an alternate strategy by lying to the next player. By cluing an unrelated, one-away card, the next player will think that it is a *Finesse* and that they have the matching card, so they will blind-play their *Finesse Position* card. This is called a *Bluff*.
-* After the card is blind-played, the player who received the clue will realize that something strange has happened - the type of clue **did not match** the card that was blind-played. Thus, the clued card is not currently playable and must be a one-away card.
+* In this situation, you can perform an alternate strategy by lying to the next player. By cluing an unrelated, one-away from playable card, the next player will think that it is a *Finesse* and that they have the matching card, so they will blind-play their *Finesse Position* card. This is called a *Bluff*.
+* After the card is blind-played, the player who received the clue will realize that something strange has happened - the type of clue **did not match** the card that was blind-played. Thus, the clued card is not currently playable and must be a one-away from playable card.
 * For example, in a 3-player game:
   * All the 2's are played on the stacks.
   * Alice clues Cathy red, which touches a red 4 as a *Play Clue*.
   * Next, it is Bob's turn. Bob sees that, with this red clue, Cathy has just been signaled that she has the red 3.
   * From Bob's perspective, this looks like a *Finesse* - if Bob does not blind-play the red 3 right now, Cathy will go on to misplay the red 4 as the red 3.
   * Bob blind-plays his slot 1 card. However, it is not the red 3, it was the blue 3! Now Bob knows that he has been *Bluffed* by Alice.
-  * Next, Cathy sees that Bob just blind-played a blue 3 immediately after this red clue, so she knows that she must have a one-away red card - the red 4. Cathy holds on to the red 4 for later and discards.
+  * Next, Cathy sees that Bob just blind-played a blue 3 immediately after this red clue, so she knows that she must have a one-away from playable red card - the red 4. Cathy holds on to the red 4 for later and discards.
 * Except in rare circumstances, ***Bluffing* is only permissible when you are the person directly before the player who is blind-playing a card**. This is called being in *Bluff Seat*. Do not *Bluff* unless you are in *Bluff Seat*! (This follows from *Good Lie Principle*.)
 
 ### Bluffs Through Already-Clued Cards
@@ -191,7 +191,7 @@ Note that in this user interface, players are holding their hands like they woul
   * Alice clues Donald red, which touches one red 4.
   * Bob knows that he must have the red 2. If he plays the red 2, then Cathy will play the red 3, and Donald will play the red 4.
   * Bob plays his *Finesse Position* card and it is instead the blue 2.
-  * From Donald's perspective, since blue does not match red, he knows that this is a *Bluff*. Normally, he would think he has the one-away red card, but that would be red 3, and Cathy already has that clued. If he had red 3, then the clue would be violating *Good Touch Principle*. Thus, he must have the red 4 instead.
+  * From Donald's perspective, since blue does not match red, he knows that this is a *Bluff*. Normally, he would think he has the one-away from playable red card, but that would be red 3, and Cathy already has that clued. If he had red 3, then the clue would be violating *Good Touch Principle*. Thus, he must have the red 4 instead.
   * From Cathy's perspective, she knows that the red 4 is two-away instead of one-away. *Bluffs* on two-away cards are normally illegal, so her mystery 3 must be exactly red 3, making the red 4 one-away after all.
 * Sometimes, the player who has the in-between card might have more than one "matching" clued card. In this situation, the player is promised that they have the in-between card, but they are not promised the position - it can be any of the matching clued cards.
 
@@ -217,15 +217,15 @@ Note that in this user interface, players are holding their hands like they woul
 * If it is ambiguous whether or not the card matches, then the team should **always assume a *Bluff* over a *Finesse***. (Note that this is the opposite of the precedence in step 1!)
 * Some common examples:
   * Blue 1 is played on the stacks. Alice clues Cathy about a blue card. Bob blind-plays a blue 2. This must be a *Finesse*, because **blue matches blue**. So Cathy should think that she has the blue 3.
-  * Blue 1 is played on the stacks. Alice clues Cathy about a blue card. Bob blind-plays a red 1. This must be a *Bluff*, because **red does not match blue**. So Cathy should think that she has the one-away blue card, blue 3.
+  * Blue 1 is played on the stacks. Alice clues Cathy about a blue card. Bob blind-plays a red 1. This must be a *Bluff*, because **red does not match blue**. So Cathy should think that she has the one-away from playable blue card, blue 3.
   * Rainbow 1 is played on the stacks. Alice clues Cathy about a blue card. Bob blind-plays a rainbow 2. This must be a *Finesse*, because **blue matches blue**. So Cathy should think that she has the rainbow 3.
   * Blue 2 is played on the stacks. Alice clues Cathy about a 4. Bob blind-plays the blue 3. This must be a *Finesse*, because **3 matches 4**. So Cathy should think that she has the blue 4.
-  * Blue 2 is played on the stacks. Alice clues Cathy about a 4. Bob blind-plays the red 1. This must be a *Bluff*, because **1 does not match 4**. So Cathy should think that she has the one-away 4, the blue 4. (This is an example of a *Hard Bluff*, which is covered in more detail later.)
+  * Blue 2 is played on the stacks. Alice clues Cathy about a 4. Bob blind-plays the red 1. This must be a *Bluff*, because **1 does not match 4**. So Cathy should think that she has the one-away from playable 4, the blue 4. (This is an example of a *Hard Bluff*, which is covered in more detail later.)
 * And a final example that is slightly more complicated:
   * Nothing is played on the stacks.
   * Alice clues Cathy about a 4.
   * Bob blind-plays the red 1.
-  * This **cannot** be a *Bluff*, because there are no one-away 4's. So even though 1 does not match 4, this must be a *Finesse*, because Alice is not allowed to perform a *Bluff* with any old card that she wants.
+  * This **cannot** be a *Bluff*, because there are no one-away from playable 4's. So even though 1 does not match 4, this must be a *Finesse*, because Alice is not allowed to perform a *Bluff* with any old card that she wants.
   * Cathy does not see any other red cards in Bob's hand. So Cathy should think that she has the red 4, because that would match the blind-play of a red 1. Subsequently, Cathy must have red 2 on her *Finesse Position* and red 3 on her *Second Finesse Position*.
 
 ### The Urgency Principle (e.g. How to Tell If Someone Is Finessed)
@@ -360,7 +360,7 @@ Note that in this user interface, players are holding their hands like they woul
 * This move is most commonly done with a number 1 clue because it is likely that in the middle of a game, all of the 1's will be already played. But it could also be done with a number two 2 clue if all the 2's are already played / accounted for. Or, it could be done with a red clue if all of the red cards are already played / accounted for. And so forth.
 * Strategy wise, the *Trash Chop Move* is used for two main reasons:
   1) Sometimes there are multiple critical cards in a row on chop and it falls to one player to save all of them. In this situation, a multiple-card *Chop Move* could be the only way to do it.
-  2) Some cards (e.g. a one-away 3) are quite useful to the team, but illegal to touch directly (as touching them directly with a clue would imply that they are playable right now). If the game is going well, then it can be useful to "waste" a clue in order to have the card saved permanently.
+  2) Some cards (e.g. a one-away from playable 3) are quite useful to the team, but illegal to touch directly (as touching them directly with a clue would imply that they are playable right now). If the game is going well, then it can be useful to "waste" a clue in order to have the card saved permanently.
 * Note that you are **not** allowed to *Chop Move* a card that you can just clue directly with a *Save Clue* (unless there are multiple critical cards in a row on chop and you have no other choice). This is because having some positive information is always better than having the card be a complete mystery.
 * If a *Trash Chop Move* touches **multiple** trash cards, then it only *Chop Moves* the cards to the right of the right-most trash card. For example, in a 3-player game:
   * All the 1's are played on the stacks.
@@ -507,7 +507,7 @@ Note that in this user interface, players are holding their hands like they woul
 * Generally speaking, it is a bad situation when someone's hand gets fully clued. This is also known as being *Locked*, and it should be avoided if possible. However, sometimes it cannot be helped, like when a player draws three 5's in a row.
 * A player with a fully clued hand may give a low-value clue because they are not sure that they can play anything (and they can't discard because their hand is fully clued). Similar to a *Double Discard* situation, players should not read too closely into any clues given during this state.
 * If the team is out of clues and someone's hand is fully clued, then you **have** to discard to generate a clue for them. Similarly, if there is only 1 clue left, you cannot steal it from them.
-* Players with a *Locked Hand* gain the special ability to save any card on chop. This is called a *Locked Hand Save* if it saves a card that would otherwise not be legal to save (like some one-away card that is not in the discard pile yet). However, players can only do *Locked Hand Saves* if there are no higher priority clues available. See the "Allowable Stall Clues" section above.
+* Players with a *Locked Hand* gain the special ability to save any card on chop. This is called a *Locked Hand Save* if it saves a card that would otherwise not be legal to save (like some one-away from playable card that is not in the discard pile yet). However, players can only do *Locked Hand Saves* if there are no higher priority clues available. See the "Allowable Stall Clues" section above.
 
 ### The Anxiety Play (Forcing a Locked Player to Play)
 
@@ -557,10 +557,10 @@ This section is unique in that it contains things that are separate from actual 
 * One way to decide is to look at the next player's chop. Is their chop high-value, low-value, or useless? If it is high-value, then you should discard and let them give the clue. If it is low-value or useless, then you should give the clue and let them discard.
 * "Stealing" clues in this way is called *Discard Modulation*. If other players are discarding to let you give all of the clues, you probably have a high-value chop.
 
-### One-Away
+### One-Away From Playable
 
 * In general, 3's are pretty high value, and 4's are pretty low value.
-* But combined with this, cards that are one-away are pretty high value, and cards that are two-away (or more) are pretty low value.
+* But combined with this, cards that are one-away from playable are pretty high value, and cards that are two-away (or more) are pretty low value.
 * Thus, in some situations, a one-away 4 may be more valuable than a two-away 3.
 * According to our conventions, it is illegal to clue a one-away card directly without it being some kind of special move like a *Finesse* or *Bluff*. However, sometimes we still want to "save" these cards. Thus, they are prime targets for indirect saves like the *Trash Chop Move* or the *5's Chop Move*.
 * However, in most cases, *Chop Moving* the valuable card just won't be possible. So in general, you should try to construct lines that protect high-value cards from being discarded for as long as possible.
@@ -628,7 +628,7 @@ This section is unique in that it contains things that are separate from actual 
 
 ### The Double/Triple/Quadruple Finesse
 
-* Typically, *Finesses* are performed by cluing a one-away card. However, it is possible to get two different people to blind-play their cards in a row if you give a clue to a card that is two-away from being playable. This is very efficient, as it is a 3-for-1 clue.
+* Typically, *Finesses* are performed by cluing a one-away from playablecard. However, it is possible to get two different people to blind-play their cards in a row if you give a clue to a card that is two-away from being playable. This is very efficient, as it is a 3-for-1 clue.
 * For example, in a 4-player game:
   * A red 1 is played on the stacks.
   * Alice clues Donald red, which touches a red 4.
@@ -758,7 +758,7 @@ This section is unique in that it contains things that are separate from actual 
 * In order to disambiguate this from the more ordinary type of *Gentleman's Discard*, we call this a *Baton Discard*.
 * *Baton Discards* are mostly useful for two main reasons:
   1) To better satisfy *Team Distribution Principle*. It makes sense to transfer a card out of a locked / almost locked hand to a player with an "empty" hand or a hand that only has one card clued in it.
-  2) You want to protect your own chop. If you discard your chop, the team could be losing some high-value one-away card. But if you transfer a card to someone else, it gives you something "safe" to do.
+  2) You want to protect your own chop. If you discard your chop, the team could be losing some high-value one-away from playable card. But if you transfer a card to someone else, it gives you something "safe" to do.
 
 ### The Certain Finesse / The Certain Discard
 
@@ -1358,7 +1358,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * Furthermore, if a black 1 is on chop and it was clued as black **and** the clue touched other brand new black cards in the hand, then the clue could also be a *Save Clue* on black 2 (as per the *Save Clue* rules outlined in the *Black 2 Saves* section).
 * Thus, if another player intentionally clues a black 1 on chop with a black color clue **and** it touched other brand new black cards, this would be quite strange, as it would not get the black 1 to play, so they must be trying to communicate something extra.
 * This is a sneaky signal that the next player has a playable card on their *Finesse Position*. By blind-playing it, they can show that a *Bluff* is happening.
-* In a normal *Bluff*, the player receiving the clue would think that it is a one-away card. In this case, if it was a normal *Bluff*, they would think that they have the black 2.
+* In a normal *Bluff*, the player receiving the clue would think that it is a one-away from playable card. In this case, if it was a normal *Bluff*, they would think that they have the black 2.
 * However, as noted above, in this situation black 2's on chop are allowed to be touched as a *Save Clue*. So, touching a black 2 in this way would **not** cause a blind-play.
 * Thus, by convention, the card should be black 1, and they can play it.
 * It is also possible to use this convention to perform a *Black Save Bluff* on cards other than the black 1. For example, in a 3-player game:
@@ -1507,14 +1507,14 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Cathy has a 3 clued in her hand (with no color information on it).
   * Alice clues Cathy about a brand new 4.
   * Bob blind-plays red 2.
-  * In a normal *Bluff*, a one-away card is clued. However, Cathy sees that the highest stack is the red stack, so the 4 in her hand must be two-away.
+  * In a normal *Bluff*, a one-away from playable card is clued. However, Cathy sees that the highest stack is the red stack, so the 4 in her hand must be two-away.
   * Thus, Cathy does **not** read it as a *Bluff*; she is promised red 3 and red 4, so she plays the unknown 3 as a *Self-Prompt* on the red 3.
 * For example, this **is** a *Hard Bluff*:
   * Red 1 and blue 2 are played on the stacks.
   * Cathy has a 3 clued in her hand (with no color information on it).
   * Alice clues Cathy about a brand new 4.
   * Bob blind-plays red 2.
-  * This could be a *Bluff* if the 4 in her hand is blue 4, since blue 4 is currently one-away. Thus, Cathy **does not** assume that her 4 is red 4, and subsequently, does **does not** assume that her unknown 3 is a red 3. However, it could **also** be the case that the 4 is a red 4 (if the 3 in her hand happens to be red 3).
+  * This could be a *Bluff* if the 4 in her hand is blue 4, since blue 4 is currently one-away from playable. Thus, Cathy **does not** assume that her 4 is red 4, and subsequently, does **does not** assume that her unknown 3 is a red 3. However, it could **also** be the case that the 4 is a red 4 (if the 3 in her hand happens to be red 3).
   * Thus, Cathy marks down both possibilities for later and does not play anything right now.
 
 ### 2 Saves (Off Chop on the First Turn)
@@ -1832,7 +1832,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Bob blind-plays a blue 3 from his *Finesse Position*.
   * Since 3 matches 4, Cathy knows she has the blue 4, and goes on to misplay red 4 as blue 4.
   * Thus, Alice should not have given this clue.
-* However, what if in the same example, Donald **already** has a blue 4 clued in his hand. Now, Cathy will know that she does **not** have the blue 4, because then Alice's clue would have violated *Good Touch Principle*. Cathy will instead know that the 4 is some **other** one-away 4.
+* However, what if in the same example, Donald **already** has a blue 4 clued in his hand. Now, Cathy will know that she does **not** have the blue 4, because then Alice's clue would have violated *Good Touch Principle*. Cathy will instead know that the 4 is some **other** one-away from playable 4.
 * Furthermore, Donald can see that the above occurred and will know that he definitely has the blue 4 clued in his hand (if he did not know already).
 
 ### The Disease Bluff & The Heal Clue & The Double-Copy Bluff & The Pestilent (Double) Bluff
@@ -1966,7 +1966,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### The Trash Push Prompt & The Trash Push Finesse
 
-* If you see that a player *Trash Pushes* an unplayable one-away card, it is a signal to you that you have the connecting card.
+* If you see that a player *Trash Pushes* an unplayable one-away from playable card, it is a signal to you that you have the connecting card.
 
 ### The Distribution Finesse
 
@@ -2011,8 +2011,8 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 #### Unknown Trash Ejection
 
-* In general, *Bluffs* work because the player who received the clue knows that they have a "one-away" card of that color.
-* If none of the stacks are finished and someone clues a trash card, it might look like a *Trash Bluff*. But, if the *Finesse Position* card is played, then the player will think that the card is actually a useful 1-away card (instead of trash).
+* In general, *Bluffs* work because the player who received the clue knows that they have a one-away from playable card of that color.
+* If none of the stacks are finished and someone clues a trash card, it might look like a *Trash Bluff*. But, if the *Finesse Position* card is played, then the player will think that the card is actually a useful one-away card (instead of trash).
 * Since that would be a lie, the clue must have some other purpose - it should signal an *Ejection* on the very next player.
 * Since the *Second Finesse Position* card was played instead of the *Finesse Position* card, then the player who received the clue will know that the card is trash.
 * With the *Trash Bluff*, if multiple cards are clued, it means that **all** of the cards are trash. However, with *Unknown Trash Ejection*, if multiple cards are clued, only the focus of the clue is trash.
@@ -2085,7 +2085,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 ### The Dupe Bluff
 
 * This is where you perform a *Bluff* such that the card that is blind-played is already touched in someone else's hand **and** the player who has the other copy has full knowledge of the card.
-* You wouldn't normally do this since it is only a 1-for-1 instead of a 2-for-1. However, it can be useful if you want to touch a card that you wouldn't otherwise be able to, like a one-away card. Alternatively, you may strongly want to give ancillary information to some other card.
+* You wouldn't normally do this since it is only a 1-for-1 instead of a 2-for-1. However, it can be useful if you want to touch a card that you wouldn't otherwise be able to, like a one-away from playable card. Alternatively, you may strongly want to give ancillary information to some other card.
 
 ### The Negative Blind-Play
 
