@@ -40,7 +40,7 @@
 
 <br />
 
-### 5-Player (with 5 color clues)
+### 5-Player / 6-Player (with 5 color clues)
 
 | # mod 6    | action          | type of clue
 | ---------- | --------------- | -------------
@@ -58,7 +58,7 @@
 
 <br />
 
-### 5-Player (with 3 color clues)
+### 5-Player / 6 Player (with 3 color clues)
 
 | # mod 5    | action          | type of clue
 | ---------- | --------------- | -------------
