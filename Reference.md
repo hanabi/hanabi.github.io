@@ -420,7 +420,7 @@ Note that in this user interface, players are holding their hands like they woul
 
 * *Tempo Clues* are defined as clues that touch no new cards. Their purpose is to get 1 or more cards played that already had a clue.
 * Note that *Tempo Clues* do not meet *Minimum Clue Value Principle*. They are inefficient, and in Hanabi you want to be as efficient as possible. Thus, we agree that *Tempo Clues* are only allowed in the following special circumstances:
-  1. When the tempo clue gets 2 or more cards played
+  1. When the tempo clue gets 2 or more clued (or unclued) cards played
   2. When the card is "out of order" (meaning that it is impossible for a *Prompt* to get the cards played)
   3. When the card was *Chop Moved* and it is now playable
   4. When the clue giver has a fully clued hand
