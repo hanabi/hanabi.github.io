@@ -1416,6 +1416,23 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Orange means chop move.
 * All color *Play Clues* have to be treated as potential *Delayed Play Clues*, *Prompts*, and *Reverse Finesses*.
 
+### Color Blind Conventions (for 3, 4, and 5 suits)
+
+* In a 2-player or 3-player game with 5 suits:
+  * There are no special conventions for this variant. (The 5 colors map to the 5 slots.)
+* In a 4-player or 5-player game with 5 suits:
+  * Since there is no orange, purple means *Chop Move* instead.
+* In a 2-player or 3-player game with 4 suits:
+  * Since there are only 4 colors, you are not able to clue slot 5 with a color clue.
+* In a 3-player or 4-player game with 4 suits:
+  * There are no special conventions for this variant. (The 4 colors map to the 4 slots.)
+* In a 2-player or 3-player game with 3 suits:
+  * Blue means play slot 2.
+  * Green means play slot 3.
+  * Yellow means play slot 4.
+* In a 3-player or 4-player game with 3 suits:
+  * Since there are only 3 colors, you are not able to clue slot 4 with a color clue.
+
 ### The Mismatch Finesse
 
 * This convention only applies to *Color Blind* variants.
