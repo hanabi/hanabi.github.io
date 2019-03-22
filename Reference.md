@@ -195,6 +195,18 @@ Note that in this user interface, players are holding their hands like they woul
   * From Cathy's perspective, she knows that the red 4 is two-away instead of one-away. *Bluffs* on two-away cards are normally illegal, so her mystery 3 must be exactly red 3, making the red 4 one-away after all.
 * Sometimes, the player who has the in-between card might have more than one "matching" clued card. In this situation, the player is promised that they have the in-between card, but they are not promised the position - it can be any of the matching clued cards.
 
+### Bluff Prompts (illegal)
+
+* It is illegal to trick players into thinking that they are *Prompted*. *Prompts* **must** be the truth.
+* For example, in a 4-player game:
+  * Red 1 and blue 1 are played on the stacks.
+  * Bob has a clued 2 in his hand and does not know its true identity.
+  * Alice clues red to Donald, touching a red 3 as a *Play Clue*.
+  * Bob knows that this must be a *Prompt*, so his 2 must be red 2. He plays it, and it is instead the blue 2.
+  * Cathy is slightly suprised that Bob played the blue 2, but he must have been able to figure it out somehow.
+  * Furthermore, Cathy knows that this must be a *Finesse*, so she must have red 2 on her *Finesse Position*. She plays it, and it is instead the blue 5 and misplays.
+  * This was Alice's fault, because *Bluffs* are only allowed on non-clued cards.
+
 ### Telling the Difference Between a Finesse and a Bluff - Part 1
 
 * Sometimes, a player will give a clue that looks like it could be either a *Finesse* or a *Bluff*. Between these two moves, which should have precedence?
