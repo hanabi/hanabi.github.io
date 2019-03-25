@@ -20,7 +20,8 @@ Note that while Hanabi is a 2 to 5 player game, our group generally only plays g
 
 ## The List of Main Documents
 
-* [The Beginners Guide](https://github.com/Zamiell/hanabi-conventions/blob/master/Beginners.md)
+* [The Beginner Guide](https://github.com/Zamiell/hanabi-conventions/blob/master/Beginner.md)
+* [The Intermediate Guide](https://github.com/Zamiell/hanabi-conventions/blob/master/Intermediate.md)
 * [The Strategy/Move Reference Document](https://github.com/Zamiell/hanabi-conventions/blob/master/Reference.md)
 * [A Guide for Player's Coming from Board Game Arena](https://github.com/Zamiell/hanabi-conventions/blob/master/misc/BGA.md)
 
