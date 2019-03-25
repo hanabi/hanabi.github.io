@@ -185,7 +185,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
   * how to tell what a clue means (e.g. a *Play Clue* or a *Save Clue*)
 * But that doesn't really tell you much about the *strategy* involved to play the game. How do players find the best move for a certain situation?
 * Hanabi is very complicated, so it is impossible to write a guide on how to best solve each individual situation. (And that's a good thing, because the game continues to be interesting to play, even after thousands of games!)
-* Luckily, beginners can focus on internalizing just **three main principles**. Nearly all of the special moves and strategies that we have naturally flow from these principles.
+* Luckily, beginners can focus on internalizing just **three main principles**. Nearly all of the special moves and strategies naturally flow from these principles.
 
 ### 1 - Save Principle
 
