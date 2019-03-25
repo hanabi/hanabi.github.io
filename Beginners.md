@@ -12,7 +12,7 @@
 1. [Card Layout](#card-layout)
 1. [The Basics](#the-basics)
 2. [Play Clues & Save Clues](#play-clues--save-clues)
-3. [Fix Clues](#fix-clues)
+3. [The Two Main Principles](#the-two-main-principles)
 4. [Miscellaneous](#miscellaneous)
 5. [Special Moves](#special-moves)
 
@@ -58,32 +58,6 @@ In this guide, there will be some screenshots to show off the concepts introduce
 * In the above screenshot:
   * Alice's chop card is the blue 4 (on slot 4).
   * Bob's chop card is the blue 4 (on slot 2).
-
-<br />
-
-### Good Touch Principle
-
-* When a clue is given, the cards that are "touched" by the clue are highlighted by arrows.
-* When cluing cards, we follow *Good Touch Principle* - this means that **we only want to touch cards that will eventually be played**. So, if someone touches a card that is already played on the stacks or a card that is already clued in someone else's hand, then that would be a *Bad Touch*.
-* *Good Touch Principle* is a powerful building block for logic and reasoning. If everyone only touches good cards, then players can greatly narrow down the possibilities for all of the clued cards in their hand!
-
-<img src="img/beginners/good_touch_principle.png" height="300" />
-
-* In the above screenshot:
-  * Alice wants to give a *Play Clue* to the yellow 2.
-  * Alice has a choice between cluing yellow and cluing number 2.
-  * If she clues number 2, it would uniquely touch the yellow 2 on slot 1.
-  * If she clues yellow, then it would touch slot 1, slot 2, and slot 3. This clue would violate *Good Touch Principle*, as the yellow 4's would be duplicated in Bob's hand.
-  * Thus, the correct clue for Alice to give is number 2.
-
-<img src="img/beginners/good_touch_principle2.png" height="300" />
-
-* In the above screenshot:
-  * Alice has an unknown purple card in her hand.
-  * Bob's hand is not important, so it is blacked out.
-  * Alice can see that the purple stack is played up to purple 4. The only other useful purple card left is the purple 5.
-  * Alice also knows that according to *Good Touch Principle*, every clued card will be eventually be played.
-  * Thus, by process of elimination, she can reason that the unknown purple card in her hand must be purple 5, and she can immediately play it.
 
 <br />
 
@@ -203,58 +177,56 @@ In this guide, there will be some screenshots to show off the concepts introduce
 
 <br />
 
-## Fix Clues
+## The Three Main Principles
 
-* 99% of clues are either *Save Clues* or *Play Clues*. The remaining 1% are *Fix Clues*, which are attempting to "fix" an impending misplay.
-* *Fix Clues* are often needed when a duplicate card is touched. Cards are not normally duplicated (which follows from *Good Touch Principle*), but sometimes someone makes a mistake, or a sequence of particular cards makes duplicating necessary. Duplicate cards will lead to misplays, so it is the team's responsibility to fix the problem and intervene before this happens.
+* So far, we have covered:
+  * how to discard (e.g. the chop)
+  * how to tell what the focus of a clue is (e.g. *Chop Focus* or left-most)
+  * how to tell what a clue means (e.g. a *Play Clue* or a *Save Clue*)
+* But that doesn't really tell you much about the *strategy* involved to play the game. How do players find the best move for a certain situation?
+* Hanabi is very complicated, so it is impossible to write a guide on how to best solve each individual situation. (And that's a good thing, because the game continues to be interesting to play, even after thousands of games!)
+* Luckily, beginners can focus on internalizing just **three main principles**. Nearly all of the special moves and strategies that we have naturally flow from these principles.
 
-<img src="img/beginners/fix_clue.png" height="300" />
+### 1 - Save Principle
+
+* [TBC]
+
+### 2 - Good Touch Principle
+
+* When a clue is given, the cards that are "touched" by the clue are highlighted by arrows.
+* When cluing cards, we follow *Good Touch Principle* - this means that **we only want to touch cards that will eventually be played**. So, if someone touches a card that is already played on the stacks or a card that is already clued in someone else's hand, then that would be a *Bad Touch*.
+* *Good Touch Principle* is a powerful building block for logic and reasoning. If everyone only touches good cards, then players can greatly narrow down the possibilities for all of the clued cards in their hand!
+
+<img src="img/beginners/good_touch_principle.png" height="300" />
 
 * In the above screenshot:
-  * Before the clue was given, Alice had an unknown purple card in her hand.
-  * From *Good Touch Principle*, Alice concluded that her card must be purple 5, and had planned to play it as soon as possible.
-  * Bob clues number 3 to Alice, which "fills in" the purple card and reveals that it is purple 3.
-  * Since Alice was just about to play this card, Alice knows that this was a *Fix Clue* and that she can now safely discard the purple 3.
+  * Alice wants to give a *Play Clue* to the yellow 2.
+  * Alice has a choice between cluing yellow and cluing number 2.
+  * If she clues number 2, it would uniquely touch the yellow 2 on slot 1.
+  * If she clues yellow, then it would touch slot 1, slot 2, and slot 3. This clue would violate *Good Touch Principle*, as the yellow 4's would be duplicated in Bob's hand.
+  * Thus, the correct clue for Alice to give is number 2.
 
-<img src="img/beginners/fix_clue2.png" height="300" />
+<img src="img/beginners/good_touch_principle2.png" height="300" />
 
-* **A clue cannot be a *Play Clue* and a *Fix Clue* at the same time.** If you receive a *Fix Clue* and it touches other ancillary cards, none of them are necessarily playable; the primary point of the clue is to fix the impending misplay.
 * In the above screenshot:
-  * Before the clue was given, Alice has an unknown 1 in her hand.
-  * From *Good Touch Principle*, Alice concluded that her 1 must be green 1, and had planned to play it as soon as possible.
-  * Bob clues blue to Alice, which "fills in" the 1 and reveals that it is blue 1. The blue clue also touches a blue card on slot 1.
-  * In this situation, Alice might be tempted to think that this is a *Play Clue* on a blue 2 in slot 1, especially considering that the slot 1 card was the only brand new card introduced in the clue (and that the focus of a clue should always be on the brand new card introduced).
-  * However, the fact that the blue clue "fixed" an impending misplay means that Bob may have had no choice but to clue blue, and he may not necessarily be trying to give a *Play Clue*.
-  * Alice marks the blue card as either blue 2, blue 3, blue 4, or blue 5, and discards the blue 1.
-* Usually a *Fix Clue* will "fill in" the card to explicitly make it known that the card is unplayable or duplicated. However, it is also possible to perform a *Fix Clue* just by cluing the card again. For example:
-  * Alice clues Bob number 1 and it touches three 1's.
-  * Bob successfully plays two 1's.
-  * Before Bob can play the 3rd 1, Alice clues Bob number 1 again, and all the clue does is re-touch the remaining 1.
-  * Now it is Bob's turn. Since he was going to play the 1 already without Alice doing anything, the clue must have some other meaning. Thus, it is a *Fix Clue*: the remaining 1 is bad, and Bob can safely discard it.
-* Note that in general, giving a *Fix Clue* should wait until the card is actually in danger of being misplayed (like in the previous example). If a duplicated card is not in danger of being misplayed anytime soon, then players should defer giving the *Fix Clue* until later. This way, it gives the player a chance to figure out the duplication on their own, which can happen from time to time.
+  * Alice has an unknown purple card in her hand.
+  * Bob's hand is not important, so it is blacked out.
+  * Alice can see that the purple stack is played up to purple 4. The only other useful purple card left is the purple 5.
+  * Alice also knows that according to *Good Touch Principle*, every clued card will be eventually be played.
+  * Thus, by process of elimination, she can reason that the unknown purple card in her hand must be purple 5, and she can immediately play it.
+
+### 3 - Minimum Clue Value Principle (and *Tempo Clues*)
+
+* Usually, players only discard when they have nothing to do. But don't take this the wrong way.
+* In order to avoid discarding, you are *not allowed* to just clue any card. You are only allowed to give *Save Clues* to the specific cards outlined in the *Save Principle* section. And you are only allowed to give *Play Clues* to actual playable cards.
+* Furthermore, you might be tempted to **clue a card again that already has a clue on it** in order to make it play right now. We call this kind of clue a *Tempo Clue*.
+* *Tempo Clues* are quite inefficient (as the team is using two clues to get one card). Since *Tempo Clues* as so terrible, we say that players are **only allowed to perform *Tempo Clues* in certain special situations**, like when they a player is forced to give a clue.
+* So, if nothing special is going on, and you have a choice between giving a *Tempo Clue* and discarding, then **you must discard**.
+* We formally express this concept as *Minimum Clue Value Principle*: **all clues must get at least one brand new card saved or played**. In other words, as a group, we hold ourselves to a high standard, and we don't give inefficient clues.
 
 <br />
 
 ## Miscellaneous
-
-### Playing Multiple 1's
-
-* If one or more 1's in your hand are clued, **you should assume that they are all playable**. (This only applies to 1's, and follows from *Good Touch Principle*.)
-* We agree that playing 1's at the beginning of the game is a special case - you should always **play the 1's in your starting hand from oldest to newest**. (This is a special case because normally, *Play Clues* mean to play the left-most card.)
-* However, freshly drawn 1's should always be played before any 1's that were present in the starting hand.
-
-<img src="img/beginners/playing_multiple_1s.png" height="150" />
-
-* In the above screenshot, Alice clues 1's to Bob, which touches three 1s on slot 2, slot 3, and slot 4.
-* From *Good Touch Principle*, Bob knows that he can now play all 3 of these cards.
-* Bob should play the slot 4 card first, and then the slot 3 card, and then the slot 2 card.
-* Now imagine:
-  * Bob plays the slot 4 card. (He then draws a card, and all of the other cards in his hand slide over.)
-  * Alice clues 1's to Bob, which touches a brand new card on slot 1 and re-touches the ones on slot 3 and slot 4.
-
-<img src="img/beginners/playing_multiple_1s2.png" height="150" />
-
-* Bob knows that fresh 1's have priority, so he plays the slot 1 card next. After that, he should play the slot 4 card, and then the slot 3 card (e.g. resuming the play order from before).
 
 ### The Early Game
 
@@ -269,29 +241,13 @@ In this guide, there will be some screenshots to show off the concepts introduce
 * However, you are ONLY allowed to do this if there is nothing else to do, meaning that all of the "normal" *Play Clues* and *Save Clues* have been extinguished.
 * Normally, a *5 Stall* is only done in the *Early Game*. However, you might see someone give a *5 Stall* in the *Mid-Game* if they are in a special situation where they are not allowed to discard.
 
-### When to Discard
-
-* In general (not just in the *Early Game*), discarding is a last resort. If you have known playable cards in your hand, you are expected to play them before discarding. Furthermore, if there are good clues to give, you are expected to give them before discarding.
-* Thus, if there are more urgent things at hand, you can defer saving important cards on the next person's chop if you see they have playable cards or even a good *Play Clue* to give.
-
-### Tempo Clues and Minimum Clue Value Principle
-
-* In the previous section, we said that discarding is a "last resort". But don't take this the wrong way.
-* In order to avoid discarding, you are *not allowed* to just clue any card. You are only allowed to give *Save Clues* to the specific cards outlined in the *Save Clue* section. And you are only allowed to give *Play Clues* on actual playable cards.
-* Furthermore, you might be tempted to **clue a card again that already has a clue on it** in order to make it play right now. We call this kind of clue a *Tempo Clue*.
-* *Tempo Clues* are quite inefficient (as the team is using two clues to get one card). Since *Tempo Clues* as so terrible, we say that players are **only allowed to perform *Tempo Clues* in certain special situations**, like when they a player is forced to give a clue.
-* So, if nothing special is going on, and you have a choice between giving a *Tempo Clue* and discarding, then you must discard.
-* We formally express this concept as *Minimum Clue Value Principle*: **all clues must get at least one brand new card saved or played**. In other words, as a group, we hold ourselves to a high standard, and we don't give inefficient clues.
-
 ### Other General Strategy
 
-* Now that you know all of the "rules" and "systems", what about the basic stratgy? How should you decide what to do on your turn?
-* What makes Hanabi so interesting is that there is never a one-size-fits-all prescription for a situation, so you always have to think everything through. With that said, you should know some basic tips.
-* In general, ***Play Clues* should be given over *Save Clues***. There's no need to give a *Save Clue* to someone if you can preoccupy them with playing a card!
-* In general, if you have a choice, **color clues should be given over number clues**. Color clues are usually more specific, telling the player the exact identity of the card. (But of course, don't be afraid to use number clues if it helps to "fill in" other cards in the hand.)
 * In general, the first thing you should do on your turn is to **look at the chop cards of everyone on the team**. Are there any cards on chop that need to be saved (or *Play Clued*)? If so, do you have to do it, or can someone else do it?
   * If no-one else can do it, then you need to give the *Save Clue* (or *Play Clue*), even if you have a card to play.
   * If someone else can do it, would it be better for you to save the card, or for them? If they have a card to play and you do not have a card to play, then it is better teamwork for you to save the card.
+* In general, ***Play Clues* should be given over *Save Clues***. There's no need to give a *Save Clue* to someone if you can preoccupy them with playing a card!
+* In general, if you have a choice, **color clues should be given over number clues**. Color clues are usually more specific, telling the player the exact identity of the card. (But of course, don't be afraid to use number clues if it helps to "fill in" other cards in the hand.)
 * In general, **don't be afraid of discarding**. If you discard something important, it won't be your fault - it is your teammates' responsibility to save any important cards.
 
 <br />
