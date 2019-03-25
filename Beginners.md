@@ -12,7 +12,7 @@
 1. [Card Layout](#card-layout)
 1. [The Basics](#the-basics)
 2. [Play Clues & Save Clues](#play-clues--save-clues)
-3. [The Two Main Principles](#the-two-main-principles)
+3. [The Three Main Principles](#the-three-main-principles)
 4. [Miscellaneous](#miscellaneous)
 5. [Special Moves](#special-moves)
 
