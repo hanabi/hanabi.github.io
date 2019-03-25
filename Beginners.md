@@ -113,7 +113,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
 * *Save Clues* **can only be given to cards on chop**. You can't give a *Save Clue* otherwise!
 * The team **must save** the following cards:
   * All 5's
-  * Unique 2's
+  * Unique 2's (meaning that only one copy is currently visible)
   * Critical cards (meaning that the other copy is discarded)
 * Sometimes, a *Chop Focus* clue could be either a *Save Clue* or a *Play Clue*. When this happens, the *Save Clue* interpretation always takes priority - the receiving player would have to treat it like a potential *Save Clue*, and hang on to the card for the time being.
 * The three kinds of *Save Clues* are listed below.
@@ -187,11 +187,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
 * Hanabi is very complicated, so it is impossible to write a guide on how to best solve each individual situation. (And that's a good thing, because the game continues to be interesting to play, even after thousands of games!)
 * Luckily, beginners can focus on internalizing just **three main principles**. Nearly all of the special moves and strategies naturally flow from these principles.
 
-### 1 - Save Principle
-
-* [TBC]
-
-### 2 - Good Touch Principle
+### 1 - Good Touch Principle
 
 * When a clue is given, the cards that are "touched" by the clue are highlighted by arrows.
 * When cluing cards, we follow *Good Touch Principle* - this means that **we only want to touch cards that will eventually be played**. So, if someone touches a card that is already played on the stacks or a card that is already clued in someone else's hand, then that would be a *Bad Touch*.
@@ -214,6 +210,17 @@ In this guide, there will be some screenshots to show off the concepts introduce
   * Alice can see that the purple stack is played up to purple 4. The only other useful purple card left is the purple 5.
   * Alice also knows that according to *Good Touch Principle*, every clued card will be eventually be played.
   * Thus, by process of elimination, she can reason that the unknown purple card in her hand must be purple 5, and she can immediately play it.
+
+### 2 - Save Principle
+
+* The *Save Clue* section above explains that the team must save certain types of cards.
+* But above and beyond this, we also agree that we must "get" all of the playable cards. In order words, **we don't let each other discard playable cards!**
+* So, the full list of what the team **must not let get discarded** is the following:
+  * All 5's
+  * Unique 2's (meaning that only one copy is currently visible)
+  * Critical cards (meaning that the other copy is discarded)
+  * Unique playable cards (meaning that only one copy is currently visible)
+* This is called *Save Principle* and **it is the most important principle of them all**. You are allowed to **break any other principle or rule** if you have to in order to prevent a card in this list from being discarded! In fact, often times you will have to violate *Good Touch Principle* in order to save a specific card, and this is okay.
 
 ### 3 - Minimum Clue Value Principle (and *Tempo Clues*)
 
