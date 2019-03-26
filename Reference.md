@@ -2,7 +2,7 @@
 
 Our group has come up with many different strategies. It is helpful to give specific names to each strategy to aid in both discussion and comprehension. If you know the general way we play but don't know about a specific kind of move, then you can look it up in this document.
 
-If you are a new player, do not bother reading this document. It is much better to simply read the [introductory document](https://github.com/Zamiell/hanabi-conventions/blob/master/Beginners.md) and then start playing games with the group. This document can be used as a reference as you continue to naturally improve at the game.
+If you are a new player, do not bother reading this document. It is much better to simply read the [introductory document](https://github.com/Zamiell/hanabi-conventions/blob/master/Beginner.md) and then start playing games with the group. This document can be used as a reference as you continue to naturally improve at the game.
 
 Note that convention updates for the group are listed in the `#announcements` channel on the [Hanabi Discord server](https://discord.gg/FADvkJp). (You can also review the [commit history](https://github.com/Zamiell/hanabi-conventions/commits/master) of this repository.)
 
@@ -28,7 +28,7 @@ Note that convention updates for the group are listed in the `#announcements` ch
 In general, we want all of our strategies to flow from some basic principles. That way, new players can just learn the first principles, and then use logic and reasoning to find out the resulting strategy that their teammate is intending. However, there are a few wrinkles with this:
 
 1) Some of our strategies are arbitrary and do not flow from the first principles, such as [The 3 Bluff](#the-3-bluff). So take the phrase "First Principles" with a grain of salt.
-2) Since the principles are a little abstract, they are more useful as a reference than as an actual guide on how to play Hanabi with our group - this is what the [introductory document](https://github.com/Zamiell/hanabi-conventions/blob/master/Beginners.md) is for.
+2) Since the principles are a little abstract, they are more useful as a reference than as an actual guide on how to play Hanabi with our group - this is what the [introductory document](https://github.com/Zamiell/hanabi-conventions/blob/master/Beginner.md) is for.
 
 <br />
 
@@ -111,13 +111,13 @@ Note that in this user interface, players are holding their hands like they woul
 
 ### 2 Saves
 
-* As explained in the beginners guide, *2 Saves* must be given with a number 2 clue.
+* As explained in the beginner's guide, *2 Saves* must be given with a number 2 clue.
 * Players are not allowed to perform a *2 Save* on a 2 if that same 2 is visible in someone else's hand.
   * The exception to this rule is when the same 2 is on two people's chops at the same time. In that situation, players are allowed to *2 Save* whichever one they want.
 
 ### The Fresh 1's Rule
 
-* Sometimes, a player will get clued about a bunch of 1's. As explained in the beginners guide, freshly drawn 1's should always be played before any 1's that were present in the starting hand.
+* Sometimes, a player will get clued about a bunch of 1's. As explained in the beginner's guide, freshly drawn 1's should always be played before any 1's that were present in the starting hand.
 * However, as an important exception, *Chop Focus* overrides the *Fresh 1's Rule*.
 * For example, in a 3-player game:
   * No cards are played on the stacks.
@@ -2191,9 +2191,9 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 ### The Skipped Discard Chop Move
 
 * In emergency situations, players should perform *Scream Discards* and  *Generation Discards* to save important cards. These two moves, along with their derivatives, the *Echo Scream Discard* and the *Compositional Discard*, should be enough to "solve" almost every sticky situation that could ever come up.
-* However, in an extremely difficult variant, or in a situation where one of the previous players has blundered, it might fall to one player to save the next player's critical chop card. In this situation, they might not be able to perform a *Scream Discard*, because they might not have any playable cards. And they might not be able to perform a *Scream Blind-Play*, because if the team is at 2 strikes, then the game would immediately end.
+* However, in an extremely difficult variant, or in a situation where a previous players has blundered, it might fall to one player to save the next player's critical chop card. In this situation, they might not be able to perform a *Scream Discard*, because they might not have any playable cards. And they might not be able to perform a *Scream Blind-Play*, because if the team is at 2 strikes, then the game would immediately end.
 * In this situation, the player can discard a card one-away from their chop as a *Skipped Discard Chop Move*. This convention is normally only used in 2-player games, because it is very unsafe, risking the discard of a critical card.
-* It is very common for players to accidently *Chop Move* a card. Thus, the *Skipped Discard Chop Move* interpretation should almost never be entertained, simply because of how rarely it is actually needed.
+* It is common for players to accidently *Chop Move* a card. Thus, the *Skipped Discard Chop Move* interpretation should almost never be entertained, simply because of how rarely it is actually needed.
 * Furthermore, this move should never be performed if there is a non-expert player playing or if it is likely to be interpreted as a mistake.
 
 <br />

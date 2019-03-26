@@ -1,6 +1,6 @@
 # Intermediate Guide for the Hyphen-ated Group
 
-* Have you already read the [beginners guide](https://github.com/Zamiell/hanabi-conventions/blob/master/Beginners.md) and are looking to learn more? If not, go back and read that, and then wait a little while for that information to digest before coming back here.
+* Have you already read the [beginner guide](https://github.com/Zamiell/hanabi-conventions/blob/master/Beginner.md) and are looking to learn more? If not, go back and read that, and then wait a little while for that information to digest before coming back here.
 * This guide will cover some extra moves that good Hanabi in our group use to squeeze out extra efficiency and solve tricky situations.
 
 [TBC]
@@ -10,7 +10,7 @@
 * 99% of clues are either *Save Clues* or *Play Clues*. The remaining 1% are *Fix Clues*, which are attempting to "fix" an impending misplay.
 * *Fix Clues* are often needed when a duplicate card is touched. Cards are not normally duplicated (which follows from *Good Touch Principle*), but sometimes someone makes a mistake, or a sequence of particular cards makes duplicating necessary. Duplicate cards will lead to misplays, so it is the team's responsibility to fix the problem and intervene before this happens.
 
-<img src="img/beginners/fix_clue.png" height="300" />
+<img src="img/intermediate/fix_clue.png" height="300" />
 
 * In the above screenshot:
   * Before the clue was given, Alice had an unknown purple card in her hand.
@@ -18,7 +18,7 @@
   * Bob clues number 3 to Alice, which "fills in" the purple card and reveals that it is purple 3.
   * Since Alice was just about to play this card, Alice knows that this was a *Fix Clue* and that she can now safely discard the purple 3.
 
-<img src="img/beginners/fix_clue2.png" height="300" />
+<img src="img/intermediate/fix_clue2.png" height="300" />
 
 * **A clue cannot be a *Play Clue* and a *Fix Clue* at the same time.** If you receive a *Fix Clue* and it touches other ancillary cards, none of them are necessarily playable; the primary point of the clue is to fix the impending misplay.
 * In the above screenshot:
@@ -43,7 +43,7 @@
 * We agree that playing 1's at the beginning of the game is a special case - you should always **play the 1's in your starting hand from oldest to newest**. (This is a special case because normally, *Play Clues* mean to play the left-most card.)
 * However, freshly drawn 1's should always be played before any 1's that were present in the starting hand.
 
-<img src="img/beginners/playing_multiple_1s.png" height="150" />
+<img src="img/intermediate/playing_multiple_1s.png" height="150" />
 
 * In the above screenshot, Alice clues 1's to Bob, which touches three 1s on slot 2, slot 3, and slot 4.
 * From *Good Touch Principle*, Bob knows that he can now play all 3 of these cards.
@@ -52,6 +52,6 @@
   * Bob plays the slot 4 card. (He then draws a card, and all of the other cards in his hand slide over.)
   * Alice clues 1's to Bob, which touches a brand new card on slot 1 and re-touches the ones on slot 3 and slot 4.
 
-<img src="img/beginners/playing_multiple_1s2.png" height="150" />
+<img src="img/intermediate/playing_multiple_1s2.png" height="150" />
 
 * Bob knows that fresh 1's have priority, so he plays the slot 1 card next. After that, he should play the slot 4 card, and then the slot 3 card (e.g. resuming the play order from before).

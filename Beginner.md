@@ -22,7 +22,7 @@
 
 In this guide, there will be some screenshots to show off the concepts introduced. Here's an example of a screenshot using the "BGA-style" card layout:
 
-<img src="img/beginners/screenshot.png" height="300" />
+<img src="img/beginner/screenshot.png" height="300" />
 
 * The five **play stacks** are on the left.
 * The **player hands** are on the right.
@@ -32,7 +32,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
 * Conversely, the oldest card is the right-most card. Alice's oldest card is the blue 5 and Bob's oldest card is the red 5.
 * A card's *slot* referes to its position in the hand. In the above screenshot, the blue 1 is on slot 1, the blue 2 is on slot 2, the blue 3 is on slot 3, and so forth. The red 1 is on slot 1, the red 2 is on slot 2, the red 3 is on slot 3, and so forth.
 
-<img src="img/beginners/screenshot2.png" height="300" />
+<img src="img/beginner/screenshot2.png" height="300" />
 
 * When a card has one or more clues on it, a yellow border will appear around the card. The blue 1 and the red 1 will now have permanent yellow borders around them (until they are played or discarded).
 * The arrows indicate the specific cards that are "touched" by the last clue that was given.
@@ -47,13 +47,13 @@ In this guide, there will be some screenshots to show off the concepts introduce
 * When a player needs to discard, they should discard their chop card.
 * In this way, everyone discards in a predicable way.
 
-<img src="img/beginners/chop.png" height="300" />
+<img src="img/beginner/chop.png" height="300" />
 
 * In the above screenshot:
   * Alice's chop card is the red 5 (on slot 5).
   * Bob's chop card is the red 3 (on slot 5).
 
-<img src="img/beginners/chop2.png" height="300" />
+<img src="img/beginner/chop2.png" height="300" />
 
 * In the above screenshot:
   * Alice's chop card is the blue 4 (on slot 4).
@@ -78,20 +78,20 @@ In this guide, there will be some screenshots to show off the concepts introduce
 
 #### Examples
 
-<img src="img/beginners/single_focus.png" height="150" />
+<img src="img/beginner/single_focus.png" height="150" />
 
 * If only one card is touched by a clue, then the clue is (obviously) talking about that one card.
 * In the above screenshot, Alice clues blue to Bob.
 * Thus, the focus of the clue is blue 1. This is a *Play Clue* on blue 1.
 
-<img src="img/beginners/single_focus2.png" height="150" />
+<img src="img/beginner/single_focus2.png" height="150" />
 
 * In the above screenshot, Alice clues blue to Bob.
 * Before this clue, Bob's hand was completely unclued. So, with this clue, **two new cards were introduced** - the blue card on slot 2 and the blue card on slot 4.
 * Bob knows that in this situation, the focus of the clue is the left-most of the two new cards. Thus, similar to the last example, this is a *Play Clue* on blue 1.
 * From *Good Touch Principle*, Bob can reason that his other blue card on slot 4 is either blue 2, blue 3, blue 4, or blue 5. He will hold on to the card for later.
 
-<img src="img/beginners/single_focus3.png" height="150" />
+<img src="img/beginner/single_focus3.png" height="150" />
 
 * In the above screenshot, Alice clues purple to Bob (on the first turn of the game).
 * Before this clue, Bob's hand was completely unclued. So, with this clue, **three new cards were introduced** - slot 1, slot 2, and slot 5.
@@ -120,7 +120,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
 
 #### 5 Saves
 
-<img src="img/beginners/5_save.png" height="150" />
+<img src="img/beginner/5_save.png" height="150" />
 
 * Since there is only one copy of each 5, all of the 5's need to be saved so that they won't be discarded.
 * In the above screenshot:
@@ -131,7 +131,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
 
 #### 2 Saves
 
-<img src="img/beginners/2_save.png" height="150" />
+<img src="img/beginner/2_save.png" height="150" />
 
 * Even though there are two copies of each 2, we agree that they are so important that we must save them in a manner similar to 5's.
 * In the above screenshot:
@@ -143,7 +143,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
 
 ##### Critical Saves
 
-<img src="img/beginners/critical_save.png" height="250" />
+<img src="img/beginner/critical_save.png" height="250" />
 
 * For the same reason that 5's need to be saved, critical cards also need to be saved. (Critical cards are defined as cards that have the other copy discarded.)
 * Players can choose to save critical cards with either a color clue or a number clue.
@@ -193,7 +193,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
 * When cluing cards, we follow *Good Touch Principle* - this means that **we only want to touch cards that will eventually be played**. So, if someone touches a card that is already played on the stacks or a card that is already clued in someone else's hand, then that would be a *Bad Touch*.
 * *Good Touch Principle* is a powerful building block for logic and reasoning. If everyone only touches good cards, then players can greatly narrow down the possibilities for all of the clued cards in their hand!
 
-<img src="img/beginners/good_touch_principle.png" height="300" />
+<img src="img/beginner/good_touch_principle.png" height="300" />
 
 * In the above screenshot:
   * Alice wants to give a *Play Clue* to the yellow 2.
@@ -202,7 +202,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
   * If she clues yellow, then it would touch slot 1, slot 2, and slot 3. This clue would violate *Good Touch Principle*, as the yellow 4's would be duplicated in Bob's hand.
   * Thus, the correct clue for Alice to give is number 2.
 
-<img src="img/beginners/good_touch_principle2.png" height="300" />
+<img src="img/beginner/good_touch_principle2.png" height="300" />
 
 * In the above screenshot:
   * Alice has an unknown purple card in her hand.
@@ -215,12 +215,12 @@ In this guide, there will be some screenshots to show off the concepts introduce
 
 * The *Save Clue* section above explains that the team must save certain types of cards.
 * But above and beyond this, we also agree that we must "get" all of the playable cards. In order words, **we don't let each other discard playable cards!**
-* So, the full list of what the team **must not let get discarded** is the following:
+* So, the **full list** of what the team **must not let get discarded** is the following:
   * All 5's
   * Unique 2's (meaning that only one copy is currently visible)
   * Critical cards (meaning that the other copy is discarded)
   * Unique playable cards (meaning that only one copy is currently visible)
-* This is called *Save Principle* and **it is the most important principle of them all**. You are allowed to **break any other principle or rule** if you have to in order to prevent a card in this list from being discarded! In fact, often times you will have to violate *Good Touch Principle* in order to save a specific card, and this is okay.
+* This is called *Save Principle* and **it is the most important principle of them all**. You are allowed to **break any other principle or rule** in order to prevent a card in this list from being discarded! In fact, often times you will have to violate *Good Touch Principle* in order to save a specific card, and this is okay.
 
 ### 3 - Minimum Clue Value Principle (and *Tempo Clues*)
 
@@ -228,7 +228,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
 * In order to avoid discarding, you are *not allowed* to just clue any card. You are only allowed to give *Save Clues* to the specific cards outlined in the *Save Principle* section. And you are only allowed to give *Play Clues* to actual playable cards.
 * Furthermore, you might be tempted to **clue a card again that already has a clue on it** in order to make it play right now. We call this kind of clue a *Tempo Clue*.
 * *Tempo Clues* are quite inefficient (as the team is using two clues to get one card). Since *Tempo Clues* as so terrible, we say that players are **only allowed to perform *Tempo Clues* in certain special situations**, like when they a player is forced to give a clue.
-* So, if nothing special is going on, and you have a choice between giving a *Tempo Clue* and discarding, then **you must discard**.
+* So, if your only option is between giving a *Tempo Clue* and discarding, then **you must discard**.
 * We formally express this concept as *Minimum Clue Value Principle*: **all clues must get at least one brand new card saved or played**. In other words, as a group, we hold ourselves to a high standard, and we don't give inefficient clues.
 
 <br />
@@ -269,7 +269,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
 
 ### The Prompt
 
-<img src="img/beginners/prompt.png" height="300" />
+<img src="img/beginner/prompt.png" height="300" />
 
 * In the above screenshot:
   * Alice's hand is blacked out because it does not matter.
@@ -280,7 +280,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
 * In this way, clues can deliver messages to an entirely different player than the person who actually received the clue.
 * We call this move a *Prompt* because it is "prompting" a player to play a card that they would have otherwise held on to for a while longer.
 
-<img src="img/beginners/prompt2.png" height="300" />
+<img src="img/beginner/prompt2.png" height="300" />
 
 * If a player is *Prompted* and there are multiple cards in the hand that the *Prompt* could apply to, they should play the left-most.
 * In the above screenshot:
@@ -288,7 +288,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
   * Bob has three different cards clued as red in slots 2, 3, and 4.
   * Since all 3 cards are equally likely to be red 3, Bob should choose to play the slot 2 card as red 3 since it is the left-most.
 
-<img src="img/beginners/prompt3.png" height="300" />
+<img src="img/beginner/prompt3.png" height="300" />
 
 * In the above screenshot:
   * Bob has an unknown 3 in his hand.
@@ -296,7 +296,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
   * There is no 4 that could possibly be playable right now. Thus, this must be a *Self-Prompt*, meaning that Bob's 3 must be either blue 3 or green 3.
   * Bob plays his 3, and it is blue 3. Thus, he knows that the 4 must match and be a blue 4.
 
-<img src="img/beginners/prompt4.png" height="300" />
+<img src="img/beginner/prompt4.png" height="300" />
 
 * The *Prompt* is a **promise** that the player has the connecting card. **A *Prompt* cannot be a lie!**
 * In the above screenshot:
@@ -311,7 +311,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
 
 ### The Finesse
 
-<img src="img/beginners/finesse.png" height="300" />
+<img src="img/beginner/finesse.png" height="300" />
 
 * In the above screenshot:
   * Alice's hand is blacked out because it does not matter.
@@ -327,7 +327,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
 * When a *Finesse* occurs, it causes temporary information desynchronization. (In the above example, if Bob did nothing, Cathy would go on to think that she had the red 3, but she really doesn't have the red 3, which means that information is not synced up throughout the team.)
 * For this reason, blind-playing a card into a *Finesse* is very important - by doing so, it resyncronizes all of the information. So, **if a player is *Finessed*, they should usually blind-play the card immediately**, even if they have other important cards to play or some good clue to give.
 
-<img src="img/beginners/finesse2.png" height="300" />
+<img src="img/beginner/finesse2.png" height="300" />
 
 * We define the *Finesse Position* as the slot that a player's left-most unclued card is in. Notice that a player's *Finesse Position* can move around, and if it does, it is still possible to *Finesse* them.
 * In the above screenshot:
