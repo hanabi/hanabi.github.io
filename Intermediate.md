@@ -3,7 +3,9 @@
 * Have you already read the [beginner's guide](https://github.com/Zamiell/hanabi-conventions/blob/master/Beginner.md) and are looking to learn more? If not, go back and read that, and then wait a little while for that information to digest before coming back here.
 * This guide will cover some extra moves that good Hanabi in our group use to squeeze out extra efficiency and solve tricky situations.
 
-## Fix Clues
+<br />
+
+### Fix Clues
 
 * 99% of clues are either *Save Clues* or *Play Clues*. The remaining 1% are *Fix Clues*, which are attempting to "fix" an impending misplay.
 * *Fix Clues* are often needed when a duplicate card is touched. Cards are not normally duplicated (which follows from *Good Touch Principle*), but sometimes someone makes a mistake, or a sequence of particular cards makes duplicating necessary. Duplicate cards will lead to misplays, so it is the team's responsibility to fix the problem and intervene before this happens.
@@ -35,7 +37,7 @@
 
 <br />
 
-## Playing Multiple 1's
+### Playing Multiple 1's
 
 * If one or more 1's in your hand are clued, **you should assume that they are all playable**. (This only applies to 1's, and follows from *Good Touch Principle*.)
 * We agree that playing 1's at the beginning of the game is a special case - you should always **play the 1's in your starting hand from oldest to newest**. (This is a special case because normally, *Play Clues* mean to play the left-most card.)
