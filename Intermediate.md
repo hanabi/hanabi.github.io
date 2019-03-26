@@ -1,7 +1,7 @@
 # Intermediate Guide for the Hyphen-ated Group
 
 * Have you already read the [beginner's guide](https://github.com/Zamiell/hanabi-conventions/blob/master/Beginner.md) and are looking to learn more? If not, go back and read that, and then wait a little while for that information to digest before coming back here.
-* This guide will cover some extra moves that good Hanabi in our group use to squeeze out extra efficiency and solve tricky situations.
+* This guide will cover some extra moves that good Hanabi players in our group use to squeeze out extra efficiency and solve tricky situations.
 
 <br />
 
