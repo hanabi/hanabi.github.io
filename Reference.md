@@ -203,7 +203,7 @@ Note that in this user interface, players are holding their hands like they woul
   * Bob has a clued 2 in his hand and does not know its true identity.
   * Alice clues red to Donald, touching a red 3 as a *Play Clue*.
   * Bob knows that this must be a *Prompt*, so his 2 must be red 2. He plays it, and it is instead the blue 2.
-  * Cathy is slightly suprised that Bob played the blue 2, but he must have been able to figure it out somehow.
+  * Cathy is slightly surprised that Bob played the blue 2, but he must have been able to figure it out somehow.
   * Furthermore, Cathy knows that Alice's clue must be a *Finesse*, so she must have the red 2 on her *Finesse Position*. She plays it, and it is instead the blue 5 and misplays.
   * This was Alice's fault, because *Bluffs* are only allowed on non-clued cards.
 
