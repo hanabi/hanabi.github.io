@@ -629,7 +629,7 @@ This section is unique in that it contains things that are separate from actual 
 
 ## Level 3 - Advanced Strategies
 
-### The Double/Triple/Quadruple Prompt
+### The Double Prompt / Triple Prompt / etc.
 
 * Sometimes, someone can give a *Prompt* that is prompting **two** (or more) cards with one clue, which is pretty efficient.
 * For example, in a 3-player game:
@@ -638,7 +638,7 @@ This section is unique in that it contains things that are separate from actual 
   * Bob has two clued red cards in his hand. Since the red 4 is playable right now, he knows that his two red cards must be a red 2 and a red 3 (in order from left-to-right).
   * Bob plays both of them.
 
-### The Double/Triple/Quadruple Finesse
+### The Double Finesse / Triple Finesse / etc.
 
 * Typically, *Finesses* are performed by cluing a one-away from playablecard. However, it is possible to get two different people to blind-play their cards in a row if you give a clue to a card that is two-away from being playable. This is very efficient, as it is a 3-for-1 clue.
 * For example, in a 4-player game:
