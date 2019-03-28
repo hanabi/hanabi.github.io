@@ -27,11 +27,11 @@ So even if you can understand and empathize with the history of the long convent
 
 But there are some important counterpoints:
 
-### 1) Advanced conventions are "turned off" when playing with beginners
+#### 1) Advanced conventions are "turned off" when playing with beginners
 
 Beginners don't have to worry about learning everything all at once, because we will "turn off" all of the advanced stuff so that the beginner can focus on the fundamentals.
 
-### 2) Players do not need to know most of the information in the reference document.
+#### 2) Players do not need to know most of the information in the reference document.
 
 New players are **not supposed** to read the reference document. We only expect them to read the (relatively-short) beginner's guide. Let's go into why this is.
 
@@ -41,13 +41,13 @@ Some other things in the reference document only apply **very rarely**, like onc
 
 Yet other things in the reference document only apply to specific variants. There are over 50 different variants on Hanabi Live, and unless you are an expert player, it is going to be pretty pointless to try and learn the intricacies of each one, especially considering that people typically play "No Variant" and "Rainbow" games for their first 100-200 games.
 
-### 3) We want to strike a compromise between new and expert players.
+#### 3) We want to strike a compromise between new and expert players.
 
 From time to time, we "pare down" the convention-framework to try and reduce to total amount (and complexity) of the conventions. We never want to get to a point where it becomes too complicated to learn the framework from scratch.
 
 But we also want to keep the expert players from getting bored. As a group, we want to continue to innovate and refine our convention-framework to be the best it can be, and sometimes that can mean changing some existing convention or adding a brand-new move.
 
-### 4) Higher-level and more fulfilling games
+#### 4) Higher-level and more fulfilling games
 
 What is the flip-side of having more conventions and more complexity? First off, it raises the skill ceiling. Hanabi throws plenty of tricky situations at you, and you only have a limited amount of tools to solve them. By adding some conventions, it can be like adding additional tools to the toolbelt. For expert players, by empowering them with more tools, it increases the total ways in which they can solve problems, making the game take on a new layer of beauty. But even for newer players, it can be very fun to learn how to make your teammates blind-play cards from their hands in new and exciting ways.
 
