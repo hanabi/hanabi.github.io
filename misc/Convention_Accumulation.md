@@ -47,7 +47,7 @@ From time to time, we "pare down" the convention-framework to try and reduce to 
 
 But we also want to keep the expert players from getting bored. As a group, we want to continue to innovate and refine our convention-framework to be the best it can be, and sometimes that can mean changing some existing convention or adding a brand-new move.
 
-#### 4) Higher-level and more fulfilling games
+#### 4) We want to have high-level and fulfilling games.
 
 What is the flip-side of having more conventions and more complexity? First off, it raises the skill ceiling. Hanabi throws plenty of tricky situations at you, and you only have a limited amount of tools to solve them. By adding some conventions, it can be like adding additional tools to the toolbelt. For expert players, by empowering them with more tools, it increases the total ways in which they can solve problems, making the game take on a new layer of beauty. But even for newer players, it can be very fun to learn how to make your teammates blind-play cards from their hands in new and exciting ways.
 
