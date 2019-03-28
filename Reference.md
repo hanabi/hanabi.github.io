@@ -195,7 +195,7 @@ Note that in this user interface, players are holding their hands like they woul
   * From Cathy's perspective, she knows that the red 4 is two-away instead of one-away. *Bluffs* on two-away cards are normally illegal, so her mystery 3 must be exactly red 3, making the red 4 one-away after all.
 * Sometimes, the player who has the in-between card might have more than one "matching" clued card. In this situation, the player is promised that they have the in-between card, but they are not promised the position - it can be any of the matching clued cards.
 
-### Bluff Prompts (illegal)
+### Bluff Prompts / Prompt Bluffs (illegal)
 
 * It is illegal to trick players into thinking that they are *Prompted*. *Prompts* **must** be the truth.
 * For example, in a 4-player game:
