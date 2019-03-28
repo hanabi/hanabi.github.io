@@ -20,7 +20,11 @@ But after a week or so of this, the new skills will have had time to settle, and
 
 Of course, there is much more to Hanabi than just seeing *Finesses*. After their breakthrough, the player will find that they consistently make some new mistake, like failing to see an *Order Chop Move*. And now, all of their mental energy previously devoted to seeing *Finesses* is now devoted to seeing *Order Chop Moves*. And so the cycle repeats.
 
-Why is it important to talk about the *Plateau Effect*? Well, as a newer player, it is important to realize that Hanabi is pretty hard. Not only will you make mistakes, but you will make **the same mistakes** over and over. And you will *plateau*. But this is relatively normal, so there's **no reason to feel discouraged**. All of the expert players have made all of the same mistakes you have, and hundreds of other ones, besides. So they know that it would be unrealistic for someone to be able to learn the game in a day. (Or a week for that matter... or even a month!) Just like Chess, Hanabi is complicated and takes a long time to master.
+Why is it important to talk about the *Plateau Effect*? As a newer player, you might have already realized that Hanabi is like Chess - easy to learn, but deep enough that it might take months (or years) to master. That's what makes it so much fun to play over and over. But in Hanabi, the process of *learning how to play the game itself* is **non-linear**. Meaning that not only will you make mistakes, but you will make **the same mistakes** over and over. You will get stuck.
+
+And that's what this blog is about. Getting stuck is normal, so you shouldn't feel discouraged. All of the experienced players have made all of the same mistakes you have, and hundreds of other ones, besides. They know that "levelling up" is a long process. And if you continue to play, the reward from breaking through can be quite meaningful.
+
+The above passages are mostly directed at beginners, but the general advice of "don't give up" can be similarly directly at intermediate players. Just like leveling up in an RPG, each successive *plateau* will take an even longer period of grinding out games to overcome. Intermediate players might come to the conclusion that they will just never be as good as the more experienced players. But this is just because the later *plateaus* take months of playing to surpass.
 
 <br />
 
