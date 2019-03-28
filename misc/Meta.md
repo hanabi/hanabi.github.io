@@ -10,7 +10,7 @@
   * *Weak Prompts* are a special type of *Prompt*. They are quite rare, and do NOT promise the ordering.
   * Since any *Prompt* can be a *Weak Prompt* if certain conditions apply, players have to constantly keep this in mind throughout the entire game. Every single time a *Prompt* is done, players will have to perform a cognitive check and ask themselves: "Could this be a *Weak Prompt*?
   * Players have to remain vigilant and continue to ask this question for every single *Prompt*, even though only 1 in 30 *Prompts* will be a *Weak Prompt*.
-* If complexity needs to be reduced from a convention framework, then deleting a *Headspace Conventions* will provide much more value than if a different kind of convention was deleted.
+* If complexity needs to be reduced from a convention framework, then deleting a *Headspace Convention* will provide much more value than if a different kind of convention was deleted.
 
 ### Specific Prescription Convention
 
