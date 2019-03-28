@@ -4,7 +4,7 @@ This is a short blog on some loosely-related topics having to do with learning t
 
 <br />
 
-## Plateaus
+## The Plateau Effect
 
 Hanabi may be unlike anything you've learned before.
 
