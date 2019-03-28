@@ -1,17 +1,12 @@
-+--------------+
-| Hanabi Rules |
-+--------------+
- 
-These rules are copied directly from the official leaflet of the American Hanabi Deluxe printing of the game:
-https://www.amazon.com/R-Games-R870-Hanabi-Deluxe/dp/B00RHGF0GE/ref=sr_1_1?ie=UTF8&qid=1539188372&sr=8-1&keywords=hanabi+deluxe
-Grammatical errors and inconsistencies are unchanged.
+# The Rules of Hanabi
 
+[Hanabi](https://boardgamegeek.com/boardgame/98778/hanabi) is a card game by [Antoine Bauza](https://boardgamegeek.com/boardgamedesigner/9714/antoine-bauza). These rules are copied directly from the official leaflet of [the American Hanabi Deluxe printing of the game](https://www.amazon.com/R-Games-R870-Hanabi-Deluxe/dp/B00RHGF0GE/ref=sr_1_1?ie=UTF8&qid=1539188372&sr=8-1&keywords=hanabi+deluxe). Grammatical errors and inconsistencies are unchanged.
 
-Deluxe Hanabi
+# Deluxe Hanabi
 Antoine Bauza
 2 to 5 players, Ages 8+
  
-Contents
+## Contents
 - 60 Hanabi tiles
   6 SUITS [blue] [white] [yellow] [green] [red] [multicolor]
   each with Three 1's, Two 2's, Two 3's, Two 4's, One 5
