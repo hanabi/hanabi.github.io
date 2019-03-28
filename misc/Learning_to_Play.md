@@ -48,6 +48,8 @@ As the months went by, we played more and more games. Sometimes, we would stumbl
 
 But as the years went by, you can imagine what happened. The process of adding a new move here and there over the course of 3 years can result in *a lot* of moves. The punchline of this story is that our huge convention list is not an artificial list of things invented all at once. Rather, it is a list of things that naturally flowed from playing 5000+ games of Hanabi in a process of slow iteration, week by week, month by month.
 
+<br />
+
 ### Learning the Conventions from Scratch
 
 So even if you can understand and empathize with the history of the long convention document, there is still a problem with getting new players up-to-speed. We certainly want new players to join our group - if we stopped getting new players entirely, the group would eventually die out. But with each convention we add, it gets just a little bit harder to come in starting from scratch. There's no getting around it - playing Hanabi with our group is going to be more complicated and more difficult than playing Hanabi with others, because we have been already playing for many years.
