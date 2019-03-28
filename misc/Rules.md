@@ -72,11 +72,10 @@ The player takes a tile from his hand and plays it to the center of the table. T
 
 After playing their tile, they then take a new tile from the draw pile and adds it to their hand without looking at it.
 
-#### How the fireworks are build:
+#### How the fireworks are built:
 
-There can only be one firework of each color. The tiles for a firework have to be placed in rising order (1, 2, 3, 4 and finally 5).
-
-There can only be one tile of each value in each firework (so 5 tiles in total).
+* There can only be one firework of each color. The tiles for a firework have to be placed in rising order (1, 2, 3, 4 and finally 5).
+* There can only be one tile of each value in each firework (so 5 tiles in total).
 
 #### BONUS for completing a firework
 
