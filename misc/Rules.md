@@ -49,8 +49,9 @@ In order to carry out this task, the player has to flip over a Clock tile on the
 IMPORTANT: The player must clearly point to the tiles which they are giving information about. (Thus saying "You have zero of something" is not allowed as you cannot point to anything.)
 
 Two types of information can be given and the player giving the information chooses only one type to give:
-  A. Information about one specific COLOR (and only one)
-  B. Information about one specific VALUE  (and only one)
+
+1. Information about one specific COLOR (and only one)
+2. Information about one specific VALUE  (and only one)
 
 IMPORTANT: The player must give complete information. If a player has two green tiles, the informer cannot only point to one of them, they must point to BOTH green tiles.
 
