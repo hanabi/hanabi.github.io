@@ -32,6 +32,8 @@ The above passages are mostly directed at beginners, but the general advice of "
 
 As you probably know, in the Hyphen-ated group, we play with a lot of conventions - things that we agree to before the game starts. Unlike other groups, we write all of these down in a formal document. And this document is *long*.
 
+<br />
+
 ### The History
 
 A common reaction to seeing a hundred-page-long conventions document for the first time is often surprise: "Holy shit, these guys are crazy Hanabi nerds!" But the surprise can quickly turn to disgust: "That's insane, how can they remember all of these conventions? I would never want to play like this. Even if I did, learning all of these conventions would take years."
