@@ -1637,6 +1637,12 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * In a normal *Elimination Finesse*, the right-most card is called for.
 * However, if an *Elimination Finesse* calls for a card that specifically has *Speculation Elimination Notes* on it, then the **left-most** card is called for instead of the right-most card.
 
+### The Inverted 5's Tempo Clue
+
+* Normally, if a color clue "fills in" a 5 (that was previously touched), and the clue touches no other cards in the hand, then it is obviously focused on the 5 - the 5 is playable right now.
+* However, as a special exception, if doing so makes *another* 5 in that player's hand known to be playable, then the clue is said to be focused on the other 5, making the original card clued **not** playable right now.
+* Since *Inverted 5's Tempo Clues* only get one card played, they are also *Tempo Clue Chop Moves* like any other *Tempo Clue*.
+
 ### The Early Fix Clue Chop Move
 
 * As noted in the *Fix Clues* section, a *Fix Clue* is required before a misplay occurs on duplicated cards. But usually, the misplay will not occur until late in the game, because there is always some other extra card (that is not currently playable) that it could be.
@@ -2330,3 +2336,4 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 | The Skipped Discard Chop Move | Libster
 | The Mismatch Finesse | Zamiel
 | The Distributed Dump Truck | Razvogor
+| The Inverted 5's Tempo Clue | NoMercy
