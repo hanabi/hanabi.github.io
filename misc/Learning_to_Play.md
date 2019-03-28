@@ -62,9 +62,11 @@ Beginners don't have to worry about learning everything all at once, because we 
 
 2) Players **do not** need to know most of the information in the reference document.
 
+New players are **not supposed** to read the reference document. We only expect them to read the (relatively-short) beginner's guide. Let's go into why this is.
+
 **Most** of the moves in the reference document follow from basic logic. New players can usually figure out what a move is in the middle of the game without ever having seen it before! (But it is still worth putting the move in the reference document, just to be thorough.)
 
-Some other things in the reference document only apply **very rarely**, like once in every hundred games or so. So it would be fairly pointless to burden non-expert players with it, as it would be knowledge that would almost never be utilized. (But it is still worth putting the situation in the reference document, just to be thorough.)
+Some other things in the reference document only apply **very rarely**, like once in every hundred games or so. So, it would be fairly pointless to burden non-expert players with knowledge that would almost never be utilized. (But it is still worth putting the situation in the reference document, just to be thorough.)
 
 Yet other things in the reference document only apply to specific variants. There are over 50 different variants on Hanabi Live, and unless you are an expert player, it is going to be pretty pointless to try and learn the intricacies of each one, especially considering that people typically play "No Variant" and "Rainbow" games for their first 100-200 games.
 
