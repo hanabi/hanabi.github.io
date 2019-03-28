@@ -60,7 +60,7 @@ But there are some important counterpoints:
 
 Beginners don't have to worry about learning everything all at once, because we will "turn off" all of the advanced stuff so that the beginner can focus on the fundamentals.
 
-2) Players **do not** need to know most of the information in the reference document.
+2) Players do not need to know most of the information in the reference document.
 
 New players are **not supposed** to read the reference document. We only expect them to read the (relatively-short) beginner's guide. Let's go into why this is.
 
