@@ -1302,7 +1302,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 * Some variants demand an enormous amount of efficiency. Since our normal conventions result in conservative play, we agree to change the way that we play in some specific variants in order to win more consistently.
 * The necessary efficiency needed in order to win each variant is located on [the efficiency tables page](https://github.com/Zamiell/hanabi-conventions/blob/master/misc/Efficiency.md).
-* We define any variant that requires equal to or greater than 1.25 efficiency as a "hard" variant. (Note that a variant can be considered easy in 4-player, but hard in 5-player, for example.)
+* We define any variant that requires equal to or greater than 1.25 efficiency as a "hard" variant. (Required efficiency can be seen in-game using the Hanabi Live interface. Note that a variant can be considered easy in 4-player, but hard in 5-player, for example.)
 * In hard variants, the following changes are made to the conventions:
   * Players are not allowed to *Double Discard Avoid*. Any clue given in a *Double Discard* situation will instead be treated like a normal clue.
   * Players are not allowed to *5 Stall* in the *Early Game*. Any clue that looks like a *5 Stall* is instead treated as either a *5's Chop Move* or a *5 Pull*.
@@ -1497,6 +1497,78 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * At the beginning of the game, number 5's is a play clue (similar to a number 1's clue).
 * If there are any stacks going up, a number 5 clue to a chop card is to be treated as a normal *5 Save*.
 * If there are any stacks going down, a number 1 clue to a chop card is to be treated as a *1 Save*.
+
+### Duck Conventions
+
+* These conventions apply to the *Duck* variants.
+
+#### Relaxed 2 Saves
+
+* It is optional for players to give *Save Clues* to 2's.
+* Thus, if a 2 is discarded, players should not make any *Elimination Notes* for them.
+
+#### Double Tempo Clues
+
+* Normally, if a *Save Clue* is given to two cards, and then the cards are re-touched, it is a *Double Tempo Clue* and both the cards should play from left to right, even if one of the cards was on chop.
+* In Duck, this works a little different. If the same cards are clued twice in a row, and one of the cards was on chop, then **the chop card** should play first, followed by the other cards (from left to right).
+
+#### Saves Clues
+
+* All clues to chop are treated as *Save Clues*.
+
+#### The BGA Play Clue
+
+* Players are not allowed to give a *Save Clue* to someone if that someone has a known-playable card in their hand.
+* If the chop card is clued in this scenario, it is instead treated as a *BGA Play Clue*.
+
+#### The BGA Finesse
+
+* In addition to the above rule, players are also not allowed to give a *Save Clue* to a someone if that someone has a playable card that could be clued instead.
+* If the chop card is clued in this scenario, it is instead treated a *Chop Focus BGA Play Clue*. However, the player receiving the clue will not know this, and will treat it as a normal *Save Clue*. Thus, a *BGA Play Clue* given in this scenario must be a *BGA Finesse*.
+* As an exception to the rule, players are allowed to give a *Save Clue* if the *Play Clue* would violate *Good Touch Principle*.
+
+#### The Duck Double Bluff
+
+* *3 Bluffs* are "turned off" in this variant, for obvious reasons.
+* This means that players can use the *Double Bluff* convention much more often by giving *Play Clues* to two-away from playable 3's. After seeing two blind-plays occur, the receiver of the clue will know that their card is two-away from playable. (This takes precedence over more complicated things, like *Layered Finesses*.)
+  * Note that it is also possible to *Double Bluff* by cluing two-away 4's and two-away 5's, but that can be done in any variant.
+* *Double Half-Bluffs* are explicitly outlawed. In other words, the first blind-play from a *Double Bluff* must be completely unrelated to the card that was clued.
+
+#### The 1's Promise
+
+* Players must use the number 1 clue to clue 1's in a player's opening hand.
+* Thus, if a player gets a *Play Clue* that touches two cards, and then they play the left-most card and it is a 1, they can know that the other one is for-sure a 1 and should play it on the next turn.
+* If 3 or more 1's were clued with the original clue, then the play order should be from left to right.
+
+#### The 1's Promise Bluff
+
+* Players can be tricked into playing cards by using the *1's Promise*. For example, in a 3-player game:
+  * Alice clues Bob about two cards on slot 1 and slot 2.
+  * Bob plays slot 1. It is a red 1.
+  * Bob knows that because of the *1's Promise, the card on his slot 2 must also be a 1.
+  * When it gets to Bob's turn, Bob plays his slot 2, and it is a red 2 instead of a 1.
+* If there are additional cards in the hand that were touched by the original clue, then once the *1's Promise Bluff* is revealed, players should stop playing those cards.
+* For example, in 3-player game:
+  * Alice clues Bob about three cards on slot 1, slot 2, and slot 3.
+  * Bob plays slot 1. It is a red 1.
+  * Bob knows that because of the *1's Promise, the cards on his slot 2 and slot 3 must also be a 1.
+  * When it gets to Bob's turn, Bob plays his slot 2, and it is a red 2 instead of a 1.
+  * Bob knows that his slot 3 card must be a red card. However, it is not necessarily the red 3, and is equally likely to be either a red 3, a red 4, or a red 5.
+
+#### The 1's Promise Finesse
+
+* It is also possible to *Finesse* other players by using the *1's Promise*.
+* For example, in a 3-player game:
+  * Alice clues Bob about two cards on slot 1 and slot 2.
+  * Bob plays slot 1. It is a red 1.
+  * Bob knows that because of the *1's Promise, the card on his slot 2 must also be a 1.
+  * Cathy sees that Bob was clued about a red 1 and a red 3. Cathy knows that because of the *1's Promise*, Bob will misplay the red 3 when it gets to his turn.
+  * Cathy blind-plays her *Finesse Position* as red 2.
+
+#### The Double Play Bluff
+
+* Normally, when a playable card is clued again, it is interpreted as an *Double Play Ejection* on the very next player.
+* However, in the *Duck* variants, it instead means to play slot 1 as a *Known Bluff*.
 
 ### Wild & Crazy Conventions
 
