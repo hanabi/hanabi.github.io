@@ -16,7 +16,7 @@ For example, one of the first things that people usually *plateau* on is the abi
 
 In this scenario, it's obviously going to be frustrating for the *Finesse*-missing player. They are going to feel dumb that they keep making the same mistake. They are going to feel like they are not making any progress. And when playing games, they will have to devote much of their mental energy to try and figure out if every single clue given is a *Finesse* or not.
 
-But after a week or so of this, the new skills will have had time to settle, and something will "click" in their brain. All of a sudden, the player will realize that seeing *Finesses* is trivial - they are automatically playing into them without thinking about it at all. The player has had a break-through and is no longer *plateaued*.
+But after a week or so of this, the new skills will have had time to settle, and something will "click" in their brain. All of a sudden, the player will realize that seeing *Finesses* is trivial - they are automatically playing into them without thinking about it at all. We could say that the player has had a break-through and is no longer *plateaued*.
 
 Of course, there is much more to Hanabi than just seeing *Finesses*. After their breakthrough, the player will find that they consistently make some new mistake, like failing to see an *Order Chop Move*. And now, all of their mental energy previously devoted to seeing *Finesses* is now devoted to seeing *Order Chop Moves*. And so the cycle repeats.
 
