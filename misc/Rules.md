@@ -67,7 +67,7 @@ NOTE: This action cannot be performed in all the Clock tiles are face up on the 
 
 The player takes a tile from his hand and plays it to the center of the table. Two options are possible:
 
-1. The tile either beings, adds to, or completes a firework and it is then added to the appropriate color firework.
+1. The tile either begins, adds to, or completes a firework and it is then added to the appropriate color firework.
 2. The tile doesn't begin, add to or complete any firework. Discard the tile out of the game, then flip the top Fuse tile face down beside that stack. The fuse is burning shorter and time is running out.
 
 After playing their tile, they then take a new tile from the draw pile and adds it to their hand without looking at it.
@@ -98,13 +98,14 @@ In order to calculate their score, the players add up the largest value tile for
 
 Artistic impression is determined by the Artisan League Of Fireworks Technicians reference scale:
 
-POINTS  OVERALL IMPRESSION
-  <= 5  Horrible, booed by the crowd...
-  6-10  Mediocre, just a hint of scattered applause...
- 11-15  Honorable attempt, but quickly forgotten...
- 16-20  Excellent, crowd pleasing.
- 21-24  Amazing, they will be talking about it for weeks!
-    25  Legendary, everyone left speechless, stars in their eyes!
+| Points | Overall Impression
+| ------ | ------------------
+| <= 5   | Horrible, booed by the crowd...
+| 6-10   | Mediocre, just a hint of scattered applause...
+| 11-15  | Honorable attempt, but quickly forgotten...
+| 16-20  | Excellent, crowd pleasing.
+| 21-24  | Amazing, they will be talking about it for weeks!
+| 25     | Legendary, everyone left speechless, stars in their eyes!
 
 #### MULTICOLOR VARIANTS
 
