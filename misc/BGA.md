@@ -95,13 +95,13 @@ Admittedly, this can be a little clunky for players who don't want to figure out
 
 The best aspect of Board Game Arena is the large number of players. And the ELO system, for better or worse, does a pretty good job of motivating players to keep playing. The fact of the matter is that there will never be as many players on Hanabi Live as there are on BGA - not even close. On Hanabi Live, often times there will be no-one around when you are interested in getting a game going. So, that can be an annoying part of playing here. (For this reason, some people in our group also dabble on BGA!)
 
-What is the flipside of not having very many members? Better cohesion, aided by discussion. When you are able to get a crew together, your games will potentially be more fulfilling and in-depth than on Board Game Arena.
+What is the flip-side of not having very many members? Better cohesion, aided by discussion. When you are able to get a crew together, your games will potentially be more fulfilling and in-depth than on Board Game Arena.
 
 #### Extra Conventions and Extra Complexity
 
 Another potentially bad aspect of playing with my group is the complexity involved. We are very welcoming of noobs, but I won't deny that we play at a higher level than the averge BGA player. It is going to be a longer journey to become an expert in our group than it would be to be an expert at BGA. And if you are already comfortable with the BGA conventions, it might just be too frustrating to experiment with different ways of doing things.
 
-What is the flipside of having more conventions and more complexity? First off, it raises the skill ceiling. Hanabi throws plenty of tricky situations at you, and you only have a limited amount of tools to solve them. By adding some conventions, it can be like adding additional tools to the toolbelt. For expert players, by empowering them with more tools, it increases the total ways in which they can solve problems, making the game take on a new layer of beauty. But even for intermediate players, it can be very fun to gain the powers to make your teammates blind-play cards from their hands in new and exciting ways.
+What is the flip-side of having more conventions and more complexity? First off, it raises the skill ceiling. Hanabi throws plenty of tricky situations at you, and you only have a limited amount of tools to solve them. By adding some conventions, it can be like adding additional tools to the toolbelt. For expert players, by empowering them with more tools, it increases the total ways in which they can solve problems, making the game take on a new layer of beauty. But even for intermediate players, it can be very fun to gain the powers to make your teammates blind-play cards from their hands in new and exciting ways.
 
 We know that for people who really like Hanabi, it will be worth the extra effort to play with a little more complexity.
 
