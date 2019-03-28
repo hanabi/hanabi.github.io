@@ -8,7 +8,7 @@ This is a short blog on some loosely-related topics having to do with learning t
 
 Hanabi may be unlike anything you've learned before.
 
-In learning some things, progress is linear. Let's take the example of training for a footrace. In your first week of doing mile-long runs, your times might be around 11 minutes. But in the second week, it might drop to 10 minutes. And drop again to 9 minutes in the third week. This is great - as a runner looking to improve, you have a clear, quantitative indication of your progress. And it is motivating to know that you are for-sure improving.
+In learning some things, progress is linear. Let's take the example of training for a footrace. In your first week of doing mile-long runs, your times might be around 10 minutes. But after a few weeks, it might drop to 9 minutes. And drop again to 9 minutes after a few more weeks. This is great - as a runner looking to improve, you have a clear, quantitative indication of your progress. And it is motivating to know that you are for-sure improving.
 
 In learning other things, progress is not quite so straightforward. Hanabi is interesting in that almost all players **do not** learn in the way outlined in the previous example. Typically, players will *plateau* at a certain skill level, making the **exact same mistake** over and over. And then, after a period of no observable increase in skill, they will make a breakthrough - the thing that they consistently messed up over and over is now effortless. Some games are just like this, and it is pretty bizzare if you have never experienced it before.
 
