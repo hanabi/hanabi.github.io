@@ -1,7 +1,7 @@
 
 # Convention Accumulation
 
-As you probably know, in the Hyphen-ated group, we play with a lot of conventions - things that we agree to before the game starts. Unlike other groups, we write all of these down in a formal document. And this document is *long*.
+As you probably know, in the Hyphen-ated group, we play with a lot of conventions - things that we agree to before the game starts. Unlike other groups, we write all of these down in [a formal document](https://github.com/Zamiell/hanabi-conventions/blob/master/Reference.md). And this document is *long*.
 
 <br />
 
