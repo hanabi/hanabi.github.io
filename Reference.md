@@ -1473,20 +1473,17 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * However, Alice's slot 1 card has no negative clues, and her slot slot 2 card has a negative yellow clue.
   * Thus, this is a *Negative Prompt* and Alice plays slot 2 instead of slot 1.
 
-### Multi-Fives Conventions
+### Multi-Five Saves
 
-* These conventions apply to the *Multi-Fives* variants.
-
-#### Multi-Five Saves
-
+* This convention only applies to the *Multi-Fives* variants.
 * Since 5's cannot be *5 Saved*, a number 2 clue must be used to save them as a pseudo-*2 Save*.
 
-#### 4 Stalls & Early 4's Chop Move & 4 Pull
+### The Bomb Finesse
 
-* In the *Early Game*, since it is not possible to clue number 5, players cannot *5 Stall*. However, we agree that a number 4's clue in the early game indicates that the card is really a 5. Thus, it is possible to *4 Stall*. (A *4 Stall* interpretation takes precedence over a *Self-Finesse*.)
-  * This is only legal if the clue **only** touches real 5's. In other words, players may not give a *4 Stall* if touches a mix of 4's and 5's.
-  * Similar to a *5 Stall*, if there are other things to do and a *4 Stall* is given, then it transforms into a *Early 4's Chop Move* or a *4 Pull*.
-  * Once the *Early Game* is over, players may not *4 Stall*.
+* This convention only applies to *Clue Starved* variants.
+* In these variants, giving a *Fix Clue* is not worth it if the team has less than 2 strikes and only one misplay will happen (on a non-critical card).
+* Following from this, if a *Layered Finesse* with a *Lie Component* is needed, it is better to **not** give the *Fix Clue* and just let them get the strike.
+* Players who get a strike in this way would normally stop playing into the *Finesse*, knowing that something has gone wrong. But in *Clue Starved*, they should keep going, knowing that the strike (bomb) was intentional.
 
 ### Up or Down Conventions
 
