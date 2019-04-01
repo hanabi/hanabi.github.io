@@ -1414,36 +1414,39 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 ### Color Blind Conventions
 
 * These conventions apply to the *Color Blind* variants.
+
+#### Color Clues --> Slot Numbers
+
 * Number clues mean the same thing as normal.
 * All color clues have a special meaning:
-  * Blue means play slot 1.
-  * Green means play slot 2.
+  * Blue means play slot 1 (because it is the 1st stack from the left).
+  * Green means play slot 2 (because it is the 2nd stack from the left).
   * Yellow means play slot 3.
   * Red means play slot 4.
   * Purple means play slot 5 (in 2-player and 3-player games).
-  * Purple means for two people to blind-play their *Finesse Position* card (in 4-player and 5-player games).
-    * The two blind-plays do not necessarily have to be on two players in a row - they can be on anyone.
-    * To reduce confusion, the purple clue should be given to the first player who will be blind-playing.
-    * To reduce confusion, the purple clue is only legal if there are exactly two cards on *Finesse Position* (so that it won't be *Ambiguous*).
-  * Orange means chop move.
-* All color *Play Clues* have to be treated as potential *Delayed Play Clues*, *Prompts*, and *Reverse Finesses*.
+* Furthermore, all color clues have to be treated as potential *Delayed Play Clues*, *Prompts*, and *Reverse Finesses*.
 
-### Color Blind Conventions (for 3, 4, and 5 suits)
+#### 4 Suit Exceptions
 
-* In a 2-player or 3-player game with 5 suits:
-  * There are no special conventions for this variant. (The 5 colors map to the 5 slots.)
-* In a 4-player or 5-player game with 5 suits:
-  * Since there is no orange, purple means *Chop Move* instead.
-* In a 2-player or 3-player game with 4 suits:
-  * Since there are only 4 colors, you are not able to clue slot 5 with a color clue.
-* In a 3-player or 4-player game with 4 suits:
-  * There are no special conventions for this variant. (The 4 colors map to the 4 slots.)
-* In a 2-player or 3-player game with 3 suits:
+* There are not enough colors to get all of the slots for a 2-player or 3-player game with 4 suits, so players are simply not able to clue slot 5 with a color clue.
+
+#### 3 Suit Exceptions
+
+* There are not enough colors to get all of the slots for a 2-player or 3-player game with 3 suits, so the color assignments are customized:
   * Blue means play slot 2.
   * Green means play slot 3.
   * Yellow means play slot 4.
-* In a 3-player or 4-player game with 3 suits:
-  * Since there are only 3 colors, you are not able to clue slot 4 with a color clue.
+* There are not enough colors to get all of the slots for a 4-player or 5-player game with 3 suits, so players are simply not able to clue slot 4 with a color clue.
+
+#### Extra Color
+
+* If there is an extra color that does not correspond to a slot (e.g. purple in a 4-player "Color Blind (5 Suits)" variant), then that is used to mean that the clue recipient should *Chop Move* one card.
+
+#### 2nd Extra Color
+
+* If there is a second extra color that does not correspond to a slot (e.g. orange in a 4-player "Color Blind (6 Suits)" variant), then that is used to mean that that two people to blind-play their *Finesse Position* card.
+* The two blind-plays do not necessarily have to be on two players in a row - they can be on anyone.
+* The clue should always be given to the person who will perform the second blind-play.
 
 ### The Mismatch Finesse
 
