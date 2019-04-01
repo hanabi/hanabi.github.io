@@ -294,7 +294,7 @@ Note that in this user interface, players are holding their hands like they woul
 * When a player does **not** play the card with *Priority*, they must be trying to send a special message.
 * Based on what card they did play, if you have any clued cards in your hand that match the next "connecting" card, it is a message that you can play it right now, similar to a *Prompt*. (The difference is that instead of initiating the *Prompt* with a clue, they initiated it with the order that they played cards.)
 * Alternatively, if you do not have any clued cards in your hand that matches the card that they played, then you you should play your *Finesse Position* card as a *Priority Finesse*.
-* For example, this would be a *Priority Finesse*:
+* For example, in a 3-player game:
   * Alice has a known playable red 1 and a known playable blue 2 in her hand.
   * Alice plays blue 2.
   * Bob comes next. Bob does not see any red 2's. He does not see any blue 3's either. Thus, Alice was supposed to play the red 1 first, since red 1 is a lower rank than blue 2. Alice **did not** play the card with *Priority*.
