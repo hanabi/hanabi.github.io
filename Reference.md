@@ -308,15 +308,21 @@ Note that in this user interface, players are holding their hands like they woul
 
 ### Priority Exceptions
 
-* The "left-most" *Priority* is contextual and does not always apply. For example, in the middle of a 3-player game:
-  * Blue 1 and blue 2 are played on the stacks.
-  * Bob has a red 2 on his chop and is about to discard it. Bob also has a blue 2 in his hand.
-  * Alice is forced to clue number 2 to *2 Save* the red 2 in Bob's hand, even though it "picks up" a duplicate blue 2. Alice has no choice, because if she clues reds, Bob will misplay the red 2 as red 1. And she certainly cannot let the red 2 get discarded, because everyone on the team agrees to save all the 2's in a manner similar to 5's.
-  * Later on in the game, all of the 1's get played. It is now Bob's turn, and the time has come to play both of the 2's in his hand.
-  * From *Good Touch Principle*, Bob knows that both of the 2's in his hand are "good". Since both are the same rank, the left-most 2 should have *Priority*.
-  * However, Bob knows that Alice might have been forced to pick up a duplicate 2 in order to save the 2 that was on his chop. Therefore, the chop 2 is certainly good, but the other 2 may or may not be good.
-  * Thus, Bob disregards the "left-most" *Priority* and just plays the chop 2 first.
-* Normally, blind-playing cards has *Priority* over everything else. However, in some advanced cases, the blind-play does not need to be demonstrated to the team - everyone already has full knowledge of what is going on. In this case, players are supposed to treat the cards as clued for the purposes of finding the *Priority*. (The *Gentleman's Discards* is the main move that this applies to, which is a special move that is covered later.)
+Priority does not always apply. Some common exceptions are listed below.
+
+1) *Priority* is generally "turned off" in the *End-Game*. (But *Priority* can still work if a player plays a card that would be terrible for the team otherwise.)
+
+2) The "left-most" *Priority* may not apply if the right-most card is known to be good and the left-most card may be duplicated. For example, in the middle of a 3-player game:
+
+* Blue 1 and blue 2 are played on the stacks.
+* Bob has a red 2 on his chop and is about to discard it. Bob also has a blue 2 in his hand.
+* Alice is forced to clue number 2 to *2 Save* the red 2 in Bob's hand, even though it "picks up" a duplicate blue 2. Alice has no choice, because if she clues reds, Bob will misplay the red 2 as red 1. And she certainly cannot let the red 2 get discarded, because everyone on the team agrees to save all the 2's in a manner similar to 5's.
+* Later on in the game, all of the 1's get played. It is now Bob's turn, and the time has come to play both of the 2's in his hand.
+* From *Good Touch Principle*, Bob knows that both of the 2's in his hand are "good". Since both are the same rank, the left-most 2 should have *Priority*.
+* However, Bob knows that Alice might have been forced to pick up a duplicate 2 in order to save the 2 that was on his chop. Therefore, the chop 2 is certainly good, but the other 2 may or may not be good.
+* Thus, Bob disregards the "left-most" *Priority* and just plays the chop 2 first.
+
+3) Normally, blind-playing cards has *Priority* over everything else. However, in some advanced cases, the blind-play does not need to be demonstrated to the team - everyone already has full knowledge of what is going on. In this case, players are supposed to treat the cards as clued for the purposes of finding the *Priority*. (The *Gentleman's Discards* is the main move that this applies to, which is a special move that is covered later.)
 
 ### The Load Clue
 
