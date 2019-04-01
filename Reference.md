@@ -278,7 +278,9 @@ Note that in this user interface, players are holding their hands like they woul
 
 ### The Priority Prompt & The Priority Finesse
 
-* When a player has two or more playable cards to play **and** those cards are different in some way (e.g. not two unknown 1's), everyone agrees that they should be played in a specific order. We refer to this as *Priority*. The agreed *Priority* is as follows:
+* Normally, players will only have one card to play at a time. In this case, unless there is some really good clue to give, there are no decisions to be made - they just play their one playable card.
+* What if a player has two or more playable cards to play? Which card should they play first?
+* Our group agrees that playable cards should be played in a very specific order. We refer to this as *Priority*. The agreed *Priority* is as follows:
 
 | Priority | Category of card                                                   | Reason
 | -------- | ------------------------------------------------------------------ | ------
@@ -289,7 +291,7 @@ Note that in this user interface, players are holding their hands like they woul
 | 5        | The lower rank card                                                | The smaller stacks are more important to fill up.
 | 6        | The left-most card                                                 | The left-most card is more likely to be good.
 
-* When a player does not play the card with *Priority*, they must be trying to send a special message.
+* When a player does **not** play the card with *Priority*, they must be trying to send a special message.
 * Based on what card they did play, if you have any clued cards in your hand that match the next "connecting" card, it is a message that you can play it right now, similar to a *Prompt*. (The difference is that instead of initiating the *Prompt* with a clue, they initiated it with the order that they played cards.)
 * Alternatively, if you do not have any clued cards in your hand that matches the card that they played, then you you should play your *Finesse Position* card as a *Priority Finesse*.
 * For example, this would be a *Priority Finesse*:
@@ -297,14 +299,16 @@ Note that in this user interface, players are holding their hands like they woul
   * Alice plays blue 2.
   * Bob comes next. Bob does not see any red 2's. He does not see any blue 3's either. Thus, Alice was supposed to play the red 1 first, since red 1 is a lower rank than blue 2. Alice **did not** play the card with *Priority*.
   * This means that Bob must have blue 3. Bob does not have any clued cards in his hand, so he blind-plays his *Finesse Position* card.
-* Sometimes, players do not play cards with *Priority* purely in order to give someone else on the team something to do on their turn. For example, this **is not** a *Priority Finesse*:
-  * Alice has a known playable red 1 and a known playable blue 2 in her hand.
-  * Alice plays blue 2.
-  * Bob comes next. Bob does not see any red 2's. Bob does see blue 3 on the chop of Cathy. Thus, even though the red 1 was supposed to have *Priority*, Alice played the blue 2 to give Cathy something to do.
-  * Bob clues blue to Cathy as a chop-focus *Play Clue*.
 * Similar to a normal *Prompt*, if a *Priority Prompt* could apply to two or more clued cards, then you should play the left-most one.
 * Similar to a normal *Prompt*, if a *Priority Prompt* made you play the left-most card and it was not the matching card, then you should continuing playing clued cards until you find the matching card.
-* Note that the "left-most" *Priority* is contextual and does not always apply. For example, in the middle of a 3-player game:
+
+### A Priority Flowchart (For Choosing Between 2+ Playable Cards)
+
+*Priority* can sometimes be confusing. [Here is a handy flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/flowcharts/priority_flowchart.png) that shows, in general, which card should be played when there is a choice between two cards.
+
+### Priority Exceptions
+
+* The "left-most" *Priority* is contextual and does not always apply. For example, in the middle of a 3-player game:
   * Blue 1 and blue 2 are played on the stacks.
   * Bob has a red 2 on his chop and is about to discard it. Bob also has a blue 2 in his hand.
   * Alice is forced to clue number 2 to *2 Save* the red 2 in Bob's hand, even though it "picks up" a duplicate blue 2. Alice has no choice, because if she clues reds, Bob will misplay the red 2 as red 1. And she certainly cannot let the red 2 get discarded, because everyone on the team agrees to save all the 2's in a manner similar to 5's.
@@ -312,11 +316,7 @@ Note that in this user interface, players are holding their hands like they woul
   * From *Good Touch Principle*, Bob knows that both of the 2's in his hand are "good". Since both are the same rank, the left-most 2 should have *Priority*.
   * However, Bob knows that Alice might have been forced to pick up a duplicate 2 in order to save the 2 that was on his chop. Therefore, the chop 2 is certainly good, but the other 2 may or may not be good.
   * Thus, Bob disregards the "left-most" *Priority* and just plays the chop 2 first.
-* Normally, blind-playing cards has *Priority* over playing clued cards that lead into other people's hands. However, in some advanced cases, the blind-play does not need to be demonstrated to the team - everyone already has full knowledge of what is going on. In this case, players are supposed to treat the cards as clued for the purposes of finding the *Priority*. (The *Gentleman's Discards* is the main move that this applies to, which is a special move that is covered later.)
-
-### A Priority Flowchart (For Choosing Between 2+ Playable Cards)
-
-*Priority* can sometimes be confusing. [Here is a handy flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/flowcharts/priority_flowchart.png) that shows, in general, which card should be played when there is a choice between two cards.
+* Normally, blind-playing cards has *Priority* over everything else. However, in some advanced cases, the blind-play does not need to be demonstrated to the team - everyone already has full knowledge of what is going on. In this case, players are supposed to treat the cards as clued for the purposes of finding the *Priority*. (The *Gentleman's Discards* is the main move that this applies to, which is a special move that is covered later.)
 
 ### The Load Clue
 
