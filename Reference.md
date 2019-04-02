@@ -1429,7 +1429,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Green means play slot 2 (because it is the 2nd stack from the left).
   * Yellow means play slot 3.
   * Red means play slot 4.
-  * Purple means play slot 5 (in 2-player and 3-player games).
+  * Purple means play slot 5 (in a 2-player or 3-player game).
 * Furthermore, all color clues have to be treated as potential *Delayed Play Clues*, *Prompts*, and *Reverse Finesses*.
 
 #### 4 Suit Exceptions
