@@ -600,11 +600,12 @@ This section is unique in that it contains things that are separate from actual 
 ### Clue Interpretation Priority & Occam's Razor
 
 * When a clue could have multiple interpretations, usually *Schrödinger's Cat Principle* is involved - players must wait a round and see what their teammates do in order to find out the true meaning of the clue. But what if a clue could have multiple interpretations and a player does **not** have to wait for information from anyone else?
-* In this situation, players should use *Occam's Razor* - always assume the simplest possible interpretation:
+* In this situation, players should use *Occam's Razor* - always assume the simplest possible interpretation.
   * First, assume a *Play Clue* or a *Delayed Play Clue*.
   * If that is impossible, assume a *Prompt*.
   * If that is impossible, assume a *Finesse*.
   * If that is impossible, assume a *Bluff*.
+* Similarly, players should also use *Occam's Razor* to tell the difference between the various kinds of *Finesses* and *Bluffs* - they should always prefer the "move" that gets the least amount of blind-cards played. (A move that only gets a single "blind" card played is simpler than a move that gets two "blind" cards, and so forth.)
 
 ### Team Distribution Principle
 
