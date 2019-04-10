@@ -1445,11 +1445,11 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Yellow means play slot 4.
 * There are not enough colors to get all of the slots for a 4-player or 5-player game with 3 suits, so players are simply not able to clue slot 4 with a color clue.
 
-#### Extra Color
+#### Extra Color --> Chop Move
 
 * If there is an extra color that does not correspond to a slot (e.g. purple in a 4-player "Color Blind (5 Suits)" variant), then that is used to mean that the clue recipient should *Chop Move* one card.
 
-#### 2nd Extra Color
+#### 2nd Extra Color --> Double Finesse
 
 * If there is a second extra color that does not correspond to a slot (e.g. orange in a 4-player "Color Blind (6 Suits)" variant), then that is used to mean that that two people to blind-play their *Finesse Position* card.
 * The two blind-plays do not necessarily have to be on two players in a row - they can be on anyone.
