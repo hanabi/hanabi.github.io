@@ -256,7 +256,7 @@ Note that in this user interface, players are holding their hands like they woul
   * Nothing is played on the stacks.
   * Alice clues Cathy about a 4.
   * Bob blind-plays the red 1.
-  * This **cannot** be a *Bluff*, because there are no one-away from playable 4's. So even though 1 does not match 4, this must be a *Finesse*, because Alice is not allowed to perform a *Bluff* with any old card that she wants.
+  * This **cannot** be a *Bluff*, because there are no one-away from playable 4's. So even though 1 does not match 4, this must be a *Finesse*, because Alice is not allowed to perform a *Bluff* with any card that she wants.
   * Cathy does not see any other red cards in Bob's hand. So Cathy should think that she has the red 4, because that would match the blind-play of a red 1. Subsequently, Cathy must have red 2 on her *Finesse Position* and red 3 on her *Second Finesse Position*.
 
 ### The Urgency Principle (e.g. How to Tell If Someone Is Finessed)
