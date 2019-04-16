@@ -278,21 +278,21 @@ Note that in this user interface, players are holding their hands like they woul
 
 ### The Priority Prompt & The Priority Finesse
 
-* Normally, players will only have one card to play at a time. In this case, unless there is some really good clue to give, there are no decisions to be made - they just play their one playable card.
+* Typically, players will only have one card to play at a time. In this case, unless there is some really good clue to give, there are no decisions to be made - they just play their one playable card.
 * What if a player has two or more playable cards to play? Which card should they play first?
-* Our group agrees that playable cards should be played in a very specific order. We refer to this as *Priority*. The agreed *Priority* is as follows:
+* If both of the cards are not completely known yet (e.g. a playable 2 of unknown color), then the player can play whichever one they want, depending on the situation. For example, it might be good for a player to play a semi-unknown card over a fully-known card just in case it leads into someone else's hand.
+* If **both** of the playable cards are completely known, then our group agrees that they cards should be played in a very specific order. We refer to this as *Priority*. The agreed *Priority* is as follows:
 
 | Priority | Category of card                                                   | Reason
 | -------- | ------------------------------------------------------------------ | ------
 | 1        | Blind-plays                                                        | Demonstrating that a *Finesse* or *Bluff* occurred is very important.
-| 2        | Cards that *for sure* lead into clued cards in someone else's hand | Otherwise, the team would lose *Tempo*.
-| 3        | Cards that *could* lead into cards the player's own hand           | It is bad for a suit to be "held up" on one player.
-| 4        | 5's                                                                | Playing a 5 gets the team a free clue.
-| 5        | The lower rank card                                                | The smaller stacks are more important to fill up.
-| 6        | The left-most card                                                 | The left-most card is more likely to be good.
+| 2        | Cards that lead into clued cards in someone else's hand            | Otherwise, the team would lose *Tempo*.
+| 3        | 5's                                                                | Playing a 5 gets the team a free clue.
+| 4        | The lower rank card                                                | The smaller stacks are more important to fill up.
+| 5        | The left-most card                                                 | The left-most card is more likely to be good.
 
 * When a player does **not** play the card with *Priority*, they must be trying to send a special message.
-* Based on what card they did play, if you have any clued cards in your hand that match the next "connecting" card, it is a message that you can play it right now, similar to a *Prompt*. (The difference is that instead of initiating the *Prompt* with a clue, they initiated it with the order that they played cards.)
+* Based on what card they did play, if you have any clued cards in your hand that match the next "connecting" card, it is a message that you can play it right now as a *Priority Prompt*. (This is similar to a normal *Prompt*, except instead of initiating the *Prompt* with a clue, they initiated it with the order that they played cards.)
 * Alternatively, if you do not have any clued cards in your hand that matches the card that they played, then you you should play your *Finesse Position* card as a *Priority Finesse*.
 * For example, in a 3-player game:
   * Alice has a known playable red 1 and a known playable blue 2 in her hand.
@@ -312,17 +312,7 @@ Priority does not always apply. Some common exceptions are listed below.
 
 1) *Priority* is generally "turned off" in the *End-Game*. (But *Priority* can still work if a player plays a card that would be terrible for the team otherwise.)
 
-2) The "left-most" *Priority* may not apply if the right-most card is known to be good and the left-most card may be duplicated. For example, in the middle of a 3-player game:
-
-* Blue 1 and blue 2 are played on the stacks.
-* Bob has a red 2 on his chop and is about to discard it. Bob also has a blue 2 in his hand.
-* Alice is forced to clue number 2 to *2 Save* the red 2 in Bob's hand, even though it "picks up" a duplicate blue 2. Alice has no choice, because if she clues reds, Bob will misplay the red 2 as red 1. And she certainly cannot let the red 2 get discarded, because everyone on the team agrees to save all the 2's in a manner similar to 5's.
-* Later on in the game, all of the 1's get played. It is now Bob's turn, and the time has come to play both of the 2's in his hand.
-* From *Good Touch Principle*, Bob knows that both of the 2's in his hand are "good". Since both are the same rank, the left-most 2 should have *Priority*.
-* However, Bob knows that Alice might have been forced to pick up a duplicate 2 in order to save the 2 that was on his chop. Therefore, the chop 2 is certainly good, but the other 2 may or may not be good.
-* Thus, Bob disregards the "left-most" *Priority* and just plays the chop 2 first.
-
-3) Normally, blind-playing cards has *Priority* over everything else. However, in some advanced cases, the blind-play does not need to be demonstrated to the team - everyone already has full knowledge of what is going on. In this case, players are supposed to treat the cards as clued for the purposes of finding the *Priority*. (The *Gentleman's Discards* is the main move that this applies to, which is a special move that is covered later.)
+2) Normally, blind-playing cards has *Priority* over everything else. However, in some advanced cases, the blind-play does not need to be demonstrated to the team - everyone already has full knowledge of what is going on. In this case, players are supposed to treat the cards as clued for the purposes of finding the *Priority*. (The *Gentleman's Discards* is the main move that this applies to, which is a special move that is covered later.)
 
 ### The Load Clue
 
@@ -342,16 +332,6 @@ Priority does not always apply. Some common exceptions are listed below.
   * Cathy is surprised - she was about to play her *Finesse Position* card as red 3, but she now knows that it can't be a red 3.
   * If this was a *Fix Clue*, Cathy might be inclined to play the card that was closest to her slot 1 (which would be the 3 on slot 2).
   * However, Cathy knows that *Load Clues* are to be interpreted as normal *Play Clues* instead of *Fix Clues*, so she interprets this as a normal *Chop Focus Play Clue* and plays red 3 from slot 5.
-
-### Priority in Multi-Color Variants
-
-* Multi-color variants can make finding out which card has *Priority* a little tricky, because sometimes players will know that a card is playable, but not know its exact identity.
-* In these situations, players should always assume that the suit of their playable card is the left-most of the possible suits.
-* For example:
-  * Alice has a known playable red 2 and a known playable blue card that is either blue 1 or rainbow 3.
-  * If the blue card is blue 1, then the blue card would have *Priority*, since it would be the lowest rank. But if the blue card is rainbow 3, then the red 2 would have *Priority*, since that would be the lowest rank.
-  * However, since the blue stack is the to the left of the rainbow stack, Alice knows that for the purposes of calculating *Priority*, she has to assume that her blue card is the blue 1.
-  * Thus, even if Alice really does have the rainbow 3, playing the red 2 will still cause a *Priority Finesse* to occur on the red 3.
 
 ### The Trash Chop Move
 
@@ -738,6 +718,23 @@ This section is unique in that it contains things that are separate from actual 
   * Zamiel plays yellow 3.
 
 ![Layered Finesse](img/layered_finesse.png)
+
+### The Trust Finesse
+
+* According to the *Priority* rules, playing a card that is not globally known is not supposed to trigger a *Priority Finesse*.
+* However, even if a card is not globally known, a player can still do a *Priority Finesse* if playing that card would be really dumb.
+* This type of move is called a *Trust Finesse* to distinguish it from the case where the card is globally known.
+* It is also possible to perform a *Trust Prompt*, a *Trust Bluff*, and so forth.
+* For example, in a 3-player game:
+  * All the 1's are played on the stacks.
+  * Alice has two playable cards in her hand:
+    * One of the cards has a red clue on it. Since it was originally clued as a *Play Clue*, it is globally known that Alice knows that this is exactly red 2.
+    * One of the cards has a number 2 clue on it. Since it was originally clued with a *Save Clue*, it can be any non-red 2. But it is playable because all of the 1's are already played.
+  * Bob has a clued and globally known red 3 in his hand.
+  * Alice knows that she is expected to play her red 2 into Bob's red 3, because that would be good teamwork.
+  * Unknown from the rest of the team, Alice knows from the context of the game that her 2 must be exactly blue 2.
+  * Bob has blue 3 on his *Finesse Position*.
+  * Alice plays the globally unknown 2 to cause a *Trust Finesse*.
 
 ### The Paused Priority Finesse
 
@@ -1279,28 +1276,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * After the unrelated card is played, since the player who lied was in *Bluff Seat*, no further cards should be promised.
 * If an unrelated card was played and the player who lied was not in *Bluff Seat*, it implies a *Priority Layered Finesse*.
 
-### The Speculation Prompt & The Speculation Finesse
-
-* Normally, a player needs to know the exact identity of a card in order to initiate a *Priority Prompt* or *Priority Finesse*. However, it is somewhat common that a player will get a *Play Clue* on a card and they will not know its exact identity. (For example, when they get a color *Play Clue* in a multi-color variant.) In this situation, the rules of *Priority* still apply, as enumerated above in the previous section.
-* Subsequently, if a player plays a non-priority card that they do not know the exact identity of, this can be quite strange. In this situation, they are trying to perform a speculative *Priority Prompt* or *Priority Finesse* with the intent that it will only work if they happen to be playing a specific suit. This is called a *Speculation Prompt* or a *Speculation Finesse* for short.
-* We agree that a *Speculation Prompt* or *Speculation Finesse* only promises the next card in the suit that is the left-most of the possible suits that it could be (when looking at the suits in the middle of the table).
-* For example, in a no variant game:
-  * Blue 1 and red 1 are played on the stacks.
-  * Alice has a known playable yellow 1. She also has a known playable 2 that could be either blue 2 or red 2.
-  * The yellow 1 has *Priority* and Alice is expected to play that. Instead, she plays the 2 as a *Speculation Finesse*.
-  * Between blue and red, the blue suit is the *Speculation Target*, since it is the left-most suit between blue and red.
-  * The card happens to be blue 2. The rest of the team is promised the blue 3, just like a normal *Priority Prompt* or *Priority Finesse*.
-* It is also possible for the *Speculation* to fail, meaning that the card does not happen to be the left-most suit. In this situation, the rest of the team is still promised the *Speculation Target*, but they should write *Speculation Elimination Notes* for the card.
-* For example, in a no variant game:
-  * The setup is the same as the previous example.
-  * The card happens to be the red 2 (instead of blue 2).
-  * The rest of the team knows that the blue 3 was promised. Bob does not see anyone else with the blue 3, so he writes *Speculation Elminiation Notes* on every card in his hand.
-* Note that we agree that it is illegal for players to perform a *Amiguous Speculation Finesse*, so players do not have to account for that possibility.
-
-### The Speculation Layered Finesse
-
-* Similar to a *Layered Priority Finesse*, it is also possible to *Layered Speculation Finesse*. This is safe to do because if the *Speculation* fails, no lie will have occured, since the other player will write *Elminiation Notes* on their entire hand.
-
 <br />
 
 ## Level 3 - Variant-Specific Strategies
@@ -1710,11 +1685,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Alice has *Elimination Notes* on slot 3 and slot 4 for red 3.
   * Someone clues a number 4 in Alice's slot 1 as a *Self-Finesse*.
   * Alice must assume that it is a normal *Self-Finesse* and play blue 3 from slot 2. (If it was an *Elimination Self-Finesse*, she would play red 3 from slot 4.)
-
-### The Speculation Elimination Finesse
-
-* In a normal *Elimination Finesse*, the right-most card is called for.
-* However, if an *Elimination Finesse* calls for a card that specifically has *Speculation Elimination Notes* on it, then the **left-most** card is called for instead of the right-most card.
 
 ### The Inverted 5's Tempo Clue
 
@@ -2396,7 +2366,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 | The Empty Finesse | Instantiation
 | The Flush Clue | Florrat
 | The Fresh Play Clue | Instantiation
-| The Speculation Prompt & The Speculation Finesse | Libster, Forrat, & Zamiel
 | The Declined 5's Finesse | Zamiel
 | The Empty Double-Play | Zamiel & Jeep
 | The Suboptimal Save Prompt & The Suboptimal Save Finesse | Zamiel
