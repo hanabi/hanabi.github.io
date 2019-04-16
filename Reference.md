@@ -287,6 +287,7 @@ Note that in this user interface, players are holding their hands like they woul
 | -------- | ------------------------------------------------------------------ | ------
 | 1        | Blind-plays                                                        | Demonstrating that a *Finesse* or *Bluff* occurred is very important.
 | 2        | Cards that lead into clued cards in someone else's hand            | Otherwise, the team would lose *Tempo*.
+| 3        | Cards that lead into the player's own hand                         | It is bad for a suit to be "held up" on one player.
 | 3        | 5's                                                                | Playing a 5 gets the team a free clue.
 | 4        | The lower rank card                                                | The smaller stacks are more important to fill up.
 | 5        | The left-most card                                                 | The left-most card is more likely to be good.
