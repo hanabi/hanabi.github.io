@@ -739,7 +739,7 @@ This section is unique in that it contains things that are separate from actual 
   * If this was a *Fix Clue*, Cathy might be inclined to play the card that was closest to her slot 1 (which would be the 3 on slot 2).
   * However, Cathy knows that *Load Clues* are to be interpreted as normal *Play Clues* instead of *Fix Clues*, so she interprets this as a normal *Chop Focus Play Clue* and plays red 3 from slot 5.
 
-### The Trust Finesse
+### The Trust Finesse (A Situational Priority Finesse)
 
 * According to the *Priority* rules, playing a card that is not globally known is not supposed to trigger a *Priority Finesse*.
 * However, even if a card is not globally known, a player can still do a *Priority Finesse* if playing that card would be really dumb.
