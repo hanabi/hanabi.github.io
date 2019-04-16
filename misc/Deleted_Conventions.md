@@ -49,6 +49,17 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
   * This must be a *Known Priority Bluff*, so Bob plays his *Finesse Position* card as any other playable card.
 * This convention was deleted since it conflicts with choosing the correct card to play in an end-game situation.
 
+### Priority in Multi-Color Variants
+
+* Multi-color variants can make finding out which card has *Priority* a little tricky, because sometimes players will know that a card is playable, but not know its exact identity.
+* In these situations, players should always assume that the suit of their playable card is the left-most of the possible suits.
+* For example:
+  * Alice has a known playable red 2 and a known playable blue card that is either blue 1 or rainbow 3.
+  * If the blue card is blue 1, then the blue card would have *Priority*, since it would be the lowest rank. But if the blue card is rainbow 3, then the red 2 would have *Priority*, since that would be the lowest rank.
+  * However, since the blue stack is the to the left of the rainbow stack, Alice knows that for the purposes of calculating *Priority*, she has to assume that her blue card is the blue 1.
+  * Thus, even if Alice really does have the rainbow 3, playing the red 2 will still cause a *Priority Finesse* to occur on the red 3.
+* This convention was deleted with the rework to make *Priority* only apply to globally-known cards.
+
 ### The Speculation Bluff
 
 * The *Speculation* mechanism in a *Speculation Finesse* can also be used to perform a *Speculation Bluff*, which is similar to a *Priority Bluff*.
