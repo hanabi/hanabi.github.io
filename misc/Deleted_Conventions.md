@@ -60,6 +60,36 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
   * Thus, even if Alice really does have the rainbow 3, playing the red 2 will still cause a *Priority Finesse* to occur on the red 3.
 * This convention was deleted with the rework to make *Priority* only apply to globally-known cards.
 
+### The Speculation Prompt & The Speculation Finesse
+
+* Normally, a player needs to know the exact identity of a card in order to initiate a *Priority Prompt* or *Priority Finesse*. However, it is somewhat common that a player will get a *Play Clue* on a card and they will not know its exact identity. (For example, when they get a color *Play Clue* in a multi-color variant.) In this situation, the rules of *Priority* still apply, as enumerated above in the previous section.
+* Subsequently, if a player plays a non-priority card that they do not know the exact identity of, this can be quite strange. In this situation, they are trying to perform a speculative *Priority Prompt* or *Priority Finesse* with the intent that it will only work if they happen to be playing a specific suit. This is called a *Speculation Prompt* or a *Speculation Finesse* for short.
+* We agree that a *Speculation Prompt* or *Speculation Finesse* only promises the next card in the suit that is the left-most of the possible suits that it could be (when looking at the suits in the middle of the table).
+* For example, in a no variant game:
+  * Blue 1 and red 1 are played on the stacks.
+  * Alice has a known playable yellow 1. She also has a known playable 2 that could be either blue 2 or red 2.
+  * The yellow 1 has *Priority* and Alice is expected to play that. Instead, she plays the 2 as a *Speculation Finesse*.
+  * Between blue and red, the blue suit is the *Speculation Target*, since it is the left-most suit between blue and red.
+  * The card happens to be blue 2. The rest of the team is promised the blue 3, just like a normal *Priority Prompt* or *Priority Finesse*.
+* It is also possible for the *Speculation* to fail, meaning that the card does not happen to be the left-most suit. In this situation, the rest of the team is still promised the *Speculation Target*, but they should write *Speculation Elimination Notes* for the card.
+* For example, in a no variant game:
+  * The setup is the same as the previous example.
+  * The card happens to be the red 2 (instead of blue 2).
+  * The rest of the team knows that the blue 3 was promised. Bob does not see anyone else with the blue 3, so he writes *Speculation Elminiation Notes* on every card in his hand.
+* Note that we agree that it is illegal for players to perform a *Amiguous Speculation Finesse*, so players do not have to account for that possibility.
+* This convention was deleted with the rework to make *Priority* only apply to globally-known cards.
+
+### The Speculation Layered Finesse
+
+* Similar to a *Layered Priority Finesse*, it is also possible to *Layered Speculation Finesse*. This is safe to do because if the *Speculation* fails, no lie will have occured, since the other player will write *Elminiation Notes* on their entire hand.
+* This convention was deleted with the rework to make *Priority* only apply to globally-known cards.
+
+### The Speculation Elimination Finesse
+
+* In a normal *Elimination Finesse*, the right-most card is called for.
+* However, if an *Elimination Finesse* calls for a card that specifically has *Speculation Elimination Notes* on it, then the **left-most** card is called for instead of the right-most card.
+* This convention was deleted with the rework to make *Priority* only apply to globally-known cards.
+
 ### The Speculation Bluff
 
 * The *Speculation* mechanism in a *Speculation Finesse* can also be used to perform a *Speculation Bluff*, which is similar to a *Priority Bluff*.
@@ -76,6 +106,7 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
     * Clue green 1 directly to get it to play, which would reveal to everyone that a failed *Speculation Bluff* occured and immediately resyncronize information amoung the team.
     * Let the card sit there until the real blue 2 is played, after which the green 1 will play for free as blue 2. After this happens, the *Speculation Bluff* will be revealed.
 * Note that to prevent confusion, we agree that it is illegal for players to perform a *Speculation Finesse* on a player who is two or more seats away if the next player has a playable card in *Finesse Position* that is not already gotten.
+* This convention was deleted because it was too complicated.
 
 ### 4 Stalls & Early 4's Chop Move & 4 Pull
 
