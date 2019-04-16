@@ -1451,7 +1451,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 #### 2nd Extra Color --> Double Finesse
 
-* If there is a second extra color that does not correspond to a slot (e.g. orange in a 4-player "Color Blind (6 Suits)" variant), then that is used to mean that that two people to blind-play their *Finesse Position* card.
+* If there is a second extra color that does not correspond to a slot (e.g. teal in a 4-player "Color Blind (6 Suits)" variant), then that is used to mean that that two people should blind-play their *Finesse Position*.
 * The two blind-plays do not necessarily have to be on two players in a row - they can be on anyone.
 * The clue should always be given to the person who will perform the second blind-play.
 
