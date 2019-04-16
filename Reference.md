@@ -227,13 +227,32 @@ Note that in this user interface, players are holding their hands like they woul
 * So secondly, we can consider the case of Bob **after** he has blind-played a card, which also extends to the rest of the team. How does everyone know whether Alice did a *Finesse* or a *Bluff* on Bob?
 * The way to find out is to look at **whether the card that blind-played "matches" the clue that was given**. If the clue matches, then it is a *Finesse*. If the clue did not match, then it is a *Bluff*.
 * If it is ambiguous whether or not the card matches, then the team should **always assume a *Bluff* over a *Finesse***. (Note that this is the opposite of the precedence in step 1!)
-* Some common examples:
-  * Blue 1 is played on the stacks. Alice clues Cathy about a blue card. Bob blind-plays a blue 2. This must be a *Finesse*, because **blue matches blue**. So Cathy should think that she has the blue 3.
-  * Blue 1 is played on the stacks. Alice clues Cathy about a blue card. Bob blind-plays a red 1. This must be a *Bluff*, because **red does not match blue**. So Cathy should think that she has the one-away from playable blue card, blue 3.
-  * Rainbow 1 is played on the stacks. Alice clues Cathy about a blue card. Bob blind-plays a rainbow 2. This must be a *Finesse*, because **blue matches blue**. So Cathy should think that she has the rainbow 3.
-  * Blue 2 is played on the stacks. Alice clues Cathy about a 4. Bob blind-plays the blue 3. This must be a *Finesse*, because **3 matches 4**. So Cathy should think that she has the blue 4.
-  * Blue 2 is played on the stacks. Alice clues Cathy about a 4. Bob blind-plays the red 1. This must be a *Bluff*, because **1 does not match 4**. So Cathy should think that she has the one-away from playable 4, the blue 4. (This is an example of a *Hard Bluff*, which is covered in more detail later.)
-* And a final example that is slightly more complicated:
+* Example 1:
+  * Blue 1 is played on the stacks.
+  * Alice clues Cathy about a blue card.
+  * Bob blind-plays a blue 2.
+  * This must be a *Finesse*, because **blue matches blue**. So Cathy should think that she has the blue 3.
+* Example 2:
+  * Blue 1 is played on the stacks.
+  * Alice clues Cathy about a blue card.
+  * Bob blind-plays a red 1.
+  * This must be a *Bluff*, because **red does not match blue**. So Cathy should think that she has the one-away from playable blue card, blue 3.
+* Example 3:
+  * Rainbow 1 is played on the stacks.
+  * Alice clues Cathy about a blue card.
+  * Bob blind-plays a rainbow 2.
+  * This must be a *Finesse*, because **blue matches blue**. So Cathy should think that she has the rainbow 3.
+* Example 4:
+  * Blue 2 is played on the stacks.
+  * Alice clues Cathy about a 4.
+  * Bob blind-plays the blue 3.
+  * This must be a *Finesse*, because **3 matches 4**. So Cathy should think that she has the blue 4.
+* Example 5:
+  * Blue 2 is played on the stacks.
+  * Alice clues Cathy about a 4.
+  * Bob blind-plays the red 1.
+  * This must be a *Bluff*, because **1 does not match 4**. So Cathy should think that she has the one-away from playable 4, the blue 4. (This is an example of a *Hard Bluff*, which is covered in more detail later.)
+* Example 5:
   * Nothing is played on the stacks.
   * Alice clues Cathy about a 4.
   * Bob blind-plays the red 1.
