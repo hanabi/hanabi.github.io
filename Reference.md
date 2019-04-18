@@ -1606,8 +1606,8 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 * When a *Bluff* occurs, the blind-playing player does not know it is a *Bluff* until after the card is blind-played. Before that happens, they think they are playing into a true *Finesse*.
 * However, in rare cases a player can know that it is a *Bluff* beforehand:
-  1. They see all of the copies of the card that they are supposed to be playing.
-  2. They have negative information on their entire hand.
+  * 1) They see all of the copies of the card that they are supposed to be playing.
+  * 2) They have negative information on their entire hand.
 * In these cases, if they cannot see any other explanation for the clue, they the player should blind-play their *Finesse Position* card as a *Known Bluff*.
 
 ### Hard Bluffs
@@ -1962,12 +1962,14 @@ through a card that is one-away from being playable, it is possible to see that 
 
 * Similar to a *Reverse Finesse*, it is possible to perform a *Reverse Bluff*. However, according to *Good Lie Principle*, you are only allowed to lie to the player who comes immediately after you, so this is illegal.
   * Why this policy? It is not possible to play with both *Layered Finesses* and *Reverse Bluffs* at the same time, and *Layered Finesses* are much better.
-* However, you **can** rarely break the *Bluff Seat* rule if one of the following is true:
-  * 1) the next player is at 0 clues (and won't blind-play anything / will blind-play an unrelated card)
-  * 2) the next player will think that they have the *Bluffed* card in their own hand and will play something else (instead of *Finessing* or *Bluffing* the next player)
-  * 3) the next player has negative information on their entire hand (so that they know they do not have the correct card)
-* Essentially, #1 or #2 is true, then the next player cannot act on their state of misinformation. And if it is #3, then the next player will have full knowledge that a lie is occurring, so they will not mess anything up.
-* Since valid *Reverse Bluffs* are so rare, it is important to remember that a valid *Reverse Bluff* is distinct from a *Layered Finesse*, and that blind-playing should stop after the first blind-play. (This is a common mistake.)
+* However, players **can** rarely break the *Bluff Seat* rule if one of the following is true:
+  * 1) The next player is at 0 clues (and won't blind-play anything / will blind-play an unrelated card).
+  * 2) The next player will think that they have the *Bluffed* card in their own hand and will play something else (instead of *Finessing* or *Bluffing* the next player).
+  * 3) The next player has negative information on their entire hand (so that they know they do not have the correct card).
+* Essentially, if #1 or #2 is true, then the next player cannot act on their state of misinformation. And if it is #3, then the next player will have full knowledge that a lie is occurring, so they will not mess anything up.
+* Since valid *Reverse Bluffs* are so rare, it is important to remember that:
+  * Valid *Reverse Bluffs* take precedence over *Known Bluffs*. In other words, if Alice performs something that could be a *Known Bluff* or a *Reverse Bluff*, and Bob can see that Cathy has a playable card on her *Finesse Position*, he should assume that it is a *Reverse Bluff* instead of a *Known Bluff*.
+  * Valid *Reverse Bluffs* take precedence over *Layered Finesses*. In other words, if Alice does a *Reverse Bluff* on Cathy, it would be natural for Cathy to think that this is a *Layered Finesse*, since Alice is not in *Bluff Seat* for Cathy. However, Cathy must pay close attention and see that since it was possible for it to have been a *Reverse Bluff*, she should **not** continue to blind-play cards from her hand. (This is a common mistake.)
 
 ### The Good Touch Bluff
 
