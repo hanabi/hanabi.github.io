@@ -1937,7 +1937,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 ### The Patch Finesse (Hidden Form)
 
 * Sometimes, a player will initiate a *Layered Finesse* on a card that is behind a one-away from playable card. Normally, this would be quite bad, as the player would blind-play the one-away from playable card, and it would misplay.
-* However, since the *Finesse* target is considered unplayable from the rest of the team, they can be tricked into blind-playing the card. This "patches" the *Layered Finesse* problem, and now the layer can be fully unwrapped without issues.
+* However, since the *Finesse* target is considered unplayable from the rest of the team, they can be tricked into blind-playing the exact card that makes the one-away card actually playable. This "patches" the *Layered Finesse* problem, and now the layer can be fully unwrapped without issues.
 * The hidden form of the *Patch Finesse* is when the person patching has no idea that a *Patch Finesse* is occurring.
 * For example, in a 5-player game:
   * All of the 1's are played on the stacks.
