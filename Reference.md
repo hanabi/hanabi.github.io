@@ -1944,26 +1944,42 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Alice clues red to Emily, which is a *Play Clue* on a red 4.
   * Donald has a blue 3 on his *Finesse Position*, followed by a red 2 and a red 3.
   * Bob discards. (We will return to Bob at the end.)
-  * Cathy sees that she must have the green 2 and green 3 on her *Finesse Position*, because even though Donald has the green 2 and the green 3, they are behind an unplayable card (blue 3).
-  * Cathy tries to blind-play green 2 and it is instead a blue 2.
+  * Cathy sees that she must have the red 2 and red 3 on her *Finesse Position*, because even though Donald has the red 2 and the red 3, they are behind an unplayable card (blue 3).
+  * Cathy tries to blind-play red 2 and it is instead a blue 2.
   * Donald knew that Alice's clue was *Finessing* him, since no-one else on the team has any green cards. So, he gasps in surprise when Cathy blind-plays for seemingly no reason.
-  * However, Donald knows that he should trust Alice and he should trust Cathy, so he continues to assume that he has the green 2.
-  * Donald tries to blind-play green 2 and it is instead the blue 3. Donald know knows that this is a *Patch Finesse*.
-  * Emily sees the playable green 2 and green 3 in Donald's hand, so she also knows that this was a *Patch Finesse*. The green card in her hand is either green 3 or green 4.
+  * However, Donald knows that he should trust Alice and he should trust Cathy, so he continues to assume that he has the red 2.
+  * Donald tries to blind-play red 2 and it is instead the blue 3. Donald know knows that this is a *Patch Finesse*.
+  * Emily sees the playable red 2 and red 3 in Donald's hand, so she also knows that this was a *Patch Finesse*. The red card in her hand is either red 3 or red 4.
+  * We skipped over Bob - why did he discard? Normally, Bob should think the same thing as Cathy - that he has both the green 2 and the green 3. However, Bob can look ahead and see that a *Patch Finesse* could occur, so he has to give precedence to that interpretation and wait to see what will happen. He should try to blind-play the green 2 himself on the next round if no other blind-plays occur.
+* *Known Bluffs* and *Valid Reverse Bluffs* take priority over *Patch Finesses*, so the situations where players can successfully pull one off are narrow.
 
 ### The Patch Finesse (Strong Form)
 
-* Sometimes, when a *Finesse* is initiated, the next person can know that something is wrong. For example, they might have negative information See the section on *Known Bluffs*
+* The "problem" in The *Hidden Patch Finesse* is not known to person who is patching - they just blind-play and everything works out.
+* But what if a *Layered Finesse* occurs that targets a card in someone's hand that is behind an unplayable card, and the other copy of the *Finesse* target is in the trash? In this example, everyone knows exactly who the *Layered Finesse* is on, and everyone knows that a misplay will certainly occur.
+* In this situation, if the "problem" card is exactly one away from playable, then it is known to be a *Patch Finesse*.
+* For example, in a 5-player game:
+  * All of the 1's are played on the stacks.
+  * Red 2 is in the discard pile.
+  * Alice clues red to Emily, which is a *Play Clue* on a red 4.
+  * Donald has a blue 3 on his *Finesse Position*, followed by a red 2 and a red 3.
+  * Bob knows that it is impossible for him to have the red 2, because he sees both copies. Thus, the *Finesse* must be on Donald. Bob sees that a *Patch Finesse* will occur. Bob discards.
+  * Cathy knows that it is impossible for her to have the red 2, because she sees both copies. Thus, the *Finesse* must be on Donald. Cathy knows that since the "problem" card of blue 3 is one-away from playable, this msut be a *Patch Finesse* that is calling for a blue 2 patch. Cathy blind-plays her *Finesse Position* card as a known blue 2 patch.
+  * Donald is very surprised that Cathy blind-played a card, but he trusts both Alice and Cathy, so he still assumes he has the red 2. Donald tries to blind-play the red 2 and it is instead the blue 3. Donald now knows that this was a *Patch Finesse*.
+  * Emily sees the playable red 2 and red 3 in Donald's hand, so she also knows that this was a *Patch Finesse*. The red card in her hand is either red 3 or red 4.
 
-* Sometimes, a player will perform a *Layered Finesse* with the blind-play target (e.g. a red 2) being a card with the other copy in the trash. In this case, everyone on the 
-through a card that is one-away from being playable, it is possible to see that an impending misplay will occur.
-* This is a signal to you that you need to "patch" the problem, so you have the matching card in your *Finesse Position* to make the one-away card actually playable.
+### Patch Finesse Stipulations
 
-### The Patch Finese (Weak Form)
+* Expert players commonly perform *Finesses* with a *Lie Component* (and *Layered Finesse* with a *Lie Component*) in order to solve various tricky situations that come up. Since *Patch Finesses* are extremely rare, players should generally assume a more-ordinary *Lie Component* that requires a *Fix Clue* instead of a *Patch* blind-play.
+* Additionally, players should be aware of the more-ordinary *Known Bluff* and *Valid Reverse Bluff* - those interpretations should also take precedence over a *Patch Finesse* interpretation (depending on the context of the game).
+* The *Patch Component* of a *Patch Finesses* **must** be patched before the problem card has a chance of being misplayed. (In other words, blind-playing players are not supposed to entertain *Reverse Patch Finesses*.)
+* It is expressly illegal to perform a *Patch Finesse* that contains two *Patch Components*.
 
-* In general, when a player gives a seemingly "bad" clue
+### The Patch Finesse (Weak Form)
 
-* In general, you must give preference to a patch interpretation. However, it is illegal to perform a *Patch Finesse* when the player blind-playing the patching card comes after the player blind-playing into the *Layered Finesse*. Another way of saying that is that the *Patch Component* of the *Patch Finesse* cannot be in reverse.
+* Keeping the section on *Patch Finesse* stipulations in mind, we can also describe a third type of *Patch Finesse*.
+* It is possible to perform a *Patch Finesse* in the same way as a *Strong Patch Finesse*, but without having the other copy of the card in the trash. In this situation, it is harder to see that a *Patch Finesse* is occuring, as it is much more likely to be a more-ordinary *Finesse with a Lie Component*.
+* However, if the problem card is exactly one-away from playable, and the original *Finesse with a Lie Component* was just a **bad** move, or if it could have been done in some more simpler way without a big lie, then players should interpret the move as a *Patch Finesse*.
 
 ### The Patch Gentleman's Discard
 
