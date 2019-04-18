@@ -1980,7 +1980,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 * Keeping the section on *Patch Finesse* stipulations in mind, we can also describe a third type of *Patch Finesse*.
 * It is possible to perform a *Patch Finesse* in the same way as a *Strong Patch Finesse*, but without having the other copy of the card in the trash. In this situation, it is harder to see that a *Patch Finesse* is occurring, as it is much more likely to be a more-ordinary *Finesse with a Lie Component*.
-* However, if the problem card is exactly one-away from playable, and the original *Finesse with a Lie Component* was just a **bad** move, or if it could have been done in some more simple way without a big lie, then players should interpret the move as a *Patch Finesse*.
+* However, if the problem card is exactly one-away from playable, and the original *Finesse with a Lie Component* was just a **bad** move, or if it could have been done in a simpler way without a big lie, then players should interpret the move as a *Patch Finesse*.
 
 ### The Patch Gentleman's Discard
 
