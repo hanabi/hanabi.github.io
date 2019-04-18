@@ -1951,7 +1951,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Donald tries to blind-play red 2 and it is instead the blue 3. Donald know knows that this is a *Patch Finesse*.
   * Emily sees the playable red 2 and red 3 in Donald's hand, so she also knows that this was a *Patch Finesse*. The red card in her hand is either red 3 or red 4.
   * We skipped over Bob - why did he discard? Normally, Bob should think the same thing as Cathy - that he has both the red 2 and the red 3. However, Bob can look ahead and see that a *Patch Finesse* could occur, so he has to give precedence to that interpretation and wait to see what will happen. He should try to blind-play the red 2 himself on the next round if no other blind-plays occur.
-* *Known Bluffs* and *Valid Reverse Bluffs* take priority over *Patch Finesses*, so the situations where players can successfully pull one off are narrow.
+* See the section below for important *Patch Finesse* stipulations.
 
 ### The Patch Finesse (Strong Form)
 
@@ -1967,6 +1967,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Cathy knows that it is impossible for her to have the red 2, because she sees both copies. Thus, the *Finesse* must be on Donald. Cathy knows that since the "problem" card of blue 3 is one-away from playable, this msut be a *Patch Finesse* that is calling for a blue 2 patch. Cathy blind-plays her *Finesse Position* card as a known blue 2 patch.
   * Donald is very surprised that Cathy blind-played a card, but he trusts both Alice and Cathy, so he still assumes he has the red 2. Donald tries to blind-play the red 2 and it is instead the blue 3. Donald now knows that this was a *Patch Finesse*.
   * Emily sees the playable red 2 and red 3 in Donald's hand, so she also knows that this was a *Patch Finesse*. The red card in her hand is either red 3 or red 4.
+* See the section below for important *Patch Finesse* stipulations.
 
 ### Patch Finesse Stipulations
 
