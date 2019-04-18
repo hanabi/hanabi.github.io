@@ -1971,7 +1971,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### Patch Finesse Stipulations
 
-* Expert players commonly perform *Finesses* with a *Lie Component* (and *Layered Finesse* with a *Lie Component*) in order to solve various tricky situations that come up. Since *Patch Finesses* are extremely rare, players should generally assume a more-ordinary *Lie Component* that requires a *Fix Clue* instead of a *Patch* blind-play.
+* Expert players commonly perform *Finesses* with a *Lie Component* (and *Layered Finesses* with a *Lie Component*) in order to solve various tricky situations that come up. Since *Patch Finesses* are extremely rare, players should generally assume a more-ordinary *Lie Component* that requires a *Fix Clue* instead of a *Patch* blind-play.
 * Additionally, players should be aware of the more-ordinary *Known Bluff* and *Valid Reverse Bluff* - those interpretations should also take precedence over a *Patch Finesse* interpretation (depending on the context of the game).
 * The *Patch Component* of a *Patch Finesses* **must** be patched before the problem card has a chance of being misplayed. (In other words, blind-playing players are not supposed to entertain *Reverse Patch Finesses*.)
 * It is expressly illegal to perform a *Patch Finesse* that contains two *Patch Components*.
