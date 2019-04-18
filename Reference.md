@@ -1888,7 +1888,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Bob cannot have the red 3 in his *Finesse Position*, because that card has negative red.
   * Bob now needs to figure out what the clue means. When going through all of the possibilities, he can safely put aside the possibility of a *Self-Bluff with Color* / a *Known Self-Bluff*, because we agree that they are illegal. The clue must have some other meaning and Bob will defer to whatever the next-most-likely thing is.
 
-### The Elimination Rewrite
+### The Elimination Rewrite (for 1's)
 
 * Normally, when a playable card is discarded, a player will write *Elimination Notes* on their hand for the other copy of the card.
 * However, there is a special case when **two** copies of the same 1 are discarded. The original *Elimination Notes* from the discard of the first 1 no longer apply because it is possible that the player has drawn the third copy of the 1 before the second copy could be clued.
