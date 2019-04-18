@@ -1938,7 +1938,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 * Sometimes, a player will initiate a *Layered Finesse* on a card that is behind a one-away from playable card. Normally, this would be quite bad, as the player would blind-play the one-away from playable card, and it would misplay.
 * However, since the *Finesse* target is considered unplayable from the rest of the team, they can be tricked into blind-playing the card. This "patches" the *Layered Finesse* problem, and now the layer can be fully unwrapped without issues.
-* The hidden form of the *Patch Finesse* is when the person patching has no idea that a *Patch Finesse* is occuring.
+* The hidden form of the *Patch Finesse* is when the person patching has no idea that a *Patch Finesse* is occurring.
 * For example, in a 5-player game:
   * All of the 1's are played on the stacks.
   * Alice clues red to Emily, which is a *Play Clue* on a red 4.
@@ -1978,7 +1978,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 ### The Patch Finesse (Weak Form)
 
 * Keeping the section on *Patch Finesse* stipulations in mind, we can also describe a third type of *Patch Finesse*.
-* It is possible to perform a *Patch Finesse* in the same way as a *Strong Patch Finesse*, but without having the other copy of the card in the trash. In this situation, it is harder to see that a *Patch Finesse* is occuring, as it is much more likely to be a more-ordinary *Finesse with a Lie Component*.
+* It is possible to perform a *Patch Finesse* in the same way as a *Strong Patch Finesse*, but without having the other copy of the card in the trash. In this situation, it is harder to see that a *Patch Finesse* is occurring, as it is much more likely to be a more-ordinary *Finesse with a Lie Component*.
 * However, if the problem card is exactly one-away from playable, and the original *Finesse with a Lie Component* was just a **bad** move, or if it could have been done in some more simpler way without a big lie, then players should interpret the move as a *Patch Finesse*.
 
 ### The Patch Gentleman's Discard
