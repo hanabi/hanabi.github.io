@@ -192,7 +192,7 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 
 ## Other Clue Interpretation Tables
 
-### 3 Player with Acid Trip
+### 3 Player Color Blind
 
 | # mod 11 | action    | person clued   | type of clue
 | -------- | --------- | -------------- | --------------
