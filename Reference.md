@@ -1946,11 +1946,11 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Bob discards. (We will return to Bob at the end.)
   * Cathy sees that she must have the red 2 and red 3 on her *Finesse Position*, because even though Donald has the red 2 and the red 3, they are behind an unplayable card (blue 3).
   * Cathy tries to blind-play red 2 and it is instead a blue 2.
-  * Donald knew that Alice's clue was *Finessing* him, since no-one else on the team has any green cards. So, he gasps in surprise when Cathy blind-plays for seemingly no reason.
+  * Donald knew that Alice's clue was *Finessing* him, since no-one else on the team has any red cards. So, he gasps in surprise when Cathy blind-plays for seemingly no reason.
   * However, Donald knows that he should trust Alice and he should trust Cathy, so he continues to assume that he has the red 2.
   * Donald tries to blind-play red 2 and it is instead the blue 3. Donald know knows that this is a *Patch Finesse*.
   * Emily sees the playable red 2 and red 3 in Donald's hand, so she also knows that this was a *Patch Finesse*. The red card in her hand is either red 3 or red 4.
-  * We skipped over Bob - why did he discard? Normally, Bob should think the same thing as Cathy - that he has both the green 2 and the green 3. However, Bob can look ahead and see that a *Patch Finesse* could occur, so he has to give precedence to that interpretation and wait to see what will happen. He should try to blind-play the green 2 himself on the next round if no other blind-plays occur.
+  * We skipped over Bob - why did he discard? Normally, Bob should think the same thing as Cathy - that he has both the red 2 and the red 3. However, Bob can look ahead and see that a *Patch Finesse* could occur, so he has to give precedence to that interpretation and wait to see what will happen. He should try to blind-play the red 2 himself on the next round if no other blind-plays occur.
 * *Known Bluffs* and *Valid Reverse Bluffs* take priority over *Patch Finesses*, so the situations where players can successfully pull one off are narrow.
 
 ### The Patch Finesse (Strong Form)
@@ -2257,9 +2257,9 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Near the beginning of the game, Alice blind-plays her chop and it fails to play.
   * Bob interprets this as a *Dump Truck*, and blind-plays his *Finesse Position* card. It is a red 1 and it successfully plays.
   * Cathy sees that this is **not** a *Dump Truck* - Bob does not have a fully-playable hand. Thus, this move must have some other meaning.
-  * Cathy can see that Donald and Emily have playable cards on their *Finesse Position*. Thus, Cathy knows that this is a *Distributed Dump Truck*, and plays her *Finesse Position* card. It is a blue 1 and it successfully plays.
-  * Donald can see what is going on, so he plays green 1 from his *Finesse Position*.
-  * Emily plays green 2 from her *Finesse Position*.
+  * Cathy can see that Donald and Emily have playable cards on their *Finesse Position*. Thus, Cathy knows that this is a *Distributed Dump Truck*, and plays her *Finesse Position* card. It is a red 1 and it successfully plays.
+  * Donald can see what is going on, so he plays blue 1 from his *Finesse Position*.
+  * Emily plays blue 2 from her *Finesse Position*.
 
 ### The Useless Bluff
 
