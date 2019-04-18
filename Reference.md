@@ -1934,13 +1934,34 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * If the player who performed the clue was in *Bluff Seat*, then it is to be treated like a *Bluff*, and thus they will not know where the actual *Elimination Card* is. (However, in most cases, at this point there will only be one remaining card with an *Elimination Note* on it, so it won't matter.)
 * If the player who performed the clue was not in *Bluff Seat*, then the blind-playing player is expected to keep playing until they find the intended card. This is similar to how a *Layered Finesse* works, but it is inverted such that they play cards from oldest to newest.
 
+### The Patch Finesse (Hidden Form)
+
+* Sometimes, a player will initiate a *Layered Finesse* on a card that is behind a one-away from playable card. Normally, this would be quite bad, as the player would blind-play the one-away from playable card, and it would misplay.
+* However, since the *Finesse* target is considered unplayable from the rest of the team, they can be tricked into blind-playing the card. This "patches" the *Layered Finesse* problem, and now the layer can be fully unwrapped without issues.
+* The hidden form of the *Patch Finesse* is when the person patching has no idea that a *Patch Finesse* is occuring.
+* For example, in a 5-player game:
+  * All of the 1's are played on the stacks.
+  * Alice clues red to Emily, which is a *Play Clue* on a red 4.
+  * Donald has a blue 3 on his *Finesse Position*, followed by a red 2 and a red 3.
+  * Bob discards. (We will return to Bob at the end.)
+  * Cathy sees that she must have the green 2 and green 3 on her *Finesse Position*, because even though Donald has the green 2 and the green 3, they are behind an unplayable card (blue 3).
+  * Cathy tries to blind-play green 2 and it is instead a blue 2.
+  * Donald knew that Alice's clue was *Finessing* him, since no-one else on the team has any green cards. So, he gasps in surprise when Cathy blind-plays for seemingly no reason.
+  * However, Donald knows that he should trust Alice and he should trust Cathy, so he continues to assume that he has the green 2.
+  * Donald tries to blind-play green 2 and it is instead the blue 3. Donald know knows that this is a *Patch Finesse*.
+  * Emily sees the playable green 2 and green 3 in Donald's hand, so she also knows that this was a *Patch Finesse*. The green card in her hand is either green 3 or green 4.
+
 ### The Patch Finesse (Strong Form)
+
+* Sometimes, when a *Finesse* is initiated, the next person can know that something is wrong. For example, they might have negative information See the section on *Known Bluffs*
 
 * Sometimes, a player will perform a *Layered Finesse* with the blind-play target (e.g. a red 2) being a card with the other copy in the trash. In this case, everyone on the 
 through a card that is one-away from being playable, it is possible to see that an impending misplay will occur.
 * This is a signal to you that you need to "patch" the problem, so you have the matching card in your *Finesse Position* to make the one-away card actually playable.
 
 ### The Patch Finese (Weak Form)
+
+* In general, when a player gives a seemingly "bad" clue
 
 * In general, you must give preference to a patch interpretation. However, it is illegal to perform a *Patch Finesse* when the player blind-playing the patching card comes after the player blind-playing into the *Layered Finesse*. Another way of saying that is that the *Patch Component* of the *Patch Finesse* cannot be in reverse.
 
