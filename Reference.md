@@ -1602,6 +1602,14 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ## Level 3 - Rarely Used Advanced Strategies
 
+### Known Bluffs
+
+* When a *Bluff* occurs, the blind-playing player does not know it is a *Bluff* until after the card is blind-played. Before that happens, they think they are playing into a true *Finesse*.
+* However, in rare cases a player can know that it is a *Bluff* beforehand:
+  1. They see all of the copies of the card that they are supposed to be playing.
+  2. They have negative information on their entire hand.
+* In these cases, if they cannot see any other explanation for the clue, they the player should blind-play their *Finesse Position* card as a *Known Bluff*.
+
 ### Hard Bluffs
 
 * Sometimes, it can be ambiguous as to whether a player blind-played a card into a *Bluff* or a *Finesse* + *Prompt*. In this situation, *Occam's Razor* applies, so players should always opt with the former (simpler) interpretation. When such a *Bluff* occurs, it is called a *Hard Bluff* to disambiguate from situations where *Bluffs* happen with no ambiguity.
@@ -1926,10 +1934,14 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * If the player who performed the clue was in *Bluff Seat*, then it is to be treated like a *Bluff*, and thus they will not know where the actual *Elimination Card* is. (However, in most cases, at this point there will only be one remaining card with an *Elimination Note* on it, so it won't matter.)
 * If the player who performed the clue was not in *Bluff Seat*, then the blind-playing player is expected to keep playing until they find the intended card. This is similar to how a *Layered Finesse* works, but it is inverted such that they play cards from oldest to newest.
 
-### The Patch Finesse
+### The Patch Finesse (Strong Form)
 
-* If a player performs a *Layered Finesse* through a card that is one-away from being playable, it is possible to see that an impending misplay will occur.
+* Sometimes, a player will perform a *Layered Finesse* with the blind-play target (e.g. a red 2) being a card with the other copy in the trash. In this case, everyone on the 
+through a card that is one-away from being playable, it is possible to see that an impending misplay will occur.
 * This is a signal to you that you need to "patch" the problem, so you have the matching card in your *Finesse Position* to make the one-away card actually playable.
+
+### The Patch Finese (Weak Form)
+
 * In general, you must give preference to a patch interpretation. However, it is illegal to perform a *Patch Finesse* when the player blind-playing the patching card comes after the player blind-playing into the *Layered Finesse*. Another way of saying that is that the *Patch Component* of the *Patch Finesse* cannot be in reverse.
 
 ### The Patch Gentleman's Discard
