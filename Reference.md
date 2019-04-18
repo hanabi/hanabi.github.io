@@ -1944,12 +1944,12 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Alice clues red to Emily, which is a *Play Clue* on a red 4.
   * Donald has a blue 3 on his *Finesse Position*, followed by a red 2 and a red 3.
   * Bob discards. (We will return to Bob at the end.)
-  * Cathy sees that she must have the green 2 and green 3 on her *Finesse Position*, because even though Donald has the green 2 and the green 3, they are behind an unplayable card (blue 3).
-  * Cathy tries to blind-play green 2 and it is instead a blue 2.
-  * Donald knew that Alice's clue was *Finessing* him, since no-one else on the team has any green cards. So, he gasps in surprise when Cathy blind-plays for seemingly no reason.
-  * However, Donald knows that he should trust Alice and he should trust Cathy, so he continues to assume that he has the green 2.
-  * Donald tries to blind-play green 2 and it is instead the blue 3. Donald know knows that this is a *Patch Finesse*.
-  * Emily sees the playable green 2 and green 3 in Donald's hand, so she also knows that this was a *Patch Finesse*. The green card in her hand is either green 3 or green 4.
+  * Cathy sees that she must have the red 2 and red 3 on her *Finesse Position*, because even though Donald has the red 2 and the red 3, they are behind an unplayable card (blue 3).
+  * Cathy tries to blind-play red 2 and it is instead a blue 2.
+  * Donald knew that Alice's clue was *Finessing* him, since no-one else on the team has any red cards. So, he gasps in surprise when Cathy blind-plays for seemingly no reason.
+  * However, Donald knows that he should trust Alice and he should trust Cathy, so he continues to assume that he has the red 2.
+  * Donald tries to blind-play red 2 and it is instead the blue 3. Donald know knows that this is a *Patch Finesse*.
+  * Emily sees the playable red 2 and red 3 in Donald's hand, so she also knows that this was a *Patch Finesse*. The green card in her hand is either red 3 or red 4.
 
 ### The Patch Finesse (Strong Form)
 
