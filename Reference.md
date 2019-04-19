@@ -1310,6 +1310,14 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Players are not allowed to *5 Stall* in the *Early Game*. Any clue that looks like a *5 Stall* is instead treated as either a *5's Chop Move* or a *5 Pull*.
   * Players are not required to clue anything in the *Early Game*; they are allowed to initiate the *Mid-Game* whenever they see fit.
 
+### BGA Play Clues in Hard Variants
+
+* Normally, players are allowed to give a *Save Clue* to a card on chop, even if that player has a bunch of playable cards to play. (This allows for *Discard Modulation.*)
+* In *Hard* variants (see previous section), this is not legal.
+* If a clue is given to a chop card of a player, and that player has one or more known-playable cards to play, then it is treated as a *Play Clue* on that card.
+* This is called a *BGA Play Clue* to distinguish it from a more ordinary *Play Clue*.
+* Note that *BGA Play Clues* **do not** apply in the *Early Game* - they are only "turned on" in the *Mid-Game*.
+
 ### 3 Suit Conventions
 
 * These conventions applies to any variant with only 3 suits.
@@ -1518,10 +1526,9 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 * All clues to chop are treated as *Save Clues*.
 
-#### The BGA Play Clue
+#### Duck BGA Play Clues
 
-* Players are not allowed to give a *Save Clue* to someone if that someone has a known-playable card in their hand.
-* If the chop card is clued in this scenario, it is instead treated as a *BGA Play Clue*.
+* Duck counts as a *Hard Variant* in that *BGA Play Clues* are "turned on". Furthermore, *BGA Play Clues* are even turned on in the *Early Game*.
 
 #### The BGA Finesse
 
