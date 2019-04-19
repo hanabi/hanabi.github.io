@@ -50,7 +50,7 @@ In general, we want all of our strategies to flow from some basic principles. Th
   * it is a 2 and not visible elsewhere in players' hands
   * it is currently playable and not visible elsewhere in players' hands
 * When a card that needs to be saved is at immediate risk of being discarded, it must be indicated with a *Save Clue*.
-* A player receiving a clue should give precedence to a *Save Clue* interpretation over a *Play Clue* interpretation.
+* A player receiving a clue that could be either a *Save Clue* or a *Play Clue* **must** consider both possibilities. Specifically, the player must hold on to the card until they know for sure.
 
 ### 4. Good Touch Principle
 
