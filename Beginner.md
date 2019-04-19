@@ -115,7 +115,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
   * All 5's
   * Unique 2's (meaning that only one copy is currently visible)
   * Critical cards (meaning that the other copy is discarded)
-* Sometimes, a *Chop Focus* clue could be either a *Save Clue* or a *Play Clue*. When this happens, the *Save Clue* interpretation always takes priority - the receiving player would have to treat it like a potential *Save Clue*, and hang on to the card for the time being.
+* Sometimes, a *Chop Focus* clue could be either a *Save Clue* or a *Play Clue*. When this happens, the receiving player must consider both possibilities and hold on to the card until they know for sure.
 * The three kinds of *Save Clues* are listed below.
 
 #### 5 Saves
@@ -152,7 +152,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
   * Alice clues Bob yellow, which touches a card on slot 4.
   * Before this clue, the only clued card in Bob's hand was the 5 on slot 5.
   * This could be a *Play Clue* on the yellow 2. However, since the clue was focused on his chop, this could also be a *Save Clue*.
-  * Bob looks through the discard pile and finds that there is a yellow 4 there. Thus, this could be a *Save Clue* on the yellow 4. *Save Clues* take precedence over *Play Clues*, so Bob knows that for now, he has to hold on to the card.
+  * Bob looks through the discard pile and finds that there is a yellow 4 there. Thus, this could be a *Save Clue* on the yellow 4. So, Bob knows that for now, he has to hold on to the card.
   * Bob marks the card as either a yellow 2 or a yellow 4, so that he can keep track of it for later. Then, he discards.
 
 <br />
