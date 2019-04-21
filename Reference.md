@@ -1331,20 +1331,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * The *5 Stall*, *5's Chop Move*, and *5 Pull* conventions are "turned off".
 * If a 5 is clued, then it is to be treated as a *Finesse* on the full suit from 1 to 5.
 
-### White Conventions
-
-* These conventions apply to any variant with a white (colorless) suit.
-
-#### White Compromise (5 Chop Moves)
-
-* When you clue a white 5 that is one away from chop, it would normally look like a *5's Chop Move*.
-* However, if the white 4 is currently played, all 5 clues that could be *5's Chop Moves* are treated instead *Play Clues* on white 5.
-
-#### White Compromise (5 Pulls)
-
-* When you clue a white 5 in the *Early Game* that is two or more away from chop, it would normally look like a *5 Pull*.
-* However, if there are white cards visible and it could be a *Finesse* on the white 5, then it should be treated as a *Finesse* instead of a *5 Pull*.
-
 ### Black Conventions
 
 * These conventions apply to any variant with a black (one of each) suit.
@@ -1411,6 +1397,61 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * Often, when giving a color clue to a Rainbow or dual-color card, you want to pick a color that will "fill-in" ancillary cards in the hand as to give the maximum amount of information.
 * If a suboptimal color is chosen that does not fill in ancillary cards, it follows from *High Value Principle* that there must be a reason, so you should blind-play your *Finesse Position* card.
 * This move is contextual in that you don't want to make it appear as if the clued card is currently unplayable. Thus, it is best performed as a *Reverse Bluff* or a *Long-Distance Bluff*.
+
+### Pink Conventions
+
+* These conventions apply to any variant with a pink (touched by all ranks) suit.
+
+#### Multiple 1's
+
+* At the beginning of the game, when you get a clue that touches multiple 1's, you are supposed to play them all right-to-left exactly in the same way that you would in a no variant game.
+* Players are not allowed to *Order Chop Move*, because they could be misplaying a pink card.
+
+#### Pink Choice
+
+* When one or more pink cards are retouched with a pink clue, the interpretation should be as normal: play the cards from left to right as a *Tempo Clue* (or *Double Tempo Clue*).
+* When one or more pink cards are retouched with a rank clue, and there are no "new" cards introduced (or, if the only "new" cards introduced are trash), then extra information can be conveyed by what rank is chosen.
+* The rank chosen should correspond to the slot that they should play.
+* For example, in a 3-player game:
+  * Bob has two pink cards clued in his hand on slot 3 and slot 5. He does not know the rank of either card.
+  * Alice clues number 5 to Bob, which touches both pink cards and nothing else.
+  * Bob knows that a rank 5 clue means to play slot 5, so he plays his right-most pink card.
+  * Bob holds on to the other pink card for later, knowing that the *Pink Slot Choice* only "gets" one card.
+
+#### The Bubblegum Finesse
+
+* The concept of *Pink Slot Choice* can also be used to invoke a *Finesse* on a pink card.
+* For example, in a 3-player game:
+  * No cards are played on the stacks.
+  * Cathy has a clued pink 3 in slot 3 and a clued pink 2 in slot 5. She does not know the rank of either card.
+  * Alice clues number 5 to Cathy, which touches both pink cards and nothing else.
+  * Bob knows that a rank 5 clue means to play slot 5, so pink 2 must be playable right now. Bob plays his *Finesse Position* card as pink 1.
+* The *Bubblegum Finesse* can also work on non-pink cards.
+* For example, in 3-player game:
+  * No cards are played on the stacks.
+  * Cathy has an unclued red 2 in slot 1, a clued pink 3 in slot 3, and a clued pink 2 in slot 5.
+  * Alice clues number 1 to Cathy, which touches both pink cards and nothing else.
+  * Bob knows that a rank 1 clue means to play slot 1, so red 2 must be playable right now. Bob blind-plays red 1 from his *Finesse Position*.
+  * Cathy blind-plays her slot 1 as red 2.
+
+### White Conventions
+
+* These conventions apply to any variant with a white (colorless) suit.
+
+#### White Compromise (5 Chop Moves)
+
+* When you clue a white 5 that is one away from chop, it would normally look like a *5's Chop Move*.
+* However, if the white 4 is currently played, all 5 clues that could be *5's Chop Moves* are treated instead *Play Clues* on white 5.
+
+#### White Compromise (5 Pulls)
+
+* When you clue a white 5 in the *Early Game* that is two or more away from chop, it would normally look like a *5 Pull*.
+* However, if there are white cards visible and it could be a *Finesse* on the white 5, then it should be treated as a *Finesse* instead of a *5 Pull*.
+
+#### Brown Inversion
+
+* In a normal *Double Tempo Clue*, all of the re-clued cards are supposed to play from left to right.
+* However, when multiple brown cards are re-clued with a brown color clue, it only means to play the right-most one and nothing else.
 
 ### Dark Rainbow Saves
 
