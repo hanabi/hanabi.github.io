@@ -1730,12 +1730,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * Therefore, when a slot 1 chop card is clued by a *Locked* player, a *Play Clue* interpretation always takes priority over a *Locked Hand Save* interpretation.
 * This type of *Play Clue* is called a *Fresh Play Clue* in order to disambiguate it from a *Locked Hand Save*.
 
-### Double Tempo Clue Inversion (Immediate Double Clue)
-
-* If you are clued the exact same thing twice before it gets to be your turn, it means that you can play **all** of the cards that the clue applies to, but in the opposite order than normal (right-to-left, since you would normally play cards from left-to-right).
-  * If one of the cards includes the chop card, it means to play all of the cards from 2nd oldest to newest, and then the chop last.
-* If you are re-clued about a bunch of cards after you have already taken a turn, see the *Double Tempo Clue* section.
-
 ### Spillover Chop Move
 
 * If an *Order Chop Move* or a *Trash Order Chop Move* is performed, but the player who is supposed to *Chop Move* already has every single card in their hand clued, then this is very strange.
@@ -2206,6 +2200,12 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 ### The Trash Push Prompt & The Trash Push Finesse
 
 * If you see that a player *Trash Pushes* an unplayable one-away from playable card, it is a signal to you that you have the connecting card.
+
+### Double Tempo Clue Inversion (Immediate Double Clue)
+
+* If you are clued the exact same thing twice before it gets to be your turn, it means that you can play **all** of the cards that the clue applies to, but in the opposite order than normal (right-to-left, since you would normally play cards from left-to-right).
+  * If one of the cards includes the chop card, it means to play all of the cards from 2nd oldest to newest, and then the chop last.
+* If you are re-clued about a bunch of cards after you have already taken a turn, see the *Double Tempo Clue* section.
 
 ### The Distribution Finesse
 
