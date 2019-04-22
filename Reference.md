@@ -299,8 +299,8 @@ Note that in this user interface, players are holding their hands like they woul
 
 * Typically, players will only have one card to play at a time. In this case, unless there is some really good clue to give, there are no decisions to be made - they just play their one playable card.
 * What if a player has two or more playable cards to play? Which card should they play first?
-* If one of the cards is not completely known yet (e.g. a playable 2 of unknown color), then the player may play that card first if they want, depending on the situation. For example, it might be good for a player to play a semi-unknown card over a fully-known card just in case it leads into someone else's hand.
-* Otherwise, if **all** of the playable cards are completely known, then our group agrees that they should be played in a specific order. We refer to this as *Priority*. The agreed *Priority* is as follows:
+* If one of the cards is not completely known yet (e.g. a playable 2 of unknown color), then the player might want to play that card first, depending on the situation. For example, it might be good for a player to play a semi-unknown card over a fully-known card just in case it leads into someone else's hand.
+* Otherwise, our group agrees that playable cards should be played in a specific order. We refer to this as *Priority*. If a fully-known card is played, then it must adhere to the *Priority* rules. The agreed *Priority* is as follows:
 
 | Priority | Category of card                                                   | Reason
 | -------- | ------------------------------------------------------------------ | ------
@@ -311,7 +311,7 @@ Note that in this user interface, players are holding their hands like they woul
 | 4        | The lower rank card                                                | The smaller stacks are more important to fill up.
 | 5        | The left-most card                                                 | The left-most card is more likely to be good.
 
-* When a player does **not** play the card with *Priority*, they must be trying to send a special message.
+* If someone plays a fully-known card and the card does **not** have *Priority*, then the player must be trying to send a special message.
 * Based on what card they did play, if you have any clued cards in your hand that match the next "connecting" card, it is a message that you can play it right now as a *Priority Prompt*. (This is similar to a normal *Prompt*, except instead of initiating the *Prompt* with a clue, they initiated it with the order that they played cards.)
 * Alternatively, if you do not have any clued cards in your hand that matches the card that they played, then you you should play your *Finesse Position* card as a *Priority Finesse*.
 * For example, in a 3-player game:
