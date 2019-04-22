@@ -741,9 +741,9 @@ This section is unique in that it contains things that are separate from actual 
 
 ### The Trust Finesse (A Situational Priority Finesse)
 
-* According to the *Priority* rules, playing a card that is not globally known is not supposed to trigger a *Priority Finesse*.
-* However, even if a card is not globally known, a player can still do a *Priority Finesse* if playing that card would be really dumb.
-* This type of move is called a *Trust Finesse* to distinguish it from the case where the card is globally known.
+* According to the *Priority* rules, as long as both playable options are not fully known, no *Priority Finesse* can be triggered.
+* However, if playing one of the cards over the other would be really dumb, even if both options are not fully known, it can still triggered a *Finesse*.
+* This type of move is called a *Trust Finesse* to distinguish it from the case where both cards are globally known.
 * It is also possible to perform a *Trust Prompt*, a *Trust Bluff*, and so forth.
 * For example, in a 3-player game:
   * All the 1's are played on the stacks.
