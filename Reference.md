@@ -1658,11 +1658,12 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### Known Bluffs
 
-* When a *Bluff* occurs, the blind-playing player does not know it is a *Bluff* until after the card is blind-played. Before that happens, they think they are playing into a true *Finesse*.
-* However, in rare cases a player can know that it is a *Bluff* beforehand:
-  * 1) They see all of the copies of the card that they are supposed to be playing.
+* Usually, when a *Bluff* occurs, the blind-playing player does not know it is a *Bluff* until after the card is blind-played. If they don\'t, they think they may be playing into a true *Finesse*.
+* However, if the player knows that it is a *Bluff* beforehand, we classify it as a *Known Bluff*.
+* Two situations with *Known Bluffs* that may be confusing to the receiving player at first glance are:
+  * 1) They see all copies of the card that they are supposed to be playing.
   * 2) They have negative information on their entire hand.
-* In these cases, if they cannot see any other explanation for the clue, they the player should blind-play their *Finesse Position* card as a *Known Bluff*.
+* In these cases, the player knows they are suppose to play into it and isn't required to do anything else.
 
 ### Hard Bluffs
 
