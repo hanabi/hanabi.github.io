@@ -1660,7 +1660,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 * Usually, when a *Bluff* occurs, the blind-playing player has no idea that is a *Bluff* - they assume they are playing a specific card into a true *Finesse*.
 * However, in rare situations, a clue will be given that looks like a *Finesse*, but the next player will know for sure that they do not have the "matching" card.
-* In these situations, if the next player cannot see any other explanation for the clue, then they should blind-play their *Finesse Position* card as a *Known Bluff*.
+* In these situations, if the next player cannot see a better explanation for the clue, then they should blind-play their *Finesse Position* card as a *Known Bluff*.
 * For example:
   * The player might see all of the copies of the card that they are supposed to be blind-playing.
   * The player might have negative information on their entire hand (e.g. negative blue on every card when they are supposed to be playing a blue 2).
