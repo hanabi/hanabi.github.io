@@ -2009,14 +2009,14 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * But what if a *Layered Finesse* occurs that targets a card in someone's hand that is behind an unplayable card, and the other copy of the *Finesse* target is in the trash? In this example, everyone knows exactly who the *Layered Finesse* is on, and everyone knows that a misplay will certainly occur.
 * In this situation, if the "problem" card is exactly one away from playable, then it is known to be a *Patch Finesse*.
 * For example, in a 5-player game:
-  * All of the 1's are played on the stacks.
-  * Red 2 is in the discard pile.
-  * Alice clues red to Emily, which is a *Play Clue* on a red 4.
-  * Donald has a blue 3 on his *Finesse Position*, followed by a red 2 and a red 3.
-  * Bob knows that it is impossible for him to have the red 2, because he sees both copies. Thus, the *Finesse* must be on Donald. Bob sees that a *Patch Finesse* will occur. Bob discards.
-  * Cathy knows that it is impossible for her to have the red 2, because she sees both copies. Thus, the *Finesse* must be on Donald. Cathy knows that since the "problem" card of blue 3 is one-away from playable, this msut be a *Patch Finesse* that is calling for a blue 2 patch. Cathy blind-plays her *Finesse Position* card as a known blue 2 patch.
-  * Donald is very surprised that Cathy blind-played a card, but he trusts both Alice and Cathy, so he still assumes he has the red 2. Donald tries to blind-play the red 2 and it is instead the blue 3. Donald now knows that this was a *Patch Finesse*.
-  * Emily sees the playable red 2 and red 3 in Donald's hand, so she also knows that this was a *Patch Finesse*. The red card in her hand is either red 3 or red 4.
+  * All of the 2's are played on the stacks.
+  * Red 3 is in the discard pile.
+  * Alice clues red to Emily, which is a *Play Clue* on a red 5.
+  * Donald has a blue 4 on his *Finesse Position*, followed by a red 3 and a red 4.
+  * Bob knows that it is impossible for him to have the red 3, because he sees both copies. Thus, the *Finesse* must be on Donald. Bob sees that a *Patch Finesse* will occur. Bob discards.
+  * Cathy knows that it is impossible for her to have the red 3, because she sees both copies. Thus, the *Finesse* must be on Donald. Cathy knows that since the "problem" card of blue 4 is one-away from playable, this must be a *Patch Finesse* that is calling for a blue 3 patch. Cathy blind-plays her *Finesse Position* card as a known blue 3 patch.
+  * Donald is very surprised that Cathy blind-played a card, but he trusts both Alice and Cathy, so he still assumes he has the red 3. Donald tries to blind-play the red 3 and it is instead the blue 4. Donald now knows that this was a *Patch Finesse*.
+  * Emily sees the playable red 3 and red 4 in Donald's hand, so she also knows that this was a *Patch Finesse*. The red card in her hand is either red 4 or red 5.
 * See the section below for important *Patch Finesse* stipulations.
 
 ### Patch Finesse Stipulations
