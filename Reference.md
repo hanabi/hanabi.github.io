@@ -1348,7 +1348,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * if the black clue touched two or more brand new black cards **or** critical Rainbow cards
   * if the black clue was required to avoid violating *Good Touch Principle*
   * if the black clue "filled in" an ancillary card
-  * if the black clue gave important negative information to one or more cards in the hand (which mostly applies to the *Wild & Crazy* variant)
+  * if the black clue gave important negative information to one or more cards in the hand
 * Subsequently, if a black clue is used to touch a black 2 or a black 5 (and the above exceptions are not applicable), then it implies a *Finesse*.
 
 #### Black 3 & Black 4 Saves
@@ -1626,22 +1626,22 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * Normally, when a playable card is clued again, it is interpreted as an *Double Play Ejection* on the very next player.
 * However, in the *Duck* variants, it instead means to play slot 1 as a *Known Bluff*.
 
-### Wild & Crazy Conventions
+### Dual-Color Mix Conventions
 
-* These conventions apply to the *Wild & Crazy* variant.
+* These conventions apply to the *Dual-Color Mix* variant.
 
 #### Crazy 3 Saves & Crazy 4 Saves
 
 * In this variant, it is possible to violate *Good Touch Principle* by cluing black to save a black 3 or a black 4, because there can be other useless rainbow cards in the hand.
-* Thus, for the *Wild & Crazy* variant, a second exception to the *Black 3 and Black 4 Saves* convention is added:
+* Thus, for this variant, a second exception to the *Black 3 and Black 4 Saves* convention is added:
   * if the number clue was required to avoid violating *Good Touch Principle*
-* *Crazy 3 Saves* & *Crazy 4 Saves* do **not** apply to 5-player games; see the "Wild & Crazy 5-Player Alterations" section below.
+* *Crazy 3 Saves* & *Crazy 4 Saves* do **not** apply to 5-player games; see the next section.
 
 #### 5-Player Alterations
 
-* These conventions only apply to the *Wild & Crazy* variant with 5 players.
-* Nearly all of the conventional "rules" are closely followed in 5-player games, regardless of the variant. And the same goes for 4-player games in the *Wild & Crazy* variant.
-* However, 5-player *Wild & Crazy* is extremely difficult. Thus, we have slightly altered some conventions to be more "aggressive" in this game type:
+* These conventions only apply to the *Dual-Color Mix* variant with 5 players.
+* Nearly all of the conventional "rules" are closely followed in 5-player games, regardless of the variant. And the same goes for 4-player games in the *Dual-Color Mix* variant.
+* However, 5-player *Dual-Color Mix* is extremely difficult. Thus, we have slightly altered some conventions to be more "aggressive" in this game type:
   1) No *Crazy 3 Saves* and no *Crazy 4 Saves* – you must duplicate a rainbow card if you want to save a black 3 or black 4
   2) No Locked Hand Saves – locked players must perform a "hard burn" if they have no normal *Play Clues* or *Save Clues* or off-chop 5's to clue
 * Besides these specific alterations, you should also account for the fact that the team will play more risky in general – more aggressive discards, more letting cards "ride" on chop, and so forth.
@@ -2476,7 +2476,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 | Order Chop Move | Zamiel
 | Skipped Order Chop Move | Zamiel & Libster
 | Trash Order Chop Move | Zamiel & Libster
-| Wild & Crazy Black 4 Bluffs | Zamiel & Libster
+| Black 4 Bluffs | Zamiel & Libster
 | Duplication Responsibility | Zamiel
 | Certain Discard Duplication Promise | Zamiel & Libster
 | Suboptimal Trash Bluff Chop Move | Libster
