@@ -747,7 +747,7 @@ This section is unique in that it contains things that are separate from actual 
 * If a player has two playable cards, and only one of them is fully-known, a *Priority Finesse* will never be triggered if they play the unknown card.
 * But what if a player plays a fully-known card over an unknown card? They **can still** trigger a *Priority Finesse*, but **only** if every single possibility for the unknown card would have *Priority* over the card that was played.
 * For example, in a 3-player game:
-  * Red 2 is played on the stacks. The 1's is played on all of the other stacks.
+  * Red 2 is played on the stacks. The 1's are played on all of the other stacks.
   * Alice has a globally-known red 3. (She was given a *Play Clue* on it earlier.)
   * Alice has a 2 of unknown color. (She was given a *Save Clue* on it earlier, but it is now playable since all of the 1's are down.)
   * Alice's 2 could be either blue 2, green 2, yellow 2, or purple 2.
