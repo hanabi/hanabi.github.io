@@ -299,8 +299,8 @@ Note that in this user interface, players are holding their hands like they woul
 
 * Typically, players will only have one card to play at a time. In this case, unless there is some really good clue to give, there are no decisions to be made - they just play their one playable card.
 * What if a player has two or more playable cards to play? Which card should they play first?
-* If one of the cards is not completely known yet (e.g. a playable 2 of unknown color), then the player might want to play that card first, depending on the situation. For example, it might be good for a player to play a semi-unknown card over a fully-known card just in case it leads into someone else's hand.
-* Otherwise, our group agrees that playable cards should be played in a specific order. We refer to this as *Priority*. If a fully-known card is played, then it must adhere to the *Priority* rules. The agreed *Priority* is as follows:
+* If one of the cards is not completely known yet (e.g. a playable 2 of unknown color), then the player might want to play that card first in order to find out exactly what it is. **Nothing special is triggered by players playing an unknown card.**
+* On the other hand, something special **can** be triggered if a player plays a fully-known card, because they knew exactly what they were doing. Our group agrees that **playable cards should be played in a specific order**. We refer to this as *Priority*. The agreed *Priority* is as follows:
 
 | Priority | Category of card                                                   | Reason
 | -------- | ------------------------------------------------------------------ | ------
@@ -324,7 +324,7 @@ Note that in this user interface, players are holding their hands like they woul
 
 ### A Priority Flowchart (For Choosing Between 2+ Playable Cards)
 
-*Priority* can sometimes be confusing. [Here is a handy flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/flowcharts/priority_flowchart.png) that shows, in general, which card should be played when there is a choice between two cards.
+*Priority* can be confusing. [Here is a flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/flowcharts/priority_flowchart.png) that shows, in general, which card should be played when there is a choice between two cards.
 
 ### Priority Exceptions
 
@@ -739,11 +739,25 @@ This section is unique in that it contains things that are separate from actual 
   * If this was a *Fix Clue*, Cathy might be inclined to play the card that was closest to her slot 1 (which would be the 3 on slot 2).
   * However, Cathy knows that *Load Clues* are to be interpreted as normal *Play Clues* instead of *Fix Clues*, so she interprets this as a normal *Chop Focus Play Clue* and plays red 3 from slot 5.
 
+### The Priority Finesse (Special Case)
+
+* To review, if a player has two playable cards, and both of them are fully-known, then they always have the ability to trigger a *Priority Finesse*.
+* If a player has two playable cards, and only one of them is fully-known, a *Priority Finesse* will never be triggered if they play the unknown card.
+* But what if a player plays a fully-known card over an unknown card? They **can still** trigger a *Priority Finesse*, but **only** if every single possibility for the unknown card would have *Priority* over the card that was played.
+* For example, in a 3-player game:
+  * Red 2 is played on the stacks. The 1's is played on all of the other stacks.
+  * Alice has a globally-known red 3. (She was given a *Play Clue* on it earlier.)
+  * Alice has a 2 of unknown color. (She was given a *Save Clue* on it earlier, but it is now playable since all of the 1's are down.)
+  * Alice's 2 could be either blue 2, green 2, yellow 2, or purple 2.
+  * The rest of the team does not have any clued cards in their hands.
+  * Alice knows that **all** of the possibilities for the 2 would have *Priority* over the red 3, since all of them are lower rank.
+  * Alice plays the red 3 anyway, which triggers a *Priority Finesse* on the red 4.
+
 ### The Trust Finesse (A Situational Priority Finesse)
 
-* According to the *Priority* rules, if both playable options are not fully known, no *Priority Finesse* can be triggered.
+* According to the *Priority* rules, if an unknown card is played, no *Priority Finesse* can be triggered.
 * However, even if this is the case, if playing one of the cards over the other would be really dumb, it should still trigger a *Finesse*.
-* This type of move is called a *Trust Finesse* to distinguish it from the case where both cards are globally known.
+* This type of move is called a *Trust Finesse* to distinguish it from the case where the card is globally known.
 * It is also possible to perform a *Trust Prompt*, a *Trust Bluff*, and so forth.
 * For example, in a 3-player game:
   * All the 1's are played on the stacks.
@@ -1000,7 +1014,7 @@ This section is unique in that it contains things that are separate from actual 
 
 ### A Flowchart for Cluing 5's in the Early Game
 
-* Differentiating between a *5 Stall* and a *5 Pull* can sometimes be confusing. [Here is a handy flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/flowcharts/early-game-5-flowchart.png) that steps you through how you can tell the difference.
+* Differentiating between a *5 Stall* and a *5 Pull* can sometimes be confusing. [Here is a handy flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/flowcharts/early_game_5_flowchart.png) that steps you through how you can tell the difference.
 
 ### The 5 Pull Prompt & The 5 Pull Finesse
 
