@@ -326,6 +326,8 @@ Note that in this user interface, players are holding their hands like they woul
 
 *Priority* can be confusing. [Here is a flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/flowcharts/priority_flowchart.png) that shows, in general, which card should be played when there is a choice between two cards.
 
+[Here is another flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/flowcharts/priority_unknown_flowchart.png) that shows how *Priority* works when one or more of the cards is unknown.
+
 ### Priority Exceptions
 
 Priority does not always apply. Some common exceptions are listed below.
