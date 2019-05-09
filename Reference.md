@@ -1198,6 +1198,7 @@ This section is unique in that it contains things that are separate from actual 
 * Normally, when a useless card is clued, it signifies a *Trash Chop Move*. However, what if the useless card is actually the card on chop? Then it wouldn't be *Chop Moving* anything.
 * From *Good Touch Principle*, we know that it is pointless to spend a clue to touch a useless card on someone's chop, because if we just do nothing, the useless card will get automatically discarded.
 * Subsequently, if this is done deliberately, it must have a meaning. By doing this, it means that we want to "push" the card that is next to the useless card onto the table.
+* Similar to a *Bluff*, *Trash Pushes* must be immediately playable and should be demonstrated immediately. (This is unlike other similar moves like the *5 Pull*.
 * For example, in a 3-player game:
   * All of the 1's are played on the stacks.
   * Bob has no clued cards in his hand. His chop is his slot 5.
