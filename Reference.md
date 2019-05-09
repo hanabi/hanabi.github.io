@@ -1881,11 +1881,29 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### The Triple Bluff / The Triple Two-Thirds Bluff
 
-* Following from the *Double Bluff* convention, it is possible to perform a *Triple Bluff*. For example, on the first turn of the game:
+* Following from the *Double Bluff* convention, it is possible to perform a *Triple Bluff* (as long as the clue target is not a 4; see the subsequent section).
+* For example, in a 5-player game:
+  * Red 1 is played on the stacks.
+  * Alice clues red to Emily's red 5 as a *Play Clue*.
+  * Bob blind-plays a red 2.
+  * Cathy blind-plays a blue 1, thinking that she has the red 3.
+  * Donald sees that the red 5 was three-away from playable, which means that this is a *Triple Bluff*, calling for three blind-plays.
+  * Donald blind-plays his *Finesse Position* card as a *Known Triple Bluff* and it is the green 1.
+  * Emily knows that since three unrelated blind-plays occurred, she must have the three-away red 5.
 
-![Triple Bluff](img/triple_bluff.png)
+### The 4 Double Bluff / The 4 Double Half Bluff
 
-* In this screenshot, if Zealousy blind-played a red 2 from newest **and** the focus of the initial clue was red 4, then it would be a *Triple Two-Thirds Bluff* instead of a *Triple Bluff*.
+* In the *3 Bluffs* convention, play stops after one card is blind-played if the clue target is a 3. (This is an extension of a *Bluff.*)
+* In the *4 Bluffs* convention, play stops after two cards are blind-played if the clue target is a 4. (This is an extension of a *Double Bluff*.)
+* This convention does not apply in any variant with 3 suits.
+* For example, in a 5-player game:
+  * No cards are played on the stacks.
+  * Alice clues red to Emily's red 4 as a *Play Clue*.
+  * Bob blind-plays a red 1.
+  * Cathy blind-plays a yellow 1.
+  * Donald sees that the red 4 was three-away from playable, which means that he would normally interpret this move as a *Triple Bluff*, calling for three blind-plays.
+  * However, because of the *4 Double Bluff* convention, he knows that *4 Double Bluffs* take precedence over *Triple Bluffs*. Thus, Donald knows that no more blind-plays are required, so he discards.
+  * Emily knows that if a *Double Half Bluff* has occurred, she has a red 3. Emily also knows that if a *4 Double Half Bluff* occurred, she has a red 4. Emily marks both of the possibilities on the card for later.
 
 ### The No-Information Double Finesse & The No-Information Double Bluff
 
