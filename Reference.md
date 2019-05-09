@@ -2334,6 +2334,16 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Donald plays the blue 2.
   * Bob now knows that the *Reverse Order Ejection* failed and that the 5 will not get retroactively *Chop Moved* anymore. If Cathy might discard on the next turn, Bob should not play his remaining 1 and should instead give a *5 Save* to Cathy.
 
+### Discharge
+
+* *Discharge* is similar to *Ejection*, except instead of blind-playing the *Second Finesse Position* card, the player plays the *Third Finesse Position* card.
+* Certain types of **really** bad clues cause a *Discharge* to occur on the very next player.
+
+#### Unknown Trash Discharge
+
+* If an *Unknown Trash Ejection* touches multiple cards, only the focus of the clue must be trash.
+* Thus, if a *Unknown Trash Ejection*-style clue touches only trash cards, then it must be a *Discharge* instead.
+
 ### The Dump Truck
 
 * When someone blind-plays their chop, there is usually an emergency happening and it was either a *Scream Blind-Play* or a *Stop Blind-Play*.
@@ -2557,3 +2567,4 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 | The Mismatch Finesse | Zamiel
 | The Distributed Dump Truck | Razvogor
 | The Inverted 5's Tempo Clue | NoMercy
+| Discharge | Razvogor
