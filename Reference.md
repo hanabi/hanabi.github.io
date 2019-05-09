@@ -1894,7 +1894,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 ### The 4 Double Bluff / The 4 Double Half Bluff
 
 * In the *3 Bluffs* convention, play stops after one card is blind-played if the clue target is a 3. (This is an extension of a *Bluff.*)
-* In the *4 Bluffs* convention, play stops after two cards are blind-played if the clue target is a 4. (This is an extension of a *Double Bluff*.)
+* In the *4 Double Bluffs* convention, play stops after two cards are blind-played if the clue target is a 4. (This is an extension of a *Double Bluff*.)
 * This convention does not apply in any variant with 3 suits.
 * For example, in a 5-player game:
   * No cards are played on the stacks.
