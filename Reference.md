@@ -1204,7 +1204,7 @@ This section is unique in that it contains things that are separate from actual 
   * Alice clues Bob number 1, which only touches his slot 5 card.
   * Bob blind-plays his slot 4 card, and it is a playable red 2.
 * Sometimes, a *Trash Push* is the only way to get a card played that is sitting between two other annoying cards.
-* Similar to a *Bluff*, *Trash Pushes* must be immediately playable and should be demonstrated immediately. (This is unlike other similar moves like the *5 Pull*.
+* Similar to a *Bluff*, *Trash Pushes* must be immediately playable and should be demonstrated immediately. (This is unlike other similar moves like the *5 Pull*.)
 
 ### The Trash Bluff
 
