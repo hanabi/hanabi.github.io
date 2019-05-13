@@ -1784,8 +1784,8 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * For example, in a 3-player game:
   * Blue 2 is played on the stacks.
   * Alice has a completely unclued hand.
-  * Alice discards a blue 3. She writes *Elimination Notes* for the other blue 3 on slots 2, 3, 4, and 5.
-  * Bob clues Cathy blue, which touches a blue 4.
+  * Alice discards a blue 3. Blue 3 was playable, and nothing urgent is currently happening, so she writes *Elimination Notes* on her hand for the other blue 3 on slots 2, 3, 4, and 5.
+  * Bob clues Cathy blue, which touches a blue 4 as a *Play Clue*.
   * Cathy discards.
   * Alice knows that this is some sort of *Reverse Finesse*, as it is calling for the blue 3. However, the blue 3 cannot be in her *Finesse Position* (slot 1), as she knows from the *Elimination Notes* that it must be either on slot 2, 3, 4, or 5. So it must instead be a *Reverse Elimination Finesse*.
   * The *Elimination Finesse* promises that it is her oldest card, so she plays slot 5 as blue 3.
