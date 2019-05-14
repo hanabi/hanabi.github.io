@@ -1678,7 +1678,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ## Level 3 - Rarely Used Advanced Strategies
 
-### The Interaction Between 5's Chop Moves / 5 Pulls and 2 Saves
+### 2 Saves (Advanced Section; Interaction With 5's Chop Moves / 5 Pulls)
 
 * Normally, in the *Early Game*, if a player performs a number 5 clue on an off-chop 5 and there are other things to do, this is normally a *5's Chop Move* or a *5 Pull*.
 * However, to the person receiving the number 5 clue, what if the only thing left to do is a *2 Save* on someone's chop? Note that *2 Saves* are not required on 2's that are visible in other people's hands. If the person receiving the number 5 clue has the other copy of the 2 in their hand, then the 5 clue would just be a normal *5 Stall*.
