@@ -1457,6 +1457,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Alice clues number 1 to Cathy, which touches both pink cards and nothing else.
   * Bob knows that a rank 1 clue means to play slot 1, so red 2 must be playable right now. Bob blind-plays red 1 from his *Finesse Position*.
   * Cathy blind-plays her slot 1 as red 2.
+* Similar to *Color Blind* conventions, players have to respect *Reverse Bubblegum Finesses*, and so forth.
 
 ### White Conventions
 
