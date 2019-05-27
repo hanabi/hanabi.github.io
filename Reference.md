@@ -893,8 +893,8 @@ This section is unique in that it contains things that are separate from actual 
 
 ### The 3 Bluff
 
-* Typically, the player who receives a clue that causes a *Bluff* blind-play knows that the card that was clued is one away from being playable.
-* Our group plays with an artificial *3 Bluffs* convention. This means that in addition to being one away from being playable, we agree that the touched card can also be any 3 that will be useful in the future.
+* Typically, the player who receives a clue that causes a *Bluff* blind-play knows that the card that was clued is one-away from being playable.
+* Our group plays with an artificial *3 Bluffs* convention. This means that in addition to being one-away from being playable, we agree that the touched card can also be any 3 that will be useful in the future.
 * Here are some examples that cover the four most common *3 Bluff* situations:
     * **Color mismatch (valid):**
       * On the first turn of the game, Alice clues Cathy red, which touches a red 3.
@@ -1472,7 +1472,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 #### White Compromise (5 Chop Moves)
 
-* When you clue a white 5 that is one away from chop, it would normally look like a *5's Chop Move*.
+* When you clue a white 5 that is one-away from chop, it would normally look like a *5's Chop Move*.
 * However, if the white 4 is currently played, all 5 clues that could be *5's Chop Moves* are treated instead *Play Clues* on white 5.
 
 #### White Compromise (5 Pulls)
@@ -1894,7 +1894,8 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Red 2 is currently played on the stacks.
   * Alice clues Donald red, which touches a red 5 as a *Play Clue*.
   * Since red 5 is playable right now, Bob thinks he has the red 3 and the red 4. Bob blind-plays his *Finesse Position* card, but it is actually a blue 1.
-  * Cathy sees that Bob blind-played because of the red clue. However, since the red 5 is a two-away card instead of one-away card, it must mean that it is a *Double Bluff* instead of a single *Bluff*. Cathy blind-plays her *Finesse Position* card and it is yellow 1.
+  * Cathy sees that Bob blind-played because of the red clue. However, since the red 5 is a two-away card instead of 
+  , it must mean that it is a *Double Bluff* instead of a single *Bluff*. Cathy blind-plays her *Finesse Position* card and it is yellow 1.
   * At first, Donald thought that the red card in his hand was red 3 (as a *Play Clue*).
   * After Bob blind-played, Donald thought that the red card in his hand was red 4 (as a *Bluff*).
   * After Cathy blind-played, Donald knows that he must have the red 5 (as a *Double Bluff*).
@@ -2066,7 +2067,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 * The "problem" in The *Hidden Patch Finesse* is not known to person who is patching - they just blind-play and everything works out.
 * But what if a *Layered Finesse* occurs that targets a card in someone's hand that is behind an unplayable card, and the other copy of the *Finesse* target is in the trash? In this example, everyone knows exactly who the *Layered Finesse* is on, and everyone knows that a misplay will certainly occur.
-* In this situation, if the "problem" card is exactly one away from playable, then it is known to be a *Patch Finesse*.
+* In this situation, if the "problem" card is exactly one-away from playable, then it is known to be a *Patch Finesse*.
 * For example, in a 5-player game:
   * All of the 2's are played on the stacks.
   * Red 3 is in the discard pile.
