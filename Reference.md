@@ -1440,13 +1440,13 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 #### Pink Save Promise
 
-* When a pink card is saved with a rank clue, the rank must match the true identity of the card.
+* When a pink card is saved with a number clue, the number must match the true identity of the card.
 * For example, in a 3-player game:
   * Cathy has a pink 2 on chop followed by a blue 5.
   * Alice and Bob need to give a *Save Clue* to both the pink 2 and the blue 5.
   * If Alice gave a number 5 clue, it would save both of the cards in one fell swoop, since a number 5 clue would touch the pink 2.
-   * However, doing that would break the *Pink Save Promise*, since once Cathy learns that her slot 5 card is a pink card, she will always assume that it is a pink 5.
-   * Thus, Alice gives a number 2 clue as a *2 Save* on the pink 2, and then Bob clues a number 5 clue as a *5 Save* on the blue 5.
+  * However, doing that would break the *Pink Save Promise*, since once Cathy learns that her slot 5 card is a pink card, she will always assume that it is a pink 5.
+  * Thus, Alice gives a number 2 clue as a *2 Save* on the pink 2, and then Bob clues a number 5 clue as a *5 Save* on the blue 5.
 
 #### Pink Choice
 
