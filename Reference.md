@@ -1897,8 +1897,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Red 2 is currently played on the stacks.
   * Alice clues Donald red, which touches a red 5 as a *Play Clue*.
   * Since red 5 is playable right now, Bob thinks he has the red 3 and the red 4. Bob blind-plays his *Finesse Position* card, but it is actually a blue 1.
-  * Cathy sees that Bob blind-played because of the red clue. However, since the red 5 is a two-away card instead of 
-  , it must mean that it is a *Double Bluff* instead of a single *Bluff*. Cathy blind-plays her *Finesse Position* card and it is yellow 1.
+  * Cathy sees that Bob blind-played because of the red clue. However, since the red 5 is a two-away from playable card instead of a one-away from playable card, it must mean that it is a *Double Bluff* instead of a single *Bluff*. Cathy blind-plays her *Finesse Position* card and it is yellow 1.
   * At first, Donald thought that the red card in his hand was red 3 (as a *Play Clue*).
   * After Bob blind-played, Donald thought that the red card in his hand was red 4 (as a *Bluff*).
   * After Cathy blind-played, Donald knows that he must have the red 5 (as a *Double Bluff*).
