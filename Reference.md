@@ -2153,7 +2153,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * However, what if in the same example, Donald **already** has a blue 4 clued in his hand. Now, Cathy will know that she does **not** have the blue 4, because then Alice's clue would have violated *Good Touch Principle*. Cathy will instead know that the 4 is some **other** one-away from playable 4.
 * Furthermore, Donald can see that the above occurred and will know that he definitely has the blue 4 clued in his hand (if he did not know already).
 
-### The Disease Bluff & The Heal Clue & The Double-Copy Bluff & The Pestilent (Double) Bluff
+### The Disease Bluff & The Heal Clue & The Pestilent (Double) Bluff
 
 * In the *Good Touch Bluff*, a *Bluff* is given that looks like a *Finesse*. However, what if something that looks like a *Good Touch Bluff* is done, but the "matching" card is not yet clued?
 * For example, on the first turn of a 4-player game:
@@ -2162,7 +2162,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Alice clues Bob number 2, which touches the blue 2 on slot 2.
   * Bob doesn't see any other 1's on *Finesse Position*. Thus, the number 2 clue must be a *Self-Finesse*, so he blind-plays red 1.
   * Cathy comes next. From her perspective, Bob should currently think that his slot 2 card is red 2 (instead of blue 2). If nothing else happens, Bob will go on to misplay that card.
-* From Cathy's perspective, there are 5 possible situations:
+* From Cathy's perspective, there are 2 possible situations:
 
 #### 1) A *Disease Bluff*
 
@@ -2173,20 +2173,21 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ![Disease Bluff](img/disease_bluff.png)
 
-#### 2) A *Double-Copy Bluff* (with Cathy seeing one uncluable copy)
-
-* Say that Cathy sees the red 2 in Donald's hand, but she cannot uniquely clue it due to other blocking cards.
-* This cannot be a *Disease Bluff*, since Alice would not put Bob and Cathy in this bad situation if a clean *Heal Clue* was not available.
-* Cathy should instead conclude that she has the other copy of red 2 somewhere in her own hand. If she does, Bob will **not** go on to misplay the blue 2 because he will see both copies.
-
-#### 3) A *Pestilent (Double) Bluff* (with Cathy seeing zero copies):
+#### 2) A *Pestilent (Double) Bluff* (with Cathy seeing zero copies):
 
 * Say that Cathy does not see the red 2 anywhere.
 * From *High Value Principle*, Cathy can conclude that Alice does not intend for Cathy to do a *Fix Clue*, as that would be inefficient.
+* It is also possible that Cathy could have *both copies* of the red 2 in her own hand. However, this is unlikely, and by convention we disregard this possibility.
 * Instead, Cathy can blind-play her *Finesse Position* card as red 2. This is similar to a *Disease Bluff*, but instead of wasting a clue to heal the problem, the problem is healed by a blind-play.
 * Note that Cathy could be blind-playing red 2, but could also be blind-playing **any** playable card. Whatever card it is, it will still heal the problem, since Bob can see that the blind-play was related to the clue he received.
-* This is similar to a *Double Bluff*, but is different because the move was not initiated by a card that was 2-away from being playable.
-* Note that in this situation, it could be possible for Cathy to have both red 2's in her hand and not necessarily have anything playable on *Finesse Position*. But by convention, the clue giver is intending her to play her *Finesse Position* card.
+* This is similar to a standard *Double Bluff*, but is different because the move was not initiated by a card that was 2-away from being playable.
+
+#### 3) A *Pestilent (Double) Bluff* (with Cathy seeing one uncluable copy)
+
+* Say that Cathy sees the red 2 in Donald's hand, but she cannot uniquely clue it due to other blocking cards.
+* This cannot be a *Disease Bluff*, since Alice would not put Bob and Cathy in this bad situation if a clean *Heal Clue* was not available.
+* Furthermore, similar to the above example, it is also possible that Cathy could have the other copy of the red 2 in her own hand. However, this is unlikely, and by convention we disregard this possibility.
+* Similar to the above example, Cathy should interpret this situation as a *Double Bluff*. If she blind-plays a card successfully, Bob will **not** go on to misplay the blue 2.
 
 ### The Rank Choice Bluff & The Rank Choice Finesse
 
