@@ -2020,8 +2020,8 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 ### Stacked Bluffs
 
 * Normally, performing a *Bluff* on a player who is already *Finessed* is illegal. This is because players typically play into *Finesses* in order. So, they will ignore the second clue and play into the first *Finesse*, causing any hypothetical *Bluffs* to not resolve immediately. The logic behind this is that the player has to account for the possibility that the first *Finesse* is a *Layered Finesse*.
-* Rarely, a player can know the identity of every card in their hand minus their *Finesse Position* card. In this situation, if they are *Finessed* or *Bluffed* again, they can know that a *Layered Finesse* is impossible.
-* Thus, it is possible to perform a *Stacked Bluff* on a player in this situation. It is important to note that such a players is "locked in" to the *Bluff* and **must** immediately play their *Finesse Position* card, even if it would be "bad" for the team.
+* Rarely, a player can know that a *Layered Finesse* is impossible. This could be because they know the identity of every card in their hand (minus their *Finesse Position* card). Or, alternatively, they could have relevent negative information on their entire hand.
+* If the player can rule out a *Layered Finesse*, then it is possible to perform a *Stacked Bluff* on them. It is important to note that such a player is "locked in" to the *Bluff* and **must** immediately play their *Finesse Position* card, even if it would be "bad" for the team.
 * For example, in a 5-player game:
   * Bob's hand is completely unclued.
   * Bob has been previously *Finessed*. Even though his hand is unclued, he knows the exact identity and positions of most of his hand:
