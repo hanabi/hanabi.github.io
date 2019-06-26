@@ -2017,6 +2017,23 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * This kind of clue is called a *Top Hat Clue* because you are giving them an opportunity to be a gentleman.
 * Note that you should not mistake a *Top Hat Clue* for a clue that initiates a *Layered Finesse*. You are only allowed to discard the card if you can determine its exact identity.
 
+### Stacked Bluffs
+
+* Normally, performing a *Bluff* on a player who is already *Finessed* is illegal. This is because players typically play into *Finesses* in order. So, they will ignore the second clue, play into the first *Finesse*, and then the lie will not have resolved immediately, violating *Good Lie Principle*. The reason for this is that the player has to account for the possibility that the first *Finesse* is a *Layered Finesse*.
+* Rarely, a player can know the identity of every card in their hand minus their *Finesse Position* card. In this situation, if they are *Finessed* or *Bluffed* again, they can know that a *Layered Finesse* is impossible.
+* Thus, it is possible to perform a *Stacked Bluff* on a player in this situation. It is important to note that such a players is "locked in" to the *Bluff* and **must** immediately play their *Finesse Position* card.
+* For example, in a 4-player game:
+  * Red 1 is played on the stacks.
+  * Bob knows is currently in the middle of playing into a *Triple Finesse*
+
+TODO
+
+It is important to note that usually
+
+From the perspective of the blind-player, they know that it could be either a *Stacked Finesse* or a *Stacked Bluff*. However, just in case it is a *Stacked Bluff*, they  to cover the situation of a *Stacked Bluff*. (Otherwise, the *Stacked Bluff* would violate *Good Lie Principle* and someone else on the team would misplay a card.)
+
+, because the finessed player cannot know that the previous finesse was not layered, and therefore cannot immediately play into the bluff. However, when the newly called card cannot possibly be layered into any previous finesse, players should skip ahead and play into the newest finesse. This allows players to bluff in this situation.
+
 ### The Certain Finesse Clandestine Exception
 
 * This section outlines a specific and rare edge-case for *Certain Finesses*.
