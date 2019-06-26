@@ -2019,20 +2019,24 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### Stacked Bluffs
 
-* Normally, performing a *Bluff* on a player who is already *Finessed* is illegal. This is because players typically play into *Finesses* in order. So, they will ignore the second clue, play into the first *Finesse*, and then the lie will not have resolved immediately, violating *Good Lie Principle*. The reason for this is that the player has to account for the possibility that the first *Finesse* is a *Layered Finesse*.
+* Normally, performing a *Bluff* on a player who is already *Finessed* is illegal. This is because players typically play into *Finesses* in order. So, they will ignore the second clue and play into the first *Finesse*, causing any hypothetical *Bluffs* to not resolve immediately. The logic behind this is that the player has to account for the possibility that the first *Finesse* is a *Layered Finesse*.
 * Rarely, a player can know the identity of every card in their hand minus their *Finesse Position* card. In this situation, if they are *Finessed* or *Bluffed* again, they can know that a *Layered Finesse* is impossible.
-* Thus, it is possible to perform a *Stacked Bluff* on a player in this situation. It is important to note that such a players is "locked in" to the *Bluff* and **must** immediately play their *Finesse Position* card.
-* For example, in a 4-player game:
-  * Red 1 is played on the stacks.
-  * Bob knows is currently in the middle of playing into a *Triple Finesse*
-
-TODO
-
-It is important to note that usually
-
-From the perspective of the blind-player, they know that it could be either a *Stacked Finesse* or a *Stacked Bluff*. However, just in case it is a *Stacked Bluff*, they  to cover the situation of a *Stacked Bluff*. (Otherwise, the *Stacked Bluff* would violate *Good Lie Principle* and someone else on the team would misplay a card.)
-
-, because the finessed player cannot know that the previous finesse was not layered, and therefore cannot immediately play into the bluff. However, when the newly called card cannot possibly be layered into any previous finesse, players should skip ahead and play into the newest finesse. This allows players to bluff in this situation.
+* Thus, it is possible to perform a *Stacked Bluff* on a player in this situation. It is important to note that such a players is "locked in" to the *Bluff* and **must** immediately play their *Finesse Position* card, even if it would be "bad" for the team.
+* For example, in a 5-player game:
+  * Bob's hand is completely unclued.
+  * Bob has been previously *Finessed*. Even though his hand is unclued, he knows the exact identity and positions of most of his hand:
+    * Blue 1 is on slot 2.
+    * Blue 2 is on slot 3.
+    * Red 1 is on slot 4.
+  * Thus, Bob's only unknown card is his slot 1 card (his *Finesse Position*).
+  * No cards are played on the green stack.
+  * Alice clues Cathy's green, touching a green 2 as a *Play Clue*.
+  * Bob knows that this could be a *Stacked Finesse* on green 1 or a *Stacked Bluff* on some other card.
+  * Cathy has a safe discard.
+  * Donald is currently *Locked*, with a known red 2 in his hand and three other critical 5's.
+  * Normally, it would be best for the team if Bob played the red 1. This would *Unlock* Donald's hand, allowing him to play the red 2.
+  * However, if this is a *Stacked Bluff* and Bob played red 1, then the lie would not resolve immediately and *Good Lie Principle* would be violated.
+  * Thus, Bob has to respect the *Stacked Bluff* possibility and is forced to blind-play his slot 1.
 
 ### The Certain Finesse Clandestine Exception
 
