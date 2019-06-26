@@ -464,9 +464,9 @@ Priority does not always apply. Some common exceptions are listed below.
   * Green 4 is in the trash.
   * Bob has:
     * a green 4 on slot 3 with no clues on it yet (on chop and critical)
-    * a red 2 on slot 4 with a red clue on it
+    * a red 2 on slot 4 with a 2 clue on it
     * a red 5 on slot 5 with a 5 clue on it
-  * Alice clues red to Bob, which re-touches his slot 4 card and his slot 5 card. (It also "fills in" his red 5.)
+  * Alice clues red to Bob, which re-touches his slot 4 card and his slot 5 card, "filling" both of them in.
   * Bob knows that this is a *Tempo Clue*, and plays red 2.
   * In most cases, since two cards were re-touched, they should both be playable. However, Bob knows that the red 5 is strictly not playable right now. Thus, since the clue did not get any new cards and only got tempo on one card in total, he knows that he should also *Chop Move* his slot 3 card.
 * Building on the previous example, if the other players can see that the card being *Chop Moved* is useless (or not very good), it implies a *Finesse* on the touched cards that are not strictly playable right now. For example, in a 3-player game:
