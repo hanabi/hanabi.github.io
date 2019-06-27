@@ -2021,22 +2021,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 * Normally, performing a *Bluff* on a player who is already *Finessed* is illegal. This is because players typically play into *Finesses* in order. So, they will ignore the second clue and play into the first *Finesse*, causing any hypothetical *Bluffs* to not resolve immediately. The logic behind this is that the player has to account for the possibility that the first *Finesse* is a *Layered Finesse*.
 * Rarely, a player can know that a *Layered Finesse* is impossible. This could be because they know the identity of every card in their hand (minus their *Finesse Position* card). Or, alternatively, they could have relevent negative information on their entire hand.
-* If the player can rule out a *Layered Finesse*, then it is possible to perform a *Stacked Bluff* on them. It is important to note that such a player is "locked in" to the *Bluff* and **must** immediately play their *Finesse Position* card, even if it would be "bad" for the team.
-* For example, in a 5-player game:
-  * Bob's hand is completely unclued.
-  * Bob has been previously *Finessed*. Even though his hand is unclued, he knows the exact identity and positions of most of his hand:
-    * Blue 1 is on slot 2.
-    * Blue 2 is on slot 3.
-    * Red 1 is on slot 4.
-  * Thus, Bob's only unknown card is his slot 1 card (his *Finesse Position*).
-  * No cards are played on the green stack.
-  * Alice clues Cathy's green, touching a green 2 as a *Play Clue*.
-  * Bob knows that this could be a *Stacked Finesse* on green 1 or a *Stacked Bluff* on some other card.
-  * Cathy has a safe discard.
-  * Donald is currently *Locked*, with a known red 2 in his hand and three other critical 5's.
-  * Normally, it would be best for the team if Bob played the red 1. This would *Unlock* Donald's hand, allowing him to play the red 2.
-  * However, if this is a *Stacked Bluff* and Bob played red 1, then the lie would not resolve immediately and *Good Lie Principle* would be violated.
-  * Thus, Bob has to respect the *Stacked Bluff* possibility and is forced to blind-play his slot 1.
+* If the player can rule out a *Layered Finesse*, then it is possible to perform a *Stacked Bluff* on them. It is important to note that such a player is "locked in" to the *Bluff* and should almost always immediately play their *Finesse Position* card.
 
 ### The Certain Finesse Clandestine Exception
 
