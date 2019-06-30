@@ -1380,7 +1380,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 * Players should save black 3's and black 4's with a color clue instead of a number clue. (This helps narrow down what card is being clued.)
 * There is one exception to this:
-  * if the number clue also touched another critical card
+  * if the number clue also touched another critical card (this is called a *Florrat Save*)
 * Subsequently, if a number clue is used to touch a black 3 or a black 4 (and the above exception is not applicable), then it implies a *Finesse*.
 
 #### Black 4 Bluffs
