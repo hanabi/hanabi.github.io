@@ -1294,7 +1294,7 @@ This section is unique in that it contains things that are separate from actual 
 
 ### A Trash Flowchart
 
-There are a lot of different moves that involve cluing trash. [Here is a handy flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/flowcharts/cluing_trash_flowchart.png) for determining the difference between the different types of special moves that touch trash.
+There are a lot of different moves that involve cluing trash. [Here is a handy flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/flowcharts/cluing_trash_flowchart.png) for determining the difference between the different types of special moves that touch trash. (The flowchart contains some more advanced strategies for the sake of completion, but you can ignore those for now. The three most important moves to understand are the *Trash Chop Move*, the *Trash Bluff*, and the *Trash Pull*.)
 
 ### The Certain Discard Duplication Promise
 
