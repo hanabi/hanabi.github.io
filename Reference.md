@@ -2478,6 +2478,20 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * It is common for players to accidently *Chop Move* a card. Thus, the *Skipped Discard Chop Move* interpretation should almost never be entertained, simply because of how rarely it is actually needed.
 * Furthermore, this move should never be performed if there is a non-expert player playing or if it is likely to be interpreted as a mistake.
 
+
+### Unnecessary Trash Push
+
+* Normally, players are only allowed to perform a *Trash Push* if the card to "get" cannot be given a direct *Play Clue*. Subsequently, if the card **can** be clued directly, and a *Trash Push* is done anyway, this is very strange.
+* In this situation, the very next player should blind-play their *Finesse Position* card as a *Known Bluff*. The receiver of the clue will interpret this as a *Trash Push Finesse* and will then play the pushed card. Once they play it, they will see that it does **not** match, and that an *Unnecessary Trash Push* occurred.
+* For example, in a 3-player game:
+  * All of the 2's are played on the stacks.
+  * Alice clues number 1 to Cathy, touching a single 1 on chop. Since all of the 1's are already played, it is globally known that this must be some kind of *Trash Push*.
+  * Bob sees that the pushed card is a red 3. Cathy has no other red cards in her hand, so Alice could have just clued red to Cathy instead of doing a complicated *Trash Push*.
+  * Thus, Bob knows that this is an *Unnecessary Trash Push*, and blind-plays his *Finesse Position* card. It is the blue 3 and it successfully plays.
+  * Cathy knows that this must be a *Trash Push Finesse* on blue 4. Cathy blind-plays her slot 4 card, but it is red 3 instead and it successfully plays.
+  * Cathy now knows that since the two cards did not match each other, this must have been an *Unnecessary Trash Push*.
+* Players cannot *Unnecessary Trash Push* unless the clue touches exactly 1 card.
+
 <br />
 
 ## Convention Attribution
@@ -2612,3 +2626,4 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 | The Distributed Dump Truck | Razvogor
 | The Inverted 5's Tempo Clue | NoMercy
 | Discharge | Razvogor
+| Unnecessary Trash Push | Steven
