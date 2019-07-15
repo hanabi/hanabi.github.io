@@ -2118,6 +2118,11 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 * Similar to a *Patch Finesse*, a *Gentleman's Discard* can also contain a *Patch Component*.
 
+### The Double Patch Finesse (Illegal)
+
+* Building on the *Patch Finesse*, it is theoretically possible for a *Patch Finesse* to require **two** separate players to patch at the same time.
+* However, we expressly forbid this because it is too confusing. Players should **never** consider the possibility of a *Patch Finesse* with two *Patch Components*.
+
 ### The Repair Finesse
 
 * Often times a player will have two similar clued cards in their hand with the left-most being unplayable and the right-most being playable. In this situation, you cannot use a *Prompt* to "get" the cards, since the left-most would misplay.
