@@ -167,8 +167,9 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 ### Play Priority
 
 * If a player has two or more playable cards, the priority is as follows:
-  1) Lowest rank
-  2) Left-most
+  1) Unique (e.g. black 1)
+  2) Lowest rank
+  3) Left-most
 * It doesn't matter whether the card is already clued or not.
 
 ### Discard Threshold
