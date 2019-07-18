@@ -1740,7 +1740,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Alice clues Cathy about a brand new 4.
   * Bob blind-plays red 2.
   * In a normal *Bluff*, a one-away from playable card is clued. However, Cathy sees that the highest stack is the red stack, so the 4 in her hand must be two-away.
-  * Thus, Cathy does **not** read it as a *Bluff*; she is promised red 3 and red 4, so she plays the unknown 3 as a *Self-Prompt* on the red 3.
+  * Thus, Cathy does **not** read it as a *Bluff*; she is promised red 3 and red 4, so she plays the unknown 3 as a *Self-Prompt* for the red 3.
 * For example, this **is** a *Hard Bluff*:
   * Red 1 and blue 2 are played on the stacks.
   * Cathy has a 3 clued in her hand (with no color information on it).
