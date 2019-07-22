@@ -93,7 +93,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
 * Bob knows that in this situation, the focus of the clue is the left-most of the two new cards. Thus, similar to the last example, this is a *Play Clue* on blue 1.
 * From *Good Touch Principle*, Bob can reason that his other blue card on slot 4 is either blue 2, blue 3, blue 4, or blue 5. He will hold on to the card for later.
 
-#### Example 2 - Chop Focus
+#### Example 3 - Chop Focus
 
 <img src="img/beginner/single_focus3.png" height="150" />
 
