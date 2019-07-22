@@ -1058,6 +1058,10 @@ This section is unique in that it contains things that are separate from actual 
 * Any *Finesse* that a *5 Pulled* player performs is to be treated as a *Certain Finesse*.
 * Any *Certain Discard* that is performed in response to a *Finesse* that a *5 Pulled* player did applies to the *5 Pulled* card.
 
+### The 5 Pull "Skip"
+
+* If a player is already *Finessed*, it is possible to *Finesse* them again and get them to play their *Second Finesse Position* card. Similarly, if a *5 Pull* is performed, and the card immediately to the right of a 5 is already clued or already "gotten", then the *5 Pull* skips over that card and gets the next card after that.
+
 ### The Weak Prompt
 
 * If a teammate performs a *Prompt* on you, and you have multiple cards in your hand that match the connecting card, normally you would be promised that the left-most (newest) is playable.
