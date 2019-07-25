@@ -884,7 +884,7 @@ This section is unique in that it contains things that are separate from actual 
 * There are some common special situations that do **not** imply an *Order Chop Move*:
   * The 1 had priority from the *Fresh 1's Rule*.
   * The 1 that was played was originally *Finessed* from a clue that happened **before** the number 1 clue.
-  * The 1 that was played was not **exactly** the same as the other 1's. Any positive or negative information "turns off" *Order Chop Moves*.
+  * The 1 that was played was not **exactly** the same as the other 1's. Any positive or negative information that can be used to distinguish the 1s from each other "turns off" *Order Chop Moves*.
   * The 1 that was skipped over is known to be bad from contextual information. (See *The Stale 1's Clue* section.)
 
 ### Double Order Chop Move (for 3-Player Games)
