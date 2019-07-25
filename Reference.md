@@ -1731,7 +1731,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * However, what if the same 2 is on the chop of two different players?
   * Normally, when two different players have the same 2, no-one is required to give a *Save Clue* to the first one.
   * But when *both* of the 2's are on chop, the team has to choose to save one of them and they can choose whichever player that they want.
-* Subsequently, it is **illegal** for someone to perform a *5 Stall* clue if both copies of the same 2 are both on the chop of two different players. They must instead choose to save one of the 2's.
+* Subsequently, it is **illegal** for someone to perform a *5 Stall* if both copies of the same 2 are both on the chop of two different players. They must instead choose to save one of the 2's.
 
 ### Known Bluffs
 
