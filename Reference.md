@@ -841,6 +841,7 @@ This section is unique in that it contains things that are separate from actual 
 * Normally, when a player performs a *Gentleman's Discard*, they know the **exact** identity of the card that they are discarding.
 * However, sometimes a *Gentleman's Discard* can occur where, from your perspective, the card could have been two different things. Does this mean that the *Gentleman's Discard* "gets" **both** of the cards?
 * No, it does not. By convention, even if it looks like the player could not have known the true identity of the card, the *Gentleman's Discard* only gets the specific other matching card. (The reason for this is that it allows players to act upon asymmetric information.)
+* In extremely rare circumstances, *Double Gentleman's Discard* can be legal. This is covered in the expect section of the document, but can be safely ignored for non-experts.
 
 ### The Baton Discard
 
@@ -2315,6 +2316,18 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 ### The Trash Push Prompt & The Trash Push Finesse
 
 * If you see that a player *Trash Pushes* an unplayable one-away from playable card, it is a signal to you that you have the connecting card.
+
+### The No-Context Double Gentleman's Discard
+
+* Normally, when someone performs a *Gentleman's Discard*, it only promises the exact other copy of the card, even if the discarded card could have been multiple different things. The reason for this is it allows asymmetric reads.
+* However, what if a *Gentleman's Discard* is done, and the card could have been multiple different things, and there was no context or any possible way to know which exact thing that it was?
+* In this case, then it is a legal *Double Gentleman's Discard*, and it promises that both of the possibilities exist. (Or, it could even be a *Triple Gentleman's Discard*.)
+* For example, on the first turn of a 3-player rainbow game:
+  * Alice clues Bob blue, touching a card on slot 5.
+  * From everyone's perspective, this blue card could be either a blue 1 or a rainbow 1.
+  * Bob discards the card and it is revealed to be a blue 1.
+  * Cathy blind-plays her *Finesse Position* card, and it is a blue 1.
+  * Normally, Cathy knows that Bob's discard would only promise the blue 1 (and not promise the rainbow 1). However, since the game literally started on the turn before the clue was given, there is no possible way that Bob could have figured out the exact identity of the card in such a short amount of time. Thus, Cathy knows that she must also have the rainbow 1 on her *Second Finesse Position*.
 
 ### Double Tempo Clue Inversion (Immediate Double Clue)
 
