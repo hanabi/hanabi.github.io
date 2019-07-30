@@ -137,6 +137,18 @@ Note that in this user interface, players are holding their hands like they woul
   * In slot 2, Bob has a card with a red clue and a 3 clue on it.
   * Since slot 2 has more positive information, Bob should choose to play slot 2 as red 3.
 
+### Double Prompts in Multi-Color Variants
+
+* Normally, when a multi-color card is *Prompted* from someone's hand, they should play the card that has the most positive information.
+* However, what if they are *Prompted* for two cards of the same multi-color suit? They should play the card with the most positive information first, even if it is not the left-most card.
+* For example, in a 3-player rainbow game:
+  * Rainbow 1 is played on the stacks.
+  * Bob has a slot 1 card that has a blue clue on it. (Thus, it is either a blue card or a rainbow card.)
+  * Bob also has a slot 3 card that has a blue clue and a red clue on it. (Thus, it is a known rainbow card.)
+  * Alice clues Cathy about a rainbow 4.
+  * Bob is promised the rainbow 2 and the rainbow 3, so he knows that these cards must be on slots 1 and slot 3.
+  * However, Bob also knows that you should always play the card with the most information on it first, so he plays his slot 3 card as rainbow 2 (instead of slot 1, the left-most card).
+
 ### Finesse Position
 
 * As covered in the beginner's guide, a player's *Finesse Position* refers to the slot that their left-most unclued card is in.
