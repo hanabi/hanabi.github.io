@@ -1576,7 +1576,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * For example, on the first turn of a 3-player game:
   * Cathy has a red 1 in slot 1 and another red 1 in slot 2.
   * Alice clues green to Cathy, giving a *Play Clue* to Cathy's slot 2.
-  * Bob knows that since Cathy had a duplicate card on slot 1 and slot 2, Alice was supposed to get the leftmost card, the slot 1.
+  * Bob knows that since Cathy had a duplicate card on slot 1 and slot 2, Alice was supposed to get the left-most card, the slot 1.
   * Alice must be doing the *Mismatch Finesse*. Bob blind-plays his *Finesse Position*, and it is a blue 1.
   * Cathy assumes that Alice did a *Finesse* - due to Bob's blind-play, she must have the blue 2 in her slot 2. Cathy plays her slot 2, and it is revealed to be red 1.
   * Cathy now knows that it was not a normal *Finesse* at all - it was instead a *Mismatch Finesse*, because there is no other explanation for why Bob would blind-play from a *Play Clue* on a red 1.
