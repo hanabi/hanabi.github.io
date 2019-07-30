@@ -135,7 +135,7 @@ Note that in this user interface, players are holding their hands like they woul
   * Bob is *Prompted* for a red 3.
   * In slot 1, Bob has a card with only a red clue on it.
   * In slot 2, Bob has a card with a red clue and a 3 clue on it.
-  * Since slot 2 has more positive information, Bob should choose to play slot 2 as red 3.
+  * Since slot 2 has more positive information, Bob should choose to play slot 2 as red 3 (instead of slot 1, the left-most card).
 
 ### Double Prompts in Multi-Color Variants
 
