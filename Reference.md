@@ -857,7 +857,7 @@ This section is unique in that it contains things that are separate from actual 
   * Alice discards a red 3.
   * Bob does not have any clued cards in his hand.
   * Bob looks at Cathy's hand and does not see the red 3. Thus, he knows that he has it.
-  * Bob marks his *Finesse Position* card as red 3. Bob does not have anything else to do, so he discards his chop card.
+  * Bob marks his *Finesse Position* card as red 3. For now, Bob does not have anything else to do, so he discards his chop card.
 * *Baton Discards* are mostly useful for two main reasons:
   1) To better satisfy *Team Distribution Principle*. It makes sense to transfer a card out of a locked / almost locked hand to a player with an "empty" hand or a hand that only has one card clued in it.
   2) You want to protect your own chop. If you discard your chop, the team could be losing some high-value one-away from playable card. But if you transfer a card to someone else, it gives you something "safe" to do.
