@@ -1775,7 +1775,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### 2 Saves (Advanced Section; Interaction With Double Chop 2's and 5 Stalls)
 
-* Normally, players are only allowed to perform a *5 Stall* in the *Early Game* (or another valid stalling situation) if and only if there is no normal *Save Clues* to give.
+* Normally, players are only allowed to perform a *5 Stall* in the *Early Game* (or another valid stalling situation) only if there is no normal *Save Clues* to give.
 * However, what if the same 2 is on the chop of two different players?
   * Normally, when two different players have the same 2, no-one is required to give a *Save Clue* to the first one.
   * But when *both* of the 2's are on chop, the team has to choose to save one of them and they can choose whichever player that they want.
