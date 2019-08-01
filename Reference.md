@@ -337,9 +337,9 @@ Note that in this user interface, players are holding their hands like they woul
 | 1        | Blind-plays                                                        | Demonstrating that a *Finesse* or *Bluff* occurred is very important.
 | 2        | Cards that lead into clued cards in someone else's hand            | Otherwise, the team would lose *Tempo*.
 | 3        | Cards that lead into the player's own hand                         | It is bad for a suit to be "held up" on one player.
-| 3        | 5's                                                                | Playing a 5 gets the team a free clue.
-| 4        | The lower rank card                                                | The smaller stacks are more important to fill up.
-| 5        | The left-most card                                                 | The left-most card is more likely to be good.
+| 4        | 5's                                                                | Playing a 5 gets the team a free clue.
+| 5        | The lower rank card                                                | The smaller stacks are more important to fill up.
+| 6        | The left-most card                                                 | The left-most card is more likely to be good.
 
 * If someone plays a fully-known card and the card does **not** have *Priority*, then the player must be trying to send a special message.
 * Based on what card they did play, if you have any clued cards in your hand that match the next "connecting" card, it is a message that you can play it right now as a *Priority Prompt*. (This is similar to a normal *Prompt*, except instead of initiating the *Prompt* with a clue, they initiated it with the order that they played cards.)
