@@ -112,6 +112,7 @@ Note that in this user interface, players are holding their hands like they woul
 ### 2 Saves
 
 * As explained in the beginner's guide, *2 Saves* must be given with a number 2 clue.
+  * The exception to this rule is when the other copy of the 2 is in the trash. Then you can do a "normal" *Save Clue* on the 2 with a color clue.
 * Players are not allowed to perform a *2 Save* on a 2 if that same 2 is visible in someone else's hand.
   * The exception to this rule is when the same 2 is on two people's chops at the same time. In that situation, players are allowed to *2 Save* whichever one they want.
 
