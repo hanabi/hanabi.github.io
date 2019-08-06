@@ -1499,6 +1499,15 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * If a suboptimal color is chosen that does not fill in ancillary cards, it follows from *High Value Principle* that there must be a reason, so you should blind-play your *Finesse Position* card.
 * This move is contextual in that you don't want to make it appear as if the clued card is currently unplayable. Thus, it is best performed as a *Reverse Bluff* or a *Long-Distance Bluff*.
 
+#### Dual-Color 3 Suit Inversion
+
+* This convention only applies to the *Dual-Color (3 Suits)* variant.
+* The cards that are "touched" by a clue are considered to be inverted.
+* For example, in a 3-player game:
+  * Alice clues Bob about a blue card on slot 1, slot 2, and slot 3.
+  * Bob knows that this is inverted, so the clue **really** touches slot 4 and slot 5. Thus, it is *Chop Focus*, and Bob plays slot 5.
+  * Bob also knows that his slot 4 has an "invisible" clue on it, so his next discard will be the slot 3.
+
 ### Pink Conventions
 
 * These conventions apply to any variant with a pink (touched by all ranks) suit.
