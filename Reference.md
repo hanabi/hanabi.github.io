@@ -2240,8 +2240,14 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Bob blind-plays a blue 3 from his *Finesse Position*.
   * Since 3 matches 4, Cathy knows she has the blue 4, and goes on to misplay red 4 as blue 4.
   * Thus, Alice should not have given this clue.
-* However, what if in the same example, Donald **already** has a blue 4 clued in his hand. Now, Cathy will know that she does **not** have the blue 4, because then Alice's clue would have violated *Good Touch Principle*. Cathy will instead know that the 4 is some **other** one-away from playable 4.
-* Furthermore, Donald can see that the above occurred and will know that he definitely has the blue 4 clued in his hand (if he did not know already).
+* However, what if someone else already has the matching card? For example, in a 4-player game:
+  * Red 2 and blue 2 are played on the stacks.
+  * Alice clues Cathy number 4, which touches a red 4.
+  * Bob blind-plays a blue 3 from his *Finesse Position*.
+  * Cathy's first thought is that since 3 matches 4, Cathy must have the blue 4. However, Cathy sees that Donald already has a clued blue 4 it in his hand. (The blue 4 just has a blue clue on it and the true identity of the card is not yet known to Donald.)
+  * Cathy knows that she must **not** have the blue 4, because then Alice's clue would have violated *Good Touch Principle*. Cathy can reason that her 4 is instead some **other** one-away from playable 4. The only other one-away from playable 4 is red 4, so Cathy marks her card as red 4. Cathy discards.
+  * Donald is surprised by Alice's clue. From Donald's perspective, Cathy should have misplayed the red 4 as the blue 4, since 3 matches 4.
+  * Since Cathy did not misplay, Donald can reason that **he** must have the blue 4. Donald marks the previously unknown blue card in his hand as blue 4.
 
 ### The Disease Bluff & The Heal Clue & The Pestilent (Double) Bluff
 
