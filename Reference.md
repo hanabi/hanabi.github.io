@@ -2240,7 +2240,8 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Bob blind-plays a blue 3 from his *Finesse Position*.
   * Since 3 matches 4, Cathy knows she has the blue 4, and goes on to misplay red 4 as blue 4.
   * Thus, Alice should not have given this clue.
-* However, what if someone else already has the matching card? For example, in a 4-player game:
+* However, what if someone else on the team already has the matching card? In this situation, the clue can be given without fear: from *Good Touch Principle*, the clue recipient will know that it is a *Bluff* instead of a *Finesse*.
+* For example, in a 4-player game:
   * Red 2 and blue 2 are played on the stacks.
   * Alice clues Cathy number 4, which touches a red 4.
   * Bob blind-plays a blue 3 from his *Finesse Position*.
