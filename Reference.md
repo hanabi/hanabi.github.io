@@ -1900,7 +1900,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 * Sometimes, cards are accidentally chop moved through a mistake or through a complicated situation. In these kinds of situations, it is pointless to waste a clue to "undo" the chop move; you can just continue to allow them to discard normally. That is, until they get something good on chop.
 * Only then will the team bother cluing the chop directly to convey that it is useless. And then, the player receiving the clue will know that the card they were about to discard is important, and permanently chop move that card, and discard the now known useless card.
-* Thus, this is nearly the same thing as a *Early Fix Clue Chop Move*, but when the *Fix Clue* is given to a card that was already chop moved (and had no positive clues on it already).
 
 ### The Scream Blind-Play (Blind-Playing Chop)
 
@@ -2616,7 +2615,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 | The Weak Prompt | Hyphen-ated
 | Crazy 3 Saves & Crazy 4 Saves | Libster
 | The Scream Discard Chop Move | 910dan & Zamiel
-| The Early Fix Clue Chop Move | Zamiel
 | The Critical 4 Bluff | Libster
 | The Chop Transfer | Duneaught
 | The Whisper Discard Chop Move | Zamiel
