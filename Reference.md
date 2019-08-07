@@ -1540,7 +1540,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 #### The Pink Play Clue Lie
 
-* Players can violate *Pink Promise* if the lie will resolve immediately.
+* Players can violate *Pink Promise* if they are giving a *Play Clue* and the lie will resolve immediately.
 * For example, in a 3-player game:
   * Pink 3 and and red 2 are played on the stacks.
   * Alice clues number 3 to Bob, touching a pink 4 on slot 1 and a blue 3 on slot 2.
