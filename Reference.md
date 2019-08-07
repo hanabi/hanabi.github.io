@@ -1538,6 +1538,16 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Bob knows that a rank 5 clue means to play slot 5, so he plays his right-most pink card.
   * Bob holds on to the other pink card for later, knowing that the *Pink Slot Choice* only "gets" one card.
 
+#### The Pink Play Clue Lie
+
+* Players can violate *Pink Promise* if the lie will resolve immediately.
+* For example, in a 3-player game:
+  * Pink 3 and and red 2 are played on the stacks.
+  * Alice clues number 3 to Bob, touching a pink 4 on slot 1 and a blue 3 on slot 2.
+  * Bob immediately plays the card on slot 1, thinking that it is a red 3. It is actually the pink 4.
+  * Bob knows that Alice broke *Pink Promise* and that he was lied to. However, the lie was legal because it resolved immediately, satisfying *Good Lie Principle*. Nothing else is promised.
+  * Bob knows that Alice likely did things this way because she wanted a 2-for-1 (to pick up some useful 3 "for free") instead of just a 1-for-1 on just the pink 4.
+
 #### The Bubblegum Finesse
 
 * The concept of *Pink Slot Choice* can also be used to invoke a *Finesse* on a pink card.
