@@ -2412,8 +2412,8 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### The No-Context Double Gentleman's Discard
 
-* Normally, when someone performs a *Gentleman's Discard*, it only promises the exact other copy of the card, even if the discarded card could have been multiple different things. The reason for this is it allows asymmetric reads.
-* However, what if a *Gentleman's Discard* is done, and the card could have been multiple different things, and there was no context or any possible way to know which exact thing that it was?
+* Normally, when someone performs a *Gentleman's Discard*, it only promises the exact other copy of the card, even if the discarded card could have been multiple different things. The reason for this is it allows for asymmetric reads.
+* However, what if a *Gentleman's Discard* is done, and the card could have been multiple different things, and there was no context and no possible way to know which exact card that it was?
 * In this case, then it is a legal *Double Gentleman's Discard*, and it promises that both of the possibilities exist. (Or, it could even be a *Triple Gentleman's Discard*.)
 * For example, on the first turn of a 3-player rainbow game:
   * Alice clues Bob blue, touching a card on slot 5.
