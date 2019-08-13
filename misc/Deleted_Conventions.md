@@ -46,17 +46,6 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
 * After the misplay, the person who received the clue is to treat it like a normal *Misplay Chop Move*, and chop move all the cards to the right of the clued card.
 * This convention was deleted since it was never used.
 
-### The Known Priority Bluff
-
-* It is possible to perform a *Priority Bluff* that is gloablly-known to be a *Bluff*. For example:
-  * Alice has a three known playable cards: red 1, blue 4, and blue 5.
-  * Bob has a known red 2.
-  * Alice is expected to play the red 1 into the red 2, so the red 1 has *Priority*.
-  * Instead, Alice plays the blue 4.
-  * Normally, Bob would think that this is a *Priority Finesse* on the blue 5. However, both he and Alice know that Alice has the blue 5.
-  * This must be a *Known Priority Bluff*, so Bob plays his *Finesse Position* card as any other playable card.
-* This convention was deleted since it conflicts with choosing the correct card to play in an end-game situation.
-
 ### Priority in Multi-Color Variants
 
 * Multi-color variants can make finding out which card has *Priority* a little tricky, because sometimes players will know that a card is playable, but not know its exact identity.
