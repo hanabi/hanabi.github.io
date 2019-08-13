@@ -366,6 +366,22 @@ Priority does not always apply. Some common exceptions are listed below.
 
 2) Normally, blind-playing cards has *Priority* over everything else. However, in some advanced cases, the blind-play does not need to be demonstrated to the team - everyone already has full knowledge of what is going on. In this case, players are supposed to treat the cards as clued for the purposes of finding the *Priority*. (The *Gentleman's Discards* is the main move that this applies to, which is a special move that is covered later.)
 
+### The Priority Bluff & The Known Priority Bluff
+
+* Similar to a normal *Bluff*, it is also possible for players to perform a *Priority Bluff*.
+* For example, in a 3-player game:
+  * Alice has a known playable red 1 and a known playable blue 2 in her hand.
+  * Alice plays blue 2.
+  * Bob comes next. Bob does not see any red 2's. He does not see any blue 3's either. Thus, Alice was supposed to play the red 1 first, since red 1 is a lower rank than blue 2. Alice **did not** play the card with *Priority*.
+  * This means that Bob must have blue 3. Bob does not have any clued cards in his hand, so he blind-plays his *Finesse Position* card. It is **not** the blue 3 and is instead the green 1. Bob now knows that he was *Bluffed* and that no-one has the blue 3.
+* Furthermore, it is also possible to perform a *Priority Bluff* that is globally-known to be a *Bluff*. For example:
+  * Alice has a three known playable cards: red 1, blue 4, and blue 5.
+  * Bob has a known red 2.
+  * Alice is expected to play the red 1 into the red 2, so the red 1 has *Priority*.
+  * Instead, Alice plays the blue 4.
+  * Normally, Bob would think that this is a *Priority Finesse* on the blue 5. However, both he and Alice know that Alice has the blue 5.
+  * This must be a *Known Priority Bluff*, so Bob plays his *Finesse Position* card as any other playable card.
+
 ### The Trash Chop Move
 
 * In the middle of a game, if all of the 1's have been played already, and someone clues a 1, it is quite strange - from *Good Touch Principle*, players are not supposed to touch cards that have already been played. In this situation, the 1 is considered "trash".
