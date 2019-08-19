@@ -1401,12 +1401,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * After the unrelated card is played, since the player who lied was in *Bluff Seat*, no further cards should be promised.
 * If an unrelated card was played and the player who lied was not in *Bluff Seat*, it implies a *Priority Layered Finesse*.
 
-### The Known Priority Bluff (Illegal)
-
-* Normally, when a player plays a card without *Priority*, they are usually intending to get the "next" card in the suit as a *Priority Finesse*.
-* However, what if a player plays a 5 without *Priority*? Are they intending for the next player to blind-play their *Finesse Position* card as a *Known Priority Bluff*?
-* No, they are not, as *Known Priority Bluffs* are explicitly disallowed. The player is either making a mistake, or felt like the team needed the extra clue, or something along those lines. No special action needs to be taken by the other members of the team.
-
 <br />
 
 ## Level 3 - Variant-Specific Strategies
