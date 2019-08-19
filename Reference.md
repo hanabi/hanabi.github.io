@@ -116,9 +116,9 @@ Note that in this user interface, players are holding their hands like they woul
 * Players are not allowed to perform a *2 Save* on a 2 if that same 2 is visible in someone else's hand.
   * The exception to this rule is when the same 2 is on two people's chops at the same time. In that situation, players are allowed to *2 Save* whichever one they want.
 
-### The Fresh 1's Rule
+### Playing 1's and The Fresh 1's Rule
 
-* Sometimes, a player will get clued about a bunch of 1's. As explained in the beginner's guide, freshly drawn 1's should always be played before any 1's that were present in the starting hand.
+* Sometimes, a player will get clued about a bunch of 1's. As explained in [the intermediate guide](https://github.com/Zamiell/hanabi-conventions/blob/master/Intermediate.md), freshly drawn 1's should always be played before any 1's that were present in the starting hand.
 * However, as an important exception, *Chop Focus* overrides the *Fresh 1's Rule*.
 * For example, in a 3-player game:
   * No cards are played on the stacks.
