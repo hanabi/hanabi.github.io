@@ -1,4 +1,4 @@
-# Strategy Reference
+# Strategy Reference for the Hyphen-ated Group
 
 Our group has come up with many different strategies. It is helpful to give specific names to each strategy to aid in both discussion and comprehension. If you know the general way we play but don't know about a specific kind of move, then you can look it up in this document.
 
