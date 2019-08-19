@@ -180,6 +180,21 @@ Note that in this user interface, players are holding their hands like they woul
   * Cathy discards.
   * Now Bob knows that the red card in his hand is actually the red 1.
 
+### The Self-Finesse
+
+* It is also possible to perform a *Finesse* on a player by giving **them** a clue.
+* For example, in a 3-player game:
+  * All of the 1's are played on the stacks.
+  * Alice clues number 3 to Cathy, touching one 3 on slot 2.
+  * Bob discards.
+  * Cathy knows that this was a *Play Clue* on the 3, but there are no 3's that are directly playable. Thus, someone must have the matching 2. Since Bob discarded, Cathy must be the one who has the matching 2.
+  * Thus, Cathy plays her *Finesse Position* card as **any** 2. It is red 2 and successfully plays.
+  * Cathy now knows that her 3 must match the 2, so she marks her 3 as red 3.
+* Note that *Self-Finesses* can be difficult to perform because the player receiving the clue will **only** consider the possibility of a *Self-Finesse* **if there is no other possibilities** for the clue. For example:
+  * If the clue looks like it *could* just be a normal/direct *Play Clue* on a card, then the clue receiver will not blind-play anything - they will just play the card that was clued.
+  * If the clue looks like it *could* be a *Prompt*, then the clue receiver will not play anything and assume that it is a *Prompt*. (At least, until the other player has had a chance to play the *Prompted* card.)
+  * If the clue looks like it *could* be a *Reverse Finesse*, then the clue receiver will not play anything and assume that it is a *Reverse Finesse*. (At least, until the other player has had a chance to blind-play the card.)
+
 ### Bluffs
 
 * *Finesses* are quite efficient. So, when you see a playable card in someone's *Finesse Position* slot, you will often want to "get" the card with a *Finesse* (instead of cluing it directly). However, often times, the proper "connecting" card is not on the table.
