@@ -2771,7 +2771,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 | Black 4 Bluffs | Zamiel & Libster
 | Duplication Responsibility | Zamiel
 | Certain Discard Duplication Promise | Zamiel & Libster
-| Suboptimal Trash Bluff Chop Move | Libster
+| The Unnecessary Trash Finesse/Bluff Chop Move | Libster
 | Surreptitious Self-Finesse | Sankala
 | Rainbow 1oE Saves | Florrat & Libster
 | Early 5 Chop Move | Libster
