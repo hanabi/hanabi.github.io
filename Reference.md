@@ -2773,4 +2773,3 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 | The U-Turn Finesse | NoMercy
 | Unnecessary Trash Push | Steven
 | Trash Touch Elimination | Steven
-| 
