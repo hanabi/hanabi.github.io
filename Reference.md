@@ -1752,13 +1752,13 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * Normally, if a *Save Clue* is given to two cards, and then the cards are re-touched, it is a *Double Tempo Clue* and both the cards should play from left to right, even if one of the cards was on chop.
 * In Duck, the older card should play first in exactly the same way as the *Brown Inversion* convention described above.
 
-#### Saves Clues
+#### Chop Saves
 
 * All clues to chop are treated as *Save Clues*.
 
-#### Duck BGA Play Clues
+#### BGA Play Clues
 
-* Duck counts as a *Hard Variant* in that *BGA Play Clues* are "turned on". Furthermore, *BGA Play Clues* are even turned on in the *Early Game*.
+* *BGA Play Clues* are "turned on" in Duck variants. Furthermore, *BGA Play Clues* are even turned on in the *Early Game*.
 
 #### The BGA Finesse
 
@@ -1766,12 +1766,24 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * If the chop card is clued in this scenario, it is instead treated a *Chop Focus BGA Play Clue*. However, the player receiving the clue will not know this, and will treat it as a normal *Save Clue*. Thus, a *BGA Play Clue* given in this scenario must be a *BGA Finesse*.
 * As an exception to the rule, players are allowed to give a *Save Clue* if the *Play Clue* would violate *Good Touch Principle*.
 
+#### The Duck Bluff (on a 5)
+
+* Normally, you cannot perform a *Bluff* in Duck variants, because there is no way for the clue to not match the card that is blind-playing.
+* However, the one exception to this is if a 5 blind-plays. Then, the clue receiver can know that it is a *Bluff* (because there is no card that matches at 5).
+* In this situation, the clue receiver would mark their touched card as either a one-away card (as a normal *Bluff*) or a 3 (as a *3 Bluff*).
+
 #### The Duck Double Bluff
 
 * *3 Bluffs* are "turned off" in this variant, for obvious reasons.
 * This means that players can use the *Double Bluff* convention much more often by giving *Play Clues* to two-away from playable 3's. After seeing two blind-plays occur, the receiver of the clue will know that their card is two-away from playable. (This takes precedence over more complicated things, like *Layered Finesses*.)
   * Note that it is also possible to *Double Bluff* by cluing two-away 4's and two-away 5's, but that can be done in any variant.
 * *Double Half-Bluffs* are explicitly outlawed. In other words, the first blind-play from a *Double Bluff* must be completely unrelated to the card that was clued.
+
+#### The Duck Trash Ejection
+
+* Normally, you cannot perform a *Trash Finesse* in Duck variants, because any *Trash Finesse* will look like a real *Finesse*, and the trash card will misplay.
+* However, similar to normal *Ejections*, if the blind-playing player plays their *Second Finesse Position* card, then they can communicate that something is wrong with the clue.
+* This will communicate to the clue receiver that the touched card is trash.
 
 #### The 1's Promise
 
@@ -2785,4 +2797,4 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 | The U-Turn Finesse | NoMercy
 | Unnecessary Trash Push | Steven
 | Trash Touch Elimination | Steven
-| Duck Ejections | Dr. Kakashi
+| The Duck Trash Ejection | Dr. Kakashi
