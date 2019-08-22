@@ -963,7 +963,14 @@ This section is unique in that it contains things that are separate from actual 
 ### The Misplay Chop Move
 
 * Sometimes, a desirable card is on the next player's chop and it is not directly cluable. In this situation, players can cleverly use the various kinds of chop moves in order to save the card (e.g. *Trash Chop Move*, *5's Chop Move*, *Tempo Clue Chop Move*, and so forth).
-* However, none of these chop moves may be available to perform. In such a situation, you can revert to the final type of chop move - the *Misplay Chop Move*. This is done by intentionally touching a card in the next player's hand that signifies that it is currently playable. The next player will misplay, and then they will know that every card to the right of the misplayed card is valuable and is now permanently chop moved.
+* However, none of these chop moves may be available to perform. In such a situation, players can *Chop Move* a player by making them intentionally misplay a card. This works in exactly the same way as a *Trash Chop Move*, except that it the trash is not known to the player receiving the clue (and it costs the team a strike).
+* For example, in a 3-player game:
+  * All of the 2's are played on the stacks.
+  * Bob's hand is completely unclued.
+  * Alice clues Bob about one red card on slot 1 as a *Play Clue*.
+  * Bob assumes that it is red 3 and immediately plays the card. However, it is actually red 1 and misplays.
+  * Bob knows that Alice is trying to communicate something special to Bob. Similar to a *Trash Chop Move*, Bob now knows that multiple cards in his hand are important. He marks slot 2, slot 3, slot 4, and slot 5 as being *Chop Moved*.
+* The *Misplay Chop Move* is the most costly type of chop move, so it should only be performed in a situation where no other kind of *Chop Move* would work.
 
 ### The 3 Bluff
 
