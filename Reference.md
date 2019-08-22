@@ -1620,6 +1620,11 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * In a normal *Double Tempo Clue*, all of the re-clued cards are supposed to play from left to right.
 * However, when multiple brown cards are re-clued with a brown color clue, it only means to play the right-most one and nothing else.
 
+### Omni Conventions
+
+* These conventions apply to any variant with an omni (touched by all clues) suit.
+* All pink conventions also apply to Omni.
+
 ### Dark Rainbow Saves
 
 * This convention applies to any variant with a dark rainbow (touched by all colors and one of each) suit.
