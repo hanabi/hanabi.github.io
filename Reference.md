@@ -1747,10 +1747,10 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * It is optional for players to give *Save Clues* to 2's.
 * Thus, if a 2 is discarded, players should not make any *Elimination Notes* for them.
 
-#### Double Tempo Clues
+#### Inverted Tempo Clues
 
 * Normally, if a *Save Clue* is given to two cards, and then the cards are re-touched, it is a *Double Tempo Clue* and both the cards should play from left to right, even if one of the cards was on chop.
-* In Duck, this works a little different. If the same cards are clued twice in a row, and one of the cards was on chop, then **the chop card** should play first, followed by the other cards (from left to right).
+* In Duck, the older card should play first in exactly the same way as the *Brown Inversion* convention described above.
 
 #### Saves Clues
 
@@ -2785,3 +2785,4 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 | The U-Turn Finesse | NoMercy
 | Unnecessary Trash Push | Steven
 | Trash Touch Elimination | Steven
+| Duck Ejections | Dr. Kakashi
