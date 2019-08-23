@@ -2479,7 +2479,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * However, sometimes there **is** a way to "cleanly" touch the player's *Finesse Position* card. In this situation, doing a *Trash Finesse* or *Trash Bluff* would be unnecessary. But what if a player does it anyway?
 * In this situation, the point of the clue must be to give the clue receiver a safe discard. Thus, the clue receiver should *Chop Move* all of the cards to the right of the trash in the exact same way as a *Trash Chop Move*.
 * For example, in a 3-player game, this **would not** be an *Unnecessary Trash Finesse Chop Move*:
-  * All of the 2's are played on the stacks except for the red 2.
+  * All of the 2's are played on the stacks except for the red 2 and the blue 2.
   * Bob has a red 2 on his *Finesse Position* and another red 2 on his chop. Thus, Alice cannot give a red clue **or** a 2 clue to Bob without the clue violating *Good Touch Principle*.
   * Alice clues number 2 to Cathy, touching a blue 2 on slot 4.
   * Bob blind-plays red 2 from his *Finesse Position*, knowing that this is a *Trash Finesse* or *Trash Bluff*.
