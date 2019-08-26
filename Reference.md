@@ -119,13 +119,13 @@ Note that in this user interface, players are holding their hands like they woul
 ### Playing 1's and The Fresh 1's Rule
 
 * Sometimes, a player will get clued about a bunch of 1's. As explained in [the intermediate guide](https://github.com/Zamiell/hanabi-conventions/blob/master/Intermediate.md), freshly drawn 1's should always be played before any 1's that were present in the starting hand.
-* However, as an important exception, *Chop Focus* overrides the *Fresh 1's Rule*.
+* However, as an important exception, *Chop-Focus* overrides the *Fresh 1's Rule*.
 * For example, in a 3-player game:
   * No cards are played on the stacks.
   * Alice discards a red 4.
   * Alice gets clued about four 1's on slots 1, 2, 3, and 5.
   * Alice knows that the correct order to play all of the 1's in is 5, 1, 3, 2:
-    * Alice knows that normally, you are supposed to play freshly-drawn 1's because playing the 1's that were present in your starting hand. However, *Chop Focus* overrides this rule, so she knows that when the time comes, the slot 5 card (her chop) should play first.
+    * Alice knows that normally, you are supposed to play freshly-drawn 1's because playing the 1's that were present in your starting hand. However, *Chop-Focus* overrides this rule, so she knows that when the time comes, the slot 5 card (her chop) should play first.
     * After that, she uses the *Fresh 1's Rule*, and play the 1 in slot 1 next.
      * After that, she will play the rest of the 1's from oldest to newest, so she will play slot 3 and then slot 2.
 
@@ -807,7 +807,7 @@ This section is unique in that it contains things that are separate from actual 
   * Bob clues number 3 to Cathy.
   * Cathy is surprised - she was about to play her *Finesse Position* card as red 3, but she now knows that it can't be a red 3.
   * If this was a *Fix Clue*, Cathy might be inclined to play the card that was closest to her slot 1 (which would be the 3 on slot 2).
-  * However, Cathy knows that *Load Clues* are to be interpreted as normal *Play Clues* instead of *Fix Clues*, so she interprets this as a normal *Chop Focus Play Clue* and plays red 3 from slot 5.
+  * However, Cathy knows that *Load Clues* are to be interpreted as normal *Play Clues* instead of *Fix Clues*, so she interprets this as a normal *Chop-Focus Play Clue* and plays red 3 from slot 5.
 
 ### The Priority Finesse (Special Case)
 
@@ -1210,7 +1210,7 @@ This section is unique in that it contains things that are separate from actual 
   * Alice clues 1's to Bob, which introduces one card on slot 1.
   * Bob plays the 1 and it is red 1.
   * Cathy clues blue to Bob, which introduces two cards on slot 1 and slot 5.
-  * Normally, Bob would think that this is a *Chop Focus* clue, and play the blue 1 from slot 5.
+  * Normally, Bob would think that this is a *Chop-Focus* clue, and play the blue 1 from slot 5.
   * However, his slot 5 card has a negative 1 clue on it (from Alice's number 1 clue), so it explicitly cannot be the blue 1.
   * Thus, this must be *Focus Inversion* and blue 1 must be on slot 1. The blue card on slot 5 can be either blue 2, blue 3, blue 4, or blue 5.
 * Note that ***Self-Finesses* always take precedence over *Focus Inversion***.
@@ -2422,7 +2422,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * The cards that are "touched" by a clue are considered to be inverted.
 * For example, in a 3-player game:
   * Alice clues Bob about a blue card on slot 1, slot 2, and slot 3.
-  * Bob knows that this is inverted, so the clue **really** touches slot 4 and slot 5. Thus, it is *Chop Focus*, and Bob plays slot 5.
+  * Bob knows that this is inverted, so the clue **really** touches slot 4 and slot 5. Thus, it is *Chop-Focus*, and Bob plays slot 5.
   * Bob also knows that his slot 4 has an "invisible" clue on it, so his next discard will be the slot 3.
 
 ### Pink Conventions
@@ -2649,7 +2649,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 #### The BGA Finesse
 
 * In addition to the above rule, players are also not allowed to give a *Save Clue* to a someone if that someone has a playable card that could be clued instead.
-* If the chop card is clued in this scenario, it is instead treated a *Chop Focus BGA Play Clue*. However, the player receiving the clue will not know this, and will treat it as a normal *Save Clue*. Thus, a *BGA Play Clue* given in this scenario must be a *BGA Finesse*.
+* If the chop card is clued in this scenario, it is instead treated a *Chop-Focus BGA Play Clue*. However, the player receiving the clue will not know this, and will treat it as a normal *Save Clue*. Thus, a *BGA Play Clue* given in this scenario must be a *BGA Finesse*.
 * As an exception to the rule, players are allowed to give a *Save Clue* if the *Play Clue* would violate *Good Touch Principle*.
 
 #### The Duck Bluff (on a 5)
