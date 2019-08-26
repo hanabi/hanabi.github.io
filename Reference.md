@@ -2466,6 +2466,18 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Bob knows that Alice broke *Pink Promise* and that he was lied to. However, the lie was legal because it resolved immediately, satisfying *Good Lie Principle*. Nothing else is promised.
   * Bob knows that Alice likely did things this way because she wanted a 2-for-1 (to pick up some useful 3 "for free") instead of just a 1-for-1 on just the pink 4.
 
+#### The Pink Prompt Rank Exception
+
+* Normally, *Prompts* take precedence over *Finesses*. This means that if a card in a player's hand has one or more positive clues on it that "match", they should never blind-play their *Finesse Position* and instead play the left-most clued card.
+* This rule does **not apply** to potential pink cards that only have a single rank clue on them (and the rank on them does not match the rank of the promised card). In this situation, players should prefer playing their *Finesse Position* instead of playing the clued card.
+* For example, in a 3-player game:
+  * All of the 2's are played on the stacks.
+  * Alice clues pink to Cathy, touching a pink 3 on slot 1 as a *Play Clue*.
+  * Bob's slot 2 card and slot 3 card have a single number 4 clue of them (and no other clues).
+  * Bob knows that he is promised the pink 3. Technically, the pink 3 could be his slot 2 card, and *Prompts* normally take precedence over *Finesses*.
+  * However, Bob also knows that *Prompts* do not apply to pink cards with a rank mismatch. This is currently the case for him since he is promised a 3 and his clued card has a number 4 clue on it.
+  * Thus, Bob plays his *Finesse Position* card as pink 3.
+
 #### The Bubblegum Finesse
 
 * The concept of *Pink Slot Choice* can also be used to invoke a *Finesse* on a pink card.
