@@ -16,9 +16,9 @@ Note that convention updates for the group are listed in the `#announcements` ch
 4. [Level 2 - General Principles](#level-2---general-principles)
 5. [Level 3 - Advanced Strategies](#level-3---advanced-strategies)
 6. [Level 4 - Expert Strategies](#level-4---expert-strategies)
-7. [Level 3 - Variant-Specific Strategies](#level-3---variant-specific-strategies)
 8. [Level 3 - Rarely Used Advanced Strategies](#level-3---rarely-used-advanced-strategies)
 9. [Level 4 - Rarely Used Expert Strategies](#level-4---rarely-used-expert-strategies)
+7. [Level 3 - Variant-Specific Strategies](#level-3---variant-specific-strategies)
 10. [Convention Attribution](#convention-attribution)
 
 <br />
@@ -1425,427 +1425,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 3 - Variant-Specific Strategies
-
-### Hard Variants & Easy Variants
-
-* Some variants demand an enormous amount of efficiency. Since our normal conventions result in conservative play, we agree to change the way that we play in some specific variants in order to win more consistently.
-* The necessary efficiency needed in order to win each variant is located on [the efficiency tables page](https://github.com/Zamiell/hanabi-conventions/blob/master/misc/Efficiency.md).
-* We define any variant that requires equal to or greater than 1.25 efficiency as a "hard" variant. (Required efficiency can be seen in-game using the Hanabi Live interface. Note that a variant can be considered easy in 4-player, but hard in 5-player, for example.)
-* In hard variants, the following changes are made to the conventions:
-  * Players are not allowed to *Double Discard Avoid*. Any clue given in a *Double Discard* situation will instead be treated like a normal clue.
-  * Players are not allowed to *5 Stall* in the *Early Game*. Any clue that looks like a *5 Stall* is instead treated as either a *5's Chop Move* or a *5 Pull*.
-  * Players are not required to clue anything in the *Early Game*; they are allowed to initiate the *Mid-Game* whenever they see fit.
-
-### BGA Play Clues in Hard Variants
-
-* Normally, players are allowed to give a *Save Clue* to a card on chop, even if that player has a bunch of playable cards to play. (This allows for *Discard Modulation.*)
-* In *Hard* variants (see previous section), this is not legal.
-* If a clue is given to a chop card of a player, and that player has one or more known-playable cards to play, then it is treated as a *Play Clue* on that card.
-* This is called a *BGA Play Clue* to distinguish it from a more ordinary *Play Clue*.
-* Note that *BGA Play Clues* **do not** apply in the *Early Game* - they are only "turned on" in the *Mid-Game*.
-
-### 3 Suit Conventions
-
-* These conventions applies to any variant with only 3 suits.
-
-#### No 3 Bluffs
-
-* The *3 Bluff* convention is "turned off". (This is because *Double Finesses* are much more likely in these variants.)
-
-#### The Full Finesse
-
-* The *5 Stall*, *5's Chop Move*, and *5 Pull* conventions are "turned off".
-* If a 5 is clued, then it is to be treated as a *Finesse* on the full suit from 1 to 5.
-
-### Black Conventions
-
-* These conventions apply to any variant with a black (one of each) suit.
-
-#### Black 2 & Black 5 Saves
-
-* Players should save black 2's and black 5's with a number clue instead of a color clue. (This helps narrow down what card is being clued.)
-* There are four exceptions to this:
-  * if the black clue touched two or more brand new black cards **or** critical Rainbow cards
-  * if the black clue was required to avoid violating *Good Touch Principle*
-  * if the black clue "filled in" an ancillary card
-  * if the black clue gave important negative information to one or more cards in the hand
-* Subsequently, if a black clue is used to touch a black 2 or a black 5 (and the above exceptions are not applicable), then it implies a *Finesse*.
-
-#### Black 3 & Black 4 Saves
-
-* Players should save black 3's and black 4's with a color clue instead of a number clue. (This helps narrow down what card is being clued.)
-* There is one exception to this:
-  * if the number clue also touched another critical card (this is called a *Florrat Save*)
-* Subsequently, if a number clue is used to touch a black 3 or a black 4 (and the above exception is not applicable), then it implies a *Finesse*.
-
-#### Black 4 Bluffs
-
-* Building on the *3 Bluffs* convention, we also agree that is possible for a card that initiates a *Bluff* to be a copy of black 4.
-* However, it is only possible to do this with a black color clue.
-
-#### The Black Save Bluff
-
-* Normally, if a black 1 is on chop, it is clued with number 1 instead of black. This is because a black color clue would make it look like a *Save Clue* on either black 3 or black 4, and then it would sit there, not being played.
-* Furthermore, if a black 1 is on chop and it was clued as black **and** the clue touched other brand new black cards in the hand, then the clue could also be a *Save Clue* on black 2 (as per the *Save Clue* rules outlined in the *Black 2 Saves* section).
-* Thus, if another player intentionally clues a black 1 on chop with a black color clue **and** it touched other brand new black cards, this would be quite strange, as it would not get the black 1 to play, so they must be trying to communicate something extra.
-* This is a sneaky signal that the next player has a playable card on their *Finesse Position*. By blind-playing it, they can show that a *Bluff* is happening.
-* In a normal *Bluff*, the player receiving the clue would think that it is a one-away from playable card. In this case, if it was a normal *Bluff*, they would think that they have the black 2. * However, as noted above, in this situation black 2's on chop are allowed to be touched as a *Save Clue*. So, touching a black 2 in this way would **not** cause a blind-play. Thus, by convention, the card should be black 1, and they can play it.
-* It is also possible to use this convention to perform a *Black Save Bluff* on cards other than the black 1. For example, in a 3-player game:
-  * All of the 1's are played on the stacks.
-  * Cathy has a black 3 on slot 3 and a black 2 on slot 5. (The black 2 is on chop.)
-  * Cathy has no other 2's in her hand, so a number 2 clue is available for Alice to use and would clearly communicate a *Play Clue* on the black 2 (since all of the 2's are currently playable).
-  * Alice clues black to Cathy.
-  * Bob knows that this will be treated as either a black 3 or a black 4 save, and the black 2 will never play.
-  * Bob also sees that there is nothing special going on.
-  * There must be a reason for this bad clue, so Bob knows that this is the *Black Save Bluff*, and he blind-plays his slot 1. It is a red 2.
-  * Cathy knows that Alice's black clue touched two brand new cards, it is a legal save on any black cards in the game, which means that Bob should never have blind-played anything.
-  * Thus, Cathy knows that it was a *Black Save Bluff* and she has exactly black 2 on her slot 5. Cathy plays black 2.
-
-### Rainbow & Dual-Color Conventions
-
-* These conventions apply to any variant with a rainbow (touched by all colors) or dual-color suit.
-
-#### The Free Choice Finesse
-
-* When performing a *Prompt* by touching a sole rainbow card, the player doing the clue may have a free choice between multiple colors. In other words, there may exist multiple colors that will **only** touch the rainbow card.
-* If a player has a free choice to choose the color that matches the intended *Prompt* target but instead deliberately chooses a different color, this signals that it is actually a *Finesse* instead of a *Prompt*.
-* For example, on the first turn of a 3-player game:
-  * Alice clues Bob red, which touches a red 1 in slot 1 and a red 3 in slot 2.
-  * Bob plays red 1 from slot 1. He draws a rainbow 1, which is now in his slot 1.
-  * Cathy discards.
-  * Alice notices that Bob has a rainbow 1 in *Finesse Position*. And Cathy has a rainbow 2 in her hand.
-  * Since *Prompts* take precedence over *Finesses*, if Cathy clues the rainbow 2 with red, then Bob will misplay the red 3 as rainbow 1. This is a problem.
-  * However, Cathy has no red cards, no blue cards, and no other rainbow cards in her hand. Thus, if Alice wants to clue the rainbow 2 with a color, Alice has a free choice between cluing red and cluing blue.
-  * Alice clues blue to Cathy, which only touches the rainbow 2.
-  * Bob knows that since Alice had a free choice and did not color-match with red, he should play his slot 1 instead of his slot 2.
-
-#### The Free Choice Bluff
-
-* It is possible to use the *Free Choice* convention to communicate to a teammate that you want a *Finesse* instead of a *Prompt* in order to get them to play an unrelated playable card from their *Finesse Position*.
-* Like a normal *Bluff*, after a *Free Choice Bluff*, the player who blind-played does not necessarily have the "matching" card in their hand.
-
-#### The Suboptimal Color Bluff
-
-* Often, when giving a color clue to a Rainbow or dual-color card, you want to pick a color that will "fill-in" ancillary cards in the hand as to give the maximum amount of information.
-* If a suboptimal color is chosen that does not fill in ancillary cards, it follows from *High Value Principle* that there must be a reason, so you should blind-play your *Finesse Position* card.
-* This move is contextual in that you don't want to make it appear as if the clued card is currently unplayable. Thus, it is best performed as a *Reverse Bluff* or a *Long-Distance Bluff*.
-
-#### Dual-Color 3 Suit Inversion
-
-* This convention only applies to the *Dual-Color (3 Suits)* variant.
-* The cards that are "touched" by a clue are considered to be inverted.
-* For example, in a 3-player game:
-  * Alice clues Bob about a blue card on slot 1, slot 2, and slot 3.
-  * Bob knows that this is inverted, so the clue **really** touches slot 4 and slot 5. Thus, it is *Chop Focus*, and Bob plays slot 5.
-  * Bob also knows that his slot 4 has an "invisible" clue on it, so his next discard will be the slot 3.
-
-### Pink Conventions
-
-* These conventions apply to any variant with a pink (touched by all ranks) suit.
-
-#### Multiple 1's
-
-* At the beginning of the game, when you get a clue that touches multiple 1's, you are supposed to play them all right-to-left exactly in the same way that you would in a no variant game.
-* Players are not allowed to *Order Chop Move*, because they could be misplaying a pink card.
-
-#### Pink Promise
-
-* When a pink card is given a *Play Clue* or a *Save Clue* with a number, the number must match the true identity of the card.
-* For example, in a 3-player game:
-  * Cathy has a pink 2 on chop followed by a blue 5.
-  * Alice and Bob need to give a *Save Clue* to both the pink 2 and the blue 5.
-  * If Alice gave a number 5 clue, it would save both of the cards in one fell swoop, since a number 5 clue would touch the pink 2.
-  * However, doing that would break the *Pink Promise*, since once Cathy learns that her slot 5 card is a pink card, she will always assume that it is a pink 5.
-  * Thus, Alice gives a number 2 clue as a *2 Save* on the pink 2, and then Bob clues a number 5 clue as a *5 Save* on the blue 5.
-
-#### Pink Choice
-
-* When one or more pink cards are retouched with a pink clue, the interpretation should be as normal: play the cards from left to right as a *Tempo Clue* (or *Double Tempo Clue*).
-* When one or more pink cards are retouched with a rank clue, and there are no "new" cards introduced (or, if the only "new" cards introduced are trash), then extra information can be conveyed by what rank is chosen.
-* The rank chosen should correspond to the slot that they should play.
-* For example, in a 3-player game:
-  * Bob has two pink cards clued in his hand on slot 3 and slot 5. He does not know the rank of either card.
-  * Alice clues number 5 to Bob, which touches both pink cards and nothing else.
-  * Bob knows that a rank 5 clue means to play slot 5, so he plays his right-most pink card.
-  * Bob holds on to the other pink card for later, knowing that the *Pink Slot Choice* only "gets" one card.
-
-#### The Pink Play Clue Lie
-
-* Players can violate *Pink Promise* if they are giving a *Play Clue* and the lie will resolve immediately.
-* For example, in a 3-player game:
-  * Pink 3 and and red 2 are played on the stacks.
-  * Alice clues number 3 to Bob, touching a pink 4 on slot 1 and a blue 3 on slot 2.
-  * Bob immediately plays the card on slot 1, thinking that it is a red 3. It is actually the pink 4.
-  * Bob knows that Alice broke *Pink Promise* and that he was lied to. However, the lie was legal because it resolved immediately, satisfying *Good Lie Principle*. Nothing else is promised.
-  * Bob knows that Alice likely did things this way because she wanted a 2-for-1 (to pick up some useful 3 "for free") instead of just a 1-for-1 on just the pink 4.
-
-#### The Bubblegum Finesse
-
-* The concept of *Pink Slot Choice* can also be used to invoke a *Finesse* on a pink card.
-* For example, in a 3-player game:
-  * No cards are played on the stacks.
-  * Cathy has a clued pink 3 in slot 3 and a clued pink 2 in slot 5. She does not know the rank of either card.
-  * Alice clues number 5 to Cathy, which touches both pink cards and nothing else.
-  * Bob knows that a rank 5 clue means to play slot 5, so pink 2 must be playable right now. Bob plays his *Finesse Position* card as pink 1.
-* The *Bubblegum Finesse* can also work on non-pink cards.
-* For example, in 3-player game:
-  * No cards are played on the stacks.
-  * Cathy has an unclued red 2 in slot 1, a clued pink 3 in slot 3, and a clued pink 2 in slot 5.
-  * Alice clues number 1 to Cathy, which touches both pink cards and nothing else.
-  * Bob knows that a rank 1 clue means to play slot 1, so red 2 must be playable right now. Bob blind-plays red 1 from his *Finesse Position*.
-  * Cathy blind-plays her slot 1 as red 2.
-* Similar to *Color Blind* conventions, players have to respect *Reverse Bubblegum Finesses*, and so forth.
-
-### White Conventions
-
-* These conventions apply to any variant with a white (colorless) suit.
-
-#### White Compromise (5 Chop Moves)
-
-* When you clue a white 5 that is one-away from chop, it would normally look like a *5's Chop Move*.
-* However, if the white 4 is currently played, all 5 clues that could be *5's Chop Moves* are treated instead *Play Clues* on white 5.
-
-#### White Compromise (5 Pulls)
-
-* When you clue a white 5 in the *Early Game* that is two or more away from chop, it would normally look like a *5 Pull*.
-* However, if there are white cards visible and it could be a *Finesse* on the white 5, then it should be treated as a *Finesse* instead of a *5 Pull*.
-
-### Brown Conventions
-
-* These conventions apply to any variant with a brown (touched by no ranks) suit.
-
-#### Brown Inversion
-
-* In a normal *Double Tempo Clue*, all of the re-clued cards are supposed to play from left to right.
-* However, when multiple brown cards are re-clued with a brown color clue, it only means to play the right-most one and nothing else.
-
-### Omni Conventions
-
-* These conventions apply to any variant with an omni (touched by all clues) suit.
-* All pink conventions also apply to Omni.
-
-### Dark Rainbow Saves
-
-* This convention applies to any variant with a dark rainbow (touched by all colors and one of each) suit.
-* Players should save dark rainbow 3 and dark rainbow 4 with a number clue.
-* There are two exceptions to this:
-  * if the color clue also touched another critical card (that is not dark rainbow)
-  * if the color matches a suit that is already completely played or accounted for
-* Note that this convention does **not** apply to the *Black & Dark Rainbow* variant. In that variant, you must save dark rainbow 3 and dark rainbow 4 with a black color clue.
-
-### Color Blind Conventions
-
-* These conventions apply to the *Color Blind* variants.
-
-#### Color Clues --> Slot Numbers
-
-* Number clues mean the same thing as normal.
-* All color clues have a special meaning:
-  * Blue means play slot 1 (because it is the 1st stack from the left).
-  * Green means play slot 2 (because it is the 2nd stack from the left).
-  * Yellow means play slot 3.
-  * Red means play slot 4.
-  * Purple means play slot 5 (in a 2-player or 3-player game).
-* Furthermore, all color clues have to be treated as potential *Delayed Play Clues*, *Prompts*, and *Reverse Finesses*.
-
-#### 4 Suit Exceptions
-
-* There are not enough colors to get all of the slots for a 2-player or 3-player game with 4 suits, so players are simply not able to clue slot 5 with a color clue.
-
-#### 3 Suit Exceptions
-
-* There are not enough colors to get all of the slots for a 2-player or 3-player game with 3 suits, so the color assignments are customized:
-  * Blue means play slot 2.
-  * Green means play slot 3.
-  * Yellow means play slot 4.
-* There are not enough colors to get all of the slots for a 4-player or 5-player game with 3 suits, so players are simply not able to clue slot 4 with a color clue.
-
-#### Extra Color --> Chop Move
-
-* If there is an extra color that does not correspond to a slot (e.g. purple in a 4-player "Color Blind (5 Suits)" variant), then that is used to mean that the clue recipient should *Chop Move* one card.
-
-#### 2nd Extra Color --> Double Finesse
-
-* If there is a second extra color that does not correspond to a slot (e.g. teal in a 4-player "Color Blind (6 Suits)" variant), then that is used to mean that that two people should blind-play their *Finesse Position*.
-* The two blind-plays do not necessarily have to be on two players in a row - they can be on anyone.
-* The clue should always be given to the person who will perform the second blind-play.
-
-### The Mismatch Finesse
-
-* This convention only applies to *Color Blind* variants.
-* If a player has two of the same playable card in their hand, players are expected to give a *Play Clue* to the left-most one.
-* If a player instead gives a *Play Clue* to the right-most one, then they are trying to communicate something extra.
-* This means that the next player should blind-play their *Finesse Position* as any unrelated playable card.
-* *Mismatch Finesses* can also rarely give a player a safe discard.
-* For example, on the first turn of a 3-player game:
-  * Cathy has a red 1 in slot 1 and another red 1 in slot 2.
-  * Alice clues green to Cathy, giving a *Play Clue* to Cathy's slot 2.
-  * Bob knows that since Cathy had a duplicate card on slot 1 and slot 2, Alice was supposed to get the left-most card, the slot 1.
-  * Alice must be doing the *Mismatch Finesse*. Bob blind-plays his *Finesse Position*, and it is a blue 1.
-  * Cathy assumes that Alice did a *Finesse* - due to Bob's blind-play, she must have the blue 2 in her slot 2. Cathy plays her slot 2, and it is revealed to be red 1.
-  * Cathy now knows that it was not a normal *Finesse* at all - it was instead a *Mismatch Finesse*, because there is no other explanation for why Bob would blind-play from a *Play Clue* on a red 1.
-  * Cathy also knows that she must have another red 1 in her hand. Since there is only one card to the left of her slot 2, she knows that the red 1 has to be exactly in her slot 1 (at the time of the clue).
-  * Due to this, when Cathy needs to discard next, she will blind-discard her slot 2 card (since slot 1 has now shifted down to slot 2 after she played the red 1).
-
-### The Negative Prompt
-
-* This convention applies to the *Dual-Color (6 Suits)* variant.
-* In this variant, since negative color information conveys just as much information as positive color information, you should include that when deciding which card to play into a *Prompt*.
-* For example:
-  * Alice has a red card in slot 1 and a red card in slot 2.
-  * Alice is *Prompted* for a mahogany 2. (Mahogany is composed of red and black.)
-  * Normally, Alice would play slot 1, since *Prompts* promise the left-most card.
-  * However, Alice's slot 1 card has no negative clues, and her slot slot 2 card has a negative yellow clue.
-  * Thus, this is a *Negative Prompt* and Alice plays slot 2 instead of slot 1.
-
-### Multi-Five Saves
-
-* This convention only applies to the *Multi-Fives* variants.
-* Since 5's cannot be *5 Saved*, a number 2 clue must be used to save them as a pseudo-*2 Save*.
-
-### The Bomb Finesse
-
-* This convention only applies to *Clue Starved* variants.
-* In these variants, giving a *Fix Clue* is not worth it if the team has less than 2 strikes and only one misplay will happen (on a non-critical card).
-* Following from this, if a *Layered Finesse* with a *Lie Component* is needed, it is better to **not** give the *Fix Clue* and just let them get the strike.
-* Players who get a strike in this way would normally stop playing into the *Finesse*, knowing that something has gone wrong. But in *Clue Starved*, they should keep going, knowing that the strike (bomb) was intentional.
-
-### Up or Down Conventions
-
-* These conventions apply to the *Up or Down* variants.
-
-#### Basic Conventions
-
-* At the beginning of the game, number 5's is a play clue (similar to a number 1's clue).
-* If there are any stacks going up, a number 5 clue to a chop card is to be treated as a normal *5 Save*.
-* If there are any stacks going down, a number 1 clue to a chop card is to be treated as a *1 Save*.
-
-#### Disabled Conventions
-
-* The *2 Saves* convention is turned off. (2's are not valuable in this variant.)
-* The *3 Bluffs* convention is turned off. (3's are not valuable in this variant.)
-* The *5 Stall*, *5's Chop Move*, and *5 Pull* conventions are turned off.
-
-#### The U-Turn Finesse
-
-* Normally, when a clued card is going to play and then someone on the team clues that card **again**, this is usually one of two different things:
-  * a *Stop Clue* - the receiver of the clue know that the card that they were going to play is actually bad, so now they will discard it instead.
-  * a *Double-Play Ejection* - an advanced move that causes the next player to blind-play their *Second Finesse Position* card, immediately revealing what the point of the clue was.
-* In the *Up or Down* variants, both of these conventions are "turned off" in favor of a third interpretation - a *Finesse* on the playable card, but going in the opposite direction.
-* For example, in a 4-player game:
-  * Alice clues Cathy red, touching a red 5 as a *Play Clue*.
-  * Bob clues Cathy red, re-touching the red 5.
-  * Alice knows that re-touching the red 5 again accomplishes nothing unless it is some sort of *Finesse*. She looks around the table and does not see any red cards. Thus, Alice marks her hand for red 1, red 2, red 3, and red 4, in order from left to right.
-
-### Duck Conventions
-
-* These conventions apply to the *Duck* variants.
-
-#### Relaxed 2 Saves
-
-* It is optional for players to give *Save Clues* to 2's.
-* Thus, if a 2 is discarded, players should not make any *Elimination Notes* for them.
-
-#### Inverted Tempo Clues
-
-* Normally, if a *Save Clue* is given to two cards, and then the cards are re-touched, it is a *Double Tempo Clue* and both the cards should play from left to right, even if one of the cards was on chop.
-* In Duck, the older card should play first in exactly the same way as the *Brown Inversion* convention described above.
-
-#### Chop Saves
-
-* All clues to chop are treated as *Save Clues*.
-
-#### BGA Play Clues
-
-* *BGA Play Clues* are "turned on" in Duck variants. Furthermore, *BGA Play Clues* are even turned on in the *Early Game*.
-
-#### The BGA Finesse
-
-* In addition to the above rule, players are also not allowed to give a *Save Clue* to a someone if that someone has a playable card that could be clued instead.
-* If the chop card is clued in this scenario, it is instead treated a *Chop Focus BGA Play Clue*. However, the player receiving the clue will not know this, and will treat it as a normal *Save Clue*. Thus, a *BGA Play Clue* given in this scenario must be a *BGA Finesse*.
-* As an exception to the rule, players are allowed to give a *Save Clue* if the *Play Clue* would violate *Good Touch Principle*.
-
-#### The Duck Bluff (on a 5)
-
-* Normally, you cannot perform a *Bluff* in Duck variants, because there is no way for the clue to not match the card that is blind-playing.
-* However, the one exception to this is if a 5 blind-plays. Then, the clue receiver can know that it is a *Bluff* (because there is no card that matches at 5).
-* In this situation, the clue receiver would mark their touched card as either a one-away card (as a normal *Bluff*) or a 3 (as a *3 Bluff*).
-
-#### The Duck Double Bluff
-
-* *3 Bluffs* are "turned off" in this variant, for obvious reasons.
-* This means that players can use the *Double Bluff* convention much more often by giving *Play Clues* to two-away from playable 3's. After seeing two blind-plays occur, the receiver of the clue will know that their card is two-away from playable. (This takes precedence over more complicated things, like *Layered Finesses*.)
-  * Note that it is also possible to *Double Bluff* by cluing two-away 4's and two-away 5's, but that can be done in any variant.
-* *Double Half-Bluffs* are explicitly outlawed. In other words, the first blind-play from a *Double Bluff* must be completely unrelated to the card that was clued.
-
-#### The Duck Trash Ejection
-
-* Normally, you cannot perform a *Trash Finesse* in Duck variants, because any *Trash Finesse* will look like a real *Finesse*, and the trash card will misplay.
-* However, similar to normal *Ejections*, if the blind-playing player plays their *Second Finesse Position* card, then they can communicate that something is wrong with the clue.
-* This will communicate to the clue receiver that the touched card is trash.
-
-#### The 1's Promise
-
-* Players must use the number 1 clue to clue 1's in a player's opening hand.
-* Thus, if a player gets a *Play Clue* that touches two cards, and then they play the left-most card and it is a 1, they can know that the other one is for-sure a 1 and should play it on the next turn.
-* If 3 or more 1's were clued with the original clue, then the play order should be from left to right.
-
-#### The 1's Promise Bluff
-
-* Players can be tricked into playing cards by using the *1's Promise*. For example, in a 3-player game:
-  * Alice clues Bob about two cards on slot 1 and slot 2.
-  * Bob plays slot 1. It is a red 1.
-  * Bob knows that because of the *1's Promise, the card on his slot 2 must also be a 1.
-  * When it gets to Bob's turn, Bob plays his slot 2, and it is a red 2 instead of a 1.
-* If there are additional cards in the hand that were touched by the original clue, then once the *1's Promise Bluff* is revealed, players should stop playing those cards.
-* For example, in 3-player game:
-  * Alice clues Bob about three cards on slot 1, slot 2, and slot 3.
-  * Bob plays slot 1. It is a red 1.
-  * Bob knows that because of the *1's Promise, the cards on his slot 2 and slot 3 must also be a 1.
-  * When it gets to Bob's turn, Bob plays his slot 2, and it is a red 2 instead of a 1.
-  * Bob knows that his slot 3 card must be a red card. However, it is not necessarily the red 3, and is equally likely to be either a red 3, a red 4, or a red 5.
-
-#### The 1's Promise Finesse
-
-* It is also possible to *Finesse* other players by using the *1's Promise*.
-* For example, in a 3-player game:
-  * Alice clues Bob about two cards on slot 1 and slot 2.
-  * Bob plays slot 1. It is a red 1.
-  * Bob knows that because of the *1's Promise, the card on his slot 2 must also be a 1.
-  * Cathy sees that Bob was clued about a red 1 and a red 3. Cathy knows that because of the *1's Promise*, Bob will misplay the red 3 when it gets to his turn.
-  * Cathy blind-plays her *Finesse Position* as red 2.
-
-#### The Double Play Bluff
-
-* Normally, when a playable card is clued again, it is interpreted as an *Double Play Ejection* on the very next player.
-* However, in the *Duck* variants, it instead means to play slot 1 as a *Known Bluff*.
-
-### Black & Rainbow
-
-* These conventions apply to any variant with a black suit and a rainbow suit.
-
-#### Crazy 3 Saves & Crazy 4 Saves
-
-* It is possible to violate *Good Touch Principle* by cluing black to save a black 3 or a black 4, because there can be other useless rainbow cards in the hand.
-* Thus, a second exception to the *Black 3 and Black 4 Saves* convention is added:
-  * if the number clue was required to avoid violating *Good Touch Principle*
-
-### Dual-Color Mix 5-Player Alterations
-
-* These conventions only apply to the *Dual-Color Mix* variant with 5 players.
-* Since it is so difficult, some conventions are "turned off":
-  1) No *Crazy 3 Saves* and no *Crazy 4 Saves* – you must duplicate a rainbow card if you want to save a black 3 or black 4.
-  2) No *Locked Hand Saves* – locked players must perform a "hard burn" if they have no normal *Play Clues* or *Save Clues* or off-chop 5's to clue.
-
-### Empty Clues
-
-* *Empty Clues* are clues that touch no cards in a hand. On Hanabi Live, each game has the option to allow *Empty Clues*, and we typically disallow this option since it makes the game too easy.
-* If *Empty Clues* are enabled, it allows for a much wider channel of information transfer. We have developed an entire convention framework around this channel and it is too complicated to cover in a single section here.
-* If you are interested in learning about in the extended *Empty Clue* conventions, they are documented [on a separate page](https://github.com/Zamiell/hanabi-conventions/blob/master/misc/Empty_Clues.md).
-
-<br />
-
 ## Level 3 - Rarely Used Advanced Strategies
 
 ### 2 Saves (Advanced Section; Interaction With 5's Chop Moves / 5 Pulls)
@@ -2677,6 +2256,427 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Cathy knows that this must be a *Trash Push Finesse* on blue 4. Cathy blind-plays her slot 4 card, but it is red 3 instead and it successfully plays.
   * Cathy now knows that since the two cards did not match each other, this must have been an *Unnecessary Trash Push*.
 * Players cannot *Unnecessary Trash Push* unless the clue touches exactly 1 card.
+
+<br />
+
+## Level 3 - Variant-Specific Strategies
+
+### Hard Variants & Easy Variants
+
+* Some variants demand an enormous amount of efficiency. Since our normal conventions result in conservative play, we agree to change the way that we play in some specific variants in order to win more consistently.
+* The necessary efficiency needed in order to win each variant is located on [the efficiency tables page](https://github.com/Zamiell/hanabi-conventions/blob/master/misc/Efficiency.md).
+* We define any variant that requires equal to or greater than 1.25 efficiency as a "hard" variant. (Required efficiency can be seen in-game using the Hanabi Live interface. Note that a variant can be considered easy in 4-player, but hard in 5-player, for example.)
+* In hard variants, the following changes are made to the conventions:
+  * Players are not allowed to *Double Discard Avoid*. Any clue given in a *Double Discard* situation will instead be treated like a normal clue.
+  * Players are not allowed to *5 Stall* in the *Early Game*. Any clue that looks like a *5 Stall* is instead treated as either a *5's Chop Move* or a *5 Pull*.
+  * Players are not required to clue anything in the *Early Game*; they are allowed to initiate the *Mid-Game* whenever they see fit.
+
+### BGA Play Clues in Hard Variants
+
+* Normally, players are allowed to give a *Save Clue* to a card on chop, even if that player has a bunch of playable cards to play. (This allows for *Discard Modulation.*)
+* In *Hard* variants (see previous section), this is not legal.
+* If a clue is given to a chop card of a player, and that player has one or more known-playable cards to play, then it is treated as a *Play Clue* on that card.
+* This is called a *BGA Play Clue* to distinguish it from a more ordinary *Play Clue*.
+* Note that *BGA Play Clues* **do not** apply in the *Early Game* - they are only "turned on" in the *Mid-Game*.
+
+### 3 Suit Conventions
+
+* These conventions applies to any variant with only 3 suits.
+
+#### No 3 Bluffs
+
+* The *3 Bluff* convention is "turned off". (This is because *Double Finesses* are much more likely in these variants.)
+
+#### The Full Finesse
+
+* The *5 Stall*, *5's Chop Move*, and *5 Pull* conventions are "turned off".
+* If a 5 is clued, then it is to be treated as a *Finesse* on the full suit from 1 to 5.
+
+### Black Conventions
+
+* These conventions apply to any variant with a black (one of each) suit.
+
+#### Black 2 & Black 5 Saves
+
+* Players should save black 2's and black 5's with a number clue instead of a color clue. (This helps narrow down what card is being clued.)
+* There are four exceptions to this:
+  * if the black clue touched two or more brand new black cards **or** critical Rainbow cards
+  * if the black clue was required to avoid violating *Good Touch Principle*
+  * if the black clue "filled in" an ancillary card
+  * if the black clue gave important negative information to one or more cards in the hand
+* Subsequently, if a black clue is used to touch a black 2 or a black 5 (and the above exceptions are not applicable), then it implies a *Finesse*.
+
+#### Black 3 & Black 4 Saves
+
+* Players should save black 3's and black 4's with a color clue instead of a number clue. (This helps narrow down what card is being clued.)
+* There is one exception to this:
+  * if the number clue also touched another critical card (this is called a *Florrat Save*)
+* Subsequently, if a number clue is used to touch a black 3 or a black 4 (and the above exception is not applicable), then it implies a *Finesse*.
+
+#### Black 4 Bluffs
+
+* Building on the *3 Bluffs* convention, we also agree that is possible for a card that initiates a *Bluff* to be a copy of black 4.
+* However, it is only possible to do this with a black color clue.
+
+#### The Black Save Bluff
+
+* Normally, if a black 1 is on chop, it is clued with number 1 instead of black. This is because a black color clue would make it look like a *Save Clue* on either black 3 or black 4, and then it would sit there, not being played.
+* Furthermore, if a black 1 is on chop and it was clued as black **and** the clue touched other brand new black cards in the hand, then the clue could also be a *Save Clue* on black 2 (as per the *Save Clue* rules outlined in the *Black 2 Saves* section).
+* Thus, if another player intentionally clues a black 1 on chop with a black color clue **and** it touched other brand new black cards, this would be quite strange, as it would not get the black 1 to play, so they must be trying to communicate something extra.
+* This is a sneaky signal that the next player has a playable card on their *Finesse Position*. By blind-playing it, they can show that a *Bluff* is happening.
+* In a normal *Bluff*, the player receiving the clue would think that it is a one-away from playable card. In this case, if it was a normal *Bluff*, they would think that they have the black 2. * However, as noted above, in this situation black 2's on chop are allowed to be touched as a *Save Clue*. So, touching a black 2 in this way would **not** cause a blind-play. Thus, by convention, the card should be black 1, and they can play it.
+* It is also possible to use this convention to perform a *Black Save Bluff* on cards other than the black 1. For example, in a 3-player game:
+  * All of the 1's are played on the stacks.
+  * Cathy has a black 3 on slot 3 and a black 2 on slot 5. (The black 2 is on chop.)
+  * Cathy has no other 2's in her hand, so a number 2 clue is available for Alice to use and would clearly communicate a *Play Clue* on the black 2 (since all of the 2's are currently playable).
+  * Alice clues black to Cathy.
+  * Bob knows that this will be treated as either a black 3 or a black 4 save, and the black 2 will never play.
+  * Bob also sees that there is nothing special going on.
+  * There must be a reason for this bad clue, so Bob knows that this is the *Black Save Bluff*, and he blind-plays his slot 1. It is a red 2.
+  * Cathy knows that Alice's black clue touched two brand new cards, it is a legal save on any black cards in the game, which means that Bob should never have blind-played anything.
+  * Thus, Cathy knows that it was a *Black Save Bluff* and she has exactly black 2 on her slot 5. Cathy plays black 2.
+
+### Rainbow & Dual-Color Conventions
+
+* These conventions apply to any variant with a rainbow (touched by all colors) or dual-color suit.
+
+#### The Free Choice Finesse
+
+* When performing a *Prompt* by touching a sole rainbow card, the player doing the clue may have a free choice between multiple colors. In other words, there may exist multiple colors that will **only** touch the rainbow card.
+* If a player has a free choice to choose the color that matches the intended *Prompt* target but instead deliberately chooses a different color, this signals that it is actually a *Finesse* instead of a *Prompt*.
+* For example, on the first turn of a 3-player game:
+  * Alice clues Bob red, which touches a red 1 in slot 1 and a red 3 in slot 2.
+  * Bob plays red 1 from slot 1. He draws a rainbow 1, which is now in his slot 1.
+  * Cathy discards.
+  * Alice notices that Bob has a rainbow 1 in *Finesse Position*. And Cathy has a rainbow 2 in her hand.
+  * Since *Prompts* take precedence over *Finesses*, if Cathy clues the rainbow 2 with red, then Bob will misplay the red 3 as rainbow 1. This is a problem.
+  * However, Cathy has no red cards, no blue cards, and no other rainbow cards in her hand. Thus, if Alice wants to clue the rainbow 2 with a color, Alice has a free choice between cluing red and cluing blue.
+  * Alice clues blue to Cathy, which only touches the rainbow 2.
+  * Bob knows that since Alice had a free choice and did not color-match with red, he should play his slot 1 instead of his slot 2.
+
+#### The Free Choice Bluff
+
+* It is possible to use the *Free Choice* convention to communicate to a teammate that you want a *Finesse* instead of a *Prompt* in order to get them to play an unrelated playable card from their *Finesse Position*.
+* Like a normal *Bluff*, after a *Free Choice Bluff*, the player who blind-played does not necessarily have the "matching" card in their hand.
+
+#### The Suboptimal Color Bluff
+
+* Often, when giving a color clue to a Rainbow or dual-color card, you want to pick a color that will "fill-in" ancillary cards in the hand as to give the maximum amount of information.
+* If a suboptimal color is chosen that does not fill in ancillary cards, it follows from *High Value Principle* that there must be a reason, so you should blind-play your *Finesse Position* card.
+* This move is contextual in that you don't want to make it appear as if the clued card is currently unplayable. Thus, it is best performed as a *Reverse Bluff* or a *Long-Distance Bluff*.
+
+#### Dual-Color 3 Suit Inversion
+
+* This convention only applies to the *Dual-Color (3 Suits)* variant.
+* The cards that are "touched" by a clue are considered to be inverted.
+* For example, in a 3-player game:
+  * Alice clues Bob about a blue card on slot 1, slot 2, and slot 3.
+  * Bob knows that this is inverted, so the clue **really** touches slot 4 and slot 5. Thus, it is *Chop Focus*, and Bob plays slot 5.
+  * Bob also knows that his slot 4 has an "invisible" clue on it, so his next discard will be the slot 3.
+
+### Pink Conventions
+
+* These conventions apply to any variant with a pink (touched by all ranks) suit.
+
+#### Multiple 1's
+
+* At the beginning of the game, when you get a clue that touches multiple 1's, you are supposed to play them all right-to-left exactly in the same way that you would in a no variant game.
+* Players are not allowed to *Order Chop Move*, because they could be misplaying a pink card.
+
+#### Pink Promise
+
+* When a pink card is given a *Play Clue* or a *Save Clue* with a number, the number must match the true identity of the card.
+* For example, in a 3-player game:
+  * Cathy has a pink 2 on chop followed by a blue 5.
+  * Alice and Bob need to give a *Save Clue* to both the pink 2 and the blue 5.
+  * If Alice gave a number 5 clue, it would save both of the cards in one fell swoop, since a number 5 clue would touch the pink 2.
+  * However, doing that would break the *Pink Promise*, since once Cathy learns that her slot 5 card is a pink card, she will always assume that it is a pink 5.
+  * Thus, Alice gives a number 2 clue as a *2 Save* on the pink 2, and then Bob clues a number 5 clue as a *5 Save* on the blue 5.
+
+#### Pink Choice
+
+* When one or more pink cards are retouched with a pink clue, the interpretation should be as normal: play the cards from left to right as a *Tempo Clue* (or *Double Tempo Clue*).
+* When one or more pink cards are retouched with a rank clue, and there are no "new" cards introduced (or, if the only "new" cards introduced are trash), then extra information can be conveyed by what rank is chosen.
+* The rank chosen should correspond to the slot that they should play.
+* For example, in a 3-player game:
+  * Bob has two pink cards clued in his hand on slot 3 and slot 5. He does not know the rank of either card.
+  * Alice clues number 5 to Bob, which touches both pink cards and nothing else.
+  * Bob knows that a rank 5 clue means to play slot 5, so he plays his right-most pink card.
+  * Bob holds on to the other pink card for later, knowing that the *Pink Slot Choice* only "gets" one card.
+
+#### The Pink Play Clue Lie
+
+* Players can violate *Pink Promise* if they are giving a *Play Clue* and the lie will resolve immediately.
+* For example, in a 3-player game:
+  * Pink 3 and and red 2 are played on the stacks.
+  * Alice clues number 3 to Bob, touching a pink 4 on slot 1 and a blue 3 on slot 2.
+  * Bob immediately plays the card on slot 1, thinking that it is a red 3. It is actually the pink 4.
+  * Bob knows that Alice broke *Pink Promise* and that he was lied to. However, the lie was legal because it resolved immediately, satisfying *Good Lie Principle*. Nothing else is promised.
+  * Bob knows that Alice likely did things this way because she wanted a 2-for-1 (to pick up some useful 3 "for free") instead of just a 1-for-1 on just the pink 4.
+
+#### The Bubblegum Finesse
+
+* The concept of *Pink Slot Choice* can also be used to invoke a *Finesse* on a pink card.
+* For example, in a 3-player game:
+  * No cards are played on the stacks.
+  * Cathy has a clued pink 3 in slot 3 and a clued pink 2 in slot 5. She does not know the rank of either card.
+  * Alice clues number 5 to Cathy, which touches both pink cards and nothing else.
+  * Bob knows that a rank 5 clue means to play slot 5, so pink 2 must be playable right now. Bob plays his *Finesse Position* card as pink 1.
+* The *Bubblegum Finesse* can also work on non-pink cards.
+* For example, in 3-player game:
+  * No cards are played on the stacks.
+  * Cathy has an unclued red 2 in slot 1, a clued pink 3 in slot 3, and a clued pink 2 in slot 5.
+  * Alice clues number 1 to Cathy, which touches both pink cards and nothing else.
+  * Bob knows that a rank 1 clue means to play slot 1, so red 2 must be playable right now. Bob blind-plays red 1 from his *Finesse Position*.
+  * Cathy blind-plays her slot 1 as red 2.
+* Similar to *Color Blind* conventions, players have to respect *Reverse Bubblegum Finesses*, and so forth.
+
+### White Conventions
+
+* These conventions apply to any variant with a white (colorless) suit.
+
+#### White Compromise (5 Chop Moves)
+
+* When you clue a white 5 that is one-away from chop, it would normally look like a *5's Chop Move*.
+* However, if the white 4 is currently played, all 5 clues that could be *5's Chop Moves* are treated instead *Play Clues* on white 5.
+
+#### White Compromise (5 Pulls)
+
+* When you clue a white 5 in the *Early Game* that is two or more away from chop, it would normally look like a *5 Pull*.
+* However, if there are white cards visible and it could be a *Finesse* on the white 5, then it should be treated as a *Finesse* instead of a *5 Pull*.
+
+### Brown Conventions
+
+* These conventions apply to any variant with a brown (touched by no ranks) suit.
+
+#### Brown Inversion
+
+* In a normal *Double Tempo Clue*, all of the re-clued cards are supposed to play from left to right.
+* However, when multiple brown cards are re-clued with a brown color clue, it only means to play the right-most one and nothing else.
+
+### Omni Conventions
+
+* These conventions apply to any variant with an omni (touched by all clues) suit.
+* All pink conventions also apply to Omni.
+
+### Dark Rainbow Saves
+
+* This convention applies to any variant with a dark rainbow (touched by all colors and one of each) suit.
+* Players should save dark rainbow 3 and dark rainbow 4 with a number clue.
+* There are two exceptions to this:
+  * if the color clue also touched another critical card (that is not dark rainbow)
+  * if the color matches a suit that is already completely played or accounted for
+* Note that this convention does **not** apply to the *Black & Dark Rainbow* variant. In that variant, you must save dark rainbow 3 and dark rainbow 4 with a black color clue.
+
+### Color Blind Conventions
+
+* These conventions apply to the *Color Blind* variants.
+
+#### Color Clues --> Slot Numbers
+
+* Number clues mean the same thing as normal.
+* All color clues have a special meaning:
+  * Blue means play slot 1 (because it is the 1st stack from the left).
+  * Green means play slot 2 (because it is the 2nd stack from the left).
+  * Yellow means play slot 3.
+  * Red means play slot 4.
+  * Purple means play slot 5 (in a 2-player or 3-player game).
+* Furthermore, all color clues have to be treated as potential *Delayed Play Clues*, *Prompts*, and *Reverse Finesses*.
+
+#### 4 Suit Exceptions
+
+* There are not enough colors to get all of the slots for a 2-player or 3-player game with 4 suits, so players are simply not able to clue slot 5 with a color clue.
+
+#### 3 Suit Exceptions
+
+* There are not enough colors to get all of the slots for a 2-player or 3-player game with 3 suits, so the color assignments are customized:
+  * Blue means play slot 2.
+  * Green means play slot 3.
+  * Yellow means play slot 4.
+* There are not enough colors to get all of the slots for a 4-player or 5-player game with 3 suits, so players are simply not able to clue slot 4 with a color clue.
+
+#### Extra Color --> Chop Move
+
+* If there is an extra color that does not correspond to a slot (e.g. purple in a 4-player "Color Blind (5 Suits)" variant), then that is used to mean that the clue recipient should *Chop Move* one card.
+
+#### 2nd Extra Color --> Double Finesse
+
+* If there is a second extra color that does not correspond to a slot (e.g. teal in a 4-player "Color Blind (6 Suits)" variant), then that is used to mean that that two people should blind-play their *Finesse Position*.
+* The two blind-plays do not necessarily have to be on two players in a row - they can be on anyone.
+* The clue should always be given to the person who will perform the second blind-play.
+
+### The Mismatch Finesse
+
+* This convention only applies to *Color Blind* variants.
+* If a player has two of the same playable card in their hand, players are expected to give a *Play Clue* to the left-most one.
+* If a player instead gives a *Play Clue* to the right-most one, then they are trying to communicate something extra.
+* This means that the next player should blind-play their *Finesse Position* as any unrelated playable card.
+* *Mismatch Finesses* can also rarely give a player a safe discard.
+* For example, on the first turn of a 3-player game:
+  * Cathy has a red 1 in slot 1 and another red 1 in slot 2.
+  * Alice clues green to Cathy, giving a *Play Clue* to Cathy's slot 2.
+  * Bob knows that since Cathy had a duplicate card on slot 1 and slot 2, Alice was supposed to get the left-most card, the slot 1.
+  * Alice must be doing the *Mismatch Finesse*. Bob blind-plays his *Finesse Position*, and it is a blue 1.
+  * Cathy assumes that Alice did a *Finesse* - due to Bob's blind-play, she must have the blue 2 in her slot 2. Cathy plays her slot 2, and it is revealed to be red 1.
+  * Cathy now knows that it was not a normal *Finesse* at all - it was instead a *Mismatch Finesse*, because there is no other explanation for why Bob would blind-play from a *Play Clue* on a red 1.
+  * Cathy also knows that she must have another red 1 in her hand. Since there is only one card to the left of her slot 2, she knows that the red 1 has to be exactly in her slot 1 (at the time of the clue).
+  * Due to this, when Cathy needs to discard next, she will blind-discard her slot 2 card (since slot 1 has now shifted down to slot 2 after she played the red 1).
+
+### The Negative Prompt
+
+* This convention applies to the *Dual-Color (6 Suits)* variant.
+* In this variant, since negative color information conveys just as much information as positive color information, you should include that when deciding which card to play into a *Prompt*.
+* For example:
+  * Alice has a red card in slot 1 and a red card in slot 2.
+  * Alice is *Prompted* for a mahogany 2. (Mahogany is composed of red and black.)
+  * Normally, Alice would play slot 1, since *Prompts* promise the left-most card.
+  * However, Alice's slot 1 card has no negative clues, and her slot slot 2 card has a negative yellow clue.
+  * Thus, this is a *Negative Prompt* and Alice plays slot 2 instead of slot 1.
+
+### Multi-Five Saves
+
+* This convention only applies to the *Multi-Fives* variants.
+* Since 5's cannot be *5 Saved*, a number 2 clue must be used to save them as a pseudo-*2 Save*.
+
+### The Bomb Finesse
+
+* This convention only applies to *Clue Starved* variants.
+* In these variants, giving a *Fix Clue* is not worth it if the team has less than 2 strikes and only one misplay will happen (on a non-critical card).
+* Following from this, if a *Layered Finesse* with a *Lie Component* is needed, it is better to **not** give the *Fix Clue* and just let them get the strike.
+* Players who get a strike in this way would normally stop playing into the *Finesse*, knowing that something has gone wrong. But in *Clue Starved*, they should keep going, knowing that the strike (bomb) was intentional.
+
+### Up or Down Conventions
+
+* These conventions apply to the *Up or Down* variants.
+
+#### Basic Conventions
+
+* At the beginning of the game, number 5's is a play clue (similar to a number 1's clue).
+* If there are any stacks going up, a number 5 clue to a chop card is to be treated as a normal *5 Save*.
+* If there are any stacks going down, a number 1 clue to a chop card is to be treated as a *1 Save*.
+
+#### Disabled Conventions
+
+* The *2 Saves* convention is turned off. (2's are not valuable in this variant.)
+* The *3 Bluffs* convention is turned off. (3's are not valuable in this variant.)
+* The *5 Stall*, *5's Chop Move*, and *5 Pull* conventions are turned off.
+
+#### The U-Turn Finesse
+
+* Normally, when a clued card is going to play and then someone on the team clues that card **again**, this is usually one of two different things:
+  * a *Stop Clue* - the receiver of the clue know that the card that they were going to play is actually bad, so now they will discard it instead.
+  * a *Double-Play Ejection* - an advanced move that causes the next player to blind-play their *Second Finesse Position* card, immediately revealing what the point of the clue was.
+* In the *Up or Down* variants, both of these conventions are "turned off" in favor of a third interpretation - a *Finesse* on the playable card, but going in the opposite direction.
+* For example, in a 4-player game:
+  * Alice clues Cathy red, touching a red 5 as a *Play Clue*.
+  * Bob clues Cathy red, re-touching the red 5.
+  * Alice knows that re-touching the red 5 again accomplishes nothing unless it is some sort of *Finesse*. She looks around the table and does not see any red cards. Thus, Alice marks her hand for red 1, red 2, red 3, and red 4, in order from left to right.
+
+### Duck Conventions
+
+* These conventions apply to the *Duck* variants.
+
+#### Relaxed 2 Saves
+
+* It is optional for players to give *Save Clues* to 2's.
+* Thus, if a 2 is discarded, players should not make any *Elimination Notes* for them.
+
+#### Inverted Tempo Clues
+
+* Normally, if a *Save Clue* is given to two cards, and then the cards are re-touched, it is a *Double Tempo Clue* and both the cards should play from left to right, even if one of the cards was on chop.
+* In Duck, the older card should play first in exactly the same way as the *Brown Inversion* convention described above.
+
+#### Chop Saves
+
+* All clues to chop are treated as *Save Clues*.
+
+#### BGA Play Clues
+
+* *BGA Play Clues* are "turned on" in Duck variants. Furthermore, *BGA Play Clues* are even turned on in the *Early Game*.
+
+#### The BGA Finesse
+
+* In addition to the above rule, players are also not allowed to give a *Save Clue* to a someone if that someone has a playable card that could be clued instead.
+* If the chop card is clued in this scenario, it is instead treated a *Chop Focus BGA Play Clue*. However, the player receiving the clue will not know this, and will treat it as a normal *Save Clue*. Thus, a *BGA Play Clue* given in this scenario must be a *BGA Finesse*.
+* As an exception to the rule, players are allowed to give a *Save Clue* if the *Play Clue* would violate *Good Touch Principle*.
+
+#### The Duck Bluff (on a 5)
+
+* Normally, you cannot perform a *Bluff* in Duck variants, because there is no way for the clue to not match the card that is blind-playing.
+* However, the one exception to this is if a 5 blind-plays. Then, the clue receiver can know that it is a *Bluff* (because there is no card that matches at 5).
+* In this situation, the clue receiver would mark their touched card as either a one-away card (as a normal *Bluff*) or a 3 (as a *3 Bluff*).
+
+#### The Duck Double Bluff
+
+* *3 Bluffs* are "turned off" in this variant, for obvious reasons.
+* This means that players can use the *Double Bluff* convention much more often by giving *Play Clues* to two-away from playable 3's. After seeing two blind-plays occur, the receiver of the clue will know that their card is two-away from playable. (This takes precedence over more complicated things, like *Layered Finesses*.)
+  * Note that it is also possible to *Double Bluff* by cluing two-away 4's and two-away 5's, but that can be done in any variant.
+* *Double Half-Bluffs* are explicitly outlawed. In other words, the first blind-play from a *Double Bluff* must be completely unrelated to the card that was clued.
+
+#### The Duck Trash Ejection
+
+* Normally, you cannot perform a *Trash Finesse* in Duck variants, because any *Trash Finesse* will look like a real *Finesse*, and the trash card will misplay.
+* However, similar to normal *Ejections*, if the blind-playing player plays their *Second Finesse Position* card, then they can communicate that something is wrong with the clue.
+* This will communicate to the clue receiver that the touched card is trash.
+
+#### The 1's Promise
+
+* Players must use the number 1 clue to clue 1's in a player's opening hand.
+* Thus, if a player gets a *Play Clue* that touches two cards, and then they play the left-most card and it is a 1, they can know that the other one is for-sure a 1 and should play it on the next turn.
+* If 3 or more 1's were clued with the original clue, then the play order should be from left to right.
+
+#### The 1's Promise Bluff
+
+* Players can be tricked into playing cards by using the *1's Promise*. For example, in a 3-player game:
+  * Alice clues Bob about two cards on slot 1 and slot 2.
+  * Bob plays slot 1. It is a red 1.
+  * Bob knows that because of the *1's Promise, the card on his slot 2 must also be a 1.
+  * When it gets to Bob's turn, Bob plays his slot 2, and it is a red 2 instead of a 1.
+* If there are additional cards in the hand that were touched by the original clue, then once the *1's Promise Bluff* is revealed, players should stop playing those cards.
+* For example, in 3-player game:
+  * Alice clues Bob about three cards on slot 1, slot 2, and slot 3.
+  * Bob plays slot 1. It is a red 1.
+  * Bob knows that because of the *1's Promise, the cards on his slot 2 and slot 3 must also be a 1.
+  * When it gets to Bob's turn, Bob plays his slot 2, and it is a red 2 instead of a 1.
+  * Bob knows that his slot 3 card must be a red card. However, it is not necessarily the red 3, and is equally likely to be either a red 3, a red 4, or a red 5.
+
+#### The 1's Promise Finesse
+
+* It is also possible to *Finesse* other players by using the *1's Promise*.
+* For example, in a 3-player game:
+  * Alice clues Bob about two cards on slot 1 and slot 2.
+  * Bob plays slot 1. It is a red 1.
+  * Bob knows that because of the *1's Promise, the card on his slot 2 must also be a 1.
+  * Cathy sees that Bob was clued about a red 1 and a red 3. Cathy knows that because of the *1's Promise*, Bob will misplay the red 3 when it gets to his turn.
+  * Cathy blind-plays her *Finesse Position* as red 2.
+
+#### The Double Play Bluff
+
+* Normally, when a playable card is clued again, it is interpreted as an *Double Play Ejection* on the very next player.
+* However, in the *Duck* variants, it instead means to play slot 1 as a *Known Bluff*.
+
+### Black & Rainbow
+
+* These conventions apply to any variant with a black suit and a rainbow suit.
+
+#### Crazy 3 Saves & Crazy 4 Saves
+
+* It is possible to violate *Good Touch Principle* by cluing black to save a black 3 or a black 4, because there can be other useless rainbow cards in the hand.
+* Thus, a second exception to the *Black 3 and Black 4 Saves* convention is added:
+  * if the number clue was required to avoid violating *Good Touch Principle*
+
+### Dual-Color Mix 5-Player Alterations
+
+* These conventions only apply to the *Dual-Color Mix* variant with 5 players.
+* Since it is so difficult, some conventions are "turned off":
+  1) No *Crazy 3 Saves* and no *Crazy 4 Saves* – you must duplicate a rainbow card if you want to save a black 3 or black 4.
+  2) No *Locked Hand Saves* – locked players must perform a "hard burn" if they have no normal *Play Clues* or *Save Clues* or off-chop 5's to clue.
+
+### Empty Clues
+
+* *Empty Clues* are clues that touch no cards in a hand. On Hanabi Live, each game has the option to allow *Empty Clues*, and we typically disallow this option since it makes the game too easy.
+* If *Empty Clues* are enabled, it allows for a much wider channel of information transfer. We have developed an entire convention framework around this channel and it is too complicated to cover in a single section here.
+* If you are interested in learning about in the extended *Empty Clue* conventions, they are documented [on a separate page](https://github.com/Zamiell/hanabi-conventions/blob/master/misc/Empty_Clues.md).
 
 <br />
 
