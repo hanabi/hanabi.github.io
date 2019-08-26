@@ -169,7 +169,8 @@ Note that in this user interface, players are holding their hands like they woul
 
 * In a normal *Finesse*, you would give a clue to a player who comes after the player blind-playing a card. If you give a *Finesse* clue to someone who gets to have a turn **before** the blind-play occurs, it is called a *Reverse Finesse*. This is more complicated than a normal *Finesse* and is harder to see.
 * Because *Reverse Finesses* exist as a strategy, before playing any cards, players should always check out everyone's *Finesse Position*. If a card in someone's *Finesse Position* is playable and "matches" the clue, then **they need to defer playing the clued card** for at least one go-around and wait to see what happens.
-* If the player with the "matching" card blind-plays it, then it means that the clued card is the next card in the chain. For example, on the first turn of a 3-player game:
+* If the player with the "matching" card blind-plays it, then it means that the clued card is the next card in the chain. For example, in a 3-player game:
+  * It is the first turn and nothing is played on the stacks.
   * Alice clues Bob red, which touches his red 2.
   * Next, it is Bob's turn. Normally, Bob would think that he had the red 1, and play it immediately.
   * However, Bob also notices that on Cathy has a red 1 on her slot 1 position. Thus, he has to give a chance for Cathy to prove whether or not a *Reverse Finesse* is happening. If Cathy does not blind-play anything, then Bob should have the red 1, and he can play it on his next turn.
@@ -501,7 +502,8 @@ Priority does not always apply. Some common exceptions are listed below.
 * See the *Trash Chop Move* section above for an explanation on what a *Chop Move* is.
 * In general, *Tempo Clues* do not follow from *Minimum Clue Value Principle*, which states that a clue must get at least 1 new card played or save at least 1 new card from being discarded.
 * Thus, a *Tempo Clue* with no other purpose **must** save at least 1 new card, and the player should *Chop Move* their chop card.
-* For example, on the first turn of a 3-player game:
+* For example, in a 3-player game:
+  * It is the first turn and nothing is played on the stacks.
   * Alice clues red to Bob, which touches two cards on slot 1 and slot 2.
   * Bob plays red 1 from slot 1. The red card in slot 2 could be red 2, red 3, red 4, or red 5.
   * Cathy clues number 2 to Bob, which does not introduce any new cards, but it does "fill in" his slot 2 card.
@@ -511,7 +513,8 @@ Priority does not always apply. Some common exceptions are listed below.
 ### The Double Tempo Clue (Re-cluing 2+ Cards)
 
 * Typically, when a *Tempo Clue* is given that touches two or more cards, it means that **all** of the cards touched are playable in order from left to right.
-* For example, on the first turn of a 3-player game:
+* For example, in a 3-player game:
+  * It is the first turn and nothing is played on the stacks.
   * Alice clues red to Bob, which touches slot 1, slot 2, and slot 3.
   * Bob plays red 1 from slot 1. The other two red cards in his hand could be nearly anything.
   * Cathy clues red to Bob, which does not introduce any new cards, but it does re-touch slot 2 and slot 3.
@@ -699,7 +702,8 @@ This section is unique in that it contains things that are separate from actual 
   * Cathy plays red 3 from her *Finesse Position*.
   * Donald plays red 4.
 * Similarly, it is possible to get a single player to blind-play 2 cards in a row. In this situation, since they see that the blind cards are not in anyone else's hands, they will blind-play two turns in a row, playing from left to right.
-* For example, on the first turn of a 3-player game:
+* For example, in a 3-player game:
+  * It is the first turn and nothing is played on the stacks.
   * Alice clues red to Cathy, touching a red 3.
   * Bob blind-plays red 1 from slot 1.
   * Cathy would normally think that she has red 2, which would match the red 1 that was just played. However, she sees that when the clue happened, there was a red 2 next to the red 1.
@@ -875,7 +879,8 @@ This section is unique in that it contains things that are separate from actual 
 
 * The *Sarcastic Discard* is very similar to the *Prompt*, because it gets someone to play a card that already had a clue on it. It is also possible to intentionally discard a known card in order to get someone to blind-play a card, similar to a *Finesse*. 
 * When this occurs, it is called a *Gentleman's Discard* to signify that the card played was completely blind as opposed to having a clue on it already.
-* For example, on the first turn of a 3-player game:
+* For example, in a 3-player game:
+  * It is the first turn and nothing is played on the stacks.
   * Alice clues number 1 to Cathy, touching one 1.
   * Bob clues red to Cathy, filling in the already-touched 1 as red 1, as well as touching a new card, which must be red 2.
   * Cathy discards the known red 1 as a *Gentleman's Discard*.
@@ -936,7 +941,7 @@ This section is unique in that it contains things that are separate from actual 
 * If a player skips over their right-most 1, and there is nothing else special going on, it means that the next player should *Chop Move* one card.
 * If a player skips over **two** of their right-most 1's, the message skips over the next player, and the player after that should *Chop Move* one card. (And a skip of three 1's means that the player three seats away should *Chop Move*.)
 * For example, in a 3-player game:
-  * It is the first turn of the game.
+  * It is the first turn and nothing is played on the stacks.
   * Alice clues Bob number 1, which touches three 1's. They are in slots 1, 2, and 3.
   * Bob is expected to play slot 3 (which is the oldest 1). If he plays slot 3, nothing special happens.
   * If Bob plays slot 2, he is performing an *Order Chop Move*, and Cathy should chop move one card (her slot 5).
@@ -1277,7 +1282,8 @@ This section is unique in that it contains things that are separate from actual 
 ### The Layered Gentleman's Discard
 
 * One great reason to want to do a *Gentleman's Discard* is if the card you are discarding is also behind playable cards. This is similar to a *Layered Finesse*, only it was initiated by a discard instead of a clue.
-* For example, on the first turn of a 3-player game:
+* For example, in a 3-player game:
+  * It is the first turn and nothing is played on the stacks.
   * Alice clues number 1 to Cathy, touching one 1.
   * Bob clues red to Cathy, filling in the already-touched 1 as red 1, as well as touching a new card, which must be red 2.
   * Cathy discards the known red 1 as a *Gentleman's Discard*.
@@ -1435,7 +1441,8 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * Normally, in the *Early Game*, if a player performs a number 5 clue on an off-chop 5 and there are other things to do, this is normally a *5's Chop Move* or a *5 Pull*.
 * However, to the person receiving the number 5 clue, what if the only thing left to do is a *2 Save* on someone's chop? Note that *2 Saves* are not required on 2's that are visible in other people's hands. If the person receiving the number 5 clue has the other copy of the 2 in their hand, then the 5 clue would just be a normal *5 Stall*.
 * In this situation, the player is expected to mark *Elimination Notes* on their hand for the other copy of the 2. Furthermore, they are not allowed to save the other copy of the 2, so they must give some other clue or discard.
-* For example, on the first turn of a 4-player game:
+* For example, in a 4-player game:
+  * It is the first turn and nothing is played on the stacks.
   * Alice clues number 5 to Bob, touching a 5 on slot 1.
   * From Bob's perspective, he does not see any other *Play Clues* or *Save Clues* that Alice could have given, with the exception of a *2 Save* on a red 2 on Cathy's chop.
   * Thus, Alice's number 5 clue could be either a *5 Pull* or a *5 Stall*, depending on whether or not Bob has the other copy of the red 2 in his hand.
@@ -1629,7 +1636,8 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 ### The Double Half Bluff
 
 * Sometimes, you see that two players in a row have playable *Finesse Position* cards. However, they are unrelated, so you can't get them both played with a *Double Finesse*. In this situation, by performing a clue that looks like a *Double Finesse*, you can get the first card played like a normal *Finesse* and the second card like a *Bluff*.
-* For example, on the first turn of a 4-player game:
+* For example, in a 4-player game:
+  * It is the first turn and nothing is played on the stacks.
   * Alice clues Donald red, which touches a red 3 as a *Play Clue*.
   * Bob goes next and assumes that it is a *Double Self-Finesse* - he has the red 1 and red 2 in his two newest slots. Thus, he blind-plays his left-most and it is red 1, as expected.
   * Cathy goes next. Cathy sees that Donald does **not** have red 2 in his next newest slot, so she must have the red 2. Cathy blind-plays her left-most card. However, it is **not** the red 2, but the blue 1.
@@ -1716,7 +1724,8 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * In the *Trash Finesse* / *Trash Bluff*, it is possible to clue number 1 to a player in order to get someone to blind-play a card.  After the blind-play, it is understood that all of the 1's are trash.
 * However, what if this is done on the first turn of the game, touching two 1's? If nothing is played on the stacks, then the 1 of every single suit is needed. In this situation, both of the 1's that are clued cannot be trash.
 * In this situation, the 1's clue only communicates that *Good Touch Principle* was violated and that both of the 1's are the same suit.
-* For example, on the first turn of a 3-player game:
+* For example, in a 3-player game:
+  * It is the first turn and nothing is played on the stacks.
   * Alice clues number 1 to Cathy, touching two red 1's.
   * Bob sees that Alice could have done something else (like do a *5 Save* to a 5 on Cathy's chop).
   * Bob knows that Alice's clue violated *Good Touch Principle*. If the clue is not communicating something extra, then it would be a real lousy clue. Therefore it must be a *Good Touch Finesse*, so Bob blind-plays his *Finesse Position* card, and it is a blue 1.
@@ -1913,7 +1922,8 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 ### The Disease Bluff & The Heal Clue & The Pestilent (Double) Bluff
 
 * In the *Good Touch Bluff*, a *Bluff* is given that looks like a *Finesse*. However, what if something that looks like a *Good Touch Bluff* is done, but the "matching" card is not yet clued?
-* For example, on the first turn of a 4-player game:
+* For example, in a 4-player game:
+  * It is the first turn and nothing is played on the stacks.
   * Alice goes first.
   * Bob has a red 1 on slot 1 and a blue 2 on slot 2.
   * Alice clues Bob number 2, which touches the blue 2 on slot 2.
@@ -2049,7 +2059,8 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * Normally, when someone performs a *Gentleman's Discard*, it only promises the exact other copy of the card, even if the discarded card could have been multiple different things. The reason for this is it allows for asymmetric reads.
 * However, what if a *Gentleman's Discard* is done, and the card could have been multiple different things, and there was no context and no possible way to know which exact card that it was?
 * In this case, then it is a legal *Double Gentleman's Discard*, and it promises that both of the possibilities exist. (Or, it could even be a *Triple Gentleman's Discard*.)
-* For example, on the first turn of a 3-player rainbow game:
+* For example, in a 3-player rainbow game:
+  * It is the first turn and nothing is played on the stacks.
   * Alice clues Bob blue, touching a card on slot 5.
   * From everyone's perspective, this blue card could be either a blue 1 or a rainbow 1.
   * Bob discards the card and it is revealed to be a blue 1.
@@ -2383,7 +2394,8 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 * When performing a *Prompt* by touching a sole rainbow card, the player doing the clue may have a free choice between multiple colors. In other words, there may exist multiple colors that will **only** touch the rainbow card.
 * If a player has a free choice to choose the color that matches the intended *Prompt* target but instead deliberately chooses a different color, this signals that it is actually a *Finesse* instead of a *Prompt*.
-* For example, on the first turn of a 3-player game:
+* For example, in a 3-player game:
+  * It is the first turn and nothing is played on the stacks.
   * Alice clues Bob red, which touches a red 1 in slot 1 and a red 3 in slot 2.
   * Bob plays red 1 from slot 1. He draws a rainbow 1, which is now in his slot 1.
   * Cathy discards.
@@ -2551,7 +2563,8 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * If a player instead gives a *Play Clue* to the right-most one, then they are trying to communicate something extra.
 * This means that the next player should blind-play their *Finesse Position* as any unrelated playable card.
 * *Mismatch Finesses* can also rarely give a player a safe discard.
-* For example, on the first turn of a 3-player game:
+* For example, in a 3-player game:
+  * It is the first turn and nothing is played on the stacks.
   * Cathy has a red 1 in slot 1 and another red 1 in slot 2.
   * Alice clues green to Cathy, giving a *Play Clue* to Cathy's slot 2.
   * Bob knows that since Cathy had a duplicate card on slot 1 and slot 2, Alice was supposed to get the left-most card, the slot 1.
