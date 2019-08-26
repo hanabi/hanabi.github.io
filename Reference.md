@@ -2152,7 +2152,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Alice clues number 5 to Cathy, touching a blue 5 on slot 3.
   * Cathy's slot 4 card is a red 1. (This was her chop card prior to the number 5 clue being given.)
   * It is now Bob's turn. Bob sees that Donald has a red 2 on his slot 2 that could be *Play Clued* with a red color clue.
-  * Normally, since it is the *Early Game*, a number 5's clue to Cathy might just be a *5 Stall*. However, since Alice could have given the red *Play Clue* to Donald, this is an "early" 5's clue, so it must be an *Early 5's Chop Move*.  However, this can't be an *Early 5's Chop Move* either, since Cathy has a trash red 1 on her chop.
+  * Normally, since it is the *Early Game*, a number 5's clue to Cathy might just be a *5 Stall*. However, since Alice could have given the red *Play Clue* to Donald, this is an "early" 5's clue, so it must be an *Early 5's Chop Move*.  However, this cannot be an *Early 5's Chop Move* either, since Cathy has a trash red 1 on her chop.
   * Thus, Bob knows that this is a *Junk Ejection*, and he blind-plays his *Second Finesse Position*. It is a green 1 and successfully plays.
   * Cathy knows that if this was an *Early 5's Chop Move*, then Bob would not have blind-played anything. Since he blind-played his *Second Finesse Position* card, this must be a *Junk Ejection* and her slot 4 card must be trash.
 
