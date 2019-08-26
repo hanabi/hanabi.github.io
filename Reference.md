@@ -1477,6 +1477,15 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * This could be a *Bluff* if the 4 in her hand is blue 4, since blue 4 is currently one-away from playable. Thus, Cathy **does not** assume that her 4 is red 4, and subsequently, does **does not** assume that her unknown 3 is a red 3. However, it could **also** be the case that the 4 is a red 4 (if the 3 in her hand happens to be red 3).
   * Thus, Cathy marks down both possibilities for later and does not play anything right now.
 
+### The Hard 3 Bluff
+
+* Players can use a 3 to *3 Bluff* the 1 of the same suit.
+* For example, in a 3-player game"
+  * Nothing is played on the stacks.
+  * Alice clues number 3 to Cathy, touching a red 3 on slot 1 as a *Play Clue*.
+  * Bob blind-plays red 1.
+  * Bob now knows that it was a *3 Bluff* and that no-one is promised the red 2. This is because even though the red 1 is the same suit as the red 3, *3 Bluffs* take precedence over *Double Finesses* as long as the clue type (number 3) does not match the card that was blind-played (a number 1).
+
 ### 2 Saves (Off Chop on the First Turn)
 
 * On the first turn of the game, it is not possible to discard. If there is absolutely nothing else to do, it is permissible in this situation to use a number 2 clue to save a 2 that is **not** on chop, but only if the other players can see that you had no other choice.
@@ -1669,6 +1678,16 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Donald sees that the red 4 was three-away from playable, which means that he would normally interpret this move as a *Triple Bluff*, calling for three blind-plays.
   * However, because of the *4 Double Bluff* convention, he knows that *4 Double Bluffs* take precedence over *Triple Bluffs*. Thus, Donald knows that no more blind-plays are required, so he discards.
   * Emily knows that if a *Double Half Bluff* has occurred, she has a red 3. Emily also knows that if a *4 Double Half Bluff* occurred, she has a red 4. Emily marks both of the possibilities on the card for later.
+
+### The Hard 4 Double Bluff
+
+* Similar to a *Hard 3 Bluff*, it is also possible to perform a *Hard 4 Double Bluff*.
+* For example, in a 4-player game:
+  * No cards are played on the stacks.
+  * Alice clues number 4 to Donald, touching a red 4 as a *Play Clue*.
+  * Bob blind-plays red 1 from his *Finesse Position*.
+  * Cathy blind-plays red 2 from her *Finesse Position*.
+  * Even though red 1 and red 2 are the same suit as the red 4, the team knows that no-one is promised the red 3.
 
 ### The No-Information Double Finesse & The No-Information Double Bluff
 
