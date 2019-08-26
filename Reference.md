@@ -2202,6 +2202,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 * If an *Unknown Trash Ejection* touches multiple cards, only the focus of the clue must be trash.
 * Thus, if a *Unknown Trash Ejection*-style clue touches two or more trash cards, then it must be a *Discharge* instead.
+* *Unknown Trash Discharges* are "turned off" in the *Early Game* (since they conflict with *5 Color Discharges*).
 
 ### The Dump Truck
 
