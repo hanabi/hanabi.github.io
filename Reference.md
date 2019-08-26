@@ -2139,7 +2139,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * Since the *Second Finesse Position* card was played instead of the *Finesse Position* card, then the player who received the clue will know that the card is trash.
 * With the *Trash Bluff*, if multiple cards are clued, it means that **all** of the cards are trash. However, with *Unknown Trash Ejection*, if multiple cards are clued, only the focus of the clue is trash.
 
-### Junk Ejection
+#### Junk Ejection
 
 * This convention only applies in the *Early Game*.
 * Normally, in the *Early Game*, if there are some other *Play Clues* or *Save Clues* to give and a number 5 clue is given to a one-away-from-chop 5, then it is an "early" *5 Stall* and is instead treated as an *Early 5's Chop Move*.
