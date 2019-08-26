@@ -771,13 +771,16 @@ This section is unique in that it contains things that are separate from actual 
 * We call this a *Layered Finesse* because the intended *Finesse* blind-play target is "layered" behind other playable cards.
 * For example, in the following screenshot:
   * SedNegi clues yellow 3, which is a signal that it is playable right now.
-  * 910dan comes next. At first glance, this might be a *3 Bluff*, since SedNegi used number 3. However, *Finesses* take priority over *Bluffs*, and since it could be a *Layered Finesse* on Zamiel, then it cannot be a *3 Bluff*.
-  * 910dan therefore assumes that it is a *Layered Finesse* on Zamiel and clues blues to SedNegi, which is a *Play Clue* on blue 1.
-  * Zamiel sees the yellow 2 on 910dan's *Finesse Position*. Thus, it would make the most sense for SedNegi's clue to be a *Double Finesse* on yellow 1 and yellow 2. Zamiel blind-plays his *Finesse Position* card, expecting it to be yellow 1. Instead, it is purple 1. Zamiel now thinks that SedNegi's initial clue was touching a purple 3 to initiate a *Double Self-Finesse* on purple 1 and purple 2.
+  * 910dan comes next. At first glance, this might be a *Double Finesse* on 910dan for yellow 1 and yellow 2.
+  * However, 910dan also sees that this might be a *Layered Finesse* on Zamiel. If it is, 910dan would **only** have the yellow 2 instead of both the yellow 1 and the yellow 2.
+  * Thus, for now, 910dan clues blues to SedNegi, which is a *Play Clue* on the blue 1.
+  * Zamiel sees the yellow 2 on 910dan's *Finesse Position*. Subsequently, Zamiel knows that the number 3 clue from SedNegi could mean multiple different things, but it makes the most sense for it to be a *Double Finesse* on yellow 1 and yellow 2.
+  * Zamiel blind-plays his *Finesse Position* card, expecting it to be yellow 1. Instead, it is purple 1. Zamiel now suspects that SedNegi's initial number 3 clue was touching a purple 3 to initiate a *Double Self-Finesse* on purple 1 and purple 2.
   * SedNegi plays blue 1.
-  * 910dan now knows that it was indeed a *Layered Finesse*, and that he has the yellow 2 on his *Finesse Position*. But he has to wait for the yellow 1 to come down first before he can play it. So, he clues purple to Zamiel, which is a *Play Clue* on purple 2.
-  * Zamiel now has negative purple on his 3, which means that it must be yellow 3 after all. He now understands that SedNegi's original clue was a *Layered Finesse*. Zamiel blind-plays yellow 1 from slot 2.
-  * SedNegi clues 1's to 910dan, which touches two 1's.
+  * 910dan now knows that it was indeed a *Layered Finesse*, and that he has the yellow 2 on his *Finesse Position*. But he has to wait for the yellow 1 to come down first before he can play it.
+  * Thus, for now, 910dan clues purple to Zamiel, which is a *Play Clue* on purple 2.
+  * Zamiel now has negative purple on his 3, which means that it cannot be purple 3. Zamiel now understands that SedNegi's original clue was a *Layered Finesse* on purple 1 + yellow 1 + yellow 2. Zamiel blind-plays yellow 1 from slot 2.
+  * SedNegi clues 1's to 910dan, which touches two 1's as a *Play Clue*.
   * 910dan blind-plays yellow 2 from slot 1.
   * Zamiel plays yellow 3.
 
