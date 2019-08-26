@@ -2468,8 +2468,8 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 #### The Pink Prompt Rank Exception
 
-* Normally, *Prompts* take precedence over *Finesses*. This means that if a card in a player's hand has one or more positive clues on it that "match", they should never blind-play their *Finesse Position* and instead play the left-most clued card.
-* This rule does **not apply** to potential pink cards that only have a single rank clue on them (and the rank on them does not match the rank of the promised card). In this situation, players should prefer playing their *Finesse Position* instead of playing the clued card.
+* Normally, *Prompts* take precedence over *Finesses*. This means that if a card in a player's hand has one or more positive clues on it that "match", they should never blind-play their *Finesse Position* and instead play their left-most clued card.
+* This rule does **not** apply to potential pink cards that only have a single rank clue on them (and the rank on them does not match the rank of the promised card). In this situation, players should prefer playing their *Finesse Position* instead of playing the clued card.
 * For example, in a 3-player game:
   * All of the 2's are played on the stacks.
   * Alice clues pink to Cathy, touching a pink 3 on slot 1 as a *Play Clue*.
