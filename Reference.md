@@ -708,7 +708,7 @@ This section is unique in that it contains things that are separate from actual 
   * Bob blind-plays red 1 from slot 1.
   * Cathy would normally think that she has red 2, which would match the red 1 that was just played. However, she sees that when the clue happened, there was a red 2 next to the red 1.
   * Thus, Cathy discards, giving Bob the chance to blind the play the red 2. If he does not blind-play it, then it was a normal *Finesse* and she has red 2. If he does blind-play it, then it was a *Double Finesse* and she has red 3.
-  * On his next turn, Bob blind-plays red 2 from slot 2. Cathy now knows she has the red 3.
+  * On his next turn, Bob blind-plays red 2 from slot 2. Cathy now knows that she has the red 3.
 
 ### The Ambiguous Finesse
 
