@@ -2422,7 +2422,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 #### Dual-Color 3 Suit Inversion
 
 * This convention only applies to the *Dual-Color (3 Suits)* variant.
-* The cards that are "touched" by a clue are considered to be inverted.
+* The cards that are "touched" by a color clue are considered to be inverted.
 * For example, in a 3-player game:
   * Alice clues Bob about a blue card on slot 1, slot 2, and slot 3.
   * Bob knows that this is inverted, so the clue **really** touches slot 4 and slot 5. Thus, it is *Chop-Focus*, and Bob plays slot 5.
