@@ -2466,8 +2466,8 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 #### No Order Chop Moves
 
-* At the beginning of the game, when you get a clue that touches multiple 1's, you are supposed to play them all right-to-left exactly in the same way that you would in a no variant game.
-* Players are not allowed to *Order Chop Move*, because they could be misplaying a pink card. (See the following section.)
+* At the beginning of the game, when you get a clue that touches multiple 1's, you are supposed to play them from right-to-left (in exactly in the same way that you would in a no variant game).
+* Players are not allowed to *Order Chop Move*, because they could be misplaying a pink card. (Also see the following two sections, which are related.)
 
 #### The Pink Play Clue Lie (with multiple 1's)
 
