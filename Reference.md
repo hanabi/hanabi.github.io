@@ -2432,11 +2432,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 * These conventions apply to any variant with a pink (touched by all ranks) suit.
 
-#### Multiple 1's
-
-* At the beginning of the game, when you get a clue that touches multiple 1's, you are supposed to play them all right-to-left exactly in the same way that you would in a no variant game.
-* Players are not allowed to *Order Chop Move*, because they could be misplaying a pink card.
-
 #### Pink Promise
 
 * When a pink card is given a *Play Clue* or a *Save Clue* with a number, the number must match the true identity of the card.
@@ -2446,6 +2441,63 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * If Alice gave a number 5 clue, it would save both of the cards in one fell swoop, since a number 5 clue would touch the pink 2.
   * However, doing that would break the *Pink Promise*, since once Cathy learns that her slot 5 card is a pink card, she will always assume that it is a pink 5.
   * Thus, Alice gives a number 2 clue as a *2 Save* on the pink 2, and then Bob clues a number 5 clue as a *5 Save* on the blue 5.
+
+#### The Pink Play Clue Lie (which resolves immediately)
+
+* Players can violate *Pink Promise* if they are giving a *Play Clue* and the lie will resolve immediately.
+* For example, in a 3-player game:
+  * Pink 3 and and red 2 are played on the stacks.
+  * Alice clues number 3 to Bob, touching a pink 4 on slot 1 and a blue 3 on slot 2.
+  * Bob immediately plays the card on slot 1, thinking that it is a red 3. It is actually the pink 4.
+  * Bob knows that Alice broke *Pink Promise* and that he was lied to. However, the lie was legal because it resolved immediately, satisfying *Good Lie Principle*. Nothing else is promised.
+  * Bob knows that Alice likely did things this way because she wanted a 2-for-1 (to pick up some useful 3 "for free") instead of just a 1-for-1 on just the pink 4.
+
+#### The Pink Play Clue Lie (with multiple 1's)
+
+* Players can also violate *Pink Promise* with a number 1's clue if all of the cards will successfully play. Unlike the type of lie in the previous section, this does not have to resolve immediately.
+* For example, in a 3-player game:
+  * It is the first turn and nothing is played on the stacks.
+  * Alice clues number 1 to Bob, touching a red 1 on slot 1, a pink 3 on slot 2, a pink 2 on slot 3, and a pink 1 on slot 4.
+  * Bob knows that from *Good Touch Principle*, all of his 1's are good, so now he can play all of them from right to left.
+  * Bob plays the pink 1 from slot 4.
+  * On his next turn, Bob plays the pink 2 from slot 3. Bob is immediately surprised that this is not a real 1, but he knows that this kind of thing is allowed and that he should continue to play his remaining 1's.
+  * On his next turn, Bob plays the pink 3 from slot 2. Bob is again surprised that this is not a real 1, but he knows that this kind of thing is allowed and that he should continue to play his final 1.
+  * On his next turn, Bob plays the red 1 from slot 1.
+
+#### Multiple 1's
+
+* At the beginning of the game, when you get a clue that touches multiple 1's, you are supposed to play them all right-to-left exactly in the same way that you would in a no variant game.
+* Players are not allowed to *Order Chop Move*, because they could be misplaying a pink card.
+
+#### Pink Fix Clues (on 1's)
+
+* Normally, when someone receives a number 1 clue that touches a bunch of 1's, they will play all of those 1's from right to left.
+* If a subsequent clue "fills in" one of the 1s to be a pink card, then the player will **not** play that card anymore (because it could just be any pink card in the game).
+* For example, in a 3-player game:
+  * Alice clues number 1 to Bob, touching three 1's in slot 1, slot 2, and slot 3.
+  * Bob plays slot 3 and it is a red 1.
+  * Cathy discards.
+  * Alice discards.
+  * Bob plays slot 2, and it is a blue 1.
+  * Cathy discards.
+  * Alice clues number 5 to Bob, touching a 5 on his chop as a *5 Save*. This also "fills in" the 1 to be a pink card.
+  * Bob knows that the pink card in his hand *could* be a pink 1. However, it could also be any other pink card in the game. Bob knows that when 1's are filled in to be pink, they should not be played anymore.
+
+#### Pink Fix Promise (on a 1 that is going to play)
+
+* Normally, *Pink Promise* only applies when a pink card is the focus of a clue.
+* However, as an exception, *Pink Promise* also applies in the situation where a bunch of 1's are clued and then one of the 1's is "filled in" as pink card to stop it from being played as a 1.
+* For example, in a 3-player game:
+  * Alice clues number 1 to Bob, touching three 1's in slot 1, slot 2, and slot 3.
+  * Bob plays slot 3 and it is a red 1.
+  * Cathy discards.
+  * Alice discards.
+  * Bob plays slot 2, and it is a blue 1.
+  * Cathy discards.
+  * Alice clues number 3 to Bob, touching a 3 on his chop. This also "fills in" the 1 to be a pink card.
+  * Bob knows that the pink card in his hand could technically be a pink 1. However, Bob also knows that when 1's are filled in to be pink, they should not be played anymore.
+  * Thus, Bob knows that the point of Alice's clue was a *Fix Clue* to stop him from playing the pink card. The 3 on his chop could be any 3 in the game. Furthermore, Bob knows that *Pink Promise* applies to this *Fix Clue* and that his pink card should be exactly *Pink 3*.
+* As an exception, *Pink Fix Promise* does **not** apply when the *Fix Clue* is a number 2 clue or a number 5 clue and the newly introduced card was on chop. The example from the *1's in a Pink Variant* section showcases this. (In this example, Bob's pink card is not necessarily a pink 5; it can be any pink card in the game.)
 
 #### Pink Choice
 
@@ -2458,16 +2510,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Bob knows that a rank 5 clue means to play slot 5, so he plays his right-most pink card.
   * Bob holds on to the other pink card for later, knowing that the *Pink Slot Choice* only "gets" one card.
 
-#### The Pink Play Clue Lie
-
-* Players can violate *Pink Promise* if they are giving a *Play Clue* and the lie will resolve immediately.
-* For example, in a 3-player game:
-  * Pink 3 and and red 2 are played on the stacks.
-  * Alice clues number 3 to Bob, touching a pink 4 on slot 1 and a blue 3 on slot 2.
-  * Bob immediately plays the card on slot 1, thinking that it is a red 3. It is actually the pink 4.
-  * Bob knows that Alice broke *Pink Promise* and that he was lied to. However, the lie was legal because it resolved immediately, satisfying *Good Lie Principle*. Nothing else is promised.
-  * Bob knows that Alice likely did things this way because she wanted a 2-for-1 (to pick up some useful 3 "for free") instead of just a 1-for-1 on just the pink 4.
-
 #### The Pink Prompt Rank Exception
 
 * Normally, *Prompts* take precedence over *Finesses*. This means that if a card in a player's hand has one or more positive clues on it that "match", they should never blind-play their *Finesse Position* and instead play their left-most clued card.
@@ -2479,6 +2521,11 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Bob knows that he is promised the pink 3. Technically, the pink 3 could be his slot 2 card, and *Prompts* normally take precedence over *Finesses*.
   * However, Bob also knows that *Prompts* do not apply to pink cards with a rank mismatch. This is currently the case for him since he is promised a 3 and his clued card has a number 4 clue on it.
   * Thus, Bob plays his *Finesse Position* card as pink 3.
+
+#### Pink Fix Clues (in general)
+
+* Normally, if a clue re-touches pink cards, it is treated as a *Pink Choice Tempo Clue* or *Pink Choice Finesse*.
+
 
 #### The Bubblegum Finesse
 
