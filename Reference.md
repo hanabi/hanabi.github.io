@@ -2548,7 +2548,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 #### The Bubblegum Finesse
 
 * The *Pink Choice Finesse* can also work on non-pink cards. This is called a *Bubblegum Finesse* to disambigate it from a more-ordinary *Pink Choice Finesse*.
-* *Pink Fix Clues* take precedence over *Bubblegum Finesses*, so they will only typically work if performed as *Forward Finesses* (instead of *Reverse Finesses*).
+* *Pink Fix Clues* take precedence over *Bubblegum Finesses*, so they will only typically work if performed as a *Forward Finesse* (instead of a *Reverse Finesse*).
 * For example, in 3-player game:
   * No cards are played on the stacks.
   * Cathy has an unclued red 2 in slot 1, a clued pink 3 in slot 3, and a clued pink 2 in slot 4.
