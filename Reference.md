@@ -2147,8 +2147,8 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * However, what if the *Chop Moved* cards are also all trash? Or, alternatively, what if *Trash Pushed* card is trash?
 * The other players can see that this clue must have some other purpose - it should signal an *Ejection* on the very next player.
 * In practice, this is almost exactly the same as a *Known Trash Ejection*, except that instead of cluing known trash that already had a clue on it, a "fresh" known trash card is clued.
-* Both forms (the *Trash Chop Move Ejection* form and the *Trash Push Ejection* form) are both called *Junk Ejection* for simplicity.
-* Both of these forms of *Junk Ejection* can be performed throughout the game. (They are legal in the *Early Game*, the *Mid-Game*, and the *End-Game*. However, keep in mind that in the *End-Game* a player might just be stalling.)
+* Both forms (the *Trash Chop Move Ejection* form and the *Trash Push Ejection* form) are called *Junk Ejection* for simplicity.
+* *Junk Ejection* can be performed throughout the game. (They are legal in the *Early Game*, the *Mid-Game*, and the *End-Game*. However, keep in mind that in the *End-Game* a player might just be stalling.)
 
 #### Junk Ejection (with 5's)
 
