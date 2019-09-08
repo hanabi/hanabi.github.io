@@ -109,6 +109,11 @@ Note that in this user interface, players are holding their hands like they woul
 
 ## Level 2 - Intermediate Strategies
 
+### Trash
+
+* *Trash* cards are defined as cards that have already been played. Thus, they are completely useless to the team.
+* In the case where a suit is partially "dead", the unneeded cards are also considered trash. For example, if both copies of the red 3 have been discarded, then the red 4 and the red 5 are both considered trash.
+
 ### 2 Saves
 
 * As explained in the beginner's guide, *2 Saves* must be given with a number 2 clue.
