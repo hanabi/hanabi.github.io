@@ -2536,7 +2536,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 * Normally, if a clue re-touches pink cards that are known to be pink, it is treated as a *Pink Choice Tempo Clue* or a *Pink Choice Finesse*.
 * However, what if the indicated slot is not a pink card? That does not make sense, as *Pink Choice* is typically only used to communicate a play about a pink card.
-* In this situation, it must not be a *Play Clue* at all but instead be a *Fix Clue* - the rank of the leftmost pink card must match the clue.
+* In this situation, it must not be a *Play Clue* at all. Instead, it is a *Fix Clue* - the rank of the leftmost pink card must match the clue.
 * For example, in a 3-player game:
   * All of the 3's are played on the stacks.
   * Bob has a known pink card on slot 4 and a known pink card on slot 5.
