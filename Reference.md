@@ -2147,6 +2147,21 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * However, what if the *Chop Moved* cards are also all trash? The other players can see that this clue must have some other purpose - it should signal an *Ejection* on the very next player.
 * *Junk Ejection* can be performed throughout the game. (But keep in mind that in the *End-Game*, a player might just be stalling.)
 
+#### The 5 Color Ejection
+
+* This convention only applies in the *Early Game*.
+* Normally, in the *Early Game*, if a player gives a color *Play Clue* to a 5, it would mean that it is a *Finesse* on the 5 and all of the cards leading up to the 5 are playable.
+* However, in the *Early Game*, this is fairly unlikely to be the case. Instead, players agree that this is an *Ejection* and that the next player should play their *Second Finesse Position*.
+* After the blind-play, the player who received will know that it must be a 5.
+* For example, in a 3-player game:
+  * It is the first turn and nothing is played on the stacks.
+  * Alice clues red to Cathy, touching a red 5 on slot 3.
+  * Bob knows that normally, this would be a *Finesse* on the 5, indicating to Bob that he has the red 1, the red 2, the red 3, and the red 4. However, since it is the *Early Game*, he also knows that *5 Color Ejection* should take precedence over a *Finesse*, so he knows to play his *Second Finesse Position* card. It is a red 1 and it successfully plays.
+  * From Cathy's perspective, if Bob had played his *Finesse Position* card in response to the red clue, then Cathy would know that it was a *Finesse* or a *Bluff*. But since Bob blind-played his *Second Finesse Position* card, it must be the 5. Cathy marks the red card as red 5.
+* *5 Color Ejections* are **only possible** if there is only one brand new card introduced with the color clue. For example, on the first turn of the game, it would be illegal to perform a *5 Color Ejection* where a red clue is given to Cathy that touches a red 5 on slot 1 and a red 4 on slot 2.
+  * As an exception to the above rule, in dual-color variants, it is possible to perform a *5 Color Ejection* if all of the newly-introduced and non-focused cards are of a different suit. For example, on the first turn of the game, Alice can perform a *5 Color Ejection* by cluing red to Cathy and touching a red 5 on slot 1, a rainbow 2 on slot 2, and a rainbow 3 on slot 3.
+* The *5 Color Ejection* convention conflicts with *Unknown Trash Ejection* convention. In the case of a conflict, the *Unknown Trash Ejection* interpretation has precedence. (See the *5 Color Discharge* below.)
+
 #### Junk Ejection (with 5's)
 
 * Normally, in the *Early Game*, if there are some other *Play Clues* or *Save Clues* to give and a number 5 clue is given to a one-away-from-chop 5, then it is an "early" *5 Stall* and is instead treated as an *Early 5's Chop Move*.
@@ -2168,6 +2183,22 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 * Normally, when known trash is touched as the focus of the clue, and the known trash is on chop, it communicates a *Trash Push*.
 * However, what if the *Trash Pushed* card is trash? The other players can see that this clue must have some other purpose - it should signal an *Ejection* on the very next player.
+
+#### The 5 Pull Ejection and The 5 Pull Ejection Chop Move
+
+* This convention only applies in the *Early Game*.
+* Normally, if someone performs a *5 Pull* on a card that is one-away-from-playable, it promising that someone has the in-between card as a *5 Pull Finesse*.
+* However, if someone performs a *5 Pull* on a card that is two-away (or more) from playable card, then they must be trying to communicate something extra.
+* In this situation, they intend the next player to blind-play their *Second Finesse Position* card as a *5 Pull Ejection*.
+* The player receiving the clue should also *Chop Move* the *5 Pull* target, as it is likely to be a useful card that the team will need later.
+* For example, in a 4-player game:
+  * It is the first turn and nothing is played on the stacks.
+  * Alice clues number 5 to Cathy, touching a red 5 on slot 1. Cathy has a blue 4 on slot 2. There are other *Play Clues* for Alice to give, so this looks like a *5 Pull* on the blue 4.
+  * Bob knows that if no-one on the team does anything, Cathy will go on to misplay the blue 4 as a *5 Pull*.
+  * Bob also knows that if he plays his *Finesse Position* card, Cathy will still go on to misplay the blue 4 as a *5 Pull Finesse*.
+  * Thus, Bob blind-plays his *Second Finesse Position* card. It is blue 1 and it successfully plays.
+  * Cathy know knows that the card to the right of her 5 is two (or more) away from being playable. She also marks the card as being chop moved.
+* Rarely, it is possible for a *5 Pull Ejection* to occur where the player who receives the number 5 clue is able to determine that the only "other" thing to clue must be a card in their hand. In this situation, they might be hesitant to discard. By convention, players are allowed to discard in this situation. (This follows from *Guide Principle*.)
 
 #### Order Ejection
 
@@ -2216,6 +2247,19 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * If an *Unknown Trash Ejection* touches multiple cards, only the focus of the clue must be trash.
 * Thus, if a *Unknown Trash Ejection*-style clue touches two or more trash cards, then it must be a *Discharge* instead.
 * *Unknown Trash Discharges* are "turned off" in the *Early Game* (since they conflict with *5 Color Discharges*).
+
+#### The 5 Color Discharge
+
+* This convention only applies in the *Early Game*.
+* The *Unknown Trash Ejection* has precedence over the *5 Color Ejection*, so it is not possible to perform a *5 Color Ejection* if there are any cards of that color that are already played or already discarded.
+* However, in the situation where there **are** cards of that color that are already played or already discarded, it is possible to perform the move as a *Discharge* instead of an *Ejection*.
+* For example, in 3-player game:
+  * Red 1 is played on the stacks.
+  * Alice clues red to Cathy, touching a red 5 on slot 3.
+  * Bob knows that normally, this would be a *Finesse* on the 5, indicating to Bob that he has the red 2, the red 3, and the red 4. However, since it is the *Early Game*, he also knows that it might be a *5 Color Ejection* instead, since those should take precedence over a *Finesse*.
+  * However, the problem with this interpretation is that if Bob blind-plays his *Second Finesse Position* card, then Cathy will think that it is an *Unknown Trash Ejection*. Since *Unknown Trash Ejections* have precedence over *5 Color Ejections*, Cathy will mark her red 5 as red 1, and the next time that Cathy needs to discard, she will discard the red 5. That would be quite bad.
+  * Instead, Bob knows that Alice must instead intend for Bob to blind-play his *Third Finesse Position* card as a *5 Color Discharge*. It is a red 2 and it successfully plays.
+  * From Cathy's perspective, if Bob had played his *Finesse Position* card in response to the red clue, then Cathy would know that it was a *Finesse* or a *Bluff*. If Bob had played his *Second Finesse Position* card in response to the red clue, then Cathy would know that it was a *Unknown Trash Ejection* (as a red 1). But since Bob blind-played his *Third Finesse Position* card, it must be the red 5.
 
 ### The Dump Truck
 
@@ -2934,7 +2978,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 | The Black Save Bluff | Sankala
 | Inverted Priority Finesse | Zamiel
 | Multi-Five Saves | Libster
-| 4 Stalls & Early 4's Chop Move & 4 Pull | Andrew U.K.
 | The Trash Pull | Libster
 | The Repair Finesse | Zamiel
 | The Paused Priority Finesse | Asddsa
@@ -2957,3 +3000,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 | Trash Touch Elimination | Steven
 | The Duck Trash Ejection | Dr. Kakashi
 | Junk Ejection | Jeff
+| The 5 Color Ejection | Jeff
+| The 5 Color Discharge | Jeff
+| The 5 Pull Ejection and The 5 Pull Ejection Chop Move | Jeff
