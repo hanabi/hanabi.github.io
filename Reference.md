@@ -2141,9 +2141,17 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * Since the *Second Finesse Position* card was played instead of the *Finesse Position* card, then the player who received the clue will know that the card is trash.
 * With the *Trash Bluff*, if multiple cards are clued, it means that **all** of the cards are trash. However, with *Unknown Trash Ejection*, if multiple cards are clued, only the focus of the clue is trash.
 
-#### Junk Ejection
+#### Junk Ejection (with Trash)
 
-* This convention only applies in the *Early Game*.
+* Normally, when known trash is touched as the focus of the clue, it communicates a *Trash Chop Move* or a *Trash Push*.
+* However, what if the *Chop Moved* cards are also all trash? Or, alternatively, what if *Trash Pushed* card is trash?
+* The other players can see that this clue must have some other purpose - it should signal an *Ejection* on the very next player.
+* Both forms (the *Trash Chop Move Ejection* form and the *Trash Push Ejection* form) are both called *Junk Ejection* for simplicity.
+* Both of these forms of *Junk Ejection* can be performed throughout the game. (They are legal in the *Early Game*, the *Mid-Game*, and the *End-Game*. However, keep in mind that in the *End-Game* a player might just be stalling.)
+
+#### Junk Ejection (with 5's)
+
+* Unlike *Junk Ejection* with trash, *Junk Ejection* with a 5 is only "turned on" in the *Early Game*.
 * Normally, in the *Early Game*, if there are some other *Play Clues* or *Save Clues* to give and a number 5 clue is given to a one-away-from-chop 5, then it is an "early" *5 Stall* and is instead treated as an *Early 5's Chop Move*.
 * If other players can see that an *Early 5's Chop Move* was performed on a trash card, then this would normally indicate that it was **not** a *Chop Move* and is instead a *Finesse* on all of the cards leading up to the 5.
 * A *Finesse* on all of the cards leading up to the 5 is fairly unlikely in the *Early Game*. Instead, everyone agrees that this situation instead communicates an *Ejection* on the very next player.
