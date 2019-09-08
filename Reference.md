@@ -2442,6 +2442,18 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * However, doing that would break the *Pink Promise*, since once Cathy learns that her slot 5 card is a pink card, she will always assume that it is a pink 5.
   * Thus, Alice gives a number 2 clue as a *2 Save* on the pink 2, and then Bob clues a number 5 clue as a *5 Save* on the blue 5.
 
+#### The Pink Prompt Rank Exception
+
+* Normally, *Prompts* take precedence over *Finesses*. This means that if a card in a player's hand has one or more positive clues on it that "match", they should never blind-play their *Finesse Position* and instead play their left-most clued card.
+* This rule does **not** apply to potential pink cards that only have a single rank clue on them (and the rank on them does not match the rank of the promised card). In this situation, players should prefer playing their *Finesse Position* instead of playing the clued card.
+* For example, in a 3-player game:
+  * All of the 2's are played on the stacks.
+  * Alice clues pink to Cathy, touching a pink 4 on slot 1 as a *Play Clue*.
+  * Bob's slot 2 card and slot 3 card have a single number 4 clue of them (and no other clues).
+  * Bob knows that he is promised the pink 3. Technically, the pink 3 could be his slot 2 card, and *Prompts* normally take precedence over *Finesses*.
+  * However, Bob also knows that *Prompts* do not apply to pink cards with a rank mismatch. This is currently the case for him since he is promised a 3 and his clued card has a number 4 clue on it.
+  * Thus, Bob plays his *Finesse Position* card as pink 3.
+
 #### The Pink Play Clue Lie (which resolves immediately)
 
 * Players can violate *Pink Promise* if they are giving a *Play Clue* and the lie will resolve immediately.
@@ -2451,6 +2463,11 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Bob immediately plays the card on slot 1, thinking that it is a red 3. It is actually the pink 4.
   * Bob knows that Alice broke *Pink Promise* and that he was lied to. However, the lie was legal because it resolved immediately, satisfying *Good Lie Principle*. Nothing else is promised.
   * Bob knows that Alice likely did things this way because she wanted a 2-for-1 (to pick up some useful 3 "for free") instead of just a 1-for-1 on just the pink 4.
+
+#### No Order Chop Moves
+
+* At the beginning of the game, when you get a clue that touches multiple 1's, you are supposed to play them all right-to-left exactly in the same way that you would in a no variant game.
+* Players are not allowed to *Order Chop Move*, because they could be misplaying a pink card. (See the following section.)
 
 #### The Pink Play Clue Lie (with multiple 1's)
 
@@ -2463,11 +2480,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * On his next turn, Bob plays the pink 2 from slot 3. Bob is immediately surprised that this is not a real 1, but he knows that this kind of thing is allowed and that he should continue to play his remaining 1's.
   * On his next turn, Bob plays the pink 3 from slot 2. Bob is again surprised that this is not a real 1, but he knows that this kind of thing is allowed and that he should continue to play his final 1.
   * On his next turn, Bob plays the red 1 from slot 1.
-
-#### Multiple 1's
-
-* At the beginning of the game, when you get a clue that touches multiple 1's, you are supposed to play them all right-to-left exactly in the same way that you would in a no variant game.
-* Players are not allowed to *Order Chop Move*, because they could be misplaying a pink card.
 
 #### Pink Fix Clues (on 1's)
 
@@ -2499,50 +2511,50 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Thus, Bob knows that the point of Alice's clue was a *Fix Clue* to stop him from playing the pink card. The 3 on his chop could be any 3 in the game. Furthermore, Bob knows that *Pink Promise* applies to this *Fix Clue* and that his pink card should be exactly *Pink 3*.
 * As an exception, *Pink Fix Promise* does **not** apply when the *Fix Clue* is a number 2 clue or a number 5 clue and the newly introduced card was on chop. The example from the *1's in a Pink Variant* section showcases this. (In this example, Bob's pink card is not necessarily a pink 5; it can be any pink card in the game.)
 
-#### Pink Choice
+#### Pink Choice Tempo Clue
 
-* When one or more pink cards are retouched with a pink clue, the interpretation should be as normal: play the cards from left to right as a *Tempo Clue* (or *Double Tempo Clue*).
+* When one or more pink cards are retouched with a pink clue, the interpretation should be as normal: play the cards from left to right as a *Tempo Clue* (or a *Double Tempo Clue*).
 * When one or more pink cards are retouched with a rank clue, and there are no "new" cards introduced (or, if the only "new" cards introduced are trash), then extra information can be conveyed by what rank is chosen.
 * The rank chosen should correspond to the slot that they should play.
 * For example, in a 3-player game:
-  * Bob has two pink cards clued in his hand on slot 3 and slot 5. He does not know the rank of either card.
-  * Alice clues number 5 to Bob, which touches both pink cards and nothing else.
-  * Bob knows that a rank 5 clue means to play slot 5, so he plays his right-most pink card.
-  * Bob holds on to the other pink card for later, knowing that the *Pink Slot Choice* only "gets" one card.
+  * Bob has two pink cards clued in his hand on slot 3 and slot 4. He does not know the rank of either card.
+  * Alice clues number 4 to Bob, which touches both pink cards and nothing else.
+  * Bob knows that a rank 4 clue means to play slot 4, so he plays his right-most pink card.
+  * Bob holds on to the other pink card for later, knowing that the *Pink Choice Tempo Clue* only "gets" one card.
 
-#### The Pink Prompt Rank Exception
-
-* Normally, *Prompts* take precedence over *Finesses*. This means that if a card in a player's hand has one or more positive clues on it that "match", they should never blind-play their *Finesse Position* and instead play their left-most clued card.
-* This rule does **not** apply to potential pink cards that only have a single rank clue on them (and the rank on them does not match the rank of the promised card). In this situation, players should prefer playing their *Finesse Position* instead of playing the clued card.
-* For example, in a 3-player game:
-  * All of the 2's are played on the stacks.
-  * Alice clues pink to Cathy, touching a pink 4 on slot 1 as a *Play Clue*.
-  * Bob's slot 2 card and slot 3 card have a single number 4 clue of them (and no other clues).
-  * Bob knows that he is promised the pink 3. Technically, the pink 3 could be his slot 2 card, and *Prompts* normally take precedence over *Finesses*.
-  * However, Bob also knows that *Prompts* do not apply to pink cards with a rank mismatch. This is currently the case for him since he is promised a 3 and his clued card has a number 4 clue on it.
-  * Thus, Bob plays his *Finesse Position* card as pink 3.
-
-#### Pink Fix Clues (in general)
-
-* Normally, if a clue re-touches pink cards, it is treated as a *Pink Choice Tempo Clue* or *Pink Choice Finesse*.
-
-
-#### The Bubblegum Finesse
+#### The Pink Choice Finesse
 
 * The concept of *Pink Slot Choice* can also be used to invoke a *Finesse* on a pink card.
 * For example, in a 3-player game:
   * No cards are played on the stacks.
-  * Cathy has a clued pink 3 in slot 3 and a clued pink 2 in slot 5. She does not know the rank of either card.
-  * Alice clues number 5 to Cathy, which touches both pink cards and nothing else.
-  * Bob knows that a rank 5 clue means to play slot 5, so pink 2 must be playable right now. Bob plays his *Finesse Position* card as pink 1.
-* The *Bubblegum Finesse* can also work on non-pink cards.
+  * Cathy has a clued pink 3 in slot 3 and a clued pink 2 in slot 4. She does not know the rank of either card.
+  * Alice clues number 4 to Cathy, which touches both pink cards and nothing else.
+  * Bob knows that a number 4 clue means to play slot 4, so the pink 2 must be playable right now. Bob plays his *Finesse Position* card as pink 1.
+  * Cathy plays the pink 2 from slot 4.
+
+#### Pink Fix Clues (in general)
+
+* Normally, if a clue re-touches pink cards that are known to be pink, it is treated as a *Pink Choice Tempo Clue* or a *Pink Choice Finesse*.
+* However, what if the indicated slot is not a pink card? That does not make sense, as *Pink Choice* is typically only used to communicate a play about a pink card.
+* In this situation, it must not be a *Play Clue* at all but instead be a *Fix Clue* - the rank of the leftmost pink card must match the clue.
+* For example, in a 3-player game:
+  * All of the 3's are played on the stacks.
+  * Bob has a known pink card on slot 4 and a known pink card on slot 5.
+  * Alice clues number 3 to Bob, which re-touches the pink cards on slots 4 and 5.
+  * Normally, Bob would interpret this as a *Pink Choice Tempo Clue* and play his slot 3 card. However, his slot 3 card is completely unclued.
+  * Bob instead knows that this must be a *Pink Fix Clue* and that his leftmost pink card (on slot 4) must be exactly the pink 3.
+  * Bob discards his slot 4 card as pink 3.
+
+#### The Bubblegum Finesse
+
+* The *Pink Choice Finesse* can also work on non-pink cards. This is called a *Bubblegum Finesse* to disambigate it from a more-ordinary *Pink Choice Finesse*.
+* *Pink Fix Clues* take precedence over *Bubblegum Finesses*, so they will only typically work if performed as *Forward Finesses* (instead of *Reverse Finesses*).
 * For example, in 3-player game:
   * No cards are played on the stacks.
-  * Cathy has an unclued red 2 in slot 1, a clued pink 3 in slot 3, and a clued pink 2 in slot 5.
+  * Cathy has an unclued red 2 in slot 1, a clued pink 3 in slot 3, and a clued pink 2 in slot 4.
   * Alice clues number 1 to Cathy, which touches both pink cards and nothing else.
   * Bob knows that a rank 1 clue means to play slot 1, so red 2 must be playable right now. Bob blind-plays red 1 from his *Finesse Position*.
   * Cathy blind-plays her slot 1 as red 2.
-* Similar to *Color Blind* conventions, players have to respect *Reverse Bubblegum Finesses*, and so forth.
 
 ### White Conventions
 
