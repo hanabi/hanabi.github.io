@@ -2474,7 +2474,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * This rule does **not** apply to potential pink cards that only have a single rank clue on them (and the rank on them does not match the rank of the promised card). In this situation, players should prefer playing their *Finesse Position* instead of playing the clued card.
 * For example, in a 3-player game:
   * All of the 2's are played on the stacks.
-  * Alice clues pink to Cathy, touching a pink 3 on slot 1 as a *Play Clue*.
+  * Alice clues pink to Cathy, touching a pink 4 on slot 1 as a *Play Clue*.
   * Bob's slot 2 card and slot 3 card have a single number 4 clue of them (and no other clues).
   * Bob knows that he is promised the pink 3. Technically, the pink 3 could be his slot 2 card, and *Prompts* normally take precedence over *Finesses*.
   * However, Bob also knows that *Prompts* do not apply to pink cards with a rank mismatch. This is currently the case for him since he is promised a 3 and his clued card has a number 4 clue on it.
