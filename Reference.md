@@ -2143,16 +2143,12 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 #### Junk Ejection (with Trash)
 
-* Normally, when known trash is touched as the focus of the clue, it communicates a *Trash Chop Move* or a *Trash Push*.
-* However, what if the *Chop Moved* cards are also all trash? Or, alternatively, what if *Trash Pushed* card is trash?
-* The other players can see that this clue must have some other purpose - it should signal an *Ejection* on the very next player.
-* In practice, this is almost exactly the same as a *Known Trash Ejection*, except that instead of cluing known trash that already had a clue on it, a "fresh" known trash card is clued.
-* Both forms (the *Trash Chop Move Ejection* form and the *Trash Push Ejection* form) are called *Junk Ejection* for simplicity.
+* Normally, when known trash is touched as the focus of the clue, and the known trash is not on chop, it communicates a *Trash Chop Move*.
+* However, what if the *Chop Moved* cards are also all trash? The other players can see that this clue must have some other purpose - it should signal an *Ejection* on the very next player.
 * *Junk Ejection* can be performed throughout the game. (But keep in mind that in the *End-Game*, a player might just be stalling.)
 
 #### Junk Ejection (with 5's)
 
-* Unlike *Junk Ejection* with trash, *Junk Ejection* with a 5 is only "turned on" in the *Early Game*.
 * Normally, in the *Early Game*, if there are some other *Play Clues* or *Save Clues* to give and a number 5 clue is given to a one-away-from-chop 5, then it is an "early" *5 Stall* and is instead treated as an *Early 5's Chop Move*.
 * If other players can see that an *Early 5's Chop Move* was performed on a trash card, then this would normally indicate that it was **not** a *Chop Move* and is instead a *Finesse* on all of the cards leading up to the 5.
 * A *Finesse* on all of the cards leading up to the 5 is fairly unlikely in the *Early Game*. Instead, everyone agrees that this situation instead communicates an *Ejection* on the very next player.
@@ -2166,6 +2162,12 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Normally, since it is the *Early Game*, a number 5's clue to Cathy might just be a *5 Stall*. However, since Alice could have given the red *Play Clue* to Donald, this is an "early" 5's clue, so it must be an *Early 5's Chop Move*.  However, this cannot be an *Early 5's Chop Move* either, since Cathy has a trash red 1 on her chop.
   * Thus, Bob knows that this is a *Junk Ejection*, and he blind-plays his *Second Finesse Position*. It is a green 1 and successfully plays.
   * Cathy knows that if this was an *Early 5's Chop Move*, then Bob would not have blind-played anything. Since he blind-played his *Second Finesse Position* card, this must be a *Junk Ejection* and her slot 4 card must be trash.
+* Unlike *Junk Ejection* with trash, *Junk Ejection* with a 5 is only "turned on" in the *Early Game*.
+
+#### Trash Push Ejection
+
+* Normally, when known trash is touched as the focus of the clue, and the known trash is on chop, it communicates a *Trash Push*.
+* However, what if the *Trash Pushed* card is trash? The other players can see that this clue must have some other purpose - it should signal an *Ejection* on the very next player.
 
 #### Order Ejection
 
