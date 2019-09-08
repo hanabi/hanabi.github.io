@@ -1403,7 +1403,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### The Out-of-Order Finesse (Triple O / OOO / O.O.O.)
 
-* Sometimes, a *Finesse* is invoked by giving a color clue to two or more cards where the next card in the sequence is clued, but it is **not** the focus of the clue.
+* Sometimes, a *Finesse* is initiated by giving a color clue to two or more cards where the next card in the sequence is clued, but it is **not** the focus of the clue.
 * When this happens, the *Finesse* will still work: a player will blind-play a matching card. However, a *Fix Clue* must then be given to the player who originally received the clue, or they will go on to misplay.
 * Normally, after receiving a *Fix Clue*, a player would normally "stop" and not assume anything else about his hand. However, this is a special situation: when the original *Finesse* was given, it was a message that the focus of the clue was playable. *Information Lock Principle* applies, and it means that the original focus of the clue is also playable.
 * For example, in a 3-player game:
@@ -2524,7 +2524,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 #### The Pink Choice Finesse
 
-* The concept of *Pink Choice* can also be used to invoke a *Finesse* on a pink card.
+* The concept of *Pink Choice* can also be used to initiate a *Finesse* on a pink card.
 * For example, in a 3-player game:
   * No cards are played on the stacks.
   * Cathy has a clued pink 3 in slot 3 and a clued pink 2 in slot 4. She does not know the rank of either card.
