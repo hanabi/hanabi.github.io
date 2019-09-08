@@ -2524,7 +2524,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 #### The Pink Choice Finesse
 
-* The concept of *Pink Slot Choice* can also be used to invoke a *Finesse* on a pink card.
+* The concept of *Pink Choice* can also be used to invoke a *Finesse* on a pink card.
 * For example, in a 3-player game:
   * No cards are played on the stacks.
   * Cathy has a clued pink 3 in slot 3 and a clued pink 2 in slot 4. She does not know the rank of either card.
