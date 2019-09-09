@@ -1744,7 +1744,28 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * However, if **both** blue 3's were touched with the number 3 clue, then that would violate *Good Touch Principle*, and this would be considered a "bad touch".
 * If someone is violating *Good Touch Principle*, they must have a very good reason, so the clue must be a *Double Finesse* instead of a *3 Bluff*. In the above example, the next player should blind-play the blue 2 from their *Finesse Position*.
 * After that, the player who received the clue can safely discard the focused 3.
+* For example, in a 4-player game:
+  * It is the first turn and nothing is played on the stacks.
+  * Alice clues number 3 to Donald, touching two red 3's.
+  * Bob blind-plays his *Finesse Position* and it is red 1.
+  * Cathy knows that normally, this would be a *3 Bluff*. However, since the red 3's are duplicated, this must be a *Bad Touch Double Finesse*, so Cathy blind-plays her *Finesse Position* and it is the red 2.
+  * Donald knows that the other 3 in his hand must be the other copy of red 3, or else Cathy would not have blind-played anything, so Donald plays the left-most red 3. The next time that Donald discards, he will discard the known trash red 3. 
 * In the same way, it is also possible to *Bad Touch Double Bluff* (or *Bad Touch Double Half Bluff*) in order to get unrelated cards played from *Finesse Position*.
+* For example, in a 4-player game:
+  * It is the first turn and nothing is played on the stacks.
+  * Alice clues number 3 to Donald, touching two red 3's.
+  * Bob blind-plays his *Finesse Position* and it is blue 1.
+  * Cathy knows that normally, this would be a *3 Bluff*. However, since the red 3's are duplicated, this must be a *Bad Touch Double Bluff*, so Cathy blind-plays her *Finesse Position* and it is the green 1.
+  * Donald knows that he must have a duplicated copy of a 3, or else Cathy would not have blind-played anything. Donald discards the left-most 3.
+* Instead of cluing the same 3 in one hand, it is also possible to perform a *Bad Touch Double Finesse/Bluff* by intentionally duplicating a 3 in another player's hand.
+* For example, in a 5-player game:
+  * All of the 1's are played except for red 1.
+  * Emily has a clued red 3 in his hand.
+  * Alice clues number 3 to Donald, touching a red 3 (and duplicating it, since Emily already has a copy with a clue on it).
+  * Bob blind-plays his *Finesse Position* and it is red 1.
+  * Cathy knows that normally, this would be a *3 Bluff*. However, since the red 3 was duplicated, this must be a *Bad Touch Double Finesse*, so Cathy blind-plays her *Finesse Position* and it is the red 2.
+  * Donald knows that this cannot be a *3 Bluff*, or else Cathy would not have blind-played anything. Thus, this must be a *Bad Touch Double Finesse*, so Donald discards his red 3 as a *Sarcastic Discard* to pass it back to Emily.
+  * Emily plays the red 3.
 
 ### The Suboptimal Save Prompt & The Suboptimal Save Finesse
 
