@@ -1922,7 +1922,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Why this policy? It is not possible to play with both *Layered Finesses* and *Reverse Bluffs* at the same time, and *Layered Finesses* are much better.
 * However, players **can** rarely break the *Bluff Seat* rule if one of the following is true:
   * 1) The next player is at 0 clues (and won't blind-play anything / will blind-play an unrelated card).
-  * 2) The next player will think that they have the *Bluffed* card in their own hand and will play something else (instead of *Finessing* or *Bluffing* the next player).
+  * 2) The next player will think that they have the *Bluffed* card in their own hand and will not try to *Finesse* or *Bluff* the next player. (In this case, the *Bluffed* card means the card that will literally blind-play, not the "in-between" card.)
   * 3) The next player has negative information on their entire hand (so that they know they do not have the correct card).
 * Essentially, if #1 or #2 is true, then the next player cannot act on their state of misinformation. And if it is #3, then the next player will have full knowledge that a lie is occurring, so they will not mess anything up.
 * Since valid *Reverse Bluffs* are so rare, it is important to remember that:
