@@ -16,13 +16,13 @@ Playing with Hat Guessing was quite fun, but not fun enough to want to play with
 
 The story of Hat Guessing is relevant because if the goal of the group was to only to maximize win-rate, then we would simply play with Hat Guessing all the time. But Hanabi is a game, and we want to have as much fun playing it as possible. So with all of that in mind, we could say that the goal of the convention framework is three-fold:
 
-1) To maximize win-rate
+**1) To maximize win-rate**
 	- We are Hanabi enthusiasts and we care about optimizing our play to win the maximum number of games possible.
 	- Optimizing win-rate too much can take the fun out of the game, so there is a balance involved.
-2) To minimize complexity
+**2) To minimize complexity**
 	- We want to make conventions that are intuitive and easy to remember.
 	- If a convention is complicated but increases win-rate by a lot, then that is an okay tradeoff.
-2) To have fun
+**2) To have fun**
 	- Having lots of conventions can be fun, because it raises the skill cap and provides a deeper challenge than just playing surface-level Hanabi.
 	- It can be fun to make people blind-play cards in new and exciting ways.
 	- Too much complexity can be overwhelming and not very fun, so there is a balance involved.
