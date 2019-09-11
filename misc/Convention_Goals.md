@@ -14,7 +14,7 @@ Separate from all of this, Floris van Doorn starting playing Hanabi with our gro
 
 Playing with Hat Guessing was quite fun, but not fun enough to want to play with it all the time - or even most of the time. It requires constant use of modular mathematics and it did not come naturally to most people. The Hyphen-ated group returned to playing the "normal" way and only ventured back to playing with Hat Guessing on rare occasions.
 
-The story of Hat Guessing is relevant because if the goal of the group was simply to maximize win-rate, then we would simply play with Hat Guessing all the time. But Hanabi is a game, and we want to have as much fun playing it as possible. So with all of that in mind, we could say that the goal of the convention framework is three-fold:
+The story of Hat Guessing is relevant because if the goal of the group was to only to maximize win-rate, then we would simply play with Hat Guessing all the time. But Hanabi is a game, and we want to have as much fun playing it as possible. So with all of that in mind, we could say that the goal of the convention framework is three-fold:
 
 1) To maximize win-rate
 	- We are Hanabi enthusiasts and we care about optimizing our play to win the maximum number of games possible.
