@@ -19,11 +19,9 @@ The story of Hat Guessing is relevant because if the goal of the group was to on
 1. To maximize win-rate
 	- We are Hanabi enthusiasts and we care about optimizing our play to win the maximum number of games possible.
 	- Optimizing win-rate too much can take the fun out of the game, so there is a balance involved.
-
 2. To minimize complexity
 	- We want to make conventions that are intuitive and easy to remember.
 	- If a convention is complicated but increases win-rate by a lot, then that is an okay tradeoff.
-
 3. To have fun
 	- Having lots of conventions can be fun, because it raises the skill cap and provides a deeper challenge than just playing surface-level Hanabi.
 	- It can be fun to make people blind-play cards in new and exciting ways.
