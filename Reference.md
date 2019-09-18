@@ -1593,7 +1593,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 * If a player has a known playable card and a known trash card, and they discard instead of playing, then that is a *Scream Discard* and the next player should *Chop Move*.
 * If a player has a known playable card and two known trash cards, and they discard the oldest trash card instead of playing, then that is both a *Scream Discard Chop Move* and a *Trash Order Chop Move* at the same time.
-* In this situation, the next player should *Chop Move* twice.
+* In this situation, the next player should *Chop Move* twice. (This is the composition of a *Scream Discard Chop Move* and a *Trash Order Chop Move*.)
 
 ### The Stop Discard
 
