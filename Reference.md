@@ -15,10 +15,14 @@ Note that convention updates for the group are listed in the `#announcements` ch
 3. [Level 1 - Beginner Strategies](#level-1---beginner-strategies)
 4. [Level 2 - Intermediate Strategies](#level-2---intermediate-strategies)
 5. [Level 2 - General Principles](#level-2---general-principles)
-6. [Level 3 - Advanced Strategies](#level-3---advanced-strategies)
-7. [Level 4 - Expert Strategies](#level-4---expert-strategies)
-8. [Level 3 - Rarely Used Advanced Strategies](#level-3---rarely-used-advanced-strategies)
-9. [Level 4 - Rarely Used Expert Strategies](#level-4---rarely-used-expert-strategies)
+6. [Level 2 - Common Mistakes & Illegal Moves]()
+7. [Level 3 - Advanced Strategies](#level-3---advanced-strategies)
+8. [Level 4 - Expert Strategies](#level-4---expert-strategies)
+9. Level 5 - Rarely Used Strategies
+    * [Save Clues & Non-Emergency Chop Moves]()
+    * [Finesses & Bluffs]()
+    * [Emergency Moves]()
+    * [Miscellaneous]()
 10. [Variant-Specific Strategies](#variant-specific-strategies)
 11. [Convention Attribution](#convention-attribution)
 
@@ -257,18 +261,6 @@ Note that in this user interface, players are holding their hands like they woul
   * Next, Cathy sees that Bob just blind-played a blue 3 immediately after this red clue, so she knows that she must have a one-away from playable red card - the red 4. Cathy holds on to the red 4 for later and discards.
 * Except in rare circumstances, ***Bluffing* is only permissible when you are the person directly before the player who is blind-playing a card**. This is called being in *Bluff Seat*. Do not *Bluff* unless you are in *Bluff Seat*! (This follows from *Good Lie Principle*.)
 
-### Bluff Prompts / Prompt Bluffs (Illegal)
-
-* It is illegal to trick players into thinking that they are *Prompted*. *Prompts* **must** be the truth.
-* For example, in a 4-player game:
-  * Red 1 and blue 1 are played on the stacks.
-  * Bob has a clued 2 in his hand and does not know its true identity.
-  * Alice clues red to Donald, touching a red 3 as a *Play Clue*.
-  * Bob knows that this must be a *Prompt*, so his 2 must be red 2. He plays it, and it is instead the blue 2.
-  * Cathy is slightly surprised that Bob played the blue 2, but he must have been able to figure it out somehow.
-  * Furthermore, Cathy knows that Alice's clue to Donald must be a *Finesse*, so Cathy must have the red 2 on her *Finesse Position*. She plays it, and it is instead the blue 5 and misplays.
-  * This was Alice's fault, because *Bluffs* are only allowed if they can be revealed immediately from a blind-play.
-
 ### The Early Game (Intermediate Section)
 
 * The *Early Game* is introduced in the beginner's document. In short:
@@ -323,6 +315,15 @@ Note that in this user interface, players are holding their hands like they woul
   * This means that Bob must have blue 3. Bob does not have any clued cards in his hand, so he blind-plays his *Finesse Position* card.
 * Similar to a normal *Prompt*, if a *Priority Prompt* could apply to two or more clued cards, then you should play the left-most one.
 * Similar to a normal *Prompt*, if a *Priority Prompt* made you play the left-most card and it was not the matching card, then you should continuing playing clued cards until you find the matching card.
+
+### The Priority Bluff 
+
+* Similar to a normal *Bluff*, it is also possible for players to perform a *Priority Bluff*.
+* For example, in a 3-player game:
+  * Alice has a known playable red 1 and a known playable blue 2 in her hand.
+  * Alice plays blue 2.
+  * Bob comes next. Bob does not see any red 2's. He does not see any blue 3's either. Thus, Alice was supposed to play the red 1 first, since red 1 is a lower rank than blue 2. Alice **did not** play the card with *Priority*.
+  * This means that Bob must have blue 3. Bob does not have any clued cards in his hand, so he blind-plays his *Finesse Position* card. It is **not** the blue 3 and is instead the green 1. Bob now knows that he was *Bluffed* and that no-one has the blue 3.
 
 ### A Priority Flowchart (For Choosing Between 2+ Playable Cards)
 
@@ -702,6 +703,45 @@ The other sections in this document contain lists of special "moves", but this s
     * You have two cards clued in your hand that you know to be red 3 and red 5.
     * The only useful cards left in the deck are two red 2's.
     * Here, there is no reason for you to stall, since the red 3 will **not** be played sooner if you stall.
+
+<br />
+
+## Level 2 - Common Mistakes & Illegal Moves
+
+### Bluff Prompts / Prompt Bluffs (Illegal)
+
+* It is illegal to trick players into thinking that they are *Prompted*. *Prompts* **must** be the truth.
+* For example, in a 4-player game:
+  * Red 1 and blue 1 are played on the stacks.
+  * Bob has a clued 2 in his hand and does not know its true identity.
+  * Alice clues red to Donald, touching a red 3 as a *Play Clue*.
+  * Bob knows that this must be a *Prompt*, so his 2 must be red 2. He plays it, and it is instead the blue 2.
+  * Cathy is slightly surprised that Bob played the blue 2, but he must have been able to figure it out somehow.
+  * Furthermore, Cathy knows that Alice's clue to Donald must be a *Finesse*, so Cathy must have the red 2 on her *Finesse Position*. She plays it, and it is instead the blue 5 and misplays.
+  * This was Alice's fault, because *Bluffs* are only allowed if they can be revealed immediately from a blind-play.
+
+### The Wrong Prompt (Mistake)
+
+* A common mistake in Hanabi is to attempt to perform a *Finesse* when there is a "matching" card in that player's hand. Since *Prompts* take precedence over *Finesses*, the player will always play their matching clued cards first.
+* When a card is *Prompted* and it misplays, everyone can read into this mistake - it was almost certainly a *Wrong Prompt*, meaning that the player who gave the clue probably intended for the *Finesse Position* card to play instead.
+* Thus, if there is nothing else special about the situation, the player who misplayed should go on to play their *Finesse Position* card on the next turn.
+
+### Self-Bluffs with Color Clues (Illegal)
+
+* It is possible (and fairly common) to perform a *Self-Bluff* on a player with a rank clue.
+* For example, in a 3-player game:
+  * Red 2 is played on the stacks.
+  * Alice clues number 4 to Bob, which touches one brand new 4 as a *Play Clue*.
+  * Bob knows that this is probably red 4, but he does not see any red 3's. Thus, Bob knows he must have the red 3, and blind-plays his *Finesse Position* card. It is blue 1.
+  * Bob now knows that he was *Bluffed* and that the 4 in his hand is exactly red 4.
+* *Self-Bluffs* on players with color clues are nonsensical, so players should not have to entertain that possibility. 
+* For example, in a 3-player game:
+  * Red 2 is played on the stacks.
+  * Alice clues red to Bob, touching one brand new red card  as a *Play Clue*.
+  * Bob has a negative 3 clue on his red card, so he knows it cannot be red 3.
+  * Bob does not see any red cards in other player's hands.
+  * Bob cannot have the red 3 in his *Finesse Position*, because that card has negative red.
+  * Bob now needs to figure out what the clue means. When going through all of the possibilities, he can safely put aside the possibility of a *Self-Bluff with Color* / a *Known Self-Bluff*, because we agree that they are illegal. The clue must have some other meaning and Bob will defer to whatever the next-most-likely thing is.
 
 <br />
 
@@ -1160,10 +1200,37 @@ The other sections in this document contain lists of special "moves", but this s
   * Alice receives no clues on the next go-around of the table. She discards, and now has *Elimination Notes* on slots 4 and 5.
   * Alice receives no clues on the next go-around of the table. Her teammates would not let the other copy of red 2 be discarded, so it must be on slot 4. Alice blind-plays red 2 from slot 4.
 
+### The Elimination Riding Deduction Bluff
+
+* Typically, when a player has two cards with *Elimination Notes* and the "true" copy of the card is on chop, you must clue it to let them know.
+* However, if the other card is also playable, you can "lie" to them and not clue anything.
+* Next, the player should perform an *Elimination Riding Deduction*, and play the unrelated card.
+* After that, there will be only one card left with an *Elimination Note*, so they will go on to play the "true" card on their next turn.
+
 ### The Elimination Self-Chop Move
 
 * Sometimes, you will have narrowed down your *Elimination Notes* to one specific card. Thus, even though the card has no positive clues on it, you know the exact identity of the card.
 * If the card in question is on your chop **and** the card is not yet playable **and** you need to discard, you should obviously not discard the important elimination card. You should instead self-chop move and discard the next thing.
+
+### The Elimination Finesse
+
+* Normally, if a player is *Finessed*, they are supposed to play their *Finesse Position* card. However, if the player has two or more *Elimination Notes* in their hand for the specific *Finessed* card, then they know that it cannot be on *Finesse Position*.
+* In this situation, the player is expected to play the **oldest** of the cards with the *Elimination Notes* on them (not counting *Chop Moved* cards, if any).
+* For example, in a 3-player game:
+  * Blue 2 is played on the stacks.
+  * Alice has a completely unclued hand.
+  * Alice discards a blue 3. Blue 3 was playable, and nothing urgent is currently happening, so she writes *Elimination Notes* on her hand for the other blue 3 on slots 2, 3, 4, and 5.
+  * Bob clues Cathy blue, which touches a blue 4 as a *Play Clue*.
+  * Cathy discards.
+  * Alice knows that this is some sort of *Reverse Finesse*, as it is calling for the blue 3. However, the blue 3 cannot be in her *Finesse Position* (slot 1), as she knows from the *Elimination Notes* that it must be either on slot 2, 3, 4, or 5. So it must instead be a *Reverse Elimination Finesse*.
+  * The *Elimination Finesse* promises that it is her oldest card, so she plays slot 5 as blue 3.
+* As mentioned above, *Chop Moved* cards should be skipped over when finding the *Elimination Finesse* target. If there are two or more cards with *Elimination Notes* on them and they are all *Chop Moved*, then the oldest *Chop Moved* card should be played.
+* *Elimination Finesses* apply to **all** types of situations with *Elimination Notes* (including *Discard Elimination Notes*, *Play Elimination Notes*, and *Double Discard Elimination Notes*). Subsequently, you can more specifically describe an *Elimination Finesse* as a *Discard Elimination Finesse*, a *Play Elimination Finesse*, or a *Double Discard Elimination Finesse*.
+* Note that normal *Finesses* take priority over *Self-Elimination Finesses*. For example:
+  * On the stacks, blue 2 and green 2 are played.
+  * Alice has *Elimination Notes* on slot 3 and slot 4 for red 3.
+  * Someone clues a number 4 in Alice's slot 1 as a *Self-Finesse*.
+  * Alice must assume that it is a normal *Self-Finesse* and play blue 3 from slot 2. (If it was an *Elimination Self-Finesse*, she would play red 3 from slot 4.)
 
 ### Play Elimination
 
@@ -1235,12 +1302,6 @@ The other sections in this document contain lists of special "moves", but this s
 * If a teammate performs a *Prompt* on you, and you have multiple cards in your hand that match the connecting card, normally you would be promised that the left-most (newest) is playable.
 * However, if the card that initiated the prompt was **on chop** when it was touched **and** it was in danger of being discarded, the left-most rule no longer applies, since your teammate had to take drastic measures to prevent the discard of that card.
 * So instead, you are promised that you have the connecting card somewhere in your hand, but it could be any of the cards, and not strictly the left-most.
-
-### The Wrong Prompt (Mistake)
-
-* A common mistake in Hanabi is to attempt to perform a *Finesse* when there is a "matching" card in that player's hand. Since *Prompts* take precedence over *Finesses*, the player will always play their matching clued cards first.
-* When a card is *Prompted* and it misplays, everyone can read into this mistake - it was almost certainly a *Wrong Prompt*, meaning that the player who gave the clue probably intended for the *Finesse Position* card to play instead.
-* Thus, if there is nothing else special about the situation, the player who misplayed should go on to play their *Finesse Position* card on the next turn.
 
 ### Critical Discards after a Chop Move (Mistake)
 
@@ -1451,15 +1512,9 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * The previously mentioned *Out-of-Order Finesse* is an specific example of a *Finesse* with a *Lie Component*. One key attribute of the *Out-of-Order Finesse* is that the player who receives the *Fix Clue* knows that **all** of the related cards are playable, or it would not have been worth the risk (and the confusion) to perform a line with a *Lie Component* in the first place.
 * This concept can be generalized to all *Finesses* that have a *Lie Component*. After a player receives a *Fix Clue* in such a situation, they should assume that the *Finesse* is "still on". So, depending on the situation, they should either know that the initial card that was clued is playable (like in an *Out-of-Order Finesse*) or continue to blind-play cards to the right of the card that got the *Fix Clue* (if more blind cards need to be played to fulfill the initial *Finesse*).
 
-### The Priority Bluff & The Layered Priority Finesse
-
-* It is possible to lie to the next player and imply a *Priority Finesse* when they have an unrelated card on *Finesse Position*.
-* After the unrelated card is played, since the player who lied was in *Bluff Seat*, no further cards should be promised.
-* If an unrelated card was played and the player who lied was not in *Bluff Seat*, it implies a *Priority Layered Finesse*.
-
 <br />
 
-## Level 3 - Rarely Used Advanced Strategies
+## Level 5 - Rarely Used Strategies (Save Clues & Non-Emergency Chop Moves)
 
 ### 2 Saves (Off Chop on the First Turn)
 
@@ -1486,17 +1541,70 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * But when *both* of the 2's are on chop, the team has to choose to save one of them and they can choose whichever player that they want.
 * Subsequently, it is **illegal** for someone to perform a *5 Stall* if both copies of the same 2 are both on the chop of two different players. They must instead choose to save one of the 2's.
 
-### Double Prompts in Multi-Color Variants
+### The Fake Save
 
-* Normally, when a multi-color card is *Prompted* from someone's hand, they should play the card that has the most positive information.
-* However, what if they are *Prompted* for two cards of the same multi-color suit? They should play the card with the most positive information first, even if it is not the left-most card.
-* For example, in a 3-player rainbow game:
-  * Rainbow 1 is played on the stacks.
-  * Bob has a slot 1 card that has a blue clue on it. (Thus, it is either a blue card or a rainbow card.)
-  * Bob also has a slot 3 card that has a blue clue and a red clue on it. (Thus, it is a known rainbow card.)
-  * Alice clues Cathy about a rainbow 4.
-  * Bob is promised the rainbow 2 and the rainbow 3, so he knows that these cards must be on slots 1 and slot 3.
-  * However, Bob also knows that you should always play the card with the most information on it first, so he plays his slot 3 card as rainbow 2 (instead of slot 1, the left-most card).
+* We are only able to perform *Save Clues* on specific cards and in specific ways, as outlined in the Beginner's Guide. For example, we all agree that we must save 5's with number 5.
+* In some specific circumstances, the team will have only one clue available and multiple cards must be saved with a single clue. In this situation, to prevent losing the game (or losing a currently-playable card), it is permissible to "lie" to the player and perform a non-legal *Save Clue*. The player will mark their chop card as something other than what it really is, so this move commits the team to giving a *Fix Clue* at some point in the future.
+* For example, in a 3-player game:
+  * Alice has 1 clue available.
+  * Bob has a red 5 on chop, followed by a red 4. The other copy of the red 4 is in the discard pile, so there are two critical cards in a row.
+  * Alice is not allowed to save the red 5 with a red clue, because then it would look like a *Save Clue* on a red 4.
+  * However, if Alice clues number 5 to Bob, then he will discard the red 4.
+  * Thus, Alice performs a *Fake Save* on both red cards by cluing red.
+  * Bob will mark his chop as the red 4, so the team will have him number 5 as a *Fix Clue* at some point in the future. At that point, he will be able to retroactively see that Alice was in a very tight spot and had to give a *Fake Save*.
+
+### Spillover Chop Move
+
+* If an *Order Chop Move* or a *Trash Order Chop Move* is performed, but the player who is supposed to *Chop Move* already has every single card in their hand clued, then this is very strange.
+* In this situation, the *Chop Move* should "skip" over that player and *Chop Move* the next person after that.
+
+### The Chop Transfer
+
+* Sometimes, duplicated cards are accidentally *Chop Moved* through a mistake or through a complicated situation. When this happens, it is pointless to use a clue to "undo" the *Chop Move* - the team can just continue to allow the player to discard normally.
+* Subsequently, if someone **does** use a clue to undo the *Chop Move*, there must be a good reason. This means that the card they were about to discard is important, so the player should discard the now-known useless card and then permanently *Chop Move* their new chop.
+
+### The Redundant Save Chop Move
+
+* Players that have two or more clued 1's in their hand will often use the *Order Chop Move* to *Chop Move* a 2, a 5, or a critical card on the next player's chop.
+* Subsequently, if a player with two or more clued 1's in their hand does not play a 1 and instead gives a *Save Clue* to a 2, a 5, or a critical card on the next player's chop, this is very strange.
+* In this situation, if there is nothing else special going on, the player who got clued should *Chop Move* the card next to the one that was explicitly saved.
+
+### The Unnecessary Trash Finesse/Bluff Chop Move
+
+* The *Trash Finesse* or *Trash Bluff* is almost always done as a last resort - there was no way to give a direct *Play Clue* to the player's *Finesse Position* card without violating *Good Touch Principle*.
+* However, sometimes there **is** a way to "cleanly" touch the player's *Finesse Position* card. In this situation, doing a *Trash Finesse* or *Trash Bluff* would be unnecessary. But what if a player does it anyway?
+* In this situation, the point of the clue must be to give the clue receiver a safe discard. Thus, the clue receiver should *Chop Move* all of the cards to the right of the trash in the exact same way as a *Trash Chop Move*.
+* For example, in a 3-player game, this **would not** be an *Unnecessary Trash Finesse Chop Move*:
+  * All of the 2's are played on the stacks except for the red 2.
+  * Bob has a red 2 on his *Finesse Position* and another red 2 on his chop. Thus, Alice cannot give a red clue to Bob and Alice cannot give a number 2 clue to Bob, since either clue would violate *Good Touch Principle*.
+  * Cathy's hand is completely unclued.
+  * Alice clues number 2 to Cathy, touching a blue 2 on slot 4. (Blue 2 is already played and is therefore trash.)
+  * Bob blind-plays red 2 from his *Finesse Position*, knowing that this is a *Trash Finesse* or *Trash Bluff*.
+  * Cathy knows that her 2 is trash. She also knows that this was likely the only way that Alice could "get" Bob's *Finesse Position* card.
+* For example, in a 3-player game, this **would** be an *Unnecessary Trash Finesse Chop Move*:
+  * All of the 2's are played on the stacks except for the red 2.
+  * Bob has a red 2 on his *Finesse Position* and no other red cards in his hand. Thus, Alice could give a red clue to Bob in order to "get" the red 2.
+  * Cathy's hand is completely unclued.
+  * Alice clues number 2 to Cathy, touching a blue 2 on slot 4. (Blue 2 is already played and is therefore trash.)
+  * Bob blind-plays red 2 from his *Finesse Position*, knowing that this is a *Trash Finesse* or *Trash Bluff*.
+  * Cathy knows that her 2 is trash. However, she also knows that this *Trash Finesse* was unnecessary, as Alice could have just clued red to Bob. Thus, Cathy knows that this is an *Unnecessary Trash Finesse Chop Move*, so she marks her slot 5 card as *Chop Moved*.
+* Importantly, *Unnecessary Trash Finesse/Bluff Chop Moves* are tricky in that they have information asymmetry: the player who blind-plays will **not** know that the card is chop moved, while everyone else will. All players will have to keep this in mind until the *Chop Move* has been demonstrated.
+
+### The Unnecessary Trash Finesse/Bluff Chop Move (Alternate Form)
+
+* An alternate form of the *Unnecessary Trash Finesse/Bluff Chop Move* exists where the unnecessary part is **not** in the clue receivers hand but in someone else's hand.
+* For example, in a 4-player game:
+  * Blue 1 and red 4 are played on the stacks.
+  * Alice clues red to Donald, which touches a red 1 on slot 3.
+  * Bob blind-plays his *Finesse Position*, knowing that this is a *Trash Finesse* or *Trash Bluff*. It is a blue 2 and successfully plays.
+  * Cathy discards.
+  * Donald knows that his red card is trash. However, at the time the clue was given, Donald sees that Alice could have actually clued a blue 3 in Cathy's hand to perform a normal *Finesse*. A normal *Finesse* is a 2-for-1 and a *Trash Bluff* is a 1-for-1, so Donald knows that Alice must have had a good reason for this.
+  * Donald knows that this must be the alternate form of the *Unnecessary Trash Bluff Chop Move*, so he marks his slot 4 card as *Chop Moved* and discards the red 1.
+  * Cathy does not know that Donald is *Chop Moved*. However, she will be able to retroactively figure it out once the blue 3 is clued. Alternatively, she will know once Donald demonstrates the *Chop Move* by discarding his slot 3.
+
+<br />
+
+## Level 5 - Rarely Used Strategies (Finesses & Bluffs)
 
 ### Known Bluffs
 
@@ -1535,15 +1643,19 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Bob blind-plays red 1.
   * Bob now knows that it was a *3 Bluff* and that no-one is promised the red 2. This is because even though the red 1 is the same suit as the red 3, *3 Bluffs* take precedence over *Double Finesses* as long as the clue type (number 3) does not match the card that was blind-played (a number 1).
 
-### The Priority Bluff & The Known Priority Bluff
+### Stacked Bluffs
 
-* Similar to a normal *Bluff*, it is also possible for players to perform a *Priority Bluff*.
-* For example, in a 3-player game:
-  * Alice has a known playable red 1 and a known playable blue 2 in her hand.
-  * Alice plays blue 2.
-  * Bob comes next. Bob does not see any red 2's. He does not see any blue 3's either. Thus, Alice was supposed to play the red 1 first, since red 1 is a lower rank than blue 2. Alice **did not** play the card with *Priority*.
-  * This means that Bob must have blue 3. Bob does not have any clued cards in his hand, so he blind-plays his *Finesse Position* card. It is **not** the blue 3 and is instead the green 1. Bob now knows that he was *Bluffed* and that no-one has the blue 3.
-* Furthermore, it is also possible to perform a *Priority Bluff* that is globally-known to be a *Bluff*. For example:
+* Normally, performing a *Bluff* on a player who is already *Finessed* is illegal. This is because players typically play into *Finesses* in order. So, they will ignore the second clue and play into the first *Finesse*, causing any hypothetical *Bluffs* to not resolve immediately. The logic behind this is that the player has to account for the possibility that the first *Finesse* is a *Layered Finesse*.
+* Rarely, a player can know that a *Layered Finesse* is impossible. This could be because they know the identity of every card in their hand (minus their *Finesse Position* card). Or, alternatively, they could have relevent negative information on their entire hand.
+* If the player can rule out a *Layered Finesse*, then it is possible to perform a *Stacked Bluff* on them. It is important to note that such a player is "locked in" to the *Bluff* and should almost always immediately play their *Finesse Position* card.
+
+### The Layered Priority Finesse
+
+* Similar to a normal *Layered Finesse*, it is also possible to initiate a *Layered Priority Finesse* as long as the blind-playing player is not the very next person.
+
+### The Known Priority Bluff
+
+* Players generally perform *Priority Bluffs* by tricking players into thinking they have a specific card. However, it is also possible to perform a *Priority Bluff* that is globally-known to be a *Bluff*. For example:
   * Alice has a three known playable cards: red 1, blue 4, and blue 5.
   * Bob has a known red 2.
   * Alice is expected to play the red 1 into the red 2, so the red 1 has *Priority*.
@@ -1551,140 +1663,11 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Normally, Bob would think that this is a *Priority Finesse* on the blue 5. However, both he and Alice know that Alice has the blue 5.
   * This must be a *Known Priority Bluff*, so Bob plays his *Finesse Position* card as any other playable card.
 
-### The Fake Save
+### The Elimination Bluff / The Elimination Layered Finesse
 
-* We are only able to perform *Save Clues* on specific cards and in specific ways, as outlined in the Beginner's Guide. For example, we all agree that we must save 5's with number 5.
-* In some specific circumstances, the team will have only one clue available and multiple cards must be saved with a single clue. In this situation, to prevent losing the game (or losing a currently-playable card), it is permissible to "lie" to the player and perform a non-legal *Save Clue*. The player will mark their chop card as something other than what it really is, so this move commits the team to giving a *Fix Clue* at some point in the future.
-* For example, in a 3-player game:
-  * Alice has 1 clue available.
-  * Bob has a red 5 on chop, followed by a red 4. The other copy of the red 4 is in the discard pile, so there are two critical cards in a row.
-  * Alice is not allowed to save the red 5 with a red clue, because then it would look like a *Save Clue* on a red 4.
-  * However, if Alice clues number 5 to Bob, then he will discard the red 4.
-  * Thus, Alice performs a *Fake Save* on both red cards by cluing red.
-  * Bob will mark his chop as the red 4, so the team will have him number 5 as a *Fix Clue* at some point in the future. At that point, he will be able to retroactively see that Alice was in a very tight spot and had to give a *Fake Save*.
-
-### The Unnecessary Generation Discard
-
-* Sometimes, in order to satisfy *Save Principle*, a player will perform an unnecessary *Generation Discard*, which generates a clue to save a card that they actually already have in their hand.
-* This puts the next player in an ambiguous situation: was it really a *Generation Discard*, or could it a *Scream Discard*? In order to cover both situations, they should not *Chop Move*, but they should also not discard on this turn.
-* For example, in a 3-player game:
-  * Red 3 is played on the stacks. No blue cards are played on the stacks.
-  * Alice has a blue 1 in her hand. She knows the exact identity of it, so it is known playable.
-  * Alice also has a 4 clued in her hand. She does not know what color it is.
-  * There are 0 clues, so if Alice plays the blue 1, Bob will be forced to discard.
-  * Alice sees that Cathy has a red 4 on chop, which is playable. If Alice does not have red 4 in her hand, then Cathy could potentially discard the red 4 (after Bob is forced to discard).
-  * So, Alice performs a *Generation Discard* to generate a clue so that Bob can clue the get the red 4, if necessary.
-  * Bob sees that Alice does indeed already have the red 4 in her hand, so from his perspective, if Alice was performing a *Generation Discard*, it was unnecessary.
-  * However, it could also be the case that Bob's chop is unsafe. So, Bob will **not** clue the red 4 on Cathy's chop, but he **will** spend the clue in some other productive fashion. If Bob has nothing productive to do, he must "burn" a clue, similar to what happens when a *Scream Discard* occurs.
-
-### The Composition Discard
-
-* In rare cases, it is possible for a discard to be both a *Scream Discard* and a *Generation Discard* at the same time, for two different players.
-* For example, in a 4-player game:
-  * There are 0 clues in the bank.
-  * Alice needs to plan ahead for her turn.
-  * Bob and Donald both have a critical chop card. Cathy has a safe discard.
-  * Alice and Bob both have one known playable card in their hand. 
-  * So, if Alice plays, Bob will perform a *Generation Discard*, and discard a critical card. This is not an option.
-  * Therefore, Alice must discard. This is a *Scream Discard* to Bob, and he should *Chop Move*. It is also a *Generation Discard* to Cathy, and she should not *Chop Move*.
-
-### The Fresh Play Clue (for Locked Players)
-
-* If a player's chop is their slot 1, *Locked* players are **not** allowed to *Locked Hand Save* it. This follows from basic logic: it would be unlikely for a player with a *Locked Hand* to want to lock another player on the team with a non-critical card.
-* Therefore, when a slot 1 chop card is clued by a *Locked* player, a *Play Clue* interpretation always takes priority over a *Locked Hand Save* interpretation.
-* This type of *Play Clue* is called a *Fresh Play Clue* in order to disambiguate it from a *Locked Hand Save*.
-
-### Spillover Chop Move
-
-* If an *Order Chop Move* or a *Trash Order Chop Move* is performed, but the player who is supposed to *Chop Move* already has every single card in their hand clued, then this is very strange.
-* In this situation, the *Chop Move* should "skip" over that player and *Chop Move* the next person after that.
-
-### The Elimination Riding Deduction Bluff
-
-* Typically, when a player has two cards with *Elimination Notes* and the "true" copy of the card is on chop, you must clue it to let them know.
-* However, if the other card is also playable, you can "lie" to them and not clue anything.
-* Next, the player should perform an *Elimination Riding Deduction*, and play the unrelated card.
-* After that, there will be only one card left with an *Elimination Note*, so they will go on to play the "true" card on their next turn.
-
-### The Elimination Finesse
-
-* Normally, if a player is *Finessed*, they are supposed to play their *Finesse Position* card. However, if the player has two or more *Elimination Notes* in their hand for the specific *Finessed* card, then they know that it cannot be on *Finesse Position*.
-* In this situation, the player is expected to play the **oldest** of the cards with the *Elimination Notes* on them (not counting *Chop Moved* cards, if any).
-* For example, in a 3-player game:
-  * Blue 2 is played on the stacks.
-  * Alice has a completely unclued hand.
-  * Alice discards a blue 3. Blue 3 was playable, and nothing urgent is currently happening, so she writes *Elimination Notes* on her hand for the other blue 3 on slots 2, 3, 4, and 5.
-  * Bob clues Cathy blue, which touches a blue 4 as a *Play Clue*.
-  * Cathy discards.
-  * Alice knows that this is some sort of *Reverse Finesse*, as it is calling for the blue 3. However, the blue 3 cannot be in her *Finesse Position* (slot 1), as she knows from the *Elimination Notes* that it must be either on slot 2, 3, 4, or 5. So it must instead be a *Reverse Elimination Finesse*.
-  * The *Elimination Finesse* promises that it is her oldest card, so she plays slot 5 as blue 3.
-* As mentioned above, *Chop Moved* cards should be skipped over when finding the *Elimination Finesse* target. If there are two or more cards with *Elimination Notes* on them and they are all *Chop Moved*, then the oldest *Chop Moved* card should be played.
-* *Elimination Finesses* apply to **all** types of situations with *Elimination Notes* (including *Discard Elimination Notes*, *Play Elimination Notes*, and *Double Discard Elimination Notes*). Subsequently, you can more specifically describe an *Elimination Finesse* as a *Discard Elimination Finesse*, a *Play Elimination Finesse*, or a *Double Discard Elimination Finesse*.
-* Note that normal *Finesses* take priority over *Self-Elimination Finesses*. For example:
-  * On the stacks, blue 2 and green 2 are played.
-  * Alice has *Elimination Notes* on slot 3 and slot 4 for red 3.
-  * Someone clues a number 4 in Alice's slot 1 as a *Self-Finesse*.
-  * Alice must assume that it is a normal *Self-Finesse* and play blue 3 from slot 2. (If it was an *Elimination Self-Finesse*, she would play red 3 from slot 4.)
-
-### The Inverted 5's Tempo Clue
-
-* Normally, if a color clue "fills in" a 5 (that was previously touched), and the clue touches no other cards in the hand, then it is obviously focused on the 5 - the 5 is playable right now.
-* However, as a special exception, if doing so makes *another* 5 in that player's hand known to be playable, then the clue is said to be focused on the other 5, making the original card clued **not** playable right now.
-* Since *Inverted 5's Tempo Clues* only get one card played, they are also *Tempo Clue Chop Moves* like any other *Tempo Clue*.
-
-### The Chop Transfer
-
-* Sometimes, duplicated cards are accidentally *Chop Moved* through a mistake or through a complicated situation. When this happens, it is pointless to use a clue to "undo" the *Chop Move* - the team can just continue to allow the player to discard normally.
-* Subsequently, if someone **does** use a clue to undo the *Chop Move*, there must be a good reason. This means that the card they were about to discard is important, so the player should discard the now-known useless card and then permanently *Chop Move* their new chop.
-
-### The Scream Blind-Play (Blind-Playing Chop)
-
-* The *Scream Discard* is a powerful last-resort move that "screams" at the next player, telling them that their chop is unsafe. This is useful because you can do it even when the team is currently at 0 clues. However, you can only perform this move if you have a known playable card in your hand. In some situations, you will need to "scream" at the next player even when you do not have a known playable card.
-* If you can't give a clue, as a last resort you can send a signal to your teammate by blind-playing a card. You don't want to accidentally blind-play a critical card, so the safest card to blind-play is your chop.
-* By doing this, it "screams" at the next player, accomplishing the same thing as a Scream Discard, namely:
-  * they should *Chop Move* a card
-  * if there are 1 or more clues in the bank, they are not allowed to discard on their next turn
-* If you see someone blind-play their chop and it works, your first thought may be that it could be a *Scream Blind-Play*. However, it could also be a *Negative Blind-Play* (which is covered later), so it is important to not confuse these two strategies.
-* Note that a *Stop Blind-Play* (listed below) is almost exactly the same as this move, but it has a completely different interpretation. Whether or not a move is a *Scream Blind-Play* or a *Stop Blind-Play* is entirely dependent on the context of the situation.
-
-### The Stop Blind-Play (Blind-Playing Chop)
-
-* Sometimes, due to a mistake or a complicated situation, you can see that the next player after you is going to misplay a critical card. Additionally, there may be no "fix" clue that you can give that will remedy the situation, or perhaps you are currently at 0 clues.
-* If you can't give a clue, as a last resort you can send a signal to your teammate by blind-playing a card. You don't want to accidentally blind-play a critical card, so the safest card to blind-play is your chop.
-* By doing this, it sends an emergency signal to the next player, warning them to **stop** whatever it is they were about to do.
-* If you see someone blind-play their chop and it works, your first thought may be that it could be a *Stop Blind-Play*. However, it could also be a *Negative Blind-Play* (which is covered later), so it is important to not confuse these two strategies.
-* Note that a *Scream Blind-Play* (listed above) is almost exactly the same as this move, but it has a completely different interpretation. Whether or not a move is a *Scream Blind-Play* or a *Stop Blind-Play* is entirely dependent on the context of the situation.
-
-### The Whisper Discard Chop Move
-
-* Occasionally, a player will have known trash in their hand. They are always expected to discard the known trash first before discarding their right-most unclued card.
-* Thus, if a player instead discards their right-most unclued card instead of the known trash, it must be a signal that something is wrong, exactly like a *Scream Discard*. This is more subtle than a *Scream Discard* though, so it is called a Whisper Discard.
-* *Whisper Discards* are to be treated identically to *Scream Discards*. In short, this means that they 1) cause a *Chop Move* and 2) force a clue to be given on the next turn.
-
-### The Echo Scream Discard Chop Move
-
-* A *Scream Discard Chop Move* is done only as a last resort. So, if the next player has an unimportant card on chop, then the move is usually a *Generation Discard* and does not *Chop Move* anyone.
-* However, what if a *Scream Discard* is done and the next player has either:
-  * a known playable card
-  * a known safe trash discard
-* Since *Scream Discards* are only done as a last resort, the clue must have some other meaning. So, it *Chop Moves* both the next player **and** the player after that. This is called an *Echo Scream Discard*, because it "bounces" off the next player and travels to the next player after that as a "double scream".
-* Similar to a normal *Scream Discard*, all of the players who are *Chop Moved* are not allowed to discard on their next turn.
-* In the unlikely scenario where **two** people in a row have known plays / known safe discards, then the *Echo Scream Discard* will bounce off of two people and perform **three** *Chop Moves* in total. (And three people in a row cause four *Chop Moves*, and so forth.)
-* An *Echo Whisper Discard* works in the same way.
-
-### The Double Scream Discard Chop Move
-
-* If a player has a known playable card and a known trash card, and they discard instead of playing, then that is a *Scream Discard* and the next player should *Chop Move*.
-* If a player has a known playable card and two known trash cards, and they discard the oldest trash card instead of playing, then that is both a *Scream Discard Chop Move* and a *Trash Order Chop Move* at the same time.
-* In this situation, the next player should *Chop Move* twice. (This is the composition of a *Scream Discard Chop Move* and a *Trash Order Chop Move*.)
-
-### The Stop Discard
-
-* Normally, when someone discards with a known play and the next player already has something to do, it is an *Echo Scream Discard*.
-* However, it could also be the case that the next player after that does not have a playable/critical card on chop. Or, alternatively, it could be the case that **everyone** has something to do on their turn. Thus, discarding is normally considered a mistake.
-* If the player who is discarding is not making a mistake, then they are communicating that the very next player with a "known play" should **stop** what they are doing, because the card is not actually playable.
-* This is very similar to a *Stop Blind-Play*, but since the player has a known play, there is no reason to use up one of the strikes when the same message can be communicated in a safer way.
-* If there is a card that could potentially be playable on on chop, then the *Echo Scream Discard* interpretation takes priority over the *Stop Discard* interpretation.
+* It is possible to lie to a player who has *Elimination Notes* on their hand and pretend like you are performing an *Elimination Finesse* on them, causing them to play their oldest card as per the convention. This can cause an unrelated playable card to play.
+* If the player who performed the clue was in *Bluff Seat*, then it is to be treated like a *Bluff*, and thus they will not know where the actual *Elimination Card* is. (However, in most cases, at this point there will only be one remaining card with an *Elimination Note* on it, so it won't matter.)
+* If the player who performed the clue was not in *Bluff Seat*, then the blind-playing player is expected to keep playing until they find the intended card. This is similar to how a *Layered Finesse* works, but it is inverted such that they play cards from oldest to newest.
 
 ### The Double Half Bluff
 
@@ -1836,90 +1819,12 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * If a clue type is chosen that is clearly worse than the other one, then the clue giver must be trying to communicate something extra.
 * The means that this innocent-looking *Save Clue* is really a *Play Clue*, and all of the in-between cards are called for.
 
-### The Sacrifice Discard
-
-* It is generally undesirable for a player to have a "fully locked" hand, but sometimes it happens. And sometimes, one card in the locked hand is useful in the future, but not critical (meaning there is another copy of the card in someone else's hand or still in the deck).
-* Normally, you are never supposed to discard cards that have clues on them, as if you do, it implies a *Sarcastic Discard* or a *Gentleman's Discard*. However, in this situation, the player who is locked can choose to "sacrifice" one of the cards in their hand that is non-critical. And in this situation, it does **not** imply a *Sarcastic Discard* or a *Gentleman's Discard*.
-
-### Self-Bluffs with Color Clues (Illegal)
-
-* It is possible (and fairly common) to perform a *Self-Bluff* on a player with a rank clue.
-* For example, in a 3-player game:
-  * Red 2 is played on the stacks.
-  * Alice clues number 4 to Bob, which touches one brand new 4 as a *Play Clue*.
-  * Bob knows that this is probably red 4, but he does not see any red 3's. Thus, Bob knows he must have the red 3, and blind-plays his *Finesse Position* card. It is blue 1.
-  * Bob now knows that he was *Bluffed* and that the 4 in his hand is exactly red 4.
-* *Self-Bluffs* on players with color clues are nonsensical, so players should not have to entertain that possibility. 
-* For example, in a 3-player game:
-  * Red 2 is played on the stacks.
-  * Alice clues red to Bob, touching one brand new red card  as a *Play Clue*.
-  * Bob has a negative 3 clue on his red card, so he knows it cannot be red 3.
-  * Bob does not see any red cards in other player's hands.
-  * Bob cannot have the red 3 in his *Finesse Position*, because that card has negative red.
-  * Bob now needs to figure out what the clue means. When going through all of the possibilities, he can safely put aside the possibility of a *Self-Bluff with Color* / a *Known Self-Bluff*, because we agree that they are illegal. The clue must have some other meaning and Bob will defer to whatever the next-most-likely thing is.
-
-### The Elimination Rewrite (For 1's)
-
-* Normally, when a playable card is discarded, a player will write *Elimination Notes* on their hand for the other copy of the card.
-* However, there is a special case when **two** copies of the same 1 are discarded. The original *Elimination Notes* from the discard of the first 1 no longer apply because it is possible that the player has drawn the third copy of the 1 before the second copy could be clued.
-* Thus, when a player discards the second copy of a playable 1, they should delete all of their *Elimination Notes* from the first discard and rewrite all of the *Elimination Notes* on the rest of their hand anew (essentially acting like the second discard was the first discard).
-
-<br />
-
-## Level 4 - Rarely Used Expert Strategies
-
-### The Top Hat Clue
-
-* Since the *Layered Gentleman's Discard* is so efficient, clever players that see the opportunity to perform one will almost always want to do so.
-* Thus, it follows that in rare cases, when a teammate gives you a play clue on some card, they **do not** intend for you to play it. They intend for you to see the opportunity for a *Layered Gentleman's Discard*, and then immediately discard the card.
-* This kind of clue is called a *Top Hat Clue* because you are giving them an opportunity to be a gentleman.
-* Note that you should not mistake a *Top Hat Clue* for a clue that initiates a *Layered Finesse*. You are only allowed to discard the card if you can determine its exact identity.
-
-### Stacked Bluffs
-
-* Normally, performing a *Bluff* on a player who is already *Finessed* is illegal. This is because players typically play into *Finesses* in order. So, they will ignore the second clue and play into the first *Finesse*, causing any hypothetical *Bluffs* to not resolve immediately. The logic behind this is that the player has to account for the possibility that the first *Finesse* is a *Layered Finesse*.
-* Rarely, a player can know that a *Layered Finesse* is impossible. This could be because they know the identity of every card in their hand (minus their *Finesse Position* card). Or, alternatively, they could have relevent negative information on their entire hand.
-* If the player can rule out a *Layered Finesse*, then it is possible to perform a *Stacked Bluff* on them. It is important to note that such a player is "locked in" to the *Bluff* and should almost always immediately play their *Finesse Position* card.
-
-### The Certain Discard Duplication Promise
-
-* As the recipient of a *Finesse*, you are promised a card that you have to blind-play. However, as long as it is not a *Certain Finesse*, you **have** to account for the possibility of a *Layered Finesse*. This means that you can never blind-discard the promised card to perform a *Gentleman's Discard*, for example.
-* After the *Finesse* has occurred, but before the promised card has been blind-played, there is a window where a teammate might find strategic value in duplicating the promised card in someone else's hand.
-* Unless the duplication was a last-resort, if the teammate duplicates the blind card, it **promises** that the duplicated card is on *Finesse Position* (and there is **no** *Layered Finesse*), which allows the recipient of the *Finesse* to blind-discard that card, similar to a *Certain Discard*.
-* Finally, from the perspective of the player receiving the clue, if they end up playing the duplicated card first, then they should know that the focus of the original clue was on the other, non-duplicated card, and they can play it immediately afterwards. (Otherwise, the original clue would be fairly low-value.)
-* Note that as long as the duplication clue touches two or more cards, the *Certain Discard Duplication Promise* interpretation takes priority over the *Unknown Trash Ejection* interpretation. (*Ejection* is an advanced move that is covered later on.)
-* Examples:
-  * Game #6817, turn 15
-  * Game #6799, turn 5
-
-### The Certain Finesse Clandestine Exception
-
-* This section outlines a specific and rare edge-case for *Certain Finesses*.
-* We agree that *Bluffs* take precedence over *Certain Finesses*. This means that a *Certain Finesse* cannot normally be performed from *Bluff Seat*.
-* *Certain Finesses* **can** be performed from *Bluff Seat* if it is strictly impossible to be a *Bluff*. In other words, this means that it is illegal for a player to perform a *Clandestine Finesse* on the very next player that targets a potentially duplicated card **and** the other player can rule out the possibility of a *Bluff*.
-* For example, in a 3-player game:
-  * All of the 2's & blue 3 is played on the stacks. Green 3 is in the discard pile.
-  * Alice has an unknown 3 in her hand that happens to be the red 3.
-  * Alice clues number 4 to Cathy, touching a red 4 as a *Play Clue*.
-  * Bob knows that Alice could be trying to perform a *Finesse* on a red 3. Normally, he would blind-discard his *Finesse Position* card as a *Certain Discard* in order to pass this card back to Alice.
-  * However, Bob also knows that this might be a *Bluff*. But wait - his *Finesse Position* card has negative blue on it. So anything that he blind-plays here would have to be a 3. Thus, this cannot be a *Bluff*, since a 3 would match a 4 and look like a *Finesse*.
-  * The only other possibility that Bob has to worry about is a *Clandestine Finesse*. For example, he could be blind-playing a green 3 **and then** a red 3 after that. If he blind-discarded, that could "kill" the green stack, since the other copy of green 3 is already discarded.
-  * However, Bob **also** knows that you are not allowed to perform a *Clandestine Finesse* from *Bluff Seat* that could duplicate a card in your hand. Thus, he can discount both the possibility of a *Bluff* **and** the possibility of a *Clandestine Finesse*.
-  * Bob performs a *Certain Discard* on his *Finesse Position* card and it is the red 3, successfully passing it back to Alice.
-* If someone performs a *Certain Discard* and you have two or more clued cards that could be the target, then you are not promised the order, only that you have the card clued somewhere in your hand. (This part works in the exact same way as a more-ordinary *Sarcastic Discard*.)
-
 ### The Declined 5's Finesse
 
 * The *5's Chop Move* is typically used to save a 5 and a critical non-5 at the same time. This is very efficient, because it saves both cards with one clue instead of having to spend two clues.
 * So, when a player has this strategy available, but instead declines to do it and clues the critical card on chop directly (without touching any other cards), then this is quite strange.
 * In this situation, the player must be trying to communicate something extra. Similar to an *Occupied Finesse*, the player is trying to signal that this seemingly innocent *Save Clue* is actually a *Play Clue* instead. Someone on the team must have the cards to make this critical card playable.
 * In some situations, the blind-player may have to defer playing into the *Finesse* and instead give a *5 Save* to the player with the (now) unsafe chop. If they do, then this is not a problem - the clue receiver can retroactively determine that a *Declined 5's Finesse* has occurred and should not *Stomp* on the *Finesse*.
-
-### The Elimination Bluff / The Elimination Layered Finesse
-
-* It is possible to lie to a player who has *Elimination Notes* on their hand and pretend like you are performing an *Elimination Finesse* on them, causing them to play their oldest card as per the convention. This can cause an unrelated playable card to play.
-* If the player who performed the clue was in *Bluff Seat*, then it is to be treated like a *Bluff*, and thus they will not know where the actual *Elimination Card* is. (However, in most cases, at this point there will only be one remaining card with an *Elimination Note* on it, so it won't matter.)
-* If the player who performed the clue was not in *Bluff Seat*, then the blind-playing player is expected to keep playing until they find the intended card. This is similar to how a *Layered Finesse* works, but it is inverted such that they play cards from oldest to newest.
 
 ### The Patch Finesse (Hidden Form)
 
@@ -1988,24 +1893,9 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * Examples:
   * Game #16695, turn 10
 
-### Trash Touch Elimination
-
-* After deciding on the target of a clue, players carefully choose between using a color clue and a number clue in order to avoid violating *Good Touch Principle* with the ancillary cards that will be touched (since every clued card is treated as a card that will eventually be played). Sometimes, when both a color clue **and** a number would violate *Good Touch Principle*, players are forced to pick between the lesser of two evils.
-* However, sometimes you can see that it **is** possible to use a color or number clue to uniquely touch a clue target without "picking up" extra bad cards. So, when extra bad cards are deliberately touched in this way, it is conveying an extra special message.
-* When this occurrs and there is exactly one "missing" card, players should write an *Elimination Note* in their hand for the missing card. This is called *Trash Touch Elimination*.
-* For example, in a 3-player game:
-  * Red 3 is played on the stacks. All of the other suits have the 1 played on the stacks.
-  * Bob's hand is as follows, from newest to oldest: red 4, red 1, blue 1, green 1, yellow 1.
-  * Alice wants to give a play clue to the red 4. Everyone on the team can see that she can give either number 4 or red.
-    * If she clues number 4, then it will uniquely touch the red 4 (and will not violate *Good Touch Principle*).
-    * If she clues red, then it will touch the red 4 and the red 1 (which **will** violate *Good Touch Principle*).
-  * Alice clues red to Bob. Since nothing was stopping her from cluing number 4, this is very strange.
-  * Bob plays the red 4.
-  * There is only one "missing" red card - the red 5. Thus, Cathy knows that from *Good Touch Principle*, Bob will think that his red 1 is red 5. This must mean that Cathy has the red 5. Cathy writes *Trash Touch Elimination Notes* on her hand for red 5.
-
 ### The Trash Finesse (Weak Form)
 
-* First, see the section on *Trash Touch Elimination* above.
+* First, see the section on *Trash Touch Elimination*.
 * When players deliberately touch ancillary trash and there is only one card "missing", then it should trigger *Trash Touch Elimination Notes*. But what if there are two or more cards that are missing?
 * In this situation, the clue giver is promising that someone has one of the missing cards on their *Finesse Position*. Once the card is blind-played, the recipient of the clue will know that one of their ancillary cards are trash.
 * This is more subtle than the strong *Trash Finesse*. In the strong form, the focus of the clue causes a blind-play. In the weak form, the non-focused cards are what causes the blind-play
@@ -2124,21 +2014,317 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Thus, it is possible for Cathy's 3 to actually be blue 3. If it is, Bob will blind-play the blue 1 and Cathy will know that she has blue 2 on her *Finesse Position*.
   * So, Cathy discards (instead of potentially playing the red 3 on this turn) to allow for the possibility of a *Surreptitious Self-Finesse*.
 
-### The Continuation Clue (Touching Both Inside and Outside a Layer)
+### The Pass Bluff
 
-* Sometimes, a player who is blind-playing cards into a *Layered Finesse* receives another clue that touches cards **both** inside the layer and outside the layer.
-* By default, the player should assume that it is another normal *Play Clue* or *Save Clue* on a card outside of the layer, and **continue** to blind-play cards. This follows from *Information Lock Principle*. *Play Clues* given in this manner are called *Continuation Clues*.
-* Because *Continuation Clues* are the default interpretation, it can be difficult to give a *Fix Clue*, since a *Fix Clue* must **only** touch cards inside of the layer.
-* An example of a *Continuation Clue* can be found by looking at the screenshot in the *Clandestine Finesse* section:
-  * After SedNegi's initial clue, if 910dan clues purple to Zamiel, it would touch a card inside the layer (purple 1) and a card outside the layer (purple 2).
-  * Thus, the focus of the clue would be on the card outside of the layer (purple 2), being a *Play Clue* on purple 2.
-  * In this hypothetical, Zamiel would immediately blind-play slot 2 as yellow 1. On his subsequent turns, he would play purple 1, purple 2, and yellow 3 (in that order).
+* First, see the section on the *Hesitation Blind-Play*.
+* It is possible for a *Hesitation Blind-Play* to occur without anyone intending it to happen. However, if a player intentionally tries to make a *Hesitation Blind-Play* occur, it is called a *Pass Bluff*.
+* In other words, after a *Finesse* occurs that is directed at you, you will know that your *Finesse Position* card is playable. If the next immediate player also has an unrelated playable card on their *Finesse Position*, you can pretend like the *Finesse* wasn't directed at you. This will cause them to think that the *Finesse* was directed at them, and you will get the unrelated card played for free.
+* After the unrelated card is played, the next player should **not** continue to blind-play cards (as a *Layered Finesse*) because:
+  * You "passing" player fulfills the real *Finesse* on their next turn.
+  * The "passing" player was in *Bluff Seat*.
+* *Pass Bluffs* rely on contextual information in order to work, so the circumstances in which you can do them are narrow.
+* It is illegal for a player to perform a *Pass Bluff* if they could be *Bluffed*. (This is because the first *Bluff* would not resolve immediately and would violate *Good Lie Principle*.)
 
-### The Just-In-Time Fix Clue (To Fix a Layered Finesse with a Lie Component) (JIT / J.I.T.)
+### The Double/Triple Pass Bluff
 
-* When performing a *Layered Finesse* with a *Lie Component*, if the plan is to give a *Fix Clue* to the *Finesse Target* card (the "final" card that is to be blind-played), then it is important to wait until the **last** moment to give the *Fix Clue*. This is because after receiving the *Fix Clue*, the player will not play any more blind cards.
-* Thus, you should first wait for all of the "good" blind cards to play, and **then** give the *Fix Clue* to the *Finesse Target*, so that it comes "just in time" before the misplay.
-* Alternatively, if the plan is to give a *Fix Clue* to some **other** card than the *Finesse Target* (e.g. a number 5 clue to a 5 in the middle of the hand), then the *Fix Clue* does not necessarily have to be just in time. It can be done early, and the player will know that they have to continue blind-playing cards until they find the *Finesse Target*.
+* After a player performs a *Pass Bluff*, when it becomes their turn again, if they see an unrelated playable card on the *Second Finesse Position* of the next player, they can perform yet another *Pass Bluff*, implying that the first *Pass Bluff* was not a *Pass Bluff* at all and instead simply a *Layered Finesse* or *Clandestine Finesse*.
+* Then, after the unrelated card is played, the player who initiated the *Double Pass Bluff* can go ahead and play into the real *Finesse*.
+* Alternatively, if there continue to be playable cards, they can keep *Pass Bluffing*.
+
+### The Trash Push Prompt & The Trash Push Finesse
+
+* If you see that a player *Trash Pushes* an unplayable one-away from playable card, it is a signal to you that you have the connecting card.
+
+### The Distribution Finesse
+
+* On the final round of the game, it is possible to perform a *Prompt* on a player that would be useless - they will not get a chance to play the *Prompted* card before the game ends.
+* If a player does this anyway, then it must be communicating something extra. In this situation, it is to be interpreted as a *Finesse* instead of a *Prompt* for the purposes of better satisfying *Team Distribution Principle*.
+* Examples:
+  * Game #16887, turn 29 if Instantiation clues blue on the blue 5
+
+### The Suboptimal Color Prompt & The Suboptimal Color Finesse
+
+* When saving a critical card, players will generally choose either color or number in order to best satisfy *Good Touch Principle*. Or, in situations where either color or number will satisfy *Good Touch Principle*, they will choose the clue that touches the maximum amount of useful ancillary cards (in order to get a 2-for-1 or a 3-for-1 instead of a 1-for-1).
+* When a player does **not** do this, it very strange. From *High Value Principle*, it implies it is a *Play Clue* instead of a *Save Clue*, so it is either a *Prompt* or a *Finesse* on the critical card being saved.
+
+### Inverted Priority Finesse
+
+* *Priority Finesses* are considered "free", since they do not cost a clue to perform. Thus, it is extremely rare that a player would decline to perform one if it was possible to do so.
+* If a player declines to perform a *Priority Finesse*, and there is nothing else special going on, then they must be trying to communicate something extra.
+* They are instead calling for a *Priority Finesse* on the card that had *Priority*. This is called an *Inverted Priority Finesse* because it gets a blind-play from playing a card with *Priority* (as opposed to getting a blind-play from playing a card without *Priority*).
+* After a *Inverted Priority Finesse* occurs, the presence of a normal *Priority Finesse* is now known to everyone on the team. Thus, the normal *Priority Finesse* is preserved and should be played into on the next go-around of the table.
+* For example, in a 3-player game:
+  * Alice has a choice between playing a red 1 and a blue 2. Both cards are fully known, and no-one else has any clued cards, so the red 1 has *Priority*.
+  * Alice plays the red 1.
+  * Bob sees that if Alice had played the blue 2, she could have performed a *Priority Finesse* on Cathy's slot 1 card, the blue 3.
+  * Bob knows that there was no reason for Alice to decline the *Priority Finesse*, so this must be an *Inverted Priority Finesse*. Bob blind-plays his slot 1 card, and it is the red 2.
+  * Cathy knows that the red 1 had *Priority*, so playing it should not have caused Bob to blind-play anything. Thus, Cathy knows that this must be an *Inverted Priority Finesse*, and she knows that she has a blue 3 on her slot 1. Cathy discards.
+  * Alice plays blue 2.
+  * Bob discards.
+  * Cathy blind-plays blue 3.
+
+<br />
+
+## Level 5 - Rarely Used Strategies (Emergency Moves)
+
+### The Sacrifice Discard
+
+* It is generally undesirable for a player to have a "fully locked" hand, but sometimes it happens. And sometimes, one card in the locked hand is useful in the future, but not critical (meaning there is another copy of the card in someone else's hand or still in the deck).
+* Normally, you are never supposed to discard cards that have clues on them, as if you do, it implies a *Sarcastic Discard* or a *Gentleman's Discard*. However, in this situation, the player who is locked can choose to "sacrifice" one of the cards in their hand that is non-critical. And in this situation, it does **not** imply a *Sarcastic Discard* or a *Gentleman's Discard*.
+
+### The Unnecessary Generation Discard
+
+* Sometimes, in order to satisfy *Save Principle*, a player will perform an unnecessary *Generation Discard*, which generates a clue to save a card that they actually already have in their hand.
+* This puts the next player in an ambiguous situation: was it really a *Generation Discard*, or could it a *Scream Discard*? In order to cover both situations, they should not *Chop Move*, but they should also not discard on this turn.
+* For example, in a 3-player game:
+  * Red 3 is played on the stacks. No blue cards are played on the stacks.
+  * Alice has a blue 1 in her hand. She knows the exact identity of it, so it is known playable.
+  * Alice also has a 4 clued in her hand. She does not know what color it is.
+  * There are 0 clues, so if Alice plays the blue 1, Bob will be forced to discard.
+  * Alice sees that Cathy has a red 4 on chop, which is playable. If Alice does not have red 4 in her hand, then Cathy could potentially discard the red 4 (after Bob is forced to discard).
+  * So, Alice performs a *Generation Discard* to generate a clue so that Bob can clue the get the red 4, if necessary.
+  * Bob sees that Alice does indeed already have the red 4 in her hand, so from his perspective, if Alice was performing a *Generation Discard*, it was unnecessary.
+  * However, it could also be the case that Bob's chop is unsafe. So, Bob will **not** clue the red 4 on Cathy's chop, but he **will** spend the clue in some other productive fashion. If Bob has nothing productive to do, he must "burn" a clue, similar to what happens when a *Scream Discard* occurs.
+
+### The Whisper Discard Chop Move
+
+* Occasionally, a player will have known trash in their hand. They are always expected to discard the known trash first before discarding their right-most unclued card.
+* Thus, if a player instead discards their right-most unclued card instead of the known trash, it must be a signal that something is wrong, exactly like a *Scream Discard*. This is more subtle than a *Scream Discard* though, so it is called a Whisper Discard.
+* *Whisper Discards* are to be treated identically to *Scream Discards*. In short, this means that they 1) cause a *Chop Move* and 2) force a clue to be given on the next turn.
+
+### The Echo Scream Discard Chop Move
+
+* A *Scream Discard Chop Move* is done only as a last resort. So, if the next player has an unimportant card on chop, then the move is usually a *Generation Discard* and does not *Chop Move* anyone.
+* However, what if a *Scream Discard* is done and the next player has either:
+  * a known playable card
+  * a known safe trash discard
+* Since *Scream Discards* are only done as a last resort, the clue must have some other meaning. So, it *Chop Moves* both the next player **and** the player after that. This is called an *Echo Scream Discard*, because it "bounces" off the next player and travels to the next player after that as a "double scream".
+* Similar to a normal *Scream Discard*, all of the players who are *Chop Moved* are not allowed to discard on their next turn.
+* In the unlikely scenario where **two** people in a row have known plays / known safe discards, then the *Echo Scream Discard* will bounce off of two people and perform **three** *Chop Moves* in total. (And three people in a row cause four *Chop Moves*, and so forth.)
+* An *Echo Whisper Discard* works in the same way.
+
+### The Composition Discard
+
+* In rare cases, it is possible for a discard to be both a *Scream Discard* and a *Generation Discard* at the same time, for two different players.
+* For example, in a 4-player game:
+  * There are 0 clues in the bank.
+  * Alice needs to plan ahead for her turn.
+  * Bob and Donald both have a critical chop card. Cathy has a safe discard.
+  * Alice and Bob both have one known playable card in their hand. 
+  * So, if Alice plays, Bob will perform a *Generation Discard*, and discard a critical card. This is not an option.
+  * Therefore, Alice must discard. This is a *Scream Discard* to Bob, and he should *Chop Move*. It is also a *Generation Discard* to Cathy, and she should not *Chop Move*.
+
+### The Rebellious Discard
+
+* Part of the *Scream Discard* convention states that after a *Scream Discard*, the next player **cannot** discard. Thus, a player in this situation must completely waste a clue if there is nothing productive to do.
+* However, in some situations, the player who has been screamed at sees that if they give a clue, the next player will be left at 0 clues and will be forced to discard a critical card.
+* Thus, in this situation, the player should *Chop Move* as normal and then discard their new chop, which will functionally act as a second *Scream Discard*. This second *Scream Discard* is called a *Rebellious Discard*, because they are not doing what they are told.
+
+### The Double Scream Discard Chop Move
+
+* If a player has a known playable card and a known trash card, and they discard instead of playing, then that is a *Scream Discard* and the next player should *Chop Move*.
+* If a player has a known playable card and two known trash cards, and they discard the oldest trash card instead of playing, then that is both a *Scream Discard Chop Move* and a *Trash Order Chop Move* at the same time.
+* In this situation, the next player should *Chop Move* twice. (This is the composition of a *Scream Discard Chop Move* and a *Trash Order Chop Move*.)
+
+### The Scream Blind-Play (Blind-Playing Chop)
+
+* The *Scream Discard* is a powerful last-resort move that "screams" at the next player, telling them that their chop is unsafe. This is useful because you can do it even when the team is currently at 0 clues. However, you can only perform this move if you have a known playable card in your hand. In some situations, you will need to "scream" at the next player even when you do not have a known playable card.
+* If you can't give a clue, as a last resort you can send a signal to your teammate by blind-playing a card. You don't want to accidentally blind-play a critical card, so the safest card to blind-play is your chop.
+* By doing this, it "screams" at the next player, accomplishing the same thing as a Scream Discard, namely:
+  * they should *Chop Move* a card
+  * if there are 1 or more clues in the bank, they are not allowed to discard on their next turn
+* If you see someone blind-play their chop and it works, your first thought may be that it could be a *Scream Blind-Play*. However, it could also be a *Negative Blind-Play* (which is covered later), so it is important to not confuse these two strategies.
+* Note that a *Stop Blind-Play* (listed below) is almost exactly the same as this move, but it has a completely different interpretation. Whether or not a move is a *Scream Blind-Play* or a *Stop Blind-Play* is entirely dependent on the context of the situation.
+
+### The Stop Blind-Play (Blind-Playing Chop)
+
+* Sometimes, due to a mistake or a complicated situation, you can see that the next player after you is going to misplay a critical card. Additionally, there may be no "fix" clue that you can give that will remedy the situation, or perhaps you are currently at 0 clues.
+* If you can't give a clue, as a last resort you can send a signal to your teammate by blind-playing a card. You don't want to accidentally blind-play a critical card, so the safest card to blind-play is your chop.
+* By doing this, it sends an emergency signal to the next player, warning them to **stop** whatever it is they were about to do.
+* If you see someone blind-play their chop and it works, your first thought may be that it could be a *Stop Blind-Play*. However, it could also be a *Negative Blind-Play* (which is covered later), so it is important to not confuse these two strategies.
+* Note that a *Scream Blind-Play* (listed above) is almost exactly the same as this move, but it has a completely different interpretation. Whether or not a move is a *Scream Blind-Play* or a *Stop Blind-Play* is entirely dependent on the context of the situation.
+
+### The Stop Discard
+
+* Normally, when someone discards with a known play and the next player already has something to do, it is an *Echo Scream Discard*.
+* However, it could also be the case that the next player after that does not have a playable/critical card on chop. Or, alternatively, it could be the case that **everyone** has something to do on their turn. Thus, discarding is normally considered a mistake.
+* If the player who is discarding is not making a mistake, then they are communicating that the very next player with a "known play" should **stop** what they are doing, because the card is not actually playable.
+* This is very similar to a *Stop Blind-Play*, but since the player has a known play, there is no reason to use up one of the strikes when the same message can be communicated in a safer way.
+* If there is a card that could potentially be playable on on chop, then the *Echo Scream Discard* interpretation takes priority over the *Stop Discard* interpretation.
+
+### The Skipped Discard Chop Move
+
+* In emergency situations, players should perform *Scream Discards* and  *Generation Discards* to save important cards. These two moves, along with their derivatives, the *Echo Scream Discard* and the *Compositional Discard*, should be enough to "solve" almost every sticky situation that could ever come up.
+* However, in an extremely difficult variant, or in a situation where a previous player has blundered, it might fall to one player to save the next player's critical chop card. In this situation, they might not be able to perform a *Scream Discard*, because they might not have any playable cards. And they might not be able to perform a *Scream Blind-Play*, because if the team is at 2 strikes, then the game would immediately end.
+* In this situation, the player can discard a card one-away from their chop as a *Skipped Discard Chop Move*. This convention is normally only used in 2-player games, because it is very unsafe, risking the discard of a critical card.
+* It is common for players to accidently *Chop Move* a card. Thus, the *Skipped Discard Chop Move* interpretation should almost never be entertained, simply because of how rarely it is actually needed.
+* Furthermore, this move should never be performed if there is a non-expert player playing or if it is likely to be interpreted as a mistake.
+
+<br />
+
+## Level 5 - Rarely Used Strategies (Ejection)
+
+* *Ejection* refers to a move like a *Bluff*, but instead of playing an unrelated card from *Finesse Position*, someone plays an unrelated card from their *Second Finesse Position*. For example, if a player's hand hand is completely unclued, their *Second Finesse Position* is slot 2.
+* Certain types of "wasted" clues with no other purpose signal an *Ejection*.
+
+### Known Trash Ejection
+
+* Often times, a player can have one or more cards that are known duplicates / trash. They will discard them it without being told anything further.
+* If a clue is given that **only** touches cards that are already known trash, then it must have some other purpose - it should signal an *Ejection* on the very next player.
+
+### Double Play Ejection
+
+* If a player knows that a card in their hand is playable, and then they receive **another** clue on that card, it is usually a *Stop Clue*, which means that the card is actually bad and they should discard it instead of playing it.
+* However, if this happens on a good card, the other players can see that the clue must have some other purpose - it should signal an *Ejection* on the very next player.
+
+### Unknown Trash Ejection
+
+* In general, *Bluffs* work because the player who received the clue knows that they have a one-away from playable card of that color.
+* If none of the stacks are finished and someone clues a trash card, it might look like a *Trash Bluff*. But, if the *Finesse Position* card is played, then the player will think that the card is actually a useful one-away card (instead of trash).
+* Since that would be a lie, the clue must have some other purpose - it should signal an *Ejection* on the very next player.
+* Since the *Second Finesse Position* card was played instead of the *Finesse Position* card, then the player who received the clue will know that the card is trash.
+* With the *Trash Bluff*, if multiple cards are clued, it means that **all** of the cards are trash. However, with *Unknown Trash Ejection*, if multiple cards are clued, only the focus of the clue is trash.
+
+### Junk Ejection (with Trash)
+
+* Normally, when known trash is touched as the focus of the clue, and the known trash is not on chop, it communicates a *Trash Chop Move*.
+* However, what if the *Chop Moved* cards are also all trash? The other players can see that this clue must have some other purpose - it should signal an *Ejection* on the very next player.
+* *Junk Ejection* can be performed throughout the game. (But keep in mind that in the *End-Game*, a player might just be stalling.)
+
+### The 5 Color Ejection
+
+* This convention only applies in the *Early Game*.
+* Normally, in the *Early Game*, if a player gives a color *Play Clue* to a 5, it would mean that it is a *Finesse* on the 5 and all of the cards leading up to the 5 are playable.
+* However, in the *Early Game*, this is fairly unlikely to be the case. Instead, players agree that this is an *Ejection* and that the next player should play their *Second Finesse Position*.
+* After the blind-play, the player who received will know that it must be a 5.
+* For example, in a 3-player game:
+  * It is the first turn and nothing is played on the stacks.
+  * Alice clues red to Cathy, touching a red 5 on slot 3.
+  * Bob knows that normally, this would be a *Finesse* on the 5, indicating to Bob that he has the red 1, the red 2, the red 3, and the red 4. However, since it is the *Early Game*, he also knows that *5 Color Ejection* should take precedence over a *Finesse*, so he knows to play his *Second Finesse Position* card. It is a red 1 and it successfully plays.
+  * From Cathy's perspective, if Bob had played his *Finesse Position* card in response to the red clue, then Cathy would know that it was a *Finesse* or a *Bluff*. But since Bob blind-played his *Second Finesse Position* card, it must be the 5. Cathy marks the red card as red 5.
+* *5 Color Ejections* are **only possible** if there is only one brand new card introduced with the color clue. For example, on the first turn of the game, it would be illegal to perform a *5 Color Ejection* where a red clue is given to Cathy that touches a red 5 on slot 1 and a red 4 on slot 2.
+  * As an exception to the above rule, in dual-color variants, it is possible to perform a *5 Color Ejection* if all of the newly-introduced and non-focused cards are of a different suit. For example, on the first turn of the game, Alice can perform a *5 Color Ejection* by cluing red to Cathy and touching a red 5 on slot 1, a rainbow 2 on slot 2, and a rainbow 3 on slot 3.
+* The *5 Color Ejection* convention conflicts with *Unknown Trash Ejection* convention. In the case of a conflict, the *Unknown Trash Ejection* interpretation has precedence. (See the *5 Color Discharge* below.)
+
+### Junk Ejection (with 5's)
+
+* Normally, in the *Early Game*, if there are some other *Play Clues* or *Save Clues* to give and a number 5 clue is given to a one-away-from-chop 5, then it is an "early" *5 Stall* and is instead treated as an *Early 5's Chop Move*.
+* If other players can see that an *Early 5's Chop Move* was performed on a trash card, then this would normally indicate that it was **not** a *Chop Move* and is instead a *Finesse* on all of the cards leading up to the 5.
+* A *Finesse* on all of the cards leading up to the 5 is fairly unlikely in the *Early Game*. Instead, everyone agrees that this situation instead communicates an *Ejection* on the very next player.
+* After the *Ejection*, the player receiving the 5 clue will knows that they have trash on their chop.
+* For example, in a 5-player game:
+  * It is the *Early Game*.
+  * Red 1 is played on the stacks
+  * Alice clues number 5 to Cathy, touching a blue 5 on slot 3.
+  * Cathy's slot 4 card is a red 1. (This was her chop card prior to the number 5 clue being given.)
+  * It is now Bob's turn. Bob sees that Donald has a red 2 on his slot 2 that could be *Play Clued* with a red color clue.
+  * Normally, since it is the *Early Game*, a number 5's clue to Cathy might just be a *5 Stall*. However, since Alice could have given the red *Play Clue* to Donald, this is an "early" 5's clue, so it must be an *Early 5's Chop Move*.  However, this cannot be an *Early 5's Chop Move* either, since Cathy has a trash red 1 on her chop.
+  * Thus, Bob knows that this is a *Junk Ejection*, and he blind-plays his *Second Finesse Position*. It is a green 1 and successfully plays.
+  * Cathy knows that if this was an *Early 5's Chop Move*, then Bob would not have blind-played anything. Since he blind-played his *Second Finesse Position* card, this must be a *Junk Ejection* and her slot 4 card must be trash.
+* Unlike *Junk Ejection* with trash, *Junk Ejection* with a 5 is only "turned on" in the *Early Game*.
+
+### Trash Push Ejection
+
+* Normally, when known trash is touched as the focus of the clue, and the known trash is on chop, it communicates a *Trash Push*.
+* However, what if the *Trash Pushed* card is trash? The other players can see that this clue must have some other purpose - it should signal an *Ejection* on the very next player.
+
+### The 5 Pull Ejection and The 5 Pull Ejection Chop Move
+
+* This convention only applies in the *Early Game*.
+* Normally, if someone performs a *5 Pull* on a card that is one-away-from-playable, it promising that someone has the in-between card as a *5 Pull Finesse*.
+* However, if someone performs a *5 Pull* on a card that is two-away (or more) from playable card, then they must be trying to communicate something extra.
+* In this situation, they intend the next player to blind-play their *Second Finesse Position* card as a *5 Pull Ejection*.
+* The player receiving the clue should also *Chop Move* the *5 Pull* target, as it is likely to be a useful card that the team will need later.
+* For example, in a 4-player game:
+  * It is the first turn and nothing is played on the stacks.
+  * Alice clues number 5 to Cathy, touching a red 5 on slot 1. Cathy has a blue 4 on slot 2. There are other *Play Clues* for Alice to give, so this looks like a *5 Pull* on the blue 4.
+  * Bob knows that if no-one on the team does anything, Cathy will go on to misplay the blue 4 as a *5 Pull*.
+  * Bob also knows that if he plays his *Finesse Position* card, Cathy will still go on to misplay the blue 4 as a *5 Pull Finesse*.
+  * Thus, Bob blind-plays his *Second Finesse Position* card. It is blue 1 and it successfully plays.
+  * Cathy know knows that the card to the right of her 5 is two (or more) away from being playable. She also marks the card as being chop moved.
+* Rarely, it is possible for a *5 Pull Ejection* to occur where the player who receives the number 5 clue is able to determine that the only "other" thing to clue must be a card in their hand. In this situation, they might be hesitant to discard. By convention, players are allowed to discard in this situation. (This follows from *Guide Principle*.)
+
+### Order Ejection
+
+* When a player can perform an *Skipped Order Chop Move* on a critical 5 (or a critical black card) at the beginning of the game, and they don't do it, this is very strange.
+* The player must be communicating something extra. In this scenario, they intend for the next person to blind-play slot 2.
+* The *Order Ejection* will also get a free *Chop Move* in addition to getting the blind-play.
+* For example, in a 4-player game:
+  * Blue 1 is played on the stacks.
+  * Alice clues Bob 1's, touching three 1's on slot 2, slot 3, and slot 4.
+  * Donald has a 5 on chop (and the rest of his hand is trash).
+  * Bob could play his 1 on slot 2 to *Skipped Order Chop Move* Donald's 5 for "free".
+  * Bob instead plays his 1 on slot 4 (which does nothing special).
+  * Cathy sees no possible reason for not getting a "free" *Chop Move* on a 5, so she knows that this is an *Order Ejection*. Cathy blind-plays slot 2 and it plays as a blue 2.
+  * Donald knows that Cathy must be blind-playing slot 2 for a reason. The only thing that happened that could have possibly caused the blind-play was the order that Bob played his 1's in. Thus, Donald knows that an *Order Ejection* has occurred and that he should *Chop Move*.
+  * Furthermore, Donald knows that his *Chop Moved* card **must** be a 5 or some other critical card. (This is unlike a normal *Order Chop Move*, since *Order Chop Moves* are alloweded to get non-critical cards.)
+* Note that *Order Ejections* only apply if the player did not *Order Chop Move* a **critical** card. Unique 2's **do not** count as critical in this case.
+
+### Reverse Order Ejection
+
+* It is also possible to do a *Reverse Order Ejection*, meaning that the blind-play will occur **after** the person with the critical card has a turn.
+* For an *Order Ejection* to work, the player who initiates it must have three or more 1's to choose from. But a *Reverse Order Ejection* is more flexible in that it only requires two 1's.
+* For example, in a 4-player game:
+  * Blue 1 is played on the stacks.
+  * Alice clues Bob 1's, touching a 1 on slot 2 and a 1 on slot 3.
+  * Cathy has a 5 on chop (and the rest of her hand is trash).
+  * If Bob plays the slot 2 card, this would be a "free" *Order Chop Move* on the 5.
+  * Bob plays the 1 from slot 3 (which does nothing special).
+  * Cathy clues number 5 to Bob as a *5 Save*.
+  * Donald knows that Bob should have *Order Chop Moved* Cathy's 5, so he knows that this is a *Reverse Order Ejection*. Donald blind-plays his slot 2 card and it is a blue 2.
+  * Cathy knows that Donald did not blind-play from her *5 Save*, so the blind-play must have been from something else. The only other thing that happened was Bob playing the 1. Thus, Cathy knows that an *Reverse Order Ejection* has occurred and she retroactively *Chop Moves* herself.
+* Unlike a normal *Order Ejection*, the *Reverse Order Ejection* is not guaranteed to work. This is because Cathy is within her rights to "get" the *Second Finesse Position* card of Donald (with a direct *Play Clue* of her own). Thus, *Reverse Order Ejections* should only be done in specific circumstances where it is unlikely that Cathy will do so.
+* If a *Reverse Order Ejection* fails, everyone on the team should be aware that they now need to save the chop of Cathy.
+* For example, in a 4-player game:
+  * The setup is exactly the same as in the previous example.
+  * When it gets to Cathy's turn, instead of performing a *5 Save* on Bob, she instead clues Donald's blue 2 directly as a *Play Clue*.
+  * Donald plays the blue 2.
+  * Bob now knows that the *Reverse Order Ejection* failed and that the 5 will not get retroactively *Chop Moved* anymore. If Cathy might discard on the next turn, Bob should not play his remaining 1 and should instead give a *5 Save* to Cathy.
+
+<br />
+
+## Level 5 - Rarely Used Strategies (Discharge)
+
+* *Discharge* is similar to *Ejection*, except instead of blind-playing the *Second Finesse Position* card, the player plays the *Third Finesse Position* card.
+* Certain types of **really** bad clues cause a *Discharge* to occur on the very next player.
+
+### Unknown Trash Discharge
+
+* If an *Unknown Trash Ejection* touches multiple cards, only the focus of the clue must be trash.
+* Thus, if a *Unknown Trash Ejection*-style clue touches two or more trash cards, then it must be a *Discharge* instead.
+* *Unknown Trash Discharges* are "turned off" in the *Early Game* (since they conflict with *5 Color Discharges*).
+
+### The 5 Color Discharge
+
+* This convention only applies in the *Early Game*.
+* The *Unknown Trash Ejection* has precedence over the *5 Color Ejection*, so it is not possible to perform a *5 Color Ejection* if there are any cards of that color that are already played or already discarded.
+* However, in the situation where there **are** cards of that color that are already played or already discarded, it is possible to perform the move as a *Discharge* instead of an *Ejection*.
+* For example, in 3-player game:
+  * Red 1 is played on the stacks.
+  * Alice clues red to Cathy, touching a red 5 on slot 3.
+  * Bob knows that normally, this would be a *Finesse* on the 5, indicating to Bob that he has the red 2, the red 3, and the red 4. However, since it is the *Early Game*, he also knows that it might be a *5 Color Ejection* instead, since those should take precedence over a *Finesse*.
+  * However, the problem with this interpretation is that if Bob blind-plays his *Second Finesse Position* card, then Cathy will think that it is an *Unknown Trash Ejection*. Since *Unknown Trash Ejections* have precedence over *5 Color Ejections*, Cathy will mark her red 5 as red 1, and the next time that Cathy needs to discard, she will discard the red 5. That would be quite bad.
+  * Instead, Bob knows that Alice must instead intend for Bob to blind-play his *Third Finesse Position* card as a *5 Color Discharge*. It is a red 2 and it successfully plays.
+  * From Cathy's perspective, if Bob had played his *Finesse Position* card in response to the red clue, then Cathy would know that it was a *Finesse* or a *Bluff*. If Bob had played his *Second Finesse Position* card in response to the red clue, then Cathy would know that it was a *Unknown Trash Ejection* (as a red 1). But since Bob blind-played his *Third Finesse Position* card, it must be the red 5.
+
+<br />
+
+## Level 5 - Rarely Used Strategies (Miscellaneous)
+
+### Trash Touch Elimination
+
+* After deciding on the target of a clue, players carefully choose between using a color clue and a number clue in order to avoid violating *Good Touch Principle* with the ancillary cards that will be touched (since every clued card is treated as a card that will eventually be played). Sometimes, when both a color clue **and** a number would violate *Good Touch Principle*, players are forced to pick between the lesser of two evils.
+* However, sometimes you can see that it **is** possible to use a color or number clue to uniquely touch a clue target without "picking up" extra bad cards. So, when extra bad cards are deliberately touched in this way, it is conveying an extra special message.
+* When this occurrs and there is exactly one "missing" card, players should write an *Elimination Note* in their hand for the missing card. This is called *Trash Touch Elimination*.
+* For example, in a 3-player game:
+  * Red 3 is played on the stacks. All of the other suits have the 1 played on the stacks.
+  * Bob's hand is as follows, from newest to oldest: red 4, red 1, blue 1, green 1, yellow 1.
+  * Alice wants to give a play clue to the red 4. Everyone on the team can see that she can give either number 4 or red.
+    * If she clues number 4, then it will uniquely touch the red 4 (and will not violate *Good Touch Principle*).
+    * If she clues red, then it will touch the red 4 and the red 1 (which **will** violate *Good Touch Principle*).
+  * Alice clues red to Bob. Since nothing was stopping her from cluing number 4, this is very strange.
+  * Bob plays the red 4.
+  * There is only one "missing" red card - the red 5. Thus, Cathy knows that from *Good Touch Principle*, Bob will think that his red 1 is red 5. This must mean that Cathy has the red 5. Cathy writes *Trash Touch Elimination Notes* on her hand for red 5.
 
 ### The Hesitation Blind-Play
 
@@ -2163,22 +2349,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * If a player could be hesitating for a card that is identical to the card that was clued, then you cannot cannot act on the hesitation. (If you blind-play the same copy of the card, then they will go on to misplay the clued card.)
   * If blind-playing a particular card would cause the original clue to look like a *Double Finesse* with a "self" component, then you cannot cannot act on the hesitation. (For example, if a number 4 clue causes a *Hesitation Blind-Play* of a red 2, the clue receiver would go on to misplay their *Finesse Position* card as the red 3.)
 
-### The Pass Bluff
-
-* It is possible for a *Hesitation Blind-Play* to occur without anyone intending it to happen. However, if a player intentionally tries to make a *Hesitation Blind-Play* occur, it is called a *Pass Bluff*.
-* In other words, after a *Finesse* occurs that is directed at you, you will know that your *Finesse Position* card is playable. If the next immediate player also has an unrelated playable card on their *Finesse Position*, you can pretend like the *Finesse* wasn't directed at you. This will cause them to think that the *Finesse* was directed at them, and you will get the unrelated card played for free.
-* After the unrelated card is played, the next player should **not** continue to blind-play cards (as a *Layered Finesse*) because:
-  * You "passing" player fulfills the real *Finesse* on their next turn.
-  * The "passing" player was in *Bluff Seat*.
-* *Pass Bluffs* rely on contextual information in order to work, so the circumstances in which you can do them are narrow.
-* It is illegal for a player to perform a *Pass Bluff* if they could be *Bluffed*. (This is because the first *Bluff* would not resolve immediately and would violate *Good Lie Principle*.)
-
-### The Double/Triple Pass Bluff
-
-* After a player performs a *Pass Bluff*, when it becomes their turn again, if they see an unrelated playable card on the *Second Finesse Position* of the next player, they can perform yet another *Pass Bluff*, implying that the first *Pass Bluff* was not a *Pass Bluff* at all and instead simply a *Layered Finesse* or *Clandestine Finesse*.
-* Then, after the unrelated card is played, the player who initiated the *Double Pass Bluff* can go ahead and play into the real *Finesse*.
-* Alternatively, if there continue to be playable cards, they can keep *Pass Bluffing*.
-
 ### The Hesitation Chop Move (From a Misplay)
 
 * Remember that as a special exception, *Scream Discards* do **not** apply when a player has a "blind" card to play in their hand **and** the blind card can exist in your hand.
@@ -2186,21 +2356,141 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * When you blind-play a card in this situation and it misplays, it means that the unusual discard really was a *Scream Discard* after all, so you should treat it like a normal *Scream Discard* and permanently *Chop Move*.
 * This is called a *Hesitation Chop Move* for short, since it was triggered by a (failed) *Hesitation Blind-Play*.
 
-### The Rebellious Discard
+### Double Prompts in Multi-Color Variants
 
-* Part of the *Scream Discard* convention states that after a *Scream Discard*, the next player **cannot** discard. Thus, a player in this situation must completely waste a clue if there is nothing productive to do.
-* However, in some situations, the player who has been screamed at sees that if they give a clue, the next player will be left at 0 clues and will be forced to discard a critical card.
-* Thus, in this situation, the player should *Chop Move* as normal and then discard their new chop, which will functionally act as a second *Scream Discard*. This second *Scream Discard* is called a *Rebellious Discard*, because they are not doing what they are told.
+* Normally, when a multi-color card is *Prompted* from someone's hand, they should play the card that has the most positive information.
+* However, what if they are *Prompted* for two cards of the same multi-color suit? They should play the card with the most positive information first, even if it is not the left-most card.
+* For example, in a 3-player rainbow game:
+  * Rainbow 1 is played on the stacks.
+  * Bob has a slot 1 card that has a blue clue on it. (Thus, it is either a blue card or a rainbow card.)
+  * Bob also has a slot 3 card that has a blue clue and a red clue on it. (Thus, it is a known rainbow card.)
+  * Alice clues Cathy about a rainbow 4.
+  * Bob is promised the rainbow 2 and the rainbow 3, so he knows that these cards must be on slots 1 and slot 3.
+  * However, Bob also knows that you should always play the card with the most information on it first, so he plays his slot 3 card as rainbow 2 (instead of slot 1, the left-most card).
 
-### The Redundant Save Chop Move
+### The Fresh Play Clue (for Locked Players)
 
-* Players that have two or more clued 1's in their hand will often use the *Order Chop Move* to *Chop Move* a 2, a 5, or a critical card on the next player's chop.
-* Subsequently, if a player with two or more clued 1's in their hand does not play a 1 and instead gives a *Save Clue* to a 2, a 5, or a critical card on the next player's chop, this is very strange.
-* In this situation, if there is nothing else special going on, the player who got clued should *Chop Move* the card next to the one that was explicitly saved.
+* If a player's chop is their slot 1, *Locked* players are **not** allowed to *Locked Hand Save* it. This follows from basic logic: it would be unlikely for a player with a *Locked Hand* to want to lock another player on the team with a non-critical card.
+* Therefore, when a slot 1 chop card is clued by a *Locked* player, a *Play Clue* interpretation always takes priority over a *Locked Hand Save* interpretation.
+* This type of *Play Clue* is called a *Fresh Play Clue* in order to disambiguate it from a *Locked Hand Save*.
 
-### The Trash Push Prompt & The Trash Push Finesse
+### The Inverted 5's Tempo Clue
 
-* If you see that a player *Trash Pushes* an unplayable one-away from playable card, it is a signal to you that you have the connecting card.
+* Normally, if a color clue "fills in" a 5 (that was previously touched), and the clue touches no other cards in the hand, then it is obviously focused on the 5 - the 5 is playable right now.
+* However, as a special exception, if doing so makes *another* 5 in that player's hand known to be playable, then the clue is said to be focused on the other 5, making the original card clued **not** playable right now.
+* Since *Inverted 5's Tempo Clues* only get one card played, they are also *Tempo Clue Chop Moves* like any other *Tempo Clue*.
+
+### Double Tempo Clue Inversion (Immediate Double Clue)
+
+* If a player is clued the exact same thing twice before it gets to be their turn, it means that they can play **all** of the cards that the clue touched, but in the opposite order than normal (right-to-left, since you would normally play cards from left-to-right).
+  * If one of the cards includes the chop card, it means to play all of the cards from 2nd oldest to newest, and then the chop last.
+* If you are re-clued about a bunch of cards after you have already taken a turn, see the *Double Tempo Clue* section.
+
+### The Elimination Rewrite (For 1's)
+
+* Normally, when a playable card is discarded, a player will write *Elimination Notes* on their hand for the other copy of the card.
+* However, there is a special case when **two** copies of the same 1 are discarded. The original *Elimination Notes* from the discard of the first 1 no longer apply because it is possible that the player has drawn the third copy of the 1 before the second copy could be clued.
+* Thus, when a player discards the second copy of a playable 1, they should delete all of their *Elimination Notes* from the first discard and rewrite all of the *Elimination Notes* on the rest of their hand anew (essentially acting like the second discard was the first discard).
+
+### The Continuation Clue (Touching Both Inside and Outside a Layer)
+
+* Sometimes, a player who is blind-playing cards into a *Layered Finesse* receives another clue that touches cards **both** inside the layer and outside the layer.
+* By default, the player should assume that it is another normal *Play Clue* or *Save Clue* on a card outside of the layer, and **continue** to blind-play cards. This follows from *Information Lock Principle*. *Play Clues* given in this manner are called *Continuation Clues*.
+* Because *Continuation Clues* are the default interpretation, it can be difficult to give a *Fix Clue*, since a *Fix Clue* must **only** touch cards inside of the layer.
+* An example of a *Continuation Clue* can be found by looking at the screenshot in the *Clandestine Finesse* section:
+  * After SedNegi's initial clue, if 910dan clues purple to Zamiel, it would touch a card inside the layer (purple 1) and a card outside the layer (purple 2).
+  * Thus, the focus of the clue would be on the card outside of the layer (purple 2), being a *Play Clue* on purple 2.
+  * In this hypothetical, Zamiel would immediately blind-play slot 2 as yellow 1. On his subsequent turns, he would play purple 1, purple 2, and yellow 3 (in that order).
+
+### The Just-In-Time Fix Clue (To Fix a Layered Finesse with a Lie Component) (JIT / J.I.T.)
+
+* When performing a *Layered Finesse* with a *Lie Component*, if the plan is to give a *Fix Clue* to the *Finesse Target* card (the "final" card that is to be blind-played), then it is important to wait until the **last** moment to give the *Fix Clue*. This is because after receiving the *Fix Clue*, the player will not play any more blind cards.
+* Thus, you should first wait for all of the "good" blind cards to play, and **then** give the *Fix Clue* to the *Finesse Target*, so that it comes "just in time" before the misplay.
+* Alternatively, if the plan is to give a *Fix Clue* to some **other** card than the *Finesse Target* (e.g. a number 5 clue to a 5 in the middle of the hand), then the *Fix Clue* does not necessarily have to be just in time. It can be done early, and the player will know that they have to continue blind-playing cards until they find the *Finesse Target*.
+
+### The Trash Pull
+
+* Sometimes, towards the end of the game, there can be a playable card in the middle of someone's hand that is not cluable directly due to the presence of other blocking cards.
+* In this situation, players often resort to a *Trash Push* in order to "get" the card without cluing it directly. However, this will obviously only work if the player has a trash card on their chop, which may not always be the case.
+* Another tool to "get" a card in the middle of a hand is by doing the opposite of a *Trash Push* - a *Trash Pull*.
+* If an off-chop trash card is clued, this would typically be interpreted as a *Trash Chop Move*. However, towards the end of the game, a *Chop Move* would be pointless, as there are no cards left to chop move. Thus, the player should know that it is a *Trash Pull* instead of a *Trash Chop Move*, and should blind-play the card to the right of the trash.
+* Just like how a *5 Pull* can only be done in the *Early Game*, a *Trash Pull* can only be done at the end of the game.
+* Since players often perform *Burn* clues for stalling purposes in the *End-Game*, care has to be taken to not confuse a normal *Burn* clue with a *Trash Pull*. This is especially true if there was nothing else obvious for the clue giver to do!
+* *Trash Pulls* should typically be used as a last-resort since they might be misinterpreted.
+
+### The Unnecessary Trash Push
+
+* Normally, players are only allowed to perform a *Trash Push* if the card to "get" cannot be given a direct *Play Clue*. Subsequently, if the card **can** be clued directly, and a *Trash Push* is done anyway, this is very strange.
+* In this situation, the very next player should blind-play their *Finesse Position* card as a *Known Bluff*. The receiver of the clue will interpret this as a *Trash Push Finesse* and will then play the pushed card. Once they play it, they will see that it does **not** match, and that an *Unnecessary Trash Push* occurred.
+* For example, in a 3-player game:
+  * All of the 2's are played on the stacks.
+  * Alice clues number 1 to Cathy, touching a single 1 on chop. Since all of the 1's are already played, it is globally known that this must be some kind of *Trash Push*.
+  * Bob sees that the pushed card is a red 3. Cathy has no other red cards in her hand, so Alice could have just clued red to Cathy instead of doing a complicated *Trash Push*.
+  * Thus, Bob knows that this is an *Unnecessary Trash Push*, and blind-plays his *Finesse Position* card. It is the blue 3 and it successfully plays.
+  * Cathy knows that this must be a *Trash Push Finesse* on blue 4. Cathy blind-plays her slot 4 card, but it is red 3 instead and it successfully plays.
+  * Cathy now knows that since the two cards did not match each other, this must have been an *Unnecessary Trash Push*.
+* Players cannot *Unnecessary Trash Push* unless the clue touches exactly 1 card.
+
+### The Top Hat Clue
+
+* Since the *Layered Gentleman's Discard* is so efficient, clever players that see the opportunity to perform one will almost always want to do so.
+* Thus, it follows that in rare cases, when a teammate gives you a play clue on some card, they **do not** intend for you to play it. They intend for you to see the opportunity for a *Layered Gentleman's Discard*, and then immediately discard the card.
+* This kind of clue is called a *Top Hat Clue* because you are giving them an opportunity to be a gentleman.
+* Note that you should not mistake a *Top Hat Clue* for a clue that initiates a *Layered Finesse*. You are only allowed to discard the card if you can determine its exact identity.
+
+### The Negative Blind-Play
+
+* Given enough negative clues on a card (and potentially some ancillary information based on the history of the game), it is possible to narrow down the identity of an unclued card in your hand to possibilities that only include playable cards that are not already touched in someone else's hand.
+* In this situation, you are expected to blind-play the card.
+
+### The Negative Self-Chop Move
+
+* If a card has negative 1, 2, 3, and 4 on it, then it is explicitly known to be a 5, while not directly clued.
+* In this situation, it would be a waste of a clue for the team to clue it directly.
+* Thus, the player should self-chop move the card.
+
+### The Speed-up Clue
+
+* The *Layered Finesse* convention (and its derivatives) are very efficient (in terms of "X for 1"). However, sometimes it can be very slow (low tempo), as players will have to allow for all possible *Reverse Finesses* before playing anything. This is generally not a problem in 3-player games, but tempo is important in 5-player games.
+* Normally, when the *Finesse Target* (the card that is to be blind-played) is clued directly, it is a mistake due to someone not paying close enough attention. We refer to this as *Stomping on a Finesse*.
+* However, if high tempo is needed, a player can consider intentionally *Stomping* on a *Layered Finesse* in order to "speed up" the play of a specific card that leads into other players hands.
+* One complicating factor of the *Speed-up Clue* is how to differentiate it from a more-ordinary *Fix Clue*. In other words, after the clued card is played, on their next turn, should the player go back and blind-play the other cards? If it was a *Speed-up Clue*, they should. If it was a *Fix Clue*, they should not.
+* The key lies in the context of the clue:
+  * Would another player have tried to blind-play something before the potential *Fix Clue* was given? If yes, then it is not a *Fix Clue*, and it is a *Speed-up Clue*.
+  * Was it possible to take an equivalent line where a *Fix Clue* would not be needed? (In terms of the same number of clues, and no risk of discarding critical/playable cards.) If yes, it is not a *Speed-up Clue*.
+
+### The Layered Jump
+
+* If a player who is blind-playing into a *Layered Finesse* skips over a card, they are performing a *Layered Jump*. This player has deduced that the card they are skipping over is duplicated (or otherwise bad).
+* The card skipped over in this way will be the next thing discarded, as it is now considered known trash.
+* If a *Layered Jump* skips over a card that cannot be in your own hand, then you can determine that it must be a mistake. In this situation, the skipped-over card must be clued directly to re-signify that it is good.
+
+### The Certain Discard Duplication Promise
+
+* As the recipient of a *Finesse*, you are promised a card that you have to blind-play. However, as long as it is not a *Certain Finesse*, you **have** to account for the possibility of a *Layered Finesse*. This means that you can never blind-discard the promised card to perform a *Gentleman's Discard*, for example.
+* After the *Finesse* has occurred, but before the promised card has been blind-played, there is a window where a teammate might find strategic value in duplicating the promised card in someone else's hand.
+* Unless the duplication was a last-resort, if the teammate duplicates the blind card, it **promises** that the duplicated card is on *Finesse Position* (and there is **no** *Layered Finesse*), which allows the recipient of the *Finesse* to blind-discard that card, similar to a *Certain Discard*.
+* Finally, from the perspective of the player receiving the clue, if they end up playing the duplicated card first, then they should know that the focus of the original clue was on the other, non-duplicated card, and they can play it immediately afterwards. (Otherwise, the original clue would be fairly low-value.)
+* Note that as long as the duplication clue touches two or more cards, the *Certain Discard Duplication Promise* interpretation takes priority over the *Unknown Trash Ejection* interpretation. (*Ejection* is an advanced move that is covered later on.)
+* Examples:
+  * Game #6817, turn 15
+  * Game #6799, turn 5
+
+### The Certain Finesse Clandestine Exception
+
+* This section outlines a specific and rare edge-case for *Certain Finesses*.
+* We agree that *Bluffs* take precedence over *Certain Finesses*. This means that a *Certain Finesse* cannot normally be performed from *Bluff Seat*.
+* *Certain Finesses* **can** be performed from *Bluff Seat* if it is strictly impossible to be a *Bluff*. In other words, this means that it is illegal for a player to perform a *Clandestine Finesse* on the very next player that targets a potentially duplicated card **and** the other player can rule out the possibility of a *Bluff*.
+* For example, in a 3-player game:
+  * All of the 2's & blue 3 is played on the stacks. Green 3 is in the discard pile.
+  * Alice has an unknown 3 in her hand that happens to be the red 3.
+  * Alice clues number 4 to Cathy, touching a red 4 as a *Play Clue*.
+  * Bob knows that Alice could be trying to perform a *Finesse* on a red 3. Normally, he would blind-discard his *Finesse Position* card as a *Certain Discard* in order to pass this card back to Alice.
+  * However, Bob also knows that this might be a *Bluff*. But wait - his *Finesse Position* card has negative blue on it. So anything that he blind-plays here would have to be a 3. Thus, this cannot be a *Bluff*, since a 3 would match a 4 and look like a *Finesse*.
+  * The only other possibility that Bob has to worry about is a *Clandestine Finesse*. For example, he could be blind-playing a green 3 **and then** a red 3 after that. If he blind-discarded, that could "kill" the green stack, since the other copy of green 3 is already discarded.
+  * However, Bob **also** knows that you are not allowed to perform a *Clandestine Finesse* from *Bluff Seat* that could duplicate a card in your hand. Thus, he can discount both the possibility of a *Bluff* **and** the possibility of a *Clandestine Finesse*.
+  * Bob performs a *Certain Discard* on his *Finesse Position* card and it is the red 3, successfully passing it back to Alice.
+* If someone performs a *Certain Discard* and you have two or more clued cards that could be the target, then you are not promised the order, only that you have the card clued somewhere in your hand. (This part works in the exact same way as a more-ordinary *Sarcastic Discard*.)
 
 ### The No-Context Double Gentleman's Discard
 
@@ -2214,210 +2504,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Bob discards the card and it is revealed to be a blue 1.
   * Cathy blind-plays her *Finesse Position* card, and it is a blue 1.
   * Normally, Cathy knows that Bob's discard would only promise the blue 1 (and not promise the rainbow 1). However, since the game literally started on the turn before the clue was given, there is no possible way that Bob could have figured out the exact identity of the card in such a short amount of time. Thus, Cathy knows that she must also have the rainbow 1 on her *Second Finesse Position*.
-
-### Double Tempo Clue Inversion (Immediate Double Clue)
-
-* If you are clued the exact same thing twice before it gets to be your turn, it means that you can play **all** of the cards that the clue applies to, but in the opposite order than normal (right-to-left, since you would normally play cards from left-to-right).
-  * If one of the cards includes the chop card, it means to play all of the cards from 2nd oldest to newest, and then the chop last.
-* If you are re-clued about a bunch of cards after you have already taken a turn, see the *Double Tempo Clue* section.
-
-### The Distribution Finesse
-
-* On the final round of the game, it is possible to perform a *Prompt* on a player that would be useless - they will not get a chance to play the *Prompted* card before the game ends.
-* If a player does this anyway, then it must be communicating something extra. In this situation, it is to be interpreted as a *Finesse* instead of a *Prompt* for the purposes of better satisfying *Team Distribution Principle*.
-* Examples:
-  * Game #16887, turn 29 if Instantiation clues blue on the blue 5
-
-### The Suboptimal Color Prompt & The Suboptimal Color Finesse
-
-* When saving a critical card, players will generally choose either color or number in order to best satisfy *Good Touch Principle*. Or, in situations where either color or number will satisfy *Good Touch Principle*, they will choose the clue that touches the maximum amount of useful ancillary cards (in order to get a 2-for-1 or a 3-for-1 instead of a 1-for-1).
-* When a player does **not** do this, it very strange. From *High Value Principle*, it implies it is a *Play Clue* instead of a *Save Clue*, so it is either a *Prompt* or a *Finesse* on the critical card being saved.
-
-### The Unnecessary Trash Finesse/Bluff Chop Move
-
-* The *Trash Finesse* or *Trash Bluff* is almost always done as a last resort - there was no way to give a direct *Play Clue* to the player's *Finesse Position* card without violating *Good Touch Principle*.
-* However, sometimes there **is** a way to "cleanly" touch the player's *Finesse Position* card. In this situation, doing a *Trash Finesse* or *Trash Bluff* would be unnecessary. But what if a player does it anyway?
-* In this situation, the point of the clue must be to give the clue receiver a safe discard. Thus, the clue receiver should *Chop Move* all of the cards to the right of the trash in the exact same way as a *Trash Chop Move*.
-* For example, in a 3-player game, this **would not** be an *Unnecessary Trash Finesse Chop Move*:
-  * All of the 2's are played on the stacks except for the red 2.
-  * Bob has a red 2 on his *Finesse Position* and another red 2 on his chop. Thus, Alice cannot give a red clue to Bob and Alice cannot give a number 2 clue to Bob, since either clue would violate *Good Touch Principle*.
-  * Cathy's hand is completely unclued.
-  * Alice clues number 2 to Cathy, touching a blue 2 on slot 4. (Blue 2 is already played and is therefore trash.)
-  * Bob blind-plays red 2 from his *Finesse Position*, knowing that this is a *Trash Finesse* or *Trash Bluff*.
-  * Cathy knows that her 2 is trash. She also knows that this was likely the only way that Alice could "get" Bob's *Finesse Position* card.
-* For example, in a 3-player game, this **would** be an *Unnecessary Trash Finesse Chop Move*:
-  * All of the 2's are played on the stacks except for the red 2.
-  * Bob has a red 2 on his *Finesse Position* and no other red cards in his hand. Thus, Alice could give a red clue to Bob in order to "get" the red 2.
-  * Cathy's hand is completely unclued.
-  * Alice clues number 2 to Cathy, touching a blue 2 on slot 4. (Blue 2 is already played and is therefore trash.)
-  * Bob blind-plays red 2 from his *Finesse Position*, knowing that this is a *Trash Finesse* or *Trash Bluff*.
-  * Cathy knows that her 2 is trash. However, she also knows that this *Trash Finesse* was unnecessary, as Alice could have just clued red to Bob. Thus, Cathy knows that this is an *Unnecessary Trash Finesse Chop Move*, so she marks her slot 5 card as *Chop Moved*.
-* Importantly, *Unnecessary Trash Finesse/Bluff Chop Moves* are tricky in that they have information asymmetry: the player who blind-plays will **not** know that the card is chop moved, while everyone else will. All players will have to keep this in mind until the *Chop Move* has been demonstrated.
-
-### The Unnecessary Trash Finesse/Bluff Chop Move (Alternate Form)
-
-* An alternate form of the *Unnecessary Trash Finesse/Bluff Chop Move* exists where the unnecessary part is **not** in the clue receivers hand but in someone else's hand.
-* For example, in a 4-player game:
-  * Blue 1 and red 4 are played on the stacks.
-  * Alice clues red to Donald, which touches a red 1 on slot 3.
-  * Bob blind-plays his *Finesse Position*, knowing that this is a *Trash Finesse* or *Trash Bluff*. It is a blue 2 and successfully plays.
-  * Cathy discards.
-  * Donald knows that his red card is trash. However, at the time the clue was given, Donald sees that Alice could have actually clued a blue 3 in Cathy's hand to perform a normal *Finesse*. A normal *Finesse* is a 2-for-1 and a *Trash Bluff* is a 1-for-1, so Donald knows that Alice must have had a good reason for this.
-  * Donald knows that this must be the alternate form of the *Unnecessary Trash Bluff Chop Move*, so he marks his slot 4 card as *Chop Moved* and discards the red 1.
-  * Cathy does not know that Donald is *Chop Moved*. However, she will be able to retroactively figure it out once the blue 3 is clued. Alternatively, she will know once Donald demonstrates the *Chop Move* by discarding his slot 3.
-
-### The Trash Pull
-
-* Sometimes, towards the end of the game, there can be a playable card in the middle of someone's hand that is not cluable directly due to the presence of other blocking cards.
-* In this situation, players often resort to a *Trash Push* in order to "get" the card without cluing it directly. However, this will obviously only work if the player has a trash card on their chop, which may not always be the case.
-* Another tool to "get" a card in the middle of a hand is by doing the opposite of a *Trash Push* - a *Trash Pull*.
-* If an off-chop trash card is clued, this would typically be interpreted as a *Trash Chop Move*. However, towards the end of the game, a *Chop Move* would be pointless, as there are no cards left to chop move. Thus, the player should know that it is a *Trash Pull* instead of a *Trash Chop Move*, and should blind-play the card to the right of the trash.
-* Just like how a *5 Pull* can only be done in the *Early Game*, a *Trash Pull* can only be done at the end of the game.
-* Since players often perform *Burn* clues for stalling purposes in the *End-Game*, care has to be taken to not confuse a normal *Burn* clue with a *Trash Pull*. This is especially true if there was nothing else obvious for the clue giver to do!
-* *Trash Pulls* should typically be used as a last-resort since they might be misinterpreted.
-
-### Ejection
-
-* *Ejection* refers to a move like a *Bluff*, but instead of playing an unrelated card from *Finesse Position*, someone plays an unrelated card from their *Second Finesse Position*. For example, if a player's hand hand is completely unclued, their *Second Finesse Position* is slot 2.
-* Certain types of "wasted" clues with no other purpose signal an *Ejection*.
-
-#### Known Trash Ejection
-
-* Often times, a player can have one or more cards that are known duplicates / trash. They will discard them it without being told anything further.
-* If a clue is given that **only** touches cards that are already known trash, then it must have some other purpose - it should signal an *Ejection* on the very next player.
-
-#### Double Play Ejection
-
-* If a player knows that a card in their hand is playable, and then they receive **another** clue on that card, it is usually a *Stop Clue*, which means that the card is actually bad and they should discard it instead of playing it.
-* However, if this happens on a good card, the other players can see that the clue must have some other purpose - it should signal an *Ejection* on the very next player.
-
-#### Unknown Trash Ejection
-
-* In general, *Bluffs* work because the player who received the clue knows that they have a one-away from playable card of that color.
-* If none of the stacks are finished and someone clues a trash card, it might look like a *Trash Bluff*. But, if the *Finesse Position* card is played, then the player will think that the card is actually a useful one-away card (instead of trash).
-* Since that would be a lie, the clue must have some other purpose - it should signal an *Ejection* on the very next player.
-* Since the *Second Finesse Position* card was played instead of the *Finesse Position* card, then the player who received the clue will know that the card is trash.
-* With the *Trash Bluff*, if multiple cards are clued, it means that **all** of the cards are trash. However, with *Unknown Trash Ejection*, if multiple cards are clued, only the focus of the clue is trash.
-
-#### Junk Ejection (with Trash)
-
-* Normally, when known trash is touched as the focus of the clue, and the known trash is not on chop, it communicates a *Trash Chop Move*.
-* However, what if the *Chop Moved* cards are also all trash? The other players can see that this clue must have some other purpose - it should signal an *Ejection* on the very next player.
-* *Junk Ejection* can be performed throughout the game. (But keep in mind that in the *End-Game*, a player might just be stalling.)
-
-#### The 5 Color Ejection
-
-* This convention only applies in the *Early Game*.
-* Normally, in the *Early Game*, if a player gives a color *Play Clue* to a 5, it would mean that it is a *Finesse* on the 5 and all of the cards leading up to the 5 are playable.
-* However, in the *Early Game*, this is fairly unlikely to be the case. Instead, players agree that this is an *Ejection* and that the next player should play their *Second Finesse Position*.
-* After the blind-play, the player who received will know that it must be a 5.
-* For example, in a 3-player game:
-  * It is the first turn and nothing is played on the stacks.
-  * Alice clues red to Cathy, touching a red 5 on slot 3.
-  * Bob knows that normally, this would be a *Finesse* on the 5, indicating to Bob that he has the red 1, the red 2, the red 3, and the red 4. However, since it is the *Early Game*, he also knows that *5 Color Ejection* should take precedence over a *Finesse*, so he knows to play his *Second Finesse Position* card. It is a red 1 and it successfully plays.
-  * From Cathy's perspective, if Bob had played his *Finesse Position* card in response to the red clue, then Cathy would know that it was a *Finesse* or a *Bluff*. But since Bob blind-played his *Second Finesse Position* card, it must be the 5. Cathy marks the red card as red 5.
-* *5 Color Ejections* are **only possible** if there is only one brand new card introduced with the color clue. For example, on the first turn of the game, it would be illegal to perform a *5 Color Ejection* where a red clue is given to Cathy that touches a red 5 on slot 1 and a red 4 on slot 2.
-  * As an exception to the above rule, in dual-color variants, it is possible to perform a *5 Color Ejection* if all of the newly-introduced and non-focused cards are of a different suit. For example, on the first turn of the game, Alice can perform a *5 Color Ejection* by cluing red to Cathy and touching a red 5 on slot 1, a rainbow 2 on slot 2, and a rainbow 3 on slot 3.
-* The *5 Color Ejection* convention conflicts with *Unknown Trash Ejection* convention. In the case of a conflict, the *Unknown Trash Ejection* interpretation has precedence. (See the *5 Color Discharge* below.)
-
-#### Junk Ejection (with 5's)
-
-* Normally, in the *Early Game*, if there are some other *Play Clues* or *Save Clues* to give and a number 5 clue is given to a one-away-from-chop 5, then it is an "early" *5 Stall* and is instead treated as an *Early 5's Chop Move*.
-* If other players can see that an *Early 5's Chop Move* was performed on a trash card, then this would normally indicate that it was **not** a *Chop Move* and is instead a *Finesse* on all of the cards leading up to the 5.
-* A *Finesse* on all of the cards leading up to the 5 is fairly unlikely in the *Early Game*. Instead, everyone agrees that this situation instead communicates an *Ejection* on the very next player.
-* After the *Ejection*, the player receiving the 5 clue will knows that they have trash on their chop.
-* For example, in a 5-player game:
-  * It is the *Early Game*.
-  * Red 1 is played on the stacks
-  * Alice clues number 5 to Cathy, touching a blue 5 on slot 3.
-  * Cathy's slot 4 card is a red 1. (This was her chop card prior to the number 5 clue being given.)
-  * It is now Bob's turn. Bob sees that Donald has a red 2 on his slot 2 that could be *Play Clued* with a red color clue.
-  * Normally, since it is the *Early Game*, a number 5's clue to Cathy might just be a *5 Stall*. However, since Alice could have given the red *Play Clue* to Donald, this is an "early" 5's clue, so it must be an *Early 5's Chop Move*.  However, this cannot be an *Early 5's Chop Move* either, since Cathy has a trash red 1 on her chop.
-  * Thus, Bob knows that this is a *Junk Ejection*, and he blind-plays his *Second Finesse Position*. It is a green 1 and successfully plays.
-  * Cathy knows that if this was an *Early 5's Chop Move*, then Bob would not have blind-played anything. Since he blind-played his *Second Finesse Position* card, this must be a *Junk Ejection* and her slot 4 card must be trash.
-* Unlike *Junk Ejection* with trash, *Junk Ejection* with a 5 is only "turned on" in the *Early Game*.
-
-#### Trash Push Ejection
-
-* Normally, when known trash is touched as the focus of the clue, and the known trash is on chop, it communicates a *Trash Push*.
-* However, what if the *Trash Pushed* card is trash? The other players can see that this clue must have some other purpose - it should signal an *Ejection* on the very next player.
-
-#### The 5 Pull Ejection and The 5 Pull Ejection Chop Move
-
-* This convention only applies in the *Early Game*.
-* Normally, if someone performs a *5 Pull* on a card that is one-away-from-playable, it promising that someone has the in-between card as a *5 Pull Finesse*.
-* However, if someone performs a *5 Pull* on a card that is two-away (or more) from playable card, then they must be trying to communicate something extra.
-* In this situation, they intend the next player to blind-play their *Second Finesse Position* card as a *5 Pull Ejection*.
-* The player receiving the clue should also *Chop Move* the *5 Pull* target, as it is likely to be a useful card that the team will need later.
-* For example, in a 4-player game:
-  * It is the first turn and nothing is played on the stacks.
-  * Alice clues number 5 to Cathy, touching a red 5 on slot 1. Cathy has a blue 4 on slot 2. There are other *Play Clues* for Alice to give, so this looks like a *5 Pull* on the blue 4.
-  * Bob knows that if no-one on the team does anything, Cathy will go on to misplay the blue 4 as a *5 Pull*.
-  * Bob also knows that if he plays his *Finesse Position* card, Cathy will still go on to misplay the blue 4 as a *5 Pull Finesse*.
-  * Thus, Bob blind-plays his *Second Finesse Position* card. It is blue 1 and it successfully plays.
-  * Cathy know knows that the card to the right of her 5 is two (or more) away from being playable. She also marks the card as being chop moved.
-* Rarely, it is possible for a *5 Pull Ejection* to occur where the player who receives the number 5 clue is able to determine that the only "other" thing to clue must be a card in their hand. In this situation, they might be hesitant to discard. By convention, players are allowed to discard in this situation. (This follows from *Guide Principle*.)
-
-#### Order Ejection
-
-* When a player can perform an *Skipped Order Chop Move* on a critical 5 (or a critical black card) at the beginning of the game, and they don't do it, this is very strange.
-* The player must be communicating something extra. In this scenario, they intend for the next person to blind-play slot 2.
-* The *Order Ejection* will also get a free *Chop Move* in addition to getting the blind-play.
-* For example, in a 4-player game:
-  * Blue 1 is played on the stacks.
-  * Alice clues Bob 1's, touching three 1's on slot 2, slot 3, and slot 4.
-  * Donald has a 5 on chop (and the rest of his hand is trash).
-  * Bob could play his 1 on slot 2 to *Skipped Order Chop Move* Donald's 5 for "free".
-  * Bob instead plays his 1 on slot 4 (which does nothing special).
-  * Cathy sees no possible reason for not getting a "free" *Chop Move* on a 5, so she knows that this is an *Order Ejection*. Cathy blind-plays slot 2 and it plays as a blue 2.
-  * Donald knows that Cathy must be blind-playing slot 2 for a reason. The only thing that happened that could have possibly caused the blind-play was the order that Bob played his 1's in. Thus, Donald knows that an *Order Ejection* has occurred and that he should *Chop Move*.
-  * Furthermore, Donald knows that his *Chop Moved* card **must** be a 5 or some other critical card. (This is unlike a normal *Order Chop Move*, since *Order Chop Moves* are alloweded to get non-critical cards.)
-* Note that *Order Ejections* only apply if the player did not *Order Chop Move* a **critical** card. Unique 2's **do not** count as critical in this case.
-
-#### Reverse Order Ejection
-
-* It is also possible to do a *Reverse Order Ejection*, meaning that the blind-play will occur **after** the person with the critical card has a turn.
-* For an *Order Ejection* to work, the player who initiates it must have three or more 1's to choose from. But a *Reverse Order Ejection* is more flexible in that it only requires two 1's.
-* For example, in a 4-player game:
-  * Blue 1 is played on the stacks.
-  * Alice clues Bob 1's, touching a 1 on slot 2 and a 1 on slot 3.
-  * Cathy has a 5 on chop (and the rest of her hand is trash).
-  * If Bob plays the slot 2 card, this would be a "free" *Order Chop Move* on the 5.
-  * Bob plays the 1 from slot 3 (which does nothing special).
-  * Cathy clues number 5 to Bob as a *5 Save*.
-  * Donald knows that Bob should have *Order Chop Moved* Cathy's 5, so he knows that this is a *Reverse Order Ejection*. Donald blind-plays his slot 2 card and it is a blue 2.
-  * Cathy knows that Donald did not blind-play from her *5 Save*, so the blind-play must have been from something else. The only other thing that happened was Bob playing the 1. Thus, Cathy knows that an *Reverse Order Ejection* has occurred and she retroactively *Chop Moves* herself.
-* Unlike a normal *Order Ejection*, the *Reverse Order Ejection* is not guaranteed to work. This is because Cathy is within her rights to "get" the *Second Finesse Position* card of Donald (with a direct *Play Clue* of her own). Thus, *Reverse Order Ejections* should only be done in specific circumstances where it is unlikely that Cathy will do so.
-* If a *Reverse Order Ejection* fails, everyone on the team should be aware that they now need to save the chop of Cathy.
-* For example, in a 4-player game:
-  * The setup is exactly the same as in the previous example.
-  * When it gets to Cathy's turn, instead of performing a *5 Save* on Bob, she instead clues Donald's blue 2 directly as a *Play Clue*.
-  * Donald plays the blue 2.
-  * Bob now knows that the *Reverse Order Ejection* failed and that the 5 will not get retroactively *Chop Moved* anymore. If Cathy might discard on the next turn, Bob should not play his remaining 1 and should instead give a *5 Save* to Cathy.
-
-### Discharge
-
-* *Discharge* is similar to *Ejection*, except instead of blind-playing the *Second Finesse Position* card, the player plays the *Third Finesse Position* card.
-* Certain types of **really** bad clues cause a *Discharge* to occur on the very next player.
-
-#### Unknown Trash Discharge
-
-* If an *Unknown Trash Ejection* touches multiple cards, only the focus of the clue must be trash.
-* Thus, if a *Unknown Trash Ejection*-style clue touches two or more trash cards, then it must be a *Discharge* instead.
-* *Unknown Trash Discharges* are "turned off" in the *Early Game* (since they conflict with *5 Color Discharges*).
-
-#### The 5 Color Discharge
-
-* This convention only applies in the *Early Game*.
-* The *Unknown Trash Ejection* has precedence over the *5 Color Ejection*, so it is not possible to perform a *5 Color Ejection* if there are any cards of that color that are already played or already discarded.
-* However, in the situation where there **are** cards of that color that are already played or already discarded, it is possible to perform the move as a *Discharge* instead of an *Ejection*.
-* For example, in 3-player game:
-  * Red 1 is played on the stacks.
-  * Alice clues red to Cathy, touching a red 5 on slot 3.
-  * Bob knows that normally, this would be a *Finesse* on the 5, indicating to Bob that he has the red 2, the red 3, and the red 4. However, since it is the *Early Game*, he also knows that it might be a *5 Color Ejection* instead, since those should take precedence over a *Finesse*.
-  * However, the problem with this interpretation is that if Bob blind-plays his *Second Finesse Position* card, then Cathy will think that it is an *Unknown Trash Ejection*. Since *Unknown Trash Ejections* have precedence over *5 Color Ejections*, Cathy will mark her red 5 as red 1, and the next time that Cathy needs to discard, she will discard the red 5. That would be quite bad.
-  * Instead, Bob knows that Alice must instead intend for Bob to blind-play his *Third Finesse Position* card as a *5 Color Discharge*. It is a red 2 and it successfully plays.
-  * From Cathy's perspective, if Bob had played his *Finesse Position* card in response to the red clue, then Cathy would know that it was a *Finesse* or a *Bluff*. If Bob had played his *Second Finesse Position* card in response to the red clue, then Cathy would know that it was a *Unknown Trash Ejection* (as a red 1). But since Bob blind-played his *Third Finesse Position* card, it must be the red 5.
 
 ### The Dump Truck
 
@@ -2456,71 +2542,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Normally, since it is the *Early Game*, a number 5's clue to Cathy might just be a *5 Stall*. However, since Alice could have given the red *Play Clue* to Donald, this is an "early" 5's clue, so it must be an *Early 5's Chop Move*.  However, this cannot be an *Early 5's Chop Move* either, since Cathy has a playable red 1 on her chop.
   * Thus, Bob knows that this is a *Double 5 Pull*, so he blind-plays his *Finesse Position* card. It is blue 1 and it successfully plays.
   * Cathy knows that if this was an *Early 5's Chop Move*, then Bob would not have blind-played anything. Since he blind-played his *Finesse Position* card, this must be a *Double 5 Pull*. Cathy blind-plays her slot 4 card (the card to the right of the clued 5).
-
-### The Negative Blind-Play
-
-* Given enough negative clues on a card (and potentially some ancillary information based on the history of the game), it is possible to narrow down the identity of an unclued card in your hand to possibilities that only include playable cards that are not already touched in someone else's hand.
-* In this situation, you are expected to blind-play the card.
-
-### The Negative Self-Chop Move
-
-* If a card has negative 1, 2, 3, and 4 on it, then it is explicitly known to be a 5, while not directly clued.
-* In this situation, it would be a waste of a clue for the team to clue it directly.
-* Thus, the player should self-chop move the card.
-
-### The Speed-up Clue
-
-* The *Layered Finesse* convention (and its derivatives) are very efficient (in terms of "X for 1"). However, sometimes it can be very slow (low tempo), as players will have to allow for all possible *Reverse Finesses* before playing anything. This is generally not a problem in 3-player games, but tempo is important in 5-player games.
-* Normally, when the *Finesse Target* (the card that is to be blind-played) is clued directly, it is a mistake due to someone not paying close enough attention. We refer to this as *Stomping on a Finesse*.
-* However, if high tempo is needed, a player can consider intentionally *Stomping* on a *Layered Finesse* in order to "speed up" the play of a specific card that leads into other players hands.
-* One complicating factor of the *Speed-up Clue* is how to differentiate it from a more-ordinary *Fix Clue*. In other words, after the clued card is played, on their next turn, should the player go back and blind-play the other cards? If it was a *Speed-up Clue*, they should. If it was a *Fix Clue*, they should not.
-* The key lies in the context of the clue:
-  * Would another player have tried to blind-play something before the potential *Fix Clue* was given? If yes, then it is not a *Fix Clue*, and it is a *Speed-up Clue*.
-  * Was it possible to take an equivalent line where a *Fix Clue* would not be needed? (In terms of the same number of clues, and no risk of discarding critical/playable cards.) If yes, it is not a *Speed-up Clue*.
-
-### The Layered Jump
-
-* If a player who is blind-playing into a *Layered Finesse* skips over a card, they are performing a *Layered Jump*. This player has deduced that the card they are skipping over is duplicated (or otherwise bad).
-* The card skipped over in this way will be the next thing discarded, as it is now considered known trash.
-* If a *Layered Jump* skips over a card that cannot be in your own hand, then you can determine that it must be a mistake. In this situation, the skipped-over card must be clued directly to re-signify that it is good.
-
-### Inverted Priority Finesse
-
-* *Priority Finesses* are considered "free", since they do not cost a clue to perform. Thus, it is extremely rare that a player would decline to perform one if it was possible to do so.
-* If a player declines to perform a *Priority Finesse*, and there is nothing else special going on, then they must be trying to communicate something extra.
-* They are instead calling for a *Priority Finesse* on the card that had *Priority*. This is called an *Inverted Priority Finesse* because it gets a blind-play from playing a card with *Priority* (as opposed to getting a blind-play from playing a card without *Priority*).
-* After a *Inverted Priority Finesse* occurs, the presence of a normal *Priority Finesse* is now known to everyone on the team. Thus, the normal *Priority Finesse* is preserved and should be played into on the next go-around of the table.
-* For example, in a 3-player game:
-  * Alice has a choice between playing a red 1 and a blue 2. Both cards are fully known, and no-one else has any clued cards, so the red 1 has *Priority*.
-  * Alice plays the red 1.
-  * Bob sees that if Alice had played the blue 2, she could have performed a *Priority Finesse* on Cathy's slot 1 card, the blue 3.
-  * Bob knows that there was no reason for Alice to decline the *Priority Finesse*, so this must be an *Inverted Priority Finesse*. Bob blind-plays his slot 1 card, and it is the red 2.
-  * Cathy knows that the red 1 had *Priority*, so playing it should not have caused Bob to blind-play anything. Thus, Cathy knows that this must be an *Inverted Priority Finesse*, and she knows that she has a blue 3 on her slot 1. Cathy discards.
-  * Alice plays blue 2.
-  * Bob discards.
-  * Cathy blind-plays blue 3.
-
-### The Skipped Discard Chop Move
-
-* In emergency situations, players should perform *Scream Discards* and  *Generation Discards* to save important cards. These two moves, along with their derivatives, the *Echo Scream Discard* and the *Compositional Discard*, should be enough to "solve" almost every sticky situation that could ever come up.
-* However, in an extremely difficult variant, or in a situation where a previous player has blundered, it might fall to one player to save the next player's critical chop card. In this situation, they might not be able to perform a *Scream Discard*, because they might not have any playable cards. And they might not be able to perform a *Scream Blind-Play*, because if the team is at 2 strikes, then the game would immediately end.
-* In this situation, the player can discard a card one-away from their chop as a *Skipped Discard Chop Move*. This convention is normally only used in 2-player games, because it is very unsafe, risking the discard of a critical card.
-* It is common for players to accidently *Chop Move* a card. Thus, the *Skipped Discard Chop Move* interpretation should almost never be entertained, simply because of how rarely it is actually needed.
-* Furthermore, this move should never be performed if there is a non-expert player playing or if it is likely to be interpreted as a mistake.
-
-
-### The Unnecessary Trash Push
-
-* Normally, players are only allowed to perform a *Trash Push* if the card to "get" cannot be given a direct *Play Clue*. Subsequently, if the card **can** be clued directly, and a *Trash Push* is done anyway, this is very strange.
-* In this situation, the very next player should blind-play their *Finesse Position* card as a *Known Bluff*. The receiver of the clue will interpret this as a *Trash Push Finesse* and will then play the pushed card. Once they play it, they will see that it does **not** match, and that an *Unnecessary Trash Push* occurred.
-* For example, in a 3-player game:
-  * All of the 2's are played on the stacks.
-  * Alice clues number 1 to Cathy, touching a single 1 on chop. Since all of the 1's are already played, it is globally known that this must be some kind of *Trash Push*.
-  * Bob sees that the pushed card is a red 3. Cathy has no other red cards in her hand, so Alice could have just clued red to Cathy instead of doing a complicated *Trash Push*.
-  * Thus, Bob knows that this is an *Unnecessary Trash Push*, and blind-plays his *Finesse Position* card. It is the blue 3 and it successfully plays.
-  * Cathy knows that this must be a *Trash Push Finesse* on blue 4. Cathy blind-plays her slot 4 card, but it is red 3 instead and it successfully plays.
-  * Cathy now knows that since the two cards did not match each other, this must have been an *Unnecessary Trash Push*.
-* Players cannot *Unnecessary Trash Push* unless the clue touches exactly 1 card.
 
 <br />
 
