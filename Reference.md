@@ -2230,7 +2230,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### The Suboptimal Color Prompt & The Suboptimal Color Finesse
 
-* When saving a critical card, players will generally choose either color or number in order to best satisfy *Good Touch Principle*. Or, in situations where either color or number will satisfy *Good Touch Principle*, they will choose the clue that touches the maximum amount of useful ancillary cards (in order to get a "2 for 1" or "3 for 1" instead of a "1 for 1").
+* When saving a critical card, players will generally choose either color or number in order to best satisfy *Good Touch Principle*. Or, in situations where either color or number will satisfy *Good Touch Principle*, they will choose the clue that touches the maximum amount of useful ancillary cards (in order to get a 2-for-1 or a 3-for-1 instead of a 1-for-1).
 * When a player does **not** do this, it very strange. From *High Value Principle*, it implies it is a *Play Clue* instead of a *Save Clue*, so it is either a *Prompt* or a *Finesse* on the critical card being saved.
 
 ### The Unnecessary Trash Finesse/Bluff Chop Move
