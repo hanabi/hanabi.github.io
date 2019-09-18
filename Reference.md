@@ -2021,7 +2021,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Cathy immediately blind-plays her *Finesse Position* card and it is the red 4.
   * Bob sees Cathy blind-play the next red card for seemingly no reason, so he is able to deduce that his slot 2 card is trash.
 
-### The Reverse Bluff / The Out-of-Position Bluff (O.O.P. / OOP)
+### The Out-of-Position Bluff (O.O.P. / OOP)
 
 * Similar to a *Reverse Finesse*, it is possible to perform a *Reverse Bluff*. However, according to *Good Lie Principle*, you are only allowed to lie to the player who comes immediately after you, so this is illegal.
   * Why this policy? It is not possible to play with both *Layered Finesses* and *Reverse Bluffs* at the same time, and *Layered Finesses* are much better.
