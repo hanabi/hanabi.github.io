@@ -505,7 +505,7 @@ Priority does not always apply. Some common exceptions are listed below.
 * If the player before you just discarded a card (say the red 4), and you don't see that card in anyone else's hand, there is a possibility that you could have that same card on your chop. In this example, if you discarded, both red 4's could be lost and your team would not be able to get a perfect score. This is called *Double Discarding*.
 * Since *Double Discarding* can "lose" the game, you should never *Double Discard* and give a clue instead! In this situation, if there are no normal *Play Clues* or *Save Clues* to give, you are allowed to give "stall" clues, like a *5 Stall*. If there are no *5 Stalls* to give, then you can just "fill-in" information on some clued card (and it shouldn't cause a *Finesse*).
 * Because of this convention, players do not have to be worried about the same card being on two chops in a row.
-* Normally, players in *Double Discard* situations are not able to give tricky-looking *Finesses*, because everyone else on the team will think that they might just be giving a stall clue. However, if it can be seen that there is a better clue available for them to give, then they are **not** giving a stall clue. Thus, players in *Double Discard* situations are still often able to make *Finesses* happen. For more information, see the "Allowable Stall Clues" section.
+* Normally, players in *Double Discard* situations are not able to give tricky-looking *Finesses*, because everyone else on the team will think that they might just be giving a stall clue. However, if it can be seen that there is a better clue available for them to give, then they are **not** giving a stall clue. Thus, players in *Double Discard* situations are still often able to make *Finesses* happen.
 * One common way of stalling in a *Double Discard* situation is to do a *5 Stall*. Note that the *Finesse Position Exception* applies to both *5 Stalls* in the *Early Game* and *5 Stalls* in *Double Discard* situations.
 
 <br />
@@ -2034,7 +2034,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Alice clues Bob number 2, which touches the blue 2 on slot 2.
   * Bob doesn't see any other 1's on *Finesse Position*. Thus, the number 2 clue must be a *Self-Finesse*, so he blind-plays red 1.
   * Cathy comes next. From her perspective, Bob should currently think that his slot 2 card is red 2 (instead of blue 2). If nothing else happens, Bob will go on to misplay that card.
-* From Cathy's perspective, there are 2 possible situations:
+* From Cathy's perspective, there are multiple possible interpretations, depending on the specifics:
 
 #### 1) A *Disease Bluff*
 
@@ -2114,11 +2114,26 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### The Hesitation Blind-Play
 
-* Sometimes, a player will get a *Play Clue* on a card. And then, instead of playing it, they will discard their chop instead. This would normally indicate a *Scream Discard*. However, sometimes the next player will know from the context of the game that their chop has to be safe.
-* In such a situation, the only reason that the player would discard is that they are allowing for the possibility of a *Reverse Finesse*, and that the next player has a playable card on *Finesse Position* slot that "matches" the card that they got the *Play Clue* on. Thus, the next player may be able to just immediately blind-play their *Finesse Position* card as a *Hesitation Blind-Play*.
-* However, doing this is not always safe, so players have to carefully evaluate what exact cards that they could be playing:
-  * For example, if they played the other copy of the clued card (that caused the *Hesitation*), then that would cause a duplication and violate *Good Touch Principle*.
-  * Another problem is if the blind-play causes the original clue to look like a *Double Finesse* with a "self" component. For example, if a number 4 clue causes a *Hesitation Blind-Play* of a red 2, the clue receiver might misplay their *Finesse Position* card as a red 3.
+* Sometimes, a player will receive a *Play Clue* on a card. And then, instead of playing it, they will discard their chop instead. This would normally indicate some sort of emergency. However, sometimes it can be seen that there is nothing special going on and that everybody has safe chop cards.
+* In such a situation, if the player is not making a mistake, the only reason that they would discard is that they are allowing for the possibility of a *Prompt* or a *Reverse Finesse* - someone else on the team has a playable card (either clued or on *Finesse Position*) that "matches" the card that they got the *Play Clue* on.
+* Depending on the game state, clever players may be able to blind-play their *Finesse Position* card in reponse to this hesitation, getting a card for "free". This kind of move is called a *Hesitation Blind-Play*.
+* For example, in a 3-player game:
+  * Red 1 and all of the other 2's are played on the stacks.
+  * The team has 5 clues. Nobody on the team has any cards clued in their hand.
+  * Alice clues number 3 to Bob, touching a blue 3 on slot 1 as a *Play Clue*. (The team is now at 4 clues.)
+  * Bob discards. (The team is now at 5 clues.)
+  * From Cathy's perspective, Bob was supposed to play the blue 3 immediately instead of discarding.
+  * Cathy knows that since the team has so many clues available, this cannot be a *Scream Discard* from Bob. (*Scream Discards* are only typically done when the team is at 0 or 1 clues.)
+  * Thus, Cathy knows that Bob must be hesitating because is he allowing for the possibility of a *Reverse Finesse*. In this situation, the only possible card that could Bob could be hesitating for is red 2.
+  * Cathy blind-plays her *Finesse Position* card. It is red 2 and it successfully plays.
+  * Alice discards.
+  * Bob knows that since Cathy blind-played the red 2, Alice did a *Reverse Finesse* and that he has the red 3.
+  * Bob plays the 3, but it is revealed to be blue 3 instead of red 3.
+  * Bob now knows that nobody has the red 3 and that Cathy blind-played the red 2 from Bob's hesitation.
+* *Hesitation Blind Plays* are **not always safe** to do:
+  * If a player could be hesitating for a clued card in your hand **or** your *Finesse Position* card, then you cannot cannot act on the hesitation. (If you guess wrong, you could misplay a critical card.)
+  * If a player could be hesitating for a card that is identical to the card that was clued, then you cannot cannot act on the hesitation. (If you blind-play the same copy of the card, then they will go on to misplay the clued card.)
+  * If blind-playing a particular card would cause the original clue to look like a *Double Finesse* with a "self" component, then you cannot cannot act on the hesitation. (For example, if a number 4 clue causes a *Hesitation Blind-Play* of a red 2, the clue receiver would go on to misplay their *Finesse Position* card as the red 3.)
 
 ### The Pass Bluff
 
