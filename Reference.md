@@ -12,15 +12,16 @@ Note that convention updates for the group are listed in the `#announcements` ch
 
 1. [First Principles](#first-principles)
 2. [Examples](#examples)
-3. [Level 2 - General Principles](#level-2---general-principles)
-4. [Level 2 - Intermediate Strategies](#level-2---intermediate-strategies)
-5. [Level 3 - Advanced Principles](#level-3---advanced-principles)
-6. [Level 3 - Advanced Strategies](#level-3---advanced-strategies)
-7. [Level 4 - Expert Strategies](#level-4---expert-strategies)
-8. [Level 3 - Rarely Used Advanced Strategies](#level-3---rarely-used-advanced-strategies)
-9. [Level 4 - Rarely Used Expert Strategies](#level-4---rarely-used-expert-strategies)
-10. [Variant-Specific Strategies](#variant-specific-strategies)
-11. [Convention Attribution](#convention-attribution)
+3. [Level 1 - Beginner Strategies](#level-1---beginner-strategies)
+4. [Level 2 - General Principles](#level-2---general-principles)
+5. [Level 2 - Intermediate Strategies](#level-2---intermediate-strategies)
+6. [Level 3 - Advanced Principles](#level-3---advanced-principles)
+7. [Level 3 - Advanced Strategies](#level-3---advanced-strategies)
+8. [Level 4 - Expert Strategies](#level-4---expert-strategies)
+9. [Level 3 - Rarely Used Advanced Strategies](#level-3---rarely-used-advanced-strategies)
+10. [Level 4 - Rarely Used Expert Strategies](#level-4---rarely-used-expert-strategies)
+11. [Variant-Specific Strategies](#variant-specific-strategies)
+12. [Convention Attribution](#convention-attribution)
 
 <br />
 
@@ -105,6 +106,22 @@ A screenshot will look like the following:
 ![Example Screenshot](img/example.png)
 
 Note that in this user interface, players are holding their hands like they would be if they were playing in real life. For example, in this screenshot, Donald's chop card / right-most card / slot 4 card is the green 5, and Alice's chop card / right-most card / slot 4 card is the yellow 1.
+
+<br />
+
+## Level 1 - Beginner Strategies
+
+### The Prompt
+
+* The *Prompt* is a move covered in [beginner guide](https://github.com/Zamiell/hanabi-conventions/blob/master/Beginner.md). It is when you get a player to clued card that was previously unknown.
+
+### The Finesse
+
+* The *Finesse* is a move covered in [beginner guide](https://github.com/Zamiell/hanabi-conventions/blob/master/Beginner.md). It is when you get a player to blind-play a card to prevent a misplay from occuring.
+
+### Finesse Position
+
+* As covered in the [beginner guide](https://github.com/Zamiell/hanabi-conventions/blob/master/Beginner.md), a player's *Finesse Position* refers to the slot that their left-most unclued card is in.
 
 <br />
 
@@ -338,10 +355,6 @@ The other sections in this document contain lists of special "moves", but this s
     * After that, she uses the *Fresh 1's Rule*, and play the 1 in slot 1 next.
     * After that, she will play the rest of the 1's from oldest to newest, so she will play slot 3 and then slot 2.
 
-### The Prompt
-
-* The *Prompt* is a move covered in [beginner guide](https://github.com/Zamiell/hanabi-conventions/blob/master/Beginner.md). It is when you get a player to clued card that was previously unknown.
-
 ### Prompts in Multi-Color Variants
 
 * In multi-color variants, *Prompts* apply to the card with the most positive information.
@@ -362,14 +375,6 @@ The other sections in this document contain lists of special "moves", but this s
   * Alice clues Cathy about a rainbow 4.
   * Bob is promised the rainbow 2 and the rainbow 3, so he knows that these cards must be on slots 1 and slot 3.
   * However, Bob also knows that you should always play the card with the most information on it first, so he plays his slot 3 card as rainbow 2 (instead of slot 1, the left-most card).
-
-### The Finesse
-
-* The *Finesse* is a move covered in [beginner guide](https://github.com/Zamiell/hanabi-conventions/blob/master/Beginner.md). It is when you get a player to blind-play a card to prevent a misplay from occuring.
-
-### Finesse Position
-
-* As covered in the [beginner guide](https://github.com/Zamiell/hanabi-conventions/blob/master/Beginner.md), a player's *Finesse Position* refers to the slot that their left-most unclued card is in.
 
 ### The Prompt + Finesse
 
