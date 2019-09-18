@@ -1796,7 +1796,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Bob knows that Alice's clue violated *Good Touch Principle*. If the clue is not communicating something extra, then it would be a real lousy clue. Therefore it must be a *Good Touch Finesse*, so Bob blind-plays his *Finesse Position* card, and it is a blue 1.
   * Cathy knows that since this is the first turn of the game, both of her 1's cannot be trash. Similar to a *Stale 1's Clue*, Cathy skips over the older 1 and plays the newest 1. (She would normally play her 1's from right-to-left.) She will then discard the other 1 later.
 
-### The Bad Touch Double Finesse & The Bad Touch Double Bluff (For 3's)
+### The Bad Touch Double Finesse (For 3's)
 
 * Normally, a *3 Bluff* takes priority over a *Double Finesse*. This means that if someone clues a blue 3 using the number 3, and then a blue 1 blind-plays on the very next turn, no-one is promised the blue 2.
 * However, if **both** blue 3's were touched with the number 3 clue, then that would violate *Good Touch Principle*, and this would be considered a "bad touch".
@@ -1808,7 +1808,10 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Bob blind-plays his *Finesse Position* and it is red 1.
   * Cathy knows that normally, this would be a *3 Bluff*. However, since the red 3's are duplicated, this must be a *Bad Touch Double Finesse*, so Cathy blind-plays her *Finesse Position* and it is the red 2.
   * Donald knows that the other 3 in his hand must be the other copy of red 3, or else Cathy would not have blind-played anything, so Donald plays the left-most red 3. The next time that Donald discards, he will discard the known trash red 3. 
-* In the same way, it is also possible to *Bad Touch Double Bluff* (or *Bad Touch Double Half Bluff*) in order to get unrelated cards played from *Finesse Position*.
+
+### The Bad Touch Double Bluff (For 3's)
+
+* In the same way as the *Bad Touch Double Finesse*, it is also possible to *Bad Touch Double Bluff* (or *Bad Touch Double Half Bluff*) in order to get unrelated cards played from *Finesse Position*.
 * For example, in a 4-player game:
   * It is the first turn and nothing is played on the stacks.
   * Alice clues number 3 to Donald, touching two red 3's.
