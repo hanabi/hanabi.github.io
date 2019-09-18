@@ -145,6 +145,10 @@ Note that in this user interface, players are holding their hands like they woul
     * After that, she uses the *Fresh 1's Rule*, and play the 1 in slot 1 next.
     * After that, she will play the rest of the 1's from oldest to newest, so she will play slot 3 and then slot 2.
 
+### The Prompt
+
+* The *Prompt* is a move covered in [beginner guide](https://github.com/Zamiell/hanabi-conventions/blob/master/Beginner.md). It is when you get a player to clued card that was previously unknown.
+
 ### Prompts in Multi-Color Variants
 
 * In multi-color variants, *Prompts* apply to the card with the most positive information.
@@ -166,9 +170,13 @@ Note that in this user interface, players are holding their hands like they woul
   * Bob is promised the rainbow 2 and the rainbow 3, so he knows that these cards must be on slots 1 and slot 3.
   * However, Bob also knows that you should always play the card with the most information on it first, so he plays his slot 3 card as rainbow 2 (instead of slot 1, the left-most card).
 
+### The Finesse
+
+* The *Finesse* is a move covered in [beginner guide](https://github.com/Zamiell/hanabi-conventions/blob/master/Beginner.md). It is when you get a player to blind-play a card to prevent a misplay from occuring.
+
 ### Finesse Position
 
-* As covered in the beginner's guide, a player's *Finesse Position* refers to the slot that their left-most unclued card is in.
+* As covered in the [beginner guide](https://github.com/Zamiell/hanabi-conventions/blob/master/Beginner.md), a player's *Finesse Position* refers to the slot that their left-most unclued card is in.
 
 ### The Prompt + Finesse
 
