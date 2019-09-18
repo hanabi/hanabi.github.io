@@ -19,7 +19,7 @@ Note that convention updates for the group are listed in the `#announcements` ch
 7. [Level 4 - Expert Strategies](#level-4---expert-strategies)
 8. [Level 3 - Rarely Used Advanced Strategies](#level-3---rarely-used-advanced-strategies)
 9. [Level 4 - Rarely Used Expert Strategies](#level-4---rarely-used-expert-strategies)
-10. [Level 3 - Variant-Specific Strategies](#level-3---variant-specific-strategies)
+10. [Variant-Specific Strategies](#variant-specific-strategies)
 11. [Convention Attribution](#convention-attribution)
 
 <br />
@@ -2464,7 +2464,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 3 - Variant-Specific Strategies
+## Variant-Specific Strategies
 
 ### Hard Variants & Easy Variants
 
