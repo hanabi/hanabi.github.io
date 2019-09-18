@@ -500,12 +500,12 @@ Priority does not always apply. Some common exceptions are listed below.
   * Cathy sees that if this was a *Tempo Clue Chop Move*, it would be saving the blue 1, which is useless. Thus, for both the red 2 and the red 5 to be playable, Cathy must have both the red 3 and the red 4 on *Finesse Position*.
   * Cathy blind-plays red 3.
 
-### Avoiding Double Discards (Level 2 Stalling)
+### Avoiding Double Discards
 
 * If the player before you just discarded a card (say the red 4), and you don't see that card in anyone else's hand, there is a possibility that you could have that same card on your chop. In this example, if you discarded, both red 4's could be lost and your team would not be able to get a perfect score. This is called *Double Discarding*.
-* Since *Double Discarding* can "lose" the game, you should never *Double Discard* and give a clue instead! In this situation, if there are no normal clues to give, you are allowed to give "stall" clues; see below.
+* Since *Double Discarding* can "lose" the game, you should never *Double Discard* and give a clue instead! In this situation, if there are no normal *Play Clues* or *Save Clues* to give, you are allowed to give "stall" clues, like a *5 Stall*. If there are no *5 Stalls* to give, then you can just "fill-in" information on some clued card (and it shouldn't cause a *Finesse*).
 * Because of this convention, players do not have to be worried about the same card being on two chops in a row.
-* Normally, players in *Double Discard* situations are not able to give tricky-looking *Finesses*, because they will be interpreted as a stall instead. However, from *High Value Principle*, you can know that a player in a *Double Discard* situation is **not** giving a "stall" clue if there is some other better clue available for them to give. Thus, players in *Double Discard* situations are still often able to make *Finesses* happen. See the priority column of the below table for an explicit ranking of what constitutes a "better" clue.
+* Normally, players in *Double Discard* situations are not able to give tricky-looking *Finesses*, because everyone else on the team will think that they might just be giving a stall clue. However, if it can be seen that there is a better clue available for them to give, then they are **not** giving a stall clue. Thus, players in *Double Discard* situations are still often able to make *Finesses* happen. For more information, see the "Allowable Stall Clues" section.
 * One common way of stalling in a *Double Discard* situation is to do a *5 Stall*. Note that the *Finesse Position Exception* applies to both *5 Stalls* in the *Early Game* and *5 Stalls* in *Double Discard* situations.
 
 <br />
