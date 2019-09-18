@@ -1814,21 +1814,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Donald knows that this cannot be a *3 Bluff*, or else Cathy would not have blind-played anything. Thus, this must be a *Bad Touch Double Finesse*, so Donald discards his red 3 as a *Sarcastic Discard* to pass it back to Emily.
   * Emily plays the red 3.
 
-### The Suboptimal Save Prompt & The Suboptimal Save Finesse
-
-* If the other copy of a card is in the trash already, then the remaining copy needs to be saved. These cards are allowed to be saved with either a color clue or a number clue.
-* If both types of clues will **only** introduce one new card, then it is said that that there is a "free choice" between the two clue types.
-* In this situation, the clue type will be chosen that "fills in" the other ancillary cards in the hand or gives important negative information.
-* If a clue type is chosen that is clearly worse than the other one, then the clue giver must be trying to communicate something extra.
-* The means that this innocent-looking *Save Clue* is really a *Play Clue*, and all of the in-between cards are called for.
-
-### The Declined 5's Finesse
-
-* The *5's Chop Move* is typically used to save a 5 and a critical non-5 at the same time. This is very efficient, because it saves both cards with one clue instead of having to spend two clues.
-* So, when a player has this strategy available, but instead declines to do it and clues the critical card on chop directly (without touching any other cards), then this is quite strange.
-* In this situation, the player must be trying to communicate something extra. Similar to an *Occupied Finesse*, the player is trying to signal that this seemingly innocent *Save Clue* is actually a *Play Clue* instead. Someone on the team must have the cards to make this critical card playable.
-* In some situations, the blind-player may have to defer playing into the *Finesse* and instead give a *5 Save* to the player with the (now) unsafe chop. If they do, then this is not a problem - the clue receiver can retroactively determine that a *Declined 5's Finesse* has occurred and should not *Stomp* on the *Finesse*.
-
 ### The Patch Finesse (Hidden Form)
 
 * Sometimes, a player will initiate a *Layered Finesse* on a card that is behind a one-away from playable card. Normally, this would be quite bad, as the player would blind-play the one-away from playable card, and it would misplay.
@@ -1982,25 +1967,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * Furthermore, similar to the above example, it is also possible that Cathy could have the other copy of the red 2 in her own hand. However, this is unlikely, and by convention we disregard this possibility.
 * Similar to the above example, Cathy should interpret this situation as a *Double Bluff*. If she blind-plays a card successfully, Bob will **not** go on to misplay the blue 2.
 
-### The Rank Choice Bluff & The Rank Choice Finesse
-
-* *Reverse Finesses* take precedence over *Bluffs*. This means that you cannot use cards to *Bluff* that have "matching" cards in the *Finesse Position* of other players, since the player you want to *Bluff* will pause to give a chance for the matching cards to play first.
-* However, in some rare situations, when initiating a *Reverse Finesse*, you have a free choice between a color clue and a rank clue, meaning that both rank and color will **only** touch the one target card.
-* By convention, if you use rank instead of color, you communicate that you really want a *Bluff* to happen, and that the next player should **not** wait for other matching cards to play first. This is called a *Rank Choice Bluff*.
-* After communicating that you want a *Rank Choice Bluff* to happen, the next player will blind-play their *Finesse Position* card. But if that card matches the clued card, then it was actually a *Rank Choice Finesse* instead of a *Rank Choice Bluff*. A *Rank Choice Finesse* may be preferable to a (more ordinary) *Ambiguous Finesse*, which will resolve more slowly.
-* Note that it is possible to use the *Rank Choice* convention with any kind of *Bluff*. Thus, it is possible to *Rank Choice 3 Bluff*, *Rank Choice Double Bluff*, *Rank Choice Triple Bluff*, and so forth.
-* Examples:
-  * Game #8129, turn 4 (cluing Hyakinthus' yellow 3)
-
-### The Rank Choice Save Finesse
-
-* When saving a card, players have to choose carefully between using a color clue or a rank clue. However, in some rare situations, it makes absolutely no difference which clue is used:
-  * Both color and rank would only touch the specific card.
-  * Both color and rank would communicate the exact identity of the specific card.
-  * Both color and rank would not give any useful negative information to the other cards in the hand.
-* In these situations, the player giving the clue has a completely free choice between rank and color. We agree that by default, players should use color to save the card.
-* If players instead use a rank clue to save the card, this communicates a *Rank Choice Save Finesse*. (This is similar to the more-ordinary *Rank Choice Finesse*, except it is initiated with a *Save Clue* instead of a *Play Clue*).
-
 ### The Surreptitious Self-Finesse
 
 * *Clandestine Finesses* are when a color or rank clue "matches" the card from a blind-play, but the clue receiver must wait for **additional** matching playable cards to blind-play. Another way of saying this is that *Clandestine Finesses* have a *Misplay Component*; if the blind-player does not continue to blind-play cards, then the clue receiver will go on to misplay the "matching" card.
@@ -2041,11 +2007,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * Examples:
   * Game #16887, turn 29 if Instantiation clues blue on the blue 5
 
-### The Suboptimal Color Prompt & The Suboptimal Color Finesse
-
-* When saving a critical card, players will generally choose either color or number in order to best satisfy *Good Touch Principle*. Or, in situations where either color or number will satisfy *Good Touch Principle*, they will choose the clue that touches the maximum amount of useful ancillary cards (in order to get a 2-for-1 or a 3-for-1 instead of a 1-for-1).
-* When a player does **not** do this, it very strange. From *High Value Principle*, it implies it is a *Play Clue* instead of a *Save Clue*, so it is either a *Prompt* or a *Finesse* on the critical card being saved.
-
 ### Inverted Priority Finesse
 
 * *Priority Finesses* are considered "free", since they do not cost a clue to perform. Thus, it is extremely rare that a player would decline to perform one if it was possible to do so.
@@ -2061,6 +2022,44 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Alice plays blue 2.
   * Bob discards.
   * Cathy blind-plays blue 3.
+
+### Suboptimal Finesses / Choice Finesses
+
+* The following *Finesses* and *Bluffs* are triggered by performing a suboptimal clue or by picking a strange choice for a clue.
+
+#### The Declined 5's Finesse
+
+* The *5's Chop Move* is typically used to save a 5 and a critical non-5 at the same time. This is very efficient, because it saves both cards with one clue instead of having to spend two clues.
+* So, when a player has this strategy available, but instead declines to do it and clues the critical card on chop directly (without touching any other cards), then this is quite strange.
+* In this situation, the player must be trying to communicate something extra. Similar to an *Occupied Finesse*, the player is trying to signal that this seemingly innocent *Save Clue* is actually a *Play Clue* instead. Someone on the team must have the cards to make this critical card playable.
+* In some situations, the blind-player may have to defer playing into the *Finesse* and instead give a *5 Save* to the player with the (now) unsafe chop. If they do, then this is not a problem - the clue receiver can retroactively determine that a *Declined 5's Finesse* has occurred and should not *Stomp* on the *Finesse*.
+
+#### The Suboptimal Save Prompt & The Suboptimal Save Finesse
+
+* If the other copy of a card is in the trash already, then the remaining copy needs to be saved. These cards are allowed to be saved with either a color clue or a number clue.
+* If both types of clues will **only** introduce one new card, then it is said that that there is a "free choice" between the two clue types.
+* In this situation, the clue type will be chosen that "fills in" the other ancillary cards in the hand or gives important negative information.
+* If a clue type is chosen that is clearly worse than the other one, then the clue giver must be trying to communicate something extra.
+* The means that this innocent-looking *Save Clue* is really a *Play Clue*, and all of the in-between cards are called for.
+
+#### The Rank Choice Bluff & The Rank Choice Finesse
+
+* *Reverse Finesses* take precedence over *Bluffs*. This means that you cannot use cards to *Bluff* that have "matching" cards in the *Finesse Position* of other players, since the player you want to *Bluff* will pause to give a chance for the matching cards to play first.
+* However, in some rare situations, when initiating a *Reverse Finesse*, you have a free choice between a color clue and a rank clue, meaning that both rank and color will **only** touch the one target card.
+* By convention, if you use rank instead of color, you communicate that you really want a *Bluff* to happen, and that the next player should **not** wait for other matching cards to play first. This is called a *Rank Choice Bluff*.
+* After communicating that you want a *Rank Choice Bluff* to happen, the next player will blind-play their *Finesse Position* card. But if that card matches the clued card, then it was actually a *Rank Choice Finesse* instead of a *Rank Choice Bluff*. A *Rank Choice Finesse* may be preferable to a (more ordinary) *Ambiguous Finesse*, which will resolve more slowly.
+* Note that it is possible to use the *Rank Choice* convention with any kind of *Bluff*. Thus, it is possible to *Rank Choice 3 Bluff*, *Rank Choice Double Bluff*, *Rank Choice Triple Bluff*, and so forth.
+* Examples:
+  * Game #8129, turn 4 (cluing Hyakinthus' yellow 3)
+
+#### The Rank Choice Save Finesse
+
+* When saving a card, players have to choose carefully between using a color clue or a rank clue. However, in some rare situations, it makes absolutely no difference which clue is used:
+  * Both color and rank would only touch the specific card.
+  * Both color and rank would communicate the exact identity of the specific card.
+  * Both color and rank would not give any useful negative information to the other cards in the hand.
+* In these situations, the player giving the clue has a completely free choice between rank and color. We agree that by default, players should use color to save the card.
+* If players instead use a rank clue to save the card, this communicates a *Rank Choice Save Finesse*. (This is similar to the more-ordinary *Rank Choice Finesse*, except it is initiated with a *Save Clue* instead of a *Play Clue*).
 
 <br />
 
