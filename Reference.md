@@ -2521,7 +2521,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Players are not allowed to *5 Stall* in the *Early Game*. Any clue that looks like a *5 Stall* is instead treated as either a *5's Chop Move* or a *5 Pull*.
   * Players are not required to clue anything in the *Early Game*; they are allowed to initiate the *Mid-Game* whenever they see fit.
 
-### BGA Play Clues in Hard Variants
+### BGA Play Clues in Hard Variants (Part 1)
 
 * Normally, players are allowed to give a *Save Clue* to a card on chop, even if that player has a bunch of playable cards to play. (This allows for *Discard Modulation.*)
 * In *Hard* variants (see previous section), this is not legal.
@@ -2529,6 +2529,18 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * This is called a *BGA Play Clue* to distinguish it from a more ordinary *Play Clue*.
 * *BGA Play Clues* **do not** apply in the *Early Game* - they are only "turned on" in the *Mid-Game*.
 * *BGA Play Clues* **do not** apply in *Double Discard* situations.
+
+### BGA Play Clues in Hard Variants (Part 2)
+
+* *BGA Play Clues* also apply to the *5's Chop Move*. This means that any clue that looks like a *5's Chop Move* will instead look like a *BGA Play Clue* (if the clue receiver is currently "loaded" with a play).
+* For example, in a 3-player game:
+  * Red 3 is played on the stacks.
+  * Bob has a known red 4 in his hand on slot 5.
+  * Alice clues number 5 to Bob, touching a 5 on slot 3.
+  * Bob knows that in a normal game, since the 5 was one-away from chop, Alice's clue would be a *5's Chop Move*.
+  * Bob also knows that in hard variants, the *5's Chop Move* convention is turned off when the player receiving the clue is "loaded' with a play. Thus, this must be a *BGA Play Clue* on the 5.
+  * Bob plays the red 4 and will play the 5 on the next turn as red 5.
+* Similarly, *BGA Play Clues* also apply to the *Trash Chop Move*. This means that any clue that looks like a *Trash Chop Move* will instead look like a *Known Trash Ejection* (if the clue receiver is currently "loaded" with a play).
 
 ### 3 Suit Conventions
 
