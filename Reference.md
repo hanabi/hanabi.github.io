@@ -125,8 +125,17 @@ Note that in this user interface, players are holding their hands like they woul
 
 ### Playing 1's and The Fresh 1's Rule
 
-* Sometimes, a player will get clued about a bunch of 1's. As explained in [the intermediate guide](https://github.com/Zamiell/hanabi-conventions/blob/master/Intermediate.md), freshly drawn 1's should always be played before any 1's that were present in the starting hand.
-* However, as an important exception, *Chop-Focus* overrides the *Fresh 1's Rule*.
+* Sometimes, a player will get clued about a bunch of 1's. Normally, as long as the chop card was not introduced, players are supposed to play the left-most card first. However, as explained in [the beginner guide](https://github.com/Zamiell/hanabi-conventions/blob/master/Beginner.md), 1's in the starting hand are to be played from right-to-left.
+* For example, in a 3-player game:
+  * It is the first turn and nothing is played on the stacks.
+  * Alice clues Bob number 1, touching three 1's on slots 1, slot 2, and slot 3.
+  * Bob knows that normally, the "focused" card would be his slot 1 card and that he should play that first. However, since these are 1's that are in his starting hand, he knows that he should instead play slot 3, then slot 2, then slot 1.
+* Adding on to this, **freshly drawn** 1's should always be played before any 1's that were present in the starting hand. (This is covered n [the intermediate guide](https://github.com/Zamiell/hanabi-conventions/blob/master/Intermediate.md).)
+* For example, in a 3-player game:
+  * It is near the beginning of the game and Bob has already discarded once.
+  * Alice clues Bob number 1, touching three 1's on slot 1, slot 2, and slot 3.
+  * Bob knows that freshly drawn 1's are the most important, so he plays his slot 1 card first. After that, he plays the slot 3 card and then the slot 2 card (since those were in his starting hand and he is supposed to play those from right-to-left).
+* As an important exception, to the *Fresh 1's Rule*, *Chop-Focus* **overrides** the *Fresh 1's Rule*.
 * For example, in a 3-player game:
   * No cards are played on the stacks.
   * Alice discards a red 4.
