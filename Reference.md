@@ -1017,6 +1017,18 @@ The other sections in this document contain lists of special "moves", but this s
   * However, Bob **also** knows that you are not allowed to perform a *Certain Discard* from *Bluff Seat*. In other words, there are other possibilities for this move - it could also be a *Bluff* on the blue 4. If he blind-discarded, that could "kill" the blue stack, since the other copy of blue 4 is already discarded.
   * Bob blind-plays his *Finesse Position* card and it is the blue 4. Good thing he did not discard the card!
 
+### The Composition Finesse
+
+* Sometimes, a move can be both a *Sarcastic Finesse* and a *Certain Finesse* at the same time. When this occurs, it is called a *Composition Finesse*.
+* For example, in a 3-player game:
+  * All of the 2's are played on the stacks.
+  * Alice has a card in her hand with a red clue on it. It could be either red 3, red 4, or red 5.
+  * Alice clues red to Bob, touching a red 4 as a *Play Clue*.
+  * Bob discards.
+  * Cathy knows that she has the red 3 on her *Finesse Position* (as a *Certain Finesse*). She can *Certain Discard* it if Alice has the red 3. But Alice does not have the red 3, so Cathy blind-plays the red 3.
+  * Alice discards.
+  * Bob knows that his red card is a red 4 (as a *Sarcastic Finesse*). He can *Sarcastic Discard* it if Alice has the red 4. But Alice does not have the red 4, so Bob plays the red 4.
+
 ### The Order Chop Move & The Skipped Order Chop Move
 
 * Normally, at the beginning of the game, players are expected to play their 1's from right to left.
