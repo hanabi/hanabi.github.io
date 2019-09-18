@@ -112,6 +112,12 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
 * Normally, when trash is clued on chop, it is a *Trash Push*. So they should go on to blind-play the card that was touching the trash on their next turn.
 * This convention was deleted due to lack of use.
 
+### The Dupe Bluff
+
+* This is where you perform a *Bluff* such that the card that is blind-played is already touched in someone else's hand **and** the player who has the other copy has full knowledge of the card.
+* You wouldn't normally do this since it is only a 1-for-1 instead of a 2-for-1. However, it can be useful if you want to touch a card that you wouldn't otherwise be able to, like a one-away from playable card. Alternatively, you may strongly want to give ancillary information to some other card.
+* This convention was deleted due to lack of use.
+
 ### 4 Stalls & Early 4's Chop Move & 4 Pull
 
 * This convention only applies to the *Multi-Fives* variants.
