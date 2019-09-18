@@ -15,14 +15,17 @@ Note that convention updates for the group are listed in the `#announcements` ch
 3. [Level 1 - Beginner Strategies](#level-1---beginner-strategies)
 4. [Level 2 - Intermediate Strategies](#level-2---intermediate-strategies)
 5. [Level 2 - General Principles](#level-2---general-principles)
-6. [Level 2 - Common Mistakes & Illegal Moves]()
+6. [Level 2 - Common Mistakes & Illegal Moves](#level-2---common-mistakes--illegal-moves)
 7. [Level 3 - Advanced Strategies](#level-3---advanced-strategies)
 8. [Level 4 - Expert Strategies](#level-4---expert-strategies)
 9. Level 5 - Rarely Used Strategies
-    * [Save Clues & Non-Emergency Chop Moves]()
-    * [Finesses & Bluffs]()
-    * [Emergency Moves]()
-    * [Miscellaneous]()
+    * [Save Clues & Non-Emergency Chop Moves](#level-5---rarely-used-strategies-save-clues--non-emergency-chop-moves)
+    * [Finesses & Bluffs](#level-5---rarely-used-strategies-finesses--bluffs)
+    * [Pushes & Pulls]()
+    * [Emergency Moves](#level-5---rarely-used-strategies-emergency-moves)
+    * [Ejection](#level-5---rarely-used-strategies-ejection)
+    * [Discharge](#level-5---rarely-used-strategies-discharge)
+    * [Miscellaneous](#level-5---rarely-used-strategies-miscellaneous)
 10. [Variant-Specific Strategies](#variant-specific-strategies)
 11. [Convention Attribution](#convention-attribution)
 
@@ -2062,6 +2065,12 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Alice plays blue 2.
   * Bob discards.
   * Cathy blind-plays blue 3.
+
+<br />
+
+## Level 5 - Rarely Used Strategies (Pushes & Pulls)
+
+asdf
 
 <br />
 
