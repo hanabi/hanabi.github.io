@@ -1406,6 +1406,11 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ## Level 3 - Rarely Used Advanced Strategies
 
+### 2 Saves (Off Chop on the First Turn)
+
+* On the first turn of the game, it is not possible to discard. If there is absolutely nothing else to do, it is permissible in this situation to use a number 2 clue to save a 2 that is **not** on chop, but only if the other players can see that you had no other choice.
+* This situation typically only happens in 3-player games.
+
 ### 2 Saves (Advanced Section; Interaction With 5's Chop Moves / 5 Pulls)
 
 * Normally, in the *Early Game*, if a player performs a number 5 clue on an off-chop 5 and there are other things to do, this is normally a *5's Chop Move* or a *5 Pull*.
@@ -1462,11 +1467,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Alice clues number 3 to Cathy, touching a red 3 on slot 1 as a *Play Clue*.
   * Bob blind-plays red 1.
   * Bob now knows that it was a *3 Bluff* and that no-one is promised the red 2. This is because even though the red 1 is the same suit as the red 3, *3 Bluffs* take precedence over *Double Finesses* as long as the clue type (number 3) does not match the card that was blind-played (a number 1).
-
-### 2 Saves (Off Chop on the First Turn)
-
-* On the first turn of the game, it is not possible to discard. If there is absolutely nothing else to do, it is permissible in this situation to use a number 2 clue to save a 2 that is **not** on chop, but only if the other players can see that you had no other choice.
-* This situation typically only happens in 3-player games.
 
 ### The Fake Save
 
