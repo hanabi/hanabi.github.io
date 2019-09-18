@@ -2344,11 +2344,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Donald can see what is going on, so he plays blue 1 from his *Finesse Position*.
   * Emily plays blue 2 from her *Finesse Position*.
 
-### The Dupe Bluff
-
-* This is where you perform a *Bluff* such that the card that is blind-played is already touched in someone else's hand **and** the player who has the other copy has full knowledge of the card.
-* You wouldn't normally do this since it is only a 1-for-1 instead of a 2-for-1. However, it can be useful if you want to touch a card that you wouldn't otherwise be able to, like a one-away from playable card. Alternatively, you may strongly want to give ancillary information to some other card.
-
 ### The Negative Blind-Play
 
 * Given enough negative clues on a card (and potentially some ancillary information based on the history of the game), it is possible to narrow down the identity of an unclued card in your hand to possibilities that only include playable cards that are not already touched in someone else's hand.
