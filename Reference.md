@@ -288,7 +288,7 @@ Note that in this user interface, players are holding their hands like they woul
   * Alice clues Cathy about a 4.
   * Bob blind-plays the red 1.
   * This must be a *Bluff*, because **1 does not match 4**. So Cathy should think that she has the one-away from playable 4, the blue 4. (This is an example of a *Hard Bluff*, which is covered in more detail later.)
-* Example 5:
+* Example 6:
   * Nothing is played on the stacks.
   * Alice clues Cathy about a 4.
   * Bob blind-plays the red 1.
