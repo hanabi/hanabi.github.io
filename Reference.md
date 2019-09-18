@@ -2384,7 +2384,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * Furthermore, this move should never be performed if there is a non-expert player playing or if it is likely to be interpreted as a mistake.
 
 
-### Unnecessary Trash Push
+### The Unnecessary Trash Push
 
 * Normally, players are only allowed to perform a *Trash Push* if the card to "get" cannot be given a direct *Play Clue*. Subsequently, if the card **can** be clued directly, and a *Trash Push* is done anyway, this is very strange.
 * In this situation, the very next player should blind-play their *Finesse Position* card as a *Known Bluff*. The receiver of the clue will interpret this as a *Trash Push Finesse* and will then play the pushed card. Once they play it, they will see that it does **not** match, and that an *Unnecessary Trash Push* occurred.
@@ -3027,7 +3027,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 | The Inverted 5's Tempo Clue | NoMercy
 | Discharge | Razvogor
 | The U-Turn Finesse | NoMercy
-| Unnecessary Trash Push | Steven
+| The Unnecessary Trash Push | Steven
 | Trash Touch Elimination | Steven
 | The Duck Trash Ejection | Dr. Kakashi
 | Junk Ejection | Jeff
