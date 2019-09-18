@@ -130,7 +130,7 @@ Note that in this user interface, players are holding their hands like they woul
   * It is the first turn and nothing is played on the stacks.
   * Alice clues Bob number 1, touching three 1's on slots 1, slot 2, and slot 3.
   * Bob knows that normally, the "focused" card would be his slot 1 card and that he should play that first. However, since these are 1's that are in his starting hand, he knows that he should instead play slot 3, then slot 2, then slot 1.
-* Adding on to this, **freshly drawn** 1's should always be played before any 1's that were present in the starting hand. (This is covered n [the intermediate guide](https://github.com/Zamiell/hanabi-conventions/blob/master/Intermediate.md).)
+* Adding on to this, **freshly drawn** 1's should always be played before any 1's that were present in the starting hand. (This is covered in [the intermediate guide](https://github.com/Zamiell/hanabi-conventions/blob/master/Intermediate.md).)
 * For example, in a 3-player game:
   * It is near the beginning of the game and Bob has already discarded once.
   * Alice clues Bob number 1, touching three 1's on slot 1, slot 2, and slot 3.
