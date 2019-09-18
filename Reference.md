@@ -2526,7 +2526,8 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * In *Hard* variants (see previous section), this is not legal.
 * If a clue is given to a chop card of a player, and that player has one or more known-playable cards to play, then it is treated as a *Play Clue* on that card.
 * This is called a *BGA Play Clue* to distinguish it from a more ordinary *Play Clue*.
-* Note that *BGA Play Clues* **do not** apply in the *Early Game* - they are only "turned on" in the *Mid-Game*.
+* *BGA Play Clues* **do not** apply in the *Early Game* - they are only "turned on" in the *Mid-Game*.
+* *BGA Play Clues* **do not** apply in *Double Discard* situations.
 
 ### 3 Suit Conventions
 
