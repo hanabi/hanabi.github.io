@@ -24,6 +24,8 @@ Note that convention updates for the group are listed in the `#announcements` ch
 
 <br />
 
+<hr style="border: 1px solid red;" />
+
 ## First Principles
 
 In general, we want all of our strategies to flow from some basic principles. That way, new players can just learn the first principles, and then use logic and reasoning to find out the resulting strategy that their teammate is intending. However, there are a few wrinkles with this:
