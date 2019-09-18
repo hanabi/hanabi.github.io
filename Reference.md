@@ -1714,18 +1714,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * After Cathy blind-played, Donald knows that he must have the red 5 (as a *Double Bluff*).
 * Normally, you are only allowed to *Bluff* while in *Bluff Seat*. But *Double Bluffs* do not violate *Good Lie Principle*, so we allow them.
 
-### The Triple Bluff / The Triple Two-Thirds Bluff
-
-* Following from the *Double Bluff* convention, it is possible to perform a *Triple Bluff* (as long as the clue target is not a 4; see the subsequent section).
-* For example, in a 5-player game:
-  * Red 1 is played on the stacks.
-  * Alice clues red to Emily's red 5 as a *Play Clue*.
-  * Bob blind-plays a red 2.
-  * Cathy blind-plays a blue 1, thinking that she has the red 3.
-  * Donald sees that the red 5 was three-away from playable, which means that this is a *Triple Bluff*, calling for three blind-plays.
-  * Donald blind-plays his *Finesse Position* card as a *Known Triple Bluff* and it is the green 1.
-  * Emily knows that since three unrelated blind-plays occurred, she must have the three-away red 5.
-
 ### The 4 Double Bluff / The 4 Double Half Bluff
 
 * In the *3 Bluffs* convention, play stops after one card is blind-played if the clue target is a 3. (This is an extension of a *Bluff.*)
@@ -1749,6 +1737,30 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Bob blind-plays red 1 from his *Finesse Position*.
   * Cathy blind-plays red 2 from her *Finesse Position*.
   * Even though red 1 and red 2 are the same suit as the red 4, the team knows that no-one is promised the red 3.
+
+### The 5's Triple Bluff
+
+* Similar to the *4's Double Bluff*, you can also perform a *5's Triple Bluff*.
+* This flows naturally from the *4's Double Bluff* convention, since a card cannot be a 4 if it gets three blind-plays.
+* For example, in a 5-player game:
+  * All the 1's are played on the stacks except for red 1.
+  * It is the *Mid-Game*. (Thus, the *5 Color Ejection* convention is "turned off".)
+  * Alice clues red to Emily, touching a red 5 as a *Play Clue*.
+  * Bob sees that no-one else has the red 2. Bob blind-plays his *Finesse Position* card as red 1, but it is instead a blue 2.
+  * Cathy knows a green 2 does not match a blue 5, so this must be some kind of *Bluff*. However, a blue 5 is not a valid *Bluff* target. Furthermore, a red 5 is also not a valid *Double Bluff* target. Thus, this must be a *Triple Bluff*, so Cathy blind-plays her *Finesse Position* card as any playable card, and it plays as green 2.
+  * Donald also knows that this must be a *Triple Bluff*, so he also blind-plays his *Finesse Position* and it plays as a yellow 2.
+  * Emily knows that a red card initiated a *Triple Bluff*:
+    * If it was a red 1, then no-one would have blind-played anything.
+    * If it was a red 2, then only one person would blind-play as a (normal) *Bluff*.
+    * If it was a red 3, then only one person would blind-play as a *3 Bluff*.
+    * If it was a red 4, then only two people would blind-play as a *4's Double Bluff*.
+  * Thus, by process of elimination, the card must be red 5.
+* The above example did not require any explicit *5's Triple Bluff* convention to exist in order to work properly. However, there is also an explicit convention that allows for any *Triple Bluff* to also be a 5.
+* For example, in a 5-player game:
+  * The setup is exactly the same as the previous example, except a number 5 clue is used to initiate the *Triple Bluff*.
+  * Bob, Cathy, and Donald blind-play their *Finesse Position* cards.
+  * Emily knows that when the number 5 clue was given, the red 5 was four-away from playable, and all of the other 5's were three-away from playable. This means that normally, Emily would mark her 5 as any 5 except for red 5. (This is because only cards that are three-away from playable are valid *Triple Bluff* targets.)
+  * However, since the *5's Triple Bluff* convention exists, Emily knows that any 5 can be used to initiate a *Triple Bluff*. Thus, her 5 can be **any** 5 in the game, including red 5.
 
 ### The No-Information Double Finesse & The No-Information Double Bluff
 
