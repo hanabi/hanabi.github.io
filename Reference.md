@@ -2359,12 +2359,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * The card skipped over in this way will be the next thing discarded, as it is now considered known trash.
 * If a *Layered Jump* skips over a card that cannot be in your own hand, then you can determine that it must be a mistake. In this situation, the skipped-over card must be clued directly to re-signify that it is good.
 
-### The Misplay Trash Push
-
-* When a card is clued and the next player misplays that card, it is usually the *Misplay Chop Move* - they had no other options and had to protect an important card on chop.
-* However, when a card **on chop** is clued and the next player misplays that card, it cannot be the *Misplay Chop Move* - it must be something else.
-* Normally, when trash is clued on chop, it is a *Trash Push*. So they should go on to blind-play the card that was touching the trash on their next turn.
-
 ### Inverted Priority Finesse
 
 * *Priority Finesses* are considered "free", since they do not cost a clue to perform. Thus, it is extremely rare that a player would decline to perform one if it was possible to do so.
