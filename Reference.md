@@ -426,7 +426,7 @@ Priority does not always apply. Some common exceptions are listed below.
 
 * In the middle of a game, if all of the 1's have been played already, and someone clues a 1, it is quite strange - from *Good Touch Principle*, players are not supposed to touch cards that have already been played. In this situation, the 1 is considered "trash".
 * Thus, the clue must have some deeper meaning. We agree that it means that the cards to the right of the trash are important. The point of the clue was to give the player a safe discard.
-* However, not only does it give a known-safe discard, but it also *Chop Moves* **all** of the cards to the right of the trash. This means that the player should consider the cards to be touched with an "invisible" clue, and never discard them for the rest of the game.
+* However, in addition to giving a safe discard, but it also *Chop Moves* **all** of the cards to the right of the trash. This means that the player should consider the cards to be touched with an "invisible" clue, and never discard them for the rest of the game.
 * Most of the time, the *Trash Chop Move* is done to *Chop Move* a single card (meaning that the clued trash card was one-away from chop). However, you can also use the *Trash Chop Move* to *Chop Move* multiple cards. For example, in a 3-player game:
   * All of the 1's have been played on the stacks.
   * Bob has a completely unclued hand.
