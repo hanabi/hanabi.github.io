@@ -105,6 +105,13 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
 * Note that to prevent confusion, we agree that it is illegal for players to perform a *Speculation Finesse* on a player who is two or more seats away if the next player has a playable card in *Finesse Position* that is not already gotten.
 * This convention was deleted because it was too complicated.
 
+### The Misplay Trash Push
+
+* When a card is clued and the next player misplays that card, it is usually the *Misplay Chop Move* - they had no other options and had to protect an important card on chop.
+* However, when a card **on chop** is clued and the next player misplays that card, it cannot be the *Misplay Chop Move* - it must be something else.
+* Normally, when trash is clued on chop, it is a *Trash Push*. So they should go on to blind-play the card that was touching the trash on their next turn.
+* This convention was deleted due to lack of use.
+
 ### 4 Stalls & Early 4's Chop Move & 4 Pull
 
 * This convention only applies to the *Multi-Fives* variants.
