@@ -2428,6 +2428,20 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * In the middle of the game, it is relatively safe to blind-play your chop card, since it is known to not be a critical/playable card.
 * In the beginning of the game, it may not be safe to blind-play your chop card. In this situation, you may see that multiple players have the opportunity to initiate the *Dump Truck*. Normally, it is best to let the player immediately before the blind-player do it. If they have an unsafe chop, then the 2nd player before the blind-player should do it, and so forth.
 
+### The Distributed Dump Truck
+
+* This convention only applies to 5-player games.
+* In the *Dump Truck* convention, a blind-play of a chop card induces one person to blind-play their whole hand from left to right.
+* Normally, a *Dump Truck* is not ambiguous - only one player can have a fully-playable hand, so it is clear what is going on.
+* However, what if no players have a fully-playable hand? This must be communicating a different strategy. We agree that this should mean a *Quadruple Bluff*.
+* For example, in 5-player game:
+  * Near the beginning of the game, Alice blind-plays her chop and it fails to play.
+  * Bob interprets this as a *Dump Truck*, and blind-plays his *Finesse Position* card. It is a red 1 and it successfully plays.
+  * Cathy sees that this is **not** a *Dump Truck* - Bob does not have a fully-playable hand. Thus, this move must have some other meaning.
+  * Cathy can see that Donald and Emily have playable cards on their *Finesse Position*. Thus, Cathy knows that this is a *Distributed Dump Truck*, and plays her *Finesse Position* card. It is a red 1 and it successfully plays.
+  * Donald can see what is going on, so he plays blue 1 from his *Finesse Position*.
+  * Emily plays blue 2 from her *Finesse Position*.
+
 ### The Double 5 Pull
 
 * This convention only applies in the *Early Game*.
@@ -2442,20 +2456,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Normally, since it is the *Early Game*, a number 5's clue to Cathy might just be a *5 Stall*. However, since Alice could have given the red *Play Clue* to Donald, this is an "early" 5's clue, so it must be an *Early 5's Chop Move*.  However, this cannot be an *Early 5's Chop Move* either, since Cathy has a playable red 1 on her chop.
   * Thus, Bob knows that this is a *Double 5 Pull*, so he blind-plays his *Finesse Position* card. It is blue 1 and it successfully plays.
   * Cathy knows that if this was an *Early 5's Chop Move*, then Bob would not have blind-played anything. Since he blind-played his *Finesse Position* card, this must be a *Double 5 Pull*. Cathy blind-plays her slot 4 card (the card to the right of the clued 5).
-
-### The Distributed Dump Truck
-
-* This convention only applies to 5-player games.
-* In the *Dump Truck* convention, a blind-play of a chop card induces one person to blind-play their whole hand from left to right.
-* Normally, a *Dump Truck* is not ambiguous - only one player can have a fully-playable hand, so it is clear what is going on.
-* However, what if no players have a fully-playable hand? This must be communicating a different strategy. We agree that this should mean a *Quadruple Bluff*.
-* For example, in 5-player game:
-  * Near the beginning of the game, Alice blind-plays her chop and it fails to play.
-  * Bob interprets this as a *Dump Truck*, and blind-plays his *Finesse Position* card. It is a red 1 and it successfully plays.
-  * Cathy sees that this is **not** a *Dump Truck* - Bob does not have a fully-playable hand. Thus, this move must have some other meaning.
-  * Cathy can see that Donald and Emily have playable cards on their *Finesse Position*. Thus, Cathy knows that this is a *Distributed Dump Truck*, and plays her *Finesse Position* card. It is a red 1 and it successfully plays.
-  * Donald can see what is going on, so he plays blue 1 from his *Finesse Position*.
-  * Emily plays blue 2 from her *Finesse Position*.
 
 ### The Negative Blind-Play
 
