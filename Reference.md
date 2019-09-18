@@ -1367,39 +1367,6 @@ This section is unique in that it contains things that are separate from actual 
   * Donald knows that the focus of the clue (slot 1) is certainly trash, since that caused Cathy to blind-play.
   * Furthermore, Donald knows that his slot 2 card is also trash, because all the cards touched in a *Trash Bluff* or *Trash Finesse* are guaranteed to be trash.
 
-### Trash Touch Elimination
-
-* After deciding on the target of a clue, players carefully choose between using a color clue and a number clue in order to avoid violating *Good Touch Principle* with the ancillary cards that will be touched (since every clued card is treated as a card that will eventually be played). Sometimes, when both a color clue **and** a number would violate *Good Touch Principle*, players are forced to pick between the lesser of two evils.
-* However, sometimes you can see that it **is** possible to use a color or number clue to uniquely touch a clue target without "picking up" extra bad cards. So, when extra bad cards are deliberately touched in this way, it is conveying an extra special message.
-* When this occurrs and there is exactly one "missing" card, players should write an *Elimination Note* in their hand for the missing card. This is called *Trash Touch Elimination*.
-* For example, in a 3-player game:
-  * Red 3 is played on the stacks. All of the other suits have the 1 played on the stacks.
-  * Bob's hand is as follows, from newest to oldest: red 4, red 1, blue 1, green 1, yellow 1.
-  * Alice wants to give a play clue to the red 4. Everyone on the team can see that she can give either number 4 or red.
-    * If she clues number 4, then it will uniquely touch the red 4 (and will not violate *Good Touch Principle*).
-    * If she clues red, then it will touch the red 4 and the red 1 (which **will** violate *Good Touch Principle*).
-  * Alice clues red to Bob. Since nothing was stopping her from cluing number 4, this is very strange.
-  * Bob plays the red 4.
-  * There is only one "missing" red card - the red 5. Thus, Cathy knows that from *Good Touch Principle*, Bob will think that his red 1 is red 5. This must mean that Cathy has the red 5. Cathy writes *Trash Touch Elimination Notes* on her hand for red 5.
-
-### The Trash Finesse (Weak Form)
-
-* First, see the section on *Trash Touch Elimination* above.
-* When players deliberately touch ancillary trash and there is only one card "missing", then it should trigger *Trash Touch Elimination Notes*. But what if there are two or more cards that are missing?
-* In this situation, the clue giver is promising that someone has one of the missing cards on their *Finesse Position*. Once the card is blind-played, the recipient of the clue will know that one of their ancillary cards are trash.
-* This is more subtle than the strong *Trash Finesse*. In the strong form, the focus of the clue causes a blind-play. In the weak form, the non-focused cards are what causes the blind-play
-* For example, in a 3-player game:
-  * Red 2 is played on the stacks. All of the other suits have the 1 played on the stacks. 
-  * Bob's hand is as follows, from newest to oldest: red 3, red 1, blue 1, green 1, yellow 1.
-  * Alice wants to give a play clue to the red 3. Everyone on the team can see that she can give either 3s or red.
-    * If she clues number 3, then it will uniquely touch the red 3 (and not violate *Good Touch Principle*).
-    * If she clues red, then it will touch the red 3 and the red 1 (which **will** violate *Good Touch Principle*).
-  * Alice clues red to Bob. Since nothing was stopping her from cluing number 3, this is very strange.
-  * Bob plays the red 3.
-  * There are two "missing" red cards - the red 4 and the red 5. Thus, Cathy knows that Alice must be intending a weak form *Trash Finesse*.
-  * Cathy immediately blind-plays her *Finesse Position* card and it is the red 4.
-  * Bob sees Cathy blind-play the next red card for seemingly no reason, so he is able to deduce that his slot 2 card is trash.
-
 ### A Trash Flowchart
 
 There are a lot of different moves that involve cluing trash. [Here is a handy flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/flowcharts/cluing_trash_flowchart.png) for determining the difference between the different types of special moves that touch trash. (The flowchart contains some more advanced strategies for the sake of completion, but you can ignore those for now. The three most important moves to understand are the *Trash Chop Move*, the *Trash Bluff*, and the *Trash Pull*.)
@@ -1922,6 +1889,39 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * The *Repair Finesse* is extremely similar to the *Patch Finesse*, with the difference being that the blind-play fixes a player playing a chain of *Prompted* cards instead of a chain of cards inside of a *Layered Finesse*.
 * Examples:
   * Game #16695, turn 10
+
+### Trash Touch Elimination
+
+* After deciding on the target of a clue, players carefully choose between using a color clue and a number clue in order to avoid violating *Good Touch Principle* with the ancillary cards that will be touched (since every clued card is treated as a card that will eventually be played). Sometimes, when both a color clue **and** a number would violate *Good Touch Principle*, players are forced to pick between the lesser of two evils.
+* However, sometimes you can see that it **is** possible to use a color or number clue to uniquely touch a clue target without "picking up" extra bad cards. So, when extra bad cards are deliberately touched in this way, it is conveying an extra special message.
+* When this occurrs and there is exactly one "missing" card, players should write an *Elimination Note* in their hand for the missing card. This is called *Trash Touch Elimination*.
+* For example, in a 3-player game:
+  * Red 3 is played on the stacks. All of the other suits have the 1 played on the stacks.
+  * Bob's hand is as follows, from newest to oldest: red 4, red 1, blue 1, green 1, yellow 1.
+  * Alice wants to give a play clue to the red 4. Everyone on the team can see that she can give either number 4 or red.
+    * If she clues number 4, then it will uniquely touch the red 4 (and will not violate *Good Touch Principle*).
+    * If she clues red, then it will touch the red 4 and the red 1 (which **will** violate *Good Touch Principle*).
+  * Alice clues red to Bob. Since nothing was stopping her from cluing number 4, this is very strange.
+  * Bob plays the red 4.
+  * There is only one "missing" red card - the red 5. Thus, Cathy knows that from *Good Touch Principle*, Bob will think that his red 1 is red 5. This must mean that Cathy has the red 5. Cathy writes *Trash Touch Elimination Notes* on her hand for red 5.
+
+### The Trash Finesse (Weak Form)
+
+* First, see the section on *Trash Touch Elimination* above.
+* When players deliberately touch ancillary trash and there is only one card "missing", then it should trigger *Trash Touch Elimination Notes*. But what if there are two or more cards that are missing?
+* In this situation, the clue giver is promising that someone has one of the missing cards on their *Finesse Position*. Once the card is blind-played, the recipient of the clue will know that one of their ancillary cards are trash.
+* This is more subtle than the strong *Trash Finesse*. In the strong form, the focus of the clue causes a blind-play. In the weak form, the non-focused cards are what causes the blind-play
+* For example, in a 3-player game:
+  * Red 2 is played on the stacks. All of the other suits have the 1 played on the stacks. 
+  * Bob's hand is as follows, from newest to oldest: red 3, red 1, blue 1, green 1, yellow 1.
+  * Alice wants to give a play clue to the red 3. Everyone on the team can see that she can give either 3s or red.
+    * If she clues number 3, then it will uniquely touch the red 3 (and not violate *Good Touch Principle*).
+    * If she clues red, then it will touch the red 3 and the red 1 (which **will** violate *Good Touch Principle*).
+  * Alice clues red to Bob. Since nothing was stopping her from cluing number 3, this is very strange.
+  * Bob plays the red 3.
+  * There are two "missing" red cards - the red 4 and the red 5. Thus, Cathy knows that Alice must be intending a weak form *Trash Finesse*.
+  * Cathy immediately blind-plays her *Finesse Position* card and it is the red 4.
+  * Bob sees Cathy blind-play the next red card for seemingly no reason, so he is able to deduce that his slot 2 card is trash.
 
 ### The Reverse Bluff / The Out-of-Position Bluff (O.O.P. / OOP)
 
