@@ -292,56 +292,6 @@ Note that in this user interface, players are holding their hands like they woul
   * Cathy has nothing clued in her hand. She has a 5 on slot 3. Cathy's 5 is therefore two-away from chop.
   * Alice must clue number 5 to Bob as a *5 Stall* since his 5 is closer to chop (even though Bob has two playable cards).
 
-### The Priority Prompt & The Priority Finesse
-
-* Typically, players will only have one card to play at a time. In this case, unless there is some really good clue to give, there are no decisions to be made - they just play their one playable card.
-* What if a player has two or more playable cards to play? Which card should they play first?
-* If one of the cards is not completely known yet (e.g. a playable 2 of unknown color), then the player might want to play that card first in order to find out exactly what it is. In general, **nothing special is triggered by players playing an unknown card.**
-* On the other hand, something special **can** be triggered if a player plays a fully-known card, because they knew exactly what they were doing. Our group agrees that **playable cards should be played in a specific order**. We refer to this as *Priority*. The agreed *Priority* is as follows:
-
-| Priority | Category of card                                                   | Reason
-| -------- | ------------------------------------------------------------------ | ------
-| 1        | Blind-plays                                                        | Demonstrating that a *Finesse* or *Bluff* occurred is very important.
-| 2        | Cards that lead into clued cards in someone else's hand            | Otherwise, the team would lose *Tempo*.
-| 3        | Cards that lead into the player's own hand                         | It is bad for a suit to be "held up" on one player.
-| 4        | 5's                                                                | Playing a 5 gets the team a free clue.
-| 5        | The lower rank card                                                | The smaller stacks are more important to fill up.
-| 6        | The left-most card                                                 | The left-most card is more likely to be good.
-
-* If someone plays a fully-known card and the card does **not** have *Priority*, then the player must be trying to send a special message.
-* Based on what card they did play, if you have any clued cards in your hand that match the next "connecting" card, it is a message that you can play it right now as a *Priority Prompt*. (This is similar to a normal *Prompt*, except instead of initiating the *Prompt* with a clue, they initiated it with the order that they played cards.)
-* Alternatively, if you do not have any clued cards in your hand that matches the card that they played, then you you should play your *Finesse Position* card as a *Priority Finesse*.
-* For example, in a 3-player game:
-  * Alice has a known playable red 1 and a known playable blue 2 in her hand.
-  * Alice plays blue 2.
-  * Bob comes next. Bob does not see any red 2's. He does not see any blue 3's either. Thus, Alice was supposed to play the red 1 first, since red 1 is a lower rank than blue 2. Alice **did not** play the card with *Priority*.
-  * This means that Bob must have blue 3. Bob does not have any clued cards in his hand, so he blind-plays his *Finesse Position* card.
-* Similar to a normal *Prompt*, if a *Priority Prompt* could apply to two or more clued cards, then you should play the left-most one.
-* Similar to a normal *Prompt*, if a *Priority Prompt* made you play the left-most card and it was not the matching card, then you should continuing playing clued cards until you find the matching card.
-
-### The Priority Bluff 
-
-* Similar to a normal *Bluff*, it is also possible for players to perform a *Priority Bluff*.
-* For example, in a 3-player game:
-  * Alice has a known playable red 1 and a known playable blue 2 in her hand.
-  * Alice plays blue 2.
-  * Bob comes next. Bob does not see any red 2's. He does not see any blue 3's either. Thus, Alice was supposed to play the red 1 first, since red 1 is a lower rank than blue 2. Alice **did not** play the card with *Priority*.
-  * This means that Bob must have blue 3. Bob does not have any clued cards in his hand, so he blind-plays his *Finesse Position* card. It is **not** the blue 3 and is instead the green 1. Bob now knows that he was *Bluffed* and that no-one has the blue 3.
-
-### A Priority Flowchart (For Choosing Between 2+ Playable Cards)
-
-*Priority* can be confusing. [Here is a flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/flowcharts/priority_flowchart.png) that shows, in general, which card should be played when there is a choice between two cards.
-
-[Here is another flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/flowcharts/priority_unknown_flowchart.png) that shows how *Priority* works when one or more of the cards is unknown.
-
-### Priority Exceptions
-
-Priority does not always apply. Some common exceptions are listed below.
-
-1) *Priority* is generally "turned off" in the *End-Game*. (But *Priority* can still work if a player plays a card that would be terrible for the team otherwise.)
-
-2) Normally, blind-playing cards has *Priority* over everything else. However, in some advanced cases, the blind-play does not need to be demonstrated to the team - everyone already has full knowledge of what is going on. In this case, players are supposed to treat the cards as clued for the purposes of finding the *Priority*. (The *Gentleman's Discards* is the main move that this applies to, which is a special move that is covered later.)
-
 ### The Chop Move
 
 * Normally, players discard their oldest (right-most) unclued card. However, sometimes a player can know that an unclued card is very important.
@@ -784,6 +734,55 @@ The other sections in this document contain lists of special "moves", but this s
 * A player who has a turn with 8 clues in the bank may give a low-value clue because they are not sure that they can play anything (and they can't discard because the game does not allow you to discard while at 8 clues). Similar to a *Double Discard* or a *Locked Hand* situation, players should not read too closely into any clues given during this state.
 * Players at 8 clues gain the special ability to save any card that they want, on **or** off chop, as long as the card is not freshly drawn. This is called an *8 Clue Save*. However, similar to a *Locked Hand Save*, they can only do this if there are no higher priority clues available. See the "Allowable Stall Clues" section above.
 
+### The Priority Prompt & The Priority Finesse
+
+* Typically, players will only have one card to play at a time. In this case, unless there is some really good clue to give, there are no decisions to be made - they just play their one playable card.
+* What if a player has two or more playable cards to play? Which card should they play first?
+* If one of the cards is not completely known yet (e.g. a playable 2 of unknown color), then the player might want to play that card first in order to find out exactly what it is. In general, **nothing special is triggered by players playing an unknown card.**
+* On the other hand, something special **can** be triggered if a player plays a fully-known card, because they knew exactly what they were doing. Our group agrees that **playable cards should be played in a specific order**. We refer to this as *Priority*. The agreed *Priority* is as follows:
+
+| Priority | Category of card                                                   | Reason
+| -------- | ------------------------------------------------------------------ | ------
+| 1        | Blind-plays                                                        | Demonstrating that a *Finesse* or *Bluff* occurred is very important.
+| 2        | Cards that lead into clued cards in someone else's hand            | Otherwise, the team would lose *Tempo*.
+| 3        | Cards that lead into the player's own hand                         | It is bad for a suit to be "held up" on one player.
+| 4        | 5's                                                                | Playing a 5 gets the team a free clue.
+| 5        | The lower rank card                                                | The smaller stacks are more important to fill up.
+| 6        | The left-most card                                                 | The left-most card is more likely to be good.
+
+* If someone plays a fully-known card and the card does **not** have *Priority*, then the player must be trying to send a special message.
+* Based on what card they did play, if you have any clued cards in your hand that match the next "connecting" card, it is a message that you can play it right now as a *Priority Prompt*. (This is similar to a normal *Prompt*, except instead of initiating the *Prompt* with a clue, they initiated it with the order that they played cards.)
+* Alternatively, if you do not have any clued cards in your hand that matches the card that they played, then you you should play your *Finesse Position* card as a *Priority Finesse*.
+* For example, in a 3-player game:
+  * Alice has a known playable red 1 and a known playable blue 2 in her hand.
+  * Alice plays blue 2.
+  * Bob comes next. Bob does not see any red 2's. He does not see any blue 3's either. Thus, Alice was supposed to play the red 1 first, since red 1 is a lower rank than blue 2. Alice **did not** play the card with *Priority*.
+  * This means that Bob must have blue 3. Bob does not have any clued cards in his hand, so he blind-plays his *Finesse Position* card.
+* Similar to a normal *Prompt*, if a *Priority Prompt* could apply to two or more clued cards, then you should play the left-most one.
+* Similar to a normal *Prompt*, if a *Priority Prompt* made you play the left-most card and it was not the matching card, then you should continuing playing clued cards until you find the matching card.
+
+### The Priority Bluff 
+
+* Similar to a normal *Bluff*, it is also possible for players to perform a *Priority Bluff*.
+* For example, in a 3-player game:
+  * Alice has a known playable red 1 and a known playable blue 2 in her hand.
+  * Alice plays blue 2.
+  * Bob comes next. Bob does not see any red 2's. He does not see any blue 3's either. Thus, Alice was supposed to play the red 1 first, since red 1 is a lower rank than blue 2. Alice **did not** play the card with *Priority*.
+  * This means that Bob must have blue 3. Bob does not have any clued cards in his hand, so he blind-plays his *Finesse Position* card. It is **not** the blue 3 and is instead the green 1. Bob now knows that he was *Bluffed* and that no-one has the blue 3.
+
+### A Priority Flowchart (For Choosing Between 2+ Playable Cards)
+
+*Priority* can be confusing. [Here is a flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/flowcharts/priority_flowchart.png) that shows, in general, which card should be played when there is a choice between two cards.
+
+[Here is another flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/flowcharts/priority_unknown_flowchart.png) that shows how *Priority* works when one or more of the cards is unknown.
+
+### Priority Exceptions
+
+Priority does not always apply. Some common exceptions are listed below.
+
+1) *Priority* is generally "turned off" in the *End-Game*. (But *Priority* can still work if a player plays a card that would be terrible for the team otherwise.)
+
+2) Normally, blind-playing cards has *Priority* over everything else. However, in some advanced cases, the blind-play does not need to be demonstrated to the team - everyone already has full knowledge of what is going on. In this case, players are supposed to treat the cards as clued for the purposes of finding the *Priority*. (The *Gentleman's Discards* is the main move that this applies to, which is a special move that is covered later.)
 
 ### The Double Prompt / Triple Prompt / etc.
 
