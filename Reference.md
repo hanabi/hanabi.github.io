@@ -2017,6 +2017,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * The "passing" player was in *Bluff Seat*.
 * *Pass Bluffs* rely on contextual information in order to work, so the circumstances in which you can do them are narrow.
 * It is illegal for a player to perform a *Pass Bluff* if they could be *Bluffed*. (This is because the first *Bluff* would not resolve immediately and would violate *Good Lie Principle*.)
+  * Subsequently, it is also illegal for a player to pass an *Ejection* to the next player.
 
 ### The Double/Triple Pass Bluff
 
