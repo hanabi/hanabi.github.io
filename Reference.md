@@ -2470,7 +2470,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * In this situation, it would be a waste of a clue for the team to clue it directly.
 * Thus, the player should self-chop move the card.
 
-### The Speed-up Clue
+### The Speed-Up Clue
 
 * The *Layered Finesse* convention (and its derivatives) are very efficient (in terms of "X for 1"). However, sometimes it can be very slow (low tempo), as players will have to allow for all possible *Reverse Finesses* before playing anything. This is generally not a problem in 3-player games, but tempo is important in 5-player games.
 * Normally, when the *Finesse Target* (the card that is to be blind-played) is clued directly, it is a mistake due to someone not paying close enough attention. We refer to this as *Stomping on a Finesse*.
