@@ -2266,43 +2266,41 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * Since the *Second Finesse Position* card was played instead of the *Finesse Position* card, then the player who received the clue will know that the card is trash.
 * With the *Trash Bluff*, if multiple cards are clued, it means that **all** of the cards are trash. However, with *Unknown Trash Ejection*, if multiple cards are clued, only the focus of the clue is trash.
 
+### The 5 Color Ejection (5CE)
+
+* Normally, if a player gives a color *Play Clue* to a 5, it would mean that it is a *Finesse* on the 5 and all of the cards leading up to the 5 are playable.
+* If the very next player sees that **they will only have to blind-play one card in their hand to fuffill the *Finesse***, then they should assume that it is a *Finesse*.
+* If the very next player sees that they would have to blind-play two or more cards in their hand to fuffill the *Finesse*, then a *Finesse* is unlikely. Instead, players agree that this signals an *Ejection* and that the next player should play their *Second Finesse Position*.
+* After the blind-play, the player who received the clue will know that they must have a 5.
+* For example, in a 3-player game:
+  * It is the first turn and nothing is played on the stacks.
+  * Alice clues red to Cathy, touching a red 5 on slot 3.
+  * Bob knows that normally, this would be a *Finesse* on the 5, indicating to Bob that he has the red 1, the red 2, the red 3, and the red 4. However, since this calls for more than one blind card, he knows that *5 Color Ejection* should take precedence, so he knows to play his *Second Finesse Position* card. It is a red 1 and it successfully plays.
+  * From Cathy's perspective, if Bob had played his *Finesse Position* card in response to the red clue, then Cathy would know that it was a *Finesse* or a *Bluff*. But since Bob blind-played his *Second Finesse Position* card, it must be the 5. Cathy marks the red card as red 5.
+* *5 Color Ejections* are **only possible** if there is only one brand new card introduced with the color clue. For example, on the first turn of the game, it would be illegal to perform a *5 Color Ejection* where a red clue is given to Cathy that touches a red 5 on slot 1 and a red 4 on slot 2.
+  * As an exception to the above rule, in dual-color variants, it is possible to perform a *5 Color Ejection* if all of the newly-introduced and non-focused cards are of a different suit. For example, on the first turn of the game, Alice can perform a *5 Color Ejection* by cluing red to Cathy and touching a red 5 on slot 1, a rainbow 2 on slot 2, and a rainbow 3 on slot 3.
+* The *5 Color Ejection* convention conflicts with *Unknown Trash Ejection* convention. In the case of a conflict, the *Unknown Trash Ejection* interpretation has precedence. (See the *5 Color Discharge* below.)
+
 ### Junk Ejection (with Trash)
 
 * Normally, when known trash is touched as the focus of the clue, and the known trash is not on chop, it communicates a *Trash Chop Move*.
 * However, what if the *Chop Moved* cards are also all trash? The other players can see that this clue must have some other purpose - it should signal an *Ejection* on the very next player.
 * *Junk Ejection* can be performed throughout the game. (But keep in mind that in the *End-Game*, a player might just be stalling.)
 
-### The 5 Color Ejection
-
-* This convention only applies in the *Early Game*.
-* Normally, in the *Early Game*, if a player gives a color *Play Clue* to a 5, it would mean that it is a *Finesse* on the 5 and all of the cards leading up to the 5 are playable.
-* However, in the *Early Game*, this is fairly unlikely to be the case. Instead, players agree that this is an *Ejection* and that the next player should play their *Second Finesse Position*.
-* After the blind-play, the player who received will know that it must be a 5.
-* For example, in a 3-player game:
-  * It is the first turn and nothing is played on the stacks.
-  * Alice clues red to Cathy, touching a red 5 on slot 3.
-  * Bob knows that normally, this would be a *Finesse* on the 5, indicating to Bob that he has the red 1, the red 2, the red 3, and the red 4. However, since it is the *Early Game*, he also knows that *5 Color Ejection* should take precedence over a *Finesse*, so he knows to play his *Second Finesse Position* card. It is a red 1 and it successfully plays.
-  * From Cathy's perspective, if Bob had played his *Finesse Position* card in response to the red clue, then Cathy would know that it was a *Finesse* or a *Bluff*. But since Bob blind-played his *Second Finesse Position* card, it must be the 5. Cathy marks the red card as red 5.
-* *5 Color Ejections* are **only possible** if there is only one brand new card introduced with the color clue. For example, on the first turn of the game, it would be illegal to perform a *5 Color Ejection* where a red clue is given to Cathy that touches a red 5 on slot 1 and a red 4 on slot 2.
-  * As an exception to the above rule, in dual-color variants, it is possible to perform a *5 Color Ejection* if all of the newly-introduced and non-focused cards are of a different suit. For example, on the first turn of the game, Alice can perform a *5 Color Ejection* by cluing red to Cathy and touching a red 5 on slot 1, a rainbow 2 on slot 2, and a rainbow 3 on slot 3.
-* The *5 Color Ejection* convention conflicts with *Unknown Trash Ejection* convention. In the case of a conflict, the *Unknown Trash Ejection* interpretation has precedence. (See the *5 Color Discharge* below.)
-
 ### Junk Ejection (with 5's)
 
-* Normally, in the *Early Game*, if there are some other *Play Clues* or *Save Clues* to give and a number 5 clue is given to a one-away-from-chop 5, then it is an "early" *5 Stall* and is instead treated as an *Early 5's Chop Move*.
-* If other players can see that an *Early 5's Chop Move* was performed on a trash card, then this would normally indicate that it was **not** a *Chop Move* and is instead a *Finesse* on all of the cards leading up to the 5.
-* A *Finesse* on all of the cards leading up to the 5 is fairly unlikely in the *Early Game*. Instead, everyone agrees that this situation instead communicates an *Ejection* on the very next player.
+* First, see the above section "Junk Ejection (with Trash)".
+* Normally, if a player performs a *5's Chop Move* on a trash card, it would signal a *Finesse* on all of the cards leading up to the 5.
+* If the very next player sees that **they will only have to blind-play one card in their hand to fuffill the *Finesse***, then they should assume that it is a *Finesse*.
+* If the very next player sees that they would have to blind-play two or more cards in their hand to fuffill the *Finesse*, then a *Finesse* is unlikely. Instead, players agree that this signals an *Ejection* and that the next player should play their *Second Finesse Position*.
 * After the *Ejection*, the player receiving the 5 clue will knows that they have trash on their chop.
 * For example, in a 5-player game:
-  * It is the *Early Game*.
-  * Red 1 is played on the stacks
+  * It is the *Mid-Game* and all of the 2's are played on the stacks.
   * Alice clues number 5 to Cathy, touching a blue 5 on slot 3.
-  * Cathy's slot 4 card is a red 1. (This was her chop card prior to the number 5 clue being given.)
-  * It is now Bob's turn. Bob sees that Donald has a red 2 on his slot 2 that could be *Play Clued* with a red color clue.
-  * Normally, since it is the *Early Game*, a number 5's clue to Cathy might just be a *5 Stall*. However, since Alice could have given the red *Play Clue* to Donald, this is an "early" 5's clue, so it must be an *Early 5's Chop Move*.  However, this cannot be an *Early 5's Chop Move* either, since Cathy has a trash red 1 on her chop.
-  * Thus, Bob knows that this is a *Junk Ejection*, and he blind-plays his *Second Finesse Position*. It is a green 1 and successfully plays.
-  * Cathy knows that if this was an *Early 5's Chop Move*, then Bob would not have blind-played anything. Since he blind-played his *Second Finesse Position* card, this must be a *Junk Ejection* and her slot 4 card must be trash.
-* Unlike *Junk Ejection* with trash, *Junk Ejection* with a 5 is only "turned on" in the *Early Game*.
+  * Cathy's slot 4 card is a red 1. (This was her chop prior to the number 5 clue being given.)
+  * It is now Bob's turn. Bob knows that since Alice *Chop Moved* a trash card, this would normally signal that the blue 5 is playable right now.
+  * However, that would mean that Bob must have both the blue 3 and the blue 4, which is unlikely. Bob knows that *Junk Ejection* takes priority if he is supposed to play two or more blind cards, so he blind-plays his *Second Finesse Position*. It is a green 1 and successfully plays.
+  * Cathy knows that if this was an *5's Chop Move*, then Bob would not have blind-played anything. If it was a *Finesse*, then Bob would have blind-played his *Finesse Position*. Since he blind-played his *Second Finesse Position* card, this must be a *Junk Ejection* and her slot 4 card must be trash.
 
 ### Trash Push Ejection
 
