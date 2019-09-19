@@ -467,7 +467,7 @@ Note that in this user interface, players are holding their hands like they woul
 
 ## Level 2 - General Principles
 
-The other sections in this document contain lists of special "moves", but this section is contains general principles. We refer to them in post-game reviews and when thinking about the game.
+While the other sections in this document contain lists of special "moves", this section only contains general principles. We refer to them in post-game reviews and when thinking about the game.
 
 ### Trash
 
