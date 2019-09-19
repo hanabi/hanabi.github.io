@@ -18,7 +18,7 @@ Note that convention updates for the group are listed in the `#announcements` ch
 6. [Level 2 - Common Mistakes & Illegal Moves](#level-2---common-mistakes--illegal-moves)
 7. [Level 3 - Advanced Strategies](#level-3---advanced-strategies)
 8. [Level 4 - Expert Strategies](#level-4---expert-strategies)
-9. [Level 5 - Rarely Used Strategies](#level-4---rarely-used-strategies)
+9. [Level 5 - Rarely Used Strategies](#level-5---rarely-used-strategies)
     * [Save Clues & Non-Emergency Chop Moves](#level-5---rarely-used-strategies-save-clues--non-emergency-chop-moves)
     * [Finesses & Bluffs](#level-5---rarely-used-strategies-finesses--bluffs)
     * [Pushes & Pulls](#level-5---rarely-used-strategies-pushes--pulls)
