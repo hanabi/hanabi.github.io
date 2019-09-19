@@ -18,7 +18,7 @@ Note that convention updates for the group are listed in the `#announcements` ch
 6. [Level 2 - Common Mistakes & Illegal Moves](#level-2---common-mistakes--illegal-moves)
 7. [Level 3 - Advanced Strategies](#level-3---advanced-strategies)
 8. [Level 4 - Expert Strategies](#level-4---expert-strategies)
-9. Level 5 - Rarely Used Strategies
+9. [Level 5 - Rarely Used Strategies](#level-4---rarely-used-strategies)
     * [Save Clues & Non-Emergency Chop Moves](#level-5---rarely-used-strategies-save-clues--non-emergency-chop-moves)
     * [Finesses & Bluffs](#level-5---rarely-used-strategies-finesses--bluffs)
     * [Pushes & Pulls](#level-5---rarely-used-strategies-pushes--pulls)
@@ -117,6 +117,8 @@ Note that in this user interface, players are holding their hands like they woul
 
 ## Level 1 - Beginner Strategies
 
+* Level 1 strategies can be learned with no games of Hanabi played. You can either learn them before you play your first game or after you play a few games to learn the basic mechanics.
+
 ### The Prompt
 
 * The *Prompt* is a move covered in [beginner guide](https://github.com/Zamiell/hanabi-conventions/blob/master/Beginner.md). It is when you get a player to clued card that was previously unknown.
@@ -132,6 +134,9 @@ Note that in this user interface, players are holding their hands like they woul
 <br />
 
 ## Level 2 - Intermediate Strategies
+
+* Level 2 strategies should only be learned if you have played with the group a few times and have got the basics down. (5-10 games of experience or more.)
+* This level contains the moves that compose our "core" repertoire. While these moves may not be used in every single game, the complexity level of all of them is fairly low, so start to get familiar with them.
 
 ### 2 Saves
 
@@ -388,7 +393,7 @@ Note that in this user interface, players are holding their hands like they woul
 
 ### A Scream Discard Flowchart
 
-[Here is a handy flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/flowcharts/scream_discard_flowchart.png) for determining whether something is a *Scream Discard Chop Move* or a *Generation Discard*. (It also covers some more rare types of discards that are covered later on in this document.)
+[Here is a handy flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/flowcharts/scream_discard_flowchart.png) for determining whether something is a *Scream Discard Chop Move* or a *Generation Discard*. (It also covers some more rare types of discards that are covered later on in this document, but you can ignore those for now.)
 
 ### Tempo Clues (Re-cluing a Card)
 
@@ -685,6 +690,18 @@ While the other sections in this document contain lists of special "moves", this
 
 ## Level 2 - Common Mistakes & Illegal Moves
 
+### The Wrong Prompt (Mistake)
+
+* A common mistake in Hanabi is to attempt to perform a *Finesse* when there is a "matching" card in that player's hand. Since *Prompts* take precedence over *Finesses*, the player will always play their matching clued cards first.
+* When a card is *Prompted* and it misplays, everyone can read into this mistake - it was almost certainly a *Wrong Prompt*, meaning that the player who gave the clue probably intended for the *Finesse Position* card to play instead.
+* Thus, if there is nothing else special about the situation, the player who misplayed should go on to play their *Finesse Position* card on the next turn.
+
+### Critical Discards after a Chop Move (Mistake)
+
+* If a player chop moves, and then the next time they discard, they discard a critical card, then obviously some kind of mistake occurred.
+* The best explanation is that the chop move was never intended in the first place.
+* Thus, when this happens, the player should "undo" the chop move.
+
 ### Bluff Prompts / Prompt Bluffs (Illegal)
 
 * It is illegal to trick players into thinking that they are *Prompted*. *Prompts* **must** be the truth.
@@ -696,12 +713,6 @@ While the other sections in this document contain lists of special "moves", this
   * Cathy is slightly surprised that Bob played the blue 2, but he must have been able to figure it out somehow.
   * Furthermore, Cathy knows that Alice's clue to Donald must be a *Finesse*, so Cathy must have the red 2 on her *Finesse Position*. She plays it, and it is instead the blue 5 and misplays.
   * This was Alice's fault, because *Bluffs* are only allowed if they can be revealed immediately from a blind-play.
-
-### The Wrong Prompt (Mistake)
-
-* A common mistake in Hanabi is to attempt to perform a *Finesse* when there is a "matching" card in that player's hand. Since *Prompts* take precedence over *Finesses*, the player will always play their matching clued cards first.
-* When a card is *Prompted* and it misplays, everyone can read into this mistake - it was almost certainly a *Wrong Prompt*, meaning that the player who gave the clue probably intended for the *Finesse Position* card to play instead.
-* Thus, if there is nothing else special about the situation, the player who misplayed should go on to play their *Finesse Position* card on the next turn.
 
 ### Self-Bluffs with Color Clues (Illegal)
 
@@ -724,22 +735,25 @@ While the other sections in this document contain lists of special "moves", this
 
 ## Level 3 - Advanced Strategies
 
+* Level 3 strategies should only be learned if you have played with the group for a week or longer. (25+ games of experience or more.)
+* This level covers specific kinds of moves that are pretty useful and happen fairly often, but are a little bit more complicated. 
+
 ### Allowable Stall Clues
 
 * In certain special situations, everyone understands that a player might be giving a "stall" clue. However, there are limits - they are not allowed to just clue anything they want. These are the specific clues that they are allowed to give along with the priority of each clue:
 
-| Priority | Type of Clue | Early Game (Level 1) | Double Discard (Level 2) | Locked Hand (Level 3) | 8 Clues (Level 4)
-| -------- | ------------ | -------------------- | ------------------------ | --------------------- | -----------------
-| 1        | Normal *Play Clues* or *Save Clues*                                                  | ✔ | ✔ | ✔ | ✔
-| 2        | *5 Stall* (cluing off-chop 5's)                                                      | ✔ | ✔ | ✔ | ✔
-| 3        | Early *Fix Clue* (fixing a duplicate before it is in danger of misplaying)           | ❌ | ✔ | ✔ | ✔
-| 4        | *Tempo Clue* (re-cluing a card to make it play)                                      | ❌ | ✔ | ✔ | ✔
-| 5        | *Locked Hand Save* (saving any card on chop)                                         | ❌ | ❌ | ✔ | ✔
-| 6        | *8 Clue Save* (saving any card off chop)                                             | ❌ | ❌ | ❌ | ✔
-| 7        | Filling in extra info on unplayable "mystery" cards                                  | ❌ | ✔ | ✔ | ✔
+| Priority | Type of Clue | Early Game (Severity 1) | Double Discard (Severity 2) | Locked Hand (Severity 3) | 8 Clues (Severity 4)
+| -------- | ------------ | ----------------------- | --------------------------- | ------------------------ | --------------------
+| 1        | Normal *Play Clues* or *Save Clues*                                                   | ✔ | ✔ | ✔ | ✔
+| 2        | *5 Stall* (cluing off-chop 5's)                                                       | ✔ | ✔ | ✔ | ✔
+| 3        | Early *Fix Clue* (fixing a duplicate before it is in danger of misplaying)            | ❌ | ✔ | ✔ | ✔
+| 4        | *Tempo Clue* (re-cluing a card to make it play)                                       | ❌ | ✔ | ✔ | ✔
+| 5        | *Locked Hand Save* (saving any card on chop)                                          | ❌ | ❌ | ✔ | ✔
+| 6        | *8 Clue Save* (saving any card off chop)                                              | ❌ | ❌ | ❌ | ✔
+| 7        | Filling in extra info on unplayable "mystery" cards                                   | ❌ | ✔ | ✔ | ✔
 | 8        | *Hard Burn* (re-cluing an unplayable card that gives no new information, usually a 5) | ❌ | ✔ | ✔ | ✔
 
-### Locked Hands & The Locked Hand Save (L.H.S. / LHS) (Level 3 Stalling)
+### Locked Hands & The Locked Hand Save (L.H.S. / LHS) (Severity 3 Stalling)
 
 * Generally speaking, it is a bad situation when someone's hand gets fully clued. This is also known as being *Locked*, and it should be avoided if possible. However, sometimes it cannot be helped, like when a player draws three 5's in a row.
 * A player with a fully clued hand may give a low-value clue because they are not sure that they can play anything (and they can't discard because their hand is fully clued). Similar to a *Double Discard* situation, players should not read too closely into any clues given during this state.
@@ -752,7 +766,7 @@ While the other sections in this document contain lists of special "moves", this
 * A better way to signal this information is to deliberately leave them at 0 clues. By convention, this means that one of their cards is actually playable. If there is more than one option, then they should know that the left-most is playable. (This follows from *Left-Most Playable Principle*.)
 * This is called an *Anxiety Play* because you are putting the *Locked* player in a "do or die" situation.
 
-### Clues Given While at 8 Clues & The 8 Clue Save (Level 4 Stalling)
+### Clues Given While at 8 Clues & The 8 Clue Save (Severity 4 Stalling)
 
 * At the beginning of the game, you start with 8 clues. This section only applies to situations where you climb to 8 clues in the middle of the game.
 * A player who has a turn with 8 clues in the bank may give a low-value clue because they are not sure that they can play anything (and they can't discard because the game does not allow you to discard while at 8 clues). Similar to a *Double Discard* or a *Locked Hand* situation, players should not read too closely into any clues given during this state.
@@ -1323,18 +1337,6 @@ Priority does not always apply. Some common exceptions are listed below.
 * If a player is already *Finessed*, it is possible to *Finesse* them again and get them to play their *Second Finesse Position* card.
 * Similarly, if a *5 Pull* is performed, and the card immediately to the right of a 5 is already clued or already "gotten", then the *5 Pull* skips over that card and gets the next card after that.
 
-### The Weak Prompt
-
-* If a teammate performs a *Prompt* on you, and you have multiple cards in your hand that match the connecting card, normally you would be promised that the left-most (newest) is playable.
-* However, if the card that initiated the prompt was **on chop** when it was touched **and** it was in danger of being discarded, the left-most rule no longer applies, since your teammate had to take drastic measures to prevent the discard of that card.
-* So instead, you are promised that you have the connecting card somewhere in your hand, but it could be any of the cards, and not strictly the left-most.
-
-### Critical Discards after a Chop Move (Mistake)
-
-* If a player chop moves, and then the next time they discard, they discard a critical card, then obviously some kind of mistake occurred.
-* The best explanation is that the chop move was never intended in the first place.
-* Thus, when this happens, the player should "undo" the chop move.
-
 ### Duplication Responsibility
 
 * Usually, if a 2 needs to be saved, it is not the responsibility of a player with already-clued 2's in his hand, because they could potentially violate *Good Touch Principle* by cluing it, so they should defer and let someone else on the team do it. (The same general concept also applies to cluing playable cards on chop, for example.)
@@ -1406,6 +1408,9 @@ Priority does not always apply. Some common exceptions are listed below.
 <br />
 
 ## Level 4 - Expert Strategies
+
+* Level 4 strategies should only be learned if you have played with the group for two to three weeks or longer. (100+ games of experience or more.)
+* This level covers moves that are complicated, difficult to see, or require a deeper understanding of how Hanabi works in order to work properly.
 
 ### The Occupied Play Clue & The Occupied Finesse (O.P.C. / OPC)
 
@@ -1511,7 +1516,7 @@ Priority does not always apply. Some common exceptions are listed below.
 
 ### A Trash Flowchart
 
-There are a lot of different moves that involve cluing trash. [Here is a handy flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/flowcharts/cluing_trash_flowchart.png) for determining the difference between the different types of special moves that touch trash. (The flowchart contains some more advanced strategies for the sake of completion, but you can ignore those for now. The three most important moves to understand are the *Trash Chop Move*, the *Trash Bluff*, and the *Trash Pull*.)
+There are a lot of different moves that involve cluing trash. [Here is a handy flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/flowcharts/cluing_trash_flowchart.png) for determining the difference between the different types of special moves that touch trash. (The flowchart contains some strategies that have not been covered yet, but the three most important moves to understand are the *Trash Chop Move*, the *Trash Bluff*, and the *Trash Pull*.)
 
 ### The Out-of-Order Finesse (Triple O / OOO / O.O.O.)
 
@@ -1537,6 +1542,14 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * With that said, it is sometimes possible to construct **safe** lines that contain a *Lie Component*. There is usually deep levels of nuance involved in these lines, so this kind of thing is only recommended for advanced and expert players.
 * The previously mentioned *Out-of-Order Finesse* is an specific example of a *Finesse* with a *Lie Component*. One key attribute of the *Out-of-Order Finesse* is that the player who receives the *Fix Clue* knows that **all** of the related cards are playable, or it would not have been worth the risk (and the confusion) to perform a line with a *Lie Component* in the first place.
 * This concept can be generalized to all *Finesses* that have a *Lie Component*. After a player receives a *Fix Clue* in such a situation, they should assume that the *Finesse* is "still on". So, depending on the situation, they should either know that the initial card that was clued is playable (like in an *Out-of-Order Finesse*) or continue to blind-play cards to the right of the card that got the *Fix Clue* (if more blind cards need to be played to fulfill the initial *Finesse*).
+
+<br />
+
+## Level 5 - Rarely Used Strategies
+
+* The rest of the conventions and special moves are clustered into level 5. Level 5 strategies are not necessarily more complicated than level 4 strategies; it is just that since they rarely come up, it would be a waste of time for every player to know about every one.
+* Nonetheless, when playing with expert players, we generally play under the assumption that everyone knows about most of the conventions in this section. Since expert players have hundreds of games, they will probably have seen a rare situation before and will instinctively know what to do.
+* Unlike the other levels, this section is split up into different subsections based on category.
 
 <br />
 
@@ -2377,6 +2390,12 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 <br />
 
 ## Level 5 - Rarely Used Strategies (Miscellaneous)
+
+### The Weak Prompt
+
+* If a teammate performs a *Prompt* on you, and you have multiple cards in your hand that match the connecting card, normally you would be promised that the left-most (newest) is playable.
+* However, if the card that initiated the prompt was **on chop** when it was touched **and** it was in danger of being discarded, the left-most rule no longer applies, since your teammate had to take drastic measures to prevent the discard of that card.
+* So instead, you are promised that you have the connecting card somewhere in your hand, but it could be any of the cards, and not strictly the left-most.
 
 ### Trash Touch Elimination
 
