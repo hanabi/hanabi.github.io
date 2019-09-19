@@ -2013,7 +2013,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * It is possible for a *Hesitation Blind-Play* to occur without anyone intending it to happen. However, if a player intentionally tries to make a *Hesitation Blind-Play* occur, it is called a *Pass Bluff*.
 * In other words, after a *Finesse* occurs that is directed at you, you will know that your *Finesse Position* card is playable. If the next immediate player also has an unrelated playable card on their *Finesse Position*, you can pretend like the *Finesse* wasn't directed at you. This will cause them to think that the *Finesse* was directed at them, and you will get the unrelated card played for free.
 * After the unrelated card is played, the next player should **not** continue to blind-play cards (as a *Layered Finesse*) because:
-  * You "passing" player fulfills the real *Finesse* on their next turn.
+  * The "passing" player fulfills the real *Finesse* on their next turn.
   * The "passing" player was in *Bluff Seat*.
 * *Pass Bluffs* rely on contextual information in order to work, so the circumstances in which you can do them are narrow.
 * It is illegal for a player to perform a *Pass Bluff* if they could be *Bluffed*. (This is because the first *Bluff* would not resolve immediately and would violate *Good Lie Principle*.)
