@@ -1752,7 +1752,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 * Similar to the *4's Double Bluff*, you can also perform a *5's Triple Bluff*.
 * This flows naturally from the *4's Double Bluff* convention, since a card cannot be a 4 if it gets three blind-plays.
-* However, *5's Color Ejection* and *5's Color Discharge* take precedence over a *5's Triple Bluff*, so performing a *5's Triple Bluff* is very situational and hard to do. (See the section on *5's Color Ejection* for a refresher if you haven't already.)
 * For example, in a 5-player game:
   * All the 1's are played on the stacks except for red 1.
   * Emily has a red 5 that has a number 5 clue on it. (It was *5 Saved* in the *Early Game*.)
@@ -1767,6 +1766,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Bob, Cathy, and Donald blind-play their *Finesse Position* cards.
   * Emily knows that when the number 5 clue was given, the red 5 was four-away from playable, and all of the other 5's were three-away from playable. This means that normally, Emily would mark her 5 as any 5 except for red 5. (This is because only cards that are three-away from playable are valid *Triple Bluff* targets.)
   * However, since the *5's Triple Bluff* convention exists, Emily knows that any 5 can be used to initiate a *Triple Bluff*. Thus, her 5 can be **any** 5 in the game, including red 5.
+* Finally, note that sometimes when a 5 is clued is color as a *Play Clue*, it could be a *5's Color Ejection*. However, if the next player can see that the two subsequent players have playable cards on their *Finesse Position*, then the *Triple Bluff* takes precedence over a *5's Color Ejection*.
 
 ### The No-Information Double Finesse & The No-Information Double Bluff
 
