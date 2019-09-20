@@ -2953,7 +2953,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * There are two exceptions to this:
   * if the color clue also touched another critical card (that is not dark rainbow)
   * if the color matches a suit that is already completely played or accounted for
-* Additionally, *BGA Play Clues* are "turned on" for number saves on dark rainbow 3 and dark rainbow 4 specifically.
+* Additionally, *BGA Play Clues* are always "turned on" for number saves on dark rainbow 3 and dark rainbow 4 specifically.
 * Note that in variants where a black color clues is available, dark rainbow 3 and dark rainbow 4 must always be saved with a black color clue.
 
 ### The Negative Prompt
