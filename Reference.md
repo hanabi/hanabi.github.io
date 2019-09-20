@@ -199,7 +199,7 @@ Note that in this user interface, players are holding their hands like they woul
 
 <img src="img/intermediate/playing_multiple_1s2.png" height="150" />
 
-* Bob knows that fresh 1's have priority, so he plays the slot 1 card next. After that, he should play the slot 4 card, and then the slot 3 card (e.g. resuming the play order from before).
+* Bob knows that fresh 1's have precedence, so he plays the slot 1 card next. After that, he should play the slot 4 card, and then the slot 3 card (e.g. resuming the play order from before).
 
 ### Playing Multiple 1's - The Chop Focus Exception (Part 3)
 
@@ -3014,6 +3014,59 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Cathy now knows that it was not a normal *Finesse* at all - it was instead a *Mismatch Finesse*, because there is no other explanation for why Bob would blind-play from a *Play Clue* on a red 1.
   * Cathy also knows that she must have another red 1 in her hand. Since there is only one card to the left of her slot 2, she knows that the red 1 has to be exactly in her slot 1 (at the time of the clue).
   * Due to this, when Cathy needs to discard next, she will blind-discard her slot 2 card (since slot 1 has now shifted down to slot 2 after she played the red 1).
+
+### Totally Blind Conventions
+
+* These conventions apply to the *Totally Blind* variants.
+* Similar to the *Color Blind* conventions, we define arbitrary interpretations for what each clue means.
+
+#### 2-Player & 3-Player
+
+| Clue     | Interpretation
+| -------- | --------------
+| Number 1 | Play slot 1
+| Number 2 | Play slot 2
+| Number 3 | Play slot 3
+| Number 4 | Play slot 4
+| Number 5 | Play slot 5 
+| Blue     | Chop move
+| Green    | Play slot 1 + play slot 2
+| Yellow   | Play slot 1 + play slot 3
+| Red      | Play slot 1 + play slot 4
+| Purple   | Play slot 1 + play slot 5
+| Teal     | Double chop move (or a nothing clue if in a stalling situation)
+
+#### 4-Player & 5-Player
+
+| Clue     | Interpretation
+| -------- | --------------
+| Number 1 | Play slot 1
+| Number 2 | Play slot 2
+| Number 3 | Play slot 3
+| Number 4 | Play slot 4
+| Number 5 | Chop move
+| Blue     | Double chop move
+| Green    | Play slot 1 + play slot 2
+| Yellow   | Play slot 1 + play slot 3
+| Red      | Play slot 1 + play slot 4
+| Purple   | Two players play *Finesse Position* (must clue the person with the 2nd blind-play)
+| Teal     | Three players play *Finesse Position* (must clue the person with the 3rd blind-play)
+
+#### 6-Player
+
+| Clue     | Interpretation
+| -------- | --------------
+| Number 1 | Play slot 1
+| Number 2 | Play slot 2
+| Number 3 | Play slot 3
+| Number 4 | Chop move
+| Number 5 | Double chop move
+| Blue     | Two players play their *Second Finesse Position* (must clue the person with the 2nd blind-play)
+| Green    | Play slot 1 + play slot 2
+| Yellow   | Play slot 1 + play slot 3
+| Red      | Play slot 1 + play slot 2 + play slot 3
+| Purple   | Two players play *Finesse Position* (must clue the person with the 2nd blind-play)
+| Teal     | Three players play *Finesse Position* (must clue the person with the 3rd blind-play)
 
 ### Multi-Five Saves
 
