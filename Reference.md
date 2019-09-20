@@ -2877,6 +2877,68 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * These conventions apply to any variant with an omni (touched by all clues) suit.
 * All pink conventions also apply to Omni.
 
+### Null Conventions
+
+* These conventions apply to any variant with an null (touched by no clues) suit.
+
+#### Positional Clues
+
+* Any clue that looks like one of the following is now a *Positional Clue* instead:
+  * a *Double Finesse* (or Triple, etc)
+  * a *Double Bluff* (or Triple, etc)
+  * an *Ejection*
+  * a *Discharge*
+  * a clue that has no "normal" conventional interpretation
+* *Positional Clues* are clues that are meant to either be a *Save Clue* or a *Play Clue* on the specific slot number:
+  * Number 1 through 5 correspond to the respective slot.
+  * If there is an extra number available (e.g. if there are only 4 cards in the hand), then a positional 5 means to save the chop and the other numbers are always *Play Clues*.
+  * Blue (the left-most suit) means to play slot 2. Green (the second left-most suit) means slot 3, and so forth. (This is because slot 1 is often easy to get with other conventions.)
+  * If there are one or more extra colors available (e.g. a 3-player 6 suit game), then the extra colors wrap around to being slot 1, slot 2, and so forth.
+* If a *Positional Clue* is given to the slot that is someone's chop, then it is a *Save Clue*. Otherwise, it is a *Play Clue*.
+* *Positional Clues* are **only** allowed to get null cards.
+* For example, in a 3-player null game:
+  * On the first turn of the game, Alice clues Cathy about one 4.
+  * Bob knows that normally, this would be a *4's Double Bluff*. But *Double Bluffs* are turned off in variants with a null suit.
+  * Bob instead knows that this is a *Positional Clue*, indicating that someone should play their slot 4 card.
+  * Bob sees that Cathy's slot 4 card is not a null card, so he plays his slot 4 card as the null 1.
+* *Positional Clues* do **not** have to be given in *Bluff Seat*. They can be given by anyone, since the other players will see that the clue does not apply to them.
+  * Subsequently, it is illegal to give an *Ambiguous Positional Clue*.
+* For example, in a 3-player null game:
+  * On the first turn of the game, Alice clues Cathy about one 4.
+  * Bob knows that normally, this would be a *4's Double Bluff*. But *Double Bluffs* are turned off in variants with a null suit.
+  * Bob instead knows that this is a *Positional Clue*, indicating that someone should play their slot 4 card.
+  * Bob sees that Cathy's slot 4 card is a null 1, so he knows that this is a positional clue on Cathy.
+  * Bob discards.
+  * Cathy blind-plays her slot 4 card.
+* *Good Touch Principle* does **not** apply to cards touched as *Positional Clues*. They should be discarded exactly like an unclued card would.
+  * The exception to this is if the card is known to be useful to the team (e.g. a 3 when no 3's are currently played).
+
+#### The Positional Finesse
+
+* *Positional Clues* can also be used to *Finesse* a null card.
+* For example, in a 3-player game:
+  * Nothing is played on the stacks.
+  * Bob's hand is completely unclued.
+  * Alice gives a *Positional Clue* to Bob indicating that he should play his slot 3.
+  * Bob sees that Cathy has a null 1 on her *Finesse Position*. Thus, he marks his slot 3 card as either null 1 or null 2. Bob discards.
+  * Cathy sees that Bob has a null 2 on his slot 3 and that Cathy has indicated that it is playable. Cathy blind-plays her *Finesse Position* card as null 1.
+  * Bob now knows that he has a null 2 on his slot 3.
+
+#### The Positional Layered Finesse
+
+* Normally, *Positional* clues are only allowed to "get" null cards.
+* Thus, if a player plays a card from a *Positional* clue and it is not a null card, then they know to keep playing their next slot as a *Positional Layered Finesse*.
+
+### Black & Rainbow
+
+* These conventions apply to any variant with a black suit and a rainbow suit.
+
+#### Crazy 3 Saves & Crazy 4 Saves
+
+* It is possible to violate *Good Touch Principle* by cluing black to save a black 3 or a black 4, because there can be other useless rainbow cards in the hand.
+* Thus, a second exception to the *Black 3 and Black 4 Saves* convention is added:
+  * if the number clue was required to avoid violating *Good Touch Principle*
+
 ### Dark Rainbow Saves
 
 * This convention applies to any variant with a dark rainbow (touched by all colors and one of each) suit.
@@ -2886,6 +2948,17 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * if the color matches a suit that is already completely played or accounted for
 * Additionally, *BGA Play Clues* are "turned on" for number saves on dark rainbow 3 and dark rainbow 4 specifically.
 * Note that in variants where a black color clues is available, dark rainbow 3 and dark rainbow 4 must always be saved with a black color clue.
+
+### The Negative Prompt
+
+* This convention applies to the *Dual-Color (6 Suits)* variant.
+* In this variant, since negative color information conveys just as much information as positive color information, you should include that when deciding which card to play into a *Prompt*.
+* For example:
+  * Alice has a red card in slot 1 and a red card in slot 2.
+  * Alice is *Prompted* for a mahogany 2. (Mahogany is composed of red and black.)
+  * Normally, Alice would play slot 1, since *Prompts* promise the left-most card.
+  * However, Alice's slot 1 card has no negative clues, and her slot slot 2 card has a negative yellow clue.
+  * Thus, this is a *Negative Prompt* and Alice plays slot 2 instead of slot 1.
 
 ### Color Blind Conventions
 
@@ -2924,7 +2997,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * The two blind-plays do not necessarily have to be on two players in a row - they can be on anyone.
 * The clue should always be given to the person who will perform the second blind-play.
 
-### The Mismatch Finesse
+#### The Mismatch Finesse
 
 * This convention only applies to *Color Blind* variants.
 * If a player has two of the same playable card in their hand, players are expected to give a *Play Clue* to the left-most one.
@@ -2941,17 +3014,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Cathy now knows that it was not a normal *Finesse* at all - it was instead a *Mismatch Finesse*, because there is no other explanation for why Bob would blind-play from a *Play Clue* on a red 1.
   * Cathy also knows that she must have another red 1 in her hand. Since there is only one card to the left of her slot 2, she knows that the red 1 has to be exactly in her slot 1 (at the time of the clue).
   * Due to this, when Cathy needs to discard next, she will blind-discard her slot 2 card (since slot 1 has now shifted down to slot 2 after she played the red 1).
-
-### The Negative Prompt
-
-* This convention applies to the *Dual-Color (6 Suits)* variant.
-* In this variant, since negative color information conveys just as much information as positive color information, you should include that when deciding which card to play into a *Prompt*.
-* For example:
-  * Alice has a red card in slot 1 and a red card in slot 2.
-  * Alice is *Prompted* for a mahogany 2. (Mahogany is composed of red and black.)
-  * Normally, Alice would play slot 1, since *Prompts* promise the left-most card.
-  * However, Alice's slot 1 card has no negative clues, and her slot slot 2 card has a negative yellow clue.
-  * Thus, this is a *Negative Prompt* and Alice plays slot 2 instead of slot 1.
 
 ### Multi-Five Saves
 
@@ -3074,23 +3136,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 * Normally, when a playable card is clued again, it is interpreted as an *Double Play Ejection* on the very next player.
 * However, in the *Duck* variants, it instead means to play slot 1 as a *Known Bluff*.
-
-### Black & Rainbow
-
-* These conventions apply to any variant with a black suit and a rainbow suit.
-
-#### Crazy 3 Saves & Crazy 4 Saves
-
-* It is possible to violate *Good Touch Principle* by cluing black to save a black 3 or a black 4, because there can be other useless rainbow cards in the hand.
-* Thus, a second exception to the *Black 3 and Black 4 Saves* convention is added:
-  * if the number clue was required to avoid violating *Good Touch Principle*
-
-### Dual-Color Mix 5-Player Alterations
-
-* These conventions only apply to the *Dual-Color Mix* variant with 5 players.
-* Since it is so difficult, some conventions are "turned off":
-  1) No *Crazy 3 Saves* and no *Crazy 4 Saves* – you must duplicate a rainbow card if you want to save a black 3 or black 4.
-  2) No *Locked Hand Saves* – locked players must perform a "hard burn" if they have no normal *Play Clues* or *Save Clues* or off-chop 5's to clue.
 
 ### Empty Clues
 
@@ -3238,3 +3283,4 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 | The 5 Color Discharge | Jeff
 | The 5 Pull Ejection and The 5 Pull Ejection Chop Move | Jeff
 | The Double 5 Pull | Jeff
+| Positional Clues | Razvogor & Zamiel
