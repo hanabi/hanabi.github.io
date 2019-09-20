@@ -1735,7 +1735,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Bob blind-plays a red 1.
   * Cathy blind-plays a yellow 1.
   * Donald sees that the red 4 was three-away from playable, which means that he would normally interpret this move as a *Triple Bluff*, calling for three blind-plays.
-  * However, because of the *4 Double Bluff* convention, he knows that *4 Double Bluffs* take precedence over *Triple Bluffs*. Thus, Donald knows that no more blind-plays are required, so he discards.
+  * However, because of the *4 Double Bluff* convention, he knows that *4 Double Bluffs* take precedence over *Triple Bluffs* (similar to how *3 Bluffs* take precedence over *Double Finesses*). Thus, Donald knows that no more blind-plays are required, so he discards.
   * Emily knows that if a *Double Half Bluff* has occurred, she has a red 3. Emily also knows that if a *4 Double Half Bluff* occurred, she has a red 4. Emily marks both of the possibilities on the card for later.
 
 ### The Hard 4 Double Bluff
@@ -1752,22 +1752,18 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 * Similar to the *4's Double Bluff*, you can also perform a *5's Triple Bluff*.
 * This flows naturally from the *4's Double Bluff* convention, since a card cannot be a 4 if it gets three blind-plays.
+* However, *5's Color Ejection* and *5's Color Discharge* take precedence over a *5's Triple Bluff*, so performing a *5's Triple Bluff* is very situational and hard to do. (See the section on *5's Color Ejection* for a refresher if you haven't already.)
 * For example, in a 5-player game:
   * All the 1's are played on the stacks except for red 1.
-  * It is the *Mid-Game*. (Thus, the *5 Color Ejection* convention is "turned off".)
-  * Alice clues red to Emily, touching a red 5 as a *Play Clue*.
-  * Bob sees that no-one else has the red 2. Bob blind-plays his *Finesse Position* card as red 1, but it is instead a blue 2.
-  * Cathy knows a green 2 does not match a blue 5, so this must be some kind of *Bluff*. However, a blue 5 is not a valid *Bluff* target. Furthermore, a red 5 is also not a valid *Double Bluff* target. Thus, this must be a *Triple Bluff*, so Cathy blind-plays her *Finesse Position* card as any playable card, and it plays as green 2.
+  * Emily has a red 5 that has a number 5 clue on it. (It was *5 Saved* in the *Early Game*.)
+  * Alice clues red to Emily, "filling in" the red 5 as a *Play Clue*.
+  * Bob sees that no-one else has the red 1. Bob blind-plays his *Finesse Position* card as red 1, but it is instead a blue 2.
+  * Cathy knows a blue 2 does not match a red 5, so this must be some kind of *Bluff*. However, a red 5 is not a valid *Bluff* target and it is also not a valid *Double Bluff* target. Thus, this must be a *Triple Bluff*, so Cathy blind-plays her *Finesse Position* card as any playable card, and it plays as green 2.
   * Donald also knows that this must be a *Triple Bluff*, so he also blind-plays his *Finesse Position* and it plays as a yellow 2.
-  * Emily knows that a red card initiated a *Triple Bluff*:
-    * If it was a red 1, then no-one would have blind-played anything.
-    * If it was a red 2, then only one person would blind-play as a (normal) *Bluff*.
-    * If it was a red 3, then only one person would blind-play as a *3 Bluff*.
-    * If it was a red 4, then only two people would blind-play as a *4's Double Bluff*.
-  * Thus, by process of elimination, the card must be red 5.
 * The above example did not require any explicit *5's Triple Bluff* convention to exist in order to work properly. However, there is also an explicit convention that allows for any *Triple Bluff* to also be a 5.
 * For example, in a 5-player game:
-  * The setup is exactly the same as the previous example, except a number 5 clue is used to initiate the *Triple Bluff*.
+  * The setup is exactly the same as the previous example, except Emily does not already have a number 5 clue on her red 5 - it is unclued.
+  * Alice reds number 5 to Emily, touching the red 5 as a *Play Clue*.
   * Bob, Cathy, and Donald blind-play their *Finesse Position* cards.
   * Emily knows that when the number 5 clue was given, the red 5 was four-away from playable, and all of the other 5's were three-away from playable. This means that normally, Emily would mark her 5 as any 5 except for red 5. (This is because only cards that are three-away from playable are valid *Triple Bluff* targets.)
   * However, since the *5's Triple Bluff* convention exists, Emily knows that any 5 can be used to initiate a *Triple Bluff*. Thus, her 5 can be **any** 5 in the game, including red 5.
