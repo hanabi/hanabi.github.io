@@ -3025,7 +3025,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 ### Totally Blind Conventions
 
 * These conventions apply to the *Totally Blind* variants.
-* Similar to the *Color Blind* conventions, we define arbitrary interpretations for what each clue means.
+* Similar to the conventions for *Color Blind* variants, we define arbitrary interpretations for what each clue means.
 
 #### 2-Player & 3-Player
 
