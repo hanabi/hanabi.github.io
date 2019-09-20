@@ -3045,7 +3045,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 | Number 3 | Play slot 3
 | Number 4 | Play slot 4
 | Number 5 | Chop move
-| Blue     | Double chop move
+| Blue     | Double chop move (or a nothing clue if in a stalling situation)
 | Green    | Play slot 1 + play slot 2
 | Yellow   | Play slot 1 + play slot 3
 | Red      | Play slot 1 + play slot 4
@@ -3060,7 +3060,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 | Number 2 | Play slot 2
 | Number 3 | Play slot 3
 | Number 4 | Chop move
-| Number 5 | Double chop move
+| Number 5 | Double chop move (or a nothing clue if in a stalling situation)
 | Blue     | Two players play their *Second Finesse Position* (must clue the person with the 2nd blind-play)
 | Green    | Play slot 1 + play slot 2
 | Yellow   | Play slot 1 + play slot 3
