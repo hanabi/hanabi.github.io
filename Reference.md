@@ -2895,6 +2895,8 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * a *Double Bluff* (or Triple, etc)
   * an *Ejection*
   * a *Discharge*
+  * a *Rank Choice Finesse*
+  * a *Rank Choice Bluff*
   * a clue that has no "normal" conventional interpretation
 * *Positional Clues* are clues that are meant to either be a *Save Clue* or a *Play Clue* on the specific slot number:
   * Number 1 through 5 correspond to the respective slot.
