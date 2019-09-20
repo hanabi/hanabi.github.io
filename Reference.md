@@ -3338,8 +3338,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 | Trash Touch Elimination | Steven
 | The Duck Trash Ejection | Dr. Kakashi
 | Junk Ejection | Jeff
-| The 5 Color Ejection | Jeff
-| The 5 Color Discharge | Jeff
+| The 5 Color Ejection & The 5 Color Discharge | Jeff
 | The 5 Pull Ejection and The 5 Pull Ejection Chop Move | Jeff
 | The Double 5 Pull | Jeff
 | Positional Clues | Razvogor & Zamiel
