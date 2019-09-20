@@ -828,6 +828,14 @@ Priority does not always apply. Some common exceptions are listed below.
 
 2) Normally, blind-playing cards has *Priority* over everything else. However, in some advanced cases, the blind-play does not need to be demonstrated to the team - everyone already has full knowledge of what is going on. In this case, players are supposed to treat the cards as clued for the purposes of finding the *Priority*. (The *Gentleman's Discards* is the main move that this applies to, which is a special move that is covered later.)
 
+3) Normally, cards that are the same rank should be played from left-to-right. However, in certain situations, players can know that some **other** card is **more important** than the left-most card. If a player plays a "more important" card, it should never trigger a "right-to-left" style *Priority Finesse*. For example, in a 3-player game:
+
+  * In the *Early Game*, Alice clues number 2 to Bob, touching three 2's on slot 3, slot 4, and slot 5 (his chop). (This is the *2 Save* convention.)
+  * Later on in the game, all of the 1's are now played on the stacks.
+  * Bob has not received any other clues since then - all of his 2's are known playable, but he has no idea what color they are.
+  * Normally, Bob knows that he is supposed to play his 2's from left-to-right. However, he also knows that his 2 on slot 5 is the most important card out of all of them - it was the focus of the original *2 Save* by Alice.
+  * Thus, Bob plays his 2 on slot 5 first. After that, he plays the 2's from left-to-right like normal.
+
 ### The Double Prompt / Triple Prompt / etc.
 
 * Sometimes, someone can give a *Prompt* that is prompting **two** (or more) cards with one clue, which is pretty efficient.
