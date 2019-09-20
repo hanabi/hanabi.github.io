@@ -2882,6 +2882,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 * These conventions apply to any variant with an omni (touched by all clues) suit.
 * All pink conventions also apply to Omni.
+* *Good Touch Principle* does **not** apply to known omni cards. Thus, it may be dangerous for players to play them without being *Prompted* first.
 
 ### Null Conventions
 
