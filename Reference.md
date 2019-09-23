@@ -288,8 +288,9 @@ Note that in this user interface, players are holding their hands like they woul
 * As mentioned in the beginner document, *5 Stalls* are when a player clues an off-chop 5 purely because they want (or need) to give a stall clue.
 * *5 Stalls* are usually done in the *Early Game*, but they can also be done in the *Mid-Game* if a player is in a special situation where they are not allowed to discard.
 * *5 Stalls* are only allowed if there is nothing else to do. (If a player does have something else to do, then it is not a *5 Stall* at all, and is either a *5's Chop Move* or a *5 Pull*, which are advanced moves that are covered later.)
-  * However, as an exception, you are also allowed to *5 Stall* if there is **only one** *Play Clue* remaining and it would touch a card on *Finesse Position*. (We refer to this as the *Finesse Position Exception*.)
+  * However, as an exception, players are also allowed to *5 Stall* if there is **only one** *Play Clue* remaining and it would touch a card on *Finesse Position*. (We refer to this as the *Finesse Position Exception*.)
   * The *Finesse Position Exception* also applies if the same card is in multiple *Finesse Positions* and there is nothing else to do.
+  * The *Finesse Position Exception* applies for **all** situations in which players are allowed to *5 Stall*.
 * *5 Stalls* **cannot** be given if there are any playable 5's. In this situation, a number 5 clue would just look like a *Play Clue* on the 5.
 * *5 Stalls* **must** be given to the 5 that is closest to chop. For example, in a 3-player game:
   * It is the *Early Game*. The only thing left for Alice to do is to clue an off-chop 5.
