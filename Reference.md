@@ -2269,7 +2269,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 ### The 5 Color Ejection (5CE)
 
 * Normally, if a player gives a color *Play Clue* to a 5, it would mean that it is a *Finesse* on the 5 and all of the cards leading up to the 5 are playable.
-* If the very next player sees that **they will only have to blind-play one card in their hand to fuffill the *Finesse***, then they should assume that it is a *Finesse*.
+* If the very next player sees that **they will only have to blind-play one card in their hand to fuffill the *Finesse***, then they should assume that it is a *Finesse* and blind-play their *Finesse Position*..
 * If the very next player sees that they would have to blind-play two or more cards in their hand to fuffill the *Finesse*, then a *Finesse* is unlikely. Instead, players agree that this signals an *Ejection* and that the next player should play their *Second Finesse Position*.
 * After the blind-play, the player who received the clue will know that they must have a 5.
 * For example, in a 3-player game:
@@ -2311,8 +2311,9 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 * This convention only applies in the *Early Game*.
 * Normally, if someone performs a *5 Pull* on a card that is one-away-from-playable, it promising that someone has the in-between card as a *5 Pull Finesse*.
-* However, if someone performs a *5 Pull* on a card that is two-away (or more) from playable card, then they must be trying to communicate something extra.
-* In this situation, they intend the next player to blind-play their *Second Finesse Position* card as a *5 Pull Ejection*.
+* Subsequently, if someone performs a *5 Pull* on a card that is two-away (or more) from playable card, then they might be trying to perform a *5 Pull Double Finesse*.
+* If the very next player sees that **they will only have to blind-play one card in their hand to fuffill the *Finesse***, then they should assume that it is a *Finesse* and blind-play their *Finesse Position*.
+* If the very next player sees that they would have to blind-play two or more cards in their hand to fuffill the *Finesse*, then a *Finesse* is unlikely. Instead, players agree that this signals an *Ejection* and that the next player should play their *Second Finesse Position*.
 * The player receiving the clue should also *Chop Move* the *5 Pull* target, as it is likely to be a useful card that the team will need later.
 * For example, in a 4-player game:
   * It is the first turn and nothing is played on the stacks.
