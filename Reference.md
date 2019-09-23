@@ -746,6 +746,10 @@ While the other sections in this document contain lists of special "moves", this
 | 6        | Filling in extra info on clued cards                                                  | ❌ | ✔ | ✔ | ✔
 | 7        | *Hard Burn* (re-cluing an unplayable card that gives no new information, usually a 5) | ❌ | ✔ | ✔ | ✔
 
+* For example, if a player could perform a *5 Stall* (priority 2), then they are not allowed to perform a *Tempo Clue* (priority 3). Or, if a player could perform a *Tempo Clue* (priority 3), they are not allowed to *Hard Burn* (priority 7), and so forth.
+  * However, remember that the *Finesse Position Exception* applies to *5 Stalls*. (This is covered in the "5 Stall" section above.)
+* Obviously, stall clues are not allowed when the player has a valid play.
+
 ### Locked Hands & The Locked Hand Save (L.H.S. / LHS) (Severity 3 Stalling)
 
 * Generally speaking, it is a bad situation when someone's hand gets fully clued. This is also known as being *Locked*, and it should be avoided if possible. However, sometimes it cannot be helped, like when a player draws three 5's in a row.
