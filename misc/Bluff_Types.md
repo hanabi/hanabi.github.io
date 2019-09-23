@@ -20,6 +20,8 @@ A *Rank Choice Bluff* is an example of a *Pseudo-Bluff*.
 
 When a player happens to play a "matching" card into a *Pseudo-Bluff*, it is a *Pseudo-Finesse*. (This is different from a "normal" *Finesse*, because the player in *Bluff Seat* has no reason to believe that the card that they are playing will necessarily match.
 
+<br />
+
 ## Deferring Bluffs
 
 Different things will happen if different kinds of *Bluffs* are deferred.
