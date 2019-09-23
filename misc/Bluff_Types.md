@@ -6,7 +6,7 @@ A "normal" *Bluff* is when Alice clues Cathy with the intent to **lie to Bob**. 
 
 ### Callout Bluffs
 
-There are other types of *Bluffs* where Alice does not lie to Bob. Instead, it is possible for Alice to **lie to Cathy**, the player receiviong the clue. The *Bluffed* player must blind-play a card in order to demonstrate to Cathy that she was lied to. This is called a *Callout Bluff*, as the player who blind-plays is "calling out" the lie.
+There are other types of *Bluffs* where Alice does not lie to Bob. Instead, it is possible for Alice to **lie to Cathy**, the player receiving the clue. The *Bluffed* player must blind-play a card in order to demonstrate to Cathy that she was lied to. This is called a *Callout Bluff*, as the player who blind-plays is "calling out" the lie.
 
 A *Trash Bluff* is the best example of a *Callout Bluff*. *Ejections* and *Discharges* are also considered to be *Callout Bluffs*; the only difference from a regular *Callout Bluff* is that the blind-play comes from the *Second Finesse Position* or the *Third Finesse Position*, respectively.
 
