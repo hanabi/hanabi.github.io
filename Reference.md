@@ -1552,7 +1552,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 ## Level 5 - Rarely Used Strategies
 
 * The rest of the conventions and special moves are clustered into level 5. Level 5 strategies are not necessarily more complicated than level 4 strategies; it is just that since they rarely come up, it would be a waste of time for every player to know about every one.
-* Nonetheless, when playing with expert players, we generally play under the assumption that everyone knows about most of the conventions in this section. Since expert players have hundreds of games, they will probably have seen a rare situation before and will instinctively know what to do.
+* Nonetheless, when playing with expert players, we generally play under the assumption that everyone knows about most of the conventions in this section. Since expert players have hundreds (or thousands) of games, they will probably have seen a rare situation before and will instinctively know what to do.
 * Unlike the other levels, this section is split up into different subsections based on category.
 
 <br />
