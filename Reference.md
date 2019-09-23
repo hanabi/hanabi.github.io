@@ -754,7 +754,7 @@ While the other sections in this document contain lists of special "moves", this
 | 2        | *5 Stall* (cluing off-chop 5's)                                                       | ✔ | ✔ | ✔ | ✔
 | 3        | *Tempo Clue* (re-cluing a card to make it play)                                       | ❌ | ✔ | ✔ | ✔
 | 4        | *Locked Hand Save* (saving any card on chop)                                          | ❌ | ❌ | ✔ | ✔
-| 5        | *8 Clue Save* (saving any card off chop)                                              | ❌ | ❌ | ❌ | ✔
+| 5        | *8 Clue Save* (saving any non-fresh card)                                             | ❌ | ❌ | ❌ | ✔
 | 6        | Filling in extra info on clued cards                                                  | ❌ | ✔ | ✔ | ✔
 | 7        | *Hard Burn* (re-cluing an unplayable card that gives no new information, usually a 5) | ❌ | ✔ | ✔ | ✔
 
