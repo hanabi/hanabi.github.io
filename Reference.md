@@ -395,7 +395,7 @@ Note that in this user interface, players are holding their hands like they woul
 
 [Here is a handy flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/flowcharts/scream_discard_flowchart.png) for determining whether something is a *Scream Discard Chop Move* or a *Generation Discard*. (It also covers some more rare types of discards that are covered later on in this document, but you can ignore those for now.)
 
-### Tempo Clues (Re-cluing a Card to Play)
+### The Tempo Clue (Re-cluing a Card to Play)
 
 * *Tempo Clues* are defined as clues that touch no new cards. Their purpose is to get 1 or more cards played that already had a clue on them.
 * Note that *Tempo Clues* do **not** meet *Minimum Clue Value Principle*, so we do not generally perform them. However, in the following special circumstances, *Tempo Clues* have enough value to justify giving them:
@@ -409,20 +409,7 @@ Note that in this user interface, players are holding their hands like they woul
 * If a *Tempo Clue* touches multiple cards, it typically means that all the touched cards are playable. See the *Double Tempo Clue* section below.
 * Since they are so inefficient, *Tempo Clues* done outside of the special circumstances listed above are assigned a special meaning. See the *Tempo Clue Chop Moves* section below.
 
-### The Tempo Clue Chop Move
-
-* See the *Trash Chop Move* section above for an explanation on what a *Chop Move* is.
-* In general, *Tempo Clues* do not follow from *Minimum Clue Value Principle*, which states that a clue must get at least 1 new card played or save at least 1 new card from being discarded.
-* Thus, a *Tempo Clue* with no other purpose **must** save at least 1 new card, and the player should *Chop Move* their chop card.
-* For example, in a 3-player game:
-  * It is the first turn and nothing is played on the stacks.
-  * Alice clues red to Bob, which touches two cards on slot 1 and slot 2.
-  * Bob plays red 1 from slot 1. The red card in slot 2 could be red 2, red 3, red 4, or red 5.
-  * Cathy clues number 2 to Bob, which does not introduce any new cards, but it does "fill in" his slot 2 card.
-  * Bob now knows that he has exactly red 2 on slot 2 and that this was a *Tempo Clue*. Since it does not get any new cards and only get tempo on one card in total, he knows that he should also *Chop Move* his slot 5 card.
-* Naturally, *Tempo Clue Chop Moves* **do not** apply in the special situations listed above where natural *Tempo Clues* are allowed.
-
-### The Double Tempo Clue (Re-cluing 2+ Cards)
+### The Double Tempo Clue (Re-cluing 2+ Cards to Play)
 
 * Typically, when a *Tempo Clue* is given that touches two or more cards, it means that **all** of the cards touched are playable in order from left to right.
 * For example, in a 3-player game:
@@ -455,6 +442,19 @@ Note that in this user interface, players are holding their hands like they woul
   * Bob knows that this is a *Tempo Clue*, and plays red 2.
   * Cathy sees that if this was a *Tempo Clue Chop Move*, it would be saving the blue 1, which is useless. Thus, for both the red 2 and the red 5 to be playable, Cathy must have both the red 3 and the red 4 on *Finesse Position*.
   * Cathy blind-plays red 3.
+
+### The Tempo Clue Chop Move
+
+* See the *Trash Chop Move* section above for an explanation on what a *Chop Move* is.
+* In general, *Tempo Clues* do not follow from *Minimum Clue Value Principle*, which states that a clue must get at least 1 new card played or save at least 1 new card from being discarded.
+* Thus, a *Tempo Clue* with no other purpose **must** save at least 1 new card, and the player should *Chop Move* their chop card.
+* For example, in a 3-player game:
+  * It is the first turn and nothing is played on the stacks.
+  * Alice clues red to Bob, which touches two cards on slot 1 and slot 2.
+  * Bob plays red 1 from slot 1. The red card in slot 2 could be red 2, red 3, red 4, or red 5.
+  * Cathy clues number 2 to Bob, which does not introduce any new cards, but it does "fill in" his slot 2 card.
+  * Bob now knows that he has exactly red 2 on slot 2 and that this was a *Tempo Clue*. Since it does not get any new cards and only get tempo on one card in total, he knows that he should also *Chop Move* his slot 5 card.
+* Naturally, *Tempo Clue Chop Moves* **do not** apply in the special situations listed above where natural *Tempo Clues* are allowed.
 
 ### Avoiding Double Discards
 
