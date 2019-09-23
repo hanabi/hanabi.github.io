@@ -12,13 +12,13 @@ A *Trash Bluff* is the best example of a *Callout Bluff*. *Ejections* and *Disch
 
 ### Pseudo-Bluffs
 
-There are yet other kinds of *Bluffs* where **no-one (neither Bob nor Cathy) is lied to**. However, something strange about the clue that was given is taken as a cue for the next player to blind-play their *Finesse Position* card. This is called a *Pseudo-Bluff*.
+There are yet other kinds of *Bluffs* where **no-one (neither Bob nor Cathy) is lied to**. However, something strange about the clue is taken as a signal for the next player to blind-play their *Finesse Position* card. This is called a *Pseudo-Bluff*.
 
 A *Rank Choice Bluff* is an example of a *Pseudo-Bluff*.
 
 ### Pseudo-Finesse
 
-When a player happens to play a "matching" card into a *Pseudo-Bluff*, it is a *Pseudo-Finesse*. (This is different from a "normal" *Finesse*, because the player in *Bluff Seat* has no reason to believe that their card that they are playing is matching.
+When a player happens to play a "matching" card into a *Pseudo-Bluff*, it is a *Pseudo-Finesse*. (This is different from a "normal" *Finesse*, because the player in *Bluff Seat* has no reason to believe that the card that they are playing will necessarily match.
 
 ## Deferring Bluffs
 
