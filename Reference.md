@@ -398,48 +398,49 @@ Note that in this user interface, players are holding their hands like they woul
 ### Tempo Clues (Re-cluing a Card)
 
 * *Tempo Clues* are defined as clues that touch no new cards. Their purpose is to get 1 or more cards played that already had a clue.
-* Note that *Tempo Clues* do not meet *Minimum Clue Value Principle*. They are inefficient, and in Hanabi you want to be as efficient as possible. Thus, we agree that *Tempo Clues* are only allowed in the following special circumstances:
-  1. When the tempo clue gets 2 or more clued (or unclued) cards played
-  2. When the card is "out of order" (meaning that it is impossible for a *Prompt* to get the cards played)
-  3. When the card was *Chop Moved* and it is now playable
-  4. When the clue giver has a fully clued hand
-  5. When the clue giver has been *Screamed* at
-  6. When the clue giver is in a *Double Discard* situation (see *Avoiding Double Discards* below)
-  7. When the clue receiver has a fully clued hand
-  8. When the clue receiver is receiving a tempo clue on a card that unlocks someone else's hand
-  9. When there are 8 clues in the bank (a forced clue)
-  10. When there are 7 clues in the bank (since discarding would take the team to 8 clues, which is generally bad)
-  11. When in the *End-Game* / when pace is low
-* Since they are so inefficient, *Tempo Clues* that are done outside of these special circumstances are assigned a special meaning. See the *Tempo Clue Chop Moves* section below.
-* Sometimes, a *Tempo Clue* can touch multiple cards, which typically means that all of the cards touched are playable. See *The Double Tempo Clue* section below.
+* Thus, by the *Minimum Clue Value Principle*, they are inefficient, and in Hanabi you want to be as efficient as possible. So they must get value in another way. We agree that in the following special circumstances, *Tempo Clues* have enough value to justify them:
+  1. The clue gets an unclued card to play, such as with a *Bluff* (this is not actually a special circumstance as it satisfies the *Minimum Clue Value Principle*)
+  2. The clue gets 2 or more clued cards to play, such as by initiating a *Prompt*
+  3. The card is to the right of another "out of order" (meaning that it is impossible for a *Prompt* to get the cards played)
+  4. The card was *Chop Moved* and it is now playable
+  5. The clue giver is in a situation that allows or requires them to stall, and they cannot play a card or give a better clue:
+    * The clue giver has a fully clued hand and cannot discard (called a *Locked Hand*)
+    * The clue giver has been *Screamed* at
+    * The clue giver is in a *Double Discard* situation (see *Avoiding Double Discards* below)
+    * There are 8 clues in the bank (a forced clue)
+    * There are 7 clues in the bank (see *7 Clue Tempo Clue*, below)
+  6. The clue unlocks the hand of a player with a *Locked Hand* by allowing them to play (or, in rare cases, discard) a card (regardless of whether the clue is given to the player with a *Locked Hand* or not).
+  7. When in the *End-Game* / when pace is low
+* When a *Tempo Clue* touches multiple cards, the focus is on the leftmost unplayed card unless one of the cards was previously *Chop Moved*, in which case the focus is on the leftmost *Chop Moved* card.
+* If a *Tempo Clue* touches multiple cards but doesn't satisfy one of the criteria above, then it normally means that all the touched cards are playable. See the *Double Tempo Clue* section below.
+* If none of the above applies, a *Tempo Clue* is normally too inefficient to be allowed. As a result, if a *Tempo Clue* is given in these circumstances, it is give a special meaning to give it enough efficiency. See the *Tempo Clue Chop Moves* section below.
 
-### The Tempo Clue Chop Move
+### Avoiding Double Discards
 
-* See the *Trash Chop Move* section above for an explanation on what a *Chop Move* is.
-* In general, *Tempo Clues* do not follow from *Minimum Clue Value Principle*, which states that a clue must get at least 1 new card played or save at least 1 new card from being discarded.
-* Thus, a *Tempo Clue* with no other purpose **must** save at least 1 new card, and the player should *Chop Move* their chop card.
-* For example, in a 3-player game:
-  * It is the first turn and nothing is played on the stacks.
-  * Alice clues red to Bob, which touches two cards on slot 1 and slot 2.
-  * Bob plays red 1 from slot 1. The red card in slot 2 could be red 2, red 3, red 4, or red 5.
-  * Cathy clues number 2 to Bob, which does not introduce any new cards, but it does "fill in" his slot 2 card.
-  * Bob now knows that he has exactly red 2 on slot 2 and that this was a *Tempo Clue*. Since it does not get any new cards and only get tempo on one card in total, he knows that he should also *Chop Move* his slot 5 card.
-* Naturally, *Tempo Clue Chop Moves* **do not** apply in the special situations listed above where natural *Tempo Clues* are allowed.
+* If the player before you just discarded a card (say the red 4), and you don't see that card in anyone else's hand, there is a possibility that you could have that same card on your chop. In this example, if you discarded, both red 4's could be lost and your team would not be able to get a perfect score. This is called *Double Discarding*.
+* Since *Double Discarding* can "lose" the game, you should never *Double Discard* and give a clue instead! In this situation, if there are no normal *Play Clues* or *Save Clues* to give, you are allowed to give "stall" clues, like a *5 Stall*. If there are no *5 Stalls* to give, then you can just *Fill In* information on some clued card (and it shouldn't cause a *Finesse*).
+* Because of this convention, players do not have to be worried about the same card being on two chops in a row.
+* Normally, players in *Double Discard* situations are not able to give tricky-looking *Finesses*, because everyone else on the team will think that they might just be giving a stall clue. However, if it can be seen that there is a better clue available for them to give, then they are **not** giving a stall clue. Thus, players in *Double Discard* situations are still often able to make *Finesses* happen.
+* One common way of stalling in a *Double Discard* situation is to do a *5 Stall*. Note that the *Finesse Position Exception* applies to both *5 Stalls* in the *Early Game* and *5 Stalls* in *Double Discard* situations.
 
-### The Double Tempo Clue (Re-cluing 2+ Cards)
+### The 7 Clue Tempo Clue
 
-* Typically, when a *Tempo Clue* is given that touches two or more cards, it means that **all** of the cards touched are playable in order from left to right.
+* It is very bad if a player has 8 clues and no playable cards on their turn. They are not allowed to discard because of being at 8 clues, cannot play because there's a high chance of a misplay and it would leave the next player in the same situation, and therefore they must give a clue. They might use this to stall or to *Fill In* information.
+* Thus, when there are 7 clues available, a player with no playable cards can give a *Tempo Clue* rather than discarding. If the same clue was given at 8 clues, it wouldn't necessarily indicate that the card was playable.
+* A player at 7 clues cannot give any other stall clues, unless there's another reason they can do so, such as being in a *Double Discard* situation. Stall clues that don't indicate a card is playable are more clear if they're given at 8 clues when stalling is necessary, then at 7 clues when it isn't yet necessary. To avoid a risk of misinterpretation, this applies even when the stall clue would be given to the very next player.
+* *5 Stalls* are more valuable than *Tempo Clues*, so if a player at 7 clues can see that there is a *5 Stall* that could be given, they should normally prefer to discard rather than give a *Tempo Clue*, and let the player forced to clue give the *5 Stall* instead. This is not a hard rule, however, as only a player with no playable cards will be allowed to *5 Stall*, and it might be too difficult to predict if that will be the player holding the 5.
+
+### The Double Tempo Clue (Re-cluing 2+ Cards to Play)
+
+* When a *Tempo Clue* is given that touches two or more cards, and it does not have enough value to justify the *Tempo Clue* if it is a *Play Clue* on only one card, as discussed in the section on *Tempo Clues* above, then the clue means that **all** the cards touched are playable in order from left to right.
 * For example, in a 3-player game:
   * It is the first turn and nothing is played on the stacks.
   * Alice clues red to Bob, which touches slot 1, slot 2, and slot 3.
   * Bob plays red 1 from slot 1. The other two red cards in his hand could be nearly anything.
   * Cathy clues red to Bob, which does not introduce any new cards, but it does re-touch slot 2 and slot 3.
-  * Bob knows that this is a *Double Tempo* clue. Both must be playable in order, so he must have red 2 in slot 2, and red 3 in slot 3.
-* Note that the normal "play all the cards" interpretation does not apply in some special situations:
-  * when the clue unlocks a player's hand
-  * when the clue got 2+ cards played in total (using cards in someone else's hand)
-  * when the clue touched a *Chop Moved* card; in this situation, **only** the *Chop Moved* card is playable
-* As another special exception, the "play all the cards" interpretation does not apply when the second card is strictly not playable. In this situation, all players can see that since only one card is getting tempo, the interpretation of the clue should be a *Tempo Clue Chop Move*. For example, in a 3-player game:
+  * Bob knows that this is a *Double Tempo Clue*. Both must be playable in order, so he must have red 2 in slot 2, and red 3 in slot 3.
+* Because a *Double Tempo Clue* does not apply when a single *Tempo Clue* would get enough value to justify it, in addition to situations where the *Tempo Clue* serves another valid purpose such as to unlock a *Locked Hand* or to get a *Chop Moved* card to play, there is also no *Double Tempo Clue* when it causes another player to play a card. Either that card and the focus of the clue both play, or the clue is a *Bluff* which gets an unclued card to play, and either is enough to justify a *Tempo Clue*.
+* If a player receives a *Tempo Clue* to multiple cards, but all of the cards but one are known to be unplayable, then it cannot be a *Double Tempo Clue* because only one card plays. It will thus be interpreted as a *Tempo Clue Chop Move*. For example, in a 3-player game:
   * Red 1 is played on the stacks.
   * Green 4 is in the trash.
   * Bob has:
@@ -460,13 +461,18 @@ Note that in this user interface, players are holding their hands like they woul
   * Cathy sees that if this was a *Tempo Clue Chop Move*, it would be saving the blue 1, which is useless. Thus, for both the red 2 and the red 5 to be playable, Cathy must have both the red 3 and the red 4 on *Finesse Position*.
   * Cathy blind-plays red 3.
 
-### Avoiding Double Discards
+### The Tempo Clue Chop Move
 
-* If the player before you just discarded a card (say the red 4), and you don't see that card in anyone else's hand, there is a possibility that you could have that same card on your chop. In this example, if you discarded, both red 4's could be lost and your team would not be able to get a perfect score. This is called *Double Discarding*.
-* Since *Double Discarding* can "lose" the game, you should never *Double Discard* and give a clue instead! In this situation, if there are no normal *Play Clues* or *Save Clues* to give, you are allowed to give "stall" clues, like a *5 Stall*. If there are no *5 Stalls* to give, then you can just "fill-in" information on some clued card (and it shouldn't cause a *Finesse*).
-* Because of this convention, players do not have to be worried about the same card being on two chops in a row.
-* Normally, players in *Double Discard* situations are not able to give tricky-looking *Finesses*, because everyone else on the team will think that they might just be giving a stall clue. However, if it can be seen that there is a better clue available for them to give, then they are **not** giving a stall clue. Thus, players in *Double Discard* situations are still often able to make *Finesses* happen.
-* One common way of stalling in a *Double Discard* situation is to do a *5 Stall*. Note that the *Finesse Position Exception* applies to both *5 Stalls* in the *Early Game* and *5 Stalls* in *Double Discard* situations.
+* See the *Trash Chop Move* section above for an explanation on what a *Chop Move* is.
+* As discussed in the section on *Tempo Clues*, a *Tempo Clue* must normally provide its value in some other way 
+* A *Tempo Clue* that is not justified by either one of the situations listed in the *Tempo Clues* section or by being a *Double Tempo Clue* **must** therefore save at least 1 new card, and so the player should *Chop Move* their chop card.
+* For example, in a 3-player game:
+  * It is the first turn and nothing is played on the stacks.
+  * Alice clues red to Bob, which touches two cards on slot 1 and slot 2.
+  * Bob plays red 1 from slot 1. The red card in slot 2 could be red 2, red 3, red 4, or red 5.
+  * Cathy clues number 2 to Bob, which does not introduce any new cards, but it does "fill in" his slot 2 card.
+  * Bob now knows that he has exactly red 2 on slot 2 and that this was a *Tempo Clue*. Since it does not get any new cards and only get tempo on one card in total, he knows that he should also *Chop Move* his slot 5 card.
+* *Tempo Clue Chop Move* has the lowest priority of all *Tempo Clue* interpretations, and so if there is a better interpretation as mentioned above, the player receiving the clue must not chop move.
 
 <br />
 
@@ -748,22 +754,32 @@ While the other sections in this document contain lists of special "moves", this
 
 * In certain special situations, everyone understands that a player might be giving a "stall" clue. However, there are limits - they are not allowed to just clue anything they want. These are the specific clues that they are allowed to give along with the priority of each clue:
 
-| Priority | Type of Clue | Early Game (Severity 1) | Double Discard (Severity 2) | Locked Hand (Severity 3) | 8 Clues (Severity 4)
-| -------- | ------------ | ----------------------- | --------------------------- | ------------------------ | --------------------
-| 1        | Normal *Play Clues* or *Save Clues*                                                   | ✔ | ✔ | ✔ | ✔
-| 2        | *5 Stall* (cluing off-chop 5's)                                                       | ✔ | ✔ | ✔ | ✔
-| 3        | *Tempo Clue* (re-cluing a card to make it play)                                       | ❌ | ✔ | ✔ | ✔
-| 4        | *Locked Hand Save* (saving any card on chop)                                          | ❌ | ❌ | ✔ | ✔
-| 5        | *8 Clue Save* (saving any card off chop)                                              | ❌ | ❌ | ❌ | ✔
-| 6        | Filling in extra info on clued cards                                                  | ❌ | ✔ | ✔ | ✔
-| 7        | *Hard Burn* (re-cluing an unplayable card that gives no new information, usually a 5) | ❌ | ✔ | ✔ | ✔
+| Priority | Type of Clue | Early Game (Severity 1) | 7 Clues (Severity 2) | Risky Discard (Severity 3)  | Locked Hand (Severity 4) | 8 Clues (Severity 5)
+| -------- | ------------ | ----------------------- | -------------------- | --------------------------- | ------------------------ | --------------------
+| 1        | Normal *Play Clues* or *Save Clues*                                                   | ✔ | ✔ | ✔ | ✔ | ✔
+| 2        | *5 Stall* (cluing off-chop 5's)                                                       | ✔ | ❌ | ✔ | ✔ | ✔
+| 3        | *Tempo Clue* (re-cluing a card to make it play)                                       | ❌ | ✔ | ✔ | ✔ | ✔
+| 4        | *Locked Hand Save* (saving any card on chop)                                          | ❌ | ❌ | ❌ | ✔ | ✔
+| 5        | *8 Clue Save* (saving any card off chop)                                              | ❌ | ❌ | ❌ | ❌ | ✔
+| 6        | *Fill In* (re-cluing an unplayable clued card to give more information about it)      | ❌ | ❌ | ✔ | ✔ | ✔
+| 7        | *Hard Burn* (re-cluing an unplayable card that gives no new information, usually a 5) | ❌ | ❌ | ✔ | ✔ | ✔
 
-### Locked Hands & The Locked Hand Save (L.H.S. / LHS) (Severity 3 Stalling)
+* Severity 3 is any situation where a player is, by convention, not allowed to discard because there is a risk that it might be a critical card. Most commonly this is because of *Double Discard Avoidance* or a *Scream Discard*. It does not apply when the player is worried about discarding a critical card but has no specific convention preventing a discard.
+* The *Finesse Priority Exception* applies to all stall situations where a *5 Stall* is allowed.
+* Stall clues (anything in row 2 or lower) are not allowed when the player has a valid play.
+* Care must be taken when both giving and interpreting clues in a situation that forces a stall (severity 3 or higher). There may be multiple possible interpretations of a given clue in different rows, such as distinguishing between a *Play Clue* and a *Locked Hand Save* or an *8 Clue Save*, or between a *Tempo Clue* and a *Hard Burn*. Players must apply *Schrödinger's Cat Principle* and only treat a clue as having a higher priority interpretation when a lower-priority interpretation is completely ruled out.
+** For instance, Alice has a *Locked Hand* and clues Cathy that his previously-untouched chop card is blue. Is it a *Play Clue* or a *Locked Hand Save*? Cathy must look around for any other *Play Clues*, *Save Clues*, *5 Stalls*, early *Fix Clues*, or *Tempo Clues* that Alice could have given. She can only interpret it as a play clue if he can see one. If she sees an unclued off-chop 5 in Bob's hand, she knows that Alice would have given a *5 Stall* rather than a *Locked Hand Save*, so it must be a *Play Clue*.
+** If only some players are able to see that there is a higher-priority clue, Alice must be careful about this and may not give a clue that will result in a misplay as a result. For instance, if the clue to Cathy is actually a *Finesse* or *Bluff* that requires Bob to blind play, she cannot give it if the only clues that would otherwise prevent a *Locked Hand Save* are in Bob's hand. If she did, Bob would not see a higher-priority clue and interpret it as a *Locked Hand Save*. Cathy would then go on to misplay.
+** In difficult cases, this may require multiple levels of thinking. For instance, if the only higher-priority clue that Cathy can see is a *Finesse* clue to Eve that would cause Donald to blind-play, she will know that, unless there is another clue to her hand that takes priority, Donald would not recognize the *Finesse* as a *Play Clue* and would not blind-play. Thus, she cannot conclude that she was given a *Play Clue* unless she later learns that there was a clue to her hand that would have ensured that Donald knew that the clue to Eve would have been a *Finesse*. If the clue to Cathy would itself be a *Finesse* through Bob, Alice must account that Bob might not be able to see that Donald would blind-play into a *Finesse* into Eve, and so on.
+* A player is not allowed to break the stalling priority rules because she thinks that it will have a higher value. For instance, if Alice could sees that a *Locked Hand Save* would allow a *Prompt* or *Finesse* that would not otherwise be possible, she cannot give it if she can see a possible *Tempo Clue* or if she's actually in *Double Discard Avoidance*. Stall situations are hard enough to reason through when players are following the conventions.
 
-* Generally speaking, it is a bad situation when someone's hand gets fully clued. This is also known as being *Locked*, and it should be avoided if possible. However, sometimes it cannot be helped, like when a player draws three 5's in a row.
+### Locked Hands & The Locked Hand Save (L.H.S. / LHS) (Severity 4 Stalling)
+
+* Generally speaking, it is a bad situation when someone's hand gets fully clued and they don't have a known play. This is also known as being *Locked*, and it should be avoided if possible. However, sometimes it cannot be helped, like when a player draws three 5's in a row.
 * A player with a fully clued hand may give a low-value clue because they are not sure that they can play anything (and they can't discard because their hand is fully clued). Similar to a *Double Discard* situation, players should not read too closely into any clues given during this state.
-* If the team is out of clues and someone's hand is fully clued, then you **have** to discard to generate a clue for them. Similarly, if there is only 1 clue left, you cannot steal it from them.
 * Players with a *Locked Hand* gain the special ability to save any card on chop. This is called a *Locked Hand Save* if it saves a card that would otherwise not be legal to save (like some one-away from playable card that is not in the discard pile yet). However, players can only do *Locked Hand Saves* if there are no higher priority clues available. See the "Allowable Stall Clues" section above.
+* If the team is out of clues and the next player's hand is fully clued, then you **must** discard to generate a clue for them. Similarly, if there is only 1 clue left, you **cannot** steal it from them. The *only* exception is if you wish to force an *Anxiety Play*, as described below. By extension, if you are two seats before a player with a *Locked Hand*, you must account for this. For instance, with 1 clue left, you cannot give a *Bluff* clue to the player with the *Locked Hand* unless they can *Anxiety Play*, because the bluffed player will apply the *Guide Principle* to conclude that your clue will unlock the hand and blind-play, and then the *Locked Hand* will be left with 0 clues.
+* Because *Locked Hands* are so bad, players are allowed to give *Tempo Clues* in order to unlock them.
 
 ### The Anxiety Play (Forcing a Locked Player to Play)
 
@@ -771,7 +787,7 @@ While the other sections in this document contain lists of special "moves", this
 * A better way to signal this information is to deliberately leave them at 0 clues. By convention, this means that one of their cards is actually playable. If there is more than one option, then they should know that the left-most is playable. (This follows from *Left-Most Playable Principle*.)
 * This is called an *Anxiety Play* because you are putting the *Locked* player in a "do or die" situation.
 
-### Clues Given While at 8 Clues & The 8 Clue Save (Severity 4 Stalling)
+### Clues Given While at 8 Clues & The 8 Clue Save (Severity 5 Stalling)
 
 * At the beginning of the game, you start with 8 clues. This section only applies to situations where you climb to 8 clues in the middle of the game.
 * A player who has a turn with 8 clues in the bank may give a low-value clue because they are not sure that they can play anything (and they can't discard because the game does not allow you to discard while at 8 clues). Similar to a *Double Discard* or a *Locked Hand* situation, players should not read too closely into any clues given during this state.
