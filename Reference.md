@@ -453,8 +453,6 @@ Note that in this user interface, players are holding their hands like they woul
 * If the player before you just discarded a card (say the red 4), and you don't see that card in anyone else's hand, there is a possibility that you could have that same card on your chop. In this example, if you discarded, both red 4's could be lost and your team would not be able to get a perfect score. This is called *Double Discarding*.
 * Since *Double Discarding* can "lose" the game, you should never *Double Discard* and give a clue instead! In this situation, if there are no normal *Play Clues* or *Save Clues* to give, you are allowed to give "stall" clues, like a *5 Stall*. If there are no *5 Stalls* to give, then you can just "fill-in" information on some clued card (and it shouldn't cause a *Finesse*).
 * Because of this convention, players do not have to be worried about the same card being on two chops in a row.
-* Normally, players in *Double Discard* situations are not able to give tricky-looking *Finesses*, because everyone else on the team will think that they might just be giving a stall clue. However, if it can be seen that there is a better clue available for them to give, then they are **not** giving a stall clue. Thus, players in *Double Discard* situations are still often able to make *Finesses* happen.
-* One common way of stalling in a *Double Discard* situation is to do a *5 Stall*. Note that the *Finesse Position Exception* applies to both *5 Stalls* in the *Early Game* and *5 Stalls* in *Double Discard* situations.
 
 <br />
 
@@ -748,7 +746,8 @@ While the other sections in this document contain lists of special "moves", this
 
 * For example, if a player could perform a *5 Stall* (priority 2), then they are not allowed to perform a *Tempo Clue* (priority 3). Or, if a player could perform a *Tempo Clue* (priority 3), they are not allowed to *Hard Burn* (priority 7), and so forth.
   * However, remember that the *Finesse Position Exception* applies to *5 Stalls*. (This is covered in the "5 Stall" section above.)
-* Obviously, stall clues are not allowed when the player has a valid play.
+* What is the point of having a complicated table with defined priorities? Well, normally, players in stalling situations are not able to give tricky-looking *Finesses*, because everyone else on the team will think that they are giving a stall clue. However, if it can be seen that there is a better clue available for them to give, then everyone can know that they are **not** giving a stall clue. Thus, because of this priority table, players in stalling situations are still often able to make *Finesses* happen.
+* Obviously, stall clues are not allowed when the player has a known playable card in their hand.
 
 ### Locked Hands & The Locked Hand Save (L.H.S. / LHS) (Severity 3 Stalling)
 
