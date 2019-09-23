@@ -422,26 +422,6 @@ Note that in this user interface, players are holding their hands like they woul
   * when the clue unlocks a player's hand
   * when the clue got 2+ cards played in total (using cards in someone else's hand)
   * when the clue touched a *Chop Moved* card; in this situation, **only** the *Chop Moved* card is playable
-* As another special exception, the "play all the cards" interpretation does not apply when the second card is strictly not playable. In this situation, all players can see that since only one card is getting tempo, the interpretation of the clue should be a *Tempo Clue Chop Move*. For example, in a 3-player game:
-  * Red 1 is played on the stacks.
-  * Green 4 is in the trash.
-  * Bob has:
-    * a green 4 on slot 3 with no clues on it yet (on chop and critical)
-    * a red 2 on slot 4 with a 2 clue on it
-    * a red 5 on slot 5 with a 5 clue on it
-  * Alice clues red to Bob, which re-touches his slot 4 card and his slot 5 card, "filling" both of them in.
-  * Bob knows that this is a *Tempo Clue*, and plays red 2.
-  * In most cases, since two cards were re-touched, they should both be playable. However, Bob knows that the red 5 is strictly not playable right now. Thus, since the clue did not get any new cards and only got tempo on one card in total, he knows that he should also *Chop Move* his slot 3 card.
-* Building on the previous example, if the other players can see that the card being *Chop Moved* is useless, it implies a *Finesse* on the touched cards that are not strictly playable right now. For example, in a 3-player game:
-  * Red 1 and blue 1 are played on the stacks.
-  * Bob has:
-    * a red 5 on slot 2 with a 5 clue on it
-    * a red 2 on slot 4 with a red clue on it
-    * a blue 1 on slot 5 with no clues on it yet (on chop)
-  * Alice clues red to Bob, which re-touches his slot 4 card and "fills in" the 5 as red 5.
-  * Bob knows that this is a *Tempo Clue*, and plays red 2.
-  * Cathy sees that if this was a *Tempo Clue Chop Move*, it would be saving the blue 1, which is useless. Thus, for both the red 2 and the red 5 to be playable, Cathy must have both the red 3 and the red 4 on *Finesse Position*.
-  * Cathy blind-plays red 3.
 
 ### The Tempo Clue Chop Move
 
@@ -455,6 +435,17 @@ Note that in this user interface, players are holding their hands like they woul
   * Cathy clues number 2 to Bob, which does not introduce any new cards, but it does "fill in" his slot 2 card.
   * Bob now knows that he has exactly red 2 on slot 2 and that this was a *Tempo Clue*. Since it does not get any new cards and only get tempo on one card in total, he knows that he should also *Chop Move* his slot 5 card.
 * Naturally, *Tempo Clue Chop Moves* **do not** apply in the special situations listed above where natural *Tempo Clues* are allowed.
+* Normally, when two cards are retouched with a clue, it is a *Double Tempo Clue* and the player should play both cards. However, this interpretation does not apply if the second card is strictly not playable. In this situation, all players can see that since only one card is getting tempo, the interpretation of the clue should be a *Tempo Clue Chop Move*.
+* For example, in a 3-player game:
+  * Red 1 is played on the stacks.
+  * Green 4 is in the trash.
+  * Bob has:
+    * a green 4 on slot 3 with no clues on it yet (on chop and critical)
+    * a red 2 on slot 4 with a 2 clue on it
+    * a red 5 on slot 5 with a 5 clue on it
+  * Alice clues red to Bob, which re-touches his slot 4 card and his slot 5 card, "filling" both of them in.
+  * Bob knows that this is a *Tempo Clue*, and plays red 2.
+  * In most cases, since two cards were re-touched, they should both be playable. However, Bob knows that the red 5 is strictly not playable right now. Thus, since the clue did not get any new cards and only got tempo on one card in total, he knows that he should also *Chop Move* his slot 3 card.
 
 ### Avoiding Double Discards
 
