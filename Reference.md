@@ -395,23 +395,19 @@ Note that in this user interface, players are holding their hands like they woul
 
 [Here is a handy flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/flowcharts/scream_discard_flowchart.png) for determining whether something is a *Scream Discard Chop Move* or a *Generation Discard*. (It also covers some more rare types of discards that are covered later on in this document, but you can ignore those for now.)
 
-### Tempo Clues (Re-cluing a Card)
+### Tempo Clues (Re-cluing a Card to Play)
 
-* *Tempo Clues* are defined as clues that touch no new cards. Their purpose is to get 1 or more cards played that already had a clue.
-* Note that *Tempo Clues* do not meet *Minimum Clue Value Principle*. They are inefficient, and in Hanabi you want to be as efficient as possible. Thus, we agree that *Tempo Clues* are only allowed in the following special circumstances:
+* *Tempo Clues* are defined as clues that touch no new cards. Their purpose is to get 1 or more cards played that already had a clue on them.
+* Note that *Tempo Clues* do **not** meet *Minimum Clue Value Principle*, so we do not generally perform them. However, in the following special circumstances, *Tempo Clues* have enough value to justify giving them:
   1. When the tempo clue gets 2 or more clued (or unclued) cards played
-  2. When the card is "out of order" (meaning that it is impossible for a *Prompt* to get the cards played)
+  2. When the card is "out of order" (meaning that it is impossible for a *Prompt* to get the card played)
   3. When the card was *Chop Moved* and it is now playable
   4. When the clue giver has a fully clued hand
-  5. When the clue giver has been *Screamed* at
-  6. When the clue giver is in a *Double Discard* situation (see *Avoiding Double Discards* below)
-  7. When the clue receiver has a fully clued hand
-  8. When the clue receiver is receiving a tempo clue on a card that unlocks someone else's hand
-  9. When there are 8 clues in the bank (a forced clue)
-  10. When there are 7 clues in the bank (since discarding would take the team to 8 clues, which is generally bad)
-  11. When in the *End-Game* / when pace is low
-* Since they are so inefficient, *Tempo Clues* that are done outside of these special circumstances are assigned a special meaning. See the *Tempo Clue Chop Moves* section below.
-* Sometimes, a *Tempo Clue* can touch multiple cards, which typically means that all of the cards touched are playable. See *The Double Tempo Clue* section below.
+  5. When the clue giver is in a situation that requires them to stall (e.g. the player is locked, etc.)
+* When a *Tempo Clue* touches multiple cards, the focus is on the leftmost card.
+  * The exception is if one of the cards was previously *Chop Moved*. In that case, the focus is on the leftmost *Chop Moved* card.
+* If a *Tempo Clue* touches multiple cards, it typically means that all the touched cards are playable. See the *Double Tempo Clue* section below.
+* Since they are so inefficient, *Tempo Clues* done outside of the special circumstances listed above are assigned a special meaning. See the *Tempo Clue Chop Moves* section below.
 
 ### The Tempo Clue Chop Move
 
