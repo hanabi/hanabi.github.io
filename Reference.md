@@ -2377,7 +2377,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### The 5 Color Discharge
 
-* This convention only applies in the *Early Game*.
 * The *Unknown Trash Ejection* has precedence over the *5 Color Ejection*, so it is not possible to perform a *5 Color Ejection* if there are any cards of that color that are already played or already discarded.
 * However, in the situation where there **are** cards of that color that are already played or already discarded, it is possible to perform the move as a *Discharge* instead of an *Ejection*.
 * For example, in 3-player game:
