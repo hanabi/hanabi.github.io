@@ -398,7 +398,7 @@ Note that in this user interface, players are holding their hands like they woul
 
 ### The Tempo Clue (Re-cluing a Card to Play)
 
-* *Tempo Clues* are defined as clues that touch no new cards. Their purpose is to get 1 or more cards played that already had a clue on them.
+* *Tempo Clues* are defined as clues that "get" no new cards. Their purpose is to get 1 or more cards played that already had a clue on them.
 * Note that *Tempo Clues* do **not** meet *Minimum Clue Value Principle*, so we do not generally perform them. However, in the following special circumstances, *Tempo Clues* have enough value to justify giving them:
   1. When the tempo clue gets 2 or more clued (or unclued) cards played
   2. When the card is "out of order" (meaning that it is impossible for a *Prompt* to get the card played)
