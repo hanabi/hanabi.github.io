@@ -2910,7 +2910,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Bob instead knows that this is a *Positional Clue*, indicating that someone should play their slot 4 card.
   * Bob sees that Cathy's slot 4 card is not a null card, so he plays his slot 4 card as the null 1.
 * *Positional Clues* do **not** have to be given in *Bluff Seat*. They can be given by anyone, since the other players will see that the clue does not apply to them.
-  * Subsequently, it is illegal to give an *Ambiguous Positional Clue*.
+* Subsequently, *Positional Clues* must be played into as soon as possible, similar to a *Finesse*. If one player ignores the *Positional Clue*, then the next player will blind-play something as an *Ambiguous Positional Clue*.
 * For example, in a 3-player null game:
   * On the first turn of the game, Alice clues Cathy about one 4.
   * Bob knows that normally, this would be a *4's Double Bluff*. But *Double Bluffs* are turned off in variants with a null suit.
