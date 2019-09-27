@@ -185,7 +185,7 @@ Note that in this user interface, players are holding their hands like they woul
 
 <img src="img/intermediate/playing_multiple_1s.png" height="150" />
 
-* In the above screenshot, Alice clues 1's to Bob, which touches three 1s on slot 2, slot 3, and slot 4.
+* In the above screenshot, on the first turn of the game, Alice clues number 1 to Bob, which touches three 1s on slot 2, slot 3, and slot 4.
 * From *Good Touch Principle*, Bob knows that he can now play all 3 of these cards.
 * Bob should play the slot 4 card first, and then the slot 3 card, and then the slot 2 card.
 
