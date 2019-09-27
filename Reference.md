@@ -308,6 +308,7 @@ Note that in this user interface, players are holding their hands like they woul
 
 ### The Trash Chop Move
 
+* See the *Chop Move* section above for an explanation on what a *Chop Move* is.
 * In the middle of a game, if all of the 1's have been played already, and someone clues a 1, this is quite strange. (From *Good Touch Principle*, players are not supposed to touch cards that have already been played.) In this situation, the 1 is considered "trash".
 * The clue must have some deeper meaning. We agree that it means that the cards to the right of the trash are important. The point of the clue was to give the player a safe discard.
 * However, in addition to giving a safe discard, it should also *Chop Move* **all** of the cards to the right of the trash.
@@ -338,6 +339,7 @@ Note that in this user interface, players are holding their hands like they woul
 
 ### Chop Moves & New Clues
 
+* See the *Chop Move* section above for an explanation on what a *Chop Move* is.
 * Once a card has been *Chop Moved* and is no longer in danger of being discarded, it is treated as an already-clued card with regards to new clues given to that hand. For example, in a 3-player game:
   * All of the 1's have been played on the stacks.
   * Bob has a completely unclued hand.
@@ -351,6 +353,7 @@ Note that in this user interface, players are holding their hands like they woul
 
 ### Chop Moves & Prompts
 
+* See the *Chop Move* section above for an explanation on what a *Chop Move* is.
 * *Chop Moves* interact with *Prompts* & *Finesses* in a potentially confusing way. *Chop Moved* cards should **not** be played into *Prompts*, even though they are imagined to have an "invisible" clue on them. For example:
   * All the 1's are played on the stacks.
   * Bob has no cards clued in his hand, but he is *Chop Moved* for a mystery card on his slot 5.
@@ -361,7 +364,7 @@ Note that in this user interface, players are holding their hands like they woul
 
 ### The 5's Chop Move
 
-* See the *Trash Chop Move* section above for an explanation on what a *Chop Move* is.
+* See the *Chop Move* section above for an explanation on what a *Chop Move* is.
 * Normally, we are only allowed to save 5's on chop (unless it is done with a *5 Stall* clue, which can happen in the *Early Game* and other "stalling" situations).
 * So, if a number 5 clue is performed on a 5 that is not on chop, and it is **not** a stalling situation, then it will normally look like a *Play Clue* on that 5.
 * However, if the 5 is **one-away** from chop (or, if two or more 5's are clued and the right-most 5 is one-away from chop), then we agree that it has a special meaning, and that the clue is **not** a *Play Clue* at all.
@@ -375,7 +378,7 @@ Note that in this user interface, players are holding their hands like they woul
 
 ### The Scream Discard Chop Move (Deliberately Discarding Instead of Playing)
 
-* See the *Trash Chop Move* section above for an explanation on what a *Chop Move* is.
+* See the *Chop Move* section above for an explanation on what a *Chop Move* is.
 * The *Chop Move* outlined above is a tool to save multiple cards with one clue. However, sometimes you may not have a clue at all. One way to solve this situation is with a special kind of discard.
 * Typically, discarding is a last resort. So, if you have a known playable card in your hand, you can send a powerful message to your teammate by discarding instead. This is called a *Scream Discard*. Since your teammate expected you to play the card, it is like screaming at them to let them know that things are very bad.
 * The player being "screamed at" should permanently move their chop by one position.
@@ -394,7 +397,7 @@ Note that in this user interface, players are holding their hands like they woul
 
 ### A Scream Discard Flowchart
 
-[Here is a handy flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/flowcharts/scream_discard_flowchart.png) for determining whether something is a *Scream Discard Chop Move* or a *Generation Discard*. (It also covers some more rare types of discards that are covered later on in this document, but you can ignore those for now.)
+[Here is a handy flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/flowcharts/scream_discard_flowchart.png) for determining whether something is a *Scream Discard Chop Move* or a *Generation Discard*. (It also covers some more rare types of moves that are covered later on in this document, but you can ignore those for now.)
 
 ### The Tempo Clue (Re-cluing a Card to Play)
 
@@ -426,7 +429,7 @@ Note that in this user interface, players are holding their hands like they woul
 
 ### The Tempo Clue Chop Move
 
-* See the *Trash Chop Move* section above for an explanation on what a *Chop Move* is.
+* See the *Chop Move* section above for an explanation on what a *Chop Move* is.
 * In general, *Tempo Clues* do not follow from *Minimum Clue Value Principle*, which states that a clue must get at least 1 new card played or save at least 1 new card from being discarded.
 * Thus, a *Tempo Clue* with no other purpose **must** save at least 1 new card, and the player should *Chop Move* their chop card.
 * For example, in a 3-player game:
