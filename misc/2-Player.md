@@ -65,18 +65,29 @@
   * Bob *Hard Burns* again by cluing number 5 to Alice.
   * Alice clues number 5 to Bob, saving a 5 on chop. Good thing that Bob stalled!
 
-### The Double Scream Blind-Play
+### The Scream Blind-Play (Blind-Playing Chop)
 
-* Sometimes, a player will have 0 clues, but needs to save the chop of the next player. Normally, they would resort to the *Scream Discard Chop Move*. If they have no playable cards in their hand, they can instead use the *Scream Blind-Play* to accomplish the same thing.
-* However, if a *Scream Blind-Play* is used when a normal *Scream Discard Chop Move* would have worked, then the player must be trying to communicate something extra.
-* In this situation, the next player should *Chop Move* twice.
+* If a player has no clues and needs to save the next person's chop, normally they will perform a *Scream Discard*. However, this requires a known-playable card in order to work. What if a player has no clues and needs to save the next person's chop when they have no playable cards?
+* In this situation, players can instead send a powerful "emergency" message by blind-playing a card. Randomly blind-playing a card is dangerous, as it could be a critical card, so the safest card to blind-play is the chop.
+* By doing this, it "screams" at the next player, accomplishing the same thing as a *Scream Discard*.
+
+### The Double Scream Blind-Play (Blind-Playing Chop)
+
+* Normally, a *Scream Blind-Play* is only performed as a last resort. Namely, the following two things must be true:
+  a) the team is at 0 clues
+  b) the player had no playable cards (otherwise, they could perform a *Scream Discard*)
+* What if a player disregards these things and does a *Scream Blind-Play* anyway? It must **really** be an emergency. In this situation, the next player should *Chop Move* twice.
 
 ### The Skipped Discard Chop Move
 
-* If the team is at two strikes, players are not able to use the *Scream Blind-Play* (or *Double Scream Blind-Play) because then they would probably strike out and lose the game.
+* If the team is at two strikes, players are not able to use the *Scream Blind-Play* (or *Double Scream Blind-Play*) because then they would probably strike out and lose the game.
 * In this situation, players can resort to the *Skipped Discard Chop Move* instead. Instead of discarding their chop, they discard a card one-away from chop. This would normally indicate that they are *Chop Moved*. However, if no *Chop Move* has occurred, the other player will be able to tell that an emergency is occurring.
-* If one card is skipped over, the other player should *Chop Move* one time. If two cards are skipped over, then the other player should *Double Chop Move*. And so forth.
 * Players are only allowed to use the *Skipped Discard Chop Move* if the team is at two strikes because using it risks losing the game by discarding some critical card.
+
+### The Double Skipped Discard Chop Move
+
+* Normally, the *Skipped Discard* is when the player skips over one card. This signifies that the next player should *Chop Move* one card.
+* If two cards are skipped over, then the next player should *Double Chop Move*. If three cards are skipped over, then the next player should *Triple Chop Move*. And so forth.
 
 ### The Scream Push (Anxiety with a Chop Move)
 
