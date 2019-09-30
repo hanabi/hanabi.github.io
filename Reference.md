@@ -2211,32 +2211,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * If a player has a known playable card and two known trash cards, and they discard the oldest trash card instead of playing, then that is both a *Scream Discard Chop Move* and a *Trash Order Chop Move* at the same time.
 * In this situation, the next player should *Chop Move* twice. (This is the composition of a *Scream Discard Chop Move* and a *Trash Order Chop Move*.)
 
-### The Scream Blind-Play (Blind-Playing Chop)
-
-* The *Scream Discard* is a powerful last-resort move that "screams" at the next player, telling them that their chop is unsafe. This is useful because you can do it even when the team is currently at 0 clues. However, you can only perform this move if you have a known playable card in your hand. In some situations, you will need to "scream" at the next player even when you do not have a known playable card.
-* If you can't give a clue, as a last resort you can send a signal to your teammate by blind-playing a card. You don't want to accidentally blind-play a critical card, so the safest card to blind-play is your chop.
-* By doing this, it "screams" at the next player, accomplishing the same thing as a Scream Discard, namely:
-  * they should *Chop Move* a card
-  * if there are 1 or more clues in the bank, they are not allowed to discard on their next turn
-* If you see someone blind-play their chop and it works, your first thought may be that it could be a *Scream Blind-Play*. However, it could also be a *Negative Blind-Play* (which is covered later), so it is important to not confuse these two strategies.
-* Note that a *Stop Blind-Play* (listed below) is almost exactly the same as this move, but it has a completely different interpretation. Whether or not a move is a *Scream Blind-Play* or a *Stop Blind-Play* is entirely dependent on the context of the situation.
-
-### The Stop Blind-Play (Blind-Playing Chop)
-
-* Sometimes, due to a mistake or a complicated situation, you can see that the next player after you is going to misplay a critical card. Additionally, there may be no "fix" clue that you can give that will remedy the situation, or perhaps you are currently at 0 clues.
-* If you can't give a clue, as a last resort you can send a signal to your teammate by blind-playing a card. You don't want to accidentally blind-play a critical card, so the safest card to blind-play is your chop.
-* By doing this, it sends an emergency signal to the next player, warning them to **stop** whatever it is they were about to do.
-* If you see someone blind-play their chop and it works, your first thought may be that it could be a *Stop Blind-Play*. However, it could also be a *Negative Blind-Play* (which is covered later), so it is important to not confuse these two strategies.
-* Note that a *Scream Blind-Play* (listed above) is almost exactly the same as this move, but it has a completely different interpretation. Whether or not a move is a *Scream Blind-Play* or a *Stop Blind-Play* is entirely dependent on the context of the situation.
-
-### The Stop Discard
-
-* Normally, when someone discards with a known play and the next player already has something to do, it is an *Echo Scream Discard*.
-* However, it could also be the case that the next player after that does not have a playable/critical card on chop. Or, alternatively, it could be the case that **everyone** has something to do on their turn. Thus, discarding is normally considered a mistake.
-* If the player who is discarding is not making a mistake, then they are communicating that the very next player with a "known play" should **stop** what they are doing, because the card is not actually playable.
-* This is very similar to a *Stop Blind-Play*, but since the player has a known play, there is no reason to use up one of the strikes when the same message can be communicated in a safer way.
-* If there is a card that could potentially be playable on on chop, then the *Echo Scream Discard* interpretation takes priority over the *Stop Discard* interpretation.
-
 ### The Skipped Scream Discard
 
 * In emergency situations, players should perform *Scream Discards* and *Generation Discards* to save important cards. These two moves (along with their derivatives, the *Echo Scream Discard* and the *Composition Discard*), should be enough to "solve" almost every tricky situation that could ever come up.
@@ -2575,29 +2549,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Bob discards the card and it is revealed to be a blue 1.
   * Cathy blind-plays her *Finesse Position* card, and it is a blue 1.
   * Normally, Cathy knows that Bob's discard would only promise the blue 1 (and not promise the rainbow 1). However, since the game literally started on the turn before the clue was given, there is no possible way that Bob could have figured out the exact identity of the card in such a short amount of time. Thus, Cathy knows that she must also have the rainbow 1 on her *Second Finesse Position*.
-
-### The Dump Truck
-
-* When someone blind-plays their chop, there is usually an emergency happening and it was either a *Scream Blind-Play* or a *Stop Blind-Play*.
-* However, if someone blind-plays their chop and there was no emergency, it must be something else.
-* This means that one player has a fully playable hand from left to right. Like a dump truck, they are expected to unload everything onto the table.
-* Most times, all cards in the hand will be unclued. But if not, the player is still expected to play everything from left to right in order.
-* In the middle of the game, it is relatively safe to blind-play your chop card, since it is known to not be a critical/playable card.
-* In the beginning of the game, it may not be safe to blind-play your chop card. In this situation, you may see that multiple players have the opportunity to initiate the *Dump Truck*. Normally, it is best to let the player immediately before the blind-player do it. If they have an unsafe chop, then the 2nd player before the blind-player should do it, and so forth.
-
-### The Distributed Dump Truck
-
-* This convention only applies to 5-player games.
-* In the *Dump Truck* convention, a blind-play of a chop card induces one person to blind-play their whole hand from left to right.
-* Normally, a *Dump Truck* is not ambiguous - only one player can have a fully-playable hand, so it is clear what is going on.
-* However, what if no players have a fully-playable hand? This must be communicating a different strategy. We agree that this should mean a *Quadruple Bluff*.
-* For example, in 5-player game:
-  * Near the beginning of the game, Alice blind-plays her chop and it fails to play.
-  * Bob interprets this as a *Dump Truck*, and blind-plays his *Finesse Position* card. It is a red 1 and it successfully plays.
-  * Cathy sees that this is **not** a *Dump Truck* - Bob does not have a fully-playable hand. Thus, this move must have some other meaning.
-  * Cathy can see that Donald and Emily have playable cards on their *Finesse Position*. Thus, Cathy knows that this is a *Distributed Dump Truck*, and plays her *Finesse Position* card. It is a red 1 and it successfully plays.
-  * Donald can see what is going on, so he plays blue 1 from his *Finesse Position*.
-  * Emily plays blue 2 from her *Finesse Position*.
 
 <br />
 
@@ -3296,8 +3247,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 | The Occupied Play Clue & The Occupied Finesse | Zamiel
 | The Echo Scream Discard | Florrat & Zamiel
 | The Bad Touch Double Finesse & The Bad Touch Double Bluff | Sankala
-| The Dump Truck | Ahming
-| The Stop Discard | Zamiel
 | Ejection | Razvogor & Zamiel & Sankala
 | Order Chop Move | Zamiel
 | Skipped Order Chop Move | Zamiel & Libster
@@ -3335,8 +3284,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 | The Full Finesse | NoMercy
 | The Double Positional Misplay | Libster
 | Order Ejection & Reverse Order Ejection | Zamiel & q
-| The Scream Push | Zamiel
-| The Double Scream Blind-Play | Zamiel
 | The Bad Touch Finesse | Zamiel
 | The Skipped Discard Chop Move | Libster
 | The Mismatch Finesse | Zamiel
