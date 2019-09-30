@@ -3175,7 +3175,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 | Convention Name | Inventor
 | --- | ---
 | The 9 First Principles | Duneaught
-| General Principles | Zamiel & Florrat
 | 2 Saves | Hyphen-ated & Duneaught
 | Chop-Focus | Zamiel & Hyphen-ated
 | The Layered Finesse | Antizoubilamaka
