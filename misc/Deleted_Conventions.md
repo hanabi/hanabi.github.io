@@ -136,7 +136,7 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
   * if there are 1 or more clues in the bank, they are not allowed to discard on their next turn
 * If you see someone blind-play their chop and it works, your first thought may be that it could be a *Scream Blind-Play*. However, it could also be a *Negative Blind-Play* (which is covered later), so it is important to not confuse these two strategies.
 * Note that a *Stop Blind-Play* (listed below) is almost exactly the same as this move, but it has a completely different interpretation. Whether or not a move is a *Scream Blind-Play* or a *Stop Blind-Play* is entirely dependent on the context of the situation.
-* This convention was deleted due to only being used in 2-player games.
+* This convention was deleted due to lack of use (outside of 2-player games).
 
 ### The Stop Blind-Play (Blind-Playing Chop)
 
@@ -155,6 +155,15 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
 * This is very similar to a *Stop Blind-Play*, but since the player has a known play, there is no reason to use up one of the strikes when the same message can be communicated in a safer way.
 * If there is a card that could potentially be playable on on chop, then the *Echo Scream Discard* interpretation takes priority over the *Stop Discard* interpretation.
 * This convention was deleted due to lack of use.
+
+### The Skipped Scream Discard
+
+* In emergency situations, players should perform *Scream Discards* and *Generation Discards* to save important cards. These two moves (along with their derivatives, the *Echo Scream Discard* and the *Composition Discard*), should be enough to "solve" almost every tricky situation that could ever come up.
+* However, in an extremely difficult variant, or in a situation where a previous player has blundered, it might fall to one player to save the next player's critical chop card. In this situation, they might not be able to perform a *Scream Discard*, because they might not have any playable cards. And they might not be able to perform a *Scream Blind-Play*, because if the team is at 2 strikes, then the game would immediately end.
+* In this situation, the player can discard a card one-away from their chop as a *Skipped Scream Discard*. This convention is normally only used in 2-player games, because it is very unsafe, risking the discard of a critical card.
+* It is common for players to accidently *Chop Move* a card. Thus, the *Skipped Discard Chop Move* interpretation should almost never be entertained, simply because of how rarely it is actually needed.
+* Furthermore, this move should never be performed if there is a non-expert player playing or if it is likely to be interpreted as a mistake.
+* This convention was deleted due to lack of use (outside of 2-player games).
 
 ### The Dump Truck
 
