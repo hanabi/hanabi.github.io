@@ -3189,7 +3189,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 | The Gentleman's Discard | Duneaught
 | The Layered Gentleman's Discard | Duneaught
 | The Tempo Clue Chop Move | Zamiel
-| Discard Elimination & The Elimination Blind-Play | Aridolomo (with revisions from Hyphen-ated & Duneaught)
+| Discard Elimination & The Elimination Blind-Play | Aridolomo & Hyphen-ated & Duneaught
 | Immediate Double Clue | Duneaught
 | The Elimination Finesse | Zamiel & Ahming
 | The Elimination Riding Deduction | Duneaught
