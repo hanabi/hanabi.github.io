@@ -3255,7 +3255,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 | Certain Discard Duplication Promise | Zamiel & Libster
 | The Unnecessary Trash Finesse/Bluff Chop Move | Libster
 | Surreptitious Self-Finesse | Sankala
-| Rainbow 1oE Saves | Florrat & Libster
+| Dark Rainbow Saves | Florrat & Libster & Zamiel
 | Early 5 Chop Move | Libster
 | The 5 Pull | Libster
 | The 5 Pull Promise | Libster
