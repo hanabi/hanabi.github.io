@@ -155,3 +155,28 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
 * This is very similar to a *Stop Blind-Play*, but since the player has a known play, there is no reason to use up one of the strikes when the same message can be communicated in a safer way.
 * If there is a card that could potentially be playable on on chop, then the *Echo Scream Discard* interpretation takes priority over the *Stop Discard* interpretation.
 * This convention was deleted due to lack of use.
+
+### The Dump Truck
+
+* When someone blind-plays their chop, there is usually an emergency happening and it was either a *Scream Blind-Play* or a *Stop Blind-Play*.
+* However, if someone blind-plays their chop and there was no emergency, it must be something else.
+* This means that one player has a fully playable hand from left to right. Like a dump truck, they are expected to unload everything onto the table.
+* Most times, all cards in the hand will be unclued. But if not, the player is still expected to play everything from left to right in order.
+* In the middle of the game, it is relatively safe to blind-play your chop card, since it is known to not be a critical/playable card.
+* In the beginning of the game, it may not be safe to blind-play your chop card. In this situation, you may see that multiple players have the opportunity to initiate the *Dump Truck*. Normally, it is best to let the player immediately before the blind-player do it. If they have an unsafe chop, then the 2nd player before the blind-player should do it, and so forth.
+* This convention was deleted due to lack of use.
+
+### The Distributed Dump Truck
+
+* This convention only applies to 5-player games.
+* In the *Dump Truck* convention, a blind-play of a chop card induces one person to blind-play their whole hand from left to right.
+* Normally, a *Dump Truck* is not ambiguous - only one player can have a fully-playable hand, so it is clear what is going on.
+* However, what if no players have a fully-playable hand? This must be communicating a different strategy. We agree that this should mean a *Quadruple Bluff*.
+* For example, in 5-player game:
+  * Near the beginning of the game, Alice blind-plays her chop and it fails to play.
+  * Bob interprets this as a *Dump Truck*, and blind-plays his *Finesse Position* card. It is a red 1 and it successfully plays.
+  * Cathy sees that this is **not** a *Dump Truck* - Bob does not have a fully-playable hand. Thus, this move must have some other meaning.
+  * Cathy can see that Donald and Emily have playable cards on their *Finesse Position*. Thus, Cathy knows that this is a *Distributed Dump Truck*, and plays her *Finesse Position* card. It is a red 1 and it successfully plays.
+  * Donald can see what is going on, so he plays blue 1 from his *Finesse Position*.
+  * Emily plays blue 2 from her *Finesse Position*.
+* This convention was deleted due to lack of use.
