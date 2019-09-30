@@ -10,14 +10,15 @@
 
 ## Basic Conventions
 
-### No Priority
+### Priority Change
 
-* *Priority Prompts*, *Priority Finesses*, and so forth are all "turned off".
+* *Priority Prompts*, *Priority Finesses*, and so forth are all "turned off". Instead, if a player plays a card without *Priority*, the other player should write *Priority Elimination Notes* on their hand for the promised card.
 
 ### One-Away Saves
 
 * In non-2-player games, *Save Clues* must be given to cards that are on chop.
 * In 2-player games, *Save Clues* can **also** be given to cards that are 1-away from chop. This gives players the ability to save 2 critical cards in a row.
+* Players must only do *One-Away* saves if they are necessary. Thus, a clue that looks like a *One-Away* save can retroactively turn into a *Play Clue* if it is not followed up with an additional *Save Clue*.
 
 ### No 5's Chop Move
 
