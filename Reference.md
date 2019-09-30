@@ -1773,7 +1773,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Bob, Cathy, and Donald blind-play their *Finesse Position* cards.
   * Emily knows that when the number 5 clue was given, the red 5 was four-away from playable, and all of the other 5's were three-away from playable. This means that normally, Emily would mark her 5 as any 5 except for red 5. (This is because only cards that are three-away from playable are valid *Triple Bluff* targets.)
   * However, since the *5's Triple Bluff* convention exists, Emily knows that any 5 can be used to initiate a *Triple Bluff*. Thus, her 5 can be **any** 5 in the game, including red 5.
-* Finally, note that sometimes when a 5 is clued is color as a *Play Clue*, it could be a *5's Color Ejection*. However, if the next player can see that the two subsequent players have playable cards on their *Finesse Position*, then the *Triple Bluff* takes precedence over a *5's Color Ejection*.
+* Finally, note that sometimes when a 5 is clued is color as a *Play Clue*, it could be a *5 Color Ejection*. However, if the next player can see that the two subsequent players have playable cards on their *Finesse Position*, then the *Triple Bluff* takes precedence over a *5 Color Ejection*.
 
 ### The No-Information Double Finesse & The No-Information Double Bluff
 
@@ -2275,15 +2275,19 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * Normally, if a player gives a color *Play Clue* to a 5, it would mean that it is a *Finesse* on the 5 and all of the cards leading up to the 5 are playable.
 * If the very next player sees that **they will only have to blind-play one card in their hand to fuffill the *Finesse***, then they should assume that it is a *Finesse* and blind-play their *Finesse Position*.
 * If the very next player sees that they would have to blind-play two or more cards in their hand to fuffill the *Finesse*, then a *Finesse* is unlikely. Instead, players agree that this signals an *Ejection* and that the next player should play their *Second Finesse Position*.
-  * The normal stipulation of "if it could be a *Reverse Finesse*, it is" always applies, even if a player would have to blind-play two or more cards.
+  * The exception for the "two or more blind plays" rule is when the next player sees that it could be a *Reverse Finesse*. The normal rule of "if it could be a *Reverse Finesse*, it is" **always applies**, even if a player would have to blind-play two or more cards.
 * After the blind-play, the player who received the clue will know that they must have a 5.
 * For example, in a 3-player game:
   * It is the first turn and nothing is played on the stacks.
   * Alice clues red to Cathy, touching a red 5 on slot 3.
   * Bob knows that normally, this would be a *Finesse* on the 5, indicating to Bob that he has the red 1, the red 2, the red 3, and the red 4. However, since this calls for more than one blind card, he knows that *5 Color Ejection* should take precedence, so he knows to play his *Second Finesse Position* card. It is a red 1 and it successfully plays.
-  * From Cathy's perspective, if Bob had played his *Finesse Position* card in response to the red clue, then Cathy would know that it was a *Finesse* or a *Bluff*. But since Bob blind-played his *Second Finesse Position* card, it must be the 5. Cathy marks the red card as red 5.
-* *5 Color Ejections* are **only possible** if there is only one brand new card introduced with the color clue. For example, on the first turn of the game, it would be illegal to perform a *5 Color Ejection* where a red clue is given to Cathy that touches a red 5 on slot 1 and a red 4 on slot 2.
-  * As an exception to the above rule, in dual-color variants, it is possible to perform a *5 Color Ejection* if all of the newly-introduced and non-focused cards are of a different suit. For example, on the first turn of the game, Alice can perform a *5 Color Ejection* by cluing red to Cathy and touching a red 5 on slot 1, a rainbow 2 on slot 2, and a rainbow 3 on slot 3.
+  * From Cathy's perspective, if Bob had played his *Finesse Position* card in response to the red clue, then Cathy would know that it was a *Finesse* or a *Bluff*. But since Bob blind-played his *Second Finesse Position* card, it must be a *5 Color Ejection*. Cathy marks the red card as red 5.
+* In the previous example, a *5 Color Ejection* was preformed with the 5 being the only brand new card introduced with the color clue. However, it is also possible to perform a *5 Color Ejection* with more than one card introduced. Normally, this kind of thing would signal an *Out-of-Order Finesse*, but the *5 Color Ejection* interpretation should take precedence as long as the next player would have to blind-play two or more cards.
+* For example, in a 3-player game:
+  * It is the first turn and nothing is played on the stacks.
+  * Alice clues red to Cathy, touching a red 5 on slot 2 and a red 2 on slot 3.
+  * Bob knows that normally, this would be an *Out-of-Order Finesse* on the 5, indicating to Bob that he has the red 1, the red 3, and the the red 4. However, since this calls for more than one blind card, he knows that *5 Color Ejection* should take precedence, so he knows to play his *Second Finesse Position* card. It is a red 1 and it successfully plays.
+  * From Cathy's perspective, if Bob had played his *Finesse Position* card in response to the red clue, then Cathy would know that it was a *Finesse* or a *Bluff*. But since Bob blind-played his *Second Finesse Position* card, it must be a *5 Color Ejection*. Cathy marks the red card as red 5.
 * The *5 Color Ejection* convention conflicts with *Unknown Trash Ejection* convention. In the case of a conflict, the *Unknown Trash Ejection* interpretation has precedence. (See the *5 Color Discharge* below.)
 
 ### Junk Ejection (with Trash)
