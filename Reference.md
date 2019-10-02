@@ -2343,12 +2343,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * *Discharge* is similar to *Ejection*, except instead of blind-playing the *Second Finesse Position* card, the player plays the *Third Finesse Position* card.
 * Certain types of **really** bad clues cause a *Discharge* to occur on the very next player.
 
-### Unknown Trash Discharge
-
-* If an *Unknown Trash Ejection* touches multiple cards, only the focus of the clue must be trash.
-* Thus, if a *Unknown Trash Ejection*-style clue touches two or more trash cards, then it must be a *Discharge* instead.
-* *Unknown Trash Discharges* are "turned off" in the *Early Game* (since they conflict with *5 Color Discharges*).
-
 ### The 5 Color Discharge
 
 * The *Unknown Trash Ejection* has precedence over the *5 Color Ejection*, so it is not possible to perform a *5 Color Ejection* if there are any cards of that color that are already played or already discarded.
