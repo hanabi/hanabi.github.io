@@ -206,12 +206,12 @@ Note that in this user interface, players are holding their hands like they woul
 * As an important exception, to the *Fresh 1's Rule*, *Chop-Focus* **overrides** the *Fresh 1's Rule*.
 * For example, in a 3-player game:
   * No cards are played on the stacks.
-  * Alice discards a red 4.
-  * Alice gets clued about four 1's on slots 1, 2, 3, and 5.
-  * Alice knows that the correct order to play all of the 1's in is 5, 1, 3, 2:
-    * Alice knows that normally, you are supposed to play freshly-drawn 1's before 1's that were present in your starting hand. However, *Chop-Focus* overrides this rule, so she knows that when the time comes, the slot 5 card (her chop) should play first.
-    * After that, she uses the *Fresh 1's Rule*, and play the 1 in slot 1 next.
-    * After that, she will play the rest of the 1's from oldest to newest, so she will play slot 3 and then slot 2.
+  * Bob discards a red 4.
+  * Alice clues number 1 to Bob, touching four 1's on slots 1, 2, 3, and 5.
+  * Bob knows that the correct order to play all of the 1's in is 5, 1, 3, 2:
+    * Bob knows that normally, you are supposed to play freshly-drawn 1's before 1's that were present in your starting hand. However, *Chop-Focus* overrides this rule, so he knows that the slot 5 card (his chop) should play first.
+    * After that, he uses the *Fresh 1's Rule*, and play the 1 in slot 1 next.
+    * After that, he will play the rest of the 1's from oldest to newest (since they were in his starting hand), so he will play slot 3 and then slot 2.
 
 ### The Prompt + Finesse
 
