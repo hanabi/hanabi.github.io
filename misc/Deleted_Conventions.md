@@ -118,6 +118,13 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
 * You wouldn't normally do this since it is only a 1-for-1 instead of a 2-for-1. However, it can be useful if you want to touch a card that you wouldn't otherwise be able to, like a one-away from playable card. Alternatively, you may strongly want to give ancillary information to some other card.
 * This convention was deleted due to lack of use.
 
+### Unknown Trash Discharge
+
+* If an *Unknown Trash Ejection* touches multiple cards, only the focus of the clue must be trash.
+* Thus, if a *Unknown Trash Ejection*-style clue touches two or more trash cards, then it must be a *Discharge* instead.
+* *Unknown Trash Discharges* are "turned off" in the *Early Game* (since they conflict with *5 Color Discharges*).
+* This convention was deleted since it conflicts with *5 Color Ejection*.
+
 ### 4 Stalls & Early 4's Chop Move & 4 Pull
 
 * This convention only applies to the *Multi-Fives* variants.
