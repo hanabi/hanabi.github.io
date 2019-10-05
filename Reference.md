@@ -1375,7 +1375,7 @@ Priority does not always apply. Some common exceptions are listed below.
   * In a 3 player game, Alice has a blue 2 on chop that needs to be saved.
   * Bob has 2 unknown blue cards. No blue cards have been played yet, so from Bob's perspective, each blue card has a 1/5 chance of being the blue 2.
   * Cathy has 2 unknown 2's. One 2 has been played already, so from Cathy's perspective, each 2 has a 1/4 chance of being the blue 2.
-  * Thus, it is Cathy's responsibility to save the blue 2.
+  * Thus, it is Bob's responsibility to save the blue 2.
 
 ### Context Clues & The Stale 1's Clue
 
