@@ -2240,6 +2240,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * If the very next player sees that they would have to **blind-play two or more cards** in their hand to fulfill the *Finesse*, then a *Finesse* is unlikely. Instead, players agree that this signals an *Ejection* and that the next player should play their *Second Finesse Position*.
   * The exception for the "two or more blind plays" rule is when the next player sees that it could be a *Reverse Finesse*. The normal rule of "if it could be a *Reverse Finesse*, it is" **always applies**, even if a player would have to blind-play two or more cards.
 * After the blind-play, the player who received the clue will know that they must have a 5.
+* Note that *5 Color Ejection* only applies if the 5 did not have any clues on it already. If a 5 is re-clued, it signals a *Finesse* on all of the cards leading up to the 5.
 * For example, in a 3-player game:
   * It is the first turn and nothing is played on the stacks.
   * Alice clues red to Cathy, touching a red 5 on slot 3.
