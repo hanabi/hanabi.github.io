@@ -1711,7 +1711,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * It is the first turn and nothing is played on the stacks.
   * Alice clues Donald red, which touches a red 3 as a *Play Clue*.
   * Bob goes next and assumes that it is a *Double Self-Finesse* - he has the red 1 and red 2 in his two newest slots. Thus, he blind-plays his left-most and it is red 1, as expected.
-  * Cathy goes next. Cathy sees that Donald does **not** have red 2 in his *Second Finesse Position*, so she must have the red 2. Cathy blind-plays her left-most card. However, it is **not** the red 2, but the blue 1.
+  * Cathy goes next. Cathy sees that Bob does **not** have red 2 in his *Second Finesse Position*, and no one else she sees has it in *Finesse Position* either, so she must have the red 2. Cathy blind-plays her left-most card. However, it is **not** the red 2, but the blue 1.
   * Bob now knows he does not have the red 2 anymore, since Cathy blind-played.
   * Cathy now knows that since two blind-plays happened in a row, she does **not** have the red 2 and that she was *Bluffed*.
   * At first, Donald thought that the red card in his hand was red 1 (as a *Play Clue*).
