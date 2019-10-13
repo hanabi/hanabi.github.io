@@ -1708,15 +1708,15 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 * Sometimes, you see that two players in a row have playable *Finesse Position* cards. However, they are unrelated, so you can't get them both played with a *Double Finesse*. In this situation, by performing a clue that looks like a *Double Finesse*, you can get the first card played like a normal *Finesse* and the second card like a *Bluff*.
 * For example, in a 4-player game:
-  * It is the first turn and nothing is played on the stacks.
-  * Alice clues Donald red, which touches a red 3 as a *Play Clue*.
-  * Bob goes next and assumes that it is a *Double Self-Finesse* - he has the red 1 and red 2 in his two newest slots. Thus, he blind-plays his left-most and it is red 1, as expected.
-  * Cathy goes next. Cathy sees that Bob does **not** have red 2 in his *Second Finesse Position*, and no one else she sees has it in *Finesse Position* either, so she must have the red 2. Cathy blind-plays her left-most card. However, it is **not** the red 2, but the blue 1.
-  * Bob now knows he does not have the red 2 anymore, since Cathy blind-played.
-  * Cathy now knows that since two blind-plays happened in a row, she does **not** have the red 2 and that she was *Bluffed*.
-  * At first, Donald thought that the red card in his hand was red 1 (as a *Play Clue*).
-  * After Bob blind-played, Donald thought that the red card in his hand was red 2 (as a *Finesse*).
-  * After Cathy blind-played, Donald knows that he must have the red 3 (as a *Double Half Bluff*).
+  * Red 1 is played on the stacks.
+  * Alice clues Donald red, which touches a red 4 as a *Play Clue*.
+  * Bob goes next and assumes that it is a *Double Self-Finesse* - he has the red 2 and red 3 in his two newest slots. Thus, he blind-plays his left-most and it is red 2, as expected.
+  * Cathy goes next. Cathy sees that Bob does **not** have red 3 in his *Second Finesse Position*, and no one else she sees has it in *Finesse Position* either, so she must have it. Cathy blind-plays her left-most card. However, it is **not** the red 3, but the blue 1.
+  * Bob now knows he does not have the red 3 anymore, since Cathy blind-played.
+  * Cathy now knows that since two blind-plays happened in a row, she does **not** have the red 3 and that she was *Bluffed*.
+  * At first, Donald thought that the red card in his hand was red 2 (as a *Play Clue*).
+  * After Bob blind-played, Donald thought that the red card in his hand was red 3 (as a *Finesse*).
+  * After Cathy blind-played, Donald knows that he must have the red 4 (as a *Double Half Bluff*).
 * Normally, players are only allowed to perform *Bluffs* while sitting in *Bluff Seat*. The *Double Half Bluff* is one of the few exceptions to the rule. (It is allowed because the lie still resolves "immediately", which satisfies *Good Lie Principle*.)
 
 ### The Double Bluff
