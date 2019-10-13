@@ -1721,7 +1721,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### The Double Bluff
 
-* Similar to a *Double Half Bluff*, it is also possible to get 2 cards played in a row that are completely unrelated.
+* Similar to a *Double Half Bluff*, it is also possible to get 2 cards played in a row that are completely unrelated. It is distinct from *Double Half Bluff* because the clued card does *not* match the first card that is blind-played.
 * For example, in a 4-player game:
   * Red 1 is currently played on the stacks.
   * Alice clues Donald red, which touches a red 4 as a *Play Clue*.
