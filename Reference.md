@@ -1715,8 +1715,8 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Bob now knows he does not have the red 2 anymore, since Cathy blind-played.
   * Cathy now knows that since two blind-plays happened in a row, she does **not** have the red 2 and that she was *Bluffed*.
   * At first, Donald thought that the red card in his hand was red 1 (as a *Play Clue*).
-  * After Alice blind-played, Donald thought that the red card in his hand was red 2 (as a *Finesse*).
-  * After Bob blind-played, Donald knows that he must have the red 3 (as a *Double Half Bluff*).
+  * After Bob blind-played, Donald thought that the red card in his hand was red 2 (as a *Finesse*).
+  * After Cathy blind-played, Donald knows that he must have the red 3 (as a *Double Half Bluff*).
 * Normally, players are only allowed to perform *Bluffs* while sitting in *Bluff Seat*. The *Double Half Bluff* is one of the few exceptions to the rule. (It is allowed because the lie still resolves "immediately", which satisfies *Good Lie Principle*.)
 
 ### The Double Bluff
