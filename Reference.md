@@ -2838,8 +2838,9 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * a *Discharge*
   * a *Rank Choice Finesse*
   * a *Rank Choice Bluff*
-  * a *Trash Push*
+  * a *5 Pull*
   * a *Trash Pull*
+  * a *Trash Push*
   * a clue that has no "normal" conventional interpretation
 * *Positional Clues* are clues that are meant to either be a *Save Clue* or a *Play Clue* on the specific slot number:
   * Number 1 through 5 correspond to the respective slot.
