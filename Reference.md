@@ -3144,6 +3144,12 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * Normally, when a playable card is clued again, it is interpreted as an *Double Play Ejection* on the very next player.
 * However, in the *Duck* variants, it instead means to play slot 1 as a *Known Bluff*.
 
+### Throw It in a Hole Conventions
+
+* These conventions only apply to *Throw It in a Hole* variants.
+* *Bluffs* are turned off.
+* It is okay to perform a *Trash Finesse* for the final card of a particular rank or suit, but *Trash Bluffs* are turned off.
+
 ### Empty Clues
 
 * *Empty Clues* are clues that touch no cards in a hand. On Hanabi Live, each game has the option to allow *Empty Clues*, and we typically disallow this option since it makes the game too easy.
