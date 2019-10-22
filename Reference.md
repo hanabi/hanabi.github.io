@@ -2631,7 +2631,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 #### The Free Choice Finesse
 
-* When performing a *Prompt* by touching a sole rainbow card, the player doing the clue may have a free choice between multiple colors. In other words, there may exist multiple colors that will **only** touch the rainbow card.
+* When performing a *Prompt* by touching only rainbow cards, the player doing the clue may have a free choice between multiple colors. In other words, there may exist multiple colors that will **only** touch the rainbow cards.
 * If a player has a free choice to choose the color that matches the intended *Prompt* target but instead deliberately chooses a different color, this signals that it is actually a *Finesse* instead of a *Prompt*.
 * For example, in a 3-player game:
   * It is the first turn and nothing is played on the stacks.
