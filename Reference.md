@@ -1786,7 +1786,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Bob, Cathy, and Donald blind-play their *Finesse Position* cards.
   * Emily knows that when the number 5 clue was given, the red 5 was four-away from playable, and all of the other 5's were three-away from playable. This means that normally, Emily would mark her 5 as any 5 except for red 5. (This is because cards that are three-away-from-playable are normally used to *Triple Bluff*.)
   * However, since the *5's Triple Bluff* convention exists, Emily knows that any 5 can be used to initiate a *Triple Bluff*. Thus, her 5 can be **any** 5 in the game, including red 5.
-* Finally, note that when a fresh 5 is clued with color as a *Play Clue*, it normally triggers a *5 Color Ejection*. However, if the next player can see that the two subsequent players have playable cards on their *Finesse Position*, then the *Triple Bluff* interpretation should take precedence over a *5 Color Ejection*.
 
 ### The No-Information Double Finesse & The No-Information Double Bluff
 
