@@ -2649,12 +2649,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * It is possible to use the *Free Choice* convention to communicate to a teammate that you want a *Finesse* instead of a *Prompt* in order to get them to play an unrelated playable card from their *Finesse Position*.
 * Like a normal *Bluff*, after a *Free Choice Bluff*, the player who blind-played does not necessarily have the "matching" card in their hand.
 
-#### The Suboptimal Color Bluff
-
-* Often, when giving a color clue to a Rainbow or dual-color card, you want to pick a color that will "fill-in" ancillary cards in the hand as to give the maximum amount of information.
-* If a suboptimal color is chosen that does not fill in ancillary cards, it follows from *High Value Principle* that there must be a reason, so you should blind-play your *Finesse Position* card.
-* This move is contextual in that you don't want to make it appear as if the clued card is currently unplayable. Thus, it is best performed as a *Reverse Bluff* or a *Long-Distance Bluff*.
-
 #### Dual-Color 3 Suit Inversion
 
 * This convention only applies to the *Dual-Color (3 Suits)* variant.
