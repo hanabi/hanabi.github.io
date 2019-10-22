@@ -44,7 +44,7 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
   * historical / contextual information about the card (derived from moves that teammates performed earlier on in the game)
 * In such a scenario, the clue will look like a *Reverse Finesse* and then next person will misplay their *Finesse Position* card.
 * After the misplay, the person who received the clue is to treat it like a normal *Misplay Chop Move*, and chop move all the cards to the right of the clued card.
-* This convention was deleted since it was never used.
+* This convention was deleted since it was hardly ever used.
 
 ### Priority in Multi-Color Variants
 
@@ -56,6 +56,13 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
   * However, since the blue stack is the to the left of the rainbow stack, Alice knows that for the purposes of calculating *Priority*, she has to assume that her blue card is the blue 1.
   * Thus, even if Alice really does have the rainbow 3, playing the red 2 will still cause a *Priority Finesse* to occur on the red 3.
 * This convention was deleted with the rework to make *Priority* only apply to globally-known cards.
+
+#### The Suboptimal Color Bluff
+
+* Often, when giving a color clue to a Rainbow or dual-color card, you want to pick a color that will "fill-in" ancillary cards in the hand as to give the maximum amount of information.
+* If a suboptimal color is chosen that does not fill in ancillary cards, it follows from *High Value Principle* that there must be a reason, so you should blind-play your *Finesse Position* card.
+* This move is contextual in that you don't want to make it appear as if the clued card is currently unplayable. Thus, it is best performed as a *Reverse Bluff* or a *Long-Distance Bluff*.
+* This convention was deleted since it was hardly ever used.
 
 ### The Speculation Prompt & The Speculation Finesse
 
