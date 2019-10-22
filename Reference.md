@@ -1290,20 +1290,25 @@ Priority does not always apply. Some common exceptions are listed below.
 * When a player who is in a *Double Discard* situation discards anyway with an obvious clue to give (such as an off-chop 5), it implies that they **see** the other copy of the card, and were not *Double Discarding* at all.
 * Thus, when this occurs, you should write *Elimination Notes* on your entire hand for that card.
 
-### The Early 5's Chop Move & The 5 Pull
+### The Early 5's Chop Move
 
 * In the *Early Game*, players are only allowed to clue an off-chop 5 if there is nothing left to do. (Or, as a special exception, if there is only one *Play Clue* to give to a card that happens to be on *Finesse Position*.)
 * Thus, if someone clues a 5 and there **is** something else to do, they are performing a special move.
-* If the 5 is one-away from chop, then they are performing an *Early 5's Chop Move*. This functions in the same way a normal *5's Chop Move* does (except it was done in the *Early Game*, which isn't normally possible).
+* If the 5 is one-away from chop, then they are performing an *Early 5's Chop Move*. This functions in the exact same way a normal *5's Chop Move* does (except it was done in the *Early Game*, which is not normally possible).
+
+### The 5 Pull
+
+* In the *Early Game*, players are only allowed to clue an off-chop 5 if there is nothing left to do. (Or, as a special exception, if there is only one *Play Clue* to give to a card that happens to be on *Finesse Position*.)
+* Thus, if someone clues a 5 and there **is** something else to do, they are performing a special move.
 * If the 5 is two or more away from chop, then they are performing a *5 Pull*. A *5 Pull* causes the player to blind-play the card to the right of the 5. For the player receiving the clue, it is understood that the 5 is not actually related to the blind-play. This is why it is called a *Pull* instead of a *Finesse* or a *Bluff*.
 * *5 Pulls* are typically done to 5's that are in slot 1. But, for example, you can also clue a 5 in slot 2 in order to get a blind-play on slot 3.
 * Even though they involve playing a blind card, a *5 Pull* should be treated as a *Delayed Play Clue*. This means that the blind card could play through any existing touched cards.
 * *5 Pulls* also take precedence over *Finesses* and *Bluffs*. For example:
   * It is the *Early Game*.
-  * On the stacks, red 3 is played.
-  * A red 5 is clued with number 5 on slot 1. (There are other *Play Clues* to give, so this is **not** an off-chop 5's stall clue.)
-  * Normally, this would imply a *Finesse* on a red 4.
-  * However, since *5 Pulls* override *Finesses*, as long as there is a playable card to the right of the 5, then NO-ONE is promised the red 4.
+  * Red 3 is played on the stacks.
+  * Alice clues Cathy number 5, touching a red 5 on slot 1. (There are other *Play Clues* for Alice to give, so this is **not** a *5 Stall*.)
+  * Normally, Bob would think that this is a *Finesse* and that he should blind-play his *Finesse Position* card as the red 4.
+  * However, *5 Pulls* take precedence over *Finesses*. Bob can see that there is a playable blue 1 to the right of the 5, so no-one is promised the red 4.
 * Since *5 Pulls* take precedence over *Finesses*, it is even possible to *5 Pull* a 4 without promising that the 5 is the matching suit.
 * Normal *Play Clues* and *Delayed Play Clues* take priority over *Early 5's Chop Moves* and *5 Pulls* (as long as they don't cause any blind cards to play). For example:
   * It is the *Early Game*.
