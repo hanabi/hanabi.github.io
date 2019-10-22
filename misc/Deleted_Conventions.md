@@ -62,7 +62,7 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
 * Often, when giving a color clue to a Rainbow or dual-color card, you want to pick a color that will "fill-in" ancillary cards in the hand as to give the maximum amount of information.
 * If a suboptimal color is chosen that does not fill in ancillary cards, it follows from *High Value Principle* that there must be a reason, so you should blind-play your *Finesse Position* card.
 * This move is contextual in that you don't want to make it appear as if the clued card is currently unplayable. Thus, it is best performed as a *Reverse Bluff* or a *Long-Distance Bluff*.
-This convention was deleted because it was hardly ever used and it increased complexity.
+* This convention was deleted because it was hardly ever used and it increased complexity.
 
 ### The Speculation Prompt & The Speculation Finesse
 
