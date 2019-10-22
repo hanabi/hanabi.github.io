@@ -1776,10 +1776,12 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * The example in the previous section was a "normal" *Triple Bluff* because the red 5 was three-away-from-playable. However, players also explicitly agree that a *Triple Bluff* target can be **any** 5, even if it is not exactly three-away-from-playable. (This is the extension of the *3 Bluff* convention and the *4's Double Bluff* convention.)
 * For example, in a 5-player game:
   * All the 1's are played on the stacks except for red 1.
-  * Alice clues number 5 to Emily, touching a (brand new) red 5 on slot 1 as a *Play Clue*. (This cannot be a *5 Pull* because the team is not in the *Early Game*.)
+  * Emily has a red 5 that has a number 5 clue on it. (It was *5 Saved* in the *Early Game*.)
+  * Alice clues number 5 to Emily, re-touching the 5 as a *Play Clue*.
   * Bob, Cathy, and Donald blind-play their *Finesse Position* cards.
-  * Emily knows that when the number 5 clue was given, the red 5 was four-away from playable, and all of the other 5's were three-away from playable. This means that normally, Emily would mark her 5 as any 5 except for red 5. (This is because only cards that are three-away from playable are valid *Triple Bluff* targets.)
+  * Emily knows that when the number 5 clue was given, the red 5 was four-away from playable, and all of the other 5's were three-away from playable. This means that normally, Emily would mark her 5 as any 5 except for red 5. (This is because cards that are three-away-from-playable are normally used to *Triple Bluff*.)
   * However, since the *5's Triple Bluff* convention exists, Emily knows that any 5 can be used to initiate a *Triple Bluff*. Thus, her 5 can be **any** 5 in the game, including red 5.
+* Finally, note that when a fresh 5 is clued with color as a *Play Clue*, it normally triggers a *5 Color Ejection*. However, if the next player can see that the two subsequent players have playable cards on their *Finesse Position*, then the *Triple Bluff* interpretation should take precedence over a *5 Color Ejection*.
 
 ### The No-Information Double Finesse & The No-Information Double Bluff
 
