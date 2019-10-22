@@ -57,7 +57,7 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
   * Thus, even if Alice really does have the rainbow 3, playing the red 2 will still cause a *Priority Finesse* to occur on the red 3.
 * This convention was deleted with the rework to make *Priority* only apply to globally-known cards.
 
-#### The Suboptimal Color Bluff
+### The Suboptimal Color Bluff
 
 * Often, when giving a color clue to a Rainbow or dual-color card, you want to pick a color that will "fill-in" ancillary cards in the hand as to give the maximum amount of information.
 * If a suboptimal color is chosen that does not fill in ancillary cards, it follows from *High Value Principle* that there must be a reason, so you should blind-play your *Finesse Position* card.
