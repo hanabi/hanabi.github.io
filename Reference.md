@@ -545,7 +545,7 @@ While the other sections in this document contain lists of special "moves", this
 
 * When a clue could have multiple interpretations, usually *Schrödinger's Cat Principle* is involved - players must wait a round and see what their teammates do in order to find out the true meaning of the clue. But what if a clue could have multiple interpretations and a player does **not** have to wait for information from anyone else?
 * In this situation, players should use *Occam's Razor* - always assume the simplest possible interpretation.
-  * First, assume a *Play Clue* or a *Delayed Play Clue*.
+  * First, assume a direct *Play Clue* or a *Delayed Play Clue*.
   * If that is impossible, assume a *Prompt*.
   * If that is impossible, assume a *Finesse*.
   * If that is impossible, assume a *Bluff*.
