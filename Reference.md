@@ -1767,7 +1767,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### The Triple Bluff
 
-* In some situations, cluing a 5 with color initiates a special move called a *5 Color Ejection*. And in some situations, cluing a 5 with rank initiates a special move called a *5 Pull* or a *5's Chop Move*. However, if players are in a situation where these moves would not apply, then it is possible to perform a *Triple Bluff* by giving a *Play Clue* to a 5.
+* In some situations, cluing a 5 with color initiates a special move called a *5 Color Ejection*. And in some situations, cluing a 5 with rank initiates a special move called a *5 Pull* or a *5's Chop Move*. However, if players are in a situation where these moves would not apply, then it is possible to perform a *Triple Bluff* by giving a *Play Clue* to a 5 (with either color or number).
 * For example, in a 5-player game:
   * All the 1's are played on the stacks except for red 1.
   * Emily has a red 5 that has a number 5 clue on it. (It was *5 Saved* in the *Early Game*.)
