@@ -2586,26 +2586,26 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Players are not allowed to *5 Stall* in the *Early Game*. Any clue that looks like a *5 Stall* is instead treated as either a *5's Chop Move* or a *5 Pull*.
   * Players are not required to clue anything in the *Early Game*; they are allowed to initiate the *Mid-Game* whenever they see fit.
 
-### BGA Play Clues in Hard Variants (Part 1)
+### Loaded Play Clues in Hard Variants (Part 1)
 
 * Normally, players are allowed to give a *Save Clue* to a card on chop, even if that player has a bunch of playable cards to play. (This allows for *Discard Modulation.*)
 * In *Hard* variants (see previous section), this is not legal.
 * If a clue is given to a chop card of a player, and that player has one or more known-playable cards to play, then it is treated as a *Play Clue* on that card.
-* This is called a *BGA Play Clue* to distinguish it from a more ordinary *Play Clue*.
-* *BGA Play Clues* **do not** apply in the *Early Game* - they are only "turned on" in the *Mid-Game*.
-* *BGA Play Clues* **do not** apply in *Double Discard* situations.
+* This is called a *Loaded Play Clue* to distinguish it from a more ordinary *Play Clue*, because the player receiving the clue is currently "loaded" with a play.
+* *Loaded Play Clues* **do not** apply in the *Early Game* - they are only "turned on" in the *Mid-Game*.
+* *Loaded Play Clues* **do not** apply in *Double Discard* situations.
 
-### BGA Play Clues in Hard Variants (Part 2)
+### Loaded Play Clues in Hard Variants (Part 2)
 
-* *BGA Play Clues* also apply to the *5's Chop Move*. This means that any clue that looks like a *5's Chop Move* will instead look like a *BGA Play Clue* (if the clue receiver is currently "loaded" with a play).
+* *Loaded Play Clues* also apply to the *5's Chop Move*. This means that any clue that looks like a *5's Chop Move* will instead look like a *Loaded Play Clue* (if the clue receiver is currently "loaded" with a play).
 * For example, in a 3-player game:
   * Red 3 is played on the stacks.
   * Bob has a known red 4 in his hand on slot 5.
   * Alice clues number 5 to Bob, touching a 5 on slot 3.
   * Bob knows that in a normal game, since the 5 was one-away from chop, Alice's clue would be a *5's Chop Move*.
-  * Bob also knows that in hard variants, the *5's Chop Move* convention is turned off when the player receiving the clue is "loaded' with a play. Thus, this must be a *BGA Play Clue* on the 5.
+  * Bob also knows that in hard variants, the *5's Chop Move* convention is turned off when the player receiving the clue is "loaded' with a play. Thus, this must be a *Loaded Play Clue* on the 5.
   * Bob plays the red 4 and will play the 5 on the next turn as red 5.
-* Similarly, *BGA Play Clues* also apply to the *Trash Chop Move*. This means that any clue that looks like a *Trash Chop Move* will instead look like a *Known Trash Ejection* (if the clue receiver is currently "loaded" with a play).
+* Similarly, *Loaded Play Clues* also apply to the *Trash Chop Move*. This means that any clue that looks like a *Trash Chop Move* will instead become a *Loaded Trash Ejection* (if the clue receiver is currently "loaded" with a play).
 
 ### 3 Suit Conventions
 
@@ -2861,9 +2861,9 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * In a normal *Double Tempo Clue*, all of the re-clued cards are supposed to play from left to right.
 * However, when multiple brown cards are re-clued with a brown color clue, it only means to play the right-most one and nothing else.
 
-#### Brown BGA Play Clues
+#### Brown Loaded Play Clues
 
-* *BGA Play Clues* are "turned on" for brown cards.
+* *Loaded Play Clues* are "turned on" for brown cards.
 
 ### Omni Conventions
 
@@ -2946,7 +2946,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * There are two exceptions to this:
   * if the color clue also touched another critical card (that is not dark rainbow)
   * if the color matches a suit that is already completely played or accounted for
-* Additionally, *BGA Play Clues* are always "turned on" for number saves on dark rainbow 3 and dark rainbow 4 specifically.
+* Additionally, *Loaded Play Clues* are always "turned on" for number saves on dark rainbow 3 and dark rainbow 4 specifically.
 * Note that in variants where a black color clues is available, dark rainbow 3 and dark rainbow 4 must always be saved with a black color clue.
   * Along the same lines, in *Dark Rainbow & Dark Pink*, rainbow cards should be saved with a pink clue, and in *Dark Rainbow & Dark Chocolate*, rainbow cards should be saved with a brown clue.
 
@@ -3126,14 +3126,14 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 * All clues to chop are treated as *Save Clues*.
 
-#### BGA Play Clues
+#### Loaded Play Clues
 
-* *BGA Play Clues* are "turned on" in Duck variants. Furthermore, *BGA Play Clues* are even turned on in the *Early Game*.
+* *Loaded Play Clues* are "turned on" in Duck variants. Furthermore, *Loaded Play Clues* are even turned on in the *Early Game*.
 
-#### The BGA Finesse
+#### The Loaded Finesse
 
 * In addition to the above rule, players are also not allowed to give a *Save Clue* to a someone if that someone has a playable card that could be clued instead.
-* If the chop card is clued in this scenario, it is instead treated a *Chop-Focus BGA Play Clue*. However, the player receiving the clue will not know this, and will treat it as a normal *Save Clue*. Thus, a *BGA Play Clue* given in this scenario must be a *BGA Finesse*.
+* If the chop card is clued in this scenario, it is instead treated a *Chop-Focus Loaded Play Clue*. However, the player receiving the clue will not know this, and will treat it as a normal *Save Clue*. Thus, a *Loaded Play Clue* given in this scenario must be a *Loaded Finesse*.
 * As an exception to the rule, players are allowed to give a *Save Clue* if the *Play Clue* would violate *Good Touch Principle*.
 
 #### The Duck Bluff (on a 5)
