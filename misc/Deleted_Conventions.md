@@ -34,7 +34,7 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
 
 ### The Critical 4 Bluff
 
-* Building on the *3 Bluffs* convention, it is ALSO possible for a card that initiates a *Bluff* to be a copy of any of the 4s that are critical (meaning that the other copy is in the discard pile or it is a black 4).
+* Building on the *3 Bluffs* convention, it is **also** possible for a card that initiates a *Bluff* to be a copy of any of the 4s that are critical (meaning that the other copy is in the discard pile or it is a black 4).
 * This convention was deleted because it was hardly ever used and it increased complexity.
 
 ### The Reverse Misplay Chop Move
