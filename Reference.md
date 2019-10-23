@@ -2927,7 +2927,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 #### The Positional Layered Finesse
 
 * Normally, *Positional Clues* are only allowed to "get" null cards.
-* Thus, if a player plays a card from a *Positional* clue and it is not a null card, then they know to keep playing their next slot as a *Positional Layered Finesse*.
+* Thus, if a player plays a card from a *Positional Clue* and it is not a null card, then they know to keep playing their next slot as a *Positional Layered Finesse*.
 
 ### Black & Rainbow
 
