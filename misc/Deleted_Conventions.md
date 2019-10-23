@@ -10,8 +10,6 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
 
 ## Deleted Conventions
 
-<br />
-
 ### The Early Fix Clue Chop Move
 
 * As noted in the *Fix Clues* section, a *Fix Clue* is required before a misplay occurs on duplicated cards. But usually, the misplay will not occur until late in the game, because there is always some other extra card (that is not currently playable) that it could be.
@@ -241,8 +239,6 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
 <br />
 
 ## Deleted Variant-Specific Conventions
-
-<br />
 
 ### 4 Stalls & Early 4's Chop Move & 4 Pull
 
