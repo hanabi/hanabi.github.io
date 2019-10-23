@@ -8,6 +8,8 @@
 * With that said, it is possible to use the Hyphen-ated convention framework to also play 2-player games. While not commonly done, it is still perfectly functional, and it is almost always possible to get a perfect scores with expert players.
 * This document provides some extra conventions that are used by our group while playing 2-player games.
 
+<br />
+
 ## Basic Conventions
 
 ### Priority Change
@@ -41,6 +43,11 @@
 * Thus, color clues that are focused on slot 1 are always *Play Clues*. This is referred to as a *Flush Clue* in order to disambiguate it from a more ordinary *Play Clue*.
 * Note that you are also allowed to give a *Flush Clue* with black.
 
+### The 5's Double Chop Move
+
+* Normally, when a player re-clues one or more 5's with a number 5 clue, it would be a *Play Clue* - the left-most 5 is playable right now.
+* In a 2-player game, if this would require two or more blind-plays (e.g. as a *Self Double Finesse*), then this interpretation is unlikely. Instead, we agree that this should communicate a *Double Chop Move*.
+
 <br />
 
 ## Advanced Conventions
@@ -53,6 +60,7 @@
 
 ### Double Discard Save Stalls
 
+* This convention only applies in normal (non-hard) variants
 * Just in like 3 to 5-player games, in a 2-player game, players always perform *Hard Double Discard Avoidance*.
 * In a player gives a clue in *Double Discard* situation and then they immediately receive a clue that "matches" the discarded card, then they know that this could be a *Save Clue* that was unexpected. Since it was unexpected, they might **also** have another critical card after it.
 * Thus, in this situation, the player should give (another) stall clue.
