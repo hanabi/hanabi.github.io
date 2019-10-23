@@ -8,7 +8,7 @@
 ## How are *Convention Framework* changes proposed?
 
 * Players typically propose new conventions or changes to existing conventions in the `#new-conventions` channel in [the Discord server](https://discord.gg/FADvkJp).
-* They do this by typing up a short paragraph of the proposed change. Examples and screenshots are also welcome so that other players can easily understand what is being proposed.
+* They do this by typing up a short paragraph of the proposed change. Typed-out examples (Alice and Bob stories) and screenshots are typically included so that other players can easily understand what is being proposed.
 * Then, other players can comment on whether they like it or not, or if they see any potential problems.
 * The `#new-conventions` channel is a typical chat room. This means that if more than one convention is being discussed simulataneously, it may be hard to sort out what is what.
 * Because of the non-threaded nature of the chat room, players should feel free to quote and respond to an earlier convention discussion, even if it does not appear to be the "current" topic of discussion.
