@@ -1853,6 +1853,17 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Donald knows that this cannot be a *3 Bluff*, or else Cathy would not have blind-played anything. Thus, this must be a *Bad Touch Double Finesse*, so Donald discards his red 3 as a *Sarcastic Discard* to pass it back to Emily.
   * Emily plays the red 3.
 
+### The Bad Touch Triple Finesse (For 4's)
+
+* In the same way that it is possible to perform a *Bad Touch Double Finesse* to "get around" a *3 Bluff* interpretation, it is also possible to perform a *Bad Touch Triple Finesse* to "get around" a *4 Double Bluff* interpretation.
+* For example, in a 5-player game:
+  * It is the first turn of the game and nothing is played on the stacks.
+  * Alice clues number 4 to Emily, touching two red 4's.
+  * Bob blind-plays red 1.
+  * Cathy blind-plays red 2.
+  * Donald knows that normally, this would be a *4 Double Bluff* and that no-one should play any more cards. However, since the red 4 was duplicated, this must be a *Bad Touch Triple Finesse*, so Cathy blind-plays her *Finesse Position* and it is the red 3.
+  * Emily knows that this cannot be a *4 Double Bluff*, or else Donald would not have blind-played anything. Thus, this must be a *Bad Touch Triple Finesse*, so Emily plays her left-most red 4. The next time that Emily discards, she will discard the known trash red 4. 
+
 ### The Patch Finesse (Hidden Form)
 
 * Sometimes, a player will initiate a *Layered Finesse* on a card that is behind a one-away from playable card. Normally, this would be quite bad, as the player would blind-play the one-away from playable card, and it would misplay.
