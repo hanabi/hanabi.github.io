@@ -166,13 +166,6 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
   * Bob now knows that the *Reverse Order Ejection* failed and that the 5 will not get retroactively *Chop Moved* anymore. If Cathy might discard on the next turn, Bob should not play his remaining 1 and should instead give a *5 Save* to Cathy.
 * This convention was deleted due to lack of use.
 
-### Unknown Trash Discharge
-
-* If an *Unknown Trash Ejection* touches multiple cards, only the focus of the clue must be trash.
-* Thus, if a *Unknown Trash Ejection*-style clue touches two or more trash cards, then it must be a *Discharge* instead.
-* *Unknown Trash Discharges* are "turned off" in the *Early Game* (since they conflict with *5 Color Discharges*).
-* This convention was deleted since it conflicts with *5 Color Ejection*.
-
 ### The Scream Blind-Play (Blind-Playing Chop)
 
 * The *Scream Discard* is a powerful last-resort move that "screams" at the next player, telling them that their chop is unsafe. This is useful because you can do it even when the team is currently at 0 clues. However, you can only perform this move if you have a known playable card in your hand. In some situations, you will need to "scream" at the next player even when you do not have a known playable card.
