@@ -2955,6 +2955,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * if the color matches a suit that is already completely played or accounted for
 * Additionally, *BGA Play Clues* are always "turned on" for number saves on dark rainbow 3 and dark rainbow 4 specifically.
 * Note that in variants where a black color clues is available, dark rainbow 3 and dark rainbow 4 must always be saved with a black color clue.
+  * Along the same lines, in *Dark Rainbow & Dark Pink*, rainbow cards should be saved with a pink clue, and in *Dark Rainbow & Dark Chocolate*, rainbow cards should be saved with a brown clue.
 
 ### The Negative Prompt
 
