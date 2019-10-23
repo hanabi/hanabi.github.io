@@ -2892,8 +2892,8 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Number 1 through 5 correspond to the respective slot.
   * If there is an extra number available (e.g. if there are only 4 cards in the hand), then a positional 5 means to save the chop and the other numbers are always *Play Clues*.
   * Blue (the left-most suit) means to play slot 1. Green (the second left-most suit) means slot 2, and so forth.
-  * If there are not enough colors available for each slot, then the colors map to the lowest slot numbers. For example, in a 3-player 5 suit game with only blue and green available, blue would map to slot 4 and green would map to slot 5.
-  * If there are one or more extra colors available (e.g. a 3-player 6 suit game), then the extra colors wrap around to being slot 1, slot 2, and so forth.
+  * If there are not enough colors available for each slot, then the colors map to the lowest slot numbers. For example, in a 3-player game with only blue and green available, blue would map to slot 4 and green would map to slot 5.
+  * If there are one or more extra colors available (e.g. a 3-player 6-suit game), then the extra colors wrap around to being slot 1, slot 2, and so forth.
 * If a *Positional Clue* is given to the slot that is someone's chop, then it is a *Save Clue*. Otherwise, it is a *Play Clue*.
 * *Positional Clues* are **only** allowed to get null cards.
 * For example, in a 3-player null game:
