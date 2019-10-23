@@ -53,7 +53,7 @@
 ## How is consensus determined when a proposed change is not discussed?
 
 * Many convention proposals are ignored or not heavily discussed.
-* If it is a large or potentially contentious change, then I gather consensus manually by sending a direct message a few of the elder members of the group, asking what their opinion / vote is.
+* If it is a large or potentially contentious change, then I gather consensus manually by sending a direct message to a few of the most skilled members of the group, asking what their opinion / vote is.
 * If it is a small change and I have no particular opinion on it, then I infer consensus based on what how I understand the current mood to be.
 * If it is a small change and I have an opinion on the change, then I usually decide one way or the other as the deciding vote.
 
