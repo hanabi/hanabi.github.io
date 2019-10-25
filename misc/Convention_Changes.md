@@ -5,21 +5,17 @@
 
 <br />
 
+## Who can submit changes to the *Convention Framework*?
+
+* Anyone can propose a new move or a change to the conventions, regardless of whether they are new to the group or old.
+* However, we ask that players have a firm grasp of the general way we play before they start proposing things.
+
 ## How are *Convention Framework* changes proposed?
 
-* Players typically propose new conventions or changes to existing conventions in the `#new-conventions` channel in [the Discord server](https://discord.gg/FADvkJp).
-* They do this by typing up a short paragraph of the proposed change. Typed-out examples (Alice and Bob stories) and screenshots are typically included so that other players can easily understand what is being proposed.
+* We use the [GitHub issues tracker](https://github.com/Zamiell/hanabi-conventions/issues) for this repository in order to organize convention proposals. (All GitHub-related discussion is also mirrored to the `#new-conventions` channel in [the Discord server](https://discord.gg/FADvkJp).)
+* Players must submit [a new issue](https://github.com/Zamiell/hanabi-conventions/issues/new) for their request or proposed change. 
+* In a new issue, players will typically type up a short paragraph of the proposed change. Screenshots or Alice and Bob stories are encouraged so that other players can easily understand what is being proposed.
 * Then, other players can comment on whether they like it or not, or if they see any potential problems.
-* The `#new-conventions` channel is a typical chat room. This means that if more than one convention is being discussed simulataneously, it may be hard to sort out what is what.
-* Because of the non-threaded nature of the chat room, players should feel free to quote and respond to an earlier convention discussion, even if it does not appear to be the "current" topic of discussion.
-
-<br />
-
-## How formal is the process to change the *Convention Framework*?
-
-* It is fairly **informal**.
-* Historically, many active players have choosen to largely ignore the `#new-conventions` channel, since it can be noisy.
-* There are only a handful of people who bother to read the `#new-conventions` channel and made decisions. So, there is no strong system or set of rules governing *Convention Framework* changes.
 
 <br />
 
@@ -27,10 +23,10 @@
 
 * No decisions are made immediately, as:
   * We want the convention framework to change fairly slowly.
-  * Not every player regularly reads the `#new-conventions` channel, so we want to allow time for everyone to comment.
+  * Not every player regularly reads the GitHub issues, so we want to allow time for everyone to comment.
 * The length of time to wait will depend on how big the change is:
-  * If it is a small, non-controversal change, then it might be added to the reference document the next day.
-  * If it is a brand new move, then we would typically want to wait a week or two so that everyone has time to chime in.
+  * If it is a small, non-controversal change, then it might make sense to immediately implement it.
+  * Otherwise, we would typically wait a week or two so that everyone has time to chime in.
   * If there is a good amount of consensus about a move, then this will shorten the amount of time that it is in consideration for.
 
 <br />
@@ -55,7 +51,7 @@
 * Many convention proposals are ignored or not heavily discussed.
 * If it is a large or potentially contentious change, then I gather consensus manually by sending a direct message to a few of the most skilled members of the group, asking what their opinion / vote is.
 * If it is a small change and I have no particular opinion on it, then I infer consensus based on what how I understand the current mood to be.
-* If it is a small change and I have an opinion on the change, then I usually decide one way or the other as the deciding vote.
+* If it is a small change and I have an opinion on the change, then I usually decide one way or the other.
 
 <br />
 
