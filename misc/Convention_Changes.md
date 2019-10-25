@@ -10,6 +10,8 @@
 * Anyone can propose a new move or a change to the conventions, regardless of whether they are new to the group or old.
 * However, we ask that players have a firm grasp of the general way we play before they start proposing things.
 
+<br />
+
 ## How are *Convention Framework* changes proposed?
 
 * We use the [GitHub issues tracker](https://github.com/Zamiell/hanabi-conventions/issues) for this repository in order to organize convention proposals. (All GitHub-related discussion is also mirrored to the `#new-conventions` channel in [the Discord server](https://discord.gg/FADvkJp).)
