@@ -2913,6 +2913,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Cathy blind-plays her slot 4 card.
 * *Good Touch Principle* does **not** apply to cards touched as *Positional Clues*. They should be discarded exactly like an unclued card would.
   * The exception to this is if the card is known to be useful to the team (e.g. a 3 when no 3's are currently played).
+* *Positional Clues* are "turned off" once all of the null cards have been played.
 
 #### The Positional Finesse
 
