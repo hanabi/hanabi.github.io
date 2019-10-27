@@ -2879,14 +2879,11 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 #### Positional Clues
 
 * Any clue that looks like one of the following is now a *Positional Clue* instead:
-  * a *Double Finesse* (or Triple, etc)
-  * a *Double Bluff* (or Triple, etc)
-  * an *Ejection*
-  * a *Discharge*
-  * a *Rank Choice Finesse*
-  * a *Rank Choice Bluff*
-  * a *5 Pull*
-  * a *Trash Pull*
+  * a *Double Finesse* or a *Triple Finesse* where one player has to blind-play **two or more** cards
+  * a *Double Bluff* or a *Triple Bluff*
+  * an *Ejection* or a *Discharge*
+  * a *Rank Choice Finesse* or a *Rank Choice Bluff*
+  * a *5 Pull* or a *Trash Pull*
   * a *Trash Push*
   * a clue that has no "normal" conventional interpretation
 * *Positional Clues* are clues that are meant to either be a *Save Clue* or a *Play Clue* on the specific slot number:
