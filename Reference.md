@@ -452,11 +452,23 @@ Note that in this user interface, players are holding their hands like they woul
   * Bob knows that this is a *Tempo Clue*, and plays red 2.
   * In most cases, since two cards were re-touched, they should both be playable. However, Bob knows that the red 5 is strictly not playable right now. Thus, since the clue did not get any new cards and only got tempo on one card in total, he knows that he should also *Chop Move* his slot 3 card.
 
-### Avoiding Double Discards
+### Double Discard Situations
 
-* If the player before you just discarded a card (say the red 4), and you don't see that card in anyone else's hand, there is a possibility that you could have that same card on your chop. In this example, if you discarded, both red 4's could be lost and your team would not be able to get a perfect score. This is called *Double Discarding*.
-* Since *Double Discarding* can "lose" the game, you should never *Double Discard* and give a clue instead! In this situation, if there are no normal *Play Clues* or *Save Clues* to give, you are allowed to give "stall" clues, like a *5 Stall*. If there are no *5 Stalls* to give, then you can just "fill-in" information on some clued card (and it shouldn't cause a *Finesse*).
-* Because of this convention, players do not have to be worried about the same card being on two chops in a row.
+* Often times in Hanabi, two players will discard in a row. However, in rare cases, this can cause a perfect score to be lost.
+* For example, in a 3-player game:
+  * Alice has nothing to do. Alice discards her chop and it is a red 4.
+  * Bob has nothing to do. Bob also has a completely unclued hand. Bob discards his chop and it is the other copy of the red 4.
+  * Since both copies of the red 4 are discarded, it is no longer possible to get a perfect score. (The maximum score now is 23 instead of 25.)
+  * Normally, someone on the team would give a *Save Clue* to Bob's red 4 before it could get discarded. But since Bob's turn was immediately after Alice's turn, no-one on the team had time to save it.
+* In the above example, since Bob *could* have the red 4 on his chop, we would say that Bob is in a *Double Discard Situation* for the red 4.
+* More formally, a *Double Discard Situation* is defined as when the previous player discards or misplays an unplayed card **and** the current player could be discarding the other copy of that card.
+* Players agree to **never** discard in a *Double Discard Situation* if it has the potential to lower the maximum score. Instead, they should give some clue. If there are no normal *Play Clues* or *Save Clues* to give, then they are allowed to give "stall" clues, like a *5 Stall*. If there are no *5 Stalls* to give, they can even just "fill-in" some information on an already-clued card (and doing this should not cause a *Finesse*).
+* Let's revisit the above example to show what Bob should have done:
+  * Alice has nothing to do. Alice discards her chop and it is a red 4.
+  * Bob has nothing to do (meaning that there are no normal *Play Clues* or *Save Clues* to give). Bob also has a completely unclued hand.
+  * Bob's chop is his slot 5 card. Since his slot 5 card has no positive or negative clues on it, it is possible that it could be the red 4. Thus, Bob knows that he is currently in a *Double Discard Situation* for the red 4.
+  * Since, there are no normal *Play Clues* or *Save Clues* available, Bob looks around to see if he can give a *5 Stall*. Bob sees that Cathy has a 5 on her slot 1, so he clues number 5 to Cathy as a *5 Stall*.
+  * Cathy knows that since Bob was in a *Double Discard Situation* for the red 4, she should not read too closely into his clues. This number 5 clue must just be a *5 Stall* (as opposed to a *Play Clue* on the 5).
 
 <br />
 
