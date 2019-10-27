@@ -2939,8 +2939,8 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 #### The Positional Inverted Layered Finesse
 
-* Normally, if a *Positional Clue* gets a non-null card, then they know to keep playing their next slot as a *Positional Layered Finesse*.
-* However, what if the *Positional Clue* already indicated the right-most unclued slot? In this situation, the *Layered Finesse* is supposed to go backwards, and they should play the previous slot instead.
+* Normally, if a *Positional Clue* gets a non-null card, then the player knows to keep playing their next slot as a *Positional Layered Finesse*.
+* However, what if the *Positional Clue* already indicated the right-most unclued slot? In this situation, the *Layered Finesse* is supposed to go backwards, and the player should playing cards upwards.
 
 ### Black & Rainbow
 
