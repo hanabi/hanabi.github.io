@@ -2905,7 +2905,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * If there is an extra number available (e.g. if there are only 4 cards in the hand), then a positional 5 means to save the chop and the other numbers are always *Play Clues*.
   * If there are not enough colors available for each slot, then the colors map to the lowest slot numbers. For example, in a 3-player game with only blue and green available, blue would map to slot 4 and green would map to slot 5.
   * If there are one or more extra colors available (e.g. a 3-player 6-suit game), then the extra colors wrap around to being slot 1, slot 2, and so forth.
-* A *Positional Clues* can be either a *Save Clue* or a *Play Clue*:
+* A *Positional Clue* can be either a *Save Clue* or a *Play Clue*:
   * If the slot corresponds to the chop of a player, then they have to respect that it could be a *Save Clue*. In other words, it could be a *2 Save* on a null 2, a *5 Save* on a null 5, or a save on a critical null 3 or null 4 (if the other copy is in the trash).
   * If the slot corresponds to a slot that is not on the chop, then it is a *Play Clue*.
 * Finally, note that *Positional Clues* are **only** allowed to get null cards.
