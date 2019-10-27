@@ -2886,19 +2886,26 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * a *5 Pull* or a *Trash Pull*
   * a *Trash Push*
   * a clue that has no "normal" conventional interpretation
-* *Positional Clues* are clues that are meant to either be a *Save Clue* or a *Play Clue* on the specific slot number:
-  * Number 1 through 5 correspond to the respective slot.
+* *Positional Clues* correspond to a slot number:
+  * A number positional clue corresponds directly to the slot number. For example, a number 3 clue means to play slot 3.
+  * A color positional clue corresponds to the stack order. For example, green (the second stack from the left) means to play slot 2.
+* In certain game types, the slot may not be clear:
   * If there is an extra number available (e.g. if there are only 4 cards in the hand), then a positional 5 means to save the chop and the other numbers are always *Play Clues*.
-  * Blue (the left-most suit) means to play slot 1. Green (the second left-most suit) means slot 2, and so forth.
   * If there are not enough colors available for each slot, then the colors map to the lowest slot numbers. For example, in a 3-player game with only blue and green available, blue would map to slot 4 and green would map to slot 5.
   * If there are one or more extra colors available (e.g. a 3-player 6-suit game), then the extra colors wrap around to being slot 1, slot 2, and so forth.
-* If a *Positional Clue* is given to the slot that is someone's chop, then it is a *Save Clue*. Otherwise, it is a *Play Clue*.
-* *Positional Clues* are **only** allowed to get null cards.
+* A *Positional Clues* can be either a *Save Clue* or a *Play Clue*:
+  * If the slot corresponds to the chop of a player, then they have to respect that it could be a *Save Clue*. In other words, it could be a *2 Save* on a null 2, a *5 Save* on a null 5, or a save on a critical null 3 or null 4 (if the other copy is in the trash).
+  * If the slot corresponds to a slot that is not on the chop, then it is a *Play Clue*.
+* Finally, note that *Positional Clues* are **only** allowed to get null cards.
+  * Subsequently, *Positional Clues* are "turned off" once all of the null cards have been played.
 * For example, in a 3-player null game:
   * On the first turn of the game, Alice clues Cathy about one 4.
   * Bob knows that normally, this would be a *4's Double Bluff*. But *Double Bluffs* are turned off in variants with a null suit.
   * Bob instead knows that this is a *Positional Clue*, indicating that someone should play their slot 4 card.
   * Bob sees that Cathy's slot 4 card is not a null card, so he plays his slot 4 card as the null 1.
+
+#### Positional Clues (Across the Table)
+
 * *Positional Clues* do **not** have to be given in *Bluff Seat*. They can be given by anyone, since the other players will see that the clue does not apply to them.
 * Subsequently, *Positional Clues* must be played into as soon as possible, similar to a *Finesse*. If one player ignores the *Positional Clue*, then the next player will blind-play something as an *Ambiguous Positional Clue*.
 * For example, in a 3-player null game:
@@ -2908,9 +2915,11 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Bob sees that Cathy's slot 4 card is a null 1, so he knows that this is a positional clue on Cathy.
   * Bob discards.
   * Cathy blind-plays her slot 4 card.
+
+#### What to Do with Cards Touched from a Positional Clue
+
 * *Good Touch Principle* does **not** apply to cards touched as *Positional Clues*. They should be discarded exactly like an unclued card would.
   * The exception to this is if the card is known to be useful to the team (e.g. a 3 when no 3's are currently played).
-* *Positional Clues* are "turned off" once all of the null cards have been played.
 
 #### The Positional Finesse
 
@@ -2926,7 +2935,12 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 #### The Positional Layered Finesse
 
 * Normally, *Positional Clues* are only allowed to "get" null cards.
-* Thus, if a player plays a card from a *Positional Clue* and it is not a null card, then they know to keep playing their next slot as a *Positional Layered Finesse*.
+* Thus, if a player plays a card from a *Positional Clue* and it is not a null card, then they know to keep playing their next slot over as a *Positional Layered Finesse*.
+
+#### The Positional Inverted Layered Finesse
+
+* Normally, if a *Positional Clue* gets a non-null card, then they know to keep playing their next slot as a *Positional Layered Finesse*.
+* However, what if the *Positional Clue* already indicated the right-most unclued slot? In this situation, the *Layered Finesse* is supposed to go backwards, and they should play the previous slot instead.
 
 ### Black & Rainbow
 
