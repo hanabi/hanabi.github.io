@@ -467,7 +467,7 @@ Note that in this user interface, players are holding their hands like they woul
   * Alice has nothing to do. Alice discards her chop and it is a red 4.
   * Bob has nothing to do (meaning that there are no normal *Play Clues* or *Save Clues* to give). Bob also has a completely unclued hand.
   * Bob's chop is his slot 5 card. Since Bob does not see the red 4 in anyone else's hand and Bob's slot 5 card has no positive or negative clues on it, it is possible that Bob's slot 5 card could be the red 4. Thus, Bob knows that he is currently in a *Double Discard Situation* for the red 4.
-  * Since, there are no normal *Play Clues* or *Save Clues* available, Bob looks around to see if he can give a *5 Stall*. Bob sees that Cathy has a 5 on her slot 1, so he clues number 5 to Cathy as a *5 Stall*.
+  * Since there are no normal *Play Clues* or *Save Clues* available, Bob looks around to see if he can give a *5 Stall*. Bob sees that Cathy has a red 5 on her slot 1, so he clues number 5 to Cathy as a *5 Stall*.
   * Cathy knows that since Bob was in a *Double Discard Situation* for the red 4, she should not read too closely into his clues. This number 5 clue must just be a *5 Stall* (as opposed to a *Play Clue* on the 5).
 
 <br />
@@ -1932,7 +1932,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Cathy tries to blind-play red 2 and it is instead a blue 2.
   * Donald knew that Alice's clue was *Finessing* him, since no-one else on the team has any red cards. So, he gasps in surprise when Cathy blind-plays for seemingly no reason.
   * However, Donald knows that he should trust Alice and he should trust Cathy, so he continues to assume that he has the red 2.
-  * Donald tries to blind-play red 2 and it is instead the blue 3. Donald know knows that this is a *Patch Finesse*.
+  * Donald tries to blind-play red 2 and it is instead the blue 3. Donald now knows that this is a *Patch Finesse*.
   * Emily sees the playable red 2 and red 3 in Donald's hand, so she also knows that this was a *Patch Finesse*. The red card in her hand is either red 3 or red 4.
   * We skipped over Bob - why did he discard? Normally, Bob should think the same thing as Cathy - that he has both the red 2 and the red 3. However, Bob can look ahead and see that a *Patch Finesse* could occur, so he has to give precedence to that interpretation and wait to see what will happen. He should try to blind-play the red 2 himself on the next round if no other blind-plays occur.
 * See the section below for important *Patch Finesse* stipulations.
@@ -2382,7 +2382,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Bob knows that if no-one on the team does anything, Cathy will go on to misplay the blue 4 as a *5 Pull*.
   * Bob also knows that if he plays his *Finesse Position* card, Cathy will still go on to misplay the blue 4 as a *5 Pull Finesse*.
   * Thus, Bob blind-plays his *Second Finesse Position* card. It is blue 1 and it successfully plays.
-  * Cathy know knows that the card to the right of her 5 is two (or more) away from being playable. She also marks the card as being chop moved.
+  * Cathy now knows that the card to the right of her 5 is two (or more) away from being playable. She also marks the card as being chop moved.
 * Rarely, it is possible for a *5 Pull Ejection* to occur where the player who receives the number 5 clue is able to determine that the only "other" thing to clue must be a card in their hand. In this situation, they might be hesitant to discard. By convention, players are allowed to discard in this situation. (This follows from *Guide Principle*.)
 
 <br />
