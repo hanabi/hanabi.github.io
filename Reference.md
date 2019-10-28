@@ -2385,6 +2385,22 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Cathy now knows that the card to the right of her 5 is two (or more) away from being playable. She also marks the card as being chop moved.
 * Rarely, it is possible for a *5 Pull Ejection* to occur where the player who receives the number 5 clue is able to determine that the only "other" thing to clue must be a card in their hand. In this situation, they might be hesitant to discard. By convention, players are allowed to discard in this situation. (This follows from *Guide Principle*.)
 
+### Order Ejection
+
+* When a player can perform an *Skipped Order Chop Move* on a critical 5 (or a critical black card) at the beginning of the game, and they don't do it, this is very strange.
+* The player must be communicating something extra. In this scenario, they intend for the next person to blind-play slot 2.
+* The *Order Ejection* will also get a free *Chop Move* in addition to getting the blind-play.
+* For example, in a 4-player game:
+  * Blue 1 is played on the stacks.
+  * Alice clues Bob 1's, touching three 1's on slot 2, slot 3, and slot 4.
+  * Donald has a 5 on chop (and the rest of his hand is trash).
+  * Bob could play his 1 on slot 2 to *Skipped Order Chop Move* Donald's 5 for "free".
+  * Bob instead plays his 1 on slot 4 (which does nothing special).
+  * Cathy sees no possible reason for not getting a "free" *Chop Move* on a 5, so she knows that this is an *Order Ejection*. Cathy blind-plays slot 2 and it plays as a blue 2.
+  * Donald knows that Cathy must be blind-playing slot 2 for a reason. The only thing that happened that could have possibly caused the blind-play was the order that Bob played his 1's in. Thus, Donald knows that an *Order Ejection* has occurred and that he should *Chop Move*.
+  * Furthermore, Donald knows that his *Chop Moved* card **must** be a 5 or some other critical card. (This is unlike a normal *Order Chop Move*, since *Order Chop Moves* are alloweded to get non-critical cards.)
+* Note that *Order Ejections* only apply if the player did not *Order Chop Move* a **critical** card. Unique 2's **do not** count as critical in this case.
+
 <br />
 
 ## Level 5 - Rarely Used Strategies (Discharge)
