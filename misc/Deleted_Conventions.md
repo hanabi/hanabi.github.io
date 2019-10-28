@@ -127,23 +127,6 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
 * You wouldn't normally do this since it is only a 1-for-1 instead of a 2-for-1. However, it can be useful if you want to touch a card that you wouldn't otherwise be able to, like a one-away from playable card. Alternatively, you may strongly want to give ancillary information to some other card.
 * This convention was deleted due to lack of use.
 
-### Order Ejection
-
-* When a player can perform an *Skipped Order Chop Move* on a critical 5 (or a critical black card) at the beginning of the game, and they don't do it, this is very strange.
-* The player must be communicating something extra. In this scenario, they intend for the next person to blind-play slot 2.
-* The *Order Ejection* will also get a free *Chop Move* in addition to getting the blind-play.
-* For example, in a 4-player game:
-  * Blue 1 is played on the stacks.
-  * Alice clues Bob 1's, touching three 1's on slot 2, slot 3, and slot 4.
-  * Donald has a 5 on chop (and the rest of his hand is trash).
-  * Bob could play his 1 on slot 2 to *Skipped Order Chop Move* Donald's 5 for "free".
-  * Bob instead plays his 1 on slot 4 (which does nothing special).
-  * Cathy sees no possible reason for not getting a "free" *Chop Move* on a 5, so she knows that this is an *Order Ejection*. Cathy blind-plays slot 2 and it plays as a blue 2.
-  * Donald knows that Cathy must be blind-playing slot 2 for a reason. The only thing that happened that could have possibly caused the blind-play was the order that Bob played his 1's in. Thus, Donald knows that an *Order Ejection* has occurred and that he should *Chop Move*.
-  * Furthermore, Donald knows that his *Chop Moved* card **must** be a 5 or some other critical card. (This is unlike a normal *Order Chop Move*, since *Order Chop Moves* are alloweded to get non-critical cards.)
-* Note that *Order Ejections* only apply if the player did not *Order Chop Move* a **critical** card. Unique 2's **do not** count as critical in this case.
-* This convention was deleted due to lack of use.
-
 ### Reverse Order Ejection
 
 * It is also possible to do a *Reverse Order Ejection*, meaning that the blind-play will occur **after** the person with the critical card has a turn.
