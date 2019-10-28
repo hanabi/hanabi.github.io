@@ -166,6 +166,49 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
   * Bob now knows that the *Reverse Order Ejection* failed and that the 5 will not get retroactively *Chop Moved* anymore. If Cathy might discard on the next turn, Bob should not play his remaining 1 and should instead give a *5 Save* to Cathy.
 * This convention was deleted due to lack of use.
 
+### Implied Color Truth
+
+* This convention only applies to variants with a rainbow suit.
+* By default, players assume that color clues indicate non-rainbow cards.
+* For example, in a 3-player game:
+  * All of the 1's are played and there are no cards in the trash.
+  * Alice clues blue to Bob, touching a blue card on his slot 1 as a *Play Clue*.
+  * Bob knows that technically, this could be a *Play Clue* on a blue 2 or a rainbow 2, but in general he can assume that it is a blue 2.
+  * Cathy has a blue 3 on chop and is in danger of discarding it.
+  * Thus, Bob assumes that he has a blue 2 and clues blue to Cathy as a *Play Clue* on the blue 3.
+* The Hyphen-ated group has never actually used this convention, but it is documented here since it is played with on Board Game Arena.
+
+### The Phantom Finesse
+
+* This convention only applies to variants with a rainbow suit.
+* Sometimes, players will have a card to play and see that a *Finesse* is available to perform. However, if they play the card, then the *Finesse* will go away. In these situations, players perform the *Finesse* and then play their own card later.
+* Rarely, players can even do this kind of a *Finesse* on **the same suit that they have in their own hand**.
+* For example, in a 3-player no variant game:
+  * All of the 1's are played on the stacks.
+  * Alice clues red to Bob, touching a red 2 on his slot 1 as a *Play Clue*.
+  * Bob knows that he has the red 2 and could play it right now.
+  * Bob sees that Cathy has the red 3 on her *Finesse Position* and that Alice has the red 4.
+  * Bob clues red to Alice, touching the red 4 as a *Finesse* on the red 3.
+  * Cathy discards.
+  * Alice discards.
+  * Bob plays the red 2.
+  * Cathy blind-plays the red 3.
+  * Alice plays the red 4.
+* In a rainbow variant, if the group is playing with *Implied Color Truth*, then this style of *Finesse* has the potential to fail if the player initiating the *Finesse* actually has a rainbow card.
+* If this occurs, it is called a *Phantom Finesse*. The *Finesse* will still work but the leading card does not actually exist.
+* For example, in a 3-player rainbow game:
+  * All of the 1's are played on the stacks.
+  * Alice clues red to Bob, touching a red 2 on his slot 1 as a *Play Clue*.
+  * Bob knows that he has either the red 2 or the rainbow 2. Both are playable and could play it right now.
+  * Bob sees that Cathy has the red 3 on her *Finesse Position* and that Alice has the red 4.
+  * Bob uses *Implied Color Truth* to assume that he has the red 2. Subsequently, Bob clues red to Alice, touching the red 4 as a *Finesse* on the red 3.
+  * Cathy discards.
+  * Alice discards.
+  * Bob plays his red card and it turns out to be the rainbow 2.
+  * Cathy knows that Bob was using *Implied Color Truth* to assume that he had the red 2. Thus, since red 4 was clued, Cathy knows that at the time of the clue, she must have had a red 3 in her *Finesse Position*. She marks it as such and discards.
+  * Alice also knows that Bob was using *Implied Color Truth*. It would not make sense for Bob to defer playing the red 2 in order to clue the red 3 himself. Thus, her red card must be a red 4 and Bob was trying to *Finesse* Cathy's red 3. Alice marks the card as such as discards.
+* The Hyphen-ated group has never actually used this convention, but it is documented here since it is played with on Board Game Arena.
+
 ### The Scream Blind-Play (Blind-Playing Chop)
 
 * The *Scream Discard* is a powerful last-resort move that "screams" at the next player, telling them that their chop is unsafe. This is useful because you can do it even when the team is currently at 0 clues. However, you can only perform this move if you have a known playable card in your hand. In some situations, you will need to "scream" at the next player even when you do not have a known playable card.
