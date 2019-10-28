@@ -2142,7 +2142,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 #### The Suboptimal Save Prompt & The Suboptimal Save Finesse
 
 * If the other copy of a card is in the trash already, then the remaining copy needs to be saved. These cards are allowed to be saved with either a color clue or a number clue.
-* If both types of clues will **only** introduce one new card, then it is said that that there is a "free choice" between the two clue types.
+* If both types of clues will **only** introduce one new card, then it is said that that there is a *Free Choice* between the two clue types.
 * In this situation, the clue type will be chosen that "fills in" the other ancillary cards in the hand or gives important negative information.
 * If a clue type is chosen that is clearly worse than the other one, then the clue giver must be trying to communicate something extra.
 * The means that this innocent-looking *Save Clue* is really a *Play Clue*, and all of the in-between cards are called for.
@@ -2681,10 +2681,33 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 * These conventions apply to any variant with a rainbow (touched by all colors) or dual-color suit.
 
+#### Free Choice
+
+* *Free Choice* is defined as when a player has two or more options to clue a card and all of the options would **only** touch the same card(s).
+* For example, in a no variant game:
+  * Bob's hand is, from left to right: red 1, blue 4, blue 4, yellow 4, yellow 4
+  * If Alice wants to give a *Play Clue* to the red 1, Alice is said to have a *Free Choice* between red and number 1, since both of those clue types would **only** touch the red 1.
+* Since rainbow cards are touched by any color, players will often have a *Free Choice* on how to clue a rainbow card.
+* For example, in a rainbow game with 6 suits:
+  * Bob hand is, from left to right: rainbow 1, blue 4, yellow 4, green 4, yellow 4
+  * If Alice wants to give a *Play Clue* to the rainbow 1, Alice is said to have a *Free Choice* between red, purple, and number 1, since all of those clue types would **only** touch the rainbow 1.
+
 #### The Free Choice Finesse
 
-* When performing a *Prompt* by touching only rainbow cards, the player doing the clue may have a free choice between multiple colors. In other words, there may exist multiple colors that will **only** touch the rainbow cards.
-* If a player has a free choice to choose the color that matches the intended *Prompt* target but instead deliberately chooses a different color, this signals that it is actually a *Finesse* instead of a *Prompt*.
+* When performing a *Prompt* on a rainbow card, if the cluer chooses a color that only touches rainbow cards **and** they have a *Free Choice* to choose the color that matches the color on the clued rainbow card, then **they should always choose the color that matches**.
+* For example, in a rainbow game with 6 suits:
+  * All of the 1's are played on the stacks.
+  * Bob has a clued rainbow 2 in his hand. It is clued with only red. He does not know the identity of the card.
+  * Cathy has no clued cards in her hand. Cathy hand is, from left to right: rainbow 3, blue 1, yellow 1, green 1, yellow 1
+  * If Alice gives a *Play Clue* to the rainbow 3, it would *Prompt* the rainbow 2 in Bob's hand.
+  * Alice needs to decide on what clue to give. She does not want to give blue, yellow, or green, since that would cause a *Bad Touch* on the 1's that are already played.
+  * That leaves red, purple, and number 3. Since all of these clues would **only** touch the rainbow 3, Alice is said to have a *Free Choice* between those clue types.
+  * So, the following things are true:
+    1) Alice is doing a *Prompt* by giving a clue that will only touch rainbow cards
+    2) Alice has red available as a *Free Choice* between two or more clue types
+    3) Bob's rainbow 2 is clued red
+  * Thus, Alice **must** choose red if she wants to prompt the rainbow 2.
+* If a player in this situation chooses **not** choose to match the color, then they must be trying to communicate something extra. This signifies that it is actually a *Finesse* instead of a *Prompt*.
 * For example, in a 3-player game:
   * It is the first turn and nothing is played on the stacks.
   * Alice clues Bob red, which touches a red 1 in slot 1 and a red 3 in slot 2.
@@ -2692,9 +2715,9 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Cathy discards.
   * Alice notices that Bob has a rainbow 1 in *Finesse Position*. And Cathy has a rainbow 2 in her hand.
   * Since *Prompts* take precedence over *Finesses*, if Cathy clues the rainbow 2 with red, then Bob will misplay the red 3 as rainbow 1. This is a problem.
-  * However, Cathy has no red cards, no blue cards, and no other rainbow cards in her hand. Thus, if Alice wants to clue the rainbow 2 with a color, Alice has a free choice between cluing red and cluing blue.
+  * However, Cathy has no red cards, no blue cards, and no other rainbow cards in her hand. Thus, if Alice wants to clue the rainbow 2 with a color, Alice has a *Free Choice* between cluing red and cluing blue.
   * Alice clues blue to Cathy, which only touches the rainbow 2.
-  * Bob knows that since Alice had a free choice and did not color-match with red, he should play his slot 1 instead of his slot 2.
+  * Bob knows that since Alice had a *Free Choice* and did not color-match with red, he should play his slot 1 instead of his slot 2.
 
 #### The Free Choice Bluff
 
