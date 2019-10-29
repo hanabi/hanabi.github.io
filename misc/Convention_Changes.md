@@ -30,6 +30,7 @@
   * If it is a small, non-controversal change, then it might make sense to immediately implement it.
   * Otherwise, we would typically wait a week or two so that everyone has time to chime in.
   * If there is a good amount of consensus about a move, then this will shorten the amount of time that it is in consideration for.
+* A good amount of time to wait for a sizable change is 2 weeks.
 
 <br />
 
@@ -42,24 +43,31 @@
   * How active they are at the current time (playing every day, etc.)
   * How long they have been playing with the group
   * How many games they have played with the group
-  * How often they participate in the `#new-conventions` channel
+  * How often they participate in the new convention discussion
   * How strongly they feel
-* Choosing consensus is necessarily arbitrary. In the case of a "tie" or a close call, preference is given to keeping the *Convention Framework* the way that it already is.
+* Choosing consensus is **necessarily arbitrary**. In the case of a "tie" or a close call, preference is given to keeping the *Convention Framework* the way that it already is.
 
 <br />
 
 ## How is consensus determined when a proposed change is not discussed?
 
-* Many convention proposals are ignored or not heavily discussed.
-* If it is a large or potentially contentious change, then I gather consensus manually by sending a direct message to a few of the most skilled members of the group, asking what their opinion / vote is.
-* If it is a small change and I have no particular opinion on it, then I infer consensus based on what how I understand the current mood to be.
-* If it is a small change and I have an opinion on the change, then I usually decide one way or the other.
+* Many convention proposals are ignored or not heavily discussed. After a period of time, a decision will have to be made one way or the other.
+* If it is a large or potentially contentious change, then consensus is gathered manually by sending a direct message to a few of the most skilled members of the group, asking what their opinion / vote is.
+* If it is a small change, and no-one has any strong opinions, then Zamiel will usually decide one way or the other.
 
 <br />
 
 ## How fast does the *Convention Framework* as a whole change?
 
 * Changes usually happen slowly, over the course of months. This allows players who only play occasionally time to adjust (e.g. players who only play on the weekends, and so forth).
+
+<br />
+
+## Are there any probationary conventions?
+
+* By default, players generally use the conventions that are specified in the main [reference document](https://github.com/Zamiell/hanabi-conventions/blob/master/Reference.md).
+* Proposed conventions listed in the [GitHub issues tracker](https://github.com/Zamiell/hanabi-conventions/issues) are considered probationary. Players can agree to play with one or more probationary conventions before the game begins, if they want to try something out.
+* When the issue for a proposed conventions is closed, it will be integrated into the main reference document. At that time, it is no longer considered to be probationary.
 
 <br />
 
