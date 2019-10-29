@@ -629,7 +629,7 @@ While the other sections in this document contain lists of special "moves", this
 * With the previous section in mind, let's switch examples and assume that Alice did a clue and then Bob blind-played a card.
 * So secondly, we can consider the case of Bob **after** he has blind-played a card, which also extends to the rest of the team. How does everyone know whether Alice did a *Finesse* or a *Bluff* on Bob?
 * The way to find out is to look at **whether the card that blind-played "matches" the clue that was given**. If the clue matches, then it is a *Finesse*. If the clue did not match, then it is a *Bluff*.
-* If it is ambiguous whether or not the card matches, then the team should **always assume a *Bluff* over a *Finesse***. (Note that this is the opposite of the precedence in step 1!)
+* If it is ambiguous whether or not the card matches, then the team should **always assume a *Bluff* over a *Finesse***. (Note that this is the opposite of the precedence in part 1!)
 * Example 1:
   * Blue 1 is played on the stacks.
   * Alice clues Cathy about a blue card.
