@@ -1784,6 +1784,18 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Cathy blind-plays red 2 from her *Finesse Position*.
   * Even though red 1 and red 2 are the same suit as the red 4, the team knows that no-one is promised the red 3.
 
+### The 4 Double Bluff That Looks like a Double Half Bluff
+
+* Because any *Bluff* sequence that gets two cards blind-played can be a 4, this means that players have to account for the fact that a card that initiates a *Double Half Bluff* could also be a 4.
+* For example, in a 3-player game:
+  * It is the first turn of the game and nothing is played on the stacks.
+  * Alice clues red to Donald, touching a red 3 as a *Play Clue*.
+  * Bob blind-plays red 1.
+  * Cathy blind-plays blue 1.
+  * Normally, Bob would know that his red card is exactly a red 3, as a *Double Half Bluff*.
+  * However, Bob also knows that any 4 in the game can be used to perform a *Double Bluff*.
+  * Thus, Bob marks his red card as either a red 3 (if it was a *Double Half Bluff*) or a red 4 (if it was a *4 Double Bluff*).
+
 ### The Triple Bluff
 
 * In some situations, cluing a 5 with color initiates a special move called a *5 Color Ejection*. And in some situations, cluing a 5 with rank initiates a special move called a *5 Pull* or a *5's Chop Move*. However, if players are in a situation where these moves would not apply, then it is possible to perform a *Triple Bluff* by giving a *Play Clue* to a 5 (with either color or number).
