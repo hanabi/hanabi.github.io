@@ -66,10 +66,19 @@
 ## Are there any probationary conventions?
 
 * By default, players generally use the conventions that are specified in the main [reference document](https://github.com/Zamiell/hanabi-conventions/blob/master/Reference.md).
-* Proposed conventions listed in the [GitHub issues tracker](https://github.com/Zamiell/hanabi-conventions/issues) are considered probationary. Players can agree to play with one or more probationary conventions before the game begins, if they want to try something out.
+* Conventions listed in the [GitHub issues tracker](https://github.com/Zamiell/hanabi-conventions/issues) are considered probationary. Players can agree to play with one or more probationary conventions before the game begins, if they want to try something out.
 * When the issue for a proposed conventions is closed, it will be integrated into the main reference document. At that time, it is no longer considered to be probationary.
 
 <br />
+
+## When are new conventions announced? What conventions are chosen to be announced? How do announcements work?
+
+* Convention changes are announced to the group via the #announcements channel in the Discord server.
+* Every single convention change is announced to the group in this way (unless it is really small or insignificant).
+* However, changes are **not** generally announced at the same time that the document is updated.
+* Only two or three convention changes are announced every week. The reason for this is to not overwhelm players of the group - not everybody wants to play Hanabi every day or read a bunch of boring convention-related stuff.
+* If there are more than 2-3 changes that occured that week, then those changes will get put on a backlog and will be announced the following week.
+* If the backlog gets long enough, it can potentially be a long while before a convention gets announced to the group.
 
 ## How permanent are changes to the *Convention Framework*?
 
