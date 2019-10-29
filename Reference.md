@@ -2198,20 +2198,21 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * Since players often perform *Burn* clues for stalling purposes in the *End-Game*, care has to be taken to not confuse a normal *Burn* clue with a *Trash Pull*. This is especially true if there was nothing else obvious for the clue giver to do!
 * *Trash Pulls* should typically be used as a last-resort since they might be misinterpreted.
 
-### The Double 5 Pull
+### The 5 Double Pull / The Double 5 Pull
 
 * This convention only applies in the *Early Game*.
 * Normally, in the *Early Game*, it is impossible to perform a *5 Pull* on a chop card, because it will instead be interpreted as an an *Early 5's Chop Move*. In this situation, players will almost always just give a direct *Chop-Focus Play Clue* (and then give a *5 Save* to the 5 later on).
 * However, what if a player performs an *Early 5's Chop Move* on a playable card instead of just giving a *Chop-Focus Play Clue*? They must be trying to communicate something extra.
-* In this situation, they are really trying to perform a *Double 5 Pull*, which pulls a card from the next player and also pulls a card from the player who received the number 5 clue. The next player should blind-play their *Finesse Position* card, which gives the clue receiver enough information to know that the move was really a *5 Pull* after all.
+* In this situation, they are really trying to perform a *5 Double Pull*, which pulls a card from the next player and also pulls a card from the player who received the number 5 clue. The next player should blind-play their *Finesse Position* card, which gives the clue receiver enough information to know that the move was really a *5 Pull* after all.
 * For example, in a 4-player game:
   * It is the first turn and nothing is played on the stacks.
   * Alice clues number 5 to Cathy, touching a red 5 on slot 3.
   * Cathy's slot 4 card is a red 1. (This was her chop card prior to the number 5 clue being given.)
   * It is now Bob's turn. Bob sees that Donald has a red 2 on his slot 2 that could be *Play Clued* with a red color clue.
   * Normally, since it is the *Early Game*, a number 5's clue to Cathy might just be a *5 Stall*. However, since Alice could have given the red *Play Clue* to Donald, this is an "early" 5's clue, so it must be an *Early 5's Chop Move*.  However, this cannot be an *Early 5's Chop Move* either, since Cathy has a playable red 1 on her chop.
-  * Thus, Bob knows that this is a *Double 5 Pull*, so he blind-plays his *Finesse Position* card. It is blue 1 and it successfully plays.
-  * Cathy knows that if this was an *Early 5's Chop Move*, then Bob would not have blind-played anything. Since he blind-played his *Finesse Position* card, this must be a *Double 5 Pull*. Cathy blind-plays her slot 4 card (the card to the right of the clued 5).
+  * Thus, Bob knows that this is a *5 Double Pull*, so he blind-plays his *Finesse Position* card. It is blue 1 and it successfully plays.
+  * Cathy knows that if this was an *Early 5's Chop Move*, then Bob would not have blind-played anything. Since he blind-played his *Finesse Position* card, this must be a *5 Double Pull*. Cathy blind-plays her slot 4 card (the card to the right of the clued 5).
+* More examples of a *5 Double Pull* can be found [here](https://github.com/Zamiell/hanabi-conventions/blob/master/examples/5%20Double%20Pull.md).
 
 <br />
 
