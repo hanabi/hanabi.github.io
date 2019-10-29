@@ -13,6 +13,8 @@
 * Subsequently, since a *Heal Clue* is not possible, Valetta6789 knows that this must be a *Pestilent Double Bluff*. She blind-plays her *Finesse Position* card (slot 1). It is purple 1 and it successfully plays.
 * The next player is Kyle. After the number 3 clue was given and the black 2 blind-played, Kyle thought that his 3 was the black 3 (since 2 matches 3). However, if it was black 3, then Valetta6789 never would have blind-played. Thus, Kyle knows that his 3 must be some other 3 than black 3, so he marks it as such.
 
+<br />
+
 ### Example 2
 
 ![Example Screenshot](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/examples/pestilent-double-bluff2.png)
