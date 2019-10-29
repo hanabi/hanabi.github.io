@@ -2034,7 +2034,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Donald is surprised by Alice's clue. From Donald's perspective, Cathy should have misplayed the red 4 as the blue 4, since 3 matches 4.
   * Since Cathy did not misplay, Donald can reason that **he** must have the blue 4. Donald marks the previously unknown blue card in his hand as blue 4.
 
-### The Disease Bluff & The Heal Clue & The Pestilent (Double) Bluff
+### The Disease Bluff & The Heal Clue & The Pestilent Double Bluff
 
 * In the *Good Touch Bluff*, a *Bluff* is given that looks like a *Finesse*. However, what if something that looks like a *Good Touch Bluff* is done, but the "matching" card is not yet clued?
 * For example, in a 4-player game:
@@ -2055,7 +2055,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ![Disease Bluff](img/disease_bluff.png)
 
-#### 2) A *Pestilent (Double) Bluff* (with Cathy seeing zero copies):
+#### 2) A *Pestilent Double Bluff* (with Cathy seeing zero copies):
 
 * Say that Cathy does not see the red 2 anywhere.
 * From *High Value Principle*, Cathy can conclude that Alice does not intend for Cathy to do a *Fix Clue*, as that would be inefficient.
@@ -2063,8 +2063,9 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * Instead, Cathy can blind-play her *Finesse Position* card as red 2. This is similar to a *Disease Bluff*, but instead of wasting a clue to heal the problem, the problem is healed by a blind-play.
 * Note that Cathy could be blind-playing red 2, but could also be blind-playing **any** playable card. Whatever card it is, it will still heal the problem, since Bob can see that the blind-play was related to the clue he received.
 * This is similar to a standard *Double Bluff*, but is different because the move was not initiated by a card that was 2-away from being playable.
+* More examples of a *Pestilent Double Bluff* can be found [here](https://github.com/Zamiell/hanabi-conventions/blob/master/examples/Pestilent%20Double%20Bluff.md).
 
-#### 3) A *Pestilent (Double) Bluff* (with Cathy seeing one uncluable copy)
+#### 3) A *Pestilent Double Bluff* (with Cathy seeing one uncluable copy)
 
 * Say that Cathy sees the red 2 in Donald's hand, but she cannot uniquely clue it due to other blocking cards.
 * This cannot be a *Disease Bluff*, since Alice would not put Bob and Cathy in this bad situation if a clean *Heal Clue* was not available.
