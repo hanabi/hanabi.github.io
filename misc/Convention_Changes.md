@@ -71,7 +71,7 @@
 
 <br />
 
-## When are new conventions announced? What conventions are chosen to be announced? How do announcements work?
+## When are new conventions announced? How do announcements work?
 
 * Convention changes are announced to the group via the #announcements channel in the Discord server.
 * Every single convention change is announced to the group in this way (unless it is really small or insignificant).
