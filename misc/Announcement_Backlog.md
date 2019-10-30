@@ -12,7 +12,7 @@ The next announcement will be on November 6th.
 
 The group has **changed** the way that our convention framework is handled to be more organized and transparent. **Everyone should read this short Q&A** to learn how things will happen going forward: https://github.com/Zamiell/hanabi-conventions/blob/master/misc/Convention_Changes.md
 
-This document also explains how these weekly announcements work and how exactly group consensus is reached for any particular decision.
+This document also explains **how these weekly announcements work** and **how exactly group consensus is reached** for any particular decision.
 
 **2-Player Conventions**
 
