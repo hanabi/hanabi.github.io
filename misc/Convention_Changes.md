@@ -45,7 +45,7 @@
   * How many games they have played with the group
   * How often they participate in the new convention discussion
   * How strongly they feel
-* Choosing consensus is **necessarily arbitrary**. In the case of a "tie" or a close call, preference is given to keeping the *Convention Framework* the way that it already is.
+* Determining consensus is **necessarily arbitrary**. In the case of a "tie" or a close call, preference is given to keeping the *Convention Framework* the way that it already is.
 
 <br />
 
