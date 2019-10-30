@@ -75,10 +75,10 @@
 
 * Convention changes are announced to the group via the #announcements channel in the Discord server.
 * Every single convention change is announced to the group in this way (unless it is really small or insignificant).
-* However, changes are **not** generally announced at the same time that the document is updated.
-* Only two or three convention changes are announced every week. The reason for this is to not overwhelm players of the group - not everybody wants to play Hanabi every day or read a bunch of boring convention-related stuff.
+* Changes are generally announced at the same time that the document is updated.
+* However, there are at maximum two or three convention changes announced per week. The reason for this is to not overwhelm players of the group - not everybody wants to play Hanabi every day or read a bunch of boring convention-related stuff.
 * If there are more than 2-3 changes that occured that week, then those changes will get put on a [backlog](https://github.com/Zamiell/hanabi-conventions/blob/master/misc/Announcement_Backlog.md) and will be announced the following week.
-* If the backlog gets long enough, it can potentially be a long while before a convention gets announced to the group.
+* If the backlog gets long enough, it can potentially be a long while before a convention gets announced to the group. Players who do not regularly read the GitHub issues can always check the backlog if they want to find a quick list of recent changes.
 
 ## How permanent are changes to the *Convention Framework*?
 
