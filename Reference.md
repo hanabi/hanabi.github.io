@@ -2076,7 +2076,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * Instead, Cathy can blind-play her *Finesse Position* card as red 2. This is similar to a *Disease Bluff*, but instead of wasting a clue to heal the problem, the problem is healed by a blind-play.
 * Note that Cathy could be blind-playing red 2, but could also be blind-playing **any** playable card. Whatever card it is, it will still heal the problem, since Bob can see that the blind-play was related to the clue he received.
 * This is similar to a standard *Double Bluff*, but is different because the move was not initiated by a card that was 2-away from being playable.
-* More examples of a *Pestilent Double Bluff* can be found [here](https://github.com/Zamiell/hanabi-conventions/blob/master/examples/Pestilent%20Double%20Bluff.md).
+* More examples of a *Pestilent Double Bluff* can be found [here](https://github.com/Zamiell/hanabi-conventions/blob/master/examples/Pestilent_Double_Bluff.md).
 
 #### 3) A *Pestilent Double Bluff* (with Cathy seeing one uncluable copy)
 
@@ -2225,7 +2225,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Normally, since it is the *Early Game*, a number 5's clue to Cathy might just be a *5 Stall*. However, since Alice could have given the red *Play Clue* to Donald, this is an "early" 5's clue, so it must be an *Early 5's Chop Move*.  However, this cannot be an *Early 5's Chop Move* either, since Cathy has a playable red 1 on her chop.
   * Thus, Bob knows that this is a *5 Double Pull*, so he blind-plays his *Finesse Position* card. It is blue 1 and it successfully plays.
   * Cathy knows that if this was an *Early 5's Chop Move*, then Bob would not have blind-played anything. Since he blind-played his *Finesse Position* card, this must be a *5 Double Pull*. Cathy blind-plays her slot 4 card (the card to the right of the clued 5).
-* More examples of a *5 Double Pull* can be found [here](https://github.com/Zamiell/hanabi-conventions/blob/master/examples/5%20Double%20Pull.md).
+* More examples of a *5 Double Pull* can be found [here](https://github.com/Zamiell/hanabi-conventions/blob/master/examples/5_Double_Pull.md).
 
 <br />
 
