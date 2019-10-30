@@ -44,13 +44,6 @@ It describes the way that players in our group have historically played 2-player
 * One exception to this rule is the *Certain Finesse*. When a player perform a *Certain Finesse*, it calls for a *Certain Discard*. However, when a player uses *Priority* to promise a card that could potentially be in their own hand, this should **not** induce a *Certain Discard*. The other players in this situation should just ignore the *Priority* and instead discard their chop card.
 ```
 
-**Trash Double Bluff (Form 1)** (by Jeff)
-
-```
-* Normally, *Trash Bluffs* are only done as a last resort. When a *Trash Bluff* is performed that is unnecessary, then it is an *Unnecessary Trash Bluff Chop Move*. However, if there are no cards left to *Chop Move*, then this interpretation does not make any sense.
-* In this situation, the interpretation should revert to a *Trash Double Bluff*.
-```
-
 **The Triple Bluff** (clarification)
 
 ```
@@ -75,6 +68,13 @@ It describes the way that players in our group have historically played 2-player
   * Bob, Cathy, and Donald blind-play their *Finesse Position* cards.
   * Emily knows that when the number 5 clue was given, the red 5 was four-away from playable, and all of the other 5's were three-away from playable. This means that normally, Emily would mark her 5 as any 5 except for red 5. (This is because cards that are three-away-from-playable are normally used to *Triple Bluff*.)
   * However, since the *5's Triple Bluff* convention exists, Emily knows that any 5 can be used to initiate a *Triple Bluff*. Thus, her 5 can be **any** 5 in the game, including red 5.
+```
+
+**Trash Double Bluff (Form 1)** (by Jeff)
+
+```
+* Normally, *Trash Bluffs* are only done as a last resort. When a *Trash Bluff* is performed that is unnecessary, then it is an *Unnecessary Trash Bluff Chop Move*. However, if there are no cards left to *Chop Move*, then this interpretation does not make any sense.
+* In this situation, the interpretation should revert to a *Trash Double Bluff*.
 ```
 
 **Trash Double Bluff (Form 2)** (by Jeff)
