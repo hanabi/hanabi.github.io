@@ -1929,6 +1929,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 * Normally, *Trash Bluffs* are only done as a last resort, meaning that the target card cannot be clued directly. In this situation, if a player has the option to initiate the *Trash Bluff* with a single card, then they **must** choose to do so.
 * If a player deliberately does not initiate the *Trash Bluff* with a single card and instead initiates a *Trash Bluff* by touching two or more trash cards, then they must be trying to communicate something extra - a *Trash Double Bluff*.
+  * If a player is doing a *Unnecessary Trash Bluff Chop Move*, then they can clue as many trash cards as they want and it should not trigger a *Trash Double Bluff*.
 * All of the cards touched in this way are promised to be trash.
 
 ### The Patch Finesse (Hidden Form)
