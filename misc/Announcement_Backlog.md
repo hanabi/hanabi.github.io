@@ -21,6 +21,12 @@ As noted in the [convention changes document](https://github.com/Zamiell/hanabi-
 * This convention is deleted, as it is hardly ever used.
 ```
 
+**Priority Potential Duplication & The Certain Priority Finesse** (by Zamiel & Libster)
+
+```
+(recopy from doc)
+```
+
 **The Double 5 Pull** (by Jeff)
 
 ```
