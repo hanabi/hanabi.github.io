@@ -171,6 +171,6 @@ It describes the way that players in our group have historically played 2-player
   * Now, it is Cathy's turn. Cathy knows that she has a playable red 1, since no-one else on the team has a red 1.
   * Additionally, Cathy might think that Bob's clue was a *Stacked Finesse* on the blue 5. However, this is impossible, because Cathy sees that no-one else on the team has any blue cards. Thus, for a *Stacked Finesse* to be the case, Cathy would have to have red 1, blue 1, blue 2, blue 3, and blue 4, and Cathy only has 4 cards in her hand (since it is a 4-player game).
   * Since a *Stacked Finesse* is impossible, Cathy knows that this must be a *Stacked 5 Color Ejection*.
-  * Alice's clue *Finessed* Cathy. So after Alice's clue, Cathy's *Finesse Position* moves to her slot 2 and her *Second Finesse Position* moves to her slot 3.
+  * Alice's clue *Finessed* Cathy. So after Alice's clue, Cathy's *Finesse Position* moved to her slot 2 and her *Second Finesse Position* moved to her slot 3.
   * Normally, *Ejection* calls for the *Second Finesse Position*, but in this case, Cathy knows that *Stacked 5 Color Ejections* call for the *First Finesse Position* instead of the *Second Finesse Position*, so Cathy blind-plays slot 2 (instead of slot 3).
 ```
