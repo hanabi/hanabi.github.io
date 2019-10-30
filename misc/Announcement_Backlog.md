@@ -39,6 +39,18 @@ This document also explains how these announcements work and how exactly group c
 (recopy from doc)
 ```
 
+**Trash Double Bluff (Form 1)** (by Jeff)
+
+```
+(recopy from doc)
+```
+
+**Trash Double Bluff (Form 2)** (by Jeff)
+
+```
+(recopy from doc)
+```
+
 **The Double 5 Pull** (by Jeff)
 
 ```
