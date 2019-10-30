@@ -80,6 +80,8 @@
 * If there are more than 2-3 changes that occured that week, then those changes will get put on a [backlog](https://github.com/Zamiell/hanabi-conventions/blob/master/misc/Announcement_Backlog.md) and will be announced the following week.
 * If the backlog gets long enough, it can potentially be a long while before a convention gets announced to the group. Players who do not regularly read the GitHub issues can always check the backlog if they want to find a quick list of recent changes.
 
+<br />
+
 ## How permanent are changes to the *Convention Framework*?
 
 * No change is permanent and if the group consensus changes, then the *Convention Framework* should change.
