@@ -4,7 +4,7 @@ As noted in the [convention changes document](https://github.com/Zamiell/hanabi-
 
 <br />
 
-## Backlog
+## The Backlog
 
 **The Hyphen-ated Convention Framework**
 
