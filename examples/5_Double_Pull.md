@@ -2,7 +2,7 @@
 
 ### Example 1
 
-![Example Screenshot](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/examples/5_double_pull.png)
+![Example Screenshot](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/examples/5_double_pull.png)
 
 * Dr_Kakashi clues number 5 to invarse. That touches the blue 5. Since the blue 5 is one-away from chop, invarse will think that this is a *5's Chop Move*.
 * The next player is micerang. Micerang knows that performing a *5's Chop Move* on a playable red 2 is nonsensical, since if Dr_Kakashi had instead clued red to invarse, then invarse would play the red 2 immediately.

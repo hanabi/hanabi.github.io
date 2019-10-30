@@ -2,7 +2,7 @@
 
 ### Example 1
 
-![Example Screenshot](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/examples/pestilent_double_bluff.png)
+![Example Screenshot](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/examples/pestilent_double_bluff.png)
 
 * It is Dr_Kakashi's turn.
 * Imagine that Dr_Kakashi clues number 3 to Kyle. That would touch the blue 3 as a *Play Clue*.
@@ -17,7 +17,7 @@
 
 ### Example 2
 
-![Example Screenshot](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/examples/pestilent_double-bluff2.png)
+![Example Screenshot](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/examples/pestilent_double-bluff2.png)
 
 * It is scharkbite's turn.
 * Imagine that scharkbite clues number 3 to asaelr. This would touch the black 3 as a *Play Clue*.
