@@ -21,6 +21,19 @@
 
 <br />
 
+## Do I need a GitHub account to submit new proposals or to comment on other people's proposals?
+
+* Yes, you do. Thankfully, GitHub accounts are free and it is relatively painless to create one.
+* We apologize for the inconvenience of making you sign up for yet another online account. GitHub allows us to have threaded discussion and makes things easier to track, so it will be worth your time.
+
+<br />
+
+## Do I need to be an expert player in order to review the latest *Convention Framework* changes or join in the disccusion?
+
+* No, you do not. Anyone at an intermediate level or above is encouraged to read the latest issues and participate in the disccusion, at least if that kind of thing is interesting to you.
+
+<br />
+
 ## How long are *Convention Framework* changes discussed for?
 
 * No decisions are made immediately, as:
@@ -43,8 +56,7 @@
   * How active they are at the current time (playing every day, etc.)
   * How long they have been playing with the group
   * How many games they have played with the group
-  * How often they participate in the new convention discussion
-  * How strongly they feel
+  * How often they participate in the convention discussion
 * Determining consensus is **necessarily arbitrary**. In the case of a "tie" or a close call, preference is given to keeping the *Convention Framework* the way that it already is.
 
 <br />
@@ -52,7 +64,7 @@
 ## How is consensus determined when a proposed change is not discussed?
 
 * Many convention proposals are ignored or not heavily discussed. After a period of time, a decision will have to be made one way or the other.
-* If it is a large or potentially contentious change, then consensus is gathered manually by sending a direct message to a few of the most skilled members of the group, asking what their opinion / vote is.
+* If it is a large or potentially contentious change, then consensus is gathered manually by sending a direct message to a few of the most skilled members of the group, asking what their opinion is.
 * If it is a small change, and no-one has any strong opinions, then Zamiel will usually decide one way or the other.
 
 <br />
@@ -78,14 +90,14 @@
 * Changes are generally announced at the same time that the document is updated.
 * However, there are at maximum two or three convention changes announced per week. The reason for this is to not overwhelm players of the group - not everybody wants to play Hanabi every day or read a bunch of boring convention-related stuff.
 * If there are more than 2-3 changes that occured that week, then those changes will get put on a [backlog](https://github.com/Zamiell/hanabi-conventions/blob/master/misc/Announcement_Backlog.md) and will be announced the following week.
-* If the backlog gets long enough, it can potentially be a long while before a convention gets announced to the group. Players who do not regularly read the GitHub issues can always check the backlog if they want to find a quick list of recent changes.
+* If the backlog gets long enough, it can potentially be a long while before a convention gets announced to the group. Players who do not regularly read the GitHub issues can always [check the backlog](https://github.com/Zamiell/hanabi-conventions/blob/master/misc/Announcement_Backlog.md) if they want to find a quick list of recent changes.
 
 <br />
 
 ## How permanent are changes to the *Convention Framework*?
 
-* No change is permanent and if the group consensus changes, then the *Convention Framework* should change.
-* With that said, it is confusing for players in the group who do not play that often to have a certain move be "turned on" one day and then "turned off" the next day. Thus, we do **not** want the *Convention Framework* to flop back and forth.
+* No change is permanent. If the group consensus changes, then the *Convention Framework* should change.
+* With that said, it is confusing for players in the group who do not play very often to have a certain move be "turned on" one day and then "turned off" the next day. Thus, we do **not** want the *Convention Framework* to flop back and forth.
 * If consensus is reached on a certain convention configuration, then as a general rule it should not be up for debate again for a period of six months.
 
 <br />
