@@ -73,7 +73,7 @@
 
 ## When are new conventions announced? How do announcements work?
 
-* Convention changes are announced to the group via the #announcements channel in the Discord server.
+* Convention changes are announced to the group via the `#announcements` channel in the Discord server.
 * Every single convention change is announced to the group in this way (unless it is really small or insignificant).
 * Changes are generally announced at the same time that the document is updated.
 * However, there are at maximum two or three convention changes announced per week. The reason for this is to not overwhelm players of the group - not everybody wants to play Hanabi every day or read a bunch of boring convention-related stuff.
