@@ -15,6 +15,12 @@ As noted in the [convention changes document](https://github.com/Zamiell/hanabi-
 * This convention is deleted, as it is hardly ever used.
 ```
 
+**The Suboptimal Color Bluff** (deleted)
+
+```
+* This convention is deleted, as it is hardly ever used.
+```
+
 **The Double 5 Pull** (by Jeff)
 
 ```
