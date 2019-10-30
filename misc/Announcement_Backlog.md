@@ -22,7 +22,7 @@ It describes the way that players in our group have historically played 2-player
 **The Useless Bluff** (deleted)
 
 ```
-* This convention is deleted, since it conflicts with *Junk Ejection*.
+* This convention is deleted, since it conflicts with *Junk Ejection*. (*Junk Ejection* is a move that is not announced yet.)
 ```
 
 **Reverse Order Ejection** (deleted)
