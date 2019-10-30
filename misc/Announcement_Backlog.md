@@ -2,6 +2,8 @@
 
 As noted in the [convention changes document](https://github.com/Zamiell/hanabi-conventions/blob/master/misc/Convention_Changes.md), sometimes a change to the conventions is made but is not yet announced due to there being a backlog of things to announce. This document contains the backlog.
 
+<br />
+
 ## Backlog
 
 **The Hyphen-ated Convention Framework**
