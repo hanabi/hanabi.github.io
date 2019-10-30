@@ -14,10 +14,8 @@ This document also explains how these announcements work and how exactly group c
 
 **2-Player Conventions**
 
-```
-* There is now a separate document for 2-player games, located here: https://github.com/Zamiell/hanabi-conventions/blob/master/misc/2-Player.md
-* It describes the way that players in our group have historically played 2-player games. It also has some new strategies added recently that everyone may not be familiar with. Going forward, any changes to 2-player strategies will be announced. (Historically, 2-player strategy changes have not been deemed important enough to announce.)
-```
+There is now a separate document for 2-player games, located here: https://github.com/Zamiell/hanabi-conventions/blob/master/misc/2-Player.md
+It describes the way that players in our group have historically played 2-player games. It also has some new strategies added recently that everyone may not be familiar with. Going forward, any changes to 2-player strategies will be announced. (Historically, 2-player strategy changes have not been deemed important enough to announce.)
 
 **The Useless Bluff** (deleted)
 
