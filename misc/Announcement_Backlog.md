@@ -50,3 +50,9 @@ As noted in the [convention changes document](https://github.com/Zamiell/hanabi-
 ```
 (recopy from doc)
 ```
+
+**Stacked 5 Color Ejection** (by Fireheart)
+
+```
+(recopy from doc)
+```
