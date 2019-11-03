@@ -61,9 +61,7 @@ Hanabi Live was created by me (Zamiel) in June 2017 with the goal of improving u
 
 <img src="../img/bga/bga_mode_on_hanabi_live.png" alt="The Hanabi Live Interface" height="450px" />
 
-All of the interface issues with BGA are fixed in the Hanabi Live interface: it is snappier, it conveys all the information you need to know, and allows you to move forward and backward through time with ease.
-
-Hanabi Live also got an update in September of 2018, giving players the ability to select a "Board Game Arena" option in the settings. Turning this on will orient the hands in a manner that BGA players will be familiar with. The screenshot above shows what the interface looks like with this option turned on. (Admittedly, not everything is exactly the same. As you can see, the discard pile is on the bottom-right-hand corner instead of the bottom-left-hand corner. With that said, the interface should be extremely easy to use overall.)
+All of the interface issues with BGA are fixed in the Hanabi Live interface: it is snappier, it conveys all the information you need to know, and allows you to move forward and backward through time with ease. (This new default UI was created in September 2018.) Admittedly, not everything is exactly the same as it is on BGA. As you can see, the discard pile is on the bottom-right-hand corner instead of the bottom-left-hand corner. With that said, the interface should be fairly easy to use.
 
 #### Reviewing
 
