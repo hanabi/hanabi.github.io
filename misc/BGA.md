@@ -71,7 +71,7 @@ More importantly, when Hyphen-ated group members play together, we typically rev
 
 For the purposes of reviewing, we talk to each other in a voice chat. Using a voice chat is worlds better than typing text snippets at each other, as you may imagine. To facilitate this, we use a program called [Discord](https://discord.gg/FADvkJp), which is a voice and chat application similar to Skype. (Discord is in widespread use among gamers nowadays and doesn't have the security vulnerabilities that Skype does.)
 
-If you aren't interested in reviewing your Hanabi games, then that's a full stop - this document isn't really aimed at you. But if you are interested in reviewing, but do not have a microphone, or are scared of talking, that's fine - we only ask that you join the voice chat and listen along, and type back to us in the `#post-game-reviews` Discord text channel.
+If you aren't interested in reviewing your Hanabi games, then that's a full stop - this document isn't really aimed at you. But if you are interested in reviewing, but do not have a microphone, or are scared of talking, that's fine - we only ask that you join the voice chat and listen along, and type back to us in the in-game chat.
 
 #### Time Controls
 
