@@ -170,7 +170,7 @@ If you're reading this far, you'll want to know some of the basic differences be
 
 * One problem in Hanabi is when a clue lights up your chop card for the first time. How do you know whether it is a *Play Clue* or a *Save Clue*?
 * On BGA, there is a simple system: number clues mean *Save Clues* and color clues mean *Play Clues*. (Of course, there are exceptions, but this applies most of the time.)
-* In my group, both number AND color clues can be used to save cards.
+* In my group, both number clues **and** color clues can be used to save cards.
 * ANY clue that touches the chop has to be treated as a *Save Clue* first and foremost. If you can rule out a *Save Clue* interpretation, then you know that it is a *Chop Focus Play Clue*.
 * Why do this? It allows us to choose the exact clue type that would avoid touching duplicated cards.
 
