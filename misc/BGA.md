@@ -159,7 +159,7 @@ If you're reading this far, you'll want to know some of the basic differences be
 * On BGA, the system is dead simple: (almost) always play the left-most card.
 * In my group, it is a two step process:
   * If one of the new cards introduced was on the chop, then it is a *Chop Focus Play Clue*.
-  * Otherwise, it is a *Left-most Play Clue*.
+  * Otherwise, it is a *Left-Most Play Clue*.
 * Why do this? For multiple reasons:
   * Without this convention, it takes more than one clue to give a *Play Clue* to a chop card.
   * This convention compliments *Finesses*. (Our group has a wide variety of *Finesses* and *Bluffs*, so it is easy to "get" fresh cards, but more difficult to "get" cards on chop.)
