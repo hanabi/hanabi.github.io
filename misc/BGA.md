@@ -262,8 +262,8 @@ These are conventions that we don't typically turn on for new players, but we do
 
 ### Layered Finesses - Added
 
-* On BGA, if you are playing into *Finesse* but play an unrelated card, then you interpret the *Finesse* as a *Bluff* instead, and stop playing.
-* In my group, you can only bluff the very next player.
+* On BGA, if you are playing into a *Finesse* but play an unrelated card, then you interpret the *Finesse* as a *Bluff* instead, and stop playing.
+* In my group, you can **only** *Bluff* the very next player.
 * This means that if someone plays into a *Finesse*, and they were not the very next player after the cluer, then they will **continue** to play cards in their hand from left to right until they find the promised card. 
 * This is called a *Layered Finesse* because the intended *Finesse* blind-play target is "layered" behind other playable cards.
 * For example, in a 4-player game with Alice, Bob, Cathy, and Donald:
