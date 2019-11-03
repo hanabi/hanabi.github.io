@@ -184,7 +184,7 @@ If you're reading this far, you'll want to know some of the basic differences be
 
 * On BGA, you don't want to discard on the first few turns. But after that, you can pretty much discard whenever you want.
 * In my group, we have a thing called the *Early Game*. The *Early Game* is defined as the period of time before someone discards for the first time. When they do, they initiate the *Mid-Game*.
-* In the *Early Game*, everyone agrees that they MUST "extinguish" all of the available *Play Clues* and *Save Clues* before discarding.
+* In the *Early Game*, everyone agrees that they **must** "extinguish" all of the available *Play Clues* and *Save Clues* before discarding.
 * Why do this? It prevents a certain percentage of "bottom-deck" losses by having cards on chop stick around for a little longer.
 
 <br />
