@@ -111,7 +111,7 @@ A screenshot will look like the following:
 
 ![Example Screenshot](img/example.png)
 
-Note that in this user interface, players are holding their hands like they would be if they were playing in real life. For example, in this screenshot, Donald's chop card / right-most card / slot 4 card is the green 5, and Alice's chop card / right-most card / slot 4 card is the yellow 1.
+Note that in this user interface, players are not holding their hands like they would be if they were playing in real life. Every player is holding their hands in the same way. The left-most card (slot 1) is the newest card in the hand. The right-most card (slot 4 / chop) is the oldest card in the hand.
 
 <br />
 
