@@ -954,24 +954,20 @@ Priority does not always apply. Some common exceptions are listed below.
 
 * Normally, if a red card is clued and someone blind-plays a blue card, it would be some kind of *Bluff*. However, we only allow players to perform a *Bluff* on the very next player. (This is referred to as sitting in *Bluff Seat*.)
 * It follows from this that if an unrelated card is blind-played, and it cannot be a *Bluff*, then it must be a special kind of *Finesse*.
-* Normally, a *Finesse* promises the exact copy of the card on *Finesse Position*. However, as long as all of the cards leading to the card are playable, you can still promise the exact copy of the card. With respect to *Good Lie Principle*, we don't count this as a "lie", since the blind-playing player does indeed have the true copy of the card.
+* Normally, a *Finesse* promises the exact copy of the card on *Finesse Position*. However, as long as all of the cards leading to the card are playable, you can still promise the exact copy of the card. We do **not** consider this to be a "lie", since the blind-playing player does indeed have the true copy of the card.
 * We call this a *Layered Finesse* because the intended *Finesse* blind-play target is "layered" behind other playable cards.
-* For example, in the following screenshot:
-  * SedNegi clues yellow 3, which is a signal that it is playable right now.
-  * 910dan comes next. At first glance, this might be a *Double Finesse* on 910dan for yellow 1 and yellow 2.
-  * However, 910dan also sees that this might be a *Layered Finesse* on Zamiel. If it is, 910dan would **only** have the yellow 2 instead of both the yellow 1 and the yellow 2.
-  * Thus, for now, 910dan clues blues to SedNegi, which is a *Play Clue* on the blue 1.
-  * Zamiel sees the yellow 2 on 910dan's *Finesse Position*. Subsequently, Zamiel knows that the number 3 clue from SedNegi could mean multiple different things, but it makes the most sense for it to be a *Double Finesse* on yellow 1 and yellow 2.
-  * Zamiel blind-plays his *Finesse Position* card, expecting it to be yellow 1. Instead, it is purple 1. Zamiel now suspects that SedNegi's initial number 3 clue was touching a purple 3 to initiate a *Double Self-Finesse* on purple 1 and purple 2.
-  * SedNegi plays blue 1.
-  * 910dan now knows that it was indeed a *Layered Finesse*, and that he has the yellow 2 on his *Finesse Position*. But he has to wait for the yellow 1 to come down first before he can play it.
-  * Thus, for now, 910dan clues purple to Zamiel, which is a *Play Clue* on purple 2.
-  * Zamiel now has negative purple on his 3, which means that it cannot be purple 3. Zamiel now understands that SedNegi's original clue was a *Layered Finesse* on purple 1 + yellow 1 + yellow 2. Zamiel blind-plays yellow 1 from slot 2.
-  * SedNegi clues 1's to 910dan, which touches two 1's as a *Play Clue*.
-  * 910dan blind-plays yellow 2 from slot 1.
-  * Zamiel plays yellow 3.
 
 ![Layered Finesse](img/layered_finesse.png)
+
+* For example, in the above screenshot:
+  * It is the first turn of the game and nothing is played on the stacks.
+  * Alice clues green to Bob, touching a green 2 as a *Play Clue*.
+  * Normally, Bob would think that he has the green 1. However, he also sees that this could be a *Reverse Layered Finesse* on Cathy. Thus, Bob cannot play anything right now - he must wait and see what Cathy does.
+  * Bob clues yellow to Alice, touching a yellow 1 as a *Play Clue*.
+  * Cathy knows that this is a *Reverse Finesse* and that she has the green 1. Cathy blind-plays her *Finesse Position* card and it is a blue 1.
+  * Alice plays the yellow 1.
+  * Bob knows that Alice must have been trying to blind-play a green 1. Thus, he must have the green 2, and Alice did indeed perfrom a *Layered Finesse*. Bob clues number 5 to Cathy as a *5 Save*.
+  * Cathy was surprised that she played the blue 1. Could this be a *Bluff*? No, because Alice is not in *Bluff Seat* for Cathy, meaning that Alice is **not** allowed to bluff Cathy. Thus, this must be a *Layered Finesse* and Cathy must really have the green 1. Cathy plays her *Second Finesse Position* and it is the green 1.
 
 ### The Load Clue
 
