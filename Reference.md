@@ -3399,7 +3399,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 | The Distribution Finesse | Asddsa
 | The Full Finesse | NoMercy
 | The Double Positional Misplay | Libster
-| Order Ejection & Reverse Order Ejection | Zamiel & q
+| Order Ejection | Zamiel & q
 | The Bad Touch Finesse | Zamiel
 | The Skipped Discard Chop Move | Libster
 | The Mismatch Finesse | Zamiel
