@@ -17,7 +17,7 @@
 
 ### Example 2
 
-![Example Screenshot](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/examples/pestilent_double-bluff2.png)
+![Example Screenshot](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/examples/pestilent_double_bluff2.png)
 
 * It is scharkbite's turn.
 * Imagine that scharkbite clues number 3 to asaelr. This would touch the black 3 as a *Play Clue*.
