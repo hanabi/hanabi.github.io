@@ -175,4 +175,18 @@ It describes the way that players in our group have historically played 2-player
   * Normally, *Ejection* calls for the *Second Finesse Position*, but in this case, Cathy knows that *Stacked 5 Color Ejections* call for the *First Finesse Position* instead of the *Second Finesse Position*, so Cathy blind-plays slot 2 (instead of slot 3).
 ```
 
+**The Bad Touch Triple Finesse (For 4's)**
+
+```
+* In the same way that it is possible to perform a *Bad Touch Double Finesse* to "get around" a *3 Bluff* interpretation, it is also possible to perform a *Bad Touch Triple Finesse* to "get around" a *4 Double Bluff* interpretation.
+* For example, in a 5-player game:
+  * It is the first turn of the game and nothing is played on the stacks.
+  * Alice clues number 4 to Emily, touching two red 4's.
+  * Bob blind-plays red 1.
+  * Cathy blind-plays red 2.
+  * Donald knows that normally, this would be a *4 Double Bluff* and that no-one should play any more cards. However, since the red 4 was duplicated, this must be a *Bad Touch Triple Finesse*, so Cathy blind-plays her *Finesse Position* and it is the red 3.
+  * Emily knows that this cannot be a *4 Double Bluff*, or else Donald would not have blind-played anything. Thus, this must be a *Bad Touch Triple Finesse*, so Emily plays her left-most red 4. The next time that Emily discards, she will discard the known trash red 4. 
+* It is also possible to *Bad Touch Triple Bluff*, *Bad Touch Triple One Third Bluff*, and so on.
+```
+
 - prompt most red card
