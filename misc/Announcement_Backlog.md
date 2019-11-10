@@ -241,6 +241,7 @@ The next announcement will be on November 15th.
 **The Pink Lie Prompt & The Pink Lie Finesse** (by Razvogor)
 
 ```
+* This convention only applies to variants with a pink or omni suit.
 * Normally, when players give a clue to a pink card with a number, they exactly match the number of the card in order to satisfy *Pink Promise*.
 * Some common situations where players violate *Pink Promise* are covered in the "The Pink Play Clue Lie (which resolves immediately)" and the "The Pink Play Clue Lie (with multiple 1's)" sections above.
 * Rarely, it is also possible to lie about the rank of a pink card that is not yet playable. Doing so communicates the slot number of where the connecting card is.
