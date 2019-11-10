@@ -105,6 +105,16 @@
 * This situation should be treated the same as *Anxiety* - even though there is 1 clue available, the locked player **has** to play something to keep the game going.
 * If nothing else in their hand makes sense to play, then the locked player should blind-play the *Chop Moved* card.
 
+<br />
+
+## Variant-Specific Conventions
+
+### The Flush Save
+
+* This convention only applies to variants with a black suit.
+* Normally, black 3 and black 4 are saved with a black color clue. However, if try to save a black 3 or black 4 like this when it is in a player's slot 1, then will interpret it as a *Flush Clue* and will misplay it.
+* Thus, when players are in this situation, they must save using number. Any number 3 or number 4 clue given to a slot 1 card must be treated as a potential save on a black 3 or a black 4, respectively.
+
 ### Implied Color Truth
 
 * This convention only applies in variants with a rainbow suit.
@@ -145,12 +155,3 @@
   * Alice knows from context that her blue card cannot be the blue 2, because Bob would have clued it earlier on.
   * Alice knows from context that her blue card is probably not the rainbow 3, because Bob would **not** assume that he has the rainbow 2 from a blue clue.
   * Thus, Alice knows that her blue card must be blue 3. She will hold on to the card for later.
-
-<br />
-
-## Variant-Specific Conventions
-
-### The Flush Save
-
-* Normally, black 3 and black 4 are saved with a black color clue. However, if try to save a black 3 or black 4 like this when it is in a player's slot 1, then will interpret it as a *Flush Clue* and will misplay it.
-* Thus, when players are in this situation, they must save using number. Any number 3 or number 4 clue given to a slot 1 card must be treated as a potential save on a black 3 or a black 4, respectively.
