@@ -2930,6 +2930,18 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 * *Loaded Play Clues* are "turned on" for brown cards.
 
+#### Brown Positional Clues
+
+* In some situations, a player may have multiple brown cards in their hand. If the next brown card to play is not the oldest card, it can be difficult to "get" it to play.
+* In cases where a number clue is given that has no other conventional interpretation, it is an indication to the player with two or more brown cards of which slot to play.
+* For example, in a 3-player game:
+  * All of the 2's are played.
+  * Bob has four brown cards clued with a brown color clue on slots 2, 3, 4, and 5.
+  * Alice clues Bob number 2, touching a blue 2 on his slot 1.
+  * Bob knows that since all of the 2's are already played, whatever 2 this is must be a trash 2.
+  * Bob also knows that this cannot be a *Trash Chop Move*, a *Trash Push*, or any of the other trash moves.
+  * Bob instead interprets this as a *Brown Positional Clue*, and plays his slot 2 brown card.
+
 ### Omni Conventions
 
 * These conventions apply to any variant with an omni (touched by all clues) suit.
