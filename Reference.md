@@ -1861,6 +1861,9 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Bob knows that normally, this would be a *2 Save* on the red 2. However, Alice is violating *Good Touch Principle*, so she must be trying to communicate something extra.
   * Bob blind-plays his *Finesse Position* card and it is red 1.
   * Cathy knows that since a clue that looks like a *2 Save* got Bob to blind-play something, then both of the twos must be red 2. Cathy plays the chop 2 (the original focus of the clue) and then discards the other one later.
+* The *Bad Touch Finesse* is contextual and does not always apply:
+  * If the clue giver was an *Occupied*, then it is an *Occupied Play Clue* and the other 2's are not necessarily duplicated.
+  * If the clue giver gave a *2 Save* early and had other *Play Clues* to give instead, the clue could be so bad that it would trigger a *Finesse* and the other 2's are not necessarily duplicated.
 
 ### The Bad Touch Bluff (For 2's)
 
