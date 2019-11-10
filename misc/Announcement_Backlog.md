@@ -191,3 +191,9 @@ The next announcement will be on November 15th.
   * Bob also knows that this cannot be a *Trash Chop Move*, a *Trash Push*, or any of the other trash moves.
   * Bob instead interprets this as a *Brown Positional Clue*, and plays his slot 2 brown card.
 ```
+
+**The Weak Prompt** (deleted)
+
+```
+* This convention is deleted since it is rarely used and increases complexity.
+```
