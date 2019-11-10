@@ -253,3 +253,9 @@ The next announcement will be on November 15th.
   * Thus, Alice must be trying to communicate something extra. This must be a *Pink Lie Finesse* that communicates which slot to play, so Bob blind-plays his slot 4 card and it is the pink 2.
   * Cathy knows that since Bob blind-played his slot 4 from the number 4 clue, this must be a *Pink Lie Finesse* and that she must have the matching pink 3.
 ```
+
+**Loaded Play Clues** (rename)
+
+```
+* *BGA Play Clues* are now renamed to *Loaded Play Clues*, since new players do not know what BGA is.
+```
