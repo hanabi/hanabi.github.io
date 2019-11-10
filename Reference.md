@@ -2433,12 +2433,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ## Level 5 - Rarely Used Strategies (Miscellaneous)
 
-### The Weak Prompt
-
-* If a teammate performs a *Prompt* on you, and you have multiple cards in your hand that match the connecting card, normally you would be promised that the left-most (newest) is playable.
-* However, if the card that initiated the prompt was **on chop** when it was touched **and** it was in danger of being discarded, the left-most rule no longer applies, since your teammate had to take drastic measures to prevent the discard of that card.
-* So instead, you are promised that you have the connecting card somewhere in your hand, but it could be any of the cards, and not strictly the left-most.
-
 ### Trash Touch Elimination
 
 * After deciding on the target of a clue, players carefully choose between using a color clue and a number clue in order to avoid violating *Good Touch Principle* with the ancillary cards that will be touched (since every clued card is treated as a card that will eventually be played). Sometimes, when both a color clue **and** a number would violate *Good Touch Principle*, players are forced to pick between the lesser of two evils.
@@ -3334,7 +3328,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 | The Dupe Bluff | Duneaught
 | The Certain Finesse | Zamiel
 | The Negative Prompt | Zamiel & Libster
-| The Weak Prompt | Hyphen-ated
 | Crazy 3 Saves & Crazy 4 Saves | Libster
 | The Scream Discard Chop Move | 910dan & Zamiel
 | The Critical 4 Bluff | Libster
