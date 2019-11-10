@@ -10,6 +10,14 @@
 
 <br />
 
+## Table of Contents
+
+1. [Basic Conventions](#basic-conventions)
+2. [Advanced Conventions](#advanced-conventions)
+3. [Variant-Specific Conventions](#variant-specific-conventions)
+
+<br />
+
 ## Basic Conventions
 
 ### Priority Change
