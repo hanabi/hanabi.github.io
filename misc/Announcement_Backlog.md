@@ -237,3 +237,18 @@ The next announcement will be on November 15th.
 * In extremely rare situations, it is possible to orchestrate a lie in which the player with the fully playable hand thinks that they are *Layered Finessed* when they really do not have the connecting card. After they play their final card and it is not the matching card, they will know that they were *Purge Bluffed* and that nobody has the missing card.
 * Care has to be taken that the player who is not *Purge Bluffed* will understand what is going on. For example, they might think that a *Patch Finesse* is happening. Thus, *Purge Bluffs* can only be done in expert games where there is no other possible interpretation for what is happening.
 ```
+
+**The Pink Lie Prompt & The Pink Lie Finesse** (by Razvogor)
+
+```
+* Normally, when players give a clue to a pink card with a number, they exactly match the number of the card in order to satisfy *Pink Promise*.
+* Some common situations where players violate *Pink Promise* are covered in the "The Pink Play Clue Lie (which resolves immediately)" and the "The Pink Play Clue Lie (with multiple 1's)" sections above.
+* Rarely, it is also possible to lie about the rank of a pink card that is not yet playable. Doing so communicates the slot number of where the connecting card is.
+* For example, in a 3-player game:
+  * Pink 1 is played on the stacks.
+  * Alice clues number 4 to Cathy, touching a pink 3 on slot 1.
+  * Bob has no clued cards in his hand.
+  * Bob can see that Alice's clue breaks *Pink Promise*. Furthermore, Bob can see that Alice had no good reason to do so: there are no other pink cards in Cathy's hand, so nothing was preventing a pink color clue.
+  * Thus, Alice must be trying to communicate something extra. This must be a *Pink Lie Finesse* that communicates which slot to play, so Bob blind-plays his slot 4 card and it is the pink 2.
+  * Cathy knows that since Bob blind-played his slot 4 from the number 4 clue, this must be a *Pink Lie Finesse* and that she must have the matching pink 3.
+```
