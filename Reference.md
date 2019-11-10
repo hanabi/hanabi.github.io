@@ -2948,6 +2948,19 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 #### Positional Clues
 
+What is a *Positional Clue*?
+
+* *Positional Clues* correspond to a slot number:
+  * A number positional clue corresponds directly to the slot number. For example, a number 3 clue means to play slot 3.
+  * A color positional clue corresponds to the stack order. For example, green (the second stack from the left) means to play slot 2.
+
+Do I discard cards touched as a *Positional Clue*?
+
+* *Good Touch Principle* does **not** apply to cards touched as *Positional Clues*. They should be discarded exactly like an unclued card would.
+  * The exception to this is if the card is known to be useful to the team (e.g. a 3 when no 3's are currently played).
+
+What clues count as a *Positional Clue*
+
 * Any clue that looks like one of the following is now a *Positional Clue* instead:
   * a *Double Finesse* or a *Triple Finesse* where one player has to blind-play **two or more** cards
   * a *Double Bluff* or a *Triple Bluff*
@@ -2956,18 +2969,27 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * a *5 Pull* or a *Trash Pull*
   * a *Trash Push*
   * a clue that has no "normal" conventional interpretation
-* *Positional Clues* correspond to a slot number:
-  * A number positional clue corresponds directly to the slot number. For example, a number 3 clue means to play slot 3.
-  * A color positional clue corresponds to the stack order. For example, green (the second stack from the left) means to play slot 2.
+
+How does the slots map in all the different types of null variants?
+
 * In certain game types, the slot may not be clear:
   * If there is an extra number available (e.g. if there are only 4 cards in the hand), then a positional 5 means to save the chop and the other numbers are always *Play Clues*.
   * If there are not enough colors available for each slot, then the colors map to the lowest slot numbers. For example, in a 3-player game with only blue and green available, blue would map to slot 4 and green would map to slot 5.
   * If there are one or more extra colors available (e.g. a 3-player 6-suit game), then the extra colors wrap around to being slot 1, slot 2, and so forth.
+
+Are *Positional Clues* both *Save Clues* and *Play Clues*?
+
 * A *Positional Clue* can be either a *Save Clue* or a *Play Clue*:
   * If the slot corresponds to the chop of a player, then they have to respect that it could be a *Save Clue*. In other words, it could be a *2 Save* on a null 2, a *5 Save* on a null 5, or a save on a critical null 3 or null 4 (if the other copy is in the trash).
   * If the slot corresponds to a slot that is not on the chop, then it is a *Play Clue*.
+
+What else?
+
 * Finally, note that *Positional Clues* are **only** allowed to get null cards.
   * Subsequently, *Positional Clues* are "turned off" once all of the null cards have been played.
+
+What about an example?
+
 * For example, in a 3-player null game:
   * On the first turn of the game, Alice clues Cathy about one 4.
   * Bob knows that normally, this would be a *4's Double Bluff*. But *Double Bluffs* are turned off in variants with a null suit.
@@ -2985,11 +3007,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Bob sees that Cathy's slot 4 card is a null 1, so he knows that this is a positional clue on Cathy.
   * Bob discards.
   * Cathy blind-plays her slot 4 card.
-
-#### What to Do with Cards Touched from a Positional Clue
-
-* *Good Touch Principle* does **not** apply to cards touched as *Positional Clues*. They should be discarded exactly like an unclued card would.
-  * The exception to this is if the card is known to be useful to the team (e.g. a 3 when no 3's are currently played).
 
 #### The Positional Finesse
 
