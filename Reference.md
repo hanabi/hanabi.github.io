@@ -1656,6 +1656,20 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ## Level 5 - Rarely Used Strategies (Finesses & Bluffs)
 
+### The Selfish Finesse (A Delayed Finesse)
+
+* Normally, players with playable cards play their cards and let other people give the *Play Clues*. However, sometimes players with a playable card can perform a *Finesse* through their own hand.
+* This is often necessary to "lock in" the *Finesse* before the cards move out of *Finesse Position*. Like any other *Finesse*, players in this situation should just mark the cards for later and wait patiently for the cluer to play their card.
+* For example, in a 3-player game:
+  * It is the first turn and nothing is played on the stacks.
+  * Alice clues red to Bob, touching a red 1 on slot 1 as a *Play Clue*. (This is now a globally-known red 1, since Cathy does not have any red 1's in her hand.)
+  * Bob clues red to Cathy, touching a red 3 on slot 1 as a *Play Clue*.
+  * Cathy sees that Alice has as red 2 on her *Finesse Position*, so this must be a *Selfish Finesse*. Bob did not want to play the red 1 because then the *Finesse* might go away and he wanted to lock it in. Cathy marks her red card as potentially red 3 and discards.
+  * Alice sees that Bob gave a *Play Clue* to a red 3. Bob knows for sure that he has the red 1, so Alice must have the red 2 on her *Finesse Position*. Alice marks her *Finesse Position* card as red 2 and discards.
+  * Bob plays red 1.
+  * Cathy discards.
+  * Alice blind-plays red 2.
+
 ### Known Bluffs
 
 * Usually, when a *Bluff* occurs, the blind-playing player has no idea that is a *Bluff* - they assume they are playing a specific card into a true *Finesse*.
