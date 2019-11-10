@@ -259,3 +259,9 @@ The next announcement will be on November 15th.
 ```
 * *BGA Play Clues* are now renamed to *Loaded Play Clues*, since new players do not know what BGA is.
 ```
+
+**Unnecessary Chop Move / Trash Double Bluff** (change) (by NoMercy)
+
+```
+* The *Unnecessary Trash Chop Move* now takes priority over the *Trash Double Bluff*.
+```
