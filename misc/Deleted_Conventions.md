@@ -10,6 +10,13 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
 
 ## Deleted Conventions
 
+### The Weak Prompt
+
+* If a teammate performs a *Prompt* on you, and you have multiple cards in your hand that match the connecting card, normally you would be promised that the left-most (newest) is playable.
+* However, if the card that initiated the prompt was **on chop** when it was touched **and** it was in danger of being imminently discarded, the left-most rule no longer applies, since your teammate had to take drastic measures to prevent the discard of that card.
+* So instead, you are promised that you have the connecting card somewhere in your hand, but it could be any of the cards, and not strictly the left-most.
+* This convention was deleted since it was rarely used and increased complexity.
+
 ### The Early Fix Clue Chop Move
 
 * As noted in the *Fix Clues* section, a *Fix Clue* is required before a misplay occurs on duplicated cards. But usually, the misplay will not occur until late in the game, because there is always some other extra card (that is not currently playable) that it could be.
