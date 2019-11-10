@@ -1656,7 +1656,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ## Level 5 - Rarely Used Strategies (Finesses & Bluffs)
 
-### The Selfish Finesse (A Delayed Finesse)
+### The Selfish Finesse (A Finesse Through Your Own Hand)
 
 * Normally, players with playable cards play their cards and let other people give the *Play Clues*. However, sometimes players with a playable card can perform a *Finesse* through their own hand.
 * This is often necessary to "lock in" the *Finesse* before the cards move out of *Finesse Position*. Like any other *Finesse*, players in this situation should just mark the cards for later and wait patiently for the cluer to play their card.
