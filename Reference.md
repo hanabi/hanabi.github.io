@@ -2959,7 +2959,7 @@ Do I discard cards touched as a *Positional Clue*?
 * *Good Touch Principle* does **not** apply to cards touched as *Positional Clues*. They should be discarded exactly like an unclued card would.
   * The exception to this is if the card is known to be useful to the team (e.g. a 3 when no 3's are currently played).
 
-What clues count as a *Positional Clue*
+What kinds of clues count as a *Positional Clue*?
 
 * Any clue that looks like one of the following is now a *Positional Clue* instead:
   * a *Double Finesse* or a *Triple Finesse* where one player has to blind-play **two or more** cards
