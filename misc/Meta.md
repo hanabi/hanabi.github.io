@@ -9,7 +9,7 @@
   * In a normal game, *Save Clues* are quite common.
   * But if a player who is *Occupied* with a playable card performs a *Save Clue*, it is sometimes not a *Save Clue* at all. Instead, it transforms into an *Occupied Play Clue*.
   * Since any *Save Clue* can be an *Occupied Play Clue* if certain conditions apply, players have to constantly keep this in mind throughout the entire game. Every single time a *Save clue* is done, players will have to perform a cognitive check and ask themselves: "Could this be an *Occupied Play Clue*?
-  * Players have to remain vigilant and continue to ask this question for every single *Save Clue*, even though only 1 in 30 *Save Clues* will be an *Occupied Play Clue*.
+  * Players have to remain vigilant and continue to ask this question for every single *Save Clue*, even though only around 1 in 30 *Save Clues* will be an *Occupied Play Clue*.
 * If complexity needs to be reduced from a convention framework, then deleting a *Headspace Convention* will provide much more value than if a different kind of convention was deleted.
 
 ### Specific Prescription Convention
