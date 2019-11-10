@@ -105,6 +105,47 @@
 * This situation should be treated the same as *Anxiety* - even though there is 1 clue available, the locked player **has** to play something to keep the game going.
 * If nothing else in their hand makes sense to play, then the locked player should blind-play the *Chop Moved* card.
 
+### Implied Color Truth
+
+* This convention only applies in variants with a rainbow suit.
+* In a variant with a rainbow suit, when a player receives a *Play Clue* on a new card with a color clue, then they know that there are two possibilities that the card could be.
+* For example, in a 3-player game:
+  * All of the 1's are played on the stacks and nothing is discarded.
+  * Alice clues blue to Bob's slot 1 card.
+  * Bob writes a note of "blue 2 or rainbow 2" on his card.
+  * Bob considers what to do on his turn:
+    * Cathy has a blue 3 on chop and is in danger of discarding it.
+    * In a hypothetical where Bob happened to have the blue 2, if he played it, Cathy would probably discard the blue 3. This would be bad, since *Save Principle* states that the team must not let any playable cards get discarded.
+    * In a hypothetical where Bob happened to have the rainbow 2 and decided to clue the blue 3, this would be illegal - the blue 3 is not playable and the blue 3 is not allowed to be clued with a *Save Clue* (since the other copy of blue 3 is not in the trash yet).
+    * Thus, Bob must play his blue card and not worry about Cathy's chop. If Bob really does have the blue 2 and Cathy happens to discards the blue 3, then it will not be Bob's fault - it is Alice's responsibility to get the card.
+* In a 2-player game, the logic from the previous example does not apply. The two players have to rely on each other - there is no-one else on the team to help out.
+* Even though there are two possibilities for the card, players in this situation should just **assume** that they have the "true" copy of the suit, since it is more likely to be a normal suit than the rainbow suit. Subsequently, they can clue the card on chop directly.
+* For example, in a 2-player game:
+  * All of the 1's are played on the stacks and nothing is discarded.
+  * Alice clues blue to Bob's slot 1 card.
+  * Bob writes a note of "blue 2 or rainbow 2" on his card.
+  * Bob considers what to do on his turn:
+    * Alice has a blue 3 on chop and is in danger of discarding it.
+    * Bob probably has a blue 2 in his hand, so since Alice is about to discard the blue 3, he is allowed to assume that it is the blue 2.
+  * Bob clues blue to Alice.
+  * Alice discards.
+  * Bob plays the card and it happens to be a blue 2.
+  * Alice plays the blue 3.
+* Even if the card turns out to be a rainbow card, the other player will know what happened and can adjust.
+* For example, in a 2-player game:
+  * All of the 1's are played on the stacks and nothing is discarded.
+  * Alice clues blue to Bob's slot 1 card.
+  * Bob writes a note of "blue 2 or rainbow 2" on his card.
+  * Bob considers what to do on his turn:
+    * Alice has a blue 3 on chop and is in danger of discarding it.
+    * Bob probably has a blue 2 in his hand, so since Alice is about to discard the blue 3, he is allowed to assume that it is the blue 2.
+  * Bob clues blue to Alice.
+  * Alice discards.
+  * Bob plays the card and it happens to be a rainbow 2.
+  * Alice knows from context that her blue card cannot be the blue 2, because Bob would have clued it earlier on.
+  * Alice knows from context that her blue card is probably not the rainbow 3, because Bob would **not** assume that he has the rainbow 2 from a blue clue.
+  * Thus, Alice knows that her blue card must be blue 3. She will hold on to the card for later.
+
 <br />
 
 ## Variant-Specific Conventions
