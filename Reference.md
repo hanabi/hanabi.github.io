@@ -871,7 +871,7 @@ Priority does not always apply. Some common exceptions are listed below.
 
 ### Prompts in Multi-Color Variants
 
-* In multi-color variants, *Prompts* apply to the card with the most positive information.
+* In multi-color variants, *Prompts* apply to the card with the most positive information. (Players are **not** supposed to use information from negative clues.)
 * For example, in a 3-player rainbow game:
   * Red 2 is played on the stacks.
   * Alice clues red to Cathy, touching a red 4 as a *Play Clue*. This is a *Prompt* on Bob for a red 3.
