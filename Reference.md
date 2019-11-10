@@ -2949,6 +2949,10 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 * These conventions apply to any variant with an null (touched by no clues) suit.
 
+#### Hard Variant
+
+* Any variant with a null suit is treated as a *Hard Variant*, meaning that *Loaded Play Clues* are "turned on" and so forth.
+
 #### Positional Clues
 
 What is a *Positional Clue*?
