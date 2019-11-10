@@ -256,3 +256,9 @@ The next announcement will be on November 15th.
 ```
 * The *Unnecessary Trash Chop Move* now takes priority over the *Trash Double Bluff*.
 ```
+
+**Null Conventions** (change)
+
+```
+* Any variant with a null suit is now treated as a *Hard Variant*, meaning that *Loaded Play Clues* are "turned on" and so forth.
+```
