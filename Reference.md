@@ -2970,7 +2970,7 @@ What kinds of clues count as a *Positional Clue*?
   * a *Trash Push*
   * a clue that has no "normal" conventional interpretation
 
-How do the clues map to slots in the different types of null variants?
+How do the clues map to the slot numbers in the different types of null variants?
 
 * In certain game types, the slot may not be clear:
   * If there is an extra number available (e.g. if there are only 4 cards in the hand), then a positional 5 means to save the chop and the other numbers are always *Play Clues*.
