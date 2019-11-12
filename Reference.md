@@ -2438,7 +2438,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * *Discharge* is similar to *Ejection*, except instead of blind-playing the *Second Finesse Position* card, the player plays the *Third Finesse Position* card.
 * Certain types of **really** bad clues cause a *Discharge* to occur on the very next player.
 
-### Unknown Trash Discharge
+### Unknown Trash Discharge (UTD)
 
 * In general, *Bluffs* work because the player who received the clue knows that they have a one-away from playable card of that color.
 * If none of the stacks are finished and someone clues a trash card, it might look like a *Trash Bluff*. But, if the *Finesse Position* card is played, then the player will think that the card is actually a useful one-away card (instead of trash).
