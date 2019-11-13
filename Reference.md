@@ -2620,7 +2620,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Bob discards the card and it is revealed to be a blue 1.
   * Cathy blind-plays her *Finesse Position* card, and it is a blue 1.
   * Normally, Alice knows that Bob's discard would only promise the blue 1 (and not promise the green 1 or the yellow 1). However, since the game started on the turn before the clue was given, there is no possible way that Bob could have figured out the exact identity of the card in such a short amount of time.
-  * Thus, since Alice does not seen the green 1 and the yellow 1 anywhere else, Alice knows that she must have the green 1 **and** the yellow 1 on her *Finesse Position* and *Second Finesse Position*.
+  * Thus, since Alice does not see the green 1 or the yellow 1 in other people's hands, Alice knows that she must have the green 1 **and** the yellow 1 on her *Finesse Position* and *Second Finesse Position*.
 
 <br />
 
