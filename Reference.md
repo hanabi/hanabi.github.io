@@ -2613,13 +2613,14 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * Normally, when someone performs a *Gentleman's Discard*, it only promises the exact other copy of the card, even if the discarded card could have been multiple different things. The reason for this is it allows for asymmetric reads.
 * However, what if a *Gentleman's Discard* is done, and the card could have been multiple different things, and there was no context and no possible way to know which exact card that it was?
 * In this case, then it is a legal *Double Gentleman's Discard*, and it promises that both of the possibilities exist. (Or, it could even be a *Triple Gentleman's Discard*.)
-* For example, in a 3-player rainbow game:
+* For example, in a 3-player three suit game:
   * It is the first turn and nothing is played on the stacks.
-  * Alice clues Bob blue, touching a card on slot 5.
-  * From everyone's perspective, this blue card could be either a blue 1 or a rainbow 1.
+  * Alice clues number 1 to Bob, touching a 1 on slot 3.
+  * From everyone's perspective, this 1 could be any 1 in the game - blue 1, green 1, or yellow 1.
   * Bob discards the card and it is revealed to be a blue 1.
   * Cathy blind-plays her *Finesse Position* card, and it is a blue 1.
-  * Normally, Cathy knows that Bob's discard would only promise the blue 1 (and not promise the rainbow 1). However, since the game started on the turn before the clue was given, there is no possible way that Bob could have figured out the exact identity of the card in such a short amount of time. Thus, Cathy knows that she must also have the rainbow 1 on her *Second Finesse Position*.
+  * Normally, Alice knows that Bob's discard would only promise the blue 1 (and not promise the green 1 or the yellow 1). However, since the game started on the turn before the clue was given, there is no possible way that Bob could have figured out the exact identity of the card in such a short amount of time.
+  * Thus, since Alice does not seen the green 1 and the yellow 1 anywhere else, Alice knows that she must have the green 1 **and** the yellow 1 on her *Finesse Position* and *Second Finesse Position*.
 
 <br />
 
