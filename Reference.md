@@ -2968,7 +2968,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 * Any variant with a null suit is treated as a *Hard Variant*, meaning that *Loaded Play Clues* are "turned on" and so forth.
 
-#### Positional Clues
+#### Null Positional Clues
 
 What is a *Positional Clue*?
 
@@ -2990,6 +2990,7 @@ What kinds of clues count as a *Positional Clue*?
   * a *Rank Choice Finesse* or a *Rank Choice Bluff*
   * a *5 Pull* or a *Trash Pull*
   * a *Trash Push*
+  * a *Black 4 Bluff* (with black)
   * a clue that has no "normal" conventional interpretation
 
 How do the clues map to the slot numbers in the different types of null variants?
