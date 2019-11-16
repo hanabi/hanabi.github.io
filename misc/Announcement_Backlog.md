@@ -278,3 +278,21 @@ The next announcement will be on November 23rd.
 ```
 * The "*Reverse Finesse*" exception is deleted. Now, when a brand new 5 is touched and you need to determine whether or not it is a 5CE, all you have to do is count the number of blind-plays that you would have to play out of your own hand.
 ```
+
+**Very Ambiguous (3 Suits) Conventions**
+
+```
+* This convention only applies to Very Ambiguous (3 Suits).
+* A blue color clue means to play the *Second Finesse Position* (as before the blue color clue was given).
+* Blue color clues are only to be used as a last resort, meaning that if it is possibly to cleanly clue the Second Finesse Position with a number clue, then players must do so.
+* Cards touched with blue do not count as being touched for the purposes of discarding, *Good Touch Principle*, and so forth.
+```
+
+**The Unnecessary Blue Bluff** (by Jake)
+
+```
+* This convention only applies to Very Ambiguous (3 Suits).
+* Since blue color clues are only to be used as a last resort, players can use them in situations that are unnecessary in order to communicate something extra.
+* In a situation where a clean number clue was available and a blue color clue was used instead, the next player should blind-play their *Finesse Position* card as a *Known Bluff*.
+* The next player after that will assume that a *Finesse* occurred. However, once they their *Second Finesse Position* card and see that it is an unrelated suit, then they will know that an *Unnecessary Blue Bluff* occurred.
+```
