@@ -2398,6 +2398,19 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * Normally, when known trash is touched as the focus of the clue, and the known trash is on chop, it communicates a *Trash Push*.
 * However, what if the *Trash Pushed* card is trash? The other players can see that this clue must have some other purpose - it should signal an *Ejection* on the very next player.
 
+### Rank Choice Ejection (with a number 2 or a number 5)
+
+* Typically, when a number 2 clue or a number 5 clue is performed on a chop card, it will be treated as a *2 Save* or a *5 Save* and the card will not play.
+* If a player performs a *2 Save* or a *5 Save* on a playable card and they could have easily used a normal color *Play Clue*, this is quite strange. They must be trying to communicate something extra.
+* In this situation, they intend for an *Ejection* on the very next player.
+* For example, in a 3-player game:
+  * Red 1 is played on the stacks.
+  * Cathy's hand is completely unclued and is as follows, from left to right: red 2, blue 4, blue 4, blue 3, blue 3
+  * Alice clues number 2 to Cathy, touching the red 2 as a *2 Save*.
+  * Bob sees that the obvious clue to give to Cathy was red, as it would actually get the red 2 played right now.
+  * This move is so bad that it must be communicating something extra. Alice must be intending for a *Rank Choice Ejection*. Bob blind-plays his *Second Finesse Position* card and it is a blue 1 and successfully plays.
+  * Cathy knows that since a number 2 clue cause Bob to blind-play his *Second Finesse Position*, this must be an *Ejection*. The only type of *Ejection* that matches this kind of clue is a *Rank Choice Ejection*, so Cathy knows that her 2 must be playable and that her 2 must be exactly the red 2. Cathy plays the red 2.
+
 ### The 5 Pull Ejection and The 5 Pull Ejection Chop Move
 
 * This convention only applies in the *Early Game*.
