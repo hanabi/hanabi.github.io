@@ -237,7 +237,7 @@ The next announcement will be on November 15th.
 * Any variant with a null suit is now treated as a *Hard Variant*, meaning that *Loaded Play Clues* are "turned on" and so forth.
 ```
 
-**Occupied Focus Inversion**
+**Occupied Focus Inversion** (by Romain)
 
 ``
 * Normally, when a player is *Occupied* and they give a clue to someone else, it signifies one of the following three situations:
