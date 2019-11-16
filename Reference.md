@@ -2796,15 +2796,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * It is possible to use the *Free Choice* convention to communicate to a teammate that you want a *Finesse* instead of a *Prompt* in order to get them to play an unrelated playable card from their *Finesse Position*.
 * Like a normal *Bluff*, after a *Free Choice Bluff*, the player who blind-played does not necessarily have the "matching" card in their hand.
 
-#### Dual-Color 3 Suit Inversion
-
-* This convention only applies to the *Dual-Color (3 Suits)* variant.
-* The cards that are "touched" by a color clue are considered to be inverted.
-* For example, in a 3-player game:
-  * Alice clues Bob about a blue card on slot 1, slot 2, and slot 3.
-  * Bob knows that this is inverted, so the clue **really** touches slot 4 and slot 5. Thus, it is *Chop-Focus*, and Bob plays slot 5.
-  * Bob also knows that his slot 4 has an "invisible" clue on it, so his next discard will be the slot 3.
-
 ### Pink Conventions
 
 * These conventions apply to any variant with a pink (touched by all ranks) suit.
@@ -3114,6 +3105,27 @@ What about an example?
   * Normally, Alice would play slot 1, since *Prompts* promise the left-most card.
   * However, Alice's slot 1 card has no negative clues, and her slot slot 2 card has a negative yellow clue.
   * Thus, this is a *Negative Prompt* and Alice plays slot 2 instead of slot 1.
+
+#### Dual-Color 3 Suit Inversion
+
+* This convention only applies to the *Dual-Color (3 Suits)* variant.
+* The cards that are "touched" by a color clue are considered to be inverted.
+* For example, in a 3-player game:
+  * Alice clues Bob about a blue card on slot 1, slot 2, and slot 3.
+  * Bob knows that this is inverted, so the clue **really** touches slot 4 and slot 5. Thus, it is *Chop-Focus*, and Bob plays slot 5.
+  * Bob also knows that his slot 4 has an "invisible" clue on it, so his next discard will be the slot 3.
+
+### Very Ambiguous (3 Suits) Conventions
+
+* A blue color clue means to play the *Second Finesse Position* (as before the blue color clue was given).
+* Blue color clues are only to be used as a last resort, meaning that if it is possibly to cleanly clue the Second Finesse Position with a number clue, then players must do so.
+* Cards touched with blue do not count as being touched for the purposes of discarding, *Good Touch Principle*, and so forth.
+
+#### The Unnecessary Blue Bluff
+
+* Since blue color clues are only to be used as a last resort, players can use them in situations that are unnecessary in order to communicate something extra.
+* In a situation where a clean number clue was available and a blue color clue was used instead, the next player should blind-play their *Finesse Position* card as a *Known Bluff*.
+* The next player after that will assume that a *Finesse* occurred. However, once they their *Second Finesse Position* card and see that it is an unrelated suit, then they will know that an *Unnecessary Blue Bluff* occurred.
 
 ### Color Blind Conventions
 
@@ -3493,3 +3505,4 @@ What about an example?
 | Positional Clues | Razvogor & Zamiel
 | Stacked 5 Color Ejection | Fireheart
 | The Pink Lie Prompt & The Pink Lie Finesse | Razvogor
+| The Unnecessary Blue Bluff | Jake
