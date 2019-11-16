@@ -2,11 +2,15 @@
 
 * These conventions apply to any variant with an null (touched by no clues) suit.
 
+<br />
+
 ### Hard Variant
 
 * Any variant with a null suit is treated as a *Hard Variant*, meaning that *Loaded Play Clues* are "turned on" and so forth.
 
-### Null Positional Clues
+<br />
+
+### Positional Clues
 
 #### What is a *Positional Clue*?
 
@@ -69,7 +73,11 @@
   * Bob discards.
   * Cathy blind-plays her slot 4 card.
 
-### The Positional Finesse
+<br />
+
+### Positional Finesses
+
+#### The Positional Finesse
 
 * *Positional Clues* can also be used to *Finesse* a null card.
 * For example, in a 3-player game:
@@ -80,17 +88,17 @@
   * Cathy sees that Bob has a null 2 on his slot 3 and that Cathy has indicated that it is playable. Cathy blind-plays her *Finesse Position* card as null 1.
   * Bob now knows that he has a null 2 on his slot 3.
 
-### The Positional Layered Finesse
+#### The Positional Layered Finesse
 
 * Normally, *Positional Clues* are only allowed to "get" null cards.
 * Thus, if a player plays a card from a *Positional Clue* and it is not a null card, then they know to keep playing their next slot over as a *Positional Layered Finesse*.
 
-### The Positional Inverted Layered Finesse
+#### The Positional Inverted Layered Finesse
 
 * Normally, if a *Positional Clue* gets a non-null card, then the player knows to keep playing their next slot as a *Positional Layered Finesse*.
 * However, what if the *Positional Clue* already indicated the right-most unclued slot? In this situation, the *Layered Finesse* is supposed to go backwards, and the player should playing cards upwards.
 
-### The Positional Bounce Finesse
+#### The Positional Bounce Finesse
 
 * This convention only applies to variants with a null suit.
 * Normally, in a *Positional Layered Finesse*, a player will blind-play cards in a rightward direction until they find the null target card.
