@@ -33,32 +33,6 @@ The next announcement will be on November 15th.
 * One exception to this rule is the *Certain Finesse*. When a player perform a *Certain Finesse*, it calls for a *Certain Discard*. However, when a player uses *Priority* to promise a card that could potentially be in their own hand, this should **not** induce a *Certain Discard*. The other players in this situation should just ignore the *Priority* and instead discard their chop card.
 ```
 
-**The Triple Bluff** (clarification)
-
-```
-* In some situations, cluing a 5 with color initiates a special move called a *5 Color Ejection*. And in some situations, cluing a 5 with rank initiates a special move called a *5 Pull* or a *5's Chop Move*. However, if players are in a situation where none of these moves would apply, then it is possible to perform a *Triple Bluff* by giving a *Play Clue* to a 5 (with either color or number).
-* For example, in a 5-player game:
-  * All the 1's are played on the stacks.
-  * Emily has a red 5 that has a number 5 clue on it. (It was *5 Saved* in the *Early Game*.)
-  * Alice clues red to Emily, "filling in" the red 5 as a *Play Clue*. (This cannot be a *5 Color Ejection*, because that move requires the 5 to be freshly touched.)
-  * Bob sees that no-one else has the red 2. Bob blind-plays his *Finesse Position* card as red 2, but it is instead a blue 2.
-  * Cathy knows a blue 2 does not match a red 5, so this must be some kind of *Bluff*. However, a red 5 is not a valid *Bluff* target and it is also not a valid *Double Bluff* target. Thus, this must be a *Triple Bluff*. Cathy blind-plays her *Finesse Position* card as any playable card, and it plays as green 2.
-  * Donald also knows that this must be a *Triple Bluff* for the same reasons that Cathy does. Donald blind-plays his *Finesse Position* and it plays as a yellow 2.
-```
-
-**The 5's Triple Bluff** (by Zamiel)
-
-```
-* The example in the previous section was a "normal" *Triple Bluff* because the red 5 was three-away-from-playable. However, players also explicitly agree that a *Triple Bluff* target can be **any** 5, even if it is not exactly three-away-from-playable. (This is the extension of the *3 Bluff* convention and the *4's Double Bluff* convention.)
-* For example, in a 5-player game:
-  * All the 1's are played on the stacks except for red 1.
-  * Emily has a red 5 that has a number 5 clue on it. (It was *5 Saved* in the *Early Game*.)
-  * Alice clues number 5 to Emily, re-touching the 5 as a *Play Clue*.
-  * Bob, Cathy, and Donald blind-play their *Finesse Position* cards.
-  * Emily knows that when the number 5 clue was given, the red 5 was four-away from playable, and all of the other 5's were three-away from playable. This means that normally, Emily would mark her 5 as any 5 except for red 5. (This is because cards that are three-away-from-playable are normally used to *Triple Bluff*.)
-  * However, since the *5's Triple Bluff* convention exists, Emily knows that any 5 can be used to initiate a *Triple Bluff*. Thus, her 5 can be **any** 5 in the game, including red 5.
-```
-
 **Trash Double Bluff (Form 1)** (by Jeff)
 
 ```
