@@ -272,3 +272,9 @@ The next announcement will be on November 23rd.
   * This move is so bad that it must be communicating something extra. Alice must be intending for a *Rank Choice Ejection*. Bob blind-plays his *Second Finesse Position* card and it is a blue 1 and successfully plays.
   * Cathy knows that since a number 2 clue cause Bob to blind-play his *Second Finesse Position*, this must be an *Ejection*. The only type of *Ejection* that matches this kind of clue is a *Rank Choice Ejection*, so Cathy knows that her 2 must be playable and that her 2 must be exactly the red 2. Cathy plays the red 2.
 ```
+
+**5's Color Ejection (5CE)** (change)
+
+```
+* The "*Reverse Finesse*" exception is deleted. Now, when a brand new 5 is touched and you need to determine whether or not it is a 5CE, all you have to do is count the number of blind-plays that you would have to play out of your own hand.
+```
