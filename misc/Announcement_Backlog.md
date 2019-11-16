@@ -296,3 +296,5 @@ The next announcement will be on November 23rd.
 * In a situation where a clean number clue was available and a blue color clue was used instead, the next player should blind-play their *Finesse Position* card as a *Known Bluff*.
 * The next player after that will assume that a *Finesse* occurred. However, once they their *Second Finesse Position* card and see that it is an unrelated suit, then they will know that an *Unnecessary Blue Bluff* occurred.
 ```
+
+- omni + pink conventions
