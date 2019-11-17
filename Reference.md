@@ -2839,9 +2839,10 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * Players can also violate *Pink Promise* if they are giving a *Play Clue* and the lie will be resolved when the player who is clued plays their focused card.
 * For example, in a 3-player game:
   * Pink 3 and and red 2 are played on the stacks.
-  * Alice clues number 3 to Bob, touching a pink 4 on slot 1 and a blue 3 on slot 2.
-  * Bob immediately plays the card on slot 1, thinking that it is a red 3. It is actually the pink 4.
-  * Bob knows that Alice broke *Pink Promise* and that he was lied to, but that it was a *Pink Play Clue Lie*. Bob knows that Alice likely did things this way because she wanted a 2-for-1 (to pick up some useful 3 "for free") instead of just a 1-for-1 on just the pink 4.
+  * Alice clues number 3 to Cathy, touching a pink 4 on slot 1 and a blue 3 on slot 2.
+  * Bob discards.
+  * Cathy plays the card on slot 1, thinking that it is a red 3. It is actually the pink 4.
+  * Cathy knows that Alice broke *Pink Promise* and that she was lied to, but that it was a *Pink Play Clue Lie*. Cathy knows that Alice likely did things this way because she wanted a 2-for-1 (to pick up some useful 3 "for free") instead of just a 1-for-1 on just the pink 4.
 
 #### No Order Chop Moves
 
