@@ -3223,15 +3223,9 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 #### The Duck Double Bluff
 
 * *3 Bluffs* are "turned off" in this variant, for obvious reasons.
-* This means that players can use the *Double Bluff* convention much more often by giving *Play Clues* to two-away from playable 3's. After seeing two blind-plays occur, the receiver of the clue will know that their card is two-away from playable. (This takes precedence over more complicated things, like *Layered Finesses*.)
+* This means that players can use the *Double Bluff* convention much more often by giving *Play Clues* to two-away from playable 3's. After seeing two unrelated blind-plays occur, the receiver of the clue will know that their card is two-away from playable. (This takes precedence over more complicated things, like *Layered Finesses*.)
   * Note that it is also possible to *Double Bluff* by cluing two-away 4's and two-away 5's, but that can be done in any variant.
 * *Double Half-Bluffs* are explicitly outlawed. In other words, the first blind-play from a *Double Bluff* must be completely unrelated to the card that was clued.
-
-#### The Duck Trash Ejection
-
-* Normally, you cannot perform a *Trash Finesse* in Duck variants, because any *Trash Finesse* will look like a real *Finesse*, and the trash card will misplay.
-* However, similar to normal *Ejections*, if the blind-playing player plays their *Second Finesse Position* card, then they can communicate that something is wrong with the clue.
-* This will communicate to the clue receiver that the touched card is trash.
 
 #### The 1's Promise
 
