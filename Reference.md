@@ -3038,6 +3038,15 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * Since blue color clues are only to be used as a last resort, players can use them in situations that are unnecessary in order to communicate something extra.
 * In a situation where a clean number clue was available and a blue color clue was used instead, the next player should blind-play their *Finesse Position* card as a *Known Bluff*.
 * The next player after that will assume that a *Finesse* occurred. However, once they play their *Second Finesse Position* card and see that it is an unrelated suit, then they will know that an *Unnecessary Blue Bluff* occurred.
+* For example, in a 3-player game:
+  * It is the first turn and nothing is played on the stacks.
+  * Cathy's hand is as follows, from left to right: sky 4, sky 1, sky 4, sky 3, sky 3
+  * If Alice clues number 1 to Cathy, she could cleanly "get" the sky 1.
+  * Instead, Alice clues blue to Cathy, touching all 5 cards in Cathy's hand. Cathy knows that this means that she can play her slot 2 card.
+  * Bob sees that Cathy's blue clue was unnecessary, because a number 1 clue could have cleanly gotten the sky 1. Since blue clues are only to be used as a last resort, this must be an *Unnecessary Blue Bluff*.
+  * Bob blind-plays his *Finesse Position* card and it is a berry 1.
+  * Cathy knows that a *Play Clue* on slot 2 made Bob blind-play, so this must be a *Finesse* and Cathy must have the berry 2 to match Bob's blind-play.
+  * Cathy plays her slot 2 card as berry 2 and it is instead the sky 1. Cathy now knows that Alice performed an *Unnecessary Blue Bluff*.
 
 ### Color Blind Conventions
 
