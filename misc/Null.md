@@ -21,7 +21,7 @@
 * A **color** positional clue corresponds a slot number that is based on the order and amount of stacks in the particular variant. Stacks correspond to the slot numbers **from right to left**.
   * For example, in a 3-player game of the *Null (5 Suit)* variant, there are 5 stacks and 5 slots in the hand. Thus, a red clue means to play slot 4 (since it is the second stack from the right).
   * For example, in a 3-player game of the *Null (6 Suit)* variant, there are 6 stacks and 5 slots in the hand. Thus, a purple clue means to *Chop Move* (since there is no slot 5 card).
-  * For example, in a 3-player game of the *Null (4 Suit)* variant, there are 4 stacks and 5 slots in the hand. Thus, a yellow clue means to play slot 4 (since it is the secomd stack from the right).
+  * For example, in a 3-player game of the *Null (3 Suit)* variant, there are 3 stacks and 5 slots in the hand. Thus, a yellow clue means to play slot 5 (since it is the rightmost stack).
 
 #### Do I discard cards touched as a *Positional Clue*?
 
