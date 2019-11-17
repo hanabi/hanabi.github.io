@@ -309,4 +309,10 @@ The next announcement will be on November 23rd.
 * The next player after that will assume that a *Finesse* occurred. However, once they their *Second Finesse Position* card and see that it is an unrelated suit, then they will know that an *Unnecessary Blue Bluff* occurred.
 ```
 
+**The Duck Trash Ejection** (deleted) (by Kakashi)
+
+```
+* This convention conflicts with *5's Color Ejection*.
+```
+
 - omni + pink conventions
