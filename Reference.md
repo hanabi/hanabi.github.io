@@ -3408,7 +3408,8 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 | The 5 Color Ejection & The 5 Color Discharge | Jeff
 | The 5 Pull Ejection and The 5 Pull Ejection Chop Move | Jeff
 | The Double 5 Pull | Jeff
-| Positional Clues | Razvogor & Zamiel
+| Null Positional Clues | Razvogor & Zamiel
 | Stacked 5 Color Ejection | Fireheart
 | The Pink Lie Prompt & The Pink Lie Finesse | Razvogor
+| Brown Positional Clues | Kakashi
 | The Unnecessary Blue Bluff | Jake
