@@ -6,7 +6,8 @@
 
 ### Hard Variant
 
-* Any variant with a null suit is treated as a *Hard Variant*, meaning that *Loaded Play Clues* are "turned on" and so forth.
+* Any variant with a null suit is treated as a *Hard Variant*, meaning that *
+Play Clues* are "turned on" and so forth.
 
 <br />
 
@@ -41,11 +42,12 @@
   * a *Finesse* or *Bluff* that was initiated with a rank clue when a ***Free Choice*** was available between rank and color
   * a clue that has no "normal" conventional interpretation
 
-#### Are *Positional Clues* both *Save Clues* and *Play Clues*?
+#### Are *Positional Clues* a *Save Clue* or a *Play Clue*?
 
 * A *Positional Clue* can be either a *Save Clue* or a *Play Clue*:
   * If the slot corresponds to the chop of a player, then they have to respect that it could be a *Save Clue*. In other words, it could be a *2 Save* on a null 2, a *5 Save* on a null 5, or a save on a critical null 3 or null 4 (if the other copy is in the trash).
   * If the slot corresponds to a slot that is not on the chop, then it is a *Play Clue*.
+  * However, *Loaded Play Clues* **always** apply to *Positional Clues*, even in the *Early Game*. (This means that you cannot ever give a *Positional Save Clue* to a player that has one or more known-playable cards.)
 
 #### Can I use *Positional Clues* to get non-null cards?
 
