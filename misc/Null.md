@@ -99,7 +99,6 @@
 
 #### The Positional Bounce Finesse
 
-* This convention only applies to variants with a null suit.
 * Normally, in a *Positional Layered Finesse*, a player will blind-play cards in a rightward direction until they find the null target card.
 * However, what if a player in the middle of a *Positional Layered Finesse* plays their chop and it successfully plays but it is not be a null card?
 * In this circumstance, the player should **not** stop blind-playing. They should go on to play their new chop card, similar to a *Positional Inverted Layered Finesse*.
