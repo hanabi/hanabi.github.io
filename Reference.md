@@ -3030,6 +3030,11 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 ### Very Ambiguous (3 Suits) Conventions
 
 * A blue color clue means to play the *Second Finesse Position* (as before the blue color clue was given).
+* Players can also use blue to initiate a *Finesse*. For example:
+  * It is the first turn of the game and nothing is played on the stacks.
+  * Alice clues blue to Cathy.
+  * Bob blind-plays slot 1 as sky 1.
+  * Cathy plays slot 2 as sky 2.
 * Blue color clues are only to be used as a last resort, meaning that if it is possibly to cleanly clue the Second Finesse Position with a number clue, then players must do so.
 * Cards touched with blue do not count as being touched for the purposes of discarding, *Good Touch Principle*, and so forth.
 
