@@ -6,8 +6,7 @@
 
 ### Hard Variant
 
-* Any variant with a null suit is treated as a *Hard Variant*, meaning that *
-Play Clues* are "turned on" and so forth.
+* Any variant with a null suit is treated as a *Hard Variant*, meaning that *Loaded Play Clues* are "turned on" and so forth.
 
 <br />
 
