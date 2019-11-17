@@ -2822,24 +2822,9 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * However, Bob also knows that *Prompts* do not apply to pink cards with a rank mismatch. This is currently the case for him since he is promised a 3 and his clued card has a number 4 clue on it.
   * Thus, Bob plays his *Finesse Position* card as pink 3.
 
-#### The Pink Play Clue Lie (which resolves immediately)
-
-* Players can violate *Pink Promise* if they are giving a *Play Clue* and the lie will resolve immediately.
-* For example, in a 3-player game:
-  * Pink 3 and and red 2 are played on the stacks.
-  * Alice clues number 3 to Bob, touching a pink 4 on slot 1 and a blue 3 on slot 2.
-  * Bob immediately plays the card on slot 1, thinking that it is a red 3. It is actually the pink 4.
-  * Bob knows that Alice broke *Pink Promise* and that he was lied to. However, the lie was legal because it resolved immediately, satisfying *Good Lie Principle*. Nothing else is promised.
-  * Bob knows that Alice likely did things this way because she wanted a 2-for-1 (to pick up some useful 3 "for free") instead of just a 1-for-1 on just the pink 4.
-
-#### No Order Chop Moves
-
-* At the beginning of the game, when you get a clue that touches multiple 1's, you are supposed to play them from right-to-left (in exactly in the same way that you would in a no variant game).
-* Players are not allowed to *Order Chop Move*, because they could be misplaying a pink card. (See the following two sections, which are related.)
-
 #### The Pink Play Clue Lie (with multiple 1's)
 
-* Players can also violate *Pink Promise* with a number 1's clue if all of the cards will successfully play. Unlike the type of lie in the previous section, this does not have to resolve immediately.
+* Players can violate *Pink Promise* with a number 1's clue if all of the cards will successfully play.
 * For example, in a 3-player game:
   * It is the first turn and nothing is played on the stacks.
   * Alice clues number 1 to Bob, touching a red 1 on slot 1, a pink 3 on slot 2, a pink 2 on slot 3, and a pink 1 on slot 4.
@@ -2848,6 +2833,20 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * On his next turn, Bob plays the pink 2 from slot 3. Bob is immediately surprised that this is not a real 1, but he knows that this kind of thing is allowed and that he should continue to play his remaining 1's.
   * On his next turn, Bob plays the pink 3 from slot 2. Bob is again surprised that this is not a real 1, but he knows that this kind of thing is allowed and that he should continue to play his final 1.
   * On his next turn, Bob plays the red 1 from slot 1.
+
+#### The Pink Play Clue Lie (with a mismatched *Play Clue* that touches other cards)
+
+* Players can also violate *Pink Promise* if they are giving a *Play Clue* and the lie will be resolved when the player who is clued plays their focused card.
+* For example, in a 3-player game:
+  * Pink 3 and and red 2 are played on the stacks.
+  * Alice clues number 3 to Bob, touching a pink 4 on slot 1 and a blue 3 on slot 2.
+  * Bob immediately plays the card on slot 1, thinking that it is a red 3. It is actually the pink 4.
+  * Bob knows that Alice broke *Pink Promise* and that he was lied to, but that it was a *Pink Play Clue Lie*. Bob knows that Alice likely did things this way because she wanted a 2-for-1 (to pick up some useful 3 "for free") instead of just a 1-for-1 on just the pink 4.
+
+#### No Order Chop Moves
+
+* At the beginning of the game, when you get a clue that touches multiple 1's, you are supposed to play them from right-to-left (in exactly in the same way that you would in a no variant game).
+* Players are not allowed to *Order Chop Move*, because they could be misplaying a pink card. (See the following two sections, which are related.)
 
 #### Pink Fix Clues (on 1's)
 
