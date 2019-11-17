@@ -38,7 +38,7 @@
   * a *5 Pull* or a *Trash Pull*
   * a *Trash Push*
   * a *Black 4 Bluff* (with black)
-  * a *Finesse* or *Bluff* that was initiated with a rank clue with a ***Free Choice*** between rank and color
+  * a *Finesse* or *Bluff* that was initiated with a rank clue with a ***Free Choice*** available between rank and color
   * a clue that has no "normal" conventional interpretation
 
 #### How do the clues map to the slot numbers in the different types of null variants?
