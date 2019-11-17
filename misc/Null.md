@@ -41,13 +41,6 @@
   * a *Finesse* or *Bluff* that was initiated with a rank clue with a ***Free Choice*** available between rank and color
   * a clue that has no "normal" conventional interpretation
 
-#### How do the clues map to the slot numbers in the different types of null variants?
-
-* In certain game types, the slot may not be clear:
-  * If there is an extra number available (e.g. if there are only 4 cards in the hand), then a positional 5 means to save the chop and the other numbers are always *Play Clues*.
-  * If there are not enough colors available for each slot, then the colors map to the lowest slot numbers. For example, in a 3-player game with only blue and green available, blue would map to slot 4 and green would map to slot 5.
-  * If there are one or more extra colors available (e.g. a 3-player 6-suit game), then the extra colors wrap around to being slot 1, slot 2, and so forth.
-
 #### Are *Positional Clues* both *Save Clues* and *Play Clues*?
 
 * A *Positional Clue* can be either a *Save Clue* or a *Play Clue*:
