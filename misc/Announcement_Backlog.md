@@ -316,3 +316,4 @@ The next announcement will be on November 23rd.
 ```
 
 - omni + pink conventions
+- null slides
