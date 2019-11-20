@@ -871,13 +871,20 @@ Priority does not always apply. Some common exceptions are listed below.
 
 ### Prompts in Multi-Color Variants
 
-* In multi-color variants, *Prompts* apply to the card with the most positive information. (Players are **not** supposed to use information from negative clues.)
+* In multi-color variants, *Prompts* apply to the card with the most positive information.
 * For example, in a 3-player rainbow game:
   * Red 2 is played on the stacks.
   * Alice clues red to Cathy, touching a red 4 as a *Play Clue*. This is a *Prompt* on Bob for a red 3.
   * In slot 1, Bob has a card with only a red clue on it. (Thus, it can be any red card or any rainbow card.)
   * In slot 2, Bob has a card with a red clue and a 3 clue on it. (Thus, it can be red 3 or rainbow 3.)
   * Since slot 2 has more positive information, Bob should choose to play slot 2 as red 3 (instead of slot 1, the left-most card).
+* Players are **not** supposed to use information from negative clues.
+* For example, in a 3-player rainbow game:
+  * Red 2 is played on the stacks.
+  * Alice clues red to Cathy, touching a red 4 as a *Play Clue*. This is a *Prompt* on Bob for a red 3.
+  * In slot 1, Bob has a card with a positive red clue on it. (Thus, it can be any red card or any rainbow card.)
+  * In slot 2, Bob has a card with a positive red clue on it and a negative green clue on it. (Thus, it can be any red card.)
+  * Even though slot 2 is technically more likely to be the red 3, Bob knows that players are not supposed to use negative ifnormation for determining which card to play into a *Prompt*. Thus, Bob plays the red 3 from slot 1.
 
 ### Bluffs Through Already-Clued Cards
 
