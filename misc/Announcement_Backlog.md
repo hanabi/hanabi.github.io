@@ -26,29 +26,6 @@ The next announcement will be on November 23rd.
 * This convention is deleted, as it is hardly ever used.
 ```
 
-**Priority Potential Duplication & The Certain Priority Finesse** (by Zamiel & Libster)
-
-```
-* Normally, players can perform any particular type of *Finesse* either by giving a clue or by playing a card without *Priority*. For example, it is possible to both do a *Layered Finesse* (by giving a clue) and a *Layered Priority Finesse* (by playing a card).
-* One exception to this rule is the *Certain Finesse*. When a player perform a *Certain Finesse*, it calls for a *Certain Discard*. However, when a player uses *Priority* to promise a card that could potentially be in their own hand, this should **not** induce a *Certain Discard*. The other players in this situation should just ignore the *Priority* and instead discard their chop card.
-```
-
-**Trash Double Bluff (Form 1)** (by Jeff)
-
-```
-* Normally, *Trash Bluffs* are only done as a last resort. When a *Trash Bluff* is performed that is unnecessary, then it is an *Unnecessary Trash Bluff Chop Move*. However, if there are no cards left to *Chop Move*, then this interpretation does not make any sense.
-* In this situation, the interpretation should revert to a *Trash Double Bluff*.
-```
-
-**Trash Double Bluff (Form 2)** (by Jeff)
-
-```
-* Normally, *Trash Bluffs* are only done as a last resort, meaning that the target card cannot be clued directly. In this situation, if a player has the option to initiate the *Trash Bluff* with a single card, then they **must** choose to do so.
-* If a player deliberately does not initiate the *Trash Bluff* with a single card and instead initiates a *Trash Bluff* by touching two or more trash cards, then they must be trying to communicate something extra - a *Trash Double Bluff*.
-  * If a player is doing a *Unnecessary Trash Bluff Chop Move*, then they can clue as many trash cards as they want and it should not trigger a *Trash Double Bluff*.
-* All of the cards touched in this way are promised to be trash.
-```
-
 **The 5 Double Pull** (by Jeff)
 
 ```
