@@ -3286,6 +3286,12 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Cathy sees that Bob was clued about a red 1 and a red 3. Cathy knows that because of the *1's Promise*, Bob will misplay the red 3 when it gets to his turn.
   * Cathy blind-plays her *Finesse Position* as red 2.
 
+#### 5 Ejection
+
+* *5 Color Ejection* is turned on in Duck variants, as you would expect.
+* Additionally, players can also perform *5 Number Ejection* and it will generally work in the exact same way.
+* Thus, players should keep in mind that clues that cause *Ejection* might have been either a color clue or a number clue.
+
 #### The Double Play Bluff
 
 * Normally, when a playable card is clued again, it is interpreted as an *Double Play Ejection* on the very next player.
