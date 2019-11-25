@@ -2423,23 +2423,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * This move is so bad that it must be communicating something extra. Alice must be intending for a *Rank Choice Ejection*. Bob blind-plays his *Second Finesse Position* card and it is a blue 1 and successfully plays.
   * Cathy knows that since a number 2 clue cause Bob to blind-play his *Second Finesse Position*, this must be an *Ejection*. The only type of *Ejection* that matches this kind of clue is a *Rank Choice Ejection*, so Cathy knows that her 2 must be playable and that her 2 must be exactly the red 2. Cathy plays the red 2.
 
-### The 5 Pull Ejection and The 5 Pull Ejection Chop Move
-
-* This convention only applies in the *Early Game*.
-* Normally, if someone performs a *5 Pull* on a card that is one-away-from-playable, it promising that someone has the in-between card as a *5 Pull Finesse*.
-* Subsequently, if someone performs a *5 Pull* on a card that is two-away (or more) from playable card, then they might be trying to perform a *5 Pull Double Finesse*.
-* If the very next player sees that **they will only have to blind-play one card in their hand to fulfill the *Finesse***, then they should assume that it is a *Finesse* and blind-play their *Finesse Position*.
-* If the very next player sees that they would have to blind-play two or more cards in their hand to fulfill the *Finesse*, then a *Finesse* is unlikely. Instead, players agree that this signals an *Ejection* and that the next player should play their *Second Finesse Position*.
-* The player receiving the clue should also *Chop Move* the *5 Pull* target, as it is likely to be a useful card that the team will need later.
-* For example, in a 4-player game:
-  * It is the first turn and nothing is played on the stacks.
-  * Alice clues number 5 to Cathy, touching a red 5 on slot 1. Cathy has a blue 4 on slot 2. There are other *Play Clues* for Alice to give, so this looks like a *5 Pull* on the blue 4.
-  * Bob knows that if no-one on the team does anything, Cathy will go on to misplay the blue 4 as a *5 Pull*.
-  * Bob also knows that if he plays his *Finesse Position* card, Cathy will still go on to misplay the blue 4 as a *5 Pull Finesse*.
-  * Thus, Bob blind-plays his *Second Finesse Position* card. It is blue 1 and it successfully plays.
-  * Cathy now knows that the card to the right of her 5 is two (or more) away from being playable. She also marks the card as being chop moved.
-* Rarely, it is possible for a *5 Pull Ejection* to occur where the player who receives the number 5 clue is able to determine that the only "other" thing to clue must be a card in their hand. In this situation, they might be hesitant to discard. By convention, players are allowed to discard in this situation. (This follows from *Guide Principle*.)
-
 ### Order Ejection
 
 * When a player can perform an *Skipped Order Chop Move* on a critical 5 (or a critical black card) at the beginning of the game, and they don't do it, this is very strange.
@@ -2470,6 +2453,24 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * Since that would be a lie, the clue must have some other purpose - it should signal an *Discharge* on the very next player.
 * Since the *Third Finesse Position* card was played instead of the *Finesse Position* card, then the player who received the clue will know that the card is trash.
 * When multiple cards are clued with an *Unknown Trash Discharge*, **only the focus of the clue is considered to be trash**, meaning that *Good Touch Principle* applies to the non-focused cards. (Note that this is **the opposite of the *Trash Bluff***. In a *Trash Bluff*, when multiple cards are clued, **all** of the touched cards are considered to be trash.)
+
+### 5 Number Discharge
+
+* This convention only applies in the *Early Game*.
+* In the *Early Game*, if a number 5 clue is performed on a 5 that is not already on chop, then it is a *Play Clue* on the 5 (if there are any 5's that are directly playable).
+* If there are no directly playable 5's, then the clue is instead a *5 Stall*.
+* If a *5 Stall* is not allowed, then it is a *5's Chop Move* (if the card is one-away-from-chop) or a *5 Pull* (if the card is two or more away from chop).
+* If a *5 Pull* is performed on a card that is one-away-from-playable, it typically communicates a *5 Pull Finesse*.
+* However, if the *5 Pulled* card is two or more away from playable **or** the *5 Pulled* card is trash, then the clue must instead be a *Play Clue* on the 5 as a *Finesse*.
+* If the very next player sees that they will only have to **blind-play one card** in their hand to fulfill the *Finesse*, then they should assume that it is a *Finesse* and blind-play their *Finesse Position*.
+* If the very next player sees that they would have to **blind-play two or more cards** in their hand to fulfill the *Finesse*, then a *Finesse* is unlikely. Instead, players agree that this signals an *Discharge* and that the next player should play their *Third Finesse Position*.
+  * *Prompts* don't factor into the "two or more blind-plays" rule. Players only count the number of blind-plays.
+* For example, in a 3-player game:
+  * It is the first turn and nothing is played on the stacks.
+  * Alice clues number 5 to Cathy, touching a 5 on slot 1.
+  * Cathy hand is as follows: red 5, red 2, red 3, green 1, green 2
+  * Bob sees that Alice's clue cannot be a *5 Stall* or a *5 Pull*. If it were a *Finesse* on the red 5, he would have to blind-play a red 1 and a red 4.
+  * Since Bob would have to blind-play two cards into the *Finesse*, he knows that he should instead treat this as a *5 Number Discharge*. Bob blind-plays his slot 3 card and it successfully plays as the red 1.
 
 <br />
 
@@ -3440,3 +3441,4 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 | The Pink Lie Prompt & The Pink Lie Finesse | Razvogor
 | Brown Positional Clues | Kakashi
 | The Unnecessary Blue Bluff | Jake
+| 5 Number Discharge | Jeff
