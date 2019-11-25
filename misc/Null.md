@@ -75,7 +75,7 @@
 
 #### What happens if a *Positional Clue* targets a card that already has a clue on it?
 
-* By convention, *Positional Clue* must target null cards. Thus, if a *Positional Clue* targets a card that already has a clue on it, then it slides over and targets the slot one position to the right.
+* By convention, *Positional Clues* must target null cards. Thus, if a *Positional Clue* targets a card that already has a clue on it, then it slides over and targets the slot one position to the right.
   * If the *Positional Clue* targets the right-most card, then it slides over to the left.
 * This allows players the flexibility to "get" a null card when the clue types that would directly target the null card are not available.
 
