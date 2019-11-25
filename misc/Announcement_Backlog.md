@@ -374,4 +374,12 @@ The next announcement will be on November 23rd.
 * Thus, if a null 2 is discarded, players should not make any *Elimination Notes* for them.
 ```
 
+**5 Ejection** (in Duck) (by Kakashi)
+
+```
+* *5 Color Ejection* is turned on in Duck variants, as you would expect.
+* Additionally, players can also perform *5 Number Ejection* and it will generally work in the exact same way.
+* Thus, players should keep in mind that clues that cause *Ejection* might have been either a color clue or a number clue.
+```
+
 - omni + pink conventions
