@@ -123,7 +123,7 @@ Note that in this user interface, players are **not** holding their hands like t
 
 * As outlined in the [beginner guide](https://github.com/Zamiell/hanabi-conventions/blob/master/Beginner.md), when players have to discard, they typically discard their right-most unclued card.
 * A player's chop card is formally defined as **the next unclued card that they would discard if they had nothing to do**.
-* If a player has a clued and known trash card, then they will typically discard the known trash card **instead** of discarding their chop. (But the trash card does **not** count as the chop - their chop remains the right-most unclued card.)
+* If a player has a clued card that is known useless, then they will typically discard the useless card **instead** of discarding their chop. (But the useless card does **not** count as the chop - their chop remains the right-most unclued card.)
 
 ### The Prompt
 
