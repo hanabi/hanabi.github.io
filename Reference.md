@@ -119,6 +119,12 @@ Note that in this user interface, players are **not** holding their hands like t
 
 * Level 1 strategies can be learned with no games of Hanabi played. You can either learn them before you play your first game or after you play a few games to learn the basic mechanics.
 
+### Chop
+
+* As outlined in the [beginner guide](https://github.com/Zamiell/hanabi-conventions/blob/master/Beginner.md), when players have to discard, they typically discard their right-most unclued card.
+* A player's chop card is formally defined as **the next unclued card that they would discard if they had nothing to do**.
+* If a player has a clued and known trash card, then they will typically discard the known trash card **instead** of discarding their chop. (But the trash card does **not** count as the chop - their chop remains the right-most unclued card.)
+
 ### The Prompt
 
 * The *Prompt* is a move covered in [beginner guide](https://github.com/Zamiell/hanabi-conventions/blob/master/Beginner.md). It is when you get a player to clued card that was previously unknown.
