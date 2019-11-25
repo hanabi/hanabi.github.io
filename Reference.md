@@ -404,7 +404,7 @@ Note that in this user interface, players are **not** holding their hands like t
 
 ### A Scream Discard Flowchart
 
-[Here is a handy flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/flowcharts/scream_discard_flowchart.png) for determining whether something is a *Scream Discard Chop Move* or a *Generation Discard*. (It also covers some more rare types of moves that are covered later on in this document, but you can ignore those for now.)
+[Here is a handy flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/flowcharts/scream_discard_flowchart.png) for determining whether something is a *Scream Discard Chop Move* or a *Generation Discard*. (It also mentions a more advanced move called an *Echo Scream Discard Chop Move*, but you can safely ignore that for now.)
 
 ### The Tempo Clue (Re-cluing a Card to Play)
 
