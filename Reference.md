@@ -3292,6 +3292,13 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * Additionally, players can also perform *5 Number Ejection* and it will generally work in the exact same way.
 * Thus, players should keep in mind that clues that cause *Ejection* might have been either a color clue or a number clue.
 
+#### 4 Charm
+
+* *Charm* is defined as a move that makes a player play their *Fourth Finesse Position*.
+* Similar to *5 Ejection*, if a player gives a *Play Clue* to an unplayable 4 that would require two or more blind-plays in order to fulfill the *Finesse*, then a *Finesse* is unlikely.
+* Players agree that this communicates a *Charm*.
+* Similar to *5 Ejection*, *4 Charm* can be initiated with either a color clue or a number clue.
+
 #### The Double Play Bluff
 
 * Normally, when a playable card is clued again, it is interpreted as an *Double Play Ejection* on the very next player.
