@@ -2935,29 +2935,20 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Bob instead knows that this must be a *Pink Fix Clue* and that his left-most pink card (on slot 4) must be exactly the pink 3.
   * Bob discards his slot 4 card as pink 3.
 
-#### The Bubblegum Finesse
-
-* The *Pink Choice Finesse* can also work on non-pink cards. This is called a *Bubblegum Finesse* to disambigate it from a more-ordinary *Pink Choice Finesse*.
-* *Pink Fix Clues* take precedence over *Bubblegum Finesses*, so they will only typically work if performed as a *Forward Finesse* (instead of a *Reverse Finesse*).
-* For example, in 3-player game:
-  * No cards are played on the stacks.
-  * Cathy has an unclued red 2 in slot 1, a clued pink 3 in slot 3, and a clued pink 2 in slot 4.
-  * Alice clues number 1 to Cathy, which touches both pink cards and nothing else.
-  * Bob knows that a rank 1 clue means to play slot 1, so red 2 must be playable right now. Bob blind-plays red 1 from his *Finesse Position*.
-  * Cathy blind-plays her slot 1 as red 2.
-
-#### The Pink Lie Prompt & The Pink Lie Finesse
+#### The Bubblegum Prompt & The Bubblegum Finesse
 
 * Normally, when players give a clue to a pink card with a number, they exactly match the number of the card in order to satisfy *Pink Promise*.
-* Some common situations where players violate *Pink Promise* are covered in the "The Pink Play Clue Lie (which resolves immediately)" and the "The Pink Play Clue Lie (with multiple 1's)" sections above.
+* Some common situations where players violate *Pink Promise* are covered in the two different *Pink Play Clue Lie* sections above.
 * Rarely, it is also possible to lie about the rank of a pink card that is not yet playable. Doing so communicates the slot number of where the connecting card is.
-* For example, in a 3-player game:
-  * Pink 1 is played on the stacks.
-  * Alice clues number 4 to Cathy, touching a pink 3 on slot 1.
-  * Bob has no clued cards in his hand.
-  * Bob can see that Alice's clue breaks *Pink Promise*. Furthermore, Bob can see that Alice had no good reason to do so: there are no other pink cards in Cathy's hand, so nothing was preventing a pink color clue.
-  * Thus, Alice must be trying to communicate something extra. This must be a *Pink Lie Finesse* that communicates which slot to play, so Bob blind-plays his slot 4 card and it is the pink 2.
-  * Cathy knows that since Bob blind-played his slot 4 from the number 4 clue, this must be a *Pink Lie Finesse* and that she must have the matching pink 3.
+* For example, in a 4-player game:
+  * All the 1's are played on the stacks
+  * Donald has a pink 3 in his hand clued with pink. He does not know the rank of the card.
+  * Alice clues Donald number 4, which only touches the pink 3.
+  * Bob knows that since the pink 3 is the focus of the clue, it must be playable right now. However, if this was a normal *Finesse* (and Bob had a pink 2 on his *Finesse Position*), then Alice would have used a pink clue or a number 3 clue (to match the real rank of the card, satisfying *Pink Promise*).
+  * Bob knows that since Alice did not do either of these things, she must be trying to communicate something extra. This must be a *Bubblegum Finesse*, indicating which slot the pink 2 is in.
+  * Bob sees that Cathy has the pink 2 in slot 4. Thus, he knows that the *Bubblegum Finesse* is not on him. Bob discards.
+  * Cathy goes through the same steps as Bob. Cathy does not see the pink 2 anywhere else, so she knows that the *Bubblegum Finesse* is on her. Cathy blind-plays pink 2 from slot 4.
+  * Donald knows that since Cathy played his slot 4 card, this was a *Bubblegum Finesse*, and that his pink card must be the matching card. Donald plays the pink 3.
 
 ### White Conventions
 
@@ -3452,3 +3443,4 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 | The Unnecessary Blue Bluff | Jake
 | 5 Number Discharge | Jeff
 | The Purge Bluff | Zamiel
+| The Bubblegum Finesse | Razovogor
