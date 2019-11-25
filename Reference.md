@@ -1463,18 +1463,17 @@ Priority does not always apply. Some common exceptions are listed below.
   * Donald clearly knows that this is a *Layered Finesse* on Cathy, and she will continue to play cards until she finds the blue card that matches the one in his hand.
 * In other words, most *Layered Finesses* cause unrelated cards to blind-play that do not match the type of clue given.
 * With that said, it is also possible to perform a *Layered Finesse* for unrelated cards that **do** match the type of the clue given. When this happens, it is hidden from the receiver of the clue, so we call it a *Clandestine Finesse* to disambiguate it from a (more obvious) *Layered Finesse*.
-* For example, in the following screenshot:
-  * Zealousy's hand has a green 2 and a green 3 that are already touched with a green clue.
-  * Instantiation clues number 3 to Zealousy, which touches only one brand new card, the purple 3. Thus, the purple 3 is the focus of the clue.
-  * Hyphen-ated knows that the purple 3 is currently unplayable, so it must be a *Finesse*. He attempts to play purple 2 from his *Finesse Position* (slot 1). It is instead a red 2.
-  * Normally, Zealousy would think that he has the red 3 on his slot 1, because the card that was blind-played matches the clue. (Number 2 matches number 3.)
-  * However, Zealousy also sees that Hyphen-ated had a purple 2 on his *Second Finesse Position* at the time of the clue. So there is a possibility that this was a *Clandestine Finesse* instead of a normal *Finesse*. Thus, Zealousy has to give Hyphen-ated a chance to blind-play the purple 2. If he does not, then Zealousy does indeed have the red 3. Zealousy discards.
-  * Instantiation also discards.
-  * Hyphen-ated was surprised that he played the red 2, but now knows that it was a *Clandestine Finesse* instead of a normal *Finesse*. He blind-plays his slot 2, and it is the purple 2. If he did not do this, then Zealousy would misplay purple 3 as red 3.
-  * Zealousy plays purple 3.
 
 ![Clandestine Finesse](img/clandestine_finesse.png)
 
+* For example, in the above screenshot:
+  * Alice clues number 3 to Cathy, which touches the purple 3 on slot 1 and the green 3 on slot 4. Thus, the purple 3 is the focus of the clue. This must be a *Play Clue* on the purple 3.
+  * Bob knows that the purple 3 is currently unplayable, so it must be a *Finesse*. He blind-plays his *Finesse Position* as purple 2, but it is a red 2 instead and successfully plays.
+  * Normally, Cathy would think that she has the red 3 on her slot 1, because the card that was blind-played matches the clue. (Number 2 matches number 3.)
+  * However, Cathy also sees that Bob had a purple 2 on his *Second Finesse Position* at the time of the clue. So there is a possibility that this was a *Clandestine Finesse* instead of a normal *Finesse*. Thus, Cathy has to give Bob a chance to blind-play the purple 2. If he does not, then Cathy does indeed have the red 3. Cathy discards.
+  * Alice also discards.
+  * Bob was surprised that he played the red 2, but now knows that it was a *Clandestine Finesse* instead of a normal *Finesse*. He blind-plays his slot 2 and it is the purple 2 and successfully plays. (Bob knows that if he did not do this, then Zealousy would go on to misplay purple 3 as red 3.)
+  * Cathy plays purple 3.
 * Since we are allowed to lie in *Bluff Seat*, doing a *Layered Finesse* in *Bluff Seat* typically won't work. Instead of getting a big layered chain of cards, it will be interpreted as a *Bluff*, and only one card will be played. However, note that a *Clandestine Finesses* can get around this restriction, because it induces a potential misplay. The blind-playing player **must** continue to blind-play cards, or else the player receiving the clue will assume that the *Finesse* is "over" and will play the clued card.
 
 ### The Stacked Finesse
