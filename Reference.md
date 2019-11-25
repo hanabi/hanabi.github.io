@@ -2350,7 +2350,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 ### The 5 Color Ejection (5CE)
 
 * Normally, if a player gives a color *Play Clue* to a 5, it would mean that it is a *Finesse* on the 5 and all of the cards leading up to the 5 are playable.
-* If the very next player sees that they will only have to **blind-play one card** in their hand to fulfill the *Finesse***, then they should assume that it is a *Finesse* and blind-play their *Finesse Position*.
+* If the very next player sees that they will only have to **blind-play one card** in their hand to fulfill the *Finesse*, then they should assume that it is a *Finesse* and blind-play their *Finesse Position*.
 * If the very next player sees that they would have to **blind-play two or more cards** in their hand to fulfill the *Finesse*, then a *Finesse* is unlikely. Instead, players agree that this signals an *Ejection* and that the next player should play their *Second Finesse Position*.
   * *Prompts* don't factor into the "two or more blind-plays" rule. Players only count the number of blind-plays.
 * After the blind-play, the player who received the clue will know that they must have a 5.
