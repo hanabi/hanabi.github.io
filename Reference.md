@@ -2087,12 +2087,12 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 #### 1) A *Disease Bluff*
 
+![Disease Bluff](img/disease_bluff.png)
+
 * Say that Cathy sees the red 2 in Donald's hand and she can uniquely clue it. If she does, Donald will go on to immediately play it.
 * This would "heal" the problem, as Bob would not think that he has red 2 anymore. Thus, this clue is called a *Heal Clue*.
 * The original *Bluff* is called a *Disease Bluff*, since it requires healing.
 * The *Disease Bluff* interpretation is the highest priority interpretation!
-
-![Disease Bluff](img/disease_bluff.png)
 
 #### 2) A *Pestilent Double Bluff* (with Cathy seeing zero copies):
 
