@@ -76,25 +76,6 @@ The next announcement will be on November 23rd.
 * However, what if the *Trash Pushed* card is trash? The other players can see that this clue must have some other purpose - it should signal an *Ejection* on the very next player.
 ```
 
-**The 5 Pull Ejection and The 5 Pull Ejection Chop Move** (by Jeff)
-
-```
-* This convention only applies in the *Early Game*.
-* Normally, if someone performs a *5 Pull* on a card that is one-away-from-playable, it promising that someone has the in-between card as a *5 Pull Finesse*.
-* Subsequently, if someone performs a *5 Pull* on a card that is two-away (or more) from playable card, then they might be trying to perform a *5 Pull Double Finesse*.
-* If the very next player sees that **they will only have to blind-play one card in their hand to fulfill the *Finesse***, then they should assume that it is a *Finesse* and blind-play their *Finesse Position*.
-* If the very next player sees that they would have to blind-play two or more cards in their hand to fulfill the *Finesse*, then a *Finesse* is unlikely. Instead, players agree that this signals an *Ejection* and that the next player should play their *Second Finesse Position*.
-* The player receiving the clue should also *Chop Move* the *5 Pull* target, as it is likely to be a useful card that the team will need later.
-* For example, in a 4-player game:
-  * It is the first turn and nothing is played on the stacks.
-  * Alice clues number 5 to Cathy, touching a red 5 on slot 1. Cathy has a blue 4 on slot 2. There are other *Play Clues* for Alice to give, so this looks like a *5 Pull* on the blue 4.
-  * Bob knows that if no-one on the team does anything, Cathy will go on to misplay the blue 4 as a *5 Pull*.
-  * Bob also knows that if he plays his *Finesse Position* card, Cathy will still go on to misplay the blue 4 as a *5 Pull Finesse*.
-  * Thus, Bob blind-plays his *Second Finesse Position* card. It is blue 1 and it successfully plays.
-  * Cathy now knows that the card to the right of her 5 is two (or more) away from being playable. She also marks the card as being chop moved.
-* Rarely, it is possible for a *5 Pull Ejection* to occur where the player who receives the number 5 clue is able to determine that the only "other" thing to clue must be a card in their hand. In this situation, they might be hesitant to discard. By convention, players are allowed to discard in this situation. (This follows from *Guide Principle*.)
-```
-
 **Stacked 5 Color Ejection** (by Fireheart)
 
 ```
