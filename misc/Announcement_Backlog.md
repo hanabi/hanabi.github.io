@@ -308,5 +308,13 @@ The next announcement will be on November 23rd.
   * Alice blind-plays red 2.
 ```
 
+**Positional Slides**
+
+```
+* This convention only applies to variants with a null suit.
+* By convention, Positional Clue must target null cards. Thus, if a Positional Clue targets a card that already has a clue on it, then it slides over and targets the slot one position to the right.
+  * If the Positional Clue targets the right-most card, then it slides over to the left.
+* This allows players the flexibility to "get" a null card when the clue types that would directly target the null card are not available.
+```
+
 - omni + pink conventions
-- null slides
