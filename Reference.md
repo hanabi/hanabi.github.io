@@ -127,11 +127,11 @@ Note that in this user interface, players are **not** holding their hands like t
 
 ### The Prompt
 
-* The *Prompt* is a move covered in [beginner guide](https://github.com/Zamiell/hanabi-conventions/blob/master/Beginner.md). It is when you get a player to play a clued card that was previously unknown.
+* The *Prompt* is a move covered in the [beginner guide](https://github.com/Zamiell/hanabi-conventions/blob/master/Beginner.md). It is when you get a player to play a clued card that was previously unknown.
 
 ### The Finesse
 
-* The *Finesse* is a move covered in [beginner guide](https://github.com/Zamiell/hanabi-conventions/blob/master/Beginner.md). It is when you get a player to blind-play a card to prevent a misplay from occuring.
+* The *Finesse* is a move covered in the [beginner guide](https://github.com/Zamiell/hanabi-conventions/blob/master/Beginner.md). It is when you get a player to blind-play a card to fulfill a promise that a certain card is playable right now.
 
 ### Finesse Position
 
