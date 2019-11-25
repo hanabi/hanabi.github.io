@@ -2985,6 +2985,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 #### Brown Loaded Play Clues
 
 * *Loaded Play Clues* are "turned on" for brown cards.
+* Normally, *Loaded Play Clues* are "turned off" in the *Early Game*. However, note that *Loaded Play Clues* **always** apply to brown cards, even in the *Early Game*.
 
 #### Brown Positional Clues
 
