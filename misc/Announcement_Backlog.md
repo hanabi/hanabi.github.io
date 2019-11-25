@@ -352,4 +352,11 @@ The next announcement will be on November 23rd.
 * Care has to be taken that the other player (e.g. the player who is not *Purge Bluffed*) will understand what is going on. For example, they might think that a *Patch Finesse* is happening. Thus, *Purge Bluffs* can only be done in expert games where there is **no other possible interpretation for what is happening**.
 ```
 
+**Brown Loaded Play Clues** (clarification)
+
+```
+* *Loaded Play Clues* are "turned on" for brown cards.
+* Normally, *Loaded Play Clues* are "turned off" in the *Early Game*. However, note that *Loaded Play Clues* **always** apply to brown cards, even in the *Early Game*.
+```
+
 - omni + pink conventions
