@@ -127,7 +127,7 @@ Note that in this user interface, players are **not** holding their hands like t
 
 ### The Prompt
 
-* The *Prompt* is a move covered in [beginner guide](https://github.com/Zamiell/hanabi-conventions/blob/master/Beginner.md). It is when you get a player to clued card that was previously unknown.
+* The *Prompt* is a move covered in [beginner guide](https://github.com/Zamiell/hanabi-conventions/blob/master/Beginner.md). It is when you get a player to play a clued card that was previously unknown.
 
 ### The Finesse
 
