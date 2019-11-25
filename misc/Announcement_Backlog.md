@@ -366,4 +366,12 @@ The next announcement will be on November 23rd.
 * *Pink Lie Finesses* are now renamed to *Bubblegum Finesses*.
 ```
 
+**Relaxed 2 Saves** (in null variants)
+
+```
+* This convention only applies to variants with a null suit.
+* It is optional for players to give *Save Clues* to null 2's.
+* Thus, if a null 2 is discarded, players should not make any *Elimination Notes* for them.
+```
+
 - omni + pink conventions
