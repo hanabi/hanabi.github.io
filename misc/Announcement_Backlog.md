@@ -382,4 +382,14 @@ The next announcement will be on November 23rd.
 * Thus, players should keep in mind that clues that cause *Ejection* might have been either a color clue or a number clue.
 ```
 
+**4 Charm** (in Duck)
+
+```
+* This convention only applies to Duck variants.
+* *Charm* is defined as a move that makes a player play their *Fourth Finesse Position*.
+* Similar to *5 Ejection*, if a player gives a *Play Clue* to an unplayable 4 that would require two or more blind-plays in order to fulfill the *Finesse*, then a *Finesse* is unlikely.
+* Players agree that this communicates a *Charm*.
+* Similar to *5 Ejection*, *4 Charm* can be initiated with either a color clue or a number clue.
+```
+
 - omni + pink conventions
