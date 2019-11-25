@@ -308,7 +308,7 @@ The next announcement will be on November 23rd.
   * Alice blind-plays red 2.
 ```
 
-**Positional Slides**
+**Positional Slides** (for null)
 
 ```
 * This convention only applies to variants with a null suit.
