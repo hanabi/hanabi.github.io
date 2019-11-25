@@ -404,7 +404,7 @@ Note that in this user interface, players are **not** holding their hands like t
 
 ### A Scream Discard Flowchart
 
-[Here is a handy flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/flowcharts/scream_discard_flowchart.png) for determining whether something is a *Scream Discard Chop Move* or a *Generation Discard*. (It also covers some more rare types of moves that are covered later on in this document, but you can ignore those for now.)
+[Here is a handy flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/flowcharts/scream_discard_flowchart.png) for determining whether something is a *Scream Discard Chop Move* or a *Generation Discard*. (It also covers some more rare types of moves that are covered later on in this document, but you can ignore those for now.)
 
 ### The Tempo Clue (Re-cluing a Card to Play)
 
@@ -828,9 +828,9 @@ While the other sections in this document contain lists of special "moves", this
 
 ### A Priority Flowchart (For Choosing Between 2+ Playable Cards)
 
-*Priority* can be confusing. [Here is a flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/flowcharts/priority_flowchart.png) that shows, in general, which card should be played when there is a choice between two cards.
+*Priority* can be confusing. [Here is a flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/flowcharts/priority_flowchart.png) that shows, in general, which card should be played when there is a choice between two cards.
 
-[Here is another flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/flowcharts/priority_unknown_flowchart.png) that shows how *Priority* works when one or more of the cards is unknown.
+[Here is another flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/flowcharts/priority_unknown_flowchart.png) that shows how *Priority* works when one or more of the cards is unknown.
 
 ### Priority Exceptions
 
@@ -1343,7 +1343,7 @@ Priority does not always apply. Some common exceptions are listed below.
 
 ### A Flowchart for Cluing 5's in the Early Game
 
-* Differentiating between a *5 Stall* and a *5 Pull* can sometimes be confusing. [Here is a handy flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/flowcharts/early_game_5_flowchart.png) that steps you through how you can tell the difference.
+* Differentiating between a *5 Stall* and a *5 Pull* can sometimes be confusing. [Here is a handy flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/flowcharts/early_game_5_flowchart.png) that steps you through how you can tell the difference.
 
 ### The 5 Pull Prompt & The 5 Pull Finesse
 
@@ -1552,7 +1552,7 @@ Priority does not always apply. Some common exceptions are listed below.
 
 ### A Trash Flowchart
 
-There are a lot of different moves that involve cluing trash. [Here is a handy flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/flowcharts/cluing_trash_flowchart.png) for determining the difference between the different types of special moves that touch trash. (The flowchart contains some strategies that have not been covered yet, but the three most important moves to understand are the *Trash Chop Move*, the *Trash Finesse/Bluff*, and the *Trash Push*.)
+There are a lot of different moves that involve cluing trash. [Here is a handy flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/flowcharts/cluing_trash_flowchart.png) for determining the difference between the different types of special moves that touch trash. (The flowchart contains some strategies that have not been covered yet, but the three most important moves to understand are the *Trash Chop Move*, the *Trash Finesse/Bluff*, and the *Trash Push*.)
 
 ### The Out-of-Order Finesse (Triple O / OOO / O.O.O.)
 
