@@ -12,7 +12,7 @@
 
 ### Positional Clues
 
-#### What is a *Positional Clue*?
+#### 1) What is a *Positional Clue*?
 
 * *Positional Clues* correspond to a slot number.
 * A **number** positional clue corresponds directly to the slot number.
@@ -23,12 +23,12 @@
   * For example, in a 3-player game of the *Null (5 Suit)* variant, there are 4 color clues and 5 slots in the hand. Thus, a red clue equals slot 5 (since it is the right-most color) and a yellow clue equals slot 4 (since it is the 2nd right-most color).
   * For example, in a 4-player game of the *Null (6 Suit)* variant, there are 5 color clues and 4 slots in the hand. Thus, a purple clue equals *Chop Move* (since there is no slot 5 card).
 
-#### Do I discard cards touched as a *Positional Clue*?
+#### 2) Do I discard cards touched as a *Positional Clue*?
 
 * *Good Touch Principle* does **not** apply to cards touched as *Positional Clues*. They should be discarded exactly like an unclued card would.
   * The exception to this is if the card is known to be useful to the team (e.g. a 3 when no 3's are currently played).
 
-#### What kinds of clues count as a *Positional Clue*?
+#### 3) What kinds of clues count as a *Positional Clue*?
 
 * Any clue that looks like one of the following is now a *Positional Clue* instead:
   * a *Double Finesse* or a *Triple Finesse* where one player has to blind-play **two or more** cards
@@ -41,19 +41,19 @@
   * a *Finesse* or *Bluff* that was initiated with a rank clue when a ***Free Choice*** was available between rank and color
   * a clue that has no "normal" conventional interpretation
 
-#### Are *Positional Clues* a *Save Clue* or a *Play Clue*?
+#### 4) Are *Positional Clues* a *Save Clue* or a *Play Clue*?
 
 * A *Positional Clue* can be either a *Save Clue* or a *Play Clue*:
   * If the slot corresponds to the chop of a player, then they have to respect that it could be a *Save Clue*. In other words, it could be a *2 Save* on a null 2, a *5 Save* on a null 5, or a save on a critical null 3 or null 4 (if the other copy is in the trash).
   * If the slot corresponds to a slot that is not on the chop, then it is a *Play Clue*.
   * However, *Loaded Play Clues* **always** apply to *Positional Clues*, even in the *Early Game*. (This means that you cannot ever give a *Positional Save Clue* to a player that has one or more known-playable cards.)
 
-#### Can I use *Positional Clues* to get non-null cards?
+#### 5) Can I use *Positional Clues* to get non-null cards?
 
 * *Positional Clues* are **only** allowed to get null cards.
 * Subsequently, *Positional Clues* are "turned off" once all of the null cards have been played.
 
-#### How about an example?
+#### 6) How about an example?
 
 * For example, in a 3-player null game:
   * On the first turn of the game, Alice clues Cathy about one 4.
@@ -61,7 +61,7 @@
   * Bob instead knows that this is a *Positional Clue*, indicating that someone should play their slot 4 card.
   * Bob sees that Cathy's slot 4 card is not a null card, so he plays his slot 4 card as the null 1.
 
-#### Do you have to be in *Bluff Seat* to give a *Positional Clue*?
+#### 7) Do you have to be in *Bluff Seat* to give a *Positional Clue*?
 
 * *Positional Clues* do **not** have to be given in *Bluff Seat*. They can be given by anyone, since the other players will see that the clue does not apply to them.
 * Subsequently, *Positional Clues* must be played into as soon as possible, similar to a *Finesse*. If one player ignores the *Positional Clue*, then the next player will blind-play something as an *Ambiguous Positional Clue*.
@@ -73,7 +73,7 @@
   * Bob discards.
   * Cathy blind-plays her slot 4 card.
 
-#### What happens if a *Positional Clue* targets a card that already has a clue on it?
+#### 8) What happens if a *Positional Clue* targets a card that already has a clue on it?
 
 * By convention, *Positional Clues* must target null cards. Thus, if a *Positional Clue* targets a card that already has a clue on it, then it slides over and targets the slot one position to the right.
   * If the *Positional Clue* targets the right-most card, then it slides over to the left.
