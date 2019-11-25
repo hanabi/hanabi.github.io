@@ -359,20 +359,11 @@ The next announcement will be on November 23rd.
 * Normally, *Loaded Play Clues* are "turned off" in the *Early Game*. However, note that *Loaded Play Clues* **always** apply to brown cards, even in the *Early Game*.
 ```
 
-**The Bubblegum Finesse** (change) (by Razvogor)
+**The Bubblegum Finesse** (rename) (by Razvogor)
 
 ```
 * The existing *Bubblegum Finesse* is deleted.
-* A *Bubblegum Finesse* is now defined as when a player violates *Pink Promise* by using a rank clue to touch a one-away-from-playable pink card. Doing so indicates the slot of the blind-play that should make it playable.
-* For example, in a 4-player game:
-  * All the 1's are played on the stacks
-  * Donald has a pink 3 in his hand clued with pink. He does not know the rank of the card.
-  * Alice clues Donald number 4, which only touches the pink 3.
-  * Bob knows that since the pink 3 is the focus of the clue, it must be playable right now. However, if this was a normal *Finesse* (and Bob had a pink 2 on his *Finesse Position*), then Alice would have used a pink clue or a number 3 clue (to match the real rank of the card, satisfying *Pink Promise*).
-  * Bob knows that since Alice did not do either of these things, she must be trying to communicate something extra. This must be a *Bubblegum Finesse*, indicating which slot the pink 2 is in.
-  * Bob sees that Cathy has the pink 2 in slot 4. Thus, he knows that the *Bubblegum Finesse* is not on him. Bob discards.
-  * Cathy goes through the same steps as Bob. Cathy does not see the pink 2 anywhere else, so she knows that the *Bubblegum Finesse* is on her, Cathy blind-plays pink 2 from slot 4.
-  * Donald knows that since Cathy played his slot 4 card, this was a *Bubblegum Finesse*, and that his pink card must be the matching card. Donald plays the pink 3.
+* *Pink Lie Finesses* are now renamed to *Bubblegum Finesses*.
 ```
 
 - omni + pink conventions
