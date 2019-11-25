@@ -10,6 +10,13 @@
 
 <br />
 
+### Relaxed 2 Saves
+
+* It is optional for players to give *Save Clues* to null 2's.
+* Thus, if a null 2 is discarded, players should not make any *Elimination Notes* for them.
+
+<br />
+
 ### Positional Clues
 
 #### 1) What is a *Positional Clue*?
