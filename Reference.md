@@ -2475,8 +2475,10 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * For example, in a 3-player game:
   * It is the first turn and nothing is played on the stacks.
   * Alice clues number 5 to Cathy, touching a 5 on slot 1.
-  * Cathy hand is as follows: red 5, red 2, red 3, green 1, green 2
-  * Bob sees that Alice's clue cannot be a *5 Stall* or a *5 Pull*. If it were a *Finesse* on the red 5, he would have to blind-play a red 1 and a red 4.
+  * Cathy hand is as follows: red 5, red 3, red 4, green 1, green 2
+  * Bob sees that Alice's clue cannot be a *5 Stall* (since there are other *Play Clues* available).
+  * Bob sees that Alice's clue cannot be a *5 Pull* (since the red 3 is two-away-from-playable).
+  * Bob sees that if Alice's clue were a *Finesse* on the red 5, Bob would have to blind-play a red 1 and a red 2.
   * Since Bob would have to blind-play two cards into the *Finesse*, he knows that he should instead treat this as a *5 Number Discharge*. Bob blind-plays his slot 3 card and it successfully plays as the red 1.
 
 <br />
