@@ -3456,5 +3456,4 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 | Brown Positional Clues | Dr. Kakashi
 | The Unnecessary Blue Bluff | Jake
 | 5 Number Discharge | Jeff
-| The Purge Bluff | Zamiel
 | The Bubblegum Finesse | Razovogor
