@@ -374,3 +374,4 @@ The next announcement will be on November 23rd.
 ```
 
 - omni + pink conventions
+- no chop move on u3/u4
