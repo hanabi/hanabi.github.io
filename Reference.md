@@ -3445,7 +3445,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 | The U-Turn Finesse | NoMercy
 | The Unnecessary Trash Push | sjdrodge
 | Trash Touch Elimination | sjdrodge
-| The Duck Trash Ejection | Dr. Kakashi
 | Junk Ejection | Jeff
 | The 5 Color Ejection & The 5 Color Discharge | Jeff
 | The 5 Pull Ejection and The 5 Pull Ejection Chop Move | Jeff
