@@ -3452,7 +3452,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 | Null Positional Clues | Razvogor & Zamiel
 | Stacked 5 Color Ejection | Fireheart
 | The Pink Lie Prompt & The Pink Lie Finesse | Razvogor
-| Brown Positional Clues | Dr. Kakashi
 | The Unnecessary Blue Bluff | Jake
 | 5 Number Discharge | Jeff
 | The Bubblegum Finesse | Razovogor
