@@ -415,8 +415,8 @@ Note that in this user interface, players are **not** holding their hands like t
   3. When the clued card was *Chop Moved* and it is now playable
   4. When playing the clued card would "unlock" someone's hand (see the section on *Locked Hands* later on)
   5. When the clue giver is in a situation that requires them to stall (e.g. the player is *Locked*, etc.)
-* When a *Tempo Clue* touches multiple cards, the focus is on the leftmost card.
-  * The exception is if one of the cards was previously *Chop Moved*. In that case, the focus is on the leftmost *Chop Moved* card.
+* When a *Tempo Clue* touches multiple cards, the focus is on the left-most card.
+  * The exception is if one of the cards was previously *Chop Moved*. In that case, the focus is on the left-most *Chop Moved* card.
 * If a *Tempo Clue* touches multiple cards, it typically means that all the touched cards are playable. See the *Double Tempo Clue* section below.
 * Since they are so inefficient, *Tempo Clues* done outside of the special circumstances listed above are assigned a special meaning. See the *Tempo Clue Chop Moves* section below.
 
