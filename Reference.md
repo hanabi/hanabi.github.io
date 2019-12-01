@@ -1516,7 +1516,7 @@ Priority does not always apply. Some common exceptions are listed below.
 * For example, in a 3-player game:
   * On the stacks, all of the 1's are played **except** for red 1.
   * Cathy has no clued cards in her hand.
-  * Alice clues Cathy number 1, which only touches her newest (slot 1) card. This card is a blue 1, so Cathy will assume that it is a red 1.
+  * Alice clues Cathy number 1, which only touches her newest (slot 1) card. This card is a blue 1, but Cathy will assume that it is a red 1.
   * Bob blind-plays his *Finesse Position* card, and it is a playable blue 2.
   * Cathy now knows that her 1 must not be red 1, or else Bob would not have blind-played anything. The 1 must be some other trash card.
 * Just like normal *Bluffs*, *Trash Bluffs* can only be done while in *Bluff Seat*.
