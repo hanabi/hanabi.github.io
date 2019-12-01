@@ -3379,7 +3379,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 | The Double/Triple Pass Bluff | Zamiel
 | The Out-of-Order Finesse | Zamiel
 | The Speed-up Clue | Libster
-| The Misplay Trash Push | Zamiel
 | The Disease Bluff & The Heal Clue | Zamiel
 | The Double-Copy Bluff | Zamiel
 | The Pestilent (Double) Bluff | Zamiel
