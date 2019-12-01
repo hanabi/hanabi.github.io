@@ -2253,8 +2253,8 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * In this situation, they are really trying to perform a *5 Double Pull*, which pulls a card from the next player and also pulls a card from the player who received the number 5 clue. The next player should blind-play their *Finesse Position* card, which gives the clue receiver enough information to know that the move was really a *5 Pull* after all.
 * For example, in a 4-player game:
   * It is the first turn and nothing is played on the stacks.
-  * Cathy's hand is as follows, from the left to right: blue 4, blue 4, red 5, red 1
-  * Alice clues number 5 to Cathy, touching a red 5 on slot 3.
+  * Cathy's hand is as follows, from the left to right: blue 4, blue 4, blue 5, red 1
+  * Alice clues number 5 to Cathy, touching a blue 5 on slot 3.
   * It is now Bob's turn. Bob sees that since there were other *Play Clues* for Alice to give, Cathy will interpret this as an *Early 5's Chop Move*.
   * Bob also knows that it is nonsensical to *Chop Move* a playable red 1 - Alice could have just give a red *Chop Focus Play Clue* to the red 1.
   * Thus, this must be a *5 Double Pull*, so Bob blind-plays his *Finesse Position* card. It is blue 1 and it successfully plays.
