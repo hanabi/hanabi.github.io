@@ -3215,6 +3215,15 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Bob clues Cathy red, re-touching the red 5.
   * Alice knows that re-touching the red 5 again accomplishes nothing unless it is some sort of *Finesse*. She looks around the table and does not see any red cards. Thus, Alice marks her hand for red 1, red 2, red 3, and red 4, in order from left to right.
 
+### Cow & Pig Conventions
+
+* These conventions apply to the *Cow & Pig* variants.
+
+#### No Color Saves
+
+* Rank clues (oink) are always used to perform a *Save Clue*.
+* Color clues (moo) must always be *Play Clues*.
+
 ### Duck Conventions
 
 * These conventions apply to the *Duck* variants.
