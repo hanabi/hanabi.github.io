@@ -330,5 +330,13 @@ The next announcement will be on November 23rd.
 * Similar to *5 Ejection*, *4 Charm* can be initiated with either a color clue or a number clue.
 ```
 
+**Cow & Pig Rank Saves**
+
+```
+* This convention only applies to *Cow & Pig* variants.
+* Rank clues (oink) are always used to perform a *Save Clue*.
+* Color clues (moo) must always be *Play Clues*.
+```
+
 - omni + pink conventions
 - no chop move on u3/u4
