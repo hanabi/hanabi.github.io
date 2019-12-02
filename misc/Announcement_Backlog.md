@@ -320,7 +320,7 @@ The next announcement will be on November 23rd.
 * Thus, players should keep in mind that clues that cause *Ejection* might have been either a color clue or a number clue.
 ```
 
-**4 Charm** (in Duck)
+**4 Charm** (in Duck) (by Jeff)
 
 ```
 * This convention only applies to Duck variants.
