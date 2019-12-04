@@ -2685,7 +2685,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * Some variants demand an enormous amount of efficiency. Since our normal conventions result in conservative play, we agree to change the way that we play in some specific variants in order to win more consistently.
 * The necessary efficiency needed in order to win each variant is located on [the efficiency tables page](https://github.com/Zamiell/hanabi-conventions/blob/master/misc/Efficiency.md).
 * We define any variant that requires equal to or greater than 1.25 efficiency as a "hard" variant. (Required efficiency can be seen in-game using the Hanabi Live interface. Note that a variant can be considered easy in 4-player, but hard in 5-player, for example.)
-* Additionally, the following variants are considered to be hard variants even though they have less than 1.25 required efficiency:
+* Additionally, the following variants are considered to be hard variants even though they may have less than 1.25 required efficiency:
   * Special Mix (5 Suits)
   * Special Mix (6 Suits)
   * Dual-Color Mix (6 Suits)
