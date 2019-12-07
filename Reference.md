@@ -1900,7 +1900,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Alice clues number 2 to Cathy, touching a red 2 on slot 3 and a red 2 on slot 5 (her chop).
   * Bob knows that normally, this would be a *2 Save* on the red 2. However, Alice is violating *Good Touch Principle*, so she must be trying to communicate something extra.
   * Bob blind-plays his *Finesse Position* card and it is blue 3.
-  * Cathy knows that since a clue that looks like a *2 Save* got Bob to blind-play something, then a duplication occurred and both of the twos must be the same copy. Cathy discards the left-most copy and saves the other one for later.
+  * Cathy knows that since a clue that looked like a *2 Save* got Bob to blind-play something, then a duplication occurred and both of the 2's must be the same. Cathy discards the left-most copy and saves the other one for later.
 
 ### The Bad Touch Double Finesse (For 3's)
 
