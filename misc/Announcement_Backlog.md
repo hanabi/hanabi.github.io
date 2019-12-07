@@ -35,7 +35,7 @@ The next announcement will be on November 23rd.
 **The Duck Trash Ejection** (deleted) (by Kakashi)
 
 ```
-* This convention conflicts with *5's Color Ejection*.
+* This convention is deleted since it conflicts with *5's Color Ejection*.
 ```
 
 **Trash Push Ejection** (by Jeff)
