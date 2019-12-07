@@ -1944,7 +1944,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Cathy blind-plays red 2.
   * Donald knows that normally, this would be a *4 Double Bluff* and that no-one should play any more cards. However, since the red 4 was duplicated, this must be a *Bad Touch Triple Finesse*, so Cathy blind-plays her *Finesse Position* and it is the red 3.
   * Emily knows that this cannot be a *4 Double Bluff*, or else Donald would not have blind-played anything. Thus, this must be a *Bad Touch Triple Finesse*, so Emily plays her left-most red 4. The next time that Emily discards, she will discard the known trash red 4. 
-* It is also possible to *Bad Touch Triple Bluff*, *Bad Touch Triple One Third Bluff*, and so on.
+* It is also possible to do a *Bad Touch Triple Bluff*, a *Bad Touch Triple One-Third Bluff*, and a *Bad Touch Triple Two-Thirds Bluff*.
 
 ### The Trash Double Bluff (Form 1)
 
