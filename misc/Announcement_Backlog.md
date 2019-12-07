@@ -26,6 +26,12 @@ The next announcement will be on November 23rd.
 * This convention is deleted, as it is hardly ever used.
 ```
 
+**The Weak Prompt** (deleted)
+
+```
+* This convention is deleted since it is rarely used and increases complexity.
+```
+
 **Trash Push Ejection** (by Jeff)
 
 ```
@@ -65,12 +71,6 @@ The next announcement will be on November 23rd.
   * Bob knows that since all of the 2's are already played, whatever 2 this is must be a trash 2.
   * Bob also knows that this cannot be a *Trash Chop Move*, a *Trash Push*, or any of the other trash moves.
   * Bob instead interprets this as a *Brown Positional Clue*, and plays his slot 2 brown card.
-```
-
-**The Weak Prompt** (deleted)
-
-```
-* This convention is deleted since it is rarely used and increases complexity.
 ```
 
 **The Pink Play Clue Lie (with a mismatched *Play Clue* that touches other cards)** (clarification)
