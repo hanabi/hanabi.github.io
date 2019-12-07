@@ -292,5 +292,3 @@ The next announcement will be on November 23rd.
 * Rank clues (oink) are always used to perform a *Save Clue*.
 * Color clues (moo) must always be *Play Clues*.
 ```
-
-- no chop move on u3/u4
