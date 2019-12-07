@@ -293,5 +293,4 @@ The next announcement will be on November 23rd.
 * Color clues (moo) must always be *Play Clues*.
 ```
 
-- omni + pink conventions
 - no chop move on u3/u4
