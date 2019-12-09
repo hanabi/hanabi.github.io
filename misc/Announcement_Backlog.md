@@ -292,3 +292,5 @@ The next announcement will be on November 23rd.
 * Rank clues (oink) are always used to perform a *Save Clue*.
 * Color clues (moo) must always be *Play Clues*.
 ```
+
+- cow & pig - no finesses with rank on the first turn
