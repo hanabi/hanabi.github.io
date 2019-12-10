@@ -781,7 +781,7 @@ While the other sections in this document contain lists of special "moves", this
 ### The Anxiety Play (Forcing a Locked Player to Play)
 
 * Sometimes, someone with a *Locked Hand* has a playable card, but they do not know that they can play it yet. Re-cluing the card would signal this, but that would waste a clue and not be very efficient.
-* A better way to signal this information is to deliberately leave them at 0 clues. By convention, this means that one of their cards is actually playable. If there is more than one option, then they should know that the left-most is playable. (This follows from *Left-Most Playable Principle*.)
+* A better way to signal this information is to deliberately leave them at 0 clues. By convention, this means that one of their cards is actually playable. The player should play the card in their hand that is most likely to be playable. If there is more than one option, then they should know that the left-most is playable. (This follows from *Left-Most Playable Principle*.)
 * This is called an *Anxiety Play* because you are putting the *Locked* player in a "do or die" situation.
 
 ### Clues Given While at 8 Clues & The 8 Clue Save (Severity 4 Stalling)
