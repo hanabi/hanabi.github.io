@@ -3211,6 +3211,11 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * The *3 Bluffs* convention is turned off. (3's are not valuable in this variant.)
 * The *5 Stall*, *5's Chop Move*, and *5 Pull* conventions are turned off.
 
+#### 1's Color Ejection (1CE)
+
+* Similar to *5 Color Ejection*, it is also possible to perform a *1 Color Ejection* in an *Up or Down* variant.
+* 1CE works in the exact same way as 5CE does (e.g. players use the "2 or more blind-plays" rule).
+
 #### The U-Turn Finesse
 
 * Normally, when a clued card is going to play and then someone on the team clues that card **again**, this is usually one of two different things:
