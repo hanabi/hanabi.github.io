@@ -2952,6 +2952,12 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Cathy goes through the same steps as Bob. Cathy does not see the pink 2 anywhere else, so she knows that the *Bubblegum Finesse* is on her. Cathy blind-plays pink 2 from slot 4.
   * Donald knows that since Cathy played his slot 4 card, this was a *Bubblegum Finesse*, and that his pink card must be the matching card. Donald plays the pink 3.
 
+#### Trash Pushes in Pink
+
+* When a *Trash Push* happens in a normal variant, if more than one card is touched, then all of the touched cards are known to be trash.
+* When a *Trash Push* happens with a rank clue in a variant with a pink suit, if more than one card is touched, it is possible that only the card on chop was trash and that the other cards touched are useful / critical pink cards.
+* In this situation, after blind-playing the *Trash Pushed* card, the player should first discard the card that initiated the *Trash Push* (the oldest card) and then hold on to the other touched cards.
+
 ### White Conventions
 
 * These conventions apply to any variant with a white (colorless) suit.
