@@ -293,4 +293,12 @@ The next announcement will be on November 23rd.
 * Color clues (moo) must always be *Play Clues*.
 ```
 
+**Trash Pushes in Pink**
+
+```
+* When a *Trash Push* happens in a normal variant, if more than one card is touched, then all of the touched cards are known to be trash.
+* When a *Trash Push* happens with a rank clue in a variant with a pink suit, if more than one card is touched, it is possible that only the card on chop was trash and that the other cards touched are useful / critical pink cards.
+* In this situation, after blind-playing the *Trash Pushed* card, the player should first discard the card that initiated the *Trash Push* (the oldest card) and then hold on to the other touched cards.
+```
+
 - cow & pig - no finesses with rank on the first turn
