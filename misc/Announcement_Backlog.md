@@ -8,36 +8,6 @@ The next announcement will be on November 23rd.
 
 ## The Backlog
 
-**The Useless Bluff** (deleted)
-
-```
-* This convention is deleted, since it conflicts with *Junk Ejection*.
-```
-
-**Reverse Order Ejection** (deleted)
-
-```
-* This convention is deleted, as it is hardly ever used.
-```
-
-**The Suboptimal Color Bluff** (deleted)
-
-```
-* This convention is deleted, as it is hardly ever used.
-```
-
-**The Weak Prompt** (deleted) (by Zamiel)
-
-```
-* This convention is deleted since it is rarely used and increases complexity.
-```
-
-**The Duck Trash Ejection** (deleted) (by Kakashi)
-
-```
-* This convention is deleted since it conflicts with *5's Color Ejection*.
-```
-
 **Trash Push Ejection** (by Jeff)
 
 ```
