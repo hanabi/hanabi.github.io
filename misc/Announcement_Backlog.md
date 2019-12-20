@@ -61,9 +61,10 @@ The next announcement will be on November 23rd.
   * Cathy knows that Alice broke *Pink Promise* and that she was lied to, but that it was a *Pink Play Clue Lie*. Cathy knows that Alice likely did things this way because she wanted a 2-for-1 (to pick up some useful 3 "for free") instead of just a 1-for-1 on just the pink 4.
 ```
 
-**The Pink Lie Prompt & The Pink Lie Finesse** (by Razvogor)
+**The Bubblegum Prompt & The Bubblegum Finesse** (by Razvogor)
 
 ```
+* The existing *Bubblegum Finesse* is deleted.
 * This convention only applies to variants with a pink or omni suit.
 * Normally, when players give a clue to a pink card with a number, they exactly match the number of the card in order to satisfy *Pink Promise*.
 * Some common situations where players violate *Pink Promise* are covered in the "The Pink Play Clue Lie (which resolves immediately)" and the "The Pink Play Clue Lie (with multiple 1's)" sections above.
@@ -220,13 +221,6 @@ The next announcement will be on November 23rd.
 ```
 * *Loaded Play Clues* are "turned on" for brown cards.
 * Normally, *Loaded Play Clues* are "turned off" in the *Early Game*. However, note that *Loaded Play Clues* **always** apply to brown cards, even in the *Early Game*.
-```
-
-**The Bubblegum Finesse** (rename) (by Razvogor)
-
-```
-* The existing *Bubblegum Finesse* is deleted.
-* *Pink Lie Finesses* are now renamed to *Bubblegum Finesses*.
 ```
 
 **Relaxed 2 Saves** (in null variants)
