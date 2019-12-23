@@ -10,13 +10,6 @@
 
 <br />
 
-### Relaxed 2 Saves
-
-* It is optional for players to give *Save Clues* to null 2's.
-* Thus, if a null 2 is discarded, players should not make any *Elimination Notes* for them.
-
-<br />
-
 ### Positional Clues
 
 #### 1) What is a *Positional Clue*?
@@ -85,6 +78,23 @@
 * By convention, *Positional Clues* must target null cards. Thus, if a *Positional Clue* targets a card that already has a clue on it, then it slides over and targets the slot one position to the right.
   * If the *Positional Clue* targets the right-most card, then it slides over to the left.
 * This allows players the flexibility to "get" a null card when the clue types that would directly target the null card are not available.
+
+<br />
+
+### Null Saves
+
+Some additional rules apply to *Positional Clues* that are intended to be *Save Clues*.
+
+#### Relaxed 2 Saves
+
+* It is optional for players to give *Save Clues* to null 2's.
+* Thus, if a null 2 is discarded, players should not make any *Elimination Notes* for them.
+
+### No Early Null 3 or Null 4 Saves
+
+* It is considered illegal to perform any kind of *Chop Move* on a non-critical null 3 or a non-critical null 4.
+  * This rule counts for both *Positional Saves* and normal *Chop Moves* (such as the *5's Chop Move*).
+* Thus, when a player is *Chop Moved* early on for a null card, they can know for sure that it is either a null 2 or a null 5.
 
 <br />
 
