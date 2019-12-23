@@ -3354,8 +3354,15 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 ### Throw It in a Hole Conventions
 
 * These conventions only apply to *Throw It in a Hole* variants.
+
+#### No Bluffs
+
 * *Bluffs* are turned off.
 * It is okay to perform a *Trash Finesse* for the final card of a particular rank or suit, but *Trash Bluffs* are turned off.
+
+#### Priority Changes
+
+* Since 5's do not give a clue back, then they do not have *Priority* over other cards in the same way that they normally do.
 
 ### Empty Clues
 
