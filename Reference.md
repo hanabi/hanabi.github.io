@@ -2976,6 +2976,13 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * When a *Trash Push* happens with a rank clue in a variant with a pink suit, if more than one card is touched, it is possible that only the card on chop was trash and that the other cards touched are useful / critical pink cards.
 * In this situation, after blind-playing the *Trash Pushed* card, the player should first discard the card that initiated the *Trash Push* (the oldest card) and then hold on to the other touched cards.
 
+### Pink & Omni Majority Conventions
+
+* This convention only applies to any variant that has 50% or more cards touched by all ranks.
+  * For example, in Pink & Omni (3 Suit), 66% of the cards are touched by all ranks, so this convention would apply.
+* Just like in normal games, if a rank clue is given to a chop card and it could be a *Save Clue* (e.g. a *2 Save*, *5 Save*, critical pink 3 save, etc.), then it is treated as a *Save Clue*.
+* Any **other** type of rank clue is instead treated as a *Positional Clue* clue, telling the person who is clued to play the respective slot number.
+
 ### White Conventions
 
 * These conventions apply to any variant with a white (colorless) suit.
