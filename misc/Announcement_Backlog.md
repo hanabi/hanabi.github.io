@@ -290,4 +290,13 @@ As noted in the [convention changes document](https://github.com/Zamiell/hanabi-
   * Donald knows that since Cathy blind-played her *Third Finesse Position* card, this must be an *Unknown Trash Discharge* and that his red card is red 1. Donald discards the red 1.
 ```
 
+**Pink & Omni Majority Conventions** (by Fireheart)
+
+```
+* This convention only applies to any variant that has 50% or more cards touched by all ranks.
+  * For example, in Pink & Omni (3 Suit), 66% of the cards are touched by all ranks, so this convention would apply.
+* Just like in normal games, if a rank clue is given to a chop card and it could be a *Save Clue* (e.g. a *2 Save*, *5 Save*, critical pink 3 save, etc.), then it is treated as a *Save Clue*.
+* Any **other** type of rank clue is instead treated as a *Positional Clue* clue, telling the person who is clued to play the respective slot number.
+```
+
 - cow & pig - no finesses with rank on the first turn
