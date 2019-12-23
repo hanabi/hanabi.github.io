@@ -270,4 +270,24 @@ As noted in the [convention changes document](https://github.com/Zamiell/hanabi-
 * 1CE works in the exact same way as 5CE does (e.g. players use the "2 or more blind-plays" rule).
 ```
 
+**Out-of-Position Unknown Trash Discharge** (by Jeff)
+
+```
+* Normally, players are only allowed to perform a *Discharge* on the very next player (similar to a *Bluff*).
+* However, if a *Unknown Trash Discharge* is performed, and the very next player does not have a *Third Finesse Position*, then they cannot demonstrate to the team that the clued card is trash.
+* In this situation, the *Discharge* is on the next player with a *Third Finesse Position*:
+  * The player being passed over knows that the next player will blind-play, so they can either discard or give an unrelated clue.
+  * After that, the next player should blind-play their card immediately to demonstrate what is going on.
+* For example, in a 4-player game:
+  * All of the 1's are played on the stacks.
+  * Bob's has two 5's in his hand in slots 3 and 4. (They were clued with number 5 as a *5 Save* earlier on in the game.)
+  * Alice clues red to Donald, touching a red 1 on his slot 1 as a *Play Clue*.
+  * Bob knows that Donald will think that this red card is red 2. But if a card blind-plays from *Finesse Position*, then Donald will think that the card is red 3. Thus, this must be an *Unknown Trash Discharge*.
+  * Bob does not have a *Third Finesse Position*. (He only has two unclued cards in his hand.)
+  * Thus, Bob knows that this is an *Out-of-Position Unknown Trash Discharge* on Cathy.
+  * Bob discards.
+  * Cathy blind-plays her *Third Finesse Position* and it successfully plays as red 2.
+  * Donald knows that since Cathy blind-played her *Third Finesse Position* card, this must be an *Unknown Trash Discharge* and that his red card is red 1. Donald discards the red 1.
+```
+
 - cow & pig - no finesses with rank on the first turn
