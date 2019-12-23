@@ -299,3 +299,10 @@ As noted in the [convention changes document](https://github.com/Zamiell/hanabi-
 * Any **other** type of rank clue is instead treated as a *Positional Clue* clue, telling the person who is clued to play the respective slot number.
 ```
 
+**Null Saves** (change) (by Razvogor)
+
+```
+* It is considered illegal to perform any kind of *Chop Move* on a non-critical null 3 or a non-critical null 4.
+  * This rule counts for both *Positional Saves* and normal *Chop Moves* (such as the *5's Chop Move*).
+* Thus, when a player is *Chop Moved* early on for a null card, they can know for sure that it is either a null 2 or a null 5.
+```
