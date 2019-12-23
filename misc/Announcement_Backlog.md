@@ -299,4 +299,3 @@ As noted in the [convention changes document](https://github.com/Zamiell/hanabi-
 * Any **other** type of rank clue is instead treated as a *Positional Clue* clue, telling the person who is clued to play the respective slot number.
 ```
 
-- cow & pig - no finesses with rank on the first turn
