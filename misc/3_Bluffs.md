@@ -1,6 +1,6 @@
 # The Story of 3 Bluffs
 
-Back in 2015, a group of four expert players played Hanabi together. They played 200 games in a row of the rainbow variant, and got a perfect score 95% of the time. But of the very few games that they did not get a perfect score on, the main reason was that one player randomly discarded a 3 near the beginning of the game (through no fault of any of the players), and then the other copy of the 3 happened to be at the bottom of the deck. The players agreed to call this a "bottom-deck" loss.
+Back in 2015, a group of four expert players played Hanabi together. They played 200 games in a row of the rainbow variant (with 6 suits), and got a perfect score around 95% of the time. But of the very few games that they did not get a perfect score on, the main reason was that one player randomly discarded a 3 near the beginning of the game (through no fault of any of the players), and then the other copy of the 3 happened to be at the bottom of the deck. The players agreed to call this a "bottom-deck" loss.
 
 One of the players said to the other three: "Why, we are so good at Hanabi that the only time we lose seems to be when we get a bottom-deck loss! We never get a bottom-deck loss to a 2, since we have the *2 Saves* convention. But we do seem to get bottom-decked by 3's quite a lot, and when this happens it is even worse than getting bottom decked by a 4. I wonder if we should come up with some strategy to avoid this? It would be quite logical to do so, given the circumstances."
 
