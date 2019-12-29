@@ -132,6 +132,7 @@ Note that in this user interface, players are **not** holding their hands like t
 ### The Finesse
 
 * The *Finesse* is a move covered in the [beginner guide](https://github.com/Zamiell/hanabi-conventions/blob/master/Beginner.md). It is when you get a player to blind-play a card to fulfill a promise that a certain card is playable right now.
+* *Finesses* must be on "matching" cards. (For example, the red 1 leads directly leads into the red 2, so they are considered to be a "matching" pair of cards.)
 
 ### Finesse Position
 
