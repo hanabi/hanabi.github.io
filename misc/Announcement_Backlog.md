@@ -13,25 +13,6 @@ As noted in the [convention changes document](https://github.com/Zamiell/hanabi-
 * However, what if the *Trash Pushed* card is trash? The other players can see that this clue must have some other purpose - it should signal an *Ejection* on the very next player.
 ```
 
-**Stacked 5 Color Ejection** (by Fireheart)
-
-```
-* Normally, you are not allowed to perform a *Bluff* on a player that is already "loaded" with a blind-play for a *Finesse*. (This is because the next player will allow for the possibility of a *Layered Finesse*, and the *Bluff* will not resolve immediately.)
-* Similarly, since *Ejections* follow most of the same rules as *Bluffs*, you are not allowed to perform an *Ejection* on a player that is already "loaded" with a blind-play for a *Finesse*.
-* So, if a 5 is clued with color in this situation, the next player is to assume a *Stacked Finesse* instead of a *5 Color Ejection*. Thus, they would then play the card from the original *Finesse* (or play nothing if the card from the original *Finesse* is not yet playable).
-* However, what if the next player can know that a *Stacked Finesse* is impossible due to them not having enough possible cards to fulfill the *Finesse*? In this case, it would be a *Known Stacked 5 Color Ejection*.
-* When this occurs, players should immediately play their *First Finesse Position* (slot 2) instead of their *Second Finesse* position (slot 3).
-* For example, in a 4-player game:
-  * Nothing is played on the stacks and it is the first turn of the game.
-  * Alice clues red to Donald, touching a red 2. This is a *Finesse* on Cathy's red 1 (in her slot 1).
-  * Bob clues blue to Donald, touching a blue 5.
-  * Now, it is Cathy's turn. Cathy knows that she has a playable red 1, since no-one else on the team has a red 1.
-  * Additionally, Cathy might think that Bob's clue was a *Stacked Finesse* on the blue 5. However, this is impossible, because Cathy sees that no-one else on the team has any blue cards. Thus, for a *Stacked Finesse* to be the case, Cathy would have to have red 1, blue 1, blue 2, blue 3, and blue 4, and Cathy only has 4 cards in her hand (since it is a 4-player game).
-  * Since a *Stacked Finesse* is impossible, Cathy knows that this must be a *Stacked 5 Color Ejection*.
-  * Alice's clue *Finessed* Cathy. So after Alice's clue, Cathy's *Finesse Position* moved to her slot 2 and her *Second Finesse Position* moved to her slot 3.
-  * Normally, *Ejection* calls for the *Second Finesse Position*, but in this case, Cathy knows that *Stacked 5 Color Ejections* call for the *First Finesse Position* instead of the *Second Finesse Position*, so Cathy blind-plays slot 2 (instead of slot 3).
-```
-
 **Brown Positional Clues**
 
 ```
