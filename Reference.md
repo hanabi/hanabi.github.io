@@ -2862,6 +2862,11 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 * These conventions apply to any variant with a pink (touched by all ranks) suit.
 
+#### Pink Tempo Clues
+
+* If a player gives a *Tempo Clue* to a pink card, it is never a *Tempo Clue Chop Move*, even if it only gets one card played.
+* This is because it is fairly valuable to get pink cards out of the hand as soon as possible in case blocking cards are drawn.
+
 #### Pink Promise
 
 * When a pink card is given a *Play Clue* or a *Save Clue* with a number, the number must match the true identity of the card.
@@ -3020,6 +3025,11 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 ### Brown Conventions
 
 * These conventions apply to any variant with a brown (touched by no ranks) suit.
+
+#### Brown Tempo Clues
+
+* If a player gives a *Tempo Clue* to a brown card, it is never a *Tempo Clue Chop Move*, even if it only gets one card played.
+* This is because it is fairly valuable to get brown cards out of the hand as soon as possible in case blocking cards are drawn.
 
 #### Brown Inversion
 
