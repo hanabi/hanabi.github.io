@@ -319,3 +319,9 @@ As noted in the [convention changes document](https://github.com/Zamiell/hanabi-
   * Cathy blind-plays the red 2.
 ```
 
+**Reverse Finesse Restriction** (by Florrat)
+
+```
+* This convention only applies in a Cow & Pig variant.
+* It is illegal to perform a *Reverse Finesse* with a rank clue on the first turn. (This makes things more clear for players when they are given a *Save Clue* and there are some playable cards on *Finesse Position* to get.)
+```
