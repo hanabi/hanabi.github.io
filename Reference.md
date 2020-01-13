@@ -3055,6 +3055,16 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * Note that in variants where a black color clues is available, dark rainbow 3 and dark rainbow 4 must always be saved with a black color clue.
   * Along the same lines, in *Dark Rainbow & Dark Pink*, rainbow cards should be saved with a pink clue, and in *Dark Rainbow & Dark Chocolate*, rainbow cards should be saved with a brown clue.
 
+### Muddy/Cocoa Positional Clues
+
+* This convention only applies to variants with a Muddy Rainbow suit or a Cocoa Rainbow suit.
+* Any clue that looks like one of the following is instead considered to be a *Muddy/Cocoa Positional Clue* (that promises the slot number of the Muddy/Cocoa card to play):
+  * *Double Play Ejection* (re-cluing a playable card)
+  * *Known Trash Ejection* (re-cluing a known trash card)
+  * *Trash Pushes* (cluing a known trash card on chop for the first time)
+  * a rank clue that has no conventional interpretation
+* Note that *Trash Chop Moves* are still "turned on".
+
 ### The Negative Prompt
 
 * This convention applies to the *Dual-Color (6 Suits)* variant.
