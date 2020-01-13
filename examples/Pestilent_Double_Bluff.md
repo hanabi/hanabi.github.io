@@ -15,6 +15,8 @@
 * Subsequently, RaKXeR knows that his 2 cannot be the green 2. Furthermore, RaKXeR also knows that his 2 cannot be the blue 2, because then MasN would not have blind-played anything.
 * Thus, RaKXeR knows that this must be a *Pestilent Double Bluff* and marks his 2 as either a yellow 2, a red 2, or a purple 2.
 
+<br />
+
 ### Example 2
 
 ![Example Screenshot](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/examples/pestilent_double_bluff2.png)
