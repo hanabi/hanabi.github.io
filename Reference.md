@@ -1934,6 +1934,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Cathy knows that normally, this would be a *3 Bluff*. However, since the red 3 was duplicated, this must be a *Bad Touch Double Finesse*, so Cathy blind-plays her *Finesse Position* and it is the red 2.
   * Donald knows that this cannot be a *3 Bluff*, or else Cathy would not have blind-played anything. Thus, this must be a *Bad Touch Double Finesse*, so Donald discards his red 3 as a *Sarcastic Discard* to pass it back to Emily.
   * Emily plays the red 3.
+* More examples of a Pestilent Double Bluff can be found [here](https://github.com/Zamiell/hanabi-conventions/blob/master/examples/Bad_Touch_Double_Bluff.md).
 
 ### The Bad Touch Triple Finesse (For 4's)
 
@@ -2095,6 +2096,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * This would "heal" the problem, as Bob would not think that he has red 2 anymore. Thus, this clue is called a *Heal Clue*.
 * The original *Bluff* is called a *Disease Bluff*, since it requires healing.
 * The *Disease Bluff* interpretation is the highest priority interpretation!
+* More examples of a *Disease Bluff* can be found [here](https://github.com/Zamiell/hanabi-conventions/blob/master/examples/Disease_Bluff.md).
 
 #### 2) A *Pestilent Double Bluff* (with Cathy seeing zero copies):
 
