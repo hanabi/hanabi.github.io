@@ -287,3 +287,15 @@ As noted in the [convention changes document](https://github.com/Zamiell/hanabi-
   * This rule counts for both *Positional Saves* and normal *Chop Moves* (such as the *5's Chop Move*).
 * Thus, when a player is *Chop Moved* early on for a null card, they can know for sure that it is either a null 2 or a null 5.
 ```
+
+**Muddy/Cocoa Positional Clues** (by Jeff)
+
+```
+* This convention only applies to variants with a Muddy Rainbow suit or a Cocoa Rainbow suit.
+* Any clue that looks like one of the following is instead considered to be a *Muddy/Cocoa Positional Clue* (that promises the slot number of the Muddy/Cocoa card to play):
+  * *Double Play Ejection* (re-cluing a playable card)
+  * *Known Trash Ejection* (re-cluing a known trash card)
+  * *Trash Pushes* (cluing a known trash card on chop for the first time)
+  * a rank clue that has no conventional interpretation
+* Note that *Trash Chop Moves* are still "turned on".
+```
