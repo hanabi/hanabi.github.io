@@ -11,9 +11,9 @@
 * Kyle knows that Dr_Kakashi must be trying to communicate something extra. When this kind of thing happens, it is usually a *Good Touch Bluff*, which means that someone else already has the yellow 2 clued in their hand. However, this is not the case because Dr_Kakashi gave the clue on the first turn of the game and obviously no-one has any clued cards in their hand yet.
 * If it isn't a *Good Touch Bluff*, then Kyle knows that it could be a *Disease Bluff*. If it is a *Disease Bluff*, then Kyle is supposed to give a *Heal Clue* to the yellow 2. However, Kyle does not see any yellow 2's in anybody's hand. Thus, this cannot be a *Disease Bluff*.
 * Lastly, this must be a *Pestilent Double Bluff*. Kyle can "heal" the situation by blind-playing his *Finesse Position*, and this was Dr_Kakashi's intent all along. Kyle blind-plays his *Finesse Position* and it is blue 1 and it successfully plays.
-* From RaKXeR's perspective, Dr_Kakashi's move looked like a *Finesse* after MasN blind-played the green 1. However, after Kyle also blind-played a card, RaKXeR gasped in surprise. Something special must be going on, since a *Finesse* on the green 1 into the green 2 would never cause Kyle to blind-play.
-* Subsequently, RaKXeR knows that his 2 cannot be the green 2. Furthermore, RaKXeR also knows that his 2 cannot be the blue 2, because then MasN would not have blind-played anything.
-* Thus, RaKXeR knows that this must be a *Pestilent Double Bluff* and marks his 2 as either a yellow 2, a red 2, or a purple 2.
+* From RaKXeR's perspective, Dr_Kakashi's move looked like a *Finesse* after MasN blind-played the yellow 1. However, after Kyle also blind-played a card, RaKXeR gasped in surprise. Something special must be going on, since a *Finesse* on the yellow 1 into the yellow 2 would never cause Kyle to blind-play.
+* Subsequently, RaKXeR knows that his 2 cannot be the yellow 2. Furthermore, RaKXeR also knows that his 2 cannot be the blue 2, because then MasN would not have blind-played anything.
+* Thus, RaKXeR knows that this must be a *Pestilent Double Bluff* and marks his 2 as either a green 2, a red 2, or a purple 2.
 
 <br />
 
