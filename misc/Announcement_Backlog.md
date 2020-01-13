@@ -325,3 +325,17 @@ As noted in the [convention changes document](https://github.com/Zamiell/hanabi-
 * This convention only applies in a Cow & Pig variant.
 * It is illegal to perform a *Reverse Finesse* with a rank clue on the first turn. (This makes things more clear for players when they are given a *Save Clue* and there are some playable cards on *Finesse Position* to get.)
 ```
+
+**Pink Tempo Clues**
+
+```
+* If a player gives a *Tempo Clue* to a pink card, it is never a *Tempo Clue Chop Move*, even if it only gets one card played.
+* This is because it is fairly valuable to get pink cards out of the hand as soon as possible in case blocking cards are drawn.
+```
+
+**Brown Tempo Clues**
+
+```
+* If a player gives a *Tempo Clue* to a brown card, it is never a *Tempo Clue Chop Move*, even if it only gets one card played.
+* This is because it is fairly valuable to get brown cards out of the hand as soon as possible in case blocking cards are drawn.
+```
