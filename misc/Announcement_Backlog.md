@@ -299,3 +299,23 @@ As noted in the [convention changes document](https://github.com/Zamiell/hanabi-
   * a rank clue that has no conventional interpretation
 * Note that *Trash Chop Moves* are still "turned on".
 ```
+
+**The Gentleman's Discard Ejection** (by Jeff)
+
+```
+* Normally, if a player performs a *Gentleman's Discard* and the other card is **not** on *Finesse Position*, it could be several things:
+  1) If the card on *Finesse Position* is itself playable right now, then it would be a *Layered Gentleman's Discard*.
+  2) If the card on *Finesse Position* is exactly one-away-from-playable, then it would be a *Patch Gentleman's Discard* (and call for the next-player to blind-play their *Finesse Position* card).
+  3) If the card on *Finesse Position* is two or more away from playable, or a trash card, then it is usually an emergency situation or a player is making a mistake.
+* If the third option is true and it is **not** an emergency situation and the player is **not** making a mistake, then the player who is performing the weird *Gentleman's Discard* is instead intending for the next player to *Eject* as a *Gentleman Discard Ejection*. Doing so will demonstrate that the card is not on the *Finesse Position* and is instead on the *Second Finesse Position*.
+* For example, in a 3-player game:
+  * All 1's are played on the stacks.
+  * Alice discards a known red 2 as a *Gentleman's Discard*.
+  * Bob sees that Cathy has the red 2, but it is not in her *Finesse Position*. Cathy has a red 1 (trash) on *Finesse Position*, followed by a red 2.
+  * Bob knows that it would be pointless for Alice to perform a *Gentleman's Discard* and then for Bob to waste a clue giving a *Fix Clue*. So, if Alice is not making a mistake, she must be trying to communicate something deeper.
+  * Bob knows that if Alice wanted him to play his *Finesse Position* card, this would not work, as Cathy would interpret the situation as a *Patch Gentleman's Discard* and would go on to misplay the red 1.
+  * Bob knows that this situation signals a *Gentleman's Discard Ejection*, so he blind-plays his *Second Finesse Position* card and it a blue 2 and it successfully plays.
+  * Cathy knows that some kind of *Ejection* is going on, since Bob blind-played his *Second Finesse Position*. Since the previous action was a *Gentleman's Discard*, this must be a *Gentleman's Discard Ejection*, which means that Cathy's red 3 is on her *Second Finesse Position* instead of her *First Finesse Position*.
+  * Cathy blind-plays the red 2.
+```
+
