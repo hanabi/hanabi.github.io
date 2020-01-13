@@ -5,6 +5,21 @@
 ![Example Screenshot](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/examples/pestilent_double_bluff.png)
 
 * It is Dr_Kakashi's turn.
+* Imagine that Dr_Kakashi clues number 2 to RaKXeR. That would touch the red 2 as a *Play Clue*.
+* The next player is MasN. From MasN's perspective, this looks like a *Finesse*. MasN knows that he probably has the red 1 on his *Finesse Position*. MasN blind-plays his *Finesse Position* and it is yellow 1 and successfully plays. MasN now knows that he was *Bluffed*.
+* The next player is Kyle. Kyle sees that from RaKXeR's perspective, a *Finesse* just occurred, and the 2 in RaKXeR's hand is the yellow 2 (to match the yellow 1 that was blind-played). This is a problem (because the card really is red 2 and RaKXeR will go on to misplay it).
+* Kyle knows that Dr_Kakashi must be trying to communicate something extra. When this kind of thing happens, it is usually a *Good Touch Bluff*, which means that someone else already has the yellow 2 clued in their hand. However, this is not the case because Dr_Kakashi gave the clue on the first turn of the game and obviously no-one has any clued cards in their hand yet.
+* If it isn't a *Good Touch Bluff*, then Kyle knows that it could be a *Disease Bluff*. If it is a *Disease Bluff*, then Kyle is supposed to give a *Heal Clue* to the yellow 2. However, Kyle does not see any yellow 2's in anybody's hand. Thus, this cannot be a *Disease Bluff*.
+* Lastly, this must be a *Pestilent Double Bluff*. Kyle can "heal" the situation by blind-playing his *Finesse Position*, and this was Dr_Kakashi's intent all along. Kyle blind-plays his *Finesse Position* and it is blue 1 and it successfully plays.
+* From RaKXeR's perspective, Dr_Kakashi's move looked like a *Finesse* after MasN blind-played the green 1. However, after Kyle also blind-played a card, RaKXeR gasped in surprise. Something special must be going on, since a *Finesse* on the green 1 into the green 2 would never cause Kyle to blind-play.
+* Subsequently, RaKXeR knows that his 2 cannot be the green 2. Furthermore, RaKXeR also knows that his 2 cannot be the blue 2, because then MasN would not have blind-played anything.
+* Thus, RaKXeR knows that this must be a *Pestilent Double Bluff* and marks his 2 as either a yellow 2, a red 2, or a purple 2.
+
+### Example 2
+
+![Example Screenshot](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/examples/pestilent_double_bluff2.png)
+
+* It is Dr_Kakashi's turn.
 * Imagine that Dr_Kakashi clues number 3 to Kyle. That would touch the blue 3 as a *Play Clue*.
 * The next player is Sucubis. He knows that this is a *Finesse*, so he blind-plays his *Finesse Position* card (slot 1) as a blue 2. Instead, it is a black 2 and it successfully plays. Sucubis now knows that he was *Bluffed*.
 * The next player is Valetta6789. She knows that something weird has just happened. Since black 2 matches a number 3 clue, Kyle will think that he has the black 3 (and it will go on to misplay).
@@ -15,9 +30,9 @@
 
 <br />
 
-### Example 2
+### Example 3
 
-![Example Screenshot](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/examples/pestilent_double_bluff2.png)
+![Example Screenshot](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/examples/pestilent_double_bluff3.png)
 
 * It is scharkbite's turn.
 * Imagine that scharkbite clues number 3 to asaelr. This would touch the black 3 as a *Play Clue*.
