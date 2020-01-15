@@ -3547,8 +3547,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 | The Double 5 Pull | Jeff
 | Null Positional Clues | Razvogor & Zamiel
 | Stacked 5 Color Ejection | Fireheart
-| The Pink Lie Prompt & The Pink Lie Finesse | Razvogor
+| The Bubblegum Finesse | Razvogor
 | The Unnecessary Blue Bluff | Jake
 | 5 Number Discharge | Jeff
-| The Bubblegum Finesse | Razovogor
 | The Gentleman's Discard Ejection | Jeff
