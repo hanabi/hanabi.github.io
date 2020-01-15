@@ -13,6 +13,30 @@ As noted in the [convention changes document](https://github.com/Zamiell/hanabi-
 * However, what if the *Trash Pushed* card is trash? The other players can see that this clue must have some other purpose - it should signal an *Ejection* on the very next player.
 ```
 
+**Loaded Play Clues** (rename)
+
+```
+* *BGA Play Clues* are now renamed to *Loaded Play Clues*, since new players do not know what BGA is.
+```
+
+**Unnecessary Chop Move / Trash Double Bluff** (change) (by NoMercy)
+
+```
+* The *Unnecessary Trash Chop Move* now takes priority over the *Trash Double Bluff*.
+```
+
+**5's Color Ejection (5CE)** (change)
+
+```
+* The "*Reverse Finesse*" exception is deleted. Now, when a brand new 5 is touched and you need to determine whether or not it is a 5CE, all you have to do is count the number of blind-plays that you would have to play out of your own hand.
+```
+
+**Null Conventions** (change)
+
+```
+* Any variant with a null suit is now treated as a *Hard Variant*, meaning that *Loaded Play Clues* are "turned on" and so forth.
+```
+
 **Brown Positional Clues**
 
 ```
@@ -26,24 +50,6 @@ As noted in the [convention changes document](https://github.com/Zamiell/hanabi-
   * Bob knows that since all of the 2's are already played, whatever 2 this is must be a trash 2.
   * Bob also knows that this cannot be a *Trash Chop Move*, a *Trash Push*, or any of the other trash moves.
   * Bob instead interprets this as a *Brown Positional Clue*, and plays his slot 2 brown card.
-```
-
-**Loaded Play Clues** (rename)
-
-```
-* *BGA Play Clues* are now renamed to *Loaded Play Clues*, since new players do not know what BGA is.
-```
-
-**Unnecessary Chop Move / Trash Double Bluff** (change) (by NoMercy)
-
-```
-* The *Unnecessary Trash Chop Move* now takes priority over the *Trash Double Bluff*.
-```
-
-**Null Conventions** (change)
-
-```
-* Any variant with a null suit is now treated as a *Hard Variant*, meaning that *Loaded Play Clues* are "turned on" and so forth.
 ```
 
 **Occupied Focus Inversion** (by Romain)
@@ -80,12 +86,6 @@ As noted in the [convention changes document](https://github.com/Zamiell/hanabi-
   * Bob sees that the obvious clue to give to Cathy was red, as it would actually get the red 2 played right now.
   * This move is so bad that it must be communicating something extra. Alice must be intending for a *Rank Choice Ejection*. Bob blind-plays his *Second Finesse Position* card and it is a blue 1 and successfully plays.
   * Cathy knows that since a number 2 clue cause Bob to blind-play his *Second Finesse Position*, this must be an *Ejection*. The only type of *Ejection* that matches this kind of clue is a *Rank Choice Ejection*, so Cathy knows that her 2 must be playable and that her 2 must be exactly the red 2. Cathy plays the red 2.
-```
-
-**5's Color Ejection (5CE)** (change)
-
-```
-* The "*Reverse Finesse*" exception is deleted. Now, when a brand new 5 is touched and you need to determine whether or not it is a 5CE, all you have to do is count the number of blind-plays that you would have to play out of your own hand.
 ```
 
 **Very Ambiguous (3 Suits) Conventions**
