@@ -6,12 +6,16 @@ As noted in the [convention changes document](https://github.com/Zamiell/hanabi-
 
 ## The Backlog
 
+@everyone New conventions:
+
 **Trash Push Ejection** (by Jeff)
 
 ```
 * Normally, when known trash is touched as the focus of the clue, and the known trash is on chop, it communicates a *Trash Push*.
 * However, what if the *Trash Pushed* card is trash? The other players can see that this clue must have some other purpose - it should signal an *Ejection* on the very next player.
 ```
+
+@everyone Changed conventions:
 
 **Loaded Play Clues** (rename)
 
