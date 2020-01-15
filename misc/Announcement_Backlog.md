@@ -28,35 +28,6 @@ As noted in the [convention changes document](https://github.com/Zamiell/hanabi-
   * Bob instead interprets this as a *Brown Positional Clue*, and plays his slot 2 brown card.
 ```
 
-**The Pink Play Clue Lie (with a mismatched *Play Clue* that touches other cards)** (clarification)
-
-```
-* Players can also violate *Pink Promise* if they are giving a *Play Clue* and the lie will be resolved when the player who is clued plays their focused card.
-* For example, in a 3-player game:
-  * Pink 3 and and red 2 are played on the stacks.
-  * Alice clues number 3 to Cathy, touching a pink 4 on slot 1 and a blue 3 on slot 2.
-  * Bob discards.
-  * Cathy plays the card on slot 1, thinking that it is a red 3. It is actually the pink 4.
-  * Cathy knows that Alice broke *Pink Promise* and that she was lied to, but that it was a *Pink Play Clue Lie*. Cathy knows that Alice likely did things this way because she wanted a 2-for-1 (to pick up some useful 3 "for free") instead of just a 1-for-1 on just the pink 4.
-```
-
-**The Bubblegum Prompt & The Bubblegum Finesse** (by Razvogor)
-
-```
-* The existing *Bubblegum Finesse* is deleted.
-* This convention only applies to variants with a pink or omni suit.
-* Normally, when players give a clue to a pink card with a number, they exactly match the number of the card in order to satisfy *Pink Promise*.
-* Some common situations where players violate *Pink Promise* are covered in the "The Pink Play Clue Lie (which resolves immediately)" and the "The Pink Play Clue Lie (with multiple 1's)" sections above.
-* Rarely, it is also possible to lie about the rank of a pink card that is not yet playable. Doing so communicates the slot number of where the connecting card is.
-* For example, in a 3-player game:
-  * Pink 1 is played on the stacks.
-  * Alice clues number 4 to Cathy, touching a pink 3 on slot 1.
-  * Bob has no clued cards in his hand.
-  * Bob can see that Alice's clue breaks *Pink Promise*. Furthermore, Bob can see that Alice had no good reason to do so: there are no other pink cards in Cathy's hand, so nothing was preventing a pink color clue.
-  * Thus, Alice must be trying to communicate something extra. This must be a *Pink Lie Finesse* that communicates which slot to play, so Bob blind-plays his slot 4 card and it is the pink 2.
-  * Cathy knows that since Bob blind-played his slot 4 from the number 4 clue, this must be a *Pink Lie Finesse* and that she must have the matching pink 3.
-```
-
 **Loaded Play Clues** (rename)
 
 ```
