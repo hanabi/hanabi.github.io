@@ -2464,7 +2464,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Bob knows that it would be pointless for Alice to perform a *Gentleman's Discard* and then for Bob to waste a clue giving a *Fix Clue*. So, if Alice is not making a mistake, she must be trying to communicate something deeper.
   * Bob knows that if Alice wanted him to play his *Finesse Position* card, this would not work, as Cathy would interpret the situation as a *Patch Gentleman's Discard* and would go on to misplay the red 1.
   * Bob knows that this situation signals a *Gentleman's Discard Ejection*, so he blind-plays his *Second Finesse Position* card and it a blue 2 and it successfully plays.
-  * Cathy knows that some kind of *Ejection* is going on, since Bob blind-played his *Second Finesse Position*. Since the previous action was a *Gentleman's Discard*, this must be a *Gentleman's Discard Ejection*, which means that Cathy's red 3 is on her *Second Finesse Position* instead of her *First Finesse Position*.
+  * Cathy knows that some kind of *Ejection* is going on, since Bob blind-played his *Second Finesse Position*. Since the previous action was a *Gentleman's Discard*, this must be a *Gentleman's Discard Ejection*, which means that Cathy's red 2 is on her *Second Finesse Position* instead of her *First Finesse Position*.
   * Cathy blind-plays the red 2.
 
 <br />
