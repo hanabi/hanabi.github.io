@@ -1690,8 +1690,8 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * In these situations, if the next player cannot see a better explanation for the clue, then they should blind-play their *Finesse Position* card as a *Known Bluff*.
 * For example:
   * The player might see all of the copies of the card that they are supposed to be blind-playing.
-  * The player might have negative information on their entire hand (e.g. negative blue on every card when they are supposed to be playing a blue 2).
-  * The player might know that they are playing a 1 into a *3 Bluff* (e.g. a card was clued with number 3 and there are no cards played yet).
+  * The player might have negative information on their entire hand (e.g. negative blue on every card when they are supposed to be blind-playing a blue 2).
+  * The player might know that they are blind-playing a 1 into a *3 Bluff* (e.g. a card was clued with number 3 and there are no cards played yet).
 
 ### Hard Bluffs
 
