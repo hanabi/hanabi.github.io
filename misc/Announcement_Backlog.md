@@ -8,39 +8,6 @@ As noted in the [convention changes document](https://github.com/Zamiell/hanabi-
 
 @everyone New conventions:
 
-**Trash Push Ejection** (by Jeff)
-
-```
-* Normally, when known trash is touched as the focus of the clue, and the known trash is on chop, it communicates a *Trash Push*.
-* However, what if the *Trash Pushed* card is trash? The other players can see that this clue must have some other purpose - it should signal an *Ejection* on the very next player.
-```
-
-@everyone Changed conventions:
-
-**Loaded Play Clues** (rename)
-
-```
-* *BGA Play Clues* are now renamed to *Loaded Play Clues*, since new players do not know what BGA is.
-```
-
-**Unnecessary Chop Move / Trash Double Bluff** (change) (by NoMercy)
-
-```
-* The *Unnecessary Trash Chop Move* now takes priority over the *Trash Double Bluff*.
-```
-
-**5's Color Ejection (5CE)** (change)
-
-```
-* The "*Reverse Finesse*" exception is deleted. Now, when a brand new 5 is touched and you need to determine whether or not it is a 5CE, all you have to do is count the number of blind-plays that you would have to play out of your own hand.
-```
-
-**Null Conventions** (change)
-
-```
-* Any variant with a null suit is now treated as a *Hard Variant*, meaning that *Loaded Play Clues* are "turned on" and so forth.
-```
-
 **Brown Positional Clues**
 
 ```
