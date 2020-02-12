@@ -8,39 +8,6 @@ As noted in the [convention changes document](https://github.com/Zamiell/hanabi-
 
 @everyone New terminology:
 
-**The Selfish Finesse (A Finesse Through Your Own Hand)**
-
-```
-* Normally, players with playable cards play their cards and let other people give the *Play Clues*. However, sometimes players with a playable card can perform a *Finesse* through their own hand.
-* This is often necessary to "lock in" the *Finesse* before the cards move out of *Finesse Position*. Like any other *Finesse*, players in this situation should just mark the cards for later and wait patiently for the cluer to play their card.
-* For example, in a 3-player game:
-  * It is the first turn and nothing is played on the stacks.
-  * Alice clues red to Bob, touching a red 1 on slot 1 as a *Play Clue*. (This is now a globally-known red 1, since Cathy does not have any red 1's in her hand.)
-  * Bob clues red to Cathy, touching a red 3 on slot 1 as a *Play Clue*.
-  * Cathy sees that Alice has as red 2 on her *Finesse Position*, so this must be a *Selfish Finesse*. Bob did not want to play the red 1 because then the *Finesse* might go away and he wanted to lock it in. Cathy marks her red card as potentially red 3 and discards.
-  * Alice sees that Bob gave a *Play Clue* to a red 3. Bob knows for sure that he has the red 1, so Alice must have the red 2 on her *Finesse Position*. Alice marks her *Finesse Position* card as red 2 and discards.
-  * Bob plays red 1.
-  * Cathy discards.
-  * Alice blind-plays red 2.
-```
-
-@everyone New conventions:
-
-**Brown Positional Clues**
-
-```
-* This convention only applies to variants with a brown suit.
-* In some situations, a player may have multiple brown cards in their hand. If the next brown card to play is not the oldest card, it can be difficult to "get" it to play.
-* In cases where a number clue is given that has no other conventional interpretation, it is an indication to the player with two or more brown cards of which slot to play.
-* For example, in a 3-player game:
-  * All of the 2's are played.
-  * Bob has four brown cards clued with a brown color clue on slots 2, 3, 4, and 5.
-  * Alice clues Bob number 2, touching a blue 2 on his slot 1.
-  * Bob knows that since all of the 2's are already played, whatever 2 this is must be a trash 2.
-  * Bob also knows that this cannot be a *Trash Chop Move*, a *Trash Push*, or any of the other trash moves.
-  * Bob instead interprets this as a *Brown Positional Clue*, and plays his slot 2 brown card.
-```
-
 **Occupied Focus Inversion** (by Romain)
 
 ```
