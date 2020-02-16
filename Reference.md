@@ -3043,7 +3043,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 #### Brown Positional Clues
 
-* In some situations, a player may have multiple brown cards in their hand. If the next brown card to play is not the oldest card, it can be difficult to "get" it to play.
+* In some situations, a player may have multiple brown cards in their hand, with one of them being playable. If the playable brown card is not the oldest card, it can be difficult to "get" it to play.
 * In cases where a number clue is given that has no other conventional interpretation, it is an indication to the player with two or more brown cards of which slot to play.
 * For example, in a 3-player game:
   * All of the 2's are played.
