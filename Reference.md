@@ -2428,7 +2428,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * In this situation, they intend for an *Ejection* on the very next player.
 * For example, in a 3-player game:
   * Red 1 is played on the stacks.
-  * Cathy's hand is completely unclued and is as follows, from left to right: red 2, blue 4, blue 4, blue 3, blue 3
+  * Cathy's hand is completely unclued and is as follows, from left to right: blue 3, blue 3, blue 4, blue 4, red 2
   * Alice clues number 2 to Cathy, touching the red 2 as a *2 Save*.
   * Bob sees that the obvious clue to give to Cathy was red, as it would actually get the red 2 played right now.
   * This move is so bad that it must be communicating something extra. Alice must be intending for a *Rank Choice Ejection*. Bob blind-plays his *Second Finesse Position* card and it is a blue 1 and successfully plays.
