@@ -2692,7 +2692,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * It is the first turn and nothing is played on the stacks.
   * Alice clues red to Cathy, touching a red 1 as a *Play Clue*.
   * Bob clues blue to Alice as a *Play Clue* on a blue 1.
-  * Instead of playing her red 1, Cathy clues red to Donald, touching a red 3 on slot 2 and a red 2 on slot 3. This must be a *Play Clue*, since these cards are not on Donald's chop.
+  * Instead of playing her red 1, Cathy clues red to Donald, touching a red 3 on slot 1 and a red 2 on slot 2. This must be a *Play Clue*, since these cards are not on Donald's chop.
   * Donald knows that since Cathy is not playing her red 1 and giving a clue, she must have a good reason.
   * Donald looks around the table and does not see the red 2 in anybody else's *Finesse Position*. Thus, this cannot be a *Selfish Finesse*.
   * Donald also knows that this cannot be a *Self Finesse* or *Self Bluff*. (*Self Bluffs* with color are explicitly illegal.)
