@@ -560,7 +560,7 @@ While the other sections in this document contain lists of special "moves", this
 * For all of your subsequent turns, you have to treat that card like it is **all of the possibilities** at the same time. This is a lot like the *Schrödinger's Cat* quantum physics analogy, which states a cat is both alive and dead at the same time, and you won't know until you actually open the box and look. Similarly, treat the unknown card as all the possibilities, and you won't actually know until the card is played.
 * The implications of *Schrödinger's Cat Principle* is that players must be very careful - before playing a card, they will often have to wait for everyone else to have a turn to allow for the possibility of a *Prompt*, *Reverse Finesse*, and so forth.
 
-### Clue Interpretation Priority & Occam's Razor
+### Clue Interpretation & Occam's Razor
 
 * When a clue could have multiple interpretations, usually *Schrödinger's Cat Principle* is involved - players must wait a round and see what their teammates do in order to find out the true meaning of the clue. But what if a clue could have multiple interpretations and a player does **not** have to wait for information from anyone else?
 * In this situation, players should use *Occam's Razor* - always assume the simplest possible interpretation.
@@ -755,21 +755,21 @@ While the other sections in this document contain lists of special "moves", this
 
 ### Allowable Stall Clues
 
-* In certain special situations, everyone understands that a player might be giving a "stall" clue. However, there are limits - they are not allowed to just clue anything they want. These are the specific clues that they are allowed to give along with the priority of each clue:
+* In certain special situations, everyone understands that a player might be giving a "stall" clue. However, there are limits - they are not allowed to just clue anything they want. These are the specific clues that they are allowed to give along with the precedence of each clue:
 
-| Priority | Type of Clue | Early Game (Severity 1) | Double Discard (Severity 2) | Locked Hand (Severity 3) | 8 Clues (Severity 4)
-| -------- | ------------ | ----------------------- | --------------------------- | ------------------------ | --------------------
-| 1        | Normal *Play Clues* or *Save Clues*                                                   | ✔ | ✔ | ✔ | ✔
-| 2        | *5 Stall* (cluing off-chop 5's)                                                       | ✔ | ✔ | ✔ | ✔
-| 3        | *Tempo Clue* (re-cluing a card to make it play)                                       | ❌ | ✔ | ✔ | ✔
-| 4        | *Locked Hand Save* (saving any card on chop)                                          | ❌ | ❌ | ✔ | ✔
-| 5        | *8 Clue Save* (saving any non-fresh card)                                             | ❌ | ❌ | ❌ | ✔
-| 6        | Filling in extra info on clued cards                                                  | ❌ | ✔ | ✔ | ✔
-| 7        | *Hard Burn* (re-cluing an unplayable card that gives no new information, usually a 5) | ❌ | ✔ | ✔ | ✔
+| Precedence | Type of Clue | Early Game (Severity 1) | Double Discard (Severity 2) | Locked Hand (Severity 3) | 8 Clues (Severity 4)
+| ---------- | ------------ | ----------------------- | --------------------------- | ------------------------ | --------------------
+| 1          | Normal *Play Clues* or *Save Clues*                                                   | ✔ | ✔ | ✔ | ✔
+| 2          | *5 Stall* (cluing off-chop 5's)                                                       | ✔ | ✔ | ✔ | ✔
+| 3          | *Tempo Clue* (re-cluing a card to make it play)                                       | ❌ | ✔ | ✔ | ✔
+| 4          | *Locked Hand Save* (saving any card on chop)                                          | ❌ | ❌ | ✔ | ✔
+| 5          | *8 Clue Save* (saving any non-fresh card)                                             | ❌ | ❌ | ❌ | ✔
+| 6          | Filling in extra info on clued cards                                                  | ❌ | ✔ | ✔ | ✔
+| 7          | *Hard Burn* (re-cluing an unplayable card that gives no new information, usually a 5) | ❌ | ✔ | ✔ | ✔
 
-* For example, if a player could perform a *5 Stall* (priority 2), then they are not allowed to perform a *Tempo Clue* (priority 3). Or, if a player could perform a *Tempo Clue* (priority 3), they are not allowed to *Hard Burn* (priority 7), and so forth.
+* For example, if a player could perform a *5 Stall* (precedence 2), then they are not allowed to perform a *Tempo Clue* (precedence 3). Or, if a player could perform a *Tempo Clue* (precedence 3), they are not allowed to *Hard Burn* (precedence 7), and so forth.
   * However, remember that the *Finesse Position Exception* applies to *5 Stalls*. (This is covered in the "5 Stall" section above.)
-* What is the point of having a complicated table with defined priorities? Well, normally, players in stalling situations are not able to give tricky-looking *Finesses*, because everyone else on the team will think that they are giving a stall clue. However, if it can be seen that there is a better clue available for them to give, then everyone can know that they are **not** giving a stall clue. Thus, because of this priority table, players in stalling situations are still often able to make *Finesses* happen.
+* What is the point of having a complicated table with defined priorities? Well, normally, players in stalling situations are not able to give tricky-looking *Finesses*, because everyone else on the team will think that they are giving a stall clue. However, if it can be seen that there is a better clue available for them to give, then everyone can know that they are **not** giving a stall clue. Thus, because of this precedence table, players in stalling situations are still often able to make *Finesses* happen.
 * Obviously, stall clues are not allowed when the player has a known playable card in their hand.
 
 ### Locked Hands & The Locked Hand Save (L.H.S. / LHS) (Severity 3 Stalling)
@@ -777,7 +777,7 @@ While the other sections in this document contain lists of special "moves", this
 * Generally speaking, it is a bad situation when someone's hand gets fully clued. This is also known as being *Locked*, and it should be avoided if possible. However, sometimes it cannot be helped, like when a player draws three 5's in a row.
 * A player with a *Locked Hand* may give a low-value clue because they are not sure that they can play anything (and they can't discard because their hand is fully clued). Similar to a *Double Discard* situation, players should not read too closely into any clues given during this state.
 * If the team is out of clues and someone's hand is fully clued, then you **have** to discard to generate a clue for them. Similarly, if there is only 1 clue left, you cannot steal it from them.
-* Players with a *Locked Hand* gain the special ability to save any card on chop. This is called a *Locked Hand Save* if it saves a card that would otherwise not be legal to save (like some one-away from playable card that is not in the discard pile yet). However, players can only do *Locked Hand Saves* if there are no higher priority clues available. See the "Allowable Stall Clues" section above.
+* Players with a *Locked Hand* gain the special ability to save any card on chop. This is called a *Locked Hand Save* if it saves a card that would otherwise not be legal to save (like some one-away from playable card that is not in the discard pile yet). However, players can only do *Locked Hand Saves* if there are no higher precedence clues available. See the "Allowable Stall Clues" section above.
 
 ### The Anxiety Play (Forcing a Locked Player to Play)
 
@@ -789,7 +789,7 @@ While the other sections in this document contain lists of special "moves", this
 
 * At the beginning of the game, you start with 8 clues. This section only applies to situations where you climb to 8 clues in the middle of the game.
 * A player who has a turn with 8 clues in the bank may give a low-value clue because they are not sure that they can play anything (and they can't discard because the game does not allow you to discard while at 8 clues). Similar to a *Double Discard* or a *Locked Hand* situation, players should not read too closely into any clues given during this state.
-* Players at 8 clues gain the special ability to save any card that they want, on **or** off chop, as long as the card is not freshly drawn. This is called an *8 Clue Save*. However, similar to a *Locked Hand Save*, they can only do this if there are no higher priority clues available. See the "Allowable Stall Clues" section above.
+* Players at 8 clues gain the special ability to save any card that they want, on **or** off chop, as long as the card is not freshly drawn. This is called an *8 Clue Save*. However, similar to a *Locked Hand Save*, they can only do this if there are no higher precedence clues available. See the "Allowable Stall Clues" section above.
 
 ### The Priority Prompt & The Priority Finesse
 
@@ -802,7 +802,7 @@ While the other sections in this document contain lists of special "moves", this
 | -------- | ------------------------------------------------------------------ | ------
 | 1        | Blind-plays                                                        | Demonstrating that a *Finesse* or *Bluff* occurred is very important.
 | 2        | Cards that lead into clued cards in someone else's hand            | Otherwise, the team would lose *Tempo*.
-| 3        | Cards that lead into the player's own hand                         | It is bad for a suit to be "held up" on one player.
+| 3        | Cards that lead into the player's own hand that are not a 4        | It is bad for a suit to be "held up" on one player.
 | 4        | 5's                                                                | Playing a 5 gets the team a free clue.
 | 5        | The lower rank card                                                | The smaller stacks are more important to fill up.
 | 6        | The left-most card                                                 | The left-most card is more likely to be good.
