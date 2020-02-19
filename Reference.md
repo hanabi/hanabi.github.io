@@ -1451,9 +1451,9 @@ Priority does not always apply. Some common exceptions are listed below.
 
 * If a clue could be given by multiple players, who should give the clue? Usually, it makes the most sense for the players with playable cards to play those cards, and the players with nothing to do to give the clue.
 * If someone gives a clue with a playable card in their hand and this forces the next player to have nothing to do, this is bad teamwork - unless there was a reason!
-* When this occurs, even if the clue looks like an ordinary *Save Clue*, it **must** be a *Play Clue*, since the player who was doing it was occupied.
+* When this occurs, even if the clue looks like an ordinary *Save Clue*, it **must** be a *Play Clue*, since the player who was doing it was *Occupied*.
 * Furthermore, if an *Occupied Play Clue* is given to a card that is not directly playable right now, it must be an *Occupied Finesse*!
-* The concept of an *Occupied Finesse* generalizes to lots of different kind of moves. For example, when an occupied player clues an off-chop 5, it is certainly not a *5 Stall* - it must be an *Occupied 5 Pull*!
+* Note that the concept of being *Occupied* generalizes to lots of different kind of moves. For example, when an *Cccupied* player clues an off-chop 5, it is certainly not a *5 Stall* - it must be an *Occupied 5 Pull*!
 
 ### The Clandestine Finesse
 
@@ -2682,13 +2682,10 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Bob performs a *Certain Discard* on his *Finesse Position* card and it is the red 3, successfully passing it back to Alice.
 * If someone performs a *Certain Discard* and you have two or more clued cards that could be the target, then you are not promised the order, only that you have the card clued somewhere in your hand. (This part works in the exact same way as a more-ordinary *Sarcastic Discard*.)
 
-### Occupied Focus Inversion
+### Occupied Focus Inversion (O.F.I. / OFI)
 
-* Normally, when a player is *Occupied* and they give a clue to someone else, it usually signifies one of the following three situations:
-  1) They are giving a *Chop Focus* clue to the next person as an urgent *Play Clue* or *Save Clue* before it gets discarded.
-  2) They are giving a clue that would normally look like a *Save Clue* with the intent to transform it into a *Play Clue* (as an *Occupied Play Clue*).
-  3) They are giving a clue that would normally look like a 1-for-1 *Play Clue* with the intent to transform it into a 2-for-1 *Self-Finesse* (as an *Occupied Self-Finesse*).
-* If none of the above situations apply and an *Occupied* player gives a *Play Clue* that touches two or more brand new cards, then they must be trying to communicate something extra.
+* Normally, when a player is *Occupied* and they give a clue to someone else, they are usually doing something important that can't be easily done by anyone else on the team. (For example, they could be giving a *Save Clue* to the next player to prevent an imminent discard. Or, they could be taking advantage of their *Occupied* status and are giving an *Occupied Play Clue* or an *Occupied Finesse*.)
+* If it can be seen that an *Occupied* player is giving a non-important clue that someone else on the team could give, then they are either making a mistake, or they are trying to communicate something extra.
 * In this situation, they are trying to communicate that the focus of the clue should be inverted. The *Play Clue* is either on the left-most card (if it would normally be *Chop Focus*) or on the right-most card (if it would normally be the left-most card).
 * *Occupied Focus Inversion* takes precedence over an *Out-of-Order Finesse*. (This follows from *Occam's Razor*; if it could just be a normal *Focus Inversion* play clue, then it does not necessarily promise any blind-plays.)
 * For example, in a 4-player game:
