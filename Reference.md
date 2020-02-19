@@ -2279,7 +2279,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Alice is not allowed to save the red 5 with a red clue, because then it would look like a *Save Clue* on a red 4.
   * However, if Alice clues number 5 to Bob, then he will discard the red 4.
   * Thus, Alice performs a *Fake Save* on both red cards by cluing red.
-  * Bob will mark his chop as the red 4, so the team will have him number 5 as a *Fix Clue* at some point in the future. At that point, he will be able to retroactively see that Alice was in a very tight spot and had to give a *Fake Save*.
+  * Bob will mark his chop as the red 4, so the team will have to give him a number 5 clue as a *Fix Clue* at some point in the future. At that point, Bob will be surprised, but he will be able to retroactively see that Alice was in a very tight spot and had to give a *Fake Save*.
 * Note that normally, *Fake Saves* are **only allowed as a last resort**. If there is some other line that would "work" or be safe without a *Fake Save*, then players have to prefer that. Subsequently, *Fake Saves* are extremely rare.
 
 ### The Sacrifice Discard
