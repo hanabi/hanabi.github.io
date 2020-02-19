@@ -212,3 +212,17 @@ As noted in the [convention changes document](https://github.com/Zamiell/hanabi-
 * If a player gives a *Tempo Clue* to a brown card, it is never a *Tempo Clue Chop Move*, even if it only gets one card played.
 * This is because it is fairly valuable to get brown cards out of the hand as soon as possible in case blocking cards are drawn.
 ```
+
+**Chiaroscuro Pseudo Saves**
+
+```
+* This convention only applies in variants with a Chiaroscuro Pink suit.
+* Chiaroscuro Pink cards on chop should be saved with number 5 clue. *Pink Promise* does not apply in this variant.
+```
+
+**Chiaroscuro Pseudo-Rank Saves**
+
+```
+* This convention only applies in variants with a Chiaroscuro Pink suit.
+* In situations where there are critical cards behind Chiaroscuro Pink cards, you are also allowed to *Fake Save* the Chiaroscuro Pink cards with any number (either 2, 3, or 4). (Again, *Pink Promise* does not apply to this variant.)
+```
