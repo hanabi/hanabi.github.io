@@ -2684,7 +2684,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### Occupied Focus Inversion
 
-* Normally, when a player is *Occupied* and they give a clue to someone else, it signifies one of the following three situations:
+* Normally, when a player is *Occupied* and they give a clue to someone else, it usually signifies one of the following three situations:
   1) They are giving a *Chop Focus* clue to the next person as an urgent *Play Clue* or *Save Clue* before it gets discarded.
   2) They are giving a clue that would normally look like a *Save Clue* with the intent to transform it into a *Play Clue* (as an *Occupied Play Clue*).
   3) They are giving a clue that would normally look like a 1-for-1 *Play Clue* with the intent to transform it into a 2-for-1 *Self-Finesse* (as an *Occupied Self-Finesse*).
