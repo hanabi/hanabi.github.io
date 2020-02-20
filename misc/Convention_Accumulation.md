@@ -7,7 +7,7 @@ As you probably know, in the Hyphen-ated group, we play with a lot of convention
 
 ## The History
 
-A common reaction to seeing a hundred-page-long conventions document for the first time is often surprise: "Holy shit, these guys are crazy Hanabi nerds!" But the surprise can quickly turn to disgust: "This list is insane - how can they remember all of these conventions? I would never want to play like this. Even if I did, learning all of these conventions would take years."
+A common reaction to seeing a hundred-page-long conventions document for the first time is often surprise: "Wow, these guys are crazy Hanabi nerds!" But the surprise can quickly turn to disgust: "This list is insane - how can they remember all of these conventions? I would never want to play like this. Even if I did, learning all of these conventions would take years."
 
 And indeed, looking at it from the outside-in, I can agree and sympathize with this reaction. But I think it is important to understand the story of how we got here in the first place.
 
