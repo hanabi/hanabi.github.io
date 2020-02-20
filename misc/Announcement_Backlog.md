@@ -6,7 +6,7 @@ As noted in the [convention changes document](https://github.com/Zamiell/hanabi-
 
 ## The Backlog
 
-@everyone Convention clarification:
+@everyone Convention clarifications:
 
 **Blind-Playing Chop Moved Cards** (clarification)
 
