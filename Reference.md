@@ -778,7 +778,7 @@ While the other sections in this document contain lists of special "moves", this
 * A player with a *Locked Hand* may give a low-value clue because they are not sure that they can play anything (and they can't discard because their hand is fully clued). Similar to a *Double Discard* situation, players should not read too closely into any clues given during this state.
 * If the team is out of clues and someone's hand is fully clued, then you **have** to discard to generate a clue for them. Similarly, if there is only 1 clue left, you cannot steal it from them.
 * Players with a *Locked Hand* gain the special ability to save any card on chop. This is called a *Locked Hand Save* if it saves a card that would otherwise not be legal to save (like some one-away from playable card that is not in the discard pile yet). However, players can only do *Locked Hand Saves* if there are no higher precedence clues available. See the "Allowable Stall Clues" section above.
-* *Locked Hand Save* can be performed with either a color clue or a number clue.
+* A *Locked Hand Save* can be performed with either a color clue or a number clue.
 
 ### The Anxiety Play (Forcing a Locked Player to Play)
 
