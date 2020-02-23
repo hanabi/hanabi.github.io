@@ -2249,7 +2249,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Thus, Bob knows that this is an *Unnecessary Trash Push*, and blind-plays his *Finesse Position* card. It is the blue 3 and it successfully plays.
   * Cathy knows that this must be a *Trash Push Finesse* on blue 4. Cathy blind-plays her slot 4 card, but it is red 3 instead and it successfully plays.
   * Cathy now knows that since the two cards did not match each other, this must have been an *Unnecessary Trash Push*.
-* Players cannot *Unnecessary Trash Push* unless the clue touches exactly 1 card. (This is because the *Trash Push* is not unnecessary if it is providing multiple safe discards in order to stall out the discarding of potentially useful cards.)
+* Often times, a (normal) *Trash Push* can provide a player with safe discards that stall out the discard of other useful cards in their hand. If this is the case, then the *Trash Push* would **not** be an *Unnecessary Trash Push*.
 
 ### The Trash Pull
 
