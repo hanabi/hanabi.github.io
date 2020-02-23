@@ -8,7 +8,7 @@ As noted in the [convention changes document](https://github.com/Zamiell/hanabi-
 
 @everyone Convention clarifications:
 
-**What to Do After a Strike (Bomb)**
+**What to Do After a Strike**
 
 ```
 * When a card is misplayed and goes to the discard pile, the team accumulates a *strike* (which is also referred to as a *bomb*).
