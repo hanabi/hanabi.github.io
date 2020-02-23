@@ -699,7 +699,7 @@ While the other sections in this document contain lists of special "moves", this
 
 ## Level 2 - Common Mistakes & Illegal Moves
 
-### What to Do After a Strike (Bomb)
+### What to Do After a Strike
 
 * When a card is misplayed and goes to the discard pile, the team accumulates a *strike* (which is also referred to as a *bomb*).
 * If three strikes are accumulated, the team will get a score of 0. This is to be **avoided at all costs** and players should play relatively conservatively when the team is at two strikes. (One exception is when players are explicitly going for a perfect score in a really tough variant, but this is less common.)
