@@ -4,6 +4,7 @@
 
 ![Example Screenshot](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/examples/purge_bluff.png)
 
+* It is Fireheart's turn.
 * Fireheart clues green to Micerang. This "fills in" green 4, which is a signal to Zamiel that the green 4 is playable right now.
 * Zamiel has a 2 in his hand that could be green 2. Thus, Zamiel interprets the green clue as a *Prompt* on the green 2 + a *Finesse* on the green 3.
 * Zamiel plays his 2 from slot 4 as a green 2 and it successfully plays.
