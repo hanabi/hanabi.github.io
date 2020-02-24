@@ -4,7 +4,7 @@
 
 ![Example Screenshot](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/examples/bad_touch_double_bluff.png)
 
-* It is Dr_Kakashi's turn.
+* It is the first turn of the game and Dr_Kakashi starts.
 * Imagine that Dr_Kakashi clues number 3 to RaKXeR. That would touch both green 3's as a *Play Clue*.
 * The next player is MasN. Normally, this kind of thing would signal a *3 Bluff*. But since Dr_Kakashi is violating *Good Touch Principle*, MasN knows that something special is going on:
   * It could be a *Bad Touch Double Finesse*, with MasN having both the green 1 and the green 2 on *Finesse Position*.
