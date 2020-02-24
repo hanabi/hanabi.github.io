@@ -2495,12 +2495,22 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * *Discharge* is similar to *Ejection*, except instead of blind-playing the *Second Finesse Position* card, the player plays the *Third Finesse Position* card.
 * Certain types of **really** bad clues cause a *Discharge* to occur on the very next player.
 
-### Unknown Trash Discharge (UTD)
+### Unknown Trash Discharge (U.T.D. / UTD)
 
-* In general, *Bluffs* work because the player who received the clue knows that they have a one-away from playable card of that color.
-* If none of the stacks are finished and someone clues a trash card, it might look like a *Trash Bluff*. But, if the *Finesse Position* card is played, then the player will think that the card is actually a useful one-away card (instead of trash).
-* Since that would be a lie, the clue must have some other purpose - it should signal an *Discharge* on the very next player.
+* In general, *Bluffs* work because the player who received the clue knows that they have a one-away-from-playable card of that color.
+* If none of the stacks are finished and someone clues a trash card, it might look like a *Trash Bluff*. But, if the *Finesse Position* card is played, then the player will think that a normal *Bluff* has occurred. So that wouldn't work.
+* For example, in a 3-player game:
+  * All the 1's are played on the stacks.
+  * Alice clues red to Cathy, touching a red 1 as a *Play Clue*.
+  * Bob blind-plays his *Finesse Position* and it successfully plays as blue 2.
+  * Cathy knows that a *Bluff* has occurred and marks her red card as red 3 (the one-away-from-playable red card). Of course, this is a lie, because the card is really red 1. The team will likely get a strike at some point in the future.
+* If the above example happens and Alice is not making a mistake, then Alice must be trying to communicate something extra. This should signal an *Discharge* on the very next player.
 * Since the *Third Finesse Position* card was played instead of the *Finesse Position* card, then the player who received the clue will know that the card is trash.
+* For example, in a 3-player game:
+  * All the 1's are played on the stacks.
+  * Alice clues red to Cathy, touching a red 1 as a *Play Clue*.
+  * Bob blind-plays his *Third Finesse Position* and it successfully plays as green 2.
+  * Cathy knows that a *Discharge* has occurred from Alice's red clue. Thus, this must be an *Unknown Trash Discharge*, so Cathy's red card must be trash. Cathy marks her red card as red 1 (since that is the only possible trash red card) and discards it.
 * When multiple cards are clued with an *Unknown Trash Discharge*, **only the focus of the clue is considered to be trash**, meaning that *Good Touch Principle* applies to the non-focused cards. (Note that this is **the opposite of the *Trash Bluff***. In a *Trash Bluff*, when multiple cards are clued, **all** of the touched cards are considered to be trash.)
 
 ### Out-of-Position Unknown Trash Discharge
