@@ -3149,7 +3149,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * However, Alice's slot 1 card has no negative clues, and her slot slot 2 card has a negative yellow clue.
   * Thus, this is a *Negative Prompt* and Alice plays slot 2 instead of slot 1.
 
-#### Dual-Color 3 Suit Inversion
+### Dual-Color 3 Suit Inversion
 
 * This convention only applies to the *Dual-Color (3 Suits)* variant.
 * The cards that are "touched" by a color clue are considered to be inverted.
