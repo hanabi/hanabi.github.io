@@ -4,7 +4,7 @@
 
 ![Example Screenshot](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/examples/pestilent_double_bluff.png)
 
-* It is Dr_Kakashi's turn.
+* It is the first turn of the game and Dr_Kakashi starts.
 * Imagine that Dr_Kakashi clues number 2 to RaKXeR. That would touch the red 2 as a *Play Clue*.
 * The next player is MasN. From MasN's perspective, this looks like a *Finesse*. MasN knows that he probably has the red 1 on his *Finesse Position*. MasN blind-plays his *Finesse Position* and it is yellow 1 and successfully plays. MasN now knows that he was *Bluffed*.
 * The next player is Kyle. Kyle sees that from RaKXeR's perspective, a *Finesse* just occurred, and the 2 in RaKXeR's hand is the yellow 2 (to match the yellow 1 that was blind-played). This is a problem (because the card really is red 2 and RaKXeR will go on to misplay it).
