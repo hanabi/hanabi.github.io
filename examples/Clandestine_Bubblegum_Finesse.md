@@ -4,6 +4,7 @@
 
 ![Example Screenshot](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/examples/clandestine_bubblegum_finesse.png)
 
+* It is the first turn of the game and duckmammal starts.
 * duckmammal clues number 1 to Kyle, which touches a pink 3 on slot 4.
 * Dr_Kakashi knows that duckmammal is violating *Pink Promise*, so something special must be going on. This must be a *Bubblegum Finesse*, so the rank chosen is telling hiim which slot to play. Dr_Kakashi plays slot 1 and it successfully plays as pink 1.
 * Floriman sees what is going on and knows that this move does not involve him at all. Floriman clues blue to duckmammal, touching a blue 1 as a *Play Clue*.
