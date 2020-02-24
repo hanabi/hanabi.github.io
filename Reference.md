@@ -3223,7 +3223,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 #### The Mismatch Finesse
 
-* This convention only applies to *Color Blind* variants.
 * If a player has two of the same playable card in their hand, players are expected to give a *Play Clue* to the left-most one.
 * If a player instead gives a *Play Clue* to the right-most one, then they are trying to communicate something extra.
 * This means that the next player should blind-play their *Finesse Position* as any unrelated playable card.
