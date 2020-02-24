@@ -3026,6 +3026,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Bob sees that Cathy has the pink 2 in slot 4. Thus, he knows that the *Bubblegum Finesse* is not on him. Bob discards.
   * Cathy goes through the same steps as Bob. Cathy does not see the pink 2 anywhere else, so she knows that the *Bubblegum Finesse* is on her. Cathy blind-plays pink 2 from slot 4.
   * Donald knows that since Cathy played his slot 4 card, this was a *Bubblegum Finesse*, and that his pink card must be the matching card. Donald plays the pink 3.
+* Rarely, it is also possible to perform a *[Clandestine Bubblegum Finesse](https://github.com/Zamiell/hanabi-conventions/blob/master/examples/Clandestine_Bubblegum_Finesse.md)*
 
 #### Trash Pushes in Pink
 
