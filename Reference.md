@@ -3127,17 +3127,17 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * a rank clue that has no conventional interpretation
 * Note that *Trash Chop Moves* are still "turned on".
 
-### Chiaroscuro Pink Conventions
+### Chiaroscuro Pink & Dark Omni Conventions
 
-* These conventions apply to any variant with a Chiaroscuro Pink suit.
+* These conventions apply to any variant with a Dark Omni suit or a Chiaroscuro Pink suit.
 
-#### Pseudo Saves
+### Pseudo Saves
 
-* Chiaroscuro Pink cards on chop should be saved with number 5 clue. *Pink Promise* does not apply in this variant.
+* Chiaroscuro Pink or Dark Omni cards on chop should be saved with number 5 clue. *Pink Promise* does not apply in this variant.
 
 #### Pseudo-Rank Saves
 
-* In situations where there are critical cards behind Chiaroscuro Pink cards, you are also allowed to *Fake Save* the Chiaroscuro Pink cards with any number (either 2, 3, or 4). (Again, *Pink Promise* does not apply to this variant.)
+* In situations where there are critical cards behind Chiaroscuro Pink or Dark Omni cards, you are also allowed to *Fake Save* with any number (either 2, 3, or 4). (Again, *Pink Promise* does not apply to this variant.)
 
 ### The Negative Prompt
 
