@@ -21,6 +21,11 @@
 
 ## Basic Conventions
 
+### Tempo Change
+
+* *Tempo Clue Chop Moves* are turned off.
+* Additionally, players must give *Tempo Clues* as soon as reasonably possible.
+
 ### Priority Change
 
 * *Priority Prompts*, *Priority Finesses*, and so forth are all "turned off". Instead, if a player plays a card without *Priority*, the other player should write *Priority Elimination Notes* on their hand for the promised card.
