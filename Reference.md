@@ -568,7 +568,7 @@ While the other sections in this document contain lists of special "moves", this
   * If that is impossible, assume a *Prompt*.
   * If that is impossible, assume a *Finesse*.
   * If that is impossible, assume a *Bluff*.
-* Similarly, players should also use *Occam's Razor* to tell the difference between the various kinds of *Finesses* and *Bluffs* and special moves - they should always prefer the "move" that gets the least amount of blind-cards played. (A move that only gets a single "blind" card played is simpler than a move that gets two "blind" cards, and so forth.)
+* Similarly, players should also use *Occam's Razor* to tell the difference between the various kinds of *Finesses* and *Bluffs* and special moves - they should always prefer the "move" that gets the least amount of blind-cards played. (A move that only gets a single blind card played is simpler than a move that gets two blind cards, and so forth.)
 
 ### Team Distribution Principle
 
