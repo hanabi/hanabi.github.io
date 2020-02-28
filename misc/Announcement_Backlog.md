@@ -8,6 +8,44 @@ As noted in the [convention changes document](https://github.com/Zamiell/hanabi-
 
 @everyone New conventions:
 
+**5 Pull Ejection** (deleted)
+
+```
+* *5 Pull Ejection is deleted* in favor of *5 Number Discharge*.
+```
+
+**5 Number Discharge** (by Jeff)
+
+```
+* This convention only applies in the *Early Game*.
+* In the *Early Game*, if a number 5 clue is performed on a 5 that is not already on chop, then it is a *Play Clue* on the 5 (if there are any 5's that are directly playable).
+* If there are no directly playable 5's, then the clue is instead a *5 Stall*.
+* If a *5 Stall* is not allowed, then it is a *5's Chop Move* (if the card is one-away-from-chop) or a *5 Pull* (if the card is two or more away from chop).
+* If a *5 Pull* is performed on a card that is one-away-from-playable, it typically communicates a *5 Pull Finesse*.
+* However, if the *5 Pulled* card is two or more away from playable **or** the *5 Pulled* card is trash, then the clue must instead be a *Play Clue* on the 5 as a *Finesse*.
+* If the very next player sees that they will only have to **blind-play one card** in their hand to fulfill the *Finesse*, then they should assume that it is a *Finesse* and blind-play their *Finesse Position*.
+* If the very next player sees that they would have to **blind-play two or more cards** in their hand to fulfill the *Finesse*, then a *Finesse* is unlikely. Instead, players agree that this signals an *Discharge* and that the next player should play their *Third Finesse Position*.
+  * *Prompts* don't factor into the "two or more blind-plays" rule. Players only count the number of blind-plays.
+* For example, in a 3-player game:
+  * It is the first turn and nothing is played on the stacks.
+  * Alice clues number 5 to Cathy, touching a 5 on slot 1.
+  * Cathy hand is as follows: red 5, red 2, red 3, green 1, green 2
+  * Bob sees that Alice's clue cannot be a *5 Stall* or a *5 Pull*. If it were a *Finesse* on the red 5, he would have to blind-play a red 1 and a red 4.
+  * Since Bob would have to blind-play two cards into the *Finesse*, he knows that he should instead treat this as a *5 Number Discharge*. Bob blind-plays his slot 3 card and it successfully plays as the red 1.
+```
+
+@everyone Clarification:
+
+**Context**
+
+* If you are reading this section, you are presumably an intermediate Hanabi player who has the fundamentals down. So, now is a good time to clear up a potential misconception that you may have about the Hyphen-ated conventions (and this reference document more generally).
+* Up until now, you may have the impression that the group has a lot of conventions, and that if you just memorize all of the conventions, you will become a really good Hanabi player. Or, you may have the impression that the conventions are like laws and that you must always follow them. Neither of these things are true.
+* *Context* is defined as all of the meta-information about the game state. In intermediate and expert games, when determining what a clue means, players must **always** take into account the full context of the game. This means that figuring out what a clue means is never truly as easy as following one of the flowcharts from the reference document.
+* When writing the reference document, it would be distracting to constantly write the word "probably" and to constantly write "this may not apply in all situations" all over the place. For advanced players, this is obvious - Hanabi is complicated enough such that every convention is meant to be broken if the particular situation demands it.
+* Thus, players need to read the reference document with **a grain of salt**, especially when it says the word "always". Even though the reference document outlines the "correct" thing to do in a lot of situations, these are not hard and fast rules. Rather, they are intended to show the "default" or "common" case. Memorizing the default cases is really helpful, for intermediate and advanced players alike. But players have to always remember to keep their brain fully engaged on the particular situation.
+
+@everyone New variant-specific conventions:
+
 **Very Ambiguous (3 Suits) Conventions**
 
 ```
@@ -33,32 +71,6 @@ As noted in the [convention changes document](https://github.com/Zamiell/hanabi-
 * By convention, *Positional Clues* must target null cards. Thus, if a *Positional Clue* targets a card that already has a clue on it, then it slides over and targets the slot one position to the right.
   * If the *Positional Clue* targets the right-most card, then it slides over to the left.
 * This allows players the flexibility to "get" a null card when the clue types that would directly target the null card are not available.
-```
-
-**5 Pull Ejection** (deleted)
-
-```
-* *5 Pull Ejection is deleted* in favor of *5 Number Discharge*.
-```
-
-**5 Number Discharge** (by Jeff)
-
-```
-* This convention only applies in the *Early Game*.
-* In the *Early Game*, if a number 5 clue is performed on a 5 that is not already on chop, then it is a *Play Clue* on the 5 (if there are any 5's that are directly playable).
-* If there are no directly playable 5's, then the clue is instead a *5 Stall*.
-* If a *5 Stall* is not allowed, then it is a *5's Chop Move* (if the card is one-away-from-chop) or a *5 Pull* (if the card is two or more away from chop).
-* If a *5 Pull* is performed on a card that is one-away-from-playable, it typically communicates a *5 Pull Finesse*.
-* However, if the *5 Pulled* card is two or more away from playable **or** the *5 Pulled* card is trash, then the clue must instead be a *Play Clue* on the 5 as a *Finesse*.
-* If the very next player sees that they will only have to **blind-play one card** in their hand to fulfill the *Finesse*, then they should assume that it is a *Finesse* and blind-play their *Finesse Position*.
-* If the very next player sees that they would have to **blind-play two or more cards** in their hand to fulfill the *Finesse*, then a *Finesse* is unlikely. Instead, players agree that this signals an *Discharge* and that the next player should play their *Third Finesse Position*.
-  * *Prompts* don't factor into the "two or more blind-plays" rule. Players only count the number of blind-plays.
-* For example, in a 3-player game:
-  * It is the first turn and nothing is played on the stacks.
-  * Alice clues number 5 to Cathy, touching a 5 on slot 1.
-  * Cathy hand is as follows: red 5, red 2, red 3, green 1, green 2
-  * Bob sees that Alice's clue cannot be a *5 Stall* or a *5 Pull*. If it were a *Finesse* on the red 5, he would have to blind-play a red 1 and a red 4.
-  * Since Bob would have to blind-play two cards into the *Finesse*, he knows that he should instead treat this as a *5 Number Discharge*. Bob blind-plays his slot 3 card and it successfully plays as the red 1.
 ```
 
 **The Purge Bluff (Layered Bluff)**
