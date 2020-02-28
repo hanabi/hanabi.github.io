@@ -215,16 +215,16 @@ As noted in the [convention changes document](https://github.com/Zamiell/hanabi-
 * This is because it is fairly valuable to get brown cards out of the hand as soon as possible in case blocking cards are drawn.
 ```
 
-**Chiaroscuro Pseudo Saves**
+**Chiaroscuro and Dark Omni Pseudo Saves**
 
 ```
-* This convention only applies in variants with a Chiaroscuro Pink suit.
-* Chiaroscuro Pink cards on chop should be saved with number 5 clue. *Pink Promise* does not apply in this variant.
+* This convention only applies in variants with a Chiaroscuro Pink or Dark Omni suit .
+* Chiaroscuro Pink or Dark Omni cards on chop should be saved with number 5 clue. *Pink Promise* does not apply in this variant.
 ```
 
-**Chiaroscuro Pseudo-Rank Saves**
+**Chiaroscuro and Dark Omni Pseudo-Rank Saves**
 
 ```
-* This convention only applies in variants with a Chiaroscuro Pink suit.
-* In situations where there are critical cards behind Chiaroscuro Pink cards, you are also allowed to *Fake Save* the Chiaroscuro Pink cards with any number (either 2, 3, or 4). (Again, *Pink Promise* does not apply to this variant.)
+* This convention only applies in variants with a Chiaroscuro Pink or Dark Omni suit.
+* In situations where there are critical cards behind Chiaroscuro Pink or Dark Omni cards, you are also allowed to *Fake Save* the cards with any number (either 2, 3, or 4). (Again, *Pink Promise* does not apply to this variant.)
 ```
