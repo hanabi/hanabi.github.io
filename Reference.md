@@ -66,7 +66,7 @@ In general, we want all of our strategies to flow from some basic principles. Th
   * a copy of a card that has already been played
   * a copy of a card that is in someone's hand and has been clued
 * Safe discards should **not** be clued (unless there's an important reason to).
-* Players should generally assume that any clued card in their hand will be eventually be played.
+* Players should generally assume that any clued card in their hand will eventually be played.
 
 ### 5. Play Order Principle
 
