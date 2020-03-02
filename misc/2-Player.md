@@ -77,7 +77,7 @@
 
 * This convention only applies in normal (non-hard) variants
 * Just in like 3 to 5-player games, in a 2-player game, players always perform *Hard Double Discard Avoidance*.
-* In a player gives a clue in *Double Discard* situation and then they immediately receive a clue that "matches" the discarded card, then they know that this could be a *Save Clue* that was unexpected. Since it was unexpected, they might **also** have another critical card after it.
+* If a player gives a clue in *Double Discard* situation and then they immediately receive a clue that "matches" the discarded card, then they know that this could be a *Save Clue* that was unexpected. Since it was unexpected, they might **also** have another critical card after it.
 * Thus, in this situation, the player should give (another) stall clue.
 * For example, in a 2-player game:
   * Alice discards a red 3.
