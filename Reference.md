@@ -1208,22 +1208,22 @@ Priority does not always apply. Some common exceptions are listed below.
 * Typically, the player who receives a clue that causes a *Bluff* blind-play knows that the card that was clued is one-away from being playable.
 * Our group plays with an artificial *3 Bluffs* convention. This means that in addition to being one-away from being playable, we agree that the touched card can also be any 3 that will be useful in the future.
 * Here are some examples that cover the four most common *3 Bluff* situations:
-    * **Color mismatch (valid):**
+    * Example 1 - **Color mismatch (valid):**
       * On the first turn of the game, Alice clues Cathy red, which touches a red 3.
       * Bob blind-plays blue 1.
       * Cathy knows that it is either a red 2 (if it was a normal *Bluff*) or a red 3 (if it was a *3 Bluff*). She marks down both of the possibilities for later.
-    * **Number 3 with suit mismatch (valid):**
+    * Example 2 - **Number 3 with suit mismatch (valid):**
       * On the first turn of the game, Alice clues Cathy number 3, which touches a red 3.
       * Bob blind-plays blue 1.
       * Cathy knows that it was a *3 Bluff*, because a played 1 does not "match" number 3.
       * Beyond that, Cathy knows nothing about the card, besides that it is a 3 (since it has a number 3 clue on it).
-    * **Color match (NOT valid; looks like a Double Finesse):**
+    * Example 3 - **Color match (NOT valid; looks like a Double Finesse):**
       * On the first turn of the game, Alice clues Cathy red, which touches a red 3.
       * Bob blind-plays red 1.
       * Cathy sees that Bob does not have red 2. Since red matches red, Cathy assumes that she has the red 2.
       * Cathy misplays red 3 as red 2.
       * Alternatively, if Cathy saw that Bob had both red 1 and red 2 on *Finesse Position* at the time the clue was given, she would know that she has the red 2 **or** the red 3. Subsequently, Bob is promised a red 2, since if he does not blind-play a card, Cathy will go on to misplay the red 3 as red 2.
-    * **Number 3 with suit match (valid):**
+    * Example 4 - **Number 3 with suit match (valid):**
       * On the first turn of the game, Alice clues Cathy number 3, which touches a red 3.
       * Bob blind-plays red 1.
       * Cathy knows that it was a *3 Bluff*, because a played 1 does not "match" number 3.
