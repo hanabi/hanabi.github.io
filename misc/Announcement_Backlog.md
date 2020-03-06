@@ -6,34 +6,6 @@ As noted in the [convention changes document](https://github.com/Zamiell/hanabi-
 
 ## The Backlog
 
-@everyone New conventions:
-
-**5 Pull Ejection** (deleted)
-
-```
-* *5 Pull Ejection is deleted* in favor of *5 Number Discharge*.
-```
-
-**5 Number Discharge** (by Jeff)
-
-```
-* This convention only applies in the *Early Game*.
-* In the *Early Game*, if a number 5 clue is performed on a 5 that is not already on chop, then it is a *Play Clue* on the 5 (if there are any 5's that are directly playable).
-* If there are no directly playable 5's, then the clue is instead a *5 Stall*.
-* If a *5 Stall* is not allowed, then it is a *5's Chop Move* (if the card is one-away-from-chop) or a *5 Pull* (if the card is two or more away from chop).
-* If a *5 Pull* is performed on a card that is one-away-from-playable, it typically communicates a *5 Pull Finesse*.
-* However, if the *5 Pulled* card is two or more away from playable **or** the *5 Pulled* card is trash, then the clue must instead be a *Play Clue* on the 5 as a *Finesse*.
-* If the very next player sees that they will only have to **blind-play one card** in their hand to fulfill the *Finesse*, then they should assume that it is a *Finesse* and blind-play their *Finesse Position*.
-* If the very next player sees that they would have to **blind-play two or more cards** in their hand to fulfill the *Finesse*, then a *Finesse* is unlikely. Instead, players agree that this signals an *Discharge* and that the next player should play their *Third Finesse Position*.
-  * *Prompts* don't factor into the "two or more blind-plays" rule. Players only count the number of blind-plays.
-* For example, in a 3-player game:
-  * It is the first turn and nothing is played on the stacks.
-  * Alice clues number 5 to Cathy, touching a 5 on slot 1.
-  * Cathy hand is as follows: red 5, red 2, red 3, green 1, green 2
-  * Bob sees that Alice's clue cannot be a *5 Stall* or a *5 Pull*. If it were a *Finesse* on the red 5, he would have to blind-play a red 1 and a red 4.
-  * Since Bob would have to blind-play two cards into the *Finesse*, he knows that he should instead treat this as a *5 Number Discharge*. Bob blind-plays his slot 3 card and it successfully plays as the red 1.
-```
-
 @everyone Clarification:
 
 **Context**
