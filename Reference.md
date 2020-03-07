@@ -820,7 +820,7 @@ While the other sections in this document contain lists of special "moves", this
 | -------- | ------------------------------------------------------------------ | ------
 | 1        | Blind-plays                                                        | Demonstrating that a *Finesse* or *Bluff* occurred is very important.
 | 2        | Cards that lead into clued cards in someone else's hand            | Otherwise, the team would lose *Tempo*.
-| 3        | Cards that lead into the player's own hand that are not a 4        | It is bad for a suit to be "held up" on one player.
+| 3        | Cards that lead into the player's own hand                         | It is bad for a suit to be "held up" on one player.
 | 4        | 5's                                                                | Playing a 5 gets the team a free clue.
 | 5        | The lower rank card                                                | The smaller stacks are more important to fill up.
 | 6        | The left-most card                                                 | The left-most card is more likely to be good.
@@ -835,6 +835,11 @@ While the other sections in this document contain lists of special "moves", this
   * This means that Bob must have blue 3. Bob does not have any clued cards in his hand, so he blind-plays his *Finesse Position* card.
 * Similar to a normal *Prompt*, if a *Priority Prompt* could apply to two or more clued cards, then you should play the left-most one.
 * Similar to a normal *Prompt*, if a *Priority Prompt* made you play the left-most card and it was not the matching card, then you should continuing playing clued cards until you find the matching card.
+
+### The 4's Priority Exception
+
+* If a player has a known playable 5 and a known playable 4 that leads into their own hand, then according to the above *Priority* table, the known playable 4 would have *Priority*. However, this doesn't make much sense, since the 5 has to be played no matter what, playing the 5 gives the team a clue back, the 4 could be played by someone else, and so on.
+* Thus, if a player has a known playable 5 and a known playable 4 that leads into their own hand, then the 5 is said to have *Priority*.
 
 ### The Priority Bluff 
 
