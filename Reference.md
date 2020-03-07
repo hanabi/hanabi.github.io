@@ -2064,7 +2064,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * This is more subtle than the strong *Trash Finesse*. In the strong form, the focus of the clue causes a blind-play. In the weak form, the non-focused cards are what causes the blind-play
 * For example, in a 3-player game:
   * Red 2 is played on the stacks. All of the other suits have the 1 played on the stacks. 
-  * Bob's hand is as follows, from newest to oldest: red 3, red 1, blue 1, green 1, yellow 1.
+  * Bob's hand is, from newest to oldest: red 3, red 1, blue 1, green 1, yellow 1.
   * Alice wants to give a play clue to the red 3. Everyone on the team can see that she can give either 3s or red.
     * If she clues number 3, then it will uniquely touch the red 3 (and not violate *Good Touch Principle*).
     * If she clues red, then it will touch the red 3 and the red 1 (which **will** violate *Good Touch Principle*).
@@ -2286,7 +2286,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * In this situation, they are really trying to perform a *5 Double Pull*, which pulls a card from the next player and also pulls a card from the player who received the number 5 clue. The next player should blind-play their *Finesse Position* card, which gives the clue receiver enough information to know that the move was really a *5 Pull* after all.
 * For example, in a 4-player game:
   * It is the first turn and nothing is played on the stacks.
-  * Cathy's hand is as follows, from the left to right: blue 4, blue 4, blue 5, red 1
+  * Cathy's hand is, from newest to oldest: blue 4, blue 4, blue 5, red 1
   * Alice clues number 5 to Cathy, touching a blue 5 on slot 3.
   * It is now Bob's turn. Bob sees that since there were other *Play Clues* for Alice to give, Cathy will interpret this as an *Early 5's Chop Move*.
   * Bob also knows that it is nonsensical to *Chop Move* a playable red 1 - Alice could have just give a red *Chop Focus Play Clue* to the red 1.
@@ -2457,7 +2457,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * In this situation, they intend for an *Ejection* on the very next player.
 * For example, in a 3-player game:
   * Red 1 is played on the stacks.
-  * Cathy's hand is completely unclued and is as follows, from left to right: blue 3, blue 3, blue 4, blue 4, red 2
+  * Cathy's hand is completely unclued and is, from newest to oldest: blue 3, blue 3, blue 4, blue 4, red 2
   * Alice clues number 2 to Cathy, touching the red 2 as a *2 Save*.
   * Bob sees that the obvious clue to give to Cathy was red, as it would actually get the red 2 played right now.
   * This move is so bad that it must be communicating something extra. Alice must be intending for a *Rank Choice Ejection*. Bob blind-plays his *Second Finesse Position* card and it is a blue 1 and successfully plays.
@@ -2553,7 +2553,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * For example, in a 3-player game:
   * It is the first turn and nothing is played on the stacks.
   * Alice clues number 5 to Cathy, touching a 5 on slot 1.
-  * Cathy hand is as follows: red 5, red 3, green 2, green 1, green 2
+  * Cathy hand is, from newest to oldest: red 5, red 3, green 2, green 1, green 2
   * Bob thinks about what Alice's 5 clue could mean:
     * The clue cannot be a *5 Stall*, because there is a green 1 to *Play Clue*.
     * The clue cannot be a *5 Pull*, because the red 3 is two away from playable.
@@ -2571,7 +2571,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * When this occurrs and there is exactly one "missing" card, players should write an *Elimination Note* in their hand for the missing card. This is called *Trash Touch Elimination*.
 * For example, in a 3-player game:
   * Red 3 is played on the stacks. All of the other suits have the 1 played on the stacks.
-  * Bob's hand is as follows, from newest to oldest: red 4, red 1, blue 1, green 1, yellow 1.
+  * Bob's hand is, from newest to oldest: red 4, red 1, blue 1, green 1, yellow 1.
   * Alice wants to give a play clue to the red 4. Everyone on the team can see that she can give either number 4 or red.
     * If she clues number 4, then it will uniquely touch the red 4 (and will not violate *Good Touch Principle*).
     * If she clues red, then it will touch the red 4 and the red 1 (which **will** violate *Good Touch Principle*).
@@ -2860,11 +2860,11 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 * *Free Choice* is defined as when a player has two or more options to clue a card and all of the options would **only** touch the same card(s).
 * For example, in a no variant game:
-  * Bob's hand is, from left to right: red 1, blue 4, blue 4, yellow 4, yellow 4
+  * Bob's hand is, from newest to oldest: red 1, blue 4, blue 4, yellow 4, yellow 4
   * If Alice wants to give a *Play Clue* to the red 1, Alice is said to have a *Free Choice* between red and number 1, since both of those clue types would **only** touch the red 1.
 * Since rainbow cards are touched by any color, players will often have a *Free Choice* on how to clue a rainbow card.
 * For example, in a rainbow game with 6 suits:
-  * Bob hand is, from left to right: rainbow 1, blue 4, yellow 4, green 4, yellow 4
+  * Bob hand is, from newest to oldest: rainbow 1, blue 4, yellow 4, green 4, yellow 4
   * If Alice wants to give a *Play Clue* to the rainbow 1, Alice is said to have a *Free Choice* between red, purple, and number 1, since all of those clue types would **only** touch the rainbow 1.
 
 #### The Free Choice Finesse
@@ -2873,7 +2873,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * For example, in a rainbow game with 6 suits:
   * All of the 1's are played on the stacks.
   * Bob has a clued rainbow 2 in his hand. It is clued with only red. He does not know the identity of the card.
-  * Cathy has no clued cards in her hand. Cathy hand is, from left to right: rainbow 3, blue 1, yellow 1, green 1, yellow 1
+  * Cathy has no clued cards in her hand. Cathy hand is, from newest to oldest: rainbow 3, blue 1, yellow 1, green 1, yellow 1
   * If Alice gives a *Play Clue* to the rainbow 3, it would *Prompt* the rainbow 2 in Bob's hand.
   * Alice needs to decide on what clue to give. She does not want to give blue, yellow, or green, since that would cause a *Bad Touch* on the 1's that are already played.
   * That leaves red, purple, and number 3. Since all of these clues would **only** touch the rainbow 3, Alice is said to have a *Free Choice* between those clue types.
@@ -3186,7 +3186,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * The next player after that will assume that a *Finesse* occurred. However, once they play their *Second Finesse Position* card and see that it is an unrelated suit, then they will know that an *Unnecessary Blue Bluff* occurred.
 * For example, in a 3-player game:
   * It is the first turn and nothing is played on the stacks.
-  * Cathy's hand is as follows, from left to right: sky 4, sky 1, sky 4, sky 3, sky 3
+  * Cathy's hand is, from newest to oldest: sky 4, sky 1, sky 4, sky 3, sky 3
   * If Alice clues number 1 to Cathy, she could cleanly "get" the sky 1.
   * Instead, Alice clues blue to Cathy, touching all 5 cards in Cathy's hand. Cathy knows that this means that she can play her slot 2 card.
   * Bob sees that Cathy's blue clue was unnecessary, because a number 1 clue could have cleanly gotten the sky 1. Since blue clues are only to be used as a last resort, this must be an *Unnecessary Blue Bluff*.
