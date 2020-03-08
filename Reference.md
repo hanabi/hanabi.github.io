@@ -663,11 +663,13 @@ While the other sections in this document contain lists of special "moves", this
   * Bob blind-plays the red 1.
   * This must be a *Bluff*, because **1 does not match 4**. So Cathy should think that she has the one-away from playable 4, the blue 4. (This is an example of a *Hard Bluff*, which is covered in more detail later.)
 * Example 6:
+  * This is a 4-player game.
   * Nothing is played on the stacks.
-  * Alice clues Cathy about a 4.
+  * Alice clues Donald about a 4.
   * Bob blind-plays the red 1.
+  * Cathy discards.
   * This **cannot** be a *Bluff*, because there are no one-away from playable 4's. So even though 1 does not match 4, this must be a *Finesse*, because Alice is not allowed to perform a *Bluff* with any card that she wants.
-  * Cathy does not see any other red cards in Bob's hand. So Cathy should think that she has the red 4, because that would match the blind-play of a red 1. Subsequently, Cathy must have red 2 on her *Finesse Position* and red 3 on her *Second Finesse Position*.
+  * Donald does not see any other red cards in Bob's hand. So Donald should think that he has the red 4, because that would match the blind-play of a red 1. Subsequently, Donald must have red 2 on his *Finesse Position* and red 3 on his *Second Finesse Position*.
 
 ### Urgency Principle (How to Tell If Someone Is Finessed)
 
