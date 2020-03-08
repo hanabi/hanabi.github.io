@@ -651,7 +651,7 @@ While the other sections in this document contain lists of special "moves", this
   * Rainbow 1 is played on the stacks.
   * Alice clues Cathy about a blue card.
   * Bob blind-plays a rainbow 2.
-  * This must be a *Finesse*, because **blue matches blue**. So Cathy should think that she has the rainbow 3.
+  * This must be a *Finesse*, because **blue matches blue** (rainbow cards match every color). So Cathy should think that she has the rainbow 3.
 * Example 4:
   * Blue 2 is played on the stacks.
   * Alice clues Cathy about a 4.
