@@ -20,7 +20,7 @@ Why do players converge on a meta at all? This has a straightforward explanation
 
 With this in mind, Hanabi is interesting because it is **not a shared petri dish**. Since Hanabi is an offline board game / card game, many groups around the world hear about Hanabi completely independently, perhaps at a local board game meetup. And then they start playing Hanabi with their group of friends, start to learn the tendencies of their friends, and start to develop strategy. But a group of players in Germany will have no idea what kind of strategies a group in England is playing with.
 
-When we observe different "organically grown" Hanabi groups, we find some interesting things. Nearly all groups independently come up with some of the same strategies like *Finesses* and *Bluffs*. But at the same time, groups also develop entirely unique strategies. One important thing to note here is that "poaching" a strategy from another group is oftentimes not effective, because the strategy will only get a lot of value when other seemingly unrelated conventions are "turned on" or when other subtle assumptions are being made.
+When we observe different "organically grown" Hanabi groups, we find some interesting things. Nearly all groups independently come up with some of the same strategies like *Finesses* and *Bluffs*. But at the same time, groups also develop entirely unique strategies. One important thing to note here is that "poaching" a strategy from another group is often not effective, because the strategy will only get a lot of value when other seemingly unrelated conventions are "turned on" or when other subtle assumptions are being made.
 
 <br />
 
