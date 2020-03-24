@@ -35,7 +35,7 @@ As noted in the [convention changes document](https://github.com/Zamiell/hanabi-
 **Cow & Pig Rank Saves**
 
 ```
-* This convention only applies to *Cow & Pig* variants.
+* This convention only applies in *Cow & Pig* variants.
 * Rank clues (oink) are always used to perform a *Save Clue*.
 * Color clues (moo) must always be *Play Clues*.
 ```
@@ -51,6 +51,7 @@ As noted in the [convention changes document](https://github.com/Zamiell/hanabi-
 **1's Color Ejection (1CE)**
 
 ```
+* This convention only applies in "Up or Down" variants.
 * Similar to *5 Color Ejection*, it is also possible to perform a *1 Color Ejection* in an *Up or Down* variant.
 * 1CE works in the exact same way as 5CE does (e.g. players use the "2 or more blind-plays" rule).
 ```
