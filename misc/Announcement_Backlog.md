@@ -6,43 +6,6 @@ As noted in the [convention changes document](https://github.com/Zamiell/hanabi-
 
 ## The Backlog
 
-@everyone New variant-specific conventions:
-
-**Very Ambiguous (3 Suits) Conventions**
-
-```
-* This convention only applies to Very Ambiguous (3 Suits).
-* A blue color clue means to play the *Second Finesse Position* (as before the blue color clue was given).
-* Blue color clues are only to be used as a last resort, meaning that if it is possibly to cleanly clue the Second Finesse Position with a number clue, then players must do so.
-* Cards touched with blue do not count as being touched for the purposes of discarding, *Good Touch Principle*, and so forth.
-```
-
-**The Unnecessary Blue Bluff** (by Jake)
-
-```
-* This convention only applies to Very Ambiguous (3 Suits).
-* Since blue color clues are only to be used as a last resort, players can use them in situations that are unnecessary in order to communicate something extra.
-* In a situation where a clean number clue was available and a blue color clue was used instead, the next player should blind-play their *Finesse Position* card as a *Known Bluff*.
-* The next player after that will assume that a *Finesse* occurred. However, once they play their *Second Finesse Position* card and see that it is an unrelated suit, then they will know that an *Unnecessary Blue Bluff* occurred.
-```
-
-**Positional Slides** (for null)
-
-TODO remove
-```
-* This convention only applies to variants with a null suit.
-* By convention, *Positional Clues* must target null cards. Thus, if a *Positional Clue* targets a card that already has a clue on it, then it slides over and targets the slot one position to the right.
-  * If the *Positional Clue* targets the right-most card, then it slides over to the left.
-* This allows players the flexibility to "get" a null card when the clue types that would directly target the null card are not available.
-```
-
-**Brown Loaded Play Clues** (clarification)
-
-```
-* *Loaded Play Clues* are "turned on" for brown cards.
-* Normally, *Loaded Play Clues* are "turned off" in the *Early Game*. However, note that *Loaded Play Clues* **always** apply to brown cards, even in the *Early Game*.
-```
-
 **Relaxed 2 Saves** (in null variants)
 
 ```
