@@ -6,7 +6,7 @@
 
 * It is the first turn of the game and duckmammal starts.
 * duckmammal clues number 1 to Kyle, which touches a pink 3 on slot 4.
-* Dr_Kakashi knows that duckmammal is violating *Pink Promise*, so something special must be going on. This must be a *Bubblegum Finesse*, so the rank chosen is telling hiim which slot to play. Dr_Kakashi plays slot 1 and it successfully plays as pink 1.
+* Dr_Kakashi goes next. He knows that duckmammal is violating *Pink Promise*, so something special must be going on. This must be a *Bubblegum Finesse*, so the rank chosen is telling hiim which slot to play. Dr_Kakashi plays slot 1 and it successfully plays as pink 1.
 * Floriman sees what is going on and knows that this move does not involve him at all. Floriman clues blue to duckmammal, touching a blue 1 as a *Play Clue*.
 * Kyle knows that duckmammal's number 1 clue got Dr_Kakashi to blind-play, so something special must have happened, meaning that the 1 that he has in his hand is probably not a normal playable 1. This must be a *Bubblegum Finesse*, so the card in his hand must be the pink 2 in order to match the pink 1 was that blind-played.
 * However, Kyle also sees that in Dr_Kakashi's hand, there is a pink 2 behind the pink 1. If this is a *Clandestine Bubblegum Finesse*, then Dr_Kakashi will play the pink 2, which means that Kyle will have the pink 3 to match. If Dr_Kakashi does not blind-play the pink 2, then it means that Kyle really does have the pink 2. Either way, Kyle has to give Dr_Kakashi one turn to demonstrate what is happening.
