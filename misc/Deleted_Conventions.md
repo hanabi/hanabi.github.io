@@ -268,7 +268,7 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
 
 ### 4 Stalls & Early 4's Chop Move & 4 Pull
 
-* This convention only applies to the *Multi-Fives* variants.
+* This convention only applies to the *Pink-Fives* variants.
 * In the *Early Game*, since it is not possible to clue number 5, players cannot *5 Stall*. However, we agree that a number 4's clue in the early game indicates that the card is really a 5. Thus, it is possible to *4 Stall*. (A *4 Stall* interpretation takes precedence over a *Self-Finesse*.)
   * This is only legal if the clue **only** touches real 5's. In other words, players may not give a *4 Stall* if touches a mix of 4's and 5's.
   * Similar to a *5 Stall*, if there are other things to do and a *4 Stall* is given, then it transforms into a *Early 4's Chop Move* or a *4 Pull*.
