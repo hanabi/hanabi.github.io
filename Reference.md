@@ -3132,7 +3132,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * if the color matches a suit that is already completely played or accounted for
 * Additionally, *Loaded Play Clues* are always "turned on" for number saves on dark rainbow 3 and dark rainbow 4 specifically.
 * Note that in variants where a black color clues is available, dark rainbow 3 and dark rainbow 4 must always be saved with a black color clue.
-  * Along the same lines, in *Dark Rainbow & Dark Pink*, rainbow cards should be saved with a pink clue, and in *Dark Rainbow & Dark Chocolate*, rainbow cards should be saved with a brown clue.
+  * Along the same lines, in *Dark Rainbow & Dark Pink*, rainbow cards should be saved with a pink clue, and in *Dark Rainbow & Dark Brown*, rainbow cards should be saved with a brown clue.
 
 ### Muddy/Cocoa Positional Clues
 
@@ -3144,17 +3144,17 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * a rank clue that has no conventional interpretation
 * Note that *Trash Chop Moves* are still "turned on".
 
-### Chiaroscuro Pink & Dark Omni Conventions
+### Gray Pink & Dark Omni Conventions
 
-* These conventions apply to any variant with a Dark Omni suit or a Chiaroscuro Pink suit.
+* These conventions apply to any variant with a Dark Omni suit or a Gray Pink suit.
 
 ### Pseudo Saves
 
-* Chiaroscuro Pink or Dark Omni cards on chop should be saved with number 5 clue. *Pink Promise* does not apply in this variant.
+* Gray Pink or Dark Omni cards on chop should be saved with number 5 clue. *Pink Promise* does not apply in this variant.
 
 #### Pseudo-Rank Saves
 
-* In situations where there are critical cards behind Chiaroscuro Pink or Dark Omni cards, you are also allowed to *Fake Save* with any number (either 2, 3, or 4). (Again, *Pink Promise* does not apply to this variant.)
+* In situations where there are critical cards behind Gray Pink or Dark Omni cards, you are also allowed to *Fake Save* with any number (either 2, 3, or 4). (Again, *Pink Promise* does not apply to this variant.)
 
 ### The Negative Prompt
 
