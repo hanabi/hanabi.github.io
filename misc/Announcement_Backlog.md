@@ -6,39 +6,7 @@ As noted in the [convention changes document](https://github.com/Zamiell/hanabi-
 
 ## The Backlog
 
-**Relaxed 2 Saves** (in null variants)
-
-```
-* This convention only applies to variants with a null suit.
-* It is optional for players to give *Save Clues* to null 2's.
-* Thus, if a null 2 is discarded, players should not make any *Elimination Notes* for them.
-```
-
-**5 Ejection** (in Duck) (by Kakashi)
-
-```
-* *5 Color Ejection* is turned on in Duck variants, as you would expect.
-* Additionally, players can also perform *5 Number Ejection* and it will generally work in the exact same way.
-* Thus, players should keep in mind that clues that cause *Ejection* might have been either a color clue or a number clue.
-```
-
-**4 Charm** (in Duck) (by Jeff)
-
-```
-* This convention only applies to Duck variants.
-* *Charm* is defined as a move that makes a player play their *Fourth Finesse Position*.
-* Similar to *5 Ejection*, if a player gives a *Play Clue* to an unplayable 4 that would require two or more blind-plays in order to fulfill the *Finesse*, then a *Finesse* is unlikely.
-* Players agree that this communicates a *Charm*.
-* Similar to *5 Ejection*, *4 Charm* can be initiated with either a color clue or a number clue.
-```
-
-**Cow & Pig Rank Saves**
-
-```
-* This convention only applies in *Cow & Pig* variants.
-* Rank clues (oink) are always used to perform a *Save Clue*.
-* Color clues (moo) must always be *Play Clues*.
-```
+@everyone New variant-specific conventions:
 
 **Trash Pushes in Pink**
 
@@ -54,6 +22,14 @@ As noted in the [convention changes document](https://github.com/Zamiell/hanabi-
 * This convention only applies in "Up or Down" variants.
 * Similar to *5 Color Ejection*, it is also possible to perform a *1 Color Ejection* in an *Up or Down* variant.
 * 1CE works in the exact same way as 5CE does (e.g. players use the "2 or more blind-plays" rule).
+```
+
+**Cow & Pig Rank Saves**
+
+```
+* This convention only applies in *Cow & Pig* variants.
+* Rank clues (oink) are always used to perform a *Save Clue*.
+* Color clues (moo) must always be *Play Clues*.
 ```
 
 **Out-of-Position Unknown Trash Discharge** (by Jeff)
