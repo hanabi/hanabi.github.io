@@ -501,7 +501,7 @@ While the other sections in this document contain lists of special "moves", this
 * If a clue touches two cards but only one of them will play right now, it **still counts** as a 2-for-1. This is because we assume that all touched cards will eventually play from *Good Touch Principle*. For example:
   * On the first turn of the game, Alice clues Bob red, touching a red 1 on slot 1 and a red 5 on slot 2 as a 2-for-1. (Bob will only play the red 1 and save the other red card for later.)
 * On Hanabi Live, the current efficiency is shown on the right side of the screen. Efficiency is calculated by the following formula:
-  * `number of clues given / (number of cards played + number of unplayed cards with one or more clues "on" them)`
+  * `(number of cards played + number of unplayed cards with one or more clues "on" them) / number of clues given`
 * **If efficiency is low, players should probably not perform 1-for-1 clues!** Instead, it is better to discard and try to let someone perform a *Finesse*.
 
 ### Tempo
