@@ -1111,6 +1111,16 @@ Priority does not always apply. Some common exceptions are listed below.
 * Normally, when a player performs a *Gentleman's Discard*, they know the **exact** identity of the card that they are discarding.
 * However, sometimes a *Gentleman's Discard* can occur where, from your perspective, the card could have been two different things. Does this mean that the *Gentleman's Discard* "gets" **both** of the cards?
 * No, it does not. By convention, even if it looks like the player could not have known the true identity of the card, the *Gentleman's Discard* only gets the specific other matching card. (The reason for this is that it allows players to act upon asymmetric information.)
+* For example, in a 3-player game:
+  * Red 1 and blue 1 are played on the stacks.
+  * Alice clues Bob number 2, which touches a red 2 on slot 1. This is a *Play Clue* on the 2. Thus, this is is a globally known red 2 or blue 2. Alice right-clicks the card and writes a note of "r2, b2".
+  * Bob also writes a note of "r2, b2", but then stops to think a little deeper. He notices that Alice has a blue 3 in her hand, so it might have been possible for Cathy to perform a *Finesse* on a hypothetical blue 2 in his hand.
+  * Bob rewinds to the beginning of the game and re-plays through all of the turns, watching closely to see if Cathy had an ample opportunity to perform a *Finesse* on a blue 2. Indeed, he finds that Cathy had one or two turns where she could have easily performed a *Reverse Finesse*, but discarded instead.
+  * Thus, Bob knows that it must be a red 2, so he updates his "r2, b2" note to "r2".
+  * Bob sees that Cathy has a red 2 on her *Finesse Position*, so he performs a *Gentleman's Discard* by discarding the red 2.
+  * Cathy blind-plays the red 2 from her *Finesse Position*.
+  * Alice gasps in surprise, because Bob could not have possibly known that it was exactly a red 2. This must be a *Double Gentleman's Discard*, calling for both red 2 and blue 2. Alice blind-plays her *Finesse Position* card, hoping to play a blue 2, but instead plays a red 5, losing the game.
+  * Alice forgot that *Double Gentleman's Discards* were expressily illegal because of it is possible for players to have asymmetric information about the current game state. Alice decides to commit herself to Hanabi jail out of shame.
 * In extremely rare circumstances, *Double Gentleman's Discard* can be legal. This is covered in the expect section of the document, but can be safely ignored for non-experts.
 
 ### The Baton Discard
