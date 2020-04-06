@@ -1120,7 +1120,7 @@ Priority does not always apply. Some common exceptions are listed below.
   * Bob sees that Cathy has a red 2 on her *Finesse Position*, so he performs a *Gentleman's Discard* by discarding the red 2.
   * Cathy blind-plays the red 2 from her *Finesse Position*.
   * Alice gasps in surprise, because Bob could not have possibly known that it was exactly a red 2. This must be a *Double Gentleman's Discard*, calling for both red 2 and blue 2. Alice blind-plays her *Finesse Position* card, hoping to play a blue 2, but instead plays a red 5, losing the game.
-  * Alice forgot that *Double Gentleman's Discards* were expressily illegal because of it is possible for players to have asymmetric information about the current game state. Alice decides to commit herself to Hanabi jail out of shame.
+  * Alice forgot that *Double Gentleman's Discards* were expressily illegal because of it is possible for players to have asymmetric information about the current game state.
 * In extremely rare circumstances, *Double Gentleman's Discard* can be legal. This is covered in the expect section of the document, but can be safely ignored for non-experts.
 
 ### The Baton Discard
