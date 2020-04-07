@@ -1777,6 +1777,20 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 * Similar to a normal *Layered Finesse*, it is also possible to initiate a *Layered Priority Finesse* as long as the blind-playing player is not the very next person.
 
+### The Bad Touch Layered Finesse (Bluffs that Blind-Play a Duplicated Card)
+
+* If a player performs a *Bluff* that causes a blind-play of a globally-known duplicated card, that is quite strange. Doing this is not very good, as it violates *Good Touch Principle* and does not accomplish very much in general.
+* Players agree that this communicates that it is not a *Bluff* at all, but instead of a *Layered Finesse*. The player who blind-played the card should continue to blind-play cards until they find the promised card.
+* This section also applies to *Priority Bluffs* that cause the blind-play of a duplicated card.
+* For example, in a 3-player game:
+  * All of the 2's are played on the stacks.
+  * Alice has a globally-known red 3 in her hand. (It is "filled in" with both a red clue and a number 3 clue.)
+  * Alice clues blue to Bob, touching a blue 4 as a *Play Clue*.
+  * Bob knows that this must be a *Finesse*, so he attempts to blind-play blue 3 from his *Finesse Position*. Instead, he blind-plays red 3.
+  * Cathy discards her chop.
+  * Alice discards her known red 3 (since it is already played and is now trash).
+  * Bob knows that *Bluffs* that duplicate a card like this are supposed to be treated as *Layered Finesses*. Bob blind-plays his *Second Finesse Position* as blue 3 and it successfully plays.
+
 ### The Known Priority Bluff
 
 * Players generally perform *Priority Bluffs* by tricking players into thinking they have a specific card. However, it is also possible to perform a *Priority Bluff* that is globally-known to be a *Bluff*. For example:
@@ -3524,7 +3538,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 | The Hesitation Blind-Play | Zamiel
 | The Priority Prompt & The Priority Finesse | Libster & Zamiel
 | The Priority Bluff & The Priority Layered Finesse | Zamiel
-| The Dupe Bluff | Duneaught
 | The Certain Finesse | Zamiel
 | The Negative Prompt | Zamiel & Libster
 | Crazy 3 Saves & Crazy 4 Saves | Libster
