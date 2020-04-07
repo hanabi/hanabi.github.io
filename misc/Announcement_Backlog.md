@@ -139,7 +139,7 @@ As noted in the [convention changes document](https://github.com/Zamiell/hanabi-
 
 ```
 * If a player performs a *Bluff* that causes a blind-play of a globally-known duplicated card, that is quite strange. Doing this is not very good, as it violates *Good Touch Principle* and does not accomplish very much in general.
-* Players agree that this communicates that it is not a *Bluff* at all, but instead of a *Layered Finesse*. The player who blind-played the card should continue to blind-play cards until they find the promised card.
+* Players agree that this is not a *Bluff* at all, but instead a *Layered Finesse*. The player who blind-played the card should continue to blind-play cards until they find the promised card.
 * This section also applies to *Priority Bluffs* that cause the blind-play of a duplicated card.
 * For example, in a 3-player game:
   * All of the 2's are played on the stacks.
