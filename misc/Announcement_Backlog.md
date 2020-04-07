@@ -134,3 +134,19 @@ As noted in the [convention changes document](https://github.com/Zamiell/hanabi-
 * This convention only applies in variants with a Chiaroscuro Pink or Dark Omni suit.
 * In situations where there are critical cards behind Chiaroscuro Pink or Dark Omni cards, you are also allowed to *Fake Save* the cards with any number (either 2, 3, or 4). (Again, *Pink Promise* does not apply to this variant.)
 ```
+
+**The Bad Touch Layered Finesse (Bluffs that Blind-Play a Duplicated Card)**
+
+```
+* If a player performs a *Bluff* that causes a blind-play of a globally-known duplicated card, that is quite strange. Doing this is not very good, as it violates *Good Touch Principle* and does not accomplish very much in general.
+* Players agree that this communicates that it is not a *Bluff* at all, but instead of a *Layered Finesse*. The player who blind-played the card should continue to blind-play cards until they find the promised card.
+* This section also applies to *Priority Bluffs* that cause the blind-play of a duplicated card.
+* For example, in a 3-player game:
+  * All of the 2's are played on the stacks.
+  * Alice has a globally-known red 3 in her hand. (It is "filled in" with both a red clue and a number 3 clue.)
+  * Alice clues blue to Bob, touching a blue 4 as a *Play Clue*.
+  * Bob knows that this must be a *Finesse*, so he attempts to blind-play blue 3 from his *Finesse Position*. Instead, he blind-plays red 3.
+  * Cathy discards her chop.
+  * Alice discards her known red 3 (since it is already played and is now trash).
+  * Bob knows that *Bluffs* that duplicate a card like this are supposed to be treated as *Layered Finesses*. Bob blind-plays his *Second Finesse Position* as blue 3 and it successfully plays.
+```
