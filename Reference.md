@@ -3504,13 +3504,17 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ## Convention Attribution
 
+### General Terms
+
 * The general terms of chop, *Finesse*, and *Bluff* were not invented by this group. Those basic strategies were the building blocks for the current Hyphen-ated framework.
 * "Chop" is a term invented by [Ben Smalls](https://boardgamegeek.com/user/smallman), one of the more prominent early Hanabi players. The earliest mention of the word on the Board Game Geek forums comes from [his post back in 2013](https://boardgamegeek.com/article/13665606#13665606).
 * A "finesse" is a common strategy in [bridge](https://en.wikipedia.org/wiki/Finesse), so that is the likely origin of the term. The earliest mention of "finesse" and "bluff" on the Board Game Geek forums comes from [Adam Kunsemiller's post in 2012](https://boardgamegeek.com/article/9317490#9317490). He uses the terms in a colloquial way, which implies that these strategies were commonly used at the time of writing.
-* The specific inventors of some of our own strategies are listed below:
+* The specific inventors of some of our own strategies are listed below.
+
+### General Conventions
 
 | Convention Name | Inventor
-| --- | ---
+| --------------- | --------
 | The 9 First Principles | Duneaught
 | 2 Saves | Hyphen-ated & Duneaught
 | Chop-Focus | Zamiel & Hyphen-ated
@@ -3551,7 +3555,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 | The Elimination Layered Finesse | Zamiel
 | The Rebellious Discard | Zamiel
 | Focus Inversion | Zamiel
-| Modified Black 3 & Black 4 Saves | Florrat
 | The Early Game | Libster & Florrat
 | The Double Tempo Clue | Hyphen-ated & Zamiel
 | Hard Bluffs | Florrat
@@ -3583,7 +3586,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 | Order Chop Move | Zamiel
 | Skipped Order Chop Move | Zamiel & Libster
 | Trash Order Chop Move | Zamiel & Libster
-| Black 4 Bluffs | Zamiel & Libster
 | Duplication Responsibility | Zamiel
 | Certain Discard Duplication Promise | Zamiel & Libster
 | The Unnecessary Trash Finesse/Bluff Chop Move | Libster
@@ -3605,7 +3607,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 | The Empty Double-Play | Zamiel & Jeep
 | The Suboptimal Save Prompt & The Suboptimal Save Finesse | Zamiel
 | The Empty Bluff | Cory
-| The Black Save Bluff | Sankala
 | Inverted Priority Finesse | Zamiel
 | Multi-Five Saves | Libster
 | The Trash Pull | Libster
@@ -3635,3 +3636,11 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 | 5 Number Discharge | IAMJEFF
 | The Gentleman's Discard Ejection | IAMJEFF
 | Rank Choice Ejection | IAMJEFF
+
+### Variant-Specific Conventions
+
+| Crazy 3 Saves & Crazy 4 Saves | Libster
+| Modified Black 3 & Black 4 Saves | Florrat
+| Black 4 Bluffs | Zamiel & Libster
+| The Black Save Bluff | Sankala
+| The U-Turn Finesse | NoMercy
