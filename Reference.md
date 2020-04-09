@@ -1355,6 +1355,7 @@ Priority does not always apply. Some common exceptions are listed below.
 
 ### The 5 Pull
 
+* This convention only applies in the *Early Game*.
 * In the *Early Game*, players are only allowed to clue an off-chop 5 if there is nothing left to do. (Or, as a special exception, if there is only one *Play Clue* to give to a card that happens to be on *Finesse Position*.)
 * Thus, if someone clues a 5 and there **is** something else to do, they are performing a special move.
 * If the 5 is two or more away from chop, then they are performing a *5 Pull*. A *5 Pull* causes the player to blind-play the card to the right of the 5. For the player receiving the clue, it is understood that the 5 is not actually related to the blind-play. This is why it is called a *Pull* instead of a *Finesse* or a *Bluff*.
