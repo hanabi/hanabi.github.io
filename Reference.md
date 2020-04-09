@@ -3645,3 +3645,5 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 | The Empty Finesse | Instantiation
 | The Empty Double-Play | Zamiel & Jeep
 | The Empty Bluff | Cory
+| 5 Ejection (in Duck) | Kakashi
+| 4 Charm (in Duck) | IAMJEFF
