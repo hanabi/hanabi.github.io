@@ -3624,13 +3624,14 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 | Discharge | Razvogor
 | The Unnecessary Trash Push | sjdrodge
 | Trash Touch Elimination | sjdrodge
-| Junk Ejection | Jeff
-| The 5 Color Ejection & The 5 Color Discharge | Jeff
-| The 5 Pull Ejection and The 5 Pull Ejection Chop Move | Jeff
-| The Double 5 Pull | Jeff
+| Junk Ejection | IAMJEFF
+| The 5 Color Ejection & The 5 Color Discharge | IAMJEFF
+| The 5 Pull Ejection and The 5 Pull Ejection Chop Move | IAMJEFF
+| The Double 5 Pull | IAMJEFF
 | Null Positional Clues | Razvogor & Zamiel
 | Stacked 5 Color Ejection | Fireheart
 | The Bubblegum Finesse | Razvogor
 | The Unnecessary Blue Bluff | Jake
-| 5 Number Discharge | Jeff
-| The Gentleman's Discard Ejection | Jeff
+| 5 Number Discharge | IAMJEFF
+| The Gentleman's Discard Ejection | IAMJEFF
+| Rank Choice Ejection | IAMJEFF
