@@ -3334,9 +3334,9 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 | Purple   | Two players play *Finesse Position* (must clue the person with the 2nd blind-play)
 | Teal     | Three players play *Finesse Position* (must clue the person with the 3rd blind-play)
 
-### Multi-Five Saves
+### Special 5 Saves
 
-* This convention only applies to the *Multi-Fives* variants.
+* This convention only applies to any variant where it is not possible to clue number 5.
 * Since 5's cannot be *5 Saved*, a number 2 clue must be used to save them as a pseudo-*2 Save*.
 
 ### The Bomb Finesse
@@ -3515,7 +3515,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 | Convention Name | Inventor
 | --------------- | --------
-| The 9 First Principles | Duneaught
+| The First Principles | Duneaught
 | 2 Saves | Hyphen-ated & Duneaught
 | Chop-Focus | Zamiel & Hyphen-ated
 | The Layered Finesse | Antizoubilamaka
@@ -3536,7 +3536,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 | The Elimination Riding Deduction | Duneaught
 | The Free Choice Finesse | Hyphen-ated
 | The Trash Push | Duneaught
-| The Trash Bluff | Duneaught
+| The Trash Bluff | Duneaught & Zamiel & IAMJEFF
 | The Trash Finesse | Duneaught
 | The Double Trash Finesse | Duneaught
 | The Trash Push Finesse | Duneaught
@@ -3544,7 +3544,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 | The Priority Prompt & The Priority Finesse | Libster & Zamiel
 | The Priority Bluff & The Priority Layered Finesse | Zamiel
 | The Certain Finesse | Zamiel
-| The Negative Prompt | Zamiel & Libster
 | The Scream Discard Chop Move | 910dan & Zamiel
 | The Critical 4 Bluff | Libster
 | The Chop Transfer | Duneaught
@@ -3558,18 +3557,14 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 | The Early Game | Libster & Florrat
 | The Double Tempo Clue | Hyphen-ated & Zamiel
 | Hard Bluffs | Florrat
-| White Compromise | Postmans
-| Acid Trip Conventions | Zamiel & Florrat
 | The Double/Triple Pass Bluff | Zamiel
 | The Out-of-Order Finesse | Zamiel
 | The Speed-up Clue | Libster
 | The Disease Bluff & The Heal Clue | Zamiel
-| The Double-Copy Bluff | Zamiel
 | The Pestilent (Double) Bluff | Zamiel
 | The Distribution Clue | Libster
 | The Elimination Riding Deduction Bluff | Duneaught
 | Self-Elimination Finesse Priority | 910dan
-| Multiple-card Trash Bluff | Zamiel
 | Play Elimination | Zamiel
 | Double Discard Elimination | Zamiel
 | The No-Information Double Finesse & The No-Information Double Bluff | Zamiel
@@ -3590,7 +3585,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 | Certain Discard Duplication Promise | Zamiel & Libster
 | The Unnecessary Trash Finesse/Bluff Chop Move | Libster
 | Surreptitious Self-Finesse | Sankala
-| Dark Rainbow Saves | Florrat & Libster & Zamiel
 | Early 5 Chop Move | Libster
 | The 5 Pull | Libster
 | The 5 Pull Promise | Libster
@@ -3599,48 +3593,51 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 | The Redundant Save Chop Move | q
 | The Composition Discard | Libster
 | The Negative Self-Chop Move | Libster
-| Empty Clues | Zamiel and Florrat
-| The Empty Finesse | Instantiation
-| The Flush Clue | Florrat
-| The Fresh Play Clue | Instantiation
 | The Declined 5's Finesse | Zamiel
-| The Empty Double-Play | Zamiel & Jeep
 | The Suboptimal Save Prompt & The Suboptimal Save Finesse | Zamiel
-| The Empty Bluff | Cory
 | Inverted Priority Finesse | Zamiel
-| Multi-Five Saves | Libster
 | The Trash Pull | Libster
 | The Repair Finesse | Zamiel
 | The Paused Priority Finesse | Asddsa
 | The Double Scream Discard Chop Move | Asddsa
 | The Distribution Finesse | Asddsa
-| The Full Finesse | NoMercy
 | The Double Positional Misplay | Libster
 | Order Ejection | Zamiel & q
 | The Bad Touch Finesse | Zamiel
 | The Skipped Discard Chop Move | Libster
-| The Mismatch Finesse | Zamiel
-| The Distributed Dump Truck | Razvogor
 | The Inverted 5's Tempo Clue | NoMercy
 | Discharge | Razvogor
 | The Unnecessary Trash Push | sjdrodge
 | Trash Touch Elimination | sjdrodge
 | Junk Ejection | IAMJEFF
-| The 5 Color Ejection & The 5 Color Discharge | IAMJEFF
-| The 5 Pull Ejection and The 5 Pull Ejection Chop Move | IAMJEFF
+| The 5 Color Ejection | IAMJEFF
 | The Double 5 Pull | IAMJEFF
-| Null Positional Clues | Razvogor & Zamiel
 | Stacked 5 Color Ejection | Fireheart
-| The Bubblegum Finesse | Razvogor
-| The Unnecessary Blue Bluff | Jake
 | 5 Number Discharge | IAMJEFF
 | The Gentleman's Discard Ejection | IAMJEFF
 | Rank Choice Ejection | IAMJEFF
 
 ### Variant-Specific Conventions
 
+| Convention Name | Inventor
+| --------------- | --------
+| The Full Finesse | NoMercy
 | Crazy 3 Saves & Crazy 4 Saves | Libster
 | Modified Black 3 & Black 4 Saves | Florrat
 | Black 4 Bluffs | Zamiel & Libster
+| Pink Promise | Zamiel
 | The Black Save Bluff | Sankala
+| White Compromise | Postmans
+| The Bubblegum Finesse | Razvogor
+| Null Positional Clues | Razvogor & Zamiel
+| Dark Rainbow Saves | Florrat & Libster & Zamiel
+| Special 5 Saves | Libster
+| The Negative Prompt | Zamiel & Libster
+| The Unnecessary Blue Bluff | Jake
+| Color Blind Conventions | Zamiel & Florrat
+| The Mismatch Finesse | Zamiel
 | The U-Turn Finesse | NoMercy
+| Empty Clues | Zamiel and Florrat
+| The Empty Finesse | Instantiation
+| The Empty Double-Play | Zamiel & Jeep
+| The Empty Bluff | Cory
