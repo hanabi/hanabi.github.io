@@ -3541,7 +3541,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 | The Priority Bluff & The Priority Layered Finesse | Zamiel
 | The Certain Finesse | Zamiel
 | The Negative Prompt | Zamiel & Libster
-| Crazy 3 Saves & Crazy 4 Saves | Libster
 | The Scream Discard Chop Move | 910dan & Zamiel
 | The Critical 4 Bluff | Libster
 | The Chop Transfer | Duneaught
@@ -3623,7 +3622,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 | The Distributed Dump Truck | Razvogor
 | The Inverted 5's Tempo Clue | NoMercy
 | Discharge | Razvogor
-| The U-Turn Finesse | NoMercy
 | The Unnecessary Trash Push | sjdrodge
 | Trash Touch Elimination | sjdrodge
 | Junk Ejection | Jeff
