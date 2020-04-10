@@ -6,32 +6,6 @@ As noted in the [convention changes document](https://github.com/Zamiell/hanabi-
 
 ## The Backlog
 
-@everyone New variant-specific conventions:
-
-**Trash Pushes in Pink**
-
-```
-* When a *Trash Push* happens in a normal variant, if more than one card is touched, then all of the touched cards are known to be trash.
-* When a *Trash Push* happens with a rank clue in a variant with a pink suit, if more than one card is touched, it is possible that only the card on chop was trash and that the other cards touched are useful / critical pink cards.
-* In this situation, after blind-playing the *Trash Pushed* card, the player should first discard the card that initiated the *Trash Push* (the oldest card) and then hold on to the other touched cards.
-```
-
-**1's Color Ejection (1CE)**
-
-```
-* This convention only applies in "Up or Down" variants.
-* Similar to *5 Color Ejection*, it is also possible to perform a *1 Color Ejection* in an *Up or Down* variant.
-* 1CE works in the exact same way as 5CE does (e.g. players use the "2 or more blind-plays" rule).
-```
-
-**Cow & Pig Rank Saves**
-
-```
-* This convention only applies in *Cow & Pig* variants.
-* Rank clues (oink) are always used to perform a *Save Clue*.
-* Color clues (moo) must always be *Play Clues*.
-```
-
 **Out-of-Position Unknown Trash Discharge** (by Jeff)
 
 ```
