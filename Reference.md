@@ -637,32 +637,33 @@ While the other sections in this document contain lists of special "moves", this
 * So secondly, we can consider the case of Bob **after** he has blind-played a card, which also extends to the rest of the team. How does everyone know whether Alice did a *Finesse* or a *Bluff* on Bob?
 * The way to find out is to look at **whether the card that blind-played "matches" the clue that was given**. If the clue matches, then it is a *Finesse*. If the clue did not match, then it is a *Bluff*.
 * If it is ambiguous whether or not the card matches, then the team should **always assume a *Bluff* over a *Finesse***. (Note that this is the opposite of the precedence in part 1!)
-* Example 1:
+* Example 1 (color match):
   * Blue 1 is played on the stacks.
   * Alice clues Cathy about a blue card.
   * Bob blind-plays a blue 2.
   * This must be a *Finesse*, because **blue matches blue**. So Cathy should think that she has the blue 3.
-* Example 2:
+* Example 2 (color mismatch):
   * Blue 1 is played on the stacks.
   * Alice clues Cathy about a blue card.
   * Bob blind-plays a red 1.
   * This must be a *Bluff*, because **red does not match blue**. So Cathy should think that she has the one-away from playable blue card, blue 3.
-* Example 3:
+* Example 3 (color match):
+  * This is a game with a rainbow suit. (The other examples in this section assume a "No Variant" game.)
   * Rainbow 1 is played on the stacks.
   * Alice clues Cathy about a blue card.
   * Bob blind-plays a rainbow 2.
   * This must be a *Finesse*, because **blue matches blue** (rainbow cards match every color). So Cathy should think that she has the rainbow 3.
-* Example 4:
+* Example 4 (rank match):
   * Blue 2 is played on the stacks.
   * Alice clues Cathy about a 4.
   * Bob blind-plays the blue 3.
   * This must be a *Finesse*, because **3 matches 4**. So Cathy should think that she has the blue 4.
-* Example 5:
+* Example 5 (rank mismatch):
   * Blue 2 is played on the stacks.
   * Alice clues Cathy about a 4.
   * Bob blind-plays the red 1.
   * This must be a *Bluff*, because **1 does not match 4**. So Cathy should think that she has the one-away from playable 4, the blue 4. (This is an example of a *Hard Bluff*, which is covered in more detail later.)
-* Example 6:
+* Example 6 (rank mismatch where a *Bluff* is impossible):
   * This is a 4-player game.
   * Nothing is played on the stacks.
   * Alice clues Donald about a 4.
