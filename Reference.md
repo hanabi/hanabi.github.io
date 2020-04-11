@@ -3174,7 +3174,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 * These conventions apply to any variant with a Dark Omni suit or a Gray Pink suit.
 
-#### Pseudo Saves
+### Pseudo Saves
 
 * Gray Pink or Dark Omni cards on chop should be saved with number 5 clue. *Pink Promise* does not apply in this variant.
 
@@ -3619,6 +3619,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 | 5 Number Discharge | IAMJEFF
 | The Gentleman's Discard Ejection | IAMJEFF
 | Rank Choice Ejection | IAMJEFF
+| Occupied Focus Inversion | Romain
 
 <br />
 
@@ -3634,8 +3635,11 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 | The Black Save Bluff | Sankala
 | White Compromise | Postmans
 | The Bubblegum Finesse | Razvogor
+| Pink & Omni Majority Conventions | Fireheart
 | Null Positional Clues | Razvogor & Zamiel
+| Muddy/Cocoa Positional Clues | IAMJEFF
 | Dark Rainbow Saves | Florrat & Libster & Zamiel
+| Grey Pink & Dark Omni Pseudo Saves | IAMJEFF
 | Special 5 Saves | Libster
 | The Negative Prompt | Zamiel & Libster
 | The Unnecessary Blue Bluff | Jake
@@ -3648,3 +3652,9 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 | The Empty Bluff | Cory
 | 5 Ejection (in Duck) | Kakashi
 | 4 Charm (in Duck) | IAMJEFF
+
+| Pseudo-Rank Saves | IAMJEFF
+| Totally Blind Conventions | Zamiel & IAMJEFF
+| 1's Color Ejection (1CE) | Kakashi
+| Out-of-Position Unknown Trash Discharge | IAMJEFF
+| Cow & Pig Rank Saves | Florrat
