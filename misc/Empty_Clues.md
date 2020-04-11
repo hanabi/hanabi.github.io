@@ -93,11 +93,11 @@
 * In Hanabi, it is generally assumed that you will give clues that "touch" one or more cards in someone else's hand. But what if you want to give a clue that touches NO cards in the hand? We refer to this as an *Empty Clue*.
 * *Empty Clues* can be useful for a variety of reasons. In the *Board Game Arena* convention framework, *Empty Clues* are used as a "stall" clue, clearly communicating to the team the nothing is currently playable. Furthermore, *Empty Clues* can also be used to give useful negative information to an entire hand. This is especially useful in the "Rainbow" variant, which is played by expert players as an additional challenge. (In this variant, a 6th suit is added to the deck that is touched by all colors. *Empty Clues* can be used to more easily disambiguate rainbow cards from non-rainbow cards.)
 * Hanabi was first released in several European countries. In the initial German version of the game (and perhaps others), [the printed rules](https://www.brettspiele-report.de/images/h/hanabi/Spielanleitung-Hanabi.pdf) specifically allowed *Empty Clues* (page 3, section A, #2). Furthermore, Antoine Bauza (the creator of Hanabi) [clarified on his blog](http://www.antoinebauza.fr/?p=880) that giving *Empty Clues* is allowed. (An [English translation](https://boardgamegeek.com/article/6177967#6177967) of this post is also available.)
-* In the later American release of the deluxe (tiles) version of the game, [the printed rules](https://github.com/Zamiell/hanabi-conventions/blob/master/misc/Rules.md) make it a point to explicitly mention:
+* In the later American release of the deluxe (tiles) version of the game, [the printed rules](Rules.md) make it a point to explicitly mention:
 
 >IMPORTANT: The player must clearly point to the tiles which he is giving information about. (Thus saying "You have zero of something" is not allowed as you cannot point to anything.)
 
-* *Empty Clues* make it easier for players to get a perfect score and can encourage game-breaking strategies, such as the one described in the 2015 paper [*How to Make the Perfect Fireworks Display: Two Strategies for Hanabi*](https://github.com/Zamiell/hanabi-conventions/raw/master/hanabi-papers/2015-02-01%20-%20How%20to%20Make%20the%20Perfect%20Fireworks%20Display.pdf). This could be the reason that the rule was changed between releases.
+* *Empty Clues* make it easier for players to get a perfect score and can encourage game-breaking strategies, such as the one described in the 2015 paper [*How to Make the Perfect Fireworks Display: Two Strategies for Hanabi*](../academic-papers/2015-02-01%20-%20How%20to%20Make%20the%20Perfect%20Fireworks%20Display.pdf). This could be the reason that the rule was changed between releases.
 * When I contacted Antoine Bauza (the creator of Hanabi) on Twitter, [he was neutral](https://twitter.com/Zamiel_SRL/status/975919901520130048) to the question of whether *Empty Clues* should be legal.
 * I acknowledge that players should play the game in the way that they find the most fun. With that said, expert players should challenge themselves to not use *Empty Clues*. Utilizing *Empty Clues* is analogous to using a crutch - good players should be able to get a perfect score without having to resort to them.
 * The online implementations of the game handle *Empty Clues* differently:
@@ -109,7 +109,7 @@
 
 ## Basic Description
 
-* [Floris van Doorn](https://github.com/fpvandoorn/) created a convention framework called Hat-Guessing in June 2016. This framework is entirely separate from the Hyphen-ated convention framework and is covered in a [separate document](https://github.com/Zamiell/hanabi-conventions/blob/master/misc/Hat_Guessing.md).
+* [Floris van Doorn](https://github.com/fpvandoorn/) created a convention framework called Hat-Guessing in June 2016. This framework is entirely separate from the Hyphen-ated convention framework and is covered in a [separate document](Hat_Guessing.md).
 * In most Hanabi convention frameworks (including the Hyphen-ated framework), one clue causes one action to take place. In Hat-Guessing, multiple actions can be encoded into one clue by using [modular arithmetic](https://en.wikipedia.org/wiki/Modular_arithmetic). This can be extremely efficient.
 * Separate from Hat-Guessing, it is also possible to play with a Hat-Guessing-like extension tacked on to the existing Hyphen-ated convention framework.
 * If *Empty Clues* are legal, then they can be used as a means to encode multiple actions for the entire team in a manner identical to how Hat-Guessing works.
