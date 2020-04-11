@@ -36,7 +36,7 @@ Note that convention updates for the group are listed in the `#announcements` ch
 In general, we want all of our strategies to flow from some basic principles. That way, new players can just learn the first principles, and then use logic and reasoning to find out the resulting strategy that their teammate is intending. However, there are a few wrinkles with this:
 
 1) Some of our strategies are arbitrary and do not flow from the first principles. So take the phrase "First Principles" with a grain of salt.
-2) Since the principles are a little abstract, they are more useful as a reference than as an actual guide on how to play Hanabi with our group - this is what the [introductory document](https://github.com/Zamiell/hanabi-conventions/blob/master/Beginner.md) is for.
+2) Since the principles are a little abstract, they are more useful as a reference than as an actual guide on how to play Hanabi with our group - this is what the [introductory document](Beginner.md) is for.
 
 <br />
 
@@ -121,22 +121,22 @@ Note that in this user interface, players are **not** holding their hands like t
 
 ### Chop
 
-* As outlined in the [beginner guide](https://github.com/Zamiell/hanabi-conventions/blob/master/Beginner.md), when players have to discard, they typically discard their right-most unclued card.
+* As outlined in the [beginner guide](Beginner.md), when players have to discard, they typically discard their right-most unclued card.
 * A player's chop card is formally defined as **the next unclued card that they would discard if they had nothing to do**.
 * If a player has a clued card that is known useless, then they will typically discard the useless card **instead** of discarding their chop. (But the useless card does **not** count as the chop - their chop remains the right-most unclued card.)
 
 ### The Prompt
 
-* The *Prompt* is a move covered in the [beginner guide](https://github.com/Zamiell/hanabi-conventions/blob/master/Beginner.md). It is when you get a player to play a clued card that was previously unknown.
+* The *Prompt* is a move covered in the [beginner guide](Beginner.md). It is when you get a player to play a clued card that was previously unknown.
 
 ### The Finesse
 
-* The *Finesse* is a move covered in the [beginner guide](https://github.com/Zamiell/hanabi-conventions/blob/master/Beginner.md). It is when you get a player to blind-play a card to fulfill a promise that a certain card is playable right now.
+* The *Finesse* is a move covered in the [beginner guide](Beginner.md). It is when you get a player to blind-play a card to fulfill a promise that a certain card is playable right now.
 * *Finesses* must be on "matching" cards. (For example, the red 1 leads directly leads into the red 2, so they are considered to be a "matching" pair of cards.)
 
 ### Finesse Position
 
-* As covered in the [beginner guide](https://github.com/Zamiell/hanabi-conventions/blob/master/Beginner.md), a player's *Finesse Position* refers to the slot that their left-most unclued card is in.
+* As covered in the [beginner guide](Beginner.md), a player's *Finesse Position* refers to the slot that their left-most unclued card is in.
 
 <br />
 
@@ -1377,7 +1377,7 @@ Priority does not always apply. Some common exceptions are listed below.
   * This is to be interpreted as a *Play Clue* on the red 5 (as opposed to a *5 Pull* on some other card).
 * When a player is *Finessed* or *Bluffed*, they are allowed to defer playing the blind card in order to do a *Finesse* or *Bluff* of their own. However, if they could be *Bluffed*, they are **not** allowed to initiate a *5 Pull*. (Players are still allowed to defer playing into a *Finesse* in order to initiate a *5 Pull*.)
 * In the rare case where a *5 Pull* is performed in a 3-player game by touching two 5's in slot 1 and slot 3, then the *5 Pulled* card is slot 2.
-* For expert players, we define a specific [interaction between *5's Chop Moves* / *5 Pulls* and *2 Saves*](https://github.com/Zamiell/hanabi-conventions/blob/master/Reference.md#2-saves-advanced-section-interaction-with-5s-chop-moves--5-pulls).
+* For expert players, we define a specific [interaction between *5's Chop Moves* / *5 Pulls* and *2 Saves*](#2-saves-advanced-section-interaction-with-5s-chop-moves--5-pulls).
 
 ### A Flowchart for Cluing 5's in the Early Game
 
@@ -1997,7 +1997,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Cathy knows that normally, this would be a *3 Bluff*. However, since the red 3 was duplicated, this must be a *Bad Touch Double Finesse*, so Cathy blind-plays her *Finesse Position* and it is the red 2.
   * Donald knows that this cannot be a *3 Bluff*, or else Cathy would not have blind-played anything. Thus, this must be a *Bad Touch Double Finesse*, so Donald discards his red 3 as a *Sarcastic Discard* to pass it back to Emily.
   * Emily plays the red 3.
-* More examples of a Pestilent Double Bluff can be found [here](https://github.com/Zamiell/hanabi-conventions/blob/master/examples/Bad_Touch_Double_Bluff.md).
+* More examples of a Pestilent Double Bluff can be found [here](examples/Bad_Touch_Double_Bluff.md).
 
 ### The Bad Touch Triple Finesse (For 4's)
 
@@ -2159,7 +2159,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * This would "heal" the problem, as Bob would not think that he has red 2 anymore. Thus, this clue is called a *Heal Clue*.
 * The original *Bluff* is called a *Disease Bluff*, since it requires healing.
 * The *Disease Bluff* interpretation is the highest priority interpretation!
-* More examples of a *Disease Bluff* can be found [here](https://github.com/Zamiell/hanabi-conventions/blob/master/examples/Disease_Bluff.md).
+* More examples of a *Disease Bluff* can be found [here](examples/Disease_Bluff.md).
 
 #### 2) A *Pestilent Double Bluff* (with Cathy seeing zero copies):
 
@@ -2169,7 +2169,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * Instead, Cathy can blind-play her *Finesse Position* card as red 2. This is similar to a *Disease Bluff*, but instead of wasting a clue to heal the problem, the problem is healed by a blind-play.
 * Note that Cathy could be blind-playing red 2, but could also be blind-playing **any** playable card. Whatever card it is, it will still heal the problem, since Bob can see that the blind-play was related to the clue he received.
 * This is similar to a standard *Double Bluff*, but is different because the move was not initiated by a card that was 2-away from being playable.
-* More examples of a *Pestilent Double Bluff* can be found [here](https://github.com/Zamiell/hanabi-conventions/blob/master/examples/Pestilent_Double_Bluff.md).
+* More examples of a *Pestilent Double Bluff* can be found [here](examples/Pestilent_Double_Bluff.md).
 
 #### 3) A *Pestilent Double Bluff* (with Cathy seeing one uncluable copy)
 
@@ -2241,7 +2241,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * Sometimes, a player will have a fully playable hand from left to right. In this situation, players will normally try to perform a *Layered Finesse* in order to get all of the cards in the most efficient manner. However, a *Layered Finesse* may not always be available.
 * In extremely rare situations, it is possible to orchestrate a lie in which the player with the fully playable hand thinks that they are *Layered Finessed* when they really do not have the connecting card. After they play their final card and it is not the matching card, they will know that they were *Purge Bluffed* and that nobody has the missing card.
 * Care has to be taken that the other player (e.g. the player who is not *Purge Bluffed*) will understand what is going on. For example, they might think that a *Patch Finesse* is happening. Thus, *Purge Bluffs* can only be done in expert games where there is **no other possible interpretation for what is happening**.
-* Examples of a *Purge Bluff* can be found [here](https://github.com/Zamiell/hanabi-conventions/blob/master/examples/Purge_Bluff.md).
+* Examples of a *Purge Bluff* can be found [here](examples/Purge_Bluff.md).
 
 ### Suboptimal Finesses / Choice Finesses
 
@@ -2326,7 +2326,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Bob also knows that it is nonsensical to *Chop Move* a playable red 1 - Alice could have just give a red *Chop Focus Play Clue* to the red 1.
   * Thus, this must be a *5 Double Pull*, so Bob blind-plays his *Finesse Position* card. It is blue 1 and it successfully plays.
   * Cathy knows that if this was an *Early 5's Chop Move*, then Bob would not have blind-played anything. Since he blind-played his *Finesse Position* card, this must be a *5 Double Pull*. Cathy blind-plays her slot 4 card (the card to the right of the clued 5).
-* More examples of a *5 Double Pull* can be found [here](https://github.com/Zamiell/hanabi-conventions/blob/master/examples/5_Double_Pull.md).
+* More examples of a *5 Double Pull* can be found [here](examples/5_Double_Pull.md).
 
 <br />
 
@@ -2793,7 +2793,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 ### Hard Variants & Easy Variants
 
 * Some variants demand an enormous amount of efficiency. Since our normal conventions result in conservative play, we agree to change the way that we play in some specific variants in order to win more consistently.
-* The necessary efficiency needed in order to win each variant is located on [the efficiency tables page](https://github.com/Zamiell/hanabi-conventions/blob/master/misc/Efficiency.md).
+* The necessary efficiency needed in order to win each variant is located on [the efficiency tables page](misc/Efficiency.md).
 * We define any variant that requires equal to or greater than 1.25 efficiency as a "hard" variant. (Required efficiency can be seen in-game using the Hanabi Live interface. Note that a variant can be considered easy in 4-player, but hard in 5-player, for example.)
 * Additionally, the following variants are considered to be hard variants even though they may have less than 1.25 required efficiency:
   * Any variant with a null suit
@@ -3063,7 +3063,7 @@ Conventions for specific variants are listed on a separate page.
   * Bob sees that Cathy has the pink 2 in slot 4. Thus, he knows that the *Bubblegum Finesse* is not on him. Bob discards.
   * Cathy goes through the same steps as Bob. Cathy does not see the pink 2 anywhere else, so she knows that the *Bubblegum Finesse* is on her. Cathy blind-plays pink 2 from slot 4.
   * Donald knows that since Cathy played his slot 4 card, this was a *Bubblegum Finesse*, and that his pink card must be the matching card. Donald plays the pink 3.
-* Rarely, it is also possible to perform a *[Clandestine Bubblegum Finesse](https://github.com/Zamiell/hanabi-conventions/blob/master/examples/Clandestine_Bubblegum_Finesse.md)*
+* Rarely, it is also possible to perform a *[Clandestine Bubblegum Finesse](examples/Clandestine_Bubblegum_Finesse.md)*
 
 #### Trash Pushes in Pink
 
@@ -3131,7 +3131,7 @@ Conventions for specific variants are listed on a separate page.
 
 ### Null Conventions
 
-* Conventions for variants that contain a null (touched by no clues) suit are [listed on a separate page](https://github.com/Zamiell/hanabi-conventions/blob/master/misc/Null.md).
+* Conventions for variants that contain a null (touched by no clues) suit are [listed on a separate page](variant-specific/Null.md).
 
 ### Black & Rainbow
 
@@ -3493,7 +3493,7 @@ Conventions for specific variants are listed on a separate page.
 
 * *Empty Clues* are clues that touch no cards in a hand. On Hanabi Live, each game has the option to allow *Empty Clues*, and we typically disallow this option since it makes the game too easy.
 * If *Empty Clues* are enabled, it allows for a much wider channel of information transfer. We have developed an entire convention framework around this channel and it is too complicated to cover in a single section here.
-* If you are interested in learning about in the extended *Empty Clue* conventions, they are documented [on a separate page](https://github.com/Zamiell/hanabi-conventions/blob/master/misc/Empty_Clues.md).
+* If you are interested in learning about in the extended *Empty Clue* conventions, they are documented [on a separate page](misc/Empty_Clues.md).
 
 <br />
 
