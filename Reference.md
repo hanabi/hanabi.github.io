@@ -3174,7 +3174,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 * These conventions apply to any variant with a Dark Omni suit or a Gray Pink suit.
 
-### Pseudo Saves
+#### Pseudo Saves
 
 * Gray Pink or Dark Omni cards on chop should be saved with number 5 clue. *Pink Promise* does not apply in this variant.
 
