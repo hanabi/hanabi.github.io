@@ -2,7 +2,7 @@
 
 Our group has come up with many different strategies. It is helpful to give specific names to each strategy to aid in both discussion and comprehension. If you know the general way we play but don't know about a specific kind of move, then you can look it up in this document.
 
-If you are a new player, do not bother reading this document. It is much better to simply read the [introductory document](https://github.com/Zamiell/hanabi-conventions/blob/master/Beginner.md) and then start playing games with the group. This document can be used as a reference as you continue to naturally improve at the game.
+If you are a new player, do not bother reading this document. It is much better to simply read the [introductory document](Beginner.md) and then start playing games with the group. This document can be used as a reference as you continue to naturally improve at the game.
 
 Note that convention updates for the group are listed in the `#announcements` channel on the [Hanabi Discord server](https://discord.gg/FADvkJp). (You can also review the [commit history](https://github.com/Zamiell/hanabi-conventions/commits/master) of this repository.)
 
@@ -2499,7 +2499,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### Order Ejection
 
-* When a player can perform an *Skipped Order Chop Move* on a critical 5 (or a critical black card) at the beginning of the game, and they don't do it, this is very strange.
+* When a player can perform an *Skipped Order Chop Move* on a critical 5 (or a critical one-of-each card) at the beginning of the game, and they don't do it, this is very strange.
 * The player must be communicating something extra. In this scenario, they intend for the next person to blind-play slot 2.
 * The *Order Ejection* will also get a free *Chop Move* in addition to getting the blind-play.
 * For example, in a 4-player game:
@@ -2829,18 +2829,12 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Bob plays the red 4 and will play the 5 on the next turn as red 5.
 * Similarly, *Loaded Play Clues* also apply to the *Trash Chop Move*. This means that any clue that looks like a *Trash Chop Move* will instead become a *Loaded Trash Ejection* (if the clue receiver is currently "loaded" with a play).
 
-### 3 Suit Conventions
+### Specific Variants
 
-* These conventions applies to any variant with only 3 suits.
+Conventions for specific variants are listed on a separate page.
 
-#### No 3 Bluffs
+* [3 Suits](/variant-specific/3_Suits.md)
 
-* The *3 Bluff* convention is "turned off". (This is because *Double Finesses* are much more likely in these variants.)
-
-#### The Full Finesse
-
-* The *5 Stall*, *5's Chop Move*, and *5 Pull* conventions are "turned off".
-* If a 5 is clued, then it is to be treated as a *Finesse* on the full suit from 1 to 5.
 
 ### Black Conventions
 
