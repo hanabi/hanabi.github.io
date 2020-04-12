@@ -125,6 +125,14 @@ Note that in this user interface, players are **not** holding their hands like t
 * A player's chop card is formally defined as **the next unclued card that they would discard if they had nothing to do**.
 * If a player has a clued card that is known useless, then they will typically discard the useless card **instead** of discarding their chop. (But the useless card does **not** count as the chop - their chop remains the right-most unclued card.)
 
+### Save Clues
+
+* As outlined in the [beginner guide](Beginner.md), you are allowed only to give a *Save Clue* to a card that is on chop.
+* You are **not** allowed to give a *Save Clue* to just any card you want. You are **only** allowed to give a *Save Clue* on these specific cards:
+  1) 5's (with a *5 Save* clue, e.g. number 5)
+  2) 2's (with a *2 Save* clue, e.g. number 2)
+  3) Critical cards (with either color or number)
+
 ### The Prompt
 
 * The *Prompt* is a move covered in the [beginner guide](Beginner.md). It is when you get a player to play a clued card that was previously unknown.
