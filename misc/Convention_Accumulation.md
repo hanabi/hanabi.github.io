@@ -1,7 +1,6 @@
-
 # Convention Accumulation
 
-As you probably know, in the Hyphen-ated group, we play with a lot of conventions - things that we agree to before the game starts. Unlike other groups, we write all of these down in [a formal document](https://github.com/Zamiell/hanabi-conventions/blob/master/Reference.md). And this document is *long*.
+As you probably know, in the Hyphen-ated group, we play with a lot of conventions - things that we agree to before the game starts. Unlike other groups, we write all of these down in [a formal document](../Reference.md). And this document is *long*.
 
 <br />
 
@@ -33,7 +32,7 @@ Beginners don't have to worry about learning everything all at once, because we 
 
 #### 2) Players do not need to know most of the information in the reference document.
 
-New players are **not supposed** to read the reference document. We only expect them to read the (relatively-short) [beginner's guide](https://github.com/Zamiell/hanabi-conventions/blob/master/Beginner.md). Let's go into why this is.
+New players are **not supposed** to read the reference document. We only expect them to read the (relatively-short) [beginner's guide](../Beginner.md). Let's go into why this is.
 
 **Most** of the moves in the reference document follow from basic logic. New players can usually figure out what a move is in the middle of the game without ever having seen it before! (But it is still worth putting the move in the reference document, just to be thorough.)
 

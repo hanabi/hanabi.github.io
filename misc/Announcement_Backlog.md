@@ -1,6 +1,6 @@
 ## Introduction
 
-As noted in the [convention changes document](https://github.com/Zamiell/hanabi-conventions/blob/master/misc/Convention_Changes.md), sometimes a change to the conventions is made but is not yet announced due to there being a backlog of things to announce. This document contains the backlog.
+As noted in the [convention changes document](Convention_Changes.md), sometimes a change to the conventions is made but is not yet announced due to there being a backlog of things to announce. This document contains the backlog.
 
 <br />
 
@@ -95,18 +95,18 @@ As noted in the [convention changes document](https://github.com/Zamiell/hanabi-
 * This is because it is fairly valuable to get brown cards out of the hand as soon as possible in case blocking cards are drawn.
 ```
 
-**Gray Pink and Dark Omni Pseudo Saves**
+**Dark Omni & Gray Pink Pseudo Saves**
 
 ```
-* This convention only applies in variants with a Chiaroscuro Pink or Dark Omni suit .
-* Chiaroscuro Pink or Dark Omni cards on chop should be saved with number 5 clue. *Pink Promise* does not apply in this variant.
+* This convention only applies in variants with a Dark Omni or Gray Pink suit .
+* Dark Omni or Gray Pink cards on chop should be saved with number 5 clue. *Pink Promise* does not apply in this variant.
 ```
 
-**Gray Pink and Dark Omni Pseudo-Rank Saves**
+**Dark Omni & Gray Pink Pseudo-Rank Saves**
 
 ```
-* This convention only applies in variants with a Chiaroscuro Pink or Dark Omni suit.
-* In situations where there are critical cards behind Chiaroscuro Pink or Dark Omni cards, you are also allowed to *Fake Save* the cards with any number (either 2, 3, or 4). (Again, *Pink Promise* does not apply to this variant.)
+* This convention only applies in variants with a Dark Omni or Gray Pink suit.
+* In situations where there are critical cards behind Dark Omni or Gray Pink cards, you are also allowed to *Fake Save* the cards with any number (either 2, 3, or 4). (Again, *Pink Promise* does not apply to this variant.)
 ```
 
 **The Bad Touch Layered Finesse (Bluffs that Blind-Play a Duplicated Card)**

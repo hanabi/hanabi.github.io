@@ -1,0 +1,14 @@
+# Specific Conventions for Dual-Color (3 Suits)
+
+These conventions apply to the "Dual-Color (3 Suits)" variant.
+
+<br />
+
+### Color Touch Inversion
+
+* This convention only applies to the *Dual-Color (3 Suits)* variant.
+* The cards that are "touched" by a color clue are considered to be inverted.
+* For example, in a 3-player game:
+  * Alice clues Bob about a blue card on slot 1, slot 2, and slot 3.
+  * Bob knows that this is inverted, so the clue **really** touches slot 4 and slot 5. Thus, it is *Chop-Focus*, and Bob plays slot 5.
+  * Bob also knows that his slot 4 has an "invisible" clue on it, so his next discard will be the slot 3.

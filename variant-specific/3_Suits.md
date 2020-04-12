@@ -1,6 +1,6 @@
 # Specific Conventions for 3 Suits
 
-These conventions applies to any variant with only 3 suits.
+These conventions apply to any variant with only 3 suits.
 
 <br />
 

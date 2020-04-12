@@ -77,7 +77,7 @@
 
 ## Are there any probationary conventions?
 
-* By default, players generally use the conventions that are specified in the main [reference document](https://github.com/Zamiell/hanabi-conventions/blob/master/Reference.md).
+* By default, players generally use the conventions that are specified in the main [reference document](../Reference.md).
 * Conventions listed in the [GitHub issues tracker](https://github.com/Zamiell/hanabi-conventions/issues) are considered probationary. Players can agree to play with one or more probationary conventions before the game begins, if they want to try something out.
 * When the issue for a proposed convention is closed, it will be integrated into the main reference document. At that time, it is no longer considered to be probationary.
 
@@ -89,8 +89,8 @@
 * Every single convention change is announced to the group in this way (unless it is really small or insignificant).
 * Changes are generally announced at the same time that the document is updated.
 * However, there are at maximum two or three convention changes announced per week. The reason for this is to not overwhelm players of the group - not everybody wants to play Hanabi every day or read a bunch of boring convention-related stuff.
-* If there are more than 2-3 changes that occured that week, then those changes will get put on a [backlog](https://github.com/Zamiell/hanabi-conventions/blob/master/misc/Announcement_Backlog.md) and will be announced the following week.
-* If the backlog gets long enough, it can potentially be a long while before a convention gets announced to the group. Players who do not regularly read the GitHub issues can always [check the backlog](https://github.com/Zamiell/hanabi-conventions/blob/master/misc/Announcement_Backlog.md) if they want to find a quick list of recent changes.
+* If there are more than 2-3 changes that occured that week, then those changes will get put on a [backlog](Announcement_Backlog.md) and will be announced the following week.
+* If the backlog gets long enough, it can potentially be a long while before a convention gets announced to the group. Players who do not regularly read the GitHub issues can always [check the backlog](Announcement_Backlog.md) if they want to find a quick list of recent changes.
 
 <br />
 
@@ -105,6 +105,6 @@
 ## Why are conventions deleted? Who decides when a convention should be removed from the reference document?
 
 * After a period of time, rarely-used conventions are removed from the convention framework and deleted from the reference document. The reasons for this are two fold:
-  * Every "move" or section in the reference document has a cost associated with it. It is only worth the cost if the move is routinely used. The logic for this is outlined in the [convention goals document](https://github.com/Zamiell/hanabi-conventions/blob/master/misc/Convention_Goals.md).
+  * Every "move" or section in the reference document has a cost associated with it. It is only worth the cost if the move is routinely used. The logic for this is outlined in the [convention goals document](Convention_Goals.md).
   * The reference document is a living document meant to be a reflection of what players in our group actually do on a day-to-day basis, rather than an encyclopedia of all possible Hanabi moves.
 * Whether or not a move is used often enough to warrant being included in the reference document is also based on consensus.

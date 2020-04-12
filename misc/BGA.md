@@ -131,7 +131,7 @@ If you're reading this far, you'll want to know some of the basic differences be
 ### A Note on the Conventions Themselves
 
 * On BGA, the "rules" or conventions by which people play are largely unwritten, and can change from game to game. But you'll almost certainly have a good grasp of them after having played a bunch of games, and many are talked about on the [2b or not 2b group forums](https://en.boardgamearena.com/#!group?id=1598286).
-* In my group, the rules are [completely documented](https://github.com/Zamiell/hanabi-conventions/blob/master/Reference.md). Yeah, don't bother reading the full reference document now, but note that you can use it in case you ever need to look up something specific.
+* In my group, the rules are [completely documented](../Reference.md). Yeah, don't bother reading the full reference document now, but note that you can use it in case you ever need to look up something specific.
 * Why do this? Having a strongly defined set of rules cuts out most silly post-game arguments on how an ambiguous-looking clue should be interpreted. Instead, it encourages discussion on finding the most efficient moves and strategies within a shared framework, which is much more productive.
 
 ### 2 Saves - Added Always
@@ -287,7 +287,7 @@ These are conventions that we don't typically turn on for new players, but we do
   * If a two-away 3 is used to initiate a *Bluff*, then we call that a *3 Bluff*.
 * Players are allowed to initiate *3 Bluffs* with either color or number.
 * This is one of the more arbitrary and tricky conventions that we have, so it will take a few games to get used to.
-* Why do this? It allows us to get 2-for-1 clues in situations where you would otherwise have to do a 1-for-1. Furthermore, it allows us to mitigate a good percentage of "bottom-deck" losses to 3's. (And if you're really interested, you can read [the story of how 3 Bluffs were invented](https://github.com/Zamiell/hanabi-conventions/blob/master/misc/3_Bluffs.md)).
+* Why do this? It allows us to get 2-for-1 clues in situations where you would otherwise have to do a 1-for-1. Furthermore, it allows us to mitigate a good percentage of "bottom-deck" losses to 3's. (And if you're really interested, you can read [the story of how 3 Bluffs were invented](3_Bluffs.md)).
 
 <br />
 
@@ -295,4 +295,4 @@ These are conventions that we don't typically turn on for new players, but we do
 
 Reading the stuff in this document will give you the major tools that you will need to play with my group. You can and should stop reading now and play some games with us! There's certainly some other minor things to learn, but you will quickly learn the rest from direct experience and post-game reviews.
 
-Know that you certainly **do not** have to read and memorize [the extremely long main conventions document](https://github.com/Zamiell/hanabi-conventions/blob/master/Reference.md) before playing with us! This is a common misconception that new players have. The document is meant to be used as a reference, and not meant to be read from start to finish.
+Know that you certainly **do not** have to read and memorize [the extremely long main conventions document](../Reference.md) before playing with us! This is a common misconception that new players have. The document is meant to be used as a reference, and not meant to be read from start to finish.
