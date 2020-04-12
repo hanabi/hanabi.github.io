@@ -2978,6 +2978,8 @@ Conventions for specific variants are listed on a separate page.
 | The 5 Color Ejection | IAMJEFF
 | The Double 5 Pull | IAMJEFF
 | Stacked 5 Color Ejection | Fireheart
+| Trash Push Ejection | IAMJEFF
+| Trash Double Bluff | IAMJEFF
 | 5 Number Discharge | IAMJEFF
 | The Gentleman's Discard Ejection | IAMJEFF
 | Rank Choice Ejection | IAMJEFF
