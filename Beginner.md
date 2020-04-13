@@ -369,7 +369,7 @@ The Hyphen-ated group plays games on the [Hanabi Live](https://hanabi.live) webs
     * Click the gear icon for "User Settings" in the bottom-left-hand-corner.
     * Click on "Voice & Video" under "App Settings" in the left-hand menu.
     * Select the "Push to Talk" checkbox under "Input Mode".
-    * Click on the "Shortcut" box and press the button on your keyboard that you want to use to enable push-to-talk. I use left Ctrl, but you can use any key that you want.
+    * Click on the "Shortcut" box and press the button on your keyboard that you want to use to enable push-to-talk. (I use left Ctrl, but you can use any key that you want.)
     * You will have to press this button in order for Discord to transmit your microphone, so make sure to press it whenever you are talking.
     * **Please** use earbuds or a headset to avoid talk-back (e.g. when people's voices come out of your speakers and get re-transmitted through your microphone).
 7) By default, the Discord client comes with some annoying sound effects turned on. Disable them:
