@@ -347,12 +347,34 @@ In this guide, there will be some screenshots to show off the concepts introduce
 
 ## How to Join Games
 
-Ok, now that you know the basics of the Hyphen-ated conventions, you can join a game with the Hyphen-ated group. We play on the [Hanabi Live](https://hanabi.live) website and use the [Hanabi Discord server](https://discord.gg/FADvkJp) for voice chat. Here is a short list of things that you can do to prepare:
+Ok, now that you know the basics of the Hyphen-ated conventions, you can join a game with the Hyphen-ated group.
+
+The group is composed of around 50 people, some of whom play regularly, and some of whom play rarely, with a good mix of beginners, intermediate players, and experts. But not to worry - the intermediate and expert players are usually willing to do "beginner-level" games with all of the advanced stuff "turned off".
+
+The Hyphen-ated group plays games on the [Hanabi Live](https://hanabi.live) website and use the [Hanabi Discord server](https://discord.gg/FADvkJp) for voice chat. Here is a short list of things that you can do to prepare:
+
+#### Preparation
 
 1) Create an account at [Hanabi Live](https://hanabi.live) and login.
-2) There are always ongoing games. Spectate a game or two so that you start to get familiar with the user interface. Alternatively, you could also play a test game with yourself (where you control both of the players). You can do that by using an [incognito window](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DDesktop&hl=en) and logging into a separate test account.
+2) Hanabi Live is used by many people, not just members of the Hyphen-ated group, so there are always ongoing games. Choose a random ongoing game and spectate it so that you can start to get familiar with the user interface. Alternatively, you could also play a test game with yourself (where you control both of the players). You can do that by using an [incognito window](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DDesktop&hl=en) and logging into a separate test account.
 3) Create a Discord account and login to the [Hanabi Discord server](https://discord.gg/FADvkJp).
-4) Even though you can access the Discord server in a browser, it isn't very good, because it does not support global push-to-talk. So, download and install the [Discord desktop client](https://discordapp.com/download).
-5) By default, the Discord client comes with some annoying sound effects turned on. Disable them:
+4) Even though you can access the Discord server in a browser, it is not very good, because it does not support global push-to-talk. So, download and install the [Discord desktop client](https://discordapp.com/download).
+5) Test your microphone to make sure that it works:
+    * Click the gear icon for "User Settings" in the bottom-left-hand-corner.
+    * Click on "Voice & Video" under "App Settings" in the left-hand menu.
+    * Click on the "Output Device" dropdown and set it to be your microphone.
+    * Click on the "Let's Check" button under "Mic Test".
+    * You should see the bars fill up when you talk. If not, then try changing your "Output Device" or figure out what is wrong with your microphone
+6) Enable a push to talk hotkey:
+    * Click the gear icon for "User Settings" in the bottom-left-hand-corner.
+    * Click on "Voice & Video" under "App Settings" in the left-hand menu.
+    * Select the "Push to Talk" checkbox under "Input Mode".
+    * Click on the "Shortcut" box and press the button on your keyboard that you want to use to enable push-to-talk. I use left Ctrl, but you can use any key that you want.
+7) By default, the Discord client comes with some annoying sound effects turned on. Disable them:
     * Click the gear icon for "User Settings" in the bottom-left-hand-corner.
     * Click on "Notifications" under "App Settings" in the left-hand menu.
+    * Scroll down and turn off the checkbox for "PTT Activate" and "PTT Deactive".
+
+#### Joining a Game
+
+In the Hanabi Discord server, 
