@@ -349,7 +349,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
 
 Ok, now that you know the basics of the Hyphen-ated conventions, you can join a game with the Hyphen-ated group.
 
-The group is composed of around 50 people, some of whom play regularly, and some of whom play rarely, with a good mix of beginners, intermediate players, and experts. But not to worry - the intermediate and expert players are usually willing to do "beginner-level" games with all of the advanced stuff "turned off".
+The group is comprised of around 50 people, some of whom play regularly, and some of whom play rarely, with a good mix of beginners, intermediate players, and experts. But not to worry - the intermediate and expert players are usually willing to do "beginner-level" games with all of the advanced stuff "turned off".
 
 The Hyphen-ated group plays games on the [Hanabi Live](https://hanabi.live) website and use the [Hanabi Discord server](https://discord.gg/FADvkJp) for voice chat. Here is a short list of things that you can do to prepare.
 
