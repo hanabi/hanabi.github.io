@@ -351,9 +351,9 @@ Ok, now that you know the basics of the Hyphen-ated conventions, you can join a 
 
 The group is composed of around 50 people, some of whom play regularly, and some of whom play rarely, with a good mix of beginners, intermediate players, and experts. But not to worry - the intermediate and expert players are usually willing to do "beginner-level" games with all of the advanced stuff "turned off".
 
-The Hyphen-ated group plays games on the [Hanabi Live](https://hanabi.live) website and use the [Hanabi Discord server](https://discord.gg/FADvkJp) for voice chat. Here is a short list of things that you can do to prepare:
+The Hyphen-ated group plays games on the [Hanabi Live](https://hanabi.live) website and use the [Hanabi Discord server](https://discord.gg/FADvkJp) for voice chat. Here is a short list of things that you can do to prepare.
 
-#### Preparation
+### Preparation
 
 1) Create an account at [Hanabi Live](https://hanabi.live) and login.
 2) Hanabi Live is used by many people, not just members of the Hyphen-ated group, so there are always ongoing games. Choose a random ongoing game and spectate it so that you can start to get familiar with the user interface. Alternatively, you could also play a test game with yourself (where you control both of the players). You can do that by using an [incognito window](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DDesktop&hl=en) and logging into a separate test account.
@@ -375,6 +375,6 @@ The Hyphen-ated group plays games on the [Hanabi Live](https://hanabi.live) webs
     * Click on "Notifications" under "App Settings" in the left-hand menu.
     * Scroll down and turn off the checkbox for "PTT Activate" and "PTT Deactive".
 
-#### Joining a Game
+### Joining a Game
 
 In the Hanabi Discord server, 
