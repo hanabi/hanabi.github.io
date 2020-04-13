@@ -375,7 +375,7 @@ The Hyphen-ated group plays games on the [Hanabi Live](https://hanabi.live) webs
 7) By default, the Discord client comes with some annoying sound effects turned on. Disable them:
     * Click the gear icon for "User Settings" in the bottom-left-hand-corner.
     * Click on "Notifications" under "App Settings" in the left-hand menu.
-    * Scroll down and turn off the checkbox for "PTT Activate" and "PTT Deactive".
+    * Scroll down and turn off the toggle-sliders for "PTT Activate" and "PTT Deactive".
 
 ### Joining a Game
 
