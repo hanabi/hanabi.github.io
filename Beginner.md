@@ -354,5 +354,5 @@ Ok, now that you know the basics of the Hyphen-ated conventions, you can join a 
 3) Create a Discord account and login to the [Hanabi Discord server](https://discord.gg/FADvkJp).
 4) Even though you can access the Discord server in a browser, it isn't very good, because it does not support global push-to-talk. So, download and install the [Discord desktop client](https://discordapp.com/download).
 5) By default, the Discord client comes with some annoying sound effects turned on. Disable them:
-  * Click the gear icon for "User Settings" in the bottom-left-hand-corner.
-  * Click on "Notifications" under "App Settings" in the left-hand menu.
+    * Click the gear icon for "User Settings" in the bottom-left-hand-corner.
+    * Click on "Notifications" under "App Settings" in the left-hand menu.
