@@ -350,13 +350,9 @@ In this guide, there will be some screenshots to show off the concepts introduce
 Ok, now that you know the basics of the Hyphen-ated conventions, you can join a game with the Hyphen-ated group. We play on the [Hanabi Live](https://hanabi.live) website and use the [Hanabi Discord server](https://discord.gg/FADvkJp) for voice chat. Here is a short list of things that you can do to prepare:
 
 1) Create an account at [Hanabi Live](https://hanabi.live) and login.
-
 2) There are always ongoing games. Spectate a game or two so that you start to get familiar with the user interface. Alternatively, you could also play a test game with yourself (where you control both of the players). You can do that by using an [incognito window](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DDesktop&hl=en) and logging into a separate test account.
-
 3) Create a Discord account and login to the [Hanabi Discord server](https://discord.gg/FADvkJp).
-
 4) Even though you can access the Discord server in a browser, it isn't very good, because it does not support global push-to-talk. So, download and install the [Discord desktop client](https://discordapp.com/download).
-
 5) By default, the Discord client comes with some annoying sound effects turned on. Disable them:
-  1) Click the gear icon for "User Settings" in the bottom-left-hand-corner.
-  2) Click on "Notifications" under "App Settings" in the left-hand menu.
+  * Click the gear icon for "User Settings" in the bottom-left-hand-corner.
+  * Click on "Notifications" under "App Settings" in the left-hand menu.
