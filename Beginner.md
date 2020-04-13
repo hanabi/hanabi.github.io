@@ -15,7 +15,7 @@
 3. [The Three Main Principles](#the-three-main-principles)
 4. [Miscellaneous](#miscellaneous)
 5. [Special Moves](#special-moves)
-6. [How to Join Games](#)
+6. [How to Join Games](#how-to-join-games)
 
 <br />
 
