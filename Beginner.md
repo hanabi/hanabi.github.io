@@ -358,7 +358,7 @@ The Hyphen-ated group plays games on the [Hanabi Live](https://hanabi.live) webs
 1) Create an account at [Hanabi Live](https://hanabi.live) and login.
 2) Hanabi Live is used by many people, not just members of the Hyphen-ated group, so there are always ongoing games. Choose a random ongoing game and spectate it so that you can start to get familiar with the user interface. Alternatively, you could also play a test game with yourself (where you control both of the players). You can do that by using an [incognito window](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DDesktop&hl=en) and logging into a separate test account.
 3) Create a Discord account and login to the [Hanabi Discord server](https://discord.gg/FADvkJp).
-4) Even though you can access the Discord server in a browser, it is not very good, because it does not support global push-to-talk. So, download and install the [Discord desktop client](https://discordapp.com/download).
+4) Even though you can access the Discord server in a browser, it is not very good, because it does not support a global push-to-talk hotkey. So, download and install the [Discord desktop client](https://discordapp.com/download).
 5) Test your microphone to make sure that it works:
     * Click the gear icon for "User Settings" in the bottom-left-hand-corner.
     * Click on "Voice & Video" under "App Settings" in the left-hand menu.
