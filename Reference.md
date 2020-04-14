@@ -2263,7 +2263,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * In this situation, the player must be trying to communicate something extra. Similar to an *Occupied Finesse*, the player is trying to signal that this seemingly innocent *Save Clue* is actually a *Play Clue* instead. Someone on the team must have the cards to make this critical card playable.
 * In some situations, the blind-player may have to defer playing into the *Finesse* and instead give a *5 Save* to the player with the (now) unsafe chop. If they do, then this is not a problem - the clue receiver can retroactively determine that a *Declined 5's Finesse* has occurred and should not *Stomp* on the *Finesse*.
 
-#### The Suboptimal Save Prompt & The Suboptimal Save Finesse
+#### The Suboptimal Save Prompt & The Suboptimal Save Finesse & The Suboptimal Save Bluff
 
 * If the other copy of a card is in the trash already, then the remaining copy needs to be saved. These cards are allowed to be saved with either a color clue or a number clue.
 * If both types of clues will **only** introduce one new card, then it is said that that there is a *Free Choice* between the two clue types.
