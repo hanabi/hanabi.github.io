@@ -132,6 +132,7 @@ Note that in this user interface, players are **not** holding their hands like t
   1) 5's (with a *5 Save* clue, e.g. number 5)
   2) 2's (with a *2 Save* clue, e.g. number 2)
   3) Critical cards (with either color or number)
+* Additionally, everyone in the group also agrees to never let anyone discard a (unique) playable card. However, a clue to a unique playable card would be defined as a *Play Clue*, not a *Save Clue*.
 
 ### The Prompt
 
