@@ -49,7 +49,7 @@ In general, we want all of our strategies to flow from some basic principles. Th
 
 * A given clue must either:
   * indicate sufficient information for **one or more previously unclued** cards to be played (as a *Play Clue*)
-  * prevent the possible discard of a card that needs to be saved (as a *Save Clue*)
+  * prevent the possible discard of **one or more previously unclued** cards that need to be saved (as a *Save Clue*)
 
 ### 3. Save Principle
 
