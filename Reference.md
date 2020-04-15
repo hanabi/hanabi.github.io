@@ -57,8 +57,8 @@ In general, we want all of our strategies to flow from some basic principles. Th
   * only one copy remains (e.g. 5's or unplayed cards in the discard pile)
   * it is a 2 and not visible elsewhere in players' hands
   * it is currently playable and not visible elsewhere in players' hands
-* When a card that needs to be saved is at immediate risk of being discarded, it must be indicated with a *Save Clue*.
-* A player receiving a clue that could be either a *Save Clue* or a *Play Clue* **must** consider both possibilities. Specifically, this means that the player must hold on to the card until they know for sure.
+* When a card that needs to be saved is at immediate risk of being discarded, it must be indicated with a *Save Clue* (or a *Play Clue* if it happens to be playable).
+* If a player receives a clue that could be either a *Save Clue* or a *Play Clue*, they **must** consider both possibilities. Specifically, this means that the player must hold on to the card until they know for sure.
 
 ### 4. Good Touch Principle
 
