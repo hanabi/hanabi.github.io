@@ -243,7 +243,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
 ### The Early Game
 
 * We define the *Early Game* as the period of time before someone discards for the first time. When they do, they initiate the *Mid-Game*.
-* The general goal of the *Early Game* is to extend it for as long as reasonably possible. Thus, everyone agrees that they MUST "extinguish" all of the available *Play Clues* and *Save Clues* before discarding. (There are no cards in the discard pile yet, but *Save Clues* still need to be given to all of the 5's on chop and all of the 2's on chop that are not present in someone else's hand.)
+* The general goal of the *Early Game* is to extend it for as long as reasonably possible. Thus, everyone agrees that they **must** "extinguish" all of the available *Play Clues* and *Save Clues* before discarding. (There are no cards in the discard pile yet, but *Save Clues* still need to be given to all of the 5's on chop and all of the 2's on chop that are not present in someone else's hand.)
 * In the *Early Game*, you can do a special move called a *5 Stall*; see below.
 
 ### The 5 Stall (Cluing Off-Chop 5's)
