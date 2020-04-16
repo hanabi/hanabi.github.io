@@ -26,35 +26,6 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
   * Donald knows that since Cathy blind-played her *Third Finesse Position* card, this must be an *Unknown Trash Discharge* and that his red card is red 1. Donald discards the red 1.
 ```
 
-**Pink & Omni Majority Conventions** (by Fireheart)
-
-```
-* This convention only applies to any variant that has 50% or more cards touched by all ranks.
-  * For example, in Pink & Omni (3 Suit), 66% of the cards are touched by all ranks, so this convention would apply.
-* Just like in normal games, if a rank clue is given to a chop card and it could be a *Save Clue* (e.g. a *2 Save*, *5 Save*, critical pink 3 save, etc.), then it is treated as a *Save Clue*.
-* Any **other** type of rank clue is instead treated as a *Positional Clue* clue, telling the person who is clued to play the respective slot number.
-```
-
-**Null Saves** (change) (by Razvogor)
-
-```
-* It is considered illegal to perform any kind of *Chop Move* on a non-critical null 3 or a non-critical null 4.
-  * This rule counts for both *Positional Saves* and normal *Chop Moves* (such as the *5's Chop Move*).
-* Thus, when a player is *Chop Moved* early on for a null card, they can know for sure that it is either a null 2 or a null 5.
-```
-
-**Muddy/Cocoa Positional Clues** (by Jeff)
-
-```
-* This convention only applies to variants with a Muddy Rainbow suit or a Cocoa Rainbow suit.
-* Any clue that looks like one of the following is instead considered to be a *Muddy/Cocoa Positional Clue* (that promises the slot number of the Muddy/Cocoa card to play):
-  * *Double Play Ejection* (re-cluing a playable card)
-  * *Known Trash Ejection* (re-cluing a known trash card)
-  * *Trash Pushes* (cluing a known trash card on chop for the first time)
-  * a rank clue that has no conventional interpretation
-* Note that *Trash Chop Moves* are still "turned on".
-```
-
 **The Gentleman's Discard Ejection** (by Jeff)
 
 ```
@@ -84,7 +55,7 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 **Pink Tempo Clues**
 
 ```
-* If a player gives a *Tempo Clue* to a pink card, it is never a *Tempo Clue Chop Move*, even if it only gets one card played.
+* If a player gives a *Tempo Clue* to a pink card, it is never a *Tempo Clue Chop Move*, even if it only gets one card played. (This is the same convention as with brown cards.)
 * This is because it is fairly valuable to get pink cards out of the hand as soon as possible in case blocking cards are drawn.
 ```
 
