@@ -127,7 +127,7 @@ Note that in this user interface, players are **not** holding their hands like t
 
 ### Play Clues & Delayed Play Clues & The Definition of Playable
 
-* As outlined in the [beginner guide](Beginner.md), we treat all *Play Clues* as potentially *Delayed Play Clues*:
+* As outlined in the [beginner guide](Beginner.md), we treat all *Play Clues* as potential *Delayed Play Clues*:
   * If the card will successfully play on the stacks **right now**, then it was *Play Clue*.
   * If the card will successfully play on the stacks after other people have played cards of the same suit, then it was a *Delayed Play Clue* that was *through* other cards.
 * But since we treat all *Play Clues* as *Delayed Play Clues*, this distinction is pretty much irrelevent. In this document, we use the phrase *Play Clue* to mean **both** *Play Clues* and *Delayed Play Clues*.
