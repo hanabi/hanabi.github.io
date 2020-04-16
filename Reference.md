@@ -652,11 +652,13 @@ While the other sections in this document contain lists of special "moves", this
   * Alice clues Cathy about a blue card.
   * Bob blind-plays a blue 2.
   * This must be a *Finesse*, because **blue matches blue**. So Cathy should think that she has the blue 3.
+  * This is a textbook *Finesse*; you can't get any more basic than this.
 * Example 2 (color mismatch):
   * Blue 1 is played on the stacks.
   * Alice clues Cathy about a blue card.
   * Bob blind-plays a red 1.
   * This must be a *Bluff*, because **red does not match blue**. So Cathy should think that she has the one-away from playable blue card, blue 3.
+  * This is a textbook *Bluff*; you can't get any more basic than this.
 * Example 3 (color match):
   * This is a game with a rainbow suit. (The other examples in this section assume a "No Variant" game.)
   * Rainbow 1 is played on the stacks.
@@ -672,7 +674,8 @@ While the other sections in this document contain lists of special "moves", this
   * Blue 2 is played on the stacks.
   * Alice clues Cathy about a 4.
   * Bob blind-plays the red 1.
-  * This must be a *Bluff*, because **1 does not match 4**. So Cathy should think that she has the one-away from playable 4, the blue 4. (This is an example of a *Hard Bluff*, which is covered in more detail later.)
+  * This must be a *Bluff*, because **1 does not match 4**. So Cathy should think that she has the one-away from playable 4, the blue 4.
+  * The point of example 5 is to show that because a 2 happens to be played on the stacks, the blue 4 is a one-away-from-playable card and therefore becomes a legal *Bluff* target.
 * Example 6 (rank mismatch where a *Bluff* is impossible):
   * This is a 4-player game.
   * Nothing is played on the stacks.
