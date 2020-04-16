@@ -4,6 +4,17 @@ The main [reference document](../Reference.md) lists all of our conventions. But
 
 <br />
 
+### Chop Focus
+
+* In the Hyphen-ated convention framework, we play with *[Chop Focus](../Beginner.md#example-3---chop-focus)*, which allows us to "get" playable cards that are on chop. Nearly all other Hanabi groups play with a simpler system (e.g. *Play Clues* are always focused on the left-most card). Why do we have *Chop Focus*?
+* Most Hanabi groups independently come up with the *Finesse* and the *Bluff*; they are considered to be the two core tools that allow players to be highly-efficient. In the Hyphen-ated group, we use these tools as building blocks to compose even more advanced moves, such as the *Layered Finesse* and the *3 Bluff*. These advanced *Finesses* and *Bluffs* allow us to get even more efficient.
+* Separately, notice that the strength of the "play the left-most" convention is that it allows players to easily clue the newest card. Meaning that even if the clue "splashes" other unrelated cards in the hand, it will always work to "get" the newest card.
+* But also notice that in the Hyphen-ated group (and in any sufficiently advanced group of Hanabi players that does a lot of *Finesses*), we have a lot of good options to "get" a player's *Finesse Position* card - it is uncommon to have to clue it directly. So this convention isn't helping much.
+* *Finesses* and *Bluffs* can't "get" a player's chop card. In fact, there are no "moves" that get a player's chop card, at least in our convention framework. So rather than cluing cards on *Finesse Position*, what **is** common for us is to clue playable cards on chop before they get discarded.
+* With all of this in mind, we can see that it makes much more sense to have clues be focused on the chop and let cards on *Finesse Position* be *Finessed* or *Bluffed*. 
+
+<br />
+
 ### Play Order of Multiple 1's
 
 * In the Hyphen-ated convention framework, we [play 1's in the opening hand from right-to-left](../Reference.md#playing-multiple-1s---play-order-inversion-in-the-starting-hand-part-1). Why?
@@ -19,17 +30,6 @@ The main [reference document](../Reference.md) lists all of our conventions. But
 * Instead, the typical strategy is to do nothing and patiently wait for that player to discard. Eventually, the player will discard the first copy of the card, allowing the remaining copy to be clued in a "clean" way.
 * So, what about the inverse? What about when players do **not** patiently wait for a discard and instead clue two or more 1's immediately? The player who receives the clue knows that out of all of the 1s, the most important 1 must be the chop card (or the card closest to chop). Otherwise, if it were a "bad" 1, then the team would do nothing and let it get discarded!
 * It follows that players should always play 1's in the starting hand from right-to-left.
-
-<br />
-
-### Chop Focus
-
-* In the Hyphen-ated convention framework, we play with *[Chop Focus](../Beginner.md#example-3---chop-focus)*, which allows us to "get" playable cards that are on chop. Nearly all other Hanabi groups play with a simpler system (e.g. *Play Clues* are always focused on the left-most card). Why do we have *Chop Focus*?
-* Most Hanabi groups independently come up with the *Finesse* and the *Bluff*; they are considered to be the two core tools that allow players to be highly-efficient. In the Hyphen-ated group, we use these tools as building blocks to compose even more advanced moves, such as the *Layered Finesse* and the *3 Bluff*. These advanced *Finesses* and *Bluffs* allow us to get even more efficient.
-* Separately, notice that the strength of the "play the left-most" convention is that it allows players to easily clue the newest card. Meaning that even if the clue "splashes" other unrelated cards in the hand, it will always work to "get" the newest card.
-* But also notice that in the Hyphen-ated group (and in any sufficiently advanced group of Hanabi players that does a lot of *Finesses*), we have a lot of good options to "get" a player's *Finesse Position* card - it is uncommon to have to clue it directly. So this convention isn't helping much.
-* *Finesses* and *Bluffs* can't "get" a player's chop card. In fact, there are no "moves" that get a player's chop card, at least in our convention framework. So rather than cluing cards on *Finesse Position*, what **is** common for us is to clue playable cards on chop before they get discarded.
-* With all of this in mind, we can see that it makes much more sense to have clues be focused on the chop and let cards on *Finesse Position* be *Finessed* or *Bluffed*. 
 
 <br />
 
