@@ -24,4 +24,5 @@ The main [reference document](../Reference.md) lists all of our conventions. But
 
 ### 3 Bluffs
 
+* In the Hyphen-ated conventions, we extend the [Bluff](../Reference.md#bluffs) convention, allowing players to *Bluff* with [any 3 that they want](https://github.com/Zamiell/hanabi-conventions/blob/master/Reference.md#the-3-bluff). Why?
 * Read the [story of 3 Bluffs](3_Bluffs.md), which is on a separate page.
