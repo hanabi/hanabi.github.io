@@ -90,7 +90,7 @@ Some additional rules apply to *Positional Clues* that are intended to be *Save 
 * It is optional for players to give *Save Clues* to null 2's.
 * Thus, if a null 2 is discarded, players should not make any *Elimination Notes* for them.
 
-### No Early Null 3 or Null 4 Saves
+#### No Early Null 3 or Null 4 Saves
 
 * It is considered illegal to perform any kind of *Chop Move* on a non-critical null 3 or a non-critical null 4.
   * This rule counts for both *Positional Saves* and normal *Chop Moves* (such as the *5's Chop Move*).
