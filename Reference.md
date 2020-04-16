@@ -2863,6 +2863,7 @@ Conventions for specific variants are listed on a separate page.
 * [Omni](/variant-specific/Omni.md)
 * [Null](/variant-specific/Null.md)
 * [Black & Rainbow](/variant-specific/Black_&_Rainbow.md)
+* [Pink & Omni](/variant-specific/Pink_&_Omni.md)
 * [Dark Rainbow](/variant-specific/Black_&_Rainbow.md)
 * [Muddy Rainbow & Cocoa Rainbow](/variant-specific/Muddy_Rainbow.md)
 * [Dark Omni & Gray Pink](/variant-specific/Dark_Omni_&_Gray_Pink.md)
