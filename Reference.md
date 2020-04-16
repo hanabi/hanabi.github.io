@@ -125,6 +125,14 @@ Note that in this user interface, players are **not** holding their hands like t
 * A player's chop card is formally defined as **the next unclued card that they would discard if they had nothing to do**.
 * If a player has a clued card that is known useless, then they will typically discard the useless card **instead** of discarding their chop. (But the useless card does **not** count as the chop - their chop remains the right-most unclued card.)
 
+### Play Clues & Delayed Play Clues & The Definition of Playable
+
+* As outlined in the [beginner guide](Beginner.md), we treat all *Play Clues* as potentially being *Delayed Play Clues*:
+  * If the card will successfully play on the stacks **right now**, then it was *Play Clue*.
+  * If the card will successfully play on the stacks after other people have played cards of the same suit, then it was a *Delayed Play Clue* that was *through* other cards.
+* But since we treat all *Play Clues* as *Delayed Play Clues*, this distinction is pretty much irrelevent. In this document, we use the phrase *Play Clue* to mean **both** *Play Clues* and *Delayed Play Clues*.
+* Additionally, when we say that a card is *playable*, we do **not** mean that the card can play on the stacks right this instant. If a card is *playable*, then we mean that it would be legal to give the card a *Delayed Play Clue*. In other words, a *playable* card will eventually play on the stack because all of the preceding cards, if any, are present and accounted for.
+
 ### Save Clues
 
 * As outlined in the [beginner guide](Beginner.md), you are allowed only to give a *Save Clue* to a card that is on chop.
