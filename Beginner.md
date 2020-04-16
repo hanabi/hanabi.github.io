@@ -379,7 +379,7 @@ The Hyphen-ated group plays games on the [Hanabi Live](https://hanabi.live) webs
 
 ### Joining a Game
 
-The Hyphen-ated group usually has games going every day. You can see if there are any Hyphen-ated members currently playing by looking at the Discord voice channels along the left side of the screen ("Hanabi 1", "Hanabi 2", "Teaching/Beginner Games", etc.).
+The Hyphen-ated group usually has games going every day. You can see if there are any Hyphen-ated members currently playing by looking at the Discord voice channels along the left side of the screen ("Hyphen-ated 1", "Hyphen-ated 2", "Teaching/Beginner Games", etc.).
 
 If all of the voice channels are empty, then there are not any people currently playing. Perform a Discord ping to see if any members of the Hyphen-ated group are around and want to play. You can do this by typing `/here Anyone around for a beginner game with a new player ready and willing to learn?` in the #general text channel.
 
