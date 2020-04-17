@@ -37,14 +37,14 @@
 * For example, in a 2-player game:
   * All of the 1's are played on the stacks.
   * Blue 4 is in the discard pile.
-  * Bob's hand is as follows, from left to right: red 1, blue 1, blue 4, red 5, green 1
+  * Bob's hand is as follows, from left to right: red 4, green 4, blue 4, red 5, green 1
   * Alice knows that both the blue 4 and the red 5 are critical. Alice also knows that there is no way to save both of the cards with one clue. If Alice does not do something soon, either the blue 4 or the red 5 will be discarded.
   * Alice clues number 5 to Bob as a *One-Away Save*.
   * Bob knows that normally, 5's are saved on chop. This 5 clue could be a *One-Away Save*. He might have another critical card on slot 3, but he does not know for sure quite yet.
   * Bob discards his chop, slot 5 (the green 1).
   * Alice clues number 4 to Bob as a normal *Save Clue*.
   * Bob knows that this is probably a *Save Clue* on a critical blue 4, which would confirm his previous suspicion of having two critical cards in a row.
-  * Bob discards his chop, slot 3 (the blue 1).
+  * Bob discards his chop, slot 3 (the green 4).
   * Alice has successfully saved both critical cards.
 * Players must only do *One-Away* saves if they are necessary. Thus, a clue that looks like a *One-Away* save can retroactively turn into a *Play Clue* if it is not followed up with an additional *Save Clue*.
 * *One-Away Saves* are turned off in hard variants, null variants, and so forth.
