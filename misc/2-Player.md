@@ -36,7 +36,7 @@
 * In 2-player games, *Save Clues* can **also** be given to cards that are 1-away from chop. This gives players the ability to save 2 critical cards in a row.
 * For example, in a 2-player game:
   * All of the 1's are played on the stacks.
-  * Red 4 is in the discard pile.
+  * Blue 4 is in the discard pile.
   * Bob's hand is as follows, from left to right: red 1, blue 1, blue 4, red 5, green 1
   * Alice knows that both the blue 4 and the red 5 are critical. Alice also knows that there is no way to save both of the cards with one clue. If Alice does not do something soon, either the blue 4 or the red 5 will be discarded.
   * Alice clues number 5 to Bob as a *One-Away Save*.
