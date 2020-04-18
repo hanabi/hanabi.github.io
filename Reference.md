@@ -296,7 +296,7 @@ Note that in this user interface, players are **not** holding their hands like t
 
 ### The Early Game (Intermediate Section)
 
-* The *Early Game* is introduced in the beginner's document. In short:
+* The *Early Game* is introduced in the [beginner's document](Beginner.md). In short:
   * The *Early Game* is defined as the period of time before the first discard happens.
   * Players **must** "extinguish" all of the available *Play Clues* and *Save Clues* on the board before ending the *Early Game*.
 * As an intermediate player, you should note that:
@@ -310,7 +310,7 @@ Note that in this user interface, players are **not** holding their hands like t
 
 ### 5 Stalls (Intermediate Section)
 
-* As mentioned in the beginner document, *5 Stalls* are when a player clues an off-chop 5 purely because they want (or need) to give a stall clue.
+* As mentioned in the [beginner document](Beginner.md), *5 Stalls* are when a player clues an off-chop 5 purely because they want (or need) to give a stall clue.
 * *5 Stalls* are usually performed in the *Early Game*. Less commonly, they can also be performed in the *Mid-Game* if a player happens to be in a special "stalling" situation where they are not allowed to discard.
 * Regardless of whether they are done in the *Early Game* or the *Mid-Game*, *5 Stalls* are only allowed if there is nothing else "normal" to do (like playing a card, giving a normal *Play Clue*, or giving a normal *Save Clue*).
   * However, as an exception, players are also allowed to *5 Stall* if there is **only one** *Play Clue* remaining and it would touch a card on *Finesse Position*. (We refer to this as the *Finesse Position Exception*.)
