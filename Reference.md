@@ -135,8 +135,8 @@ Note that in this user interface, players are **not** holding their hands like t
 
 ### Save Clues
 
-* As outlined in the [beginner guide](Beginner.md), you are allowed only to give a *Save Clue* to a card that is on chop.
-* You are **not** allowed to give a *Save Clue* to just any card you want. You are **only** allowed to give a *Save Clue* on these specific cards:
+* As outlined in the [beginner guide](Beginner.md), you are **only** allowed to give a *Save Clue* to a card that is on chop.
+* Furthermore, you are **not** allowed to give a *Save Clue* to just any card you want. You are **only** allowed to give a *Save Clue* on these specific cards:
   1) 5's (with a *5 Save* clue, e.g. number 5)
   2) 2's (with a *2 Save* clue, e.g. number 2)
   3) Critical cards (with either color or number)
