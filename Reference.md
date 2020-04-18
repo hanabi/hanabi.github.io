@@ -901,9 +901,9 @@ Priority does not always apply. Some common exceptions are listed below.
 * Sometimes, someone can give a *Prompt* that is prompting **two** (or more) cards with one clue, which is pretty efficient.
 * For example, in a 3-player game:
   * A red 1 is played on the stacks.
-  * Alice clues Cathy red, which touches a red 4.
-  * Bob has two clued red cards in his hand. Since the red 4 is playable right now, he knows that his two red cards must be a red 2 and a red 3 (in order from left-to-right).
-  * Bob plays the left-most card as red 2. On Bob's next turn, he plays the other red card as the red 3.
+  * Alice clues Cathy red, which touches a red 4. This must be a *Play Clue*, because the red 4 is not on chop.
+  * Bob has two clued red cards in his hand. Since Alice has indicated that the red 4 must be playable right now, he knows that his two red cards must be a red 2 and a red 3 (in order from left-to-right).
+  * Bob plays the left-most card as the red 2. On Bob's next turn, he plays the other red card as the red 3.
 
 ### The Double Finesse / Triple Finesse / etc.
 
