@@ -153,7 +153,7 @@ Note that in this user interface, players are **not** holding their hands like t
 
 ### Finesse Position
 
-* As covered in the [beginner guide](Beginner.md), a player's *Finesse Position* refers to the slot that their left-most unclued card is in.
+* As covered in the [beginner guide](Beginner.md), a player's *Finesse Position* refers to the slot that their **left-most unclued card** is in.
 
 <br />
 
