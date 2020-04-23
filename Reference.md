@@ -2865,7 +2865,7 @@ Conventions for specific variants are listed on a separate page.
 * [Null](/variant-specific/Null.md)
 * [Black & Rainbow](/variant-specific/Black_&_Rainbow.md)
 * [Pink & Omni](/variant-specific/Pink_&_Omni.md)
-* [Dark Rainbow](/variant-specific/Black_&_Rainbow.md)
+* [Dark Rainbow](/variant-specific/Dark_Rainbow.md)
 * [Muddy Rainbow & Cocoa Rainbow](/variant-specific/Muddy_Rainbow.md)
 * [Dark Omni & Gray Pink](/variant-specific/Dark_Omni_&_Gray_Pink.md)
 * [Dual-Color (6 Suits)](/variant-specific/Dual-Color_(6_Suits).md)
