@@ -44,6 +44,15 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 * This is because it is fairly valuable to get brown cards out of the hand as soon as possible in case blocking cards are drawn.
 ```
 
+**Reverse Finesse Restriction** (by Florrat)
+
+```
+* This convention only applies in a Cow & Pig variant.
+* It is illegal to perform a *Reverse Finesse* with a rank clue on the first turn. (This makes things more clear for players when they are given a *Save Clue* and there are some playable cards on *Finesse Position* to get.)
+```
+
+@everyone Variant-specific conventions:
+
 **Dark Omni & Gray Pink Pseudo Saves**
 
 ```
@@ -56,11 +65,4 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 ```
 * This convention only applies in variants with a Dark Omni or Gray Pink suit.
 * In situations where there are critical cards behind Dark Omni or Gray Pink cards, you are also allowed to *Fake Save* the cards with any number (either 2, 3, or 4). (Again, *Pink Promise* does not apply to this variant.)
-```
-
-**Reverse Finesse Restriction** (by Florrat)
-
-```
-* This convention only applies in a Cow & Pig variant.
-* It is illegal to perform a *Reverse Finesse* with a rank clue on the first turn. (This makes things more clear for players when they are given a *Save Clue* and there are some playable cards on *Finesse Position* to get.)
 ```
