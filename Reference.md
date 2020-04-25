@@ -620,7 +620,7 @@ While the other sections in this document contain lists of special "moves", this
 * However, as a rule, if pace is +1 and one of the players on your team **does not** have any playable cards, then you cannot discard - **you must let them perform the final discard**.
 * If both you and another player do not have any playable cards, then you can do the final discard - the team won't be able to get a perfect score anyway. But if you you **could** have an unknown useful/playable card in your hand, then you should be very careful about discarding, because it could ruin a perfect score.
 
-### Burning (End-Game Stalling) & Same-Suit Principle
+### Burning (End-Game Stalling)
 
 * In the *End-Game*, often times there are still a lot of cards yet to be played. Thus, you need to be very careful when discarding, since by drawing a card you can make the game end before everyone has a chance to play all of the cards.
 * If there are enough of clues available, you can choose to stall, by giving a low-value (or even a completely useless) clue. This is referred to as *Burning* a clue.
@@ -631,10 +631,6 @@ While the other sections in this document contain lists of special "moves", this
 * Do not give a *Burn Clue* if:
   * The end-game has not started yet (see the *End-Game Threshold*).
   * You know that someone else will have to discard in the future.
-  * There is only one more useful card in the deck and all of the useful cards in your hand are of the same suit as that card. This is known as *Same-Suit Principle*. For example:
-    * You have two cards clued in your hand that you know to be red 3 and red 5.
-    * The only useful cards left in the deck are two red 2's.
-    * Here, there is no reason for you to stall, since the red 3 will **not** be played sooner if you stall.
 
 ### Recognizing *Finesses* on Other Players (Part 1)
 
