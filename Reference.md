@@ -1892,7 +1892,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 ### The 4 Double Bluff That Looks like a Double Half Bluff
 
 * Because any *Bluff* sequence that gets two cards blind-played can be a 4, this means that players have to account for the fact that a card that initiates a *Double Half Bluff* could also be a 4.
-* For example, in a 3-player game:
+* For example, in a 4-player game:
   * It is the first turn of the game and nothing is played on the stacks.
   * Alice clues red to Donald, touching a red 3 as a *Play Clue*.
   * Bob blind-plays red 1.
