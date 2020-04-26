@@ -1897,9 +1897,9 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Alice clues red to Donald, touching a red 3 as a *Play Clue*.
   * Bob blind-plays red 1.
   * Cathy blind-plays blue 1.
-  * Normally, Bob would know that his red card is exactly a red 3, as a *Double Half Bluff*.
-  * However, Bob also knows that any 4 in the game can be used to perform a *Double Bluff*.
-  * Thus, Bob marks his red card as either a red 3 (if it was a *Double Half Bluff*) or a red 4 (if it was a *4 Double Bluff*).
+  * Normally, Donald would know that his red card is exactly a red 3, as a *Double Half Bluff*.
+  * However, Donald also knows that any 4 in the game can be used to perform a *Double Bluff*.
+  * Thus, Donald marks his red card as either a red 3 (if it was a *Double Half Bluff*) or a red 4 (if it was a *4 Double Bluff*).
 
 ### The Triple Bluff
 
