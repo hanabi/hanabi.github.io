@@ -152,7 +152,7 @@
 * Normally, black 3 and black 4 are saved with a black color clue. However, if try to save a black 3 or black 4 like this when it is in a player's slot 1, then will interpret it as a *Flush Clue* and will misplay it.
 * Thus, when players are in this situation, they must save using number. Any number 3 or number 4 clue given to a slot 1 card must be treated as a potential save on a black 3 or a black 4, respectively.
 
-### Dark Chop Move
+### The Dark Chop Move
 
 * This convention only applies to variants with a one-of-each suit where *One-Away Saves* are turned off.
 * Normally, we are only allowed to save black cards on chop. So, if a black clue is performed on a black card that is not on chop, and it is not a stalling situation, then it will normally look like a *Play Clue* on that black card.
