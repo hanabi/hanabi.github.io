@@ -19,8 +19,8 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 **Out-of-Position Ejections & Discharges** (by Zamiel & IAMJEFF)
 
 ```
-* The *Out-of-Position Unknown Trash Discharge* section in the document is deleted. Now, all *Ejections* and *Discharges* can be out-of-position.
-* Note that it is illegal to perform an *Out-of-Position Ejection* or *Out-of-Position Discharge* in reverse.
+* The *Out-of-Position Unknown Trash Discharge* section in the document is deleted. Now, all *Ejections* and *Discharges* can be performed out-of-position.
+* Note that it is still illegal to perform an *Out-of-Position Ejection* or *Out-of-Position Discharge* in reverse.
 ```
 
 @everyone Variant-specific conventions:
