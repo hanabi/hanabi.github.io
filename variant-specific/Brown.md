@@ -19,7 +19,7 @@ These conventions apply to any variant with a brown (touched by no ranks) suit.
 * *Loaded Play Clues* are "turned on" for brown cards.
 * Normally, *Loaded Play Clues* are "turned off" in the *Early Game*. However, note that *Loaded Play Clues* **always** apply to brown cards, even in the *Early Game*.
 
-### Brown Positional Clues
+### Positional Clues
 
 * In some situations, a player may have multiple brown cards in their hand, with one of them being playable. If the playable brown card is not the oldest card, it can be difficult to "get" the card to play.
 * In cases where a number clue is given that has no other conventional interpretation, it is an indication to the player with two or more brown cards of which slot to play.
@@ -29,4 +29,4 @@ These conventions apply to any variant with a brown (touched by no ranks) suit.
   * Alice clues Bob number 2, touching a blue 2 on his slot 1.
   * Bob knows that since all of the 2's are already played, whatever 2 this is must be a trash 2.
   * Bob also knows that this cannot be a *Trash Chop Move*, a *Trash Push*, or any of the other trash moves.
-  * Bob instead interprets this as a *Brown Positional Clue*, and plays his slot 2 brown card.
+  * Bob instead interprets this as a *Positional Clue*, and plays his slot 2 brown card.
