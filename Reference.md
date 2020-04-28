@@ -2197,12 +2197,12 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * Furthermore, similar to the above example, it is also possible that Cathy could have the other copy of the red 2 in her own hand. However, this is unlikely, and by convention we disregard this possibility.
 * Similar to the above example, Cathy should interpret this situation as a *Double Bluff*. If she blind-plays a card successfully, Bob will **not** go on to misplay the blue 2.
 
-### The Surreptitious Self-Finesse
+### The Surreptitious Finesse
 
 * *Clandestine Finesses* are when a color or rank clue "matches" the card from a blind-play, but the clue receiver must wait for **additional** matching playable cards to blind-play. Another way of saying this is that *Clandestine Finesses* have a *Misplay Component*; if the blind-player does not continue to blind-play cards, then the clue receiver will go on to misplay the "matching" card.
 * A similar situation can also happen when a rank clue "matches" the card from a blind-play, but the clue receiver sees **non-matching** rank cards in the blind-player's hand that are currently playable.
-* If the clue receiver waits for these non-matching cards to blind-play, and they **do** blind-play, then it means that the original clue had a *Self-Finesse* component to it. This is called a *Surreptitious Self-Finesse* in order to disambiguate it from a more ordinary *Clandestine Finesse*.
-* *Surreptitious Self-Finesses* have a *Misplay Component* in almost the exact same way that *Clandestine Finesses* do, but they just involve non-matching rank cards.
+* If the clue receiver waits for these non-matching cards to blind-play, and they **do** blind-play, then it means that the original clue was on a different suit than it first appeared. This is called a *Surreptitious Self-Finesse* in order to disambiguate it from a more ordinary *Clandestine Finesse*.
+* *Surreptitious Finesses* have a *Misplay Component* in almost the exact same way that *Clandestine Finesses* do, but they just involve non-matching rank cards.
 * Generally speaking, this means that when a **rank** clue initiates a *Finesse*, the clue receiver must always allow for the possibility that subsequent non-matching rank cards in the blind-player's hand (that are of a **lower** rank than the clue) can possibly be caught up in the *Finesse*.
 * For example, in a 3-player game:
   * Red 1 is played on the stacks.
@@ -2211,7 +2211,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Cathy knows that red 2 "matches" number 3, so she knows that she probably has red 3.
   * However, Cathy also sees that before Bob blind-played the red 2, he had a blue 1 in the slot right after it.
   * Thus, it is possible for Cathy's 3 to actually be blue 3. If it is, Bob will blind-play the blue 1 and Cathy will know that she has blue 2 on her *Finesse Position*.
-  * So, Cathy discards (instead of potentially playing the red 3 on this turn) to allow for the possibility of a *Surreptitious Self-Finesse*.
+  * So, Cathy discards (instead of potentially playing the red 3 on this turn) to allow for the possibility of a *Surreptitious Finesse*.
 
 ### The Pass Bluff
 
