@@ -82,8 +82,21 @@ These conventions apply to any variant with an null (touched by no clues) suit.
   * Bob's blue 5 has a number 5 clue on it. (It was clued with a *5 Save* earlier on.)
   * Alice clues yellow to Cathy, touching a yellow 1.
   * Bob knows that normally, this would be an *Unknown Trash Discharge*. But all *Discharges* are "turned off" in null variants. Instead, this must be a *Null Positional Clue*.
-  * Bob knows that normally, yellow would refer to slot 4, since there are 5 slots in the hand and yellow is the 2nd rightmost color. But since Bob's slot 5 card already has a clue on it, he should skip over that card. So this must be targeting his slot 3 (e.g. his 2nd rightmost unclued slot).
+  * Bob knows that if his hand was completely unclued, yellow would refer to slot 4, since there are 5 slots in the hand and yellow is the 2nd rightmost color. But since Bob's slot 5 card already has a clue on it, he should skip over that card. So this must be targeting his slot 3 (e.g. his 2nd rightmost unclued slot).
   * Bob blind-plays null 1 from slot 3.
+
+#### 9) What happens a *Color Positional Clue* is used that goes past slot 1?
+
+* *Color Positional Clues* always "wrap around" to the oldest card.
+* For example, in a 3-player game of the "Null (5 Suits)" variant:
+  * All the 1's are played on the stacks except for the null 1.
+  * Bob hand is as follows: red 1, red 1, red 5, blue 5, green 5
+  * All of Bob's 5's have a number 5 clue on them. (They were clued with a *5 Save* earlier on.)
+  * Alice clues red to Cathy, touching a red 1.
+  * Bob knows that normally, this would be an *Unknown Trash Discharge*. But all *Discharges* are "turned off" in null variants. Instead, this must be a *Null Positional Clue*.
+  * Bob knows that if his hand was completely unclued, red would refer to slot 2, since there are 5 slots in the hand and red is the 4th rightmost color. But since Bob's slot 3, slot 4, and slot 5 card already have a clue on it, he should skip over those cards.
+  * This means that blue would target slot 2 and green would target slot 1. Yellow would target slot 2 again (because of the wraparound) and red would target slot 1.
+  * Bob blind-plays null 1 from slot 1.
 
 <br />
 
