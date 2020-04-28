@@ -2776,12 +2776,12 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Bob performs a *Certain Discard* on his *Finesse Position* card and it is the red 3, successfully passing it back to Alice.
 * If someone performs a *Certain Discard* and you have two or more clued cards that could be the target, then you are not promised the order, only that you have the card clued somewhere in your hand. (This part works in the exact same way as a more-ordinary *Sarcastic Discard*.)
 
-### Occupied Focus Inversion (O.F.I. / OFI)
+### Selfish Focus Inversion (S.F.I. / SFI)
 
 * Normally, when a player is *Occupied* and they give a clue to someone else, they are usually doing something important that can't be easily done by anyone else on the team. (For example, they could be giving a *Save Clue* to the next player to prevent an imminent discard. Or, they could be taking advantage of their *Occupied* status and are giving an *Occupied Play Clue* or an *Occupied Finesse*.)
 * If it can be seen that an *Occupied* player is giving a non-important clue that someone else on the team could give, then they are either making a mistake, or they are trying to communicate something extra.
 * In this situation, they are trying to communicate that the focus of the clue should be inverted. The *Play Clue* is either on the left-most card (if it would normally be *Chop Focus*) or on the right-most card (if it would normally be the left-most card).
-* *Occupied Focus Inversion* takes precedence over an *Out-of-Order Finesse*. (This follows from *Occam's Razor*; if it could just be a normal *Focus Inversion* play clue, then it does not necessarily promise any blind-plays.)
+* *Selfish Focus Inversion* takes precedence over an *Out-of-Order Finesse*. (This follows from *Occam's Razor*; if it could just be a normal *Focus Inversion* play clue, then it does not necessarily promise any blind-plays.)
 * For example, in a 4-player game:
   * It is the first turn and nothing is played on the stacks.
   * Alice clues red to Cathy, touching a red 1 as a *Play Clue*.
@@ -2790,7 +2790,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Donald knows that since Cathy is not playing her red 1 and giving a clue, she must have a good reason.
   * Donald looks around the table and does not see the red 2 in anybody else's *Finesse Position*. Thus, this cannot be a *Selfish Finesse*.
   * Donald also knows that this cannot be a *Self Finesse* or *Self Bluff*. (*Self Bluffs* with color are explicitly illegal.)
-  * This must be an *Occupied Focus Inversion*, so Donald marks his right-most card as red 2 for later. The other red card in his hand can be red 3, red 4, or red 5. Donald discards.
+  * This must be an *Selfish Focus Inversion*, so Donald marks his right-most card as red 2 for later. The other red card in his hand can be red 3, red 4, or red 5. Donald discards.
 
 ### The No-Context Double Gentleman's Discard
 
