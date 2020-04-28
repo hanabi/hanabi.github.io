@@ -20,15 +20,16 @@ These conventions apply to any variant with an null (touched by no clues) suit.
   * In a 4-player or 5-player game, a number 5 clue equals *Chop Move* (since there is no slot 5 card).
 * A **color** positional clue corresponds to a slot number that is based on the order of the stacks. Stacks correspond to the slot numbers **from right to left**.
   * For example, in a 3-player game of the *Null (6 Suit)* variant, there are 5 color clues and 5 slots in the hand. Thus, a purple clue equals slot 5 (since it is the right-most color) and a red clue equals slot 4 (since it is the 2nd right-most color).
-  * For example, in a 3-player game of the *Null (5 Suit)* variant, there are 4 color clues and 5 slots in the hand. Thus, a red clue equals slot 5 (since it is the right-most color) and a yellow clue equals slot 4 (since it is the 2nd right-most color).
+  * For example, in a 3-player game of the *Null (5 Suit)* variant, there are 4 color clues and 5 slots in the hand. Thus, a blue clue equals slot 5 (since it is the right-most color) and a green clue equals slot 4 (since it is the 2nd right-most color).
   * For example, in a 4-player game of the *Null (6 Suit)* variant, there are 5 color clues and 4 slots in the hand. Thus, a purple clue equals *Chop Move* (since there is no slot 5 card).
+  * Additionally, when players are determining which slot number the *Color Positional Clue* is talking about, they should always skip over any cards that have one or more positive clues on them. (But they should not skip over cards that are considered to be "untouched" from a *Positional Clue*.) An example of this is given later.
 
 #### 2) Do I discard cards touched as a *Positional Clue*?
 
 * *Good Touch Principle* does **not** apply to cards touched as *Positional Clues*. They should be discarded exactly like an unclued card would.
   * The exception to this is if the card is known to be useful to the team (e.g. a 3 when no 3's are currently played).
 
-#### 3) What kinds of clues count as a *Positional Clue*?
+#### 3) Specifically, what kinds of moves are "turned off" in favor of being a *Positional Clue*?
 
 * Any clue that looks like one of the following is now a *Positional Clue* instead:
   * a *Double Finesse* or a *Triple Finesse* where one player has to blind-play **two or more** cards
@@ -39,7 +40,7 @@ These conventions apply to any variant with an null (touched by no clues) suit.
   * a *Trash Push*
   * a *Black 4 Bluff* (with black)
   * a *Finesse* or *Bluff* that was initiated with a rank clue when a ***Free Choice*** was available between rank and color
-  * a clue that has no "normal" conventional interpretation
+* Additionally, any clue that has no "normal" conventional interpretation is also a *Positional Clue*.
 
 #### 4) Are *Positional Clues* a *Save Clue* or a *Play Clue*?
 
@@ -73,11 +74,16 @@ These conventions apply to any variant with an null (touched by no clues) suit.
   * Bob discards.
   * Cathy blind-plays her slot 4 card.
 
-#### 8) What happens if a *Positional Clue* targets a card that already has a clue on it?
+#### 8) How does "skipping over clued cards" work for *Color Positional Clues*?
 
-* By convention, *Positional Clues* must target null cards. Thus, if a *Positional Clue* targets a card that already has a clue on it, then it slides over and targets the slot one position to the right.
-  * If the *Positional Clue* targets the right-most card, then it slides over to the left.
-* This allows players the flexibility to "get" a null card when the clue types that would directly target the null card are not available.
+* For example, in a 3-player game of the "Null (5 Suits)" variant:
+  * All the 1's are played on the stacks except for the null 1.
+  * Bob hand is as follows: red 1, red 1, null 1, blue 1, blue 5
+  * Bob's blue 5 has a number 5 clue on it. (It was clued with a *5 Save* earlier on.)
+  * Alice clues yellow to Cathy, touching a yellow 1.
+  * Bob knows that normally, this would be an *Unknown Trash Discharge*. But all *Discharges* are "turned off" in null variants. Instead, this must be a *Null Positional Clue*.
+  * Bob knows that normally, yellow would refer to slot 4, since there are 5 slots in the hand and yellow is the 2nd rightmost color. But since Bob's slot 5 card already has a clue on it, he should skip over that card. So this must be targeting his slot 3 (e.g. his 2nd rightmost unclued slot).
+  * Bob blind-plays null 1 from slot 3.
 
 <br />
 
