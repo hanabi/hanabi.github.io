@@ -1822,10 +1822,10 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Normally, Bob would think that this is a *Priority Finesse* on the blue 5. However, both he and Alice know that Alice has the blue 5.
   * This must be a *Known Priority Bluff*, so Bob plays his *Finesse Position* card as any other playable card.
 
-### Priority Potential Duplication & The Certain Priority Finesse
+### Potential Priority Duplication & The Certain Priority Finesse
 
 * Normally, players can perform any particular type of *Finesse* either by giving a clue or by playing a card without *Priority*. For example, it is possible to both do a *Layered Finesse* (by giving a clue) and a *Layered Priority Finesse* (by playing a card).
-* One exception to this rule is the *Certain Finesse*. When a player perform a *Certain Finesse*, it calls for a *Certain Discard*. However, when a player uses *Priority* to promise a card that could potentially be in their own hand, this should **not** induce a *Certain Discard*. The other players in this situation should just ignore the *Priority* and instead discard their chop card.
+* One exception to this rule is the *Certain Finesse*. When a player perform a *Certain Finesse*, it calls for a *Certain Discard*. However, when a player uses *Priority* to promise a card that could potentially be in their own hand, this should **not** induce a *Certain Discard*. The other players in this situation should just ignore the *Priority* and instead discard their chop card. (Doing it this way is much safer because it allow potential *Layered Finesses* as well as some slack for mistakes.)
 
 ### The Elimination Bluff / The Elimination Layered Finesse
 
