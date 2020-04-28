@@ -2916,7 +2916,7 @@ Conventions for specific variants are listed on a separate page.
 | The Gentleman's Discard | Duneaught
 | The Layered Gentleman's Discard | Duneaught
 | The Tempo Clue Chop Move | Zamiel
-| Discard Elimination & The Elimination Blind-Play | Aridolomo & Hyphen-ated & Duneaught
+| Discard Elimination & The Elimination Blind-Play | Aridolomo, Hyphen-ated & Duneaught
 | Immediate Double Clue | Duneaught
 | The Elimination Finesse | Zamiel & Ahming
 | The Elimination Riding Deduction | Duneaught
@@ -3022,9 +3022,9 @@ Conventions for specific variants are listed on a separate page.
 | White Compromise | Postmans
 | The Bubblegum Finesse | Razvogor
 | Pink & Omni Majority Conventions | Fireheart
-| Null Positional Clues | Razvogor & Zamiel
+| Null Positional Clues | Razvogor, Zamiel, & IAMJEFF
 | Muddy/Cocoa Positional Clues | IAMJEFF
-| Dark Rainbow Saves | Florrat & Libster & Zamiel
+| Dark Rainbow Saves | Florrat, Libster & Zamiel
 | Dark Omni & Gray Pink Pseudo Saves | IAMJEFF
 | Dark Omni & Gray Pink Pseudo-Rank Saves | IAMJEFF
 | Special 5 Saves | Libster
