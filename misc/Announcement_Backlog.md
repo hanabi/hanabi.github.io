@@ -56,6 +56,7 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
   * Bob knows that since all of the 3's are already played, this might be a *Trash Chop Move*. If this is the case, slot 1 is focused, and he should discard that card, and then chop move slot 4 and slot 5.
   * However, Bob also knows that it is near the end of the game and there are no cards left to chop move, so this interpretation does not make much sense.
   * Thus, Bob knows that this must be a *Positional Clue*, and he plays his slot 2 card as the pink 5.
+* *Positional Clues* are different from *Pink Choice Tempo Clues* in that they can touch brand new cards. (*Pink Choice Tempo Clues* do not touch brand new cards.) For this reason, *Positional Clues* can only typically be done at the end of the game when the clue is not likely to be interpreted as anything else.
 ```
 
 **Reverse Finesse Restriction** (by Florrat)
