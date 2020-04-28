@@ -6,24 +6,12 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 
 ## The Backlog
 
-**Out-of-Position Unknown Trash Discharge** (by Jeff)
+@everyone Renamed conventions:
+
+**Selfish Focus Inversion** (by IAMJEFF)
 
 ```
-* Normally, players are only allowed to perform a *Discharge* on the very next player (similar to a *Bluff*).
-* However, if a *Unknown Trash Discharge* is performed, and the very next player does not have a *Third Finesse Position*, then they cannot demonstrate to the team that the clued card is trash.
-* In this situation, the *Discharge* is on the next player with a *Third Finesse Position*:
-  * The player being passed over knows that the next player will blind-play, so they can either discard or give an unrelated clue.
-  * After that, the next player should blind-play their card immediately to demonstrate what is going on.
-* For example, in a 4-player game:
-  * All of the 1's are played on the stacks.
-  * Bob's has two 5's in his hand in slots 3 and 4. (They were clued with number 5 as a *5 Save* earlier on in the game.)
-  * Alice clues red to Donald, touching a red 1 on his slot 1 as a *Play Clue*.
-  * Bob knows that Donald will think that this red card is red 2. But if a card blind-plays from *Finesse Position*, then Donald will think that the card is red 3. Thus, this must be an *Unknown Trash Discharge*.
-  * Bob does not have a *Third Finesse Position*. (He only has two unclued cards in his hand.)
-  * Thus, Bob knows that this is an *Out-of-Position Unknown Trash Discharge* on Cathy.
-  * Bob discards.
-  * Cathy blind-plays her *Third Finesse Position* and it successfully plays as red 2.
-  * Donald knows that since Cathy blind-played her *Third Finesse Position* card, this must be an *Unknown Trash Discharge* and that his red card is red 1. Donald discards the red 1.
+* *Occupied Focus Inversion* is renamed to *Selfish Focus Inversion*.
 ```
 
 @everyone Variant-specific conventions:
@@ -58,6 +46,8 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
   * Thus, Bob knows that this must be a *Positional Clue*, and he plays his slot 2 card as the pink 5.
 * *Positional Clues* are different from *Pink Choice Tempo Clues* in that they can touch brand new cards. (*Pink Choice Tempo Clues* only re-touch known pink cards.) For this reason, *Positional Clues* can only typically be done at the end of the game when the clue is not likely to be interpreted as anything else.
 ```
+
+
 
 **Reverse Finesse Restriction** (by Florrat)
 
@@ -111,6 +101,28 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
   * Bob knows that if his hand was completely unclued, red would refer to slot 2, since there are 5 slots in the hand and red is the 4th rightmost color. But since Bob's slot 3, slot 4, and slot 5 card already have a clue on it, he should skip over those cards.
   * This means that blue would target slot 2 and green would target slot 1. Yellow would target slot 2 again (because of the wraparound) and red would target slot 1.
   * Bob blind-plays null 1 from slot 1.
+```
+
+@everyone EDIT THIS
+
+**Out-of-Position Unknown Trash Discharge** (by Jeff)
+
+```
+* Normally, players are only allowed to perform a *Discharge* on the very next player (similar to a *Bluff*).
+* However, if a *Unknown Trash Discharge* is performed, and the very next player does not have a *Third Finesse Position*, then they cannot demonstrate to the team that the clued card is trash.
+* In this situation, the *Discharge* is on the next player with a *Third Finesse Position*:
+  * The player being passed over knows that the next player will blind-play, so they can either discard or give an unrelated clue.
+  * After that, the next player should blind-play their card immediately to demonstrate what is going on.
+* For example, in a 4-player game:
+  * All of the 1's are played on the stacks.
+  * Bob's has two 5's in his hand in slots 3 and 4. (They were clued with number 5 as a *5 Save* earlier on in the game.)
+  * Alice clues red to Donald, touching a red 1 on his slot 1 as a *Play Clue*.
+  * Bob knows that Donald will think that this red card is red 2. But if a card blind-plays from *Finesse Position*, then Donald will think that the card is red 3. Thus, this must be an *Unknown Trash Discharge*.
+  * Bob does not have a *Third Finesse Position*. (He only has two unclued cards in his hand.)
+  * Thus, Bob knows that this is an *Out-of-Position Unknown Trash Discharge* on Cathy.
+  * Bob discards.
+  * Cathy blind-plays her *Third Finesse Position* and it successfully plays as red 2.
+  * Donald knows that since Cathy blind-played her *Third Finesse Position* card, this must be an *Unknown Trash Discharge* and that his red card is red 1. Donald discards the red 1.
 ```
 
 @everyone New 2-player conventions:
