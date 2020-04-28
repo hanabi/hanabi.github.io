@@ -44,6 +44,20 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 * This is because it is fairly valuable to get brown cards out of the hand as soon as possible in case blocking cards are drawn.
 ```
 
+**Pink Positional Clues**
+
+```
+* Towards the end of the game, a player may have multiple pink cards in their hand, with one of them being playable. If the playable pink card is in between other pink cards, it can be difficult to "get" the card to play.
+* In cases where a number clue would be nonsensical, it is an indication to the player with two or more pink cards of which slot to play.
+* For example, in a 3-player game:
+  * The pink 4 is played and all of the other 3's are played.
+  * Bob's hand is completely unclued.
+  * Alice clues Bob number 2, touching slot 1, slot 2, and slot 3.
+  * Bob knows that since all of the 3's are already played, this might be a *Trash Chop Move*. If this is the case, slot 1 is focused, and he should discard that card, and then chop move slot 4 and slot 5.
+  * However, Bob also knows that it is near the end of the game and there are no cards left to chop move, so this interpretation does not make much sense.
+  * Thus, Bob knows that this must be a *Positional Clue*, and he plays his slot 2 card as the pink 5.
+```
+
 **Reverse Finesse Restriction** (by Florrat)
 
 ```
