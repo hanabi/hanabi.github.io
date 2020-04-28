@@ -2,7 +2,7 @@
 
 ### Example 1
 
-![Example Screenshot](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/examples/unnecessary_trash_finesse_chop_move.png)
+![Example Screenshot](../img/examples/unnecessary_trash_finesse_chop_move.png)
 
 * It is Jake_Stiles' turn.
 * Jake_Stiles clues number 5 to invarse. That touches the blue 5. Since the blue 5 is one-away from chop, invarse will think that this is a *5's Chop Move*.
