@@ -2431,16 +2431,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * *Ejection* refers to a move like a *Bluff*, but instead of playing an unrelated card from *Finesse Position*, someone plays an unrelated card from their *Second Finesse Position*. For example, if a player's hand hand is completely unclued, their *Second Finesse Position* is slot 2.
 * Certain types of "wasted" clues with no other purpose signal an *Ejection*.
 
-### Known Trash Ejection
-
-* Often times, a player can have one or more cards that are known duplicates / trash. They will discard them it without being told anything further.
-* If a clue is given that **only** touches cards that are already known trash, then it must have some other purpose - it should signal an *Ejection* on the very next player.
-
-### Double Play Ejection
-
-* If a player knows that a card in their hand is playable, and then they receive **another** clue on that card, it is usually a *Fix Clue*, which means that the card is actually bad and they should discard it instead of playing it.
-* However, if this happens on a good card, the other players can see that the clue must have some other purpose - it should signal an *Ejection* on the very next player.
-
 ### The 5 Color Ejection (5CE)
 
 * Normally, if a player gives a color *Play Clue* to a 5, it would mean that it is a *Finesse* on the 5 and all of the cards leading up to the 5 are playable.
@@ -2477,6 +2467,16 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Since a *Stacked Finesse* is impossible, Cathy knows that this must be a *Stacked 5 Color Ejection*.
   * Alice's clue *Finessed* Cathy. So after Alice's clue, Cathy's *Finesse Position* moved to her slot 2 and her *Second Finesse Position* moved to her slot 3.
   * Normally, *Ejection* calls for the *Second Finesse Position*, but in this case, Cathy knows that *Stacked 5 Color Ejections* call for the *First Finesse Position* instead of the *Second Finesse Position*, so Cathy blind-plays slot 2 (instead of slot 3).
+
+### Known Trash Ejection
+
+* Often times, a player can have one or more cards that are known duplicates / trash. They will discard them it without being told anything further.
+* If a clue is given that **only** touches cards that are already known trash, then it must have some other purpose - it should signal an *Ejection* on the very next player.
+
+### Double Play Ejection
+
+* If a player knows that a card in their hand is playable, and then they receive **another** clue on that card, it is usually a *Fix Clue*, which means that the card is actually bad and they should discard it instead of playing it.
+* However, if this happens on a good card, the other players can see that the clue must have some other purpose - it should signal an *Ejection* on the very next player.
 
 ### Junk Ejection (with Trash)
 
