@@ -81,3 +81,18 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 * This convention only applies in variants with a Dark Omni or Gray Pink suit.
 * In situations where there are critical cards behind Dark Omni or Gray Pink cards, you are also allowed to *Fake Save* the cards with any number (either 2, 3, or 4). (Again, *Pink Promise* does not apply to this variant.)
 ```
+
+**Null Color Positional Clue Skips** (by Jeff)
+
+```
+* This convention only applies to variants with a null suit.
+* When determining the slot number of a *Null Positional Clue* that uses a color, you are now supposed to skip over any card with one or more positive clues on it. (But do not skip over the card if it is considered "untouched" from a *Positional Clue*.)
+* For example, in a 3-player game of the "Null (5 Suits)" variant:
+  * All the 1's are played on the stacks except for the null 1.
+  * Bob hand is as follows: red 1, red 1, null 1, blue 1, blue 5
+  * Bob's blue 5 has a number 5 clue on it. (It was clued with a *5 Save* earlier on.)
+  * Alice clues yellow to Cathy, touching a yellow 1.
+  * Bob knows that normally, this would be an *Unknown Trash Discharge*. But all *Discharges* are "turned off" in null variants. Instead, this must be a *Null Positional Clue*.
+  * Bob knows that normally, yellow would refer to slot 4, since there are 5 slots in the hand and yellow is the 2nd rightmost color. But since Bob's slot 5 card already has a clue on it, he should skip over that card. So this must be targeting his slot 3 (e.g. his 2nd rightmost unclued slot).
+  * Bob blind-plays null 1 from slot 3.
+```
