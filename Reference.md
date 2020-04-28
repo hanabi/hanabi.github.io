@@ -2590,7 +2590,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Bob discards.
   * Cathy blind-plays her *Third Finesse Position* and it successfully plays as red 2.
   * Donald knows that since Cathy blind-played her *Third Finesse Position* card, this must be an *Unknown Trash Discharge* and that his red card is red 1. Donald discards the red 1.
-* You are not allowed to perform *Out-of-Position Ejections* or *Out-of-Position Discharges* in reverse.
+* Note that you are not allowed to perform *Out-of-Position Ejections* or *Out-of-Position Discharges* in reverse, unless it is super-obvious what is going on.
 
 ### 5 Number Discharge (5ND)
 
