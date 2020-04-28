@@ -148,3 +148,15 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 * When a *Trash Push* happens in a normal variant, if more than one card is touched, then all of the touched cards are known to be trash.
 * When a *Trash Push* happens with a rank clue in a variant with a pink suit, if more than one card is touched, it is possible that only the card on chop was trash and that the other cards touched are useful / critical pink cards.
 * In this situation, after blind-playing the *Trash Pushed* card, the player should first discard the card that initiated the *Trash Push* (the oldest card) and then hold on to the other touched cards.
+
+### Pink Positional Clues
+
+* Towards the end of the game, a player may have multiple pink cards in their hand, with one of them being playable. If the playable pink card is in between other pink cards, it can be difficult to "get" the card to play.
+* In cases where a number clue would be nonsensical, it is an indication to the player with two or more pink cards of which slot to play.
+* For example, in a 3-player game:
+  * The pink 4 is played and all of the other 3's are played.
+  * Bob's hand is completely unclued.
+  * Alice clues Bob number 2, touching slot 1, slot 2, and slot 3.
+  * Bob knows that since all of the 3's are already played, this might be a *Trash Chop Move*. If this is the case, slot 1 is focused, and he should discard that card, and then chop move slot 4 and slot 5.
+  * However, Bob also knows that it is near the end of the game and there are no cards left to chop move, so this interpretation does not make much sense.
+  * Thus, Bob knows that this must be a *Positional Clue*, and he plays his slot 2 card as the pink 5.
