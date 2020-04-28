@@ -1720,7 +1720,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Bob blind-plays red 2 from his *Finesse Position*, knowing that this is a *Trash Finesse* or *Trash Bluff*.
   * Cathy knows that her 2 is trash. However, she also knows that this *Trash Finesse* was unnecessary, as Alice could have just clued red to Bob. Thus, Cathy knows that this is an *Unnecessary Trash Finesse Chop Move*, so she marks her slot 5 card as *Chop Moved*.
 * Importantly, *Unnecessary Trash Finesse/Bluff Chop Moves* are tricky in that they have information asymmetry: the player who blind-plays will **not** know that the card is chop moved, while everyone else will. All players will have to keep this in mind until the *Chop Move* has been demonstrated.
-* More examples of an *Unnecessary Trash Finesse Chop Move* can be found [here](examples/Unnecessary_Trash_Finesse_Chop_Move.md).
 
 ### The Unnecessary Trash Finesse/Bluff Chop Move (Alternate Form)
 
@@ -2613,6 +2612,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
     * The clue cannot be a *5 Pull*, because the red 3 is two away from playable.
     * If the clue were a *Finesse* on the red 5, Bob would have to blind-play a red 1 and a red 2.
   * Since Bob would have to blind-play two cards into the *Finesse*, he knows that he should instead treat this as a *5 Number Discharge*. Bob blind-plays his slot 3 card and it successfully plays as the red 1.
+* More examples of a *5 Number Discharge* can be found [here](examples/5_Number_Discharge.md).
 
 <br />
 
