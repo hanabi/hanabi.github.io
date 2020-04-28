@@ -2575,13 +2575,11 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Cathy knows that a *Discharge* has occurred from Alice's red clue. Thus, this must be an *Unknown Trash Discharge*, so Cathy's red card must be trash. Cathy marks her red card as red 1 (since that is the only possible trash red card) and discards it.
 * When multiple cards are clued with an *Unknown Trash Discharge*, **only the focus of the clue is considered to be trash**, meaning that *Good Touch Principle* applies to the non-focused cards. (Note that this is **the opposite of the *Trash Bluff***. In a *Trash Bluff*, when multiple cards are clued, **all** of the touched cards are considered to be trash.)
 
-### Out-of-Position Unknown Trash Discharge
+### Out-of-Position Ejection & Out-of-Position Discharge
 
-* Normally, players are only allowed to perform a *Discharge* on the very next player (similar to a *Bluff*).
-* However, if a *Unknown Trash Discharge* is performed, and the very next player does not have a *Third Finesse Position*, then they cannot demonstrate to the team that the clued card is trash.
-* In this situation, the *Discharge* is on the next player with a *Third Finesse Position*:
-  * The player being passed over knows that the next player will blind-play, so they can either discard or give an unrelated clue.
-  * After that, the next player should blind-play their card immediately to demonstrate what is going on.
+* Normally, players are only allowed to perform an *Ejection* or a *Discharge* on the very next player (similar to a *Bluff*).
+* However, if an *Ejection* or a *Discharge* is performed, and the very next player does not have a *Second Finesse Position* or a *Third Finesse Position*, then they cannot demonstrate to the team that an *Ejection* or *Discharge* is occurring.
+* In this situation, the *Ejection* or *Discharge* is on the next player with a *Second Finesse Position* or a *Third Finesse Position*. The player being passed over knows that the next player will blind-play, so they can either discard or give an unrelated clue. After that, the next player should blind-play their card immediately to demonstrate what is going on.
 * For example, in a 4-player game:
   * All of the 1's are played on the stacks.
   * Bob's has two 5's in his hand in slots 3 and 4. (They were clued with number 5 as a *5 Save* earlier on in the game.)
@@ -2592,6 +2590,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Bob discards.
   * Cathy blind-plays her *Third Finesse Position* and it successfully plays as red 2.
   * Donald knows that since Cathy blind-played her *Third Finesse Position* card, this must be an *Unknown Trash Discharge* and that his red card is red 1. Donald discards the red 1.
+* You are not allowed to perform *Out-of-Position Ejections* or *Out-of-Position Discharges* in reverse.
 
 ### 5 Number Discharge (5ND)
 
