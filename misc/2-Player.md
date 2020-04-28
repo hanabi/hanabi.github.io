@@ -77,13 +77,18 @@
 
 ### Self-Bluffs with Color Clues
 
-* Normally, *Self-Bluffs* with color clues are [explicitly illegal](../Reference.md#self-bluffs-with-color-clues-illegal). However, in 2-player games, they are allowed.
+* In non-2-player games, *Self-Bluffs* with color clues are [explicitly illegal](../Reference.md#self-bluffs-with-color-clues-illegal). However, in 2-player games, they are allowed.
 * In other words, if a color clue does not touch a brand-new card and the player who receives the clue knows that the cards touched are not playable, then they know it is a signal to blind-play their *Finesse Position*.
 * Note that you are also allowed to perform a *Self-Bluff* by touching a *Chop Moved* card.
 
 <br />
 
 ## Advanced Conventions
+
+### The Delayed Bluff
+
+* In non-2-player games, *Delayed Bluffs* are explicitly illegal, since they violate [*Good Lie Principle*](../Reference.md#8-good-lie-principle). However, in 2-player games, they are allowed.
+* Note that this convention also applies to *Double Bluffs*. For example, if cluing a 4 at the beginning of the game causes two 1's to blind-play, then the blind-playing player is not promised to have any more playable cards.
 
 ### Scream Discard Modification
 
