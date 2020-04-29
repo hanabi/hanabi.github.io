@@ -16,6 +16,7 @@
 1. [Basic Conventions](#basic-conventions)
 2. [Advanced Conventions](#advanced-conventions)
 3. [Variant-Specific Conventions](#variant-specific-conventions)
+4. [Optional Conventions](#optional-conventions)
 
 <br />
 
@@ -198,3 +199,11 @@
   * Alice knows from context that her blue card cannot be the blue 2, because Bob would have clued it earlier on.
   * Alice knows from context that her blue card is probably not the rainbow 3, because Bob would **not** assume that he has the rainbow 2 from a blue clue.
   * Thus, Alice knows that her blue card must be blue 3. She will hold on to the card for later.
+
+<br />
+
+## Optional Conventions
+
+### Selfish Conventions
+
+Optionally, play clues can have a [different meaning if they are selfish]().
