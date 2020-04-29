@@ -80,9 +80,9 @@ These conventions apply to any variant with an null (touched by no clues) suit.
   * All the 1's are played on the stacks except for the null 1.
   * Bob hand is as follows: red 1, red 1, null 1, blue 1, blue 5
   * Bob's blue 5 has a number 5 clue on it. (It was clued with a *5 Save* earlier on.)
-  * Alice clues yellow to Cathy, touching a yellow 1.
+  * Alice clues green to Cathy, touching a green 1.
   * Bob knows that normally, this would be an *Unknown Trash Discharge*. But all *Discharges* are "turned off" in null variants. Instead, this must be a *Null Positional Clue*.
-  * Bob knows that if his hand was completely unclued, yellow would refer to slot 4, since there are 5 slots in the hand and yellow is the 2nd rightmost color. But since Bob's slot 5 card already has a clue on it, he should skip over that card. So this must be targeting his slot 3 (e.g. his 2nd rightmost unclued slot).
+  * Bob knows that if his hand was completely unclued, green would refer to slot 4, since there are 5 slots in the hand and green is the 2nd rightmost color. But since Bob's slot 5 card already has a clue on it, he should skip over that card. So this must be targeting his slot 3 (e.g. his 2nd rightmost unclued slot).
   * Bob blind-plays null 1 from slot 3.
 
 #### 9) What happens a *Color Positional Clue* is used that goes past slot 1?
