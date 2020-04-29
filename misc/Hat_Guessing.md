@@ -204,21 +204,3 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 ## Variant-Specific Tables
 
 See [Jeff's document](https://github.com/iamwhoiamhahaha/hanabi/blob/master/hat-guessing/Variant-Specific_Hat_Guessing_Tables.md).
-
-## Other Clue Interpretation Tables
-
-### 3 Player Color Blind
-
-| # mod 11 | action    | person clued   | type of clue
-| -------- | --------- | -------------- | --------------
-| 0  (11)  | give clue | 1 player away  | clue blue
-| 1  (12)  | play 1    | 1 player away  | clue green
-| 2  (13)  | play 2    | 1 player away  | clue yellow
-| 3  (14)  | play 3    | 1 player away  | clue red
-| 4  (15)  | play 4    | 1 player away  | clue purple
-| 5  (16)  | play 5    | 1 player away  | clue orange
-| 6  (17)  | discard 1 | 2 players away | clue blue
-| 7  (18)  | discard 2 | 2 players away | clue green
-| 8  (19)  | discard 3 | 2 players away | clue yellow
-| 9  (20)  | discard 4 | 2 players away | clue red
-| 10 (21)  | discard 5 | 2 players away | clue purple
