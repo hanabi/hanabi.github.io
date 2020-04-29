@@ -12,7 +12,7 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 2. [Clue Interpretation Tables](#clue-interpretation-tables)
 3. [Modulus Cheat Sheet](#modulus-cheat-sheet)
 4. [Other Conventions](#other-conventions)
-5. 
+5. [Variant-Specific Tables](#variant-specific-tables)
 
 ## Basic Description
 
