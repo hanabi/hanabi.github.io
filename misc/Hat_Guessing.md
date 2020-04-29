@@ -14,6 +14,8 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 4. [Other Conventions](#other-conventions)
 5. [Variant-Specific Tables](#variant-specific-tables)
 
+<br />
+
 ## Basic Description
 
 * In most Hanabi convention frameworks, you clue cards to tell the player to play that card (or discard that card). In Hat-Guessing, clues have nothing to do with the cards that are "touched" by the clue.
