@@ -6,6 +6,14 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 
 <br />
 
+## Table of Contents
+
+1. [Basic Description](#basic-description)
+2. [Clue Interpretation Tables](#clue-interpretation-tables)
+3. [Modulus Cheat Sheet](#modulus-cheat-sheet)
+4. [Other Conventions](#other-conventions)
+5. 
+
 ## Basic Description
 
 * In most Hanabi convention frameworks, you clue cards to tell the player to play that card (or discard that card). In Hat-Guessing, clues have nothing to do with the cards that are "touched" by the clue.
@@ -71,7 +79,7 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 <tr><td>
 
 | operation | result
-| --- | ---
+| --------- | ------
 | -9 mod 9  | 0
 | -8 mod 9  | 1
 | -7 mod 9  | 2
@@ -85,7 +93,7 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 </td><td>
 
 | operation | result
-| --- | ---
+| --------- | ------
 | 0 mod 9   | 0
 | 1 mod 9   | 1
 | 2 mod 9   | 2
@@ -99,7 +107,7 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 </td><td>
   
 | operation | result
-| --- | ---
+| --------- | ------
 | 9 mod 9   | 0
 | 10 mod 9  | 1
 | 11 mod 9  | 2
@@ -113,7 +121,7 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 </td><td>
   
 | operation | result
-| --- | ---
+| --------- | ------
 | 18 mod 9  | 0
 | 19 mod 9  | 1
 | 20 mod 9  | 2
@@ -190,6 +198,10 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
   * Alice tells Donald to play blue 1, and tells Cathy to discard blue 1.
 
 <br />
+
+## Variant-Specific Tables
+
+See [Jeff's document](https://github.com/iamwhoiamhahaha/hanabi/blob/master/hat-guessing/Variant-Specific_Hat_Guessing_Tables.md).
 
 ## Other Clue Interpretation Tables
 
