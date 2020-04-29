@@ -206,4 +206,4 @@
 
 ### Selfish Conventions
 
-Optionally, play clues can have a [different meaning if they are selfish](https://github.com/iamwhoiamhahaha/hanabi/tree/master/2-player).
+Optionally, play clues can have a [different meaning if they are selfish](https://github.com/iamwhoiamhahaha/hanabi/blob/master/2-player/Selfish_Conventions.md).
