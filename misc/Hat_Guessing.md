@@ -12,7 +12,8 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 2. [Clue Interpretation Tables](#clue-interpretation-tables)
 3. [Modulus Cheat Sheet](#modulus-cheat-sheet)
 4. [Other Conventions](#other-conventions)
-5. [Variant-Specific Tables](#variant-specific-tables)
+5. [Advanced Tables](#advanced-tables)
+6. [Variant-Specific Tables](#variant-specific-tables)
 
 <br />
 
@@ -198,6 +199,12 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 * For example:
   * Cathy and Donald both have a playable blue 1, and no other playable cards.
   * Alice tells Donald to play blue 1, and tells Cathy to discard blue 1.
+
+<br />
+
+## Advanced Tables
+
+See [Jeff's document](https://github.com/iamwhoiamhahaha/hanabi/blob/master/hat-guessing/Advanced_Hat_Guessing.md) for tables that allow *Finesses*.
 
 <br />
 
