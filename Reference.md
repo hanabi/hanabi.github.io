@@ -1782,7 +1782,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 ### The Hard 3 Bluff
 
 * Players can use a 3 to *3 Bluff* the 1 of the same suit.
-* For example, in a 3-player game"
+* For example, in a 3-player game:
   * Nothing is played on the stacks.
   * Alice clues number 3 to Cathy, touching a red 3 on slot 1 as a *Play Clue*.
   * Bob blind-plays red 1.
