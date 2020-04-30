@@ -1406,7 +1406,15 @@ Priority does not always apply. Some common exceptions are listed below.
 
 * *5 Pulls* are also allowed to initiate a *Prompt* or *Finesse*.
 * However, *5 Pulls* are **not** allowed to initiate a *Reverse Finesse*.
-* With that said, players **do** have to respect that forward *5 Pull Finesses* could be *Layered*/*Clandestine*. ("Clandestine" is terminology is covered later on.)
+* With that said, players **do** have to respect that forward *5 Pull Finesses* could be *Layered* or *Clandestine*. ("Clandestine" is terminology is covered later on.)
+* For example, in a 3-player game:
+  * It is the first turn of the game and nothing is played on the stacks.
+  * Cathy's hand is as follows, from newest to oldest: blue 4, blue 4, blue 5, red 2, blue 2
+  * Alice clues number 5 to Cathy, touching a blue 5 on slot 3. Cathy has a red 2 on slot 4.
+  * Bob knows that since the team is the *Early Game*, Alice's clue might be a *5 Stall*. However, Bob also knows that you are only allowed to perform a *5 Stall* if there are no normal *Save Clues* or *Play Clues* to give. Bob sees that Cathy has a blue 2 on chop that could have been saved with a *2 Save*. Thus, Bob knows that Alice's clue cannot not be a *5 Stall*, which makes it a *5 Pull* instead.
+  * Bob knows that if this was a *5 Pull*, it would be pulling the red 2. If Bob does nothing, Cathy might go on to misplay the red 2 as some playable 1.
+  * Thus, this must be a *5 Pull Finesse*, so Bob blind-plays his *Finesse Position*. It is red 1 and it successfully plays.
+  * From Cathy's perspective, she initially concluded that Alice's number 5 clue was just a *5 Stall*. However, Bob blind-played his *Finesse Position* card, and Cathy knows that Bob would not do that if the move was a *5 Stall*. This must be a *5 Pull Finesse*, so Cathy blind-plays her slot 4 card. It is red 2 and it successfully plays.
 
 ### The 5 Pull Promise (A Follow-up Play Clue After a 5 Pull)
 
