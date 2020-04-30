@@ -664,7 +664,7 @@ While the other sections in this document contain lists of special "moves", this
   * Bob blind-plays a red 1.
   * This must be a *Bluff*, because **red does not match blue**. So Cathy should think that she has the one-away from playable blue card, blue 3.
   * This is a textbook *Bluff*; you can't get any more basic than this.
-* Example 3 (color match):
+* Example 3 (color match with rainbow):
   * This is a game with a rainbow suit. (The other examples in this section assume a "No Variant" game.)
   * Rainbow 1 is played on the stacks.
   * Alice clues Cathy about a blue card.
