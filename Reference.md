@@ -2435,7 +2435,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Thus, Alice performs a *Scream Discard*, discarding instead of playing the known-playable blue 2.
   * Bob knows that Alice performed a *Scream Discard*, so he marks his chop card as *Chop Moved*.
   * Bob also knows that, as per the *Scream Discard* rules, he is not allowed to discard on this turn, and must give some clue instead (in case he has two critical cards in a row).
-  * However, in this case, if Bob did that, then Bob would be using the last clue, and then Cathy would not have a clue available and would be forth to discard a critical card.
+  * However, in this case, if Bob did that, then Bob would be using the last clue, and then Cathy would not have a clue available and would be forced to discard a critical card.
   * Thus, Bob knows that he must perform a *Rebellious Discard* in order to provide a clue for Cathy to do something.
 
 ### The Double Scream Discard Chop Move
