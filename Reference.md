@@ -2425,6 +2425,18 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * Part of the *Scream Discard* convention states that after a *Scream Discard*, the next player **cannot** discard. Thus, a player in this situation must completely waste a clue if there is nothing productive to do.
 * However, in some situations, the player who has been screamed at sees that if they give a clue, the next player will be left at 0 clues and will be forced to discard a critical card.
 * Thus, in this situation, the player should *Chop Move* as normal and then discard their new chop, which will functionally act as a second *Scream Discard*. This second *Scream Discard* is called a *Rebellious Discard*, because they are not doing what they are told.
+* For example, in a 3-player game:
+  * Red 4 is in the discard pile.
+  * There are 0 clues available.
+  * Alice has a known-playable blue 2.
+  * Bob has a red 4 on chop. Bob has no playable cards in his hand.
+  * Cathy's hand is *Locked*. All of the cards in Cathy's hand are critical. None of these cards are playable.
+  * Alice looks into the future and sees that if she plays the blue 2, Bob will be forced to discard the critical red 4, since the team is currently at 0 clues.
+  * Thus, Alice performs a *Scream Discard*, discarding instead of playing the known-playable blue 2.
+  * Bob knows that Alice performed a *Scream Discard*, so he marks his chop card as *Chop Moved*.
+  * Bob also knows that, as per the *Scream Discard* rules, he is not allowed to discard on this turn, and must give some clue instead (in case he has two critical cards in a row).
+  * However, in this case, if Bob did that, then Bob would be using the last clue, and then Cathy would not have a clue available and would be forth to discard a critical card.
+  * Thus, Bob knows that he must perform a *Rebellious Discard* in order to provide a clue for Cathy to do something.
 
 ### The Double Scream Discard Chop Move
 
