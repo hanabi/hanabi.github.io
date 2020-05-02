@@ -1236,7 +1236,7 @@ Priority does not always apply. Some common exceptions are listed below.
   * All of the 2's are played on the stacks.
   * Bob's hand is completely unclued.
   * Alice clues Bob about one red card on slot 1 as a *Play Clue*.
-  * Bob assumes that it is red 3 and immediately plays the card. However, it is actually red 1 and misplays.
+  * Bob assumes that it is red 3 and immediately plays the card. However, it is actually red 4 and misplays.
   * Bob knows that Alice is trying to communicate something special to Bob. Similar to a *Trash Chop Move*, Bob now knows that multiple cards in his hand are important. He marks slot 2, slot 3, slot 4, and slot 5 as being *Chop Moved*.
 * The *Misplay Chop Move* is the most costly type of chop move, so it should only be performed in a situation where no other kind of *Chop Move* would work.
 
