@@ -2142,7 +2142,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * However, players **can** rarely break the *Bluff Seat* rule if one of the following is true:
   * 1) The next player is at 0 clues (and won't blind-play anything / will blind-play an unrelated card).
   * 2) The next player will think that they have the *Bluffed* card in their own hand and will not try to *Finesse* or *Bluff* the next player. (In this case, the *Bluffed* card means the card that will blind-play, not the "in-between" card.)
-  * 3) The next player has enough postiive or negative clues on their entire hand to know that they cannot have the matching card.
+  * 3) The next player has enough postive or negative clues on their entire hand to know that they cannot have the matching card.
 * Essentially, if #1 or #2 is true, then the next player cannot act on their state of misinformation. And if it is #3, then the next player will have full knowledge that a lie is occurring, so they will not mess anything up.
 * Since valid *Reverse Bluffs* are so rare, it is important to remember that:
   * Valid *Reverse Bluffs* take precedence over *Known Bluffs*. In other words, if Alice performs something that could be a *Known Bluff* or a *Reverse Bluff*, and Bob can see that Cathy has a playable card on her *Finesse Position*, he should assume that it is a *Reverse Bluff* instead of a *Known Bluff*.
