@@ -1290,7 +1290,7 @@ Priority does not always apply. Some common exceptions are listed below.
   1) Does the clue "match" the blind-play? If it matches, then it is a *Finesse*. If it doesn't match, then it is a *Bluff*. Red matches red, but red does **not** match blue. 2 matches 3, but 1 does **not** match 3.
   2) Will the player who received the clue go on to misplay if nothing else is blind-played? If yes, then it is a *Finesse*. If no, then it is a *Bluff*.
 
-### Discard Elimination & The Elimination Blind-Play
+### Discard Elimination & Elimination Notes & The Elimination Blind-Play
 
 * Normally, your teammates would never let you discard anything important. So when you discard some playable card (or a needed 2) **and** that card is not in anyone else's hand, you might think that the team make a mistake.
 * From *High Value Principle*, you should never assume your teammates are making a mistake. One excellent reason that they would let you discard an important card is that you have the other copy in your hand. (In order to satisfy *Good Touch Principle*, they had to wait for you to discard it so that they would not duplicate the card.)
@@ -1300,12 +1300,12 @@ Priority does not always apply. Some common exceptions are listed below.
   * Alice has a completely unclued hand.
   * Alice discards her chop (slot 5). It is a (playable) red 4.
   * Alice knows that the team was not busy, so she must have the other copy of red 4.
-  * Alice writes *Elimination Notes* on slots 2, 3, 4, and 5. (It can't be on slot 1, since that is the card she just drew.)
+  * Alice writes a note of "r4?" on slots 2, 3, 4, and 5. (It can't be on slot 1, since that is the card she just drew.)
   * Bob clues Alice red, which touches a card on slot 1 and slot 2.
-  * Normally, Alice would play the left-most card (slot 1) as red 4. However, because of the *Elimination Notes*, she knows that the red 4 must be on slot 2.
-  * However, the focus of the clue is on slot 1, so slot 1 must also be playable.
-  * Alice plays red 4 first from slot 2. Since the red 5 is the only good red card left, Alice can assume that her other red card is red 5, and can play it on the next turn.
-* In other situations, your teammates will choose to **not** to clue the card directly. But once the *Elimination Notes* are whittled down, you should be able to blind-play it.
+  * Normally, Alice would play the left-most card (slot 1) as red 4. However, because of her notes, she knows that the red 4 must actually be on slot 2.
+  * Alice successfully plays red 4 from slot 2. Since the red 5 is the only good red card left, Alice can assume that her other red card is red 5 (from *Good Touch Principle*), and can play it on the next turn.
+* In this example, the "r4?" notes that Alice writes are called *Elimination Notes*. *Elimination Notes* are notes that represent the possible slots for a specific card.
+* In the last example, the team clued the red 4 directly. But in other situations, the team will **not** clue anything. This means that the player with the *Elimimation Notes* can eliminate the notes one by one and eventually blind-play the card as an *Elimination Blind-Play*.
 * For example, in a 4-player game:
   * Red 3 is played on the stacks.
   * Alice has a completely unclued hand.
