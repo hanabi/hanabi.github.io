@@ -1299,24 +1299,25 @@ Priority does not always apply. Some common exceptions are listed below.
   * Red 3 is played on the stacks.
   * Alice has a completely unclued hand.
   * Alice discards her chop (slot 5). It is a (playable) red 4.
-  * Alice knows that the team was not busy, so she must have the other copy of red 4.
+  * Alice gasps in surprise - she knows that everyone on the team agrees to not let each other discard playable cards (*Save Principle*).
+  * Alice knows that the team was not in a dire situation or anything, so the only explanation is that she must have the other copy of the red 4.
   * Alice writes a note of "r4?" on slots 2, 3, 4, and 5. (It can't be on slot 1, since that is the card she just drew.)
   * Bob clues Alice red, which touches a card on slot 1 and slot 2.
-  * Normally, Alice would play the left-most card (slot 1) as red 4. However, because of her notes, she knows that the red 4 must actually be on slot 2.
-  * Alice successfully plays red 4 from slot 2. Since the red 5 is the only good red card left, Alice can assume that her other red card is red 5 (from *Good Touch Principle*), and can play it on the next turn.
+  * Normally, Alice would play the left-most card (slot 1) as the red 4. However, because of her notes, she knows that the red 4 must actually be on slot 2.
+  * Alice successfully plays red 4 from slot 2. Since the red 5 is the only good red card left, Alice can assume that her other red card is red 5 (from *Good Touch Principle*), and she can play it on the next turn.
 * In this example, the "r4?" notes that Alice writes are called *Elimination Notes*. *Elimination Notes* are notes that represent the possible slots for a specific card.
-* In the last example, the team clued the red 4 directly. But in other situations, the team will **not** clue anything. This means that the player with the *Elimimation Notes* can eliminate the notes one by one and eventually blind-play the card as an *Elimination Blind-Play*.
+* In the last example, the team clued the red 4 directly. But in other situations, the team will **not** clue anything. This means that the player with the *Elimimation Notes* can eliminate the notes one by one. Eventually, when all of the *Elimination Notes* are eliminated except for one card, then the player can blind-play the card as an *Elimination Blind-Play*.
 * For example, in a 4-player game:
   * Red 3 is played on the stacks.
   * Alice has a completely unclued hand.
   * Alice discards her chop (slot 5). It is a (playable) red 4.
-  * Alice knows that the team was not busy, so she must have the other copy of red 4.
-  * Alice writes *Elimination Notes* on slots 2, 3, 4, and 5. (It can't be on slot 1, since that is the card she just drew.)
+  * Alice knows that the team was not in a dire situation or anything, so the only explanation is that she must have the other copy of the red 4.
+  * Alice writes "r4?" *Elimination Notes* on slots 2, 3, 4, and 5. (It can't be on slot 1, since that is the card she just drew.)
   * Bob clues Alice blue, which touches slots 1, 2, 3, and 4. (This is a *Play Clue* on slot 1.)
   * Alice erases her *Elimination Notes* from slots 2, 3, and 4.
   * The only card left with an *Elimination Note* is slot 5.
-  * Alice blind-plays red 4 from slot 5 on her next turn.
-* One last thing to note is that players should not always make *Elimination Notes* when they discard a playable card. In rare cases, games can be extremely busy, leaving no reasonable way to get the playable card, so you always have to keep that in mind.
+  * Alice can now blind-play the red 4 when it gets to her turn as an *Elimination Blind-Play*.
+* Note that players should not always make *Elimination Notes* when they discard a playable card. In some cases, games can be extremely busy, leaving no reasonable way to get the playable card. Players must just their best judgement and account for this.
 
 ### The Elimination Play Clue
 
