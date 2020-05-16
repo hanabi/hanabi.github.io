@@ -12,7 +12,7 @@ These conventions apply to the "Duck" variants.
 ### Inverted Tempo Clues
 
 * Normally, if a *Save Clue* is given to two cards, and then the cards are re-touched, it is a *Double Tempo Clue* and both the cards should play from left to right, even if one of the cards was on chop.
-* In Duck, the older card should play first in exactly the same way as the *[Brown Inversion](Brown.md#brown-inversion)*.
+* In Duck, the older card should play first. (This is exactly the same thing as the *[Brown Inversion](Brown.md#brown-inversion)* convention.)
 
 ### Chop Saves
 
@@ -69,7 +69,8 @@ These conventions apply to the "Duck" variants.
   * Alice clues Bob about two cards on slot 1 and slot 2.
   * Bob plays slot 1. It is a red 1.
   * Bob knows that because of the *1's Promise, the card on his slot 2 must also be a 1.
-  * Cathy sees that Bob was clued about a red 1 and a red 3. Cathy knows that because of the *1's Promise*, Bob will misplay the red 3 when it gets to his turn.
+  * Cathy sees that Bob was clued about a red 1 and a red 3. Cathy also sees that it was clearly possible to give a number 1 clue to Bob.
+  * Cathy knows that Bob's clue choice was quite strange: because of the *1's Promise*, Bob will misplay the red 3 when it gets to his turn. Thus, this must be a *Finesse*.
   * Cathy blind-plays her *Finesse Position* as red 2.
 
 ### 5 Ejection
