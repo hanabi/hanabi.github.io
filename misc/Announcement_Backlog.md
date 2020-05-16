@@ -6,23 +6,6 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 
 ## The Backlog
 
-@everyone Renamed conventions:
-
-**Selfish Focus Inversion** (by IAMJEFF)
-
-```
-* *Occupied Focus Inversion* is renamed to *Selfish Focus Inversion*.
-```
-
-@everyone New conventions:
-
-**Out-of-Position Ejections & Discharges** (by Zamiel & IAMJEFF)
-
-```
-* The *Out-of-Position Unknown Trash Discharge* section in the document is deleted. Now, all *Ejections* and *Discharges* can be performed out-of-position.
-* Note that it is still illegal to perform an *Out-of-Position Ejection* or *Out-of-Position Discharge* in reverse, unless it is super-obvious what is going on.
-```
-
 @everyone Variant-specific conventions:
 
 **Pink Tempo Clues**
@@ -39,21 +22,6 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 * This convention only applies to variants with a brown suit.
 * If a player gives a *Tempo Clue* to a brown card, it is never a *Tempo Clue Chop Move*, even if it only gets one card played.
 * This is because it is fairly valuable to get brown cards out of the hand as soon as possible in case blocking cards are drawn.
-```
-
-**Pink Positional Clues**
-
-```
-* Towards the end of the game, a player may have multiple pink cards in their hand, with one of them being playable. If the playable pink card is in between other pink cards, it can be difficult to "get" the card to play.
-* In cases where a number clue would be nonsensical, it is an indication to the player with two or more pink cards of which slot to play.
-* For example, in a 3-player game:
-  * The pink 4 is played and all of the other 3's are played.
-  * Bob's hand is completely unclued.
-  * Alice clues Bob number 2, touching slot 1, slot 2, and slot 3.
-  * Bob knows that since all of the 3's are already played, this might be a *Trash Chop Move*. If this is the case, slot 1 is focused, and he should discard that card, and then chop move slot 4 and slot 5.
-  * However, Bob also knows that it is near the end of the game and there are no cards left to chop move, so this interpretation does not make much sense.
-  * Thus, Bob knows that this must be a *Positional Clue*, and he plays his slot 2 card as the pink 5.
-* *Positional Clues* are different from *Pink Choice Tempo Clues* in that they can touch brand new cards. (*Pink Choice Tempo Clues* only re-touch known pink cards.) For this reason, *Positional Clues* can only typically be done at the end of the game when the clue is not likely to be interpreted as anything else.
 ```
 
 **Muddy Rainbow Saves**
