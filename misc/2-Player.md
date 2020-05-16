@@ -207,3 +207,7 @@
 ### Selfish Conventions
 
 Optionally, play clues can have a [different meaning if they are selfish](https://github.com/iamwhoiamhahaha/hanabi/blob/master/2-player/Selfish_Conventions.md).
+
+### Number Mute
+
+Optionally, you can play with [specific conventions](https://github.com/iamwhoiamhahaha/hanabi/blob/master/2-player/Number_Mute_Conventions.md) for "Number Mute" variants.
