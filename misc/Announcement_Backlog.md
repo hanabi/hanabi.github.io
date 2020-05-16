@@ -85,6 +85,8 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
   * Bob blind-plays null 1 from slot 1.
 ```
 
+## 2-Player Backlog
+
 @everyone New 2-player conventions:
 
 **Self-Bluffs with Color Clues** (by Jeff)
@@ -108,4 +110,11 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 * This convention only applies to variants with a one-of-each suit where *One-Away Saves* are turned off.
 * Normally, we are only allowed to save black cards on chop. So, if a black clue is performed on a black card that is not on chop, and it is not a stalling situation, then it will normally look like a *Play Clue* on that black card.
 * However, if the black card is one-away from chop, and there is context to know that the card is not playable, then the clue is not a *Play Clue* at all. Instead, it is understood that the clue is a *Dark Chop Move*, and the player should *Chop Move* in a manner similar to the *5's Chop Move*.
+```
+
+**4 Bluffs**
+
+```
+* In non-2-player games, you are not allowed to use a 4 to perform a *Bluff*. (*Bluffs* must be on one-away-from-playable cards or on 3's.)
+* In 2-player games, you are allowed to perform a *Bluff* by using a 4.
 ```
