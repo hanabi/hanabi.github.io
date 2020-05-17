@@ -4,6 +4,11 @@ These conventions apply to any variant with a muddy rainbow suit or a cocoa rain
 
 <br />
 
+### Muddy Rainbow Inversion
+
+* Muddy rainbow cards are like brown cards. This means that *Brown Inversion* also applies to muddy rainbow cards.
+* This means that when multiple muddy rainbow cards are re-clued with **any** color clue, it only means to play the right-most one and nothing else.
+
 ### Muddy Rainbow Saves
 
 * Since muddy rainbow 2 cannot be *2 Saved* and and muddy rainbow 5 cannot be *5 Saved*, there needs to be a separate way to save these cards.
