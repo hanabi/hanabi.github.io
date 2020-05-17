@@ -40,7 +40,7 @@ These conventions apply to the following variants:
   * Bob tries to blind-play red 1 from his *Finesse Position*, but he instead blind-plays the blue 1.
   * Cathy sees that Donald will go on to misplay the red 2 as the blue 2. Thus, this must be a *Double Bluff*, so Cathy blind-plays her *Finesse Position* card. It is a green 1 and it successfully plays.
   * Donald knows that he cannot have the blue 2, or else Cathy would not have done anything special. Donald's card can be any one-away-from-playable card in the game.
-* *Double Half-Bluffs* are explicitly outlawed. In other words, the first blind-play from a *Double Bluff* must be completely unrelated to the card that was clued.
+* *Double Half-Bluffs* are explicitly outlawed. In other words, the first blind-play from a *Double Bluff* must be completely unrelated to the card that was clued. (This is so that the clue-reciever will have more specific information.)
 
 ### 5 Ejection
 
