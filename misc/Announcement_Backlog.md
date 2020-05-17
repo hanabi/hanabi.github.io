@@ -120,6 +120,14 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
   * Bob blind-plays null 1 from slot 1.
 ```
 
+**Advanced Conventions for Variant with No Positive Clues**
+
+```
+* Various conventions for Duck have been deleted / reformulated.
+* We now have a framework that is used for any variant with no positive clues (e.g. Extremely Ambiguous, Duck, etc.).
+* For more information, please see: https://github.com/Zamiell/hanabi-conventions/blob/master/variant-specific/No_Positive_Clues.md
+```
+
 ## 2-Player Backlog
 
 @everyone New 2-player conventions:
