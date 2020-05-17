@@ -2610,6 +2610,23 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Cathy knows that some kind of *Ejection* is going on, since Bob blind-played his *Second Finesse Position*. Since the previous action was a *Gentleman's Discard*, this must be a *Gentleman's Discard Ejection*, which means that Cathy's red 2 is on her *Second Finesse Position* instead of her *First Finesse Position*.
   * Cathy blind-plays the red 2.
 
+### Out-of-Position Ejection
+
+* Normally, players are only allowed to perform an *Ejection* on the very next player (similar to a *Bluff*).
+* However, if an *Ejection* is performed, and the very next player does not have a *Second Finesse Position*, then they cannot demonstrate to the team that an *Ejection* is occurring.
+* In this situation, the *Ejection* is on the next player with a *Second Finesse Position*. The player being passed over knows that the next player will blind-play, so they can either discard or give an unrelated clue. After that, the next player should blind-play their card immediately to demonstrate what is going on.
+* For example, in a 4-player game:
+  * All of the 1's are played on the stacks.
+  * Bob's has three 5's in his hand in slot 2, slot 3, and slot 4. (They were clued with number 5 as a *5 Save* earlier on in the game.)
+  * Alice clues red to Donald, touching a red 5 on his slot 1 as a *Play Clue*.
+  * Bob does not see any connecting red cards in anybody's hand. Since the red 5 is three-away-from-playable, Bob knows that this must be a *5 Color Ejection*.
+  * However, Bob does not have a *Second Finesse Position*. (He only has one unclued card in his hand.)
+  * Thus, Bob knows that this is an *Out-of-Position 5 Color Ejection* on Cathy.
+  * Bob discards.
+  * Cathy blind-plays her *Second Finesse Position* and it successfully plays as red 2.
+  * Donald knows that since Cathy blind-played her *Second Finesse Position* card, this must be a *5 Color Ejection* and that his red card is the red 5.
+* Note that you are not allowed to perform *Out-of-Position Ejections* in reverse, unless it is super-obvious what is going on.
+
 <br />
 
 ## Level 5 - Rarely Used Strategies (Discharge)
@@ -2635,23 +2652,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Cathy knows that a *Discharge* has occurred from Alice's red clue. Thus, this must be an *Unknown Trash Discharge*, so Cathy's red card must be trash. Cathy marks her red card as red 1 (since that is the only possible trash red card) and discards it.
 * When multiple cards are clued with an *Unknown Trash Discharge*, **only the focus of the clue is considered to be trash**, meaning that *Good Touch Principle* applies to the non-focused cards. (Note that this is **the opposite of the *Trash Bluff***. In a *Trash Bluff*, when multiple cards are clued, **all** of the touched cards are considered to be trash.)
 
-### Out-of-Position Ejection & Out-of-Position Discharge
-
-* Normally, players are only allowed to perform an *Ejection* or a *Discharge* on the very next player (similar to a *Bluff*).
-* However, if an *Ejection* or a *Discharge* is performed, and the very next player does not have a *Second Finesse Position* or a *Third Finesse Position*, then they cannot demonstrate to the team that an *Ejection* or *Discharge* is occurring.
-* In this situation, the *Ejection* or *Discharge* is on the next player with a *Second Finesse Position* or a *Third Finesse Position*. The player being passed over knows that the next player will blind-play, so they can either discard or give an unrelated clue. After that, the next player should blind-play their card immediately to demonstrate what is going on.
-* For example, in a 4-player game:
-  * All of the 1's are played on the stacks.
-  * Bob's has two 5's in his hand in slots 3 and 4. (They were clued with number 5 as a *5 Save* earlier on in the game.)
-  * Alice clues red to Donald, touching a red 1 on his slot 1 as a *Play Clue*.
-  * Bob knows that Donald will think that this red card is red 2. But if a card blind-plays from *Finesse Position*, then Donald will think that the card is red 3. Thus, this must be an *Unknown Trash Discharge*.
-  * Bob does not have a *Third Finesse Position*. (He only has two unclued cards in his hand.)
-  * Thus, Bob knows that this is an *Out-of-Position Unknown Trash Discharge* on Cathy.
-  * Bob discards.
-  * Cathy blind-plays her *Third Finesse Position* and it successfully plays as red 2.
-  * Donald knows that since Cathy blind-played her *Third Finesse Position* card, this must be an *Unknown Trash Discharge* and that his red card is red 1. Donald discards the red 1.
-* Note that you are not allowed to perform *Out-of-Position Ejections* or *Out-of-Position Discharges* in reverse, unless it is super-obvious what is going on.
-
 ### 5 Number Discharge (5ND)
 
 * This convention only applies in the *Early Game*.
@@ -2673,6 +2673,11 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
     * If the clue were a *Finesse* on the red 5, Bob would have to blind-play a red 1 and a red 2.
   * Since Bob would have to blind-play two cards into the *Finesse*, he knows that he should instead treat this as a *5 Number Discharge*. Bob blind-plays his slot 3 card and it successfully plays as the red 1.
 * More examples of a *5 Number Discharge* can be found [here](examples/5_Number_Discharge.md).
+
+### Out-of-Position Discharge
+
+* First, see [Out-of-Position Ejection](#out-of-position-ejection).
+* Just like OOP *Ejection*, it is possible to do OOP *Discharge* in the exact same way.
 
 <br />
 
