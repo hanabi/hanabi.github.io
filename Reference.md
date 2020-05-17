@@ -830,7 +830,7 @@ While the other sections in this document contain lists of special "moves", this
 * What is the point of having a complicated table with defined priorities? Well, normally, players in stalling situations are not able to give tricky-looking *Finesses*, because everyone else on the team will think that they are giving a stall clue. However, if it can be seen that there is a better clue available for them to give, then everyone can know that they are **not** giving a stall clue. Thus, because of this precedence table, players in stalling situations are still often able to make *Finesses* happen.
 * Obviously, stall clues are not allowed when the player has a known playable card in their hand.
 
-### Locked Hands & The Locked Hand Save (L.H.S. / LHS) (Severity 3 Stalling)
+### Locked Hands & The Locked Hand Save (LHS) (Severity 3 Stalling)
 
 * Generally speaking, it is a bad situation when someone's hand gets fully clued. This is also known as being *Locked*, and it should be avoided if possible. However, sometimes it cannot be helped, like when a player draws three 5's in a row.
 * A player with a *Locked Hand* may give a low-value clue because they are not sure that they can play anything (and they can't discard because their hand is fully clued). Similar to a *Double Discard* situation, players should not read too closely into any clues given during this state.
@@ -1183,7 +1183,7 @@ Priority does not always apply. Some common exceptions are listed below.
   1) To better satisfy *Team Distribution Principle*. It makes sense to transfer a card out of a locked / almost locked hand to a player with an "empty" hand or a hand that only has one card clued in it.
   2) You want to protect your own chop. If you discard your chop, the team could be losing some high-value one-away from playable card. But if you transfer a card to someone else, it gives you something "safe" to do.
 
-### The Certain Finesse / The Certain Discard
+### The Certain Finesse & The Certain Discard
 
 * Imagine that in a 3-player game:
   * Red 2 is played on the stacks.
@@ -1543,7 +1543,7 @@ Priority does not always apply. Some common exceptions are listed below.
 * Level 4 strategies should only be learned if you have played with the group for two to three weeks or longer. (100+ games of experience or more.)
 * This level covers moves that are complicated, difficult to see, or require a deeper understanding of how Hanabi works in order to work properly.
 
-### The Occupied Play Clue & The Occupied Finesse (O.P.C. / OPC)
+### The Occupied Play Clue & The Occupied Finesse (OPC)
 
 * If a clue could be given by multiple players, who should give the clue? Usually, it makes the most sense for the players with playable cards to play those cards, and the players with nothing to do to give the clue.
 * If someone gives a clue with a playable card in their hand and this forces the next player to have nothing to do, this is bad teamwork - unless there was a reason!
@@ -1650,7 +1650,7 @@ Priority does not always apply. Some common exceptions are listed below.
 
 There are a lot of different moves that involve cluing trash. [Here is a handy flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/flowcharts/cluing_trash_flowchart.png) for determining the difference between the different types of special moves that touch trash. (The flowchart contains some strategies that have not been covered yet, but the three most important moves to understand are the *Trash Chop Move*, the *Trash Finesse/Bluff*, and the *Trash Push*.)
 
-### The Out-of-Order Finesse (Triple O / OOO / O.O.O.)
+### The Out-of-Order Finesse (Triple O / OOO)
 
 * Sometimes, a *Finesse* is initiated by giving a color clue to two or more cards where the next card in the sequence is clued, but it is **not** the focus of the clue.
 * When this happens, the *Finesse* will still work: a player will blind-play a matching card. However, a *Fix Clue* must then be given to the player who originally received the clue, or they will go on to misplay.
@@ -1743,6 +1743,12 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Bob blind-plays red 2 from his *Finesse Position*, knowing that this is a *Trash Finesse* or *Trash Bluff*.
   * Cathy knows that her 2 is trash. However, she also knows that this *Trash Finesse* was unnecessary, as Alice could have just clued red to Bob. Thus, Cathy knows that this is an *Unnecessary Trash Finesse Chop Move*, so she marks her slot 5 card as *Chop Moved*.
 * Importantly, *Unnecessary Trash Finesse/Bluff Chop Moves* are tricky in that they have information asymmetry: the player who blind-plays will **not** know that the card is chop moved, while everyone else will. All players will have to keep this in mind until the *Chop Move* has been demonstrated.
+
+### The Unnecessary Unknown Trash Discharge Chop Move (UUTDCM)
+
+* First, see the *[Unnecessary Trash Finesse/Bluff Chop Move](#the-unnecessary-trash-finessebluff-chop-move)*.
+* This same concept applies to *Unknown Trash Discharge*. In other words, if an unnecessary *Unknown Trash Discharge* is performed, then the player who receives the clue should *Chop Move* in the same way as the *Unnecessary Trash Finesse/Bluff Chop Move*.
+* Note that this convention **only** applies if it touches exactly **one** trash card. (This is because we want players to have the ability to perform 2-for-1 UTDs without promising a *Chop Move*.)
 
 <br />
 
@@ -1857,7 +1863,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * Normally, players can perform any particular type of *Finesse* either by giving a clue or by playing a card without *Priority*. For example, it is possible to both do a *Layered Finesse* (by giving a clue) and a *Layered Priority Finesse* (by playing a card).
 * One exception to this rule is the *Certain Finesse*. When a player perform a *Certain Finesse*, it calls for a *Certain Discard*. However, when a player uses *Priority* to promise a card that could potentially be in their own hand, this should **not** induce a *Certain Discard*. The other players in this situation should just ignore the *Priority* and instead discard their chop card. (Doing it this way is much safer because it allow potential *Layered Finesses* as well as some slack for mistakes.)
 
-### The Elimination Bluff / The Elimination Layered Finesse
+### The Elimination Bluff & The Elimination Layered Finesse
 
 * It is possible to lie to a player who has *Elimination Notes* on their hand and pretend like you are performing an *Elimination Finesse* on them, causing them to play their oldest card as per the convention. This can cause an unrelated playable card to play.
 * If the player who performed the clue was in *Bluff Seat*, then it is to be treated like a *Bluff*, and thus they will not know where the actual *Elimination Card* is. (However, in most cases, at this point there will only be one remaining card with an *Elimination Note* on it, so it won't matter.)
@@ -2157,7 +2163,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Cathy immediately blind-plays her *Finesse Position* card and it is the red 4.
   * Bob sees Cathy blind-play the next red card for seemingly no reason, so he is able to deduce that his slot 2 card is trash.
 
-### The Out-of-Position Bluff (O.O.P. / OOP)
+### The Out-of-Position Bluff (OOP)
 
 * Similar to a *Reverse Finesse*, it is possible to perform a *Reverse Bluff*. However, according to *Good Lie Principle*, you are only allowed to lie to the player who comes immediately after you, so this is illegal.
   * Why this policy? It is not possible to play with both *Layered Finesses* and *Reverse Bluffs* at the same time, and *Layered Finesses* are much better.
@@ -2293,7 +2299,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * Care has to be taken that the other player (e.g. the player who is not *Purge Bluffed*) will understand what is going on. For example, they might think that a *Patch Finesse* is happening. Thus, *Purge Bluffs* can only be done in expert games where there is **no other possible interpretation for what is happening**.
 * Examples of a *Purge Bluff* can be found [here](examples/Purge_Bluff.md).
 
-### Suboptimal Finesses / Choice Finesses
+### Suboptimal Finesses & Choice Finesses
 
 * The following *Finesses* and *Bluffs* are triggered by performing a suboptimal clue or by picking a strange choice for a clue.
 
@@ -2362,7 +2368,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * Since players often perform *Burn* clues for stalling purposes in the *End-Game*, care has to be taken to not confuse a normal *Burn* clue with a *Trash Pull*. This is especially true if there was nothing else obvious for the clue giver to do!
 * *Trash Pulls* should typically be used as a last-resort since they might be misinterpreted.
 
-### The 5 Double Pull / The Double 5 Pull
+### The 5 Double Pull & The Double 5 Pull
 
 * This convention only applies in the *Early Game*.
 * Normally, in the *Early Game*, it is impossible to perform a *5 Pull* on a chop card, because it will instead be interpreted as an an *Early 5's Chop Move*. In this situation, players will almost always just give a direct *Chop-Focus Play Clue* (and then give a *5 Save* to the 5 later on).
@@ -2600,7 +2606,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * *Discharge* is similar to *Ejection*, except instead of blind-playing the *Second Finesse Position* card, the player plays the *Third Finesse Position* card.
 * Certain types of **really** bad clues cause a *Discharge* to occur on the very next player.
 
-### Unknown Trash Discharge (U.T.D. / UTD)
+### Unknown Trash Discharge (UTD)
 
 * In general, *Bluffs* work because the player who received the clue knows that they have a one-away-from-playable card of that color.
 * If none of the stacks are finished and someone clues a trash card, it might look like a *Trash Bluff*. But, if the *Finesse Position* card is played, then the player will think that a normal *Bluff* has occurred. So that wouldn't work.
@@ -2740,7 +2746,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Thus, the focus of the clue would be on the card outside of the layer (purple 2), being a *Play Clue* on purple 2.
   * In this hypothetical, Zamiel would immediately blind-play slot 2 as yellow 1. On his subsequent turns, he would play purple 1, purple 2, and yellow 3 (in that order).
 
-### The Just-In-Time Fix Clue (To Fix a Layered Finesse with a Lie Component) (JIT / J.I.T.)
+### The Just-In-Time Fix Clue (To Fix a Layered Finesse with a Lie Component) (JIT)
 
 * When performing a *Layered Finesse* with a *Lie Component*, if the plan is to give a *Fix Clue* to the *Finesse Target* card (the "final" card that is to be blind-played), then it is important to wait until the **last** moment to give the *Fix Clue*. This is because after receiving the *Fix Clue*, the player will not play any more blind cards.
 * Thus, you should first wait for all of the "good" blind cards to play, and **then** give the *Fix Clue* to the *Finesse Target*, so that it comes "just in time" before the misplay.
@@ -2807,7 +2813,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Bob performs a *Certain Discard* on his *Finesse Position* card and it is the red 3, successfully passing it back to Alice.
 * If someone performs a *Certain Discard* and you have two or more clued cards that could be the target, then you are not promised the order, only that you have the card clued somewhere in your hand. (This part works in the exact same way as a more-ordinary *Sarcastic Discard*.)
 
-### Selfish Focus Inversion (S.F.I. / SFI)
+### Selfish Focus Inversion (SFI)
 
 * First, see the *[Selfish Clue](#the-selfish-clue)*.
 * Normally, when a player gives a *Selfish Clue*, they are doing it because no-one else on the team can perform the clue and they want to "lock-in" the value.
