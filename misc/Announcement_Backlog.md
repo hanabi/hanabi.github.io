@@ -28,10 +28,20 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 
 @everyone Changed conventions:
 
-**Selfish Focus Inversion** (changed)
+**Selfish Focus Inversion** (changed) (by Jeff)
 
+```
 * Now, it is only possible to perform a *Selfish Focus Inversion* clue with color.
 * Furthermore, it is now only possible to perform a *Selfish Focus Inversion* clue by cluing the next-connecting-card (e.g. a red 3) of a globally-known playable card that is in your own hand (e.g. a red 2).
+```
+
+**Trash Push Ejection --> Trash Push Discharge** (by Kakashi)
+
+```
+* *Trash Push Ejection* is converted to a *Trash Push Discharge*.
+* In other words, if a *Trash Pushed* card is trash, then it should signal an *Discharge* on the very next player.
+* This move will be easy to remember because it is extremely similar to the *Unknown Trash Discharge*. In UTD, the focus of the clue is promised as trash. In the *Trash Push Discharge*, the *Trash Pushed* card is promised as trash.
+```
 
 @everyone New conventions:
 
