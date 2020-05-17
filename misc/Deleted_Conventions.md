@@ -199,17 +199,6 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
   * Alice also knows that Bob was using *Implied Color Truth*. It would not make sense for Bob to defer playing the red 2 in order to clue the red 3 himself. Thus, her red card must be a red 4 and Bob was trying to *Finesse* Cathy's red 3. Alice marks the card as such as discards.
 * The Hyphen-ated group has never actually used this convention, but it is documented here since it is played with on Board Game Arena.
 
-### The Scream Blind-Play (Blind-Playing Chop)
-
-* The *Scream Discard* is a powerful last-resort move that "screams" at the next player, telling them that their chop is unsafe. This is useful because you can do it even when the team is currently at 0 clues. However, you can only perform this move if you have a known playable card in your hand. In some situations, you will need to "scream" at the next player even when you do not have a known playable card.
-* If you can't give a clue, as a last resort you can send a signal to your teammate by blind-playing a card. You don't want to accidentally blind-play a critical card, so the safest card to blind-play is your chop.
-* By doing this, it "screams" at the next player, accomplishing the same thing as a Scream Discard, namely:
-  * they should *Chop Move* a card
-  * if there are 1 or more clues in the bank, they are not allowed to discard on their next turn
-* If you see someone blind-play their chop and it works, your first thought may be that it could be a *Scream Blind-Play*. However, it could also be a *Negative Blind-Play* (which is covered later), so it is important to not confuse these two strategies.
-* Note that a *Stop Blind-Play* (listed below) is almost exactly the same as this move, but it has a completely different interpretation. Whether or not a move is a *Scream Blind-Play* or a *Stop Blind-Play* is entirely dependent on the context of the situation.
-* This convention was deleted due to lack of use (outside of 2-player games).
-
 ### The Stop Blind-Play (Blind-Playing Chop)
 
 * Sometimes, due to a mistake or a complicated situation, you can see that the next player after you is going to misplay a critical card. Additionally, there may be no "fix" clue that you can give that will remedy the situation, or perhaps you are currently at 0 clues.
