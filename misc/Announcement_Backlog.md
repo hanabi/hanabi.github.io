@@ -33,6 +33,16 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 * Now, it is only possible to perform a *Selfish Focus Inversion* clue with color.
 * Furthermore, it is now only possible to perform a *Selfish Focus Inversion* clue by cluing the next-connecting-card (e.g. a red 3) of a globally-known playable card that is in your own hand (e.g. a red 2).
 
+@everyone New conventions:
+
+**The Unnecessary Unknown Trash Discharge Chop Move (UUTDCM)**
+
+```
+* First, review the section in the doc on the *Unnecessary Trash Finesse/Bluff Chop Move*.
+* This same concept now applies to *Unknown Trash Discharge*. In other words, if an unnecessary *Unknown Trash Discharge* is performed, then the player who receives the clue should *Chop Move* in the same way as the *Unnecessary Trash Finesse/Bluff Chop Move*.
+* Note that this convention **only** applies if it touches exactly **one** trash card. (This is because we want players to have the ability to perform 2-for-1 UTDs without promising a *Chop Move*.)
+```
+
 @everyone Variant-specific conventions:
 
 **Pink Tempo Clues**
