@@ -29,3 +29,7 @@ These conventions apply to the "Extremely Ambiguous" variants.
   * Bob blind-plays his *Finesse Position* card and it is a berry 1.
   * Cathy knows that a *Play Clue* on slot 2 made Bob blind-play, so this must be a *Finesse* and Cathy must have the berry 2 to match Bob's blind-play.
   * Cathy plays her slot 2 card as berry 2 and it is instead the sky 1. Cathy now knows that Alice performed an *Unnecessary Blue Bluff*.
+
+### Advanced Conventions
+
+* In Extremely Ambiguous variants, *Ejections* and *Discharges* work quite differently. See the [Specific Conventions for Variants with No Positive Clues](No_Positive_Clues.md).
