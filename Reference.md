@@ -2849,12 +2849,13 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * We define any variant that requires equal to or greater than 1.25 efficiency as a "hard" variant. (Required efficiency can be seen in-game using the Hanabi Live interface. Note that a variant can be considered easy in 4-player, but hard in 5-player, for example.)
 * Additionally, the following variants are considered to be hard variants even though they may have less than 1.25 required efficiency:
   * Any variant with a null suit
-  * Color Mute (any amount of suits)
-  * Number Mute (any amount of suits)
-  * Special Mix (any amount of suits)
+  * Color Mute
+  * Number Mute
+  * Special Mix
   * Dual-Color Mix
-  * Cow & Pig (any amount of suits)
-  * Duck (any amount of suits)
+  * Throw It in a Hole 
+  * Cow & Pig
+  * Duck
 * In hard variants, the following changes are made to the conventions:
   * Players are not allowed to *Double Discard Avoid*. Any clue given in a *Double Discard* situation will instead be treated like a normal clue.
   * Players are not allowed to *5 Stall* in the *Early Game*. Any clue that looks like a *5 Stall* is instead treated as either a *5's Chop Move* or a *5 Pull*.
