@@ -6,6 +6,7 @@ These conventions apply to the following variants:
 * Color Blind (with color clues only)
 * Number Blind (with number clues only)
 * Totally Blind
+* Cow & Pig
 * Duck
 
 <br />
