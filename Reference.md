@@ -1771,7 +1771,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * A *Selfish Clue* is when a player:
   1) has a playable card in their hand (e.g. red 2)
   2) gives a *Play Clue* to the next connecting card (e.g. red 3)
-* In almost all cases, there is no reason to give a *Selfish Clue*. Players can simply play your playable card and let someone else on the team "get" the next card. Being *Selfish* is typically associated with having bad teammwork.
+* In almost all cases, there is no reason to give a *Selfish Clue*. Players can simply play their playable card and let someone else on the team "get" the next card. Being *Selfish* is typically associated with having bad teamwork.
 * However, in rare cases, giving a *Selfish Clue* can be good.
 * For example, in a 3-player game:
   * All the 1's are played on the stacks.
@@ -1781,7 +1781,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Alice knows that on this turn, she is expected to play the red 2, unless she has a really good clue to give.
   * Alice sees that if she plays the red 2, then Bob will probably have nothing to do, and will go on to discard the blue 1.
   * At that point, the red 5 will be on chop, and it will be difficult for the team to get all of the red cards. Specifically, someone will probably have to give a number 3 clue to Bob as a 1-for-1 on the red 3.
-  * Alice sees that if she gives a red clue to Bob *right now* (e.g. before she plays the red 2), then she will be able to "lock-in" a nice 3-for-1 clue. Even though the team will lose *Tempo*, this will be incosequential because Bob has a safe discard and Cathy has a safe discard.
+  * Alice sees that if she gives a red clue to Bob *right now* (e.g. before she plays the red 2), then she will be able to "lock-in" a nice 3-for-1 clue. Even though the team will lose *Tempo*, this will be inconsequential because Bob has a safe discard and Cathy has a safe discard.
   * Alice clues red to Bob as a *Selfish Play Clue*.
 
 ### The Selfish Finesse (A Finesse Through Your Own Hand)
