@@ -8,6 +8,12 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 
 @everyone Deleted conventions:
 
+**The Redundant Save Chop Move** (deleted)
+
+```
+* This convention is deleted due to lack of use.
+```
+
 **The Unnecessary Trash Finesse/Bluff Chop Move (Alternate Form)** (deleted)
 
 ```
