@@ -3049,8 +3049,7 @@ Conventions for specific variants are listed on a separate page.
 | 5 Number Discharge | IAMJEFF
 | The Gentleman's Discard Ejection | IAMJEFF
 | Rank Choice Ejection | IAMJEFF
-| Occupied Focus Inversion | Romain
-| Out-of-Position Unknown Trash Discharge | IAMJEFF
+| Selfish Focus Inversion | Romain
 
 <br />
 
