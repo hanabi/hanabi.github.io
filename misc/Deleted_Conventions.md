@@ -46,6 +46,12 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
 * Building on the *3 Bluffs* convention, it is **also** possible for a card that initiates a *Bluff* to be a copy of any of the 4s that are critical (meaning that the other copy is in the discard pile or it is a black 4).
 * This convention was deleted because it was hardly ever used and it increased complexity.
 
+### The Redundant Save Chop Move
+
+* Players that have two or more clued 1's in their hand will often use the *Order Chop Move* to *Chop Move* a 2, a 5, or a critical card on the next player's chop.
+* Subsequently, if a player with two or more clued 1's in their hand does not play a 1 and instead gives a *Save Clue* to a 2, a 5, or a critical card on the next player's chop, this is very strange.
+* In this situation, if there is nothing else special going on, the player who got clued should *Chop Move* the card next to the one that was explicitly saved.
+
 ### The Reverse Misplay Chop Move
 
 * Sometimes, a *Misplay Chop Move* will not immediately misplay because of circumstances similar to *Focus Inversion*, meaning that there is:
