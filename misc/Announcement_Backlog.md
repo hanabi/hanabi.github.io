@@ -26,6 +26,13 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 * This convention is deleted due to lack of use.
 ```
 
+@everyone Changed conventions:
+
+**Selfish Focus Inversion** (changed)
+
+* Now, it is only possible to perform a *Selfish Focus Inversion* clue with color.
+* Furthermore, it is now only possible to perform a *Selfish Focus Inversion* clue by cluing the next-connecting-card (e.g. a red 3) of a globally-known playable card that is in your own hand (e.g. a red 2).
+
 @everyone Variant-specific conventions:
 
 **Pink Tempo Clues**
