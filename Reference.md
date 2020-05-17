@@ -2836,8 +2836,9 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Bob performs a *Certain Discard* on his *Finesse Position* card and it is the red 3, successfully passing it back to Alice.
 * If someone performs a *Certain Discard* and you have two or more clued cards that could be the target, then you are not promised the order, only that you have the card clued somewhere in your hand. (This part works in the exact same way as a more-ordinary *Sarcastic Discard*.)
 
-### Selfish Focus Inversion (S.F.I. / SFI)
+### Selfish Color Focus Inversion (S.F.I. / SFI)
 
+* First, see the *[Selfish Clue](#the-selfish-clue)*.
 * Normally, when a player is *Occupied* and they give a clue to someone else, they are usually doing something important that can't be easily done by anyone else on the team. (For example, they could be giving a *Save Clue* to the next player to prevent an imminent discard. Or, they could be taking advantage of their *Occupied* status and are giving an *Occupied Play Clue* or an *Occupied Finesse*.)
 * If it can be seen that an *Occupied* player is giving a non-important clue that someone else on the team could give, then they are either making a mistake, or they are trying to communicate something extra.
 * In this situation, they are trying to communicate that the focus of the clue should be inverted. The *Play Clue* is either on the left-most card (if it would normally be *Chop Focus*) or on the right-most card (if it would normally be the left-most card).
