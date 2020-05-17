@@ -241,6 +241,23 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
 * Furthermore, this move should never be performed if there is a non-expert player playing or if it is likely to be interpreted as a mistake.
 * This convention was deleted due to lack of use (outside of 2-player games).
 
+### Order Ejection
+
+* When a player can perform an *Skipped Order Chop Move* on a critical 5 (or a critical one-of-each card) at the beginning of the game, and they don't do it, this is very strange.
+* The player must be communicating something extra. In this scenario, they intend for the next person to blind-play slot 2.
+* The *Order Ejection* will also get a free *Chop Move* in addition to getting the blind-play.
+* For example, in a 4-player game:
+  * Blue 1 is played on the stacks.
+  * Alice clues Bob 1's, touching three 1's on slot 2, slot 3, and slot 4.
+  * Donald has a 5 on chop (and the rest of his hand is trash).
+  * Bob could play his 1 on slot 2 to *Skipped Order Chop Move* Donald's 5 for "free".
+  * Bob instead plays his 1 on slot 4 (which does nothing special).
+  * Cathy sees no possible reason for not getting a "free" *Chop Move* on a 5, so she knows that this is an *Order Ejection*. Cathy blind-plays slot 2 and it plays as a blue 2.
+  * Donald knows that Cathy must be blind-playing slot 2 for a reason. The only thing that happened that could have possibly caused the blind-play was the order that Bob played his 1's in. Thus, Donald knows that an *Order Ejection* has occurred and that he should *Chop Move*.
+  * Furthermore, Donald knows that his *Chop Moved* card **must** be a 5 or some other critical card. (This is unlike a normal *Order Chop Move*, since *Order Chop Moves* are alloweded to get non-critical cards.)
+* Note that *Order Ejections* only apply if the player did not *Order Chop Move* a **critical** card. Unique 2's **do not** count as critical in this case.
+* This convention was deleted due to lack of use.
+
 ### The Dump Truck
 
 * When someone blind-plays their chop, there is usually an emergency happening and it was either a *Scream Blind-Play* or a *Stop Blind-Play*.
