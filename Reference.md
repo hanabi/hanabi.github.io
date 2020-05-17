@@ -2547,11 +2547,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * However, that would mean that Bob must have both the blue 3 and the blue 4, which is unlikely. Bob knows that *Junk Ejection* takes priority if he is supposed to play two or more blind cards, so he blind-plays his *Second Finesse Position*. It is a green 1 and successfully plays.
   * Cathy knows that if this was an *5's Chop Move*, then Bob would not have blind-played anything. If it was a *Finesse*, then Bob would have blind-played his *Finesse Position*. Since he blind-played his *Second Finesse Position* card, this must be a *Junk Ejection* and her slot 4 card must be trash.
 
-### Trash Push Ejection
-
-* Normally, when known trash is touched as the focus of the clue, and the known trash is on chop, it communicates a *Trash Push*.
-* However, what if the *Trash Pushed* card is trash? The other players can see that this clue must have some other purpose - it should signal an *Ejection* on the very next player.
-
 ### Rank Choice Ejection (with a number 2 or a number 5)
 
 * Typically, when a number 2 clue or a number 5 clue is performed on a chop card, it will be treated as a *2 Save* or a *5 Save* and the card will not play.
@@ -2645,6 +2640,12 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
     * If the clue were a *Finesse* on the red 5, Bob would have to blind-play a red 1 and a red 2.
   * Since Bob would have to blind-play two cards into the *Finesse*, he knows that he should instead treat this as a *5 Number Discharge*. Bob blind-plays his slot 3 card and it successfully plays as the red 1.
 * More examples of a *5 Number Discharge* can be found [here](examples/5_Number_Discharge.md).
+
+### Trash Push Discharge
+
+* Normally, when known trash is touched as the focus of the clue, and the known trash is on chop, it communicates a *Trash Push*.
+* However, what if the *Trash Pushed* card is trash? The other players can see that this clue must have some other purpose - it should signal an *Discharge* on the very next player.
+* This move is extremely similar to the *Unknown Trash Discharge*. In UTD, the focus of the clue is promised as trash. In the *Trash Push Discharge*, the *Trash Pushed* card is promised as trash.
 
 ### Out-of-Position Discharge
 
