@@ -2912,7 +2912,7 @@ Conventions for specific variants are listed on a separate page.
 * [Special-Fives](/variant-specific/Special-Fives.md) (e.g. "Pink-Fives")
 * [Dual-Color (6 Suits)](/variant-specific/Dual-Color_(6_Suits).md)
 * [Dual-Color (3 Suits)](/variant-specific/Dual-Color_(3_Suits).md)
-* [Very Ambiguous (3 Suits)](/variant-specific/Very_Ambiguous_(3_Suits).md)
+* [Extremely Ambiguous](/variant-specific/Extremely_Ambiguous.md)
 * [Clue Starved](/variant-specific/Clue_Starved.md)
 * [Color Blind](/variant-specific/Color_Blind.md)
 * [Totally Blind](/variant-specific/Totally_Blind.md)
