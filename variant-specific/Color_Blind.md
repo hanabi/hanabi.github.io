@@ -39,8 +39,8 @@ These conventions apply to the "Color Blind" variants.
 
 ### The Mismatch Finesse
 
-* If a player has two of the same playable card in their hand, players are expected to give a *Play Clue* to the left-most one.
-* If a player instead gives a *Play Clue* to the right-most one, then they are trying to communicate something extra.
+* If a player has two of the same playable card in their hand, players are expected to give a positional *Play Clue* to the left-most one.
+* If a player instead gives a positional *Play Clue* to the right-most one, then they are trying to communicate something extra.
 * This means that the next player should blind-play their *Finesse Position* as any unrelated playable card.
 * *Mismatch Finesses* can also rarely give a player a safe discard.
 * For example, in a 3-player game:
