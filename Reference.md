@@ -2915,6 +2915,7 @@ Conventions for specific variants are listed on a separate page.
 * [Extremely Ambiguous](/variant-specific/Extremely_Ambiguous.md)
 * [Clue Starved](/variant-specific/Clue_Starved.md)
 * [Color Blind](/variant-specific/Color_Blind.md)
+* [Number Blind](/variant-specific/Number_Blind.md)
 * [Totally Blind](/variant-specific/Totally_Blind.md)
 * [Number Mute](/variant-specific/Number_Mute.md)
 * [Up or Down](/variant-specific/Up_or_Down.md)
