@@ -73,7 +73,21 @@ These conventions apply to the "Duck" variants.
 
 ## Advanced Conventions
 
-### The Duck Bluff (on a 5)
+### Advanced Move Summary
+
+* If a clue is focusing a critical card on chop, then it is probably a *Save Clue*, as mentioned in the "Basic Conventions" section above.
+* If a clue is focusing a card that is not on chop, then it is a *Play Clue*, and the following table applies:
+
+| Type of Clue                           | Interpretation
+| -------------------------------------- | --------------
+| Any clue focusing a one-away card      | A *Finesse*, a *Duck Bluff*, or a *Duck Double Bluff*
+| Any clue focusing a two-or-more-away 5 | An *Ejection* (similar to 5CE)
+| Any clue focusing a two-or-more-away 3 | A *Discharge* (because 3 means slot 3)
+| Any clue focusing a two-or-more-away 4 | A *Charm* (e.g. the 4th *Finesse Position*)
+
+* For more specific information, see each section below.
+
+### The Duck Bluff
 
 * Normally, you cannot perform a *Bluff* in Duck variants, because there is no way for the clue to not match the card that is blind-playing.
 * However, the one exception to this is if a 5 blind-plays. Then, the clue receiver can know that it is a *Bluff* (because there is no card that matches at 5).
@@ -81,25 +95,30 @@ These conventions apply to the "Duck" variants.
 
 ### The Duck Double Bluff
 
-* *3 Bluffs* are "turned off" in this variant, for obvious reasons.
-* This means that players can use the *Double Bluff* convention much more often by giving *Play Clues* to two-away from playable 3's. After seeing two unrelated blind-plays occur, the receiver of the clue will know that their card is two-away from playable. (This takes precedence over more complicated things, like *Layered Finesses*.)
-  * Note that it is also possible to *Double Bluff* by cluing two-away 4's and two-away 5's, but that can be done in any variant.
+* Normally, you cannot perform a *Bluff* in Duck variants, because there is no way for the clue to not match the card that is blind-playing.
+* However, it is possible to perform a *Double Bluff* by cluing any one-away-from-playable card and getting a non-matching card to play.
+* For example, in a 4-player game:
+  * It is the first turn and nothing is played on the stacks.
+  * Alice clues red to Donald, touching a red 2 as a *Play Clue*.
+  * Bob tries to blind-play red 1 from his *Finesse Position*, but he instead blind-plays the blue 1.
+  * Cathy sees that Donald will go on to misplay the red 2 as the blue 2. Thus, this must be a *Double Bluff*, so Cathy blind-plays her *Finesse Position* card. It is a green 1 and it successfully plays.
+  * Donald knows that he cannot have the blue 2, or else Cathy would not have done anything special. Donald's card can be any one-away-from-playable card in the game.
 * *Double Half-Bluffs* are explicitly outlawed. In other words, the first blind-play from a *Double Bluff* must be completely unrelated to the card that was clued.
 
 ### 5 Ejection
 
-* *5 Color Ejection* is turned on in Duck variants, as you would expect.
+* *5 Color Ejection* is turned on in Duck variants, just like it is in any other variant.
 * Additionally, players can also perform *5 Number Ejection* and it will generally work in the exact same way.
 * Thus, players should keep in mind that clues that cause *Ejection* might have been either a color clue or a number clue.
+
+### 3 Discharge
+
+* *Unknown Trash Discharge* is turned off in Duck variants.
+* Instead, *3 Discharge* is turned on. In other words, a *Play Clue* focusing a two-or-more-away-from-playable 3 is a signal for the next player to play their *Third Finesse Position*.
+* Similar to *5 Ejection*, *3 Discharge* can be initiated with either a color clue or a number clue.
 
 ### 4 Charm
 
 * *Charm* is defined as a move that makes a player play their *Fourth Finesse Position*.
-* Similar to *5 Ejection*, if a player gives a *Play Clue* to an unplayable 4 that would require two or more blind-plays in order to fulfill the *Finesse*, then a *Finesse* is unlikely.
-* Players agree that this communicates a *Charm*.
+* A *Play Clue* focusing a two-or-more-away-from-playable 4 is a signal for the next player to play their *Fourth Finesse Position*.
 * Similar to *5 Ejection*, *4 Charm* can be initiated with either a color clue or a number clue.
-
-### The Double Play Bluff
-
-* Normally, when a playable card is clued again, it is interpreted as an *Double Play Ejection* on the very next player.
-* However, in the *Duck* variants, it instead means to play slot 1 as a *Known Bluff*.
