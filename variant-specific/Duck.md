@@ -4,15 +4,6 @@ These conventions apply to the "Duck" variants.
 
 <br />
 
-## Table of Contents
-
-1. [Basic Conventions](#basic-conventions)
-2. [Advanced Conventions](#advanced-conventions)
-
-<br />
-
-## Basic Conventions
-
 ### Chop Saves
 
 * All clues to chop are treated as *Save Clues*.
@@ -69,8 +60,6 @@ These conventions apply to the "Duck" variants.
   * Cathy knows that Bob's clue choice was quite strange: because of the *1's Promise*, Bob will misplay the red 3 when it gets to his turn. Thus, this must be a *Finesse*.
   * Cathy blind-plays her *Finesse Position* as red 2.
 
-<br />
-
-## Advanced Conventions
+### Advanced Conventions
 
 * In Duck variants, *Ejections* and *Discharges* work quite differently. See the [Specific Conventions for Variants with No Positive Clues](No_Positive_Clues.md).
