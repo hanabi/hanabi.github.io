@@ -1,6 +1,6 @@
-# Specific Conventions for Very Ambiguous (3 Suits)
+# Specific Conventions for Extremely Ambiguous
 
-These conventions apply to the "Very Ambiguous (3 Suits)" variant.
+These conventions apply to the "Extremely Ambiguous" variants.
 
 <br />
 
