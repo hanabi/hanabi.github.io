@@ -51,6 +51,7 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
 * Players that have two or more clued 1's in their hand will often use the *Order Chop Move* to *Chop Move* a 2, a 5, or a critical card on the next player's chop.
 * Subsequently, if a player with two or more clued 1's in their hand does not play a 1 and instead gives a *Save Clue* to a 2, a 5, or a critical card on the next player's chop, this is very strange.
 * In this situation, if there is nothing else special going on, the player who got clued should *Chop Move* the card next to the one that was explicitly saved.
+* This convention was deleted since it was hardly ever used.
 
 ### The Reverse Misplay Chop Move
 
