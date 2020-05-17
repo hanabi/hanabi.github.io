@@ -54,6 +54,7 @@ These conventions apply to the following variants:
 * *Unknown Trash Discharge* is turned off in variants without any positive information.
 * Instead, *3 Discharge* is turned on. In other words, a *Play Clue* focusing a two-or-more-away-from-playable 3 is a signal for the next player to play their *Third Finesse Position*.
 * Similar to *5 Ejection*, *3 Discharge* can be initiated with either a color clue or a number clue.
+* When all the 3's have been played or accounted for, *Unknown Trash Discharge* is turned back on.
 
 ### 4 Charm
 
