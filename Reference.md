@@ -3082,7 +3082,7 @@ Conventions for specific variants are listed on a separate page.
 | Cow & Pig Rank Saves | Florrat
 | 5 Ejection (in Duck) | Kakashi
 | 4 Charm (in Duck) | IAMJEFF
-| Empty Clues | Zamiel and Florrat
+| Empty Clues | Zamiel & Florrat
 | The Empty Finesse | Instantiation
 | The Empty Double-Play | Zamiel & Jeep
 | The Empty Bluff | Cory
