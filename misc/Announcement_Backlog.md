@@ -6,6 +6,14 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 
 ## The Backlog
 
+@everyone Deleted conventions:
+
+**The Unnecessary Trash Finesse/Bluff Chop Move (Alternate Form)** (deleted)
+
+```
+* This convention is deleted due to lack of use.
+```
+
 @everyone Variant-specific conventions:
 
 **Pink Tempo Clues**
@@ -30,24 +38,6 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 * This convention applies to variants with a muddy rainbow suit or a cocoa rainbow suit.
 * Since muddy rainbow 2 cannot be *2 Saved* and and muddy rainbow 5 cannot be *5 Saved*, there needs to be a separate way to save these cards.
 * Any red color clue (the left-most color) to a chop card is treated as a potential *Muddy Rainbow Save* on a muddy rainbow 2 or a muddy rainbow 5.
-```
-
-**Muddy Rainbow Inversion**
-
-```
-* This convention applies to variants with a muddy rainbow suit or a cocoa rainbow suit.
-* Muddy rainbow cards are like brown cards. This means that *Brown Inversion* also applies to muddy rainbow cards.
-* This means that when multiple muddy rainbow cards are re-clued with **any** color clue, it only means to play the right-most one and nothing else.
-```
-
-**Muddy Rainbow Assumption**
-
-```
-* This convention only applies to variants with both a rainbow suit and a muddy rainbow suit.
-* If players get a *Tempo Clue* on two or more cards that could be either rainbow cards or muddy rainbow cards, this puts them in a conundrum:
-  * If they are rainbow cards, then they should play the left-most touched card as a normal *Tempo Clue*.
-  * If they are muddy rainbow cards, then they should play the right-most touched card as an *Inverted Tempo Clue* (because *Brown Inversion* applies to muddy rainbow cards).
-* In this situation, players always assume that they are muddy rainbow cards, and play the right-most card.
 ```
 
 **The Bubblegum Bluff** (by Stephen)
@@ -126,6 +116,33 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 * Various conventions for Duck have been deleted / reformulated.
 * We now have a framework that is used for any variant with no positive clues (e.g. Extremely Ambiguous, Duck, etc.).
 * For more information, please see: https://github.com/Zamiell/hanabi-conventions/blob/master/variant-specific/No_Positive_Clues.md
+```
+
+**The Scream Blind-Play (Blind-Playing Chop)** (for null)
+
+```
+* This convention only applies to variants with a null suit.
+* Sometimes, a player will have two critical cards in a row on chop. Usually, the team will work together to clue both of the cards. However, in variants with a null suit, it is sometimes difficult to do this.
+* In cases where one player needs to save two cards at once, they can perform a *Scream Blind-Play* by blind-playing their chop card. This is similar to a *Scream Discard*, except it *Chop Moves* two cards instead of one.
+* Just like the *Scream Discard*, the *Scream Blind-Play* is only to be used as a last resort. This should be obvious, since it uses up a strike.
+```
+
+**Muddy Rainbow Inversion**
+
+```
+* This convention applies to variants with a muddy rainbow suit or a cocoa rainbow suit.
+* Muddy rainbow cards are like brown cards. This means that *Brown Inversion* also applies to muddy rainbow cards.
+* This means that when multiple muddy rainbow cards are re-clued with **any** color clue, it only means to play the right-most one and nothing else.
+```
+
+**Muddy Rainbow Assumption**
+
+```
+* This convention only applies to variants with both a rainbow suit and a muddy rainbow suit.
+* If players get a *Tempo Clue* on two or more cards that could be either rainbow cards or muddy rainbow cards, this puts them in a conundrum:
+  * If they are rainbow cards, then they should play the left-most touched card as a normal *Tempo Clue*.
+  * If they are muddy rainbow cards, then they should play the right-most touched card as an *Inverted Tempo Clue* (because *Brown Inversion* applies to muddy rainbow cards).
+* In this situation, players always assume that they are muddy rainbow cards, and play the right-most card.
 ```
 
 ## 2-Player Backlog
