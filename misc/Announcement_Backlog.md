@@ -14,6 +14,12 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 * This convention is deleted due to lack of use.
 ```
 
+**Order Ejection** (deleted)
+
+```
+* This convention is deleted due to lack of use.
+```
+
 @everyone Variant-specific conventions:
 
 **Pink Tempo Clues**
