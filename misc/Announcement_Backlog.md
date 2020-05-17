@@ -40,6 +40,16 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 * This means that when multiple muddy rainbow cards are re-clued with **any** color clue, it only means to play the right-most one and nothing else.
 ```
 
+**Muddy Rainbow Assumption**
+
+```
+* This convention only applies to variants with both a rainbow suit and a muddy rainbow suit.
+* If players get a *Tempo Clue* on two or more cards that could be either rainbow cards or muddy rainbow cards, this puts them in a conundrum:
+  * If they are rainbow cards, then they should play the left-most touched card as a normal *Tempo Clue*.
+  * If they are muddy rainbow cards, then they should play the right-most touched card as an *Inverted Tempo Clue* (because *Brown Inversion* applies to muddy rainbow cards).
+* In this situation, players always assume that they are muddy rainbow cards, and play the right-most card.
+```
+
 **The Bubblegum Bluff** (by Stephen)
 
 ```
