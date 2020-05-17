@@ -4,6 +4,10 @@ These conventions apply to the "Throw It in a Hole" variants.
 
 <br />
 
+### Hard Variant
+
+* Throw It in a Hole is considered to be a hard variant, meaning that *Loaded Play Clues* are "turned on" and so forth.
+
 ### No Bluffs
 
 * *Bluffs* are turned off.
