@@ -53,3 +53,7 @@ These conventions apply to the "Color Blind" variants.
   * Cathy now knows that it was not a normal *Finesse* at all - it was instead a *Mismatch Finesse*, because there is no other explanation for why Bob would blind-play from a *Play Clue* on a red 1.
   * Cathy also knows that she must have another red 1 in her hand. Since there is only one card to the left of her slot 2, she knows that the red 1 has to be exactly in her slot 1 (at the time of the clue).
   * Due to this, when Cathy needs to discard next, she will blind-discard her slot 2 card (since slot 1 has now shifted down to slot 2 after she played the red 1).
+
+### Advanced Conventions
+
+* In Color Blind variants, *Ejections* and *Discharges* work quite differently. See the [Specific Conventions for Variants with No Positive Clues](No_Positive_Clues.md).
