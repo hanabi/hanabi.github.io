@@ -61,3 +61,10 @@ These conventions apply to the "Totally Blind" variants.
 | Red      | Play slot 1 + play slot 2 + play slot 3
 | Purple   | Two players play *Finesse Position* (must clue the person with the 2nd blind-play)
 | Teal     | Three players play *Finesse Position* (must clue the person with the 3rd blind-play)
+
+<br />
+
+### Advanced Conventions
+
+* In Totally Blind variants, *Ejections* and *Discharges* work quite differently. See the [Specific Conventions for Variants with No Positive Clues](No_Positive_Clues.md).
+
