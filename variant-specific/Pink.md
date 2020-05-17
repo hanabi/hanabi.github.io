@@ -143,6 +143,20 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
   * Donald knows that since Cathy played his slot 4 card, this was a *Bubblegum Finesse*, and that his pink card must be the matching card. Donald plays the pink 3.
 * *Bubblegum Finesses* can only be used to get pink cards.
 
+### The Bubblegum Bluff
+
+* Similar to a *Bubblegum Finesse*, it is also possible to perform a *Bubblegum Bluff*.
+* For example, in a 3-player game:
+  * It is the first turn and nothing is played on the stacks.
+  * Alice clues number 3 to Cathy, touching a pink 2 on slot 5.
+  * Bob knows that Alice is violating *Pink Promise*. This must mean that he is supposed to play his slot 3 card.
+  * Bob blind-plays slot 3 and it is a red 1.
+  * Cathy knows that if this was a *3 Bluff*, then Bob would have played his *Finesse Position*. So it cannot be a *3 Bluff*.
+  * Thus, Cathy knows that this must be a *Bubblegum* clue. Since blue 3 is not a pink card and Alice was in *Bluff Seat* for Bob, this must be a *Bubblegum Bluff*.
+  * Cathy marks her slot 5 card as the one-away-from-playable pink card, the pink 2.
+* *Bubblegum Bluffs* can only be performed on non-pink cards; otherwise, it will look like a *Double Finesse* with one part *Bubblegum Finesse* and one part normal *Finesse*.
+* Note that it is impossible to *3 Bluff* and *Bubblegum Bluff* at the same time.
+
 ### Trash Pushes in Pink
 
 * When a *Trash Push* happens in a normal variant, if more than one card is touched, then all of the touched cards are known to be trash.
