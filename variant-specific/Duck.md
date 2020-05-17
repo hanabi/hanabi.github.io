@@ -4,9 +4,14 @@ These conventions apply to the "Duck" variants.
 
 <br />
 
-## Basic Conventions
+## Table of Contents
+
+1. [Basic Conventions](#basic-conventions)
+2. [Advanced Conventions](#advanced-conventions)
 
 <br />
+
+## Basic Conventions
 
 ### Chop Saves
 
