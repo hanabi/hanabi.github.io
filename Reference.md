@@ -465,7 +465,7 @@ Note that in this user interface, players are **not** holding their hands like t
   * Bob plays red 1 from slot 1. The red card in slot 2 could be red 2, red 3, red 4, or red 5.
   * Cathy clues number 2 to Bob, which does not introduce any new cards, but it does "fill in" his slot 2 card.
   * Bob now knows that he has exactly red 2 on slot 2 and that this was a *Tempo Clue*. Since it does not get any new cards and only get tempo on one card in total, he knows that he should also *Chop Move* his slot 5 card.
-* Naturally, *Tempo Clue Chop Moves* **do not** apply in the special situations listed above where natural *Tempo Clues* are allowed.
+* *Tempo Clue Chop Moves* **do not** apply in the special situations listed above where natural *Tempo Clues* are allowed.
 * Normally, when two cards are retouched with a clue, it is a *Double Tempo Clue* and the player should play both cards. However, this interpretation does not apply if the second card is strictly not playable. In this situation, all players can see that since only one card is getting tempo, the interpretation of the clue should be a *Tempo Clue Chop Move*.
 * For example, in a 3-player game:
   * Red 1 is played on the stacks.
