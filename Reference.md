@@ -540,10 +540,6 @@ While the other sections in this document contain lists of special "moves", this
 * Thus, since there are only 2 strikes allowed and accumulating strikes limits flexibility, it is almost always worth it to spend one clue to stop one strike.
 * If it would require two clues to stop an impending misplay, then as long as the strike would not lose the game, it is usually best to let the player misplay the card and get a strike.
 
-### Stomping on a Finesse
-
-* This is when a player clues a card directly that was going to be blind-played from a *Finesse*. Typically, this is a mistake, and it means that the player who gave the clue was not paying attention and failed to see that a *Finesse* happened at all.
-
 ### Lines
 
 * During your turn, part of figuring out the best move involves looking into the future to see what the next player will do. If they discard, will it be okay? Is there some obvious clue that they will do? And so on.
@@ -747,6 +743,11 @@ While the other sections in this document contain lists of special "moves", this
 <br />
 
 ## Level 2 - Common Mistakes & Illegal Moves
+
+### Stomping on a Finesse
+
+* This is the term used for when a player clues a card directly that was going to be blind-played from a *Finesse*. Typically, this means that the player who gave the clue was not paying attention and failed to see that a *Finesse* happened at all.
+* *Stomping* on a *Finesse* essentially wastes a clue for the team.
 
 ### What to Do After a Strike
 
