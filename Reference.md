@@ -2657,6 +2657,36 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ## Level 5 - Rarely Used Strategies (Miscellaneous)
 
+### Deferring a Bluff
+
+* From *Urgency Principle*, we know that players are allowed to defer a *Finesse* or a *Bluff* in order to do a *Finesse* or *Bluff* of their own. And indeed, when players see a really good clue, they should probably defer blind-playing to give the clue. But there are limits.
+* When a player knows for sure that they are *Finessed* (instead of *Bluffed*), then deferring a *Finesse* (to perform another *Finesse* or *Bluff*) is great! It has almost no downsides, other than the obvious loss of tempo. Everyone on the team is "in the know", so to speak.
+* When a player *could* be *Bluffed*, deferring a *Bluff* can be extremely dangerous because it causes *Information Desynchronization* throughout the team.
+* Deferring a *Bluff* to perform a *Finesse* can be pretty clear, depending on the situation. It should be done sparingly.
+  * Note that deferring a *Bluff* to perform a *Finesse* can potentially lose the game if the original cluer is performing a *Double Half Bluff*. So there is some risk involved.
+* Deferring a *Bluff* to perform **another** *Bluff* is much worse. Since the *Bluff* was not immediately resolved, the game state "fractures" into two valid game states for the receivers of each clue (e.g. the player who received the clue that initiated the first *Bluff*, and the player who received the clue that initiated the *Deferred Bluff*). This means that these two players will have to entertain two entire hypothetical game states in their mind and build upon each hypothetical with each new piece of information. This makes it extremely difficult for them to plan ahead or make correct decisions during their turns.
+* Thus, deferring a *Bluff* to do another *Bluff* should **almost never be performed**.
+* Also, see the below section on *Deferring a Double Bluff*.
+
+### Deferring a Double Bluff
+
+* First, see the section on *Deferring a Bluff* above.
+* If Bob suspects that Alice is performing a *Double Bluff*, then Bob should **never defer**. It is very important that *Double Bluffs* resolve immediately.
+* Similarly, if Bob blind-plays, and Cathy can not rule out a *Double Bluff*, then Cathy should **never defer**. (If Cathy defers, it will cause an unrecoverable *Information Desynchronization*, because her future blind-play will not be interpretted as related to the *Double Bluff*.)
+
+### A Table for Deferring Bluffs
+
+| Alice is deferring a               | to perform a | Ok?
+| ---------------------------------- | ------------ | ---
+| Finesse                            | Finesse      | Yes!
+| Finesse                            | Bluff        | Yes!
+| Bluff                              | Finesse      | Sometimes, use sparingly
+| Bluff                              | Bluff        | No, never do this
+| Double Bluff (first blind-player)  | Finesse      | No, never do this
+| Double Bluff (first blind-player)  | Bluff        | No, never do this
+| Double Bluff (second blind-player) | Finesse      | No, never do this
+| Double Bluff (second blind-player) | Bluff        | No, never do this
+
 ### Trash Touch Elimination
 
 * After deciding on the target of a clue, players carefully choose between using a color clue and a number clue in order to avoid violating *Good Touch Principle* with the ancillary cards that will be touched (since every clued card is treated as a card that will eventually be played). Sometimes, when both a color clue **and** a number would violate *Good Touch Principle*, players are forced to pick between the lesser of two evils.
