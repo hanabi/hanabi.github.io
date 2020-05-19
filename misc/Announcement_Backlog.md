@@ -198,7 +198,7 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
   * Cathy knows that since Bob played slot 2 instead of slot 1, this must be a *Positional Clue*. However, Cathy also knows that you are only supposed to use *Positional Clues* to get null cards. So this must be a *Positional Layered Finesse* on Bob.
   * However, from Cathy's perspective, Bob has no null cards, so Alice must have been intending something else. If Cathy does nothing, then Bob will go on to misplay his slot 3 card as a null 1. Cathy knows that since a red 1 matches a number 2 clue, then this must be a *Slot Finesse*.
   * Cathy plays her 2 as a red 2 and it successfully plays.
-  * Bob knows that cards clued as part of *Positional Clues* are not promised to be playable, so it was very strange that Cathy played her 2. This must mean that he does not have the null 1 after all and that Alice's clue was simply a *Null Finesse*.
+  * Bob knows that cards clued as part of *Positional Clues* are not promised to be playable, so it was very strange that Cathy played her 2. This must mean that he does not have the null 1 after all and that Alice's clue was simply a *Slot Finesse*.
 ```
 
 **The Slot Double Bluff** (by Jeff)
@@ -206,7 +206,7 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 ```
 * Normally, if a *Positional Clue* is used to get a non-null card, then the blind-playing player would continue blind-playing cards as a *Positional Layered Finesse*. For that reason, it is normally impossible to *just* get a non-null card with a *Positional Clue*.
 * One way to get the blind-playing player to stop searching for a null card is to perform a *Slot Finesse* (see above).
-* One other way to get the blind-playing player to stop searching for a null card is to force the next player after that to blind-play their *Finesse Position* card (in the exact same way as a *Pesitlent Double Bluff*). After seeing the second blind-play, the first player will know that it is impossible for them to have a layered null card.
+* One other way to get the blind-playing player to stop searching for a null card is to force the next player after that to blind-play their *Finesse Position* card (in the exact same way as a *Pestilent Double Bluff*). After seeing the second blind-play, the first player will know that it is impossible for them to have a layered null card.
 * For example, in a 4-player game of the "Null (6 Suits)" variant:
   * All the 1's are played on the stacks.
   * Alice clues number 4 to Donald, touching a red 4 as a *Play Clue*.
