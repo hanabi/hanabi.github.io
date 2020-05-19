@@ -24,6 +24,12 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
   * However, doing that would break the *Pink Promise*, since once Cathy learns that her slot 5 card is a pink card, she will always assume that it is a pink 5.
   * Thus, Alice gives a number 2 clue as a *2 Save* on the pink 2, and then Bob clues a number 5 clue as a *5 Save* on the blue 5.
 
+### Pink Promise with a 5's Chop Move
+
+* When a player performs a *5's Chop Move*, it is clearly a type of *Save Clue*. But the focus of the clue is unclear.
+* We define the focus of the clue to be the 5 that is one-away from the chop.
+* Thus, when a player knows for sure that a number 5 clue indicates a *5's Chop Move*, the *Pink Promise* convention only applies to the 5 that is one-away from the chop.
+
 ### The Pink Prompt Rank Exception
 
 * Normally, *Prompts* take precedence over *Finesses*. This means that if a card in a player's hand has one or more positive clues on it that "match", they should never blind-play their *Finesse Position* and instead play their left-most clued card.
