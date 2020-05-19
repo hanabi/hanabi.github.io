@@ -175,22 +175,9 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 * Just like the *Scream Discard*, the *Scream Blind-Play* is only to be used as a last resort. This should be obvious, since it uses up a strike.
 ```
 
-**Muddy Rainbow Inversion**
+**Muddy Rainbow Choice Tempo Clues** (by Jeff)
 
 ```
-* This convention applies to variants with a muddy rainbow suit or a cocoa rainbow suit.
-* Muddy rainbow cards are like brown cards. This means that *Brown Inversion* also applies to muddy rainbow cards.
-* This means that when multiple muddy rainbow cards are re-clued with **any** color clue, it only means to play the right-most one and nothing else.
-```
-
-**Muddy Rainbow Assumption**
-
-```
-* This convention only applies to variants with both a rainbow suit and a muddy rainbow suit.
-* If players get a *Tempo Clue* on two or more cards that could be either rainbow cards or muddy rainbow cards, this puts them in a conundrum:
-  * If they are rainbow cards, then they should play the left-most touched card as a normal *Tempo Clue*.
-  * If they are muddy rainbow cards, then they should play the right-most touched card as an *Inverted Tempo Clue* (because *Brown Inversion* applies to muddy rainbow cards).
-* In this situation, players always assume that they are muddy rainbow cards, and play the right-most card.
 ```
 
 **The Slot Finesse** (by Jeff)
