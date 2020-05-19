@@ -184,6 +184,41 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 * In this situation, players always assume that they are muddy rainbow cards, and play the right-most card.
 ```
 
+**The Slot Finesse** (by Jeff)
+
+```
+* Normally, if a *Positional Clue* is used to get a non-null card, then the blind-playing player would continue blind-playing cards as a *Positional Layered Finesse*. For that reason, it is normally impossible to *just* get a non-null card with a *Positional Clue*.
+* As a rare exception, players can perform a *Finesse* using a *Positional Clue* that has the blind-play "match" the card that was clued. If they match, then **no null cards are promised**.
+* This is called a *Slot Finesse* to distinguish it from a *Positional Finesse*. In other words, *Positional Finesses* use *Positional Clues* to get null cards to blind-play into other null cards. And *Slot Finesses* use *Positional Clues* to get non-null cards to play into other non-null cards.
+* For example, in a 3-player game of the "Null (6 Suits)" variant:
+  * It is the first turn of the game and nothing is played on the stacks.
+  * Alice clues number 2 to Cathy, touching a red 2 as a *Play Clue*.
+  * Bob sees that Cathy has no other red cards in her hand, so Alice had a *Free Choice* between cluing red and cluing number 2. If Bob really had a red 1 on his *Finesse Position*, then Alice would clue red. Thus, this must be a *Rank Choice Positional Clue*.
+  * Bob blind-plays his slot 2 card as a null 1. Instead, it is the red 1 and it successfully plays. Bob now knows that this must be a *Positional Layered Finesse*, so Bob marks his slot 3 card as the null 1.
+  * Cathy knows that since Bob played slot 2 instead of slot 1, this must be a *Positional Clue*. However, Cathy also knows that you are only supposed to use *Positional Clues* to get null cards. So this must be a *Positional Layered Finesse* on Bob.
+  * However, from Cathy's perspective, Bob has no null cards, so Alice must have been intending something else. If Cathy does nothing, then Bob will go on to misplay his slot 3 card as a null 1. Cathy knows that since a red 1 matches a number 2 clue, then this must be a *Slot Finesse*.
+  * Cathy plays her 2 as a red 2 and it successfully plays.
+  * Bob knows that cards clued as part of *Positional Clues* are not promised to be playable, so it was very strange that Cathy played her 2. This must mean that he does not have the null 1 after all and that Alice's clue was simply a *Null Finesse*.
+```
+
+**The Slot Double Bluff** (by Jeff)
+
+```
+* Normally, if a *Positional Clue* is used to get a non-null card, then the blind-playing player would continue blind-playing cards as a *Positional Layered Finesse*. For that reason, it is normally impossible to *just* get a non-null card with a *Positional Clue*.
+* One way to get the blind-playing player to stop searching for a null card is to perform a *Slot Finesse* (see above).
+* One other way to get the blind-playing player to stop searching for a null card is to force the next player after that to blind-play their *Finesse Position* card (in the exact same way as a *Pesitlent Double Bluff*). After seeing the second blind-play, the first player will know that it is impossible for them to have a layered null card.
+* For example, in a 4-player game of the "Null (6 Suits)" variant:
+  * All the 1's are played on the stacks.
+  * Alice clues number 4 to Donald, touching a red 4 as a *Play Clue*.
+  * Bob does not see anyone else have any red cards. And Bob knows that *Double Self-Finesses* are turned off in null variants, so this must be a *Positional Clue*.
+  * Slot 4 is Bob's chop, so normally Bob would treat this as a *Positional Save Clue* on a null 5. However, Bob currently has a globally-known playable blue 2 in his hand on slot 1 (e.g. he is *Loaded*). That means that this is a *Loaded Play Clue* and that he has a playable null 2 on his slot 4.
+  * Bob blind-plays slot 4 as null 2. It is instead a green 2 and it successfully plays. Bob now knows that this must be a *Positional Inverted Layered Finesse*, so Bob marks his slot 3 card as the null 2.
+  * Cathy sees that since Bob did not play a null card, Bob will assume an *Positional Inverted Layered Finesse* and will go on to play his slot 3 on his next turn. However, Bob does not have any null cards in his hand. Alice must have intended for something else to happen.
+  * Cathy knows that this must be a *Slot Double Bluff*, so she blind-plays her *Finesse Position* as any playable card. It is yellow 2 and it successfully plays.
+  * Donald knows that from the sequence of events that Alice performed a *Slot Double Bluff*, so the 4 clue is to be treated as a *Positional Clue* (e.g. the 4 in his hand might be trash).
+  * Bob sees that since Cathy blind-played her *Finesse Position* card for "no reason", he must not actually have the null 2 in his hand after all. Bob can reason that Alice performed a *Slot Double Bluff*.
+```
+
 ## 2-Player Backlog
 
 @everyone New 2-player conventions:
