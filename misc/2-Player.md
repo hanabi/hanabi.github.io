@@ -91,11 +91,6 @@
 * In non-2-player games, *Delayed Bluffs* are explicitly illegal, since they violate [*Good Lie Principle*](../Reference.md#8-good-lie-principle). However, in 2-player games, they are allowed.
 * Note that this convention also applies to *Double Bluffs*. For example, if cluing a 4 at the beginning of the game causes two 1's to blind-play, then the blind-playing player is not promised to have any more playable cards.
 
-### 4 Bluffs
-
-* In non-2-player games, you are not allowed to use a 4 to perform a *Bluff*. (*Bluffs* must be on one-away-from-playable cards or on 3's.)
-* In 2-player games, you are allowed to perform a *Bluff* by using a 4.
-
 ### Scream Discard Modification
 
 * In non-2-player games, *Scream Discards* are only to be used as a last-resort. For example, you are **not** allowed to *Scream Discard* to *Chop Move* a non-critical one-away 3. This is because there is always a risk of discarding a critical card by accident.
