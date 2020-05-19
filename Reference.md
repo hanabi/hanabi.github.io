@@ -1046,7 +1046,7 @@ Priority does not always apply. Some common exceptions are listed below.
   * Bob clues yellow to Alice, touching a yellow 1 as a *Play Clue*.
   * Cathy knows that this is a *Reverse Finesse* and that she has the green 1. Cathy blind-plays her *Finesse Position* card and it is a blue 1.
   * Alice plays the yellow 1.
-  * Bob knows that Alice must have been trying to blind-play a green 1. Thus, he must have the green 2, and Alice did indeed perfrom a *Layered Finesse*. Bob clues number 5 to Cathy as a *5 Save*.
+  * Bob knows that Cathy must have been trying to blind-play a green 1. Thus, he must have the green 2, and Alice did indeed perform a *Layered Finesse*. Bob clues number 5 to Cathy as a *5 Save*.
   * Cathy was surprised that she played the blue 1. Could this be a *Bluff*? No, because Alice is not in *Bluff Seat* for Cathy, meaning that Alice is **not** allowed to bluff Cathy. Thus, this must be a *Layered Finesse* and Cathy must really have the green 1. Cathy plays her *Second Finesse Position* and it is the green 1.
 
 ### The Load Clue
@@ -1154,7 +1154,7 @@ Priority does not always apply. Some common exceptions are listed below.
 * No, it does not. By convention, even if it looks like the player could not have known the true identity of the card, the *Gentleman's Discard* only gets the specific other matching card. (The reason for this is that it allows players to act upon asymmetric information.)
 * For example, in a 3-player game:
   * Red 1 and blue 1 are played on the stacks.
-  * Alice clues Bob number 2, which touches a red 2 on slot 1. This is a *Play Clue* on the 2. Thus, this is is a globally known red 2 or blue 2. Alice right-clicks the card and writes a note of "r2, b2".
+  * Alice clues Bob number 2, which touches a red 2 on slot 1. This is a *Play Clue* on the 2. Thus, this is a globally known red 2 or blue 2. Alice right-clicks the card and writes a note of "r2, b2".
   * Bob also writes a note of "r2, b2", but then stops to think a little deeper. He notices that Alice has a blue 3 in her hand, so it might have been possible for Cathy to perform a *Finesse* on a hypothetical blue 2 in his hand.
   * Bob rewinds to the beginning of the game and re-plays through all of the turns, watching closely to see if Cathy had an ample opportunity to perform a *Finesse* on a blue 2. Indeed, he finds that Cathy had one or two turns where she could have easily performed a *Reverse Finesse*, but discarded instead.
   * Thus, Bob knows that it must be a red 2, so he updates his "r2, b2" note to "r2".
