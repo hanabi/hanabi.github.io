@@ -1843,8 +1843,8 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * For example, in a 3-player game:
   * All of the 2's are played on the stacks.
   * Alice has a globally-known red 3 in her hand. (It is "filled in" with both a red clue and a number 3 clue.)
-  * Alice clues blue to Bob, touching a blue 4 as a *Play Clue*.
-  * Bob knows that this must be a *Finesse*, so he attempts to blind-play blue 3 from his *Finesse Position*. Instead, he blind-plays red 3.
+  * Alice clues blue to Cathy, touching a blue 4 as a *Play Clue*.
+  * Bob knows that this must be a *Finesse*, so he attempts to blind-play a blue 3 from his *Finesse Position*. Instead, he blind-plays a red 3.
   * Cathy discards her chop.
   * Alice discards her known red 3 (since it is already played and is now trash).
   * Bob knows that *Bluffs* that duplicate a card like this are supposed to be treated as *Layered Finesses*. Bob blind-plays his *Second Finesse Position* as blue 3 and it successfully plays.
