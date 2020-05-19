@@ -17,7 +17,7 @@ These conventions apply to any variant with an null (touched by no clues) suit.
 * *Positional Clues* correspond to a slot number.
 * A **number** positional clue corresponds directly to the slot number.
   * For example, a number 3 clue equals slot 3.
-  * In a 4-player or 5-player game, a number 5 clue equals *Chop Move* (since there is no slot 5 card).
+  * In a 4-player, 5-player game, or 6-player game a number 5 clue equals *Chop Move* (since there is no slot 5 card).
 * A **color** positional clue corresponds to a slot number that is based on the order of the stacks. Stacks correspond to the slot numbers **from right to left**.
   * For example, in a 3-player game of the *Null (6 Suit)* variant, there are 5 color clues and 5 slots in the hand. Thus, a purple clue equals slot 5 (since it is the right-most color) and a red clue equals slot 4 (since it is the 2nd right-most color).
   * For example, in a 3-player game of the *Null (5 Suit)* variant, there are 4 color clues and 5 slots in the hand. Thus, a blue clue equals slot 5 (since it is the right-most color) and a green clue equals slot 4 (since it is the 2nd right-most color).
