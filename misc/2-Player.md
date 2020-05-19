@@ -216,3 +216,7 @@ Optionally, play clues can have a [different meaning if they are selfish](https:
 ### Number Mute
 
 Optionally, you can play with [specific conventions](https://github.com/iamwhoiamhahaha/hanabi/blob/master/2-player/Number_Mute_Conventions.md) for "Number Mute" variants.
+
+### Score Hunting
+
+If you are trying to get a perfect score on a difficult variant, then use the conventions in [Jeff's score hunting guide](https://github.com/iamwhoiamhahaha/hanabi/blob/master/2-player/Score_Hunting_Guide.md).
