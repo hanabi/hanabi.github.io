@@ -95,6 +95,15 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 * Note that it is impossible to *3 Bluff* and *Bubblegum Bluff* at the same time.
 ```
 
+**Pink Promise with a 5's Chop Move** (by Jeff)
+
+```
+* This convention only applies to variants with a pink suit.
+* When a player performs a *5's Chop Move*, it is clearly a type of *Save Clue*. But the focus of the clue is unclear.
+* We define the focus of the clue to be the 5 that is one-away from the chop.
+* Thus, when a player knows for sure that a number 5 clue indicates a *5's Chop Move*, the *Pink Promise* convention only applies to the 5 that is one-away from the chop.
+```
+
 **Reverse Finesse Restriction** (by Florrat)
 
 ```
