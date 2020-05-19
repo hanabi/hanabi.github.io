@@ -51,8 +51,8 @@ These conventions apply to any variant with an null (touched by no clues) suit.
 
 #### 5) Can I use *Positional Clues* to get non-null cards?
 
-* *Positional Clues* are **only** allowed to get null cards.
-* Subsequently, *Positional Clues* are "turned off" once all of the null cards have been played.
+* *Positional Clues* are confusing and we want to limit that confusion as much as possible. Players should **only** use *Positional Clues* to get null cards. (Some special exceptions are listed below in the "Special Moves" section.)
+* *Positional Clues* are "turned off" once all of the null cards have been played. Once that happens, *Double Finesse*, *Ejections*, and so forth are turned back on.
 
 #### 6) How about an example?
 
@@ -121,7 +121,7 @@ Some additional rules apply to *Positional Clues* that are intended to be *Save 
 
 #### The Positional Finesse
 
-* *Positional Clues* can also be used to *Finesse* a null card.
+* *Positional Clues* can also be used to *Finesse* a null card into a null card.
 * For example, in a 3-player game:
   * Nothing is played on the stacks.
   * Bob's hand is completely unclued.
@@ -146,6 +146,21 @@ Some additional rules apply to *Positional Clues* that are intended to be *Save 
 * However, what if a player in the middle of a *Positional Layered Finesse* plays their chop and it successfully plays but it is not be a null card?
 * In this circumstance, the player should **not** stop blind-playing. They should go on to play their new chop card, similar to a *Positional Inverted Layered Finesse*.
 * This is called a *Bounce Finesse* because it drops all the way down and then bounces back up.
+
+### The Slot Finesse 
+
+* Normally, if a *Positional Clue* is used to get a non-null card, then the blind-playing player would continue blind-playing cards as a *Positional Layered Finesse*. For that reason, it is normally impossible to *just* get a non-null card with a *Positional Clue*.
+* As a rare exception, players can perform a *Finesse* using a *Positional Clue* that has the blind-play "match" the card that was clued. If they match, then **no null cards are promised**.
+* This is called a *Slot Finesse* to distinguish it from a *Positional Finesse*. In other words, *Positional Finesses* use *Positional Clues* to get null cards to blind-play into other null cards. And *Slot Finesses* use *Positional Clues* to get non-null cards to play into other non-null cards.
+* For example, in a 3-player game:
+  * It is the first turn of the game and nothing is played on the stacks.
+  * Alice clues number 2 to Cathy, touching a red 2 as a *Play Clue*.
+  * Bob sees that Cathy has no other red cards in her hand, so Alice had a *Free Choice* between cluing red and cluing number 2. If Bob really had a red 1 on his *Finesse Position*, then Alice would clue red. Thus, this must be a *Rank Choice Positional Clue*.
+  * Bob blind-plays his slot 2 card as a null 1. Instead, it is the red 1 and it successfully plays. Bob now knows that this must be a *Positional Layered Finesse*, so Bob marks his slot 3 card as the null 1.
+  * Cathy knows that since Bob played slot 2 instead of slot 1, this must be a *Positional Clue*. However, Cathy also knows that you are only supposed to use *Positional Clues* to get null cards. So this must be a *Positional Layered Finesse* on Bob.
+  * However, from Cathy's perspective, Bob has no null cards, so Alice must have been intending something else. If Cathy does nothing, then Bob will go on to misplay his slot 3 card as a null 1. Cathy knows that since a red 1 matches a number 2 clue, then this must be a *Slot Finesse*.
+  * Cathy plays her 2 as a red 2 and it successfully plays.
+  * Bob knows that cards clued as part of *Positional Clues* are not promised to be playable, so it was very strange that Cathy played her 2. This must mean that he does not have the null 1 after all and that Alice's clue was simply a *Null Finesse*.
 
 <br />
 
