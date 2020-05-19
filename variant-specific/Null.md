@@ -19,10 +19,8 @@ These conventions apply to any variant with an null (touched by no clues) suit.
   * For example, a number 3 clue equals slot 3.
   * In a 4-player, 5-player game, or 6-player game a number 5 clue equals *Chop Move* (since there is no slot 5 card).
 * A **color** positional clue corresponds to a slot number that is based on the order of the stacks. Stacks correspond to the slot numbers **from right to left**.
-  * For example, in a 3-player game of the *Null (6 Suit)* variant, there are 5 color clues and 5 slots in the hand. Thus, a purple clue equals slot 5 (since it is the right-most color) and a red clue equals slot 4 (since it is the 2nd right-most color).
-  * For example, in a 3-player game of the *Null (5 Suit)* variant, there are 4 color clues and 5 slots in the hand. Thus, a blue clue equals slot 5 (since it is the right-most color) and a green clue equals slot 4 (since it is the 2nd right-most color).
-  * For example, in a 4-player game of the *Null (6 Suit)* variant, there are 5 color clues and 4 slots in the hand. Thus, a purple clue equals *Chop Move* (since there is no slot 5 card).
-  * Additionally, when players are determining which slot number the *Color Positional Clue* is talking about, they should always skip over any cards that have one or more positive clues on them. (But they should not skip over cards that are considered to be "untouched" from a *Positional Clue*.) An example of this is given later.
+  * For example, in a 3-player game of the *Null (6 Suit)* variant, there are 5 color clues and 5 slots in the hand. Thus, a purple clue equals slot 5 (since it is the right-most color), a red clue equals slot 4 (since it is the 2nd right-most color), and so forth.
+  * More examples for *Color Positional Clues* are listed below in a separate section. (*Color Positional Clues* have a dedicated section since they are a bit more complicated.)
 
 #### 2) Do I discard cards touched as a *Positional Clue*?
 
@@ -51,8 +49,8 @@ These conventions apply to any variant with an null (touched by no clues) suit.
 
 #### 5) Can I use *Positional Clues* to get non-null cards?
 
-* *Positional Clues* are confusing and we want to limit that confusion as much as possible. Players should **only** use *Positional Clues* to get null cards. (Some special exceptions are listed below in the "Special Moves" section.)
-* *Positional Clues* are "turned off" once all of the null cards have been played. Once that happens, *Double Finesse*, *Ejections*, and so forth are turned back on.
+* *Positional Clues* are confusing and we want to limit that confusion as much as possible. Players should **only** use *Positional Clues* to get null cards. (Some special exceptions are listed below in the *Positional Finesses* section.)
+* *Positional Clues* are "turned off" once all of the null cards have been played. Once that happens, *Double Finesses*, *Ejections*, and so forth are turned back on.
 
 #### 6) How about an example?
 
@@ -74,8 +72,17 @@ These conventions apply to any variant with an null (touched by no clues) suit.
   * Bob discards.
   * Cathy blind-plays her slot 4 card.
 
-#### 8) How does "skipping over clued cards" work for *Color Positional Clues*?
+<br />
 
+### Color Positional Clues
+
+* A color positional clue corresponds to a slot number that is based on the order of the stacks. Stacks correspond to the slot numbers **from right to left**.
+  * For example, in a 3-player game of the *Null (6 Suit)* variant, there are 5 color clues and 5 slots in the hand. Thus, a purple clue equals slot 5 (since it is the right-most color), a red clue equals slot 4 (since it is the 2nd right-most color), and so forth.
+  * For example, in a 3-player game of the *Null (5 Suit)* variant, there are 4 color clues and 5 slots in the hand. Thus, a blue clue equals slot 5 (since it is the right-most color), a green clue equals slot 4 (since it is the 2nd right-most color), and so forth.
+
+#### Color Positional Clues Skip Over Clued Cards
+
+* When players are determining which slot number the *Color Positional Clue* is talking about, they should always skip over any cards that have one or more positive clues on them. (But they should not skip over cards that are considered to be "untouched" from a *Positional Clue*.)
 * For example, in a 3-player game of the "Null (5 Suits)" variant:
   * All the 1's are played on the stacks except for the null 1.
   * Bob hand is as follows: red 1, red 1, null 1, blue 1, blue 5
@@ -85,9 +92,9 @@ These conventions apply to any variant with an null (touched by no clues) suit.
   * Bob knows that if his hand was completely unclued, green would refer to slot 4, since there are 5 slots in the hand and green is the 2nd rightmost color. But since Bob's slot 5 card already has a clue on it, he should skip over that card. So this must be targeting his slot 3 (e.g. his 2nd rightmost unclued slot).
   * Bob blind-plays null 1 from slot 3.
 
-#### 9) What happens a *Color Positional Clue* is used that goes past slot 1?
+#### Color Positional Clues Wrap Around
 
-* *Color Positional Clues* always "wrap around" to the oldest card.
+* *Color Positional Clues* always "wrap around" to the oldest card. In other words, if they go "past" slot 1, then they would apply to slot 5 again.
 * For example, in a 3-player game of the "Null (5 Suits)" variant:
   * All the 1's are played on the stacks except for the null 1.
   * Bob hand is as follows: null 1, red 1, red 5, blue 5, green 5
@@ -97,6 +104,16 @@ These conventions apply to any variant with an null (touched by no clues) suit.
   * Bob knows that if his hand was completely unclued, red would refer to slot 2, since there are 5 slots in the hand and red is the 4th rightmost color. But since Bob's slot 3, slot 4, and slot 5 card already have a clue on it, he should skip over those cards.
   * This means that blue would target slot 2 and green would target slot 1. Yellow would target slot 2 again (because of the wraparound) and red would target slot 1.
   * Bob blind-plays null 1 from slot 1.
+
+#### One-of-Each Colors Are Skipped
+
+* One-of-each colors are skipped over when finding the "rightmost color". This is because the right-most color is the most important color, and one-of-each colors are less likely to be around.
+* For example, in a 3-player game of the "Black & Null (6 Suits)" variant:
+  * Everyone has 5 cards in their hand.
+  * There are 5 possible colors: red, yellow, green, blue, and black.
+  * Normally, the rightmost color would be black, meaning that black would be assigned to slot 5. But black is skipped over, so blue is assigned to slot 5.
+  * Subsequently, green is assigned to slot 4, yellow is assigned to slot 3, and red is assigned to slot 2.
+  * Black is then assigned to slot 1. (In a 4-player game with 4 cards in the hand, then black would wrap-around and be assigned to the oldest slot again.)
 
 <br />
 
