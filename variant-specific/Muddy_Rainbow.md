@@ -11,7 +11,7 @@ These conventions apply to any variant with a muddy rainbow suit or a cocoa rain
 
 ### Muddy Rainbow Choice Tempo Clues
 
-* In variants with a pink suit, the *Pink Choice Tempo Clue* convention is "turned on", since players often have a *Free Choice* with how they can clue pink cards. Muddy rainbow has a similar convention.
+* In variants with a pink suit, the *[Pink Choice Tempo Clue](Pink.md#pink-choice-tempo-clue)* convention is "turned on", since players often have a *Free Choice* with how they can clue pink cards. Muddy rainbow has a similar convention.
 * When one or more muddy rainbow cards are retouched with a color clue, and there are no "new" cards introduced (or, if the only "new" cards introduced are trash), then extra information can be conveyed by what color is chosen. The color chosen should correspond to the slot that they should play.
 * The slot number is calculated in roughly the same way that *[Null Color Positional Clues](Null.md#color-positional-clues)* are calculated. In short, the slot number corresponds to the ordering of the colors **from right to left**. But skip the cards that are not touched by the color clue. And the colors always "wrap around" to the oldest card.
 * For example, in a 3-player game of the "Muddy Rainbow (6 Suits)" variant:
