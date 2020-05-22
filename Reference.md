@@ -3053,7 +3053,6 @@ Conventions for specific variants are listed on a separate page.
 | The 5 Pull Promise | Libster
 | Rank Choice Bluff & Rank Choice Finesse | Zamiel
 | The Load Clue | Zamiel
-| The Redundant Save Chop Move | q
 | The Composition Discard | Libster
 | The Negative Self-Chop Move | Libster
 | The Declined 5's Finesse | Zamiel
@@ -3065,18 +3064,18 @@ Conventions for specific variants are listed on a separate page.
 | The Double Scream Discard Chop Move | Asddsa
 | The Distribution Finesse | Asddsa
 | The Double Positional Misplay | Libster
-| Order Ejection | Zamiel & q
 | The Bad Touch Finesse | Zamiel
 | The Skipped Discard Chop Move | Libster
 | The Inverted 5's Tempo Clue | NoMercy
 | Discharge | Razvogor
+| Unknown Trash Discharge | Sankala
 | The Unnecessary Trash Push | sjdrodge
 | Trash Touch Elimination | sjdrodge
 | Junk Ejection | IAMJEFF
 | The 5 Color Ejection | IAMJEFF
 | The Double 5 Pull | IAMJEFF
-| Stacked 5 Color Ejection | Fireheart
-| Trash Push Ejection | IAMJEFF
+| Stacked Ejection & Stacked Discharge | Fireheart
+| Trash Push Discharge | IAMJEFF
 | Trash Double Bluff | IAMJEFF
 | 5 Number Discharge | IAMJEFF
 | The Gentleman's Discard Ejection | IAMJEFF
@@ -3097,9 +3096,13 @@ Conventions for specific variants are listed on a separate page.
 | The Black Save Bluff | Sankala
 | White Compromise | Postmans
 | The Bubblegum Finesse | Razvogor
+| The Bubblegum Bluff | Stephen
 | Pink & Omni Majority Conventions | Fireheart
-| Null Positional Clues | Razvogor, Zamiel, & IAMJEFF
-| Muddy/Cocoa Positional Clues | IAMJEFF
+| Null Positional Clues | Razvogor, Zamiel, IAMJEFF, & Kakashi
+| The Slot Finesse | IAMJEFF
+| The Slot Double Bluff | IAMJEFF
+| Muddy Rainbow Choice Tempo Clues | IAMJEFF
+| Muddy Rainbow Positional Clues | IAMJEFF
 | Dark Rainbow Saves | Florrat, Libster, & Zamiel
 | Dark Omni & Gray Pink Pseudo Saves | IAMJEFF
 | Dark Omni & Gray Pink Pseudo-Rank Saves | IAMJEFF
@@ -3112,8 +3115,7 @@ Conventions for specific variants are listed on a separate page.
 | 1's Color Ejection (1CE) | Kakashi
 | The U-Turn Finesse | NoMercy
 | Cow & Pig Rank Saves | Florrat
-| 5 Ejection (in Duck) | Kakashi
-| 4 Charm (in Duck) | IAMJEFF
+| Advanced Conventions for Variant with No Positive Clues | Kakashi, IAMJEFF, & Libster
 | Empty Clues | Zamiel & Florrat
 | The Empty Finesse | Instantiation
 | The Empty Double-Play | Zamiel & Jeep
