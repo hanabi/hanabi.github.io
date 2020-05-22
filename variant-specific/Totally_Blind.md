@@ -37,10 +37,10 @@ These conventions apply to the "Totally Blind" variants.
 | Number 3 | Play slot 3
 | Number 4 | Play slot 4
 | Number 5 | Chop move
-| Blue     | Double chop move (or a nothing clue if in a stalling situation)
-| Green    | Play slot 1 + play slot 2
-| Yellow   | Play slot 1 + play slot 3
-| Red      | Play slot 1 + play slot 4
+| Red      | Double chop move (or a nothing clue if in a stalling situation)
+| Yellow   | Play slot 1 + play slot 2
+| Green    | Play slot 1 + play slot 3
+| Blue     | Play slot 1 + play slot 4
 | Purple   | Two players play *Finesse Position* (must clue the person with the 2nd blind-play)
 | Teal     | Three players play *Finesse Position* (must clue the person with the 3rd blind-play)
 
