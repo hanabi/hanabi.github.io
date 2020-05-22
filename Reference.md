@@ -3011,7 +3011,6 @@ Conventions for specific variants are listed on a separate page.
 | The Critical 4 Bluff | Libster
 | The Chop Transfer | Duneaught
 | The Whisper Discard Chop Move | Zamiel
-| The Good Touch Bluff | Postmans
 | The Negative Blind-Play | Ahming
 | The Elimination Bluff | Zamiel
 | The Elimination Layered Finesse | Zamiel
