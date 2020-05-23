@@ -3047,7 +3047,7 @@ Conventions for specific variants are listed on a separate page.
 | Certain Discard Duplication Promise | Zamiel & Libster
 | The Unnecessary Trash Finesse/Bluff Chop Move | Libster
 | Surreptitious Self-Finesse | Sankala
-| Early 5 Chop Move | Libster
+| Early 5's Chop Move | Libster
 | The 5 Pull | Libster
 | The 5 Pull Promise | Libster
 | Rank Choice Bluff & Rank Choice Finesse | Zamiel
