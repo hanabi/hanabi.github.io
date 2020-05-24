@@ -16,6 +16,10 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 * Note that this convention **only** applies if it touches exactly **one** trash card. (This is because we want players to have the ability to perform 2-for-1 UTDs without promising a *Chop Move*.)
 ```
 
+<br />
+
+## The Backlog (Variant-Specific)
+
 @everyone Variant-specific conventions:
 
 **Pink Tempo Clues**
@@ -190,31 +194,4 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
   * Cathy knows that this must be a *Slot Double Bluff*, so she blind-plays her *Finesse Position* as any playable card. It is yellow 2 and it successfully plays.
   * Donald knows that from the sequence of events that Alice performed a *Slot Double Bluff*, so the 4 clue is to be treated as a *Positional Clue* (e.g. the 4 in his hand might be trash).
   * Bob sees that since Cathy blind-played her *Finesse Position* card for "no reason", he must not actually have the null 2 in his hand after all. Bob can reason that Alice performed a *Slot Double Bluff*.
-```
-
-## 2-Player Backlog
-
-@everyone New 2-player conventions:
-
-**Self-Bluffs with Color Clues** (by Jeff)
-
-```
-* In non-2-player games, *Self-Bluffs* with color clues are [explicitly illegal](../Reference.md#self-bluffs-with-color-clues-illegal). However, in 2-player games, they are allowed.
-* In other words, if a color clue does not touch a brand-new card and the player who receives the clue knows that the cards touched are not playable, then they know it is a signal to blind-play their *Finesse Position*.
-* Note that you are also allowed to perform a *Self-Bluff* by touching a *Chop Moved* card.
-```
-
-**The Delayed Bluff** (by Jeff)
-
-```
-* In non-2-player games, *Delayed Bluffs* are explicitly illegal, since they violate [*Good Lie Principle*](../Reference.md#8-good-lie-principle). However, in 2-player games, they are allowed.
-* Note that this convention also applies to *Double Bluffs*. For example, if cluing a 4 at the beginning of the game causes two 1's to blind-play, then the blind-playing player is not promised to have any more playable cards.
-```
-
-**The Dark Chop Move (by Jeff)**
-
-```
-* This convention only applies to variants with a one-of-each suit where *One-Away Saves* are turned off.
-* Normally, we are only allowed to save black cards on chop. So, if a black clue is performed on a black card that is not on chop, and it is not a stalling situation, then it will normally look like a *Play Clue* on that black card.
-* However, if the black card is one-away from chop, and there is context to know that the card is not playable, then the clue is not a *Play Clue* at all. Instead, it is understood that the clue is a *Dark Chop Move*, and the player should *Chop Move* in a manner similar to the *5's Chop Move*.
 ```
