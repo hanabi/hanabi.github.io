@@ -131,9 +131,7 @@ Note that in this user interface, players are **not** holding their hands like t
   * If the card will successfully play on the stacks **right now**, then it was *Play Clue*.
   * If the card will successfully play on the stacks after other people have played cards of the same suit, then it was a *Delayed Play Clue* that was *through* other cards.
 * But since we treat all *Play Clues* as *Delayed Play Clues*, this distinction is pretty much irrelevent. In this document, we use the phrase *Play Clue* to mean **either** a *Play Clue* or a *Delayed Play Clue*.
-* Additionally, when we say that a card is *playable*, we do **not** mean that the card can play on the stacks right this instant. If a card is *playable*, then we mean that it would be legal to give the card a *Delayed Play Clue*. In other words, a *playable* card will eventually play on the stack because all of the preceding cards, if any, are present and accounted for. (In this case, "present and accounted for" specifically means "cards that have a clue on them or are in *Finesse Position*.)
-* Similarly, when we say that a card is *one-away-from-playable*, we mean that if one specific in-between card was hypothetically present and accounted for, then it would be legal to give the card a *Delayed Play Clue*.
-  * For example, if no red cards are played yet, and Bob has a red 2 with a number 2 clue on it, and Cathy has a red 3, then Alice knows that the red 3 is one-away-from-playable, even though red 1 is not played yet. (It is one-away-from-playable through the red 2.)
+* Additionally, when we say that a card is *playable*, we do **not** mean that the card can play on the stacks right this instant. If a card is *playable*, then we mean that it would be legal to give the card a *Delayed Play Clue*. In other words, a *playable* card will eventually play on the stack because all of the preceding cards, if any, are present and accounted for.
 
 ### Save Clues
 
@@ -818,7 +816,7 @@ While the other sections in this document contain lists of special "moves", this
 
 * In certain special situations, everyone understands that a player might be giving a "stall" clue. However, there are limits - they are not allowed to just clue anything they want. These are the specific clues that they are allowed to give along with the precedence of each clue:
 
-| Precedence | Type of Clue | Early Game (Severity 1) | Double Discard (Severity 2) | Locked Hand (Severity 3) | 8 Clues (Severity 4)
+| Precedence | Type of Clue | Early Game (Severity 1) | Double Discard / Scream Discard (Severity 2) | Locked Hand (Severity 3) | 8 Clues (Severity 4)
 | ---------- | ------------ | ----------------------- | --------------------------- | ------------------------ | --------------------
 | 1          | Normal *Play Clues* or *Save Clues*                                                   | ✔ | ✔ | ✔ | ✔
 | 2          | *5 Stall* (cluing off-chop 5's)                                                       | ✔ | ✔ | ✔ | ✔
@@ -1726,7 +1724,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * Sometimes, duplicated cards are accidentally *Chop Moved* through a mistake or through a complicated situation. When this happens, it is pointless to use a clue to "undo" the *Chop Move* - the team can just continue to allow the player to discard normally.
 * Subsequently, if someone **does** use a clue to undo the *Chop Move*, there must be a good reason. This means that the card they were about to discard is important, so the player should discard the now-known useless card and then permanently *Chop Move* their new chop.
 
-### The Unnecessary Trash Finesse/Bluff Chop Move
+### The Unnecessary Trash Finesse Chop Move & The Unnecessary Trash Bluff Chop Move
 
 * The *Trash Finesse* or *Trash Bluff* is almost always done as a last resort - there was no way to give a direct *Play Clue* to the player's *Finesse Position* card without violating *Good Touch Principle*.
 * However, sometimes there **is** a way to "cleanly" touch the player's *Finesse Position* card. In this situation, doing a *Trash Finesse* or *Trash Bluff* would be unnecessary. But what if a player does it anyway?
@@ -3049,7 +3047,7 @@ Conventions for specific variants are listed on a separate page.
 | Certain Discard Duplication Promise | Zamiel & Libster
 | The Unnecessary Trash Finesse/Bluff Chop Move | Libster
 | Surreptitious Self-Finesse | Sankala
-| Early 5 Chop Move | Libster
+| Early 5's Chop Move | Libster
 | The 5 Pull | Libster
 | The 5 Pull Promise | Libster
 | Rank Choice Bluff & Rank Choice Finesse | Zamiel
