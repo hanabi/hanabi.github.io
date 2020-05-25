@@ -131,7 +131,9 @@ Note that in this user interface, players are **not** holding their hands like t
   * If the card will successfully play on the stacks **right now**, then it was *Play Clue*.
   * If the card will successfully play on the stacks after other people have played cards of the same suit, then it was a *Delayed Play Clue* that was *through* other cards.
 * But since we treat all *Play Clues* as *Delayed Play Clues*, this distinction is pretty much irrelevent. In this document, we use the phrase *Play Clue* to mean **either** a *Play Clue* or a *Delayed Play Clue*.
-* Additionally, when we say that a card is *playable*, we do **not** mean that the card can play on the stacks right this instant. If a card is *playable*, then we mean that it would be legal to give the card a *Delayed Play Clue*. In other words, a *playable* card will eventually play on the stack because all of the preceding cards, if any, are present and accounted for.
+* Additionally, when we say that a card is *playable*, we do **not** mean that the card can play on the stacks right this instant. If a card is *playable*, then we mean that it would be legal to give the card a *Delayed Play Clue*. In other words, a *playable* card will eventually play on the stack because all of the preceding cards, if any, are present and accounted for. (In this case, "present and accounted for" specifically means "cards that have a clue on them or are in *Finesse Position*.)
+* Similarly, when we say that a card is *one-away-from-playable*, we mean that if one specific in-between card was hypothetically present and accounted for, then it would be legal to give the card a *Delayed Play Clue*.
+  * For example, if no red cards are played yet, and Bob has a red 2 with a number 2 clue on it, and Cathy has a red 3, then Alice knows that the red 3 is one-away-from-playable, even though red 1 is not played yet. (It is one-away-from-playable through the red 2.)
 
 ### Save Clues
 
