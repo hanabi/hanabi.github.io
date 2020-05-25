@@ -809,7 +809,7 @@ While the other sections in this document contain lists of special "moves", this
 
 ### Stacked Bluffs (Illegal)
 
-* It is possible to "stack" a second *Finesse* on a player when they have yet to blind-play from a previous *Finesse*. This kind of thing is generally encouraged, since it has few downsides. (For more information, see the [Stacked Finesse](#the-stacked-finesse).)
+* It is possible to "stack" a second *Finesse* on top of a player who is already *Finessed*. This kind of thing is generally encouraged, since it has few downsides. (For more information, see the [Stacked Finesse](#the-stacked-finesse).)
 * However, players should **never** stack a *Bluff* on top of a player who is *Finessed*. This is because the blind-playing player will assume that a *Layered Finesse* is occurring and go on to play the card from the first *Finesse*. This means that the *Bluff* will not be resolved immediately, violating *Good Lie Principle*. (*Good Lie Principle* is one of the most important principles!) Typically, when this mistake happens, the team will go on to lose the game, because severe *Information Desynchronization* will occur.
 * Sometimes, in rare circumstances, expert players can perform *Out-of-Position Bluffs*, *Out-of-Position Ejections*, and *Out-of-Position Discharges*. (These moves are normally illegal, so for them to work, it has to be a very specific situation.) When these moves occur, it should be noted that it is illegal to stack a second *Bluff*, *Ejection*, or *Discharge* on top of them. You cannot stack a *Bluff* on a *Bluff* (or an *Ejection on an *Ejection*) for the same reason that you cannot stack a *Bluff* on a *Finesse* - the lie will not be resolved immediately and will violate *Good Lie Principle*.
 
