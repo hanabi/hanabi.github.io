@@ -210,3 +210,9 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
   * Donald knows that from the sequence of events that Alice performed a *Slot Double Bluff*, so the 4 clue is to be treated as a *Positional Clue* (e.g. the 4 in his hand might be trash).
   * Bob sees that since Cathy blind-played her *Finesse Position* card for "no reason", he must not actually have the null 2 in his hand after all. Bob can reason that Alice performed a *Slot Double Bluff*.
 ```
+
+**Throw It in a Hole** (change)
+
+```
+* Throw It in a Hole variants are now considered "hard", meaning that all of the "hard" conventions are turned on, such as *Loaded Play Clues*.
+```
