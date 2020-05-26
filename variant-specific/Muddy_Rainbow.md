@@ -19,7 +19,7 @@ These conventions apply to any variant with a muddy rainbow suit or a cocoa rain
   * Bob has two muddy rainbow cards clued in his hand on slot 3 and slot 4. He does not know the rank of either card.
   * Alice clues red to Bob, which re-touches both muddy rainbow cards and nothing else.
   * Bob knows that the colors available to clue in this variant are red, yellow, green, blue, and purple.
-  * Starting from the final color, a purple clue would mean to play slot 4, a blue clue would mean to play slot 3, a green clue would mean to play slot 4 (wraparound), a green clue would mean to play slot 3, and a red clue would mean to play slot 4 (another wraparound).
+  * Starting from the final color, a purple clue would mean to play slot 4, a blue clue would mean to play slot 3, a green clue would mean to play slot 4 (wraparound), a yellow clue would mean to play slot 3, and a red clue would mean to play slot 4 (another wraparound).
   * Bob plays his slot 4 card as a muddy rainbow 3. It successfully plays on the stacks.
 * Similar to how *Tempo Clues* work with pink cards and brown card, *Tempo Clues* on muddy rainbow cards are never *Tempo Clue Chop Moves* or *Double Tempo Clues* - they only promise the one card and that's it.
 * *Muddy Rainbow Choice Tempo Clues* are only allowed to get muddy rainbow cards.
