@@ -214,5 +214,5 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 **Throw It in a Hole** (change)
 
 ```
-* Throw It in a Hole variants are now considered "hard", meaning that all of the "hard" conventions are turned on, such as *Loaded Play Clues*.
+* Throw It in a Hole variants are now considered to be a hard, meaning that Loaded Play Clues are "turned on" and so forth.
 ```
