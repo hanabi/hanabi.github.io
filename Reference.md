@@ -2949,6 +2949,7 @@ Conventions for specific variants are listed on a separate page.
 * [Muddy Rainbow & Cocoa Rainbow](/variant-specific/Muddy_Rainbow.md)
 * [Muddy Rainbow + Rainbow](/variant-specific/Rainbow_&_Muddy_Rainbow.md)
 * [Gray Pink](/variant-specific/Dark_Omni_&_Gray_Pink.md)
+* [Special-Ones](/variant-specific/Special-Ones.md) (e.g. "Rainbow-Ones")
 * [Special-Fives](/variant-specific/Special-Fives.md) (e.g. "Pink-Fives")
 * [Dual-Color (6 Suits)](/variant-specific/Dual-Color_(6_Suits).md)
 * [Dual-Color (3 Suits)](/variant-specific/Dual-Color_(3_Suits).md)
