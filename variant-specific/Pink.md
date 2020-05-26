@@ -6,8 +6,8 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 
 ## Table of Contents
 
-1. [Basic Pink Principles](#)
-2. [Finesses and Other Special Moves](#)
+1. [Basic Pink Principles](#basic-pink-principles)
+2. [Finesses and Other Special Moves](#finesses-and-other-special-moves)
 
 <br />
 
