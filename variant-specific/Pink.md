@@ -4,6 +4,15 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 
 <br />
 
+## Table of Contents
+
+1. [Basic Pink Principles](#)
+2. [Finesses and Other Special Moves](#)
+
+<br />
+
+## Basic Pink Principles
+
 ### Good Touch Principle
 
 * Due to the nature of pink cards being touched by a lot of different kinds of clues, they are a bit easier to duplicate than a normal suit, or even a rainbow suit.
@@ -110,16 +119,6 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
   * Bob knows that a rank 4 clue means to play slot 4, so he plays his right-most pink card.
   * Bob holds on to the other pink card for later, knowing that the *Pink Choice Tempo Clue* only "gets" one card.
 
-### The Pink Choice Finesse
-
-* The concept of *Pink Choice* can also be used to initiate a *Finesse* on a pink card.
-* For example, in a 3-player game:
-  * No cards are played on the stacks.
-  * Cathy has a clued pink 3 in slot 3 and a clued pink 2 in slot 4. She does not know the rank of either card.
-  * Alice clues number 4 to Cathy, which touches both pink cards and nothing else.
-  * Bob knows that a number 4 clue means to play slot 4, so the pink 2 must be playable right now. Bob plays his *Finesse Position* card as pink 1.
-  * Cathy plays the pink 2 from slot 4.
-
 ### Pink Fix Clues (in general)
 
 * Normally, if a clue re-touches pink cards that are known to be pink, it is treated as a *Pink Choice Tempo Clue* or a *Pink Choice Finesse*.
@@ -132,6 +131,20 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
   * Normally, Bob would interpret this as a *Pink Choice Tempo Clue* and play his slot 3 card. However, his slot 3 card is completely unclued.
   * Bob instead knows that this must be a *Pink Fix Clue* and that his left-most pink card (on slot 4) must be exactly the pink 3.
   * Bob discards his slot 4 card as pink 3.
+
+<br />
+
+## Finesses and Other Special Moves
+
+### The Pink Choice Finesse
+
+* The concept of *Pink Choice* can also be used to initiate a *Finesse* on a pink card.
+* For example, in a 3-player game:
+  * No cards are played on the stacks.
+  * Cathy has a clued pink 3 in slot 3 and a clued pink 2 in slot 4. She does not know the rank of either card.
+  * Alice clues number 4 to Cathy, which touches both pink cards and nothing else.
+  * Bob knows that a number 4 clue means to play slot 4, so the pink 2 must be playable right now. Bob plays his *Finesse Position* card as pink 1.
+  * Cathy plays the pink 2 from slot 4.
 
 ### The Bubblegum Prompt & The Bubblegum Finesse
 
