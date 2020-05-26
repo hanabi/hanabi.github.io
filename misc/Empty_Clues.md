@@ -51,7 +51,7 @@
 | 4 (10, 16) | play 4          | number 4
 | 5 (11, 17) | chop move       | number 5
 
-* The chop move action MUST be given to a player (and can only be given to a player) if BOTH of the following are true:
+* The chop move action **must** be given to a player (and can only be given to a player) if **both** of the following are true:
   * they have a globally-known critical card on chop (2's do not count as critical unless the other copy is in the discard pile)
   * they have no new playable cards in their hand to "get" (which includes non-*Prompted* cards that have clues on them already)
 * The player receiving the chop move action can clue or discard, just like action 0.
@@ -169,7 +169,7 @@
 
 ### Giving Plays to Already Called Cards (Good)
 
-* As per the empty target priority list above, if a player only has one playable card in their hand and it is already fully known, then you CANNOT assign them a 0 action (a.k.a. a "clue or discard" action). In this case, you would tell them to blind-play the slot of the card that they already have full knowledge about.
+* As per the empty target priority list above, if a player only has one playable card in their hand and it is already fully known, then you **cannot** assign them a 0 action (a.k.a. a "clue or discard" action). In this case, you would tell them to blind-play the slot of the card that they already have full knowledge about.
 * However, if a player is *Finessed* for a card that will not yet be playable when it reaches their turn AND they have no other currently playable cards, then you MUST assign them a "clue or discard" action, since they cannot immediately play anything on their turn.
 
 ### Giving an Empty Clue After a Finesse (Bad)
