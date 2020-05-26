@@ -207,5 +207,5 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 
 ### Bubblegum Slides
 
-* If a *Bubblegum Prompt* or a *Bubblegum Finesse* is pointing to a card
-* TODO
+* If a *Bubblegum Prompt* or a *Bubblegum Finesse* is telling a player to play a card in a slot that has negative pink, then that is nonsensical.
+* In this situation, the slot should slide TODO
