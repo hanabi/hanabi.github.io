@@ -2927,7 +2927,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Bob knows that in a normal game, since the 5 was one-away from chop, Alice's clue would be a *5's Chop Move*.
   * Bob also knows that in hard variants, the *5's Chop Move* convention is turned off when the player receiving the clue is "loaded' with a play. Thus, this must be a *Loaded Play Clue* on the 5.
   * Bob plays the red 4 and will play the 5 on the next turn as red 5.
-* Similarly, *Loaded Play Clues* also apply to the *Trash Chop Move*. This means that any clue that looks like a *Trash Chop Move* will instead become a *Loaded Trash Ejection* (if the clue receiver is currently "loaded" with a play).
 
 ### Specific Variants
 
