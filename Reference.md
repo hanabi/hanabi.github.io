@@ -2077,7 +2077,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### The Trash Double Bluff (Form 1)
 
-* Normally, *Trash Bluffs* are only done as a last resort. When a *Trash Bluff* is performed that is unnecessary, then it is an *Unnecessary Trash Bluff Chop Move*. However, if there are no cards left to *Chop Move*, then this interpretation does not make any sense.
+* Normally, *Trash Bluffs* are only done as a last resort. When a *Trash Bluff* is performed that is unnecessary, then it is an *Unnecessary Trash Bluff Chop Move*. However, if there are no cards left to *Chop Move* (or if the trash card is on chop), then this interpretation does not make any sense.
 * In this situation, the interpretation should revert to a *Trash Double Bluff*.
 
 ### The Trash Double Bluff (Form 2)
