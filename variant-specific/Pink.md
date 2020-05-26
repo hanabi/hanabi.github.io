@@ -78,7 +78,7 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 ### No Order Chop Moves
 
 * At the beginning of the game, when you get a clue that touches multiple 1's, you are supposed to play them from right-to-left (in exactly in the same way that you would in a no variant game).
-* Players are not allowed to *Order Chop Move*, because they could be misplaying a pink card. (See the following two sections, which are related.)
+* Players are not allowed to *Order Chop Move*, because they could be misplaying a pink card. (Also see the following two sections, which are related.)
 
 ### Pink Fix Clues (on 1's)
 
