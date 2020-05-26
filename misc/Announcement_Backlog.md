@@ -8,6 +8,13 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 
 @everyone New conventions:
 
+**5 Stacked Color Ejection --> Stacked Ejection & Stacked Discharge**
+
+```
+* Previously, we had a specific convention where you could stack a *5 Color Ejection* on top of a person who was *Finessed*.
+* Now, this convention applies generally to all *Ejections* and all *Discharges*.
+```
+
 **The Unnecessary Unknown Trash Discharge Chop Move (UUTDCM)**
 
 ```
