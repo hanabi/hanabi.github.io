@@ -2377,7 +2377,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * Since players often perform *Burn* clues for stalling purposes in the *End-Game*, care has to be taken to not confuse a normal *Burn* clue with a *Trash Pull*. This is especially true if there was nothing else obvious for the clue giver to do!
 * *Trash Pulls* should typically be used as a last-resort since they might be misinterpreted.
 
-### The 5 Double Pull & The Double 5 Pull
+### The 5 Double Pull (Or The Double 5 Pull)
 
 * This convention only applies in the *Early Game*.
 * Normally, in the *Early Game*, it is impossible to perform a *5 Pull* on a chop card, because it will instead be interpreted as an an *Early 5's Chop Move*. In this situation, players will almost always just give a direct *Chop-Focus Play Clue* (and then give a *5 Save* to the 5 later on).
