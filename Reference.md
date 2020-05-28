@@ -2011,11 +2011,11 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * If two 2's were clued, then the other 2 is obviously the exact same copy as the chop 2. In this situation, the left-most card can be played and the other card discarded as known trash.
   * If three or more 2's were clued, then any of the other cards could be the duplicated 2. In this situation, the chop card should be discarded and then *Elimination Notes* for that card written on the other 2's.
 * For example, in a 3-player game:
-  * Nothing is played on the stacks.
+  * It is the first turn of the game and nothing is played on the stacks.
   * Alice clues number 2 to Cathy, touching a red 2 on slot 3 and a red 2 on slot 5 (her chop).
   * Bob knows that normally, this would be a *2 Save* on the red 2. However, Alice is violating *Good Touch Principle*, so she must be trying to communicate something extra.
   * Bob blind-plays his *Finesse Position* card and it is red 1.
-  * Cathy knows that since a clue that looks like a *2 Save* got Bob to blind-play something, then both of the twos must be red 2. Cathy plays the chop 2 (the original focus of the clue) and then discards the other one later.
+  * Cathy knows that since a clue that looks like a *2 Save* got Bob to blind-play something, then both of the twos must be red 2. Cathy plays the 2 on slot 3 and plans to discard the 2 on slot 5 on her next turn.
 * The *Bad Touch Finesse* is contextual and does not always apply:
   * If the clue giver was an *Occupied*, then it is an *Occupied Play Clue* and the other 2's are not necessarily duplicated.
   * If the clue giver gave a *2 Save* early and had other *Play Clues* to give instead, the clue could be so bad that it would trigger a *Finesse* and the other 2's are not necessarily duplicated.
