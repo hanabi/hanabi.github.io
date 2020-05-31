@@ -25,7 +25,7 @@ Note that convention updates for the group are listed in the `#announcements` ch
     * [Emergency Moves](#level-5---rarely-used-strategies-emergency-moves)
     * [Ejection](#level-5---rarely-used-strategies-ejection)
     * [Discharge](#level-5---rarely-used-strategies-discharge)
-    * [Ejection & Discharge Extensions](#level-5---)
+    * [Ejection & Discharge Extensions](#level-5---ejection--discharge-extensions)
     * [Miscellaneous](#level-5---rarely-used-strategies-miscellaneous)
 10. [Variant-Specific Strategies](#variant-specific-strategies)
 11. [Convention Attribution](#convention-attribution)
@@ -2628,7 +2628,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ## Level 5 - Ejection & Discharge Extensions
 
-### Out-of-Position Ejection
+### The Out-of-Position Ejection
 
 * Normally, players are only allowed to perform an *Ejection* on the very next player (similar to a *Bluff*).
 * However, if an *Ejection* is performed, and the very next player does not have a *Second Finesse Position*, then they cannot demonstrate to the team that an *Ejection* is occurring.
@@ -2646,15 +2646,15 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * Note that you are not allowed to perform *Out-of-Position Ejections* in reverse, unless it is super-obvious what is going on.
 
 
-### Out-of-Position Discharge
+### The Out-of-Position Discharge
 
-* First, see [Out-of-Position Ejection](#out-of-position-ejection).
+* First, see the [Out-of-Position Ejection](#the-out-of-position-ejection).
 * Just like OOP *Ejection*, it is possible to do OOP *Discharge* in the exact same way.
 
-### Stacked Ejection & Stacked Discharge
+### The Stacked Ejection
 
 * Normally, you are not allowed to perform a *Bluff* on a player that is already "loaded" with a blind-play for a *Finesse*. (This is because the next player will allow for the possibility of a *Layered Finesse*, and the *Bluff* will not resolve immediately.)
-* Similarly, since *Ejections* and *Discharges* follow most of the same rules as *Bluffs*, you are not allowed to perform an *Ejection* or a *Discharge* on a player that is already "loaded" with a blind-play for a *Finesse*.
+* Similarly, since *Ejections* follow most of the same rules as *Bluffs*, you are not allowed to perform an *Ejection* on a player that is already "loaded" with a blind-play for a *Finesse*.
 * So, if a 5 was clued with color in this situation, the next player would assume a *Stacked Finesse* instead of a *5 Color Ejection*. Thus, they would then play the card from the original *Finesse* (or play nothing if the card from the original *Finesse* is not yet playable).
 * However, what if the next player can know that a *Stacked Finesse* is impossible due to them not having enough possible cards to fulfill the *Finesse*? In this case, it would be a *Known Stacked 5 Color Ejection*.
 * When this occurs, players should immediately play their *First Finesse Position* (slot 2) instead of their *Second Finesse* position (slot 3).
@@ -2667,6 +2667,11 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Since a *Stacked Finesse* is impossible, Cathy knows that this must be a *Stacked 5 Color Ejection*.
   * Alice's clue *Finessed* Cathy. So after Alice's clue, Cathy's *Finesse Position* moved to her slot 2 and her *Second Finesse Position* moved to her slot 3.
   * Normally, *Ejection* calls for the *Second Finesse Position*, but in this case, Cathy knows that *Stacked 5 Color Ejections* call for the *First Finesse Position* instead of the *Second Finesse Position*, so Cathy blind-plays slot 2 (instead of slot 3).
+
+### The Stacked Discharge
+
+* First, see the [Stacked Ejection](#the-stacked-ejection).
+* Just like *Stacked Ejection*, it is possible to do *Stacked Discharge* in the exact same way.
 
 <br />
 
