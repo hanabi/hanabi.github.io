@@ -6,22 +6,7 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 
 ## The Backlog
 
-@everyone New conventions:
 
-**5 Stacked Color Ejection --> Stacked Ejection & Stacked Discharge**
-
-```
-* Previously, we had a specific convention where you could stack a *5 Color Ejection* on top of a person who was *Finessed*.
-* Now, this convention applies generally to all *Ejections* and all *Discharges*.
-```
-
-**The Unnecessary Unknown Trash Discharge Chop Move (UUTDCM)**
-
-```
-* First, review the section in the doc on the *Unnecessary Trash Finesse/Bluff Chop Move*.
-* This same concept now applies to *Unknown Trash Discharge*. In other words, if an unnecessary *Unknown Trash Discharge* is performed, then the player who receives the clue should *Chop Move* in the same way as the *Unnecessary Trash Finesse/Bluff Chop Move*.
-* Note that this convention **only** applies if it touches exactly **one** trash card. (This is because we want players to have the ability to perform 2-for-1 UTDs without promising a *Chop Move*.)
-```
 
 <br />
 
@@ -43,14 +28,6 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 * This convention only applies to variants with a brown suit.
 * If a player gives a *Tempo Clue* to a brown card, it is never a *Tempo Clue Chop Move*, even if it only gets one card played.
 * This is because it is fairly valuable to get brown cards out of the hand as soon as possible in case blocking cards are drawn.
-```
-
-**Muddy Rainbow Saves**
-
-```
-* This convention applies to variants with a muddy rainbow suit or a cocoa rainbow suit.
-* Since muddy rainbow 2 cannot be *2 Saved* and and muddy rainbow 5 cannot be *5 Saved*, there needs to be a separate way to save these cards.
-* Any red color clue (the left-most color) to a chop card is treated as a potential *Muddy Rainbow Save* on a muddy rainbow 2 or a muddy rainbow 5.
 ```
 
 **The Bubblegum Bluff** (by Stephen)
