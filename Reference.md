@@ -651,7 +651,7 @@ While the other sections in this document contain lists of special "moves", this
   * The end-game has not started yet (see the *End-Game Threshold*).
   * You know that someone else will have to discard in the future.
 
-### Recognizing *Finesses* on Other Players (Part 1)
+### How to Tell the Difference Between a *Finesse* and a *Bluff* (Part 1) - Recognizing *Finesses* on Other Players 
 
 * Sometimes, a player will give a clue that looks like it could be either a *Finesse* or a *Bluff*. Between these two moves, which should have precedence?
 * For example, in a 4-player game:
@@ -665,12 +665,12 @@ While the other sections in this document contain lists of special "moves", this
   * Bob also knows that if this is a *Bluff*, then Bob should blind-play his *Finesse Position* card immediately.
   * Bob knows that if there is any way that this could be a *Finesse* (the truth), he should **assume that the truth is being told**. Thus, Bob knows that it must be a *Finesse* on Cathy and should not blind-play anything.
 
-### Telling the Difference Between a Finesse and a Bluff (Part 2)
+### How to Tell the Difference Between a *Finesse* and a *Bluff* (Part 2) - *Bluffs* Are on "Mismatched" Cards
 
 * With the previous section in mind, let's switch examples and assume that Alice did a clue and then Bob blind-played a card.
 * So secondly, we can consider the case of Bob **after** he has blind-played a card, which also extends to the rest of the team. How does everyone know whether Alice did a *Finesse* or a *Bluff* on Bob?
 * The way to find out is to look at **whether the card that blind-played "matches" the clue that was given**. If the clue matches, then it is a *Finesse*. If the clue did not match, then it is a *Bluff*.
-* If it is ambiguous whether or not the card matches, then the team should **always assume a *Bluff* over a *Finesse***. (Note that this is the opposite of the precedence in part 1!)
+* If it is ambiguous whether or not the card matches, then the team should **always assume a *Bluff* over a *Finesse***. (Note that this is the **opposite** of the precedence in part 1!)
 * Example 1 (color match):
   * Blue 1 is played on the stacks.
   * Alice clues Cathy about a blue card.
