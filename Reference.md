@@ -297,6 +297,64 @@ Note that in this user interface, players are **not** holding their hands like t
   * Next, Cathy sees that Bob just blind-played a blue 3 immediately after this red clue, so she knows that she must have a one-away from playable red card - the red 4. Cathy holds on to the red 4 for later and discards.
 * Except in rare circumstances, ***Bluffing* is only permissible when you are the person directly before the player who is blind-playing a card**. This is called being in *Bluff Seat*. Do not *Bluff* unless you are in *Bluff Seat*! (This follows from *Good Lie Principle*.)
 
+### How to Tell the Difference Between a *Finesse* and a *Bluff* (Part 1) - Recognizing *Finesses* on Other Players 
+
+* Sometimes, a player will give a clue that looks like it could be either a *Finesse* or a *Bluff*. Between these two moves, which should have precedence?
+* For example, in a 4-player game:
+  * All of the 1's are played on the stacks.
+  * Cathy has a blue 2 on her *Finesse Position*.
+  * Alice clues blues to Donald, highlighting a blue 3 as a *Play Clue*.
+  * Now, it is Bob's turn.
+* What to think **depends** on whether you are Bob or whether you are someone else on the team.
+* First, let's consider the case of Bob, the very next player. Bob should **always assume a *Finesse* over a *Bluff***. From his perspective:
+  * Bob knows that if this is a *Finesse*, then Cathy will blind-play the blue 2, and then Donald will know that he has the blue 3. If this is the case, Bob should not do anything special.
+  * Bob also knows that if this is a *Bluff*, then Bob should blind-play his *Finesse Position* card immediately.
+  * Bob knows that if there is any way that this could be a *Finesse* (the truth), he should **assume that the truth is being told**. Thus, Bob knows that it must be a *Finesse* on Cathy and should not blind-play anything.
+
+### How to Tell the Difference Between a *Finesse* and a *Bluff* (Part 2) - *Bluffs* Are on "Mismatched" Cards
+
+* With the previous section in mind, let's switch examples and assume that Alice did a clue and then Bob blind-played a card.
+* So secondly, we can consider the case of Bob **after** he has blind-played a card, which also extends to the rest of the team. How does everyone know whether Alice did a *Finesse* or a *Bluff* on Bob?
+* The way to find out is to look at **whether the card that blind-played "matches" the clue that was given**. If the clue matches, then it is a *Finesse*. If the clue did not match, then it is a *Bluff*.
+* If it is ambiguous whether or not the card matches, then the team should **always assume a *Bluff* over a *Finesse***. (Note that this is the **opposite** of the precedence in part 1!)
+* Example 1 (color match):
+  * Blue 1 is played on the stacks.
+  * Alice clues Cathy about a blue card.
+  * Bob blind-plays a blue 2.
+  * This must be a *Finesse*, because **blue matches blue**. So Cathy should think that she has the blue 3.
+  * This is a textbook *Finesse*; you can't get any more basic than this.
+* Example 2 (color mismatch):
+  * Blue 1 is played on the stacks.
+  * Alice clues Cathy about a blue card.
+  * Bob blind-plays a red 1.
+  * This must be a *Bluff*, because **red does not match blue**. So Cathy should think that she has the one-away from playable blue card, blue 3.
+  * This is a textbook *Bluff*; you can't get any more basic than this.
+* Example 3 (color match with rainbow):
+  * This is a game with a rainbow suit. (The other examples in this section assume a "No Variant" game.)
+  * Rainbow 1 is played on the stacks.
+  * Alice clues Cathy about a blue card.
+  * Bob blind-plays a rainbow 2.
+  * This must be a *Finesse*, because **blue matches blue** (rainbow cards match every color). So Cathy should think that she has the rainbow 3.
+* Example 4 (rank match):
+  * Blue 2 is played on the stacks.
+  * Alice clues Cathy about a 4.
+  * Bob blind-plays the blue 3.
+  * This must be a *Finesse*, because **3 matches 4**. So Cathy should think that she has the blue 4.
+* Example 5 (rank mismatch):
+  * Blue 2 is played on the stacks.
+  * Alice clues Cathy about a 4.
+  * Bob blind-plays the red 1.
+  * This must be a *Bluff*, because **1 does not match 4**. So Cathy should think that she has the one-away from playable 4, the blue 4.
+  * The point of example 5 is to show that because a 2 happens to be played on the stacks, the blue 4 is a one-away-from-playable card and therefore becomes a legal *Bluff* target.
+* Example 6 (rank mismatch where a *Bluff* is impossible):
+  * This is a 4-player game.
+  * Nothing is played on the stacks.
+  * Alice clues Donald about a 4.
+  * Bob blind-plays the red 1.
+  * Cathy discards.
+  * This **cannot** be a *Bluff*, because there are no one-away from playable 4's. So even though 1 does not match 4, this must be a *Finesse*, because Alice is not allowed to perform a *Bluff* with any card that she wants.
+  * Donald does not see any other red cards in Bob's hand. So Donald should think that he has the red 4, because that would match the blind-play of a red 1. Subsequently, Donald must have red 2 on his *Finesse Position* and red 3 on his *Second Finesse Position*.
+
 ### The Early Game (Intermediate Section)
 
 * The *Early Game* is introduced in the [beginner's document](Beginner.md). In short:
@@ -650,64 +708,6 @@ While the other sections in this document contain lists of special "moves", this
 * Do not give a *Burn Clue* if:
   * The end-game has not started yet (see the *End-Game Threshold*).
   * You know that someone else will have to discard in the future.
-
-### How to Tell the Difference Between a *Finesse* and a *Bluff* (Part 1) - Recognizing *Finesses* on Other Players 
-
-* Sometimes, a player will give a clue that looks like it could be either a *Finesse* or a *Bluff*. Between these two moves, which should have precedence?
-* For example, in a 4-player game:
-  * All of the 1's are played on the stacks.
-  * Cathy has a blue 2 on her *Finesse Position*.
-  * Alice clues blues to Donald, highlighting a blue 3 as a *Play Clue*.
-  * Now, it is Bob's turn.
-* What to think **depends** on whether you are Bob or whether you are someone else on the team.
-* First, let's consider the case of Bob, the very next player. Bob should **always assume a *Finesse* over a *Bluff***. From his perspective:
-  * Bob knows that if this is a *Finesse*, then Cathy will blind-play the blue 2, and then Donald will know that he has the blue 3. If this is the case, Bob should not do anything special.
-  * Bob also knows that if this is a *Bluff*, then Bob should blind-play his *Finesse Position* card immediately.
-  * Bob knows that if there is any way that this could be a *Finesse* (the truth), he should **assume that the truth is being told**. Thus, Bob knows that it must be a *Finesse* on Cathy and should not blind-play anything.
-
-### How to Tell the Difference Between a *Finesse* and a *Bluff* (Part 2) - *Bluffs* Are on "Mismatched" Cards
-
-* With the previous section in mind, let's switch examples and assume that Alice did a clue and then Bob blind-played a card.
-* So secondly, we can consider the case of Bob **after** he has blind-played a card, which also extends to the rest of the team. How does everyone know whether Alice did a *Finesse* or a *Bluff* on Bob?
-* The way to find out is to look at **whether the card that blind-played "matches" the clue that was given**. If the clue matches, then it is a *Finesse*. If the clue did not match, then it is a *Bluff*.
-* If it is ambiguous whether or not the card matches, then the team should **always assume a *Bluff* over a *Finesse***. (Note that this is the **opposite** of the precedence in part 1!)
-* Example 1 (color match):
-  * Blue 1 is played on the stacks.
-  * Alice clues Cathy about a blue card.
-  * Bob blind-plays a blue 2.
-  * This must be a *Finesse*, because **blue matches blue**. So Cathy should think that she has the blue 3.
-  * This is a textbook *Finesse*; you can't get any more basic than this.
-* Example 2 (color mismatch):
-  * Blue 1 is played on the stacks.
-  * Alice clues Cathy about a blue card.
-  * Bob blind-plays a red 1.
-  * This must be a *Bluff*, because **red does not match blue**. So Cathy should think that she has the one-away from playable blue card, blue 3.
-  * This is a textbook *Bluff*; you can't get any more basic than this.
-* Example 3 (color match with rainbow):
-  * This is a game with a rainbow suit. (The other examples in this section assume a "No Variant" game.)
-  * Rainbow 1 is played on the stacks.
-  * Alice clues Cathy about a blue card.
-  * Bob blind-plays a rainbow 2.
-  * This must be a *Finesse*, because **blue matches blue** (rainbow cards match every color). So Cathy should think that she has the rainbow 3.
-* Example 4 (rank match):
-  * Blue 2 is played on the stacks.
-  * Alice clues Cathy about a 4.
-  * Bob blind-plays the blue 3.
-  * This must be a *Finesse*, because **3 matches 4**. So Cathy should think that she has the blue 4.
-* Example 5 (rank mismatch):
-  * Blue 2 is played on the stacks.
-  * Alice clues Cathy about a 4.
-  * Bob blind-plays the red 1.
-  * This must be a *Bluff*, because **1 does not match 4**. So Cathy should think that she has the one-away from playable 4, the blue 4.
-  * The point of example 5 is to show that because a 2 happens to be played on the stacks, the blue 4 is a one-away-from-playable card and therefore becomes a legal *Bluff* target.
-* Example 6 (rank mismatch where a *Bluff* is impossible):
-  * This is a 4-player game.
-  * Nothing is played on the stacks.
-  * Alice clues Donald about a 4.
-  * Bob blind-plays the red 1.
-  * Cathy discards.
-  * This **cannot** be a *Bluff*, because there are no one-away from playable 4's. So even though 1 does not match 4, this must be a *Finesse*, because Alice is not allowed to perform a *Bluff* with any card that she wants.
-  * Donald does not see any other red cards in Bob's hand. So Donald should think that he has the red 4, because that would match the blind-play of a red 1. Subsequently, Donald must have red 2 on his *Finesse Position* and red 3 on his *Second Finesse Position*.
 
 ### Urgency Principle
 
