@@ -19,7 +19,7 @@ These conventions apply to any variant with an null (touched by no clues) suit.
   * For example, a number 3 clue equals slot 3.
   * In a 4-player, 5-player game, or 6-player game a number 5 clue equals *Chop Move* (since there is no slot 5 card).
 * A **color** positional clue corresponds to a slot number that is based on the order of the stacks. Stacks correspond to the slot numbers **from right to left**.
-  * For example, in a 3-player game of the *Null (6 Suit)* variant, there are 5 color clues and 5 slots in the hand. Thus, a purple clue equals slot 5 (since it is the right-most color), a red clue equals slot 4 (since it is the 2nd right-most color), and so forth.
+  * For example, in a 3-player game of the *Null (6 Suit)* variant, there are 5 color clues and 5 slots in the hand. Thus, a purple clue equals slot 5 (since it is the right-most color), a blue clue equals slot 4 (since it is the 2nd right-most color), and so forth.
   * More examples for *Color Positional Clues* are listed below in a separate section. (*Color Positional Clues* have a dedicated section since they are a bit more complicated.)
 
 #### 2) Do I discard cards touched as a *Positional Clue*?
@@ -77,7 +77,7 @@ These conventions apply to any variant with an null (touched by no clues) suit.
 ### Color Positional Clues
 
 * A color positional clue corresponds to a slot number that is based on the order of the stacks. Stacks correspond to the slot numbers **from right to left**.
-  * For example, in a 3-player game of the *Null (6 Suit)* variant, there are 5 color clues and 5 slots in the hand. Thus, a purple clue equals slot 5 (since it is the right-most color), a red clue equals slot 4 (since it is the 2nd right-most color), and so forth.
+  * For example, in a 3-player game of the *Null (6 Suit)* variant, there are 5 color clues and 5 slots in the hand. Thus, a purple clue equals slot 5 (since it is the right-most color), a blue clue equals slot 4 (since it is the 2nd right-most color), and so forth.
   * For example, in a 3-player game of the *Null (5 Suit)* variant, there are 4 color clues and 5 slots in the hand. Thus, a blue clue equals slot 5 (since it is the right-most color), a green clue equals slot 4 (since it is the 2nd right-most color), and so forth.
 
 #### Color Positional Clues Skip Over Clued Cards
