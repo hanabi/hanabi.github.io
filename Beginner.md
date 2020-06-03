@@ -70,7 +70,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
 #### The System
 
 * If two or more cards are touched, then **the clue is only focused on a single card**. (Meaning that it is either a *Play Clue* or a *Save Clue* on the focused card only.)
-* **Nothing is implied about the non-focused cards** (beyond that they will be useful at some point later on, which follows from *Good Touch Principle*). 
+* **Nothing is implied about the non-focused cards** (beyond that they will be useful at some point later on). 
 * So, how do you know which card is focused?
   * The focus is always on the card that did not have any clues on it already. (We refer to this as the "brand new card introduced".)
   * If there are multiple "new" cards, then:
