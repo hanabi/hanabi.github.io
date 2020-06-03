@@ -116,7 +116,8 @@ In this guide, there will be some screenshots to show off the concepts introduce
 ### Save Clues
 
 * *Save Clues* **can only be given to cards on chop**. You can't give a *Save Clue* otherwise!
-* The team **must save** the following cards (and is **only allowed** to save the following cards):
+  * So if a clue is focused on a card that is not on the chop, it must be a *Play Clue*.
+* The team **must save** the following cards (and are **only allowed** to save the following cards):
   * All 5's
   * Unique 2's (meaning that only one copy is currently visible)
   * Critical cards (meaning that the other copy is discarded)
