@@ -123,7 +123,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
 * Sometimes, a *Chop Focus* clue could be either a *Save Clue* or a *Play Clue*. When this happens, the receiving player must consider both possibilities and hold on to the card until they know for sure.
 * The three kinds of *Save Clues* are listed below.
 
-#### 5 Saves
+#### The 5 Save
 
 <img src="img/beginner/5_save.png" height="150" />
 
@@ -134,7 +134,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
   * Since the clue was focused on his chop, Bob knows that this must be a *5 Save* on the 5. It can be any 5 in the game.
 * 5's must be saved with a number clue instead of a color clue. (Otherwise, it will look like a *Play Clue*!)
 
-#### 2 Saves
+#### The 2 Save
 
 <img src="img/beginner/2_save.png" height="150" />
 
@@ -146,12 +146,12 @@ In this guide, there will be some screenshots to show off the concepts introduce
 * Similar to 5's, 2's must be saved with a number clue instead of a color clue.
 * You can think of the *2 Save* as a last resort to save a 2. Thus, players are not allowed to perform a *2 Save* on a 2 if that same 2 is visible in someone else's hand (because the team does not actually need to save that 2 quite yet - they can *2 Save* it when the other copy reaches the chop).
 
-##### Critical Saves
+##### The Critical Save
 
 <img src="img/beginner/critical_save.png" height="250" />
 
 * For the same reason that 5's need to be saved, critical cards also need to be saved. (Critical cards are defined as cards that have the other copy discarded.)
-* Players can choose to save critical cards with either a color clue or a number clue.
+* Players can choose to save critical cards with either a color clue **or** a number clue.
 * In the above screenshot:
   * The current discard pile is shown to the right of the hands.
   * Alice clues Bob yellow, which touches a card on slot 4.
