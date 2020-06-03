@@ -195,7 +195,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
 
 ### 1 - Good Touch Principle
 
-* When a clue is given, the cards that are "touched" by the clue are highlighted by arrows.
+* When clues are given, we say that they "touch" cards. (On Hanabi Live, cards that are touched by one or more clues are given a special border.)
 * When cluing cards, we follow *Good Touch Principle* - this means that **we only want to touch cards that will eventually be played**. So, if someone touches a card that is already played on the stacks or a card that is already clued in someone else's hand, then that would be a *Bad Touch*.
 * *Good Touch Principle* is a powerful building block for logic and reasoning. If everyone only touches good cards, then players can greatly narrow down the possibilities for all of the clued cards in their hand!
 
