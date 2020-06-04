@@ -33,7 +33,6 @@ The following is a brief description of each level, explaining what should and s
 #### Level 1 - Newbie
 
 * Level 1 strategies can be learned with no games of Hanabi played. You can either learn them before you play your first game or after you play a few games to learn the basic mechanics.
-* These strategies are covered in the [beginner guide](../Beginner.md).
 * Level 1 strategies are as follows:
   * *[Play Clues](../Beginner.md#play-clues)*
   * *[Save Clues](../Beginner.md#save-clues)*
@@ -47,7 +46,6 @@ The following is a brief description of each level, explaining what should and s
 #### Level 2 - Novice
 
 * Level 2 strategies should only be learned if you have played with the group a few times and have got the basics down (5-10 games of experience).
-* These strategies are covered in the [main reference document](../Reference#level-2---novice).
 * This level builds the strategies in level 1, outlining what to do in more specific situations.
 * Level 2 strategies are as follows:
   * [Playing starting 1's from right to left](../Reference.md#playing-multiple-1s---play-order-inversion-in-the-starting-hand-part-1)
@@ -57,7 +55,6 @@ The following is a brief description of each level, explaining what should and s
 #### Level 3 - Initiate
 
 * Level 3 strategies should only be learned if you have played with the group for a few days (20+ games of experience).
-* These strategies are covered in the [main reference document](../Reference#level-3---initiate).
 * This level introduces a few different kinds of *Chop Moves*. While *Chop Moves* may not be used in every single game, level 3 players should be comforatable with all of the basic forms.
 * Level 3 strategies are as follows:
   * *[The Trash Chop Move](../Reference.md#the-trash-chop-move)*
@@ -66,7 +63,6 @@ The following is a brief description of each level, explaining what should and s
 #### Level 4 - Rookie
 
 * Level 4 strategies should only be learned if you have played with the group for a week or so (40+ games of experience).
-* These strategies are covered in the [main reference document](../Reference#level-4---rookie).
 * This level covers *Double Discard* situations and introduces *Layered Finesses*. Players at this level **only** tell the truth to each other.
 * Level 4 strategies are as follows:
   * *[The Stacked Finesse](../Reference.md#the-stacked-finesse)*
@@ -78,7 +74,6 @@ The following is a brief description of each level, explaining what should and s
 #### Level 5 - Apprentice
 
 * Level 5 strategies should only be learned if you have 60+ games of experience with the group.
-* These strategies are covered in the [main reference document](../Reference#level-5---apprentice).
 * This level covers some more special kinds of *Chop Moves* and introduces the various "emergency" discards.
 * Level 5 strategies are as follows:
   * *[The Order Chop Move](../Reference.md#the-order-chop-move--the-skipped-order-chop-move)*
@@ -91,7 +86,6 @@ The following is a brief description of each level, explaining what should and s
 #### Level 6 - Intermediate
 
 * Level 6 strategies should only be learned if you have 80+ games of experience with the group.
-* These strategies are covered in the [main reference document](../Reference#level-6---intermediate).
 * This level explains how to handle stalling situations.
 * Level 6 strategies are as follows:
   * *[The Locked Hand Save](../Reference.md#the-locked-hand-save)*
@@ -101,7 +95,6 @@ The following is a brief description of each level, explaining what should and s
 #### Level 7 - Fellow
 
 * Level 7 strategies should only be learned if you have 100+ games of experience with the group.
-* These strategies are covered in the [main reference document](../Reference#level-7---fellow).
 * This level explains how to do special discards that transfer cards to other players.
 * Level 7 strategies are as follows:
   * *[The Sarcastic Discard](../Reference.md#the-sarcastic-discard)*
@@ -115,7 +108,6 @@ The following is a brief description of each level, explaining what should and s
 #### Level 8 - Journeyman
 
 * Level 8 strategies should only be learned if you have 120+ games of experience with the group.
-* These strategies are covered in the [main reference document](../Reference#level-8---journeyman).
 * This level introduces *Bluffs* and all of the complicated stipulations that go along with them.
 * Level 8 strategies are as follows:
   * *[The Bluff](../Reference.md#the-bluff)*
@@ -123,7 +115,6 @@ The following is a brief description of each level, explaining what should and s
 #### Level 9 - Advanced
 
 * Level 9 strategies should only be learned if you have 140+ games of experience with the group.
-* These strategies are covered in the [main reference document](../Reference#level-9---advanced).
 * This level introduces the concept of *Priority* and all of the complicated stipulations that go along with it.
 * Level 9 strategies are as follows:
   * *[The Priority Prompt & The Priority Finesse](../Reference.md#the-priority-prompt--the-priority-finesse)*
@@ -131,7 +122,6 @@ The following is a brief description of each level, explaining what should and s
 #### Level 10 - Adept
 
 * Level 10 strategies should only be learned if you have 160+ games of experience with the group.
-* These strategies are covered in the [main reference document](../Reference#level-10---adept).
 * This level introduces *3 Bluffs* and *Context Clues*.
 * Level 10 strategies are as follows:
   * *[3 Bluffs](../Reference.md#the-3-bluff)*
@@ -140,7 +130,6 @@ The following is a brief description of each level, explaining what should and s
 #### Level 11 - Senior
 
 * Level 11 strategies should only be learned if you have 180+ games of experience with the group.
-* These strategies are covered in the [main reference document](../Reference#level-11---senior).
 * This level introduces *Elimination* and all of the complicated situations that go along with it.
 * Level 11 strategies are as follows:
   * *[Discard Elimination](../Reference.md#discard-elimination--elimination-notes--the-elimination-blind-play)*
@@ -149,7 +138,6 @@ The following is a brief description of each level, explaining what should and s
 #### Level 12 - Scholar
 
 * Level 12 strategies should only be learned if you have 200+ games of experience with the group.
-* These strategies are covered in the [main reference document](../Reference#level-12---scholar).
 * This level introduces "early" 5 moves.
 * Level 12 strategies are as follows:
   * *[The Early 5's Chop Move](../Reference.md#the-early-5s-chop-move)*
@@ -158,7 +146,6 @@ The following is a brief description of each level, explaining what should and s
 #### Level 13 - Expert
 
 * Level 13 strategies should only be learned if you have 220+ games of experience with the group.
-* These strategies are covered in the [main reference document](../Reference#level-13---expert).
 * This level covers moves that are complicated, difficult to see, or require a deeper understanding of how Hanabi works in order to work properly.
 * Level 13 strategies are as follows:
   * *[The Occupied Finesse](../Reference.md#the-occupied-play-clue--the-occupied-finesse-opc)*
