@@ -2679,11 +2679,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 * The 5 Color Ejection is covered in [level 12](the-5-color-ejection-5ce).
 
-### Known Trash Ejection
-
-* Often times, a player can have one or more cards that are known duplicates / trash. They will discard them it without being told anything further.
-* If a clue is given that **only** touches cards that are already known trash, then it must have some other purpose - it should signal an *Ejection* on the very next player.
-
 ### Double Play Ejection
 
 * If a player knows that a card in their hand is playable, and then they receive **another** clue on that card, it is usually a *Fix Clue*, which means that the card is actually bad and they should discard it instead of playing it.
