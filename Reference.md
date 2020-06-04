@@ -1000,6 +1000,17 @@ Note that in this user interface, players are **not** holding their hands like t
 * The *Gentleman's Discard* essentially transfers a card to another player on the team. However, often times, doing this will delay things and cost the team *Tempo*. Thus, a *Gentleman's Discard* that slows things down is only good if there is some other side benefit to offset the lost *Tempo* (such as delaying the discard of a valuable card, for example).
 * For the purposes of *Priority*, *Gentleman's Discards* do not count as a blind-play. This means that if there is a playable clued card that leads into someone else's hand, then it should have priority over the blind-play from the *Gentleman's Discard*. (This is because the *Gentleman's Discard* is an information-symmetric move and nothing needs to be "proven" to other members of the team.)
 
+### The Layered Gentleman's Discard
+
+* One great reason to want to do a *Gentleman's Discard* is if the card you are discarding is also behind playable cards. This is similar to a *Layered Finesse*, only it was initiated by a discard instead of a clue.
+* For example, in a 3-player game:
+  * It is the first turn and nothing is played on the stacks.
+  * Alice clues number 1 to Cathy, touching one 1.
+  * Bob clues red to Cathy, filling in the already-touched 1 as red 1, as well as touching a new card, which must be red 2.
+  * Cathy discards the known red 1 as a *Gentleman's Discard*.
+  * Alice blind-plays her *Finesse Position* card as red 1, but it is green 1.
+  * Alice knows that she is promised the red 1, so she will blind-play her slot 2 on her next turn.
+
 ### The Baton Discard
 
 * When a *Gentleman's Discard* happens, it transfers a playable card to someone else's hand. But players can also transfer unplayable cards that they happen to know the full identity of. We call this a *Baton Discard* to distinguish it from the more-ordinary *Gentleman's Discard*.
@@ -1762,17 +1773,6 @@ Priority does not always apply. Some common exceptions are listed below.
 * When this occurs, even if the clue looks like an ordinary *Save Clue*, it **must** be a *Play Clue*, since the player who was doing it was *Occupied*.
 * Furthermore, if an *Occupied Play Clue* is given to a card that is not directly playable right now, it must be an *Occupied Finesse*!
 * Note that the concept of being *Occupied* generalizes to lots of different kind of moves. For example, when an *Occupied* player clues an off-chop 5, it is certainly not a *5 Stall* - it must be an *Occupied 5 Pull*!
-
-### The Layered Gentleman's Discard
-
-* One great reason to want to do a *Gentleman's Discard* is if the card you are discarding is also behind playable cards. This is similar to a *Layered Finesse*, only it was initiated by a discard instead of a clue.
-* For example, in a 3-player game:
-  * It is the first turn and nothing is played on the stacks.
-  * Alice clues number 1 to Cathy, touching one 1.
-  * Bob clues red to Cathy, filling in the already-touched 1 as red 1, as well as touching a new card, which must be red 2.
-  * Cathy discards the known red 1 as a *Gentleman's Discard*.
-  * Alice blind-plays her *Finesse Position* card as red 1, but it is green 1.
-  * Alice knows that she is promised the red 1, so she will blind-play her slot 2 on her next turn.
 
 ### The Trash Push
 
