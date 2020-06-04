@@ -2689,15 +2689,16 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * If a player knows that a card in their hand is playable, and then they receive **another** clue on that card, it is usually a *Fix Clue*, which means that the card is actually bad and they should discard it instead of playing it.
 * However, if this happens on a good card, the other players can see that the clue must have some other purpose - it should signal an *Ejection* on the very next player.
 
-### Junk Ejection (with Trash)
+### Bad Chop Move Ejection (with a Trash Chop Move)
 
 * Normally, when known trash is touched as the focus of the clue, and the known trash is not on chop, it communicates a *Trash Chop Move*.
-* However, what if the *Chop Moved* cards are also all trash? The other players can see that this clue must have some other purpose - it should signal an *Ejection* on the very next player.
-* *Junk Ejection* can be performed throughout the game. (But keep in mind that in the *End-Game*, a player might just be stalling.)
+* However, what if the *Chop Moved* cards are also all trash? The other players can see that this clue must have some other purpose.
+* In this situation, it should signal an *Ejection* on the very next player.
+* *Bad Chop Move Ejection* can be performed throughout the game. (But keep in mind that in the *End-Game*, a player might just be stalling.)
 
-### Junk Ejection (with 5's)
+### Bad Chop Move Ejection (with 5's)
 
-* First, see the above section "Junk Ejection (with Trash)".
+* First, see the [Bad Chop Move Ejection (with Trash)]() section.
 * Normally, if a player performs a *5's Chop Move* on a trash card, it would signal a *Finesse* on all of the cards leading up to the 5.
 * If the very next player sees that **they will only have to blind-play one card in their hand to fulfill the *Finesse***, then they should assume that it is a *Finesse*.
 * If the very next player sees that they would have to blind-play two or more cards in their hand to fulfill the *Finesse*, then a *Finesse* is unlikely. Instead, players agree that this signals an *Ejection* and that the next player should play their *Second Finesse Position*.
