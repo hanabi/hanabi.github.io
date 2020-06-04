@@ -14,41 +14,36 @@ Note that convention updates for the group are listed in the `#announcements` ch
 2. [Examples](#examples)
 3. [Level 1 - Newbie](#level-1---newbie)
 4. [Level 2 - Novice](#level-2---novice)
-    * [Conventions & Special Moves](#)
-    * [General Principles](#)
-    * [Common Mistakes](#)
+    * [Conventions & Special Moves](#level-2---novice---conventions--special-moves)
+    * [General Principles](#level-2---novice---general-principles)
+    * [Common Mistakes](#level-2---novice---common-mistakes)
 5. [Level 3 - Initiate](#level-3---initiate)
-    * [Conventions & Special Moves](#)
-    * [General Principles](#)
-    * [Common Mistakes](#)
+    * [Conventions & Special Moves](#level-3---initiate---conventions--special-moves)
+    * [General Principles](#level-3---initiate---general-principles)
+    * [Common Mistakes](#level-3---initiate---common-mistakes)
 6. [Level 4 - Rookie](#level-4---rookie)
-    * [Conventions & Special Moves](#)
-    * [General Principles](#)
+    * [Conventions & Special Moves](#level-4---rookie---conventions--special-movies)
+    * [General Principles](#level-4---rookie---general-principles)
 7. [Level 5 - Apprentice](#level-5---apprentice)
-    * [Conventions & Special Moves](#)
-    * [General Principles](#)
-8. [Level 6 - Intermediate](#level-5---intermediate)
-    * [Conventions & Special Moves](#)
-    * [General Principles](#)
-9. [Level 7 - Fellow](#level-5---fellow)
-    * [Conventions & Special Moves](#)
-    * [General Principles](#)
-    * [Common Mistakes](#)
-10. [Level 8 - Journeyman](#level-5---journeyman)
-    * [Conventions & Special Moves](#)
-    * [General Principles](#)
-    * [Common Mistakes](#)
-11. [Level 9 - Advanced](#)
-    * [Conventions & Special Moves](#)
-12. [Level 10 - Adept](#)
-    * [Conventions & Special Moves](#)
-13. [Level 11 - Senior](#)
-    * [Conventions & Special Moves](#)
-14. [Level 12 - Scholar](#)
-    * [Conventions & Special Moves](#)
-15. [Level 13 - Expert](#)
-    * [Conventions & Special Moves](#)
-16. [Level 14 - Rarely Used Strategies](#)
+    * [Conventions & Special Moves](#level-5---apprentice---conventions--special-moves)
+    * [General Principles](#level-5---apprentice---general-principles)
+8. [Level 6 - Intermediate](#level-6---intermediate)
+    * [Conventions & Special Moves](#level-6---intermediate---conventions--special-moves)
+    * [General Principles](#level-6---intermediate---general-principles)
+9. [Level 7 - Fellow](#level-7---fellow)
+    * [Conventions & Special Moves](#level-7---fellow---conventions--special-moves)
+    * [General Principles](#level-7---fellow---general-principles)
+    * [Common Mistakes](#level-7---fellow---common-mistakes)
+10. [Level 8 - Journeyman](#level-8---journeyman)
+    * [Conventions & Special Moves](#level-8---journeyman---conventions--special-moves)
+    * [General Principles](#level-8---journeyman---general-principles)
+    * [Common Mistakes](#level-8---journeyman---common-mistakes)
+11. [Level 9 - Advanced](#level-9---advanced)
+12. [Level 10 - Adept](#level-10---adept)
+13. [Level 11 - Senior](#level-11---senior)
+14. [Level 12 - Scholar](#level-12---scholar)
+15. [Level 13 - Expert](#level-13---expert)
+16. [Level 14 - Rarely Used Strategies](#level-14---rarely-used-strategies)
     * [Save Clues & Non-Emergency Chop Moves](#level-5---rarely-used-strategies-save-clues--non-emergency-chop-moves)
     * [Finesses & Bluffs](#level-5---rarely-used-strategies-finesses--bluffs)
     * [Pushes & Pulls](#level-5---rarely-used-strategies-pushes--pulls)
@@ -148,7 +143,7 @@ Note that in this user interface, players are **not** holding their hands like t
 
 ## Level 1 - Newbie
 
-* See the [learning path document](misc/Learning Path.md) for general descriptions of each level.
+* See the [learning path document](misc/Learning_Path.md) for general descriptions of each level.
 
 ### Chop
 
@@ -193,7 +188,7 @@ Note that in this user interface, players are **not** holding their hands like t
 
 ## Level 2 - Novice
 
-* See the [learning path document](misc/Learning Path.md) for general descriptions of each level.
+* See the [learning path document](misc/Learning_Path.md) for general descriptions of each level.
 
 <br />
 
@@ -346,7 +341,7 @@ Note that in this user interface, players are **not** holding their hands like t
 
 ## Level 3 - Initiate
 
-* See the [learning path document](misc/Learning Path.md) for general descriptions of each level.
+* See the [learning path document](misc/Learning_Path.md) for general descriptions of each level.
 
 <br />
 
@@ -509,7 +504,7 @@ Note that in this user interface, players are **not** holding their hands like t
 
 ## Level 4 - Rookie
 
-* See the [learning path document](misc/Learning Path.md) for general descriptions of each level.
+* See the [learning path document](misc/Learning_Path.md) for general descriptions of each level.
 
 <br />
 
@@ -661,7 +656,7 @@ Note that in this user interface, players are **not** holding their hands like t
 
 ## Level 5 - Apprentice
 
-* See the [learning path document](misc/Learning Path.md) for general descriptions of each level.
+* See the [learning path document](misc/Learning_Path.md) for general descriptions of each level.
 
 <br />
 
@@ -792,8 +787,6 @@ Note that in this user interface, players are **not** holding their hands like t
 
 ## Level 5 - Apprentice - General Principles
 
-## Level 9 - Advanced - General Principles
-
 ### Lines
 
 * During your turn, part of figuring out the best move involves looking into the future to see what the next player will do. If they discard, will it be okay? Is there some obvious clue that they will do? And so on.
@@ -855,7 +848,9 @@ Note that in this user interface, players are **not** holding their hands like t
 
 ## Level 6 - Intermediate
 
-* See the [learning path document](misc/Learning Path.md) for general descriptions of each level.
+* See the [learning path document](misc/Learning_Path.md) for general descriptions of each level.
+
+<br />
 
 ## Level 6 - Intermediate - Conventions & Special Moves
 
@@ -990,7 +985,7 @@ Note that in this user interface, players are **not** holding their hands like t
 
 ## Level 7 - Fellow
 
-* See the [learning path document](misc/Learning Path.md) for general descriptions of each level.
+* See the [learning path document](misc/Learning_Path.md) for general descriptions of each level.
 
 ## Level 7 - Fellow - Conventions & Special Moves
 
@@ -1142,7 +1137,7 @@ Note that in this user interface, players are **not** holding their hands like t
 
 ## Level 8 - Journeyman
 
-* See the [learning path document](misc/Learning Path.md) for general descriptions of each level.
+* See the [learning path document](misc/Learning_Path.md) for general descriptions of each level.
 
 <br />
 
@@ -1314,11 +1309,9 @@ Note that in this user interface, players are **not** holding their hands like t
 
 ## Level 9 - Advanced
 
-* See the [learning path document](misc/Learning Path.md) for general descriptions of each level.
+* See the [learning path document](misc/Learning_Path.md) for general descriptions of each level.
 
 <br />
-
-## Level 9 - Advanced - Conventions & Special Moves
 
 ### The Priority Prompt & The Priority Finesse
 
@@ -1443,11 +1436,9 @@ Priority does not always apply. Some common exceptions are listed below.
 
 ## Level 10 - Adept
 
-* See the [learning path document](misc/Learning Path.md) for general descriptions of each level.
+* See the [learning path document](misc/Learning_Path.md) for general descriptions of each level.
 
 <br />
-
-## Level 10 - Adept - Conventions & Special Moves
 
 ### Duplication Responsibility
 
@@ -1545,11 +1536,9 @@ Priority does not always apply. Some common exceptions are listed below.
 
 ## Level 11 - Senior
 
-* See the [learning path document](misc/Learning Path.md) for general descriptions of each level.
+* See the [learning path document](misc/Learning_Path.md) for general descriptions of each level.
 
 <br />
-
-## Level 11 - Senior - Conventions & Special Moves
 
 ### Discard Elimination & Elimination Notes & The Elimination Blind-Play
 
@@ -1653,11 +1642,9 @@ Priority does not always apply. Some common exceptions are listed below.
 
 ## Level 12 - Scholar
 
-* See the [learning path document](misc/Learning Path.md) for general descriptions of each level.
+* See the [learning path document](misc/Learning_Path.md) for general descriptions of each level.
 
 <br />
-
-## Level 12 - Scholar - Conventions & Special Moves
 
 ### The Early 5's Chop Move
 
@@ -1732,7 +1719,7 @@ Priority does not always apply. Some common exceptions are listed below.
 
 ## Level 13 - Expert
 
-* See the [learning path document](misc/Learning Path.md) for general descriptions of each level.
+* See the [learning path document](misc/Learning_Path.md) for general descriptions of each level.
 
 ### The Occupied Play Clue & The Occupied Finesse (OPC)
 
