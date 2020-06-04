@@ -22,6 +22,7 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 * *Junk Ejection* is a confusing name. *Bad Chop Move Ejection* is verbose but describes exactly what this move is.
 ```
 
+@everyone New conventions:
 
 **The Unnecessary Trash Push (Finesse Form)**
 
