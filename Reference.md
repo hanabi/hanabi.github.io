@@ -1002,8 +1002,8 @@ Note that in this user interface, players are **not** holding their hands like t
 
 ### The Baton Discard
 
-* Usually, when a *Gentleman's Discard* happens, it is for a playable card. But it is also possible to do a *Gentleman's Discard* to transfer a card to another player that is just completely unplayable at the current time.
-* In order to disambiguate this from the more ordinary type of *Gentleman's Discard*, we call this a *Baton Discard*.
+* When a *Gentleman's Discard* happens, it transfers a playable card to someone else's hand. But players can also transfer unplayable cards that they happen to know the full identity of. We call this a *Baton Discard* to distinguish it from the more-ordinary *Gentleman's Discard*.
+* Just like a *Gentleman's Discard*, a *Baton Discard* promises that the card is exactly on someone else's *Finesse Position*.
 * For example, this would be a *Gentleman's Discard* in a 3-player game:
   * Red 2 is played on the stacks.
   * Alice discards a red 3.
