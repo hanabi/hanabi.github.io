@@ -265,6 +265,12 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
 * Note that *Order Ejections* only apply if the player did not *Order Chop Move* a **critical** card. Unique 2's **do not** count as critical in this case.
 * This convention was deleted due to lack of use.
 
+### Known Trash Ejection
+
+* Often times, a player can have one or more cards that are known duplicates / trash. They will discard them it without being told anything further.
+* If a clue is given that **only** touches cards that are already known trash, then it must have some other purpose - it should signal an *Ejection* on the very next player.
+* This convention was deleted due to lack of use.
+
 ### The Dump Truck
 
 * When someone blind-plays their chop, there is usually an emergency happening and it was either a *Scream Blind-Play* or a *Stop Blind-Play*.
