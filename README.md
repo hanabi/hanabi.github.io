@@ -21,9 +21,8 @@ Note that while Hanabi is a 2 to 5 player game, our group generally only plays g
 ## The List of Main Documents
 
 * [Level 1 - The Beginner's Guide](Beginner.md)
-* [Level 2 - The Intermediate Guide](Intermediate.md)
+* [Level 2 - The Learning Path](misc/Learning_Path.md)
 * [Level ∞ - The Reference Document (All Conventions)](Reference.md)
-* [A Guide for Players Coming from Board Game Arena](misc/BGA.md)
 
 <br />
 

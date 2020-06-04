@@ -148,13 +148,13 @@ Note that in this user interface, players are **not** holding their hands like t
 
 ### Chop
 
-* As outlined in the [beginner guide](Beginner.md), when players have to discard, they typically discard their right-most unclued card.
+* As outlined in the [beginner's guide](Beginner.md), when players have to discard, they typically discard their right-most unclued card.
 * A player's chop card is formally defined as **the next unclued card that they would discard if they had nothing to do**.
 * If a player has a clued card that is known useless, then they will typically discard the useless card **instead** of discarding their chop. (But the useless card does **not** count as the chop - their chop remains the right-most unclued card.)
 
 ### Play Clues & Delayed Play Clues & The Definition of Playable
 
-* As outlined in the [beginner guide](Beginner.md), we treat all *Play Clues* as potential *Delayed Play Clues*:
+* As outlined in the [beginner's guide](Beginner.md), we treat all *Play Clues* as potential *Delayed Play Clues*:
   * If the card will successfully play on the stacks **right now**, then it was *Play Clue*.
   * If the card will successfully play on the stacks after other people have played cards of the same suit, then it was a *Delayed Play Clue* that was *through* other cards.
 * But since we treat all *Play Clues* as *Delayed Play Clues*, this distinction is pretty much irrelevent. In this document, we use the phrase *Play Clue* to mean **either** a *Play Clue* or a *Delayed Play Clue*.
@@ -164,7 +164,7 @@ Note that in this user interface, players are **not** holding their hands like t
 
 ### Save Clues
 
-* As outlined in the [beginner guide](Beginner.md), you are **only** allowed to give a *Save Clue* to a card that is on chop.
+* As outlined in the [beginner's guide](Beginner.md), you are **only** allowed to give a *Save Clue* to a card that is on chop.
 * Furthermore, you are **not** allowed to give a *Save Clue* to just any card you want. You are **only** allowed to give a *Save Clue* on these specific cards:
   1) 5's (with a *5 Save* clue, e.g. number 5)
   2) 2's (with a *2 Save* clue, e.g. number 2)
@@ -173,17 +173,17 @@ Note that in this user interface, players are **not** holding their hands like t
 
 ### The Prompt
 
-* The *Prompt* is a move covered in the [beginner guide](Beginner.md). It is when you get a player to play a clued card that was previously unknown.
+* The *Prompt* is a move covered in the [beginner's guide](Beginner.md). It is when you get a player to play a clued card that was previously unknown.
 
 ### The Finesse
 
-* The *Finesse* is a move covered in the [beginner guide](Beginner.md). It is when you get a player to blind-play a card to fulfill a promise that a certain card is playable right now.
+* The *Finesse* is a move covered in the [beginner's guide](Beginner.md). It is when you get a player to blind-play a card to fulfill a promise that a certain card is playable right now.
 * *Finesses* must be on "matching" cards. (For example, the red 1 leads directly into the red 2, so they are considered to be a "matching" pair of cards.)
 * When a player is *Finessed* they should blind-play their card right away in order to demonstrate it!
 
 ### Finesse Position
 
-* As covered in the [beginner guide](Beginner.md), a player's *Finesse Position* refers to the slot that their **left-most unclued card** is in.
+* As covered in the [beginner's guide](Beginner.md), a player's *Finesse Position* refers to the slot that their **left-most unclued card** is in.
 
 <br />
 

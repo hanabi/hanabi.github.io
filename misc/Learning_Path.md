@@ -6,11 +6,11 @@ In the Hyphen-ated group, we get new players from time to time. Some only play w
 
 For those who love Hanabi and wish to continue playing with the group, the path from a brand-new player to a player with 1+ years of experience is a long one. It will be filled with many practice games, countless mistakes, and the learning of many different conventions.
 
-When playing with brand-new players, everyone in the group knows to **keep it simple**, and only use the basic strategies that are covered in the [beginner guide](../Beginner.md). However, after someone plays 5-10 beginner games, things start to "oepn up" a bit, and new things start to be taught, like *Chop Moves* and *Bluffs*. There's a lot to learn, and we don't want to overwhelm new players with it all at once. So what's the correct order to learn stuff in?
+When playing with brand-new players, everyone in the group knows to **keep it simple**, and only use the basic strategies that are covered in the [beginner's guide](../Beginner.md). However, after someone plays 5-10 beginner games, things start to "oepn up" a bit, and new things start to be taught, like *Chop Moves* and *Bluffs*. There's a lot to learn, and we don't want to overwhelm new players with it all at once. So what is the correct order to learn stuff in?
 
 Handily, the main [reference document](../Reference.md) is sorted into different "levels" that group conventions based on skill-level. Before a game starts, newer players **should make it clear to the group what level they are**. And then everyone in the group **should stick to using only conventions in that level**. For advanced players, it may be tempting to show a newer-players an advanced kind of *Finesse* or *Ejection*. But don't do it! Keep it simple! Let them learn the fundamentals before introducing more complicated things.
 
-Why is this kind of thing important? A common mistake we see from intermediate players is that once they learn about an advanced move, they think that they understand how it works, and then they whip it out in a situation that is completely out of place. As the expression goes, you have to "learn to walk before you learn to run". Intermediate players who know advanced moves but have poor planning and a poor general understanding of the game **are much harder to work with** than intermediate players who stick to the basics, make predictable moves, and incorporate things slowly.
+Why is this kind of thing important? A common mistake we see from intermediate players is that once they learn about an advanced move, they think that they understand how it works, and then they whip it out in a situation that is completely out of place. As the expression goes, "you have to learn to walk before you learn to run". Intermediate players who know advanced moves but have poor planning and a poor understanding of the game **are much harder to play with** than intermediate players who stick to the basics, make predictable moves, and incorporate things slowly.
 
 <br />
 
@@ -25,8 +25,9 @@ The following is a brief description of each level, explaining what should and s
 * *[Priority](../Reference.md#the-priority-prompt--the-priority-finesse)* should not be used until level 9.
 * *[3 Bluffs](../Reference.md#the-3-bluff)* should not be used until level 10.
 * *[Elimination](../Reference.md#elimination)* should not be used until level 11.
-* *[The 5 Pull](../Reference.md#the-5-pull)* should not be used until level 12.
-* [*Finesses* with a *Lie Component*](../Reference.md#finesses-with-a-lie-component) should not be used until level 13.
+* *[The 5 Color Ejection](../Reference.md#the-5-color-ejection-5ce)* should not be used until level 12.
+* *[The 5 Pull](../Reference.md#the-5-pull)* should not be used until level 13.
+* [*Finesses* with a *Lie Component*](../Reference.md#finesses-with-a-lie-component) should not be used until level 14.
 
 <br />
 
