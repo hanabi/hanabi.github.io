@@ -558,7 +558,7 @@ Note that in this user interface, players are **not** holding their hands like t
   * Nothing is played on the stacks.
   * Alice clues Donald about a red 2 as a *Play Clue*.
   * Both Bob **and** Cathy have red 1 on their *Finesse Position*.
-  * Bob will think that it is a *Reverse Finesse* directed at Cathy, and he will discard.
+  * Bob will think that it is a *Finesse* directed at Cathy, and he will discard.
   * Next, Cathy thinks that Bob made a mistake and "missed" the *Finesse*. Cathy discards.
 * Here, Cathy is actually the one making the mistake. It follows from *High-Value Principle* that you should never assume that your teammates are making a mistake. If Bob is discarding, then it means that Cathy also has the exact same copy of the card, and Cathy should immediately blind-play.
 
