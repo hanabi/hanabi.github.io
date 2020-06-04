@@ -7,3 +7,4 @@ The following conventions are rarely used. Thus, they may be deleted in future v
 ### The List
 
 * The 5 Number Discard (5ND)
+* Trash Push Discharge
