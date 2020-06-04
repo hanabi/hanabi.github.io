@@ -42,16 +42,17 @@ Note that convention updates for the group are listed in the `#announcements` ch
 12. [Level 10 - Adept](#level-10---adept)
 13. [Level 11 - Senior](#level-11---senior)
 14. [Level 12 - Scholar](#level-12---scholar)
-15. [Level 13 - Expert](#level-13---expert)
-16. [Level 14 - Rarely Used Strategies](#level-14---rarely-used-strategies)
-    * [Save Clues & Non-Emergency Chop Moves](#level-5---rarely-used-strategies-save-clues--non-emergency-chop-moves)
-    * [Finesses & Bluffs](#level-5---rarely-used-strategies-finesses--bluffs)
-    * [Pushes & Pulls](#level-5---rarely-used-strategies-pushes--pulls)
-    * [Emergency Moves](#level-5---rarely-used-strategies-emergency-moves)
-    * [Ejection](#level-5---rarely-used-strategies-ejection)
-    * [Discharge](#level-5---rarely-used-strategies-discharge)
-    * [Ejection & Discharge Extensions](#level-5---ejection--discharge-extensions)
-    * [Miscellaneous](#level-5---rarely-used-strategies-miscellaneous)
+14. [Level 13 - Erudite](#level-13---erudite)
+15. [Level 14 - Expert](#level-14---expert)
+16. [Level 15 - Rarely Used Strategies](#level-15---rarely-used-strategies)
+    * [Save Clues & Non-Emergency Chop Moves](#level-15---rarely-used-strategies-save-clues--non-emergency-chop-moves)
+    * [Finesses & Bluffs](#level-15---rarely-used-strategies-finesses--bluffs)
+    * [Pushes & Pulls](#level-15---rarely-used-strategies-pushes--pulls)
+    * [Emergency Moves](#level-15---rarely-used-strategies-emergency-moves)
+    * [Ejection](#level-15---rarely-used-strategies-ejection)
+    * [Discharge](#level-15---rarely-used-strategies-discharge)
+    * [Ejection & Discharge Extensions](#level-15---ejection--discharge-extensions)
+    * [Miscellaneous](#level-15---rarely-used-strategies-miscellaneous)
 17. [Variant-Specific Strategies](#variant-specific-strategies)
 18. [Convention Attribution](#convention-attribution)
 
@@ -347,6 +348,22 @@ Note that in this user interface, players are **not** holding their hands like t
 
 ## Level 3 - Initiate - Conventions & Special Moves
 
+### The Sarcastic Discard
+
+* Occasionally, through a mistake (or complicated situation), the same card will be clued in two different people's hands. Generally, this is to be avoided, but sometimes it happens. Handling this can be tricky.
+* Generally, the **first** player who fully realizes that they have the duplicate card should discard it (as opposed to playing it or holding on to it). This is called a *Sarcastic Discard*, and it communicates to the other player that they 100% have the discarded card.
+* For example, in a 3-player game:
+  * On the stacks, red 2 is played.
+  * Alice has one red 3 clued in his hand with just number 3.
+  * Alice clues number 3 to Bob, which touches one 3. (This is a mistake, because it might be violating *Good Touch Principle*.)
+  * Bob knows that the only playable 3 is red 3. He also knows that Alice has a clued red 3 already in her hand. Thus, he knows that he has the red 3 and that Alice made a mistake.
+  * Bob performs a *Sarcastic Discard* to pass the red 3 back to Alice.
+* The *Sarcastic Discard* is similar to the *Prompt*, except that it is initiated by a discard instead of a clue.
+* However, unlike a *Prompt*, if there are multiple cards that a *Sarcastic Discard* could apply to, then it does **not** promise that it is the left-most card. It only promises that they have the card somewhere. For example:
+  * Alice *Sarcastic Discards* a red 3.
+  * Bob has two cards clued with number 3 in his hand. He doesn't have any color information on either 3.
+  * Bob can be certain that one of the two 3's is red 3, but he does not know which one it is yet.
+
 ### Playing Multiple 1's - The Fresh 1's Rule (Part 2)
 
 * If two (or more) 1's are clued in someone's hand, and one of the 1's was in the starting hand, and one of the 1's was not, then the "fresh" card is probably more important. (Otherwise, the clue might have been given earlier.)
@@ -552,32 +569,6 @@ Note that in this user interface, players are **not** holding their hands like t
   * Since there are no normal *Play Clues* or *Save Clues* available, Bob looks around to see if he can give a *5 Stall*. Bob sees that Cathy has a red 5 on her slot 1, so he clues number 5 to Cathy as a *5 Stall*.
   * Cathy knows that since Bob was in a *Double Discard Situation* for the red 4, she should not read too closely into his clues. This number 5 clue must just be a *5 Stall* (as opposed to a *Play Clue* on the 5).
 
-### The Ambiguous Finesse
-
-* Sometimes, the player that is supposed to blind-play a card into a *Finesse* is ambiguous. For example, in a 4-player game:
-  * Nothing is played on the stacks.
-  * Alice clues Donald about a red 2 as a *Play Clue*.
-  * Both Bob **and** Cathy have red 1 on their *Finesse Position*.
-  * Bob will think that it is a *Finesse* directed at Cathy, and he will discard.
-  * Next, Cathy thinks that Bob made a mistake and "missed" the *Finesse*. Cathy discards.
-* Here, Cathy is actually the one making the mistake. It follows from *High-Value Principle* that you should never assume that your teammates are making a mistake. If Bob is discarding, then it means that Cathy also has the exact same copy of the card, and Cathy should immediately blind-play.
-
-### The Ambiguous Finesse Pass-Back
-
-* When an *Ambiguous Finesse* occurs, one person will hesitate, not playing into the *Finesse*. Once that happens, it is usually clear that someone else on the team also has the matching card. Next, the other person should **immediately blind-play**, resolving the *Ambiguous Finesse* as fast as possible.
-* However, in some specific situations, the next person **cannot** blind-play the card, or else a misplay would occur. In these situations, the second person has to **also** hesitate, "passing" the blind-play back to the first person again.
-* For example, in a 4-player game:
-  * Blue 1 is played on the stacks.
-  * Alice clues blue to Donald, touching a blue 4 as a *Play Clue*.
-  * Bob sees that Cathy has the blue 2 on her *Finesse Position*. From his position, this must be a *Double Finesse*, with Cathy blind-playing the blue 2, and Bob blind-playing the blue 3 from his own *Finesse Position*. Bob discards.
-  * Cathy sees that Bob has the blue 2 on his *Finesse Position* and the blue 3 on his *Second Finesse Position*.
-  * Cathy also knows that the only reason that Bob would discard is if Cathy **also** had the blue 2 on her *Finesse Position*. Thus, Bob expects her to blind-play on this turn, and this is an *Ambiguous Finesse*.
-  * Normally, Cathy would blind-play the blue 2 herself. However, in this situation, if she blind-plays the blue 2, then Bob would go on to misplay the other blue 2, thinking that it is blue 3.
-  * Thus, Cathy must pretend like the *Finesse* is not on her all, and force Bob to be the one to blind-play first. Cathy discards her chop card, passing the *Finesse* back to Bob.
-  * Donald and Alice discard.
-  * Bob knows that Cathy was supposed to blind-play the blue 2, but she didn't. He must also have the blue 2. Furthermore, he must also have the blue 3, as that would be an excellent reason for Cathy to pass the *Finesse* back to him. Bob will now blind-play blue 2 and blue 3.
-* As a side note, you may be wondering why, in the above example, Cathy does not blind-discard her blue 2 from her *Finesse Position* instead of discarding her chop. This is because it is possible that Cathy does **not** have the blue 2 on her *Finesse Position* and instead has some other unrelated playable card as a *Layered Finesse*. Thus, Cathy must play it safe and discard her chop. (The *Layered Finesse* is a move covered in a later section.)
-
 ### The Hidden Finesse
 
 * Sometimes, you want to *Finesse* someone with a clued card already in their hand. However, if you try to *Finesse* them, they will assume it is a *Prompt* and will misplay their clued card, so it doesn't work out.
@@ -664,7 +655,7 @@ Note that in this user interface, players are **not** holding their hands like t
 
 ## Level 5 - Apprentice - Conventions & Special Moves
 
-### The Order Chop Move & The Skipped Order Chop Move
+### The Order Chop Move & The Skipped Order Chop Move (OCM)
 
 * Normally, at the beginning of the game, players are expected to play their 1's from right to left.
 * If a player skips over their right-most 1, and there is nothing else special going on, it means that the next player should *Chop Move* one card.
@@ -688,14 +679,6 @@ Note that in this user interface, players are **not** holding their hands like t
 * In a 4 or 5-player game, skipping over three 1's would *Chop Move* the player three seats away. However, in a 3-player game, this would be nonsensical, since there are only 3 players in total.
 * Thus, in a 3-player game, skipping over three 1's should *Double Chop Move* the very next player.
 * In the rare case where four things are skipped over, it should skip over the next player and *Double Chop Move* the player after that.
-
-### The Trash Order Chop Move
-
-* Sometimes, a player will have two known trash cards in their hand (and these cards are explicitly known trash, meaning that everyone on the team can equally see that they are known trash).
-* In this situation, the player is expected to discard the newest (left-most) trash card.
-* Thus, if a player skips over their newest trash card and instead discards the second newest trash card, they must be trying to communicate something extra.
-* This means that the next player should *Chop Move* (in a manner similar to a *Order Chop Move*).
-* Note that a player is not necessarily trying to perform a *Trash Order Chop Move* if the two trash cards have different kinds of clues on them. For example, by discarding specific trash cards, it can communicate that the player "sees" all of the non-trash possibilities of that card.
 
 ### The Scream Discard Chop Move (Deliberately Discarding Instead of Playing)
 
@@ -991,22 +974,6 @@ Note that in this user interface, players are **not** holding their hands like t
 
 ## Level 7 - Fellow - Conventions & Special Moves
 
-### The Sarcastic Discard
-
-* Occasionally, through a mistake (or complicated situation), the same card will be clued in two different people's hands. Generally, this is to be avoided, but sometimes it happens. Handling this can be tricky.
-* Generally, the **first** player who fully realizes that they have the duplicate card should discard it (as opposed to playing it or holding on to it). This is called a *Sarcastic Discard*, and it communicates to the other player that they 100% have the discarded card.
-* For example, in a 3-player game:
-  * On the stacks, red 2 is played.
-  * Alice has one red 3 clued in his hand with just number 3.
-  * Alice clues number 3 to Bob, which touches one 3. (This is a mistake, because it might be violating *Good Touch Principle*.)
-  * Bob knows that the only playable 3 is red 3. He also knows that Alice has a clued red 3 already in her hand. Thus, he knows that he has the red 3 and that Alice made a mistake.
-  * Bob performs a *Sarcastic Discard* to pass the red 3 back to Alice.
-* The *Sarcastic Discard* is similar to the *Prompt*, except that it is initiated by a discard instead of a clue.
-* However, unlike a *Prompt*, if there are multiple cards that a *Sarcastic Discard* could apply to, then it does **not** promise that it is the left-most card. It only promises that they have the card somewhere. For example:
-  * Alice *Sarcastic Discards* a red 3.
-  * Bob has two cards clued with number 3 in his hand. He doesn't have any color information on either 3.
-  * Bob can be certain that one of the two 3's is red 3, but he does not know which one it is yet.
-
 ### The Sarcastic Finesse
 
 * Imagine that in a 3-player game:
@@ -1084,24 +1051,6 @@ Note that in this user interface, players are **not** holding their hands like t
   * Cathy knows that she has the red 3 on her *Finesse Position* (as a *Certain Finesse*). She can *Certain Discard* it if Alice has the red 3. But Alice does not have the red 3, so Cathy blind-plays the red 3.
   * Alice discards.
   * Bob knows that his red card is a red 4 (as a *Sarcastic Finesse*). He can *Sarcastic Discard* it if Alice has the red 4. But Alice does not have the red 4, so Bob plays the red 4.
-
-### The Positional Discard (Indicating a Play with a Discard)
-
-* Near the end of the game, if you have no clues left and no cards to play, you can transmit information based on which card you discard.
-* Thus, you can discard the slot in your hand that matches the slot in someone else's hand that they are supposed to play.
-* Usually, players will only do this if they can see all of the remaining useful cards. Since they see everything, they know that they cannot be discarding anything important.
-
-### The Positional Misplay (Indicating a Play with a Misplay)
-
-* On the final round of the game, if a player has no cards in their hand to play, a *Positional Discard* from **any** slot will work, because it is globally known that every card is visible.
-* However, sometimes *Positional Discards* are done before the final round while there are still some cards left in the deck. In this situation, if a player discarded their chop card as a *Positional Discard*, this would not work, because discarding chop is the normal action that the rest of the team is expecting.
-* Thus, in order to more strongly communicate the "play this slot" message, they can instead misplay their chop card. Since the rest of the team can see that the card misplayed for "no reason", they can deduce that it was a *Positional Misplay*.
-
-### The Double Positional Misplay (Indicating Two Plays with a Misplay)
-
-* Normally, the *Positional Misplay* is only used as a last-resort when a *Positional Discard* would not work. But what if a player does a *Positional Misplay* when a normal *Positional Discard* would have gotten the job done?
-* *Positional Discards* and *Positional Misplays* promise that only one card in the specified slot is playable. So, if there are **two** people with a play on the same slot, then it will be ambiguous, because each of them will think that the other person is supposed to play.
-* Thus, a *Positional Misplay* that is unnecessary transforms into a *Double Positional Misplay*, indicating to the team that **two** cards on that exact slot are playable.
 
 <br />
 
@@ -1474,6 +1423,40 @@ Priority does not always apply. Some common exceptions are listed below.
   * Cathy has 2 unknown 2's. One 2 has been played already, so from Cathy's perspective, each 2 has a 1/4 chance of being the blue 2.
   * Thus, it is Bob's responsibility to save the blue 2.
 
+### The Ambiguous Finesse
+
+* Sometimes, the player that is supposed to blind-play a card into a *Finesse* is ambiguous. For example, in a 4-player game:
+  * Nothing is played on the stacks.
+  * Alice clues Donald about a red 2 as a *Play Clue*.
+  * Both Bob **and** Cathy have red 1 on their *Finesse Position*.
+  * Bob will think that it is a *Finesse* directed at Cathy, and he will discard.
+  * Next, Cathy thinks that Bob made a mistake and "missed" the *Finesse*. Cathy discards.
+* Here, Cathy is actually the one making the mistake. It follows from *High-Value Principle* that you should never assume that your teammates are making a mistake. If Bob is discarding, then it means that Cathy also has the exact same copy of the card, and Cathy should immediately blind-play.
+
+### The Ambiguous Finesse Pass-Back
+
+* When an *Ambiguous Finesse* occurs, one person will hesitate, not playing into the *Finesse*. Once that happens, it is usually clear that someone else on the team also has the matching card. Next, the other person should **immediately blind-play**, resolving the *Ambiguous Finesse* as fast as possible.
+* However, in some specific situations, the next person **cannot** blind-play the card, or else a misplay would occur. In these situations, the second person has to **also** hesitate, "passing" the blind-play back to the first person again.
+* For example, in a 4-player game:
+  * Blue 1 is played on the stacks.
+  * Alice clues blue to Donald, touching a blue 4 as a *Play Clue*.
+  * Bob sees that Cathy has the blue 2 on her *Finesse Position*. From his position, this must be a *Double Finesse*, with Cathy blind-playing the blue 2, and Bob blind-playing the blue 3 from his own *Finesse Position*. Bob discards.
+  * Cathy sees that Bob has the blue 2 on his *Finesse Position* and the blue 3 on his *Second Finesse Position*.
+  * Cathy also knows that the only reason that Bob would discard is if Cathy **also** had the blue 2 on her *Finesse Position*. Thus, Bob expects her to blind-play on this turn, and this is an *Ambiguous Finesse*.
+  * Normally, Cathy would blind-play the blue 2 herself. However, in this situation, if she blind-plays the blue 2, then Bob would go on to misplay the other blue 2, thinking that it is blue 3.
+  * Thus, Cathy must pretend like the *Finesse* is not on her all, and force Bob to be the one to blind-play first. Cathy discards her chop card, passing the *Finesse* back to Bob.
+  * Donald and Alice discard.
+  * Bob knows that Cathy was supposed to blind-play the blue 2, but she didn't. He must also have the blue 2. Furthermore, he must also have the blue 3, as that would be an excellent reason for Cathy to pass the *Finesse* back to him. Bob will now blind-play blue 2 and blue 3.
+* As a side note, you may be wondering why, in the above example, Cathy does not blind-discard her blue 2 from her *Finesse Position* instead of discarding her chop. This is because it is possible that Cathy does **not** have the blue 2 on her *Finesse Position* and instead has some other unrelated playable card as a *Layered Finesse*. Thus, Cathy must play it safe and discard her chop. (The *Layered Finesse* is a move covered in a later section.)
+
+### The Trash Order Chop Move
+
+* Sometimes, a player will have two known trash cards in their hand (and these cards are explicitly known trash, meaning that everyone on the team can equally see that they are known trash).
+* In this situation, the player is expected to discard the newest (left-most) trash card.
+* Thus, if a player skips over their newest trash card and instead discards the second newest trash card, they must be trying to communicate something extra.
+* This means that the next player should *Chop Move* (in a manner similar to a *Order Chop Move*).
+* Note that a player is not necessarily trying to perform a *Trash Order Chop Move* if the two trash cards have different kinds of clues on them. For example, by discarding specific trash cards, it can communicate that the player "sees" all of the non-trash possibilities of that card.
+
 ### The 3 Bluff
 
 * Typically, the player who receives a clue that causes a *Bluff* blind-play knows that the card that was clued is one-away from being playable.
@@ -1533,6 +1516,24 @@ Priority does not always apply. Some common exceptions are listed below.
   * However, his slot 5 card has a negative 1 clue on it (from Alice's number 1 clue), so it explicitly cannot be the blue 1.
   * Thus, this must be *Focus Inversion* and blue 1 must be on slot 1. The blue card on slot 5 can be either blue 2, blue 3, blue 4, or blue 5.
 * Note that ***Self-Finesses* always take precedence over *Focus Inversion***.
+
+### The Positional Discard (Indicating a Play with a Discard)
+
+* Near the end of the game, if you have no clues left and no cards to play, you can transmit information based on which card you discard.
+* Thus, you can discard the slot in your hand that matches the slot in someone else's hand that they are supposed to play.
+* Usually, players will only do this if they can see all of the remaining useful cards. Since they see everything, they know that they cannot be discarding anything important.
+
+### The Positional Misplay (Indicating a Play with a Misplay)
+
+* On the final round of the game, if a player has no cards in their hand to play, a *Positional Discard* from **any** slot will work, because it is globally known that every card is visible.
+* However, sometimes *Positional Discards* are done before the final round while there are still some cards left in the deck. In this situation, if a player discarded their chop card as a *Positional Discard*, this would not work, because discarding chop is the normal action that the rest of the team is expecting.
+* Thus, in order to more strongly communicate the "play this slot" message, they can instead misplay their chop card. Since the rest of the team can see that the card misplayed for "no reason", they can deduce that it was a *Positional Misplay*.
+
+### The Double Positional Misplay (Indicating Two Plays with a Misplay)
+
+* Normally, the *Positional Misplay* is only used as a last-resort when a *Positional Discard* would not work. But what if a player does a *Positional Misplay* when a normal *Positional Discard* would have gotten the job done?
+* *Positional Discards* and *Positional Misplays* promise that only one card in the specified slot is playable. So, if there are **two** people with a play on the same slot, then it will be ambiguous, because each of them will think that the other person is supposed to play.
+* Thus, a *Positional Misplay* that is unnecessary transforms into a *Double Positional Misplay*, indicating to the team that **two** cards on that exact slot are playable.
 
 <br />
 
@@ -1648,6 +1649,36 @@ Priority does not always apply. Some common exceptions are listed below.
 
 <br />
 
+## Ejection
+
+* *Ejection* refers to a move like a *Bluff*, but instead of playing an unrelated card from *Finesse Position*, someone plays an unrelated card from their *Second Finesse Position*. For example, if a player's hand hand is completely unclued, their *Second Finesse Position* is slot 2.
+
+### The 5 Color Ejection (5CE)
+
+* Normally, if a player gives a color *Play Clue* to a 5, it would mean that it is a *Finesse* on the 5 and all of the cards leading up to the 5 are playable.
+* If the very next player sees that they will only have to **blind-play one card** in their hand to fulfill the *Finesse*, then they should assume that it is a *Finesse* and blind-play their *Finesse Position*.
+* If the very next player sees that they would have to **blind-play two or more cards** in their hand to fulfill the *Finesse*, then a *Finesse* is unlikely. Instead, players agree that this signals an *Ejection* and that the next player should play their *Second Finesse Position*.
+  * *Prompts* don't factor into the "two or more blind-plays" rule. Players only count the number of blind-plays.
+* After the blind-play, the player who received the clue will know that they must have a 5.
+* Note that *5 Color Ejection* only applies if the 5 did not have any clues on it already. If a 5 is re-clued, it signals a *Finesse* on all of the cards leading up to the 5.
+* For example, in a 3-player game:
+  * It is the first turn and nothing is played on the stacks.
+  * Alice clues red to Cathy, touching a red 5 on slot 3.
+  * Bob knows that normally, this would be a *Finesse* on the 5, indicating to Bob that he has the red 1, the red 2, the red 3, and the red 4. However, since this calls for more than one blind card, he knows that *5 Color Ejection* should take precedence, so he knows to play his *Second Finesse Position* card. It is a red 1 and it successfully plays.
+  * From Cathy's perspective, if Bob had played his *Finesse Position* card in response to the red clue, then Cathy would know that it was a *Finesse* or a *Bluff*. But since Bob blind-played his *Second Finesse Position* card, it must be a *5 Color Ejection*. Cathy marks the red card as red 5.
+* In the previous example, a *5 Color Ejection* was preformed with the 5 being the only brand new card introduced with the color clue. However, it is also possible to perform a *5 Color Ejection* with more than one card introduced. Normally, this kind of thing would signal an *Out-of-Order Finesse*, but the *5 Color Ejection* interpretation should take precedence as long as the next player would have to blind-play two or more cards.
+* For example, in a 3-player game:
+  * It is the first turn and nothing is played on the stacks.
+  * Alice clues red to Cathy, touching a red 5 on slot 2 and a red 2 on slot 3.
+  * Bob knows that normally, this would be an *Out-of-Order Finesse* on the 5, indicating to Bob that he has the red 1, the red 3, and the the red 4. However, since this calls for more than one blind card, he knows that *5 Color Ejection* should take precedence, so he knows to play his *Second Finesse Position* card. It is a red 1 and it successfully plays.
+  * From Cathy's perspective, if Bob had played his *Finesse Position* card in response to the red clue, then Cathy would know that it was a *Finesse* or a *Bluff*. But since Bob blind-played his *Second Finesse Position* card, it must be a *5 Color Ejection*. Cathy marks the red card as red 5. Her other red card can be red 2, red 3, or red 4.
+
+## Level 13 - Erudite
+
+* See the [learning path document](misc/Learning_Path.md) for general descriptions of each level.
+
+<br />
+
 ### The Early 5's Chop Move
 
 * In the *Early Game*, players are only allowed to clue an off-chop 5 if there is nothing left to do. (Or, as a special exception, if there is only one *Play Clue* to give to a card that happens to be on *Finesse Position*.)
@@ -1719,7 +1750,7 @@ Priority does not always apply. Some common exceptions are listed below.
 
 <br />
 
-## Level 13 - Expert
+## Level 14 - Expert
 
 * See the [learning path document](misc/Learning_Path.md) for general descriptions of each level.
 
@@ -1829,7 +1860,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 14 - Rarely Used Strategies
+## Level 15 - Rarely Used Strategies
 
 * The rest of the conventions and special moves are clustered into level 14. Level 14 strategies are not necessarily more complicated than the strategies in the previous levels. Rather, it is just that since they rarely come up, it would be a waste of time for every player to know about every one.
 * Nonetheless, when playing with expert players, we generally play under the assumption that everyone knows about most of the conventions in this section. Since expert players have hundreds (or thousands) of games, they will probably have seen a rare situation before and will instinctively know what to do.
@@ -1837,7 +1868,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 14 - Rarely Used Strategies (Save Clues & Non-Emergency Chop Moves)
+## Level 15 - Rarely Used Strategies (Save Clues & Non-Emergency Chop Moves)
 
 ### 2 Saves (Off Chop on the First Turn)
 
@@ -1903,7 +1934,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 14 - Rarely Used Strategies (Finesses & Bluffs)
+## Level 15 - Rarely Used Strategies (Finesses & Bluffs)
 
 ### The Selfish Clue
 
@@ -2490,7 +2521,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 14 - Rarely Used Strategies (Pushes & Pulls)
+## Level 15 - Rarely Used Strategies (Pushes & Pulls)
 
 ### The Trash Push Prompt & The Trash Push Finesse
 
@@ -2551,7 +2582,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 14 - Rarely Used Strategies (Emergency Moves)
+## Level 15 - Rarely Used Strategies (Emergency Moves)
 
 ### The Fake Save
 
@@ -2639,30 +2670,13 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 14 - Rarely Used Strategies (Ejection)
+## Level 15 - Rarely Used Strategies (Ejection)
 
 * *Ejection* refers to a move like a *Bluff*, but instead of playing an unrelated card from *Finesse Position*, someone plays an unrelated card from their *Second Finesse Position*. For example, if a player's hand hand is completely unclued, their *Second Finesse Position* is slot 2.
-* Certain types of "wasted" clues with no other purpose signal an *Ejection*.
 
-### The 5 Color Ejection (5CE)
+### The 5 Color Ejection
 
-* Normally, if a player gives a color *Play Clue* to a 5, it would mean that it is a *Finesse* on the 5 and all of the cards leading up to the 5 are playable.
-* If the very next player sees that they will only have to **blind-play one card** in their hand to fulfill the *Finesse*, then they should assume that it is a *Finesse* and blind-play their *Finesse Position*.
-* If the very next player sees that they would have to **blind-play two or more cards** in their hand to fulfill the *Finesse*, then a *Finesse* is unlikely. Instead, players agree that this signals an *Ejection* and that the next player should play their *Second Finesse Position*.
-  * *Prompts* don't factor into the "two or more blind-plays" rule. Players only count the number of blind-plays.
-* After the blind-play, the player who received the clue will know that they must have a 5.
-* Note that *5 Color Ejection* only applies if the 5 did not have any clues on it already. If a 5 is re-clued, it signals a *Finesse* on all of the cards leading up to the 5.
-* For example, in a 3-player game:
-  * It is the first turn and nothing is played on the stacks.
-  * Alice clues red to Cathy, touching a red 5 on slot 3.
-  * Bob knows that normally, this would be a *Finesse* on the 5, indicating to Bob that he has the red 1, the red 2, the red 3, and the red 4. However, since this calls for more than one blind card, he knows that *5 Color Ejection* should take precedence, so he knows to play his *Second Finesse Position* card. It is a red 1 and it successfully plays.
-  * From Cathy's perspective, if Bob had played his *Finesse Position* card in response to the red clue, then Cathy would know that it was a *Finesse* or a *Bluff*. But since Bob blind-played his *Second Finesse Position* card, it must be a *5 Color Ejection*. Cathy marks the red card as red 5.
-* In the previous example, a *5 Color Ejection* was preformed with the 5 being the only brand new card introduced with the color clue. However, it is also possible to perform a *5 Color Ejection* with more than one card introduced. Normally, this kind of thing would signal an *Out-of-Order Finesse*, but the *5 Color Ejection* interpretation should take precedence as long as the next player would have to blind-play two or more cards.
-* For example, in a 3-player game:
-  * It is the first turn and nothing is played on the stacks.
-  * Alice clues red to Cathy, touching a red 5 on slot 2 and a red 2 on slot 3.
-  * Bob knows that normally, this would be an *Out-of-Order Finesse* on the 5, indicating to Bob that he has the red 1, the red 3, and the the red 4. However, since this calls for more than one blind card, he knows that *5 Color Ejection* should take precedence, so he knows to play his *Second Finesse Position* card. It is a red 1 and it successfully plays.
-  * From Cathy's perspective, if Bob had played his *Finesse Position* card in response to the red clue, then Cathy would know that it was a *Finesse* or a *Bluff*. But since Bob blind-played his *Second Finesse Position* card, it must be a *5 Color Ejection*. Cathy marks the red card as red 5. Her other red card can be red 2, red 3, or red 4.
+* The 5 Color Ejection is covered in [level 12](the-5-color-ejection-5ce).
 
 ### Known Trash Ejection
 
