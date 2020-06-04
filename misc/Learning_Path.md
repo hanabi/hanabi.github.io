@@ -14,9 +14,9 @@ Why is this kind of thing important? A common mistake we see from intermediate p
 
 <br />
 
-### Level Descriptions
+### Level Summary
 
-The following is a brief description of each level, explaining what should and should not be used. To make it perfectly clear:
+The following is a quick summary of the levels.
 
 * Basic *[Chop Moves](../Reference.md#the-layered-finesse)* should not be used until level 3.
 * *[Order Chop Moves](../Reference.md#the-order-chop-move--the-skipped-order-chop-move)* should not be used until level 4.
@@ -28,6 +28,12 @@ The following is a brief description of each level, explaining what should and s
 * *[The 5 Color Ejection](../Reference.md#the-5-color-ejection-5ce)* should not be used until level 12.
 * *[The 5 Pull](../Reference.md#the-5-pull)* should not be used until level 13.
 * [*Finesses* with a *Lie Component*](../Reference.md#finesses-with-a-lie-component) should not be used until level 14.
+
+<br />
+
+### Level Descriptions
+
+The following is a brief description of each level.
 
 <br />
 
