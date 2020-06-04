@@ -6,6 +6,14 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 
 ## The Backlog (General Conventions)
 
+@everyone Renamed conventions:
+
+**Junk Ejection --> Bad Chop Move Ejection**
+
+```
+* *Junk Ejection* is a confusing name. *Bad Chop Move Ejection* is verbose but describes exactly what this move is.
+```
+
 **The Unnecessary Trash Push (Finesse Form)**
 
 ```
