@@ -1638,7 +1638,7 @@ Priority does not always apply. Some common exceptions are listed below.
 * As mentioned above, *Chop Moved* cards should be skipped over when finding the *Elimination Finesse* target. If there are two or more cards with *Elimination Notes* on them and they are all *Chop Moved*, then the oldest *Chop Moved* card should be played.
 * *Elimination Finesses* apply to **all** types of situations with *Elimination Notes* (including *Discard Elimination Notes*, *Play Elimination Notes*, and *Double Discard Elimination Notes*). Subsequently, you can more specifically describe an *Elimination Finesse* as a *Discard Elimination Finesse*, a *Play Elimination Finesse*, or a *Double Discard Elimination Finesse*.
 * Note that normal *Finesses* take priority over *Self-Elimination Finesses*. For example:
-  * On the stacks, blue 2 and green 2 are played.
+  * On the stacks, blue 2 and red 2 are played.
   * Alice has *Elimination Notes* on slot 3 and slot 4 for red 3.
   * Someone clues a number 4 in Alice's slot 1 as a *Self-Finesse*.
   * Alice must assume that it is a normal *Self-Finesse* and play blue 3 from slot 2. (If it was an *Elimination Self-Finesse*, she would play red 3 from slot 4.)
