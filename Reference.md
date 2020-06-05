@@ -2301,7 +2301,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 ### Patch Finesse Stipulations
 
 * Expert players commonly perform *Finesses* with a *Lie Component* (and *Layered Finesses* with a *Lie Component*) in order to solve various tricky situations that come up. Since *Patch Finesses* are extremely rare, players should generally assume a more-ordinary *Lie Component* that requires a *Fix Clue* instead of a *Patch* blind-play.
-* Additionally, players should be aware of the more-ordinary *Known Bluff* and *Valid Reverse Bluff* - those interpretations should also take precedence over a *Patch Finesse* interpretation (depending on the context of the game).
+* Additionally, players should be aware of the more-ordinary *Known Bluff* and *Out-of-Position Bluff*. These two moves are much more common than a *Patch Finesse*, and they should take precedence over a *Patch Finesse* interpretation.
 * The *Patch Component* of a *Patch Finesses* **must** be patched before the problem card has a chance of being misplayed. (In other words, blind-playing players are not supposed to entertain *Reverse Patch Finesses*.)
 * It is expressly illegal to perform a *Patch Finesse* that contains two *Patch Components*.
 
@@ -2348,18 +2348,19 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Cathy immediately blind-plays her *Finesse Position* card and it is the red 4.
   * Bob sees Cathy blind-play the next red card for seemingly no reason, so he is able to deduce that his slot 2 card is trash.
 
-### The Out-of-Position Bluff (OOP)
+### The Out-of-Position Bluff (OOP) / The Reverse Bluff
 
 * Similar to a *Reverse Finesse*, it is possible to perform a *Reverse Bluff*. However, according to *Good Lie Principle*, you are only allowed to lie to the player who comes immediately after you, so this is illegal.
-  * Why this policy? It is not possible to play with both *Layered Finesses* and *Reverse Bluffs* at the same time, and *Layered Finesses* are much better.
-* However, players **can** rarely break the *Bluff Seat* rule if one of the following is true:
+  * Why this policy? It is not possible to play with both *Layered Finesses* and *Reverse Bluffs* at the same time. *Layered Finesses* are much better, so we choose to "turn on" *Layered Finesse* and "turn off" *Reverse Bluffs*.
+* However, players **can** rarely break the *Bluff Seat* rule if **one of the following is true**:
   * 1) The next player is at 0 clues (and won't blind-play anything / will blind-play an unrelated card).
   * 2) The next player will think that they have the *Bluffed* card in their own hand and will not try to *Finesse* or *Bluff* the next player. (In this case, the *Bluffed* card means the card that will blind-play, not the "in-between" card.)
   * 3) The next player has enough positive or negative clues on their entire hand to know that they cannot have the matching card.
 * Essentially, if #1 or #2 is true, then the next player cannot act on their state of misinformation. And if it is #3, then the next player will have full knowledge that a lie is occurring, so they will not mess anything up.
-* Since valid *Reverse Bluffs* are so rare, it is important to remember that:
-  * Valid *Reverse Bluffs* take precedence over *Known Bluffs*. In other words, if Alice performs something that could be a *Known Bluff* or a *Reverse Bluff*, and Bob can see that Cathy has a playable card on her *Finesse Position*, he should assume that it is a *Reverse Bluff* instead of a *Known Bluff*.
-  * Valid *Reverse Bluffs* take precedence over *Layered Finesses*. In other words, if Alice does a *Reverse Bluff* on Cathy, it would be natural for Cathy to think that this is a *Layered Finesse*, since Alice is not in *Bluff Seat* for Cathy. However, Cathy must pay close attention and see that since it was possible for it to have been a *Reverse Bluff*, she should **not** continue to blind-play cards from her hand. (This is a common mistake.)
+* Since valid *Out-of-Position Bluffs* are so rare, it is important to remember that:
+  * Valid *Out-of-Position Bluffs* take precedence over *Known Bluffs*. In other words, if Alice performs something that could be a *Known Bluff* or an *Out-of-Position Bluff*, and Bob can see that 1) Cathy has a playable card on her *Finesse Position* and 2) one or more of the three OOP stipulations from above are true, then Bob should assume that it is a *Out-of-Position Bluff* instead of a *Known Bluff*.
+  * Valid *Out-of-Position Bluffs* take precedence over *Layered Finesses*. In other words, if Alice does a valid *Out-of-Position Bluff* on Cathy, it would be natural for Cathy to think that this is a *Layered Finesse*, since Alice is not in *Bluff Seat* for Cathy. However, Cathy must pay close attention and see that because of the very specific situation, an *Out-of-Position Bluff* was legal, which means that Cathy should **not** continue to blind-play cards from her hand. (This is a common mistake.)
+* A *Reverse Bluff* is just a just a more-specific type of *Out-of-Position Bluff*. All of the same stipulations apply. 
 
 ### The Good Touch Bluff
 
