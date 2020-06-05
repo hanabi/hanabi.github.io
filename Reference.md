@@ -1931,7 +1931,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### The Unnecessary Unknown Trash Discharge Chop Move (UUTDCM)
 
-* First, see the *[Unnecessary Trash Finesse/Bluff Chop Move](#the-unnecessary-trash-finessebluff-chop-move)*.
+* First, see the *[Unnecessary Trash Finesse/Bluff Chop Move](#the-unnecessary-trash-finessebluff-chop-move)* and *[Unknown Trash Discharge](#unknown-trash-discharge-utd)*.
 * This same concept applies to *Unknown Trash Discharge*. In other words, if an unnecessary *Unknown Trash Discharge* is performed, then the player who receives the clue should *Chop Move* in the same way as the *Unnecessary Trash Finesse/Bluff Chop Move*.
 * Note that this convention **only** applies if it touches exactly **one** trash card. (This is because we want players to have the ability to perform 2-for-1 UTDs without promising a *Chop Move*.)
 
