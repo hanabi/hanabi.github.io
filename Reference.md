@@ -1637,11 +1637,13 @@ Priority does not always apply. Some common exceptions are listed below.
   * The *Elimination Finesse* promises that it is her oldest card, so she plays slot 5 as blue 3.
 * As mentioned above, *Chop Moved* cards should be skipped over when finding the *Elimination Finesse* target. If there are two or more cards with *Elimination Notes* on them and they are all *Chop Moved*, then the oldest *Chop Moved* card should be played.
 * *Elimination Finesses* apply to **all** types of situations with *Elimination Notes* (including *Discard Elimination Notes*, *Play Elimination Notes*, and *Double Discard Elimination Notes*). Subsequently, you can more specifically describe an *Elimination Finesse* as a *Discard Elimination Finesse*, a *Play Elimination Finesse*, or a *Double Discard Elimination Finesse*.
-* Note that normal *Finesses* take priority over *Self-Elimination Finesses*. For example:
-  * On the stacks, blue 2 and red 2 are played.
-  * Alice has *Elimination Notes* on slot 3 and slot 4 for red 3.
-  * Someone clues a number 4 in Alice's slot 1 as a *Self-Finesse*.
-  * Alice must assume that it is a normal *Self-Finesse* and play blue 3 from slot 2. (If it was an *Elimination Self-Finesse*, she would play red 3 from slot 4.)
+* Note that normal *Finesses* take priority over *Self-Elimination Finesses*. For example, in a 3-player game:
+  * On the stacks, red 2 and blue 2 are played.
+  * Alice's hand is completely unclued. Alice has *Elimination Notes* on slot 3 and slot 4 for red 3.
+  * Cathy clues a number 4 in Alice's slot 1 as a *Self-Finesse*.
+  * If Alice's 4 is a blue 4, then this would be a normal *Self-Finesse*, and Alice should blind-play blue 3 from slot 2.
+  * If Alice's 4 is a red 4, then this would be an *Elimination Self-Finesse*, and Alice should blind-play red 3 from slot 4.
+  * Alice knows that in this situation, you always supposed to assume a normal *Finesse*, so she blind-plays blue 3 from slot 2.
 
 ### Play Elimination
 
