@@ -892,6 +892,7 @@ Note that in this user interface, players are **not** holding their hands like t
 
 * For example, if a player could perform a *5 Stall* (precedence 2), then they are not allowed to perform a *Tempo Clue* (precedence 3). Or, if a player could perform a *Tempo Clue* (precedence 3), they are not allowed to *Hard Burn* (precedence 7), and so forth.
   * However, remember that the *Finesse Position Exception* applies to *5 Stalls*. (This is covered in the "5 Stall" section above.)
+  * Also, note that the value of a *Locked Hand Save* may be asynchronous. A *Locked* player may choose to fill in info instead of perform a *Locked Hand Save* (if there are no higher priority clues available), and this should not trigger a *Finesse*.
 * What is the point of having a complicated table with defined priorities? Well, normally, players in stalling situations are not able to give tricky-looking *Finesses*, because everyone else on the team will think that they are giving a stall clue. However, if it can be seen that there is a better clue available for them to give, then everyone can know that they are **not** giving a stall clue. Thus, because of this precedence table, players in stalling situations are still often able to make *Finesses* happen.
 * Obviously, stall clues are not allowed when the player has a known playable card in their hand.
 
