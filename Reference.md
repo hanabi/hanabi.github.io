@@ -3113,6 +3113,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 Conventions for specific variants are listed on a separate page.
 
+* [2 players](/misc/2-Player.md)
 * [3 Suits](/variant-specific/3_Suits.md)
 * [Black](/variant-specific/Black.md)
 * [Rainbow and/or Dual-Color](/variant-specific/Rainbow.md)
