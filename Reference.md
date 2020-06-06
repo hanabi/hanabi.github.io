@@ -2743,7 +2743,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 14 - Rarely Used Strategies (Discharge)
+## Level 15 - Rarely Used Strategies (Discharge)
 
 * *Discharge* is similar to *Ejection*, except instead of blind-playing the *Second Finesse Position* card, the player plays the *Third Finesse Position* card.
 * Certain types of **really** bad clues cause a *Discharge* to occur on the very next player.
@@ -2796,7 +2796,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 14 - Ejection & Discharge Extensions
+## Level 15 - Ejection & Discharge Extensions
 
 ### The Out-of-Position Ejection
 
@@ -2844,7 +2844,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 14 - Rarely Used Strategies (Miscellaneous)
+## Level 15 - Rarely Used Strategies (Miscellaneous)
 
 ### Deferring a Bluff
 
