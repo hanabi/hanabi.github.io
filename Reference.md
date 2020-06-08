@@ -887,7 +887,7 @@ Note that in this user interface, players are **not** holding their hands like t
 | 3          | *Tempo Clue* (re-cluing a card to make it play)                                       | ❌ | ✔ | ✔ | ✔
 | 4          | *Locked Hand Save* (saving any card on chop)                                          | ❌ | ❌ | ✔ | ✔
 | 5          | *8 Clue Save* (saving any non-fresh card)                                             | ❌ | ❌ | ❌ | ✔
-| 6          | Filling in extra info on clued cards                                                  | ❌ | ✔ | ✔ | ✔
+| 6          | Filling in extra info on clued cards or *Chop Moved* cards                            | ❌ | ✔ | ✔ | ✔
 | 7          | *Hard Burn* (re-cluing an unplayable card that gives no new information, usually a 5) | ❌ | ✔ | ✔ | ✔
 
 * For example, if a player could perform a *5 Stall* (precedence 2), then they are not allowed to perform a *Tempo Clue* (precedence 3). Or, if a player could perform a *Tempo Clue* (precedence 3), they are not allowed to *Hard Burn* (precedence 7), and so forth.
