@@ -60,7 +60,7 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 
 <br />
 
-### 4-Player and 5-Player
+### 4-Player
 
 | # mod 9 | action                    | person clued   | type of clue
 | ------- | ------------------------- | -------------- | -------------
@@ -76,6 +76,26 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 | 9  (21) | 3rd rightmost is critical | 3 players away | color on newest card
 | 10 (22) | 2nd rightmost is critical | 3 players away | number not on newest card
 | 11 (23) | rightmost is critical     | 3 players away | color not on newest card
+
+<br />
+
+### 5-Player
+
+| # mod 9 | action             | person clued   | type of clue
+| ------- | ------------------ | -------------- | -------------
+| 0  (13) | give clue          | 1 player away  | number on newest card
+| 1  (14) | play 1             | 1 player away  | color on newest card
+| 2  (15) | play 2             | 1 player away  | number not on newest card
+| 3  (16) | play 3             | 1 player away  | color not on newest card
+| 4  (17) | play 4             | 2 players away | number on newest card
+| 5  (18) | discard 1          | 2 players away | color on newest card
+| 6  (19) | discard 2          | 2 players away | number not on newest card
+| 7  (20) | discard 3          | 2 players away | color not on on newest card
+| 8  (21) | discard 4          | 3 players away | number on newest card
+| 9  (22) | slot 1 is critical | 3 players away | color on newest card
+| 10 (23) | slot 2 is critical | 3 players away | number not on newest card
+| 11 (24) | slot 3 is critical | 3 players away | color not on newest card
+| 12 (25) | slot 4 is critical | 4 players away | any clue
 
 <br />
 
