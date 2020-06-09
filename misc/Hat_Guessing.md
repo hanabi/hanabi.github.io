@@ -62,17 +62,20 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 
 ### 4-Player and 5-Player
 
-| # mod 9 | action    | person clued   | type of clue
-| ------- | --------- | -------------- | -------------
-| 0 (9)   | give clue | 1 player away  | number on newest card
-| 1 (10)  | play 1    | 1 player away  | color on newest card
-| 2 (11)  | play 2    | 1 player away  | any clue not touching the newest card
-| 3 (12)  | play 3    | 2 player away  | number on newest card
-| 4 (13)  | play 4    | 2 players away | color on newest card
-| 5 (14)  | discard 1 | 2 players away | any clue not touching the newest card
-| 6 (15)  | discard 2 | 3 players away | number on newest card
-| 7 (16)  | discard 3 | 3 players away | color on newest card
-| 8 (17)  | discard 4 | 3 players away | any clue not touching the newest card
+| # mod 9 | action                    | person clued   | type of clue
+| ------- | ------------------------- | -------------- | -------------
+| 0  (12) | give clue                 | 1 player away  | number on newest card
+| 1  (13) | play 1                    | 1 player away  | color on newest card
+| 2  (14) | play 2                    | 1 player away  | number not on newest card
+| 3  (15) | play 3                    | 1 player away  | color not on newest card
+| 4  (16) | play 4                    | 2 players away | number on newest card
+| 5  (17) | discard 1                 | 2 players away | color on newest card
+| 6  (18) | discard 2                 | 2 players away | number not on newest card
+| 7  (19) | discard 3                 | 2 players away | color not on on newest card
+| 8  (20) | discard 4                 | 3 players away | number on newest card
+| 9  (21) | 3rd rightmost is critical | 3 players away | color on newest card
+| 10 (22) | 2nd rightmost is critical | 3 players away | number not on newest card
+| 11 (23) | rightmost is critical     | 3 players away | color not on newest card
 
 <br />
 
