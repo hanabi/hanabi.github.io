@@ -884,9 +884,9 @@ Note that in this user interface, players are **not** holding their hands like t
 | ---------- | ------------ | ----------------------- | --------------------------- | ------------------------ | --------------------
 | 1          | Normal *Play Clues* or *Save Clues*                                                   | ✔ | ✔ | ✔ | ✔
 | 2          | *5 Stall* (cluing off-chop 5's)                                                       | ✔ | ✔ | ✔ | ✔
-| 3          | *Tempo Clue* (re-cluing a card to make it play)                                       | ❌ | ✔ | ✔ | ✔
-| 4          | *Locked Hand Save* (saving any card on chop)                                          | ❌ | ❌ | ✔ | ✔
-| 5          | *8 Clue Save* (saving any non-fresh card)                                             | ❌ | ❌ | ❌ | ✔
+| 4 (tied)   | *Locked Hand Save* (saving any card on chop)                                          | ❌ | ❌ | ✔ | ✔
+| 4 (tied)   | *8 Clue Save* (saving any non-fresh card)                                             | ❌ | ❌ | ❌ | ✔
+| 4 (tied)   | Filling in extra info on clued cards or *Chop Moved* cards                            | ❌ | ✔ | ✔ | ✔
 | 6          | Filling in extra info on clued cards or *Chop Moved* cards                            | ❌ | ✔ | ✔ | ✔
 | 7          | *Hard Burn* (re-cluing an unplayable card that gives no new information, usually a 5) | ❌ | ✔ | ✔ | ✔
 
@@ -895,13 +895,17 @@ Note that in this user interface, players are **not** holding their hands like t
 * What is the point of having a complicated table with defined priorities? Well, normally, players in stalling situations are not able to give tricky-looking *Finesses*, because everyone else on the team will think that they are giving a stall clue. However, if it can be seen that there is a better clue available for them to give, then everyone can know that they are **not** giving a stall clue. Thus, because of this precedence table, players in stalling situations are still often able to make *Finesses* happen.
 * Obviously, stall clues are not allowed when the player has a known playable card in their hand.
 
-### Locked Hands & The Locked Hand Save (LHS) (Severity 3 Stalling)
+### Locked Hands (Severity 3 Stalling)
 
 * Generally speaking, it is a bad situation when someone's hand gets fully clued. This is also known as being *Locked*, and it should be avoided if possible. However, sometimes it cannot be helped, like when a player draws three 5's in a row.
 * A player with a *Locked Hand* may give a low-value clue because they are not sure that they can play anything (and they can't discard because their hand is fully clued). Similar to a *Double Discard* situation, players should not read too closely into any clues given during this state.
 * If the team is out of clues and someone's hand is fully clued, then you **have** to discard to generate a clue for them. Similarly, if there is only 1 clue left, you cannot steal it from them.
+
+### The Locked Hand Save (LHS)
+
 * Players with a *Locked Hand* gain the special ability to save any card on chop. This is called a *Locked Hand Save* if it saves a card that would otherwise not be legal to save (like some one-away from playable card that is not in the discard pile yet). However, players can only do *Locked Hand Saves* if there are no higher precedence clues available. See the "Allowable Stall Clues" section above.
 * A *Locked Hand Save* can be performed with either a color clue or a number clue.
+* Note that the precedence of a *Locked Hand Save* is tied with a "fill-in" clue. Essentially, this means that players who have a *Locked Hand* are not forced to perform a *Locked Hand Save* if they do not want to. Most of the time, doing a *Locked Hand Save* will be pretty good (as a 1-for-1 or a 2-for-1 instead of a 0-for-1), but *Locked* players can always ignore a *Locked Hand Save* to perform a "fill-in" clue if they want.
 
 ### The Anxiety Play (Forcing a Locked Player to Play)
 
