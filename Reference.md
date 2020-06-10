@@ -1225,7 +1225,7 @@ Note that in this user interface, players are **not** holding their hands like t
   * If that is impossible, assume a *Prompt*.
   * If that is impossible, assume a *Finesse*.
   * If that is impossible, assume a *Bluff*.
-* Similarly, players should also use *Occam's Razor* to tell the difference between the various kinds of *Finesses* and *Bluffs* and special moves - they should always prefer the "move" that gets the least amount of blind-cards played. (A move that only gets a single blind card played is simpler than a move that gets two blind cards, and so forth.)
+* If the interpretation is still ambiguous, players should use *Occam's Razor* to prefer the "move" that gets the least amount of blind-cards played. (A move that only gets a single blind card played is simpler than a move that gets two blind cards, and so forth.)
 
 <br />
 
