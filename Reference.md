@@ -667,7 +667,7 @@ Note that in this user interface, players are **not** holding their hands like t
   * If Bob plays slot 2, he is performing an *Order Chop Move*, and Cathy should chop move one card (her slot 5).
   * If Bob plays slot 1, he is performing a *Skipped Order Chop Move*, and Alice should chop move one card (her slot 5).
 * There are some common special situations that do **not** imply an *Order Chop Move*:
-  * The 1 had priority from the *Fresh 1's Rule*.
+  * The 1 was expected to be played from the *Fresh 1's Rule*.
   * The 1 that was played was originally *Finessed* from a clue that happened **before** the number 1 clue.
   * The 1 that was played was not **exactly** the same as the other 1's. Any positive or negative information that can be used to distinguish the 1s from each other "turns off" *Order Chop Moves*.
   * The 1 that was skipped over is known to be bad from contextual information. (See *The Stale 1's Clue* section.)
@@ -1002,7 +1002,7 @@ Note that in this user interface, players are **not** holding their hands like t
   * Cathy discards the known red 1 as a *Gentleman's Discard*.
   * Alice blind-plays her *Finesse Position* card as red 1.
 * The *Gentleman's Discard* essentially transfers a card to another player on the team. However, often times, doing this will delay things and cost the team *Tempo*. Thus, a *Gentleman's Discard* that slows things down is only good if there is some other side benefit to offset the lost *Tempo* (such as delaying the discard of a valuable card, for example).
-* For the purposes of *Priority*, *Gentleman's Discards* do not count as a blind-play. This means that if there is a playable clued card that leads into someone else's hand, then it should have priority over the blind-play from the *Gentleman's Discard*. (This is because the *Gentleman's Discard* is an information-symmetric move and nothing needs to be "proven" to other members of the team.)
+* For the purposes of *Priority*, *Gentleman's Discards* do not count as a blind-play. (*Priority* is a concept that is introduced in a later level.) This is because the *Gentleman's Discard* is an information-symmetric move and nothing needs to be "proven" to other members of the team.
 
 ### The Layered Gentleman's Discard
 
