@@ -128,8 +128,8 @@ Some additional rules apply to *Positional Clues* that are intended to be *Save 
 
 #### No Early Null 3 or Null 4 Saves
 
-* It is considered illegal to perform any kind of *Chop Move* on a non-critical null 3 or a non-critical null 4.
-  * This rule counts for both *Positional Saves* and normal *Chop Moves* (such as the *5's Chop Move*).
+* It is considered illegal to clue any kind of *Chop Move* on a non-critical null 3 or a non-critical null 4.
+  * This rule counts for both *Positional Saves* and normal *Chop Moves* (such as the *5's Chop Move*), but not for order chop moves.
 * Thus, when a player is *Chop Moved* early on for a null card, they can know for sure that it is either a null 2 or a null 5.
 
 <br />
