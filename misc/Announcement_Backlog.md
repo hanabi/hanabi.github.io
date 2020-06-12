@@ -6,22 +6,6 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 
 ## The Backlog (General Conventions)
 
-@everyone Deleted conventions:
-
-**Known Trash Ejection** (deleted)
-
-```
-* This convention is deleted due to lack of use.
-```
-
-@everyone Renamed conventions:
-
-**Junk Ejection --> Bad Chop Move Ejection**
-
-```
-* *Junk Ejection* is a confusing name. *Bad Chop Move Ejection* is verbose but describes exactly what this move is.
-```
-
 @everyone New conventions:
 
 **The Unnecessary Trash Push (Finesse Form)**
@@ -43,24 +27,6 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 <br />
 
 ## The Backlog (Variant-Specific Conventions)
-
-@everyone Variant-specific conventions:
-
-**Pink Tempo Clues**
-
-```
-* This convention only applies to variants with a pink suit.
-* If a player gives a *Tempo Clue* to a pink card, it is never a *Tempo Clue Chop Move*, even if it only gets one card played. (This is the same convention as with brown cards.)
-* This is because it is fairly valuable to get pink cards out of the hand as soon as possible in case blocking cards are drawn.
-```
-
-**Brown Tempo Clues**
-
-```
-* This convention only applies to variants with a brown suit.
-* If a player gives a *Tempo Clue* to a brown card, it is never a *Tempo Clue Chop Move*, even if it only gets one card played.
-* This is because it is fairly valuable to get brown cards out of the hand as soon as possible in case blocking cards are drawn.
-```
 
 **The Bubblegum Bluff** (by Stephen)
 
