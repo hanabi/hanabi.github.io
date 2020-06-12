@@ -159,9 +159,9 @@ The following is a brief description of each level.
 
 #### Level 14 - Expert
 
-* Level 13 strategies should only be learned if you have 240+ games of experience with the group.
+* Level 14 strategies should only be learned if you have 240+ games of experience with the group.
 * This level covers moves that are complicated, difficult to see, or require a deeper understanding of how Hanabi works in order to work properly.
-* Level 13 strategies are as follows:
+* Level 14 strategies are as follows:
   * *[The Occupied Finesse](../Reference.md#the-occupied-play-clue--the-occupied-finesse-opc)*
   * *[The Trash Push](../Reference.md#the-trash-push)*
   * *[The Trash Finesse](../Reference.md#the-trash-finesse-strong-form)*
