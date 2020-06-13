@@ -308,6 +308,11 @@ Note that in this user interface, players are **not** holding their hands like t
   * Before Bob can play the 3rd 1, Alice clues Bob number 1 again, and all the clue does is re-touch the remaining 1.
   * Now it is Bob's turn. Since he was going to play the 1 already without Alice doing anything, the clue must have some other meaning. Thus, it is a *Fix Clue*: the remaining 1 is bad, and Bob can safely discard it.
 * Note that in general, giving a *Fix Clue* should wait until the card is actually in danger of being misplayed (like in the previous example). If a duplicated card is not in danger of being misplayed anytime soon, then players should defer giving the *Fix Clue* until later. This way, it gives the player a chance to figure out the duplication on their own, which can happen from time to time.
+* *Fix Clues* that give no additional information only "fix" one card. For example:
+  * Alice clues Bob number 1 and it touches three 1's.
+  * Bob successfully plays one 1.
+  * Before Bob can play the 2nd 1, Alice clues Bob number 1 again, and all the clue does is re-touch the two remaining 1's.
+  * Now it is Bob's turn. Since he was going to play both of these 1's already without Alice doing anything, the clue must have some other meaning. Thus, it is a *Fix Clue*: the 1 that Bob was about to play is bad, and Bob can safely discard it. Bob skips over the 1 that he was about to play and plays the other one.
 
 <br />
 
