@@ -334,7 +334,7 @@ Note that in this user interface, players are **not** holding their hands like t
 * This is the term used for when a player clues a card directly that was going to be blind-played from a *Finesse*. Typically, this means that the player who gave the clue was not paying attention and failed to see that a *Finesse* happened at all.
 * *Stomping* on a *Finesse* essentially wastes a clue for the team.
 
-### What to Do After a Strike
+### What to Do After a Strike / Bomb
 
 * When a card is misplayed and goes to the discard pile, the team accumulates a *strike* (which is also referred to as a *bomb*).
 * If three strikes are accumulated, the team will get a score of 0. This is to be **avoided at all costs** and players should play relatively conservatively when the team is at two strikes. (One exception is when players are explicitly going for a perfect score in a really tough variant, but this is less common.)
@@ -3322,3 +3322,5 @@ Conventions for specific variants are listed on a separate page.
 | The Empty Finesse | Instantiation
 | The Empty Double-Play | Zamiel & Jeep
 | The Empty Bluff | Cory
+
+asdf
