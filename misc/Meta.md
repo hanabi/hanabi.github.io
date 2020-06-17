@@ -20,5 +20,5 @@
 * An example of a *Specific Prescription Convention* would be a *Order Chop Move* (from the Hyphen-ated conventions):
   * *Order Chop Moves* are performed by playing 1's out of order.
   * They only occur during the first part of the game, so players do not have to keep them in mind throughout the whole game.
-  * Furthermore, even in the first part of the game, players do not have to keep the convention in the forefront of their minds. They can simply notice that something strange has happened: "Woah! Alice played her 1's out of order! That was very strange!" And noticing this will trigger the remembering of the convention.
+  * Furthermore, even in the first part of the game, players do not have to keep the convention in the forefront of their minds. They can simply notice that something strange has happened: "Wow! Alice played her 1's out of order! That was very strange!" And noticing this will trigger the remembering of the convention.
 * If complexity needs to be reduced from a convention framework, then deleting a *Specific Prescription Convention* will not provide much value, especially if there are no conflicting conventions or valid alternate interpretations.

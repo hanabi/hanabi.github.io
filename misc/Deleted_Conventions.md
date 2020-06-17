@@ -123,7 +123,7 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
   * Alice plays the 2 as a *Speculation Bluff*, hoping to get the green 1 "for free". However, it happens to be the red 2.
   * Bob knows that Alice was supposed to play the yellow 1, so this must have been a *Speculation Finesse*. Bob marks his *Finesse Position* card as blue 3. Then, Bob discards.
   * Alice and Cathy both mark the green 1 as a "blue 3 *Speculation Mismark*". At this point, they can either:
-    * Clue green 1 directly to get it to play, which would reveal to everyone that a failed *Speculation Bluff* occured and immediately resyncronize information amoung the team.
+    * Clue green 1 directly to get it to play, which would reveal to everyone that a failed *Speculation Bluff* occured and immediately resyncronize information among the team.
     * Let the card sit there until the real blue 2 is played, after which the green 1 will play for free as blue 2. After this happens, the *Speculation Bluff* will be revealed.
 * Note that to prevent confusion, we agree that it is illegal for players to perform a *Speculation Finesse* on a player who is two or more seats away if the next player has a playable card in *Finesse Position* that is not already gotten.
 * This convention was deleted because it was too complicated.
@@ -244,7 +244,7 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
 * In emergency situations, players should perform *Scream Discards* and *Generation Discards* to save important cards. These two moves (along with their derivatives, the *Echo Scream Discard* and the *Composition Discard*), should be enough to "solve" almost every tricky situation that could ever come up.
 * However, in an extremely difficult variant, or in a situation where a previous player has blundered, it might fall to one player to save the next player's critical chop card. In this situation, they might not be able to perform a *Scream Discard*, because they might not have any playable cards. And they might not be able to perform a *Scream Blind-Play*, because if the team is at 2 strikes, then the game would immediately end.
 * In this situation, the player can discard a card one-away from their chop as a *Skipped Scream Discard*. This convention is normally only used in 2-player games, because it is very unsafe, risking the discard of a critical card.
-* It is common for players to accidently *Chop Move* a card. Thus, the *Skipped Discard Chop Move* interpretation should almost never be entertained, simply because of how rarely it is actually needed.
+* It is common for players to accidentally *Chop Move* a card. Thus, the *Skipped Discard Chop Move* interpretation should almost never be entertained, simply because of how rarely it is actually needed.
 * Furthermore, this move should never be performed if there is a non-expert player playing or if it is likely to be interpreted as a mistake.
 * This convention was deleted due to lack of use (outside of 2-player games).
 
@@ -261,7 +261,7 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
   * Bob instead plays his 1 on slot 4 (which does nothing special).
   * Cathy sees no possible reason for not getting a "free" *Chop Move* on a 5, so she knows that this is an *Order Ejection*. Cathy blind-plays slot 2 and it plays as a blue 2.
   * Donald knows that Cathy must be blind-playing slot 2 for a reason. The only thing that happened that could have possibly caused the blind-play was the order that Bob played his 1's in. Thus, Donald knows that an *Order Ejection* has occurred and that he should *Chop Move*.
-  * Furthermore, Donald knows that his *Chop Moved* card **must** be a 5 or some other critical card. (This is unlike a normal *Order Chop Move*, since *Order Chop Moves* are alloweded to get non-critical cards.)
+  * Furthermore, Donald knows that his *Chop Moved* card **must** be a 5 or some other critical card. (This is unlike a normal *Order Chop Move*, since *Order Chop Moves* are allowed to get non-critical cards.)
 * Note that *Order Ejections* only apply if the player did not *Order Chop Move* a **critical** card. Unique 2's **do not** count as critical in this case.
 * This convention was deleted due to lack of use.
 

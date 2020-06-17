@@ -1001,7 +1001,7 @@ Note that in this user interface, players are **not** holding their hands like t
 * First, read the section on the *[Sarcastic Discard](#the-sarcastic-discard)*.
 * To review, the *Sarcastic Discard* is:
   1) a move that transfers a **clued card** in one person's hand to a **clued card** in another person's hand
-  2) **necessary** to eliminate confusion amoungst the team (because from *Good Touch Principle*, we are not normally supposed to have two copies of the same card "touched" with a clue)
+  2) **necessary** to eliminate confusion amongst the team (because from *Good Touch Principle*, we are not normally supposed to have two copies of the same card "touched" with a clue)
   3) done with both playable cards and non-playable cards
 * It is also possible to "transfer" cards to other players *Finesse Position*. This is called a *Gentleman's Discard* to signify that the other card was completely blind as opposed to having a clue on it already.
 * The *Gentleman's Discard* is:
@@ -2030,7 +2030,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 ### Stacked Bluffs (Exception)
 
 * Normally, performing a *Bluff* on a player who is already *Finessed* is illegal. This is because players typically play into *Finesses* in order. So, they will ignore the second clue and play into the first *Finesse*, causing any hypothetical *Bluffs* to not resolve immediately. The logic behind this is that the player has to account for the possibility that the first *Finesse* is a *Layered Finesse*.
-* Rarely, a player can know that a *Layered Finesse* is impossible. This could be because they know the identity of every card in their hand (minus their *Finesse Position* card). Or, alternatively, they could have relevent negative information on their entire hand.
+* Rarely, a player can know that a *Layered Finesse* is impossible. This could be because they know the identity of every card in their hand (minus their *Finesse Position* card). Or, alternatively, they could have relevant negative information on their entire hand.
 * If the player can rule out a *Layered Finesse*, then it is possible to perform a *Stacked Bluff* on them. It is important to note that such a player is "locked in" to the *Bluff* and should almost always immediately play their *Finesse Position* card.
 
 ### The Layered Priority Finesse

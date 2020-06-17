@@ -62,7 +62,7 @@ The following is a brief description of each level.
 #### Level 3 - Initiate
 
 * Level 3 strategies should only be learned if you have played with the group for a few days (20+ games of experience).
-* This level introduces a few different kinds of *Chop Moves*. While *Chop Moves* may not be used in every single game, level 3 players should be comforatable with all of the basic forms.
+* This level introduces a few different kinds of *Chop Moves*. While *Chop Moves* may not be used in every single game, level 3 players should be comfortable with all of the basic forms.
 * Level 3 strategies are as follows:
   * *[The Sarcastic Discard](../Reference.md#the-sarcastic-discard)*
   * *[The Trash Chop Move](../Reference.md#the-trash-chop-move)*

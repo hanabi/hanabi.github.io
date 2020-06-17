@@ -28,9 +28,9 @@
 
 <br />
 
-## Do I need to be an expert player in order to review the latest *Convention Framework* changes or join in the disccusion?
+## Do I need to be an expert player in order to review the latest *Convention Framework* changes or join in the discussion?
 
-* No, you do not. Anyone at an intermediate level or above is encouraged to read the latest issues and participate in the disccusion, at least if that kind of thing is interesting to you.
+* No, you do not. Anyone at an intermediate level or above is encouraged to read the latest issues and participate in the discussion, at least if that kind of thing is interesting to you.
 
 <br />
 

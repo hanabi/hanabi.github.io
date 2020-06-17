@@ -97,7 +97,7 @@ What is the flip-side of not having very many members? Better cohesion, aided by
 
 #### Extra Conventions and Extra Complexity
 
-Another potentially bad aspect of playing with my group is the complexity involved. We are very welcoming of noobs, but I won't deny that we play at a higher level than the averge BGA player. It is going to be a longer journey to become an expert in our group than it would be to be an expert at BGA. And if you are already comfortable with the BGA conventions, it might just be too frustrating to experiment with different ways of doing things.
+Another potentially bad aspect of playing with my group is the complexity involved. We are very welcoming of noobs, but I won't deny that we play at a higher level than the average BGA player. It is going to be a longer journey to become an expert in our group than it would be to be an expert at BGA. And if you are already comfortable with the BGA conventions, it might just be too frustrating to experiment with different ways of doing things.
 
 What is the flip-side of having more conventions and more complexity? First off, it raises the skill ceiling. Hanabi throws plenty of tricky situations at you, and you only have a limited amount of tools to solve them. By adding some conventions, it can be like adding additional tools to the tool-belt. For expert players, by empowering them with more tools, it increases the total ways in which they can solve problems, making the game take on a new layer of beauty. But even for intermediate players, it can be very fun to gain the powers to make your teammates blind-play cards from their hands in new and exciting ways.
 
@@ -105,7 +105,7 @@ We know that for people who really like Hanabi, it will be worth the extra effor
 
 #### Conclusion
 
-As a concluding note, I should say that I am not necessarily advocating that anyone completely "converts" away from BGA, like it is some kind of religion. Rather, feel free to experiment and play on both platforms! It is absolutely possible to switch back and forth between convention frameworks. You can think of this as similar to a bilinguial person switching from Spanish to French - you don't necessarily have to choose between the two.
+As a concluding note, I should say that I am not necessarily advocating that anyone completely "converts" away from BGA, like it is some kind of religion. Rather, feel free to experiment and play on both platforms! It is absolutely possible to switch back and forth between convention frameworks. You can think of this as similar to a bilingual person switching from Spanish to French - you don't necessarily have to choose between the two.
 
 With that said, my group always needs new players, so we are always happy to welcome BGA players and Hanabi enthusists alike. I hope you'll give it a try.
 
