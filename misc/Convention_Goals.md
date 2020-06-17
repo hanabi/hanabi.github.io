@@ -22,7 +22,7 @@ The story of Hat Guessing is relevant because if the goal of the group was to on
 
 2. To minimize complexity
 	- We want to make conventions that are intuitive and easy to remember.
-	- If a convention is complicated but increases win-rate by a lot, then that is an okay tradeoff.
+	- If a convention is complicated but increases win-rate by a lot, then that is an okay trade-off.
 
 3. To have fun
 	- Having lots of conventions can be fun, because it raises the skill cap and provides a deeper challenge than just playing surface-level Hanabi.

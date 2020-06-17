@@ -249,7 +249,7 @@ Ok, so you've made it this far. The changes so far probably sound pretty strange
   * Bob has a known red 2 to play and is waiting for Alice to play the red 1.
   * Alice is expected to play the red 1. (The red 1 is said to have *Priority*.) Instead, Alice plays the blue 1.
   * Thus, Alice is **promising** that someone one the team has the blue 2 on their *Finesse Position*. Whoever has it should blind-play it, similar to if a *Finesse* was performed.
-* You can also do *Priority Bluffs*. It works suprisingly well in a variety of situations.
+* You can also do *Priority Bluffs*. It works surprisingly well in a variety of situations.
 * Why do this? It gets cards "for free" without having to use any clues and has virtually no downsides.
 
 <br />

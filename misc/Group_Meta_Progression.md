@@ -12,7 +12,7 @@ In order to faciliate online play, computer games often have a centralized publi
 
 Indeed, in any environment with many independent agents, the strategies used will never fully converge. However, in the same vein that one can walk around for a few hours in downtown New York get a sense for what is currently "in vogue" with respect to fashion, it is also possible to observe many different games on a centralized server to get a sense for what is currently "in vogue" with respect to strategy. Things do end up converging quite a bit, and in video game jargon this is referred to as the metagame, or "meta" for short - the current set of popular strategies that you can roughly expect your opponents to be using.
 
-Why do players converge on a meta at all? This has a straightforward explanation: in order to maximize their winrate, players are incentivized to copy the strategies of the players that beat them. Or, to cut to the chase, they can just directly copy the strategies of the best players in the world, as shown in televised / streamed games. In other words, we can see that almost every online game is like a shared petri dish - everyone evolves together to roughly converge on the same meta.
+Why do players converge on a meta at all? This has a straightforward explanation: in order to maximize their win-rate, players are incentivized to copy the strategies of the players that beat them. Or, to cut to the chase, they can just directly copy the strategies of the best players in the world, as shown in televised / streamed games. In other words, we can see that almost every online game is like a shared petri dish - everyone evolves together to roughly converge on the same meta.
 
 <br />
 
@@ -38,7 +38,7 @@ The group realizes that Hanabi is mostly about efficiency - you want to get as m
 
 #### Level 3 - Cohesion
 
-The group starts to get pretty good at Hanabi. Players begin to discard aggressively to ensure that the maximum amount of *Finesses* can occur. More advanced conventions are agreed upon. Sometimes, this is done explicitly, like when players conduct a pre-game briefing on what a certain type of clue should mean. But even if a group refuses to formally agree on any conventions, they will still unconsciously tap into their reservoir of knowledge about how their teammates reacted in past situations. Over time, this will create implicit conventions.
+The group starts to get pretty good at Hanabi. Players begin to discard aggressively to ensure that the maximum amount of *Finesses* can occur. More advanced conventions are agreed upon. Sometimes, this is done explicitly, like when players conduct a pregame briefing on what a certain type of clue should mean. But even if a group refuses to formally agree on any conventions, they will still unconsciously tap into their reservoir of knowledge about how their teammates reacted in past situations. Over time, this will create implicit conventions.
 
 #### Level 4 - Mastery
 
@@ -46,4 +46,4 @@ The group reaches the first stage of Hanabi mastery - they get a perfect score i
 
 #### Level 5 - Balance
 
-The group realizes that in order to continue to increase winrate and avoiding plateauing, the "efficiency" dial must be turned down. If there is enough efficiency to win every game anyway, configuring things to be more efficient is not useful. Rather, it is more beneficial to "trade in" efficiency to mitigate "bottom-deck" losses. In the final stage, the group carefully balances efficiency with orchestrating safe discards.
+The group realizes that in order to continue to increase win-rate and avoiding plateauing, the "efficiency" dial must be turned down. If there is enough efficiency to win every game anyway, configuring things to be more efficient is not useful. Rather, it is more beneficial to "trade in" efficiency to mitigate "bottom-deck" losses. In the final stage, the group carefully balances efficiency with orchestrating safe discards.
