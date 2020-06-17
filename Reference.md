@@ -1813,7 +1813,7 @@ Priority does not always apply. Some common exceptions are listed below.
   * Cathy now knows that her 1 must not be red 1, or else Bob would not have blind-played anything. The 1 must be some other trash card.
 * Just like normal *Bluffs*, *Trash Bluffs* can only be done while in *Bluff Seat*.
 * An important stipulation of the *Trash Bluff* is that by convention, *Trash Bluffs* **must only touch one card**, if at all possible.
-  * If a player breaks this rule and intentionally touches multiple cards when they could have touched exactly one card, then they are trying to communicate something extra - an *Unneccessary Trash Chop Move* or a *Trash Double Bluff*. (These moves are covered in more detail later on.)
+  * If a player breaks this rule and intentionally touches multiple cards when they could have touched exactly one card, then they are trying to communicate something extra - an *Unnecessary Trash Chop Move* or a *Trash Double Bluff*. (These moves are covered in more detail later on.)
 * In the case where multiple cards are clued as part of a *Trash Bluff*, **all** of the touched cards are considered to be trash. However, the focus of the clue should be the first thing discarded, which allows for the possibility of your teammates to give a follow-up *Fix Clue*.
 
 ### The Trash Finesse (Strong Form)
