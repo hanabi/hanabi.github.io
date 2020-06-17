@@ -5,3 +5,10 @@ addons:
       - aspell-en
 
 script: ./spell_check.sh
+
+# By default, the GitHub webhook will notify on success and failure
+# Instead, we only want messages for failure, so use the "DiscordHooks" project
+after_failure:
+  - wget https://raw.githubusercontent.com/DiscordHooks/travis-ci-discord-webhook/master/send.sh
+  - chmod +x send.sh
+  - ./send.sh failure $WEBHOOK_URL
