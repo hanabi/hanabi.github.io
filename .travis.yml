@@ -1,0 +1,7 @@
+addons:
+  apt:
+    packages:
+      - aspell
+      - aspell-en
+
+script: spell_check.sh
