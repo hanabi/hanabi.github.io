@@ -4,4 +4,4 @@ addons:
       - aspell
       - aspell-en
 
-script: spell_check.sh
+script: ./spell_check.sh
