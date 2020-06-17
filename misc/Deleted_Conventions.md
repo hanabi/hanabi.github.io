@@ -31,7 +31,7 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
 * *Promise Bluffs* take priority over *Double Bluffs*; the person after the first blind-player will assumes that it is a *Promise Bluff* since they will see the true connecting card. And since that player does not blind-play their *Finesse Position* card, the player with the promised card can know to mark their hand accordingly.
   * As the receiver of the clue that initiates a *Promise Bluff*, it may be ambiguous as to what exactly the connecting card is, if it exists. As long as there is at least one candidate on someone's *Finesse Position*, then you have to assume a *Promise Bluff* over a *Double Bluff*.
 * *Promise Bluffs* also take priority over *Layered Finesses*. This isn't normally an issue, since it is rare to actually to perform a *Layered Finesse* from *Bluff Position*, but it is worth mentioning.
-* This convention was deleted because it was too rare to be worth the additional cognitive overhead. It also prevents some *Double Bluffs* from occuring.
+* This convention was deleted because it was too rare to be worth the additional cognitive overhead. It also prevents some *Double Bluffs* from occurring.
 
 ### The Double Gentleman's Discard
 
@@ -101,7 +101,7 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
 
 ### The Speculation Layered Finesse
 
-* Similar to a *Layered Priority Finesse*, it is also possible to *Layered Speculation Finesse*. This is safe to do because if the *Speculation* fails, no lie will have occured, since the other player will write *Elimination Notes* on their entire hand.
+* Similar to a *Layered Priority Finesse*, it is also possible to *Layered Speculation Finesse*. This is safe to do because if the *Speculation* fails, no lie will have occurred, since the other player will write *Elimination Notes* on their entire hand.
 * This convention was deleted with the rework to make *Priority* only apply to globally-known cards.
 
 ### The Speculation Elimination Finesse
@@ -113,8 +113,8 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
 ### The Speculation Bluff
 
 * The *Speculation* mechanism in a *Speculation Finesse* can also be used to perform a *Speculation Bluff*, which is similar to a *Priority Bluff*.
-* In the case where the card played was indeed the left-most of the possibilities, then this works exactly the same as a *Priority Bluff* - the next player will immediately blind-play their *Finesse Position* card and it will be immediately revealed that a *Bluff* has occured.
-* Things become more complicated if the card played does not happen to be the left-most of the possibilities. The next player will mark their *Finesse Position* card in the same way as if a failed *Speculation Finesse* occured. However, the rest of the team will know that it was a *Speculation Bluff*, because they see a playable card in the *Finesse Position* of the next player.
+* In the case where the card played was indeed the left-most of the possibilities, then this works exactly the same as a *Priority Bluff* - the next player will immediately blind-play their *Finesse Position* card and it will be immediately revealed that a *Bluff* has occurred.
+* Things become more complicated if the card played does not happen to be the left-most of the possibilities. The next player will mark their *Finesse Position* card in the same way as if a failed *Speculation Finesse* occurred. However, the rest of the team will know that it was a *Speculation Bluff*, because they see a playable card in the *Finesse Position* of the next player.
 * When this occurs, the bluffed player will mark their card with the wrong note. This is referred to as a *Speculation Mismark*.
 * For example, in a 3-player game:
   * Blue 1 and red 1 are played on the stacks.
@@ -123,7 +123,7 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
   * Alice plays the 2 as a *Speculation Bluff*, hoping to get the green 1 "for free". However, it happens to be the red 2.
   * Bob knows that Alice was supposed to play the yellow 1, so this must have been a *Speculation Finesse*. Bob marks his *Finesse Position* card as blue 3. Then, Bob discards.
   * Alice and Cathy both mark the green 1 as a "blue 3 *Speculation Mismark*". At this point, they can either:
-    * Clue green 1 directly to get it to play, which would reveal to everyone that a failed *Speculation Bluff* occured and immediately resyncronize information among the team.
+    * Clue green 1 directly to get it to play, which would reveal to everyone that a failed *Speculation Bluff* occurred and immediately resynchronize information among the team.
     * Let the card sit there until the real blue 2 is played, after which the green 1 will play for free as blue 2. After this happens, the *Speculation Bluff* will be revealed.
 * Note that to prevent confusion, we agree that it is illegal for players to perform a *Speculation Finesse* on a player who is two or more seats away if the next player has a playable card in *Finesse Position* that is not already gotten.
 * This convention was deleted because it was too complicated.

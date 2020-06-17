@@ -119,7 +119,7 @@
   * In a 4-player game, it is possible to give an *Empty Clue* as a 2-for-1 or a 3-for-1.
   * In a 5-player game, it is possible to give an *Empty Clue* as a 2-for-1, a 3-for-1, or a 4-for-1.
 * Like Hat Guessing, players should generally blind-play their cards immediately, so that other players can figure out what their action is. (Since players can have duplicate cards in their hand, they cannot necessarily know for sure what action was assigned to a player who choses to defer.) With that said, the last player in a sequence can always defer to do something else, because no-one else's action depends on them.
-* Unlike Hat-Guessing, it does not matter which player recieves a clue. If it is possible to give the *Empty Clue* to more than one player, then the clue should be given to player that would benefit the most from the negative information.
+* Unlike Hat-Guessing, it does not matter which player receives a clue. If it is possible to give the *Empty Clue* to more than one player, then the clue should be given to player that would benefit the most from the negative information.
 
 ### Example
 
@@ -200,7 +200,7 @@
 ### Delayed Empty Clues (Through Other Player's Hands)
 
 * Normally, a stacked play action from an *Empty Clue* should not be related to anyone else's hand. This is because it may not be globally known which cards play into which other cards, so different players will assign different actions and everything will get messed up.
-* However, it is possible to give a *Empty Clue* as a *Delayed Play Clue* through someone else's hand if all of the connecting cards are globally known playable. This way, the information never becomes desyncronized. For example, in a 3-player game:
+* However, it is possible to give a *Empty Clue* as a *Delayed Play Clue* through someone else's hand if all of the connecting cards are globally known playable. This way, the information never becomes desynchronized. For example, in a 3-player game:
   * Bob has a globally known blue 1 that is already clued.
   * Cathy has a globally known blue 2 that is already clued.
   * Bob has an unclued blue 3 that is ready to be *Play Clued* in slot 1.

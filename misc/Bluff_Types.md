@@ -2,7 +2,7 @@
 
 ### True Bluffs
 
-A "normal" *Bluff* is when Alice clues Cathy with the intent to **lie to Bob**. Bob thinks that a *Finesse* is occuring and that he is about to play the connecting card. Only after Bob blind-plays some other card is it revealed that Alice lied to him. Bluffs that cause a player to blind-play a non-matching card where a matching card would be expected are called *True Bluffs*.
+A "normal" *Bluff* is when Alice clues Cathy with the intent to **lie to Bob**. Bob thinks that a *Finesse* is occurring and that he is about to play the connecting card. Only after Bob blind-plays some other card is it revealed that Alice lied to him. Bluffs that cause a player to blind-play a non-matching card where a matching card would be expected are called *True Bluffs*.
 
 ### Call-Out Bluffs
 
