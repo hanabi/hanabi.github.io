@@ -3,7 +3,6 @@
 # From: https://github.com/eleven-labs/blog.eleven-labs.com/blob/master/bin/check-spelling.sh
 
 MARKDOWN_TEXT=`(find . -name '*.md' -exec cat {} \;)`
-echo $MARKDOWN_TEXT
 MISSPELLED=`echo $MARKDOWN_TEXT | aspell --lang=en --encoding=utf-8 list | sort -u`
 # --personal=./.aspell.en.pws list
 NUM_MISSPELLED=`echo "$MISSPELLED" | wc -l`
