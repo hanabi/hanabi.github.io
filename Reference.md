@@ -356,7 +356,7 @@ Note that in this user interface, players are **not** holding their hands like t
 ### The Sarcastic Discard
 
 * Occasionally, through a mistake (or complicated situation), the same card will be clued in two different people's hands. Generally, this is to be avoided, but sometimes it happens. Handling this can be tricky.
-* Generally, the **first** player who fully realizes that they have the duplicate card should discard it (as opposed to playing it or holding on to it). This is called a *Sarcastic Discard*, and it communicates to the other player that they 100% have the discarded card.
+* Generally, the **first** player who fully realizes that they have the duplicate card should discard it (as opposed to playing it or holding on to it). This is called a *Sarcastic Discard*, and it communicates to the other player that they 100% have the discarded card. (This is because normally, from *Good Touch Principle*, we never discard cards that have been clued, so if a player discards a clued card, something special must be going on.)
 * For example, in a 3-player game:
   * On the stacks, red 2 is played.
   * Alice has one red 3 clued in his hand with just number 3.
@@ -998,15 +998,23 @@ Note that in this user interface, players are **not** holding their hands like t
 
 ### The Gentleman's Discard
 
-* The *Sarcastic Discard* is very similar to the *Prompt*, because it gets someone to play a card that already had a clue on it. It is also possible to intentionally discard a known card in order to get someone to blind-play a card, similar to a *Finesse*. 
-* When this occurs, it is called a *Gentleman's Discard* to signify that the card played was completely blind as opposed to having a clue on it already.
+* First, read the section on the *[Sarcastic Discard](#the-sarcastic-discard)*.
+* To review, the *Sarcastic Discard* is:
+  1) a move that transfers a **clued card** in one person's hand to a **clued card** in another person's hand
+  2) **necessary** to eliminate confusion amoungst the team (because from *Good Touch Principle*, we are not normally supposed to have two copies of the same card "touched" with a clue)
+  3) done with both playable cards and non-playable cards
+* It is also possible to "transfer" cards to other players *Finesse Position*. This is called a *Gentleman's Discard* to signify that the other card was completely blind as opposed to having a clue on it already.
+* The *Gentleman's Discard* is:
+  1) a move that transfers a **clued card** in one person's hand to the ***Finesse Position*** of another person's hand
+  2) **not necessary** and does not directly help the team, but may have some helpful side effects
+  3) done with **only playable cards** 
 * For example, in a 3-player game:
   * It is the first turn and nothing is played on the stacks.
   * Alice clues number 1 to Cathy, touching one 1.
   * Bob clues red to Cathy, filling in the already-touched 1 as red 1, as well as touching a new card, which must be red 2.
   * Cathy discards the known red 1 as a *Gentleman's Discard*.
   * Alice blind-plays her *Finesse Position* card as red 1.
-* The *Gentleman's Discard* essentially transfers a card to another player on the team. However, often times, doing this will delay things and cost the team *Tempo*. Thus, a *Gentleman's Discard* that slows things down is only good if there is some other side benefit to offset the lost *Tempo* (such as delaying the discard of a valuable card, for example).
+* Often times, doing a *Gentleman's Discard* will delay things and cost the team *Tempo*. Thus, a *Gentleman's Discard* that slows things down is only good if there is some other side benefit to offset the lost *Tempo* (such as delaying the discard of a valuable card, for example).
 * For the purposes of *Priority*, *Gentleman's Discards* do not count as a blind-play. (*Priority* is a concept that is introduced in a later level.) This is because the *Gentleman's Discard* is an information-symmetric move and nothing needs to be "proven" to other members of the team.
 
 ### The Layered Gentleman's Discard

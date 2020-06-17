@@ -95,13 +95,13 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
 * For example, in a no variant game:
   * The setup is the same as the previous example.
   * The card happens to be the red 2 (instead of blue 2).
-  * The rest of the team knows that the blue 3 was promised. Bob does not see anyone else with the blue 3, so he writes *Speculation Elminiation Notes* on every card in his hand.
+  * The rest of the team knows that the blue 3 was promised. Bob does not see anyone else with the blue 3, so he writes *Speculation Elimination Notes* on every card in his hand.
 * Note that we agree that it is illegal for players to perform a *Ambiguous Speculation Finesse*, so players do not have to account for that possibility.
 * This convention was deleted with the rework to make *Priority* only apply to globally-known cards.
 
 ### The Speculation Layered Finesse
 
-* Similar to a *Layered Priority Finesse*, it is also possible to *Layered Speculation Finesse*. This is safe to do because if the *Speculation* fails, no lie will have occured, since the other player will write *Elminiation Notes* on their entire hand.
+* Similar to a *Layered Priority Finesse*, it is also possible to *Layered Speculation Finesse*. This is safe to do because if the *Speculation* fails, no lie will have occured, since the other player will write *Elimination Notes* on their entire hand.
 * This convention was deleted with the rework to make *Priority* only apply to globally-known cards.
 
 ### The Speculation Elimination Finesse
@@ -115,14 +115,14 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
 * The *Speculation* mechanism in a *Speculation Finesse* can also be used to perform a *Speculation Bluff*, which is similar to a *Priority Bluff*.
 * In the case where the card played was indeed the left-most of the possibilities, then this works exactly the same as a *Priority Bluff* - the next player will immediately blind-play their *Finesse Position* card and it will be immediately revealed that a *Bluff* has occured.
 * Things become more complicated if the card played does not happen to be the left-most of the possibilities. The next player will mark their *Finesse Position* card in the same way as if a failed *Speculation Finesse* occured. However, the rest of the team will know that it was a *Speculation Bluff*, because they see a playable card in the *Finesse Position* of the next player.
-* When this occurs, the bluffed player will mark their card with the wrong note. This is referred to as a *Speculation Mis-mark*.
+* When this occurs, the bluffed player will mark their card with the wrong note. This is referred to as a *Speculation Mismark*.
 * For example, in a 3-player game:
   * Blue 1 and red 1 are played on the stacks.
   * Alice has a known playable yellow 1. She also has a known playable 2 that could be either blue 2 or red 2.
   * Alice does not see the blue 3 or the red 3, but she does see a playable green 1 on Bob's *Finesse Position*.
   * Alice plays the 2 as a *Speculation Bluff*, hoping to get the green 1 "for free". However, it happens to be the red 2.
   * Bob knows that Alice was supposed to play the yellow 1, so this must have been a *Speculation Finesse*. Bob marks his *Finesse Position* card as blue 3. Then, Bob discards.
-  * Alice and Cathy both mark the green 1 as a "blue 3 *Speculation Mis-mark*". At this point, they can either:
+  * Alice and Cathy both mark the green 1 as a "blue 3 *Speculation Mismark*". At this point, they can either:
     * Clue green 1 directly to get it to play, which would reveal to everyone that a failed *Speculation Bluff* occured and immediately resyncronize information amoung the team.
     * Let the card sit there until the real blue 2 is played, after which the green 1 will play for free as blue 2. After this happens, the *Speculation Bluff* will be revealed.
 * Note that to prevent confusion, we agree that it is illegal for players to perform a *Speculation Finesse* on a player who is two or more seats away if the next player has a playable card in *Finesse Position* that is not already gotten.
