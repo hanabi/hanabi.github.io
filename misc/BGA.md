@@ -49,7 +49,7 @@ Besides the problems with the user interface, there is another big disadvantage 
 
 Since there are so many players on the site, a general culture has emerged where once a game is over, players will typically just jump into the next game with the next player. Of course, this doesn't always occur, and there may be some lively post-game discussions from time to time. But this is the exception rather than the norm. In a way, it makes sense: why bother giving other players tips or have a discussion after the end of the game when you may not ever play with that player again? It is just more practical to move on.
 
-Of course, this problem is compounded by the terrible replay system. Even if players wanted to go over the replay of a game to analyze certain key moments, the replay system is not very condusive to this task - it requires some coordination to get every player to load up the replay on a specific turn, and even then, not all of the cards are revealed.
+Of course, this problem is compounded by the terrible replay system. Even if players wanted to go over the replay of a game to analyze certain key moments, the replay system is not very conducive to this task - it requires some coordination to get every player to load up the replay on a specific turn, and even then, not all of the cards are revealed.
 
 <br />
 
@@ -97,7 +97,7 @@ What is the flip-side of not having very many members? Better cohesion, aided by
 
 #### Extra Conventions and Extra Complexity
 
-Another potentially bad aspect of playing with my group is the complexity involved. We are very welcoming of noobs, but I won't deny that we play at a higher level than the average BGA player. It is going to be a longer journey to become an expert in our group than it would be to be an expert at BGA. And if you are already comfortable with the BGA conventions, it might just be too frustrating to experiment with different ways of doing things.
+Another potentially bad aspect of playing with my group is the complexity involved. We are welcoming of new players, but I won't deny that we play at a higher level than the average BGA player. It is going to be a longer journey to become an expert in our group than it would be to be an expert at BGA. And if you are already comfortable with the BGA conventions, it might just be too frustrating to experiment with different ways of doing things.
 
 What is the flip-side of having more conventions and more complexity? First off, it raises the skill ceiling. Hanabi throws plenty of tricky situations at you, and you only have a limited amount of tools to solve them. By adding some conventions, it can be like adding additional tools to the tool-belt. For expert players, by empowering them with more tools, it increases the total ways in which they can solve problems, making the game take on a new layer of beauty. But even for intermediate players, it can be very fun to gain the powers to make your teammates blind-play cards from their hands in new and exciting ways.
 
@@ -107,7 +107,7 @@ We know that for people who really like Hanabi, it will be worth the extra effor
 
 As a concluding note, I should say that I am not necessarily advocating that anyone completely "converts" away from BGA, like it is some kind of religion. Rather, feel free to experiment and play on both platforms! It is absolutely possible to switch back and forth between convention frameworks. You can think of this as similar to a bilingual person switching from Spanish to French - you don't necessarily have to choose between the two.
 
-With that said, my group always needs new players, so we are always happy to welcome BGA players and Hanabi enthusists alike. I hope you'll give it a try.
+With that said, my group always needs new players, so we are always happy to welcome BGA players and Hanabi enthusiasts alike. I hope you'll give it a try.
 
 <br />
 

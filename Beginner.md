@@ -363,7 +363,7 @@ The Hyphen-ated group plays games on the [Hanabi Live](https://hanabi.live) webs
 5) Test your microphone to make sure that it works:
     * Click the gear icon for "User Settings" in the bottom-left-hand-corner.
     * Click on "Voice & Video" under "App Settings" in the left-hand menu.
-    * Click on the "Output Device" dropdown and set it to be your microphone.
+    * Click on the "Output Device" drop-down and set it to be your microphone.
     * Click on the "Let's Check" button under "Mic Test".
     * You should see the bars fill up when you talk. If not, then try changing your "Output Device" or figure out what is wrong with your microphone
 6) Enable a push to talk hotkey:

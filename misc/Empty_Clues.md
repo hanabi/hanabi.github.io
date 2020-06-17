@@ -102,7 +102,7 @@
 * I acknowledge that players should play the game in the way that they find the most fun. With that said, expert players should challenge themselves to not use *Empty Clues*. Utilizing *Empty Clues* is analogous to using a crutch - good players should be able to get a perfect score without having to resort to them.
 * The online implementations of the game handle *Empty Clues* differently:
   * [Board Game Arena's implementation](https://en.boardgamearena.com/) does allow *Empty Clues*.
-  * Keldon's implemenation (which is now offline) does not allow *Empty Clues*.
+  * Keldon's implementation (which is now offline) does not allow *Empty Clues*.
   * [Hanabi Live's implementation](https://hanabi.live) follows Keldon's lead and disables *Empty Clues* by default. However, game creators can allow *Empty Clues* an as optional setting when creating a game.
 
 <br />
