@@ -4,7 +4,7 @@
 
 MARKDOWN_TEXT=`(find . -name '*.md' -exec cat {} \;)`
 echo $MARKDOWN_TEXT
-MISSPELLED=`echo $MARKDOWN_TEXT | aspell --lang=en --encoding=utf-8 | sort -u`
+MISSPELLED=`echo $MARKDOWN_TEXT | aspell --lang=en --encoding=utf-8 list | sort -u`
 # --personal=./.aspell.en.pws list
 NUM_MISSPELLED=`echo "$MISSPELLED" | wc -l`
 if [[ $NB_MISSPELLED -gt 0 ]]; then
