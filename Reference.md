@@ -634,7 +634,7 @@ Note that in this user interface, players are **not** holding their hands like t
 
 ### Urgency Principle (Playing Into Finesses as Soon as Possible)
 
-* Normally, when a *Finesse* occurs, someone blind-plays right away. This is extremely important, because it resynchronizes the information amongst the team. So, as a group, we always agree to blind-play our cards are soon as reasonably possible. This is called *The Urgency Principle*.
+* Normally, when a *Finesse* occurs, someone blind-plays right away. This is extremely important, because it resynchronizes the information among the team. So, as a group, we always agree to blind-play our cards are soon as reasonably possible. This is called *The Urgency Principle*.
 * Thus, if you see that a player does **not** blind-play into the *Finesse*, then you know that the *Finesse* must be **on you**.
 * However, there are some important exceptions:
   1) Players are allowed to **defer** playing into a *Finesse* if they are doing a *Finesse* of their own (and no-one else on the team could have done it).
@@ -1001,7 +1001,7 @@ Note that in this user interface, players are **not** holding their hands like t
 * First, read the section on the *[Sarcastic Discard](#the-sarcastic-discard)*.
 * To review, the *Sarcastic Discard* is:
   1) a move that transfers a **clued card** in one person's hand to a **clued card** in another person's hand
-  2) **necessary** to eliminate confusion amongst the team (because from *Good Touch Principle*, we are not normally supposed to have two copies of the same card "touched" with a clue)
+  2) **necessary** to eliminate confusion among the team (because from *Good Touch Principle*, we are not normally supposed to have two copies of the same card "touched" with a clue)
   3) done with both playable cards and non-playable cards
 * It is also possible to "transfer" cards to other players *Finesse Position*. This is called a *Gentleman's Discard* to signify that the other card was completely blind as opposed to having a clue on it already.
 * The *Gentleman's Discard* is:
@@ -1599,7 +1599,7 @@ Priority does not always apply. Some common exceptions are listed below.
   * Alice erases her *Elimination Notes* from slots 2, 3, and 4.
   * The only card left with an *Elimination Note* is slot 5.
   * Alice can now blind-play the red 4 when it gets to her turn as an *Elimination Blind-Play*.
-* Note that players should not always make *Elimination Notes* when they discard a playable card. In some cases, games can be extremely busy, leaving no reasonable way to get the playable card. Players must just their best judgement and account for this.
+* Note that players should not always make *Elimination Notes* when they discard a playable card. In some cases, games can be extremely busy, leaving no reasonable way to get the playable card. Players must just their best judgment and account for this.
 
 ### The Elimination Play Clue
 
@@ -3322,5 +3322,3 @@ Conventions for specific variants are listed on a separate page.
 | The Empty Finesse | Instantiation
 | The Empty Double-Play | Zamiel & Jeep
 | The Empty Bluff | Cory
-
-asdf
