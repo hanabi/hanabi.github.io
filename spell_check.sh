@@ -2,8 +2,12 @@
 
 # From: https://github.com/eleven-labs/blog.eleven-labs.com/blob/master/bin/check-spelling.sh
 
-MARKDOWN_TEXT=`(find . -name '*.md' -exec cat {} \;)`
-MISSPELLED=`echo $MARKDOWN_TEXT | aspell --lang=en --encoding=utf-8 --personal=./.aspell.en.pws list | sort -u`
+# Get the directory of this script
+# https://stackoverflow.com/questions/59895/getting-the-source-directory-of-a-bash-script-from-within
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+
+MARKDOWN_TEXT=`(find "$DIR" -iname '*.md' ! -name "Rules.md" -exec cat {} \;)` # Ignore "Rules.md"
+MISSPELLED=`echo $MARKDOWN_TEXT | aspell --lang=en --encoding=utf-8 --personal="$DIR/.aspell.en.pws" list | sort -u`
 
 if [[ -z $MISSPELLED ]]; then
   echo "No misspelled words."
