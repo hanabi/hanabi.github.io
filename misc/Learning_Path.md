@@ -4,7 +4,7 @@
 
 In the Hyphen-ated group, we get new players from time to time. Some only play with us for a few days, and some continue to play for years! But no matter how long people play for, there is always more to learn, because Hanabi has a ton of depth, similar to chess.
 
-For those who love Hanabi and wish to continue playing with the group, the path from a brand-new player to a player with 1+ years of experience is a long one. It will be filled with many practice games, countless mistakes, and the learning of many different conventions.
+For those who love Hanabi and wish to continue playing with the group, the path from a brand-new player to a player with a year of experience is a long one. It will be filled with many practice games, countless mistakes, and the learning of many different conventions. And above all, hopefully it is a path filled with many fun Hanabi games!
 
 When playing with brand-new players, everyone in the group knows to **keep it simple**, and only use the basic strategies that are covered in the [beginner's guide](../Beginner.md). However, after someone plays 5-10 beginner games, things start to "open up" a bit, and new things start to be taught, like *Chop Moves* and *Bluffs*. There's a lot to learn, and we don't want to overwhelm new players with it all at once. So what is the correct order to learn stuff in?
 
