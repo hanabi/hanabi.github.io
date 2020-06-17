@@ -392,3 +392,9 @@ A few things to note regarding that:
 * If there are 6 or more players remaining after the post-game review is finished, then we usually split into two separate groups of 3.
 * Don't worry - it is not considered rude to join a voice channel and listen in on an ongoing game or post-game review. If someone asks who you are, feel free to introduce yourself. Otherwise, wait until the end of the review to introduce yourself, and then hop into the next game.
 * Additionally, make sure to inquire if there are other beginners in the voice channel. If there are beginners, then the group is probably already playing "level-1-conventions-only" or "beginner" games, which is what you want. If not, kindly request that since you are a beginner, the group plays with "level-1-conventions-only". In most cases, intermediate and expert players will be happy to do this.
+
+<br />
+
+## Learning More
+
+Have you already played 5-10 games with the Hyphen-ated group? Have you already let the basics settle in? Then read [the learning path document](misc/Learning_Path.md) to see what your next steps should be.
