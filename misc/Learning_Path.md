@@ -117,22 +117,22 @@ The following is a brief description of each level.
 
 #### Level 9 - Advanced
 
-* Level 9 strategies should only be learned if you have 140+ games of experience with the group.
-* This level introduces the concept of *Priority* and all of the complicated stipulations that go along with it.
-* Level 9 strategies are as follows:
-  * *[The Priority Prompt & The Priority Finesse](../Reference.md#the-priority-prompt--the-priority-finesse)*
-
-#### Level 10 - Adept
-
-* Level 10 strategies should only be learned if you have 160+ games of experience with the group.
+* Level 9 strategies should only be learned if you have 160+ games of experience with the group.
 * This level introduces *3 Bluffs* and some higher level concepts.
-* Level 10 strategies are as follows:
+* Level 9 strategies are as follows:
   * *[The Ambiguous Finesse](../Reference.md#the-ambiguous-finesse)*
   * *[The Trash Order Chop Move](../Reference.md#the-trash-order-chop-move)*
   * *[3 Bluffs](../Reference.md#the-3-bluff)*
   * *[Context Clues](../Reference.md#context-clues--the-stale-1s-clue)*
   * *[The Positional Discard](../Reference.md#the-positional-discard)*
   * *[The Positional Misplay](../Reference.md#the-positional-misplay)*
+
+#### Level 10 - Adept
+
+* Level 10 strategies should only be learned if you have 140+ games of experience with the group.
+* This level introduces the concept of *Priority* and all of the complicated stipulations that go along with it.
+* Level 10 strategies are as follows:
+  * *[The Priority Prompt & The Priority Finesse](../Reference.md#the-priority-prompt--the-priority-finesse)*
 
 #### Level 11 - Senior
 
