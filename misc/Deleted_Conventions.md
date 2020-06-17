@@ -96,7 +96,7 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
   * The setup is the same as the previous example.
   * The card happens to be the red 2 (instead of blue 2).
   * The rest of the team knows that the blue 3 was promised. Bob does not see anyone else with the blue 3, so he writes *Speculation Elminiation Notes* on every card in his hand.
-* Note that we agree that it is illegal for players to perform a *Amiguous Speculation Finesse*, so players do not have to account for that possibility.
+* Note that we agree that it is illegal for players to perform a *Ambiguous Speculation Finesse*, so players do not have to account for that possibility.
 * This convention was deleted with the rework to make *Priority* only apply to globally-known cards.
 
 ### The Speculation Layered Finesse
