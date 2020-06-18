@@ -3273,7 +3273,7 @@ Conventions for specific variants are listed on a separate page.
 | Unknown Trash Discharge | Sankala
 | The Unnecessary Trash Push | sjdrodge
 | Trash Touch Elimination | sjdrodge
-| Junk Ejection | IAMJEFF
+| Bad Chop Move Ejection | IAMJEFF
 | The 5 Color Ejection | IAMJEFF
 | The Double 5 Pull | IAMJEFF
 | Stacked Ejection & Stacked Discharge | Fireheart
@@ -3299,6 +3299,8 @@ Conventions for specific variants are listed on a separate page.
 | White Compromise | Postmans
 | The Bubblegum Finesse | Razvogor
 | The Bubblegum Bluff | Stephen
+| The Bubblegum Slide | IAMJEFF
+| The Bubblegum Wraparound | kimbifille
 | Pink & Omni Majority Conventions | Fireheart
 | Null Positional Clues | Razvogor, Zamiel, IAMJEFF, & Kakashi
 | The Slot Finesse | IAMJEFF
