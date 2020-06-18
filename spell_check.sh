@@ -7,7 +7,6 @@
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
 MARKDOWN_TEXT=`(find "$DIR" -iname '*.md' ! -name "Rules.md" -exec cat {} \;)` # Ignore "Rules.md"
-MARKDOWN_TEXT=$(echo "$MARKDOWN_TEXT" | tr A-Z a-z) # Convert to lowercase
 MISSPELLED=`echo $MARKDOWN_TEXT | aspell --lang=en --encoding=utf-8 --personal="$DIR/.aspell.en.pws" list | sort -u`
 
 if [[ -z $MISSPELLED ]]; then
