@@ -291,8 +291,8 @@ In this guide, there will be some screenshots to show off the concepts introduce
 * If a player is *Prompted* and there are multiple cards in the hand that the *Prompt* could apply to, they should play the left-most.
 * In the above screenshot:
   * Bob is *Prompted* for a red 3 in the exact same way as the previous example.
-  * Bob has three different cards clued as red in slots 2, 3, and 4.
-  * Since all 3 cards are equally likely to be red 3, Bob should choose to play the slot 2 card as red 3 since it is the left-most.
+  * Bob has two different cards clued as red in slot 2 and slot 3.
+  * Since both cards are unknown to Bob, Bob should choose to play the slot 2 card since it is the left-most.
 
 <img src="img/beginner/prompt3.png" height="300" />
 
