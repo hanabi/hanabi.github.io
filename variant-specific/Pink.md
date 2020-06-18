@@ -197,7 +197,7 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
   * Thus, Bob knows that this must be a *Positional Clue*, and he plays his slot 2 card as the pink 5.
 * *Positional Clues* are different from *Pink Choice Tempo Clues* in that they can touch brand new cards. (*Pink Choice Tempo Clues* only re-touch known pink cards.) For this reason, *Positional Clues* can typically only be done at the end of the game when the clue is not likely to be interpreted as anything else.
 
-### Bubblegum Wraparound
+### The Bubblegum Wraparound
 
 * When players violate *Pink Promise* on an unplayable pink card, it usually indicates a *Bubblegum Prompt* or a *Bubblegum Finesse* (with the rank corresponding to the slot number to play).
 * In 4-player and 5-player games, there are only 4 cards in the hand. If a player does a *Bubblegum Finesse* with a 5, then that would be nonsensical, since there is no slot 5.
@@ -205,7 +205,7 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 * In this situation, it should "wraparound" to slot 1, communicating that the first slot is playable.
 * This kind of thing is useful in some edge-case scenarios (e.g. helping satisfy *Good Touch Principle* in variants with a light pink suit).
 
-### Bubblegum Slides
+### The Bubblegum Slide
 
 * If a *Bubblegum Prompt* or a *Bubblegum Finesse* is telling a player to play a card in a slot that has negative pink, then that is nonsensical.
 * In this situation, if there is no other possible interpretation for the clue other than a *Bubblegum Prompt* or a *Bubblegum Finesse*, and it is unlikely for the cluer to be making a mistake, then the target slot should "slide" to the right.
