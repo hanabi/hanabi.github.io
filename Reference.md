@@ -2864,6 +2864,27 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ## Level 15 - Rarely Used Strategies (Miscellaneous)
 
+### Phantom Playable Cards
+
+* First, see the section on [the definition of "playable" cards](#play-clues--delayed-play-clues--the-definition-of-playable).
+* For a card to be *delayed playable*, it needs to be playable "through" other clued cards or "through" cards on *Finesse Position*. In other words, we are allowed to give *Play Clues* to *delayed playable* cards.
+* Consider that a slightly different category of card can exist. A card is *Phantom Playable* is it is playable "through" cards that are visible in someone's hand, but the in-between cards are not on *Finesse Position* and are not yet clued. We are **not** allowed to give *Play Clues* to *Phantom Playable* cards - at least not until the other cards are clued first.
+* From *Save Principle*, we know that everyone agrees to not let *playable* or *delayed playable* cards get discarded.
+* If possible, the team should also try to protect *Phantom Playable* cards from being discarded as well, since they are nearly as important as *delayed playable* cards. For example, it is common for other people on the team to discard in order to let the player with the *Phantom Playable* card be the one to give a *Play Clue* to the in-between card.
+* Sometimes, *Phantom Playable* cards have to be discarded when the team is low on clues or in an otherwise tight situation. While regrettable, this is perfectly okay and does happen from time to time.
+
+### The Scream Discard for a Phantom Playable Card
+
+* First, see the section on the *[Scream Discard](#the-scream-discard-chop-move-deliberately-discarding-instead-of-playing)*.
+* Normally, you are only allowed to perform a *Scream Discard* for a critical card or a playable card. But what about a *Phantom Playable Card*?
+* In most cases, players should also *Scream Discard* for a *Phantom Playable Card*, but it depends on the situation:
+  * Will it be clear to everyone what is happening?
+  * Will the in-between cards get clued right away?
+  * Are there other critical cards on chop that need to be saved or will need to be saved soon?
+  * Is the *Phantom Playable* card a 3 or a 4?
+* In summary, it is better for the the team to let a *Phantom Playable* card get discarded in a tricky or tight situation, **especially** if it is a 4.
+* Another way of saying this is that the team should never "bend over backwards" for a *Phantom Playable* card. Consider that a *Scream Discard* always has a small chance to lose the game (if the *Scream Discarded* card was itself critical).
+
 ### Deferring a Bluff
 
 * From *Urgency Principle*, we know that players are allowed to defer a *Finesse* or a *Bluff* in order to do a *Finesse* or *Bluff* of their own. And indeed, when players see a really good clue, they should probably defer blind-playing to give the clue. But there are limits.
