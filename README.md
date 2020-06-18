@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="img/hanabi.jpg" height="200" />
+  <img src="img/hanabi.jpg" height="200" />
 </p>
 
 # Hanabi Conventions for The Hyphen-ated Group

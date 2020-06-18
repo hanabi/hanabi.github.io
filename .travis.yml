@@ -1,9 +1,11 @@
-addons:
-  apt:
-    packages:
-      - aspell
-      - aspell-en
-
+language: node_js
+node_js:
+  # Use the latest stable Node.js release
+  - node
+before_script:
+  - echo "Installing cspell (the spell checker)..."
+  - cd spell-checker
+  - npm install
 script: ./spell_check.sh
 
 # By default, the GitHub webhook will notify on success and failure

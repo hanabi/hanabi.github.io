@@ -87,7 +87,7 @@ There are 3 ways to end the game of Hanabi:
 
 1. The game ends immediately and is lost if the third Fuse tile is flipped over (thus revealing the explosion).
 2. The game ends immediately and it is a stunning victory if the firework makers manage to make the 5 fireworks before the tiles run out. The players are then awarded the maximum score of 25 points.
-3. The game ends if a player takes the last tile from the pile: each player plays one more time, including the player who pickedup the last tile. The players cannot pick up tiles during this last round (as the pile is empty).
+3. The game ends if a player takes the last tile from the pile: each player plays one more time, including the player who picked up the last tile. The players cannot pick up tiles during this last round (as the pile is empty).
 
 Once this last round is complete, the game ends and the players can then add up their score.
 
@@ -130,5 +130,5 @@ Communication (and non communication) between the players is essential to Hanabi
 * A game by ANTOINE BAUZA
 * Illustrations: ALBERTINE RALENTI, Graphic Designer: JENN VARGAS
 * English rules editors: FRANK DILORENZO, ANTHONY RUBBO
-* ©2014 R&R Games Inc., all rights reserved, www.RnRgames.com
-* Licensed with permission from Cocktailgames (www.cocktailgames.com) and Les XII singes (www.les12singes.com).
+* ©2014 R&R Games Inc., all rights reserved, www.rnrgames.com
+* Licensed with permission from Cocktail Games (www.cocktailgames.com) and Les XII singes (www.les12singes.com).
