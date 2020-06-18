@@ -436,7 +436,7 @@ Note that in this user interface, players are **not** holding their hands like t
 ### The 5's Chop Move
 
 * See the *Chop Move* section above for an explanation on what a *Chop Move* is.
-* Normally, we are only allowed to save 5's on chop (unless it is done with a *5 Stall* clue, which can happen in the *Early Game* and other "stalling" situations).
+* Normally, we are only allowed to save 5's on chop (unless it is done with a *5 Stall* clue, which can happen in the *Early Game* and in other "stalling" situations).
 * So, if a number 5 clue is performed on a 5 that is not on chop, and it is **not** a stalling situation, then it will normally look like a *Play Clue* on that 5.
 * However, if the 5 is **one-away** from chop (or, if two or more 5's are clued and the right-most 5 is one-away from chop), then we agree that it has a special meaning, and that the clue is **not** a *Play Clue* at all.
 * Instead, it is understood that the clue is a *5's Chop Move*, and the player should *Chop Move* in a manner similar to the *Trash Chop Move*.
@@ -445,7 +445,7 @@ Note that in this user interface, players are **not** holding their hands like t
   * All the 1's are played on the stacks.
   * Bob has a completely unclued hand.
   * Alice clues 5's to Bob, which touches a 5 in slot 2 and a 5 in slot 4.
-  * Bob **only** *Chop Moves* his slot 5 card.
+  * Bob **only** *Chop Moves* his slot 5 card. Bob's new chop is his slot 3.
 
 ### Chop Moves & New Clues
 
