@@ -4,7 +4,7 @@ node_js:
   - node
 before_script:
   - echo "Installing cspell (the spell checker)..."
-  - cd spell-checker
+  - cd spell-check
   - npm install
 script: ./spell_check.sh
 

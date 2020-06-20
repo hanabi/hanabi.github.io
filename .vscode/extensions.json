@@ -2,7 +2,7 @@
 // https://go.microsoft.com/fwlink/?LinkId=827846
 {
   "recommendations": [
-    // A spell-checker extension based on cspell is used
+    // A spell-checking extension based on cspell is used
     "streetsidesoftware.code-spell-checker",
   ],
 }
