@@ -1872,6 +1872,22 @@ Priority does not always apply. Some common exceptions are listed below.
   * Donald knows that the focus of the clue (slot 1) is certainly trash, since that caused Cathy to blind-play.
   * Furthermore, Donald knows that his slot 2 card is also trash, because all the cards touched in a *Trash Bluff* or *Trash Finesse* are guaranteed to be trash.
 
+### The Reverse Trash Finesse
+
+* First, see the [Trash Finesse (Strong Form)](the-trash-finesse-strong-form).
+* It is also possible to perform a *Trash Finesse* in reverse. This is much harder to see than a forward *Trash Finesse*. Even so, players should generally entertain the possibility of this occurring.
+* When a clue looks like it could be a *Reverse Trash Finesse*, the player who receives the clue is forced into immediately discarding the card. If it was indeed a *Reverse Trash Finesse*, it will be a trash card and it will immediately demonstrate what is going on. Alternatively, if the clue was a normal *Play Clue* on a playable card, then the discard will be a *Gentleman's Discard*. By discarding, it covers both cases.
+* For example, in 3-player game:
+  * The red 1 is played on the stacks. All of the 2's are played on the other stacks.
+  * Alice clues number 2 to Bob, touching his slot 1 card as a *Play Clue*.
+  * From Bob's perspective, this is probably just a *Play Clue* on the red 2 (which happens to be the final 2 that needs to be played).
+  * However, Bob sees that Cathy also has a red 2 on her *Finesse Position*. That means that this could be a *Reverse Trash Finesse*.
+  * If it is a *Reverse Trash Finesse*, then his 2 is a trash 2 (e.g. green 2). By immediately discarding it, it will prove to Cathy that *she* has a red 2.
+  * Alternatively, if Bob does indeed have the red 2, then he can discard it to perform a *Gentleman's Discard* on Cathy.
+  * Either way, discarding will cover both cases. Bob discards the 2 and it is revealed to be a green 2.
+  * Cathy comes next. Cathy was highly surprised when Alice gave Bob a number 2 clue on the green 2. From Cathy's perspective of Bob's perspective, the green 2 clue would immediately misplay as red 2. However, when Bob discards the green 2 instead of playing it, Alice's plan becomes clear. Cathy had the red 2 all along. Cathy blind-plays her *Finesse Position* card as red 2.
+* Note that *Reverse Trash Finesses* should not always be entertained and **depend on context**. Specifically, towards the end of the game, *Reverse Trash Finesses* are "turned off". This is because towards the end of the game, the team needs tempo, and *Reverse Trash Finesses* are slow and require even more discarding.
+
 ### A Trash Flowchart
 
 There are a lot of different moves that involve cluing trash. [Here is a handy flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/flowcharts/cluing_trash_flowchart.png) for determining the difference between the different types of special moves that touch trash. (The flowchart contains some strategies that have not been covered yet, but the three most important moves to understand are the *Trash Chop Move*, the *Trash Finesse/Bluff*, and the *Trash Push*.)
