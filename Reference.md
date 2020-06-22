@@ -174,6 +174,7 @@ Note that in this user interface, players are **not** holding their hands like t
 ### The Early Game
 
 * As outlined in the [beginner's guide](Beginner.md#the-early-game), the *Early Game* is the period of time before someone discards for the first time.
+* Players **must** "extinguish" all of the available *Play Clues* and *Save Clues* on the board before ending the *Early Game*.
 
 ### The 5 Stall
 
@@ -865,14 +866,27 @@ Note that in this user interface, players are **not** holding their hands like t
 * The *Early Game* is introduced in the [beginner's document](Beginner.md). In short:
   * The *Early Game* is defined as the period of time before the first discard happens.
   * Players **must** "extinguish" all of the available *Play Clues* and *Save Clues* on the board before ending the *Early Game*.
-* As an intermediate player, you should note that:
+* As an intermediate player, you need to know about a few extra rules about the *Early Game*. We don't bother telling the extra rules to beginners because they deal with some edge-case situations. We have the extra rules in place because we want to "squeeze" as much value out of the conventions as possible.
+
+#### Ending the Early Game
+
+* The *Early Game* is only ended when the first **completely unknown** card is discarded.
+* In other words:
   * Misplaying a card **does not count** as ending the *Early Game*.
   * Discarding known trash **does not count** as ending the *Early Game*.
   * Doing special discards that "transfer" cards to other players **does not count** as ending the *Early Game*.
-* In order to squeeze as much value out of the conventions as possible, we have some extra rules about "extinguishing" every possible clue:
-  * Extinguishing every clue **does** include *5 Stalling*, but it is only mandatory for the team to collectively perform one *5 Stall*. If one *5 Stall* clue has already been given and there is another *5 Stall* clue available, players are allowed (but not required) to clue it.
-  * Extinguishing every clue **does not** include cluing something in the hand of the player who came directly before. This is because the player who came before did not see anything for the next player to do, and is therefore giving them "permission" to discard. In this situation, cluing is optional; players can choose to either clue the previous hand or discard at their discretion.
-  * Extinguishing every clue **does not** include cluing cards that will be almost certainly be *Order Chop Moved* by an upcoming player who already has two or more 1's clued in their hand.
+
+#### Extinguishing Every Clue 
+
+* Extinguishing every clue **does** include *5 Stalling*, but it is only mandatory for the team to collectively perform one *5 Stall*. If one *5 Stall* clue has already been given and there is another *5 Stall* clue available, players are allowed (but not required) to clue it.
+* Extinguishing every clue **does not** include cluing something in the hand of the player who came directly before. This is because the player who came before did not see anything for the next player to do, and is therefore giving them "permission" to discard. In this situation, cluing is optional; players can choose to either clue the previous hand or discard at their discretion.
+* Extinguishing every clue **does not** include cluing cards that will be almost certainly be *Order Chop Moved* by an upcoming player who already has two or more 1's clued in their hand.
+  
+#### No Play Clues with a Number 5 Clue
+
+* All number 5 clues in the *Early Game* are **never** to be interpretted as a *Play Clue*.
+* Thus, if a number 5 clue is given to an off-chop 5 in the *Early Game*, then it will be interpretted as either a *5 Stall* or a *5's Chop Move*.
+* If you want to give a *Play Clue* to a 5, then you can still do so, you just have to give a color clue instead of a number clue.
 
 ### 5 Stalls (Intermediate Section)
 
