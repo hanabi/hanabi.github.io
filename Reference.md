@@ -1349,7 +1349,7 @@ Note that in this user interface, players are **not** holding their hands like t
   * Thus, Cathy must pretend like the *Finesse* is not on her after all, and force Bob to be the one to blind-play first. Cathy discards her chop card, passing the *Finesse* back to Bob.
   * Donald and Alice discard.
   * Bob knows that Cathy was supposed to blind-play the blue 2, but she didn't. He must also have the blue 2. Furthermore, he must also have the blue 3, as that would be an excellent reason for Cathy to pass the *Finesse* back to him. Bob will now blind-play blue 2 and blue 3.
-* As a side note, you may be wondering why, in the above example, Cathy does not blind-discard her blue 2 from her *Finesse Position* instead of discarding her chop. This is because it is possible that Cathy does **not** have the blue 2 on her *Finesse Position* and instead has some other unrelated playable card as a *Layered Finesse*. Thus, Cathy must play it safe and discard her chop. (The *[Layered Finesse](#the-layered-finesse)* is a move covered in *Level 4 - Rookie*.)
+* As a side note, you may be wondering why, in the above example, Cathy does not blind-discard her blue 2 from her *Finesse Position* instead of discarding her chop. This is because it is possible that Cathy does **not** have the blue 2 on her *Finesse Position* and instead has some other unrelated playable card as a *Layered Finesse*. Thus, Cathy must play it safe and discard her chop. (The *[Layered Finesse](#the-layered-finesse)* is a move covered in Level 4.)
 
 ### The Trash Order Chop Move
 
