@@ -2128,7 +2128,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### The Double Bluff
 
-* Similar to a *Double Half Bluff*, it is also possible to get 2 cards played in a row that are completely unrelated. It is distinct from *Double Half Bluff* because the clued card does *not* match the first card that is blind-played.
+* Similar to a *Double Half Bluff*, it is also possible to get 2 cards played in a row that are completely unrelated. It is distinct from a *Double Half Bluff* because **none** of the blind-played cards match the card that is clued.
 * For example, in a 4-player game:
   * Red 1 is currently played on the stacks.
   * Alice clues Donald red, which touches a red 4 as a *Play Clue*.
@@ -2139,23 +2139,37 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * After Cathy blind-played, Donald knows that he must have the red 4 (as a *Double Bluff*).
 * Normally, players are only allowed to perform *Bluffs* while sitting in *Bluff Seat*. The *Double Bluff* is one of the few exceptions to the rule. (It is allowed because the lie still resolves "immediately", which satisfies *Good Lie Principle*.)
 
-### The 4 Double Bluff
+### The Triple Bluff (Illegal)
 
-* In the *3 Bluff* convention, if the target of a clue is a 3, then play stops after only one card is blind-played. (This is an extension of a *Bluff.*)
-* In the *4 Double Bluff* convention, if the target of a clue is a 4, then play stops after two cards are blind-played. (This is an extension of a *Double Bluff*.)
-* This convention does not apply in any variant with 3 suits.
+* A *Double Bluff* is when a player clues a card that is two-away-from-playable and it gets two unrelated cards to blind-play from *Finesse Position*.
+* Logically, it follows from the *Double Bluff* that if a player clues a card that is three-away-from-playable, it would cause three unrelated cards to blind-play from *Finesse Position* as a *Triple Bluff*.
+* However, this is not the case. We explicitly agree that *Triple Bluffs* are illegal and not to be used. (*Triple One-Third Bluffs* and *Triple Two-Third Bluffs* are also illegal.)
+* The consequence of this is that if a player gives a *Play Clue* to a three-away-from-playable card (e.g. either a 4 or a 5) and it causes two cards to blind-play, then the next player should **not** continue to blind-play any more cards. See the next section for more information.
+
+### The 4 Double Bluff & The 5 Double Bluff
+
+* Since *Triple Bluffs* are illegal and not to be used, it is possible to perform a *Double Bluff* with a card that is not exactly two-away-from-playable. This is similar to how the *3 Bluff* convention works.
+* To review, this is the summary of how it works for 4's:
+  * If a 4 is given a *Play Clue* and it is one-away-from-playable, then it would only trigger a single *Bluff* (and not a *Double Bluff*).
+  * If a 4 is given a *Play Clue* and it is two-away-from-playable, then it would trigger a *Double Bluff*. (This would be a "normal" *Double Bluff*.)
+  * If a 4 is given a *Play Clue* and it is three-away-from-playable, then it would still only trigger a double *Bluff* (as a *4's Double Bluff* specifically).
+* To review, this is the summary of how it works for 5's:
+  * If a 5 is given a *Play Clue* and it is one-away-from-playable, then it would only trigger a single *Bluff* (and not a *Double Bluff*).
+  * If a 5 is given a *Play Clue* and it is two-away-from-playable, then it would trigger a *Double Bluff*. (This would be a "normal" *Double Bluff*.)
+    * Note that this would only happen if e.g. *5 Color Ejection* and *5 Number Discharge* would not apply.
+  * If a 5 is given a *Play Clue* and it is three-away-from-playable, then it would still only trigger a double *Bluff* (as a *5's Double Bluff* specifically).
+    * Note that this would only happen if e.g. *5 Color Ejection* and *5 Number Discharge* would not apply.
+  * If a 5 is given a *Play Clue* and it is four-away-from-playable, then it would still only trigger a double *Bluff* (as a *5's Double Bluff* specifically).
+    * Note that this would only happen if e.g. *5 Color Ejection* and *5 Number Discharge* would not apply.
 * For example, in a 5-player game:
   * Nothing is played on the stacks.
-  * Alice clues Emily red, which touches a red 4 as a *Play Clue*.
+  * Alice clues Donald red, which touches a red 4 as a *Play Clue*.
   * Bob tries to blind-play red 1 from his *Finesse Position*, but he instead plays a blue 1.
-  * Cathy blind-plays yellow 1 from her *Finesse Position*.
+  * Cathy knows that this must be a *Double Bluff*. She blind-plays yellow 1 from her *Finesse Position*.
   * Now, it is Donald's turn.
     * At first, Donald thought that the red card in his hand was red 1 (as a *Play Clue*).
-    * After Bob blind-played, Donald thought that the red card in his hand was either a red 2 (as a *Bluff*) or a red 3 (as a *Bluff*).
-    * After Cathy blind-played, Donald knows that it was a *4's Double Bluff*.
-  * If the red 4 was two-away from playable, Donald would know that this was a *Double Bluff*. However, the red 4 is three-away from playable, so in this situation Donald might think that this is a *Triple Bluff* instead.
-  * However, Donald knows that everyone agrees to allow a *Double Bluffs* with any 4 in the game, regardless of how far away from playable it is, so this must be a *Double Bluff* instead of a *Triple Bluff*. Thus, Donald does not have to blind-play anything.
-  * Emily also knows that it is a *4's Double Bluff* and marks her 4 as any 4 in the game.
+    * After Bob blind-played, Donald thought that the red card in his hand was either a red 2 (as a *Bluff*) or a red 3 (as a *3 Bluff*).
+    * After Cathy blind-played, Donald now knows that the red card in his hand is a red 4 (as a *4's Double Bluff*).
 
 ### The Hard 4 Double Bluff
 
@@ -2178,17 +2192,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Normally, Donald would know that his red card is exactly a red 3, as a *Double Half Bluff*.
   * However, Donald also knows that any 4 in the game can be used to perform a *Double Bluff*.
   * Thus, Donald marks his red card as either a red 3 (if it was a *Double Half Bluff*) or a red 4 (if it was a *4 Double Bluff*).
-
-### The Triple Bluff
-
-* In some situations, cluing a 5 with color initiates a special move called a *5 Color Ejection*. And in some situations, cluing a 5 with rank initiates a special move called a *5 Pull* or a *5's Chop Move*. However, if players are in a situation where none of these moves would apply, then it is possible to perform a *Triple Bluff* by giving a *Play Clue* to a 5 (with either color or number).
-* For example, in a 5-player game:
-  * All the 1's are played on the stacks.
-  * Emily has a red 5 that has a number 5 clue on it. (It was *5 Saved* in the *Early Game*.)
-  * Alice clues red to Emily, "filling in" the red 5 as a *Play Clue*. (This cannot be a *5 Color Ejection*, because that move requires the 5 to be freshly touched.)
-  * Bob sees that no-one else has the red 2. Bob blind-plays his *Finesse Position* card as red 2, but it is instead a blue 2.
-  * Cathy knows a blue 2 does not match a red 5, so this must be some kind of *Bluff*. However, a red 5 is not a valid *Bluff* target and it is also not a valid *Double Bluff* target. Thus, this must be a *Triple Bluff*. Cathy blind-plays her *Finesse Position* card as any playable card, and it plays as green 2.
-  * Donald also knows that this must be a *Triple Bluff* for the same reasons that Cathy does. Donald blind-plays his *Finesse Position* and it plays as a yellow 2.
 
 ### The 5's Triple Bluff
 
