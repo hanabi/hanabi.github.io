@@ -884,8 +884,8 @@ Note that in this user interface, players are **not** holding their hands like t
   
 #### No Play Clues with a Number 5 Clue
 
-* All number 5 clues in the *Early Game* are **never** to be interpretted as a *Play Clue*.
-* Thus, if a number 5 clue is given to an off-chop 5 in the *Early Game*, then it will be interpretted as either a *5 Stall* or a *5's Chop Move*.
+* All number 5 clues in the *Early Game* are **never** to be interpreted as a *Play Clue*.
+* Thus, if a number 5 clue is given to an off-chop 5 in the *Early Game*, then it will be interpreted as either a *5 Stall* or a *5's Chop Move*.
 * If you want to give a *Play Clue* to a 5, then you can still do so, you just have to give a color clue instead of a number clue.
 
 ### 5 Stalls (Intermediate Section)
