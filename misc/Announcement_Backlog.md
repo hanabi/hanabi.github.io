@@ -12,6 +12,8 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 
 ```
 * These conventions are deleted due to lack of use.
+* Essentially, it is now impossible to perform a *Triple Bluff*.
+* Now, any 5 can be used to perform a *5's Double Bluff* in roughly the same way that the *4's Double Bluff* works. For a more thorough explanation, please see the section in the document called "The 4 Double Bluff & The 5 Double Bluff".
 ```
 
 @everyone New conventions:
