@@ -1197,7 +1197,7 @@ Note that in this user interface, players are **not** holding their hands like t
 
 ### Bluffs Through Already-Clued Cards
 
-* It is also permissible to *Bluff* "through" cards that are already clued. This is better than a normal *Bluff* because in addition to getting the blind-play, it also gives information to the player with the in-between card.
+* It is also permissible to *Bluff* "through" cards that are already clued. This can be better than a normal *Bluff*, because in addition to getting the blind-play, it also can give information to the player with the in-between card.
 * For example, in a 4-player game:
   * All the 1's are played on the stacks.
   * Bob has nothing clued in his hand.
