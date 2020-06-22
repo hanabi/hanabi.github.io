@@ -8,29 +8,12 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 
 @everyone New conventions:
 
-**Phantom Playable Cards**
+**No Number 5 Play Clues in the Early Game Anymore**
 
 ```
-* First, see the section on [the definition of "playable" cards](#play-clues--delayed-play-clues--the-definition-of-playable).
-* For a card to be *delayed playable*, it needs to be playable "through" other clued cards or "through" cards on *Finesse Position*. In other words, we are allowed to give *Play Clues* to *delayed playable* cards.
-* Consider that a slightly different category of card can exist. A card is *Phantom Playable* is it is playable "through" cards that are visible in someone's hand, but the in-between cards are not on *Finesse Position* and are not yet clued. We are **not** allowed to give *Play Clues* to *Phantom Playable* cards - at least not until the other cards are clued first.
-* From *Save Principle*, we know that everyone agrees to not let *playable* or *delayed playable* cards get discarded.
-* If possible, the team should also try to protect *Phantom Playable* cards from being discarded as well, since they are nearly as important as *delayed playable* cards. For example, it is common for other people on the team to discard in order to let the player with the *Phantom Playable* card be the one to give a *Play Clue* to the in-between card.
-* Sometimes, *Phantom Playable* cards have to be discarded when the team is low on clues or in an otherwise tight situation. While regrettable, this is perfectly okay and does happen from time to time.
-```
-
-**The Scream Discard for a Phantom Playable Card**
-
-```
-* First, see the section on the *[Scream Discard](#the-scream-discard-chop-move-deliberately-discarding-instead-of-playing)*.
-* Normally, you are only allowed to perform a *Scream Discard* for a critical card or a playable card. But what about a *Phantom Playable Card*?
-* In most cases, players should also *Scream Discard* for a *Phantom Playable Card*, but it depends on the situation:
-  * Will it be clear to everyone what is happening?
-  * Will the in-between cards get clued right away?
-  * Are there other critical cards on chop that need to be saved or will need to be saved soon?
-  * Is the *Phantom Playable* card a 3 or a 4?
-* In summary, it is better for the team to let a *Phantom Playable* card get discarded in a tricky or tight situation, **especially** if it is a 4.
-* Another way of saying this is that the team should never "bend over backwards" for a *Phantom Playable* card. Consider that a *Scream Discard* always has a small chance to lose the game (if the *Scream Discarded* card was itself critical).
+* Previously, when a 5 happened to be playable in the *Early Game*, all number 5 clues would look like a *Play Clue* on that 5.
+* Now, a player will never consider a number 5 clue to be a *Play Clue* anymore. Any number 5 clue in the *Early Game* will be treated as a *5 Stall*, a *5 Pull*, or a *5's Chop Move*.
+* Note that if you want to give a *Play Clue* to a playable 5 in the *Early Game*, it is still possible to do so by using a color clue.
 ```
 
 **The Unnecessary Trash Push (Finesse Form)**
@@ -53,6 +36,8 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 
 ## The Backlog (Variant-Specific Conventions)
 
+@everyone New variant-specific conventions:
+
 **The Bubblegum Bluff** (by Stephen)
 
 ```
@@ -67,15 +52,6 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
   * Cathy marks her slot 5 card as the one-away-from-playable pink card, the pink 2.
 * *Bubblegum Bluffs* can only be performed on non-pink cards; otherwise, it will look like a *Double Finesse* with one part *Bubblegum Finesse* and one part normal *Finesse*.
 * Note that it is impossible to *3 Bluff* and *Bubblegum Bluff* at the same time.
-```
-
-**Pink Promise with a 5's Chop Move** (by Jeff)
-
-```
-* This convention only applies to variants with a pink suit.
-* When a player performs a *5's Chop Move*, it is clearly a type of *Save Clue*. But the focus of the clue is unclear.
-* We define the focus of the clue to be the 5 that is one-away from the chop.
-* Thus, when a player knows for sure that a number 5 clue indicates a *5's Chop Move*, the *Pink Promise* convention only applies to the 5 that is one-away from the chop.
 ```
 
 **Reverse Finesse Restriction** (by Florrat)
