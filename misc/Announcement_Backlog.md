@@ -29,7 +29,7 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
   * Will the in-between cards get clued right away?
   * Are there other critical cards on chop that need to be saved or will need to be saved soon?
   * Is the *Phantom Playable* card a 3 or a 4?
-* In summary, it is better for the the team to let a *Phantom Playable* card get discarded in a tricky or tight situation, **especially** if it is a 4.
+* In summary, it is better for the team to let a *Phantom Playable* card get discarded in a tricky or tight situation, **especially** if it is a 4.
 * Another way of saying this is that the team should never "bend over backwards" for a *Phantom Playable* card. Consider that a *Scream Discard* always has a small chance to lose the game (if the *Scream Discarded* card was itself critical).
 ```
 

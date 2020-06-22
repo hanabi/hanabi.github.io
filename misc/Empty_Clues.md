@@ -248,7 +248,7 @@
 ### The Empty Finesse
 
 * If an *Empty Clue* does NOT meet *Minimum Empty Clue Value Principle*, then this is quite strange. In this situation, the clue giver must be trying to communicate something extra, or else they would not bother to use an *Empty Clue* in the first place.
-* In this situation, the clue IS actually meeting *Minimum Empty Clue Value Principle* in the form of a *Finesse* - a card in one player's hand hand leads into a card in the next player's hand.
+* In this situation, the clue IS actually meeting *Minimum Empty Clue Value Principle* in the form of a *Finesse* - a card in one player's hand leads into a card in the next player's hand.
 * How does the first player know which card to play? They use the same play priority as above, but use it to find a one-away card.
 
 ### The Empty Bluff

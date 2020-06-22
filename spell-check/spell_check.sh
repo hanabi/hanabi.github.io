@@ -16,4 +16,9 @@ FILES=$(find "$PARENT_DIR" -type f \
 )
 
 cd "$DIR"
+
+# Spell check every file using cspell
 npx cspell --no-summary --config "$PARENT_DIR/.cspell.json" $FILES
+
+# Perform some additional language checks using the "unified" framework
+node check_other.js

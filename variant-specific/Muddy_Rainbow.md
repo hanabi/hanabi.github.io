@@ -6,7 +6,7 @@ These conventions apply to any variant with a muddy rainbow suit or a cocoa rain
 
 ### Muddy Rainbow Saves
 
-* Since muddy rainbow 2 cannot be *2 Saved* and and muddy rainbow 5 cannot be *5 Saved*, there needs to be a separate way to save these cards.
+* Since muddy rainbow 2 cannot be *2 Saved* and muddy rainbow 5 cannot be *5 Saved*, there needs to be a separate way to save these cards.
 * Any red color clue (the left-most color) to a chop card is treated as a potential *Muddy Rainbow Save* on a muddy rainbow 2 or a muddy rainbow 5.
 * Similar to brown, *Loaded Play Clues* always apply to *Muddy Rainbow Saves*, even in the *Early Game*.
 

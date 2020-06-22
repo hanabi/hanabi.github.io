@@ -1,6 +1,6 @@
 # Specific Conventions for Dark Null
 
-These conventions apply to any variant with a a dark null suit.
+These conventions apply to any variant with a dark null suit.
 
 <br />
 

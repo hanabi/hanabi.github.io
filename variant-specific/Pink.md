@@ -69,7 +69,7 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 
 * Players can also violate *Pink Promise* if they are giving a *Play Clue* and the lie will be resolved when the player who is clued plays their focused card.
 * For example, in a 3-player game:
-  * Pink 3 and and red 2 are played on the stacks.
+  * Pink 3 and red 2 are played on the stacks.
   * Alice clues number 3 to Cathy, touching a pink 4 on slot 1 and a blue 3 on slot 2.
   * Bob discards.
   * Cathy plays the card on slot 1, thinking that it is a red 3. It is actually the pink 4.

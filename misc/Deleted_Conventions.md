@@ -236,7 +236,7 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
 * However, it could also be the case that the next player after that does not have a playable/critical card on chop. Or, alternatively, it could be the case that **everyone** has something to do on their turn. Thus, discarding is normally considered a mistake.
 * If the player who is discarding is not making a mistake, then they are communicating that the very next player with a "known play" should **stop** what they are doing, because the card is not actually playable.
 * This is very similar to a *Stop Blind-Play*, but since the player has a known play, there is no reason to use up one of the strikes when the same message can be communicated in a safer way.
-* If there is a card that could potentially be playable on on chop, then the *Echo Scream Discard* interpretation takes priority over the *Stop Discard* interpretation.
+* If there is a card that could potentially be playable on chop, then the *Echo Scream Discard* interpretation takes priority over the *Stop Discard* interpretation.
 * This convention was deleted due to lack of use.
 
 ### The Skipped Scream Discard

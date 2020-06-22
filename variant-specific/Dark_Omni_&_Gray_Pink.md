@@ -1,6 +1,6 @@
 # Specific Conventions for Dark Omni & Gray Pink
 
-These conventions apply to any variant with a a dark omni suit or a gray pink suit.
+These conventions apply to any variant with a dark omni suit or a gray pink suit.
 
 <br />
 

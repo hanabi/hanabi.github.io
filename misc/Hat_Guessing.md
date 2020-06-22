@@ -71,7 +71,7 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 | 4  (16)  | play 4                    | 2 players away | number on newest card
 | 5  (17)  | discard 1                 | 2 players away | color on newest card
 | 6  (18)  | discard 2                 | 2 players away | number not on newest card
-| 7  (19)  | discard 3                 | 2 players away | color not on on newest card
+| 7  (19)  | discard 3                 | 2 players away | color not on newest card
 | 8  (20)  | discard 4                 | 3 players away | number on newest card
 | 9  (21)  | 3rd rightmost is critical | 3 players away | color on newest card
 | 10 (22)  | 2nd rightmost is critical | 3 players away | number not on newest card
@@ -90,7 +90,7 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 | 4  (17)  | play 4             | 2 players away | number on newest card
 | 5  (18)  | discard 1          | 2 players away | color on newest card
 | 6  (19)  | discard 2          | 2 players away | number not on newest card
-| 7  (20)  | discard 3          | 2 players away | color not on on newest card
+| 7  (20)  | discard 3          | 2 players away | color not on newest card
 | 8  (21)  | discard 4          | 3 players away | number on newest card
 | 9  (22)  | slot 1 is critical | 3 players away | color on newest card
 | 10 (23)  | slot 2 is critical | 3 players away | number not on newest card

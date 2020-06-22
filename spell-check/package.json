@@ -9,6 +9,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cspell": "^4.0.63"
+    "cspell": "^4.0.63",
+    "retext": "^7.0.1",
+    "retext-english": "^3.0.4",
+    "retext-indefinite-article": "^2.0.1",
+    "retext-repeated-words": "^3.0.0",
+    "vfile-glob": "^1.0.0",
+    "vfile-reporter": "^6.0.1"
   }
 }

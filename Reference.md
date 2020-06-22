@@ -1409,7 +1409,7 @@ Note that in this user interface, players are **not** holding their hands like t
   * explicit information - negative clues present on the card
   * implicit information - historical / contextual information about the card derived from moves that teammates performed earlier on in the game
 * When this occurs, the clue is meant to be a *Play Clue* on the left-most card **instead** of the chop card.
-* Just like a "normal" *Play Clue* that touches multiple new cards, the chop card (and other other new cards introduced) are not necessarily playable right now.
+* Just like a "normal" *Play Clue* that touches multiple new cards, the chop card (and other new cards introduced) are not necessarily playable right now.
 * For example, in a 3-player game:
   * Alice clues 1's to Bob, which introduces one card on slot 1.
   * Bob plays the 1 and it is red 1.
@@ -1463,7 +1463,7 @@ Note that in this user interface, players are **not** holding their hands like t
 
 * If someone plays a fully-known card and the card does **not** have *Priority*, then the player must be trying to send a special message.
 * Based on what card they did play, if you have any clued cards in your hand that match the next "connecting" card, it is a message that you can play it right now as a *Priority Prompt*. (This is similar to a normal *Prompt*, except instead of initiating the *Prompt* with a clue, they initiated it with the order that they played cards.)
-* Alternatively, if you do not have any clued cards in your hand that matches the card that they played, then you you should play your *Finesse Position* card as a *Priority Finesse*.
+* Alternatively, if you do not have any clued cards in your hand that matches the card that they played, then you should play your *Finesse Position* card as a *Priority Finesse*.
 * For example, in a 3-player game:
   * Alice has a clued + known playable red 1 and a clued + known playable blue 2 in her hand.
   * Alice plays blue 2.
@@ -1683,7 +1683,7 @@ Priority does not always apply. Some common exceptions are listed below.
 
 ## Ejection
 
-* *Ejection* refers to a move like a *Bluff*, but instead of playing an unrelated card from *Finesse Position*, someone plays an unrelated card from their *Second Finesse Position*. For example, if a player's hand hand is completely unclued, their *Second Finesse Position* is slot 2.
+* *Ejection* refers to a move like a *Bluff*, but instead of playing an unrelated card from *Finesse Position*, someone plays an unrelated card from their *Second Finesse Position*. For example, if a player's hand is completely unclued, their *Second Finesse Position* is slot 2.
 
 ### The 5 Color Ejection (5CE)
 
@@ -1702,7 +1702,7 @@ Priority does not always apply. Some common exceptions are listed below.
 * For example, in a 3-player game:
   * It is the first turn and nothing is played on the stacks.
   * Alice clues red to Cathy, touching a red 5 on slot 2 and a red 2 on slot 3.
-  * Bob knows that normally, this would be an *Out-of-Order Finesse* on the 5, indicating to Bob that he has the red 1, the red 3, and the the red 4. However, since this calls for more than one blind card, he knows that *5 Color Ejection* should take precedence, so he knows to play his *Second Finesse Position* card. It is a red 1 and it successfully plays.
+  * Bob knows that normally, this would be an *Out-of-Order Finesse* on the 5, indicating to Bob that he has the red 1, the red 3, and the red 4. However, since this calls for more than one blind card, he knows that *5 Color Ejection* should take precedence, so he knows to play his *Second Finesse Position* card. It is a red 1 and it successfully plays.
   * From Cathy's perspective, if Bob had played his *Finesse Position* card in response to the red clue, then Cathy would know that it was a *Finesse* or a *Bluff*. But since Bob blind-played his *Second Finesse Position* card, it must be a *5 Color Ejection*. Cathy marks the red card as red 5. Her other red card can be red 2, red 3, or red 4.
 
 ## Level 13 - Erudite
@@ -1830,7 +1830,7 @@ Priority does not always apply. Some common exceptions are listed below.
 * In a *Bluff*, we would say that the clue does not "match" the blind-play. For example, a blue clue on a blue 2 does not match a blind-play of a red 1. Or, a number 2 clue on a blue 2 does not match the blind-play of a red 2.
 * In the *Trash Bluff* example above, a blue 1 is used to *Trash Bluff* a blue 2. Similar to a *Bluff*, we would say this number 1 clue does not match the blind-play of a blue 2.
 * What if the *Trash Bluff* instead got a red 1 to blind-play? In this context, the red 1 would actually "match" the number 1 clue. Another way of saying this is that by cluing the trash 1 with a number 1 clue, the clue giver is saying that they **see** a matching 1 that is good.
-* Thus, it is possible to perform a a *Trash Bluff* outside of *Bluff Seat* if the "matching" card is on someone's *Finesse Position*. When this is done, it promises that someone has that specific card, so we call it a *Trash Finesse* rather than a *Trash Bluff*.
+* Thus, it is possible to perform a *Trash Bluff* outside of *Bluff Seat* if the "matching" card is on someone's *Finesse Position*. When this is done, it promises that someone has that specific card, so we call it a *Trash Finesse* rather than a *Trash Bluff*.
 * For example, in a 4-player game:
   * All the 1's are played on the stacks except for red 1.
   * Alice clues number 1 to Donald, which touches a blue 1. To Donald, this will look like it is a red 1.
@@ -1875,7 +1875,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * *Good Lie Principle* states all that lies must resolve immediately. However, some players will occasionally perform *Finesses* that violate this principle. We would say that such *Finesses* have a *Lie Component*.
 * Typically, when players lie out of *Bluff Seat*, the game quickly falls apart; subsequent clues will have different meanings to different players and everyone will become "desynchronized". This typically leads to a loss.
 * With that said, it is sometimes possible to construct **safe** lines that contain a *Lie Component*. There is usually deep levels of nuance involved in these lines, so this kind of thing is only recommended for advanced and expert players.
-* The previously mentioned *Out-of-Order Finesse* is an specific example of a *Finesse* with a *Lie Component*. One key attribute of the *Out-of-Order Finesse* is that the player who receives the *Fix Clue* knows that **all** of the related cards are playable, or it would not have been worth the risk (and the confusion) to perform a line with a *Lie Component* in the first place.
+* The previously mentioned *Out-of-Order Finesse* is a specific example of a *Finesse* with a *Lie Component*. One key attribute of the *Out-of-Order Finesse* is that the player who receives the *Fix Clue* knows that **all** of the related cards are playable, or it would not have been worth the risk (and the confusion) to perform a line with a *Lie Component* in the first place.
 * This concept can be generalized to all *Finesses* that have a *Lie Component*. After a player receives a *Fix Clue* in such a situation, they should assume that the *Finesse* is "still on". So, depending on the situation, they should either know that the initial card that was clued is playable (like in an *Out-of-Order Finesse*) or continue to blind-play cards to fulfill the initial *Finesse* (if the card clued with a *Fix Clue* seems to be unrelated).
 * Importantly, *Finesses* with a *Lie Component* are **only** allowed if there is not an alternative line that would "get" the same amount of cards without any lies. Thus, if you are looking to do a *Finesse* with a *Lie Component*, make sure you carefully consider the efficiency of all of the possible alternatives.
 
@@ -2589,7 +2589,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 ### The 5 Double Pull (Or The Double 5 Pull)
 
 * This convention only applies in the *Early Game*.
-* Normally, in the *Early Game*, it is impossible to perform a *5 Pull* on a chop card, because it will instead be interpreted as an an *Early 5's Chop Move*. In this situation, players will almost always just give a direct *Chop-Focus Play Clue* (and then give a *5 Save* to the 5 later on).
+* Normally, in the *Early Game*, it is impossible to perform a *5 Pull* on a chop card, because it will instead be interpreted as an *Early 5's Chop Move*. In this situation, players will almost always just give a direct *Chop-Focus Play Clue* (and then give a *5 Save* to the 5 later on).
 * However, what if a player performs an *Early 5's Chop Move* on a playable card instead of just giving a *Chop-Focus Play Clue*? They must be trying to communicate something extra.
 * In this situation, they are really trying to perform a *5 Double Pull*, which pulls a card from the next player and also pulls a card from the player who received the number 5 clue. The next player should blind-play their *Finesse Position* card, which gives the clue receiver enough information to know that the move was really a *5 Pull* after all.
 * For example, in a 4-player game:
@@ -2694,7 +2694,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ## Level 15 - Rarely Used Strategies (Ejection)
 
-* *Ejection* refers to a move like a *Bluff*, but instead of playing an unrelated card from *Finesse Position*, someone plays an unrelated card from their *Second Finesse Position*. For example, if a player's hand hand is completely unclued, their *Second Finesse Position* is slot 2.
+* *Ejection* refers to a move like a *Bluff*, but instead of playing an unrelated card from *Finesse Position*, someone plays an unrelated card from their *Second Finesse Position*. For example, if a player's hand is completely unclued, their *Second Finesse Position* is slot 2.
 
 ### The 5 Color Ejection
 
@@ -2882,7 +2882,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Will the in-between cards get clued right away?
   * Are there other critical cards on chop that need to be saved or will need to be saved soon?
   * Is the *Phantom Playable* card a 3 or a 4?
-* In summary, it is better for the the team to let a *Phantom Playable* card get discarded in a tricky or tight situation, **especially** if it is a 4.
+* In summary, it is better for the team to let a *Phantom Playable* card get discarded in a tricky or tight situation, **especially** if it is a 4.
 * Another way of saying this is that the team should never "bend over backwards" for a *Phantom Playable* card. Consider that a *Scream Discard* always has a small chance to lose the game (if the *Scream Discarded* card was itself critical).
 
 ### Deferring a Bluff
@@ -2949,9 +2949,9 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Bob plays the 3, but it is revealed to be blue 3 instead of red 3.
   * Bob now knows that nobody has the red 3 and that Cathy blind-played the red 2 from Bob's hesitation.
 * *Hesitation Blind Plays* are **not always safe** to do:
-  * If a player could be hesitating for a clued card in your hand **or** your *Finesse Position* card, then you cannot cannot act on the hesitation. (If you guess wrong, you could misplay a critical card.)
-  * If a player could be hesitating for a card that is identical to the card that was clued, then you cannot cannot act on the hesitation. (If you blind-play the same copy of the card, then they will go on to misplay the clued card.)
-  * If blind-playing a particular card would cause the original clue to look like a *Double Finesse* with a "self" component, then you cannot cannot act on the hesitation. (For example, if a number 4 clue causes a *Hesitation Blind-Play* of a red 2, the clue receiver would go on to misplay their *Finesse Position* card as the red 3.)
+  * If a player could be hesitating for a clued card in your hand **or** your *Finesse Position* card, then you cannot act on the hesitation. (If you guess wrong, you could misplay a critical card.)
+  * If a player could be hesitating for a card that is identical to the card that was clued, then you cannot act on the hesitation. (If you blind-play the same copy of the card, then they will go on to misplay the clued card.)
+  * If blind-playing a particular card would cause the original clue to look like a *Double Finesse* with a "self" component, then you cannot act on the hesitation. (For example, if a number 4 clue causes a *Hesitation Blind-Play* of a red 2, the clue receiver would go on to misplay their *Finesse Position* card as the red 3.)
 
 ### The Hesitation Chop Move (From a Misplay)
 

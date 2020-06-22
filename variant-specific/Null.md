@@ -1,6 +1,6 @@
 # Specific Conventions for Null
 
-These conventions apply to any variant with an null (touched by no clues) suit.
+These conventions apply to any variant with an *null* (touched by no clues) suit.
 
 <br />
 

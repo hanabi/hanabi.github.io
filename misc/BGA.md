@@ -113,7 +113,7 @@ With that said, my group always needs new players, so we are always happy to wel
 
 ## Convention Changes (Beginner)
 
-If you're reading this far, you'll want to know some of the basic differences between the the *BGA convention framework* and the *Hyphen-ated convention framework*. Fear not - it isn't so bad once you play a few games.
+If you're reading this far, you'll want to know some of the basic differences between the *BGA convention framework* and the *Hyphen-ated convention framework*. Fear not - it isn't so bad once you play a few games.
 
 <br />
 
@@ -210,7 +210,7 @@ Ok, so you've made it this far. The changes so far probably sound pretty strange
 ### Chop Moves - Added
 
 * On BGA, there are certain situations where you save a card in your hand permanently, even though it is not clued.
-* In my group, we give this move a name - the *Chop Move*. We think of the *Chop Move* like an an invisible clue that is applied to the chop card.
+* In my group, we give this move a name - the *Chop Move*. We think of the *Chop Move* like an invisible clue that is applied to the chop card.
 * *Chop Moved* cards are permanent - you should never discard them, similar to how you would never normally discard a card that already has a clue on it.
 * There are several ways to initiate a *Chop Move*, some of which are detailed below.
 
