@@ -2290,7 +2290,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Cathy blind-plays red 2.
   * Donald knows that normally, this would be a *4 Double Bluff* and that no-one should play any more cards. However, since the red 4 was duplicated, this must be a *Bad Touch Triple Finesse*, so Cathy blind-plays her *Finesse Position* and it is the red 3.
   * Emily knows that this cannot be a *4 Double Bluff*, or else Donald would not have blind-played anything. Thus, this must be a *Bad Touch Triple Finesse*, so Emily plays her left-most red 4. The next time that Emily discards, she will discard the known trash red 4. 
-* It is also possible to do a *Bad Touch Triple Bluff*, a *Bad Touch Triple One-Third Bluff*, and a *Bad Touch Triple Two-Thirds Bluff*.
 
 ### The Trash Double Bluff (Form 1)
 
@@ -2550,7 +2549,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * *Reverse Finesses* take precedence over *Bluffs*. This means that you cannot use cards to *Bluff* that have "matching" cards in the *Finesse Position* of other players, since the player you want to *Bluff* will pause to give a chance for the matching cards to play first.
 * However, in some rare situations, when initiating a *Reverse Finesse*, you have a free choice between a color clue and a rank clue, meaning that both rank and color will **only** touch the one target card. Here, players will normally choose color instead of rank, since in most variants, color clues are better than rank clues.
 * Im this situation, if a player chooses rank instead of color, and there was not a good reason to do so, then the player giving the clue must be trying to communicate something extra. By convention, this means that they really want a *Bluff* to happen (instead of a *Reverse Finesse*). The next player should **not** wait for other matching cards to play first. This is called a *Rank Choice Bluff*.
-* Note that it is possible to use the *Rank Choice* convention with any kind of *Bluff*. Thus, it is possible to *Rank Choice 3 Bluff*, *Rank Choice Double Bluff*, *Rank Choice Triple Bluff*, and so forth.
+* Note that it is possible to use the *Rank Choice* convention with any kind of *Bluff*. Thus, it is possible to *Rank Choice 3 Bluff*, *Rank Choice Double Bluff*, and so forth.
 * Examples:
   * Game #8129, turn 4 (cluing Hyakinthus' green 3 with number 3)
 
