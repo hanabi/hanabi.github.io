@@ -10,6 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "cspell": "^4.0.63",
+    "remark-parse": "^8.0.2",
+    "remark-retext": "^4.0.0",
     "retext": "^7.0.1",
     "retext-english": "^3.0.4",
     "retext-indefinite-article": "^2.0.1",

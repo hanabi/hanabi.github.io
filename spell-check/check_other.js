@@ -1,6 +1,8 @@
 const path = require('path');
 const vfileGlob = require('vfile-glob');
 const unified = require('unified');
+const parse = require('remark-parse')
+const remark2retext = require('remark-retext')
 const english = require('retext-english');
 const repeated = require('retext-repeated-words');
 const indefiniteArticle = require('retext-indefinite-article');
@@ -21,9 +23,14 @@ vfileGlob(`${parentDirectory}/**`, {
 }).subscribe({
   next(file) {
     unified()
-    .use(english)
-    .use(repeated)
-    .use(indefiniteArticle)
+    .use(parse)
+    .use(
+      remark2retext,
+      unified()
+      .use(english)
+      .use(repeated)
+      .use(indefiniteArticle)
+    )
     .use(stringify)
     .process(file, function(err, file) {
       const output = report(err || file, {
