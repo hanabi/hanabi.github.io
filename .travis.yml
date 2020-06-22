@@ -3,10 +3,14 @@ node_js:
   # Use the latest stable Node.js release
   - node
 before_script:
-  - echo "Installing cspell (the spell checker)..."
+  - echo "Installing NPM modules..."
   - cd spell-check
   - npm install
-script: ./spell_check.sh
+script: 
+  # Spell check every file using cspell
+  - ./spell_check.sh
+  # Perform some additional language checks using the "unified" framework
+  - node ./other_checks.js
 
 # By default, the GitHub webhook will notify on success and failure
 # Instead, we only want messages for failure, so use the "DiscordHooks" project

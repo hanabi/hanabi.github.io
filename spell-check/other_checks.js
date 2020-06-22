@@ -8,8 +8,11 @@ const repeated = require('retext-repeated-words');
 const indefiniteArticle = require('retext-indefinite-article');
 const stringify = require('retext-stringify');
 const report = require('vfile-reporter');
+const exitHook = require('exit-hook');
 
+let errorsHappened = false;
 const parentDirectory = path.join(__dirname, '..');
+
 vfileGlob(`${parentDirectory}/**`, {
   ignore: [
     `${parentDirectory}/.git/**`,
@@ -33,12 +36,22 @@ vfileGlob(`${parentDirectory}/**`, {
     )
     .use(stringify)
     .process(file, function(err, file) {
+      if (!file) {
+        return;
+      }
       const output = report(err || file, {
         quiet: true,
       }).trim();
       if (output) {
         console.error(output);
+        errorsHappened = true;
       }
     })
   },
+})
+
+exitHook(() => {
+  if (errorsHappened) {
+    process.exit(1);
+  }
 });
