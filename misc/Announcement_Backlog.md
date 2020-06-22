@@ -16,6 +16,45 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 * Note that if you want to give a *Play Clue* to a playable 5 in the *Early Game*, it is still possible to do so by using a color clue.
 ```
 
+**The Reverse Trash Finesse**
+
+```
+* First, see the [Trash Finesse (Strong Form)](the-trash-finesse-strong-form).
+* It is also possible to perform a *Trash Finesse* in reverse. This is much harder to see than a forward *Trash Finesse*. Even so, players should generally entertain the possibility of this occurring.
+* When a clue looks like it could be a *Reverse Trash Finesse*, the player who receives the clue is forced into immediately discarding the card. If it was indeed a *Reverse Trash Finesse*, it will be a trash card and it will immediately demonstrate what is going on. Alternatively, if the clue was a normal *Play Clue* on a playable card, then the discard will be a *Gentleman's Discard*. By discarding, it covers both cases.
+* For example, in 3-player game:
+  * The red 1 is played on the stacks. All of the 2's are played on the other stacks.
+  * Alice clues number 2 to Bob, touching his slot 1 card as a *Play Clue*.
+  * From Bob's perspective, this is probably just a *Play Clue* on the red 2 (which happens to be the final 2 that needs to be played).
+  * However, Bob sees that Cathy also has a red 2 on her *Finesse Position*. That means that this could be a *Reverse Trash Finesse*.
+  * If it is a *Reverse Trash Finesse*, then his 2 is a trash 2 (e.g. green 2). By immediately discarding it, it will prove to Cathy that *she* has a red 2.
+  * Alternatively, if Bob does indeed have the red 2, then he can discard it to perform a *Gentleman's Discard* on Cathy.
+  * Either way, discarding will cover both cases. Bob discards the 2 and it is revealed to be a green 2.
+  * Cathy comes next. Cathy was highly surprised when Alice gave Bob a number 2 clue on the green 2. From Cathy's perspective of Bob's perspective, the green 2 clue would immediately misplay as red 2. However, when Bob discards the green 2 instead of playing it, Alice's plan becomes clear. Cathy had the red 2 all along. Cathy blind-plays her *Finesse Position* card as red 2.
+* Note that *Reverse Trash Finesses* should not always be entertained and **depend on context**. Specifically, towards the end of the game, *Reverse Trash Finesses* are "turned off". This is because towards the end of the game, the team needs tempo, and *Reverse Trash Finesses* are slow and require even more discarding.
+```
+
+**The Gentleman's Discard that Looks like an Unnecessary Reverse Trash Finesse**
+
+```
+* First, see the [The Unnecessary Trash Finesse Chop Move](#the-unnecessary-trash-finesse-chop-move--the-unnecessary-trash-bluff-chop-move). Basically, if a *Trash Finesse* is unnecessary, then it also causes a *Chop Move*.
+* This convention also applies to *Reverse Trash Finesses*. If they are unnecessary, then it causes a *Chop Move* in the same way.
+* If a line is chosen that forces a *Gentleman's Discard* to occur (because they have to entertain the possibility of a *Reverse Trash Finesse*), and the blind-playing card could have been clued in some other easier way, then it **still** *Chop Moves* in exactly the same way that an  *Unnecessary Reverse Trash Finesse* would.
+* For example, in a 3-player game:
+  * This is a slightly modified version of the example given for the *Reverse Trash Finesse*.
+  * The red 1 is played on the stacks. All of the 2's are played on the other stacks.
+  * Alice clues number 2 to Bob, touching his slot 1 card as a *Play Clue*.
+  * From Bob's perspective, this is probably just a *Play Clue* on the red 2 (which happens to be the final 2 that needs to be played).
+  * However, Bob sees that Cathy also has a red 2 on her *Finesse Position*. That means that this could be a *Reverse Trash Finesse*.
+  * If it is a *Reverse Trash Finesse*, then his 2 is a trash 2 (e.g. green 2). By immediately discarding it, it will prove to Cathy that *she* has a red 2.
+  * Alternatively, if Bob does indeed have the red 2, then he can discard it to perform a *Gentleman's Discard* on Cathy.
+  * Either way, discarding will cover both cases. Bob discards the 2 and it is revealed to be a red 2.
+  * Cathy blind-plays her *Finesse Position* card as red 2 and it successfully plays.
+  * Alice discards.
+  * Bob knows that even though *Gentleman's Discards* are never supposed to cause a *Chop Move*, Alice forced him to discard in exactly the same way as a *Reverse Trash Finesse*. Furthermore, it was possible to cleanly clue the red 2 in Cathy's hand to begin with, and doing so would have been much simpler. Thus, doing the pseudo-*Reverse Trash Finesse* was unnecessary.
+  * Since it was unnecessary, Bob chop moves all the cards to the right of where the red 2 was (slot 2, slot 3, slot 4, and slot 5).
+```
+
 **The Unnecessary Trash Push (Finesse Form)**
 
 ```
