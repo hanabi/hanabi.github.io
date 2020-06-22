@@ -6,6 +6,14 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 
 ## The Backlog (General Conventions)
 
+@everyone Deleted conventions:
+
+**The Triple Bluff & The Triple One-Third Bluff & The Triple Two-Thirds Bluff & The 5 Triple Bluff** (deleted)
+
+```
+* These conventions are deleted due to lack of use.
+```
+
 @everyone New conventions:
 
 **No Number 5 Play Clues in the Early Game Anymore**
