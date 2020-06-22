@@ -961,7 +961,7 @@ Note that in this user interface, players are **not** holding their hands like t
 
 * Players can use *Pace* to determine if it is safe to discard. In general, a group can discard down to pace 0 and still get a perfect score.
 * However, as a rule, if pace is +1 and one of the players on your team **does not** have any playable cards, then you cannot discard - **you must let them perform the final discard**.
-* If both you and another player do not have any playable cards, then you can do the final discard - the team won't be able to get a perfect score anyway. But if you you **could** have an unknown playable card in your hand, then you should be very careful about discarding, because it could ruin a perfect score.
+* If both you and another player do not have any playable cards, then you can do the final discard - the team won't be able to get a perfect score anyway. But if you **could** have an unknown playable card in your hand, then you should be very careful about discarding, because it could ruin a perfect score.
 
 ### Burning (End-Game Stalling)
 
@@ -1111,7 +1111,7 @@ Note that in this user interface, players are **not** holding their hands like t
   * Bob sees that Cathy has a red 2 on her *Finesse Position*, so he performs a *Gentleman's Discard* by discarding the red 2.
   * Cathy blind-plays the red 2 from her *Finesse Position*.
   * Alice gasps in surprise, because Bob could not have possibly known that it was exactly a red 2. This must be a *Double Gentleman's Discard*, calling for both red 2 and blue 2. Alice blind-plays her *Finesse Position* card, hoping to play a blue 2, but instead plays a red 5, losing the game.
-  * Alice forgot that *Double Gentleman's Discards* were expressly illegal because of it is possible for players to have asymmetric information about the current game state.
+  * Alice forgot that *Double Gentleman's Discards* were expressly illegal because it is possible for players to have asymmetric information about the current game state.
 
 <br />
 
