@@ -2700,6 +2700,17 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Bob sees that Alice does indeed already have the red 4 in her hand, so from his perspective, if Alice was performing a *Generation Discard*, it was unnecessary.
   * However, it could also be the case that Bob's chop is unsafe. So, Bob will **not** clue the red 4 on Cathy's chop, but he **will** spend the clue in some other productive fashion. If Bob has nothing productive to do, he must "burn" a clue, similar to what happens when a *Scream Discard* occurs.
 
+### The Shout Discard Chop Move
+
+* Normally, when a player performs a *Scream Discard*, they are discarding their chop (e.g. an unknown and unclued card).
+* However, if a player has both a known-playable card and a known-trash card, then discarding the known-trash card instead of playing their known-playable card would *still* communicate a *Scream Discard* to the next player in the exact same way.
+* This situation is slightly different than the normal case, so we call it a *Shout Discard* to differentiate it from a more-ordinary *Scream Discard*.
+* A *Shout Discard* *Chop Moves* the very next player in the exact way that a *Scream Discard* does.
+* A *Shout Discard* forces the next player to **not** discard on their turn in the exact way that a *Scream Discard* does.
+* Normally, a *Scream Discard* is only allowed to *Chop Move* a critical card or a playable card. Unlike a *Scream Discard*, it is permissible to use a *Shout Discard* to *Chop Move* any card that is desirable, even if it is not critical or playable.
+* Normally, a *Scream Discard* is only allowed if the team is at 0 clues (or if cluing the card is impossible). Unlike a *Scream Discard*, it is permissible to use a *Shout Discard* to *Chop Move* regardless of the amount of clues that the team has.
+* Normally, a *Scream Discard* would turn into an *Echo Scream Discard* if the next player has a playable card. *Shout Discards* can also turn into *Echo Shout Discards*, but only if the team is completely out of clues and it can be seen to be a "last-resort" move.
+
 ### The Whisper Discard Chop Move
 
 * Occasionally, a player will have known trash in their hand. Obviously, they are expected to discard the known trash first before discarding their right-most unclued card.
