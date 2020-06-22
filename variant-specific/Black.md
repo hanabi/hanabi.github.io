@@ -8,7 +8,7 @@ These conventions apply to any variant with a black (one of each) suit.
 
 * Players should save black 2's and black 5's with a number clue instead of a color clue. (This helps narrow down what card is being clued.)
 * There are four exceptions to this:
-  * if the black clue touched two or more brand new black cards **or** critical Rainbow cards
+  * if the black clue touched two or more previously unclued black cards **or** critical Rainbow cards
   * if the black clue was required to avoid violating *Good Touch Principle*
   * if the black clue "filled in" an ancillary card
   * if the black clue gave important negative information to one or more cards in the hand
