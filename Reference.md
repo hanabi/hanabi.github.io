@@ -2201,6 +2201,25 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Emily knows that when the number 5 clue was given, the red 5 was four-away from playable, and all of the other 5's were three-away from playable. This means that normally, Emily would mark her 5 as any 5 except for red 5. (This is because cards that are three-away-from-playable are normally used to *Triple Bluff*.)
   * However, since the *5's Triple Bluff* convention exists, Emily knows that any 5 can be used to initiate a *Triple Bluff*. Thus, her 5 can be **any** 5 in the game, including red 5.
 
+### The Gentleman's Discard that Looks like an Unnecessary Reverse Trash Finesse
+
+* First, see the [The Unnecessary Trash Finesse Chop Move](#the-unnecessary-trash-finesse-chop-move--the-unnecessary-trash-bluff-chop-move). Basically, if a *Trash Finesse* is unnecessary, then it also causes a *Chop Move*.
+* This convention also applies to *Reverse Trash Finesses*. If they are unnecessary, then it causes a *Chop Move* in the same way.
+* If a line is chosen that forces a *Gentleman's Discard* to occur (because they have to entertain the possibility of a *Reverse Trash Finesse*), and the blind-playing card could have been clued in some other easier way, then it **still** *Chop Moves* in exactly the same way that an  *Unnecessary Reverse Trash Finesse* would.
+* For example, in a 3-player game:
+  * This is a slightly modified version of the example given for the *Reverse Trash Finesse*.
+  * The red 1 is played on the stacks. All of the 2's are played on the other stacks.
+  * Alice clues number 2 to Bob, touching his slot 1 card as a *Play Clue*.
+  * From Bob's perspective, this is probably just a *Play Clue* on the red 2 (which happens to be the final 2 that needs to be played).
+  * However, Bob sees that Cathy also has a red 2 on her *Finesse Position*. That means that this could be a *Reverse Trash Finesse*.
+  * If it is a *Reverse Trash Finesse*, then his 2 is a trash 2 (e.g. green 2). By immediately discarding it, it will prove to Cathy that *she* has a red 2.
+  * Alternatively, if Bob does indeed have the red 2, then he can discard it to perform a *Gentleman's Discard* on Cathy.
+  * Either way, discarding will cover both cases. Bob discards the 2 and it is revealed to be a red 2.
+  * Cathy blind-plays her *Finesse Position* card as red 2 and it successfully plays.
+  * Alice discards.
+  * Bob knows that even though *Gentleman's Discards* are never supposed to cause a *Chop Move*, Alice forced him to discard in exactly the same way as a *Reverse Trash Finesse*. Furthermore, it was possible to cleanly clue the red 2 in Cathy's hand to begin with, and doing so would have been much simpler. Thus, doing the pseudo-*Reverse Trash Finesse* was unnecessary.
+  * Since it was unnecessary, Bob chop moves all the cards to the right of where the red 2 was (slot 2, slot 3, slot 4, and slot 5).
+
 ### The No-Information Double Finesse & The No-Information Double Bluff
 
 * Sometimes, cards are re-clued in order to initiate a *Finesse* or a *Bluff*. Most times, the clue will "fill in" or give extra information to the existing card.
