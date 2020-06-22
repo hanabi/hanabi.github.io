@@ -2556,8 +2556,8 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 #### The Rank Choice Finesse
 
 * First, see the section on the *[Rank Choice Bluff](#the-rank-choice-bluff)*.
-* After Bob sees that Alice wants a *Rank Choice Bluff* to happen, he will blind-play his *Finesse Position* card, expecting it to be an unrelated card. But if Bob plays a card that matches the card that was clued?
-* In this situation, this would be a *Rank Choice Finesse* instead of a *Rank Choice Bluff*. A *Rank Choice Finesse* may be preferable to a (more ordinary) *Ambiguous Finesse*, which will resolve more slowly.
+* After Bob sees that Alice wants a *Rank Choice Bluff* to happen, he will blind-play his *Finesse Position* card, expecting it to be an unrelated card. But what if Bob plays a card that matches the card that was clued?
+* In this situation, it would be a *Rank Choice Finesse* instead of a *Rank Choice Bluff*. A *Rank Choice Finesse* may be preferable to a (more ordinary) *Ambiguous Finesse*, which will resolve more slowly.
 
 #### The Rank Choice Save Finesse
 
