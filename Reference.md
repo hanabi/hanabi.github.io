@@ -206,7 +206,7 @@ Note that in this user interface, players are **not** holding their hands like t
 * *Finesses* must be on "matching" cards. (For example, the red 1 leads directly into the red 2, so they are considered to be a "matching" pair of cards.)
 * When a player is *Finessed* they should blind-play their card right away in order to demonstrate it!
 
-### Finesse Position
+#### Finesse Position
 
 * As covered in the [beginner's guide](Beginner.md#the-finesse), a player's *Finesse Position* refers to the slot that their **left-most unclued card** is in.
 
