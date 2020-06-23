@@ -3341,8 +3341,8 @@ Conventions for specific variants are listed on a separate page.
 | The Double/Triple Pass Bluff | Zamiel
 | The Out-of-Order Finesse | Zamiel
 | The Speed-up Clue | Libster
-| The Disease Bluff & The Heal Clue | Zamiel
 | The Pestilent (Double) Bluff | Zamiel
+| The Diseased Clandestine Finesse | Florrat
 | The Distribution Clue | Libster
 | The Elimination Riding Deduction Bluff | Duneaught
 | Self-Elimination Finesse Priority | 910dan
