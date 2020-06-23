@@ -30,6 +30,16 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 * *Bad Touch Layered Finesses* are **explicitly illegal** because they violate *Good Lie Principle* - Bob cannot demonstrate that it is a bad touch until after Cathy has already taken a turn.
 ```
 
+@everyone Changed conventions:
+
+**Allowable Stall Clues** (change)
+
+```
+1) The *Allowable Stall Clues* table has been slightly updated. The *Locked Hand Save*, the *8 Clue Save*, and "fill-in" clues are now tied in precedence.
+    * For example, this means that a *Locked* player can always choose to **not** LHS and instead give a "fill-in" clue if they want.
+2) The row that says "Filling in extra info on clued cards" has been changed to say "Filling in extra info on clued cards or *Chop Moved* cards".
+```
+
 @everyone New conventions:
 
 **No Number 5 Play Clues in the Early Game Anymore**
