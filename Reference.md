@@ -2298,6 +2298,17 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Cathy knows that normally, this would be a *3 Bluff*. However, since the red 3's are duplicated, this must be a *Bad Touch Double Finesse*, so Cathy blind-plays her *Finesse Position* and it is the red 2.
   * Donald knows that the other 3 in his hand must be the other copy of red 3, or else Cathy would not have blind-played anything, so Donald plays the left-most red 3. The next time that Donald discards, he will discard the known trash red 3. 
 
+### The Bad Touch Layered Finesse (Illegal)
+
+* First, see the section on the [Bad Touch Double Finesse](#the-bad-touch-double-finesse-for-3s).
+* Similar to a *Bad Touch Double Finesse*, it is also possible to try a *Bad Touch Layered Finesse* on the next next player.
+* For example, in a 3-player game:
+  * No cards are played on the stacks.
+  * Alice clues both copies of red 3 in Cathy's hand.
+  * Bob blind-plays a blue 1.
+  * Bob knows that if only one red 3 was touched, this would just be a normal *3 Bluff*. However, since there was a bad touch, he knows that he must continue to blind-play cards until he finds the red 1 and the red 2.
+* *Bad Touch Layered Finesses* are **explicitly illegal** because they violate *Good Lie Principle* - Bob cannot demonstrate that it is a bad touch until after Cathy takes a turn.
+
 ### The Bad Touch Double Bluff (For 3's)
 
 * In the same way as the *Bad Touch Double Finesse*, it is also possible to *Bad Touch Double Bluff* (or *Bad Touch Double Half Bluff*) in order to get unrelated cards played from *Finesse Position*.
