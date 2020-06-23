@@ -1,5 +1,4 @@
 ## Introduction
-
 As noted in the [convention changes document](Convention_Changes.md), sometimes a change to the conventions is made but is not yet announced due to there being a backlog of things to announce. This document contains the backlog.
 
 <br />
@@ -18,16 +17,18 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 
 @everyone Clarified conventions:
 
-**The Bad Touch Layered Finesse (Illegal)** (by Florrat)
+**The Bad Touch Layered Finesse That Violates Good Lie Principle (Illegal)** (by Florrat)
 
+```
 * First, see the section on the [Bad Touch Double Finesse](#the-bad-touch-double-finesse-for-3s).
-* Similar to a *Bad Touch Double Finesse*, it is also possible to try a *Bad Touch Layered Finesse* on the next next player.
+* Similar to a *Bad Touch Double Finesse*, it is also possible to try a *Bad Touch Layered Finesse* on the next player.
 * For example, in a 3-player game:
   * No cards are played on the stacks.
   * Alice clues both copies of red 3 in Cathy's hand.
   * Bob blind-plays a blue 1.
   * Bob knows that if only one red 3 was touched, this would just be a normal *3 Bluff*. However, since there was a bad touch, he knows that he must continue to blind-play cards until he finds the red 1 and the red 2.
-* *Bad Touch Layered Finesses* are **explicitly illegal** because they violate *Good Lie Principle* - Bob cannot demonstrate that it is a bad touch until after Cathy takes a turn.
+* *Bad Touch Layered Finesses* are **explicitly illegal** because they violate *Good Lie Principle* - Bob cannot demonstrate that it is a bad touch until after Cathy has already taken a turn.
+```
 
 @everyone New conventions:
 
