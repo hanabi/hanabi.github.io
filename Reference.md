@@ -840,7 +840,7 @@ Note that in this user interface, players are **not** holding their hands like t
   * Cathy discards the red 1.
   * Bob has smartly orchestrated a line in which a useless card was discarded. This kind of strategy is called *Discard Modulation*.
 
-### One-Away From Playable
+### The Value of One-Away-From-Playable Cards
 
 * In general, 3's are pretty high value, and 4's are pretty low value.
 * But combined with this, cards that are one-away from playable are pretty high value, and cards that are two-away (or more) are pretty low value.
