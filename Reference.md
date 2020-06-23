@@ -2307,7 +2307,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Alice clues both copies of red 3 in Cathy's hand.
   * Bob blind-plays a blue 1.
   * Bob knows that if only one red 3 was touched, this would just be a normal *3 Bluff*. However, since there was a bad touch, he knows that he must continue to blind-play cards until he finds the red 1 and the red 2.
-* *Bad Touch Layered Finesses* are **explicitly illegal** because they violate *Good Lie Principle* - Bob cannot demonstrate that it is a bad touch until after Cathy takes a turn.
+* *Bad Touch Layered Finesses* are **explicitly illegal** because they violate *Good Lie Principle* - Bob cannot demonstrate that it is a bad touch until after Cathy has already taken a turn.
 
 ### The Bad Touch Double Bluff (For 3's)
 
