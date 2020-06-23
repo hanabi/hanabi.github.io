@@ -16,6 +16,19 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 * Now, any 5 can be used to perform a *5's Double Bluff* in roughly the same way that the *4's Double Bluff* works. For a more thorough explanation, please see the section in the document called "The 4 Double Bluff & The 5 Double Bluff".
 ```
 
+@everyone Clarified conventions:
+
+**The Bad Touch Layered Finesse (Illegal)** (by Florrat)
+
+* First, see the section on the [Bad Touch Double Finesse](#the-bad-touch-double-finesse-for-3s).
+* Similar to a *Bad Touch Double Finesse*, it is also possible to try a *Bad Touch Layered Finesse* on the next next player.
+* For example, in a 3-player game:
+  * No cards are played on the stacks.
+  * Alice clues both copies of red 3 in Cathy's hand.
+  * Bob blind-plays a blue 1.
+  * Bob knows that if only one red 3 was touched, this would just be a normal *3 Bluff*. However, since there was a bad touch, he knows that he must continue to blind-play cards until he finds the red 1 and the red 2.
+* *Bad Touch Layered Finesses* are **explicitly illegal** because they violate *Good Lie Principle* - Bob cannot demonstrate that it is a bad touch until after Cathy takes a turn.
+
 @everyone New conventions:
 
 **No Number 5 Play Clues in the Early Game Anymore**
