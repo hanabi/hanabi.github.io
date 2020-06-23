@@ -2301,7 +2301,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 ### The Bad Touch Layered Finesse That Violates Good Lie Principle (Illegal)
 
 * First, see the section on the [Bad Touch Double Finesse](#the-bad-touch-double-finesse-for-3s).
-* Similar to a *Bad Touch Double Finesse*, it is also possible to try a *Bad Touch Layered Finesse* on the next next player.
+* Similar to a *Bad Touch Double Finesse*, it is also possible to try a *Bad Touch Layered Finesse* on the next player.
 * For example, in a 3-player game:
   * No cards are played on the stacks.
   * Alice clues both copies of red 3 in Cathy's hand.
