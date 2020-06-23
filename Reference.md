@@ -718,7 +718,7 @@ Note that in this user interface, players are **not** holding their hands like t
 * The player being "screamed at" should permanently move their chop by one position.
 * Furthermore, the player being "screamed at" is not allowed to discard on this turn. Instead, they must give a clue. If there are no normal *Play Clues* or *Save Clues* to give, then they are allowed to give "stall" clues, like a *5 Stall*. If there are no *5 Stalls* to give, they can even just "fill-in" some information on an already-clued card (and doing this should not cause a *Finesse*).
 * Players are only allowed to *Scream Discard* for **cards that are playable or critical** (or a needed 2 that isn't seen anywhere else). (This follows from *Save Principle*.)
-* Players are **not** allowed to *Scream Discard* for cards that are one-away from being playable.
+* Players are **not** allowed to *Scream Discard* for cards that are *one-away-from-playable*.
 * Players are **not** allowed to *Scream Discard* if there was some other, less dangerous way to save the card. It is a "last resort" move.
 * Sometimes, a player will discard with a known-playable card in their hand, but they are **not** intending a *Scream Discard* - it is some other special situation:
   1) It is not a *Scream Discard* if the next player **has** to generate a clue for cluing the next player after that. This is called a *Generation Discard*; see below.
@@ -1165,14 +1165,14 @@ Note that in this user interface, players are **not** holding their hands like t
 
 * *Finesses* are quite efficient. So, when you see a playable card in someone's *Finesse Position* slot, you will often want to "get" the card with a *Finesse* (instead of cluing it directly). However, often times, the proper "connecting" card is not on the table.
 * In this situation, you can perform an alternate strategy by lying to the next player. By cluing an unrelated, *one-away-from-playable* card, the next player will think that it is a *Finesse* and that they have the matching card. Then, they will blind-play their *Finesse Position* card. This is called a *Bluff*.
-* After the card is blind-played, the player who received the clue will realize that something strange has happened - the type of clue **did not match** the card that was blind-played. Thus, the clued card is not currently playable and must be a one-away from playable card.
+* After the card is blind-played, the player who received the clue will realize that something strange has happened - the type of clue **did not match** the card that was blind-played. Thus, the clued card is not currently playable and must be a *one-away-from-playable* card.
 * For example, in a 3-player game:
   * All the 2's are played on the stacks.
   * Alice clues Cathy red, which touches a red 4 as a *Play Clue*.
   * Next, it is Bob's turn. Bob sees that, with this red clue, Cathy has just been signaled that she has the red 3.
   * From Bob's perspective, this looks like a *Finesse* - if Bob does not blind-play the red 3 right now, Cathy will go on to misplay the red 4 as the red 3.
   * Bob blind-plays his slot 1 card. However, it is not the red 3, it was the blue 3! Now Bob knows that he has been *Bluffed* by Alice.
-  * Next, Cathy sees that Bob just blind-played a blue 3 immediately after this red clue, so she knows that she must have a one-away from playable red card - the red 4. Cathy holds on to the red 4 for later and discards.
+  * Next, Cathy sees that Bob just blind-played a blue 3 immediately after this red clue, so she knows that she must have a *one-away-from-playable* red card - the red 4. Cathy holds on to the red 4 for later and discards.
 * Except in rare circumstances, ***Bluffing* is only permissible when you are the person directly before the player who is blind-playing a card**. This is called being in *Bluff Seat*. Do not *Bluff* unless you are in *Bluff Seat*! (This follows from *[Good Lie Principle](#8-good-lie-principle)*.)
 
 ### How to Tell the Difference Between a *Finesse* and a *Bluff* (Part 1) - Recognizing *Finesses* on Other Players 
@@ -1205,7 +1205,7 @@ Note that in this user interface, players are **not** holding their hands like t
   * Blue 1 is played on the stacks.
   * Alice clues Cathy about a blue card.
   * Bob blind-plays a red 1.
-  * This must be a *Bluff*, because **red does not match blue**. So Cathy should think that she has the one-away from playable blue card, blue 3.
+  * This must be a *Bluff*, because **red does not match blue**. So Cathy should think that she has the *one-away-from-playable* blue card, blue 3.
   * This is a textbook *Bluff*; you can't get any more basic than this.
 * Example 3 (color match with rainbow):
   * This is a game with a rainbow suit. (The other examples in this section assume a "No Variant" game.)
@@ -1222,7 +1222,7 @@ Note that in this user interface, players are **not** holding their hands like t
   * Blue 2 is played on the stacks.
   * Alice clues Cathy about a 4.
   * Bob blind-plays the red 1.
-  * This must be a *Bluff*, because **1 does not match 4**. So Cathy should think that she has the one-away from playable 4, the blue 4.
+  * This must be a *Bluff*, because **1 does not match 4**. So Cathy should think that she has the *one-away-from-playable* 4, the blue 4.
   * The point of example 5 is to show that because a 2 happens to be played on the stacks, the blue 4 is a one-away-from-playable card and therefore becomes a legal *Bluff* target.
 * Example 6 (rank mismatch where a *Bluff* is impossible):
   * This is a 4-player game.
@@ -1230,7 +1230,7 @@ Note that in this user interface, players are **not** holding their hands like t
   * Alice clues Donald about a 4.
   * Bob blind-plays the red 1.
   * Cathy discards.
-  * This **cannot** be a *Bluff*, because there are no one-away from playable 4's. So even though 1 does not match 4, this must be a *Finesse*, because Alice is not allowed to perform a *Bluff* with any card that she wants.
+  * This **cannot** be a *Bluff*, because there are no *one-away-from-playable* 4's. So even though 1 does not match 4, this must be a *Finesse*, because Alice is not allowed to perform a *Bluff* with any card that she wants.
   * Donald does not see any other red cards in Bob's hand. So Donald should think that he has the red 4, because that would match the blind-play of a red 1. Subsequently, Donald must have red 2 on his *Finesse Position* and red 3 on his *Second Finesse Position*.
 
 ### Bluffs Through Already-Clued Cards
@@ -1243,7 +1243,7 @@ Note that in this user interface, players are **not** holding their hands like t
   * Alice clues Donald red, which touches one red 4.
   * Bob knows that he must have the red 2. If he plays the red 2, then Cathy will play the red 3, and Donald will play the red 4.
   * Bob plays his *Finesse Position* card and it is instead the blue 2.
-  * From Donald's perspective, since blue does not match red, he knows that this is a *Bluff*. Normally, he would think he has the one-away from playable red card, but that would be red 3, and Cathy already has that clued. If he had red 3, then the clue would be violating *Good Touch Principle*. Thus, he must have the red 4 instead.
+  * From Donald's perspective, since blue does not match red, he knows that this is a *Bluff*. Normally, he would think he has the *one-away-from-playable* red card, but that would be red 3, and Cathy already has that clued. If he had red 3, then the clue would be violating *Good Touch Principle*. Thus, he must have the red 4 instead.
   * From Cathy's perspective, she knows that the red 4 is two-away instead of one-away. *Bluffs* on two-away cards are normally illegal, so her mystery 3 must be exactly red 3, making the red 4 one-away after all.
 * Sometimes, the player who has the in-between card might have more than one "matching" clued card. In this situation, the player is promised that they have the in-between card, but they are not promised the position - it can be any of the matching clued cards.
 
@@ -2062,14 +2062,14 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Cathy has a 3 clued in her hand (with no color information on it).
   * Alice clues Cathy about a brand new 4.
   * Bob blind-plays red 2.
-  * In a normal *Bluff*, a one-away from playable card is clued. However, Cathy sees that the highest stack is the red stack, so the 4 in her hand must be two-away.
+  * In a normal *Bluff*, a *one-away-from-playable* card is clued. However, Cathy sees that the highest stack is the red stack, so the 4 in her hand must be two-away.
   * Thus, Cathy does **not** read it as a *Bluff*; she is promised red 3 and red 4, so she plays the unknown 3 as a *Self-Prompt* for the red 3.
 * For example, this **is** a *Hard Bluff*:
   * Red 1 and blue 2 are played on the stacks.
   * Cathy has a 3 clued in her hand (with no color information on it).
   * Alice clues Cathy about a brand new 4.
   * Bob blind-plays red 2.
-  * This could be a *Bluff* if the 4 in her hand is blue 4, since blue 4 is currently one-away from playable. Thus, Cathy **does not** assume that her 4 is red 4, and subsequently, does **does not** assume that her unknown 3 is a red 3. However, it could **also** be the case that the 4 is a red 4 (if the 3 in her hand happens to be red 3).
+  * This could be a *Bluff* if the 4 in her hand is blue 4, since blue 4 is currently *one-away-from-playable*. Thus, Cathy **does not** assume that her 4 is red 4, and subsequently, does **does not** assume that her unknown 3 is a red 3. However, it could **also** be the case that the 4 is a red 4 (if the 3 in her hand happens to be red 3).
   * Thus, Cathy marks down both possibilities for later and does not play anything right now.
 
 ### The Hard 3 Bluff
@@ -2148,7 +2148,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Red 1 is currently played on the stacks.
   * Alice clues Donald red, which touches a red 4 as a *Play Clue*.
   * Since red 4 must be playable right now, Bob thinks he has the red 2 and the red 3. Bob blind-plays his *Finesse Position* card, but it is actually a blue 1.
-  * Cathy sees that Bob blind-played because of the red clue. However, since the red 4 is a two-away from playable card instead of a one-away from playable card, it must mean that it is a *Double Bluff* instead of a single *Bluff*. Cathy blind-plays her *Finesse Position* card and it is yellow 1.
+  * Cathy sees that Bob blind-played because of the red clue. However, since the red 4 is a two-away from playable card instead of a *one-away-from-playable* card, it must mean that it is a *Double Bluff* instead of a single *Bluff*. Cathy blind-plays her *Finesse Position* card and it is yellow 1.
   * At first, Donald thought that the red card in his hand was red 2 (as a *Play Clue*).
   * After Bob blind-played, Donald thought that the red card in his hand was red 3 (as a *Bluff*).
   * After Cathy blind-played, Donald knows that he must have the red 4 (as a *Double Bluff*).
@@ -2369,7 +2369,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### The Patch Finesse (Hidden Form)
 
-* Sometimes, a player will initiate a *Layered Finesse* on a card that is behind a one-away from playable card. Normally, this would be quite bad, as the player would blind-play the one-away from playable card, and it would misplay.
+* Sometimes, a player will initiate a *Layered Finesse* on a card that is behind a *one-away-from-playable* card. Normally, this would be quite bad, as the player would blind-play the *one-away-from-playable* card, and it would misplay.
 * However, since the *Finesse* target is considered unplayable from the rest of the team, they can be tricked into blind-playing the exact card that makes the one-away card actually playable. This "patches" the *Layered Finesse* problem, and now the layer can be fully unwrapped without issues.
 * The hidden form of the *Patch Finesse* is when the person patching has no idea that a *Patch Finesse* is occurring.
 * For example, in a 5-player game:
@@ -2390,14 +2390,14 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 * The "problem" in The *Hidden Patch Finesse* is not known to person who is patching - they just blind-play and everything works out.
 * But what if a *Layered Finesse* occurs that targets a card in someone's hand that is behind an unplayable card, and the other copy of the *Finesse* target is in the trash? In this example, everyone knows exactly who the *Layered Finesse* is on, and everyone knows that a misplay will certainly occur.
-* In this situation, if the "problem" card is exactly one-away from playable, then it is known to be a *Patch Finesse*.
+* In this situation, if the "problem" card is exactly *one-away-from-playable*, then it is known to be a *Patch Finesse*.
 * For example, in a 5-player game:
   * All of the 2's are played on the stacks.
   * Red 3 is in the discard pile.
   * Alice clues red to Emily, which is a *Play Clue* on a red 5.
   * Donald has a blue 4 on his *Finesse Position*, followed by a red 3 and a red 4.
   * Bob knows that it is impossible for him to have the red 3, because he sees both copies. Thus, the *Finesse* must be on Donald. Bob sees that a *Patch Finesse* will occur. Bob discards.
-  * Cathy knows that it is impossible for her to have the red 3, because she sees both copies. Thus, the *Finesse* must be on Donald. Cathy knows that since the "problem" card of blue 4 is one-away from playable, this must be a *Patch Finesse* that is calling for a blue 3 patch. Cathy blind-plays her *Finesse Position* card as a known blue 3 patch.
+  * Cathy knows that it is impossible for her to have the red 3, because she sees both copies. Thus, the *Finesse* must be on Donald. Cathy knows that since the "problem" card of blue 4 is *one-away-from-playable*, this must be a *Patch Finesse* that is calling for a blue 3 patch. Cathy blind-plays her *Finesse Position* card as a known blue 3 patch.
   * Donald is very surprised that Cathy blind-played a card, but he trusts both Alice and Cathy, so he still assumes he has the red 3. Donald tries to blind-play the red 3 and it is instead the blue 4. Donald now knows that this was a *Patch Finesse*.
   * Emily sees the playable red 3 and red 4 in Donald's hand, so she also knows that this was a *Patch Finesse*. The red card in her hand is either red 4 or red 5.
 * See the section below for important *Patch Finesse* stipulations.
@@ -2413,7 +2413,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 * Keeping the section on *Patch Finesse* stipulations in mind, we can also describe a third type of *Patch Finesse*.
 * It is possible to perform a *Patch Finesse* in the same way as a *Strong Patch Finesse*, but without having the other copy of the card in the trash. In this situation, it is harder to see that a *Patch Finesse* is occurring, as it is much more likely to be a more-ordinary *Finesse with a Lie Component*.
-* However, if the problem card is exactly one-away from playable, and the original *Finesse with a Lie Component* was just a **bad** move, or if it could have been done in a simpler way without a big lie, then players should interpret the move as a *Patch Finesse*.
+* However, if the problem card is exactly *one-away-from-playable*, and the original *Finesse with a Lie Component* was just a **bad** move, or if it could have been done in a simpler way without a big lie, then players should interpret the move as a *Patch Finesse*.
 
 ### The Patch Gentleman's Discard
 
@@ -2480,7 +2480,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Alice clues Cathy number 4, which touches a red 4.
   * Bob blind-plays a blue 3 from his *Finesse Position*.
   * Cathy's first thought is that since 3 matches 4, she must have the blue 4. However, Cathy sees that Donald already has a clued blue 4 it in his hand. (The blue 4 just has a blue clue on it and the true identity of the card is not yet known to Donald.)
-  * Cathy knows that she must **not** have the blue 4, because then Alice's clue would have violated *Good Touch Principle*. Cathy can reason that her 4 is instead some **other** one-away from playable 4. The only other valid *Bluff* target is the red 4 (because the only one-away from playable 4 is red 4). So, Cathy marks her card as red 4 as discards.
+  * Cathy knows that she must **not** have the blue 4, because then Alice's clue would have violated *Good Touch Principle*. Cathy can reason that her 4 is instead some **other** *one-away-from-playable* 4. The only other valid *Bluff* target is the red 4 (because the only *one-away-from-playable* 4 is red 4). So, Cathy marks her card as red 4 as discards.
   * Donald is surprised by Alice's clue. From Donald's perspective, Cathy should have misplayed the red 4 as the blue 4, since 3 matches 4.
   * Since Cathy did not misplay, Donald can reason that **he** must have the blue 4. Donald marks the previously unknown blue card in his hand as blue 4.
 
@@ -2638,7 +2638,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### The Trash Push Prompt & The Trash Push Finesse
 
-* If you see that a player *Trash Pushes* an unplayable one-away from playable card, it is a signal to you that you have the connecting card.
+* If a player performs a *Trash Push* on a *one-away-from-playable* card, it is a signal that someone else has the connecting card as a *Prompt* or a *Finesse*.
 
 ### The Unnecessary Trash Push
 
