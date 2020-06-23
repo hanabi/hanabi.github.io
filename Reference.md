@@ -160,9 +160,9 @@ Note that in this user interface, players are **not** holding their hands like t
 * For example, in a 4-player game:
   * It is the first turn of the game and nothing is played on the stacks.
   * Alice clues red to Donald, touching a red 1 as a *Play Clue*. This is a direct *Play Clue* - the red 1 can be played on the stacks as soon as it gets to Donald's turn.
-  * Bob clues red to Cathy, touching a red 2 as a *Delayed Play Clue* - the red 2 cannot be played on the stacks as soon as it gets to Cathy's turn. Rather, Cathy must wait paitently for Donald to play the red 1 first, and then play the red 2 on her next turn.
+  * Bob clues red to Cathy, touching a red 2 as a *Delayed Play Clue* - the red 2 cannot be played on the stacks as soon as it gets to Cathy's turn. Rather, Cathy must wait patiently for Donald to play the red 1 first, and then play the red 2 on her next turn.
 * Since we treat all *Play Clues* as *Delayed Play Clues*, the distinction between them is pretty much irrelevant. In this document, we use the phrase *Play Clue* to mean **either** a *Play Clue* or a *Delayed Play Clue*.
-* Additionally, when we say that an unclued card is currently *playable*, we do **not** mean that the card would be able to play on the stacks right this instant. If an unlued card is *playable*, what we really mean is that it would be legal for someone to give either a *Play Clue* **or** a *Delayed Play Clue* to the card.
+* Additionally, when we say that an unclued card is currently *playable*, we do **not** mean that the card would be able to play on the stacks right this instant. If an unclued card is *playable*, what we really mean is that it would be legal for someone to give either a *Play Clue* **or** a *Delayed Play Clue* to the card.
   * In other words, if an unclued *playable* card was given a *Delayed Play Clue*, that card would eventually play on the stack without any additional clues needing to be given by anyone else: all the in-between cards, if any, are present and accounted for.
 
 #### One-Away-From-Playable Cards
