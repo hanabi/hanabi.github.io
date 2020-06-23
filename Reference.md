@@ -157,10 +157,25 @@ Note that in this user interface, players are **not** holding their hands like t
 * As outlined in the [beginner's guide](Beginner.md#delayed-play-clues), we treat all *Play Clues* as potential *Delayed Play Clues*:
   * If the card will successfully play on the stacks **right now**, then it was *Play Clue*.
   * If the card will successfully play on the stacks after other people have played cards of the same suit, then it was a *Delayed Play Clue* that was *through* other cards.
-* But since we treat all *Play Clues* as *Delayed Play Clues*, this distinction is pretty much irrelevant. In this document, we use the phrase *Play Clue* to mean **either** a *Play Clue* or a *Delayed Play Clue*.
-* Additionally, when we say that a card is *playable*, we do **not** mean that the card can play on the stacks right this instant. If a card is *playable*, then we mean that it would be legal to give the card a *Delayed Play Clue*. In other words, a *playable* card will eventually play on the stack because all of the preceding cards, if any, are present and accounted for. (In this case, "present and accounted for" specifically means "cards that have a clue on them or are in *Finesse Position*.)
-* Similarly, when we say that a card is *one-away-from-playable*, we mean that **if** one specific in-between card was hypothetically present and accounted for, **then** it would be legal to give the card a *Delayed Play Clue*.
-  * For example, if no red cards are played yet, and Bob has a red 2 with a number 2 clue on it, and Cathy has a red 3, then Alice knows that the red 3 is one-away-from-playable, even though red 1 is not played yet. (It is one-away-from-playable through the red 2.)
+* For example, in a 4-player game:
+  * It is the first turn of the game and nothing is played on the stacks.
+  * Alice clues red to Donald, touching a red 1 as a *Play Clue*. This is a direct *Play Clue* - the red 1 can be played on the stacks as soon as it gets to Donald's turn.
+  * Bob clues red to Cathy, touching a red 2 as a *Delayed Play Clue* - the red 2 cannot be played on the stacks as soon as it gets to Cathy's turn. Rather, Cathy must wait paitently for Donald to play the red 1 first, and then play her red 2 on her next turn.
+* Since we treat all *Play Clues* as *Delayed Play Clues*, the distinction between them is pretty much irrelevant. In this document, we use the phrase *Play Clue* to mean **either** a *Play Clue* or a *Delayed Play Clue*.
+* Additionally, when we say that an unclued card is currently *playable*, we do **not** mean that the card would be able to play on the stacks right this instant. If an unlued card is *playable*, what we really mean is that it would be legal for someone to give either a *Play Clue* **or** a *Delayed Play Clue* to the card.
+  * In other words, if an unclued *playable* card was given a *Delayed Play Clue*, that card would eventually play on the stack without any additional clues needing to be given by anyone else: all the in-between cards, if any, are present and accounted for.
+
+#### One-Away-From-Playable Cards
+
+* As noted in the previous section, sometimes unclued cards happen to be *playable*.
+* Additionally, sometimes unclued cards happen to be *one-away-from-playable*.
+* A card is *one-away-from-playable* if only one card is "missing" to make the card *playable*.
+* For example, in a 3-player game:
+  * No red cards are played on the stacks.
+  * Bob has a red 2 with a number 2 clue on it. (It was saved with a *2 Save* clue earlier on.)
+  * Cathy has an unclued red 3 in her hand.
+  * Alice knows that the unclued red 3 is currently *one-away-from-playable*, because only one card is needed in order to make it *playable* - the red 1.
+* Players are **not** allowed to give *Play Clues* or *Delayed Play Clues* to *one-away-from-playable* cards - they are not playable yet!
 
 ### Save Clues
 
