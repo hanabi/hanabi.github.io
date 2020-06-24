@@ -2513,7 +2513,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * In this case, Cathy should give a clue to the red 2
 * If Cathy gives a clue to the red 2, then Bob knows that his 2 is not red 2.
 * Since Cathy had to spend a clue to fix the situation, we decide that Alice's clue is not strong enough without any further plays.
-* In this case, Bob interpret's Alice's original clue as a *Clandestine Finesse*, and will continue to play slot 3 as blue 1, and then play blue 2.
+* In this case, Bob interprets Alice's original clue as a *Clandestine Finesse*, and will continue to play slot 3 as blue 1, and then play blue 2.
 
 ### The Surreptitious Finesse
 
