@@ -127,8 +127,8 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 
 * When cluing, you give each other play an instruction. You have to give the instructions with the following priority
 * Instruction type priority:
-  * Give a play instruction, targeting a unclued card or a card that is not an obvious play or called card.
-  * Give a discard or critical instruction, targeting a unclued card or a card that is not an obvious/called discard/critical.
+  * Give a play instruction, targeting an unclued card or a card that is not an obvious play or called card.
+  * Give a discard or critical instruction, targeting an unclued card or a card that is not an obvious/called discard/critical.
   * Give a clue instruction
 * When there are multiple play instructions possible, this is the priority:
   * Unique cards, i.e. 5s, critical cards, and cards of which the player holds all copies.
@@ -210,7 +210,7 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 * Any *Intermediate Responder* is required to follow all play instructions given to them. The *Final Responder* should generally also do this, but has *Final Freedom* (see below).
 * When they receive any other instruction (discard, critical, clue), they should mark the card as called trash or called critical.
 * In this case, they can use their judgment to decide what to do.
-  * They can discard a card (either from this instruction, or a previous instruction, or a obvious trash card).
+  * They can discard a card (either from this instruction, or a previous instruction, or an obvious trash card).
   * They can give a clue (if they think that is useful enough).
   * In rare cases they can play a card.
     * This is uncommon, since usually they would have received a play instruction on that card if they want to play it now.
