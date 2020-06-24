@@ -131,7 +131,7 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
   * Give a discard or critical instruction, targeting a unclued card or a card that is not an obvious/called discard/critical.
   * Give a clue instruction
 * When there are multiple play instructions possible, this is the priority:
-  * Unique cards, i.e. 5s, criticals, and cards of which the player holds all copies.
+  * Unique cards, i.e. 5s, critical cards, and cards of which the player holds all copies.
   * Leftmost 1 where the player holds two copies.
   * Lowest rank.
   * Left-most.
@@ -226,10 +226,10 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
     * This is the player with the shortest *Play Queue*. On a tie it is the player first in turn order.
     * This can cause the card in the other player's hand to not be added, if the cards could be identical.
 * If you discard a useful card, this sometimes triggers global elimination notes.
-  * If you are the *First Reponder*, this doesn't happen when you discard a 3 or 4.
+  * If you are the *First Responder*, this doesn't happen when you discard a 3 or 4.
     * Sometimes it is necessary to let a useful card die in order to draw playable cards
     * If you discard a 2, the player that doesn't see the other copy of that 2 does make global elimination notes.
-  * If you are not the *First Reponder*, you make elimination notes when you discard any useful card
+  * If you are not the *First Responder*, you make elimination notes when you discard any useful card
   * Sometimes you discard a playable card. This can only happen if another copy of that card is already in someone's play queue.
 * If a player is required to make *Global Elimination Notes* everyone should do make these notes on that player.
   * If at some point in the future there is only 1 position for that card, this card will become an obvious critical (or playable) card.
@@ -242,14 +242,14 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 * In rare cases, *Final Responder* to a clue can ignore a play clue given to them.
 * They are not allowed to do this if they might have received a play clue after this one.
 * They generally should only do this if from context they know the exact identity of their playable card, and if they can give a very useful clue.
-* When giving a clue in *Final Freedom* or intepreting such clue, players should still assign *Play Instructions* on other copies of the player in *Final Freedom*.  <!-- or not? -->
+* When giving a clue in *Final Freedom* or interpreting such clue, players should still assign *Play Instructions* on other copies of the player in *Final Freedom*.  <!-- or not? -->
 * If the player in *Final Freedom* knows that they have called the other copy of their card, they can continue to discard their copy.
 
 ### Misplays
 
 * If a misplay occurs as the result of a clue, all further instructions from that clue are cancelled, without exception.
 * If that leaves a player with no instructions to process, that player will give a clue, and they have to assign play instructions to cards that might have been called already before.
-* A player without a new instruction is still allowed to play the card that they thought was targeted (at their disgression). This convention only means that when giving new clues, instructions have to be repeated.
+* A player without a new instruction is still allowed to play the card that they thought was targeted (at their digression). This convention only means that when giving new clues, instructions have to be repeated.
 
 ### End-game
 
