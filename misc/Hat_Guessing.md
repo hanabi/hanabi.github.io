@@ -62,20 +62,20 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 
 ### 4-Player
 
-| # mod 12 | action                    | person clued   | type of clue
-| -------- | ------------------------- | -------------- | -------------
-| 0  (12)  | give clue                 | 1 player away  | number on newest card
-| 1  (13)  | play 1                    | 1 player away  | color on newest card
-| 2  (14)  | play 2                    | 1 player away  | number not on newest card
-| 3  (15)  | play 3                    | 1 player away  | color not on newest card
-| 4  (16)  | play 4                    | 2 players away | number on newest card
-| 5  (17)  | discard 1                 | 2 players away | color on newest card
-| 6  (18)  | discard 2                 | 2 players away | number not on newest card
-| 7  (19)  | discard 3                 | 2 players away | color not on newest card
-| 8  (20)  | discard 4                 | 3 players away | number on newest card
-| 9  (21)  | 3rd rightmost is critical | 3 players away | color on newest card
-| 10 (22)  | 2nd rightmost is critical | 3 players away | number not on newest card
-| 11 (23)  | rightmost is critical     | 3 players away | color not on newest card
+| # mod 12 | action                     | person clued   | type of clue
+| -------- | -------------------------- | -------------- | -------------
+| 0  (12)  | give clue                  | 1 player away  | number on newest card
+| 1  (13)  | play 1                     | 1 player away  | color on newest card
+| 2  (14)  | play 2                     | 1 player away  | number not on newest card
+| 3  (15)  | play 3                     | 1 player away  | color not on newest card
+| 4  (16)  | play 4                     | 2 players away | number on newest card
+| 5  (17)  | discard 1                  | 2 players away | color on newest card
+| 6  (18)  | discard 2                  | 2 players away | number not on newest card
+| 7  (19)  | discard 3                  | 2 players away | color not on newest card
+| 8  (20)  | discard 4                  | 3 players away | number on newest card
+| 9  (21)  | 3rd right-most is critical | 3 players away | color on newest card
+| 10 (22)  | 2nd right-most is critical | 3 players away | number not on newest card
+| 11 (23)  | right-most is critical      | 3 players away | color not on newest card
 
 <br />
 
@@ -101,6 +101,10 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 
 ## Terminology
 
+First, let's go over some *Hat-Guessing* terminology before getting into the actual mechanics.
+
+<br />
+
 ### Obvious Plays
 
 * A **positively identified** (i.e. touched by a clue) card is defined as an *Obvious* play if it can be deduced as such **purely through**
@@ -117,78 +121,153 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
   * check all resultant possible identities against the play stacks
 * This concept is used as an error mitigation tradeoff. For example, it is easy for a player to miss a negative 5 on an unclued chop card, and the benefit of being able to skip cluing non-obviously known cards is quite small.
 
-### Called Card
+### Called Cards
 
-* Any card that has been targeted by an instruction.
+* A *called card* is any card that has been targeted by an instruction.
 
 ### Global Elimination Notes
 
-* Since we have rigid rules around discard target priority, an apparent contravention of these rules globally indicates the presence of the other copy of the target, triggering all players to make identical elimination notes; if the other copy is in the same hand as the target, it is to the right of the target.
+* In *Hat Guessing*, trash cards are called to be discarded.
+* If a non-trash card is called to be discarded, this indicates the presence of the other copy in someone else's hand.
+* When this happens, all players should make *Elimination Notes* on the relevant cards. (*Elimination Notes* are a concept borrowed from the *Hyphen-ated Convention Framework*.)
+* If the other copy is in the same hand as the one that triggered the *Elimination Notes*, then the *Elimination Notes* should be written to the right of the card. For example, in a 3-player game:
+  * It is the first turn of the game and nothing is played on the stacks.
+  * Alice gives a *Hat-Guessing* clue.
+  * Bob calculates that Alice told him to discard slot 3, so he discards slot 3, and it is a blue 3.
+  * Bob knows that the blue 3 is not a trash card - the team still needs it. Alice was not allowed to make him discard that.
+  * Thus, Bob writes *Elimination Notes* for blue 3 on slot 4 and slot 5 (the two slots to the right of where he originally discarded the blue 3).
 
 ### Trash
-* Duplicate (dupe) copies of called cards (in a previous clue) are considered to be trash.
+
+* Duplicate copies of currently-called playable cards (from a previous clue) are considered to be trash.
+
+<br />
 
 ## Instruction Priority
 
-* When cluing, you give each other play an instruction. You have to give the instructions with the following priority
-* Instruction type priority:
-  * Give a play instruction, targeting an unclued card or a card that is not an obvious play or called card.
-  * Give a discard or critical instruction, targeting an unclued card or a card that is not an obvious/called discard/critical.
-  * Give a clue instruction
-* When there are multiple play instructions possible, this is the priority:
-  * Unique cards, i.e. 5s, critical cards, and cards of which the player holds all copies.
-  * Leftmost 1 where the player holds two copies.
-  * Lowest rank.
-  * Left-most.
-* When there are multiple discard/critical instructions possible, this is the priority:
-  * Rightmost of leftmost copies of important dupes in a hand (not called or obvious). E.g. in a hand of `y2 r2 r2 y2`, tell them to discard slot 2.
-  * Rightmost trash, if the receiving player has no known trash (called trash, called dupe or obvious trash).
-  * Rightmost critical (not called or obvious).
-  * Rightmost trash (not called or obvious).
+* When giving a *Hat-Guessing* clue, you give each other player an instruction.
+* You have to give each player an instruction with the highest possible priority:
+  1) Play instruction (regardless of whether it is "touched" by a clue or not)
+  2) Discard instruction **or** critical save instruction (see below)
+  3) Clue instruction
+* You **cannot** target a card that has already been given an instruction from a previous clue.
+* You **cannot** target a card that is already an *Obvious* trash card, an *Obvious* discard, or an *Obvious* critical card.
 
-## Instruction rules
+### Play Instruction Priority
+
+* Sometimes, a player has more than one uncalled playable card in his hand.
+* In this situation, you must give them a play instruction with the highest possible priority:
+  1) Unique cards (e.g. 5s, critical cards, and cards of which the player holds all copies)
+  2) Left-most 1 where the player holds two copies
+  3) Lowest rank
+  4) Left-most
+
+### Discard/Critical Instruction Priority
+
+* If a player does not have any uncalled playable cards, then you can give them a "discard" instruction or a "save this critical card for later" instruction.
+* In this situation, you must give them an instruction with the highest possible priority:
+  1) Discard of the right-most of the left-most copies of important dupes in a hand
+    * (For example, in a hand of `blue 2, red 2, red 2, blue 2`, tell them to discard slot 2.)
+  2) Discard of the right-most trash, but only if the receiving player has no queued discard instructions or *Obvious* trash
+  3) Critical save the right-most critical
+  4) Discard the right-most trash
+
+<br />
+
+## Instruction Rules
+
+* Now that we know the priority of the various instructions, we need to explain how to give the instructions.
+
+<br />
+
+### Instructions to Every Player
+
+* Whenever someone gives a clue, it always gives an instruction to every other player.
+  * You have to assign the instructions according to the *Instruction Priority* above. (But see the *First Responder Exception* below.)
+
+### Play Queue
+
 * Each player has a *Play Queue*.
   * These are the cards that this player will play, in the given order.
-  * Normally, it is impossible to change the order of this queue, or add a play instruction at the start or in the middle of the queue (play instructions can only be added to the end of the queue)
-* When giving a clue, the clue giver gives an instruction to all players.
   * All play instructions are added at the end of their *Play Queue*.
-  * You have to assign the instructions according to the *Instruction Priority* above (but see *First Responder Exception* below).
-* When giving a clue, you first have to decide in which order the players are able to respond to this clue. This is called the *Respond Order*
-  * The players with the longest play clue respond to this clue last
+  * It is impossible to change the order of the queue, or to get a player to play a card in a non-standard order.
+
+### Respond Order
+
+* When giving a clue, you first have to decide in which order the players are able to respond. This is called the *Respond Order*.
+  * The players with the longest *Play Queue* respond to this clue last.
   * If tied, the player furthest away from you responds last.
 * You have to decide the instructions in **reverse** *Respond Order*.
   * This is relevant when two players have the same playable card in their hand: you should give this instruction to the last player in *Respond Order*, and give a different instruction to the first player in *Respond Order*.
-  * For example, first turn of the game, Alice sees that both Cathy and Donald both have a red 1 as their leftmost 1.
-  * Since Donald is last in Respond Order, Donald will receive the instruction to play red 1
-  * Cathy will not receive the instruction to play red 1, but instead gets an instruction to play the leftmost 1 behind red 1 (if any), or gets another clue.
+* For example, in a 4-player game:
+  * It is the first turn of the game and nothing is played on the stacks.
+  * Alice sees that both Cathy and Donald both have a red 1 on slot 1.
+  * Since Donald is last in *Respond Order*, Donald will receive the instruction to play red 1.
+  * Cathy will not receive the instruction to play red 1. Instead, Cathy will get an instruction to play the left-most 1 behind the red 1 (if any), or some other instruction.
   * When interpreting the clue, Bob has to make sure to also assign the red 1 play instruction to Donald, and not to Cathy.
   * If, instead, Cathy still has green 1 to play from a previous clue, and Donald has an empty *Play Queue*, then Cathy is last in Respond Order, and Cathy will get the instruction to play red 1, and Donald will get a different instruction.
-* The first player in *Respond Order* is called the *First Responder*, the last player in *Respond Order* is called the *Last Responder*. Every other player is called an *Intermediate Responder*
-* No finesses can be given (which should be obvious if you decide instructions in reverse *Respond Order*).
-  * However, you can give play clues that play on top of cards that are already in the *Play Queue* of some player.
-  * This is of course only possible if the intermediate card is played before the turn when the player receiving the instruction will try to play their card.
-  * The clue giver, and all players interpreting the clue, will know the exactly *Play Queues* of all players, and can decide whether this is true.
-* *Critical Instructions* can be given in 4 and 5 player games. They are skipped in 3 player games.
-  * In 4 player games, you count from the right to indicate which card is critical. You skip all called cards, and cards that are known to be not critical.
-  * Example: If Donald has a r5 in slot 4 that was already called as critical, and you now want to tell him that slot 3 is also critical, you assign them 11 (rightmost critical).
-* When giving a *Discard Instruction*, you can and have to clue a card if another copy was already called to be playable in another player's hand.
-  * You are **not** allowed to give a discard instruction on a copy of a card if you give a play instruction to another copy of that card in the *same clue* (except if *First Responder Exception* applies)
-* After assigning an instruction to everyone, add up the instruction numbers, and look in the table what clue you can give with the specified *Clue Value*.
-  * If you have choice, you should give the clue within the specified type that gives the most information on useful cards.
-  * Good touch principle doesn't apply, and you are allowed to touch trash if that gives more information on useful cards.
-* After cluing, it is possible that this gives enough positive or negative information on a card that this now becomes an *Obvious Play*. In this case, this is added as a play instruction at the end of that player's play clue.
-  * If a player received a play instruction, and gets an obvious play in their hand, the play instruction is added to the queue first.
-  * If multiple cards become obvious plays, they are added to the hand from left to right.
+* The first player in *Respond Order* is called the *First Responder*, the last player in *Respond Order* is called the *Last Responder*. Every other player is called an *Intermediate Responder*.
 
-## First Responder Exception
-* A clue giver may give any *Play* or *Discard* instruction to the *First Responder*. This does not need to follow *Instruction Priority*.
-* The first player in *Respond Order* is usually the player to your left. If the player to your left has a non-empty play clue, it might be a different player.
-* If you give them a *Clue* or *Critical* instruction, that **has** to follow *Instruction Priority*.
-* The *First Responder* **has** to follow your instruction. If it is a play or discard instruction, they are not allowed to defer this action, or discard a different card first. If it is a clue or critical instruction, they are required to give a clue.
-* This means that as a clue giver, you might choose to repeat a *Discard Instruction* already given to this player.
-* You can also give a *Play Instruction* to a card without priority, for example if you see that it leads into another player's hand.
+### Critical Instructions
+
+* *Critical Instructions* can be given in 4 and 5 player games. They are skipped in 3 player games.
+* In 4 player games, you count from the right to indicate which card is critical. You skip all called cards, and cards that are known to be not critical.
+  * For example: If Donald has a red 5 in slot 4 that was already called as critical, and you now want to tell him that slot 3 is also critical, you assign them 11 (right-most critical).
+
+### Discard Instructions
+
+* When giving a *Discard Instruction*, if one copy of a card has been given a play instruction from a previous clue, then you must count the other one as trash, even if the first copy is not yet played.
+  * You are **not** allowed to give a discard instruction to the second copy of a card if you gave a play instruction to the first copy in the *same clue* (except if the *First Responder Exception* applies).
+
+### Giving the Hat-Guessing Clue
+
+* After assigning an instruction to everyone, add up the instruction numbers, and look in the table to see what kind of clue that you should give to convey the specified *Clue Value*.
+  * If you could give the same type of clue to two or more different players, then you should give the clue that would touch the most useful cards or give the most new information.
+  * *Good Touch Principle* (from the *Hyphen-ated Convention Framework*) does not apply. You are allowed to touch trash cards if that would give more information to other useful cards.
+
+### Cards That Become Obvious
+
+* After giving a clue, the receiving player will obviously gain positive or negative information on the cards in their hand.
+* This information might be enough to give them a new *Obvious Play*. If this is the case, the *Obvious Play* is added as a play instruction at the end of the *Play Queue*.
+  * If a player received a play instruction as part of the same clue that gave them the *Obvious Play*, then the play instruction is added to the *Play Queue* first.
+  * If multiple cards become *Obvious Plays*, they are added to the *Play Queue* from left to right.
+
+### No Finesses
+
+* No *Finesses* can be performed in the *Hat-Guessing* framework (which should be obvious if instructions are decided in reverse *Respond Order*).
+
+### Stacked Play Instructions
+
+* It is possible to give play instructions to cards that would play on top of cards in the *Play Queue* of some player.
+* This is of course only possible if the intermediate card is played before the turn when the player receiving the instruction will try to play their card.
+* The clue giver, and all players interpreting the clue, will know the exactly *Play Queues* of all players, and can decide whether this is true.
+
+### First Responder Exception
+
+* The *First Responder* is usually the player to your left. (If the player to your left has a non-empty *Play Queue*, then it might be a different player.)
+* As a special exception, a clue giver may give **any** play instruction or discard instruction to the *First Responder*. This does not need to follow *Instruction Priority*. (The reason is because they can immediately demonstrate their action to the rest of the team.)
+  * For example, on the first turn of the game, Alice might want to make Bob play a 1 that does not have priority because she sees that it leads into someone else's hand.
+* However, clue instructions and critical instructions given to the *First Responder* still have to follow *Instruction Priority* as per normal.
+* If given a play instruction or a discard instruction, the *First Responder* **must** respond immediately. They are not allowed to defer this action or discard a different card first.
+* If given a clue instruction or a critical instruction,the *First Responder* **must** give a clue.
+* This means that is some cases, as a clue giver, you might need to repeat a *Discard Instruction* already given to the next player.
+* For example, in a 4-player game:
+  * All the 1's are played on the stacks.
+  * Alice gives a *Hat-Guessing* clue that instructs Bob to play slot 1, Cathy to clue, and Donald to discard slot 4.
+  * Bob blind-plays slot 1. It is a red 2 and successfully plays.
+  * From Cathy's perspective, Donald's hand is as follows, from left to right: red 4, blue 4, green 4, red 1
+  * Cathy does not have anything else useful to tell Donald about his hand. (In other words, there are no more play instructions to give, discard instructions to give, or critical instructions to give.)
+  * Thus, Cathy chooses to re-give a discard instruction to Bob's slot 4.
+  * Cathy gives a *Hat-Guessing* clue that instructs Donald to discard slot 4, Alice to play slot 1, and Bob to play slot 1.
+
+
+
+  * Donald must discard slot 3 first instead of discarding slot 4 like he normally would. This is because Donald knows that as the *First Responder* for Cathy, he must immediately demonstrate his action to the rest of the team.
+
+<br />
 
 ## Interpreting Instructions
+
 * When it is your turn, you should first play any cards still in your play queue from previous clues.
   * You have to do this before interpreting new clues, since later play clues could be calling cards that play on top of your card.
   * This means that a you might not know your exact *Play Queue*, or the length of your *Play Queue*. However, you can always know if your *Play Queue* is non-empty and what the first instruction is in your *Play Queue*.
@@ -208,6 +287,8 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
   * You can deduce what instruction was given to them by applying the *Instruction Priority* on their hand.
   * Make sure to assign their instructions in **reverse** *Respond Order*, just like the clue giver did.
 * The remaining number is your *Instruction Value*
+
+<br />
 
 ## Executing Instructions
 
@@ -256,18 +337,18 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 * If that leaves a player with no instructions to process, that player will give a clue, and they have to assign play instructions to cards that might have been called already before.
 * A player without a new instruction is still allowed to play the card that they thought was targeted (at their digression). This convention only means that when giving new clues, instructions have to be repeated.
 
-### End-game
+### End-Game
 
-* Sometimes it is valuable to revert to ordinary conventions
+* Sometimes it is valuable to revert to ordinary conventions.
 * When there are only 5s left to play, a 5 clue not on the newest card is a non-hat clue, and from then on since an alternative hat clue exists.
 
 ### Positional Discards
 
-* In the endgame you can use *Positional Discards* as per usual.
+* In the *End-Game*, you can use *Positional Discards* in the same way that the *Hyphen-ated Convention Framework* does.
 
 ### Variant Specific Tables
 
-* In many variants it's hard to guarantee a clue that touches slot 1 with number/color or that avoids slot 1 with number/color.
+* In many custom variants, it is hard to guarantee that a clue will not be "blocked".
 * In these cases you will need to remove some rows from the tables.
 
 <br />
