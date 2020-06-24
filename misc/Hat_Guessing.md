@@ -112,7 +112,7 @@ First, let's go over some *Hat-Guessing* terminology before getting into the act
   * the state of the play stacks
   * the state of the discard stacks
   * totally identified cards in hands
-  * global elimination notes
+  * *Global Elimination Notes* (see the subsequent section)
 * In a similar fashion, critical cards can be *Obviously* critical, and known trash cards can be *Obvious* discards.
 * A card is never *Obvious* if a player needs to use contextual knowledge to determine the identity.
 * The fastest way to check if a card is an *Obvious* play, an *Obvious* critical, or an *Obvious* discard is to:
@@ -246,96 +246,100 @@ First, let's go over some *Hat-Guessing* terminology before getting into the act
 
 * The *First Responder* is usually the player to your left. (If the player to your left has a non-empty *Play Queue*, then it might be a different player.)
 * As a special exception, a clue giver may give **any** play instruction or discard instruction to the *First Responder*. This does not need to follow *Instruction Priority*. (The reason is because they can immediately demonstrate their action to the rest of the team.)
-  * For example, on the first turn of the game, Alice might want to make Bob play a 1 that does not have priority because she sees that it leads into someone else's hand.
-* However, clue instructions and critical instructions given to the *First Responder* still have to follow *Instruction Priority* as per normal.
+* For example, in a 3-player No Variant game:
+  * It is the first turn of the game and nothing is played on the stacks.
+  * Bob's hand is as follows: `red 1, yellow 1, green 1, red 3, red 3`
+  * Alice knows that normally, the red 1 has play priority, since it is the left-most 1.
+  * However, Alice also sees that Bob has the yellow 2 in his hand. It would be useful to get the yellow 1 to play before the red 1, so that the team can get the yellow 2 played sooner than later.
+  * Alice also knows that since Bob is her *First Responder*, she can break the play priority and just get Bob to play any card she wants. Alice will give a play instruction for Bob to play the yellow 1.
+* Unlike play instructions and discard instructions, clue instructions and critical instructions given to the *First Responder* still have to follow *Instruction Priority* as per normal.
+* If given a clue instruction or a critical action, the *First Responder* **must** give a clue.
 * If given a play instruction or a discard instruction, the *First Responder* **must** respond immediately. They are not allowed to defer this action or discard a different card first.
-* If given a clue instruction or a critical instruction,the *First Responder* **must** give a clue.
-* This means that is some cases, as a clue giver, you might need to repeat a *Discard Instruction* already given to the next player.
+* In some cases, this means that the *First Responder* might need to "jump" ahead of his previous instruction.
 * For example, in a 4-player game:
   * All the 1's are played on the stacks.
   * Alice gives a *Hat-Guessing* clue that instructs Bob to play slot 1, Cathy to clue, and Donald to discard slot 4.
   * Bob blind-plays slot 1. It is a red 2 and successfully plays.
-  * From Cathy's perspective, Donald's hand is as follows, from left to right: red 4, blue 4, green 4, red 1
-  * Cathy does not have anything else useful to tell Donald about his hand. (In other words, there are no more play instructions to give, discard instructions to give, or critical instructions to give.)
-  * Thus, Cathy chooses to re-give a discard instruction to Bob's slot 4.
-  * Cathy gives a *Hat-Guessing* clue that instructs Donald to discard slot 4, Alice to play slot 1, and Bob to play slot 1.
-
-
-
-  * Donald must discard slot 3 first instead of discarding slot 4 like he normally would. This is because Donald knows that as the *First Responder* for Cathy, he must immediately demonstrate his action to the rest of the team.
+  * From Cathy's perspective, Donald's hand is as follows, from left to right: `red 4, blue 4, red 1, red 1`
+  * Donald already knows that his slot 4 card is trash, and Cathy is not allowed to repeat this instruction, so Cathy needs to tell Donald that his slot 3 card is trash.
+  * Cathy gives a *Hat-Guessing* clue that instructs Donald to discard slot 3, Alice to play slot 1, and Bob to play slot 1.
+  * Donald knows that the first clue told him to discard slot 4 and the second clue told him to discard slot 3. Normally, he would follow the instructions in order. But in this case, since he is Cathy's *First Responder*, it is his responsibility to immediately demonstrate Cathy's instruction for him to the entire team. Thus, Donald discards slot 3 (instead of slot 4).
+* For example, in a 4-player game:
+  * The setup is the exact same as the previous example, except that Donald's hand is: `red 4, blue 4, yellow 4, red 1`
+  * In this hand, Cathy has no additional information to convey to Donald. He already knows about his one trash card, and the rest of the cards are not-yet-playable, but still useful to the team.
+  * Thus, Cathy needs to give a clue instruction to Donald.
+  * On Donald's turn, he knows that Cathy instructed him to give a clue. And since Donald is Cathy's *First Responder*, he must immediately react to whatever Cathy told him.
+  * However, this situation is the exception. Donald does not have to give a clue and can discard instead. This is because that everyone else on the team can see that Cathy must have assigned a clue instruction to Donald, because the rest of his hand is useless. Thus, Donald does not have to demonstrate anything in particular.
 
 <br />
 
 ## Interpreting Instructions
 
-* When it is your turn, you should first play any cards still in your play queue from previous clues.
-  * You have to do this before interpreting new clues, since later play clues could be calling cards that play on top of your card.
-  * This means that a you might not know your exact *Play Queue*, or the length of your *Play Queue*. However, you can always know if your *Play Queue* is non-empty and what the first instruction is in your *Play Queue*.
-  * Every player with an empty *Play Queue* also knows the full play clue of every player.
+* When it is your turn, you should first play any cards still in your *Play Queue* from previous clues.
+  * You must do this **before** interpreting new clues, since later play instructions could be calling cards that play on top of existing cards in your hand.
+  * This means that a player may not know exactly how big their *Play Queue* is. However, they will always know if their *Play Queue* is empty or not (and what the first instruction is).
+  * Every player with an empty *Play Queue* also knows the full *Play Queue* of every player.
 * If your *Play Queue* is empty, you can interpret the next clue (the first clue that you have not interpreted before).
-  * This only be accurately be done if every player before you in *Respond Order* has already performed their action (which usually you must wait till your turn to interpret the clue).
-  * Often times you can make a good guess of every instruction to the players before you, but make sure to pay attention if they deviate from the expected instructions.
+  * This will only be accurate if every player before you in *Respond Order* has already performed their action. (In other words, you must wait until it is your turn in order to interpret a *Hat-Guessing* clue.)
+  * Often times you can make a good guess of every instruction to the players before you. But make sure to pay attention if they deviate from the expected instructions!
   * When interpreting a clue, make sure to go back to the turn when the clue was given, to correctly interpret the positions of all cards.
-* Look at the given clue, and read the *Clue Value* from the table.
+* To find out what instructions are contained within a *Hat-Guessing* clue, read the *Clue Value* from the table.
 * Subtract the *Instruction Value* from all players that were before you in the *Respond Order*.
   * You can determine these *Instruction Values* from the actions of the other players.
   * If a player played a card from this clue, you know they received a *Play Instruction* on that card.
-    * Exception: if this card could not have been gotten with the clue (for example if a Finesse was required), then they must have received a different instruction, and they deduced that their card was playable through public or private information.
+    * Exception: if this card could not have been gotten with the clue (for example, if a *Finesse* was required), then they must have received a different instruction, and they deduced that their card was playable through public or private information.
   * If the first responder discarded a card, they received a *Discard Instruction* on that card.
   * In any other case (if any player gave a clue, or if an *Intermediate Responder* discards), you can deduce what instruction was given to them by applying the *Instruction Priority* on their hand (using the exact state of the board when the clue was given, before using the positive or negative information by that clue).
 * Subtract the *Instruction Value* from all players that are after you in the *Respond Order*.
   * You can deduce what instruction was given to them by applying the *Instruction Priority* on their hand.
   * Make sure to assign their instructions in **reverse** *Respond Order*, just like the clue giver did.
-* The remaining number is your *Instruction Value*
+* The remaining number is your *Instruction Value*.
 
 <br />
 
 ## Executing Instructions
 
-* As mentioned before, when the *First Responder* is required to follow any play or discard instruction. Moreover, if the *First Responder* receives a clue or critical instruction, they are required to give a clue.
+* As mentioned previously, the *First Responder* is required to follow any play or discard instruction. Moreover, if the *First Responder* receives a clue or critical instruction, they are required to give a clue.
 * Any *Intermediate Responder* is required to follow all play instructions given to them. The *Final Responder* should generally also do this, but has *Final Freedom* (see below).
 * When they receive any other instruction (discard, critical, clue), they should mark the card as called trash or called critical.
 * In this case, they can use their judgment to decide what to do.
-  * They can discard a card (either from this instruction, or a previous instruction, or an obvious trash card).
+  * They can discard a card (either from this instruction, or a previous instruction, or an *Obvious* trash card).
   * They can give a clue (if they think that is useful enough).
-  * In rare cases they can play a card.
+  * In rare cases, they can play a card.
     * This is uncommon, since usually they would have received a play instruction on that card if they want to play it now.
-    * It is possible that this play instruction was illegal (for example if it was a finesse).
+    * It is possible that this play instruction was illegal (for example, if it was a *Finesse*).
     * In this case, they can play this card, and every player can reason that this player did not receive this play instruction.
 
 ### After Executing an Action
 
 * If you play a card, this might make some cards in any player's hand *Obviously Playable*. These cards are added to their respective *Play Queues*.
-  * If multiple cards are about to be added to a players *Play Queue*, this is done from left to right
-    * Usually this will not allow the other card to be added to the *Play Queue*, since the cards could be the same
-  * If multiple players are about to add a card to their *Play Queue* the player that is first in *Respond Order* does it first.
+  * If multiple cards are about to be added to a players *Play Queue*, this is done from left to right.
+    * Usually this will not allow the other card to be added to the *Play Queue*, since the cards could be the same.
+  * If multiple players are about to add a card to their *Play Queue*, the player that is first in *Respond Order* does it first.
     * This is the player with the shortest *Play Queue*. On a tie it is the player first in turn order.
     * This can cause the card in the other player's hand to not be added, if the cards could be identical.
-* If you discard a useful card, this sometimes triggers global elimination notes.
-  * If you are the *First Responder*, this doesn't happen when you discard a 3 or 4.
+* If you discard a useful card, this sometimes triggers *Global Elimination Notes*.
+  * If you are the *First Responder*, this does not happen when you discard a 3 or 4.
     * Sometimes it is necessary to let a useful card die in order to draw playable cards
-    * If you discard a 2, the player that doesn't see the other copy of that 2 does make global elimination notes.
-  * If you are not the *First Responder*, you make elimination notes when you discard any useful card
-  * Sometimes you discard a playable card. This can only happen if another copy of that card is already in someone's play queue.
-* If a player is required to make *Global Elimination Notes* everyone should do make these notes on that player.
-  * If at some point in the future there is only 1 position for that card, this card will become an obvious critical (or playable) card.
-  * If you discarded a useful card and make elimination notes for the other copy that card, these elimination notes are only made to the *right* of the discarded card.
-  * If the position of a with elimination notes is not known, you still have to clue it as a critical card with a clue.
-* If you clue, every other player should interpret this clue as soon as they have all the required information for it (and have interpreted all clues before this one).
+  * If you discard a 2, the player that doesn't see the other copy of that 2 does make *Global Elimination Notes*.
+  * If you are not the *First Responder*, you make elimination notes when you discard any useful card.
+  * Sometimes you can discard a playable card. This will only happen if another copy of that card is already in someone's *Play Queue*.
+* If a player is required to make *Global Elimination Notes*, everyone should also make these notes on that player's hand.
+  * If at some point in the future there is only 1 position for that card, this card will become *Obviously Critical* (or *Obviously Playable*).
+  * If the position of a critical card with *Global Elimination Notes* is not yet known, players still have to "get" it with a critical instruction.
 
 ### Final Freedom
 
-* In rare cases, *Final Responder* to a clue can ignore a play clue given to them.
-* They are not allowed to do this if they might have received a play clue after this one.
-* They generally should only do this if from context they know the exact identity of their playable card, and if they can give a very useful clue.
-* When giving a clue in *Final Freedom* or interpreting such clue, players should still assign *Play Instructions* on other copies of the player in *Final Freedom*.  <!-- or not? -->
-* If the player in *Final Freedom* knows that they have called the other copy of their card, they can continue to discard their copy.
+* In rare cases, the *Final Responder* to a *Hat-Guessing Clue* can ignore a play instruction given to them. This is called having *Final Freedom*.
+* They are not allowed to do this if they might have a *Play Queue* longer than 1.
+* They should only do this if they know the exact identity of their playable card (from the context of the game), and if they can give a very useful clue.
+* If the player in *Final Freedom* knows that they have called the other copy of their card, they can discard their copy to make it clear to the team what has happened.
 
 ### Misplays
 
 * If a misplay occurs as the result of a clue, all further instructions from that clue are cancelled, without exception.
 * If that leaves a player with no instructions to process, that player will give a clue, and they have to assign play instructions to cards that might have been called already before.
-* A player without a new instruction is still allowed to play the card that they thought was targeted (at their digression). This convention only means that when giving new clues, instructions have to be repeated.
+* A player without a new instruction is still allowed to play the card that they thought was targeted (at their discretion). This convention only means that when giving new clues, instructions have to be repeated.
 
 ### End-Game
 
