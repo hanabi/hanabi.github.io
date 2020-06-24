@@ -959,8 +959,9 @@ Note that in this user interface, players are **not** holding their hands like t
 ### Clues Given While at 8 Clues & The 8 Clue Save (Severity 4 Stalling)
 
 * At the beginning of the game, you start with 8 clues. This section only applies to situations where you climb to 8 clues in the middle of the game.
-* A player who has a turn with 8 clues in the bank may give a low-value clue because they are not sure that they can play anything (and they can't discard because the game does not allow you to discard while at 8 clues). Similar to a *Double Discard* or a *Locked Hand* situation, players should not read too closely into any clues given during this state.
+* A player who has a turn with 8 clue tokens available may give a low-value clue because they cannot play anything (and they cannot discard because the game does not allow you to discard while at 8 clues). Similar to a *Double Discard* or a *Locked Hand* situation, players should not read too closely into any clues given during this state.
 * Players at 8 clues gain the special ability to save any card that they want, on **or** off chop, as long as the card is not on slot 1. This is called an *8 Clue Save*. However, similar to a *Locked Hand Save*, they can only do this if there are no higher precedence clues available. See the "Allowable Stall Clues" section above.
+  * Subsequently, clues that are focused on slot 1 cards are treated as normal *Play Clues* or normal *Save Clues*.
 
 ### The Distribution Clue
 
