@@ -265,16 +265,14 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 * In many variants it's hard to guarantee a clue that touches slot 1 with number/color or that avoids slot 1 with number/color.
 * In these cases you will need to remove some rows from the tables.
 
-
-
 <br />
 
-## Hat Guessing with Finesses
+## Hat Guessing Tables with Finesses
 
 See [Jeff's document](https://github.com/iamwhoiamhahaha/hanabi/blob/master/hat-guessing/Advanced_Hat_Guessing.md) for tables that allow *Finesses*.
 
 <br />
 
-## Variant-Specific Hat Guessing with Finesses
+## Variant-Specific Hat Guessing Tables
 
 See [Jeff's document](https://github.com/iamwhoiamhahaha/hanabi/blob/master/hat-guessing/Variant-Specific_Hat_Guessing_Tables.md).
