@@ -929,7 +929,7 @@ Note that in this user interface, players are **not** holding their hands like t
 | 2          | *5 Stall* (cluing off-chop 5's)                                                       | ✔ | ✔ | ✔ | ✔
 | 3          | *Tempo Clue* (re-cluing a card to make it play)                                       | ❌ | ✔ | ✔ | ✔
 | 4 (tied)   | *Locked Hand Save* (saving any card on chop)                                          | ❌ | ❌ | ✔ | ✔
-| 4 (tied)   | *8 Clue Save* (saving any non-fresh card)                                             | ❌ | ❌ | ❌ | ✔
+| 4 (tied)   | *8 Clue Save* (saving any non-slot-1 card)                                            | ❌ | ❌ | ❌ | ✔
 | 4 (tied)   | Filling in extra info on clued cards or *Chop Moved* cards                            | ❌ | ✔ | ✔ | ✔
 | 5          | *Hard Burn* (re-cluing an unplayable card that gives no new information, usually a 5) | ❌ | ✔ | ✔ | ✔
 
@@ -960,7 +960,7 @@ Note that in this user interface, players are **not** holding their hands like t
 
 * At the beginning of the game, you start with 8 clues. This section only applies to situations where you climb to 8 clues in the middle of the game.
 * A player who has a turn with 8 clues in the bank may give a low-value clue because they are not sure that they can play anything (and they can't discard because the game does not allow you to discard while at 8 clues). Similar to a *Double Discard* or a *Locked Hand* situation, players should not read too closely into any clues given during this state.
-* Players at 8 clues gain the special ability to save any card that they want, on **or** off chop, as long as the card is not freshly drawn. This is called an *8 Clue Save*. However, similar to a *Locked Hand Save*, they can only do this if there are no higher precedence clues available. See the "Allowable Stall Clues" section above.
+* Players at 8 clues gain the special ability to save any card that they want, on **or** off chop, as long as the card is not on slot 1. This is called an *8 Clue Save*. However, similar to a *Locked Hand Save*, they can only do this if there are no higher precedence clues available. See the "Allowable Stall Clues" section above.
 
 ### The Distribution Clue
 
