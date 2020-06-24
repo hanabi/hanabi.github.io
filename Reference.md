@@ -98,7 +98,7 @@ In general, we want all of our strategies to flow from some basic principles. Th
 ### 5. Play Order Principle
 
 * When a *Play Clue* touches multiple cards, if it includes the chop, it's focused on the chop. (This is referred to as the *Chop-Focus* convention.)
-* Otherwise, the clue is focused on the newest (e.g. left-most) of the freshly-introduced cards.
+* Otherwise, the clue is focused on the newest (e.g. left-most) of cards that did not have a clue "on" them already.
 * The non-focused cards may or may not be playable.
 
 ### 6. Left-Most Playable Principle
