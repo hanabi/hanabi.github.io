@@ -118,7 +118,7 @@ Artistic impression is determined by the Artisan League Of Fireworks Technicians
 A player who is given information can rearrange their hand in order to put the tiles concerned in an order which is easier for him to remember (on the left, on the right, standing horizontally or vertically).
 
 The players can look at the tiles in the discarded pile at any time. If a player discards a tile that they have no information about, they run the risk of getting rid of a tile which could be useful in completing a firework. Sometimes a player will have no choice and will have to discard a tile that they knows nothing about. However, there are multiple copies of the tiles (except for the tiles with a value of 5); so discarding one does not necessarily mean that the firework cannot be completed.
- 
+
 Clearly identify a firework that you know you cannot complete: for example pulling out the last tile in the series slightly. The tiles of the corresponding color could still be discarded to flip Clock tiles back face up on the table.
 
 #### COMMUNICATING WHILE PLAYING HANABI

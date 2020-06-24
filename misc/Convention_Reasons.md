@@ -11,7 +11,7 @@ The main [reference document](../Reference.md) lists all of our conventions. But
 * Separately, notice that the strength of the "play the left-most" convention is that it allows players to easily clue the newest card. Meaning that even if the clue "splashes" other unrelated cards in the hand, it will always work to "get" the newest card.
 * But also notice that in the Hyphen-ated group (and in any sufficiently advanced group of Hanabi players that does a lot of *Finesses*), we have a lot of good options to "get" a player's *Finesse Position* card - it is uncommon to have to clue it directly. So this convention isn't helping much.
 * *Finesses* and *Bluffs* can't "get" a player's chop card. In fact, there are no "moves" that get a player's chop card, at least in our convention framework. So rather than cluing cards on *Finesse Position*, what **is** common for us is to clue playable cards on chop before they get discarded.
-* With all of this in mind, we can see that it makes much more sense to have clues be focused on the chop and let cards on *Finesse Position* be *Finessed* or *Bluffed*. 
+* With all of this in mind, we can see that it makes much more sense to have clues be focused on the chop and let cards on *Finesse Position* be *Finessed* or *Bluffed*.
 
 <br />
 

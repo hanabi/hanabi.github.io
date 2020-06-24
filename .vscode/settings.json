@@ -1,4 +1,5 @@
 // These are Visual Studio Code settings that should apply to this particular repository
 {
   "files.eol": "\n",
+  "files.trimTrailingWhitespace": true,
 }

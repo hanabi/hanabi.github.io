@@ -15,7 +15,7 @@
 ## How are *Convention Framework* changes proposed?
 
 * We use the [GitHub issues tracker](https://github.com/Zamiell/hanabi-conventions/issues) for this repository in order to organize convention proposals. (All GitHub-related discussion is also mirrored to the `#new-conventions` channel in [the Discord server](https://discord.gg/FADvkJp).)
-* Players must submit [a new issue](https://github.com/Zamiell/hanabi-conventions/issues/new) for their request or proposed change. 
+* Players must submit [a new issue](https://github.com/Zamiell/hanabi-conventions/issues/new) for their request or proposed change.
 * In a new issue, players will typically type up a short paragraph of the proposed change. Screenshots and/or Alice and Bob stories are encouraged so that other players can easily understand what is being proposed.
 * Then, other players can comment on whether they like it or not, or if they see any potential problems.
 

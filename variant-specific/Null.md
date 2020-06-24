@@ -164,7 +164,7 @@ Some additional rules apply to *Positional Clues* that are intended to be *Save 
 * In this circumstance, the player should **not** stop blind-playing. They should go on to play their new chop card, similar to a *Positional Inverted Layered Finesse*.
 * This is called a *Bounce Finesse* because it drops all the way down and then bounces back up.
 
-### The Slot Finesse 
+### The Slot Finesse
 
 * Normally, if a *Positional Clue* is used to get a non-null card, then the blind-playing player would continue blind-playing cards as a *Positional Layered Finesse*. For that reason, it is normally impossible to *just* get a non-null card with a *Positional Clue*.
 * As a rare exception, players can perform a *Finesse* using a *Positional Clue* that has the blind-play "match" the card that was clued. If they match, then **no null cards are promised**.

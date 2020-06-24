@@ -10,7 +10,9 @@
   "license": "ISC",
   "dependencies": {
     "cspell": "^4.0.63",
+    "detect-trailing-whitespace": "^1.0.0",
     "exit-hook": "^2.2.0",
+    "recursive-readdir": "^2.2.2",
     "remark-parse": "^8.0.2",
     "remark-retext": "^4.0.0",
     "retext": "^7.0.1",

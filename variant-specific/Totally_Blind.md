@@ -18,7 +18,7 @@ These conventions apply to the "Totally Blind" variants.
 | Number 2 | Play slot 2
 | Number 3 | Play slot 3
 | Number 4 | Play slot 4
-| Number 5 | Play slot 5 
+| Number 5 | Play slot 5
 | Blue     | Chop move
 | Green    | Play slot 1 + play slot 2
 | Yellow   | Play slot 1 + play slot 3

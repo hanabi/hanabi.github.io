@@ -83,7 +83,7 @@ A side point here is that speedruns are viable on Hanabi Live because it is nice
 
 #### Getting Games Going
 
-Getting a game going on Hanabi Live is pretty different from how you would get a game going on BGA, since there is not a large pool of players to draw from. This means that you can't just click the "Create Table" button and have random people join your game, like you would on BGA. 
+Getting a game going on Hanabi Live is pretty different from how you would get a game going on BGA, since there is not a large pool of players to draw from. This means that you can't just click the "Create Table" button and have random people join your game, like you would on BGA.
 
 In order to find players, we typically do a "@here" ping in the [Hanabi Live Discord Server](https://discord.gg/FADvkJp), which alerts everyone who is at their computer that someone is wanting to get a game going.
 
@@ -202,7 +202,7 @@ Ok, so you've made it this far. The changes so far probably sound pretty strange
 * In this context, "hard avoidance" means that a player will avoid *Double Discarding* at all costs. If they are in danger of *Double Discarding*, then they will give any clue at all to avoid it, even if it is a complete waste of a clue.
 * On BGA, in 3+ player games, players don't generally do *Hard Double Discard Avoidance*. Instead, they use two other strategies to prevent *Double Discards* from occurring:
   * First, players are generally allowed to save a copy of a non-critical card if both copies of that card are on the chop of adjacent players.
-  * Second, players can indirectly solve the problem by planning a line where it sets up one of the DD players to give an obvious clue. 
+  * Second, players can indirectly solve the problem by planning a line where it sets up one of the DD players to give an obvious clue.
 * In my group, there is no need to do either of these strategies, because *Hard Double Discard Avoidance* is **always** turned on, regardless of the amount of players.
 * Why do this? It narrows the possibilities of what *Save Clues* can be, which is quite useful. Furthermore, it eliminates the silliness involved in dancing around a *Double Discard* situation - players just simply don't have to worry about it anymore and can focus on always giving the highest efficiency clue for the situation.
 * Finally, if a player notices that someone *Double Discards* when they weren't supposed to, they can mark their hand for the exact card, which is quite powerful.
@@ -264,7 +264,7 @@ These are conventions that we don't typically turn on for new players, but we do
 
 * On BGA, if you are playing into a *Finesse* but play an unrelated card, then you interpret the *Finesse* as a *Bluff* instead, and stop playing.
 * In my group, you can **only** *Bluff* the very next player.
-* This means that if someone plays into a *Finesse*, and they were not the very next player after the cluer, then they will **continue** to play cards in their hand from left to right until they find the promised card. 
+* This means that if someone plays into a *Finesse*, and they were not the very next player after the cluer, then they will **continue** to play cards in their hand from left to right until they find the promised card.
 * This is called a *Layered Finesse* because the intended *Finesse* blind-play target is "layered" behind other playable cards.
 * For example, in a 4-player game with Alice, Bob, Cathy, and Donald:
   * Alice clues red to Donald as a *Play Clue* on a red 2.

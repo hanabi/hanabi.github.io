@@ -891,12 +891,12 @@ Note that in this user interface, players are **not** holding their hands like t
   * Discarding known trash **does not count** as ending the *Early Game*.
   * Doing special discards that "transfer" cards to other players **does not count** as ending the *Early Game*.
 
-#### Extinguishing Every Clue 
+#### Extinguishing Every Clue
 
 * Extinguishing every clue **does** include *5 Stalling*, but it is only mandatory for the team to collectively perform one *5 Stall*. If one *5 Stall* clue has already been given and there is another *5 Stall* clue available, players are allowed (but not required) to clue it.
 * Extinguishing every clue **does not** include cluing something in the hand of the player who came directly before. This is because the player who came before did not see anything for the next player to do, and is therefore giving them "permission" to discard. In this situation, cluing is optional; players can choose to either clue the previous hand or discard at their discretion.
 * Extinguishing every clue **does not** include cluing cards that will be almost certainly be *Order Chop Moved* by an upcoming player who already has two or more 1's clued in their hand.
-  
+
 #### No Play Clues with a Number 5 Clue
 
 * All number 5 clues in the *Early Game* are **never** to be interpreted as a *Play Clue*.
@@ -1045,7 +1045,7 @@ Note that in this user interface, players are **not** holding their hands like t
 * The *Gentleman's Discard* is:
   1) a move that transfers a **clued card** in one person's hand to the ***Finesse Position*** of another person's hand
   2) **not necessary** and does not directly help the team, but may have some helpful side effects
-  3) done with **only playable cards** 
+  3) done with **only playable cards**
 * For example, in a 3-player game:
   * It is the first turn and nothing is played on the stacks.
   * Alice clues number 1 to Cathy, touching one 1.
@@ -1175,7 +1175,7 @@ Note that in this user interface, players are **not** holding their hands like t
   * Next, Cathy sees that Bob just blind-played a blue 3 immediately after this red clue, so she knows that she must have a *one-away-from-playable* red card - the red 4. Cathy holds on to the red 4 for later and discards.
 * Except in rare circumstances, ***Bluffing* is only permissible when you are the person directly before the player who is blind-playing a card**. This is called being in *Bluff Seat*. Do not *Bluff* unless you are in *Bluff Seat*! (This follows from *[Good Lie Principle](#8-good-lie-principle)*.)
 
-### How to Tell the Difference Between a *Finesse* and a *Bluff* (Part 1) - Recognizing *Finesses* on Other Players 
+### How to Tell the Difference Between a *Finesse* and a *Bluff* (Part 1) - Recognizing *Finesses* on Other Players
 
 * Sometimes, a player will give a clue that looks like it could be either a *Finesse* or a *Bluff*. Between these two moves, which should have precedence?
 * For example, in a 4-player game:
@@ -1308,7 +1308,7 @@ Note that in this user interface, players are **not** holding their hands like t
   * Alice clues number 4 to Bob, which touches one brand new 4 as a *Play Clue*.
   * Bob knows that this is probably red 4, but he does not see any red 3's. Thus, Bob knows he must have the red 3, and blind-plays his *Finesse Position* card. It is blue 1.
   * Bob now knows that he was *Bluffed* and that the 4 in his hand is exactly red 4.
-* *Self-Bluffs* on players with color clues are nonsensical, so players should not have to entertain that possibility. 
+* *Self-Bluffs* on players with color clues are nonsensical, so players should not have to entertain that possibility.
 * For example, in a 3-player game:
   * Red 2 is played on the stacks.
   * Alice clues red to Bob, touching one brand new red card  as a *Play Clue*.
@@ -1515,7 +1515,7 @@ Note that in this user interface, players are **not** holding their hands like t
 * If a player has a known playable 5 and a known playable 4 that leads into their own hand, then according to the above *Priority* table, the known playable 4 would have *Priority*. However, this doesn't make much sense, since the 5 has to be played no matter what, playing the 5 gives the team a clue back, the 4 could be played by someone else, and so on.
 * Thus, if a player has a known playable 5 and a known playable 4 that leads into their own hand, then the 5 is said to have *Priority*.
 
-### The Priority Bluff 
+### The Priority Bluff
 
 * Similar to a normal *Bluff*, it is also possible for players to perform a *Priority Bluff*.
 * For example, in a 3-player game:
@@ -2311,7 +2311,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Alice clues number 3 to Donald, touching two red 3's.
   * Bob blind-plays his *Finesse Position* and it is red 1.
   * Cathy knows that normally, this would be a *3 Bluff*. However, since the red 3's are duplicated, this must be a *Bad Touch Double Finesse*, so Cathy blind-plays her *Finesse Position* and it is the red 2.
-  * Donald knows that the other 3 in his hand must be the other copy of red 3, or else Cathy would not have blind-played anything, so Donald plays the left-most red 3. The next time that Donald discards, he will discard the known trash red 3. 
+  * Donald knows that the other 3 in his hand must be the other copy of red 3, or else Cathy would not have blind-played anything, so Donald plays the left-most red 3. The next time that Donald discards, he will discard the known trash red 3.
 
 ### The Bad Touch Layered Finesse That Violates Good Lie Principle (Illegal)
 
@@ -2353,7 +2353,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Bob blind-plays red 1.
   * Cathy blind-plays red 2.
   * Donald knows that normally, this would be a *4 Double Bluff* and that no-one should play any more cards. However, since the red 4 was duplicated, this must be a *Bad Touch Triple Finesse*, so Cathy blind-plays her *Finesse Position* and it is the red 3.
-  * Emily knows that this cannot be a *4 Double Bluff*, or else Donald would not have blind-played anything. Thus, this must be a *Bad Touch Triple Finesse*, so Emily plays her left-most red 4. The next time that Emily discards, she will discard the known trash red 4. 
+  * Emily knows that this cannot be a *4 Double Bluff*, or else Donald would not have blind-played anything. Thus, this must be a *Bad Touch Triple Finesse*, so Emily plays her left-most red 4. The next time that Emily discards, she will discard the known trash red 4.
 
 ### The Trash Double Bluff (Form 1)
 
@@ -2441,7 +2441,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * In this situation, the clue giver is promising that someone has one of the missing cards on their *Finesse Position*. Once the card is blind-played, the recipient of the clue will know that one of their ancillary cards are trash.
 * This is more subtle than the strong *Trash Finesse*. In the strong form, the focus of the clue causes a blind-play. In the weak form, the non-focused cards are what causes the blind-play
 * For example, in a 3-player game:
-  * Red 2 is played on the stacks. All of the other suits have the 1 played on the stacks. 
+  * Red 2 is played on the stacks. All of the other suits have the 1 played on the stacks.
   * Bob's hand is, from newest to oldest: red 3, red 1, blue 1, green 1, yellow 1.
   * Alice wants to give a play clue to the red 3. Everyone on the team can see that she can give either 3s or red.
     * If she clues number 3, then it will uniquely touch the red 3 (and not violate *Good Touch Principle*).
@@ -2464,7 +2464,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * Since valid *Out-of-Position Bluffs* are so rare, it is important to remember that:
   * Valid *Out-of-Position Bluffs* take precedence over *Known Bluffs*. In other words, if Alice performs something that could be a *Known Bluff* or an *Out-of-Position Bluff*, and Bob can see that 1) Cathy has a playable card on her *Finesse Position* and 2) one or more of the three OOP stipulations from above are true, then Bob should assume that it is a *Out-of-Position Bluff* instead of a *Known Bluff*.
   * Valid *Out-of-Position Bluffs* take precedence over *Layered Finesses*. In other words, if Alice does a valid *Out-of-Position Bluff* on Cathy, it would be natural for Cathy to think that this is a *Layered Finesse*, since Alice is not in *Bluff Seat* for Cathy. However, Cathy must pay close attention and see that because of the very specific situation, an *Out-of-Position Bluff* was legal, which means that Cathy should **not** continue to blind-play cards from her hand. (This is a common mistake.)
-* A *Reverse Bluff* is just a just a more-specific type of *Out-of-Position Bluff*. All of the same stipulations apply. 
+* A *Reverse Bluff* is just a just a more-specific type of *Out-of-Position Bluff*. All of the same stipulations apply.
 
 ### The Good Touch Bluff
 
@@ -2764,7 +2764,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * There are 0 clues in the bank.
   * Alice needs to plan ahead for her turn.
   * Bob and Donald both have a critical chop card. Cathy has a safe discard.
-  * Alice and Bob both have one known playable card in their hand. 
+  * Alice and Bob both have one known playable card in their hand.
   * So, if Alice plays, Bob will perform a *Generation Discard*, and discard a critical card. This is not an option.
   * Therefore, Alice must discard. This is a *Scream Discard* to Bob, and he should *Chop Move*. It is also a *Generation Discard* to Cathy, and she should not *Chop Move*.
 
@@ -3218,7 +3218,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Number Mute
   * Special Mix
   * Dual-Color Mix
-  * Throw It in a Hole 
+  * Throw It in a Hole
   * Cow & Pig
   * Duck
 * In hard variants, the following changes are made to the conventions:

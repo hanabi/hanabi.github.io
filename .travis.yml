@@ -6,9 +6,11 @@ before_script:
   - echo "Installing NPM modules..."
   - cd spell-check
   - npm install
-script: 
+script:
   # Spell check every file using cspell
   - ./spell_check.sh
+  # Check for trailing whitespace
+  - node ./whitespace_check.js
   # Perform some additional language checks using the "unified" framework
   - node ./other_checks.js
 
