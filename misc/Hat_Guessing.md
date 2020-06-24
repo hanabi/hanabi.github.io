@@ -101,19 +101,24 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 
 ## Terminology
 
-### Obvious Play/Critical/Discard
+### Obvious Plays
 
-* A **positively identified** (i.e. touched by a clue) card is an obvious play/critical/discard if it can be deduced as such **purely through**
-  * the positive and negative information on it,
-  * the state of the play stacks,
-  * the state of the discard stacks,
-  * totally identified cards in hands,
-  * global elimination notes.
-* A card is not positively identified if a player can only deduce its identity through context deduction and induction.
-* The fastest way to check if a card is an obvious play/critical/discard is to use empathy mode, ignoring the crosses that originate from not-totally-identified cards in hands, and checking all resultant possible identities against the play stacks.
-* This concept is used as an error mitigation tradeoff; it is easy for a player to miss e.g. a negative 5 on an unclued chop card, and the benefit of being able to skip cluing non-obviously known cards is quite small.
+* A **positively identified** (i.e. touched by a clue) card is defined as an *Obvious* play if it can be deduced as such **purely through**
+  * the positive and negative information on it
+  * the state of the play stacks
+  * the state of the discard stacks
+  * totally identified cards in hands
+  * global elimination notes
+* In a similar fashion, critical cards can be *Obviously* critical, and known trash cards can be *Obvious* discards.
+* A card is never *Obvious* if a player needs to use contextual knowledge to determine the identity.
+* The fastest way to check if a card is an *Obvious* play, an *Obvious* critical, or an *Obvious* discard is to:
+  * use empathy mode
+  * ignoring the crosses that originate from not-totally-identified cards in hands
+  * check all resultant possible identities against the play stacks
+* This concept is used as an error mitigation tradeoff. For example, it is easy for a player to miss a negative 5 on an unclued chop card, and the benefit of being able to skip cluing non-obviously known cards is quite small.
 
 ### Called Card
+
 * Any card that has been targeted by an instruction.
 
 ### Global Elimination Notes
