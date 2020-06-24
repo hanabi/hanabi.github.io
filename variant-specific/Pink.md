@@ -40,6 +40,16 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 * When a player performs a *5's Chop Move*, it is clearly a type of *Save Clue*. But the focus of the clue is unclear.
 * We define the focus of the clue to be the 5 that is one-away from the chop.
 * Thus, when a player knows for sure that a number 5 clue indicates a *5's Chop Move*, the *Pink Promise* convention only applies to the 5 that is one-away from the chop.
+* For example, in a 3-player game:
+  * The variant is "Pink (6 Suits)".
+  * It is the middle of the game and no 5's are yet playable.
+  * Bob has a completely unclued hand.
+  * Alice clues number 5 to Bob, touching two 5's on slot 1 and slot 4.
+  * Bob knows that this is a *5's Chop Move*, and marks his slot 5 card as being *Chop Moved*.
+  * Bob knows that the clue is either focused on slot 1 or slot 4.
+  * Because of the "Pink Promise with a 5's Chop Move" convention, Bob knows that since this clue caused him to *Chop Move*, it is focused on slot 4.
+  * Thus, *Pink Promise* applies to this card, so he marks slot 4 as a 5.
+  * Later on in the game, another rank clue "fills in" his slot 4 card to be a pink card. From *Pink Promise*, Bob knows that it must be exactly the pink 5.
 
 ### The Pink Prompt Rank Exception
 
