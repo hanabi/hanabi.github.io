@@ -3256,6 +3256,7 @@ Conventions for specific variants are listed on a separate page.
 * [Null](/variant-specific/Null.md)
 * [Muddy Rainbow](/variant-specific/Muddy_Rainbow.md)
 * [Dark Rainbow](/variant-specific/Dark_Rainbow.md)
+* [Dark Pink](/variant-specific/Dark_Pink.md)
 * [Dark Omni](/variant-specific/Dark_Omni_&_Gray_Pink.md)
 * [Dark Null](/variant-specific/Dark_Null.md)
 * [Cocoa Rainbow](/variant-specific/Muddy_Rainbow.md)
