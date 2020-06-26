@@ -541,7 +541,7 @@ Note that in this user interface, players are **not** holding their hands like t
 * The best explanation is that the *Chop Move* was never intended in the first place.
 * Thus, when this happens, the player should "undo" the *Chop Move*.
 
-### Undoing a Chop Move (Mistake)
+### Undoing an Accidental Chop Move (Mistake)
 
 * Often times a player can misinterpret a clue as a *Chop Move* when it really had some other meaning. If this happens, after they discard their new *Chop*, everyone else on the team will know that an accidental *Chop Move* has occurred.
 * Later on in the game, sometimes a player in this situation can retroactively realize that they have made a mistake by *Chop Moving* earlier on. They might be tempted to shift their chop back to where it is supposed to be.
