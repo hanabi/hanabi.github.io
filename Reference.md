@@ -1273,11 +1273,13 @@ Note that in this user interface, players are **not** holding their hands like t
 
 * When a clue could have multiple interpretations, usually *Schrödinger's Cat Principle* is involved - players must wait a round and see what their teammates do in order to find out the true meaning of the clue. But what if a clue could have multiple interpretations and a player does **not** have to wait for information from anyone else?
 * In this situation, players should use *Occam's Razor* - always assume the simplest possible interpretation.
-  * First, assume a direct *Play Clue* or a *Delayed Play Clue*.
-  * If that is impossible, assume a *Prompt*.
-  * If that is impossible, assume a *Finesse*.
-  * If that is impossible, assume a *Bluff*.
-* If the interpretation is still ambiguous, players should use *Occam's Razor* to prefer the "move" that gets the least amount of blind-cards played. (A move that only gets a single blind card played is simpler than a move that gets two blind cards, and so forth.)
+
+1) Assume the least amount of blind-plays.
+  * If the clue involves one or more blind-plays, then assume the "move" that gets the least amount of blind-cards played. But keep in mind that only certain cards are legal *Bluff* targets - you can't just do a *Bluff* with anything.
+2) Assume a direct *Play Clue* or a *Delayed Play Clue*.
+3) If that is impossible, assume a *Prompt*.
+4) If that is impossible, assume a *Finesse*.
+5) If that is impossible, assume a *Bluff*.
 
 <br />
 
