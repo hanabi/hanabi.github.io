@@ -1272,16 +1272,17 @@ Note that in this user interface, players are **not** holding their hands like t
 ### Clue Interpretation & Occam's Razor
 
 * When a clue could have multiple interpretations, usually *Schrödinger's Cat Principle* is involved - players must wait a round and see what their teammates do in order to find out the true meaning of the clue. But what if a clue could have multiple interpretations and a player does **not** have to wait for information from anyone else?
-* For example, Alice gives a clue to Cathy, and now Bob **must** act, because he does not see any matching card in anybody else's hand.
+* For example, Alice gives a weird clue to Cathy, and now Bob **must** act, because he does not see any matching card in anybody else's hand.
 * In this situation, players should use *Occam's Razor* - always assume the simplest possible interpretation.
 
 1) Assume a direct *Play Clue* or a *Delayed Play Clue* (if it could be possible that no blind-plays & no *Prompts* are involved).
 2) Assume a *Prompt* (if it could be possible that no blind-plays are involved).
 3) Assume a *Finesse* (or a *Prompt* + *Finesse*) over a *Bluff* (from Bob's perspective).
     * From everyone else's perspective, assume a *Finesse* (or a *Prompt* + *Finesse*) if the clue directly "matches" the card that was blind-played.
-4) Assume the "move" that results in the least number of blind-plays and the least number of *Prompts*.
+4) Assume the "move" that results in the least number of blind-plays.
     * In general, this means assuming a one-blind-play *Bluff* over a two-blind-play *Finesse*. But keep in mind that only certain cards are legal *Bluff* targets - you can't just do a *Bluff* with any card.
-    * This means that if something could be either a *Finesse* or a *Finesse* with a *Prompt* involved, then the pure *Finesse* is simpler and you should assume that.
+5) Assume the "move" that results in the least number of *Prompts*.
+    * This means that if something could be either a one-blind-play *Finesse* **or** a one-blind-play *Finesse* with a *Prompt* involved, then the pure *Finesse* is simpler and you should assume that.
 
 <br />
 
@@ -2489,36 +2490,44 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Donald is surprised by Alice's clue. From Donald's perspective, Cathy should have misplayed the red 4 as the blue 4, since 3 matches 4.
   * Since Cathy did not misplay, Donald can reason that **he** must have the blue 4. Donald marks the previously unknown blue card in his hand as blue 4.
 
-### The Pestilent Double Bluff & The Diseased Clandestine Finesse
+### The Pestilent Double Bluff
 
 * In the *Good Touch Bluff*, a *Bluff* is given that looks like a *Finesse*. However, what if something that looks like a *Good Touch Bluff* is done, but the "matching" card is not yet clued?
 * For example, in a 4-player game:
   * It is the first turn and nothing is played on the stacks.
   * Alice goes first.
   * Bob has a red 1 on slot 1 and a blue 2 on slot 2.
-  * Alice clues Bob number 2, which touches the blue 2 on slot 2.
+  * Alice clues number 2 to Bob, touching a blue 2 on slot 2.
   * Bob doesn't see any other 1's on *Finesse Position*. Thus, the number 2 clue must be a *Self-Finesse*, so he blind-plays red 1.
-  * Cathy comes next. From her perspective, Bob should currently think that his slot 2 card is red 2 (instead of blue 2).
-  * If nothing else happens, Bob will go on to misplay that card. However, giving a clue to Bob to fix the situation is inefficient.
-* From Cathy's perspective, there are multiple possible interpretations, depending on the specifics:
-
-#### 1) A *Pestilent Double Bluff*
-
-* In most cases, Cathy should blind-play her *Finesse Position* card as red 2.
-* Cathy could be blind-playing red 2, but could also be blind-playing **any** playable card.
-* Whatever card it is, it will still heal the problem, since Bob can see that the blind-play was related to the clue he received. Since Alice's clue got 2 blind-plays, Bob will stop playing any more cards into Alice's clue, and keeps his 2 as any useful 2.
-* This is similar to a standard *Double Bluff*, but is different because the move was not initiated by a card that was 2-away from being playable.
-* If Cathy sees a copy of red 2, Cathy should still blind-play her *Finesse Position*. In many cases (though not all), Alice could have clued the red 2 directly. We decide that it is not strong enough for Cathy to give a clue to a red 2 to fix the situation.
-* Even if Cathy sees both copies of the red 2, Cathy should still blind-play her *Finesse Position*. In that case it is a *Known Bluff* on Cathy.
+  * Cathy comes next. From her perspective, Bob should currently think that his slot 2 card is red 2 (instead of blue 2). If nothing else happens, Bob will go on to misplay that card.
+  * Cathy knows that technically, she could give a *Fix Clue* to Bob to fix the situation. However, is that what Alice really intended? That would be waste a clue and would be really inefficient. Alice must be trying to communicate something extra.
+* In almost all cases, Cathy should blind-play her *Finesse Position* card as the red 2. Doing so would "heal" the situation, since Bob would no longer think he has the red 2.
+* Furthermore, Cathy could also be blind-playing **any** playable card. Even if it is not the red 2, blind-playing any card would equally "heal" the situation, because Bob would know that Cathy is blind-playing from the same clue.
+* This is a kind of *Double Bluff*, since it gets two people in a row to blind-play their *Finesse Position*, getting two unrelated cards. However, unlike a normal *Double Bluff*, a *Pestilent Double Bluff* is initiated by cluing a one-away-from-playable card (instead of a two-or-more-away-from-playable card).
+* Additionally, consider the case where Cathy sees one red 2 of someone else's hand (e.g. Donald's hand). In this hypothetical, Cathy could just give a *Play Clue* to the red 2 in Donald's hand, Donald would play the card, and that would "heal" the situation, because Bob would no longer think that he has the red 2. However, we agree that Cathy should **not** do this and should **still** blind-play her *Finesse Position* card. (This is because doing something weird like this for a 3-for-2 is not strong enough.)
+* Additionally, consider the case where Cathy sees **both** copies of red 2 in someone else's hand (e.g. Donald's hand). In this hypothetical, Bob would not go on to misplay the red 2, so no further action is needed to heal the situation. However, we agree that Cathy should **still** blind-play her *Finesse Position* card (as a *Known Pestilent Double Bluff*). (This is because seeing both copies is so rare that we do not want complicate things by having to consider it.)
 * More examples of a *Pestilent Double Bluff* can be found [here](examples/Pestilent_Double_Bluff.md).
 
-### 2) A *Diseased Clandestine Finesse*
-* There is one exception to the *Pestilent Double Bluff*. What if Bob has the blue 1 in slot 3, and Cathy sees a copy of red 2 that is not in Finesse Position?
-* In this case, the original intention of Alice was to do a *Clandestine Finesse* on Bob. However, this doesn't work, because Bob thinks his 2 is red 2.
-* In this case, Cathy should give a clue to the red 2
-* If Cathy gives a clue to the red 2, then Bob knows that his 2 is not red 2.
-* Since Cathy had to spend a clue to fix the situation, we decide that Alice's clue is not strong enough without any further plays.
-* In this case, Bob interprets Alice's original clue as a *Clandestine Finesse*, and will continue to play slot 3 as blue 1, and then play blue 2.
+### The *Diseased Clandestine Finesse*
+
+* First, see the [Pestilent Double Bluff](#pestilent-double-bluff).
+* In the *Pestilent Double Bluff*, Cathy is not supposed to give a clue. She must blind-play a card in order to "heal" the situation.
+* However, the exception is if Cathy sees that she can give a clue that will turn the move into a *Clandestine Finesse* on Bob. If Cathy sees this is the case, she must give a clue to do that.
+* For example, in a 4-player game:
+  * It is the first turn of the game and nothing is played on the stacks.
+  * Bob's hand is as follows, from left to right: `red 1, blue 2, blue 1, blue 5`
+  * Donald hand has a red 2 in it.
+  * Alice clues number 2 to Bob, touching a blue 2 on slot 2.
+  * Bob blind-plays the red 1.
+  * Cathy sees that this looks like a *Pestilent Double Bluff* situation. However, she also sees that if she gives a *Play Clue* to the red 2, Donald will play it, and then Bob will reinterpret Alice's clue as a *Clandestine Finesse*.
+  * Cathy clues red to Donald, touching a red 2 as a *Play Clue*.
+  * Donald plays the red 2.
+  * Alice discards.
+  * Originally, Bob thought that Alice had performed a *Self-Finesse* on him for the red 1 into the red 2. However, from *Good Touch Principle*, this cannot be the case anymore, because Cathy got Donald's red 2.
+  * Thus, Bob's 2 must be some other 2. Bob knows that this would normally cause a *Pestilent Double Bluff*, but Cathy did not blind-play anything.
+  * Thus, this must be a *Disease Clandestine Finesse*. In other words, Alice told him that his 2 was playable right now, and no-one else has blind-played any 1s, so Bob must continue to blind-play cards until his 2 is playable.
+  * Bob blind-plays his slot 3 card and it successfully plays as the blue 1.
+  * Bob knows that his 2 must be the blue 2 to match the blue 1.
 
 ### The Surreptitious Finesse
 
