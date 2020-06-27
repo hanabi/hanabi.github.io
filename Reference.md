@@ -1279,8 +1279,9 @@ Note that in this user interface, players are **not** holding their hands like t
 2) Assume a *Prompt* (if it could be possible that no blind-plays are involved).
 3) Assume a *Finesse* over a *Bluff* (from Bob's perspective). 
     * From everyone else's perspective, assume a *Finesse* if the clue directly "matches" the card that was blind-played.
-4) Assume the "move" that results in the least amount of blind-plays.
-    * In general, this means assuming a one-card *Bluff* over a two-card *Finesse*. But keep in mind that only certain cards are legal *Bluff* targets - you can't just do a *Bluff* with any card.
+4) Assume the "move" that results in the least amount of blind-plays and the least amount of *Prompts*.
+    * In general, this means assuming a one-blind-play *Bluff* over a two-blind-play *Finesse*. But keep in mind that only certain cards are legal *Bluff* targets - you can't just do a *Bluff* with any card.
+    * This means that if something could be either a *Finesse* or a *Finesse* + *Prompt*, then the pure *Finesse* is simpler and you should assume that.
 
 <br />
 
