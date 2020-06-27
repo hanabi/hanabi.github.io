@@ -1272,14 +1272,15 @@ Note that in this user interface, players are **not** holding their hands like t
 ### Clue Interpretation & Occam's Razor
 
 * When a clue could have multiple interpretations, usually *Schrödinger's Cat Principle* is involved - players must wait a round and see what their teammates do in order to find out the true meaning of the clue. But what if a clue could have multiple interpretations and a player does **not** have to wait for information from anyone else?
+* For example, Alice gives a clue to Cathy, and now Bob **must** act, because he does not see any matching card in anybody else's hand.
 * In this situation, players should use *Occam's Razor* - always assume the simplest possible interpretation.
 
-1) Assume the least amount of blind-plays.
-  * If the clue involves one or more blind-plays, then assume the "move" that gets the least amount of blind-cards played. But keep in mind that only certain cards are legal *Bluff* targets - you can't just do a *Bluff* with anything.
-2) Assume a direct *Play Clue* or a *Delayed Play Clue*.
-3) If that is impossible, assume a *Prompt*.
-4) If that is impossible, assume a *Finesse*.
-5) If that is impossible, assume a *Bluff*.
+1) Assume a direct *Play Clue* or a *Delayed Play Clue* (if it could be possible that no blind-plays & no *Prompts* are involved).
+2) Assume a *Prompt* (if it could be possible that no blind-plays are involved).
+3) Assume a *Finesse* over a *Bluff* (from Bob's perspective). 
+    * From everyone else's perspective, assume a *Finesse* if the clue directly "matches" the card that was blind-played.
+4) Assume the "move" that results in the least amount of blind-plays.
+    * In general, this means assuming a one-card *Bluff* over a two-card *Finesse*. But keep in mind that only certain cards are legal *Bluff* targets - you can't just do a *Bluff* with any card.
 
 <br />
 
