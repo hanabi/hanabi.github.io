@@ -2489,7 +2489,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Donald is surprised by Alice's clue. From Donald's perspective, Cathy should have misplayed the red 4 as the blue 4, since 3 matches 4.
   * Since Cathy did not misplay, Donald can reason that **he** must have the blue 4. Donald marks the previously unknown blue card in his hand as blue 4.
 
-### The Disease Bluff & The Heal Clue & The Pestilent Double Bluff
+### The Pestilent Double Bluff & The Diseased Clandestine Finesse
 
 * In the *Good Touch Bluff*, a *Bluff* is given that looks like a *Finesse*. However, what if something that looks like a *Good Touch Bluff* is done, but the "matching" card is not yet clued?
 * For example, in a 4-player game:
@@ -2498,35 +2498,27 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Bob has a red 1 on slot 1 and a blue 2 on slot 2.
   * Alice clues Bob number 2, which touches the blue 2 on slot 2.
   * Bob doesn't see any other 1's on *Finesse Position*. Thus, the number 2 clue must be a *Self-Finesse*, so he blind-plays red 1.
-  * Cathy comes next. From her perspective, Bob should currently think that his slot 2 card is red 2 (instead of blue 2). If nothing else happens, Bob will go on to misplay that card.
+  * Cathy comes next. From her perspective, Bob should currently think that his slot 2 card is red 2 (instead of blue 2).
+  * If nothing else happens, Bob will go on to misplay that card. However, giving a clue to Bob to fix the situation is inefficient.
 * From Cathy's perspective, there are multiple possible interpretations, depending on the specifics:
 
-#### 1) A *Disease Bluff*
+#### 1) A *Pestilent Double Bluff*
 
-![Disease Bluff](img/disease_bluff.png)
-
-* Say that Cathy sees the red 2 in Donald's hand and she can uniquely clue it. If she does, Donald will go on to immediately play it.
-* This would "heal" the problem, as Bob would not think that he has red 2 anymore. Thus, this clue is called a *Heal Clue*.
-* The original *Bluff* is called a *Disease Bluff*, since it requires healing.
-* The *Disease Bluff* interpretation is the highest priority interpretation!
-* More examples of a *Disease Bluff* can be found [here](examples/Disease_Bluff.md).
-
-#### 2) A *Pestilent Double Bluff* (with Cathy seeing zero copies):
-
-* Say that Cathy does not see the red 2 anywhere.
-* From *High Value Principle*, Cathy can conclude that Alice does not intend for Cathy to do a *Fix Clue*, as that would be inefficient.
-* It is also possible that Cathy could have *both copies* of the red 2 in her own hand. However, this is unlikely, and by convention we disregard this possibility.
-* Instead, Cathy can blind-play her *Finesse Position* card as red 2. This is similar to a *Disease Bluff*, but instead of wasting a clue to heal the problem, the problem is healed by a blind-play.
-* Note that Cathy could be blind-playing red 2, but could also be blind-playing **any** playable card. Whatever card it is, it will still heal the problem, since Bob can see that the blind-play was related to the clue he received.
+* In most cases, Cathy should blind-play her *Finesse Position* card as red 2.
+* Cathy could be blind-playing red 2, but could also be blind-playing **any** playable card.
+* Whatever card it is, it will still heal the problem, since Bob can see that the blind-play was related to the clue he received. Since Alice's clue got 2 blind-plays, Bob will stop playing any more cards into Alice's clue, and keeps his 2 as any useful 2.
 * This is similar to a standard *Double Bluff*, but is different because the move was not initiated by a card that was 2-away from being playable.
+* If Cathy sees a copy of red 2, Cathy should still blind-play her *Finesse Position*. In many cases (though not all), Alice could have clued the red 2 directly. We decide that it is not strong enough for Cathy to give a clue to a red 2 to fix the situation.
+* Even if Cathy sees both copies of the red 2, Cathy should still blind-play her *Finesse Position*. In that case it is a *Known Bluff* on Cathy.
 * More examples of a *Pestilent Double Bluff* can be found [here](examples/Pestilent_Double_Bluff.md).
 
-#### 3) A *Pestilent Double Bluff* (with Cathy seeing one uncluable copy)
-
-* Say that Cathy sees the red 2 in Donald's hand, but she cannot uniquely clue it due to other blocking cards.
-* This cannot be a *Disease Bluff*, since Alice would not put Bob and Cathy in this bad situation if a clean *Heal Clue* was not available.
-* Furthermore, similar to the above example, it is also possible that Cathy could have the other copy of the red 2 in her own hand. However, this is unlikely, and by convention we disregard this possibility.
-* Similar to the above example, Cathy should interpret this situation as a *Double Bluff*. If she blind-plays a card successfully, Bob will **not** go on to misplay the blue 2.
+### 2) A *Diseased Clandestine Finesse*
+* There is one exception to the *Pestilent Double Bluff*. What if Bob has the blue 1 in slot 3, and Cathy sees a copy of red 2 that is not in Finesse Position?
+* In this case, the original intention of Alice was to do a *Clandestine Finesse* on Bob. However, this doesn't work, because Bob thinks his 2 is red 2.
+* In this case, Cathy should give a clue to the red 2
+* If Cathy gives a clue to the red 2, then Bob knows that his 2 is not red 2.
+* Since Cathy had to spend a clue to fix the situation, we decide that Alice's clue is not strong enough without any further plays.
+* In this case, Bob interprets Alice's original clue as a *Clandestine Finesse*, and will continue to play slot 3 as blue 1, and then play blue 2.
 
 ### The Surreptitious Finesse
 
@@ -3349,8 +3341,8 @@ Conventions for specific variants are listed on a separate page.
 | The Double/Triple Pass Bluff | Zamiel
 | The Out-of-Order Finesse | Zamiel
 | The Speed-up Clue | Libster
-| The Disease Bluff & The Heal Clue | Zamiel
 | The Pestilent (Double) Bluff | Zamiel
+| The Diseased Clandestine Finesse | Florrat
 | The Distribution Clue | Libster
 | The Elimination Riding Deduction Bluff | Duneaught
 | Self-Elimination Finesse Priority | 910dan
