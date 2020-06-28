@@ -53,7 +53,7 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 
 ### Pink Promise with a 5 Pull
 
-* First, see [Pink Promise with a 5's Chop Move]().
+* First, see [Pink Promise with a 5's Chop Move](#pink-promise-with-a-5s-chop-move).
 * When a player performs a *5 Pull*, it is clearly a type of *Play Clue*. But if two or more 5's are touched as part of the clue, then the focus of the clue is unclear.
 * We define the focus of the clue to be the next to the "pulled" card. (This is similar to how *Pink Promise* works with a *5's Chop Move*.)
 * Thus, when a player knows for sure that a number 5 clue indicates a *5 Pull*, the *Pink Promise* convention only applies to the 5 that is next to the pulled card.
