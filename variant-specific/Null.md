@@ -85,7 +85,7 @@ These conventions apply to any variant with a null (touched by no clues) suit.
 * When players are determining which slot number the *Color Positional Clue* is talking about, they should always skip over any cards that have one or more positive clues on them. (But they should not skip over cards that are considered to be "untouched" from a *Positional Clue*.)
 * For example, in a 3-player game of the "Null (5 Suits)" variant:
   * All the 1's are played on the stacks except for the null 1.
-  * Bob hand is as follows: red 1, red 1, null 1, blue 1, blue 5
+  * Bob hand is as follows, from newest to oldest: `red 1, red 1, null 1, blue 1, blue 5`
   * Bob's blue 5 has a number 5 clue on it. (It was clued with a *5 Save* earlier on.)
   * Alice clues green to Cathy, touching a green 1.
   * Bob knows that normally, this would be an *Unknown Trash Discharge*. But all *Discharges* are "turned off" in null variants. Instead, this must be a *Null Positional Clue*.
@@ -97,7 +97,7 @@ These conventions apply to any variant with a null (touched by no clues) suit.
 * *Color Positional Clues* always "wrap around" to the oldest card. In other words, if they go "past" slot 1, then they would apply to slot 5 again.
 * For example, in a 3-player game of the "Null (5 Suits)" variant:
   * All the 1's are played on the stacks except for the null 1.
-  * Bob hand is as follows: null 1, red 1, red 5, blue 5, green 5
+  * Bob hand is as follows, from newest to oldest: `null 1, red 1, red 5, blue 5, green 5`
   * All of Bob's 5's have a number 5 clue on them. (They were clued with a *5 Save* earlier on.)
   * Alice clues red to Cathy, touching a red 1.
   * Bob knows that normally, this would be an *Unknown Trash Discharge*. But all *Discharges* are "turned off" in null variants. Instead, this must be a *Null Positional Clue*.

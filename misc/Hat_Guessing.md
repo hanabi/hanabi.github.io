@@ -251,7 +251,7 @@ First, let's go over some *Hat-Guessing* terminology before getting into the act
 * As a special exception, a clue giver may give **any** play instruction or discard instruction to the *First Responder*. This does not need to follow *Instruction Priority*. (The reason is because they can immediately demonstrate their action to the rest of the team.)
 * For example, in a 3-player No Variant game:
   * It is the first turn of the game and nothing is played on the stacks.
-  * Bob's hand is as follows: `red 1, yellow 1, green 1, red 3, red 3`
+  * Bob's hand is as follows, from newest to oldest: `red 1, yellow 1, green 1, red 3, red 3`
   * Alice knows that normally, the red 1 has play priority, since it is the left-most 1.
   * However, Alice also sees that Bob has the yellow 2 in his hand. It would be useful to get the yellow 1 to play before the red 1, so that the team can get the yellow 2 played sooner than later.
   * Alice also knows that since Bob is her *First Responder*, she can break the play priority and just get Bob to play any card she wants. Alice will give a play instruction for Bob to play the yellow 1.
@@ -263,7 +263,7 @@ First, let's go over some *Hat-Guessing* terminology before getting into the act
   * All the 1's are played on the stacks.
   * Alice gives a *Hat-Guessing* clue that instructs Bob to play slot 1, Cathy to clue, and Donald to discard slot 4.
   * Bob blind-plays slot 1. It is a red 2 and successfully plays.
-  * From Cathy's perspective, Donald's hand is as follows, from left to right: `red 4, blue 4, red 1, red 1`
+  * From Cathy's perspective, Donald's hand is as follows, from newest to oldest: `red 4, blue 4, red 1, red 1`
   * Donald already knows that his slot 4 card is trash, and Cathy is not allowed to repeat this instruction, so Cathy needs to tell Donald that his slot 3 card is trash.
   * Cathy gives a *Hat-Guessing* clue that instructs Donald to discard slot 3, Alice to play slot 1, and Bob to play slot 1.
   * Donald knows that the first clue told him to discard slot 4 and the second clue told him to discard slot 3. Normally, he would follow the instructions in order. But in this case, since he is Cathy's *First Responder*, it is his responsibility to immediately demonstrate Cathy's instruction for him to the entire team. Thus, Donald discards slot 3 (instead of slot 4).

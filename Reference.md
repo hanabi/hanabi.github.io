@@ -1822,7 +1822,7 @@ Priority does not always apply. Some common exceptions are listed below.
 * With that said, players **do** have to respect that forward *5 Pull Finesses* could be *Layered* or *Clandestine*.
 * For example, in a 3-player game:
   * It is the first turn of the game and nothing is played on the stacks.
-  * Cathy's hand is as follows, from newest to oldest: blue 4, blue 4, blue 5, red 2, blue 2
+  * Cathy's hand is as follows, from newest to oldest: `blue 4, blue 4, blue 5, red 2, blue 2`
   * Alice clues number 5 to Cathy, touching the blue 5 on slot 3.
   * Bob knows that since the team is the *Early Game*, Alice's clue might be a *5 Stall*. However, Bob also knows that you are only allowed to perform a *5 Stall* if there are no normal *Save Clues* or *Play Clues* to give. Bob sees that Cathy has a blue 2 on chop that could have been saved with a *2 Save*. Thus, Bob knows that Alice's clue cannot not be a *5 Stall*, which makes it a *5 Pull* instead (since it is two-or-more-away from the chop).
   * Bob knows that if this was a *5 Pull*, it would be pulling the red 2. If Bob does nothing, Cathy might go on to misplay the red 2 as some playable 1.
@@ -2053,7 +2053,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * For example, in a 3-player game:
   * All the 1's are played on the stacks.
   * Alice has a globally-known playable red 2 in her hand.
-  * Bob hand is as follows, from left to right: blue 1, red 3, red 4, red 5, blue 1
+  * Bob hand is as follows, from newest to oldest: `blue 1, red 3, red 4, red 5, blue 1`
   * Both Bob and Cathy has a safe discard.
   * Alice knows that on this turn, she is expected to play the red 2, unless she has a really good clue to give.
   * Alice sees that if she plays the red 2, then Bob will probably have nothing to do, and will go on to discard the blue 1.
@@ -2300,7 +2300,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * In this situation, the 1's clue only communicates that *Good Touch Principle* was violated and that both of the 1's are the same suit.
 * For example, in a 3-player game:
   * It is the first turn and nothing is played on the stacks.
-  * Cathy's hand is as follows: `green 4, red 1, red 1, red 5, green 5`
+  * Cathy's hand is as follows, from newest to oldest: `green 4, red 1, red 1, red 5, green 5`
   * Alice clues number 1 to Cathy, touching the two red 1's.
   * Bob sees that instead of violating *Good Touch Principle*, Alice could have instead simply performed a *5 Save* to Cathy.
   * Bob knows that since we are not normally supposed to violate *Good Touch Principle*, Alice must be trying to communicate something extra. Therefore, this must be a *Bad Touch Finesse*. Bob blind-plays his *Finesse Position* card. It is a blue 1 and it successfully plays.
@@ -2308,7 +2308,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * If a *Bad Touch Finesse* is performed on three or more 1s, it only promises that the oldest one is trash / duplicated.
 * For example, in a 3-player game:
   * It is the first turn and nothing is played on the stacks.
-  * Cathy's hand is as follows: `green 1, red 1, red 1, red 5, green 5`
+  * Cathy's hand is as follows, from newest to oldest: `green 1, red 1, red 1, red 5, green 5`
   * Alice clues number 1 to Cathy, touching slot 1, slot 2, and slot 3.
   * Bob sees that instead of violating *Good Touch Principle*, Alice could have instead simply performed a *5 Save* to Cathy.
   * Bob knows that since we are not normally supposed to violate *Good Touch Principle*, Alice must be trying to communicate something extra. Therefore, this must be a *Bad Touch Finesse*. Bob blind-plays his *Finesse Position* card. It is a blue 1 and it successfully plays.
@@ -2551,7 +2551,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * However, the exception is if Cathy sees that she can give a clue that will turn the move into a *Clandestine Finesse* on Bob. If Cathy sees this is the case, she must give a clue to do that.
 * For example, in a 4-player game:
   * It is the first turn of the game and nothing is played on the stacks.
-  * Bob's hand is as follows, from left to right: `red 1, blue 2, blue 1, blue 5`
+  * Bob's hand is as follows, from newest to oldest: `red 1, blue 2, blue 1, blue 5`
   * Donald hand has a red 2 in it.
   * Alice clues number 2 to Bob, touching a blue 2 on slot 2.
   * Bob blind-plays the red 1.
