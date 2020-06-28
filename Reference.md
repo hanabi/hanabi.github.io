@@ -2097,7 +2097,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 * Similar to a normal *Layered Finesse*, it is also possible to initiate a *Layered Priority Finesse* as long as the blind-playing player is not the very next person.
 
-### The Bad Touch Layered Finesse (Bluffs that Blind-Play a Duplicated Card / Dupe Bluffs / Bluff Dupes)
+### The Bad Touch Layered Finesse that Causes a Blind-Play of a Known Dupe (Dupe Bluffs / Bluff Dupes)
 
 * If a player performs a *Bluff* that causes a blind-play of a globally-known duplicated card, that is quite strange. Doing this is not very good, as it violates *Good Touch Principle* and does not accomplish very much in general.
 * Players agree that this is not a *Bluff* at all, but instead a *Layered Finesse*. The player who blind-played the card should continue to blind-play cards until they find the promised card.
@@ -2319,7 +2319,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Cathy knows that normally, this would be a *3 Bluff*. However, since the red 3's are duplicated, this must be a *Bad Touch Double Finesse*, so Cathy blind-plays her *Finesse Position* and it is the red 2.
   * Donald knows that the other 3 in his hand must be the other copy of red 3, or else Cathy would not have blind-played anything, so Donald plays the left-most red 3. The next time that Donald discards, he will discard the known trash red 3.
 
-### The Bad Touch Layered Finesse That Violates Good Lie Principle (Illegal)
+### The Bad Touch Layered Finesse That Dupes a Clued Card (Illegal)
 
 * First, see the section on the [Bad Touch Double Finesse](#the-bad-touch-double-finesse-for-3s).
 * Similar to a *Bad Touch Double Finesse*, it is also possible to try a *Bad Touch Layered Finesse* on the next player.
