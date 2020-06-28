@@ -2544,7 +2544,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * Additionally, consider the case where Cathy sees **both** copies of red 2 in someone else's hand (e.g. Donald's hand). In this hypothetical, Bob would not go on to misplay the red 2, so no further action is needed to heal the situation. However, we agree that Cathy should **still** blind-play her *Finesse Position* card (as a *Known Pestilent Double Bluff*). (This is because seeing both copies is so rare that we do not want complicate things by having to consider it.)
 * More examples of a *Pestilent Double Bluff* can be found [here](examples/Pestilent_Double_Bluff.md).
 
-### The *Diseased Clandestine Finesse*
+### The Diseased Clandestine Finesse
 
 * First, see the [Pestilent Double Bluff](#pestilent-double-bluff).
 * In the *Pestilent Double Bluff*, Cathy is not supposed to give a clue. She must blind-play a card in order to "heal" the situation.
