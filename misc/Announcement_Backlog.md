@@ -5,6 +5,8 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 
 ## The Backlog (General Conventions)
 
+? put pestilent
+
 @everyone Deleted conventions:
 
 **The Triple Bluff & The Triple One-Third Bluff & The Triple Two-Thirds Bluff & The 5 Triple Bluff** (deleted)
@@ -20,8 +22,8 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 **The Bad Touch Layered Finesse That Violates Good Lie Principle (Illegal)** (by Florrat)
 
 ```
-* First, see the section on the [Bad Touch Double Finesse](#the-bad-touch-double-finesse-for-3s).
-* Similar to a *Bad Touch Double Finesse*, it is also possible to try a *Bad Touch Layered Finesse* on the next player.
+* First, see the section in the doc for the Bad Touch Double Finesse (For 3's).
+* Similar to a *Bad Touch Double Finesse (For 3's)*, it is also possible to try a *Bad Touch Layered Finesse* on the next player.
 * For example, in a 3-player game:
   * No cards are played on the stacks.
   * Alice clues both copies of red 3 in Cathy's hand.
