@@ -2338,8 +2338,8 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * For example, in a 3-player game:
   * Blue 2 and green 2 are played on the stacks.
   * Alice clues number 2 to Cathy, touching a red 2 on slot 3 and a red 2 on slot 5 (her chop).
-  * Bob knows that normally, this would be a *2 Save* on the red 2. However, Alice is violating *Good Touch Principle*, so she must be trying to communicate something extra.
-  * Bob blind-plays his *Finesse Position* card and it is blue 3.
+  * Bob knows that normally, this would be a *2 Save* on the red 2. However, Alice is violating *Good Touch Principle*, so she must be trying to communicate something extra. Therefore, this must be a *Bad Touch Finesse*.
+  * Bob blind-plays his *Finesse Position* card, trying to play the red 1. Instead, it is is blue 3 and it successfully plays.
   * Cathy knows that since a clue that looked like a *2 Save* got Bob to blind-play something, then a duplication occurred and both of the 2's must be the same. Cathy discards the chop card and saves the other one for later.
 
 ### The Bad Touch Double Finesse (For 3's)
