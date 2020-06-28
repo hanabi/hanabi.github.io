@@ -2300,10 +2300,20 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * In this situation, the 1's clue only communicates that *Good Touch Principle* was violated and that both of the 1's are the same suit.
 * For example, in a 3-player game:
   * It is the first turn and nothing is played on the stacks.
-  * Alice clues number 1 to Cathy, touching two red 1's.
-  * Bob sees that Alice could have done something else (like do a *5 Save* to a 5 on Cathy's chop).
-  * Bob knows that Alice's clue violated *Good Touch Principle*. If the clue is not communicating something extra, then it would be a real lousy clue. Therefore it must be a *Good Touch Finesse*, so Bob blind-plays his *Finesse Position* card, and it is a blue 1.
-  * Cathy knows that since this is the first turn of the game, both of her 1's cannot be trash. Similar to a *Stale 1's Clue*, Cathy skips over the older 1 and plays the newest 1. (She would normally play her 1's from right-to-left.) She will then discard the other 1 later.
+  * Cathy's hand is as follows: `green 4, red 1, red 1, red 5, green 5`
+  * Alice clues number 1 to Cathy, touching the two red 1's.
+  * Bob sees that instead of violating *Good Touch Principle*, Alice could have instead simply performed a *5 Save* to Cathy.
+  * Bob knows that since we are not normally supposed to violate *Good Touch Principle*, Alice must be trying to communicate something extra. Therefore, this must be a *Bad Touch Finesse*. Bob blind-plays his *Finesse Position* card. It is a blue 1 and it successfully plays.
+  * Cathy knows that since this is the first turn of the game, both of her 1's cannot be trash. Similar to a *Stale 1's Clue*, Cathy skips over the older 1 and plays the newest 1. (She would normally play her 1's from right-to-left.) Cathy will then discard the other one later.
+* If a *Bad Touch Finesse* is performed on three or more 1s, it only promises that the oldest one is trash / duplicated.
+* For example, in a 3-player game:
+  * It is the first turn and nothing is played on the stacks.
+  * Cathy's hand is as follows: `green 1, red 1, red 1, red 5, green 5`
+  * Alice clues number 1 to Cathy, touching slot 1, slot 2, and slot 3.
+  * Bob sees that instead of violating *Good Touch Principle*, Alice could have instead simply performed a *5 Save* to Cathy.
+  * Bob knows that since we are not normally supposed to violate *Good Touch Principle*, Alice must be trying to communicate something extra. Therefore, this must be a *Bad Touch Finesse*. Bob blind-plays his *Finesse Position* card. It is a blue 1 and it successfully plays.
+  * Cathy knows that since this is the first turn of the game, all of her 1's cannot be trash. Similar to a *Stale 1's Clue*, Cathy skips over the oldest 1 (on slot 3) and plays the middle 1 (on slot 2). (She would normally play her 1's from right-to-left.) On Cathy's next turn, she will play the left-most 1. On Cathy's next turn after that, she will discard the right-most 1 (the one that she originally skipped over).
+
 
 ### The Bad Touch Finesse (For 2's)
 
