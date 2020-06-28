@@ -2887,13 +2887,14 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * This move is so bad that it must be communicating something extra. Alice must be intending for a *Rank Choice Ejection*. Bob blind-plays his *Second Finesse Position* card and it is a blue 1 and successfully plays.
   * Cathy knows that since a number 2 clue cause Bob to blind-play his *Second Finesse Position*, this must be an *Ejection*. The only type of *Ejection* that matches this kind of clue is a *Rank Choice Ejection*, so Cathy knows that her 2 must be playable and that her 2 must be exactly the red 2. Cathy plays the red 2.
 
-### The Gentleman's Discard Ejection
+### The Gentleman's Discard That Promises the Wrong Slot / The Baton Discard That Promises the Wrong Slot
 
 * Normally, if a player performs a *Gentleman's Discard* and the other card is **not** on *Finesse Position*, it could be several things:
   1) If the card on *Finesse Position* is itself playable right now, then it would be a *Layered Gentleman's Discard*.
   2) If the card on *Finesse Position* is exactly one-away-from-playable, then it would be a *Patch Gentleman's Discard* (and call for the next-player to blind-play their *Finesse Position* card).
   3) If the card on *Finesse Position* is two or more away from playable, or a trash card, then it is usually an emergency situation or a player is making a mistake.
-* If the third option is true and it is **not** an emergency situation and the player is **not** making a mistake, then the player who is performing the weird *Gentleman's Discard* is instead intending for the next player to *Eject* as a *Gentleman Discard Ejection*. Doing so will demonstrate that the card is not on the *Finesse Position* and is instead on the *Second Finesse Position*.
+* If the third option is true and it is **not** an emergency situation and the player is **not** making a mistake, then the player who is performing the weird *Gentleman's Discard* is instead trying to communicate something extra. They intend for a blind-play of a slot to match which slot the other card is in.
+* for the next player to *Eject* as a *Gentleman Discard Ejection*. Doing so will demonstrate that the card is not on the *Finesse Position* and is instead on the *Second Finesse Position*.
 * For example, in a 3-player game:
   * All 1's are played on the stacks.
   * Alice discards a known red 2 as a *Gentleman's Discard*.
