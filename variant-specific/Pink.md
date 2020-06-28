@@ -37,8 +37,8 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 
 ### Pink Promise with a 5's Chop Move
 
-* When a player performs a *5's Chop Move*, it is clearly a type of *Save Clue*. But the focus of the clue is unclear.
-* We define the focus of the clue to be the 5 that is one-away from the chop.
+* When a player performs a *5's Chop Move*, it is clearly a type of *Save Clue*. But if two or more 5's are touched as part of the clue, the focus of the clue is unclear.
+* We define the focus of the clue to be the specific 5 that is one-away from the chop.
 * Thus, when a player knows for sure that a number 5 clue indicates a *5's Chop Move*, the *Pink Promise* convention only applies to the 5 that is one-away from the chop.
 * For example, in a 3-player game:
   * The variant is "Pink (6 Suits)".
@@ -49,7 +49,23 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
   * Bob knows that the clue is either focused on slot 1 or slot 4.
   * Because of the "Pink Promise with a 5's Chop Move" convention, Bob knows that since this clue caused him to *Chop Move*, it is focused on slot 4.
   * Thus, *Pink Promise* applies to this card, so he marks slot 4 as a 5.
-  * Later on in the game, another rank clue "fills in" his slot 4 card to be a pink card. From *Pink Promise*, Bob knows that it must be exactly the pink 5.
+  * Later on in the game, another rank clue "fills in" Bob's slot 4 card to be a pink card. From *Pink Promise*, Bob knows that it must be exactly the pink 5.
+
+### Pink Promise with a 5 Pull
+
+* When a player performs a *5 Pull*, it is clearly a type of *Play Clue*. But if two or more 5's are touched as part of the clue, then the focus of the clue is unclear.
+* We define the focus of the clue to be the next to the "pulled" card. (This is similar to how *Pink Promise* works with a *5's Chop Move*.)
+* Thus, when a player knows for sure that a number 5 clue indicates a *5 Pull*, the *Pink Promise* convention only applies to the 5 that is next to the pulled card.
+* For example, in a 3-player game:
+  * The variant is "Pink (6 Suits)".
+  * It is the first turn of the game and nothing is played on the stacks.
+  * Alice clues number 5 to Bob, touching two 5's on slot 1 and slot 2.
+  * Bob knows that this is a *5 Pull*, because he sees that Cathy has a bunch of playable cards in her hand that Alice could have clued instead.
+  * Bob blind-plays his slot 3. It is a red 1 and it successfully plays.
+  * Next, Bob retroactively considers the implications of the *5 Pull*. Bob knows that the *5 Pull* was either focused on slot 1 or slot 2.
+  * Because of the "Pink Promise with a 5 Pull" convention, Bob knows that since this clue was a *5 Pull*, it must be focused on slot 2 (the card that was next to the pulled card).
+  * Thus, *Pink Promise* applies to this card, so he marks slot 2 as a 5.
+  * Later on in the game, another rank clue "fills in" Bob's slot 2 card to be a pink card. From *Pink Promise*, Bob knows that it must be exactly the pink 5.
 
 ### The Pink Prompt Rank Exception
 
