@@ -145,7 +145,7 @@ The following is a brief description of each level.
 #### Level 12 - Scholar
 
 * Level 12 strategies should only be learned if you have 200+ games of experience with the group.
-* This level introduces the *5 Color Ejection*.
+* This level introduces *Ejections*.
 * Level 12 strategies are as follows:
   * *[The 5 Color Ejection](../Reference.md#the-5-color-ejection-5ce)*
 
