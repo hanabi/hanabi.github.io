@@ -26,10 +26,10 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 
 @everyone Clarified conventions:
 
-**The Bad Touch Layered Finesse That Violates Good Lie Principle (Illegal)** (by Florrat)
+**The Bad Touch Layered Finesse That Dupes a Clued Card (Illegal)** (by Florrat)
 
 ```
-* First, see the section in the doc for the Bad Touch Double Finesse (For 3's).
+* First, see the section on the *[Bad Touch Double Finesse (For 3's)](#the-bad-touch-double-finesse-for-3s)*.
 * Similar to a *Bad Touch Double Finesse (For 3's)*, it is also possible to try a *Bad Touch Layered Finesse* on the next player.
 * For example, in a 3-player game:
   * No cards are played on the stacks.
@@ -62,7 +62,7 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 **The Reverse Trash Finesse**
 
 ```
-* First, see the [Trash Finesse (Strong Form)](the-trash-finesse-strong-form).
+* First, see the section on the [Trash Finesse (Strong Form)](the-trash-finesse-strong-form).
 * It is also possible to perform a *Trash Finesse* in reverse. This is much harder to see than a forward *Trash Finesse*. Even so, players should generally entertain the possibility of this occurring.
 * When a clue looks like it could be a *Reverse Trash Finesse*, the player who receives the clue is forced into immediately discarding the card. If it was indeed a *Reverse Trash Finesse*, it will be a trash card and it will immediately demonstrate what is going on. Alternatively, if the clue was a normal *Play Clue* on a playable card, then the discard will be a *Gentleman's Discard*. By discarding, it covers both cases.
 * For example, in 3-player game:
@@ -80,7 +80,7 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 **The Gentleman's Discard that Looks like an Unnecessary Reverse Trash Finesse**
 
 ```
-* First, see the [The Unnecessary Trash Finesse Chop Move](#the-unnecessary-trash-finesse-chop-move--the-unnecessary-trash-bluff-chop-move). Basically, if a *Trash Finesse* is unnecessary, then it also causes a *Chop Move*.
+* First, see the section on the *[Unnecessary Trash Finesse Chop Move](#the-unnecessary-trash-finesse-chop-move--the-unnecessary-trash-bluff-chop-move)*. Basically, if a *Trash Finesse* is unnecessary, then it also causes a *Chop Move*.
 * This convention also applies to *Reverse Trash Finesses*. If they are unnecessary, then it causes a *Chop Move* in the same way.
 * If a line is chosen that forces a *Gentleman's Discard* to occur (because they have to entertain the possibility of a *Reverse Trash Finesse*), and the blind-playing card could have been clued in some other easier way, then it **still** *Chop Moves* in exactly the same way that an  *Unnecessary Reverse Trash Finesse* would.
 * For example, in a 3-player game:
@@ -114,7 +114,7 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 **The Unnecessary Trash Push (Finesse Form)**
 
 ```
-* First, see the *[Unnecessary Trash Push](#unnecessary-trash-push)* section.
+* First, see the section on the *[Unnecessary Trash Push](#unnecessary-trash-push)*.
 * Normally, the *Unnecessary Trash Push* calls for the very next player to blind-play an unrelated card, similar to a *Bluff*.
 * However, if the very next player can see that it could be a *Finesse*, then they should prefer that interpretation. This is similar to how the next player should always prefer a *Finesse* interpretation over a *Bluff* interpretation.
 * For example, in a 4-player game:

@@ -1922,7 +1922,7 @@ Priority does not always apply. Some common exceptions are listed below.
 
 ### The Reverse Trash Finesse
 
-* First, see the [Trash Finesse (Strong Form)](the-trash-finesse-strong-form).
+* First, see the section on the *[Trash Finesse (Strong Form)](the-trash-finesse-strong-form)*.
 * It is also possible to perform a *Trash Finesse* in reverse. This is much harder to see than a forward *Trash Finesse*. Even so, players should generally entertain the possibility of this occurring.
 * When a clue looks like it could be a *Reverse Trash Finesse*, the player who receives the clue is forced into immediately discarding the card. If it was indeed a *Reverse Trash Finesse*, it will be a trash card and it will immediately demonstrate what is going on. Alternatively, if the clue was a normal *Play Clue* on a playable card, then the discard will be a *Gentleman's Discard*. By discarding, it covers both cases.
 * For example, in 3-player game:
@@ -2035,8 +2035,8 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### The Unnecessary Unknown Trash Discharge Chop Move (UUTDCM)
 
-* First, see the *[Unnecessary Trash Finesse/Bluff Chop Move](#the-unnecessary-trash-finessebluff-chop-move)* and *[Unknown Trash Discharge](#unknown-trash-discharge-utd)*.
-* This same concept applies to *Unknown Trash Discharge*. In other words, if an unnecessary *Unknown Trash Discharge* is performed, then the player who receives the clue should *Chop Move* in the same way as the *Unnecessary Trash Finesse/Bluff Chop Move*.
+* First, see the section on the *[Unnecessary Trash Finesse Chop Move](#the-unnecessary-trash-finesse-chop-move--the-unnecessary-trash-bluff-chop-move)* and *[Unknown Trash Discharge](#unknown-trash-discharge-utd)*.
+* This "unnecessary" principle that applies to the *Trash Finesse Chop Move* also applies to *Unknown Trash Discharge*. In other words, if an unnecessary *Unknown Trash Discharge* is performed, then the player who receives the clue should *Chop Move* in the same way as the *Unnecessary Trash Finesse Chop Move*.
 * Note that this convention **only** applies if it touches exactly **one** trash card. (This is because we want players to have the ability to perform 2-for-1 UTDs without promising a *Chop Move*.)
 
 <br />
@@ -2063,7 +2063,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### The Selfish Finesse (A Finesse Through Your Own Hand)
 
-* First, see the previous section on *Selfish Clues*.
+* First, see the section on the *[Selfish Clue](#the-selfish-clue)*.
 * One excellent reason to give a *Selfish Clue* is to "lock in" a *Finesse* before the cards move out of *Finesse Position*. This is called a *Selfish Finesse*.
 * Like any other *Finesse*, players in this situation should just mark the cards for later and wait patiently for the cluer to play their card.
 * For example, in a 3-player game:
@@ -2217,6 +2217,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
     * At first, Donald thought that the red card in his hand was red 1 (as a *Play Clue*).
     * After Bob blind-played, Donald thought that the red card in his hand was either a red 2 (as a *Bluff*) or a red 3 (as a *3 Bluff*).
     * After Cathy blind-played, Donald now knows that the red card in his hand is a red 4 (as a *4's Double Bluff*).
+      * (Donald knows that it cannot be a red 5, or else Bob would have blind-played his *Second Finesse Position*.)
 
 ### The Hard 4 Double Bluff
 
@@ -2253,9 +2254,9 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### The Gentleman's Discard that Looks like an Unnecessary Reverse Trash Finesse
 
-* First, see the [The Unnecessary Trash Finesse Chop Move](#the-unnecessary-trash-finesse-chop-move--the-unnecessary-trash-bluff-chop-move). Basically, if a *Trash Finesse* is unnecessary, then it also causes a *Chop Move*.
+* First, see the section on the *[Unnecessary Trash Finesse Chop Move](#the-unnecessary-trash-finesse-chop-move--the-unnecessary-trash-bluff-chop-move)*. Basically, if a *Trash Finesse* is unnecessary, then it also causes a *Chop Move*.
 * This convention also applies to *Reverse Trash Finesses*. If they are unnecessary, then it causes a *Chop Move* in the same way.
-* If a line is chosen that forces a *Gentleman's Discard* to occur (because they have to entertain the possibility of a *Reverse Trash Finesse*), and the blind-playing card could have been clued in some other easier way, then it **still** *Chop Moves* in exactly the same way that an  *Unnecessary Reverse Trash Finesse* would.
+* If a line is chosen that forces a *Gentleman's Discard* to occur (because they have to entertain the possibility of a *Reverse Trash Finesse*), and the blind-playing card could have been clued in some other easier way, then it **still** *Chop Moves* in exactly the same way that an *Unnecessary Reverse Trash Finesse* would.
 * For example, in a 3-player game:
   * This is a slightly modified version of the example given for the *Reverse Trash Finesse*.
   * The red 1 is played on the stacks. All of the 2's are played on the other stacks.
@@ -2357,8 +2358,8 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### The Bad Touch Layered Finesse That Dupes a Clued Card (Illegal)
 
-* First, see the section on the [Bad Touch Double Finesse](#the-bad-touch-double-finesse-for-3s).
-* Similar to a *Bad Touch Double Finesse*, it is also possible to try a *Bad Touch Layered Finesse* on the next player.
+* First, see the section on the *[Bad Touch Double Finesse (For 3's)](#the-bad-touch-double-finesse-for-3s)*.
+* Similar to a *Bad Touch Double Finesse (For 3's)*, it is also possible to try a *Bad Touch Layered Finesse* on the next player.
 * For example, in a 3-player game:
   * No cards are played on the stacks.
   * Alice clues both copies of red 3 in Cathy's hand.
@@ -2478,7 +2479,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### The Trash Finesse (Weak Form)
 
-* First, see the section on *Trash Touch Elimination*.
+* First, see the section on *[Trash Touch Elimination](#trash-touch-elimination)*.
 * When players deliberately touch ancillary trash and there is only one card "missing", then it should trigger *Trash Touch Elimination Notes*. But what if there are two or more cards that are missing?
 * In this situation, the clue giver is promising that someone has one of the missing cards on their *Finesse Position*. Once the card is blind-played, the recipient of the clue will know that one of their ancillary cards are trash.
 * This is more subtle than the strong *Trash Finesse*. In the strong form, the focus of the clue causes a blind-play. In the weak form, the non-focused cards are what causes the blind-play
@@ -2546,7 +2547,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### The Diseased Clandestine Finesse
 
-* First, see the [Pestilent Double Bluff](#pestilent-double-bluff).
+* First, see the section on the *[Pestilent Double Bluff](#pestilent-double-bluff)*.
 * In the *Pestilent Double Bluff*, Cathy is not supposed to give a clue. She must blind-play a card in order to "heal" the situation.
 * However, the exception is if Cathy sees that she can give a clue that will turn the move into a *Clandestine Finesse* on Bob. If Cathy sees this is the case, she must give a clue to do that.
 * For example, in a 4-player game:
@@ -2584,7 +2585,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### The Pass Bluff
 
-* First, see the section on the *Hesitation Blind-Play*.
+* First, see the section on the *[Hesitation Blind-Play](#the-hesitation-blind-play)*.
 * It is possible for a *Hesitation Blind-Play* to occur without anyone intending it to happen. However, if a player intentionally tries to make a *Hesitation Blind-Play* occur, it is called a *Pass Bluff*.
 * In other words, after a *Finesse* occurs that is directed at you, you will know that your *Finesse Position* card is playable. If the next immediate player also has an unrelated playable card on their *Finesse Position*, you can pretend like the *Finesse* wasn't directed at you. This will cause them to think that the *Finesse* was directed at them, and you will get the unrelated card played for free.
 * After the unrelated card is played, the next player should **not** continue to blind-play cards (as a *Layered Finesse*) because:
@@ -2697,7 +2698,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### The Unnecessary Trash Push (Finesse Form)
 
-* First, see the *[Unnecessary Trash Push](#unnecessary-trash-push)* section.
+* First, see the section on the *[Unnecessary Trash Push](#unnecessary-trash-push)*.
 * Normally, the *Unnecessary Trash Push* calls for the very next player to blind-play an unrelated card, similar to a *Bluff*.
 * However, if the very next player can see that it could be a *Finesse*, then they should prefer that interpretation. This is similar to how the next player should always prefer a *Finesse* interpretation over a *Bluff* interpretation.
 * For example, in a 4-player game:
@@ -2858,7 +2859,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### Bad Chop Move Ejection (with 5's)
 
-* First, see the [Bad Chop Move Ejection (with a Trash Chop Move)](bad-chop-move-ejection-with-a-trash-chop-move) section.
+* First, see the section on *[Bad Chop Move Ejection (with a Trash Chop Move)](bad-chop-move-ejection-with-a-trash-chop-move)*.
 * Normally, if a player performs a *5's Chop Move* on a trash card, it would signal a *Finesse* on all of the cards leading up to the 5.
 * If the very next player sees that **they will only have to blind-play one card in their hand to fulfill the *Finesse***, then they should assume that it is a *Finesse*.
 * If the very next player sees that they would have to blind-play two or more cards in their hand to fulfill the *Finesse*, then a *Finesse* is unlikely. Instead, players agree that this signals an *Ejection* and that the next player should play their *Second Finesse Position*.
@@ -2979,7 +2980,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### The Out-of-Position Discharge
 
-* First, see the [Out-of-Position Ejection](#the-out-of-position-ejection).
+* First, see the section on *[Out-of-Position Ejection](#the-out-of-position-ejection)*.
 * Just like OOP *Ejection*, it is possible to do OOP *Discharge* in the exact same way.
 
 ### The Stacked Ejection
@@ -3001,7 +3002,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### The Stacked Discharge
 
-* First, see the [Stacked Ejection](#the-stacked-ejection).
+* First, see the section on *[Stacked Ejection](#the-stacked-ejection)*.
 * Just like *Stacked Ejection*, it is possible to do *Stacked Discharge* in the exact same way.
 
 <br />
@@ -3042,7 +3043,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### Deferring a Double Bluff
 
-* First, see the section on *Deferring a Bluff* above.
+* First, see the section on *[Deferring a Bluff](#deferring-a-bluff)*.
 * If Bob suspects that Alice is performing a *Double Bluff*, then Bob should **never defer**. It is very important that *Double Bluffs* resolve immediately.
 * Similarly, if Bob blind-plays, and Cathy can not rule out a *Double Bluff*, then Cathy should **never defer**. (If Cathy defers, it will cause an unrecoverable *Information Desynchronization*, because her future blind-play will not be interpreted as related to the *Double Bluff*.)
 
@@ -3053,11 +3054,11 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 | Finesse                            | Finesse      | Yes!
 | Finesse                            | Bluff        | Yes!
 | Bluff                              | Finesse      | Sometimes, use sparingly
-| Bluff                              | Bluff        | No, never do this
-| Double Bluff (first blind-player)  | Finesse      | No, never do this
-| Double Bluff (first blind-player)  | Bluff        | No, never do this
-| Double Bluff (second blind-player) | Finesse      | No, never do this
-| Double Bluff (second blind-player) | Bluff        | No, never do this
+| Bluff                              | Bluff        | Almost never do this
+| Double Bluff (first blind-player)  | Finesse      | No, **never** do this
+| Double Bluff (first blind-player)  | Bluff        | No, **never** do this
+| Double Bluff (second blind-player) | Finesse      | No, **never** do this
+| Double Bluff (second blind-player) | Bluff        | No, **never** do this
 
 ### Trash Touch Elimination
 
@@ -3209,7 +3210,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### Selfish Focus Inversion (SFI)
 
-* First, see the *[Selfish Clue](#the-selfish-clue)*.
+* First, see the section on the *[Selfish Clue](#the-selfish-clue)*.
 * Normally, when a player gives a *Selfish Clue*, they are doing it because no-one else on the team can perform the clue and they want to "lock-in" the value.
 * However, if a player gives a *Selfish Clue* with a color that could have been easily given by someone else on the team, then that is quite strange, and they must be trying to send a deeper message.
 * In this situation, they are trying to communicate that the focus of the clue should be inverted. The *Play Clue* is either on the left-most card (if it would normally be *Chop Focus*) or on the right-most card (if it would normally be the left-most card).
