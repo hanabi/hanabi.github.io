@@ -32,7 +32,7 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
   * Cathy has a pink 2 on chop followed by a blue 5.
   * Alice and Bob need to give a *Save Clue* to both the pink 2 and the blue 5.
   * If Alice gave a number 5 clue, it would save both of the cards in one fell swoop, since a number 5 clue would touch the pink 2.
-  * However, doing that would break the *Pink Promise*, since once Cathy learns that her slot 5 card is a pink card, she will always assume that it is a pink 5.
+  * However, doing that would break the *Pink Promise* convention, since once Cathy learns that her slot 5 card is a pink card, she will always assume that it is a pink 5.
   * Thus, Alice gives a number 2 clue as a *2 Save* on the pink 2, and then Bob clues a number 5 clue as a *5 Save* on the blue 5.
 
 ### Pink Promise with a 5's Chop Move
