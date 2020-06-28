@@ -17,8 +17,8 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 
 * Due to the nature of pink cards being touched by a lot of different kinds of clues, they are a bit easier to duplicate than a normal suit, or even a rainbow suit.
 * However, just like any other suit, *Good Touch Principle* still applies to pink cards. Players should:
-  1) do their best to not duplicate pink cards
-  2) assume by default that the remaining pink cards in their hand are "good"
+  1) Do their best to not duplicate pink cards.
+  2) Assume by default that the remaining pink cards in their hand are "good".
 
 ### Pink Tempo Clues
 
