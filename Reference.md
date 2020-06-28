@@ -1096,7 +1096,7 @@ Note that in this user interface, players are **not** holding their hands like t
   * Bob does not have any clued cards in his hand.
   * Bob looks at Cathy's hand and does not see the red 3. Thus, he knows that he has it.
   * Bob marks his *Finesse Position* card as red 3. For now, Bob does not have anything else to do, so he discards his chop card.
-* Note that it is illegal to perform a *Layered Baton Discard*; the card must be exactly in *Finesse Position*.
+* Note that it is illegal to perform a *Layered Baton Discard*; the card **must** be exactly in *Finesse Position*.
 * *Baton Discards* are mostly useful for two main reasons:
   1) To better satisfy *Team Distribution Principle*. It makes sense to transfer a card out of a locked / almost locked hand to a player with an "empty" hand or a hand that only has one card clued in it.
   2) You want to protect your own chop. If you discard your chop, the team could be losing some high-value *one-away-from-playable* card. But if you transfer a card to someone else, it gives you something "safe" to do.
@@ -2252,7 +2252,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Emily knows that when the number 5 clue was given, the red 5 was four-away from playable, and all of the other 5's were three-away from playable. This means that normally, Emily would mark her 5 as any 5 except for red 5. (This is because cards that are three-away-from-playable are normally used to *Triple Bluff*.)
   * However, since the *5's Triple Bluff* convention exists, Emily knows that any 5 can be used to initiate a *Triple Bluff*. Thus, her 5 can be **any** 5 in the game, including red 5.
 
-### The Gentleman's Discard that Looks like an Unnecessary Reverse Trash Finesse
+### The Gentleman's Discard That Looks Like an Unnecessary Reverse Trash Finesse
 
 * First, see the section on the *[Unnecessary Trash Finesse Chop Move](#the-unnecessary-trash-finesse-chop-move--the-unnecessary-trash-bluff-chop-move)*. Basically, if a *Trash Finesse* is unnecessary, then it also causes a *Chop Move*.
 * This convention also applies to *Reverse Trash Finesses*. If they are unnecessary, then it causes a *Chop Move* in the same way.
@@ -2458,14 +2458,15 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * It is possible to perform a *Patch Finesse* in the same way as a *Strong Patch Finesse*, but without having the other copy of the card in the trash. In this situation, it is harder to see that a *Patch Finesse* is occurring, as it is much more likely to be a more-ordinary *Finesse with a Lie Component*.
 * However, if the problem card is exactly *one-away-from-playable*, and the original *Finesse with a Lie Component* was just a **bad** move, or if it could have been done in a simpler way without a big lie, then players should interpret the move as a *Patch Finesse*.
 
-### The Patch Gentleman's Discard
-
-* Similar to a *Patch Finesse*, a *Gentleman's Discard* can also contain a *Patch Component*.
-
 ### The Double Patch Finesse (Illegal)
 
 * Building on the *Patch Finesse*, it is theoretically possible for a *Patch Finesse* to require **two** separate players to patch at the same time.
 * However, we expressly forbid this because it is too confusing. Players should **never** consider the possibility of a *Patch Finesse* with two *Patch Components*.
+
+### The Patch Gentleman's Discard (Illegal)
+
+* Theoretically, it could be possible to perform a *Gentleman's Discard* that contains a *Patch Component*.
+* However, we explicitly disallow this. *Gentleman's Discards* **must** be for cards that are on slot 1. Otherwise, it would communicate a *Blaze Discard*.
 
 ### The Repair Finesse
 
@@ -2887,23 +2888,23 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * This move is so bad that it must be communicating something extra. Alice must be intending for a *Rank Choice Ejection*. Bob blind-plays his *Second Finesse Position* card and it is a blue 1 and successfully plays.
   * Cathy knows that since a number 2 clue cause Bob to blind-play his *Second Finesse Position*, this must be an *Ejection*. The only type of *Ejection* that matches this kind of clue is a *Rank Choice Ejection*, so Cathy knows that her 2 must be playable and that her 2 must be exactly the red 2. Cathy plays the red 2.
 
-### The Gentleman's Discard That Promises the Wrong Slot / The Baton Discard That Promises the Wrong Slot
+### The Blaze Discard (A Gentleman's Discard or Baton Discard That Promises the Wrong Slot)
 
-* Normally, if a player performs a *Gentleman's Discard* and the other card is **not** on *Finesse Position*, it could be several things:
+* Normally, if a player performs a *Gentleman's Discard* and the other card is **not** on *Finesse Position*, it could one of two things:
   1) If the card on *Finesse Position* is itself playable right now, then it would be a *Layered Gentleman's Discard*.
-  2) If the card on *Finesse Position* is exactly one-away-from-playable, then it would be a *Patch Gentleman's Discard* (and call for the next-player to blind-play their *Finesse Position* card).
-  3) If the card on *Finesse Position* is two or more away from playable, or a trash card, then it is usually an emergency situation or a player is making a mistake.
-* If the third option is true and it is **not** an emergency situation and the player is **not** making a mistake, then the player who is performing the weird *Gentleman's Discard* is instead trying to communicate something extra. They intend for a blind-play of a slot to match which slot the other card is in.
-* for the next player to *Eject* as a *Gentleman Discard Ejection*. Doing so will demonstrate that the card is not on the *Finesse Position* and is instead on the *Second Finesse Position*.
+  2) If the card on *Finesse Position* is not playable right now, then it is an emergency situation or a player is making a mistake.
+* Alternatively, if a player performs a *Baton Discard* and the other card is **not** on *Finesse Position*, then it is an emergency situation or a player is making a mistake.
+* If the second option is true and it is **not** an emergency situation and the player is **not** making a mistake, then the player who is performing the weird *Gentleman's Discard* (or *Baton Discard*) is instead trying to communicate something extra.
+* In this situation, the discarding player intends for the very next player to blind-play the slot that **matches the true slot** of the other card. This is called a *Blaze Discard* because it "ignites" the next player's hand to fix the problem.
 * For example, in a 3-player game:
   * All 1's are played on the stacks.
   * Alice discards a known red 2 as a *Gentleman's Discard*.
-  * Bob sees that Cathy has the red 2, but it is not in her *Finesse Position*. Cathy has a red 1 (trash) on *Finesse Position*, followed by a red 2.
-  * Bob knows that it would be pointless for Alice to perform a *Gentleman's Discard* and then for Bob to waste a clue giving a *Fix Clue*. So, if Alice is not making a mistake, she must be trying to communicate something deeper.
-  * Bob knows that if Alice wanted him to play his *Finesse Position* card, this would not work, as Cathy would interpret the situation as a *Patch Gentleman's Discard* and would go on to misplay the red 1.
-  * Bob knows that this situation signals a *Gentleman's Discard Ejection*, so he blind-plays his *Second Finesse Position* card and it is a blue 2 and successfully plays.
-  * Cathy knows that some kind of *Ejection* is going on, since Bob blind-played his *Second Finesse Position*. Since the previous action was a *Gentleman's Discard*, this must be a *Gentleman's Discard Ejection*, which means that Cathy's red 2 is on her *Second Finesse Position* instead of her *First Finesse Position*.
-  * Cathy blind-plays the red 2.
+  * Bob sees that Cathy has the red 2, but it is not in her *Finesse Position*. Cathy has a red 1 (trash) on her *Finesse Position*, followed by a red 2.
+  * Bob knows that it would be pointless for Alice to perform a *Gentleman's Discard* and then for Bob to give a *Fix Clue*, as that would waste a clue. So, if Alice is not making a mistake, she must be trying to communicate something extra.
+  * Bob knows that this must be a *Blaze Discard* and he must blind-play the slot that matches the other card. In this case, since the red 2 is on Cathy's slot 2, Bob must play slot 2.
+  * Bob blind-plays slot 2. It is a blue 1 and it successfully plays.
+  * From Cathy's perspective, she first suspects that some kind of *Ejection* is going on, since Bob blind-played his *Second Finesse Position*. However, since the previous action was a *Gentleman's Discard*, Alice knows that this must be a *Blaze Discard*. In other words, Bob was just blind-playing his slot 2 to communicate to Cathy that she should play her slot 2.
+  * Cathy blind-plays the red 2 from slot 2.
 
 <br />
 
@@ -3443,7 +3444,7 @@ Conventions for specific variants are listed on a separate page.
 | Trash Push Discharge | IAMJEFF
 | Trash Double Bluff | IAMJEFF
 | 5 Number Discharge | IAMJEFF
-| The Gentleman's Discard Ejection | IAMJEFF
+| The Blaze Discard | IAMJEFF
 | Rank Choice Ejection | IAMJEFF
 | Selfish Focus Inversion | Romain
 
