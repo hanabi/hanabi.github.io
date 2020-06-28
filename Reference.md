@@ -2894,7 +2894,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   1) If the card on *Finesse Position* is itself playable right now, then it would be a *Layered Gentleman's Discard*.
   2) If the card on *Finesse Position* is not playable right now, then it is an emergency situation or a player is making a mistake.
 * Alternatively, if a player performs a *Baton Discard* and the other card is **not** on *Finesse Position*, then it is an emergency situation or a player is making a mistake.
-* If the second option is true and it is **not** an emergency situation and the player is **not** making a mistake, then the player who is performing the weird *Gentleman's Discard* (or *Baton Discard*) is instead trying to communicate something extra.
+* If the other copy of the card is not on *Finesse Position* and it is **not** an emergency situation and the player is **not** making a mistake, then the player who is performing the weird *Gentleman's Discard* (or *Baton Discard*) must be trying to communicate something extra.
 * In this situation, the discarding player intends for the very next player to blind-play the slot that **matches the true slot** of the other card. This is called a *Blaze Discard* because it "ignites" the next player's hand to fix the problem.
 * For example, in a 3-player game:
   * All 1's are played on the stacks.
