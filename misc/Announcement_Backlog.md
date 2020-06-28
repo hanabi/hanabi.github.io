@@ -18,7 +18,7 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 **The Disease Bluff & The Heal Clue** (deleted) (by Florrat)
 
 ```
-* Previously, when a *Bluff* occurred that was "mismatched", the *Disease Bluff* was the highest priority interpretation (requiring Cathy to perfrom a *Heal Clue*).
+* Previously, when a *Bluff* occurred that was "mismatched", the *Disease Bluff* was the highest priority interpretation (requiring Cathy to perform a *Heal Clue*).
 * Now, both the *Disease Bluff* and the *Heal Clue* conventions are deleted. Now, Cathy is always supposed to assume a *Pestilent Double Bluff*.
 * See the section on the Pestilent Double Bluff in the doc for more specific details.
 * In very rare circumstances, if Cathy sees that she can transform the *Pestilent Double Bluff* into a *Clandestine Finesse*, then she should always do so. For more information, see the section in the doc called the *Diseased Clandestine Finesse*.
