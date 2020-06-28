@@ -144,6 +144,7 @@ Note that in this user interface, players are **not** holding their hands like t
 
 ## Level 1 - Newbie
 
+* Level 1 strategies can be learned with no games of Hanabi played. You can either learn them before you play your first game or after you play a few games to learn the basic mechanics.
 * See the [learning path document](misc/Learning_Path.md) for general descriptions of each level.
 
 ### Chop
@@ -214,6 +215,8 @@ Note that in this user interface, players are **not** holding their hands like t
 
 ## Level 2 - Novice
 
+* Level 2 strategies should only be learned if you have played with the group a few times and have got the basics down (5-10 games of experience).
+* This level builds the strategies in level 1, outlining what to do in more specific situations.
 * See the [learning path document](misc/Learning_Path.md) for general descriptions of each level.
 
 <br />
@@ -372,6 +375,8 @@ Note that in this user interface, players are **not** holding their hands like t
 
 ## Level 3 - Initiate
 
+* Level 3 strategies should only be learned if you have played with the group for a few days (20+ games of experience).
+* This level introduces a few different kinds of Chop Moves. While Chop Moves may not be used in every single game, level 3 players should be comfortable with all of the basic forms.
 * See the [learning path document](misc/Learning_Path.md) for general descriptions of each level.
 
 <br />
@@ -551,6 +556,8 @@ Note that in this user interface, players are **not** holding their hands like t
 
 ## Level 4 - Rookie
 
+* Level 4 strategies should only be learned if you have played with the group for a week or so (40+ games of experience).
+* This level covers Double Discard situations and introduces Layered Finesses. Players at this level only tell the truth to each other.
 * See the [learning path document](misc/Learning_Path.md) for general descriptions of each level.
 
 <br />
@@ -679,6 +686,8 @@ Note that in this user interface, players are **not** holding their hands like t
 
 ## Level 5 - Apprentice
 
+* Level 5 strategies should only be learned if you have 60+ games of experience with the group.
+* This level covers some more special kinds of Chop Moves and introduces the various "emergency" discards.
 * See the [learning path document](misc/Learning_Path.md) for general descriptions of each level.
 
 <br />
@@ -863,6 +872,8 @@ Note that in this user interface, players are **not** holding their hands like t
 
 ## Level 6 - Intermediate
 
+* Level 6 strategies should only be learned if you have 80+ games of experience with the group.
+* This level explains how to handle stalling situations.
 * See the [learning path document](misc/Learning_Path.md) for general descriptions of each level.
 
 <br />
@@ -1018,6 +1029,8 @@ Note that in this user interface, players are **not** holding their hands like t
 
 ## Level 7 - Fellow
 
+* Level 7 strategies should only be learned if you have 100+ games of experience with the group.
+* This level explains how to do special discards that transfer cards to other players.
 * See the [learning path document](misc/Learning_Path.md) for general descriptions of each level.
 
 ## Level 7 - Fellow - Conventions & Special Moves
@@ -1156,6 +1169,8 @@ Note that in this user interface, players are **not** holding their hands like t
 
 ## Level 8 - Journeyman
 
+* Level 8 strategies should only be learned if you have 120+ games of experience with the group.
+* This level introduces Bluffs and all of the complicated stipulations that go along with them.
 * See the [learning path document](misc/Learning_Path.md) for general descriptions of each level.
 
 <br />
@@ -1333,6 +1348,8 @@ Note that in this user interface, players are **not** holding their hands like t
 
 ## Level 9 - Advanced
 
+* Level 9 strategies should only be learned if you have 160+ games of experience with the group.
+* This level introduces 3 Bluffs and some higher level concepts.
 * See the [learning path document](misc/Learning_Path.md) for general descriptions of each level.
 
 <br />
@@ -1485,6 +1502,8 @@ Note that in this user interface, players are **not** holding their hands like t
 
 ## Level 10 - Adept
 
+* Level 10 strategies should only be learned if you have 140+ games of experience with the group.
+* This level introduces the concept of Priority and all of the complicated stipulations that go along with it.
 * See the [learning path document](misc/Learning_Path.md) for general descriptions of each level.
 
 <br />
@@ -1612,6 +1631,8 @@ Priority does not always apply. Some common exceptions are listed below.
 
 ## Level 11 - Senior
 
+* Level 11 strategies should only be learned if you have 180+ games of experience with the group.
+* This level introduces Elimination and all of the complicated situations that go along with it.
 * See the [learning path document](misc/Learning_Path.md) for general descriptions of each level.
 
 <br />
@@ -1721,6 +1742,8 @@ Priority does not always apply. Some common exceptions are listed below.
 
 ## Level 12 - Scholar
 
+* Level 12 strategies should only be learned if you have 200+ games of experience with the group.
+* This level introduces *Ejections*.
 * See the [learning path document](misc/Learning_Path.md) for general descriptions of each level.
 
 <br />
@@ -1751,6 +1774,8 @@ Priority does not always apply. Some common exceptions are listed below.
 
 ## Level 13 - Erudite
 
+* Level 13 strategies should only be learned if you have 220+ games of experience with the group.
+* This level introduces the "early" 5 moves.
 * See the [learning path document](misc/Learning_Path.md) for general descriptions of each level.
 
 <br />
@@ -1828,6 +1853,8 @@ Priority does not always apply. Some common exceptions are listed below.
 
 ## Level 14 - Expert
 
+* Level 14 strategies should only be learned if you have 240+ games of experience with the group.
+* This level covers moves that are complicated, difficult to see, or require a deeper understanding of how Hanabi works in order to work properly.
 * See the [learning path document](misc/Learning_Path.md) for general descriptions of each level.
 
 ### The Occupied Play Clue & The Occupied Finesse (OPC)
@@ -1943,8 +1970,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ## Level 15 - Rarely Used Strategies
 
-* The rest of the conventions and special moves are clustered into level 15. Level 15 strategies are not necessarily more complicated than the strategies in the previous levels. Rather, it is just that since they rarely come up, it would be a waste of time for every player to know about every one.
-* Nonetheless, when playing with expert players, we generally play under the assumption that everyone knows about most of the conventions in this section. Since expert players have hundreds (or thousands) of games, they will probably have seen a rare situation before and will instinctively know what to do.
+* Level 15 strategies are separated from the rest because they do not come up that often. Thus, non-expert players do not have to worry about learning them. If they do come up in a game, players with experience can often figure out what to do on-the-fly. Even if they don't, they can quickly learn about them in the post-game review, and then use the document as a reference later on in case they need to refresh their memory.
 * This section is split up into different subsections based on category. (See the [table of contents](#table-of-contents).)
 
 <br />
