@@ -2895,16 +2895,20 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   2) If the card on *Finesse Position* is not playable right now, then it is an emergency situation or a player is making a mistake.
 * Alternatively, if a player performs a *Baton Discard* and the other card is **not** on *Finesse Position*, then it is an emergency situation or a player is making a mistake.
 * If the other copy of the card is not on *Finesse Position* and it is **not** an emergency situation and the player is **not** making a mistake, then the player who is performing the weird *Gentleman's Discard* (or *Baton Discard*) must be trying to communicate something extra.
-* In this situation, the discarding player intends for the very next player to blind-play the slot that **matches the true slot** of the other card. This is called a *Blaze Discard* because it "ignites" the next player's hand to fix the problem.
+* In this situation, the discarding player intends for the very next player to blind-play the *Finesse Position* that **matches the true *Finesse Position*** of the other card. This is called a *Blaze Discard* because it "ignites" the next player's hand to fix the problem.
 * For example, in a 3-player game:
   * All 1's are played on the stacks.
   * Alice discards a known red 2 as a *Gentleman's Discard*.
-  * Bob sees that Cathy has the red 2, but it is not in her *Finesse Position*. Cathy has a red 1 (trash) on her *Finesse Position*, followed by a red 2.
+  * Bob sees that Cathy's hand is completely unclued and is as follows, from left to right: `red 1 (trash), red 2, green 1 (trash), green 1 (trash), blue 1 (trash)`
+  * Bob knows that normally, the *Gentleman's Discard* promises that the other copy of the red 2 is on *Finesse Position*. But Alice is lying to Cathy, because she will go on to misplay the red 1 as the red 2.
   * Bob knows that it would be pointless for Alice to perform a *Gentleman's Discard* and then for Bob to give a *Fix Clue*, as that would waste a clue. So, if Alice is not making a mistake, she must be trying to communicate something extra.
-  * Bob knows that this must be a *Blaze Discard* and he must blind-play the slot that matches the other card. In this case, since the red 2 is on Cathy's slot 2, Bob must play slot 2.
+  * Bob knows that this must be a *Blaze Discard* and he must blind-play the *Finesse Position* that matches the *Finesse Position* of the other card. In this case, since the red 2 is on Cathy's *Second Finesse Position* (slot 2), Bob must play his *Second Finesse Position* (slot 2).
   * Bob blind-plays slot 2. It is a blue 1 and it successfully plays.
-  * From Cathy's perspective, she first suspects that some kind of *Ejection* is going on, since Bob blind-played his *Second Finesse Position*. However, since the previous action was a *Gentleman's Discard*, Alice knows that this must be a *Blaze Discard*. In other words, Bob was just blind-playing his slot 2 to communicate to Cathy that she should play her slot 2.
+  * From Cathy's perspective, she first suspects that some kind of *Ejection* is going on, since Bob blind-played his *Second Finesse Position*. However, since the previous action was a *Gentleman's Discard*, Alice knows that this must be a *Blaze Discard*. In other words, Bob was just blind-playing his *Second Finesse Position* to communicate to Cathy that she should play her *Second Finesse Position* instead of her *First Finesse Position*.
   * Cathy blind-plays the red 2 from slot 2.
+* *Blaze Discards* do not apply when someone performs a *Gentleman's Discard* or a *Baton Discard* that looks like a *Sarcastic Discard*. In these situations, one of the following is true:
+  * The discarding player is making a mistake (as a *Wrong Prompt*).
+  * The discarding player is not making a mistake and there is enough past context for the player with the cards to be able to tell the difference.
 
 <br />
 
