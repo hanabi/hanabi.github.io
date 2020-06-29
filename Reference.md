@@ -696,7 +696,7 @@ Note that in this user interface, players are **not** holding their hands like t
 
 ### The Order Chop Move & The Skipped Order Chop Move (OCM)
 
-* Normally, at the beginning of the game, players are expected to play their 1's from right to left.
+* Normally, at the beginning of the game, players are expected to play their 1's from oldest to newest.
 * If a player skips over their right-most 1, and there is nothing else special going on, it means that the next player should *Chop Move* one card.
 * If a player skips over **two** of their right-most 1's, the message skips over the next player, and the player after that should *Chop Move* one card. (And a skip of three 1's means that the player three seats away should *Chop Move*.)
 * For example, in a 3-player game:
@@ -3324,6 +3324,7 @@ Conventions for specific variants are listed on a separate page.
 * [Cow & Pig](/variant-specific/Cow_&_Pig.md)
 * [Duck](/variant-specific/Duck.md)
 * [Throw It in a Hole](/variant-specific/Throw_It_in_a_Hole.md)
+* [Reversed](/variant-specific/Reversed.md)
 * [Up or Down](/variant-specific/Up_or_Down.md)
 
 ### Empty Clues
@@ -3360,7 +3361,7 @@ Conventions for specific variants are listed on a separate page.
 | The Double Half Bluff | Hyphen-ated
 | The Triple Bluff | Zamiel
 | The Triple Two-Thirds Bluff | Zamiel
-| Playing 1's from Right to Left | Duneaught
+| Playing 1's from Oldest to Newest | Duneaught
 | The Gentleman's Discard | Duneaught
 | The Layered Gentleman's Discard | Duneaught
 | The Tempo Clue Chop Move | Zamiel
