@@ -8,7 +8,7 @@ These conventions apply to any variant with a reversed suit (cards must be playe
 
 * Similar to the *5 Save*, you can also do a *1 Save* in order to save the reversed 1. (There is only one copy of a reversed 1.)
 * Any number 1 clue to a chop card is first and foremost respected as a *1 Save* (as opposed to a *Play Clue* on a playable 1).
-  * However, the usual stipulations apply. (e.g. Players should not perform a *1 Save* if they are *Occupied*, if the receiving player is *Loaded*, if the *1 Save* is extremely early, and so forth.)
+* If a *1 Save* touches more than one 1, the non-chop 1s can be played as per normal.
 
 ### The Fix Clue That Re-Touches 1's
 
