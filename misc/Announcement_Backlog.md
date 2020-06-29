@@ -177,6 +177,13 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 
 @everyone Variant-specific conventions:
 
+**Dark Pink Tempo Clues** (by Kakashi)
+
+```
+* Normally, *Tempo Clues* on pink cards would never cause a *Tempo Clue Chop Move* (because *Tempo* on pink cards is important).
+* However, this does not apply to dark pink cards. *Tempo Clues* on dark pink cards work as they normally do. (Meaning that it is possible to perform a *Tempo Clue Chop Move* by giving a *Tempo Clue* to a dark pink card, provided that all of the other normal *Tempo Clue Chop Move* conditions are met.)
+```
+
 **Dark Omni & Gray Pink Pseudo Saves**
 
 ```
