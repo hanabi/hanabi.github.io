@@ -55,7 +55,7 @@ The following is a brief description of each level.
 * Level 2 strategies should only be learned if you have played with the group a few times and have got the basics down (5-10 games of experience).
 * This level builds the strategies in level 1, outlining what to do in more specific situations.
 * Level 2 strategies are as follows:
-  * [Playing starting 1's from right to left](../Reference.md#playing-multiple-1s---play-order-inversion-in-the-starting-hand-part-1)
+  * [Playing starting 1's from oldest to newest](../Reference.md#playing-multiple-1s---play-order-inversion-in-the-starting-hand-part-1)
   * *[Fix Clues](../Reference.md#fix-clues)*
   * All types of "normal" *Finesses*
 

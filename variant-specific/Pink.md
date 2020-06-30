@@ -86,7 +86,7 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 * For example, in a 3-player game:
   * It is the first turn and nothing is played on the stacks.
   * Alice clues number 1 to Bob, touching a red 1 on slot 1, a pink 3 on slot 2, a pink 2 on slot 3, and a pink 1 on slot 4.
-  * Bob knows that from *Good Touch Principle*, all of his 1's are good, so now he can play all of them from right to left.
+  * Bob knows that from *Good Touch Principle*, all of his 1's are good, so now he can play all of them from oldest to newest.
   * Bob plays the pink 1 from slot 4.
   * On his next turn, Bob plays the pink 2 from slot 3. Bob is immediately surprised that this is not a real 1, but he knows that this kind of thing is allowed and that he should continue to play his remaining 1's.
   * On his next turn, Bob plays the pink 3 from slot 2. Bob is again surprised that this is not a real 1, but he knows that this kind of thing is allowed and that he should continue to play his final 1.
@@ -109,7 +109,7 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 
 ### Pink Fix Clues (on 1's)
 
-* Normally, when someone receives a number 1 clue that touches a bunch of 1's, they will play all of those 1's from right to left.
+* Normally, when someone receives a number 1 clue that touches a bunch of 1's, they will play all of those 1's from oldest to newest.
 * If a subsequent clue "fills in" one of the 1s to be a pink card, then the player will **not** play that card anymore (because it could just be any pink card in the game).
 * For example, in a 3-player game:
   * Alice clues number 1 to Bob, touching three 1's in slot 1, slot 2, and slot 3.
