@@ -1292,7 +1292,7 @@ Note that in this user interface, players are **not** holding their hands like t
 * When a clue could have multiple interpretations, usually *Schrödinger's Cat Principle* is involved - players must wait a round and see what their teammates do in order to find out the true meaning of the clue. But what if a clue could have multiple interpretations and a player does **not** have to wait for information from anyone else?
 * For example:
   * Alice gives a weird clue to Cathy.
-  * Bob does not see any "matching" cards in anybody else's hands, so he can rule out a *Prompt* and rule out a *Reverse Finesse*.
+  * Bob does not see any "matching" cards in anybody else's hands, so he can rule out a *Prompt* and he can rule out a *Reverse Finesse*.
 * In this situation, we would say that Bob is the *reacting player*. If an *reacting player* does not "react" to a clue in some demonstrable way, then someone else on the team will go on to misplay a card. So, the *reacting player* has to immediately decide what the clue means and perform the resulting action.
   * In some situations, there can be two *reacting players* in a row. For example, if Alice clues a *two-away-from-playable* card, then Bob must react **and** Cathy must react.
 * So how does a *reacting player* figure out what the clue means? They should use *Occam's Razor* - always assume the simplest possible interpretation.
