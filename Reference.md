@@ -1256,11 +1256,13 @@ Note that in this user interface, players are **not** holding their hands like t
   * All the 1's are played on the stacks.
   * Bob has nothing clued in his hand.
   * Cathy has a red 3 clued in her hand with just a number 3. She does not know what color it is.
-  * Alice clues Donald red, which touches one red 4.
-  * Bob knows that he must have the red 2. If he plays the red 2, then Cathy will play the red 3, and Donald will play the red 4.
-  * Bob plays his *Finesse Position* card and it is instead the blue 2.
-  * From Donald's perspective, since blue does not match red, he knows that this is a *Bluff*. Normally, he would think he has the *one-away-from-playable* red card, but that would be red 3, and Cathy already has that clued. If he had red 3, then the clue would be violating *Good Touch Principle*. Thus, he must have the red 4 instead.
-  * From Cathy's perspective, she knows that the red 4 is two-away instead of one-away. *Bluffs* on two-away cards are normally illegal, so her mystery 3 must be exactly red 3, making the red 4 one-away after all.
+  * Alice clues Donald red, which touches one red 4 as a *Play Clue*.
+  * Bob knows that he must have the red 2. If he blind-plays the red 2 (as a *Finesse*), then Cathy will play the red 3 (as a *Prompt*), and Donald will play the red 4.
+  * Bob plays his *Finesse Position* card as red 2. Instead, it is a blue 2 and it successfully plays.
+  * From Cathy's perspective, she knows that the red 4 is *two-away-from-playable* instead of *one-away-from-playable*. *Bluffs* on *two-away-from-playable* cards are normally illegal. Thus, Cathy's mystery 3 must be exactly red 3, making the red 4 one-away-from-playable after all.
+  * Cathy discards.
+  * From Donald's perspective, since red (the type of clue that was given) does not match blue (the card that was blind-played), this must be a *Bluff*. Normally, since the red 1 is currently played on the stacks, Donald would think that he has the red 3 (e.g. the *one-away-from-playable* red card).
+  * However, Cathy already has a clued red 3 in her hand. If Donald also had a red 3, then Alice's clue would be violating *Good Touch Principle*. Thus, Donald must have the red 4 instead.
 * Sometimes, the player who has the in-between card might have more than one "matching" clued card. In this situation, the player is promised that they have the in-between card, but they are not promised the position - it can be any of the matching clued cards.
 
 <br />
