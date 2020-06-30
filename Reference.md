@@ -1292,7 +1292,7 @@ Note that in this user interface, players are **not** holding their hands like t
 * For example, Alice gives a weird clue to Cathy, and now Bob **must** act, because he does not see any matching card in anybody else's hand.
 * In this situation, players should use *Occam's Razor* - always assume the simplest possible interpretation.
 
-1) Assume a direct *Play Clue* or a *Delayed Play Clue* (if it could be possible that no blind-plays & no *Prompts* are involved).
+1) Assume a direct *Play Clue* or a *Delayed Play Clue* (if it could be possible that no *Prompts* & no blind-plays are involved).
 2) Assume a *Prompt* (if it could be possible that no blind-plays are involved).
 3) Assume a *Finesse* (or a *Prompt* + *Finesse*) over a *Bluff* (from Bob's perspective).
     * From everyone else's perspective, assume a *Finesse* (or a *Prompt* + *Finesse*) if the clue directly "matches" the card that was blind-played.
