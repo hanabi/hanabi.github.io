@@ -218,6 +218,11 @@ Note that in this user interface, players are **not** holding their hands like t
 * Level 2 strategies should only be learned if you have played with the group a few times and have got the basics down (5-10 games of experience).
 * This level builds the strategies in level 1, outlining what to do in more specific situations.
 * See the [learning path document](misc/Learning_Path.md) for general descriptions of each level.
+* Level 2 subsections:
+  * [Conventions & Special Moves](#level-2---novice---conventions--special-moves)
+  * [General Principles](#level-2---novice---general-principles)
+  * [Common Mistakes](#level-2---novice---common-mistakes)
+* Head back to the [table of contents](#table-of-contents).
 
 <br />
 
@@ -378,6 +383,11 @@ Note that in this user interface, players are **not** holding their hands like t
 * Level 3 strategies should only be learned if you have played with the group for a few days (20+ games of experience).
 * This level introduces a few different kinds of Chop Moves. While Chop Moves may not be used in every single game, level 3 players should be comfortable with all of the basic forms.
 * See the [learning path document](misc/Learning_Path.md) for general descriptions of each level.
+* Level 3 subsections:
+  * [Conventions & Special Moves](#level-3---initiate---conventions--special-moves)
+  * [General Principles](#level-3---initiate---general-principles)
+  * [Common Mistakes](#level-3---initiate---common-mistakes)
+* Head back to the [table of contents](#table-of-contents).
 
 <br />
 
@@ -559,6 +569,10 @@ Note that in this user interface, players are **not** holding their hands like t
 * Level 4 strategies should only be learned if you have played with the group for a week or so (40+ games of experience).
 * This level covers Double Discard situations and introduces Layered Finesses. Players at this level only tell the truth to each other.
 * See the [learning path document](misc/Learning_Path.md) for general descriptions of each level.
+* Level 4 subsections:
+  * [Conventions & Special Moves](#level-4---rookie---conventions--special-movies)
+  * [General Principles](#level-4---rookie---general-principles)
+* Head back to the [table of contents](#table-of-contents).
 
 <br />
 
@@ -689,6 +703,10 @@ Note that in this user interface, players are **not** holding their hands like t
 * Level 5 strategies should only be learned if you have 60+ games of experience with the group.
 * This level covers some more special kinds of Chop Moves and introduces the various "emergency" discards.
 * See the [learning path document](misc/Learning_Path.md) for general descriptions of each level.
+* Level 5 subsections:
+  * [Conventions & Special Moves](#level-5---apprentice---conventions--special-moves)
+  * [General Principles](#level-5---apprentice---general-principles)
+* Head back to the [table of contents](#table-of-contents).
 
 <br />
 
@@ -875,6 +893,10 @@ Note that in this user interface, players are **not** holding their hands like t
 * Level 6 strategies should only be learned if you have 80+ games of experience with the group.
 * This level explains how to handle stalling situations.
 * See the [learning path document](misc/Learning_Path.md) for general descriptions of each level.
+* Level 6 subsections:
+  * [Conventions & Special Moves](#level-6---intermediate---conventions--special-moves)
+  * [General Principles](#level-6---intermediate---general-principles)
+* Head back to the [table of contents](#table-of-contents).
 
 <br />
 
@@ -1032,6 +1054,11 @@ Note that in this user interface, players are **not** holding their hands like t
 * Level 7 strategies should only be learned if you have 100+ games of experience with the group.
 * This level explains how to do special discards that transfer cards to other players.
 * See the [learning path document](misc/Learning_Path.md) for general descriptions of each level.
+* Level 7 subsections:
+  * [Conventions & Special Moves](#level-7---fellow---conventions--special-moves)
+  * [General Principles](#level-7---fellow---general-principles)
+  * [Common Mistakes](#level-7---fellow---common-mistakes)
+* Head back to the [table of contents](#table-of-contents).
 
 ## Level 7 - Fellow - Conventions & Special Moves
 
@@ -1172,6 +1199,11 @@ Note that in this user interface, players are **not** holding their hands like t
 * Level 8 strategies should only be learned if you have 120+ games of experience with the group.
 * This level introduces Bluffs and all of the complicated stipulations that go along with them.
 * See the [learning path document](misc/Learning_Path.md) for general descriptions of each level.
+* Level 8 subsections:
+  * [Conventions & Special Moves](#level-8---journeyman---conventions--special-moves)
+  * [General Principles](#level-8---journeyman---general-principles)
+  * [Common Mistakes](#level-8---journeyman---common-mistakes)
+* Head back to the [table of contents](#table-of-contents).
 
 <br />
 
@@ -1977,7 +2009,17 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 ## Level 15 - Rarely Used Strategies
 
 * Level 15 strategies are separated from the rest because they do not come up that often. Thus, non-expert players do not have to worry about learning them. If they do come up in a game, players with experience can often figure out what to do on-the-fly. Even if they don't, they can quickly learn about them in the post-game review, and then use the document as a reference later on in case they need to refresh their memory.
-* This section is split up into different subsections based on category. (See the [table of contents](#table-of-contents).)
+* See the [learning path document](misc/Learning_Path.md) for general descriptions of each level.
+* Level 15 subsections:
+  * [Save Clues & Non-Emergency Chop Moves](#level-15---rarely-used-strategies-save-clues--non-emergency-chop-moves)
+  * [Finesses & Bluffs](#level-15---rarely-used-strategies-finesses--bluffs)
+  * [Pushes & Pulls](#level-15---rarely-used-strategies-pushes--pulls)
+  * [Emergency Moves](#level-15---rarely-used-strategies-emergency-moves)
+  * [Ejection](#level-15---rarely-used-strategies-ejection)
+  * [Discharge](#level-15---rarely-used-strategies-discharge)
+  * [Ejection & Discharge Extensions](#level-15---ejection--discharge-extensions)
+  * [Miscellaneous](#level-15---rarely-used-strategies-miscellaneous)
+* Head back to the [table of contents](#table-of-contents).
 
 <br />
 
