@@ -5,40 +5,6 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 
 ## The Backlog (General Conventions)
 
-@everyone Deleted conventions:
-
-**The Triple Bluff & The Triple One-Third Bluff & The Triple Two-Thirds Bluff & The 5 Triple Bluff** (deleted)
-
-```
-* These conventions are deleted due to lack of use.
-* Essentially, it is now impossible to perform a *Triple Bluff*.
-* Now, any 5 can be used to perform a *5's Double Bluff* in roughly the same way that the *4's Double Bluff* works. For a more thorough explanation, see the section in the document called "The 4 Double Bluff & The 5 Double Bluff".
-```
-
-**The Disease Bluff & The Heal Clue** (deleted) (by Florrat)
-
-```
-* Previously, when a *Bluff* occurred that was "mismatched", the *Disease Bluff* was the highest priority interpretation (requiring Cathy to perform a *Heal Clue*).
-* Now, both the *Disease Bluff* and the *Heal Clue* conventions are deleted. Now, Cathy is always supposed to assume a *Pestilent Double Bluff*.
-* See the section on the Pestilent Double Bluff in the doc for more specific details.
-* In very rare circumstances, if Cathy sees that she can transform the *Pestilent Double Bluff* into a *Clandestine Finesse*, then she should always do so. For more information, see the section in the doc called the *Diseased Clandestine Finesse*.
-```
-
-@everyone Clarified conventions:
-
-**The Bad Touch Layered Finesse That Dupes a Clued Card (Illegal)** (by Florrat)
-
-```
-* First, see the section on the *[Bad Touch Double Finesse (For 3's)](#the-bad-touch-double-finesse-for-3s)*.
-* Similar to a *Bad Touch Double Finesse (For 3's)*, it is also possible to try a *Bad Touch Layered Finesse* on the next player.
-* For example, in a 3-player game:
-  * No cards are played on the stacks.
-  * Alice clues both copies of red 3 in Cathy's hand.
-  * Bob blind-plays a blue 1.
-  * Bob knows that if only one red 3 was touched, this would just be a normal *3 Bluff*. However, since there was a bad touch, he knows that he must continue to blind-play cards until he finds the red 1 and the red 2.
-* *Bad Touch Layered Finesses* are **explicitly illegal** because they violate *Good Lie Principle* - Bob cannot demonstrate that it is a bad touch until after Cathy has already taken a turn.
-```
-
 @everyone Changed conventions:
 
 **Allowable Stall Clues** (change)
