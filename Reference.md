@@ -520,11 +520,13 @@ Note that in this user interface, players are **not** holding their hands like t
 
 * As soon as a clue is given to a card, if it is enough to determine the card's full identity, then the assumed identity is said to be locked in to the card. (On Hanabi Live, this is usually represented as a player writing an "identity note" on the card.)
 * For example, in a 3-player no variant game:
+  * It is the first turn and nothing is played on the stacks.
   * Alice clues Bob red, touching a red card on slot 1 as a *Play Clue*.
   * Bob immediately right-clicks on the card and writes a note" of "red 1".
   * This card is now "locked in" as a red 1. No future clues or actions from other players can ever change that.
 * As soon as a clue is given to a card that could be two or more different things, then the assumed superposition of all of the possibilities is locked in to the card.
 * For example, in 3-player rainbow game:
+  * It is the first turn and nothing is played on the stacks.
   * Alice clues Bob red, touching a red card on slot 1 as a *Play Clue*.
   * Bob immediately right-clicks on the card and writes a note" of "red 1 or rainbow 1".
   * This card is now "locked in" as this specific superposition. Future clues and actions can narrow down the cards in the superposition or completely collapse the superposition, but new cards can never be added to the superposition.
@@ -541,7 +543,7 @@ Note that in this user interface, players are **not** holding their hands like t
   * Donald knows that he must therefore have the red 4. He writes a note of "red 4" on his red card. It is now locked in forever as that card.
 * A direct conflict is the only thing that can "break" an information lock.
 * For example, in a 3-player game:
-  * Alice has a card that is locked in as red 2.
+  * Alice has a card that is locked in as a red 2.
   * Alice receives a blue clue, which happens to touch this card.
   * It obviously cannot be a red 2 anymore, so the *Information Lock* is broken.
 
