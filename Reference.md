@@ -536,6 +536,9 @@ Note that in this user interface, players are **not** holding their hands like t
   * Alice clues Bob red, touching a red card on slot 1 as a *Play Clue*.
   * Bob immediately right-clicks on the card and writes a note" of "red 1 or rainbow 1".
   * This card is now "locked in" as this specific superposition. Future clues and actions can narrow down the cards in the superposition or completely collapse the superposition, but new cards can never be added to the superposition.
+
+#### Information Lock on In-Between Cards
+
 * As soon as a clue is given to a card that is not immediately playable, the assumed identity is locked in to the card **and** the identity of all of the in-between cards are also locked in.
 * For example, in a 3-player no variant game:
   * Red 1 is played on the stacks.
@@ -547,6 +550,9 @@ Note that in this user interface, players are **not** holding their hands like t
   * Donald knows that from *Good Touch Principle*, his red card cannot be red 2, since Bob has that card clued in his hand.
   * Donald knows that from *Good Touch Principle*, his red card cannot be red 3, since Cathy has that card clued in her hand.
   * Donald knows that he must therefore have the red 4. He writes a note of "red 4" on his red card. It is now locked in forever as that card.
+
+#### Breaking Information Lock
+
 * A direct conflict is the only thing that can "break" an information lock.
 * For example, in a 3-player game:
   * Alice has a card that is locked in as a red 2.
