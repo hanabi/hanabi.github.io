@@ -2332,17 +2332,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * However, Donald also knows that any 4 in the game can be used to perform a *Double Bluff*.
   * Thus, Donald marks his red card as either a red 3 (if it was a *Double Half Bluff*) or a red 4 (if it was a *4 Double Bluff*).
 
-### The 5's Triple Bluff
-
-* The example in the previous section was a "normal" *Triple Bluff* because the red 5 was three-away-from-playable. However, players also explicitly agree that a *Triple Bluff* target can be **any** 5, even if it is not exactly three-away-from-playable. (This is the extension of the *3 Bluff* convention and the *4's Double Bluff* convention.)
-* For example, in a 5-player game:
-  * All the 1's are played on the stacks except for red 1.
-  * Emily has a red 5 that has a number 5 clue on it. (It was *5 Saved* in the *Early Game*.)
-  * Alice clues number 5 to Emily, re-touching the 5 as a *Play Clue*.
-  * Bob, Cathy, and Donald blind-play their *Finesse Position* cards.
-  * Emily knows that when the number 5 clue was given, the red 5 was four-away from playable, and all of the other 5's were three-away from playable. This means that normally, Emily would mark her 5 as any 5 except for red 5. (This is because cards that are three-away-from-playable are normally used to *Triple Bluff*.)
-  * However, since the *5's Triple Bluff* convention exists, Emily knows that any 5 can be used to initiate a *Triple Bluff*. Thus, her 5 can be **any** 5 in the game, including red 5.
-
 ### The Gentleman's Discard That Looks Like an Unnecessary Reverse Trash Finesse
 
 * First, see the section on the *[Unnecessary Trash Finesse Chop Move](#the-unnecessary-trash-finesse-chop-move--the-unnecessary-trash-bluff-chop-move)*. Basically, if a *Trash Finesse* is unnecessary, then it also causes a *Chop Move*.
