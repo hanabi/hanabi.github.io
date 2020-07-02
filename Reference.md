@@ -2637,7 +2637,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Cathy knows that this is probably a *4's Double Bluff*. Cathy blind-plays her *Finesse Position* as any playable card. It is a blue 3 and it successfully plays.
   * Donald knows that Emily will go on to incorrectly think that her red 4 is a blue 4 (because Alice's clue looks like a *Double Finesse*). Thus, Alice's clue is quite strange.
   * Alice must be intending for Donald to also blind-play his *Finesse Position* in order to "heal" the problem. Donald blind-plays his *Finesse Position*. It is a green 2 and it successfully plays.
-  * At first, Emily thought that her 4 was the blue 4, in order to match the blue 2 and the blue 3. However, if that was the case, then Donald would not have blnid-played anything. Emily knows that this must be a *Pestilent Triple Bluff*, and her 4 is any other 4 than blue 4 (because Donald blind-played) and green 4 (because Bob would have waited for Donald).
+  * At first, Emily thought that her 4 was the blue 4, in order to match the blue 2 and the blue 3. However, if that was the case, then Donald would not have blind-played anything. Emily knows that this must be a *Pestilent Triple Bluff*, and her 4 is any other 4 than blue 4 (because Donald blind-played) and green 4 (because Bob would have waited for Donald).
 
 ### The Diseased Clandestine Finesse
 
