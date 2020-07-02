@@ -93,6 +93,22 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
   * Similar to Bob, Donald also sees that the *Trash Push* was unnecessary. Since Bob did not blind-play anything, this must be an *Unnecessary Trash Push Finesse*. Donald blind-plays his *Finesse Position* as red 4 and it successfully plays.
 ```
 
+**The Pestilent Triple Bluff** (by asaelr)
+
+```
+* First, see the section on the *[Pestilent Double Bluff](#pestilent-double-bluff)*.
+* Rarely, it is possible that *Pestilent*-style clue is performed with a two-away-from-playable card instead of a one-away-from-playable card. In this situation, it would transform into a *Triple Bluff* instead of a *Double Bluff*.
+* Note that normally, *Triple Bluffs* are explicitly illegal. But *Pestilent Triple Bluffs* are an exception to this rule.
+* For example, in a 5-player game:
+  * All the 1's are played on the stacks.
+  * Alice clues number 4 to Emily, touching a red 4 as a *Play Clue*.
+  * Bob attempts to blind-play a red 2 from his *Finesse Position*. Instead, it is a blue 2, and it successfully plays.
+  * Cathy knows that this is probably a *4's Double Bluff*. Cathy blind-plays her *Finesse Position* as any playable card. It is a blue 3 and it successfully plays.
+  * Donald knows that Emily will go on to incorrectly think that her red 4 is a blue 4 (because Alice's clue looks like a *Double Finesse*). Thus, Alice's clue is quite strange.
+  * Alice must be intending for Donald to also blind-play his *Finesse Position* in order to "heal" the problem. Donald blind-plays his *Finesse Position*. It is a green 2 and it successfully plays.
+  * At first, Emily thought that her 4 was the blue 4, in order to match the blue 2 and the blue 3. However, if that was the case, then Donald would not have blind-played anything. Emily knows that this must be a *Pestilent Triple Bluff*, and her 4 is any other 4 than blue 4 (because Donald blind-played) and green 4 (because Bob would have waited for Donald).
+```
+
 <br />
 
 ## The Backlog (Variant-Specific Conventions)
