@@ -531,13 +531,13 @@ Note that in this user interface, players are **not** holding their hands like t
 * As soon as a clue is given to a card that is not immediately playable, the assumed identity is locked in to the card **and** the identity of all of the in-between cards are also locked in.
 * For example, in a 3-player no variant game:
   * Red 1 is played on the stacks.
-  * Bob has three unknown 2's in his hand.
-  * Cathy has three unknown 3's in her hand.
+  * Bob has one card in his hand clued with number 2. (It is currently unknown.)
+  * Cathy has one card in her hand clued with number 3. (It is currently unknown.)
   * Alice clues Donald red, touching a red 4 as a *Play Clue*.
-  * Bob is promised to have the red 2. He writes a note of "red 2" on his left-most 2. It is now locked in forever as that card.
-  * Cathy is promised to have the red 3. She writes a note of "red 3" on her left-most 3. It is now locked in forever as that card.
-  * Donald knows that from *Good Touch Principle*, his red card cannot be red 2, since Bob has that card.
-  * Donald knows that from *Good Touch Principle*, his red card cannot be red 3, since Cathy has that card.
+  * Bob is promised to have the red 2. He writes a note of "red 2" on his clued 2. It is now locked in forever as that card.
+  * Cathy is promised to have the red 3. She writes a note of "red 3" on her clued 3. It is now locked in forever as that card.
+  * Donald knows that from *Good Touch Principle*, his red card cannot be red 2, since Bob has that card clued in his hand.
+  * Donald knows that from *Good Touch Principle*, his red card cannot be red 3, since Cathy has that card clued in her hand.
   * Donald knows that he must therefore have the red 4. He writes a note of "red 4" on his red card. It is now locked in forever as that card.
 * A direct conflict is the only thing that can "break" an information lock.
 * For example, in a 3-player game:
