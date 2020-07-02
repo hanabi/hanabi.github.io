@@ -516,6 +516,35 @@ Note that in this user interface, players are **not** holding their hands like t
 
 ## Level 3 - Initiate - General Principles
 
+### Information Lock Principle
+
+* As soon as a clue is given to a card, if it is enough to determine the card's full identity, then the assumed identity is said to be locked in to the card. (On Hanabi Live, this is usually represented as a player writing an "identity note" on the card.)
+* For example, in a 3-player no variant game:
+  * Alice clues Bob red, touching a red card on slot 1 as a *Play Clue*.
+  * Bob immediately right-clicks on the card and writes a note" of "red 1".
+  * This card is now "locked in" as a red 1. No future clues or actions from other players can ever change that.
+* As soon as a clue is given to a card that could be two or more different things, then the assumed superposition of all of the possibilities is locked in to the card.
+* For example, in 3-player rainbow game:
+  * Alice clues Bob red, touching a red card on slot 1 as a *Play Clue*.
+  * Bob immediately right-clicks on the card and writes a note" of "red 1 or rainbow 1".
+  * This card is now "locked in" as this specific superposition. Future clues and actions can narrow down the cards in the superposition or completely collapse the superposition, but new cards can never be added to the superposition.
+* As soon as a clue is given to a card that is not immediately playable, the assumed identity is locked in to the card **and** the identity of all of the in-between cards are also locked in.
+* For example, in a 3-player no variant game:
+  * Red 1 is played on the stacks.
+  * Bob has three unknown 2's in his hand.
+  * Cathy has three unknown 3's in her hand.
+  * Alice clues Donald red, touching a red 4 as a *Play Clue*.
+  * Bob is promised to have the red 2. He writes a note of "red 2" on his left-most 2. It is now locked in forever as that card.
+  * Cathy is promised to have the red 3. She writes a note of "red 3" on her left-most 3. It is now locked in forever as that card.
+  * Donald knows that from *Good Touch Principle*, his red card cannot be red 2, since Bob has that card.
+  * Donald knows that from *Good Touch Principle*, his red card cannot be red 3, since Cathy has that card.
+  * Donald knows that he must therefore have the red 4. He writes a note of "red 4" on his red card. It is now locked in forever as that card.
+* A direct conflict is the only thing that can "break" an information lock.
+* For example, in a 3-player game:
+  * Alice has a card that is locked in as red 2.
+  * Alice receives a blue clue, which happens to touch this card.
+  * It obviously cannot be a red 2 anymore, so the *Information Lock* is broken.
+
 ### Efficiency
 
 * A big part of Hanabi is of trying to be as efficient as possible. This means that players will generally try to "get" as many cards with one clue as possible.
