@@ -18,7 +18,7 @@ Why is this kind of thing important? A common mistake we see from intermediate p
 
 The following is a quick summary of the levels.
 
-* Basic *[Chop Moves](../Reference.md#the-layered-finesse)* should not be used until level 3.
+* Basic *[Chop Moves](../Reference.md#the-chop-move)* should not be used until level 3.
 * *[Layered Finesses](../Reference.md#the-layered-finesse)* should not be used until level 4.
 * *[Order Chop Moves](../Reference.md#the-order-chop-move--the-skipped-order-chop-move)* should not be used until level 5.
 * *[Bluffs](../Reference.md#the-bluff)* should not be used until level 8.
