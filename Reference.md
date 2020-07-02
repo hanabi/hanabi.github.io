@@ -2332,6 +2332,17 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * However, Donald also knows that any 4 in the game can be used to perform a *Double Bluff*.
   * Thus, Donald marks his red card as either a red 3 (if it was a *Double Half Bluff*) or a red 4 (if it was a *4 Double Bluff*).
 
+### The Hard 5 Double Bluff
+
+* Similar to a *Hard 3 Bluff* and a *Hard 4 Double Bluff*, it is also possible to perform a *Hard 5 Double Bluff*.
+* For example, in a 5-player game:
+  * All the 1's are played on the stacks.
+  * Alice clues number 5 to Emily, touching a red 5 as a *Play Clue*.
+  * Bob blind-plays a red 2 from his *Finesse Position*.
+  * Cathy blind-plays a red 3 from her *Finesse Position*.
+  * Donald sees that no-one else has any red cards in their hand. Thus, if this was a *Triple Finesse* on the red 5, then Donald should blind-play the red 4 right now.
+  * However, Donald also knows that 5's are valid *Double Bluff* targets. Since number 3 does not match number 5, Donald knows that he should prefer the *Double Bluff* interpretation (that gets two blind-plays) over the *Triple Finesse* interpretation (that gets three blind-plays).
+
 ### The Gentleman's Discard That Looks Like an Unnecessary Reverse Trash Finesse
 
 * First, see the section on the *[Unnecessary Trash Finesse Chop Move](#the-unnecessary-trash-finesse-chop-move--the-unnecessary-trash-bluff-chop-move)*. Basically, if a *Trash Finesse* is unnecessary, then it also causes a *Chop Move*.
