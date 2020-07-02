@@ -518,12 +518,18 @@ Note that in this user interface, players are **not** holding their hands like t
 
 ### Information Lock Principle
 
+#### Information Lock with the Full Identity
+
 * As soon as a clue is given to a card, if it is enough to determine the card's full identity, then the assumed identity is said to be locked in to the card. (On Hanabi Live, this is usually represented as a player writing an "identity note" on the card.)
 * For example, in a 3-player no variant game:
   * It is the first turn and nothing is played on the stacks.
   * Alice clues Bob red, touching a red card on slot 1 as a *Play Clue*.
   * Bob immediately right-clicks on the card and writes a note" of "red 1".
   * This card is now "locked in" as a red 1. No future clues or actions from other players can ever change that.
+
+#### Information Lock with a Superposition
+
+* A *[superposition](https://en.wikipedia.org/wiki/Quantum_superposition)* is a term from [quantum mechanics](https://en.wikipedia.org/wiki/Quantum_mechanics) that describes how something can be two different things at the same time. For example, an electron is a type of a particle, and an electron can either be "spin up" or "spin down". But an electron could also be in a superposition of both "spin up" and "spin down" at the same time, as weird as that sounds. Eventually, if the electron happens to bounces off of something (e.g. is measured), then the superposition will "collapse" and it will **only** be in a "spin up" or "spin down" state. The details of quantum mechanics are not important - the main point is that we treat unknown Hanabi cards sort of like unknown particles: even though they **really** have a true identity, we ignore that and treat them as being all of the possibilities at the same time.
 * As soon as a clue is given to a card that could be two or more different things, then the assumed superposition of all of the possibilities is locked in to the card.
 * For example, in 3-player rainbow game:
   * It is the first turn and nothing is played on the stacks.
