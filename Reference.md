@@ -238,6 +238,7 @@ Note that in this user interface, players are **not** holding their hands like t
 * In the above screenshot, on the first turn of the game, Alice clues number 1 to Bob, which touches three 1s on slot 2, slot 3, and slot 4.
 * From *Good Touch Principle*, Bob knows that he can now play all 3 of these cards.
 * Bob should play the slot 4 card first, and then the slot 3 card, and then the slot 2 card.
+* The logic behind this convention is explained [here](misc/Convention_Reasons.md#play-order-of-multiple-1s).
 
 ### The Double Prompt / Triple Prompt / etc.
 
