@@ -102,6 +102,11 @@ In this guide, there will be some screenshots to show off the concepts introduce
 * Before this clue, Bob's hand was completely unclued. So, with this clue, **three new cards were introduced** - slot 1, slot 2, and slot 5.
 * Before this clue, Bob's chop was slot 5. So, since the clue touched his chop and *Chop Focus* has priority, this must be a *Chop Focus Play Clue* on purple 1. Bob should play the slot 5 card as purple 1.
 
+#### Why Chop Focus?
+
+* At first glance, it might seem unusual that clues are always focused on the chop, even if they are *Play Clues*.
+* If you would like to learn more about why we play this way, read [this section](misc/Convention_Reasons.md#chop-focus).
+
 <br />
 
 ## Play Clues & Save Clues
