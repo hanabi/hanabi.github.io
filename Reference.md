@@ -1531,6 +1531,7 @@ Note that in this user interface, players are **not** holding their hands like t
 * The priority of *3 Bluffs* can be confusing. If you don't want to memorize the four examples above, you can simply ask the following questions:
   1) Does the clue "match" the blind-play? If it matches, then it is a *Finesse*. If it doesn't match, then it is a *Bluff*. Red matches red, but red does **not** match blue. 2 matches 3, but 1 does **not** match 3.
   2) Will the player who received the clue go on to misplay if nothing else is blind-played? If yes, then it is a *Finesse*. If no, then it is a *Bluff*.
+* For a discussion of why we play with this convention, read the [story of 3 Bluffs](misc/3_Bluffs.md).
 
 ### Context Clues & The Stale 1's Clue
 
