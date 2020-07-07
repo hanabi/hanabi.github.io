@@ -107,7 +107,7 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 * At the beginning of the game, when you get a clue that touches multiple 1's, you are supposed to play them from right-to-left (in exactly in the same way that you would in a no variant game).
 * Players are not allowed to *Order Chop Move*, because they could be misplaying a pink card. (Also see the following two sections, which are related.)
 
-### Pink Fix Clues (on 1's)
+### The Pink Fix Clue (on 1's)
 
 * Normally, when someone receives a number 1 clue that touches a bunch of 1's, they will play all of those 1's from oldest to newest.
 * If a subsequent clue "fills in" one of the 1s to be a pink card, then the player will **not** play that card anymore (because it could just be any pink card in the game).
@@ -124,9 +124,8 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 
 ### The Pink Fix Promise (PFP)
 
-* First, see the section 
-* In pink variants, number 1 clues will also touch pink cards. In these situations, some of the true 1's will be played, and then the team must give a *Fix Clue* before the other pink cards are misplayed.
-* Normally, *Pink Promise* only applies when a pink card is the focus of a clue. However, as an exception, *Pink Promise* also applies to a *Fix Clue* that stop a card marked with a number 1 clue from misplaying.
+* First, see the section on the *[Pink Fix Clue (on 1's)](#the-pink-fix-clue-on-1s)*
+* Normally, *Pink Promise* only applies when a pink card is the focus of a clue. However, as an exception, *Pink Promise* also applies to a *Pink Fix Clue* that stops a card marked with a number 1 clue from misplaying.
 * For example, in a 3-player game:
   * Alice clues number 1 to Bob, touching three 1's in slot 1, slot 2, and slot 3.
   * Bob plays slot 3 and it is a red 1.
@@ -139,6 +138,11 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
   * Thus, Bob knows that the point of Alice's clue was a *Fix Clue* to stop him from playing the pink card. The 3 on his chop could be any 3 in the game. Furthermore, Bob knows that *Pink Promise* applies to this *Fix Clue* and that his pink card should be a pink 3.
 * As an exception, *Pink Fix Promise* does **not** apply when the *Fix Clue* is a number 2 clue or a number 5 clue and the newly introduced card was on chop. An example of this can be found in the previous section, "Pink Fix Clues (on 1's)". (In this example, Bob's pink card is not necessarily a pink 5; it can be any pink card in the game.)
 
+### Remaining 1's After All the 1's Have Been Played
+
+* Often times, in the beginning of the game, a player will receives a number 1 clue that touches a bunch of 1's. In these situations, they will play them all from oldest to newest.
+* If all of the 1's have been successfully played on the stacks and a player still has 1's remaining in their hand, they should mark them as useful pink cards and hold on to them for later.
+  * In other words, they should **not** assume that that they have the next playable pink card (e.g. pink 2).
 
 ### Pink Choice Tempo Clue
 
