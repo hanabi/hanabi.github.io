@@ -120,11 +120,13 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
   * Cathy discards.
   * Alice clues number 5 to Bob, touching a 5 on his chop as a *5 Save*. This also "fills in" the 1 to be a pink card.
   * Bob knows that the pink card in his hand *could* be a pink 1. However, it could also be any other pink card in the game. Bob knows that when 1's are filled in to be pink, they should not be played anymore.
+* *Pink Fix Clues* do not necessarily have to be performed "just in time". In other words, **any** rank clue that "fills in" a pink card should stop it from being played, even if the clue was early.
 
-### Pink Fix Promise (PFP)
+### The Pink Fix Promise (PFP)
 
-* Normally, *Pink Promise* only applies when a pink card is the focus of a clue.
-* However, as an exception, *Pink Promise* also applies in the situation where a bunch of 1's are clued and then one of the 1's is "filled in" as pink card to stop it from being played as a 1.
+* First, see the section 
+* In pink variants, number 1 clues will also touch pink cards. In these situations, some of the true 1's will be played, and then the team must give a *Fix Clue* before the other pink cards are misplayed.
+* Normally, *Pink Promise* only applies when a pink card is the focus of a clue. However, as an exception, *Pink Promise* also applies to a *Fix Clue* that stop a card marked with a number 1 clue from misplaying.
 * For example, in a 3-player game:
   * Alice clues number 1 to Bob, touching three 1's in slot 1, slot 2, and slot 3.
   * Bob plays slot 3 and it is a red 1.
@@ -134,9 +136,9 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
   * Cathy discards.
   * Alice clues number 3 to Bob, touching a 3 on his chop. This also "fills in" the 1 to be a pink card.
   * Bob knows that the pink card in his hand could technically be a pink 1. However, Bob also knows that when 1's are filled in to be pink, they should not be played anymore.
-  * Thus, Bob knows that the point of Alice's clue was a *Fix Clue* to stop him from playing the pink card. The 3 on his chop could be any 3 in the game. Furthermore, Bob knows that *Pink Promise* applies to this *Fix Clue* and that his pink card should be exactly *Pink 3*.
+  * Thus, Bob knows that the point of Alice's clue was a *Fix Clue* to stop him from playing the pink card. The 3 on his chop could be any 3 in the game. Furthermore, Bob knows that *Pink Promise* applies to this *Fix Clue* and that his pink card should be a pink 3.
 * As an exception, *Pink Fix Promise* does **not** apply when the *Fix Clue* is a number 2 clue or a number 5 clue and the newly introduced card was on chop. An example of this can be found in the previous section, "Pink Fix Clues (on 1's)". (In this example, Bob's pink card is not necessarily a pink 5; it can be any pink card in the game.)
-* A *Fix Clue* to a 1 that will misplay as a pink card does not necessarily have to be performed "just in time". In other words, if a person has unplayed cards marked with a number 1 clue, **any** rank clue to their hand will "fill in" the cards as pink and completely stop them from being played.
+
 
 ### Pink Choice Tempo Clue
 
