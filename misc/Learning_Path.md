@@ -12,6 +12,8 @@ Handily, the main [reference document](../Reference.md) is sorted into different
 
 Why is this kind of thing important? A common mistake we see from intermediate players is that once they learn about an advanced move, they think that they understand how it works, and then they whip it out in a situation that is completely out of place. As the expression goes, "you have to learn to walk before you learn to run". Intermediate players who know advanced moves but have poor planning and a poor understanding of the game **are much harder to play with** than intermediate players who stick to the basics, make predictable moves, and incorporate things slowly.
 
+For information on how variants tie in to the levels, see the [variant summary](#variant-summary).
+
 <br />
 
 ### Level Summary
@@ -172,3 +174,20 @@ The following is a brief description of each level.
 
 * Level 15 strategies are separated from the rest because they do not come up that often. Thus, non-expert players do not have to worry about learning them. If they do come up in a game, players with experience can often figure out what to do on-the-fly. Even if they don't, they can quickly learn about them in the post-game review, and then use the document as a reference later on in case they need to refresh their memory.
   * [Level 15 Section](../Reference.md#level-15---rarely-used-strategies)
+
+<br />
+
+## Variant Summary
+
+Hanabi Live has a lot of different variants and the Hyphen-ated group plays a good mix of many different kinds of variants. The point of variants is that they increase the difficulty of the game, giving experienced players an additional challenge. In the same way that it is counterproductive to play with advanced conventions before you have a good grasp of the underlying mechanics, it is equally counterproductive to play with complicated variants. For that reason, beginners should stick to playing "No Variant" until they have the fundamentals down.
+
+The following is a rough description of how some variants map to convention levels.
+
+| Variant    | Level
+| ----------- | -----
+| No Variant  | 1
+| 3/4/6 Suits | 2
+| Black       | 4
+| Rainbow     | 4
+| Pink        | 8
+| Brown       | 8
