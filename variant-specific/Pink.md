@@ -221,8 +221,9 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 
 ### Pink Promise with a 5's Chop Move
 
+* First, see the section on *[Pink Promise with a 5 Stall](#pink-promise-with-a-5-stall)*.
 * When a player performs a *5's Chop Move*, it is clearly a type of *Save Clue*. But if two or more 5's are touched as part of the clue, the focus of the clue is unclear.
-* We define the focus of the clue to be the specific 5 that is one-away from the chop.
+* We define the focus of the clue to be the specific 5 that is one-away from the chop. (This is similar to how *Pink Promise* works with a *5 Stall*.)
 * Thus, when a player knows for sure that a number 5 clue indicates a *5's Chop Move*, the *Pink Promise* convention only applies to the 5 that is one-away from the chop.
 * For example, in a 3-player game:
   * The variant is "Pink (6 Suits)".
