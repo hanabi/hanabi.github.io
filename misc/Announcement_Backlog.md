@@ -93,6 +93,14 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
   * Similar to Bob, Donald also sees that the *Trash Push* was unnecessary. Since Bob did not blind-play anything, this must be an *Unnecessary Trash Push Finesse*. Donald blind-plays his *Finesse Position* as red 4 and it successfully plays.
 ```
 
+**The Pestilent Finesse** (by Florrat)
+
+```
+* First, see the section on the *[Pestilent Double Bluff](#pestilent-double-bluff)*.
+* In the *Pestilent Double Bluff* example above, Cathy has to blind-play her *Finesse Position* card in order to "heal" the situation with Bob.
+* However, if Cathy sees that someone else on the team has the red 2 in their *Finesse Position*, then Cathy can see that it is a *Pestilent Finesse* instead of a *Pestilent Bluff*. Cathy can simply let the person with the actual red 2 blind-play and that will "heal" the problem in the exact same way.
+```
+
 **The Pestilent Triple Bluff** (by asaelr)
 
 ```
