@@ -407,7 +407,7 @@ Note that in this user interface, players are **not** holding their hands like t
 * The *Sarcastic Discard* is similar to the *Prompt*, except that it is initiated by a discard instead of a clue.
 * However, unlike a *Prompt*, if there are multiple cards that a *Sarcastic Discard* could apply to, then it does **not** promise that it is the left-most card. It only promises that they have the card somewhere. For example:
   * Alice *Sarcastic Discards* a red 3.
-  * Bob has two cards clued with number 3 in his hand. He doesn't have any color information on either 3.
+  * Bob has two cards clued with number 3 in his hand. He does not have any color information on either 3.
   * Bob can be certain that one of the two 3's is red 3, but he does not know which one it is yet.
 
 ### Playing Multiple 1's - The Fresh 1's Rule (Part 2)
@@ -659,8 +659,8 @@ Note that in this user interface, players are **not** holding their hands like t
 
 ### The Hidden Finesse
 
-* Sometimes, you want to *Finesse* someone with a clued card already in their hand. However, if you try to *Finesse* them, they will assume it is a *Prompt* and will misplay their clued card, so it doesn't work out.
-* However, what if the clued card actually is playable? That means you can still do the *Finesse* - they will play the *Prompted* card, see that it wasn't the card you had intended, and then blind-play their 2nd newest card on the next turn. This is called a *Hidden Finesse* because the *Finesse* was temporarily hidden by the presence of clued card.
+* Sometimes, you want to *Finesse* someone with a clued card already in their hand. However, if you try to *Finesse* them, they will assume it is a *Prompt* and will play their clued card. Which means that a lot of the time, you can't give a *Finesse*, and must instead clue the card directly.
+* However, what if the clued card actually is playable? In that case, you can still do the *Finesse* - they will play the *Prompted* card, see that it wasn't the card you had intended, and then blind-play their 2nd newest card on the next turn. This is called a *Hidden Finesse* because the *Finesse* was temporarily hidden by the presence of clued card.
 * For example, in a 3-player game:
     * Red 1 and rainbow 2 are played on the stacks.
     * Alice clues red to Cathy, which touches her red 3.
@@ -1529,7 +1529,7 @@ Note that in this user interface, players are **not** holding their hands like t
       * Beyond that, Cathy knows nothing about the card, besides that it is a 3 (since it has a number 3 clue on it).
       * Even though red 1 and red 3 are the same suit, Bob is not promised a red 2, because if he does nothing, Cathy will not go on to misplay the red 3.
 * The priority of *3 Bluffs* can be confusing. If you don't want to memorize the four examples above, you can simply ask the following questions:
-  1) Does the clue "match" the blind-play? If it matches, then it is a *Finesse*. If it doesn't match, then it is a *Bluff*. Red matches red, but red does **not** match blue. 2 matches 3, but 1 does **not** match 3.
+  1) Does the clue "match" the blind-play? If it matches, then it is a *Finesse*. If it does not match, then it is a *Bluff*. Red matches red, but red does **not** match blue. 2 matches 3, but 1 does **not** match 3.
   2) Will the player who received the clue go on to misplay if nothing else is blind-played? If yes, then it is a *Finesse*. If no, then it is a *Bluff*.
 
 ### Context Clues & The Stale 1's Clue
@@ -1619,7 +1619,7 @@ Note that in this user interface, players are **not** holding their hands like t
 
 ### The 4's Priority Exception
 
-* If a player has a known playable 5 and a known playable 4 that leads into their own hand, then according to the above *Priority* table, the known playable 4 would have *Priority*. However, this doesn't make much sense, since the 5 has to be played no matter what, playing the 5 gives the team a clue back, the 4 could be played by someone else, and so on.
+* If a player has a known playable 5 and a known playable 4 that leads into their own hand, then according to the above *Priority* table, the known playable 4 would have *Priority*. However, this does not make much sense, since the 5 has to be played no matter what, playing the 5 gives the team a clue back, the 4 could be played by someone else, and so on.
 * Thus, if a player has a known playable 5 and a known playable 4 that leads into their own hand, then the 5 is said to have *Priority*.
 
 ### The Priority Bluff
@@ -2622,7 +2622,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Alice goes first.
   * Bob has a red 1 on slot 1 and a blue 2 on slot 2.
   * Alice clues number 2 to Bob, touching a blue 2 on slot 2.
-  * Bob doesn't see any other 1's on *Finesse Position*. Thus, the number 2 clue must be a *Self-Finesse*, so he blind-plays red 1.
+  * Bob does not see any other 1's on *Finesse Position*. Thus, the number 2 clue must be a *Self-Finesse*, so he blind-plays red 1.
   * Cathy comes next. From her perspective, Bob should currently think that his slot 2 card is red 2 (instead of blue 2). If nothing else happens, Bob will go on to misplay that card.
   * Cathy knows that technically, she could give a *Fix Clue* to Bob to fix the situation. However, is that what Alice really intended? That would be waste a clue and would be really inefficient. Alice must be trying to communicate something extra.
 * In almost all cases, Cathy should blind-play her *Finesse Position* card as the red 2. Doing so would "heal" the situation, since Bob would no longer think he has the red 2.
@@ -2645,6 +2645,12 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Donald knows that Emily will go on to incorrectly think that her red 4 is a blue 4 (because Alice's clue looks like a *Double Finesse*). Thus, Alice's clue is quite strange.
   * Alice must be intending for Donald to also blind-play his *Finesse Position* in order to "heal" the problem. Donald blind-plays his *Finesse Position*. It is a green 2 and it successfully plays.
   * At first, Emily thought that her 4 was the blue 4, in order to match the blue 2 and the blue 3. However, if that was the case, then Donald would not have blind-played anything. Emily knows that this must be a *Pestilent Triple Bluff*, and her 4 is any other 4 than blue 4 (because Donald blind-played) and green 4 (because Bob would have waited for Donald).
+
+### The Pestilent Finesse
+
+* First, see the section on the *[Pestilent Double Bluff](#pestilent-double-bluff)*.
+* In the *Pestilent Double Bluff* example above, Cathy has to blind-play her *Finesse Position* card in order to "heal" the situation with Bob.
+* However, if Cathy sees that someone else on the team has the red 2 in their *Finesse Position*, then Cathy can see that it is a *Pestilent Finesse* instead of a *Pestilent Bluff*. Cathy can simply let the person with the actual red 2 blind-play and that will "heal" the problem in the exact same way.
 
 ### The Diseased Clandestine Finesse
 
@@ -3289,9 +3295,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * Unless the duplication was a last-resort, if the teammate duplicates the blind card, it **promises** that the duplicated card is on *Finesse Position* (and there is **no** *Layered Finesse*), which allows the recipient of the *Finesse* to blind-discard that card, similar to a *Certain Discard*.
 * Finally, from the perspective of the player receiving the clue, if they end up playing the duplicated card first, then they should know that the focus of the original clue was on the other, non-duplicated card, and they can play it immediately afterwards. (Otherwise, the original clue would be fairly low-value.)
 * Note that as long as the duplication clue touches two or more cards, the *Certain Discard Duplication Promise* interpretation takes priority over the *Unknown Trash Discharge* interpretation. (*Discharge* is an advanced move that is covered later on.)
-* Examples:
-  * Game #6817, turn 15
-  * Game #6799, turn 5
 
 ### The Certain Finesse Clandestine Exception
 
