@@ -46,7 +46,7 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
   * Cathy has a pink 2 on chop followed by a blue 5.
   * Alice and Bob need to give a *Save Clue* to both the pink 2 and the blue 5.
   * If Alice gave a number 5 clue, it would save both of the cards in one fell swoop, since a number 5 clue would touch the pink 2.
-  * However, doing that would break the *Pink Promise* convention, since once Cathy learns that her slot 5 card is a pink card, she will always assume that it is a pink 5.
+  * However, doing that would break *Pink Promise*, since once Cathy learns that her slot 5 card is a pink card, she will always assume that it is a pink 5.
   * Thus, Alice gives a number 2 clue as a *2 Save* on the pink 2, and then Bob clues a number 5 clue as a *5 Save* on the blue 5.
 
 ### The Pink Play Clue Lie (with multiple 1's)
@@ -208,7 +208,7 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 
 * When a player performs a *5 Stall*, it is clearly a type of *Save Clue*. But if two or more 5's are touched as part of the clue, the focus of the clue is unclear.
 * We define the focus of the clue to be the specific 5 that is closest to the chop.
-* Thus, when a player knows for sure that a number 5 clue indicates a *5 Stall*, the *Pink Promise* convention only applies to the 5 that is closest to the chop.
+* Thus, when a player knows for sure that a number 5 clue indicates a *5 Stall*, *Pink Promise* only applies to the 5 that is closest to the chop.
 * For example, in a 3-player game:
   * The variant is "Pink (6 Suits)".
   * It is the *Early Game* and all of the *Play Clues* and *Save Clues* have been extinguished.
@@ -224,7 +224,7 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 * First, see the section on *[Pink Promise with a 5 Stall](#pink-promise-with-a-5-stall)*.
 * When a player performs a *5's Chop Move*, it is clearly a type of *Save Clue*. But if two or more 5's are touched as part of the clue, the focus of the clue is unclear.
 * We define the focus of the clue to be the specific 5 that is one-away from the chop. (This is similar to how *Pink Promise* works with a *5 Stall*.)
-* Thus, when a player knows for sure that a number 5 clue indicates a *5's Chop Move*, the *Pink Promise* convention only applies to the 5 that is one-away from the chop.
+* Thus, when a player knows for sure that a number 5 clue indicates a *5's Chop Move*, *Pink Promise* only applies to the 5 that is one-away from the chop.
 * For example, in a 3-player game:
   * The variant is "Pink (6 Suits)".
   * It is the middle of the game and no 5's are yet playable.
@@ -241,7 +241,7 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 * First, see the section on *[Pink Promise with a 5's Chop Move](#pink-promise-with-a-5s-chop-move)*.
 * When a player performs a *5 Pull*, it is clearly a type of *Play Clue*. But if two or more 5's are touched as part of the clue, then the focus of the clue is unclear.
 * We define the focus of the clue to be the next to the "pulled" card. (This is similar to how *Pink Promise* works with a *5's Chop Move*.)
-* Thus, when a player knows for sure that a number 5 clue indicates a *5 Pull*, the *Pink Promise* convention only applies to the 5 that is next to the pulled card.
+* Thus, when a player knows for sure that a number 5 clue indicates a *5 Pull*, *Pink Promise* only applies to the 5 that is next to the pulled card.
 * For example, in a 3-player game:
   * The variant is "Pink (6 Suits)".
   * It is the first turn of the game and nothing is played on the stacks.
