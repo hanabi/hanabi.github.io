@@ -40,7 +40,8 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 
 ### Pink Promise
 
-* When a pink card is focused by a rank clue, the number must match the true identity of the focused card. This applies to all clues: *Play Clues*, *Save Clues*, *5 Stalls*, etc.
+* When a pink card is focused by a rank clue, the number must match the true identity of the card. In other words, the focused card is *Promised* to match the number of the rank clue.
+* *Pink Promise* applies to all clues: *Play Clues*, *Save Clues*, *5 Stalls*, etc.
 * For example, in a 3-player game:
   * Cathy has a pink 2 on chop followed by a blue 5.
   * Alice and Bob need to give a *Save Clue* to both the pink 2 and the blue 5.
