@@ -988,7 +988,7 @@ Note that in this user interface, players are **not** holding their hands like t
   * However, as an exception, players are also allowed to *5 Stall* if there is **only one** *Play Clue* remaining and it would touch a card on *Finesse Position*. (We refer to this as the *Finesse Position Exception*.)
   * The *Finesse Position Exception* also applies if the same card is in multiple *Finesse Positions* and there is nothing else to do.
   * The *Finesse Position Exception* applies for **all** situations in which players are allowed to *5 Stall*.
-* *5 Stalls* **cannot** be given if there are any playable 5's. In this situation, a number 5 clue would just look like a *Play Clue* on the 5.
+* *5 Stalls* **cannot** be given in the *Mid-Game* if there are any playable 5's. In this situation, a number 5 clue would just look like a *Play Clue* on the 5.
 * *5 Stalls* **must** be given to the 5 that is closest to chop. For example, in a 3-player game:
   * It is the *Early Game*. The only thing left for Alice to do is to clue an off-chop 5.
   * Bob has two playable 1's on slots 1 and 2. He has a 5 on slot 4. Bob's 5 is therefore one-away from chop.
@@ -1883,12 +1883,6 @@ Priority does not always apply. Some common exceptions are listed below.
   * Normally, Bob would think that this is a *Finesse* and that he should blind-play his *Finesse Position* card as the red 4.
   * However, *5 Pulls* take precedence over *Finesses*. Bob can see that there is a playable blue 1 to the right of the 5, so no-one is promised the red 4.
 * Since *5 Pulls* take precedence over *Finesses*, it is even possible to *5 Pull* a 4 without promising that the 5 is the matching suit.
-* Normal *Play Clues* and *Delayed Play Clues* take priority over *Early 5's Chop Moves* and *5 Pulls* (as long as they don't cause any blind cards to play). For example:
-  * It is the *Early Game*.
-  * On the stacks, red 4 is played.
-  * A blue 1 is available to clue in Bob's hand.
-  * Instead, Alice clues an off-chop 5 in Cathy's hand (as number 5).
-  * This is to be interpreted as a *Play Clue* on the red 5 (as opposed to a *5 Pull* on some other card).
 * When a player is *Finessed* or *Bluffed*, they are allowed to defer playing the blind card in order to do a *Finesse* or *Bluff* of their own. However, if they could be *Bluffed*, they are **not** allowed to initiate a *5 Pull*. (Players are still allowed to defer playing into a *Finesse* in order to initiate a *5 Pull*.)
 * In the rare case where a *5 Pull* is performed in a 3-player game by touching two 5's in slot 1 and slot 3, then the *5 Pulled* card is slot 2.
 * For expert players, we define a specific [interaction between *5's Chop Moves* / *5 Pulls* and *2 Saves*](#2-saves-advanced-section-interaction-with-5s-chop-moves--5-pulls).
@@ -2337,7 +2331,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 * Similar to a *Hard 3 Bluff* and a *Hard 4 Double Bluff*, it is also possible to perform a *Hard 5 Double Bluff*.
 * For example, in a 5-player game:
-  * All the 1's are played on the stacks.
+  * It is the *Mid-Game* and all the 1's are played on the stacks.
   * Alice clues number 5 to Emily, touching a red 5 as a *Play Clue*.
   * Bob blind-plays a red 2 from his *Finesse Position*.
   * Cathy blind-plays a red 3 from her *Finesse Position*.
@@ -3044,14 +3038,10 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 ### 5 Number Discharge (5ND)
 
 * This convention only applies in the *Early Game*.
-* In the *Early Game*, if a number 5 clue is performed on a 5 that is not already on chop, then it is a *Play Clue* on the 5 (if there are any 5's that are directly playable).
-* If there are no directly playable 5's, then the clue is instead a *5 Stall*.
+* In the *Early Game*, if a number 5 clue is performed on a 5 that is not already on chop, then the clue is a *5 Stall*.
 * If a *5 Stall* is not allowed, then it is a *5's Chop Move* (if the card is one-away-from-chop) or a *5 Pull* (if the card is two or more away from chop).
 * If a *5 Pull* is performed on a card that is one-away-from-playable, it typically communicates a *5 Pull Finesse*.
-* However, if the *5 Pulled* card is two or more away from playable **or** the *5 Pulled* card is trash, then the clue must instead be a *Play Clue* on the 5 as a *Finesse*.
-* If the very next player sees that they will only have to **blind-play one card** in their hand to fulfill the *Finesse*, then they should assume that it is a *Finesse* and blind-play their *Finesse Position*.
-* If the very next player sees that they would have to **blind-play two or more cards** in their hand to fulfill the *Finesse*, then a *Finesse* is unlikely. Instead, players agree that this signals an *Discharge* and that the next player should play their *Third Finesse Position*.
-  * *Prompts* don't factor into the "two or more blind-plays" rule. Players only count the number of blind-plays.
+* However, if the *5 Pulled* card is two or more away from playable **or** the *5 Pulled* card is trash, players agree that this signals a *Discharge* and that the next player should play their *Third Finesse Position*.
 * For example, in a 3-player game:
   * It is the first turn and nothing is played on the stacks.
   * Alice clues number 5 to Cathy, touching a 5 on slot 1.
@@ -3059,7 +3049,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Bob thinks about what Alice's 5 clue could mean:
     * The clue cannot be a *5 Stall*, because there is a green 1 to *Play Clue*.
     * The clue cannot be a *5 Pull*, because the red 3 is two away from playable.
-    * If the clue were a *Finesse* on the red 5, Bob would have to blind-play a red 1 and a red 2.
   * Since Bob would have to blind-play two cards into the *Finesse*, he knows that he should instead treat this as a *5 Number Discharge*. Bob blind-plays his slot 3 card and it successfully plays as the red 1.
 * More examples of a *5 Number Discharge* can be found [here](examples/5_Number_Discharge.md).
 
@@ -3264,7 +3253,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * Since the *Layered Gentleman's Discard* is so efficient, clever players that see the opportunity to perform one will almost always want to do so.
 * Thus, it follows that in rare cases, when a teammate gives you a play clue on some card, they **do not** intend for you to play it. They intend for you to see the opportunity for a *Layered Gentleman's Discard*, and then immediately discard the card.
 * This kind of clue is called a *Top Hat Clue* because you are giving them an opportunity to be a gentleman.
-* Note that you should not mistake a *Top Hat Clue* for a clue that initiates a *Layered Finesse*. You are only allowed to discard the card if you can determine its exact identity.
+* Note that you should not mistake for a *Top Hat Clue* a clue that initiates a *Layered Finesse*. You are allowed to discard the card only if you can determine its exact identity.
 
 ### The Negative Blind-Play
 
