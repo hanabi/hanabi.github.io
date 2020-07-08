@@ -397,4 +397,4 @@ A few things to note regarding that:
 
 ## Learning More
 
-Have you already played 5-10 games with the Hyphen-ated group? Have you already let the basics settle in? Then read [the learning path document](misc/Learning_Path.md) to see what your next steps should be.
+Have you already played 5-10 games with the Hyphen-ated group? Have you already let the basics settle in? Then read [the learning path document](Learning_Path.md) to see what your next steps should be.
