@@ -26,16 +26,6 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 * If a player gives a *Tempo Clue* to a pink card, it is never a *Tempo Clue Chop Move*, even if it only gets one card played.
 * This is because it is fairly valuable to get pink cards out of the hand as soon as possible in case blocking cards are drawn.
 
-### Pink Promise
-
-* When a pink card is given a *Play Clue* or a *Save Clue* with a number, the number must match the true identity of the card.
-* For example, in a 3-player game:
-  * Cathy has a pink 2 on chop followed by a blue 5.
-  * Alice and Bob need to give a *Save Clue* to both the pink 2 and the blue 5.
-  * If Alice gave a number 5 clue, it would save both of the cards in one fell swoop, since a number 5 clue would touch the pink 2.
-  * However, doing that would break the *Pink Promise* convention, since once Cathy learns that her slot 5 card is a pink card, she will always assume that it is a pink 5.
-  * Thus, Alice gives a number 2 clue as a *2 Save* on the pink 2, and then Bob clues a number 5 clue as a *5 Save* on the blue 5.
-
 ### The Pink Prompt Rank Exception
 
 * Normally, *Prompts* take precedence over *Finesses*. This means that if a card in a player's hand has one or more positive clues on it that "match", they should never blind-play their *Finesse Position* and instead play their left-most clued card.
@@ -47,6 +37,16 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
   * Bob knows that he is promised the pink 3. Technically, the pink 3 could be his slot 2 card, and *Prompts* normally take precedence over *Finesses*.
   * However, Bob also knows that *Prompts* do not apply to pink cards with a rank mismatch. This is currently the case for him since he is promised a 3 and his clued card has a number 4 clue on it.
   * Thus, Bob plays his *Finesse Position* card as pink 3.
+
+### Pink Promise
+
+* When a pink card is given a *Play Clue* or a *Save Clue* with a number, the number must match the true identity of the card.
+* For example, in a 3-player game:
+  * Cathy has a pink 2 on chop followed by a blue 5.
+  * Alice and Bob need to give a *Save Clue* to both the pink 2 and the blue 5.
+  * If Alice gave a number 5 clue, it would save both of the cards in one fell swoop, since a number 5 clue would touch the pink 2.
+  * However, doing that would break the *Pink Promise* convention, since once Cathy learns that her slot 5 card is a pink card, she will always assume that it is a pink 5.
+  * Thus, Alice gives a number 2 clue as a *2 Save* on the pink 2, and then Bob clues a number 5 clue as a *5 Save* on the blue 5.
 
 ### The Pink Play Clue Lie (with multiple 1's)
 
