@@ -5,6 +5,15 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 
 ## The Backlog (General Conventions)
 
+@everyone Changed conventions:
+
+**The 8 Clue Save** (changed)
+
+```
+* Previously, the text for the *8 Clue Save* read that you are not allowed to use the move on a "freshly-drawn" card.
+* Now, the text for the *8 Clue Save* says that you are not allowed to use the move on any card that is on slot 1.
+```
+
 **The Gentleman's Discard that Looks like an Unnecessary Reverse Trash Finesse**
 
 ```
