@@ -112,6 +112,8 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 * Often times, in the beginning of the game, a player will receives a number 1 clue that touches a bunch of 1's. In these situations, they will play them all from oldest to newest.
 * If all of the 1's have been successfully played on the stacks and a player still has 1's remaining in their hand, they should mark them as useful pink cards and hold on to them for later.
   * In other words, they should **not** assume that that they have the next playable pink card (e.g. pink 2).
+* Later on, if a pink card is *Prompted* from their hand, the player should play the 1.
+  * In other words, the *Pink Prompt Rank Exception* does not apply to these cards, because they are considered to be "filled-in" as a pink card.
 
 ### Pink Choice Tempo Clue
 
