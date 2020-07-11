@@ -14,7 +14,7 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 * Now, the text for the *8 Clue Save* says that you are not allowed to use the move on any card that is on slot 1.
 ```
 
-**Unnecessary Forced Reverse Trash Finesse (A The Gentleman's Discard that Looks like an Unnecessary Reverse Trash Finesse)**
+**The Unnecessary Forced Reverse Trash Finesse (A The Gentleman's Discard that Looks like an Unnecessary Reverse Trash Finesse)**
 
 ```
 * First, see the section on the *[Unnecessary Trash Finesse Chop Move](#the-unnecessary-trash-finesse-chop-move--the-unnecessary-trash-bluff-chop-move)*. Basically, if a *Trash Finesse* is unnecessary, then it also causes a *Chop Move*.
