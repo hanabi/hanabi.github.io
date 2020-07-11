@@ -88,6 +88,16 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
   * At first, Emily thought that her 4 was the blue 4, in order to match the blue 2 and the blue 3. However, if that was the case, then Donald would not have blind-played anything. Emily knows that this must be a *Pestilent Triple Bluff*, and her 4 is any other 4 than blue 4 (because Donald blind-played) and green 4 (because Bob would have waited for Donald).
 ```
 
+**The Blaze Discard**
+
+``
+* Patch Gentleman's Discards are now explicitly illegal.
+* The *Blaze Discard* is defined as any *Gentleman's Discard* or *Baton Discard* that promises the wrong position, calling for a blind-play of the matching position. (Specifically, the matching *Finesse Position*, not the matching slot.)
+* The person blind-playing for a *Blaze Discard* must be the very next player, in order to minimize confusion and keep things simple.
+* The *Blaze Discard* replaces the *Gentleman's Discard Ejection* as a more general form, because you can use it to get someone's *Third Finesse Position*, *Fourth Finesse Position*, etc.
+* For more information, see the section in the reference document.
+```
+
 <br />
 
 ## The Backlog (Variant-Specific Conventions)
