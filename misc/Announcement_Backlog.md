@@ -90,7 +90,7 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 
 **The Blaze Discard**
 
-``
+```
 * Patch Gentleman's Discards are now explicitly illegal.
 * The *Blaze Discard* is defined as any *Gentleman's Discard* or *Baton Discard* that promises the wrong position, calling for a blind-play of the matching position. (Specifically, the matching *Finesse Position*, not the matching slot.)
 * The person blind-playing for a *Blaze Discard* must be the very next player, in order to minimize confusion and keep things simple.
