@@ -30,7 +30,7 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
   * So, Alice wants all three of her teammates to play slot 1.
   * From the clue interpretation table below, we see that "play slot 1" is assigned a value of 1.
   * Alice adds up all of the actions: 1 + 1 + 1 = 3
-  * Thus, Alice needs to convey "3" to the team, so she clues number 1 to Cathy (which is number to the newest card to the player two seats away).
+  * Thus, Alice needs to convey "3" to the team, so she clues red to Bob (which is color not on the newest card to the player one seat away).
   * Bob comes next and has to figure out which move that Alice has planned for him.
   * From the clue interpretation table below, Bob knows that Alice encoded a value of 3.
   * Bob also can look ahead and see that Cathy will be assigned a value of 1 and Donald will be assigned a value of 1.
