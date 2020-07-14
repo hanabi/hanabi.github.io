@@ -810,7 +810,8 @@ Note that in this user interface, players are **not** holding their hands like t
 ### The Tempo Clue (Re-cluing a Card to Play)
 
 * *Tempo Clues* are defined as clues that "get" no new cards. Their purpose is to get 1 or more cards played that **already** had a clue on them.
-* Note that *Tempo Clues* do **not** meet *Minimum Clue Value Principle*, so we do not generally perform them. However, in the following special circumstances, *Tempo Clues* have enough value to justify giving them:
+* If a clue is given to a card that is already known to be playable, then it does **not** count as a *Tempo Clue*.
+* In our group, we do not generally perform *Tempo Clues* - they do **not** meet *Minimum Clue Value Principle*. However, in the following special circumstances, *Tempo Clues* have enough value to justify giving them:
   1. When it gets 2 or more clued cards to play
   2. When the clued card is "out of order" (meaning that it is impossible for a *Prompt* to get the card played)
   3. When the clued card was *Chop Moved* and it is now playable
@@ -820,7 +821,6 @@ Note that in this user interface, players are **not** holding their hands like t
   * The exception is if one of the cards was previously *Chop Moved*. In that case, the focus is on the left-most *Chop Moved* card.
 * If a *Tempo Clue* touches multiple cards, it typically means that all the touched cards are playable. See the *Double Tempo Clue* section below.
 * Since they are so inefficient, *Tempo Clues* done outside of the special circumstances listed above are assigned a special meaning. See the *Tempo Clue Chop Moves* section below.
-* If a clue is given to a card that is already known to be playable, then it does not count as a *Tempo Clue*.
 
 ### The Double Tempo Clue (Re-cluing 2+ Cards to Play)
 
