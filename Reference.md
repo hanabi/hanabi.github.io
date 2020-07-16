@@ -1960,9 +1960,9 @@ Priority does not always apply. Some common exceptions are listed below.
 
 ### The Trash Bluff
 
-* Normally, when a useless card is clued, it signifies a *Trash Chop Move* or a *Trash Push*. However, for both of these strategies to work, it is assumed that the recipient of the clue will know that the card that was touched is useless.
-* What if the recipient of the clue does **not** know that the card that was clued is useless? They will go on to misplay that card, mistaking it for a "normal" *Play Clue*.
-* When you see this occur, it works like a *Bluff*; you must blind-play your *Finesse Position* card, or the player who received the clue will go on to misplay.
+* Normally, when a trash card is clued, it signifies a *Trash Chop Move* or a *Trash Push*. However, for both of these strategies to work, it is assumed that the recipient of the clue will know that the card that was touched is useless.
+* What if the recipient of the clue does **not** know that the card that the clued card is trash? Then, they will go on to misplay that card, mistaking it for a "normal" *Play Clue*.
+* If players misrepresent the identity of a trash card in this way, it is a signal for the next person to blind-play their *Finesse Position* card. This is extremely similar to how a *Finesse* or a *Bluff* works (e.g. a clued card has been mispresented as being immediately playable).
 * *Trash Bluffs* are a good tool to get a card played that is sitting behind other annoying cards.
 * For example, in a 3-player game:
   * On the stacks, all of the 1's are played **except** for red 1.
@@ -1971,9 +1971,12 @@ Priority does not always apply. Some common exceptions are listed below.
   * Bob blind-plays his *Finesse Position* card, and it is a playable blue 2.
   * Cathy now knows that her 1 must not be red 1, or else Bob would not have blind-played anything. The 1 must be some other trash card.
 * Just like normal *Bluffs*, *Trash Bluffs* can only be done while in *Bluff Seat*.
+* Normal *Bluffs* take precedence over *Trash Bluffs*. This means that players have to wait for all but one of a "type" of card to be played before using it for a *Trash Bluff*.
+  * For example, if the red stack is played up to the red 3, then you **cannot** use a red card as a target for a *Trash Bluff*, because a blind-play will make the clued card look like the red 5.
+  * For example, if the red stack is played up to the red 4, then you can use a red card as a target for a *Trash Bluff*, because a blind-play will prove that the clued card is not a red 5.
+* In the case where multiple cards are clued as part of a *Trash Bluff*, **all** of the touched cards are considered to be trash. However, the focus of the clue should be the first thing discarded, which allows for the possibility of your teammates to give a follow-up *Fix Clue*.
 * An important stipulation of the *Trash Bluff* is that by convention, *Trash Bluffs* **must only touch one card**, if at all possible.
   * If a player breaks this rule and intentionally touches multiple cards when they could have touched exactly one card, then they are trying to communicate something extra - an *Unnecessary Trash Chop Move* or a *Trash Double Bluff*. (These moves are covered in more detail later on.)
-* In the case where multiple cards are clued as part of a *Trash Bluff*, **all** of the touched cards are considered to be trash. However, the focus of the clue should be the first thing discarded, which allows for the possibility of your teammates to give a follow-up *Fix Clue*.
 
 ### The Trash Finesse (Strong Form)
 
