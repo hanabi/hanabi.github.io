@@ -484,7 +484,7 @@ Note that in this user interface, players are **not** holding their hands like t
 * However, if the 5 is **one-away** from chop (or, if two or more 5's are clued and the right-most 5 is one-away from chop), then we agree that it has a special meaning, and that the clue is **not** a *Play Clue* at all.
 * Instead, it is understood that the clue is a *5's Chop Move*, and the player should *Chop Move* in a manner similar to the *Trash Chop Move*.
 * Note that the *5's Chop Move* is different than the *Trash Chop Move* in that you can only chop move **one** card with it. Thus, if you clue a 5 and it is **two** (or more) slots away from the chop, then it is to be assumed to be a *Play Clue* on the 5.
-* When counting how far away from chop a card is, only look at **unclued** cards.
+  * When counting how far away from chop a card is, you should only look at **unclued** cards.
 * Similar to the *Trash Chop Move*, if a *5's Chop Move* touches **multiple** 5's, then it only *Chop Moves* the cards to the right of the right-most 5. For example, in a 3-player game:
   * All the 1's are played on the stacks.
   * Bob has a completely unclued hand.
