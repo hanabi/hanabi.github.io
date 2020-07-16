@@ -1962,7 +1962,7 @@ Priority does not always apply. Some common exceptions are listed below.
 
 * Normally, when a trash card is clued, it signifies a *Trash Chop Move* or a *Trash Push*. However, for both of these strategies to work, it is assumed that the recipient of the clue will know that the card that was touched is useless.
 * What if the recipient of the clue does **not** know that the card that the clued card is trash? Then, they will go on to misplay that card, mistaking it for a "normal" *Play Clue*.
-* If players misrepresent the identity of a trash card in this way, it is a signal for the next person to blind-play their *Finesse Position* card. This is extremely similar to how a *Finesse* or a *Bluff* works (e.g. a clued card has been mispresented as being immediately playable).
+* If players misrepresent the identity of a trash card in this way, it is a signal for the next person to blind-play their *Finesse Position* card. This is extremely similar to how a *Finesse* or a *Bluff* works (e.g. a clued card has been misrepresented as being immediately playable).
 * *Trash Bluffs* are a good tool to get a card played that is sitting behind other annoying cards.
 * For example, in a 3-player game:
   * On the stacks, all of the 1's are played **except** for red 1.
