@@ -3123,6 +3123,61 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
+## Level 15 - Unnecessary Principles
+
+- The following section requires players to have full understanding of trash conventions.  *Trash Chop Move*, *Trash Bluff/Finesse*, *Unknown Trash Discharge*, *Trash Push*, etc.
+- Trash conventions are usually done in situations where cards are hard to be play clued directly:
+- Blocked by other cards or even their own suit (brown or null)
+- Blocked by cards in the trash pile such that a play clue looks like a save clue
+- Generally, when a trash convention is used they are 1 for 1 and may or may not give any useful information to the clue receiver.
+- Thus, any convention that is a 1 for 1 and does not directly clued a card also falls under this category.  Ambiguous blue clue for example.
+- We also can agree that Trash Conventions are more complicated/advanced compared to a normal play/save clue. 
+- If a trash convention is used when a normal clue would suffice, we may call this situation "unnecessary." 
+
+Definition of Unnecessary: 
+
+1. A regular play/save clue could've been given to the blind played card
+2. No other useful cards are picked up 
+3. No extra information is given to the clue receiver’s hand 
+   - Such as fixing an impending misplay
+   - Adding positive information to their hand
+
+If **known trash** was used, the first player who can see that the clue was unnecessary should blind play **slot 1**. (This will be the first player that does not already have a blind play from the original clue.)
+
+- For example if a *Trash Chop Move* was used on a card that could be saved directly, the next player blind plays **slot 1**, and the clue receiver still saves the chop moved card.
+
+- If a *Bad Chop Move Ejection (with a Trash Chop Move)* or *Trash Push Discharge* was given, the first person after the clue giver already has to perform an ejection or discharge to exhibit that the original clue chop moved / trash pushed a trash card. If this blind played card could have been clued directly, the next player also plays **slot 1**.
+
+- If a *Trash Push* is initiated on a playable card, then the next person after the clue giver plays slot 1, as an *Unnecessary Trash Push*.
+- If a *Trash Push* was initiated on a one-away from playable card, and the first player already played slot 1, then there are two situations for the in-between player
+  - The two cards are unrelated - the in-between player has to play to fulfill the finesse, and the first blind play was an extra play. This move can be called an *Unnecessary Trash Push Finesse*.
+  - The two cards are related, the in-between player has to observe if the normal finesse is possible. If not, this is a normal *Trash Push Finesse*, and the in-between player does not blind play. If the normal finesse was possible, using the trash version is unnecessary from their point of view and they should blind play **slot 1**, which will not affect the information in the clue receiver’s hand, meaning the clue receiver will still trash push.
+
+- This extra blind play of slot 1 also holds for other applications of this principle, such as unnecessarily using a *Double Play Clue Ejection*, or using the color clue in [Extremely Ambiguous](/variant-specific/Extremely_Ambiguous.md) when a direct play clue would have been at least as good.
+
+
+If **unknown trash** was used (a *Trash Bluff* or *Unnecessary Trash Discharge*), we agree that in addition to the blind play from the first player, the second player, who received the clue, should additionally treat it as a *Trash Chop Move* or *Trash Push* depending on the location of the trash in the hand. 
+
+- The first blind play is necessary to tell the clue receiver that their focused card is trash.  This means that the first person who blind plays does not know whether the move was performed unnecessarily. However, player in-between the first blind player and before the clue receiver can tell whether the clue receiver is about to chop move or trash push a trash card.  Thus, the in-between player needs to have a way to cancel out the move.
+- If there is an in-between player, then there are two situations:
+  - If the chop moved cards are useful or the trash pushed card is playable, then they should do nothing.  
+  - If the chop moved cards are trash or the trash pushed card is trash, they should immediately blind play **slot 1**, to immediately resolve it as a *Trash Double Bluff*.  This is necessary in order to undo the trash convention, and the clue receiver does nothing.
+
+All trash conventions should follow [Occam's Razor](#clue-interpretation--occams-razor)
+- Basically, we should always assume a finesse over a bluff. [Unnecessary Trash Push (Finesse Form)](#the-unnecessary-trash-push-finesse-form)
+- Also, the situation that gets the least amount of blind cards played shall always take precedence
+
+**Examples:**
+<p align="center">Unnecessary from Scharkbite’s Perspective using Trash Push</p>
+
+![2020-06-15_1141](https://user-images.githubusercontent.com/48993588/87857040-6e76ec00-c8d8-11ea-89fd-94d71bef6896.png)
+
+<p align="center">Unnecessary from Floriman’s Perspective using the Bad Chop Move Ejection</p>
+
+![2020-06-15_1134](https://user-images.githubusercontent.com/48993588/87857043-733ba000-c8d8-11ea-8ee8-8e9bc82bcb93.png)
+
+<br />
+
 ## Level 15 - Rarely Used Strategies (Miscellaneous)
 
 ### Phantom Playable Cards
