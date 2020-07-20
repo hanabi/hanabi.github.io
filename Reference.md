@@ -3126,15 +3126,15 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ## Level 15 - Unnecessary Principles
 
-- The following section pertains to any Unnecessary Situations, not just trash conventions.
-- Players should have a full understanding of trash conventions.  *Trash Chop Move*, *Trash Bluff/Finesse*, *Unknown Trash Discharge*, *Trash Push*, etc.
-- Trash conventions are usually done in situations where cards are hard to be play clued directly:
-  - Blocked by other cards or even their own suit (brown or null)
+- Players should have a full understanding of trash conventions and advanced ejections/discharges.  *Trash Chop Move*, *Trash Bluff/Finesse*, *Unknown Trash Discharge*, *Trash Push*, *Double Play Ejection*, etc.
+- Advanced conventions are usually used in situations where cards are hard to be play clued directly:
+  - Blocked by other cards or even their own suit (when playing brown or null)
   - Blocked by cards in the trash pile such that a play clue looks like a save clue
-- Generally, when a trash convention is used they are 1 for 1 and may or may not give any useful information to the clue receiver.
-- Thus, **any** convention that is a 1 for 1 and does not directly clue a card also falls under this category. For Example, Ambiguous blue clue, double play ejection, etc.
+- Generally, trash conventions are 1 for 1 and may or may not give any useful information to the clue receiver.
+   - Any related convention that is only 1 for 1 and does not directly touch a new card also falls under this category. For example, using color in [Extremely Ambiguous](/variant-specific/Extremely_Ambiguous.md), *Double Play Ejection*, etc.
 - We also can agree that Trash/Advanced Conventions are more complicated compared to a normal play/save clue. 
-- If an advanced convention is used when a normal clue would suffice, we may call this situation "unnecessary." 
+- If an advanced convention is used when a normal clue would be just as good or better, we can say that using it is "unnecessary." We therefore assign extra meaning to such a clue. Depending on the situation, this extra meaning will consist of an additional blind play, or a chop move.
+
 
 Definition of Unnecessary: 
 
@@ -3144,7 +3144,7 @@ Definition of Unnecessary:
    - Such as fixing an impending misplay
    - Adding positive information to their hand
 
-If **known trash** was used, the first player who can see that the clue was unnecessary should blind play **slot 1**. (This will be the first player that does not already have a blind play from the original clue.)
+If **known trash** was used as clue target, the first player who can see that the clue was unnecessary should blind play **slot 1**. (This will be the first player that does not already have a blind play from the original clue.)
 
 - For example if a *Trash Chop Move* was used on a card that could be saved directly, the next player blind plays **slot 1**, and the clue receiver still saves the chop moved card.
 
