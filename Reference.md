@@ -3169,15 +3169,8 @@ All trash conventions should follow [Occam's Razor](#clue-interpretation--occams
 - Also, the situation that gets the least amount of blind cards played shall always take precedence
 
 **Examples:**
-<p align="center">Unnecessary from Scharkbite’s Perspective using Trash Push</p>
+Examples of situations where these principles apply can be found [here](examples/Unnecessary_Principles.md)
 
-![2020-06-15_1141](https://user-images.githubusercontent.com/48993588/87857040-6e76ec00-c8d8-11ea-89fd-94d71bef6896.png)
-
-<p align="center">Unnecessary from Floriman’s Perspective using the Bad Chop Move Ejection</p>
-
-![2020-06-15_1134](https://user-images.githubusercontent.com/48993588/87857043-733ba000-c8d8-11ea-8ee8-8e9bc82bcb93.png)
-
-<br />
 
 ## Level 15 - Rarely Used Strategies (Miscellaneous)
 
