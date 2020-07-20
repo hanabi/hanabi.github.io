@@ -1,13 +1,13 @@
 ## Examples of the Unnecessary Principles
 
 ### Example 1
+![Example 1 screenshot](../img/examples/unnecessary_principles1.png)
 
+### Example 2
+![Example 2 screenshot](../img/examples/unnecessary_principles2.png)
 
-<p align="center">Unnecessary from Scharkbite’s Perspective using Trash Push</p>
+### Example 3
+![Example 3 screenshot](../img/examples/unnecessary_principles3.png)
 
-![2020-06-15_1141](https://user-images.githubusercontent.com/48993588/87857040-6e76ec00-c8d8-11ea-89fd-94d71bef6896.png)
-
-
-<p align="center">Unnecessary from Floriman’s Perspective using the Bad Chop Move Ejection</p>
-
-![2020-06-15_1134](https://user-images.githubusercontent.com/48993588/87857043-733ba000-c8d8-11ea-8ee8-8e9bc82bcb93.png)
+### Example 4
+![Example 4 screenshot](../img/examples/unnecessary_principles4.png)
