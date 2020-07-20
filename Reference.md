@@ -54,6 +54,7 @@ Note that convention updates for the group are listed in the `#announcements` ch
     * [Ejection](#level-15---rarely-used-strategies-ejection)
     * [Discharge](#level-15---rarely-used-strategies-discharge)
     * [Ejection & Discharge Extensions](#level-15---ejection--discharge-extensions)
+    * [Unnecessary Principles](#level-15---unnecessary-principles)
     * [Miscellaneous](#level-15---rarely-used-strategies-miscellaneous)
 17. [Variant-Specific Strategies](#variant-specific-strategies)
 18. [Convention Attribution](#convention-attribution)
