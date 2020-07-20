@@ -2598,10 +2598,10 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * 1) The next player is at 0 clues (and won't blind-play anything / will blind-play an unrelated card).
   * 2) The next player will think that they have the *Bluffed* card in their own hand and will not try to *Finesse* or *Bluff* the next player. (In this case, the *Bluffed* card means the card that will blind-play.)
   * 3) The next player has enough positive or negative clues on their entire hand to know that they cannot have the card that the blind-played card will be played as.
-* Essentially, if #1 or #2 is true, then the next player cannot act on their state of misinformation. And if it is #3, then the next player will have full knowledge that a lie is occurring, so they will not mess anything up.
+* Essentially, if #1 or #2 is true, then the next player cannot act on their state of misinformation. And if it is #3, then the next player will have full knowledge that a lie is occurring, so they will try to "get" the *Bluffed* card.
 * Since valid *Out-of-Position Bluffs* are so rare, it is important to remember that:
-  * Valid *Out-of-Position Bluffs* take precedence over *Known Bluffs*. In other words, if Alice performs something that could be a *Known Bluff* or an *Out-of-Position Bluff*, and Bob can see that 1) Cathy has a playable card on her *Finesse Position* and 2) one or more of the three OOP stipulations from above are true, then Bob should assume that it is a *Out-of-Position Bluff* instead of a *Known Bluff*.
-  * Valid *Out-of-Position Bluffs* take precedence over *Layered Finesses*. In other words, if Alice does a valid *Out-of-Position Bluff* on Cathy, it would be natural for Cathy to think that this is a *Layered Finesse*, since Alice is not in *Bluff Seat* for Cathy. However, Cathy must pay close attention and see that because of the very specific situation, an *Out-of-Position Bluff* was legal, which means that Cathy should **not** continue to blind-play cards from her hand. (This is a common mistake.)
+  * Valid *Out-of-Position Bluffs* take precedence over *Known Bluffs*. In other words, if Bob can see that an *OOP Bluff* could be valid (meaning it meets one of the 3 criteria above), then Bob should not blind-play anything as a *Known Bluff*.
+  * Valid *Out-of-Position Bluffs* take precedence over *Layered Finesses*. In other words, if Cathy can see that an *OOP Bluff* could be valid (meaning it meets one of the 3 criteria above), then Cathy should not continue to blind-play cards as a *Layered Finesse*. (This is a common mistake.)
 * A *Reverse Bluff* is just a just a more-specific type of *Out-of-Position Bluff*. All of the same stipulations apply.
 
 ### The Good Touch Bluff
