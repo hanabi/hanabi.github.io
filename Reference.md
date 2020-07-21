@@ -1142,6 +1142,7 @@ Note that in this user interface, players are **not** holding their hands like t
   * Cathy discards the known red 1 as a *Gentleman's Discard*.
   * Alice blind-plays her *Finesse Position* card as red 1.
 * Often times, doing a *Gentleman's Discard* will delay things and cost the team *Tempo*. Thus, a *Gentleman's Discard* that slows things down is only good if there is some other side benefit to offset the lost *Tempo* (such as delaying the discard of a valuable card, for example).
+* Just like how *Prompts* take precedence over *Finesses*, *Sarcastic Discards* take precedence over *Gentleman's Discards*.
 * For the purposes of *Priority*, *Gentleman's Discards* do not count as a blind-play. (*Priority* is a concept that is introduced in a later level.) This is because the *Gentleman's Discard* is an information-symmetric move and nothing needs to be "proven" to other members of the team.
 
 ### The Layered Gentleman's Discard
