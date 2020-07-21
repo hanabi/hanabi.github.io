@@ -2600,8 +2600,8 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   3. The next player has enough positive or negative clues on their entire hand to know that they cannot have the card that the blind-played card will be played as.
 * Essentially, if i. or ii. is true, then the next player cannot act on their state of misinformation. And if iii. is true, then the next player will have full knowledge that a lie is occurring, so they will not try to "get" the *Bluffed* card.
 * Since valid *Out-of-Position Bluffs* are so rare, it is important to remember that:
-  * Valid *Out-of-Position Bluffs* take precedence over *Known Bluffs*. In other words, if Bob can see that an *OOP Bluff* could be valid (meaning it meets one of the 3 criteria above), then Bob should not blind-play anything as a *Known Bluff*.
-  * Valid *Out-of-Position Bluffs* take precedence over *Layered Finesses*. In other words, if Cathy can see that an *OOP Bluff* could be valid (meaning it meets one of the 3 criteria above), then Cathy should not continue to blind-play cards as a *Layered Finesse*. (This is a common mistake.)
+  * Valid *Out-of-Position Bluffs* take precedence over *Known Bluffs*. In other words, if Bob can see that an *OOP Bluff* could be valid (meaning it meets one of the three criteria above), then Bob should not blind-play anything as a *Known Bluff* and let Cathy play instead.
+  * Valid *Out-of-Position Bluffs* take precedence over *Layered Finesses*. In other words, if Cathy can see that an *OOP Bluff* could be valid (meaning it meets one of the three criteria above), then Cathy should not continue to blind-play cards as a *Layered Finesse*. (This is a common mistake.)
 * A *Reverse Bluff* is just a just a more-specific type of *Out-of-Position Bluff*. All of the same stipulations apply.
 
 ### The Good Touch Bluff
