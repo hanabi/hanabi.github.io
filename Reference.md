@@ -1837,6 +1837,7 @@ Priority does not always apply. Some common exceptions are listed below.
 ## Ejection
 
 * *Ejection* refers to a move like a *Bluff*, but instead of playing an unrelated card from *Finesse Position*, someone plays an unrelated card from their *Second Finesse Position*. For example, if a player's hand is completely unclued, their *Second Finesse Position* is slot 2.
+* Just like a *Bluff*, *Ejection* can only be performed on the very next player.
 
 ### The 5 Color Ejection (5CE)
 
