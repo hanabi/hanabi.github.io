@@ -54,7 +54,7 @@ Note that convention updates for the group are listed in the `#announcements` ch
     * [Ejection](#level-15---rarely-used-strategies-ejection)
     * [Discharge](#level-15---rarely-used-strategies-discharge)
     * [Ejection & Discharge Extensions](#level-15---ejection--discharge-extensions)
-    * [Unnecessary Principles](#level-15---unnecessary-principles)
+    * [Unnecessary Usage of Complicated Moves](#level-15---unnecessary-usage-of-complicated-moves)
     * [Miscellaneous](#level-15---rarely-used-strategies-miscellaneous)
 17. [Variant-Specific Strategies](#variant-specific-strategies)
 18. [Convention Attribution](#convention-attribution)
@@ -3124,7 +3124,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 15 - Unnecessary Usage of Complicated Moves (Principles)
+## Level 15 - Unnecessary Usage of Complicated Moves
 
 - Players should have a full understanding of trash conventions and advanced ejections/discharges.  *Trash Chop Move*, *Trash Bluff/Finesse*, *Unknown Trash Discharge*, *Trash Push*, *Double Play Ejection*, etc.
 - Advanced conventions are usually used in situations where cards are hard to be play clued directly:
