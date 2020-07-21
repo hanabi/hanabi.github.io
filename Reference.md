@@ -1837,7 +1837,7 @@ Priority does not always apply. Some common exceptions are listed below.
 ## Ejection
 
 * *Ejection* refers to a move like a *Bluff*, but instead of playing an unrelated card from *Finesse Position*, someone plays an unrelated card from their *Second Finesse Position*. For example, if a player's hand is completely unclued, their *Second Finesse Position* is slot 2.
-* Just like a *Bluff*, *Ejection* can only be performed on the very next player.
+* Just like a *Bluff*, an *Ejection* can only be performed on the very next player.
 
 ### The 5 Color Ejection (5CE)
 
@@ -2956,6 +2956,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 ## Level 15 - Rarely Used Strategies (Ejection)
 
 * *Ejection* refers to a move like a *Bluff*, but instead of playing an unrelated card from *Finesse Position*, someone plays an unrelated card from their *Second Finesse Position*. For example, if a player's hand is completely unclued, their *Second Finesse Position* is slot 2.
+* Just like a *Bluff*, an *Ejection* can only be performed on the very next player.
 
 ### The 5 Color Ejection
 
@@ -3031,7 +3032,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 ## Level 15 - Rarely Used Strategies (Discharge)
 
 * *Discharge* is similar to *Ejection*, except instead of blind-playing the *Second Finesse Position* card, the player plays the *Third Finesse Position* card.
-* Certain types of **really** bad clues cause a *Discharge* to occur on the very next player.
+* Just like a *Bluff*, a *Discharge* can only be performed on the very next player.
 
 ### Unknown Trash Discharge (UTD)
 
