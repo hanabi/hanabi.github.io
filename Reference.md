@@ -2595,9 +2595,9 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * Similar to a *Reverse Finesse*, it is possible to perform a *Reverse Bluff*. However, according to *Good Lie Principle*, you are only allowed to lie to the player who comes immediately after you, so this is illegal.
   * Why this policy? It is not possible to play with both *Layered Finesses* and *Reverse Bluffs* at the same time. *Layered Finesses* are much better, so we choose to "turn on" *Layered Finesse* and "turn off" *Reverse Bluffs*.
 * However, players **can** rarely break the *Bluff Seat* rule if **one of the following is true**:
-  * The next player is at 0 clues (and won't blind-play anything / will blind-play an unrelated card).
-  * The next player will think that they have the *Bluffed* card in their own hand and will not try to *Finesse* or *Bluff* the next player. (In this case, the *Bluffed* card means the card that will blind-play.)
-  * The next player has enough positive or negative clues on their entire hand to know that they cannot have the card that the blind-played card will be played as.
+  1. The next player is at 0 clues (and won't blind-play anything / will blind-play an unrelated card).
+  2. The next player will think that they have the *Bluffed* card in their own hand and will not try to *Finesse* or *Bluff* the next player. (In this case, the *Bluffed* card means the card that will blind-play.)
+  3. The next player has enough positive or negative clues on their entire hand to know that they cannot have the card that the blind-played card will be played as.
 * Essentially, if #1 or #2 is true, then the next player cannot act on their state of misinformation. And if it is #3, then the next player will have full knowledge that a lie is occurring, so they will try to "get" the *Bluffed* card.
 * Since valid *Out-of-Position Bluffs* are so rare, it is important to remember that:
   * Valid *Out-of-Position Bluffs* take precedence over *Known Bluffs*. In other words, if Bob can see that an *OOP Bluff* could be valid (meaning it meets one of the 3 criteria above), then Bob should not blind-play anything as a *Known Bluff*.
