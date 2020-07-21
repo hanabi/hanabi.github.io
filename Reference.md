@@ -2598,7 +2598,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   1. The next player is at 0 clues (and won't blind-play anything / will blind-play an unrelated card).
   2. The next player will think that they have the *Bluffed* card in their own hand and will not try to *Finesse* or *Bluff* the next player. (In this case, the *Bluffed* card means the card that will blind-play.)
   3. The next player has enough positive or negative clues on their entire hand to know that they cannot have the card that the blind-played card will be played as.
-* Essentially, if i. or ii. is true, then the next player cannot act on their state of misinformation. And if it is #3, then the next player will have full knowledge that a lie is occurring, so they will try to "get" the *Bluffed* card.
+* Essentially, if i. or ii. is true, then the next player cannot act on their state of misinformation. And if iii. is true, then the next player will have full knowledge that a lie is occurring, so they will not try to "get" the *Bluffed* card.
 * Since valid *Out-of-Position Bluffs* are so rare, it is important to remember that:
   * Valid *Out-of-Position Bluffs* take precedence over *Known Bluffs*. In other words, if Bob can see that an *OOP Bluff* could be valid (meaning it meets one of the 3 criteria above), then Bob should not blind-play anything as a *Known Bluff*.
   * Valid *Out-of-Position Bluffs* take precedence over *Layered Finesses*. In other words, if Cathy can see that an *OOP Bluff* could be valid (meaning it meets one of the 3 criteria above), then Cathy should not continue to blind-play cards as a *Layered Finesse*. (This is a common mistake.)
