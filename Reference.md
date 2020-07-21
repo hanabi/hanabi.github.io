@@ -3146,14 +3146,16 @@ Definition of Unnecessary:
 
 If **known trash** was used as clue target, the first player who can see that the clue was unnecessary should blind play **slot 1**. (This will be the first player that does not already have a blind play from the original clue.)
 
-- For example if a *Trash Chop Move* was used on a card that could be saved directly, the next player blind plays **slot 1**, and the clue receiver still saves the chop moved card.
-
-- If a *Bad Chop Move Ejection (with a Trash Chop Move)* or *Trash Push Discharge* was given, the first person after the clue giver already has to perform an ejection or discharge to exhibit that the original clue chop moved / trash pushed a trash card. If this blind played card could have been clued directly, the next player also plays **slot 1**.
-
-- If a *Trash Push* is used on a playable card when a direct play clue is possible, then the next person after the clue giver also plays slot 1, as an *Unnecessary Trash Push*.
+- For example, if a *Trash Push* is used on a playable card when a direct play clue is possible, then the next person after the clue giver also plays slot 1, as an *Unnecessary Trash Push*.
 - If a *Trash Push* was initiated on a one-away from playable card, and the first player plays slot 1 in response, then there are two situations for an in-between player
   - The two cards are unrelated - the in-between player has to play to fulfill the trash push finesse, and the first blind play was an extra play. This move can be called an *Unnecessary Trash Push Finesse*.
   - The two cards are related, the in-between player has to observe if a normal finesse was possible. If not, this is an ordinary *Trash Push Finesse*, and the in-between player does not blind play. If the normal finesse was possible, using the trash version is unnecessary from their point of view and they should blind play **slot 1**, which will not affect the information in the clue receiver’s hand, meaning the clue receiver will still trash push.
+
+
+- If a *Trash Chop Move* was used on a card that could be saved directly, the next player blind plays **slot 1**, and the clue receiver still saves the chop moved card.
+
+- If a *Bad Chop Move Ejection (with a Trash Chop Move)* or *Trash Push Discharge* was given, the first person after the clue giver already has to perform an ejection or discharge to exhibit that the original clue chop moved / trash pushed a trash card. If this blind played card could have been clued directly, the player after that plays **slot 1**, a second blind play in total.
+
 
 - This extra blind play of slot 1 also holds for other applications of this principle, such as unnecessarily using a *Double Play Clue Ejection*, or using the color clue in [Extremely Ambiguous](/variant-specific/Extremely_Ambiguous.md) when a direct play clue would have been at least as good.
 
