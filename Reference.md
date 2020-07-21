@@ -2896,8 +2896,8 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * This situation is slightly different than the normal case, so we call it a *Shout Discard* to differentiate it from a more-ordinary *Scream Discard*.
 * A *Shout Discard* *Chop Moves* the very next player in the exact way that a *Scream Discard* does.
 * A *Shout Discard* forces the next player to **not** discard on their turn in the exact way that a *Scream Discard* does.
-* Normally, a *Scream Discard* is only allowed to *Chop Move* a critical card or a playable card. Unlike a *Scream Discard*, it is permissible to use a *Shout Discard* to *Chop Move* any card that is desirable, even if it is not critical or playable.
-* Normally, a *Scream Discard* is only allowed if the team is at 0 clues (or if cluing the card is impossible). Unlike a *Scream Discard*, it is permissible to use a *Shout Discard* to *Chop Move* regardless of the amount of clues that the team has.
+* Normally, a *Scream Discard* is only allowed to *Chop Move* a critical card or a playable card. However, unlike a *Scream Discard*, it is permissible to use a *Shout Discard* to *Chop Move* any card that is desirable, even if it is not critical or playable.
+* Normally, a *Scream Discard* is only allowed if the team is at 0 clues (or if cluing the card is impossible). However, unlike a *Scream Discard*, it is permissible to use a *Shout Discard* to *Chop Move* regardless of the amount of clues that the team has.
 * Normally, a *Scream Discard* would turn into an *Echo Scream Discard* if the next player has a playable card. *Shout Discards* can also turn into *Echo Shout Discards*, but only if the team is completely out of clues and it can be seen to be a "last-resort" move.
 
 ### The Whisper Discard Chop Move
