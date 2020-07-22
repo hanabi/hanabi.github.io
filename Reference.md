@@ -2466,17 +2466,13 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Donald knows that normally, this would be a *4 Double Bluff* and that no-one should play any more cards. However, since the red 4 was duplicated, this must be a *Bad Touch Triple Finesse*, so Cathy blind-plays her *Finesse Position* and it is the red 3.
   * Emily knows that this cannot be a *4 Double Bluff*, or else Donald would not have blind-played anything. Thus, this must be a *Bad Touch Triple Finesse*, so Emily plays her left-most red 4. The next time that Emily discards, she will discard the known trash red 4.
 
-### The Trash Double Bluff (Form 1)
-
-* Normally, *Trash Bluffs* are only done as a last resort. When a *Trash Bluff* is performed that is unnecessary, then it is an [*Unnecessary Trash Bluff Chop Move*](#level-15---unnecessary-usage-of-complicated-moves). However, if there are no cards left to *Chop Move* (or if the trash card is on chop), then this interpretation does not make any sense.
-* In this situation, the interpretation should revert to a *Trash Double Bluff*.
-
-### The Trash Double Bluff (Form 2)
+### The Trash Double Bluff
 
 * Normally, *Trash Bluffs* are only done as a last resort, meaning that the target card cannot be clued directly. In this situation, if a player has the option to initiate the *Trash Bluff* with a single card, then they **must** choose to do so.
 * If a player deliberately does not initiate the *Trash Bluff* with a single card and instead initiates a *Trash Bluff* by touching two or more trash cards, then they must be trying to communicate something extra - a *Trash Double Bluff*.
   * If a player is doing an [*Unnecessary Trash Bluff Chop Move*](#level-15---unnecessary-usage-of-complicated-moves), then they can clue as many trash cards as they want and it should not trigger a *Trash Double Bluff*.
 * All of the cards touched in this way are promised to be trash.
+* Additionally, an [*Unnecessary Trash Bluff*](#level-15---unnecessary-usage-of-complicated-moves) can sometimes effectively be a different kind of *Trash Double Bluff*, which is explained in the relevant section.
 
 ### The Patch Finesse (Hidden Form)
 
