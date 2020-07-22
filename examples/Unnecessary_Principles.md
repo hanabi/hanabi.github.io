@@ -1,25 +1,6 @@
 ## Examples of the [Unnecessary Principles](../Reference.md#level-15---unnecessary-usage-of-complicated-moves)
 
-### The Unnecessary Trash Finesse Chop Move & The Unnecessary Trash Bluff Chop Move
 
-* First as a clarifying example, in a 3-player game, this **would not** be an *Unnecessary Trash Finesse Chop Move*:
-  * All of the 2's are played on the stacks except for the red 2 and the blue 2.
-  * Bob has a red 2 on his *Finesse Position* and another red 2 on his chop. Thus, Alice cannot give a red clue to Bob and Alice cannot give a number 2 clue to Bob, since either clue would violate *Good Touch Principle*.
-  * Cathy's hand is completely unclued.
-  * Alice clues number 2 to Cathy, touching a green 2 on slot 4. (Green 2 is already played and is therefore trash.)
-  * Bob blind-plays red 2 from his *Finesse Position*, knowing that this is a *Trash Finesse* or *Trash Bluff*.
-  * Cathy knows that her 2 is trash. She also knows that this was likely the only way that Alice could "get" Bob's *Finesse Position* card.
-* In a 3-player game, this **would** be an *Unnecessary Trash Finesse Chop Move*:
-  * All of the 2's are played on the stacks except for the red 2.
-  * Bob has a red 2 on his *Finesse Position* and no other red cards in his hand. Thus, Alice could give a red clue to Bob in order to "get" the red 2.
-  * Cathy's hand is completely unclued.
-  * Alice clues number 2 to Cathy, touching a blue 2 on slot 4. (Blue 2 is already played and is therefore trash.)
-  * Bob blind-plays red 2 from his *Finesse Position*, knowing that this is a *Trash Finesse* or *Trash Bluff*.
-  * Cathy knows that her 2 is trash. However, she also knows that this *Trash Finesse* was unnecessary, as Alice could have just clued red to Bob. Thus, Cathy knows that this is an *Unnecessary Trash Finesse Chop Move*, so she marks her slot 5 card as *Chop Moved*.
-
-### The Unnecessary Unknown Trash Discharge Chop Move (UUTDCM)
-If an unnecessary *Unknown Trash Discharge* is performed, then the player who receives the clue should Chop Move in the same way as the *Unnecessary Trash Finesse Chop Move*.
-Note again that this convention only applies if it touches exactly one trash card. (This is because we want players to have the ability to perform 2-for-1 UTDs without promising a Chop Move.)
 
 ### The Unnecessary Trash Push
 
@@ -41,7 +22,6 @@ Note again that this convention only applies if it touches exactly one trash car
 
 ### The Unnecessary Trash Push (Finesse Form)
 
-* First, see the section on the *[Unnecessary Trash Push](#unnecessary-trash-push)*.
 * Normally, the *Unnecessary Trash Push* calls for the very next player to blind-play an unrelated card, similar to a *Bluff*.
 * However, if the very next player can see that it could be a *Finesse*, then they should prefer that interpretation. This is similar to how the next player should always prefer a *Finesse* interpretation over a *Bluff* interpretation.
 * For example, in a 4-player game:
@@ -53,7 +33,40 @@ Note again that this convention only applies if it touches exactly one trash car
   * Cathy knows that this must be a *Trash Push*. Cathy blind-plays her slot 3 card. It is red 3 instead and it successfully plays.
   * Similar to Bob, Donald also sees that the *Trash Push* was unnecessary. Since Bob did not blind-play anything, this must be an *Unnecessary Trash Push Finesse*. Donald blind-plays his *Finesse Position* as red 4 and it successfully plays.
 
+
+### Unnecessary Trash Push Finesse
+Similar to what happens with ordinary *Trash Push*, if a *Trash Push Finesse* is performed even though a normal finesse is possible, an extra blind play is called for.
+
+![Example 4 screenshot](../img/examples/unnecessary_principles4.png)
+* Floriman clues r to scharkbite (green 5 was chop moved earlier), this card is known trash to all
+* Kyle plays brown 3 as a *Trash Push Finesse*
+* scharkbite plays brown 4 to complete the *Trash Push Finesse*
+* pianoblook notices that Floriman could have clued brown 4 directly, which also would have let the same cards play. Therefore pianoblook also plays slot 1 as a *Unnecessary Trash Push Finesse*
+
+### The Unnecessary Trash Finesse Chop Move & The Unnecessary Trash Bluff Chop Move
+
+* First as a clarifying example, in a 3-player game, this **would not** be an *Unnecessary Trash Finesse Chop Move*:
+  * All of the 2's are played on the stacks except for the red 2 and the blue 2.
+  * Bob has a red 2 on his *Finesse Position* and another red 2 on his chop. Thus, Alice cannot give a red clue to Bob and Alice cannot give a number 2 clue to Bob, since either clue would violate *Good Touch Principle*.
+  * Cathy's hand is completely unclued.
+  * Alice clues number 2 to Cathy, touching a green 2 on slot 4. (Green 2 is already played and is therefore trash.)
+  * Bob blind-plays red 2 from his *Finesse Position*, knowing that this is a *Trash Finesse* or *Trash Bluff*.
+  * Cathy knows that her 2 is trash. She also knows that this was likely the only way that Alice could "get" Bob's *Finesse Position* card.
+* In a 3-player game, this **would** be an *Unnecessary Trash Finesse Chop Move*:
+  * All of the 2's are played on the stacks except for the red 2.
+  * Bob has a red 2 on his *Finesse Position* and no other red cards in his hand. Thus, Alice could give a red clue to Bob in order to "get" the red 2.
+  * Cathy's hand is completely unclued.
+  * Alice clues number 2 to Cathy, touching a blue 2 on slot 4. (Blue 2 is already played and is therefore trash.)
+  * Bob blind-plays red 2 from his *Finesse Position*, knowing that this is a *Trash Finesse* or *Trash Bluff*.
+  * Cathy knows that her 2 is trash. However, she also knows that this *Trash Finesse* was unnecessary, as Alice could have just clued red to Bob. Thus, Cathy knows that this is an *Unnecessary Trash Finesse Chop Move*, so she marks her slot 5 card as *Chop Moved*.
+
+### The Unnecessary Unknown Trash Discharge Chop Move (UUTDCM)
+If an unnecessary *Unknown Trash Discharge* is performed, then the player who receives the clue should Chop Move in the same way as the *Unnecessary Trash Finesse Chop Move*.
+Note again that this convention only applies if it touches exactly one trash card. (This is because we want players to have the ability to perform 2-for-1 UTDs without promising a Chop Move.)
+
 ### Unnecessary Trash Bluff Trash Push
+If a *Trash Bluff* is done and the target card is on chop, there is nothing to chop move. In that case, the receiving player interprets this as a *Trash Push* from the card that is now known trash.
+
 ![Example 2 screenshot](../img/examples/unnecessary_principles2.png)
 * Dr_Kakashi clues 1 to kimbifille, letting Lilliana play slot 1 as a *Trash Bluff*
 * Kyle plays r1
@@ -65,9 +78,3 @@ Note again that this convention only applies if it touches exactly one trash car
 * Kyle sees that black 1 will play, and therefore does not need to play slot 1 as a cancellation blind play
 * kimbifille sees that Dr_Kakashi could have easily clued b4 (using rank) and therefore blind plays slot 2 as a *Trash Push*
 
-### Unnecessary Trash Push Finesse
-![Example 4 screenshot](../img/examples/unnecessary_principles4.png)
-* Floriman clues r to scharkbite (green 5 was chop moved earlier), this card is known trash to all
-* Kyle plays brown 3 as a *Trash Push Finesse*
-* scharkbite plays brown 4 to complete the *Trash Push Finesse*
-* pianoblook notices that Floriman could have clued brown 4 directly, which also would have let the same cards play. Therefore pianoblook also plays slot 1 as a *Unnecessary Trash Push Finesse*
