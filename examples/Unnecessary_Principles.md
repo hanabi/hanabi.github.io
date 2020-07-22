@@ -70,7 +70,7 @@ Note that this convention only applies if it touches exactly one trash card. (Th
 * Kyle sees that black 1 will play, and therefore does not need to play slot 1 as a cancellation blind play
 * kimbifille sees that Dr_Kakashi could have easily clued b4 (using rank) and therefore blind plays slot 2 as a *Trash Push*
 
-### Unnecessary Trash Push Finesse Trash Push
+### Unnecessary Trash Push Finesse
 ![Example 4 screenshot](../img/examples/unnecessary_principles4.png)
 * Floriman clues r to scharkbite (green 5 was chop moved earlier), this card is known trash to all
 * Kyle plays brown 3 as a *Trash Push Finesse*
