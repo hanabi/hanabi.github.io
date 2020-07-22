@@ -1978,7 +1978,7 @@ Priority does not always apply. Some common exceptions are listed below.
   * For example, if the red stack is played up to the red 4, then you can use a red clue to initiate a *Trash Bluff*, because a blind-play will prove that the clued card is not a red 5.
 * In the case where multiple cards are clued as part of a *Trash Bluff*, **all** of the touched cards are considered to be trash. However, the focus of the clue should be the first thing discarded, which allows for the possibility of your teammates to give a follow-up *Fix Clue*.
 * An important stipulation of the *Trash Bluff* is that by convention, *Trash Bluffs* **must only touch one card**, if at all possible.
-  * If a player breaks this rule and intentionally touches multiple cards when they could have touched exactly one card, then they are trying to communicate something extra - an *Unnecessary Trash Chop Move* or a *Trash Double Bluff*. (These moves are covered in more detail later on.)
+  * If a player breaks this rule and intentionally touches multiple cards when they could have touched exactly one card, then they are trying to communicate something extra - an *Unnecessary Trash Chop Move* or a *Trash Double Bluff*. (These moves are [covered in more detail](#level-15---unnecessary-usage-of-complicated-moves) later on.)
 
 ### The Trash Finesse (Strong Form)
 
@@ -2322,7 +2322,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### The Unnecessary Forced Reverse Trash Finesse (A Gentleman's Discard That Looks Like an Unnecessary Reverse Trash Finesse)
 
-* First, see the section on the *[Unnecessary Trash Finesse Chop Move](#the-unnecessary-trash-finesse-chop-move--the-unnecessary-trash-bluff-chop-move)*. Basically, if a *Trash Finesse* is unnecessary, then it also causes a *Chop Move*.
+* First, see the section on the *[Unnecessary Trash Finesse Chop Move](#level-15---unnecessary-usage-of-complicated-moves)*. Basically, if a *Trash Finesse* is unnecessary, then it also causes a *Chop Move*.
 * This convention also applies to *Reverse Trash Finesses*. If they are unnecessary, then it causes a *Chop Move* in the same way.
 * If a line is chosen that forces a *Gentleman's Discard* to occur (because they have to entertain the possibility of a *Reverse Trash Finesse*), and the blind-playing card could have been clued in some other easier way, then it **still** *Chop Moves* in exactly the same way that an *Unnecessary Reverse Trash Finesse* would.
 * For example, in a 3-player game:
@@ -2468,14 +2468,14 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### The Trash Double Bluff (Form 1)
 
-* Normally, *Trash Bluffs* are only done as a last resort. When a *Trash Bluff* is performed that is unnecessary, then it is an *Unnecessary Trash Bluff Chop Move*. However, if there are no cards left to *Chop Move* (or if the trash card is on chop), then this interpretation does not make any sense.
+* Normally, *Trash Bluffs* are only done as a last resort. When a *Trash Bluff* is performed that is unnecessary, then it is an [*Unnecessary Trash Bluff Chop Move*](#level-15---unnecessary-usage-of-complicated-moves). However, if there are no cards left to *Chop Move* (or if the trash card is on chop), then this interpretation does not make any sense.
 * In this situation, the interpretation should revert to a *Trash Double Bluff*.
 
 ### The Trash Double Bluff (Form 2)
 
 * Normally, *Trash Bluffs* are only done as a last resort, meaning that the target card cannot be clued directly. In this situation, if a player has the option to initiate the *Trash Bluff* with a single card, then they **must** choose to do so.
 * If a player deliberately does not initiate the *Trash Bluff* with a single card and instead initiates a *Trash Bluff* by touching two or more trash cards, then they must be trying to communicate something extra - a *Trash Double Bluff*.
-  * If a player is doing a *Unnecessary Trash Bluff Chop Move*, then they can clue as many trash cards as they want and it should not trigger a *Trash Double Bluff*.
+  * If a player is doing an [*Unnecessary Trash Bluff Chop Move*](#level-15---unnecessary-usage-of-complicated-moves), then they can clue as many trash cards as they want and it should not trigger a *Trash Double Bluff*.
 * All of the cards touched in this way are promised to be trash.
 
 ### The Patch Finesse (Hidden Form)
@@ -2772,32 +2772,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 * If a player performs a *Trash Push* on a *one-away-from-playable* card, it is a signal that someone else has the connecting card as a *Prompt* or a *Finesse*.
 
-### The Unnecessary Trash Push
-
-* Normally, players are only allowed to perform a *Trash Push* if the card to "get" cannot be given a direct *Play Clue*. Subsequently, if the card **can** be clued directly, and a *Trash Push* is done anyway, this is very strange.
-* In this situation, the very next player should blind-play their *Finesse Position* card as a *Known Bluff*. The receiver of the clue will interpret this as a *Trash Push Finesse* and will then play the pushed card. Once they play it, they will see that it does **not** match, and that an *Unnecessary Trash Push* occurred.
-* For example, in a 3-player game:
-  * All of the 2's are played on the stacks.
-  * Alice clues number 1 to Cathy, touching a single 1 on her chop. Since all of the 1's are already played, it is globally known that this must be some kind of *Trash Push*.
-  * Bob sees that the pushed card is a red 3. Cathy has no other red cards in her hand, so Alice could have just clued red to Cathy instead of doing a complicated *Trash Push*.
-  * Thus, Bob knows that this is an *Unnecessary Trash Push*, and blind-plays his *Finesse Position* card. It is the blue 3 and it successfully plays.
-  * Cathy knows that this must be a *Trash Push Finesse* on blue 4. Cathy blind-plays her slot 4 card, but it is red 3 instead and it successfully plays.
-  * Cathy now knows that since the two cards did not match each other, this must have been an *Unnecessary Trash Push*.
-* Often times, a (normal) *Trash Push* can provide a player with safe discards that stall out the discard of other useful cards in their hand. If this is the case, then the *Trash Push* would **not** be an *Unnecessary Trash Push*.
-
-### The Unnecessary Trash Push (Finesse Form)
-
-* First, see the section on the *[Unnecessary Trash Push](#unnecessary-trash-push)*.
-* Normally, the *Unnecessary Trash Push* calls for the very next player to blind-play an unrelated card, similar to a *Bluff*.
-* However, if the very next player can see that it could be a *Finesse*, then they should prefer that interpretation. This is similar to how the next player should always prefer a *Finesse* interpretation over a *Bluff* interpretation.
-* For example, in a 4-player game:
-  * All of the 2's are played on the stacks.
-  * Alice clues number 1 to Cathy, touching a single 1 on her chop. Since all of the 1's are already played, it is globally known that this must be some kind of *Trash Push*.
-  * Bob sees that the pushed card is a red 3. Cathy has no other red cards in her hand, so Alice could have just clued red to Cathy instead of doing a complicated *Trash Push*.
-  * Thus, Bob knows that this is an *Unnecessary Trash Push*. Normally, Bob would immediately blind-play his *Finesse Position* card. However, Bob also sees that Donald has a red 4 in his *Finesse Position*. Since *Finesses* take precedence over *Bluffs*, Bob knows that he should let Donald be the one to blind-play from the "unnecessaryness".
-  * Bob discards.
-  * Cathy knows that this must be a *Trash Push*. Cathy blind-plays her slot 3 card. It is red 3 instead and it successfully plays.
-  * Similar to Bob, Donald also sees that the *Trash Push* was unnecessary. Since Bob did not blind-play anything, this must be an *Unnecessary Trash Push Finesse*. Donald blind-plays his *Finesse Position* as red 4 and it successfully plays.
 
 ### The Trash Pull
 
@@ -3120,9 +3094,9 @@ Definition of Unnecessary:
 If **known trash** was used as clue target, the first player who can see that the clue was unnecessary should blind play **slot 1**. (This will be the first player that does not already have a blind play from the original clue.)
    - The exception here is: if the original clue already (will) generate a blind play, say it's a *Trash Push*, and the next player after this blind play sees the proper connecting card in someone's finesse position, then the clue is interpreted as a *finesse* on that matching card (instead of the usual play as a kind of *bluff*). 
 
-- For example, if a *Trash Push* is used on a playable card when a direct play clue is possible, then the next person after the clue giver also plays slot 1, as an *Unnecessary Trash Push*.
+- For example, if a *Trash Push* is used on a playable card when a direct play clue is possible, then the next person after the clue giver also plays slot 1, as an [*Unnecessary Trash Push*](examples/Unnecessary_Principles.md#the-unnecessary-trash-push).
 - If a *Trash Push* was initiated on a one-away from playable card, and the first player plays slot 1 in response, then there are two situations for an in-between player
-  - The two cards are unrelated - the in-between player has to play to fulfill the trash push finesse, and the first blind play was an extra play. This move can be called an *Unnecessary Trash Push Finesse*.
+  - The two cards are unrelated - the in-between player has to play to fulfill the trash push finesse, and the first blind play was an extra play. This move can be called an [*Unnecessary Trash Push Finesse*](examples/Unnecessary_Principles.md#unnecessary-trash-push-finesse).
   - The two cards are related, the in-between player has to observe if a normal finesse was possible. If not, this is an ordinary *Trash Push Finesse*, and the in-between player does not blind play. If the normal finesse was possible, using the trash version is unnecessary from their point of view and they should blind play **slot 1**, which will not affect the information in the clue receiver’s hand, meaning the clue receiver will still trash push.
 
 
@@ -3136,10 +3110,10 @@ If **known trash** was used as clue target, the first player who can see that th
 
 If **unknown trash** was used (a *Trash Bluff* or *Unnecessary Trash Discharge* or *Trash Finesse*), we agree that in addition to the blind play from the first player, the second player, who received the clue, should additionally treat it as a *Trash Chop Move* or *Trash Push* depending on the location of the trash in the hand. 
 
-- For off-chop trash targets, the effective move will be an *Unnecessary Trash Bluff Chop Move*, an *Unnecessary Trash Finesse Chop Move*, or an *Unnecessary Unknown Trash Discharge Chop Move (UUTDCM)*.
+- For off-chop trash targets, the effective move will be an [*Unnecessary Trash Bluff Chop Move*](examples/Unnecessary_Principles.md#the-unnecessary-trash-finesse-chop-move--the-unnecessary-trash-bluff-chop-move), an [*Unnecessary Trash Finesse Chop Move*](examples/Unnecessary_Principles.md#the-unnecessary-trash-finesse-chop-move--the-unnecessary-trash-bluff-chop-move), or an [*Unnecessary Unknown Trash Discharge Chop Move (UUTDCM)*](examples/Unnecessary_Principles.md#the-unnecessary-unknown-trash-discharge-chop-move-uutdcm).
    - Do note that *Unnecessary Trash Finesse/Bluff Chop Moves* are tricky in that they have information asymmetry: the player who blind-plays will **not** know that the card is chop moved, while everyone else will. All players will have to keep this in mind until the *Chop Move* has been demonstrated.
 
-- For unnecessary moves with trash targets on chop, this will be an Unnecessary Trash Bluff Trash Push or an Unnecessary Unknown Trash Discharge Trash Push.
+- For unnecessary moves with trash targets on chop, this will be an [*Unnecessary Trash Bluff Trash Push*](examples/Unnecessary_Principles.md#unnecessary-trash-bluff-trash-push) or an [*Unnecessary Unknown Trash Discharge Trash Push*](examples/Unnecessary_Principles.md#unnecessary-utd-trash-push).
 
 - The first blind play is necessary to tell the clue receiver that their focused card is trash.  This means that the first person who blind plays does not know whether the move was performed unnecessarily. However, a player in-between the first blind player and before the clue receiver can tell whether the clue receiver is about to chop move or trash push a trash card.  Thus, the in-between player also has a way to cancel the move.
 - If there is an in-between player, then there are two situations:
@@ -3147,7 +3121,7 @@ If **unknown trash** was used (a *Trash Bluff* or *Unnecessary Trash Discharge* 
   - If the chop moved cards are trash or the trash pushed card is trash, they should immediately blind play **slot 1**, to immediately resolve it as a *Trash Double Bluff*.  This is necessary in order to undo the additional trash interpretation of the unnecessary *Trash Bluff* or *UTD*, and the clue receiver does nothing.
 
 All trash conventions should follow [Occam's Razor](#clue-interpretation--occams-razor)
-- Basically, we should always assume a finesse over a bluff. [Unnecessary Trash Push (Finesse Form)](#the-unnecessary-trash-push-finesse-form)
+- As said above, we should always assume a finesse over a bluff. [Unnecessary Trash Push (Finesse Form)](examples/Unnecessary_Principles.md#the-unnecessary-trash-push-finesse-form)
 - Also, the situation that gets the least amount of blind cards played shall always take precedence
 
 **Examples:**
