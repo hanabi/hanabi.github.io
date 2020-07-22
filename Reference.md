@@ -3026,7 +3026,8 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * *Blaze Discards* do not apply when someone performs a *Gentleman's Discard* or a *Baton Discard* that looks like a *Sarcastic Discard*. In these situations, one of the following is true:
   * The discarding player is making a mistake (as a *Wrong Prompt*).
   * The discarding player is not making a mistake and there is enough past context for the player with the cards to be able to tell the difference.
-* Note that it is illegal to perform a *Layered Blaze Discard*.
+* Note that it is illegal to perform an *Ambiguous Blaze Discard*. We want to keep *Blaze Discards* as simple as possible.
+* Note that it is illegal to perform a *Layered Blaze Discard* (on either the ignited player or the player holding the matching card). We want to keep *Blaze Discards* as simple as possible.
 
 <br />
 
