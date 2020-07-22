@@ -4,6 +4,10 @@ These conventions apply to any variant with a dark pink (touched by all ranks an
 
 <br />
 
+### Save Clues
+
+* Just like a black suit, dark pink 3 and dark pink 4 are saved with a pink color clue.
+
 ### Dark Pink Tempo Clues
 
 * Normally, *Tempo Clues* on pink cards would never cause a *Tempo Clue Chop Move* (because *Tempo* on pink cards is important).
