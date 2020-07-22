@@ -2107,33 +2107,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * Sometimes, duplicated cards are accidentally *Chop Moved* through a mistake or through a complicated situation. When this happens, it is pointless to use a clue to "undo" the *Chop Move* - the team can just continue to allow the player to discard normally.
 * Subsequently, if someone **does** use a clue to undo the *Chop Move*, there must be a good reason. This means that the card they were about to discard is important, so the player should discard the now-known useless card and then permanently *Chop Move* their new chop.
 
-### The Unnecessary Trash Finesse Chop Move & The Unnecessary Trash Bluff Chop Move
-
-* The *Trash Finesse* or *Trash Bluff* is almost always done as a last resort - there was no way to give a direct *Play Clue* to the player's *Finesse Position* card without violating *Good Touch Principle*.
-* However, sometimes there **is** a way to "cleanly" touch the player's *Finesse Position* card. In this situation, doing a *Trash Finesse* or *Trash Bluff* would be unnecessary. But what if a player does it anyway?
-* In this situation, the point of the clue must be to give the clue receiver a safe discard. Thus, the clue receiver should *Chop Move* all of the cards to the right of the trash in the exact same way as a *Trash Chop Move*.
-* For example, in a 3-player game, this **would not** be an *Unnecessary Trash Finesse Chop Move*:
-  * All of the 2's are played on the stacks except for the red 2 and the blue 2.
-  * Bob has a red 2 on his *Finesse Position* and another red 2 on his chop. Thus, Alice cannot give a red clue to Bob and Alice cannot give a number 2 clue to Bob, since either clue would violate *Good Touch Principle*.
-  * Cathy's hand is completely unclued.
-  * Alice clues number 2 to Cathy, touching a green 2 on slot 4. (Green 2 is already played and is therefore trash.)
-  * Bob blind-plays red 2 from his *Finesse Position*, knowing that this is a *Trash Finesse* or *Trash Bluff*.
-  * Cathy knows that her 2 is trash. She also knows that this was likely the only way that Alice could "get" Bob's *Finesse Position* card.
-* For example, in a 3-player game, this **would** be an *Unnecessary Trash Finesse Chop Move*:
-  * All of the 2's are played on the stacks except for the red 2.
-  * Bob has a red 2 on his *Finesse Position* and no other red cards in his hand. Thus, Alice could give a red clue to Bob in order to "get" the red 2.
-  * Cathy's hand is completely unclued.
-  * Alice clues number 2 to Cathy, touching a blue 2 on slot 4. (Blue 2 is already played and is therefore trash.)
-  * Bob blind-plays red 2 from his *Finesse Position*, knowing that this is a *Trash Finesse* or *Trash Bluff*.
-  * Cathy knows that her 2 is trash. However, she also knows that this *Trash Finesse* was unnecessary, as Alice could have just clued red to Bob. Thus, Cathy knows that this is an *Unnecessary Trash Finesse Chop Move*, so she marks her slot 5 card as *Chop Moved*.
-* Importantly, *Unnecessary Trash Finesse/Bluff Chop Moves* are tricky in that they have information asymmetry: the player who blind-plays will **not** know that the card is chop moved, while everyone else will. All players will have to keep this in mind until the *Chop Move* has been demonstrated.
-
-### The Unnecessary Unknown Trash Discharge Chop Move (UUTDCM)
-
-* First, see the section on the *[Unnecessary Trash Finesse Chop Move](#the-unnecessary-trash-finesse-chop-move--the-unnecessary-trash-bluff-chop-move)* and *[Unknown Trash Discharge](#unknown-trash-discharge-utd)*.
-* This "unnecessary" principle that applies to the *Trash Finesse Chop Move* also applies to *Unknown Trash Discharge*. In other words, if an unnecessary *Unknown Trash Discharge* is performed, then the player who receives the clue should *Chop Move* in the same way as the *Unnecessary Trash Finesse Chop Move*.
-* Note that this convention **only** applies if it touches exactly **one** trash card. (This is because we want players to have the ability to perform 2-for-1 UTDs without promising a *Chop Move*.)
-
 <br />
 
 ## Level 15 - Rarely Used Strategies (Finesses & Bluffs)
@@ -3163,10 +3136,10 @@ If **known trash** was used as clue target, the first player who can see that th
 
 If **unknown trash** was used (a *Trash Bluff* or *Unnecessary Trash Discharge* or *Trash Finesse*), we agree that in addition to the blind play from the first player, the second player, who received the clue, should additionally treat it as a *Trash Chop Move* or *Trash Push* depending on the location of the trash in the hand. 
 
-- For off-chop trash targets, the effective move will be called an Unnecessary Trash Finesse/Bluff Chop Move or an Unnecessary Unknown Trash Discharge Chop Move (UUTDCM)
+- For off-chop trash targets, the effective move will be an *Unnecessary Trash Bluff Chop Move*, an *Unnecessary Trash Finesse Chop Move*, or an *Unnecessary Unknown Trash Discharge Chop Move (UUTDCM)*.
    - Do note that *Unnecessary Trash Finesse/Bluff Chop Moves* are tricky in that they have information asymmetry: the player who blind-plays will **not** know that the card is chop moved, while everyone else will. All players will have to keep this in mind until the *Chop Move* has been demonstrated.
 
-- For unnecessary moves with trash targets on chop, this will be an Unnecessary Trash Bluff Trash Push or an Unnecessary Uknown Trash Discharge Trash Push.
+- For unnecessary moves with trash targets on chop, this will be an Unnecessary Trash Bluff Trash Push or an Unnecessary Unknown Trash Discharge Trash Push.
 
 - The first blind play is necessary to tell the clue receiver that their focused card is trash.  This means that the first person who blind plays does not know whether the move was performed unnecessarily. However, a player in-between the first blind player and before the clue receiver can tell whether the clue receiver is about to chop move or trash push a trash card.  Thus, the in-between player also has a way to cancel the move.
 - If there is an in-between player, then there are two situations:
