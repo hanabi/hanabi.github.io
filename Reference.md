@@ -1072,7 +1072,7 @@ Note that in this user interface, players are **not** holding their hands like t
 * Towards the end of the game, the strategy of the team will change. In most games, you stop becoming concerned with efficiency and become more concerned with tempo - every card needs to play **right now** before the game ends!
 * Thus, since clues can mean different things depending on whether you are in the *Mid-Game* or the *End-Game*, you need to be able to keep track of when the *End-Game* has arrived.
 * *Pace* is used to determine *End-Game* status. If pace is **less than the number of players**, the *End-Game* has arrived.
-  * On [Hanabi Live](https://hanabi.live), pace will turn yellow when this occurs.
+  * On [Hanab Live](https://hanab.live), pace will turn yellow when this occurs.
 * If pace is **less than the number of players / 2**, you should be very careful with discarding. It might still be the best thing to do, but if there are enough clues in the bank, it is usually better to *Burn* a clue (meaning to deliberately waste a clue).
 * If pace is 0, no more discards can happen in order to get the maximum score.
 * If pace is below 0, it is impossible to get the maximum score.
@@ -2573,7 +2573,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * Note that the *Repair Finesse* will only work in the situations where the "repairing" blind-play will not stop the *Prompted* player from playing. In order words, if a *Prompted* player sees a blind-play immediately after a clue, they will assume that a normal *Bluff* has occurred, which is the simplest interpretation.
 * The *Repair Finesse* is extremely similar to the *Patch Finesse*, with the difference being that the blind-play fixes a player playing a chain of *Prompted* cards instead of a chain of cards inside of a *Layered Finesse*.
 * Examples:
-  * [Game #16695, turn 10](https://hanabi.live/replay/16695/10)
+  * [Game #16695, turn 10](https://hanab.live/replay/16695/10)
 
 ### The Trash Finesse (Weak Form)
 
@@ -2724,7 +2724,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * On the final round of the game, it is possible to give a *Play Clue* to a player that would be useless - they will not get a chance to play the card before the game ends.
 * If a player does this anyway, then it must be communicating something extra. In this situation, it is to be interpreted as a *Finesse* instead of a *Play Clue* for the purposes of better satisfying *Team Distribution Principle*.
 * Examples:
-  * [Game #16887, turn 29](https://hanabi.live/replay/16887/29) if Instantiation clues 5 on the red 5
+  * [Game #16887, turn 29](https://hanab.live/replay/16887/29) if Instantiation clues 5 on the red 5
 
 ### Inverted Priority Finesse
 
@@ -2777,7 +2777,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * In this situation, if a player chooses rank instead of color, and there was not a good reason to do so, then the player giving the clue must be trying to communicate something extra. By convention, this means that they really want a *Bluff* to happen (instead of a *Reverse Finesse*). The next player should **not** wait for other matching cards to play first. This is called a *Rank Choice Bluff*.
 * Note that it is possible to use the *Rank Choice* convention with any kind of *Bluff*. Thus, it is possible to *Rank Choice 3 Bluff*, *Rank Choice Double Bluff*, and so forth.
 * Examples:
-  * [Game #8129, turn 4](https://hanabi.live/replay/8129/4) if Zamiel clues Hyakinthus' green 3 with number 3
+  * [Game #8129, turn 4](https://hanab.live/replay/8129/4) if Zamiel clues Hyakinthus' green 3 with number 3
 
 #### The Rank Choice Finesse
 
