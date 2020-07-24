@@ -2481,7 +2481,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Cathy knows that normally, this would be a *3 Bluff*. However, since the red 3 was duplicated, this must be a *Bad Touch Double Finesse*, so Cathy blind-plays her *Finesse Position* and it is the red 2.
   * Donald knows that this cannot be a *3 Bluff*, or else Cathy would not have blind-played anything. Thus, this must be a *Bad Touch Double Finesse*, so Donald discards his red 3 as a *Sarcastic Discard* to pass it back to Emily.
   * Emily plays the red 3.
-* More examples of a Pestilent Double Bluff can be found [here](examples/Bad_Touch_Double_Bluff.md).
+* More examples of a *Bad Touch Double Bluff* can be found [here](examples/Bad_Touch_Double_Bluff.md).
 
 ### The Bad Touch Triple Finesse (For 4's)
 
