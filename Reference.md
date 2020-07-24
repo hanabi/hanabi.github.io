@@ -2814,7 +2814,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Cathy now knows that since the two cards did not match each other, this must have been an *Unnecessary Trash Push*.
 * Often times, a (normal) *Trash Push* can provide a player with safe discards that stall out the discard of other useful cards in their hand. If this is the case, then the *Trash Push* would **not** be an *Unnecessary Trash Push*.
 
-### The Unnecessary Trash Push (Finesse Form)
+### The Trash Push Inverted Finesse
 
 * First, see the section on the *[Unnecessary Trash Push](#unnecessary-trash-push)*.
 * Normally, the *Unnecessary Trash Push* calls for the very next player to blind-play an unrelated card, similar to a *Bluff*.
