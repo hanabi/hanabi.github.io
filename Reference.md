@@ -1848,6 +1848,7 @@ Priority does not always apply. Some common exceptions are listed below.
   * *Prompts* don't factor into the "two or more blind-plays" rule. Players only count the number of blind-plays.
 * After the blind-play, the player who received the clue will know that they must have a 5.
 * Note that *5 Color Ejection* only applies if the 5 did not have any clues on it already. If a 5 is re-clued, it signals a *Finesse* on all of the cards leading up to the 5.
+  * However, the "invisible" clue from a *Chop Move* does not count. In other words, **can** perform a *5 Color Ejection* with a *Chop Moved* 5, as long as the card does not have any positive clues on it.
 * For example, in a 3-player game:
   * It is the first turn and nothing is played on the stacks.
   * Alice clues red to Cathy, touching a red 5 on slot 3.
