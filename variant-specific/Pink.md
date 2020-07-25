@@ -183,10 +183,16 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 * *Bubblegum Bluffs* can only be performed on non-pink cards; otherwise, it will look like a *Double Finesse* with one part *Bubblegum Finesse* and one part normal *Finesse*.
 * Note that it is impossible to *3 Bluff* and *Bubblegum Bluff* at the same time.
 
+### Trash Finesses & Trash Bluffs in Pink
+
+* When a *Trash Finesse* or a *Trash Bluff* happens in a normal variant, if more than one card is touched, then all of the touched cards are known to be trash.
+* When a Trash Finesse* or a *Trash Bluff* happens in a variant with a pink suit, if more than one card is touched, it is possible that only the focused card was trash, and that the other cards touched are useful / critical pink cards.
+* In this situation, after discarding the focus of the *Trash Finesse* or *Trash Bluff*, the player should then hold on to the other touched cards.
+
 ### Trash Pushes in Pink
 
 * When a *Trash Push* happens in a normal variant, if more than one card is touched, then all of the touched cards are known to be trash.
-* When a *Trash Push* happens with a rank clue in a variant with a pink suit, if more than one card is touched, it is possible that only the card on chop was trash and that the other cards touched are useful / critical pink cards.
+* When a *Trash Push* happens with a rank clue in a variant with a pink suit, if more than one card is touched, it is possible that only the card on chop was trash, and that the other cards touched are useful / critical pink cards.
 * In this situation, after blind-playing the *Trash Pushed* card, the player should first discard the card that initiated the *Trash Push* (the oldest card) and then hold on to the other touched cards.
 
 ### Pink Positional Clues
