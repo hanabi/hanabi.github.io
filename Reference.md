@@ -202,6 +202,7 @@ Note that in this user interface, players are **not** holding their hands like t
 ### The Prompt
 
 * The *Prompt* is a move covered in the [beginner's guide](Beginner.md#the-prompt). It is when you get a player to play a clued card that was previously unknown.
+* For advanced players, also see the *[Prompts in Multi-Color Variants](#prompts-in-multi-color-variants)* section.
 
 ### The Finesse
 
