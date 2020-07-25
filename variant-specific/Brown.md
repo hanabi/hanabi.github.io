@@ -4,12 +4,18 @@ These conventions apply to any variant with a brown (touched by no ranks) suit.
 
 <br />
 
+### Brown Saves
+
+* Any brown clue to a chop card is first and foremost to be treated as a *Save Clue*.
+* For example, at the beginning of the game, a brown clue to a chop card would either be a *5 Save* (on a brown 5) or a *2 Save* (on a brown 2).
+* In order to get around this (e.g. when a brown 1 is on someone's chop), use *Brown Tempo Clue Inversion* (covered later), *Brown Loaded Play Clues* (covered later), and *Occupied Play Clues*.
+
 ### Brown Tempo Clues
 
 * If a player gives a *Tempo Clue* to a brown card, it is never a *Tempo Clue Chop Move*, even if it only gets one card played.
 * This is because it is fairly valuable to get brown cards out of the hand as soon as possible in case blocking cards are drawn.
 
-### Brown Inversion
+### Brown Tempo Clue Inversion
 
 * In a normal *Double Tempo Clue*, all of the re-clued cards are supposed to play from left to right.
 * However, when multiple brown cards are re-clued with a brown color clue, it only means to play the right-most one and nothing else.
