@@ -4,6 +4,11 @@ These conventions apply to any variant with a dark rainbow (touched by all color
 
 <br />
 
+### Black Conventions & Rainbow Conventions
+
+* Dark Rainbow "inherits" all of the conventions for black cards and all of the conventions for rainbow cards.
+* Some specific clarifications and exceptions are listed below.
+
 ### Dark Rainbow Saves
 
 * Players should save dark rainbow 3 and dark rainbow 4 with a number clue.
