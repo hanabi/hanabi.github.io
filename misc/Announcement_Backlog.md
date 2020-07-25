@@ -68,9 +68,19 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 
 @everyone New variant-specific conventions:
 
+**Trash Finesses & Trash Bluffs in Pink**
+
+```
+* This convention only applies to variants with a pink suit.
+* When a *Trash Finesse* or a *Trash Bluff* happens in a normal variant, if more than one card is touched, then all of the touched cards are known to be trash.
+* When a Trash Finesse* or a *Trash Bluff* happens in a variant with a pink suit, if more than one card is touched, it is possible that only the focused card was trash, and that the other cards touched are useful / critical pink cards.
+* In this situation, after discarding the focus of the *Trash Finesse* or *Trash Bluff*, the player should then hold on to the other touched cards.
+```
+
 **Pink Promise with a 5 Stall**
 
 ```
+* This convention only applies to variants with a pink suit.
 * When a player performs a *5 Stall*, it is clearly a type of *Save Clue*. But if two or more 5's are touched as part of the clue, the focus of the clue is unclear.
 * We define the focus of the clue to be the specific 5 that is closest to the chop.
 * Thus, when a player knows for sure that a number 5 clue indicates a *5 Stall*, *Pink Promise* only applies to the 5 that is closest to the chop.
@@ -88,6 +98,7 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 **Pink Promise with a 5 Pull**
 
 ```
+* This convention only applies to variants with a pink suit.
 * First, see [Pink Promise with a 5's Chop Move](#pink-promise-with-a-5s-chop-move).
 * When a player performs a *5 Pull*, it is clearly a type of *Play Clue*. But if two or more 5's are touched as part of the clue, then the focus of the clue is unclear.
 * We define the focus of the clue to be the next to the "pulled" card. (This is similar to how *Pink Promise* works with a *5's Chop Move*.)
@@ -107,6 +118,7 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 **The Bubblegum Bluff** (by Stephen)
 
 ```
+* This convention only applies to variants with a pink suit.
 * Similar to a *Bubblegum Finesse*, it is also possible to perform a *Bubblegum Bluff*.
 * For example, in a 3-player game:
   * It is the first turn and nothing is played on the stacks.
