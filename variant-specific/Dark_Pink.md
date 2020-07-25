@@ -6,7 +6,7 @@ These conventions apply to any variant with a dark pink (touched by all ranks an
 
 ### Black Conventions & Pink Conventions
 
-* Dark Pink "inherits" all of the conventions for black and all of the conventions for pink.
+* Dark Pink "inherits" all of the conventions for black cards and all of the conventions for pink cards.
 * Some specific clarifications and exceptions are listed below.
 
 ### Save Clues
