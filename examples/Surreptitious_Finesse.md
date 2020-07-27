@@ -1,4 +1,4 @@
-## Examples of the Surreptitious Finesse
+## Examples of the [Surreptitious Finesse](../Reference.md#the-surreptitious-finesse)
 
 ### Example 1
 
