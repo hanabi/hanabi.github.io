@@ -1776,9 +1776,9 @@ Priority does not always apply. Some common exceptions are listed below.
 ### The Elimination Riding Deduction
 
 * If:
-  1) there are only two cards left in a player's hand with *Elimination Notes* on them **and**
-  2) the previous players let the chop card ride **and**
-  3) the previous players were not busy, **then**
+  * there are only two cards left in a player's hand with *Elimination Notes* **and**
+  * the previous players let the chop card ride **and**
+  * the previous players were not busy, **then**
 * The card with the *Elimination Note* card cannot be on the chop! (Otherwise, one of the previous players would have clued it with either a *Play Clue* or a *Save Clue* in order to prevent it from being discarded.)
 * In such a situation, the player with the *Elimination Notes* can "jump ahead" and immediately blind-play the newest of the two cards.
 * For example, in a 3-player game:
