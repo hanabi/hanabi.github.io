@@ -1,4 +1,5 @@
 ## Introduction
+
 As noted in the [convention changes document](Convention_Changes.md), sometimes a change to the conventions is made but is not yet announced due to there being a backlog of things to announce. This document contains the backlog.
 
 <br />
@@ -10,7 +11,7 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 **The Unnecessary Forced Reverse Trash Finesse (A The Gentleman's Discard that Looks like an Unnecessary Reverse Trash Finesse)**
 
 ```
-* First, see the section on the *[Unnecessary Trash Finesse Chop Move](#the-unnecessary-trash-finesse-chop-move--the-unnecessary-trash-bluff-chop-move)*. Basically, if a *Trash Finesse* is unnecessary, then it also causes a *Chop Move*.
+* First, see the section on the *Unnecessary Trash Finesse Chop Move*. Basically, if a *Trash Finesse* is unnecessary, then it also causes a *Chop Move*.
 * This convention also applies to *Reverse Trash Finesses*. If they are unnecessary, then it causes a *Chop Move* in the same way.
 * If a line is chosen that forces a *Gentleman's Discard* to occur (because they have to entertain the possibility of a *Reverse Trash Finesse*), and the blind-playing card could have been clued in some other easier way, then it **still** *Chop Moves* in exactly the same way that an  *Unnecessary Reverse Trash Finesse* would.
 * For example, in a 3-player game:
@@ -50,6 +51,15 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
   * Donald knows that Emily will go on to incorrectly think that her red 4 is a blue 4 (because Alice's clue looks like a *Double Finesse*). Thus, Alice's clue is quite strange.
   * Alice must be intending for Donald to also blind-play his *Finesse Position* in order to "heal" the problem. Donald blind-plays his *Finesse Position*. It is a green 2 and it successfully plays.
   * At first, Emily thought that her 4 was the blue 4, in order to match the blue 2 and the blue 3. However, if that was the case, then Donald would not have blind-played anything. Emily knows that this must be a *Pestilent Triple Bluff*, and her 4 is any other 4 than blue 4 (because Donald blind-played) and green 4 (because Bob would have waited for Donald).
+```
+
+**"Unnecessary" Moves** (by Floriman)
+
+```
+* In the doc, there is no longer a separate section for the "unnecessary" version of each individual move.
+* Instead, there is instead a single "unnecessary" section that explains that you can do an "unnecessary" version of any move that you want.
+* An "unnecessary" version of a move will either get one extra card blind-played **or** one or more cards *Chop Moved*, depending on the situation.
+* See the "Unnecessary Usage of Complicated Moves" section of the doc for more details.
 ```
 
 **The Blaze Discard**
