@@ -3096,7 +3096,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * And so on.
 * **An *unnecessary* move is defined as a "complicated" move that is performed when the cluer could have instead given a direct play clue.**
 * *Unnecessary* moves do "one thing extra" on top of the normal meaning of the move.
-  * Depending on the situation, the "extra" thing will be an additional blind-play or a chop move.
+  * Depending on the situation, the "extra" thing will be an additional blind-play or a *Chop Move*.
 * Remember that a move is only *unnecessary* if it does not have any side benefits. Specifically:
   * A move is **not** *unnecessary* if it "picked up" a extra useful card (e.g. *Unknown Trash Discharges* commonly do this).
   * A move is **not** *unnecessary* if it also fixed an impending misplay or a violation of *Good Touch Principle*.
