@@ -3108,8 +3108,8 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * For example, this would be an *Unnecessary Trash Push* in a 3-player game:
   * All of the 3's are played on the stacks.
   * Bob's hand is completely unclued.
-  * Alice clues number 1 to Bob, touching a single 1 on Bob's chop.
-  * Bob knows that this is a *Trash Bluff* and blind-plays his slot 4. It is a red 4 and it successfully plays.
+  * Alice clues number 1 to Bob, touching a single 1 on Bob's slot 5 (his chop).
+  * Bob knows that this is a *Trash Push* and blind-plays his slot 4. It is a red 4 and it successfully plays.
   * Cathy sees that Bob has no other red cards in his hand. Thus, Alice could easily clued red to Bob in order to "get" the red 4 in a straightforward way. That means that Alice performed an *Unnecessary Trash Push*.
   * Cathy blind-plays her *Finesse Position*. It is a red 5 and it successfully plays.
 * For example, if an *Unnecessary Trash Push Discharge* was done, the next player should blind-play their *Third Finesse Position* (from the clue), and the next player after that should blind-play their *Finesse Position* (from the unnecessariness).
