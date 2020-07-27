@@ -1803,22 +1803,18 @@ Priority does not always apply. Some common exceptions are listed below.
 * Sometimes, you will have narrowed down your *Elimination Notes* to one specific card. Thus, even though the card has no positive clues on it, you know the exact identity of the card.
 * If the card in question is on your chop **and** the card is not yet playable **and** you need to discard, you should obviously not discard the important elimination card. You should instead self-chop move and discard the next thing.
 
-### Play Elimination
-
-* When you discard something important, that triggers the writing of *Elimination Notes* on your own hand. This is *Discard Elimination* and is described above. But there are other ways that *Elimination Notes* are triggered.
-* When another player plays a clued card in their hand that they should not have known was playable yet, it implies that they saw the other possibilities in someone else's hand. Thus, this should trigger you to write *Elimination Notes* on your hand. (Specifically, *Play Elimination* notes, as opposed to *Discard Elimination Notes*.)
-* *Play Elimination* is contextual and does not always apply. For example, a player might play a card because it is not being touched in someone else's hand, meaning that the other cards inside of the superposition do not have to exist.
-
 ### Double Discard Elimination
 
-* When a player who is in a *Double Discard* situation discards anyway with an obvious clue to give (such as an off-chop 5), it implies that they **see** the other copy of the card, and were not *Double Discarding* at all.
+* When a player who is in a *Double Discard* situation discards anyway with an obvious clue to give (such as a *5 Stall* on an off-chop 5), it implies that they **see** the other copy of the card, and were not *Double Discarding* at all.
 * Thus, when this occurs, you should write *Elimination Notes* on your entire hand for that card.
-* This is exactly the same thing as *Discard Elimination*, 
+* This is almost exactly the same thing as *Discard Elimination*, except it is triggered by the discard of a separate player.
 
 ### The Elimination Finesse
 
-* Normally, if a player is *Finessed*, they are supposed to play their *Finesse Position* card. However, say that a player has some *Elimination Notes* in their hand for the specific *Finessed* card, then they know that it cannot be on *Finesse Position*.
-* In this situation, the player is expected to play the **oldest** of the cards with the *Elimination Notes* on them (not counting *Chop Moved* cards, if any).
+* Normally, if a player is *Finessed*, they are supposed to play their *Finesse Position* card. However, what if they have *Elimination Notes* on their hand for the specific card that is *Finessed*?
+* In most situations, there will not be an *Elimination Note* on slot 1 (e.g. the *Finesse Position*). This means that playing slot 1 into the *Finesse* would not make any sense.
+  * However, in the rare case where there is an *Elimination Note* on slot 1 (e.g. *Finesse Position*), then the player should **still** not play the *Finesse Position*; read on.
+* Here, the player is expected to play the **oldest** of the cards with the *Elimination Notes* on them (not counting *Chop Moved* cards, if any).
 * For example, in a 3-player game:
   * Blue 2 is played on the stacks.
   * Alice has a completely unclued hand.
@@ -1828,7 +1824,7 @@ Priority does not always apply. Some common exceptions are listed below.
   * Alice knows that this is some sort of *Reverse Finesse*, as it is calling for the blue 3. However, the blue 3 cannot be in her *Finesse Position* (slot 1), as she knows from the *Elimination Notes* that it must be either on slot 2, 3, 4, or 5. So it must instead be a *Reverse Elimination Finesse*.
   * The *Elimination Finesse* promises that it is her oldest card, so she plays slot 5 as blue 3.
 * As mentioned above, *Chop Moved* cards should be skipped over when finding the *Elimination Finesse* target. If there are two or more cards with *Elimination Notes* on them and they are all *Chop Moved*, then the oldest *Chop Moved* card should be played.
-* *Elimination Finesses* apply to **all** types of situations with *Elimination Notes* (including *Discard Elimination Notes*, *Play Elimination Notes*, and *Double Discard Elimination Notes*). Subsequently, you can more specifically describe an *Elimination Finesse* as a *Discard Elimination Finesse*, a *Play Elimination Finesse*, or a *Double Discard Elimination Finesse*.
+* *Elimination Finesses* apply to **all** types of situations with *Elimination Notes* (including *Double Discard Elimination Notes*). Subsequently, you can more specifically describe an *Elimination Finesse* as a *Discard Elimination Finesse* or a *Double Discard Elimination Finesse*.
 * Note that normal *Finesses* take priority over *Self-Elimination Finesses*. For example, in a 3-player game:
   * On the stacks, red 2 and blue 2 are played.
   * Alice's hand is completely unclued. Alice has *Elimination Notes* on slot 3 and slot 4 for red 3.
@@ -3525,7 +3521,6 @@ Conventions for specific variants are listed on a separate page.
 | The Distribution Clue | Libster
 | The Elimination Riding Deduction Bluff | Duneaught
 | Self-Elimination Finesse Priority | 910dan
-| Play Elimination | Zamiel
 | Double Discard Elimination | Zamiel
 | The No-Information Double Finesse & The No-Information Double Bluff | Zamiel
 | The Layered Jump | Libster
