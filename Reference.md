@@ -525,7 +525,7 @@ Note that in this user interface, players are **not** holding their hands like t
 
 #### Information Lock with the Full Identity
 
-* As soon as a clue is given to a card, if it is enough to determine the card's full identity, then the assumed identity is said to be locked in to the card. (On Hanabi Live, this is usually represented as a player writing an "identity note" on the card.)
+* As soon as a clue is given to a card, if it is enough to determine the card's full identity, then the assumed identity is said to be locked in to the card. (On Hanab Live, this is usually represented as a player writing an "identity note" on the card.)
 * For example, in a 3-player no variant game:
   * It is the first turn and nothing is played on the stacks.
   * Alice clues Bob red, touching a red card on slot 1 as a *Play Clue*.
@@ -574,7 +574,7 @@ Note that in this user interface, players are **not** holding their hands like t
 * 3-for-1 clues are even better than 2-for-1 clues, and so forth. It is even possible to perform a 9-for-1 clue with advanced techniques.
 * If a clue touches two cards but only one of them will play right now, it **still counts** as a 2-for-1. This is because we assume that all touched cards will eventually play from *Good Touch Principle*. For example:
   * On the first turn of the game, Alice clues Bob red, touching a red 1 on slot 1 and a red 5 on slot 2 as a 2-for-1. (Bob will only play the red 1 and save the other red card for later.)
-* On Hanabi Live, the current efficiency is shown on the right side of the screen. Efficiency is calculated by the following formula:
+* On Hanab Live, the current efficiency is shown on the right side of the screen. Efficiency is calculated by the following formula:
   * `(number of cards played + number of unplayed cards with one or more clues "on" them) / number of clues given`
 * **If efficiency is low, players should probably not perform 1-for-1 clues!** Instead, it is better to discard and try to let someone perform a *Finesse*.
 
@@ -584,7 +584,7 @@ Note that in this user interface, players are **not** holding their hands like t
 * Hanabi can be thought of a race to get all the cards played before the time runs out. This means that even if the team is being extremely efficient, they can still lose the game if they are not playing their cards fast enough. Thus, players have to **strike a balance between *Efficiency* and *Tempo***. You can think of *Efficiency* and *Tempo* as the yin and yang of Hanabi.
 * At the beginning of the game, there is a lot of time left, so players will generally prefer clues that get a lot of efficiency over clues that get a lot of tempo.
 * At the end of the game, there is almost no time left, so players stop caring about efficiency and start caring only about tempo.
-* On Hanabi Live, "Pace" is shown at the right side of the screen. Pace is a measure of how many more discards can occur, so this essentially tells you how much time is left in the game. Starting pace is calculated by the following formula:
+* On Hanab Live, "Pace" is shown at the right side of the screen. Pace is a measure of how many more discards can occur, so this essentially tells you how much time is left in the game. Starting pace is calculated by the following formula:
   * `current score + cards in deck + number of players - maximum score`
 * Even at the beginning of the game, players might prefer a clue that gets tempo over a more efficient clue if it will prevent the discard of some other useful card. It all depends on the context of the game!
 
@@ -3380,7 +3380,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 * Some variants demand an enormous amount of efficiency. Since our normal conventions result in conservative play, we agree to change the way that we play in some specific variants in order to win more consistently.
 * The necessary efficiency needed in order to win each variant is located on [the efficiency tables page](misc/Efficiency.md).
-* We define any variant that requires equal to or greater than 1.25 efficiency as a "hard" variant. (Required efficiency can be seen in-game using the Hanabi Live interface. Note that a variant can be considered easy in 4-player, but hard in 5-player, for example.)
+* We define any variant that requires equal to or greater than 1.25 efficiency as a "hard" variant. (Required efficiency can be seen in-game using the Hanab Live interface. Note that a variant can be considered easy in 4-player, but hard in 5-player, for example.)
 * Additionally, the following variants are considered to be hard variants even though they may have less than 1.25 required efficiency:
   * Any variant with a null suit
   * Color Mute
@@ -3456,7 +3456,7 @@ Conventions for specific variants are listed on a separate page.
 
 ### Empty Clues
 
-* *Empty Clues* are clues that touch no cards in a hand. On Hanabi Live, each game has the option to allow *Empty Clues*. In our group, we typically disallow this option since it makes the game too easy.
+* *Empty Clues* are clues that touch no cards in a hand. On Hanab Live, each game has the option to allow *Empty Clues*. In our group, we typically disallow this option since it makes the game too easy.
 * If *Empty Clues* are enabled, it allows for a much wider channel of information transfer. We have developed an entire convention framework around this channel and it is too complicated to cover in a single section here.
 * If you are interested in learning about in the extended *Empty Clue* conventions, they are documented [on a separate page](misc/Empty_Clues.md).
 

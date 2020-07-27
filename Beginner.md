@@ -195,7 +195,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
 
 ### 1 - Good Touch Principle
 
-* When clues are given, we say that they "touch" cards. (On Hanabi Live, cards that are touched by one or more clues are given a special border.)
+* When clues are given, we say that they "touch" cards. (On Hanab Live, cards that are touched by one or more clues are given a special border.)
 * When cluing cards, we follow *Good Touch Principle* - this means that **we only want to touch cards that will eventually be played**. So, if someone touches a card that is already played on the stacks or a card that is already clued in someone else's hand, then that would be a *Bad Touch*.
 * *Good Touch Principle* is a powerful building block for logic and reasoning. If everyone only touches good cards, then players can greatly narrow down the possibilities for all of the clued cards in their hand!
 
@@ -357,7 +357,7 @@ The Hyphen-ated group plays games on the [Hanab Live](https://hanab.live) websit
 ### Preparation
 
 1) Create an account at [Hanab Live](https://hanab.live) and login.
-2) Hanabi Live is used by many people, not just members of the Hyphen-ated group, so there are always ongoing games. Choose a random ongoing game and spectate it so that you can start to get familiar with the user interface. Alternatively, you could also play a test game with yourself (where you control both of the players). You can do that by using an [incognito window](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DDesktop&hl=en) and logging into a separate test account.
+2) Hanab Live is used by many people, not just members of the Hyphen-ated group, so there are always ongoing games. Choose a random ongoing game and spectate it so that you can start to get familiar with the user interface. Alternatively, you could also play a test game with yourself (where you control both of the players). You can do that by using an [incognito window](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DDesktop&hl=en) and logging into a separate test account.
 3) Create a Discord account and login to the [Hanabi Discord server](https://discord.gg/FADvkJp).
 4) Even though you can access the Discord server in a browser, it is not very good, because it does not support a global push-to-talk hotkey. So, download and install the [Discord desktop client](https://discordapp.com/download).
 5) Test your microphone to make sure that it works:
