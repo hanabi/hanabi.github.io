@@ -1762,7 +1762,7 @@ Priority does not always apply. Some common exceptions are listed below.
 
 ### The Elimination Play Clue
 
-* A clue that touches multiple cards only has one focus. As you probably know by now, if the chop card was not touched, then the focus is the left-most card.
+* A clue that touches multiple cards only has one focus. As you probably know, if the chop card was not touched, then the focus is the left-most card.
 * However, this rule does not apply if a clue singles out a playable card from *Elimination*. In this case, the card is only focused on the *Elimination* card, and any other cards touched are not necessarily playable right now.
 * For example, in a 3-player game:
   * Red 1 and blue 1 are played on the stacks.
@@ -1775,8 +1775,12 @@ Priority does not always apply. Some common exceptions are listed below.
 
 ### The Elimination Riding Deduction
 
-* If there are only two cards left in your hand with *Elimination Notes* on them **and** the players before you let your chop card ride **and** the players before you were not busy, then the playable card cannot be on your chop.
-* This means you can "jump ahead" and immediately blind-play the newest of the two cards with the note.
+* If:
+  1) there are only two cards left in a player's hand with *Elimination Notes* on them **and**
+  2) the previous players let your chop card ride **and**
+  3) the players before you were not busy, **then**
+* The card with the *Elimination Note* card cannot be on the chop! (Otherwise, a player would have clued it with either a *Play Clue* or a *Save Clue* in order to prevent it from being discarded.)
+* Players in such a situation can "jump ahead" and immediately blind-play the newest of the two cards with the *Elimination Notes*.
 * For example, in a 3-player game:
   * Red 1 has been played on the red stack.
   * Alice has a completely unclued hand.
@@ -1809,6 +1813,7 @@ Priority does not always apply. Some common exceptions are listed below.
 
 * When a player who is in a *Double Discard* situation discards anyway with an obvious clue to give (such as an off-chop 5), it implies that they **see** the other copy of the card, and were not *Double Discarding* at all.
 * Thus, when this occurs, you should write *Elimination Notes* on your entire hand for that card.
+* This is exactly the same thing as *Discard Elimination*, 
 
 ### The Elimination Finesse
 
