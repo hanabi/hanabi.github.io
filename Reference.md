@@ -3544,7 +3544,7 @@ Conventions for specific variants are listed on a separate page.
 | Duplication Responsibility | Zamiel
 | Certain Discard Duplication Promise | Zamiel & Libster
 | The Unnecessary Trash Finesse/Bluff Chop Move | Libster
-| Surreptitious Self-Finesse | Sankala
+| Surreptitious Finesse | Sankala
 | Early 5's Chop Move | Libster
 | The 5 Pull | Libster
 | The 5 Pull Promise | Libster
