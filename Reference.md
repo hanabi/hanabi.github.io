@@ -3083,7 +3083,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 ## Level 15 - Unnecessary Usage of Complicated Moves
 
 * Some complicated moves have special versions that are defined as *unnecessary*.
-* For example, it is possible to have either a *Trash Bluff* or an *Unnecessary Trash Bluff*.
+* For example, it is possible to perform either a *Trash Bluff* or an *Unnecessary Trash Bluff*.
 * This section covers these kinds of moves in detail.
 
 ### The Definition of Unnecessary
