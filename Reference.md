@@ -1725,7 +1725,7 @@ Priority does not always apply. Some common exceptions are listed below.
 
 <br />
 
-### Discard Elimination & Elimination Notes & The Elimination Blind-Play
+### Discard Elimination & Elimination Notes
 
 * Normally, your teammates would never let you discard anything important. So when you discard some playable card (or a needed 2) **and** that card is not in anyone else's hand, you might think that the team make a mistake.
 * From *High Value Principle*, you should never assume your teammates are making a mistake. One excellent reason that they would let you discard an important card is that you have the other copy in your hand. (In order to satisfy *Good Touch Principle*, they had to wait for you to discard it so that they would not duplicate the card.)
@@ -1741,7 +1741,12 @@ Priority does not always apply. Some common exceptions are listed below.
   * Normally, Alice would play the left-most card (slot 1) as the red 4. However, because of her notes, she knows that the red 4 must actually be on slot 2.
   * Alice successfully plays red 4 from slot 2. Since the red 5 is the only good red card left, Alice can assume that her other red card is red 5 (from *Good Touch Principle*), and she can play it on the next turn.
 * In this example, the "r4?" notes that Alice writes are called *Elimination Notes*. *Elimination Notes* are notes that represent the possible slots for a specific card.
-* In the last example, the team clued the red 4 directly. But in other situations, the team will **not** clue anything. This means that the player with the *Elimination Notes* can eliminate the notes one by one. Eventually, when all of the *Elimination Notes* are eliminated except for one card, then the player can blind-play the card as an *Elimination Blind-Play*.
+* In this example, thing "thing" that triggered the writing of *Elimation Notes* was the discarding of a card, so this is called *Discard Elimination*.
+
+### The Elimination Blind-Play
+
+* First see
+* In the previous example, the team clued the red 4 directly. But in other situations, the team will **not** clue anything. This means that the player with the *Elimination Notes* can eliminate the notes one by one. Eventually, when all of the *Elimination Notes* are eliminated except for one card, then the player can blind-play the card as an *Elimination Blind-Play*.
 * For example, in a 4-player game:
   * Red 3 is played on the stacks.
   * Alice has a completely unclued hand.
@@ -1806,7 +1811,7 @@ Priority does not always apply. Some common exceptions are listed below.
 
 ### The Elimination Finesse
 
-* Normally, if a player is *Finessed*, they are supposed to play their *Finesse Position* card. However, if the player has two or more *Elimination Notes* in their hand for the specific *Finessed* card, then they know that it cannot be on *Finesse Position*.
+* Normally, if a player is *Finessed*, they are supposed to play their *Finesse Position* card. However, say that a player has some *Elimination Notes* in their hand for the specific *Finessed* card, then they know that it cannot be on *Finesse Position*.
 * In this situation, the player is expected to play the **oldest** of the cards with the *Elimination Notes* on them (not counting *Chop Moved* cards, if any).
 * For example, in a 3-player game:
   * Blue 2 is played on the stacks.
