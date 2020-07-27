@@ -1813,7 +1813,7 @@ Priority does not always apply. Some common exceptions are listed below.
 
 * Normally, if a player is *Finessed*, they are supposed to play their *Finesse Position* card. However, what if they have *Elimination Notes* on their hand for the specific card that is *Finessed*?
 * In most situations, there will not be an *Elimination Note* on slot 1 (e.g. the *Finesse Position*). This means that playing slot 1 into the *Finesse* would not make any sense.
-  * However, in the rare case where there is an *Elimination Note* on slot 1 (e.g. *Finesse Position*), then the player should **still** not play the *Finesse Position*; read on.
+  * However, in the rare case where there is an *Elimination Note* on their *Finesse Position*, then the player should **still** not play the *Finesse Position*; read on.
 * Here, the player is expected to play the **oldest** of the cards with the *Elimination Notes* on them (not counting *Chop Moved* cards, if any).
 * For example, in a 3-player game:
   * Blue 2 is played on the stacks.
