@@ -1,4 +1,4 @@
-## Examples of the 5 Double Pull
+## Examples of the [5 Double Pull](../Reference.md#the-5-double-pull-or-the-double-5-pull)
 
 ### Example 1
 

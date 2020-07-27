@@ -1,4 +1,4 @@
-## Examples of the Bad Touch Double Bluff
+## Examples of the [Bad Touch Double Bluff](../Reference.md#the-bad-touch-double-bluff-for-3s)
 
 ### Example 1
 

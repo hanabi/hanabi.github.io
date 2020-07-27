@@ -1,4 +1,4 @@
-## Examples of the Purge Bluff
+## Examples of the [Purge Bluff](../Reference.md#the-purge-bluff-layered-bluff)
 
 ### Example 1
 

@@ -1,4 +1,4 @@
-## Examples of the 5 Number Discharge
+## Examples of the [5 Number Discharge](../Reference.md#5-number-discharge-5nd)
 
 ### Example 1
 
