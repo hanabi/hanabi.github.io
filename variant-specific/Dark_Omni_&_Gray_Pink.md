@@ -4,6 +4,12 @@ These conventions apply to any variant with a dark omni suit or a gray pink suit
 
 <br />
 
+### Inheritance
+
+* Dark Omni "inherits" all of the conventions for black cards and all of the conventions for omni cards.
+* Gray Pink "inherits" all of the conventions for black cards and all of the conventions for light pink cards.
+* Some specific clarifications and exceptions are listed below.
+
 ### Pseudo Saves
 
 * Dark omni or gray pink cards on chop should be saved with number 5 clue. *Pink Promise* does not apply in this variant.

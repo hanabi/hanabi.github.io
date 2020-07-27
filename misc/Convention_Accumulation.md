@@ -38,7 +38,7 @@ New players are **not supposed** to read the reference document. We only expect 
 
 Some other things in the reference document only apply **very rarely**, like once in every hundred games or so. So, it would be fairly pointless to burden non-expert players with knowledge that would almost never be utilized. (But it is still worth putting the rare situation in the reference document, just to be thorough.)
 
-Yet other things in the reference document only apply to specific variants. There are over a thousand different variants on Hanabi Live, and unless you are an expert player, it is going to be pretty pointless to try and learn the intricacies of each one, especially considering that people typically play "No Variant" and "Rainbow" games for their first 100-200 games.
+Yet other things in the reference document only apply to specific variants. There are over a thousand different variants on Hanab Live, and unless you are an expert player, it is going to be pretty pointless to try and learn the intricacies of each one, especially considering that people typically play "No Variant" and "Rainbow" games for their first 100-200 games.
 
 #### 3) We want to strike a compromise between new and expert players.
 

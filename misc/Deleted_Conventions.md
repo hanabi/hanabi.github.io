@@ -25,6 +25,21 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
 * This usually means that your chop suddenly became important, so the *Fix Clue* was given early to give you a good discard and keep you occupied. Thus, you should permanently chop move one card.
 * This convention was deleted because it was ambiguous as to whether *Fix Clues* were early or not.
 
+### The Disease Bluff
+
+* In the *Good Touch Bluff*, a *Bluff* is given that looks like a *Finesse*. However, what if something that looks like a *Good Touch Bluff* is done, but the "matching" card is not yet clued?
+* For example, in a 4-player game:
+  * It is the first turn and nothing is played on the stacks.
+  * Alice goes first.
+  * Bob has a red 1 on slot 1 and a blue 2 on slot 2.
+  * Alice clues number 2 to Bob, touching a blue 2 on slot 2.
+  * Bob does not see any other 1's on *Finesse Position*. Thus, the number 2 clue must be a *Self-Finesse*, so he blind-plays red 1.
+  * Cathy comes next. From her perspective, Bob should currently think that his slot 2 card is red 2 (instead of blue 2). If nothing else happens, Bob will go on to misplay that card.
+* In the above example, say that Cathy sees the red 2 in Donald's hand and she can uniquely clue it. If she does, Donald will go on to immediately play it.
+* This would "heal" the problem, as Bob would not think that he has red 2 anymore. Thus, this clue is called a *Heal Clue*.
+* The original Bluff is called a Disease Bluff, since it requires healing. In a convention framework with *Disease Bluffs*, giving a *Heal Clue* would be the highest priority interpretation.
+* *Disease Bluffs* were deleted because they were too inefficient.
+
 ### The Promise Bluff
 
 * Typically, we are only allowed to *Bluff* with cards that are 1-away (normal *Bluff*) or a 3 (*3 Bluff*) or a critical 4 (*Critical 4 Bluff*). However, *Bluffs* can also be performed with cards that are 2 away if the true intermediary card exists on someone's *Finesse Position*. Doing such a move is essentially like doing a *Bluff* and a *Finesse* at the same time, with one component of each. This is called a *Promise Bluff*, because it promises the true one-away card in addition to being a *Bluff*.

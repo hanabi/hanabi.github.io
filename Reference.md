@@ -203,6 +203,7 @@ Note that in this user interface, players are **not** holding their hands like t
 ### The Prompt
 
 * The *Prompt* is a move covered in the [beginner's guide](Beginner.md#the-prompt). It is when you get a player to play a clued card that was previously unknown.
+* For advanced players, also see the *[Prompts in Multi-Color Variants](#prompts-in-multi-color-variants)* section.
 
 ### The Finesse
 
@@ -525,7 +526,7 @@ Note that in this user interface, players are **not** holding their hands like t
 
 #### Information Lock with the Full Identity
 
-* As soon as a clue is given to a card, if it is enough to determine the card's full identity, then the assumed identity is said to be locked in to the card. (On Hanabi Live, this is usually represented as a player writing an "identity note" on the card.)
+* As soon as a clue is given to a card, if it is enough to determine the card's full identity, then the assumed identity is said to be locked in to the card. (On Hanab Live, this is usually represented as a player writing an "identity note" on the card.)
 * For example, in a 3-player no variant game:
   * It is the first turn and nothing is played on the stacks.
   * Alice clues Bob red, touching a red card on slot 1 as a *Play Clue*.
@@ -574,7 +575,7 @@ Note that in this user interface, players are **not** holding their hands like t
 * 3-for-1 clues are even better than 2-for-1 clues, and so forth. It is even possible to perform a 9-for-1 clue with advanced techniques.
 * If a clue touches two cards but only one of them will play right now, it **still counts** as a 2-for-1. This is because we assume that all touched cards will eventually play from *Good Touch Principle*. For example:
   * On the first turn of the game, Alice clues Bob red, touching a red 1 on slot 1 and a red 5 on slot 2 as a 2-for-1. (Bob will only play the red 1 and save the other red card for later.)
-* On Hanabi Live, the current efficiency is shown on the right side of the screen. Efficiency is calculated by the following formula:
+* On Hanab Live, the current efficiency is shown on the right side of the screen. Efficiency is calculated by the following formula:
   * `(number of cards played + number of unplayed cards with one or more clues "on" them) / number of clues given`
 * **If efficiency is low, players should probably not perform 1-for-1 clues!** Instead, it is better to discard and try to let someone perform a *Finesse*.
 
@@ -584,7 +585,7 @@ Note that in this user interface, players are **not** holding their hands like t
 * Hanabi can be thought of a race to get all the cards played before the time runs out. This means that even if the team is being extremely efficient, they can still lose the game if they are not playing their cards fast enough. Thus, players have to **strike a balance between *Efficiency* and *Tempo***. You can think of *Efficiency* and *Tempo* as the yin and yang of Hanabi.
 * At the beginning of the game, there is a lot of time left, so players will generally prefer clues that get a lot of efficiency over clues that get a lot of tempo.
 * At the end of the game, there is almost no time left, so players stop caring about efficiency and start caring only about tempo.
-* On Hanabi Live, "Pace" is shown at the right side of the screen. Pace is a measure of how many more discards can occur, so this essentially tells you how much time is left in the game. Starting pace is calculated by the following formula:
+* On Hanab Live, "Pace" is shown at the right side of the screen. Pace is a measure of how many more discards can occur, so this essentially tells you how much time is left in the game. Starting pace is calculated by the following formula:
   * `current score + cards in deck + number of players - maximum score`
 * Even at the beginning of the game, players might prefer a clue that gets tempo over a more efficient clue if it will prevent the discard of some other useful card. It all depends on the context of the game!
 
@@ -1073,7 +1074,7 @@ Note that in this user interface, players are **not** holding their hands like t
 * Towards the end of the game, the strategy of the team will change. In most games, you stop becoming concerned with efficiency and become more concerned with tempo - every card needs to play **right now** before the game ends!
 * Thus, since clues can mean different things depending on whether you are in the *Mid-Game* or the *End-Game*, you need to be able to keep track of when the *End-Game* has arrived.
 * *Pace* is used to determine *End-Game* status. If pace is **less than the number of players**, the *End-Game* has arrived.
-  * On [Hanabi Live](https://hanabi.live), pace will turn yellow when this occurs.
+  * On [Hanab Live](https://hanab.live), pace will turn yellow when this occurs.
 * If pace is **less than the number of players / 2**, you should be very careful with discarding. It might still be the best thing to do, but if there are enough clues in the bank, it is usually better to *Burn* a clue (meaning to deliberately waste a clue).
 * If pace is 0, no more discards can happen in order to get the maximum score.
 * If pace is below 0, it is impossible to get the maximum score.
@@ -1143,6 +1144,7 @@ Note that in this user interface, players are **not** holding their hands like t
   * Cathy discards the known red 1 as a *Gentleman's Discard*.
   * Alice blind-plays her *Finesse Position* card as red 1.
 * Often times, doing a *Gentleman's Discard* will delay things and cost the team *Tempo*. Thus, a *Gentleman's Discard* that slows things down is only good if there is some other side benefit to offset the lost *Tempo* (such as delaying the discard of a valuable card, for example).
+* Just like how *Prompts* take precedence over *Finesses*, *Sarcastic Discards* take precedence over *Gentleman's Discards*.
 * For the purposes of *Priority*, *Gentleman's Discards* do not count as a blind-play. (*Priority* is a concept that is introduced in a later level.) This is because the *Gentleman's Discard* is an information-symmetric move and nothing needs to be "proven" to other members of the team.
 
 ### The Layered Gentleman's Discard
@@ -1724,7 +1726,7 @@ Priority does not always apply. Some common exceptions are listed below.
 
 <br />
 
-### Discard Elimination & Elimination Notes & The Elimination Blind-Play
+### Discard Elimination & Elimination Notes
 
 * Normally, your teammates would never let you discard anything important. So when you discard some playable card (or a needed 2) **and** that card is not in anyone else's hand, you might think that the team make a mistake.
 * From *High Value Principle*, you should never assume your teammates are making a mistake. One excellent reason that they would let you discard an important card is that you have the other copy in your hand. (In order to satisfy *Good Touch Principle*, they had to wait for you to discard it so that they would not duplicate the card.)
@@ -1740,7 +1742,13 @@ Priority does not always apply. Some common exceptions are listed below.
   * Normally, Alice would play the left-most card (slot 1) as the red 4. However, because of her notes, she knows that the red 4 must actually be on slot 2.
   * Alice successfully plays red 4 from slot 2. Since the red 5 is the only good red card left, Alice can assume that her other red card is red 5 (from *Good Touch Principle*), and she can play it on the next turn.
 * In this example, the "r4?" notes that Alice writes are called *Elimination Notes*. *Elimination Notes* are notes that represent the possible slots for a specific card.
-* In the last example, the team clued the red 4 directly. But in other situations, the team will **not** clue anything. This means that the player with the *Elimination Notes* can eliminate the notes one by one. Eventually, when all of the *Elimination Notes* are eliminated except for one card, then the player can blind-play the card as an *Elimination Blind-Play*.
+* In this example, thing "thing" that triggered the writing of *Elimination Notes* was the discarding of a card, so this is called *Discard Elimination*.
+* Note that players should not always make *Elimination Notes* when they discard a playable card. In some cases, games can be extremely busy, leaving no reasonable way to get the playable card. Players must just their best judgment and account for this.
+
+### The Elimination Blind-Play
+
+* First, see the section on [Discord Elimination](#discard-elimination--elimination-notes).
+* In the example for *Discard Elimination*, the team clued the second copy of the red 4 directly. But in other situations, the team will **not** need to clue anything. The player with the *Elimination Notes* can eliminate the possibilities one by one. When there is only one possibility left, they can blind-play the card as an *Elimination Blind-Play*.
 * For example, in a 4-player game:
   * Red 3 is played on the stacks.
   * Alice has a completely unclued hand.
@@ -1748,14 +1756,14 @@ Priority does not always apply. Some common exceptions are listed below.
   * Alice knows that the team was not in a dire situation or anything, so the only explanation is that she must have the other copy of the red 4.
   * Alice writes "r4?" *Elimination Notes* on slots 2, 3, 4, and 5. (It can't be on slot 1, since that is the card she just drew.)
   * Bob clues Alice blue, which touches slots 1, 2, 3, and 4. (This is a *Play Clue* on slot 1.)
-  * Alice erases her *Elimination Notes* from slots 2, 3, and 4.
+  * Alice writes a note of "blue 1" on slot 1.
+  * Alice erases her *Elimination Notes* for the red 4 from slots 2, 3, and 4.
   * The only card left with an *Elimination Note* is slot 5.
   * Alice can now blind-play the red 4 when it gets to her turn as an *Elimination Blind-Play*.
-* Note that players should not always make *Elimination Notes* when they discard a playable card. In some cases, games can be extremely busy, leaving no reasonable way to get the playable card. Players must just their best judgment and account for this.
 
 ### The Elimination Play Clue
 
-* A clue that touches multiple cards only has one focus. As you probably know by now, if the chop card was not touched, then the focus is the left-most card.
+* A clue that touches multiple cards only has one focus. As you probably know, if the chop card was not touched, then the focus is the left-most card.
 * However, this rule does not apply if a clue singles out a playable card from *Elimination*. In this case, the card is only focused on the *Elimination* card, and any other cards touched are not necessarily playable right now.
 * For example, in a 3-player game:
   * Red 1 and blue 1 are played on the stacks.
@@ -1768,8 +1776,12 @@ Priority does not always apply. Some common exceptions are listed below.
 
 ### The Elimination Riding Deduction
 
-* If there are only two cards left in your hand with *Elimination Notes* on them **and** the players before you let your chop card ride **and** the players before you were not busy, then the playable card cannot be on your chop.
-* This means you can "jump ahead" and immediately blind-play the newest of the two cards with the note.
+* If:
+  * there are only two cards left in a player's hand with *Elimination Notes* **and**
+  * the previous players let the chop card ride **and**
+  * the previous players were not busy, **then**
+* The card with the *Elimination Note* card cannot be on the chop! (Otherwise, one of the previous players would have clued it with either a *Play Clue* or a *Save Clue* in order to prevent it from being discarded.)
+* In such a situation, the player with the *Elimination Notes* can "jump ahead" and immediately blind-play the newest of the two cards.
 * For example, in a 3-player game:
   * Red 1 has been played on the red stack.
   * Alice has a completely unclued hand.
@@ -1792,21 +1804,18 @@ Priority does not always apply. Some common exceptions are listed below.
 * Sometimes, you will have narrowed down your *Elimination Notes* to one specific card. Thus, even though the card has no positive clues on it, you know the exact identity of the card.
 * If the card in question is on your chop **and** the card is not yet playable **and** you need to discard, you should obviously not discard the important elimination card. You should instead self-chop move and discard the next thing.
 
-### Play Elimination
-
-* When you discard something important, that triggers the writing of *Elimination Notes* on your own hand. This is *Discard Elimination* and is described above. But there are other ways that *Elimination Notes* are triggered.
-* When another player plays a clued card in their hand that they should not have known was playable yet, it implies that they saw the other possibilities in someone else's hand. Thus, this should trigger you to write *Elimination Notes* on your hand. (Specifically, *Play Elimination* notes, as opposed to *Discard Elimination Notes*.)
-* *Play Elimination* is contextual and does not always apply. For example, a player might play a card because it is not being touched in someone else's hand, meaning that the other cards inside of the superposition do not have to exist.
-
 ### Double Discard Elimination
 
-* When a player who is in a *Double Discard* situation discards anyway with an obvious clue to give (such as an off-chop 5), it implies that they **see** the other copy of the card, and were not *Double Discarding* at all.
+* When a player who is in a *Double Discard* situation discards anyway with an obvious clue to give (such as a *5 Stall* on an off-chop 5), it implies that they **see** the other copy of the card, and were not *Double Discarding* at all.
 * Thus, when this occurs, you should write *Elimination Notes* on your entire hand for that card.
+* This is almost exactly the same thing as *Discard Elimination*, except it is triggered by the discard of a separate player.
 
 ### The Elimination Finesse
 
-* Normally, if a player is *Finessed*, they are supposed to play their *Finesse Position* card. However, if the player has two or more *Elimination Notes* in their hand for the specific *Finessed* card, then they know that it cannot be on *Finesse Position*.
-* In this situation, the player is expected to play the **oldest** of the cards with the *Elimination Notes* on them (not counting *Chop Moved* cards, if any).
+* Normally, if a player is *Finessed*, they are supposed to play their *Finesse Position* card. However, what if they have *Elimination Notes* on their hand for the specific card that is *Finessed*?
+* In most situations, there will not be an *Elimination Note* on slot 1 (e.g. the *Finesse Position*). This means that playing slot 1 into the *Finesse* would not make any sense.
+  * However, in the rare case where there is an *Elimination Note* on their *Finesse Position*, then the player should **still** not play the *Finesse Position*; read on.
+* Here, the player is expected to play the **oldest** of the cards with the *Elimination Notes* on them (not counting *Chop Moved* cards, if any).
 * For example, in a 3-player game:
   * Blue 2 is played on the stacks.
   * Alice has a completely unclued hand.
@@ -1816,7 +1825,7 @@ Priority does not always apply. Some common exceptions are listed below.
   * Alice knows that this is some sort of *Reverse Finesse*, as it is calling for the blue 3. However, the blue 3 cannot be in her *Finesse Position* (slot 1), as she knows from the *Elimination Notes* that it must be either on slot 2, 3, 4, or 5. So it must instead be a *Reverse Elimination Finesse*.
   * The *Elimination Finesse* promises that it is her oldest card, so she plays slot 5 as blue 3.
 * As mentioned above, *Chop Moved* cards should be skipped over when finding the *Elimination Finesse* target. If there are two or more cards with *Elimination Notes* on them and they are all *Chop Moved*, then the oldest *Chop Moved* card should be played.
-* *Elimination Finesses* apply to **all** types of situations with *Elimination Notes* (including *Discard Elimination Notes*, *Play Elimination Notes*, and *Double Discard Elimination Notes*). Subsequently, you can more specifically describe an *Elimination Finesse* as a *Discard Elimination Finesse*, a *Play Elimination Finesse*, or a *Double Discard Elimination Finesse*.
+* *Elimination Finesses* apply to **all** types of situations with *Elimination Notes* (including *Double Discard Elimination Notes*). Subsequently, you can more specifically describe an *Elimination Finesse* as a *Discard Elimination Finesse* or a *Double Discard Elimination Finesse*.
 * Note that normal *Finesses* take priority over *Self-Elimination Finesses*. For example, in a 3-player game:
   * On the stacks, red 2 and blue 2 are played.
   * Alice's hand is completely unclued. Alice has *Elimination Notes* on slot 3 and slot 4 for red 3.
@@ -1838,6 +1847,7 @@ Priority does not always apply. Some common exceptions are listed below.
 ## Ejection
 
 * *Ejection* refers to a move like a *Bluff*, but instead of playing an unrelated card from *Finesse Position*, someone plays an unrelated card from their *Second Finesse Position*. For example, if a player's hand is completely unclued, their *Second Finesse Position* is slot 2.
+* Just like a *Bluff*, an *Ejection* can only be performed on the very next player.
 
 ### The 5 Color Ejection (5CE)
 
@@ -1847,6 +1857,7 @@ Priority does not always apply. Some common exceptions are listed below.
   * *Prompts* don't factor into the "two or more blind-plays" rule. Players only count the number of blind-plays.
 * After the blind-play, the player who received the clue will know that they must have a 5.
 * Note that *5 Color Ejection* only applies if the 5 did not have any clues on it already. If a 5 is re-clued, it signals a *Finesse* on all of the cards leading up to the 5.
+  * However, the "invisible" clue from a *Chop Move* does not count. In other words, you **can** perform a *5 Color Ejection* with a *Chop Moved* 5, as long as the card does not have any positive clues on it.
 * For example, in a 3-player game:
   * It is the first turn and nothing is played on the stacks.
   * Alice clues red to Cathy, touching a red 5 on slot 3.
@@ -2453,7 +2464,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Cathy knows that normally, this would be a *3 Bluff*. However, since the red 3 was duplicated, this must be a *Bad Touch Double Finesse*, so Cathy blind-plays her *Finesse Position* and it is the red 2.
   * Donald knows that this cannot be a *3 Bluff*, or else Cathy would not have blind-played anything. Thus, this must be a *Bad Touch Double Finesse*, so Donald discards his red 3 as a *Sarcastic Discard* to pass it back to Emily.
   * Emily plays the red 3.
-* More examples of a Pestilent Double Bluff can be found [here](examples/Bad_Touch_Double_Bluff.md).
+* More examples of a *Bad Touch Double Bluff* can be found [here](examples/Bad_Touch_Double_Bluff.md).
 
 ### The Bad Touch Triple Finesse (For 4's)
 
@@ -2540,7 +2551,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * Note that the *Repair Finesse* will only work in the situations where the "repairing" blind-play will not stop the *Prompted* player from playing. In order words, if a *Prompted* player sees a blind-play immediately after a clue, they will assume that a normal *Bluff* has occurred, which is the simplest interpretation.
 * The *Repair Finesse* is extremely similar to the *Patch Finesse*, with the difference being that the blind-play fixes a player playing a chain of *Prompted* cards instead of a chain of cards inside of a *Layered Finesse*.
 * Examples:
-  * [Game #16695, turn 10](https://hanabi.live/replay/16695/10)
+  * [Game #16695, turn 10](https://hanab.live/replay/16695/10)
 
 ### The Trash Finesse (Weak Form)
 
@@ -2565,13 +2576,13 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * Similar to a *Reverse Finesse*, it is possible to perform a *Reverse Bluff*. However, according to *Good Lie Principle*, you are only allowed to lie to the player who comes immediately after you, so this is illegal.
   * Why this policy? It is not possible to play with both *Layered Finesses* and *Reverse Bluffs* at the same time. *Layered Finesses* are much better, so we choose to "turn on" *Layered Finesse* and "turn off" *Reverse Bluffs*.
 * However, players **can** rarely break the *Bluff Seat* rule if **one of the following is true**:
-  * 1) The next player is at 0 clues (and won't blind-play anything / will blind-play an unrelated card).
-  * 2) The next player will think that they have the *Bluffed* card in their own hand and will not try to *Finesse* or *Bluff* the next player. (In this case, the *Bluffed* card means the card that will blind-play.)
-  * 3) The next player has enough positive or negative clues on their entire hand to know that they cannot have the card that the blind-played card will be played as.
-* Essentially, if #1 or #2 is true, then the next player cannot act on their state of misinformation. And if it is #3, then the next player will have full knowledge that a lie is occurring, so they will not mess anything up.
+  1. The next player is at 0 clues (and won't blind-play anything / will blind-play an unrelated card).
+  2. The next player will think that they have the *Bluffed* card in their own hand and will not try to *Finesse* or *Bluff* the next player. (In this case, the *Bluffed* card means the card that will blind-play.)
+  3. The next player has enough positive or negative clues on their entire hand to know that they cannot have the card that the blind-played card will be played as.
+* Essentially, if i. or ii. is true, then the next player cannot act on their state of misinformation. And if iii. is true, then the next player will have full knowledge that a lie is occurring, so they will not try to "get" the *Bluffed* card.
 * Since valid *Out-of-Position Bluffs* are so rare, it is important to remember that:
-  * Valid *Out-of-Position Bluffs* take precedence over *Known Bluffs*. In other words, if Alice performs something that could be a *Known Bluff* or an *Out-of-Position Bluff*, and Bob can see that 1) Cathy has a playable card on her *Finesse Position* and 2) one or more of the three OOP stipulations from above are true, then Bob should assume that it is a *Out-of-Position Bluff* instead of a *Known Bluff*.
-  * Valid *Out-of-Position Bluffs* take precedence over *Layered Finesses*. In other words, if Alice does a valid *Out-of-Position Bluff* on Cathy, it would be natural for Cathy to think that this is a *Layered Finesse*, since Alice is not in *Bluff Seat* for Cathy. However, Cathy must pay close attention and see that because of the very specific situation, an *Out-of-Position Bluff* was legal, which means that Cathy should **not** continue to blind-play cards from her hand. (This is a common mistake.)
+  * Valid *Out-of-Position Bluffs* take precedence over *Known Bluffs*. In other words, if Bob can see that an *OOP Bluff* could be valid (meaning it meets one of the three criteria above), then Bob should not blind-play anything as a *Known Bluff* and let Cathy play instead.
+  * Valid *Out-of-Position Bluffs* take precedence over *Layered Finesses*. In other words, if Cathy can see that an *OOP Bluff* could be valid (meaning it meets one of the three criteria above), then Cathy should not continue to blind-play cards as a *Layered Finesse*. (This is a common mistake.)
 * A *Reverse Bluff* is just a just a more-specific type of *Out-of-Position Bluff*. All of the same stipulations apply.
 
 ### The Good Touch Bluff
@@ -2691,7 +2702,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * On the final round of the game, it is possible to give a *Play Clue* to a player that would be useless - they will not get a chance to play the card before the game ends.
 * If a player does this anyway, then it must be communicating something extra. In this situation, it is to be interpreted as a *Finesse* instead of a *Play Clue* for the purposes of better satisfying *Team Distribution Principle*.
 * Examples:
-  * [Game #16887, turn 29](https://hanabi.live/replay/16887/29) if Instantiation clues 5 on the red 5
+  * [Game #16887, turn 29](https://hanab.live/replay/16887/29) if Instantiation clues 5 on the red 5
 
 ### Inverted Priority Finesse
 
@@ -2715,6 +2726,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * Sometimes, a player will have a fully playable hand from left to right. In this situation, players will normally try to perform a *Layered Finesse* in order to get all of the cards in the most efficient manner. However, a *Layered Finesse* may not always be available.
 * In extremely rare situations, it is possible to orchestrate a lie in which the player with the fully playable hand thinks that they are *Layered Finessed* when they really do not have the connecting card. After they play their final card and it is not the matching card, they will know that they were *Purge Bluffed* and that nobody has the missing card.
 * Care has to be taken that the other player (e.g. the player who is not *Purge Bluffed*) will understand what is going on. For example, they might think that a *Patch Finesse* is happening. Thus, *Purge Bluffs* can only be done in expert games where there is **no other possible interpretation for what is happening**.
+* If the player blind-playing cards into a *Purge Bluff* realizes that a lie has occurred before they finish blind-playing their entire hand, they are supposed to stop. In other words, they are **not** supposed to continue blind-playing cards as a *Known Purge Bluff*.
 * Examples of a *Purge Bluff* can be found [here](examples/Purge_Bluff.md).
 
 ### Suboptimal Finesses & Choice Finesses
@@ -2743,7 +2755,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * In this situation, if a player chooses rank instead of color, and there was not a good reason to do so, then the player giving the clue must be trying to communicate something extra. By convention, this means that they really want a *Bluff* to happen (instead of a *Reverse Finesse*). The next player should **not** wait for other matching cards to play first. This is called a *Rank Choice Bluff*.
 * Note that it is possible to use the *Rank Choice* convention with any kind of *Bluff*. Thus, it is possible to *Rank Choice 3 Bluff*, *Rank Choice Double Bluff*, and so forth.
 * Examples:
-  * [Game #8129, turn 4](https://hanabi.live/replay/8129/4) if Zamiel clues Hyakinthus' green 3 with number 3
+  * [Game #8129, turn 4](https://hanab.live/replay/8129/4) if Zamiel clues Hyakinthus' green 3 with number 3
 
 #### The Rank Choice Finesse
 
@@ -2767,7 +2779,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 ### The Trash Push Prompt & The Trash Push Finesse
 
 * If a player performs a *Trash Push* on a *one-away-from-playable* card, it is a signal that someone else has the connecting card as a *Prompt* or a *Finesse*.
-
 
 ### The Trash Pull
 
@@ -2838,8 +2849,8 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * This situation is slightly different than the normal case, so we call it a *Shout Discard* to differentiate it from a more-ordinary *Scream Discard*.
 * A *Shout Discard* *Chop Moves* the very next player in the exact way that a *Scream Discard* does.
 * A *Shout Discard* forces the next player to **not** discard on their turn in the exact way that a *Scream Discard* does.
-* Normally, a *Scream Discard* is only allowed to *Chop Move* a critical card or a playable card. Unlike a *Scream Discard*, it is permissible to use a *Shout Discard* to *Chop Move* any card that is desirable, even if it is not critical or playable.
-* Normally, a *Scream Discard* is only allowed if the team is at 0 clues (or if cluing the card is impossible). Unlike a *Scream Discard*, it is permissible to use a *Shout Discard* to *Chop Move* regardless of the amount of clues that the team has.
+* Normally, a *Scream Discard* is only allowed to *Chop Move* a critical card or a playable card. However, unlike a *Scream Discard*, it is permissible to use a *Shout Discard* to *Chop Move* any card that is desirable, even if it is not critical or playable.
+* Normally, a *Scream Discard* is only allowed if the team is at 0 clues (or if cluing the card is impossible). However, unlike a *Scream Discard*, it is permissible to use a *Shout Discard* to *Chop Move* regardless of the amount of clues that the team has.
 * Normally, a *Scream Discard* would turn into an *Echo Scream Discard* if the next player has a playable card. *Shout Discards* can also turn into *Echo Shout Discards*, but only if the team is completely out of clues and it can be seen to be a "last-resort" move.
 
 ### The Whisper Discard Chop Move
@@ -2899,6 +2910,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 ## Level 15 - Rarely Used Strategies (Ejection)
 
 * *Ejection* refers to a move like a *Bluff*, but instead of playing an unrelated card from *Finesse Position*, someone plays an unrelated card from their *Second Finesse Position*. For example, if a player's hand is completely unclued, their *Second Finesse Position* is slot 2.
+* Just like a *Bluff*, an *Ejection* can only be performed on the very next player.
 
 ### The 5 Color Ejection
 
@@ -2967,14 +2979,15 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * *Blaze Discards* do not apply when someone performs a *Gentleman's Discard* or a *Baton Discard* that looks like a *Sarcastic Discard*. In these situations, one of the following is true:
   * The discarding player is making a mistake (as a *Wrong Prompt*).
   * The discarding player is not making a mistake and there is enough past context for the player with the cards to be able to tell the difference.
-* Note that it is illegal to perform a *Layered Blaze Discard*.
+* Note that it is illegal to perform an *Ambiguous Blaze Discard*. We want to keep *Blaze Discards* as simple as possible.
+* Note that it is illegal to perform a *Layered Blaze Discard* (on either the ignited player or the player holding the matching card). We want to keep *Blaze Discards* as simple as possible.
 
 <br />
 
 ## Level 15 - Rarely Used Strategies (Discharge)
 
 * *Discharge* is similar to *Ejection*, except instead of blind-playing the *Second Finesse Position* card, the player plays the *Third Finesse Position* card.
-* Certain types of **really** bad clues cause a *Discharge* to occur on the very next player.
+* Just like a *Bluff*, a *Discharge* can only be performed on the very next player.
 
 ### Unknown Trash Discharge (UTD)
 
@@ -3251,6 +3264,11 @@ Examples of situations where these principles apply can be found [here](examples
 * Normally, when a playable card is discarded, a player will write *Elimination Notes* on their hand for the other copy of the card.
 * However, there is a special case when **two** copies of the same 1 are discarded. The original *Elimination Notes* from the discard of the first 1 no longer apply because it is possible that the player has drawn the third copy of the 1 before the second copy could be clued.
 * Thus, when a player discards the second copy of a playable 1, they should delete all of their *Elimination Notes* from the first discard and rewrite all of the *Elimination Notes* on the rest of their hand anew (essentially acting like the second discard was the first discard).
+* For example, in a 3-player game:
+  * Nothing is played on the stacks.
+  * Alice discards a red 1. Alice writes *Elimination Notes* on her slot 2, slot 3, slot 4, and slot 5.
+  * On her next turn, Alice discards an unrelated card. She now has *Elimination Notes* on slot 3, slot 4, and slot 5.
+  * On her next turn, Alice discards another red 1. Normally, she would now have *Elimination Notes* on slot 4 and slot 5. However, because of the *Elimination Rewrite*, she instead writes *Elimination Notes* on slot 2, slot 3, slot 4, and slot 5.
 
 ### The Continuation Clue (Touching Both Inside and Outside a Layer)
 
@@ -3362,7 +3380,7 @@ Examples of situations where these principles apply can be found [here](examples
 
 * Some variants demand an enormous amount of efficiency. Since our normal conventions result in conservative play, we agree to change the way that we play in some specific variants in order to win more consistently.
 * The necessary efficiency needed in order to win each variant is located on [the efficiency tables page](misc/Efficiency.md).
-* We define any variant that requires equal to or greater than 1.25 efficiency as a "hard" variant. (Required efficiency can be seen in-game using the Hanabi Live interface. Note that a variant can be considered easy in 4-player, but hard in 5-player, for example.)
+* We define any variant that requires equal to or greater than 1.25 efficiency as a "hard" variant. (Required efficiency can be seen in-game using the Hanab Live interface. Note that a variant can be considered easy in 4-player, but hard in 5-player, for example.)
 * Additionally, the following variants are considered to be hard variants even though they may have less than 1.25 required efficiency:
   * Any variant with a null suit
   * Color Mute
@@ -3438,7 +3456,7 @@ Conventions for specific variants are listed on a separate page.
 
 ### Empty Clues
 
-* *Empty Clues* are clues that touch no cards in a hand. On Hanabi Live, each game has the option to allow *Empty Clues*. In our group, we typically disallow this option since it makes the game too easy.
+* *Empty Clues* are clues that touch no cards in a hand. On Hanab Live, each game has the option to allow *Empty Clues*. In our group, we typically disallow this option since it makes the game too easy.
 * If *Empty Clues* are enabled, it allows for a much wider channel of information transfer. We have developed an entire convention framework around this channel and it is too complicated to cover in a single section here.
 * If you are interested in learning about in the extended *Empty Clue* conventions, they are documented [on a separate page](misc/Empty_Clues.md).
 
@@ -3508,7 +3526,6 @@ Conventions for specific variants are listed on a separate page.
 | The Distribution Clue | Libster
 | The Elimination Riding Deduction Bluff | Duneaught
 | Self-Elimination Finesse Priority | 910dan
-| Play Elimination | Zamiel
 | Double Discard Elimination | Zamiel
 | The No-Information Double Finesse & The No-Information Double Bluff | Zamiel
 | The Layered Jump | Libster

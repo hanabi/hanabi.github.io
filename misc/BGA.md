@@ -1,4 +1,4 @@
-# Welcoming Board Game Arena Players on Hanabi Live
+# Welcoming Board Game Arena Players
 
 <br />
 
@@ -14,9 +14,9 @@
 
 ## Introduction
 
-This document is written for people who have a bunch of games on [Board Game Arena](https://en.boardgamearena.com/) and may be interested in playing some games with my group on [Hanabi Live](https://www.hanabi.live). Since my group uses some advanced conventions, this document should be a quick guide to get BGA players up to speed.
+This document is written for people who have a bunch of games on [Board Game Arena](https://en.boardgamearena.com/) and may be interested in playing some games with my group on [Hanab Live](https://www.hanab.live). Since my group uses some advanced conventions, this document should be a quick guide to get BGA players up to speed.
 
-Why bother taking the time to branch out from Board Game Arena to play Hanabi elsewhere? In order to properly answer that question, here's a short introduction on the differences between BGA and Hanabi Live. It should explain why, at the very least, you might want to dabble on both platforms. If you are already convinced, you can skip down to the section on [convention changes](#convention-changes-beginner).
+Why bother taking the time to branch out from Board Game Arena to play Hanabi elsewhere? In order to properly answer that question, here's a short introduction on the differences between BGA and Hanab Live. It should explain why, at the very least, you might want to dabble on both platforms. If you are already convinced, you can skip down to the section on [convention changes](#convention-changes-beginner).
 
 <br />
 
@@ -53,15 +53,15 @@ Of course, this problem is compounded by the terrible replay system. Even if pla
 
 <br />
 
-### Hanabi Live
+### Hanab Live
 
-Hanabi Live was created by me (Zamiel) in June 2017 as a replacement for Keldon's excellent online implementation (which is now offline). Whereas BGA is closed-source and "stuck in time", Hanabi Live is open-source: we can add new variants, add new features, fix bugs, and so forth.
+Hanab Live was created by me (Zamiel) in June 2017 as a replacement for Keldon's excellent online implementation (which is now offline). Whereas BGA is closed-source and "stuck in time", Hanab Live is open-source: we can add new variants, add new features, fix bugs, and so forth.
 
 #### The Interface
 
-<img src="../img/bga/bga_mode_on_hanabi_live.png" alt="The Hanabi Live Interface" height="450px" />
+<img src="../img/bga/bga_mode_on_hanabi_live.png" alt="The Hanab Live Interface" height="450px" />
 
-All of the interface issues with BGA are fixed in the Hanabi Live interface: it is snappier, it conveys all the information you need to know, and allows you to move forward and backward through time with ease. (This new default UI was created in September 2018.) Admittedly, not everything is exactly the same as it is on BGA. As you can see, the discard pile is on the bottom-right-hand corner instead of the bottom-left-hand corner. With that said, the interface should be fairly easy to use.
+All of the interface issues with BGA are fixed in the Hanab Live interface: it is snappier, it conveys all the information you need to know, and allows you to move forward and backward through time with ease. (This new default UI was created in September 2018.) Admittedly, not everything is exactly the same as it is on BGA. As you can see, the discard pile is on the bottom-right-hand corner instead of the bottom-left-hand corner. With that said, the interface should be fairly easy to use.
 
 #### Reviewing
 
@@ -75,23 +75,23 @@ If you aren't interested in reviewing your Hanabi games, then that's a full stop
 
 #### Time Controls
 
-One major addition to Hanabi Live is that you can set games to have whatever time controls you want. This means that you can have untimed games, reasonably timed games similar to BGA, or even "blitz" games where you only have 5-10 seconds to move. Blitz games can be an extremely fun challenge for experienced Hanabi players, and provides an entirely new way to enjoy the game. In my group, we play a mix of both fast games and normal games.
+One major addition to Hanab Live is that you can set games to have whatever time controls you want. This means that you can have untimed games, reasonably timed games similar to BGA, or even "blitz" games where you only have 5-10 seconds to move. Blitz games can be an extremely fun challenge for experienced Hanabi players, and provides an entirely new way to enjoy the game. In my group, we play a mix of both fast games and normal games.
 
 Beyond just fast games, my group also engages in speedruns, where you try to complete the game as fast as possible. [Every world record](https://www.speedrun.com/hanabi) is held by members of my group. Much like blitz games, speedruns can be an extremely fun challenge for expert players.
 
-A side point here is that speedruns are viable on Hanabi Live because it is nice and snappy. It isn't really possible to do speedruns on BGA with all of the lag, long animations, and server problems.
+A side point here is that speedruns are viable on Hanab Live because it is nice and snappy. It isn't really possible to do speedruns on BGA with all of the lag, long animations, and server problems.
 
 #### Getting Games Going
 
-Getting a game going on Hanabi Live is pretty different from how you would get a game going on BGA, since there is not a large pool of players to draw from. This means that you can't just click the "Create Table" button and have random people join your game, like you would on BGA.
+Getting a game going on Hanab Live is pretty different from how you would get a game going on BGA, since there is not a large pool of players to draw from. This means that you can't just click the "Create Table" button and have random people join your game, like you would on BGA.
 
-In order to find players, we typically do a "@here" ping in the [Hanabi Live Discord Server](https://discord.gg/FADvkJp), which alerts everyone who is at their computer that someone is wanting to get a game going.
+In order to find players, we typically do a "@here" ping in the [Discord Server](https://discord.gg/FADvkJp), which alerts everyone who is at their computer that someone is wanting to get a game going.
 
 Admittedly, this can be a little clunky for players who don't want to figure out how a new program works or download a program on their computer. One good thing about Discord is that it can be run from a browser tab, so you always have that option if you don't want to download it. (With that said, we do recommend that people download the client, as it will work better than the in-browser version.)
 
 #### Small Number of Players
 
-The best aspect of Board Game Arena is the large number of players. And the ELO system, for better or worse, does a pretty good job of motivating players to keep playing. The fact of the matter is that there will never be as many players on Hanabi Live as there are on BGA - not even close. On Hanabi Live, often times there will be no-one around when you are interested in getting a game going. So, that can be an annoying part of playing here. (For this reason, some people in our group also dabble on BGA!)
+The best aspect of Board Game Arena is the large number of players. And the ELO system, for better or worse, does a pretty good job of motivating players to keep playing. The fact of the matter is that there will never be as many players on Hanab Live as there are on BGA - not even close. On Hanab Live, often times there will be no-one around when you are interested in getting a game going. So, that can be an annoying part of playing here. (For this reason, some people in our group also dabble on BGA!)
 
 What is the flip-side of not having very many members? Better cohesion, aided by discussion. When you are able to get a crew together, your games will potentially be more fulfilling and in-depth than on Board Game Arena.
 

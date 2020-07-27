@@ -103,7 +103,7 @@
 * The online implementations of the game handle *Empty Clues* differently:
   * [Board Game Arena's implementation](https://en.boardgamearena.com/) does allow *Empty Clues*.
   * Keldon's implementation (which is now offline) does not allow *Empty Clues*.
-  * [Hanabi Live's implementation](https://hanabi.live) follows Keldon's lead and disables *Empty Clues* by default. However, game creators can allow *Empty Clues* an as optional setting when creating a game.
+  * [Hanab Live's implementation](https://hanab.live) follows Keldon's lead and disables *Empty Clues* by default. However, game creators can allow *Empty Clues* an as optional setting when creating a game.
 
 <br />
 

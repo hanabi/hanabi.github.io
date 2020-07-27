@@ -5,14 +5,7 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 
 ## The Backlog (General Conventions)
 
-@everyone Changed conventions:
-
-**The 8 Clue Save** (changed)
-
-```
-* Previously, the text for the *8 Clue Save* read that you are not allowed to use the move on a "freshly-drawn" card.
-* Now, the text for the *8 Clue Save* says that you are not allowed to use the move on any card that is on slot 1.
-```
+@everyone New conventions:
 
 **The Unnecessary Forced Reverse Trash Finesse (A The Gentleman's Discard that Looks like an Unnecessary Reverse Trash Finesse)**
 
@@ -33,35 +26,6 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
   * Alice discards.
   * Bob knows that even though *Gentleman's Discards* are never supposed to cause a *Chop Move*, Alice forced him to discard in exactly the same way as a *Reverse Trash Finesse*. Furthermore, it was possible to cleanly clue the red 2 in Cathy's hand to begin with, and doing so would have been much simpler. Thus, doing the pseudo-*Reverse Trash Finesse* was unnecessary.
   * Since it was unnecessary, Bob chop moves all the cards to the right of where the red 2 was (slot 2, slot 3, slot 4, and slot 5).
-```
-
-**The Shout Discard Chop Move** (by Postmans)
-
-```
-* Normally, when a player performs a *Scream Discard*, they are discarding their chop (e.g. an unknown and unclued card).
-* However, if a player has both a known-playable card and a known-trash card, then discarding the known-trash card instead of playing their known-playable card would *still* communicate a *Scream Discard* to the next player in the exact same way.
-* This situation is slightly different than the normal case, so we call it a *Shout Discard* to differentiate it from a more-ordinary *Scream Discard*.
-* A *Shout Discard* *Chop Moves* the very next player in the exact way that a *Scream Discard* does.
-* A *Shout Discard* forces the next player to **not** discard on their turn in the exact way that a *Scream Discard* does.
-* Normally, a *Scream Discard* is only allowed to *Chop Move* a critical card or a playable card. Unlike a *Scream Discard*, it is permissible to use a *Shout Discard* to *Chop Move* any card that is desirable, even if it is not critical or playable.
-* Normally, a *Scream Discard* is only allowed if the team is at 0 clues (or if cluing the card is impossible). Unlike a *Scream Discard*, it is permissible to use a *Shout Discard* to *Chop Move* regardless of the amount of clues that the team has.
-* Normally, a *Scream Discard* would turn into an *Echo Scream Discard* if the next player has a playable card. *Shout Discards* can also turn into *Echo Shout Discards*, but only if the team is completely out of clues and it can be seen to be a "last-resort" move.
-```
-
-**The Unnecessary Trash Push (Finesse Form)**
-
-```
-* First, see the section on the *[Unnecessary Trash Push](#unnecessary-trash-push)*.
-* Normally, the *Unnecessary Trash Push* calls for the very next player to blind-play an unrelated card, similar to a *Bluff*.
-* However, if the very next player can see that it could be a *Finesse*, then they should prefer that interpretation. This is similar to how the next player should always prefer a *Finesse* interpretation over a *Bluff* interpretation.
-* For example, in a 4-player game:
-  * All of the 2's are played on the stacks.
-  * Alice clues number 1 to Cathy, touching a single 1 on her chop. Since all of the 1's are already played, it is globally known that this must be some kind of *Trash Push*.
-  * Bob sees that the pushed card is a red 3. Cathy has no other red cards in her hand, so Alice could have just clued red to Cathy instead of doing a complicated *Trash Push*.
-  * Thus, Bob knows that this is an *Unnecessary Trash Push*. Normally, Bob would immediately blind-play his *Finesse Position* card. However, Bob also sees that Donald has a red 4 in his *Finesse Position*. Since *Finesses* take precedence over *Bluffs*, Bob knows that he should let Donald be the one to blind-play from the "unnecessaryness".
-  * Bob discards.
-  * Cathy knows that this must be a *Trash Push*. Cathy blind-plays her slot 3 card. It is red 3 instead and it successfully plays.
-  * Similar to Bob, Donald also sees that the *Trash Push* was unnecessary. Since Bob did not blind-play anything, this must be an *Unnecessary Trash Push Finesse*. Donald blind-plays his *Finesse Position* as red 4 and it successfully plays.
 ```
 
 **The Pestilent Finesse** (by Florrat)
@@ -104,9 +68,19 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 
 @everyone New variant-specific conventions:
 
+**Trash Finesses & Trash Bluffs in Pink**
+
+```
+* This convention only applies to variants with a pink suit.
+* When a *Trash Finesse* or a *Trash Bluff* happens in a normal variant, if more than one card is touched, then all of the touched cards are known to be trash.
+* When a Trash Finesse* or a *Trash Bluff* happens in a variant with a pink suit, if more than one card is touched, it is possible that only the focused card was trash, and that the other cards touched are useful / critical pink cards.
+* In this situation, after discarding the focus of the *Trash Finesse* or *Trash Bluff*, the player should then hold on to the other touched cards.
+```
+
 **Pink Promise with a 5 Stall**
 
 ```
+* This convention only applies to variants with a pink suit.
 * When a player performs a *5 Stall*, it is clearly a type of *Save Clue*. But if two or more 5's are touched as part of the clue, the focus of the clue is unclear.
 * We define the focus of the clue to be the specific 5 that is closest to the chop.
 * Thus, when a player knows for sure that a number 5 clue indicates a *5 Stall*, *Pink Promise* only applies to the 5 that is closest to the chop.
@@ -124,6 +98,7 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 **Pink Promise with a 5 Pull**
 
 ```
+* This convention only applies to variants with a pink suit.
 * First, see [Pink Promise with a 5's Chop Move](#pink-promise-with-a-5s-chop-move).
 * When a player performs a *5 Pull*, it is clearly a type of *Play Clue*. But if two or more 5's are touched as part of the clue, then the focus of the clue is unclear.
 * We define the focus of the clue to be the next to the "pulled" card. (This is similar to how *Pink Promise* works with a *5's Chop Move*.)
@@ -143,6 +118,7 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 **The Bubblegum Bluff** (by Stephen)
 
 ```
+* This convention only applies to variants with a pink suit.
 * Similar to a *Bubblegum Finesse*, it is also possible to perform a *Bubblegum Bluff*.
 * For example, in a 3-player game:
   * It is the first turn and nothing is played on the stacks.
