@@ -1741,7 +1741,7 @@ Priority does not always apply. Some common exceptions are listed below.
   * Normally, Alice would play the left-most card (slot 1) as the red 4. However, because of her notes, she knows that the red 4 must actually be on slot 2.
   * Alice successfully plays red 4 from slot 2. Since the red 5 is the only good red card left, Alice can assume that her other red card is red 5 (from *Good Touch Principle*), and she can play it on the next turn.
 * In this example, the "r4?" notes that Alice writes are called *Elimination Notes*. *Elimination Notes* are notes that represent the possible slots for a specific card.
-* In this example, thing "thing" that triggered the writing of *Elimation Notes* was the discarding of a card, so this is called *Discard Elimination*.
+* In this example, thing "thing" that triggered the writing of *Elimination Notes* was the discarding of a card, so this is called *Discard Elimination*.
 * Note that players should not always make *Elimination Notes* when they discard a playable card. In some cases, games can be extremely busy, leaving no reasonable way to get the playable card. Players must just their best judgment and account for this.
 
 ### The Elimination Blind-Play
@@ -1777,10 +1777,10 @@ Priority does not always apply. Some common exceptions are listed below.
 
 * If:
   1) there are only two cards left in a player's hand with *Elimination Notes* on them **and**
-  2) the previous players let your chop card ride **and**
-  3) the players before you were not busy, **then**
-* The card with the *Elimination Note* card cannot be on the chop! (Otherwise, a player would have clued it with either a *Play Clue* or a *Save Clue* in order to prevent it from being discarded.)
-* Players in such a situation can "jump ahead" and immediately blind-play the newest of the two cards with the *Elimination Notes*.
+  2) the previous players let the chop card ride **and**
+  3) the previous players were not busy, **then**
+* The card with the *Elimination Note* card cannot be on the chop! (Otherwise, one of the previous players would have clued it with either a *Play Clue* or a *Save Clue* in order to prevent it from being discarded.)
+* In such a situation, the player with the *Elimination Notes* can "jump ahead" and immediately blind-play the newest of the two cards.
 * For example, in a 3-player game:
   * Red 1 has been played on the red stack.
   * Alice has a completely unclued hand.
