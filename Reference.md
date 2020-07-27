@@ -3269,7 +3269,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Alice discards a red 1. Alice writes *Elimination Notes* on her slot 2, slot 3, slot 4, and slot 5.
   * On her next turn, Alice discards an unrelated card. She now has *Elimination Notes* on slot 3, slot 4, and slot 5.
   * On her next turn, Alice discards another red 1. Normally, she would now have *Elimination Notes* on slot 4 and slot 5. However, because of the *Elimination Rewrite*, she instead writes *Elimination Notes* on slot 2, slot 3, slot 4, and slot 5.
-  
+
 ### The Continuation Clue (Touching Both Inside and Outside a Layer)
 
 * Sometimes, a player who is blind-playing cards into a *Layered Finesse* receives another clue that touches cards **both** inside the layer and outside the layer.
