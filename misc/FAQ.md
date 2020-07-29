@@ -10,7 +10,7 @@ https://github.com/Zamiell/hanabi-conventions/blob/master/misc/2-Player.md
 
 <br />
 
-### What is the reason to play 1’s in the starting hand in reverse order?
+### What is the reason to play 1’s in the starting hand from right-to-left (instead of from left-to-right)?
 
 https://github.com/Zamiell/hanabi-conventions/blob/master/misc/Convention_Reasons.md#play-order-of-multiple-1s
 
