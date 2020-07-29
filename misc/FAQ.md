@@ -309,7 +309,7 @@ Yes.
 
 <br />
 
-### If I am *Prompted* for a card, but I got a *Save Clue* earlier for that rank, what do I do?
+### If I am *Prompted* for a card, but I got a *Save Clue* earlier for that color/rank, what do I do?
 
 * If you get a *Save Clue* on a chop card and you can narrow down the possibilities to one exact card, then:
   * You should write a note on the card for that exact possibility.
