@@ -114,6 +114,12 @@ No, they will misplay their *Finesse Position* as a *Gentleman's Discard*. This 
 
 <br />
 
+### When should a *Fix Clue* be done?
+
+Anytime. Doesn't necessarily have to be early, doesn't necessarily have to be done "just in time".
+
+<br />
+
 ### Who should give a *Fix Clue* when a player performs a *Finesse with a Lie Component*?
 
 * Almost always, the player who initiated the move.
@@ -121,11 +127,9 @@ No, they will misplay their *Finesse Position* as a *Gentleman's Discard*. This 
 
 <br />
 
-### When should a *Fix Clue* be done?
+### If I am *Finessed*, and I get a *Fix Clue* to stop me from bombing my *Finesse Position*, and the *Fix Clue* touches my chop and some other card, which one should I play into the *Finesse*?
 
-Anytime. Doesn't necessarily have to be early, doesn't necessarily have to be done "just in time".
-
-<br />
+You should not play the chop. You should play the card that is closest to your *Finesse Position*.
 
 ### I receive a clue that touches several cards and focuses on chop. Later I am *Prompted*. Which card should I play?
 
