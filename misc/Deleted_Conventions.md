@@ -271,7 +271,7 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
 * In emergency situations, players should perform *Scream Discards* and *Generation Discards* to save important cards. These two moves (along with their derivatives, the *Echo Scream Discard* and the *Composition Discard*), should be enough to "solve" almost every tricky situation that could ever come up.
 * However, in an extremely difficult variant, or in a situation where a previous player has blundered, it might fall to one player to save the next player's critical chop card. In this situation, they might not be able to perform a *Scream Discard*, because they might not have any playable cards. And they might not be able to perform a *Scream Blind-Play*, because if the team is at 2 strikes, then the game would immediately end.
 * In this situation, the player can discard a card one-away from their chop as a *Skipped Scream Discard*. This convention is normally only used in 2-player games, because it is very unsafe, risking the discard of a critical card.
-* It is common for players to accidentally *Chop Move* a card. Thus, the *Skipped Discard Chop Move* interpretation should almost never be entertained, simply because of how rarely it is actually needed.
+* It is common for players to accidentally *Chop Move* a card. Thus, the *Skipped Scream Discard* interpretation should almost never be entertained, simply because of how rarely it is actually needed.
 * Furthermore, this move should never be performed if there is a non-expert player playing or if it is likely to be interpreted as a mistake.
 * This convention was deleted due to lack of use (outside of 2-player games).
 
