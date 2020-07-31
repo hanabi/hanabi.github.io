@@ -119,7 +119,7 @@ The following is a brief description of each level.
 
 #### Level 9 - Advanced
 
-* Level 9 strategies should only be learned if you have 160+ games of experience with the group.
+* Level 9 strategies should only be learned if you have 140+ games of experience with the group.
 * This level introduces *3 Bluffs* and some higher level concepts.
 * Level 9 strategies are as follows:
   * *[The Ambiguous Finesse](Reference.md#the-ambiguous-finesse)*
@@ -131,7 +131,7 @@ The following is a brief description of each level.
 
 #### Level 10 - Adept
 
-* Level 10 strategies should only be learned if you have 140+ games of experience with the group.
+* Level 10 strategies should only be learned if you have 160+ games of experience with the group.
 * This level introduces the concept of *Priority* and all of the complicated stipulations that go along with it.
 * Level 10 strategies are as follows:
   * *[The Priority Prompt & The Priority Finesse](Reference.md#the-priority-prompt--the-priority-finesse)*
@@ -161,7 +161,7 @@ The following is a brief description of each level.
 
 #### Level 14 - Expert
 
-* Level 14 strategies should only be learned if you have 240+ games of experience with the group.
+* Level 14 strategies should only be learned if you have 220+ games of experience with the group.
 * This level covers moves that are complicated, difficult to see, or require a deeper understanding of how Hanabi works in order to work properly.
 * Level 14 strategies are as follows:
   * *[The Occupied Finesse](Reference.md#the-occupied-play-clue--the-occupied-finesse-opc)*
