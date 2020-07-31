@@ -1567,7 +1567,7 @@ Note that in this user interface, players are **not** holding their hands like t
   * Normally, Bob would think that this is a *Chop-Focus* clue, and play the blue 1 from slot 5.
   * However, his slot 5 card has a negative 1 clue on it (from Alice's number 1 clue), so it explicitly cannot be the blue 1.
   * Thus, this must be *Focus Inversion* and blue 1 must be on slot 1. The blue card on slot 5 can be either blue 2, blue 3, blue 4, or blue 5.
-* Note that ***Self-Finesses* always take precedence over *Focus Inversion***.
+* Note that ***Self-Finesses* with rank always take precedence over *Focus Inversion***. (*Self-Finesses* with rank are quite common, but a *Self Finesses* with color are nonsensical.)
 
 ### The Positional Discard (Indicating a Play with a Discard)
 
