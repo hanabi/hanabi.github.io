@@ -1437,7 +1437,7 @@ Note that in this user interface, players are **not** holding their hands like t
 
 ## Level 9 - Advanced
 
-* Level 9 strategies should only be learned if you have 160+ games of experience with the group.
+* Level 9 strategies should only be learned if you have 140+ games of experience with the group.
 * This level introduces 3 Bluffs and some higher level concepts.
 * See the [learning path document](Learning_Path.md) for general descriptions of each level.
 
@@ -1591,7 +1591,7 @@ Note that in this user interface, players are **not** holding their hands like t
 
 ## Level 10 - Adept
 
-* Level 10 strategies should only be learned if you have 140+ games of experience with the group.
+* Level 10 strategies should only be learned if you have 160+ games of experience with the group.
 * This level introduces the concept of Priority and all of the complicated stipulations that go along with it.
 * See the [learning path document](Learning_Path.md) for general descriptions of each level.
 
