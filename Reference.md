@@ -977,7 +977,7 @@ Note that in this user interface, players are **not** holding their hands like t
 #### Extinguishing Every Clue
 
 * Extinguishing every clue **does** include *5 Stalling*, but it is only mandatory for the team to collectively perform one *5 Stall*. If one *5 Stall* clue has already been given and there is another *5 Stall* clue available, players are allowed (but not required) to clue it.
-* Extinguishing every clue **does not** include giving *Tempo Clues*. (*Tempo Clues* are classified as *Play Clues* that have "0-for-1" efficiency.)
+* Extinguishing every clue **does not** include giving *Tempo Clues* and/or clues that do not meet *Minimum Clue Value Principle*.
 * Extinguishing every clue **does not** include cluing something in the hand of the player who came directly before. This is because the player who came before did not see anything for the next player to do, and is therefore giving them "permission" to discard. In this situation, cluing is optional; players can choose to either clue the previous hand or discard at their discretion.
 * Extinguishing every clue **does not** include cluing cards that will be almost certainly be *Order Chop Moved* by an upcoming player who already has two or more 1's clued in their hand.
 
