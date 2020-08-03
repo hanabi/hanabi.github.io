@@ -232,7 +232,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
 
 * Usually, players only discard when they have nothing to do. But don't take this the wrong way.
 * In order to avoid discarding, you are *not allowed* to just clue any card. You are only allowed to give *Save Clues* to the specific cards outlined in the *Save Principle* section. And you are only allowed to give *Play Clues* to actual playable cards.
-* Furthermore, you might be tempted to **clue a card again that already has a clue on it** in order to make it play right now. We call this kind of clue a *Tempo Clue*.
+* Furthermore, you might be tempted to **clue a card again that already has a clue on it** in order to make it play right now. We call this kind of clue a *Tempo Clue*. A *Tempo Clue* is simply a *Play Clue* that does not "get" any brand new cards.
 * *Tempo Clues* are quite inefficient (as the team is using two clues to get one card). Since *Tempo Clues* are so bad, we say that players are **only allowed to perform *Tempo Clues* in certain special situations**, like when a player is forced to give a clue. (The *Early Game* does not count as a special situation where you are allowed to give a *Tempo Clue* though.)
 * So, if your only option is between giving a *Tempo Clue* and discarding, then **you must discard**.
 * We formally express this concept as *Minimum Clue Value Principle*: **all clues must get at least one previously unclued card saved or played**. In other words, as a group, we hold ourselves to a high standard, and we don't give inefficient clues.
