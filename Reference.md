@@ -1911,8 +1911,6 @@ Priority does not always apply. Some common exceptions are listed below.
 ### The 5 Pull Prompt & The 5 Pull Finesse
 
 * *5 Pulls* are also allowed to initiate a *Prompt* or *Finesse*.
-* However, *5 Pulls* are **not** allowed to initiate a *Reverse Finesse*.
-* With that said, players **do** have to respect that forward *5 Pull Finesses* could be *Layered* or *Clandestine*.
 * For example, in a 3-player game:
   * It is the first turn of the game and nothing is played on the stacks.
   * Cathy's hand is as follows, from newest to oldest: `blue 4, blue 4, blue 5, red 2, blue 2`
@@ -1921,6 +1919,10 @@ Priority does not always apply. Some common exceptions are listed below.
   * Bob knows that if this was a *5 Pull*, it would be pulling the red 2. If Bob does nothing, Cathy might go on to misplay the red 2 as some playable 1.
   * Thus, this must be a *5 Pull Finesse*, so Bob blind-plays his *Finesse Position*. It is red 1 and it successfully plays.
   * From Cathy's perspective, she initially concluded that Alice's number 5 clue was just a *5 Stall*. However, Bob blind-played his *Finesse Position* card, and Cathy knows that Bob would not do that if the move was a *5 Stall*. This must be a *5 Pull Finesse*, so Cathy blind-plays her slot 4 card. It is red 2 and it successfully plays.
+* As you would expect, it is also possible to perform a *5 Pull Double Finesse*. The "pulled" card will always match the final blind-play.
+* Unlike other types of *Finesses*, *5 Pulls* are **not** allowed to initiate a *Reverse Finesse*. (This is because we don't want the person with the pulled card to have to entertain too many possibilities.)
+* With that said, players **do** have to respect that forward *5 Pull Finesses* could be *Layered* or *Clandestine*.
+* Remember that during a *5 Pull Finesse*, the pulled card **always** matches the blind-play. In other words, it generally impossible to ever perform a *5 Pull Bluff*, a *5 Double Bluff*, a *5 Pull Pestilent Double Bluff*, and so on.
 
 ### The 5 Pull Promise (A Follow-up Play Clue After a 5 Pull)
 
