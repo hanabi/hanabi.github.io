@@ -10,7 +10,7 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 2. [Level 9 - Violations of Pink Promise That Don't Require a Fix](#)
 3. [Level 10 - Pink Fix Clues](#pink-fixes)
 4. [Level 13 - 
-4. [Level 12 - Finesses and Other Special Moves](#finesses-and-other-special-moves)
+4. [Level 12 - Other Special Moves](#finesses-and-other-special-moves)
 5. [Edge Cases](#edge-cases)
 
 <br />
