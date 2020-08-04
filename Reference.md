@@ -1922,7 +1922,7 @@ Priority does not always apply. Some common exceptions are listed below.
 * As you would expect, it is also possible to perform a *5 Pull Double Finesse*. The "pulled" card will always match the final blind-play.
 * Unlike other types of *Finesses*, *5 Pulls* are **not** allowed to initiate a *Reverse Finesse*. (This is because we don't want the person with the pulled card to have to entertain too many possibilities.)
 * With that said, players **do** have to respect that forward *5 Pull Finesses* could be *Layered* or *Clandestine*.
-* Remember that during a *5 Pull Finesse*, the pulled card **always** matches the blind-play. In other words, it generally impossible to ever perform a *5 Pull Bluff*, a *5 Double Bluff*, a *5 Pull Pestilent Double Bluff*, and so on.
+* Remember that during a *5 Pull Finesse*, the pulled card **always** matches the blind-play. In other words, it generally impossible to ever perform a *5 Pull Bluff*, a *5 Pull Double Bluff*, a *5 Pull Pestilent Double Bluff*, and so on.
 
 ### The 5 Pull Promise (A Follow-up Play Clue After a 5 Pull)
 
