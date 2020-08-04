@@ -173,7 +173,7 @@ Note that in this user interface, players are **not** holding their hands like t
 
 * As noted in the previous section, sometimes unclued cards happen to be *playable*.
 * Additionally, sometimes unclued cards happen to be *one-away-from-playable*.
-* A card is *one-away-from-playable* if only one other card would need to be given a *Play Clue* or a *Delayed Play Clue* to make the card *playable*.
+* A card is *one-away-from-playable* if only one other card would need to be given a *Play Clue* or a *Delayed Play Clue* in order to make the card *playable*.
 * For example, in a 3-player game:
   * No red cards are played on the stacks.
   * Bob has a red 2 with a number 2 clue on it. (It was saved with a *2 Save* clue earlier on.)
