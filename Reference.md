@@ -769,7 +769,7 @@ Note that in this user interface, players are **not** holding their hands like t
 * A skip of **three** 1's means that the player three seats away should *Chop Move*, and so on.
 * For example, in a 3-player game:
   * It is the first turn and nothing is played on the stacks.
-  * Alice clues Bob number 1, which touches three 1's. They are in slots 1, 2, and 3.
+  * Alice clues Bob number 1, which touches three 1's. They are in slot 1, slot 2, and slot 3.
   * Bob is expected to play slot 3 (which is the oldest 1). If he plays slot 3, nothing special happens.
   * If Bob plays slot 2, he is performing an *Order Chop Move*, and Cathy should chop move one card (her slot 5).
   * If Bob plays slot 1, he is performing a *Skipped Order Chop Move*, and Alice should chop move one card (her slot 5).
