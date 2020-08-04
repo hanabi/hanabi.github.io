@@ -194,6 +194,7 @@ Note that in this user interface, players are **not** holding their hands like t
 
 * As outlined in the [beginner's guide](Beginner.md#the-early-game), the *Early Game* is the period of time before someone discards for the first time.
 * Players **must** "extinguish" all of the available *Play Clues* and *Save Clues* on the board before ending the *Early Game*.
+  * "Extinguishing" all the *Play Clues* does **not** include giving *Tempo Clues*. *Tempo Clues* do not meet *Minimum Clue Value Principle*, so in general, they should almost never be given.
 
 ### The 5 Stall
 
