@@ -6,12 +6,12 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 
 ## Table of Contents
 
-1. [Level 8 - Basic Pink Principles](#basic-pink-principles)
-2. [Level 9 - Violations of Pink Promise That Don't Require a Fix](#)
-3. [Level 10 - Pink Fix Clues](#pink-fixes)
-4. [Level 13 - 
-4. [Level 12 - Other Special Moves](#finesses-and-other-special-moves)
-5. [Edge Cases](#edge-cases)
+1. [Level 8 - Basic Pink Principles](#level-8---basic-pink-principles)
+2. [Level 9 - Violations of Pink Promise That Don't Require a Fix](#level-9---violations-of-pink-promise-that-dont-require-a-fix)
+3. [Level 10 - Pink Fix Clues](#level-10---pink-fix-clues)
+4. [Level 12 - Other Special Moves](#level-12---other-special-moves)
+5. [Level 15 - Bubblegum Moves](#level-15---bubblegum-moves)
+6. [Level 15 - Edge Cases](#level-15---edge-cases)
 
 <br />
 
@@ -27,6 +27,7 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
   * If Alice gave a number 5 clue, it would save both of the cards in one fell swoop, since a number 5 clue would touch the pink 2.
   * However, doing that would break *Pink Promise*, since once Cathy learns that her slot 5 card is a pink card, she will always assume that it is a pink 5.
   * Thus, Alice gives a number 2 clue as a *2 Save* on the pink 2, and then Bob clues a number 5 clue as a *5 Save* on the blue 5.
+* *Pink Promise* is the **most important** pink convention! If you need to handle a tricky situation with pink cards, then make sure you first satisfy *Pink Promise* so that it is clear to the team what is going on.
 
 ### The 1's Assumption
 
