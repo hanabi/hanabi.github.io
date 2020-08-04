@@ -16,6 +16,17 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 
 ## Level 8 - Basic Pink Principles
 
+### Pink Promise
+
+* When a pink card is focused by a rank clue, the number must match the true identity of the card. In other words, the focused card is *Promised* to match the number of the rank clue.
+* *Pink Promise* applies to all clues: *Play Clues*, *Save Clues*, *5 Stalls*, etc.
+* For example, in a 3-player game:
+  * Cathy has a pink 2 on chop followed by a blue 5.
+  * Alice and Bob need to give a *Save Clue* to both the pink 2 and the blue 5.
+  * If Alice gave a number 5 clue, it would save both of the cards in one fell swoop, since a number 5 clue would touch the pink 2.
+  * However, doing that would break *Pink Promise*, since once Cathy learns that her slot 5 card is a pink card, she will always assume that it is a pink 5.
+  * Thus, Alice gives a number 2 clue as a *2 Save* on the pink 2, and then Bob clues a number 5 clue as a *5 Save* on the blue 5.
+
 ### The 1's Assumption
 
 * Just like in a normal game, when a player gets clued about two or more 1's, then they should play all of them in the normal order.
@@ -52,16 +63,14 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
   * Bob knows that *Prompts* normally take precedence over *Finesses*. However, Bob also knows that *Prompts* do not apply to pink cards with a rank mismatch. This is currently the case for him since he is promised a 3 and his clued card has a number 4 clue on it.
   * Thus, Bob plays his *Finesse Position* card as pink 3.
 
-### Pink Promise
+### Remaining 1's After All the 1's Have Been Played
 
-* When a pink card is focused by a rank clue, the number must match the true identity of the card. In other words, the focused card is *Promised* to match the number of the rank clue.
-* *Pink Promise* applies to all clues: *Play Clues*, *Save Clues*, *5 Stalls*, etc.
-* For example, in a 3-player game:
-  * Cathy has a pink 2 on chop followed by a blue 5.
-  * Alice and Bob need to give a *Save Clue* to both the pink 2 and the blue 5.
-  * If Alice gave a number 5 clue, it would save both of the cards in one fell swoop, since a number 5 clue would touch the pink 2.
-  * However, doing that would break *Pink Promise*, since once Cathy learns that her slot 5 card is a pink card, she will always assume that it is a pink 5.
-  * Thus, Alice gives a number 2 clue as a *2 Save* on the pink 2, and then Bob clues a number 5 clue as a *5 Save* on the blue 5.
+* Often times, in the beginning of the game, a player will receives a number 1 clue that touches a bunch of 1's. In these situations, they will play them all from oldest to newest (using the *1's Assumption*).
+* If all of the 1's have been successfully played on the stacks and a player *still* has 1's remaining in their hand, they should mark them as useful pink cards and hold on to them for later.
+  * In other words, they should **not** assume that that they have the next playable pink card (e.g. pink 2).
+* Later on, if a pink card is *Prompted* from their hand, the player should play the 1.
+  * In other words, the *Pink Prompt Rank Exception* does not apply to these cards, because they are considered to be "filled-in" as a pink card.
+* This same concept applies to remaining 2's after all of the 2's have been played, and so forth.
 
 <br />
 
@@ -73,7 +82,7 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 * For example, in a 3-player game:
   * It is the first turn and nothing is played on the stacks.
   * Alice clues number 1 to Bob, touching a red 1 on slot 1, a pink 3 on slot 2, a pink 2 on slot 3, and a pink 1 on slot 4.
-  * Bob knows that from *Good Touch Principle*, all of his 1's are good, so now he can play all of them from oldest to newest.
+  * Bob knows that from *Good Touch Principle* and the *1's Assumption* that all of his 1's are good, so he can play all of them from oldest to newest.
   * Bob plays the pink 1 from slot 4.
   * On his next turn, Bob plays the pink 2 from slot 3. Bob is immediately surprised that this is not a real 1, but he knows that this kind of thing is allowed and that he should continue to play his remaining 1's.
   * On his next turn, Bob plays the pink 3 from slot 2. Bob is again surprised that this is not a real 1, but he knows that this kind of thing is allowed and that he should continue to play his final 1.
@@ -91,9 +100,7 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 
 <br />
 
-## Pink Fixes
-
-
+## Level 10 - Pink Fixes
 
 ### The Pink Fix Clue (on 1's)
 
@@ -125,14 +132,6 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
   * Bob knows that the pink card in his hand could technically be a pink 1. However, Bob also knows that when 1's are filled in to be pink, they should not be played anymore.
   * Thus, Bob knows that the point of Alice's clue was a *Fix Clue* to stop him from playing the pink card. The 3 on his chop could be any 3 in the game. Furthermore, Bob knows that *Pink Promise* applies to this *Fix Clue* and that his pink card should be a pink 3.
 * As an exception, *Pink Fix Promise* does **not** apply when the *Fix Clue* is a number 2 clue or a number 5 clue and the newly introduced card was on chop. An example of this can be found in the [previous section](#the-pink-fix-clue-on-1s). (In the example in this section, Bob's pink card is not necessarily a pink 5; it could be any pink card in the game.)
-
-### Remaining 1's After All the 1's Have Been Played
-
-* Often times, in the beginning of the game, a player will receives a number 1 clue that touches a bunch of 1's. In these situations, they will play them all from oldest to newest.
-* If all of the 1's have been successfully played on the stacks and a player still has 1's remaining in their hand, they should mark them as useful pink cards and hold on to them for later.
-  * In other words, they should **not** assume that that they have the next playable pink card (e.g. pink 2).
-* Later on, if a pink card is *Prompted* from their hand, the player should play the 1.
-  * In other words, the *Pink Prompt Rank Exception* does not apply to these cards, because they are considered to be "filled-in" as a pink card.
 
 ### Pink Choice Tempo Clue
 
