@@ -178,7 +178,7 @@ Note that in this user interface, players are **not** holding their hands like t
   * No red cards are played on the stacks.
   * Bob has a red 2 with a number 2 clue on it. (It was saved with a *2 Save* clue earlier on.)
   * Cathy has an unclued red 3 in her hand.
-  * Alice knows that the unclued red 3 is currently *one-away-from-playable*, because only one card is needed in order to make it *playable* - the red 1.
+  * Alice knows that the unclued red 3 is currently *one-away-from-playable*, because there is only one card needed in order to make it *playable* - the red 1.
 * Players are **not** allowed to give *Play Clues* or *Delayed Play Clues* to *one-away-from-playable* cards - they are not playable yet!
 
 ### Save Clues
