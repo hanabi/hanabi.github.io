@@ -8,7 +8,8 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 
 1. [Level 8 - Basic Pink Principles](#basic-pink-principles)
 2. [Level 9 - Violations of Pink Promise That Don't Require a Fix](#)
-3. [Level 10 - Pink Fixes](#pink-fixes)
+3. [Level 10 - Pink Fix Clues](#pink-fixes)
+4. [Level 13 - 
 4. [Level 12 - Finesses and Other Special Moves](#finesses-and-other-special-moves)
 5. [Edge Cases](#edge-cases)
 
@@ -46,11 +47,6 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
   1) Do their best to not duplicate pink cards.
   2) Assume by default that the remaining pink cards in their hand are "good".
 
-### Pink Tempo Clues
-
-* If a player gives a *Tempo Clue* to a pink card, it is never a *Tempo Clue Chop Move*, even if it only gets one card played.
-* This is because it is fairly valuable to get pink cards out of the hand as soon as possible in case blocking cards are drawn.
-
 ### The Pink Prompt Rank Exception
 
 * Normally, *Prompts* take precedence over *Finesses*. This means that if a card in a player's hand has one or more positive clues on it that "match", they should never blind-play their *Finesse Position* and instead play their left-most clued card.
@@ -74,7 +70,7 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 
 <br />
 
-## Level 9 - Violations of Pink Promise That Don't Require a Fix
+## Level 9 - Violations of *Pink Promise* That Don't Require a Fix
 
 ### The Pink Play Clue Lie (with multiple 1's)
 
@@ -100,7 +96,7 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 
 <br />
 
-## Level 10 - Pink Fixes
+## Level 10 - Pink Fix Clues
 
 ### The Pink Fix Clue (on 1's)
 
@@ -133,17 +129,6 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
   * Thus, Bob knows that the point of Alice's clue was a *Fix Clue* to stop him from playing the pink card. The 3 on his chop could be any 3 in the game. Furthermore, Bob knows that *Pink Promise* applies to this *Fix Clue* and that his pink card should be a pink 3.
 * As an exception, *Pink Fix Promise* does **not** apply when the *Fix Clue* is a number 2 clue or a number 5 clue and the newly introduced card was on chop. An example of this can be found in the [previous section](#the-pink-fix-clue-on-1s). (In the example in this section, Bob's pink card is not necessarily a pink 5; it could be any pink card in the game.)
 
-### Pink Choice Tempo Clue
-
-* When one or more pink cards are retouched with a pink clue, the interpretation should be as normal: play the cards from left to right as a *Tempo Clue* (or a *Double Tempo Clue*).
-* When one or more pink cards are retouched with a rank clue, and there are no "new" cards introduced (or, if the only "new" cards introduced are trash), then extra information can be conveyed by what rank is chosen.
-* The rank chosen should correspond to the slot that they should play.
-* For example, in a 3-player game:
-  * Bob has two pink cards clued in his hand on slot 3 and slot 4. He does not know the rank of either card.
-  * Alice clues number 4 to Bob, which touches both pink cards and nothing else.
-  * Bob knows that a rank 4 clue means to play slot 4, so he plays his right-most pink card.
-  * Bob holds on to the other pink card for later, knowing that the *Pink Choice Tempo Clue* only "gets" one card.
-
 ### Pink Fix Clues (in general)
 
 * Normally, if a clue re-touches pink cards that are known to be pink, it is treated as a *Pink Choice Tempo Clue* or a *Pink Choice Finesse*.
@@ -159,7 +144,23 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 
 <br />
 
-## Finesses and Other Special Moves
+## Level 12 - Other Special Moves
+
+### Pink Tempo Clues
+
+* If a player gives a *Tempo Clue* to a single pink card, it is never a *Tempo Clue Chop Move*.
+* This is because it is fairly valuable to get pink cards out of the hand as soon as possible in case blocking cards are drawn.
+
+### The Pink Choice Tempo Clue
+
+* When one or more pink cards are retouched with a pink clue, the interpretation should be as normal: play the cards from left to right as a *Tempo Clue* (or a *Double Tempo Clue*).
+* When one or more pink cards are retouched with a rank clue, and there are no "new" cards introduced (or, if the only "new" cards introduced are trash), then extra information can be conveyed by what rank is chosen.
+* The rank chosen should correspond to the slot that they should play.
+* For example, in a 3-player game:
+  * Bob has two pink cards clued in his hand on slot 3 and slot 4. He does not know the rank of either card.
+  * Alice clues number 4 to Bob, which touches both pink cards and nothing else.
+  * Bob knows that a rank 4 clue means to play slot 4, so he plays his right-most pink card.
+  * Bob holds on to the other pink card for later, knowing that the *Pink Choice Tempo Clue* only "gets" one card.
 
 ### The Pink Choice Finesse
 
@@ -170,6 +171,23 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
   * Alice clues number 4 to Cathy, which touches both pink cards and nothing else.
   * Bob knows that a number 4 clue means to play slot 4, so the pink 2 must be playable right now. Bob plays his *Finesse Position* card as pink 1.
   * Cathy plays the pink 2 from slot 4.
+
+### Pink Positional Clues
+
+* Towards the end of the game, a player may have multiple pink cards in their hand, with one of them being playable. If the playable pink card is in between other pink cards, it can be difficult to "get" the card to play.
+* In cases where a number clue would be nonsensical, it is an indication to the player with two or more pink cards of which slot to play.
+* For example, in a 3-player game:
+  * The pink 4 is played and all of the other 3's are played.
+  * Bob's hand is completely unclued.
+  * Alice clues Bob number 2, touching slot 1, slot 2, and slot 3.
+  * Bob knows that since all of the 3's are already played, this might be a *Trash Chop Move*. If this is the case, slot 1 is focused, and he should discard that card, and then chop move slot 4 and slot 5.
+  * However, Bob also knows that it is near the end of the game and there are no cards left to chop move, so this interpretation does not make much sense.
+  * Thus, Bob knows that this must be a *Positional Clue*, and he plays his slot 2 card as the pink 5.
+* *Positional Clues* are different from *Pink Choice Tempo Clues* in that they can touch brand new cards. (*Pink Choice Tempo Clues* only re-touch known pink cards.) For this reason, *Positional Clues* can typically only be done at the end of the game when the clue is not likely to be interpreted as anything else.
+
+<br />
+
+## Level 15 - Bubblegum Moves
 
 ### The Bubblegum Prompt & The Bubblegum Finesse
 
@@ -201,6 +219,24 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 * *Bubblegum Bluffs* can only be performed on non-pink cards; otherwise, it will look like a *Double Finesse* with one part *Bubblegum Finesse* and one part normal *Finesse*.
 * Note that it is impossible to *3 Bluff* and *Bubblegum Bluff* at the same time.
 
+### The Bubblegum Wraparound
+
+* When players violate *Pink Promise* on an unplayable pink card, it usually indicates a *Bubblegum Prompt* or a *Bubblegum Finesse* (with the rank corresponding to the slot number to play).
+* In 4-player and 5-player games, there are only 4 cards in the hand. If a player does a *Bubblegum Finesse* with a 5, then that would be nonsensical, since there is no slot 5.
+* Similarly, in a 6-player game, there are only 3 cards in the hand. If a player does a *Bubblegum Finesse* with a 4, then that would be nonsensical, since there is no slot 4.
+* In this situation, it should "wraparound" to slot 1, communicating that the first slot is playable.
+* This kind of thing is useful in some edge-case scenarios (e.g. helping satisfy *Good Touch Principle* in variants with a light pink suit).
+
+### The Bubblegum Slide
+
+* If a *Bubblegum Prompt* or a *Bubblegum Finesse* is telling a player to play a card in a slot that has negative pink, then that is nonsensical.
+* In this situation, if there is no other possible interpretation for the clue other than a *Bubblegum Prompt* or a *Bubblegum Finesse*, and it is unlikely for the cluer to be making a mistake, then the target slot should "slide" to the right.
+* If the slot immediately to the right is also impossible to be a pink card, then it should continue to slide right until it finds a pink card, wrapping around to the other side of the hand if necessary.
+
+<br />
+
+## Level 15 - Edge Cases
+
 ### Trash Finesses & Trash Bluffs in Pink
 
 * When a *Trash Finesse* or a *Trash Bluff* happens in a normal variant, if more than one card is touched, then all of the touched cards are known to be trash.
@@ -212,23 +248,6 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 * When a *Trash Push* happens in a normal variant, if more than one card is touched, then all of the touched cards are known to be trash.
 * When a *Trash Push* happens with a rank clue in a variant with a pink suit, if more than one card is touched, it is possible that only the card on chop was trash, and that the other cards touched are useful / critical pink cards.
 * In this situation, after blind-playing the *Trash Pushed* card, the player should first discard the card that initiated the *Trash Push* (the oldest card) and then hold on to the other touched cards.
-
-### Pink Positional Clues
-
-* Towards the end of the game, a player may have multiple pink cards in their hand, with one of them being playable. If the playable pink card is in between other pink cards, it can be difficult to "get" the card to play.
-* In cases where a number clue would be nonsensical, it is an indication to the player with two or more pink cards of which slot to play.
-* For example, in a 3-player game:
-  * The pink 4 is played and all of the other 3's are played.
-  * Bob's hand is completely unclued.
-  * Alice clues Bob number 2, touching slot 1, slot 2, and slot 3.
-  * Bob knows that since all of the 3's are already played, this might be a *Trash Chop Move*. If this is the case, slot 1 is focused, and he should discard that card, and then chop move slot 4 and slot 5.
-  * However, Bob also knows that it is near the end of the game and there are no cards left to chop move, so this interpretation does not make much sense.
-  * Thus, Bob knows that this must be a *Positional Clue*, and he plays his slot 2 card as the pink 5.
-* *Positional Clues* are different from *Pink Choice Tempo Clues* in that they can touch brand new cards. (*Pink Choice Tempo Clues* only re-touch known pink cards.) For this reason, *Positional Clues* can typically only be done at the end of the game when the clue is not likely to be interpreted as anything else.
-
-<br />
-
-## Edge Cases
 
 ### Pink Promise with a 5 Stall
 
@@ -278,17 +297,3 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
   * Because of the "Pink Promise with a 5 Pull" convention, Bob knows that since this clue was a *5 Pull*, it must be focused on slot 2 (the card that was next to the pulled card).
   * Thus, *Pink Promise* applies to this card, so he marks slot 2 as a 5.
   * Later on in the game, another rank clue "fills in" Bob's slot 2 card to be a pink card. From *Pink Promise*, Bob knows that it must be exactly the pink 5.
-
-### The Bubblegum Wraparound
-
-* When players violate *Pink Promise* on an unplayable pink card, it usually indicates a *Bubblegum Prompt* or a *Bubblegum Finesse* (with the rank corresponding to the slot number to play).
-* In 4-player and 5-player games, there are only 4 cards in the hand. If a player does a *Bubblegum Finesse* with a 5, then that would be nonsensical, since there is no slot 5.
-* Similarly, in a 6-player game, there are only 3 cards in the hand. If a player does a *Bubblegum Finesse* with a 4, then that would be nonsensical, since there is no slot 4.
-* In this situation, it should "wraparound" to slot 1, communicating that the first slot is playable.
-* This kind of thing is useful in some edge-case scenarios (e.g. helping satisfy *Good Touch Principle* in variants with a light pink suit).
-
-### The Bubblegum Slide
-
-* If a *Bubblegum Prompt* or a *Bubblegum Finesse* is telling a player to play a card in a slot that has negative pink, then that is nonsensical.
-* In this situation, if there is no other possible interpretation for the clue other than a *Bubblegum Prompt* or a *Bubblegum Finesse*, and it is unlikely for the cluer to be making a mistake, then the target slot should "slide" to the right.
-* If the slot immediately to the right is also impossible to be a pink card, then it should continue to slide right until it finds a pink card, wrapping around to the other side of the hand if necessary.
