@@ -765,7 +765,8 @@ Note that in this user interface, players are **not** holding their hands like t
 
 * Normally, at the beginning of the game, players are expected to play their 1's from oldest to newest.
 * If a player skips over their right-most 1, and there is nothing else special going on, it means that the next player should *Chop Move* one card.
-* If a player skips over **two** of their right-most 1's, the message skips over the next player, and the player after that should *Chop Move* one card. (And a skip of three 1's means that the player three seats away should *Chop Move*.)
+* If a player skips over **two** of their right-most 1's, the message skips over the next player, and the player after that should *Chop Move* one card.
+* A skip of **three** 1's means that the player three seats away should *Chop Move*, and so on.
 * For example, in a 3-player game:
   * It is the first turn and nothing is played on the stacks.
   * Alice clues Bob number 1, which touches three 1's. They are in slots 1, 2, and 3.
@@ -773,10 +774,10 @@ Note that in this user interface, players are **not** holding their hands like t
   * If Bob plays slot 2, he is performing an *Order Chop Move*, and Cathy should chop move one card (her slot 5).
   * If Bob plays slot 1, he is performing a *Skipped Order Chop Move*, and Alice should chop move one card (her slot 5).
 * There are some common special situations that do **not** imply an *Order Chop Move*:
-  * The 1 was expected to be played from the *Fresh 1's Rule*.
+  * The 1 was expected to be played from the *[Fresh 1's Rule](#playing-multiple-1s---the-fresh-1s-rule-part-2)*.
   * The 1 that was played was originally *Finessed* from a clue that happened **before** the number 1 clue.
-  * The 1 that was played was not **exactly** the same as the other 1's. Any positive or negative information that can be used to distinguish the 1s from each other "turns off" *Order Chop Moves*.
-  * The 1 that was skipped over is known to be bad from contextual information. (See *The Stale 1's Clue* section.)
+  * The 1 that was played has a different amount of positive clues than the other 1's. (For example, one 1 only having a positive 1 clue on it, and another 1 has a positive 1 clue on it and a positive red clue on it.)
+  * The 1 that was skipped over is known to be bad from contextual information. (See the *[Stale 1's Clue](#context-clues--the-stale-1s-clue)* section.)
 
 ### Double Order Chop Move (for 3-Player Games)
 
