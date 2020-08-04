@@ -6,13 +6,26 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 
 ## Table of Contents
 
-1. [Basic Pink Principles](#basic-pink-principles)
-2. [Finesses and Other Special Moves](#finesses-and-other-special-moves)
-3. [Edge Cases](#edge-cases)
+1. [Level 8 - Basic Pink Principles](#basic-pink-principles)
+2. [Level 9 - Pink Fixes](#pink-fixes)
+3. [Level 12 - Finesses and Other Special Moves](#finesses-and-other-special-moves)
+4. [Edge Cases](#edge-cases)
 
 <br />
 
-## Basic Pink Principles
+## Level 8 - Basic Pink Principles
+
+### The 1's Assumption
+
+* Just like in a normal game, when a player gets clued about two or more 1's, then they should play all of them in the normal order.
+* In other words, even though the non-focused 1's *could* be non-1 pink cards, players are expected to *assume* that they are real 1's.
+* This assumption does **not** apply to the other ranks. For example, if all the 1's are played on the stacks, and a player has a card in their hand with a single positive number 2 clue on it, then they cannot play the 2, because they might be bombing a pink 5.
+
+### No Order Chop Moves
+
+* Even though we have the *1's Assumption* convention, it is still possible that a player will give a number 1 clue that touches a bunch of 1's and an unplayable pink card.
+* In this situation, a *Fix Clue* will need to be given in the future. (*Pink Fix Clues* are covered later on.) But the first card that will be played from the clue will always be a real 1.
+* Thus, in pink variants, players are not allowed to perform an *Order Chop Move*, because they could be misplaying a pink card.
 
 ### Good Touch Principle
 
@@ -33,9 +46,9 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 * For example, in a 3-player game:
   * All of the 2's are played on the stacks.
   * Alice clues pink to Cathy, touching a pink 4 on slot 1 as a *Play Clue*.
-  * Bob's slot 2 card and slot 3 card have a single number 4 clue of them (and no other clues).
-  * Bob knows that he is promised the pink 3. Technically, the pink 3 could be his slot 2 card, and *Prompts* normally take precedence over *Finesses*.
-  * However, Bob also knows that *Prompts* do not apply to pink cards with a rank mismatch. This is currently the case for him since he is promised a 3 and his clued card has a number 4 clue on it.
+  * Bob knows that this is either a *Prompt* or a *Finesse* on the pink 3.
+  * Bob's slot 2 card and slot 3 card have a single number 4 clue of them (and no other clues). Thus, the pink 3 could technically be Bob's slot 2 card.
+  * Bob knows that *Prompts* normally take precedence over *Finesses*. However, Bob also knows that *Prompts* do not apply to pink cards with a rank mismatch. This is currently the case for him since he is promised a 3 and his clued card has a number 4 clue on it.
   * Thus, Bob plays his *Finesse Position* card as pink 3.
 
 ### Pink Promise
@@ -48,6 +61,10 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
   * If Alice gave a number 5 clue, it would save both of the cards in one fell swoop, since a number 5 clue would touch the pink 2.
   * However, doing that would break *Pink Promise*, since once Cathy learns that her slot 5 card is a pink card, she will always assume that it is a pink 5.
   * Thus, Alice gives a number 2 clue as a *2 Save* on the pink 2, and then Bob clues a number 5 clue as a *5 Save* on the blue 5.
+
+<br />
+
+## Violations of Pink Promise That Don't Require a Fix
 
 ### The Pink Play Clue Lie (with multiple 1's)
 
@@ -71,10 +88,11 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
   * Cathy plays the card on slot 1, thinking that it is a red 3. It is actually the pink 4.
   * Cathy knows that Alice broke *Pink Promise* and that she was lied to, but that it was a *Pink Play Clue Lie*. Cathy knows that Alice likely did things this way because she wanted a 2-for-1 (to pick up some useful 3 "for free") instead of just a 1-for-1 on just the pink 4.
 
-### No Order Chop Moves
+<br />
 
-* At the beginning of the game, when you get a clue that touches multiple 1's, you are supposed to play them from right-to-left (in exactly in the same way that you would in a no variant game).
-* Players are not allowed to *Order Chop Move*, because they could be misplaying a pink card. (Also see the following two sections, which are related.)
+## Pink Fixes
+
+
 
 ### The Pink Fix Clue (on 1's)
 
