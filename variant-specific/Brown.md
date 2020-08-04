@@ -12,7 +12,7 @@ These conventions apply to any variant with a brown (touched by no ranks) suit.
 
 ### Brown Tempo Clues
 
-* If a player gives a *Tempo Clue* to a brown card, it is never a *Tempo Clue Chop Move*, even if it only gets one card played.
+* If a player gives a *Tempo Clue* to a single brown card, it is never a *Tempo Clue Chop Move*.
 * This is because it is fairly valuable to get brown cards out of the hand as soon as possible in case blocking cards are drawn.
 
 ### Brown Tempo Clue Inversion
