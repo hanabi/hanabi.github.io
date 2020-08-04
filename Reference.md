@@ -256,7 +256,7 @@ Note that in this user interface, players are **not** holding their hands like t
 
 ### The Double Finesse / Triple Finesse / etc.
 
-* Typically, *Finesses* are performed by cluing a *one-away-from-playable* card. However, it is possible to get two different people to blind-play their cards in a row if you give a clue to a card that is two-away from being playable. This is very efficient, as it is a 3-for-1 clue.
+* Typically, *Finesses* are performed by cluing a *one-away-from-playable* card. However, it is possible to get two different people to blind-play their cards in a row if you give a clue to a *two-away-from-playable* card. This is very efficient, as it is a 3-for-1 clue.
 * For example, in a 4-player game:
   * A red 1 is played on the stacks.
   * Alice clues Donald red, which touches a red 4.
