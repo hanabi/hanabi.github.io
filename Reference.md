@@ -115,7 +115,7 @@ In general, we want all of our strategies to flow from some basic principles. Th
 ### 8. Good Lie Principle
 
 * When a *Play Clue* is given, it's a message that says the card is playable. Sometimes this message can be a lie, in order to usefully manipulate other players.
-* Valid lies must not allow for the possibility of any misinformed player to give a conflicting clue or misplay. In simpler terms, this means that good lies almost always reveal themselves on the very next turn.
+* Valid lies must not allow for the possibility of any misinformed player to give a conflicting clue or misplay. In simpler terms, this means that good lies almost always reveal themselves on **the very next turn**.
 
 ### 9. High Value Principle
 
