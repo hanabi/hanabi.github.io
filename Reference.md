@@ -2522,13 +2522,14 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Bob knows that this must be a *Finesse* on the red 3 and the red 4 (in order to make the red 5 playable).
   * Bob sees one copy of red 3 in the discard pile and one copy in Donald's hand, so he knows that the *Finesse* must be directed at Donald.
   * However, Bob sees that Donald has a blue 4 on his *Finesse Position*, followed by a red 3 and a red 4. Thus, this cannot be a *Finesse* directed at Donald.
-  * Normally, Bob would now assume that this is a *Known Bluff* on him and that Alice wants him to blind-play his *Finesse Position*. However, Bob also notices that Cathy happens to have a blue 3 on her *Finesse Position*. Bob realizes that if he uses the last clue, he can force Cathy to blind-play as a *Strong Form Patch Finesse*.
+  * Normally, Bob would now assume that this is a *Known Bluff* on him and that Alice wants him to blind-play his *Finesse Position*. However, Bob also notices that Cathy happens to have a blue 3 on her *Finesse Position*. Bob realizes that if he uses the last clue, he can force Cathy to blind-play as a *Strong Patch Finesse*.
   * Bob clues number 5 to Cathy as a *5 Save*, using the last clue. Bob knows that this is what Alice expected him to do, and this was her plan all along.
   * Cathy knows that Alice's clue cannot be a *Bluff*, because Bob did not blind-play anything. Thus, it must be a *Finesse*.
   * Cathy sees one copy of red 3 in the discard pile and one copy in Donald's hand, so she knows that the *Finesse* must be directed at Donald.
   * Cathy sees that Donald is going to misplay the blue 4 as the red 3.
+  * Cathy cannot give a *Fix Clue* to Donald because the team is currently at 0 clues.
   * Cathy knows that if Alice and Bob are not making any mistakes, then they would not intentionally set up Donald to misplay a card.
-  * Thus, since there are no other possible interpretations for what is happening, Cathy knows that this must be a *Strong Form Patch Finesse*. Cathy blind-plays her *Finesse Position* card as a known blue 3.
+  * Thus, since there are no other possible interpretations for what is happening, Cathy knows that this must be a *Strong Patch Finesse*. Cathy blind-plays her *Finesse Position* card as a known blue 3.
   * Donald is very surprised that Cathy blind-played a card, but he trusts everyone on the team, so he still assumes he has the red 3. Donald tries to blind-play the red 3 and it is instead the blue 4. Donald now knows that this was a *Patch Finesse*.
   * Emily sees the playable red 3 and red 4 in Donald's hand, so she also knows that this was a *Patch Finesse*. The red card in her hand is either red 4 or red 5.
 * See the section below for important *Patch Finesse* stipulations.
