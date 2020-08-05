@@ -2527,7 +2527,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Cathy knows that Alice's clue cannot be a *Bluff*, because Bob did not blind-play anything. Thus, it must be a *Finesse*.
   * Cathy sees one copy of red 3 in the discard pile and one copy in Donald's hand, so she knows that the *Finesse* must be directed at Donald.
   * Cathy sees that Donald is going to misplay the blue 4 as the red 3.
-  * Cathy knows that if Alice and Bob are not making any mistakes, then they would not intentinoally set up Donald to misplay a card.
+  * Cathy knows that if Alice and Bob are not making any mistakes, then they would not intentionally set up Donald to misplay a card.
   * Thus, since there are no other possible interpretations for what is happening, Cathy knows that this must be a *Strong Form Patch Finesse*. Cathy blind-plays her *Finesse Position* card as a known blue 3.
   * Donald is very surprised that Cathy blind-played a card, but he trusts everyone on the team, so he still assumes he has the red 3. Donald tries to blind-play the red 3 and it is instead the blue 4. Donald now knows that this was a *Patch Finesse*.
   * Emily sees the playable red 3 and red 4 in Donald's hand, so she also knows that this was a *Patch Finesse*. The red card in her hand is either red 4 or red 5.
