@@ -2993,6 +2993,13 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * *Blaze Discards* do not apply when someone performs a *Gentleman's Discard* or a *Baton Discard* that looks like a *Sarcastic Discard*. In these situations, one of the following is true:
   * The discarding player is making a mistake (as a *Wrong Prompt*).
   * The discarding player is not making a mistake and there is enough past context for the player with the cards to be able to tell the difference.
+* Remember that *Blaze Discards* work with *Finesse Positions*, **not** with slot numbers.
+* For example, in a 3-player game:
+  * Alice discards a red 3 as a *Blaze Discard*.
+  * Bob sees that Cathy has the other copy of the red 3. However, it is on slot 2 instead of on slot 1. (Cathy's hand is completely unclued.) Thus, Bob has to communicate to Cathy that it is actually on her *Second Finesse Position*.
+  * Bob has a clued 5 on his slot 1. Thus, Bob's *Finesse Position* is on slot 2 and his *Second Finesse Position* is on slot 3.
+  * Bob blind-plays his *Second Finesse Position* (slot 3). It is a blue 1 and it successfully plays.
+  * Cathy knows that because Bob blind-played his slot 3, the red 3 must be on her slot 2.
 * Note that it is illegal to perform an *Ambiguous Blaze Discard*. We want to keep *Blaze Discards* as simple as possible.
 * Note that it is illegal to perform a *Layered Blaze Discard* (on either the ignited player or the player holding the matching card). We want to keep *Blaze Discards* as simple as possible.
 
