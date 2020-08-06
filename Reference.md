@@ -3139,7 +3139,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### The Trash Push Inverted Finesse
 
-* First, see the section on the *[Unnecessary Trash Push](#unnecessary-moves-with-known-trash)*.
+* First, see the section on [Unnecessary Moves with Known Trash](#unnecessary-moves-with-known-trash), which defines what a *Unnecessary Trash Push* is.
 * Normally, the *Unnecessary Trash Push* calls for the very next player to blind-play an unrelated card, similar to a *Bluff*.
 * However, if the very next player can see that it could be a *Finesse* through the *Trash Pushed* card, then they should prefer that interpretation. This is similar to how Bob should always prefer a *Finesse* interpretation over a *Bluff* interpretation.
 * For example, in a 4-player game:
