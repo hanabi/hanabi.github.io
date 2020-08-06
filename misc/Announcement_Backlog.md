@@ -203,6 +203,7 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 
 **Muddy Rainbow Choice Tempo Clues (Skipping Over Unplayable Cards)** (by Jeff)
 
+```
 * If known-unplayable cards are touched as part of a *Muddy Rainbow Choice Tempo Clue*, then they should be skipped over.
 * For example, in a 3-player game of the "Muddy Rainbow (6 Suits)" variant:
   * All of the 2's are played on the stacks.
@@ -215,6 +216,7 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
   * A yellow clue would mean to play slot 2 (skipping over the red 5 again).
   * A red clue would mean to play slot 4 (another wraparound).
   * Bob plays slot 4 as the muddy rainbow 3.
+```
 
 **The Slot Finesse** (by Jeff)
 
