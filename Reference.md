@@ -2336,25 +2336,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Donald sees that no-one else has any red cards in their hand. Thus, if this was a *Triple Finesse* on the red 5, then Donald should blind-play the red 4 right now.
   * However, Donald also knows that 5's are valid *Double Bluff* targets. Since number 3 does not match number 5, Donald knows that he should prefer the *Double Bluff* interpretation (that gets two blind-plays) over the *Triple Finesse* interpretation (that gets three blind-plays).
 
-### The Unnecessary Forced Reverse Trash Finesse (A Gentleman's Discard That Looks Like an Unnecessary Reverse Trash Finesse)
-
-* First, see the section on the *[Unnecessary Trash Finesse Chop Move](#level-15---unnecessary-usage-of-complicated-moves)*. Basically, if a *Trash Finesse* is unnecessary, then it also causes a *Chop Move*.
-* This convention also applies to *Reverse Trash Finesses*. If they are unnecessary, then it causes a *Chop Move* in the same way.
-* If a line is chosen that forces a *Gentleman's Discard* to occur (because they have to entertain the possibility of a *Reverse Trash Finesse*), and the blind-playing card could have been clued in some other easier way, then it **still** *Chop Moves* in exactly the same way that an *Unnecessary Reverse Trash Finesse* would.
-* For example, in a 3-player game:
-  * This is a slightly modified version of the example given for the *Reverse Trash Finesse*.
-  * The red 1 is played on the stacks. All of the 2's are played on the other stacks.
-  * Alice clues number 2 to Bob, touching his slot 1 card as a *Play Clue*.
-  * From Bob's perspective, this is probably just a *Play Clue* on the red 2 (which happens to be the final 2 that needs to be played).
-  * However, Bob sees that Cathy also has a red 2 on her *Finesse Position*. That means that this could be a *Reverse Trash Finesse*.
-  * If it is a *Reverse Trash Finesse*, then his 2 is a trash 2 (e.g. green 2). By immediately discarding it, it will prove to Cathy that *she* has a red 2.
-  * Alternatively, if Bob does indeed have the red 2, then he can discard it to perform a *Gentleman's Discard* on Cathy.
-  * Either way, discarding will cover both cases. Bob discards the 2 and it is revealed to be a red 2.
-  * Cathy blind-plays her *Finesse Position* card as red 2 and it successfully plays.
-  * Alice discards.
-  * Bob knows that even though *Gentleman's Discards* are never supposed to cause a *Chop Move*, Alice forced him to discard in exactly the same way as a *Reverse Trash Finesse*. Furthermore, it was possible to cleanly clue the red 2 in Cathy's hand to begin with, and doing so would have been much simpler. Thus, doing the pseudo-*Reverse Trash Finesse* was unnecessary.
-  * Since it was unnecessary, Bob chop moves all the cards to the right of where the red 2 was (slot 2, slot 3, slot 4, and slot 5).
-
 ### The No-Information Double Finesse & The No-Information Double Bluff
 
 * Sometimes, cards are re-clued in order to initiate a *Finesse* or a *Bluff*. Most times, the clue will "fill in" or give extra information to the existing card.
@@ -3137,9 +3118,28 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 * More examples of a *unnecessary* moves can be found [here](examples/Unnecessary_Principles.md).
 
+### The Unnecessary Forced Reverse Trash Finesse (A Gentleman's Discard That Looks Like an Unnecessary Reverse Trash Finesse)
+
+* First, see the section on [Unnecessary Moves with Known Trash](#unnecessary-moves-with-known-trash), which defines what a *Unnecessary Trash Finesse* is. Basically, if a *Trash Finesse* is unnecessary, then it also causes a *Chop Move*.
+* This convention also applies to *Reverse Trash Finesses*. If they are unnecessary, then it causes a *Chop Move* in the same way.
+* If a line is chosen that forces a *Gentleman's Discard* to occur (because they have to entertain the possibility of a *Reverse Trash Finesse*), and the blind-playing card could have been clued in some other easier way, then it **still** *Chop Moves* in exactly the same way that an *Unnecessary Reverse Trash Finesse* would.
+* For example, in a 3-player game:
+  * This is a slightly modified version of the example given for the *Reverse Trash Finesse*.
+  * The red 1 is played on the stacks. All of the 2's are played on the other stacks.
+  * Alice clues number 2 to Bob, touching his slot 1 card as a *Play Clue*.
+  * From Bob's perspective, this is probably just a *Play Clue* on the red 2 (which happens to be the final 2 that needs to be played).
+  * However, Bob sees that Cathy also has a red 2 on her *Finesse Position*. That means that this could be a *Reverse Trash Finesse*.
+  * If it is a *Reverse Trash Finesse*, then his 2 is a trash 2 (e.g. green 2). By immediately discarding it, it will prove to Cathy that *she* has a red 2.
+  * Alternatively, if Bob does indeed have the red 2, then he can discard it to perform a *Gentleman's Discard* on Cathy.
+  * Either way, discarding will cover both cases. Bob discards the 2 and it is revealed to be a red 2.
+  * Cathy blind-plays her *Finesse Position* card as red 2 and it successfully plays.
+  * Alice discards.
+  * Bob knows that even though *Gentleman's Discards* are never supposed to cause a *Chop Move*, Alice forced him to discard in exactly the same way as a *Reverse Trash Finesse*. Furthermore, it was possible to cleanly clue the red 2 in Cathy's hand to begin with, and doing so would have been much simpler. Thus, doing the pseudo-*Reverse Trash Finesse* was unnecessary.
+  * Since it was unnecessary, Bob chop moves all the cards to the right of where the red 2 was (slot 2, slot 3, slot 4, and slot 5).
+
 ### The Trash Push Inverted Finesse
 
-* First, see the section on [Unnecessary Moves with Known Trash](#unnecessary-moves-with-known-trash), which defines what a *Unnecessary Trash Push* is.
+* First, see the section on [Unnecessary Moves with Known Trash](#unnecessary-moves-with-known-trash), which defines what a *Unnecessary Trash Push* is. Basically, if a *Trash Push* is unnecessary, then it also causes an extra blind-play.
 * Normally, the *Unnecessary Trash Push* calls for the very next player to blind-play an unrelated card, similar to a *Bluff*.
 * However, if the very next player can see that it could be a *Finesse* through the *Trash Pushed* card, then they should prefer that interpretation. This is similar to how Bob should always prefer a *Finesse* interpretation over a *Bluff* interpretation.
 * For example, in a 4-player game:
