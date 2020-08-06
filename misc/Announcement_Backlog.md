@@ -6,36 +6,7 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 
 ## The Backlog (General Conventions)
 
-@everyone New conventions:
 
-**The Unnecessary Forced Reverse Trash Finesse (A The Gentleman's Discard that Looks like an Unnecessary Reverse Trash Finesse)**
-
-```
-* First, see the section on the *Unnecessary Trash Finesse Chop Move*. Basically, if a *Trash Finesse* is unnecessary, then it also causes a *Chop Move*.
-* This convention also applies to *Reverse Trash Finesses*. If they are unnecessary, then it causes a *Chop Move* in the same way.
-* If a line is chosen that forces a *Gentleman's Discard* to occur (because they have to entertain the possibility of a *Reverse Trash Finesse*), and the blind-playing card could have been clued in some other easier way, then it **still** *Chop Moves* in exactly the same way that an  *Unnecessary Reverse Trash Finesse* would.
-* For example, in a 3-player game:
-  * This is a slightly modified version of the example given for the *Reverse Trash Finesse*.
-  * The red 1 is played on the stacks. All of the 2's are played on the other stacks.
-  * Alice clues number 2 to Bob, touching his slot 1 card as a *Play Clue*.
-  * From Bob's perspective, this is probably just a *Play Clue* on the red 2 (which happens to be the final 2 that needs to be played).
-  * However, Bob sees that Cathy also has a red 2 on her *Finesse Position*. That means that this could be a *Reverse Trash Finesse*.
-  * If it is a *Reverse Trash Finesse*, then his 2 is a trash 2 (e.g. green 2). By immediately discarding it, it will prove to Cathy that *she* has a red 2.
-  * Alternatively, if Bob does indeed have the red 2, then he can discard it to perform a *Gentleman's Discard* on Cathy.
-  * Either way, discarding will cover both cases. Bob discards the 2 and it is revealed to be a red 2.
-  * Cathy blind-plays her *Finesse Position* card as red 2 and it successfully plays.
-  * Alice discards.
-  * Bob knows that even though *Gentleman's Discards* are never supposed to cause a *Chop Move*, Alice forced him to discard in exactly the same way as a *Reverse Trash Finesse*. Furthermore, it was possible to cleanly clue the red 2 in Cathy's hand to begin with, and doing so would have been much simpler. Thus, doing the pseudo-*Reverse Trash Finesse* was unnecessary.
-  * Since it was unnecessary, Bob chop moves all the cards to the right of where the red 2 was (slot 2, slot 3, slot 4, and slot 5).
-```
-
-**The Pestilent Finesse** (by Florrat)
-
-```
-* First, see the section on the *[Pestilent Double Bluff](#pestilent-double-bluff)*.
-* In the *Pestilent Double Bluff* example above, Cathy has to blind-play her *Finesse Position* card in order to "heal" the situation with Bob.
-* However, if Cathy sees that someone else on the team has the red 2 in their *Finesse Position*, then Cathy can see that it is a *Pestilent Finesse* instead of a *Pestilent Bluff*. Cathy can simply let the person with the actual red 2 blind-play and that will "heal" the problem in the exact same way.
-```
 
 **The Pestilent Triple Bluff** (by asaelr)
 
@@ -51,15 +22,6 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
   * Donald knows that Emily will go on to incorrectly think that her red 4 is a blue 4 (because Alice's clue looks like a *Double Finesse*). Thus, Alice's clue is quite strange.
   * Alice must be intending for Donald to also blind-play his *Finesse Position* in order to "heal" the problem. Donald blind-plays his *Finesse Position*. It is a green 2 and it successfully plays.
   * At first, Emily thought that her 4 was the blue 4, in order to match the blue 2 and the blue 3. However, if that was the case, then Donald would not have blind-played anything. Emily knows that this must be a *Pestilent Triple Bluff*, and her 4 is any other 4 than blue 4 (because Donald blind-played) and green 4 (because Bob would have waited for Donald).
-```
-
-**"Unnecessary" Moves** (by Floriman)
-
-```
-* In the doc, there is no longer a separate section for the "unnecessary" version of each individual move.
-* Instead, there is instead a single "unnecessary" section that explains that you can do an "unnecessary" version of any move that you want.
-* An "unnecessary" version of a move will either get one extra card blind-played **or** one or more cards *Chop Moved*, depending on the situation.
-* See the "Unnecessary Usage of Complicated Moves" section of the doc for more details.
 ```
 
 **The Blaze Discard**
