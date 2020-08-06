@@ -3374,6 +3374,37 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Donald also knows that this cannot be a *Self Finesse* or *Self Bluff*. (*Self Bluffs* with color are explicitly illegal.)
   * This must be an *Selfish Focus Inversion*, so Donald marks his right-most card as red 2 for later. The other red card in his hand can be red 3, red 4, or red 5. Donald discards.
 
+### The Blaze Discard (A Gentleman's Discard or Baton Discard That Promises the Wrong Slot)
+
+* Normally, if a player performs a *Gentleman's Discard* and the other card is **not** on *Finesse Position*, it could one of two things:
+  1) If the card on *Finesse Position* is itself playable right now, then it would be a *Layered Gentleman's Discard*.
+  2) If the card on *Finesse Position* is not playable right now, then it is an emergency situation or a player is making a mistake.
+* Alternatively, if a player performs a *Baton Discard* and the other card is **not** on *Finesse Position*, then it is an emergency situation or a player is making a mistake.
+* If this is the case, and it is **not** an emergency situation and the player is **not** making a mistake, then the player who is performing the weird *Gentleman's Discard* (or *Baton Discard*) must be trying to communicate something extra.
+* In this situation, the discarding player intends for the very next player to blind-play the *Finesse Position* that **matches the true *Finesse Position*** of the other card. This is called a *Blaze Discard* because it "ignites" the next player's hand to fix the problem.
+* For example, in a 3-player game:
+  * All 1's are played on the stacks.
+  * Alice discards a known red 2 as a *Gentleman's Discard*.
+  * Bob sees that Cathy's hand is completely unclued and is as follows, from left to right: `red 1 (trash), red 2, green 1 (trash), green 1 (trash), blue 1 (trash)`
+  * Bob knows that normally, the *Gentleman's Discard* promises that the other copy of the red 2 is on *Finesse Position*. But Alice is lying to Cathy, because she will go on to misplay the red 1 as the red 2.
+  * Bob knows that it would be pointless for Alice to perform a *Gentleman's Discard* and then for Bob to give a *Fix Clue*, as that would waste a clue. So, if Alice is not making a mistake, she must be trying to communicate something extra.
+  * Bob knows that this must be a *Blaze Discard* and he must blind-play the *Finesse Position* that matches the *Finesse Position* of the other card. In this case, since the red 2 is on Cathy's *Second Finesse Position* (slot 2), Bob must play his *Second Finesse Position* (slot 2).
+  * Bob blind-plays slot 2. It is a blue 1 and it successfully plays.
+  * From Cathy's perspective, she first suspects that some kind of *Ejection* is going on, since Bob blind-played his *Second Finesse Position*. However, since the previous action was a *Gentleman's Discard*, Alice knows that this must be a *Blaze Discard*. In other words, Bob was just blind-playing his *Second Finesse Position* to communicate to Cathy that she should play her *Second Finesse Position* instead of her *First Finesse Position*.
+  * Cathy blind-plays the red 2 from slot 2.
+* *Blaze Discards* do not apply when someone performs a *Gentleman's Discard* or a *Baton Discard* that looks like a *Sarcastic Discard*. In these situations, one of the following is true:
+  * The discarding player is making a mistake (as a *Wrong Prompt*).
+  * The discarding player is not making a mistake and there is enough past context for the player with the cards to be able to tell the difference.
+* Remember that *Blaze Discards* work with *Finesse Positions*, **not** with slot numbers.
+* For example, in a 3-player game:
+  * Alice discards a red 3 as a *Blaze Discard*.
+  * Bob sees that Cathy has the other copy of the red 3. However, it is on slot 2 instead of on slot 1. (Cathy's hand is completely unclued.) Thus, Bob has to communicate to Cathy that it is actually on her *Second Finesse Position*.
+  * Bob has a clued 5 on his slot 1. Thus, Bob's *Finesse Position* is on slot 2 and his *Second Finesse Position* is on slot 3.
+  * Bob blind-plays his *Second Finesse Position* (slot 3). It is a blue 1 and it successfully plays.
+  * Cathy knows that because Bob blind-played his slot 3, the red 3 must be on her slot 2.
+* Note that it is illegal to perform an *Ambiguous Blaze Discard*. We want to keep *Blaze Discards* as simple as possible.
+* Note that it is illegal to perform a *Layered Blaze Discard* (on either the ignited player or the player holding the matching card). We want to keep *Blaze Discards* as simple as possible.
+
 ### The No-Context Double Gentleman's Discard
 
 * Normally, when someone performs a *Gentleman's Discard*, it only promises the exact other copy of the card, even if the discarded card could have been multiple different things. The reason for this is it allows for asymmetric reads.
