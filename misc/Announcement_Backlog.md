@@ -6,7 +6,7 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 
 ## The Backlog (General Conventions)
 
-
+@everyone New conventions:
 
 **The Pestilent Triple Bluff** (by asaelr)
 
