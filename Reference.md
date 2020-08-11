@@ -3449,7 +3449,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * If a clue is given to a chop card of a player, and that player has one or more known-playable cards to play, then it is treated as a *Play Clue* on that card.
 * This is called a *Loaded Play Clue* to distinguish it from a more ordinary *Play Clue*, because the player receiving the clue is currently "loaded" with a play.
 * *Loaded Play Clues* **do not** apply in the *Early Game* - they are only "turned on" in the *Mid-Game*.
-* *Loaded Play Clues* **do not** apply in *Double Discard* situations.
+* *Loaded Play Clues* **do not** apply in *Double Discard* situations. (Even though *Double Discard Avoidance* is "turned off" in hard variants in general, players are still allowed to avoid *Double Discarding* by giving *Early Saves* to cards.)
 
 ### Loaded Play Clues in Hard Variants (Part 2)
 
