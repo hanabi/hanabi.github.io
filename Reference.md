@@ -1750,7 +1750,7 @@ Priority does not always apply. Some common exceptions are listed below.
 
 ### The Elimination Blind-Play
 
-* First, see the section on [Discord Elimination](#discard-elimination--elimination-notes).
+* First, see the section on [Discard Elimination](#discard-elimination--elimination-notes).
 * In the example for *Discard Elimination*, the team clued the second copy of the red 4 directly. But in other situations, the team will **not** need to clue anything. The player with the *Elimination Notes* can eliminate the possibilities one by one. When there is only one possibility left, they can blind-play the card as an *Elimination Blind-Play*.
 * For example, in a 4-player game:
   * Red 3 is played on the stacks.
