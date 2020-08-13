@@ -678,8 +678,6 @@ Note that in this user interface, players are **not** holding their hands like t
 
 ### The Layered Finesse
 
-* Normally, if a red card is clued and someone blind-plays a blue card, it would be some kind of *Bluff*. However, we only allow players to perform a *Bluff* on the very next player. (This is referred to as sitting in *Bluff Seat*.)
-* It follows from this that if an unrelated card is blind-played, and it cannot be a *Bluff*, then it must be a special kind of *Finesse*.
 * Normally, a *Finesse* promises the exact copy of the card on *Finesse Position*. However, as long as all of the cards leading to the card are playable, you can still promise the exact copy of the card. We do **not** consider this to be a "lie", since the blind-playing player does indeed have the true copy of the card.
 * We call this a *Layered Finesse* because the intended *Finesse* blind-play target is "layered" behind other playable cards.
 
@@ -693,7 +691,7 @@ Note that in this user interface, players are **not** holding their hands like t
   * Cathy knows that this is a *Reverse Finesse* and that she has the green 1. Cathy blind-plays her *Finesse Position* card and it is a blue 1 instead. Cathy gasps in surprise.
   * Alice plays the yellow 1.
   * Bob knows that Cathy must have been trying to blind-play a green 1. Thus, he must have the green 2, and Alice did indeed perform a *Layered Finesse*. Bob clues number 5 to Cathy as a *5 Save*.
-  * Cathy was surprised that she played the blue 1 instead of the green 1. Could this be a *Bluff*? No, because Alice is not in *Bluff Seat* for Cathy, meaning that Alice is **not** allowed to bluff Cathy. Thus, this must be a *Layered Finesse* and Cathy must really have the green 1. Cathy plays her *Second Finesse Position* and it is the green 1.
+  * Cathy was surprised that she played the blue 1 instead of the green 1. This must be a *Layered Finesse* and Cathy must really have the green 1. Cathy plays her *Second Finesse Position* and it is the green 1.
 
 ### The Clandestine Finesse
 
@@ -715,7 +713,6 @@ Note that in this user interface, players are **not** holding their hands like t
   * Alice also discards.
   * Bob was surprised that he played the red 2, but now knows that it was a *Clandestine Finesse* instead of a normal *Finesse*. He blind-plays his slot 2 and it is the purple 2 and successfully plays. (Bob knows that if he did not do this, then Cathy would go on to misplay purple 3 as red 3.)
   * Cathy plays purple 3.
-* Since we are allowed to lie in *Bluff Seat*, doing a *Layered Finesse* in *Bluff Seat* typically won't work. Instead of getting a big layered chain of cards, it will be interpreted as a *Bluff*, and only one card will be played. However, note that a *Clandestine Finesses* can get around this restriction, because it induces a potential misplay. The blind-playing player **must** continue to blind-play cards, or else the player receiving the clue will assume that the *Finesse* is "over" and will play the clued card.
 
 ### The Stacked Finesse
 
@@ -924,7 +921,7 @@ Note that in this user interface, players are **not** holding their hands like t
 * In general, 3's are pretty high value, and 4's are pretty low value.
 * But combined with this, cards that are *one-away-from-playable* are pretty high value, and cards that are two-away (or more) are pretty low value.
 * Thus, in some situations, a *one-away-from-playable* 4 may be more valuable than a *two-away-from-playable* 3.
-* According to our conventions, it is illegal to clue a *one-away-from-playable* card as the focus of the clue without it being some kind of special move like a *Finesse* or *Bluff*. However, sometimes we still want to "save" these cards. Thus, they are prime targets for indirect saves like the *Trash Chop Move* or the *5's Chop Move*.
+* According to our conventions, it is illegal to clue a *one-away-from-playable* card as the focus of the clue without it being some kind of special move like a *Finesse*. However, sometimes we still want to "save" these cards. Thus, they are prime targets for indirect saves like the *Trash Chop Move* or the *5's Chop Move*.
 * However, in most cases, *Chop Moving* the valuable card just won't be possible. So in general, you should try to construct lines that protect high-value cards from being discarded for as long as possible.
 
 ### Blind-Playing Chop Moved Cards
@@ -1193,14 +1190,7 @@ Note that in this user interface, players are **not** holding their hands like t
 * This is an example of a *Certain Finesse* - it is similar to the *Sarcastic Finesse* above, but the "blind" card was potentially duplicated instead of the clued card.
 * In this situation, if Alice really has the red 3, Cathy is allowed to blind-discard their *Finesse Position* card. This is called a *Certain Discard*, because Cathy can be certain that it is exactly red 3.
 * A separate way to explain this convention is that everyone agrees that performing a *Layered Finesse* on a card that could potentially be clued in your own hand is illegal. So, everyone can be certain that they can safely blind discard a card to pass it back to someone who potentially duplicated. (*Layered Finesses* are an advanced type of *Finesse* that was explained above.)
-* Note that players are **only allowed** to do a *Certain Discard* if they know they have not been *Bluffed*. This means that *Certain Finesses* **cannot be performed** from *Bluff Seat*.
-* For example, in a 3-player game:
-  * Red 2 and blue 3 are played on the stacks. Blue 4 is in the discard pile.
-  * Alice has an unknown 3 in her hand that happens to be the red 3.
-  * Alice clues number 4 to Cathy, touching a red 4 as a *Play Clue*.
-  * Bob knows that Alice could be trying to perform a *Finesse* on a red 3. Normally, he would blind-discard his *Finesse Position* card as a *Certain Discard* in order to pass this card back to Alice.
-  * However, Bob **also** knows that you are not allowed to perform a *Certain Discard* from *Bluff Seat*. In other words, there are other possibilities for this move - it could also be a *Bluff* on the blue 4. If he blind-discarded, that could "kill" the blue stack, since the other copy of blue 4 is already discarded.
-  * Bob blind-plays his *Finesse Position* card and it is the blue 4. Good thing he did not discard the card!
+* Note that players are **only allowed** to do a *Certain Discard* if they know they have not been *Bluffed*. This means that *Certain Finesses* **cannot be performed** from *Bluff Seat*. (*Bluffs* are an advanced kind of move that is covered later on.)
 
 ### The Composition Finesse
 
@@ -1296,44 +1286,69 @@ Note that in this user interface, players are **not** holding their hands like t
 * With the previous section in mind, let's switch examples and assume that Alice did a clue and then Bob blind-played a card.
 * So secondly, we can consider the case of Bob **after** he has blind-played a card, which also extends to the rest of the team. How does everyone know whether Alice did a *Finesse* or a *Bluff* on Bob?
 * The way to find out is to look at **whether the card that blind-played "matches" the clue that was given**. If the clue matches, then it is a *Finesse*. If the clue did not match, then it is a *Bluff*.
+  * A "matching" card is defined as a card that could start a *Finesse* towards the card that was clued.
 * If it is ambiguous whether or not the card matches, then the team should **always assume a *Bluff* over a *Finesse***. (Note that this is the **opposite** of the precedence in part 1!)
 * Example 1 (color match):
-  * Blue 1 is played on the stacks.
-  * Alice clues Cathy about a blue card.
-  * Bob blind-plays a blue 2.
-  * This must be a *Finesse*, because **blue matches blue**. So Cathy should think that she has the blue 3.
-  * This is a textbook *Finesse*; you can't get any more basic than this.
+  * Red 1 is played on the stacks.
+  * Alice clues Cathy red, touching a red card as a *Play Clue*.
+  * Bob blind-plays a red 2.
+  * This must be a *Finesse*, because **red matches red**. So Cathy should think that she has the red 3.
+  * This is a textbook *Finesse*; it can't get any more basic than this.
 * Example 2 (color mismatch):
-  * Blue 1 is played on the stacks.
-  * Alice clues Cathy about a blue card.
-  * Bob blind-plays a red 1.
-  * This must be a *Bluff*, because **red does not match blue**. So Cathy should think that she has the *one-away-from-playable* blue card, blue 3.
-  * This is a textbook *Bluff*; you can't get any more basic than this.
-* Example 3 (color match with rainbow):
-  * This is a game with a rainbow suit. (The other examples in this section assume a "No Variant" game.)
-  * Rainbow 1 is played on the stacks.
-  * Alice clues Cathy about a blue card.
-  * Bob blind-plays a rainbow 2.
-  * This must be a *Finesse*, because **blue matches blue** (rainbow cards match every color). So Cathy should think that she has the rainbow 3.
-* Example 4 (rank match):
-  * Blue 2 is played on the stacks.
-  * Alice clues Cathy about a 4.
-  * Bob blind-plays the blue 3.
-  * This must be a *Finesse*, because **3 matches 4**. So Cathy should think that she has the blue 4.
-* Example 5 (rank mismatch):
-  * Blue 2 is played on the stacks.
-  * Alice clues Cathy about a 4.
-  * Bob blind-plays the red 1.
-  * This must be a *Bluff*, because **1 does not match 4**. So Cathy should think that she has the *one-away-from-playable* 4, the blue 4.
+  * Red 1 is played on the stacks.
+  * Alice clues Cathy red, touching a red card as a *Play Clue*.
+  * Bob blind-plays a blue 1.
+  * This must be a *Bluff*, because **blue does not match red**. So Cathy should think that she has the *one-away-from-playable* red card, the red 3.
+  * This is a textbook *Bluff*; it can't get any more basic than this.
+* Example 3 (rank match):
+  * Red 2 is played on the stacks.
+  * Alice clues Cathy number 4, touching a 4 as a *Play Clue*.
+  * Bob blind-plays the red 3.
+  * This must be a *Finesse*, because **3 matches 4**. So Cathy should think that she has the red 4.
+* Example 4 (rank mismatch):
+  * Red 2 is played on the stacks.
+  * Alice clues Cathy number 4, touching a 4 as a *Play Clue*.
+  * Bob blind-plays the blue 1.
+  * This could be a *Triple Finesse* (on blue 1 + blue 2 + blue 3 into blue 4) or it could be a *Bluff* (on just blue 1 into red 4).
+  * However, this must be a *Bluff*, because **1 does not match 4**. So Cathy should think that she has the *one-away-from-playable* 4, the red 4.
   * The point of example 5 is to show that because a 2 happens to be played on the stacks, the blue 4 is a one-away-from-playable card and therefore becomes a legal *Bluff* target.
-* Example 6 (rank mismatch where a *Bluff* is impossible):
+* Example 5 (rank mismatch where a *Bluff* is impossible):
   * This is a 4-player game.
   * Nothing is played on the stacks.
-  * Alice clues Donald about a 4.
+  * Alice clues Donald number 4, touching a 4 as a *Play Clue*.
   * Bob blind-plays the red 1.
   * Cathy discards.
-  * This **cannot** be a *Bluff*, because there are no *one-away-from-playable* 4's. So even though 1 does not match 4, this must be a *Finesse*, because Alice is not allowed to perform a *Bluff* with any card that she wants.
+  * Donald needs to evaluate whether or not Alice's clue is a *Finesse* or a *Bluff*. However, he knows that it **cannot** be a *Bluff*, because there are no *one-away-from-playable* 4's. So even though **1 does not match 4**, this must be a *Finesse*, because Alice is not allowed to perform a *Bluff* with any card that she wants.
   * Donald does not see any other red cards in Bob's hand. So Donald should think that he has the red 4, because that would match the blind-play of a red 1. Subsequently, Donald must have red 2 on his *Finesse Position* and red 3 on his *Second Finesse Position*.
+* Example 6 (rank match where a *Finesse* is impossible):
+  * Red 2 and blue 2 is played on the stacks.
+  * Alice clues Cathy number 4, touching a 4 as a *Play Clue*.
+  * Bob blind-plays the blue 3.
+  * Normally, Cathy would think that this is a *Finesse*, because **3 matches 4**, meaning that Cathy's 4 is the blue 4.
+  * However, Cathy notices that her 4 has a negative blue clue on it. Thus, it cannot be the blue 4.
+  * This must instead be a *Bluff*. Cathy marks her 4 as the red 4 (since red 4 is the only other *one-away-from-playable* 4).
+* Example 7 (simultaneous color match and rank mismatch):
+  * This is a 4-player game.
+  * Nothing is played on the stacks.
+  * Aice clues Donald red, touching a red 3 as a play clue.
+  * Bob blind-plays the red 1.
+  * Cathy notices that Donald's red card has a negative 2 clue on it. This means that Donald will not go on to misplay the card as the red 2.
+  * Cathy needs to evaluate whether or not Alice's clue is a *Finesse* or a *Bluff*. If this is a *Double Finesse*, then Cathy needs to blind-play the red 2. If this is a *Bluff*, then Alice only intended for Bob to blind-play.
+  * Cathy knows that since **red matches red**, this must be a *Double Finesse*, so Cathy blind-plays the red 2 into the red 3.
+* Example 8 (color match with rainbow):
+  * This is a game with a rainbow suit. (The other examples in this section assume a "No Variant" game.)
+  * Rainbow 1 is played on the stacks.
+  * Alice clues Cathy red, touching a red card as a *Play Clue*.
+  * Bob blind-plays a rainbow 2.
+  * This must be a *Finesse*, because **red matches red** (rainbow cards match every color). So Cathy should think that she has the rainbow 3.
+* Example 9 (color match with rainbow where a *Finesse* is impossible):
+  * This is a game with a rainbow suit. (The other examples in this section assume a "No Variant" game.)
+  * Rainbow 1 and red 2 are played on the stacks.
+  * Alice clues Cathy red, touching a red card as a *Play Clue*.
+  * Bob blind-plays a rainbow 2.
+  * Normally, Cathy would think that this is a *Finesse*, because **red matches red** (rainbow cards match every color), meaning that Cathy's 4 is the rainbow 4.
+  * However, Cathy notices that her 4 has a negative blue clue on it. Thus, it cannot be the rainbow 4.
+  * This must instead be a *Bluff*. Cathy marks her 4 as the red 4 (since the red 4 is the *one-away-from-playable* red card).
 
 ### Bluffs Through Already-Clued Cards
 
