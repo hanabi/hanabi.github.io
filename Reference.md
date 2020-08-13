@@ -1330,7 +1330,7 @@ Note that in this user interface, players are **not** holding their hands like t
 * Example 7 (simultaneous color match and rank mismatch):
   * This is a 4-player game.
   * Nothing is played on the stacks.
-  * Aice clues Donald red, touching a red 3 as a play clue.
+  * Alice clues Donald red, touching a red 3 as a play clue.
   * Bob blind-plays the red 1.
   * Cathy notices that Donald's red card has a negative 2 clue on it. This means that Donald will not go on to misplay the card as the red 2.
   * Cathy needs to evaluate whether or not Alice's clue is a *Finesse* or a *Bluff*. If this is a *Double Finesse*, then Cathy needs to blind-play the red 2. If this is a *Bluff*, then Alice only intended for Bob to blind-play.
