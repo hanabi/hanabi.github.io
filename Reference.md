@@ -1286,8 +1286,7 @@ Note that in this user interface, players are **not** holding their hands like t
 * With the previous section in mind, let's switch examples and assume that Alice did a clue and then Bob blind-played a card.
 * So secondly, we can consider the case of Bob **after** he has blind-played a card, which also extends to the rest of the team. How does everyone know whether Alice did a *Finesse* or a *Bluff* on Bob?
 * The way to find out is to look at **whether the card that blind-played "matches" the clue that was given**. If the clue matches, then it is a *Finesse*. If the clue did not match, then it is a *Bluff*.
-  * A "matching" card is defined as a card that could start a *Finesse* towards the card that was clued.
-* If it is ambiguous whether or not the card matches, then the team should **always assume a *Bluff* over a *Finesse***. (Note that this is the **opposite** of the precedence in part 1!)
+* If it is ambiguous whether or not the card matches, then the team should **assume a *Bluff* over a *Finesse***. (Note that this is the **opposite** of the precedence in part 1!)
 * Example 1 (color match):
   * Red 1 is played on the stacks.
   * Alice clues Cathy red, touching a red card as a *Play Clue*.
@@ -1327,7 +1326,7 @@ Note that in this user interface, players are **not** holding their hands like t
   * Normally, Cathy would think that this is a *Finesse*, because **3 matches 4**, meaning that Cathy's 4 is the blue 4.
   * However, Cathy notices that her 4 has a negative blue clue on it. Thus, it cannot be the blue 4.
   * This must instead be a *Bluff*. Cathy marks her 4 as the red 4 (since red 4 is the only other *one-away-from-playable* 4).
-* Example 7 (simultaneous color match and rank mismatch):
+* Example 7 (color match and rank mismatch):
   * This is a 4-player game.
   * Nothing is played on the stacks.
   * Alice clues Donald red, touching a red 3 as a play clue.
