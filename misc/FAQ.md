@@ -156,11 +156,19 @@ Yes.
 
 <br />
 
-### A card has a positive number 3 clue. Later, it is clued again with red. Is it a *Finesse* or a *Bluff* after a red 1 is blind-played?
+### A card has a positive number 3 clue on it. It is clued again with red, which fills in the card. A red 1 blind-plays. Is it a *Finesse* or a *Bluff*?
 
 * It does not matter if the card is "brand new" or if it has a clue on it already.
 * All that matters is if the clue matches the blind-play.
 * Here, a red 1 matches a red color clue, so it is a *Finesse*.
+
+<br />
+
+### A card has a positive red clue on it. It is clued again with number 3, which fills in the card. A red 1 blind-plays. Is it a *Finesse* or a *Bluff*?
+
+* It does not matter if the card is "brand new" or if it has a clue on it already.
+* All that matters is if the clue matches the blind-play.
+* Here, a red 1 does not match a number 3 clue, so it is a *3 Bluff*.
 
 <br />
 
