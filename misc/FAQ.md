@@ -1,6 +1,6 @@
 # Frequently Asked Questions (FAQ)
 
-Written by Valetta6789.
+*Written by Valetta6789*
 
 <br />
 
