@@ -351,6 +351,6 @@ No. You should hold on to it for later. It could be any other useful pink card.
 
 ### What takes precedence for null cards: *Play Clues* or *Null Finesses*?
 
-*Null Finesses*.
+*Null Finesses*. (Otherwise, it would be impossible to perform a *Reverse Null Finesse*.)
 
 <br />
