@@ -156,7 +156,7 @@ Yes.
 
 <br />
 
-### A card has a positive number 3 clue. Later, it is clued again with red. A red 1 Is it a *Finesse* or a *Bluff or Finesse after blind-playing red 1?
+### A card has a positive number 3 clue. Later, it is clued again with red. Is it a *Finesse* or a *Bluff* after a red 1 is blind-played?
 
 * It does not matter if the card is "brand new" or if it has a clue on it already.
 * All that matters is if the clue matches the blind-play.
