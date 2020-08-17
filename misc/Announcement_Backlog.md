@@ -35,6 +35,14 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
   * At first, Emily thought that her 4 was the blue 4, in order to match the blue 2 and the blue 3. However, if that was the case, then Donald would not have blind-played anything. Emily knows that this must be a *Pestilent Triple Bluff*, and her 4 is any other 4 than blue 4 (because Donald blind-played) and green 4 (because Bob would have waited for Donald).
 ```
 
+@everyone Variant-specific conventions:
+
+**Throw It in a Hole** (change)
+
+```
+* Throw It in a Hole variants are now considered to be a hard, meaning that Loaded Play Clues are "turned on" and so forth.
+```
+
 <br />
 
 ## The Backlog (Variant-Specific Conventions)
@@ -252,12 +260,6 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
   * Cathy knows that this must be a *Slot Double Bluff*, so she blind-plays her *Finesse Position* as any playable card. It is yellow 2 and it successfully plays.
   * Donald knows that from the sequence of events that Alice performed a *Slot Double Bluff*, so the 4 clue is to be treated as a *Positional Clue* (e.g. the 4 in his hand might be trash).
   * Bob sees that since Cathy blind-played her *Finesse Position* card for "no reason", he must not actually have the null 2 in his hand after all. Bob can reason that Alice performed a *Slot Double Bluff*.
-```
-
-**Throw It in a Hole** (change)
-
-```
-* Throw It in a Hole variants are now considered to be a hard, meaning that Loaded Play Clues are "turned on" and so forth.
 ```
 
 **Bubblegum Wraparound**
