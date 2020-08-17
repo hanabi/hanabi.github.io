@@ -280,6 +280,7 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 **Bubblegum Wraparound**
 
 ```
+* This convention applies to any variant with a pink suit.
 * When players violate *Pink Promise* on an unplayable pink card, it usually indicates a *Bubblegum Prompt* or a *Bubblegum Finesse* (with the rank corresponding to the slot number to play).
 * In 4-player and 5-player games, there are only 4 cards in the hand. If a player does a *Bubblegum Finesse* with a 5, then that would be nonsensical, since there is no slot 5.
 * Similarly, in a 6-player game, there are only 3 cards in the hand. If a player does a *Bubblegum Finesse* with a 4, then that would be nonsensical, since there is no slot 4.
@@ -290,7 +291,18 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 **Bubblegum Slides**
 
 ```
+* This convention applies to any variant with a pink suit.
 * If a *Bubblegum Prompt* or a *Bubblegum Finesse* is telling a player to play a card in a slot that has negative pink, then that is nonsensical.
 * In this situation, if there is no other possible interpretation for the clue other than a *Bubblegum Prompt* or a *Bubblegum Finesse*, and it is unlikely for the cluer to be making a mistake, then the target slot should "slide" to the right.
 * If the slot immediately to the right is also impossible to be a pink card, then it should continue to slide right until it finds a pink card, wrapping around to the other side of the hand if necessary.
+```
+
+**Order Chop Move Change**
+
+```
+* This convention applies to the "Dual-Color (6 Suits)" variant.
+* Normally, *Order Chop Moves*, are "turned off" when two different 1's have different amounts of positive clues on them.
+  * For example, Order Chop Moves would be "turned off" in the situation where Alice has one 1 has a positive 1 clue on it, and Alice has another 1 with a positive 1 clue on it and a positive red clue on it.
+* In the "Dual Color (6 Suit)" variant, *Order Chop Moves* are never turned off when there are two different 1's, regardless of the amount of positive color clues or negative color clues on them.
+* The only exception is when the exact identity of the 1 is known (e.g. from being completely "filled in"). In this situation, *Order Chop Moves* are turned off.
 ```
