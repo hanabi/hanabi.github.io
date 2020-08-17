@@ -1559,7 +1559,7 @@ Note that in this user interface, players are **not** holding their hands like t
 
 ### The Critical 4 Bluff
 
-* Building on the *3 Bluffs* convention, we also agree that it is possible for a card that initiates a *Bluff* to be a copy of any of the 4s that are currently in the discard pile.
+* Building on the *3 Bluffs* convention, we also agree that it is possible for a card that initiates a *Bluff* to be a copy of any of the 4s that are currently in the discard pile, but only if **a color clue** is used.
 * For example, in a 3-player game:
   * Nothing is played on the stacks. Red 4 is currently in the discard pile.
   * Alice clues Cathy red, touching a red 4 as a *Play Clue*.
@@ -1571,9 +1571,9 @@ Note that in this user interface, players are **not** holding their hands like t
 ### Legal Bluff Targets
 
 * The full list of "legal *Bluff* targets" is as follows:
-  * any *one-away-from-playable* card
-  * any 3
-  * any critical 4
+  * any *one-away-from-playable* card (with either color or number)
+  * any 3 (with either color or number)
+  * any critical 4 (only with a color clue)
 
 ### Context Clues & The Stale 1's Clue
 
