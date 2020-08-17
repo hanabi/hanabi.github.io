@@ -2485,11 +2485,10 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * All of the cards touched in this way are promised to be trash.
 * Additionally, an [*Unnecessary Trash Bluff*](#level-15---unnecessary-usage-of-complicated-moves) can sometimes effectively be a different kind of *Trash Double Bluff*, which is explained in the relevant section.
 
-### The Patch Finesse (Hidden Form)
+### The Patch Finesse
 
 * Sometimes, a player will initiate a *Layered Finesse* on a card that is behind a *one-away-from-playable* card. Normally, this would be quite bad, as the player would blind-play the *one-away-from-playable* card, and it would misplay.
 * However, since the *Finesse* target is considered unplayable from the rest of the team, they can be tricked into blind-playing the exact card that makes the one-away card actually playable. This "patches" the *Layered Finesse* problem, and now the layer can be fully unwrapped without issues.
-* The hidden form of the *Patch Finesse* is when the person patching has no idea that a *Patch Finesse* is occurring.
 * For example, in a 5-player game:
   * All of the 1's are played on the stacks.
   * Alice clues red to Emily, which is a *Play Clue* on a red 4.
@@ -2502,39 +2501,12 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Donald tries to blind-play red 2 and it is instead the blue 3. Donald now knows that this is a *Patch Finesse*.
   * Emily sees the playable red 2 and red 3 in Donald's hand, so she also knows that this was a *Patch Finesse*. The red card in her hand is either red 3 or red 4.
   * We skipped over Bob - why did he discard? Normally, Bob should think the same thing as Cathy - that he has both the red 2 and the red 3. However, Bob can look ahead and see that a *Patch Finesse* could occur, so he has to give precedence to that interpretation and wait to see what will happen. He should try to blind-play the red 2 himself on the next round if no other blind-plays occur.
-* See the section below for important *Patch Finesse* stipulations.
 
-### The Patch Finesse (Strong Form)
+### The Known Patch Finesse (Illegal)
 
-* The "problem" in The *Hidden Patch Finesse* is not known to person who is patching - they just blind-play and everything works out.
-* But what if a *Layered Finesse* occurs that targets a card in someone's hand that is behind an unplayable card, and the other copy of the *Finesse* target is in the trash? In this example, everyone knows exactly who the *Layered Finesse* is on, and everyone knows that a misplay will certainly occur.
-* In this situation, if there are **any other possible interpretations at all**, then someone should give a *Fix Clue*.
-* If there are **no other possible interpretations**, and the "problem" card is exactly *one-away-from-playable*, then it is known to be a *Patch Finesse*.
-* For example, in a 5-player game:
-  * All of the 3's are played on the stacks.
-  * The team is currently at 2 clues.
-  * Alice clues red to Emily, which is a *Play Clue* on a red 5. The team now has 1 clue left.
-  * Bob knows that this must be a *Finesse* on the red 3 and the red 4 (in order to make the red 5 playable).
-  * Bob sees one copy of red 3 in the discard pile and one copy in Donald's hand, so he knows that the *Finesse* must be directed at Donald.
-  * However, Bob sees that Donald has a blue 4 on his *Finesse Position*, followed by a red 3 and a red 4. Thus, this cannot be a *Finesse* directed at Donald.
-  * Normally, Bob would now assume that this is a *Known Bluff* on him and that Alice wants him to blind-play his *Finesse Position*. However, Bob also notices that Cathy happens to have a blue 3 on her *Finesse Position*. Bob realizes that if he uses the last clue, he can force Cathy to blind-play as a *Strong Patch Finesse*.
-  * Bob clues number 5 to Cathy as a *5 Save*, using the last clue. Bob knows that this is what Alice expected him to do, and this was her plan all along.
-  * Cathy knows that Alice's clue cannot be a *Bluff*, because Bob did not blind-play anything. Thus, it must be a *Finesse*.
-  * Cathy sees one copy of red 3 in the discard pile and one copy in Donald's hand, so she knows that the *Finesse* must be directed at Donald.
-  * Cathy sees that Donald is going to misplay the blue 4 as the red 3.
-  * Cathy cannot give a *Fix Clue* to Donald because the team is currently at 0 clues.
-  * Cathy knows that if Alice and Bob are not making any mistakes, then they would not intentionally set up Donald to misplay a card.
-  * Thus, since there are no other possible interpretations for what is happening, Cathy knows that this must be a *Strong Patch Finesse*. Cathy blind-plays her *Finesse Position* card as a known blue 3.
-  * Donald is very surprised that Cathy blind-played a card, but he trusts everyone on the team, so he still assumes he has the red 3. Donald tries to blind-play the red 3 and it is instead the blue 4. Donald now knows that this was a *Patch Finesse*.
-  * Emily sees the playable red 3 and red 4 in Donald's hand, so she also knows that this was a *Patch Finesse*. The red card in her hand is either red 4 or red 5.
-* See the section below for important *Patch Finesse* stipulations.
-
-### Patch Finesse Stipulations
-
-* Expert players commonly perform *Finesses* with a *Lie Component* (and *Layered Finesses* with a *Lie Component*) in order to solve various tricky situations that come up. Since *Patch Finesses* are extremely rare, players should generally assume a more-ordinary *Lie Component* that requires a *Fix Clue* instead of a *Patch* blind-play.
-* Additionally, players should be aware of the more-ordinary *Known Bluff* and *Out-of-Position Bluff*. These two moves are much more common than a *Patch Finesse*, and they should take precedence over a *Patch Finesse* interpretation.
-* The *Patch Component* of a *Patch Finesses* **must** be patched before the problem card has a chance of being misplayed. (In other words, blind-playing players are not supposed to entertain *Reverse Patch Finesses*.)
-* It is expressly illegal to perform a *Patch Finesse* that contains two *Patch Components*.
+* Legal *Patch Finesses* are **always hidden**, meaning that from the person who is blind-playing a card to "patch" will **never** know that it is a *Patch Finesse* until **after** they blind-play.
+* In other words, if Alice performs a legal *Patch Finesse*, then **no-one else on the team has to even know that the *Patch Finesse* convention exists** - everything will just work out properly because everyone will just blind-play cards like any other ordinary *Layered Finesse*.
+  * The exception is when it comes time for the patched player to begin blind-playing. In this situation, the patched player might be "spooked" from the blind-play of the patcher, because they will not understand why the blind-play happened. In this situation, players need to have full trust and not be spooked by unexpected successful blind-play from other people on the team.
 
 ### The Double Patch Finesse (Illegal)
 
