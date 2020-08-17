@@ -1570,7 +1570,7 @@ Note that in this user interface, players are **not** holding their hands like t
 
 ### Legal Bluff Targets
 
-* The full list of "legal *Bluff* targets" is:
+* The full list of "legal *Bluff* targets" is as follows:
   * any *one-away-from-playable* card
   * any 3
   * any critical 4
