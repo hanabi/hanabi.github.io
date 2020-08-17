@@ -17,6 +17,13 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 * The takeaway here is to **never assume a clue from another player is a Patch Finesse**, and **delete Patch Finesses** from your brain.
 ```
 
+**Trash Double Bluff** (deleted) (by Zamiel)
+
+```
+* IAMJEFF's version of the *Trash Double Bluff* is deleted due to lack of use.
+* Now, in general, player's don't have to care about how many cards are touched as part of a *Trash Bluff*, which simplifies things.
+```
+
 @everyone New conventions:
 
 **The Pestilent Triple Bluff** (by asaelr)
