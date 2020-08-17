@@ -3626,6 +3626,7 @@ Conventions for specific variants are listed on a separate page.
 | The Blaze Discard | IAMJEFF
 | Rank Choice Ejection | IAMJEFF
 | Selfish Focus Inversion | Romain
+| Double Ignition | Libster
 
 <br />
 
