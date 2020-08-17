@@ -774,7 +774,8 @@ Note that in this user interface, players are **not** holding their hands like t
 * There are some common special situations that do **not** imply an *Order Chop Move*. Use your common sense! Here is a short list:
   * The 1 that was played was originally *Finessed* from a clue that happened **before** the number 1 clue.
   * The 1 was expected to be played from the *[Fresh 1's Rule](#playing-multiple-1s---the-fresh-1s-rule-part-2)*.
-  * The 1 that was played has a different amount of positive clues than the other 1's. Different amounts of negative clues are ignored. (For example, *Order Chop Moves* would be "turned off" in the situation where Alice has one 1 has a positive 1 clue on it, and Alice has another 1 with a positive 1 clue on it and a positive red clue on it.)
+  * The 1 that was played has a different amount of positive clues than the other 1's. (For example, *Order Chop Moves* would be "turned off" in the situation where Alice has one 1 has a positive 1 clue on it, and Alice has another 1 with a positive 1 clue on it and a positive red clue on it.)
+    * Different amounts of negative clues are ignored.
   * The 1 that was skipped over is known to be bad from contextual information. (See the *[Stale 1's Clue](#context-clues--the-stale-1s-clue)* section.)
 
 ### Double Order Chop Move (for 3-Player Games)
