@@ -8,6 +8,24 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 
 @everyone New conventions:
 
+**Trash Touch Elimination** (clarification) (by Steven)
+
+```
+* First, see the section in the document for *Trash Touch Elimination*.
+* As a clarification, if there are two unseen copies of a single missing card, then *Trash Touch Elimination* does not apply. Players should instead interpret this situation as a *[Weak Trash Finesse](#the-trash-finesse-weak-form)*.
+* For example, in a 3-player game:
+  * Red 2 is played on the stacks. All of the other suits have the 1 played on the stacks.
+  * Bob's hand is, from newest to oldest: red 3, red 1, blue 1, green 1, yellow 1.
+  * Alice wants to give a play clue to the red 3. Everyone else on the team (other than Bob) can see that she can give either number 3 or red.
+    * If Alice clues number 3, then it will uniquely touch the red 3 (which will satisfy *Good Touch Principle*).
+    * If Alice clues red, then it will touch the red 3 and the red 1 (which will **violate** *Good Touch Principle*).
+  * Alice clues red to Bob. Since nothing was stopping her from cluing number 4, this is very strange.
+  * Bob plays the red 3.
+  * Cathy has a red 5 in her hand. It is fully "filled-in" by previous clues.
+  * Thus, there is only one "missing" red card - the red 4. Cathy knows that normally, Bob would think that his red 1 is the red 4 (from *Good Touch Principle*). This must mean that Cathy has the red 4.
+  * Normally, Cathy would write *Trash Touch Elimination* notes for the red 4. However, both copies of the red 4 are missing / not visible. Thus, Cathy knows that this doesn't count as a "single card". Cathy instead knows that this must be a *[Weak Trash Finesse](the-trash-finesse-weak-form)*.
+```
+
 **The Pestilent Triple Bluff** (by asaelr)
 
 ```
