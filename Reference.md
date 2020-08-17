@@ -3244,7 +3244,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Bob plays the red 3.
   * Cathy has a red 5 in her hand. It is fully "filled-in" by previous clues.
   * Thus, there is only one "missing" red card - the red 4. Cathy knows that normally, Bob would think that his red 1 is the red 4 (from *Good Touch Principle*). This must mean that Cathy has the red 4.
-  * Normally, Cathy would write *Trash Touch Elimination* notes for the red 4. However, both copies of the red 4 are missing / not visible. Thus, Cathy knows that this doesn't count as a "single card". Cathy instead knows that this must be a *[Weak Form Trash Finesse](the-trash-finesse-weak-form)*.
+  * Normally, Cathy would write *Trash Touch Elimination* notes for the red 4. However, both copies of the red 4 are missing / not visible. Thus, Cathy knows that this doesn't count as a "single card". Cathy instead knows that this must be a *[Weak Trash Finesse](the-trash-finesse-weak-form)*.
 
 ### The Hesitation Blind-Play
 
