@@ -1557,6 +1557,24 @@ Note that in this user interface, players are **not** holding their hands like t
   1) Does the clue "match" the blind-play? If it matches, then it is a *Finesse*. If it does not match, then it is a *Bluff*. Red matches red, but red does **not** match blue. 2 matches 3, but 1 does **not** match 3.
   2) Will the player who received the clue go on to misplay if nothing else is blind-played? If yes, then it is a *Finesse*. If no, then it is a *Bluff*.
 
+### The Critical 4 Bluff
+
+* Building on the *3 Bluffs* convention, we also agree that it is possible for a card that initiates a *Bluff* to be a copy of any of the 4s that are currently in the discard pile.
+* For example, in a 3-player game:
+  * Nothing is played on the stacks. Red 4 is currently in the discard pile.
+  * Alice clues Cathy red, touching a red 4 as a *Play Clue*.
+  * Bob blind-plays a blue 1.
+  * Cathy marks her red card as the *one-away-from-playable* red card, the red 2.
+  * However, Cathy also knows that *3 Bluffs* are a thing, so she *also* marks her red card as possibly a red 3.
+  * However, Cathy also knows that *Critical 4 Bluffs* are a thing, so she *also* marks her red card as possibly a red 4.
+
+### Legal Bluff Targets
+
+* The full list of "legal *Bluff* targets" is:
+  * any *one-away-from-playable* card
+  * any 3
+  * any critical 4
+
 ### Context Clues & The Stale 1's Clue
 
 * We have many conventions that specify what a clue means. But combined with this, we are always expected to look at the context of the game.
