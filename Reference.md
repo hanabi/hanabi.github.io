@@ -2599,7 +2599,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 ### The Pestilent Triple Bluff
 
 * First, see the section on the *[Pestilent Double Bluff](#pestilent-double-bluff)*.
-* Rarely, it is possible that *Pestilent*-style clue is performed with a two-away-from-playable card instead of a one-away-from-playable card. In this situation, it would transform into a *Triple Bluff* instead of a *Double Bluff*.
+* Rarely, it is possible that a *Pestilent*-style clues is performed with a two-away-from-playable card instead of a one-away-from-playable card. In this situation, it would transform into a *Triple Bluff* instead of a *Double Bluff*.
 * Note that normally, *Triple Bluffs* are explicitly illegal. But *Pestilent Triple Bluffs* are an exception to this rule.
 * For example, in a 5-player game:
   * All the 1's are played on the stacks.
