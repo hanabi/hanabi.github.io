@@ -11,7 +11,7 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 **Patch Finesse (Weak Form)**
 
 ```
-* This convention is deleted due to lack of use.
+* This convention is deleted due to lack of use. It is also commonly confused with other kinds of moves.
 ```
 
 **The Pestilent Triple Bluff** (by asaelr)
