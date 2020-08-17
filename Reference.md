@@ -7,7 +7,7 @@ If you are a brand new player, do not bother reading this document. It is much b
 If you have already read the beginners guide, then please see the [learning path document](Learning_Path.md). This explains what to learn next and how many games you should be playing before reading ahead.
 
 Note that convention updates for the group are listed in the `#announcements` channel on the [Hanabi Discord server](https://discord.gg/FADvkJp). (You can also review the [commit history](https://github.com/Zamiell/hanabi-conventions/commits/master) of this repository.)
-
+asdfasdfasdfasf
 <br />
 
 ## Table of Contents
