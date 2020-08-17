@@ -6,6 +6,13 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 
 ## The Backlog (General Conventions)
 
+@everyone Deleted conventions
+
+**Patch Finesse (Weak Form)**
+
+```
+* This convention is deleted due to lack of use.
+```
 
 **The Pestilent Triple Bluff** (by asaelr)
 
