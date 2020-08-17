@@ -8,11 +8,16 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 
 @everyone Deleted conventions
 
-**Patch Finesse (Weak Form)**
+**Patch Finesse Deletion** (by Zamiel)
 
 ```
-* This convention is deleted due to lack of use. It is also commonly confused with other kinds of moves.
+* The *Strong Patch Finesse* and the *Weak Patch Finesse* are deleted due to lack of use.
+* These two moves are commonly confused with other kinds of moves, so this greatly simplifies things.
+* The only remaining legal *Patch Finesse* is the *Hidden Patch Finesse*. The great thing about *Hidden Patch Finesses* is that no-one on the team has to even know that *Patch Finesses* exist for them to work properly, since they are completely hidden.
+* The takeaway here is to **never assume a clue from another player is a Patch Finesse**, and **delete Patch Finesses** from your brain.
 ```
+
+@everyone New conventions:
 
 **The Pestilent Triple Bluff** (by asaelr)
 
