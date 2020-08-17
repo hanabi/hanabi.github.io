@@ -2536,12 +2536,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * The *Patch Component* of a *Patch Finesses* **must** be patched before the problem card has a chance of being misplayed. (In other words, blind-playing players are not supposed to entertain *Reverse Patch Finesses*.)
 * It is expressly illegal to perform a *Patch Finesse* that contains two *Patch Components*.
 
-### The Patch Finesse (Weak Form)
-
-* Keeping the section on *Patch Finesse* stipulations in mind, we can also describe a third type of *Patch Finesse*.
-* It is possible to perform a *Patch Finesse* in the same way as a *Strong Patch Finesse*, but without having the other copy of the card in the trash. In this situation, it is harder to see that a *Patch Finesse* is occurring, as it is much more likely to be a more-ordinary *Finesse with a Lie Component*.
-* However, if the problem card is exactly *one-away-from-playable*, and the original *Finesse with a Lie Component* was just a **bad** move, or if it could have been done in a simpler way without a big lie, then players should interpret the move as a *Patch Finesse*.
-
 ### The Double Patch Finesse (Illegal)
 
 * Building on the *Patch Finesse*, it is theoretically possible for a *Patch Finesse* to require **two** separate players to patch at the same time.
