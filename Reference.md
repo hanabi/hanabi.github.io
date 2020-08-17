@@ -3001,6 +3001,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Cathy blind-plays her *Second Finesse Position* and it successfully plays as red 2.
   * Donald knows that since Cathy blind-played her *Second Finesse Position* card, this must be a *5 Color Ejection* and that his red card is the red 5.
 * Note that you are not allowed to perform *Out-of-Position Ejections* in reverse, unless it is super-obvious what is going on.
+* Remember that just because *OOP Ejections* are technically legal in some situations, this does **not** mean that you should players should try to always use them. Just like any other complicated move, only use it when it is super-clear to the rest of the team. Otherwise, a simpler line should be chosen.
 
 ### The Out-of-Position Discharge
 
