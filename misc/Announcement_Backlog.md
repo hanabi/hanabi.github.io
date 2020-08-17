@@ -8,6 +8,14 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 
 @everyone New conventions:
 
+**The Order Chop Move** (change)
+
+```
+* Previously, for the purposes of the *Order Chop Move*, "identical" ones are defined as 1's that have an equal amount of positive and negative clues.
+* Now, for the purposes of the *Order Chop Move*, "identical" ones are defined as 1's that have an equal amount of positive clues. Negative clues are ignored.
+* Note that this is already the way that the group was playing; the doc now reflects this.
+```
+
 **Trash Touch Elimination** (clarification) (by Steven)
 
 ```
