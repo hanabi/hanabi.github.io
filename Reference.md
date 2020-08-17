@@ -1571,8 +1571,8 @@ Note that in this user interface, players are **not** holding their hands like t
 ### Legal Bluff Targets
 
 * The full list of "legal *Bluff* targets" is as follows:
-  * any *one-away-from-playable* card (with either color or number)
-  * any 3 (with either color or number)
+  * any *one-away-from-playable* card (with either a color clue or a number clue)
+  * any 3 (with either a color clue or a number clue)
   * any critical 4 (only with a color clue)
 
 ### Context Clues & The Stale 1's Clue
