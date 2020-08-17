@@ -2008,8 +2008,6 @@ Priority does not always apply. Some common exceptions are listed below.
   * For example, if the red stack is played up to the red 3, then you **cannot** use a red clue to initiate a *Trash Bluff*, because a blind-play will make the clued card look like the red 5.
   * For example, if the red stack is played up to the red 4, then you can use a red clue to initiate a *Trash Bluff*, because a blind-play will prove that the clued card is not a red 5.
 * In the case where multiple cards are clued as part of a *Trash Bluff*, **all** of the touched cards are considered to be trash. However, the focus of the clue should be the first thing discarded, which allows for the possibility of your teammates to give a follow-up *Fix Clue*.
-* An important stipulation of the *Trash Bluff* is that by convention, *Trash Bluffs* **must only touch one card**, if at all possible.
-  * If a player breaks this rule and intentionally touches multiple cards when they could have touched exactly one card, then they are trying to communicate something extra - an *Unnecessary Trash Chop Move* or a *Trash Double Bluff*. (These are advanced moves that are [covered in more detail](#level-15---unnecessary-usage-of-complicated-moves) later on.)
 
 ### The Trash Finesse (Strong Form)
 
@@ -2476,14 +2474,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Cathy blind-plays red 2.
   * Donald knows that normally, this would be a *4 Double Bluff* and that no-one should play any more cards. However, since the red 4 was duplicated, this must be a *Bad Touch Triple Finesse*, so Cathy blind-plays her *Finesse Position* and it is the red 3.
   * Emily knows that this cannot be a *4 Double Bluff*, or else Donald would not have blind-played anything. Thus, this must be a *Bad Touch Triple Finesse*, so Emily plays her left-most red 4. The next time that Emily discards, she will discard the known trash red 4.
-
-### The Trash Double Bluff
-
-* Normally, *Trash Bluffs* are only done as a last resort, meaning that the target card cannot be clued directly. In this situation, if a player has the option to initiate the *Trash Bluff* with a single card, then they **must** choose to do so.
-* If a player deliberately does not initiate the *Trash Bluff* with a single card and instead initiates a *Trash Bluff* by touching two or more trash cards, then they must be trying to communicate something extra - a *Trash Double Bluff*.
-  * If a player is doing an [*Unnecessary Trash Bluff Chop Move*](#level-15---unnecessary-usage-of-complicated-moves), then they can clue as many trash cards as they want and it should not trigger a *Trash Double Bluff*.
-* All of the cards touched in this way are promised to be trash.
-* Additionally, an [*Unnecessary Trash Bluff*](#level-15---unnecessary-usage-of-complicated-moves) can sometimes effectively be a different kind of *Trash Double Bluff*, which is explained in the relevant section.
 
 ### The Patch Finesse
 
