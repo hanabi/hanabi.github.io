@@ -22,7 +22,7 @@ The following is a quick summary of the levels.
 
 * Basic *[Chop Moves](Reference.md#the-chop-move)* should not be used until level 3.
 * *[Layered Finesses](Reference.md#the-layered-finesse)* should not be used until level 4.
-* *[Order Chop Moves](Reference.md#the-order-chop-move--the-skipped-order-chop-move)* should not be used until level 5.
+* *[Order Chop Moves](Reference.md#the-order-chop-move-ocm)* should not be used until level 5.
 * *[Bluffs](Reference.md#the-bluff)* should not be used until level 8.
 * *[3 Bluffs](Reference.md#the-3-bluff)* should not be used until level 9.
 * *[Priority](Reference.md#the-priority-prompt--the-priority-finesse)* should not be used until level 10.

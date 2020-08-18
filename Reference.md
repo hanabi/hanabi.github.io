@@ -763,7 +763,7 @@ Note that in this user interface, players are **not** holding their hands like t
 
 ## Level 5 - Proselyte - Conventions & Special Moves
 
-### The Order Chop Move & The Skipped Order Chop Move (OCM)
+### The Order Chop Move (OCM)
 
 * Normally, at the beginning of the game, players are expected to play their 1's from oldest to newest.
 * If a player skips over their right-most 1, and there is nothing else special going on, it means that the next player should *Chop Move* one card.
@@ -3697,8 +3697,7 @@ Conventions for specific variants are listed on a separate page.
 | The Echo Scream Discard | Florrat & Zamiel
 | The Bad Touch Double Finesse & The Bad Touch Double Bluff | Sankala
 | Ejection | Razvogor & Zamiel & Sankala
-| Order Chop Move | Zamiel
-| Skipped Order Chop Move | Zamiel & Libster
+| Order Chop Move | Zamiel & Libster
 | Trash Order Chop Move | Zamiel & Libster
 | Duplication Responsibility | Zamiel
 | Certain Discard Duplication Promise | Zamiel & Libster
