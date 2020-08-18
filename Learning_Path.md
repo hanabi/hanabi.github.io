@@ -175,7 +175,7 @@ The following is a brief description of each level.
 * Level 15 strategies should only be learned if you have 260+ games of experience with the group.
 * This level introduces *Discharges*.
 * Level 15 strategies are as follows:
-  * *[The Unknown Trash Discharge](Reference.md#the-unknown-trash-discharge)*
+  * *[The Unknown Trash Discharge](Reference.md#the-unknown-trash-discharge-utd)*
 
 #### Level 16 - Expert
 
