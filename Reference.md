@@ -2118,7 +2118,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * Just like a *Bluff*, a *Discharge* can only be performed on the very next player.
 * Several different kinds of moves can cause a *Discharge*. The most common one is called the *Unknown Trash Discharge*.
 
-### Unknown Trash Discharge (UTD)
+### The Unknown Trash Discharge (UTD)
 
 * In general, *Bluffs* work because the blind-play tells the person who was clued that they have a one-away-from-playable card of that color.
 * In general, *Trash Bluffs* work because the blind-play tells the person who was clued that they have a trash card.
@@ -2898,7 +2898,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### The Unknown Trash Discharge
 
-* The *Unknown Trash Discharge* is introduced in [level 15](#asdf).
+* The *Unknown Trash Discharge* is introduced in [level 15](#the-unknown-trash-discharge-utd).
 
 ### 5 Number Discharge (5ND)
 
