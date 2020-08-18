@@ -12,54 +12,56 @@ Note that convention updates for the group are listed in the `#announcements` ch
 
 ## Table of Contents
 
-1. [First Principles](#first-principles)
-2. [Examples](#examples)
-3. [Level 1 - Newbie](#level-1---newbie)
-4. [Level 2 - Novice](#level-2---novice)
-    * [Conventions & Special Moves](#level-2---novice---conventions--special-moves)
-    * [General Principles](#level-2---novice---general-principles)
-    * [Common Mistakes](#level-2---novice---common-mistakes)
-5. [Level 3 - Initiate](#level-3---initiate)
-    * [Conventions & Special Moves](#level-3---initiate---conventions--special-moves)
-    * [General Principles](#level-3---initiate---general-principles)
-    * [Common Mistakes](#level-3---initiate---common-mistakes)
-6. [Level 4 - Rookie](#level-4---rookie)
-    * [Conventions & Special Moves](#level-4---rookie---conventions--special-movies)
-    * [General Principles](#level-4---rookie---general-principles)
-7. [Level 5 - Apprentice](#level-5---apprentice)
-    * [Conventions & Special Moves](#level-5---apprentice---conventions--special-moves)
-    * [General Principles](#level-5---apprentice---general-principles)
-8. [Level 6 - Intermediate](#level-6---intermediate)
-    * [Conventions & Special Moves](#level-6---intermediate---conventions--special-moves)
-    * [General Principles](#level-6---intermediate---general-principles)
-9. [Level 7 - Fellow](#level-7---fellow)
-    * [Conventions & Special Moves](#level-7---fellow---conventions--special-moves)
-    * [General Principles](#level-7---fellow---general-principles)
-    * [Common Mistakes](#level-7---fellow---common-mistakes)
-10. [Level 8 - Journeyman](#level-8---journeyman)
-    * [Conventions & Special Moves](#level-8---journeyman---conventions--special-moves)
-    * [General Principles](#level-8---journeyman---general-principles)
-    * [Common Mistakes](#level-8---journeyman---common-mistakes)
-11. [Level 9 - Advanced](#level-9---advanced)
-12. [Level 10 - Adept](#level-10---adept)
-13. [Level 11 - Senior](#level-11---senior)
-14. [Level 12 - Scholar](#level-12---scholar)
-14. [Level 13 - Erudite](#level-13---erudite)
-15. [Level 14 - Expert](#level-14---expert)
-16. [Level 15 - Rarely Used Strategies](#level-15---rarely-used-strategies)
-    * [Special Finesses](#level-15---rarely-used-strategies---special-finesses)
-    * [Special Bluffs](#level-15---rarely-used-strategies---special-bluffs)
-    * [Special Suboptimal Moves](#level-15---rarely-used-strategies---special-suboptimal-moves)
-    * [Pushes & Pulls](#level-15---rarely-used-strategies---pushes--pulls)
-    * [Ejection](#level-15---rarely-used-strategies---ejection)
-    * [Discharge](#level-15---rarely-used-strategies---discharge)
-    * [Ejection & Discharge Extensions](#level-15---rarely-used-strategies---ejection--discharge-extensions)
-    * [Save Clues & Non-Emergency Chop Moves](#level-15---rarely-used-strategies---save-clues--non-emergency-chop-moves)
-    * [Emergency Moves](#level-15---rarely-used-strategies---emergency-moves)
-    * [Unnecessary Usage of Complicated Moves](#level-15---rarely-used-strategies---unnecessary-usage-of-complicated-moves)
-    * [Miscellaneous](#level-15---rarely-used-strategies---miscellaneous)
-17. [Variant-Specific Strategies](#variant-specific-strategies)
-18. [Convention Attribution](#convention-attribution)
+* [First Principles](#first-principles)
+* [Examples](#examples)
+* [Level 1 - Newbie](#level-1---newbie)
+* [Level 2 - Novice](#level-2---novice)
+  * [Conventions & Special Moves](#level-2---novice---conventions--special-moves)
+  * [General Principles](#level-2---novice---general-principles)
+  * [Common Mistakes](#level-2---novice---common-mistakes)
+* [Level 3 - Initiate](#level-3---initiate)
+  * [Conventions & Special Moves](#level-3---initiate---conventions--special-moves)
+  * [General Principles](#level-3---initiate---general-principles)
+  * [Common Mistakes](#level-3---initiate---common-mistakes)
+* [Level 4 - Neophyte](#level-4---neophyte)
+  * [Conventions & Special Moves](#level-4---neophyte---conventions--special-movies)
+  * [General Principles](#level-4---neophyte---general-principles)
+* [Level 5 - Proselyte](#level-5---proselyte)
+  * [Conventions & Special Moves](#level-5---proselyte---conventions--special-moves)
+  * [General Principles](#level-5---proselyte---general-principles)
+* [Level 6 - Rookie](#level-6---intermediate)
+  * [Conventions & Special Moves](#level-6---rookie---conventions--special-moves)
+  * [General Principles](#level-6---rookie---general-principles)
+* [Level 7 - Apprentice](#level-7---apprentice)
+  * [Conventions & Special Moves](#level-7---apprentice---conventions--special-moves)
+  * [General Principles](#level-7---apprentice---general-principles)
+  * [Common Mistakes](#level-7---apprentice---common-mistakes)
+* [Level 8 - Intermediate](#level-8---intermediate)
+  * [Conventions & Special Moves](#level-8---intermediate---conventions--special-moves)
+  * [General Principles](#level-8---intermediate---general-principles)
+  * [Common Mistakes](#level-8---intermediate---common-mistakes)
+* [Level 9 - Fellow](#level-9---fellow)
+* [Level 10 - Journeyman](#level-10---journeyman)
+* [Level 11 - Advanced](#level-11---advanced)
+* [Level 12 - Adept](#level-12---adept)
+* [Level 13 - Senior](#level-13---senior)
+* [Level 14 - Scholar](#level-14---scholar)
+* [Level 15 - Erudite](#level-15--erudite)
+* [Level 16 - Expert](#level-16--expert)
+* [Level 17 - Rarely Used Strategies](#level-17---rarely-used-strategies)
+  * [Special Finesses](#level-17---rarely-used-strategies---special-finesses)
+  * [Special Bluffs](#level-17---rarely-used-strategies---special-bluffs)
+  * [Special Suboptimal Moves](#level-17---rarely-used-strategies---special-suboptimal-moves)
+  * [Pushes & Pulls](#level-17---rarely-used-strategies---pushes--pulls)
+  * [Ejection](#level-17---rarely-used-strategies---ejection)
+  * [Discharge](#level-17---rarely-used-strategies---discharge)
+  * [Ejection & Discharge Extensions](#level-17---rarely-used-strategies---ejection--discharge-extensions)
+  * [Save Clues & Non-Emergency Chop Moves](#level-17---rarely-used-strategies---save-clues--non-emergency-chop-moves)
+  * [Emergency Moves](#level-17---rarely-used-strategies---emergency-moves)
+  * [Unnecessary Usage of Complicated Moves](#level-17---rarely-used-strategies---unnecessary-usage-of-complicated-moves)
+  * [Miscellaneous](#level-17---rarely-used-strategies---miscellaneous)
+* [Variant-Specific Strategies](#variant-specific-strategies)
+* [Convention Attribution](#convention-attribution)
 
 <br />
 
@@ -616,19 +618,19 @@ Note that in this user interface, players are **not** holding their hands like t
 
 <br />
 
-## Level 4 - Rookie
+## Level 4 - Neophyte
 
 * Level 4 strategies should only be learned if you have played with the group for a week or so (40+ games of experience).
 * This level covers Double Discard situations and introduces Layered Finesses. Players at this level only tell the truth to each other.
 * See the [learning path document](Learning_Path.md) for general descriptions of each level.
 * Level 4 subsections:
-  * [Conventions & Special Moves](#level-4---rookie---conventions--special-movies)
-  * [General Principles](#level-4---rookie---general-principles)
+  * [Conventions & Special Moves](#level-4---neophyte---conventions--special-movies)
+  * [General Principles](#level-4---neophyte---general-principles)
 * Head back to the [table of contents](#table-of-contents).
 
 <br />
 
-## Level 4 - Rookie - Conventions & Special Movies
+## Level 4 - Neophyte - Conventions & Special Movies
 
 ### Prompts in Multi-Color Variants
 
@@ -725,7 +727,7 @@ Note that in this user interface, players are **not** holding their hands like t
 
 <br />
 
-## Level 4 - Rookie - General Principles
+## Level 4 - Neophyte - General Principles
 
 ### Urgency Principle (Playing Into Finesses as Soon as Possible)
 
@@ -747,19 +749,19 @@ Note that in this user interface, players are **not** holding their hands like t
 
 <br />
 
-## Level 5 - Apprentice
+## Level 5 - Proselyte
 
 * Level 5 strategies should only be learned if you have 60+ games of experience with the group.
 * This level covers some more special kinds of Chop Moves and introduces the various "emergency" discards.
 * See the [learning path document](Learning_Path.md) for general descriptions of each level.
 * Level 5 subsections:
-  * [Conventions & Special Moves](#level-5---apprentice---conventions--special-moves)
-  * [General Principles](#level-5---apprentice---general-principles)
+  * [Conventions & Special Moves](#level-5---proselyte---conventions--special-moves)
+  * [General Principles](#level-5---proselyte---general-principles)
 * Head back to the [table of contents](#table-of-contents).
 
 <br />
 
-## Level 5 - Apprentice - Conventions & Special Moves
+## Level 5 - Proselyte - Conventions & Special Moves
 
 ### The Order Chop Move & The Skipped Order Chop Move (OCM)
 
@@ -879,7 +881,7 @@ Note that in this user interface, players are **not** holding their hands like t
 
 <br />
 
-## Level 5 - Apprentice - General Principles
+## Level 5 - Proselyte - General Principles
 
 ### Lines
 
@@ -940,19 +942,19 @@ Note that in this user interface, players are **not** holding their hands like t
 
 <br />
 
-## Level 6 - Intermediate
+## Level 6 - Rookie
 
 * Level 6 strategies should only be learned if you have 80+ games of experience with the group.
 * This level explains how to handle stalling situations.
 * See the [learning path document](Learning_Path.md) for general descriptions of each level.
 * Level 6 subsections:
-  * [Conventions & Special Moves](#level-6---intermediate---conventions--special-moves)
-  * [General Principles](#level-6---intermediate---general-principles)
+  * [Conventions & Special Moves](#level-6---rookie---conventions--special-moves)
+  * [General Principles](#level-6---rookie---general-principles)
 * Head back to the [table of contents](#table-of-contents).
 
 <br />
 
-## Level 6 - Intermediate - Conventions & Special Moves
+## Level 6 - Rookie - Conventions & Special Moves
 
 ### 2 Saves (Intermediate Section)
 
@@ -1057,7 +1059,7 @@ Note that in this user interface, players are **not** holding their hands like t
 
 <br />
 
-## Level 6 - Intermediate - General Principles
+## Level 6 - Rookie - General Principles
 
 ### Misplay Cost Principle
 
@@ -1102,18 +1104,18 @@ Note that in this user interface, players are **not** holding their hands like t
 
 <br />
 
-## Level 7 - Fellow
+## Level 7 - Apprentice
 
 * Level 7 strategies should only be learned if you have 100+ games of experience with the group.
 * This level explains how to do special discards that transfer cards to other players.
 * See the [learning path document](Learning_Path.md) for general descriptions of each level.
 * Level 7 subsections:
-  * [Conventions & Special Moves](#level-7---fellow---conventions--special-moves)
-  * [General Principles](#level-7---fellow---general-principles)
-  * [Common Mistakes](#level-7---fellow---common-mistakes)
+  * [Conventions & Special Moves](#level-7---apprentice---conventions--special-moves)
+  * [General Principles](#level-7---apprentice---general-principles)
+  * [Common Mistakes](#level-7---apprentice---common-mistakes)
 * Head back to the [table of contents](#table-of-contents).
 
-## Level 7 - Fellow - Conventions & Special Moves
+## Level 7 - Apprentice - Conventions & Special Moves
 
 ### The Sarcastic Finesse
 
@@ -1209,7 +1211,7 @@ Note that in this user interface, players are **not** holding their hands like t
 
 <br />
 
-## Level 7 - Fellow - General Principles
+## Level 7 - Apprentice - General Principles
 
 ### Context
 
@@ -1221,7 +1223,7 @@ Note that in this user interface, players are **not** holding their hands like t
 
 <br />
 
-## Level 7 - Fellow - Common Mistakes
+## Level 7 - Apprentice - Common Mistakes
 
 ### The Double Gentleman's Discard (Illegal)
 
@@ -1241,20 +1243,20 @@ Note that in this user interface, players are **not** holding their hands like t
 
 <br />
 
-## Level 8 - Journeyman
+## Level 8 - Intermediate
 
 * Level 8 strategies should only be learned if you have 120+ games of experience with the group.
 * This level introduces Bluffs and all of the complicated stipulations that go along with them.
 * See the [learning path document](Learning_Path.md) for general descriptions of each level.
 * Level 8 subsections:
-  * [Conventions & Special Moves](#level-8---journeyman---conventions--special-moves)
-  * [General Principles](#level-8---journeyman---general-principles)
-  * [Common Mistakes](#level-8---journeyman---common-mistakes)
+  * [Conventions & Special Moves](#level-8---intermediate---conventions--special-moves)
+  * [General Principles](#level-8---intermediate---general-principles)
+  * [Common Mistakes](#level-8---intermediate---common-mistakes)
 * Head back to the [table of contents](#table-of-contents).
 
 <br />
 
-## Level 8 - Journeyman - Conventions & Special Moves
+## Level 8 - Intermediate - Conventions & Special Moves
 
 ### The Bluff
 
@@ -1370,7 +1372,7 @@ Note that in this user interface, players are **not** holding their hands like t
 
 <br />
 
-## Level 8 - Journeyman - General Principles
+## Level 8 - Intermediate - General Principles
 
 ### Guide Principle
 
@@ -1410,7 +1412,7 @@ Note that in this user interface, players are **not** holding their hands like t
 
 <br />
 
-## Level 8 - Journeyman - Common Mistakes
+## Level 8 - Intermediate - Common Mistakes
 
 ### Bluff Seat and the Pang of Guilt
 
@@ -1455,7 +1457,7 @@ Note that in this user interface, players are **not** holding their hands like t
 
 <br />
 
-## Level 9 - Advanced
+## Level 9 - Fellow
 
 * Level 9 strategies should only be learned if you have 140+ games of experience with the group.
 * This level introduces 3 Bluffs and some higher level concepts.
@@ -1627,7 +1629,7 @@ Note that in this user interface, players are **not** holding their hands like t
 
 <br />
 
-## Level 10 - Adept
+## Level 10 - Journeyman
 
 * Level 10 strategies should only be learned if you have 160+ games of experience with the group.
 * This level introduces the concept of Priority and all of the complicated stipulations that go along with it.
@@ -1756,7 +1758,7 @@ Priority does not always apply. Some common exceptions are listed below.
 
 <br />
 
-## Level 11 - Senior
+## Level 11 - Advanced
 
 * Level 11 strategies should only be learned if you have 180+ games of experience with the group.
 * This level introduces Elimination and all of the complicated situations that go along with it.
@@ -1874,7 +1876,7 @@ Priority does not always apply. Some common exceptions are listed below.
 
 <br />
 
-## Level 12 - Scholar
+## Level 12 - Adept
 
 * Level 12 strategies should only be learned if you have 200+ games of experience with the group.
 * This level introduces *Ejections*.
@@ -1908,7 +1910,7 @@ Priority does not always apply. Some common exceptions are listed below.
   * Bob knows that normally, this would be an *Out-of-Order Finesse* on the 5, indicating to Bob that he has the red 1, the red 3, and the red 4. However, since this calls for more than one blind card, he knows that *5 Color Ejection* should take precedence, so he knows to play his *Second Finesse Position* card. It is a red 1 and it successfully plays.
   * From Cathy's perspective, if Bob had played his *Finesse Position* card in response to the red clue, then Cathy would know that it was a *Finesse* or a *Bluff*. But since Bob blind-played his *Second Finesse Position* card, it must be a *5 Color Ejection*. Cathy marks the red card as red 5. Her other red card can be red 2, red 3, or red 4.
 
-## Level 13 - Erudite
+## Level 13 - Senior
 
 * Level 13 strategies should only be learned if you have 220+ games of experience with the group.
 * This level introduces the "early" 5 moves.
@@ -1983,7 +1985,7 @@ Priority does not always apply. Some common exceptions are listed below.
 
 <br />
 
-## Level 14 - Expert
+## Level 14 - Scholar
 
 * Level 14 strategies should only be learned if you have 240+ games of experience with the group.
 * This level covers moves that are complicated, difficult to see, or require a deeper understanding of how Hanabi works in order to work properly.
@@ -2102,27 +2104,116 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 15 - Rarely Used Strategies
+## Level 15 - Erudite
 
-* Level 15 strategies are separated from the rest because they do not come up that often. Thus, non-expert players do not have to worry about learning them. If they do come up in a game, players with experience can often figure out what to do on-the-fly. Even if they don't, they can quickly learn about them in the post-game review, and then use the document as a reference later on in case they need to refresh their memory.
+* Level 14 strategies should only be learned if you have 260+ games of experience with the group.
+* This level covers *Double Bluffs* and all of the complicated stipulations that go along with them.
 * See the [learning path document](Learning_Path.md) for general descriptions of each level.
-* Level 15 subsections:
-  * [Special Finesses](#level-15---rarely-used-strategies---special-finesses)
-  * [Special Bluffs](#level-15---rarely-used-strategies---special-bluffs)
-  * [Special Suboptimal Moves](#level-15---rarely-used-strategies---special-suboptimal-moves)
-  * [Pushes & Pulls](#level-15---rarely-used---strategies-pushes--pulls)
-  * [Ejection](#level-15---rarely-used-strategies---ejection)
-  * [Discharge](#level-15---rarely-used-strategies---discharge)
-  * [Ejection & Discharge Extensions](#level-15---rarely-used-strategies---ejection--discharge-extensions)
-  * [Save Clues & Non-Emergency Chop Moves](#level-15---rarely-used-strategies---save-clues--non-emergency-chop-moves)
-  * [Emergency Moves](#level-15---rarely-used-strategies---emergency-moves)
-  * [Unnecessary Usage of Complicated Moves](#level-15---rarely-used-strategies---unnecessary-usage-of-complicated-moves)
-  * [Miscellaneous](#level-15---rarely-used-strategies---miscellaneous)
+
+### The Double Half Bluff
+
+* Sometimes, you see that two players in a row have playable *Finesse Position* cards. However, they are unrelated, so you can't get them both played with a *Double Finesse*. In this situation, by performing a clue that looks like a *Double Finesse*, you can get the first card played like a normal *Finesse* and the second card like a *Bluff*.
+* For example, in a 4-player game:
+  * Red 1 is played on the stacks.
+  * Alice clues Donald red, which touches a red 4 as a *Play Clue*.
+  * Bob goes next and assumes that it is a *Double Self-Finesse* - he has the red 2 and red 3 in his two newest slots. Thus, he blind-plays his left-most and it is red 2, as expected.
+  * Cathy goes next. Cathy sees that Bob does **not** have red 3 in his *Second Finesse Position* (and no one else has a red 3 in their *Finesse Position* either). Thus, Cathy must have the red 3. Cathy tries to blind-play red 3 from her *Finesse Position*, but is blue 1 instead.
+  * Bob now knows he does not have the red 3 anymore, since Cathy blind-played.
+  * Cathy now knows that since two blind-plays happened in a row, she does **not** have the red 3 and that she was *Bluffed*.
+  * At first, Donald thought that the red card in his hand was red 2 (as a *Play Clue*).
+  * After Bob blind-played, Donald thought that the red card in his hand was red 3 (as a *Finesse*).
+  * After Cathy blind-played, Donald knows that he must have the red 4 (as a *Double Half Bluff*).
+* Normally, players are only allowed to perform *Bluffs* while sitting in *Bluff Seat*. The *Double Half Bluff* is one of the few exceptions to the rule. (It is allowed because the lie still resolves "immediately", which satisfies *Good Lie Principle*.)
+
+### The Double Bluff
+
+* Similar to a *Double Half Bluff*, it is also possible to get 2 cards played in a row that are completely unrelated. It is distinct from a *Double Half Bluff* because **none** of the blind-played cards match the card that is clued.
+* For example, in a 4-player game:
+  * Red 1 is currently played on the stacks.
+  * Alice clues Donald red, which touches a red 4 as a *Play Clue*.
+  * Since red 4 must be playable right now, Bob thinks he has the red 2 and the red 3. Bob blind-plays his *Finesse Position* card, but it is actually a blue 1.
+  * Cathy sees that Bob blind-played because of the red clue. However, since the red 4 is a two-away from playable card instead of a *one-away-from-playable* card, it must mean that it is a *Double Bluff* instead of a single *Bluff*. Cathy blind-plays her *Finesse Position* card and it is yellow 1.
+  * At first, Donald thought that the red card in his hand was red 2 (as a *Play Clue*).
+  * After Bob blind-played, Donald thought that the red card in his hand was red 3 (as a *Bluff*).
+  * After Cathy blind-played, Donald knows that he must have the red 4 (as a *Double Bluff*).
+* Normally, players are only allowed to perform *Bluffs* while sitting in *Bluff Seat*. The *Double Bluff* is one of the few exceptions to the rule. (It is allowed because the lie still resolves "immediately", which satisfies *Good Lie Principle*.)
+
+### The Triple Bluff (Illegal)
+
+* A *Double Bluff* is when a player clues a card that is two-away-from-playable and it gets two unrelated cards to blind-play from *Finesse Position*.
+* Logically, it follows from the *Double Bluff* that if a player clues a card that is three-away-from-playable, it would cause three unrelated cards to blind-play from *Finesse Position* as a *Triple Bluff*.
+* However, this is not the case. We explicitly agree that *Triple Bluffs* are illegal and not to be used. (*Triple One-Third Bluffs* and *Triple Two-Third Bluffs* are also illegal.)
+* The consequence of this is that if a player gives a *Play Clue* to a three-away-from-playable card (e.g. either a 4 or a 5) and it causes two cards to blind-play, then the next player should **not** continue to blind-play any more cards. See the next section for more information.
+
+### The 4 Double Bluff & The 5 Double Bluff
+
+* Since *Triple Bluffs* are illegal and not to be used, it is possible to perform a *Double Bluff* with a card that is not exactly two-away-from-playable. This is similar to how the *3 Bluff* convention works.
+* This is how it works for 4's:
+  * If a 4 is given a *Play Clue* and it is one-away-from-playable, then it would only trigger a single *Bluff* (and not a *Double Bluff*).
+  * If a 4 is given a *Play Clue* and it is two-away-from-playable, then it would trigger a *Double Bluff*. (This would be a "normal" *Double Bluff*.)
+  * If a 4 is given a *Play Clue* and it is three-away-from-playable, then it would still only trigger a double *Bluff* (as a *4's Double Bluff* specifically).
+* This is how it works for 5's:
+  * If a 5 is given a *Play Clue* and it is one-away-from-playable, then it would only trigger a single *Bluff* (and not a *Double Bluff*).
+  * If a 5 is given a *Play Clue* and it is two-away-from-playable, then it would trigger a *Double Bluff*. (This would be a "normal" *Double Bluff*.)
+    * Note that this would only happen if e.g. *5 Color Ejection* and *5 Number Discharge* would not apply.
+  * If a 5 is given a *Play Clue* and it is three-away-from-playable, then it would still only trigger a double *Bluff* (as a *5's Double Bluff* specifically).
+    * Note that this would only happen if e.g. *5 Color Ejection* and *5 Number Discharge* would not apply.
+  * If a 5 is given a *Play Clue* and it is four-away-from-playable, then it would still only trigger a double *Bluff* (as a *5's Double Bluff* specifically).
+    * Note that this would only happen if e.g. *5 Color Ejection* and *5 Number Discharge* would not apply.
+* For example, in a 5-player game:
+  * Nothing is played on the stacks.
+  * Alice clues Donald red, which touches a red 4 as a *Play Clue*.
+  * Bob tries to blind-play red 1 from his *Finesse Position*, but he instead plays a blue 1.
+  * Cathy knows that this must be a *Double Bluff*. She blind-plays yellow 1 from her *Finesse Position*.
+  * Now, it is Donald's turn.
+    * At first, Donald thought that the red card in his hand was red 1 (as a *Play Clue*).
+    * After Bob blind-played, Donald thought that the red card in his hand was either a red 2 (as a *Bluff*) or a red 3 (as a *3 Bluff*).
+    * After Cathy blind-played, Donald now knows that the red card in his hand is a red 4 (as a *4's Double Bluff*).
+      * (Donald knows that it cannot be a red 5, or else Bob would have blind-played his *Second Finesse Position*.)
+
+### The 4 Double Bluff That Looks like a Double Half Bluff
+
+* Because any *Bluff* sequence that gets two cards blind-played can be a 4, this means that players have to account for the fact that a card that initiates a *Double Half Bluff* could also be a 4.
+* For example, in a 4-player game:
+  * It is the first turn of the game and nothing is played on the stacks.
+  * Alice clues red to Donald, touching a red 3 as a *Play Clue*.
+  * Bob blind-plays red 1.
+  * Cathy blind-plays blue 1.
+  * Normally, Donald would know that his red card is exactly a red 3, as a *Double Half Bluff*.
+  * However, Donald also knows that any 4 in the game can be used to perform a *Double Bluff*.
+  * Thus, Donald marks his red card as either a red 3 (if it was a *Double Half Bluff*) or a red 4 (if it was a *4 Double Bluff*).
+
+<br />
+
+## Level 16 - Expert
+
+* Level 14 strategies should only be learned if you have 280+ games of experience with the group.
+* ?
+* See the [learning path document](Learning_Path.md) for general descriptions of each level.
+
+<br />
+
+## Level 17 - Rarely Used Strategies
+
+* Level 17 strategies are separated from the rest because they do not come up that often. Thus, non-expert players do not have to worry about learning them. If they do come up in a game, players with experience can often figure out what to do on-the-fly. Even if they don't, they can quickly learn about them in the post-game review, and then use the document as a reference later on in case they need to refresh their memory.
+* See the [learning path document](Learning_Path.md) for general descriptions of each level.
+* Level 17 subsections:
+  * [Special Finesses](#level-17---rarely-used-strategies---special-finesses)
+  * [Special Bluffs](#level-17---rarely-used-strategies---special-bluffs)
+  * [Special Suboptimal Moves](#level-17---rarely-used-strategies---special-suboptimal-moves)
+  * [Pushes & Pulls](#level-17---rarely-used---strategies-pushes--pulls)
+  * [Ejection](#level-17---rarely-used-strategies---ejection)
+  * [Discharge](#level-17---rarely-used-strategies---discharge)
+  * [Ejection & Discharge Extensions](#level-17---rarely-used-strategies---ejection--discharge-extensions)
+  * [Save Clues & Non-Emergency Chop Moves](#level-17---rarely-used-strategies---save-clues--non-emergency-chop-moves)
+  * [Emergency Moves](#level-17---rarely-used-strategies---emergency-moves)
+  * [Unnecessary Usage of Complicated Moves](#level-17---rarely-used-strategies---unnecessary-usage-of-complicated-moves)
+  * [Miscellaneous](#level-17---rarely-used-strategies---miscellaneous)
 * Head back to the [table of contents](#table-of-contents).
 
 <br />
 
-## Level 15 - Rarely Used Strategies - Special Finesses
+## Level 17 - Rarely Used Strategies - Special Finesses
 
 ### The Selfish Finesse (A Finesse Through Your Own Hand)
 
@@ -2446,6 +2537,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 ### The Reverse Shadow Finesse
 
 * *Shadow Finesses* can also be performed in reverse.
+* *Reverse Shadow Finesses* are more complicated than normal *Shadow Finesses*, because the person with the clued card has to look ahead to determine whether or not **they** have the *shadow*, or if a **future** player has the *shadow*.
 * For an example, in a 4-player game:
   * It is the first turn and nothing is played on the stacks.
   * Alice clues red to Bob, touching a red card on slot 1 as a *Play Clue*.
@@ -2462,7 +2554,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 15 - Rarely Used Strategies - Special Bluffs
+## Level 17 - Rarely Used Strategies - Special Bluffs
 
 ### Known Bluffs
 
@@ -2501,6 +2593,27 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Bob blind-plays red 1.
   * Bob now knows that it was a *3 Bluff* and that no-one is promised the red 2. This is because even though the red 1 is the same suit as the red 3, *3 Bluffs* take precedence over *Double Finesses* as long as the clue type (number 3) does not match the card that was blind-played (a number 1).
 
+### The Hard 4 Double Bluff
+
+* Similar to a *Hard 3 Bluff*, it is also possible to perform a *Hard 4 Double Bluff*.
+* For example, in a 4-player game:
+  * No cards are played on the stacks.
+  * Alice clues number 4 to Donald, touching a red 4 as a *Play Clue*.
+  * Bob blind-plays red 1 from his *Finesse Position*.
+  * Cathy blind-plays red 2 from her *Finesse Position*.
+  * Even though red 1 and red 2 are the same suit as the red 4, the team knows that no-one is promised the red 3.
+
+### The Hard 5 Double Bluff
+
+* Similar to a *Hard 3 Bluff* and a *Hard 4 Double Bluff*, it is also possible to perform a *Hard 5 Double Bluff*.
+* For example, in a 5-player game:
+  * It is the *Mid-Game* and all the 1's are played on the stacks.
+  * Alice clues number 5 to Emily, touching a red 5 as a *Play Clue*.
+  * Bob blind-plays a red 2 from his *Finesse Position*.
+  * Cathy blind-plays a red 3 from her *Finesse Position*.
+  * Donald sees that no-one else has any red cards in their hand. Thus, if this was a *Triple Finesse* on the red 5, then Donald should blind-play the red 4 right now.
+  * However, Donald also knows that 5's are valid *Double Bluff* targets. Since number 3 does not match number 5, Donald knows that he should prefer the *Double Bluff* interpretation (that gets two blind-plays) over the *Triple Finesse* interpretation (that gets three blind-plays).
+
 ### Stacked Bluffs (Exception)
 
 * Normally, performing a *Bluff* on a player who is already *Finessed* is illegal. This is because players typically play into *Finesses* in order. So, they will ignore the second clue and play into the first *Finesse*, causing any hypothetical *Bluffs* to not resolve immediately. The logic behind this is that the player has to account for the possibility that the first *Finesse* is a *Layered Finesse*.
@@ -2522,100 +2635,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * It is possible to lie to a player who has *Elimination Notes* on their hand and pretend like you are performing an *Elimination Finesse* on them, causing them to play their oldest card as per the convention. This can cause an unrelated playable card to play.
 * If the player who performed the clue was in *Bluff Seat*, then it is to be treated like a *Bluff*, and thus they will not know where the actual *Elimination Card* is. (However, in most cases, at this point there will only be one remaining card with an *Elimination Note* on it, so it won't matter.)
 * If the player who performed the clue was not in *Bluff Seat*, then the blind-playing player is expected to keep playing until they find the intended card. This is similar to how a *Layered Finesse* works, but it is inverted such that they play cards from oldest to newest.
-
-### The Double Half Bluff
-
-* Sometimes, you see that two players in a row have playable *Finesse Position* cards. However, they are unrelated, so you can't get them both played with a *Double Finesse*. In this situation, by performing a clue that looks like a *Double Finesse*, you can get the first card played like a normal *Finesse* and the second card like a *Bluff*.
-* For example, in a 4-player game:
-  * Red 1 is played on the stacks.
-  * Alice clues Donald red, which touches a red 4 as a *Play Clue*.
-  * Bob goes next and assumes that it is a *Double Self-Finesse* - he has the red 2 and red 3 in his two newest slots. Thus, he blind-plays his left-most and it is red 2, as expected.
-  * Cathy goes next. Cathy sees that Bob does **not** have red 3 in his *Second Finesse Position* (and no one else has a red 3 in their *Finesse Position* either). Thus, Cathy must have the red 3. Cathy tries to blind-play red 3 from her *Finesse Position*, but is blue 1 instead.
-  * Bob now knows he does not have the red 3 anymore, since Cathy blind-played.
-  * Cathy now knows that since two blind-plays happened in a row, she does **not** have the red 3 and that she was *Bluffed*.
-  * At first, Donald thought that the red card in his hand was red 2 (as a *Play Clue*).
-  * After Bob blind-played, Donald thought that the red card in his hand was red 3 (as a *Finesse*).
-  * After Cathy blind-played, Donald knows that he must have the red 4 (as a *Double Half Bluff*).
-* Normally, players are only allowed to perform *Bluffs* while sitting in *Bluff Seat*. The *Double Half Bluff* is one of the few exceptions to the rule. (It is allowed because the lie still resolves "immediately", which satisfies *Good Lie Principle*.)
-
-### The Double Bluff
-
-* Similar to a *Double Half Bluff*, it is also possible to get 2 cards played in a row that are completely unrelated. It is distinct from a *Double Half Bluff* because **none** of the blind-played cards match the card that is clued.
-* For example, in a 4-player game:
-  * Red 1 is currently played on the stacks.
-  * Alice clues Donald red, which touches a red 4 as a *Play Clue*.
-  * Since red 4 must be playable right now, Bob thinks he has the red 2 and the red 3. Bob blind-plays his *Finesse Position* card, but it is actually a blue 1.
-  * Cathy sees that Bob blind-played because of the red clue. However, since the red 4 is a two-away from playable card instead of a *one-away-from-playable* card, it must mean that it is a *Double Bluff* instead of a single *Bluff*. Cathy blind-plays her *Finesse Position* card and it is yellow 1.
-  * At first, Donald thought that the red card in his hand was red 2 (as a *Play Clue*).
-  * After Bob blind-played, Donald thought that the red card in his hand was red 3 (as a *Bluff*).
-  * After Cathy blind-played, Donald knows that he must have the red 4 (as a *Double Bluff*).
-* Normally, players are only allowed to perform *Bluffs* while sitting in *Bluff Seat*. The *Double Bluff* is one of the few exceptions to the rule. (It is allowed because the lie still resolves "immediately", which satisfies *Good Lie Principle*.)
-
-### The Triple Bluff (Illegal)
-
-* A *Double Bluff* is when a player clues a card that is two-away-from-playable and it gets two unrelated cards to blind-play from *Finesse Position*.
-* Logically, it follows from the *Double Bluff* that if a player clues a card that is three-away-from-playable, it would cause three unrelated cards to blind-play from *Finesse Position* as a *Triple Bluff*.
-* However, this is not the case. We explicitly agree that *Triple Bluffs* are illegal and not to be used. (*Triple One-Third Bluffs* and *Triple Two-Third Bluffs* are also illegal.)
-* The consequence of this is that if a player gives a *Play Clue* to a three-away-from-playable card (e.g. either a 4 or a 5) and it causes two cards to blind-play, then the next player should **not** continue to blind-play any more cards. See the next section for more information.
-
-### The 4 Double Bluff & The 5 Double Bluff
-
-* Since *Triple Bluffs* are illegal and not to be used, it is possible to perform a *Double Bluff* with a card that is not exactly two-away-from-playable. This is similar to how the *3 Bluff* convention works.
-* To review, this is the summary of how it works for 4's:
-  * If a 4 is given a *Play Clue* and it is one-away-from-playable, then it would only trigger a single *Bluff* (and not a *Double Bluff*).
-  * If a 4 is given a *Play Clue* and it is two-away-from-playable, then it would trigger a *Double Bluff*. (This would be a "normal" *Double Bluff*.)
-  * If a 4 is given a *Play Clue* and it is three-away-from-playable, then it would still only trigger a double *Bluff* (as a *4's Double Bluff* specifically).
-* To review, this is the summary of how it works for 5's:
-  * If a 5 is given a *Play Clue* and it is one-away-from-playable, then it would only trigger a single *Bluff* (and not a *Double Bluff*).
-  * If a 5 is given a *Play Clue* and it is two-away-from-playable, then it would trigger a *Double Bluff*. (This would be a "normal" *Double Bluff*.)
-    * Note that this would only happen if e.g. *5 Color Ejection* and *5 Number Discharge* would not apply.
-  * If a 5 is given a *Play Clue* and it is three-away-from-playable, then it would still only trigger a double *Bluff* (as a *5's Double Bluff* specifically).
-    * Note that this would only happen if e.g. *5 Color Ejection* and *5 Number Discharge* would not apply.
-  * If a 5 is given a *Play Clue* and it is four-away-from-playable, then it would still only trigger a double *Bluff* (as a *5's Double Bluff* specifically).
-    * Note that this would only happen if e.g. *5 Color Ejection* and *5 Number Discharge* would not apply.
-* For example, in a 5-player game:
-  * Nothing is played on the stacks.
-  * Alice clues Donald red, which touches a red 4 as a *Play Clue*.
-  * Bob tries to blind-play red 1 from his *Finesse Position*, but he instead plays a blue 1.
-  * Cathy knows that this must be a *Double Bluff*. She blind-plays yellow 1 from her *Finesse Position*.
-  * Now, it is Donald's turn.
-    * At first, Donald thought that the red card in his hand was red 1 (as a *Play Clue*).
-    * After Bob blind-played, Donald thought that the red card in his hand was either a red 2 (as a *Bluff*) or a red 3 (as a *3 Bluff*).
-    * After Cathy blind-played, Donald now knows that the red card in his hand is a red 4 (as a *4's Double Bluff*).
-      * (Donald knows that it cannot be a red 5, or else Bob would have blind-played his *Second Finesse Position*.)
-
-### The Hard 4 Double Bluff
-
-* Similar to a *Hard 3 Bluff*, it is also possible to perform a *Hard 4 Double Bluff*.
-* For example, in a 4-player game:
-  * No cards are played on the stacks.
-  * Alice clues number 4 to Donald, touching a red 4 as a *Play Clue*.
-  * Bob blind-plays red 1 from his *Finesse Position*.
-  * Cathy blind-plays red 2 from her *Finesse Position*.
-  * Even though red 1 and red 2 are the same suit as the red 4, the team knows that no-one is promised the red 3.
-
-### The 4 Double Bluff That Looks like a Double Half Bluff
-
-* Because any *Bluff* sequence that gets two cards blind-played can be a 4, this means that players have to account for the fact that a card that initiates a *Double Half Bluff* could also be a 4.
-* For example, in a 4-player game:
-  * It is the first turn of the game and nothing is played on the stacks.
-  * Alice clues red to Donald, touching a red 3 as a *Play Clue*.
-  * Bob blind-plays red 1.
-  * Cathy blind-plays blue 1.
-  * Normally, Donald would know that his red card is exactly a red 3, as a *Double Half Bluff*.
-  * However, Donald also knows that any 4 in the game can be used to perform a *Double Bluff*.
-  * Thus, Donald marks his red card as either a red 3 (if it was a *Double Half Bluff*) or a red 4 (if it was a *4 Double Bluff*).
-
-### The Hard 5 Double Bluff
-
-* Similar to a *Hard 3 Bluff* and a *Hard 4 Double Bluff*, it is also possible to perform a *Hard 5 Double Bluff*.
-* For example, in a 5-player game:
-  * It is the *Mid-Game* and all the 1's are played on the stacks.
-  * Alice clues number 5 to Emily, touching a red 5 as a *Play Clue*.
-  * Bob blind-plays a red 2 from his *Finesse Position*.
-  * Cathy blind-plays a red 3 from her *Finesse Position*.
-  * Donald sees that no-one else has any red cards in their hand. Thus, if this was a *Triple Finesse* on the red 5, then Donald should blind-play the red 4 right now.
-  * However, Donald also knows that 5's are valid *Double Bluff* targets. Since number 3 does not match number 5, Donald knows that he should prefer the *Double Bluff* interpretation (that gets two blind-plays) over the *Triple Finesse* interpretation (that gets three blind-plays).
 
 ### The Out-of-Position Bluff (OOP) / The Reverse Bluff
 
@@ -2710,7 +2729,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 15 - Rarely Used Strategies - Special Suboptimal Moves
+## Level 17 - Rarely Used Strategies - Special Suboptimal Moves
 
 * The following *Finesses* or *Bluffs* are triggered by performing a suboptimal clue or by picking a strange choice for a clue.
 
@@ -2755,7 +2774,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 15 - Rarely Used Strategies - Pushes & Pulls
+## Level 17 - Rarely Used Strategies - Pushes & Pulls
 
 ### The Trash Push Prompt & The Trash Push Finesse
 
@@ -2789,7 +2808,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 15 - Rarely Used Strategies - Ejection
+## Level 17 - Rarely Used Strategies - Ejection
 
 * *Ejection* refers to a move like a *Bluff*, but instead of playing an unrelated card from *Finesse Position*, someone plays an unrelated card from their *Second Finesse Position*. For example, if a player's hand is completely unclued, their *Second Finesse Position* is slot 2.
 * Just like a *Bluff*, an *Ejection* can only be performed on the very next player.
@@ -2842,7 +2861,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 15 - Rarely Used Strategies - Discharge
+## Level 17 - Rarely Used Strategies - Discharge
 
 * *Discharge* is similar to *Ejection*, except instead of blind-playing the *Second Finesse Position* card, the player plays the *Third Finesse Position* card.
 * Just like a *Bluff*, a *Discharge* can only be performed on the very next player.
@@ -2890,7 +2909,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 15 - Rarely Used Strategies - Ejection & Discharge Extensions
+## Level 17 - Rarely Used Strategies - Ejection & Discharge Extensions
 
 ### The Out-of-Position Ejection
 
@@ -2939,7 +2958,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 15 - Rarely Used Strategies - Save Clues & Non-Emergency Chop Moves
+## Level 17 - Rarely Used Strategies - Save Clues & Non-Emergency Chop Moves
 
 ### 2 Saves (Off Chop on the First Turn)
 
@@ -3000,7 +3019,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 15 - Rarely Used Strategies - Emergency Moves
+## Level 17 - Rarely Used Strategies - Emergency Moves
 
 ### The Fake Save
 
@@ -3120,7 +3139,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 15 - Rarely Used Strategies - Unnecessary Usage of Complicated Moves
+## Level 17 - Rarely Used Strategies - Unnecessary Usage of Complicated Moves
 
 * Some complicated moves have special versions that are defined as *unnecessary*.
 * For example, it is possible to perform either a *Trash Bluff* or an *Unnecessary Trash Bluff*.
@@ -3222,7 +3241,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 15 - Rarely Used Strategies - Miscellaneous
+## Level 17 - Rarely Used Strategies - Miscellaneous
 
 ### The Selfish Clue
 

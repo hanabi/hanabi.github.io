@@ -70,7 +70,7 @@ The following is a brief description of each level.
   * *[The Trash Chop Move](Reference.md#the-trash-chop-move)*
   * *[The 5's Chop Move](Reference.md#the-5s-chop-move)*
 
-#### Level 4 - Rookie
+#### Level 4 - Neophyte
 
 * Level 4 strategies should only be learned if you have played with the group for a week or so (40+ games of experience).
 * This level covers *Double Discard* situations and introduces *Layered Finesses*. Players at this level **only** tell the truth to each other.
@@ -80,7 +80,7 @@ The following is a brief description of each level.
   * *[The Layered Finesse](Reference.md#the-layered-finesse)*
   * *[The Clandestine Finesse](Reference.md#the-clandestine-finesse)*
 
-#### Level 5 - Apprentice
+#### Level 5 - Proselyte
 
 * Level 5 strategies should only be learned if you have 60+ games of experience with the group.
 * This level covers some more special kinds of *Chop Moves* and introduces the various "emergency" discards.
@@ -91,7 +91,7 @@ The following is a brief description of each level.
   * *[The Tempo Clue Chop Move](Reference.md#the-tempo-clue-chop-move)*
   * *[The Misplay Chop Move](Reference.md#the-misplay-chop-move)*
 
-#### Level 6 - Intermediate
+#### Level 6 - Rookie
 
 * Level 6 strategies should only be learned if you have 80+ games of experience with the group.
 * This level explains how to handle stalling situations.
@@ -100,7 +100,7 @@ The following is a brief description of each level.
   * *[The Anxiety Play](Reference.md#the-anxiety-play)*
   * *[The 8 Clue Save](Reference.md#the-8-clue-save)*
 
-#### Level 7 - Fellow
+#### Level 7 - Apprentice
 
 * Level 7 strategies should only be learned if you have 100+ games of experience with the group.
 * This level explains how to do special discards that transfer cards to other players.
@@ -110,14 +110,14 @@ The following is a brief description of each level.
   * *[The Baton Discard](Reference.md#the-baton-discard)*
   * *[The Certain Finesse & The Certain Discard](Reference.md#the-certain-finesse--the-certain-discard)*
 
-#### Level 8 - Journeyman
+#### Level 8 - Intermediate
 
 * Level 8 strategies should only be learned if you have 120+ games of experience with the group.
 * This level introduces *Bluffs* and all of the complicated stipulations that go along with them.
 * Level 8 strategies are as follows:
   * *[The Bluff](Reference.md#the-bluff)*
 
-#### Level 9 - Advanced
+#### Level 9 - Fellow
 
 * Level 9 strategies should only be learned if you have 140+ games of experience with the group.
 * This level introduces *3 Bluffs* and some higher level concepts.
@@ -129,14 +129,14 @@ The following is a brief description of each level.
   * *[The Positional Discard](Reference.md#the-positional-discard)*
   * *[The Positional Misplay](Reference.md#the-positional-misplay)*
 
-#### Level 10 - Adept
+#### Level 10 - Journeyman
 
 * Level 10 strategies should only be learned if you have 160+ games of experience with the group.
 * This level introduces the concept of *Priority* and all of the complicated stipulations that go along with it.
 * Level 10 strategies are as follows:
   * *[The Priority Prompt & The Priority Finesse](Reference.md#the-priority-prompt--the-priority-finesse)*
 
-#### Level 11 - Senior
+#### Level 11 - Advanced
 
 * Level 11 strategies should only be learned if you have 180+ games of experience with the group.
 * This level introduces *Elimination* and all of the complicated situations that go along with it.
@@ -144,14 +144,14 @@ The following is a brief description of each level.
   * *[Discard Elimination](Reference.md#discard-elimination--elimination-notes--the-elimination-blind-play)*
   * *[The Elimination Finesse](Reference.md#the-elimination-finesse)*
 
-#### Level 12 - Scholar
+#### Level 12 - Adept
 
 * Level 12 strategies should only be learned if you have 200+ games of experience with the group.
 * This level introduces *Ejections*.
 * Level 12 strategies are as follows:
   * *[The 5 Color Ejection](Reference.md#the-5-color-ejection-5ce)*
 
-#### Level 13 - Erudite
+#### Level 13 - Senior
 
 * Level 13 strategies should only be learned if you have 220+ games of experience with the group.
 * This level introduces the "early" 5 moves.
@@ -159,9 +159,9 @@ The following is a brief description of each level.
   * *[The Early 5's Chop Move](Reference.md#the-early-5s-chop-move)*
   * *[The 5 Pull](Reference.md#the-5-pull)*
 
-#### Level 14 - Expert
+#### Level 14 - Scholar
 
-* Level 14 strategies should only be learned if you have 220+ games of experience with the group.
+* Level 14 strategies should only be learned if you have 240+ games of experience with the group.
 * This level covers moves that are complicated, difficult to see, or require a deeper understanding of how Hanabi works in order to work properly.
 * Level 14 strategies are as follows:
   * *[The Occupied Finesse](Reference.md#the-occupied-play-clue--the-occupied-finesse-opc)*
@@ -170,10 +170,26 @@ The following is a brief description of each level.
   * *[The Trash Bluff](Reference.md#the-trash-bluff)*
   * [*Finesses* with a *Lie Component*](Reference.md#finesses-with-a-lie-component)
 
-#### Level 15 - Rarely Used
+#### Level 15 - Erudite
 
-* Level 15 strategies are separated from the rest because they do not come up that often. Thus, non-expert players do not have to worry about learning them. If they do come up in a game, players with experience can often figure out what to do on-the-fly. Even if they don't, they can quickly learn about them in the post-game review, and then use the document as a reference later on in case they need to refresh their memory.
-  * [Level 15 Section](Reference.md#level-15---rarely-used-strategies)
+* Level 15 strategies should only be learned if you have 260+ games of experience with the group.
+* This level covers *Double Bluffs* and all of the complicated stipulations that go along with them.
+* Level 14 strategies are as follows:
+  * *[The Double Half Bluff](Reference.md#the-double-half-bluff)*
+  * *[The Double Bluff](Reference.md#the-double-bluff)*
+  * *[The 4 Double Bluff & The 5 Double Bluff]()*
+
+#### Level 16 - Expert
+
+* Level 16 strategies should only be learned if you have 280+ games of experience with the group.
+* This level covers ?
+* Level 16 strategies are as follows:
+  * ?
+
+#### Level 17 - Rarely Used
+
+* Level 17 strategies are separated from the rest because they do not come up that often. Thus, non-expert players do not have to worry about learning them. If they do come up in a game, players with experience can often figure out what to do on-the-fly. Even if they don't, they can quickly learn about them in the post-game review, and then use the document as a reference later on in case they need to refresh their memory.
+  * [Level 17 Section](Reference.md#level-17---rarely-used-strategies)
 
 <br />
 
