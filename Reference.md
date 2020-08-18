@@ -3392,12 +3392,12 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 * If a player could cleanly *Finesse* a card but instead opts to clue it directly, there must be a good reason.
 * If the clue does **not** touch any other new cards, and this is **not** a mistake or a strange emergency situation, this is initiating a *Shadow Finesse*.
-* In this situation, the cluing player intends for a blind-play from the *Finesse Position* that **matches the true *Finesse Position*** of the other card. This is called a *Shadow Finesse* because the positional blindplay is a "shadow" of the card that could have been used for the Finesse (the *"Target"*).
+* In this situation, the cluing player intends for a blind-play from the *Finesse Position* that **matches the true *Finesse Position*** of the other card. This is called a *Shadow Finesse* because the positional blind-play is a "shadow" of the card that could have been used for the Finesse (the *"Target"*).
 * The Shadow **must** exist in the immediate next player's hand, unless they themselves were the player who received the clue. In this case, there are two possibilities:
    1) If Bob sees that Cathy's *matching Finesse Position* is playable, then he knows that card must be the Shadow (as a *Reverse Shadow Finesse*).
    2) If Cathy's *matching Finesse Position* is **not** immediately playable, he knows he himself must have the Shadow (as a *Self Shadow Finesse*).
-* The player holding the Shadow **must** blindplay it immediately to resynchronize the team.
-* Once a Shadow blindplay has been demonstrated, the team should consider the Target card as being **fully known and ‘touched’** (this means it no longer occupies a 'Finesse Position' even though it has not been touched).
+* The player holding the Shadow **must** blind-play it immediately to resynchronize the team.
+* Once a Shadow blind-play has been demonstrated, the team should consider the Target card as being **fully known and ‘touched’** (this means it no longer occupies a 'Finesse Position' even though it has not been touched).
 * For example, in a 4-player game: 
   * It is the first turn and nothing is played on the stacks.
   * Alice clues one to David, touching a single red 1 on slot one.
@@ -3412,9 +3412,9 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Bob recognizes that this must be a *Shadow Finesse*, and must determine where the Shadow lies: 
   * David's red 2 is on *third Finesse Position*, so Bob must see whether Cathy's *third Finesse Position* is playable. If it is not, he himself must hold the Shadow on his own *third Finesse Position*.
   * Sure enough, Cathy's slot 3 is a green 1, so Bob knows that this was a *Reverse Shadow Finesse*. Bob plays his red 1.
-  * From Cathy's perspective, she now knows this indeed was a *Reverse Shadow Finesse* and she must immediately blindplay her *third Finesse Position*
-  * From David's perspective, the blindplayed green 1 is very surprising. He realizes what has happened, and marks his matching red 2 appropriately.
-* A _Shadow Finesse_ is **Illegal** if the blindplay could be misinterpreted as a different kind of move:
+  * From Cathy's perspective, she now knows this indeed was a *Reverse Shadow Finesse* and she must immediately blind-play her *third Finesse Position*
+  * From David's perspective, the blind-played green 1 is very surprising. He realizes what has happened, and marks his matching red 2 appropriately.
+* A _Shadow Finesse_ is **Illegal** if the blind-play could be misinterpreted as a different kind of move:
    1. When the Shadow would play from *First Finesse Position* and could be misinterpreted as a *Bluff* or *Trash Finesse*.
    2. When the Shadow would play from *Second* or *Third Finesse Position* and could be misinterpreted as a _5 Color Ejection_ or _Unknown Trash Discharge_.
 * The Shadow must come before the Target: in other words, it is normally **Illegal** for Bob to hold the Target (since he can't clearly see that a _Shadow Finesse_ is occurring and therefore might try to clue or _Bluff_ the Shadow in Cathy's hand).
