@@ -905,7 +905,7 @@ Note that in this user interface, players are **not** holding their hands like t
   * It is the *Early Game*.
   * Alice plays the red 1 from her hand. (It was clued earlier with a *Play Clue*.)
   * Bob sees that from Alice's perspective, there is nothing in Cathy's hand to clue.
-  * Cathy has a red 3 on chop. This is a one-away-from-playable card that is valuable to the team. However, it would be illegal to clue the card directly with a *Play Clue* or a *Save Clue*.
+  * Cathy has a red 3 on chop. This is a *one-away-from-playable* card that is valuable to the team. However, it would be illegal to clue the card directly with a *Play Clue* or a *Save Clue*.
   * Alice has a red 5 on chop. According to the *Early Game* rules, someone must clue the 5 before ending the *Early Game*. However, Bob knows that as an exception, it is not required to clue the person who came immediately before you. When Alice played the red 1 and did not see anything for Bob to do, Alice was giving permission to Bob to discard.
   * Bob decides to discard instead of saving the 5 in Alice's hand.
   * Cathy clues number 5 to Alice as a *5 Save*.
@@ -1315,7 +1315,7 @@ Note that in this user interface, players are **not** holding their hands like t
   * Bob blind-plays the blue 1.
   * This could be a *Triple Finesse* (on blue 1 + blue 2 + blue 3 into blue 4) or it could be a *Bluff* (on just blue 1 into red 4).
   * However, this must be a *Bluff*, because **1 does not match 4**. So Cathy should think that she has the *one-away-from-playable* 4, the red 4.
-  * The point of example 5 is to show that because a 2 happens to be played on the stacks, the blue 4 is a one-away-from-playable card and therefore becomes a legal *Bluff* target.
+  * The point of example 5 is to show that because a 2 happens to be played on the stacks, the blue 4 is a *one-away-from-playable* card and therefore becomes a legal *Bluff* target.
 * Example 5 (rank mismatch where a *Bluff* is impossible):
   * This is a 4-player game.
   * Nothing is played on the stacks.
@@ -1364,7 +1364,7 @@ Note that in this user interface, players are **not** holding their hands like t
   * Alice clues Donald red, which touches one red 4 as a *Play Clue*.
   * Bob knows that he must have the red 2. If he blind-plays the red 2 (as a *Finesse*), then Cathy will play the red 3 (as a *Prompt*), and Donald will play the red 4.
   * Bob plays his *Finesse Position* card as red 2. Instead, it is a blue 2 and it successfully plays.
-  * From Cathy's perspective, she knows that the red 4 is *two-away-from-playable* instead of *one-away-from-playable*. *Bluffs* on *two-away-from-playable* cards are normally illegal. Thus, Cathy's mystery 3 must be exactly red 3, making the red 4 one-away-from-playable after all.
+  * From Cathy's perspective, she knows that the red 4 is *two-away-from-playable* instead of *one-away-from-playable*. *Bluffs* on *two-away-from-playable* cards are normally illegal. Thus, Cathy's mystery 3 must be exactly red 3, making the red 4 *one-away-from-playable* after all.
   * Cathy discards.
   * From Donald's perspective, since red (the type of clue that was given) does not match blue (the card that was blind-played), this must be a *Bluff*. Normally, since the red 1 is currently played on the stacks, Donald would think that he has the red 3 (e.g. the *one-away-from-playable* red card).
   * However, Cathy already has a clued red 3 in her hand. If Donald also had a red 3, then Alice's clue would be violating *Good Touch Principle*. Thus, Donald must have the red 4 instead.
@@ -2120,14 +2120,14 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### The Unknown Trash Discharge (UTD)
 
-* In general, *Bluffs* work because the blind-play tells the person who was clued that they have a one-away-from-playable card of that color.
+* In general, *Bluffs* work because the blind-play tells the person who was clued that they have a *one-away-from-playable* card of that color.
 * In general, *Trash Bluffs* work because the blind-play tells the person who was clued that they have a trash card.
 * Players must be careful to not give a *Trash Bluff* that looks like a *Bluff* - that will desynchronize the team.
 * For example, in a 3-player game:
   * All the 1's are played on the stacks.
   * Alice clues red to Cathy, touching a red 1 as a *Play Clue*.
   * Bob blind-plays his *Finesse Position* and it successfully plays as blue 2.
-  * Cathy knows that a *Bluff* has occurred and marks her red card as red 3 (the one-away-from-playable red card).
+  * Cathy knows that a *Bluff* has occurred and marks her red card as red 3 (the *one-away-from-playable* red card).
   * Of course, this is a lie, because Cathy's red card is actually a red 1. The team will likely get a misplay at some point in the future.
 * If the above example happens and Alice is not making a mistake, then Alice must be trying to communicate something extra. This should signal an *Discharge* on the very next player.
 * Since the *Third Finesse Position* card was played instead of the *Finesse Position* card, then the player who received the clue will know that the card is trash.
@@ -2187,11 +2187,11 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 * Since *Triple Bluffs* are illegal and not to be used, it is possible to perform a *Double Bluff* with a card that is not exactly two-away-from-playable. This is similar to how the *3 Bluff* convention works.
 * This is how it works for 4's:
-  * If a 4 is given a *Play Clue* and it is one-away-from-playable, then it would only trigger a single *Bluff* (and not a *Double Bluff*).
+  * If a 4 is given a *Play Clue* and it is *one-away-from-playable*, then it would only trigger a single *Bluff* (and not a *Double Bluff*).
   * If a 4 is given a *Play Clue* and it is two-away-from-playable, then it would trigger a *Double Bluff*. (This would be a "normal" *Double Bluff*.)
   * If a 4 is given a *Play Clue* and it is three-away-from-playable, then it would still only trigger a double *Bluff* (as a *4's Double Bluff* specifically).
 * This is how it works for 5's:
-  * If a 5 is given a *Play Clue* and it is one-away-from-playable, then it would only trigger a single *Bluff* (and not a *Double Bluff*).
+  * If a 5 is given a *Play Clue* and it is *one-away-from-playable*, then it would only trigger a single *Bluff* (and not a *Double Bluff*).
   * If a 5 is given a *Play Clue* and it is two-away-from-playable, then it would trigger a *Double Bluff*. (This would be a "normal" *Double Bluff*.)
     * Note that this would only happen if e.g. *5 Color Ejection* and *5 Number Discharge* would not apply.
   * If a 5 is given a *Play Clue* and it is three-away-from-playable, then it would still only trigger a double *Bluff* (as a *5's Double Bluff* specifically).
@@ -2711,7 +2711,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Cathy knows that technically, she could give a *Fix Clue* to Bob to fix the situation. However, is that what Alice really intended? That would be waste a clue and would be really inefficient. Alice must be trying to communicate something extra.
 * In almost all cases, Cathy should blind-play her *Finesse Position* card as the red 2. Doing so would "heal" the situation, since Bob would no longer think he has the red 2.
 * Furthermore, Cathy could also be blind-playing **any** playable card. Even if it is not the red 2, blind-playing any card would equally "heal" the situation, because Bob would know that Cathy is blind-playing from the same clue.
-* This is a kind of *Double Bluff*, since it gets two people in a row to blind-play their *Finesse Position*, getting two unrelated cards. However, unlike a normal *Double Bluff*, a *Pestilent Double Bluff* is initiated by cluing a one-away-from-playable card (instead of a two-or-more-away-from-playable card).
+* This is a kind of *Double Bluff*, since it gets two people in a row to blind-play their *Finesse Position*, getting two unrelated cards. However, unlike a normal *Double Bluff*, a *Pestilent Double Bluff* is initiated by cluing a *one-away-from-playable* card (instead of a two-or-more-away-from-playable card).
 * Additionally, consider the case where Cathy sees one red 2 of someone else's hand (e.g. Donald's hand). In this hypothetical, Cathy could just give a *Play Clue* to the red 2 in Donald's hand, Donald would play the card, and that would "heal" the situation, because Bob would no longer think that he has the red 2. However, we agree that Cathy should **not** do this and should **still** blind-play her *Finesse Position* card. (This is because doing something weird like this for a 3-for-2 is not strong enough.)
 * Additionally, consider the case where Cathy sees **both** copies of red 2 in someone else's hand (e.g. Donald's hand). In this hypothetical, Bob would not go on to misplay the red 2, so no further action is needed to heal the situation. However, we agree that Cathy should **still** blind-play her *Finesse Position* card (as a *Known Pestilent Double Bluff*). (This is because seeing both copies is so rare that we do not want complicate things by having to consider it.)
 * More examples of a *Pestilent Double Bluff* can be found [here](examples/Pestilent_Double_Bluff.md).
@@ -2719,7 +2719,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 ### The Pestilent Triple Bluff
 
 * First, see the section on the *[Pestilent Double Bluff](#pestilent-double-bluff)*.
-* Rarely, it is possible that a *Pestilent*-style clues is performed with a two-away-from-playable card instead of a one-away-from-playable card. In this situation, it would transform into a *Triple Bluff* instead of a *Double Bluff*.
+* Rarely, it is possible that a *Pestilent*-style clues is performed with a two-away-from-playable card instead of a *one-away-from-playable* card. In this situation, it would transform into a *Triple Bluff* instead of a *Double Bluff*.
 * Note that normally, *Triple Bluffs* are explicitly illegal. But *Pestilent Triple Bluffs* are an exception to this rule.
 * For example, in a 5-player game:
   * All the 1's are played on the stacks.
@@ -2905,7 +2905,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * This convention only applies in the *Early Game*.
 * In the *Early Game*, if a number 5 clue is performed on a 5 that is not already on chop, then the clue is a *5 Stall*.
 * If a *5 Stall* is not allowed, then it is a *5's Chop Move* (if the card is one-away-from-chop) or a *5 Pull* (if the card is two or more away from chop).
-* If a *5 Pull* is performed on a card that is one-away-from-playable, it typically communicates a *5 Pull Finesse*.
+* If a *5 Pull* is performed on a card that is *one-away-from-playable*, it typically communicates a *5 Pull Finesse*.
 * However, if the *5 Pulled* card is two or more away from playable **or** the *5 Pulled* card is trash, players agree that this signals a *Discharge* and that the next player should play their *Third Finesse Position*.
 * For example, in a 3-player game:
   * It is the first turn and nothing is played on the stacks.
