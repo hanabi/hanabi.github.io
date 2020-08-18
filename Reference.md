@@ -47,13 +47,14 @@ Note that convention updates for the group are listed in the `#announcements` ch
 14. [Level 13 - Erudite](#level-13---erudite)
 15. [Level 14 - Expert](#level-14---expert)
 16. [Level 15 - Rarely Used Strategies](#level-15---rarely-used-strategies)
-    * [Save Clues & Non-Emergency Chop Moves](#level-15---rarely-used-strategies-save-clues--non-emergency-chop-moves)
-    * [Finesses & Bluffs](#level-15---rarely-used-strategies-finesses--bluffs)
+    * [Special Finesses](#level-15---rarely-used-strategies-special-finesses)
+    * [Special Bluffs](#level-15---rarely-used-strategies-special-bluffs)
     * [Pushes & Pulls](#level-15---rarely-used-strategies-pushes--pulls)
-    * [Emergency Moves](#level-15---rarely-used-strategies-emergency-moves)
     * [Ejection](#level-15---rarely-used-strategies-ejection)
     * [Discharge](#level-15---rarely-used-strategies-discharge)
     * [Ejection & Discharge Extensions](#level-15---ejection--discharge-extensions)
+    * [Save Clues & Non-Emergency Chop Moves](#level-15---rarely-used-strategies-save-clues--non-emergency-chop-moves)
+    * [Emergency Moves](#level-15---rarely-used-strategies-emergency-moves)
     * [Unnecessary Usage of Complicated Moves](#level-15---unnecessary-usage-of-complicated-moves)
     * [Miscellaneous](#level-15---rarely-used-strategies-miscellaneous)
 17. [Variant-Specific Strategies](#variant-specific-strategies)
@@ -2117,64 +2118,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 15 - Rarely Used Strategies (Save Clues & Non-Emergency Chop Moves)
-
-### 2 Saves (Off Chop on the First Turn)
-
-* On the first turn of the game, it is not possible to discard. If there is absolutely nothing else to do, it is permissible in this situation to use a number 2 clue to save a 2 that is **not** on chop, but only if the other players can see that you had no other choice.
-* This situation typically only happens in 3-player games.
-
-### 2 Saves (Advanced Section; Interaction With 5's Chop Moves / 5 Pulls)
-
-* Normally, in the *Early Game*, if a player performs a number 5 clue on an off-chop 5 and there are other things to do, this is normally a *5's Chop Move* or a *5 Pull*.
-* However, to the person receiving the number 5 clue, what if the only thing left to do is a *2 Save* on someone's chop? Note that *2 Saves* are not required on 2's that are visible in other people's hands. If the person receiving the number 5 clue has the other copy of the 2 in their hand, then the 5 clue would just be a normal *5 Stall*.
-* In this situation, the player is expected to mark *Elimination Notes* on their hand for the other copy of the 2. Furthermore, they are not allowed to save the other copy of the 2, so they must give some other clue or discard.
-* For example, in a 4-player game:
-  * It is the first turn and nothing is played on the stacks.
-  * Alice clues number 5 to Bob, touching a 5 on slot 1.
-  * From Bob's perspective, he does not see any other *Play Clues* or *Save Clues* that Alice could have given, with the exception of a *2 Save* on a red 2 on Cathy's chop.
-  * Thus, Alice's number 5 clue could be either a *5 Pull* or a *5 Stall*, depending on whether or not Bob has the other copy of the red 2 in his hand.
-  * Bob knows that in this situation, *5 Stalls* take precedence over *5 Pulls*, so he marks his hand for the other copy of red 2 and discards.
-
-### 2 Saves (Advanced Section; Interaction With Double Chop 2's and 5 Stalls)
-
-* Normally, players are only allowed to perform a *5 Stall* in the *Early Game* (or another valid stalling situation) only if there is no normal *Save Clues* to give.
-* However, what if the same 2 is on the chop of two different players?
-  * Normally, when two different players have the same 2, no-one is required to give a *Save Clue* to the first one.
-  * But when *both* of the 2's are on chop, the team has to choose to save one of them and they can choose whichever player that they want.
-* Subsequently, it is **illegal** for someone to perform a *5 Stall* if both copies of the same 2 are both on the chop of two different players. They must instead choose to save one of the 2's.
-
-### Spillover Chop Move
-
-* If an *Order Chop Move* or a *Trash Order Chop Move* is performed, but the player who is supposed to *Chop Move* already has every single card in their hand clued, then this is very strange.
-* In this situation, the *Chop Move* should "skip" over that player and *Chop Move* the next person after that.
-
-### The Chop Transfer
-
-* Sometimes, duplicated cards are accidentally *Chop Moved* through a mistake or through a complicated situation. When this happens, it is pointless to use a clue to "undo" the *Chop Move* - the team can just continue to allow the player to discard normally.
-* Subsequently, if someone **does** use a clue to undo the *Chop Move*, there must be a good reason. This means that the card they were about to discard is important, so the player should discard the now-known useless card and then permanently *Chop Move* their new chop.
-
-<br />
-
 ## Level 15 - Rarely Used Strategies (Finesses & Bluffs)
-
-### The Selfish Clue
-
-* A *Selfish Clue* is when a player:
-  1) has a playable card in their hand (e.g. red 2)
-  2) gives a *Play Clue* to the next connecting card (e.g. red 3)
-* In almost all cases, there is no reason to give a *Selfish Clue*. Players can simply play their playable card and let someone else on the team "get" the next card. Being *Selfish* is typically associated with having bad teamwork.
-* However, in rare cases, giving a *Selfish Clue* can be good.
-* For example, in a 3-player game:
-  * All the 1's are played on the stacks.
-  * Alice has a globally-known playable red 2 in her hand.
-  * Bob hand is as follows, from newest to oldest: `blue 1, red 3, red 4, red 5, blue 1`
-  * Both Bob and Cathy has a safe discard.
-  * Alice knows that on this turn, she is expected to play the red 2, unless she has a really good clue to give.
-  * Alice sees that if she plays the red 2, then Bob will probably have nothing to do, and will go on to discard the blue 1.
-  * At that point, the red 5 will be on chop, and it will be difficult for the team to get all of the red cards. Specifically, someone will probably have to give a number 3 clue to Bob as a 1-for-1 on the red 3.
-  * Alice sees that if she gives a red clue to Bob *right now* (e.g. before she plays the red 2), then she will be able to "lock-in" a nice 3-for-1 clue. Even though the team will lose *Tempo*, this will be inconsequential because Bob has a safe discard and Cathy has a safe discard.
-  * Alice clues red to Bob as a *Selfish Play Clue*.
 
 ### The Selfish Finesse (A Finesse Through Your Own Hand)
 
@@ -2703,6 +2647,37 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Bob discards.
   * Cathy blind-plays blue 3.
 
+### The Shadow Finesse
+
+* If a player could cleanly *Finesse* a card but instead opts to clue it directly, there must be a good reason.
+* If the clue does **not** touch any other new cards, and this is **not** a mistake, and this is **not** an emergency situation, this is initiating a *Shadow Finesse*.
+* In this situation, the cluing player intends for a blind-play from the *Finesse Position* that **matches the true *Finesse Position*** of the other card. This is called a *Shadow Finesse* because the positional blind-play is a "shadow" of the card that could have been used for the Finesse (the *"Target"*).
+* The Shadow **must** exist in the immediate next player's hand, unless they themselves were the player who received the clue. In this case, there are two possibilities:
+   1) If Bob sees that Cathy's *matching Finesse Position* is playable, then he knows that card must be the Shadow (as a *Reverse Shadow Finesse*).
+   2) If Cathy's *matching Finesse Position* is **not** immediately playable, he knows he himself must have the Shadow (as a *Self Shadow Finesse*).
+* The player holding the Shadow **must** blind-play it immediately to resynchronize the team.
+* Once a Shadow blind-play has been demonstrated, the team should consider the Target card as being **fully known and ‘touched’** (this means it no longer occupies a 'Finesse Position' even though it has not been touched).
+* For example, in a 4-player game:
+  * It is the first turn and nothing is played on the stacks.
+  * Alice clues one to David, touching a single red 1 on slot one.
+  * Bob sees this is very strange: Cathy has a red 2 that could have been cleanly touched as a *Finesse*.
+  * Bob recognizes that this must be a *Shadow Finesse*, meaning he must hold the red 2's 'shadow'.
+  * Since the red 2 is in Cathy's *Fourth Finesse Position* (slot 4), Bob immediately plays his *matching (fourth) Finesse Position**.
+  * Cathy is surprised, but recognizes that a *Shadow Finesse* has a occurred: she immediately marks her *fourth Finesse Position* as exactly Red 2.
+* For an example of the *Reverse* form, in a 4-player game:
+  * It is the first turn and nothing is played on the stacks.
+  * Alice clues red to Bob, touching a single red card on slot one.
+  * Bob sees this is very strange: he sees that David has a red 2 that could have been cleanly touched as a *Finesse*
+  * Bob recognizes that this must be a *Shadow Finesse*, and must determine where the Shadow lies:
+  * David's red 2 is on *third Finesse Position*, so Bob must see whether Cathy's *third Finesse Position* is playable. If it is not, he himself must hold the Shadow on his own *third Finesse Position*.
+  * Sure enough, Cathy's slot 3 is a green 1, so Bob knows that this was a *Reverse Shadow Finesse*. Bob plays his red 1.
+  * From Cathy's perspective, she now knows this indeed was a *Reverse Shadow Finesse* and she must immediately blind-play her *third Finesse Position*
+  * From David's perspective, the blind-played green 1 is very surprising. He realizes what has happened, and marks his matching red 2 appropriately.
+* A _Shadow Finesse_ is **Illegal** if the blind-play could be misinterpreted as a different kind of move:
+   1. When the Shadow would play from *First Finesse Position* and could be misinterpreted as a *Bluff* or *Trash Finesse*.
+   2. When the Shadow would play from *Second* or *Third Finesse Position* and could be misinterpreted as a _5 Color Ejection_ or _Unknown Trash Discharge_.
+* The Shadow must come before the Target: in other words, it is normally **Illegal** for Bob to hold the Target (since he can't clearly see that a _Shadow Finesse_ is occurring and therefore might try to clue or _Bluff_ the Shadow in Cathy's hand).
+
 ### The Purge Bluff (Layered Bluff)
 
 * This convention only applies to 3-player games.
@@ -2788,105 +2763,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Thus, this must be a *5 Double Pull*, so Bob blind-plays his *Finesse Position* card. It is blue 1 and it successfully plays.
   * Cathy knows that if this was an *Early 5's Chop Move*, then Bob would not have blind-played anything. Since he blind-played his *Finesse Position* card, this must be a *5 Double Pull*. Cathy blind-plays her slot 4 card (the card to the right of the clued 5).
 * More examples of a *5 Double Pull* can be found [here](examples/5_Double_Pull.md).
-
-<br />
-
-## Level 15 - Rarely Used Strategies (Emergency Moves)
-
-### The Fake Save
-
-* We are only able to perform *Save Clues* on specific cards and in specific ways, as outlined in the Beginner's Guide. For example, we all agree that we must save 5's with number 5.
-* In some specific circumstances, the team will have only one clue available and multiple cards must be saved with a single clue. In this situation, to prevent losing the game (or losing a currently-playable card), it is permissible to "lie" to the player and perform a non-legal *Save Clue*. The player will mark their chop card as something other than what it really is, so this move commits the team to giving a *Fix Clue* at some point in the future.
-* For example, in a 3-player game:
-  * Alice has 1 clue available.
-  * Bob has a red 5 on chop, followed by a red 4. The other copy of the red 4 is in the discard pile, so there are two critical cards in a row.
-  * Alice is not allowed to save the red 5 with a red clue, because then it would look like a *Save Clue* on a red 4.
-  * However, if Alice clues number 5 to Bob, then he will discard the red 4.
-  * Thus, Alice performs a *Fake Save* on both red cards by cluing red.
-  * Bob will mark his chop as the red 4, so the team will have to give him a number 5 clue as a *Fix Clue* at some point in the future. At that point, Bob will be surprised, but he will be able to retroactively see that Alice was in a very tight spot and had to give a *Fake Save*.
-* Note that normally, *Fake Saves* are **only allowed as a last resort**. If there is some other line that would "work" or be safe without a *Fake Save*, then players have to prefer that. Subsequently, *Fake Saves* are extremely rare.
-
-### The Sacrifice Discard
-
-* It is generally undesirable for a player to have a "fully locked" hand, but sometimes it happens. And sometimes, one card in the locked hand is useful in the future, but not critical (meaning there is another copy of the card in someone else's hand or still in the deck).
-* Normally, you are never supposed to discard cards that have clues on them, as if you do, it implies a *Sarcastic Discard* or a *Gentleman's Discard*. However, in this situation, the player who is locked can choose to "sacrifice" one of the cards in their hand that is non-critical. And in this situation, it does **not** imply a *Sarcastic Discard* or a *Gentleman's Discard*.
-
-### The Unnecessary Generation Discard
-
-* Sometimes, in order to satisfy *Save Principle*, a player will perform an unnecessary *Generation Discard*, which generates a clue to save a card that they actually already have in their hand.
-* This puts the next player in an ambiguous situation: was it really a *Generation Discard*, or could it a *Scream Discard*? In order to cover both situations, they should not *Chop Move*, but they should also not discard on this turn.
-* For example, in a 3-player game:
-  * Red 3 is played on the stacks. No blue cards are played on the stacks.
-  * Alice has a blue 1 in her hand. She knows the exact identity of it, so it is known playable.
-  * Alice also has a 4 clued in her hand. She does not know what color it is.
-  * There are 0 clues, so if Alice plays the blue 1, Bob will be forced to discard.
-  * Alice sees that Cathy has a red 4 on chop, which is playable. If Alice does not have red 4 in her hand, then Cathy could potentially discard the red 4 (after Bob is forced to discard).
-  * So, Alice performs a *Generation Discard* to generate a clue so that Bob can clue the get the red 4, if necessary.
-  * Bob sees that Alice does indeed already have the red 4 in her hand, so from his perspective, if Alice was performing a *Generation Discard*, it was unnecessary.
-  * However, it could also be the case that Bob's chop is unsafe. So, Bob will **not** clue the red 4 on Cathy's chop, but he **will** spend the clue in some other productive fashion. If Bob has nothing productive to do, he must "burn" a clue, similar to what happens when a *Scream Discard* occurs.
-
-### The Shout Discard Chop Move
-
-* Normally, when a player performs a *Scream Discard*, they are discarding their chop (e.g. an unknown and unclued card).
-* However, if a player has both a known-playable card and a known-trash card, then discarding the known-trash card instead of playing their known-playable card would *still* communicate a *Scream Discard* to the next player in the exact same way.
-* This situation is slightly different than the normal case, so we call it a *Shout Discard* to differentiate it from a more-ordinary *Scream Discard*.
-* A *Shout Discard* *Chop Moves* the very next player in the exact way that a *Scream Discard* does.
-* A *Shout Discard* forces the next player to **not** discard on their turn in the exact way that a *Scream Discard* does.
-* Normally, a *Scream Discard* is only allowed to *Chop Move* a critical card or a playable card. However, unlike a *Scream Discard*, it is permissible to use a *Shout Discard* to *Chop Move* any card that is desirable, even if it is not critical or playable.
-* Normally, a *Scream Discard* is only allowed if the team is at 0 clues (or if cluing the card is impossible). However, unlike a *Scream Discard*, it is permissible to use a *Shout Discard* to *Chop Move* regardless of the amount of clues that the team has.
-* Normally, a *Scream Discard* would turn into an *Echo Scream Discard* if the next player has a playable card. *Shout Discards* can also turn into *Echo Shout Discards*, but only if the team is completely out of clues and it can be seen to be a "last-resort" move.
-
-### The Whisper Discard Chop Move
-
-* Occasionally, a player will have known trash in their hand. Obviously, they are expected to discard the known trash first before discarding their right-most unclued card.
-* Thus, if a player instead discards their right-most unclued card instead of the known trash, it must be a signal that something is wrong, exactly like a *Scream Discard*. This is more subtle than a *Scream Discard* though, so it is called a Whisper Discard.
-* *Whisper Discards* are to be treated identically to *Scream Discards*. In short, this means that they 1) cause a *Chop Move* and 2) force a clue to be given on the next turn.
-
-### The Echo Scream Discard Chop Move
-
-* A *Scream Discard Chop Move* is done only as a last resort. So, if the next player has an unimportant card on chop, then the move is usually a *Generation Discard* and does not *Chop Move* anyone.
-* However, what if a *Scream Discard* is done and the next player has either:
-  * a known playable card
-  * a known safe trash discard
-* Since *Scream Discards* are only done as a last resort, the clue must have some other meaning. So, it *Chop Moves* both the next player **and** the player after that. This is called an *Echo Scream Discard*, because it "bounces" off the next player and travels to the next player after that as a "double scream".
-* Similar to a normal *Scream Discard*, all of the players who are *Chop Moved* are not allowed to discard on their next turn.
-* In the unlikely scenario where **two** people in a row have known plays / known safe discards, then the *Echo Scream Discard* will bounce off of two people and perform **three** *Chop Moves* in total. (And three people in a row cause four *Chop Moves*, and so forth.)
-* An *Echo Whisper Discard* works in the same way.
-
-### The Composition Discard
-
-* In rare cases, it is possible for a discard to be both a *Scream Discard* and a *Generation Discard* at the same time, for two different players.
-* For example, in a 4-player game:
-  * There are 0 clues in the bank.
-  * Alice needs to plan ahead for her turn.
-  * Bob and Donald both have a critical chop card. Cathy has a safe discard.
-  * Alice and Bob both have one known playable card in their hand.
-  * So, if Alice plays, Bob will perform a *Generation Discard*, and discard a critical card. This is not an option.
-  * Therefore, Alice must discard. This is a *Scream Discard* to Bob, and he should *Chop Move*. It is also a *Generation Discard* to Cathy, and she should not *Chop Move*.
-
-### The Rebellious Discard
-
-* Part of the *Scream Discard* convention states that after a *Scream Discard*, the next player **cannot** discard. Thus, a player in this situation must completely waste a clue if there is nothing productive to do.
-* However, in some situations, the player who has been screamed at sees that if they give a clue, the next player will be left at 0 clues and will be forced to discard a critical card.
-* Thus, in this situation, the player should *Chop Move* as normal and then discard their new chop, which will functionally act as a second *Scream Discard*. This second *Scream Discard* is called a *Rebellious Discard*, because they are not doing what they are told.
-* For example, in a 3-player game:
-  * Red 4 is in the discard pile.
-  * There are 0 clues available.
-  * Alice has a known-playable blue 2.
-  * Bob has a red 4 on chop. Bob has no playable cards in his hand.
-  * Cathy's hand is *Locked*. All of the cards in Cathy's hand are critical. None of these cards are playable.
-  * Alice looks into the future and sees that if she plays the blue 2, Bob will be forced to discard the critical red 4, since the team is currently at 0 clues.
-  * Thus, Alice performs a *Scream Discard*, discarding instead of playing the known-playable blue 2.
-  * Bob knows that Alice performed a *Scream Discard*, so he marks his chop card as *Chop Moved*.
-  * Bob also knows that, as per the *Scream Discard* rules, he is not allowed to discard on this turn, and must give some clue instead (in case he has two critical cards in a row).
-  * However, in this case, if Bob did that, then Bob would be using the last clue, and then Cathy would not have a clue available and would be forced to discard a critical card.
-  * Thus, Bob knows that he must perform a *Rebellious Discard* in order to provide a clue for Cathy to do something.
-
-### The Double Scream Discard Chop Move
-
-* If a player has a known playable card and one known trash card, and then they discard the trash card instead of playing, then that is a *Scream Discard* and the next player should *Chop Move*.
-* If a player has a known playable card and two known trash cards, and then they discard the oldest trash card instead of playing, then that is both a *Scream Discard Chop Move* and a *Trash Order Chop Move* at the same time.
-* In this situation, the next player should *Chop Move* twice. (This is the composition of a *Scream Discard Chop Move* and a *Trash Order Chop Move*.)
 
 <br />
 
@@ -2991,7 +2867,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 15 - Ejection & Discharge Extensions
+## Level 15 - Rarely Used Strategies (Ejection & Discharge Extensions)
 
 ### The Out-of-Position Ejection
 
@@ -3037,6 +2913,165 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 * First, see the section on *[Stacked Ejection](#the-stacked-ejection)*.
 * Just like *Stacked Ejection*, it is possible to do *Stacked Discharge* in the exact same way.
+
+<br />
+
+## Level 15 - Rarely Used Strategies (Save Clues & Non-Emergency Chop Moves)
+
+### 2 Saves (Off Chop on the First Turn)
+
+* On the first turn of the game, it is not possible to discard. If there is absolutely nothing else to do, it is permissible in this situation to use a number 2 clue to save a 2 that is **not** on chop, but only if the other players can see that you had no other choice.
+* This situation typically only happens in 3-player games.
+
+### 2 Saves (Advanced Section; Interaction With 5's Chop Moves / 5 Pulls)
+
+* Normally, in the *Early Game*, if a player performs a number 5 clue on an off-chop 5 and there are other things to do, this is normally a *5's Chop Move* or a *5 Pull*.
+* However, to the person receiving the number 5 clue, what if the only thing left to do is a *2 Save* on someone's chop? Note that *2 Saves* are not required on 2's that are visible in other people's hands. If the person receiving the number 5 clue has the other copy of the 2 in their hand, then the 5 clue would just be a normal *5 Stall*.
+* In this situation, the player is expected to mark *Elimination Notes* on their hand for the other copy of the 2. Furthermore, they are not allowed to save the other copy of the 2, so they must give some other clue or discard.
+* For example, in a 4-player game:
+  * It is the first turn and nothing is played on the stacks.
+  * Alice clues number 5 to Bob, touching a 5 on slot 1.
+  * From Bob's perspective, he does not see any other *Play Clues* or *Save Clues* that Alice could have given, with the exception of a *2 Save* on a red 2 on Cathy's chop.
+  * Thus, Alice's number 5 clue could be either a *5 Pull* or a *5 Stall*, depending on whether or not Bob has the other copy of the red 2 in his hand.
+  * Bob knows that in this situation, *5 Stalls* take precedence over *5 Pulls*, so he marks his hand for the other copy of red 2 and discards.
+
+### 2 Saves (Advanced Section; Interaction With Double Chop 2's and 5 Stalls)
+
+* Normally, players are only allowed to perform a *5 Stall* in the *Early Game* (or another valid stalling situation) only if there is no normal *Save Clues* to give.
+* However, what if the same 2 is on the chop of two different players?
+  * Normally, when two different players have the same 2, no-one is required to give a *Save Clue* to the first one.
+  * But when *both* of the 2's are on chop, the team has to choose to save one of them and they can choose whichever player that they want.
+* Subsequently, it is **illegal** for someone to perform a *5 Stall* if both copies of the same 2 are both on the chop of two different players. They must instead choose to save one of the 2's.
+
+### Spillover Chop Move
+
+* If an *Order Chop Move* or a *Trash Order Chop Move* is performed, but the player who is supposed to *Chop Move* already has every single card in their hand clued, then this is very strange.
+* In this situation, the *Chop Move* should "skip" over that player and *Chop Move* the next person after that.
+
+### The Chop Transfer
+
+* Sometimes, duplicated cards are accidentally *Chop Moved* through a mistake or through a complicated situation. When this happens, it is pointless to use a clue to "undo" the *Chop Move* - the team can just continue to allow the player to discard normally.
+* Subsequently, if someone **does** use a clue to undo the *Chop Move*, there must be a good reason. This means that the card they were about to discard is important, so the player should discard the now-known useless card and then permanently *Chop Move* their new chop.
+
+<br />
+
+## Level 15 - Rarely Used Strategies (Emergency Moves)
+
+### The Fake Save
+
+* We are only able to perform *Save Clues* on specific cards and in specific ways, as outlined in the Beginner's Guide. For example, we all agree that we must save 5's with number 5.
+* In some specific circumstances, the team will have only one clue available and multiple cards must be saved with a single clue. In this situation, to prevent losing the game (or losing a currently-playable card), it is permissible to "lie" to the player and perform a non-legal *Save Clue*. The player will mark their chop card as something other than what it really is, so this move commits the team to giving a *Fix Clue* at some point in the future.
+* For example, in a 3-player game:
+  * Alice has 1 clue available.
+  * Bob has a red 5 on chop, followed by a red 4. The other copy of the red 4 is in the discard pile, so there are two critical cards in a row.
+  * Alice is not allowed to save the red 5 with a red clue, because then it would look like a *Save Clue* on a red 4.
+  * However, if Alice clues number 5 to Bob, then he will discard the red 4.
+  * Thus, Alice performs a *Fake Save* on both red cards by cluing red.
+  * Bob will mark his chop as the red 4, so the team will have to give him a number 5 clue as a *Fix Clue* at some point in the future. At that point, Bob will be surprised, but he will be able to retroactively see that Alice was in a very tight spot and had to give a *Fake Save*.
+* Note that normally, *Fake Saves* are **only allowed as a last resort**. If there is some other line that would "work" or be safe without a *Fake Save*, then players have to prefer that. Subsequently, *Fake Saves* are extremely rare.
+
+### The Sacrifice Discard
+
+* It is generally undesirable for a player to have a "fully locked" hand, but sometimes it happens. And sometimes, one card in the locked hand is useful in the future, but not critical (meaning there is another copy of the card in someone else's hand or still in the deck).
+* Normally, you are never supposed to discard cards that have clues on them, as if you do, it implies a *Sarcastic Discard* or a *Gentleman's Discard*. However, in this situation, the player who is locked can choose to "sacrifice" one of the cards in their hand that is non-critical. And in this situation, it does **not** imply a *Sarcastic Discard* or a *Gentleman's Discard*.
+
+### The Unnecessary Generation Discard
+
+* Sometimes, in order to satisfy *Save Principle*, a player will perform an unnecessary *Generation Discard*, which generates a clue to save a card that they actually already have in their hand.
+* This puts the next player in an ambiguous situation: was it really a *Generation Discard*, or could it a *Scream Discard*? In order to cover both situations, they should not *Chop Move*, but they should also not discard on this turn.
+* For example, in a 3-player game:
+  * Red 3 is played on the stacks. No blue cards are played on the stacks.
+  * Alice has a blue 1 in her hand. She knows the exact identity of it, so it is known playable.
+  * Alice also has a 4 clued in her hand. She does not know what color it is.
+  * There are 0 clues, so if Alice plays the blue 1, Bob will be forced to discard.
+  * Alice sees that Cathy has a red 4 on chop, which is playable. If Alice does not have red 4 in her hand, then Cathy could potentially discard the red 4 (after Bob is forced to discard).
+  * So, Alice performs a *Generation Discard* to generate a clue so that Bob can clue the get the red 4, if necessary.
+  * Bob sees that Alice does indeed already have the red 4 in her hand, so from his perspective, if Alice was performing a *Generation Discard*, it was unnecessary.
+  * However, it could also be the case that Bob's chop is unsafe. So, Bob will **not** clue the red 4 on Cathy's chop, but he **will** spend the clue in some other productive fashion. If Bob has nothing productive to do, he must "burn" a clue, similar to what happens when a *Scream Discard* occurs.
+
+### The Shout Discard Chop Move
+
+* Normally, when a player performs a *Scream Discard*, they are discarding their chop (e.g. an unknown and unclued card).
+* However, if a player has both a known-playable card and a known-trash card, then discarding the known-trash card instead of playing their known-playable card would *still* communicate a *Scream Discard* to the next player in the exact same way.
+* This situation is slightly different than the normal case, so we call it a *Shout Discard* to differentiate it from a more-ordinary *Scream Discard*.
+* A *Shout Discard* *Chop Moves* the very next player in the exact way that a *Scream Discard* does.
+* A *Shout Discard* forces the next player to **not** discard on their turn in the exact way that a *Scream Discard* does.
+* Normally, a *Scream Discard* is only allowed to *Chop Move* a critical card or a playable card. However, unlike a *Scream Discard*, it is permissible to use a *Shout Discard* to *Chop Move* any card that is desirable, even if it is not critical or playable.
+* Normally, a *Scream Discard* is only allowed if the team is at 0 clues (or if cluing the card is impossible). However, unlike a *Scream Discard*, it is permissible to use a *Shout Discard* to *Chop Move* regardless of the amount of clues that the team has.
+* Normally, a *Scream Discard* would turn into an *Echo Scream Discard* if the next player has a playable card. *Shout Discards* can also turn into *Echo Shout Discards*, but only if the team is completely out of clues and it can be seen to be a "last-resort" move.
+
+### The Whisper Discard Chop Move
+
+* Occasionally, a player will have known trash in their hand. Obviously, they are expected to discard the known trash first before discarding their right-most unclued card.
+* Thus, if a player instead discards their right-most unclued card instead of the known trash, it must be a signal that something is wrong, exactly like a *Scream Discard*. This is more subtle than a *Scream Discard* though, so it is called a Whisper Discard.
+* *Whisper Discards* are to be treated identically to *Scream Discards*. In short, this means that they 1) cause a *Chop Move* and 2) force a clue to be given on the next turn.
+
+### The Echo Scream Discard Chop Move
+
+* A *Scream Discard Chop Move* is done only as a last resort. So, if the next player has an unimportant card on chop, then the move is usually a *Generation Discard* and does not *Chop Move* anyone.
+* However, what if a *Scream Discard* is done and the next player has either:
+  * a known playable card
+  * a known safe trash discard
+* Since *Scream Discards* are only done as a last resort, the clue must have some other meaning. So, it *Chop Moves* both the next player **and** the player after that. This is called an *Echo Scream Discard*, because it "bounces" off the next player and travels to the next player after that as a "double scream".
+* Similar to a normal *Scream Discard*, all of the players who are *Chop Moved* are not allowed to discard on their next turn.
+* In the unlikely scenario where **two** people in a row have known plays / known safe discards, then the *Echo Scream Discard* will bounce off of two people and perform **three** *Chop Moves* in total. (And three people in a row cause four *Chop Moves*, and so forth.)
+* An *Echo Whisper Discard* works in the same way.
+
+### The Composition Discard
+
+* In rare cases, it is possible for a discard to be both a *Scream Discard* and a *Generation Discard* at the same time, for two different players.
+* For example, in a 4-player game:
+  * There are 0 clues in the bank.
+  * Alice needs to plan ahead for her turn.
+  * Bob and Donald both have a critical chop card. Cathy has a safe discard.
+  * Alice and Bob both have one known playable card in their hand.
+  * So, if Alice plays, Bob will perform a *Generation Discard*, and discard a critical card. This is not an option.
+  * Therefore, Alice must discard. This is a *Scream Discard* to Bob, and he should *Chop Move*. It is also a *Generation Discard* to Cathy, and she should not *Chop Move*.
+
+### The Rebellious Discard
+
+* Part of the *Scream Discard* convention states that after a *Scream Discard*, the next player **cannot** discard. Thus, a player in this situation must completely waste a clue if there is nothing productive to do.
+* However, in some situations, the player who has been screamed at sees that if they give a clue, the next player will be left at 0 clues and will be forced to discard a critical card.
+* Thus, in this situation, the player should *Chop Move* as normal and then discard their new chop, which will functionally act as a second *Scream Discard*. This second *Scream Discard* is called a *Rebellious Discard*, because they are not doing what they are told.
+* For example, in a 3-player game:
+  * Red 4 is in the discard pile.
+  * There are 0 clues available.
+  * Alice has a known-playable blue 2.
+  * Bob has a red 4 on chop. Bob has no playable cards in his hand.
+  * Cathy's hand is *Locked*. All of the cards in Cathy's hand are critical. None of these cards are playable.
+  * Alice looks into the future and sees that if she plays the blue 2, Bob will be forced to discard the critical red 4, since the team is currently at 0 clues.
+  * Thus, Alice performs a *Scream Discard*, discarding instead of playing the known-playable blue 2.
+  * Bob knows that Alice performed a *Scream Discard*, so he marks his chop card as *Chop Moved*.
+  * Bob also knows that, as per the *Scream Discard* rules, he is not allowed to discard on this turn, and must give some clue instead (in case he has two critical cards in a row).
+  * However, in this case, if Bob did that, then Bob would be using the last clue, and then Cathy would not have a clue available and would be forced to discard a critical card.
+  * Thus, Bob knows that he must perform a *Rebellious Discard* in order to provide a clue for Cathy to do something.
+
+### The Double Scream Discard Chop Move
+
+* If a player has a known playable card and one known trash card, and then they discard the trash card instead of playing, then that is a *Scream Discard* and the next player should *Chop Move*.
+* If a player has a known playable card and two known trash cards, and then they discard the oldest trash card instead of playing, then that is both a *Scream Discard Chop Move* and a *Trash Order Chop Move* at the same time.
+* In this situation, the next player should *Chop Move* twice. (This is the composition of a *Scream Discard Chop Move* and a *Trash Order Chop Move*.)
+
+### Phantom Playable Cards
+
+* First, see the section on [the definition of "playable" cards](#play-clues--delayed-play-clues--the-definition-of-playable).
+* For a card to be *delayed playable*, it needs to be playable "through" other clued cards or "through" cards on *Finesse Position*. In other words, we are allowed to give *Play Clues* to *delayed playable* cards.
+* Consider that a slightly different category of card can exist. A card is *Phantom Playable* is it is playable "through" cards that are visible in someone's hand, but the in-between cards are not on *Finesse Position* and are not yet clued. We are **not** allowed to give *Play Clues* to *Phantom Playable* cards - at least not until the other cards are clued first.
+* From *Save Principle*, we know that everyone agrees to not let *playable* or *delayed playable* cards get discarded.
+* If possible, the team should also try to protect *Phantom Playable* cards from being discarded as well, since they are nearly as important as *delayed playable* cards. For example, it is common for other people on the team to discard in order to let the player with the *Phantom Playable* card be the one to give a *Play Clue* to the in-between card.
+* Sometimes, *Phantom Playable* cards have to be discarded when the team is low on clues or in an otherwise tight situation. While regrettable, this is perfectly okay and does happen from time to time.
+
+### The Scream Discard for a Phantom Playable Card
+
+* First, see the section on the *[Scream Discard](#the-scream-discard-chop-move-deliberately-discarding-instead-of-playing)*.
+* Normally, you are only allowed to perform a *Scream Discard* for a critical card or a playable card. But what about a *Phantom Playable Card*?
+* In most cases, players should also *Scream Discard* for a *Phantom Playable Card*, but it depends on the situation:
+  * Will it be clear to everyone what is happening?
+  * Will the in-between cards get clued right away?
+  * Are there other critical cards on chop that need to be saved or will need to be saved soon?
+  * Is the *Phantom Playable* card a 3 or a 4?
+* In summary, it is better for the team to let a *Phantom Playable* card get discarded in a tricky or tight situation, **especially** if it is a 4.
+* Another way of saying this is that the team should never "bend over backwards" for a *Phantom Playable* card. Consider that a *Scream Discard* always has a small chance to lose the game (if the *Scream Discarded* card was itself critical).
 
 <br />
 
@@ -3144,26 +3179,23 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ## Level 15 - Rarely Used Strategies (Miscellaneous)
 
-### Phantom Playable Cards
+### The Selfish Clue
 
-* First, see the section on [the definition of "playable" cards](#play-clues--delayed-play-clues--the-definition-of-playable).
-* For a card to be *delayed playable*, it needs to be playable "through" other clued cards or "through" cards on *Finesse Position*. In other words, we are allowed to give *Play Clues* to *delayed playable* cards.
-* Consider that a slightly different category of card can exist. A card is *Phantom Playable* is it is playable "through" cards that are visible in someone's hand, but the in-between cards are not on *Finesse Position* and are not yet clued. We are **not** allowed to give *Play Clues* to *Phantom Playable* cards - at least not until the other cards are clued first.
-* From *Save Principle*, we know that everyone agrees to not let *playable* or *delayed playable* cards get discarded.
-* If possible, the team should also try to protect *Phantom Playable* cards from being discarded as well, since they are nearly as important as *delayed playable* cards. For example, it is common for other people on the team to discard in order to let the player with the *Phantom Playable* card be the one to give a *Play Clue* to the in-between card.
-* Sometimes, *Phantom Playable* cards have to be discarded when the team is low on clues or in an otherwise tight situation. While regrettable, this is perfectly okay and does happen from time to time.
-
-### The Scream Discard for a Phantom Playable Card
-
-* First, see the section on the *[Scream Discard](#the-scream-discard-chop-move-deliberately-discarding-instead-of-playing)*.
-* Normally, you are only allowed to perform a *Scream Discard* for a critical card or a playable card. But what about a *Phantom Playable Card*?
-* In most cases, players should also *Scream Discard* for a *Phantom Playable Card*, but it depends on the situation:
-  * Will it be clear to everyone what is happening?
-  * Will the in-between cards get clued right away?
-  * Are there other critical cards on chop that need to be saved or will need to be saved soon?
-  * Is the *Phantom Playable* card a 3 or a 4?
-* In summary, it is better for the team to let a *Phantom Playable* card get discarded in a tricky or tight situation, **especially** if it is a 4.
-* Another way of saying this is that the team should never "bend over backwards" for a *Phantom Playable* card. Consider that a *Scream Discard* always has a small chance to lose the game (if the *Scream Discarded* card was itself critical).
+* A *Selfish Clue* is when a player:
+  1) has a playable card in their hand (e.g. red 2)
+  2) gives a *Play Clue* to the next connecting card (e.g. red 3)
+* In almost all cases, there is no reason to give a *Selfish Clue*. Players can simply play their playable card and let someone else on the team "get" the next card. Being *Selfish* is typically associated with having bad teamwork.
+* However, in rare cases, giving a *Selfish Clue* can be good.
+* For example, in a 3-player game:
+  * All the 1's are played on the stacks.
+  * Alice has a globally-known playable red 2 in her hand.
+  * Bob hand is as follows, from newest to oldest: `blue 1, red 3, red 4, red 5, blue 1`
+  * Both Bob and Cathy has a safe discard.
+  * Alice knows that on this turn, she is expected to play the red 2, unless she has a really good clue to give.
+  * Alice sees that if she plays the red 2, then Bob will probably have nothing to do, and will go on to discard the blue 1.
+  * At that point, the red 5 will be on chop, and it will be difficult for the team to get all of the red cards. Specifically, someone will probably have to give a number 3 clue to Bob as a 1-for-1 on the red 3.
+  * Alice sees that if she gives a red clue to Bob *right now* (e.g. before she plays the red 2), then she will be able to "lock-in" a nice 3-for-1 clue. Even though the team will lose *Tempo*, this will be inconsequential because Bob has a safe discard and Cathy has a safe discard.
+  * Alice clues red to Bob as a *Selfish Play Clue*.
 
 ### Deferring a Bluff
 
@@ -3406,37 +3438,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * Note that it is illegal to perform an *Ambiguous Blaze Discard*. We want to keep *Blaze Discards* as simple as possible.
 * Note that it is illegal to perform a *Layered Blaze Discard* (on either the ignited player or the player holding the matching card). We want to keep *Blaze Discards* as simple as possible.
 
-### The Shadow Finesse
-
-* If a player could cleanly *Finesse* a card but instead opts to clue it directly, there must be a good reason.
-* If the clue does **not** touch any other new cards, and this is **not** a mistake or a strange emergency situation, this is initiating a *Shadow Finesse*.
-* In this situation, the cluing player intends for a blind-play from the *Finesse Position* that **matches the true *Finesse Position*** of the other card. This is called a *Shadow Finesse* because the positional blind-play is a "shadow" of the card that could have been used for the Finesse (the *"Target"*).
-* The Shadow **must** exist in the immediate next player's hand, unless they themselves were the player who received the clue. In this case, there are two possibilities:
-   1) If Bob sees that Cathy's *matching Finesse Position* is playable, then he knows that card must be the Shadow (as a *Reverse Shadow Finesse*).
-   2) If Cathy's *matching Finesse Position* is **not** immediately playable, he knows he himself must have the Shadow (as a *Self Shadow Finesse*).
-* The player holding the Shadow **must** blind-play it immediately to resynchronize the team.
-* Once a Shadow blind-play has been demonstrated, the team should consider the Target card as being **fully known and ‘touched’** (this means it no longer occupies a 'Finesse Position' even though it has not been touched).
-* For example, in a 4-player game:
-  * It is the first turn and nothing is played on the stacks.
-  * Alice clues one to David, touching a single red 1 on slot one.
-  * Bob sees this is very strange: Cathy has a red 2 that could have been cleanly touched as a *Finesse*.
-  * Bob recognizes that this must be a *Shadow Finesse*, meaning he must hold the red 2's 'shadow'.
-  * Since the red 2 is in Cathy's *Fourth Finesse Position* (slot 4), Bob immediately plays his *matching (fourth) Finesse Position**.
-  * Cathy is surprised, but recognizes that a *Shadow Finesse* has a occurred: she immediately marks her *fourth Finesse Position* as exactly Red 2.
-* For an example of the *Reverse* form, in a 4-player game:
-  * It is the first turn and nothing is played on the stacks.
-  * Alice clues red to Bob, touching a single red card on slot one.
-  * Bob sees this is very strange: he sees that David has a red 2 that could have been cleanly touched as a *Finesse*
-  * Bob recognizes that this must be a *Shadow Finesse*, and must determine where the Shadow lies:
-  * David's red 2 is on *third Finesse Position*, so Bob must see whether Cathy's *third Finesse Position* is playable. If it is not, he himself must hold the Shadow on his own *third Finesse Position*.
-  * Sure enough, Cathy's slot 3 is a green 1, so Bob knows that this was a *Reverse Shadow Finesse*. Bob plays his red 1.
-  * From Cathy's perspective, she now knows this indeed was a *Reverse Shadow Finesse* and she must immediately blind-play her *third Finesse Position*
-  * From David's perspective, the blind-played green 1 is very surprising. He realizes what has happened, and marks his matching red 2 appropriately.
-* A _Shadow Finesse_ is **Illegal** if the blind-play could be misinterpreted as a different kind of move:
-   1. When the Shadow would play from *First Finesse Position* and could be misinterpreted as a *Bluff* or *Trash Finesse*.
-   2. When the Shadow would play from *Second* or *Third Finesse Position* and could be misinterpreted as a _5 Color Ejection_ or _Unknown Trash Discharge_.
-* The Shadow must come before the Target: in other words, it is normally **Illegal** for Bob to hold the Target (since he can't clearly see that a _Shadow Finesse_ is occurring and therefore might try to clue or _Bluff_ the Shadow in Cathy's hand).
-
 ### The No-Context Double Gentleman's Discard
 
 * Normally, when someone performs a *Gentleman's Discard*, it only promises the exact other copy of the card, even if the discarded card could have been multiple different things. The reason for this is it allows for asymmetric reads.
@@ -3658,6 +3659,7 @@ Conventions for specific variants are listed on a separate page.
 | Rank Choice Ejection | IAMJEFF
 | Selfish Focus Inversion | Romain
 | Double Ignition | Libster
+| The Shadow Finesse | Pianoblook
 
 <br />
 
@@ -3699,4 +3701,3 @@ Conventions for specific variants are listed on a separate page.
 | The Empty Finesse | Instantiation
 | The Empty Double-Play | Zamiel & Jeep
 | The Empty Bluff | Cory
-| The Shadow Finesse | Pianoblook
