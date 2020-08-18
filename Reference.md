@@ -3406,6 +3406,37 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * Note that it is illegal to perform an *Ambiguous Blaze Discard*. We want to keep *Blaze Discards* as simple as possible.
 * Note that it is illegal to perform a *Layered Blaze Discard* (on either the ignited player or the player holding the matching card). We want to keep *Blaze Discards* as simple as possible.
 
+### The Shadow Finesse
+
+* If a player could cleanly *Finesse* a card but instead opts to clue it directly, there must be a good reason.
+* If the clue does **not** touch any other new cards, and this is **not** a mistake or a strange emergency situation, this is initiating a *Shadow Finesse*.
+* In this situation, the cluing player intends for a blind-play from the *Finesse Position* that **matches the true *Finesse Position*** of the other card. This is called a *Shadow Finesse* because the positional blind-play is a "shadow" of the card that could have been used for the Finesse (the *"Target"*).
+* The Shadow **must** exist in the immediate next player's hand, unless they themselves were the player who received the clue. In this case, there are two possibilities:
+   1) If Bob sees that Cathy's *matching Finesse Position* is playable, then he knows that card must be the Shadow (as a *Reverse Shadow Finesse*).
+   2) If Cathy's *matching Finesse Position* is **not** immediately playable, he knows he himself must have the Shadow (as a *Self Shadow Finesse*).
+* The player holding the Shadow **must** blind-play it immediately to resynchronize the team.
+* Once a Shadow blind-play has been demonstrated, the team should consider the Target card as being **fully known and ‘touched’** (this means it no longer occupies a 'Finesse Position' even though it has not been touched).
+* For example, in a 4-player game: 
+  * It is the first turn and nothing is played on the stacks.
+  * Alice clues one to David, touching a single red 1 on slot one.
+  * Bob sees this is very strange: Cathy has a red 2 that could have been cleanly touched as a *Finesse*.
+  * Bob recognizes that this must be a *Shadow Finesse*, meaning he must hold the red 2's 'shadow'.
+  * Since the red 2 is in Cathy's *Fourth Finesse Position* (slot 4), Bob immediately plays his *matching (fourth) Finesse Position**.
+  * Cathy is surprised, but recognizes that a *Shadow Finesse* has a occurred: she immediately marks her *fourth Finesse Position* as exactly Red 2.
+* For an example of the *Reverse* form, in a 4-player game:
+  * It is the first turn and nothing is played on the stacks.
+  * Alice clues red to Bob, touching a single red card on slot one.
+  * Bob sees this is very strange: he sees that David has a red 2 that could have been cleanly touched as a *Finesse*
+  * Bob recognizes that this must be a *Shadow Finesse*, and must determine where the Shadow lies: 
+  * David's red 2 is on *third Finesse Position*, so Bob must see whether Cathy's *third Finesse Position* is playable. If it is not, he himself must hold the Shadow on his own *third Finesse Position*.
+  * Sure enough, Cathy's slot 3 is a green 1, so Bob knows that this was a *Reverse Shadow Finesse*. Bob plays his red 1.
+  * From Cathy's perspective, she now knows this indeed was a *Reverse Shadow Finesse* and she must immediately blind-play her *third Finesse Position*
+  * From David's perspective, the blind-played green 1 is very surprising. He realizes what has happened, and marks his matching red 2 appropriately.
+* A _Shadow Finesse_ is **Illegal** if the blind-play could be misinterpreted as a different kind of move:
+   1. When the Shadow would play from *First Finesse Position* and could be misinterpreted as a *Bluff* or *Trash Finesse*.
+   2. When the Shadow would play from *Second* or *Third Finesse Position* and could be misinterpreted as a _5 Color Ejection_ or _Unknown Trash Discharge_.
+* The Shadow must come before the Target: in other words, it is normally **Illegal** for Bob to hold the Target (since he can't clearly see that a _Shadow Finesse_ is occurring and therefore might try to clue or _Bluff_ the Shadow in Cathy's hand).
+
 ### The No-Context Double Gentleman's Discard
 
 * Normally, when someone performs a *Gentleman's Discard*, it only promises the exact other copy of the card, even if the discarded card could have been multiple different things. The reason for this is it allows for asymmetric reads.
@@ -3668,3 +3699,4 @@ Conventions for specific variants are listed on a separate page.
 | The Empty Finesse | Instantiation
 | The Empty Double-Play | Zamiel & Jeep
 | The Empty Bluff | Cory
+| The Shadow Finesse | Pianoblook
