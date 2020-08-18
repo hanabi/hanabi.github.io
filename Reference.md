@@ -3416,7 +3416,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
    2) If Cathy's *matching Finesse Position* is **not** immediately playable, he knows he himself must have the Shadow (as a *Self Shadow Finesse*).
 * The player holding the Shadow **must** blind-play it immediately to resynchronize the team.
 * Once a Shadow blind-play has been demonstrated, the team should consider the Target card as being **fully known and ‘touched’** (this means it no longer occupies a 'Finesse Position' even though it has not been touched).
-* For example, in a 4-player game: 
+* For example, in a 4-player game:
   * It is the first turn and nothing is played on the stacks.
   * Alice clues one to David, touching a single red 1 on slot one.
   * Bob sees this is very strange: Cathy has a red 2 that could have been cleanly touched as a *Finesse*.
@@ -3427,7 +3427,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * It is the first turn and nothing is played on the stacks.
   * Alice clues red to Bob, touching a single red card on slot one.
   * Bob sees this is very strange: he sees that David has a red 2 that could have been cleanly touched as a *Finesse*
-  * Bob recognizes that this must be a *Shadow Finesse*, and must determine where the Shadow lies: 
+  * Bob recognizes that this must be a *Shadow Finesse*, and must determine where the Shadow lies:
   * David's red 2 is on *third Finesse Position*, so Bob must see whether Cathy's *third Finesse Position* is playable. If it is not, he himself must hold the Shadow on his own *third Finesse Position*.
   * Sure enough, Cathy's slot 3 is a green 1, so Bob knows that this was a *Reverse Shadow Finesse*. Bob plays his red 1.
   * From Cathy's perspective, she now knows this indeed was a *Reverse Shadow Finesse* and she must immediately blind-play her *third Finesse Position*
