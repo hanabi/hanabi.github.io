@@ -1453,7 +1453,8 @@ Note that in this user interface, players are **not** holding their hands like t
 
 * It is possible to "stack" a second *Finesse* on top of a player who is already *Finessed*. This kind of thing is generally encouraged, since it has few downsides. (For more information, see the [Stacked Finesse](#the-stacked-finesse).)
 * However, players should **never** stack a *Bluff* on top of a player who is *Finessed*. This is because the blind-playing player will assume that a *Layered Finesse* is occurring and go on to play the card from the first *Finesse*. This means that the *Bluff* will not be resolved immediately, violating *Good Lie Principle*. (*Good Lie Principle* is one of the most important principles!) Typically, when this mistake happens, the team will go on to lose the game, because severe *Information Desynchronization* will occur.
-* Sometimes, in rare circumstances, expert players can perform *Out-of-Position Bluffs*, *Out-of-Position Ejections*, and *Out-of-Position Discharges*. (These moves are normally illegal, so for them to work, it has to be a very specific situation.) When these moves occur, it should be noted that it is illegal to stack a second *Bluff*, *Ejection*, or *Discharge* on top of them. You cannot stack a *Bluff* on a *Bluff* (or an *Ejection on an *Ejection*) for the same reason that you cannot stack a *Bluff* on a *Finesse* - the lie will not be resolved immediately and will violate *Good Lie Principle*.
+* Sometimes, in rare circumstances, expert players can perform *Out-of-Position Bluffs*. (This is normally illegal, so it to work, it has to be a very specific situation.) When this occurs, it is illegal to stack a second *Bluff* on top of them. You cannot stack a *Bluff* on a *Bluff* for the same reason that you cannot stack a *Bluff* on a *Finesse* - the lie will not be resolved immediately and will violate *Good Lie Principle*.
+  * Similarly, it is illegal to stack an *Ejection* or a *Discharge* on a *Bluff*. (*Ejections* and *Discharges* are advanced moves that are covered later.)
 
 <br />
 
@@ -1888,6 +1889,7 @@ Priority does not always apply. Some common exceptions are listed below.
 
 * *Ejection* refers to a move like a *Bluff*, but instead of playing an unrelated card from *Finesse Position*, someone plays an unrelated card from their *Second Finesse Position*. For example, if a player's hand is completely unclued, their *Second Finesse Position* is slot 2.
 * Just like a *Bluff*, an *Ejection* can only be performed on the very next player.
+* Several different kinds of moves can cause an *Ejection*. The most common one is called the *5 Color Ejection*.
 
 ### The 5 Color Ejection (5CE)
 
@@ -2106,7 +2108,43 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ## Level 15 - Erudite
 
-* Level 14 strategies should only be learned if you have 260+ games of experience with the group.
+* Level 15 strategies should only be learned if you have 260+ games of experience with the group.
+* This level introduces *Discharges*.
+* See the [learning path document](Learning_Path.md) for general descriptions of each level.
+
+### Discharge
+
+* *Discharge* is similar to *Ejection*, except instead of blind-playing the *Second Finesse Position* card, the player plays the *Third Finesse Position* card.
+* Just like a *Bluff*, a *Discharge* can only be performed on the very next player.
+* Several different kinds of moves can cause a *Discharge*. The most common one is called the *Unknown Trash Discharge*.
+
+### Unknown Trash Discharge (UTD)
+
+* In general, *Bluffs* work because the blind-play tells the person who was clued that they have a one-away-from-playable card of that color.
+* In general, *Trash Bluffs* work because the blind-play tells the person who was clued that they have a trash card.
+* Players must be careful to not give a *Trash Bluff* that looks like a *Bluff* - that will desynchronize the team.
+* For example, in a 3-player game:
+  * All the 1's are played on the stacks.
+  * Alice clues red to Cathy, touching a red 1 as a *Play Clue*.
+  * Bob blind-plays his *Finesse Position* and it successfully plays as blue 2.
+  * Cathy knows that a *Bluff* has occurred and marks her red card as red 3 (the one-away-from-playable red card).
+  * Of course, this is a lie, because Cathy's red card is actually a red 1. The team will likely get a misplay at some point in the future.
+* If the above example happens and Alice is not making a mistake, then Alice must be trying to communicate something extra. This should signal an *Discharge* on the very next player.
+* Since the *Third Finesse Position* card was played instead of the *Finesse Position* card, then the player who received the clue will know that the card is trash.
+* For example, in a 3-player game:
+  * All the 1's are played on the stacks.
+  * Alice clues red to Cathy, touching a red 1 as a *Play Clue*.
+  * Bob knows that if he played his *First Finesse Position*, then Cathy would write a note of red 3 on the card (as a *Bluff*), which would be a lie.
+  * Bob knows that if he played his *Second Finesse Position*, then Cathy would write a note of red 5 on the card (as a *5 Color Ejection*), which would be a lie.
+  * Bob blind-plays his *Third Finesse Position*, and it successfully plays as green 2.
+  * Cathy knows that a *Discharge* has occurred from Alice's red clue. Thus, this must be an *Unknown Trash Discharge*, so Cathy's red card must be trash. Cathy marks her red card as red 1 (since that is the only possible trash red card) and discards it.
+* When multiple cards are clued with an *Unknown Trash Discharge*, **only the focus of the clue is considered to be trash**. This means that *Good Touch Principle* applies to the non-focused cards. (Note that this is **the opposite of the *Trash Bluff***. In a *Trash Bluff*, when multiple cards are clued, **all** of the touched cards are considered to be trash.)
+
+<br />
+
+## Level 16 - Expert
+
+* Level 16 strategies should only be learned if you have 280+ games of experience with the group.
 * This level covers *Double Bluffs* and all of the complicated stipulations that go along with them.
 * See the [learning path document](Learning_Path.md) for general descriptions of each level.
 
@@ -2182,14 +2220,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Normally, Donald would know that his red card is exactly a red 3, as a *Double Half Bluff*.
   * However, Donald also knows that any 4 in the game can be used to perform a *Double Bluff*.
   * Thus, Donald marks his red card as either a red 3 (if it was a *Double Half Bluff*) or a red 4 (if it was a *4 Double Bluff*).
-
-<br />
-
-## Level 16 - Expert
-
-* Level 14 strategies should only be learned if you have 280+ games of experience with the group.
-* ?
-* See the [learning path document](Learning_Path.md) for general descriptions of each level.
 
 <br />
 
@@ -2815,7 +2845,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### The 5 Color Ejection
 
-* The 5 Color Ejection is covered in [level 12](#the-5-color-ejection-5ce).
+* The *5 Color Ejection* is covered in [level 12](#the-5-color-ejection-5ce).
 
 ### Double Play Ejection
 
@@ -2866,23 +2896,9 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * *Discharge* is similar to *Ejection*, except instead of blind-playing the *Second Finesse Position* card, the player plays the *Third Finesse Position* card.
 * Just like a *Bluff*, a *Discharge* can only be performed on the very next player.
 
-### Unknown Trash Discharge (UTD)
+### The Unknown Trash Discharge
 
-* In general, *Bluffs* work because the player who received the clue knows that they have a one-away-from-playable card of that color.
-* If none of the stacks are finished and someone clues a trash card, it might look like a *Trash Bluff*. But, if the *Finesse Position* card is played, then the player will think that a normal *Bluff* has occurred. So that wouldn't work.
-* For example, in a 3-player game:
-  * All the 1's are played on the stacks.
-  * Alice clues red to Cathy, touching a red 1 as a *Play Clue*.
-  * Bob blind-plays his *Finesse Position* and it successfully plays as blue 2.
-  * Cathy knows that a *Bluff* has occurred and marks her red card as red 3 (the one-away-from-playable red card). Of course, this is a lie, because the card is really red 1. The team will likely get a strike at some point in the future.
-* If the above example happens and Alice is not making a mistake, then Alice must be trying to communicate something extra. This should signal an *Discharge* on the very next player.
-* Since the *Third Finesse Position* card was played instead of the *Finesse Position* card, then the player who received the clue will know that the card is trash.
-* For example, in a 3-player game:
-  * All the 1's are played on the stacks.
-  * Alice clues red to Cathy, touching a red 1 as a *Play Clue*.
-  * Bob blind-plays his *Third Finesse Position* and it successfully plays as green 2.
-  * Cathy knows that a *Discharge* has occurred from Alice's red clue. Thus, this must be an *Unknown Trash Discharge*, so Cathy's red card must be trash. Cathy marks her red card as red 1 (since that is the only possible trash red card) and discards it.
-* When multiple cards are clued with an *Unknown Trash Discharge*, **only the focus of the clue is considered to be trash**, meaning that *Good Touch Principle* applies to the non-focused cards. (Note that this is **the opposite of the *Trash Bluff***. In a *Trash Bluff*, when multiple cards are clued, **all** of the touched cards are considered to be trash.)
+* The *Unknown Trash Discharge* is introduced in [level 15](#asdf).
 
 ### 5 Number Discharge (5ND)
 
@@ -3000,7 +3016,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 * Two players can work together. One player can give a *Tempo Clue* to the unpromptable card, and the other player can give a *Play Clue* to the next card.
 * Alternatively, one player can give a *Tempo Clue* to the unpromptable card and assume that the player with the next card will give some clue. Later on, someone can clue the next card.
-* Note that in these types of situations, the *Tempo Clue* will often cause a *Tempo Clue Chop Move*, which may or may not be desired.
 
 #### A Play Clue + A Fix Clue
 

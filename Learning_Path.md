@@ -173,18 +173,18 @@ The following is a brief description of each level.
 #### Level 15 - Erudite
 
 * Level 15 strategies should only be learned if you have 260+ games of experience with the group.
-* This level covers *Double Bluffs* and all of the complicated stipulations that go along with them.
-* Level 14 strategies are as follows:
-  * *[The Double Half Bluff](Reference.md#the-double-half-bluff)*
-  * *[The Double Bluff](Reference.md#the-double-bluff)*
-  * *[The 4 Double Bluff & The 5 Double Bluff]()*
+* This level introduces *Discharges*.
+* Level 15 strategies are as follows:
+  * *[The Unknown Trash Discharge](Reference.md#the-unknown-trash-discharge)*
 
 #### Level 16 - Expert
 
 * Level 16 strategies should only be learned if you have 280+ games of experience with the group.
-* This level covers ?
+* This level covers *Double Bluffs* and all of the complicated stipulations that go along with them.
 * Level 16 strategies are as follows:
-  * ?
+  * *[The Double Half Bluff](Reference.md#the-double-half-bluff)*
+  * *[The Double Bluff](Reference.md#the-double-bluff)*
+  * *[The 4 Double Bluff & The 5 Double Bluff](Reference.md#the-4-double-bluff--the-5-double-bluff)*
 
 #### Level 17 - Rarely Used
 
