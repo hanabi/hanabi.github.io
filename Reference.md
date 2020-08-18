@@ -3390,12 +3390,12 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### The Shadow Finesse
 
-* If a player could cleanly *Finesse* a card but instead opts to clue the 'Finesseable' card directly, there must be a good reason.
-* If the clue does **not** touch any other new cards, and this is **not** a mistake or a strange emergency situation, this must be initiating a *Shadow Finesse*.
+* If a player could cleanly *Finesse* a card but instead opts to clue it directly, there must be a good reason.
+* If the clue does **not** touch any other new cards, and this is **not** a mistake or a strange emergency situation, this is initiating a *Shadow Finesse*.
 * In this situation, the cluing player intends for a blind-play from the *Finesse Position* that **matches the true *Finesse Position*** of the other card. This is called a *Shadow Finesse* because the positional blindplay is a "shadow" of the card that could have been used for the Finesse (the *"Target"*).
-* The Shadow **must** exist in the immediate next player's hand, except if that player was also the one who received the clue. In this case, there are two possibilities:
-   1) If Bob sees that Cathy's *matching Finesse Position* is playable, then he knows that card is the Shadow (as a *Reverse Shadow Finesse*).
-   2) If Cathy's *matching Finesse Position* is **not** immediately playable, he knows he must have the Shadow himself (as a *Self Shadow Finesse*).
+* The Shadow **must** exist in the immediate next player's hand, unless they themselves were the player who received the clue. In this case, there are two possibilities:
+   1) If Bob sees that Cathy's *matching Finesse Position* is playable, then he knows that card must be the Shadow (as a *Reverse Shadow Finesse*).
+   2) If Cathy's *matching Finesse Position* is **not** immediately playable, he knows he himself must have the Shadow (as a *Self Shadow Finesse*).
 * The player holding the Shadow **must** blindplay it immediately to resynchronize the team.
 * Once a Shadow blindplay has been demonstrated, the team should consider the Target card as being **fully known and ‘touched’** (this means it no longer occupies a 'Finesse Position' even though it has not been touched).
 * For example, in a 4-player game: 
@@ -3680,3 +3680,4 @@ Conventions for specific variants are listed on a separate page.
 | The Empty Finesse | Instantiation
 | The Empty Double-Play | Zamiel & Jeep
 | The Empty Bluff | Cory
+| The Shadow Finesse | Pianoblook
