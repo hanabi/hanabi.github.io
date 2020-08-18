@@ -3206,8 +3206,8 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### Unnecessary Moves with Unknown Trash (On-Chop)
 
-* If **unknown trash** is used as a clue target that is on-chop, but the clue **also** touched other trash cards in the hand that were not on the chop, then the "extra" thing is a *Chop Move* (e.g. a *Trash Chop Move*), similar to the previous section.
-* If **unknown trash** is used as a clue target that is on-chop and it only touches one card (or all the cards touched were also on chop), then the "extra" thing is a blind-play (e.g. a *Trash Push*).
+* If **unknown trash** is used as a clue target that is on-chop, but the clue **also** touched other trash cards in the hand that were not on chop, then the "extra" thing is a *Chop Move* (e.g. a *Trash Chop Move*), similar to the previous section.
+* If **unknown trash** is used as a clue target that is on-chop, and the clue only touched one card (or all the cards touched were also on chop), then the "extra" thing is a blind-play (e.g. a *Trash Push*).
 * For example, this would be an *Unnecessary Trash Finesse* in a 3-player game:
   * All of the 2's are played on the stacks except for the red 2.
   * Bob has a red 2 on his *Finesse Position* and no other red cards in his hand. Thus, Alice could give a red clue to Bob in order to "get" the red 2.
