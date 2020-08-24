@@ -33,7 +33,7 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 
 * Just like in a normal game, when a player gets clued about two or more 1's, then they should play all of them in the normal order.
 * In other words, even though the non-focused 1's *could* be non-1 pink cards, players are expected to *assume* that they are real 1's.
-* This assumption does **not** apply to the other ranks. For example, if all the 1's are played on the stacks, and a player has a card in their hand with a single positive number 2 clue on it, then they cannot play the 2, because they might be bombing a pink 5.
+* This assumption does **not** apply to the other ranks. For example, if all the 1's are played on the stacks, and a player has a card in their hand with a single positive number 2 clue on it, then they cannot play the 2, because they might be misplaying a pink 5.
 
 ### No Order Chop Moves
 
