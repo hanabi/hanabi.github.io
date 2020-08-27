@@ -14,7 +14,7 @@ These conventions apply to variants with pink-ones.
 * For example, in a 3-player game:
   * It is the first turn of the game and nothing is played on the stacks.
   * Alice clues number 3 to Bob, touching two 3's on slot 1 + slot 2 as a *Play Clue*.
-  * Bob sees that Cathy does not have a playble card on her *Finesse Position*. (If she did, then Bob would need to wait to see what Cathy does.)
+  * Bob sees that Cathy does not have a playable card on her *Finesse Position*. (If she did, then Bob would need to wait to see what Cathy does.)
   * Bob knows that this is just a *Play Clue* on a 1. Bob plays his slot 1 card. It is a red 1 and it successfully plays.
   * Bob knows that his slot 2 card can either be another good 1 or a 3.
   
