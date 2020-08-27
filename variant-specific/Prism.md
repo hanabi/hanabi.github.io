@@ -23,6 +23,6 @@ These conventions apply to any variant with a prism suit.
   * Bob blind-plays a prism 1 from his *Finesse Position*.
   * Cathy knows that this could either be a *Bluff* (on just the prism 1) or a *Double Finesse* (on both the prism 1 and the prism 2).
   * In this situation, Cathy knows that Donald will not go on to misplay his prism 3 as a prism 2.
-  * However, Cathy knows that whether or not the clue reciever will misplay a card is irrelevant - all that matters is whether or not the clue matches the card that was blind-played. Thus, since red matches red, this communicates a *Double Finesse*.
+  * However, Cathy knows that whether or not the clue receiver will misplay a card is irrelevant - all that matters is whether or not the clue matches the card that was blind-played. Thus, since red matches red, this communicates a *Double Finesse*.
   * Cathy blind-plays a prism 2 from her *Finesse Position*.
   * Donald plays his green card as a prism 3.
