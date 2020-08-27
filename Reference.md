@@ -29,7 +29,7 @@ Note that convention updates for the group are listed in the `#announcements` ch
 * [Level 5 - Proselyte](#level-5---proselyte)
   * [Conventions & Special Moves](#level-5---proselyte---conventions--special-moves)
   * [General Principles](#level-5---proselyte---general-principles)
-* [Level 6 - Rookie](#level-6---intermediate)
+* [Level 6 - Rookie](#level-6---rookie)
   * [Conventions & Special Moves](#level-6---rookie---conventions--special-moves)
   * [General Principles](#level-6---rookie---general-principles)
 * [Level 7 - Apprentice](#level-7---apprentice)
