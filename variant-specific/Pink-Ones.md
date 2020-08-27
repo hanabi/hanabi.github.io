@@ -17,4 +17,3 @@ These conventions apply to variants with pink-ones.
   * Bob sees that Cathy does not have a playable card on her *Finesse Position*. (If she did, then Bob would need to wait to see what Cathy does.)
   * Bob knows that this is just a *Play Clue* on a 1. Bob plays his slot 1 card. It is a red 1 and it successfully plays.
   * Bob knows that his slot 2 card can either be another good 1 or a 3.
-  
