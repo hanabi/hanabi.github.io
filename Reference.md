@@ -3600,6 +3600,7 @@ Conventions for specific variants are listed on a separate page.
 * [Rainbow & Muddy Rainbow](/variant-specific/Rainbow_&_Muddy_Rainbow.md)
 * [Pink & Omni](/variant-specific/Pink_&_Omni.md)
 * [Rainbow-Ones & Rainbow-Fives](/variant-specific/Rainbow-Ones_&_Rainbow-Fives.md)
+* [Pink-Ones](/variant-specific/Pink-Ones.md)
 * [Special-Fives](/variant-specific/Special-Fives.md) (e.g. "Pink-Fives")
 * [Extremely Ambiguous](/variant-specific/Extremely_Ambiguous.md)
 * [Dual-Color (6 Suits)](/variant-specific/Dual-Color_(6_Suits).md)
