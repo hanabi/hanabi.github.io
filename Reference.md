@@ -421,6 +421,7 @@ Note that in this user interface, players are **not** holding their hands like t
 
 ### Playing Multiple 1's - The Fresh 1's Rule (Part 2)
 
+* First, see [Playing Multiple 1's - Play Order Inversion in the Starting Hand (Part 1)](#playing-multiple-1s---play-order-inversion-in-the-starting-hand-part-1).
 * If two (or more) 1's are clued in someone's hand, and one of the 1's was in the starting hand, and one of the 1's was not, then the "fresh" card is probably more important. (Otherwise, the clue might have been given earlier.)
 * Thus, freshly drawn 1's should always be played before any 1's that were present in the starting hand.
 * Continuing on from the example in [Playing Multiple 1's - Part 1](#playing-multiple-1s---play-order-inversion-in-the-starting-hand-part-1), imagine that:
