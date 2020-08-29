@@ -37,7 +37,7 @@ These conventions apply to any variant with a rainbow (touched by all colors) or
   * Bob plays red 1 from slot 1. He draws a rainbow 1, which is now in his slot 1.
   * Cathy discards.
   * Alice notices that Bob has a rainbow 1 in *Finesse Position*. And Cathy has a rainbow 2 in her hand.
-  * Since *Prompts* take precedence over *Finesses*, if Cathy clues the rainbow 2 with red, then Bob will misplay the red 3 as rainbow 1. This is a problem.
+  * Since *Prompts* take precedence over *Finesses*, if Alice clues the rainbow 2 with red, then Bob will misplay the red 3 as rainbow 1. This is a problem.
   * However, Cathy has no red cards, no blue cards, and no other rainbow cards in her hand. Thus, if Alice wants to clue the rainbow 2 with a color, Alice has a *Free Choice* between cluing red and cluing blue.
   * Alice clues blue to Cathy, which only touches the rainbow 2.
   * Bob knows that since Alice had a *Free Choice* and did not color-match with red, he should play his slot 1 instead of his slot 2.
