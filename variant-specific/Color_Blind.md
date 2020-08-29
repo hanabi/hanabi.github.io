@@ -8,10 +8,10 @@ These conventions apply to the "Color Blind" variants.
 
 * Number clues mean the same thing as normal.
 * All color clues have a special meaning:
-  * Blue means play slot 1 (because it is the 1st stack from the left).
+  * Red means play slot 1 (because it is the 1st stack from the left).
   * Green means play slot 2 (because it is the 2nd stack from the left).
   * Yellow means play slot 3.
-  * Red means play slot 4.
+  * Blue means play slot 4.
   * Purple means play slot 5 (in a 2-player or 3-player game).
 * Furthermore, all color clues have to be treated as potential *Delayed Play Clues*, *Prompts*, and *Reverse Finesses*.
 
@@ -22,9 +22,9 @@ These conventions apply to the "Color Blind" variants.
 ### 3 Suit Exceptions
 
 * There are not enough colors to get all of the slots for a 2-player or 3-player game with 3 suits, so the color assignments are customized:
-  * Blue means play slot 2.
-  * Green means play slot 3.
-  * Yellow means play slot 4.
+  * Red means play slot 2.
+  * Blue means play slot 3.
+  * Green means play slot 4.
 * There are not enough colors to get all of the slots for a 4-player or 5-player game with 3 suits, so players are simply not able to clue slot 4 with a color clue.
 
 ### Extra Color --> Chop Move
