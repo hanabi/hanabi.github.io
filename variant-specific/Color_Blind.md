@@ -9,8 +9,8 @@ These conventions apply to the "Color Blind" variants.
 * Number clues mean the same thing as normal.
 * All color clues have a special meaning:
   * Red means play slot 1 (because it is the 1st stack from the left).
-  * Green means play slot 2 (because it is the 2nd stack from the left).
-  * Yellow means play slot 3.
+  * Yellow means play slot 2 (because it is the 2nd stack from the left).
+  * Green means play slot 3.
   * Blue means play slot 4.
   * Purple means play slot 5 (in a 2-player or 3-player game).
 * Furthermore, all color clues have to be treated as potential *Delayed Play Clues*, *Prompts*, and *Reverse Finesses*.
