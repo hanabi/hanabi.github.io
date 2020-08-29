@@ -3712,7 +3712,6 @@ Conventions for specific variants are listed on a separate page.
 | The Trash Push | Duneaught
 | The Trash Bluff | Duneaught & Zamiel & IAMJEFF
 | The Trash Finesse | Duneaught
-| The Double Trash Finesse | Duneaught
 | The Trash Push Finesse | Duneaught
 | The Hesitation Blind-Play | Zamiel
 | The Priority Prompt & The Priority Finesse | Libster & Zamiel
