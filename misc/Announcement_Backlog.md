@@ -39,6 +39,7 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 
 **The Reverse Shadow Finesse** (by pianoblook)
 
+```
 * *Shadow Finesses* can also be performed in reverse.
 * *Reverse Shadow Finesses* are more complicated than normal *Shadow Finesses*, because the person with the clued card has to look ahead to determine whether or not **they** have the *shadow*, or if a **future** player has the *shadow*.
 * For an example, in a 4-player game:
@@ -54,6 +55,7 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
   * Similar to Bob, Cathy also knows that this is a *Shadow Finesse*. Cathy blind-plays her *Third Finesse Position*. It is blue 1 and it successfully plays.
   * Donald is very surprised to see Cathy blind-play her *Third Finesse Position*. The only thing that could cause this is a *Shadow Finesse*.
   * Donald blind-plays the *shadow target* from his *Third Finesse Position*.
+```
 
 @everyone Variant-specific conventions:
 
