@@ -6,6 +6,55 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 
 ## The Backlog (General Conventions)
 
+@everyone New conventions:
+
+**The Shadow Finesse**
+
+**The Shadow Finesse** (by pianoblook)
+
+```
+* When playing with expert players, it is rare for them to "miss" the chance to *Finesse* a card.
+* If an expert player could cleanly *Finesse* a card but instead opts to clue it directly, there must be a good reason.
+* If the clue does **not** touch any other new cards, and it is **not** an emergency situation, and it is **not** a mistake, then the player must be trying to communicate something extra.
+* In this situation, the player giving the clue intends for the next player to blind-play from the *Finesse Position* that **matches the true *Finesse Position*** of the other card. This is called a *Shadow Finesse* because the positional blind-play is a "shadow" of the card that could have been used for the normal *Finesse*.
+* The first card to blind-play is called the *shadow* and the second card to blind-play is called the *shadow target*.
+* For example, in a 4-player game:
+  * It is the first turn and nothing is played on the stacks.
+  * Alice clues number 1 to Cathy, touching a single red 1 on slot 1 as a *Play Clue*.
+  * Bob sees that Alice's clue is very strange: Donald has a red 2 on his slot 4. Alice could have instead clued red to Donald to *Finesse* Cathy's red 1.
+  * Bob sees no other explanation for this, so he knows that this must be a *Shadow Finesse* - Bob must hold the red 2's "shadow".
+  * Since the red 2 is in Donald's *Fourth Finesse Position* (slot 4), Bob immediately plays his *Fourth Finesse Position* (slot 4). It is a blue 1 and it successfully plays.
+  * Cathy can see all of the other hands and understands Alice's clue. Cathy plays the clued red 1.
+  * Donald is very surprised to see Bob play his *Forth Finesse Position*. The only thing that could cause this is a *Shadow Finesse*.
+  * Donald blind-plays the red 2 (the shadow target) from his slot 4.
+* The *shadow* in a *Shadow Finesse* **must** exist in the immediate next player's hand, similar to a *Bluff*. And the player holding the *shadow* **must** blind-play it immediately to resynchronize the team, similar to a *Bluff*.
+* Once a *shadow* has been blind-played, the team should consider the *shadow target* as being fully known and "touched". (In other words, it no longer occupies a *Finesse Position*.)
+* Remember that *Shadow Finesses* work with *Finesse Positions*, **not** with slot numbers.
+* A *Shadow Finesse* is **illegal** if the blind-play could be misinterpreted as some other kind of move. For example:
+  * If the *shadow* is on the *First Finesse Position*, then the move might be misinterpreted as a *Bluff* or a *Trash Finesse*.
+  * If the *shadow* is on the *Second Finesse Position*, then the move might be misinterpreted as a *5 Color Ejection*
+  * If the *shadow* is on the *Third Finesse Position*, then the move might be misinterpreted as an *Unknown Trash Discharge*.
+* The *shadow* **must** come before the *shadow target*. In other words, it is **illegal** for Bob to hold the *shadow target*, since he cannot see that a *Shadow Finesse* is occurring (and therefore might try to get the *shadow*).
+```
+
+**The Reverse Shadow Finesse** (by pianoblook)
+
+* *Shadow Finesses* can also be performed in reverse.
+* *Reverse Shadow Finesses* are more complicated than normal *Shadow Finesses*, because the person with the clued card has to look ahead to determine whether or not **they** have the *shadow*, or if a **future** player has the *shadow*.
+* For an example, in a 4-player game:
+  * It is the first turn and nothing is played on the stacks.
+  * Alice clues red to Bob, touching a red card on slot 1 as a *Play Clue*.
+  * Bob knows that his red card must be a red 1.
+  * Bob sees that Alice's clue is very strange: Alice could have instead clued red to Donald, touching a red 2 as a *Finesse*.
+  * Bob recognizes that Alice must be a *Shadow Finesse*. Bob now must determine where the *shadow* lies.
+  * Bob sees that Donald's red 2 is on his *Third Finesse Position*.
+  * Bob looks at Cathy's *Third Finesse Position*. If it is playable, then Cathy holds the *shadow*. If it is not playable, then Bob holds the *shadow*.
+  * Cathy has a blue 1 in her *Third Finesse Position*, so Bob knows that Cathy holds the *shadow*.
+  * Bob plays his clued red 1.
+  * Similar to Bob, Cathy also knows that this is a *Shadow Finesse*. Cathy blind-plays her *Third Finesse Position*. It is blue 1 and it successfully plays.
+  * Donald is very surprised to see Cathy blind-play her *Third Finesse Position*. The only thing that could cause this is a *Shadow Finesse*.
+  * Donald blind-plays the *shadow target* from his *Third Finesse Position*.
+
 @everyone Variant-specific conventions:
 
 **Throw It in a Hole** (change)
