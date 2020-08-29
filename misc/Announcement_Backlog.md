@@ -26,6 +26,14 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 
 @everyone New conventions:
 
+**Double Ignition** (by Libster)
+
+```
+* *Double Ignition* is a move where you clue a globally known trash card near the end of the game in order to get two people to blind-play their *Finesse Position*.
+* This move is similar to the old *Trash Double Bluff*, but it is less complicated.
+* For more information, see the new section in the document called *Ignition*.
+```
+
 **The Pestilent Triple Bluff** (by asaelr)
 
 ```
