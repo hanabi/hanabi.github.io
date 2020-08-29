@@ -6,50 +6,6 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 
 ## The Backlog (General Conventions)
 
-@everyone Deleted conventions
-
-**Patch Finesse Deletion** (by Zamiel)
-
-```
-* The *Strong Patch Finesse* and the *Weak Patch Finesse* are deleted due to lack of use.
-* These two moves are commonly confused with other kinds of moves, so this greatly simplifies things.
-* The only remaining legal *Patch Finesse* is the *Hidden Patch Finesse*. The great thing about *Hidden Patch Finesses* is that no-one on the team has to even know that *Patch Finesses* exist for them to work properly, since they are completely hidden.
-* The takeaway here is to **never assume a clue from another player is a Patch Finesse**, and **delete Patch Finesses** from your brain.
-```
-
-**Trash Double Bluff** (deleted) (by Zamiel)
-
-```
-* IAMJEFF's version of the *Trash Double Bluff* is deleted due to lack of use.
-* Now, in general, player's don't have to care about how many cards are touched as part of a *Trash Bluff*, which simplifies things.
-```
-
-@everyone New conventions:
-
-**Double Ignition** (by Libster)
-
-```
-* *Double Ignition* is a move where you clue a globally known trash card near the end of the game in order to get two people to blind-play their *Finesse Position*.
-* This move is similar to the old *Trash Double Bluff*, but it is less complicated.
-* For more information, see the new section in the document called *Ignition*.
-```
-
-**The Pestilent Triple Bluff** (by asaelr)
-
-```
-* First, see the section on the *[Pestilent Double Bluff](#pestilent-double-bluff)*.
-* Rarely, it is possible that a *Pestilent*-style clue is performed with a two-away-from-playable card instead of a one-away-from-playable card. In this situation, it would transform into a *Triple Bluff* instead of a *Double Bluff*.
-* Note that normally, *Triple Bluffs* are explicitly illegal. But *Pestilent Triple Bluffs* are an exception to this rule.
-* For example, in a 5-player game:
-  * All the 1's are played on the stacks.
-  * Alice clues number 4 to Emily, touching a red 4 as a *Play Clue*.
-  * Bob attempts to blind-play a red 2 from his *Finesse Position*. Instead, it is a blue 2, and it successfully plays.
-  * Cathy knows that this is probably a *4's Double Bluff*. Cathy blind-plays her *Finesse Position* as any playable card. It is a blue 3 and it successfully plays.
-  * Donald knows that Emily will go on to incorrectly think that her red 4 is a blue 4 (because Alice's clue looks like a *Double Finesse*). Thus, Alice's clue is quite strange.
-  * Alice must be intending for Donald to also blind-play his *Finesse Position* in order to "heal" the problem. Donald blind-plays his *Finesse Position*. It is a green 2 and it successfully plays.
-  * At first, Emily thought that her 4 was the blue 4, in order to match the blue 2 and the blue 3. However, if that was the case, then Donald would not have blind-played anything. Emily knows that this must be a *Pestilent Triple Bluff*, and her 4 is any other 4 than blue 4 (because Donald blind-played) and green 4 (because Bob would have waited for Donald).
-```
-
 @everyone Variant-specific conventions:
 
 **Throw It in a Hole** (change)
