@@ -22,6 +22,7 @@
 
 * Pace is a measure of how many discards the team can do before a perfect score becomes impossible.
 * The formula for this is: `total cards in the deck - ((number of cards in a player's hand - 1) * number of players) - (5 * number of suits)`
+  * If a game contains the Contrarian detrimental character, `number of players` instead becomes `2`.
 
 <br />
 
@@ -56,6 +57,7 @@
   * `(5 * number of suits) / (8 + floor((starting pace + number of suits - unusable clues) / discards per clue))`
   * "unusable clues" is 1 by default, but 2 in a 5/6-player game
   * "unusable clues" is also increased by the number of suits in a *Throw It in a Hole* game
+  * "unusable clues" is always 1 if a game contains a Contrarian detrimental character
   * "discards per clue" is 1 by default, but 2 in a *Clue Starved* game
 * To calculate the total number of clues given or lost, we use:
   * +8 for the 8 starting clues
