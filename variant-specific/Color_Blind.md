@@ -23,8 +23,8 @@ These conventions apply to the "Color Blind" variants.
 
 * There are not enough colors to get all of the slots for a 2-player or 3-player game with 3 suits, so the color assignments are customized:
   * Red means play slot 2.
-  * Blue means play slot 3.
-  * Green means play slot 4.
+  * Green means play slot 3.
+  * Blue means play slot 4.
 * There are not enough colors to get all of the slots for a 4-player or 5-player game with 3 suits, so players are simply not able to clue slot 4 with a color clue.
 
 ### Extra Color --> Chop Move
