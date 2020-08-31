@@ -21,11 +21,6 @@ These conventions apply to any variant with a black (one of each) suit.
   * if the number clue also touched another critical card (this is called a *Florrat Save*)
 * Subsequently, if a number clue is used to touch a black 3 or a black 4 (and the above exception is not applicable), then it implies a *Finesse*.
 
-### Black 4 Bluffs
-
-* Building on the *3 Bluffs* convention, we also agree that is possible for a card that initiates a *Bluff* to be a copy of black 4.
-* However, it is only possible to do this with a black color clue.
-
 ### The Black Save Bluff
 
 * Normally, if a black 1 is on chop, it is clued with number 1 instead of black. This is because a black color clue would make it look like a *Save Clue* on either black 3 or black 4, and then it would sit there, not being played.
