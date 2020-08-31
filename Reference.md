@@ -776,7 +776,7 @@ Note that in this user interface, players are **not** holding their hands like t
   * Alice clues Bob number 1, which touches three 1's. They are in slot 1, slot 2, and slot 3.
   * Bob is expected to play slot 3 (which is the oldest 1). If he plays slot 3, nothing special happens.
   * If Bob plays slot 2, he is performing an *Order Chop Move*, and Cathy should chop move one card (her slot 5).
-  * If Bob plays slot 1, he is performing a *Skipped Order Chop Move*, and Alice should chop move one card (her slot 5).
+  * If Bob plays slot 1, he is performing an *Order Chop Move*, and Alice should chop move one card (her slot 5).
 * Sometimes, after getting clued about two or more 1s, a player will receive a follow-up clue that "fills in" one or more of the 1s. In this situation, playing a 1 with the full identity revealed will not cause an *Order Chop Move*. In other words, *Order Chop Moves* can only happen when a player has two or more 1s with each 1 having two or more identities.
 * Besides that, there are some other common situations that do **not** imply an *Order Chop Move*. Use your common sense! Here is a short list:
   * The 1 was expected to be played from the *[Fresh 1's Rule](#playing-multiple-1s---the-fresh-1s-rule-part-2)*.
@@ -789,7 +789,7 @@ Note that in this user interface, players are **not** holding their hands like t
 ### Double Order Chop Move (for 3-Player Games)
 
 * This convention only applies to 3-player games.
-* In the *Order Chop Move* and the *Skipped Order Chop Move*, players can play 1's in a certain order to *Chop Move* a specific player of their choosing.
+* In the *Order Chop Move*, players can play 1's in a certain order to *Chop Move* a specific player of their choosing.
 * In a 4 or 5-player game, skipping over three 1's would *Chop Move* the player three seats away. However, in a 3-player game, this would be nonsensical, since there are only 3 players in total.
 * Thus, in a 3-player game, skipping over three 1's should *Double Chop Move* the very next player.
 * In the rare case where four things are skipped over, it should skip over the next player and *Double Chop Move* the player after that.
