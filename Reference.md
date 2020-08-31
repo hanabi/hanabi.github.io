@@ -777,11 +777,13 @@ Note that in this user interface, players are **not** holding their hands like t
   * Bob is expected to play slot 3 (which is the oldest 1). If he plays slot 3, nothing special happens.
   * If Bob plays slot 2, he is performing an *Order Chop Move*, and Cathy should chop move one card (her slot 5).
   * If Bob plays slot 1, he is performing a *Skipped Order Chop Move*, and Alice should chop move one card (her slot 5).
-* There are some common special situations that do **not** imply an *Order Chop Move*. Use your common sense! Here is a short list:
-  * The 1 that was played was originally *Finessed* from a clue that happened **before** the number 1 clue.
+* Sometimes, after getting clued about two or more 1s, a player will receive a follow-up clue that "fills in" one or more of the 1s. In this situation, playing a 1 with the full identity revealed will not cause an *Order Chop Move*. In other words, *Order Chop Moves* can only happen when a player has two or more 1s with each 1 having two or more identities.
+* Besides that, there are some other common situations that do **not** imply an *Order Chop Move*. Use your common sense! Here is a short list:
   * The 1 was expected to be played from the *[Fresh 1's Rule](#playing-multiple-1s---the-fresh-1s-rule-part-2)*.
-  * The 1 that was played has a different amount of positive clues than the other 1's. (For example, *Order Chop Moves* would be "turned off" in the situation where Alice has one 1 has a positive 1 clue on it, and Alice has another 1 with a positive 1 clue on it and a positive red clue on it.)
-    * Different amounts of negative clues are ignored.
+  * The 1 was expected to be played from the *[Chop Focus Exception](#playing-multiple-1s---the-chop-focus-exception-part-3).
+  * The 1 that was played has different positive clues than the other 1's.
+    * Different negative clues are ignored.
+  * The 1 that was played was originally *Finessed* from a clue that happened **before** the number 1 clue.
   * The 1 that was skipped over is known to be bad from contextual information. (See the *[Stale 1's Clue](#context-clues--the-stale-1s-clue)* section.)
 
 ### Double Order Chop Move (for 3-Player Games)
