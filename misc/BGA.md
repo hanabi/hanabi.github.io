@@ -99,7 +99,7 @@ What is the flip-side of not having very many members? Better cohesion, aided by
 
 Another potentially bad aspect of playing with my group is the complexity involved. We are welcoming of new players, but I won't deny that we play at a higher level than the average BGA player. It is going to be a longer journey to become an expert in our group than it would be to be an expert at BGA. And if you are already comfortable with the BGA conventions, it might just be too frustrating to experiment with different ways of doing things.
 
-What is the flip-side of having more conventions and more complexity? First off, it raises the skill ceiling. Hanabi throws plenty of tricky situations at you, and you only have a limited amount of tools to solve them. By adding some conventions, it can be like adding additional tools to the tool-belt. For expert players, by empowering them with more tools, it increases the total ways in which they can solve problems, making the game take on a new layer of beauty. But even for intermediate players, it can be very fun to gain the powers to make your teammates blind-play cards from their hands in new and exciting ways.
+What is the flip-side of having more conventions and more complexity? First off, it raises the skill ceiling. Hanabi throws plenty of tricky situations at you, and you only have a limited number of tools to solve them. By adding some conventions, it can be like adding additional tools to the tool-belt. For expert players, by empowering them with more tools, it increases the total ways in which they can solve problems, making the game take on a new layer of beauty. But even for intermediate players, it can be very fun to gain the powers to make your teammates blind-play cards from their hands in new and exciting ways.
 
 We know that for people who really like Hanabi, it will be worth the extra effort to play with a little more complexity.
 
@@ -138,7 +138,7 @@ If you're reading this far, you'll want to know some of the basic differences be
 
 * The *2 Saves Convention* is when someone clues number 2 and it touches a 2 on chop. Even if it touches some other 2, it doesn't necessarily mean anything is currently playable - the point of the clue was to save one or more 2's.
 * On BGA, *2 Saves* are typically "turned on" in 2-player games, and sometimes turned on in 3-player games, but almost always turned off in 4-player games and 5-player games.
-* In my group, *2 Saves* are **always** turned on, regardless of the amount of players.
+* In my group, *2 Saves* are **always** turned on, regardless of the number of players.
 * Why do this? Having this convention eliminates 100% of "bottom-deck" losses to 2's.
 
 ### Clue Focus on Retouched Cards - Changed
@@ -203,7 +203,7 @@ Ok, so you've made it this far. The changes so far probably sound pretty strange
 * On BGA, in 3+ player games, players don't generally do *Hard Double Discard Avoidance*. Instead, they use two other strategies to prevent *Double Discards* from occurring:
   * First, players are generally allowed to save a copy of a non-critical card if both copies of that card are on the chop of adjacent players.
   * Second, players can indirectly solve the problem by planning a line where it sets up one of the DD players to give an obvious clue.
-* In my group, there is no need to do either of these strategies, because *Hard Double Discard Avoidance* is **always** turned on, regardless of the amount of players.
+* In my group, there is no need to do either of these strategies, because *Hard Double Discard Avoidance* is **always** turned on, regardless of the number of players.
 * Why do this? It narrows the possibilities of what *Save Clues* can be, which is quite useful. Furthermore, it eliminates the silliness involved in dancing around a *Double Discard* situation - players just simply don't have to worry about it anymore and can focus on always giving the highest efficiency clue for the situation.
 * Finally, if a player notices that someone *Double Discards* when they weren't supposed to, they can mark their hand for the exact card, which is quite powerful.
 
