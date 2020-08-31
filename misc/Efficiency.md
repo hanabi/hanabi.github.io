@@ -22,7 +22,7 @@
 
 * Pace is a measure of how many discards the team can do before a perfect score becomes impossible.
 * The formula for this is: `total cards in the deck - ((number of cards in a player's hand - 1) * number of players) - (5 * number of suits)`
-  * If a game contains the Contrarian detrimental character, `number of players` instead becomes `2`.
+  * If a game contains the Contrarian detrimental character, `(number of players - 2)` is subtracted from the pace.
 
 <br />
 
