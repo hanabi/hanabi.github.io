@@ -308,8 +308,8 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 
 ```
 * This convention applies to the "Dual-Color (6 Suits)" variant.
-* Normally, *Order Chop Moves*, are "turned off" when two different 1's have different numbers of positive clues on them.
+* Normally, *Order Chop Moves*, are "turned off" when two different 1's have different positive clues on them.
   * For example, Order Chop Moves would be "turned off" in the situation where Alice has one 1 has a positive 1 clue on it, and Alice has another 1 with a positive 1 clue on it and a positive red clue on it.
-* In the "Dual Color (6 Suit)" variant, *Order Chop Moves* are never turned off when there are two different 1's, regardless of the number of positive color clues or negative color clues on them.
+* In the "Dual Color (6 Suit)" variant, *Order Chop Moves* are never turned off when there are two different 1's, regardless of different positive or negative color clues on them.
 * The only exception is when the exact identity of the 1 is known (e.g. from being completely "filled in"). In this situation, *Order Chop Moves* are turned off.
 ```
