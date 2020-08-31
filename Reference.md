@@ -780,7 +780,7 @@ Note that in this user interface, players are **not** holding their hands like t
 * Sometimes, after getting clued about two or more 1s, a player will receive a follow-up clue that "fills in" one or more of the 1s. In this situation, playing a 1 with the full identity revealed will not cause an *Order Chop Move*. In other words, *Order Chop Moves* can only happen when a player has two or more 1s with each 1 having two or more identities.
 * Besides that, there are some other common situations that do **not** imply an *Order Chop Move*. Use your common sense! Here is a short list:
   * The 1 was expected to be played from the *[Fresh 1's Rule](#playing-multiple-1s---the-fresh-1s-rule-part-2)*.
-  * The 1 was expected to be played from the *[Chop Focus Exception](#playing-multiple-1s---the-chop-focus-exception-part-3).
+  * The 1 was expected to be played from the *[Chop Focus Exception](#playing-multiple-1s---the-chop-focus-exception-part-3)*.
   * The 1 that was played has different positive clues than the other 1's.
     * Different negative clues are ignored.
   * The 1 that was played was originally *Finessed* from a clue that happened **before** the number 1 clue.
