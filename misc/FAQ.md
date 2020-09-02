@@ -24,9 +24,17 @@ https://github.com/Zamiell/hanabi-conventions/blob/master/misc/Convention_Reason
 
 <br />
 
-### A certain type of clue or a certain situation is "undefined". I want to propose a new convention where it will instead have a meaning.
+### Why isn't [situation X] defined in the conventions document?
 
-Not everything has to have a meaning. We intentionally want to have clues be undefined so that we have some wiggle room: https://github.com/Zamiell/hanabi-conventions/blob/master/misc/Convention_Goals.md
+Not everything has to have a meaning. We intentionally want to have situations be undefined so that we have some wiggle room to handle a wide variety of game states: https://github.com/Zamiell/hanabi-conventions/blob/master/misc/Convention_Goals.md
+
+<br />
+
+### [Situation X] is undefined in the conventions document. I want to propose a new convention to define what it will mean.
+
+Sorry, but probably not.
+
+Not everything has to have a meaning. We intentionally want to have situations be undefined so that we have some wiggle room to handle a wide variety of game states: https://github.com/Zamiell/hanabi-conventions/blob/master/misc/Convention_Goals.md
 
 <br />
 
