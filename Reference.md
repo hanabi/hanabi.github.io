@@ -1566,7 +1566,7 @@ Note that in this user interface, players are **not** holding their hands like t
       * Cathy knows that it was a *3 Bluff*, because a played 1 does not "match" number 3.
       * Beyond that, Cathy knows nothing about the card, besides that it is a 3 (since it has a number 3 clue on it).
       * Even though red 1 and red 3 are the same suit, Bob is not promised a red 2, because if he does nothing, Cathy will not go on to misplay the red 3.
-* The priority of *3 Bluffs* can be confusing. If you don't want to memorize the four examples above, you can simply ask the following questions:
+* *3 Bluffs* can be confusing. If you don't want to memorize the four examples above, you can simply ask the following questions:
   1) Does the clue "match" the blind-play? If it matches, then it is a *Finesse*. If it does not match, then it is a *Bluff*. Red matches red, but red does **not** match blue. 2 matches 3, but 1 does **not** match 3.
   2) Will the player who received the clue go on to misplay if nothing else is blind-played? If yes, then it is a *Finesse*. If no, then it is a *Bluff*.
 
