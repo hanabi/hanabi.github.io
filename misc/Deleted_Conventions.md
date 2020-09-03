@@ -56,11 +56,6 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
 * This is called a *Double Gentleman's Discard* because it "gets" two cards instead of one.
 * This convention was removed because it would lead to misplays after players made information-asymmetric reads.
 
-### The Critical 4 Bluff
-
-* Building on the *3 Bluffs* convention, it is **also** possible for a card that initiates a *Bluff* to be a copy of any of the 4s that are critical (meaning that the other copy is in the discard pile or it is a black 4).
-* This convention was deleted because it was hardly ever used and it increased complexity.
-
 ### The Redundant Save Chop Move
 
 * Players that have two or more clued 1's in their hand will often use the *Order Chop Move* to *Chop Move* a 2, a 5, or a critical card on the next player's chop.
