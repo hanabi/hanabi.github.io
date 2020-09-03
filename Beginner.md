@@ -311,7 +311,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
   * Bob must have the red 3, so this is a *Prompt*. Bob plays his left-most 3 from slot 2.
   * However, after playing it, Bob sees that it is not the red 3 - it was the blue 3 (which played successfully). Bob now knows that the next-left-most 3 must be the red 3 (on slot 3).
   * On his next turn, Bob tries to play his slot 3 card as red 3. However, after playing it, Bob sees that it was not the red 3 - it was the green 3 (which played successfully). Bob now knows that his final 3 must be red 3 (on slot 4).
-  * On his next turn, Bob plays his slot 4 card, and it is red 3. Bob now knows that Alice did a *Triple Prompt*.
+  * On his next turn, Bob plays his slot 4 card, and it is red 3.
 
 <br />
 
