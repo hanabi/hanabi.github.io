@@ -268,8 +268,8 @@ In this guide, there will be some screenshots to show off the concepts introduce
 ## Special Moves
 
 * Hanabi is a game of trying to be as efficient as possible, since there is a limited number of clues.
-* Most of the time, players will use one clue to get one card played. But is it possible to do better?
-* There are two special "moves" that players can do in order to get multiple cards played by only using 1 clue, which is very efficient.
+* It is therefore preferable for the team to get multiple cards to play per clue given.
+* This document introduces two special "moves" that players can do in order to achieve this. The [reference document](Reference.md) builds upon these moves and adds many more in order to become even more efficient.
 
 <br />
 
