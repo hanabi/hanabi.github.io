@@ -310,11 +310,10 @@ In this guide, there will be some screenshots to show off the concepts introduce
   * Alice clues red to Cathy, which touches the red 4. This is a *Play Clue* on the red 4.
   * Bob sees that it is not playable and concludes that this is a *Prompt* and he must have the red 3. Bob plays his left-most 3 from slot 2.
   * However, after playing it, Bob sees that it is not the red 3 - it was the blue 3 (which played successfully). Bob now knows that the next-left-most 3 must be the red 3 (on slot 3).
-  * Since Bob played a card to make her card playable, Cathy now knows she must have the red 4. (She can see the red 3 in Bob's hand and knows he will eventually play it.) She does something unrelated.
+  * Cathy can see the touched red 3 in Bob's hand and knows from the *Good Touch Principle* that her red must be the 4. She does something unrelated.
   * On his next turn, Bob tries to play his slot 3 card as red 3. However, after playing it, Bob sees that it was not the red 3 - it was the green 3 (which played successfully). Bob now knows that his final 3 must be red 3 (on slot 4).
   * On his next turn, Bob plays his slot 4 card, and it is red 3.
   * Cathy can now finally play her red 4.
-* Four cards ended up being played by this clue, which is very efficient, and a good play by Alice.
 
 <br />
 
