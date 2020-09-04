@@ -314,7 +314,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
   * On his next turn, Bob tries to play his slot 3 card as red 3. However, after playing it, Bob sees that it was not the red 3 - it was the green 3 (which played successfully). Bob now knows that his final 3 must be red 3 (on slot 4).
   * On his next turn, Bob plays his slot 4 card, and it is red 3.
   * Cathy can now finally play her red 4.
-* This was a very efficient 4-for-1 clue, and a good play by Alice.
+* Four cards ended up being played by this clue, which is very efficient, and a good play by Alice.
 
 <br />
 
