@@ -269,7 +269,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
 
 * Hanabi is a game of trying to be as efficient as possible, since there is a limited number of clues.
 * It is therefore preferable for the team to get multiple cards to play per clue given.
-* This document introduces two special "moves" that players can do in order to achieve this. The [reference document](Reference.md) builds upon these moves and adds many more in order to become even more efficient.
+* Most of the time, players can use two special "moves" to achieve this: *Prompts* and *Finesses*.
 
 <br />
 
