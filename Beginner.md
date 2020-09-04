@@ -304,14 +304,17 @@ In this guide, there will be some screenshots to show off the concepts introduce
 
 <img src="img/beginner/prompt4.png" height="300" />
 
-* The *Prompt* is a **promise** that the player has the connecting card. **A *Prompt* cannot be a lie!**
+* The *Prompt* is a **promise** that the player has the connecting card. Therefore, if the left-most card is not the correct one, the player should continue to play his clued cards (left to right) until the expected card is found. (It is of course the responsibility of the player giving the clue to ensure that all those previous cards will play successfully.)
 * In the above screenshot:
   * Bob has three separate unknown 3's in his hand.
   * Alice clues red to Cathy, which touches the red 4. This is a *Play Clue* on the red 4.
-  * Bob must have the red 3, so this is a *Prompt*. Bob plays his left-most 3 from slot 2.
+  * Bob sees that it is not playable and concludes that this is a *Prompt* and he must have the red 3. Bob plays his left-most 3 from slot 2.
   * However, after playing it, Bob sees that it is not the red 3 - it was the blue 3 (which played successfully). Bob now knows that the next-left-most 3 must be the red 3 (on slot 3).
+  * Since Bob played a card to make her card playable, Cathy now knows she must have the red 4. (She can see the red 3 in Bob's hand and knows he will eventually play it.) She does something unrelated.
   * On his next turn, Bob tries to play his slot 3 card as red 3. However, after playing it, Bob sees that it was not the red 3 - it was the green 3 (which played successfully). Bob now knows that his final 3 must be red 3 (on slot 4).
   * On his next turn, Bob plays his slot 4 card, and it is red 3.
+  * Cathy can now finally play her red 4.
+* This was a very efficient 4-for-1 clue, and a good play by Alice.
 
 <br />
 
