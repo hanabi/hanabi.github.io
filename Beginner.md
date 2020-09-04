@@ -268,8 +268,8 @@ In this guide, there will be some screenshots to show off the concepts introduce
 ## Special Moves
 
 * Hanabi is a game of trying to be as efficient as possible, since there is a limited number of clues.
-* Thus, if possible, the team wants to get **two** (or more) cards to play from one clue, if possible.
-* Most of the time, players can use two special "moves" to achieve this: *Prompts* and *Finesses*.
+* Thus, it is ideal to get **two** or more cards to play from **one** clue.
+* Players can use two special "moves" to do this: *Prompts* and *Finesses*.
 
 <br />
 
