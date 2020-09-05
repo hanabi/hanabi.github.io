@@ -1427,6 +1427,9 @@ Note that in this user interface, players are **not** holding their hands like t
 * As mentioned in the section on *Bluffs*, you are in *Bluff Seat* for a certain player if you are immediately before them.
 * Before cluing a card directly, you should first consider if it is on *Finesse Position*. If it is, and you clue it directly, you may be "stealing" someone's *Finesse* or *Bluff*.
 * Thus, in this situation, it may be better to discard and let the player in *Bluff Seat* get the card. If you do decide to clue the card directly, you should always feel a *Pang of Guilt*.
+* To tell the difference between a *Layered Finesse* and a *Bluff*, simply look at the *Bluff Seat*:
+  * If the player was in *Bluff Seat*, then it is a *Bluff*.
+  * If the player was not in *Bluff Seat*, then it is a *Layered Finesse*.
 
 ### Bluff Prompts / Prompt Bluffs (Illegal)
 
