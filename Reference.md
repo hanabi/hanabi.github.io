@@ -42,7 +42,6 @@ Note that convention updates for the group are listed in the `#announcements` ch
   * [Common Mistakes](#level-8---intermediate---common-mistakes)
 * [Level 9 - Fellow](#level-9---fellow)
 * [Level 10 - Journeyman](#level-10---journeyman)
-  * [General Principles](#level-10---journeyman---general-principles)
 * [Level 11 - Advanced](#level-11---advanced)
 * [Level 12 - Adept](#level-12---adept)
 * [Level 13 - Senior](#level-13---senior)
