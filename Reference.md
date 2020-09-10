@@ -42,6 +42,7 @@ Note that convention updates for the group are listed in the `#announcements` ch
   * [Common Mistakes](#level-8---intermediate---common-mistakes)
 * [Level 9 - Fellow](#level-9---fellow)
 * [Level 10 - Journeyman](#level-10---journeyman)
+  * [General Principles](#level-10---journeyman---general-principles)
 * [Level 11 - Advanced](#level-11---advanced)
 * [Level 12 - Adept](#level-12---adept)
 * [Level 13 - Senior](#level-13---senior)
@@ -1776,6 +1777,46 @@ Priority does not always apply. Some common exceptions are listed below.
 * For the purposes of *Priority*, blind-playing a card is the most important thing to do. When players are supposed to be blind-playing a card, they are usually **not** allowed to perform a *Priority Finesse* - they must stick to playing the blind card.
 * One exception to this is if a player is in the middle of unraveling the layer of a *Layered Finesse*. Since they have already blind-played their first card in the layer, they have demonstrated that the *Finesse* was on them, and now everyone on the team knows that the rest of the cards inside of the layer are "gotten" for sure.
 * Thus, in this situation, a player can "pause" finishing up the *Layered Finesse* and play some other clued card to perform a *Paused Priority Finesse*.
+
+<br />
+
+## Level 10 - Journeyman - General Principles
+
+### Cluing 1's In Early Game
+
+* In the beginning of the game, we are trying to be as efficient as possible, which is why cluing multiple 1's is almost always preferred over cluing a single 1.
+* However, we also want to touch as many good cards as possible, so that they can be saved to avoid a bottomdeck loss and prompted out later.
+* These two principles sometimes conflict, and it is up to players to choose whether they are willing to sacrifice clues or tempo in order to get an additional good touch.
+* A very common occurence is a choice between cluing two ones by number, or separately by color. Typically, a 4-for-2 is preferable to a 2-for-1 clue, and players should consider how teammates can build on their clues.
+* For example, in a 3-player game:
+  * It is the first turn and nothing is played on the stacks.
+  * Bob's hand is as follows, from newest to oldest: `green 4, red 1, red 3, yellow 2, yellow 1`
+  * Alice would like to get the red and yellow 1's played. Should she clue 1, red, or yellow?
+  * If she clues 1s, the red 3 and yellow 2 cannot be gotten in just one clue, and the team will probably spend a clue getting the yellow 2. This will result in an efficiency of 3-for-2.
+  * Instead, cluing yellow and red will get both desired cards, resulting in an efficiency of 4-for-2.
+  * Alice clues red, as a yellow clue would ruin the focus of the red clue. Now Cathy can get the yellow clue, let Alice do it, or perform an even more efficient yellow clue on Alice's hand.
+* Other players' cards should also be considered when making this choice.
+* For example, in a 4-player game:
+  * It is the first turn and nothing is played on the stacks.
+  * Cathy's hand is as follows, from newest to oldest: `red 1, green 4, yellow 3, yellow 1`
+  * Donald is holding a cluable red 2.
+  * Alice would like to get the red and yellow 1's played. Should she clue 1, red, or yellow?
+  * As before, cluing 1s prevents the red 2 and yellow 3 from being clued at the same time, and will likely result in 3-for-2.
+  * Alice clues yellow, and leaves the finesse for Bob. Bob can either perform the same finesse, or perhaps he can find an even better move to play the red 1.
+* Some other factors to consider:
+  * Does giving a particular clue put a playable card on *Finesse Position*?
+  * Some advanced moves make it possible to play the *Second Finesse Position* or *Third Finesse Position*, which can also contribute to 4-for-2 clues. How can my teammates follow up on my clues?
+  * Does the player holding the 1's want to perform an *Order Chop Move*? If so, it may be better to clue the 1's by number.
+  * Are there other, better ways to clue the additionally tagged cards?
+* It is also possible to cleverly achieve higher efficiency by giving a save clue before play clues, which would otherwise not be a good idea due to loss of tempo:
+* For example, in a 3-player game:
+  * It is the first turn and nothing is played on the stacks.
+  * Cathy's hand is as follows, from newest to oldest: `green 4, green 4, red 3, red 1, red 5`
+  * Alice would like to get the red 1 played, and eventually to save the red 5.
+  * Alice clues 5, as a *5 Save*.
+  * Bob follows up with red, as a *Play Clue* on the red 1.
+  * This results in the red 1 played, the red 5 saved, but also, the red 3 is clued, and the red 5 is filled in.
+  * Alternatively, Bob may elect to clue the red 1 in Alice's hand, if he thinks he can get it more efficiently, or to clue something else entirely on this turn.
 
 <br />
 
