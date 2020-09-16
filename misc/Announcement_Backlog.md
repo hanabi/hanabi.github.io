@@ -6,13 +6,7 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 
 ## The Backlog (General Conventions)
 
-@everyone Variant-specific conventions:
-
-**Throw It in a Hole** (change)
-
-```
-* Throw It in a Hole variants are now considered to be a hard, meaning that Loaded Play Clues are "turned on" and so forth.
-```
+n/a
 
 <br />
 
@@ -67,6 +61,8 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
   * Later on in the game, another rank clue "fills in" Bob's slot 2 card to be a pink card. From *Pink Promise*, Bob knows that it must be exactly the pink 5.
 ```
 
+@everyone Variant-specific conventions:
+
 **The Bubblegum Bluff** (by Stephen)
 
 ```
@@ -82,22 +78,6 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
   * Cathy marks her slot 5 card as the one-away-from-playable pink card, the pink 2.
 * *Bubblegum Bluffs* can only be performed on non-pink cards; otherwise, it will look like a *Double Finesse* with one part *Bubblegum Finesse* and one part normal *Finesse*.
 * Note that it is impossible to *3 Bluff* and *Bubblegum Bluff* at the same time.
-```
-
-**Reverse Finesse Restriction** (by Florrat)
-
-```
-* This convention only applies in a Cow & Pig variant.
-* It is illegal to perform a *Reverse Finesse* with a rank clue on the first turn. (This makes things more clear for players when they are given a *Save Clue* and there are some playable cards on *Finesse Position* to get.)
-```
-
-@everyone Variant-specific conventions:
-
-**Dark Pink Tempo Clues** (by Kakashi)
-
-```
-* Normally, *Tempo Clues* on pink cards would never cause a *Tempo Clue Chop Move* (because *Tempo* on pink cards is important).
-* However, this does not apply to dark pink cards. *Tempo Clues* on dark pink cards work as they normally do. (Meaning that it is possible to perform a *Tempo Clue Chop Move* by giving a *Tempo Clue* to a dark pink card, provided that all of the other normal *Tempo Clue Chop Move* conditions are met.)
 ```
 
 **Dark Omni & Gray Pink Pseudo Saves**
@@ -198,6 +178,36 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
   * Bob plays slot 4 as the muddy rainbow 3.
 ```
 
+**Bubblegum Wraparound**
+
+```
+* This convention applies to any variant with a pink suit.
+* When players violate *Pink Promise* on an unplayable pink card, it usually indicates a *Bubblegum Prompt* or a *Bubblegum Finesse* (with the rank corresponding to the slot number to play).
+* In 4-player and 5-player games, there are only 4 cards in the hand. If a player does a *Bubblegum Finesse* with a 5, then that would be nonsensical, since there is no slot 5.
+* Similarly, in a 6-player game, there are only 3 cards in the hand. If a player does a *Bubblegum Finesse* with a 4, then that would be nonsensical, since there is no slot 4.
+* In this situation, it should "wraparound" to slot 1, communicating that the first slot is playable.
+* This kind of thing is useful in some edge-case scenarios (e.g. helping satisfy *Good Touch Principle* in variants with a light pink suit).
+```
+
+**Bubblegum Slides**
+
+```
+* This convention applies to any variant with a pink suit.
+* If a *Bubblegum Prompt* or a *Bubblegum Finesse* is telling a player to play a card in a slot that has negative pink, then that is nonsensical.
+* In this situation, if there is no other possible interpretation for the clue other than a *Bubblegum Prompt* or a *Bubblegum Finesse*, and it is unlikely for the cluer to be making a mistake, then the target slot should "slide" to the right.
+* If the slot immediately to the right is also impossible to be a pink card, then it should continue to slide right until it finds a pink card, wrapping around to the other side of the hand if necessary.
+```
+
+**Order Chop Move Change**
+
+```
+* This convention applies to the "Dual-Color (6 Suits)" variant.
+* Normally, *Order Chop Moves*, are "turned off" when two different 1's have different positive clues on them.
+  * For example, Order Chop Moves would be "turned off" in the situation where Alice has one 1 has a positive 1 clue on it, and Alice has another 1 with a positive 1 clue on it and a positive red clue on it.
+* In the "Dual Color (6 Suit)" variant, *Order Chop Moves* are never turned off when there are two different 1's, regardless of different positive or negative color clues on them.
+* The only exception is when the exact identity of the 1 is known (e.g. from being completely "filled in"). In this situation, *Order Chop Moves* are turned off.
+```
+
 **The Slot Finesse** (by Jeff)
 
 ```
@@ -231,34 +241,4 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
   * Cathy knows that this must be a *Slot Double Bluff*, so she blind-plays her *Finesse Position* as any playable card. It is yellow 2 and it successfully plays.
   * Donald knows that from the sequence of events that Alice performed a *Slot Double Bluff*, so the 4 clue is to be treated as a *Positional Clue* (e.g. the 4 in his hand might be trash).
   * Bob sees that since Cathy blind-played her *Finesse Position* card for "no reason", he must not actually have the null 2 in his hand after all. Bob can reason that Alice performed a *Slot Double Bluff*.
-```
-
-**Bubblegum Wraparound**
-
-```
-* This convention applies to any variant with a pink suit.
-* When players violate *Pink Promise* on an unplayable pink card, it usually indicates a *Bubblegum Prompt* or a *Bubblegum Finesse* (with the rank corresponding to the slot number to play).
-* In 4-player and 5-player games, there are only 4 cards in the hand. If a player does a *Bubblegum Finesse* with a 5, then that would be nonsensical, since there is no slot 5.
-* Similarly, in a 6-player game, there are only 3 cards in the hand. If a player does a *Bubblegum Finesse* with a 4, then that would be nonsensical, since there is no slot 4.
-* In this situation, it should "wraparound" to slot 1, communicating that the first slot is playable.
-* This kind of thing is useful in some edge-case scenarios (e.g. helping satisfy *Good Touch Principle* in variants with a light pink suit).
-```
-
-**Bubblegum Slides**
-
-```
-* This convention applies to any variant with a pink suit.
-* If a *Bubblegum Prompt* or a *Bubblegum Finesse* is telling a player to play a card in a slot that has negative pink, then that is nonsensical.
-* In this situation, if there is no other possible interpretation for the clue other than a *Bubblegum Prompt* or a *Bubblegum Finesse*, and it is unlikely for the cluer to be making a mistake, then the target slot should "slide" to the right.
-* If the slot immediately to the right is also impossible to be a pink card, then it should continue to slide right until it finds a pink card, wrapping around to the other side of the hand if necessary.
-```
-
-**Order Chop Move Change**
-
-```
-* This convention applies to the "Dual-Color (6 Suits)" variant.
-* Normally, *Order Chop Moves*, are "turned off" when two different 1's have different positive clues on them.
-  * For example, Order Chop Moves would be "turned off" in the situation where Alice has one 1 has a positive 1 clue on it, and Alice has another 1 with a positive 1 clue on it and a positive red clue on it.
-* In the "Dual Color (6 Suit)" variant, *Order Chop Moves* are never turned off when there are two different 1's, regardless of different positive or negative color clues on them.
-* The only exception is when the exact identity of the 1 is known (e.g. from being completely "filled in"). In this situation, *Order Chop Moves* are turned off.
 ```
