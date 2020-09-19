@@ -1777,7 +1777,7 @@ Priority does not always apply. Some common exceptions are listed below.
 * One exception to this is if a player is in the middle of unraveling the layer of a *Layered Finesse*. Since they have already blind-played their first card in the layer, they have demonstrated that the *Finesse* was on them, and now everyone on the team knows that the rest of the cards inside of the layer are "gotten" for sure.
 * Note that this only applies when the card that was blind-played was unrelated to the original *Layered Finesse*.
   * For example, if a player is finessed for both the red 1 and the red 2 and has just blind-played a green 1, then they can perform a *Paused Priority Finesse*, because everyone on the team knows that the green 1 played as red 1 and therefore that the layer is not yet unraveled.
-  * However, if a player is finessed for both the red 1 and the red 2 and has just blind-played the red 1, then they **cannot** perform a *Paused Priority Finesse* because they have not yet demonstrated to the team that they are still finessed for the red 2.
+  * However, if a player is finessed for both the red 1 and the red 2 and has just blind-played the red 1, then they **cannot** perform a *Paused Priority Finesse* because they haven't demonstrated to the team that they are still finessed for the red 2.
 * Thus, in this situation, a player can "pause" finishing up the *Layered Finesse* and play some other clued card to perform a *Paused Priority Finesse*.
 
 <br />
