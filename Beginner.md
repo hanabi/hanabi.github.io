@@ -162,7 +162,6 @@ In this guide, there will be some screenshots to show off the concepts introduce
   * Bob looks through the discard pile and finds that there is a yellow 4 there. Thus, this could be a *Save Clue* on the yellow 4. So, Bob knows that for now, he has to hold on to the card.
   * Bob marks the card as either a yellow 2 or a yellow 4, so that he can keep track of it for later. Then, he discards.
 
-
 <br />
 
 ### Play Clues
