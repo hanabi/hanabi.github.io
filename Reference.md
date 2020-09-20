@@ -1785,9 +1785,9 @@ Priority does not always apply. Some common exceptions are listed below.
 ### Cluing 1's In Early Game
 
 * In the beginning of the game, we are trying to be as efficient as possible, which is why cluing multiple 1's is almost always preferred over cluing a single 1.
-* However, we also want to touch as many good cards as possible, so that they can be saved to avoid a bottomdeck loss and prompted out later.
+* However, we also want to touch as many good cards as possible, to avoid a loss if the other copy is near the bottom and so that they can be prompted out later.
 * These two principles sometimes conflict, and it is up to players to choose whether they are willing to sacrifice clues or tempo in order to get an additional good touch.
-* A very common occurence is a choice between cluing two ones by number, or separately by color. Typically, a 4-for-2 is preferable to a 2-for-1 clue, and players should consider how teammates can build on their clues.
+* A very common occurrence is a choice between cluing two ones by number, or separately by color. Typically, a 4-for-2 is preferable to a 2-for-1 clue, and players should consider how teammates can build on their clues.
 * For example, in a 3-player game:
   * It is the first turn and nothing is played on the stacks.
   * Bob's hand is as follows, from newest to oldest: `green 4, red 1, red 3, yellow 2, yellow 1`
