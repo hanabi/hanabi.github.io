@@ -2310,7 +2310,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### The No-Information Double Finesse & The No-Information Double Bluff
 
-* Sometimes, cards that are two-away-from-playable are re-clued in order to initiate a *Finesse* or a *Bluff*. Most times, the clue will "fill in" or give extra information to the existing card.
+* Sometimes, a card that is two-away-from-playable is re-clued in order to initiate a *Finesse* or a *Bluff*. Most times, the clue will "fill in" or give extra information to the existing card.
 * Other times, the clue will give no information (e.g. re-cluing number 3 to an already known 3). In this situation, if it was merely a *Bluff*, it would be pretty low value.
 * Thus, by convention, a "no information" clue on a two-away-from-playable card **must** "get" at least 2 new cards (as opposed to a single *Bluff* that only gets 1 brand new card).
 * For example, in a 3-player game:
