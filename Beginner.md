@@ -153,6 +153,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
 
 * For the same reason that 5's need to be saved, critical cards also need to be saved. (Critical cards are defined as cards that have the other copy discarded.)
 * Players can choose to save critical cards with either a color clue **or** a number clue.
+  * Note that this even applies to 2's in the rare case that a copy of that 2 ends up in the discard pile.
 * In the above screenshot:
   * The current discard pile is shown to the right of the hands.
   * Alice clues Bob yellow, which touches a card on slot 4.
