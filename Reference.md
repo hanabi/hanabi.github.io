@@ -1110,6 +1110,17 @@ Note that in this user interface, players are **not** holding their hands like t
   * The end-game has not started yet (see the *End-Game Threshold*).
   * You know that someone else will have to discard in the future.
 
+### End-Game Strategy
+
+* The previous three sections introduce the *End-Game* at a high-level. When the *End-Game* arrives, you should probably be changing the way you play.
+* However, giving specific advice for the *End-Game* is very difficult - things vary widely based on the deal and there are a lot of different things to consider.
+* The best advice is to play lots of games of Hanabi to get a feel for the most common situations. But there is no substitute for thinking through each *End-Game* yourself, one step at a time. Ask questions like:
+  * Which cards are left in the deck that we need?
+  * What is the probability of drawing those cards?
+  * Who should be drawing those cards?
+  * Does stalling produce a line that is better than playing?
+* If you really want to get into the weeds of *End-Game* strategy, Romain has written a [short strategy guide](https://docs.google.com/document/d/1jKFqt9WbWAc1Dj3M2E_kwDwS3J0xeIp0UNkiqkLLApk/edit) that goes into more depth.
+
 <br />
 
 ## Level 7 - Apprentice
