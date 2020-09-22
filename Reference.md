@@ -3577,6 +3577,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Bob blind-plays slot 2. It is a blue 2 and it successfully plays.
   * From Cathy's perspective, she first suspects that some kind of *Ejection* is going on, since Bob blind-played his *Second Finesse Position*. However, since the previous action was a *Gentleman's Discard*, Alice knows that this must be a *Blaze Discard*. In other words, Bob was just blind-playing his *Second Finesse Position* to communicate to Cathy that she should play her *Second Finesse Position* instead of her *First Finesse Position*.
   * Cathy blind-plays the red 2 from slot 2.
+* *Blaze Discards* do not apply when someone discards a 1 and there are 2 copies remaining. (In other words, it is still possible to perform a normal *Gentleman's Discard* by discarding a red 1 in the case where Bob has a red 1 on his *Finesse Position* and Cathy has a red 1 on her *Second Finesse Position* behind an unplayable card.)
 * *Blaze Discards* do not apply when someone performs a *Gentleman's Discard* or a *Baton Discard* that looks like a *Sarcastic Discard*. In these situations, one of the following is true:
   * The discarding player is making a mistake (as a *Wrong Prompt*).
   * The discarding player is not making a mistake and there is enough past context for the player with the cards to be able to tell the difference.
