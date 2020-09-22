@@ -2898,7 +2898,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * It is now Bob's turn. Bob knows that since Alice number 5 clue kind of looks like a *5's Chop Move*, since the 5 is exactly one-away-from-chop. However, since it would be *Chop Moving* a trash card, it can't be that.
   * Bob next assumes that this is simply a *Play Clue* on the blue 5. That would mean that someone has the blue 3 and the blue 4.
   * Bob's hand is completely unclued. Furthermore, Bob does not see the blue 3 or the blue 4 anywhere else, so he would have to have both of them in his hand. Bob knows that similar to a *5 Color Ejection*, a *Bad Chop Move Ejection* should take precedence if he is supposed to play two or more blind cards.
-  * Thus, Bob blind-plays his *Second Finesse Position*. It is a green 1 and successfully plays.
+  * Thus, Bob blind-plays his *Second Finesse Position*. It is a green 3 and successfully plays.
   * Cathy knows that if this was an *5's Chop Move*, then Bob would not have blind-played anything. If it was a *Finesse*, then Bob would have blind-played his *Finesse Position*. Since he blind-played his *Second Finesse Position* card, this must be a *Bad Chop Move Ejection* and her slot 4 card must be trash.
 
 ### Rank Choice Ejection (with a number 2 or a number 5)
