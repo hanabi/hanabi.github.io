@@ -2886,7 +2886,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### Bad Chop Move Ejection (with 5's)
 
-* First, see the section on *[Bad Chop Move Ejection (with a Trash Chop Move)](bad-chop-move-ejection-with-a-trash-chop-move)*.
+* First, see the section on *[Bad Chop Move Ejection (with a Trash Chop Move)](#bad-chop-move-ejection-with-a-trash-chop-move)*.
 * Normally, if a player performs a *5's Chop Move* on a trash card, it would signal a *Finesse* on all of the cards leading up to the 5.
 * If the very next player sees that **they will only have to blind-play one card in their hand to fulfill the *Finesse***, then they should assume that it is a *Finesse*.
 * If the very next player sees that they would have to blind-play two or more cards in their hand to fulfill the *Finesse*, then a *Finesse* is unlikely. Instead, players agree that this signals an *Ejection* and that the next player should play their *Second Finesse Position*.
