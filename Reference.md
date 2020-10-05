@@ -56,7 +56,7 @@ Note that convention updates for the group are listed in the `#announcements` ch
   * [Ejection](#level-17---rarely-used-strategies---ejection)
   * [Discharge](#level-17---rarely-used-strategies---discharge)
   * [Ejection & Discharge Extensions](#level-17---rarely-used-strategies---ejection--discharge-extensions)
-  * [Ignition](#level-17--rarely-used-strategies--ignition)
+  * [Ignition](#level-17---rarely-used-strategies---ignition)
   * [Save Clues & Non-Emergency Chop Moves](#level-17---rarely-used-strategies---save-clues--non-emergency-chop-moves)
   * [Emergency Moves](#level-17---rarely-used-strategies---emergency-moves)
   * [Unnecessary Usage of Complicated Moves](#level-17---rarely-used-strategies---unnecessary-usage-of-complicated-moves)
@@ -2270,7 +2270,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * [Ejection](#level-17---rarely-used-strategies---ejection)
   * [Discharge](#level-17---rarely-used-strategies---discharge)
   * [Ejection & Discharge Extensions](#level-17---rarely-used-strategies---ejection--discharge-extensions)
-  * [Ignition](#level-17--rarely-used-strategies--ignition)
+  * [Ignition](#level-17---rarely-used-strategies---ignition)
   * [Save Clues & Non-Emergency Chop Moves](#level-17---rarely-used-strategies---save-clues--non-emergency-chop-moves)
   * [Emergency Moves](#level-17---rarely-used-strategies---emergency-moves)
   * [Unnecessary Usage of Complicated Moves](#level-17---rarely-used-strategies---unnecessary-usage-of-complicated-moves)
@@ -2510,13 +2510,13 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### The Pestilent Finesse
 
-* First, see the section on the *[Pestilent Double Bluff](#pestilent-double-bluff)*.
+* First, see the section on the *[Pestilent Double Bluff](#the-pestilent-double-bluff)*.
 * In the *Pestilent Double Bluff* example, Cathy is supposed to immediately blind-play her *Finesse Position* card in order to "heal" the situation with Bob.
 * However, if Cathy sees that someone else on the team has the red 2 in their *Finesse Position*, then Cathy can see that it is a *Pestilent Finesse* instead of a *Pestilent Bluff*. Cathy can simply let the person with the actual red 2 blind-play and that will "heal" the problem in the exact same way.
 
 ### The Diseased Clandestine Finesse
 
-* First, see the section on the *[Pestilent Double Bluff](#pestilent-double-bluff)*.
+* First, see the section on the *[Pestilent Double Bluff](#the-pestilent-double-bluff)*.
 * In the *Pestilent Double Bluff* example, Cathy is supposed to immediately blind-play her *Finesse Position* card in order to "heal" the situation with Bob.
 * However, if Cathy sees a clue that she can give that will turn the move into a *Clandestine Finesse* on Bob, then she must always do that.
 * For example, in a 4-player game:
@@ -2647,7 +2647,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Cathy has a 3 clued in her hand (with no color information on it).
   * Alice clues Cathy about a brand new 4.
   * Bob blind-plays red 2.
-  * This could be a *Bluff* if the 4 in her hand is blue 4, since blue 4 is currently *one-away-from-playable*. Thus, Cathy **does not** assume that her 4 is red 4, and subsequently, does **does not** assume that her unknown 3 is a red 3. However, it could **also** be the case that the 4 is a red 4 (if the 3 in her hand happens to be red 3).
+  * This could be a *Bluff* if the 4 in her hand is blue 4, since blue 4 is currently *one-away-from-playable*. Thus, Cathy **does not** assume that her 4 is red 4, and subsequently, **does not** assume that her unknown 3 is a red 3. However, it could **also** be the case that the 4 is a red 4 (if the 3 in her hand happens to be red 3).
   * Thus, Cathy marks down both possibilities for later and does not play anything right now.
 
 ### The Hard 3 Bluff
@@ -2754,7 +2754,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### The Pestilent Triple Bluff
 
-* First, see the section on the *[Pestilent Double Bluff](#pestilent-double-bluff)*.
+* First, see the section on the *[Pestilent Double Bluff](#the-pestilent-double-bluff)*.
 * Rarely, it is possible that a *Pestilent*-style clues is performed with a two-away-from-playable card instead of a *one-away-from-playable* card. In this situation, it would transform into a *Triple Bluff* instead of a *Double Bluff*.
 * Note that normally, *Triple Bluffs* are explicitly illegal. But *Pestilent Triple Bluffs* are an exception to this rule.
 * For example, in a 5-player game:
