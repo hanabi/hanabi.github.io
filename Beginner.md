@@ -220,11 +220,11 @@ In this guide, there will be some screenshots to show off the concepts introduce
 
 <img src="img/beginner/good_touch_principle3.png" height="300" />
 
-* The above screenshot presents a slightly more nuanced example:
-  * Alice gives Bob (whose hand is partially clued) a yellow clue that touches slots 2 and 3.
-  * The focus of the clue is on slot 2, so Bob knows that this must be a *Play Clue* on slot 2, which must be a yellow 2.
-  * However, since the card in slot 3 was also touched, then by *Good Touch Principle*, it must be playable at a future time. (If the card was a yellow 1 or yellow 2, then Alice's clue would be a *Bad Touch*.)
-  * Therefore, Bob can also conclude that slot 3 must be a yellow 3 or higher.
+* In the above screenshot:
+  * In the middle of the game, Alice gives Bob a yellow clue that touches slots 2 and 3.
+  * The focus of the clue is on slot 2. This must be a *Play Clue*, so Bob marks his slot 2 card as a yellow 2.
+  * Slot 3 was also touched by the clue, but it was not the focus. But just because it was not the focus does not mean that it can just be any yellow card. From *Good Touch Principle*, Bob knows that it must be playable in the future. (In other words, if the slot 3 card was a yellow 1 or yellow 2, then Alice's clue would be a *Bad Touch*.)
+  * Therefore, Bob marks his slot 3 card as either yellow 3, yellow 4, or yellow 5.
 
 ### 2 - Save Principle
 
