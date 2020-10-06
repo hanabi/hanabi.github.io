@@ -218,6 +218,14 @@ In this guide, there will be some screenshots to show off the concepts introduce
   * Alice also knows that according to *Good Touch Principle*, every clued card will be eventually be played.
   * Thus, by process of elimination, she can reason that the unknown purple card in her hand must be purple 5, and she can immediately play it.
 
+<img src="img/beginner/good_touch_principle3.png" height="300" />
+
+* The above screenshot presents a slightly more nuanced example:
+  * Alice gives Bob (whose hand is partially clued) a yellow clue that touches slots 2 and 3.
+  * The focus of the clue is on slot 2, so Bob knows that this must be a *Play Clue* on slot 2, which must be a yellow 2.
+  * However, since the card in slot 3 was also touched, then by *Good Touch Principle*, it must be playable at a future time. (If the card was a yellow 1 or yellow 2, then Alice's clue would be a *Bad Touch*.)
+  * Therefore, Bob can also conclude that slot 3 must be a yellow 3 or higher.
+
 ### 2 - Save Principle
 
 * The *Save Clue* section above explains that the team must save certain types of cards.
