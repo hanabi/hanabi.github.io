@@ -1967,7 +1967,7 @@ Priority does not always apply. Some common exceptions are listed below.
 * Thus, if someone clues a 5 and there **is** something else to do, they are performing a special move.
 * If the 5 is two or more away from chop, then they are performing a *5 Pull*. A *5 Pull* causes the player to blind-play the card to the right of the 5. For the player receiving the clue, it is understood that the 5 is not actually related to the blind-play. This is why it is called a *Pull* instead of a *Finesse* or a *Bluff*.
 * *5 Pulls* are typically done to 5's that are in slot 1. But, for example, you can also clue a 5 in slot 2 in order to get a blind-play on slot 3.
-* Even though they involve playing a blind card, a *5 Pull* should be treated as a *Delayed Play Clue*. This means that the blind card could play through any existing touched cards.
+* Even though they involve playing a blind card, a *5 Pull* should be treated as a *Delayed Play Clue* (or a potential *Prompt*). This means that the blind card could play through any existing touched cards.
 * *5 Pulls* also take precedence over *Finesses* and *Bluffs*. For example:
   * It is the *Early Game*.
   * Red 3 is played on the stacks.
