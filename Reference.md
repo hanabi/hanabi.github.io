@@ -41,9 +41,9 @@ Note that convention updates for the group are listed in the `#announcements` ch
   * [General Principles](#level-8---intermediate---general-principles)
   * [Common Mistakes](#level-8---intermediate---common-mistakes)
 * [Level 9 - Fellow](#level-9---fellow)
+  * [Conventions & Special Moves](#level-9---fellow---conventions--special-moves)
+  * [General Principles](#level-9---fellow---general-principles)
 * [Level 10 - Journeyman](#level-10---journeyman)
-  * [Conventions & Special Moves](#level-10---journeyman---conventions--special-moves)
-  * [General Principles](#level-10---journeyman---general-principles)
 * [Level 11 - Advanced](#level-11---advanced)
 * [Level 12 - Adept](#level-12---adept)
 * [Level 13 - Senior](#level-13---senior)
@@ -1487,9 +1487,14 @@ Note that in this user interface, players are **not** holding their hands like t
 * Level 9 strategies should only be learned if you have 140+ games of experience with the group.
 * This level introduces 3 Bluffs and some higher level concepts.
 * See the [learning path document](Learning_Path.md) for general descriptions of each level.
+* Level 9 subsections:
+  * [Conventions & Special Moves](#level-9---journeyman---conventions--special-moves)
+  * [General Principles](#level-9---journeyman---general-principles)
 * Head back to the [table of contents](#table-of-contents).
 
 <br />
+
+### Level 9 - Fellow - Conventions & Special Moves
 
 ### Duplication Responsibility
 
@@ -1655,19 +1660,65 @@ Note that in this user interface, players are **not** holding their hands like t
 
 <br />
 
+### Level 9 - Fellow - General Principles
+
+### Cluing 1's in the Early Game
+
+* As outlined in the [level 2 strategy section](#tempo), Hanabi is about balancing between *Efficiency* and *Tempo*.
+* As outlined in the [level 5 strategy section](#the-value-of-one-away-from-playable-cards), *one-away-from-playable* cards are valuable.
+* So, players have to balance *Efficiency*, *Tempo*, and "locking in" a touch on *one-away-from-playable* cards.
+* In the *Early Game*, it is very common for players to give a number 1 clue when they see a hand that has two or more 1's in it. And this type of clue is normally pretty good. But because of the previous considerations, sometimes it would be better to get the 1's with several color clues instead.
+
+#### Example 1
+
+* Players should not just consider how good their individual clue is - they should also consider how their teammates can **build** on top of their clue.
+* For example, in a 3-player game:
+  * It is the first turn and nothing is played on the stacks.
+  * Bob's hand is as follows, from newest to oldest: `green 4, red 1, red 3, blue 2, blue 1`
+  * Alice would like to get the red 1 and the blue 1 played from Bob's hand. (No-one else has a red 1 or a blue 1.) Should Alice clue number 1, red, or blue?
+  * If Alice clues number 1, it would be a 2-for-1 clue. But then the team will probably spend a clue getting the blue 2. This will result in an efficiency of 3-for-2. And the red 3 will probably end up being discarded. Bad.
+  * If Alice clues blue, it would be a 2-for-1 clue. But then the team will no longer be able to give a red clue, because it would be *Chop-Focused* on the red 3. So they would have to clue number 1, which would result in an efficiency of 3-for-2. Bad.
+  * Thus, Alice should clue red first, and then clue blue later, resulting in an efficiency of 4-for-2.
+
+### Example 2
+
+* When players make the choice between cluing number 1 or cluing color, the cards in other people's hands should also be considered.
+* For example, in a 4-player game:
+  * It is the first turn and nothing is played on the stacks.
+  * Cathy's hand is as follows, from newest to oldest: `red 1, green 4, blue 3, blue 1`
+  * Donald is holding a cluable red 2.
+  * Alice would like to get the red 1 and the blue 1 played. (No-one else has a red 1 or a blue 1.) Should she clue 1, red, or blue?
+  * Just like in the previous example, cluing number 1 means that the red 2 will have to be clued as a 1-for-1, which results in an efficiency of 3-for-2.
+  * Instead, Alice clues yellow as a 2-for-1. Bob can then perform the 2-for-1 *Finesse*, resulting in a 4-for-2.
+
+### Example 3
+
+* As explained in the [beginner's guide](Beginner.md#other-general-strategy), it is almost always better to give a *Play Clue* instead of a *Save Clue* if a player has a playable card in their hand.
+* However, building on the theme of having teammates "build" on your clues, sometimes it is better to give a *Save Clue* first and then a *Play Clue* later.
+* For example, in a 3-player game:
+  * It is the first turn and nothing is played on the stacks.
+  * Cathy's hand is as follows, from newest to oldest: `blue 4, blue 4, red 3, red 1, blue 5`
+  * Alice would like to get the red 1 played. (No-one else has a red 1 in their hand.) Alice also knows that the team needs to eventually save the red 5.
+  * If Alice clues number 1 first to get the red 1, then the team will need to give a *5 Save* to save the blue 5, resulting in an efficiency of 2-for-2.
+  * Instead, Alice clues number 5 as a *5 Save*, which allows Bob to follow up with a red *Chop-Focus Play Clue*. This touches the red 3 as a 2-for-1, allowing for an overall efficiency of a 3-for-2.
+
+### Other Considerations
+
+* Just in case you thought Hanabi was not difficult enough, there are some other factors to consider when finding the best clue:
+  * Does giving a color clue put a playable card on *Finesse Position*? If so, maybe a color clue is better.
+  * Does the player holding the 1's want to perform an *Order Chop Move*? If so, maybe a number 1 clue is better.
+  * Are there other ways to touch the extra cards from a color clue? If so, maybe a number 1 clue is better.
+
+<br />
+
 ## Level 10 - Journeyman
 
 * Level 10 strategies should only be learned if you have 160+ games of experience with the group.
 * This level introduces the concept of Priority and all of the complicated stipulations that go along with it.
 * See the [learning path document](Learning_Path.md) for general descriptions of each level.
-* Level 10 subsections:
-  * [Conventions & Special Moves](#level-10---journeyman---conventions--special-moves)
-  * [General Principles](#level-10---journeyman---general-principles)
 * Head back to the [table of contents](#table-of-contents).
 
 <br />
-
-## Level 10 - Journeyman - Conventions & Special Moves
 
 ### The Priority Prompt & The Priority Finesse
 
@@ -1799,57 +1850,6 @@ Priority does not always apply. Some common exceptions are listed below.
   * For example, if a player is finessed for both the red 1 and the red 2 and has just blind-played a green 1, then they can perform a *Paused Priority Finesse*, because everyone on the team knows that the green 1 played as red 1 and therefore that the layer is not yet unraveled.
   * However, if a player is finessed for both the red 1 and the red 2 and has just blind-played the red 1, then they **cannot** perform a *Paused Priority Finesse* because they haven't demonstrated to the team that they are still finessed for the red 2.
 * Thus, in this situation, a player can "pause" finishing up the *Layered Finesse* and play some other clued card to perform a *Paused Priority Finesse*.
-
-<br />
-
-## Level 10 - Journeyman - General Principles
-
-### Cluing 1's in the Early Game
-
-* As outlined in the [level 2 strategy section](#tempo), Hanabi is about balancing between *Efficiency* and *Tempo*.
-* As outlined in the [level 5 strategy section](#the-value-of-one-away-from-playable-cards), *one-away-from-playable* cards are valuable.
-* So, players have to balance *Efficiency*, *Tempo*, and "locking in" a touch on *one-away-from-playable* cards.
-* In the *Early Game*, it is very common for players to give a number 1 clue when they see a hand that has two or more 1's in it. And this type of clue is normally pretty good. But because of the previous considerations, sometimes it would be better to get the 1's with several color clues instead.
-
-#### Example 1
-
-* Players should not just consider how good their individual clue is - they should also consider how their teammates can **build** on top of their clue.
-* For example, in a 3-player game:
-  * It is the first turn and nothing is played on the stacks.
-  * Bob's hand is as follows, from newest to oldest: `green 4, red 1, red 3, blue 2, blue 1`
-  * Alice would like to get the red 1 and the blue 1 played from Bob's hand. (No-one else has a red 1 or a blue 1.) Should Alice clue number 1, red, or blue?
-  * If Alice clues number 1, it would be a 2-for-1 clue. But then the team will probably spend a clue getting the blue 2. This will result in an efficiency of 3-for-2. And the red 3 will probably end up being discarded. Bad.
-  * If Alice clues blue, it would be a 2-for-1 clue. But then the team will no longer be able to give a red clue, because it would be *Chop-Focused* on the red 3. So they would have to clue number 1, which would result in an efficiency of 3-for-2. Bad.
-  * Thus, Alice should clue red first, and then clue blue later, resulting in an efficiency of 4-for-2.
-
-### Example 2
-
-* When players make the choice between cluing number 1 or cluing color, the cards in other people's hands should also be considered.
-* For example, in a 4-player game:
-  * It is the first turn and nothing is played on the stacks.
-  * Cathy's hand is as follows, from newest to oldest: `red 1, green 4, blue 3, blue 1`
-  * Donald is holding a cluable red 2.
-  * Alice would like to get the red 1 and the blue 1 played. (No-one else has a red 1 or a blue 1.) Should she clue 1, red, or blue?
-  * Just like in the previous example, cluing number 1 means that the red 2 will have to be clued as a 1-for-1, which results in an efficiency of 3-for-2.
-  * Instead, Alice clues yellow as a 2-for-1. Bob can then perform the 2-for-1 *Finesse*, resulting in a 4-for-2.
-
-### Example 3
-
-* As explained in the [beginner's guide](Beginner.md#other-general-strategy), it is almost always better to give a *Play Clue* instead of a *Save Clue* if a player has a playable card in their hand.
-* However, building on the theme of having teammates "build" on your clues, sometimes it is better to give a *Save Clue* first and then a *Play Clue* later.
-* For example, in a 3-player game:
-  * It is the first turn and nothing is played on the stacks.
-  * Cathy's hand is as follows, from newest to oldest: `blue 4, blue 4, red 3, red 1, blue 5`
-  * Alice would like to get the red 1 played. (No-one else has a red 1 in their hand.) Alice also knows that the team needs to eventually save the red 5.
-  * If Alice clues number 1 first to get the red 1, then the team will need to give a *5 Save* to save the blue 5, resulting in an efficiency of 2-for-2.
-  * Instead, Alice clues number 5 as a *5 Save*, which allows Bob to follow up with a red *Chop-Focus Play Clue*. This touches the red 3 as a 2-for-1, allowing for an overall efficiency of a 3-for-2.
-
-### Other Considerations
-
-* Just in case you thought Hanabi was not difficult enough, there are some other factors to consider when finding the best clue:
-  * Does giving a color clue put a playable card on *Finesse Position*? If so, maybe a color clue is better.
-  * Does the player holding the 1's want to perform an *Order Chop Move*? If so, maybe a number 1 clue is better.
-  * Are there other ways to touch the extra cards from a color clue? If so, maybe a number 1 clue is better.
 
 <br />
 
