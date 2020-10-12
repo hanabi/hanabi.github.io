@@ -41,7 +41,6 @@ Note that convention updates for the group are listed in the `#announcements` ch
   * [General Principles](#level-8---intermediate---general-principles)
   * [Common Mistakes](#level-8---intermediate---common-mistakes)
 * [Level 9 - Fellow](#level-9---fellow)
-  * [Conventions & Special Moves](#level-9---fellow---conventions--special-moves)
   * [General Principles](#level-9---fellow---general-principles)
 * [Level 10 - Journeyman](#level-10---journeyman)
 * [Level 11 - Advanced](#level-11---advanced)
@@ -1488,8 +1487,8 @@ Note that in this user interface, players are **not** holding their hands like t
 * This level introduces 3 Bluffs and some higher level concepts.
 * See the [learning path document](Learning_Path.md) for general descriptions of each level.
 * Level 9 subsections:
-  * [Conventions & Special Moves](#level-9---journeyman---conventions--special-moves)
-  * [General Principles](#level-9---journeyman---general-principles)
+  * [Conventions & Special Moves](#level-9---fellow---conventions--special-moves)
+  * [General Principles](#level-9---fellow---general-principles)
 * Head back to the [table of contents](#table-of-contents).
 
 <br />
