@@ -12,55 +12,6 @@ n/a
 
 ## The Backlog (Variant-Specific Conventions)
 
-@everyone New variant-specific conventions:
-
-**Trash Finesses & Trash Bluffs in Pink**
-
-```
-* This convention only applies to variants with a pink suit.
-* When a *Trash Finesse* or a *Trash Bluff* happens in a normal variant, if more than one card is touched, then all of the touched cards are known to be trash.
-* When a Trash Finesse* or a *Trash Bluff* happens in a variant with a pink suit, if more than one card is touched, it is possible that only the focused card was trash, and that the other cards touched are useful / critical pink cards.
-* In this situation, after discarding the focus of the *Trash Finesse* or *Trash Bluff*, the player should then hold on to the other touched cards.
-```
-
-**Pink Promise with a 5 Stall**
-
-```
-* This convention only applies to variants with a pink suit.
-* When a player performs a *5 Stall*, it is clearly a type of *Save Clue*. But if two or more 5's are touched as part of the clue, the focus of the clue is unclear.
-* We define the focus of the clue to be the specific 5 that is closest to the chop.
-* Thus, when a player knows for sure that a number 5 clue indicates a *5 Stall*, *Pink Promise* only applies to the 5 that is closest to the chop.
-* For example, in a 3-player game:
-  * The variant is "Pink (6 Suits)".
-  * It is the *Early Game* and all of the *Play Clues* and *Save Clues* have been extinguished.
-  * Bob has a completely unclued hand.
-  * Alice clues number 5 to Bob, touching two 5's on slot 1 and slot 2.
-  * Bob knows that this is a *5 Stall*. Bob knows that the clue is either focused on slot 1 or slot 2.
-  * Because of the "Pink Promise with a 5 Stall" convention, Bob knows that since this clue is focused on slot 2.
-  * Thus, *Pink Promise* applies to this card, so he marks slot 2 as a 5.
-  * Later on in the game, another rank clue "fills in" Bob's slot 2 card to be a pink card. From *Pink Promise*, Bob knows that it must be exactly the pink 5.
-```
-
-**Pink Promise with a 5 Pull**
-
-```
-* This convention only applies to variants with a pink suit.
-* First, see [Pink Promise with a 5's Chop Move](#pink-promise-with-a-5s-chop-move).
-* When a player performs a *5 Pull*, it is clearly a type of *Play Clue*. But if two or more 5's are touched as part of the clue, then the focus of the clue is unclear.
-* We define the focus of the clue to be the next to the "pulled" card. (This is similar to how *Pink Promise* works with a *5's Chop Move*.)
-* Thus, when a player knows for sure that a number 5 clue indicates a *5 Pull*, the *Pink Promise* convention only applies to the 5 that is next to the pulled card.
-* For example, in a 3-player game:
-  * The variant is "Pink (6 Suits)".
-  * It is the first turn of the game and nothing is played on the stacks.
-  * Alice clues number 5 to Bob, touching two 5's on slot 1 and slot 2.
-  * Bob knows that this is a *5 Pull*, because he sees that Cathy has a bunch of playable cards in her hand that Alice could have clued instead.
-  * Bob blind-plays his slot 3. It is a red 1 and it successfully plays.
-  * Next, Bob retroactively considers the implications of the *5 Pull*. Bob knows that the *5 Pull* was either focused on slot 1 or slot 2.
-  * Because of the "Pink Promise with a 5 Pull" convention, Bob knows that since this clue was a *5 Pull*, it must be focused on slot 2 (the card that was next to the pulled card).
-  * Thus, *Pink Promise* applies to this card, so he marks slot 2 as a 5.
-  * Later on in the game, another rank clue "fills in" Bob's slot 2 card to be a pink card. From *Pink Promise*, Bob knows that it must be exactly the pink 5.
-```
-
 @everyone Variant-specific conventions:
 
 **The Bubblegum Bluff** (by Stephen)
