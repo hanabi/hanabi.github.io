@@ -1667,7 +1667,7 @@ Note that in this user interface, players are **not** holding their hands like t
 
 <br />
 
-## Level 10 - InterJourneymanmediate - Conventions & Special Moves
+## Level 10 - Journeyman - Conventions & Special Moves
 
 ### The Priority Prompt & The Priority Finesse
 
