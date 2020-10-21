@@ -803,9 +803,11 @@ Note that in this user interface, players are **not** holding their hands like t
 * See the *Chop Move* section above for an explanation on what a *Chop Move* is.
 * The *Chop Move* outlined above is a tool to save multiple cards with one clue. However, sometimes you may not have a clue at all. One way to solve this situation is with a special kind of discard.
 * Typically, discarding is a last resort. So, if you have a known playable card in your hand, you can send a powerful message to your teammate by discarding instead. This is called a *Scream Discard*. Since your teammate expected you to play the card, it is like screaming at them to let them know that things are very bad.
-* The player being "screamed at" should permanently move their chop by one position.
-* Furthermore, the player being "screamed at" is not allowed to discard on this turn. Instead, they must give a clue. If there are no normal *Play Clues* or *Save Clues* to give, then they are allowed to give "stall" clues, like a *5 Stall*. If there are no *5 Stalls* to give, they can even just "fill-in" some information on an already-clued card (and doing this should not cause a *Finesse*).
-* Players are only allowed to *Scream Discard* for **cards that are playable or critical** (or a needed 2 that isn't seen anywhere else). (This follows from *Save Principle*.)
+* A *Scream Discard* does two things:
+  1) The player being "screamed at" should permanently move their chop by one position.
+  2) The player being "screamed at" is not allowed to discard on this turn. Instead, they must give a clue. If there are no normal *Play Clues* or *Save Clues* to give, then they are allowed to give "stall" clues, like a *5 Stall*. If there are no *5 Stalls* to give, they can even just "fill-in" some information on an already-clued card (and doing this should not cause a *Finesse*).
+* Players are **only allowed** to *Scream Discard* for **cards that are playable or critical** (or a needed 2 that isn't seen anywhere else). (This follows from *Save Principle*.)
+* Players are **only allowed** to *Scream Discard* as an absolute last resort. This means *Scream Discards* are almost always performed **while the team is at 0 clues**. (More uncommonly, they can also be performed if the team is at 1 clues and one person on the team is *Locked*.)
 * Players are **not** allowed to *Scream Discard* for cards that are *one-away-from-playable*.
 * Players are **not** allowed to *Scream Discard* if there was some other, less dangerous way to save the card. It is a "last resort" move.
 * Sometimes, a player will discard with a known-playable card in their hand, but they are **not** intending a *Scream Discard* - it is some other special situation:
