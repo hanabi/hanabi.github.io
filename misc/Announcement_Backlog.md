@@ -14,35 +14,12 @@ n/a
 
 @everyone Variant-specific conventions:
 
-**The Bubblegum Bluff** (by Stephen)
+**Advanced Conventions for Variant with No Positive Clues**
 
 ```
-* This convention only applies to variants with a pink suit.
-* Similar to a *Bubblegum Finesse*, it is also possible to perform a *Bubblegum Bluff*.
-* For example, in a 3-player game:
-  * It is the first turn and nothing is played on the stacks.
-  * Alice clues number 3 to Cathy, touching a pink 2 on slot 5.
-  * Bob knows that Alice is violating *Pink Promise*. This must mean that he is supposed to play his slot 3 card.
-  * Bob blind-plays slot 3 and it is a red 1.
-  * Cathy knows that if this was a *3 Bluff*, then Bob would have played his *Finesse Position*. So it cannot be a *3 Bluff*.
-  * Thus, Cathy knows that this must be a *Bubblegum* clue. Since blue 3 is not a pink card and Alice was in *Bluff Seat* for Bob, this must be a *Bubblegum Bluff*.
-  * Cathy marks her slot 5 card as the one-away-from-playable pink card, the pink 2.
-* *Bubblegum Bluffs* can only be performed on non-pink cards; otherwise, it will look like a *Double Finesse* with one part *Bubblegum Finesse* and one part normal *Finesse*.
-* Note that it is impossible to *3 Bluff* and *Bubblegum Bluff* at the same time.
-```
-
-**Dark Omni & Gray Pink Pseudo Saves**
-
-```
-* This convention only applies in variants with a Dark Omni or Gray Pink suit .
-* Dark Omni or Gray Pink cards on chop should be saved with number 5 clue. *Pink Promise* does not apply in this variant.
-```
-
-**Dark Omni & Gray Pink Pseudo-Rank Saves**
-
-```
-* This convention only applies in variants with a Dark Omni or Gray Pink suit.
-* In situations where there are critical cards behind Dark Omni or Gray Pink cards, you are also allowed to *Fake Save* the cards with any number (either 2, 3, or 4). (Again, *Pink Promise* does not apply to this variant.)
+* Various conventions for Duck have been deleted / reformulated.
+* We now have a framework that is used for any variant with no positive clues (e.g. Extremely Ambiguous, Duck, etc.).
+* For more information, please see: https://github.com/Zamiell/hanabi-conventions/blob/master/variant-specific/No_Positive_Clues.md
 ```
 
 **Null Color Positional Clue Skips** (by Jeff)
@@ -74,14 +51,6 @@ n/a
   * Bob knows that if his hand was completely unclued, red would refer to slot 2, since there are 5 slots in the hand and red is the 4th rightmost color. But since Bob's slot 3, slot 4, and slot 5 card already have a clue on it, he should skip over those cards.
   * This means that blue would target slot 2 and green would target slot 1. Yellow would target slot 2 again (because of the wraparound) and red would target slot 1.
   * Bob blind-plays null 1 from slot 1.
-```
-
-**Advanced Conventions for Variant with No Positive Clues**
-
-```
-* Various conventions for Duck have been deleted / reformulated.
-* We now have a framework that is used for any variant with no positive clues (e.g. Extremely Ambiguous, Duck, etc.).
-* For more information, please see: https://github.com/Zamiell/hanabi-conventions/blob/master/variant-specific/No_Positive_Clues.md
 ```
 
 **The Scream Blind-Play (Blind-Playing Chop)** (for null)
