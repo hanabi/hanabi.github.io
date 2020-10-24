@@ -27,15 +27,17 @@ The following is a quick summary of the levels.
 * *[3 Bluffs](Reference.md#the-3-bluff)* should not be used until level 9.
 * *[Priority](Reference.md#the-priority-prompt--the-priority-finesse)* should not be used until level 10.
 * *[Elimination](Reference.md#elimination)* should not be used until level 11.
-* *[The 5 Color Ejection](Reference.md#the-5-color-ejection-5ce)* should not be used until level 12.
-* *[The 5 Pull](Reference.md#the-5-pull)* should not be used until level 13.
-* [*Finesses* with a *Lie Component*](Reference.md#finesses-with-a-lie-component) should not be used until level 14.
-* *[The Unknown Trash Discharge](Reference.md#the-unknown-trash-discharge-utd)* should not be used until level 15.
-* *[Double Bluffs](Reference.md#the-double-bluff)* should not be used until level 16.
+* [*Finesses* with a *Lie Component*](Reference.md#finesses-with-a-lie-component) should not be used until level 12.
+* *[The Unknown Trash Discharge](Reference.md#the-unknown-trash-discharge-utd)* should not be used until level 13.
+* *[Double Bluffs](Reference.md#the-double-bluff)* should not be used until level 14.
 
 <br />
 
-### Level Descriptions
+### Appendices Summary
+
+* Appendix A - *5 Special Moves* should not be used before level 8.
+
+## Level Descriptions
 
 The following is a brief description of each level.
 
@@ -146,22 +148,7 @@ The following is a brief description of each level.
   * *[Discard Elimination](Reference.md#discard-elimination--elimination-notes--the-elimination-blind-play)*
   * *[The Elimination Finesse](Reference.md#the-elimination-finesse)*
 
-#### Level 12 - Adept
-
-* Level 12 strategies should only be learned if you have 200+ games of experience with the group.
-* This level introduces *Ejections*.
-* Level 12 strategies are as follows:
-  * *[The 5 Color Ejection](Reference.md#the-5-color-ejection-5ce)*
-
-#### Level 13 - Senior
-
-* Level 13 strategies should only be learned if you have 220+ games of experience with the group.
-* This level introduces the "early" 5 moves.
-* Level 13 strategies are as follows:
-  * *[The Early 5's Chop Move](Reference.md#the-early-5s-chop-move)*
-  * *[The 5 Pull](Reference.md#the-5-pull)*
-
-#### Level 14 - Scholar
+#### Level 12 - Senior
 
 * Level 14 strategies should only be learned if you have 240+ games of experience with the group.
 * This level covers moves that are complicated, difficult to see, or require a deeper understanding of how Hanabi works in order to work properly.
@@ -172,14 +159,14 @@ The following is a brief description of each level.
   * *[The Trash Bluff](Reference.md#the-trash-bluff)*
   * [*Finesses* with a *Lie Component*](Reference.md#finesses-with-a-lie-component)
 
-#### Level 15 - Erudite
+#### Level 13 - Erudite
 
 * Level 15 strategies should only be learned if you have 260+ games of experience with the group.
 * This level introduces *Discharges*.
 * Level 15 strategies are as follows:
   * *[The Unknown Trash Discharge](Reference.md#the-unknown-trash-discharge-utd)*
 
-#### Level 16 - Expert
+#### Level 14 - Expert
 
 * Level 16 strategies should only be learned if you have 280+ games of experience with the group.
 * This level covers *Double Bluffs* and all of the complicated stipulations that go along with them.
@@ -188,12 +175,22 @@ The following is a brief description of each level.
   * *[The Double Bluff](Reference.md#the-double-bluff)*
   * *[The 4 Double Bluff & The 5 Double Bluff](Reference.md#the-4-double-bluff--the-5-double-bluff)*
 
-#### Level 17 - Rarely Used
+#### Level 15 - Rarely Used
 
 * Level 17 strategies are separated from the rest because they do not come up that often. Thus, non-expert players do not have to worry about learning them. If they do come up in a game, players with experience can often figure out what to do on-the-fly. Even if they don't, they can quickly learn about them in the post-game review, and then use the document as a reference later on in case they need to refresh their memory.
   * [Level 17 Section](Reference.md#level-17---rarely-used-strategies)
 
 <br />
+
+## Appendices
+
+### Appendix A - 5 Special Moves
+
+* Appendix A strategies should only be learned if you have already mastered level 8 and bluffs.
+* This appendix covers some relatively simple moves that allow players to touch 5s while also getting extra value out of it. In particular, 5 Color Ejections and 5 Pulls will get one card to blind play and 5's Chop Move will get one card saved.
+  * *[The 5 Color Ejection](Reference.md#the-5-color-ejection-5ce)*
+  * *[The Early 5's Chop Move](Reference.md#the-early-5s-chop-move)*
+  * *[The 5 Pull](Reference.md#the-5-pull)*
 
 ## Variant Summary
 
