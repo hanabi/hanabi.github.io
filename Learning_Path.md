@@ -152,9 +152,9 @@ The following is a brief description of each level.
 
 #### Level 12 - Senior
 
-* Level 14 strategies should only be learned if you have 240+ games of experience with the group.
+* Level 12 strategies should only be learned if you have 210+ games of experience with the group.
 * This level covers moves that are complicated, difficult to see, or require a deeper understanding of how Hanabi works in order to work properly.
-* Level 14 strategies are as follows:
+* Level 12 strategies are as follows:
   * *[The Occupied Finesse](Reference.md#the-occupied-play-clue--the-occupied-finesse-opc)*
   * *[The Trash Push](Reference.md#the-trash-push)*
   * *[The Trash Finesse](Reference.md#the-trash-finesse-strong-form)*
@@ -163,24 +163,24 @@ The following is a brief description of each level.
 
 #### Level 13 - Erudite
 
-* Level 15 strategies should only be learned if you have 260+ games of experience with the group.
+* Level 13 strategies should only be learned if you have 240+ games of experience with the group.
 * This level introduces *Discharges*.
-* Level 15 strategies are as follows:
+* Level 13 strategies are as follows:
   * *[The Unknown Trash Discharge](Reference.md#the-unknown-trash-discharge-utd)*
 
 #### Level 14 - Expert
 
-* Level 16 strategies should only be learned if you have 280+ games of experience with the group.
+* Level 14 strategies should only be learned if you have 270+ games of experience with the group.
 * This level covers *Double Bluffs* and all of the complicated stipulations that go along with them.
-* Level 16 strategies are as follows:
+* Level 14 strategies are as follows:
   * *[The Double Half Bluff](Reference.md#the-double-half-bluff)*
   * *[The Double Bluff](Reference.md#the-double-bluff)*
   * *[The 4 Double Bluff & The 5 Double Bluff](Reference.md#the-4-double-bluff--the-5-double-bluff)*
 
 #### Level 15 - Rarely Used
 
-* Level 17 strategies are separated from the rest because they do not come up that often. Thus, non-expert players do not have to worry about learning them. If they do come up in a game, players with experience can often figure out what to do on-the-fly. Even if they don't, they can quickly learn about them in the post-game review, and then use the document as a reference later on in case they need to refresh their memory.
-  * [Level 17 Section](Reference.md#level-17---rarely-used-strategies)
+* Level 15 strategies are separated from the rest because they do not come up that often. Thus, non-expert players do not have to worry about learning them. If they do come up in a game, players with experience can often figure out what to do on-the-fly. Even if they don't, they can quickly learn about them in the post-game review, and then use the document as a reference later on in case they need to refresh their memory.
+  * [Level 15 Section](Reference.md#level-15---rarely-used-strategies)
 
 <br />
 
