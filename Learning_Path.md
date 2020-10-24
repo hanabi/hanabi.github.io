@@ -194,6 +194,8 @@ The following is a brief description of each level.
   * *[The Early 5's Chop Move](Reference.md#the-early-5s-chop-move)*
   * *[The 5 Pull](Reference.md#the-5-pull)*
 
+<br />
+
 ## Variant Summary
 
 Hanab Live has a lot of different variants and the Hyphen-ated group plays a good mix of many different kinds of variants. The point of variants is that they increase the difficulty of the game, giving experienced players an additional challenge. In the same way that it is counterproductive to play with advanced conventions before you have a good grasp of the underlying mechanics, it is equally counterproductive to play with complicated variants. For that reason, beginners should stick to playing "No Variant" until they have the fundamentals down.
