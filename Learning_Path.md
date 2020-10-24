@@ -37,6 +37,8 @@ The following is a quick summary of the levels.
 
 * [Appendix A - *5 Special Moves*](#appendix-a---5-special-moves) should not be used before level 8.
 
+<br />
+
 ## Level Descriptions
 
 The following is a brief description of each level.
