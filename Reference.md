@@ -41,6 +41,8 @@ Note that convention updates for the group are listed in the `#announcements` ch
   * [General Principles](#level-8---intermediate---general-principles)
   * [Common Mistakes](#level-8---intermediate---common-mistakes)
 * [Appendix A - 5 Special Moves](#appendix-a---5-special-moves)
+  * [Ejection](#ejection)
+  * [The Early Game 5 Moves](#the-early-game-5-moves)
 * [Level 9 - Fellow](#level-9---fellow)
   * [General Principles](#level-9---fellow---general-principles)
 * [Level 10 - Journeyman](#level-10---journeyman)
