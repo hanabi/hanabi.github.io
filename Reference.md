@@ -40,7 +40,7 @@ Note that convention updates for the group are listed in the `#announcements` ch
   * [Conventions & Special Moves](#level-8---intermediate---conventions--special-moves)
   * [General Principles](#level-8---intermediate---general-principles)
   * [Common Mistakes](#level-8---intermediate---common-mistakes)
-* [Appendix A - 5 Special Moves](#appendix-a---5-special-moves)
+* [Appendix A - 5 Tech](#appendix-a---5-tech)
   * [Ejection](#ejection)
   * [The Early Game 5 Moves](#the-early-game-5-moves)
 * [Level 9 - Fellow](#level-9---fellow)
@@ -1484,9 +1484,9 @@ Note that in this user interface, players are **not** holding their hands like t
 
 <br />
 
-## Appendix A - 5 Special Moves
+## Appendix A - 5 Tech
 
-* 5 Special Moves should only be learned if you have a good grasp on level 8 and bluffs.
+* 5 Tech should only be learned if you have a good grasp on level 8 and bluffs.
 * This level introduces *Ejections* and the early game 5 moves.
 * See the [learning path document](Learning_Path.md) for general descriptions of each level.
 * Head back to the [table of contents](#table-of-contents).

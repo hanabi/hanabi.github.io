@@ -35,7 +35,7 @@ The following is a quick summary of the levels.
 
 ### Appendices Summary
 
-* [Appendix A - *5 Special Moves*](Reference.md#appendix-a---5-special-moves) should not be used before level 8.
+* [Appendix A - *5 Tech*](Reference.md#appendix-a---5-tech) should not be used before level 8.
 
 <br />
 
@@ -186,7 +186,7 @@ The following is a brief description of each level.
 
 ## Appendices
 
-### Appendix A - 5 Special Moves
+### Appendix A - 5 Tech
 
 * Appendix A strategies should only be learned if you have already mastered level 8 and bluffs.
 * This appendix covers some relatively simple moves that allow players to touch 5s while also getting extra value out of it. In particular, 5 Color Ejections and 5 Pulls will get one card to blind play and 5's Chop Move will get one card saved.
