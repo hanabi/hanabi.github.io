@@ -572,9 +572,10 @@ Note that in this user interface, players are **not** holding their hands like t
 
 * A direct conflict is the only thing that can "break" an information lock.
 * For example, in a 3-player game:
-  * Alice has a card that is locked in as a red 2.
-  * Alice receives a blue clue, which happens to touch this card.
-  * It obviously cannot be a red 2 anymore, so the *Information Lock* is broken.
+  * Bob has a card in his hand that is touched with a number 2 clue. (It has no color clues on it.)
+  * Bob has a note on the card of "red 2", meaning that he will permanently think that it is a red 2.
+  * Alice clues blue to Bob, which "fills in" the card as a blue 2.
+  * It is now impossible for this card to be a red 2 - Bob knows that he was lied to earlier on in the game. Bob erases his note of "red 2" on the card and the *Information Lock* is broken.
 
 ### Efficiency
 
