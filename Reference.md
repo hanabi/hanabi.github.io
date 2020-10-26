@@ -2735,6 +2735,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * Similar to Self-Bluffs with rank, players can do Self-Bluffs with color.
 * We agree that Self-Bluffs with color can be beneficial because it gives more information to the hand of the player who received the clue.
 * Just as with normal bluffs, once the blind play occurs it is immediately resolved.
+
 [Examples](https://github.com/Dr-Kakashi/hanabi-conventions/blob/master/examples/Self%20Color%20Bluff%20Examples.md#examples-of-the-self-bluffs-with-color-clues)
 
 ### Stacked Bluffs (Exception)
