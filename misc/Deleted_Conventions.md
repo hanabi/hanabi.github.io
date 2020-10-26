@@ -318,6 +318,24 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
   * Emily plays blue 2 from her *Finesse Position*.
 * This convention was deleted due to lack of use.
 
+### Self-Bluffs with Color Clues (Illegal)
+
+* It is possible (and fairly common) to perform a *Self-Bluff* on a player with a rank clue.
+* For example, in a 3-player game:
+  * Red 2 is played on the stacks.
+  * Alice clues number 4 to Bob, which touches one brand new 4 as a *Play Clue*.
+  * Bob knows that this is probably red 4, but he does not see any red 3's. Thus, Bob knows he must have the red 3, and blind-plays his *Finesse Position* card. It is blue 1.
+  * Bob now knows that he was *Bluffed* and that the 4 in his hand is exactly red 4.
+* *Self-Bluffs* on players with color clues are nonsensical, so players should not have to entertain that possibility.
+* For example, in a 3-player game:
+  * Red 2 is played on the stacks.
+  * Alice clues red to Bob, touching one brand new red card  as a *Play Clue*.
+  * Bob has a negative 3 clue on his red card, so he knows it cannot be red 3.
+  * Bob does not see any red cards in other player's hands.
+  * Bob cannot have the red 3 in his *Finesse Position*, because that card has negative red.
+  * Bob now needs to figure out what the clue means. When going through all of the possibilities, he can safely put aside the possibility of a *Self-Bluff with Color* / a *Known Self-Bluff*, because we agree that they are illegal. The clue must have some other meaning and Bob will defer to whatever the next-most-likely thing is.
+* This convention was deleted to allow for Self Color Bluffs
+
 <br />
 
 ## Deleted Variant-Specific Conventions

@@ -1458,23 +1458,6 @@ Note that in this user interface, players are **not** holding their hands like t
   * Furthermore, Cathy knows that Alice's clue to Donald must be a *Finesse*, so Cathy must have the red 2 on her *Finesse Position*. She plays it, and it is instead the blue 5 and misplays.
   * This was Alice's fault, because *Bluffs* are only allowed if they can be revealed immediately from a blind-play.
 
-### Self-Bluffs with Color Clues (Illegal)
-
-* It is possible (and fairly common) to perform a *Self-Bluff* on a player with a rank clue.
-* For example, in a 3-player game:
-  * Red 2 is played on the stacks.
-  * Alice clues number 4 to Bob, which touches one brand new 4 as a *Play Clue*.
-  * Bob knows that this is probably red 4, but he does not see any red 3's. Thus, Bob knows he must have the red 3, and blind-plays his *Finesse Position* card. It is blue 1.
-  * Bob now knows that he was *Bluffed* and that the 4 in his hand is exactly red 4.
-* *Self-Bluffs* on players with color clues are nonsensical, so players should not have to entertain that possibility.
-* For example, in a 3-player game:
-  * Red 2 is played on the stacks.
-  * Alice clues red to Bob, touching one brand new red card  as a *Play Clue*.
-  * Bob has a negative 3 clue on his red card, so he knows it cannot be red 3.
-  * Bob does not see any red cards in other player's hands.
-  * Bob cannot have the red 3 in his *Finesse Position*, because that card has negative red.
-  * Bob now needs to figure out what the clue means. When going through all of the possibilities, he can safely put aside the possibility of a *Self-Bluff with Color* / a *Known Self-Bluff*, because we agree that they are illegal. The clue must have some other meaning and Bob will defer to whatever the next-most-likely thing is.
-
 ### Stacked Bluffs (Illegal)
 
 * It is possible to "stack" a second *Finesse* on top of a player who is already *Finessed*. This kind of thing is generally encouraged, since it has few downsides. (For more information, see the [Stacked Finesse](#the-stacked-finesse).)
@@ -2747,6 +2730,14 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Cathy blind-plays a red 3 from her *Finesse Position*.
   * Donald sees that no-one else has any red cards in their hand. Thus, if this was a *Triple Finesse* on the red 5, then Donald should blind-play the red 4 right now.
   * However, Donald also knows that 5's are valid *Double Bluff* targets. Since number 3 does not match number 5, Donald knows that he should prefer the *Double Bluff* interpretation (that gets two blind-plays) over the *Triple Finesse* interpretation (that gets three blind-plays).
+
+### Self-Bluffs with Color Clues 
+* Similar to Self-Bluffs with rank, players can do Self-Bluffs with color.
+* We agree that Self-Bluffs with color can be beneficial because it gives more information to the hand of the player who received the clue.
+* Just as with normal bluffs, once the blind play occurs it is immediately resolved and follows all the properties of a regular [bluff](https://github.com/Zamiell/hanabi-conventions/blob/master/Reference.md#the-bluff)
+* Self-Bluffs can also initiate a Double Bluff or Triple Bluff
+
+[Examples](https://github.com/Dr-Kakashi/hanabi-conventions/blob/master/examples/Self%20Color%20Bluff%20Examples.md#examples-of-the-self-bluffs-with-color-clues)
 
 ### Stacked Bluffs (Exception)
 
