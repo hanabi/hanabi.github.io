@@ -12,7 +12,7 @@
   * Cathy knows that this must be a *Trash Push Finesse* on blue 4. Cathy blind-plays her slot 4 card, but it is red 3 instead and it successfully plays.
   * Cathy now knows that since the two cards did not match each other, this must have been an *Unnecessary Trash Push*.
 
-### Example 2
+#### Example 2
 
 ![UTP screenshot](../img/examples/unnecessary_trash_push2.png)
 
