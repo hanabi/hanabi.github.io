@@ -1019,7 +1019,7 @@ Note that in this user interface, players are **not** holding their hands like t
   * Alice must clue number 5 to Bob as a *5 Stall* since his 5 is closer to chop (even though Bob has two playable cards).
 * Some additional rules for *5 Stalls* are found in the section on [the *Early Game*](#the-early-game-intermediate-section).
 
-### Allowable Stall Clues
+### Allowable Stall Clues (Stall Table)
 
 * In certain special situations, everyone understands that a player might be giving a "stall" clue. However, there are limits - they are not allowed to just clue anything they want. These are the specific clues that they are allowed to give along with the precedence of each clue:
 
