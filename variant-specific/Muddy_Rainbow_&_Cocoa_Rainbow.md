@@ -4,6 +4,17 @@ These conventions apply to any variant with a muddy rainbow suit or a cocoa rain
 
 <br />
 
+### Inherited Conventions
+
+* By default, muddy rainbow cards inherit all of the rainbow conventions and all of the brown conventions.
+  * With that said, some of the conventions further down on this page will overwrite some rainbow/brown conventions, so read on.
+* Similarly, by default, cocoa rainbow cards inherit all of the rainbow conventions, all of the brown conventions, and all of the black conventions.
+
+### Tempo Clues
+
+* Similar to brown cards, if a player gives a *Tempo Clue* to a single muddy rainbow card, it is never a *Tempo Clue Chop Move*.
+* This is because it is fairly valuable to get muddy rainbow cards out of the hand as soon as possible in case blocking cards are drawn.
+
 ### Muddy Rainbow Saves
 
 * Since muddy rainbow 2 cannot be *2 Saved* and muddy rainbow 5 cannot be *5 Saved*, there needs to be a separate way to save these cards.

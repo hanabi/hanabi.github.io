@@ -153,6 +153,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
 
 * For the same reason that 5's need to be saved, critical cards also need to be saved. (Critical cards are defined as cards that have the other copy discarded.)
 * Players can choose to save critical cards with either a color clue **or** a number clue.
+  * Note that this even applies to 2's in the rare case that a copy of that 2 ends up in the discard pile.
 * In the above screenshot:
   * The current discard pile is shown to the right of the hands.
   * Alice clues Bob yellow, which touches a card on slot 4.
@@ -216,6 +217,14 @@ In this guide, there will be some screenshots to show off the concepts introduce
   * Alice can see that the purple stack is played up to purple 4. The only other useful purple card left is the purple 5.
   * Alice also knows that according to *Good Touch Principle*, every clued card will be eventually be played.
   * Thus, by process of elimination, she can reason that the unknown purple card in her hand must be purple 5, and she can immediately play it.
+
+<img src="img/beginner/good_touch_principle3.png" height="300" />
+
+* In the above screenshot:
+  * In the middle of the game, Alice gives Bob a yellow clue that touches slots 2 and 3.
+  * The focus of the clue is on slot 2. This must be a *Play Clue*, so Bob marks his slot 2 card as a yellow 2.
+  * Slot 3 was also touched by the clue, but it was not the focus. But just because it was not the focus does not mean that it can just be any yellow card. From *Good Touch Principle*, Bob knows that it must be playable in the future. (In other words, if the slot 3 card was a yellow 1 or yellow 2, then Alice's clue would be a *Bad Touch*.)
+  * Therefore, Bob marks his slot 3 card as either yellow 3, yellow 4, or yellow 5.
 
 ### 2 - Save Principle
 
@@ -384,9 +393,7 @@ The Hyphen-ated group plays games on the [Hanab Live](https://hanab.live) websit
 
 The Hyphen-ated group usually has games going every day. You can see if there are any Hyphen-ated members currently playing by looking at the Discord voice channels along the left side of the screen ("Hyphen-ated 1", "Hyphen-ated 2", "Teaching/Beginner Games", etc.).
 
-If all of the voice channels are empty, then there are not any people currently playing. Perform a Discord ping to see if any members of the Hyphen-ated group are around and want to play. You can do this by typing `/here` in the #general text channel. (You can also attach a message. e.g. `/here Anyone around for a beginner game with a new player ready and willing to learn?`)
-
-On the other hand, if there are people currently playing, then the typical thing to do is to join the voice channel with the others, wait for the current game to end, and then hop into the next game after that (depending on how many people stick around).
+If there are people currently playing, then the typical thing to do is to join the voice channel with the others, wait for the current game to end, and then hop into the next game after that (depending on how many people stick around).
 
 A few things to note regarding that:
 

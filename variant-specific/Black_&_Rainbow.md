@@ -1,6 +1,6 @@
 # Specific Conventions for Black & Rainbow
 
-These conventions apply to any variant with a black suit and a rainbow suit.
+These conventions apply to variants with **both** a black suit and a rainbow suit.
 
 <br />
 

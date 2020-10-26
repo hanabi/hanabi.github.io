@@ -6,163 +6,20 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 
 ## The Backlog (General Conventions)
 
-@everyone New conventions:
-
-**The Shadow Finesse**
-
-**The Shadow Finesse** (by pianoblook)
-
-```
-* When playing with expert players, it is rare for them to "miss" the chance to *Finesse* a card.
-* If an expert player could cleanly *Finesse* a card but instead opts to clue it directly, there must be a good reason.
-* If the clue does **not** touch any other new cards, and it is **not** an emergency situation, and it is **not** a mistake, then the player must be trying to communicate something extra.
-* In this situation, the player giving the clue intends for the next player to blind-play from the *Finesse Position* that **matches the true *Finesse Position*** of the other card. This is called a *Shadow Finesse* because the positional blind-play is a "shadow" of the card that could have been used for the normal *Finesse*.
-* The first card to blind-play is called the *shadow* and the second card to blind-play is called the *shadow target*.
-* For example, in a 4-player game:
-  * It is the first turn and nothing is played on the stacks.
-  * Alice clues number 1 to Cathy, touching a single red 1 on slot 1 as a *Play Clue*.
-  * Bob sees that Alice's clue is very strange: Donald has a red 2 on his slot 4. Alice could have instead clued red to Donald to *Finesse* Cathy's red 1.
-  * Bob sees no other explanation for this, so he knows that this must be a *Shadow Finesse* - Bob must hold the red 2's "shadow".
-  * Since the red 2 is in Donald's *Fourth Finesse Position* (slot 4), Bob immediately plays his *Fourth Finesse Position* (slot 4). It is a blue 1 and it successfully plays.
-  * Cathy can see all of the other hands and understands Alice's clue. Cathy plays the clued red 1.
-  * Donald is very surprised to see Bob play his *Forth Finesse Position*. The only thing that could cause this is a *Shadow Finesse*.
-  * Donald blind-plays the red 2 (the shadow target) from his slot 4.
-* The *shadow* in a *Shadow Finesse* **must** exist in the immediate next player's hand, similar to a *Bluff*. And the player holding the *shadow* **must** blind-play it immediately to resynchronize the team, similar to a *Bluff*.
-* Once a *shadow* has been blind-played, the team should consider the *shadow target* as being fully known and "touched". (In other words, it no longer occupies a *Finesse Position*.)
-* Remember that *Shadow Finesses* work with *Finesse Positions*, **not** with slot numbers.
-* A *Shadow Finesse* is **illegal** if the blind-play could be misinterpreted as some other kind of move. For example:
-  * If the *shadow* is on the *First Finesse Position*, then the move might be misinterpreted as a *Bluff* or a *Trash Finesse*.
-  * If the *shadow* is on the *Second Finesse Position*, then the move might be misinterpreted as a *5 Color Ejection*
-  * If the *shadow* is on the *Third Finesse Position*, then the move might be misinterpreted as an *Unknown Trash Discharge*.
-* The *shadow* **must** come before the *shadow target*. In other words, it is **illegal** for Bob to hold the *shadow target*, since he cannot see that a *Shadow Finesse* is occurring (and therefore might try to get the *shadow*).
-```
-
-**The Reverse Shadow Finesse** (by pianoblook)
-
-```
-* *Shadow Finesses* can also be performed in reverse.
-* *Reverse Shadow Finesses* are more complicated than normal *Shadow Finesses*, because the person with the clued card has to look ahead to determine whether or not **they** have the *shadow*, or if a **future** player has the *shadow*.
-* For an example, in a 4-player game:
-  * It is the first turn and nothing is played on the stacks.
-  * Alice clues red to Bob, touching a red card on slot 1 as a *Play Clue*.
-  * Bob knows that his red card must be a red 1.
-  * Bob sees that Alice's clue is very strange: Alice could have instead clued red to Donald, touching a red 2 as a *Finesse*.
-  * Bob recognizes that Alice must be a *Shadow Finesse*. Bob now must determine where the *shadow* lies.
-  * Bob sees that Donald's red 2 is on his *Third Finesse Position*.
-  * Bob looks at Cathy's *Third Finesse Position*. If it is playable, then Cathy holds the *shadow*. If it is not playable, then Bob holds the *shadow*.
-  * Cathy has a blue 1 in her *Third Finesse Position*, so Bob knows that Cathy holds the *shadow*.
-  * Bob plays his clued red 1.
-  * Similar to Bob, Cathy also knows that this is a *Shadow Finesse*. Cathy blind-plays her *Third Finesse Position*. It is blue 1 and it successfully plays.
-  * Donald is very surprised to see Cathy blind-play her *Third Finesse Position*. The only thing that could cause this is a *Shadow Finesse*.
-  * Donald blind-plays the *shadow target* from his *Third Finesse Position*.
-```
-
-@everyone Variant-specific conventions:
-
-**Throw It in a Hole** (change)
-
-```
-* Throw It in a Hole variants are now considered to be a hard, meaning that Loaded Play Clues are "turned on" and so forth.
-```
+n/a
 
 <br />
 
 ## The Backlog (Variant-Specific Conventions)
 
-@everyone New variant-specific conventions:
-
-**Trash Finesses & Trash Bluffs in Pink**
-
-```
-* This convention only applies to variants with a pink suit.
-* When a *Trash Finesse* or a *Trash Bluff* happens in a normal variant, if more than one card is touched, then all of the touched cards are known to be trash.
-* When a Trash Finesse* or a *Trash Bluff* happens in a variant with a pink suit, if more than one card is touched, it is possible that only the focused card was trash, and that the other cards touched are useful / critical pink cards.
-* In this situation, after discarding the focus of the *Trash Finesse* or *Trash Bluff*, the player should then hold on to the other touched cards.
-```
-
-**Pink Promise with a 5 Stall**
-
-```
-* This convention only applies to variants with a pink suit.
-* When a player performs a *5 Stall*, it is clearly a type of *Save Clue*. But if two or more 5's are touched as part of the clue, the focus of the clue is unclear.
-* We define the focus of the clue to be the specific 5 that is closest to the chop.
-* Thus, when a player knows for sure that a number 5 clue indicates a *5 Stall*, *Pink Promise* only applies to the 5 that is closest to the chop.
-* For example, in a 3-player game:
-  * The variant is "Pink (6 Suits)".
-  * It is the *Early Game* and all of the *Play Clues* and *Save Clues* have been extinguished.
-  * Bob has a completely unclued hand.
-  * Alice clues number 5 to Bob, touching two 5's on slot 1 and slot 2.
-  * Bob knows that this is a *5 Stall*. Bob knows that the clue is either focused on slot 1 or slot 2.
-  * Because of the "Pink Promise with a 5 Stall" convention, Bob knows that since this clue is focused on slot 2.
-  * Thus, *Pink Promise* applies to this card, so he marks slot 2 as a 5.
-  * Later on in the game, another rank clue "fills in" Bob's slot 2 card to be a pink card. From *Pink Promise*, Bob knows that it must be exactly the pink 5.
-```
-
-**Pink Promise with a 5 Pull**
-
-```
-* This convention only applies to variants with a pink suit.
-* First, see [Pink Promise with a 5's Chop Move](#pink-promise-with-a-5s-chop-move).
-* When a player performs a *5 Pull*, it is clearly a type of *Play Clue*. But if two or more 5's are touched as part of the clue, then the focus of the clue is unclear.
-* We define the focus of the clue to be the next to the "pulled" card. (This is similar to how *Pink Promise* works with a *5's Chop Move*.)
-* Thus, when a player knows for sure that a number 5 clue indicates a *5 Pull*, the *Pink Promise* convention only applies to the 5 that is next to the pulled card.
-* For example, in a 3-player game:
-  * The variant is "Pink (6 Suits)".
-  * It is the first turn of the game and nothing is played on the stacks.
-  * Alice clues number 5 to Bob, touching two 5's on slot 1 and slot 2.
-  * Bob knows that this is a *5 Pull*, because he sees that Cathy has a bunch of playable cards in her hand that Alice could have clued instead.
-  * Bob blind-plays his slot 3. It is a red 1 and it successfully plays.
-  * Next, Bob retroactively considers the implications of the *5 Pull*. Bob knows that the *5 Pull* was either focused on slot 1 or slot 2.
-  * Because of the "Pink Promise with a 5 Pull" convention, Bob knows that since this clue was a *5 Pull*, it must be focused on slot 2 (the card that was next to the pulled card).
-  * Thus, *Pink Promise* applies to this card, so he marks slot 2 as a 5.
-  * Later on in the game, another rank clue "fills in" Bob's slot 2 card to be a pink card. From *Pink Promise*, Bob knows that it must be exactly the pink 5.
-```
-
-**The Bubblegum Bluff** (by Stephen)
-
-```
-* This convention only applies to variants with a pink suit.
-* Similar to a *Bubblegum Finesse*, it is also possible to perform a *Bubblegum Bluff*.
-* For example, in a 3-player game:
-  * It is the first turn and nothing is played on the stacks.
-  * Alice clues number 3 to Cathy, touching a pink 2 on slot 5.
-  * Bob knows that Alice is violating *Pink Promise*. This must mean that he is supposed to play his slot 3 card.
-  * Bob blind-plays slot 3 and it is a red 1.
-  * Cathy knows that if this was a *3 Bluff*, then Bob would have played his *Finesse Position*. So it cannot be a *3 Bluff*.
-  * Thus, Cathy knows that this must be a *Bubblegum* clue. Since blue 3 is not a pink card and Alice was in *Bluff Seat* for Bob, this must be a *Bubblegum Bluff*.
-  * Cathy marks her slot 5 card as the one-away-from-playable pink card, the pink 2.
-* *Bubblegum Bluffs* can only be performed on non-pink cards; otherwise, it will look like a *Double Finesse* with one part *Bubblegum Finesse* and one part normal *Finesse*.
-* Note that it is impossible to *3 Bluff* and *Bubblegum Bluff* at the same time.
-```
-
-**Reverse Finesse Restriction** (by Florrat)
-
-```
-* This convention only applies in a Cow & Pig variant.
-* It is illegal to perform a *Reverse Finesse* with a rank clue on the first turn. (This makes things more clear for players when they are given a *Save Clue* and there are some playable cards on *Finesse Position* to get.)
-```
-
 @everyone Variant-specific conventions:
 
-**Dark Pink Tempo Clues** (by Kakashi)
+**Advanced Conventions for Variant with No Positive Clues**
 
 ```
-* Normally, *Tempo Clues* on pink cards would never cause a *Tempo Clue Chop Move* (because *Tempo* on pink cards is important).
-* However, this does not apply to dark pink cards. *Tempo Clues* on dark pink cards work as they normally do. (Meaning that it is possible to perform a *Tempo Clue Chop Move* by giving a *Tempo Clue* to a dark pink card, provided that all of the other normal *Tempo Clue Chop Move* conditions are met.)
-```
-
-**Dark Omni & Gray Pink Pseudo Saves**
-
-```
-* This convention only applies in variants with a Dark Omni or Gray Pink suit .
-* Dark Omni or Gray Pink cards on chop should be saved with number 5 clue. *Pink Promise* does not apply in this variant.
-```
-
-**Dark Omni & Gray Pink Pseudo-Rank Saves**
-
-```
-* This convention only applies in variants with a Dark Omni or Gray Pink suit.
-* In situations where there are critical cards behind Dark Omni or Gray Pink cards, you are also allowed to *Fake Save* the cards with any number (either 2, 3, or 4). (Again, *Pink Promise* does not apply to this variant.)
+* Various conventions for Duck have been deleted / reformulated.
+* We now have a framework that is used for any variant with no positive clues (e.g. Extremely Ambiguous, Duck, etc.).
+* For more information, please see: https://github.com/Zamiell/hanabi-conventions/blob/master/variant-specific/No_Positive_Clues.md
 ```
 
 **Null Color Positional Clue Skips** (by Jeff)
@@ -194,14 +51,6 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
   * Bob knows that if his hand was completely unclued, red would refer to slot 2, since there are 5 slots in the hand and red is the 4th rightmost color. But since Bob's slot 3, slot 4, and slot 5 card already have a clue on it, he should skip over those cards.
   * This means that blue would target slot 2 and green would target slot 1. Yellow would target slot 2 again (because of the wraparound) and red would target slot 1.
   * Bob blind-plays null 1 from slot 1.
-```
-
-**Advanced Conventions for Variant with No Positive Clues**
-
-```
-* Various conventions for Duck have been deleted / reformulated.
-* We now have a framework that is used for any variant with no positive clues (e.g. Extremely Ambiguous, Duck, etc.).
-* For more information, please see: https://github.com/Zamiell/hanabi-conventions/blob/master/variant-specific/No_Positive_Clues.md
 ```
 
 **The Scream Blind-Play (Blind-Playing Chop)** (for null)
@@ -249,6 +98,36 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
   * Bob plays slot 4 as the muddy rainbow 3.
 ```
 
+**Bubblegum Wraparound**
+
+```
+* This convention applies to any variant with a pink suit.
+* When players violate *Pink Promise* on an unplayable pink card, it usually indicates a *Bubblegum Prompt* or a *Bubblegum Finesse* (with the rank corresponding to the slot number to play).
+* In 4-player and 5-player games, there are only 4 cards in the hand. If a player does a *Bubblegum Finesse* with a 5, then that would be nonsensical, since there is no slot 5.
+* Similarly, in a 6-player game, there are only 3 cards in the hand. If a player does a *Bubblegum Finesse* with a 4, then that would be nonsensical, since there is no slot 4.
+* In this situation, it should "wraparound" to slot 1, communicating that the first slot is playable.
+* This kind of thing is useful in some edge-case scenarios (e.g. helping satisfy *Good Touch Principle* in variants with a light pink suit).
+```
+
+**Bubblegum Slides**
+
+```
+* This convention applies to any variant with a pink suit.
+* If a *Bubblegum Prompt* or a *Bubblegum Finesse* is telling a player to play a card in a slot that has negative pink, then that is nonsensical.
+* In this situation, if there is no other possible interpretation for the clue other than a *Bubblegum Prompt* or a *Bubblegum Finesse*, and it is unlikely for the cluer to be making a mistake, then the target slot should "slide" to the right.
+* If the slot immediately to the right is also impossible to be a pink card, then it should continue to slide right until it finds a pink card, wrapping around to the other side of the hand if necessary.
+```
+
+**Order Chop Move Change**
+
+```
+* This convention applies to the "Dual-Color (6 Suits)" variant.
+* Normally, *Order Chop Moves*, are "turned off" when two different 1's have different positive clues on them.
+  * For example, Order Chop Moves would be "turned off" in the situation where Alice has one 1 has a positive 1 clue on it, and Alice has another 1 with a positive 1 clue on it and a positive red clue on it.
+* In the "Dual Color (6 Suit)" variant, *Order Chop Moves* are never turned off when there are two different 1's, regardless of different positive or negative color clues on them.
+* The only exception is when the exact identity of the 1 is known (e.g. from being completely "filled in"). In this situation, *Order Chop Moves* are turned off.
+```
+
 **The Slot Finesse** (by Jeff)
 
 ```
@@ -282,34 +161,4 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
   * Cathy knows that this must be a *Slot Double Bluff*, so she blind-plays her *Finesse Position* as any playable card. It is yellow 2 and it successfully plays.
   * Donald knows that from the sequence of events that Alice performed a *Slot Double Bluff*, so the 4 clue is to be treated as a *Positional Clue* (e.g. the 4 in his hand might be trash).
   * Bob sees that since Cathy blind-played her *Finesse Position* card for "no reason", he must not actually have the null 2 in his hand after all. Bob can reason that Alice performed a *Slot Double Bluff*.
-```
-
-**Bubblegum Wraparound**
-
-```
-* This convention applies to any variant with a pink suit.
-* When players violate *Pink Promise* on an unplayable pink card, it usually indicates a *Bubblegum Prompt* or a *Bubblegum Finesse* (with the rank corresponding to the slot number to play).
-* In 4-player and 5-player games, there are only 4 cards in the hand. If a player does a *Bubblegum Finesse* with a 5, then that would be nonsensical, since there is no slot 5.
-* Similarly, in a 6-player game, there are only 3 cards in the hand. If a player does a *Bubblegum Finesse* with a 4, then that would be nonsensical, since there is no slot 4.
-* In this situation, it should "wraparound" to slot 1, communicating that the first slot is playable.
-* This kind of thing is useful in some edge-case scenarios (e.g. helping satisfy *Good Touch Principle* in variants with a light pink suit).
-```
-
-**Bubblegum Slides**
-
-```
-* This convention applies to any variant with a pink suit.
-* If a *Bubblegum Prompt* or a *Bubblegum Finesse* is telling a player to play a card in a slot that has negative pink, then that is nonsensical.
-* In this situation, if there is no other possible interpretation for the clue other than a *Bubblegum Prompt* or a *Bubblegum Finesse*, and it is unlikely for the cluer to be making a mistake, then the target slot should "slide" to the right.
-* If the slot immediately to the right is also impossible to be a pink card, then it should continue to slide right until it finds a pink card, wrapping around to the other side of the hand if necessary.
-```
-
-**Order Chop Move Change**
-
-```
-* This convention applies to the "Dual-Color (6 Suits)" variant.
-* Normally, *Order Chop Moves*, are "turned off" when two different 1's have different positive clues on them.
-  * For example, Order Chop Moves would be "turned off" in the situation where Alice has one 1 has a positive 1 clue on it, and Alice has another 1 with a positive 1 clue on it and a positive red clue on it.
-* In the "Dual Color (6 Suit)" variant, *Order Chop Moves* are never turned off when there are two different 1's, regardless of different positive or negative color clues on them.
-* The only exception is when the exact identity of the 1 is known (e.g. from being completely "filled in"). In this situation, *Order Chop Moves* are turned off.
 ```

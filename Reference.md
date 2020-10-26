@@ -6,7 +6,7 @@ If you are a brand new player, do not bother reading this document. It is much b
 
 If you have already read the beginners guide, then please see the [learning path document](Learning_Path.md). This explains what to learn next and how many games you should be playing before reading ahead.
 
-Note that convention updates for the group are listed in the `#announcements` channel on the [Hanabi Discord server](https://discord.gg/FADvkJp). (You can also review the [commit history](https://github.com/Zamiell/hanabi-conventions/commits/master) of this repository.)
+Note that convention updates for the group are listed in the `#announcements` channel on the [Hanabi Discord server](https://discord.gg/FADvkJp).
 
 <br />
 
@@ -41,6 +41,7 @@ Note that convention updates for the group are listed in the `#announcements` ch
   * [General Principles](#level-8---intermediate---general-principles)
   * [Common Mistakes](#level-8---intermediate---common-mistakes)
 * [Level 9 - Fellow](#level-9---fellow)
+  * [General Principles](#level-9---fellow---general-principles)
 * [Level 10 - Journeyman](#level-10---journeyman)
 * [Level 11 - Advanced](#level-11---advanced)
 * [Level 12 - Adept](#level-12---adept)
@@ -56,7 +57,7 @@ Note that convention updates for the group are listed in the `#announcements` ch
   * [Ejection](#level-17---rarely-used-strategies---ejection)
   * [Discharge](#level-17---rarely-used-strategies---discharge)
   * [Ejection & Discharge Extensions](#level-17---rarely-used-strategies---ejection--discharge-extensions)
-  * [Ignition](#level-17--rarely-used-strategies--ignition)
+  * [Ignition](#level-17---rarely-used-strategies---ignition)
   * [Save Clues & Non-Emergency Chop Moves](#level-17---rarely-used-strategies---save-clues--non-emergency-chop-moves)
   * [Emergency Moves](#level-17---rarely-used-strategies---emergency-moves)
   * [Unnecessary Usage of Complicated Moves](#level-17---rarely-used-strategies---unnecessary-usage-of-complicated-moves)
@@ -571,9 +572,10 @@ Note that in this user interface, players are **not** holding their hands like t
 
 * A direct conflict is the only thing that can "break" an information lock.
 * For example, in a 3-player game:
-  * Alice has a card that is locked in as a red 2.
-  * Alice receives a blue clue, which happens to touch this card.
-  * It obviously cannot be a red 2 anymore, so the *Information Lock* is broken.
+  * Bob has a card in his hand that is touched with a number 2 clue. (It has no color clues on it.)
+  * Bob has a written a note of "red 2" on the card, meaning that it has been "locked in" as a red 2. (Bob will permanently think that it is a red 2.)
+  * Alice clues blue to Bob, which "fills in" the card as a blue 2.
+  * It is now impossible for this card to be a red 2 - Bob knows that he was lied to earlier on in the game. Bob erases his note of "red 2" on the card and the *Information Lock* is broken.
 
 ### Efficiency
 
@@ -802,9 +804,11 @@ Note that in this user interface, players are **not** holding their hands like t
 * See the *Chop Move* section above for an explanation on what a *Chop Move* is.
 * The *Chop Move* outlined above is a tool to save multiple cards with one clue. However, sometimes you may not have a clue at all. One way to solve this situation is with a special kind of discard.
 * Typically, discarding is a last resort. So, if you have a known playable card in your hand, you can send a powerful message to your teammate by discarding instead. This is called a *Scream Discard*. Since your teammate expected you to play the card, it is like screaming at them to let them know that things are very bad.
-* The player being "screamed at" should permanently move their chop by one position.
-* Furthermore, the player being "screamed at" is not allowed to discard on this turn. Instead, they must give a clue. If there are no normal *Play Clues* or *Save Clues* to give, then they are allowed to give "stall" clues, like a *5 Stall*. If there are no *5 Stalls* to give, they can even just "fill-in" some information on an already-clued card (and doing this should not cause a *Finesse*).
-* Players are only allowed to *Scream Discard* for **cards that are playable or critical** (or a needed 2 that isn't seen anywhere else). (This follows from *Save Principle*.)
+* A *Scream Discard* does two things:
+  1) The player being "screamed at" should permanently move their chop by one position.
+  2) The player being "screamed at" is not allowed to discard on this turn. Instead, they must give a clue. If there are no normal *Play Clues* or *Save Clues* to give, then they are allowed to give "stall" clues, like a *5 Stall*. If there are no *5 Stalls* to give, they can even just "fill-in" some information on an already-clued card (and doing this should not cause a *Finesse*).
+* Players are **only allowed** to *Scream Discard* for **cards that are playable or critical** (or a needed 2 that isn't seen anywhere else). (This follows from *Save Principle*.)
+* Players are **only allowed** to *Scream Discard* as an absolute last resort. This means *Scream Discards* are almost always performed **while the team is at 0 clues**. (Less commonly, they can also be performed if the team is at 1 clue and the next person happens to be *Locked*.)
 * Players are **not** allowed to *Scream Discard* for cards that are *one-away-from-playable*.
 * Players are **not** allowed to *Scream Discard* if there was some other, less dangerous way to save the card. It is a "last resort" move.
 * Sometimes, a player will discard with a known-playable card in their hand, but they are **not** intending a *Scream Discard* - it is some other special situation:
@@ -1004,7 +1008,7 @@ Note that in this user interface, players are **not** holding their hands like t
 * *5 Stalls* are usually performed in the *Early Game*. Less commonly, they can also be performed in the *Mid-Game* if a player happens to be in a special "stalling" situation where they are not allowed to discard.
 * In the *Early Game*, the team can give as many *5 Stalls* as they want before initiating the *Mid-Game*.
 * Regardless of whether they are done in the *Early Game* or the *Mid-Game*, *5 Stalls* are only allowed if there is nothing else "normal" to do (like playing a card, giving a normal *Play Clue*, or giving a normal *Save Clue*).
-  * However, as an exception, players are also allowed to *5 Stall* if there is **only one** *Play Clue* remaining and it would touch a card on *Finesse Position*. (We refer to this as the *Finesse Position Exception*.)
+  * However, as an exception, players are also allowed to *5 Stall* if there is **only one** *Play Clue* remaining and it would touch a card that someone else on the team could conceivably *Finesse* or *Bluff*. (We refer to this as the *Finesse Position Exception*, or FPE.)
   * The *Finesse Position Exception* also applies if the same card is in multiple *Finesse Positions* and there is nothing else to do.
   * The *Finesse Position Exception* applies for **all** situations in which players are allowed to *5 Stall*.
 * *5 Stalls* **cannot** be given in the *Mid-Game* if there are any playable 5's. In this situation, a number 5 clue would just look like a *Play Clue* on the 5.
@@ -1109,6 +1113,17 @@ Note that in this user interface, players are **not** holding their hands like t
 * Do not give a *Burn Clue* if:
   * The end-game has not started yet (see the *End-Game Threshold*).
   * You know that someone else will have to discard in the future.
+
+### End-Game Strategy
+
+* The previous three sections introduce the *End-Game* at a high-level. When the *End-Game* arrives, you should probably be changing the way you play.
+* However, giving specific advice for the *End-Game* is very difficult - things vary widely based on the deal and there are a lot of different things to consider.
+* The best advice is to play lots of games of Hanabi to get a feel for the most common situations. But there is no substitute for thinking through each *End-Game* yourself, one step at a time. Ask questions like:
+  * Which cards are left in the deck that we need?
+  * What is the probability of drawing those cards?
+  * Who should be drawing those cards?
+  * Does stalling produce a line that is better than playing?
+* If you really want to get into the weeds of *End-Game* strategy, Romain has written a [short strategy guide](https://docs.google.com/document/d/1jKFqt9WbWAc1Dj3M2E_kwDwS3J0xeIp0UNkiqkLLApk/edit) that goes into more depth.
 
 <br />
 
@@ -1425,7 +1440,7 @@ Note that in this user interface, players are **not** holding their hands like t
 ### Bluff Seat and the Pang of Guilt
 
 * As mentioned in the section on *Bluffs*, you are in *Bluff Seat* for a certain player if you are immediately before them.
-* Before cluing a card directly, you should first consider if it is on *Finesse Position*. If it is, and you clue it directly, you may be "stealing" someone's *Finesse* or *Bluff*.
+* Before cluing a card directly, you should first consider if the card is on *Finesse Position*. If it is, and you clue it directly, you may be "stealing" someone's *Finesse* or *Bluff*.
 * Thus, in this situation, it may be better to discard and let the player in *Bluff Seat* get the card. If you do decide to clue the card directly, you should always feel a *Pang of Guilt*.
 * To tell the difference between a *Layered Finesse* and a *Bluff*, simply look at the *Bluff Seat*:
   * If the player was in *Bluff Seat*, then it is a *Bluff*.
@@ -1474,8 +1489,14 @@ Note that in this user interface, players are **not** holding their hands like t
 * Level 9 strategies should only be learned if you have 140+ games of experience with the group.
 * This level introduces 3 Bluffs and some higher level concepts.
 * See the [learning path document](Learning_Path.md) for general descriptions of each level.
+* Level 9 subsections:
+  * [Conventions & Special Moves](#level-9---fellow---conventions--special-moves)
+  * [General Principles](#level-9---fellow---general-principles)
+* Head back to the [table of contents](#table-of-contents).
 
 <br />
+
+### Level 9 - Fellow - Conventions & Special Moves
 
 ### Duplication Responsibility
 
@@ -1641,11 +1662,63 @@ Note that in this user interface, players are **not** holding their hands like t
 
 <br />
 
+### Level 9 - Fellow - General Principles
+
+### Cluing 1's in the Early Game
+
+* As outlined in the [level 2 strategy section](#tempo), Hanabi is about balancing between *Efficiency* and *Tempo*.
+* As outlined in the [level 5 strategy section](#the-value-of-one-away-from-playable-cards), *one-away-from-playable* cards are valuable.
+* So, players have to balance *Efficiency*, *Tempo*, and "locking in" a touch on *one-away-from-playable* cards.
+* In the *Early Game*, it is very common for players to give a number 1 clue when they see a hand that has two or more 1's in it. And this type of clue is normally pretty good. But because of the previous considerations, sometimes it would be better to get the 1's with several color clues instead.
+
+#### Example 1
+
+* Players should not just consider how good their individual clue is - they should also consider how their teammates can **build** on top of their clue.
+* For example, in a 3-player game:
+  * It is the first turn and nothing is played on the stacks.
+  * Bob's hand is as follows, from newest to oldest: `green 4, red 1, red 3, blue 2, blue 1`
+  * Alice would like to get the red 1 and the blue 1 played from Bob's hand. (No-one else has a red 1 or a blue 1.) Should Alice clue number 1, red, or blue?
+  * If Alice clues number 1, it would be a 2-for-1 clue. But then the team will probably spend a clue getting the blue 2. This will result in an efficiency of 3-for-2. And the red 3 will probably end up being discarded. Bad.
+  * If Alice clues blue, it would be a 2-for-1 clue. But then the team will no longer be able to give a red clue, because it would be *Chop-Focused* on the red 3. So they would have to clue number 1, which would result in an efficiency of 3-for-2. Bad.
+  * Thus, Alice should clue red first, and then clue blue later, resulting in an efficiency of 4-for-2.
+
+### Example 2
+
+* When players make the choice between cluing number 1 or cluing color, the cards in other people's hands should also be considered.
+* For example, in a 4-player game:
+  * It is the first turn and nothing is played on the stacks.
+  * Cathy's hand is as follows, from newest to oldest: `red 1, green 4, blue 3, blue 1`
+  * Donald is holding a cluable red 2.
+  * Alice would like to get the red 1 and the blue 1 played. (No-one else has a red 1 or a blue 1.) Should she clue 1, red, or blue?
+  * Just like in the previous example, cluing number 1 means that the red 2 will have to be clued as a 1-for-1, which results in an efficiency of 3-for-2.
+  * Instead, Alice clues yellow as a 2-for-1. Bob can then perform the 2-for-1 *Finesse*, resulting in a 4-for-2.
+
+### Example 3
+
+* As explained in the [beginner's guide](Beginner.md#other-general-strategy), it is almost always better to give a *Play Clue* instead of a *Save Clue* if a player has a playable card in their hand.
+* However, building on the theme of having teammates "build" on your clues, sometimes it is better to give a *Save Clue* first and then a *Play Clue* later.
+* For example, in a 3-player game:
+  * It is the first turn and nothing is played on the stacks.
+  * Cathy's hand is as follows, from newest to oldest: `blue 4, blue 4, red 3, red 1, blue 5`
+  * Alice would like to get the red 1 played. (No-one else has a red 1 in their hand.) Alice also knows that the team needs to eventually save the red 5.
+  * If Alice clues number 1 first to get the red 1, then the team will need to give a *5 Save* to save the blue 5, resulting in an efficiency of 2-for-2.
+  * Instead, Alice clues number 5 as a *5 Save*, which allows Bob to follow up with a red *Chop-Focus Play Clue*. This touches the red 3 as a 2-for-1, allowing for an overall efficiency of a 3-for-2.
+
+### Other Considerations
+
+* Just in case you thought Hanabi was not difficult enough, there are some other factors to consider when finding the best clue:
+  * Does giving a color clue put a playable card on *Finesse Position*? If so, maybe a color clue is better.
+  * Does the player holding the 1's want to perform an *Order Chop Move*? If so, maybe a number 1 clue is better.
+  * Are there other ways to touch the extra cards from a color clue? If so, maybe a number 1 clue is better.
+
+<br />
+
 ## Level 10 - Journeyman
 
 * Level 10 strategies should only be learned if you have 160+ games of experience with the group.
 * This level introduces the concept of Priority and all of the complicated stipulations that go along with it.
 * See the [learning path document](Learning_Path.md) for general descriptions of each level.
+* Head back to the [table of contents](#table-of-contents).
 
 <br />
 
@@ -1775,6 +1848,9 @@ Priority does not always apply. Some common exceptions are listed below.
 
 * For the purposes of *Priority*, blind-playing a card is the most important thing to do. When players are supposed to be blind-playing a card, they are usually **not** allowed to perform a *Priority Finesse* - they must stick to playing the blind card.
 * One exception to this is if a player is in the middle of unraveling the layer of a *Layered Finesse*. Since they have already blind-played their first card in the layer, they have demonstrated that the *Finesse* was on them, and now everyone on the team knows that the rest of the cards inside of the layer are "gotten" for sure.
+* Note that this only applies when the card that was blind-played was unrelated to the original *Layered Finesse*.
+  * For example, if a player is finessed for both the red 1 and the red 2 and has just blind-played a green 1, then they can perform a *Paused Priority Finesse*, because everyone on the team knows that the green 1 played as red 1 and therefore that the layer is not yet unraveled.
+  * However, if a player is finessed for both the red 1 and the red 2 and has just blind-played the red 1, then they **cannot** perform a *Paused Priority Finesse* because they haven't demonstrated to the team that they are still finessed for the red 2.
 * Thus, in this situation, a player can "pause" finishing up the *Layered Finesse* and play some other clued card to perform a *Paused Priority Finesse*.
 
 <br />
@@ -1784,6 +1860,7 @@ Priority does not always apply. Some common exceptions are listed below.
 * Level 11 strategies should only be learned if you have 180+ games of experience with the group.
 * This level introduces Elimination and all of the complicated situations that go along with it.
 * See the [learning path document](Learning_Path.md) for general descriptions of each level.
+* Head back to the [table of contents](#table-of-contents).
 
 <br />
 
@@ -1902,6 +1979,7 @@ Priority does not always apply. Some common exceptions are listed below.
 * Level 12 strategies should only be learned if you have 200+ games of experience with the group.
 * This level introduces *Ejections*.
 * See the [learning path document](Learning_Path.md) for general descriptions of each level.
+* Head back to the [table of contents](#table-of-contents).
 
 <br />
 
@@ -1937,6 +2015,7 @@ Priority does not always apply. Some common exceptions are listed below.
 * Level 13 strategies should only be learned if you have 220+ games of experience with the group.
 * This level introduces the "early" 5 moves.
 * See the [learning path document](Learning_Path.md) for general descriptions of each level.
+* Head back to the [table of contents](#table-of-contents).
 
 <br />
 
@@ -1953,7 +2032,7 @@ Priority does not always apply. Some common exceptions are listed below.
 * Thus, if someone clues a 5 and there **is** something else to do, they are performing a special move.
 * If the 5 is two or more away from chop, then they are performing a *5 Pull*. A *5 Pull* causes the player to blind-play the card to the right of the 5. For the player receiving the clue, it is understood that the 5 is not actually related to the blind-play. This is why it is called a *Pull* instead of a *Finesse* or a *Bluff*.
 * *5 Pulls* are typically done to 5's that are in slot 1. But, for example, you can also clue a 5 in slot 2 in order to get a blind-play on slot 3.
-* Even though they involve playing a blind card, a *5 Pull* should be treated as a *Delayed Play Clue*. This means that the blind card could play through any existing touched cards.
+* Even though they involve playing a blind card, a *5 Pull* should be treated as a *Delayed Play Clue* (or a potential *Prompt*). This means that the blind card could play through any existing touched cards.
 * *5 Pulls* also take precedence over *Finesses* and *Bluffs*. For example:
   * It is the *Early Game*.
   * Red 3 is played on the stacks.
@@ -1981,8 +2060,9 @@ Priority does not always apply. Some common exceptions are listed below.
   * Thus, this must be a *5 Pull Finesse*, so Bob blind-plays his *Finesse Position*. It is red 1 and it successfully plays.
   * From Cathy's perspective, she initially concluded that Alice's number 5 clue was just a *5 Stall*. However, Bob blind-played his *Finesse Position* card, and Cathy knows that Bob would not do that if the move was a *5 Stall*. This must be a *5 Pull Finesse*, so Cathy blind-plays her slot 4 card. It is red 2 and it successfully plays.
 * As you would expect, it is also possible to perform a *5 Pull Double Finesse*. The "pulled" card will always match the final blind-play.
-* Unlike other types of *Finesses*, *5 Pulls* are **not** allowed to initiate a *Reverse Finesse*. (This is because we don't want the person with the pulled card to have to entertain too many possibilities.)
-* With that said, players **do** have to respect that forward *5 Pull Finesses* could be *Layered* or *Clandestine*.
+* Unlike other types of *Finesses*, *5 Pull Finesses* must be demonstrated with a blind-play between when the *5 Pull* is given and the *5 Pulled* player's next turn.
+* Subsequently, *5 Pulls* are **not** allowed to initiate a *Reverse Finesse*. (This is because we don't want the person with the pulled card to have to entertain too many possibilities.)
+* With that said, players **do** have to respect that forward *5 Pull Finesses* could be *Layered*, *Clandestine*, or have a "*Reverse Finesse*-component".
 * Remember that during a *5 Pull Finesse*, the pulled card **always** matches the blind-play. In other words, it generally impossible to ever perform a *5 Pull Bluff*, a *5 Pull Double Bluff*, a *5 Pull Pestilent Double Bluff*, and so on.
 
 ### The 5 Pull Promise (A Follow-up Play Clue After a 5 Pull)
@@ -2012,6 +2092,7 @@ Priority does not always apply. Some common exceptions are listed below.
 * Level 14 strategies should only be learned if you have 240+ games of experience with the group.
 * This level covers moves that are complicated, difficult to see, or require a deeper understanding of how Hanabi works in order to work properly.
 * See the [learning path document](Learning_Path.md) for general descriptions of each level.
+* Head back to the [table of contents](#table-of-contents).
 
 ### The Occupied Play Clue & The Occupied Finesse (OPC)
 
@@ -2080,7 +2161,7 @@ Priority does not always apply. Some common exceptions are listed below.
 
 ### The Reverse Trash Finesse
 
-* First, see the section on the *[Trash Finesse (Strong Form)](the-trash-finesse-strong-form)*.
+* First, see the section on the *[Trash Finesse (Strong Form)](#the-trash-finesse-strong-form)*.
 * It is also possible to perform a *Trash Finesse* in reverse. This is much harder to see than a forward *Trash Finesse*. Even so, players should generally entertain the possibility of this occurring.
 * When a clue looks like it could be a *Reverse Trash Finesse*, the player who receives the clue is forced into immediately discarding the card. If it was indeed a *Reverse Trash Finesse*, it will be a trash card and it will immediately demonstrate what is going on. Alternatively, if the clue was a normal *Play Clue* on a playable card, then the discard will be a *Gentleman's Discard*. By discarding, it covers both cases.
 * For example, in 3-player game:
@@ -2131,6 +2212,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * Level 15 strategies should only be learned if you have 260+ games of experience with the group.
 * This level introduces *Discharges*.
 * See the [learning path document](Learning_Path.md) for general descriptions of each level.
+* Head back to the [table of contents](#table-of-contents).
 
 ### Discharge
 
@@ -2167,6 +2249,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 * Level 16 strategies should only be learned if you have 280+ games of experience with the group.
 * This level covers *Double Bluffs* and all of the complicated stipulations that go along with them.
 * See the [learning path document](Learning_Path.md) for general descriptions of each level.
+* Head back to the [table of contents](#table-of-contents).
 
 ### The Double Half Bluff
 
@@ -2255,7 +2338,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * [Ejection](#level-17---rarely-used-strategies---ejection)
   * [Discharge](#level-17---rarely-used-strategies---discharge)
   * [Ejection & Discharge Extensions](#level-17---rarely-used-strategies---ejection--discharge-extensions)
-  * [Ignition](#level-17--rarely-used-strategies--ignition)
+  * [Ignition](#level-17---rarely-used-strategies---ignition)
   * [Save Clues & Non-Emergency Chop Moves](#level-17---rarely-used-strategies---save-clues--non-emergency-chop-moves)
   * [Emergency Moves](#level-17---rarely-used-strategies---emergency-moves)
   * [Unnecessary Usage of Complicated Moves](#level-17---rarely-used-strategies---unnecessary-usage-of-complicated-moves)
@@ -2306,9 +2389,9 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### The No-Information Double Finesse & The No-Information Double Bluff
 
-* Sometimes, cards are re-clued in order to initiate a *Finesse* or a *Bluff*. Most times, the clue will "fill in" or give extra information to the existing card.
+* Sometimes, a card that is two-away-from-playable is re-clued in order to initiate a *Finesse* or a *Bluff*. Most times, the clue will "fill in" or give extra information to the existing card.
 * Other times, the clue will give no information (e.g. re-cluing number 3 to an already known 3). In this situation, if it was merely a *Bluff*, it would be pretty low value.
-* Thus, by convention, a "no information" clue **must** "get" at least 2 new cards (as opposed to a single *Bluff* that only gets 1 brand new card).
+* Thus, by convention, a "no information" clue on a two-away-from-playable card **must** "get" at least 2 new cards (as opposed to a single *Bluff* that only gets 1 brand new card).
 * For example, in a 3-player game:
   * Nothing is played on the stacks.
   * Alice clues 3's to Cathy, which touches one 3, the red 3.
@@ -2325,7 +2408,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Bob blind-plays green 1. If this was a *3 Bluff*, then no-one would be promised the green 2. However, since no new information was given, it must be a *No-Information Double Finesse*.
   * Cathy sees that Bob does not have the green 2, so she must have the green 2, so she blind-plays her *Finesse Position* card, and it is yellow 1 instead of green 2.
   * Since two cards were blind-played (that did not match), everyone now knows that the *No-Information* clue was a *Double Bluff* instead of a *Double Finesse*. From Cathy's perspective, her 3 can (still) be any 3 at all.
-* The "no-information" principle can also be used to perform a *Layered Finesse* on the next player. (The next player will know that it is a *Layered Finesse* instead of a *Bluff* because some other more-useful clue could have been given to initiate the *Bluff*.)
+* The "no-information" principle can also be used to perform a *No-Information Layered Finesse* on the next player. (The next player will know that it is a *Layered Finesse* instead of a *Bluff* because some other more-useful clue could have been given to initiate the *Bluff*.)
 
 ### The Bad Touch Finesse (For 1's)
 
@@ -2495,13 +2578,13 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### The Pestilent Finesse
 
-* First, see the section on the *[Pestilent Double Bluff](#pestilent-double-bluff)*.
+* First, see the section on the *[Pestilent Double Bluff](#the-pestilent-double-bluff)*.
 * In the *Pestilent Double Bluff* example, Cathy is supposed to immediately blind-play her *Finesse Position* card in order to "heal" the situation with Bob.
 * However, if Cathy sees that someone else on the team has the red 2 in their *Finesse Position*, then Cathy can see that it is a *Pestilent Finesse* instead of a *Pestilent Bluff*. Cathy can simply let the person with the actual red 2 blind-play and that will "heal" the problem in the exact same way.
 
 ### The Diseased Clandestine Finesse
 
-* First, see the section on the *[Pestilent Double Bluff](#pestilent-double-bluff)*.
+* First, see the section on the *[Pestilent Double Bluff](#the-pestilent-double-bluff)*.
 * In the *Pestilent Double Bluff* example, Cathy is supposed to immediately blind-play her *Finesse Position* card in order to "heal" the situation with Bob.
 * However, if Cathy sees a clue that she can give that will turn the move into a *Clandestine Finesse* on Bob, then she must always do that.
 * For example, in a 4-player game:
@@ -2632,7 +2715,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Cathy has a 3 clued in her hand (with no color information on it).
   * Alice clues Cathy about a brand new 4.
   * Bob blind-plays red 2.
-  * This could be a *Bluff* if the 4 in her hand is blue 4, since blue 4 is currently *one-away-from-playable*. Thus, Cathy **does not** assume that her 4 is red 4, and subsequently, does **does not** assume that her unknown 3 is a red 3. However, it could **also** be the case that the 4 is a red 4 (if the 3 in her hand happens to be red 3).
+  * This could be a *Bluff* if the 4 in her hand is blue 4, since blue 4 is currently *one-away-from-playable*. Thus, Cathy **does not** assume that her 4 is red 4, and subsequently, **does not** assume that her unknown 3 is a red 3. However, it could **also** be the case that the 4 is a red 4 (if the 3 in her hand happens to be red 3).
   * Thus, Cathy marks down both possibilities for later and does not play anything right now.
 
 ### The Hard 3 Bluff
@@ -2739,7 +2822,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### The Pestilent Triple Bluff
 
-* First, see the section on the *[Pestilent Double Bluff](#pestilent-double-bluff)*.
+* First, see the section on the *[Pestilent Double Bluff](#the-pestilent-double-bluff)*.
 * Rarely, it is possible that a *Pestilent*-style clues is performed with a two-away-from-playable card instead of a *one-away-from-playable* card. In this situation, it would transform into a *Triple Bluff* instead of a *Double Bluff*.
 * Note that normally, *Triple Bluffs* are explicitly illegal. But *Pestilent Triple Bluffs* are an exception to this rule.
 * For example, in a 5-player game:
@@ -2882,7 +2965,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### Bad Chop Move Ejection (with 5's)
 
-* First, see the section on *[Bad Chop Move Ejection (with a Trash Chop Move)](bad-chop-move-ejection-with-a-trash-chop-move)*.
+* First, see the section on *[Bad Chop Move Ejection (with a Trash Chop Move)](#bad-chop-move-ejection-with-a-trash-chop-move)*.
 * Normally, if a player performs a *5's Chop Move* on a trash card, it would signal a *Finesse* on all of the cards leading up to the 5.
 * If the very next player sees that **they will only have to blind-play one card in their hand to fulfill the *Finesse***, then they should assume that it is a *Finesse*.
 * If the very next player sees that they would have to blind-play two or more cards in their hand to fulfill the *Finesse*, then a *Finesse* is unlikely. Instead, players agree that this signals an *Ejection* and that the next player should play their *Second Finesse Position*.
@@ -2894,7 +2977,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * It is now Bob's turn. Bob knows that since Alice number 5 clue kind of looks like a *5's Chop Move*, since the 5 is exactly one-away-from-chop. However, since it would be *Chop Moving* a trash card, it can't be that.
   * Bob next assumes that this is simply a *Play Clue* on the blue 5. That would mean that someone has the blue 3 and the blue 4.
   * Bob's hand is completely unclued. Furthermore, Bob does not see the blue 3 or the blue 4 anywhere else, so he would have to have both of them in his hand. Bob knows that similar to a *5 Color Ejection*, a *Bad Chop Move Ejection* should take precedence if he is supposed to play two or more blind cards.
-  * Thus, Bob blind-plays his *Second Finesse Position*. It is a green 1 and successfully plays.
+  * Thus, Bob blind-plays his *Second Finesse Position*. It is a green 3 and successfully plays.
   * Cathy knows that if this was an *5's Chop Move*, then Bob would not have blind-played anything. If it was a *Finesse*, then Bob would have blind-played his *Finesse Position*. Since he blind-played his *Second Finesse Position* card, this must be a *Bad Chop Move Ejection* and her slot 4 card must be trash.
 
 ### Rank Choice Ejection (with a number 2 or a number 5)
@@ -3400,7 +3483,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Bob plays the red 3.
   * Cathy has a red 5 in her hand. It is fully "filled-in" by previous clues.
   * Thus, there is only one "missing" red card - the red 4. Cathy knows that normally, Bob would think that his red 1 is the red 4 (from *Good Touch Principle*). This must mean that Cathy has the red 4.
-  * Normally, Cathy would write *Trash Touch Elimination* notes for the red 4. However, both copies of the red 4 are missing / not visible. Thus, Cathy knows that this doesn't count as a "single card". Cathy instead knows that this must be a *[Weak Trash Finesse](the-trash-finesse-weak-form)*.
+  * Normally, Cathy would write *Trash Touch Elimination* notes for the red 4. However, both copies of the red 4 are missing / not visible. Thus, Cathy knows that this doesn't count as a "single card". Cathy instead knows that this must be a *[Weak Trash Finesse](#the-trash-finesse-weak-form)*.
 
 ### The Hesitation Blind-Play
 
@@ -3573,6 +3656,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Bob blind-plays slot 2. It is a blue 2 and it successfully plays.
   * From Cathy's perspective, she first suspects that some kind of *Ejection* is going on, since Bob blind-played his *Second Finesse Position*. However, since the previous action was a *Gentleman's Discard*, Alice knows that this must be a *Blaze Discard*. In other words, Bob was just blind-playing his *Second Finesse Position* to communicate to Cathy that she should play her *Second Finesse Position* instead of her *First Finesse Position*.
   * Cathy blind-plays the red 2 from slot 2.
+* *Blaze Discards* do not apply when someone discards a 1 and there are two copies remaining. (In other words, it is still possible to perform a normal *Gentleman's Discard* by discarding a red 1 in the case where Bob has a red 1 on his *Finesse Position* and Cathy has a red 1 on her *Second Finesse Position* behind an unplayable card.)
 * *Blaze Discards* do not apply when someone performs a *Gentleman's Discard* or a *Baton Discard* that looks like a *Sarcastic Discard*. In these situations, one of the following is true:
   * The discarding player is making a mistake (as a *Wrong Prompt*).
   * The discarding player is not making a mistake and there is enough past context for the player with the cards to be able to tell the difference.
@@ -3650,27 +3734,29 @@ Conventions for specific variants are listed on a separate page.
 * [2-player](/misc/2-Player.md)
 * [3 Suits](/variant-specific/3_Suits.md)
 * [Black](/variant-specific/Black.md)
-* [Rainbow and/or Dual-Color](/variant-specific/Rainbow.md)
+* [Rainbow](/variant-specific/Rainbow.md)
 * [Pink](/variant-specific/Pink.md)
 * [White](/variant-specific/White.md)
 * [Brown](/variant-specific/Brown.md)
 * [Omni](/variant-specific/Omni.md)
 * [Null](/variant-specific/Null.md)
-* [Muddy Rainbow](/variant-specific/Muddy_Rainbow.md)
+* [Muddy Rainbow](/variant-specific/Muddy_Rainbow_&_Cocoa_Rainbow.md)
 * [Prism](/variant-specific/Prism.md)
 * [Dark Rainbow](/variant-specific/Dark_Rainbow.md)
 * [Dark Pink](/variant-specific/Dark_Pink.md)
 * [Dark Omni](/variant-specific/Dark_Omni_&_Gray_Pink.md)
 * [Dark Null](/variant-specific/Dark_Null.md)
-* [Cocoa Rainbow](/variant-specific/Muddy_Rainbow.md)
+* [Cocoa Rainbow](/variant-specific/Muddy_Rainbow_&_Cocoa_Rainbow.md)
 * [Gray Pink](/variant-specific/Dark_Omni_&_Gray_Pink.md)
 * [Black & Rainbow](/variant-specific/Black_&_Rainbow.md)
 * [Rainbow & Muddy Rainbow](/variant-specific/Rainbow_&_Muddy_Rainbow.md)
 * [Pink & Omni](/variant-specific/Pink_&_Omni.md)
-* [Rainbow-Ones & Rainbow-Fives](/variant-specific/Rainbow-Ones_&_Rainbow-Fives.md)
+* [Rainbow-Ones](/variant-specific/Rainbow-Ones_&_Rainbow-Fives.md)
+* [Rainbow-Fives](/variant-specific/Rainbow-Ones_&_Rainbow-Fives.md)
 * [Pink-Ones](/variant-specific/Pink-Ones.md)
 * [Special-Fives](/variant-specific/Special-Fives.md) (e.g. "Pink-Fives")
 * [Extremely Ambiguous](/variant-specific/Extremely_Ambiguous.md)
+* [Dual-Color (any)](/variant-specific/Dual-Color.md)
 * [Dual-Color (6 Suits)](/variant-specific/Dual-Color_(6_Suits).md)
 * [Dual-Color (3 Suits)](/variant-specific/Dual-Color_(3_Suits).md)
 * [Color Blind](/variant-specific/Color_Blind.md)

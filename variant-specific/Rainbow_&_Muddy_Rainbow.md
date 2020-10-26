@@ -1,6 +1,6 @@
 # Specific Conventions for Rainbow & Muddy Rainbow
 
-These conventions apply to variants with both a rainbow and a muddy rainbow suit.
+These conventions apply to variants with **both** a rainbow and a muddy rainbow suit.
 
 <br />
 
