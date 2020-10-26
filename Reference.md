@@ -2161,7 +2161,7 @@ Priority does not always apply. Some common exceptions are listed below.
 
 ### The Reverse Trash Finesse
 
-* First, see the section on the *[Trash Finesse (Strong Form)](the-trash-finesse-strong-form)*.
+* First, see the section on the *[Trash Finesse (Strong Form)](#the-trash-finesse-strong-form)*.
 * It is also possible to perform a *Trash Finesse* in reverse. This is much harder to see than a forward *Trash Finesse*. Even so, players should generally entertain the possibility of this occurring.
 * When a clue looks like it could be a *Reverse Trash Finesse*, the player who receives the clue is forced into immediately discarding the card. If it was indeed a *Reverse Trash Finesse*, it will be a trash card and it will immediately demonstrate what is going on. Alternatively, if the clue was a normal *Play Clue* on a playable card, then the discard will be a *Gentleman's Discard*. By discarding, it covers both cases.
 * For example, in 3-player game:
@@ -3483,7 +3483,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Bob plays the red 3.
   * Cathy has a red 5 in her hand. It is fully "filled-in" by previous clues.
   * Thus, there is only one "missing" red card - the red 4. Cathy knows that normally, Bob would think that his red 1 is the red 4 (from *Good Touch Principle*). This must mean that Cathy has the red 4.
-  * Normally, Cathy would write *Trash Touch Elimination* notes for the red 4. However, both copies of the red 4 are missing / not visible. Thus, Cathy knows that this doesn't count as a "single card". Cathy instead knows that this must be a *[Weak Trash Finesse](the-trash-finesse-weak-form)*.
+  * Normally, Cathy would write *Trash Touch Elimination* notes for the red 4. However, both copies of the red 4 are missing / not visible. Thus, Cathy knows that this doesn't count as a "single card". Cathy instead knows that this must be a *[Weak Trash Finesse](#the-trash-finesse-weak-form)*.
 
 ### The Hesitation Blind-Play
 
