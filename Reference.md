@@ -1525,8 +1525,8 @@ Note that in this user interface, players are **not** holding their hands like t
 
 ### The Ambiguous Finesse Pass-Back
 
-* When an *Ambiguous Finesse* occurs, one person will hesitate, not playing into the *Finesse*. Once that happens, it is usually clear that someone else on the team also has the matching card. Next, the other person should **immediately blind-play**, resolving the *Ambiguous Finesse* as fast as possible.
-* However, in some specific situations, the next person **cannot** blind-play the card, or else a misplay would occur. In these situations, the second person has to **also** hesitate, "passing" the blind-play back to the first person again.
+* When an *Ambiguous Finesse* occurs, the first player will not play into the *Finesse*, and do something unrelated. At that point, it is usually clear that **another player** on the team **also** has the matching card. That other player should then **immediately blind-play**, resolving the *Ambiguous Finesse* as fast as possible.
+* However, in some specific situations, the second person **cannot** blind-play the card, or else a misplay would occur. In these situations, the second person has to **also** not play into the *Finesse*. This "passes" the blind-play back to the first person again.
 * For example, in a 4-player game:
   * Blue 1 is played on the stacks.
   * Alice clues blue to Donald, touching a blue 4 as a *Play Clue*.
@@ -2748,7 +2748,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Bob cannot have the red 3 in his *Finesse Position*, because that card has negative red.
   * Bob now needs to figure out what the clue means:
     * Bob does not see any red cards in other player's hands, so it cannot be a *Prompt* or a *Reverse Finesse*.
-    * There is nothing else special going on.
+    * There is nothing else special going on. (If Alice was in a stalling situation, then she might be allowed to give a weird clue like this, but Alice is not in a stalling situation.)
     * Bob feels like this clue is intentional from Alice; it is probably not an accident.
   * Thus, Bob knows that this must be a *Self Color Bluff*, so he blind-plays his *Finesse Position* card as a *Known Bluff* on any playable non-red card. It is a blue 1 and it successfully plays on the stacks.
   * Bob marks his red card as a red 4 (since that is the red card that is *one-away-from-playable*).
