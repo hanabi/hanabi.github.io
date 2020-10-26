@@ -2,7 +2,7 @@
 
 Our group has come up with many different strategies. It is helpful to give specific names to each strategy to aid in both discussion and comprehension. If you know the general way we play but don't know about a specific kind of move, then you can look it up in this document.
 
-If you are a brand new player, do not bother reading this document. It is much better to simply read the [introductory document](Beginner.md) and then start playing games with the group. This document can be used as a reference as you continue to naturally improve at the game.
+If you are a brand new player, **do not bother reading this document**. It is much better to simply read the [introductory document](Beginner.md) and then start playing games with the group. This document can be used as a reference as you continue to naturally improve at the game.
 
 If you have already read the beginners guide, then please see the [learning path document](Learning_Path.md). This explains what to learn next and how many games you should be playing before reading ahead.
 
