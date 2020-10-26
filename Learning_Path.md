@@ -25,10 +25,10 @@ The following is a quick summary of the levels.
 * *[Order Chop Moves](Reference.md#the-order-chop-move-ocm)* should not be used until level 5.
 * *[Bluffs](Reference.md#the-bluff)* should not be used until level 8.
 * *[3 Bluffs](Reference.md#the-3-bluff)* should not be used until level 9.
-* *[Priority](Reference.md#the-priority-prompt--the-priority-finesse)* should not be used until level 10.
-* *[Elimination](Reference.md#elimination)* should not be used until level 11.
-* *[The 5 Color Ejection](Reference.md#the-5-color-ejection-5ce)* should not be used until level 12.
-* *[The 5 Pull](Reference.md#the-5-pull)* should not be used until level 13.
+* *[The 5 Color Ejection](Reference.md#the-5-color-ejection-5ce)* should not be used until level 10.
+* *[The 5 Pull](Reference.md#the-5-pull)* should not be used until level 11.
+* *[Priority](Reference.md#the-priority-prompt--the-priority-finesse)* should not be used until level 12.
+* *[Elimination](Reference.md#elimination)* should not be used until level 13.
 * [*Finesses* with a *Lie Component*](Reference.md#finesses-with-a-lie-component) should not be used until level 14.
 * *[The Unknown Trash Discharge](Reference.md#the-unknown-trash-discharge-utd)* should not be used until level 15.
 * *[Double Bluffs](Reference.md#the-double-bluff)* should not be used until level 16.
@@ -134,32 +134,32 @@ The following is a brief description of each level.
 #### Level 10 - Journeyman
 
 * Level 10 strategies should only be learned if you have 160+ games of experience with the group.
-* This level introduces the concept of *Priority* and all of the complicated stipulations that go along with it.
+* This level introduces *Ejections*.
 * Level 10 strategies are as follows:
-  * *[The Priority Prompt & The Priority Finesse](Reference.md#the-priority-prompt--the-priority-finesse)*
+  * *[The 5 Color Ejection](Reference.md#the-5-color-ejection-5ce)*
 
 #### Level 11 - Advanced
 
 * Level 11 strategies should only be learned if you have 180+ games of experience with the group.
-* This level introduces *Elimination* and all of the complicated situations that go along with it.
+* This level introduces the "early" 5 moves.
 * Level 11 strategies are as follows:
-  * *[Discard Elimination](Reference.md#discard-elimination--elimination-notes--the-elimination-blind-play)*
-  * *[The Elimination Finesse](Reference.md#the-elimination-finesse)*
+  * *[The Early 5's Chop Move](Reference.md#the-early-5s-chop-move)*
+  * *[The 5 Pull](Reference.md#the-5-pull)*
 
 #### Level 12 - Adept
 
 * Level 12 strategies should only be learned if you have 200+ games of experience with the group.
-* This level introduces *Ejections*.
+* This level introduces the concept of *Priority* and all of the complicated stipulations that go along with it.
 * Level 12 strategies are as follows:
-  * *[The 5 Color Ejection](Reference.md#the-5-color-ejection-5ce)*
+  * *[The Priority Prompt & The Priority Finesse](Reference.md#the-priority-prompt--the-priority-finesse)*
 
 #### Level 13 - Senior
 
 * Level 13 strategies should only be learned if you have 220+ games of experience with the group.
-* This level introduces the "early" 5 moves.
+* This level introduces *Elimination* and all of the complicated situations that go along with it.
 * Level 13 strategies are as follows:
-  * *[The Early 5's Chop Move](Reference.md#the-early-5s-chop-move)*
-  * *[The 5 Pull](Reference.md#the-5-pull)*
+  * *[Discard Elimination](Reference.md#discard-elimination--elimination-notes--the-elimination-blind-play)*
+  * *[The Elimination Finesse](Reference.md#the-elimination-finesse)*
 
 #### Level 14 - Scholar
 
