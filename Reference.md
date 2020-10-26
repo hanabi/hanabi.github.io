@@ -2731,9 +2731,10 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Donald sees that no-one else has any red cards in their hand. Thus, if this was a *Triple Finesse* on the red 5, then Donald should blind-play the red 4 right now.
   * However, Donald also knows that 5's are valid *Double Bluff* targets. Since number 3 does not match number 5, Donald knows that he should prefer the *Double Bluff* interpretation (that gets two blind-plays) over the *Triple Finesse* interpretation (that gets three blind-plays).
 
-### Self-Bluffs with Color Clues (Exception)
-* Normally, performing Self-Bluffs on players with color clues are nonsensical, so players should not have to entertain that possibility.
-* Rarely, there are cases where 
+### Self-Bluffs with Color Clues 
+* Similar to Self-Bluffs with rank, players can do Self-Bluffs with color.
+* We agree that Self-Bluffs with color can be beneficial because it gives more information to the hand of the player who received the clue.
+* Just as with normal bluffs, once the blind play occurs it is immediately resolved.
 
 ### Stacked Bluffs (Exception)
 
