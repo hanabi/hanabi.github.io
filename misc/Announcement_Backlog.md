@@ -10,6 +10,7 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 
 ### Self Color Bluffs (SCB)
 
+```
 * It is possible (and fairly common) to perform a *Self-Bluff* on a player with a rank clue.
 * For example, in a 3-player game:
   * Red 2 is played on the stacks.
@@ -33,10 +34,11 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
   * they can be confusing
   * they only have an efficiency of a 1-for-1
 * Expert players can use *Self Color Bluffs* as a nice alternative to giving a 1-for-1 directly to the card in *Finesse Position*. Doing so has the advantage of "filling in" an ancillary card in the hand.
-* More examples of a *Self Color Bluff* can be found [here](examples/Self_Color_Bluff.md).
+```
 
 ### Self Color Double Bluff (SCDB)
 
+```
 * Just like normal bluffs, *Self Color Bluffs* are done by "filling in" a card that is *one-away-from-playable* (or a legal *Bluff* target).
 * However, players can also perform a *Self Color Double Bluff* by "filling in" a card that is *two-or-more-away-from-playable* (and not a legal *Bluff* target).
 * For example, in a 3-player game (similar to the previous example):
@@ -53,7 +55,7 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
   * Cathy sees that Alice did a *Self Color Bluff* on Bob. However, Cathy sees that the red card in Bob's hand is the red 5, which is *two-away-from-playable*. That means that Alice means to perform a *Self Color Double Bluff* (instead of a single *Bluff*).
   * Cathy blind-plays her *Finesse Position* card as a *Known Bluff*. It is a blue 2 and it successfully plays on the stacks.
   * Bob gasps in surprise. He realizes that Cathy's blind-play must be related to the clue that Alice gave. If Bob had a red 4 in his hand, then Cathy would not have gone on to blind-play anything. So, Bob erases his note of "red 4" and instead writes "red 5", because that is the only red card that is *two-away-from-playable*, and is the only card that would make Cathy blind-play.
-* More examples of a *Self Color Double Bluff* can be found [here](examples/Self_Color_Double_Bluff.md).
+```
 
 <br />
 
