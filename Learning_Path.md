@@ -28,7 +28,7 @@ The following is a quick summary of the levels.
 * *[The 5 Color Ejection](Reference.md#the-5-color-ejection-5ce)* should not be used until level 10.
 * *[The 5 Pull](Reference.md#the-5-pull)* should not be used until level 11.
 * *[Priority](Reference.md#the-priority-prompt--the-priority-finesse)* should not be used until level 12.
-* *[Elimination](Reference.md#elimination)* should not be used until level 13.
+* *[Elimination](Reference.md#discard-elimination--elimination-notes)* should not be used until level 13.
 * [*Finesses* with a *Lie Component*](Reference.md#finesses-with-a-lie-component) should not be used until level 14.
 * *[The Unknown Trash Discharge](Reference.md#the-unknown-trash-discharge-utd)* should not be used until level 15.
 * *[Double Bluffs](Reference.md#the-double-bluff)* should not be used until level 16.
