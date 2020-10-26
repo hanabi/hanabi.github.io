@@ -25,7 +25,7 @@ The following is a quick summary of the levels.
 * *[Order Chop Moves](Reference.md#the-order-chop-move-ocm)* should not be used until level 5.
 * *[Bluffs](Reference.md#the-bluff)* should not be used until level 8.
 * *[3 Bluffs](Reference.md#the-3-bluff)* should not be used until level 9.
-* *[5 Tech](Reference.md#appendix-a---5-tech)* should not be used before level 10.
+* *[5 Color Ejection](Reference.md#the-5-color-ejection-5ce)* should not be used before level 10.
 * *[Priority](Reference.md#the-priority-prompt--the-priority-finesse)* should not be used until level 11.
 * *[Elimination](Reference.md#elimination)* should not be used until level 12.
 * [*Finesses* with a *Lie Component*](Reference.md#finesses-with-a-lie-component) should not be used until level 13.

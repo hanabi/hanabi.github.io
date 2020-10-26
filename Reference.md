@@ -40,29 +40,29 @@ Note that convention updates for the group are listed in the `#announcements` ch
   * [Conventions & Special Moves](#level-8---intermediate---conventions--special-moves)
   * [General Principles](#level-8---intermediate---general-principles)
   * [Common Mistakes](#level-8---intermediate---common-mistakes)
-* [Appendix A - 5 Tech](#appendix-a---5-tech)
-  * [Ejection](#ejection)
-  * [The Early Game 5 Moves](#the-early-game-5-moves)
 * [Level 9 - Fellow](#level-9---fellow)
   * [General Principles](#level-9---fellow---general-principles)
 * [Level 10 - Journeyman](#level-10---journeyman)
+  * [Ejection](#ejection)
+  * [The Early Game 5 Moves](#the-early-game-5-moves)
 * [Level 11 - Advanced](#level-11---advanced)
 * [Level 12 - Senior](#level-12---senior)
-* [Level 13 - Erudite](#level-13---erudite)
-* [Level 14 - Expert](#level-14---expert)
-* [Level 15 - Rarely Used Strategies](#level-15---rarely-used-strategies)
-  * [Special Finesses](#level-15---rarely-used-strategies---special-finesses)
-  * [Special Bluffs](#level-15---rarely-used-strategies---special-bluffs)
-  * [Special Suboptimal Moves](#level-15---rarely-used-strategies---special-suboptimal-moves)
-  * [Pushes & Pulls](#level-15---rarely-used-strategies---pushes--pulls)
-  * [Ejection](#level-15---rarely-used-strategies---ejection)
-  * [Discharge](#level-15---rarely-used-strategies---discharge)
-  * [Ejection & Discharge Extensions](#level-15---rarely-used-strategies---ejection--discharge-extensions)
-  * [Ignition](#level-15---rarely-used-strategies---ignition)
-  * [Save Clues & Non-Emergency Chop Moves](#level-15---rarely-used-strategies---save-clues--non-emergency-chop-moves)
-  * [Emergency Moves](#level-15---rarely-used-strategies---emergency-moves)
-  * [Unnecessary Usage of Complicated Moves](#level-15---rarely-used-strategies---unnecessary-usage-of-complicated-moves)
-  * [Miscellaneous](#level-15---rarely-used-strategies---miscellaneous)
+* [Level 13 - Scholar](#level-13---scholar)
+* [Level 14 - Erudite](#level-14---erudite)
+* [Level 15 - Expert](#level-15---expert)
+* [Level 16 - Rarely Used Strategies](#level-16---rarely-used-strategies)
+  * [Special Finesses](#level-16---rarely-used-strategies---special-finesses)
+  * [Special Bluffs](#level-16---rarely-used-strategies---special-bluffs)
+  * [Special Suboptimal Moves](#level-16---rarely-used-strategies---special-suboptimal-moves)
+  * [Pushes & Pulls](#level-16---rarely-used-strategies---pushes--pulls)
+  * [Ejection](#level-16---rarely-used-strategies---ejection)
+  * [Discharge](#level-16---rarely-used-strategies---discharge)
+  * [Ejection & Discharge Extensions](#level-16---rarely-used-strategies---ejection--discharge-extensions)
+  * [Ignition](#level-16---rarely-used-strategies---ignition)
+  * [Save Clues & Non-Emergency Chop Moves](#level-16---rarely-used-strategies---save-clues--non-emergency-chop-moves)
+  * [Emergency Moves](#level-16---rarely-used-strategies---emergency-moves)
+  * [Unnecessary Usage of Complicated Moves](#level-16---rarely-used-strategies---unnecessary-usage-of-complicated-moves)
+  * [Miscellaneous](#level-16---rarely-used-strategies---miscellaneous)
 * [Variant-Specific Strategies](#variant-specific-strategies)
 * [Convention Attribution](#convention-attribution)
 
@@ -1484,114 +1484,6 @@ Note that in this user interface, players are **not** holding their hands like t
 
 <br />
 
-## Appendix A - 5 Tech
-
-* 5 Tech should only be learned if you have a good grasp on level 8 and bluffs.
-* This level introduces *Ejections* and the early game 5 moves.
-* See the [learning path document](Learning_Path.md) for general descriptions of each level.
-* Head back to the [table of contents](#table-of-contents).
-
-<br />
-
-## Ejection
-
-* *Ejection* refers to a move like a *Bluff*, but instead of playing an unrelated card from *Finesse Position*, someone plays an unrelated card from their *Second Finesse Position*. For example, if a player's hand is completely unclued, their *Second Finesse Position* is slot 2.
-* Just like a *Bluff*, an *Ejection* can only be performed on the very next player.
-* Several different kinds of moves can cause an *Ejection*. The most common one is called the *5 Color Ejection*.
-
-### The 5 Color Ejection (5CE)
-
-* Normally, if a player gives a color *Play Clue* to a 5, it would mean that it is a *Finesse* on the 5 and all of the cards leading up to the 5 are playable.
-* If the very next player sees that they will only have to **blind-play one card** in their hand to fulfill the *Finesse*, then they should assume that it is a *Finesse* and blind-play their *Finesse Position*.
-* If the very next player sees that they would have to **blind-play two or more cards** in their hand to fulfill the *Finesse*, then a *Finesse* is unlikely. Instead, players agree that this signals an *Ejection* and that the next player should play their *Second Finesse Position*.
-  * *Prompts* don't factor into the "two or more blind-plays" rule. Players only count the number of blind-plays.
-* After the blind-play, the player who received the clue will know that they must have a 5.
-* Note that *5 Color Ejection* only applies if the 5 did not have any clues on it already. If a 5 is re-clued, it signals a *Finesse* on all of the cards leading up to the 5.
-  * However, the "invisible" clue from a *Chop Move* does not count. In other words, you **can** perform a *5 Color Ejection* with a *Chop Moved* 5, as long as the card does not have any positive clues on it.
-* For example, in a 3-player game:
-  * It is the first turn and nothing is played on the stacks.
-  * Alice clues red to Cathy, touching a red 5 on slot 3.
-  * Bob knows that normally, this would be a *Finesse* on the 5, indicating to Bob that he has the red 1, the red 2, the red 3, and the red 4. However, since this calls for more than one blind card, he knows that *5 Color Ejection* should take precedence, so he knows to play his *Second Finesse Position* card. It is a red 1 and it successfully plays.
-  * From Cathy's perspective, if Bob had played his *Finesse Position* card in response to the red clue, then Cathy would know that it was a *Finesse* or a *Bluff*. But since Bob blind-played his *Second Finesse Position* card, it must be a *5 Color Ejection*. Cathy marks the red card as red 5.
-* In the previous example, a *5 Color Ejection* was preformed with the 5 being the only brand new card introduced with the color clue. However, it is also possible to perform a *5 Color Ejection* with more than one card introduced. Normally, this kind of thing would signal an *Out-of-Order Finesse*, but the *5 Color Ejection* interpretation should take precedence as long as the next player would have to blind-play two or more cards.
-* For example, in a 3-player game:
-  * It is the first turn and nothing is played on the stacks.
-  * Alice clues red to Cathy, touching a red 5 on slot 2 and a red 2 on slot 3.
-  * Bob knows that normally, this would be an *Out-of-Order Finesse* on the 5, indicating to Bob that he has the red 1, the red 3, and the red 4. However, since this calls for more than one blind card, he knows that *5 Color Ejection* should take precedence, so he knows to play his *Second Finesse Position* card. It is a red 1 and it successfully plays.
-  * From Cathy's perspective, if Bob had played his *Finesse Position* card in response to the red clue, then Cathy would know that it was a *Finesse* or a *Bluff*. But since Bob blind-played his *Second Finesse Position* card, it must be a *5 Color Ejection*. Cathy marks the red card as red 5. Her other red card can be red 2, red 3, or red 4.
-
-<br />
-
-## The Early Game 5 Moves
-
-### The Early 5's Chop Move
-
-* In the *Early Game*, players are only allowed to clue an off-chop 5 if there is nothing left to do. (Or, as a special exception, if there is only one *Play Clue* to give to a card that happens to be on *Finesse Position*.)
-* Thus, if someone clues a 5 and there **is** something else to do, they are performing a special move.
-* If the 5 is one-away from chop, then they are performing an *Early 5's Chop Move*. This functions in the exact same way a normal *5's Chop Move* does (except it was done in the *Early Game*, which is not normally possible).
-
-### The 5 Pull
-
-* This convention only applies in the *Early Game*.
-* In the *Early Game*, players are only allowed to clue an off-chop 5 if there is nothing left to do. (Or, as a special exception, if there is only one *Play Clue* to give to a card that happens to be on *Finesse Position*.)
-* Thus, if someone clues a 5 and there **is** something else to do, they are performing a special move.
-* If the 5 is two or more away from chop, then they are performing a *5 Pull*. A *5 Pull* causes the player to blind-play the card to the right of the 5. For the player receiving the clue, it is understood that the 5 is not actually related to the blind-play. This is why it is called a *Pull* instead of a *Finesse* or a *Bluff*.
-* *5 Pulls* are typically done to 5's that are in slot 1. But, for example, you can also clue a 5 in slot 2 in order to get a blind-play on slot 3.
-* Even though they involve playing a blind card, a *5 Pull* should be treated as a *Delayed Play Clue* (or a potential *Prompt*). This means that the blind card could play through any existing touched cards.
-* *5 Pulls* also take precedence over *Finesses* and *Bluffs*. For example:
-  * It is the *Early Game*.
-  * Red 3 is played on the stacks.
-  * Alice clues Cathy number 5, touching a red 5 on slot 1. (There are other *Play Clues* for Alice to give, so this is **not** a *5 Stall*.)
-  * Normally, Bob would think that this is a *Finesse* and that he should blind-play his *Finesse Position* card as the red 4.
-  * However, *5 Pulls* take precedence over *Finesses*. Bob can see that there is a playable blue 1 to the right of the 5, so no-one is promised the red 4.
-* Since *5 Pulls* take precedence over *Finesses*, it is even possible to *5 Pull* a 4 without promising that the 5 is the matching suit.
-* When a player is *Finessed* or *Bluffed*, they are allowed to defer playing the blind card in order to do a *Finesse* or *Bluff* of their own. However, if they could be *Bluffed*, they are **not** allowed to initiate a *5 Pull*. (Players are still allowed to defer playing into a *Finesse* in order to initiate a *5 Pull*.)
-* In the rare case where a *5 Pull* is performed in a 3-player game by touching two 5's in slot 1 and slot 3, then the *5 Pulled* card is slot 2.
-* For expert players, we define a specific [interaction between *5's Chop Moves* / *5 Pulls* and *2 Saves*](#2-saves-advanced-section-interaction-with-5s-chop-moves--5-pulls).
-
-### A Flowchart for Cluing 5's in the Early Game
-
-* Differentiating between a *5 Stall* and a *5 Pull* can sometimes be confusing. [Here is a handy flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/flowcharts/early_game_5_flowchart.png) that steps you through how you can tell the difference.
-
-### The 5 Pull Prompt & The 5 Pull Finesse
-
-* *5 Pulls* are also allowed to initiate a *Prompt* or *Finesse*.
-* For example, in a 3-player game:
-  * It is the first turn of the game and nothing is played on the stacks.
-  * Cathy's hand is as follows, from newest to oldest: `blue 4, blue 4, blue 5, red 2, blue 2`
-  * Alice clues number 5 to Cathy, touching the blue 5 on slot 3.
-  * Bob knows that since the team is the *Early Game*, Alice's clue might be a *5 Stall*. However, Bob also knows that you are only allowed to perform a *5 Stall* if there are no normal *Save Clues* or *Play Clues* to give. Bob sees that Cathy has a blue 2 on chop that could have been saved with a *2 Save*. Thus, Bob knows that Alice's clue cannot not be a *5 Stall*, which makes it a *5 Pull* instead (since it is two-or-more-away from the chop).
-  * Bob knows that if this was a *5 Pull*, it would be pulling the red 2. If Bob does nothing, Cathy might go on to misplay the red 2 as some playable 1.
-  * Thus, this must be a *5 Pull Finesse*, so Bob blind-plays his *Finesse Position*. It is red 1 and it successfully plays.
-  * From Cathy's perspective, she initially concluded that Alice's number 5 clue was just a *5 Stall*. However, Bob blind-played his *Finesse Position* card, and Cathy knows that Bob would not do that if the move was a *5 Stall*. This must be a *5 Pull Finesse*, so Cathy blind-plays her slot 4 card. It is red 2 and it successfully plays.
-* As you would expect, it is also possible to perform a *5 Pull Double Finesse*. The "pulled" card will always match the final blind-play.
-* Unlike other types of *Finesses*, *5 Pull Finesses* must be demonstrated with a blind-play between when the *5 Pull* is given and the *5 Pulled* player's next turn.
-* Subsequently, *5 Pulls* are **not** allowed to initiate a *Reverse Finesse*. (This is because we don't want the person with the pulled card to have to entertain too many possibilities.)
-* With that said, players **do** have to respect that forward *5 Pull Finesses* could be *Layered*, *Clandestine*, or have a "*Reverse Finesse*-component".
-* Remember that during a *5 Pull Finesse*, the pulled card **always** matches the blind-play. In other words, it generally impossible to ever perform a *5 Pull Bluff*, a *5 Pull Double Bluff*, a *5 Pull Pestilent Double Bluff*, and so on.
-
-### The 5 Pull Promise (A Follow-up Play Clue After a 5 Pull)
-
-* Normally, *5 Pulls* have to be treated as *Delayed Play Clues*. This means that sometimes, it can take a long time for the pulled card to blind-play.
-* From the perspective of the player who is *5 Pulled*, if a follow up *Play Clue* is given to a currently unplayable card, then they can disregard the *Delayed Play Clue* interpretation - the *5 Pulled* player is **promised** the card that makes the unplayable card playable.
-* For example, in a 4-player game:
-  * Alice has two clued 1's in her hand - red 1 and blue 1.
-  * Bob does a *5 Pull* on Donald. Donald knows that the *5 Pulled* card could be either red 2 or blue 2 (if it is a *Delayed Play Clue*).
-  * Cathy clues Alice about a red 3. Now, Donald knows that he is **promised** the red 2 as his *5 Pulled* card (and he no longer has to wait for the blue 1 to come down before blind-playing).
-
-### Finesses While 5 Pulled
-
-* Sometimes, a *5 Pulled* player may not play their pulled card right away. Maybe they have to wait for existing cards to play first, or maybe they want to capitalize on a *Finesse* while it is still available.
-* Any *Finesse* that a *5 Pulled* player performs is to be treated as a *Certain Finesse*.
-* Any *Certain Discard* that is performed in response to a *Finesse* that a *5 Pulled* player did applies to the *5 Pulled* card.
-
-### The 5 Pull Skip
-
-* If a player is already *Finessed*, it is possible to *Finesse* them again and get them to play their *Second Finesse Position* card.
-* Similarly, if a *5 Pull* is performed, and the card immediately to the right of a 5 is already clued or already "gotten", then the *5 Pull* skips over that card and gets the next card after that.
-
-<br />
-
 ## Level 9 - Fellow
 
 * Level 9 strategies should only be learned if you have 140+ games of experience with the group.
@@ -1823,7 +1715,115 @@ Note that in this user interface, players are **not** holding their hands like t
 
 ## Level 10 - Journeyman
 
-* Level 10 strategies should only be learned if you have 160+ games of experience with the group.
+* Level 10 should only be learned if you have a good grasp on level 8 and bluffs.
+* This level introduces *Ejections* and the early game 5 moves.
+* See the [learning path document](Learning_Path.md) for general descriptions of each level.
+* Head back to the [table of contents](#table-of-contents).
+
+<br />
+
+## Ejection
+
+* *Ejection* refers to a move like a *Bluff*, but instead of playing an unrelated card from *Finesse Position*, someone plays an unrelated card from their *Second Finesse Position*. For example, if a player's hand is completely unclued, their *Second Finesse Position* is slot 2.
+* Just like a *Bluff*, an *Ejection* can only be performed on the very next player.
+* Several different kinds of moves can cause an *Ejection*. The most common one is called the *5 Color Ejection*.
+
+### The 5 Color Ejection (5CE)
+
+* Normally, if a player gives a color *Play Clue* to a 5, it would mean that it is a *Finesse* on the 5 and all of the cards leading up to the 5 are playable.
+* If the very next player sees that they will only have to **blind-play one card** in their hand to fulfill the *Finesse*, then they should assume that it is a *Finesse* and blind-play their *Finesse Position*.
+* If the very next player sees that they would have to **blind-play two or more cards** in their hand to fulfill the *Finesse*, then a *Finesse* is unlikely. Instead, players agree that this signals an *Ejection* and that the next player should play their *Second Finesse Position*.
+  * *Prompts* don't factor into the "two or more blind-plays" rule. Players only count the number of blind-plays.
+* After the blind-play, the player who received the clue will know that they must have a 5.
+* Note that *5 Color Ejection* only applies if the 5 did not have any clues on it already. If a 5 is re-clued, it signals a *Finesse* on all of the cards leading up to the 5.
+  * However, the "invisible" clue from a *Chop Move* does not count. In other words, you **can** perform a *5 Color Ejection* with a *Chop Moved* 5, as long as the card does not have any positive clues on it.
+* For example, in a 3-player game:
+  * It is the first turn and nothing is played on the stacks.
+  * Alice clues red to Cathy, touching a red 5 on slot 3.
+  * Bob knows that normally, this would be a *Finesse* on the 5, indicating to Bob that he has the red 1, the red 2, the red 3, and the red 4. However, since this calls for more than one blind card, he knows that *5 Color Ejection* should take precedence, so he knows to play his *Second Finesse Position* card. It is a red 1 and it successfully plays.
+  * From Cathy's perspective, if Bob had played his *Finesse Position* card in response to the red clue, then Cathy would know that it was a *Finesse* or a *Bluff*. But since Bob blind-played his *Second Finesse Position* card, it must be a *5 Color Ejection*. Cathy marks the red card as red 5.
+* In the previous example, a *5 Color Ejection* was preformed with the 5 being the only brand new card introduced with the color clue. However, it is also possible to perform a *5 Color Ejection* with more than one card introduced. Normally, this kind of thing would signal an *Out-of-Order Finesse*, but the *5 Color Ejection* interpretation should take precedence as long as the next player would have to blind-play two or more cards.
+* For example, in a 3-player game:
+  * It is the first turn and nothing is played on the stacks.
+  * Alice clues red to Cathy, touching a red 5 on slot 2 and a red 2 on slot 3.
+  * Bob knows that normally, this would be an *Out-of-Order Finesse* on the 5, indicating to Bob that he has the red 1, the red 3, and the red 4. However, since this calls for more than one blind card, he knows that *5 Color Ejection* should take precedence, so he knows to play his *Second Finesse Position* card. It is a red 1 and it successfully plays.
+  * From Cathy's perspective, if Bob had played his *Finesse Position* card in response to the red clue, then Cathy would know that it was a *Finesse* or a *Bluff*. But since Bob blind-played his *Second Finesse Position* card, it must be a *5 Color Ejection*. Cathy marks the red card as red 5. Her other red card can be red 2, red 3, or red 4.
+
+<br />
+
+## The Early Game 5 Moves
+
+### The Early 5's Chop Move
+
+* In the *Early Game*, players are only allowed to clue an off-chop 5 if there is nothing left to do. (Or, as a special exception, if there is only one *Play Clue* to give to a card that happens to be on *Finesse Position*.)
+* Thus, if someone clues a 5 and there **is** something else to do, they are performing a special move.
+* If the 5 is one-away from chop, then they are performing an *Early 5's Chop Move*. This functions in the exact same way a normal *5's Chop Move* does (except it was done in the *Early Game*, which is not normally possible).
+
+### The 5 Pull
+
+* This convention only applies in the *Early Game*.
+* In the *Early Game*, players are only allowed to clue an off-chop 5 if there is nothing left to do. (Or, as a special exception, if there is only one *Play Clue* to give to a card that happens to be on *Finesse Position*.)
+* Thus, if someone clues a 5 and there **is** something else to do, they are performing a special move.
+* If the 5 is two or more away from chop, then they are performing a *5 Pull*. A *5 Pull* causes the player to blind-play the card to the right of the 5. For the player receiving the clue, it is understood that the 5 is not actually related to the blind-play. This is why it is called a *Pull* instead of a *Finesse* or a *Bluff*.
+* *5 Pulls* are typically done to 5's that are in slot 1. But, for example, you can also clue a 5 in slot 2 in order to get a blind-play on slot 3.
+* Even though they involve playing a blind card, a *5 Pull* should be treated as a *Delayed Play Clue* (or a potential *Prompt*). This means that the blind card could play through any existing touched cards.
+* *5 Pulls* also take precedence over *Finesses* and *Bluffs*. For example:
+  * It is the *Early Game*.
+  * Red 3 is played on the stacks.
+  * Alice clues Cathy number 5, touching a red 5 on slot 1. (There are other *Play Clues* for Alice to give, so this is **not** a *5 Stall*.)
+  * Normally, Bob would think that this is a *Finesse* and that he should blind-play his *Finesse Position* card as the red 4.
+  * However, *5 Pulls* take precedence over *Finesses*. Bob can see that there is a playable blue 1 to the right of the 5, so no-one is promised the red 4.
+* Since *5 Pulls* take precedence over *Finesses*, it is even possible to *5 Pull* a 4 without promising that the 5 is the matching suit.
+* When a player is *Finessed* or *Bluffed*, they are allowed to defer playing the blind card in order to do a *Finesse* or *Bluff* of their own. However, if they could be *Bluffed*, they are **not** allowed to initiate a *5 Pull*. (Players are still allowed to defer playing into a *Finesse* in order to initiate a *5 Pull*.)
+* In the rare case where a *5 Pull* is performed in a 3-player game by touching two 5's in slot 1 and slot 3, then the *5 Pulled* card is slot 2.
+* For expert players, we define a specific [interaction between *5's Chop Moves* / *5 Pulls* and *2 Saves*](#2-saves-advanced-section-interaction-with-5s-chop-moves--5-pulls).
+
+### A Flowchart for Cluing 5's in the Early Game
+
+* Differentiating between a *5 Stall* and a *5 Pull* can sometimes be confusing. [Here is a handy flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/flowcharts/early_game_5_flowchart.png) that steps you through how you can tell the difference.
+
+### The 5 Pull Prompt & The 5 Pull Finesse
+
+* *5 Pulls* are also allowed to initiate a *Prompt* or *Finesse*.
+* For example, in a 3-player game:
+  * It is the first turn of the game and nothing is played on the stacks.
+  * Cathy's hand is as follows, from newest to oldest: `blue 4, blue 4, blue 5, red 2, blue 2`
+  * Alice clues number 5 to Cathy, touching the blue 5 on slot 3.
+  * Bob knows that since the team is the *Early Game*, Alice's clue might be a *5 Stall*. However, Bob also knows that you are only allowed to perform a *5 Stall* if there are no normal *Save Clues* or *Play Clues* to give. Bob sees that Cathy has a blue 2 on chop that could have been saved with a *2 Save*. Thus, Bob knows that Alice's clue cannot not be a *5 Stall*, which makes it a *5 Pull* instead (since it is two-or-more-away from the chop).
+  * Bob knows that if this was a *5 Pull*, it would be pulling the red 2. If Bob does nothing, Cathy might go on to misplay the red 2 as some playable 1.
+  * Thus, this must be a *5 Pull Finesse*, so Bob blind-plays his *Finesse Position*. It is red 1 and it successfully plays.
+  * From Cathy's perspective, she initially concluded that Alice's number 5 clue was just a *5 Stall*. However, Bob blind-played his *Finesse Position* card, and Cathy knows that Bob would not do that if the move was a *5 Stall*. This must be a *5 Pull Finesse*, so Cathy blind-plays her slot 4 card. It is red 2 and it successfully plays.
+* As you would expect, it is also possible to perform a *5 Pull Double Finesse*. The "pulled" card will always match the final blind-play.
+* Unlike other types of *Finesses*, *5 Pull Finesses* must be demonstrated with a blind-play between when the *5 Pull* is given and the *5 Pulled* player's next turn.
+* Subsequently, *5 Pulls* are **not** allowed to initiate a *Reverse Finesse*. (This is because we don't want the person with the pulled card to have to entertain too many possibilities.)
+* With that said, players **do** have to respect that forward *5 Pull Finesses* could be *Layered*, *Clandestine*, or have a "*Reverse Finesse*-component".
+* Remember that during a *5 Pull Finesse*, the pulled card **always** matches the blind-play. In other words, it generally impossible to ever perform a *5 Pull Bluff*, a *5 Pull Double Bluff*, a *5 Pull Pestilent Double Bluff*, and so on.
+
+### The 5 Pull Promise (A Follow-up Play Clue After a 5 Pull)
+
+* Normally, *5 Pulls* have to be treated as *Delayed Play Clues*. This means that sometimes, it can take a long time for the pulled card to blind-play.
+* From the perspective of the player who is *5 Pulled*, if a follow up *Play Clue* is given to a currently unplayable card, then they can disregard the *Delayed Play Clue* interpretation - the *5 Pulled* player is **promised** the card that makes the unplayable card playable.
+* For example, in a 4-player game:
+  * Alice has two clued 1's in her hand - red 1 and blue 1.
+  * Bob does a *5 Pull* on Donald. Donald knows that the *5 Pulled* card could be either red 2 or blue 2 (if it is a *Delayed Play Clue*).
+  * Cathy clues Alice about a red 3. Now, Donald knows that he is **promised** the red 2 as his *5 Pulled* card (and he no longer has to wait for the blue 1 to come down before blind-playing).
+
+### Finesses While 5 Pulled
+
+* Sometimes, a *5 Pulled* player may not play their pulled card right away. Maybe they have to wait for existing cards to play first, or maybe they want to capitalize on a *Finesse* while it is still available.
+* Any *Finesse* that a *5 Pulled* player performs is to be treated as a *Certain Finesse*.
+* Any *Certain Discard* that is performed in response to a *Finesse* that a *5 Pulled* player did applies to the *5 Pulled* card.
+
+### The 5 Pull Skip
+
+* If a player is already *Finessed*, it is possible to *Finesse* them again and get them to play their *Second Finesse Position* card.
+* Similarly, if a *5 Pull* is performed, and the card immediately to the right of a 5 is already clued or already "gotten", then the *5 Pull* skips over that card and gets the next card after that.
+
+<br />
+
+## Level 11 - Advanced
+
+* Level 11 strategies should only be learned if you have 160+ games of experience with the group.
 * This level introduces the concept of Priority and all of the complicated stipulations that go along with it.
 * See the [learning path document](Learning_Path.md) for general descriptions of each level.
 * Head back to the [table of contents](#table-of-contents).
@@ -1963,9 +1963,9 @@ Priority does not always apply. Some common exceptions are listed below.
 
 <br />
 
-## Level 11 - Advanced
+## Level 12 - Senior
 
-* Level 11 strategies should only be learned if you have 180+ games of experience with the group.
+* Level 12 strategies should only be learned if you have 180+ games of experience with the group.
 * This level introduces Elimination and all of the complicated situations that go along with it.
 * See the [learning path document](Learning_Path.md) for general descriptions of each level.
 * Head back to the [table of contents](#table-of-contents).
@@ -2082,9 +2082,9 @@ Priority does not always apply. Some common exceptions are listed below.
 
 <br />
 
-## Level 12 - Senior
+## Level 13 - Scholar
 
-* Level 12 strategies should only be learned if you have 210+ games of experience with the group.
+* Level 13 strategies should only be learned if you have 210+ games of experience with the group.
 * This level covers moves that are complicated, difficult to see, or require a deeper understanding of how Hanabi works in order to work properly.
 * See the [learning path document](Learning_Path.md) for general descriptions of each level.
 * Head back to the [table of contents](#table-of-contents).
@@ -2202,9 +2202,9 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 13 - Erudite
+## Level 14 - Erudite
 
-* Level 13 strategies should only be learned if you have 240+ games of experience with the group.
+* Level 14 strategies should only be learned if you have 240+ games of experience with the group.
 * This level introduces *Discharges*.
 * See the [learning path document](Learning_Path.md) for general descriptions of each level.
 * Head back to the [table of contents](#table-of-contents).
@@ -2239,9 +2239,9 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 14 - Expert
+## Level 15 - Expert
 
-* Level 14 strategies should only be learned if you have 270+ games of experience with the group.
+* Level 15 strategies should only be learned if you have 270+ games of experience with the group.
 * This level covers *Double Bluffs* and all of the complicated stipulations that go along with them.
 * See the [learning path document](Learning_Path.md) for general descriptions of each level.
 * Head back to the [table of contents](#table-of-contents).
@@ -2321,28 +2321,28 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 15 - Rarely Used Strategies
+## Level 16 - Rarely Used Strategies
 
-* Level 15 strategies are separated from the rest because they do not come up that often. Thus, non-expert players do not have to worry about learning them. If they do come up in a game, players with experience can often figure out what to do on-the-fly. Even if they don't, they can quickly learn about them in the post-game review, and then use the document as a reference later on in case they need to refresh their memory.
+* Level 16 strategies are separated from the rest because they do not come up that often. Thus, non-expert players do not have to worry about learning them. If they do come up in a game, players with experience can often figure out what to do on-the-fly. Even if they don't, they can quickly learn about them in the post-game review, and then use the document as a reference later on in case they need to refresh their memory.
 * See the [learning path document](Learning_Path.md) for general descriptions of each level.
-* Level 15 subsections:
-  * [Special Finesses](#level-15---rarely-used-strategies---special-finesses)
-  * [Special Bluffs](#level-15---rarely-used-strategies---special-bluffs)
-  * [Special Suboptimal Moves](#level-15---rarely-used-strategies---special-suboptimal-moves)
-  * [Pushes & Pulls](#level-15---rarely-used---strategies-pushes--pulls)
-  * [Ejection](#level-15---rarely-used-strategies---ejection)
-  * [Discharge](#level-15---rarely-used-strategies---discharge)
-  * [Ejection & Discharge Extensions](#level-15---rarely-used-strategies---ejection--discharge-extensions)
-  * [Ignition](#level-15---rarely-used-strategies---ignition)
-  * [Save Clues & Non-Emergency Chop Moves](#level-15---rarely-used-strategies---save-clues--non-emergency-chop-moves)
-  * [Emergency Moves](#level-15---rarely-used-strategies---emergency-moves)
-  * [Unnecessary Usage of Complicated Moves](#level-15---rarely-used-strategies---unnecessary-usage-of-complicated-moves)
-  * [Miscellaneous](#level-15---rarely-used-strategies---miscellaneous)
+* Level 16 subsections:
+  * [Special Finesses](#level-16---rarely-used-strategies---special-finesses)
+  * [Special Bluffs](#level-16---rarely-used-strategies---special-bluffs)
+  * [Special Suboptimal Moves](#level-16---rarely-used-strategies---special-suboptimal-moves)
+  * [Pushes & Pulls](#level-16---rarely-used---strategies-pushes--pulls)
+  * [Ejection](#level-16---rarely-used-strategies---ejection)
+  * [Discharge](#level-16---rarely-used-strategies---discharge)
+  * [Ejection & Discharge Extensions](#level-16---rarely-used-strategies---ejection--discharge-extensions)
+  * [Ignition](#level-16---rarely-used-strategies---ignition)
+  * [Save Clues & Non-Emergency Chop Moves](#level-16---rarely-used-strategies---save-clues--non-emergency-chop-moves)
+  * [Emergency Moves](#level-16---rarely-used-strategies---emergency-moves)
+  * [Unnecessary Usage of Complicated Moves](#level-16---rarely-used-strategies---unnecessary-usage-of-complicated-moves)
+  * [Miscellaneous](#level-16---rarely-used-strategies---miscellaneous)
 * Head back to the [table of contents](#table-of-contents).
 
 <br />
 
-## Level 15 - Rarely Used Strategies - Special Finesses
+## Level 16 - Rarely Used Strategies - Special Finesses
 
 ### The Selfish Finesse (A Finesse Through Your Own Hand)
 
@@ -2683,7 +2683,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 15 - Rarely Used Strategies - Special Bluffs
+## Level 16 - Rarely Used Strategies - Special Bluffs
 
 ### Known Bluffs
 
@@ -2858,7 +2858,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 15 - Rarely Used Strategies - Special Suboptimal Moves
+## Level 16 - Rarely Used Strategies - Special Suboptimal Moves
 
 * The following *Finesses* or *Bluffs* are triggered by performing a suboptimal clue or by picking a strange choice for a clue.
 
@@ -2903,7 +2903,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 15 - Rarely Used Strategies - Pushes & Pulls
+## Level 16 - Rarely Used Strategies - Pushes & Pulls
 
 ### The Trash Push Prompt & The Trash Push Finesse
 
@@ -2937,14 +2937,14 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 15 - Rarely Used Strategies - Ejection
+## Level 16 - Rarely Used Strategies - Ejection
 
 * *Ejection* refers to a move like a *Bluff*, but instead of playing an unrelated card from *Finesse Position*, someone plays an unrelated card from their *Second Finesse Position*. For example, if a player's hand is completely unclued, their *Second Finesse Position* is slot 2.
 * Just like a *Bluff*, an *Ejection* can only be performed on the very next player.
 
 ### The 5 Color Ejection
 
-* The *5 Color Ejection* is covered in [level 12](#the-5-color-ejection-5ce).
+* The *5 Color Ejection* is covered in [level 13](#the-5-color-ejection-5ce).
 
 ### Double Play Ejection
 
@@ -2990,14 +2990,14 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 15 - Rarely Used Strategies - Discharge
+## Level 16 - Rarely Used Strategies - Discharge
 
 * *Discharge* is similar to *Ejection*, except instead of blind-playing the *Second Finesse Position* card, the player plays the *Third Finesse Position* card.
 * Just like a *Bluff*, a *Discharge* can only be performed on the very next player.
 
 ### The Unknown Trash Discharge
 
-* The *Unknown Trash Discharge* is introduced in [level 15](#the-unknown-trash-discharge-utd).
+* The *Unknown Trash Discharge* is introduced in [level 14](#the-unknown-trash-discharge-utd).
 
 ### 5 Number Discharge (5ND)
 
@@ -3024,7 +3024,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 15 - Rarely Used Strategies - Ejection & Discharge Extensions
+## Level 16 - Rarely Used Strategies - Ejection & Discharge Extensions
 
 ### The Out-of-Position Ejection
 
@@ -3073,7 +3073,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 15 - Rarely Used Strategies - Ignition
+## Level 16 - Rarely Used Strategies - Ignition
 
 ### Ignition
 
@@ -3120,7 +3120,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 15 - Rarely Used Strategies - Save Clues & Non-Emergency Chop Moves
+## Level 16 - Rarely Used Strategies - Save Clues & Non-Emergency Chop Moves
 
 ### 2 Saves (Off Chop on the First Turn)
 
@@ -3180,7 +3180,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 15 - Rarely Used Strategies - Emergency Moves
+## Level 16 - Rarely Used Strategies - Emergency Moves
 
 ### The Fake Save
 
@@ -3300,7 +3300,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 15 - Rarely Used Strategies - Unnecessary Usage of Complicated Moves
+## Level 16 - Rarely Used Strategies - Unnecessary Usage of Complicated Moves
 
 * Some complicated moves have special versions that are defined as *unnecessary*.
 * For example, it is possible to perform either a *Trash Bluff* or an *Unnecessary Trash Bluff*.
@@ -3403,7 +3403,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 15 - Rarely Used Strategies - Miscellaneous
+## Level 16 - Rarely Used Strategies - Miscellaneous
 
 ### The Selfish Clue
 
