@@ -64,7 +64,7 @@
 | 3 Suits (Throw It in a Hole)           | 1.00     | 1.36       | 1.88     | 1.36     |
 
 - Minimum efficiency is defined as:  `total cards that need to be played / total number of clues given or lost`
-- The formula for this is:
+- The formula for minimum efficiency is:
   - `(5 * number of suits) / (8 + floor((starting pace + number of suits - unusable clues) / discards per clue))`
   - "unusable clues" is 1 by default, but 2 in a 5/6-player game
   - "unusable clues" is also increased by the number of suits in a *Throw It in a Hole* game
