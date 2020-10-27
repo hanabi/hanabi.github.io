@@ -1765,7 +1765,7 @@ Note that in this user interface, players are **not** holding their hands like t
 - Players are only allowed to clue an off-chop 5 in stalling situations or in the *Early Game* when there is nothing left to do (with the special exception of when there is only one *Play Clue* to give to a card that happens to be on *Finesse Position*.)
 - Thus, if someone clues an off-chop 5 while there **is** something else to do and it's not a stalling situation, this cannot simply be a *5 Stall*.
 - If the 5 is two or more away from chop, the *Early Game* has ended, **and** the team has scored an average of 2 points per stack (i.e. 10 or more points in a normal 5 suit game), this would be treated as a normal *Play Clue* on the 5 (which may initiate an appropriate number of blind-plays in response).
-- If instead it **is** still *Early Game*, **or** the team has yet to score an average of 2 points per stack, then this is not a Play Clue on the 5: they are performing a *5 Pull*. 
+- If instead it **is** still *Early Game*, **or** the team has yet to score an average of 2 points per stack, then this is not a Play Clue on the 5: they are performing a *5 Pull*.
 - A *5 Pull* causes the player to blind-play the card to the right of the 5. For the player receiving the clue, it is understood that the 5 is not actually related to the blind-play. This is why it is called a *Pull* instead of a *Finesse* or a *Bluff*.
 - *5 Pulls* are typically done to 5's that are in slot 1. But, for example, you can also clue a 5 in slot 2 in order to get a blind-play on slot 3.
 - Even though they involve playing a blind card, a *5 Pull* should be treated as a *Delayed Play Clue* (or a potential *Prompt*). This means that the blind card could play through any existing touched cards.
