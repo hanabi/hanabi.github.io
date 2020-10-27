@@ -188,7 +188,7 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 
 <br />
 
-## Level 17 - Bubblegum Moves
+## Level 17 - Bubblegum Moves & Other Special Moves
 
 ### The Bubblegum Prompt & The Bubblegum Finesse
 
@@ -236,16 +236,19 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 
 ### The Turnabout Ejection (For 1's and 5's)
 
-* If a player falsely *Pink Promises* either a playable 1 as a 5 **or** a 5 as a playable 1, this is a dangerous lie that must be immediately resolved.
-* In this situation, the next player must immediately play their *Second Finesse Position*, as a *Turnabout Ejection*.
-* The clued player will now know that the card's identity has been "reversed". In other words, if the clue *Promised* it as the playable 1, it is now known as Pink 5, and vice-versa.
-* For example, in a 3-player game:
- * It is the first turn and nothing is played on the stacks.
- * Alice clues 5s to Cathy, touching a Pink 1 on her chop.
- * Bob knows that Alice is violating *Pink Promise*, and this must be a *Turnabout Ejection*.
- * Bob blind-plays slot 2 and it is a blue 1.
- * Cathy is surprised, but realizes what must have happened: this can't be any sort of *Bubblegum Bluff* for Pink 2, so she marks the focused card as Pink 1.
-* Note that if a *Turnabout* occurs using a 1s clue which newly touches multiple cards, the non-focused cards should still be assumed as 1s, through *The 1's Assumption*.
+- If a player uses *Pink Promise* to falsely indicate a pink 1 as a pink 5 **or** a pink 5 as a pink 1, this is a dangerous lie that must be immediately resolved.
+- In this situation, the next player must immediately play their *Second Finesse Position* to prove what happened. This is called a *Turnabout Ejection*.
+- After the *Ejection*, the player who received the clue will know that the focused card's identity has been "reversed".
+- For example, in a 3-player game:
+  - It is the first turn and nothing is played on the stacks.
+  - Alice clues number 5 to Cathy, which touches a pink 1 on Cathy's chop.
+  - Bob knows that Alice is violating *Pink Promise*. This must be a *Turnabout Ejection*.
+  - Bob blind-plays his *Second Finesse Position* (slot 2). It is a blue 1 and it successfully plays on the stacks.
+  - At first, Cathy thought that the number 5 clue from Alice was a *5 Save*.
+  - After Bob blind-plays, Cathy knows that Alice did not perform a *5 Save* and instead did something else.
+  - Cathy knows that Alice did not perform a *Bubblegum Bluff*, because Bob would have played his slot 5 card instead of his slot 2 card.
+  - Thus, Cathy knows that this must be a *Turnabout Ejection*. She marks her slot 5 card as a pink 1.
+- If a *Turnabout Ejection* occurs from a number 1 clue that also touches other 1s, the non-focused cards should still be assumed to be 1s (using the *1's Assumption* convention).
 
 <br />
 

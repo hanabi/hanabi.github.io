@@ -62,10 +62,10 @@ These conventions apply to any variant with a reversed suit (cards must be playe
 - Similar to *5 Color Ejection*, it is also possible to perform a *1 Color Ejection* on a reversed suit.
 - 1CE works in the exact same way that 5CE does (e.g. players use the "two or more blind-plays" rule).
 
-### The Turnabout Ejection (for 1s)
+### The Turnabout Ejection (For 1s)
 
-* [Turnabout Ejections](https://github.com/Zamiell/hanabi-conventions/blob/master/variant-specific/Pink.md#the-turnabout-ejection-for-1s-and-5s) can be performed on a reversed 1 in the same way that they can on a pink 5.
-* In other words:
-  * if a reversed 1 is the focus of a number 1 clue that is a *Play Clue*,
-  * and the next player would need to blind-play two or more cards to fulfill a *Finesse*,
-  * then they would instead interpret the clue as a *Turnabout Ejection* (similar to 1CE).
+- [Turnabout Ejections](https://github.com/Zamiell/hanabi-conventions/blob/master/variant-specific/Pink.md#the-turnabout-ejection-for-1s-and-5s) can be performed on a reversed 1 in the same way that they can on a pink 5.
+- In other words:
+  - if a reversed 1 is the focus of a number 1 clue that is a *Play Clue*,
+  - and the next player would need to blind-play two or more cards to fulfill a *Finesse*,
+  - then they would instead interpret the clue as a *Turnabout Ejection* (similar to 1CE).

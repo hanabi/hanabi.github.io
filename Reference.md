@@ -791,7 +791,7 @@ Note that in this user interface, players are **not** holding their hands like t
   - The 1 that was played was originally *Finessed* from a clue that happened **before** the number 1 clue.
   - The 1 that was skipped over is known to be bad from contextual information. (See the *[Stale 1's Clue](#context-clues--the-stale-1s-clue)* section.)
 
-### Double Order Chop Move (for 3-Player Games)
+### Double Order Chop Move (For 3-Player Games)
 
 - This convention only applies to 3-player games.
 - In the *Order Chop Move*, players can play 1's in a certain order to *Chop Move* a specific player of their choosing.
