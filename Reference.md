@@ -3090,15 +3090,15 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 ### The Safety Charm (Declined 5 Pull)
 
 - This convention only applies while players can initiate *5 Pulls*
-- If a card could be freely gotten by initiating a *5 Pull*, it would be very strange if the *5-Pull* was declined and the card was directly touched as a 1-for-1.
+- If a card could be freely gotten by initiating a *5 Pull*, it would be very strange if the *5 Pull* was declined and the card was directly touched as a 1-for-1.
 - When this occurs, this clue must have some other purpose - it should signal a *Charm* on the very next player.
 - Since a *Fourth Finesse Position* card was played instead of the *First*, *Second*, or *Third*, the player who received the clue will know that their card is indeed playable, but that the unclued card directly to its left must be a 5, and that this was a *Declined 5 Pull*.
 - This untouched 5 is now globally known; everyone on the team should treat it as a 'touched' card moving forward.
 - For example, in a 4-player game:
   - It is the first turn and nothing is played on the stacks.
   - Alice clues blue to Cathy, touching a blue 1.
-  - Cathy hand is, from newest to oldest: red 5, blue 1, yellow 3, yellow 2. 
-  - Bob sees that Alice could have cleanly *5 Pulled* Cathy's blue 1 (e.g. Donald has a closer-to-chop 5, and/or an available play clue)
+  - Cathy hand is, from newest to oldest: red 5, blue 1, yellow 3, yellow 2.
+  - Bob sees that Alice could have cleanly *5 Pulled* Cathy's blue 1 (e.g. Donald has a closer-to-chop 5, and/or an available play clue).
   - Therefore, Bob knows that he's being called to blind-play a card... but from which slot?
     - A *First Finesse* play would look like a *Bluff* on blue 2 or 3
     - A *Second Finesse* play would look like a *5 Color Ejection*
