@@ -21,8 +21,15 @@
 | 3 Suits (Clue Starved) | 7        | 3          | 0        | 3        |
 
 - Pace is a measure of how many discards the team can do before a perfect score becomes impossible.
-- The formula for this is: `total cards in the deck - ((number of cards in a player's hand - 1) * number of players) - (5 * number of suits)`
+- The formula for pace is: `total cards in the deck - ((number of cards in a player's hand - 1) * number of players) - (5 * number of suits)`
   - If a game contains the Contrarian detrimental character, `(number of players - 2)` is subtracted from the pace.
+
+<br />
+
+### Efficiency
+
+- Efficiency is a measure of how much value the team is getting with the amount of clues that they have spent thus far.
+- The formula for efficiency is: `(number of cards played + number of cards with 1+ clues "on" them) / number of clues given or lost`
 
 <br />
 
