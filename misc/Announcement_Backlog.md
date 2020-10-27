@@ -38,6 +38,7 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
     - Bob feels like this clue is intentional from Alice; it is probably not an accident.
   - Thus, Bob knows that this must be a *Self Color Bluff*, so he blind-plays his *Finesse Position* card as a *Known Bluff* on any playable non-red card. It is a blue 1 and it successfully plays on the stacks.
   - Bob marks his red card as a red 4 (since that is the red card that is *one-away-from-playable*).
+- Note that *Self Color Bluffs* should not be confused with the more-ordinary "fill-in" clues that are used in stalling situations. (See the [Allowable Stall Clues](#allowable-stall-clues-stall-table) section.) In other words, **if someone could be in a stalling situation, you should never blind-play a card from a fill-in clue**.
 - *Self Color Bluffs* are not very good and should only be used sparingly, because:
   - they can be confusing
   - they only have an efficiency of a 1-for-1
