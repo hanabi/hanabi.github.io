@@ -1,5 +1,13 @@
 # Efficiency Tables
 
+### Pace
+
+- Pace is a measure of how many discards the team can do before a perfect score becomes impossible.
+- The formula for pace is: `total cards in the deck - ((number of cards in a player's hand - 1) * number of players) - (5 * number of suits)`
+  - If a game contains the Contrarian detrimental character, `(number of players - 2)` is subtracted from the pace.
+
+<br />
+
 ### Starting Pace
 
 | Variant Type           | 2-player | 3/4-player | 5-player | 6-player |
@@ -19,10 +27,6 @@
 | 4 Suits (Clue Starved) | 12       | 8          | 5        | 8        |
 | 3 Suits                | 7        | 3          | 0        | 3        |
 | 3 Suits (Clue Starved) | 7        | 3          | 0        | 3        |
-
-- Pace is a measure of how many discards the team can do before a perfect score becomes impossible.
-- The formula for pace is: `total cards in the deck - ((number of cards in a player's hand - 1) * number of players) - (5 * number of suits)`
-  - If a game contains the Contrarian detrimental character, `(number of players - 2)` is subtracted from the pace.
 
 <br />
 
