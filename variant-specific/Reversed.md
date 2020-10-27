@@ -60,5 +60,5 @@ These conventions apply to any variant with a reversed suit (cards must be playe
 ### The Turnabout Ejection
 
 * [Turnabout Ejections](https://github.com/Zamiell/hanabi-conventions/blob/master/variant-specific/Pink.md#the-turnabout-ejection-for-1s-and-5s) can be carried out in Reversed suits in the same way as in Pink.
-* Thus, if a reversed 1 is the focus of a *Play Clue*, and the next player would need two or more blind-plays to fulfill a true *Finesse*, this is a *Turnabout Ejection*.
+* Thus, if a reversed 1 is the focus of a Rank *Play Clue*, and the next player would need two or more blind-plays to fulfill a true *Finesse*, this is a *Turnabout Ejection*.
 * Similarly, if a playable reversed 5 is clued on chop as a *Save Clue*, the next player must perform a *Turnabout Ejection*.
