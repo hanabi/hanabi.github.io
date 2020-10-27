@@ -2743,7 +2743,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   - Donald sees that no-one else has any red cards in their hand. Thus, if this was a *Triple Finesse* on the red 5, then Donald should blind-play the red 4 right now.
   - However, Donald also knows that 5's are valid *Double Bluff* targets. Since number 3 does not match number 5, Donald knows that he should prefer the *Double Bluff* interpretation (that gets two blind-plays) over the *Triple Finesse* interpretation (that gets three blind-plays).
 
-### Self Color Bluffs (SCB)
+### Self Color Bluffs (1-for-1 Form) (SCB)
 
 - It is possible (and fairly common) to perform a *Self-Bluff* on a player with a rank clue.
 - For example, in a 3-player game:
@@ -2755,21 +2755,30 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 - Nonetheless, we agree that in this situation, players should blind-play a card anyway as a *Known Bluff*.
 - For example, in a 3-player game:
   - Red 2 is played on the stacks.
-  - Alice clues red to Bob, touching one brand new red card as a *Play Clue*.
-  - Bob has a negative 3 clue on his red card, so he knows it cannot be red 3.
-  - Bob cannot have the red 3 in his *Finesse Position*, because that card has negative red.
-  - Bob now needs to figure out what the clue means:
-    - Bob does not see any red cards in other player's hands, so it cannot be a *Prompt* or a *Reverse Finesse*.
-    - There is nothing else special going on. (If Alice was in a stalling situation, then she might be allowed to give a weird clue like this, but Alice is not in a stalling situation.)
-    - Bob feels like this clue is intentional from Alice; it is probably not an accident.
+  - Alice clues red to Bob, which "fills in" a card with a number 4 clue on it. It is now a globally-known red 4.
+  - This must be a *Play Clue* on the red 4, since Alice is not in a stalling situation. (If Alice was in a stalling situation, then she would be allowed to give a "fill-in" clue without anything special happening.)
+  - Bob does not see any red cards in other player's hands, so it cannot be a *Prompt* or a *Reverse Finesse*.
+  - Bob cannot possibly have the red 3 in his *Finesse Position*, because that card has negative red.
   - Thus, Bob knows that this must be a *Self Color Bluff*, so he blind-plays his *Finesse Position* card as a *Known Bluff* on any playable non-red card. It is a blue 1 and it successfully plays on the stacks.
-  - Bob marks his red card as a red 4 (since that is the red card that is *one-away-from-playable*).
 - Note that *Self Color Bluffs* should not be confused with the more-ordinary "fill-in" clues that are used in stalling situations. (See the [Allowable Stall Clues](#allowable-stall-clues-stall-table) section.) In other words, **if someone could be in a stalling situation, you should never blind-play a card from a fill-in clue**.
 - *Self Color Bluffs* are not very good and should only be used sparingly, because:
   - they can be confusing
-  - they only have an efficiency of a 1-for-1
+  - they almost always have an efficiency of a 1-for-1
 - Expert players can use *Self Color Bluffs* as a nice alternative to giving a 1-for-1 directly to the card in *Finesse Position*. Doing so has the advantage of "filling in" an ancillary card in the hand.
 - More examples of a *Self Color Bluff* can be found [here](examples/Self_Color_Bluff.md).
+
+### Self Color Bluff (2-for-1 Form) (SCB)
+
+- Rarely, it is also possible to perform a *Self Color Bluff* as a 2-for-1.
+- For example, in a 3-player game:
+  - Red 2 is played on the stacks.
+  - Alice clues red to Bob, which touches a brand new red card on his slot 2.
+  - This must be a *Play Clue* on the red 4, since Alice is not in a stalling situation. (If Alice was in a stalling situation, then she would be allowed to give a "fill-in" clue without anything special happening.)
+  - Bob has a negative 3 clue on his red card, so he knows it cannot possibly be a red 3 (the next playable red card).
+  - Bob does not see any red cards in other player's hands, so it cannot be a *Prompt* or a *Reverse Finesse*.
+  - Bob cannot possibly have the red 3 in his *Finesse Position*, because that card now has negative red.
+  - Thus, Bob knows that this must be a *Self Color Bluff*, so he blind-plays his *Finesse Position* card as a *Known Bluff* on any playable non-red card. It is a blue 1 and it successfully plays on the stacks.
+  - Bob marks his red card as a red 4 (since that is the red card that is *one-away-from-playable*).
 
 ### Self Color Double Bluff (SCDB)
 
