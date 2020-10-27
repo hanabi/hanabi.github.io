@@ -6,6 +6,14 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 
 ## The Backlog (General Conventions)
 
+@everyone Learning path changes:
+
+```
+* The *5 Color Ejection* has been moved to level 10.
+* The *5 Pull* has been moved to level 11.
+* The rest of the conventions past that have been shifted up a level.
+```
+
 @everyone New conventions:
 
 ### Self Color Bluffs (SCB)
