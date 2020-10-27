@@ -231,3 +231,21 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
   - Donald knows that from the sequence of events that Alice performed a *Slot Double Bluff*, so the 4 clue is to be treated as a *Positional Clue* (e.g. the 4 in his hand might be trash).
   - Bob sees that since Cathy blind-played her *Finesse Position* card for "no reason", he must not actually have the null 2 in his hand after all. Bob can reason that Alice performed a *Slot Double Bluff*.
 ```
+
+**The Turnabout Ejection (For 1's and 5's)** (by pianoblook)
+
+```
+- If a player uses *Pink Promise* to falsely indicate a pink 1 as a pink 5 **or** a pink 5 as a pink 1, this is a dangerous lie that must be immediately resolved.
+- In this situation, the next player must immediately play their *Second Finesse Position* to prove what happened. This is called a *Turnabout Ejection*.
+- After the *Ejection*, the player who received the clue will know that the focused card's identity has been "reversed".
+- For example, in a 3-player game:
+  - It is the first turn and nothing is played on the stacks.
+  - Alice clues number 5 to Cathy, which touches a pink 1 on Cathy's chop.
+  - Bob knows that Alice is violating *Pink Promise*. This must be a *Turnabout Ejection*.
+  - Bob blind-plays his *Second Finesse Position* (slot 2). It is a blue 1 and it successfully plays on the stacks.
+  - At first, Cathy thought that the number 5 clue from Alice was a *5 Save*.
+  - After Bob blind-plays, Cathy knows that Alice did not perform a *5 Save* and instead did something else.
+  - Cathy knows that Alice did not perform a *Bubblegum Bluff*, because Bob would have played his slot 5 card instead of his slot 2 card.
+  - Thus, Cathy knows that this must be a *Turnabout Ejection*. She marks her slot 5 card as a pink 1.
+- If a *Turnabout Ejection* occurs from a number 1 clue that also touches other 1s, the non-focused cards should still be assumed to be 1s (using the *1's Assumption* convention).
+```
