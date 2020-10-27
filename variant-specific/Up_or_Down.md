@@ -19,7 +19,7 @@ These conventions apply to the "Up or Down" variants.
 ### 1's Color Ejection (1CE)
 
 - Similar to *5 Color Ejection*, it is also possible to perform a *1 Color Ejection* in an *Up or Down* variant.
-- 1CE works in the exact same way as 5CE does (e.g. players use the "2 or more blind-plays" rule).
+- 1CE works in the exact same way that 5CE does (e.g. players use the "two or more blind-plays" rule).
 
 ### The U-Turn Finesse
 

@@ -830,7 +830,7 @@ Note that in this user interface, players are **not** holding their hands like t
 - *Tempo Clues* are defined as clues that "get" no new cards. Their purpose is to get 1 or more cards played that **already** had a clue on them.
   - If a clue is given to a card that is **already** known to be playable, then that would **not** count as a *Tempo Clue*. It would instead be a *Burn Clue* (a clue that accomplishes nothing).
 - In our group, we do not generally perform *Tempo Clues*, because they do not meet *[Minimum Clue Value Principle](#2-minimum-clue-value-principle)*. However, in the following special circumstances, *Tempo Clues* have enough value to justify giving them:
-  1. When it gets 2 or more clued cards to play
+  1. When it gets two or more clued cards to play
   2. When the clued card is "out of order" (meaning that it is impossible for a *Prompt* to get the card played)
   3. When the clued card was *Chop Moved* and it is now playable
   4. When playing the clued card would "unlock" someone's hand (see the section on *Locked Hands* later on)

@@ -49,16 +49,23 @@ These conventions apply to any variant with a reversed suit (cards must be playe
 - Players are not allowed to *Order Chop Move*, because they could be misplaying a reversed card.
   - The exception is when the reversed 1 is visible.
 
-### The 2's Double Bluff
+### The 2 Double Bluff
 
-- Similar to the *4's Double Bluff*, you can also use a reversed 2 to initiate a *2's Double Bluff* in exactly the same way.
+- Similar to the *4 Double Bluff*, you can also use a reversed 2 to initiate a *2 Double Bluff* in exactly the same way.
 
-### The 1's Double Bluff
+### The 1 Double Bluff
 
-- Similar to the *5's Double Bluff*, you can also use a reversed 1 to initiate a *1's Double Bluff* in exactly the same way.
+- Similar to the *5 Double Bluff*, you can also use a reversed 1 to initiate a *1 Double Bluff* in exactly the same way.
 
-### The Turnabout Ejection
+### 1's Color Ejection (1CE)
 
-* [Turnabout Ejections](https://github.com/Zamiell/hanabi-conventions/blob/master/variant-specific/Pink.md#the-turnabout-ejection-for-1s-and-5s) can be carried out in Reversed suits in the same way as in Pink.
-* Thus, if a reversed 1 is the focus of a *Play Clue*, and the next player would need two or more blind-plays to fulfill a true *Finesse*, this is a *Turnabout Ejection*.
-* Similarly, if a playable reversed 5 is clued on chop as a *Save Clue*, the next player must perform a *Turnabout Ejection*.
+- Similar to *5 Color Ejection*, it is also possible to perform a *1 Color Ejection* on a reversed suit.
+- 1CE works in the exact same way that 5CE does (e.g. players use the "two or more blind-plays" rule).
+
+### The Turnabout Ejection (for 1s)
+
+* [Turnabout Ejections](https://github.com/Zamiell/hanabi-conventions/blob/master/variant-specific/Pink.md#the-turnabout-ejection-for-1s-and-5s) can be performed on a reversed 1 in the same way that they can on a pink 5.
+* In other words:
+  * if a reversed 1 is the focus of a number 1 clue that is a *Play Clue*,
+  * and the next player would need to blind-play two or more cards to fulfill a *Finesse*,
+  * then they would instead interpret the clue as a *Turnabout Ejection* (similar to 1CE).
