@@ -2773,7 +2773,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 - For example, in a 3-player game:
   - Red 2 is played on the stacks.
   - Alice clues red to Bob, which touches a brand new red card on his slot 2.
-  - This must be a *Play Clue* on the red 4, since Alice is not in a stalling situation. (If Alice was in a stalling situation, then she would be allowed to give a "fill-in" clue without anything special happening.)
+  - This must be a *Play Clue* on the red card, since Alice is not in a stalling situation. (If Alice was in a stalling situation, then she would be allowed to give a "fill-in" clue without anything special happening.)
   - Bob has a negative 3 clue on his red card, so he knows it cannot possibly be a red 3 (the next playable red card).
   - Bob does not see any red cards in other player's hands, so it cannot be a *Prompt* or a *Reverse Finesse*.
   - Bob cannot possibly have the red 3 in his *Finesse Position*, because that card now has negative red.
@@ -2786,18 +2786,16 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 - However, players can also perform a *Self Color Double Bluff* by "filling in" a card that is *two-or-more-away-from-playable* (and not a legal *Bluff* target).
 - For example, in a 3-player game (similar to the previous example):
   - Red 2 is played on the stacks.
-  - Alice clues red to Bob, touching one brand new red card as a *Play Clue*.
-  - Bob has a negative 3 clue on his red card, so he knows it cannot be red 3.
-  - Bob cannot have the red 3 in his *Finesse Position*, because that card has negative red.
-  - Bob now needs to figure out what the clue means:
-    - Bob does not see any red cards in other player's hands, so it cannot be a *Prompt* or a *Reverse Finesse*.
-    - There is nothing else special going on.
-    - Bob feels like this clue is intentional from Alice; it is probably not an accident.
+  - Alice clues red to Bob, which touches a brand new red card on his slot 2.
+  - This must be a *Play Clue* on the red card, since Alice is not in a stalling situation. (If Alice was in a stalling situation, then she would be allowed to give a "fill-in" clue without anything special happening.)
+  - Bob has a negative 3 clue on his red card, so he knows it cannot possibly be a red 3 (the next playable red card).
+  - Bob does not see any red cards in other player's hands, so it cannot be a *Prompt* or a *Reverse Finesse*.
+  - Bob cannot possibly have the red 3 in his *Finesse Position*, because that card now has negative red.
   - Thus, Bob knows that this must be a *Self Color Bluff*, so he blind-plays his *Finesse Position* card as a *Known Bluff* on any playable non-red card. It is a blue 1 and it successfully plays on the stacks.
   - Bob marks his red card as a red 4 (since that is the red card that is *one-away-from-playable*).
   - Cathy sees that Alice did a *Self Color Bluff* on Bob. However, Cathy sees that the red card in Bob's hand is the red 5, which is *two-away-from-playable*. That means that Alice means to perform a *Self Color Double Bluff* (instead of a single *Bluff*).
   - Cathy blind-plays her *Finesse Position* card as a *Known Bluff*. It is a blue 2 and it successfully plays on the stacks.
-  - Bob gasps in surprise. He realizes that Cathy's blind-play must be related to the clue that Alice gave. If Bob had a red 4 in his hand, then Cathy would not have gone on to blind-play anything. So, Bob erases his note of "red 4" and instead writes "red 5", because that is the only red card that is *two-away-from-playable*, and is the only card that would make Cathy blind-play.
+  - Bob is surprised by Cathy's blind-play and realizes that it must be related to the clue that Alice gave. If Bob had a red 4 in his hand, then Cathy would not have gone on to blind-play anything. So, Bob erases his note of "red 4" and instead writes "red 5", because that is the only red card that is *two-away-from-playable*, and is the only card that would make Cathy blind-play.
 - More examples of a *Self Color Double Bluff* can be found [here](examples/Self_Color_Double_Bluff.md).
 
 ### Stacked Bluffs (Exception)
