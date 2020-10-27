@@ -56,6 +56,7 @@ Note that convention updates for the group are listed in the `#announcements` ch
   - [Pushes & Pulls](#level-17---rarely-used-strategies---pushes--pulls)
   - [Ejection](#level-17---rarely-used-strategies---ejection)
   - [Discharge](#level-17---rarely-used-strategies---discharge)
+  - [Charm](#level-17---rarely-used-strategies---charm)
   - [Ejection & Discharge Extensions](#level-17---rarely-used-strategies---ejection--discharge-extensions)
   - [Ignition](#level-17---rarely-used-strategies---ignition)
   - [Save Clues & Non-Emergency Chop Moves](#level-17---rarely-used-strategies---save-clues--non-emergency-chop-moves)
@@ -1760,10 +1761,12 @@ Note that in this user interface, players are **not** holding their hands like t
 
 ### The 5 Pull
 
-- This convention only applies in the *Early Game*.
-- In the *Early Game*, players are only allowed to clue an off-chop 5 if there is nothing left to do. (Or, as a special exception, if there is only one *Play Clue* to give to a card that happens to be on *Finesse Position*.)
-- Thus, if someone clues a 5 and there **is** something else to do, they are performing a special move.
-- If the 5 is two or more away from chop, then they are performing a *5 Pull*. A *5 Pull* causes the player to blind-play the card to the right of the 5. For the player receiving the clue, it is understood that the 5 is not actually related to the blind-play. This is why it is called a *Pull* instead of a *Finesse* or a *Bluff*.
+- This convention only applies until the team has scored an average of 2 points per stack **and** the *Early Game* has ended.
+- Players are only allowed to clue an off-chop 5 in stalling situations or in the *Early Game* when there is nothing left to do (with the special exception of when there is only one *Play Clue* to give to a card that happens to be on *Finesse Position*.)
+- Thus, if someone clues an off-chop 5 while there **is** something else to do and it's not a stalling situation, this cannot simply be a *5 Stall*.
+- If the 5 is two or more away from chop, the *Early Game* has ended, **and** the team has scored an average of 2 points per stack (i.e. 10 or more points in a normal 5 suit game), this would be treated as a normal *Play Clue* on the 5 (which may initiate an appropriate number of blind-plays in response).
+- If instead it **is** still *Early Game*, **or** the team has yet to score an average of 2 points per stack, then this is not a Play Clue on the 5: they are performing a *5 Pull*.
+- A *5 Pull* causes the player to blind-play the card to the right of the 5. For the player receiving the clue, it is understood that the 5 is not actually related to the blind-play. This is why it is called a *Pull* instead of a *Finesse* or a *Bluff*.
 - *5 Pulls* are typically done to 5's that are in slot 1. But, for example, you can also clue a 5 in slot 2 in order to get a blind-play on slot 3.
 - Even though they involve playing a blind card, a *5 Pull* should be treated as a *Delayed Play Clue* (or a potential *Prompt*). This means that the blind card could play through any existing touched cards.
 - *5 Pulls* also take precedence over *Finesses* and *Bluffs*. For example:
@@ -3079,6 +3082,32 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
+## Level 17 - Rarely Used Strategies - Charm
+
+- *Charm* is similar to *Ejection* and *Discharge*, except the player plays their *Fourth Finesse Position* card.
+- Just like a *Bluff*, a *Charm* can only be performed on the very next player.
+
+### The Safety Charm (Declined 5 Pull)
+
+- This convention only applies while players can initiate *5 Pulls*
+- If a card could be freely gotten by initiating a *5 Pull*, it would be very strange if the *5 Pull* was declined and the card was directly touched as a 1-for-1.
+- When this occurs, this clue must have some other purpose - it should signal a *Charm* on the very next player.
+- Since a *Fourth Finesse Position* card was played instead of the *First*, *Second*, or *Third*, the player who received the clue will know that their card is indeed playable, but that the unclued card directly to its left must be a 5, and that this was a *Declined 5 Pull*.
+- This untouched 5 is now globally known; everyone on the team should treat it as a 'touched' card moving forward.
+- For example, in a 4-player game:
+  - It is the first turn and nothing is played on the stacks.
+  - Alice clues blue to Cathy, touching a blue 1.
+  - Cathy hand is, from newest to oldest: red 5, blue 1, yellow 3, yellow 2.
+  - Bob sees that Alice could have cleanly *5 Pulled* Cathy's blue 1 (e.g. Donald has a closer-to-chop 5, and/or an available play clue).
+  - Therefore, Bob knows that he's being called to blind-play a card... but from which slot?
+    - A *First Finesse* play would look like a *Bluff* on blue 2 or 3
+    - A *Second Finesse* play would look like a *5 Color Ejection*
+    - A *Third Finesse* play would look like a nonsensical *Unknown Trash Discharge*
+   - Bob blind-plays his *Fourth Finesse Position* as a *Safety Charm*
+   - From Cathy's perspective, she now knows this must still be the blue 1, but that her slot 1 is a 5 that could have been used for a *5 Pull*.
+- More examples of Safety Charms can be found [here](https://github.com/Zamiell/hanabi-conventions/blob/master/examples/Safety_Charm.md)
+<br />
+
 ## Level 17 - Rarely Used Strategies - Ejection & Discharge Extensions
 
 ### The Out-of-Position Ejection
@@ -3944,6 +3973,7 @@ Conventions for specific variants are listed on a separate page.
 | Selfish Focus Inversion | Romain
 | Double Ignition | Libster
 | The Shadow Finesse | Pianoblook
+| The Safety Charm | Pianoblook
 
 <br />
 
@@ -3985,3 +4015,4 @@ Conventions for specific variants are listed on a separate page.
 | The Empty Finesse | Instantiation
 | The Empty Double-Play | Zamiel & Jeep
 | The Empty Bluff | Cory
+| The Turnabout Ejection | Pianoblook
