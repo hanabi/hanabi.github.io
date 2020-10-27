@@ -1759,13 +1759,6 @@ Note that in this user interface, players are **not** holding their hands like t
 - Thus, if someone clues a 5 and there **is** something else to do, they are performing a special move.
 - If the 5 is one-away from chop, then they are performing an *Early 5's Chop Move*. This functions in the exact same way a normal *5's Chop Move* does (except it was done in the *Early Game*, which is not normally possible).
 
-### Number 5 Play Clue Point Threshold
-
-- First, see [No Play Clue with a Number 5](https://github.com/Zamiell/hanabi-conventions/blob/master/Reference.md#no-play-clues-with-a-number-5-clue) introduced in level 6.
-- In addition to the *Early Game*, we agree that *Rank Play Clues* to 5s remain **off** until the team has scored at least an average of 2 points per stack.
-- This means that in a normal 5 Suit game, Number 5 cannot be used to signal a direct *Play Clue* until 10 points have been scored, even after the *Early Game* has ended.
-- Note that *Early Game* supercedes this point threshold: therefore, Number 5 *Play Clues* can still never be given as long as it's still *Early Game*.
-
 ### The 5 Pull
 
 - This convention only applies until the team has scored an average of 2 points per stack **and** the *Early Game* has ended.
