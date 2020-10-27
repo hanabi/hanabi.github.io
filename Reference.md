@@ -3806,7 +3806,7 @@ Conventions for specific variants are listed on a separate page.
 - [Pink-Ones](/variant-specific/Pink-Ones.md)
 - [Special-Fives](/variant-specific/Special-Fives.md) (e.g. "Pink-Fives")
 - [Extremely Ambiguous](/variant-specific/Extremely_Ambiguous.md)
-- [Dual-Color (any)](/variant-specific/Dual-Color.md)
+- [Dual-Color (any amount of suits)](/variant-specific/Dual-Color.md)
 - [Dual-Color (6 Suits)](/variant-specific/Dual-Color_(6_Suits).md)
 - [Dual-Color (3 Suits)](/variant-specific/Dual-Color_(3_Suits).md)
 - [Color Blind](/variant-specific/Color_Blind.md)
