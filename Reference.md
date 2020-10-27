@@ -394,7 +394,7 @@ Note that in this user interface, players are **not** holding their hands like t
 ## Level 3 - Initiate
 
 - Level 3 strategies should only be learned if you have played with the group for a few days (20+ games of experience).
-- This level introduces a few different kinds of Chop Moves. While Chop Moves may not be used in every single game, level 3 players should be comfortable with all of the basic forms.
+- This level introduces a few different kinds of *Chop Moves*. While *Chop Moves* may not be used in every single game, level 3 players should be comfortable with all of the basic forms.
 - See the [learning path document](Learning_Path.md) for general descriptions of each level.
 - Level 3 subsections:
   - [Conventions & Special Moves](#level-3---initiate---conventions--special-moves)
@@ -996,12 +996,6 @@ Note that in this user interface, players are **not** holding their hands like t
 - Extinguishing every clue **does not** include giving *Tempo Clues* (e.g. clues that do not meet *Minimum Clue Value Principle*).
 - Extinguishing every clue **does not** include cluing something in the hand of the player who came directly before. This is because the player who came before did not see anything for the next player to do, and is therefore giving them "permission" to discard. In this situation, cluing is optional; players can choose to either clue the previous hand or discard at their discretion.
 - Extinguishing every clue **does not** include cluing cards that will be almost certainly be *Order Chop Moved* by an upcoming player who already has two or more 1's clued in their hand.
-
-#### No Play Clues with a Number 5 Clue
-
-- All number 5 clues in the *Early Game* are **never** to be interpreted as a *Play Clue*.
-- Thus, if a number 5 clue is given to an off-chop 5 in the *Early Game*, then it will be interpreted as either a *5 Stall* or a *5's Chop Move*.
-- If you want to give a *Play Clue* to a 5, then you can still do so, you just have to give a color clue instead of a number clue.
 
 ### 5 Stalls (Intermediate Section)
 
@@ -1747,7 +1741,7 @@ Note that in this user interface, players are **not** holding their hands like t
 ## Level 11 - Advanced
 
 - Level 11 strategies should only be learned if you have 180+ games of experience with the group.
-- This level introduces the "early" 5 moves.
+- This level introduces the "early" 5 moves (which is also referred to as "5 Tech").
 - See the [learning path document](Learning_Path.md) for general descriptions of each level.
 - Head back to the [table of contents](#table-of-contents).
 
@@ -1759,28 +1753,44 @@ Note that in this user interface, players are **not** holding their hands like t
 - Thus, if someone clues a 5 and there **is** something else to do, they are performing a special move.
 - If the 5 is one-away from chop, then they are performing an *Early 5's Chop Move*. This functions in the exact same way a normal *5's Chop Move* does (except it was done in the *Early Game*, which is not normally possible).
 
+### The Low Score Phase and the Normal Score Phase
+
+- At this point, you should already know that we split up the game of Hanabi into the *Early Game* and the *Mid-Game* (based on when someone discards).
+- In a similar way, we also split up the game of Hanabi into the *Low Score Phase* and the *Normal Score Phase*:
+  - The *Low Score Phase* is defined as when the score is below `2 x number of suits`. (e.g. 10 points in a no variant game, 6 points in a 3-suit game, etc.)
+  - The *Normal Score Phase* is defined as when the score is equal to or past this threshold.
+- Some special moves using a number 5 clue can only be performed in the *Low Score Phase* of the game.
+
+### No Play Clues with a Number 5 Clue in the Low Score Phase
+
+- Normally, if a player uses a number 5 clue to clue a 5 that is two-or-more-away-from-chop, and that player is not a stalling situation, then it would be a *Play Clue* on the 5.
+- However, all number 5 clues in the *Low Score Phase* are **never** to be interpreted as a direct *Play Clue*.
+- They are instead interpreted as a more advanced move. (See the [5 Pull](#the-5-pull) section below.)
+- This means that if players need to give a *Play Clue* to a playable 5, and the score is less than 2 points per stack, then they **must** use a color clue, or wait until later.
+
 ### The 5 Pull
 
-- This convention only applies until the team has scored an average of 2 points per stack **and** the *Early Game* has ended.
-- Players are only allowed to clue an off-chop 5 in stalling situations or in the *Early Game* when there is nothing left to do (with the special exception of when there is only one *Play Clue* to give to a card that happens to be on *Finesse Position*.)
-- Thus, if someone clues an off-chop 5 while there **is** something else to do and it's not a stalling situation, this cannot simply be a *5 Stall*.
-- If the 5 is two or more away from chop, the *Early Game* has ended, **and** the team has scored an average of 2 points per stack (i.e. 10 or more points in a normal 5 suit game), this would be treated as a normal *Play Clue* on the 5 (which may initiate an appropriate number of blind-plays in response).
-- If instead it **is** still *Early Game*, **or** the team has yet to score an average of 2 points per stack, then this is not a Play Clue on the 5: they are performing a *5 Pull*.
-- A *5 Pull* causes the player to blind-play the card to the right of the 5. For the player receiving the clue, it is understood that the 5 is not actually related to the blind-play. This is why it is called a *Pull* instead of a *Finesse* or a *Bluff*.
-- *5 Pulls* are typically done to 5's that are in slot 1. But, for example, you can also clue a 5 in slot 2 in order to get a blind-play on slot 3.
-- Even though they involve playing a blind card, a *5 Pull* should be treated as a *Delayed Play Clue* (or a potential *Prompt*). This means that the blind card could play through any existing touched cards.
-- *5 Pulls* also take precedence over *Finesses* and *Bluffs*. For example:
-  - It is the *Early Game*.
+- This convention only applies in the *Low Score Phase*.
+- Players are only allowed to perform a *5 Stall* in certain situations. If a player performs a *5 Stall* when it would otherwise be illegal, then it is not a *5 Stall* at all, and would instead be:
+  - a *5's Chop Move* if the 5 is one-away-from-chop
+  - a *Play Clue* if the 5 is two-or-more-away-from-chop
+- However, since *Play Clues* with number 5 clues are "turned off" in the *Low Score Phase*, then the cluing player must be intending something else: a *5 Pull*.
+- A *5 Pull* causes the player to blind-play the card to the right of the 5. The clued 5 is not actually related to the blind-play. This is why it is called a *Pull* instead of a *Finesse* or a *Bluff*.
+- *5 Pulls* are typically done to 5's that are on slot 1. But, for example, you can also clue a 5 in slot 2 in order to get a blind-play on slot 3.
+- *5 Pulls* take precedence over *Finesses* and *Bluffs*, because a number 5 clue is never considered to be *Play Clue*. For example:
+  - It is the *Early Game* and the *Low Score Phase*.
   - Red 3 is played on the stacks.
-  - Alice clues Cathy number 5, touching a red 5 on slot 1. (There are other *Play Clues* for Alice to give, so this is **not** a *5 Stall*.)
+  - Alice clues Cathy number 5, touching a red 5 on slot 1. (There are other *Play Clues* for Alice to give, so this cannot be a *5 Stall*.)
   - Normally, Bob would think that this is a *Finesse* and that he should blind-play his *Finesse Position* card as the red 4.
-  - However, *5 Pulls* take precedence over *Finesses*. Bob can see that there is a playable blue 1 to the right of the 5, so no-one is promised the red 4.
-- Since *5 Pulls* take precedence over *Finesses*, it is even possible to *5 Pull* a 4 without promising that the 5 is the matching suit.
+  - However, Bob knows that *Play Clues* with a number 5 clue are "turned off" in the *Low Score Phase*, which means that Alice is **not** indicating that the red 5 is playable.
+  - Bob can see that there is a playable blue 1 to the right of the 5, so Alice must be intending a *5 Pull*. When it gets to Cathy's turn, Cathy will blind-play that card.
+- Since *5 Pulls* are never *Play Clues* on the 5, it is possible to *5 Pull* a 4 without promising that the 5 matches the suit.
+- Confusingly, *5 Pulls* work differently from *Finesses*. Even though they involve playing a blind card, a *5 Pull* should be treated as a *Delayed Play Clue* (or a potential *Prompt*). This means that the blind card could play through any existing touched cards.
 - When a player is *Finessed* or *Bluffed*, they are allowed to defer playing the blind card in order to do a *Finesse* or *Bluff* of their own. However, if they could be *Bluffed*, they are **not** allowed to initiate a *5 Pull*. (Players are still allowed to defer playing into a *Finesse* in order to initiate a *5 Pull*.)
 - In the rare case where a *5 Pull* is performed in a 3-player game by touching two 5's in slot 1 and slot 3, then the *5 Pulled* card is slot 2.
 - For expert players, we define a specific [interaction between *5's Chop Moves* / *5 Pulls* and *2 Saves*](#2-saves-advanced-section-interaction-with-5s-chop-moves--5-pulls).
 
-### A Flowchart for Cluing 5's in the Early Game
+### A Flowchart for Cluing 5's in the Low  Game
 
 - Differentiating between a *5 Stall* and a *5 Pull* can sometimes be confusing. [Here is a handy flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/flowcharts/early_game_5_flowchart.png) that steps you through how you can tell the difference.
 
@@ -3089,23 +3099,25 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### The Safety Charm (Declined 5 Pull)
 
-- This convention only applies while players can initiate *5 Pulls*
+- This convention only applies in the *Low Score Phase*.
 - If a card could be freely gotten by initiating a *5 Pull*, it would be very strange if the *5 Pull* was declined and the card was directly touched as a 1-for-1.
-- When this occurs, this clue must have some other purpose - it should signal a *Charm* on the very next player.
-- Since a *Fourth Finesse Position* card was played instead of the *First*, *Second*, or *Third*, the player who received the clue will know that their card is indeed playable, but that the unclued card directly to its left must be a 5, and that this was a *Declined 5 Pull*.
-- This untouched 5 is now globally known; everyone on the team should treat it as a 'touched' card moving forward.
+- When this occurs, this player is trying to communicate something deeper - a *Charm* on the very next player.
+- Normally, when an card is blind-played after an innocent-looking *Play Clue*, the clue receiver knows to not play that card anymore. In this situation, since the *Fourth Finesse Position* card was played instead of the *First*, *Second*, or *Third*, the clue receiver will know that their card is still playable **and** that the unclued card directly to its left must be a 5.
+- This untouched 5 is now globally known; everyone on the team should treat it as a *Chop Moved* card.
 - For example, in a 4-player game:
-  - It is the first turn and nothing is played on the stacks.
-  - Alice clues blue to Cathy, touching a blue 1.
-  - Cathy hand is, from newest to oldest: red 5, blue 1, yellow 3, yellow 2.
-  - Bob sees that Alice could have cleanly *5 Pulled* Cathy's blue 1 (e.g. Donald has a closer-to-chop 5, and/or an available play clue).
-  - Therefore, Bob knows that he's being called to blind-play a card... but from which slot?
-    - A *First Finesse* play would look like a *Bluff* on blue 2 or 3
-    - A *Second Finesse* play would look like a *5 Color Ejection*
-    - A *Third Finesse* play would look like a nonsensical *Unknown Trash Discharge*
-   - Bob blind-plays his *Fourth Finesse Position* as a *Safety Charm*
-   - From Cathy's perspective, she now knows this must still be the blue 1, but that her slot 1 is a 5 that could have been used for a *5 Pull*.
-- More examples of Safety Charms can be found [here](https://github.com/Zamiell/hanabi-conventions/blob/master/examples/Safety_Charm.md)
+  - Red 1 is played on the stacks.
+  - It is the *Early Game* and the *Low Score Phase*.
+  - Alice clues red to Cathy, touching a new red 2 on slot 2.
+  - Cathy hand is, from newest to oldest: `blue 5, red 2, blue 3, blue 2`
+  - Bob sees that Alice could have cleanly *5 Pulled* Cathy's red 2. (It is globally known that Alice had another *Play Clue* to give, so a number 5 clue would not have been interpreted as a *5 Stall*.)
+  - Bob knows that this signals a blind-play:
+    - A *First Finesse Position* blind-play would look like a *Bluff* on a red 2 or a red 3, which would be a lie.
+    - A *Second Finesse Position* blind-play would look like a *5 Color Ejection* on a red 5, which would be a lie.
+    - A *Third Finesse Position* blind-play would look like an *Unknown Trash Discharge* on a red 1, which would be a lie.
+  - Thus, Bob knows that this must be a *Safety Charm*. He blind-plays his *Fourth Finesse Position*. It is a blue 1 and it successfully plays.
+  - Cathy knows that she must have the red 2. She also knows that her slot 1 card is a 5 that could have been used for a *5 Pull*. Cathy marks the 5 as being *Chop Moved* for later.
+- More examples of a *Safety Charm* can be found [here](https://github.com/Zamiell/hanabi-conventions/blob/master/examples/Safety_Charm.md).
+
 <br />
 
 ## Level 17 - Rarely Used Strategies - Ejection & Discharge Extensions

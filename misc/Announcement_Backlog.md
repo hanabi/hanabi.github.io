@@ -12,6 +12,26 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 - The *5 Color Ejection* has been moved to level 10.
 - The *5 Pull* has been moved to level 11.
 - The rest of the conventions past that have been shifted up a level.
+- The "No Play Clues with a Number 5 Clue" has been changed and moved to level 11.
+```
+
+@everyone New conventions:
+
+**The Low Score Phase and the Normal Score Phase**
+
+```
+- At this point, you should already know that we split up the game of Hanabi into the *Early Game* and the *Mid-Game* (based on when someone discards).
+- In a similar way, we also split up the game of Hanabi into the *Low Score Phase* and the *Normal Score Phase*:
+  - The *Low Score Phase* is defined as when the score is below `2 x number of suits`. (e.g. 10 points in a no variant game, 6 points in a 3-suit game, etc.)
+  - The *Normal Score Phase* is defined as when the score is equal to or past this threshold.
+- Some special moves using a number 5 clue can only be performed in the *Low Score Phase* of the game.
+```
+
+**5 Pulls** (change) (by pianoblook)
+
+```
+- *5 Pulls* are no longer "turned on" in the *Early Game*. They are instead "turned on" in the *Low Score Phase*.
+- Essentially, this means that you can use *5 Pulls* in more situations than you previously could.
 ```
 
 @everyone New conventions:
@@ -75,6 +95,29 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
   - Cathy blind-plays her *Finesse Position* card as a *Known Bluff*. It is a blue 2 and it successfully plays on the stacks.
   - Bob is surprised by Cathy's blind-play and realizes that it must be related to the clue that Alice gave. If Bob had a red 4 in his hand, then Cathy would not have gone on to blind-play anything. So, Bob erases his note of "red 4" and instead writes "red 5", because that is the only red card that is *two-away-from-playable*, and is the only card that would make Cathy blind-play.
 - More examples of a *Self Color Double Bluff* can be found [here](examples/Self_Color_Double_Bluff.md).
+```
+
+**The Safety Charm (Declined 5 Pull)** (by pianoblook)
+
+```
+- This convention only applies in the *Low Score Phase*.
+- If a card could be freely gotten by initiating a *5 Pull*, it would be very strange if the *5 Pull* was declined and the card was directly touched as a 1-for-1.
+- When this occurs, this player is trying to communicate something deeper - a *Charm* on the very next player.
+- Normally, when an card is blind-played after an innocent-looking *Play Clue*, the clue receiver knows to not play that card anymore. In this situation, since the *Fourth Finesse Position* card was played instead of the *First*, *Second*, or *Third*, the clue receiver will know that their card is still playable **and** that the unclued card directly to its left must be a 5.
+- This untouched 5 is now globally known; everyone on the team should treat it as a *Chop Moved* card.
+- For example, in a 4-player game:
+  - Red 1 is played on the stacks.
+  - It is the *Early Game* and the *Low Score Phase*.
+  - Alice clues red to Cathy, touching a new red 2 on slot 2.
+  - Cathy hand is, from newest to oldest: `blue 5, red 2, blue 3, blue 2`
+  - Bob sees that Alice could have cleanly *5 Pulled* Cathy's red 2. (It is globally known that Alice had another *Play Clue* to give, so a number 5 clue would not have been interpreted as a *5 Stall*.)
+  - Bob knows that this signals a blind-play:
+    - A *First Finesse Position* blind-play would look like a *Bluff* on a red 2 or a red 3, which would be a lie.
+    - A *Second Finesse Position* blind-play would look like a *5 Color Ejection* on a red 5, which would be a lie.
+    - A *Third Finesse Position* blind-play would look like an *Unknown Trash Discharge* on a red 1, which would be a lie.
+  - Thus, Bob knows that this must be a *Safety Charm*. He blind-plays his *Fourth Finesse Position*. It is a blue 1 and it successfully plays.
+  - Cathy knows that she must have the red 2. She also knows that her slot 1 card is a 5 that could have been used for a *5 Pull*. Cathy marks the 5 as being *Chop Moved* for later.
+- More examples of a *Safety Charm* can be found [here](https://github.com/Zamiell/hanabi-conventions/blob/master/examples/Safety_Charm.md).
 ```
 
 <br />
