@@ -236,7 +236,7 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 
 ### The Turnabout Ejection (For 1's and 5's)
 
-* If a player falsely *Pink Promises* either (a) a playable 1 as a 5 **or** (b) a 5 as a playable 1, this is a dangerous lie that must be immediately resolved.
+* If a player falsely *Pink Promises* either a playable 1 as a 5 **or** a 5 as a playable 1, this is a dangerous lie that must be immediately resolved.
 * In this situation, the next player must immediately play their *Second Finesse Position*, as a *Turnabout Ejection*. 
 * The clued player will now know that the card's identity has been "reversed". In other words, if the clue *Promised* it as the playable 1, it is now known as Pink 5, and vice-versa.
 * For example, in a 3-player game:
