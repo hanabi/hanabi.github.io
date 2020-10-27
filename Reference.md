@@ -3532,7 +3532,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * However, these *Elimination Notes* are asynchronous - Alice and Bob write the *Elimination Notes*, but Cathy does not. (Cathy has no idea that this is happening because Cathy cannot see her own red 2 on chop.)
   * Alice and Bob will have to keep this information desync in mind going forward.
 * By default, players should never assume that other players have asynchronous information. This is because having asynchronous information is the **exception**, rather than the norm.
-* In the previous example, Bob might perform an action later on in the game that seems to demonstrate that he knows he has the red 2. But Cathy should not assume that he does.
+* In the previous example, Bob might perform an action later on in the game that seems to demonstrate that he knows he has the red 2. But Cathy should not assume that he does, unless there is no other explanation for the clue.
 
 ### Deferring a Bluff
 
