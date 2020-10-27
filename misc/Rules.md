@@ -6,16 +6,16 @@
 
 ## Deluxe Hanabi
 
-* Antoine Bauza
-* 2 to 5 players, ages 8+
+- Antoine Bauza
+- 2 to 5 players, ages 8+
 
 ### Contents
 
-* 60 Hanabi tiles
-  * 6 suits: blue, white, yellow, green, red, multicolor
-  * each with three 1's, two 2's, two 3's, two 4's, one 5
-* 8 Clock tiles
-* 4 Fuse tiles
+- 60 Hanabi tiles
+  - 6 suits: blue, white, yellow, green, red, multicolor
+  - each with three 1's, two 2's, two 3's, two 4's, one 5
+- 8 Clock tiles
+- 4 Fuse tiles
 
 ### Summary
 
@@ -25,8 +25,8 @@ Hanabi is a cooperative game, i.e. a game where the players do not play against 
 
 Place the 8 Clock tiles face up on the table. Stack the 4 Fuse tiles nearby with the longest fuse on top and the explosion on the bottom. Place the 50 single color tiles face down and mix them up to make a draw pile. Note, a 6th multicolor suit is included in the game, but it is for advanced play only, please see Variants section.
 
-* With 2 or 3 players, each player selects 5 tiles.
-* With 4 or 5 players, each player selects 4 tiles.
+- With 2 or 3 players, each player selects 5 tiles.
+- With 4 or 5 players, each player selects 4 tiles.
 
 We will refer to these tiles in front of each players as their 'hand'.
 
@@ -74,8 +74,8 @@ After playing their tile, they then take a new tile from the draw pile and adds 
 
 #### How the fireworks are built:
 
-* There can only be one firework of each color. The tiles for a firework have to be placed in rising order (1, 2, 3, 4 and finally 5).
-* There can only be one tile of each value in each firework (so 5 tiles in total).
+- There can only be one firework of each color. The tiles for a firework have to be placed in rising order (1, 2, 3, 4 and finally 5).
+- There can only be one tile of each value in each firework (so 5 tiles in total).
 
 #### BONUS for completing a firework
 
@@ -127,8 +127,8 @@ Communication (and non communication) between the players is essential to Hanabi
 
 #### Credits
 
-* A game by ANTOINE BAUZA
-* Illustrations: ALBERTINE RALENTI, Graphic Designer: JENN VARGAS
-* English rules editors: FRANK DILORENZO, ANTHONY RUBBO
-* ©2014 R&R Games Inc., all rights reserved, www.rnrgames.com
-* Licensed with permission from Cocktail Games (www.cocktailgames.com) and Les XII singes (www.les12singes.com).
+- A game by ANTOINE BAUZA
+- Illustrations: ALBERTINE RALENTI, Graphic Designer: JENN VARGAS
+- English rules editors: FRANK DILORENZO, ANTHONY RUBBO
+- ©2014 R&R Games Inc., all rights reserved, www.rnrgames.com
+- Licensed with permission from Cocktail Games (www.cocktailgames.com) and Les XII singes (www.les12singes.com).

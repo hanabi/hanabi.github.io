@@ -28,22 +28,22 @@ Different things will happen if different kinds of *Bluffs* are deferred.
 
 ### True Bluffs
 
-* A True Bluff is always an instruction to blind-play, regardless of whether the blind-play is supposed to come from *Bluff Seat* or not. This means that multiple players may think that they supposed to play from a *True Bluff* clue.
-* If a player misses a *True Bluff* and does something else, then unless they did something that was more urgent than playing into the *Bluff* (such as saving a critical card), the next player will likely assume that they are the ones supposed to blind-play and will do so.
-* For example, in a 4-player game:
-  * Alice initiates a *Bluff* by giving a clue to Donald.
-  * Bob discards.
-  * Cathy will assume that it was a *Finesse* on her. She misplays her *Finesse Position* card.
+- A True Bluff is always an instruction to blind-play, regardless of whether the blind-play is supposed to come from *Bluff Seat* or not. This means that multiple players may think that they supposed to play from a *True Bluff* clue.
+- If a player misses a *True Bluff* and does something else, then unless they did something that was more urgent than playing into the *Bluff* (such as saving a critical card), the next player will likely assume that they are the ones supposed to blind-play and will do so.
+- For example, in a 4-player game:
+  - Alice initiates a *Bluff* by giving a clue to Donald.
+  - Bob discards.
+  - Cathy will assume that it was a *Finesse* on her. She misplays her *Finesse Position* card.
 
 ### Call-Out Bluffs
 
-* A *Call-Out Bluff* specifically requires the player in *Bluff Seat* to call attention to the *Bluff*. Unlike a *True Bluff*, it does **not** instruct any other player to play.
-* If a player misses a *Call-Out Bluff*, nobody else will blind-play. The lie will also likely lead to a misplay (unless it is fixed). It cannot be fixed by a blind-play, even from the same player on a later turn.
+- A *Call-Out Bluff* specifically requires the player in *Bluff Seat* to call attention to the *Bluff*. Unlike a *True Bluff*, it does **not** instruct any other player to play.
+- If a player misses a *Call-Out Bluff*, nobody else will blind-play. The lie will also likely lead to a misplay (unless it is fixed). It cannot be fixed by a blind-play, even from the same player on a later turn.
 
 ### Pseudo-Bluffs
 
-* Similar to a *Call-Out Bluff*, a *Pseudo-Bluff* specifically requires the player in *Bluff Seat* to call attention to the *Bluff*. It does **not** instruct any other player to play.
-* For example, in a 4-player game:
-  * Alice initiates a *Rank Choice Bluff* by giving a clue to Cathy.
-  * Bob discards, interpreting the move as a *Reverse Finesse* on Donald.
-  * Cathy will not misplay anything and wait for Donald to blind-play his *Finesse Position*.
+- Similar to a *Call-Out Bluff*, a *Pseudo-Bluff* specifically requires the player in *Bluff Seat* to call attention to the *Bluff*. It does **not** instruct any other player to play.
+- For example, in a 4-player game:
+  - Alice initiates a *Rank Choice Bluff* by giving a clue to Cathy.
+  - Bob discards, interpreting the move as a *Reverse Finesse* on Donald.
+  - Cathy will not misplay anything and wait for Donald to blind-play his *Finesse Position*.

@@ -6,7 +6,7 @@ These conventions apply to the "Totally Blind" variants.
 
 ### Clue Interpretation Tables
 
-* Similar to the conventions for *Color Blind* variants, we define arbitrary interpretations for what each clue means.
+- Similar to the conventions for *Color Blind* variants, we define arbitrary interpretations for what each clue means.
 
 <br />
 
@@ -66,4 +66,4 @@ These conventions apply to the "Totally Blind" variants.
 
 ### Advanced Conventions
 
-* In Totally Blind variants, *Ejections* and *Discharges* work quite differently. See the [Specific Conventions for Variants with No Positive Clues](No_Positive_Clues.md).
+- In Totally Blind variants, *Ejections* and *Discharges* work quite differently. See the [Specific Conventions for Variants with No Positive Clues](No_Positive_Clues.md).

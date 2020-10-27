@@ -1,8 +1,8 @@
 # Hanabi Group Meta-Progression
 
 Observing the evolution of Hanabi groups is an interesting case-study because:
-* it is drastically different from strategy evolution in typical online computer games
-* it allows some rough comparison between disparate, independent Hanabi groups
+- it is drastically different from strategy evolution in typical online computer games
+- it allows some rough comparison between disparate, independent Hanabi groups
 
 <br />
 
