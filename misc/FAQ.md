@@ -18,15 +18,23 @@ https://github.com/Zamiell/hanabi-conventions/blob/master/misc/Convention_Reason
 
 ### I found a bug on the website. What should I do?
 
-* First, look to see if someone has already posted an issue about the bug: https://github.com/Zamiell/hanabi-live/issues
-* If there is not an existing issue, then make one: https://github.com/Zamiell/hanabi-live/issues/new
-  * (You will need to create a free GitHub account.)
+- First, look to see if someone has already posted an issue about the bug: https://github.com/Zamiell/hanabi-live/issues
+- If there is not an existing issue, then make one: https://github.com/Zamiell/hanabi-live/issues/new
+  - (You will need to create a free GitHub account.)
 
 <br />
 
-### A certain type of clue or a certain situation is "undefined". I want to propose a new convention where it will instead have a meaning.
+### Why isn't [situation X] defined in the conventions document?
 
-Not everything has to have a meaning. We intentionally want to have clues be undefined so that we have some wiggle room: https://github.com/Zamiell/hanabi-conventions/blob/master/misc/Convention_Goals.md
+Not everything has to have a meaning. We intentionally want to have situations be undefined so that we have some wiggle room to handle a wide variety of game states: https://github.com/Zamiell/hanabi-conventions/blob/master/misc/Convention_Goals.md
+
+<br />
+
+### [Situation X] is undefined in the conventions document. I want to propose a new convention to define what it will mean.
+
+Sorry, but probably not.
+
+Not everything has to have a meaning. We intentionally want to have situations be undefined so that we have some wiggle room to handle a wide variety of game states: https://github.com/Zamiell/hanabi-conventions/blob/master/misc/Convention_Goals.md
 
 <br />
 
@@ -122,8 +130,8 @@ Anytime. Doesn't necessarily have to be early, doesn't necessarily have to be do
 
 ### Who should give a *Fix Clue* when a player performs a *Finesse with a Lie Component*?
 
-* Almost always, the player who initiated the move.
-* Alternatively, someone else on the time can also give a *Fix Clue* if they are "in" on the lie, meaning that they see both copies of the card, etc.
+- Almost always, the player who initiated the move.
+- Alternatively, someone else on the time can also give a *Fix Clue* if they are "in" on the lie, meaning that they see both copies of the card, etc.
 
 <br />
 
@@ -151,24 +159,24 @@ Yes.
 
 ### What does "one-away-from-playable" mean?
 
-* For example, a red 4 is one-away-from-playable if the red 2 is played.
-* For example, a red 4 is one-away-from-playable if the red 1 is played and the red 3 is already clued in someone's hand.
+- For example, a red 4 is one-away-from-playable if the red 2 is played.
+- For example, a red 4 is one-away-from-playable if the red 1 is played and the red 3 is already clued in someone's hand.
 
 <br />
 
 ### A card has a positive number 3 clue on it. It is clued again with red, which fills in the card. A red 1 blind-plays. Is it a *Finesse* or a *Bluff*?
 
-* It does not matter if the card is "brand new" or if it has a clue on it already.
-* All that matters is if the clue matches the blind-play.
-* Here, a red 1 matches a red color clue, so it is a *Finesse*.
+- It does not matter if the card is "brand new" or if it has a clue on it already.
+- All that matters is if the clue matches the blind-play.
+- Here, a red 1 matches a red color clue, so it is a *Finesse*.
 
 <br />
 
 ### A card has a positive red clue on it. It is clued again with number 3, which fills in the card. A red 1 blind-plays. Is it a *Finesse* or a *Bluff*?
 
-* It does not matter if the card is "brand new" or if it has a clue on it already.
-* All that matters is if the clue matches the blind-play.
-* Here, a red 1 does not match a number 3 clue, so it is a *3 Bluff*.
+- It does not matter if the card is "brand new" or if it has a clue on it already.
+- All that matters is if the clue matches the blind-play.
+- Here, a red 1 does not match a number 3 clue, so it is a *3 Bluff*.
 
 <br />
 
@@ -258,8 +266,8 @@ Green 4. The red 3 does not count as being a "lower rank" card in this case. It 
 
 ### Should I play my *Finesse Position* into a *Priority Finesse* if I see the matching card in someone else's hand?
 
-* No. A *Load Clue* takes precedence over a *Priority Finesse* or a *Priority Bluff*.
-* The only exception is if the card is uncluable (e.g. blocked on both sides).
+- No. A *Load Clue* takes precedence over a *Priority Finesse* or a *Priority Bluff*.
+- The only exception is if the card is uncluable (e.g. blocked on both sides).
 
 <br />
 
@@ -301,11 +309,11 @@ No. It only promises that the matching cards are in your hand. Write *Trash Touc
 
 ### What is the reason behind discarding trash from left to right?
 
-* Examine the following replay: https://hanabi.live/replay/16627/32
-* From xdragun's perspective, Zamiel's clue can be either a *Trash Finesse* or a *Play Clue* on the purple 1.
-* If it is a *Trash Finesse*, xdragun can discard slot 1, proving this to everyone.
-* If it is a *Play Clue* on the purple 1, xdragun can perform a *Gentleman's Discard* without communicating a *Trash Order Chop Move* on Zamiel.
-* If the conventions were in the opposite order, then xdragun would be in a very shitty situation.
+- Examine the following replay: https://hanabi.live/replay/16627/32
+- From xdragun's perspective, Zamiel's clue can be either a *Trash Finesse* or a *Play Clue* on the purple 1.
+- If it is a *Trash Finesse*, xdragun can discard slot 1, proving this to everyone.
+- If it is a *Play Clue* on the purple 1, xdragun can perform a *Gentleman's Discard* without communicating a *Trash Order Chop Move* on Zamiel.
+- If the conventions were in the opposite order, then xdragun would be in a very shitty situation.
 
 <br />
 
@@ -323,23 +331,23 @@ Yes.
 
 ### If I am *Prompted* for a card, but I got a *Save Clue* earlier for that color/rank, what do I do?
 
-* If you get a *Save Clue* on a chop card and you can narrow down the possibilities to one exact card, then:
-  * You should write a note on the card for that exact possibility.
-  * If the card is *Prompted* later, then you can skip over other cards in your hand and play that exact card.
-* If you get a *Save Clue* on a chop card and there are two or more possibilities, then:
-  * You should write a note on the card for all of the possibilities. The card is now in a *superposition*.
-  * If you are *Prompted* later on for a card that matches one of the possibilities, then:
-    * If all of the possibilities in the *superposition* are now playable, then you should play the card from the original *Save Clue* first. If that was not the card, then you can continue playing cards left-to-right.
-    * If not all of the possibilities in the *superposition* are playable, then you should simply play cards from left-to-right. (The *Prompt* does not collapse the *superposition* if it could apply to other cards.)
+- If you get a *Save Clue* on a chop card and you can narrow down the possibilities to one exact card, then:
+  - You should write a note on the card for that exact possibility.
+  - If the card is *Prompted* later, then you can skip over other cards in your hand and play that exact card.
+- If you get a *Save Clue* on a chop card and there are two or more possibilities, then:
+  - You should write a note on the card for all of the possibilities. The card is now in a *superposition*.
+  - If you are *Prompted* later on for a card that matches one of the possibilities, then:
+    - If all of the possibilities in the *superposition* are now playable, then you should play the card from the original *Save Clue* first. If that was not the card, then you can continue playing cards left-to-right.
+    - If not all of the possibilities in the *superposition* are playable, then you should simply play cards from left-to-right. (The *Prompt* does not collapse the *superposition* if it could apply to other cards.)
 
 <br />
 
 ### In variants with a pink suit, if I have cards in my hand that only have a rank clue on them, which ones am I allowed to play?
 
-* You can only play cards with a number 1 clue on them.
-  * If a card with a number 1 clue on it happens to be some other unplayable pink card, then someone else on the team is required to give a *Pink Fix Clue*.
-* You are not allowed to play cards with a number 2 clue on them, a number 3 clue on them, etc. (Because they could be a pink 5.)
-  * No-one else on the team is expected to give a *Pink Fix Clue* in this case.)
+- You can only play cards with a number 1 clue on them.
+  - If a card with a number 1 clue on it happens to be some other unplayable pink card, then someone else on the team is required to give a *Pink Fix Clue*.
+- You are not allowed to play cards with a number 2 clue on them, a number 3 clue on them, etc. (Because they could be a pink 5.)
+  - No-one else on the team is expected to give a *Pink Fix Clue* in this case.)
 
 <br />
 

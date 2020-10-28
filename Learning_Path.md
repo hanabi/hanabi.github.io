@@ -10,7 +10,7 @@ When playing with brand-new players, everyone in the group knows to **keep it si
 
 Handily, the main [reference document](Reference.md) is sorted into different "levels" that group conventions based on skill-level. Before a game starts, newer players **should make it clear to the group what level they are**. And then everyone in the group **should stick to using only conventions in that level**. For advanced players, it may be tempting to show a newer-players an advanced kind of *Finesse* or *Ejection*. But don't do it! Keep it simple! Let them learn the fundamentals before introducing more complicated things.
 
-Why is this kind of thing important? A common mistake we see from intermediate players is that once they learn about an advanced move, they think that they understand how it works, and then they whip it out in a situation that is completely out of place. As the expression goes, "you have to learn to walk before you learn to run". Intermediate players who know advanced moves but have poor planning and a poor understanding of the game **are much harder to play with** than intermediate players who stick to the basics, make predictable moves, and incorporate things slowly.
+Why is this kind of thing important? A common mistake we see from intermediate players is that once they learn about an advanced move, they think that they understand how it works, and then they whip it out in a completely inappropriate situation. As the expression goes, "you have to learn to walk before you learn to run". Intermediate players who know advanced moves but have poor planning and a poor understanding of the game **are much harder to play with** than intermediate players who stick to the basics, make predictable moves, and incorporate things slowly.
 
 For information on how variants tie in to the levels, see the [variant summary](#variant-summary).
 
@@ -20,18 +20,18 @@ For information on how variants tie in to the levels, see the [variant summary](
 
 The following is a quick summary of the levels.
 
-* Basic *[Chop Moves](Reference.md#the-chop-move)* should not be used until level 3.
-* *[Layered Finesses](Reference.md#the-layered-finesse)* should not be used until level 4.
-* *[Order Chop Moves](Reference.md#the-order-chop-move-ocm)* should not be used until level 5.
-* *[Bluffs](Reference.md#the-bluff)* should not be used until level 8.
-* *[3 Bluffs](Reference.md#the-3-bluff)* should not be used until level 9.
-* *[Priority](Reference.md#the-priority-prompt--the-priority-finesse)* should not be used until level 10.
-* *[Elimination](Reference.md#elimination)* should not be used until level 11.
-* *[The 5 Color Ejection](Reference.md#the-5-color-ejection-5ce)* should not be used until level 12.
-* *[The 5 Pull](Reference.md#the-5-pull)* should not be used until level 13.
-* [*Finesses* with a *Lie Component*](Reference.md#finesses-with-a-lie-component) should not be used until level 14.
-* *[The Unknown Trash Discharge](Reference.md#the-unknown-trash-discharge-utd)* should not be used until level 15.
-* *[Double Bluffs](Reference.md#the-double-bluff)* should not be used until level 16.
+- Basic *[Chop Moves](Reference.md#the-chop-move)* should not be used until level 3.
+- *[Layered Finesses](Reference.md#the-layered-finesse)* should not be used until level 4.
+- *[Order Chop Moves](Reference.md#the-order-chop-move-ocm)* should not be used until level 5.
+- *[Bluffs](Reference.md#the-bluff)* should not be used until level 8.
+- *[3 Bluffs](Reference.md#the-3-bluff)* should not be used until level 9.
+- *[The 5 Color Ejection](Reference.md#the-5-color-ejection-5ce)* should not be used until level 10.
+- *[The 5 Pull](Reference.md#the-5-pull)* should not be used until level 11.
+- *[Priority](Reference.md#the-priority-prompt--the-priority-finesse)* should not be used until level 12.
+- *[Elimination](Reference.md#discard-elimination--elimination-notes)* should not be used until level 13.
+- [*Finesses* with a *Lie Component*](Reference.md#finesses-with-a-lie-component) should not be used until level 14.
+- *[The Unknown Trash Discharge](Reference.md#the-unknown-trash-discharge-utd)* should not be used until level 15.
+- *[Double Bluffs](Reference.md#the-double-bluff)* should not be used until level 16.
 
 <br />
 
@@ -43,155 +43,155 @@ The following is a brief description of each level.
 
 #### Level 1 - Newbie
 
-* Level 1 strategies can be learned with no games of Hanabi played. You can either learn them before you play your first game or after you play a few games to learn the basic mechanics.
-* Level 1 strategies are as follows:
-  * *[Play Clues](Beginner.md#play-clues)*
-  * *[Save Clues](Beginner.md#save-clues)*
-  * [Principle 1 - *Good Touch Principle*](Beginner.md#1---good-touch-principle)
-  * [Principle 2 - *Save Principle*](Beginner.md#2---save-principle)
-  * [Principle 3 - *Minimum Clue Value Principle*](Beginner.md#3---minimum-clue-value-principle-and-tempo-clues)
-  * *[The 5 Stall](Beginner.md#the-5-stall-cluing-off-chop-5s)*
-  * *[The Prompt](Beginner.md#the-prompt)*
-  * *[The Finesse](Beginner.md#the-finesse)*
+- Level 1 strategies can be learned with no games of Hanabi played. You can either learn them before you play your first game or after you play a few games to learn the basic mechanics.
+- Level 1 strategies are as follows:
+  - *[Play Clues](Beginner.md#play-clues)*
+  - *[Save Clues](Beginner.md#save-clues)*
+  - [Principle 1 - *Good Touch Principle*](Beginner.md#1---good-touch-principle)
+  - [Principle 2 - *Save Principle*](Beginner.md#2---save-principle)
+  - [Principle 3 - *Minimum Clue Value Principle*](Beginner.md#3---minimum-clue-value-principle-and-tempo-clues)
+  - *[The 5 Stall](Beginner.md#the-5-stall-cluing-off-chop-5s)*
+  - *[The Prompt](Beginner.md#the-prompt)*
+  - *[The Finesse](Beginner.md#the-finesse)*
 
 #### Level 2 - Novice
 
-* Level 2 strategies should only be learned if you have played with the group a few times and have got the basics down (5-10 games of experience).
-* This level builds the strategies in level 1, outlining what to do in more specific situations.
-* Level 2 strategies are as follows:
-  * [Playing starting 1's from oldest to newest](Reference.md#playing-multiple-1s---play-order-inversion-in-the-starting-hand-part-1)
-  * *[Fix Clues](Reference.md#fix-clues)*
-  * All types of "normal" *Finesses*
+- Level 2 strategies should only be learned if you have played with the group a few times and have got the basics down (5-10 games of experience).
+- This level builds the strategies in level 1, outlining what to do in more specific situations.
+- Level 2 strategies are as follows:
+  - [Playing starting 1's from oldest to newest](Reference.md#playing-multiple-1s---play-order-inversion-in-the-starting-hand-part-1)
+  - *[Fix Clues](Reference.md#fix-clues)*
+  - All types of "normal" *Finesses*
 
 #### Level 3 - Initiate
 
-* Level 3 strategies should only be learned if you have played with the group for a few days (20+ games of experience).
-* This level introduces a few different kinds of *Chop Moves*. While *Chop Moves* may not be used in every single game, level 3 players should be comfortable with all of the basic forms.
-* Level 3 strategies are as follows:
-  * *[The Sarcastic Discard](Reference.md#the-sarcastic-discard)*
-  * *[The Trash Chop Move](Reference.md#the-trash-chop-move)*
-  * *[The 5's Chop Move](Reference.md#the-5s-chop-move)*
+- Level 3 strategies should only be learned if you have played with the group for a few days (20+ games of experience).
+- This level introduces a few different kinds of *Chop Moves*. While *Chop Moves* may not be used in every single game, level 3 players should be comfortable with all of the basic forms.
+- Level 3 strategies are as follows:
+  - *[The Sarcastic Discard](Reference.md#the-sarcastic-discard)*
+  - *[The Trash Chop Move](Reference.md#the-trash-chop-move)*
+  - *[The 5's Chop Move](Reference.md#the-5s-chop-move)*
 
 #### Level 4 - Neophyte
 
-* Level 4 strategies should only be learned if you have played with the group for a week or so (40+ games of experience).
-* This level covers *Double Discard* situations and introduces *Layered Finesses*. Players at this level **only** tell the truth to each other.
-* Level 4 strategies are as follows:
-  * *[The Stacked Finesse](Reference.md#the-stacked-finesse)*
-  * *[The Hidden Finesse](Reference.md#the-hidden-finesse)*
-  * *[The Layered Finesse](Reference.md#the-layered-finesse)*
-  * *[The Clandestine Finesse](Reference.md#the-clandestine-finesse)*
+- Level 4 strategies should only be learned if you have played with the group for a week or so (40+ games of experience).
+- This level covers *Double Discard* situations and introduces *Layered Finesses*. Players at this level **only** tell the truth to each other.
+- Level 4 strategies are as follows:
+  - *[The Stacked Finesse](Reference.md#the-stacked-finesse)*
+  - *[The Hidden Finesse](Reference.md#the-hidden-finesse)*
+  - *[The Layered Finesse](Reference.md#the-layered-finesse)*
+  - *[The Clandestine Finesse](Reference.md#the-clandestine-finesse)*
 
 #### Level 5 - Proselyte
 
-* Level 5 strategies should only be learned if you have 60+ games of experience with the group.
-* This level covers some more special kinds of *Chop Moves* and introduces the various "emergency" discards.
-* Level 5 strategies are as follows:
-  * *[The Order Chop Move](Reference.md#the-order-chop-move--the-skipped-order-chop-move)*
-  * *[The Scream Discard Chop Move](Reference.md#the-scream-discard-chop-move-deliberately-discarding-instead-of-playing)*
-  * *[The Generation Discard](Reference.md#the-generation-discard)*
-  * *[The Tempo Clue Chop Move](Reference.md#the-tempo-clue-chop-move)*
-  * *[The Misplay Chop Move](Reference.md#the-misplay-chop-move)*
+- Level 5 strategies should only be learned if you have 60+ games of experience with the group.
+- This level covers some more special kinds of *Chop Moves* and introduces the various "emergency" discards.
+- Level 5 strategies are as follows:
+  - *[The Order Chop Move](Reference.md#the-order-chop-move--the-skipped-order-chop-move)*
+  - *[The Scream Discard Chop Move](Reference.md#the-scream-discard-chop-move-deliberately-discarding-instead-of-playing)*
+  - *[The Generation Discard](Reference.md#the-generation-discard)*
+  - *[The Tempo Clue Chop Move](Reference.md#the-tempo-clue-chop-move)*
+  - *[The Misplay Chop Move](Reference.md#the-misplay-chop-move)*
 
 #### Level 6 - Rookie
 
-* Level 6 strategies should only be learned if you have 80+ games of experience with the group.
-* This level explains how to handle stalling situations.
-* Level 6 strategies are as follows:
-  * *[The Locked Hand Save](Reference.md#the-locked-hand-save)*
-  * *[The Anxiety Play](Reference.md#the-anxiety-play)*
-  * *[The 8 Clue Save](Reference.md#the-8-clue-save)*
+- Level 6 strategies should only be learned if you have 80+ games of experience with the group.
+- This level explains how to handle stalling situations.
+- Level 6 strategies are as follows:
+  - *[The Locked Hand Save](Reference.md#the-locked-hand-save)*
+  - *[The Anxiety Play](Reference.md#the-anxiety-play)*
+  - *[The 8 Clue Save](Reference.md#the-8-clue-save)*
 
 #### Level 7 - Apprentice
 
-* Level 7 strategies should only be learned if you have 100+ games of experience with the group.
-* This level explains how to do special discards that transfer cards to other players.
-* Level 7 strategies are as follows:
-  * *[The Sarcastic Finesse](Reference.md#the-sarcastic-finesse)*
-  * *[The Gentleman's Discard](Reference.md#the-gentlemans-discard)*
-  * *[The Baton Discard](Reference.md#the-baton-discard)*
-  * *[The Certain Finesse & The Certain Discard](Reference.md#the-certain-finesse--the-certain-discard)*
+- Level 7 strategies should only be learned if you have 100+ games of experience with the group.
+- This level explains how to do special discards that transfer cards to other players.
+- Level 7 strategies are as follows:
+  - *[The Sarcastic Finesse](Reference.md#the-sarcastic-finesse)*
+  - *[The Gentleman's Discard](Reference.md#the-gentlemans-discard)*
+  - *[The Baton Discard](Reference.md#the-baton-discard)*
+  - *[The Certain Finesse & The Certain Discard](Reference.md#the-certain-finesse--the-certain-discard)*
 
 #### Level 8 - Intermediate
 
-* Level 8 strategies should only be learned if you have 120+ games of experience with the group.
-* This level introduces *Bluffs* and all of the complicated stipulations that go along with them.
-* Level 8 strategies are as follows:
-  * *[The Bluff](Reference.md#the-bluff)*
+- Level 8 strategies should only be learned if you have 120+ games of experience with the group.
+- This level introduces *Bluffs* and all of the complicated stipulations that go along with them.
+- Level 8 strategies are as follows:
+  - *[The Bluff](Reference.md#the-bluff)*
 
 #### Level 9 - Fellow
 
-* Level 9 strategies should only be learned if you have 140+ games of experience with the group.
-* This level introduces *3 Bluffs* and some higher level concepts.
-* Level 9 strategies are as follows:
-  * *[The Ambiguous Finesse](Reference.md#the-ambiguous-finesse)*
-  * *[The Trash Order Chop Move](Reference.md#the-trash-order-chop-move)*
-  * *[3 Bluffs](Reference.md#the-3-bluff)*
-  * *[Context Clues](Reference.md#context-clues--the-stale-1s-clue)*
-  * *[The Positional Discard](Reference.md#the-positional-discard)*
-  * *[The Positional Misplay](Reference.md#the-positional-misplay)*
+- Level 9 strategies should only be learned if you have 140+ games of experience with the group.
+- This level introduces *3 Bluffs* and some higher level concepts.
+- Level 9 strategies are as follows:
+  - *[The Ambiguous Finesse](Reference.md#the-ambiguous-finesse)*
+  - *[The Trash Order Chop Move](Reference.md#the-trash-order-chop-move)*
+  - *[3 Bluffs](Reference.md#the-3-bluff)*
+  - *[Context Clues](Reference.md#context-clues--the-stale-1s-clue)*
+  - *[The Positional Discard](Reference.md#the-positional-discard)*
+  - *[The Positional Misplay](Reference.md#the-positional-misplay)*
 
 #### Level 10 - Journeyman
 
-* Level 10 strategies should only be learned if you have 160+ games of experience with the group.
-* This level introduces the concept of *Priority* and all of the complicated stipulations that go along with it.
-* Level 10 strategies are as follows:
-  * *[The Priority Prompt & The Priority Finesse](Reference.md#the-priority-prompt--the-priority-finesse)*
+- Level 10 strategies should only be learned if you have 160+ games of experience with the group.
+- This level introduces *Ejections*.
+- Level 10 strategies are as follows:
+  - *[The 5 Color Ejection](Reference.md#the-5-color-ejection-5ce)*
 
 #### Level 11 - Advanced
 
-* Level 11 strategies should only be learned if you have 180+ games of experience with the group.
-* This level introduces *Elimination* and all of the complicated situations that go along with it.
-* Level 11 strategies are as follows:
-  * *[Discard Elimination](Reference.md#discard-elimination--elimination-notes--the-elimination-blind-play)*
-  * *[The Elimination Finesse](Reference.md#the-elimination-finesse)*
+- Level 11 strategies should only be learned if you have 180+ games of experience with the group.
+- This level introduces the "early" 5 moves.
+- Level 11 strategies are as follows:
+  - *[The Early 5's Chop Move](Reference.md#the-early-5s-chop-move)*
+  - *[The 5 Pull](Reference.md#the-5-pull)*
 
 #### Level 12 - Adept
 
-* Level 12 strategies should only be learned if you have 200+ games of experience with the group.
-* This level introduces *Ejections*.
-* Level 12 strategies are as follows:
-  * *[The 5 Color Ejection](Reference.md#the-5-color-ejection-5ce)*
+- Level 12 strategies should only be learned if you have 200+ games of experience with the group.
+- This level introduces the concept of *Priority* and all of the complicated stipulations that go along with it.
+- Level 12 strategies are as follows:
+  - *[The Priority Prompt & The Priority Finesse](Reference.md#the-priority-prompt--the-priority-finesse)*
 
 #### Level 13 - Senior
 
-* Level 13 strategies should only be learned if you have 220+ games of experience with the group.
-* This level introduces the "early" 5 moves.
-* Level 13 strategies are as follows:
-  * *[The Early 5's Chop Move](Reference.md#the-early-5s-chop-move)*
-  * *[The 5 Pull](Reference.md#the-5-pull)*
+- Level 13 strategies should only be learned if you have 220+ games of experience with the group.
+- This level introduces *Elimination* and all of the complicated situations that go along with it.
+- Level 13 strategies are as follows:
+  - *[Discard Elimination](Reference.md#discard-elimination--elimination-notes--the-elimination-blind-play)*
+  - *[The Elimination Finesse](Reference.md#the-elimination-finesse)*
 
 #### Level 14 - Scholar
 
-* Level 14 strategies should only be learned if you have 240+ games of experience with the group.
-* This level covers moves that are complicated, difficult to see, or require a deeper understanding of how Hanabi works in order to work properly.
-* Level 14 strategies are as follows:
-  * *[The Occupied Finesse](Reference.md#the-occupied-play-clue--the-occupied-finesse-opc)*
-  * *[The Trash Push](Reference.md#the-trash-push)*
-  * *[The Trash Finesse](Reference.md#the-trash-finesse-strong-form)*
-  * *[The Trash Bluff](Reference.md#the-trash-bluff)*
-  * [*Finesses* with a *Lie Component*](Reference.md#finesses-with-a-lie-component)
+- Level 14 strategies should only be learned if you have 240+ games of experience with the group.
+- This level covers moves that are complicated, difficult to see, or require a deeper understanding of how Hanabi works in order to work properly.
+- Level 14 strategies are as follows:
+  - *[The Occupied Finesse](Reference.md#the-occupied-play-clue--the-occupied-finesse-opc)*
+  - *[The Trash Push](Reference.md#the-trash-push)*
+  - *[The Trash Finesse](Reference.md#the-trash-finesse-strong-form)*
+  - *[The Trash Bluff](Reference.md#the-trash-bluff)*
+  - [*Finesses* with a *Lie Component*](Reference.md#finesses-with-a-lie-component)
 
 #### Level 15 - Erudite
 
-* Level 15 strategies should only be learned if you have 260+ games of experience with the group.
-* This level introduces *Discharges*.
-* Level 15 strategies are as follows:
-  * *[The Unknown Trash Discharge](Reference.md#the-unknown-trash-discharge-utd)*
+- Level 15 strategies should only be learned if you have 260+ games of experience with the group.
+- This level introduces *Discharges*.
+- Level 15 strategies are as follows:
+  - *[The Unknown Trash Discharge](Reference.md#the-unknown-trash-discharge-utd)*
 
 #### Level 16 - Expert
 
-* Level 16 strategies should only be learned if you have 280+ games of experience with the group.
-* This level covers *Double Bluffs* and all of the complicated stipulations that go along with them.
-* Level 16 strategies are as follows:
-  * *[The Double Half Bluff](Reference.md#the-double-half-bluff)*
-  * *[The Double Bluff](Reference.md#the-double-bluff)*
-  * *[The 4 Double Bluff & The 5 Double Bluff](Reference.md#the-4-double-bluff--the-5-double-bluff)*
+- Level 16 strategies should only be learned if you have 280+ games of experience with the group.
+- This level covers *Double Bluffs* and all of the complicated stipulations that go along with them.
+- Level 16 strategies are as follows:
+  - *[The Double Half Bluff](Reference.md#the-double-half-bluff)*
+  - *[The Double Bluff](Reference.md#the-double-bluff)*
+  - *[The 4 Double Bluff & The 5 Double Bluff](Reference.md#the-4-double-bluff--the-5-double-bluff)*
 
 #### Level 17 - Rarely Used
 
-* Level 17 strategies are separated from the rest because they do not come up that often. Thus, non-expert players do not have to worry about learning them. If they do come up in a game, players with experience can often figure out what to do on-the-fly. Even if they don't, they can quickly learn about them in the post-game review, and then use the document as a reference later on in case they need to refresh their memory.
-  * [Level 17 Section](Reference.md#level-17---rarely-used-strategies)
+- Level 17 strategies are separated from the rest because they do not come up that often. Thus, non-expert players do not have to worry about learning them. If they do come up in a game, players with experience can often figure out what to do on-the-fly. Even if they don't, they can quickly learn about them in the post-game review, and then use the document as a reference later on in case they need to refresh their memory.
+  - [Level 17 Section](Reference.md#level-17---rarely-used-strategies)
 
 <br />
 

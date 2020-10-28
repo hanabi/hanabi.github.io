@@ -1,5 +1,13 @@
 # Efficiency Tables
 
+### Pace
+
+- Pace is a measure of how many discards the team can do before a perfect score becomes impossible.
+- The formula for pace is: `total cards in the deck - ((number of cards in a player's hand - 1) * number of players) - (5 * number of suits)`
+  - If a game contains the Contrarian detrimental character, `(number of players - 2)` is subtracted from the pace.
+
+<br />
+
 ### Starting Pace
 
 | Variant Type           | 2-player | 3/4-player | 5-player | 6-player |
@@ -20,8 +28,12 @@
 | 3 Suits                | 7        | 3          | 0        | 3        |
 | 3 Suits (Clue Starved) | 7        | 3          | 0        | 3        |
 
-* Pace is a measure of how many discards the team can do before a perfect score becomes impossible.
-* The formula for this is: `total cards in the deck - ((number of cards in a player's hand - 1) * number of players) - (5 * number of suits)`
+<br />
+
+### Efficiency
+
+- Efficiency is a measure of how much value the team is getting with the amount of clues that they have spent thus far.
+- The formula for efficiency is: `(number of cards played + number of cards with 1+ clues "on" them) / number of clues given or lost`
 
 <br />
 
@@ -51,15 +63,16 @@
 | 3 Suits (Clue Starved)                 | 1.25     | 1.50       | 1.88     | 1.50     |
 | 3 Suits (Throw It in a Hole)           | 1.00     | 1.36       | 1.88     | 1.36     |
 
-* Minimum efficiency is defined as:  `total cards that need to be played / total number of clues given or lost`
-* The formula for this is:
-  * `(5 * number of suits) / (8 + floor((starting pace + number of suits - unusable clues) / discards per clue))`
-  * "unusable clues" is 1 by default, but 2 in a 5/6-player game
-  * "unusable clues" is also increased by the number of suits in a *Throw It in a Hole* game
-  * "discards per clue" is 1 by default, but 2 in a *Clue Starved* game
-* To calculate the total number of clues given or lost, we use:
-  * +8 for the 8 starting clues
-  * starting pace because you get 1 clue per discard
-  * number of suits because you get a clue back for each 5 played of the suit
-  * unusable clues because you don't get to use the clue that you get for playing the final 5
-  * unusable clues is 2 in a 5/6-player game because you cannot play 6 or 7 cards of the same suit in the final round
+- Minimum efficiency is defined as:  `total cards that need to be played / total number of clues given or lost`
+- The formula for minimum efficiency is:
+  - `(5 * number of suits) / (8 + floor((starting pace + number of suits - unusable clues) / discards per clue))`
+  - "unusable clues" is 1 by default, but 2 in a 5/6-player game
+  - "unusable clues" is also increased by the number of suits in a *Throw It in a Hole* game
+  - "unusable clues" is always 1 if a game contains a Contrarian detrimental character
+  - "discards per clue" is 1 by default, but 2 in a *Clue Starved* game
+- To calculate the total number of clues given or lost, we use:
+  - +8 for the 8 starting clues
+  - starting pace because you get 1 clue per discard
+  - number of suits because you get a clue back for each 5 played of the suit
+  - unusable clues because you don't get to use the clue that you get for playing the final 5
+  - unusable clues is 2 in a 5/6-player game because you cannot play 6 or 7 cards of the same suit in the final round

@@ -6,7 +6,7 @@ These conventions apply to the "Totally Blind" variants.
 
 ### Clue Interpretation Tables
 
-* Similar to the conventions for *Color Blind* variants, we define arbitrary interpretations for what each clue means.
+- Similar to the conventions for *Color Blind* variants, we define arbitrary interpretations for what each clue means.
 
 <br />
 
@@ -19,10 +19,10 @@ These conventions apply to the "Totally Blind" variants.
 | Number 3 | Play slot 3
 | Number 4 | Play slot 4
 | Number 5 | Play slot 5
-| Blue     | Chop move
-| Green    | Play slot 1 + play slot 2
-| Yellow   | Play slot 1 + play slot 3
-| Red      | Play slot 1 + play slot 4
+| Red      | Chop move
+| Yellow   | Play slot 1 + play slot 2
+| Green    | Play slot 1 + play slot 3
+| Blue     | Play slot 1 + play slot 4
 | Purple   | Play slot 1 + play slot 5
 | Teal     | Double chop move (or a nothing clue if in a stalling situation)
 
@@ -55,10 +55,10 @@ These conventions apply to the "Totally Blind" variants.
 | Number 3 | Play slot 3
 | Number 4 | Chop move
 | Number 5 | Double chop move (or a nothing clue if in a stalling situation)
-| Blue     | Two players play their *Second Finesse Position* (must clue the person with the 2nd blind-play)
-| Green    | Play slot 1 + play slot 2
-| Yellow   | Play slot 1 + play slot 3
-| Red      | Play slot 1 + play slot 2 + play slot 3
+| Red      | Two players play their *Second Finesse Position* (must clue the person with the 2nd blind-play)
+| Yellow   | Play slot 1 + play slot 2
+| Green    | Play slot 1 + play slot 3
+| Blue     | Play slot 1 + play slot 2 + play slot 3
 | Purple   | Two players play *Finesse Position* (must clue the person with the 2nd blind-play)
 | Teal     | Three players play *Finesse Position* (must clue the person with the 3rd blind-play)
 
@@ -66,4 +66,4 @@ These conventions apply to the "Totally Blind" variants.
 
 ### Advanced Conventions
 
-* In Totally Blind variants, *Ejections* and *Discharges* work quite differently. See the [Specific Conventions for Variants with No Positive Clues](No_Positive_Clues.md).
+- In Totally Blind variants, *Ejections* and *Discharges* work quite differently. See the [Specific Conventions for Variants with No Positive Clues](No_Positive_Clues.md).

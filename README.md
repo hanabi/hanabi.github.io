@@ -20,15 +20,15 @@ Note that while Hanabi is a 2 to 5 player game, our group generally only plays g
 
 ## The List of Main Documents
 
-* [Level 1 - The Beginner's Guide](Beginner.md)
-* [Level 2 - The Learning Path](Learning_Path.md)
-* [Level ∞ - The Reference Document (All Conventions)](Reference.md)
+- [Level 1 - The Beginner's Guide](Beginner.md)
+- [Level 2 - The Learning Path](Learning_Path.md)
+- [Level ∞ - The Reference Document (All Conventions)](Reference.md)
 
 <br />
 
 ## Other Quick Links
 
-* The documents in this repository assume that you are already familiar with the basic rules of Hanabi. If you need to brush up on them, see [this Pastebin written by Tricky](http://pastebin.com/6brGz2J4) or [watch my video explanation](https://www.youtube.com/watch?v=jR9i1qCbHXQ).
-* The best place to play Hanabi online is at [Hanab Live](http://hanab.live/).
-* There are also lots of players who play Hanabi online at [Board Game Arena](http://boardgamearena.com), although the user interface is not very good.
-* Find other people to play with and discuss strategy with on the [Hanabi Discord server](https://discord.gg/FADvkJp). (Discord is a voice and text chat application that you can run in a browser.)
+- The documents in this repository assume that you are already familiar with the basic rules of Hanabi. If you need to brush up on them, see [this Pastebin written by Tricky](http://pastebin.com/6brGz2J4) or [watch my video explanation](https://www.youtube.com/watch?v=jR9i1qCbHXQ).
+- The best place to play Hanabi online is at [Hanab Live](http://hanab.live/).
+- There are also lots of players who play Hanabi online at [Board Game Arena](http://boardgamearena.com), although the user interface is not very good.
+- Find other people to play with and discuss strategy with on the [Hanabi Discord server](https://discord.gg/FADvkJp). (Discord is a voice and text chat application that you can run in a browser.)
