@@ -6,34 +6,6 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 
 ## The Backlog (General Conventions)
 
-@everyone Learning path changes:
-
-```
-- The *5 Color Ejection* has been moved to level 10.
-- The *5 Pull* has been moved to level 11.
-- The rest of the conventions past that have been shifted up a level.
-- The "No Play Clues with a Number 5 Clue" has been changed and moved to level 11.
-```
-
-@everyone New conventions:
-
-**The Low Score Phase and the Normal Score Phase**
-
-```
-- At this point, you should already know that we split up the game of Hanabi into the *Early Game* and the *Mid-Game* (based on when someone discards).
-- In a similar way, we also split up the game of Hanabi into the *Low Score Phase* and the *Normal Score Phase*:
-  - The *Low Score Phase* is defined as when the score is below `2 x number of suits`. (e.g. 10 points in a no variant game, 6 points in a 3-suit game, etc.)
-  - The *Normal Score Phase* is defined as when the score is equal to or past this threshold.
-- Some special moves using a number 5 clue can only be performed in the *Low Score Phase* of the game.
-```
-
-**5 Pulls** (change) (by pianoblook)
-
-```
-- *5 Pulls* are no longer "turned on" in the *Early Game*. They are instead "turned on" in the *Low Score Phase*.
-- Essentially, this means that you can use *5 Pulls* in more situations than you previously could.
-```
-
 @everyone New conventions:
 
 ### Self Color Bluffs (1-for-1 Form) (SCB)
