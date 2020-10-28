@@ -9,7 +9,7 @@
 - The next player is Bob. Bob can see that this is a clearly *Declined 5 Pull*, since Cathy would have been able to unambiguously decipher a 5 clue as a *Pull*, not a *Stall*.
 - Therefore, Bob knows this is calling on him to *Charm*.
 - Bob blind-plays his slot 4, yellow 1.
-- Cathy now understands that this was a *Safety Charm*. Floriman's blind-play promises wortel a 5 on slot 1 (the next unclued card directly to the left of the 1).
+- Cathy now understands that this was a *Safety Charm*. Floriman's blind-play promises Cathy a 5 on slot 1 (the next unclued card directly to the left of the 1).
 
 ### Example 2
 
