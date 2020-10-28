@@ -1447,11 +1447,14 @@ Note that in this user interface, players are **not** holding their hands like t
 - It is illegal to trick players into thinking that they are *Prompted*. *Prompts* **must** be the truth.
 - For example, in a 4-player game:
   - Red 1 and blue 1 are played on the stacks.
-  - Bob has a clued 2 in his hand and does not know its true identity.
+  - Bob has a card in his hand with a number 2 clue on it. He does not know its true identity.
   - Alice clues red to Donald, touching a red 3 as a *Play Clue*.
-  - Bob knows that this must be a *Prompt*, so his 2 must be red 2. He plays it, and it is instead the blue 2.
-  - Cathy is slightly surprised that Bob played the blue 2, but he must have been able to figure it out somehow.
-  - Furthermore, Cathy knows that Alice's clue to Donald must be a *Finesse*, so Cathy must have the red 2 on her *Finesse Position*. She plays it, and it is instead the blue 5 and misplays.
+  - Since red 1 is on the stacks, Bob knows that Alice is indicating to the team that someone has the red 2.
+  - Bob looks around and sees that no-one else has the red 2.
+  - Thus, Bob knows that this must be a *Prompt*, so his unknown 2 must be a red 2. Bob plays the unknown 2. It is instead a blue 2, and it successfully plays on the stacks.
+  - Cathy is slightly surprised that Bob played the blue 2. However, this is not completely out of the ordinary, as Bob might have been able to figure it out somehow.
+  - Cathy performs the same analysis that Bob does. Namely, Cathy knows that Alice is indicating that someone on the team has the red 2, and Cathy does not see the red 2 in anyone else's hand.
+  - Thus, Cathy knows that Alice's clue to Donald must be a *Finesse*, so Cathy must have the red 2 on her *Finesse Position*. Cathy plays her *Finesse Position* card. It is instead the blue 5 and misplays.
   - This was Alice's fault, because *Bluffs* are only allowed if they can be revealed immediately from a blind-play.
 
 ### Stacked Bluffs (Illegal)
