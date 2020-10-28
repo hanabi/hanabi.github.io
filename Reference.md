@@ -1633,7 +1633,7 @@ Note that in this user interface, players are **not** holding their hands like t
   - Normally, Bob would think that this is a *Chop-Focus* clue, and play the blue 1 from slot 5.
   - However, his slot 5 card has a negative 1 clue on it (from Alice's number 1 clue), so it explicitly cannot be the blue 1.
   - Thus, this must be *Focus Inversion* and blue 1 must be on slot 1. The blue card on slot 5 can be either blue 2, blue 3, blue 4, or blue 5.
-- Note that ***Self-Finesses* with rank always take precedence over *Focus Inversion***. (*Self-Finesses* with rank are quite common, but a *Self Finesses* with color are nonsensical.)
+- Note that ***Self-Finesses* with rank always take precedence over *Focus Inversion***. (*Self-Finesses* with rank are quite common, but *Self Finesses* with color are nonsensical.)
 
 ### The Positional Discard (Indicating a Play with a Discard)
 
@@ -3748,8 +3748,8 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   - Instead of playing her red 1, Cathy clues red to Donald, touching a red 3 on slot 1 and a red 2 on slot 2. This must be a *Play Clue*, since these cards are not on Donald's chop.
   - Donald knows that since Cathy is not playing her red 1 and giving a clue, she must have a good reason.
   - Donald looks around the table and does not see the red 2 in anybody else's *Finesse Position*. Thus, this cannot be a *Selfish Finesse*.
-  - Donald also knows that this cannot be a *Self Finesse* or *Self Bluff*. (*Self Bluffs* with color are explicitly illegal.)
-  - This must be an *Selfish Focus Inversion*, so Donald marks his right-most card as red 2 for later. The other red card in his hand can be red 3, red 4, or red 5. Donald discards.
+  - Donald also knows that this cannot be a *Self Finesse*. (Donald has a negative red clue on his *Finesse Position* card.)
+  - Thus, this must be a *Selfish Focus Inversion*, so Donald marks his right-most card as red 2 for later. The other red card in his hand can be red 3, red 4, or red 5. Donald discards.
 
 ### The Blaze Discard (A Gentleman's Discard or Baton Discard That Promises the Wrong Slot)
 
