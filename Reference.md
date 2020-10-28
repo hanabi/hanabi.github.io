@@ -1661,7 +1661,7 @@ Note that in this user interface, players are **not** holding their hands like t
 - So, players have to balance *Efficiency*, *Tempo*, and "locking in" a touch on *one-away-from-playable* cards.
 - In the *Early Game*, it is very common for players to give a number 1 clue when they see a hand that has two or more 1's in it. And this type of clue is normally pretty good. But because of the previous considerations, sometimes it would be better to get the 1's with several color clues instead.
 
-#### Example 1
+### Example 1
 
 - Players should not just consider how good their individual clue is - they should also consider how their teammates can **build** on top of their clue.
 - For example, in a 3-player game:
@@ -1681,7 +1681,7 @@ Note that in this user interface, players are **not** holding their hands like t
   - Donald is holding a cluable red 2.
   - Alice would like to get the red 1 and the blue 1 played. (No-one else has a red 1 or a blue 1.) Should she clue 1, red, or blue?
   - Just like in the previous example, cluing number 1 means that the red 2 will have to be clued as a 1-for-1, which results in an efficiency of 3-for-2.
-  - Instead, Alice clues yellow as a 2-for-1. Bob can then perform the 2-for-1 *Finesse*, resulting in a 4-for-2.
+  - Instead, Alice clues blue as a 2-for-1. Bob can then perform the 2-for-1 *Finesse*, resulting in a 4-for-2.
 
 ### Example 3
 
