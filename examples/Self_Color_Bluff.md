@@ -2,7 +2,7 @@
 
 #### Example 1
 
-![Example Screenshot](https://user-images.githubusercontent.com/48993588/92130545-b8992b80-edb9-11ea-8c66-0548a248cc0c.png)
+![Example Screenshot](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/examples/self_color_bluff.png)
 
 - It is joelwool's turn.
 - joelwool notices that the yellow 3 on Dr_Kakashi's *Finesse Position* is playable. He wants to "get" this card.

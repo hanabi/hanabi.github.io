@@ -2,7 +2,7 @@
 
 #### Example 1
 
-![Example Screenshot](https://user-images.githubusercontent.com/48993588/92130545-b8992b80-edb9-11ea-8c66-0548a248cc0c.png)
+![Example Screenshot](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/examples/self_color_double_bluff.png)
 
 - It is Dr_Kakashi's turn.
 - Dr_Kakashi clues black to Kyle, which "fill in" the black 5. (It was already touched by a number 5 clue early on in the game.)
