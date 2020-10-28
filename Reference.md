@@ -721,9 +721,10 @@ Note that in this user interface, players are **not** holding their hands like t
   - Alice clues number 3 to Cathy, which touches the purple 3 on slot 1 and the green 3 on slot 4. Thus, the purple 3 is the focus of the clue. This must be a *Play Clue* on the purple 3.
   - Bob knows that the purple 3 is currently unplayable, so it must be a *Finesse*. He blind-plays his *Finesse Position* as purple 2, but it is a red 2 instead and successfully plays.
   - Normally, Cathy would think that she has the red 3 on her slot 1, because the card that was blind-played matches the clue. (Number 2 matches number 3.)
-  - However, Cathy also sees that Bob had a purple 2 on his *Second Finesse Position* at the time of the clue. So there is a possibility that this was a *Clandestine Finesse* instead of a normal *Finesse*. Thus, Cathy has to give Bob a chance to blind-play the purple 2. If he does not, then Cathy does indeed have the red 3. Cathy clues number 2 to Alice which touches yellow 2 on slot 1 and green 2 on slot 4.
-  - Alice plays yellow 2.
-  - Bob was surprised that he played the red 2, but now knows that it was a *Clandestine Finesse* instead of a normal *Finesse*. He blind-plays his slot 2 and it is the purple 2 and successfully plays. (Bob knows that if he did not do this, then Cathy would go on to misplay purple 3 as red 3.)
+  - However, Cathy also sees that Bob had a purple 2 on his *Second Finesse Position* at the time of the clue. So there is a possibility that this was a *Clandestine Finesse* instead of a normal *Finesse*. Thus, Cathy has to give Bob a chance to blind-play the purple 2. If he does not, then Cathy does indeed have the red 3.
+  - For now, Cathy clues number 2 to Alice, which is a simple *Play Clue* on the yellow 2.
+  - Next, Alice plays the yellow 2.
+  - Bob was surprised that he blind-played the red 2, but now he knows that Alice performed a *Clandestine Finesse* instead of a normal *Finesse*. Bob must now continue to resolve the *Clandestine Finesse*, so he blind-plays his slot 2 card. It is the purple 2 and it successfully plays. (Bob knows that if he did not do this, then Cathy would go on to misplay purple 3 as red 3.)
   - Cathy plays purple 3.
 
 ### The Stacked Finesse
