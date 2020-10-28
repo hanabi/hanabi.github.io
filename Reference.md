@@ -1449,9 +1449,9 @@ Note that in this user interface, players are **not** holding their hands like t
   - Red 1 and blue 1 are played on the stacks.
   - Bob has a clued 2 in his hand and does not know its true identity.
   - Alice clues red to Donald, touching a red 3 as a *Play Clue*.
-  - Bob knows that this must be a *Prompt*, so his 2 must be red 2. He plays it, and it is instead the blue 2.
-  - Cathy is slightly surprised that Bob played the blue 2, but he must have been able to figure it out somehow.
-  - Furthermore, Cathy knows that Alice's clue to Donald must be a *Finesse*, so Cathy must have the red 2 on her *Finesse Position*. She plays it, and it is instead the blue 5 and misplays.
+  - Bob knows that this must be a *Prompt*. He doesn't see red 2 anywhere, so his 2 must be red 2. He plays it, and it is instead the blue 2.
+  - Bob is slightly surprised since he knows he has been promissed red 2. That card must have been on his finess position.
+  - On the next turn, Bob blind plays his *Second Finess Position* and it is instead the blue 5 and misplays.
   - This was Alice's fault, because *Bluffs* are only allowed if they can be revealed immediately from a blind-play.
 
 ### Stacked Bluffs (Illegal)
