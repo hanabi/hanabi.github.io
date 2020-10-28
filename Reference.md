@@ -3073,19 +3073,22 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### 5 Number Discharge (5ND)
 
-- This convention only applies in the *Early Game*.
-- In the *Early Game*, if a number 5 clue is performed on a 5 that is not already on chop, then the clue is a *5 Stall*.
-- If a *5 Stall* is not allowed, then it is a *5's Chop Move* (if the card is one-away-from-chop) or a *5 Pull* (if the card is two or more away from chop).
-- If a *5 Pull* is performed on a card that is *one-away-from-playable*, it typically communicates a *5 Pull Finesse*.
-- However, if the *5 Pulled* card is two or more away from playable **or** the *5 Pulled* card is trash, players agree that this signals a *Discharge* and that the next player should play their *Third Finesse Position*.
+- This convention only applies in the *Low Score Phase*.
+- Players are only allowed to perform a *5 Stall* in certain situations. If a player performs a *5 Stall* when it would otherwise be illegal, then it is not a *5 Stall* at all, and would instead be:
+  - a *5's Chop Move* if the 5 is one-away-from-chop
+  - a *5 Pull* if the 5 is two-or-more-away-from-chop and the card to the right of it is playable
+  - a *5 Pull Finesse* if the 5 is two-or-more-away-from-chop and the card to the right of it is *one-away-from-playable*
+- However, what if the 5 is two-or-more-away-from-chop and the card to the right of it is *two-or-more-away-from-playable* **or** trash? This would be quite strange.
+- We agree that this signals a *Discharge* and that the next player should play their *Third Finesse Position*.
 - For example, in a 3-player game:
   - It is the first turn and nothing is played on the stacks.
   - Alice clues number 5 to Cathy, touching a 5 on slot 1.
   - Cathy hand is, from newest to oldest: red 5, red 3, green 2, green 1, green 2
   - Bob thinks about what Alice's 5 clue could mean:
     - The clue cannot be a *5 Stall*, because there is a green 1 to *Play Clue*.
-    - The clue cannot be a *5 Pull*, because the red 3 is two away from playable.
-  - Since Bob would have to blind-play two cards into the *Finesse*, he knows that he should instead treat this as a *5 Number Discharge*. Bob blind-plays his slot 3 card and it successfully plays as the red 1.
+    - The clue cannot be a *5 Pull*, because the red 3 is not playable.
+    - The clue cannot be a *5 Pull Finesse*, because the red 3 is *two-away-from-playable*.
+  - Since Bob would have to blind-play two cards into the *Finesse* (the same rule as in *5 Color Ejections*), Bob knows that he should instead treat this as a *5 Number Discharge*. Bob blind-plays his slot 3 card and it successfully plays as the red 1.
 - More examples of a *5 Number Discharge* can be found [here](examples/5_Number_Discharge.md).
 
 ### Trash Push Discharge
