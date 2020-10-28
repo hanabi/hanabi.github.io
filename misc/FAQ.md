@@ -224,7 +224,7 @@ No. You are only allowed to delay playing into a *Finesse* if you are performing
 
 ### Why does *Gentleman’s Discard* only get the matching card instead of all of the various possibilities?
 
-Because there is a lot of asynchronous information.
+Because the discarding player might have asymmetric information about the identity of the card. In other words, they may have information that you do not know.
 
 <br />
 
