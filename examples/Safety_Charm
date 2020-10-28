@@ -1,6 +1,8 @@
-## Examples of the [Safety Charm](https://github.com/pianoblook/hanabi-conventions/blob/master/Reference.md#the-safety-charm-declined-5-pull)
+## Examples of the [Safety Charm](../Reference.md#the-safety-charm-declined-5-pull)
 
 ### Example 1
+
+![Example Screenshot](https://github.com/pianoblook/hanabi-conventions/blob/master/img/examples/Safety_Charm_Example_1.png)
 
 - It is the first turn of the game and ADrone starts.
 - ADrone clues number 1 to wortel, touching the single blue 1.
@@ -10,6 +12,8 @@
 - wortel now understands that this was a *Safety Charm*. Floriman's blind-play promises wortel a 5 on slot 1 (the next unclued card directly to the left of the 1)
 
 ### Example 2
+
+![Example Screenshot](https://github.com/pianoblook/hanabi-conventions/blob/master/img/examples/Safety_Charm_Example_2.png)
 
 - It is the first turn of the game and nydus starts.
 - Instead of cluing both 1's in RJW's hand, nydus opts to clue RJW's singular blue 1 instead.
