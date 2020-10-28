@@ -2,7 +2,7 @@
 
 ### Example 1
 
-![Example Screenshot](https://github.com/Zamiell/hanabi-conventions/blob/master/img/examples/Safety_Charm_Example_1.png)
+![Example Screenshot](https://github.com/Zamiell/hanabi-conventions/blob/master/img/examples/safety_charm1.png)
 
 - It is the first turn of the game and Alice starts.
 - ADrone clues number 1 to Cathy, touching the single blue 1.
@@ -13,7 +13,7 @@
 
 ### Example 2
 
-![Example Screenshot](https://github.com/Zamiell/hanabi-conventions/blob/master/img/examples/Safety_Charm_Example_2.png)
+![Example Screenshot](https://github.com/Zamiell/hanabi-conventions/blob/master/img/examples/safety_charm2.png)
 
 - It is the first turn of the game and Alice starts.
 - Instead of cluing both 1's in Donald's hand, Alice opts to clue his singular blue 1 instead.
