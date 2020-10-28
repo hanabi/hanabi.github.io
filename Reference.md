@@ -3523,9 +3523,9 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   - Alice sees that if she gives a red clue to Bob *right now* (e.g. before she plays the red 2), then she will be able to "lock-in" a nice 3-for-1 clue. Even though the team will lose *Tempo*, this will be inconsequential because Bob has a safe discard and Cathy has a safe discard.
   - Alice clues red to Bob as a *Selfish Play Clue*.
 
-### Assuming Asynchronous Information
+### Assuming Asymmetric Information
 
-* Sometimes, players will figure out asynchronous information about the identities of cards in their hand.
+* Sometimes, players will figure out asymmetric information about the identities of cards in their hand.
 * For example, in a 3-player game:
   * It is the *Early Game* and there are 3 clues available.
   * Alice discards, initiating the *Mid-Game*.
@@ -3533,10 +3533,10 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   * Bob has three 2's in his hand that were saved with a *2 Save* clue earlier on.
   * Bob sees that Cathy has a red 2 on chop. Since Alice did not clue it, Bob must have the other copy in his hand.
   * Bob has not discarded since the *2 Save* was given to him earlier on. Thus, he knows that one of his three clued 2's must be the other copy of the red 2, so he marks all three cards with *Elimination Notes*.
-  * However, these *Elimination Notes* are asynchronous - Alice and Bob write the *Elimination Notes*, but Cathy does not. (Cathy has no idea that this is happening because Cathy cannot see her own red 2 on chop.)
+  * However, these *Elimination Notes* are asymmetric - Alice and Bob write the *Elimination Notes*, but Cathy does not. (Cathy has no idea that this is happening because Cathy cannot see her own red 2 on chop.)
   * Alice and Bob will have to keep this information desync in mind going forward.
-* By default, players should never assume that other players have asynchronous information. This is because having asynchronous information is the **exception**, rather than the norm.
-* In the previous example, Bob might perform an action later on in the game that seems to demonstrate that he knows he has the red 2. But Cathy should not assume that he does, unless there is no other explanation for the clue.
+* By default, players should never assume that other players have asymmetric information. This is because having asymmetric information is the **exception**, rather than the norm.
+* In the previous example, Bob might perform an action later on in the game that seems to demonstrate that he knows he has the red 2. But Cathy should not assume that he does, unless there is **no other explanation** for the clue.
 
 ### Deferring a Bluff
 
