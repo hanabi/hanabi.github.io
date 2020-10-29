@@ -3016,7 +3016,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### The 5 Color Ejection
 
-- The *5 Color Ejection* is covered in [level 12](#the-5-color-ejection-5ce).
+- The *5 Color Ejection* is covered earlier on at [level 10](#the-5-color-ejection-5ce).
 
 ### Double Play Ejection
 
