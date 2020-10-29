@@ -8,7 +8,7 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 
 @everyone New conventions:
 
-### Self Color Bluffs (1-for-1 Form) (SCB)
+**Self Color Bluffs (1-for-1 Form) (SCB)**
 
 ```
 - It is possible (and fairly common) to perform a *Self-Bluff* on a player with a rank clue.
@@ -34,7 +34,7 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 - More examples of a *Self Color Bluff* can be found [here](examples/Self_Color_Bluff.md).
 ```
 
-### Self Color Bluff (2-for-1 Form) (SCB)
+**Self Color Bluff (2-for-1 Form) (SCB)**
 
 ```
 - Rarely, it is also possible to perform a *Self Color Bluff* as a 2-for-1.
@@ -49,7 +49,7 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
   - Bob marks his red card as a red 4 (since that is the red card that is *one-away-from-playable*).
 ```
 
-### Self Color Double Bluff (SCDB)
+**Self Color Double Bluff (SCDB)**
 
 ```
 - Just like normal bluffs, *Self Color Bluffs* are done by "filling in" a card that is *one-away-from-playable* (or a legal *Bluff* target).
