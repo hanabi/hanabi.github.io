@@ -1813,7 +1813,7 @@ Note that in this user interface, players are **not** holding their hands like t
 - Unlike other types of *Finesses*, *5 Pull Finesses* must be demonstrated with a blind-play between when the *5 Pull* is given and the *5 Pulled* player's next turn.
 - Subsequently, *5 Pulls* are **not** allowed to initiate a *Reverse Finesse*. (This is because we don't want the person with the pulled card to have to entertain too many possibilities.)
 - With that said, players **do** have to respect that forward *5 Pull Finesses* could be *Layered*, *Clandestine*, or have a "*Reverse Finesse*-component".
-- Remember that during a *5 Pull Finesse*, the pulled card **always** matches the blind-play. In other words, it generally impossible to ever perform a *5 Pull Bluff*, a *5 Pull Double Bluff*, a *5 Pull Pestilent Double Bluff*, and so on.
+- Remember that during a *5 Pull Finesse*, the pulled card **always** matches the blind-play. In other words, it generally impossible to ever perform a *5 Pull Bluff*, a *5 Pull Double Bluff*, and so on.
 
 ### The 5 Pull Promise (A Follow-up Play Clue After a 5 Pull)
 
@@ -2869,7 +2869,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   - Donald is surprised by Alice's clue. From Donald's perspective, Cathy should have misplayed the red 4 as the blue 4, since 3 matches 4.
   - Since Cathy did not misplay, Donald can reason that **he** must have the blue 4. Donald marks the previously unknown blue card in his hand as blue 4.
 
-### The Pestilent Double Bluff
+### The Pestilent Double Bluff (PDB)
 
 - In the *Good Touch Bluff*, a *Bluff* is given that looks like a *Finesse*. However, what if something that looks like a *Good Touch Bluff* is done, but the "matching" card is not yet clued?
 - For example, in a 4-player game:
