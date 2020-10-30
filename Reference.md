@@ -2263,7 +2263,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 - See the [learning path document](Learning_Path.md) for general descriptions of each level.
 - Head back to the [table of contents](#table-of-contents).
 
-### The Double Half Bluff
+### The Double Half Bluff (DHB)
 
 - Sometimes, you see that two players in a row have playable *Finesse Position* cards. However, they are unrelated, so you can't get them both played with a *Double Finesse*. In this situation, by performing a clue that looks like a *Double Finesse*, you can get the first card played like a normal *Finesse* and the second card like a *Bluff*.
 - For example, in a 4-player game:
