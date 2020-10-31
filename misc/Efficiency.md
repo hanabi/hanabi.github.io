@@ -63,7 +63,7 @@
 | 3 Suits (Clue Starved)                 | 1.25     | 1.50       | 1.88     | 1.50     |
 | 3 Suits (Throw It in a Hole)           | 1.00     | 1.36       | 1.88     | 1.36     |
 
-- Minimum efficiency is defined as:  `total cards that need to be played / total number of clues given or lost`
+- Minimum efficiency is defined as:  `total cards that need to be played / maximum number of clues that can be given before the game ends`
 - The formula for minimum efficiency is:
   - `(5 * number of suits) / (8 + floor((starting pace + number of suits - unusable clues) / discards per clue))`
   - "unusable clues" is 1 by default, but 2 in a 5/6-player game
