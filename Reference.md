@@ -1764,6 +1764,7 @@ Note that in this user interface, players are **not** holding their hands like t
   - The *Low Score Phase* is defined as when the score is below `2 x number of suits`. (e.g. 10 points in a no variant game, 6 points in a 3-suit game, etc.)
   - The *Normal Score Phase* is defined as when the score is equal to or past this threshold.
 - Some special moves using a number 5 clue can only be performed in the *Low Score Phase* of the game.
+- On Hanab Live, the score will be colored cyan when the *Low Score Phase* is active.
 
 ### No Play Clues with a Number 5 Clue in the Low Score Phase
 
