@@ -3811,8 +3811,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   - Any variant with a null suit
   - Color Mute
   - Number Mute
-  - Special Mix
-  - Dual-Color Mix
+  - Any "Mix" variant
   - Throw It in a Hole
   - Cow & Pig
   - Duck
