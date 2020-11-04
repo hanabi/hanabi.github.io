@@ -3809,9 +3809,9 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 - We define any variant that requires equal to or greater than 1.25 efficiency as a "hard" variant. (Required efficiency can be seen in-game using the Hanab Live interface. Note that a variant can be considered easy in 4-player, but hard in 5-player, for example.)
 - Additionally, the following variants are considered to be hard variants even though they may have less than 1.25 required efficiency:
   - Any variant with a null suit
+  - Any "Mix" variant
   - Color Mute
   - Number Mute
-  - Any "Mix" variant
   - Throw It in a Hole
   - Cow & Pig
   - Duck
