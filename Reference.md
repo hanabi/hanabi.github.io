@@ -121,7 +121,7 @@ In general, we want all of our strategies to flow from some basic principles. Th
 
 ### 8. Lie Principle
 
-- Normally, players try to make their clues as clear as possible and convey the exact identity of one or more cards.
+- Normally, players try to make their clues as clear as possible and convey the exact identity of a card.
 - Rarely, players can use clues to trick other players into thinking that they have cards that they really don't.
 - If this untruth **resolves immediately** (e.g. the very next turn), it is called a *Fib*. For intermediate and advanced players, *Fibs* are legal and expected.
 - If this untruth does **not resolve immediately**, it is called a *Lie*. *Lies* are illegal. Players should **never** assume that they are *Lied* to.
