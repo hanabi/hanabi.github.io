@@ -560,7 +560,7 @@ Note that in this user interface, players are **not** holding their hands like t
 #### Information Lock on In-Between Cards
 
 - As soon as a clue is given to a card that is not immediately playable, the assumed identity is locked in to the card **and** all of the in-between cards.
-- For example, in a 3-player no variant game:
+- For example, in a 4-player no variant game:
   - Red 1 is played on the stacks.
   - Bob has one card in his hand clued with number 2. (It is currently unknown.)
   - Cathy has one card in her hand clued with number 3. (It is currently unknown.)
