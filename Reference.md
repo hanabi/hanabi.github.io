@@ -2796,7 +2796,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 - For example, in a 3-player game:
   - Red 2 is played on the stacks.
   - Alice clues red to Bob, which touches a brand new red card on his slot 2.
-  - This must be a *Play Clue* on the red card, since Alice is not in a stalling situation. (If Alice was in a stalling situation, then she would be allowed to give a "fill-in" clue without anything special happening.)
+  - This must be a *Play Clue* on the red card.
   - Bob has a negative 3 clue on his red card, so he knows it cannot possibly be a red 3 (the next playable red card).
   - Bob does not see any red cards in other player's hands, so it cannot be a *Prompt* or a *Reverse Finesse*.
   - Bob cannot possibly have the red 3 in his *Finesse Position*, because that card now has negative red.
