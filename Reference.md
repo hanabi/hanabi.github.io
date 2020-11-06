@@ -121,9 +121,10 @@ In general, we want all of our strategies to flow from some basic principles. Th
 
 ### 8. Lie Principle
 
-- When a *Play Clue* is given, it's a message that says the focused card is playable. Sometimes this message can be a fib, in order to usefully manipulate other players.
-- A valid fib must not allow for the possibility of any misinformed player to give a conflicting clue or misplay. In simpler terms, this means that a fib almost always reveals itself on **the very next turn**.
-- When a player misrepresents the identity of a card, and the untruth does **not** resolve immediately, it is classified as a *Lie*. Players should **never** assume that they are *Lied* to.
+- Normally, players try to make their clues as clear as possible and convey the exact identity of the clued card.
+- Sometimes, players can misrepresent the identity of a card in order to usefully manipulate other players.
+- If this untruth **resolves immediately** (e.g. the very next turn), it is called a *Fib*. For intermediate and advanced players, *Fibs* are legal and expected.
+- If this untruth does **not resolve immediately**, it is called a *Lie*. *Lies* are illegal. Players should **never** assume that they are *Lied* to.
 
 ### 9. High Value Principle
 
