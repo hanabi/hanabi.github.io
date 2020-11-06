@@ -121,8 +121,8 @@ In general, we want all of our strategies to flow from some basic principles. Th
 
 ### 8. Lie Principle
 
-- Normally, players try to make their clues as clear as possible and convey the exact identity of the clued card.
-- Sometimes, players can misrepresent the identity of a card in order to usefully manipulate other players.
+- Normally, players try to make their clues as clear as possible and convey the exact identity of one or more cards.
+- Rarely, players can use clues to trick other players into thinking that they have cards that they really don't.
 - If this untruth **resolves immediately** (e.g. the very next turn), it is called a *Fib*. For intermediate and advanced players, *Fibs* are legal and expected.
 - If this untruth does **not resolve immediately**, it is called a *Lie*. *Lies* are illegal. Players should **never** assume that they are *Lied* to.
 
@@ -1409,7 +1409,7 @@ Note that in this user interface, players are **not** holding their hands like t
   - If this is a *Bluff*, then Bob will blind-play some other 1, and Cathy will have nothing to do. If this is the case, then Cathy could discard and the team could lose the game.
   - Should Bob risk blind-playing or should he save the 5?
 - In this example, it follows from *Save Principle* that Bob should "play it safe" and give a *5 Save* to the 5 and *then* try to blind-play the red 1 on the next turn.
-- However, Bob also knows from *Lie Principle*, fibs have to resolve immediately. If Bob saved the 5, and then blind-played on the next turn, and it turned out to be a *Bluff*, then the fib would not have resolved immediately. Thus, from *Lie Principle*, Bob can assume that this is a *Finesse*.
+- However, Bob also knows from *Lie Principle*, *Fibs* have to resolve immediately. If Bob saved the 5, and then blind-played on the next turn, and it turned out to be a *Bluff*, then the *Fib* would not have resolved immediately. Thus, from *Lie Principle*, Bob can assume that this is a *Finesse*.
 - Stated in a different way, Bob has to trust that Alice is successfully "guiding" the rest of the team with the line that she has chosen. This means that Bob is going to play exactly red 1 into the red 2. Alternatively, it could also be the case that it is a *Bluff*, but Cathy will not discard, and will clue some card in Bob's hand. Either way, the 5 will be safe. This is called *Guide Principle*.
 
 ### Clue Interpretation & Occam's Razor
@@ -1463,7 +1463,7 @@ Note that in this user interface, players are **not** holding their hands like t
 
 - It is possible to "stack" a second *Finesse* on top of a player who is already *Finessed*. This kind of thing is generally encouraged, since it has few downsides. (For more information, see the [Stacked Finesse](#the-stacked-finesse).)
 - However, players should **never** stack a *Bluff* on top of a player who is *Finessed*. This is because the blind-playing player will assume that a *Layered Finesse* is occurring and go on to play the card from the first *Finesse*. This means that the *Bluff* will not be resolved immediately, violating *Lie Principle*. (*Lie Principle* is one of the most important principles!) Typically, when this mistake happens, the team will go on to lose the game, because severe *Information Desynchronization* will occur.
-- Sometimes, in rare circumstances, expert players can perform *Out-of-Position Bluffs*. (This is normally illegal, so it to work, it has to be a very specific situation.) When this occurs, it is illegal to stack a second *Bluff* on top of them. You cannot stack a *Bluff* on a *Bluff* for the same reason that you cannot stack a *Bluff* on a *Finesse* - the fib will not be resolved immediately and will violate *Lie Principle*.
+- Sometimes, in rare circumstances, expert players can perform *Out-of-Position Bluffs*. (This is normally illegal, so it to work, it has to be a very specific situation.) When this occurs, it is illegal to stack a second *Bluff* on top of them. You cannot stack a *Bluff* on a *Bluff* for the same reason that you cannot stack a *Bluff* on a *Finesse* - the *Fib* will not resolve immediately and will violate *Lie Principle*.
   - Similarly, it is illegal to stack an *Ejection* or a *Discharge* on a *Bluff*. (*Ejections* and *Discharges* are advanced moves that are covered later.)
 
 <br />
@@ -2213,7 +2213,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### Finesses with a Lie Component
 
-- *Lie Principle* states all that fibs must resolve immediately. A fib that does not resolve immediately is a *Lie*.
+- *Lie Principle* states all that *Fibs* must resolve immediately. An untruth that does not resolve immediately is a *Lie*.
 - Normally, *Lies* are expressly illegal. However, some players will occasionally break the rules for the purposes of getting a *Finesse*. We call such moves *Finesses with a Lie Component*.
 - Typically, when players *Lie* out of *Bluff Seat*, the game quickly falls apart; subsequent clues will have different meanings to different players and everyone will become "desynchronized". This typically leads to a loss.
 - With that said, it is sometimes possible to construct **safe** lines that contain a *Lie Component*. There is usually deep levels of nuance involved in these lines, so this kind of thing is only recommended for advanced and expert players.
@@ -2280,7 +2280,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   - At first, Donald thought that the red card in his hand was red 2 (as a *Play Clue*).
   - After Bob blind-played, Donald thought that the red card in his hand was red 3 (as a *Finesse*).
   - After Cathy blind-played, Donald knows that he must have the red 4 (as a *Double Half Bluff*).
-- Normally, players are only allowed to perform *Bluffs* while sitting in *Bluff Seat*. The *Double Half Bluff* is one of the few exceptions to the rule. (It is allowed because the fib still resolves "immediately", which satisfies *Lie Principle*.)
+- Normally, players are only allowed to perform *Bluffs* while sitting in *Bluff Seat*. The *Double Half Bluff* is one of the few exceptions to the rule. (It is allowed because the *Fib* still resolves "immediately", which satisfies *Lie Principle*.)
 
 ### The Double Bluff
 
@@ -2293,7 +2293,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   - At first, Donald thought that the red card in his hand was red 2 (as a *Play Clue*).
   - After Bob blind-played, Donald thought that the red card in his hand was red 3 (as a *Bluff*).
   - After Cathy blind-played, Donald knows that he must have the red 4 (as a *Double Bluff*).
-- Normally, players are only allowed to perform *Bluffs* while sitting in *Bluff Seat*. The *Double Bluff* is one of the few exceptions to the rule. (It is allowed because the fib still resolves "immediately", which satisfies *Lie Principle*.)
+- Normally, players are only allowed to perform *Bluffs* while sitting in *Bluff Seat*. The *Double Bluff* is one of the few exceptions to the rule. (It is allowed because the *Fib* still resolves "immediately", which satisfies *Lie Principle*.)
 
 ### The Triple Bluff (Illegal)
 
