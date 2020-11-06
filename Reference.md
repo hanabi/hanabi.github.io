@@ -2767,7 +2767,9 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 - For example, in a 3-player game:
   - Red 2 is played on the stacks.
   - Alice clues number 4 to Bob, which touches one brand new 4 as a *Play Clue*.
-  - Bob knows that this is probably red 4, but he does not see any red 3's. Thus, Bob knows he must have the red 3, and blind-plays his *Finesse Position* card. It is blue 1.
+  - Bob does not see any playable cards in anyone else's hand.
+  - The closest 4 to being playable is the red 4, so Bob knows that the 4 in his hand is probably a red 4.
+  - Since Bob does not see any red 3's, Bob knows he must have the red 3, and he blind-plays his *Finesse Position* card. It is a blue 1 and successfully plays.
   - Bob now knows that he was *Bluffed* by Alice and that the 4 in his hand is exactly red 4.
 - Doing a *Self-Bluff* on a player with a color clue is a bit more weird. On the face of it, a *Self Color Bluff* would be nonsensical, since the receiving player would have negative color on the card that they are blind-playing - they would explicitly know that the blind-card cannot possibly match.
 - Nonetheless, we agree that in this situation, players should blind-play a card anyway as a *Known Bluff*.
