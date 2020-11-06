@@ -123,7 +123,7 @@ In general, we want all of our strategies to flow from some basic principles. Th
 
 - When a *Play Clue* is given, it's a message that says the focused card is playable. Sometimes this message can be a fib, in order to usefully manipulate other players.
 - A valid fib must not allow for the possibility of any misinformed player to give a conflicting clue or misplay. In simpler terms, this means that a fib almost always reveals itself on **the very next turn**.
-- A fib that does **not** resolve immediately is classified as a *Lie*. Players should **never** assume that they are *Lied* to.
+- When a player misrepresents the identity of a card, and the untruth does **not** resolve immediately, it is classified as a *Lie*. Players should **never** assume that they are *Lied* to.
 
 ### 9. High Value Principle
 
