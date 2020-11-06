@@ -119,10 +119,11 @@ In general, we want all of our strategies to flow from some basic principles. Th
 
 - What is indicated by a clue is determined by the known information at the time the clue is given. Subsequent clues may build upon that information, but do not override it unless a direct conflict is evident.
 
-### 8. Good Lie Principle
+### 8. Lie Principle
 
-- When a *Play Clue* is given, it's a message that says the card is playable. Sometimes this message can be a lie, in order to usefully manipulate other players.
-- Valid lies must not allow for the possibility of any misinformed player to give a conflicting clue or misplay. In simpler terms, this means that good lies almost always reveal themselves on **the very next turn**.
+- When a *Play Clue* is given, it's a message that says the focused card is playable. Sometimes this message can be a fib, in order to usefully manipulate other players.
+- A valid fib must not allow for the possibility of any misinformed player to give a conflicting clue or misplay. In simpler terms, this means that a fib almost always reveals itself on **the very next turn**.
+- A fib that does **not** resolve immediately is classified as a *Lie*. Players should **never** assume that thye are lied to.
 
 ### 9. High Value Principle
 
@@ -1289,7 +1290,7 @@ Note that in this user interface, players are **not** holding their hands like t
   - From Bob's perspective, this looks like a *Finesse* - if Bob does not blind-play the red 3 right now, Cathy will go on to misplay the red 4 as the red 3.
   - Bob blind-plays his slot 1 card. However, it is not the red 3, it was the blue 3! Now Bob knows that he has been *Bluffed* by Alice.
   - Next, Cathy sees that Bob just blind-played a blue 3 immediately after this red clue, so she knows that she must have a *one-away-from-playable* red card - the red 4. Cathy holds on to the red 4 for later and discards.
-- Except in rare circumstances, ***Bluffing* is only permissible when you are the person directly before the player who is blind-playing a card**. This is called being in *Bluff Seat*. Do not *Bluff* unless you are in *Bluff Seat*! (This follows from *[Good Lie Principle](#8-good-lie-principle)*.)
+- Except in rare circumstances, ***Bluffing* is only permissible when you are the person directly before the player who is blind-playing a card**. This is called being in *Bluff Seat*. Do not *Bluff* unless you are in *Bluff Seat*! (This follows from *[Lie Principle](#8-lie-principle)*.)
 
 ### How to Tell the Difference Between a *Finesse* and a *Bluff* (Part 1) - Recognizing *Finesses* on Other Players
 
@@ -1407,7 +1408,7 @@ Note that in this user interface, players are **not** holding their hands like t
   - If this is a *Bluff*, then Bob will blind-play some other 1, and Cathy will have nothing to do. If this is the case, then Cathy could discard and the team could lose the game.
   - Should Bob risk blind-playing or should he save the 5?
 - In this example, it follows from *Save Principle* that Bob should "play it safe" and give a *5 Save* to the 5 and *then* try to blind-play the red 1 on the next turn.
-- However, Bob also knows from *Good Lie Principle*, lies have to resolve immediately. If Bob saved the 5, and then blind-played on the next turn, and it turned out to be a *Bluff*, then the lie would not have resolved immediately. Thus, from *Good Lie Principle*, Bob can assume that this is a *Finesse*.
+- However, Bob also knows from *Lie Principle*, fibs have to resolve immediately. If Bob saved the 5, and then blind-played on the next turn, and it turned out to be a *Bluff*, then the lie would not have resolved immediately. Thus, from *Lie Principle*, Bob can assume that this is a *Finesse*.
 - Stated in a different way, Bob has to trust that Alice is successfully "guiding" the rest of the team with the line that she has chosen. This means that Bob is going to play exactly red 1 into the red 2. Alternatively, it could also be the case that it is a *Bluff*, but Cathy will not discard, and will clue some card in Bob's hand. Either way, the 5 will be safe. This is called *Guide Principle*.
 
 ### Clue Interpretation & Occam's Razor
@@ -1460,8 +1461,8 @@ Note that in this user interface, players are **not** holding their hands like t
 ### Stacked Bluffs (Illegal)
 
 - It is possible to "stack" a second *Finesse* on top of a player who is already *Finessed*. This kind of thing is generally encouraged, since it has few downsides. (For more information, see the [Stacked Finesse](#the-stacked-finesse).)
-- However, players should **never** stack a *Bluff* on top of a player who is *Finessed*. This is because the blind-playing player will assume that a *Layered Finesse* is occurring and go on to play the card from the first *Finesse*. This means that the *Bluff* will not be resolved immediately, violating *Good Lie Principle*. (*Good Lie Principle* is one of the most important principles!) Typically, when this mistake happens, the team will go on to lose the game, because severe *Information Desynchronization* will occur.
-- Sometimes, in rare circumstances, expert players can perform *Out-of-Position Bluffs*. (This is normally illegal, so it to work, it has to be a very specific situation.) When this occurs, it is illegal to stack a second *Bluff* on top of them. You cannot stack a *Bluff* on a *Bluff* for the same reason that you cannot stack a *Bluff* on a *Finesse* - the lie will not be resolved immediately and will violate *Good Lie Principle*.
+- However, players should **never** stack a *Bluff* on top of a player who is *Finessed*. This is because the blind-playing player will assume that a *Layered Finesse* is occurring and go on to play the card from the first *Finesse*. This means that the *Bluff* will not be resolved immediately, violating *Lie Principle*. (*Lie Principle* is one of the most important principles!) Typically, when this mistake happens, the team will go on to lose the game, because severe *Information Desynchronization* will occur.
+- Sometimes, in rare circumstances, expert players can perform *Out-of-Position Bluffs*. (This is normally illegal, so it to work, it has to be a very specific situation.) When this occurs, it is illegal to stack a second *Bluff* on top of them. You cannot stack a *Bluff* on a *Bluff* for the same reason that you cannot stack a *Bluff* on a *Finesse* - the lie will not be resolved immediately and will violate *Lie Principle*.
   - Similarly, it is illegal to stack an *Ejection* or a *Discharge* on a *Bluff*. (*Ejections* and *Discharges* are advanced moves that are covered later.)
 
 <br />
@@ -2211,7 +2212,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### Finesses with a Lie Component
 
-- *Good Lie Principle* states all that lies must resolve immediately. However, some players will occasionally perform *Finesses* that violate this principle. We would say that such *Finesses* have a *Lie Component*.
+- *Lie Principle* states all that fibs must resolve immediately. However, some players will occasionally perform *Finesses* that violate this principle. We would say that such *Finesses* have a *Lie Component*.
 - Typically, when players lie out of *Bluff Seat*, the game quickly falls apart; subsequent clues will have different meanings to different players and everyone will become "desynchronized". This typically leads to a loss.
 - With that said, it is sometimes possible to construct **safe** lines that contain a *Lie Component*. There is usually deep levels of nuance involved in these lines, so this kind of thing is only recommended for advanced and expert players.
 - The previously mentioned *Out-of-Order Finesse* is a specific example of a *Finesse* with a *Lie Component*. One key attribute of the *Out-of-Order Finesse* is that the player who receives the *Fix Clue* knows that **all** of the related cards are playable, or it would not have been worth the risk (and the confusion) to perform a line with a *Lie Component* in the first place.
@@ -2277,7 +2278,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   - At first, Donald thought that the red card in his hand was red 2 (as a *Play Clue*).
   - After Bob blind-played, Donald thought that the red card in his hand was red 3 (as a *Finesse*).
   - After Cathy blind-played, Donald knows that he must have the red 4 (as a *Double Half Bluff*).
-- Normally, players are only allowed to perform *Bluffs* while sitting in *Bluff Seat*. The *Double Half Bluff* is one of the few exceptions to the rule. (It is allowed because the lie still resolves "immediately", which satisfies *Good Lie Principle*.)
+- Normally, players are only allowed to perform *Bluffs* while sitting in *Bluff Seat*. The *Double Half Bluff* is one of the few exceptions to the rule. (It is allowed because the fib still resolves "immediately", which satisfies *Lie Principle*.)
 
 ### The Double Bluff
 
@@ -2290,7 +2291,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   - At first, Donald thought that the red card in his hand was red 2 (as a *Play Clue*).
   - After Bob blind-played, Donald thought that the red card in his hand was red 3 (as a *Bluff*).
   - After Cathy blind-played, Donald knows that he must have the red 4 (as a *Double Bluff*).
-- Normally, players are only allowed to perform *Bluffs* while sitting in *Bluff Seat*. The *Double Bluff* is one of the few exceptions to the rule. (It is allowed because the lie still resolves "immediately", which satisfies *Good Lie Principle*.)
+- Normally, players are only allowed to perform *Bluffs* while sitting in *Bluff Seat*. The *Double Bluff* is one of the few exceptions to the rule. (It is allowed because the fib still resolves "immediately", which satisfies *Lie Principle*.)
 
 ### The Triple Bluff (Illegal)
 
@@ -2493,7 +2494,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   - Alice clues both copies of red 3 in Cathy's hand.
   - Bob blind-plays a blue 1.
   - Bob knows that if only one red 3 was touched, this would just be a normal *3 Bluff*. However, since there was a bad touch, he knows that he must continue to blind-play cards until he finds the red 1 and the red 2.
-- *Bad Touch Layered Finesses* are **explicitly illegal** because they violate *Good Lie Principle* - Bob cannot demonstrate that it is a bad touch until after Cathy has already taken a turn.
+- *Bad Touch Layered Finesses* are **explicitly illegal** because they violate *Lie Principle* - Bob cannot demonstrate that it is a bad touch until after Cathy has already taken a turn.
 
 ### The Bad Touch Double Bluff (For 3's)
 
@@ -2842,7 +2843,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### The Out-of-Position Bluff (OOP) / The Reverse Bluff
 
-- Similar to a *Reverse Finesse*, it is possible to perform a *Reverse Bluff*. However, according to *Good Lie Principle*, you are only allowed to lie to the player who comes immediately after you, so this is illegal.
+- Similar to a *Reverse Finesse*, it is possible to perform a *Reverse Bluff*. However, according to *Lie Principle*, you are only allowed to lie to the player who comes immediately after you, so this is illegal.
   - Why this policy? It is not possible to play with both *Layered Finesses* and *Reverse Bluffs* at the same time. *Layered Finesses* are much better, so we choose to "turn on" *Layered Finesse* and "turn off" *Reverse Bluffs*.
 - However, players **can** rarely break the *Bluff Seat* rule if **one of the following is true**:
   1. The next player is at 0 clues (and won't blind-play anything / will blind-play an unrelated card).
@@ -2913,7 +2914,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   - The "passing" player fulfills the real *Finesse* on their next turn.
   - The "passing" player was in *Bluff Seat*.
 - *Pass Bluffs* rely on contextual information in order to work, so the circumstances in which you can do them are narrow.
-- It is illegal for a player to perform a *Pass Bluff* if they could be *Bluffed*. (This is because the first *Bluff* would not resolve immediately and would violate *Good Lie Principle*.)
+- It is illegal for a player to perform a *Pass Bluff* if they could be *Bluffed*. (This is because the first *Bluff* would not resolve immediately and would violate *Lie Principle*.)
   - Subsequently, it is also illegal for a player to pass an *Ejection* to the next player.
 
 ### The Double/Triple Pass Bluff
