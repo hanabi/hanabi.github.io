@@ -123,7 +123,7 @@ In general, we want all of our strategies to flow from some basic principles. Th
 
 - When a *Play Clue* is given, it's a message that says the focused card is playable. Sometimes this message can be a fib, in order to usefully manipulate other players.
 - A valid fib must not allow for the possibility of any misinformed player to give a conflicting clue or misplay. In simpler terms, this means that a fib almost always reveals itself on **the very next turn**.
-- A fib that does **not** resolve immediately is classified as a *Lie*. Players should **never** assume that thye are *Lied* to.
+- A fib that does **not** resolve immediately is classified as a *Lie*. Players should **never** assume that they are *Lied* to.
 
 ### 9. High Value Principle
 
@@ -691,7 +691,7 @@ Note that in this user interface, players are **not** holding their hands like t
 
 ### The Layered Finesse
 
-- Normally, a *Finesse* promises the exact copy of the card on *Finesse Position*. However, as long as all of the cards leading to the card are playable, you can still promise the exact copy of the card. We do **not** consider this to be a "lie", since the blind-playing player does indeed have the true copy of the card.
+- Normally, a *Finesse* promises the exact copy of the card on *Finesse Position*. However, as long as all of the cards leading to the card are playable, you can still promise the exact copy of the card. We do **not** consider this to be a *Lie*, since the blind-playing player does indeed have the true copy of the card.
 - We call this a *Layered Finesse* because the intended *Finesse* blind-play target is "layered" behind other playable cards.
 
 <img src="https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/layered_finesse.png" alt="Layered Finesse Example" width="400">
@@ -1408,7 +1408,7 @@ Note that in this user interface, players are **not** holding their hands like t
   - If this is a *Bluff*, then Bob will blind-play some other 1, and Cathy will have nothing to do. If this is the case, then Cathy could discard and the team could lose the game.
   - Should Bob risk blind-playing or should he save the 5?
 - In this example, it follows from *Save Principle* that Bob should "play it safe" and give a *5 Save* to the 5 and *then* try to blind-play the red 1 on the next turn.
-- However, Bob also knows from *Lie Principle*, fibs have to resolve immediately. If Bob saved the 5, and then blind-played on the next turn, and it turned out to be a *Bluff*, then the lie would not have resolved immediately. Thus, from *Lie Principle*, Bob can assume that this is a *Finesse*.
+- However, Bob also knows from *Lie Principle*, fibs have to resolve immediately. If Bob saved the 5, and then blind-played on the next turn, and it turned out to be a *Bluff*, then the fib would not have resolved immediately. Thus, from *Lie Principle*, Bob can assume that this is a *Finesse*.
 - Stated in a different way, Bob has to trust that Alice is successfully "guiding" the rest of the team with the line that she has chosen. This means that Bob is going to play exactly red 1 into the red 2. Alternatively, it could also be the case that it is a *Bluff*, but Cathy will not discard, and will clue some card in Bob's hand. Either way, the 5 will be safe. This is called *Guide Principle*.
 
 ### Clue Interpretation & Occam's Razor
@@ -1462,7 +1462,7 @@ Note that in this user interface, players are **not** holding their hands like t
 
 - It is possible to "stack" a second *Finesse* on top of a player who is already *Finessed*. This kind of thing is generally encouraged, since it has few downsides. (For more information, see the [Stacked Finesse](#the-stacked-finesse).)
 - However, players should **never** stack a *Bluff* on top of a player who is *Finessed*. This is because the blind-playing player will assume that a *Layered Finesse* is occurring and go on to play the card from the first *Finesse*. This means that the *Bluff* will not be resolved immediately, violating *Lie Principle*. (*Lie Principle* is one of the most important principles!) Typically, when this mistake happens, the team will go on to lose the game, because severe *Information Desynchronization* will occur.
-- Sometimes, in rare circumstances, expert players can perform *Out-of-Position Bluffs*. (This is normally illegal, so it to work, it has to be a very specific situation.) When this occurs, it is illegal to stack a second *Bluff* on top of them. You cannot stack a *Bluff* on a *Bluff* for the same reason that you cannot stack a *Bluff* on a *Finesse* - the lie will not be resolved immediately and will violate *Lie Principle*.
+- Sometimes, in rare circumstances, expert players can perform *Out-of-Position Bluffs*. (This is normally illegal, so it to work, it has to be a very specific situation.) When this occurs, it is illegal to stack a second *Bluff* on top of them. You cannot stack a *Bluff* on a *Bluff* for the same reason that you cannot stack a *Bluff* on a *Finesse* - the fib will not be resolved immediately and will violate *Lie Principle*.
   - Similarly, it is illegal to stack an *Ejection* or a *Discharge* on a *Bluff*. (*Ejections* and *Discharges* are advanced moves that are covered later.)
 
 <br />
@@ -1925,7 +1925,7 @@ Priority does not always apply. Some common exceptions are listed below.
 - Players will generally play cards without *Priority* if they see the next card in someone else's *Finesse Position*, because this will get the card for "free" as a *Priority Finesse*.
 - Less commonly, players will see the next card in someone else's hand, but it will not be in *Finesse Position*. In these cases, it might still be good to play the card without *Priority*, just so that the player with the next card will have something to do on their turn.
 - However, if they do play the card without *Priority*, it will cause an impending misplay because the target player will think the card is actually on their *Finesse Position*. Thus, doing this **forces** someone to give a clue to the card directly in order to stop the misplay.
-- This clue is similar to a *Fix Clue*, since it fixes an impending misplay. But we specifically call this kind of clue a *Load Clue* to differentiate it from a *Fix Clue* that fixes a lie or mistake. It is a *Load Clue* because it is loading the player up with something to do on their turn.
+- This clue is similar to a *Fix Clue*, since it fixes an impending misplay. But we specifically call this kind of clue a *Load Clue* to differentiate it from a *Fix Clue* that fixes a *Lie* or mistake. It is a *Load Clue* because it is loading the player up with something to do on their turn.
 - If you receive a *Load Clue*, you should suspect that you might have something valuable on your chop, as this would be an excellent reason to commit the team to giving the *Load Clue* in the first place.
 - If a player has a choice between playing one card that leads nowhere and playing one card that commits the team to giving a *Load Clue*, then they are not obligated to choose one or the other - they can choose whichever one is best for the situation.
 - When a player receives a *Load Clue*, they are to interpret it as a normal *Play Clue* instead of a *Fix Clue*. For example, in a 3-player game:
@@ -2059,7 +2059,7 @@ Priority does not always apply. Some common exceptions are listed below.
 ### The Elimination Riding Deduction Bluff
 
 - Typically, when a player has two cards with *Elimination Notes* and the "true" copy of the card is on chop, you must clue it to let them know.
-- However, if the other card is also playable, you can "lie" to them and not clue anything.
+- However, if the other card is also playable, you can choose to not clue anything.
 - Next, the player should perform an *Elimination Riding Deduction*, and play the unrelated card.
 - After that, there will be only one card left with an *Elimination Note*, so they will go on to play the "true" card on their next turn.
 
@@ -2212,8 +2212,9 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### Finesses with a Lie Component
 
-- *Lie Principle* states all that fibs must resolve immediately. However, some players will occasionally perform *Finesses* that violate this principle. We would say that such *Finesses* have a *Lie Component*.
-- Typically, when players lie out of *Bluff Seat*, the game quickly falls apart; subsequent clues will have different meanings to different players and everyone will become "desynchronized". This typically leads to a loss.
+- *Lie Principle* states all that fibs must resolve immediately. A fib that does not resolve immediately is a *Lie*.
+- Normally, *Lies* are expressly illegal. However, some players will occasionally break the rules for the purposes of getting a *Finesse*. We call such moves *Finesses with a Lie Component*.
+- Typically, when players *Lie* out of *Bluff Seat*, the game quickly falls apart; subsequent clues will have different meanings to different players and everyone will become "desynchronized". This typically leads to a loss.
 - With that said, it is sometimes possible to construct **safe** lines that contain a *Lie Component*. There is usually deep levels of nuance involved in these lines, so this kind of thing is only recommended for advanced and expert players.
 - The previously mentioned *Out-of-Order Finesse* is a specific example of a *Finesse* with a *Lie Component*. One key attribute of the *Out-of-Order Finesse* is that the player who receives the *Fix Clue* knows that **all** of the related cards are playable, or it would not have been worth the risk (and the confusion) to perform a line with a *Lie Component* in the first place.
 - This concept can be generalized to all *Finesses* that have a *Lie Component*. After a player receives a *Fix Clue* in such a situation, they should assume that the *Finesse* is "still on". So, depending on the situation, they should either know that the initial card that was clued is playable (like in an *Out-of-Order Finesse*) or continue to blind-play cards to fulfill the initial *Finesse* (if the card clued with a *Fix Clue* seems to be unrelated).
@@ -2244,14 +2245,14 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   - Alice clues red to Cathy, touching a red 1 as a *Play Clue*.
   - Bob blind-plays his *Finesse Position* and it successfully plays as blue 2.
   - Cathy knows that a *Bluff* has occurred and marks her red card as red 3 (the *one-away-from-playable* red card).
-  - Of course, this is a lie, because Cathy's red card is actually a red 1. The team will likely get a misplay at some point in the future.
+  - Of course, this is not true, because Cathy's red card is actually a red 1. The team will likely get a misplay at some point in the future.
 - If the above example happens and Alice is not making a mistake, then Alice must be trying to communicate something extra. This should signal an *Discharge* on the very next player.
 - Since the *Third Finesse Position* card was played instead of the *Finesse Position* card, then the player who received the clue will know that the card is trash.
 - For example, in a 3-player game:
   - All the 1's are played on the stacks.
   - Alice clues red to Cathy, touching a red 1 as a *Play Clue*.
-  - Bob knows that if he played his *First Finesse Position*, then Cathy would write a note of red 3 on the card (as a *Bluff*), which would be a lie.
-  - Bob knows that if he played his *Second Finesse Position*, then Cathy would write a note of red 5 on the card (as a *5 Color Ejection*), which would be a lie.
+  - Bob knows that if he played his *First Finesse Position*, then Cathy would write a note of red 3 on the card (as a *Bluff*), which would be a *Lie*.
+  - Bob knows that if he played his *Second Finesse Position*, then Cathy would write a note of red 5 on the card (as a *5 Color Ejection*), which would be a *Lie*.
   - Bob blind-plays his *Third Finesse Position*, and it successfully plays as green 2.
   - Cathy knows that a *Discharge* has occurred from Alice's red clue. Thus, this must be an *Unknown Trash Discharge*, so Cathy's red card must be trash. Cathy marks her red card as red 1 (since that is the only possible trash red card) and discards it.
 - When multiple cards are clued with an *Unknown Trash Discharge*, **only the focus of the clue is considered to be trash**. This means that *Good Touch Principle* applies to the non-focused cards. (Note that this is **the opposite of the *Trash Bluff***. In a *Trash Bluff*, when multiple cards are clued, **all** of the touched cards are considered to be trash.)
@@ -2837,19 +2838,20 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### The Elimination Bluff & The Elimination Layered Finesse
 
-- It is possible to lie to a player who has *Elimination Notes* on their hand and pretend like you are performing an *Elimination Finesse* on them, causing them to play their oldest card as per the convention. This can cause an unrelated playable card to play.
+- Normally, if a player has *Elimination Notes* on their hand, you can clue the next card in the suit to perform an *Elimination Finesse*.
+- It is also possible to pretend like you are performing an *Elimination Finesse* on someone in order to get an unrelated card to blind-play from their oldest slot.
 - If the player who performed the clue was in *Bluff Seat*, then it is to be treated like a *Bluff*, and thus they will not know where the actual *Elimination Card* is. (However, in most cases, at this point there will only be one remaining card with an *Elimination Note* on it, so it won't matter.)
 - If the player who performed the clue was not in *Bluff Seat*, then the blind-playing player is expected to keep playing until they find the intended card. This is similar to how a *Layered Finesse* works, but it is inverted such that they play cards from oldest to newest.
 
 ### The Out-of-Position Bluff (OOP) / The Reverse Bluff
 
-- Similar to a *Reverse Finesse*, it is possible to perform a *Reverse Bluff*. However, according to *Lie Principle*, you are only allowed to lie to the player who comes immediately after you, so this is illegal.
+- It is legal to perform a *Reverse Finesse*, but it is not legal to perform a *Reverse Bluff*, because it breaks the *Bluff Seat* rule (and violates *Lie Principle*).
   - Why this policy? It is not possible to play with both *Layered Finesses* and *Reverse Bluffs* at the same time. *Layered Finesses* are much better, so we choose to "turn on" *Layered Finesse* and "turn off" *Reverse Bluffs*.
 - However, players **can** rarely break the *Bluff Seat* rule if **one of the following is true**:
   1. The next player is at 0 clues (and won't blind-play anything / will blind-play an unrelated card).
   2. The next player will think that they have the *Bluffed* card in their own hand and will not try to *Finesse* or *Bluff* the next player. (In this case, the *Bluffed* card means the card that will blind-play.)
   3. The next player has enough positive or negative clues on their entire hand to know that they cannot have the card that the blind-played card will be played as.
-- Essentially, if i. or ii. is true, then the next player cannot act on their state of misinformation. And if iii. is true, then the next player will have full knowledge that a lie is occurring, so they will not try to "get" the *Bluffed* card.
+- Essentially, if i. or ii. is true, then the next player cannot act on their state of misinformation. And if iii. is true, then the next player will have full knowledge that a *Lie* is occurring, so they will not try to "get" the *Bluffed* card.
 - Since valid *Out-of-Position Bluffs* are so rare, it is important to remember that:
   - Valid *Out-of-Position Bluffs* take precedence over *Known Bluffs*. In other words, if Bob can see that an *OOP Bluff* could be valid (meaning it meets one of the three criteria above), then Bob should not blind-play anything as a *Known Bluff* and let Cathy play instead.
   - Valid *Out-of-Position Bluffs* take precedence over *Layered Finesses*. In other words, if Cathy can see that an *OOP Bluff* could be valid (meaning it meets one of the three criteria above), then Cathy should not continue to blind-play cards as a *Layered Finesse*. (This is a common mistake.)
@@ -2927,9 +2929,9 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 - This convention only applies to 3-player games.
 - Sometimes, a player will have a fully playable hand from left to right. In this situation, players will normally try to perform a *Layered Finesse* in order to get all of the cards in the most efficient manner. However, a *Layered Finesse* may not always be available.
-- In extremely rare situations, it is possible to orchestrate a lie in which the player with the fully playable hand thinks that they are *Layered Finessed* when they really do not have the connecting card. After they play their final card and it is not the matching card, they will know that they were *Purge Bluffed* and that nobody has the missing card.
+- In extremely rare situations, it is possible to orchestrate a *Lie* in which the player with the fully playable hand thinks that they are *Layered Finessed* when they really do not have the connecting card. After they play their final card and it is not the matching card, they will know that they were *Purge Bluffed* and that nobody has the missing card.
 - Care has to be taken that the other player (e.g. the player who is not *Purge Bluffed*) will understand what is going on. For example, they might think that a *Patch Finesse* is happening. Thus, *Purge Bluffs* can only be done in expert games where there is **no other possible interpretation for what is happening**.
-- If the player blind-playing cards into a *Purge Bluff* realizes that a lie has occurred before they finish blind-playing their entire hand, they are supposed to stop. In other words, they are **not** supposed to continue blind-playing cards as a *Known Purge Bluff*.
+- If the player blind-playing cards into a *Purge Bluff* realizes that a *Lie* has occurred before they finish blind-playing their entire hand, they are supposed to stop. In other words, they are **not** supposed to continue blind-playing cards as a *Known Purge Bluff*.
 - Examples of a *Purge Bluff* can be found [here](examples/Purge_Bluff.md).
 
 <br />
@@ -3122,9 +3124,9 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   - Cathy hand is, from newest to oldest: `blue 5, red 2, blue 3, blue 2`
   - Bob sees that Alice could have cleanly *5 Pulled* Cathy's red 2. (It is globally known that Alice had another *Play Clue* to give, so a number 5 clue would not have been interpreted as a *5 Stall*.)
   - Bob knows that this signals a blind-play:
-    - A *First Finesse Position* blind-play would look like a *Bluff* on a red 2 or a red 3, which would be a lie.
-    - A *Second Finesse Position* blind-play would look like a *5 Color Ejection* on a red 5, which would be a lie.
-    - A *Third Finesse Position* blind-play would look like an *Unknown Trash Discharge* on a red 1, which would be a lie.
+    - A *First Finesse Position* blind-play would look like a *Bluff* on a red 2 or a red 3, which would be a *Lie*.
+    - A *Second Finesse Position* blind-play would look like a *5 Color Ejection* on a red 5, which would be a *Lie*.
+    - A *Third Finesse Position* blind-play would look like an *Unknown Trash Discharge* on a red 1, which would be a *Lie*.
   - Thus, Bob knows that this must be a *Safety Charm*. He blind-plays his *Fourth Finesse Position*. It is a blue 1 and it successfully plays.
   - Cathy knows that she must have the red 2. She also knows that her slot 1 card is a 5 that could have been used for a *5 Pull*. Cathy marks the 5 as being *Chop Moved* for later.
 - More examples of a *Safety Charm* can be found [here](https://github.com/Zamiell/hanabi-conventions/blob/master/examples/Safety_Charm.md).
@@ -3292,7 +3294,8 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 ### The Fake Save
 
 - We are only able to perform *Save Clues* on specific cards and in specific ways, as outlined in the Beginner's Guide. For example, we all agree that we must save 5's with number 5.
-- In some specific circumstances, the team will have only one clue available and multiple cards must be saved with a single clue. In this situation, to prevent losing the game (or losing a currently-playable card), it is permissible to "lie" to the player and perform a non-legal *Save Clue*. The player will mark their chop card as something other than what it really is, so this move commits the team to giving a *Fix Clue* at some point in the future.
+- In some specific circumstances, the team will have only one clue available and multiple cards must be saved with a single clue. In this situation, to prevent losing the game (or losing a currently-playable card), it is permissible to *Lie* to the next player and perform a *Fake Save* (e.g. a non-legal *Save Clue*).
+- After a *Fake Save*, the player receiving the clue will mark their chop card as something other than what it really is. Thus, this move commits the team to giving a *Fix Clue* to repair the *Lie* at some point in the future.
 - For example, in a 3-player game:
   - Alice has 1 clue available.
   - Bob has a red 5 on chop, followed by a red 4. The other copy of the red 4 is in the discard pile, so there are two critical cards in a row.
