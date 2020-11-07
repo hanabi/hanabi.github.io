@@ -3136,9 +3136,9 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   - Cathy hand is, from newest to oldest: `blue 5, red 2, blue 3, blue 2`
   - Bob sees that Alice could have cleanly *5 Pulled* Cathy's red 2. (It is globally known that Alice had another *Play Clue* to give, so a number 5 clue would not have been interpreted as a *5 Stall*.)
   - Bob knows that this signals a blind-play:
-    - A *First Finesse Position* blind-play would look like a *Bluff* on a red 3, which would be a lie.
-    - A *Second Finesse Position* blind-play would look like a *5 Color Ejection* on a red 5, which would be a lie.
-    - A *Third Finesse Position* blind-play would look like an *Unknown Trash Discharge* on a red 1, which would be a lie.
+    - A *First Finesse Position* blind-play would look like a *Bluff* on a red 3, which would be a *Lie*.
+    - A *Second Finesse Position* blind-play would look like a *5 Color Ejection* on a red 5, which would be a *Lie*.
+    - A *Third Finesse Position* blind-play would look like an *Unknown Trash Discharge* on a red 1, which would be a *Lie*.
   - Thus, Bob knows that this must be a *Safety Charm*. He blind-plays his *Fourth Finesse Position*. It is a blue 1 and it successfully plays.
   - Cathy knows that she must have the red 2. She also knows that her slot 1 card is a 5 that could have been used for a *5 Pull*. Cathy marks the 5 as being *Chop Moved* for later.
 - More examples of a *Safety Charm* can be found [here](https://github.com/Zamiell/hanabi-conventions/blob/master/examples/Safety_Charm.md).
