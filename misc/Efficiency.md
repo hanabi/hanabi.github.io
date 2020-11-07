@@ -3,7 +3,8 @@
 ### Pace
 
 - Pace is a measure of how many discards the team can do before a perfect score becomes impossible.
-- The formula for pace is: `total cards in the deck - ((number of cards in a player's hand - 1) * number of players) - (5 * number of suits)`
+- The formula for pace is:
+  - `total cards in the deck - ((number of cards in a player's hand - 1) * number of players) - (5 * number of suits)`
   - If a game contains the Contrarian detrimental character, `(number of players - 2)` is subtracted from the pace.
 
 <br />
@@ -33,7 +34,8 @@
 ### Efficiency
 
 - Efficiency is a measure of how much value the team is getting with the amount of clues that they have spent thus far.
-- The formula for efficiency is: `(number of cards played + number of cards with 1+ clues "on" them) / number of clues given or lost`
+- The formula for efficiency is:
+  - `(number of cards played + number of cards with 1+ clues "on" them) / number of clues given or lost`
 
 <br />
 
@@ -63,7 +65,8 @@
 | 3 Suits (Clue Starved)                 | 1.25     | 1.50       | 1.88     | 1.50     |
 | 3 Suits (Throw It in a Hole)           | 1.00     | 1.36       | 1.88     | 1.36     |
 
-- Minimum efficiency is defined as:  `total cards that need to be played / total number of clues given or lost`
+- Minimum efficiency is defined as:
+  - `total cards that need to be played / maximum number of clues that can be given before the game ends`
 - The formula for minimum efficiency is:
   - `(5 * number of suits) / (8 + floor((starting pace + number of suits - unusable clues) / discards per clue))`
   - "unusable clues" is 1 by default, but 2 in a 5/6-player game

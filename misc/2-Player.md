@@ -88,7 +88,7 @@
 
 ### The Delayed Bluff
 
-- In non-2-player games, *Delayed Bluffs* are explicitly illegal, since they violate [*Good Lie Principle*](../Reference.md#8-good-lie-principle). However, in 2-player games, they are allowed.
+- In non-2-player games, *Delayed Bluffs* are explicitly illegal, since they violate [*Lie Principle*](../Reference.md#8-lie-principle). However, in 2-player games, they are allowed.
 - Note that this convention also applies to *Double Bluffs*. For example, if cluing a 4 at the beginning of the game causes two 1's to blind-play, then the blind-playing player is not promised to have any more playable cards.
 
 ### Scream Discard Modification
