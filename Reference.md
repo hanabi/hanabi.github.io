@@ -3011,8 +3011,11 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ## Level 17 - Rarely Used Strategies - Ejection
 
-- *Ejection* refers to a move like a *Bluff*, but instead of playing an unrelated card from *Finesse Position*, someone plays an unrelated card from their *Second Finesse Position*. For example, if a player's hand is completely unclued, their *Second Finesse Position* is slot 2.
-- Just like a *Bluff*, an *Ejection* can only be performed on the very next player.
+- *Ejection* refers to a type of move like a *Bluff*, but instead of playing an unrelated card from *Finesse Position*, someone plays an unrelated card from their *Second Finesse Position*. For example, if a player's hand is completely unclued, their *Second Finesse Position* is slot 2.
+- *Ejections* arise when playing *Finesse Position* would cause *Information Desynchronization* about the initial clue. Thus, playing *Second Finesse Position* serves as a unique way to correctly *‘Shift’* the signal of certain clues.
+- This *Signal Shift* can take a variety of forms: *Play* —-> *Save* (*5 Color Ejection*), *Save* -—> *Play* (*Rank Choice Ejection*), *Save* —-> *Trash* (*Bad Chop Move Ejection*), and *Fix* —-> *Play* (*Double Play Ejection*).
+- Just like a *Bluff*, an *Ejection* can only be performed on the very next player.
+
 
 ### The 5 Color Ejection
 
@@ -3064,8 +3067,10 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ## Level 17 - Rarely Used Strategies - Discharge
 
-- *Discharge* is similar to *Ejection*, except instead of blind-playing the *Second Finesse Position* card, the player plays the *Third Finesse Position* card.
-- Just like a *Bluff*, a *Discharge* can only be performed on the very next player.
+- *Discharge* is similar to *Ejection*, except the player plays their *Third Finesse Position*.
+- *Discharges* arise when playing *First* **or** *Second Finesse Position* would cause *Information Desynchronization* about the initial clue. Thus, playing *Third Finesse Position* serves as a unique way to correctly *‘Shift’* the signal of certain clues.
+- There are two forms of *Signal Shifts* that result in *Discharges*:  either *Play* -—> *Trash* (*Trash Discharge*), or *5 Pull* —> *5 Stall* (*5 Number Discharge*).
+- Just like a *Bluff*, a *Discharge* can only be performed on the very next player.
 
 ### The Unknown Trash Discharge
 
@@ -3101,8 +3106,11 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ## Level 17 - Rarely Used Strategies - Charm
 
-- *Charm* is similar to *Ejection* and *Discharge*, except the player plays their *Fourth Finesse Position* card.
-- Just like a *Bluff*, a *Charm* can only be performed on the very next player.
+- *Charm* is similar to *Ejection* and *Discharge*, except the player plays their *Fourth Finesse Position*.
+- *Charms* arise when playing *First*, *Second*, **or** *Third Finesse Position* would cause *Information Desynchronization* about the initial clue. Thus, playing *Fourth Finesse Position* serves as a unique *Signal Shift* to certain clues' meaning.
+- The *Signal Shift* in a *Charm* is, strangely, *Play* —> *Play*. This means that the clued player knows this is still a *Play Clue*, but that something extra is promised (i.e. a *Declined 5 Pull*, in the case of a *Safety Charm*).
+- Just like a *Bluff*, a *Charm* can only be performed on the very next player.
+
 
 ### The Safety Charm (Declined 5 Pull)
 
