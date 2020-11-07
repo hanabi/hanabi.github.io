@@ -3117,7 +3117,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 - This convention only applies in the *Low Score Phase*.
 - If a card could be freely gotten by initiating a *5 Pull*, it would be very strange if the *5 Pull* was declined and the card was directly touched as a 1-for-1.
 - When this occurs, this player is trying to communicate something deeper - a *Charm* on the very next player.
-- Normally, when an card is blind-played after an innocent-looking *Play Clue*, the clue receiver knows to not play that card anymore. In this situation, since the *Fourth Finesse Position* card was played instead of the *First*, *Second*, or *Third*, the clue receiver will know that their card is still playable **and** that the unclued card directly to its left must be a 5.
+- Normally, when a card is blind-played after an innocent-looking *Play Clue*, the clue receiver knows to not play that card anymore. In this situation, since the *Fourth Finesse Position* card was played instead of the *First*, *Second*, or *Third*, the clue receiver will know that their card is still playable **and** that the unclued card directly to its left must be a 5.
 - This untouched 5 is now globally known; everyone on the team should treat it as a *Chop Moved* card.
 - For example, in a 4-player game:
   - Red 1 is played on the stacks.
@@ -3126,7 +3126,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   - Cathy hand is, from newest to oldest: `blue 5, red 2, blue 3, blue 2`
   - Bob sees that Alice could have cleanly *5 Pulled* Cathy's red 2. (It is globally known that Alice had another *Play Clue* to give, so a number 5 clue would not have been interpreted as a *5 Stall*.)
   - Bob knows that this signals a blind-play:
-    - A *First Finesse Position* blind-play would look like a *Bluff* on a red 2 or a red 3, which would be a lie.
+    - A *First Finesse Position* blind-play would look like a *Bluff* on a red 3, which would be a lie.
     - A *Second Finesse Position* blind-play would look like a *5 Color Ejection* on a red 5, which would be a lie.
     - A *Third Finesse Position* blind-play would look like an *Unknown Trash Discharge* on a red 1, which would be a lie.
   - Thus, Bob knows that this must be a *Safety Charm*. He blind-plays his *Fourth Finesse Position*. It is a blue 1 and it successfully plays.
