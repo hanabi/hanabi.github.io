@@ -10,5 +10,5 @@ These conventions apply to any variant with only 3 suits.
 
 ### The Full Finesse
 
-- The *5 Stall*, *5's Chop Move*, and *5 Pull* conventions are "turned off".
+- The *5 Stall*, *5's Chop Move*, *5 Pull*, *5 Color Ejection*, and *5 Number Discharge* conventions are "turned off".
 - If a 5 is clued, then it is to be treated as a *Finesse* on the full suit from 1 to 5.
