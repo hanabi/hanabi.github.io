@@ -3016,10 +3016,25 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
+## Level 17 - Rarely Used Strategies - Signal Shifting (Ejections/Discharges/Charms)
+
+- Most clues can be said to send one of three distinct *Signals*: some card(s) should be ***Played***, ***Saved***, or (rarely) ***Trashed***.
+- Normal *Finesse Position* blind-plays occur when the clue will otherwise result in a misplay or other *Information Desynchronization*. The clue’s initial *Signal* will be sufficiently clarified after an appropriate number of blind-plays. 
+- However, what if a clue is given such that the very next player can see that even one (or more) *Finesse Position* blind-play(s) would still leave the clue’s actual *Signal* as being misunderstood?
+- In these special situations, the next player is being called to blind-play a card **other** than their regular *Finesse Position* in order to fully *Shift* the original *Signal* in a fundamental way.
+    - Take the *5 Color Ejection* as an example: after *Second Finesse Position* is played, the original clue’s *Signal* fundamentally *Shifts* from a *Play* to a *5 Save*.
+- This *Signal Shift* can take several forms: *Ejection*, *Discharge*, and *Charm*.
+- Just like a *Bluff*, all forms of *Signal Shifts* can only be performed on the very next player.
+
+![Signal Shifting](img/signal_shifting.png)
+
+- The chart above summarizes the relationship of all existing *Signal Shift* conventions. Each is described in detail below.
+
+<br />
+
 ## Level 17 - Rarely Used Strategies - Ejection
 
-- *Ejection* refers to a type of move like a *Bluff*, but instead of playing an unrelated card from *Finesse Position*, someone plays an unrelated card from their *Second Finesse Position*. For example, if a player's hand is completely unclued, their *Second Finesse Position* is slot 2.
-- *Ejections* arise when playing *Finesse Position* would cause *Information Desynchronization* about the initial clue. Thus, playing *Second Finesse Position* serves as a unique way to correctly *Shift* the signal of certain clues.
+- *Ejection* refers to a *Signal Shift* blind-play in which someone plays an unrelated card from their *Second Finesse Position*. For example, if a player's hand is completely unclued, their *Second Finesse Position* is slot 2.
 - Just like a *Bluff*, an *Ejection* can only be performed on the very next player.
 
 ### The 5 Color Ejection
@@ -3076,8 +3091,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ## Level 17 - Rarely Used Strategies - Discharge
 
-- *Discharge* is similar to *Ejection*, except the player plays their *Third Finesse Position*.
-- *Discharges* arise when playing *First* **or** *Second Finesse Position* would cause *Information Desynchronization* about the initial clue. Thus, playing *Third Finesse Position* serves as a unique way to correctly *Shift* the signal of certain clues.
+- *Discharge* refers to a *Signal Shift* blind-play in which someone plays an unrelated card from their *Third Finesse Position*. For example, if a player's hand is completely unclued, their *Third Finesse Position* is slot 3.
 - Just like a *Bluff*, a *Discharge* can only be performed on the very next player.
 
 ### The Unknown Trash Discharge
@@ -3116,9 +3130,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ## Level 17 - Rarely Used Strategies - Charm
 
-- *Charm* is similar to *Ejection* and *Discharge*, except the player plays their *Fourth Finesse Position*.
-- *Charms* arise when playing *First*, *Second*, **or** *Third Finesse Position* would cause *Information Desynchronization* about the initial clue.
-- Unlike *Ejection* and *Discharge*, the original *Signal* of the clue is maintained in a *Charm*. Instead, this blind-play indicates there was unique significance in the specific clue chosen.
+- *Charm* refers to a *Signal Shift* blind-play in which someone plays an unrelated card from their *Fourth Finesse Position*. For example, if a player's hand is completely unclued, their *Fourth Finesse Position* is slot 4.
 - Just like a *Bluff*, a *Charm* can only be performed on the very next player.
 
 ### The Safety Charm (Declined 5 Pull)
