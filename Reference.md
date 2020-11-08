@@ -54,6 +54,7 @@ Note that convention updates for the group are listed in the `#announcements` ch
   - [Special Bluffs](#level-17---rarely-used-strategies---special-bluffs)
   - [Special Suboptimal Moves](#level-17---rarely-used-strategies---special-suboptimal-moves)
   - [Pushes & Pulls](#level-17---rarely-used-strategies---pushes--pulls)
+  - [Signal Shifting](#level-17---rarely-used-strategies---signal-shifting)
   - [Ejection](#level-17---rarely-used-strategies---ejection)
   - [Discharge](#level-17---rarely-used-strategies---discharge)
   - [Charm](#level-17---rarely-used-strategies---charm)
@@ -3016,10 +3017,10 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 17 - Rarely Used Strategies - Signal Shifting (Ejections/Discharges/Charms)
+## Level 17 - Rarely Used Strategies - Signal Shifting
 
 - Most clues can be said to send one of three distinct *Signals*: some card(s) should be ***Played***, ***Saved***, or (rarely) ***Trashed***.
-- Normal *Finesse Position* blind-plays occur when the clue will otherwise result in a misplay or other *Information Desynchronization*. The clue’s initial *Signal* will be sufficiently clarified after an appropriate number of blind-plays. 
+- Normal *Finesse Position* blind-plays occur when the clue will otherwise result in a misplay or other *Information Desynchronization*. The clue’s initial *Signal* will be sufficiently clarified after an appropriate number of blind-plays.
 - However, what if a clue is given such that the very next player can see that even one (or more) *Finesse Position* blind-play(s) would still leave the clue’s actual *Signal* as being misunderstood?
 - In these special situations, the next player is being called to blind-play a card **other** than their regular *Finesse Position* in order to fully *Shift* the original *Signal* in a fundamental way.
     - Take the *5 Color Ejection* as an example: after *Second Finesse Position* is played, the original clue’s *Signal* fundamentally *Shifts* from a *Play* to a *5 Save*.
