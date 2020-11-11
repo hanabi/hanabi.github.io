@@ -21,6 +21,7 @@ For information on how variants tie in to the levels, see the [variant summary](
 The following is a quick summary of the levels.
 
 | Level    | Main Convention Learned
+| -------- | --------------------------------------
 | Level 3  | Basic *[Chop Moves](Reference.md#the-chop-move)*
 | Level 4  | *[Layered Finesses](Reference.md#the-layered-finesse)*
 | Level 5  | *[Order Chop Moves](Reference.md#the-order-chop-move-ocm)*.
