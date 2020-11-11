@@ -2562,7 +2562,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 - Legal *Patch Finesses* are **always hidden**, meaning that from the person who is blind-playing a card to "patch" will **never** know that it is a *Patch Finesse* until **after** they blind-play.
 - In other words, if Alice performs a legal *Patch Finesse*, then **no-one else on the team has to even know that the *Patch Finesse* convention exists** - everything will just work out properly because everyone will just blind-play cards like any other ordinary *Layered Finesse*.
-  - The exception is when it comes time for the patched player to begin blind-playing. In this situation, the patched player might be "spooked" from the blind-play of the patcher, because they will not understand why the blind-play happened. In this situation, players need to have full trust and not be spooked by unexpected successful blind-play from other people on the team.
+  - The exception is when it comes time for the patched player to begin blind-playing. In this situation, the patched player might be "spooked" from the blind-play of the patcher, because they will not understand why the blind-play happened. In this situation, players need to have full trust and not be spooked when another person on the team successfully blind-plays a card in an unexpected way.
 
 ### The Double Patch Finesse (Illegal)
 
