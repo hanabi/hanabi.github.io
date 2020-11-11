@@ -54,11 +54,11 @@ Note that convention updates for the group are listed in the `#announcements` ch
   - [Special Bluffs](#level-17---rarely-used-strategies---special-bluffs)
   - [Special Suboptimal Moves](#level-17---rarely-used-strategies---special-suboptimal-moves)
   - [Pushes & Pulls](#level-17---rarely-used-strategies---pushes--pulls)
-  - [Ejection](#level-17---rarely-used-strategies---ejection)
-  - [Discharge](#level-17---rarely-used-strategies---discharge)
+  - [Ejections](#level-17---rarely-used-strategies---ejections)
+  - [Discharges](#level-17---rarely-used-strategies---discharges)
   - [Charm](#level-17---rarely-used-strategies---charm)
   - [Ejection & Discharge Extensions](#level-17---rarely-used-strategies---ejection--discharge-extensions)
-  - [Ignition](#level-17---rarely-used-strategies---ignition)
+  - [Ignitions](#level-17---rarely-used-strategies---ignitions)
   - [Save Clues & Non-Emergency Chop Moves](#level-17---rarely-used-strategies---save-clues--non-emergency-chop-moves)
   - [Emergency Moves](#level-17---rarely-used-strategies---emergency-moves)
   - [Unnecessary Usage of Complicated Moves](#level-17---rarely-used-strategies---unnecessary-usage-of-complicated-moves)
@@ -2351,10 +2351,10 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   - [Special Bluffs](#level-17---rarely-used-strategies---special-bluffs)
   - [Special Suboptimal Moves](#level-17---rarely-used-strategies---special-suboptimal-moves)
   - [Pushes & Pulls](#level-17---rarely-used---strategies-pushes--pulls)
-  - [Ejection](#level-17---rarely-used-strategies---ejection)
-  - [Discharge](#level-17---rarely-used-strategies---discharge)
+  - [Ejections](#level-17---rarely-used-strategies---ejections)
+  - [Discharges](#level-17---rarely-used-strategies---discharges)
   - [Ejection & Discharge Extensions](#level-17---rarely-used-strategies---ejection--discharge-extensions)
-  - [Ignition](#level-17---rarely-used-strategies---ignition)
+  - [Ignitions](#level-17---rarely-used-strategies---ignitions)
   - [Save Clues & Non-Emergency Chop Moves](#level-17---rarely-used-strategies---save-clues--non-emergency-chop-moves)
   - [Emergency Moves](#level-17---rarely-used-strategies---emergency-moves)
   - [Unnecessary Usage of Complicated Moves](#level-17---rarely-used-strategies---unnecessary-usage-of-complicated-moves)
@@ -3016,9 +3016,9 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 17 - Rarely Used Strategies - Ejection
+## Level 17 - Rarely Used Strategies - Ejections
 
-- *Ejection* refers to a move like a *Bluff*, but instead of playing an unrelated card from *Finesse Position*, someone plays an unrelated card from their *Second Finesse Position*. For example, if a player's hand is completely unclued, their *Second Finesse Position* is slot 2.
+- An *Ejection* refers to a move like a *Bluff*, but instead of playing an unrelated card from *Finesse Position*, the next person plays an unrelated card from their *Second Finesse Position*. For example, if a player's hand is completely unclued, their *Second Finesse Position* is slot 2.
 - Just like a *Bluff*, an *Ejection* can only be performed on the very next player.
 
 ### The 5 Color Ejection
@@ -3069,9 +3069,9 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 17 - Rarely Used Strategies - Discharge
+## Level 17 - Rarely Used Strategies - Discharges
 
-- *Discharge* is similar to *Ejection*, except instead of blind-playing the *Second Finesse Position* card, the player plays the *Third Finesse Position* card.
+- A *Discharge* is similar to *Ejection*, except instead of blind-playing their *Second Finesse Position* card, the next player plays their *Third Finesse Position* card.
 - Just like a *Bluff*, a *Discharge* can only be performed on the very next player.
 
 ### The Unknown Trash Discharge
