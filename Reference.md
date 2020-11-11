@@ -3049,17 +3049,20 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ## Level 18 - Rarely Used Strategies - Signal Shifting
 
-- Most clues can be said to send one of three distinct *Signals*: some card(s) should be ***Played***, ***Saved***, or (rarely) ***Trashed***.
-- Normal *Finesse Position* blind-plays occur when the clue will otherwise result in a misplay or other *Information Desynchronization*. The clue’s initial *Signal* will be sufficiently clarified after an appropriate number of blind-plays.
-- However, what if a clue is given such that the very next player can see that even one (or more) *Finesse Position* blind-play(s) would still leave the clue’s actual *Signal* as being misunderstood?
-- In these special situations, the next player is being called to blind-play a card **other** than their regular *Finesse Position* in order to fully *Shift* the original *Signal* in a fundamental way.
-    - Take the *5 Color Ejection* as an example: after *Second Finesse Position* is played, the original clue’s *Signal* fundamentally *Shifts* from a *Play* to a *5 Save*.
+- Nearly all clues send a distinct *Signal* about the card that is focused:
+  1) *Play* the card
+  2) *Save* the card
+  3) *Trash* the card (rarely)
+- Certain types of clues (likes *Finesses* or *Bluffs*) can result in *Information Desynchronization*. In order to resynchronize the team, normal *Finesse Position* blind-plays occur. After one or more blind-plays, the initial *Signal* will be sufficiently clarified.
+- But what if a clue is given such that a *Finesse Position* blind-play will **never** clarify the *Signal*?
+- In this situation, we agree that the next player should blind-play a card **other** than their regular *Finesse Position*. By doing so, they will *Shift* the original *Signal* in a fundamental way.
+  - For example, in the *5 Color Ejection*, the original clue's *Signal Shifts* from a *Play* to a *Save*.
 - This *Signal Shift* can take several forms: *Ejection*, *Discharge*, and *Charm*.
-- Just like a *Bluff*, all forms of *Signal Shifts* can only be performed on the very next player.
+- Just like a *Bluff*, all forms of *Signal Shifting* can only be performed on the very next player.
 
 ![Signal Shifting](img/signal_shifting.png)
 
-- The chart above summarizes the relationship of all existing *Signal Shift* conventions. Each is described in detail below.
+- This chart shows some existing *Signal Shift* conventions and how they relate to the three *Signals*. These moves are described in more detail later on.
 
 <br />
 
@@ -3135,6 +3138,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 ### 5 Number Discharge (5ND)
 
 - The *5 Number Discharge* is introduced in [level 15](#the-unknown-trash-discharge-utd).
+- This results in a *Signal Shift* from *Play* --> *Trash* (on the *5 Pulled* card).
 
 ### Trash Push Discharge
 
@@ -3146,7 +3150,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ## Level 18 - Rarely Used Strategies - Charm
 
-- *Charm* refers to a *Signal Shift* blind-play in which someone plays an unrelated card from their *Fourth Finesse Position*. For example, if a player's hand is completely unclued, their *Fourth Finesse Position* is slot 4.
+- A *Charm* refers to a *Signal Shift* blind-play in which someone plays an unrelated card from their *Fourth Finesse Position*. For example, if a player's hand is completely unclued, their *Fourth Finesse Position* is slot 4.
 - Just like a *Bluff*, a *Charm* can only be performed on the very next player.
 
 ### The Safety Charm (Declined 5 Pull)

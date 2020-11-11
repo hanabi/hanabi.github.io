@@ -10,7 +10,7 @@ https://github.com/Zamiell/hanabi-conventions/blob/master/misc/2-Player.md
 
 <br />
 
-### What is the reason to play 1’s in the starting hand from right-to-left (instead of from left-to-right)?
+### What is the reason to play 1's in the starting hand from right-to-left (instead of from left-to-right)?
 
 https://github.com/Zamiell/hanabi-conventions/blob/master/misc/Convention_Reasons.md#play-order-of-multiple-1s
 
@@ -38,9 +38,9 @@ Not everything has to have a meaning. We intentionally want to have situations b
 
 <br />
 
-### In what order should 1’s be played?
+### In what order should 1's be played?
 
-Chop, fresh 1’s left to right, opening 1’s right to left.
+Chop, fresh 1's left to right, opening 1's right to left.
 
 <br />
 
@@ -222,7 +222,7 @@ No. You are only allowed to delay playing into a *Finesse* if you are performing
 
 <br />
 
-### Why does *Gentleman’s Discard* only get the matching card instead of all of the various possibilities?
+### Why does *Gentleman's Discard* only get the matching card instead of all of the various possibilities?
 
 Because the discarding player might have asymmetric information about the identity of the card. In other words, they may have information that you do not know.
 
