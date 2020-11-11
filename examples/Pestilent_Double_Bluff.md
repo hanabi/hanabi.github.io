@@ -1,4 +1,4 @@
-## Examples of the [Pestilent Double Bluff](../Reference.md#the-pestilent-double-bluff)
+## Examples of the [Pestilent Double Bluff](../Reference.md#the-pestilent-double-bluff-pdb)
 
 ### Example 1
 
