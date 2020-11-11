@@ -428,7 +428,7 @@ Note that in this user interface, players are **not** holding their hands like t
 
 ### Playing Multiple 1's - The Fresh 1's Rule (Part 2)
 
-- First, see [Playing Multiple 1's - Play Order Inversion in the Starting Hand (Part 1)](#playing-multiple-1s---play-order-inversion-in-the-starting-hand-part-1).
+- First, see the section on [Playing Multiple 1's - Play Order Inversion in the Starting Hand (Part 1)](#playing-multiple-1s---play-order-inversion-in-the-starting-hand-part-1).
 - If two (or more) 1's are clued in someone's hand, and one of the 1's was in the starting hand, and one of the 1's was not, then the "fresh" card is probably more important. (Otherwise, the clue might have been given earlier.)
 - Thus, freshly drawn 1's should always be played before any 1's that were present in the starting hand.
 - Continuing on from the example in [Playing Multiple 1's - Part 1](#playing-multiple-1s---play-order-inversion-in-the-starting-hand-part-1), imagine that:
@@ -1799,7 +1799,7 @@ Note that in this user interface, players are **not** holding their hands like t
 - In the rare case where a *5 Pull* is performed in a 3-player game by touching two 5's in slot 1 and slot 3, then the *5 Pulled* card is slot 2.
 - For expert players, we define a specific [interaction between *5's Chop Moves* / *5 Pulls* and *2 Saves*](#2-saves-advanced-section-interaction-with-5s-chop-moves--5-pulls).
 
-### A Flowchart for Cluing 5's in the Low  Game
+### A Flowchart for Cluing 5's in the Early Game
 
 - Differentiating between a *5 Stall* and a *5 Pull* can sometimes be confusing. [Here is a handy flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/flowcharts/early_game_5_flowchart.png) that steps you through how you can tell the difference.
 
@@ -1810,15 +1810,46 @@ Note that in this user interface, players are **not** holding their hands like t
   - It is the first turn of the game and nothing is played on the stacks.
   - Cathy's hand is as follows, from newest to oldest: `blue 4, blue 4, blue 5, red 2, blue 2`
   - Alice clues number 5 to Cathy, touching the blue 5 on slot 3.
-  - Bob knows that since the team is the *Early Game*, Alice's clue might be a *5 Stall*. However, Bob also knows that you are only allowed to perform a *5 Stall* if there are no normal *Save Clues* or *Play Clues* to give. Bob sees that Cathy has a blue 2 on chop that could have been saved with a *2 Save*. Thus, Bob knows that Alice's clue cannot not be a *5 Stall*, which makes it a *5 Pull* instead (since it is two-or-more-away from the chop).
+  - Bob knows that since the team is the *Early Game*, Alice's clue might be a *5 Stall*. However, Bob also knows that you are only allowed to perform a *5 Stall* if there are no normal *Save Clues* or *Play Clues* to give.
+  - Bob sees that Cathy has a blue 2 on chop that could have been saved with a *2 Save*. Thus, Bob knows that Alice's clue cannot not be a *5 Stall*, which makes it a *5 Pull* instead (since it is two-or-more-away from the chop).
   - Bob knows that if this was a *5 Pull*, it would be pulling the red 2. If Bob does nothing, Cathy might go on to misplay the red 2 as some playable 1.
-  - Thus, this must be a *5 Pull Finesse*, so Bob blind-plays his *Finesse Position*. It is red 1 and it successfully plays.
-  - From Cathy's perspective, she initially concluded that Alice's number 5 clue was just a *5 Stall*. However, Bob blind-played his *Finesse Position* card, and Cathy knows that Bob would not do that if the move was a *5 Stall*. This must be a *5 Pull Finesse*, so Cathy blind-plays her slot 4 card. It is red 2 and it successfully plays.
-- As you would expect, it is also possible to perform a *5 Pull Double Finesse*. The "pulled" card will always match the final blind-play. (If you are looking for an example of a *5 Pull Double Finesse*, see [here](examples/5_Pull_Double_Finesse.md))
-- Unlike other types of *Finesses*, *5 Pull Finesses* must be demonstrated with a blind-play between when the *5 Pull* is given and the *5 Pulled* player's next turn.
+  - Thus, this must be a *5 Pull Finesse*, so Bob blind-plays his *Finesse Position*. It is a red 1 and it successfully plays.
+  - From Cathy's perspective, she initially concluded that Alice's number 5 clue was just a *5 Stall*. However, Bob blind-played his *Finesse Position* card, and Cathy knows that Bob would not do that if the move was a *5 Stall*. This must be a *5 Pull Finesse*, so Cathy blind-plays her slot 4 card. It is a red 2 and it successfully plays.
+- Unlike other types of *Finesses*, *5 Pull Finesses* **must** be demonstrated with a blind-play between when the *5 Pull* is given and the *5 Pulled* player's next turn (e.g. a *Forward Finesse*).
 - Subsequently, *5 Pulls* are **not** allowed to initiate a *Reverse Finesse*. (This is because we don't want the person with the pulled card to have to entertain too many possibilities.)
-- With that said, players **do** have to respect that forward *5 Pull Finesses* could be *Layered*, *Clandestine*, or have a "*Reverse Finesse*-component".
-- Remember that during a *5 Pull Finesse*, the pulled card **always** matches the blind-play. In other words, it generally impossible to ever perform a *5 Pull Bluff*, a *5 Pull Double Bluff*, and so on.
+- Remember that during a *5 Pull Finesse*, the pulled card **always** matches the blind-play. In other words, it generally impossible to perform a *5 Pull Bluff*, a *5 Pull Double Bluff*, and so on.
+
+### The 5 Pull Double Finesse
+
+- First, see the section on the [5 Pull Finesse](#the-5-pull-prompt--the-5-pull-finesse).
+- As you would expect, it is also possible to perform a *5 Pull Double Finesse* in the exact same way that you can *5 Pull Finesse*.
+- The "pulled" card will always match the final blind-play.
+- For example in a 4-player game:
+  - It is the first turn of the game and nothing is played on the stacks.
+  - Donald's hand is as follows, from newest to oldest: `blue 4, blue 4, blue 5, red 3, blue 2`
+  - Alice clues number 5 to Donald, touching the blue 5 on slot 3.
+  - Bob blind-plays the red 1 (because he knows that it cannot be a *5 Stall*).
+  - Cathy blind-plays the red 2 (because she knows that she needs to play into the *Double Finesse*).
+  - Donald knows that the *5 Pulled* card is the blue 3 to match the blue 1 and the blue 2.
+- Previously, we said that *5 Pull Finesse* **must** be a *Forward Finesse*. However, *5 Pulled* players **do** have to respect that a *5 Pull Finesse* can be a *5 Pull Double Finesse* with the second blind-play as a *Reverse Finesse*. (Specifically, we refer to this as a *Finesse* with a *Reverse Finesse* component.)
+- More examples of a *5 Pull Double Finesse* can be found [here](examples/5_Pull_Double_Finesse.md).
+
+### The 5 Pull Clandestine Finesse
+
+- A *5 Pull Finesse* **must** be a *Forward Finesse*.
+- However, *5 Pulled* players **do** have to respect that the *Finesse* can be *Clandestine*.
+- For example in a 4-player game:
+  - It is the first turn of the game and nothing is played on the stacks.
+  - Bob's hand is as follows, from newest to oldest: `red 1, green 1, green 4, green 4, green 5`
+  - Cathy's hand is as follows, from newest to oldest: `blue 4, blue 4, blue 5, green 2, blue 2`
+  - Alice clues number 5 to Cathy, touching the blue 5 on slot 3.
+  - Bob blind-plays the red 1 (because he knows that it cannot be a *5 Stall*).
+  - Normally, Cathy would think that Alice performed a *5 Pull Finesse*, and she would blind-play her slot 4 card as the red 2 (to match the red 1).
+  - However, Cathy also sees that at the time of the clue, Bob had a playable green 1 behind the red 1. Thus, it is possible that Alice might be performing a *5 Pull Clandestine Finesse*.
+  - Cathy clues number 5 to Bob as a *5 Save*. (This is an unrelated clue.)
+  - Alice performs an unrelated action.
+  - Bob blind-plays the green 1 from slot 2.
+  - Cathy now knows that this was indeed a *5 Pull Clandestine Finesse* and that she has the green 2 on her slot 4.
 
 ### The 5 Pull Promise (A Follow-up Play Clue After a 5 Pull)
 
