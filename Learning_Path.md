@@ -20,18 +20,23 @@ For information on how variants tie in to the levels, see the [variant summary](
 
 The following is a quick summary of the levels.
 
-- Basic *[Chop Moves](Reference.md#the-chop-move)* should not be used until level 3.
-- *[Layered Finesses](Reference.md#the-layered-finesse)* should not be used until level 4.
-- *[Order Chop Moves](Reference.md#the-order-chop-move-ocm)* should not be used until level 5.
-- *[Bluffs](Reference.md#the-bluff)* should not be used until level 8.
-- *[3 Bluffs](Reference.md#the-3-bluff)* should not be used until level 9.
-- *[The 5 Color Ejection](Reference.md#the-5-color-ejection-5ce)* should not be used until level 10.
-- *[The 5 Pull](Reference.md#the-5-pull)* should not be used until level 11.
-- *[Priority](Reference.md#the-priority-prompt--the-priority-finesse)* should not be used until level 12.
-- *[Elimination](Reference.md#discard-elimination--elimination-notes)* should not be used until level 13.
-- [*Finesses* with a *Lie Component*](Reference.md#finesses-with-a-lie-component) should not be used until level 14.
-- *[The Unknown Trash Discharge](Reference.md#the-unknown-trash-discharge-utd)* should not be used until level 15.
-- *[Double Bluffs](Reference.md#the-double-bluff)* should not be used until level 16.
+| Level    | Main Convention Learned
+| Level 3  | Basic *[Chop Moves](Reference.md#the-chop-move)*
+| Level 4  | *[Layered Finesses](Reference.md#the-layered-finesse)*
+| Level 5  | *[Order Chop Moves](Reference.md#the-order-chop-move-ocm)*.
+| Level 6  | *[Locked Hand Saves](Reference.md#the-locked-hand-save-lhs)* & *[8 Clue Saves](Reference.md#clues-given-while-at-8-clues--the-8-clue-save-severity-4-stalling)
+| Level 7  | *[The Gentleman's Discard](Reference.md#the-gentlemans-discard)*
+| Level 8  | *[Bluffs](Reference.md#the-bluff)*
+| Level 9  | *[3 Bluffs](Reference.md#the-3-bluff)*
+| Level 10 | *[The 5 Color Ejection](Reference.md#the-5-color-ejection-5ce)*
+| Level 11 | *[The 5 Pull](Reference.md#the-5-pull)*
+| Level 12 | *[Priority](Reference.md#the-priority-prompt--the-priority-finesse)*
+| Level 13 | *[Elimination](Reference.md#discard-elimination--elimination-notes)*
+| Level 14 | [*Finesses* with a *Lie Component*](Reference.md#finesses-with-a-lie-component)
+| Level 15 | *[The Unknown Trash Discharge](Reference.md#the-unknown-trash-discharge-utd)* & [The 5 Number Discharge](#Reference.md#5-number-discharge-5nd)
+| Level 16 | *[Double Bluffs](Reference.md#the-double-bluff)*
+| Level 17 | *[The Good Touch Bluff](Reference.md#the-good-touch-bluff)* & *[The Pestilent Double Bluff](Reference.md#the-pestilent-double-bluff-pdb)*
+| Level 18 | All the other miscellaneous conventions
 
 <br />
 
@@ -188,10 +193,10 @@ The following is a brief description of each level.
   - *[The Double Bluff](Reference.md#the-double-bluff)*
   - *[The 4 Double Bluff & The 5 Double Bluff](Reference.md#the-4-double-bluff--the-5-double-bluff)*
 
-#### Level 17 - Rarely Used
+#### Level 18 - Rarely Used
 
-- Level 17 strategies are separated from the rest because they do not come up that often. Thus, non-expert players do not have to worry about learning them. If they do come up in a game, players with experience can often figure out what to do on-the-fly. Even if they don't, they can quickly learn about them in the post-game review, and then use the document as a reference later on in case they need to refresh their memory.
-  - [Level 17 Section](Reference.md#level-17---rarely-used-strategies)
+- Level 18 strategies are separated from the rest because they do not come up that often. Thus, non-expert players do not have to worry about learning them. If they do come up in a game, players with experience can often figure out what to do on-the-fly. Even if they don't, they can quickly learn about them in the post-game review, and then use the document as a reference later on in case they need to refresh their memory.
+  - [Level 18 Section](Reference.md#level-18---rarely-used-strategies)
 
 <br />
 

@@ -10,8 +10,8 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 2. [Level 9 - Violations of Pink Promise That Don't Require a Fix](#level-9---violations-of-pink-promise-that-dont-require-a-fix)
 3. [Level 10 - Pink Fix Clues](#level-10---pink-fix-clues)
 4. [Level 12 - Other Special Moves](#level-12---other-special-moves)
-5. [Level 17 - Bubblegum Moves](#level-17---bubblegum-moves)
-6. [Level 17 - Edge Cases](#level-17---edge-cases)
+5. [Level 18 - Bubblegum Moves](#level-18---bubblegum-moves)
+6. [Level 18 - Edge Cases](#level-18---edge-cases)
 
 <br />
 
@@ -188,7 +188,7 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 
 <br />
 
-## Level 17 - Bubblegum Moves & Other Special Moves
+## Level 18 - Bubblegum Moves & Other Special Moves
 
 ### The Bubblegum Prompt & The Bubblegum Finesse
 
@@ -252,7 +252,7 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 
 <br />
 
-## Level 17 - Edge Cases
+## Level 18 - Edge Cases
 
 ### Trash Finesses & Trash Bluffs in Pink
 

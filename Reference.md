@@ -49,21 +49,22 @@ Note that convention updates for the group are listed in the `#announcements` ch
 - [Level 14 - Scholar](#level-14---scholar)
 - [Level 15 - Erudite](#level-15---erudite)
 - [Level 16 - Expert](#level-16---expert)
-- [Level 17 - Rarely Used Strategies](#level-17---rarely-used-strategies)
-  - [Special Finesses](#level-17---rarely-used-strategies---special-finesses)
-  - [Special Bluffs](#level-17---rarely-used-strategies---special-bluffs)
-  - [Special Suboptimal Moves](#level-17---rarely-used-strategies---special-suboptimal-moves)
-  - [Pushes & Pulls](#level-17---rarely-used-strategies---pushes--pulls)
-  - [Signal Shifting](#level-17---rarely-used-strategies---signal-shifting)
-  - [Ejections](#level-17---rarely-used-strategies---ejections)
-  - [Discharges](#level-17---rarely-used-strategies---discharges)
-  - [Charm](#level-17---rarely-used-strategies---charm)
-  - [Ejection & Discharge Extensions](#level-17---rarely-used-strategies---ejection--discharge-extensions)
-  - [Ignitions](#level-17---rarely-used-strategies---ignitions)
-  - [Save Clues & Non-Emergency Chop Moves](#level-17---rarely-used-strategies---save-clues--non-emergency-chop-moves)
-  - [Emergency Moves](#level-17---rarely-used-strategies---emergency-moves)
-  - [Unnecessary Usage of Complicated Moves](#level-17---rarely-used-strategies---unnecessary-usage-of-complicated-moves)
-  - [Miscellaneous](#level-17---rarely-used-strategies---miscellaneous)
+- [Level 17 - Master](#level-18---master)
+- [Level 18 - Rarely Used Strategies](#level-18---rarely-used-strategies)
+  - [Special Finesses](#level-18---rarely-used-strategies---special-finesses)
+  - [Special Bluffs](#level-18---rarely-used-strategies---special-bluffs)
+  - [Special Suboptimal Moves](#level-18---rarely-used-strategies---special-suboptimal-moves)
+  - [Pushes & Pulls](#level-18---rarely-used-strategies---pushes--pulls)
+  - [Signal Shifting](#level-18---rarely-used-strategies---signal-shifting)
+  - [Ejections](#level-18---rarely-used-strategies---ejections)
+  - [Discharges](#level-18---rarely-used-strategies---discharges)
+  - [Charm](#level-18---rarely-used-strategies---charm)
+  - [Ejection & Discharge Extensions](#level-18---rarely-used-strategies---ejection--discharge-extensions)
+  - [Ignitions](#level-18---rarely-used-strategies---ignitions)
+  - [Save Clues & Non-Emergency Chop Moves](#level-18---rarely-used-strategies---save-clues--non-emergency-chop-moves)
+  - [Emergency Moves](#level-18---rarely-used-strategies---emergency-moves)
+  - [Unnecessary Usage of Complicated Moves](#level-18---rarely-used-strategies---unnecessary-usage-of-complicated-moves)
+  - [Miscellaneous](#level-18---rarely-used-strategies---miscellaneous)
 - [Variant-Specific Strategies](#variant-specific-strategies)
 - [Convention Attribution](#convention-attribution)
 
@@ -2259,6 +2260,26 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   - Cathy knows that a *Discharge* has occurred from Alice's red clue. Thus, this must be an *Unknown Trash Discharge*, so Cathy's red card must be trash. Cathy marks her red card as red 1 (since that is the only possible trash red card) and discards it.
 - When multiple cards are clued with an *Unknown Trash Discharge*, **only the focus of the clue is considered to be trash**. This means that *Good Touch Principle* applies to the non-focused cards. (Note that this is **the opposite of the *Trash Bluff***. In a *Trash Bluff*, when multiple cards are clued, **all** of the touched cards are considered to be trash.)
 
+### 5 Number Discharge (5ND)
+
+- This convention only applies in the *Low Score Phase*.
+- Players are only allowed to perform a *5 Stall* in certain situations. If a player performs a *5 Stall* when it would otherwise be illegal, then it is not a *5 Stall* at all, and would instead be:
+  - a *5's Chop Move* if the 5 is one-away-from-chop
+  - a *5 Pull* if the 5 is two-or-more-away-from-chop and the card to the right of it is playable
+  - a *5 Pull Finesse* if the 5 is two-or-more-away-from-chop and the card to the right of it is *one-away-from-playable*
+- However, what if the 5 is two-or-more-away-from-chop and the card to the right of it is *two-or-more-away-from-playable* **or** trash? This would be quite strange.
+- We agree that this signals a *Discharge* and that the next player should play their *Third Finesse Position*.
+- For example, in a 3-player game:
+  - It is the first turn and nothing is played on the stacks.
+  - Alice clues number 5 to Cathy, touching a 5 on slot 1.
+  - Cathy hand is, from newest to oldest: red 5, red 3, green 2, green 1, green 2
+  - Bob thinks about what Alice's 5 clue could mean:
+    - The clue cannot be a *5 Stall*, because there is a green 1 to *Play Clue*.
+    - The clue cannot be a *5 Pull*, because the red 3 is not playable.
+    - The clue cannot be a *5 Pull Finesse*, because the red 3 is *two-away-from-playable*.
+  - Since Bob would have to blind-play two cards into the *Finesse* (the same rule as in *5 Color Ejections*), Bob knows that he should instead treat this as a *5 Number Discharge*. Bob blind-plays his slot 3 card and it successfully plays as the red 1.
+- More examples of a *5 Number Discharge* can be found [here](examples/5_Number_Discharge.md).
+
 <br />
 
 ## Level 16 - Expert
@@ -2343,28 +2364,73 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 17 - Rarely Used Strategies
+## Level 17 - Master
 
-- Level 17 strategies are separated from the rest because they do not come up that often. Thus, non-expert players do not have to worry about learning them. If they do come up in a game, players with experience can often figure out what to do on-the-fly. Even if they don't, they can quickly learn about them in the post-game review, and then use the document as a reference later on in case they need to refresh their memory.
+- Level 17 strategies should only be learned if you have 300+ games of experience with the group.
+- This level covers some special *Bluffs*.
 - See the [learning path document](Learning_Path.md) for general descriptions of each level.
-- Level 17 subsections:
-  - [Special Finesses](#level-17---rarely-used-strategies---special-finesses)
-  - [Special Bluffs](#level-17---rarely-used-strategies---special-bluffs)
-  - [Special Suboptimal Moves](#level-17---rarely-used-strategies---special-suboptimal-moves)
-  - [Pushes & Pulls](#level-17---rarely-used---strategies-pushes--pulls)
-  - [Ejections](#level-17---rarely-used-strategies---ejections)
-  - [Discharges](#level-17---rarely-used-strategies---discharges)
-  - [Ejection & Discharge Extensions](#level-17---rarely-used-strategies---ejection--discharge-extensions)
-  - [Ignitions](#level-17---rarely-used-strategies---ignitions)
-  - [Save Clues & Non-Emergency Chop Moves](#level-17---rarely-used-strategies---save-clues--non-emergency-chop-moves)
-  - [Emergency Moves](#level-17---rarely-used-strategies---emergency-moves)
-  - [Unnecessary Usage of Complicated Moves](#level-17---rarely-used-strategies---unnecessary-usage-of-complicated-moves)
-  - [Miscellaneous](#level-17---rarely-used-strategies---miscellaneous)
+- Head back to the [table of contents](#table-of-contents).
+
+### The Good Touch Bluff
+
+- Care has to be taken so that a *Bluff* does not look like a *Finesse*. For example, in a 4-player game:
+  - Red 2 and blue 2 are played on the stacks.
+  - Alice clues Cathy number 4, which touches a red 4.
+  - Bob blind-plays a blue 3 from his *Finesse Position*.
+  - Since 3 matches 4, Cathy knows she has the blue 4, and goes on to misplay red 4 as blue 4.
+  - Thus, Alice should not have given this clue.
+- However, what if someone else on the team already has the matching card? In this situation, the clue can be given without fear: from *Good Touch Principle*, the clue recipient will know that it is a *Bluff* instead of a *Finesse*.
+- For example, in a 4-player game:
+  - Red 2 and blue 2 are played on the stacks.
+  - Alice clues Cathy number 4, which touches a red 4.
+  - Bob blind-plays a blue 3 from his *Finesse Position*.
+  - Cathy's first thought is that since 3 matches 4, she must have the blue 4. However, Cathy sees that Donald already has a clued blue 4 it in his hand. (The blue 4 just has a blue clue on it and the true identity of the card is not yet known to Donald.)
+  - Cathy knows that she must **not** have the blue 4, because then Alice's clue would have violated *Good Touch Principle*. Cathy can reason that her 4 is instead some **other** *one-away-from-playable* 4. The only other valid *Bluff* target is the red 4 (because the only *one-away-from-playable* 4 is red 4). So, Cathy marks her card as red 4 as discards.
+  - Donald is surprised by Alice's clue. From Donald's perspective, Cathy should have misplayed the red 4 as the blue 4, since 3 matches 4.
+  - Since Cathy did not misplay, Donald can reason that **he** must have the blue 4. Donald marks the previously unknown blue card in his hand as blue 4.
+
+### The Pestilent Double Bluff (PDB)
+
+- In the *Good Touch Bluff*, a *Bluff* is given that looks like a *Finesse*. However, what if something that looks like a *Good Touch Bluff* is done, but the "matching" card is not yet clued?
+- For example, in a 4-player game:
+  - It is the first turn and nothing is played on the stacks.
+  - Alice goes first.
+  - Bob has a red 1 on slot 1 and a blue 2 on slot 2.
+  - Alice clues number 2 to Bob, touching a blue 2 on slot 2.
+  - Bob does not see any other 1's on *Finesse Position*. Thus, the number 2 clue must be a *Self-Finesse*, so he blind-plays red 1.
+  - Cathy comes next. From her perspective, Bob should currently think that his slot 2 card is red 2 (instead of blue 2). If nothing else happens, Bob will go on to misplay that card.
+  - Cathy knows that technically, she could give a *Fix Clue* to Bob to fix the situation. However, is that what Alice really intended? That would be waste a clue and would be really inefficient. Alice must be trying to communicate something extra.
+- In almost all cases, Cathy should blind-play her *Finesse Position* card as the red 2. Doing so would "heal" the situation, since Bob would no longer think he has the red 2.
+- Furthermore, Cathy could also be blind-playing **any** playable card. Even if it is not the red 2, blind-playing any card would equally "heal" the situation, because Bob would know that Cathy is blind-playing from the same clue.
+- This is a kind of *Double Bluff*, since it gets two people in a row to blind-play their *Finesse Position*, getting two unrelated cards. However, unlike a normal *Double Bluff*, a *Pestilent Double Bluff* is initiated by cluing a *one-away-from-playable* card (instead of a two-or-more-away-from-playable card).
+- Additionally, consider the case where Cathy sees one red 2 of someone else's hand (e.g. Donald's hand). In this hypothetical, Cathy could just give a *Play Clue* to the red 2 in Donald's hand, Donald would play the card, and that would "heal" the situation, because Bob would no longer think that he has the red 2. However, we agree that Cathy should **not** do this and should **still** blind-play her *Finesse Position* card. (This is because doing something weird like this for a 3-for-2 is not strong enough.)
+- Additionally, consider the case where Cathy sees **both** copies of red 2 in someone else's hand (e.g. Donald's hand). In this hypothetical, Bob would not go on to misplay the red 2, so no further action is needed to heal the situation. However, we agree that Cathy should **still** blind-play her *Finesse Position* card (as a *Known Pestilent Double Bluff*). (This is because seeing both copies is so rare that we do not want complicate things by having to consider it.)
+- More examples of a *Pestilent Double Bluff* can be found [here](examples/Pestilent_Double_Bluff.md).
+
+<br />
+
+## Level 18 - Rarely Used Strategies
+
+- Level 18 strategies are separated from the rest because they do not come up that often. Thus, non-expert players do not have to worry about learning them. If they do come up in a game, players with experience can often figure out what to do on-the-fly. Even if they don't, they can quickly learn about them in the post-game review, and then use the document as a reference later on in case they need to refresh their memory.
+- See the [learning path document](Learning_Path.md) for general descriptions of each level.
+- Level 18 subsections:
+  - [Special Finesses](#level-18---rarely-used-strategies---special-finesses)
+  - [Special Bluffs](#level-18---rarely-used-strategies---special-bluffs)
+  - [Special Suboptimal Moves](#level-18---rarely-used-strategies---special-suboptimal-moves)
+  - [Pushes & Pulls](#level-18---rarely-used---strategies-pushes--pulls)
+  - [Ejections](#level-18---rarely-used-strategies---ejections)
+  - [Discharges](#level-18---rarely-used-strategies---discharges)
+  - [Ejection & Discharge Extensions](#level-18---rarely-used-strategies---ejection--discharge-extensions)
+  - [Ignitions](#level-18---rarely-used-strategies---ignitions)
+  - [Save Clues & Non-Emergency Chop Moves](#level-18---rarely-used-strategies---save-clues--non-emergency-chop-moves)
+  - [Emergency Moves](#level-18---rarely-used-strategies---emergency-moves)
+  - [Unnecessary Usage of Complicated Moves](#level-18---rarely-used-strategies---unnecessary-usage-of-complicated-moves)
+  - [Miscellaneous](#level-18---rarely-used-strategies---miscellaneous)
 - Head back to the [table of contents](#table-of-contents).
 
 <br />
 
-## Level 17 - Rarely Used Strategies - Special Finesses
+## Level 18 - Rarely Used Strategies - Special Finesses
 
 ### The Selfish Finesse (A Finesse Through Your Own Hand)
 
@@ -2595,13 +2661,13 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### The Pestilent Finesse
 
-- First, see the section on the *[Pestilent Double Bluff](#the-pestilent-double-bluff)*.
+- First, see the section on the *[Pestilent Double Bluff](#the-pestilent-double-bluff-pdb)*.
 - In the *Pestilent Double Bluff* example, Cathy is supposed to immediately blind-play her *Finesse Position* card in order to "heal" the situation with Bob.
 - However, if Cathy sees that someone else on the team has the red 2 in their *Finesse Position*, then Cathy can see that it is a *Pestilent Finesse* instead of a *Pestilent Bluff*. Cathy can simply let the person with the actual red 2 blind-play and that will "heal" the problem in the exact same way.
 
 ### The Diseased Clandestine Finesse
 
-- First, see the section on the *[Pestilent Double Bluff](#the-pestilent-double-bluff)*.
+- First, see the section on the *[Pestilent Double Bluff](#the-pestilent-double-bluff-pdb)*.
 - In the *Pestilent Double Bluff* example, Cathy is supposed to immediately blind-play her *Finesse Position* card in order to "heal" the situation with Bob.
 - However, if Cathy sees a clue that she can give that will turn the move into a *Clandestine Finesse* on Bob, then she must always do that.
 - For example, in a 4-player game:
@@ -2705,7 +2771,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 17 - Rarely Used Strategies - Special Bluffs
+## Level 18 - Rarely Used Strategies - Special Bluffs
 
 ### Known Bluffs
 
@@ -2859,45 +2925,9 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   - Valid *Out-of-Position Bluffs* take precedence over *Layered Finesses*. In other words, if Cathy can see that an *OOP Bluff* could be valid (meaning it meets one of the three criteria above), then Cathy should not continue to blind-play cards as a *Layered Finesse*. (This is a common mistake.)
 - A *Reverse Bluff* is just a just a more-specific type of *Out-of-Position Bluff*. All of the same stipulations apply.
 
-### The Good Touch Bluff
-
-- Care has to be taken so that a *Bluff* does not look like a *Finesse*. For example, in a 4-player game:
-  - Red 2 and blue 2 are played on the stacks.
-  - Alice clues Cathy number 4, which touches a red 4.
-  - Bob blind-plays a blue 3 from his *Finesse Position*.
-  - Since 3 matches 4, Cathy knows she has the blue 4, and goes on to misplay red 4 as blue 4.
-  - Thus, Alice should not have given this clue.
-- However, what if someone else on the team already has the matching card? In this situation, the clue can be given without fear: from *Good Touch Principle*, the clue recipient will know that it is a *Bluff* instead of a *Finesse*.
-- For example, in a 4-player game:
-  - Red 2 and blue 2 are played on the stacks.
-  - Alice clues Cathy number 4, which touches a red 4.
-  - Bob blind-plays a blue 3 from his *Finesse Position*.
-  - Cathy's first thought is that since 3 matches 4, she must have the blue 4. However, Cathy sees that Donald already has a clued blue 4 it in his hand. (The blue 4 just has a blue clue on it and the true identity of the card is not yet known to Donald.)
-  - Cathy knows that she must **not** have the blue 4, because then Alice's clue would have violated *Good Touch Principle*. Cathy can reason that her 4 is instead some **other** *one-away-from-playable* 4. The only other valid *Bluff* target is the red 4 (because the only *one-away-from-playable* 4 is red 4). So, Cathy marks her card as red 4 as discards.
-  - Donald is surprised by Alice's clue. From Donald's perspective, Cathy should have misplayed the red 4 as the blue 4, since 3 matches 4.
-  - Since Cathy did not misplay, Donald can reason that **he** must have the blue 4. Donald marks the previously unknown blue card in his hand as blue 4.
-
-### The Pestilent Double Bluff (PDB)
-
-- In the *Good Touch Bluff*, a *Bluff* is given that looks like a *Finesse*. However, what if something that looks like a *Good Touch Bluff* is done, but the "matching" card is not yet clued?
-- For example, in a 4-player game:
-  - It is the first turn and nothing is played on the stacks.
-  - Alice goes first.
-  - Bob has a red 1 on slot 1 and a blue 2 on slot 2.
-  - Alice clues number 2 to Bob, touching a blue 2 on slot 2.
-  - Bob does not see any other 1's on *Finesse Position*. Thus, the number 2 clue must be a *Self-Finesse*, so he blind-plays red 1.
-  - Cathy comes next. From her perspective, Bob should currently think that his slot 2 card is red 2 (instead of blue 2). If nothing else happens, Bob will go on to misplay that card.
-  - Cathy knows that technically, she could give a *Fix Clue* to Bob to fix the situation. However, is that what Alice really intended? That would be waste a clue and would be really inefficient. Alice must be trying to communicate something extra.
-- In almost all cases, Cathy should blind-play her *Finesse Position* card as the red 2. Doing so would "heal" the situation, since Bob would no longer think he has the red 2.
-- Furthermore, Cathy could also be blind-playing **any** playable card. Even if it is not the red 2, blind-playing any card would equally "heal" the situation, because Bob would know that Cathy is blind-playing from the same clue.
-- This is a kind of *Double Bluff*, since it gets two people in a row to blind-play their *Finesse Position*, getting two unrelated cards. However, unlike a normal *Double Bluff*, a *Pestilent Double Bluff* is initiated by cluing a *one-away-from-playable* card (instead of a two-or-more-away-from-playable card).
-- Additionally, consider the case where Cathy sees one red 2 of someone else's hand (e.g. Donald's hand). In this hypothetical, Cathy could just give a *Play Clue* to the red 2 in Donald's hand, Donald would play the card, and that would "heal" the situation, because Bob would no longer think that he has the red 2. However, we agree that Cathy should **not** do this and should **still** blind-play her *Finesse Position* card. (This is because doing something weird like this for a 3-for-2 is not strong enough.)
-- Additionally, consider the case where Cathy sees **both** copies of red 2 in someone else's hand (e.g. Donald's hand). In this hypothetical, Bob would not go on to misplay the red 2, so no further action is needed to heal the situation. However, we agree that Cathy should **still** blind-play her *Finesse Position* card (as a *Known Pestilent Double Bluff*). (This is because seeing both copies is so rare that we do not want complicate things by having to consider it.)
-- More examples of a *Pestilent Double Bluff* can be found [here](examples/Pestilent_Double_Bluff.md).
-
 ### The Pestilent Triple Bluff
 
-- First, see the section on the *[Pestilent Double Bluff](#the-pestilent-double-bluff)*.
+- First, see the section on the *[Pestilent Double Bluff](#the-pestilent-double-bluff-pdb)*.
 - Rarely, it is possible that a *Pestilent*-style clues is performed with a two-away-from-playable card instead of a *one-away-from-playable* card. In this situation, it would transform into a *Triple Bluff* instead of a *Double Bluff*.
 - Note that normally, *Triple Bluffs* are explicitly illegal. But *Pestilent Triple Bluffs* are an exception to this rule.
 - For example, in a 5-player game:
@@ -2938,7 +2968,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 17 - Rarely Used Strategies - Special Suboptimal Moves
+## Level 18 - Rarely Used Strategies - Special Suboptimal Moves
 
 - The following *Finesses* or *Bluffs* are triggered by performing a suboptimal clue or by picking a strange choice for a clue.
 
@@ -2983,7 +3013,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 17 - Rarely Used Strategies - Pushes & Pulls
+## Level 18 - Rarely Used Strategies - Pushes & Pulls
 
 ### The Trash Push Prompt & The Trash Push Finesse
 
@@ -3017,7 +3047,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 17 - Rarely Used Strategies - Signal Shifting
+## Level 18 - Rarely Used Strategies - Signal Shifting
 
 - Most clues can be said to send one of three distinct *Signals*: some card(s) should be ***Played***, ***Saved***, or (rarely) ***Trashed***.
 - Normal *Finesse Position* blind-plays occur when the clue will otherwise result in a misplay or other *Information Desynchronization*. The clue’s initial *Signal* will be sufficiently clarified after an appropriate number of blind-plays.
@@ -3033,7 +3063,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 17 - Rarely Used Strategies - Ejections
+## Level 18 - Rarely Used Strategies - Ejections
 
 - An *Ejection* refers to a *Signal Shift* blind-play in which someone plays an unrelated card from their *Second Finesse Position*.
   - For example, if a player's hand is completely unclued, their *Second Finesse Position* is slot 2.
@@ -3091,7 +3121,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 17 - Rarely Used Strategies - Discharges
+## Level 18 - Rarely Used Strategies - Discharges
 
 - A *Discharge* refers to a *Signal Shift* blind-play in which someone plays an unrelated card from their *Third Finesse Position*.
   - For example, if a player's hand is completely unclued, their *Third Finesse Position* is slot 3.
@@ -3104,24 +3134,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### 5 Number Discharge (5ND)
 
-- This convention only applies in the *Low Score Phase*.
-- Players are only allowed to perform a *5 Stall* in certain situations. If a player performs a *5 Stall* when it would otherwise be illegal, then it is not a *5 Stall* at all, and would instead be:
-  - a *5's Chop Move* if the 5 is one-away-from-chop
-  - a *5 Pull* if the 5 is two-or-more-away-from-chop and the card to the right of it is playable
-  - a *5 Pull Finesse* if the 5 is two-or-more-away-from-chop and the card to the right of it is *one-away-from-playable*
-- However, what if the 5 is two-or-more-away-from-chop and the card to the right of it is *two-or-more-away-from-playable* **or** trash? This would be quite strange.
-- We agree that this signals a *Discharge* and that the next player should play their *Third Finesse Position*.
-- This results in a *Signal Shift* from *5 Pull* --> *5 Stall*.
-- For example, in a 3-player game:
-  - It is the first turn and nothing is played on the stacks.
-  - Alice clues number 5 to Cathy, touching a 5 on slot 1.
-  - Cathy hand is, from newest to oldest: red 5, red 3, green 2, green 1, green 2
-  - Bob thinks about what Alice's 5 clue could mean:
-    - The clue cannot be a *5 Stall*, because there is a green 1 to *Play Clue*.
-    - The clue cannot be a *5 Pull*, because the red 3 is not playable.
-    - The clue cannot be a *5 Pull Finesse*, because the red 3 is *two-away-from-playable*.
-  - Since Bob would have to blind-play two cards into the *Finesse* (the same rule as in *5 Color Ejections*), Bob knows that he should instead treat this as a *5 Number Discharge*. Bob blind-plays his slot 3 card and it successfully plays as the red 1.
-- More examples of a *5 Number Discharge* can be found [here](examples/5_Number_Discharge.md).
+- The *5 Number Discharge* is introduced in [level 15](#the-unknown-trash-discharge-utd).
 
 ### Trash Push Discharge
 
@@ -3131,7 +3144,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 17 - Rarely Used Strategies - Charm
+## Level 18 - Rarely Used Strategies - Charm
 
 - *Charm* refers to a *Signal Shift* blind-play in which someone plays an unrelated card from their *Fourth Finesse Position*. For example, if a player's hand is completely unclued, their *Fourth Finesse Position* is slot 4.
 - Just like a *Bluff*, a *Charm* can only be performed on the very next player.
@@ -3160,7 +3173,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 17 - Rarely Used Strategies - Ejection & Discharge Extensions
+## Level 18 - Rarely Used Strategies - Ejection & Discharge Extensions
 
 ### The Out-of-Position Ejection
 
@@ -3209,7 +3222,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 17 - Rarely Used Strategies - Ignition
+## Level 18 - Rarely Used Strategies - Ignition
 
 ### Ignition
 
@@ -3256,7 +3269,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 17 - Rarely Used Strategies - Save Clues & Non-Emergency Chop Moves
+## Level 18 - Rarely Used Strategies - Save Clues & Non-Emergency Chop Moves
 
 ### 2 Saves (Off Chop on the First Turn)
 
@@ -3316,7 +3329,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 17 - Rarely Used Strategies - Emergency Moves
+## Level 18 - Rarely Used Strategies - Emergency Moves
 
 ### The Fake Save
 
@@ -3437,7 +3450,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 17 - Rarely Used Strategies - Unnecessary Usage of Complicated Moves
+## Level 18 - Rarely Used Strategies - Unnecessary Usage of Complicated Moves
 
 - Some complicated moves have special versions that are defined as *unnecessary*.
 - For example, it is possible to perform either a *Trash Bluff* or an *Unnecessary Trash Bluff*.
@@ -3540,7 +3553,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 17 - Rarely Used Strategies - Miscellaneous
+## Level 18 - Rarely Used Strategies - Miscellaneous
 
 ### The Selfish Clue
 
