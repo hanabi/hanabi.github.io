@@ -55,6 +55,7 @@ Note that convention updates for the group are listed in the `#announcements` ch
   - [Special Bluffs](#level-18---rarely-used-strategies---special-bluffs)
   - [Special Suboptimal Moves](#level-18---rarely-used-strategies---special-suboptimal-moves)
   - [Pushes & Pulls](#level-18---rarely-used-strategies---pushes--pulls)
+  - [Signal Shifting](#level-18---rarely-used-strategies---signal-shifting)
   - [Ejections](#level-18---rarely-used-strategies---ejections)
   - [Discharges](#level-18---rarely-used-strategies---discharges)
   - [Charm](#level-18---rarely-used-strategies---charm)
@@ -3046,25 +3047,45 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
+## Level 18 - Rarely Used Strategies - Signal Shifting
+
+- Most clues can be said to send one of three distinct *Signals*: some card(s) should be ***Played***, ***Saved***, or (rarely) ***Trashed***.
+- Normal *Finesse Position* blind-plays occur when the clue will otherwise result in a misplay or other *Information Desynchronization*. The clue’s initial *Signal* will be sufficiently clarified after an appropriate number of blind-plays.
+- However, what if a clue is given such that the very next player can see that even one (or more) *Finesse Position* blind-play(s) would still leave the clue’s actual *Signal* as being misunderstood?
+- In these special situations, the next player is being called to blind-play a card **other** than their regular *Finesse Position* in order to fully *Shift* the original *Signal* in a fundamental way.
+    - Take the *5 Color Ejection* as an example: after *Second Finesse Position* is played, the original clue’s *Signal* fundamentally *Shifts* from a *Play* to a *5 Save*.
+- This *Signal Shift* can take several forms: *Ejection*, *Discharge*, and *Charm*.
+- Just like a *Bluff*, all forms of *Signal Shifts* can only be performed on the very next player.
+
+![Signal Shifting](img/signal_shifting.png)
+
+- The chart above summarizes the relationship of all existing *Signal Shift* conventions. Each is described in detail below.
+
+<br />
+
 ## Level 18 - Rarely Used Strategies - Ejections
 
-- An *Ejection* refers to a move like a *Bluff*, but instead of playing an unrelated card from *Finesse Position*, the next person plays an unrelated card from their *Second Finesse Position*. For example, if a player's hand is completely unclued, their *Second Finesse Position* is slot 2.
-- Just like a *Bluff*, an *Ejection* can only be performed on the very next player.
+- An *Ejection* refers to a *Signal Shift* blind-play in which someone plays an unrelated card from their *Second Finesse Position*.
+  - For example, if a player's hand is completely unclued, their *Second Finesse Position* is slot 2.
+- Just like a *Bluff*, an *Ejection* can only be performed on the very next player.
 
 ### The 5 Color Ejection
 
 - The *5 Color Ejection* is covered earlier on at [level 10](#the-5-color-ejection-5ce).
+- This results in a *Signal Shift* from *Play* --> *Save*.
 
 ### Double Play Ejection
 
 - If a player knows that a card in their hand is playable, and then they receive **another** clue on that card, it is usually a *Fix Clue*, which means that the card is actually bad and they should discard it instead of playing it.
 - However, if this happens on a good card, the other players can see that the clue must have some other purpose - it should signal an *Ejection* on the very next player.
+- This results in a *Signal Shift* from *Fix* --> *Play*.
 
 ### Bad Chop Move Ejection (with a Trash Chop Move)
 
 - Normally, when known trash is touched as the focus of the clue, and the known trash is not on chop, it communicates a *Trash Chop Move*.
 - However, what if the *Chop Moved* cards are also all trash? The other players can see that this clue must have some other purpose.
 - In this situation, it should signal an *Ejection* on the very next player.
+- This results in a *Signal Shift* from *Save* --> *Trash*.
 - *Bad Chop Move Ejection* can be performed throughout the game. (But keep in mind that in the *End-Game*, a player might just be stalling.)
 
 ### Bad Chop Move Ejection (with 5's)
@@ -3089,6 +3110,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 - Typically, when a number 2 clue or a number 5 clue is performed on a chop card, it will be treated as a *2 Save* or a *5 Save* and the card will not play.
 - If a player performs a *2 Save* or a *5 Save* on a playable card and they could have easily used a normal color *Play Clue*, this is quite strange. They must be trying to communicate something extra.
 - In this situation, they intend for an *Ejection* on the very next player.
+- This results in a *Signal Shift* from *Play* --> *Save*.
 - For example, in a 3-player game:
   - Red 1 is played on the stacks.
   - Cathy's hand is completely unclued and is, from newest to oldest: blue 3, blue 3, blue 4, blue 4, red 2
@@ -3101,12 +3123,14 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ## Level 18 - Rarely Used Strategies - Discharges
 
-- A *Discharge* is similar to *Ejection*, except instead of blind-playing their *Second Finesse Position* card, the next player plays their *Third Finesse Position* card.
-- Just like a *Bluff*, a *Discharge* can only be performed on the very next player.
+- A *Discharge* refers to a *Signal Shift* blind-play in which someone plays an unrelated card from their *Third Finesse Position*.
+  - For example, if a player's hand is completely unclued, their *Third Finesse Position* is slot 3.
+- Just like a *Bluff*, a *Discharge* can only be performed on the very next player.
 
 ### The Unknown Trash Discharge
 
 - The *Unknown Trash Discharge* is introduced in [level 15](#the-unknown-trash-discharge-utd).
+- This results in a *Signal Shift* from *Play* --> *Trash*.
 
 ### 5 Number Discharge (5ND)
 
@@ -3122,16 +3146,17 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ## Level 18 - Rarely Used Strategies - Charm
 
-- *Charm* is similar to *Ejection* and *Discharge*, except the player plays their *Fourth Finesse Position* card.
-- Just like a *Bluff*, a *Charm* can only be performed on the very next player.
+- *Charm* refers to a *Signal Shift* blind-play in which someone plays an unrelated card from their *Fourth Finesse Position*. For example, if a player's hand is completely unclued, their *Fourth Finesse Position* is slot 4.
+- Just like a *Bluff*, a *Charm* can only be performed on the very next player.
 
 ### The Safety Charm (Declined 5 Pull)
 
 - This convention only applies in the *Low Score Phase*.
 - If a card could be freely gotten by initiating a *5 Pull*, it would be very strange if the *5 Pull* was declined and the card was directly touched as a 1-for-1.
 - When this occurs, this player is trying to communicate something deeper - a *Charm* on the very next player.
-- Normally, when an card is blind-played after an innocent-looking *Play Clue*, the clue receiver knows to not play that card anymore. In this situation, since the *Fourth Finesse Position* card was played instead of the *First*, *Second*, or *Third*, the clue receiver will know that their card is still playable **and** that the unclued card directly to its left must be a 5.
+- Normally, when a card is blind-played after an innocent-looking *Play Clue*, the clue receiver knows to not play that card anymore. In this situation, since the *Fourth Finesse Position* card was played instead of the *First*, *Second*, or *Third*, the clue receiver will know that their card is still playable **and** that the unclued card directly to its left must be a 5.
 - This untouched 5 is now globally known; everyone on the team should treat it as a *Chop Moved* card.
+- This can be understood as a full-circle *Signal Shift*, from *Play* --> *Play*.
 - For example, in a 4-player game:
   - Red 1 is played on the stacks.
   - It is the *Early Game* and the *Low Score Phase*.
@@ -3139,7 +3164,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   - Cathy hand is, from newest to oldest: `blue 5, red 2, blue 3, blue 2`
   - Bob sees that Alice could have cleanly *5 Pulled* Cathy's red 2. (It is globally known that Alice had another *Play Clue* to give, so a number 5 clue would not have been interpreted as a *5 Stall*.)
   - Bob knows that this signals a blind-play:
-    - A *First Finesse Position* blind-play would look like a *Bluff* on a red 2 or a red 3, which would be a *Lie*.
+    - A *First Finesse Position* blind-play would look like a *Bluff* on a red 3, which would be a *Lie*.
     - A *Second Finesse Position* blind-play would look like a *5 Color Ejection* on a red 5, which would be a *Lie*.
     - A *Third Finesse Position* blind-play would look like an *Unknown Trash Discharge* on a red 1, which would be a *Lie*.
   - Thus, Bob knows that this must be a *Safety Charm*. He blind-plays his *Fourth Finesse Position*. It is a blue 1 and it successfully plays.
