@@ -6,14 +6,26 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 
 ## The Backlog (General Conventions)
 
-@everyone New terminology:
+@everyone Renamed principles:
 
+- *Good Lie Principle* has been renamed to *Lie Principle*:
+
+```
 ### 8. Lie Principle
 
 - Normally, players try to make their clues as clear as possible and convey the exact identity of one or more cards.
 - Rarely, players can use clues to trick other players into thinking that they have cards that they really don't.
 - If this untruth **resolves immediately** (e.g. the very next turn), it is called a *Fib*. For intermediate and advanced players, *Fibs* are legal and expected.
 - If this untruth does **not resolve immediately**, it is called a *Lie*. *Lies* are illegal. Players should **never** assume that they are *Lied* to.
+```
+
+@everyone Moved conventions:
+
+```
+- *5 Number Discharge* has been moved to level 15.
+- Level 17 has been moved to level 18.
+- The *Good Touch Bluff* and the *Pestilent Double Bluff* have been moved to level 17.
+```
 
 @everyone New conventions:
 
