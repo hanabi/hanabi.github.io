@@ -49,7 +49,7 @@ Note that convention updates for the group are listed in the `#announcements` ch
 - [Level 14 - Scholar](#level-14---scholar)
 - [Level 15 - Erudite](#level-15---erudite)
 - [Level 16 - Expert](#level-16---expert)
-- [Level 17 - Master](#level-18---master)
+- [Level 17 - Master](#level-17---master)
 - [Level 18 - Rarely Used Strategies](#level-18---rarely-used-strategies)
   - [Special Finesses](#level-18---rarely-used-strategies---special-finesses)
   - [Special Bluffs](#level-18---rarely-used-strategies---special-bluffs)
