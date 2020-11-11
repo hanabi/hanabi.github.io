@@ -1814,7 +1814,7 @@ Note that in this user interface, players are **not** holding their hands like t
   - Bob knows that if this was a *5 Pull*, it would be pulling the red 2. If Bob does nothing, Cathy might go on to misplay the red 2 as some playable 1.
   - Thus, this must be a *5 Pull Finesse*, so Bob blind-plays his *Finesse Position*. It is red 1 and it successfully plays.
   - From Cathy's perspective, she initially concluded that Alice's number 5 clue was just a *5 Stall*. However, Bob blind-played his *Finesse Position* card, and Cathy knows that Bob would not do that if the move was a *5 Stall*. This must be a *5 Pull Finesse*, so Cathy blind-plays her slot 4 card. It is red 2 and it successfully plays.
-- As you would expect, it is also possible to perform a *5 Pull Double Finesse*. The "pulled" card will always match the final blind-play.
+- As you would expect, it is also possible to perform a *5 Pull Double Finesse*. The "pulled" card will always match the final blind-play. (If you are looking for an example of a *5 Pull Double Finesse*, see [here](examples/5_Pull_Double_Finesse.md))
 - Unlike other types of *Finesses*, *5 Pull Finesses* must be demonstrated with a blind-play between when the *5 Pull* is given and the *5 Pulled* player's next turn.
 - Subsequently, *5 Pulls* are **not** allowed to initiate a *Reverse Finesse*. (This is because we don't want the person with the pulled card to have to entertain too many possibilities.)
 - With that said, players **do** have to respect that forward *5 Pull Finesses* could be *Layered*, *Clandestine*, or have a "*Reverse Finesse*-component".
@@ -3090,6 +3090,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 - In this situation, it should signal an *Ejection* on the very next player.
 - This results in a *Signal Shift* from *Save* --> *Trash*.
 - *Bad Chop Move Ejection* can be performed throughout the game. (But keep in mind that in the *End-Game*, a player might just be stalling.)
+- More examples of a *Bad Chop Move Ejection* can be found [here](examples/Bad_Chop_Move_Ejection.md).
 
 ### Bad Chop Move Ejection (with 5's)
 
@@ -3121,6 +3122,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   - Bob sees that the obvious clue to give to Cathy was red, as it would actually get the red 2 played right now.
   - This move is so bad that it must be communicating something extra. Alice must be intending for a *Rank Choice Ejection*. Bob blind-plays his *Second Finesse Position* card and it is a blue 1 and successfully plays.
   - Cathy knows that since a number 2 clue cause Bob to blind-play his *Second Finesse Position*, this must be an *Ejection*. The only type of *Ejection* that matches this kind of clue is a *Rank Choice Ejection*, so Cathy knows that her 2 must be playable and that her 2 must be exactly the red 2. Cathy plays the red 2.
+- More examples of a *Rank Choice Ejection* can be found [here](examples/Rank_Choice_Ejection.md).
 
 <br />
 
