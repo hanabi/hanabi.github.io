@@ -2423,19 +2423,23 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### The Pestilent Double Bluff (PDB)
 
-- In the *Good Touch Bluff*, a *Bluff* is given that looks like a *Finesse*. However, what if something that looks like a *Good Touch Bluff* is done, but the "matching" card is not yet clued?
+- First, see the section on the *[Good Touch Bluff](#the-good-touch-bluff)*.
+- In the *Good Touch Bluff*, a *Bluff* is given that looks like a *Finesse*. However, what a *Good Touch Bluff* is performed and the "matching" card is not yet clued?
+- In this situation, if the cluer is not making a mistake, they are trying to send a deeper message - they want an extra person to blind-play.
 - For example, in a 4-player game:
   - It is the first turn and nothing is played on the stacks.
   - Alice goes first.
   - Bob has a red 1 on slot 1 and a blue 2 on slot 2.
   - Alice clues number 2 to Bob, touching a blue 2 on slot 2.
-  - Bob does not see any other 1's on *Finesse Position*. Thus, the number 2 clue must be a *Self-Finesse*, so he blind-plays red 1.
-  - Cathy comes next. From her perspective, Bob should currently think that his slot 2 card is red 2 (instead of blue 2). If nothing else happens, Bob will go on to misplay that card.
-  - Cathy knows that technically, she could give a *Fix Clue* to Bob to fix the situation. However, is that what Alice really intended? That would be waste a clue and would be really inefficient. Alice must be trying to communicate something extra.
-- In almost all cases, Cathy should blind-play her *Finesse Position* card as the red 2. Doing so would "heal" the situation, since Bob would no longer think he has the red 2.
-- Furthermore, Cathy could also be blind-playing **any** playable card. Even if it is not the red 2, blind-playing any card would equally "heal" the situation, because Bob would know that Cathy is blind-playing from the same clue.
-- This is a kind of *Double Bluff*, since it gets two people in a row to blind-play their *Finesse Position*, getting two unrelated cards. However, unlike a normal *Double Bluff*, a *Pestilent Double Bluff* is initiated by cluing a *one-away-from-playable* card (instead of a two-or-more-away-from-playable card).
-- Additionally, consider the case where Cathy sees one red 2 of someone else's hand (e.g. Donald's hand). In this hypothetical, Cathy could just give a *Play Clue* to the red 2 in Donald's hand, Donald would play the card, and that would "heal" the situation, because Bob would no longer think that he has the red 2. However, we agree that Cathy should **not** do this and should **still** blind-play her *Finesse Position* card. (This is because doing something weird like this for a 3-for-2 is not strong enough.)
+  - Bob does not see any other 1's on *Finesse Position*. Thus, the number 2 clue must be a *Self-Finesse*, so he blind-plays a red 1. Bob now knows that his clued 2 is a red 2 and marks it accordingly.
+  - Cathy comes next. From Cathy's perspective, Bob will incorrectly mark his 2 as a red 2 (but it is really a blue 2). If nothing else happens, Bob will go on to misplay that card.
+  - Cathy knows that technically, she could give a *Fix Clue* to Bob to fix the situation. However, is that what Alice really intended? That would be a waste of a clue and would be really inefficient. Alice must be trying to communicate something extra.
+  - Cathy knows that this must be a *Pestilent Double Bluff*, so she blind-plays her *Finesse Position* card. It is a red 2 and it successfully plays.
+  - Bob gasps in surprise when Cathy blind-plays. He knows that the only reason that Cathy would blind-play is because of Alice's clue. This must be what Alice intended all along, which means that Bob must not actually have the red 2. (The red 2 is already played now, so Bob knows that Alice would not violate *Good Touch Principle*.) Bob updates his note from "red 2" to "blue 2, green 2, yellow 2, or purple 2".
+- In this example, Cathy knows that the initial clue was "diseased", and Cathy blind-plays a card to "heals" the situation. This is where the name *Pestilent Double Bluff* comes from.
+- In this example, Cathy blind-plays the exact copy of the card that Bob was mistaken about. However, notice that Cathy could actually blind-play **any** playable card. Even if Cathy does not blind-play the red 2, blind-playing a card would still "heal" the situation, because Bob would know that Cathy is blind-playing from Alice's clue.
+- A *Pestilent Double Bluff* is similar to a normal *Double Bluff* in that it gets two people in a row to blind-play their *Finesse Position*, getting two unrelated cards. However, unlike a normal *Double Bluff*, a *Pestilent Double Bluff* is initiated by cluing a *one-away-from-playable* card (instead of a two-or-more-away-from-playable card).
+- Furthermore, consider the case where Cathy sees a red 2 in the middle of someone else's hand (e.g. Donald's hand). In this hypothetical, Cathy could just give a *Play Clue* to the red 2 in Donald's hand, Donald would play the card. This clue would "heal" the situation, because Bob would no longer think that he has the red 2. However, we agree that Cathy should **not** do this and should **still** blind-play her *Finesse Position* card. (This is because doing something weird like this for a 3-for-2 is not strong enough.)
 - Additionally, consider the case where Cathy sees **both** copies of red 2 in someone else's hand (e.g. Donald's hand). In this hypothetical, Bob would not go on to misplay the red 2, so no further action is needed to heal the situation. However, we agree that Cathy should **still** blind-play her *Finesse Position* card (as a *Known Pestilent Double Bluff*). (This is because seeing both copies is so rare that we do not want complicate things by having to consider it.)
 - More examples of a *Pestilent Double Bluff* can be found [here](examples/Pestilent_Double_Bluff.md).
 
