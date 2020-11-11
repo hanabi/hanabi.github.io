@@ -1487,7 +1487,7 @@ Note that in this user interface, players are **not** holding their hands like t
 
 ### Duplication Responsibility
 
-- Usually, if a 2 needs to be saved, it is not the responsibility of a player with already-clued 2's in his hand, because they could potentially violate *Good Touch Principle* by cluing it, so they should defer and let someone else on the team do it. (The same general concept also applies to cluing playable cards on chop, for example.)
+- Usually, if a 2 needs to be saved, it is not the responsibility of a player with already-clued 2's in his hand, because they could potentially violate *Good Touch Principle* by cluing it. So, they should defer and let someone else on the team do it. (The same general concept also applies to cluing playable cards on chop, for example.)
 - However, if all players have a clued 2 in their hand, then someone has to take a risk of violating *Good Touch Principle* in order to satisfy *Save Principle*. Who should do it?
 - In this situation, the player who has the least number of matching clued cards should take responsibility. If 2+ players are tied, then the player with the less specific type of clue on their card(s) should take responsibility.
 - If 2+ players have the exact same number of clued cards and type of clued cards, then either player should save the card.
