@@ -55,11 +55,11 @@ Note that convention updates for the group are listed in the `#announcements` ch
   - [Special Suboptimal Moves](#level-17---rarely-used-strategies---special-suboptimal-moves)
   - [Pushes & Pulls](#level-17---rarely-used-strategies---pushes--pulls)
   - [Signal Shifting](#level-17---rarely-used-strategies---signal-shifting)
-  - [Ejection](#level-17---rarely-used-strategies---ejection)
-  - [Discharge](#level-17---rarely-used-strategies---discharge)
+  - [Ejections](#level-17---rarely-used-strategies---ejections)
+  - [Discharges](#level-17---rarely-used-strategies---discharges)
   - [Charm](#level-17---rarely-used-strategies---charm)
   - [Ejection & Discharge Extensions](#level-17---rarely-used-strategies---ejection--discharge-extensions)
-  - [Ignition](#level-17---rarely-used-strategies---ignition)
+  - [Ignitions](#level-17---rarely-used-strategies---ignitions)
   - [Save Clues & Non-Emergency Chop Moves](#level-17---rarely-used-strategies---save-clues--non-emergency-chop-moves)
   - [Emergency Moves](#level-17---rarely-used-strategies---emergency-moves)
   - [Unnecessary Usage of Complicated Moves](#level-17---rarely-used-strategies---unnecessary-usage-of-complicated-moves)
@@ -836,7 +836,7 @@ Note that in this user interface, players are **not** holding their hands like t
   - If a clue is given to a card that is **already** known to be playable, then that would **not** count as a *Tempo Clue*. It would instead be a *Burn Clue* (a clue that accomplishes nothing).
 - In our group, we do not generally perform *Tempo Clues*, because they do not meet *[Minimum Clue Value Principle](#2-minimum-clue-value-principle)*. However, in the following special circumstances, *Tempo Clues* have enough value to justify giving them:
   1. When it gets two or more clued cards to play
-  2. When the clued card is "out of order" (meaning that it is impossible for a *Prompt* to get the card played)
+  2. When the clued card is not a 5 and it is "out of order" (meaning that it is impossible for a *Prompt* to get the card played)
   3. When the clued card was *Chop Moved* and it is now playable
   4. When playing the clued card would "unlock" someone's hand (see the section on *Locked Hands* later on)
   5. When the clue giver is in a situation that requires them to stall (e.g. the player is *Locked*, etc.)
@@ -1007,7 +1007,7 @@ Note that in this user interface, players are **not** holding their hands like t
 - *5 Stalls* are usually performed in the *Early Game*. Less commonly, they can also be performed in the *Mid-Game* if a player happens to be in a special "stalling" situation where they are not allowed to discard.
 - In the *Early Game*, the team can give as many *5 Stalls* as they want before initiating the *Mid-Game*.
 - Regardless of whether they are done in the *Early Game* or the *Mid-Game*, *5 Stalls* are only allowed if there is nothing else "normal" to do (like playing a card, giving a normal *Play Clue*, or giving a normal *Save Clue*).
-  - However, as an exception, players are also allowed to *5 Stall* if there is **only one** *Play Clue* remaining and it would touch a card that someone else on the team could conceivably *Finesse* or *Bluff*. (We refer to this as the *Finesse Position Exception*, or FPE.)
+  - However, as an exception, players are also allowed to *5 Stall* if there is **only one** *Play Clue* remaining and it would touch a card that someone else on the team could conceivably *Finesse*. (We refer to this as the *Finesse Position Exception*, or FPE.)
   - The *Finesse Position Exception* also applies if the same card is in multiple *Finesse Positions* and there is nothing else to do.
   - The *Finesse Position Exception* applies for **all** situations in which players are allowed to *5 Stall*.
 - *5 Stalls* **cannot** be given in the *Mid-Game* if there are any playable 5's. In this situation, a number 5 clue would just look like a *Play Clue* on the 5.
@@ -2352,10 +2352,10 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   - [Special Bluffs](#level-17---rarely-used-strategies---special-bluffs)
   - [Special Suboptimal Moves](#level-17---rarely-used-strategies---special-suboptimal-moves)
   - [Pushes & Pulls](#level-17---rarely-used---strategies-pushes--pulls)
-  - [Ejection](#level-17---rarely-used-strategies---ejection)
-  - [Discharge](#level-17---rarely-used-strategies---discharge)
+  - [Ejections](#level-17---rarely-used-strategies---ejections)
+  - [Discharges](#level-17---rarely-used-strategies---discharges)
   - [Ejection & Discharge Extensions](#level-17---rarely-used-strategies---ejection--discharge-extensions)
-  - [Ignition](#level-17---rarely-used-strategies---ignition)
+  - [Ignitions](#level-17---rarely-used-strategies---ignitions)
   - [Save Clues & Non-Emergency Chop Moves](#level-17---rarely-used-strategies---save-clues--non-emergency-chop-moves)
   - [Emergency Moves](#level-17---rarely-used-strategies---emergency-moves)
   - [Unnecessary Usage of Complicated Moves](#level-17---rarely-used-strategies---unnecessary-usage-of-complicated-moves)
@@ -2563,7 +2563,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 - Legal *Patch Finesses* are **always hidden**, meaning that from the person who is blind-playing a card to "patch" will **never** know that it is a *Patch Finesse* until **after** they blind-play.
 - In other words, if Alice performs a legal *Patch Finesse*, then **no-one else on the team has to even know that the *Patch Finesse* convention exists** - everything will just work out properly because everyone will just blind-play cards like any other ordinary *Layered Finesse*.
-  - The exception is when it comes time for the patched player to begin blind-playing. In this situation, the patched player might be "spooked" from the blind-play of the patcher, because they will not understand why the blind-play happened. In this situation, players need to have full trust and not be spooked by unexpected successful blind-play from other people on the team.
+  - The exception is when it comes time for the patched player to begin blind-playing. In this situation, the patched player might be "spooked" from the blind-play of the patcher, because they will not understand why the blind-play happened. In this situation, players need to have full trust and not be spooked when another person on the team successfully blind-plays a card in an unexpected way.
 
 ### The Double Patch Finesse (Illegal)
 
@@ -3033,9 +3033,10 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 17 - Rarely Used Strategies - Ejection
+## Level 17 - Rarely Used Strategies - Ejections
 
-- *Ejection* refers to a *Signal Shift* blind-play in which someone plays an unrelated card from their *Second Finesse Position*. For example, if a player's hand is completely unclued, their *Second Finesse Position* is slot 2.
+- An *Ejection* refers to a *Signal Shift* blind-play in which someone plays an unrelated card from their *Second Finesse Position*.
+  - For example, if a player's hand is completely unclued, their *Second Finesse Position* is slot 2.
 - Just like a *Bluff*, an *Ejection* can only be performed on the very next player.
 
 ### The 5 Color Ejection
@@ -3061,8 +3062,8 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 - First, see the section on *[Bad Chop Move Ejection (with a Trash Chop Move)](#bad-chop-move-ejection-with-a-trash-chop-move)*.
 - Normally, if a player performs a *5's Chop Move* on a trash card, it would signal a *Finesse* on all of the cards leading up to the 5.
-- If the very next player sees that **they will only have to blind-play one card in their hand to fulfill the *Finesse***, then they should assume that it is a *Finesse*.
-- If the very next player sees that they would have to blind-play two or more cards in their hand to fulfill the *Finesse*, then a *Finesse* is unlikely. Instead, players agree that this signals an *Ejection* and that the next player should play their *Second Finesse Position*.
+- If the very next player sees that they would have to **blind-play one card in their hand** to fulfill the *Finesse*, then they should assume that it is a *Finesse*.
+- If the very next player sees that they would have to **blind-play two or more cards in their hand** to fulfill the *Finesse*, then a *Finesse* is unlikely. Instead, players agree that this signals an *Ejection* and that the next player should play their *Second Finesse Position*.
 - After the *Ejection*, the player receiving the 5 clue will knows that they have trash on their chop.
 - For example, in a 5-player game:
   - It is the *Mid-Game* and all of the 2's are played on the stacks.
@@ -3090,9 +3091,10 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 17 - Rarely Used Strategies - Discharge
+## Level 17 - Rarely Used Strategies - Discharges
 
-- *Discharge* refers to a *Signal Shift* blind-play in which someone plays an unrelated card from their *Third Finesse Position*. For example, if a player's hand is completely unclued, their *Third Finesse Position* is slot 3.
+- A *Discharge* refers to a *Signal Shift* blind-play in which someone plays an unrelated card from their *Third Finesse Position*.
+  - For example, if a player's hand is completely unclued, their *Third Finesse Position* is slot 3.
 - Just like a *Bluff*, a *Discharge* can only be performed on the very next player.
 
 ### The Unknown Trash Discharge
