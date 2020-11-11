@@ -60,7 +60,7 @@ Note that convention updates for the group are listed in the `#announcements` ch
   - [Discharges](#level-18---rarely-used-strategies---discharges)
   - [Charm](#level-18---rarely-used-strategies---charm)
   - [Ejection & Discharge Extensions](#level-18---rarely-used-strategies---ejection--discharge-extensions)
-  - [Ignition](#level-18---rarely-used-strategies---ignition)
+  - [Ignitions](#level-18---rarely-used-strategies---ignitions)
   - [Save Clues & Non-Emergency Chop Moves](#level-18---rarely-used-strategies---save-clues--non-emergency-chop-moves)
   - [Emergency Moves](#level-18---rarely-used-strategies---emergency-moves)
   - [Unnecessary Usage of Complicated Moves](#level-18---rarely-used-strategies---unnecessary-usage-of-complicated-moves)
@@ -3259,7 +3259,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 18 - Rarely Used Strategies - Ignition
+## Level 18 - Rarely Used Strategies - Ignitions
 
 ### Ignition
 
