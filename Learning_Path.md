@@ -36,8 +36,8 @@ The following is a quick summary of the levels.
 | Level 14 | [*Finesses* with a *Lie Component*](Reference.md#finesses-with-a-lie-component)
 | Level 15 | *[The Unknown Trash Discharge](Reference.md#the-unknown-trash-discharge-utd)* & [The 5 Number Discharge](#Reference.md#5-number-discharge-5nd)
 | Level 16 | *[Double Bluffs](Reference.md#the-double-bluff)*
-| Level 17 | *[Echo Scream Discard Chop Move](Reference.md#the-echo-scream-discard-chop-move)*
-| Level 18 | *[The Good Touch Bluff](Reference.md#the-good-touch-bluff)* & *[The Pestilent Double Bluff](Reference.md#the-pestilent-double-bluff-pdb)*
+| Level 17 | *[The Good Touch Bluff](Reference.md#the-good-touch-bluff)* & *[The Pestilent Double Bluff](Reference.md#the-pestilent-double-bluff-pdb)*
+| Level 18 | *[Echo Scream Discard Chop Move](Reference.md#the-echo-scream-discard-chop-move)*
 | Level 19 | All the other miscellaneous rarely-used conventions
 
 <br />
