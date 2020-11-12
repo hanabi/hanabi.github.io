@@ -3774,13 +3774,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 - Thus, you should first wait for all of the "good" blind cards to play, and **then** give the *Fix Clue* to the *Finesse Target*, so that it comes "just in time" before the misplay.
 - Alternatively, if the plan is to give a *Fix Clue* to some **other** card than the *Finesse Target* (e.g. a number 5 clue to a 5 in the middle of the hand), then the *Fix Clue* does not necessarily have to be just in time. It can be done early, and the player will know that they have to continue blind-playing cards until they find the *Finesse Target*.
 
-### The Top Hat Clue
-
-- Since the *Layered Gentleman's Discard* is so efficient, clever players that see the opportunity to perform one will almost always want to do so.
-- Thus, it follows that in rare cases, when a teammate gives you a play clue on some card, they **do not** intend for you to play it. They intend for you to see the opportunity for a *Layered Gentleman's Discard*, and then immediately discard the card.
-- This kind of clue is called a *Top Hat Clue* because you are giving them an opportunity to be a gentleman.
-- Note that you should **not** mistake a *Top Hat Clue* a clue that initiates a *Layered Finesse*. You are only allowed to discard a clued card if you can determine its exact identity.
-
 ### The Negative Blind-Play
 
 - Given enough negative clues on a card (and potentially some ancillary information based on the history of the game), it is possible to narrow down the identity of an unclued card in your hand to possibilities that only include playable cards that are not already touched in someone else's hand.
