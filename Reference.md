@@ -1847,6 +1847,7 @@ Note that in this user interface, players are **not** holding their hands like t
 
 ### The 5 Pull Clandestine Finesse
 
+- First, see the section on the [5 Pull Finesse](#the-5-pull-prompt--the-5-pull-finesse).
 - A *5 Pull Finesse* **must** be a *Forward Finesse*.
 - However, *5 Pulled* players **do** have to respect that the *Finesse* can be *Clandestine*.
 - For example in a 4-player game:
@@ -3136,7 +3137,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 - In this situation, it should signal an *Ejection* on the very next player.
 - This results in a *Signal Shift* from *Save* --> *Trash*.
 - *Bad Chop Move Ejection* can be performed throughout the game. (But keep in mind that in the *End-Game*, a player might just be stalling.)
-- More examples of a *Bad Chop Move Ejection* can be found [here](examples/Bad_Chop_Move_Ejection.md).
 
 ### Bad Chop Move Ejection (with 5's)
 
