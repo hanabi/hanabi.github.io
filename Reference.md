@@ -3325,8 +3325,8 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### 2 Saves (Off Chop on the First Turn)
 
+- This convention only applies to 3-player games.
 - On the first turn of the game, it is not possible to discard. If there is absolutely nothing else to do, it is permissible in this situation to use a number 2 clue to save a 2 that is **not** on chop, but only if the other players can see that you had no other choice.
-- This situation typically only happens in 3-player games.
 
 ### 2 Saves (Advanced Section; Interaction With 5's Chop Moves / 5 Pulls)
 
