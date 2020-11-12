@@ -753,7 +753,7 @@ Note that in this user interface, players are **not** holding their hands like t
 - For example, in a 5-player game:
   - All of the 1's are played on the stacks.
   - There is 1 clue in the bank.
-  - Alice clues red to Emily, toucing a red 3 as a *Play Clue*. This is a *Finesse* on the red 2.
+  - Alice clues red to Emily, touching a red 3 as a *Play Clue*. This is a *Finesse* on the red 2.
   - Bob sees that the *Finesse* is on Cathy. (Cathy has the red 2 in her *Finesse Position*.) Since the team is at 0 clues, Bob discards.
   - Cathy's knows that Alice is performing a *Finesse* and that she must have the red 2. Cathy's first instinct is to blind-play the red 2. This is urgent because otherwise, Emily will think that her red card might be the red 2, and it would misplay.
   - However, Cathy also sees that Donald has a blue 5 on chop that needs to be saved. Furthermore, from Cathy's perspective, Donald could discard on his turn, so the blue 5 is in imminent danger. If Cathy blind-plays into the *Finesse*, then the blue 5 might get discarded.
