@@ -50,21 +50,22 @@ Note that convention updates for the group are listed in the `#announcements` ch
 - [Level 15 - Erudite](#level-15---erudite)
 - [Level 16 - Expert](#level-16---expert)
 - [Level 17 - Master](#level-17---master)
-- [Level 18 - Rarely Used Strategies](#level-18---rarely-used-strategies)
-  - [Special Finesses](#level-18---rarely-used-strategies---special-finesses)
-  - [Special Bluffs](#level-18---rarely-used-strategies---special-bluffs)
-  - [Special Suboptimal Moves](#level-18---rarely-used-strategies---special-suboptimal-moves)
-  - [Pushes & Pulls](#level-18---rarely-used-strategies---pushes--pulls)
-  - [Signal Shifting](#level-18---rarely-used-strategies---signal-shifting)
-  - [Ejections](#level-18---rarely-used-strategies---ejections)
-  - [Discharges](#level-18---rarely-used-strategies---discharges)
-  - [Charm](#level-18---rarely-used-strategies---charm)
-  - [Ejection & Discharge Extensions](#level-18---rarely-used-strategies---ejection--discharge-extensions)
-  - [Ignitions](#level-18---rarely-used-strategies---ignitions)
-  - [Save Clues & Non-Emergency Chop Moves](#level-18---rarely-used-strategies---save-clues--non-emergency-chop-moves)
-  - [Emergency Moves](#level-18---rarely-used-strategies---emergency-moves)
-  - [Unnecessary Usage of Complicated Moves](#level-18---rarely-used-strategies---unnecessary-usage-of-complicated-moves)
-  - [Miscellaneous](#level-18---rarely-used-strategies---miscellaneous)
+- [Level 18 - Professional](#level-18---professional)
+- [Level 19 - Rarely Used Strategies](#level-19---rarely-used-strategies)
+  - [Special Finesses](#level-19---rarely-used-strategies---special-finesses)
+  - [Special Bluffs](#level-19---rarely-used-strategies---special-bluffs)
+  - [Special Suboptimal Moves](#level-19---rarely-used-strategies---special-suboptimal-moves)
+  - [Pushes & Pulls](#level-19---rarely-used-strategies---pushes--pulls)
+  - [Signal Shifting](#level-19---rarely-used-strategies---signal-shifting)
+  - [Ejections](#level-19---rarely-used-strategies---ejections)
+  - [Discharges](#level-19---rarely-used-strategies---discharges)
+  - [Charm](#level-19---rarely-used-strategies---charm)
+  - [Ejection & Discharge Extensions](#level-19---rarely-used-strategies---ejection--discharge-extensions)
+  - [Ignitions](#level-19---rarely-used-strategies---ignitions)
+  - [Save Clues & Non-Emergency Chop Moves](#level-19---rarely-used-strategies---save-clues--non-emergency-chop-moves)
+  - [Emergency Moves](#level-19---rarely-used-strategies---emergency-moves)
+  - [Unnecessary Usage of Complicated Moves](#level-19---rarely-used-strategies---unnecessary-usage-of-complicated-moves)
+  - [Miscellaneous](#level-19---rarely-used-strategies---miscellaneous)
 - [Variant-Specific Strategies](#variant-specific-strategies)
 - [Convention Attribution](#convention-attribution)
 
@@ -2410,6 +2411,100 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 ## Level 17 - Master
 
 - Level 17 strategies should only be learned if you have 300+ games of experience with the group.
+- This level covers some special emergency discards.
+- See the [learning path document](Learning_Path.md) for general descriptions of each level.
+- Head back to the [table of contents](#table-of-contents).
+
+### Phantom Playable Cards
+
+- First, see the section on [the definition of "playable" cards](#play-clues--delayed-play-clues--the-definition-of-playable).
+- For a card to be *delayed playable*, it needs to be playable "through" other clued cards or "through" cards on *Finesse Position*. In other words, we are allowed to give *Play Clues* to *delayed playable* cards.
+- Consider that a slightly different category of card can exist. A card is *Phantom Playable* is it is playable "through" cards that are visible in someone's hand, but the in-between cards are not on *Finesse Position* and are not yet clued. We are **not** allowed to give *Play Clues* to *Phantom Playable* cards - at least not until the other cards are clued first.
+- From *Save Principle*, we know that everyone agrees to not let *playable* or *delayed playable* cards get discarded.
+- If possible, the team should also try to protect *Phantom Playable* cards from being discarded as well, since they are nearly as important as *delayed playable* cards. For example, it is common for other people on the team to discard in order to let the player with the *Phantom Playable* card be the one to give a *Play Clue* to the in-between card.
+- Sometimes, *Phantom Playable* cards have to be discarded when the team is low on clues or in an otherwise tight situation. While regrettable, this is perfectly okay and does happen from time to time.
+
+### The Scream Discard for a Phantom Playable Card
+
+- First, see the section on the *[Scream Discard](#the-scream-discard-chop-move-deliberately-discarding-instead-of-playing)* and the section on *[Phantom Playable Cards](#phantom-playable-cards)*.
+- Normally, you are only allowed to perform a *Scream Discard* for a critical card or a playable card. But what about a *Phantom Playable Card*?
+- In most cases, players should also *Scream Discard* for a *Phantom Playable Card*, but it depends on the situation:
+  - Will it be clear to everyone what is happening?
+  - Will the in-between cards get clued right away?
+  - Are there other critical cards on chop that need to be saved or will need to be saved soon?
+  - Is the *Phantom Playable* card a 3 or a 4?
+- In summary, it is better for the team to let a *Phantom Playable* card get discarded in a tricky or tight situation, **especially** if it is a 4.
+- Another way of saying this is that the team should never "bend over backwards" for a *Phantom Playable* card. Consider that a *Scream Discard* always has a small chance to lose the game (if the *Scream Discarded* card was itself critical).
+
+### The Sacrifice Discard
+
+- First, see the section on the *[Scream Discard](#the-scream-discard-chop-move-deliberately-discarding-instead-of-playing)*.
+- It is generally undesirable for a player to have a *Locked* hand, but sometimes it happens. And sometimes, one card in the locked hand is useful in the future, but not critical (meaning there is another copy of the card in someone else's hand or still in the deck).
+- Normally, you are never supposed to discard cards that have clues on them. And if you do, it implies a *Sarcastic Discard* or a *Gentleman's Discard*. However, when a player is locked, they can choose to "sacrifice" one of the cards in their hand that is non-critical. And in this situation, it does **not** imply a *Sarcastic Discard* or a *Gentleman's Discard*.
+- Sometimes, when a *Locked* player discards a non-critical card, it is a *Generation Discard*, and sometimes, it is a *Sacrifice Discard*. The other players on the team just have to decide which one it is based on how well the game is going. Usually, it is pretty obvious which one of the two it is, as *Sacrifice Discards* are usually very rare and are only done in very dire situations.
+
+### The Shout Discard Chop Move
+
+- Normally, when a player performs a *Scream Discard*, they are discarding their chop (e.g. an unknown and unclued card).
+- However, if a player has both a known-playable card and a known-trash card, then discarding the known-trash card instead of playing their known-playable card would *still* communicate a *Scream Discard* to the next player in the exact same way.
+- This situation is slightly different than the normal case, so we call it a *Shout Discard* to differentiate it from a more-ordinary *Scream Discard*.
+- A *Shout Discard* *Chop Moves* the very next player in the exact way that a *Scream Discard* does.
+- A *Shout Discard* forces the next player to **not** discard on their turn in the exact way that a *Scream Discard* does.
+- Normally, a *Scream Discard* is only allowed to *Chop Move* a critical card or a playable card. However, unlike a *Scream Discard*, it is permissible to use a *Shout Discard* to *Chop Move* any card that is desirable, even if it is not critical or playable.
+- Normally, a *Scream Discard* is only allowed if the team is at 0 clues (or if cluing the card is impossible). However, unlike a *Scream Discard*, it is permissible to use a *Shout Discard* to *Chop Move* regardless of the number of clues that the team has.
+- Normally, a *Scream Discard* would turn into an *Echo Scream Discard* if the next player has a playable card. *Shout Discards* can also turn into *Echo Shout Discards*, but only if the team is completely out of clues and it can be seen to be a "last-resort" move.
+
+### The Whisper Discard Chop Move
+
+- Occasionally, a player will have known trash in their hand. Obviously, they are expected to discard the known trash first before discarding their right-most unclued card.
+- Thus, if a player instead discards their right-most unclued card instead of the known trash, it must be a signal that something is wrong, exactly like a *Scream Discard*. This is more subtle than a *Scream Discard* though, so it is called a Whisper Discard.
+- *Whisper Discards* are to be treated identically to *Scream Discards*. In short, this means that they 1) cause a *Chop Move* and 2) force a clue to be given on the next turn.
+
+### The Echo Scream Discard Chop Move
+
+- A *Scream Discard Chop Move* is done only as a last resort. So, if the next player has an unimportant card on chop, then the move is usually a *Generation Discard* and does not *Chop Move* anyone.
+- However, what if a *Scream Discard* is done and the next player has either:
+  - a known playable card
+  - a known safe trash discard
+- Since *Scream Discards* are only done as a last resort, the clue must have some other meaning. So, it *Chop Moves* both the next player **and** the player after that. This is called an *Echo Scream Discard*, because it "bounces" off the next player and travels to the next player after that as a "double scream".
+- Similar to a normal *Scream Discard*, all of the players who are *Chop Moved* are not allowed to discard on their next turn.
+- In the unlikely scenario where **two** people in a row have known plays / known safe discards, then the *Echo Scream Discard* will bounce off of two people and perform **three** *Chop Moves* in total. (And three people in a row cause four *Chop Moves*, and so forth.)
+- An *Echo Whisper Discard* works in the same way.
+
+### The Composition Discard
+
+- In rare cases, it is possible for a discard to be both a *Scream Discard* and a *Generation Discard* at the same time, for two different players.
+- For example, in a 4-player game:
+  - There are 0 clues in the bank.
+  - Alice needs to plan ahead for her turn.
+  - Bob and Donald both have a critical chop card. Cathy has a safe discard.
+  - Alice and Bob both have one known playable card in their hand.
+  - So, if Alice plays, Bob will perform a *Generation Discard*, and discard a critical card. This is not an option.
+  - Therefore, Alice must discard. This is a *Scream Discard* to Bob, and he should *Chop Move*. It is also a *Generation Discard* to Cathy, and she should not *Chop Move*.
+
+### The Rebellious Discard
+
+- Part of the *Scream Discard* convention states that after a *Scream Discard*, the next player **cannot** discard. Thus, a player in this situation must completely waste a clue if there is nothing productive to do.
+- However, in some situations, the player who has been screamed at sees that if they give a clue, the next player will be left at 0 clues and will be forced to discard a critical card.
+- Thus, in this situation, the player should *Chop Move* as normal and then discard their new chop. This second *Scream Discard* is called a *Rebellious Discard*, because they are not doing what they are told.
+- For example, in a 3-player game:
+  - Red 4 is in the discard pile.
+  - There are 0 clues available.
+  - Alice has a known-playable blue 2.
+  - Bob has a critical red 4 on chop. Bob has no playable cards in his hand.
+  - Cathy's hand is *Locked*. All of the cards in Cathy's hand are critical. None of these cards are playable.
+  - Alice looks into the future and sees that if she plays the blue 2, Bob will be forced to discard the critical red 4, since the team is currently at 0 clues.
+  - Thus, Alice performs a *Scream Discard*, discarding instead of playing the known-playable blue 2.
+  - Bob knows that Alice performed a *Scream Discard*, so he marks his chop card as *Chop Moved*.
+  - Bob also knows that, as per the *Scream Discard* rules, he is not allowed to discard on this turn, and must give some clue instead (in case he has two critical cards in a row).
+  - However, in this case, if Bob did that, then Bob would be using the last clue, and then Cathy would not have a clue available and would be forced to discard a critical card.
+  - Thus, Bob knows that he must perform a *Rebellious Discard* in order to provide a clue for Cathy to do something.
+
+<br />
+
+## Level 18 - Professional
+
+- Level 18 strategies should only be learned if you have 320+ games of experience with the group.
 - This level covers some special *Bluffs*.
 - See the [learning path document](Learning_Path.md) for general descriptions of each level.
 - Head back to the [table of contents](#table-of-contents).
@@ -2456,28 +2551,28 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 18 - Rarely Used Strategies
+## Level 19 - Rarely Used Strategies
 
-- Level 18 strategies are separated from the rest because they do not come up that often. Thus, non-expert players do not have to worry about learning them. If they do come up in a game, players with experience can often figure out what to do on-the-fly. Even if they don't, they can quickly learn about them in the post-game review, and then use the document as a reference later on in case they need to refresh their memory.
+- Level 19 strategies are separated from the rest because they do not come up that often. Thus, non-expert players do not have to worry about learning them. If they do come up in a game, players with experience can often figure out what to do on-the-fly. Even if they don't, they can quickly learn about them in the post-game review, and then use the document as a reference later on in case they need to refresh their memory.
 - See the [learning path document](Learning_Path.md) for general descriptions of each level.
-- Level 18 subsections:
-  - [Special Finesses](#level-18---rarely-used-strategies---special-finesses)
-  - [Special Bluffs](#level-18---rarely-used-strategies---special-bluffs)
-  - [Special Suboptimal Moves](#level-18---rarely-used-strategies---special-suboptimal-moves)
-  - [Pushes & Pulls](#level-18---rarely-used---strategies-pushes--pulls)
-  - [Ejections](#level-18---rarely-used-strategies---ejections)
-  - [Discharges](#level-18---rarely-used-strategies---discharges)
-  - [Ejection & Discharge Extensions](#level-18---rarely-used-strategies---ejection--discharge-extensions)
-  - [Ignitions](#level-18---rarely-used-strategies---ignitions)
-  - [Save Clues & Non-Emergency Chop Moves](#level-18---rarely-used-strategies---save-clues--non-emergency-chop-moves)
-  - [Emergency Moves](#level-18---rarely-used-strategies---emergency-moves)
-  - [Unnecessary Usage of Complicated Moves](#level-18---rarely-used-strategies---unnecessary-usage-of-complicated-moves)
-  - [Miscellaneous](#level-18---rarely-used-strategies---miscellaneous)
+- Level 19 subsections:
+  - [Special Finesses](#level-19---rarely-used-strategies---special-finesses)
+  - [Special Bluffs](#level-19---rarely-used-strategies---special-bluffs)
+  - [Special Suboptimal Moves](#level-19---rarely-used-strategies---special-suboptimal-moves)
+  - [Pushes & Pulls](#level-19---rarely-used---strategies-pushes--pulls)
+  - [Ejections](#level-19---rarely-used-strategies---ejections)
+  - [Discharges](#level-19---rarely-used-strategies---discharges)
+  - [Ejection & Discharge Extensions](#level-19---rarely-used-strategies---ejection--discharge-extensions)
+  - [Ignitions](#level-19---rarely-used-strategies---ignitions)
+  - [Save Clues & Non-Emergency Chop Moves](#level-19---rarely-used-strategies---save-clues--non-emergency-chop-moves)
+  - [Emergency Moves](#level-19---rarely-used-strategies---emergency-moves)
+  - [Unnecessary Usage of Complicated Moves](#level-19---rarely-used-strategies---unnecessary-usage-of-complicated-moves)
+  - [Miscellaneous](#level-19---rarely-used-strategies---miscellaneous)
 - Head back to the [table of contents](#table-of-contents).
 
 <br />
 
-## Level 18 - Rarely Used Strategies - Special Finesses
+## Level 19 - Rarely Used Strategies - Special Finesses
 
 ### The Selfish Finesse (A Finesse Through Your Own Hand)
 
@@ -2818,7 +2913,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 18 - Rarely Used Strategies - Special Bluffs
+## Level 19 - Rarely Used Strategies - Special Bluffs
 
 ### Known Bluffs
 
@@ -3015,7 +3110,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 18 - Rarely Used Strategies - Special Suboptimal Moves
+## Level 19 - Rarely Used Strategies - Special Suboptimal Moves
 
 - The following *Finesses* or *Bluffs* are triggered by performing a suboptimal clue or by picking a strange choice for a clue.
 
@@ -3060,7 +3155,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 18 - Rarely Used Strategies - Pushes & Pulls
+## Level 19 - Rarely Used Strategies - Pushes & Pulls
 
 ### The Trash Push Prompt & The Trash Push Finesse
 
@@ -3094,7 +3189,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 18 - Rarely Used Strategies - Signal Shifting
+## Level 19 - Rarely Used Strategies - Signal Shifting
 
 - Nearly all clues send a distinct *Signal* about the card that is focused:
   1) *Play* the card
@@ -3113,7 +3208,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 18 - Rarely Used Strategies - Ejections
+## Level 19 - Rarely Used Strategies - Ejections
 
 - An *Ejection* refers to a *Signal Shift* blind-play in which someone plays an unrelated card from their *Second Finesse Position*.
   - For example, if a player's hand is completely unclued, their *Second Finesse Position* is slot 2.
@@ -3172,7 +3267,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 18 - Rarely Used Strategies - Discharges
+## Level 19 - Rarely Used Strategies - Discharges
 
 - A *Discharge* refers to a *Signal Shift* blind-play in which someone plays an unrelated card from their *Third Finesse Position*.
   - For example, if a player's hand is completely unclued, their *Third Finesse Position* is slot 3.
@@ -3196,7 +3291,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 18 - Rarely Used Strategies - Charm
+## Level 19 - Rarely Used Strategies - Charm
 
 - A *Charm* refers to a *Signal Shift* blind-play in which someone plays an unrelated card from their *Fourth Finesse Position*. For example, if a player's hand is completely unclued, their *Fourth Finesse Position* is slot 4.
 - Just like a *Bluff*, a *Charm* can only be performed on the very next player.
@@ -3225,7 +3320,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 18 - Rarely Used Strategies - Ejection & Discharge Extensions
+## Level 19 - Rarely Used Strategies - Ejection & Discharge Extensions
 
 ### The Out-of-Position Ejection
 
@@ -3274,7 +3369,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 18 - Rarely Used Strategies - Ignitions
+## Level 19 - Rarely Used Strategies - Ignitions
 
 ### Ignition
 
@@ -3321,7 +3416,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 18 - Rarely Used Strategies - Save Clues & Non-Emergency Chop Moves
+## Level 19 - Rarely Used Strategies - Save Clues & Non-Emergency Chop Moves
 
 ### 2 Saves (Off Chop on the First Turn)
 
@@ -3381,7 +3476,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 18 - Rarely Used Strategies - Emergency Moves
+## Level 19 - Rarely Used Strategies - Emergency Moves
 
 ### The Fake Save
 
@@ -3397,11 +3492,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   - Bob will mark his chop as the red 4, so the team will have to give him a number 5 clue as a *Fix Clue* at some point in the future. At that point, Bob will be surprised, but he will be able to retroactively see that Alice was in a very tight spot and had to give a *Fake Save*.
 - Note that normally, *Fake Saves* are **only allowed as a last resort**. If there is some other line that would "work" or be safe without a *Fake Save*, then players have to prefer that. Subsequently, *Fake Saves* are extremely rare.
 
-### The Sacrifice Discard
-
-- It is generally undesirable for a player to have a "fully locked" hand, but sometimes it happens. And sometimes, one card in the locked hand is useful in the future, but not critical (meaning there is another copy of the card in someone else's hand or still in the deck).
-- Normally, you are never supposed to discard cards that have clues on them, as if you do, it implies a *Sarcastic Discard* or a *Gentleman's Discard*. However, in this situation, the player who is locked can choose to "sacrifice" one of the cards in their hand that is non-critical. And in this situation, it does **not** imply a *Sarcastic Discard* or a *Gentleman's Discard*.
-
 ### The Unnecessary Generation Discard
 
 - Sometimes, in order to satisfy *Save Principle*, a player will perform an unnecessary *Generation Discard*, which generates a clue to save a card that they actually already have in their hand.
@@ -3416,93 +3506,15 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   - Bob sees that Alice does indeed already have the red 4 in her hand, so from his perspective, if Alice was performing a *Generation Discard*, it was unnecessary.
   - However, it could also be the case that Bob's chop is unsafe. So, Bob will **not** clue the red 4 on Cathy's chop, but he **will** spend the clue in some other productive fashion. If Bob has nothing productive to do, he must "burn" a clue, similar to what happens when a *Scream Discard* occurs.
 
-### The Shout Discard Chop Move
-
-- Normally, when a player performs a *Scream Discard*, they are discarding their chop (e.g. an unknown and unclued card).
-- However, if a player has both a known-playable card and a known-trash card, then discarding the known-trash card instead of playing their known-playable card would *still* communicate a *Scream Discard* to the next player in the exact same way.
-- This situation is slightly different than the normal case, so we call it a *Shout Discard* to differentiate it from a more-ordinary *Scream Discard*.
-- A *Shout Discard* *Chop Moves* the very next player in the exact way that a *Scream Discard* does.
-- A *Shout Discard* forces the next player to **not** discard on their turn in the exact way that a *Scream Discard* does.
-- Normally, a *Scream Discard* is only allowed to *Chop Move* a critical card or a playable card. However, unlike a *Scream Discard*, it is permissible to use a *Shout Discard* to *Chop Move* any card that is desirable, even if it is not critical or playable.
-- Normally, a *Scream Discard* is only allowed if the team is at 0 clues (or if cluing the card is impossible). However, unlike a *Scream Discard*, it is permissible to use a *Shout Discard* to *Chop Move* regardless of the number of clues that the team has.
-- Normally, a *Scream Discard* would turn into an *Echo Scream Discard* if the next player has a playable card. *Shout Discards* can also turn into *Echo Shout Discards*, but only if the team is completely out of clues and it can be seen to be a "last-resort" move.
-
-### The Whisper Discard Chop Move
-
-- Occasionally, a player will have known trash in their hand. Obviously, they are expected to discard the known trash first before discarding their right-most unclued card.
-- Thus, if a player instead discards their right-most unclued card instead of the known trash, it must be a signal that something is wrong, exactly like a *Scream Discard*. This is more subtle than a *Scream Discard* though, so it is called a Whisper Discard.
-- *Whisper Discards* are to be treated identically to *Scream Discards*. In short, this means that they 1) cause a *Chop Move* and 2) force a clue to be given on the next turn.
-
-### The Echo Scream Discard Chop Move
-
-- A *Scream Discard Chop Move* is done only as a last resort. So, if the next player has an unimportant card on chop, then the move is usually a *Generation Discard* and does not *Chop Move* anyone.
-- However, what if a *Scream Discard* is done and the next player has either:
-  - a known playable card
-  - a known safe trash discard
-- Since *Scream Discards* are only done as a last resort, the clue must have some other meaning. So, it *Chop Moves* both the next player **and** the player after that. This is called an *Echo Scream Discard*, because it "bounces" off the next player and travels to the next player after that as a "double scream".
-- Similar to a normal *Scream Discard*, all of the players who are *Chop Moved* are not allowed to discard on their next turn.
-- In the unlikely scenario where **two** people in a row have known plays / known safe discards, then the *Echo Scream Discard* will bounce off of two people and perform **three** *Chop Moves* in total. (And three people in a row cause four *Chop Moves*, and so forth.)
-- An *Echo Whisper Discard* works in the same way.
-
-### The Composition Discard
-
-- In rare cases, it is possible for a discard to be both a *Scream Discard* and a *Generation Discard* at the same time, for two different players.
-- For example, in a 4-player game:
-  - There are 0 clues in the bank.
-  - Alice needs to plan ahead for her turn.
-  - Bob and Donald both have a critical chop card. Cathy has a safe discard.
-  - Alice and Bob both have one known playable card in their hand.
-  - So, if Alice plays, Bob will perform a *Generation Discard*, and discard a critical card. This is not an option.
-  - Therefore, Alice must discard. This is a *Scream Discard* to Bob, and he should *Chop Move*. It is also a *Generation Discard* to Cathy, and she should not *Chop Move*.
-
-### The Rebellious Discard
-
-- Part of the *Scream Discard* convention states that after a *Scream Discard*, the next player **cannot** discard. Thus, a player in this situation must completely waste a clue if there is nothing productive to do.
-- However, in some situations, the player who has been screamed at sees that if they give a clue, the next player will be left at 0 clues and will be forced to discard a critical card.
-- Thus, in this situation, the player should *Chop Move* as normal and then discard their new chop, which will functionally act as a second *Scream Discard*. This second *Scream Discard* is called a *Rebellious Discard*, because they are not doing what they are told.
-- For example, in a 3-player game:
-  - Red 4 is in the discard pile.
-  - There are 0 clues available.
-  - Alice has a known-playable blue 2.
-  - Bob has a red 4 on chop. Bob has no playable cards in his hand.
-  - Cathy's hand is *Locked*. All of the cards in Cathy's hand are critical. None of these cards are playable.
-  - Alice looks into the future and sees that if she plays the blue 2, Bob will be forced to discard the critical red 4, since the team is currently at 0 clues.
-  - Thus, Alice performs a *Scream Discard*, discarding instead of playing the known-playable blue 2.
-  - Bob knows that Alice performed a *Scream Discard*, so he marks his chop card as *Chop Moved*.
-  - Bob also knows that, as per the *Scream Discard* rules, he is not allowed to discard on this turn, and must give some clue instead (in case he has two critical cards in a row).
-  - However, in this case, if Bob did that, then Bob would be using the last clue, and then Cathy would not have a clue available and would be forced to discard a critical card.
-  - Thus, Bob knows that he must perform a *Rebellious Discard* in order to provide a clue for Cathy to do something.
-
 ### The Double Scream Discard Chop Move
 
 - If a player has a known playable card and one known trash card, and then they discard the trash card instead of playing, then that is a *Scream Discard* and the next player should *Chop Move*.
 - If a player has a known playable card and two known trash cards, and then they discard the oldest trash card instead of playing, then that is both a *Scream Discard Chop Move* and a *Trash Order Chop Move* at the same time.
 - In this situation, the next player should *Chop Move* twice. (This is the composition of a *Scream Discard Chop Move* and a *Trash Order Chop Move*.)
 
-### Phantom Playable Cards
-
-- First, see the section on [the definition of "playable" cards](#play-clues--delayed-play-clues--the-definition-of-playable).
-- For a card to be *delayed playable*, it needs to be playable "through" other clued cards or "through" cards on *Finesse Position*. In other words, we are allowed to give *Play Clues* to *delayed playable* cards.
-- Consider that a slightly different category of card can exist. A card is *Phantom Playable* is it is playable "through" cards that are visible in someone's hand, but the in-between cards are not on *Finesse Position* and are not yet clued. We are **not** allowed to give *Play Clues* to *Phantom Playable* cards - at least not until the other cards are clued first.
-- From *Save Principle*, we know that everyone agrees to not let *playable* or *delayed playable* cards get discarded.
-- If possible, the team should also try to protect *Phantom Playable* cards from being discarded as well, since they are nearly as important as *delayed playable* cards. For example, it is common for other people on the team to discard in order to let the player with the *Phantom Playable* card be the one to give a *Play Clue* to the in-between card.
-- Sometimes, *Phantom Playable* cards have to be discarded when the team is low on clues or in an otherwise tight situation. While regrettable, this is perfectly okay and does happen from time to time.
-
-### The Scream Discard for a Phantom Playable Card
-
-- First, see the section on the *[Scream Discard](#the-scream-discard-chop-move-deliberately-discarding-instead-of-playing)*.
-- Normally, you are only allowed to perform a *Scream Discard* for a critical card or a playable card. But what about a *Phantom Playable Card*?
-- In most cases, players should also *Scream Discard* for a *Phantom Playable Card*, but it depends on the situation:
-  - Will it be clear to everyone what is happening?
-  - Will the in-between cards get clued right away?
-  - Are there other critical cards on chop that need to be saved or will need to be saved soon?
-  - Is the *Phantom Playable* card a 3 or a 4?
-- In summary, it is better for the team to let a *Phantom Playable* card get discarded in a tricky or tight situation, **especially** if it is a 4.
-- Another way of saying this is that the team should never "bend over backwards" for a *Phantom Playable* card. Consider that a *Scream Discard* always has a small chance to lose the game (if the *Scream Discarded* card was itself critical).
-
 <br />
 
-## Level 18 - Rarely Used Strategies - Unnecessary Usage of Complicated Moves
+## Level 19 - Rarely Used Strategies - Unnecessary Usage of Complicated Moves
 
 - Some complicated moves have special versions that are defined as *unnecessary*.
 - For example, it is possible to perform either a *Trash Bluff* or an *Unnecessary Trash Bluff*.
@@ -3605,7 +3617,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 <br />
 
-## Level 18 - Rarely Used Strategies - Miscellaneous
+## Level 19 - Rarely Used Strategies - Miscellaneous
 
 ### The Selfish Clue
 

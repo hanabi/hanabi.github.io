@@ -23,7 +23,7 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 
 ```
 - *5 Number Discharge* has been moved to level 15.
-- Level 17 has been moved to level 18.
+- Level 17 has been moved to Level 19.
 - The *Good Touch Bluff* and the *Pestilent Double Bluff* have been moved to level 17.
 ```
 

@@ -1,4 +1,4 @@
-## Examples of the [Unnecessary Usage of Complicated Moves](https://github.com/Zamiell/hanabi-conventions/blob/master/Reference.md#level-18---rarely-used-strategies---unnecessary-usage-of-complicated-moves)
+## Examples of the [Unnecessary Usage of Complicated Moves](https://github.com/Zamiell/hanabi-conventions/blob/master/Reference.md#level-19---rarely-used-strategies---unnecessary-usage-of-complicated-moves)
 
 ### The Unnecessary Trash Push
 

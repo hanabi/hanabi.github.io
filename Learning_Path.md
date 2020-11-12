@@ -36,8 +36,9 @@ The following is a quick summary of the levels.
 | Level 14 | [*Finesses* with a *Lie Component*](Reference.md#finesses-with-a-lie-component)
 | Level 15 | *[The Unknown Trash Discharge](Reference.md#the-unknown-trash-discharge-utd)* & [The 5 Number Discharge](#Reference.md#5-number-discharge-5nd)
 | Level 16 | *[Double Bluffs](Reference.md#the-double-bluff)*
-| Level 17 | *[The Good Touch Bluff](Reference.md#the-good-touch-bluff)* & *[The Pestilent Double Bluff](Reference.md#the-pestilent-double-bluff-pdb)*
-| Level 18 | All the other miscellaneous conventions
+| Level 17 | *[Echo Scream Discard Chop Move](Reference.md#the-echo-scream-discard-chop-move)*
+| Level 18 | *[The Good Touch Bluff](Reference.md#the-good-touch-bluff)* & *[The Pestilent Double Bluff](Reference.md#the-pestilent-double-bluff-pdb)*
+| Level 19 | All the other miscellaneous rarely-used conventions
 
 <br />
 
@@ -194,10 +195,10 @@ The following is a brief description of each level.
   - *[The Double Bluff](Reference.md#the-double-bluff)*
   - *[The 4 Double Bluff & The 5 Double Bluff](Reference.md#the-4-double-bluff--the-5-double-bluff)*
 
-#### Level 18 - Rarely Used
+#### Level 19 - Rarely Used
 
-- Level 18 strategies are separated from the rest because they do not come up that often. Thus, non-expert players do not have to worry about learning them. If they do come up in a game, players with experience can often figure out what to do on-the-fly. Even if they don't, they can quickly learn about them in the post-game review, and then use the document as a reference later on in case they need to refresh their memory.
-  - [Level 18 Section](Reference.md#level-18---rarely-used-strategies)
+- Level 19 strategies are separated from the rest because they do not come up that often. Thus, non-expert players do not have to worry about learning them. If they do come up in a game, players with experience can often figure out what to do on-the-fly. Even if they don't, they can quickly learn about them in the post-game review, and then use the document as a reference later on in case they need to refresh their memory.
+  - [Level 19 Section](Reference.md#level-19---rarely-used-strategies)
 
 <br />
 
