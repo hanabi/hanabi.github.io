@@ -2494,6 +2494,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### The Shout Discard Chop Move
 
+- First, see the section on the *[Scream Discard](#the-scream-discard-chop-move-deliberately-discarding-instead-of-playing)*.
 - Normally, when a player performs a *Scream Discard*, they are discarding their chop (e.g. an unknown and unclued card).
 - However, if a player has both a known-playable card and a known-trash card, then discarding the known-trash card instead of playing their known-playable card would *still* communicate a *Scream Discard* to the next player in the exact same way.
 - This situation is slightly different than the normal case, so we call it a *Shout Discard* to differentiate it from a more-ordinary *Scream Discard*.
@@ -2505,12 +2506,14 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### The Whisper Discard Chop Move
 
+- First, see the section on the *[Scream Discard](#the-scream-discard-chop-move-deliberately-discarding-instead-of-playing)*.
 - Occasionally, a player will have known trash in their hand. Obviously, they are expected to discard the known trash first before discarding their right-most unclued card.
 - Thus, if a player instead discards their right-most unclued card instead of the known trash, it must be a signal that something is wrong, exactly like a *Scream Discard*. This is more subtle than a *Scream Discard* though, so it is called a Whisper Discard.
 - *Whisper Discards* are to be treated identically to *Scream Discards*. In short, this means that they 1) cause a *Chop Move* and 2) force a clue to be given on the next turn.
 
 ### The Echo Scream Discard Chop Move
 
+- First, see the section on the *[Scream Discard](#the-scream-discard-chop-move-deliberately-discarding-instead-of-playing)*.
 - A *Scream Discard Chop Move* is done only as a last resort. So, if the next player has an unimportant card on chop, then the move is usually a *Generation Discard* and does not *Chop Move* anyone.
 - However, what if a *Scream Discard* is done and the next player has either:
   - a known playable card
@@ -2522,6 +2525,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### The Composition Discard
 
+- First, see the section on the *[Scream Discard](#the-scream-discard-chop-move-deliberately-discarding-instead-of-playing)* and the *[Generation Discard](#the-generation-discard)*.
 - In rare cases, it is possible for a discard to be both a *Scream Discard* and a *Generation Discard* at the same time, for two different players.
 - For example, in a 4-player game:
   - There are 0 clues in the bank.
@@ -2533,6 +2537,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### The Rebellious Discard
 
+- First, see the section on the *[Scream Discard](#the-scream-discard-chop-move-deliberately-discarding-instead-of-playing)*.
 - Part of the *Scream Discard* convention states that after a *Scream Discard*, the next player **cannot** discard. Thus, a player in this situation must completely waste a clue if there is nothing productive to do.
 - However, in some situations, the player who has been screamed at sees that if they give a clue, the next player will be left at 0 clues and will be forced to discard a critical card.
 - Thus, in this situation, the player should *Chop Move* as normal and then discard their new chop. This second *Scream Discard* is called a *Rebellious Discard*, because they are not doing what they are told.
