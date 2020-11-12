@@ -744,12 +744,22 @@ Note that in this user interface, players are **not** holding their hands like t
 
 ### Urgency Principle (Playing Into Finesses as Soon as Possible)
 
-- Normally, when a *Finesse* occurs, someone blind-plays right away. This is extremely important, because it resynchronizes the information among the team. So, as a group, we always agree to blind-play our cards are soon as reasonably possible. This is called *The Urgency Principle*.
+- Normally, when a *Finesse* occurs, someone blind-plays right away. This is extremely important, because it resynchronizes the information among the team. So, as a group, we agree to **blind-play our cards as soon as reasonably possible**. This is called *The Urgency Principle*.
 - Thus, if you see that a player does **not** blind-play into the *Finesse*, then you know that the *Finesse* must be **on you**.
 - However, there are some important exceptions:
   1) Players are allowed to **defer** playing into a *Finesse* if they are doing a *Finesse* of their own (and no-one else on the team could have done it).
   2) Players are allowed to **defer** playing into a *Finesse* if they are doing something really important, like saving a 5 on chop, giving a *Play Clue* to a card that is about to be discarded, or something along those lines.
 - So, if any of the above two conditions apply, then you have to **wait** and give the player yet another turn to demonstrate whether or not they will blind-play.
+- For example, in a 5-player game:
+  - All of the 1's are played on the stacks.
+  - There is 1 clue in the bank.
+  - Alice clues red to Emily, toucing a red 3 as a *Play Clue*. This is a *Finesse* on the red 2.
+  - Bob sees that the *Finesse* is on Cathy. (Cathy has the red 2 in her *Finesse Position*.) Since the team is at 0 clues, Bob discards.
+  - Cathy's knows that Alice is performing a *Finesse* and that she must have the red 2. Cathy's first instinct is to blind-play the red 2. This is urgent because otherwise, Emily will think that her red card might be the red 2, and it would misplay.
+  - However, Cathy also sees that Donald has a blue 5 on chop that needs to be saved. Furthermore, from Cathy's perspective, Donald could discard on his turn, so the blue 5 is in imminent danger. If Cathy blind-plays into the *Finesse*, then the blue 5 might get discarded.
+  - Instead of blind-playing into the *Finesse*, Cathy clues number 5 to Donald as a *5 Save*.
+  - Since the team is at 0 clues, Donald discards.
+  - After Alice's clue, Emily marked her red card as "red 2 or red 3 if Cathy blind-plays red 2". However, even though Cathy did not blind-play the red 2, Emily could see that Cathy was doing an important, time-sensitive action to prevent the team from losing the game. Thus, Emily knows that she needs to give Cathy another chance to blind-play the red 2. If Cathy does not blind-play the red 2 on her next turn (and nothing else special is going on), then Emily can play her own red card as the red 2.
 
 ### Schrödinger's Cat Principle
 
