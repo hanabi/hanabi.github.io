@@ -1349,7 +1349,7 @@ Note that in this user interface, players are **not** holding their hands like t
   - Bob blind-plays the blue 1.
   - This could be a *Triple Finesse* (on blue 1 + blue 2 + blue 3 into blue 4) or it could be a *Bluff* (on just blue 1 into red 4).
   - However, this must be a *Bluff*, because **1 does not match 4**. So Cathy should think that she has the *one-away-from-playable* 4, the red 4.
-  - The point of example 5 is to show that because a 2 happens to be played on the stacks, the blue 4 is a *one-away-from-playable* card and therefore becomes a legal *Bluff* target.
+  - The point of this example is to show that because a 2 happens to be played on the stacks, the blue 4 is a *one-away-from-playable* card and therefore becomes a legal *Bluff* target.
 - Example 5 (rank mismatch where a *Bluff* is impossible):
   - This is a 4-player game.
   - Nothing is played on the stacks.
@@ -1477,7 +1477,7 @@ Note that in this user interface, players are **not** holding their hands like t
 - First, see the section on the *[Stacked Finesse](#the-stacked-finesse)*.
 - *Stacked Finesses* are encouraged, since they have few downsides.
 - However, players should **never** stack a *Bluff* on top of a player who is *Finessed*. This is because the blind-playing player will assume that a *Layered Finesse* is occurring and go on to play the card from the first *Finesse*. This means that the *Bluff* will not be resolved immediately, violating *Lie Principle*. (*Lie Principle* is one of the most important principles!) Typically, when this mistake happens, the team will go on to lose the game, because severe *Information Desynchronization* will occur.
-- Sometimes, in rare circumstances, expert players can perform *Out-of-Position Bluffs*. (This is normally illegal, so it to work, it has to be a very specific situation.) When this occurs, it is illegal to stack a second *Bluff* on top of them. You cannot stack a *Bluff* on a *Bluff* for the same reason that you cannot stack a *Bluff* on a *Finesse* - the *Fib* will not resolve immediately and will violate *Lie Principle*.
+- Sometimes, in rare circumstances, expert players can perform *Out-of-Position Bluffs*. (This is normally illegal, so for it to work it has to be a very specific situation.) When this occurs, it is illegal to stack a second *Bluff* on top of them. You cannot stack a *Bluff* on a *Bluff* for the same reason that you cannot stack a *Bluff* on a *Finesse* - the *Fib* will not resolve immediately and will violate *Lie Principle*.
   - Similarly, it is illegal to stack an *Ejection* or a *Discharge* on a *Bluff*. (*Ejections* and *Discharges* are advanced moves that are covered later.)
 
 <br />
