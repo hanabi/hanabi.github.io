@@ -513,7 +513,8 @@ Note that in this user interface, players are **not** holding their hands like t
 ### Chop Moves & New Clues
 
 - See the *Chop Move* section above for an explanation on what a *Chop Move* is.
-- Once a card has been *Chop Moved* and is no longer in danger of being discarded, it is treated as an already-clued card with regards to new clues given to that hand. For example, in a 3-player game:
+- Once a card has been *Chop Moved* and is no longer in danger of being discarded, it is treated as an already-clued card with regards to new clues given to that hand.
+- For example, in a 3-player game:
   - All of the 1's have been played on the stacks.
   - Bob has a completely unclued hand.
   - Alice clues 1's to Bob, which touches a 1 in his slot 4.
@@ -523,6 +524,14 @@ Note that in this user interface, players are **not** holding their hands like t
   - Cathy clues blue to Bob, which touches his slot 1 (the card he just drew) and his slot 5 (the card that was just *Chop Moved*).
   - Bob knows that the focus of the clue is always on the brand-new card introduced, so this is **not** chop-focus, and the focus of the clue is on slot 1.
   - Thus, Bob will play blue 2 from slot 1 on his next turn.
+- The exception to this is if a clue is given that touches a *Chop Moved* card for the first time and only "old" cards are touched.
+- For example, in a 3-player game of the rainbow variant:
+  - All the 2's are played on the stacks.
+  - Bob has an unknown red card on slot 3, an unknown red card on slot 4, and a *Chop Moved* card in slot 5 (that is completely unclued).
+  - Alice clues blue to Bob, which touches slot 3, slot 4, and slot 5. (Slot 3 and slot 4 are "filled in" to be rainbow cards and slot 5 is now a true blue card.)
+  - Bob knows that the focus of the clue is normally on the brand-new card introduced, but all three of the cards that were touched were "old".
+  - Bob knows that when old cards are re-touched, the focus of the clue is the left-most of those cards.
+  - However, Bob also knows that in this is the exception to the rule. In this specific case, putting a positive clue on the *Chop Moved* card was more important than filling in the rainbow cards, so by convention the focus of the clue is his slot 5.
 
 ### Chop Moves & Prompts
 
