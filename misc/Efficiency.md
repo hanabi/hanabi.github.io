@@ -36,6 +36,7 @@
 - Efficiency is a measure of how much value the team is getting with the amount of clues that they have spent thus far.
 - The formula for efficiency is:
   - `(number of cards played + number of cards with 1+ clues "on" them) / number of clues given or lost`
+  - (This assumes the usage of *Good Touch Principle*.)
 
 <br />
 
