@@ -2291,7 +2291,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 - Just like a *Bluff*, a *Discharge* can only be performed on the very next player.
 - Several different kinds of moves can cause a *Discharge*. The most common one is called the *Unknown Trash Discharge*.
 
-### The Unknown Trash Discharge (UTD)
+### The Unknown Trash Discharge (1-for-1 Form) (UTD)
 
 - In general, *Bluffs* work because the blind-play tells the person who was clued that they have a *one-away-from-playable* card of that color.
 - In general, *Trash Bluffs* work because the blind-play tells the person who was clued that they have a trash card.
@@ -2309,8 +2309,9 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   - Alice clues red to Cathy, touching a red 1 as a *Play Clue*.
   - Bob knows that if he played his *First Finesse Position*, then Cathy would write a note of red 3 on the card (as a *Bluff*), which would be a *Lie*.
   - Bob knows that if he played his *Second Finesse Position*, then Cathy would write a note of red 5 on the card (as a *5 Color Ejection*), which would be a *Lie*.
-  - Bob blind-plays his *Third Finesse Position*, and it successfully plays as green 2.
-  - Cathy knows that a *Discharge* has occurred from Alice's red clue. Thus, this must be an *Unknown Trash Discharge*, so Cathy's red card must be trash. Cathy marks her red card as red 1 (since that is the only possible trash red card) and discards it.
+  - Bob blind-plays his *Third Finesse Position*. It is a blue 2 and it successfully plays.
+  - Cathy knows that a *Discharge* has occurred from Alice's red clue. This must be an *Unknown Trash Discharge*, so the focus of the clue must be trash.
+  - Cathy marks her red card as a red 1 (since that is the only possible trash red card) and discards it.
 - In summary:
   - For a *Trash Bluff*:
     - The empathy on the clued card **only** contains possibilities that are *Playable*, *Delayed Playable*, or trash.
@@ -2319,7 +2320,20 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
     - The empathy on the clued card contains one or more possibilities that are useful and currently unplayable.
     - Thus, something extra is needed to prove it is trash.
   - Other than this, don't use more complicated factors to prefer a *Trash Bluff* over an *Unknown Trash Discharge* (like Bob having to wait on some other card).
-- Finally, when multiple cards are clued with an *Unknown Trash Discharge*, **only the focus of the clue is considered to be trash**. This means that *Good Touch Principle* applies to the non-focused cards. (Note that this is **the opposite of the *Trash Bluff***. In a *Trash Bluff*, when multiple cards are clued, **all** of the touched cards are considered to be trash.)
+
+### The Unknown Trash Discharge (2-for-1 Form) (UTD)
+
+- When multiple cards are clued with an *Unknown Trash Discharge*, **only the focus of the clue is considered to be trash**. This means that *Good Touch Principle* applies to the non-focused cards.
+- Note that this is **the opposite of the *Trash Bluff***. (In a *Trash Bluff*, when multiple cards are clued, all of the touched cards are considered to be trash.)
+- This means that while most *Unknown Trash Discharges* are 1-for-1 clues, you can also perform an *Unknown Trash Discharge* as a 2-for-1, a 3-for-1, and so forth.
+- For example, in a 3-player game:
+  - (This is almost exactly the same as the previous example.)
+  - All the 1's are played on the stacks.
+  - Alice clues red to Cathy, touching a red 1 on slot 2 and a red 5 on slot 3. The red 1 is focused. This looks like a *Play Clue* on the red 1.
+  - Bob knows that this must be an *Unknown Trash Ejection*, so he blind-plays his *Third Finesse Position*. It is a blue 2 and it successfully plays.
+  - Cathy knows that a *Discharge* has occurred from Alice's red clue. This must be an *Unknown Trash Discharge*, so the focus of the clue must be trash.
+  - Cathy marks her slot 2 card as a red 1 (since that is the only possible trash red card) and discards it.
+  - Cathy also knows that non-focused cards touched in an *Unknown Trash Discharge* are supposed to be useful. Thus, Cathy marks her slot 3 card as a red 3, a red 4, or a red 5.
 
 ### 5 Number Discharge (5ND)
 
