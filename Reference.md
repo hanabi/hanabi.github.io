@@ -2312,7 +2312,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   - Bob blind-plays his *Third Finesse Position*, and it successfully plays as green 2.
   - Cathy knows that a *Discharge* has occurred from Alice's red clue. Thus, this must be an *Unknown Trash Discharge*, so Cathy's red card must be trash. Cathy marks her red card as red 1 (since that is the only possible trash red card) and discards it.
 - In summary, for a *Trash Bluff*:
-  - The empathy on the clued card **only** contains possibilities that are *Playable* or *Delayed Playable*.
+  - The empathy on the clued card **only** contains possibilities that are *Playable*, *Delayed Playable*, or trash.
   - Thus, a normal blind-play is enough to prove it is trash.
 - In summary, for an *Unknown Trash Discharge*:
   - The empathy on the clued card contains one or more possibilities that are currently unplayable.
