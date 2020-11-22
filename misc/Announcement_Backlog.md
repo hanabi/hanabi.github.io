@@ -35,6 +35,16 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 
 @everyone Variant-specific conventions:
 
+**Order Chop Move Change**
+
+```
+- This convention applies to the "Dual-Color (6 Suits)" variant.
+- Normally, *Order Chop Moves*, are "turned off" when two different 1's have different positive clues on them.
+  - For example, Order Chop Moves would be "turned off" in the situation where Alice has one 1 has a positive 1 clue on it, and Alice has another 1 with a positive 1 clue on it and a positive red clue on it.
+- In the "Dual Color (6 Suit)" variant, *Order Chop Moves* are never turned off when there are two different 1's, regardless of different positive or negative color clues on them.
+- The only exception is when the exact identity of the 1 is known (e.g. from being completely "filled in"). In this situation, *Order Chop Moves* are turned off.
+```
+
 **Advanced Conventions for Variant with No Positive Clues**
 
 ```
@@ -137,16 +147,6 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 - If a *Bubblegum Prompt* or a *Bubblegum Finesse* is telling a player to play a card in a slot that has negative pink, then that is nonsensical.
 - In this situation, if there is no other possible interpretation for the clue other than a *Bubblegum Prompt* or a *Bubblegum Finesse*, and it is unlikely for the cluer to be making a mistake, then the target slot should "slide" to the right.
 - If the slot immediately to the right is also impossible to be a pink card, then it should continue to slide right until it finds a pink card, wrapping around to the other side of the hand if necessary.
-```
-
-**Order Chop Move Change**
-
-```
-- This convention applies to the "Dual-Color (6 Suits)" variant.
-- Normally, *Order Chop Moves*, are "turned off" when two different 1's have different positive clues on them.
-  - For example, Order Chop Moves would be "turned off" in the situation where Alice has one 1 has a positive 1 clue on it, and Alice has another 1 with a positive 1 clue on it and a positive red clue on it.
-- In the "Dual Color (6 Suit)" variant, *Order Chop Moves* are never turned off when there are two different 1's, regardless of different positive or negative color clues on them.
-- The only exception is when the exact identity of the 1 is known (e.g. from being completely "filled in"). In this situation, *Order Chop Moves* are turned off.
 ```
 
 **The Slot Finesse** (by Jeff)
