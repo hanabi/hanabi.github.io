@@ -2312,6 +2312,8 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   - Bob blind-plays his *Third Finesse Position*, and it successfully plays as green 2.
   - Cathy knows that a *Discharge* has occurred from Alice's red clue. Thus, this must be an *Unknown Trash Discharge*, so Cathy's red card must be trash. Cathy marks her red card as red 1 (since that is the only possible trash red card) and discards it.
 - When multiple cards are clued with an *Unknown Trash Discharge*, **only the focus of the clue is considered to be trash**. This means that *Good Touch Principle* applies to the non-focused cards. (Note that this is **the opposite of the *Trash Bluff***. In a *Trash Bluff*, when multiple cards are clued, **all** of the touched cards are considered to be trash.)
+- More specifically, it is an *Unknown Trash Discharge* if the trash card focused by the clue could be a useful card that is not playable, otherwise, it is a *Trash Bluff*.
+  - This does **not** take into account harder to see factors that would make a *Bluff* impossible, such as that the card cannot be *Bluff Target* or that if the card was a *Bluff Target*, *Bob* would wait for a clued card before blind-playing.
 
 ### 5 Number Discharge (5ND)
 
