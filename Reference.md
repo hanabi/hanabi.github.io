@@ -3028,8 +3028,8 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### Self Color Double Bluff (SCDB)
 
-- Just like normal bluffs, *Self Color Bluffs* are done by "filling in" a card that is *one-away-from-playable* (or a legal *Bluff* target).
-- However, players can also perform a *Self Color Double Bluff* by "filling in" a card that is *two-or-more-away-from-playable* (and not a legal *Bluff* target).
+- Just like normal bluffs, *Self Color Bluffs* are done by "filling in" a card that is *one-away-from-playable* or a legal *Bluff* target.
+- However, players can also perform a *Self Color Double Bluff* by "filling in" a card that is *two-or-more-away-from-playable* and not a legal *Bluff* target.
 - For example, in a 3-player game (similar to the previous example):
   - Red 2 is played on the stacks.
   - Alice clues red to Bob, which touches a brand new red card on his slot 2.
