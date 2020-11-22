@@ -6,50 +6,6 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 
 ## The Backlog (General Conventions)
 
-@everyone Renamed principles:
-
-- *Good Lie Principle* has been renamed to *Lie Principle*:
-
-```
-### 8. Lie Principle
-
-- Normally, players try to make their clues as clear as possible and convey the exact identity of one or more cards.
-- Rarely, players can use clues to trick other players into thinking that they have cards that they really don't.
-- If this untruth **resolves immediately** (e.g. the very next turn), it is called a *Fib*. For intermediate and advanced players, *Fibs* are legal and expected.
-- If this untruth does **not resolve immediately**, it is called a *Lie*. *Lies* are illegal. Players should **never** assume that they are *Lied* to.
-```
-
-@everyone Moved conventions:
-
-```
-- *5 Number Discharge* has been moved to level 15.
-- Level 17 has been moved to Level 19.
-- The *Good Touch Bluff* and the *Pestilent Double Bluff* have been moved to level 17.
-- The *Echo Scream Discard Chop Move* and some other emergency discards have been moved to level 18.
-```
-
-@everyone New conventions:
-
-**Self Color Double Bluff (SCDB)**
-
-```
-- Just like normal bluffs, *Self Color Bluffs* are done by "filling in" a card that is *one-away-from-playable* (or a legal *Bluff* target).
-- However, players can also perform a *Self Color Double Bluff* by "filling in" a card that is *two-or-more-away-from-playable* (and not a legal *Bluff* target).
-- For example, in a 3-player game (similar to the previous example):
-  - Red 2 is played on the stacks.
-  - Alice clues red to Bob, which touches a brand new red card on his slot 2.
-  - This must be a *Play Clue* on the red card, since Alice is not in a stalling situation. (If Alice was in a stalling situation, then she would be allowed to give a "fill-in" clue without anything special happening.)
-  - Bob has a negative 3 clue on his red card, so he knows it cannot possibly be a red 3 (the next playable red card).
-  - Bob does not see any red cards in other player's hands, so it cannot be a *Prompt* or a *Reverse Finesse*.
-  - Bob cannot possibly have the red 3 in his *Finesse Position*, because that card now has negative red.
-  - Thus, Bob knows that this must be a *Self Color Bluff*, so he blind-plays his *Finesse Position* card as a *Known Bluff* on any playable non-red card. It is a blue 1 and it successfully plays on the stacks.
-  - Bob marks his red card as a red 4 (since that is the red card that is *one-away-from-playable*).
-  - Cathy sees that Alice did a *Self Color Bluff* on Bob. However, Cathy sees that the red card in Bob's hand is the red 5, which is *two-away-from-playable*. That means that Alice means to perform a *Self Color Double Bluff* (instead of a single *Bluff*).
-  - Cathy blind-plays her *Finesse Position* card as a *Known Bluff*. It is a blue 2 and it successfully plays on the stacks.
-  - Bob is surprised by Cathy's blind-play and realizes that it must be related to the clue that Alice gave. If Bob had a red 4 in his hand, then Cathy would not have gone on to blind-play anything. So, Bob erases his note of "red 4" and instead writes "red 5", because that is the only red card that is *two-away-from-playable*, and is the only card that would make Cathy blind-play.
-- More examples of a *Self Color Double Bluff* can be found [here](examples/Self_Color_Double_Bluff.md).
-```
-
 **The Safety Charm (Declined 5 Pull)** (by pianoblook)
 
 ```
