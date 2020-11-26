@@ -151,7 +151,7 @@ No! There are FIVE conditions where *Tempo Clues* are allowed. If any of these f
 
 <br />
 
-### Does *[Schrodinger's Cat Principle](../Reference#schrödingers-cat-principle)* always take priority over *[Occam's Razor](../Reference.md#clue-interpretation--occams-razor)*?
+### Does *[Schrodinger's Cat Principle](../Reference.md#schrödingers-cat-principle)* always take priority over *[Occam's Razor](../Reference.md#clue-interpretation--occams-razor)*?
 
 Yes.
 
