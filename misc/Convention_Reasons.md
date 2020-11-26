@@ -23,7 +23,7 @@ The main [reference document](../Reference.md) lists all of our conventions. But
   - It is the first turn of the game and nothing is played on the stacks.
   - Alice goes first.
   - Alice clues Bob about two red cards in slot 1 and slot 2.
-  - Alice plays slot 1 as red 1.
+  - Bob plays slot 1 as red 1.
 - Why does this seem logical? The reason is that a big part of Hanabi is discarding and waiting patiently for playable cards to be drawn. When a new playable card is drawn, it is usually immediately given a clue. So interpreting *Play Clues* as being focused on the card that was just drawn makes a lot of sense.
 - This "left-most" logic applies for most of the game. But notice that this logic does not apply to the opening hand. A playable card in the opening hand is **equally likely to be in any slot at all**, since the deck was shuffled randomly. So that explains why it is not necessarily "correct" to play 1's in the starting hand from left-to-right. But is it actually beneficial to play the 1's from right-to-left instead?
 - The Hyphen-ated group closely follows *[Good Touch Principle](https://github.com/Zamiell/hanabi-conventions/blob/master/Reference.md#4-good-touch-principle)*. A common problem with *Good Touch Principle* is when one player has two copies of the same card in their hand. Even if the card is playable right now (e.g. a red 1), cluing it would be a no-no, since it would violate *Good Touch Principle*.
