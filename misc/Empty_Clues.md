@@ -234,12 +234,6 @@
 
 ## Special Empty Moves
 
-### Empty Ejection (Ejection Disabled)
-
-- If *Empty Clues* are enabled for the game, then it is agreed that all conventions relating to *Ejection* are "turned off".
-- Clues that would trigger an *Ejection* are instead interpreted as an *Empty Clue*. (This is more efficient, since an *Ejection* is a 1-for-1 and an *Empty Clue* will always be better than this.)
-- Care has to be taken to ONLY perform *Ejection*-style clues that are globally known as being *Ejection*-like. For example, often times giving an *Unknown Trash Ejection*-style clue will NOT be globally known, and will then lead to the wrong cards being played.
-
 ### The Final Freedom Certain Finesse
 
 - If a player uses their *Final Freedom* to perform a *Finesse*, then they could be potentially duplicating the card that they are supposed to be blind-playing from their own hand.
