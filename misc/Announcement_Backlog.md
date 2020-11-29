@@ -6,7 +6,16 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 
 ## The Backlog (General Conventions)
 
-n/a
+@everyone Changed conventions:
+
+*Tempo Clues* (changed) (by Zamiel)
+
+```
+- The text for the "allowed" *Tempo Clue* is changed from:
+  - When the clued card is "out of order" (meaning that it is impossible for a Prompt to get the card played)
+- to:
+  - When the clued card is not a 5 and it is "out of order" (meaning that it is impossible for a Prompt to get the card played)
+```
 
 <br />
 
