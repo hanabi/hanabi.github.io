@@ -281,7 +281,7 @@ Note that in this user interface, players are **not** holding their hands like t
   - Alice clues red to Cathy, touching a red 3.
   - Bob blind-plays red 1 from slot 1.
   - Cathy would normally think that she has red 2, which would match the red 1 that was just played. However, she sees that when the clue happened, there was a red 2 next to the red 1.
-  - Thus, Cathy discards, giving Bob a chance to blind play the red 2. If he does not blind-play it, then it was a normal *Finesse* and she has red 2. If he does blind-play it, then it was a *Double Finesse* and she has red 3.
+  - Thus, Cathy discards, giving Bob a chance to blind-play the red 2. If he does not blind-play it, then it was a normal *Finesse* and she has red 2. If he does blind-play it, then it was a *Double Finesse* and she has red 3.
   - On his next turn, Bob blind-plays red 2 from slot 2. Cathy now knows that she has the red 3.
 
 ### The Prompt + Finesse
@@ -3764,7 +3764,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   - Bob knows that since Cathy blind-played the red 2, Alice did a *Reverse Finesse* and that he has the red 3.
   - Bob plays the 3, but it is revealed to be blue 3 instead of red 3.
   - Bob now knows that nobody has the red 3 and that Cathy blind-played the red 2 from Bob's hesitation.
-- *Hesitation Blind Plays* are **not always safe** to do:
+- *Hesitation Blind-Plays* are **not always safe** to do:
   - If a player could be hesitating for a clued card in your hand **or** your *Finesse Position* card, then you cannot act on the hesitation. (If you guess wrong, you could misplay a critical card.)
   - If a player could be hesitating for a card that is identical to the card that was clued, then you cannot act on the hesitation. (If you blind-play the same copy of the card, then they will go on to misplay the clued card.)
   - If blind-playing a particular card would cause the original clue to look like a *Double Finesse* with a "self" component, then you cannot act on the hesitation. (For example, if a number 4 clue causes a *Hesitation Blind-Play* of a red 2, the clue receiver would go on to misplay their *Finesse Position* card as the red 3.)

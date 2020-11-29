@@ -86,7 +86,7 @@ Yes.
 
 <br />
 
-### If a *5 Pull* touches slot 1 and slot 3 in 3-player game, does this call for a blind play on slot 2 or slot 4?
+### If a *5 Pull* touches slot 1 and slot 3 in 3-player game, does this call for a blind-play on slot 2 or slot 4?
 
 Slot 2.
 
