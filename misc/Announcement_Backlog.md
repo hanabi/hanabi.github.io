@@ -6,52 +6,12 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 
 ## The Backlog (General Conventions)
 
-**The Safety Charm (Declined 5 Pull)** (by pianoblook)
 
-```
-- This convention only applies in the *Low Score Phase*.
-- If a card could be freely gotten by initiating a *5 Pull*, it would be very strange if the *5 Pull* was declined and the card was directly touched as a 1-for-1.
-- When this occurs, this player is trying to communicate something deeper - a *Charm* on the very next player.
-- Normally, when an card is blind-played after an innocent-looking *Play Clue*, the clue receiver knows to not play that card anymore. In this situation, since the *Fourth Finesse Position* card was played instead of the *First*, *Second*, or *Third*, the clue receiver will know that their card is still playable **and** that the unclued card directly to its left must be a 5.
-- This untouched 5 is now globally known; everyone on the team should treat it as a *Chop Moved* card.
-- For example, in a 4-player game:
-  - Red 1 is played on the stacks.
-  - It is the *Early Game* and the *Low Score Phase*.
-  - Alice clues red to Cathy, touching a new red 2 on slot 2.
-  - Cathy hand is, from newest to oldest: `blue 5, red 2, blue 3, blue 2`
-  - Bob sees that Alice could have cleanly *5 Pulled* Cathy's red 2. (It is globally known that Alice had another *Play Clue* to give, so a number 5 clue would not have been interpreted as a *5 Stall*.)
-  - Bob knows that this signals a blind-play:
-    - A *First Finesse Position* blind-play would look like a *Bluff* on a red 2 or a red 3, which would be a lie.
-    - A *Second Finesse Position* blind-play would look like a *5 Color Ejection* on a red 5, which would be a lie.
-    - A *Third Finesse Position* blind-play would look like an *Unknown Trash Discharge* on a red 1, which would be a lie.
-  - Thus, Bob knows that this must be a *Safety Charm*. He blind-plays his *Fourth Finesse Position*. It is a blue 1 and it successfully plays.
-  - Cathy knows that she must have the red 2. She also knows that her slot 1 card is a 5 that could have been used for a *5 Pull*. Cathy marks the 5 as being *Chop Moved* for later.
-- More examples of a *Safety Charm* can be found [here](https://github.com/Zamiell/hanabi-conventions/blob/master/examples/Safety_Charm.md).
-```
+
 
 <br />
 
 ## The Backlog (Variant-Specific Conventions)
-
-@everyone Variant-specific conventions:
-
-**Order Chop Move Change**
-
-```
-- This convention applies to the "Dual-Color (6 Suits)" variant.
-- Normally, *Order Chop Moves*, are "turned off" when two different 1's have different positive clues on them.
-  - For example, Order Chop Moves would be "turned off" in the situation where Alice has one 1 has a positive 1 clue on it, and Alice has another 1 with a positive 1 clue on it and a positive red clue on it.
-- In the "Dual Color (6 Suit)" variant, *Order Chop Moves* are never turned off when there are two different 1's, regardless of different positive or negative color clues on them.
-- The only exception is when the exact identity of the 1 is known (e.g. from being completely "filled in"). In this situation, *Order Chop Moves* are turned off.
-```
-
-**Advanced Conventions for Variant with No Positive Clues**
-
-```
-- Various conventions for Duck have been deleted / reformulated.
-- We now have a framework that is used for any variant with no positive clues (e.g. Extremely Ambiguous, Duck, etc.).
-- For more information, please see: https://github.com/Zamiell/hanabi-conventions/blob/master/variant-specific/No_Positive_Clues.md
-```
 
 **Null Color Positional Clue Skips** (by Jeff)
 
