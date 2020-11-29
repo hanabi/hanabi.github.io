@@ -23,19 +23,3 @@
 
 - This screenshot shows the same situation as example 1.
 - In other words, rz can clue number 5 to Carunty in order to get wump to blind-play slot 2 (as a *Bubblegum Wraparound Finesse*).
-
-#### Example 3
-
-![bubblegum_wraparound3](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/examples/bubblegum_wraparound3.png)
-
-- It is jack67889's turn.
-- Sucubis has a globally known pink 1 on slot 2 (which was given a *Play Clue* earlier on).
-- jack67889 gives a number 5 clue to Sucubis, touching both pink cards on slot 2 and 3.
-- The next player is Sucubis. For now, Sucubis just plays his pink 1 from slot 2.
-- The next player is XMIL. XMIL analyzes jack67889's clue:
-  - Since Sucubis already knew about the pink 1, the number 5 clue was focused on Sucubis' slot 3 card.
-  - A number 5 clue violates *Pink Promise* on the pink 3.
-  - Thus, this must be a *Bubblegum Finesse* on XMIL's slot 5.
-  - However, XMIL's slot 5 card is a card that is "filled-in" to be a known rainbow card.
-  - Since XMIL's slot 5 card is not a pink card, this must be a *Bubblegum Wraparound Finesse*, so number 5 should wrap around to his slot 1.
-- XMIL blind-plays his slot 1 as a *Bubblegum Wraparound Finesse*. It is a pink 1 and it successfully plays.
