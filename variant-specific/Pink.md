@@ -227,7 +227,7 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 - Similarly, in a 6-player game, there are only 3 cards in the hand. If a player does a *Bubblegum Finesse* with a 4, then that would be nonsensical, since there is no slot 4.
 - In this situation, it should "wraparound" to slot 1, communicating that the first slot is playable.
 - This kind of thing is useful in some edge-case scenarios (e.g. helping satisfy *Good Touch Principle* in variants with a light pink suit).
-- More examples of a *Bubblegum Wraparound* can be found [here](examples/Bubblegum_Wraparound.md).
+- More examples of a *Bubblegum Wraparound* can be found [here](../examples/Bubblegum_Wraparound.md).
 
 ### The Bubblegum Slide
 
