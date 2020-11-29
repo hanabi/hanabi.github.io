@@ -1048,7 +1048,7 @@ Note that in this user interface, players are **not** holding their hands like t
 | 1          | Normal *Play Clues* or *Save Clues*                                                   | ✔ | ✔ | ✔ | ✔
 | 2          | *5 Stall* (cluing off-chop 5's)                                                       | ✔ | ✔ | ✔ | ✔
 | 3          | *Tempo Clue* (re-cluing a card to make it play)                                       | ❌ | ✔ | ✔ | ✔
-| 4 (tied)   | *Locked Hand Save* (saving any card on chop and not on slot 1)                        | ❌ | ❌ | ✔ | ✔
+| 4 (tied)   | saving any card on chop, as long as doing so would not *Lock* the other player        | ❌ | ❌ | ✔ | ✔
 | 4 (tied)   | *8 Clue Save* (saving any card not on slot 1)                                         | ❌ | ❌ | ❌ | ✔
 | 4 (tied)   | Filling in extra info on clued cards or *Chop Moved* cards                            | ❌ | ✔ | ✔ | ✔
 | 5          | *Hard Burn* (re-cluing an unplayable card that gives no new information, usually a 5) | ❌ | ✔ | ✔ | ✔
@@ -1066,7 +1066,7 @@ Note that in this user interface, players are **not** holding their hands like t
 
 ### The Locked Hand Save (LHS)
 
-- Players with a *Locked Hand* gain the special ability to save any card on chop (as long as it is not on slot 1). This is called a *Locked Hand Save* if it saves a card that would otherwise not be legal to save (like some *one-away-from-playable* card that is not in the discard pile yet). However, players can only do *Locked Hand Saves* if there are no higher precedence clues available. See the "Allowable Stall Clues" section above.
+- Players with a *Locked Hand* gain the special ability to save any card on chop (as long as it would not *Lock* the other player). This is called a *Locked Hand Save* if it saves a card that would otherwise not be legal to save (like some *one-away-from-playable* card that is not in the discard pile yet). However, players can only do *Locked Hand Saves* if there are no higher precedence clues available. See the "Allowable Stall Clues" section above.
 - A *Locked Hand Save* can be performed with either a color clue or a number clue.
 - Note that the precedence of a *Locked Hand Save* is tied with a "fill-in" clue. Essentially, this means that players who have a *Locked Hand* are not forced to perform a *Locked Hand Save* if they do not want to. Most of the time, doing a *Locked Hand Save* will be pretty good (as a 1-for-1 or a 2-for-1 instead of a 0-for-1), but *Locked* players can always ignore a *Locked Hand Save* to perform a "fill-in" clue if they want.
 
