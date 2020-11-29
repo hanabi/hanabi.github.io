@@ -1,4 +1,4 @@
-## Examples of the [Bubblegum Wraparound](../Reference.md#the-bubblegum-wraparound)
+## Examples of the [Bubblegum Wraparound](../variant-specific/Pink.md#the-bubblegum-wraparound)
 
 #### Example 1
 
