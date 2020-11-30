@@ -3302,6 +3302,22 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   - Cathy knows that since a number 2 clue cause Bob to blind-play his *Second Finesse Position*, this must be an *Ejection*. The only type of *Ejection* that matches this kind of clue is a *Rank Choice Ejection*, so Cathy knows that her 2 must be playable and that her 2 must be exactly the red 2. Cathy plays the red 2.
 - More examples of a *Rank Choice Ejection* can be found [here](examples/Rank_Choice_Ejection.md).
 
+### Self Color Ejection
+
+- Players can perform a *Self Color Double Bluff* by "filling in" a card that is two-or-more-away-from-playable. But what if the next player can see that it cannot be a *Double Bluff*?
+- In this situation, they intend for an *Ejection* on the very next player.
+- For example, in a 4-player game:
+  - All the 1's are played on the stacks.
+  - Bob has a green 4 that was previously clued in his hand with rank.
+  - Alice gives a green clue to Bob touching the green 4. Normally, it communicates a *Finesse* on the green 4.
+  - However, Bob doesn't see green 2 and green 3 in someone else's hands. He knows that it is a signal as a *Self Color Bluff*. But since green 4 is two-away-from-playable, it must be a *Self Color Double Bluff*.
+  - Bob can see that Cathy doesn't have a playable or a one-away card on her *Finesse Position*. If he blind-plays his slot 1, Cathy will go on to misplay her slot 1.
+  - Thus, in order to prevent Cathy from bombing slot 1, it must be an *Ejection* on Bob as a *Self Color Ejection*.
+  - Bob blind-plays his *Second Finesse Position*. It is a red 2 and it successfully plays.
+  - Cathy finds that this is odd as normally a two-away card being clued promises at least 2 cards to play.
+  - However, because Bob did not play slot 1, that means her slot 1 is not playable and this is just a *Self Color Ejection*.
+  - Cathy does nothing as no other cards are promised.
+
 <br />
 
 ## Level 19 - Rarely Used Strategies - Discharges
@@ -4167,6 +4183,7 @@ Conventions for specific variants are listed on a separate page.
 | Charm | IAMJEFF
 | 4 Charm | IAMJEFF
 | The Safety Charm | Pianoblook
+| Self Color Ejection | IAMJEFF
 
 <br />
 
