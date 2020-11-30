@@ -3333,6 +3333,23 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 - A *Charm* refers to a *Signal Shift* blind-play in which someone plays an unrelated card from their *Fourth Finesse Position*. For example, if a player's hand is completely unclued, their *Fourth Finesse Position* is slot 4.
 - Just like a *Bluff*, a *Charm* can only be performed on the very next player.
 
+### 4 Charm
+
+- Normally, when a 4 is touched as the focus of the clue, it communicates a *Finesse*.
+- However, what if it requires the next player to blind-play **three** cards to fulfill the *Finesse*? Then the *Finesse* is unlikely.
+- Therefore, the clue should be interpreted as a *4 Double Bluff* or a *Hard 4 Double Bluff*.
+- But what if the third player (Cathy) doesn't have a playable card or a card which is one-away-from-playable on their *Finesse Position*?
+- In this situation, it should signal a *Charm* on the very next player.
+- For example, in a 4-player game:
+  - It is the first turn and nothing is played on the stacks.
+  - Alice gives a 4 clue touching a red 4 on slot 1 and a green 4 on slot 2.
+  - Normally, it communicates a *Finesse* on the red 4, which requires a red 1, red 2, and a red 3 to fulfill the *Finesse*.
+  - Bob doesn't see red 1, red 2, and a red 3 in Cathy's and Donald's hands; which means he has a red 1 on slot 1, a red 2 on slot 2, and a red 3 on slot 3.
+  - However, it requires Bob to blind-play three cards to fulfill the *Finesse*, which seems unlikely.
+  - Furthermore, Cathy doesn't have a playable card or a one-away card on her *Finesse Position*, then the *4 Double Bluff* is also unlikely.
+  - Thus, Bob knows that this must be a *4 Charm*. He blind-plays his *Fourth Finesse Position*. It is a blue 1 and it successfully plays.
+- Note that in the *Variants with No Positive Clues*, you can also perform this move by using a **two**-or-more-away-from-playable 4.
+
 ### The Safety Charm (Declined 5 Pull)
 
 - This convention only applies in the *Low Score Phase*.
@@ -4147,6 +4164,8 @@ Conventions for specific variants are listed on a separate page.
 | Selfish Focus Inversion | Romain
 | Double Ignition | Libster
 | The Shadow Finesse | Pianoblook
+| Charm | IAMJEFF
+| 4 Charm | IAMJEFF
 | The Safety Charm | Pianoblook
 
 <br />
