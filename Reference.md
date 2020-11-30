@@ -4201,6 +4201,7 @@ Conventions for specific variants are listed on a separate page.
 | Totally Blind Conventions | Zamiel & IAMJEFF
 | The Mismatch Finesse | Zamiel
 | 1's Color Ejection (1CE) | Kakashi
+| 1's Chop Move | IAMJEFF
 | The U-Turn Finesse | NoMercy
 | Cow & Pig Rank Saves | Florrat
 | Advanced Conventions for Variant with No Positive Clues | Kakashi, IAMJEFF, & Libster
