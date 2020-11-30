@@ -3287,12 +3287,12 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   - Thus, Bob blind-plays his *Second Finesse Position*. It is a green 3 and successfully plays.
   - Cathy knows that if this was an *5's Chop Move*, then Bob would not have blind-played anything. If it was a *Finesse*, then Bob would have blind-played his *Finesse Position*. Since he blind-played his *Second Finesse Position* card, this must be a *Bad Chop Move Ejection* and her slot 4 card must be trash.
 
-### Rank Choice Ejection (with a number 2 or a number 5)
+### Rank Choice Ejection (with a number 2 or a number 5) (RCE)
 
 - Typically, when a number 2 clue or a number 5 clue is performed on a chop card, it will be treated as a *2 Save* or a *5 Save* and the card will not play.
 - If a player performs a *2 Save* or a *5 Save* on a playable card and they could have easily used a normal color *Play Clue*, this is quite strange. They must be trying to communicate something extra.
 - In this situation, they intend for an *Ejection* on the very next player.
-- This results in a *Signal Shift* from *Play* --> *Save*.
+- This results in a *Signal Shift* from *Save* --> *Play*.
 - For example, in a 3-player game:
   - Red 1 is played on the stacks.
   - Cathy's hand is completely unclued and is, from newest to oldest: blue 3, blue 3, blue 4, blue 4, red 2
