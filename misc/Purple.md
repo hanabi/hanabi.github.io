@@ -34,7 +34,7 @@ Zamiel "owns" the Discord server, but for most intents and purposes, we want the
 
 #### Kindness
 
-* No one wants to play games with someone who has a mean streak. Try to stay postiive.
+* No one wants to play games with someone who has a mean streak. Try to stay positive.
 
 #### Patience
 
