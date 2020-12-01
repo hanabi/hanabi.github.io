@@ -1,6 +1,6 @@
 # The Purple Role in Discord
 
-If you are reading this, you are presumably being promoted to having the purple role in the [Discord server](https://discord.gg/FADvkJp). Congradulations! And thanks for sticking around this long!
+If you are reading this, you are presumably being promoted to having the purple role in the [Discord server](https://discord.gg/FADvkJp). Congratulations! And thanks for sticking around this long!
 
 Zamiel "owns" the Discord server, but for most intents and purposes, we want the server to be governed in an egalitarian manner. For that reason, all purple people have administrative powers in the Discord. (Meaning that, for example, you can move people around in voice channels, delete other people's messages, and so forth.) But with **great power** comes **great responsibility**.
 
@@ -25,7 +25,7 @@ Zamiel "owns" the Discord server, but for most intents and purposes, we want the
 
 ### The Culture
 
-* Purple people are seen as embassadors of the Hyphen-ated group, and as embassadors of Hanabi more generally.
+* Purple people are seen as embassadors of the Hyphen-ated group, and as ambassador of Hanabi more generally.
 * Thus, we want purple people to outwardly reflect the values of the group - values that you presumably already know.
 
 #### Politeness
@@ -47,6 +47,6 @@ Zamiel "owns" the Discord server, but for most intents and purposes, we want the
 
 <br />
 
-Purple people need to mix with green people so that our values continue to propigate. We want to avoid the nightmare scenario where a brand new player hops into a post-game review with a bunch of green people, and a yelling match ensues about who messed up the most, and the brand new player promptly leaves and never comes back. Do your part to help prevent this from occuring.
+Purple people need to mix with green people so that our values continue to propagate. We want to avoid the nightmare scenario where a brand new player hops into a post-game review with a bunch of green people, and a yelling match ensues about who messed up the most, and the brand new player promptly leaves and never comes back. Do your part to help prevent this from occuring.
 
 Thank you for being a part of the group that I love so much.
