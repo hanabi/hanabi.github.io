@@ -85,9 +85,7 @@ A side point here is that speedruns are viable on Hanab Live because it is nice 
 
 Getting a game going on Hanab Live is pretty different from how you would get a game going on BGA, since there is not a large pool of players to draw from. This means that you can't just click the "Create Table" button and have random people join your game, like you would on BGA.
 
-In order to find players, we typically do a "@here" ping in the [Discord Server](https://discord.gg/FADvkJp), which alerts everyone who is at their computer that someone is wanting to get a game going.
-
-Admittedly, this can be a little clunky for players who don't want to figure out how a new program works or download a program on their computer. One good thing about Discord is that it can be run from a browser tab, so you always have that option if you don't want to download it. (With that said, we do recommend that people download the client, as it will work better than the in-browser version.)
+If the Hyphen-ated group is playing, there will typically be people in the voice channels in the [Discord server](https://discord.gg/FADvkJp). If there are people in the voice channels, then just join the channel, wait for their game to end, and then ask to join the next game.
 
 #### Small Number of Players
 
