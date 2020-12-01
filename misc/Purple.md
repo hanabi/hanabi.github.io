@@ -11,7 +11,7 @@ Zamiel "owns" the Discord server, but for most intents and purposes, we want the
 * Use common sense.
 * Help moderate the chat. We expect all chatters to follow the rules posted in the `#rules-and-resources` channel.
   * For example, feel free to delete gore, porn, spam, and so forth.
-* Ask in the `#moderator-only` channel before doing things like creating new channels, and so forth. If you aren't suse, just ask.
+* Ask in the `#moderator-only` channel before doing things like creating new channels, and so forth. If you aren't sure, just ask.
 
 <br />
 
