@@ -23,7 +23,7 @@ The following is a quick summary of the levels.
 | Level    | Main Convention Learned
 | -------- | --------------------------------------
 | Level 3  | Basic *[Chop Moves](Reference.md#the-chop-move)*
-| Level 4  | *[Layered Finesses](Reference.md#the-layered-finesse)* and *Double Discard Avoidance*
+| Level 4  | *[Layered Finesses](Reference.md#the-layered-finesse)* and *[Double Discard Avoidance](Reference.md#double-discard-situations)*
 | Level 5  | *[Order Chop Moves](Reference.md#the-order-chop-move-ocm)*.
 | Level 6  | *[Locked Hand Saves](Reference.md#the-locked-hand-save-lhs)* & *[8 Clue Saves](Reference.md#clues-given-while-at-8-clues--the-8-clue-save-severity-4-stalling)*
 | Level 7  | *[The Gentleman's Discard](Reference.md#the-gentlemans-discard)*
