@@ -18,7 +18,7 @@ Zamiel "owns" the Discord server, but for most intents and purposes, we want the
 ### Don't
 
 * Don't power trip.
-* Don't delete other people's posts unless there is a really good reason.
+* Don't delete other people's posts unless there is a good reason.
 * Don't be a dick. More on that below.
 
 <br />
