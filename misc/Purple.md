@@ -38,7 +38,7 @@ Zamiel "owns" the Discord server, but for most intents and purposes, we want the
 
 #### Patience
 
-* Your patience *will* be tested, especially by new players. But have a little empathy; we were all there once.
+* Your patience *will* be tested, especially by new players (and some more than others). But have a little empathy; we were all there once.
 
 #### Inclusion
 
