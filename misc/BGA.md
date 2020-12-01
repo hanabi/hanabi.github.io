@@ -241,27 +241,6 @@ Ok, so you've made it this far. The changes so far probably sound pretty strange
 - In our group, we pay attention. If you don't play your 1's from oldest to newest, it *Chop Moves* the next person.
 - Why do this? You get to save 5's (and other valuable stuff) "for free" without having to waste a clue. It's a bit arbitrary, but very strong.
 
-### The Priority Finesse - Added
-
-- Often times, a player will have two or more playable cards in their hand and have a choice as to which one to play.
-- On BGA, it is typical for people to play the cards that lead into teammate's hands. However, you are ultimately allowed to play your cards in whatever order you want, and no-one really pays too much attention.
-- In our group, we pay attention.
-- For example:
-  - Alice has a known red 1 and a known blue 1 to play.
-  - Bob has a known red 2 to play and is waiting for Alice to play the red 1.
-  - Alice is expected to play the red 1. (The red 1 is said to have *Priority*.) Instead, Alice plays the blue 1.
-  - Thus, Alice is **promising** that someone one the team has the blue 2 on their *Finesse Position*. Whoever has it should blind-play it, similar to if a *Finesse* was performed.
-- You can also do *Priority Bluffs*. It works surprisingly well in a variety of situations.
-- Why do this? It gets cards "for free" without having to use any clues and has very little downsides.
-
-<br />
-
-## Convention Changes (Advanced)
-
-These are conventions that we don't typically turn on for new players, but we do use regularly in high-level games.
-
-<br />
-
 ### Layered Finesses - Added
 
 - On BGA, if you are playing into a *Finesse* but play an unrelated card, then you interpret the *Finesse* as a *Bluff* instead, and stop playing.
@@ -280,6 +259,27 @@ These are conventions that we don't typically turn on for new players, but we do
   - Donald plays red 2.
 - By extension, it is also possible to perform a *Double Finesse* where both promised cards are layered behind other playable cards. Essentially, this means that when playing with good players, you always have to keep in mind that a *Finesse* could be layered.
 - Why do this? It's pretty awesome and one of the most fun parts of playing Hanabi with our group.
+
+<br />
+
+## Convention Changes (Advanced)
+
+These are conventions that we don't typically turn on for new players, but we do use regularly in high-level games.
+
+<br />
+
+### The Priority Finesse - Added
+
+- Often times, a player will have two or more playable cards in their hand and have a choice as to which one to play.
+- On BGA, it is typical for people to play the cards that lead into teammate's hands. However, you are ultimately allowed to play your cards in whatever order you want, and no-one really pays too much attention.
+- In our group, we pay attention.
+- For example:
+  - Alice has a known red 1 and a known blue 1 to play.
+  - Bob has a known red 2 to play and is waiting for Alice to play the red 1.
+  - Alice is expected to play the red 1. (The red 1 is said to have *Priority*.) Instead, Alice plays the blue 1.
+  - Thus, Alice is **promising** that someone one the team has the blue 2 on their *Finesse Position*. Whoever has it should blind-play it, similar to if a *Finesse* was performed.
+- You can also do *Priority Bluffs*. It works surprisingly well in a variety of situations.
+- Why do this? It gets cards "for free" without having to use any clues and has very little downsides.
 
 ### 3 Bluffs - Added
 
