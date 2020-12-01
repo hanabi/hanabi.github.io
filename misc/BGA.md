@@ -109,9 +109,7 @@ We know that for people who really like Hanabi, it will be worth the extra effor
 
 #### Conclusion
 
-As a concluding note, I should say that I am not necessarily advocating that anyone completely "converts" away from BGA, like it is some kind of religion. Rather, feel free to experiment and play on both platforms! It is absolutely possible to switch back and forth between convention frameworks. You can think of this as similar to a bilingual person switching from Spanish to French - you don't necessarily have to choose between the two.
-
-With that said, our group always needs new players, so we are always happy to welcome BGA players and Hanabi enthusiasts alike. I hope you'll give it a try.
+One final thing to note is that, as a BGA player, you don't need to "convert" away from BGA, like it is some kind of religion. Rather, feel free to experiment and play on either platform, as it is absolutely possible to switch back and forth between convention frameworks. You can think of this as similar to a bilingual person switching from Spanish to French - you don't necessarily have to choose between the two.
 
 <br />
 
