@@ -245,8 +245,8 @@ Ok, so you've made it this far. The changes so far probably sound pretty strange
 
 - On BGA, if you are playing into a *Finesse* but play an unrelated card, then you interpret the *Finesse* as a *Bluff* instead, and stop playing.
 - In our group, you can **only** *Bluff* the very next player.
-- This means that if someone plays into a *Finesse*, and they were not the very next player after the cluer, then they will **continue** to play cards in their hand from left to right until they find the promised card. (Isdariel refers to this as a *Deep Finesse*.)
-- This is called a *Layered Finesse* because the intended *Finesse* blind-play target is "layered" behind other playable cards.
+- This means that if someone plays into a *Finesse*, and they were not the very next player after the cluer, then they will **continue** to play cards in their hand from left to right until they find the promised card.
+- This is called a *Layered Finesse* because the intended *Finesse* blind-play target is "layered" behind other playable cards. (Isdariel refers to this as a *Deep Finesse*.)
 - For example, in a 4-player game with Alice, Bob, Cathy, and Donald:
   - Alice clues red to Donald as a *Play Clue* on a red 2.
   - This promises that someone has the red 1.
