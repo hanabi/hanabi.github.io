@@ -81,9 +81,9 @@ If you aren't interested in reviewing your Hanabi games, then that's a full stop
 
 #### Time Controls
 
-One major addition to Hanab Live is that you can set games to have whatever time controls you want. This means that you can have untimed games, reasonably timed games similar to BGA, or even "blitz" games where you only have 5-10 seconds to move. Blitz games can be an extremely fun challenge for experienced Hanabi players, and provides an entirely new way to enjoy the game. In my group, we play a mix of both fast games and normal games.
+One major addition to Hanab Live is that you can set games to have whatever time controls you want. This means that you can have untimed games, reasonably timed games similar to BGA, or even "blitz" games where you only have 5-10 seconds to move. Blitz games can be an extremely fun challenge for experienced Hanabi players, and provides an entirely new way to enjoy the game. In our group, we play a mix of both fast games and normal games.
 
-Beyond just fast games, my group also engages in speedruns, where you try to complete the game as fast as possible. [Every world record](https://www.speedrun.com/hanabi) is held by members of my group. Much like blitz games, speedruns can be an extremely fun challenge for expert players.
+Beyond just fast games, our group also engages in speedruns, where you try to complete the game as fast as possible. [Every world record](https://www.speedrun.com/hanabi) is held by members of our group. Much like blitz games, speedruns can be an extremely fun challenge for expert players.
 
 A side point here is that speedruns are viable on Hanab Live because it is nice and snappy. It isn't really possible to do speedruns on BGA with all of the lag, long animations, and server problems.
 
@@ -91,17 +91,17 @@ A side point here is that speedruns are viable on Hanab Live because it is nice 
 
 Getting a game going on Hanab Live is pretty different from how you would get a game going on BGA, since there is not a large pool of players to draw from. This means that you can't just click the "Create Table" button and have random people join your game, like you would on BGA.
 
-If the Hyphen-ated group is playing, there will typically be people in the voice channels in the [Discord server](https://discord.gg/FADvkJp). If there are people in the voice channels, then just join the channel, wait for their game to end, and then ask to join the next game.
+If the Hyphen-ated group is playing, there will typically be people in the voice channels in the [Discord server](https://discord.gg/FADvkJp). If there are people in the voice channels, then just join the respective voice channel, wait for their game to end, and then ask to join the next game.
 
 #### Small Number of Players
 
-The best aspect of Board Game Arena is the large number of players. And the ELO system, for better or worse, does a pretty good job of motivating players to keep playing. The fact of the matter is that there will never be as many players on Hanab Live as there are on BGA - not even close. On Hanab Live, often times there will be no-one around when you are interested in getting a game going. So, that can be an annoying part of playing here. (For this reason, some people in our group also dabble on BGA!)
+If you are trying to get a game going at a weird time, there might not be any Hyphen-ated people around. So, that can be an annoying part of playing here.
 
 What is the flip-side of not having very many members? Better cohesion, aided by discussion. When you are able to get a crew together, your games will potentially be more fulfilling and in-depth than on Board Game Arena.
 
 #### Extra Conventions and Extra Complexity
 
-Another potentially bad aspect of playing with my group is the complexity involved. We are welcoming of new players, but I won't deny that we play at a higher level than the average BGA player. It is going to be a longer journey to become an expert in our group than it would be to be an expert at BGA. And if you are already comfortable with the BGA conventions, it might just be too frustrating to experiment with different ways of doing things.
+Another potentially bad aspect of playing with our group is the complexity involved. We are welcoming of new players, but I won't deny that we play at a higher level than the average BGA player. It is going to be a longer journey to become an expert in our group than it would be to be an expert at BGA. And if you are already comfortable with the BGA conventions, it might just be too frustrating to experiment with different ways of doing things.
 
 What is the flip-side of having more conventions and more complexity? First off, it raises the skill ceiling. Hanabi throws plenty of tricky situations at you, and you only have a limited number of tools to solve them. By adding some conventions, it can be like adding additional tools to the tool-belt. For expert players, by empowering them with more tools, it increases the total ways in which they can solve problems, making the game take on a new layer of beauty. But even for intermediate players, it can be very fun to gain the powers to make your teammates blind-play cards from their hands in new and exciting ways.
 
@@ -111,7 +111,7 @@ We know that for people who really like Hanabi, it will be worth the extra effor
 
 As a concluding note, I should say that I am not necessarily advocating that anyone completely "converts" away from BGA, like it is some kind of religion. Rather, feel free to experiment and play on both platforms! It is absolutely possible to switch back and forth between convention frameworks. You can think of this as similar to a bilingual person switching from Spanish to French - you don't necessarily have to choose between the two.
 
-With that said, my group always needs new players, so we are always happy to welcome BGA players and Hanabi enthusiasts alike. I hope you'll give it a try.
+With that said, our group always needs new players, so we are always happy to welcome BGA players and Hanabi enthusiasts alike. I hope you'll give it a try.
 
 <br />
 
