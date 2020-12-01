@@ -25,7 +25,7 @@ Zamiel "owns" the Discord server, but for most intents and purposes, we want the
 
 ### The Culture
 
-* Purple people are seen as embassadors of the Hyphen-ated group, and as ambassador of Hanabi more generally.
+* Purple people are seen as ambassadors of the Hyphen-ated group, and as ambassadors of Hanabi more generally.
 * Thus, we want purple people to outwardly reflect the values of the group - values that you presumably already know.
 
 #### Politeness
