@@ -250,14 +250,15 @@ Ok, so you've made it this far. The changes so far probably sound pretty strange
 - For example, in a 4-player game with Alice, Bob, Cathy, and Donald:
   - Alice clues red to Donald as a *Play Clue* on a red 2.
   - This promises that someone has the red 1.
+  - Bob discards.
   - Cathy knows that she has the red 1, because she doesn't see anyone else have the red 1.
   - Cathy blind-plays a blue 1 (from slot 1).
-  - Cathy knows that Alice is sitting two spots away from her. Thus, it cannot be a *Bluff* on her; Cathy knows that she must actually have the red 1, and that a *Layered Finesse* is occurring.
+  - Cathy knows that Alice is only allowed to bluff Bob. Thus, Cathy cannot be *Bluffed*; Cathy must actually have the red 1 as a *Layered Finesse*.
   - On her next turn, Cathy tries to blind-play the red 1 (from slot 2), but it is really the blue 2.
   - On her next turn, Cathy tries to blind-play the red 1 (from slot 3), but it is really the blue 3.
   - On her next turn, Cathy blind-plays red 1 (from slot 4).
   - Donald plays red 2.
-- By extension, it is also possible to perform a *Double Finesse* where both promised cards are layered behind other playable cards. Essentially, this means that when playing with good players, you always have to keep in mind that a *Finesse* could be layered.
+- By extension, it is also possible to perform a *Double Finesse* where both promised cards are *Layered* behind other playable cards. Essentially, this means that when playing with good players, you always have to keep in mind that a *Finesse* could be *Layered*.
 - Why do this? It's pretty awesome and one of the most fun parts of playing Hanabi with our group.
 
 <br />
