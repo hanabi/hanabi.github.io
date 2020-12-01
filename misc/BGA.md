@@ -71,7 +71,7 @@ All of the interface issues with BGA are fixed in the Hanab Live interface: it i
 
 #### Reviewing
 
-Many different people play on the website, but I think that the majority are part of Hyphen-ated group. In terms of playstyle, we play in a manner similar to how BGA players play, but with a lot more "special moves" thrown in.
+Many different people play on the website, but I think that the majority are part of the Hyphen-ated group. In terms of playstyle, we play in a manner similar to how BGA players play, but with a lot more "special moves" thrown in.
 
 More importantly, when Hyphen-ated group members play together, we typically review every single game, turn by turn. Why do this? It accelerates the process of synchronizing everyone's strategies and playstyle to ensure that we are all on the same page. And it accelerates the process of making everyone really good at Hanabi, because people get the chance to learn from mistakes that they never would have known that they made. It's just a lot of fun - reviewing the game and looking for the best moves can be more fun than actually playing the game.
 
