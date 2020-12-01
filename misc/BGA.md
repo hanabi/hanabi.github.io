@@ -22,26 +22,30 @@ Why bother taking the time to branch out from Board Game Arena to play Hanabi el
 
 ### Board Game Arena
 
-Board Game Arena is a website that allows people to play all different types of board games. It introduced Hanabi on the platform in June 2014, and it is currently the most popular place to play Hanabi online. As you probably know, it has players ready to play at most times of the day, making it easy to hop into a quick game. Even though you will often be playing with complete strangers, most people on the site play with the same basic conventions, so little coordination is needed. And everyone is generally quite friendly!
+Board Game Arena is a website that allows people to play all different types of board games. It introduced Hanabi on the platform in June 2014, and it is currently the most popular place to play Hanabi online. For the most part, it has players ready to play at most times of the day, making it easy to hop into a quick game. Even though you will often be playing with complete strangers, most people on the site play with the same basic conventions, so little coordination is needed. And everyone is generally quite friendly!
 
-Board Game Arena also has an ELO system, which insulates the expert players from the newbies. As you move up the ranks, you will start to get games with the same players, which also allows you to get to know everyone in the community a bit more intimately. What could be better?
+Board Game Arena also has an ELO system, which insulates the expert players from the newbies. As you move up the ranks, you will start to get games with the same players, which also allows you to get to know everyone in the community a bit more intimately.
 
 #### The Interface
 
 <img src="../img/bga/bga_interface.png" alt="The Board Game Arena Interface" height="450px" />
 
-Unfortunately, BGA isn't perfect. The user interface is functional, but really leaves a lot to be desired:
+This is a screenshot of the older BGA interface, before they changed it in 2020. A lot of BGA players preferred the older interface to the new one. However, regardless of whether you are talking about the older interface, or the newer interface, both really leave a lot to be desired:
+
 - There is an in-game replay feature, but using it is frustrating. Once you initiate a replay, you are stuck watching the movie until it reaches the present, with no ability to pause, and no ability to move back and forth at will.
 - There is no ability to see negative clues. You can keep track of them via memory, but this is quite cumbersome to do perfectly. Using negative clues is essential to playing at a high-level.
-- There is no ability to mark notes on a card. Making notes may sound silly to players who have been trained to remember everything, but having the ability to quickly and easily record contextual information really takes the game to another level. On BGA, if you want to make notes, you have to resort to jotting them down in a separate program.
+- There is no ability to mark notes on a card. Making notes may sound silly to players who have been trained to remember everything, but having the ability to quickly and easily record contextual information really takes the game to another level. On BGA, if you want to make notes, you have to resort to jotting them down on a piece of paper or a separate program.
 - And a bunch of minor things:
   - No ability to see the cards touched by the last clue.
   - No distinction for playing cards blind (or discarding clued cards).
   - Delay after making a move, combined with slow animations.
-  - Server instability.
   - Non-customizable time controls.
-  - Only the 3 most basic variants.
+  - Only the most basic variants.
   - And no "shared replays" for reviewing!
+
+#### Paywall
+
+In December of 2020, Board Game Arena introduced a soft-paywall: players can no longer start a Hanabi table unless you pay them money for a premium subscription. Non-paying players can still join tables that other people create, though.
 
 #### The Lack of Reviewing
 
