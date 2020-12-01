@@ -14,9 +14,9 @@
 
 ## Introduction
 
-This document is written for people who have a bunch of games on [Board Game Arena](https://en.boardgamearena.com/) and may be interested in playing some games with my group on [Hanab Live](https://www.hanab.live). Since my group uses some advanced conventions, this document should be a quick guide to get BGA players up to speed.
+This document is written for people who have a bunch of games on [Board Game Arena](https://en.boardgamearena.com/) and may be interested in playing some games with the Hyphen-ated group on [Hanab Live](https://www.hanab.live). Since our group uses some advanced conventions, this document should be a quick guide to get BGA players up to speed.
 
-(A quick note: On Hanab Live, you can play with anyone you want and you can play with any conventions you want - it is a free website. However, a good chunk of the players who play on the website are all part of my group, so if you are playing non-Hyphen-ated games on the website, it might be hard to get a pick-up game going with random strangers.)
+(A quick note: On Hanab Live, you can play with anyone you want and you can play with any conventions you want - it is a free website. However, a good chunk of the players who play on the website are all part of the Hyphen-ated group, so if you are playing non-Hyphen-ated games on the website, it might be hard to get a pick-up game going with random strangers.)
 
 Why bother taking the time to branch out from Board Game Arena to play Hanabi elsewhere? In order to properly answer that question, here's a short introduction on the differences between BGA and Hanab Live. It should explain why, at the very least, you might want to dabble on both platforms. If you are already convinced, you can skip down to the section on [convention changes](#convention-changes-beginner).
 
