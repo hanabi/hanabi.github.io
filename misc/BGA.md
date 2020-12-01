@@ -178,7 +178,7 @@ If you're reading this far, you'll want to know some of the basic differences be
 
 ### Early Save Play Clues - Deleted
 
-- On BGA, a timing system is used such that if a card is saved "early" before it really needs to be saved, then the clue must not be a *Save Clue* at all, and instead transforms into a *Play Clue*. Let's call this a *Early Save Play Clue*.
+- On BGA, a timing system is used such that if a card is saved "early" before it really needs to be saved, then the clue must not be a *Save Clue* at all, and instead transforms into a *Play Clue*. For now, let's call this a *Early Save Play Clue*. (Other people also call it a *Loaded Play Clue*.)
 - In my group, there is no such timing system. **All** clues that look like *Save Clues* are *Save Clues*, even if they are early.
 - Why do this? It allows for better *Discard Modulation*.
 
