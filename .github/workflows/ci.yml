@@ -1,0 +1,37 @@
+name: CI
+
+on: [push, pull_request]
+
+jobs:
+  spell_check:
+    name: Spell Check
+    runs-on: ubuntu-latest
+    env:
+      working-directory: ./spell-check
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+      - uses: actions/cache@v2
+        id: cache
+        with:
+          path: ${{ env.working-directory }}/node_modules
+          key: spell-check-node-modules-${{ hashFiles('spell-check/package-lock.json') }}
+      - if: steps.cache.outputs.cache-hit != 'true'
+        run: npm install
+        working-directory: ${{ env.working-directory }}
+      - run: ./spell_check.sh
+        working-directory: ${{ env.working-directory }}
+
+  discord:
+    name: Discord Failure Notification
+    needs: [spell_check]
+    if: always() # This is needed to always run this job, even if the other jobs fail
+    runs-on: ubuntu-latest
+    steps:
+      - uses: technote-space/workflow-conclusion-action@v2
+      - if: env.WORKFLOW_CONCLUSION != 'success' && env.WORKFLOW_CONCLUSION != 'cancelled'
+        uses: sarisia/actions-status-discord@v1
+        with:
+          webhook: ${{ secrets.DISCORD_WEBHOOK }}
+          status: ${{ env.WORKFLOW_CONCLUSION }}
+          title: ""
