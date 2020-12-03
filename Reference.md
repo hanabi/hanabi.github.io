@@ -231,7 +231,7 @@ Note that in this user interface, players are **not** holding their hands like t
 ### Finessed Cards
 
 - Even though *Finessed* cards are unclued, you can think of them as having an invisible clue on them. (Because they are already "gotten".)
-- Thus, if a *Finessed* card is given a clue, along with some other card, then the focus of the clue would be on the other card (because the focus of a clue is always on the "brand new card" introduced).
+- Thus, if a clue touches a *Finessed* card and some other card that did not have a clue on it, then the focus of the clue would be on the other card (because the focus of a clue is always on the "brand new card" introduced).
 
 <br />
 
