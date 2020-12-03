@@ -21,7 +21,7 @@
 
 ## Card Layout
 
-In this guide, there will be some screenshots to show off the concepts introduced. Here's an example of a screenshot using the "BGA-style" card layout:
+In this guide, there will be some screenshots to show off the concepts introduced. Here's an example of a screenshot (using the default layout from [Hanab Live](https://hanab.live):
 
 <img src="img/beginner/screenshot.png" height="300" />
 
