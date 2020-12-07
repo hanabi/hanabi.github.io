@@ -3967,11 +3967,12 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### Loaded Play Clues in Hard Variants (Part 1)
 
-- Normally, players are allowed to give a *Save Clue* to a card on chop, even if that player has a bunch of playable cards to play. This kind of thing is referred to as an *Early Save*. (Allowing *Early Saves* is nice because it allows for *Discard Modulation.*)
-  - Similarly, players are allowed to give an *Early Save* to a card on chop if the player has a known safe discard.
-- In *Hard* variants (see previous section), *Early Saves* are not legal.
-- If a clue is given to a chop card of a player, and that player has one or more known-playable cards to play, then it is treated as a *Play Clue* on that card.
-- This is called a *Loaded Play Clue* to distinguish it from a more ordinary *Play Clue*, because the player receiving the clue is currently "loaded" with a play.
+- Normally, players are allowed to give a *Save Clue* to a card on chop, even if that clued player:
+  - has one or more playable cards to play (e.g. they won't discard their chop because they will almost certainly play their playable card)
+  - has one or more known-trash discards to discard (e.g. they won't discard their chop because they will almost certainly discard their known-trash card instead)
+- This kind of thing is referred to as an *Early Save*. In our group, *Early Saves* are normal, and they don't cause anything special to happen. (Allowing *Early Saves* is nice because it allows for *Discard Modulation.*)
+- In *Hard* variants (see the previous section), *Early Saves* are not legal. Instead, if an *Early Save* is given to a player, then it is treated as a *Play Clue* on that card.
+- This is called a *Loaded Play Clue* to distinguish it from a more ordinary *Play Clue*, because the player receiving the clue is currently "loaded" with a play (or "loaded" with a safe discard).
 - *Loaded Play Clues* **do not** apply in the *Early Game* - they are only "turned on" in the *Mid-Game*.
 - *Loaded Play Clues* **do not** apply in *Double Discard* situations. (Even though *Double Discard Avoidance* is "turned off" in hard variants in general, players are still allowed to avoid *Double Discarding* by giving *Early Saves* to cards.)
 
