@@ -3970,7 +3970,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 - Normally, players are allowed to give a *Save Clue* to a card on chop, even if that clued player:
   - has one or more playable cards to play (e.g. they won't discard their chop because they will almost certainly play their playable card)
   - has one or more known-trash cards to discard (e.g. they won't discard their chop because they will almost certainly discard their known-trash card instead)
-- This kind of thing is referred to as an *Early Save*. In our group, *Early Saves* are normal, and they don't cause anything special to happen. (Allowing *Early Saves* is nice because it allows for *Discard Modulation.*)
+- If a *Save Clue* is given in this kind of situation, it is referred to as an *Early Save*. In our group, *Early Saves* are normal, and they don't cause anything special to happen. (Allowing *Early Saves* is nice because it allows for *Discard Modulation.*)
 - In *Hard* variants (see the previous section), *Early Saves* are not legal. Instead, if an *Early Save* is given to a player, then it is treated as a *Play Clue* on that card.
 - This is called a *Loaded Play Clue* to distinguish it from a more ordinary *Play Clue*, because the player receiving the clue is currently "loaded" with a play (or "loaded" with a safe discard).
 - *Loaded Play Clues* **do not** apply in the *Early Game* - they are only "turned on" in the *Mid-Game*.
