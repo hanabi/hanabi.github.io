@@ -3968,6 +3968,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 ### Loaded Play Clues in Hard Variants (Part 1)
 
 - Normally, players are allowed to give a *Save Clue* to a card on chop, even if that player has a bunch of playable cards to play. This kind of thing is referred to as an *Early Save*. (Allowing *Early Saves* is nice because it allows for *Discard Modulation.*)
+  - Similarly, players are allowed to give an *Early Save* to a card on chop if the player has a known safe discard.
 - In *Hard* variants (see previous section), *Early Saves* are not legal.
 - If a clue is given to a chop card of a player, and that player has one or more known-playable cards to play, then it is treated as a *Play Clue* on that card.
 - This is called a *Loaded Play Clue* to distinguish it from a more ordinary *Play Clue*, because the player receiving the clue is currently "loaded" with a play.
