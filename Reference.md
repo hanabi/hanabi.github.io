@@ -803,8 +803,12 @@ Note that in this user interface, players are **not** holding their hands like t
 
 ### The Order Chop Move (OCM)
 
-- Normally, at the beginning of the game, players are expected to play their 1's from oldest to newest.
-- If a player skips over their right-most 1, and there is nothing else special going on, it means that the next player should *Chop Move* one card.
+- First, see the sections on:
+  - [Playing Multiple 1's - Play Order Inversion in the Starting Hand (Part 1)](#playing-multiple-1s---play-order-inversion-in-the-starting-hand-part-1)
+  - [Playing Multiple 1's - The Fresh 1's Rule (Part 2)](#playing-multiple-1s---the-fresh-1s-rule-part-2)
+  - [Playing Multiple 1's - The Chop Focus Exception (Part 3)](#playing-multiple-1s---the-chop-focus-exception-part-3)
+- Since we agree that unknown 1's are supposed to be played in a particular order, if a player does **not** play their unknown 1s in the correct order, it means that they are trying to send an additional message.
+- If a player skips over **one** of the 1's, and there is nothing else special going on, it means that the next player should *Chop Move* one card.
 - If a player skips over **two** of their right-most 1's, the message skips over the next player, and the player after that should *Chop Move* one card.
 - A skip of **three** 1's means that the player three seats away should *Chop Move*, and so on.
 - For example, in a 3-player game:
