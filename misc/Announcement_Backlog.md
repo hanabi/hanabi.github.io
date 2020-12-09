@@ -6,17 +6,6 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 
 ## The Backlog (General Conventions)
 
-@everyone Changed conventions:
-
-*Tempo Clues* (changed) (by Zamiel)
-
-```
-- The text for the "allowed" *Tempo Clue* is changed from:
-  - When the clued card is "out of order" (meaning that it is impossible for a Prompt to get the card played)
-- to:
-  - When the clued card is not a 5 and it is "out of order" (meaning that it is impossible for a Prompt to get the card played)
-```
-
 <br />
 
 ## The Backlog (Variant-Specific Conventions)
@@ -50,15 +39,6 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
   - Bob knows that if his hand was completely unclued, red would refer to slot 2, since there are 5 slots in the hand and red is the 4th rightmost color. But since Bob's slot 3, slot 4, and slot 5 card already have a clue on it, he should skip over those cards.
   - This means that blue would target slot 2 and green would target slot 1. Yellow would target slot 2 again (because of the wraparound) and red would target slot 1.
   - Bob blind-plays null 1 from slot 1.
-```
-
-**The Scream Blind-Play (Blind-Playing Chop)** (for null)
-
-```
-- This convention only applies to variants with a null suit.
-- Sometimes, a player will have two critical cards in a row on chop. Usually, the team will work together to clue both of the cards. However, in variants with a null suit, it is sometimes difficult to do this.
-- In cases where one player needs to save two cards at once, they can perform a *Scream Blind-Play* by blind-playing their chop card. This is similar to a *Scream Discard*, except it *Chop Moves* two cards instead of one.
-- Just like the *Scream Discard*, the *Scream Blind-Play* is only to be used as a last resort. This should be obvious, since it uses up a strike.
 ```
 
 **Muddy Rainbow Choice Tempo Clues** (by Jeff)
