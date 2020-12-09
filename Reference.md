@@ -807,7 +807,7 @@ Note that in this user interface, players are **not** holding their hands like t
   - [Playing Multiple 1's - Play Order Inversion in the Starting Hand (Part 1)](#playing-multiple-1s---play-order-inversion-in-the-starting-hand-part-1)
   - [Playing Multiple 1's - The Fresh 1's Rule (Part 2)](#playing-multiple-1s---the-fresh-1s-rule-part-2)
   - [Playing Multiple 1's - The Chop Focus Exception (Part 3)](#playing-multiple-1s---the-chop-focus-exception-part-3)
-- Since we agree that unknown 1's are supposed to be played in a particular order, if a player does **not** play their unknown 1s in the correct order, it means that they are trying to send an additional message.
+- We agree that unknown 1's are supposed to be played in a particular order. If a player has unknown 1's and does **not** play them in the correct order, it means that they are trying to send an additional message.
 - If a player skips over **one** of the 1's, and there is nothing else special going on, it means that the next player should *Chop Move* one card.
 - If a player skips over **two** of the 1s, the message skips over the next player, and the player after that should *Chop Move* one card.
 - A skip of **three** 1's means that the player three seats away should *Chop Move*, and so on.
@@ -817,10 +817,7 @@ Note that in this user interface, players are **not** holding their hands like t
   - Bob is expected to play slot 3 (which is the oldest 1). If he plays slot 3, nothing special happens.
   - If Bob plays slot 2, he is performing an *Order Chop Move*, and Cathy should chop move one card (her slot 5).
   - If Bob plays slot 1, he is performing an *Order Chop Move*, and Alice should chop move one card (her slot 5).
-- Sometimes, after getting clued about two or more 1s, a player will receive a follow-up clue that "fills in" one or more of the 1s. In this situation, playing a 1 with the full identity revealed will not cause an *Order Chop Move*. In other words, *Order Chop Moves* can only happen when a player has two or more 1s with each 1 having two or more identities.
-- Besides that, there are some other common situations that do **not** imply an *Order Chop Move*. Use your common sense! Here is a short list:
-  - The 1 was expected to be played from the *[Fresh 1's Rule](#playing-multiple-1s---the-fresh-1s-rule-part-2)*.
-  - The 1 was expected to be played from the *[Chop Focus Exception](#playing-multiple-1s---the-chop-focus-exception-part-3)*.
+- There are some other common situations that do **not** imply an *Order Chop Move*. Use your common sense! Here is a short list:
   - The 1 that was played has different positive clues than the other 1's.
     - Different negative clues are ignored.
   - The 1 that was played was originally *Finessed* from a clue that happened **before** the number 1 clue.
