@@ -18,7 +18,7 @@ These conventions apply to any variant with a dark omni suit or a gray pink suit
 ### Pseudo 5 Saves
 
 - Dark omni or gray pink 3's and 4's on chop should be saved with number 5 clue. *Pink Promise* for 3's and 4's does not apply in this variant.
-  - This is because we don't want to 
+  - This is because we want to preserve the ability to give *Play Clues* to 3's and 4's that are on chop.
 
 ### Pseudo Rank Saves
 
