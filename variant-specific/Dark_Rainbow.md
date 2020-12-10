@@ -13,7 +13,7 @@ These conventions apply to any variant with a dark rainbow (touched by all color
 
 - Players should save dark rainbow 3 and dark rainbow 4 with a number clue.
 - There are two exceptions to this:
-  - if the color clue also touched another critical card (that is not dark rainbow)
+  - if the color clue also touched another critical card that is visible in the trash (e.g. not a 5 and not dark rainbow)
   - if the color matches a suit that is already completely played or accounted for
 - Additionally, *Loaded Play Clues* are always "turned on" for number saves on dark rainbow 3 and dark rainbow 4 specifically.
 - Note that in variants where a black color clues is available, dark rainbow 3 and dark rainbow 4 must always be saved with a black color clue.
