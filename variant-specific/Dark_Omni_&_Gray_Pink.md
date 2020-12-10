@@ -10,11 +10,15 @@ These conventions apply to any variant with a dark omni suit or a gray pink suit
 - Gray Pink "inherits" all of the conventions for black cards and all of the conventions for light pink cards.
 - Some specific clarifications and exceptions are listed below.
 
-### Pseudo 5 Saves
+### Normal Saves
 
 - Dark omni or gray pink 2's on chop should be saved with a number 2 clue, as per normal.
 - Dark omni or gray pink 5's on chop should be saved with a number 5 clue, as per normal.
+
+### Pseudo 5 Saves
+
 - Dark omni or gray pink 3's and 4's on chop should be saved with number 5 clue. *Pink Promise* for 3's and 4's does not apply in this variant.
+  - This is because we don't want to 
 
 ### Pseudo Rank Saves
 
