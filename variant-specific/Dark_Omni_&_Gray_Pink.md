@@ -14,7 +14,7 @@ These conventions apply to any variant with a dark omni suit or a gray pink suit
 
 - Dark omni or gray pink 2's on chop should be saved with a number 2 clue, as per normal.
 - Dark omni or gray pink 5's on chop should be saved with a number 5 clue, as per normal.
-- Dark omni or gray pink 3's and 4's on chop should be saved with number 5 clue. *Pink Promise* does not apply in this variant.
+- Dark omni or gray pink 3's and 4's on chop should be saved with number 5 clue. *Pink Promise* for 3's and 4's does not apply in this variant.
 
 ### Pseudo-Rank Saves
 
