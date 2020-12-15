@@ -3361,7 +3361,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   - If Bob has no matching cards in his hand, then a *Prompt* is impossible.
   - The second interpretation is that it is a *Finesse*.
   - If Bob sees that he would have to **blind-play one card** or **blind-play two cards** to fulfill a *Finesse*, then he should assume that it is a *Finesse*.
-  - If Bob sees that he would have to **blind-play three or more cards** in their hand to fulfill the *Finesse*, then a *Finesse* is unlikely.
+  - If Bob sees that he would have to **blind-play three cards** in their hand to fulfill the *Finesse*, then a *Finesse* is unlikely.
   - The third interpretation is that it is a *4 Double Bluff*.
   - If Bob sees that Cathy does not have a playable card (or a *one-away-from-playable* card) on her *Finesse Position*, then a *4 Double Bluff* is impossible.
   - The forth interpretation is a *4 Charm*; Bob should play his *Fourth Finesse Position*.
