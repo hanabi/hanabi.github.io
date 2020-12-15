@@ -10,6 +10,7 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 
 **Self Color Ejection** (by Jeff)
 
+```
 - Normally, when a card is "filled in" a card that is two-or-more-away-from-playable, it triggers a *Self Color Double Bluff* 
 - However, what if the next player can see that a *Double Bluff* is impossible? In this situation, they instead intend for an *Ejection* on the very next player.
 - For example, in a 4-player game:
@@ -23,9 +24,11 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
     - If it isn't a *Self Color Double Bluff*, then it must be a *Self Color Ejection*.
   - Bob blind-plays his *Second Finesse Position*. It is a red 2 and it successfully plays.
   - Cathy does nothing; no other cards are promised.
+```
 
 **4 Charm** (by Jeff)
 
+```
 - When a *Play Clue* is given to a 4 that is not yet playable, Bob must react:
   - The first interpretation is that it is a *Prompt*.
   - If Bob has no matching cards in his hand, then a *Prompt* is impossible.
@@ -44,6 +47,7 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
   - Thus, Bob knows that this must be a *4 Charm*. He blind-plays his *Fourth Finesse Position*. It is a blue 1 and it successfully plays.
 - *4 Charms* can be given with either a color clue or a number clue.
 - Similar to a *5 Color Ejection*, *Prompts* don't factor into the "three or more blind-plays" rule. Players only count the number of blind-plays.
+```
 
 <br />
 
@@ -158,4 +162,15 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
   - Cathy knows that Alice did not perform a *Bubblegum Bluff*, because Bob would have played his slot 5 card instead of his slot 2 card.
   - Thus, Cathy knows that this must be a *Turnabout Ejection*. She marks her slot 5 card as a pink 1.
 - If a *Turnabout Ejection* occurs from a number 1 clue that also touches other 1s, the non-focused cards should still be assumed to be 1s (using the *1's Assumption* convention).
+```
+
+**1's Chop Move***
+
+```
+- This convention only applies in variants with a reversed suit.
+- Normally, when someone gives a number 1 clue, and all the 1's are played on the stacks, it communicates a *Trash Chop Move*.
+- In a variant with a reversed suit, we agree that players can also perform this move by using a reversed 1, as a *1's Chop Move* (which is similar to a *5's Chop Move)*.
+- In this situation, the player who receives the clue should *Chop Move* their cards to the right of the 1 and also keep the 1 as a (potential) reversed 1.
+  - If they happen to see the real copy of the reversed 1 at a later point in the game, then they can discard the 1 as known trash.
+- If there are two or more cards are touched from *1's Chop Move*, the reversed 1 is promised on the right-most.
 ```
