@@ -64,9 +64,10 @@ These conventions apply to any variant with a reversed suit (cards must be playe
 
 ### 1's Chop Move
 
-- Normally, when someone gives a 1 clue (if all the 1's are played on the stacks or it is known to be stale), it communicates a *Trash Chop Move*.
-- In a variant with a reversed suit, we agree that players can also perform this move by using a reversed 1. We call it the *1's Chop Move*.
-- In this situation, the player who receives the clue should *Chop Move* their cards to the right of the 1, also keep the 1 as a (potential) reversed 1. They can discard it until they realize it is a trash.
+- Normally, when someone gives a number 1 clue, and all the 1's are played on the stacks, it communicates a *Trash Chop Move*.
+- In a variant with a reversed suit, we agree that players can also perform this move by using a reversed 1, as a *1's Chop Move* (which is similar to a *5's Chop Move)*.
+- In this situation, the player who receives the clue should *Chop Move* their cards to the right of the 1 and also keep the 1 as a (potential) reversed 1.
+  - If they happen to see the real copy of the reversed 1 at a later point in the game, then they can discard the 1 as known trash.
 - If there are two or more cards are touched from *1's Chop Move*, the reversed 1 is promised on the right-most.
 
 ### The Turnabout Ejection (For 1s)
