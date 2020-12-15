@@ -3321,7 +3321,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
     - If it isn't a *Self Color Bluff*, then it must be a *Self Color Double Bluff*. However, Bob sees that Cathy has a trash card on her *Finesse Position*. If he blind-plays his *Finesse Position*, Cathy will go on to misplay her *Finesse Position*. That means that a *Self Color Double Bluff* does not make sense.
     - If it isn't a *Self Color Double Bluff*, then it must be a *Self Color Ejection*.
   - Bob blind-plays his *Second Finesse Position*. It is a red 2 and it successfully plays.
-  - Cathy does nothing as no other cards are promised.
+  - Cathy does nothing; no other cards are promised.
 
 <br />
 
