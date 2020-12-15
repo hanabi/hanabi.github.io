@@ -3356,20 +3356,24 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 ### 4 Charm
 
-- Normally, when a 4 is touched as the focus of the clue, it communicates a *Finesse*.
-- However, what if it requires the next player to blind-play **three** cards to fulfill the *Finesse*? Then the *Finesse* is unlikely.
-- Therefore, the clue should be interpreted as a *4 Double Bluff* or a *Hard 4 Double Bluff*.
-- But what if the third player (Cathy) doesn't have a playable card or a card which is one-away-from-playable on their *Finesse Position*?
-- In this situation, it should signal a *Charm* on the very next player.
+- When a *Play Clue* is given to a 4 that is not yet playable, Bob must react:
+  - The first interpretation is that it is a *Prompt*.
+  - If Bob has no matching cards in his hand, then a *Prompt* is impossible.
+  - The second interpretation is that it is a *Finesse*.
+  - If Bob sees that he would have to **blind-play one card** or **blind-play two cards** to fulfill a *Finesse*, then he should assume that it is a *Finesse*.
+  - If Bob sees that he would have to **blind-play three or more cards** in their hand to fulfill the *Finesse*, then a *Finesse* is unlikely.
+  - The third interpretation is that it is a *4 Double Bluff*.
+  - If Bob sees that Cathy does not have a playable card (or a *one-away-from-playable* card) on her *Finesse Position*, then a *4 Double Bluff* is impossible.
+  - The forth interpretation is a *4 Charm*; Bob should play his *Fourth Finesse Position*.
 - For example, in a 4-player game:
   - It is the first turn and nothing is played on the stacks.
-  - Alice gives a 4 clue touching a red 4 on slot 1 and a green 4 on slot 2.
-  - Normally, it communicates a *Finesse* on the red 4, which requires a red 1, red 2, and a red 3 to fulfill the *Finesse*.
-  - Bob doesn't see red 1, red 2, and a red 3 in Cathy's and Donald's hands; which means he has a red 1 on slot 1, a red 2 on slot 2, and a red 3 on slot 3.
-  - However, it requires Bob to blind-play three cards to fulfill the *Finesse*, which seems unlikely.
-  - Furthermore, Cathy doesn't have a playable card or a one-away card on her *Finesse Position*, then the *4 Double Bluff* is also unlikely.
+  - Alice clues number 4 clue to Cathy, touching a red 4 on slot 1 as a *Play Clue*.
+  - Bob knows that normally, this would be a *Finesse* on the red 4, meaning that he should blind-play a red 1, a red 2, and a red 3. (Bob does not see any red cards in anyone else's hands.)
+  - Since the *Finesse* requires three or more blind-plays, it is unlikely, and Bob knows he is supposed to revert to a different interpretation.
+  - Bob sees that Cathy does not have a playable card (or a *one-away-from-playable* card) on her *Finesse Position*, so a *4 Double Bluff* is impossible.
   - Thus, Bob knows that this must be a *4 Charm*. He blind-plays his *Fourth Finesse Position*. It is a blue 1 and it successfully plays.
-- Note that in the *Variants with No Positive Clues*, you can also perform this move by using a **two**-or-more-away-from-playable 4.
+- *4 Charms* can be given with either a color clue or a number clue.
+- Similar to a *5 Color Ejection*, *Prompts* don't factor into the "three or more blind-plays" rule. Players only count the number of blind-plays.
 
 ### The Safety Charm (Declined 5 Pull)
 
