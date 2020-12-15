@@ -3307,6 +3307,22 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   - Cathy knows that since a number 2 clue cause Bob to blind-play his *Second Finesse Position*, this must be an *Ejection*. The only type of *Ejection* that matches this kind of clue is a *Rank Choice Ejection*, so Cathy knows that her 2 must be playable and that her 2 must be exactly the red 2. Cathy plays the red 2.
 - More examples of a *Rank Choice Ejection* can be found [here](examples/Rank_Choice_Ejection.md).
 
+### Self Color Ejection
+
+- Players can perform a *Self Color Double Bluff* by "filling in" a card that is two-or-more-away-from-playable. But what if the next player can see that it cannot be a *Double Bluff*?
+- In this situation, they intend for an *Ejection* on the very next player.
+- For example, in a 4-player game:
+  - All the 1's are played on the stacks.
+  - Bob has a green 4 that was previously clued in his hand with rank.
+  - Alice gives a green clue to Bob touching the green 4. Normally, it communicates a *Finesse* on the green 4.
+  - However, Bob doesn't see green 2 and green 3 in someone else's hands. He knows that it is a signal as a *Self Color Bluff*. But since green 4 is two-away-from-playable, it must be a *Self Color Double Bluff*.
+  - Bob can see that Cathy doesn't have a playable or a one-away card on her *Finesse Position*. If he blind-plays his slot 1, Cathy will go on to misplay her slot 1.
+  - Thus, in order to prevent Cathy from bombing slot 1, it must be an *Ejection* on Bob as a *Self Color Ejection*.
+  - Bob blind-plays his *Second Finesse Position*. It is a red 2 and it successfully plays.
+  - Cathy finds that this is odd as normally a two-away card being clued promises at least 2 cards to play.
+  - However, because Bob did not play slot 1, that means her slot 1 is not playable and this is just a *Self Color Ejection*.
+  - Cathy does nothing as no other cards are promised.
+
 <br />
 
 ## Level 19 - Rarely Used Strategies - Discharges
@@ -3337,6 +3353,23 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 - A *Charm* refers to a *Signal Shift* blind-play in which someone plays an unrelated card from their *Fourth Finesse Position*. For example, if a player's hand is completely unclued, their *Fourth Finesse Position* is slot 4.
 - Just like a *Bluff*, a *Charm* can only be performed on the very next player.
+
+### 4 Charm
+
+- Normally, when a 4 is touched as the focus of the clue, it communicates a *Finesse*.
+- However, what if it requires the next player to blind-play **three** cards to fulfill the *Finesse*? Then the *Finesse* is unlikely.
+- Therefore, the clue should be interpreted as a *4 Double Bluff* or a *Hard 4 Double Bluff*.
+- But what if the third player (Cathy) doesn't have a playable card or a card which is one-away-from-playable on their *Finesse Position*?
+- In this situation, it should signal a *Charm* on the very next player.
+- For example, in a 4-player game:
+  - It is the first turn and nothing is played on the stacks.
+  - Alice gives a 4 clue touching a red 4 on slot 1 and a green 4 on slot 2.
+  - Normally, it communicates a *Finesse* on the red 4, which requires a red 1, red 2, and a red 3 to fulfill the *Finesse*.
+  - Bob doesn't see red 1, red 2, and a red 3 in Cathy's and Donald's hands; which means he has a red 1 on slot 1, a red 2 on slot 2, and a red 3 on slot 3.
+  - However, it requires Bob to blind-play three cards to fulfill the *Finesse*, which seems unlikely.
+  - Furthermore, Cathy doesn't have a playable card or a one-away card on her *Finesse Position*, then the *4 Double Bluff* is also unlikely.
+  - Thus, Bob knows that this must be a *4 Charm*. He blind-plays his *Fourth Finesse Position*. It is a blue 1 and it successfully plays.
+- Note that in the *Variants with No Positive Clues*, you can also perform this move by using a **two**-or-more-away-from-playable 4.
 
 ### The Safety Charm (Declined 5 Pull)
 
@@ -4012,9 +4045,10 @@ Conventions for specific variants are listed on a separate page.
 - [Rainbow & Muddy Rainbow](/variant-specific/Rainbow_&_Muddy_Rainbow.md)
 - [Pink & Omni](/variant-specific/Pink_&_Omni.md)
 - [Rainbow-Ones](/variant-specific/Rainbow-Ones_&_Rainbow-Fives.md)
-- [Rainbow-Fives](/variant-specific/Rainbow-Ones_&_Rainbow-Fives.md)
 - [Pink-Ones](/variant-specific/Pink-Ones.md)
 - [Special-Fives](/variant-specific/Special-Fives.md) (e.g. "Pink-Fives")
+- [Rainbow-Fives](/variant-specific/Rainbow-Ones_&_Rainbow-Fives.md)
+- [Deceptive-Fives](/variant-specific/Deceptive-Fives.md)
 - [Extremely Ambiguous](/variant-specific/Extremely_Ambiguous.md)
 - [Dual-Color (any amount of suits)](/variant-specific/Dual-Color.md)
 - [Dual-Color (6 Suits)](/variant-specific/Dual-Color_(6_Suits).md)
@@ -4154,7 +4188,10 @@ Conventions for specific variants are listed on a separate page.
 | Selfish Focus Inversion | Romain
 | Double Ignition | Libster
 | The Shadow Finesse | Pianoblook
+| Charm | IAMJEFF
+| 4 Charm | IAMJEFF
 | The Safety Charm | Pianoblook
+| Self Color Ejection | IAMJEFF
 
 <br />
 
@@ -4189,6 +4226,7 @@ Conventions for specific variants are listed on a separate page.
 | Totally Blind Conventions | Zamiel & IAMJEFF
 | The Mismatch Finesse | Zamiel
 | 1's Color Ejection (1CE) | Kakashi
+| 1's Chop Move | IAMJEFF
 | The U-Turn Finesse | NoMercy
 | Cow & Pig Rank Saves | Florrat
 | Advanced Conventions for Variant with No Positive Clues | Kakashi, IAMJEFF, & Libster
