@@ -2410,15 +2410,15 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 - Since *Triple Bluffs* are illegal and not to be used, it is possible to perform a *Double Bluff* with a card that is not exactly two-away-from-playable. This is similar to how the *3 Bluff* convention works.
 - This is how it works for 4's:
   - If a 4 is given a *Play Clue* and it is *one-away-from-playable*, then it would only trigger a single *Bluff* (and not a *Double Bluff*).
-  - If a 4 is given a *Play Clue* and it is two-away-from-playable, then it would trigger a *Double Bluff*. (This would be a "normal" *Double Bluff*.)
-  - If a 4 is given a *Play Clue* and it is three-away-from-playable, then it would still only trigger a double *Bluff* (as a *4's Double Bluff* specifically).
+  - If a 4 is given a *Play Clue* and it is *two-away-from-playable*, then it would trigger a *Double Bluff*. (This would be a "normal" *Double Bluff*.)
+  - If a 4 is given a *Play Clue* and it is *three-away-from-playable*, then it would still only trigger a double *Bluff* (as a *4's Double Bluff* specifically).
 - This is how it works for 5's:
   - If a 5 is given a *Play Clue* and it is *one-away-from-playable*, then it would only trigger a single *Bluff* (and not a *Double Bluff*).
-  - If a 5 is given a *Play Clue* and it is two-away-from-playable, then it would trigger a *Double Bluff*. (This would be a "normal" *Double Bluff*.)
+  - If a 5 is given a *Play Clue* and it is *two-away-from-playable*, then it would trigger a *Double Bluff*. (This would be a "normal" *Double Bluff*.)
     - Note that this would only happen if e.g. *5 Color Ejection* and *5 Number Discharge* would not apply.
-  - If a 5 is given a *Play Clue* and it is three-away-from-playable, then it would still only trigger a double *Bluff* (as a *5's Double Bluff* specifically).
+  - If a 5 is given a *Play Clue* and it is *three-away-from-playable*, then it would still only trigger a double *Bluff* (as a *5's Double Bluff* specifically).
     - Note that this would only happen if e.g. *5 Color Ejection* and *5 Number Discharge* would not apply.
-  - If a 5 is given a *Play Clue* and it is four-away-from-playable, then it would still only trigger a double *Bluff* (as a *5's Double Bluff* specifically).
+  - If a 5 is given a *Play Clue* and it is *four-away-from-playable*, then it would still only trigger a double *Bluff* (as a *5's Double Bluff* specifically).
     - Note that this would only happen if e.g. *5 Color Ejection* and *5 Number Discharge* would not apply.
 - For example, in a 5-player game:
   - Nothing is played on the stacks.
