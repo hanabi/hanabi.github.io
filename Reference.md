@@ -8,7 +8,6 @@ Convention updates are listed in the `#announcements` channel on the [Discord se
 
 <span style="color: red;">
 ## New Player Warning
-</span>
 
 If you are a brand new player, **do not bother reading this document**. It is much better to simply read the [introductory document](Beginner.md) and then start playing games with the group. This document can be used as a reference as you continue to naturally improve at the game.
 
@@ -17,6 +16,7 @@ If you have already read the beginners guide, then please see the [learning path
 Note that it is not a good idea to rush to learn everything here as quickly as possible. **Using higher level strategies does not necessarily make you a better player.** The extra efficiency from fancy tricks is often outweighed by mistakes or miscommunications caused by the additional complexity.
 
 <br />
+</span>
 
 ## Rigidity Warning
 
