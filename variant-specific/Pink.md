@@ -258,7 +258,7 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 ### Trash Finesses & Trash Bluffs in Pink
 
 - When a *Trash Finesse* or a *Trash Bluff* happens in a normal variant, if more than one card is touched, then all of the touched cards are known to be trash.
-- When a *Trash Finesse* or a *Trash Bluff* happens in a variant with a pink suit, if more than one card is touched, it is possible that only the focused card was trash, and that the other cards touched are useful / critical pink cards.
+- When a *Trash Finesse* or a *Trash Bluff* happens in a variant with a pink suit, if more than one card is touched, and the clue was a number clue, it is possible that only the focused card was trash, and that the other cards touched are useful / critical pink cards.
 - In this situation, after discarding the focus of the *Trash Finesse* or *Trash Bluff*, the player should then hold on to the other touched cards.
 
 ### Trash Pushes in Pink
