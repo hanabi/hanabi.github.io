@@ -37,3 +37,25 @@ The main [reference document](../Reference.md) lists all of our conventions. But
 
 - In the Hyphen-ated convention framework, we extend the [Bluff](../Reference.md#bluffs) convention, allowing players to *Bluff* with [any 3 that they want](https://github.com/Zamiell/hanabi-conventions/blob/master/Reference.md#the-3-bluff). Why?
 - Read the [story of 3 Bluffs](3_Bluffs.md), which is on a separate page.
+
+<br />
+
+### Discarding Trash From Left to Right
+
+- In the Hyphen-ated convention framework, [we discard known trash from left-to-right](https://github.com/Zamiell/hanabi-conventions/blob/master/Reference.md#the-trash-order-chop-move). Why?
+- Intuitively, you would expect that trash should be discarded from right-to-left, because that is the order that we normally discard cards in.
+- However, this does not work well if you use the *Trash Finesse* convention.
+- For example, examine the following replay: https://hanabi.live/replay/16627#32
+  - From xdragun's perspective, Zamiel's clue can be either a *Play Clue* on the purple 1 or a *Trash Finesse*.
+  - On turn 34, it is possible that Libster deferring playing into the *Finesse* in order to perform a *Bluff* of his own. Thus, the card is still in a superposition of these two possibilities.
+
+| Real Card Identity | Card Identity Assumed | Convention Decision | xdragun will | Outcome
+| --- | --- | --- | --- | ---
+| p1 | p1 | discard leftmost | discard slot 1 | *Gentleman's Discard* ✔
+| p1 | p1 | discard rightmost | discard slot 1 | *Gentleman's Discard* ✔
+| p1 | trash 1 | discard leftmost | discard slot 1 | attempted normal discard that turns into a *Gentleman's Discard* ✔
+| p1 | trash 1 | discard rightmost | discard slot 3 | attempted normal discard that turns into a *Trash Order Chop Move* on Libster ❌
+| trash 1 | p1 | discard leftmost | discard slot 1 | attempted normal discard that turns into a *Gentleman's Discard* ✔
+| trash 1 | p1 | discard rightmost | discard slot 1 | attempted normal discard that turns into a *Trash Order Chop Move* on Libster ❌
+| trash 1 | trash 1 | discard leftmost | discard slot 1 | normal discard, nothing special happens ✔
+| trash 1 | trash 1 | discard rightmost | discard slot 3 | normal discard, nothing special happens ✔
