@@ -6,7 +6,9 @@ Convention updates are listed in the `#announcements` channel on the [Discord se
 
 <br />
 
-## <span style="color: red;">New Player Warning</span>
+<span style="color: red;">
+## New Player Warning
+</span>
 
 If you are a brand new player, **do not bother reading this document**. It is much better to simply read the [introductory document](Beginner.md) and then start playing games with the group. This document can be used as a reference as you continue to naturally improve at the game.
 
