@@ -49,13 +49,13 @@ The main [reference document](../Reference.md) lists all of our conventions. But
   - From xdragun's perspective, Zamiel's clue can be either a *Play Clue* on the purple 1 or a *Trash Finesse*.
   - On turn 34, it is possible that Libster deferring playing into the *Finesse* in order to perform a *Bluff* of his own. Thus, the card is still in a superposition of these two possibilities.
 
-| Real Card Identity | Card Identity Assumed | Convention Decision | xdragun will   | Outcome
-| ------------------ | --------------------- | ------------------- | -------------- | -------
-| purple 1           | purple 1              | discard leftmost    | discard slot 1 | *Gentleman's Discard* ✔
-| purple 1           | purple 1              | discard rightmost   | discard slot 1 | *Gentleman's Discard* ✔
-| purple 1           | trash 1               | discard leftmost    | discard slot 1 | attempted normal discard that turns into a *Gentleman's Discard* ✔
-| purple 1           | trash 1               | discard rightmost   | discard slot 3 | attempted normal discard that turns into a *Trash Order Chop Move* on Libster ❌
-| trash 1            | purple 1              | discard leftmost    | discard slot 1 | attempted normal discard that turns into a *Gentleman's Discard* ✔
-| trash 1            | purple 1              | discard rightmost   | discard slot 1 | attempted normal discard that turns into a *Trash Order Chop Move* on Libster ❌
-| trash 1            | trash 1               | discard leftmost    | discard slot 1 | normal discard, nothing special happens ✔
-| trash 1            | trash 1               | discard rightmost   | discard slot 3 | normal discard, nothing special happens ✔
+| Convention Decision | Real Card Identity | Card Identity Assumed | xdragun will   | Outcome
+| ------------------- | ------------------ | --------------------- | -------------- | -------
+| discard leftmost    | purple 1           | purple 1              | discard slot 1 | *Gentleman's Discard* ✔
+| discard leftmost    | purple 1           | trash 1               | discard slot 1 | attempted normal discard that turns into a *Gentleman's Discard* ✔
+| discard leftmost    | trash 1            | purple 1              | discard slot 1 | attempted normal discard that turns into a *Gentleman's Discard* ✔
+| discard leftmost    | trash 1            | trash 1               | discard slot 1 | normal discard, nothing special happens ✔
+| discard rightmost   | purple 1           | purple 1              | discard slot 1 | *Gentleman's Discard* ✔
+| discard rightmost   | purple 1           | trash 1               | discard slot 3 | attempted normal discard that turns into a *Trash Order Chop Move* on Libster ❌
+| discard rightmost   | trash 1            | purple 1              | discard slot 1 | attempted normal discard that turns into a *Trash Order Chop Move* on Libster ❌
+| discard rightmost   | trash 1            | trash 1               | discard slot 3 | normal discard, nothing special happens ✔
