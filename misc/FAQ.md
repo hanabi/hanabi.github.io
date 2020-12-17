@@ -313,7 +313,7 @@ No. It only promises that the matching cards are in your hand. Write *Trash Touc
 - From xdragun's perspective, Zamiel's clue can be either a *Trash Finesse* or a *Play Clue* on the purple 1.
 - If it is a *Trash Finesse*, xdragun can discard slot 1, proving this to everyone.
 - If it is a *Play Clue* on the purple 1, xdragun can perform a *Gentleman's Discard* without communicating a *Trash Order Chop Move* on Zamiel.
-- If the conventions were in the opposite order, then xdragun would be in a very shitty situation.
+- If the conventions were in the opposite order, then xdragun would be in a very sticky situation.
 
 <br />
 
