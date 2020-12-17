@@ -6,6 +6,10 @@ If you are a brand new player, **do not bother reading this document**. It is mu
 
 If you have already read the beginners guide, then please see the [learning path document](Learning_Path.md). This explains what to learn next and how many games you should be playing before reading ahead.
 
+These strategies are not rules written in stone. Everything is flexible and can be modified in the right situation by using wits, judgment, and a lot of experience.
+
+It's not a good idea to rush to learn everything here as quickly as possible. Using higher level strategies does not necessarily make you a better player. The extra efficiency from fancy tricks is often outweighed by mistakes or miscommunications caused by the additional complexity. 
+
 Note that convention updates for the group are listed in the `#announcements` channel on the [Hanabi Discord server](https://discord.gg/FADvkJp).
 
 <br />
