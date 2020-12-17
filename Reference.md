@@ -912,7 +912,7 @@ Note that in this user interface, players are **not** holding their hands like t
 ### The Misplay Chop Move
 
 - Sometimes, a desirable card is on the next player's chop and it is not directly cluable. In this situation, players can cleverly use the various kinds of chop moves in order to save the card (e.g. *Trash Chop Move*, *5's Chop Move*, *Tempo Clue Chop Move*, and so forth).
-- However, none of these chop moves may be available to perform. In such a situation, players can *Chop Move* a player by making them intentionally misplay a card. This works in exactly the same way as a *Trash Chop Move*, except that it the trash is not known to the player receiving the clue (and it costs the team a strike).
+- However, none of these chop moves may be available to perform. In such a situation, players can *Chop Move* a player by giving them a clue to make them intentionally misplay a card. This works in exactly the same way as a *Trash Chop Move*, except that it the trash is not known to the player receiving the clue (and it costs the team a strike).
 - For example, in a 3-player game:
   - All of the 2's are played on the stacks.
   - Bob's hand is completely unclued.
