@@ -6,48 +6,7 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 
 ## The Backlog (General Conventions)
 
-@everyone New conventions:
-
-**Self Color Ejection** (by Jeff)
-
-```
-- Normally, when a card is "filled in" a card that is two-or-more-away-from-playable, it triggers a *Self Color Double Bluff* 
-- However, what if the next player can see that a *Double Bluff* is impossible? In this situation, they instead intend for an *Ejection* on the very next player.
-- For example, in a 4-player game:
-  - All the 1's are played on the stacks.
-  - Bob has a green 4 in his hand that was previously clued with a number 4 clue.
-  - Alice clues green to Bob, which fills in the green 4.
-  - Bob considers what the clue means:
-    - Normally, this would be a *Play Clue* on the green 4, calling for a green 2 and a green 3 to be played as a *Finesse*. However, Bob does not see green 2 and green 3 in anyone else's hands. It also cannot be in his hand (because he has negative green on his entire hand).
-    - If it isn't a *Finesse*, then it must be a *Self Color Bluff*. However, *Self Color Bluffs* are only performed on legal *Bluff Targets* (e.g. one-away-from-playable cards), and the green 4 is two-away-from-playable.
-    - If it isn't a *Self Color Bluff*, then it must be a *Self Color Double Bluff*. However, Bob sees that Cathy has a trash card on her *Finesse Position*. If he blind-plays his *Finesse Position*, Cathy will go on to misplay her *Finesse Position*. That means that a *Self Color Double Bluff* does not make sense.
-    - If it isn't a *Self Color Double Bluff*, then it must be a *Self Color Ejection*.
-  - Bob blind-plays his *Second Finesse Position*. It is a red 2 and it successfully plays.
-  - Cathy does nothing; no other cards are promised.
-```
-
-**4 Charm** (by Jeff)
-
-```
-- When a *Play Clue* is given to a 4 that is not yet playable, Bob must react:
-  - The first interpretation is that it is a *Prompt*.
-  - If Bob has no matching cards in his hand, then a *Prompt* is impossible.
-  - The second interpretation is that it is a *Finesse*.
-  - If Bob sees that he would have to **blind-play one card** or **blind-play two cards** to fulfill a *Finesse*, then he should assume that it is a *Finesse*.
-  - If Bob sees that he would have to **blind-play three cards** in their hand to fulfill the *Finesse*, then a *Finesse* is unlikely.
-  - The third interpretation is that it is a *4 Double Bluff*.
-  - If Bob sees that Cathy does not have a playable card (or a *one-away-from-playable* card) on her *Finesse Position*, then a *4 Double Bluff* is impossible.
-  - The forth interpretation is a *4 Charm*; Bob should play his *Fourth Finesse Position*.
-- For example, in a 4-player game:
-  - It is the first turn and nothing is played on the stacks.
-  - Alice clues number 4 clue to Cathy, touching a red 4 on slot 1 as a *Play Clue*.
-  - Bob knows that normally, this would be a *Finesse* on the red 4, meaning that he should blind-play a red 1, a red 2, and a red 3. (Bob does not see any red cards in anyone else's hands.)
-  - Since the *Finesse* requires three blind-plays, it is unlikely, and Bob knows he is supposed to revert to a different interpretation.
-  - Bob sees that Cathy does not have a playable card (or a *one-away-from-playable* card) on her *Finesse Position*, so a *4 Double Bluff* is impossible.
-  - Thus, Bob knows that this must be a *4 Charm*. He blind-plays his *Fourth Finesse Position*. It is a blue 1 and it successfully plays.
-- *4 Charms* can be given with either a color clue or a number clue.
-- Similar to a *5 Color Ejection*, *Prompts* don't factor into the "three or more blind-plays" rule. Players only count the number of blind-plays.
-```
+n/a
 
 <br />
 
