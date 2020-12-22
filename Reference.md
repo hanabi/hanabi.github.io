@@ -2939,7 +2939,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 - The *shadow* in a *Shadow Finesse* **must** exist in the immediate next player's hand, similar to a *Bluff*. And the player holding the *shadow* **must** blind-play it immediately to resynchronize the team, similar to a *Bluff*.
 - Once a *shadow* has been blind-played, the team should consider the *shadow target* as being fully known and "touched". (In other words, it no longer occupies a *Finesse Position*.)
 - Remember that *Shadow Finesses* work with *Finesse Positions*, **not** with slot numbers.
-- A *Shadow Finesse* is **illegal** if the blind-play could be misinterpreted as some other kind of move. For example:
+- Care should be taken to not give a *Shadow Finesse* that could be misinterpreted as some other kind of move. For example:
   - If the *shadow* is on the *First Finesse Position*, then the move might be misinterpreted as a *Bluff* or a *Trash Finesse*.
   - If the *shadow* is on the *Second Finesse Position*, then the move might be misinterpreted as a *5 Color Ejection*
   - If the *shadow* is on the *Third Finesse Position*, then the move might be misinterpreted as an *Unknown Trash Discharge*.
