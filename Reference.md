@@ -156,7 +156,7 @@ In a text-based example:
 - The player who goes first will always be Alice.
 - The second player will always be Bob.
 - The third player will always be Cathy.
-- The forth player will always be Donald.
+- The fourth player will always be Donald.
 - The fifth player will always be Emily.
 
 (This is a historical convention created by [Keldon Jones](http://keldon.net/) and follows loosely from [cryptography](https://en.wikipedia.org/wiki/Alice_and_Bob).)
@@ -2934,7 +2934,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   - Bob sees no other explanation for this, so he knows that this must be a *Shadow Finesse* - Bob must hold the red 2's "shadow".
   - Since the red 2 is in Donald's *Fourth Finesse Position* (slot 4), Bob immediately plays his *Fourth Finesse Position* (slot 4). It is a blue 1 and it successfully plays.
   - Cathy can see all of the other hands and understands Alice's clue. Cathy plays the clued red 1.
-  - Donald is very surprised to see Bob play his *Forth Finesse Position*. The only thing that could cause this is a *Shadow Finesse*.
+  - Donald is very surprised to see Bob play his *Fourth Finesse Position*. The only thing that could cause this is a *Shadow Finesse*.
   - Donald blind-plays the red 2 (the shadow target) from his slot 4.
 - The *shadow* in a *Shadow Finesse* **must** exist in the immediate next player's hand, similar to a *Bluff*. And the player holding the *shadow* **must** blind-play it immediately to resynchronize the team, similar to a *Bluff*.
 - Once a *shadow* has been blind-played, the team should consider the *shadow target* as being fully known and "touched". (In other words, it no longer occupies a *Finesse Position*.)
@@ -3375,7 +3375,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   - If Bob sees that he would have to **blind-play three cards** in their hand to fulfill the *Finesse*, then a *Finesse* is unlikely.
   - The third interpretation is that it is a *4 Double Bluff*.
   - If Bob sees that Cathy does not have a playable card (or a *one-away-from-playable* card) on her *Finesse Position*, then a *4 Double Bluff* is impossible.
-  - The forth interpretation is a *4 Charm*; Bob should play his *Fourth Finesse Position*.
+  - The fourth interpretation is a *4 Charm*; Bob should play his *Fourth Finesse Position*.
 - For example, in a 4-player game:
   - It is the first turn and nothing is played on the stacks.
   - Alice clues number 4 clue to Cathy, touching a red 4 on slot 1 as a *Play Clue*.
