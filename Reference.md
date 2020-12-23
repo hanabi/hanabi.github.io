@@ -3408,6 +3408,26 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   - Cathy knows that she must have the red 2. She also knows that her slot 1 card is a 5 that could have been used for a *5 Pull*. Cathy marks the 5 as being *Chop Moved* for later.
 - More examples of a *Safety Charm* can be found [here](https://github.com/Zamiell/hanabi-conventions/blob/master/examples/Safety_Charm.md).
 
+### Trash Push Charm (TPC)
+
+- Normally, when known trash is touched as the focus of the clue, and the known trash is on chop, it communicates a *Trash Push*.
+However, what if the Trash Pushed card is *two-or-more-away-from-playable*? The other players can see that this clue must have some other purpose - it should signal a *Charm* on the very next player.
+- For example, in a 3-player game:
+  - Red 5 and green 2 are played on the stacks.
+  - Bob's hand is completely unclued and is, from newest to oldest: `green 4, red 1, red 3, blue 1, blue 2`
+  - Cathy's hand is completely unclued and is, from newest to oldest: `yellow 4, green 1, blue 4, green 5, red 1`
+  - Alice clues red to Cathy, touching a red 1 on Cathy's chop, initiating a Trash Push.
+  - Bob sees that Alice is trash pushing green 5, which is *2-away-from-playable*.
+  - Bob knows that this signals a blind-play:
+    - A *First Finesse Position* blind-play would look like a *Trash Push Finesse*, which would be a *Lie*.
+    - A *Second Finesse Position* blind-play would look like a *5 Color Ejection* on a red 5, which would be a *Lie*.
+    - A *Third Finesse Position* blind-play would look like an Unknown Trash Discharge, which would be a *Lie*.
+  - Thus, Bob knows that this must be a *Trash Push Charm* and blind-plays his *Fourth Finesse Position*. It is a blue 1 and it successfully plays.
+  - Cathy now knows that the trash pushed card is not currently playable.
+  - Cathy *Chop Moves* her slot 4 and discards the red trash card.
+- This results in a *Signal Shift* from *Play* --> *Save*
+- This convention also applies to *The Trash Pull*.
+
 <br />
 
 ## Level 19 - Rarely Used Strategies - Ejection & Discharge Extensions
@@ -3434,6 +3454,11 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 
 - First, see the section on *[Out-of-Position Ejection](#the-out-of-position-ejection)*.
 - Just like OOP *Ejection*, it is possible to do OOP *Discharge* in the exact same way.
+
+### The Out-of-Position Charm
+
+- First, see the section on *[Out-of-Position Ejection](#the-out-of-position-ejection)*.
+- Just like OOP *Ejection*, it is possible to do OOP *Charm* in the exact same way.
 
 ### The Stacked Ejection
 
