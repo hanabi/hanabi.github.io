@@ -53,6 +53,7 @@ Even though the reference document outlines the "correct" thing to do in a lot o
   - [General Principles](#level-8---intermediate---general-principles)
   - [Common Mistakes](#level-8---intermediate---common-mistakes)
 - [Level 9 - Fellow](#level-9---fellow)
+  - [Conventions & Special Moves](#level-9---fellow---conventions--special-moves)
   - [General Principles](#level-9---fellow---general-principles)
 - [Level 10 - Journeyman](#level-10---journeyman)
 - [Level 11 - Advanced](#level-11---advanced)
