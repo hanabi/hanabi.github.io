@@ -21,10 +21,11 @@ These conventions apply to any variant with a muddy rainbow suit or a cocoa rain
 - Any red color clue (the left-most color) to a chop card is treated as a potential *Muddy Rainbow Save* on a muddy rainbow 2 or a muddy rainbow 5.
 - Similar to brown, *Loaded Play Clues* always apply to *Muddy Rainbow Saves*, even in the *Early Game*.
 
-### Muddy Rainbow Choice Tempo Clues
+### Mud Clues
 
 - In variants with a pink suit, the *[Pink Choice Tempo Clue](Pink.md#pink-choice-tempo-clue)* convention is "turned on", since players often have a *Free Choice* with how they can clue pink cards. Muddy rainbow has a similar convention.
 - When one or more muddy rainbow cards are retouched with a color clue, and there are no "new" cards introduced (or, if the only "new" cards introduced are trash), then extra information can be conveyed by what color is chosen. The color chosen should correspond to the slot that they should play.
+- This is called a *Muddy Rainbow Choice Tempo Clue*, or just a *Mud Clue* for short.
 - The slot number is calculated in roughly the same way that *[Null Color Positional Clues](Null.md#color-positional-clues)* are calculated. In short, the slot number corresponds to the ordering of the colors **from right to left**. But skip the cards that are not touched by the color clue (and the known unplayable cards). Furthermore, colors always "wrap around" to the oldest card.
 - For example, in a 3-player game of the "Muddy Rainbow (6 Suits)" variant:
   - All of the 2's are played on the stacks.
@@ -37,7 +38,7 @@ These conventions apply to any variant with a muddy rainbow suit or a cocoa rain
 - *Muddy Rainbow Choice Tempo Clues* are only allowed to get muddy rainbow cards.
   - An exception to this rule can be made for extremely difficult variants. If the team needs to get a non-muddy card for some specific purpose (e.g. to "unlock" another player), and there was not another good way to "get" the card, then it should be clear to everyone what is happening.
 
-### Muddy Rainbow Choice Tempo Clues (Skipping Over Unplayable Cards)
+### Mud Clues (Skipping Over Unplayable Cards)
 
 - If known-unplayable cards are touched as part of a *Muddy Rainbow Choice Tempo Clue*, then they should be skipped over.
 - For example, in a 3-player game of the "Muddy Rainbow (6 Suits)" variant:
