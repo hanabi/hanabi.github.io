@@ -1744,7 +1744,7 @@ Note that in this user interface, players are **not** holding their hands like t
 
 - Just in case you thought Hanabi was not difficult enough, there are some other factors to consider when finding the best clue:
   - Does giving a color clue put a playable card on *Finesse Position*? If so, maybe a color clue is better.
-  - Does the player holding the 1's want to perform an *Order Chop Move*? If so, maybe a number 1 clue is better.
+  - Does giving a number 1 clue give the player the ability to perform a useful *Order Chop Move*? If so, maybe a number 1 clue is better.
   - Are there other ways to touch the extra cards from a color clue? If so, maybe a number 1 clue is better.
 
 <br />
