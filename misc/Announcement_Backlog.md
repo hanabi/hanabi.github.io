@@ -6,7 +6,7 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 
 ## The Backlog (General Conventions)
 
-n/a
+- The sections on Deferring a Bluff have been moved to level 16. (Thanks vEnhance)
 
 <br />
 
