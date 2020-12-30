@@ -57,7 +57,7 @@ Even though the reference document outlines the "correct" thing to do in a lot o
   - [General Principles](#level-9---fellow---general-principles)
 - [Level 10 - Journeyman](#level-10---journeyman)
   - [Conventions & Special Moves](#level-10---journeyman---conventions--special-moves)
-  - [General Principles](#level-10---fellow---general-principles)
+  - [General Principles](#level-10---journeyman---general-principles)
 - [Level 11 - Advanced](#level-11---advanced)
 - [Level 12 - Adept](#level-12---adept)
 - [Level 13 - Senior](#level-13---senior)
