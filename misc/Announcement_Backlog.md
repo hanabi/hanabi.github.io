@@ -6,14 +6,10 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 
 ## The Backlog (General Conventions)
 
-- The section on "Assuming Asymmetric Information" has been moved to level 10.
-- The sections on "Deferring a Bluff" have been moved to level 16. (Thanks vEnhance)
 
 <br />
 
 ## The Backlog (Variant-Specific Conventions)
-
-@everyone New variant-specific conventions:
 
 **Muddy Rainbow Choice Tempo Clues** (by Jeff)
 
@@ -49,26 +45,6 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
   - A yellow clue would mean to play slot 2 (skipping over the red 5 again).
   - A red clue would mean to play slot 4 (another wraparound).
   - Bob plays slot 4 as the muddy rainbow 3.
-```
-
-**Bubblegum Wraparound**
-
-```
-- This convention applies to any variant with a pink suit.
-- When players violate *Pink Promise* on an unplayable pink card, it usually indicates a *Bubblegum Prompt* or a *Bubblegum Finesse* (with the rank corresponding to the slot number to play).
-- In 4-player and 5-player games, there are only 4 cards in the hand. If a player does a *Bubblegum Finesse* with a 5, then that would be nonsensical, since there is no slot 5.
-- Similarly, in a 6-player game, there are only 3 cards in the hand. If a player does a *Bubblegum Finesse* with a 4, then that would be nonsensical, since there is no slot 4.
-- In this situation, it should "wraparound" to slot 1, communicating that the first slot is playable.
-- This kind of thing is useful in some edge-case scenarios (e.g. helping satisfy *Good Touch Principle* in variants with a light pink suit).
-```
-
-**Bubblegum Slides**
-
-```
-- This convention applies to any variant with a pink suit.
-- If a *Bubblegum Prompt* or a *Bubblegum Finesse* is telling a player to play a card in a slot that has negative pink, then that is nonsensical.
-- In this situation, if there is no other possible interpretation for the clue other than a *Bubblegum Prompt* or a *Bubblegum Finesse*, and it is unlikely for the cluer to be making a mistake, then the target slot should "slide" to the right.
-- If the slot immediately to the right is also impossible to be a pink card, then it should continue to slide right until it finds a pink card, wrapping around to the other side of the hand if necessary.
 ```
 
 **The Slot Finesse** (by Jeff)
@@ -122,15 +98,4 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
   - Cathy knows that Alice did not perform a *Bubblegum Bluff*, because Bob would have played his slot 5 card instead of his slot 2 card.
   - Thus, Cathy knows that this must be a *Turnabout Ejection*. She marks her slot 5 card as a pink 1.
 - If a *Turnabout Ejection* occurs from a number 1 clue that also touches other 1s, the non-focused cards should still be assumed to be 1s (using the *1's Assumption* convention).
-```
-
-**1's Chop Move***
-
-```
-- This convention only applies in variants with a reversed suit.
-- Normally, when someone gives a number 1 clue, and all the 1's are played on the stacks, it communicates a *Trash Chop Move*.
-- In a variant with a reversed suit, we agree that players can also perform this move by using a reversed 1, as a *1's Chop Move* (which is similar to a *5's Chop Move)*.
-- In this situation, the player who receives the clue should *Chop Move* their cards to the right of the 1 and also keep the 1 as a (potential) reversed 1.
-  - If they happen to see the real copy of the reversed 1 at a later point in the game, then they can discard the 1 as known trash.
-- If there are two or more cards are touched from *1's Chop Move*, the reversed 1 is promised on the right-most.
 ```
