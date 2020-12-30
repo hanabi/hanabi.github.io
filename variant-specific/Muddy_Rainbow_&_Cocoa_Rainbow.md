@@ -40,7 +40,7 @@ These conventions apply to any variant with a muddy rainbow suit or a cocoa rain
 
 ### Mud Clues (Skipping Over Unplayable Cards)
 
-- If known-unplayable cards are touched as part of a *Muddy Rainbow Choice Tempo Clue*, then they should be skipped over.
+- If known-unplayable cards are touched as part of a *Mud Clue*, then they should be skipped over.
 - For example, in a 3-player game of the "Muddy Rainbow (6 Suits)" variant:
   - All of the 2's are played on the stacks.
   - Bob has two muddy rainbow cards clued in his hand on slot 2 and slot 4. He does not know the rank of either card. He also has a red 5 on slot 3 with a 5 clue on it.
