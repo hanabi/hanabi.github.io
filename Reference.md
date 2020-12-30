@@ -53,7 +53,6 @@ Even though the reference document outlines the "correct" thing to do in a lot o
   - [General Principles](#level-8---intermediate---general-principles)
   - [Common Mistakes](#level-8---intermediate---common-mistakes)
 - [Level 9 - Fellow](#level-9---fellow)
-  - [Conventions & Special Moves](#level-9---fellow---conventions--special-moves)
   - [General Principles](#level-9---fellow---general-principles)
 - [Level 10 - Journeyman](#level-10---journeyman)
 - [Level 11 - Advanced](#level-11---advanced)
@@ -1857,7 +1856,7 @@ Note that in this user interface, players are **not** holding their hands like t
   - Cathy knows that the only reason that Bob would blind-play a card is it this was a *5 Pull Finesse*. Cathy blind-plays her slot 4 card. It is a red 2 and it successfully plays.
 - Unlike other types of *Finesses*, *5 Pull Finesses* **must** be demonstrated with a blind-play between when the *5 Pull* is given and the *5 Pulled* player's next turn (e.g. a *Forward Finesse*).
 - Subsequently, *5 Pulls* are **not** allowed to initiate a *Reverse Finesse*. (This is because we don't want the person with the pulled card to have to entertain too many possibilities.)
-- Remember that during a *5 Pull Finesse*, the pulled card **always** matches the blind-play. In other words, it generally impossible to perform a *5 Pull Bluff*, a *5 Pull Double Bluff*, and so on.
+- Remember that during a *5 Pull Finesse*, the pulled card **always** matches the blind-play. In other words, it impossible to perform a *5 Pull Bluff*.
 
 ### The 5 Pull Double Finesse
 
@@ -2453,6 +2452,36 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   - Normally, Donald would know that his red card is exactly a red 3, as a *Double Half Bluff*.
   - However, Donald also knows that any 4 in the game can be used to perform a *Double Bluff*.
   - Thus, Donald marks his red card as either a red 3 (if it was a *Double Half Bluff*) or a red 4 (if it was a *4 Double Bluff*).
+
+### Deferring a Bluff
+
+- From *Urgency Principle*, we know that players are allowed to defer a *Finesse* or a *Bluff* in order to do a *Finesse* or *Bluff* of their own. And indeed, when players see a really good clue, they should probably defer blind-playing to give the clue. But there are limits.
+- When a player knows for sure that they are *Finessed* (instead of *Bluffed*), then deferring a *Finesse* (to perform another *Finesse* or *Bluff*) is great! It has almost no downsides, other than the obvious loss of tempo. Everyone on the team is "in the know", so to speak.
+- When a player *could* be *Bluffed*, deferring a *Bluff* can be extremely dangerous because it causes *Information Desynchronization* throughout the team.
+- Deferring a *Bluff* to perform a *Finesse* can be pretty clear, depending on the situation. It should be done sparingly.
+  - Note that deferring a *Bluff* to perform a *Finesse* can potentially lose the game if the original cluer is performing a *Double Half Bluff*. So there is some risk involved.
+- Deferring a *Bluff* to perform **another** *Bluff* is much worse. Since the *Bluff* was not immediately resolved, the game state "fractures" into two valid game states for the receivers of each clue (e.g. the player who received the clue that initiated the first *Bluff*, and the player who received the clue that initiated the *Deferred Bluff*). This means that these two players will have to entertain two entire hypothetical game states in their mind and build upon each hypothetical with each new piece of information. This makes it extremely difficult for them to plan ahead or make correct decisions during their turns.
+- Thus, deferring a *Bluff* to do another *Bluff* should **almost never be performed**.
+- Also, see the below section on *Deferring a Double Bluff*.
+
+### Deferring a Double Bluff
+
+- First, see the section on *[Deferring a Bluff](#deferring-a-bluff)*.
+- If Bob suspects that Alice is performing a *Double Bluff*, then Bob should **never defer**. It is very important that *Double Bluffs* resolve immediately.
+- Similarly, if Bob blind-plays, and Cathy can not rule out a *Double Bluff*, then Cathy should **never defer**. (If Cathy defers, it will cause an unrecoverable *Information Desynchronization*, because her future blind-play will not be interpreted as related to the *Double Bluff*.)
+
+### A Table for Deferring Bluffs
+
+| Alice is deferring a               | to perform a | Ok?
+| ---------------------------------- | ------------ | ---
+| Finesse                            | Finesse      | Yes!
+| Finesse                            | Bluff        | Yes!
+| Bluff                              | Finesse      | Sometimes, use sparingly
+| Bluff                              | Bluff        | Almost never do this
+| Double Bluff (first blind-player)  | Finesse      | No, **never** do this
+| Double Bluff (first blind-player)  | Bluff        | No, **never** do this
+| Double Bluff (second blind-player) | Finesse      | No, **never** do this
+| Double Bluff (second blind-player) | Bluff        | No, **never** do this
 
 <br />
 
@@ -3727,51 +3756,6 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   - At that point, the red 5 will be on chop, and it will be difficult for the team to get all of the red cards. Specifically, someone will probably have to give a number 3 clue to Bob as a 1-for-1 on the red 3.
   - Alice sees that if she gives a red clue to Bob *right now* (e.g. before she plays the red 2), then she will be able to "lock-in" a nice 3-for-1 clue. Even though the team will lose *Tempo*, this will be inconsequential because Bob has a safe discard and Cathy has a safe discard.
   - Alice clues red to Bob as a *Selfish Play Clue*.
-
-### Assuming Asymmetric Information
-
-* Sometimes, players will figure out asymmetric information about the identities of cards in their hand.
-* For example, in a 3-player game:
-  * It is the *Early Game* and there are 3 clues available.
-  * Alice discards, initiating the *Mid-Game*.
-  * Bob knows that there must be nothing left to clue, or Alice would have been obligated to clue it.
-  * Bob has three 2's in his hand that were saved with a *2 Save* clue earlier on.
-  * Bob sees that Cathy has a red 2 on chop. Since Alice did not clue it, Bob must have the other copy in his hand.
-  * Bob has not discarded since the *2 Save* was given to him earlier on. Thus, he knows that one of his three clued 2's must be the other copy of the red 2, so he marks all three cards with *Elimination Notes*.
-  * However, these *Elimination Notes* are asymmetric - Alice and Bob write the *Elimination Notes*, but Cathy does not. (Cathy has no idea that this is happening because Cathy cannot see her own red 2 on chop.)
-  * Alice and Bob will have to keep this information desync in mind going forward.
-* By default, players should never assume that other players have asymmetric information. This is because having asymmetric information is the **exception**, rather than the norm.
-* In the previous example, Bob might perform an action later on in the game that seems to demonstrate that he knows he has the red 2. But Cathy should not assume that he does, unless there is **no other explanation** for the clue.
-
-### Deferring a Bluff
-
-- From *Urgency Principle*, we know that players are allowed to defer a *Finesse* or a *Bluff* in order to do a *Finesse* or *Bluff* of their own. And indeed, when players see a really good clue, they should probably defer blind-playing to give the clue. But there are limits.
-- When a player knows for sure that they are *Finessed* (instead of *Bluffed*), then deferring a *Finesse* (to perform another *Finesse* or *Bluff*) is great! It has almost no downsides, other than the obvious loss of tempo. Everyone on the team is "in the know", so to speak.
-- When a player *could* be *Bluffed*, deferring a *Bluff* can be extremely dangerous because it causes *Information Desynchronization* throughout the team.
-- Deferring a *Bluff* to perform a *Finesse* can be pretty clear, depending on the situation. It should be done sparingly.
-  - Note that deferring a *Bluff* to perform a *Finesse* can potentially lose the game if the original cluer is performing a *Double Half Bluff*. So there is some risk involved.
-- Deferring a *Bluff* to perform **another** *Bluff* is much worse. Since the *Bluff* was not immediately resolved, the game state "fractures" into two valid game states for the receivers of each clue (e.g. the player who received the clue that initiated the first *Bluff*, and the player who received the clue that initiated the *Deferred Bluff*). This means that these two players will have to entertain two entire hypothetical game states in their mind and build upon each hypothetical with each new piece of information. This makes it extremely difficult for them to plan ahead or make correct decisions during their turns.
-- Thus, deferring a *Bluff* to do another *Bluff* should **almost never be performed**.
-- Also, see the below section on *Deferring a Double Bluff*.
-
-### Deferring a Double Bluff
-
-- First, see the section on *[Deferring a Bluff](#deferring-a-bluff)*.
-- If Bob suspects that Alice is performing a *Double Bluff*, then Bob should **never defer**. It is very important that *Double Bluffs* resolve immediately.
-- Similarly, if Bob blind-plays, and Cathy can not rule out a *Double Bluff*, then Cathy should **never defer**. (If Cathy defers, it will cause an unrecoverable *Information Desynchronization*, because her future blind-play will not be interpreted as related to the *Double Bluff*.)
-
-### A Table for Deferring Bluffs
-
-| Alice is deferring a               | to perform a | Ok?
-| ---------------------------------- | ------------ | ---
-| Finesse                            | Finesse      | Yes!
-| Finesse                            | Bluff        | Yes!
-| Bluff                              | Finesse      | Sometimes, use sparingly
-| Bluff                              | Bluff        | Almost never do this
-| Double Bluff (first blind-player)  | Finesse      | No, **never** do this
-| Double Bluff (first blind-player)  | Bluff        | No, **never** do this
-| Double Bluff (second blind-player) | Finesse      | No, **never** do this
-| Double Bluff (second blind-player) | Bluff        | No, **never** do this
 
 ### Trash Touch Elimination
 
