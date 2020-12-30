@@ -1727,7 +1727,7 @@ Note that in this user interface, players are **not** holding their hands like t
   - Donald is holding a cluable red 2.
   - Alice would like to get the red 1 and the blue 1 played. (No-one else has a red 1 or a blue 1.) Should she clue 1, red, or blue?
   - Just like in the previous example, cluing number 1 means that the red 2 will have to be clued as a 1-for-1, which results in an efficiency of 3-for-2.
-  - Instead, Alice clues blue as a 2-for-1. Bob can then perform the 2-for-1 *Finesse*, resulting in a 4-for-2.
+  - Instead, Alice clues red to Donald, performing the *Finesse* as a 2-for-1. Next, Bob clues blues to Cathy as a 2-for-1. In total, this is a 4-for-2.
 
 #### Example 3
 
