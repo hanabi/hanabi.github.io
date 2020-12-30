@@ -1693,7 +1693,7 @@ Note that in this user interface, players are **not** holding their hands like t
 
 <br />
 
-### Level 9 - Fellow - General Principles
+## Level 9 - Fellow - General Principles
 
 ### Legal Bluff Targets
 
