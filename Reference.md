@@ -56,6 +56,8 @@ Even though the reference document outlines the "correct" thing to do in a lot o
   - [Conventions & Special Moves](#level-9---fellow---conventions--special-moves)
   - [General Principles](#level-9---fellow---general-principles)
 - [Level 10 - Journeyman](#level-10---journeyman)
+  - [Conventions & Special Moves](#level-10---journeyman---conventions--special-moves)
+  - [General Principles](#level-10---fellow---general-principles)
 - [Level 11 - Advanced](#level-11---advanced)
 - [Level 12 - Adept](#level-12---adept)
 - [Level 13 - Senior](#level-13---senior)
@@ -1521,7 +1523,7 @@ Note that in this user interface, players are **not** holding their hands like t
 
 <br />
 
-### Level 9 - Fellow - Conventions & Special Moves
+## Level 9 - Fellow - Conventions & Special Moves
 
 ### Duplication Responsibility
 
@@ -1641,13 +1643,6 @@ Note that in this user interface, players are **not** holding their hands like t
   - However, Cathy also knows that *3 Bluffs* are a thing, so she *also* marks her red card as possibly a red 3.
   - However, Cathy also knows that *Critical 4 Bluffs* are a thing, so she *also* marks her red card as possibly a red 4.
 
-### Legal Bluff Targets
-
-- The full list of "legal *Bluff* targets" is as follows:
-  - any *one-away-from-playable* card (with either a color clue or a number clue)
-  - any 3 (with either a color clue or a number clue)
-  - any critical 4 (only with a color clue)
-
 ### Context Clues & The Stale 1's Clue
 
 - We have many conventions that specify what a clue means. But combined with this, we are always expected to look at the context of the game.
@@ -1699,6 +1694,13 @@ Note that in this user interface, players are **not** holding their hands like t
 <br />
 
 ### Level 9 - Fellow - General Principles
+
+### Legal Bluff Targets
+
+- The full list of "legal *Bluff* targets" is as follows:
+  - any *one-away-from-playable* card (with either a color clue or a number clue)
+  - any 3 (with either a color clue or a number clue)
+  - any critical 4 (only with a color clue)
 
 ### Cluing 1's in the Early Game
 
@@ -1758,6 +1760,8 @@ Note that in this user interface, players are **not** holding their hands like t
 
 <br />
 
+## Level 10 - Journeyman - Conventions & Special Moves
+
 ### Ejection
 
 - *Ejection* refers to a move like a *Bluff*, but instead of playing an unrelated card from *Finesse Position*, someone plays an unrelated card from their *Second Finesse Position*. For example, if a player's hand is completely unclued, their *Second Finesse Position* is slot 2.
@@ -1784,6 +1788,27 @@ Note that in this user interface, players are **not** holding their hands like t
   - Alice clues red to Cathy, touching a red 5 on slot 2 and a red 2 on slot 3.
   - Bob knows that normally, this would be an *Out-of-Order Finesse* on the 5, indicating to Bob that he has the red 1, the red 3, and the red 4. However, since this calls for more than one blind card, he knows that *5 Color Ejection* should take precedence, so he knows to play his *Second Finesse Position* card. It is a red 1 and it successfully plays.
   - From Cathy's perspective, if Bob had played his *Finesse Position* card in response to the red clue, then Cathy would know that it was a *Finesse* or a *Bluff*. But since Bob blind-played his *Second Finesse Position* card, it must be a *5 Color Ejection*. Cathy marks the red card as red 5. Her other red card can be red 2, red 3, or red 4.
+
+<br />
+
+## Level 10 - Journeyman - General Principles
+
+### Assuming Asymmetric Information
+
+* Sometimes, players will figure out asymmetric information about the identities of cards in their hand.
+* For example, in a 3-player game:
+  * It is the *Early Game* and there are 3 clues available.
+  * Alice discards, initiating the *Mid-Game*.
+  * Bob knows that there must be nothing left to clue, or Alice would have been obligated to clue it.
+  * Bob has three 2's in his hand that were saved with a *2 Save* clue earlier on.
+  * Bob sees that Cathy has a red 2 on chop. Since Alice did not clue it, Bob must have the other copy in his hand.
+  * Bob has not discarded since the *2 Save* was given to him earlier on. Thus, he knows that one of his three clued 2's must be the other copy of the red 2, so he marks all three cards with *Elimination Notes*.
+  * However, these *Elimination Notes* are asymmetric - Alice and Bob write the *Elimination Notes*, but Cathy does not. (Cathy has no idea that this is happening because Cathy cannot see her own red 2 on chop.)
+  * Alice and Bob will have to keep this information desync in mind going forward.
+* By default, players should never assume that other players have asymmetric information. This is because having asymmetric information is the **exception**, rather than the norm.
+* In the previous example, Bob might perform an action later on in the game that seems to demonstrate that he knows he has the red 2. But Cathy should not assume that he does, unless there is **no other explanation** for the clue.
+
+<br />
 
 ## Level 11 - Advanced
 
