@@ -6,7 +6,8 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 
 ## The Backlog (General Conventions)
 
-- The sections on Deferring a Bluff have been moved to level 16. (Thanks vEnhance)
+- The section on "Assuming Asymmetric Information" has been moved to level 10.
+- The sections on "Deferring a Bluff" have been moved to level 16. (Thanks vEnhance)
 
 <br />
 
