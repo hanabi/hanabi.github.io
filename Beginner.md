@@ -10,12 +10,12 @@
 ## Table of Contents
 
 1. [Card Layout](#card-layout)
-1. [The Basics](#the-basics)
-2. [Play Clues & Save Clues](#play-clues--save-clues)
-3. [The Three Main Principles](#the-three-main-principles)
-4. [Miscellaneous](#miscellaneous)
-5. [Special Moves](#special-moves)
-6. [How to Join Games](#how-to-join-games)
+2. [The Basics](#the-basics)
+3. [Play Clues & Save Clues](#play-clues--save-clues)
+4. [The Three Main Principles](#the-three-main-principles)
+5. [Miscellaneous](#miscellaneous)
+6. [Special Moves](#special-moves)
+7. [How to Join Games](#how-to-join-games)
 
 <br />
 
