@@ -11,11 +11,11 @@
 
 1. [Card Layout](#card-layout)
 1. [The Basics](#the-basics)
-2. [Play Clues & Save Clues](#play-clues--save-clues)
-3. [The Three Main Principles](#the-three-main-principles)
-4. [Miscellaneous](#miscellaneous)
-5. [Special Moves](#special-moves)
-6. [How to Join Games](#how-to-join-games)
+1. [Play Clues & Save Clues](#play-clues--save-clues)
+1. [The Three Main Principles](#the-three-main-principles)
+1. [Miscellaneous](#miscellaneous)
+1. [Special Moves](#special-moves)
+1. [How to Join Games](#how-to-join-games)
 
 <br />
 
