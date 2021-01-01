@@ -512,7 +512,7 @@ Note that in this user interface, players are **not** holding their hands like t
   - Alice clues 1's to Bob, which touches a 1 in slot 2 and a 1 in slot 4.
   - Bob **only** *Chop Moves* his slot 5 card.
 
-### The 5's Chop Move
+### The 5's Chop Move (5CM)
 
 - See the *Chop Move* section above for an explanation on what a *Chop Move* is.
 - Normally, we are only allowed to save 5's on chop (unless it is done with a *5 Stall* clue, which can happen in the *Early Game* and in other "stalling" situations).
@@ -529,6 +529,7 @@ Note that in this user interface, players are **not** holding their hands like t
   - Bob has a completely unclued hand.
   - Alice clues 5's to Bob, which touches a 5 in slot 2 and a 5 in slot 4.
   - Bob **only** *Chop Moves* his slot 5 card. Bob's new chop is his slot 3.
+- Remember that *5 Stalls* takes precedence over *5's Chop Moves*. Thus, if a number 5 clue **could** just be a *5 Stall* (e.g. it is the *Early Game*), then it should not *Chop Move* anything.
 
 ### Chop Moves & New Clues
 
