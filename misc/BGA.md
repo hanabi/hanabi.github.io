@@ -225,7 +225,7 @@ Ok, so you've made it this far. The changes so far probably sound pretty strange
 
 ### The 5's Chop Move - Added
 
-- On BGA, if you clue number 5 to a 5 that is one-away-from-chop, high-level players will usually interpret it as a *Play Clue* on the 5 or a stall, depending on the situation.
+- On BGA, if you clue number 5 to a 5 that is one-away-from-chop, high-level players will usually interpret it as a *Play Clue* on the 5 or a stall clue, depending on the situation.
 - In our group, we assign a special meaning to number 5 clues that introduce a brand new 5 that is **exactly** one-away from chop. You guessed it - it's a *Chop Move*.
 - Why do this? It allows players to use this special power to save two cards with one clue. For example, it can be used to save a critical card that is followed by a 5. Or, you can even use it to permanently save a non-critical but-still-useful card.
 
