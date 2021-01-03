@@ -1896,7 +1896,7 @@ Note that in this user interface, players are **not** holding their hands like t
   - Alice clues number 5 to Donald, touching the blue 5 on slot 3.
   - Bob blind-plays the red 1 (because he knows that it cannot be a *5 Stall*).
   - Cathy blind-plays the red 2 (because she knows that she needs to play into the *Double Finesse*).
-  - Donald knows that the *5 Pulled* card is the blue 3 to match the blue 1 and the blue 2.
+  - Donald knows that the *5 Pulled* card is the red 3 to match the red 1 and the red 2.
 - Previously, we said that *5 Pull Finesse* **must** be a *Forward Finesse*. However, *5 Pulled* players **do** have to respect that a *5 Pull Finesse* can be a *5 Pull Double Finesse* with the second blind-play as a *Reverse Finesse*. (Specifically, we refer to this as a *Finesse* with a *Reverse Finesse* component.)
 - More examples of a *5 Pull Double Finesse* can be found [here](examples/5_Pull_Double_Finesse.md).
 
