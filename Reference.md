@@ -623,9 +623,9 @@ Note that in this user interface, players are **not** holding their hands like t
 - 3-for-1 clues are even better than 2-for-1 clues, and so forth. It is even possible to perform a 9-for-1 clue with advanced techniques.
 - If a clue touches two cards but only one of them will play right now, it **still counts** as a 2-for-1. This is because we assume that all touched cards will eventually play from *Good Touch Principle*. For example:
   - On the first turn of the game, Alice clues Bob red, touching a red 1 on slot 1 and a red 5 on slot 2 as a 2-for-1. (Bob will only play the red 1 and save the other red card for later.)
-- On Hanab Live, the current efficiency is shown on the right side of the screen. Efficiency is calculated by the following formula:
-  - `(number of cards played + number of unplayed cards with one or more clues "on" them) / number of clues given`
-- **If efficiency is low, players should probably not perform 1-for-1 clues!** Instead, it is better to discard and try to let someone perform a *Finesse*.
+- On Hanab Live, the future required efficiency is shown on the right side of the screen. Future required efficiency is calculated by the following formula:
+  - `number of cards that remain to be clued / number of clues remaining`
+- **If future required efficiency is high, players should probably not perform 1-for-1 clues!** Instead, it is better to discard and try to let someone perform a *Finesse*.
 
 ### Tempo
 
