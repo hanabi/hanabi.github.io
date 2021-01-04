@@ -173,7 +173,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
 #### Delayed Play Clues
 
 - When you receive a *Play Clue*, it does not necessarily mean that you can play that card immediately. Look around the table for **other clued cards that might be related** to the card that you got the *Play Clue* on. If there are any, you must wait for them to be played.
-- For example, if Alice was clued about a bunch of 1's and then Bob is given a *Play Clue* on an unknown 2, **Bob must wait for Alice to play all of her 1's first** before playing the 2.
+- For example, suppose the red 1 is played and Alice has a green 1 and yellow 1 clued in her hand. Then, Bob is given a *Play Clue* on an unknown 2. **Bob must wait for Alice to play all of her 1's first** before playing the 2. Even though this might be the red 2, it can also be a *Delayed Play Clue* on the green or yellow 2.
 - In other words, treat all *Play Clues* as potential *Delayed Play Clues*.
 
 <br />
