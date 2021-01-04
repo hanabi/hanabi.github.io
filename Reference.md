@@ -2214,8 +2214,8 @@ Priority does not always apply. Some common exceptions are listed below.
 - If a clue could be given by multiple players, who should give the clue? If some players have known-playable cards and other players have nothing to do, then it makes the most sense to leave the clue for the players who have nothing to do.
 - If someone gives a clue with a globally-known playable card in their hand and forces the next player to have nothing to do, this is bad teamwork - unless there was a reason!
 - When this occurs, the clue should do one "extra" thing:
-  - If the clue would normally be interpreted as a *Save Clue*, then it transforms into a *Play Clue*.
-  - If the clue would normally be interpreted as a *Play Clue* or a *Prompt*, then it transforms into a *Finesse*.
+  - If the clue would normally be interpreted as a *Save Clue*, then it transforms into an *Occupied Play Clue*.
+  - If the clue would normally be interpreted as a *Play Clue* or a *Prompt*, then it transforms into an *Occupied Finesse*.
 - Note that the concept of being *Occupied* generalizes to lots of different kind of moves. For example, when an *Occupied* player clues an off-chop 5, it is certainly not a *5 Stall* - it must be an *Occupied 5 Pull*!
 
 ### The Trash Push
