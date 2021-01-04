@@ -1612,13 +1612,13 @@ Note that in this user interface, players are **not** holding their hands like t
 - Cathy knows that it was a *3 Bluff*, because a played 1 does not "match" number 3.
 - Beyond that, Cathy knows nothing about the card, besides that it is a 3 (since it has a number 3 clue on it).
 
-#### Example 3 - **Color Match** (NOT valid; looks like a Double Finesse)
+#### Example 3 - **Color Match** (NOT valid; looks like a Finesse)
 
 - On the first turn of the game, Alice clues Cathy red, which touches a red 3.
 - Bob blind-plays red 1.
 - Cathy sees that Bob does not have red 2. Since red matches red, Cathy assumes that she has the red 2.
 - Cathy misplays red 3 as red 2.
-- Alternatively, if Cathy saw that Bob had both red 1 and red 2 on *Finesse Position* at the time the clue was given, she would know that she has the red 2 **or** the red 3. Subsequently, Bob is promised a red 2, since if he does not blind-play a card, Cathy will go on to misplay the red 3 as red 2.
+- Alternatively, if Cathy saw that Bob had both red 1 and red 2 on his *Finesse Position* at the time the clue was given, she would know that she has the red 2 **or** the red 3. Subsequently, Bob is promised a red 2, since if he does not blind-play a card, Cathy will go on to misplay the red 3 as red 2.
 
 #### Example 4 - **Number 3 with Suit Match** (valid)
 
