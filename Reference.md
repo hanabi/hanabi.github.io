@@ -1595,7 +1595,8 @@ Note that in this user interface, players are **not** holding their hands like t
 ### The 3 Bluff
 
 - Typically, the player who receives a clue that causes a *Bluff* blind-play knows that the card that was clued is one-away from being playable.
-- Our group plays with an artificial *3 Bluffs* convention. This means that in addition to being one-away from being playable, we agree that the touched card can also be any 3 that will be useful in the future.
+- Our group plays with an artificial *3 Bluffs* convention. This means that in addition to being one-away from being playable, we agree that the touched card can *also* be any 3 that will be useful in the future.
+- *3 Bluffs* are mostly used to get 1's played at the beginning of the game. However, similar to a normal *Bluff*, a *3 Bluff* can be used to get any playable card (as long as it doesn't look like a *Finesse*, obviously.)
 - Here are some examples that cover the four most common *3 Bluff* situations:
 
 #### Example 1 - **Color Mismatch** (Valid)
