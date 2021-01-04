@@ -2030,15 +2030,15 @@ Priority does not always apply. Some common exceptions are listed below.
 - If you receive a *Load Clue*, you should suspect that you might have something valuable on your chop, as this would be an excellent reason to commit the team to giving the *Load Clue* in the first place.
 - If a player has a choice between playing one card that leads nowhere and playing one card that commits the team to giving a *Load Clue*, then they are not obligated to choose one or the other - they can choose whichever one is best for the situation.
 - When a player receives a *Load Clue*, they are to interpret it as a normal *Play Clue* instead of a *Fix Clue*. For example, in a 3-player game:
-  - Blue 1 and red 1 are played on the stacks.
-  - Alice has a choice between playing a known blue 2 and a known red 2. The blue 2 has *Priority* because it is the left-most card.
-  - Alice plays the red 2.
-  - Bob sees that Cathy has the red 3, but it is on her chop instead of on her *Finesse Position*. Thus, Bob must now give a *Load Clue* to stop the impending misplay.
-  - Cathy's hand is, from newest to oldest: yellow 4, yellow 3, yellow 4, blue 1, red 3.
+  - Red 1 and blue 1 are played on the stacks.
+  - Alice has a choice between playing a known red 2 or a known blue 2. The red 2 has *Priority* because it is the left-most card.
+  - Alice plays the blue 2.
+  - Bob sees that Cathy's hand is as follows, from newest to oldest: yellow 4, yellow 3, yellow 4, red 1, blue 3.
+  - Bob sees that Cathy will think that Alice is performing a *Priority Finesse* on the blue 3. Thus, Bob must now give a *Load Clue* to stop the impending misplay.
   - Bob clues number 3 to Cathy.
-  - Cathy is surprised - she was about to play her *Finesse Position* card as red 3, but she now knows that it can't be a red 3.
+  - Cathy is surprised - she was about to play her *Finesse Position* card as a blue 3, but she now knows that it can't be a blue 3.
   - If this was a *Fix Clue*, Cathy might be inclined to play the card that was closest to her slot 1 (which would be the 3 on slot 2).
-  - However, Cathy knows that *Load Clues* are to be interpreted as normal *Play Clues* instead of *Fix Clues*, so she interprets this as a normal *Chop-Focus Play Clue* and plays red 3 from slot 5.
+  - However, Cathy knows that *Load Clues* are to be interpreted as normal *Play Clues* instead of *Fix Clues*, so she interprets this as a normal *Chop-Focus Play Clue* and plays blue 3 from slot 5.
 
 ### The Priority Finesse (Special Case)
 
