@@ -850,7 +850,7 @@ Note that in this user interface, players are **not** holding their hands like t
 
 - See the *Chop Move* section above for an explanation on what a *Chop Move* is.
 - The *Chop Move* outlined above is a tool to save multiple cards with one clue. However, sometimes you may not have a clue at all. One way to solve this situation is with a special kind of discard.
-- Typically, discarding is a last resort. So, if you have a known playable card in your hand, you can send a powerful message to your teammate by discarding instead. This is called a *Scream Discard*. Since your teammate expected you to play the card, it is like screaming at them to let them know that things are very bad.
+- Typically, discarding is a last resort. So, if you have a known playable card in your hand, you can send a powerful message to your teammate by discarding a card instead. This is called a *Scream Discard*. Since your teammate expected you to play, it is like screaming at them to let them know that things are very bad.
 - A *Scream Discard* does two things:
   1) The player being "screamed at" should permanently move their chop by one position.
   2) The player being "screamed at" is not allowed to discard on this turn. Instead, they must give a clue. If there are no normal *Play Clues* or *Save Clues* to give, then they are allowed to give "stall" clues, like a *5 Stall*. If there are no *5 Stalls* to give, they can even just "fill-in" some information on an already-clued card (and doing this should not cause a *Finesse*).
@@ -864,7 +864,7 @@ Note that in this user interface, players are **not** holding their hands like t
 
 ### The Generation Discard
 
-- Usually, if someone has a known playable card and they discard instead of playing that card, this would indicate a *Scream Discard Chop Move*.
+- Usually, if someone discards a card instead of playing a known playable card, this would indicate a *Scream Discard Chop Move*.
 - However, if playing the card (player 1) would cause the next player to discard (player 2) and the next player after that (player 3) to have a critical and/or playable card "ride" on chop, it is a very bad situation. Thus, the discard is **just** for the purposes of generating a clue so that player 2 can clue player 3.
 - The *Generation Discard* is **only** to be used as a last resort. If player 3 has something else to do (like play a card or give some obvious clue), then player 1 should just play their card and let the card "ride" on chop.
 
