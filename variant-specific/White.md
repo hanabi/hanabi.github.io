@@ -16,11 +16,10 @@ These conventions apply to any variant with a white (colorless) suit.
 
 ### White Loaded Play Clues
 
-- Saves are sometimes interpreted as *Loaded Play Clues*
 - A rank clue focusing a player's chop should be interpreted as a *White Loaded Play Clue* if the recipient is loaded, the focused card could be white, and at least one of the following is true:
   
   1. The white card of the rank clued is playable.
-  2. The white card of the rank clued is a critical, 2, or 5.
+  2. The white card of the rank clued is critical, or this was a 2 clue.
 - The one exception to the above is for saving 5's in *Early Game*. A clue to a 5 on chop in *Early Game* is not interpreted as a *White Loaded Play Clue* even if the 5 may be white.
 - For example, in a 3-player game (*White Loaded Play Clue*):
   - White 2 is on the stacks, green 3 is in the trash.
