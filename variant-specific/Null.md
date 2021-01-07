@@ -34,6 +34,7 @@ These conventions apply to any variant with a null (touched by no clues) suit.
   - a *Double Bluff* or a *Triple Bluff*
   - an *Ejection* or a *Discharge*
   - a *Rank Choice Finesse* or a *Rank Choice Bluff*
+  - a *Self Color Bluff*
   - a *5 Pull* or a *Trash Pull*
   - a *Trash Push*
   - a *Black 4 Bluff* (with black)
