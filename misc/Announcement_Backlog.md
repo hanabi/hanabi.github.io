@@ -49,6 +49,14 @@ n/a
   - Bob plays slot 4 as the muddy rainbow 3.
 ```
 
+**Gray Loaded Play Clues*
+
+```
+- This convention only applies to variants with a gray suit.
+- Gray 3 must be saved with a number 3 clue and gray 4 must be saved with a number 4 suit.
+- However, these cards cannot be saved "early" - any early save to these cards would instead be treated as a *Loaded Play Clue*.
+```
+
 **The Slot Finesse** (by Jeff)
 
 ```
