@@ -6,7 +6,7 @@ These conventions apply to any variant with an omni (touched by all clues) suit.
 
 ### Pink Conventions
 
-- All pink conventions also apply to Omni.
+- All pink conventions also apply to omni cards.
 
 ### No Good Touch Principle
 
