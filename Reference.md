@@ -1070,7 +1070,7 @@ Note that in this user interface, players are **not** holding their hands like t
 | 2          | *5 Stall* (cluing off-chop 5's)                                                        | ✔ | ✔ | ✔ | ✔
 | 3          | *Tempo Clue* (re-cluing a card to make it play)                                        | ❌ | ✔ | ✔ | ✔
 | 4 (tied)   | *Locked Hand Save* (saving any card on chop, as long as doing so would not *Lock* the other player) | ❌ | ❌ | ✔ | ✔
-| 4 (tied)   | *8 Clue Save* (saving any card, as long as doing so would not *Lock* the other player) | ❌ | ❌ | ❌ | ✔
+| 4 (tied)   | *8 Clue Save* (saving any card not on slot 1) | ❌ | ❌ | ❌ | ✔
 | 4 (tied)   | Filling in extra info on clued cards or *Chop Moved* cards                             | ❌ | ✔ | ✔ | ✔
 | 5          | *Hard Burn* (re-cluing an unplayable card that gives no new information, usually a 5)  | ❌ | ✔ | ✔ | ✔
 
@@ -1117,11 +1117,11 @@ Note that in this user interface, players are **not** holding their hands like t
 ### The 8 Clue Save
 
 - At the beginning of the game, you start with 8 clues. This section only applies to situations where you climb to 8 clues in the middle of the game.
-- We agree that players who have 8 clues available on their turn gain the special ability to save any card they want on **or** off chop (as long as it would not *Lock* the other player). This is called an *8 Clue Save*.
+- We agree that players who have 8 clues available on their turn gain the special ability to save any card they want on **or** off chop (as long as it is not on slot 1). This is called an *8 Clue Save*.
 - An *8 Clue Save* can be performed on **any** card, not just a critical or playable card.
 - However, players can only do an *8 Clue Save* if there are no higher precedence clues available. See the "Allowable Stall Clues" section above.
 - An *8 Clue Save* can be performed with either a color clue or a number clue.
-- If a clue that looks like an *8 Clue Save* would *Lock* another player, it is instead treated as a normal *Play Clue* or a normal *Save Clue*.
+- If a clue that looks like an *8 Clue Save* is on a card that is on slot 1, it is instead treated as a normal *Play Clue* or a normal *Save Clue*.
 
 ### The Distribution Clue
 
