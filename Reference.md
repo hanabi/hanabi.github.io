@@ -2997,6 +2997,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   - Alice plays blue 2.
   - Bob discards.
   - Cathy blind-plays blue 3.
+- Note that *Inverted Priority Finesse* **will only work if the players are in a certain order**. Otherwise, the player holding the declined priority card can *Play Clue* the other card, which would destroy the information channel. This means that in most of cases, players should just go with the safer and less complicated option - the normal *Priority Finesse*.
 
 ### The Shadow Finesse
 
