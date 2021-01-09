@@ -1087,10 +1087,11 @@ Note that in this user interface, players are **not** holding their hands like t
 
 ### The Locked Hand Save (LHS)
 
-- Players with a *Locked Hand* gain the special ability to save any card on chop (as long as it would not *Lock* the other player). This is called a *Locked Hand Save* if it saves a card that would otherwise not be legal to save (like some *one-away-from-playable* card that is not in the discard pile yet).
+- We agree that players with a *Locked Hand* gain the special ability to save any card they want on chop (as long as it would not *Lock* the other player). This is called a *Locked Hand Save*.
+- A *Locked Hand Save* can be performed on **any** card, not just a critical or playable card.
 - However, players can only do *Locked Hand Saves* if there are no higher precedence clues available. See the "Allowable Stall Clues" section above.
 - A *Locked Hand Save* can be performed with either a color clue or a number clue.
-- If a clue is given by a *Locked* player that would *Lock* another player, it is treated as a normal *Play Clue* or a normal *Save Clue*.
+- If a clue is given by a *Locked* player that would *Lock* another player, it is instead treated as a normal *Play Clue* or a normal *Save Clue*.
 - Note that the precedence of a *Locked Hand Save* is tied with a "fill-in" clue. Essentially, this means that players who have a *Locked Hand* are not forced to perform a *Locked Hand Save* if they do not want to. Most of the time, doing a *Locked Hand Save* will be pretty good (as a 1-for-1 or a 2-for-1 instead of a 0-for-1), but *Locked* players can always ignore a *Locked Hand Save* to perform a "fill-in" clue if they want.
 
 ### The Anxiety Play (Forcing a Locked Player to Play)
@@ -1099,13 +1100,20 @@ Note that in this user interface, players are **not** holding their hands like t
 - A better way to signal this information is to deliberately leave them at 0 clues. By convention, this means that one of their cards is actually playable. The player should play the card in their hand that is most likely to be playable. If there is more than one option, then they should know that the left-most is playable. (This follows from *Left-Most Playable Principle*.)
 - This is called an *Anxiety Play* because you are putting the *Locked* player in a "do or die" situation.
 
-### Clues Given While at 8 Clues & The 8 Clue Save (Severity 4 Stalling)
+### Clues Given While at 8 Clues (Severity 4 Stalling)
 
 - At the beginning of the game, you start with 8 clues. This section only applies to situations where you climb to 8 clues in the middle of the game.
+- First, see the section on [Locked Hands](#locked-hands-severity-3-stalling).
 - A player who has a turn with 8 clue tokens available may give a low-value clue because they cannot play anything (and they cannot discard because the game does not allow you to discard while at 8 clues). Similar to a *Double Discard* or a *Locked Hand* situation, players should not read too closely into any clues given during this state.
-- We agree that players at 8 clues gain the special ability to save any card that they want, on **or** off chop (as long as it would not *Lock* the other player). This is called an *8 Clue Save*.
-- However, similar to a *Locked Hand Save*, they can only do this if there are no higher precedence clues available. See the "Allowable Stall Clues" section above.
-- If a clue is given at 8 clues that would *Lock* another player, it is treated as a normal *Play Clue* or a normal *Save Clue*.
+
+### The 8 Clue Save
+
+- At the beginning of the game, you start with 8 clues. This section only applies to situations where you climb to 8 clues in the middle of the game.
+- We agree that players who have 8 clues available on their turn gain the special ability to save any card they want on **or** off chop (as long as it would not *Lock* the other player). This is called an *8 Clue Save*.
+- An *8 Clue* can be performed on **any** card, not just a critical or playable card.
+- However, players can only do *8 Clue Saves* if there are no higher precedence clues available. See the "Allowable Stall Clues" section above.
+- An *8 Clue Save* can be performed with either a color clue or a number clue.
+- If a clue is given while at 8 clues and it would *Lock* another player, it is instead treated as a normal *Play Clue* or a normal *Save Clue*.
 
 ### The Distribution Clue
 
