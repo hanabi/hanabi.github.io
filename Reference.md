@@ -1065,14 +1065,14 @@ Note that in this user interface, players are **not** holding their hands like t
 - In certain special situations, everyone understands that a player might be giving a "stall" clue. However, there are limits - they are not allowed to just clue anything they want. These are the specific clues that they are allowed to give along with the precedence of each clue:
 
 | Precedence | Type of Clue | Early Game (Severity 1) | Double Discard / Scream Discard (Severity 2) | Locked Hand (Severity 3) | 8 Clues (Severity 4)
-| ---------- | ------------ | ----------------------- | --------------------------- | ------------------------ | --------------------
-| 1          | Normal *Play Clues* or *Save Clues*                                                   | ✔ | ✔ | ✔ | ✔
-| 2          | *5 Stall* (cluing off-chop 5's)                                                       | ✔ | ✔ | ✔ | ✔
-| 3          | *Tempo Clue* (re-cluing a card to make it play)                                       | ❌ | ✔ | ✔ | ✔
-| 4 (tied)   | saving any card on chop, as long as doing so would not *Lock* the other player        | ❌ | ❌ | ✔ | ✔
-| 4 (tied)   | *8 Clue Save* (saving any card not on slot 1)                                         | ❌ | ❌ | ❌ | ✔
-| 4 (tied)   | Filling in extra info on clued cards or *Chop Moved* cards                            | ❌ | ✔ | ✔ | ✔
-| 5          | *Hard Burn* (re-cluing an unplayable card that gives no new information, usually a 5) | ❌ | ✔ | ✔ | ✔
+| ---------- | ------------ | ----------------------- | -------------------------------------------- | ------------------------ | --------------------
+| 1          | Normal *Play Clues* or *Save Clues*                                                    | ✔ | ✔ | ✔ | ✔
+| 2          | *5 Stall* (cluing off-chop 5's)                                                        | ✔ | ✔ | ✔ | ✔
+| 3          | *Tempo Clue* (re-cluing a card to make it play)                                        | ❌ | ✔ | ✔ | ✔
+| 4 (tied)   | *Locked Hand Save* (saving any card on chop, as long as doing so would not *Lock* the other player) | ❌ | ❌ | ✔ | ✔
+| 4 (tied)   | *8 Clue Save* (saving any card, as long as doing so would not *Lock* the other player) | ❌ | ❌ | ❌ | ✔
+| 4 (tied)   | Filling in extra info on clued cards or *Chop Moved* cards                             | ❌ | ✔ | ✔ | ✔
+| 5          | *Hard Burn* (re-cluing an unplayable card that gives no new information, usually a 5)  | ❌ | ✔ | ✔ | ✔
 
 - For example, if a player could perform a *5 Stall* (precedence 2), then they are not allowed to perform a *Tempo Clue* (precedence 3). Or, if a player could perform a *Tempo Clue* (precedence 3), they are not allowed to *Hard Burn* (precedence 5), and so forth.
   - However, remember that the *Finesse Position Exception* applies to *5 Stalls*. (This is covered in the "5 Stall" section above.)
@@ -1087,8 +1087,10 @@ Note that in this user interface, players are **not** holding their hands like t
 
 ### The Locked Hand Save (LHS)
 
-- Players with a *Locked Hand* gain the special ability to save any card on chop (as long as it would not *Lock* the other player). This is called a *Locked Hand Save* if it saves a card that would otherwise not be legal to save (like some *one-away-from-playable* card that is not in the discard pile yet). However, players can only do *Locked Hand Saves* if there are no higher precedence clues available. See the "Allowable Stall Clues" section above.
+- Players with a *Locked Hand* gain the special ability to save any card on chop (as long as it would not *Lock* the other player). This is called a *Locked Hand Save* if it saves a card that would otherwise not be legal to save (like some *one-away-from-playable* card that is not in the discard pile yet).
+- However, players can only do *Locked Hand Saves* if there are no higher precedence clues available. See the "Allowable Stall Clues" section above.
 - A *Locked Hand Save* can be performed with either a color clue or a number clue.
+- If a clue is given by a *Locked* player that would *Lock* another player, it is treated as a normal *Play Clue* or a normal *Save Clue*.
 - Note that the precedence of a *Locked Hand Save* is tied with a "fill-in" clue. Essentially, this means that players who have a *Locked Hand* are not forced to perform a *Locked Hand Save* if they do not want to. Most of the time, doing a *Locked Hand Save* will be pretty good (as a 1-for-1 or a 2-for-1 instead of a 0-for-1), but *Locked* players can always ignore a *Locked Hand Save* to perform a "fill-in" clue if they want.
 
 ### The Anxiety Play (Forcing a Locked Player to Play)
@@ -1101,8 +1103,9 @@ Note that in this user interface, players are **not** holding their hands like t
 
 - At the beginning of the game, you start with 8 clues. This section only applies to situations where you climb to 8 clues in the middle of the game.
 - A player who has a turn with 8 clue tokens available may give a low-value clue because they cannot play anything (and they cannot discard because the game does not allow you to discard while at 8 clues). Similar to a *Double Discard* or a *Locked Hand* situation, players should not read too closely into any clues given during this state.
-- Players at 8 clues gain the special ability to save any card that they want, on **or** off chop, as long as the card is not on slot 1. This is called an *8 Clue Save*. However, similar to a *Locked Hand Save*, they can only do this if there are no higher precedence clues available. See the "Allowable Stall Clues" section above.
-  - Subsequently, clues that are focused on slot 1 cards are treated as normal *Play Clues* or normal *Save Clues*.
+- We agree that players at 8 clues gain the special ability to save any card that they want, on **or** off chop (as long as it would not *Lock* the other player). This is called an *8 Clue Save*.
+- However, similar to a *Locked Hand Save*, they can only do this if there are no higher precedence clues available. See the "Allowable Stall Clues" section above.
+- If a clue is given at 8 clues that would *Lock* another player, it is treated as a normal *Play Clue* or a normal *Save Clue*.
 
 ### The Distribution Clue
 
