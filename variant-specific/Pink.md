@@ -41,6 +41,21 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 - In this situation, a *Fix Clue* will need to be given in the future. (*Pink Fix Clues* are covered later on.) But the first card that will be played from the clue will always be a real 1.
 - Thus, in pink variants, players are not allowed to perform an *Order Chop Move*, because they could be misplaying a pink card.
 
+### Prompts
+
+- When a player is prompted and the prompt matches the number of a previous clue, then the **leftmost** clued card should be played, like in other variants.
+- Same rule applies for priority prompts.
+- For example, in a 3-player game:
+  - Yellow 1 is played on the stacks.
+  - Cathy clues Bob 2’s to Bob touching the slot 2, slot3 and slot 5 as a regular 2 Save.
+  - Alice clues a number 3 to Cathy, which touches a yellow 3 on slot 2.
+  - Bob plays y2 from slot 2.
+- When a player has been saved with a number clue, which touches multiple cards and this number is playable on all the stacks he can only play the focus of the save clue by himself (*Pink Promise*).
+- For example, in a 3-player game:
+  - Yellow 1 is played on the stacks.
+  - Cathy clues 2’s to Bob, touching the slot 2, slot 3 and slot 5 as a regular 2 Save.
+  - After all 1’s are down, Bob can only play slot 5 by himself, because it is the only one promised to be a 2.
+
 ### Good Touch Principle
 
 - Due to the nature of pink cards being touched by a lot of different kinds of clues, they are a bit easier to duplicate than a normal suit, or even a rainbow suit.
