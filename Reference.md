@@ -1074,8 +1074,16 @@ Note that in this user interface, players are **not** holding their hands like t
 | 4 (tied)   | Filling in extra info on clued cards or *Chop Moved* cards                             | ❌ | ✔ | ✔ | ✔
 | 5          | *Hard Burn* (re-cluing an unplayable card that gives no new information, usually a 5)  | ❌ | ✔ | ✔ | ✔
 
-- For example, if a player could perform a *5 Stall* (precedence 2), then they are not allowed to perform a *Tempo Clue* (precedence 3). Or, if a player could perform a *Tempo Clue* (precedence 3), they are not allowed to *Hard Burn* (precedence 5), and so forth.
-  - However, remember that the *Finesse Position Exception* applies to *5 Stalls*. (This is covered in the "5 Stall" section above.)
+- For example:
+  - It is a *Double Discard* situation (severity 2).
+  - Alice does not have the option to perform any normal *Play Clues* or *Save Clues*.
+  - Alice has the option to perform a *5 Stall* (precedence 2).
+  - Thus, Alice is not allowed to perform a *Tempo Clue* (precedence 3), or anything below that.
+- For example:
+  - It is a *Double Discard* situation (severity 2).
+  - Alice does not have the option to perform any normal *Play Clues* or *Save Clues*, and Alice does not have the option to *5 Stall*.
+  - Alice has the option to perform a *Tempo Clue* (precedence 3).
+  - Thus, Alice is not allowed to fill in info or *Hard Burn*.
 - What is the point of having a complicated table with defined priorities? Well, normally, players in stalling situations are not able to give tricky-looking *Finesses*, because everyone else on the team will think that they are giving a stall clue. However, if it can be seen that there is a better clue available for them to give, then everyone can know that they are **not** giving a stall clue. Thus, because of this precedence table, players in stalling situations are still often able to make *Finesses* happen.
 - Obviously, stall clues are not allowed when the player has a known playable card in their hand.
 
