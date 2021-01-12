@@ -3580,6 +3580,10 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 - If the known trash clue cannot be any of these 3 things, then it communicates a *Double Ignition*, meaning that the next two players should blind-play their *Finesse Position* card.
 - For the players playing into a *Double Ignition*, it is pretty easy to see what is going on, because they can see the playable *Finesse Position* card of the other person.
 
+#### Skipping Bluff Seat
+
+- Rarely, if Bob has a playable card, a *Double Ignition* can skip over Bob and affect Cathy and Donald.
+
 #### Conflict with Bad Chop Move Ejection
 
 - Technically, cluing a known trash card to *Chop Move* a "bad" card would trigger an *Ejection* (as a *Bad Trash Chop Move Ejection*).
