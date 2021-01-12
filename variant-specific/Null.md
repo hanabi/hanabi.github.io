@@ -22,12 +22,7 @@ These conventions apply to any variant with a null (touched by no clues) suit.
   - For example, in a 3-player game of the *Null (6 Suit)* variant, there are 5 color clues and 5 slots in the hand. Thus, a purple clue equals slot 5 (since it is the right-most color), a blue clue equals slot 4 (since it is the 2nd right-most color), and so forth.
   - More examples for *Color Positional Clues* are listed below in a separate section. (*Color Positional Clues* have a dedicated section since they are a bit more complicated.)
 
-#### 2) Do I discard cards touched as a *Positional Clue*?
-
-- *Good Touch Principle* applies to cards touched with a *Positional Clue* in the same way that normal clues are.
-- Thus, if a trash card is used as part of a *Positional Clue*, then a *Fix Clue* must be given to the trash card later on.
-
-#### 3) Specifically, what kinds of moves are "turned off" in favor of being a *Positional Clue*?
+#### 2) Specifically, what kinds of moves are "turned off" in favor of being a *Positional Clue*?
 
 - Any clue that looks like one of the following is now a *Positional Clue* instead:
   - a *Double Finesse* or a *Triple Finesse* where one player has to blind-play **two or more** cards
@@ -41,17 +36,21 @@ These conventions apply to any variant with a null (touched by no clues) suit.
   - a *Finesse* or *Bluff* that was initiated with a rank clue when a ***Free Choice*** was available between rank and color
 - Additionally, any clue that has no "normal" conventional interpretation is also a *Positional Clue*.
 
-#### 4) Are *Positional Clues* a *Save Clue* or a *Play Clue*?
+#### 3) Are *Positional Clues* a *Save Clue* or a *Play Clue*?
 
 - A *Positional Clue* can be either a *Save Clue* or a *Play Clue*:
   - If the slot corresponds to the chop of a player, then they have to respect that it could be a *Save Clue*. In other words, it could be a *2 Save* on a null 2, a *5 Save* on a null 5, or a save on a critical null 3 or null 4 (if the other copy is in the trash).
   - If the slot corresponds to a slot that is not on the chop, then it is a *Play Clue*.
   - However, *Loaded Play Clues* **always** apply to *Positional Clues*, even in the *Early Game*. (This means that you cannot ever give a *Positional Save Clue* to a player that has one or more known-playable cards.)
 
-#### 5) Can I use *Positional Clues* to get non-null cards?
+#### 4) What about if all the Null cards are already played?
 
-- *Positional Clues* are confusing and we want to limit that confusion as much as possible. Players should **only** use *Positional Clues* to get null cards. (Some special exceptions are listed below in the *Positional Finesses* section.)
 - *Positional Clues* are "turned off" once all of the null cards have been played. Once that happens, *Double Finesses*, *Ejections*, and so forth are turned back on.
+
+#### 5) Do I discard cards touched as a *Positional Clue*?
+
+- *Good Touch Principle* applies to cards touched with a *Positional Clue* in the same way that normal clues are.
+- Thus, if a trash card is used as part of a *Positional Clue*, then a *Fix Clue* must be given to the trash card later on.
 
 #### 6) How about an example?
 
@@ -63,15 +62,8 @@ These conventions apply to any variant with a null (touched by no clues) suit.
 
 #### 7) Do you have to be in *Bluff Seat* to give a *Positional Clue*?
 
-- *Positional Clues* do **not** have to be given in *Bluff Seat*. They can be given by anyone, since the other players will see that the clue does not apply to them.
-- Subsequently, *Positional Clues* must be played into as soon as possible, similar to a *Finesse*. If one player ignores the *Positional Clue*, then the next player will blind-play something as an *Ambiguous Positional Clue*.
-- For example, in a 3-player null game:
-  - On the first turn of the game, Alice clues Cathy about one 4.
-  - Bob knows that normally, this would be a *4's Double Bluff*. But *Double Bluffs* are turned off in variants with a null suit.
-  - Bob instead knows that this is a *Positional Clue*, indicating that someone should play their slot 4 card.
-  - Bob sees that Cathy's slot 4 card is a null 1, so he knows that this is a positional clue on Cathy.
-  - Bob discards.
-  - Cathy blind-plays her slot 4 card.
+- Yes. You are only allowed to give a *Positional Clue* to the very next player.
+- The only exceptions is when it is an extraordinary situation or it is very obvious to the team what is going on.
 
 <br />
 
