@@ -4222,7 +4222,6 @@ Conventions for specific variants are listed on a separate page.
 | The Distribution Finesse | Asddsa
 | The Double Positional Misplay | Libster
 | The Bad Touch Finesse | Zamiel
-| The Skipped Discard Chop Move | Libster
 | The Inverted 5's Tempo Clue | NoMercy
 | Discharge | Razvogor
 | Unknown Trash Discharge | Sankala
