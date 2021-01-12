@@ -216,6 +216,7 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
   - Cathy goes through the same steps as Bob. Cathy does not see the pink 2 anywhere else, so she knows that the *Bubblegum Finesse* is on her. Cathy blind-plays pink 2 from slot 4.
   - Donald knows that since Cathy played his slot 4 card, this was a *Bubblegum Finesse*, and that his pink card must be the matching card. Donald plays the pink 3.
 - *Bubblegum Finesses* can only be used to get pink cards.
+- Note that *4 Charms* have precedence over *Bubblegum* moves.
 
 ### The Bubblegum Bluff
 
