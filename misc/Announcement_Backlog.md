@@ -23,6 +23,14 @@ n/a
 
 @everyone Changed variant-specific conventions:
 
+**Bluff Seat with Positional Clues**
+
+```
+* This convention only applies to variants with a null suit.
+* Previously, you could give a *Positional Clue* to anyone on the team.
+* Now, you can only give a *Positional Clue* if you are in *Bluff Seat*.
+```
+
 **Good Touch Principle with Positional Clues**
 
 ```
