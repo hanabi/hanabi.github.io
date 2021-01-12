@@ -101,3 +101,11 @@ n/a
   - Thus, Cathy knows that this must be a *Turnabout Ejection*. She marks her slot 5 card as a pink 1.
 - If a *Turnabout Ejection* occurs from a number 1 clue that also touches other 1s, the non-focused cards should still be assumed to be 1s (using the *1's Assumption* convention).
 ```
+
+**Dark Omni & Gray Pink Saves**
+
+```
+- This convention only applies in variants with a dark omni or gray pink suit.
+- The rules for saving dark omni and gray pink suits have been slightly refined so that players can perform more 2-for-1 clues.
+- See the doc for more details: https://github.com/Zamiell/hanabi-conventions/blob/master/variant-specific/Dark_Omni_&_Gray_Pink.md
+```
