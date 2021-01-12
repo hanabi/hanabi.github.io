@@ -24,8 +24,8 @@ These conventions apply to any variant with a null (touched by no clues) suit.
 
 #### 2) Do I discard cards touched as a *Positional Clue*?
 
-- *Good Touch Principle* does **not** apply to cards touched as *Positional Clues*. They should be discarded exactly like an unclued card would.
-  - The exception to this is if the card is known to be useful to the team (e.g. a 3 when no 3's are currently played).
+- *Good Touch Principle* applies to cards touched with a *Positional Clue* in the same way that normal clues are.
+- Thus, if a trash card is used as part of a *Positional Clue*, then a *Fix Clue* must be given to the trash card later on.
 
 #### 3) Specifically, what kinds of moves are "turned off" in favor of being a *Positional Clue*?
 
