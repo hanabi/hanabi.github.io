@@ -7,11 +7,12 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 ## Table of Contents
 
 1. [Level 8 - Basic Pink Principles](#level-8---basic-pink-principles)
-2. [Level 9 - Violations of Pink Promise That Don't Require a Fix](#level-9---violations-of-pink-promise-that-dont-require-a-fix)
-3. [Level 10 - Pink Fix Clues](#level-10---pink-fix-clues)
-4. [Level 12 - Positional Moves](#level-12---positional-moves)
-5. [Level 19 - Bubblegum Moves](#level-19---bubblegum-moves)
-6. [Level 19 - Edge Cases](#level-19---edge-cases)
+1. [Level 9 - Violations of Pink Promise That Don't Require a Fix](#level-9---violations-of-pink-promise-that-dont-require-a-fix)
+1. [Level 10 - Pink Fix Clues](#level-10---pink-fix-clues)
+1. [Level 12 - Positional Moves](#level-12---positional-moves)
+1. [Level 19 - Bubblegum Moves](#level-19---bubblegum-moves)
+1. [Level 19 - Other Special Moves](#level-19---other-special-moves)
+1. [Level 19 - Edge Cases](#level-19---edge-cases)
 
 <br />
 
@@ -247,6 +248,10 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 - In this situation, if there is no other possible interpretation for the clue other than a *Bubblegum Prompt* or a *Bubblegum Finesse*, and it is unlikely for the cluer to be making a mistake, then the target slot should "slide" to the right.
 - If the slot immediately to the right is also impossible to be a pink card, then it should continue to slide right until it finds a pink card, wrapping around to the other side of the hand if necessary.
 
+<br />
+
+## Level 19 - Other Special Moves
+
 ### The Turnabout Ejection (For 1's and 5's)
 
 - If a player uses *Pink Promise* to falsely indicate a pink 1 as a pink 5 **or** a pink 5 as a pink 1, this is a dangerous lie that must be immediately resolved.
@@ -262,6 +267,18 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
   - Cathy knows that Alice did not perform a *Bubblegum Bluff*, because Bob would have played his slot 5 card instead of his slot 2 card.
   - Thus, Cathy knows that this must be a *Turnabout Ejection*. She marks her slot 5 card as a pink 1.
 - If a *Turnabout Ejection* occurs from a number 1 clue that also touches other 1s, the non-focused cards should still be assumed to be 1s (using the *1's Assumption* convention).
+
+### The Pink Fake Prompt & The Pink Fake Finesse
+
+* First, read the section on the *[Pink Play Clue Lie](#the-pink-play-clue-lie-with-a-mismatched-play-clue-that-touches-other-cards)*.
+* In the *Pink Play Clue Lie*, *Pink Promise* is violated when giving a *Play Clue* to a playable pink card. However, no special actions need to be taken from anyone else on the team, because the lie will automatically resolve when the card is played.
+* However, it is also possible to give a *Pink Play Clue Lie* that will **not** resolve automatically. In this situation, the next player must play a card to "fix" the lie.
+* For example, in a 3-player game:
+  * It is the first turn of the game and nothing is played on the stacks.
+  * Alice gives a number 2 clue to Cathy, touching a pink 1 on slot 2. (Cathy does not have a playable card on slot 1.)
+  * Bob looks into the future and knows that if he does nothing, Cathy will interpret this as a *Self-Finesse*, and play her *Finesse Position*, which will misplay.
+  * Thus, Bob plays his *Finesse Position* as a *Pink Fake Finesse*. It is a blue 1 and it successfully plays.
+  * From Cathy's perspective, Alice performed a *Finesse* on the blue 1 into the blue 2. Cathy plays the blue 2, but it is actually the pink 1. Now, Cathy knows that Alice performed a *Pink Fake Finesse*.
 
 <br />
 
