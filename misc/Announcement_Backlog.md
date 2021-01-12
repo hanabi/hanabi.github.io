@@ -109,3 +109,17 @@ n/a
 - The rules for saving dark omni and gray pink suits have been slightly refined so that players can perform more 2-for-1 clues.
 - See the doc for more details: https://github.com/Zamiell/hanabi-conventions/blob/master/variant-specific/Dark_Omni_&_Gray_Pink.md
 ```
+
+**The Pink Fake Prompt & The Pink Fake Finesse** (by Jeff)
+
+```
+* First, read the section on the *[Pink Play Clue Lie](#the-pink-play-clue-lie-with-a-mismatched-play-clue-that-touches-other-cards)*.
+* In the *Pink Play Clue Lie*, *Pink Promise* is violated when giving a *Play Clue* to a playable pink card. However, no special actions need to be taken from anyone else on the team, because the lie will automatically resolve when the card is played.
+* In some special situations, it is possible to give a *Pink Play Clue Lie* that will **not** resolve automatically. In this situation, the next player must play a card to "fix" the lie.
+* For example, in a 3-player game:
+  * It is the first turn of the game and nothing is played on the stacks.
+  * Alice gives a number 2 clue to Cathy, touching a pink 1 on slot 2. (Cathy does not have a playable card on slot 1.)
+  * Bob looks into the future and knows that if he does nothing, Cathy will interpret this as a *Self-Finesse*, and play her *Finesse Position*, which will misplay.
+  * Thus, Bob plays his *Finesse Position* as a *Pink Fake Finesse*. It is a blue 1 and it successfully plays.
+  * From Cathy's perspective, Alice performed a *Finesse* on the blue 1 into the blue 2. Cathy plays the blue 2, but it is actually the pink 1. Now, Cathy knows that Alice performed a *Pink Fake Finesse*.
+```
