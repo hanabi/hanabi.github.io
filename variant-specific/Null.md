@@ -75,7 +75,7 @@ These conventions apply to any variant with a null (touched by no clues) suit.
 
 #### Color Positional Clues Skip Over Clued Cards
 
-- When players are determining which slot number the *Color Positional Clue* is talking about, they should always skip over any cards that have one or more positive clues on them. (But they should not skip over cards that are considered to be "untouched" from a *Positional Clue*.)
+- When players are determining which slot number the *Color Positional Clue* is talking about, they should always skip over any cards that have one or more positive clues on them.
 - For example, in a 3-player game of the "Null (5 Suits)" variant:
   - All the 1's are played on the stacks except for the null 1.
   - Bob hand is as follows, from newest to oldest: `red 1, red 1, null 1, blue 1, blue 5`
