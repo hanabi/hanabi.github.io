@@ -12,6 +12,14 @@ n/a
 
 ## The Backlog (Variant-Specific Conventions)
 
+**Good Touch Principle with Positional Clues**
+
+```
+* This convention only applies to variants with a null suit.
+* Previously, *Good Touch Principle* did not apply to cards touched as part of a *Positional Clue*.
+* Now, *Good Touch Principle* does apply. If a trash card is touched as part of a *Positional Clue*, then it must be given a *Fix Clue*.
+```
+
 **Gray Loaded Play Clues**
 
 ```
