@@ -19,7 +19,7 @@ These conventions apply to any variant with a dark omni suit or a gray pink suit
 ### Pseudo 5 Saves
 
 - Dark omni or gray pink 3's and 4's on chop should be saved with number 5 clue.
-  - This is because we want to preserve the ability to use number 3 or number 4 as a *Play Clue* to cards on chop.
+  - This is because we want to preserve the ability to give a *Play Clue* with number 3 or number 4.
 - However, there are some exceptions, which are listed below.
 
 ### Fake Saves
