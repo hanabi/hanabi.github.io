@@ -3464,6 +3464,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   - Thus, Bob knows that this must be a *4 Charm*. He blind-plays his *Fourth Finesse Position*. It is a blue 1 and it successfully plays.
 - *4 Charms* can be given with either a color clue or a number clue.
 - Similar to a *5 Color Ejection*, *Prompts* don't factor into the "three or more blind-plays" rule. Players only count the number of blind-plays.
+- *4 Charms* take precedence over *Safety Charms*.
 
 ### The Safety Charm (Declined 5 Pull)
 
@@ -3485,6 +3486,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
     - A *Third Finesse Position* blind-play would look like an *Unknown Trash Discharge* on a red 1, which would be a *Lie*.
   - Thus, Bob knows that this must be a *Safety Charm*. He blind-plays his *Fourth Finesse Position*. It is a blue 1 and it successfully plays.
   - Cathy knows that she must have the red 2. She also knows that her slot 1 card is a 5 that could have been used for a *5 Pull*. Cathy marks the 5 as being *Chop Moved* for later.
+- *4 Charms* take precedence over *Safety Charms*.
 - More examples of a *Safety Charm* can be found [here](https://github.com/Zamiell/hanabi-conventions/blob/master/examples/Safety_Charm.md).
 
 <br />
