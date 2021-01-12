@@ -144,4 +144,4 @@ Some additional rules apply to *Positional Clues* that are intended to be *Save 
 
 - Sometimes, a player will have two critical cards in a row on chop. Usually, the team will work together to clue both of the cards. However, in variants with a null suit, it is sometimes difficult to do this.
 - In cases where one player needs to save two cards at once, they can perform a *Scream Blind-Play* by blind-playing their chop card. This is similar to a *Scream Discard*, except it *Chop Moves* two cards instead of one.
-- Just like the *Scream Discard*, the *Scream Blind-Play* is only to be used as a last resort. This should be obvious, since it uses up a strike.
+- Just like the *Scream Discard*, the *Scream Blind-Play* is only to be used as a last resort.
