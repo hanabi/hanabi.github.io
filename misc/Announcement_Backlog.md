@@ -12,6 +12,17 @@ n/a
 
 ## The Backlog (Variant-Specific Conventions)
 
+@everyone Deleted variant-specific conventions:
+
+**Positional Finesses**
+
+```
+* *Positional Finesses* are deleted.
+* This convention makes it hard to get null cards in certain situations. It is also a common point of failure.
+```
+
+@everyone Changed variant-specific conventions:
+
 **Good Touch Principle with Positional Clues**
 
 ```
@@ -19,6 +30,8 @@ n/a
 * Previously, *Good Touch Principle* did not apply to cards touched as part of a *Positional Clue*.
 * Now, *Good Touch Principle* does apply. If a trash card is touched as part of a *Positional Clue*, then it must be given a *Fix Clue*.
 ```
+
+@everyone New variant-specific conventions:
 
 **Gray Loaded Play Clues**
 
