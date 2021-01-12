@@ -9,7 +9,7 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 1. [Level 8 - Basic Pink Principles](#level-8---basic-pink-principles)
 2. [Level 9 - Violations of Pink Promise That Don't Require a Fix](#level-9---violations-of-pink-promise-that-dont-require-a-fix)
 3. [Level 10 - Pink Fix Clues](#level-10---pink-fix-clues)
-4. [Level 12 - Other Special Moves](#level-12---other-special-moves)
+4. [Level 12 - Positional Moves](#level-12---positional-moves)
 5. [Level 19 - Bubblegum Moves](#level-19---bubblegum-moves)
 6. [Level 19 - Edge Cases](#level-19---edge-cases)
 
@@ -156,7 +156,7 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 
 <br />
 
-## Level 12 - Other Special Moves
+## Level 12 - Positional Moves
 
 ### Pink Tempo Clues
 
