@@ -3980,6 +3980,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   - Donald looks around the table and does not see the red 2 in anybody else's *Finesse Position*. Thus, this cannot be a *Selfish Finesse*.
   - Donald also knows that this cannot be a *Self Finesse*. (Donald has a negative red clue on his *Finesse Position* card.)
   - Thus, this must be a *Selfish Focus Inversion*, so Donald marks his right-most card as red 2 for later. The other red card in his hand can be red 3, red 4, or red 5. Donald discards.
+- Note that *Selfish Focus Inversion* is not allowed in variants with a rainbow or prism suit. In that case, the player is simply giving a play clue to a rainbow/prism card.
 
 ### The Blaze Discard (A Gentleman's Discard or Baton Discard That Promises the Wrong Slot)
 
