@@ -25,6 +25,6 @@ These conventions apply to the "Deceptive-Fives" variants.
   - Alice gives a number 3 clue, touching a green 5 in Cathy's hand.
   - If Bob blind-plays his *Finesse Position*, then Cathy would mark her card as a 3, which would be bad.
   - Instead, Bob blind-plays his *Second Finesse Position* as a *Deceptive-Five Number Ejection*. It is a yellow 1 and it successfully plays.
-  - Cathy knows that an *Ejection* happaned. The only *Ejection* that matches this sequence of events is a *Deceptive-Five Number Ejection*, so she marks her 3 as a 5.
+  - Cathy knows that an *Ejection* happened. The only *Ejection* that matches this sequence of events is a *Deceptive-Five Number Ejection*, so she marks her 3 as a 5.
 
 <br />
