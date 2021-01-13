@@ -1459,9 +1459,10 @@ Note that in this user interface, players are **not** holding their hands like t
 
 ### Guide Principle
 
-- Part of Hanabi involves making sure that if you perform an action, someone else on the team won't discard anything important (*Save Principle*). Additionally, part of Hanabi involves accounting for all the possibilities (*Schrödinger's Cat Principle*).
+- Part of Hanabi involves making sure that if you perform an action, someone else on the team won't discard anything important (e.g. *Save Principle*). Additionally, part of Hanabi involves accounting for all the possibilities (e.g. *Schrödinger's Cat Principle*).
 - Combined, these two principles usually result in players taking the most conservative possible approach, even if a certain action would have a very low risk of losing the game.
-- One exception to the above rules is when Bob does not know whether or not a *Finesse* or *Bluff* is occurring. For example, in a 3-player game:
+- One exception to the above rules is when Bob is playing into either a *Finesse* or a *Bluff*. In this case, Bob knows that Alice is "guiding" him and he does not have to worry about Cathy's chop card. If Alice needs Bob to save Cathy's chop card, then Alice would wait until later to perform the *Finesse* or *Bluff*.
+- For example, in a 3-player game:
   - No cards are played on the stacks.
   - Alice clues red to Cathy, touching a red 2 as a *Play Clue*.
   - Bob does not see any red 1's in anyone else's hand. Thus, Bob knows that Alice intends for him to blind-play a card.
@@ -1470,9 +1471,9 @@ Note that in this user interface, players are **not** holding their hands like t
   - If this is a *Finesse*, then Bob will blind-play the red 1, and Cathy will play the red 2. If this is the case, Cathy will never be at risk of discarding the 5 and losing the game.
   - If this is a *Bluff*, then Bob will blind-play some other 1, and Cathy will have nothing to do. If this is the case, then Cathy could discard and the team could lose the game.
   - Should Bob risk blind-playing or should he save the 5?
-- In this example, it follows from *Save Principle* that Bob should "play it safe" and give a *5 Save* to the 5 and *then* try to blind-play the red 1 on the next turn.
-- However, Bob also knows from *Lie Principle*, *Fibs* have to resolve immediately. If Bob saved the 5, and then blind-played on the next turn, and it turned out to be a *Bluff*, then the *Fib* would not have resolved immediately. Thus, from *Lie Principle*, Bob can assume that this is a *Finesse*.
-- Stated in a different way, Bob has to trust that Alice is successfully "guiding" the rest of the team with the line that she has chosen. This means that Bob is going to play exactly red 1 into the red 2. Alternatively, it could also be the case that it is a *Bluff*, but Cathy will not discard, and will clue some card in Bob's hand. Either way, the 5 will be safe. This is called *Guide Principle*.
+  - Normally, Bob would play it save and save the 5. However, in this case, he knows that *Guide Principle* applies, and Alice is guiding him to play right now.
+  - Bob blind-plays his *Finesse Position* card and it is the red 1.
+  - Cathy plays the red 2.
 
 ### Clue Interpretation & Occam's Razor
 
