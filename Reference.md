@@ -1464,16 +1464,14 @@ Note that in this user interface, players are **not** holding their hands like t
 - One exception to the above rules is when Bob is playing into either a *Finesse* or a *Bluff*. In this case, Bob knows that Alice is "guiding" him and he does not have to worry about Cathy's chop card. If Alice needs Bob to save Cathy's chop card, then Alice would wait until later to perform the *Finesse* or *Bluff*.
 - For example, in a 3-player game:
   - No cards are played on the stacks.
-  - Alice clues red to Cathy, touching a red 2 as a *Play Clue*.
+  - Alice clues red to Donald, touching a red 2 as a *Play Clue*.
   - Bob does not see any red 1's in anyone else's hand. Thus, Bob knows that Alice intends for him to blind-play a card.
   - From Bob's perspective, it can be either a *Finesse* (on exactly red 1) or a *Bluff* (on the 1 of any of the other suits).
-  - Cathy also has a critical 5 in chop.
-  - If this is a *Finesse*, then Bob will blind-play the red 1, and Cathy will play the red 2. If this is the case, Cathy will never be at risk of discarding the 5 and losing the game.
-  - If this is a *Bluff*, then Bob will blind-play some other 1, and Cathy will have nothing to do. If this is the case, then Cathy could discard and the team could lose the game.
+  - Cathy has a critical 5 on chop.
   - Should Bob risk blind-playing or should he save the 5?
-  - Normally, Bob would play it save and save the 5. However, in this case, he knows that *Guide Principle* applies, and Alice is guiding him to play right now.
-  - Bob blind-plays his *Finesse Position* card and it is the red 1.
-  - Cathy plays the red 2.
+  - Normally, Bob would play it safe and save the 5. However, in this case, he knows that *Guide Principle* applies, and Alice is guiding him to play right now.
+  - Bob blind-plays his *Finesse Position*. It is the red 1 and it successfully plays.
+  - Cathy does not discard since Alice saw that Cathy had something to clue.
 
 ### Clue Interpretation & Occam's Razor
 
