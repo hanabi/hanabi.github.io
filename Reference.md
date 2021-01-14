@@ -4075,9 +4075,14 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   - Bob also knows that in hard variants, the *5's Chop Move* convention is turned off when the player receiving the clue is "loaded' with a play. Thus, this must be a *Loaded Play Clue* on the 5.
   - Bob plays the red 4 and will play the 5 on the next turn as red 5.
 
+### Precedence of Variant-Specific Conventions
+
+- We have many variant-specific strategies and conventions. Sometimes, it can be confusing as to how they interact with "normal" conventions (e.g. non-variant-specific conventions).
+- In general, non-variant-specific conventions take precedence over variant-specific conventions, unless explicitly mentioned otherwise.
+
 ### Specific Variants
 
-Conventions for specific variants are listed on a separate page.
+Below are conventions for some specific variants. Each variant is located on its own separate page.
 
 - [2-player](/misc/2-Player.md)
 - [3 Suits](/variant-specific/3_Suits.md)
