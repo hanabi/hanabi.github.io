@@ -12,6 +12,15 @@ n/a
 
 ## The Backlog (Variant-Specific Conventions)
 
+@everyone Clarified conventions:
+
+**Precedence of Variant-Specific Conventions**
+
+```
+- We have many variant-specific strategies and conventions. Sometimes, it can be confusing as to how they interact with "normal" conventions (e.g. non-variant-specific conventions).
+- In general, non-variant-specific conventions take precedence over variant-specific conventions, unless explicitly mentioned otherwise.
+```
+
 @everyone Deleted variant-specific conventions:
 
 **Positional Finesses**
