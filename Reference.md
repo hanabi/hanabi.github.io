@@ -1433,9 +1433,9 @@ Note that in this user interface, players are **not** holding their hands like t
   - Rainbow 1 and red 2 are played on the stacks.
   - Alice clues Cathy red, touching a red card as a *Play Clue*.
   - Bob blind-plays a rainbow 2.
-  - Normally, Cathy would think that this is a *Finesse*, because **red matches red** (rainbow cards match every color), meaning that Cathy's 4 is the rainbow 4.
-  - However, Cathy notices that her 4 has a negative blue clue on it. Thus, it cannot be the rainbow 4.
-  - This must instead be a *Bluff*. Cathy marks her 4 as the red 4 (since the red 4 is the *one-away-from-playable* red card).
+  - Normally, Cathy would think that this is a *Finesse*, because **red matches red** (rainbow cards match every color), meaning that Cathy's red card is the rainbow 3.
+  - However, Cathy notices that her red card has a negative blue clue on it. Thus, it cannot be the rainbow 3.
+  - This must instead be a *Bluff*. Cathy marks her red card as the red 4 (since the red 4 is the *one-away-from-playable* red card).
 
 ### Bluffs Through Already-Clued Cards
 
