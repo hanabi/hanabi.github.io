@@ -14,6 +14,7 @@ These conventions apply to any variant with a brown (touched by no ranks) suit.
 
 - If a player gives a *Tempo Clue* to a single brown card, it is never a *Tempo Clue Chop Move*.
 - This is because it is fairly valuable to get brown cards out of the hand as soon as possible in case blocking cards are drawn.
+- This convention also applies if brown cards are re-clued to perform a *Finesse*.
 
 ### Brown Tempo Clue Inversion
 
