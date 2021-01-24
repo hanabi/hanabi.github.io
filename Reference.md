@@ -1414,21 +1414,13 @@ Note that in this user interface, players are **not** holding their hands like t
   - Normally, Cathy would think that this is a *Finesse*, because **3 matches 4**, meaning that Cathy's 4 is the blue 4.
   - However, Cathy notices that her 4 has a negative blue clue on it. Thus, it cannot be the blue 4.
   - This must instead be a *Bluff*. Cathy marks her 4 as the red 4 (since red 4 is the only other *one-away-from-playable* 4).
-- Example 7 (color match and rank mismatch):
-  - This is a 4-player game.
-  - Nothing is played on the stacks.
-  - Alice clues Donald red, touching a red 3 as a play clue.
-  - Bob blind-plays the red 1.
-  - Cathy notices that Donald's red card has a negative 2 clue on it. This means that Donald will not go on to misplay the card as the red 2.
-  - Cathy needs to evaluate whether or not Alice's clue is a *Finesse* or a *Bluff*. If this is a *Double Finesse*, then Cathy needs to blind-play the red 2. If this is a *Bluff*, then Alice only intended for Bob to blind-play.
-  - Cathy knows that since **red matches red**, this must be a *Double Finesse*, so Cathy blind-plays the red 2 into the red 3.
-- Example 8 (color match with rainbow):
+- Example 7 (color match with rainbow):
   - This is a game with a rainbow suit. (The other examples in this section assume a "No Variant" game.)
   - Rainbow 1 is played on the stacks.
   - Alice clues Cathy red, touching a red card as a *Play Clue*.
   - Bob blind-plays a rainbow 2.
   - This must be a *Finesse*, because **red matches red** (rainbow cards match every color). So Cathy should think that she has the rainbow 3.
-- Example 9 (color match with rainbow where a *Finesse* is impossible):
+- Example 8 (color match with rainbow where a *Finesse* is impossible):
   - This is a game with a rainbow suit. (The other examples in this section assume a "No Variant" game.)
   - Rainbow 1 and red 2 are played on the stacks.
   - Alice clues Cathy red, touching a red card as a *Play Clue*.
@@ -1638,7 +1630,16 @@ Note that in this user interface, players are **not** holding their hands like t
 - Cathy misplays red 3 as red 2.
 - Alternatively, if Cathy saw that Bob had both red 1 and red 2 on his *Finesse Position* at the time the clue was given, she would know that she has the red 2 **or** the red 3. Subsequently, Bob is promised a red 2, since if he does not blind-play a card, Cathy will go on to misplay the red 3 as red 2.
 
-#### Example 4 - **Number 3 with Suit Match** (valid)
+#### Example 4 - **Color Match with Rank Mismatch** (NOT valid; looks like a Finesse):
+  - This is a 4-player game.
+  - Nothing is played on the stacks.
+  - Alice clues Donald red, touching a red 3 as a play clue.
+  - Bob blind-plays the red 1.
+  - Cathy notices that Donald's red card has a negative 2 clue on it. This means that Donald will not go on to misplay the card as the red 2.
+  - Cathy needs to evaluate whether or not Alice's clue is a *Finesse* or a *3 Bluff*. If this is a *Double Finesse*, then Cathy needs to blind-play the red 2. If this is a *Bluff*, then Alice only intended for Bob to blind-play.
+  - Cathy knows that since **red matches red**, this must be a *Double Finesse*, so Cathy blind-plays the red 2 into the red 3.
+
+#### Example 5 - **Number 3 with Suit Match** (valid)
 
 - On the first turn of the game, Alice clues Cathy number 3, which touches a red 3.
 - Bob blind-plays red 1.
@@ -1648,7 +1649,7 @@ Note that in this user interface, players are **not** holding their hands like t
 
 #### Generic Questions
 
-- *3 Bluffs* can be confusing. If you don't want to memorize the four examples above, you can simply ask the following questions:
+- *3 Bluffs* can be confusing. If you don't want to memorize the five examples above, you can simply ask the following questions:
   1) Does the clue "match" the blind-play? If it matches, then it is a *Finesse*. If it does not match, then it is a *Bluff*. Red matches red, but red does **not** match blue. 2 matches 3, but 1 does **not** match 3.
   2) Will the player who received the clue go on to misplay if nothing else is blind-played? If yes, then it is a *Finesse*. If no, then it is a *Bluff*.
 
