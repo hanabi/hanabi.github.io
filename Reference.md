@@ -831,8 +831,16 @@ Note that in this user interface, players are **not** holding their hands like t
   - It is the first turn and nothing is played on the stacks.
   - Alice clues Bob number 1, which touches three 1's. They are in slot 1, slot 2, and slot 3.
   - Bob is expected to play slot 3 (which is the oldest 1). If he plays slot 3, nothing special happens.
-  - If Bob plays slot 2, he is performing an *Order Chop Move*, and Cathy should chop move one card (her slot 5).
-  - If Bob plays slot 1, he is performing an *Order Chop Move*, and Alice should chop move one card (her slot 5).
+  - If Bob plays slot 2, he is performing an *Order Chop Move*, and Cathy should *Chop Move* one card (her slot 5).
+  - If Bob plays slot 1, he is performing an *Order Chop Move*, and Alice should *Chop Move* one card (her slot 5).
+- If a player decides to do an *Order Chop Move*, on their next turn, they should revert to the original order again.
+- For example, continuing from the previous example:
+  - Bob decides to play slot 2, performing an *Order Chop Move* on Cathy.
+  - Cathy marks her slot 5 card as being *Chop Moved*. Then, Cathy gives an unrelated clue.
+  - Alice gives an unrelated clue.
+  - Now, Bob has two 1's left in slot 2 and slot 3.
+  - Bob is expected to play slot 3 (which is the oldest 1). If he plays slot 3, nothing special happens.
+  - If Bob plays slot 2, he is performing an *Order Chop Move*, and Cathy should *Chop Move* one card. (It would be her slot 4, since her slot 5 is already *Chop Moved*.)
 - There are some other common situations that do **not** imply an *Order Chop Move*. Use your common sense! Here is a short list:
   - The 1 that was played has a **different amount of positive clues** than the other 1's. (Different negative clues are ignored.)
   - The 1 that was played was originally *Finessed* from a clue that happened **before** the number 1 clue.
