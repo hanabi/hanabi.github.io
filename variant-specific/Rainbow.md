@@ -4,6 +4,12 @@ These conventions apply to any variant with a rainbow (touched by all colors) or
 
 <br />
 
+### Saving Rainbow Cards
+
+* If a rainbow 2 has not yet been discarded, then it must be *2 Saved* in the same way that normal 2's are.
+* If a rainbow 2, a rainbow 3, or a rainbow 4 are critical, then they can be saved with any color, or the respective rank.
+* Thus, as soon as a rainbow 2, a rainbow 3, or a rainbow 4 become critical, any color clue to a chop card will probably just look like a *Save Clue* on a critical card.
+
 ### Free Choice
 
 - *Free Choice* is defined as when a player has two or more options to clue a card and all of the options would **only** touch the same card(s).
