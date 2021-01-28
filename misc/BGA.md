@@ -61,7 +61,7 @@ Of course, this problem is compounded by the terrible replay system. Even if pla
 
 ### Hanab Live
 
-Hanab Live was created by me (Zamiel) in June 2017 as a replacement for Keldon's excellent online implementation (which is now offline). Whereas BGA is closed-source and "stuck in time", Hanab Live is open-source: we can add new variants, add new features, fix bugs, and so forth.
+Hanab Live was created by me (Zamiel) in June 2017 as a replacement for Keldon's excellent online implementation (which is now offline). Whereas BGA is closed-source and impossible to edit by the average user, Hanab Live is open-source: we can add new variants, add new features, fix bugs, and so forth.
 
 #### The Interface
 
