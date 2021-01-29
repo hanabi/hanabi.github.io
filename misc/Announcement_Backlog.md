@@ -14,6 +14,15 @@ n/a
 
 @everyone New variant-specific conventions:
 
+**Positional Bluffs** (by Zamiel)
+
+```
+- This convention only applies to variants with a null suit.
+- *Positional Layered Finesses* are deleted and *Positional Bluffs* are added.
+- This means that a *Positional Clue* can be used to get a non-null card.
+- Similar to a normal *Bluff*, a *Positional Bluff* only "gets" 1 card. No actual null cards are promised.
+```
+
 **Gray Loaded Play Clues**
 
 ```
