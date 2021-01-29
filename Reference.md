@@ -4282,7 +4282,6 @@ Below are conventions for some specific variants. Each variant is located on its
 | Black 4 Bluffs | Zamiel & Libster
 | Pink Promise | Zamiel
 | The Black Save Bluff | Sankala
-| White Compromise | Postmans
 | The Bubblegum Finesse | Razvogor
 | The Bubblegum Bluff | Stephen
 | The Bubblegum Slide | IAMJEFF
