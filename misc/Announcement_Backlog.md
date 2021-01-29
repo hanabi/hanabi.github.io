@@ -12,42 +12,6 @@ n/a
 
 ## The Backlog (Variant-Specific Conventions)
 
-@everyone Clarified conventions:
-
-**Precedence of Variant-Specific Conventions**
-
-```
-- We have many variant-specific strategies and conventions. Sometimes, it can be confusing as to how they interact with "normal" conventions (e.g. non-variant-specific conventions).
-- In general, non-variant-specific conventions take precedence over variant-specific conventions, unless explicitly mentioned otherwise.
-```
-
-@everyone Deleted variant-specific conventions:
-
-**Positional Finesses**
-
-```
-* *Positional Finesses* are deleted.
-* This convention makes it hard to get null cards in certain situations. It is also a common point of failure.
-```
-
-@everyone Changed variant-specific conventions:
-
-**Bluff Seat with Positional Clues**
-
-```
-* This convention only applies to variants with a null suit.
-* Previously, you could give a *Positional Clue* to anyone on the team.
-* Now, you can only give a *Positional Clue* if you are in *Bluff Seat*.
-```
-
-**Good Touch Principle with Positional Clues**
-
-```
-* This convention only applies to variants with a null suit.
-* Previously, *Good Touch Principle* did not apply to cards touched as part of a *Positional Clue*.
-* Now, *Good Touch Principle* does apply. If a trash card is touched as part of a *Positional Clue*, then it must be given a *Fix Clue*.
-```
-
 @everyone New variant-specific conventions:
 
 **Gray Loaded Play Clues**
