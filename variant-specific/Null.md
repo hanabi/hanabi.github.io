@@ -37,7 +37,7 @@ Since null cards cannot be clued directly, we agree that we should use *Position
 
 #### 2) How do you perform a *Positional Clue*?
 
-- Any "nonsense" clue (e.g. a clue that has no normal conventional interpretation) is to be interpretated as a *Positional Clue* instead.
+- Any "nonsense" clue (e.g. a clue that has no normal conventional interpretation) is to be interpreted as a *Positional Clue* instead.
 - Furthermore, in order to make it easier to perform *Positional Clues*, we also "turn off" the following conventions:
   - a *Double Finesse* or a *Triple Finesse* where one player has to blind-play **two or more** cards
   - a *Double Bluff* or a *Triple Bluff*
