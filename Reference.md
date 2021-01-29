@@ -3427,7 +3427,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 - Normally, when known trash is touched as the focus of the clue, and the known trash is on chop, it communicates a *Trash Push*.
 - However, what if the *Trash Pushed* card is two-or-more-away-from-playable? This would normally be a *Trash Push Double Finesse* on Bob, but that is unlikely.
 - Instead, we agree that similar to the rules for *5 Color Ejection*, if the *Trash Pushed* card would require two-or-more-blind-plays from Bob, then he interprets the clue as an *Ejection*.
-- After a *Trash Push Ejection*, the clue reciever should *Chop Move* the two-or-more-away-from-playable card.
+- After a *Trash Push Ejection*, the clue receiver should *Chop Move* the two-or-more-away-from-playable card.
 
 <br />
 
