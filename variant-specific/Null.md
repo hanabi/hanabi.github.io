@@ -4,6 +4,17 @@ These conventions apply to any variant with a null (touched by no clues) suit.
 
 <br />
 
+### Table of Contents
+
+1. [Hard Variant](#hard-variant)
+1. [Positional Clues](#positional-clues)
+1. [Color Positional Clues](#color-positional-clues)
+1. [Null Saves](#null-saves)
+1. [No Positional Finesses](#no-positional-finesses)
+1. [The Scream Blind-Play](#)
+
+<br />
+
 ### Hard Variant
 
 - Any variant with a null suit is treated as a *Hard Variant*, meaning that *Loaded Play Clues* are "turned on" and so forth.
