@@ -12,6 +12,8 @@ These conventions apply to any variant with a null (touched by no clues) suit.
 
 ### Positional Clues
 
+Since null cards cannot be clued directly, we agree that we should use *Positional Clues* to "get" them.
+
 #### 1) What is a *Positional Clue*?
 
 - *Positional Clues* correspond to a slot number.
@@ -22,9 +24,10 @@ These conventions apply to any variant with a null (touched by no clues) suit.
   - For example, in a 3-player game of the *Null (6 Suit)* variant, there are 5 color clues and 5 slots in the hand. Thus, a purple clue equals slot 5 (since it is the right-most color), a blue clue equals slot 4 (since it is the 2nd right-most color), and so forth.
   - More examples for *Color Positional Clues* are listed below in a separate section. (*Color Positional Clues* have a dedicated section since they are a bit more complicated.)
 
-#### 2) Specifically, what kinds of moves are "turned off" in favor of being a *Positional Clue*?
+#### 2) How do you perform a *Positional Clue*?
 
-- Any clue that looks like one of the following is now a *Positional Clue* instead:
+- Any "nonsense" clue (e.g. a clue that has no normal conventional interpretation) is to be interpretated as a *Positional Clue* instead.
+- Furthermore, in order to make it easier to perform *Positional Clues*, we also "turn off" the following conventions:
   - a *Double Finesse* or a *Triple Finesse* where one player has to blind-play **two or more** cards
   - a *Double Bluff* or a *Triple Bluff*
   - an *Ejection* or a *Discharge*
@@ -34,7 +37,7 @@ These conventions apply to any variant with a null (touched by no clues) suit.
   - a *Trash Push*
   - a *Black 4 Bluff* (with black)
   - a *Finesse* or *Bluff* that was initiated with a rank clue when a ***Free Choice*** was available between rank and color
-- Additionally, any clue that has no "normal" conventional interpretation is also a *Positional Clue*.
+- Any clue that looks like one of these conventions is to be interpreted as a *Positional Clue* instead:
 
 #### 3) Are *Positional Clues* a *Save Clue* or a *Play Clue*?
 
@@ -126,6 +129,12 @@ Some additional rules apply to *Positional Clues* that are intended to be *Save 
 - Thus, when a player is *Chop Moved* early on for a null card, they can know for sure that it is either a null 2 or a null 5.
 
 <br />
+
+### Positional Bluffs
+
+- Since *Positional Clues* can only be given in *Bluff Seat*, it is also possible to use a *Positional Clue* to get a non-null card.
+- This is a *Positional Bluff*, because Bob expects to be playing a null card.
+- Similar to a normal *Bluff*, a *Positional Bluff* only "gets" 1 card. No actual null cards are promised.
 
 ### No Positional Finesses
 
