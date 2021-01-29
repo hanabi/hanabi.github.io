@@ -11,7 +11,7 @@ These conventions apply to any variant with a null (touched by no clues) suit.
 1. [Color Positional Clues](#color-positional-clues)
 1. [Null Saves](#null-saves)
 1. [No Positional Finesses](#no-positional-finesses)
-1. [The Scream Blind-Play](#)
+1. [The Scream Blind-Play](#the-scream-blind-play-blind-playing-chop)
 
 <br />
 
