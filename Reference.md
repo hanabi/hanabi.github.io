@@ -4108,7 +4108,6 @@ Below are conventions for some specific variants. Each variant is located on its
 - [Black](/variant-specific/Black.md)
 - [Rainbow](/variant-specific/Rainbow.md)
 - [Pink](/variant-specific/Pink.md)
-- [White](/variant-specific/White.md)
 - [Brown](/variant-specific/Brown.md)
 - [Omni](/variant-specific/Omni.md)
 - [Null](/variant-specific/Null.md)
