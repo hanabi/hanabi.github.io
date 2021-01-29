@@ -12,6 +12,15 @@ n/a
 
 ## The Backlog (Variant-Specific Conventions)
 
+@everyone Deleted variant-specific conventions:
+
+**White Compromise** (deleted)
+
+```
+- The *White Compromise* convention is deleted.
+- This convention was not used very often and didn't provide very much overall value.
+```
+
 @everyone New variant-specific conventions:
 
 **Positional Bluffs** (by Zamiel)
