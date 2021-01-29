@@ -6,6 +6,7 @@
 - If **no-one is already playing a pick-up game**, then you can try to get people together to get a game going by pinging the "@H-Group - Ping Crew" role by typing it into the #general-lobby channel.
   - For example, `Hello @H-Group - Ping Crew, it is Saturday morning - let's get a game going!"`.
 - The people who are assigned this role should then get a notification.
+- If you would like to be added to this role, please send Zamiel a direct message on Discord.
 
 <br />
 
