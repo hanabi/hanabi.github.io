@@ -4117,6 +4117,7 @@ Below are conventions for some specific variants. Each variant is located on its
 - [Dark Pink](/variant-specific/Dark_Pink.md)
 - [Dark Omni](/variant-specific/Dark_Omni_&_Gray_Pink.md)
 - [Dark Null](/variant-specific/Dark_Null.md)
+- [Dark Prism](/variant-specific/Dark_Prism.md)
 - [Cocoa Rainbow](/variant-specific/Muddy_Rainbow_&_Cocoa_Rainbow.md)
 - [Gray Pink](/variant-specific/Dark_Omni_&_Gray_Pink.md)
 - [Black & Rainbow](/variant-specific/Black_&_Rainbow.md)
