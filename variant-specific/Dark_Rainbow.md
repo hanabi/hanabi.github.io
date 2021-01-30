@@ -6,7 +6,7 @@ These conventions apply to any variant with a dark rainbow (touched by all color
 
 ### Black Conventions & Rainbow Conventions
 
-- Dark Rainbow "inherits" all of the conventions for black cards and all of the conventions for rainbow cards.
+- Dark rainbow "inherits" all of the conventions for black cards and all of the conventions for rainbow cards.
 - Some specific clarifications and exceptions are listed below.
 
 ### Dark Rainbow Saves
