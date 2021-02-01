@@ -25,7 +25,7 @@ The following is a quick summary of the levels.
 | Level 1  | *[5 Stalls](Reference.md#the-5-stall)*, *[Prompts](Reference.md#the-prompt)*, *[Finesses](Reference.md#the-finesse)*
 | Level 2  | *[Reverse Finesses](Reference.md#the-reverse-finesse)*, *[Self-Finesses](Reference.md#the-self-finesse)*
 | Level 3  | *[Sarcastic Discards](Reference.md#the-sarcastic-discard)*, *[Trash Chop Moves](Reference.md#the-trash-chop-move)*, *[5's Chop Moves](Reference.md#the-5s-chop-move-5cm)*
-| Level 4  | *[Double Discard Situations](Reference.md#double-discard-situations)*, *[Hidden Finesses](Reference.md#the-hidden-finesse)*, *[Layered Finesses](Reference.md#the-layered-finesse)*, *[Clandestine Finesses](Reference.md#the-clandestine-finesse)*, *[Stacked Finesses](Reference.md#the-stacked-finesse)*
+| Level 4  | *[Double Discard Situations](Reference.md#double-discard-situations)*, *[Hidden Finesses](Reference.md#the-hidden-finesse)*, *[Layered Finesses](Reference.md#the-layered-finesse)* | *[Clandestine Finesses](Reference.md#the-clandestine-finesse)*, *[Stacked Finesses](Reference.md#the-stacked-finesse)*
 | Level 5  | *[Order Chop Moves](Reference.md#the-order-chop-move-ocm)*
 | Level 6  | *[Locked Hand Saves](Reference.md#the-locked-hand-save-lhs)* & *[8 Clue Saves](Reference.md#clues-given-while-at-8-clues--the-8-clue-save-severity-4-stalling)*
 | Level 7  | *[The Gentleman's Discard](Reference.md#the-gentlemans-discard)*
