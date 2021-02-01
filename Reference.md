@@ -2427,7 +2427,16 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
     - The clue cannot be a *5 Pull*, because the red 3 is not playable.
     - The clue cannot be a *5 Pull Finesse*, because the red 3 is *two-away-from-playable*.
   - Since Bob would have to blind-play two cards into the *Finesse* (the same rule as in *5 Color Ejections*), Bob knows that he should instead treat this as a *5 Number Discharge*. Bob blind-plays his slot 3 card and it successfully plays as the red 1.
+- After a *5 Number Discharge*, the card next to the 5 should be marked accordingly.
+- For example, if a *5 Number Discharge* happens on the first turn of the game, then the team should mark the "pulled" card as a 3 or a 4.
 - More examples of a *5 Number Discharge* can be found [here](examples/5_Number_Discharge.md).
+
+### 5 Number Discharge Finesse Position Skips
+
+- First, see the section on the *[5 Number Discharge](#5-number-discharge)*.
+- After a *5 Number Discharge* occurs, it is common for the card next to the 5 to be marked as a 3 or a 4.
+- For most intents and purposes, this "marking" from a *5 Number Discharge* **does not** change the player's *Finesse Position*.
+- However, if that player is *Finessed* for a 1, then it is fairly obvious that they should not play the card that is marked as a 3 or a 4. In this case, the player should skip over their *Finesse Position* card and instead play their *Second Finesse Position Card*.
 
 <br />
 
