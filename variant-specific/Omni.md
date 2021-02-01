@@ -8,6 +8,16 @@ These conventions apply to any variant with an omni (touched by all clues) suit.
 
 - All pink conventions also apply to omni cards.
 
-### No Good Touch Principle
+### Soft Good Touch Principle
 
-- *Good Touch Principle* does **not** apply to known omni cards. Thus, it may be dangerous for players to play them without being *Prompted* first.
+- Sometimes, players can play cards "automatically" from *Good Touch Principle*.
+- For example, if the blue 4 and the omni 5 are played on the stacks, then a remaining blue card would be a known blue 5, and would be automatically played without any additional clues being given.
+- However, because omni cards are very easy to touch, it is common for clues to "pick up" trash omni cards.
+- Thus, players should **not** automatically play cards from *Good Touch Principle* in this manner.
+- However, players should still play clued cards if they are prompted.
+- For example:
+  - All the 1's are played on the stacks.
+  - Bob has a card marked in his has with a number 1 clue.
+  - From *Good Touch Principle*, Bob knows that the card as either omni 2, omni 3, omni 4, or omni 5.
+  - Alice gives a *Play Clue* to an omni 3 in Cathy's hand.
+  - Bob knows that he is *Prompted* for the omni 2. He plays the number 1 card (as opposed to blind-playing slot 1 as a *Finesse*).
