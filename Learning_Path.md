@@ -20,8 +20,8 @@ For information on how variants tie in to the levels, see the [variant summary](
 
 The following is a quick summary of the levels.
 
-| Level    | Main Convention Learned
-| -------- | --------------------------------------
+| Level    | Main Conventions Learned | Other Conventions Learned
+| -------- | ----------------------- | -------------------------
 | Level 1  | *[5 Stalls](Reference.md#the-5-stall)*, *[Prompts](Reference.md#the-prompt)*, *[Finesses](Reference.md#the-finesse)*
 | Level 2  | *[Reverse Finesses](Reference.md#the-reverse-finesse)*, *[Self-Finesses](Reference.md#the-self-finesse)*
 | Level 3  | *[Sarcastic Discards](Reference.md#the-sarcastic-discard)*, *[Trash Chop Moves](Reference.md#the-trash-chop-move)*, *[5's Chop Moves](Reference.md#the-5s-chop-move-5cm)*
