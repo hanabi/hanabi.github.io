@@ -1208,19 +1208,6 @@ Note that in this user interface, players are **not** holding their hands like t
 
 ## Level 7 - Apprentice - Conventions & Special Moves
 
-### The Sarcastic Finesse
-
-- Imagine that in a 3-player game:
-  - Nothing is played on the stacks.
-  - Alice has an already-clued 2 in her hand. She has no idea what color 2 it is.
-  - Alice performs a *Finesse* by giving a red color *Play Clue* to a red 2 in Cathy's hand.
-  - Bob blind-plays red 1 from his *Finesse Position*.
-  - Normally, Cathy would think that she has the next red card, which is red 2, and play it.
-  - However, what if Alice actually has the red 2? In this situation, Cathy is expected to perform a *Sarcastic Discard*.
-- Doing a *Finesse* that potentially duplicates a card in this way is called a *Sarcastic Finesse*. Normally, potentially duplicating a card is bad - it violates *Good Touch Principle* and could lead to a clue being wasted. However, potentially duplicating a card with the *Sarcastic Finesse* is not bad because:
-  - In the best case, you get a "true" *Finesse* (a 2-for-1 or better).
-  - In the worst case, you get a 1-for-1 and full knowledge on a clued card in your own hand that was previously a mystery.
-
 ### The Gentleman's Discard
 
 - First, read the section on the *[Sarcastic Discard](#the-sarcastic-discard)*.
@@ -1274,6 +1261,19 @@ Note that in this user interface, players are **not** holding their hands like t
 - *Baton Discards* are mostly useful for two main reasons:
   1) To better satisfy *Team Distribution Principle*. It makes sense to transfer a card out of a locked / almost locked hand to a player with an "empty" hand or a hand that only has one card clued in it.
   2) You want to protect your own chop. If you discard your chop, the team could be losing some high-value *one-away-from-playable* card. But if you transfer a card to someone else, it gives you something "safe" to do.
+
+### The Sarcastic Finesse
+
+- Imagine that in a 3-player game:
+  - Nothing is played on the stacks.
+  - Alice has an already-clued 2 in her hand. She has no idea what color 2 it is.
+  - Alice performs a *Finesse* by giving a red color *Play Clue* to a red 2 in Cathy's hand.
+  - Bob blind-plays red 1 from his *Finesse Position*.
+  - Normally, Cathy would think that she has the next red card, which is red 2, and play it.
+  - However, what if Alice actually has the red 2? In this situation, Cathy is expected to perform a *Sarcastic Discard*.
+- Doing a *Finesse* that potentially duplicates a card in this way is called a *Sarcastic Finesse*. Normally, potentially duplicating a card is bad - it violates *Good Touch Principle* and could lead to a clue being wasted. However, potentially duplicating a card with the *Sarcastic Finesse* is not bad because:
+  - In the best case, you get a "true" *Finesse* (a 2-for-1 or better).
+  - In the worst case, you get a 1-for-1 and full knowledge on a clued card in your own hand that was previously a mystery.
 
 ### The Certain Finesse & The Certain Discard
 
