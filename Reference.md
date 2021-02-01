@@ -12,7 +12,7 @@ If you are a brand new player, **do not bother reading this document**. It is mu
 
 If you have already read the beginners guide, then please see the [learning path document](Learning_Path.md). This explains what to learn next and how many games you should be playing before reading ahead.
 
-It is **not** a good idea to rush to learn everything here as quickly as possible. **Using higher level strategies does not necessarily make you a better player.** The extra efficiency from fancy tricks is often outweighed by mistakes or miscommunications caused by the additional complexity.
+It is **not** a good idea to rush to learn everything here as quickly as possible. In fact, doing so is **actively harmful**. **Using higher level strategies does not make you a better player.** The extra efficiency from fancy tricks is often outweighed by mistakes or miscommunications caused by the additional complexity.
 
 <br />
 
