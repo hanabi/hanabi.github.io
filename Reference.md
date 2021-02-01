@@ -664,7 +664,7 @@ Note that in this user interface, players are **not** holding their hands like t
 ## Level 4 - Neophyte
 
 - Level 4 strategies should only be learned if you have played with the group for a week or so (40+ games of experience).
-- This level covers Double Discard situations and introduces Layered Finesses. Players at this level only tell the truth to each other.
+- This level covers Double Discard situations and introduces Layered Finesses.
 - See the [learning path document](Learning_Path.md) for general descriptions of each level.
 - Level 4 subsections:
   - [Conventions & Special Moves](#level-4---neophyte---conventions--special-movies)
