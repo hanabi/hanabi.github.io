@@ -2436,7 +2436,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 - First, see the section on the *[5 Number Discharge](#5-number-discharge)*.
 - After a *5 Number Discharge* occurs, it is common for the card next to the 5 to be marked as a 3 or a 4.
 - For most intents and purposes, this "marking" from a *5 Number Discharge* **does not** change the player's *Finesse Position*.
-- However, if that player is *Finessed* for a 1 or a 2, then it is fairly obvious that they should not play the card that is marked as a 3 or a 4. In this case, the player should skip over their *Finesse Position* card and instead play their *Second Finesse Position Card*.
+- However, if that player is *Finessed* for a 1 or a 2, then it is fairly obvious that they should not play the card that is marked as a 3 or a 4. In this case, the player should skip over their *Finesse Position* card and instead play their *Second Finesse Position*.
 
 <br />
 
