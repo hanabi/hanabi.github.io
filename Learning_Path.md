@@ -22,25 +22,25 @@ The following is a quick summary of the levels.
 
 | Level    | Main Conventions Learned | Other Conventions Learned
 | -------- | ----------------------- | -------------------------
-| Level 1  | *[5 Stalls](Reference.md#the-5-stall)*, *[Prompts](Reference.md#the-prompt)*, *[Finesses](Reference.md#the-finesse)*
-| Level 2  | *[Reverse Finesses](Reference.md#the-reverse-finesse)*, *[Self-Finesses](Reference.md#the-self-finesse)*
-| Level 3  | *[Sarcastic Discards](Reference.md#the-sarcastic-discard)*, *[Trash Chop Moves](Reference.md#the-trash-chop-move)*, *[5's Chop Moves](Reference.md#the-5s-chop-move-5cm)*
-| Level 4  | *[Double Discard Situations](Reference.md#double-discard-situations)*, *[Layered Finesses](Reference.md#the-layered-finesse)* | *[Hidden Finesses](Reference.md#the-hidden-finesse)*, *[Clandestine Finesses](Reference.md#the-clandestine-finesse)*, *[Stacked Finesses](Reference.md#the-stacked-finesse)*
-| Level 5  | *[Order Chop Moves](Reference.md#the-order-chop-move-ocm)*, *[Scream Discard Chop Moves](Reference.md#the-scream-discard-chop-move-deliberately-discarding-instead-of-playing)*, *[Generation Discards](Reference.md#the-generation-discard)*, *[Tempo Clue Chop Moves](Reference.md#the-tempo-clue-chop-move)* | *[Misplay Chop Moves](Reference.md#the-misplay-chop-move)*
-| Level 6  | *[Locked Hand Saves](Reference.md#the-locked-hand-save-lhs)* & *[8 Clue Saves](Reference.md#clues-given-while-at-8-clues--the-8-clue-save-severity-4-stalling)*
-| Level 7  | *[The Gentleman's Discard](Reference.md#the-gentlemans-discard)*
-| Level 8  | *[Bluffs](Reference.md#the-bluff)*
-| Level 9  | *[3 Bluffs](Reference.md#the-3-bluff)*
-| Level 10 | *[The 5 Color Ejection](Reference.md#the-5-color-ejection-5ce)*
-| Level 11 | *[The 5 Pull](Reference.md#the-5-pull)*
-| Level 12 | *[Priority](Reference.md#the-priority-prompt--the-priority-finesse)*
-| Level 13 | *[Elimination](Reference.md#discard-elimination--elimination-notes)*
-| Level 14 | [*Finesses* with a *Lie Component*](Reference.md#finesses-with-a-lie-component)
-| Level 15 | *[The Unknown Trash Discharge](Reference.md#the-unknown-trash-discharge-utd)* & *[The 5 Number Discharge](#Reference.md#5-number-discharge-5nd)*
-| Level 16 | *[Double Bluffs](Reference.md#the-double-bluff)*
-| Level 17 | *[The Good Touch Bluff](Reference.md#the-good-touch-bluff)* & *[The Pestilent Double Bluff](Reference.md#the-pestilent-double-bluff-pdb)*
-| Level 18 | *[Echo Scream Discard Chop Move](Reference.md#the-echo-scream-discard-chop-move)*
-| Level 19 | All the other miscellaneous rarely-used conventions
+| 1  | *[5 Stalls](Reference.md#the-5-stall)*, *[Prompts](Reference.md#the-prompt)*, *[Finesses](Reference.md#the-finesse)*
+| 2  | *[Reverse Finesses](Reference.md#the-reverse-finesse)*, *[Self-Finesses](Reference.md#the-self-finesse)*
+| 3  | *[Sarcastic Discards](Reference.md#the-sarcastic-discard)*, *[Trash Chop Moves](Reference.md#the-trash-chop-move)*, *[5's Chop Moves](Reference.md#the-5s-chop-move-5cm)*
+| 4  | *[Double Discard Situations](Reference.md#double-discard-situations)*, *[Layered Finesses](Reference.md#the-layered-finesse)* | *[Hidden Finesses](Reference.md#the-hidden-finesse)*, *[Clandestine Finesses](Reference.md#the-clandestine-finesse)*, *[Stacked Finesses](Reference.md#the-stacked-finesse)*
+| 5  | *[Order Chop Moves](Reference.md#the-order-chop-move-ocm)*, *[Scream Discard Chop Moves](Reference.md#the-scream-discard-chop-move-deliberately-discarding-instead-of-playing)*, *[Generation Discards](Reference.md#the-generation-discard)*, *[Tempo Clue Chop Moves](Reference.md#the-tempo-clue-chop-move)* | *[Misplay Chop Moves](Reference.md#the-misplay-chop-move)*
+| 6  | *[Locked Hand Saves](Reference.md#the-locked-hand-save-lhs)* & *[8 Clue Saves](Reference.md#clues-given-while-at-8-clues--the-8-clue-save-severity-4-stalling)*
+| 7  | *[The Gentleman's Discard](Reference.md#the-gentlemans-discard)*
+| 8  | *[Bluffs](Reference.md#the-bluff)*
+| 9  | *[3 Bluffs](Reference.md#the-3-bluff)*
+| 10 | *[The 5 Color Ejection](Reference.md#the-5-color-ejection-5ce)*
+| 11 | *[The 5 Pull](Reference.md#the-5-pull)*
+| 12 | *[Priority](Reference.md#the-priority-prompt--the-priority-finesse)*
+| 13 | *[Elimination](Reference.md#discard-elimination--elimination-notes)*
+| 14 | [*Finesses* with a *Lie Component*](Reference.md#finesses-with-a-lie-component)
+| 15 | *[The Unknown Trash Discharge](Reference.md#the-unknown-trash-discharge-utd)* & *[The 5 Number Discharge](#Reference.md#5-number-discharge-5nd)*
+| 16 | *[Double Bluffs](Reference.md#the-double-bluff)*
+| 17 | *[The Good Touch Bluff](Reference.md#the-good-touch-bluff)* & *[The Pestilent Double Bluff](Reference.md#the-pestilent-double-bluff-pdb)*
+| 18 | *[Echo Scream Discard Chop Move](Reference.md#the-echo-scream-discard-chop-move)*
+| 19 | All the other miscellaneous rarely-used conventions
 
 <br />
 
