@@ -23,7 +23,7 @@ The following is a quick summary of the levels.
 | Level    | Main Conventions Learned | Other Conventions Learned
 | -------- | ----------------------- | -------------------------
 | 1  | *[The Early Game](Reference.md#the-early-game)*, *[5 Stalls](Reference.md#the-5-stall)*, *[Prompts](Reference.md#the-prompt)*, *[Finesses](Reference.md#the-finesse)*
-| 2  | *[Reverse Finesses](Reference.md#the-reverse-finesse)*, *[Self-Finesses](Reference.md#the-self-finesse)*
+| 2  | *[Play Order for 1's](Reference.md#playing-multiple-1s---play-order-inversion-in-the-starting-hand-part-1)*, *[Reverse Finesses](Reference.md#the-reverse-finesse)*, *[Self-Finesses](Reference.md#the-self-finesse)*
 | 3  | *[Sarcastic Discards](Reference.md#the-sarcastic-discard)*, *[Trash Chop Moves](Reference.md#the-trash-chop-move)*, *[5's Chop Moves](Reference.md#the-5s-chop-move-5cm)*
 | 4  | *[Double Discard Situations](Reference.md#double-discard-situations)*, *[Layered Finesses](Reference.md#the-layered-finesse)* | *[Hidden Finesses](Reference.md#the-hidden-finesse)*, *[Clandestine Finesses](Reference.md#the-clandestine-finesse)*, *[Stacked Finesses](Reference.md#the-stacked-finesse)*
 | 5  | *[Order Chop Moves](Reference.md#the-order-chop-move-ocm)*, *[Scream Discard Chop Moves](Reference.md#the-scream-discard-chop-move-deliberately-discarding-instead-of-playing)*, *[Generation Discards](Reference.md#the-generation-discard)*, *[Tempo Clue Chop Moves](Reference.md#the-tempo-clue-chop-move)* | *[Misplay Chop Moves](Reference.md#the-misplay-chop-move)*
