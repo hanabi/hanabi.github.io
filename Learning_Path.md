@@ -37,9 +37,9 @@ The following is a quick summary of the levels.
 | 13    | *[Elimination](Reference.md#discard-elimination--elimination-notes)*
 | 14    | *[Occupied Play Clues](Reference.md#the-occupied-play-clue--the-occupied-finesse-opc)*, *[Trash Pushes](Reference.md#the-trash-push)*, *[Trash Bluffs](Reference.md#the-trash-bluff)*, *[Trash Finesses](Reference.md#the-trash-finesse-strong-form)*, [*Finesses* with a *Lie Component*](Reference.md#finesses-with-a-lie-component)
 | 15    | *[The Unknown Trash Discharge](Reference.md#the-unknown-trash-discharge-utd)*, *[The 5 Number Discharge](#Reference.md#5-number-discharge-5nd)*
-| 16    | *[Double Bluffs](Reference.md#the-double-bluff)*
+| 16    | *[Double Bluffs](Reference.md#the-double-bluff)*, *[4 Double Bluffs](Reference.md#the-4-double-bluff--the-5-double-bluff)*
 | 17    | *[The Good Touch Bluff](Reference.md#the-good-touch-bluff)*, *[The Pestilent Double Bluff](Reference.md#the-pestilent-double-bluff-pdb)*
-| 18    | *[Echo Scream Discard Chop Move](Reference.md#the-echo-scream-discard-chop-move)*
+| 18    | *[Echo Scream Discard Chop Move](Reference.md#the-echo-scream-discard-chop-move)* | *[Sacrifice Discards](Reference.md#the-sacrifice-discard)*
 | 19    | All the other miscellaneous rarely-used conventions
 
 <br />
