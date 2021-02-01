@@ -69,8 +69,11 @@ The following is a brief description of each level.
 - This level builds the strategies in level 1, outlining what to do in more specific situations.
 - Level 2 strategies are as follows:
   - [Playing starting 1's from oldest to newest](Reference.md#playing-multiple-1s---play-order-inversion-in-the-starting-hand-part-1)
+  - *[Double Prompts](Reference.md#the-double-prompt--triple-prompt--etc)*
+  - *[Double Finesses](Reference.md#the-double-finesse--triple-finesse--etc)*
+  - *[Reverse Finesses](Reference.md#the-reverse-finesse)*
+  - *[Self-Finesses](Reference.md#the-self-finesse)*
   - *[Fix Clues](Reference.md#fix-clues)*
-  - All types of "normal" *Finesses*
 
 #### Level 3 - Initiate
 
