@@ -2944,6 +2944,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 - First, see the section on the *[Pestilent Double Bluff](#the-pestilent-double-bluff-pdb)*.
 - In the *Pestilent Double Bluff* example, Cathy is supposed to immediately blind-play her *Finesse Position* card in order to "heal" the situation with Bob.
 - However, if Cathy sees that someone else on the team has the red 2 in their *Finesse Position*, then Cathy can see that it is a *Pestilent Finesse* instead of a *Pestilent Bluff*. Cathy can simply let the person with the actual red 2 blind-play and that will "heal" the problem in the exact same way.
+- A *Pestilent Finesse* cannot be in reverse. (In other words, the blind-play must happen before the clued player can misplay.)
 
 ### The Diseased Clandestine Finesse
 
