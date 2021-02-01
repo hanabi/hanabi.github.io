@@ -2407,7 +2407,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   - Bob knows that this must be an *Unknown Trash Discharge*, so he blind-plays his *Third Finesse Position*. It is a blue 2 and it successfully plays.
   - Cathy knows that a *Discharge* has occurred from Alice's red clue. This must be an *Unknown Trash Discharge*, so the focus of the clue must be trash.
   - Cathy marks her slot 2 card as a red 1 (since that is the only possible trash red card) and discards it.
-  - Cathy also knows that non-focused cards touched in an *Unknown Trash Discharge* are supposed to be useful. Thus, Cathy marks her slot 3 card as a red 3, a red 4, or a red 5.
+  - Cathy also knows that non-focused cards touched in an *Unknown Trash Discharge* are supposed to be useful. Thus, Cathy marks her slot 3 card as a red 2, a red 3, a red 4, or a red 5.
 
 ### 5 Number Discharge (5ND)
 
