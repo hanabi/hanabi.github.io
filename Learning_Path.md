@@ -30,7 +30,7 @@ The following is a quick summary of the levels.
 | 6     | *[Locked Hand Saves](Reference.md#the-locked-hand-save-lhs)*, *[8 Clue Saves](Reference.md#clues-given-while-at-8-clues--the-8-clue-save-severity-4-stalling)*
 | 7     | *[Gentleman's Discards](Reference.md#the-gentlemans-discard)*, *[Sarcastic Finesses](Reference.md#the-sarcastic-finesse)*, *[Certain Finesses](Reference.md#the-certain-finesse--the-certain-discard)* | *[Baton Discards](Reference.md#the-baton-discard)*
 | 8     | *[Bluffs](Reference.md#the-bluff)*
-| 9     | *[3 Bluffs](Reference.md#the-3-bluff)*
+| 9     | *[Ambiguous Finesses](Reference.md#the-ambiguous-finesse)*, *[Trash Order Chop Moves](Reference.md#the-trash-order-chop-move)*, *[3 Bluffs](Reference.md#the-3-bluff)*, *[Critical 4 Bluffs](Reference.md#the-critical-4-bluff)* | *[Stale 1's Clues](Reference.md#context-clues--the-stale-1s-clue)*, *[Focus Inversion](Reference.md#focus-inversion)*, *[Positional Discards](Reference.md#the-positional-discard-indicating-a-play-with-a-discard)*, *[Positional Misplays](Reference.md#the-positional-misplay-indicating-a-play-with-a-misplay)*
 | 10    | *[The 5 Color Ejection](Reference.md#the-5-color-ejection-5ce)*
 | 11    | *[The 5 Pull](Reference.md#the-5-pull)*
 | 12    | *[Priority](Reference.md#the-priority-prompt--the-priority-finesse)*
