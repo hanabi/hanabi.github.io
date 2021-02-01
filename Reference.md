@@ -4024,7 +4024,7 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   - All 1's are played on the stacks.
   - Alice discards a known red 2 as a *Gentleman's Discard*.
   - Bob sees that Cathy's hand is completely unclued and is as follows, from left to right: `red 1 (trash), red 2, green 1 (trash), green 1 (trash), blue 1 (trash)`
-  - Bob knows that normally, the *Gentleman's Discard* promises that the other copy of the red 2 is on *Finesse Position*. But Alice is lying to Cathy, because she will go on to misplay the red 1 as the red 2.
+  - Bob knows that normally, the *Gentleman's Discard* promises that the other copy of the red 2 is on *Finesse Position*. But Alice is *Lying* to Cathy, because she will go on to misplay the red 1 as the red 2.
   - Bob knows that it would be pointless for Alice to perform a *Gentleman's Discard* and then for Bob to give a *Fix Clue*, as that would waste a clue. So, if Alice is not making a mistake, she must be trying to communicate something extra.
   - Bob knows that this must be a *Blaze Discard* and he must blind-play the *Finesse Position* that matches the *Finesse Position* of the other card. In this case, since the red 2 is on Cathy's *Second Finesse Position* (slot 2), Bob must play his *Second Finesse Position* (slot 2).
   - Bob blind-plays slot 2. It is a blue 2 and it successfully plays.
