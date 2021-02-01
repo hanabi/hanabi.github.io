@@ -12,7 +12,7 @@ These conventions apply to any variant with an omni (touched by all clues) suit.
 
 - Sometimes, players can play cards "automatically" from *Good Touch Principle*.
 - For example, if the blue 4 and the omni 5 are played on the stacks, then a remaining blue card would be a known blue 5, and would be automatically played without any additional clues being given.
-- However, because omni cards are very easy to touch, it is common for clues to "pick up" trash omni cards.
+- However, due to the nature of omni cards, it is common for clues to "pick up" trash omni cards.
 - Thus, players should **not** automatically play cards from *Good Touch Principle* in this manner.
 - However, players should still play clued cards if they could be *Prompted*.
 - For example:
