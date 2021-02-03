@@ -1,6 +1,6 @@
 ## Convention Questions
 
-When asking questions in the #convention-questions channel, please remember to:
+When asking questions in the `#convention-questions` channel, please remember to:
 
 1) Include the convention level that the current players of the game are playing with.
 
