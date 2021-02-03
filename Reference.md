@@ -3268,8 +3268,9 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
 - If the other copy of a card is in the trash already, then the remaining copy needs to be saved. These cards are allowed to be saved with either a color clue or a number clue.
 - If both types of clues will **only** introduce one new card, then it is said that that there is a *Free Choice* between the two clue types.
 - In this situation, the clue type will be chosen that "fills in" other ancillary cards in the hand or gives important negative information.
-- If a clue type is chosen that is clearly worse than the other one, then the clue giver must be trying to communicate something extra.
+- If a clue type is chosen that is **clearly worse** than the other one, then the clue giver must be trying to communicate something extra.
 - The means that this innocent-looking *Save Clue* is really a *Play Clue*, and all of the in-between cards are called for.
+- Note that for a *Suboptimal Save Finesse* to work, the clue has to be **really bad**, not just technically suboptimal in some slight way.
 
 ### The Declined 5's Finesse
 
