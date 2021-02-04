@@ -4,7 +4,8 @@ When asking questions in the `#convention-questions` channel, you must follow th
 
 ### 1) Replay Links
 
-If the question is about **a real game**, then you must include a link to the game by using the /replay command. Do not post a screenshot of the game state.
+* If the question is about **a real game**, then you must include a link to the game by using the /replay command.
+* Do **not** post a screenshot of the game state.
 
 ### 2) Alice and Bob Stories
 
@@ -21,11 +22,16 @@ Use notation that the Hyphen-ated group will be familiar with:
 
 ### 4) Convention Level
 
-You must include a convention level with your question, even if you think it is obvious. Use the level that the players of the game were playing with or the level relating to the conventions that you are asking about.
+* You must include a convention level with your question (even if you think it is obvious).
+* Use the level that the players of the game were playing with or the level relating to the conventions that you are asking about.
 
 ### 5) High-Effort Questions
 
-Avoid asking short questions like: "here is my replay, does the clue mean X or Y", or "here is my replay, what is the best move". Instead, explain what **you** think the best answer is, based on your current understanding of the conventions. Provide a detailed explanation as to **why** you think it is the best answer. Discuss any relevant contextual clues present in the game that influence the answer, if any. Provide an alternate answer that might also be the case and discuss why that answer is not as good.
+* Avoid asking short questions like: "here is my replay, does the clue mean X or Y", or "here is my replay, what is the best move".
+* Instead, explain what **you** think the best answer is, based on your current understanding of the conventions.
+* Provide a detailed explanation as to **why** you think it is the best answer.
+* Discuss any relevant contextual clues present in the game that influence the answer, if any.
+* Provide an alternate answer that might also be the case and discuss why that answer is not as good.
 
 ### Reasoning
 
