@@ -14,8 +14,6 @@ Are you looking to start playing games with the group? Fantastic - we are always
 
 Have you found your way here from the Internet? That's fine too. Feel free to cherry-pick strategies for your own group, or even adopt the whole convention framework. We enjoy talking to other Hanabi players, so make sure to say hi in the [Discord server](https://discord.gg/FADvkJp) as well. (Discord is a voice and text chat application that you can run in a browser.)
 
-Note that while Hanabi is a 2 to 5 player game, our group generally only plays games with 3 to 5 players, since 2-player games can be quite boring. Thus, our strategies don't really apply to 2-player games; separate conventions are necessary for optimized play in that game type.
-
 <br />
 
 ## The List of Main Documents
