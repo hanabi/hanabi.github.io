@@ -1,6 +1,6 @@
 ## Convention Questions
 
-When asking questions in the `#convention-questions` channel, we ask that you please follow these 5 rules:
+When asking questions in the `#convention-questions` channel, please follow these 5 rules:
 
 ### 1) Replay Links
 
