@@ -23,7 +23,7 @@ Use notation that the Hyphen-ated group will be familiar with:
 ### 4) Convention Level
 
 * You must include a convention level with your question (even if you think it is obvious).
-* Use the level that the players of the game were playing with or the level relating to the conventions that you are asking about.
+* Use the level that the players of the game were playing with or the level relating to the convention that you are asking about.
 
 ### 5) High-Effort Questions
 
