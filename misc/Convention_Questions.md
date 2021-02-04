@@ -1,6 +1,6 @@
 ## Convention Questions
 
-When asking questions in the `#convention-questions` channel, you must follow these rules:
+When asking questions in the `#convention-questions` channel, you must follow these 5 rules:
 
 1) If the question is about **a real game**, then you must include a link to the game by using the /replay command. Do not post a screenshot of the game state.
 2) If the question is about **a hypothetical**, you must type out a comprehensive Alice and Bob story in the style of the reference document.
