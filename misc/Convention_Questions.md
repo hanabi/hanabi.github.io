@@ -17,8 +17,8 @@ Use notation that the Hyphen-ated group will be familiar with:
 - Use "red 3" instead of "3 red".
 - Use "r3" instead of "3r".
 - Use "r[3]" to indicate that a card is a red 3 but has a number 3 clue on it.
-- Always use the characters of Alice, Bob, Cathy, Donald, Emily, and Frank instead of real player names.
-- Alice should always be the player who performs the first action, and so forth."
+- If using a replay, then use the names of the players in the replay.
+- If using a hypothetical, always use the characters of Alice, Bob, Cathy, Donald, Emily, and Frank. (Alice should always be the player who performs the first action.)
 
 ### 4) Convention Level
 
