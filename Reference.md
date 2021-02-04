@@ -6,7 +6,7 @@ Convention updates are listed in the `#announcements` channel on the [Discord se
 
 <br />
 
-## ⚠️ New Player Warning
+## ⚠️ New Player Warning ⚠️
 
 If you are a brand new player, **do not bother reading this document**. It is much better to simply read the [introductory document](Beginner.md) and then start playing games with the group. This document can be used as a reference as you continue to naturally improve at the game.
 
@@ -16,7 +16,7 @@ It is **not** a good idea to rush to learn everything here as quickly as possibl
 
 <br />
 
-## ⚠️ Rigidity Warning
+## ⚠️ Rigidity Warning ⚠️
 
 Even though the reference document outlines the "correct" thing to do in a lot of situations, these are not hard and fast rules. Rather, they are intended to show the "default" or "common" case. Everything is flexible and can be modified by using wits, judgment, and a lot of experience.
 
