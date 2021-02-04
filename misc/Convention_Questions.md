@@ -1,6 +1,6 @@
 ## Convention Questions
 
-When asking questions in the `#convention-questions` channel, please follow these 5 rules:
+Ask questions about the Hyphen-ated conventions in the in the `#convention-questions` channel. But please follow these 5 rules:
 
 ### 1) Replay Links
 
