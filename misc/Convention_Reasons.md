@@ -64,7 +64,7 @@ The main [reference document](../Reference.md) lists all of our conventions. But
 
 ### Elimination Finesse Calling for Oldest Card
 
-- In the Hyphen-ated convention framework, [we arbitrarily decide that *Elimination Finesses* call for the right-most card instead of the left-most card](https://github.com/Zamiell/hanabi-conventions/blob/master/Reference.md#the-elimination-finesse). Why?
+- In the Hyphen-ated convention framework, we arbitrarily decide that [*Elimination Finesses* call for the right-most card](https://github.com/Zamiell/hanabi-conventions/blob/master/Reference.md#the-elimination-finesse) instead of the left-most card. Why?
 - Intuitively, you would expect the left-most card should be called for, since that is how *Finesses* normally work.
 - However, consider the following 3-player game:
   - No red cards are played on the stacks.
