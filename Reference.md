@@ -2229,7 +2229,7 @@ Priority does not always apply. Some common exceptions are listed below.
 
 ### Elimination & Chop Focus
 
-* Sometimes, giving a clue can change the *Elimination Notes* that are written on a hand (e.g. reducing the amount of *Elimination Notes* from 4 to 2).
+* Sometimes, giving a clue can change the *Elimination Notes* that are written on a hand (e.g. reducing the amount of *Elimination Notes* from 4 to 1).
 * The focus of such a clue is evaluated **before** the clue is given.
 * For example, in 3-player game:
   * Red 1 is played on the stacks.
