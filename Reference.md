@@ -2229,14 +2229,16 @@ Priority does not always apply. Some common exceptions are listed below.
 
 ### Elimination & Chop Focus
 
-* Sometimes, giving a clue can change the *Elimination Notes* that are written on a hand (e.g. reducing the amount of *Elimination Notes* from 4 to 1).
-* The focus of such a clue is evaluated **before** the clue is given (just like how any other clue works).
+* First, see the section on the *[Elimination Play Clue](the-elimination-play-clue)*.
+* In the *Elimination Play Clue*, the presence of *Elimination Notes* changes the "normal" focus of a clue, because the clue actively touches one of the cards with *Elimination Notes*.
+* However, if a clue does **not** touch one of the cards with *Elimination Notes*, then the focus of the clue should be evaluated normally. In other words, the focused slot should be evaluated before the clue was given (just like how every other clue works).
 * For example, in 3-player game:
   * Red 1 is played on the stacks.
   * Alice discards red 2. She writes *Elimination Notes* for red 2 on slot 2, slot 3, slot 4, and slot 5.
   * Bob clues number 3 to Alice, touching four 3's on slot 1, slot 2, slot 3, and slot 4.
   * Alice now knows that the red 2 is exactly on slot 5.
-  * Alice also knows that Bob's number 3 clue must be a *Play Clue* on the red 3. The clue is either focused on slot 1 (her newest card) or slot 4 (her "new" chop after the red 2 is accounted for).
+  * Alice also knows that Bob's number 3 clue must be a *Play Clue* on the red 3. But which slot is focused (e.g. promised to be red 3)?
+  * The clue is either focused on slot 1 (her newest card) or slot 4 (her "new" chop after the red 2 is accounted for).
   * Alice knows that you evaluate where the chop is before clues are given, so the clue must be focused on slot 1.
 
 <br />
