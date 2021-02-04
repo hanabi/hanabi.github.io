@@ -59,3 +59,21 @@ The main [reference document](../Reference.md) lists all of our conventions. But
 | discard rightmost   | purple 1           | trash 1               | discard slot 3 | attempted normal discard that turns into a *Trash Order Chop Move* on Libster ❌
 | discard rightmost   | trash 1            | purple 1              | discard slot 1 | attempted normal discard that turns into a *Trash Order Chop Move* on Libster ❌
 | discard rightmost   | trash 1            | trash 1               | discard slot 3 | normal discard, nothing special happens ✔
+
+
+### Elimination Finesse Calling for Oldest Card
+
+- If a player is *Finessed* and they already have *Elimination Notes* for the card they're being asked to blind-play, they are expected to play the oldest of the cards with *Elimination Notes* on them (not counting Chop Moved cards, if any)
+- There are two reasons for playing the oldest card instead of the newest.
+  - Consider the following scenario:
+    - No red cards are played on the stacks
+    - Alice discards red 1 from slot 5 and writes *Elimination Notes* on the cards that have moved to slots 2, 3, 4, and 5.
+    - On Alice's first turn, she drew the copy of red 1 that she has now discarded.
+    - On Alice's second turn she drew the card that is now in slot 5.
+    - On Alice's fifth turn, she drew the card that is now in slot 2.
+    - Alice considers which card is likeliest to be the second copy of red 1
+    - If the red 1 is in slot 2, then she had one copy of red 1 in her hand for four whole rounds without her teammates cluing it
+    - If the red 1 is in slot 5, then she had one copy of red 1 in her hand for only one round without her teammates cluing it
+    - Therefore, the oldest card is the most likely to be the other copy of red 1, because it spent the most time being in the same hand as her other copy.
+  - The other reason is that allows for more possible finesses over time. If the convention was to play the newest card, then as the player keeps discarding, the card on *Elimination Finesse Position* stays the same, but if the convention is the play chop, it changes after each discard.
+    
