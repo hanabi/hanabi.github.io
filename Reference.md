@@ -2227,8 +2227,19 @@ Priority does not always apply. Some common exceptions are listed below.
   - If Alice's 4 is a red 4, then this would be an *Elimination Self-Finesse*, and Alice should blind-play red 3 from slot 4.
   - Alice knows that in this situation, you always supposed to assume a normal *Finesse*, so she blind-plays blue 3 from slot 2.
 
-<br />
+### Elimination & Chop Focus
 
+* Sometimes, giving a clue can change the *Elimination Notes* that are written on a hand (e.g. reducing the amount of *Elimination Notes* from 4 to 2).
+* The focus of such a clue is evaluated **before** the clue is given.
+* For example, in 3-player game:
+  * Red 1 is played on the stacks.
+  * Alice discards red 2. She writes *Elimination Notes* for red 2 on slot 2, slot 3, slot 4, and slot 5.
+  * Bob clues number 3 to Alice, touching four 3's on slot 1, slot 2, slot 3, and slot 4.
+  * Alice now knows that the red 2 is exactly on slot 5.
+  * Alice also knows that Bob's number 3 clue must be a *Play Clue* on the red 3. The clue is either focused on slot 1 (her newest card) or slot 4 (her "new" chop after red 2 is accounted for).
+  * Alice knows that you evaluate where the chop is before clues are given, so the clue must be focused on slot 1.
+
+<br />
 
 ## Level 14 - Scholar
 
