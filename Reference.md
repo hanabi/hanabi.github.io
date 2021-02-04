@@ -177,7 +177,7 @@ Note that in this user interface, players are **not** holding their hands like t
 - Level 1 strategies can be learned with no games of Hanabi played. You can either learn them before you play your first game or after you play a few games to learn the basic mechanics.
 - See the [learning path document](Learning_Path.md) for general descriptions of each level.
 
-### Chop
+### Chop <div style="text-align: right">Level 1</div>
 
 - As outlined in the [beginner's guide](Beginner.md#the-chop), when players have to discard, they typically discard their right-most unclued card.
 - A player's chop card is formally defined as **the next unclued card that they would discard if they had nothing to do**.
