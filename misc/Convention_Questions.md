@@ -9,7 +9,7 @@ When asking questions in the `#convention-questions` channel, please follow thes
 
 ### 2) Alice and Bob Stories
 
-If the question is about **a hypothetical**, you must type out a comprehensive Alice and Bob story in the style of the reference document.
+* If the question is about **a hypothetical**, you must type out an Alice and Bob story in the style of the reference document.
 
 ### 3) Hyphen-ated Notation
 
