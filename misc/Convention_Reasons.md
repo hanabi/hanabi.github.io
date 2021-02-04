@@ -60,6 +60,8 @@ The main [reference document](../Reference.md) lists all of our conventions. But
 | discard rightmost   | trash 1            | purple 1              | discard slot 1 | attempted normal discard that turns into a *Trash Order Chop Move* on Libster ❌
 | discard rightmost   | trash 1            | trash 1               | discard slot 3 | normal discard, nothing special happens ✔
 
+<br />
+
 ### Elimination Finesse Calling for Oldest Card
 
 - In the Hyphen-ated convention framework, [we arbitrarily decide that *Elimination Finesses* call for the right-most card instead of the left-most card](https://github.com/Zamiell/hanabi-conventions/blob/master/Reference.md#the-elimination-finesse). Why?
