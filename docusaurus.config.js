@@ -1,7 +1,7 @@
 module.exports = {
   title: 'The Hyphen-ated Conventions',
   url: 'https://hyphenated.github.com',
-  baseUrl: '/',
+  baseUrl: '/hanabi-conventions',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
