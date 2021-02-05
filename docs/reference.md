@@ -25,7 +25,7 @@ Even though the strategy reference outlines the "correct" thing to do in a lot o
 
 ## Examples
 
-Throughout this document, there will be a mix of both text-based examples and graphical screenshots.
+This website has a mix of both text-based examples and graphical screenshots.
 
 In a text-based example:
 - The player who goes first will always be Alice.
