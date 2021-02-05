@@ -4,7 +4,7 @@ title: Level 13 - Senior
 ---
 
 - Level 13 strategies should only be learned if you have 220+ games of experience with the group.
-- This level introduces Elimination and all of the complicated situations that go along with it.
+- This level introduces *Elimination* and all of the complicated situations that go along with it.
 
 <br />
 

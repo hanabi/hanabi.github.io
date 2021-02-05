@@ -4,7 +4,7 @@ title: Level 9 - Fellow
 ---
 
 - Level 9 strategies should only be learned if you have 140+ games of experience with the group.
-- This level introduces 3 Bluffs and some higher level concepts.
+- This level introduces *3 Bluffs* and some higher level concepts.
 - Level 9 subsections:
   - [Conventions & Special Moves](#conventions--special-moves)
   - [General Principles](#general-principles)

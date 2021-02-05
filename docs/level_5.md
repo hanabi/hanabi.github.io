@@ -4,7 +4,7 @@ title: Level 5 - Proselyte
 ---
 
 - Level 5 strategies should only be learned if you have 60+ games of experience with the group.
-- This level covers some more special kinds of Chop Moves and introduces the various "emergency" discards.
+- This level covers some more special kinds of *Chop Moves* and introduces the various "emergency" discards.
 - Level 5 subsections:
   - [Conventions & Special Moves](#conventions--special-moves)
   - [General Principles](#general-principles)

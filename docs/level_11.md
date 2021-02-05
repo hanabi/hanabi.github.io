@@ -4,7 +4,7 @@ title: Level 11 - Advanced
 ---
 
 - Level 11 strategies should only be learned if you have 180+ games of experience with the group.
-- This level introduces the "early" 5 moves (which is also referred to as "5 Tech").
+- This level introduces various moves that have to do with cluing number 5 (which is also referred to as *5 Tech*).
 
 <br />
 

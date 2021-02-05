@@ -4,7 +4,7 @@ title: Level 8 - Intermediate
 ---
 
 - Level 8 strategies should only be learned if you have 120+ games of experience with the group.
-- This level introduces Bluffs and all of the complicated stipulations that go along with them.
+- This level introduces *Bluffs* and all of the complicated stipulations that go along with them.
 - Level 8 subsections:
   - [Conventions & Special Moves](#conventions--special-moves)
   - [General Principles](#general-principles)
