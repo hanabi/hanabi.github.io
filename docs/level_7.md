@@ -14,7 +14,7 @@ title: Level 7 - Apprentice
 
 ### The Gentleman's Discard
 
-- First, read the section on the *[Sarcastic Discard](#the-sarcastic-discard)*.
+- First, read the section on the *[Sarcastic Discard](level_3.md#the-sarcastic-discard)*.
 - To review, the *Sarcastic Discard* is:
   1) a move that transfers a **clued card** in one person's hand to a **clued card** in another person's hand
   2) **necessary** to eliminate confusion among the team (because from *Good Touch Principle*, we are not normally supposed to have two copies of the same card "touched" with a clue)
