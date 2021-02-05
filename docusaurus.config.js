@@ -49,7 +49,7 @@ module.exports = {
         {
           href: 'https://github.com/Zamiell/hanabi-conventions/issues',
           label: 'Convention Proposals',
-          position: 'left',
+          position: 'right',
         },
         {
           href: 'https://github.com/Zamiell/hanabi-conventions',
