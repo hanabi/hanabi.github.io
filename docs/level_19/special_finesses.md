@@ -5,7 +5,7 @@ title: Special Finesses
 
 ### The Selfish Finesse (A Finesse Through Your Own Hand)
 
-- First, see the section on the *[Selfish Clue](#the-selfish-clue)*.
+- First, see the section on the *[Selfish Clue](miscellaneous.md#the-selfish-clue)*.
 - One excellent reason to give a *Selfish Clue* is to "lock in" a *Finesse* before the cards move out of *Finesse Position*. This is called a *Selfish Finesse*.
 - Like any other *Finesse*, players in this situation should just mark the cards for later and wait patiently for the cluer to play their card.
 - For example, in a 3-player game:
@@ -127,7 +127,7 @@ title: Special Finesses
 
 ### The Bad Touch Layered Finesse That Dupes a Clued Card (Illegal)
 
-- First, see the section on the *[Bad Touch Double Finesse (For 3's)](#the-bad-touch-double-finesse-for-3s)*.
+- First, see the section on the *[Bad Touch Double Finesse (For 3's)](special_finesses.md#the-bad-touch-double-finesse-for-3s)*.
 - Similar to a *Bad Touch Double Finesse (For 3's)*, it is also possible to try a *Bad Touch Layered Finesse* on the next player.
 - For example, in a 3-player game:
   - No cards are played on the stacks.
@@ -146,18 +146,6 @@ title: Special Finesses
   - Cathy blind-plays red 2.
   - Donald knows that normally, this would be a *4 Double Bluff* and that no-one should play any more cards. However, since the red 4 was duplicated, this must be a *Bad Touch Triple Finesse*, so Cathy blind-plays her *Finesse Position* and it is the red 3.
   - Emily knows that this cannot be a *4 Double Bluff*, or else Donald would not have blind-played anything. Thus, this must be a *Bad Touch Triple Finesse*, so Emily plays her left-most red 4. The next time that Emily discards, she will discard the known trash red 4.
-
-### The Repair Prompt + The Repair Finesse
-
-- First, see the section on [Saving Playable Cards when the Preceding Cards Are Not Promptable](#saving-playable-cards-when-the-preceding-cards-are-not-promptable).
-- When a player gives a clue that will "mis-*Prompt*" a player, it is almost always a situation where they need to save the playable card.
-- However, if this is not the case, it is quite strange, and looks like a mistake.
-- In this situation, if the "problem" card is **exactly** *one-away from being playable*, it communicates that someone else has the card to "repair" the situation and cause the *Prompt* to work out properly.
-- In other words, a *Repair Prompt* is a *Prompt* that also *Prompts* other players cards at the same time.
-- If players do not have any matching cards in their hand, they should instead assume a *Repair Finesse*, and blind-play the repairing card from their *Finesse Position*.
-- Note that a *Repair Finesse* is very different from a *Patch Finesse*: a *Repair Finesse* is always known to the person *repairing*, but a *Patch Finesse* is always hidden from the person *patching*.
-- Examples:
-  - [Game #16695, turn 10](https://hanab.live/replay/16695/10)
 
 ### The Patch Finesse
 
@@ -194,7 +182,7 @@ title: Special Finesses
 
 ### The Trash Finesse (Weak Form)
 
-- First, see the section on *[Trash Touch Elimination](#trash-touch-elimination)*.
+- First, see the section on *[Trash Touch Elimination](miscellaneous.md#trash-touch-elimination)*.
 - When players deliberately touch ancillary trash and there is only one card "missing", then it should trigger *Trash Touch Elimination Notes*. But what if there are two or more cards that are missing?
 - In this situation, the clue giver is promising that someone has one of the missing cards on their *Finesse Position*. Once the card is blind-played, the recipient of the clue will know that one of their ancillary cards are trash.
 - This is more subtle than the strong *Trash Finesse*. In the strong form, the focus of the clue causes a blind-play. In the weak form, the non-focused cards are what causes the blind-play
@@ -212,14 +200,14 @@ title: Special Finesses
 
 ### The Pestilent Finesse
 
-- First, see the section on the *[Pestilent Double Bluff](#the-pestilent-double-bluff-pdb)*.
+- First, see the section on the *[Pestilent Double Bluff](level_17.md#the-pestilent-double-bluff-pdb)*.
 - In the *Pestilent Double Bluff* example, Cathy is supposed to immediately blind-play her *Finesse Position* card in order to "heal" the situation with Bob.
 - However, if Cathy sees that someone else on the team has the red 2 in their *Finesse Position*, then Cathy can see that it is a *Pestilent Finesse* instead of a *Pestilent Bluff*. Cathy can simply let the person with the actual red 2 blind-play and that will "heal" the problem in the exact same way.
 - A *Pestilent Finesse* cannot be in reverse. (In other words, the blind-play must happen before the clued player can misplay.)
 
 ### The Diseased Clandestine Finesse
 
-- First, see the section on the *[Pestilent Double Bluff](#the-pestilent-double-bluff-pdb)*.
+- First, see the section on the *[Pestilent Double Bluff](level_17.md#the-pestilent-double-bluff-pdb)*.
 - In the *Pestilent Double Bluff* example, Cathy is supposed to immediately blind-play her *Finesse Position* card in order to "heal" the situation with Bob.
 - However, if Cathy sees a clue that she can give that will turn the move into a *Clandestine Finesse* on Bob, then she must always do that.
 - For example, in a 4-player game:

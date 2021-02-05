@@ -17,7 +17,7 @@ title: Level 18 - Professional
 
 ### The Scream Discard for a Phantom Playable Card
 
-- First, see the section on the *[Scream Discard](#the-scream-discard-chop-move-deliberately-discarding-instead-of-playing)* and the section on *[Phantom Playable Cards](#phantom-playable-cards)*.
+- First, see the section on the *[Scream Discard](level_5.md#the-scream-discard-chop-move-deliberately-discarding-instead-of-playing)* and the section on *[Phantom Playable Cards](#phantom-playable-cards)*.
 - Normally, you are only allowed to perform a *Scream Discard* for a critical card or a playable card. But what about a *Phantom Playable Card*?
 - In most cases, players should also *Scream Discard* for a *Phantom Playable Card*, but it depends on the situation:
   - Will it be clear to everyone what is happening?
@@ -29,14 +29,14 @@ title: Level 18 - Professional
 
 ### The Sacrifice Discard
 
-- First, see the section on the *[Scream Discard](#the-scream-discard-chop-move-deliberately-discarding-instead-of-playing)*.
+- First, see the section on the *[Scream Discard](level_5.md#the-scream-discard-chop-move-deliberately-discarding-instead-of-playing)*.
 - It is generally undesirable for a player to have a *Locked* hand, but sometimes it happens. And sometimes, one card in the locked hand is useful in the future, but not critical (meaning there is another copy of the card in someone else's hand or still in the deck).
 - Normally, you are never supposed to discard cards that have clues on them. And if you do, it implies a *Sarcastic Discard* or a *Gentleman's Discard*. However, when a player is locked, they can choose to "sacrifice" one of the cards in their hand that is non-critical. And in this situation, it does **not** imply a *Sarcastic Discard* or a *Gentleman's Discard*.
 - Sometimes, when a *Locked* player discards a non-critical card, it is a *Generation Discard*, and sometimes, it is a *Sacrifice Discard*. The other players on the team just have to decide which one it is based on how well the game is going. Usually, it is pretty obvious which one of the two it is, as *Sacrifice Discards* are usually very rare and are only done in very dire situations.
 
 ### The Shout Discard Chop Move
 
-- First, see the section on the *[Scream Discard](#the-scream-discard-chop-move-deliberately-discarding-instead-of-playing)*.
+- First, see the section on the *[Scream Discard](level_5.md#the-scream-discard-chop-move-deliberately-discarding-instead-of-playing)*.
 - Normally, when a player performs a *Scream Discard*, they are discarding their chop (e.g. an unknown and unclued card).
 - However, if a player has both a known-playable card and a known-trash card, then discarding the known-trash card instead of playing their known-playable card would *still* communicate a *Scream Discard* to the next player in the exact same way.
 - This situation is slightly different than the normal case, so we call it a *Shout Discard* to differentiate it from a more-ordinary *Scream Discard*.
@@ -48,14 +48,14 @@ title: Level 18 - Professional
 
 ### The Whisper Discard Chop Move
 
-- First, see the section on the *[Scream Discard](#the-scream-discard-chop-move-deliberately-discarding-instead-of-playing)*.
+- First, see the section on the *[Scream Discard](level_5.md#the-scream-discard-chop-move-deliberately-discarding-instead-of-playing)*.
 - Occasionally, a player will have known trash in their hand. Obviously, they are expected to discard the known trash first before discarding their right-most unclued card.
 - Thus, if a player instead discards their right-most unclued card instead of the known trash, it must be a signal that something is wrong, exactly like a *Scream Discard*. This is more subtle than a *Scream Discard* though, so it is called a Whisper Discard.
 - *Whisper Discards* are to be treated identically to *Scream Discards*. In short, this means that they 1) cause a *Chop Move* and 2) force a clue to be given on the next turn.
 
 ### The Echo Scream Discard Chop Move
 
-- First, see the section on the *[Scream Discard](#the-scream-discard-chop-move-deliberately-discarding-instead-of-playing)*.
+- First, see the section on the *[Scream Discard](level_5.md#the-scream-discard-chop-move-deliberately-discarding-instead-of-playing)*.
 - A *Scream Discard Chop Move* is done only as a last resort. So, if the next player has an unimportant card on chop, then the move is usually a *Generation Discard* and does not *Chop Move* anyone.
 - However, what if a *Scream Discard* is done and the next player has either:
   - a known playable card
@@ -67,7 +67,7 @@ title: Level 18 - Professional
 
 ### The Composition Discard
 
-- First, see the section on the *[Scream Discard](#the-scream-discard-chop-move-deliberately-discarding-instead-of-playing)* and the *[Generation Discard](#the-generation-discard)*.
+- First, see the section on the *[Scream Discard](level_5.md#the-scream-discard-chop-move-deliberately-discarding-instead-of-playing)* and the *[Generation Discard](level_5.md#the-generation-discard)*.
 - In rare cases, it is possible for a discard to be both a *Scream Discard* and a *Generation Discard* at the same time, for two different players.
 - For example, in a 4-player game:
   - There are 0 clues in the bank.
@@ -79,7 +79,7 @@ title: Level 18 - Professional
 
 ### The Rebellious Discard
 
-- First, see the section on the *[Scream Discard](#the-scream-discard-chop-move-deliberately-discarding-instead-of-playing)*.
+- First, see the section on the *[Scream Discard](level_5.md#the-scream-discard-chop-move-deliberately-discarding-instead-of-playing)*.
 - Part of the *Scream Discard* convention states that after a *Scream Discard*, the next player **cannot** discard. Thus, a player in this situation must completely waste a clue if there is nothing productive to do.
 - However, in some situations, the player who has been screamed at sees that if they give a clue, the next player will be left at 0 clues and will be forced to discard a critical card.
 - Thus, in this situation, the player should *Chop Move* as normal and then discard their new chop. This second *Scream Discard* is called a *Rebellious Discard*, because they are not doing what they are told.
