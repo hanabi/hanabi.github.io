@@ -81,7 +81,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/Zamiell/hanabi-conventions/edit/main/website/',
+            'https://github.com/Zamiell/hanabi-conventions/edit/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
