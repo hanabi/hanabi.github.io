@@ -9,7 +9,7 @@ The *[5 Double Pull](/level_19/pushes_pulls.md#the-5-double-pull-or-the-double-5
 
 ### Example 1
 
-![Example Screenshot](/img/examples/examples/5_double_pull.png)
+![Example Screenshot](/img/examples/5_double_pull.png)
 
 - It is Dr_Kakashi's turn.
 - Dr_Kakashi clues number 5 to invarse. That touches the blue 5. Since the blue 5 is one-away from chop, invarse will think that this is a *5's Chop Move*.
