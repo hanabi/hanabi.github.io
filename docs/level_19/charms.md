@@ -49,4 +49,4 @@ title: Charms
   - Thus, Bob knows that this must be a *Safety Charm*. He blind-plays his *Fourth Finesse Position*. It is a blue 1 and it successfully plays.
   - Cathy knows that she must have the red 2. She also knows that her slot 1 card is a 5 that could have been used for a *5 Pull*. Cathy marks the 5 as being *Chop Moved* for later.
 - *4 Charms* take precedence over *Safety Charms*.
-- More examples of a *Safety Charm* can be found [here](https://github.com/Zamiell/hanabi-conventions/blob/master/examples/safety_charm.md).
+- More examples of a *Safety Charm* can be found [here](examples/safety_charm.md).
