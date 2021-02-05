@@ -47,6 +47,11 @@ module.exports = {
           position: 'left',
         },
         {
+          href: 'https://github.com/Zamiell/hanabi-conventions/issues',
+          label: 'Convention Proposals',
+          position: 'left',
+        },
+        {
           href: 'https://github.com/Zamiell/hanabi-conventions',
           label: 'GitHub Repo',
           position: 'right',
