@@ -1,4 +1,11 @@
-## Examples of the [Bubblegum Wraparound](../variant-specific/Pink.md#the-bubblegum-wraparound)
+---
+id: bubblegum_wraparound
+title: Examples of the Bubblegum Wraparound
+---
+
+*[Bubblegum Wraparound](/variant_specific/pink.md#the-bubblegum-wraparound)* is a level 19 variant-specific convention.
+
+<br />
 
 #### Example 1
 

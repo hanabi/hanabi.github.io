@@ -15,7 +15,7 @@ Why is this kind of thing important? A common mistake we see from intermediate p
 
 If you are a newer player and you feel like you have mastered the concepts in the beginner's guide, then use the left sidebar to start exploring the level 2 conventions.
 
-For information on how variants tie in to the levels, see the [variant summary](#variant-summary).
+For information on how variants tie in to the levels, see the [variant summary](variant-summary).
 
 <br />
 
@@ -25,24 +25,24 @@ The following is a quick summary of the levels.
 
 | Level | Main Conventions Learned | Other Conventions Learned
 | ----- | ----------------------- | -------------------------
-| 1     | *[The Early Game](Reference.md#the-early-game)*, *[5 Stalls](Reference.md#the-5-stall)*, *[Prompts](Reference.md#the-prompt)*, *[Finesses](Reference.md#the-finesse)*
-| 2     | *[Play Order for 1's](Reference.md#playing-multiple-1s---play-order-inversion-in-the-starting-hand-part-1)*, *[Reverse Finesses](Reference.md#the-reverse-finesse)*, *[Self-Finesses](Reference.md#the-self-finesse)*
-| 3     | *[Sarcastic Discards](Reference.md#the-sarcastic-discard)*, *[Trash Chop Moves](Reference.md#the-trash-chop-move)*, *[5's Chop Moves](Reference.md#the-5s-chop-move-5cm)*
-| 4     | *[Double Discard Situations](Reference.md#double-discard-situations)*, *[Layered Finesses](Reference.md#the-layered-finesse)* | *[Hidden Finesses](Reference.md#the-hidden-finesse)*, *[Clandestine Finesses](Reference.md#the-clandestine-finesse)*, *[Stacked Finesses](Reference.md#the-stacked-finesse)*
-| 5     | *[Order Chop Moves](Reference.md#the-order-chop-move-ocm)*, *[Scream Discard Chop Moves](Reference.md#the-scream-discard-chop-move-deliberately-discarding-instead-of-playing)*, *[Generation Discards](Reference.md#the-generation-discard)*, *[Tempo Clue Chop Moves](Reference.md#the-tempo-clue-chop-move)* | *[Misplay Chop Moves](Reference.md#the-misplay-chop-move)*
-| 6     | *[Locked Hand Saves](Reference.md#the-locked-hand-save-lhs)*, *[8 Clue Saves](Reference.md#clues-given-while-at-8-clues--the-8-clue-save-severity-4-stalling)*
-| 7     | *[Gentleman's Discards](Reference.md#the-gentlemans-discard)*, *[Sarcastic Finesses](Reference.md#the-sarcastic-finesse)*, *[Certain Finesses](Reference.md#the-certain-finesse--the-certain-discard)* | *[Baton Discards](Reference.md#the-baton-discard)*
-| 8     | *[Bluffs](Reference.md#the-bluff)*
-| 9     | *[Ambiguous Finesses](Reference.md#the-ambiguous-finesse)*, *[Trash Order Chop Moves](Reference.md#the-trash-order-chop-move)*, *[3 Bluffs](Reference.md#the-3-bluff)*, *[Critical 4 Bluffs](Reference.md#the-critical-4-bluff)* | *[Stale 1's Clues](Reference.md#context-clues--the-stale-1s-clue)*, *[Focus Inversion](Reference.md#focus-inversion)*, *[Positional Discards](Reference.md#the-positional-discard-indicating-a-play-with-a-discard)*, *[Positional Misplays](Reference.md#the-positional-misplay-indicating-a-play-with-a-misplay)*
-| 10    | *[The 5 Color Ejection](Reference.md#the-5-color-ejection-5ce)*
-| 11    | *[The 5 Pull](Reference.md#the-5-pull)*
-| 12    | *[Priority](Reference.md#the-priority-prompt--the-priority-finesse)*
-| 13    | *[Elimination](Reference.md#discard-elimination--elimination-notes)*
-| 14    | *[Occupied Play Clues](Reference.md#the-occupied-play-clue--the-occupied-finesse-opc)*, *[Trash Pushes](Reference.md#the-trash-push)*, *[Trash Bluffs](Reference.md#the-trash-bluff)*, *[Trash Finesses](Reference.md#the-trash-finesse-strong-form)*, [*Finesses* with a *Lie Component*](Reference.md#finesses-with-a-lie-component)
-| 15    | *[The Unknown Trash Discharge](Reference.md#the-unknown-trash-discharge-utd)*, *[The 5 Number Discharge](#Reference.md#5-number-discharge-5nd)*
-| 16    | *[Double Bluffs](Reference.md#the-double-bluff)*, *[4 Double Bluffs](Reference.md#the-4-double-bluff--the-5-double-bluff)*
-| 17    | *[The Good Touch Bluff](Reference.md#the-good-touch-bluff)*, *[The Pestilent Double Bluff](Reference.md#the-pestilent-double-bluff-pdb)*
-| 18    | *[Echo Scream Discard Chop Move](Reference.md#the-echo-scream-discard-chop-move)* | *[Sacrifice Discards](Reference.md#the-sacrifice-discard)*
+| 1     | *[The Early Game](level_1.md#the-early-game)*, *[5 Stalls](level_1.md#the-5-stall)*, *[Prompts](level_1.md#the-prompt)*, *[Finesses](level_1.md#the-finesse)*
+| 2     | *[Play Order for 1's](level_2.md#playing-multiple-1s---play-order-inversion-in-the-starting-hand-part-1)*, *[Reverse Finesses](level_2.md#the-reverse-finesse)*, *[Self-Finesses](level_2.md#the-self-finesse)*
+| 3     | *[Sarcastic Discards](level_3.md#the-sarcastic-discard)*, *[Trash Chop Moves](level_3.md#the-trash-chop-move)*, *[5's Chop Moves](level_3.md#the-5s-chop-move-5cm)*
+| 4     | *[Double Discard Situations](level_4.md#double-discard-situations)*, *[Layered Finesses](level_4.md#the-layered-finesse)* | *[Hidden Finesses](level_4.md#the-hidden-finesse)*, *[Clandestine Finesses](level_4.md#the-clandestine-finesse)*, *[Stacked Finesses](level_4.md#the-stacked-finesse)*
+| 5     | *[Order Chop Moves](level_5.md#the-order-chop-move-ocm)*, *[Scream Discard Chop Moves](level_5.md#the-scream-discard-chop-move-deliberately-discarding-instead-of-playing)*, *[Generation Discards](level_5.md#the-generation-discard)*, *[Tempo Clue Chop Moves](level_5.md#the-tempo-clue-chop-move)* | *[Misplay Chop Moves](level_5.md#the-misplay-chop-move)*
+| 6     | *[Locked Hand Saves](level_6.md#the-locked-hand-save-lhs)*, *[8 Clue Saves](level_6.md#clues-given-while-at-8-clues--the-8-clue-save-severity-4-stalling)*
+| 7     | *[Gentleman's Discards](level_7.md#the-gentlemans-discard)*, *[Sarcastic Finesses](level_7.md#the-sarcastic-finesse)*, *[Certain Finesses](level_7.md#the-certain-finesse--the-certain-discard)* | *[Baton Discards](level_7.md#the-baton-discard)*
+| 8     | *[Bluffs](level_8.md#the-bluff)*
+| 9     | *[Ambiguous Finesses](level_9.md#the-ambiguous-finesse)*, *[Trash Order Chop Moves](level_9.md#the-trash-order-chop-move)*, *[3 Bluffs](level_9.md#the-3-bluff)*, *[Critical 4 Bluffs](level_9.md#the-critical-4-bluff)* | *[Stale 1's Clues](level_9.md#context-clues--the-stale-1s-clue)*, *[Focus Inversion](level_9.md#focus-inversion)*, *[Positional Discards](level_9.md#the-positional-discard-indicating-a-play-with-a-discard)*, *[Positional Misplays](level_9.md#the-positional-misplay-indicating-a-play-with-a-misplay)*
+| 10    | *[The 5 Color Ejection](level_10.md#the-5-color-ejection-5ce)*
+| 11    | *[The 5 Pull](level_11.md#the-5-pull)*
+| 12    | *[Priority](level_12.md#the-priority-prompt--the-priority-finesse)*
+| 13    | *[Elimination](level_13.md#discard-elimination--elimination-notes)*
+| 14    | *[Occupied Play Clues](level_14.md#the-occupied-play-clue--the-occupied-finesse-opc)*, *[Trash Pushes](level_14.md#the-trash-push)*, *[Trash Bluffs](level_14.md#the-trash-bluff)*, *[Trash Finesses](level_14.md#the-trash-finesse-strong-form)*, [*Finesses* with a *Lie Component*](level_14.md#finesses-with-a-lie-component)
+| 15    | *[The Unknown Trash Discharge](level_15.md#the-unknown-trash-discharge-utd)*, *[The 5 Number Discharge](level_15.md#5-number-discharge-5nd)*
+| 16    | *[Double Bluffs](level_16.md#the-double-bluff)*, *[4 Double Bluffs](level_16.md#the-4-double-bluff--the-5-double-bluff)*
+| 17    | *[The Good Touch Bluff](level_17.md#the-good-touch-bluff)*, *[The Pestilent Double Bluff](level_17.md#the-pestilent-double-bluff-pdb)*
+| 18    | *[Echo Scream Discard Chop Move](level_18.md#the-echo-scream-discard-chop-move)* | *[Sacrifice Discards](level_18.md#the-sacrifice-discard)*
 | 19    | All the other miscellaneous rarely-used conventions
 
 <br />

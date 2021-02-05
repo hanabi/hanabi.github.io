@@ -1,4 +1,11 @@
-## Examples of the [Purge Bluff](../Reference.md#the-purge-bluff-layered-bluff)
+---
+id: purgee_bluff
+title: Examples of the Purge Bluff
+---
+
+The *[Purge Bluff](/level_19/special_bluffs.md#the-purge-bluff-layered-bluff)* is a level 19 convention.
+
+<br />
 
 ### Example 1
 

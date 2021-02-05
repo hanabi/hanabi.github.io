@@ -19,9 +19,33 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs/about/',
+          to: 'docs/about',
           activeBasePath: 'docs',
           label: 'About',
+          position: 'left',
+        },
+        {
+          to: 'docs/beginner',
+          activeBasePath: 'docs',
+          label: 'Beginner',
+          position: 'left',
+        },
+        {
+          to: 'docs/learning_path',
+          activeBasePath: 'docs',
+          label: 'Learning Path',
+          position: 'left',
+        },
+        {
+          to: 'docs/reference',
+          activeBasePath: 'docs',
+          label: 'Reference',
+          position: 'left',
+        },
+        {
+          to: 'docs/variant_specific',
+          activeBasePath: 'docs',
+          label: 'Variant-Specific',
           position: 'left',
         },
         {

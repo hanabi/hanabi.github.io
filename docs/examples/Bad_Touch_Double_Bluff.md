@@ -1,4 +1,11 @@
-## Examples of the [Bad Touch Double Bluff](../Reference.md#the-bad-touch-double-bluff-for-3s)
+---
+id: bad_touch_double_bluff
+title: Examples of the Bad Touch Double Bluff
+---
+
+The *[Bad Touch Double Bluff](/level_19/special_bluffs.md#the-bad-touch-double-bluff-for-3s)* is a level 19 convention.
+
+<br />
 
 ### Example 1
 

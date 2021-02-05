@@ -9,14 +9,14 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 ## Table of Contents
 
 1. [Basic Description](#basic-description)
-2. [Clue Interpretation Tables](#clue-interpretation-tables)
-3. [Terminology](#terminology)
-4. [Instruction Priority](#instruction-priority)
-5. [Instruction Rules](#instruction-rules)
-6. [Interpreting Instructions](#interpreting-instructions)
-7. [Executing Instructions](#executing-instructions)
-8. [Hat Guessing Tables with Finesses](#hat-guessing-tables-with-finesses)
-9. [Variant-Specific Hat Guessing Tables](#variant-specific-hat-guessing-tables)
+1. [Clue Interpretation Tables](#clue-interpretation-tables)
+1. [Terminology](#terminology)
+1. [Instruction Priority](#instruction-priority)
+1. [Instruction Rules](#instruction-rules)
+1. [Interpreting Instructions](#interpreting-instructions)
+1. [Executing Instructions](#executing-instructions)
+1. [Hat Guessing Tables with Finesses](#hat-guessing-tables-with-finesses)
+1. [Variant-Specific Hat Guessing Tables](#variant-specific-hat-guessing-tables)
 
 <br />
 

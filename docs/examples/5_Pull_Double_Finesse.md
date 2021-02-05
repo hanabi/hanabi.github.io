@@ -1,4 +1,11 @@
-## Examples of the [5 Pull Double Finesse](../Reference.md#the-5-pull-double-finesse)
+---
+id: 5_pull_double_finesse
+title: Examples of the 5 Pull Double Finesse
+---
+
+The *[5 Pull Double Finesse](level_11.md#the-5-pull-double-finesse)* is a level 11 convention.
+
+<br />
 
 #### Example 1
 

@@ -1,4 +1,11 @@
-## Examples of the [5 Double Pull](../Reference.md#the-5-double-pull-or-the-double-5-pull)
+---
+id: 5_double_pull
+title: Examples of the 5 Double Pull
+---
+
+The *[5 Double Pull](/level_19/pushes_pulls.md#the-5-double-pull-or-the-double-5-pull)* is a level 19 convention.
+
+<br />
 
 ### Example 1
 

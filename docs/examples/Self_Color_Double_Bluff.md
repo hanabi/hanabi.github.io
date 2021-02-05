@@ -1,4 +1,11 @@
-## Examples of the [Self Color Double Bluff](../Reference.md#self-color-double-bluff-scdb)
+---
+id: self_color_double_bluff
+title: Examples of the Self Color Double Bluff
+---
+
+The *[Self Color Double Bluff](/level_19/special_bluffs.md#self-color-double-bluff-scdb)* is a level 19 convention.
+
+<br />
 
 #### Example 1
 

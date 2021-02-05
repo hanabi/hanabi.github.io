@@ -1,4 +1,11 @@
-## Examples of the [Pestilent Double Bluff](../Reference.md#the-pestilent-double-bluff-pdb)
+---
+id: pestilent_double_bluff
+title: Examples of the Pestilent Double Bluff
+---
+
+The *[Pestilent Double Bluff](level_17.md#the-pestilent-double-bluff-pdb)* is a level 17 convention.
+
+<br />
 
 ### Example 1
 

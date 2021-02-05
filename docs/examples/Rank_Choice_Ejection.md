@@ -1,4 +1,11 @@
-## Examples of the [Rank Choice Ejection](../Reference.md#rank-choice-ejection-with-a-number-2-or-a-number-5)
+---
+id: rank_choice_ejection
+title: Examples of the Rank Choice Ejection
+---
+
+The *[Rank Choice Ejection](level_19/ejections.md#rank-choice-ejection-with-a-number-2-or-a-number-5)* is a level 19 convention.
+
+<br />
 
 #### Example 1
 

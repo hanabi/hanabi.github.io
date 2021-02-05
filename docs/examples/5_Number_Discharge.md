@@ -1,4 +1,11 @@
-## Examples of the [5 Number Discharge](../Reference.md#5-number-discharge-5nd)
+---
+id: 5_number_discharge
+title: Examples of the 5 Number Discharge
+---
+
+The *[5 Number Discharge](level_15.md#5-number-discharge-5nd)* is a level 15 convention.
+
+<br />
 
 ### Example 1
 
