@@ -5,7 +5,7 @@ module.exports = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: '',
+  organizationName: 'Zamiell',
   projectName: 'hanabi-conventions',
   themeConfig: {
     colorMode: {
@@ -79,7 +79,7 @@ module.exports = {
   scripts: [
     {
       src: 'https://kit.fontawesome.com/1932a73877.js',
-      crossorigin: "anonymous",
+      crossorigin: 'anonymous',
     },
   ],
 };
