@@ -9,7 +9,7 @@ The *[Pestilent Double Bluff](level_17.md#the-pestilent-double-bluff-pdb)* is a 
 
 ### Example 1
 
-![Example Screenshot](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/examples/pestilent_double_bluff.png)
+![Example Screenshot](/img/examples/pestilent_double_bluff.png)
 
 - It is the first turn of the game and Dr_Kakashi starts.
 - Imagine that Dr_Kakashi clues number 2 to RaKXeR. That would touch the red 2 as a *Play Clue*.
@@ -25,7 +25,7 @@ The *[Pestilent Double Bluff](level_17.md#the-pestilent-double-bluff-pdb)* is a 
 
 ### Example 2
 
-![Example Screenshot](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/examples/pestilent_double_bluff2.png)
+![Example Screenshot](/img/examples/pestilent_double_bluff2.png)
 
 - It is Dr_Kakashi's turn.
 - Imagine that Dr_Kakashi clues number 3 to Kyle. That would touch the blue 3 as a *Play Clue*.
@@ -38,7 +38,7 @@ The *[Pestilent Double Bluff](level_17.md#the-pestilent-double-bluff-pdb)* is a 
 
 ### Example 3
 
-![Example Screenshot](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/examples/pestilent_double_bluff3.png)
+![Example Screenshot](/img/examples/pestilent_double_bluff3.png)
 
 - It is scharkbite's turn.
 - Imagine that scharkbite clues number 3 to asaelr. This would touch the black 3 as a *Play Clue*.

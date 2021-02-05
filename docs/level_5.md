@@ -74,7 +74,7 @@ title: Level 5 - Proselyte
 
 ### A Scream Discard Flowchart
 
-[Here is a handy flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/flowcharts/scream_discard_flowchart.png) for determining whether something is a *Scream Discard Chop Move* or a *Generation Discard*. (It also mentions a more advanced move called an *Echo Scream Discard Chop Move*, but you can safely ignore that for now.)
+[Here is a handy flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/static/img/flowcharts/scream_discard_flowchart.png) for determining whether something is a *Scream Discard Chop Move* or a *Generation Discard*. (It also mentions a more advanced move called an *Echo Scream Discard Chop Move*, but you can safely ignore that for now.)
 
 ### The Tempo Clue (Re-cluing a Card to Play)
 

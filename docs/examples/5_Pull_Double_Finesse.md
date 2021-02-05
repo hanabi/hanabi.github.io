@@ -9,7 +9,7 @@ The *[5 Pull Double Finesse](level_11.md#the-5-pull-double-finesse)* is a level 
 
 ### Example 1
 
-![Example Screenshot](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/examples/5_pull_double_finesse.png)
+![Example Screenshot](/img/examples/5_pull_double_finesse.png)
 
 - It is Dr_Kakashi's turn.
 - Dr_Kakashi gives a 5 clue to pianoblook, touching two 5s on slot 1 and 2. Since this is a *Hard Variant*, this clue will always be a *5 Pull*,

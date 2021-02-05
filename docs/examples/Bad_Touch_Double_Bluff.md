@@ -9,7 +9,7 @@ The *[Bad Touch Double Bluff](/level_19/special_bluffs.md#the-bad-touch-double-b
 
 ### Example 1
 
-![Example Screenshot](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/examples/bad_touch_double_bluff.png)
+![Example Screenshot](/img/examples/bad_touch_double_bluff.png)
 
 - It is the first turn of the game and Dr_Kakashi starts.
 - Imagine that Dr_Kakashi clues number 3 to RaKXeR. That would touch both green 3's as a *Play Clue*.

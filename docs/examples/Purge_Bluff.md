@@ -9,7 +9,7 @@ The *[Purge Bluff](/level_19/special_bluffs.md#the-purge-bluff-layered-bluff)* i
 
 ### Example 1
 
-![Example Screenshot](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/examples/purge_bluff.png)
+![Example Screenshot](/img/examples/purge_bluff.png)
 
 - It is Fireheart's turn.
 - Fireheart clues green to Micerang. This "fills in" green 4, which is a signal to Zamiel that the green 4 is playable right now.

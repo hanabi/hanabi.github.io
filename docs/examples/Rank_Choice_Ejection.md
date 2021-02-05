@@ -9,7 +9,7 @@ The *[Rank Choice Ejection](level_19/ejections.md#rank-choice-ejection-with-a-nu
 
 ### Example 1
 
-![Example Screenshot](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/examples/rank_choice_ejection.png)
+![Example Screenshot](/img/examples/rank_choice_ejection.png)
 
 - It is IAMJEFF's turn.
 - IAMJEFF wants to clue the rainbow 5. He could use either a blue clue or a number 5 clue to do so:

@@ -9,7 +9,7 @@ The *[5 Number Discharge](level_15.md#5-number-discharge-5nd)* is a level 15 con
 
 ### Example 1
 
-![Example Screenshot](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/examples/5_number_discharge.png)
+![Example Screenshot](/img/examples/5_number_discharge.png)
 
 - It is the first turn of the game and Jake_Stiles starts.
 - Jake_Stiles clues number 5 to IAMJEFF. That touches the red 5.

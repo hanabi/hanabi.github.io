@@ -9,7 +9,7 @@ The *[Self Color Double Bluff](/level_19/special_bluffs.md#self-color-double-blu
 
 ### Example 1
 
-![Example Screenshot](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/examples/self_color_double_bluff.png)
+![Example Screenshot](/img/examples/self_color_double_bluff.png)
 
 - It is Dr_Kakashi's turn.
 - Dr_Kakashi clues black to Kyle, which "fill in" the black 5. (It was already touched by a number 5 clue early on in the game.)

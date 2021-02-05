@@ -9,7 +9,7 @@ The *[Safety Charm](/level_19/charms.md#the-safety-charm-declined-5-pull)* is a 
 
 ### Example 1
 
-![Example Screenshot](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/examples/safety_charm.png)
+![Example Screenshot](/img/examples/safety_charm.png)
 
 - It is the first turn of the game and Alice starts.
 - Alice clues number 1 to Cathy, touching a blue 1 on slot 2.

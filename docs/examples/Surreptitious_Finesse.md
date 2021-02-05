@@ -9,7 +9,7 @@ The *[Surreptitious Finesse](/level_19/special_finesses.md#the-surreptitious-fin
 
 ### Example 1
 
-![Example Screenshot](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/examples/surreptitious_finesse.png)
+![Example Screenshot](/img/examples/surreptitious_finesse.png)
 
 - It is the first turn of the game and letical starts.
 - letical clues number 3 to Steve, touching the blue 3 as a *Play Clue*.
