@@ -1,5 +1,5 @@
 ---
-id: purgee_bluff
+id: purge_bluff
 title: Examples of the Purge Bluff
 ---
 
