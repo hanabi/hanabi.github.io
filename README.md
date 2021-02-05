@@ -1,6 +1,8 @@
 # Hyphen-ated Conventions for Hanabi
 
-This is the repository for [the conventions website](https://zamiell.github.io/hanabi-conventions/). It is built with [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
+Please visit the **[conventions website](https://zamiell.github.io/hanabi-conventions/)**.
+
+This is the GitHub repository for the website. It is built with [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
 
 ## Installation
 
