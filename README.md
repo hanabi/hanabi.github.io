@@ -1,6 +1,6 @@
 # Hyphen-ated Conventions for Hanabi
 
-![Hyphen-ated](/static/img/hyphenated_circle.png)
+[![Hyphen-ated](/static/img/hyphenated_circle.png)](https://zamiell.github.io/hanabi-conventions/)
 
 Please visit the **[conventions website](https://zamiell.github.io/hanabi-conventions/)**.
 
