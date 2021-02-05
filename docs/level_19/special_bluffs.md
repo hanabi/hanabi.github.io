@@ -15,7 +15,7 @@ title: Special Bluffs
 
 ### Hard Bluffs
 
-- First, see the section on [How to Tell the Difference Between a Finesse and a Bluff (Part 2)](#how-to-tell-the-difference-between-a-finesse-and-a-bluff-part-2---bluffs-are-on-mismatched-cards).
+- First, see the section on [How to Tell the Difference Between a Finesse and a Bluff (Part 2)](level_8.md#how-to-tell-the-difference-between-a-finesse-and-a-bluff-part-2---bluffs-are-on-mismatched-cards).
 - Sometimes, it can be ambiguous as to whether a player blind-played a card into a *Bluff*, or they blind-played into a *Finesse* + *Prompt*. In this situation, *Occam's Razor* applies, so players should go with the *Bluff* interpretation, since it is simpler. When such a *Bluff* occurs, it is called a *Hard Bluff* to disambiguate from situations where *Bluffs* happen with no ambiguity.
 - For example, this is a *Finesse* + *Prompt* and **not** a *Hard Bluff*:
   - Only red 1 is played on the stacks.
@@ -81,7 +81,7 @@ title: Special Bluffs
   - Bob does not see any red cards in other player's hands, so it cannot be a *Prompt* or a *Reverse Finesse*.
   - Bob cannot possibly have the red 3 in his *Finesse Position*, because that card has negative red.
   - Thus, Bob knows that this must be a *Self Color Bluff*, so he blind-plays his *Finesse Position* card as a *Known Bluff* on any playable non-red card. It is a blue 1 and it successfully plays on the stacks.
-- Note that *Self Color Bluffs* should not be confused with the more-ordinary "fill-in" clues that are used in stalling situations. (See the [Allowable Stall Clues](#allowable-stall-clues-stall-table) section.) In other words, **if someone could be in a stalling situation, you should never blind-play a card from a fill-in clue**.
+- Note that *Self Color Bluffs* should not be confused with the more-ordinary "fill-in" clues that are used in stalling situations. (See the [Allowable Stall Clues](level_6.md#allowable-stall-clues-stall-table) section.) In other words, **if someone could be in a stalling situation, you should never blind-play a card from a fill-in clue**.
 - *Self Color Bluffs* are not very good and should only be used sparingly, because:
   - they can be confusing
   - they almost always have an efficiency of a 1-for-1
@@ -121,7 +121,7 @@ title: Special Bluffs
 
 ### Stacked Bluffs (Exception)
 
-- First, see the section explaining that [*Stacked Bluffs* are illegal](#stacked-bluffs-illegal).
+- First, see the section explaining that [*Stacked Bluffs* are illegal](level_8.md#stacked-bluffs-illegal).
 - Rarely, a player can know that a *Layered Finesse* is impossible. This could be because they know the identity of every card in their hand (minus their *Finesse Position* card). Or, alternatively, they could have relevant negative information on their entire hand.
 - If the player can rule out a *Layered Finesse*, then it is possible to perform a *Stacked Bluff* on them. It is important to note that such a player is "locked in" to the *Bluff* and should almost always immediately play their *Finesse Position* card.
 
@@ -178,7 +178,7 @@ title: Special Bluffs
 
 ### The Pestilent Triple Bluff
 
-- First, see the section on the *[Pestilent Double Bluff](#the-pestilent-double-bluff-pdb)*.
+- First, see the section on the *[Pestilent Double Bluff](level_17.md#the-pestilent-double-bluff-pdb)*.
 - Rarely, it is possible that a *Pestilent*-style clues is performed with a two-away-from-playable card instead of a *one-away-from-playable* card. In this situation, it would transform into a *Triple Bluff* instead of a *Double Bluff*.
 - Note that normally, *Triple Bluffs* are explicitly illegal. But *Pestilent Triple Bluffs* are an exception to this rule.
 - For example, in a 5-player game:
@@ -192,7 +192,7 @@ title: Special Bluffs
 
 ### The Pass Bluff
 
-- First, see the section on the *[Hesitation Blind-Play](#the-hesitation-blind-play)*.
+- First, see the section on the *[Hesitation Blind-Play](miscellaneous.md#the-hesitation-blind-play)*.
 - It is possible for a *Hesitation Blind-Play* to occur without anyone intending it to happen. However, if a player intentionally tries to make a *Hesitation Blind-Play* occur, it is called a *Pass Bluff*.
 - In other words, after a *Finesse* occurs that is directed at you, you will know that your *Finesse Position* card is playable. If the next immediate player also has an unrelated playable card on their *Finesse Position*, you can pretend like the *Finesse* wasn't directed at you. This will cause them to think that the *Finesse* was directed at them, and you will get the unrelated card played for free.
 - After the unrelated card is played, the next player should **not** continue to blind-play cards (as a *Layered Finesse*) because:
