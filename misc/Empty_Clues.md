@@ -2,18 +2,6 @@
 
 <br />
 
-## Table of Contents
-
-1. [Clue Interpretation Tables](#clue-interpretation-tables)
-2. [Empty Target Priority](#empty-target-priority)
-3. [History](#history)
-4. [Basic Description](#basic-description)
-5. [Dealing with Edge Cases](#dealing-with-edge-cases)
-6. [Special Empty Moves](#special-empty-moves)
-7. [Alternate Clue Interpretation Tables](#alternate-clue-interpretation-tables)
-
-<br />
-
 ## Clue Interpretation Tables
 
 ### 3-Player

@@ -11,7 +11,11 @@ FILES=$(find "$PARENT_DIR" -type f \
   -not -path "$PARENT_DIR/academic-papers/*.pdf" \
   -not -path "$PARENT_DIR/img/*" \
   -not -path "$PARENT_DIR/misc/*.pdf" \
+  -not -path "$PARENT_DIR/node_modules/*" \
   -not -path "$PARENT_DIR/spell-check/node_modules/*" \
   -not -path "$PARENT_DIR/spell-check/package-lock.json" \
   -not -path "$PARENT_DIR/LICENSE" \
+  -not -path "$PARENT_DIR/package.json" \
+  -not -path "$PARENT_DIR/package-lock.json" \
+  -not -path "$PARENT_DIR/yarn.lock" \
 )
