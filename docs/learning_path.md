@@ -15,7 +15,7 @@ Why is this kind of thing important? A common mistake we see from intermediate p
 
 If you are a newer player and you feel like you have mastered the concepts in the beginner's guide, then use the left sidebar to start exploring the level 2 conventions.
 
-For information on how variants tie in to the levels, see the [variant summary](variant-summary).
+For information on how variants tie in to the levels, see the [variant summary](#variant-summary).
 
 <br />
 

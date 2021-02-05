@@ -19,7 +19,7 @@ title: Discharges
 
 ### Trash Push Discharge
 
-- First, see the section on the [Trash Push](level_14#the-trash-push).
+- First, see the section on the [Trash Push](level_14.md#the-trash-push).
 - Normally, when known trash is touched as the focus of the clue, and the known trash is on chop, it communicates a *Trash Push*.
 - However, what if the *Trash Pushed* card is trash? The other players can see that this clue must have some other purpose - it should signal an *Discharge* on the very next player.
 - This move is extremely similar to the *Unknown Trash Discharge*. In UTD, the focus of the clue is promised as trash. In the *Trash Push Discharge*, the *Trash Pushed* card is promised as trash.

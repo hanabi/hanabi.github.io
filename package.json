@@ -1,5 +1,5 @@
 {
-  "name": "hanabi-conventions",
+  "name": "test",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -12,7 +12,6 @@
     "clear": "docusaurus clear"
   },
   "dependencies": {
-    "@cmfcmf/docusaurus-search-local": "^0.5.0",
     "@docusaurus/core": "2.0.0-alpha.70",
     "@docusaurus/preset-classic": "2.0.0-alpha.70",
     "@mdx-js/react": "^1.6.21",
