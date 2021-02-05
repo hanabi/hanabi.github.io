@@ -71,11 +71,9 @@ module.exports = {
     },
     sidebarCollapsible: false,
   },
-  /*
   plugins: [
     require.resolve('@cmfcmf/docusaurus-search-local'),
   ],
-  */
   presets: [
     [
       '@docusaurus/preset-classic',
