@@ -4,19 +4,19 @@
 
 ## Introduction
 
-- As stated in the main document, our group generally only plays games with 3 to 5 players, since 2-player games can be quite boring. Thus, the *Hyphen-ated Conventions Framework* is **not optimized for play with only 2-players**.
-- With that said, it is possible to use the Hyphen-ated convention framework to also play 2-player games. While not commonly done, it is still perfectly functional, and it is almost always possible to get a perfect scores with expert players.
+- Our group generally only plays games with 3 to 5 players, since 2-player games are not as fun / not as skill-based. In general, the *Hyphen-ated Conventions Framework* is **not optimized for only 2-players**.
+- With that said, it is possible to use the Hyphen-ated convention framework to also play 2-player games. Expert players can usually get perfect scores with ease (depending on the variant).
 - This document provides some extra conventions that are used by our group while playing 2-player games.
-- The goal of these conventions is to get the highest average score for the classic variants ("No Variant" and "Rainbow (6 Suit)") over N games. Thus, they are designed to be quite conservative. If you are playing a more difficult variant, then it might be prudent to play more risky by disabling certain conventions (e.g. one-away saves, DDA) and adding other ones (e.g. positional discards).
+- The goal of these conventions is to get the highest average score for the classic variants ("No Variant" and "Rainbow (6 Suit)") over a large series of games. Thus, they are designed to be quite conservative. If you are playing a more difficult variant, then it might be prudent to play more risky by disabling certain conventions (e.g. one-away saves, DDA) and adding other ones (e.g. positional discards).
 
 <br />
 
 ## Table of Contents
 
 1. [Basic Conventions](#basic-conventions)
-2. [Advanced Conventions](#advanced-conventions)
-3. [Variant-Specific Conventions](#variant-specific-conventions)
-4. [Optional Conventions](#optional-conventions)
+1. [Advanced Conventions](#advanced-conventions)
+1. [Variant-Specific Conventions](#variant-specific-conventions)
+1. [Optional Conventions](#optional-conventions)
 
 <br />
 
