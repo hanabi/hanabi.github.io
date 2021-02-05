@@ -2,6 +2,7 @@ module.exports = {
   mainSidebar: [
     'about',
     'beginner',
+    'how_to_join',
     'learning_path',
     {
       'Strategy Reference': [

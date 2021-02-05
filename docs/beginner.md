@@ -18,7 +18,6 @@ title: Beginner's Guide
 1. [The Three Main Principles](#the-three-main-principles)
 1. [Miscellaneous](#miscellaneous)
 1. [Special Moves](#special-moves)
-1. [How to Join Games](#how-to-join-games)
 
 <br />
 
@@ -26,7 +25,7 @@ title: Beginner's Guide
 
 In this guide, there will be some screenshots to show off the concepts introduced. Here's an example of a screenshot using the "BGA-style" card layout:
 
-<img src="img/beginner/screenshot.png" height="300" />
+![Screenshot](/img/beginner/screenshot.png)
 
 - The five **play stacks** are on the left.
 - The **player hands** are on the right.
@@ -36,7 +35,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
 - Conversely, the oldest card is the right-most card. Alice's oldest card is the blue 5 and Bob's oldest card is the red 5.
 - A card's *slot* refers to its position in the hand. In the above screenshot, the blue 1 is on slot 1, the blue 2 is on slot 2, the blue 3 is on slot 3, and so forth. The red 1 is on slot 1, the red 2 is on slot 2, the red 3 is on slot 3, and so forth.
 
-<img src="img/beginner/screenshot2.png" height="300" />
+![Screenshot](/img/beginner/screenshot2.png)
 
 - When a card has one or more clues on it, a yellow border will appear around the card. The blue 1 and the red 1 will now have permanent yellow borders around them (until they are played or discarded).
 - The arrows indicate the specific cards that are "touched" by the last clue that was given.
@@ -51,13 +50,13 @@ In this guide, there will be some screenshots to show off the concepts introduce
 - When a player needs to discard, they should discard their chop card.
 - This way, everyone discards in a predicable way.
 
-<img src="img/beginner/chop.png" height="300" />
+![Chop](/img/beginner/chop.png)
 
 - In the above screenshot:
   - Alice's chop card is the red 5 (on slot 5).
   - Bob's chop card is the red 3 (on slot 5).
 
-<img src="img/beginner/chop2.png" height="300" />
+![Chop](/img/beginner/chop2.png)
 
 - In the above screenshot:
   - Alice's chop card is the blue 4 (on slot 4).
@@ -82,7 +81,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
 
 #### Example 1 - A Basic Clue
 
-<img src="img/beginner/single_focus.png" height="150" />
+![Single Focus](/img/beginner/single_focus.png)
 
 - If only one card is touched by a clue, then the clue is (obviously) talking about that one card.
 - In the above screenshot, Alice clues blue to Bob.
@@ -90,7 +89,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
 
 #### Example 2 - Left-most Focus
 
-<img src="img/beginner/single_focus2.png" height="150" />
+![Single Focus](/img/beginner/single_focus2.png)
 
 - In the above screenshot, Alice clues blue to Bob.
 - Before this clue, Bob's hand was completely unclued. So, with this clue, **two new cards were introduced** - the blue card on slot 2 and the blue card on slot 4.
@@ -99,7 +98,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
 
 #### Example 3 - Chop Focus
 
-<img src="img/beginner/single_focus3.png" height="150" />
+![Single Focus](/img/beginner/single_focus3.png)
 
 - In the above screenshot, Alice clues purple to Bob (on the first turn of the game).
 - Before this clue, Bob's hand was completely unclued. So, with this clue, **three new cards were introduced** - slot 1, slot 2, and slot 5.
@@ -129,7 +128,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
 
 #### The 5 Save
 
-<img src="img/beginner/5_save.png" height="150" />
+![5 Save](/img/beginner/5_save.png)
 
 - Since there is only one copy of each 5, all of the 5's need to be saved so that they won't be discarded.
 - In the above screenshot:
@@ -140,7 +139,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
 
 #### The 2 Save
 
-<img src="img/beginner/2_save.png" height="150" />
+![2 Save](/img/beginner/2_save.png)
 
 - Even though there are two copies of each 2, we agree that they are so important that we must save them in a manner similar to 5's.
 - In the above screenshot:
@@ -152,7 +151,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
 
 ##### The Critical Save
 
-<img src="img/beginner/critical_save.png" height="250" />
+![Critical Save](/img/beginner/critical_save.png)
 
 - For the same reason that 5's need to be saved, critical cards also need to be saved. (Critical cards are defined as cards that have the other copy discarded.)
 - Players can choose to save critical cards with either a color clue **or** a number clue.
@@ -203,7 +202,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
 - When cluing cards, we follow *Good Touch Principle* - this means that **we only want to touch cards that will eventually be played**. So, if someone touches a card that is already played on the stacks or a card that is already clued in someone else's hand, then that would be a *Bad Touch*.
 - *Good Touch Principle* is a powerful building block for logic and reasoning. If everyone only touches good cards, then players can greatly narrow down the possibilities for all of the clued cards in their hand!
 
-<img src="img/beginner/good_touch_principle.png" height="300" />
+![Good Touch Principle](/img/beginner/good_touch_principle.png)
 
 - In the above screenshot:
   - Alice wants to give a *Play Clue* to the yellow 2.
@@ -212,7 +211,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
   - If she clues yellow, then it would touch slot 1, slot 2, and slot 3. This clue would violate *Good Touch Principle*, as the yellow 4's would be duplicated in Bob's hand.
   - Thus, the correct clue for Alice to give is number 2.
 
-<img src="img/beginner/good_touch_principle2.png" height="300" />
+![Good Touch Principle](/img/beginner/good_touch_principle2.png)
 
 - In the above screenshot:
   - Alice has an unknown purple card in her hand.
@@ -221,7 +220,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
   - Alice also knows that according to *Good Touch Principle*, every clued card will be eventually be played.
   - Thus, by process of elimination, she can reason that the unknown purple card in her hand must be purple 5, and she can immediately play it.
 
-<img src="img/beginner/good_touch_principle3.png" height="300" />
+![Good Touch Principle](/img/beginner/good_touch_principle3.png)
 
 - In the above screenshot:
   - In the middle of the game, Alice gives Bob a yellow clue that touches slots 2 and 3.
@@ -287,7 +286,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
 
 ### The Prompt
 
-<img src="img/beginner/prompt.png" height="300" />
+![Prompt](/img/beginner/prompt.png)
 
 - In the above screenshot:
   - Alice's hand is blacked out because it does not matter.
@@ -298,7 +297,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
 - In this way, clues can deliver messages to an entirely different player than the person who actually received the clue.
 - We call this move a *Prompt* because it is "prompting" a player to play a card that they would have otherwise held on to for a while longer.
 
-<img src="img/beginner/prompt2.png" height="300" />
+![Prompt](/img/beginner/prompt2.png)
 
 - If a player is *Prompted* and there are multiple cards in the hand that the *Prompt* could apply to, they should play the left-most.
 - In the above screenshot:
@@ -306,7 +305,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
   - Bob has two different cards clued as red in slot 2 and slot 3.
   - Since both cards are unknown to Bob, Bob should choose to play the slot 2 card since it is the left-most.
 
-<img src="img/beginner/prompt3.png" height="300" />
+![Prompt](/img/beginner/prompt3.png)
 
 - In the above screenshot:
   - Bob has an unknown 3 in his hand.
@@ -314,7 +313,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
   - There is no 4 that could possibly be playable right now. Thus, this must be a *Self-Prompt*, meaning that Bob's 3 must be either blue 3 or green 3.
   - Bob plays his 3, and it is blue 3. Thus, he knows that the 4 must match and be a blue 4.
 
-<img src="img/beginner/prompt4.png" height="300" />
+![Prompt](/img/beginner/prompt4.png)
 
 - The *Prompt* is a **promise** that the player has the connecting card. Therefore, if the left-most card is not the correct one, the player should continue to play his clued cards (left to right) until the expected card is found. (It is of course the responsibility of the player giving the clue to ensure that all those previous cards will play successfully.)
 - In the above screenshot:
@@ -331,7 +330,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
 
 ### The Finesse
 
-<img src="img/beginner/finesse.png" height="300" />
+![Finesse](/img/beginner/finesse.png)
 
 - In the above screenshot:
   - Alice's hand is blacked out because it does not matter.
@@ -347,7 +346,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
 - When a *Finesse* occurs, it causes temporary information desynchronization. (In the above example, if Bob did nothing, Cathy would go on to think that she had the red 3, but she really doesn't have the red 3, which means that information is not synced up throughout the team.)
 - For this reason, blind-playing a card into a *Finesse* is very important - by doing so, it resynchronizes all of the information. So, **if a player is *Finessed*, they should usually blind-play the card immediately**, even if they have other important cards to play or some good clue to give.
 
-<img src="img/beginner/finesse2.png" height="300" />
+![Finesse](/img/beginner/finesse2.png)
 
 - We define the *Finesse Position* as the slot that a player's left-most unclued card is in. Notice that a player's *Finesse Position* can move around, and if it does, it is still possible to *Finesse* them.
 - In the above screenshot:
@@ -360,53 +359,6 @@ In this guide, there will be some screenshots to show off the concepts introduce
 
 <br />
 
-## How to Join Games
+## Next Steps
 
-Ok, now that you know the basics of the Hyphen-ated conventions, you can join a game with the Hyphen-ated group.
-
-The group is comprised of around 50 people, some of whom play regularly, and some of whom play rarely, with a good mix of beginners, intermediate players, and experts. But not to worry - the intermediate and expert players are usually willing to do "beginner-level" games with all of the advanced stuff "turned off".
-
-The Hyphen-ated group plays games on the [Hanab Live](https://hanab.live) website and use the [Discord server](https://discord.gg/FADvkJp) for voice chat. Here is a short list of things that you can do to prepare.
-
-### Preparation
-
-1) Create an account at [Hanab Live](https://hanab.live) and login.
-2) Hanab Live is used by many people, not just members of the Hyphen-ated group, so there are always ongoing games. Choose a random ongoing game and spectate it so that you can start to get familiar with the user interface. Alternatively, you could also play a test game with yourself (where you control both of the players). You can do that by using an [incognito window](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DDesktop&hl=en) and logging into a separate test account.
-3) Create a Discord account and login to the [Hanabi Discord server](https://discord.gg/FADvkJp).
-4) Even though you can access the Discord server in a browser, it is not very good, because it does not support a global push-to-talk hotkey. So, download and install the [Discord desktop client](https://discordapp.com/download).
-5) Test your microphone to make sure that it works:
-    - Click the gear icon for "User Settings" in the bottom-left-hand-corner.
-    - Click on "Voice & Video" under "App Settings" in the left-hand menu.
-    - Click on the "Output Device" drop-down and set it to be your microphone.
-    - Click on the "Let's Check" button under "Mic Test".
-    - You should see the bars fill up when you talk. If not, then try changing your "Output Device" or figure out what is wrong with your microphone
-6) Enable a push to talk hotkey:
-    - Click the gear icon for "User Settings" in the bottom-left-hand-corner.
-    - Click on "Voice & Video" under "App Settings" in the left-hand menu.
-    - Select the "Push to Talk" checkbox under "Input Mode".
-    - Click on the "Shortcut" box and press the button on your keyboard that you want to use to enable push-to-talk. (I use left Ctrl, but you can use any key that you want.)
-    - You will have to press this button in order for Discord to transmit your microphone, so make sure to press it whenever you are talking.
-    - **Please** use earbuds or a headset to avoid talk-back (e.g. when people's voices come out of your speakers and get re-transmitted through your microphone).
-7) By default, the Discord client comes with some annoying sound effects turned on. Disable them:
-    - Click the gear icon for "User Settings" in the bottom-left-hand-corner.
-    - Click on "Notifications" under "App Settings" in the left-hand menu.
-    - Scroll down and turn off the toggle-sliders for "PTT Activate" and "PTT Deactivate".
-
-### Joining a Game
-
-The Hyphen-ated group usually has games going every day. You can see if there are any Hyphen-ated members currently playing by looking at the Discord voice channels along the left side of the screen ("Hyphen-ated 1", "Hyphen-ated 2", "Teaching/Beginner Games", etc.).
-
-If there are people currently playing, then the typical thing to do is to join the voice channel with the others, wait for the current game to end, and then hop into the next game after that (depending on how many people stick around).
-
-A few things to note regarding that:
-
-- In the Hyphen-ated group, after every game we play, we do a post-game review so that we can find the best moves for every turn and have everyone learn from their mistakes. So before you can hop into the next game, you will have to wait for both the game to finish **and** the post-game review to finish. We try to keep the post-game reviews short, but if an interesting situation happens or a discussion gets heated, then it might take a while. ;)
-- If there are 6 or more players remaining after the post-game review is finished, then we usually split into two separate groups of 3.
-- Don't worry - it is not considered rude to join a voice channel and listen in on an ongoing game or post-game review. If someone asks who you are, feel free to introduce yourself. Otherwise, wait until the end of the review to introduce yourself, and then hop into the next game.
-- Additionally, make sure to inquire if there are other beginners in the voice channel. If there are beginners, then the group is probably already playing "level-1-conventions-only" or "beginner" games, which is what you want. If not, kindly request that since you are a beginner, the group plays with "level-1-conventions-only". In most cases, intermediate and expert players will be happy to do this.
-
-<br />
-
-## Learning More
-
-Have you already played 5-10 games with the Hyphen-ated group? Have you already let the basics settle in? Then read [the learning path document](learning_path.md) to see what your next steps should be.
+Find out [how to join a game with us](how_to_join.md).

@@ -7,18 +7,6 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 
 <br />
 
-## Table of Contents
-
-1. [Level 8 - Basic Pink Principles](#level-8---basic-pink-principles)
-1. [Level 9 - Violations of Pink Promise That Don't Require a Fix](#level-9---violations-of-pink-promise-that-dont-require-a-fix)
-1. [Level 10 - Pink Fix Clues](#level-10---pink-fix-clues)
-1. [Level 12 - Positional Moves](#level-12---positional-moves)
-1. [Level 19 - Bubblegum Moves](#level-19---bubblegum-moves)
-1. [Level 19 - Other Special Moves](#level-19---other-special-moves)
-1. [Level 19 - Edge Cases](#level-19---edge-cases)
-
-<br />
-
 ## Level 8 - Basic Pink Principles
 
 ### Pink Promise
@@ -49,8 +37,8 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 
 - Due to the nature of pink cards being touched by a lot of different kinds of clues, they are a bit easier to duplicate than a normal suit, or even a rainbow suit.
 - However, just like any other suit, *Good Touch Principle* still applies to pink cards. Players should:
-  1) Do their best to not duplicate pink cards.
-  2) Assume by default that the remaining pink cards in their hand are "good".
+  - do their best to not duplicate pink cards
+  - assume by default that the remaining pink cards in their hand are "good"
 
 ### Prompts with Pink Promise
 
@@ -243,7 +231,6 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 - Similarly, in a 6-player game, there are only 3 cards in the hand. If a player does a *Bubblegum Finesse* with a 4, then that would be nonsensical, since there is no slot 4.
 - In this situation, it should "wraparound" to slot 1, communicating that the first slot is playable.
 - This kind of thing is useful in some edge-case scenarios (e.g. helping satisfy *Good Touch Principle* in variants with a light pink suit).
-- More examples of a *Bubblegum Wraparound* can be found [here](/examples/bubblegum_wraparound.md).
 
 ### The Bubblegum Slide
 

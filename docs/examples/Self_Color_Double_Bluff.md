@@ -7,7 +7,7 @@ The *[Self Color Double Bluff](/level_19/special_bluffs.md#self-color-double-blu
 
 <br />
 
-#### Example 1
+### Example 1
 
 ![Example Screenshot](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/examples/self_color_double_bluff.png)
 

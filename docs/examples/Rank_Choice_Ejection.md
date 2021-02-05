@@ -7,7 +7,7 @@ The *[Rank Choice Ejection](level_19/ejections.md#rank-choice-ejection-with-a-nu
 
 <br />
 
-#### Example 1
+### Example 1
 
 ![Example Screenshot](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/examples/rank_choice_ejection.png)
 

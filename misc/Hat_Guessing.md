@@ -6,20 +6,6 @@ This framework is entirely separate from the Hyphen-ated convention framework. T
 
 <br />
 
-## Table of Contents
-
-1. [Basic Description](#basic-description)
-1. [Clue Interpretation Tables](#clue-interpretation-tables)
-1. [Terminology](#terminology)
-1. [Instruction Priority](#instruction-priority)
-1. [Instruction Rules](#instruction-rules)
-1. [Interpreting Instructions](#interpreting-instructions)
-1. [Executing Instructions](#executing-instructions)
-1. [Hat Guessing Tables with Finesses](#hat-guessing-tables-with-finesses)
-1. [Variant-Specific Hat Guessing Tables](#variant-specific-hat-guessing-tables)
-
-<br />
-
 ## Basic Description
 
 - In most Hanabi convention frameworks, you clue cards to tell the player to play that card (or discard that card). In Hat-Guessing, clues have nothing to do with the cards that are "touched" by the clue.

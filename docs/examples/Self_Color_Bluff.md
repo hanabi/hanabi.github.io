@@ -7,7 +7,7 @@ The *[Self Color Bluff](/level_19/special_bluffs.md#self-color-bluffs-scb)* is a
 
 <br />
 
-#### Example 1
+### Example 1
 
 ![Example Screenshot](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/examples/self_color_bluff.png)
 

@@ -8,9 +8,7 @@ module.exports = {
   organizationName: 'Zamiell',
   projectName: 'hanabi-conventions',
   themeConfig: {
-    colorMode: {
-      defaultMode: 'dark',
-    },
+    // Vanilla components
     navbar: {
       title: 'Hyphen-ated Conventions',
       logo: {
@@ -59,8 +57,23 @@ module.exports = {
       style: 'dark',
       copyright: `Built with <a href="https://v2.docusaurus.io/">Docusaurus</a>.`,
     },
+
+    // Extra settings
+    /*
+    algolia: {
+      apiKey: 'YOUR_API_KEY',
+      indexName: 'HANABI_CONVENTIONS',
+      contextualSearch: false,
+    },
+    */
+    colorMode: {
+      defaultMode: 'dark',
+    },
     sidebarCollapsible: false,
   },
+  plugins: [
+    require.resolve('@cmfcmf/docusaurus-search-local'),
+  ],
   presets: [
     [
       '@docusaurus/preset-classic',

@@ -2,21 +2,11 @@
 
 <br />
 
-## Table of Contents
-
-1. [Introduction](#introduction)
-2. [Convention Changes (Beginner)](#convention-changes-beginner)
-3. [Convention Changes (Intermediate)](#convention-changes-intermediate)
-4. [Convention Changes (Advanced)](#convention-changes-advanced)
-5. [A Concluding Note](#a-concluding-note)
-
-<br />
-
 ## Introduction
 
-This document is written for people who have a bunch of games on [Board Game Arena](https://en.boardgamearena.com/) and may be interested in playing some games with the Hyphen-ated group on [Hanab Live](https://www.hanab.live). Since our group uses some advanced conventions, this document should be a quick guide to get BGA players up to speed.
+This document is written for people who have a bunch of games on [Board Game Arena](https://en.boardgamearena.com/) and may be interested in playing some games with the *Hyphen-ated Group* on [Hanab Live](https://www.hanab.live). Since our group uses some advanced conventions, this document should be a quick guide to get BGA players up to speed.
 
-(A quick note: On Hanab Live, you can play with anyone you want and you can play with any conventions you want - it is a free website. However, a good chunk of the players who play on the website are all part of the Hyphen-ated group, so if you are playing non-Hyphen-ated games on the website, it might be hard to get a pick-up game going with random strangers.)
+(A quick note: On Hanab Live, you can play with anyone you want and you can play with any conventions you want - it is a free website. However, a good chunk of the players who play on the website are all part of the *Hyphen-ated Group*, so if you are playing non-Hyphen-ated games on the website, it might be hard to get a pick-up game going with random strangers.)
 
 Why bother taking the time to branch out from Board Game Arena to play Hanabi elsewhere? In order to properly answer that question, here's a short introduction on the differences between BGA and Hanab Live. It should explain why, at the very least, you might want to dabble on both platforms. If you are already convinced, you can skip down to the section on [convention changes](#convention-changes-beginner).
 
@@ -71,9 +61,9 @@ All of the interface issues with BGA are fixed in the Hanab Live interface: it i
 
 #### Reviewing
 
-Many different people play on the website, but I think that the majority are part of the Hyphen-ated group. In terms of playstyle, we play in a manner similar to how BGA players play, but with a lot more "special moves" thrown in.
+Many different people play on the website, but I think that the majority are part of the *Hyphen-ated Group*. In terms of playstyle, we play in a manner similar to how BGA players play, but with a lot more "special moves" thrown in.
 
-More importantly, when Hyphen-ated group members play together, we typically review every single game, turn by turn. Why do this? It accelerates the process of synchronizing everyone's strategies and playstyle to ensure that we are all on the same page. And it accelerates the process of making everyone really good at Hanabi, because people get the chance to learn from mistakes that they never would have known that they made. It's just a lot of fun - reviewing the game and looking for the best moves can be more fun than actually playing the game.
+More importantly, when *Hyphen-ated Group* members play together, we typically review every single game, turn by turn. Why do this? It accelerates the process of synchronizing everyone's strategies and playstyle to ensure that we are all on the same page. And it accelerates the process of making everyone really good at Hanabi, because people get the chance to learn from mistakes that they never would have known that they made. It's just a lot of fun - reviewing the game and looking for the best moves can be more fun than actually playing the game.
 
 For the purposes of reviewing, we talk to each other in a voice chat. Using a voice chat is worlds better than typing text snippets at each other, as you may imagine. To facilitate this, we use a program called [Discord](https://discord.gg/FADvkJp), which is a voice and chat application similar to Skype. (Discord is in widespread use among gamers nowadays and doesn't have the security vulnerabilities that Skype does.)
 

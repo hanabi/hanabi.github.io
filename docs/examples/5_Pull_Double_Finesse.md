@@ -7,7 +7,7 @@ The *[5 Pull Double Finesse](level_11.md#the-5-pull-double-finesse)* is a level 
 
 <br />
 
-#### Example 1
+### Example 1
 
 ![Example Screenshot](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/img/examples/5_pull_double_finesse.png)
 

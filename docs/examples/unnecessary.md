@@ -31,6 +31,8 @@ title: Examples of Unnecessary Moves
 
 ### The Unnecessary Trash Push Finesse
 
+#### Example 1
+
 ![UTPF screenshot](/img/examples/unnecessary_trash_push_finesse.png)
 
 - It is Floriman's turn. Floriman can clue brown to scharkbite in order to perform a *Finesse* on the brown 3 into the brown 4.
@@ -42,6 +44,8 @@ title: Examples of Unnecessary Moves
 
 ### The Unnecessary Trash Bluff (with a Trash Push)
 
+#### Example 1
+
 ![UTB screenshot](/img/examples/unnecessary_trash_bluff.png)
 
 - It is Dr_Kakashi's turn. Dr_Kakashi can clue blue to Lilliana in order to get the blue 2 to play. Nothing is "blocking" the clue.
@@ -52,6 +56,8 @@ title: Examples of Unnecessary Moves
 - Next, it is kimbifille's turn. kimbifille's also sees that the *Trash Bluff* was *unnecessary*. kimbifille blind-plays her slot 1 card to fulfill the "extra" component of the *Unnecessary Trash Bluff*. It is a red 2 and it successfully plays.
 
 ### Unnecessary Unknown Trash Discharge (with a Trash Push)
+
+#### Example 1
 
 ![UUTD screenshot](/img/examples/unnecessary_unknown_trash_discharge.png)
 

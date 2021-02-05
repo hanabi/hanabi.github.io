@@ -11,15 +11,6 @@
 
 <br />
 
-## Table of Contents
-
-1. [Basic Conventions](#basic-conventions)
-1. [Advanced Conventions](#advanced-conventions)
-1. [Variant-Specific Conventions](#variant-specific-conventions)
-1. [Optional Conventions](#optional-conventions)
-
-<br />
-
 ## Basic Conventions
 
 ### Tempo Change

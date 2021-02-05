@@ -66,7 +66,7 @@ title: Level 4 - Neophyte
 - Normally, a *Finesse* promises the exact copy of the card on *Finesse Position*. However, as long as all of the cards leading to the card are playable, you can still promise the exact copy of the card. We do **not** consider this to be a *Lie*, since the blind-playing player does indeed have the true copy of the card.
 - We call this a *Layered Finesse* because the intended *Finesse* blind-play target is "layered" behind other playable cards.
 
-![Layered Finesse](/img/layered_finesse.png)
+![Layered Finesse](/img/level_4/layered_finesse.png)
 
 - For example, in the above screenshot:
   - It is the first turn of the game and nothing is played on the stacks.
@@ -88,7 +88,7 @@ title: Level 4 - Neophyte
 - In other words, most *Layered Finesses* cause unrelated cards to blind-play that do not match the type of clue given.
 - With that said, it is also possible to perform a *Layered Finesse* for unrelated cards that **do** match the type of the clue given. When this happens, it is hidden from the receiver of the clue, so we call it a *Clandestine Finesse* to disambiguate it from a (more obvious) *Layered Finesse*.
 
-![Clandestine Finesse](/img/clandestine_finesse.png)
+![Clandestine Finesse](/img/level_4/clandestine_finesse.png)
 
 - For example, in the above screenshot:
   - Alice clues number 3 to Cathy, which touches the purple 3 on slot 1 and the green 3 on slot 4. Thus, the purple 3 is the focus of the clue. This must be a *Play Clue* on the purple 3.

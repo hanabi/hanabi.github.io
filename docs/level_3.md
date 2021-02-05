@@ -39,7 +39,7 @@ title: Level 3 - Initiate
   - Bob plays the slot 4 card. (He then draws a card, and all of the other cards in his hand slide over.)
   - Alice clues 1's to Bob, which touches a brand new card on slot 1 and re-touches the ones on slot 3 and slot 4.
 
-<img src="img/intermediate/playing_multiple_1s2.png" height="150" />
+![Playing Multiple 1's](/img/level_3/playing_multiple_1s.png)
 
 - Bob knows that fresh 1's have precedence, so he plays the slot 1 card next. After that, he should play the slot 4 card, and then the slot 3 card (e.g. resuming the play order from before).
 

@@ -49,7 +49,7 @@ The following is a quick summary of the levels.
 
 ## Variant Summary
 
-Hanab Live has a lot of different variants and the Hyphen-ated group plays a good mix of them. The point of variants is that they increase the difficulty of the game, giving experienced players an additional challenge. In the same way that it is counterproductive to play with advanced conventions before you have a good grasp of the underlying mechanics, it is equally counterproductive to play with complicated variants. For that reason, beginners should stick to playing "No Variant" until they have the fundamentals down.
+Hanab Live has a lot of different variants and the *Hyphen-ated Group* plays a good mix of them. The point of variants is that they increase the difficulty of the game, giving experienced players an additional challenge. In the same way that it is counterproductive to play with advanced conventions before you have a good grasp of the underlying mechanics, it is equally counterproductive to play with complicated variants. For that reason, beginners should stick to playing "No Variant" until they have the fundamentals down.
 
 The following is a rough description of how some variants map to convention levels.
 
