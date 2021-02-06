@@ -266,7 +266,7 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 * For example, in a 3-player game:
   * It is the first turn of the game and nothing is played on the stacks.
   * Alice gives a number 2 clue to Cathy, touching a pink 1 on slot 2. (Cathy does not have a playable card on slot 1.)
-  * Bob looks into the future and knows that if he does nothing, Cathy will interpret this as a *Self-Finesse*, and play her *Finesse Position*, which will misplay.
+  * Bob knows that if he does nothing, Cathy will go on to interpret this as a *Self-Finesse*, and play her *Finesse Position*, which will misplay.
   * Thus, Bob plays his *Finesse Position* as a *Pink Fake Finesse*. It is a blue 1 and it successfully plays.
   * From Cathy's perspective, Alice performed a *Finesse* on the blue 1 into the blue 2. Cathy plays the blue 2, but it is actually the pink 1. Now, Cathy knows that Alice performed a *Pink Fake Finesse*.
 
