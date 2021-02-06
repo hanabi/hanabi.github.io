@@ -6,7 +6,16 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 
 ## The Backlog (General Conventions)
 
-n/a
+**The Loaded Play Clue (LPC)** (change)
+
+- Now, *Loaded Play Clues* never apply to clues that look like they could be a *5's Chop Move*.
+- For example, in a 3-player game:
+  - Red 3 is played on the stacks.
+  - Bob has a known red 4 in his hand on slot 5.
+  - Alice clues number 5 to Bob, touching a 5 on slot 3.
+  - Bob knows that he is *Loaded*, because he has a red 4 to play. Bob knows that normally, no-one else is supposed to give *Save Clues* to *Loaded* players (and that they should be transformed into *Play Clues*).
+  - However, Bob knows that this rule doesn't apply to the *5's Chop Move* and that players are allowed to perform a *5's Chop Move* whenever they want.
+  - Thus, Bob marks his slot 4 card as being *Chop Moved* and plays the red 4.
 
 <br />
 

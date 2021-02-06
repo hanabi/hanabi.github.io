@@ -33,14 +33,23 @@ title: Variant-Specific Strategies
 
 - *Loaded Play Clues* **do not** apply in the *Early Game* - they are only "turned on" in the *Mid-Game*.
 - *Loaded Play Clues* **do not** apply in *Double Discard* situations. (Even though *Double Discard Avoidance* is "turned off" in hard variants in general, players are still allowed to avoid *Double Discarding* by giving *Early Saves* to cards.)
-- *Loaded Play Clues* **do not** apply to clues that look like they could be a *5's Chop Move*.
+- *Loaded Play Clues* **do not** apply to number 5 clues during the *Low Score Phase*.
 - For example, in a 3-player game:
+  - It is the *Low Score Phase*.
   - Red 3 is played on the stacks.
   - Bob has a known red 4 in his hand on slot 5.
   - Alice clues number 5 to Bob, touching a 5 on slot 3.
   - Bob knows that he is *Loaded*, because he has a red 4 to play. Bob knows that normally, no-one else is supposed to give *Save Clues* to *Loaded* players (and that they should be transformed into *Play Clues*).
-  - However, Bob knows that this rule doesn't apply to the *5's Chop Move* and that players are allowed to perform a *5's Chop Move* whenever they want.
+  - However, Bob knows that this rule doesn't apply to number 5 clues during the *Low Score Phase*.
   - Thus, Bob marks his slot 4 card as being *Chop Moved* and plays the red 4.
+- For example, in a 3-player game (similar to the last example):
+  - It is the *Low Score Phase*.
+  - Red 3 is played on the stacks.
+  - Bob has a known red 4 in his hand on slot 4.
+  - Alice clues number 5 to Bob, touching a 5 on slot 5 (Bob's chop).
+  - Bob knows that he is *Loaded*, because he has a red 4 to play. Bob knows that normally, no-one else is supposed to give *Save Clues* to *Loaded* players (and that they should be transformed into *Play Clues*).
+  - However, Bob knows that this rule doesn't apply to number 5 clues during the *Low Score Phase*.
+  - Thus, Bob knows that Alice is performing a simple *5 Save* and plays the red 4.
 
 ### Precedence of Variant-Specific Conventions
 
@@ -55,6 +64,7 @@ Below are conventions for some specific variants. Each variant is located on its
 - [Black](variant_specific/black.md)
 - [Rainbow](variant_specific/rainbow.md)
 - [Pink](variant_specific/pink.md)
+- [White](variant_specific/white.md)
 - [Brown](variant_specific/brown.md)
 - [Omni](variant_specific/omni.md)
 - [Null](variant_specific/null.md)

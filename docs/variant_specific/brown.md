@@ -24,7 +24,7 @@ These conventions apply to any variant with a brown (touched by no ranks) suit.
 - In a normal *Double Tempo Clue*, all of the re-clued cards are supposed to play from left to right.
 - However, when multiple brown cards are re-clued with a brown color clue, it only means to play the right-most one and nothing else.
 
-### Brown Loaded Play Clues
+### The Brown Loaded Play Clue
 
 - *Loaded Play Clues* are "turned on" for brown cards.
 - Normally, *Loaded Play Clues* are "turned off" in the *Early Game*. However, note that *Loaded Play Clues* **always** apply to brown cards, even in the *Early Game*.
