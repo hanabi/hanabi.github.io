@@ -160,7 +160,7 @@ title: Level 3 - Initiate
 - For example, in a 3-player no variant game:
   - It is the first turn and nothing is played on the stacks.
   - Alice clues Bob red, touching a red card on slot 1 as a *Play Clue*.
-  - Bob immediately right-clicks on the card and writes a note" of "red 1".
+  - Bob immediately right-clicks on the card and writes a note of "red 1".
   - This card is now "locked in" as a red 1. No future clues or actions from other players can ever change that.
 
 #### Information Lock with a Superposition
