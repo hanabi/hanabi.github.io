@@ -20,7 +20,7 @@ title: Variant-Specific Strategies
   - Players are not allowed to *5 Stall* in the *Early Game*. Any clue that looks like a *5 Stall* is instead treated as either a *5's Chop Move* or a *5 Pull*.
   - Players are not required to clue anything in the *Early Game*; they are allowed to initiate the *Mid-Game* whenever they see fit.
 
-### Loaded Play Clues in Hard Variants (Part 1)
+### The Loaded Play Clue (in Hard Variants) (LPC)
 
 - Normally, players are allowed to give a *Save Clue* to a card on chop, even if that clued player:
   - has one or more playable cards to play (e.g. they won't discard their chop because they will almost certainly play their playable card)
@@ -28,12 +28,12 @@ title: Variant-Specific Strategies
 - If a *Save Clue* is given in this kind of situation, it is referred to as an *Early Save*. In our group, *Early Saves* are normal, and they don't cause anything special to happen. (Allowing *Early Saves* is nice because it allows for *Discard Modulation.*)
 - In *Hard* variants (see the previous section), *Early Saves* are not legal. Instead, if an *Early Save* is given to a player, then it is treated as a *Play Clue* on that card.
 - This is called a *Loaded Play Clue* to distinguish it from a more ordinary *Play Clue*, because the player receiving the clue is currently "loaded" with a play or "loaded" with a safe discard.
+
+### The Loaded Play Clue Exceptions
+
 - *Loaded Play Clues* **do not** apply in the *Early Game* - they are only "turned on" in the *Mid-Game*.
 - *Loaded Play Clues* **do not** apply in *Double Discard* situations. (Even though *Double Discard Avoidance* is "turned off" in hard variants in general, players are still allowed to avoid *Double Discarding* by giving *Early Saves* to cards.)
-
-### Loaded Play Clues in Hard Variants (Part 2)
-
-- As an exception, *Loaded Play Clues* never apply to clues that look like they could be a *5's Chop Move*.
+- *Loaded Play Clues* **do not** apply to clues that look like they could be a *5's Chop Move*.
 - For example, in a 3-player game:
   - Red 3 is played on the stacks.
   - Bob has a known red 4 in his hand on slot 5.
