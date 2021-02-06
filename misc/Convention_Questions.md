@@ -9,7 +9,7 @@ Ask questions about the Hyphen-ated conventions in the in the `#convention-quest
 
 ### 2) Alice and Bob Stories
 
-* If the question is about **a hypothetical**, please type out an Alice and Bob story in the style of the reference document.
+* If the question is about **a hypothetical**, please type out an Alice and Bob story in the style of the convention docs.
 
 ### 3) Hyphen-ated Notation
 

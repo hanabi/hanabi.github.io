@@ -4,7 +4,7 @@
 
 ## Introduction
 
-This document is written for people who have a bunch of games on [Board Game Arena](https://en.boardgamearena.com/) and may be interested in playing some games with the *Hyphen-ated Group* on [Hanab Live](https://www.hanab.live). Since our group uses some advanced conventions, this document should be a quick guide to get BGA players up to speed.
+This page is written for people who have a bunch of games on [Board Game Arena](https://en.boardgamearena.com/) and may be interested in playing some games with the *Hyphen-ated Group* on [Hanab Live](https://www.hanab.live). Since our group uses some advanced conventions, this page should be a quick guide to get BGA players up to speed.
 
 (A quick note: On Hanab Live, you can play with anyone you want and you can play with any conventions you want - it is a free website. However, a good chunk of the players who play on the website are all part of the *Hyphen-ated Group*, so if you are playing non-Hyphen-ated games on the website, it might be hard to get a pick-up game going with random strangers.)
 
@@ -123,7 +123,7 @@ If you're reading this far, you'll want to know some of the basic differences be
 ### A Note on the Conventions Themselves
 
 - On BGA, the "rules" or conventions by which people play are largely unwritten, and can change from game to game. But you'll almost certainly have a good grasp of them after having played a bunch of games, and many are talked about on the [2b or not 2b group forums](https://en.boardgamearena.com/#!group?id=1598286).
-- In our group, the rules are [completely documented](../Reference.md). Yeah, don't bother reading the full reference document now, but note that you can use it in case you ever need to look up something specific.
+- In our group, the rules are [completely documented](../Reference.md). Yeah, don't bother reading through it now, but note that you can use it in case you ever need to look up something specific.
 - Why do this? Having a strongly defined set of rules cuts out most silly post-game arguments on how an ambiguous-looking clue should be interpreted. Instead, it encourages discussion on finding the most efficient moves and strategies within a shared framework, which is much more productive.
 
 ### 2 Saves - Added Always
@@ -286,6 +286,6 @@ These are conventions that we don't typically turn on for new players, but we do
 
 ## A Concluding Note
 
-Reading the stuff in this document will give you the major tools that you will need to play with our group. You can and should stop reading now and play some games with us! There's certainly some other minor things to learn, but you will quickly learn the rest from direct experience and post-game reviews.
+Reading the stuff on this page will give you the major tools that you will need to play with our group. You can and should stop reading now and play some games with us! There's certainly some other minor things to learn, but you will quickly learn the rest from direct experience and post-game reviews.
 
-Know that you certainly **do not** have to read and memorize [the extremely long main conventions document](../Reference.md) before playing with us! This is a common misconception that new players have. The document is meant to be used as a reference, and not meant to be read from start to finish.
+Know that you certainly **do not** have to read and memorize [all of our conventions](https://zamiell.github.io/hanabi-conventions/docs/reference/) before playing with us! This is a common misconception that new players have. The website is meant to be used as a reference, and not meant to be read from start to finish.

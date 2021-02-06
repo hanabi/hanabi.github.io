@@ -4,7 +4,7 @@
 
 <br />
 
-### Is there a document for 2-player conventions?
+### Are there 2-player conventions for the *Hyphen-ated Group*?
 
 https://github.com/Zamiell/hanabi-conventions/blob/master/misc/2-Player.md
 
@@ -18,21 +18,19 @@ https://github.com/Zamiell/hanabi-conventions/blob/master/misc/Convention_Reason
 
 ### I found a bug on the website. What should I do?
 
-- First, look to see if someone has already posted an issue about the bug: https://github.com/Zamiell/hanabi-live/issues
+- First, search to see if someone has already posted an issue about the bug: https://github.com/Zamiell/hanabi-live/issues
 - If there is not an existing issue, then make one: https://github.com/Zamiell/hanabi-live/issues/new
   - (You will need to create a free GitHub account.)
 
 <br />
 
-### Why isn't [situation X] defined in the conventions document?
+### Why isn't [situation X] defined in the convention docs?
 
 Not everything has to have a meaning. We intentionally want to have situations be undefined so that we have some wiggle room to handle a wide variety of game states: https://github.com/Zamiell/hanabi-conventions/blob/master/misc/Convention_Goals.md
 
 <br />
 
-### [Situation X] is undefined in the conventions document. I want to propose a new convention to define what it will mean.
-
-Sorry, but probably not.
+### [Situation X] is undefined in the convention docs. I want to propose a new convention to define what it will mean.
 
 Not everything has to have a meaning. We intentionally want to have situations be undefined so that we have some wiggle room to handle a wide variety of game states: https://github.com/Zamiell/hanabi-conventions/blob/master/misc/Convention_Goals.md
 

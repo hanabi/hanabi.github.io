@@ -142,7 +142,7 @@ title: Level 2 - Novice
 
 - *Trash* cards are defined as cards that have already been played. Thus, they are useless to the team.
 - Players should generally avoid "touching" trash cards with a clue, as doing so would violate *Good Touch Principle*.
-  - Rarely, it can be useful to deliberately clue a trash card and violate *Good Touch Principle* in order to perform a special move. Several such moves are covered later on in this document.
+  - Rarely, it can be useful to deliberately clue a trash card and violate *Good Touch Principle* in order to perform a special move. Several such moves are covered later on.
 - In the case where a suit is partially "dead", the unneeded cards are also considered trash. For example, if both copies of the red 3 have been discarded, then the red 4 and the red 5 are both considered trash.
 
 <br />
