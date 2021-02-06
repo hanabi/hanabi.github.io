@@ -5,6 +5,8 @@ document.onkeydown = function(e) {
     const search = document.getElementById('search_input_react');
     search.focus();
     search.click();
+    search.focus();
+    search.focus();
 
     // By default, using Ctrl + K in Chrome will open the location bar, so disable this
     e.preventDefault();
