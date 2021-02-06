@@ -99,5 +99,6 @@ module.exports = {
       src: 'https://kit.fontawesome.com/1932a73877.js',
       crossorigin: 'anonymous',
     },
+    '/hanabi-conventions/js/hotkey.js',
   ],
 };
