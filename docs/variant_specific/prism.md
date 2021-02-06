@@ -9,23 +9,21 @@ These conventions apply to any variant with a prism suit.
 
 ### Color Finesses (One-Away-From-Playable)
 
-- For the purposes of *Finesses*, prism cards "match" every color (just like a rainbow suit "matches" every color).
-- For example, in a 3-player game:
+- For the purposes of *Finesses*, prism cards "match" if they are the direct next color.
+- For example, in a 3-player game of *Prism (5 Suits)*:
   - Prism 1 is played on the stacks.
   - Alice clues green to Cathy, touching a prism 3 as a *Play Clue*.
   - Bob blind-plays a prism 2 from his *Finesse Position*.
-  - Cathy knows that similar to rainbow, prism "matches" every color. Thus, since green matches green, this must be a *Finesse*.
+  - Cathy knows that since prism 3 is green, prism 2 matches green. Thus, this must be a *Finesse*.
   - Cathy plays her green as a prism 3.
 
-### Color Finesses (Two-Away-From-Playable)
+### Color Bluffs (Two-Away-From-Playable)
 
-- Just like a normal *Finesse*, you can also perform a *Double Finesse* by giving a color clue to a prism card that is two-away-from-playable (or a *Triple Finesse* on a prism card that is three-away-from-playable).
-- For example, in a 4-player game:
+- Players can perform a *Bluff* on a prism card with a color, as long as that color represents a prism card that is *two-or-more-away-from-playable*.
+- As a consequence of this, you can *Bluff* a prism 1 by cluing a prism 3 (with color).
+- For example, in a 3-player game of *Prism (5 Suits)*:
   - Nothing is played on the stacks.
-  - Alice clues green to Donald, touching a prism 3 as a *Play Clue*.
+  - Alice clues green to Cathy, touching a prism 3 as a *Play Clue*.
   - Bob blind-plays a prism 1 from his *Finesse Position*.
-  - Cathy knows that this could either be a *Bluff* (on just the prism 1) or a *Double Finesse* (on both the prism 1 and the prism 2).
-  - In this situation, Cathy knows that Donald will not go on to misplay his prism 3 as a prism 2.
-  - However, Cathy knows that whether or not the clue receiver will misplay a card is irrelevant - all that matters is whether or not the clue matches the card that was blind-played. Thus, since green matches green, this communicates a *Double Finesse*.
-  - Cathy blind-plays a prism 2 from her *Finesse Position*.
-  - Donald plays his green card as a prism 3.
+  - Cathy knows that prism 1 would match yellow, but it does not match green. Thus, this is just a *Bluff*.
+  - Cathy marks her green card as either a green 2 (as a normal *Bluff*, a green 3 (as a *3 Bluff*), or a prism 3 (as a *Hard 3 Bluff*).
