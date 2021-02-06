@@ -1,7 +1,10 @@
 document.onkeydown = function(e) {
+  // Ctrl + K should focus the search bar, emulating the Algolia search UI
   if (e.ctrlKey && e.key == 'k'){
     e.preventDefault();
-    // We use .click() instead of .focus() because it does not initialize the search properly
-    document.getElementById('search_input_react').click();
+    // We have to click before focusing because otherwise it does not initialize properly
+    const search = document.getElementById('search_input_react');
+    search.click();
+    search.focus();
   }
 }
