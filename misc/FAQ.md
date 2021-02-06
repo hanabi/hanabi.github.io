@@ -6,33 +6,32 @@
 
 ### Are there 2-player conventions for the *Hyphen-ated Group*?
 
-https://github.com/Zamiell/hanabi-conventions/blob/master/misc/2-Player.md
+[Yes](https://github.com/Zamiell/hanabi-conventions/blob/main/misc/2-Player.md).
 
 <br />
 
 ### What is the reason to play 1's in the starting hand from right-to-left (instead of from left-to-right)?
 
-https://github.com/Zamiell/hanabi-conventions/blob/master/misc/Convention_Reasons.md#play-order-of-multiple-1s
+See the [convention reasons document](https://github.com/Zamiell/hanabi-conventions/blob/main/misc/Convention_Reasons.md#play-order-of-multiple-1s).
 
 <br />
 
 ### I found a bug on the website. What should I do?
 
-- First, search to see if someone has already posted an issue about the bug: https://github.com/Zamiell/hanabi-live/issues
-- If there is not an existing issue, then make one: https://github.com/Zamiell/hanabi-live/issues/new
-  - (You will need to create a free GitHub account.)
+- First, [do a search](https://github.com/Zamiell/hanabi-live/issues) to see if someone has already posted an issue about the bug.
+- If there is not an existing issue, then [make one](https://github.com/Zamiell/hanabi-live/issues/new). (You will need to create a free GitHub account.)
 
 <br />
 
 ### Why isn't [situation X] defined in the convention docs?
 
-Not everything has to have a meaning. We intentionally want to have situations be undefined so that we have some wiggle room to handle a wide variety of game states: https://github.com/Zamiell/hanabi-conventions/blob/master/misc/Convention_Goals.md
+Not everything has to have a meaning. We intentionally want to have situations be undefined so that we have some wiggle room to handle a wide variety of game states. Read [the goals of the conventions](https://github.com/Zamiell/hanabi-conventions/blob/main/misc/Convention_Goals.md).
 
 <br />
 
 ### [Situation X] is undefined in the convention docs. I want to propose a new convention to define what it will mean.
 
-Not everything has to have a meaning. We intentionally want to have situations be undefined so that we have some wiggle room to handle a wide variety of game states: https://github.com/Zamiell/hanabi-conventions/blob/master/misc/Convention_Goals.md
+Not everything has to have a meaning. We intentionally want to have situations be undefined so that we have some wiggle room to handle a wide variety of game states. Read [the goals of the conventions](https://github.com/Zamiell/hanabi-conventions/blob/main/misc/Convention_Goals.md).
 
 <br />
 
@@ -145,11 +144,11 @@ Left-most.
 
 ### Should I always *Chop Move* after receiving a *Tempo Clue*?
 
-No! There are FIVE conditions where *Tempo Clues* are allowed. If any of these five conditions are true, then you should not *Chop Move*: https://github.com/Zamiell/hanabi-conventions/blob/master/Reference.md#the-tempo-clue-re-cluing-a-card-to-play
+No! There are **five** conditions where *Tempo Clues* are allowed. If [any of these five conditions](https://zamiell.github.io/hanabi-conventions/docs/level_5#the-tempo-clue-re-cluing-a-card-to-play) are true, then you should not *Chop Move*.
 
 <br />
 
-### Does *[Schrodinger's Cat Principle](../Reference.md#schrödingers-cat-principle)* always take priority over *[Occam's Razor](../Reference.md#clue-interpretation--occams-razor)*?
+### Does *[Schrodinger's Cat Principle](https://zamiell.github.io/hanabi-conventions/docs/level_4#schr%C3%B6dingers-cat-principle)* always take priority over *[Occam's Razor](https://zamiell.github.io/hanabi-conventions/docs/level_8#clue-interpretation--occams-razor)*?
 
 Yes.
 

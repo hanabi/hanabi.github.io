@@ -46,9 +46,9 @@ title: Level 12 - Adept
 
 ### A Priority Flowchart (For Choosing Between 2+ Playable Cards)
 
-*Priority* can be confusing. [Here is a flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/static/img/flowcharts/priority_flowchart.png) that shows, in general, which card should be played when there is a choice between two cards.
+*Priority* can be confusing. [Here is a flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/main/static/img/flowcharts/priority_flowchart.png) that shows, in general, which card should be played when there is a choice between two cards.
 
-[Here is another flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/master/static/img/flowcharts/priority_unknown_flowchart.png) that shows how *Priority* works when one or more of the cards is unknown.
+[Here is another flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/main/static/img/flowcharts/priority_unknown_flowchart.png) that shows how *Priority* works when one or more of the cards is unknown.
 
 ### Priority Exceptions
 
