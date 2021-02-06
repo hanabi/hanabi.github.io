@@ -33,15 +33,14 @@ title: Variant-Specific Strategies
 
 ### Loaded Play Clues in Hard Variants (Part 2)
 
-- *Loaded Play Clues* also apply to the *5's Chop Move*. This means that any clue that looks like a *5's Chop Move* will instead look like a *Loaded Play Clue* (if the clue receiver is currently "loaded" with a play).
+- As an exception, *Loaded Play Clues* never apply to clues that look like they could be a *5's Chop Move*.
 - For example, in a 3-player game:
   - Red 3 is played on the stacks.
   - Bob has a known red 4 in his hand on slot 5.
   - Alice clues number 5 to Bob, touching a 5 on slot 3.
-  - Bob knows that in a normal game, since the 5 was one-away from chop, Alice's clue would be a *5's Chop Move*.
-  - Bob also knows that in hard variants, the *5's Chop Move* convention is turned off when the player receiving the clue is "loaded' with a play. Thus, this must be a *Loaded Play Clue* on the 5.
-  - Bob plays the red 4 and will play the 5 on the next turn as red 5.
-- Note that this section does not apply in the *Early Game*, because *Loaded Play Clues* are turned off in the *Early Game*. Any number 5 clue given to a *one-away-from-chop* 5 in the *Early Game* is to be treated as a *5's Chop Move*.
+  - Bob knows that he is *Loaded*, because he has a red 4 to play. Bob knows that normally, no-one else is supposed to give *Save Clues* to *Loaded* players (and that they should be transformed into *Play Clues*).
+  - However, Bob knows that this rule doesn't apply to the *5's Chop Move* and that players are allowed to perform a *5's Chop Move* whenever they want.
+  - Thus, Bob marks his slot 4 card as being *Chop Moved* and plays the red 4.
 
 ### Precedence of Variant-Specific Conventions
 
