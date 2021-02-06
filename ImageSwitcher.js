@@ -1,8 +1,20 @@
 // From: https://stackoverflow.com/questions/64425555/is-it-possible-to-detect-if-docusaurus-is-in-light-or-dark-mode
 
+/*
+import ImageSwitcher from '../src/pages/ImageSwitcher.js';
+
+<ImageSwitcher
+  lightImgSrc="/img/level_2/double_prompt.png"
+  darkImgSrc="/img/level_2/double_prompt_dark.png"
+  altText="Double Prompt"
+/>
+*/
+
+/*
+import Layout from '@theme/Layout';
 import React from 'react';
 import useBaseUrl from '@docusaurus/useBaseUrl';
-import useThemeContext from '@theme/hooks/useThemeContext'; //docs: https://v2.docusaurus.io/docs/2.0.0-alpha.69/theme-classic#usethemecontext
+import useThemeContext from '@theme/hooks/useThemeContext'; // https://v2.docusaurus.io/docs/api/themes/configuration
 
 const ImageSwitcher = ({lightImgSrc, darkImgSrc, altText}) => {
   const { isDarkTheme } = useThemeContext();
@@ -10,8 +22,11 @@ const ImageSwitcher = ({lightImgSrc, darkImgSrc, altText}) => {
   const fullImgSrc = useBaseUrl(imgSrc);
 
   return (
-    <img src={fullImgSrc} alt={altText} />
+    <Layout>
+      <img src={fullImgSrc} alt={altText} />
+    </Layout>
   )
 }
 
 export default ImageSwitcher;
+*/

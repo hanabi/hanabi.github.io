@@ -77,7 +77,7 @@ module.exports = {
     sidebarCollapsible: false,
   },
   plugins: [
-    require.resolve('@cmfcmf/docusaurus-search-local'),
+    require.resolve('docusaurus-lunr-search'),
   ],
   presets: [
     [

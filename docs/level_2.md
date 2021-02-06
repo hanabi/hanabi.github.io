@@ -3,8 +3,6 @@ id: level_2
 title: Level 2 - Novice
 ---
 
-import ImageSwitcher from '../src/pages/ImageSwitcher.js';
-
 - Level 2 strategies should only be learned if you have played with the group a few times and have got the basics down (5-10 games of experience).
 - This level builds the strategies in level 1, outlining what to do in more specific situations.
 - Level 2 subsections:
@@ -31,13 +29,6 @@ import ImageSwitcher from '../src/pages/ImageSwitcher.js';
 ### The Double Prompt / Triple Prompt / etc.
 
 - Sometimes, someone can give a *Prompt* that is prompting **two** (or more) cards with one clue, which is pretty good.
-
-<ImageSwitcher
-  lightImgSrc="/img/level_2/double_prompt.png"
-  darkImgSrc="/img/level_2/double_prompt_dark.png"
-  altText="Double Prompt"
-/>
-
 - For example, in a 3-player game:
   - A red 1 is played on the stacks.
   - Alice clues Cathy red, which touches a red 4. This must be a *Play Clue*, because the red 4 is not on chop.
