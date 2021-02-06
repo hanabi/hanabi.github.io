@@ -35,5 +35,5 @@ These conventions apply to any variant with a white (touched by no colors) suit.
   - Alice clues Cathy red, touching a red 1 as a *Play Clue*.
   - Bob clues Cathy number 2, touching a 2 on her chop.
   - Normally, Cathy would interpret this as an *Early 2 Save* on any 2 in the game.
-  - However, Cathy knows that he is *Loaded* and that the 2 could be a white 2. Thus, this must be a *White Loaded Play Clue* on a white 2.
+  - However, Cathy knows that she is *Loaded* and that the 2 could be a white 2. Thus, this must be a *White Loaded Play Clue* on a white 2.
   - Bob does not see any white 1's, so he knows that he must have the white 1 as a *Self-Finesse*. Bob blind plays his *Finesse Position*. It is a white 1 and it successfully plays.
