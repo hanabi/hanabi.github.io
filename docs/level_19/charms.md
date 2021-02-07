@@ -3,7 +3,8 @@ id: charms
 title: Charms
 ---
 
-- A *Charm* refers to a *Signal Shift* blind-play in which someone plays an unrelated card from their *Fourth Finesse Position*. For example, if a player's hand is completely unclued, their *Fourth Finesse Position* is slot 4.
+- A *Charm* refers to a blind-play in which someone plays an unrelated card from their *Fourth Finesse Position*. For example, if a player's hand is completely unclued, their *Fourth Finesse Position* is slot 4.
+- *Charms* fall outside of the *Signal Shift* framework. Instead, playing from *Fourth Finesse Position* is required in order to disambiguate the clue from being a *Finesse*, *Ejection*, or *Discharge*.
 - Just like a *Bluff*, a *Charm* can only be performed on the very next player.
 
 ### 4 Charm
@@ -35,7 +36,6 @@ title: Charms
 - When this occurs, this player is trying to communicate something deeper - a *Charm* on the very next player.
 - Normally, when a card is blind-played after an innocent-looking *Play Clue*, the clue receiver knows to not play that card anymore. In this situation, since the *Fourth Finesse Position* card was played instead of the *First*, *Second*, or *Third*, the clue receiver will know that their card is still playable **and** that the unclued card directly to its left must be a 5.
 - This untouched 5 is now globally known; everyone on the team should treat it as a *Chop Moved* card.
-- This can be understood as a full-circle *Signal Shift*, from *Play* --> *Play*.
 - For example, in a 4-player game:
   - Red 1 is played on the stacks.
   - It is the *Early Game* and the *Low Score Phase*.
