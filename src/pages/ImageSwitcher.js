@@ -10,23 +10,25 @@ import ImageSwitcher from '../src/pages/ImageSwitcher.js';
 />
 */
 
-/*
-import Layout from '@theme/Layout';
 import React from 'react';
+import BrowserOnly from '@docusaurus/BrowserOnly';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import useThemeContext from '@theme/hooks/useThemeContext'; // https://v2.docusaurus.io/docs/api/themes/configuration
 
 const ImageSwitcher = ({lightImgSrc, darkImgSrc, altText}) => {
-  const { isDarkTheme } = useThemeContext();
-  const imgSrc = isDarkTheme ? darkImgSrc : lightImgSrc;
-  const fullImgSrc = useBaseUrl(imgSrc);
-
   return (
-    <Layout>
-      <img src={fullImgSrc} alt={altText} />
-    </Layout>
+    <BrowserOnly fallback={<img src={useBaseUrl(darkImgSrc)} alt={altText}/>}>
+      {() => {
+        const { isDarkTheme } = useThemeContext();
+        const imgSrc = isDarkTheme ? darkImgSrc : lightImgSrc;
+        const fullImgSrc = useBaseUrl(imgSrc);
+
+        return (
+          <img src={fullImgSrc} alt={altText} />
+        )
+      }}
+    </BrowserOnly>
   )
 }
 
 export default ImageSwitcher;
-*/
