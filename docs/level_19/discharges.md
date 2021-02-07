@@ -26,7 +26,7 @@ title: Discharges
 
 ### Prophetic Trash Discharge
 
-- First, see the section on the [Prophetic Trash Finesse](level_19/special_finesses.md#the-prophetic-trash-finesse-for-1s).
+- First, see the section on the [Prophetic Trash Finesse](special_finesses.md#the-prophetic-trash-finesse-for-1s).
 - If a player gives a color clue to a single card, while a different player currently holds that same card on *Finesse Position*, this must be communicating something extra.
 - In this situation, the next player should treat this clue as if were an *Unknown Trash Discharge*.
 - This is a *Prophetic* blind-play: in order for the clued card to have been considered trash, a teammate is therefore promised to have a matching copy on *Finesse Position* (note that this can also be *Layered*).
