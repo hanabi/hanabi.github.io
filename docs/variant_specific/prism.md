@@ -19,7 +19,7 @@ These conventions apply to any variant with a prism suit.
 
 ### Color Bluffs (Two-Away-From-Playable)
 
-- Players can perform a *Bluff* on a prism card with a color, as long as that color represents a prism card that is both a valid *Bluff*-target and *two-or-more-away-from-playable*.
+- Players can perform a *Bluff* on a prism card with a color, as long as the focus of the clue is a valid *Bluff*-target and the color represents a prism card that is *two-or-more-away-from-playable*.
 - As a consequence of this, you can *Bluff* a prism 1 by cluing a prism 3 (with color).
 - For example, in a 3-player game of *Prism (5 Suits)*:
   - Nothing is played on the stacks.
