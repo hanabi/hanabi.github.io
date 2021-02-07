@@ -149,7 +149,7 @@ title: Special Finesses
 
 ### The Prophetic Trash Finesse (for 1's)
 
-- If a player gives a rank clue to a single 1, while a different player currently holds that same 1 on *Finesse Position*, this must be communicating something extra.
+- If a player gives a rank clue to a single playable 1, while a different player currently holds that same 1 on *Finesse Position*, this must be communicating something extra.
 - In this situation, the next player should treat this clue as if were a *Trash Finesse*. 
 - This is a *Prophetic* blind-play: in order for the clued card to be considered trash, a teammate is therefore promised to have the matching 1 on *Finesse Position* (note that this can also be *Layered*).
 - The clued player should **always** treat this as an *Unnecessary Trash* move. 
