@@ -15,6 +15,15 @@ The main website lists all of our conventions. But it does not bother listing **
 
 <br />
 
+### Mandatory 5 Stalling
+
+- In the Hyphen-ated convention framework, we require that the team collectively performs one *[5 Stall](https://zamiell.github.io/hanabi-conventions/docs/level_1#the-5-stall)*. Why?
+- *5 Stalls* can be useful because they extend the *Early Game*. Extending the *Early Game* is good, because it prevents bottom-deck losses. 
+- On the other hand, *5 Stalls* are kind of a waste, as they don't accomplish much in-of-themselves. It is more efficient to only save 5's when they actually get on chop and *need* to be saved.
+- Thus, requiring one *5 Stall* is a compromise between extending the *Early Game* and not doing too many *5 Stalls*.
+
+<br />
+
 ### Play Order of Multiple 1's
 
 - In the Hyphen-ated convention framework, we [play 1's in the opening hand from right-to-left](https://zamiell.github.io/hanabi-conventions/docs/level_2#playing-multiple-1s---play-order-inversion-in-the-starting-hand-part-1). Why?
