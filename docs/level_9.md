@@ -193,9 +193,9 @@ title: Level 9 - Fellow
 
 ## General Principles
 
-### Legal Bluff Targets
+### Legal Bluff-Targets
 
-- The full list of "legal *Bluff* targets" is as follows:
+- The full list of legal *Bluff* targets is as follows:
   - any *one-away-from-playable* card (with either a color clue or a number clue)
   - any 3 (with either a color clue or a number clue)
   - any critical 4 (only with a color clue)
