@@ -239,6 +239,22 @@ title: Special Finesses
   - Bob blind-plays his slot 3 card and it successfully plays as the blue 1.
   - Bob knows that his 2 must be the blue 2 to match the blue 1.
 
+### The Cursed Finesse
+
+- *Double Finesses* and *Clandestine Finesses* usually work because the original blind-play 'matches' the first and, therefore, they must have the connecting card(s) as well. However, what if the card is intentionally clued in such a way that no additional blind-plays after the first would be called for?
+- In this situation, if the cluer is not making a mistake, they are trying to send a deeper message - they want an extra person to blind-play.
+- This clue is considered *Cursed* - the next player must therefore blind-play in order to "heal" the situation, since otherwise the clue will just be treated as a single *Bluff*.
+- After this extra blind-play occurs, the presence of the original *Double* (or *Layered*) *Finesse* is now preserved and immediately known to everyone.
+- For example, in a 4-player game:
+  - It is the first turn and nothing is played on the stacks.
+  - Bob has a red 1 on slot 1 and a blue 1 on slot 2.
+  - Alice clues blue to Donald, touching a single blue 2.
+  - Bob blind-plays red 1.
+  - Cathy sees that Alice could have initiated a *Clandestine Finesse* on Bob by cluing the blue 2 with rank instead of color. Therefore, Cathy needs to "heal" the situation. She blind-plays. It is a red 2 and it successfully plays.
+  - Bob and Donald both gasp in surprise when Cathy blind-plays. Since Bob's red 1 did not match Donald's blue card, this cannot be a *Pestilent Double Bluff*. It also cannot be a *Double Bluff* on blue 4 because Cathy could never blind-play before Bob had a chance to play his blue 1.
+  - Therefore, the team knows that this must have been a *Cursed Finesse*. Donald must have blue 2, and Bob will now continue to blind-play for his now-promised blue 1.
+- Note that this only should occur if there was *Free Choice* in the initial clue. For example, if the chosen clue also good-touched additional cards or avoided bad-touching other card(s), then this is **not** a *Cursed Finesse*.
+
 ### The Surreptitious Finesse
 
 - *Clandestine Finesses* are when a color or rank clue "matches" the card from a blind-play, but the clue receiver must wait for **additional** matching playable cards to blind-play. Another way of saying this is that *Clandestine Finesses* have a *Misplay Component*; if the blind-player does not continue to blind-play cards, then the clue receiver will go on to misplay the "matching" card.
