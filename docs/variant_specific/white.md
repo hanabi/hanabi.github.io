@@ -23,14 +23,14 @@ These conventions apply to any variant with a white (touched by no colors) suit.
 ### The White Loaded Self-Finesse
 
 - Since players will always assume *White Loaded Play Clues*, you can also use them to perform *Self-Finesses*.
-- For example, in a 3-player game:
+- For example, in a 3-player game (using a number 3 clue that looks like a *Critical Save*):
   - White 1 is played on the stacks. White 3 and blue 3 are in the trash.
   - Bob has a globally-known playable red 1 in his hand.
   - Alice clues number 3 to Bob, touching a 3 on Bob's chop.
   - Normally, Bob would interpret this as an *Early Save* on either the blue 3 or the white 3.
   - However, Bob knows that he is *Loaded* and that this 3 could be a white 3. Thus, this must be a *White Loaded Play Clue* on a white 3.
   - Bob does not see any white 2's, so he knows that he must have the white 2 as a *Self-Finesse*. Bob blind plays his *Finesse Position*. It is a white 2 and it successfully plays.
-- For example, in a 3-player game:
+- For example, in a 3-player game (using a number 2 clue that looks like a *2 Save*):
   - It is the first turn and nothing is played on the stacks.
   - Alice clues Cathy red, touching a red 1 as a *Play Clue*.
   - Bob clues Cathy number 2, touching a 2 on her chop.

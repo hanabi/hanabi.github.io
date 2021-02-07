@@ -86,7 +86,7 @@ const Search = props => {
       <input
         id="search_input_react"
         type="search"
-        placeholder="Search"
+        placeholder="Search (Ctrl + K)"
         aria-label="Search"
         className={classnames(
           "navbar__search-input",
