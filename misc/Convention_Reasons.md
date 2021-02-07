@@ -55,7 +55,7 @@ The main website lists all of our conventions. But it does not bother listing **
 - Intuitively, you would expect that trash should be discarded from right-to-left, because that is the order that we normally discard cards in.
 - However, this does not work well if you use the *Trash Finesse* convention and it gets deferred.
 - For example, consider the following replay: https://hanabi.live/replay/16627#32
-  - On turn 32, from xdragun's perspective, Zamiel's clue can be either a *Play Clue* on the purple 1 or a *Trash Finesse*.
+  - On turn 32, from xdragun's perspective, Zamiel's clue can be either a *Play Clue* (on a purple 1) or a *Trash Finesse* (on a *Trash* 1).
   - On turn 34, from xdragun's perspective, it is possible that Libster deferred playing into the *Trash Finesse* in order to perform a *Bluff* of his own. Thus, the card is still in a superposition of these two possibilities.
 
 | Convention Decision | Real Card Identity | Card Identity Assumed | xdragun will   | Outcome
