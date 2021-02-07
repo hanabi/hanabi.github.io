@@ -147,6 +147,13 @@ title: Special Finesses
   - Donald knows that normally, this would be a *4 Double Bluff* and that no-one should play any more cards. However, since the red 4 was duplicated, this must be a *Bad Touch Triple Finesse*, so Cathy blind-plays her *Finesse Position* and it is the red 3.
   - Emily knows that this cannot be a *4 Double Bluff*, or else Donald would not have blind-played anything. Thus, this must be a *Bad Touch Triple Finesse*, so Emily plays her left-most red 4. The next time that Emily discards, she will discard the known trash red 4.
 
+### The Prophetic Trash Finesse (for 1's)
+
+- If a player gives a rank clue to a single 1, while a different player currently holds that same 1 on *Finesse Position*, this must be communicating something extra.
+- In this situation, the next player should treat this clue as if were a *Trash Finesse*. 
+- This is a *Prophetic* blind-play: in order for the clued card to be considered trash, a teammate is therefore promised to have the matching 1 on *Finesse Position* (note that this can also be *Layered*).
+- The clued player should **always** treat this as an *Unnecessary Trash* move. 
+
 ### The Patch Finesse
 
 - Sometimes, a player will initiate a *Layered Finesse* on a card that is behind a *one-away-from-playable* card. Normally, this would be quite bad, as the player would blind-play the *one-away-from-playable* card, and it would misplay.
