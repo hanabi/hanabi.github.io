@@ -153,6 +153,12 @@ title: Special Finesses
 - In this situation, the next player should treat this clue as if were a *Trash Finesse*. 
 - This is a *Prophetic* blind-play: in order for the clued card to be considered trash, a teammate is therefore promised to have the matching 1 on *Finesse Position* (note that this can also be *Layered*).
 - The clued player should **always** treat this as an *Unnecessary Trash* move. 
+- For example, in a 4-player game:
+  - It is the first turn of the game and nothing is played on the stacks.
+  - Alice clues number 1 to Donald, touching a single red 1 on slot 3.
+  - Bob blind-plays blue 1.
+  - Cathy understands that she must also have red 1, on *Finesse Position*. She blind-plays red 1.
+  - Donald discards his known red 1. He also *Chop Moves* his slot 4 card because of the *Unnecessary* nature of this sequence.
 
 ### The Patch Finesse
 
