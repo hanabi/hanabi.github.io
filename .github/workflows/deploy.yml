@@ -17,7 +17,7 @@ jobs:
         with:
           node-version: '12.x'
 
-      - name: Install node modules
+      - name: Cache node modules
         uses: actions/cache@v2
         id: deploy_cache
         with:
@@ -25,7 +25,8 @@ jobs:
           key: ${{ runner.os }}-node-${{ hashFiles('package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-node-
-      - if: steps.deploy_cache.outputs.cache-hit != 'true'
+
+      - name: Install node modules
         run: npm install
 
       - name: Build
