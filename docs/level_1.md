@@ -3,7 +3,7 @@ id: level_1
 title: Level 1 - Newbie
 ---
 
-- Canary. Level 1 strategies can be learned with no games of Hanabi played. You can either learn them before you play your first game or after you play a few games to learn the basic mechanics.
+- Level 1 strategies can be learned with no games of Hanabi played. You can either learn them before you play your first game or after you play a few games to learn the basic mechanics.
 - This stuff is a repeat of the [beginner's guide](beginner.md), but we go into a bit more detail here.
 
 ## Conventions & Special Moves
