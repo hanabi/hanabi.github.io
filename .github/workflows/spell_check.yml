@@ -1,4 +1,4 @@
-name: CI
+name: Spell Check
 
 on: [push, pull_request]
 
