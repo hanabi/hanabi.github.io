@@ -25,9 +25,13 @@ jobs:
       #    key: deploy-node-modules-${{ hashFiles('package-lock.json') }}
       #- if: steps.cache.outputs.cache-hit != 'true'
       #  run: npm install
+      #  working-directory: ${{ env.working-directory }}
 
       - name: Install node modules
         run: npm install
 
       - name: Deploy
-        run: GIT_PASS=${{ secrets.ACCESS_TOKEN }} ./deploy.sh
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
