@@ -3,21 +3,13 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "docusaurus": "docusaurus",
-    "start": "docusaurus start",
     "build": "docusaurus build",
-    "swizzle": "docusaurus swizzle",
+    "clear": "docusaurus clear",
     "deploy": "docusaurus deploy",
+    "docusaurus": "docusaurus",
     "serve": "docusaurus serve",
-    "clear": "docusaurus clear"
-  },
-  "dependencies": {
-    "@docusaurus/core": "2.0.0-alpha.70",
-    "@docusaurus/preset-classic": "2.0.0-alpha.70",
-    "@mdx-js/react": "^1.6.21",
-    "clsx": "^1.1.1",
-    "react": "^16.8.4",
-    "react-dom": "^16.8.4"
+    "start": "docusaurus start",
+    "swizzle": "docusaurus swizzle"
   },
   "browserslist": {
     "production": [
@@ -30,5 +22,25 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "dependencies": {
+    "@docusaurus/core": "2.0.0-alpha.70",
+    "@docusaurus/preset-classic": "2.0.0-alpha.70",
+    "@mdx-js/react": "^1.6.21",
+    "clsx": "^1.1.1",
+    "cspell": "^4.0.63",
+    "detect-trailing-whitespace": "^1.0.0",
+    "exit-hook": "^2.2.0",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "recursive-readdir": "^2.2.2",
+    "remark-parse": "^8.0.2",
+    "remark-retext": "^4.0.0",
+    "retext": "^7.0.1",
+    "retext-english": "^3.0.4",
+    "retext-indefinite-article": "^2.0.1",
+    "retext-repeated-words": "^3.0.0",
+    "vfile-glob": "^1.0.0",
+    "vfile-reporter": "^6.0.1"
   }
 }

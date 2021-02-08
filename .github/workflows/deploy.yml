@@ -19,13 +19,14 @@ jobs:
 
       - name: Install node modules
         uses: actions/cache@v2
-        id: cache
+        id: deploy_cache
         with:
-          path: ${{ env.working-directory }}/node_modules
-          key: deploy-node-modules-${{ hashFiles('package-lock.json') }}
-      - if: steps.cache.outputs.cache-hit != 'true'
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+      - if: steps.deploy_cache.outputs.cache-hit != 'true'
         run: npm install
-        working-directory: ${{ env.working-directory }}
 
       - name: Build
         run: npm run build

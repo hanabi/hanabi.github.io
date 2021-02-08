@@ -4,10 +4,7 @@ on: [push, pull_request]
 
 jobs:
   spell_check:
-    name: Spell Check
     runs-on: ubuntu-latest
-    env:
-      working-directory: ./spell-check
     steps:
       - name: Checkout the repository
         uses: actions/checkout@v2
@@ -19,17 +16,17 @@ jobs:
 
       - name: Install node modules
         uses: actions/cache@v2
-        id: cache
+        id: spell_check_cache
         with:
-          path: ${{ env.working-directory }}/node_modules
-          key: spell-check-node-modules-${{ hashFiles('spell-check/package-lock.json') }}
-      - if: steps.cache.outputs.cache-hit != 'true'
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+      - if: steps.spell_check_cache.outputs.cache-hit != 'true'
         run: npm install
-        working-directory: ${{ env.working-directory }}
 
       - name: Spell check
         run: ./spell_check.sh
-        working-directory: ${{ env.working-directory }}
 
   discord:
     name: Discord Failure Notification
