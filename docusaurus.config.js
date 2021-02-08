@@ -64,21 +64,21 @@ module.exports = {
     },
 
     // Extra settings
-    /*
     algolia: {
-      apiKey: 'YOUR_API_KEY',
-      indexName: 'HANABI_CONVENTIONS',
-      contextualSearch: false,
+      apiKey: 'd78c09bd651631ef68e85a10a605d1e8',
+      indexName: 'hanabi-conventions',
+      contextualSearch: false, // Only useful for versioned sites, e.g. docs for v1, v2
     },
-    */
     colorMode: {
       defaultMode: 'dark',
     },
     sidebarCollapsible: false,
   },
+  /*
   plugins: [
     require.resolve('docusaurus-lunr-search'),
   ],
+  */
   presets: [
     [
       '@docusaurus/preset-classic',
