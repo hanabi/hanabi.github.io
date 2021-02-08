@@ -17,12 +17,6 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs/about',
-          activeBasePath: 'docs',
-          label: 'About',
-          position: 'left',
-        },
-        {
           to: 'docs/beginner',
           activeBasePath: 'docs',
           label: 'Beginner',
@@ -48,7 +42,7 @@ module.exports = {
         },
         {
           href: 'https://github.com/Zamiell/hanabi-conventions/issues',
-          label: 'Convention Proposals',
+          label: 'Proposals',
           position: 'right',
         },
         {
