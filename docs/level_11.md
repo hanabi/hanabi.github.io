@@ -54,7 +54,7 @@ title: Level 11 - Advanced
 
 ### A Flowchart for Cluing 5's in the Early Game
 
-- Differentiating between a *5 Stall* and a *5 Pull* can sometimes be confusing. [Here is a handy flowchart](https://raw.githubusercontent.com/Zamiell/hanabi-conventions/main/static/img/flowcharts/early_game_5_flowchart.png) that steps you through how you can tell the difference.
+- Differentiating between a *5 Stall* and a *5 Pull* can sometimes be confusing. [Here is a handy flowchart](https://raw.githubusercontent.com/hanabi/hanabi.github.io/main/static/img/flowcharts/early_game_5_flowchart.png) that steps you through how you can tell the difference.
 
 ### The 5 Pull Prompt & The 5 Pull Finesse
 

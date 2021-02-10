@@ -1,3 +1,3 @@
 # Beginner's Guide for the Hyphen-ated Group
 
-Please see the [conventions website](https://zamiell.github.io/hanabi-conventions/).
+Please see the [conventions website](https://hanabi.github.io/).

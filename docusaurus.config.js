@@ -1,12 +1,12 @@
 module.exports = {
   title: 'The Hyphen-ated Conventions',
-  url: 'https://hyphenated.github.com',
-  baseUrl: '/hanabi-conventions/',
+  url: 'https://hanabi.github.io',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'Zamiell',
-  projectName: 'hanabi-conventions',
+  organizationName: 'hanabi',
+  projectName: 'hanabi.github.io',
   themeConfig: {
     // Vanilla components
     navbar: {
@@ -41,13 +41,8 @@ module.exports = {
           position: 'left',
         },
         {
-          href: 'https://github.com/Zamiell/hanabi-conventions/issues',
+          href: 'https://github.com/hanabi/hanabi.github.io/issues',
           label: 'Proposals',
-          position: 'right',
-        },
-        {
-          href: 'https://github.com/Zamiell/hanabi-conventions',
-          label: 'GitHub Repo',
           position: 'right',
         },
       ],
@@ -80,7 +75,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/Zamiell/hanabi-conventions/edit/main/',
+            'https://github.com/hanabi/hanabi.github.io/edit/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -93,6 +88,6 @@ module.exports = {
       src: 'https://kit.fontawesome.com/1932a73877.js',
       crossorigin: 'anonymous',
     },
-    '/hanabi-conventions/js/hotkey.js',
+    '/js/hotkey.js',
   ],
 };
