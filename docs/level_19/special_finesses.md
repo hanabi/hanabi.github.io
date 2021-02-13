@@ -147,6 +147,19 @@ title: Special Finesses
   - Donald knows that normally, this would be a *4 Double Bluff* and that no-one should play any more cards. However, since the red 4 was duplicated, this must be a *Bad Touch Triple Finesse*, so Cathy blind-plays her *Finesse Position* and it is the red 3.
   - Emily knows that this cannot be a *4 Double Bluff*, or else Donald would not have blind-played anything. Thus, this must be a *Bad Touch Triple Finesse*, so Emily plays her left-most red 4. The next time that Emily discards, she will discard the known trash red 4.
 
+### The Prophetic Trash Finesse (for 1's)
+
+- If a player gives a rank clue to a single playable 1, while a different player currently holds that same 1 on *Finesse Position*, this must be communicating something extra.
+- In this situation, the next player should treat this clue as if were a *Trash Finesse*. 
+- This is a *Prophetic* blind-play: in order for the clued card to be considered trash, a teammate is therefore promised to have the matching 1 on *Finesse Position* (note that this can also be *Layered*).
+- The clued player should **always** treat this as an *Unnecessary Trash* move. 
+- For example, in a 4-player game:
+  - It is the first turn of the game and nothing is played on the stacks.
+  - Alice clues number 1 to Donald, touching a single red 1 on slot 3.
+  - Bob blind-plays blue 1.
+  - Cathy understands that she must also have red 1, on *Finesse Position*. She blind-plays red 1.
+  - Donald discards his known red 1. He also *Chop Moves* his slot 4 card because of the *Unnecessary* nature of this sequence.
+
 ### The Patch Finesse
 
 - Sometimes, a player will initiate a *Layered Finesse* on a card that is behind a *one-away-from-playable* card. Normally, this would be quite bad, as the player would blind-play the *one-away-from-playable* card, and it would misplay.
@@ -225,6 +238,22 @@ title: Special Finesses
   - Thus, this must be a *Disease Clandestine Finesse*. In other words, Alice told him that his 2 was playable right now, and no-one else has blind-played any 1s, so Bob must continue to blind-play cards until his 2 is playable.
   - Bob blind-plays his slot 3 card and it successfully plays as the blue 1.
   - Bob knows that his 2 must be the blue 2 to match the blue 1.
+
+### The Cursed Finesse
+
+- Most *Double Finesses* and *Clandestine Finesses* work because the original blind-play 'matches' the clued card and, therefore, more blind-plays are promised. However, what if the same card is intentionally clued in such a way that no additional blind-plays would be called for after the first?
+- In this situation, if the cluer is not making a mistake, they are trying to send a deeper message - they want an extra person to blind-play.
+- Such a clue is considered *Cursed* - the next player must therefore blind-play in order to "heal" the situation, since otherwise the clue will just be treated as a single *Bluff*.
+- After this extra blind-play occurs, the presence of the true *Double* (or *Clandestine*) *Finesse* is now promised and understood by the team.
+- For example, in a 4-player game:
+  - It is the first turn and nothing is played on the stacks.
+  - Bob has a red 1 on slot 1 and a blue 1 on slot 2.
+  - Alice clues blue to Donald, touching a single blue 2.
+  - Bob blind-plays red 1.
+  - Cathy sees that Alice could have cleanly initiated a *Clandestine Finesse* on Bob by cluing the blue 2 with rank instead of color. Therefore, Cathy needs to "heal" the situation. She blind-plays. It is a red 2 and it successfully plays.
+  - Bob and Donald both gasp in surprise when Cathy blind-plays. Since Bob's red 1 did not match Donald's blue card, this cannot be a *Pestilent Double Bluff*. It also cannot be a *Double Bluff* on blue 4 because Cathy would never have blind-played anything before Bob had a chance to play his blue 1.
+  - Therefore, the team knows that this must have been a *Cursed Finesse*. Bob will now continue to blind-play for his now-promised blue 1.
+- Note that this only should occur if there was *Free Choice* in the initial clue. For example, if the chosen clue also good-touched additional cards or avoided bad-touching other card(s), then this is **not** a *Cursed Finesse*.
 
 ### The Surreptitious Finesse
 

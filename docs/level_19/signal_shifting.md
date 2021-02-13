@@ -11,7 +11,7 @@ title: Signal Shifting
 - But what if a clue is given such that a *Finesse Position* blind-play will **never** clarify the *Signal*?
 - In this situation, we agree that the next player should blind-play a card **other** than their regular *Finesse Position*. By doing so, they will *Shift* the original *Signal* in a fundamental way.
   - For example, in the *5 Color Ejection*, the original clue's *Signal Shifts* from a *Play* to a *Save*.
-- This *Signal Shift* can take several forms: *Ejection*, *Discharge*, and *Charm*.
+- This *Signal Shift* can take two forms: *Ejection* and *Discharge*.
 - Just like a *Bluff*, all forms of *Signal Shifting* can only be performed on the very next player.
 
 ![Signal Shifting](/img/signal_shifting.png)

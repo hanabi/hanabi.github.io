@@ -23,3 +23,11 @@ title: Discharges
 - Normally, when known trash is touched as the focus of the clue, and the known trash is on chop, it communicates a *Trash Push*.
 - However, what if the *Trash Pushed* card is trash? The other players can see that this clue must have some other purpose - it should signal an *Discharge* on the very next player.
 - This move is extremely similar to the *Unknown Trash Discharge*. In UTD, the focus of the clue is promised as trash. In the *Trash Push Discharge*, the *Trash Pushed* card is promised as trash.
+
+### Prophetic Trash Discharge
+
+- First, see the section on the [Prophetic Trash Finesse](special_finesses.md#the-prophetic-trash-finesse-for-1s).
+- If a player gives a color clue to a single playable card, while a different player currently holds that same card on *Finesse Position*, this must be communicating something extra.
+- In this situation, the next player should treat this clue as if were an *Unknown Trash Discharge*.
+- This is a *Prophetic* blind-play: in order for the clued card to have been considered trash, a teammate is therefore promised to have a matching copy on *Finesse Position* (note that this can also be *Layered*).
+- Unlike the *Prophetic Trash Finesse* form, the clued player should **only** treat this as *Unnecessary* if the *Discharged* card could have been cleanly clued.
