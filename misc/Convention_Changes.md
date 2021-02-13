@@ -24,7 +24,7 @@
 ## Do I need a GitHub account to submit new proposals or to comment on other people's proposals?
 
 - Yes, you do. Thankfully, GitHub accounts are free and it is relatively painless to create one.
-- We apologize for the inconvenience of making you sign up for yet another online account. GitHub allows us to have threaded discussion and makes things easier to track, so it will be worth your time.
+- GitHub allows us to have threaded discussion and makes things much easier to track.
 
 <br />
 
