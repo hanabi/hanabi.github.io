@@ -125,6 +125,20 @@ There are a lot of different moves that involve cluing trash. [Here is a handy f
   - Bob plays red 2.
   - Bob knows that his other red card **must** be red 3, since it was originally clued as playable and it caused a *Reverse Finesse*.
 
+### The Out-of-Order Finesse Interaction with 5 Color Ejection
+
+* The *5 Color Ejection* takes precedence over the *Out-of-Order Finesse* as long as the two-or-more-blind-plays rule is satisfied.
+* For example, in a 3-player game, this would be a *5 Color Ejection*:
+  * It is the first turn of the game and nothing is played on the stacks.
+  * Alice clues red to Cathy, touching a red 5 on slot 1, a red 1 on slot 2, and a red 2 on slot 3.
+  * Bob knows that this could be an *Out-of-Order Finesse*. Specifically, if Bob gives a follow-up number 5 *Fix Clue* to Cathy, then Cathy would play the red 1, Cathy would play the red 2, and Bob would blind-play the red 3, Bob would blind-play the red 4, into Cathy's red 5.
+  * However, this line would require Bob to blind-play 2 cards, so Bob knows that he should prefer a *5 Color Ejection* instead.
+* For example, in a 3-player game, this would be an *Out-of-Order Finesse*:
+  * It is the first turn of the game and nothing is played on the stacks.
+  * Alice clues red to Cathy, touching a red 5 on slot 1, a red 1 on slot 2, a red 2 on slot 3, and a red 4 on slot 4.
+  * Bob knows that this could be an *Out-of-Order Finesse*. Specifically, if Bob gives a follow-up number 5 *Fix Clue* to Cathy, then Cathy would play the red 1, Cathy would play the red 2, Bob would blind-play the red 3, Cathy would play the red 4, and then Cathy would play the red 5.
+  * Since this line only requires that Bob blind-plays 1 card, he knows that it cannot be a *5 Color Ejection*, so Bob performs the *Fix Clue* to allow for the *Out-of-Order Finesse*.
+
 ### Finesses with a Lie Component
 
 - *Lie Principle* states all that *Fibs* must resolve immediately. An untruth that does not resolve immediately is a *Lie*.
