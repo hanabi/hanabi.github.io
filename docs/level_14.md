@@ -92,13 +92,29 @@ title: Level 14 - Scholar
 
 There are a lot of different moves that involve cluing trash. [Here is a handy flowchart](https://raw.githubusercontent.com/hanabi/hanabi.github.io/main/static/img/flowcharts/cluing_trash_flowchart.png) for determining the difference between the different types of special moves that touch trash. (The flowchart contains some strategies that have not been covered yet, but the three most important moves to understand are the *Trash Chop Move*, the *Trash Finesse/Bluff*, and the *Trash Push*.)
 
-### The Out-of-Order Finesse (Triple O / OOO)
+### The Out-of-Order Play Clue (Triple O / OOO)
+
+- Sometimes, a player will have two playable cards in their hand of the same suit, but they will be "blocked", meaning that both a color clue and a number clue will not be able to focus the first playable card.
+- One technique to get around this is to give a clue that focuses the wrong card, and then have the next player give a *Fix Clue*. This is called an *Out-of-Order Play Clue* because the cards were originally out-of-order, but the original focus is still playable.
+- For example, in a 3-player game:
+  - It is the first turn and nothing is played on the stacks.
+  - Cathy hand is as follows, from left to right: `red 4, red 1, red 2, red 3, blue 4`
+  - Alice clues red to Cathy, touching slot 1, slot 2, slot 3, and slot 4.
+  - Bob sees that Alice has indicated to Cathy that she has the red 1 on slot 1. Cathy will go on to misplay the red 4 as the red 1.
+  - Normally, Bob would think this is a *Finesse* and try to play the red 1 into the red 4. However, that doesn't make any sense, because Cathy has the red 1, and then Alice would be violating *Good Touch Principle*.
+  - Instead, Bob knows that the team should be using Cathy's red 1. Thus, Bob knows that he needs to give a *Fix Clue* to Cathy, because Alice intends for her and Bob to work together.
+  - Bob clues number 4 to Cathy, touching the blue 4 and "filling in" the red 4.
+  - Cathy is surprised because the card that she thought was red 1 is actually a red 4. Cathy knows that since the red 4 was the original focus of Alice's clue, then it must actually be playable right now. Thus, Cathy must have the red 1, the red 2, and the red 3.
+  - Cathy plays the red 1 from slot 2 (the left-most red card that could be the red 1). She will go on to play the red 2, the red 3, and the red 4.
+  - Cathy (and everyone else on the team) knows that even though the blue 4 was the focus of Bob's clue, it is not actually playable right now, and was just "collateral damage" of Bob's required *Fix Clue*.
+
+### The Out-of-Order Finesse
 
 - Sometimes, a *Finesse* is initiated by giving a color clue to two or more cards where the next card in the sequence is clued, but it is **not** the focus of the clue.
 - When this happens, the *Finesse* will still work: a player will blind-play a matching card. However, a *Fix Clue* must then be given to the player who originally received the clue, or they will go on to misplay.
 - Normally, after receiving a *Fix Clue*, a player would normally "stop" and not assume anything else about his hand. However, this is a special situation: when the original *Finesse* was given, it was a message that the focus of the clue was playable. *Information Lock Principle* applies, and it means that the original focus of the clue is also playable.
 - For example, in a 3-player game:
-  - At the beginning of the game, Alice goes first.
+  - It is the first turn and nothing is played on the stacks.
   - Bob has a red 3 and a red 2 (on slots 1 and 2 respectively).
   - Cathy has a red 1 on slot 1 (in *Finesse Position*).
   - Alice clues Bob red (as an *Out-of-Order Reverse Finesse*). The focus of the clue is the red 3 on slot 1.
