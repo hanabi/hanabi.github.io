@@ -135,7 +135,7 @@ title: Level 3 - Initiate
   - Alice clues blue to Bob, which touches slot 3, slot 4, and slot 5. (Slot 3 and slot 4 are "filled in" to be rainbow cards and slot 5 is now a true blue card.)
   - Bob knows that the focus of the clue is normally on the brand-new card introduced, but all three of the cards that were touched were "old".
   - Bob knows that when old cards are re-touched, the focus of the clue is the left-most of those cards.
-  - However, Bob also knows that in this is the exception to the rule. In this specific case, putting a positive clue on the *Chop Moved* card was more important than filling in the rainbow cards, so by convention the focus of the clue is his slot 5.
+  - However, Bob also knows that this is the exception to the rule. In this specific case, putting a positive clue on the *Chop Moved* card was more important than filling in the rainbow cards, so by convention the focus of the clue is his slot 5.
 
 ### Chop Moves & Prompts
 
