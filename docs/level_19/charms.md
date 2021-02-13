@@ -29,6 +29,17 @@ title: Charms
 - Similar to a *5 Color Ejection*, *Prompts* don't factor into the "three or more blind-plays" rule. Players only count the number of blind-plays.
 - *4 Charms* take precedence over *Safety Charms*.
 
+### 4 Charm Interaction with the Out-of-Order Finesse
+
+- The *Out-of-Order Finesse* always takes precedence over a *4 Charm* or a *4's Double Bluff*, because of *Bob's Truth Principle*.
+- For example, in a 4-player game:
+  - It is the first turn and nothing is played on the stacks.
+  - Donald's hand is as follows, from left to right: `red 4, red 1, blue 3, blue 3`
+  - Alice clues red to Donald, touching the red 4 on slot 1 and the red 1 on slot 2. This is a *Play Clue*.
+  - Bob knows that this could be the truth as an *Out-of-Order Finesse*. If that is the case, he should clue number 4 to Donald, allowing him to play the red 1. Then, Bob can blind-play the red 2 and the red 3 (into the playable red 4).
+  - Bob knows that this could also be a *4 Charm*, since the red 4 is *three-away-from-playable* and Bob does not see any other red cards on *Finesse Position*.
+  - However, Bob knows that he should always assume the truth over a lie, so he assumes that Alice intends for an *Out-of-Order Finesse*.
+
 ### The Safety Charm (Declined 5 Pull)
 
 - This convention only applies in the *Low Score Phase*.
