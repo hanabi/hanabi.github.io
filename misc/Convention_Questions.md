@@ -32,7 +32,6 @@ Use notation that the Hyphen-ated group will be familiar with:
 * Instead, explain what **you** think the best answer is, based on your current understanding of the conventions.
 * Provide a detailed explanation as to **why** you think it is the best answer.
 * Discuss any relevant contextual clues present in the game that influence the answer, if any.
-* Provide an alternate answer that might also be the case and discuss why that answer is not as good.
 * For example, the following question is bad:
   * /replay 12345 12 Is this a 5 Stall or a 5 Pull?
 * For example, the following question is good:
