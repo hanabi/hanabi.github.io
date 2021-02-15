@@ -36,7 +36,7 @@ Use notation that the Hyphen-ated group will be familiar with:
 * For example, the following question is bad:
   * /replay 12345 12 Is this a 5 Stall or a 5 Pull?
 * For example, the following question is good:
-  * /replay 12345 12 Here, it is Alice's turn. It is also the Early Game and no 5 Stalls have been given yet. Thus, based on my understanding of the conventions, when Alice clues number 5 to Bob, it would just be a 5 Stall, because there is no other possible clues that Alice can give, and Alice is not allowed to discard and end the Early Game without first doing at least one 5 Stall.
+  * /replay 12345 12 Here, it is Alice's turn. It is also the Early Game and no 5 Stalls have been given yet. Thus, based on my understanding of the conventions, when Alice clues number 5 to Bob, it would just be a 5 Stall, because there is no other possible clues that Alice can give, and Alice is not allowed to discard and end the Early Game without first doing at least one 5 Stall. Is this correct?
 
 ### Reasoning
 
