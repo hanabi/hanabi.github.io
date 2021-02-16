@@ -73,7 +73,7 @@ function Home() {
   return (
     <Layout
       title="Home"
-      description="Description will go into a meta tag in <head />"
+      description="Strategies for Hanabi, a cooperative card game of logic and reasoning"
     >
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
