@@ -257,6 +257,7 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
   - Cathy knows that Alice did not perform a *Bubblegum Bluff*, because Bob would have played his slot 5 card instead of his slot 2 card.
   - Thus, Cathy knows that this must be a *Turnabout Ejection*. She marks her slot 5 card as a pink 1.
 - If a *Turnabout Ejection* occurs from a number 1 clue that also touches other 1s, the non-focused cards should still be assumed to be 1s (using the *1's Assumption* convention).
+- *Turnabout Ejections* can only be performed with non-trash cards.
 
 ### The Pink Fake Prompt & The Pink Fake Finesse
 
