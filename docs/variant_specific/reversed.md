@@ -73,7 +73,7 @@ These conventions apply to any variant with a reversed suit (cards must be playe
   - If they happen to see the real copy of the reversed 1 at a later point in the game, then they can discard the 1 as known trash.
 - If there are two or more cards are touched from *1's Chop Move*, the reversed 1 is promised on the right-most.
 
-### The Turnabout Ejection (For 1s)
+### The Turnabout Ejection (for 1s)
 
 - [Turnabout Ejections](pink.md#the-turnabout-ejection-for-1s-and-5s) can be performed on a reversed 1 in the same way that they can on a pink 5.
 - In other words:

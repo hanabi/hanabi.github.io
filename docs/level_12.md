@@ -44,7 +44,7 @@ title: Level 12 - Adept
   - Bob comes next. Bob knows that normally, when you have a choice between two cards, you are supposed to play the lowest rank card. (Unless it is a blind-play, or it leads into someone's hand, or it is a 5.) Bob does not see any blue 3's, so he knows that Alice was supposed to play the red 1 instead of the blue 2. Alice **did not** play the card with *Priority*.
   - This means that Bob must have a blue 3. Bob does not have any clued cards in his hand, so he blind-plays his *Finesse Position* card. It is **not** the blue 3 and is instead the green 1. Bob now knows that he was *Bluffed* and that no-one has the blue 3.
 
-### A Priority Flowchart (For Choosing Between 2+ Playable Cards)
+### A Priority Flowchart (for Choosing Between 2+ Playable Cards)
 
 *Priority* can be confusing. [Here is a flowchart](https://raw.githubusercontent.com/hanabi/hanabi.github.io/main/static/img/flowcharts/priority_flowchart.png) that shows, in general, which card should be played when there is a choice between two cards.
 

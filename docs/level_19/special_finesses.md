@@ -64,7 +64,7 @@ title: Special Finesses
   - Since two cards were blind-played (that did not match), everyone now knows that the *No-Information* clue was a *Double Bluff* instead of a *Double Finesse*. From Cathy's perspective, her 3 can (still) be any 3 at all.
 - The "no-information" principle can also be used to perform a *No-Information Layered Finesse* on the next player. (The next player will know that it is a *Layered Finesse* instead of a *Bluff* because some other more-useful clue could have been given to initiate the *Bluff*.)
 
-### The Bad Touch Finesse (For 1's)
+### The Bad Touch Finesse (for 1's)
 
 - In the *Trash Finesse* / *Trash Bluff*, it is possible to clue number 1 to a player in order to get someone to blind-play a card.  After the blind-play, it is understood that all of the 1's are trash.
 - However, what if this is done on the first turn of the game, touching two 1's? If nothing is played on the stacks, then the 1 of every single suit is needed. In this situation, both of the 1's that are clued cannot be trash.
@@ -85,7 +85,7 @@ title: Special Finesses
   - Bob knows that since we are not normally supposed to violate *Good Touch Principle*, Alice must be trying to communicate something extra. Therefore, this must be a *Bad Touch Finesse*. Bob blind-plays his *Finesse Position* card. It is a blue 1 and it successfully plays.
   - Cathy knows that since this is the first turn of the game, all of her 1's cannot be trash. Similar to a *Stale 1's Clue*, Cathy skips over the oldest 1 (on slot 3) and plays the middle 1 (on slot 2). (She would normally play her 1's from right-to-left.) On Cathy's next turn, she will play the left-most 1. On Cathy's next turn after that, she will discard the right-most 1 (the one that she originally skipped over).
 
-### The Bad Touch Finesse (For 2's)
+### The Bad Touch Finesse (for 2's)
 
 - Normally, if number 2 is clued to a chop card, it is considered to be a *Save Clue* (as the *2 Save* convention).
 - However, it is possible for players to transform this *Save Clue* interpretation into a *Play Clue* interpretation if they violate *Good Touch Principle* and intentionally duplicate another 2.
@@ -102,7 +102,7 @@ title: Special Finesses
   - If the clue giver was an *Occupied*, then it is an *Occupied Play Clue* and the other 2's are not necessarily duplicated.
   - If the clue giver gave a *2 Save* early and had other *Play Clues* to give instead, the clue could be so bad that it would trigger a *Finesse* and the other 2's are not necessarily duplicated.
 
-### The Bad Touch Bluff (For 2's)
+### The Bad Touch Bluff (for 2's)
 
 - In the same way as the *Bad Touch Finesse*, it is also possible to *Bad Touch Bluff* in order to get unrelated cards played from *Finesse Position*.
 - For example, in a 3-player game:
@@ -112,7 +112,7 @@ title: Special Finesses
   - Bob blind-plays his *Finesse Position* card, trying to play the red 1. Instead, it is is blue 3 and it successfully plays.
   - Cathy knows that since a clue that looked like a *2 Save* got Bob to blind-play something, then a duplication occurred and both of the 2's must be the same. Cathy discards the chop card and saves the other one for later.
 
-### The Bad Touch Double Finesse (For 3's)
+### The Bad Touch Double Finesse (for 3's)
 
 - Normally, a *3 Bluff* takes priority over a *Double Finesse*. This means that if someone clues a blue 3 using the number 3, and then a blue 1 blind-plays on the very next turn, no-one is promised the blue 2.
 - However, if **both** blue 3's were touched with the number 3 clue, then that would violate *Good Touch Principle*, and this would be considered a "bad touch".
@@ -127,8 +127,8 @@ title: Special Finesses
 
 ### The Bad Touch Layered Finesse That Dupes a Clued Card (Illegal)
 
-- First, see the section on the *[Bad Touch Double Finesse (For 3's)](special_finesses.md#the-bad-touch-double-finesse-for-3s)*.
-- Similar to a *Bad Touch Double Finesse (For 3's)*, it is also possible to try a *Bad Touch Layered Finesse* on the next player.
+- First, see the section on the *[Bad Touch Double Finesse (for 3's)](special_finesses.md#the-bad-touch-double-finesse-for-3s)*.
+- Similar to a *Bad Touch Double Finesse (for 3's)*, it is also possible to try a *Bad Touch Layered Finesse* on the next player.
 - For example, in a 3-player game:
   - No cards are played on the stacks.
   - Alice clues both copies of red 3 in Cathy's hand.
@@ -136,7 +136,7 @@ title: Special Finesses
   - Bob knows that if only one red 3 was touched, this would just be a normal *3 Bluff*. However, since there was a bad touch, he knows that he must continue to blind-play cards until he finds the red 1 and the red 2.
 - *Bad Touch Layered Finesses* are **explicitly illegal** because they violate *Lie Principle* - Bob cannot demonstrate that it is a bad touch until after Cathy has already taken a turn.
 
-### The Bad Touch Triple Finesse (For 4's)
+### The Bad Touch Triple Finesse (for 4's)
 
 - In the same way that it is possible to perform a *Bad Touch Double Finesse* to "get around" a *3 Bluff* interpretation, it is also possible to perform a *Bad Touch Triple Finesse* to "get around" a *4 Double Bluff* interpretation.
 - For example, in a 5-player game:
@@ -147,18 +147,32 @@ title: Special Finesses
   - Donald knows that normally, this would be a *4 Double Bluff* and that no-one should play any more cards. However, since the red 4 was duplicated, this must be a *Bad Touch Triple Finesse*, so Cathy blind-plays her *Finesse Position* and it is the red 3.
   - Emily knows that this cannot be a *4 Double Bluff*, or else Donald would not have blind-played anything. Thus, this must be a *Bad Touch Triple Finesse*, so Emily plays her left-most red 4. The next time that Emily discards, she will discard the known trash red 4.
 
-### The Prophetic Trash Finesse (for 1's)
+### The Prophetic Finesse (for 1's)
 
-- If a player gives a rank clue to a single playable 1, while a different player currently holds that same 1 on *Finesse Position*, this must be communicating something extra.
-- In this situation, the next player should treat this clue as if were a *Trash Finesse*. 
-- This is a *Prophetic* blind-play: in order for the clued card to be considered trash, a teammate is therefore promised to have the matching 1 on *Finesse Position* (note that this can also be *Layered*).
-- The clued player should **always** treat this as an *Unnecessary Trash* move. 
+- In most games, players will avoid giving a number 1 clue to a single playable 1 that is not on *Finesse Position* if a different player has the same 1 on *Finesse Position*. This is because it is usually better to *Finesse* it or to let someone else *Finesse* it.
+- If a player does this anyway, and doing so was clearly bad, they must be communicating something extra.
+- In this situation, the next player should treat the clue as if were a *Trash Finesse*.
+- This is different from a *Trash Finesse* because a second blind-play is needed to prove that the card is not actually trash. The in-between player is promised to have the matching 1 on *Finesse Position*. The in-between blind-play is called a *Prophetic Blind-Play* to distinguish it from a normal blind-play.
+- Furthermore, once the *Prophetic Finesse* has resolved, the clued player should **always** treat this as an *Unnecessary* move (e.g. as an *Unnecessary Trash Chop Move* or an *Unnecessary Trash Push*).
+- For example, in a 4-player game:
+  - Red 1 is played on the stacks.
+  - Alice clues number 1 to Donald, touching a single blue 1 on slot 3.
+  - Bob sees that Cathy has a blue 1 on her *Finesse Position*. Thus, Alice's clue is strange - she should have probably clued Cathy's blue 1, or allowed someone to *Finesse* Cathy's blue 1.
+  - Bob knows that Alice must be intending for a *Prophetic Finesse*. Bob blind-plays his *Finesse Position*. It is a green 1 and it successfully plays.
+  - Cathy sees that from Donald's perspective, a *Trash Finesse* has just occurred. Donald will mark the blue 1 (playable) as a red 1 (trash), and will discard it. This is bad, so Cathy knows that something else is expected of her.
+  - Cathy knows that this a *Prophetic Finesse* and that she is promised to have a blue 1 on her *Finesse Position*. Cathy blind-plays her *Finesse Position* (as a *Prophetic Blind-Play*). It is a blue 1 and it successfully plays.
+  - Donald knows that since a number 1 clue touched a single 1 and caused two blind-plays, this must be a *Prophetic Finesse*. Donald marks his touched 1 as trash. He also *Chop Moves* his slot 4 card because of the *Unnecessary* part of the move.
+- *Prophetic Finesses* can only be triggered by touching **exactly one 1**. (However, they can be triggered with either a color clue or a number clue.)
+- *Prophetic Finesses* can also be given in situations that cannot be mistaken for *Trash Finesses*.
 - For example, in a 4-player game:
   - It is the first turn of the game and nothing is played on the stacks.
-  - Alice clues number 1 to Donald, touching a single red 1 on slot 3.
-  - Bob blind-plays blue 1.
-  - Cathy understands that she must also have red 1, on *Finesse Position*. She blind-plays red 1.
-  - Donald discards his known red 1. He also *Chop Moves* his slot 4 card because of the *Unnecessary* nature of this sequence.
+  - Alice clues number 1 to Donald, touching a single blue 1 on slot 3.
+  - Just like in the previous example, Bob sees that this is a *Prophetic Finesse* (because Cathy has a blue 1 on her *Finesse Position*). Bob blind-plays his *Finesse Position*. It is a green 1 and it successfully plays.
+  - Cathy sees that from Donald's perspective:
+    - It will not look like a *Trash Finesse*, because no 1's were played at the time of the clue.
+    - It will not look like a *Bad Touch Finesse (for 1's)*, since only a single 1 was clued.
+  - Therefore, as soon Bob blind-plays, both Cathy and Donald can understand that it is a *Prophetic Finesse*.
+  - Just like in the previous example, Cathy blind-plays the blue 1, and Donald marks his 1 as trash and *Chop Moves* his slot 4 card.
 
 ### The Patch Finesse
 
@@ -175,7 +189,7 @@ title: Special Finesses
   - However, Donald knows that he should trust Alice and he should trust Cathy, so he continues to assume that he has the red 2.
   - Donald tries to blind-play red 2 and it is instead the blue 3. Donald now knows that this is a *Patch Finesse*.
   - Emily sees the playable red 2 and red 3 in Donald's hand, so she also knows that this was a *Patch Finesse*. The red card in her hand is either red 3 or red 4.
-  - We skipped over Bob - why did he discard? Normally, Bob should think the same thing as Cathy - that he has both the red 2 and the red 3. However, Bob can look ahead and see that a *Patch Finesse* could occur, so he has to give precedence to that interpretation and wait to see what will happen. He should try to blind-play the red 2 himself on the next round if no other blind-plays occur.
+  - We skipped over Bob - why did he discard? Normally, Bob should think the same thing as Cathy - that he has both the red 2 and the red 3. However, Bob can look ahead and see that a *Patch Finesse* could occur, so since everything will work perfectly if he does nothing, then he should do nothing. It is also possible that Bob happens to have the red 2 and the red 3, so he should try to blind-play those on the next round if no-one else attempts to blind-play anything.
 
 ### The Known Patch Finesse (Illegal)
 
@@ -241,19 +255,24 @@ title: Special Finesses
 
 ### The Cursed Finesse
 
-- Most *Double Finesses* and *Clandestine Finesses* work because the original blind-play 'matches' the clued card and, therefore, more blind-plays are promised. However, what if the same card is intentionally clued in such a way that no additional blind-plays would be called for after the first?
+- Commonly, players can use a *Double Finesse* or a *Clandestine Finesse* to "get" multiple cards from the next player. This works because the first blind-play "matches" the clued card.
+- However, what if a player intentionally performs a *Bluff* where other players can see that it was actually possible to perform a *Double Finesse* or a *Clandestine Finesse*?
 - In this situation, if the cluer is not making a mistake, they are trying to send a deeper message - they want an extra person to blind-play.
-- Such a clue is considered *Cursed* - the next player must therefore blind-play in order to "heal" the situation, since otherwise the clue will just be treated as a single *Bluff*.
-- After this extra blind-play occurs, the presence of the true *Double* (or *Clandestine*) *Finesse* is now promised and understood by the team.
+- This is called a *Cursed Finesse* because it requires the situation to be "cured". By performing a *Cure Blind-Play*, the move is transformed from a *Bluff* into a real *Finesse*.
 - For example, in a 4-player game:
   - It is the first turn and nothing is played on the stacks.
-  - Bob has a red 1 on slot 1 and a blue 1 on slot 2.
+  - Bob's hand is as follows, from left to right: `red 1, blue 1, green 3, green 3`
+  - Donald's hand is as follows, from left to right: `blue 2, green 4, green 4, yellow 4`
+  - Thus, Alice has a *Free Choice* between cluing blue to Donald and number 2 to Donald. If Alice chooses blue, then it will cause a *Bluff* (as a 2-for-1). If Alice chooses number 2, it will cause a *Clandestine Finesse* (as a 3-for-1).
   - Alice clues blue to Donald, touching a single blue 2.
-  - Bob blind-plays red 1.
-  - Cathy sees that Alice could have cleanly initiated a *Clandestine Finesse* on Bob by cluing the blue 2 with rank instead of color. Therefore, Cathy needs to "heal" the situation. She blind-plays. It is a red 2 and it successfully plays.
-  - Bob and Donald both gasp in surprise when Cathy blind-plays. Since Bob's red 1 did not match Donald's blue card, this cannot be a *Pestilent Double Bluff*. It also cannot be a *Double Bluff* on blue 4 because Cathy would never have blind-played anything before Bob had a chance to play his blue 1.
-  - Therefore, the team knows that this must have been a *Cursed Finesse*. Bob will now continue to blind-play for his now-promised blue 1.
-- Note that this only should occur if there was *Free Choice* in the initial clue. For example, if the chosen clue also good-touched additional cards or avoided bad-touching other card(s), then this is **not** a *Cursed Finesse*.
+  - Bob tries to blind-play the blue 1 from his *Finesse Position*. Instead, it is a red 1 and it successfully plays. Bob now knows that he was *Bluffed*.
+  - Cathy sees that Alice could have done a *Clandestine Finesse* instead of a *Bluff*. Thus, Cathy knows that this must be a *Cursed Finesse*. Cathy blind-plays her *Finesse Position* (as a *Cure Blind-Play*). It is a red 2 and it successfully plays.
+  - Bob and Donald both gasp in surprise when Cathy blind-plays:
+    - From Bob's perspective, the focus of the clue is a *one-away-from-playable* card, so this cannot be a *Double Bluff*.
+    - From Donald's perspective, this cannot be a normal *Finesse* or a *Double Bluff*, because Cathy would have done nothing, waiting for Bob to play the blue 1 (as a *Finesse*)
+    - From both Bob and Donald's perspective, Bob's red 1 did not match Donald's blue card, so this cannot be a *Pestilent Double Bluff*.
+  - Therefore, the team knows that this must have been a *Cursed Finesse*. Bob will now continue to blind-play until he finds his promised blue 1.
+- *Cursed Finesses* can only occur if there is a *Free Choice* during the initial clue.
 
 ### The Surreptitious Finesse
 

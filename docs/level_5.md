@@ -42,7 +42,7 @@ title: Level 5 - Proselyte
   - The 1 that was played was originally *Finessed* from a clue that happened **before** the number 1 clue.
   - The 1 that was skipped over is known to be bad from contextual information. (If you are level 9+, see the *[level_9.md#Stale 1's Clue](#context-clues--the-stale-1s-clue)* section. Otherwise, ignore this.)
 
-### Double Order Chop Move (For 3-Player Games)
+### Double Order Chop Move (for 3-Player Games)
 
 - This convention only applies to 3-player games.
 - In the *Order Chop Move*, players can play 1's in a certain order to *Chop Move* a specific player of their choosing.

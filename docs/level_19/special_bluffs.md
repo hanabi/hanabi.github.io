@@ -156,7 +156,7 @@ title: Special Bluffs
   - Valid *Out-of-Position Bluffs* take precedence over *Layered Finesses*. In other words, if Cathy can see that an *OOP Bluff* could be valid (meaning it meets one of the three criteria above), then Cathy should not continue to blind-play cards as a *Layered Finesse*. (This is a common mistake.)
 - A *Reverse Bluff* is just a just a more-specific type of *Out-of-Position Bluff*. All of the same stipulations apply.
 
-### The Bad Touch Double Bluff (For 3's)
+### The Bad Touch Double Bluff (for 3's)
 
 - In the same way as the *Bad Touch Double Finesse*, it is also possible to *Bad Touch Double Bluff* (or *Bad Touch Double Half Bluff*) in order to get unrelated cards played from *Finesse Position*.
 - For example, in a 4-player game:

@@ -43,7 +43,7 @@ These conventions apply to variants with rainbow-ones or rainbow-fives.
   - Cathy now knows that Alice performed a *Color Promise Finesse* instead of a normal *Finesse*.
 - Note that the *Color Promise Finesse* can only be performed if the card that is blind-played matches the clue that was given. Otherwise, Cathy will think that a *Bluff* happened and will not play the clued card.
 
-### The Color Prompt Exception (For Rainbow-Ones)
+### The Color Prompt Exception (for Rainbow-Ones)
 
 - First, see the section on the *[Pink Prompt Rank Exception](pink.md#the-pink-prompt-rank-exception)* (for pink variants).
 - Similar to how there is a *Pink Prompt Rank Exception* for pink cards, there is also a *Color Prompt Exception* for rainbow-ones.

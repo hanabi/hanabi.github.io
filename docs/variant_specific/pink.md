@@ -242,7 +242,7 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 
 ## Level 19 - Other Special Moves
 
-### The Turnabout Ejection (For 1's and 5's)
+### The Turnabout Ejection (for 1's and 5's)
 
 - If a player uses *Pink Promise* to falsely indicate a pink 1 as a pink 5 **or** a pink 5 as a pink 1, this is a dangerous lie that must be immediately resolved.
 - In this situation, the next player must immediately play their *Second Finesse Position* to prove what happened. This is called a *Turnabout Ejection*.

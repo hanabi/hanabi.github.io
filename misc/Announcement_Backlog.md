@@ -58,7 +58,7 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 - However, these cards cannot be saved "early" - any *Early Saves* to these cards would instead be treated as a *Loaded Play Clue*.
 ```
 
-**The Turnabout Ejection (For 1's and 5's)** (by pianoblook)
+**The Turnabout Ejection (for 1's and 5's)** (by pianoblook)
 
 ```
 - If a player uses *Pink Promise* to falsely indicate a pink 1 as a pink 5 **or** a pink 5 as a pink 1, this is a dangerous lie that must be immediately resolved.
