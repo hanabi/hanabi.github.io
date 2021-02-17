@@ -36,9 +36,6 @@ title: Ignitions
 
 #### A Double Ignition
 
-- If the known trash clue cannot be any of these 3 things, then it communicates a *Double Ignition*, meaning that the next two players should blind-play their *Finesse Position* card.
-- For the players playing into a *Double Ignition*, it is pretty easy to see what is going on, because they can see the playable *Finesse Position* card of the other person.
-
 - If the known trash clue cannot be any of these 3 things, then it communicates a *Double Ignition*, meaning that two players on the team need to blind-play their *Finesse Position* card as any playable card.
 - In most circumstances, a *Double Ignition* should be clear. This is because the two players with a playable card will each see that the clue giver should have clued the other playable card directly (instead of touching trash).
 - Sometimes, three players on the team will have playable cards on *Finesse Position*. If a *Double Ignition* is performed in this case, similar to how an *Ambiguous Finesse* works, it will "get" the cards from the final two players. (Bob will do nothing because he sees that the *Double Ignition* is on Cathy and Donald.)
