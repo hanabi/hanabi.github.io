@@ -241,8 +241,6 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
   - Cathy does not know that Donald is *Chop Moved*. However, she will be able to retroactively figure it out once the blue 3 is clued. Alternatively, she will know once Donald demonstrates the *Chop Move* by discarding his slot 3.
 - This convention was deleted due to lack of use.
 
-<br />
-
 ### The Stop Blind-Play (Blind-Playing Chop)
 
 - Sometimes, due to a mistake or a complicated situation, you can see that the next player after you is going to misplay a critical card. Additionally, there may be no "fix" clue that you can give that will remedy the situation, or perhaps you are currently at 0 clues.
@@ -317,6 +315,21 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
   - Donald can see what is going on, so he plays blue 1 from his *Finesse Position*.
   - Emily plays blue 2 from her *Finesse Position*.
 - This convention was deleted due to lack of use.
+
+### The Rank Choice Bluff
+
+- *Reverse Finesses* take precedence over *Bluffs*. This means that players cannot use cards to *Bluff* when there are "matching" cards on other player's *Finesse Positions*.
+- However, in some rare situations, when initiating a *Reverse Finesse*, players have a free choice between a color clue and a rank clue, meaning that both rank and color will **only** touch the one target card. Here, players will normally choose color instead of rank, since in most variants, color clues are better than rank clues.
+- In this situation, if a player chooses rank instead of color, and there was not a good reason to do so, then the player giving the clue must be trying to communicate something extra - that they really want a *Bluff* to happen (instead of a *Reverse Finesse*). This is called a *Rank Choice Bluff*.
+- It is possible to use the *Rank Choice* convention with any kind of *Bluff*. Thus, it is possible to *Rank Choice 3 Bluff*, *Rank Choice Double Bluff*, and so forth.
+- This convention was deleted because it was confusing and led to accidental misplays.
+
+### The Rank Choice Finesse
+
+- First, see the section on the *[Rank Choice Bluff](#the-rank-choice-bluff)*.
+- After Bob sees that Alice wants a *Rank Choice Bluff* to happen, he will blind-play his *Finesse Position* card, expecting it to be an unrelated card. But what if Bob plays a card that matches the card that was clued?
+- In this situation, it would be a *Rank Choice Finesse* instead of a *Rank Choice Bluff*. A *Rank Choice Finesse* may be preferable to a (more ordinary) *Ambiguous Finesse*, which will resolve more slowly.
+- This convention was deleted because it was confusing and led to accidental misplays.
 
 <br />
 
