@@ -13,7 +13,7 @@ title: Special Bluffs
   - The player might have negative information on their entire hand (e.g. negative blue on every card when they are supposed to be blind-playing a blue 2).
   - The player might know that they are blind-playing a 1 into a *3 Bluff* (e.g. a card was clued with number 3 and there are no cards played yet).
 
-### Hard Bluffs
+### The Hard Bluff
 
 - First, see the section on [How to Tell the Difference Between a Finesse and a Bluff (Part 2)](level_8.md#how-to-tell-the-difference-between-a-finesse-and-a-bluff-part-2---bluffs-are-on-mismatched-cards).
 - Sometimes, it can be ambiguous as to whether a player blind-played a card into a *Bluff*, or they blind-played into a *Finesse* + *Prompt*. In this situation, *Occam's Razor* applies, so players should go with the *Bluff* interpretation, since it is simpler. When such a *Bluff* occurs, it is called a *Hard Bluff* to disambiguate from situations where *Bluffs* happen with no ambiguity.

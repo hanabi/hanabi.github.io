@@ -84,7 +84,7 @@ title: Miscellaneous
 - However, as a special exception, if doing so makes *another* 5 in that player's hand known to be playable, then the clue is said to be focused on the other 5, making the original card clued **not** playable right now.
 - Since *Inverted 5's Tempo Clues* only get one card played, they are also *Tempo Clue Chop Moves* like any other *Tempo Clue*.
 
-### Double Tempo Clue Inversion (Immediate Double Clue)
+### The Double Tempo Clue Inversion (Immediate Double Clue)
 
 - If a player is clued the exact same thing twice before it gets to be their turn, it means that they can play **all** of the cards that the clue touched, but in the opposite order than normal (right-to-left, since you would normally play cards from left-to-right).
   - If one of the cards includes the chop card, it means to play all of the cards from 2nd oldest to newest, and then the chop last.
