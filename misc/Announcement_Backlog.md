@@ -11,8 +11,16 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 **The Repair Finesse** (deleted)
 
 ```
-* The *Repair Finesse* is deleted.
-* It is confusing and has never been used successfully.
+- The *Repair Finesse* is deleted.
+- It is confusing and has never been used successfully.
+```
+
+**The Rank Choice Finesse & The Rank Choice Bluff** (deleted)
+
+```
+- The *Rank Choice Finesse* and the *Rank Choice Bluff* are deleted.
+- This convention is difficult to see. Furthermore, confusion can be caused when someone uses a number clue and does not expect the next person to blind-play.
+- The number of situations in which this convention is actually needed is exceedingly small.
 ```
 
 @everyone Changed conventions:
