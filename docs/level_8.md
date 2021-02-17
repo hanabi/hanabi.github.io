@@ -28,7 +28,7 @@ title: Level 8 - Intermediate
   - Next, Cathy sees that Bob just blind-played a blue 3 immediately after this red clue, so she knows that she must have a *one-away-from-playable* red card - the red 4. Cathy holds on to the red 4 for later and discards.
 - Except in rare circumstances, ***Bluffing* is only permissible when you are the person directly before the player who is blind-playing a card**. This is called being in *Bluff Seat*. Do not *Bluff* unless you are in *Bluff Seat*! (This follows from *[Lie Principle](first_principles.md#8-lie-principle)*.)
 
-### How to Tell the Difference Between a *Finesse* and a *Bluff* (Part 1) - Recognizing *Finesses* on Other Players
+### Bob's Truth Principle (Part 1)
 
 - Sometimes, a player will give a clue that looks like it could be either a *Finesse* or a *Bluff*. Between these two moves, which should have precedence?
 - For example, in a 4-player game:
@@ -41,13 +41,16 @@ title: Level 8 - Intermediate
   - Bob knows that if this is a *Finesse*, then Cathy will blind-play the blue 2, and then Donald will know that he has the blue 3. If this is the case, Bob should not do anything special.
   - Bob also knows that if this is a *Bluff*, then Bob should blind-play his *Finesse Position* card immediately.
   - Bob knows that if there is any way that this could be a *Finesse* (the truth), he should **assume that the truth is being told**. Thus, Bob knows that it must be a *Finesse* on Cathy and should not blind-play anything.
+- This is called *Bob's Truth Principle*, because Bob always assumes the truth over a *Lie*.
 
-### How to Tell the Difference Between a *Finesse* and a *Bluff* (Part 2) - *Bluffs* Are on "Mismatched" Cards
+### Cathy's Match Principle (Part 2)
 
-- With the previous section in mind, let's switch examples and assume that Alice did a clue and then Bob blind-played a card.
-- So secondly, we can consider the case of Bob **after** he has blind-played a card, which also extends to the rest of the team. How does everyone know whether Alice did a *Finesse* or a *Bluff* on Bob?
+- First, see the section on *[Bob's Truth Principle](#bobs-truth-principle-part-1)*.
+- Previously, we considered the case of Bob before he blind-played a card.
+- Now, we can consider the case of Bob **after** he has blind-played a card, which also extends to Cathy and every other player on the team. How does everyone know whether Alice did a *Finesse* or a *Bluff* on Bob?
 - The way to find out is to look at **whether the card that blind-played "matches" the clue that was given**. If the clue matches, then it is a *Finesse*. If the clue did not match, then it is a *Bluff*.
-- If it is ambiguous whether or not the card matches, then the team should **assume a *Bluff* over a *Finesse***. (Note that this is the **opposite** of the precedence in part 1!)
+- This is called *Cathy's Match Principle* in order to highlight that everyone needs to assume different things than Bob did (before he blind-played anything).
+- If it is ambiguous whether or not the card matches, then everyone should **assume a *Bluff* over a *Finesse***. Note that this is the **opposite** of the precedence in *Bob's Truth Principle*!
 - Example 1 (color match):
   - Red 1 is played on the stacks.
   - Alice clues Cathy red, touching a red card as a *Play Clue*.
