@@ -24,9 +24,9 @@ title: Level 1 - Newbie
   - Alice clues red to Donald, touching a red 1 as a *Play Clue*. This is a direct *Play Clue* - the red 1 can be played on the stacks as soon as it gets to Donald's turn.
   - Next, it is Bob's turn. Bob clues red to Cathy, touching a red 2 as a *Delayed Play Clue* - the red 2 cannot be played on the stacks as soon as it gets to Cathy's turn.
   - Next, it is Cathy's turn. Cathy must wait patiently for Donald to play the red 1 first, and then play the red 2 on her next turn.
-- As a rule, we treat all *Play Clues* as *Delayed Play Clues*.
+- As a rule, we treat all *Play Clues* as potential *Delayed Play Clues*.
 - For example, if Alice was clued about a bunch of 1's and then Bob is given a Play Clue on an unknown 2, Bob must wait for Alice to play all of her 1's first before playing the 2.
-- Since we treat all *Play Clues* as *Delayed Play Clues*, the distinction between them is pretty much irrelevant. In the *Hyphen-ated Group*, we use the phrase *Play Clue* to mean **either** a *Play Clue* or a *Delayed Play Clue*.
+- Since we treat all *Play Clues* as potential *Delayed Play Clues*, the distinction between them is pretty much irrelevant. In the *Hyphen-ated Group*, we use the phrase *Play Clue* to mean **either** a *Play Clue* or a *Delayed Play Clue*.
 - Additionally, when we say that an unclued card is currently *playable*, we do **not** mean that the card would be able to play on the stacks right this instant. If an unclued card is *playable*, then what we really mean is that it would be legal for someone to give either a *Play Clue* **or** a *Delayed Play Clue* to the card.
   - In other words, if an unclued *playable* card was given a *Delayed Play Clue*, that card would eventually play on the stack without any additional clues needing to be given by anyone else - all the in-between cards, if any, are present and accounted for.
 
