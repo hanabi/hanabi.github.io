@@ -6,37 +6,12 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 
 ## The Backlog (General Conventions)
 
-@everyone Deleted conventions:
-
-**The Repair Finesse** (deleted)
-
-```
-- The *Repair Finesse* is deleted.
-- It is confusing and has never been used successfully.
-```
-
-**The Rank Choice Finesse & The Rank Choice Bluff** (deleted)
-
-```
-- The *Rank Choice Finesse* and the *Rank Choice Bluff* are deleted.
-- This convention is difficult to see. Furthermore, confusion can be caused when someone uses a number clue and does not expect the next person to blind-play.
-- The number of situations in which this convention is actually needed is exceedingly small.
-```
-
-**The Trash Finesse (Weak Form)** (deleted)
-
-```
-- The *Weak From Trash Finesse* is deleted.
-- Having this convention actually work successfully is exceedingly rare.
-```
-
-
 @everyone Changed conventions:
 
 **The Loaded Play Clue (LPC)** (change)
 
 ```
-- Now, *Loaded Play Clues* **do not** apply to number 5 clues during the *Low Score Phase*.
+- Now, *Loaded Play Clues* **do not** ever apply to number 5 clues during the *Low Score Phase*.
 - For example, in a 3-player game:
   - It is the *Low Score Phase*.
   - Red 3 is played on the stacks.
