@@ -207,24 +207,6 @@ title: Special Finesses
 - Theoretically, it could be possible to perform a *Gentleman's Discard* that contains a *Patch Component*.
 - However, we explicitly disallow this. *Gentleman's Discards* **must** be for cards that are on slot 1. Otherwise, it would communicate a *Blaze Discard*.
 
-### The Trash Finesse (Weak Form)
-
-- First, see the section on *[Trash Touch Elimination](miscellaneous.md#trash-touch-elimination)*.
-- When players deliberately touch ancillary trash and there is only one card "missing", then it should trigger *Trash Touch Elimination Notes*. But what if there are two or more cards that are missing?
-- In this situation, the clue giver is promising that someone has one of the missing cards on their *Finesse Position*. Once the card is blind-played, the recipient of the clue will know that one of their ancillary cards are trash.
-- This is more subtle than the strong *Trash Finesse*. In the strong form, the focus of the clue causes a blind-play. In the weak form, the non-focused cards are what causes the blind-play
-- For example, in a 3-player game:
-  - Red 2 is played on the stacks. All of the other suits have the 1 played on the stacks.
-  - Bob's hand is, from newest to oldest: red 3, red 1, blue 1, green 1, yellow 1.
-  - Alice wants to give a play clue to the red 3. Everyone on the team can see that she can give either 3s or red.
-    - If she clues number 3, then it will uniquely touch the red 3 (and not violate *Good Touch Principle*).
-    - If she clues red, then it will touch the red 3 and the red 1 (which **will** violate *Good Touch Principle*).
-  - Alice clues red to Bob. Since nothing was stopping her from cluing number 3, this is very strange.
-  - Bob plays the red 3.
-  - There are two "missing" red cards - the red 4 and the red 5. Thus, Cathy knows that Alice must be intending a weak form *Trash Finesse*.
-  - Cathy immediately blind-plays her *Finesse Position* card and it is the red 4.
-  - Bob sees Cathy blind-play the next red card for seemingly no reason, so he is able to deduce that his slot 2 card is trash.
-
 ### The Pestilent Finesse
 
 - First, see the section on the *[Pestilent Double Bluff](level_17.md#the-pestilent-double-bluff-pdb)*.
