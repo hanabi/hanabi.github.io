@@ -6,6 +6,17 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 
 ## The Backlog (General Conventions)
 
+@everyone Deleted conventions:
+
+**The Repair Finesse** (deleted)
+
+```
+* The *Repair Finesse* is deleted.
+* It is confusing and has never been used successfully.
+```
+
+@everyone Changed conventions:
+
 **The Loaded Play Clue (LPC)** (change)
 
 ```
@@ -35,6 +46,8 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 - Now, *Double Ignition* can be on any two members of the team.
 - Sometimes, three players on the team will have playable cards on *Finesse Position*. If a *Double Ignition* is performed in this case, then similar to how an *Ambiguous Finesse* works, it will "get" the cards from the final two players. (Bob will do nothing because he sees that the *Double Ignition* is on Cathy and Donald.)
 ```
+
+@everyone New conventions:
 
 **Trash Push Ejection**
 
