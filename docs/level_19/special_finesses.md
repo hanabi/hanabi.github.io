@@ -163,6 +163,7 @@ title: Special Finesses
   - Cathy knows that this a *Prophetic Finesse* and that she is promised to have a blue 1 on her *Finesse Position*. Cathy blind-plays her *Finesse Position* (as a *Prophetic Blind-Play*). It is a blue 1 and it successfully plays.
   - Donald knows that since a number 1 clue touched a single 1 and caused two blind-plays, this must be a *Prophetic Finesse*. Donald marks his touched 1 as trash. He also *Chop Moves* his slot 4 card because of the *Unnecessary* part of the move.
 - *Prophetic Finesses* can only be triggered by touching **exactly one 1**. (However, they can be triggered with either a color clue or a number clue.)
+- *Prophetic Finesses* can not be given in reverse.
 - *Prophetic Finesses* can also be given in situations that cannot be mistaken for *Trash Finesses*.
 - For example, in a 4-player game:
   - It is the first turn of the game and nothing is played on the stacks.
