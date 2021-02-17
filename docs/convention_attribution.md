@@ -85,7 +85,6 @@ title: Convention Attribution
 | The Early 5's Chop Move | Libster
 | The 5 Pull | Libster
 | The 5 Pull Promise | Libster
-| The Rank Choice Bluff & The Rank Choice Finesse | Zamiel
 | The Load Clue | Zamiel
 | The Composition Discard | Libster
 | The Negative Self-Chop Move | Libster
