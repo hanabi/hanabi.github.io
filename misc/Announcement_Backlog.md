@@ -23,6 +23,14 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 - The number of situations in which this convention is actually needed is exceedingly small.
 ```
 
+**The Trash Finesse (Weak Form)** (deleted)
+
+```
+- The *Weak From Trash Finesse* is deleted.
+- Having this convention actually work successfully is exceedingly rare.
+```
+
+
 @everyone Changed conventions:
 
 **The Loaded Play Clue (LPC)** (change)
