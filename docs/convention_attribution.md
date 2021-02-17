@@ -93,7 +93,6 @@ title: Convention Attribution
 | The Suboptimal Save Prompt & The Suboptimal Save Finesse | Zamiel
 | The Inverted Priority Finesse | Zamiel
 | The Trash Pull | Libster
-| The Repair Finesse | Zamiel
 | The Paused Priority Finesse | Asddsa
 | The Double Scream Discard Chop Move | Asddsa
 | The Distribution Finesse | Asddsa
