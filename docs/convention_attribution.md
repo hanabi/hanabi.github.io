@@ -17,7 +17,7 @@ title: Convention Attribution
 | Convention Name | Inventor
 | --------------- | --------
 | The First Principles | Duneaught
-| 2 Saves | Hyphen-ated & Duneaught
+| The 2 Save | Hyphen-ated & Duneaught
 | Chop-Focus | Zamiel & Hyphen-ated
 | The Layered Finesse | Antizoubilamaka
 | The Clandestine Finesse | Antizoubilamaka
@@ -32,7 +32,7 @@ title: Convention Attribution
 | The Layered Gentleman's Discard | Duneaught
 | The Tempo Clue Chop Move | Zamiel
 | Discard Elimination & The Elimination Blind-Play | Aridolomo, Hyphen-ated, & Duneaught
-| Immediate Double Clue | Duneaught
+| The Double Tempo Clue Inversion | Duneaught
 | The Elimination Finesse | Zamiel & Ahming
 | The Elimination Riding Deduction | Duneaught
 | The Free Choice Finesse | Hyphen-ated
@@ -55,7 +55,7 @@ title: Convention Attribution
 | Focus Inversion | Zamiel
 | The Early Game | Libster & Florrat
 | The Double Tempo Clue | Hyphen-ated & Zamiel
-| Hard Bluffs | Florrat
+| The Hard Bluff | Florrat
 | The Double/Triple Pass Bluff | Zamiel
 | The Out-of-Order Finesse | Zamiel
 | The Speed-up Clue | Libster
@@ -76,22 +76,22 @@ title: Convention Attribution
 | The Echo Scream Discard | Florrat & Zamiel
 | The Bad Touch Double Finesse & The Bad Touch Double Bluff | Sankala
 | Ejection | Razvogor & Zamiel & Sankala
-| Order Chop Move | Zamiel & Libster
-| Trash Order Chop Move | Zamiel & Libster
+| The Order Chop Move | Zamiel & Libster
+| The Trash Order Chop Move | Zamiel & Libster
 | Duplication Responsibility | Zamiel
-| Certain Discard Duplication Promise | Zamiel & Libster
+| The Certain Discard Duplication Promise | Zamiel & Libster
 | The Unnecessary Trash Finesse/Bluff Chop Move | Libster
-| Surreptitious Finesse | Sankala
-| Early 5's Chop Move | Libster
+| The Surreptitious Finesse | Sankala
+| The Early 5's Chop Move | Libster
 | The 5 Pull | Libster
 | The 5 Pull Promise | Libster
-| Rank Choice Bluff & Rank Choice Finesse | Zamiel
+| The Rank Choice Bluff & The Rank Choice Finesse | Zamiel
 | The Load Clue | Zamiel
 | The Composition Discard | Libster
 | The Negative Self-Chop Move | Libster
 | The Declined 5's Finesse | Zamiel
 | The Suboptimal Save Prompt & The Suboptimal Save Finesse | Zamiel
-| Inverted Priority Finesse | Zamiel
+| The Inverted Priority Finesse | Zamiel
 | The Trash Pull | Libster
 | The Repair Finesse | Zamiel
 | The Paused Priority Finesse | Asddsa
@@ -101,25 +101,27 @@ title: Convention Attribution
 | The Bad Touch Finesse | Zamiel
 | The Inverted 5's Tempo Clue | NoMercy
 | Discharge | Razvogor
-| Unknown Trash Discharge | Sankala
+| The Unknown Trash Discharge | Sankala
 | The Unnecessary Trash Push | sjdrodge
 | Trash Touch Elimination | sjdrodge
-| Bad Chop Move Ejection | IAMJEFF
+| The Bad Chop Move Ejection | IAMJEFF
 | The 5 Color Ejection | IAMJEFF
 | The Double 5 Pull | IAMJEFF
-| Stacked Ejection & Stacked Discharge | Fireheart
-| Trash Push Discharge | IAMJEFF
-| Trash Double Bluff | IAMJEFF
-| 5 Number Discharge | IAMJEFF
+| Stacked Ejection | Fireheart
+| The Trash Push Discharge | IAMJEFF
+| The 5 Number Discharge | IAMJEFF
 | The Blaze Discard | IAMJEFF
-| Rank Choice Ejection | IAMJEFF
+| The Rank Choice Ejection | IAMJEFF
 | Selfish Focus Inversion | Romain
 | Double Ignition | Libster
-| The Shadow Finesse | Pianoblook
-| Charm | IAMJEFF
-| 4 Charm | IAMJEFF
-| The Safety Charm | Pianoblook
-| Self Color Ejection | IAMJEFF
+| The Shadow Finesse | pianoblook
+| The 4 Charm | IAMJEFF
+| The Safety Charm | pianoblook
+| The Self Color Ejection | IAMJEFF
+| The Prophetic Finesse | pianoblook
+| The Prophetic Discharge | pianoblook
+| The Cursed Finesse | pianoblook
+| The Unknown Dupe Discharge | Indego
 
 <br />
 
@@ -130,7 +132,7 @@ title: Convention Attribution
 | The Full Finesse | NoMercy
 | Crazy 3 Saves & Crazy 4 Saves | Libster
 | Modified Black 3 & Black 4 Saves | Florrat
-| Black 4 Bluffs | Zamiel & Libster
+| The Black 4 Bluff | Zamiel & Libster
 | Pink Promise | Zamiel
 | The Black Save Bluff | Sankala
 | The Bubblegum Finesse | Razvogor
@@ -141,8 +143,7 @@ title: Convention Attribution
 | Null Positional Clues | Razvogor, Zamiel, IAMJEFF, & Kakashi
 | The Slot Finesse | IAMJEFF
 | The Slot Double Bluff | IAMJEFF
-| Muddy Rainbow Choice Tempo Clues | IAMJEFF
-| Muddy Rainbow Positional Clues | IAMJEFF
+| Mud Clues | IAMJEFF
 | Dark Rainbow Saves | Florrat, Libster, & Zamiel
 | Dark Omni & Gray Pink Pseudo Saves | IAMJEFF
 | Dark Omni & Gray Pink Pseudo-Rank Saves | IAMJEFF
@@ -152,8 +153,8 @@ title: Convention Attribution
 | Color Blind Conventions | Zamiel & Florrat
 | Totally Blind Conventions | Zamiel & IAMJEFF
 | The Mismatch Finesse | Zamiel
-| 1's Color Ejection (1CE) | Kakashi
-| 1's Chop Move | IAMJEFF
+| The 1's Color Ejection (1CE) | Kakashi
+| The 1's Chop Move | IAMJEFF
 | The U-Turn Finesse | NoMercy
 | Cow & Pig Rank Saves | Florrat
 | Conventions for Variant with No Positive Clues | Kakashi, IAMJEFF, & Libster
