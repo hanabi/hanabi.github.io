@@ -28,6 +28,14 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
   - Thus, Bob knows that Alice is performing a simple *5 Save* and plays the red 4.
 ```
 
+**Double Ignition** (change)
+
+```
+- Previously, *Double Ignition* had to be on the very next two players.
+- Now, *Double Ignition* can be on any two members of the team.
+- Sometimes, three players on the team will have playable cards on *Finesse Position*. If a *Double Ignition* is performed in this case, then similar to how an *Ambiguous Finesse* works, it will "get" the cards from the final two players. (Bob will do nothing because he sees that the *Double Ignition* is on Cathy and Donald.)
+```
+
 **Trash Push Ejection**
 
 ```
