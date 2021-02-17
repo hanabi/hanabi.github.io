@@ -8,6 +8,7 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 
 **The Loaded Play Clue (LPC)** (change)
 
+```
 - Now, *Loaded Play Clues* **do not** apply to number 5 clues during the *Low Score Phase*.
 - For example, in a 3-player game:
   - It is the *Low Score Phase*.
@@ -25,9 +26,21 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
   - Bob knows that he is *Loaded*, because he has a red 4 to play. Bob knows that normally, no-one else is supposed to give *Save Clues* to *Loaded* players (and that they should be transformed into *Play Clues*).
   - However, Bob knows that this rule doesn't apply to number 5 clues during the *Low Score Phase*.
   - Thus, Bob knows that Alice is performing a simple *5 Save* and plays the red 4.
+```
+
+**Trash Push Ejection**
+
+```
+- First, see the section on the [Trash Push](#the-trash-push).
+- Normally, when known trash is touched as the focus of the clue, and the known trash is on chop, it communicates a *Trash Push*.
+- However, what if the *Trash Pushed* card is two-or-more-away-from-playable? This would normally be a *Trash Push Double Finesse* on Bob, but that is unlikely.
+- Instead, we agree that similar to the rules for *5 Color Ejection*, if the *Trash Pushed* card would require two-or-more-blind-plays from Bob, then he interprets the clue as an *Ejection*.
+- After a *Trash Push Ejection*, the clue reciever should *Chop Move* the two-or-more-away-from-playable card.
+```
 
 **The Prophetic Finesse (for 1's)** (by pianoblook)
 
+```
 - In most games, players will avoid giving a number 1 clue to a single playable 1 that is not on *Finesse Position* if a different player has the same 1 on *Finesse Position*. This is because it is usually better to *Finesse* it or to let someone else *Finesse* it.
 - If a player does this anyway, and doing so was clearly bad, they must be communicating something extra.
 - In this situation, the next player should treat the clue as if were a *Trash Finesse*.
@@ -53,17 +66,21 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
     - It will not look like a *Bad Touch Finesse (for 1's)*, since only a single 1 was clued.
   - Therefore, as soon Bob blind-plays, both Cathy and Donald can understand that it is a *Prophetic Finesse*.
   - Just like in the previous example, Cathy blind-plays the blue 1, and Donald marks his 1 as trash and *Chop Moves* his slot 4 card.
+```
 
 **The Prophetic Discharge** (by pianoblook)
 
+```
 - First, see the section on the [Prophetic Finesse](special_finesses.md#the-prophetic-finesse-for-1s).
 - *Prophetic Finesses* can only be given with a number 1 clue.
 - If a player tries to use a color clue to initiate a *Prophetic Finesse*, they instead intend for the next player to blind-play their *Third Finesse Position* (like an *Unknown Trash Discharge*).
 - Other than that, everything else works like a *Prophetic Finesse* (e.g. one of the in-between players is promised to have the matching card on their *Finesse Position*).
 - Unlike the *Prophetic Finesse*, the clued player should **only** treat this as *Unnecessary* move if the *Discharged* card could have been cleanly clued.
+```
 
 **The Cursed Finesse** (by pianoblook)
 
+```
 - Commonly, players can use a *Double Finesse* or a *Clandestine Finesse* to "get" multiple cards from the next player. This works because the first blind-play "matches" the clued card.
 - However, what if a player intentionally performs a *Bluff* where other players can see that it was actually possible to perform a *Double Finesse* or a *Clandestine Finesse*?
 - In this situation, if the cluer is not making a mistake, they are trying to send a deeper message - they want an extra person to blind-play.
@@ -82,7 +99,7 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
     - From both Bob and Donald's perspective, Bob's red 1 did not match Donald's blue card, so this cannot be a *Pestilent Double Bluff*.
   - Therefore, the team knows that this must have been a *Cursed Finesse*. Bob will now continue to blind-play until he finds his promised blue 1.
 - *Cursed Finesses* can only occur if there is a *Free Choice* during the initial clue.
-
+```
 
 <br />
 
