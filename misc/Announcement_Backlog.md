@@ -61,6 +61,9 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 - If a player uses a **color clue** to duplicate a card, and these 6 criteria do not apply, then they must be trying to send an additional message.
 - In this case, they intend for a *Discharge* to communicate the "badness" of the focused card. This is called an *Unknown Dupe Discard* (and works in a very similar way to the *Unknown Trash Discharge*).
 - After an *Unknown Dupe Discard*, the focus of the clue can be any unknown duplicated card. The player will only know which specific duplicated card it is after they discard it. Once they discard it, they should write *Elimination Notes* on the matching cards in their hand.
+```
+
+```
 - For example, in a 3-player game:
   - It is the first turn of the game and nothing is played on the stacks.
   - Alice clues number 5 to Bob as a *5 Save*.
@@ -71,6 +74,9 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
   - Alice blind-plays her *Third Finesse Position*. It is a blue 1 and it successfully plays on the stacks.
   - Normally, Bob would think that this was an *Unknown Trash Discharge*. However, no red trash cards exist. Thus, this must have been an *Unknown Dupe Discharge*.
   - Bob discards his slot 1 card (the focus of the clue). It is revealed to be a red 2. Now, Bob writes *Elimination Notes* for the red 2 on his slot 2 and his slot 3.
+```
+
+```
 - *Unknown Dupe Discharges* **can only be initiated with color clues**. This is because number clues will cause *Bad Touch Finesses*.
 - *Unknown Dupe Discharges* only apply if **the two duplicated cards are in the same person's hand**.
   - It is explicitly illegal to perform an *Unknown Dupe Discharge* that duplicates a card in someone else's hand. If this happens, the clue must have some other meaning.
