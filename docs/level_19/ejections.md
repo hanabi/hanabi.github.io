@@ -12,13 +12,13 @@ title: Ejections
 - The *5 Color Ejection* is covered at [level 10](level_10.md#the-5-color-ejection-5ce).
 - This results in a *Signal Shift* from *Play* --> *Save*.
 
-### Double Play Ejection
+### The Double Play Ejection
 
 - If a player knows that a card in their hand is playable, and then they receive **another** clue on that card, it is usually a *Fix Clue*, which means that the card is actually bad and they should discard it instead of playing it.
 - However, if this happens on a good card, the other players can see that the clue must have some other purpose - it should signal an *Ejection* on the very next player.
 - This results in a *Signal Shift* from *Fix* --> *Play*.
 
-### Bad Chop Move Ejection (with a Trash Chop Move)
+### The Bad Chop Move Ejection (with a Trash Chop Move)
 
 - Normally, when known trash is touched as the focus of the clue, and the known trash is not on chop, it communicates a *Trash Chop Move*.
 - However, what if the *Chop Moved* cards are also all trash? The other players can see that this clue must have some other purpose.
@@ -26,7 +26,7 @@ title: Ejections
 - This results in a *Signal Shift* from *Save* --> *Trash*.
 - *Bad Chop Move Ejection* can be performed throughout the game. (But keep in mind that in the *End-Game*, a player might just be stalling.)
 
-### Bad Chop Move Ejection (with 5's)
+### The Bad Chop Move Ejection (with 5's)
 
 - First, see the section on *[Bad Chop Move Ejection (with a Trash Chop Move)](#bad-chop-move-ejection-with-a-trash-chop-move)*.
 - Normally, if a player performs a *5's Chop Move* on a trash card, it would signal a *Finesse* on all of the cards leading up to the 5.
@@ -43,7 +43,7 @@ title: Ejections
   - Thus, Bob blind-plays his *Second Finesse Position*. It is a green 3 and successfully plays.
   - Cathy knows that if this was an *5's Chop Move*, then Bob would not have blind-played anything. If it was a *Finesse*, then Bob would have blind-played his *Finesse Position*. Since he blind-played his *Second Finesse Position* card, this must be a *Bad Chop Move Ejection* and her slot 4 card must be trash.
 
-### Rank Choice Ejection (with a number 2 or a number 5) (RCE)
+### The Rank Choice Ejection (with a number 2 or a number 5) (RCE)
 
 - Typically, when a number 2 clue or a number 5 clue is performed on a chop card, it will be treated as a *2 Save* or a *5 Save* and the card will not play.
 - If a player performs a *2 Save* or a *5 Save* on a playable card and they could have easily used a normal color *Play Clue*, this is quite strange. They must be trying to communicate something extra.
@@ -58,7 +58,7 @@ title: Ejections
   - Cathy knows that since a number 2 clue cause Bob to blind-play his *Second Finesse Position*, this must be an *Ejection*. The only type of *Ejection* that matches this kind of clue is a *Rank Choice Ejection*, so Cathy knows that her 2 must be playable and that her 2 must be exactly the red 2. Cathy plays the red 2.
 - More examples of a *Rank Choice Ejection* can be found [here](examples/rank_choice_ejection.md).
 
-### Self Color Ejection
+### The Self Color Ejection
 
 - Normally, when a card is "filled in" a card that is two-or-more-away-from-playable, it triggers a *Self Color Double Bluff*
 - However, what if the next player can see that a *Double Bluff* is impossible? In this situation, they instead intend for an *Ejection* on the very next player.
