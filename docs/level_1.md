@@ -41,6 +41,7 @@ title: Level 1 - Newbie
   - Cathy has an unclued red 3 in her hand.
   - Alice knows that the unclued red 3 is currently *one-away-from-playable*, because there is only one card needed in order to make it *playable* - the red 1.
 - Players are **not** allowed to give *Play Clues* or *Delayed Play Clues* to *one-away-from-playable* cards - they are not playable yet!
+- Players are **not** allowed to give *Save Clues* to *one-away-from-playable* cards - unless they also happen to be critical.
 
 ### Save Clues
 
