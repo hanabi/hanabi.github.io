@@ -69,3 +69,6 @@ title: Discharges
 - If a player tries to use a color clue to initiate a *Prophetic Finesse*, they instead intend for the next player to blind-play their *Third Finesse Position* (like an *Unknown Trash Discharge*).
 - Other than that, everything else works like a *Prophetic Finesse* (e.g. one of the in-between players is promised to have the matching card on their *Finesse Position*).
 - Unlike the *Prophetic Finesse*, the clued player should **only** treat this as *Unnecessary* move if the *Discharged* card could have been cleanly clued.
+- *Prophetic Discharges* can only be triggered by touching **exactly one 1**.
+- *Prophetic Discharges* can only be triggered by using a color clue.
+- *Prophetic Discharges* can be *Layered*. (See the *Prophetic Finesse* section for an example of this.)
