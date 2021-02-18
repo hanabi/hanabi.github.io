@@ -4,7 +4,7 @@ Ask questions about the Hyphen-ated conventions in the in the `#convention-quest
 
 ### 1) Use Replay Links or Use Alice and Bob Stories
 
-- If the question is about **a real game**, then you must include a link to the game by using the /replay command.
+- If the question is about **a real game**, then you must include a link to the game by using the `/replay [game id] [turn number]` command.
 - Do **not** post a screenshot of the game state.
 - If the question is about **a hypothetical**, then you must type out an Alice and Bob story in the style of the convention docs.
 
