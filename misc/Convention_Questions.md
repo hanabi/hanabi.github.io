@@ -24,7 +24,7 @@ Use notation that the Hyphen-ated group will be familiar with:
 - You **must** include a convention level with your question (even if you think it is obvious).
 - Use the level that the players of the game were playing with or the level relating to the convention that you are asking about.
 
-### 4) Answer Your Own Question (and Provide a Detailed Explaination)
+### 4) Attempt to Answer Your Own Question (and Provide a Detailed Explanation
 
 - You **must** attempt to answer your own question, based on your current understanding of the conventions.
 - Provide a detailed explanation as to **why** you think it is the best answer, linking to the relevant sections of the website if necessary.
