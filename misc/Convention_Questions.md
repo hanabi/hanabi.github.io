@@ -29,9 +29,9 @@ Use notation that the Hyphen-ated group will be familiar with:
 - You **must** attempt to answer your own question, based on your current understanding of the conventions.
 - Provide a detailed explanation as to **why** you think it is the best answer, linking to the relevant sections of the website if necessary.
 - For example, the following question will be deleted:
-  - /replay 12345 12<br />Level 7 game. Is this a 5 Stall or a 5 Pull?
+  - /replay 12345 12<br />Level 11 game. Is this a 5 Stall or a 5 Pull?
 - For example, the following question is good:
-  - /replay 12345 12<br />Level 7 game. Here, it is Alice's turn. It is also the Early Game and no 5 Stalls have been given yet. Thus, based on my understanding of the conventions, when Alice clues number 5 to Bob, it would just be a 5 Stall, because there is no other possible clues that Alice can give. Is this correct? (https://hanabi.github.io/docs/level_6/#5-stalls-intermediate-section)
+  - /replay 12345 12<br />Level 11 game. Here, it is Alice's turn. It is also the Early Game and no 5 Stalls have been given yet. Thus, based on my understanding of the conventions, when Alice clues number 5 to Bob, it would just be a 5 Stall, because there is no other possible clues that Alice can give. Is this correct? (https://hanabi.github.io/docs/level_6/#5-stalls-intermediate-section & https://hanabi.github.io/docs/level_11/#the-5-pull)
 
 ### 5) One Message
 
