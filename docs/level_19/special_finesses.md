@@ -165,6 +165,7 @@ title: Special Finesses
 - *Prophetic Finesses* can only be triggered by touching **exactly one 1**.
 - *Prophetic Finesses* can only be triggered by using a number 1 clue. (Color clues cause a *[Prophetic Discharge](discharges.md#the-prophetic-discharge)*.)
 - *Prophetic Finesses* can not be given in reverse.
+- *Prophetic Finesses* can be *Layered*. In other words, in the previous example, if Cathy plays her *Finesse Position* and it is yellow 1, she will be surprised. However, Cathy will know that she is promised to have the blue 1, so she will go on to play the blue 1 from her *Second Finesse Position* on the next turn.
 - *Prophetic Finesses* can also be given in situations that cannot be mistaken for *Trash Finesses*.
 - For example, in a 4-player game:
   - It is the first turn of the game and nothing is played on the stacks.
