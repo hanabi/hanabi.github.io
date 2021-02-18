@@ -33,9 +33,9 @@ Use notation that the Hyphen-ated group will be familiar with:
 - For example, the following question is good:
   - /replay 12345 12<br />Level 11 game. Here, it is Alice's turn. It is also the Early Game and no 5 Stalls have been given yet. Thus, based on my understanding of the conventions, when Alice clues number 5 to Bob, it would just be a 5 Stall, because there is no other possible clues that Alice can give. Is this correct? (From: https://hanabi.github.io/docs/level_6/#5-stalls-intermediate-section)
 
-### 5) One Message
+### 5) Put Everything in One Message
 
-- Type out your entire question into one message.
+- Type out your entire question into a single message.
 
 ### Reasoning
 
