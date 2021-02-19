@@ -140,7 +140,7 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 - If a player does this anyway, and doing so was clearly bad, they must be communicating something extra.
 - In this situation, the next player should treat the clue as if were a *Trash Finesse*.
 - This is different from a *Trash Finesse* because a second blind-play is needed to prove that the card is not actually trash. The in-between player is promised to have the matching 1 on *Finesse Position*. The in-between blind-play is called a *Prophetic Blind-Play* to distinguish it from a normal blind-play.
-- Furthermore, once the *Prophetic Finesse* has resolved, the clued player should **always** treat this as an *Unnecessary* move (e.g. as an *Unnecessary Trash Chop Move* or an *Unnecessary Trash Push*).
+- Furthermore, once the *Prophetic Finesse* has resolved, the clued player should **always** treat this as an *unnecessary* move (e.g. as an *Unnecessary Trash Chop Move* or an *Unnecessary Trash Push*).
 - For example, in a 4-player game:
   - Red 1 is played on the stacks.
   - Alice clues number 1 to Donald, touching a single blue 1 on slot 3.
@@ -148,7 +148,7 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
   - Bob knows that Alice must be intending for a *Prophetic Finesse*. Bob blind-plays his *Finesse Position*. It is a green 1 and it successfully plays.
   - Cathy sees that from Donald's perspective, a *Trash Finesse* has just occurred. Donald will mark the blue 1 (playable) as a red 1 (trash), and will discard it. This is bad, so Cathy knows that something else is expected of her.
   - Cathy knows that this a *Prophetic Finesse* and that she is promised to have a blue 1 on her *Finesse Position*. Cathy blind-plays her *Finesse Position* (as a *Prophetic Blind-Play*). It is a blue 1 and it successfully plays.
-  - Donald knows that since a number 1 clue touched a single 1 and caused two blind-plays, this must be a *Prophetic Finesse*. Donald marks his touched 1 as trash. He also *Chop Moves* his slot 4 card because of the *Unnecessary* part of the move.
+  - Donald knows that since a number 1 clue touched a single 1 and caused two blind-plays, this must be a *Prophetic Finesse*. Donald marks his touched 1 as trash. He also *Chop Moves* his slot 4 card because of the *unnecessary* part of the move.
 - *Prophetic Finesses* can only be triggered by touching **exactly one 1**.
 - *Prophetic Finesses* can only be triggered by using a number 1 clue. (Color clues cause a *[Prophetic Discharge](discharges.md#the-prophetic-discharge)*.)
 - *Prophetic Finesses* can also be given in situations that cannot be mistaken for *Trash Finesses*, but they will still work in the exact same way.
@@ -170,7 +170,7 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 - *Prophetic Finesses* can only be given with a number 1 clue.
 - If a player tries to use a color clue to initiate a *Prophetic Finesse*, they instead intend for the next player to blind-play their *Third Finesse Position* (like an *Unknown Trash Discharge*).
 - Other than that, everything else works like a *Prophetic Finesse* (e.g. one of the in-between players is promised to have the matching card on their *Finesse Position*).
-- Unlike the *Prophetic Finesse*, the clued player should **only** treat this as *Unnecessary* move if the *Discharged* card could have been cleanly clued.
+- Unlike the *Prophetic Finesse*, the clued player should **only** treat this as *unnecessary* move if the *Discharged* card could have been cleanly clued.
 ```
 
 **The Cursed Finesse** (by pianoblook)
