@@ -3,7 +3,7 @@ id: unnecessary
 title: Unnecessary Usage of Complicated Moves
 ---
 
-- Some complicated moves have special versions that are defined as being *Unnecessary*.
+- Some complicated moves have special versions that are defined as being *unnecessary*.
 - For example, it is possible to perform either a *Trash Bluff* or an *Unnecessary Trash Bluff*.
 - This section covers these kinds of moves in detail.
 
@@ -15,13 +15,13 @@ title: Unnecessary Usage of Complicated Moves
   - It could be "blocked" by other cards (e.g. two of the same card in the hand).
   - It could be on chop and "blocked" in the sense that any clue given would look like a *Save Clue* instead of a *Play Clue*.
   - And so on.
-- **An *Unnecessary* move is defined as a "complicated" move that is performed when the cluer could have instead given a direct play clue.**
+- **An *unnecessary* move is defined as a "complicated" move that is performed when the cluer could have instead given a direct play clue.**
 - *Unnecessary* moves do "one thing extra" on top of the normal meaning of the move.
   - Depending on the situation, the "extra" thing will be an additional blind-play or a *Chop Move*.
-- Remember that a move is only *Unnecessary* if it does not have any side benefits. Specifically:
-  - A move is **not** *Unnecessary* if it "picked up" a extra useful card (e.g. *Unknown Trash Discharges* commonly do this).
-  - A move is **not** *Unnecessary* if it also fixed an impending misplay or a violation of *Good Touch Principle*.
-  - A move is **not** *Unnecessary* if it also added more positive information to other previously-clued cards in the hand.
+- Remember that a move is only *unnecessary* if it does not have any side benefits. Specifically:
+  - A move is **not** *unnecessary* if it "picked up" a extra useful card (e.g. *Unknown Trash Discharges* commonly do this).
+  - A move is **not** *unnecessary* if it also fixed an impending misplay or a violation of *Good Touch Principle*.
+  - A move is **not** *unnecessary* if it also added more positive information to other previously-clued cards in the hand.
 
 ### Unnecessary Moves with Known Trash
 
