@@ -79,7 +79,7 @@ title: Convention Attribution
 | The Order Chop Move | Zamiel & Libster
 | The Trash Order Chop Move | Zamiel & Libster
 | Duplication Responsibility | Zamiel
-| The Certain Discard Duplication Promise | Zamiel & Libster
+| The Promise Clue & The Promise Discard | Zamiel & Libster
 | The Unnecessary Trash Finesse/Bluff Chop Move | Libster
 | The Surreptitious Finesse | Sankala
 | The Early 5's Chop Move | Libster
