@@ -19,12 +19,12 @@ Use notation that the Hyphen-ated group will be familiar with:
 - If using a replay, then use the names of the players in the replay.
 - If using a hypothetical, always use the characters of Alice, Bob, Cathy, Donald, and Emily. (Alice should always be the player who performs the first action.)
 
-### 3) Use the Convention Level
+### 3) State the Convention Level
 
 - You **must** include a convention level with your question (even if you think it is obvious).
 - Use the level that the players of the game were playing with or the level relating to the convention that you are asking about.
 
-### 4) Attempt to Answer Your Own Question (and Provide a Detailed Explanation
+### 4) Attempt to Answer Your Own Question (and Provide a Detailed Explanation)
 
 - You **must** attempt to answer your own question, based on your current understanding of the conventions.
 - Provide a detailed explanation as to **why** you think it is the best answer, linking to the relevant sections of the website if necessary.
