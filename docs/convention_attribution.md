@@ -120,6 +120,7 @@ title: Convention Attribution
 | The Prophetic Discharge | pianoblook
 | The Cursed Finesse | pianoblook
 | The Unknown Dupe Discharge | Indego
+| The Shallow Discard & The Shallow Misplay | Jerry
 
 <br />
 
