@@ -29,6 +29,10 @@ module.exports = {
         {
           'Level 19 - Rarely Used Strategies': [
             'level_19',
+            'level_19/play_clues',
+            'level_19/save_clues',
+            'level_19/discards_misplays',
+            'level_19/chop_moves',
             'level_19/special_finesses',
             'level_19/special_bluffs',
             'level_19/special_suboptimal_moves',
@@ -39,8 +43,6 @@ module.exports = {
             'level_19/charms',
             'level_19/ejection_extensions',
             'level_19/ignitions',
-            'level_19/save_clues_non_emergency_chop_moves',
-            'level_19/emergency_moves',
             'level_19/unnecessary',
             'level_19/miscellaneous',
           ],

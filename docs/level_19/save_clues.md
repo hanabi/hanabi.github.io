@@ -1,6 +1,6 @@
 ---
-id: save_clues_non_emergency_chop_moves
-title: Save Clues & Non-Emergency Chop Moves
+id: save_clues
+title: Save Clues
 ---
 
 ### 2 Saves (Off Chop on the First Turn)
@@ -49,12 +49,16 @@ title: Save Clues & Non-Emergency Chop Moves
 - If the next player will not immediately misplay, then sometimes you can give the *Play Clue* to the next card first.
 - The other players on the team are expected to realize what is going on and help out by immediately giving a *Fix Clue* to the *Prompted* player before they misplay.
 
-### Spillover Chop Move
+### The Fake Save
 
-- If an *Order Chop Move* or a *Trash Order Chop Move* is performed, but the player who is supposed to *Chop Move* already has every single card in their hand clued, then this is very strange.
-- In this situation, the *Chop Move* should "skip" over that player and *Chop Move* the next person after that.
-
-### The Chop Transfer
-
-- Sometimes, duplicated cards are accidentally *Chop Moved* through a mistake or through a complicated situation. When this happens, it is pointless to use a clue to "undo" the *Chop Move* - the team can just continue to allow the player to discard normally.
-- Subsequently, if someone **does** use a clue to undo the *Chop Move*, there must be a good reason. This means that the card they were about to discard is important, so the player should discard the now-known useless card and then permanently *Chop Move* their new chop.
+- We are only allowed to perform *Save Clues* on specific cards and in specific ways, as outlined in [level 1](level_1.md#save-clues). For example, we all agree that we must save 5's with number 5.
+- In some specific circumstances, the team will have only one clue available and multiple cards must be saved with a single clue. In this situation, to prevent losing the game (or losing a currently-playable card), it is permissible to *Lie* to the next player and perform a *Fake Save* (e.g. a non-legal *Save Clue*).
+- After a *Fake Save*, the player receiving the clue will mark their chop card as something other than what it really is. Thus, this move commits the team to giving a *Fix Clue* to repair the *Lie* at some point in the future.
+- For example, in a 3-player game:
+  - Alice has 1 clue available.
+  - Bob has a red 5 on chop, followed by a red 4. The other copy of the red 4 is in the discard pile, so there are two critical cards in a row.
+  - Alice is not allowed to save the red 5 with a red clue, because then it would look like a *Save Clue* on a red 4.
+  - However, if Alice clues number 5 to Bob, then he will discard the red 4.
+  - Thus, Alice performs a *Fake Save* on both red cards by cluing red.
+  - Bob will mark his chop as the red 4, so the team will have to give him a number 5 clue as a *Fix Clue* at some point in the future. At that point, Bob will be surprised, but he will be able to retroactively see that Alice was in a very tight spot and had to give a *Fake Save*.
+- Note that normally, *Fake Saves* are **only allowed as a last resort**. If there is some other line that would "work" or be safe without a *Fake Save*, then players have to prefer that. Subsequently, *Fake Saves* are extremely rare.
