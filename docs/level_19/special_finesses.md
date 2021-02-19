@@ -147,6 +147,23 @@ title: Special Finesses
   - Donald knows that normally, this would be a *4 Double Bluff* and that no-one should play any more cards. However, since the red 4 was duplicated, this must be a *Bad Touch Triple Finesse*, so Cathy blind-plays her *Finesse Position* and it is the red 3.
   - Emily knows that this cannot be a *4 Double Bluff*, or else Donald would not have blind-played anything. Thus, this must be a *Bad Touch Triple Finesse*, so Emily plays her left-most red 4. The next time that Emily discards, she will discard the known trash red 4.
 
+### The Certain Finesse Clandestine Exception
+
+- First, see the section on the *[Certain Finesse](level_7.md#the-certain-finesse--the-certain-discard)*.
+- This section outlines a specific and rare edge-case for *Certain Finesses*.
+- We agree that *Bluffs* take precedence over *Certain Finesses*. This means that a *Certain Finesse* cannot normally be performed from *Bluff Seat*.
+- *Certain Finesses* **can** be performed from *Bluff Seat* if it is strictly impossible to be a *Bluff*. In other words, this means that it is illegal for a player to perform a *Clandestine Finesse* on the very next player that targets a potentially duplicated card **and** the other player can rule out the possibility of a *Bluff*.
+- For example, in a 3-player game:
+  - All of the 2's & blue 3 is played on the stacks. Green 3 is in the discard pile.
+  - Alice has an unknown 3 in her hand that happens to be the red 3.
+  - Alice clues number 4 to Cathy, touching a red 4 as a *Play Clue*.
+  - Bob knows that Alice could be trying to perform a *Finesse* on a red 3. Normally, he would blind-discard his *Finesse Position* card as a *Certain Discard* in order to pass this card back to Alice.
+  - However, Bob also knows that this might be a *Bluff*. But wait - his *Finesse Position* card has negative blue on it. So anything that he blind-plays here would have to be a 3. Thus, this cannot be a *Bluff*, since a 3 would match a 4 and look like a *Finesse*.
+  - The only other possibility that Bob has to worry about is a *Clandestine Finesse*. For example, he could be blind-playing a green 3 **and then** a red 3 after that. If he blind-discarded, that could "kill" the green stack, since the other copy of green 3 is already discarded.
+  - However, Bob **also** knows that you are not allowed to perform a *Clandestine Finesse* from *Bluff Seat* that could duplicate a card in your hand. Thus, he can discount both the possibility of a *Bluff* **and** the possibility of a *Clandestine Finesse*.
+  - Bob performs a *Certain Discard* on his *Finesse Position* card and it is the red 3, successfully passing it back to Alice.
+- If someone performs a *Certain Discard* and you have two or more clued cards that could be the target, then you are not promised the order, only that you have the card clued somewhere in your hand. (This part works in the exact same way as a more-ordinary *Sarcastic Discard*.)
+
 ### The Prophetic Finesse (for 1's)
 
 - In most games, players will avoid giving a number 1 clue to a single playable 1 that is not on *Finesse Position* if a different player has the same 1 on *Finesse Position*. This is because it is usually better to *Finesse* it or to let someone else *Finesse* it.

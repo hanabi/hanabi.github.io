@@ -31,6 +31,7 @@ module.exports = {
             'level_19',
             'level_19/play_clues',
             'level_19/save_clues',
+            'level_19/fix_clues',
             'level_19/discards_misplays',
             'level_19/chop_moves',
             'level_19/special_finesses',
