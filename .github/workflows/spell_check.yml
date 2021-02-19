@@ -32,7 +32,8 @@ jobs:
   discord:
     name: Discord Failure Notification
     needs: [spell_check]
-    if: always() # This is needed to always run this job, even if the other jobs fail
+    # This is needed to always run this job, even if the other jobs fail
+    if: always()
     runs-on: ubuntu-latest
     steps:
       - uses: technote-space/workflow-conclusion-action@v2
