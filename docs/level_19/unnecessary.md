@@ -71,7 +71,7 @@ title: Unnecessary Usage of Complicated Moves
 
 ### The Unnecessary Forced Reverse Trash Finesse (A Gentleman's Discard That Looks Like an Unnecessary Reverse Trash Finesse)
 
-- First, see the section on [Unnecessary Moves with Known Trash](#unnecessary-moves-with-known-trash), which defines what a *Unnecessary Trash Finesse* is. Basically, if a *Trash Finesse* is unnecessary, then it also causes a *Chop Move*.
+- First, see the section on *[Unnecessary Moves with Known Trash](#unnecessary-moves-with-known-trash)*, which defines what a *Unnecessary Trash Finesse* is. Basically, if a *Trash Finesse* is unnecessary, then it also causes a *Chop Move*.
 - This convention also applies to *Reverse Trash Finesses*. If they are unnecessary, then it causes a *Chop Move* in the same way.
 - If a line is chosen that forces a *Gentleman's Discard* to occur (because they have to entertain the possibility of a *Reverse Trash Finesse*), and the blind-playing card could have been clued in some other easier way, then it **still** *Chop Moves* in exactly the same way that an *Unnecessary Reverse Trash Finesse* would.
 - For example, in a 3-player game:
@@ -90,7 +90,7 @@ title: Unnecessary Usage of Complicated Moves
 
 ### The Trash Push Inverted Finesse
 
-- First, see the section on [Unnecessary Moves with Known Trash](#unnecessary-moves-with-known-trash), which defines what a *Unnecessary Trash Push* is. Basically, if a *Trash Push* is unnecessary, then it also causes an extra blind-play.
+- First, see the section on *[Unnecessary Moves with Known Trash](#unnecessary-moves-with-known-trash)*, which defines what a *Unnecessary Trash Push* is. Basically, if a *Trash Push* is unnecessary, then it also causes an extra blind-play.
 - Normally, the *Unnecessary Trash Push* calls for the very next player to blind-play an unrelated card, similar to a *Bluff*.
 - However, if the very next player can see that it could be a *Finesse* through the *Trash Pushed* card, then they should prefer that interpretation. This is similar to how Bob should always prefer a *Finesse* interpretation over a *Bluff* interpretation.
 - For example, in a 4-player game:
