@@ -37,7 +37,9 @@ Use notation that the Hyphen-ated group will be familiar with:
 
 - Type out your entire question into a single message.
 
-### Reasoning
+<br />
+
+## Reasoning
 
 - The reason for needing replays is that different people play in different modes (color-blind, art styles, card orientation, etc.).
 - The reason for needing Alice and Bob stories and for rule 2 is that it helps us to parse your question more easily.
