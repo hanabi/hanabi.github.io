@@ -29,6 +29,7 @@ title: Level 4 - Neophyte
   - In slot 1, Bob has a card with a positive red clue on it. (Thus, it can be any red card or any rainbow card.)
   - In slot 2, Bob has a card with a positive red clue on it and a negative green clue on it. (Thus, it can be any red card.)
   - Even though slot 2 is technically more likely to be the red 3, Bob knows that players are not supposed to use negative information for determining which card to play into a *Prompt*. Thus, Bob plays the red 3 from slot 1.
+- For advanced players, also see the section on *[Double Prompts in Multi-Color Variants](level_19/miscellaneous.md#double-prompts-in-multi-color-variants)*.
 
 ### Double Discard Situations
 
