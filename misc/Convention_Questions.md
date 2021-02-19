@@ -2,14 +2,14 @@
 
 Ask questions about the Hyphen-ated conventions in the in the `#convention-questions` channel. But please follow these rules:
 
-### 1) Use Replay Links or Use Alice and Bob Stories
+#### 1) Use Replay Links or Use Alice and Bob Stories
 
 - If the question is about **a real game**, then you must include a link to the game by using the `/replay [game id] [turn number]` command.
 - Do **not** post a screenshot of the game state.
 - If the question is about **a hypothetical**, then you must type out an Alice and Bob story in the style of the convention website.
 - (Hypotheticals are generally preferred to replays, since they narrow down the scope of what is happening.)
 
-### 2) Use Hyphen-ated Notation
+#### 2) Use Hyphen-ated Notation
 
 Use notation that the Hyphen-ated group will be familiar with:
 
@@ -19,12 +19,12 @@ Use notation that the Hyphen-ated group will be familiar with:
 - If using a replay, then use the names of the players in the replay.
 - If using a hypothetical, always use the characters of Alice, Bob, Cathy, Donald, and Emily. (Alice should always be the player who performs the first action.)
 
-### 3) State the Convention Level
+#### 3) State the Convention Level
 
 - You **must** include a convention level with your question (even if you think it is obvious).
 - Use the level that the players of the game were playing with or the level relating to the convention that you are asking about.
 
-### 4) Attempt to Answer Your Own Question (and Provide a Detailed Explanation)
+#### 4) Attempt to Answer Your Own Question (and Provide a Detailed Explanation)
 
 - You **must** attempt to answer your own question, based on your current understanding of the conventions.
 - Provide a detailed explanation as to **why** you think it is the best answer, linking to the relevant sections of the website if necessary.
@@ -33,13 +33,13 @@ Use notation that the Hyphen-ated group will be familiar with:
 - For example, the following question is good:
   - /replay 12345 12<br />Level 11 game. Here, it is Alice's turn. It is also the Early Game and no 5 Stalls have been given yet. Thus, based on my understanding of the conventions, when Alice clues number 5 to Bob, it would just be a 5 Stall, because there is no other possible clues that Alice can give. Is this correct? (From: https://hanabi.github.io/docs/level_6/#5-stalls-intermediate-section)
 
-### 5) Put Everything in One Message
+#### 5) Put Everything in One Message
 
 - Type out your entire question into a single message.
 
 <br />
 
-## Reasoning
+### Reasoning
 
 - The reason for needing replays is that different people play in different modes (color-blind, art styles, card orientation, etc.).
 - The reason for needing Alice and Bob stories and for rule 2 is that it helps us to parse your question more easily.
