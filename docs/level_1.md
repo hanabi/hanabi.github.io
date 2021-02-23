@@ -16,9 +16,9 @@ title: Level 1 - Newbie
 
 ### Play Clues & Delayed Play Clues & The Definition of Playable
 
-- *Play Clues* are different than *Delayed Played Clues*:
-  - If the card will successfully play on the stacks **right now**, then it was *Play Clue*.
-  - If the card will successfully play on the stacks after other people have played cards of the same suit, then it was a *Delayed Play Clue* that was *through* other cards.
+- *Play Clues* are different than *Delayed Play Clues*:
+  - If the card will successfully play on the stacks **right now**, then the clue was a *Play Clue*.
+  - If the card will successfully play on the stacks after other people have played cards of the same suit, then the clue was a *Delayed Play Clue* that was *through* other cards.
 - For example, in a 4-player game:
   - It is the first turn of the game and nothing is played on the stacks.
   - Alice clues red to Donald, touching a red 1 as a *Play Clue*. This is a direct *Play Clue* - the red 1 can be played on the stacks as soon as it gets to Donald's turn.
