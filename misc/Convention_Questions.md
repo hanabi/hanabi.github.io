@@ -2,14 +2,20 @@
 
 Ask questions about the Hyphen-ated conventions in the in the `#convention-questions` channel. But please follow these rules:
 
-### 1) Use Replay Links or Use Alice and Bob Stories
+### 1) State the Convention Level
 
+- You **must** include a convention level with your question (even if you think it is obvious).
+- Use the level that the players of the game were playing with or the level relating to the convention that you are asking about.
+
+### 2) Use Replay Links or Use Alice and Bob Stories
+
+- If your answer is about something really simple, then ask away. But it is almost always better to provide an example.
 - If the question is about **a real game**, then you must include a link to the game by using the `/replay [game id] [turn number]` command.
 - Do **not** post a screenshot of the game state.
 - If the question is about **a hypothetical**, then you must type out an Alice and Bob story in the style of the convention website.
 - (Hypotheticals are generally preferred to replays, since they narrow down the scope of what is happening.)
 
-### 2) Use Hyphen-ated Notation
+### 3) Use Hyphen-ated Notation
 
 Use notation that the Hyphen-ated group will be familiar with:
 
@@ -18,11 +24,6 @@ Use notation that the Hyphen-ated group will be familiar with:
 - Use "r[3]" to indicate that a card is a red 3 but has a number 3 clue on it.
 - If using a replay, then use the names of the players in the replay.
 - If using a hypothetical, always use the characters of Alice, Bob, Cathy, Donald, and Emily. (Alice should always be the player who performs the first action.)
-
-### 3) State the Convention Level
-
-- You **must** include a convention level with your question (even if you think it is obvious).
-- Use the level that the players of the game were playing with or the level relating to the convention that you are asking about.
 
 ### 4) Attempt to Answer Your Own Question (and Provide a Detailed Explanation)
 
