@@ -70,7 +70,7 @@ title: Level 1 - Newbie
 - A *Prompt* is when you get a player to play a clued card that was previously unknown.
 - If the player **was already going to play** the card, then **it isn't a *Prompt***. *Prompts* can only be on cards that were not going to play otherwise.
 - An example of a *Prompt* can be found in the [beginner's guide](beginner.md#the-prompt).
-- For advanced players, also see the *[Prompts in Multi-Color Variants](#prompts-in-multi-color-variants)* section.
+- For advanced players, also see the *[Prompts in Multi-Color Variants](level_4.md#prompts-in-multi-color-variants)* section.
 
 ### The Finesse
 
