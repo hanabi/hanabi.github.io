@@ -51,13 +51,13 @@ title: Level 7 - Apprentice
 - Just like a *Gentleman's Discard*, a *Baton Discard* promises that the card is exactly on someone else's *Finesse Position*.
 - For example, this would be a *Gentleman's Discard* in a 3-player game:
   - Red 2 is played on the stacks.
-  - Alice discards a red 3.
+  - Alice discards a known red 3.
   - Bob does not have any clued cards in his hand.
   - Bob looks at Cathy's hand and does not see the red 3. Thus, he knows that he has it.
   - Bob blind-plays his *Finesse Position* card and it is the red 3 and successfully plays.
 - For example, this would be a *Baton Discard* in a 3-player game:
   - Red 1 is played on the stacks.
-  - Alice discards a red 3.
+  - Alice discards a known red 3.
   - Bob does not have any clued cards in his hand.
   - Bob looks at Cathy's hand and does not see the red 3. Thus, he knows that he has it.
   - Bob marks his *Finesse Position* card as red 3. For now, Bob does not have anything else to do, so he discards his chop card.
