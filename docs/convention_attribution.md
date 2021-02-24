@@ -121,6 +121,7 @@ title: Convention Attribution
 | The Cursed Finesse | pianoblook
 | The Unknown Dupe Discharge | Indego
 | The Shallow Discard & The Shallow Misplay | Jerry
+| The Unknown Trash Charm | piper
 
 <br />
 
