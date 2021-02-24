@@ -50,7 +50,7 @@ title: Level 11 - Advanced
 - Confusingly, *5 Pulls* work differently from *Finesses*. Even though they involve playing a blind card, a *5 Pull* should be treated as a *Delayed Play Clue* (or a potential *Prompt*). This means that the blind card could play through any existing touched cards.
 - When a player is *Finessed* or *Bluffed*, they are allowed to defer playing the blind card in order to do a *Finesse* or *Bluff* of their own. However, if they could be *Bluffed*, they are **not** allowed to initiate a *5 Pull*. (Players are still allowed to defer playing into a *Finesse* in order to initiate a *5 Pull*.)
 - In the rare case where a *5 Pull* is performed in a 3-player game by touching two 5's in slot 1 and slot 3, then the *5 Pulled* card is slot 2.
-- For expert players, we define a specific [interaction between *5's Chop Moves* / *5 Pulls* and *2 Saves*](level_19/save_clues.md#2-saves-advanced-section-interaction-with-5s-chop-moves--5-pulls).
+- For expert players, we define a specific [interaction between *5's Chop Moves* / *5 Pulls* and *2 Saves*](level_19/save_clues.md#2-saves-interaction-with-5s-chop-moves--5-pulls).
 
 ### A Flowchart for Cluing 5's in the Early Game
 
