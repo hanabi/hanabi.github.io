@@ -17,6 +17,18 @@ title: Discharges
 - The *5 Number Discharge* is introduced in [level 15](level_15.md#5-number-discharge-5nd).
 - This results in a *Signal Shift* from *Play* --> *Trash* (on the *5 Pulled* card).
 
+### The Unknown Trash Charm
+
+- First, see the section on the *[Unknown Trash Discharge](level_15.md#the-unknown-trash-discharge-1-for-1-form)*.
+- Normally, after an *Unknown Trash Discharge*, non-focused cards are known to be "good".
+- However, what if a player performs an *Unknown Trash Discharge* where **all** of the non-focused cards are trash? A *Discharge* would incorrectly signal that the non-focused cards are useful.
+- Instead, this should signal a *Charm* on the very next player.
+- For example, in a 3-player game:
+  - All of the 2's are played on the stacks.
+  - Alice clues red to Cathy, touching a red 1 on slot 1 and a red 2 on slot 2.
+  - Normally, Bob would treat this clue as an *Unknown Trash Discharge*. However, if he *Discharges*, then Cathy will discard the red 1 and mark the red 2 as either a red 3, a red 4, or a red 5, which would be a *Lie*.
+  - Instead, Bob knows that this signals an *Unknown Trash Charm*, so he blind-plays his *Fourth Finesse Position*. It is a blue 3 and it successfully plays.
+
 ### Unknown Dupe Discharge (UDD)
 
 - First, see the section on *[Unknown Trash Discharge](level_15.md#the-unknown-trash-discharge-1-for-1-form-utd)*.
