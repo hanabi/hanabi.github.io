@@ -30,18 +30,18 @@ title: Ignitions
 
 #### A Trash Double Ignition
 
-- If the known trash clue cannot be any of these 3 things, then it communicates a *Double Ignition*, meaning that two players on the team need to blind-play their *Finesse Position* card as any playable card.
-- In most circumstances, a *Double Ignition* should be clear. This is because the two players with a playable card will each see that the clue giver should have clued the other playable card directly (instead of touching trash).
-- Sometimes, three players on the team will have playable cards on *Finesse Position*. If a *Double Ignition* is performed in this case, similar to how an *Ambiguous Finesse* works, it will "get" the cards from the final two players. (Bob will do nothing because he sees that the *Double Ignition* is on Cathy and Donald.)
+- If the known trash clue cannot be any of these 3 things, then it communicates a *Trash Double Ignition*, meaning that two players on the team need to blind-play their *Finesse Position* card as any playable card.
+- In most circumstances, a *Trash Double Ignition* should be clear. This is because the two players with a playable card will each see that the clue giver should have clued the other playable card directly (instead of touching trash).
+- Sometimes, three players on the team will have playable cards on *Finesse Position*. If a *Trash Double Ignition* is performed in this case, similar to how an *Ambiguous Finesse* works, it will "get" the cards from the final two players. (Bob will do nothing because he sees that the *Trash Double Ignition* is on Cathy and Donald.)
 
 #### Skipping Bluff Seat
 
-- Rarely, if Bob has a playable card, a *Double Ignition* can skip over Bob and affect Cathy and Donald.
+- Rarely, if Bob has a playable card, a *Trash Double Ignition* can skip over Bob and affect Cathy and Donald.
 
 #### Conflict with Bad Chop Move Ejection
 
 - Technically, cluing a known trash card to *Chop Move* a "bad" card would trigger an *Ejection* (as a *Bad Trash Chop Move Ejection*).
-- In this situation, players should always assume a *Double Ignition* over a *Bad Trash Chop Move Ejection* (since the latter is very rare).
+- In this situation, players should always assume a *Trash Double Ignition* over a *Bad Trash Chop Move Ejection* (since the latter is very rare).
 
 ### Replay Double Ignition 
 
