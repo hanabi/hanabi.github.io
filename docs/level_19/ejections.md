@@ -12,11 +12,19 @@ title: Ejections
 - The *5 Color Ejection* is covered at [level 10](level_10.md#the-5-color-ejection-5ce).
 - This results in a *Signal Shift* from *Play* --> *Save*.
 
-### The Double Play Ejection
+### Replay Ejection
 
-- If a player knows that a card in their hand is playable, and then they receive **another** clue on that card, it is usually a *Fix Clue*, which means that the card is actually bad and they should discard it instead of playing it.
-- However, if this happens on a good card, the other players can see that the clue must have some other purpose - it should signal an *Ejection* on the very next player.
-- This results in a *Signal Shift* from *Fix* --> *Play*.
+- First, see the section on [Replay Double Ignition](ignitions.md#replay-double-ignition)
+- Normally, if a player re-clues a card that is globally known as playable, it triggers a *Replay Double Ignition*.
+- However, what if the next player can see that a Replay Ignition is impossible? In this situation, if the clue-giver is not making a mistake, they instead intend for an *Ejection* on the very next player.
+- In most circumstances, the *Replay Ejection* can not be performed by re-cluing a card in Bob's hand. This is because Bob would first interpret this clue as a *Fix Clue*, which means that the card is actually bad and they should discard it instead of playing it.
+- Note that the *Replay Ejection* is "turned off" in the *End-Game*. This is because players may often re-clue playables to stall in the *End-Game*.
+
+### Poke Ejection
+
+- First, see the section on [Poke Double Ignition](ignitions.md#poke-double-ignition)
+- Normally, if a player re-clues globally known trash, it triggers a *Poke Double Ignition*.
+- However, what if the next player can see that a Replay Ignition is impossible? In this situation, if the clue-giver is not making a mistake, they instead intend for an *Ejection* on the very next player.
 
 ### The Bad Chop Move Ejection (with a Trash Chop Move)
 
