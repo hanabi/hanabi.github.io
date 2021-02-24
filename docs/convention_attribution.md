@@ -111,7 +111,7 @@ title: Convention Attribution
 | The Blaze Discard | IAMJEFF
 | The Rank Choice Ejection | IAMJEFF
 | Selfish Focus Inversion | Romain
-| Trash Double Ignition | Libster
+| The Trash Double Ignition | Libster
 | The Shadow Finesse | pianoblook
 | The 4 Charm | IAMJEFF
 | The Safety Charm | pianoblook
@@ -122,8 +122,8 @@ title: Convention Attribution
 | The Unknown Dupe Discharge | Indego
 | The Shallow Discard & The Shallow Misplay | Jerry
 | The Unknown Trash Charm | piper
-| Replay Double Ignition & Replay Ejection | Jerry
-| Poke Double Ignition & Poke Ejection | Jerry
+| The Replay Double Ignition | Jerry
+| The Poke Double Ignition | Jerry
 
 <br />
 
