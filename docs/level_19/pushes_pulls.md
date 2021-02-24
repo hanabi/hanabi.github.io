@@ -31,4 +31,9 @@ title: Pushes & Pulls
   - Bob also knows that it is nonsensical to *Chop Move* a playable red 1 - Alice could have just give a red *Chop Focus Play Clue* to the red 1.
   - Thus, this must be a *5 Double Pull*, so Bob blind-plays his *Finesse Position* card. It is blue 1 and it successfully plays.
   - Cathy knows that if this was an *Early 5's Chop Move*, then Bob would not have blind-played anything. Since he blind-played his *Finesse Position* card, this must be a *5 Double Pull*. Cathy blind-plays her slot 4 card (the card to the right of the clued 5).
+- Sometimes, it can be useful to *Chop Move* a playable card. Something is only a *5 Double Pull* if there is not some other good reason for the *Chop Move*. Specifically, the player might want to:
+  - Avoid violating *Good Touch Principle*.
+  - Save a *Delayed Playable* card that is followed by a critical card.
+  - Save two important cards when there are a lot of cards to deal with and the team is low on clues.
+  - Get a blind-play from *Elimination* when the duplicate is visible.
 - More examples of a *5 Double Pull* can be found [here](examples/5_double_pull.md).
