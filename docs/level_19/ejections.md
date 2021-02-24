@@ -12,19 +12,13 @@ title: Ejections
 - The *5 Color Ejection* is covered at [level 10](level_10.md#the-5-color-ejection-5ce).
 - This results in a *Signal Shift* from *Play* --> *Save*.
 
-### Replay Ejection
+### Trash Push Ejection
 
-- First, see the section on *[Replay Double Ignition](level_19.md#replay-double-ignition)*.
-- Normally, if a player re-clues a card that is globally known as playable, it triggers a *Replay Double Ignition*.
-- However, what if the next player can see that a *Replay Double Ignition* is impossible? In this situation, if the clue-giver is not making a mistake, they instead intend for an *Ejection* on the very next player.
-- In most circumstances, the *Replay Ejection* can not be performed by re-cluing a card in Bob's hand. This is because Bob would first interpret this clue as a *Fix Clue*, which means that the card is actually bad and they should discard it instead of playing it.
-- Note that the *Replay Ejection* is "turned off" in the *End-Game*. This is because players may often re-clue playables to stall in the *End-Game*.
-
-### Poke Ejection
-
-- First, see the section on *[Poke Double Ignition](level_19.md#poke-double-ignition)*.
-- Normally, if a player re-clues globally known trash, it triggers a *Poke Double Ignition*.
-- However, what if the next player can see that a *Poke Double Ignition* is impossible? In this situation, if the clue-giver is not making a mistake, they instead intend for an *Ejection* on the very next player.
+- First, see the section on the [Trash Push](level_14.md#the-trash-push).
+- Normally, when known trash is touched as the focus of the clue, and the known trash is on chop, it communicates a *Trash Push*.
+- However, what if the *Trash Pushed* card is two-or-more-away-from-playable? This would normally be a *Trash Push Double Finesse* on Bob, but that is unlikely.
+- Instead, since no single play could ever prevent the *Pushed* card from immediately misplaying, Bob interprets the clue as an *Ejection*.
+- After a *Trash Push Ejection*, the clue receiver should *Chop Move* the two-or-more-away-from-playable card.
 
 ### The Bad Chop Move Ejection (with a Trash Chop Move)
 
@@ -66,9 +60,24 @@ title: Ejections
   - Cathy knows that since a number 2 clue cause Bob to blind-play his *Second Finesse Position*, this must be an *Ejection*. The only type of *Ejection* that matches this kind of clue is a *Rank Choice Ejection*, so Cathy knows that her 2 must be playable and that her 2 must be exactly the red 2. Cathy plays the red 2.
 - More examples of a *Rank Choice Ejection* can be found [here](examples/rank_choice_ejection.md).
 
+### The Replay Ejection
+
+- First, see the section on the *[Replay Double Ignition](ignition.md#replay-double-ignition)*.
+- Normally, if a player re-clues a card that is globally known as playable, it triggers a *Replay Double Ignition*.
+- However, what if the next player can see that a *Replay Double Ignition* is impossible? In this situation, if the clue-giver is not making a mistake, they instead intend for an *Ejection* on the very next player.
+- In most circumstances, *Replay Ejections* can not be performed by re-cluing a card in Bob's hand. This is because Bob would interpret it as a *Fix Clue*, meaning that the card that Bob was about to play is actually bad and that he should discard it instead of playing it.
+- Note that the *Replay Ejection* is "turned off" in the *End-Game*. (This is because players often clue playable cards as a *Burn Clue*.)
+
+### The Poke Ejection
+
+- First, see the section on the *[Poke Double Ignition](ignition.md#poke-double-ignition)*.
+- Normally, if a player re-clues globally known trash, it triggers a *Poke Double Ignition*.
+- However, what if the next player can see that a *Poke Double Ignition* is impossible? In this situation, if the clue-giver is not making a mistake, they instead intend for an *Ejection* on the very next player.
+
 ### The Self Color Ejection
 
-- Normally, when a card is "filled in" a card that is two-or-more-away-from-playable, it triggers a *Self Color Double Bluff*
+- First, see the section on the *[Self Color Double Bluff](special_bluffs.md#self-color-double-bluff-scdb)*.
+- Normally, when a card is "filled in" a card that is two-or-more-away-from-playable, it triggers a *Self Color Double Bluff*.
 - However, what if the next player can see that a *Double Bluff* is impossible? In this situation, they instead intend for an *Ejection* on the very next player.
 - For example, in a 4-player game:
   - All the 1's are played on the stacks.
@@ -81,11 +90,3 @@ title: Ejections
     - If it isn't a *Self Color Double Bluff*, then it must be a *Self Color Ejection*.
   - Bob blind-plays his *Second Finesse Position*. It is a red 2 and it successfully plays.
   - Cathy does nothing; no other cards are promised.
-
-### Trash Push Ejection
-
-- First, see the section on the [Trash Push](level_14.md#the-trash-push).
-- Normally, when known trash is touched as the focus of the clue, and the known trash is on chop, it communicates a *Trash Push*.
-- However, what if the *Trash Pushed* card is two-or-more-away-from-playable? This would normally be a *Trash Push Double Finesse* on Bob, but that is unlikely.
-- Instead, since no single play could ever prevent the *Pushed* card from immediately misplaying, Bob interprets the clue as an *Ejection*.
-- After a *Trash Push Ejection*, the clue receiver should *Chop Move* the two-or-more-away-from-playable card.
