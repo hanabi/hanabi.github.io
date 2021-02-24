@@ -53,7 +53,7 @@ title: Discards & Misplays
 ### The Promise Clue & The Promise Discard
 
 - First, see the section on the *[Certain Finesse](level_7.md#the-certain-finesse--the-certain-discard)*.
-- When a *Certain Finesse* happens, players can blind-discard their *Finesse Position* card, because it a *Layered Finesse* is impossible. However, when a normal *Finesse* happens, players cannot blind-discard anything, just in case a *Layered Finesse* is happening.
+- When a *Certain Finesse* happens, players can blind-discard their *Finesse Position* card, because a *Layered Finesse* is impossible. However, when a normal *Finesse* happens, players cannot blind-discard anything, just in case a *Layered Finesse* is happening.
 - Sometimes, after a *Finesse* has occurred, but before the promised card has been blind-played, a teammate might find strategic value in duplicating the promised card.
 - If a teammate duplicates the promised card, and the duplication was not a last-resort, then it **promises** that the duplicated card is exactly on *Finesse Position*. This is called a *Promise Clue*.
 - The *Promise Clue* allows the recipient of the *Finesse* to blind-discard the card as a *Promise Discard*. (A *Promise Discard* is almost exactly like a *Certain Discard*.)
