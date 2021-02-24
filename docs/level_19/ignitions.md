@@ -9,11 +9,10 @@ title: Ignitions
     - e.g. It doesn't "match", which is unlike a *Finesse*, but like a *Bluff*.
   - unrelated to the *playability* of the clued card
     - e.g. Nothing needs to be "proved" to the player who got clued, which is unlike a *Finesse*, and unlike a *Bluff*.
-- Currently, there is only one type of clue that can cause an *Ignition*; see below.
 
-### Double Ignition (with Known Trash)
+### Trash Double Ignition (with Known Trash)
 
-- Towards the end of the game, if a player clues known trash, then there are usually 3 possible interpretations:
+- Towards the end of the game, if a player clues known trash, then there are usually 2 possible interpretations:
 
 #### 1) A Late-Game Trash Chop Move
 
@@ -29,12 +28,7 @@ title: Ignitions
   - they are not the clue-receiver and they can see that the "pushed" card is bad
   - they are the clue-receiver and they can determine that they are no more cards left to *Trash Push*
 
-#### 3) A Late-Game Burn Clue
-
-- Sometimes, players give meaningless *Burn Clues* to known trash cards in order to avoid drawing more cards. (This is rare, because they would normally re-clue a playable card, but sometimes it is done.)
-- However, players can know that a *Burn Clue* is impossible if they see that a normal *Play Clue* could have been given instead.
-
-#### A Double Ignition
+#### A Trash Double Ignition
 
 - If the known trash clue cannot be any of these 3 things, then it communicates a *Double Ignition*, meaning that two players on the team need to blind-play their *Finesse Position* card as any playable card.
 - In most circumstances, a *Double Ignition* should be clear. This is because the two players with a playable card will each see that the clue giver should have clued the other playable card directly (instead of touching trash).
@@ -48,3 +42,19 @@ title: Ignitions
 
 - Technically, cluing a known trash card to *Chop Move* a "bad" card would trigger an *Ejection* (as a *Bad Trash Chop Move Ejection*).
 - In this situation, players should always assume a *Double Ignition* over a *Bad Trash Chop Move Ejection* (since the latter is very rare).
+
+### Replay Double Ignition 
+
+- If a player is not in a [stall situation](#allowable-stall-clues-stall-table) or [stalling for end-game purposes](#burning-end-game-stalling), it would be very odd if they give a re-clue a globally known playable card.
+- Indeed, if they are not making a mistake, such a choice must have some other meaning. We agree that the intended meaning of the clue is a *Replay Double Ignition*, meaning that two players should blind-play their *Finesse Position* card.
+- A *Replay Double Ignition* may not pick up new cards.
+- Unlike the *Trash Double Ignition*, the *Replay Double Ignition* may be performed outside of the end-game.  
+- Note that before the *End-Game*, there are often other clues that may be able to get the two cards played. It is ill-advised to attempt a *Replay Double Ignition* if there are other means of getting the cards played. For example, a direct finesse, a sequence of two bluffs, or a double bluff provides additional information and may pick up other good cards.
+
+### Poke Double Ignition
+
+- Similar to a *Replay Double Ignition*, if a player is not stalling, it would be very odd if they re-clue a card that is globally known as trash.
+- Indeed, if they are not making a mistake, we agree that the intended meaning of the clue is a *Poke Double Ignition*, meaning that two players should blind-play their *Finesse Position* card.
+- A *Poke Double Ignition* may not pick up new cards. 
+- Like the *Replay Double Ignition*, the *Poke Double Ignition* may be performed outside of the end-game. 
+- In addition, it is not advised to perform the *Poke Double Ignition* if there are other means of getting the cards played.
