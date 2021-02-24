@@ -350,6 +350,13 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
   - Bob sees Cathy blind-play the next red card for seemingly no reason, so he is able to deduce that his slot 2 card is trash.
 - This convention was deleted due to lack of use.
 
+### The Double Play Ejection
+
+- If a player knows that a card in their hand is playable, and then they receive **another** clue on that card, it is usually a *Fix Clue*, which means that the card is actually bad and they should discard it instead of playing it.
+- However, if this happens on a good card, the other players can see that the clue must have some other purpose - it should signal an *Ejection* on the very next player.
+- This results in a *Signal Shift* from *Fix* --> *Play*.
+- This convention was removed in favor of the *Replay Double Ignition* and *Replay Ejection*
+
 <br />
 
 ## Deleted Variant-Specific Conventions
