@@ -60,6 +60,12 @@ title: Ejections
   - Cathy knows that since a number 2 clue cause Bob to blind-play his *Second Finesse Position*, this must be an *Ejection*. The only type of *Ejection* that matches this kind of clue is a *Rank Choice Ejection*, so Cathy knows that her 2 must be playable and that her 2 must be exactly the red 2. Cathy plays the red 2.
 - More examples of a *Rank Choice Ejection* can be found [here](examples/rank_choice_ejection.md).
 
+### The Trash Ejection
+
+- First, see the section on the *[Trash Double Ignition](ignition.md#trash-double-ignition)*.
+- In certain situations, if a player re-clues a card that is globally known as trash, it triggers a *Trash Double Ignition*.
+- However, what if the next player can see that a *Trash Double Ignition* is impossible? In this situation, if the clue-giver is not making a mistake, they instead intend for an *Ejection* on the very next player.
+
 ### The Replay Ejection
 
 - First, see the section on the *[Replay Double Ignition](ignition.md#replay-double-ignition)*.
