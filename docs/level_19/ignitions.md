@@ -45,7 +45,7 @@ title: Ignitions
 
 ### Replay Double Ignition 
 
-- If a player is not in a [stall situation](#allowable-stall-clues-stall-table) or [stalling for end-game purposes](#burning-end-game-stalling), it would be very odd if they give a re-clue a globally known playable card.
+- If a player is not in a [stall situation](level_6.md#allowable-stall-clues-stall-table) or [stalling for end-game purposes](level_6.md#burning-end-game-stalling), it would be very odd if they give a re-clue a globally known playable card.
 - Indeed, if they are not making a mistake, such a choice must have some other meaning. We agree that the intended meaning of the clue is a *Replay Double Ignition*, meaning that two players should blind-play their *Finesse Position* card.
 - A *Replay Double Ignition* may not pick up new cards.
 - Unlike the *Trash Double Ignition*, the *Replay Double Ignition* may be performed outside of the end-game.  
