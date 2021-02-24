@@ -46,6 +46,10 @@ title: Ignitions
 - Technically, cluing a known trash card to *Chop Move* a "bad" card would trigger an *Ejection* (as a *Bad Trash Chop Move Ejection*).
 - In this situation, players should always assume a *Trash Double Ignition* over a *Bad Trash Chop Move Ejection* (since the latter is very rare).
 
+#### Trash Ejection
+
+- Also see the section on [Trash Ejection](ejection.md#trash-ejection).
+
 ### Replay Double Ignition 
 
 - When a player re-clues a globally-known playable card, it is a "useless" clue. 
@@ -53,6 +57,7 @@ title: Ignitions
 - If a player is not in a stalling situation, then they must be trying to send a deeper message - a *Double Ignition*. This is called a *Replay Double Ignition* because you are re-giving a *Play Clue*.
 - The *Replay Double Ignition* must not introduce any new cards as part of the clue.
 - The *Replay Double Ignition* can be performed all throughout the game. (Conversely, the *Trash Double Ignition* can only be performed towards the end of the game.)
+- Also, see the section on [Replay Ejection](ejection.md#replay-ejection).
 
 ### Poke Double Ignition
 
@@ -61,3 +66,4 @@ title: Ignitions
 - If a player is not in a stalling situation, then they must be trying to send a deeper message - a *Double Ignition*. This is called a *Poke Double Ignition* because by re-touching a trash card, it is like you are poking the player.
 - The *Poke Double Ignition* must not introduce any new cards as part of the clue. 
 - The *Poke Double Ignition* can be performed all throughout the game. (Conversely, the *Trash Double Ignition* can only be performed towards the end of the game.)
+- Also, see the section on [Poke Ejection](ejection.md#poke-ejection).
