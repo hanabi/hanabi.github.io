@@ -48,7 +48,7 @@ title: Ignitions
 - If a player is not in a [stall situation](level_6.md#allowable-stall-clues-stall-table) or [stalling for end-game purposes](level_6.md#burning-end-game-stalling), it would be very odd if they give a re-clue a globally known playable card.
 - Indeed, if they are not making a mistake, such a choice must have some other meaning. We agree that the intended meaning of the clue is a *Replay Double Ignition*, meaning that two players should blind-play their *Finesse Position* card.
 - A *Replay Double Ignition* may not pick up new cards.
-- Unlike the *Trash Double Ignition*, the *Replay Double Ignition* may be performed outside of the end-game.  
+- Unlike the *Trash Double Ignition*, the *Replay Double Ignition* may be performed outside of the *End-Game*.  
 - Note that before the *End-Game*, there are often other clues that may be able to get the two cards played. It is ill-advised to attempt a *Replay Double Ignition* if there are other means of getting the cards played. For example, a direct finesse, a sequence of two bluffs, or a double bluff provides additional information and may pick up other good cards.
 
 ### Poke Double Ignition
@@ -56,5 +56,5 @@ title: Ignitions
 - Similar to a *Replay Double Ignition*, if a player is not stalling, it would be very odd if they re-clue a card that is globally known as trash.
 - Indeed, if they are not making a mistake, we agree that the intended meaning of the clue is a *Poke Double Ignition*, meaning that two players should blind-play their *Finesse Position* card.
 - A *Poke Double Ignition* may not pick up new cards. 
-- Like the *Replay Double Ignition*, the *Poke Double Ignition* may be performed outside of the end-game. 
-- In addition, it is not advised to perform the *Poke Double Ignition* if there are other means of getting the cards played.
+- Like the *Replay Double Ignition*, the *Poke Double Ignition* may be performed outside of the *End-Game*. 
+- In addition, it is not advised to perform the *Poke Double Ignition* if there are other means of getting the cards played that provide additional information.
