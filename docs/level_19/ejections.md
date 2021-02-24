@@ -16,7 +16,7 @@ title: Ejections
 
 - First, see the section on *[Replay Double Ignition](level_19/ignitions.md#replay-double-ignition)*.
 - Normally, if a player re-clues a card that is globally known as playable, it triggers a *Replay Double Ignition*.
-- However, what if the next player can see that a Replay Ignition is impossible? In this situation, if the clue-giver is not making a mistake, they instead intend for an *Ejection* on the very next player.
+- However, what if the next player can see that a *Replay Double Ignition* is impossible? In this situation, if the clue-giver is not making a mistake, they instead intend for an *Ejection* on the very next player.
 - In most circumstances, the *Replay Ejection* can not be performed by re-cluing a card in Bob's hand. This is because Bob would first interpret this clue as a *Fix Clue*, which means that the card is actually bad and they should discard it instead of playing it.
 - Note that the *Replay Ejection* is "turned off" in the *End-Game*. This is because players may often re-clue playables to stall in the *End-Game*.
 
@@ -24,7 +24,7 @@ title: Ejections
 
 - First, see the section on *[Poke Double Ignition](level_19/ignitions.md#poke-double-ignition)*.
 - Normally, if a player re-clues globally known trash, it triggers a *Poke Double Ignition*.
-- However, what if the next player can see that a Replay Ignition is impossible? In this situation, if the clue-giver is not making a mistake, they instead intend for an *Ejection* on the very next player.
+- However, what if the next player can see that a *Poke Double Ignition* is impossible? In this situation, if the clue-giver is not making a mistake, they instead intend for an *Ejection* on the very next player.
 
 ### The Bad Chop Move Ejection (with a Trash Chop Move)
 
