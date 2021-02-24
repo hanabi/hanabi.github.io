@@ -10,9 +10,18 @@ title: Ignitions
   - unrelated to the *playability* of the clued card
     - e.g. Nothing needs to be "proved" to the player who got clued, which is unlike a *Finesse*, and unlike a *Bluff*.
 
-### Trash Double Ignition (with Known Trash)
+### Double Ignition
 
-- Towards the end of the game, if a player clues known trash, then there are usually 2 possible interpretations:
+- Right now, there are no moves that trigger a single *Ignition*.
+- Instead, several types of "useless" clues trigger a *Double Ignition*.
+- When a *Double Ignition* is triggered, it means that two players on the team need to blind-play their *Finesse Position* card as any playable card.
+  - *Double Ignition* does not necessarily have to be on the next two players. It can be on anyone.
+- In most circumstances, a *Double Ignition* should be clear. This is because the two players that have a playable card will each see that the clue giver should have clued the other playable card directly (instead of giving a "useless" clue).
+- Sometimes, three players on the team will have playable cards on *Finesse Position*. If a *Double Ignition* is performed in this case, similar to how an *Ambiguous Finesse* works, it will "get" the two cards from the final two players. (Bob will do nothing because he sees that the *Double Ignition* is on Cathy and Donald.)
+
+### The Trash Double Ignition
+
+- Towards the end of the game, if a player clues one or more brand-new trash cards, and the cards are known to be trash, then there are usually 2 possible interpretations:
 
 #### 1) A Late-Game Trash Chop Move
 
@@ -28,15 +37,9 @@ title: Ignitions
   - they are not the clue-receiver and they can see that the "pushed" card is bad
   - they are the clue-receiver and they can determine that they are no more cards left to *Trash Push*
 
-#### A Trash Double Ignition
+#### Otherwise, a Trash Double Ignition
 
-- If the known trash clue cannot be either of these 2 things, then it communicates a *Trash Double Ignition*, meaning that two players on the team need to blind-play their *Finesse Position* card as any playable card.
-- In most circumstances, a *Trash Double Ignition* should be clear. This is because the two players with a playable card will each see that the clue giver should have clued the other playable card directly (instead of touching trash).
-- Sometimes, three players on the team will have playable cards on *Finesse Position*. If a *Trash Double Ignition* is performed in this case, similar to how an *Ambiguous Finesse* works, it will "get" the cards from the final two players. (Bob will do nothing because he sees that the *Trash Double Ignition* is on Cathy and Donald.)
-
-#### Skipping Bluff Seat
-
-- Rarely, if Bob has a playable card, a *Trash Double Ignition* can skip over Bob and affect Cathy and Donald.
+- If the known trash clue cannot be either of these two things, then it communicates a *Trash Double Ignition*.
 
 #### Conflict with Bad Chop Move Ejection
 
@@ -45,7 +48,7 @@ title: Ignitions
 
 ### Replay Double Ignition 
 
-- If a player is not in a [stall situation](level_6.md#allowable-stall-clues-stall-table) or [stalling for end-game purposes](level_6.md#burning-end-game-stalling), it would be very odd if they give a re-clue a globally known playable card.
+- If a player is not in a [stall situation](level_6.md#allowable-stall-clues-stall-table) or [stalling for end-game purposes](level_6.md#burning-end-game-stalling), it would be very strange if they give a re-clue a globally known playable card.
 - Indeed, if they are not making a mistake, such a choice must have some other meaning. We agree that the intended meaning of the clue is a *Replay Double Ignition*, meaning that two players should blind-play their *Finesse Position* card.
 - A *Replay Double Ignition* may not pick up new cards.
 - Unlike the *Trash Double Ignition*, the *Replay Double Ignition* may be performed outside of the *End-Game*.  
