@@ -13,7 +13,7 @@ title: Ignitions
 ### Double Ignition
 
 - Right now, there are no moves that trigger a single *Ignition*.
-- Instead, several types of "useless" clues trigger a *Double Ignition*.
+- Instead, several types of "useless" clues trigger a *Double Ignition*. These different types are listed below.
 - When a *Double Ignition* is triggered, it means that two players on the team need to blind-play their *Finesse Position* card as any playable card.
   - *Double Ignition* does not necessarily have to be on the next two players. It can be on anyone.
 - In most circumstances, a *Double Ignition* should be clear. This is because the two players that have a playable card will each see that the clue giver should have clued the other playable card directly (instead of giving a "useless" clue).
@@ -48,16 +48,16 @@ title: Ignitions
 
 ### Replay Double Ignition 
 
-- If a player is not in a [stall situation](level_6.md#allowable-stall-clues-stall-table) or [stalling for end-game purposes](level_6.md#burning-end-game-stalling), it would be very strange if they give a re-clue a globally known playable card.
-- Indeed, if they are not making a mistake, such a choice must have some other meaning. We agree that the intended meaning of the clue is a *Replay Double Ignition*, meaning that two players should blind-play their *Finesse Position* card.
-- A *Replay Double Ignition* may not pick up new cards.
-- Unlike the *Trash Double Ignition*, the *Replay Double Ignition* may be performed outside of the *End-Game*.  
-- Note that before the *End-Game*, there are often other clues that may be able to get the two cards played. It is ill-advised to attempt a *Replay Double Ignition* if there are other means of getting the cards played. For example, a direct finesse, a sequence of two bluffs, or a double bluff provides additional information and may pick up other good cards.
+- When a player re-clues a globally-known playable card, it is a "useless" clue. 
+- Usually, when this occurs, it is because a player is in a [stalling situation](level_6.md#allowable-stall-clues-stall-table) and cannot discard. (This is most common in [the *End-Game*](level_6.md#burning-end-game-stalling).
+- If a player is not in a stalling situation, then they must be trying to send a deeper message - a *Double Ignition*. This is called a *Replay Double Ignition* because you are re-giving a *Play Clue*.
+- The *Replay Double Ignition* must not introduce any new cards as part of the clue.
+- The *Replay Double Ignition* can be performed all throughout the game. (Conversely, the *Trash Double Ignition* can only be performed towards the end of the game.)
 
 ### Poke Double Ignition
 
-- Similar to a *Replay Double Ignition*, if a player is not stalling, it would be very odd if they re-clue a card that is globally known as trash.
-- Indeed, if they are not making a mistake, we agree that the intended meaning of the clue is a *Poke Double Ignition*, meaning that two players should blind-play their *Finesse Position* card.
-- A *Poke Double Ignition* may not pick up new cards. 
-- Like the *Replay Double Ignition*, the *Poke Double Ignition* may be performed outside of the *End-Game*. 
-- In addition, it is not advised to perform the *Poke Double Ignition* if there are other means of getting the cards played that provide additional information.
+- When a player re-clues a globally-known trash card, it is a "useless" clue.
+- Usually, when this occurs, it is because a player is in a [stalling situation](level_6.md#allowable-stall-clues-stall-table) and cannot discard.
+- If a player is not in a stalling situation, then they must be trying to send a deeper message - a *Double Ignition*. This is called a *Poke Double Ignition* because by re-touching a trash card, it is like you are poking the player.
+- The *Poke Double Ignition* must not introduce any new cards as part of the clue. 
+- The *Poke Double Ignition* can be performed all throughout the game. (Conversely, the *Trash Double Ignition* can only be performed towards the end of the game.)
