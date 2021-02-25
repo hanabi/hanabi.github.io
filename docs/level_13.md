@@ -109,7 +109,7 @@ title: Level 13 - Senior
 - As mentioned above, *Chop Moved* cards should be skipped over when finding the *Elimination Finesse* target. If there are two or more cards with *Elimination Notes* on them and they are all *Chop Moved*, then the oldest *Chop Moved* card should be played.
 - *Elimination Finesses* apply to **all** types of situations with *Elimination Notes* (including *Double Discard Elimination Notes*). Subsequently, you can more specifically describe an *Elimination Finesse* as a *Discard Elimination Finesse* or a *Double Discard Elimination Finesse*.
 - Note that normal *Finesses* take priority over *Self-Elimination Finesses*. For example, in a 3-player game:
-  - On the stacks, red 2 and blue 2 are played.
+  - Red 2 and blue 2 are played on the stacks.
   - Alice's hand is completely unclued. Alice has *Elimination Notes* on slot 3 and slot 4 for red 3.
   - Cathy clues a number 4 in Alice's slot 1 as a *Self-Finesse*.
   - If Alice's 4 is a blue 4, then this would be a normal *Self-Finesse*, and Alice should blind-play blue 3 from slot 2.

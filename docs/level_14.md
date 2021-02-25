@@ -35,7 +35,7 @@ title: Level 14 - Scholar
 - If players misrepresent the identity of a trash card in this way, it is a signal for the next person to blind-play their *Finesse Position* card. This is extremely similar to how a *Finesse* or a *Bluff* works (e.g. a clued card has been misrepresented as being immediately playable).
 - *Trash Bluffs* are a good tool to get a card played that is sitting behind other annoying cards.
 - For example, in a 3-player game:
-  - On the stacks, all of the 1's are played **except** for red 1.
+  - All of the 1's are played on the stacks **except** for the red 1.
   - Cathy has no clued cards in her hand.
   - Alice clues Cathy number 1, which only touches her newest (slot 1) card. This card is a blue 1, but Cathy will assume that it is a red 1.
   - Bob blind-plays his *Finesse Position* card, and it is a playable blue 2.

@@ -76,7 +76,7 @@ title: Unnecessary Usage of Complicated Moves
 - If a line is chosen that forces a *Gentleman's Discard* to occur (because they have to entertain the possibility of a *Reverse Trash Finesse*), and the blind-playing card could have been clued in some other easier way, then it **still** *Chop Moves* in exactly the same way that an *Unnecessary Reverse Trash Finesse* would.
 - For example, in a 3-player game:
   - This is a slightly modified version of the example given for the *Reverse Trash Finesse*.
-  - The red 1 is played on the stacks. All of the 2's are played on the other stacks.
+  - Red 1 is played on the stacks. All of the 2's are played on the other stacks.
   - Alice clues number 2 to Bob, touching his slot 1 card as a *Play Clue*.
   - From Bob's perspective, this is probably just a *Play Clue* on the red 2 (which happens to be the final 2 that needs to be played).
   - However, Bob sees that Cathy also has a red 2 on her *Finesse Position*. That means that this could be a *Reverse Trash Finesse*.

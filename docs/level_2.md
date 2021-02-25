@@ -30,7 +30,7 @@ title: Level 2 - Novice
 
 - Sometimes, someone can give a *Prompt* that is prompting **two** (or more) cards with one clue, which is pretty good.
 - For example, in a 3-player game:
-  - A red 1 is played on the stacks.
+  - Red 1 is played on the stacks.
   - Alice clues Cathy red, which touches a red 4. This must be a *Play Clue*, because the red 4 is not on chop.
   - Bob has two clued red cards in his hand. Since Alice has indicated that the red 4 must be playable right now, he knows that his two red cards must be a red 2 and a red 3 (in order from left-to-right).
   - Bob plays the left-most card as the red 2. On Bob's next turn, he plays the other red card as the red 3.
@@ -39,7 +39,7 @@ title: Level 2 - Novice
 
 - Typically, *Finesses* are performed by cluing a *one-away-from-playable* card. However, it is possible to get two different people to blind-play their cards in a row if you give a clue to a *two-away-from-playable* card. This is very efficient, as it is a 3-for-1 clue.
 - For example, in a 4-player game:
-  - A red 1 is played on the stacks.
+  - Red 1 is played on the stacks.
   - Alice clues Donald red, which touches a red 4.
   - Bob plays red 2 from his *Finesse Position*.
   - Cathy plays red 3 from her *Finesse Position*.
