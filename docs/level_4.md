@@ -116,9 +116,9 @@ title: Level 4 - Neophyte
 
 - Normally, when a *Finesse* occurs, someone blind-plays right away. This is extremely important, because it resynchronizes the information among the team. So, as a group, we agree to **blind-play our cards as soon as reasonably possible**. This is called *The Urgency Principle*.
 - Thus, if you see that a player does **not** blind-play into the *Finesse*, then you know that the *Finesse* must be **on you**.
-- However, there are some important exceptions:
-  1) Players are allowed to **defer** playing into a *Finesse* if they are doing a *Finesse* of their own (and no-one else on the team could have done it).
-  2) Players are allowed to **defer** playing into a *Finesse* if they are doing something really important, like saving a 5 on chop, giving a *Play Clue* to a card that is about to be discarded, or something along those lines.
+- However, there are two important exceptions:
+  1. Players are allowed to **defer** playing into a *Finesse* if they are doing a *Finesse* of their own (and no-one else on the team could have done it).
+  2. Players are allowed to **defer** playing into a *Finesse* if they are doing something really important, like saving a 5 on chop, giving a *Play Clue* to a card that is about to be discarded, or something along those lines.
 - So, if any of the above two conditions apply, then you have to **wait** and give the player yet another turn to demonstrate whether or not they will blind-play.
 - For example, in a 5-player game:
   - All of the 1's are played on the stacks.

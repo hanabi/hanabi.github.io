@@ -56,12 +56,12 @@ As noted in the [convention changes document](Convention_Changes.md), sometimes 
 - First, see the section on *[Unknown Trash Discharge](#the-unknown-trash-discharge-1-for-1-form-utd)*.
 - Typically, players closely follow *Good Touch Principle*, since duplicating cards is confusing and wastes efficiency on follow-up *Fix Clues*.
 - However, there are still plenty of situations where players will intentionally duplicate a card:
-  1) When it is the first turn of the game (and there is nothing else to do).
-  2) When the team is at 8 clues (and there is nothing else to do).
-  3) When a player is in a *Double Discard Situation* (and there is nothing else to do).
-  4) When the team is losing and nearing the *End-Game* (and *Tempo* on playable cards is really important).
-  5) When the efficiency of getting a *Double Finesse* or *Triple Finesse* outweighs the disadvantage of potentially having to give a *Fix Clue* later.
-  6) When a *Phantom Playable Card* is at risk of being discarded and the preceding cards must be clued as soon as possible.
+  1. When it is the first turn of the game (and there is nothing else to do).
+  2. When the team is at 8 clues (and there is nothing else to do).
+  3. When a player is in a *Double Discard Situation* (and there is nothing else to do).
+  4. When the team is losing and nearing the *End-Game* (and *Tempo* on playable cards is really important).
+  5. When the efficiency of getting a *Double Finesse* or *Triple Finesse* outweighs the disadvantage of potentially having to give a *Fix Clue* later.
+  6. When a *Phantom Playable Card* is at risk of being discarded and the preceding cards must be clued as soon as possible.
 - If a player uses a **color clue** to duplicate a card, and these 6 criteria do not apply, then they must be trying to send an additional message.
 - In this case, they intend for a *Discharge* to communicate the "badness" of the focused card. This is called an *Unknown Dupe Discard* (and works in a very similar way to the *Unknown Trash Discharge*).
 - After an *Unknown Dupe Discard*, the focus of the clue can be any unknown duplicated card. The player will only know which specific duplicated card it is after they discard it. Once they discard it, they should write *Elimination Notes* on the matching cards in their hand.

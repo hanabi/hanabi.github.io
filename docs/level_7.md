@@ -16,14 +16,14 @@ title: Level 7 - Apprentice
 
 - First, read the section on the *[Sarcastic Discard](level_3.md#the-sarcastic-discard)*.
 - To review, the *Sarcastic Discard* is:
-  1) a move that transfers a **clued card** in one person's hand to a **clued card** in another person's hand
-  2) **necessary** to eliminate confusion among the team (because from *Good Touch Principle*, we are not normally supposed to have two copies of the same card "touched" with a clue)
-  3) done with both playable cards and non-playable cards
+  1. a move that transfers a **clued card** in one person's hand to a **clued card** in another person's hand
+  2. **necessary** to eliminate confusion among the team (because from *Good Touch Principle*, we are not normally supposed to have two copies of the same card "touched" with a clue)
+  3. done with both playable cards and non-playable cards
 - It is also possible to "transfer" cards to other players *Finesse Position*. This is called a *Gentleman's Discard* to signify that the other card was completely blind as opposed to having a clue on it already.
 - The *Gentleman's Discard* is:
-  1) a move that transfers a **clued card** in one person's hand to the ***Finesse Position*** of another person's hand
-  2) **not necessary** and does not directly help the team, but may have some helpful side effects
-  3) done with **only playable cards**
+  1. a move that transfers a **clued card** in one person's hand to the ***Finesse Position*** of another person's hand
+  2. **not necessary** and does not directly help the team, but may have some helpful side effects
+  3. done with **only playable cards**
 - For example, in a 3-player game:
   - It is the first turn and nothing is played on the stacks.
   - Alice clues number 1 to Cathy, touching one 1.
@@ -63,8 +63,8 @@ title: Level 7 - Apprentice
   - Bob marks his *Finesse Position* card as red 3. For now, Bob does not have anything else to do, so he discards his chop card.
 - Note that it is illegal to perform a *Layered Baton Discard*; the card **must** be exactly in *Finesse Position*.
 - *Baton Discards* are mostly useful for two main reasons:
-  1) To better satisfy *Team Distribution Principle*. It makes sense to transfer a card out of a locked / almost locked hand to a player with an "empty" hand or a hand that only has one card clued in it.
-  2) You want to protect your own chop. If you discard your chop, the team could be losing some high-value *one-away-from-playable* card. But if you transfer a card to someone else, it gives you something "safe" to do.
+  1. To better satisfy *Team Distribution Principle*. It makes sense to transfer a card out of a locked / almost locked hand to a player with an "empty" hand or a hand that only has one card clued in it.
+  2. You want to protect your own chop. If you discard your chop, the team could be losing some high-value *one-away-from-playable* card. But if you transfer a card to someone else, it gives you something "safe" to do.
 
 ### The Sarcastic Finesse
 

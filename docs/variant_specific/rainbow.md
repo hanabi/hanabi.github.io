@@ -35,9 +35,9 @@ These conventions apply to any variant with a rainbow (touched by all colors) or
   - Alice needs to decide on what clue to give. She does not want to give blue, yellow, or green, since that would cause a *Bad Touch* on the 1's that are already played.
   - That leaves red, purple, and number 3. Since all of these clues would **only** touch the rainbow 3, Alice is said to have a *Free Choice* between those clue types.
   - So, the following things are true:
-    1) Alice is doing a *Prompt* by giving a clue that will only touch rainbow cards
-    2) Alice has red available as a *Free Choice* between two or more clue types
-    3) Bob's rainbow 2 is clued red
+    1. Alice is doing a *Prompt* by giving a clue that will only touch rainbow cards
+    2. Alice has red available as a *Free Choice* between two or more clue types
+    3. Bob's rainbow 2 is clued red
   - Thus, Alice **must** choose red if she wants to prompt the rainbow 2.
 - If a player in this situation chooses **not** choose to match the color, then they must be trying to communicate something extra. This signifies that it is actually a *Finesse* instead of a *Prompt*.
 - For example, in a 3-player game:

@@ -4,9 +4,9 @@ title: Signal Shifting
 ---
 
 - Nearly all clues send a distinct *Signal* about the card that is focused:
-  1) *Play* the card
-  2) *Save* the card
-  3) *Trash* the card (rarely)
+  1. *Play* the card
+  2. *Save* the card
+  3. *Trash* the card (rarely)
 - Certain types of clues (likes *Finesses* or *Bluffs*) can result in *Information Desynchronization*. In order to resynchronize the team, normal *Finesse Position* blind-plays occur. After one or more blind-plays, the initial *Signal* will be sufficiently clarified.
 - But what if a clue is given such that a *Finesse Position* blind-play will **never** clarify the *Signal*?
 - In this situation, we agree that the next player should blind-play a card **other** than their regular *Finesse Position*. By doing so, they will *Shift* the original *Signal* in a fundamental way.

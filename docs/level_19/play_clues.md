@@ -6,8 +6,8 @@ title: Play Clues
 ### The Selfish Clue
 
 - A *Selfish Clue* is when a player:
-  1) has a playable card in their hand (e.g. red 2)
-  2) gives a *Play Clue* to the next connecting card (e.g. red 3)
+  1. has a playable card in their hand (e.g. red 2)
+  2. gives a *Play Clue* to the next connecting card (e.g. red 3)
 - In almost all cases, there is no reason to give a *Selfish Clue*. Players can simply play their playable card and let someone else on the team "get" the next card. Being *Selfish* is typically associated with having bad teamwork.
 - However, in rare cases, giving a *Selfish Clue* can be good.
 - For example, in a 3-player game:
