@@ -38,7 +38,7 @@ title: Unnecessary Usage of Complicated Moves
 
 ### Unnecessary Moves with Unknown Trash (Off-Chop)
 
-- If **unknown trash** is used as a clue target that is off-chop, the "extra" thing is a *Chop Move* (e.g. a *Trash Chop Move*).
+- If **unknown trash** is used as a clue target that is off-chop, the "extra" thing is a *Chop Move*.
 - For example, this would be an *Unnecessary Trash Finesse* in a 3-player game:
   - All of the 2's are played on the stacks except for the red 2.
   - Bob has a red 2 on his *Finesse Position* and no other red cards in his hand. Thus, Alice could give a red clue to Bob in order to "get" the red 2.
@@ -53,15 +53,15 @@ title: Unnecessary Usage of Complicated Moves
 
 ### Unnecessary Moves with Unknown Trash (On-Chop)
 
-- If **unknown trash** is used as a clue target that is on-chop, but the clue **also** touched other trash cards in the hand that were not on chop, then the "extra" thing is a *Chop Move* (e.g. a *Trash Chop Move*), similar to the previous section.
-- If **unknown trash** is used as a clue target that is on-chop, and the clue only touched one card (or all the cards touched were also on chop), then the "extra" thing is a blind-play (e.g. a *Trash Push*).
+- If **unknown trash** is used as a clue target that is on-chop, but the clue **also** touched other trash cards in the hand that were not on chop, then the "extra" thing is a *Chop Move*, similar to the previous section.
+- If **unknown trash** is used as a clue target that is on-chop, and the clue only touched one card (or all the cards touched were also on chop), then the "extra" thing is a blind-play. This blind-play can be from someone's *Finesse Position* or it can be a *Trash Push*, depending on the situation.
 - For example, this would be an *Unnecessary Trash Finesse* in a 3-player game:
   - All of the 2's are played on the stacks except for the red 2.
   - Bob has a red 2 on his *Finesse Position* and no other red cards in his hand. Thus, Alice could give a red clue to Bob in order to "get" the red 2.
   - Cathy's hand is completely unclued.
   - Alice clues number 2 to Cathy, touching a blue 2 on slot 5. (Blue 2 is already played and is therefore trash.)
   - Bob knows that from Cathy's perspective, Alice's clue looks like a *Play Clue* on the final remaining 2 - the red 2. Cathy will go on to misplay the blue 2 as the red 2.
-  - Thus, Bob knows that this is a *Trash Finesse* or *Trash Bluff*. He blind-plays his *Finesse Position* card. It is a red 2 and it successfully plays.
+  - Thus, Bob knows that this is a *Trash Finesse*. He blind-plays his *Finesse Position* card. It is a red 2 and it successfully plays.
   - Cathy now knows that her 2 is trash (since Bob blind-played in response to the clue). However, Cathy also knows that this *Trash Finesse* was *unnecessary*, as Alice could have just clued red to Bob.
   - Thus, Cathy knows that this is an *Unnecessary Trash Finesse*. Normally, she would *Chop Move* something, but the focus of the clue was already on her chop. Cathy instead blind-plays her slot 4 as a *Trash Push*.
 
