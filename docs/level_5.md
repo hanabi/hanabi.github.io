@@ -7,7 +7,7 @@ title: Level 5 - Intermediate Finesses
 
 <br />
 
-## Special Movies
+## Special Moves
 
 ### Prompts in Multi-Color Variants
 
