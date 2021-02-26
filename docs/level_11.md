@@ -73,7 +73,7 @@ title: Level 11 - Intermediate Bluffs
 
 ### The Hard Bluff
 
-- First, see the section on *[Cathy's Match Principle](level_8.md#cathys-match-principle-part-2)*.
+- First, see the section on *[Cathy's Match Principle](level_9.md#cathys-match-principle-part-2)*.
 - Sometimes, it can be ambiguous as to whether a player blind-played a card into a *Bluff*, or they blind-played into a *Finesse* + *Prompt*. In this situation, *Occam's Razor* applies, so players should go with the *Bluff* interpretation, since it is simpler. When such a *Bluff* occurs, it is called a *Hard Bluff* to disambiguate from situations where *Bluffs* happen with no ambiguity.
 - For example, this is a *Finesse* + *Prompt* and **not** a *Hard Bluff*:
   - Only red 1 is played on the stacks.
