@@ -65,9 +65,9 @@ title: Level 18 - Advanced Moves
   * Bob knows that this could be an *Out-of-Order Finesse*. Specifically, if Bob gives a follow-up number 5 *Fix Clue* to Cathy, then Cathy would play the red 1, Cathy would play the red 2, Bob would blind-play the red 3, Cathy would play the red 4, and then Cathy would play the red 5.
   * Since this line only requires that Bob blind-plays 1 card, he knows that it cannot be a *5 Color Ejection*, so Bob performs the *Fix Clue* to allow for the *Out-of-Order Finesse*.
 
-### The Suboptimal Save Prompt & The Suboptimal Save Finesse & The Suboptimal Save Bluff
+### The Suboptimal Prompt & The Suboptimal Finesse & The Suboptimal Bluff
 
-- If the other copy of a card is in the trash already, then the remaining copy needs to be saved. These cards are allowed to be saved with either a color clue or a number clue.
+- If the other copy of a card is in the trash, then the remaining copy is critical and needs to be saved. Critical cards of this nature can be saved with either a color clue or a number clue.
 - If both types of clues will **only** introduce one new card, then it is said that that there is a *Free Choice* between the two clue types.
 - In this situation, the clue type will be chosen that "fills in" other ancillary cards in the hand or gives important negative information.
 - If a clue type is chosen that is **clearly worse** than the other one, then the clue giver must be trying to communicate something extra.

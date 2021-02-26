@@ -89,7 +89,7 @@ title: Convention Attribution
 | The Composition Discard | Libster
 | The Negative Self-Chop Move | Libster
 | The Declined 5's Finesse | Zamiel
-| The Suboptimal Save Prompt & The Suboptimal Save Finesse | Zamiel
+| The Suboptimal Finesse | Zamiel
 | The Inverted Priority Finesse | Zamiel
 | The Trash Pull | Libster
 | The Paused Priority Finesse | Asddsa
