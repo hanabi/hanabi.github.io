@@ -16,4 +16,4 @@ title: Signal Shifting
 
 ![Signal Shifting](/img/signal_shifting.png)
 
-- This chart shows some existing *Signal Shift* conventions and how they relate to the three *Signals*. These moves are described in more detail later on.
+- This chart shows some existing *Signal Shift* conventions and how they relate to the three *Signals*.
