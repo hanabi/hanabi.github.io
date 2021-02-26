@@ -3,27 +3,6 @@ id: special_bluffs
 title: Special Bluffs
 ---
 
-### The Hard 4 Double Bluff
-
-- Similar to a *Hard 3 Bluff*, it is also possible to perform a *Hard 4 Double Bluff*.
-- For example, in a 4-player game:
-  - No cards are played on the stacks.
-  - Alice clues number 4 to Donald, touching a red 4 as a *Play Clue*.
-  - Bob blind-plays red 1 from his *Finesse Position*.
-  - Cathy blind-plays red 2 from her *Finesse Position*.
-  - Even though red 1 and red 2 are the same suit as the red 4, the team knows that no-one is promised the red 3.
-
-### The Hard 5 Double Bluff
-
-- Similar to a *Hard 3 Bluff* and a *Hard 4 Double Bluff*, it is also possible to perform a *Hard 5 Double Bluff*.
-- For example, in a 5-player game:
-  - It is the *Mid-Game* and all the 1's are played on the stacks.
-  - Alice clues number 5 to Emily, touching a red 5 as a *Play Clue*.
-  - Bob blind-plays a red 2 from his *Finesse Position*.
-  - Cathy blind-plays a red 3 from her *Finesse Position*.
-  - Donald sees that no-one else has any red cards in their hand. Thus, if this was a *Triple Finesse* on the red 5, then Donald should blind-play the red 4 right now.
-  - However, Donald also knows that 5's are valid *Double Bluff* targets. Since number 3 does not match number 5, Donald knows that he should prefer the *Double Bluff* interpretation (that gets two blind-plays) over the *Triple Finesse* interpretation (that gets three blind-plays).
-
 ### Self Color Bluffs (1-for-1 Form) (SCB)
 
 - It is possible (and fairly common) to perform a *Self-Bluff* on a player with a rank clue.
