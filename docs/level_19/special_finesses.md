@@ -18,10 +18,6 @@ title: Special Finesses
   - Cathy discards.
   - Alice blind-plays red 2.
 
-### The Layered Priority Finesse
-
-- Similar to a normal *Layered Finesse*, it is also possible to initiate a *Layered Priority Finesse* as long as the blind-playing player is not the very next person.
-
 ### The Bad Touch Layered Finesse that Causes a Blind-Play of a Known Dupe (Dupe Bluffs / Bluff Dupes)
 
 - If a player performs a *Bluff* that causes a blind-play of a globally-known duplicated card, that is quite strange. Doing this is not very good, as it violates *Good Touch Principle* and does not accomplish very much in general.
