@@ -40,7 +40,7 @@ module.exports = {
             'extras/chop_moves',
             'extras/special_finesses',
             'extras/special_bluffs',
-            'extras/special_suboptimal_moves',
+            'extras/suboptimal_moves',
             'extras/pushes_pulls',
             'extras/signal_shifting',
             'extras/ejections',

@@ -1,11 +1,15 @@
 ---
-id: special_suboptimal_moves
-title: Special Suboptimal Moves
+id: suboptimal_moves
+title: Suboptimal Moves
 ---
 
-These are *Finesses* or *Bluffs* that are triggered by performing a suboptimal clue or by picking a strange choice for a clue.
+These are *Finesses* that are triggered by performing a suboptimal clue or by picking a strange choice for a clue.
 
 <br />
+
+### The Suboptimal Finesse
+
+- The *Suboptimal Finesse* is covered at [level 18](level_18.md#the-suboptimal-save-prompt--the-suboptimal-save-finesse--the-suboptimal-save-bluff).
 
 ### The Declined 5's Finesse
 
