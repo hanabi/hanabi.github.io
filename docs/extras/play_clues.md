@@ -3,24 +3,6 @@ id: play_clues
 title: Play Clues
 ---
 
-### The Selfish Clue
-
-- A *Selfish Clue* is when a player:
-  1. has a playable card in their hand (e.g. red 2)
-  2. gives a *Play Clue* to the next connecting card (e.g. red 3)
-- In almost all cases, there is no reason to give a *Selfish Clue*. Players can simply play their playable card and let someone else on the team "get" the next card. Being *Selfish* is typically associated with having bad teamwork.
-- However, in rare cases, giving a *Selfish Clue* can be good.
-- For example, in a 3-player game:
-  - All the 1's are played on the stacks.
-  - Alice has a globally-known playable red 2 in her hand.
-  - Bob hand is as follows, from newest to oldest: `blue 1, red 3, red 4, red 5, blue 1`
-  - Both Bob and Cathy has a safe discard.
-  - Alice knows that on this turn, she is expected to play the red 2, unless she has a really good clue to give.
-  - Alice sees that if she plays the red 2, then Bob will probably have nothing to do, and will go on to discard the blue 1.
-  - At that point, the red 5 will be on chop, and it will be difficult for the team to get all of the red cards. Specifically, someone will probably have to give a number 3 clue to Bob as a 1-for-1 on the red 3.
-  - Alice sees that if she gives a red clue to Bob *right now* (e.g. before she plays the red 2), then she will be able to "lock-in" a nice 3-for-1 clue. Even though the team will lose *Tempo*, this will be inconsequential because Bob has a safe discard and Cathy has a safe discard.
-  - Alice clues red to Bob as a *Selfish Play Clue*.
-
 ### The Negative 5's Tempo Clue (or Inverted 5's Tempo Clue)
 
 - Normally, if a color clue "fills in" a 5 (that was previously touched), and the clue touches no other cards in the hand, then it is obviously focused on the 5 - the 5 is playable right now.
