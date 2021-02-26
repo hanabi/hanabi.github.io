@@ -52,7 +52,7 @@ title: Level 19 - Ignition
 
 - If the known trash clue cannot be either of these two things, then it communicates a *Trash Double Ignition*.
 - Players should always assume a *Trash Double Ignition* over a *Bad Trash Chop Move Ejection*, since the latter is very rare. (*Bad Trash Chop Move Ejection* is an advanced move that is covered later on.)
-- Also, see the section on [Trash Ejection](level_19/ejections.md#trash-ejection).
+- Also, see the section on [Trash Ejection](extras/ejections.md#trash-ejection).
 
 ### Replay Double Ignition
 
@@ -61,7 +61,7 @@ title: Level 19 - Ignition
 - If a player is not in a stalling situation, then they must be trying to send a deeper message - a *Double Ignition*. This is called a *Replay Double Ignition* because you are re-giving a *Play Clue*.
 - The *Replay Double Ignition* must not introduce any new cards as part of the clue.
 - The *Replay Double Ignition* can be performed all throughout the game. (Conversely, the *Trash Double Ignition* can only be performed towards the end of the game.)
-- Also, see the section on [Replay Ejection](level_19/ejections.md#replay-ejection).
+- Also, see the section on [Replay Ejection](extras/ejections.md#replay-ejection).
 
 ### Poke Double Ignition
 
@@ -70,4 +70,4 @@ title: Level 19 - Ignition
 - If a player is not in a stalling situation, then they must be trying to send a deeper message - a *Double Ignition*. This is called a *Poke Double Ignition* because by re-touching a trash card, it is like you are poking the player.
 - The *Poke Double Ignition* must not introduce any new cards as part of the clue.
 - The *Poke Double Ignition* can be performed all throughout the game. (Conversely, the *Trash Double Ignition* can only be performed towards the end of the game.)
-- Also, see the section on [Poke Ejection](level_19/ejections.md#poke-ejection).
+- Also, see the section on [Poke Ejection](extras/ejections.md#poke-ejection).
