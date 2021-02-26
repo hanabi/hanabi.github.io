@@ -30,6 +30,7 @@ module.exports = {
         'level_20',
         'level_21',
         'level_22',
+        'level_23',
         {
           'Extras': [
             'extras',
