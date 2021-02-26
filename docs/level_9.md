@@ -1,6 +1,6 @@
 ---
 id: level_9
-title: Level 9 - Bluffs
+title: Level 9 - Special Discards
 ---
 
 - Level 9 strategies should only be learned if you have 140+ games of experience with the group.
@@ -9,189 +9,145 @@ title: Level 9 - Bluffs
 
 ## Special Moves
 
-### The Bluff
+### The Gentleman's Discard
 
-- *Finesses* are quite efficient. So, when you see a playable card in someone's *Finesse Position* slot, you will often want to "get" the card with a *Finesse* (instead of cluing it directly). However, often times, the proper "connecting" card is not on the table.
-- In this situation, players can perform an alternate strategy by fibbing to the next player. By cluing an unrelated, *one-away-from-playable* card, the next player will think that it is a *Finesse* and that they have the matching card. Then, they will blind-play their *Finesse Position* card. This is called a *Bluff*.
-- After the card is blind-played, the player who received the clue will realize that something strange has happened - the type of clue **did not match** the card that was blind-played. Thus, the clued card is not currently playable and must be a *one-away-from-playable* card.
+- First, see the section on the *[Sarcastic Discard](level_3.md#the-sarcastic-discard)*.
+- To review, the *Sarcastic Discard* is:
+  1. a move that transfers a **clued card** in one person's hand to a **clued card** in another person's hand
+  2. **necessary** to eliminate confusion among the team (because from *Good Touch Principle*, we are not normally supposed to have two copies of the same card "touched" with a clue)
+  3. done with both playable cards and non-playable cards
+- It is also possible to "transfer" cards to other players *Finesse Position*. This is called a *Gentleman's Discard* to signify that the other card was completely blind as opposed to having a clue on it already.
+- The *Gentleman's Discard* is:
+  1. a move that transfers a **clued card** in one person's hand to the ***Finesse Position*** of another person's hand
+  2. **not necessary** and does not directly help the team, but may have some helpful side effects
+  3. done with **only playable cards**
 - For example, in a 3-player game:
-  - All the 2's are played on the stacks.
-  - Alice clues Cathy red, which touches a red 4 as a *Play Clue*.
-  - Next, it is Bob's turn. Bob sees that, with this red clue, Cathy has just been signaled that she has the red 3.
-  - From Bob's perspective, this looks like a *Finesse* - if Bob does not blind-play the red 3 right now, Cathy will go on to misplay the red 4 as the red 3.
-  - Bob blind-plays his slot 1 card, expecting it to be a red 3. Instead, it is a blue 3, and it successfully plays on the stacks. Bob now knows that he was *Bluffed* by Alice.
-  - Next, Cathy sees that Bob just blind-played a blue 3 immediately after this red clue, so she knows that she must have a *one-away-from-playable* red card - the red 4. Cathy holds on to the red 4 for later and discards.
-- Except in rare circumstances, ***Bluffing* is only permissible when you are the person directly before the player who is blind-playing a card**. This is called being in *Bluff Seat*. Do not *Bluff* unless you are in *Bluff Seat*! (This follows from *[Lie Principle](first_principles.md#8-lie-principle)*.)
+  - It is the first turn and nothing is played on the stacks.
+  - Alice clues number 1 to Cathy, touching one 1.
+  - Bob clues red to Cathy, filling in the already-touched 1 as red 1, as well as touching a new card, which must be red 2.
+  - Cathy discards the known red 1 as a *Gentleman's Discard*.
+  - Alice blind-plays her *Finesse Position* card as red 1.
+- Often times, doing a *Gentleman's Discard* will delay things and cost the team *Tempo*. Thus, a *Gentleman's Discard* that slows things down is only good if there is some other side benefit to offset the lost *Tempo* (such as delaying the discard of a valuable card, for example).
+- Just like how *Prompts* take precedence over *Finesses*, *Sarcastic Discards* take precedence over *Gentleman's Discards*.
+- For the purposes of *Priority*, *Gentleman's Discards* do not count as a blind-play. (*Priority* is a concept that is introduced in a later level.) This is because the *Gentleman's Discard* is an information-symmetric move and nothing needs to be "proven" to other members of the team.
 
-### Bluffs Through Already-Clued Cards
+### The Layered Gentleman's Discard
 
-- It is also permissible to *Bluff* "through" cards that are already clued. This can be better than a normal *Bluff*, because in addition to getting the blind-play, it also can give information to the player with the in-between card.
-- For example, in a 4-player game:
-  - All the 1's are played on the stacks.
-  - Bob has nothing clued in his hand.
-  - Cathy has a red 3 clued in her hand with just a number 3. She does not know what color it is.
-  - Alice clues Donald red, which touches one red 4 as a *Play Clue*.
-  - Bob knows that he must have the red 2. If he blind-plays the red 2 (as a *Finesse*), then Cathy will play the red 3 (as a *Prompt*), and Donald will play the red 4.
-  - Bob plays his *Finesse Position* card as red 2. Instead, it is a blue 2 and it successfully plays.
-  - From Cathy's perspective, she knows that the red 4 is *two-away-from-playable* instead of *one-away-from-playable*. *Bluffs* on *two-away-from-playable* cards are normally illegal. Thus, Cathy's mystery 3 must be exactly red 3, making the red 4 *one-away-from-playable* after all.
-  - Cathy discards.
-  - From Donald's perspective, since red (the type of clue that was given) does not match blue (the card that was blind-played), this must be a *Bluff*. Normally, since the red 1 is currently played on the stacks, Donald would think that he has the red 3 (e.g. the *one-away-from-playable* red card).
-  - However, Cathy already has a clued red 3 in her hand. If Donald also had a red 3, then Alice's clue would be violating *Good Touch Principle*. Thus, Donald must have the red 4 instead.
-- Sometimes, the player who has the in-between card might have more than one "matching" clued card. In this situation, the player is promised that they have the in-between card, but they are not promised the position - it can be any of the matching clued cards.
+- First, see the section on the *[Gentleman's Discard](#the-gentlemans-discard)*.
+- One great reason to want to do a *Gentleman's Discard* is if the card you are discarding is also behind playable cards. This is similar to a *Layered Finesse*, only it was initiated by a discard instead of a clue.
+- For example, in a 3-player game:
+  - It is the first turn and nothing is played on the stacks.
+  - Alice clues number 1 to Cathy, touching one 1.
+  - Bob clues red to Cathy, filling in the already-touched 1 as red 1, as well as touching a new card, which must be red 2.
+  - Cathy discards the known red 1 as a *Gentleman's Discard*.
+  - Alice blind-plays her *Finesse Position* card as red 1, but it is green 1.
+  - Alice knows that she is promised the red 1, so she will blind-play her slot 2 on her next turn.
+
+### The Baton Discard
+
+- First, see the section on the *[Gentleman's Discard](#the-gentlemans-discard)*.
+- When a *Gentleman's Discard* happens, it transfers a playable card to someone else's hand. But players are also allowed to transfer unplayable cards that they happen to know the full identity of. We call this a *Baton Discard* to distinguish it from the more-ordinary *Gentleman's Discard*.
+- Just like a *Gentleman's Discard*, a *Baton Discard* promises that the card is exactly on someone else's *Finesse Position*.
+- For example, this would be a *Gentleman's Discard* in a 3-player game:
+  - Red 2 is played on the stacks.
+  - Alice discards a known red 3.
+  - Bob does not have any clued cards in his hand.
+  - Bob looks at Cathy's hand and does not see the red 3. Thus, he knows that he has it.
+  - Bob blind-plays his *Finesse Position* card and it is the red 3 and successfully plays.
+- For example, this would be a *Baton Discard* in a 3-player game:
+  - Red 1 is played on the stacks.
+  - Alice discards a known red 3.
+  - Bob does not have any clued cards in his hand.
+  - Bob looks at Cathy's hand and does not see the red 3. Thus, he knows that he has it.
+  - Bob marks his *Finesse Position* card as red 3. For now, Bob does not have anything else to do, so he discards his chop card.
+- Note that it is illegal to perform a *Layered Baton Discard*; the card **must** be exactly in *Finesse Position*.
+- *Baton Discards* are mostly useful for two main reasons:
+  1. To better satisfy *Team Distribution Principle*. It makes sense to transfer a card out of a locked / almost locked hand to a player with an "empty" hand or a hand that only has one card clued in it.
+  2. You want to protect your own chop. If you discard your chop, the team could be losing some high-value *one-away-from-playable* card. But if you transfer a card to someone else, it gives you something "safe" to do.
+
+### The Sarcastic Finesse
+
+- First, see the section on the *[Sarcastic Discard](level_3.md#the-sarcastic-discard)*.
+- Imagine that in a 3-player game:
+  - Nothing is played on the stacks.
+  - Alice has an already-clued 2 in her hand. She has no idea what color 2 it is.
+  - Alice performs a *Finesse* by giving a red color *Play Clue* to a red 2 in Cathy's hand.
+  - Bob blind-plays red 1 from his *Finesse Position*.
+  - Normally, Cathy would think that she has the next red card, which is red 2, and play it.
+  - However, what if Alice actually has the red 2? In this situation, Cathy is expected to perform a *Sarcastic Discard*.
+- Doing a *Finesse* that potentially duplicates a card in this way is called a *Sarcastic Finesse*. Normally, potentially duplicating a card is bad - it violates *Good Touch Principle* and could lead to a clue being wasted. However, potentially duplicating a card with the *Sarcastic Finesse* is not bad because:
+  - In the best case, you get a "true" *Finesse* (a 2-for-1 or better).
+  - In the worst case, you get a 1-for-1 and full knowledge on a clued card in your own hand that was previously a mystery.
+  - On average, this is a 1.5-for-1, which satisfies *Minimum Clue Value Principle*.
+
+### The Certain Finesse & The Certain Discard
+
+- First, see the section on the *[Sarcastic Finesse](#the-sarcastic-finesse)*.
+- Imagine that in a 3-player game:
+  - Red 2 is played on the stacks.
+  - Alice has an already-clued red card in her hand. It has a negative 4 clue on it, so from *Good Touch Principle* Alice knows that it is either red 3 or red 5.
+  - Alice performs a *Reverse Finesse* by giving a red color *Play Clue* to a red 4 in Bob's hand.
+  - Bob discards.
+  - Cathy knows that she is promised the red 3 in her *Finesse Position*.
+- This is an example of a *Certain Finesse* - it is similar to the *Sarcastic Finesse* above, but the "blind" card was potentially duplicated instead of the clued card.
+- In this situation, if Alice really has the red 3, Cathy is allowed to blind-discard their *Finesse Position* card. This is called a *Certain Discard*, because Cathy can be certain that it is exactly red 3.
+- A separate way to explain this convention is that everyone agrees that performing a *Layered Finesse* on a card that could potentially be clued in your own hand is illegal. So, everyone can be certain that they can safely blind discard a card to pass it back to someone who potentially duplicated. (*Layered Finesses* are an advanced type of *Finesse* that was explained above.)
+- Note that players are **only allowed** to do a *Certain Discard* if they know they have not been *Bluffed*. This means that *Certain Finesses* **cannot be performed** from *Bluff Seat*. (*Bluffs* are an advanced kind of move that is covered later on.)
+
+### The Composition Finesse
+
+- First, see the section on the *[Sarcastic Finesse](#the-sarcastic-finesse)* and the *[Certain Finesse](#the-certain-finesse)*.
+- Sometimes, a move can be both a *Sarcastic Finesse* and a *Certain Finesse* at the same time. When this occurs, it is called a *Composition Finesse*.
+- For example, in a 3-player game:
+  - All of the 2's are played on the stacks.
+  - Alice has a card in her hand with a red clue on it. It could be either red 3, red 4, or red 5.
+  - Alice clues red to Bob, touching a red 4 as a *Play Clue*.
+  - Bob discards.
+  - Cathy knows that she has the red 3 on her *Finesse Position* (as a *Certain Finesse*). She can *Certain Discard* it if Alice has the red 3. But Alice does not have the red 3, so Cathy blind-plays the red 3.
+  - Alice discards.
+  - Bob knows that his red card is a red 4 (as a *Sarcastic Finesse*). He can *Sarcastic Discard* it if Alice has the red 4. But Alice does not have the red 4, so Bob plays the red 4.
 
 <br />
 
 ## General Principles
 
-### Bob's Truth Principle (Part 1)
+### Context
 
-- Sometimes, a player will give a clue that looks like it could be either a *Finesse* or a *Bluff*. Between these two moves, which should have precedence?
-- For example, in a 4-player game:
-  - All of the 1's are played on the stacks.
-  - Cathy has a blue 2 on her *Finesse Position*.
-  - Alice clues blues to Donald, highlighting a blue 3 as a *Play Clue*.
-  - Now, it is Bob's turn.
-- What to think **depends** on whether you are Bob or whether you are someone else on the team.
-- First, let's consider the case of Bob, the very next player. Bob should **always assume a *Finesse* over a *Bluff***. From his perspective:
-  - Bob knows that if this is a *Finesse*, then Cathy will blind-play the blue 2, and then Donald will know that he has the blue 3. If this is the case, Bob should not do anything special.
-  - Bob also knows that if this is a *Bluff*, then Bob should blind-play his *Finesse Position* card immediately.
-  - Bob knows that if there is any way that this could be a *Finesse* (the truth), he should **assume that the truth is being told**. Thus, Bob knows that it must be a *Finesse* on Cathy and should not blind-play anything.
-- This is called *Bob's Truth Principle*, because Bob always assumes the truth over a *Lie*.
+- If you are reading this section, you are presumably a more-experienced Hanabi player who has the fundamentals down. So, now is a good time to clear up a potential misconception that you may have about the Hyphen-ated conventions.
+- Up until now, you may have the impression that the group has a lot of conventions, and that if you just memorize all of the conventions, you will become a really good Hanabi player. Or, you may have the impression that the conventions are like laws and that you must always follow them. Neither of these things are true.
+- *Context* is defined as all of the meta-information about the game state. In intermediate and expert games, when determining what a clue means, players must **always** take into account the full context of the game. This means that figuring out what a clue means is never truly as easy as following one of the flowcharts listed on the website.
+- When writing the strategy documentation, it would be distracting to constantly write the word "probably" and to constantly write "this may not apply in all situations" all over the place. For advanced players, this is obvious - Hanabi is complicated enough such that every convention is meant to be broken if the particular situation demands it.
+- Thus, players need to read the reference documentation with **a grain of salt**, especially when it says the word "always". Even though this website outlines the "correct" thing to do in a lot of situations, these are not hard and fast rules. Rather, they are intended to show the "default" or "common" case. Memorizing the default cases is really helpful, for intermediate and advanced players alike. But players have to always remember to keep their brain fully engaged on the particular situation.
 
-### Cathy's Match Principle (Part 2)
+### Misplay Cost Principle
 
-- First, see the section on *[Bob's Truth Principle](#bobs-truth-principle-part-1)*.
-- Previously, we considered the case of Bob before he blind-played a card.
-- Now, we can consider the case of Bob **after** he has blind-played a card, which also extends to Cathy and every other player on the team. How does everyone know whether Alice did a *Finesse* or a *Bluff* on Bob?
-- The way to find out is to look at **whether the card that blind-played "matches" the clue that was given**. If the clue matches, then it is a *Finesse*. If the clue did not match, then it is a *Bluff*.
-- This is called *Cathy's Match Principle* in order to highlight that everyone needs to assume different things than Bob did (before he blind-played anything).
-- If it is ambiguous whether or not the card matches, then everyone should **assume a *Bluff* over a *Finesse***. Note that this is the **opposite** of the precedence in *Bob's Truth Principle*!
-- Example 1 (color match):
-  - Red 1 is played on the stacks.
-  - Alice clues Cathy red, touching a red card as a *Play Clue*.
-  - Bob blind-plays a red 2.
-  - This must be a *Finesse*, because **red matches red**. So Cathy should think that she has the red 3.
-  - This is a textbook *Finesse*; it can't get any more basic than this.
-- Example 2 (color mismatch):
-  - Red 1 is played on the stacks.
-  - Alice clues Cathy red, touching a red card as a *Play Clue*.
-  - Bob blind-plays a blue 1.
-  - This must be a *Bluff*, because **blue does not match red**. So Cathy should think that she has the *one-away-from-playable* red card, the red 3.
-  - This is a textbook *Bluff*; it can't get any more basic than this.
-- Example 3 (rank match):
-  - Red 2 is played on the stacks.
-  - Alice clues Cathy number 4, touching a 4 as a *Play Clue*.
-  - Bob blind-plays the red 3.
-  - This must be a *Finesse*, because **3 matches 4**. So Cathy should think that she has the red 4.
-- Example 4 (rank mismatch):
-  - Red 2 is played on the stacks.
-  - Alice clues Cathy number 4, touching a 4 as a *Play Clue*.
-  - Bob blind-plays the blue 1.
-  - This could be a *Triple Finesse* (on blue 1 + blue 2 + blue 3 into blue 4) or it could be a *Bluff* (on just blue 1 into red 4).
-  - However, this must be a *Bluff*, because **1 does not match 4**. So Cathy should think that she has the *one-away-from-playable* 4, the red 4.
-  - The point of this example is to show that because a 2 happens to be played on the stacks, the blue 4 is a *one-away-from-playable* card and therefore becomes a legal *Bluff* target.
-- Example 5 (rank mismatch where a *Bluff* is impossible):
-  - This is a 4-player game.
-  - Nothing is played on the stacks.
-  - Alice clues Donald number 4, touching a 4 as a *Play Clue*.
-  - Bob blind-plays the red 1.
-  - Cathy discards.
-  - Donald needs to evaluate whether or not Alice's clue is a *Finesse* or a *Bluff*. However, he knows that it **cannot** be a *Bluff*, because there are no *one-away-from-playable* 4's. So even though **1 does not match 4**, this must be a *Finesse*, because Alice is not allowed to perform a *Bluff* with any card that she wants.
-  - Donald does not see any other red cards in Bob's hand. So Donald should think that he has the red 4, because that would match the blind-play of a red 1. Subsequently, Donald must have red 2 on his *Finesse Position* and red 3 on his *Second Finesse Position*.
-- Example 6 (rank match where a *Finesse* is impossible):
-  - Red 2 and blue 2 is played on the stacks.
-  - Alice clues Cathy number 4, touching a 4 as a *Play Clue*.
-  - Bob blind-plays the blue 3.
-  - Normally, Cathy would think that this is a *Finesse*, because **3 matches 4**, meaning that Cathy's 4 is the blue 4.
-  - However, Cathy notices that her 4 has a negative blue clue on it. Thus, it cannot be the blue 4.
-  - This must instead be a *Bluff*. Cathy marks her 4 as the red 4 (since red 4 is the only other *one-away-from-playable* 4).
-- Example 7 (color match with rainbow):
-  - This is a game with a rainbow suit. (The other examples in this section assume a "No Variant" game.)
-  - Rainbow 1 is played on the stacks.
-  - Alice clues Cathy red, touching a red card as a *Play Clue*.
-  - Bob blind-plays a rainbow 2.
-  - This must be a *Finesse*, because **red matches red** (rainbow cards match every color). So Cathy should think that she has the rainbow 3.
-- Example 8 (color match with rainbow where a *Finesse* is impossible):
-  - This is a game with a rainbow suit. (The other examples in this section assume a "No Variant" game.)
-  - Rainbow 1 and red 2 are played on the stacks.
-  - Alice clues Cathy red, touching a red card as a *Play Clue*.
-  - Bob blind-plays a rainbow 2.
-  - Normally, Cathy would think that this is a *Finesse*, because **red matches red** (rainbow cards match every color), meaning that Cathy's red card is the rainbow 3.
-  - However, Cathy notices that her red card has a negative blue clue on it. Thus, it cannot be the rainbow 3.
-  - This must instead be a *Bluff*. Cathy marks her red card as the red 4 (since the red 4 is the *one-away-from-playable* red card).
+- On a turn where a player misplays and accumulates a strike for the team, they could have discarded instead and generated a clue.
+- So, if you can spend one clue to stop one misplay, the value comes out even.
+- Thus, since there are only 2 strikes allowed and accumulating strikes limits flexibility, it is almost always worth it to spend one clue to stop one strike.
+- If it would require two clues to stop an impending misplay, then as long as the strike would not lose the game, it is usually best to let the player misplay the card and get a strike.
 
-### Guide Principle
+### Team Distribution Principle
 
-- Part of Hanabi involves making sure that if you perform an action, someone else on the team won't discard anything important (e.g. *Save Principle*). Additionally, part of Hanabi involves accounting for all the possibilities (e.g. *Schrödinger's Cat Principle*).
-- Combined, these two principles usually result in players taking the most conservative possible approach, even if a certain action would have a very low risk of losing the game.
-- One exception to the above rules is when Bob is playing into either a *Finesse* or a *Bluff*. In this case, Bob knows that Alice is "guiding" him and he does not have to worry about Cathy's chop card. If Alice needs Bob to save Cathy's chop card, then Alice would wait until later to perform the *Finesse* or *Bluff*.
-- For example, in a 3-player game:
-  - No cards are played on the stacks.
-  - Alice clues red to Donald, touching a red 2 as a *Play Clue*.
-  - Bob does not see any red 1's in anyone else's hand. Thus, Bob knows that Alice intends for him to blind-play a card.
-  - From Bob's perspective, it can be either a *Finesse* (on exactly red 1) or a *Bluff* (on the 1 of any of the other suits).
-  - Cathy has a critical 5 on chop.
-  - Should Bob risk blind-playing or should he save the 5?
-  - Normally, Bob would play it safe and save the 5. However, in this case, he knows that *Guide Principle* applies, and Alice is guiding him to play right now.
-  - Bob blind-plays his *Finesse Position*. It is the red 1 and it successfully plays.
-  - Cathy does not discard since Alice saw that Cathy had something to clue.
-
-### Clue Interpretation & Occam's Razor
-
-- First, see the section on [Schrödinger's Cat Principle](level_4.md#schrödingers-cat-principle).
-- When a clue could have multiple interpretations, usually *Schrödinger's Cat Principle* is involved - players must wait a round and see what their teammates do in order to find out the true meaning of the clue. But what if a clue could have multiple interpretations and a player does **not** have to wait for information from anyone else?
-- For example:
-  - Alice gives a weird clue to Cathy.
-  - Bob does not see any "matching" cards in anybody else's hands, so he can rule out a *Prompt* and he can rule out a *Reverse Finesse*.
-- In this situation, we would say that Bob is the *reacting player*. If a *reacting player* does not "react" to a clue in some demonstrable way, then someone else on the team will go on to misplay a card. So, the *reacting player* has to immediately decide what the clue means and perform the resulting action.
-  - In some situations, there can be two *reacting players* in a row. For example, if Alice clues a *two-away-from-playable* card, then Bob must react **and** Cathy must react.
-- So how does a *reacting player* figure out what the clue means? They should use *Occam's Razor* - always assume the simplest possible interpretation.
-
-1. Assume a direct *Play Clue* or a *Delayed Play Clue* (if it could be possible that no *Prompts* & no blind-plays are involved).
-2. Assume a *Prompt* (if it could be possible that no blind-plays are involved).
-3. Assume a *Finesse* (or a *Prompt* + *Finesse*) over a *Bluff*.
-4. Assume the "move" that results in the least number of blind-plays.
-    - In general, this means assuming a one-blind-play *Bluff* over a two-blind-play *Finesse*. But keep in mind that only certain cards are legal *Bluff* targets - you can't just do a *Bluff* with any card.
-5. Assume the "move" that results in the least number of *Prompts*.
-    - This means that if something could be either a one-blind-play *Finesse* **or** a one-blind-play *Finesse* with a *Prompt* involved, then the pure *Finesse* is simpler and you should assume that.
+- In general, it is better for useful cards to be distributed **evenly** throughout the team. This is especially important in 5-player games.
+- Thus, if one of your teammates has 3 out of 4 cards clued, it may be better for **them** to be the one giving the clues, and you to be the one discarding - even if their chop is known trash.
+- There are multiple reasons for this. First, you don't want them to get a *Locked Hand*, which is generally bad. Second, if they continue to draw playable cards, the game may end before they get a chance to play them all.
 
 <br />
 
 ## Common Mistakes
 
-### Bluff Seat and the Pang of Guilt
+### The Double Gentleman's Discard (Illegal)
 
-- As mentioned in the section on *Bluffs*, you are in *Bluff Seat* for a certain player if you are immediately before them.
-- Before cluing a card directly, you should first consider if the card is on *Finesse Position*. If it is, and you clue it directly, you may be "stealing" someone's *Finesse* or *Bluff*.
-- Thus, in this situation, it may be better to discard and let the player in *Bluff Seat* get the card. If you do decide to clue the card directly, you should always feel a *Pang of Guilt*.
-
-### Mistaking a Layered Finesse for a Bluff
-
-- First, see the section on the *[Layered Finesse](level_5.md#the-layered-finesse)*.
-- Sometimes, players only play one card into a *Layered Finesse*, and then stop (when they should instead be digging for the promised card).
-- To tell the difference between a *Layered Finesse* and a *Bluff*, simply look at the *Bluff Seat*:
-  - If the player was in *Bluff Seat*, then it is a *Bluff*.
-  - If the player was not in *Bluff Seat*, then it is a *Layered Finesse*.
-
-### Bluff Prompts / Prompt Bluffs (Illegal)
-
-- It is illegal to trick players into thinking that they are *Prompted*. *Prompts* **must** be the truth.
-- For example, in a 4-player game:
+- Normally, when a player performs a *Gentleman's Discard*, they know the **exact** identity of the card that they are discarding.
+- However, sometimes a *Gentleman's Discard* can occur where, from your perspective, the card could have been two different things. Does this mean that the *Gentleman's Discard* "gets" **both** of the cards?
+- No, it does not. By convention, even if it looks like the player could not have known the true identity of the card, the *Gentleman's Discard* only gets the specific other matching card. (The reason for this is that it allows players to act upon asymmetric information.)
+- For example, in a 3-player game:
   - Red 1 and blue 1 are played on the stacks.
-  - Bob has a card in his hand with a number 2 clue on it. He does not know its true identity.
-  - Alice clues red to Donald, touching a red 3 as a *Play Clue*.
-  - Since red 1 is on the stacks, Bob knows that Alice is indicating to the team that someone has the red 2.
-  - Bob looks around and sees that no-one else has the red 2.
-  - Thus, Bob knows that this must be a *Prompt*, so his unknown 2 must be a red 2. Bob plays the unknown 2. It is instead a blue 2, and it successfully plays on the stacks.
-  - Cathy is slightly surprised that Bob played the blue 2. However, this is not completely out of the ordinary, as Bob might have been able to figure it out somehow.
-  - Cathy performs the same analysis that Bob does. Namely, Cathy knows that Alice is indicating that someone on the team has the red 2, and Cathy does not see the red 2 in anyone else's hand.
-  - Thus, Cathy knows that Alice's clue to Donald must be a *Finesse*, so Cathy must have the red 2 on her *Finesse Position*. Cathy plays her *Finesse Position* card. It is instead the blue 5 and misplays.
-  - This was Alice's fault, because *Bluffs* are only allowed if they can be revealed immediately from a blind-play.
-
-### Stacked Bluffs (Illegal)
-
-- First, see the section on the *[Stacked Finesse](level_4.md#the-stacked-finesse)*.
-- *Stacked Finesses* are encouraged, since they have few downsides.
-- However, players should **never** stack a *Bluff* on top of a player who is *Finessed*. This is because the blind-playing player will assume that a *Layered Finesse* is occurring and go on to play the card from the first *Finesse*. This means that the *Bluff* will not be resolved immediately, violating *Lie Principle*. (*Lie Principle* is one of the most important principles!) Typically, when this mistake happens, the team will go on to lose the game, because severe *Information Desynchronization* will occur.
-- Sometimes, in rare circumstances, expert players can perform *Out-of-Position Bluffs*. (This is normally illegal, so for it to work it has to be a very specific situation.) When this occurs, it is illegal to stack a second *Bluff* on top of them. You cannot stack a *Bluff* on a *Bluff* for the same reason that you cannot stack a *Bluff* on a *Finesse* - the *Fib* will not resolve immediately and will violate *Lie Principle*.
-  - Similarly, it is illegal to stack an *Ejection* or a *Discharge* on a *Bluff*. (*Ejections* and *Discharges* are advanced moves that are covered later.)
+  - Alice clues Bob number 2, which touches a red 2 on slot 1. This is a *Play Clue* on the 2. Thus, this is a globally known red 2 or blue 2. Alice right-clicks the card and writes a note of "r2, b2".
+  - Bob also writes a note of "r2, b2", but then stops to think a little deeper. He notices that Alice has a blue 3 in her hand, so it might have been possible for Cathy to perform a *Finesse* on a hypothetical blue 2 in his hand.
+  - Bob rewinds to the beginning of the game and re-plays through all of the turns, watching closely to see if Cathy had an ample opportunity to perform a *Finesse* on a blue 2. Indeed, he finds that Cathy had one or two turns where she could have easily performed a *Reverse Finesse*, but discarded instead.
+  - Thus, Bob knows that it must be a red 2, so he updates his "r2, b2" note to "r2".
+  - Bob sees that Cathy has a red 2 on her *Finesse Position*, so he performs a *Gentleman's Discard* by discarding the red 2.
+  - Cathy blind-plays the red 2 from her *Finesse Position*.
+  - Alice gasps in surprise, because Bob could not have possibly known that it was exactly a red 2. This must be a *Double Gentleman's Discard*, calling for both red 2 and blue 2. Alice blind-plays her *Finesse Position* card, hoping to play a blue 2, but instead plays a red 5, losing the game.
+  - Alice forgot that *Double Gentleman's Discards* were expressly illegal because it is possible for players to have asymmetric information about the current game state.

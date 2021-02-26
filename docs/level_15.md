@@ -1,6 +1,6 @@
 ---
 id: level_15
-title: Level 15 - Elimination
+title: Level 15 - Ejections & Discharges
 ---
 
 - Level 15 strategies should only be learned if you have 260+ games of experience with the group.
@@ -9,143 +9,83 @@ title: Level 15 - Elimination
 
 ## Conventions
 
-### Elimination & Elimination Notes
+### Ejections
 
-- Normally, your teammates would never let you discard anything important. So when you discard some playable card (or a needed 2) **and** that card is not in anyone else's hand, you might think that the team make a mistake.
-- From *High Value Principle*, you should never assume your teammates are making a mistake. One excellent reason that they would let you discard an important card is that you have the other copy in your hand. (In order to satisfy *Good Touch Principle*, they had to wait for you to discard it so that they would not duplicate the card.)
-- Thus, when you get a follow-up clue, you will know exactly what card it is.
-- For example, in a 4-player game:
-  - Red 3 is played on the stacks.
-  - Alice has a completely unclued hand.
-  - Alice discards her chop (slot 5). It is a (playable) red 4.
-  - Alice gasps in surprise - she knows that everyone on the team agrees to not let each other discard playable cards (*Save Principle*).
-  - Alice knows that the team was not in a dire situation or anything, so the only explanation is that she must have the other copy of the red 4.
-  - Alice writes a note of "r4?" on slots 2, 3, 4, and 5. (It can't be on slot 1, since that is the card she just drew.)
-  - Bob clues Alice red, which touches a card on slot 1 and slot 2.
-  - Normally, Alice would play the left-most card (slot 1) as the red 4. However, because of her notes, she knows that the red 4 must actually be on slot 2.
-  - Alice successfully plays red 4 from slot 2. Since the red 5 is the only good red card left, Alice can assume that her other red card is red 5 (from *Good Touch Principle*), and she can play it on the next turn.
-- In this example, the "r4?" notes that Alice writes are called *Elimination Notes*. *Elimination Notes* are notes that represent the possible slots for a specific card.
-- In this example, thing "thing" that triggered the writing of *Elimination Notes* was the discarding of a card, so this is called *Discard Elimination*.
-- Note that players should not always make *Elimination Notes* when they discard a playable card. In some cases, games can be extremely busy, leaving no reasonable way to get the playable card. Players must just their best judgment and account for this.
+- *Ejection* refers to a move like a *Bluff*, but instead of playing an unrelated card from *Finesse Position*, someone plays an unrelated card from their *Second Finesse Position*. For example, if a player's hand is completely unclued, their *Second Finesse Position* is slot 2.
+- Just like a *Bluff*, an *Ejection* can only be performed on the very next player.
+- Several different kinds of moves can cause an *Ejection*. The most common one is the *5 Color Ejection*.
 
-### Double Discard Elimination
+### Discharges
 
-- When a player who is in a *Double Discard* situation discards anyway with an obvious clue to give (such as a *5 Stall*), it implies that they **see** the other copy of the card, and were not *Double Discarding* at all.
-- Thus, when this occurs, you should write *Elimination Notes* on your entire hand for that card.
-- This is almost exactly the same thing as *Discard Elimination*, except it is triggered by the discard of a separate player.
+- *Discharge* is similar to *Ejection*, except instead of blind-playing the *Second Finesse Position* card, the player plays the *Third Finesse Position* card.
+- Just like a *Bluff*, a *Discharge* can only be performed on the very next player.
+- Several different kinds of moves can cause a *Discharge*. The most common one is the *Unknown Trash Discharge*.
 
 <br />
 
 ## Special Moves
 
-### The Elimination Blind-Play
+### The 5 Color Ejection (5CE)
 
-- First, see the section on [Elimination](#elimination--elimination-notes).
-- In the example for *Discard Elimination*, the team clued the second copy of the red 4 directly. But in other situations, the team will **not** need to clue anything. The player with the *Elimination Notes* can eliminate the possibilities one by one. When there is only one possibility left, they can blind-play the card as an *Elimination Blind-Play*.
-- For example, in a 4-player game:
-  - Red 3 is played on the stacks.
-  - Alice has a completely unclued hand.
-  - Alice discards her chop (slot 5). It is a (playable) red 4.
-  - Alice knows that the team was not in a dire situation or anything, so the only explanation is that she must have the other copy of the red 4.
-  - Alice writes "r4?" *Elimination Notes* on slots 2, 3, 4, and 5. (It can't be on slot 1, since that is the card she just drew.)
-  - Bob clues Alice blue, which touches slots 1, 2, 3, and 4. (This is a *Play Clue* on slot 1.)
-  - Alice writes a note of "blue 1" on slot 1.
-  - Alice erases her *Elimination Notes* for the red 4 from slots 2, 3, and 4.
-  - The only card left with an *Elimination Note* is slot 5.
-  - Alice can now blind-play the red 4 when it gets to her turn as an *Elimination Blind-Play*.
-
-### The Elimination Play Clue
-
-- A clue that touches multiple cards only has one focus. As you probably know, if the chop card was not touched, then the focus is the left-most card.
-- However, this rule does not apply if a clue singles out a playable card from *Elimination*. In this case, the card is only focused on the *Elimination* card, and any other cards touched are not necessarily playable right now.
+- Normally, if a player gives a color *Play Clue* to a 5, it would mean that it is a *Finesse* on the 5 and all of the cards leading up to the 5 are playable.
+- If the very next player sees that they will only have to **blind-play one card** in their hand to fulfill the *Finesse*, then they should assume that it is a *Finesse* and blind-play their *Finesse Position*.
+- If the very next player sees that they would have to **blind-play two or more cards** in their hand to fulfill the *Finesse*, then a *Finesse* is unlikely. Instead, players agree that this signals an *Ejection* and that the next player should play their *Second Finesse Position*.
+  - *Prompts* don't factor into the "two or more blind-plays" rule. Players only count the number of blind-plays.
+- After the blind-play, the player who received the clue will know that they must have a 5.
+- Note that *5 Color Ejection* only applies if the 5 did not have any clues on it already. If a 5 is re-clued, it signals a *Finesse* on all of the cards leading up to the 5.
+  - However, the "invisible" clue from a *Chop Move* does not count. In other words, you **can** perform a *5 Color Ejection* with a *Chop Moved* 5, as long as the card does not have any positive clues on it.
 - For example, in a 3-player game:
-  - Red 1 and blue 1 are played on the stacks.
-  - Alice has both red 2's in her hand on slot 3 and slot 5. (Alice's chop is her slot 5.)
-  - Alice discards her chop, and it is revealed to be the red 2.
-  - Alice is surprised, and writes *Discard Elimination Notes* for red 2 on slots 2, 3, 4, and 5.
-  - Bob gives a number 2 clue to Alice that touches a card in slot 1 and slot 4.
-  - Normally, Alice would treat this as a *Play Clue* on the 2 in her slot 1. However, she now knows that her slot 4 card is exactly red 2 (and that she can play it right now).
-  - Thus, Alice knows that the point of the clue was only to get the red 2. The 2 in her slot 1 can be any 2 in the game and is not necessarily playable right now.
-
-### Elimination & Chop Focus
-
-* First, see the section on the *[Elimination Play Clue](#the-elimination-play-clue)*.
-* In the *Elimination Play Clue*, the presence of *Elimination Notes* changes the "normal" focus of a clue, because the clue actively touches one of the cards with *Elimination Notes*.
-* However, if a clue does **not** touch one of the cards with *Elimination Notes*, then the focus of the clue should be evaluated normally. In other words, the focused slot should be evaluated before the clue was given (just like how every other clue works).
-* For example, in 3-player game:
-  * Red 1 is played on the stacks.
-  * Alice discards red 2. She writes *Elimination Notes* for red 2 on slot 2, slot 3, slot 4, and slot 5.
-  * Bob clues number 3 to Alice, touching four 3's on slot 1, slot 2, slot 3, and slot 4.
-  * Alice now knows that the red 2 is exactly on slot 5.
-  * Alice also knows that Bob's number 3 clue must be a *Play Clue* on the red 3. But which slot is focused (e.g. promised to be red 3)?
-  * The clue is either focused on slot 1 (her newest card) or slot 4 (her "new" chop after the red 2 is accounted for).
-  * Alice knows that you evaluate where the chop is before clues are given, so the clue must be focused on slot 1.
-
-### The Elimination Riding Deduction
-
-- If:
-  - there are only two cards left in a player's hand with *Elimination Notes* **and**
-  - the previous players let the chop card ride **and**
-  - the previous players were not busy, **then**
-- The card with the *Elimination Note* card cannot be on the chop! (Otherwise, one of the previous players would have clued it with either a *Play Clue* or a *Save Clue* in order to prevent it from being discarded.)
-- In such a situation, the player with the *Elimination Notes* can "jump ahead" and immediately blind-play the newest of the two cards.
+  - It is the first turn and nothing is played on the stacks.
+  - Alice clues red to Cathy, touching a red 5 on slot 3.
+  - Bob knows that normally, this would be a *Finesse* on the 5, indicating to Bob that he has the red 1, the red 2, the red 3, and the red 4. However, since this calls for more than one blind card, he knows that *5 Color Ejection* should take precedence, so he knows to play his *Second Finesse Position* card. It is a red 1 and it successfully plays.
+  - From Cathy's perspective, if Bob had played his *Finesse Position* card in response to the red clue, then Cathy would know that it was a *Finesse* or a *Bluff*. But since Bob blind-played his *Second Finesse Position* card, it must be a *5 Color Ejection*. Cathy marks the red card as red 5.
+- In the previous example, a *5 Color Ejection* was preformed with the 5 being the only brand new card introduced with the color clue. However, it is also possible to perform a *5 Color Ejection* with more than one card introduced. Normally, this kind of thing would signal an *Out-of-Order Finesse*, but the *5 Color Ejection* interpretation should take precedence as long as the next player would have to blind-play two or more cards.
 - For example, in a 3-player game:
-  - Red 1 has been played on the red stack.
-  - Alice has a completely unclued hand.
-  - Alice discards her chop (slot 5). It is a (playable) red 2.
-  - Alice knows that the team was not busy, so she must have the other copy of red 2.
-  - Alice writes *Elimination Notes* on slots 2, 3, 4, and 5.
-  - Alice receives no clues on the next go-around of the table. She discards, and now has *Elimination Notes* on slots 3, 4, and 5.
-  - Alice receives no clues on the next go-around of the table. She discards, and now has *Elimination Notes* on slots 4 and 5.
-  - Alice receives no clues on the next go-around of the table. Her teammates would not let the other copy of red 2 be discarded, so it must be on slot 4. Alice blind-plays red 2 from slot 4.
+  - It is the first turn and nothing is played on the stacks.
+  - Alice clues red to Cathy, touching a red 5 on slot 2 and a red 2 on slot 3.
+  - Bob knows that normally, this would be an *Out-of-Order Finesse* on the 5, indicating to Bob that he has the red 1, the red 3, and the red 4. However, since this calls for more than one blind card, he knows that *5 Color Ejection* should take precedence, so he knows to play his *Second Finesse Position* card. It is a red 1 and it successfully plays.
+  - From Cathy's perspective, if Bob had played his *Finesse Position* card in response to the red clue, then Cathy would know that it was a *Finesse* or a *Bluff*. But since Bob blind-played his *Second Finesse Position* card, it must be a *5 Color Ejection*. Cathy marks the red card as red 5. Her other red card can be red 2, red 3, or red 4.
 
-### The Riding Bluff
+### The Unknown Trash Discharge (1-for-1 Form) (UTD)
 
-- Typically, when a player has two cards with *Elimination Notes* and the "true" copy of the card is on chop, you must clue it to let them know.
-- However, if the other card is also playable, you can choose to not clue anything.
-- Next, the player should perform an *Elimination Riding Deduction*, and play the unrelated card.
-- After that, there will be only one card left with an *Elimination Note*, so they will go on to play the "true" card on their next turn.
-
-### The Elimination Self-Chop Move
-
-- Sometimes, you will have narrowed down your *Elimination Notes* to one specific card. Thus, even though the card has no positive clues on it, you know the exact identity of the card.
-- If the card in question is on your chop **and** the card is not yet playable **and** you need to discard, you should obviously not discard the important elimination card. You should instead self-chop move and discard the next thing.
-
-### The Elimination Finesse
-
-- Normally, if a player is *Finessed*, they are supposed to play their *Finesse Position* card. However, what if they have *Elimination Notes* on their hand for the specific card that is *Finessed*?
-- In most situations, there will not be an *Elimination Note* on slot 1 (e.g. the *Finesse Position*). This means that playing slot 1 into the *Finesse* would not make any sense.
-  - However, in the rare case where there is an *Elimination Note* on their *Finesse Position*, then the player should **still** not play the *Finesse Position*; read on.
-- Here, the player is expected to play the **oldest** of the cards with the *Elimination Notes* on them (not counting *Chop Moved* cards, if any).
+- In general, *Bluffs* work because the blind-play tells the person who was clued that they have a *one-away-from-playable* card of that color.
+- In general, *Trash Bluffs* work because the blind-play tells the person who was clued that they have a trash card.
+- Players must be careful to not give a *Trash Bluff* that looks like a *Bluff* - that will desynchronize the team.
 - For example, in a 3-player game:
-  - Blue 2 is played on the stacks.
-  - Alice has a completely unclued hand.
-  - Alice discards a blue 3. Blue 3 was playable, and nothing urgent is currently happening, so she writes *Elimination Notes* on her hand for the other blue 3 on slots 2, 3, 4, and 5.
-  - Bob clues Cathy blue, which touches a blue 4 as a *Play Clue*.
-  - Cathy discards.
-  - Alice knows that this is some sort of *Reverse Finesse*, as it is calling for the blue 3. However, the blue 3 cannot be in her *Finesse Position* (slot 1), as she knows from the *Elimination Notes* that it must be either on slot 2, 3, 4, or 5. So it must instead be a *Reverse Elimination Finesse*.
-  - The *Elimination Finesse* promises that it is her oldest card, so she plays slot 5 as blue 3.
-- As mentioned above, *Chop Moved* cards should be skipped over when finding the *Elimination Finesse* target. If there are two or more cards with *Elimination Notes* on them and they are all *Chop Moved*, then the oldest *Chop Moved* card should be played.
-- *Elimination Finesses* apply to **all** types of situations with *Elimination Notes* (including *Double Discard Elimination Notes*). Subsequently, you can more specifically describe an *Elimination Finesse* as a *Discard Elimination Finesse* or a *Double Discard Elimination Finesse*.
-- Note that normal *Finesses* take priority over *Self-Elimination Finesses*. For example, in a 3-player game:
-  - Red 2 and blue 2 are played on the stacks.
-  - Alice's hand is completely unclued. Alice has *Elimination Notes* on slot 3 and slot 4 for red 3.
-  - Cathy clues a number 4 in Alice's slot 1 as a *Self-Finesse*.
-  - If Alice's 4 is a blue 4, then this would be a normal *Self-Finesse*, and Alice should blind-play blue 3 from slot 2.
-  - If Alice's 4 is a red 4, then this would be an *Elimination Self-Finesse*, and Alice should blind-play red 3 from slot 4.
-  - Alice knows that in this situation, you always supposed to assume a normal *Finesse*, so she blind-plays blue 3 from slot 2.
-
-### Trash Touch Elimination
-
-- After deciding on the target of a clue, players carefully choose between using a color clue and a number clue in order to avoid violating *Good Touch Principle* with the ancillary cards that will be touched (since every clued card is treated as a card that will eventually be played). Sometimes, when both a color clue **and** a number would violate *Good Touch Principle*, players are forced to pick between the lesser of two evils.
-- However, sometimes you can see that it **is** possible to use a color or number clue to uniquely touch a clue target without "picking up" extra bad cards. So, when extra bad cards are deliberately touched in this way, it is conveying an extra special message.
-- When this occurs and there is exactly one "missing" card, players should write an *Elimination Note* in their hand for the missing card. This is called *Trash Touch Elimination*.
+  - All the 1's are played on the stacks.
+  - Alice clues red to Cathy, touching a red 1 as a *Play Clue*.
+  - Bob blind-plays his *Finesse Position* and it successfully plays as blue 2.
+  - Cathy knows that a *Bluff* has occurred and marks her red card as red 3 (the *one-away-from-playable* red card).
+  - Of course, this is not true, because Cathy's red card is actually a red 1. The team will likely get a misplay at some point in the future.
+- If the above example happens and Alice is not making a mistake, then Alice must be trying to communicate something extra. This should signal an *Discharge* on the very next player.
+- Since the *Third Finesse Position* card was played instead of the *Finesse Position* card, then the player who received the clue will know that the card is trash.
 - For example, in a 3-player game:
-  - Red 3 is played on the stacks. All of the other suits have the 1 played on the stacks.
-  - Bob's hand is, from newest to oldest: red 4, red 1, blue 1, green 1, yellow 1.
-  - Alice wants to give a play clue to the red 4. Everyone else on the team (other than Bob) can see that she can give either number 4 or red.
-    - If Alice clues number 4, then it will uniquely touch the red 4 (which will satisfy *Good Touch Principle*).
-    - If Alice clues red, then it will touch the red 4 and the red 1 (which will **violate** *Good Touch Principle*).
-  - Alice clues red to Bob. Since nothing was stopping her from cluing number 4, this is very strange.
-  - Bob plays the red 4.
-  - There is only one "missing" red card - the red 5. Cathy knows that normally, Bob would think that his red 1 is the red 5 (from *Good Touch Principle*). This must mean that Cathy has the red 5. Cathy writes *Trash Touch Elimination Notes* on her hand for the red 5.
+  - All the 1's are played on the stacks.
+  - Alice clues red to Cathy, touching a red 1 as a *Play Clue*.
+  - Bob knows that if he played his *First Finesse Position*, then Cathy would write a note of red 3 on the card (as a *Bluff*), which would be a *Lie*.
+  - Bob knows that if he played his *Second Finesse Position*, then Cathy would write a note of red 5 on the card (as a *5 Color Ejection*), which would be a *Lie*.
+  - Bob blind-plays his *Third Finesse Position*. It is a blue 2 and it successfully plays.
+  - Cathy knows that a *Discharge* has occurred from Alice's red clue. This must be an *Unknown Trash Discharge*, so the focus of the clue must be trash.
+  - Cathy marks her red card as a red 1 (since that is the only possible trash red card) and discards it.
+- In summary:
+  - For a *Trash Bluff*:
+    - The empathy on the clued card **only** contains possibilities that are *Playable*, *Delayed Playable*, or trash.
+    - Thus, a normal blind-play is enough to prove it is trash.
+  - For an *Unknown Trash Discharge*:
+    - The empathy on the clued card contains one or more possibilities that are useful and currently unplayable.
+    - Thus, something extra is needed to prove it is trash.
+  - Other than this, don't use more complicated factors to prefer a *Trash Bluff* over an *Unknown Trash Discharge* (like Bob having to wait on some other card).
+
+### The Unknown Trash Discharge (2-for-1 Form) (UTD)
+
+- When multiple cards are clued with an *Unknown Trash Discharge*, **only the focus of the clue is considered to be trash**. This means that *Good Touch Principle* applies to the non-focused cards.
+- Note that this is **the opposite of the *Trash Bluff***. (In a *Trash Bluff*, when multiple cards are clued, all of the touched cards are considered to be trash.)
+- This means that while most *Unknown Trash Discharges* are 1-for-1 clues, you can also perform an *Unknown Trash Discharge* as a 2-for-1, a 3-for-1, and so forth.
+- For example, in a 3-player game:
+  - (This is almost exactly the same as the previous example.)
+  - All the 1's are played on the stacks.
+  - Alice clues red to Cathy, touching a red 1 on slot 2 and a red 5 on slot 3. The red 1 is focused. This looks like a *Play Clue* on the red 1.
+  - Bob knows that this must be an *Unknown Trash Discharge*, so he blind-plays his *Third Finesse Position*. It is a blue 2 and it successfully plays.
+  - Cathy knows that a *Discharge* has occurred from Alice's red clue. This must be an *Unknown Trash Discharge*, so the focus of the clue must be trash.
+  - Cathy marks her slot 2 card as a red 1 (since that is the only possible trash red card) and discards it.
+  - Cathy also knows that non-focused cards touched in an *Unknown Trash Discharge* are supposed to be useful. Thus, Cathy marks her slot 3 card as a red 2, a red 3, a red 4, or a red 5.

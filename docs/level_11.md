@@ -1,121 +1,138 @@
 ---
 id: level_11
-title: Level 11 - Intermediate Bluffs
+title: Level 11 - Context
 ---
 
 - Level 11 strategies should only be learned if you have 180+ games of experience with the group.
 
 <br />
 
-## Special Moves
+## Conventions
 
-### The 3 Bluff
+### Assuming Asymmetric Information
 
-- Typically, the player who receives a clue that causes a *Bluff* blind-play knows that the card that was clued is one-away from being playable.
-- Our group plays with an artificial *3 Bluffs* convention. This means that in addition to being one-away from being playable, we agree that the touched card can *also* be any 3 that will be useful in the future.
-- *3 Bluffs* are mostly used to get 1's played at the beginning of the game. However, similar to a normal *Bluff*, a *3 Bluff* can be used to get any playable card (as long as it doesn't look like a *Finesse*, obviously.)
-- Here are some examples that cover the four most common *3 Bluff* situations:
+* Sometimes, players will figure out asymmetric information about the identities of cards in their hand.
+* For example, in a 3-player game:
+  * It is the *Early Game* and there are 3 clues available.
+  * Alice discards, initiating the *Mid-Game*.
+  * Bob knows that there must be nothing left to clue, or Alice would have been obligated to clue it.
+  * Bob has three 2's in his hand that were saved with a *2 Save* clue earlier on.
+  * Bob sees that Cathy has a red 2 on chop. Since Alice did not clue it, Bob must have the other copy in his hand.
+  * Bob has not discarded since the *2 Save* was given to him earlier on. Thus, he knows that one of his three clued 2's must be the other copy of the red 2, so he marks all three cards as "possible red 2".
+  * However, these notes are asymmetric - Alice and Bob write the notes, but Cathy does not. (Cathy has no idea that this is happening because Cathy cannot see her own red 2 on chop.)
+  * Alice and Bob will have to keep this information desync in mind going forward.
+* By default, players should never assume that other players have asymmetric information. This is because having asymmetric information is the **exception**, rather than the norm.
+* In the previous example, Bob might perform an action later on in the game that seems to demonstrate that he knows he has the red 2. But Cathy should not assume that he does, unless there is **no other explanation** for the clue.
 
-#### Example 1 - **Color Mismatch** (Valid)
+### Duplication Responsibility
 
-- On the first turn of the game, Alice clues Cathy red, which touches a red 3.
-- Bob blind-plays blue 1.
-- Cathy knows that it is either a red 2 (if it was a normal *Bluff*) or a red 3 (if it was a *3 Bluff*). She marks down both of the possibilities for later.
-
-#### Example 2 - **Number 3 with Suit Mismatch** (Valid)
-
-- On the first turn of the game, Alice clues Cathy number 3, which touches a red 3.
-- Bob blind-plays blue 1.
-- Cathy knows that it was a *3 Bluff*, because a played 1 does not "match" number 3.
-- Beyond that, Cathy knows nothing about the card, besides that it is a 3 (since it has a number 3 clue on it).
-
-#### Example 3 - **Color Match** (NOT valid; looks like a Finesse)
-
-- On the first turn of the game, Alice clues Cathy red, which touches a red 3.
-- Bob blind-plays red 1.
-- Cathy sees that Bob does not have red 2. Since red matches red, Cathy assumes that she has the red 2.
-- Cathy misplays red 3 as red 2.
-- Alternatively, if Cathy saw that Bob had both red 1 and red 2 on his *Finesse Position* at the time the clue was given, she would know that she has the red 2 **or** the red 3. Subsequently, Bob is promised a red 2, since if he does not blind-play a card, Cathy will go on to misplay the red 3 as red 2.
-
-#### Example 4 - **Color Match with Rank Mismatch** (NOT valid; looks like a Finesse):
-  - This is a 4-player game.
-  - Nothing is played on the stacks.
-  - Alice clues Donald red, touching a red 3 as a play clue.
-  - Bob blind-plays the red 1.
-  - Cathy notices that Donald's red card has a negative 2 clue on it. This means that Donald will not go on to misplay the card as the red 2.
-  - Cathy needs to evaluate whether or not Alice's clue is a *Finesse* or a *3 Bluff*. If this is a *Double Finesse*, then Cathy needs to blind-play the red 2. If this is a *Bluff*, then Alice only intended for Bob to blind-play.
-  - Cathy knows that since **red matches red**, this must be a *Double Finesse*, so Cathy blind-plays the red 2 into the red 3.
-
-#### Example 5 - **Number 3 with Suit Match** (valid)
-
-- On the first turn of the game, Alice clues Cathy number 3, which touches a red 3.
-- Bob blind-plays red 1.
-- Cathy knows that it was a *3 Bluff*, because a played 1 does not "match" number 3.
-- Beyond that, Cathy knows nothing about the card, besides that it is a 3 (since it has a number 3 clue on it).
-- Even though red 1 and red 3 are the same suit, Bob is not promised a red 2, because if he does nothing, Cathy will not go on to misplay the red 3.
-
-#### Generic Questions
-
-- *3 Bluffs* can be confusing. If you don't want to memorize the five examples above, you can simply ask the following questions:
-  1. Does the clue "match" the blind-play? If it matches, then it is a *Finesse*. If it does not match, then it is a *Bluff*. Red matches red, but red does **not** match blue. 2 matches 3, but 1 does **not** match 3.
-  2. Will the player who received the clue go on to misplay if nothing else is blind-played? If yes, then it is a *Finesse*. If no, then it is a *Bluff*.
-
-### The Critical 4 Bluff
-
-- Building on the *3 Bluffs* convention, we also agree that it is possible for a card that initiates a *Bluff* to be a copy of any of the 4s that are currently in the discard pile, but only if **a color clue** is used.
-- For example, in a 3-player game:
-  - Nothing is played on the stacks. Red 4 is currently in the discard pile.
-  - Alice clues Cathy red, touching a red 4 as a *Play Clue*.
-  - Bob blind-plays a blue 1.
-  - Cathy marks her red card as the *one-away-from-playable* red card, the red 2.
-  - However, Cathy also knows that *3 Bluffs* are a thing, so she *also* marks her red card as possibly a red 3.
-  - However, Cathy also knows that *Critical 4 Bluffs* are a thing, so she *also* marks her red card as possibly a red 4.
-
-### The Hard Bluff
-
-- First, see the section on *[Cathy's Match Principle](level_9.md#cathys-match-principle-part-2)*.
-- Sometimes, it can be ambiguous as to whether a player blind-played a card into a *Bluff*, or they blind-played into a *Finesse* + *Prompt*. In this situation, *Occam's Razor* applies, so players should go with the *Bluff* interpretation, since it is simpler. When such a *Bluff* occurs, it is called a *Hard Bluff* to disambiguate from situations where *Bluffs* happen with no ambiguity.
-- For example, this is a *Finesse* + *Prompt* and **not** a *Hard Bluff*:
-  - Only red 1 is played on the stacks.
-  - Cathy has a 3 clued in her hand (with no color information on it).
-  - Alice clues Cathy about a brand new 4.
-  - Bob blind-plays red 2.
-  - In a normal *Bluff*, a *one-away-from-playable* card is clued. However, Cathy sees that the highest stack is the red stack, so the 4 in her hand must be two-away.
-  - Thus, Cathy does **not** read it as a *Bluff*; she is promised red 3 and red 4, so she plays the unknown 3 as a *Self-Prompt* for the red 3.
-- For example, this **is** a *Hard Bluff*:
-  - Red 1 and blue 2 are played on the stacks.
-  - Cathy has a 3 clued in her hand (with no color information on it).
-  - Alice clues Cathy about a brand new 4.
-  - Bob blind-plays red 2.
-  - This could be a *Bluff* if the 4 in her hand is blue 4, since blue 4 is currently *one-away-from-playable*. Thus, Cathy **does not** assume that her 4 is red 4, and subsequently, **does not** assume that her unknown 3 is a red 3. However, it could **also** be the case that the 4 is a red 4 (if the 3 in her hand happens to be red 3).
-  - Thus, Cathy marks down both possibilities for later and does not play anything right now.
-
-### The Hard 3 Bluff
-
-- Players can use a 3 to *3 Bluff* the 1 of the same suit.
-- For example, in a 3-player game:
-  - Nothing is played on the stacks.
-  - Alice clues number 3 to Cathy, touching a red 3 on slot 1 as a *Play Clue*.
-  - Bob blind-plays red 1.
-  - Bob now knows that it was a *3 Bluff* and that no-one is promised the red 2. This is because even though the red 1 is the same suit as the red 3, *3 Bluffs* take precedence over *Double Finesses* as long as the clue type (number 3) does not match the card that was blind-played (a number 1).
-
-### Known Bluffs
-
-- Usually, when a *Bluff* occurs, the blind-playing player has no idea that is a *Bluff* - they assume they are playing a specific card into a true *Finesse*.
-- However, in rare situations, a clue will be given that looks like a *Finesse*, but the next player will know for sure that they do not have the "matching" card.
-- In these situations, if the next player cannot see a better explanation for the clue, then they should blind-play their *Finesse Position* card as a *Known Bluff*.
-- For example:
-  - The player might see all of the copies of the card that they are supposed to be blind-playing.
-  - The player might have negative information on their entire hand (e.g. negative blue on every card when they are supposed to be blind-playing a blue 2).
-  - The player might know that they are blind-playing a 1 into a *3 Bluff* (e.g. a card was clued with number 3 and there are no cards played yet).
+- Usually, if a 2 needs to be saved, it is not the responsibility of a player with already-clued 2's in his hand, because they could potentially violate *Good Touch Principle* by cluing it. So, they should defer and let someone else on the team do it. (The same general concept also applies to cluing playable cards on chop, for example.)
+- However, if all players have a clued 2 in their hand, then someone has to take a risk of violating *Good Touch Principle* in order to satisfy *Save Principle*. Who should do it?
+- In this situation, the player who has the least number of matching clued cards should take responsibility. If 2+ players are tied, then the player with the less specific type of clue on their card(s) should take responsibility.
+- If 2+ players have the exact same number of clued cards and type of clued cards, then either player should save the card.
+- Example 1:
+  - In a 3 player game, Alice has a blue 2 on chop that needs to be saved.
+  - Bob has 2 unknown 2's.
+  - Cathy has 1 unknown 2.
+  - Bob should let Cathy perform the save, since 1 matching card is less than 2 matching cards.
+- Example 2:
+  - In a 3 player game, Alice has a blue 2 on chop that needs to be saved.
+  - Bob has 2 unknown 2's.
+  - Cathy has 2 unknown 2's.
+  - The responsibility is shared, so Bob should perform the clue if Cathy has a good discard, or he can discard and let Cathy do it.
+- Example 3:
+  - In a 3 player game, Alice has a blue 2 on chop that needs to be saved.
+  - Bob has 2 unknown blue cards.
+  - Cathy has 1 unknown 2's.
+  - Bob should let Cathy perform the save, since 1 matching card is less than 2 matching cards.
+- Example 4:
+  - In a 3 player game, Alice has a blue 2 on chop that needs to be saved.
+  - Bob has 2 unknown blue cards. No blue cards have been played yet, so from Bob's perspective, each blue card has a 1/5 chance of being the blue 2.
+  - Cathy has 2 unknown 2's. No 2's have been played yet, so from Cathy's perspective, each 2 has a 1/5 chance of being the blue 2.
+  - The responsibility is shared, so Bob should perform the clue if Cathy has a good discard, or he can discard and let Cathy do it.
+- Example 5:
+  - In a 3 player game, Alice has a blue 2 on chop that needs to be saved.
+  - Bob has 2 unknown blue cards. No blue cards have been played yet, so from Bob's perspective, each blue card has a 1/5 chance of being the blue 2.
+  - Cathy has 2 unknown 2's. One 2 has been played already, so from Cathy's perspective, each 2 has a 1/4 chance of being the blue 2.
+  - Thus, it is Bob's responsibility to save the blue 2.
 
 <br />
 
-## General Principles
+## Special Moves
 
-### Legal Bluff-Targets
+### The Selfish Clue
 
-- The full list of legal *Bluff* targets is as follows:
-  - any *one-away-from-playable* card (with either a color clue or a number clue)
-  - any 3 (with either a color clue or a number clue)
-  - any critical 4 (only with a color clue)
+- A *Selfish Clue* is when a player:
+  1. has a playable card in their hand (e.g. red 2)
+  2. gives a *Play Clue* to the next connecting card (e.g. red 3)
+- In almost all cases, there is no reason to give a *Selfish Clue*. Players can simply play their playable card and let someone else on the team "get" the next card. Being *Selfish* is typically associated with having bad teamwork.
+- However, in rare cases, giving a *Selfish Clue* can be good.
+- For example, in a 3-player game:
+  - All the 1's are played on the stacks.
+  - Alice has a globally-known playable red 2 in her hand.
+  - Bob hand is as follows, from newest to oldest: `blue 1, red 3, red 4, red 5, blue 1`
+  - Both Bob and Cathy has a safe discard.
+  - Alice knows that on this turn, she is expected to play the red 2, unless she has a really good clue to give.
+  - Alice sees that if she plays the red 2, then Bob will probably have nothing to do, and will go on to discard the blue 1.
+  - At that point, the red 5 will be on chop, and it will be difficult for the team to get all of the red cards. Specifically, someone will probably have to give a number 3 clue to Bob as a 1-for-1 on the red 3.
+  - Alice sees that if she gives a red clue to Bob *right now* (e.g. before she plays the red 2), then she will be able to "lock-in" a nice 3-for-1 clue. Even though the team will lose *Tempo*, this will be inconsequential because Bob has a safe discard and Cathy has a safe discard.
+  - Alice clues red to Bob as a *Selfish Play Clue*.
+
+### The Selfish Finesse (A Finesse Through Your Own Hand)
+
+- First, see the section on the *[Selfish Clue](#the-selfish-clue)*.
+- One excellent reason to give a *Selfish Clue* is to "lock in" a *Finesse* before the cards move out of *Finesse Position*. This is called a *Selfish Finesse*.
+- Like any other *Finesse*, players in this situation should just mark the cards for later and wait patiently for the cluer to play their card.
+- For example, in a 3-player game:
+  - It is the first turn and nothing is played on the stacks.
+  - Alice clues red to Bob, touching a red 1 on slot 1 as a *Play Clue*. (This is now a globally-known red 1, since Cathy does not have any red 1's in her hand.)
+  - Bob clues red to Cathy, touching a red 3 on slot 1 as a *Play Clue*.
+  - Cathy sees that Alice has as red 2 on her *Finesse Position*, so this must be a *Selfish Finesse*. Bob did not want to play the red 1 because then the *Finesse* might go away and he wanted to lock it in. Cathy marks her red card as potentially red 3 and discards.
+  - Alice sees that Bob gave a *Play Clue* to a red 3. Bob knows for sure that he has the red 1, so Alice must have the red 2 on her *Finesse Position*. Alice marks her *Finesse Position* card as red 2 and discards.
+  - Bob plays red 1.
+  - Cathy discards.
+  - Alice blind-plays red 2.
+
+### The Stale 1's Clue
+
+- We have many conventions that specify what a clue means. But combined with this, we are always expected to look at the context of the game.
+- For example, sometimes players will receive a clue that just feels strange. If this good clue could have been given a bunch of turns ago, why is it only being given now? Were the other players not paying close enough attention, and are only getting around to cluing this card now?
+- In these types of situations, from *High Value Principle*, you can assume that the team is not making any mistakes, which means that the meaning of the clue should be altered from the "textbook" definition. We call these types of clues *Context Clues* because they rely on contextual reading of the game state.
+- The most common *Context Clue* is given to "stale" 1's towards the beginning of the game. For example, in a 3-player game:
+  - After a few ordinary clues happen, Alice discards, which ends the *Early Game* and initiates the *Mid-Game*. By doing this, she implies that there is nothing to do (because players are mandated to "extinguish" all of the available *Play Clues* and *Save Clues* in the *Early Game*).
+  - Bob then immediately clues Cathy about two 1's.
+  - Normally, from *Good Touch Principle*, Cathy would assume that both of the 1's were "good" and play both.
+  - However, Cathy also knows that if both of these 1's were good, then Alice was required to clue them before discarding.
+  - Thus, Cathy can reason that one of the 1's are bad. Furthermore, by convention, she knows that the oldest (right-most) 1 is bad, because that would be the one that she would ordinarily play first.
+  - So, Cathy should skip over the oldest (right-most) 1, and play the other 1. Cathy should also treat the other 1 as known-trash.
+- The *Stale 1's Clue* is specific example of a more general concept called *Focus Inversion*, which is covered below.
+
+### Focus Inversion
+
+- Sometimes, a *Play Clue* is given that both touches the chop card and one or more other card. The normal interpretation of this is to treat it as a chop-focus *Play Clue*, and play the chop. However, sometimes a player can know that the chop is not actually playable. This can be determined through:
+  - explicit information - negative clues present on the card
+  - implicit information - historical / contextual information about the card derived from moves that teammates performed earlier on in the game
+- When this occurs, the clue is meant to be a *Play Clue* on the left-most card **instead** of the chop card.
+- Just like a "normal" *Play Clue* that touches multiple new cards, the chop card (and other new cards introduced) are not necessarily playable right now.
+- For example, in a 3-player game:
+  - Alice clues 1's to Bob, which introduces one card on slot 1.
+  - Bob plays the 1 and it is red 1.
+  - Cathy clues blue to Bob, which introduces two cards on slot 1 and slot 5.
+  - Normally, Bob would think that this is a *Chop-Focus* clue, and play the blue 1 from slot 5.
+  - However, his slot 5 card has a negative 1 clue on it (from Alice's number 1 clue), so it explicitly cannot be the blue 1.
+  - Thus, this must be *Focus Inversion* and blue 1 must be on slot 1. The blue card on slot 5 can be either blue 2, blue 3, blue 4, or blue 5.
+- Note that ***Self-Finesses* with rank always take precedence over *Focus Inversion***. (*Self-Finesses* with rank are quite common, but *Self Finesses* with color are nonsensical.)
+
+### The Fake Save
+
+- We are only allowed to perform *Save Clues* on specific cards and in specific ways, as outlined in [level 1](level_1.md#save-clues). For example, we all agree that we must save 5's with number 5.
+- In some specific circumstances, the team will have only one clue available and multiple cards must be saved with a single clue. In this situation, to prevent losing the game (or losing a currently-playable card), it is permissible to *Lie* to the next player and perform a *Fake Save* (e.g. a non-legal *Save Clue*).
+- After a *Fake Save*, the player receiving the clue will mark their chop card as something other than what it really is. Thus, this move commits the team to giving a *Fix Clue* to repair the *Lie* at some point in the future.
+- For example, in a 3-player game:
+  - Alice has 1 clue available.
+  - Bob has a red 5 on chop, followed by a red 4. The other copy of the red 4 is in the discard pile, so there are two critical cards in a row.
+  - Alice is not allowed to save the red 5 with a red clue, because then it would look like a *Save Clue* on a red 4.
+  - However, if Alice clues number 5 to Bob, then he will discard the red 4.
+  - Thus, Alice performs a *Fake Save* on both red cards by cluing red.
+  - Bob will mark his chop as the red 4, so the team will have to give him a number 5 clue as a *Fix Clue* at some point in the future. At that point, Bob will be surprised, but he will be able to retroactively see that Alice was in a very tight spot and had to give a *Fake Save*.
+- *Fake Saves* are **only allowed as a last resort**. If there is some other line that would "work", then players must use the other line. Because of this, *Fake Saves* are extremely rare.

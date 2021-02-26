@@ -1,73 +1,192 @@
 ---
 id: level_19
-title: Level 19 - Ignition
+title: Level 19 - Advanced Moves
 ---
 
 - Level 19 strategies should only be learned if you have 340+ games of experience with the group.
 
 <br />
 
-## Conventions
+## Special Moves
 
-### Ignition
+### The Occupied Play Clue & The Occupied Finesse (OPC)
 
-- An *Ignition* is a type of move that makes someone blind-play a card from their *Finesse Position*.
-- An *Ignition* is different from a *Finesse* and a *Bluff* because the blind-play from an *Ignition* is:
-  - unrelated to the clue that was given
-    - e.g. It doesn't "match", which is unlike a *Finesse*, but like a *Bluff*.
-  - unrelated to the *playability* of the clued card
-    - e.g. Nothing needs to be "proved" to the player who got clued, which is unlike a *Finesse*, and unlike a *Bluff*.
+- If a clue could be given by multiple players, who should give the clue? If some players have known-playable cards and other players have nothing to do, then it makes the most sense to leave the clue for the players who have nothing to do.
+- If someone gives a clue with a globally-known playable card in their hand and forces the next player to have nothing to do, this is bad teamwork - unless there was a reason!
+- When this occurs, the clue should do one "extra" thing:
+  - If the clue would normally be interpreted as a *Save Clue*, then it transforms into an *Occupied Play Clue*.
+  - If the clue would normally be interpreted as a *Play Clue* or a *Prompt*, then it transforms into an *Occupied Finesse*.
+- Note that the concept of being *Occupied* generalizes to lots of different kind of moves. For example, when an *Occupied* player clues an off-chop 5, it is certainly not a *5 Stall* - it must be an *Occupied 5 Pull*!
 
-### Double Ignition
+### The Out-of-Order Play Clue (Triple O / OOO)
 
-- Several types of "useless" clues trigger a *Double Ignition*. These different types are listed below.
-- When a *Double Ignition* is triggered, it means that two players on the team need to blind-play their *Finesse Position* card as any playable card.
-  - *Double Ignition* does not necessarily have to be on the next two players. It can be on anyone.
-- In most circumstances, a *Double Ignition* should be clear. This is because the two players that have a playable card will each see that the clue giver should have clued the other playable card directly (instead of giving a "useless" clue).
-- Sometimes, three players on the team will have playable cards on *Finesse Position*. If a *Double Ignition* is performed in this case, similar to how an *Ambiguous Finesse* works, it will "get" the two cards from the final two players. (Bob will do nothing because he sees that the *Double Ignition* is on Cathy and Donald.)
+- Sometimes, a player will have two playable cards in their hand of the same suit, but they will be "blocked", meaning that both a color clue and a number clue will not be able to focus the first playable card.
+- One technique to get around this is to give a clue that focuses the wrong card, and then have the next player give a *Fix Clue*. This is called an *Out-of-Order Play Clue* because the cards were originally out-of-order, but the original focus is still playable.
+- For example, in a 3-player game:
+  - It is the first turn and nothing is played on the stacks.
+  - Cathy hand is as follows, from left to right: `red 4, red 1, red 2, red 3, blue 4`
+  - Alice clues red to Cathy, touching slot 1, slot 2, slot 3, and slot 4.
+  - Bob sees that Alice has indicated to Cathy that she has the red 1 on slot 1. Cathy will go on to misplay the red 4 as the red 1.
+  - Normally, Bob would think this is a *Finesse* and try to play the red 1 into the red 4. However, that doesn't make any sense, because Cathy has the red 1, and then Alice would be violating *Good Touch Principle*.
+  - Instead, Bob knows that the team should be using Cathy's red 1. Thus, Bob knows that he needs to give a *Fix Clue* to Cathy, because Alice intends for her and Bob to work together.
+  - Bob clues number 4 to Cathy, touching the blue 4 and "filling in" the red 4.
+  - Cathy is surprised because the card that she thought was red 1 is actually a red 4. Cathy knows that since the red 4 was the original focus of Alice's clue, then it must actually be playable right now. Thus, Cathy must have the red 1, the red 2, and the red 3.
+  - Cathy plays the red 1 from slot 2 (the left-most red card that could be the red 1). She will go on to play the red 2, the red 3, and the red 4.
+  - Cathy (and everyone else on the team) knows that even though the blue 4 was the focus of Bob's clue, it is not actually playable right now, and was just "collateral damage" of Bob's required *Fix Clue*.
+
+### The Out-of-Order Finesse
+
+- Sometimes, a *Finesse* is initiated by giving a color clue to two or more cards where the next card in the sequence is clued, but it is **not** the focus of the clue.
+- When this happens, the *Finesse* will still work: a player will blind-play a matching card. However, a *Fix Clue* must then be given to the player who originally received the clue, or they will go on to misplay.
+- Normally, after receiving a *Fix Clue*, a player would normally "stop" and not assume anything else about his hand. However, this is a special situation: when the original *Finesse* was given, it was a message that the focus of the clue was playable. *Information Lock Principle* applies, and it means that the original focus of the clue is also playable.
+- For example, in a 3-player game:
+  - It is the first turn and nothing is played on the stacks.
+  - Bob has a red 3 and a red 2 (on slots 1 and 2 respectively).
+  - Cathy has a red 1 on slot 1 (in *Finesse Position*).
+  - Alice clues Bob red (as an *Out-of-Order Reverse Finesse*). The focus of the clue is the red 3 on slot 1.
+  - Bob sees the red 1 on Cathy's *Finesse Position*, so he has to respect that it could be *Reverse Finesse*. Bob discards.
+  - Cathy blind-plays red 1.
+  - Alice must now give a *Fix Clue* to Bob, or else red 3 will be misplayed as red 2.
+  - Alice clues number 2 to Bob.
+  - Bob plays red 2.
+  - Bob knows that his other red card **must** be red 3, since it was originally clued as playable and it caused a *Reverse Finesse*.
+
+#### Interaction with 5 Color Ejection
+
+* The *5 Color Ejection* takes precedence over the *Out-of-Order Finesse* as long as the two-or-more-blind-plays rule is satisfied.
+* For example, in a 3-player game, this would be a *5 Color Ejection*:
+  * It is the first turn of the game and nothing is played on the stacks.
+  * Alice clues red to Cathy, touching a red 5 on slot 1, a red 1 on slot 2, and a red 2 on slot 3.
+  * Bob knows that this could be an *Out-of-Order Finesse*. Specifically, if Bob gives a follow-up number 5 *Fix Clue* to Cathy, then Cathy would play the red 1, Cathy would play the red 2, and Bob would blind-play the red 3, Bob would blind-play the red 4, into Cathy's red 5.
+  * However, this line would require Bob to blind-play 2 cards, so Bob knows that he should prefer a *5 Color Ejection* instead.
+* For example, in a 3-player game, this would be an *Out-of-Order Finesse*:
+  * It is the first turn of the game and nothing is played on the stacks.
+  * Alice clues red to Cathy, touching a red 5 on slot 1, a red 1 on slot 2, a red 2 on slot 3, and a red 4 on slot 4.
+  * Bob knows that this could be an *Out-of-Order Finesse*. Specifically, if Bob gives a follow-up number 5 *Fix Clue* to Cathy, then Cathy would play the red 1, Cathy would play the red 2, Bob would blind-play the red 3, Cathy would play the red 4, and then Cathy would play the red 5.
+  * Since this line only requires that Bob blind-plays 1 card, he knows that it cannot be a *5 Color Ejection*, so Bob performs the *Fix Clue* to allow for the *Out-of-Order Finesse*.
+
+### The Suboptimal Prompt & The Suboptimal Finesse & The Suboptimal Bluff
+
+- If the other copy of a card is in the trash, then the remaining copy is critical and needs to be saved. Critical cards of this nature can be saved with either a color clue or a number clue.
+- If both types of clues will **only** introduce one new card, then it is said that that there is a *Free Choice* between the two clue types.
+- In this situation, the clue type will be chosen that "fills in" other ancillary cards in the hand or gives important negative information.
+- If a clue type is chosen that is **clearly worse** than the other one, then the clue giver must be trying to communicate something extra.
+- The means that this innocent-looking *Save Clue* is really a *Play Clue*, and all of the in-between cards are called for.
+- Note that for a *Suboptimal Save Finesse* to work, the clue has to be **really bad**, not just technically suboptimal in some slight way.
+
+### The Good Touch Bluff
+
+- Care has to be taken so that a *Bluff* does not look like a *Finesse*. For example, in a 4-player game:
+  - Red 2 and blue 2 are played on the stacks.
+  - Alice clues Cathy number 4, which touches a red 4.
+  - Bob blind-plays a blue 3 from his *Finesse Position*.
+  - Since 3 matches 4, Cathy knows she has the blue 4, and goes on to misplay red 4 as blue 4.
+  - Thus, Alice should not have given this clue.
+- However, what if someone else on the team already has the matching card? In this situation, the clue can be given without fear: from *Good Touch Principle*, the clue recipient will know that it is a *Bluff* instead of a *Finesse*.
+- For example, in a 4-player game:
+  - Red 2 and blue 2 are played on the stacks.
+  - Alice clues Cathy number 4, which touches a red 4.
+  - Bob blind-plays a blue 3 from his *Finesse Position*.
+  - Cathy's first thought is that since 3 matches 4, she must have the blue 4. However, Cathy sees that Donald already has a clued blue 4 it in his hand. (The blue 4 just has a blue clue on it and the true identity of the card is not yet known to Donald.)
+  - Cathy knows that she must **not** have the blue 4, because then Alice's clue would have violated *Good Touch Principle*. Cathy can reason that her 4 is instead some **other** *one-away-from-playable* 4. The only other valid *Bluff* target is the red 4 (because the only *one-away-from-playable* 4 is red 4). So, Cathy marks her number 4 card as a red 4, and discards.
+  - Donald is surprised by Alice's clue. From Donald's perspective, Cathy should have misplayed the red 4 as the blue 4, since 3 matches 4.
+  - Since Cathy did not misplay, Donald can reason that **he** must have the blue 4. Donald marks the previously unknown blue card in his hand as blue 4.
+
+### The Pestilent Double Bluff (PDB)
+
+- First, see the section on the *[Good Touch Bluff](#the-good-touch-bluff)*.
+- In the *Good Touch Bluff*, a *Bluff* is given that looks like a *Finesse*. However, what a *Good Touch Bluff* is performed and the "matching" card is not yet clued?
+- In this situation, if the cluer is not making a mistake, they are trying to send a deeper message - they want an extra person to blind-play.
+- For example, in a 4-player game:
+  - It is the first turn and nothing is played on the stacks.
+  - Alice goes first.
+  - Bob has a red 1 on slot 1 and a blue 2 on slot 2.
+  - Alice clues number 2 to Bob, touching a blue 2 on slot 2.
+  - Bob does not see any other 1's on *Finesse Position*. Thus, the number 2 clue must be a *Self-Finesse*, so he blind-plays a red 1. Bob now knows that his clued 2 is a red 2 and marks it accordingly.
+  - Cathy comes next. From Cathy's perspective, Bob will incorrectly mark his 2 as a red 2 (but it is really a blue 2). If nothing else happens, Bob will go on to misplay that card.
+  - Cathy knows that technically, she could give a *Fix Clue* to Bob to fix the situation. However, is that what Alice really intended? That would be a waste of a clue and would be really inefficient. Alice must be trying to communicate something extra.
+  - Cathy knows that this must be a *Pestilent Double Bluff*, so she blind-plays her *Finesse Position* card. It is a red 2 and it successfully plays.
+  - Bob gasps in surprise when Cathy blind-plays. He knows that the only reason that Cathy would blind-play is because of Alice's clue. This must be what Alice intended all along, which means that Bob must not actually have the red 2. (The red 2 is already played now, so Bob knows that Alice would not violate *Good Touch Principle*.) Bob updates his note from "red 2" to "blue 2, green 2, yellow 2, or purple 2".
+- In this example, Cathy knows that the initial clue was "diseased", and Cathy blind-plays a card to "heal" the situation. This is where the name *Pestilent Double Bluff* comes from.
+- In this example, Cathy blind-plays the exact copy of the card that Bob was mistaken about. However, notice that Cathy could actually blind-play **any** playable card. Even if Cathy does not blind-play the red 2, blind-playing a card would still "heal" the situation, because Bob would know that Cathy is blind-playing from Alice's clue.
+- A *Pestilent Double Bluff* is similar to a normal *Double Bluff* in that it gets two people in a row to blind-play their *Finesse Position*, getting two unrelated cards. However, unlike a normal *Double Bluff*, a *Pestilent Double Bluff* is initiated by cluing a *one-away-from-playable* card (instead of a two-or-more-away-from-playable card).
+- Furthermore, consider the case where Cathy sees a red 2 in the middle of someone else's hand (e.g. Donald's hand). In this hypothetical, Cathy could just give a *Play Clue* to the red 2 in Donald's hand, Donald would play the card. This clue would "heal" the situation, because Bob would no longer think that he has the red 2. However, we agree that Cathy should **not** do this and should **still** blind-play her *Finesse Position* card. (This is because doing something weird like this for a 3-for-2 is not strong enough.)
+- Additionally, consider the case where Cathy sees **both** copies of red 2 in someone else's hand (e.g. Donald's hand). In this hypothetical, Bob would not go on to misplay the red 2, so no further action is needed to heal the situation. However, we agree that Cathy should **still** blind-play her *Finesse Position* card (as a *Known Pestilent Double Bluff*). (This is because seeing both copies is so rare that we do not want complicate things by having to consider it.)
+- More examples of a *Pestilent Double Bluff* can be found [here](examples/pestilent_double_bluff.md).
+
+### The No-Information Double Finesse
+
+- Sometimes, a card that is two-away-from-playable is re-clued in order to initiate a *Finesse* or a *Bluff*. Most times, the clue will "fill in" or give extra information to the existing card.
+- Other times, the clue will give no information (e.g. re-cluing number 3 to an already known 3). In this situation, if it was merely a *Bluff*, it would be pretty low value.
+- Thus, by convention, a "no information" clue on a two-away-from-playable card **must** "get" at least 2 new cards (as opposed to a single *Bluff* that only gets 1 brand new card).
+- For example, in a 3-player game:
+  - Nothing is played on the stacks.
+  - Alice clues 3's to Cathy, which touches one 3, the red 3.
+  - Bob blind-plays blue 1. At this point, everyone knows that Alice has performed a *3 Bluff*, and from Cathy's perspective, her 3 can be any 3 at all.
+  - Cathy discards.
+  - Alice clues 3's to Cathy, which re-touches the red 3 (and gives no additional information to it).
+  - Bob blind-plays red 1. If this was a *3 Bluff*, then no-one would be promised the red 2. However, since no new information was given, it must be a *No-Information Double Finesse*. Bob sees that Cathy does not have the red 2, so he must have the red 2, and can blind-play it on his next turn.
+- The "no-information" principle can also be used to perform a *No-Information Layered Finesse* on the next player. (The next player will know that it is a *Layered Finesse* instead of a *Bluff* because some other more-useful clue could have been given to initiate the *Bluff*.)
+
+### The No-Information Double Bluff
+
+- Usually, a "no-information" clue conveys a *Double Finesse*. But you can also use it to perform a *Double Bluff* (or a *Double Half Bluff*). For example, in a 3-player game:
+  - Nothing is played on the stacks.
+  - Alice clues 3's to Cathy, which touches one 3, the red 3.
+  - Bob blind-plays blue 1. At this point, everyone knows that Alice has performed a *3 Bluff*, and from Cathy's perspective, her 3 can be any 3 at all.
+  - Cathy discards.
+  - Alice clues 3's to Cathy, which re-touches the red 3 (and gives no additional information to it).
+  - Bob blind-plays green 1. If this was a *3 Bluff*, then no-one would be promised the green 2. However, since no new information was given, it must be a *No-Information Double Finesse*.
+  - Cathy sees that Bob does not have the green 2, so she must have the green 2, so she blind-plays her *Finesse Position* card, and it is yellow 1 instead of green 2.
+  - Since two cards were blind-played (that did not match), everyone now knows that the *No-Information* clue was a *Double Bluff* instead of a *Double Finesse*. From Cathy's perspective, her 3 can (still) be any 3 at all.
 
 <br />
 
-## Special Moves
+## General Principles
 
-### The Trash Double Ignition
+### Cluing 1's in the Early Game
 
-- Towards the end of the game, if a player clues one or more brand-new trash cards, and the cards are known to be trash, then there are usually 2 possible interpretations:
+- As outlined in the [level 3 strategy section](level_3.md#tempo), Hanabi is about balancing *Efficiency* and *Tempo*.
+- As outlined in the [level 6 strategy section](level_6.md#the-value-of-one-away-from-playable-cards), *one-away-from-playable* cards are valuable.
+- So, players have to balance *Efficiency*, *Tempo*, and "locking in" a touch on *one-away-from-playable* cards.
+- In the *Early Game*, it is very common for players to give a number 1 clue when they see a hand that has two or more 1's in it. And this type of clue is normally pretty good. But because of the previous considerations, sometimes it would be better to get the 1's with several color clues instead.
 
-#### 1) A Late-Game Trash Chop Move
+#### Example 1
 
-- Sometimes, players perform a *Trash Chop Move* by cluing known trash in another player's hand (off-chop).
-- However, players can know that *Trash Chop Move* is impossible if:
-  - they are not the clue-receiver and they can see that the *Chop Moved* card is bad
-  - they are the clue-receiver and they can determine that they are no cards left to *Chop Move* (meaning that all of the cards are accounted for, or all of the remaining cards could be given a direct *Play Clue* or a direct *Save Clue*).
+- Players should not just consider how good their individual clue is - they should also consider how their teammates can **build** on top of their clue.
+- For example, in a 3-player game:
+  - It is the first turn and nothing is played on the stacks.
+  - Bob's hand is as follows, from newest to oldest: `green 4, red 1, red 3, blue 2, blue 1`
+  - Alice would like to get the red 1 and the blue 1 played from Bob's hand. (No-one else has a red 1 or a blue 1.) Should Alice clue number 1, red, or blue?
+  - If Alice clues number 1, it would be a 2-for-1 clue. But then the team will probably spend a clue getting the blue 2. This will result in an efficiency of 3-for-2. And the red 3 will probably end up being discarded. Bad.
+  - If Alice clues blue, it would be a 2-for-1 clue. But then the team will no longer be able to give a red clue, because it would be *Chop-Focused* on the red 3. So they would have to clue number 1, which would result in an efficiency of 3-for-2. Bad.
+  - Thus, Alice should clue red first, and then clue blue later, resulting in an efficiency of 4-for-2.
 
-#### 2) A Late-Game *Trash Push* (or a *Trash Push Finesse*)
+#### Example 2
 
-- Sometimes, players perform a *Trash Push* (or a *Trash Push Finesse*) by cluing known trash in another player's hand (on-chop).
-- However, players can know that a *Trash Push* is impossible if:
-  - they are not the clue-receiver and they can see that the "pushed" card is bad
-  - they are the clue-receiver and they can determine that they are no more cards left to *Trash Push*
+- When players make the choice between cluing number 1 or cluing color, the cards in other people's hands should also be considered.
+- For example, in a 4-player game:
+  - It is the first turn and nothing is played on the stacks.
+  - Cathy's hand is as follows, from newest to oldest: `red 1, green 4, blue 3, blue 1`
+  - Donald is holding a cluable red 2.
+  - Alice would like to get the red 1 and the blue 1 played. (No-one else has a red 1 or a blue 1.) Should she clue 1, red, or blue?
+  - Just like in the previous example, cluing number 1 means that the red 2 will have to be clued as a 1-for-1, which results in an efficiency of 3-for-2.
+  - Instead, Alice clues red to Donald, performing the *Finesse* as a 2-for-1. Next, Bob clues blues to Cathy as a 2-for-1. In total, this is a 4-for-2.
 
-#### Otherwise, a Trash Double Ignition
+#### Example 3
 
-- If the known trash clue cannot be either of these two things, then it communicates a *Trash Double Ignition*.
-- Players should always assume a *Trash Double Ignition* over a *Bad Trash Chop Move Ejection*, since the latter is very rare. (*Bad Trash Chop Move Ejection* is an advanced move that is covered later on.)
-- Also, see the section on [Trash Ejection](extras/ejections.md#trash-ejection).
+- As explained in the [beginner's guide](beginner.md#other-general-strategy), it is almost always better to give a *Play Clue* instead of a *Save Clue* if a player has a playable card in their hand.
+- However, building on the theme of having teammates "build" on your clues, sometimes it is better to give a *Save Clue* first and then a *Play Clue* later.
+- For example, in a 3-player game:
+  - It is the first turn and nothing is played on the stacks.
+  - Cathy's hand is as follows, from newest to oldest: `blue 4, blue 4, red 3, red 1, blue 5`
+  - Alice would like to get the red 1 played. (No-one else has a red 1 in their hand.) Alice also knows that the team needs to eventually save the red 5.
+  - If Alice clues number 1 first to get the red 1, then the team will need to give a *5 Save* to save the blue 5, resulting in an efficiency of 2-for-2.
+  - Instead, Alice clues number 5 as a *5 Save*, which allows Bob to follow up with a red *Chop-Focus Play Clue*. This touches the red 3 as a 2-for-1, allowing for an overall efficiency of a 3-for-2.
 
-### Replay Double Ignition
+#### Other Considerations
 
-- When a player re-clues a globally-known playable card, it is a "useless" clue.
-- Usually, when this occurs, it is because a player is in a [stalling situation](level_6.md#allowable-stall-clues-stall-table) and cannot discard. (This is most common in [the *End-Game*](level_6.md#burning-end-game-stalling).
-- If a player is not in a stalling situation, then they must be trying to send a deeper message - a *Double Ignition*. This is called a *Replay Double Ignition* because you are re-giving a *Play Clue*.
-- The *Replay Double Ignition* must not introduce any new cards as part of the clue.
-- The *Replay Double Ignition* can be performed all throughout the game. (Conversely, the *Trash Double Ignition* can only be performed towards the end of the game.)
-- Also, see the section on [Replay Ejection](extras/ejections.md#replay-ejection).
-
-### Poke Double Ignition
-
-- When a player re-clues a globally-known trash card, it is a "useless" clue.
-- Usually, when this occurs, it is because a player is in a [stalling situation](level_6.md#allowable-stall-clues-stall-table) and cannot discard.
-- If a player is not in a stalling situation, then they must be trying to send a deeper message - a *Double Ignition*. This is called a *Poke Double Ignition* because by re-touching a trash card, it is like you are poking the player.
-- The *Poke Double Ignition* must not introduce any new cards as part of the clue.
-- The *Poke Double Ignition* can be performed all throughout the game. (Conversely, the *Trash Double Ignition* can only be performed towards the end of the game.)
-- Also, see the section on [Poke Ejection](extras/ejections.md#poke-ejection).
+- Just in case you thought Hanabi was not difficult enough, there are some other factors to consider when finding the best clue:
+  - Does giving a color clue put a playable card on *Finesse Position*? If so, maybe a color clue is better.
+  - Does giving a number 1 clue give the player the ability to perform a useful *Order Chop Move*? If so, maybe a number 1 clue is better.
+  - Are there other ways to touch the extra cards from a color clue? If so, maybe a number 1 clue is better.

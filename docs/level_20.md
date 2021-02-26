@@ -1,100 +1,73 @@
 ---
 id: level_20
-title: Level 20 - Emergency Discards
+title: Level 20 - Ignition
 ---
 
 - Level 20 strategies should only be learned if you have 360+ games of experience with the group.
 
 <br />
 
+## Conventions
+
+### Ignition
+
+- An *Ignition* is a type of move that makes someone blind-play a card from their *Finesse Position*.
+- An *Ignition* is different from a *Finesse* and a *Bluff* because the blind-play from an *Ignition* is:
+  - unrelated to the clue that was given
+    - e.g. It doesn't "match", which is unlike a *Finesse*, but like a *Bluff*.
+  - unrelated to the *playability* of the clued card
+    - e.g. Nothing needs to be "proved" to the player who got clued, which is unlike a *Finesse*, and unlike a *Bluff*.
+
+### Double Ignition
+
+- Several types of "useless" clues trigger a *Double Ignition*. These different types are listed below.
+- When a *Double Ignition* is triggered, it means that two players on the team need to blind-play their *Finesse Position* card as any playable card.
+  - *Double Ignition* does not necessarily have to be on the next two players. It can be on anyone.
+- In most circumstances, a *Double Ignition* should be clear. This is because the two players that have a playable card will each see that the clue giver should have clued the other playable card directly (instead of giving a "useless" clue).
+- Sometimes, three players on the team will have playable cards on *Finesse Position*. If a *Double Ignition* is performed in this case, similar to how an *Ambiguous Finesse* works, it will "get" the two cards from the final two players. (Bob will do nothing because he sees that the *Double Ignition* is on Cathy and Donald.)
+
+<br />
+
 ## Special Moves
 
-### Phantom Playable Cards
+### The Trash Double Ignition
 
-- First, see the section on [the definition of "playable" cards](level_1.md#play-clues--delayed-play-clues--the-definition-of-playable).
-- For a card to be *delayed playable*, it needs to be playable "through" other clued cards or "through" cards on *Finesse Position*. In other words, we are allowed to give *Play Clues* to *delayed playable* cards.
-- Consider that a slightly different category of card can exist. A card is *Phantom Playable* if it is playable "through" cards that are visible in someone's hand, but the in-between cards are not on *Finesse Position* and are not yet clued. We are **not** allowed to give *Play Clues* to *Phantom Playable* cards - at least not until the other cards are clued first.
-- From *Save Principle*, we know that everyone agrees to not let *playable* or *delayed playable* cards get discarded.
-- If possible, the team should also try to protect *Phantom Playable* cards from being discarded as well, since they are nearly as important as *delayed playable* cards. For example, it is common for other people on the team to discard in order to let the player with the *Phantom Playable* card be the one to give a *Play Clue* to the in-between card.
-- Sometimes, *Phantom Playable* cards have to be discarded when the team is low on clues or in an otherwise tight situation. While regrettable, this is perfectly okay and does happen from time to time.
+- Towards the end of the game, if a player clues one or more brand-new trash cards, and the cards are known to be trash, then there are usually 2 possible interpretations:
 
-### The Scream Discard for a Phantom Playable Card
+#### 1) A Late-Game Trash Chop Move
 
-- First, see the section on the *[Scream Discard](level_6.md#the-scream-discard-chop-move-deliberately-discarding-instead-of-playing)* and the section on *[Phantom Playable Cards](#phantom-playable-cards)*.
-- Normally, you are only allowed to perform a *Scream Discard* for a critical card or a playable card. But what about a *Phantom Playable Card*?
-- In most cases, players should also *Scream Discard* for a *Phantom Playable Card*, but it depends on the situation:
-  - Will it be clear to everyone what is happening?
-  - Will the in-between cards get clued right away?
-  - Are there other critical cards on chop that need to be saved or will need to be saved soon?
-  - Is the *Phantom Playable* card a 3 or a 4?
-- In summary, it is better for the team to let a *Phantom Playable* card get discarded in a tricky or tight situation, **especially** if it is a 4.
-- Another way of saying this is that the team should never "bend over backwards" for a *Phantom Playable* card. Consider that a *Scream Discard* always has a small chance to lose the game (if the *Scream Discarded* card was itself critical).
+- Sometimes, players perform a *Trash Chop Move* by cluing known trash in another player's hand (off-chop).
+- However, players can know that *Trash Chop Move* is impossible if:
+  - they are not the clue-receiver and they can see that the *Chop Moved* card is bad
+  - they are the clue-receiver and they can determine that they are no cards left to *Chop Move* (meaning that all of the cards are accounted for, or all of the remaining cards could be given a direct *Play Clue* or a direct *Save Clue*).
 
-### The Sacrifice Discard
+#### 2) A Late-Game *Trash Push* (or a *Trash Push Finesse*)
 
-- First, see the section on the *[Scream Discard](level_6.md#the-scream-discard-chop-move-deliberately-discarding-instead-of-playing)*.
-- It is generally undesirable for a player to have a *Locked* hand, but sometimes it happens. And sometimes, one card in the locked hand is useful in the future, but not critical (meaning there is another copy of the card in someone else's hand or still in the deck).
-- Normally, you are never supposed to discard cards that have clues on them. And if you do, it implies a *Sarcastic Discard* or a *Gentleman's Discard*. However, when a player is locked, they can choose to "sacrifice" one of the cards in their hand that is non-critical. And in this situation, it does **not** imply a *Sarcastic Discard* or a *Gentleman's Discard*.
-- Sometimes, when a *Locked* player discards a non-critical card, it is a *Generation Discard*, and sometimes, it is a *Sacrifice Discard*. The other players on the team just have to decide which one it is based on how well the game is going. Usually, it is pretty obvious which one of the two it is, as *Sacrifice Discards* are usually very rare and are only done in very dire situations.
+- Sometimes, players perform a *Trash Push* (or a *Trash Push Finesse*) by cluing known trash in another player's hand (on-chop).
+- However, players can know that a *Trash Push* is impossible if:
+  - they are not the clue-receiver and they can see that the "pushed" card is bad
+  - they are the clue-receiver and they can determine that they are no more cards left to *Trash Push*
 
-### The Shout Discard Chop Move
+#### Otherwise, a Trash Double Ignition
 
-- First, see the section on the *[Scream Discard](level_6.md#the-scream-discard-chop-move-deliberately-discarding-instead-of-playing)*.
-- Normally, when a player performs a *Scream Discard*, they are discarding their chop (e.g. an unknown and unclued card).
-- However, if a player has both a known-playable card and a known-trash card, then discarding the known-trash card instead of playing their known-playable card would *still* communicate a *Scream Discard* to the next player in the exact same way.
-- This situation is slightly different than the normal case, so we call it a *Shout Discard* to differentiate it from a more-ordinary *Scream Discard*.
-- A *Shout Discard* *Chop Moves* the very next player in the exact way that a *Scream Discard* does.
-- A *Shout Discard* forces the next player to **not** discard on their turn in the exact way that a *Scream Discard* does.
-- Normally, a *Scream Discard* is only allowed to *Chop Move* a critical card or a playable card. However, unlike a *Scream Discard*, it is permissible to use a *Shout Discard* to *Chop Move* any card that is desirable, even if it is not critical or playable.
-- Normally, a *Scream Discard* is only allowed if the team is at 0 clues (or if cluing the card is impossible). However, unlike a *Scream Discard*, it is permissible to use a *Shout Discard* to *Chop Move* regardless of the number of clues that the team has.
-- Normally, a *Scream Discard* would turn into an *Echo Scream Discard* if the next player has a playable card. *Shout Discards* can also turn into *Echo Shout Discards*, but only if the team is completely out of clues and it can be seen to be a "last-resort" move.
+- If the known trash clue cannot be either of these two things, then it communicates a *Trash Double Ignition*.
+- Players should always assume a *Trash Double Ignition* over a *Bad Trash Chop Move Ejection*, since the latter is very rare. (*Bad Trash Chop Move Ejection* is an advanced move that is covered later on.)
+- Also, see the section on [Trash Ejection](extras/ejections.md#trash-ejection).
 
-### The Whisper Discard Chop Move
+### Replay Double Ignition
 
-- First, see the section on the *[Scream Discard](level_6.md#the-scream-discard-chop-move-deliberately-discarding-instead-of-playing)*.
-- Occasionally, a player will have known trash in their hand. Obviously, they are expected to discard the known trash first before discarding their right-most unclued card.
-- Thus, if a player instead discards their right-most unclued card instead of the known trash, it must be a signal that something is wrong, exactly like a *Scream Discard*. This is more subtle than a *Scream Discard* though, so it is called a Whisper Discard.
-- *Whisper Discards* are to be treated identically to *Scream Discards*. In short, this means that they 1) cause a *Chop Move* and 2) force a clue to be given on the next turn.
+- When a player re-clues a globally-known playable card, it is a "useless" clue.
+- Usually, when this occurs, it is because a player is in a [stalling situation](level_6.md#allowable-stall-clues-stall-table) and cannot discard. (This is most common in [the *End-Game*](level_6.md#burning-end-game-stalling).
+- If a player is not in a stalling situation, then they must be trying to send a deeper message - a *Double Ignition*. This is called a *Replay Double Ignition* because you are re-giving a *Play Clue*.
+- The *Replay Double Ignition* must not introduce any new cards as part of the clue.
+- The *Replay Double Ignition* can be performed all throughout the game. (Conversely, the *Trash Double Ignition* can only be performed towards the end of the game.)
+- Also, see the section on [Replay Ejection](extras/ejections.md#replay-ejection).
 
-### The Echo Scream Discard Chop Move
+### Poke Double Ignition
 
-- First, see the section on the *[Scream Discard](level_5.md#the-scream-discard-chop-move-deliberately-discarding-instead-of-playing)*.
-- A *Scream Discard Chop Move* is done only as a last resort. So, if the next player has an unimportant card on chop, then the move is usually a *Generation Discard* and does not *Chop Move* anyone.
-- However, what if a *Scream Discard* is done and the next player has either:
-  - a known playable card
-  - a known safe trash discard
-- Since *Scream Discards* are only done as a last resort, the clue must have some other meaning. So, it *Chop Moves* both the next player **and** the player after that. This is called an *Echo Scream Discard*, because it "bounces" off the next player and travels to the next player after that as a "double scream".
-- Similar to a normal *Scream Discard*, all of the players who are *Chop Moved* are not allowed to discard on their next turn.
-- In the unlikely scenario where **two** people in a row have known plays / known safe discards, then the *Echo Scream Discard* will bounce off of two people and perform **three** *Chop Moves* in total. (And three people in a row cause four *Chop Moves*, and so forth.)
-- An *Echo Whisper Discard* works in the same way.
-
-### The Composition Discard
-
-- First, see the section on the *[Scream Discard](level_6.md#the-scream-discard-chop-move-deliberately-discarding-instead-of-playing)* and the *[Generation Discard](level_5.md#the-generation-discard)*.
-- In rare cases, it is possible for a discard to be both a *Scream Discard* and a *Generation Discard* at the same time, for two different players.
-- For example, in a 4-player game:
-  - There are 0 clues in the bank.
-  - Alice needs to plan ahead for her turn.
-  - Bob and Donald both have a critical chop card. Cathy has a safe discard.
-  - Alice and Bob both have one known playable card in their hand.
-  - So, if Alice plays, Bob will perform a *Generation Discard*, and discard a critical card. This is not an option.
-  - Therefore, Alice must discard. This is a *Scream Discard* to Bob, and he should *Chop Move*. It is also a *Generation Discard* to Cathy, and she should not *Chop Move*.
-
-### The Rebellious Discard
-
-- First, see the section on the *[Scream Discard](level_6.md#the-scream-discard-chop-move-deliberately-discarding-instead-of-playing)*.
-- Part of the *Scream Discard* convention states that after a *Scream Discard*, the next player **cannot** discard. Thus, a player in this situation must completely waste a clue if there is nothing productive to do.
-- However, in some situations, the player who has been screamed at sees that if they give a clue, the next player will be left at 0 clues and will be forced to discard a critical card.
-- Thus, in this situation, the player should *Chop Move* as normal and then discard their new chop. This second *Scream Discard* is called a *Rebellious Discard*, because they are not doing what they are told.
-- For example, in a 3-player game:
-  - Red 4 is in the discard pile.
-  - There are 0 clues available.
-  - Alice has a known-playable blue 2.
-  - Bob has a critical red 4 on chop. Bob has no playable cards in his hand.
-  - Cathy's hand is *Locked*. All of the cards in Cathy's hand are critical. None of these cards are playable.
-  - Alice looks into the future and sees that if she plays the blue 2, Bob will be forced to discard the critical red 4, since the team is currently at 0 clues.
-  - Thus, Alice performs a *Scream Discard*, discarding instead of playing the known-playable blue 2.
-  - Bob knows that Alice performed a *Scream Discard*, so he marks his chop card as *Chop Moved*.
-  - Bob also knows that, as per the *Scream Discard* rules, he is not allowed to discard on this turn, and must give some clue instead (in case he has two critical cards in a row).
-  - However, in this case, if Bob did that, then Bob would be using the last clue, and then Cathy would not have a clue available and would be forced to discard a critical card.
-  - Thus, Bob knows that he must perform a *Rebellious Discard* in order to provide a clue for Cathy to do something.
+- When a player re-clues a globally-known trash card, it is a "useless" clue.
+- Usually, when this occurs, it is because a player is in a [stalling situation](level_6.md#allowable-stall-clues-stall-table) and cannot discard.
+- If a player is not in a stalling situation, then they must be trying to send a deeper message - a *Double Ignition*. This is called a *Poke Double Ignition* because by re-touching a trash card, it is like you are poking the player.
+- The *Poke Double Ignition* must not introduce any new cards as part of the clue.
+- The *Poke Double Ignition* can be performed all throughout the game. (Conversely, the *Trash Double Ignition* can only be performed towards the end of the game.)
+- Also, see the section on [Poke Ejection](extras/ejections.md#poke-ejection).

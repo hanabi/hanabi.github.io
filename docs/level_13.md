@@ -1,6 +1,6 @@
 ---
 id: level_13
-title: Level 13 - Double Bluffs
+title: Level 13 - Trash Moves
 ---
 
 - Level 13 strategies should only be learned if you have 220+ games of experience with the group.
@@ -9,128 +9,79 @@ title: Level 13 - Double Bluffs
 
 ## Special Moves
 
-### The Double Half Bluff (DHB)
+### The Trash Bluff
 
-- Sometimes, you see that two players in a row have playable *Finesse Position* cards. However, they are unrelated, so you can't get them both played with a *Double Finesse*. In this situation, by performing a clue that looks like a *Double Finesse*, you can get the first card played like a normal *Finesse* and the second card like a *Bluff*.
+- Normally, when a trash card is clued, it signifies a *Trash Chop Move* or a *Trash Push*. However, for both of these strategies to work, it is assumed that the recipient of the clue will know that the card that was touched is useless.
+- What if the recipient of the clue does **not** know that the card that the clued card is trash? Then, they will go on to misplay that card, mistaking it for a "normal" *Play Clue*.
+- If players misrepresent the identity of a trash card in this way, it is a signal for the next person to blind-play their *Finesse Position* card. This is extremely similar to how a *Finesse* or a *Bluff* works (e.g. a clued card has been misrepresented as being immediately playable).
+- *Trash Bluffs* are a good tool to get a card played that is sitting behind other annoying cards.
+- For example, in a 3-player game:
+  - All of the 1's are played on the stacks **except** for the red 1.
+  - Cathy has no clued cards in her hand.
+  - Alice clues Cathy number 1, which only touches her newest (slot 1) card. This card is a blue 1, but Cathy will assume that it is a red 1.
+  - Bob blind-plays his *Finesse Position* card, and it is a playable blue 2.
+  - Cathy now knows that her 1 must not be red 1, or else Bob would not have blind-played anything. The 1 must be some other trash card.
+- Just like normal *Bluffs*, *Trash Bluffs* can only be done while in *Bluff Seat*.
+- Normal *Bluffs* take precedence over *Trash Bluffs*. This means that players can **only** use cards to *Trash Bluff* with if they will be proved to be trash by a blind-play.
+  - For example, if not all of the 1's have been played on the stacks, then you can use a number 1 clue to initiate a *Trash Bluff*, because a blind-play will prove that the clued 1 is not a good 1.
+  - For example, if the red stack is played up to the red 3, then you **cannot** use a red clue to initiate a *Trash Bluff*, because a blind-play will make the clued card look like the red 5.
+  - For example, if the red stack is played up to the red 4, then you can use a red clue to initiate a *Trash Bluff*, because a blind-play will prove that the clued card is not a red 5.
+- In the case where multiple cards are clued as part of a *Trash Bluff*, **all** of the touched cards are considered to be trash. However, the focus of the clue should be the first thing discarded, which allows for the possibility of your teammates to give a follow-up *Fix Clue*.
+
+### The Trash Finesse
+
+- In a *Finesse*, we would say that the clue "matches" the blind-play. For example, a blue clue on a blue 2 matches a blind-play of blue 1. Or, a number 2 clue on blue 2 matches a blind-play of blue 1.
+- In a *Bluff*, we would say that the clue does not "match" the blind-play. For example, a blue clue on a blue 2 does not match a blind-play of a red 1. Or, a number 2 clue on a blue 2 does not match the blind-play of a red 2.
+- In the *Trash Bluff* example above, a blue 1 is used to *Trash Bluff* a blue 2. Similar to a *Bluff*, we would say this number 1 clue does not match the blind-play of a blue 2.
+- What if the *Trash Bluff* instead got a red 1 to blind-play? In this context, the red 1 would actually "match" the number 1 clue. Another way of saying this is that by cluing the trash 1 with a number 1 clue, the clue giver is saying that they **see** a matching 1 that is good.
+- Thus, it is possible to perform a *Trash Bluff* outside of *Bluff Seat* if the "matching" card is on someone's *Finesse Position*. When this is done, it promises that someone has that specific card, so we call it a *Trash Finesse* rather than a *Trash Bluff*.
 - For example, in a 4-player game:
-  - Red 1 is played on the stacks.
-  - Alice clues Donald red, which touches a red 4 as a *Play Clue*.
-  - Bob goes next and assumes that it is a *Double Self-Finesse* - he has the red 2 and red 3 in his two newest slots. Thus, he blind-plays his left-most and it is red 2, as expected.
-  - Cathy goes next. Cathy sees that Bob does **not** have red 3 in his *Second Finesse Position* (and no one else has a red 3 in their *Finesse Position* either). Thus, Cathy must have the red 3. Cathy tries to blind-play red 3 from her *Finesse Position*, but is blue 1 instead.
-  - Bob now knows he does not have the red 3 anymore, since Cathy blind-played.
-  - Cathy now knows that since two blind-plays happened in a row, she does **not** have the red 3 and that she was *Bluffed*.
-  - At first, Donald thought that the red card in his hand was red 2 (as a *Play Clue*).
-  - After Bob blind-played, Donald thought that the red card in his hand was red 3 (as a *Finesse*).
-  - After Cathy blind-played, Donald knows that he must have the red 4 (as a *Double Half Bluff*).
-- Normally, players are only allowed to perform *Bluffs* while sitting in *Bluff Seat*. The *Double Half Bluff* is one of the few exceptions to the rule. (It is allowed because the *Fib* still resolves "immediately", which satisfies *Lie Principle*.)
+  - All the 1's are played on the stacks except for red 1.
+  - Alice clues number 1 to Donald, which touches a blue 1. To Donald, this will look like it is a red 1.
+  - At first glance, Bob might think this is a *Trash Bluff*, causing him to blind-play his *Finesse Position* card as either red 1 or some other currently-playable card.
+  - However, Bob also sees that Cathy has a red 1 on her *Finesse Position*. Thus, Alice's clue was a *Trash Finesse* instead of a *Trash Bluff*, since it is promises a playable 1.
+  - Thus, Bob discards.
+  - Cathy blind-plays her *Finesse Position* card and it is red 1.
+  - Donald discards his known-trash 1.
+- *Double Trash Finesses* are explicitly disallowed. Thus, it is possible to perform a *Trash Finesse* in a situation like this:
+  - All the 1's are played on the stacks except for red 1 and blue 1.
+  - Alice clues number 1 to Donald, which touches two green 1's on slot 1 and 2. To Donald, this will look like it is both the red 1 and the blue 1.
+  - Like in the previous example, Bob sees that Cathy has a red 1 on her *Finesse Position*.
+  - At first glance, Bob might think that Alice is promising both red 1 and blue 1, which would mean that he would need to blind-play the blue 1.
+  - However, a *Trash Finesse* only promises at least one matching card, and since he sees that Cathy has a matching card, then that is good enough. Thus, Bob discards.
+  - Cathy blind-plays her *Finesse Position* card and it is red 1.
+  - Donald knows that the focus of the clue (slot 1) is certainly trash, since that caused Cathy to blind-play.
+  - Furthermore, Donald knows that his slot 2 card is also trash, because all the cards touched in a *Trash Bluff* or *Trash Finesse* are guaranteed to be trash.
 
-### The Double Bluff
+### The Reverse Trash Finesse
 
-- Similar to a *Double Half Bluff*, it is also possible to get 2 cards played in a row that are completely unrelated. It is distinct from a *Double Half Bluff* because **none** of the blind-played cards match the card that is clued.
-- For example, in a 4-player game:
-  - Red 1 is currently played on the stacks.
-  - Alice clues Donald red, which touches a red 4 as a *Play Clue*.
-  - Since red 4 must be playable right now, Bob thinks he has the red 2 and the red 3. Bob blind-plays his *Finesse Position* card, but it is actually a blue 1.
-  - Cathy sees that Bob blind-played because of the red clue. However, since the red 4 is a two-away from playable card instead of a *one-away-from-playable* card, it must mean that it is a *Double Bluff* instead of a single *Bluff*. Cathy blind-plays her *Finesse Position* card and it is yellow 1.
-  - At first, Donald thought that the red card in his hand was red 2 (as a *Play Clue*).
-  - After Bob blind-played, Donald thought that the red card in his hand was red 3 (as a *Bluff*).
-  - After Cathy blind-played, Donald knows that he must have the red 4 (as a *Double Bluff*).
-- Normally, players are only allowed to perform *Bluffs* while sitting in *Bluff Seat*. The *Double Bluff* is one of the few exceptions to the rule. (It is allowed because the *Fib* still resolves "immediately", which satisfies *Lie Principle*.)
+- First, see the section on the *[Trash Finesse](#the-trash-finesse)*.
+- It is also possible to perform a *Trash Finesse* in reverse. This is much harder to see than a forward *Trash Finesse*. Even so, players should generally entertain the possibility of this occurring.
+- When a clue looks like it could be a *Reverse Trash Finesse*, the player who receives the clue is forced into immediately discarding the card. If it was indeed a *Reverse Trash Finesse*, it will be a trash card and it will immediately demonstrate what is going on. Alternatively, if the clue was a normal *Play Clue* on a playable card, then the discard will be a *Gentleman's Discard*. By discarding, it covers both cases.
+- For example, in 3-player game:
+  - The red 1 is played on the stacks. All of the 2's are played on the other stacks.
+  - Alice clues number 2 to Bob, touching his slot 1 card as a *Play Clue*.
+  - From Bob's perspective, this is probably just a *Play Clue* on the red 2 (which happens to be the final 2 that needs to be played).
+  - However, Bob sees that Cathy also has a red 2 on her *Finesse Position*. That means that this could be a *Reverse Trash Finesse*.
+  - If it is a *Reverse Trash Finesse*, then his 2 is a trash 2 (e.g. green 2). By immediately discarding it, it will prove to Cathy that *she* has a red 2.
+  - Alternatively, if Bob does indeed have the red 2, then he can discard it to perform a *Gentleman's Discard* on Cathy.
+  - Either way, discarding will cover both cases. Bob discards the 2 and it is revealed to be a green 2.
+  - Cathy comes next. Cathy was highly surprised when Alice gave Bob a number 2 clue on the green 2. From Cathy's perspective of Bob's perspective, the green 2 clue would immediately misplay as red 2. However, when Bob discards the green 2 instead of playing it, Alice's plan becomes clear. Cathy had the red 2 all along. Cathy blind-plays her *Finesse Position* card as red 2.
+- Note that *Reverse Trash Finesses* should not always be entertained and **depend on context**. Specifically, towards the end of the game, *Reverse Trash Finesses* are "turned off". This is because towards the end of the game, the team needs tempo, and *Reverse Trash Finesses* are slow and require even more discarding.
 
-### The Triple Bluff (Illegal)
+### The Trash Push
 
-- A *Double Bluff* is when a player clues a card that is two-away-from-playable and it gets two unrelated cards to blind-play from *Finesse Position*.
-- Logically, it follows from the *Double Bluff* that if a player clues a card that is three-away-from-playable, it would cause three unrelated cards to blind-play from *Finesse Position* as a *Triple Bluff*.
-- However, this is not the case. We explicitly agree that *Triple Bluffs* are illegal and not to be used. (*Triple One-Third Bluffs* and *Triple Two-Third Bluffs* are also illegal.)
-- The consequence of this is that if a player gives a *Play Clue* to a three-away-from-playable card (e.g. either a 4 or a 5) and it causes two cards to blind-play, then the next player should **not** continue to blind-play any more cards. See the next section for more information.
+- Normally, when a useless card is clued, it signifies a *Trash Chop Move*. However, what if the useless card is actually the card on chop? Then it wouldn't be *Chop Moving* anything.
+- From *Good Touch Principle*, we know that it is pointless to spend a clue to touch a useless card on someone's chop, because if we just do nothing, the useless card will get automatically discarded.
+- Subsequently, if this is done deliberately, it must have a meaning. By doing this, it means that we want to "push" the card that is next to the useless card onto the table.
+- For example, in a 3-player game:
+  - All of the 1's are played on the stacks.
+  - Bob has no clued cards in his hand. His chop is his slot 5.
+  - Alice clues Bob number 1, which only touches his slot 5 card.
+  - Bob blind-plays his slot 4 card, and it is a playable red 2.
+- Sometimes, a *Trash Push* is the only way to get a card played that is sitting between two other annoying cards.
+- Similar to a *Bluff*, *Trash Pushes* must be immediately playable and should generally be demonstrated immediately. (This is unlike other similar moves like the *5 Pull*, which may have to wait a while.)
 
-### The 4 Double Bluff & The 5 Double Bluff
+### A Trash Flowchart
 
-- Since *Triple Bluffs* are illegal and not to be used, it is possible to perform a *Double Bluff* with a card that is not exactly two-away-from-playable. This is similar to how the *3 Bluff* convention works.
-- This is how it works for 4's:
-  - If a 4 is given a *Play Clue* and it is *one-away-from-playable*, then it would only trigger a single *Bluff* (and not a *Double Bluff*).
-  - If a 4 is given a *Play Clue* and it is *two-away-from-playable*, then it would trigger a *Double Bluff*. (This would be a "normal" *Double Bluff*.)
-  - If a 4 is given a *Play Clue* and it is *three-away-from-playable*, then it would still only trigger a double *Bluff* (as a *4's Double Bluff* specifically).
-- This is how it works for 5's:
-  - If a 5 is given a *Play Clue* and it is *one-away-from-playable*, then it would only trigger a single *Bluff* (and not a *Double Bluff*).
-  - If a 5 is given a *Play Clue* and it is *two-away-from-playable*, then it would trigger a *Double Bluff*. (This would be a "normal" *Double Bluff*.)
-    - Note that this would only happen if e.g. *5 Color Ejection* and *5 Number Discharge* would not apply.
-  - If a 5 is given a *Play Clue* and it is *three-away-from-playable* or *four-away-from-playable*, then it would still only trigger a double *Bluff* (as a *5's Double Bluff* specifically).
-    - Note that this would only happen if e.g. *5 Color Ejection* and *5 Number Discharge* would not apply.
-- For example, in a 5-player game:
-  - Nothing is played on the stacks.
-  - Alice clues Donald red, which touches a red 4 as a *Play Clue*.
-  - Bob tries to blind-play red 1 from his *Finesse Position*, but he instead plays a blue 1.
-  - Cathy knows that this must be a *Double Bluff*. She blind-plays yellow 1 from her *Finesse Position*.
-  - Now, it is Donald's turn.
-    - At first, Donald thought that the red card in his hand was red 1 (as a *Play Clue*).
-    - After Bob blind-played, Donald thought that the red card in his hand was either a red 2 (as a *Bluff*) or a red 3 (as a *3 Bluff*).
-    - After Cathy blind-played, Donald now knows that the red card in his hand is a red 4 (as a *4's Double Bluff*).
-    - (Donald knows that it cannot be a red 5, or else Bob would have blind-played his *Second Finesse Position*.)
-
-### The 4 Double Bluff That Looks like a Double Half Bluff
-
-- Because any *Bluff* sequence that gets two cards blind-played can be a 4, this means that players have to account for the fact that a card that initiates a *Double Half Bluff* could also be a 4.
-- For example, in a 4-player game:
-  - It is the first turn of the game and nothing is played on the stacks.
-  - Alice clues red to Donald, touching a red 3 as a *Play Clue*.
-  - Bob blind-plays red 1.
-  - Cathy blind-plays blue 1.
-  - Normally, Donald would know that his red card is exactly a red 3, as a *Double Half Bluff*.
-  - However, Donald also knows that any 4 in the game can be used to perform a *Double Bluff*.
-  - Thus, Donald marks his red card as either a red 3 (if it was a *Double Half Bluff*) or a red 4 (if it was a *4 Double Bluff*).
-
-### The Hard 4 Double Bluff
-
-- Similar to a *Hard 3 Bluff*, it is also possible to perform a *Hard 4 Double Bluff*.
-- For example, in a 4-player game:
-  - No cards are played on the stacks.
-  - Alice clues number 4 to Donald, touching a red 4 as a *Play Clue*.
-  - Bob blind-plays red 1 from his *Finesse Position*.
-  - Cathy blind-plays red 2 from her *Finesse Position*.
-  - Even though red 1 and red 2 are the same suit as the red 4, the team knows that no-one is promised the red 3.
-
-### The Hard 5 Double Bluff
-
-- Similar to a *Hard 3 Bluff* and a *Hard 4 Double Bluff*, it is also possible to perform a *Hard 5 Double Bluff*.
-- For example, in a 5-player game:
-  - It is the *Mid-Game* and all the 1's are played on the stacks.
-  - Alice clues number 5 to Emily, touching a red 5 as a *Play Clue*.
-  - Bob blind-plays a red 2 from his *Finesse Position*.
-  - Cathy blind-plays a red 3 from her *Finesse Position*.
-  - Donald sees that no-one else has any red cards in their hand. Thus, if this was a *Triple Finesse* on the red 5, then Donald should blind-play the red 4 right now.
-  - However, Donald also knows that 5's are valid *Double Bluff* targets. Since number 3 does not match number 5, Donald knows that he should prefer the *Double Bluff* interpretation (that gets two blind-plays) over the *Triple Finesse* interpretation (that gets three blind-plays).
-
-<br />
-
-## General Principles
-
-### Deferring a Bluff
-
-- From *Urgency Principle*, we know that players are allowed to defer a *Finesse* or a *Bluff* in order to do a *Finesse* or *Bluff* of their own. And indeed, when players see a really good clue, they should probably defer blind-playing to give the clue. But there are limits.
-- When a player knows for sure that they are *Finessed* (instead of *Bluffed*), then deferring a *Finesse* (to perform another *Finesse* or *Bluff*) is great! It has almost no downsides, other than the obvious loss of tempo. Everyone on the team is "in the know", so to speak.
-- When a player *could* be *Bluffed*, deferring a *Bluff* can be extremely dangerous because it causes *Information Desynchronization* throughout the team.
-- Deferring a *Bluff* to perform a *Finesse* can be pretty clear, depending on the situation. It should be done sparingly.
-  - Note that deferring a *Bluff* to perform a *Finesse* can potentially lose the game if the original cluer is performing a *Double Half Bluff*. So there is some risk involved.
-- Deferring a *Bluff* to perform **another** *Bluff* is much worse. Since the *Bluff* was not immediately resolved, the game state "fractures" into two valid game states for the receivers of each clue (e.g. the player who received the clue that initiated the first *Bluff*, and the player who received the clue that initiated the *Deferred Bluff*). This means that these two players will have to entertain two entire hypothetical game states in their mind and build upon each hypothetical with each new piece of information. This makes it extremely difficult for them to plan ahead or make correct decisions during their turns.
-- Thus, deferring a *Bluff* to do another *Bluff* should **almost never be performed**.
-- Also, see the below section on *Deferring a Double Bluff*.
-
-### Deferring a Double Bluff
-
-- First, see the section on *[Deferring a Bluff](#deferring-a-bluff)*.
-- If Bob suspects that Alice is performing a *Double Bluff*, then Bob should **never defer**. It is very important that *Double Bluffs* resolve immediately.
-- Similarly, if Bob blind-plays, and Cathy can not rule out a *Double Bluff*, then Cathy should **never defer**. (If Cathy defers, it will cause an unrecoverable *Information Desynchronization*, because her future blind-play will not be interpreted as related to the *Double Bluff*.)
-
-### A Table for Deferring Bluffs
-
-| Alice is deferring a               | to perform a | Ok?
-| ---------------------------------- | ------------ | ---
-| Finesse                            | Finesse      | Yes!
-| Finesse                            | Bluff        | Yes!
-| Bluff                              | Finesse      | Sometimes, use sparingly
-| Bluff                              | Bluff        | Almost never do this
-| Double Bluff (first blind-player)  | Finesse      | No, **never** do this
-| Double Bluff (first blind-player)  | Bluff        | No, **never** do this
-| Double Bluff (second blind-player) | Finesse      | No, **never** do this
-| Double Bluff (second blind-player) | Bluff        | No, **never** do this
+There are a lot of different moves that involve cluing trash. [Here is a flowchart](https://raw.githubusercontent.com/hanabi/hanabi.github.io/main/static/img/flowcharts/cluing_trash_flowchart.png) for determining the difference between the different types of special moves that touch trash. (The flowchart contains some strategies that have not been covered yet, but the three most important moves to understand are the *Trash Chop Move*, the *Trash Finesse/Bluff*, and the *Trash Push*.)

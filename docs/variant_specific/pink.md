@@ -261,7 +261,7 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 
 ### The Pink Fake Prompt & The Pink Fake Finesse
 
-* First, read the section on the *[Pink Play Clue Lie](#the-pink-play-clue-lie-with-a-mismatched-play-clue-that-touches-other-cards)*.
+* First, see the section on the *[Pink Play Clue Lie](#the-pink-play-clue-lie-with-a-mismatched-play-clue-that-touches-other-cards)*.
 * In the *Pink Play Clue Lie*, *Pink Promise* is violated when giving a *Play Clue* to a playable pink card. However, no special actions need to be taken from anyone else on the team, because the lie will automatically resolve when the card is played.
 * In some special situations, it is possible to give a *Pink Play Clue Lie* that will **not** resolve automatically. In this situation, the next player must play a card to "fix" the lie.
 * For example, in a 3-player game:

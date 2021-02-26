@@ -1,6 +1,6 @@
 ---
 id: level_16
-title: Level 16 - 5 Tech
+title: Level 16 - Elimination
 ---
 
 - Level 16 strategies should only be learned if you have 280+ games of experience with the group.
@@ -9,172 +9,143 @@ title: Level 16 - 5 Tech
 
 ## Conventions
 
-### The Low Score Phase and the Normal Score Phase
+### Elimination & Elimination Notes
 
-- At this point, you should already know that we split up the game of Hanabi into the *Early Game* and the *Mid-Game* (based on when someone discards).
-- In a similar way, we also split up the game of Hanabi into the *Low Score Phase* and the *Normal Score Phase*:
-  - The *Low Score Phase* is defined as when the score is below `2 x number of suits`. (e.g. 10 points in a no variant game, 6 points in a 3-suit game, etc.)
-  - The *Normal Score Phase* is defined as when the score is equal to or past this threshold.
-- Some special moves using a number 5 clue can only be performed in the *Low Score Phase* of the game.
-- On Hanab Live, the score will be colored cyan when the *Low Score Phase* is active.
+- Normally, your teammates would never let you discard anything important. So when you discard some playable card (or a needed 2) **and** that card is not in anyone else's hand, you might think that the team make a mistake.
+- From *High Value Principle*, you should never assume your teammates are making a mistake. One excellent reason that they would let you discard an important card is that you have the other copy in your hand. (In order to satisfy *Good Touch Principle*, they had to wait for you to discard it so that they would not duplicate the card.)
+- Thus, when you get a follow-up clue, you will know exactly what card it is.
+- For example, in a 4-player game:
+  - Red 3 is played on the stacks.
+  - Alice has a completely unclued hand.
+  - Alice discards her chop (slot 5). It is a (playable) red 4.
+  - Alice gasps in surprise - she knows that everyone on the team agrees to not let each other discard playable cards (*Save Principle*).
+  - Alice knows that the team was not in a dire situation or anything, so the only explanation is that she must have the other copy of the red 4.
+  - Alice writes a note of "r4?" on slots 2, 3, 4, and 5. (It can't be on slot 1, since that is the card she just drew.)
+  - Bob clues Alice red, which touches a card on slot 1 and slot 2.
+  - Normally, Alice would play the left-most card (slot 1) as the red 4. However, because of her notes, she knows that the red 4 must actually be on slot 2.
+  - Alice successfully plays red 4 from slot 2. Since the red 5 is the only good red card left, Alice can assume that her other red card is red 5 (from *Good Touch Principle*), and she can play it on the next turn.
+- In this example, the "r4?" notes that Alice writes are called *Elimination Notes*. *Elimination Notes* are notes that represent the possible slots for a specific card.
+- In this example, thing "thing" that triggered the writing of *Elimination Notes* was the discarding of a card, so this is called *Discard Elimination*.
+- Note that players should not always make *Elimination Notes* when they discard a playable card. In some cases, games can be extremely busy, leaving no reasonable way to get the playable card. Players must just their best judgment and account for this.
 
-### No Play Clues with a Number 5 Clue in the Low Score Phase
+### Double Discard Elimination
 
-- Normally, if a player uses a number 5 clue to clue a 5 that is two-or-more-away-from-chop, and that player is not a stalling situation, then it would be a *Play Clue* on the 5.
-- However, all number 5 clues in the *Low Score Phase* are **never** to be interpreted as a direct *Play Clue*.
-- They are instead interpreted as a more advanced move. (See the *[5 Pull](#the-5-pull)* section below.)
-- This means that if players need to give a *Play Clue* to a playable 5, and the score is less than 2 points per stack, then they **must** use a color clue, or wait until later.
+- When a player who is in a *Double Discard* situation discards anyway with an obvious clue to give (such as a *5 Stall*), it implies that they **see** the other copy of the card, and were not *Double Discarding* at all.
+- Thus, when this occurs, you should write *Elimination Notes* on your entire hand for that card.
+- This is almost exactly the same thing as *Discard Elimination*, except it is triggered by the discard of a separate player.
 
 <br />
 
 ## Special Moves
 
-### The Early 5's Chop Move
+### The Elimination Blind-Play
 
-- First, see the section on the *[5 Stall](level_7.md#the-5-stall-intermediate-section)*.
-- In the *Early Game*, players are only allowed to perform a *5 Stall* if there is nothing left to do. (Or, as a special exception, if there is only one *Play Clue* to give and that card is on *Finesse Position*.)
-- Thus, if someone clues a 5 and there **is** something else to do, they must be trying to send an additional message.
-- If the 5 is one-away from chop, they intend for an *Early 5's Chop Move*. This functions in the exact same way a normal *5's Chop Move* does (except it was done in the *Early Game*, which is not normally possible).
-
-### The 5 Pull
-
-- This convention only applies in the *Low Score Phase*.
-- Players are only allowed to perform a *5 Stall* in certain situations. If a player performs a *5 Stall* when it would otherwise be illegal, then it is not a *5 Stall* at all, and would instead be:
-  - a *5's Chop Move* if the 5 is one-away-from-chop
-  - a *Play Clue* if the 5 is two-or-more-away-from-chop
-- However, since *Play Clues* with number 5 clues are "turned off" in the *Low Score Phase*, then the cluing player must be intending something else: a *5 Pull*.
-- A *5 Pull* causes the player to blind-play the card to the right of the 5. The clued 5 is not actually related to the blind-play. This is why it is called a *Pull* instead of a *Finesse* or a *Bluff*.
-- *5 Pulls* are typically done to 5's that are on slot 1. But, for example, you can also clue a 5 in slot 2 in order to get a blind-play on slot 3.
-- *5 Pulls* take precedence over *Finesses* and *Bluffs*, because a number 5 clue is never considered to be *Play Clue*. For example:
-  - It is the *Early Game* and the *Low Score Phase*.
+- First, see the section on [Elimination](#elimination--elimination-notes).
+- In the example for *Discard Elimination*, the team clued the second copy of the red 4 directly. But in other situations, the team will **not** need to clue anything. The player with the *Elimination Notes* can eliminate the possibilities one by one. When there is only one possibility left, they can blind-play the card as an *Elimination Blind-Play*.
+- For example, in a 4-player game:
   - Red 3 is played on the stacks.
-  - Alice clues Cathy number 5, touching a red 5 on slot 1. (There are other *Play Clues* for Alice to give, so this cannot be a *5 Stall*.)
-  - Normally, Bob would think that this is a *Finesse* and that he should blind-play his *Finesse Position* card as the red 4.
-  - However, Bob knows that *Play Clues* with a number 5 clue are "turned off" in the *Low Score Phase*, which means that Alice is **not** indicating that the red 5 is playable.
-  - Bob can see that there is a playable blue 1 to the right of the 5, so Alice must be intending a *5 Pull*. When it gets to Cathy's turn, Cathy will blind-play that card.
-- Since *5 Pulls* are never *Play Clues* on the 5, it is possible to *5 Pull* a 4 without promising that the 5 matches the suit.
-- Confusingly, *5 Pulls* work differently from *Finesses*. Even though they involve playing a blind card, a *5 Pull* should be treated as a *Delayed Play Clue* (or a potential *Prompt*). This means that the blind card could play through any existing touched cards.
-- When a player is *Finessed* or *Bluffed*, they are allowed to defer playing the blind card in order to do a *Finesse* or *Bluff* of their own. However, if they could be *Bluffed*, they are **not** allowed to initiate a *5 Pull*. (Players are still allowed to defer playing into a *Finesse* in order to initiate a *5 Pull*.)
-- In the rare case where a *5 Pull* is performed in a 3-player game by touching two 5's in slot 1 and slot 3, then the *5 Pulled* card is slot 2.
-- For expert players, we define a specific [interaction between *5's Chop Moves* / *5 Pulls* and *2 Saves*](extras/save_clues.md#2-saves-interaction-with-5s-chop-moves--5-pulls).
+  - Alice has a completely unclued hand.
+  - Alice discards her chop (slot 5). It is a (playable) red 4.
+  - Alice knows that the team was not in a dire situation or anything, so the only explanation is that she must have the other copy of the red 4.
+  - Alice writes "r4?" *Elimination Notes* on slots 2, 3, 4, and 5. (It can't be on slot 1, since that is the card she just drew.)
+  - Bob clues Alice blue, which touches slots 1, 2, 3, and 4. (This is a *Play Clue* on slot 1.)
+  - Alice writes a note of "blue 1" on slot 1.
+  - Alice erases her *Elimination Notes* for the red 4 from slots 2, 3, and 4.
+  - The only card left with an *Elimination Note* is slot 5.
+  - Alice can now blind-play the red 4 when it gets to her turn as an *Elimination Blind-Play*.
 
-### A Flowchart for Cluing 5's
+### The Elimination Play Clue
 
-- Differentiating between a *5 Stall* and a *5 Pull* can sometimes be confusing. [Here is a flowchart](https://raw.githubusercontent.com/hanabi/hanabi.github.io/main/static/img/flowcharts/early_game_5_flowchart.png) that steps you through how you can tell the difference.
-
-### The 5 Pull Prompt & The 5 Pull Finesse
-
-- *5 Pulls* are also allowed to initiate a *Prompt* or *Finesse*.
-- For example, in a 4-player game:
-  - It is the first turn of the game and nothing is played on the stacks.
-  - Cathy's hand is as follows, from newest to oldest: `blue 4, blue 4, blue 5, red 2, red 2`
-  - Donald's hand is as follows, from newest to oldest: `yellow 4, yellow 4, green 1, yellow 3, yellow 3`
-  - Alice clues number 5 to Cathy, touching the blue 5 on slot 3.
-  - Bob knows that since the team is the *Early Game*, Alice's clue might be a *5 Stall*.
-  - However, Bob also knows that you are only allowed to perform a *5 Stall* if there are no normal *Save Clues* or *Play Clues* to give. Bob sees that Donald has a green 1 that could be *Play Clued*. Thus, Bob knows that Alice's clue cannot not be a *5 Stall*, which makes it a *5 Pull* instead (since it is two-or-more-away from the chop).
-  - Bob knows that if this was a *5 Pull*, it would be pulling the red 2. If Bob does nothing, Cathy might go on to misplay the red 2 as some playable 1.
-  - Thus, this must be a *5 Pull Finesse*, so Bob blind-plays his *Finesse Position*. It is a red 1 and it successfully plays.
-  - Cathy knows that the only reason that Bob would blind-play a card is it this was a *5 Pull Finesse*. Cathy blind-plays her slot 4 card. It is a red 2 and it successfully plays.
-- Unlike other types of *Finesses*, *5 Pull Finesses* **must** be demonstrated with a blind-play between when the *5 Pull* is given and the *5 Pulled* player's next turn (e.g. a *Forward Finesse*).
-- Subsequently, *5 Pulls* are **not** allowed to initiate a *Reverse Finesse*. (This is because we don't want the person with the pulled card to have to entertain too many possibilities.)
-- Remember that during a *5 Pull Finesse*, the pulled card **always** matches the blind-play. In other words, it impossible to perform a *5 Pull Bluff*.
-
-### The 5 Pull Double Finesse
-
-- First, see the section on the [5 Pull Finesse](#the-5-pull-prompt--the-5-pull-finesse).
-- As you would expect, it is also possible to perform a *5 Pull Double Finesse* in the exact same way that you can *5 Pull Finesse*.
-- The "pulled" card will always match the final blind-play.
-- For example in a 4-player game:
-  - It is the first turn of the game and nothing is played on the stacks.
-  - Donald's hand is as follows, from newest to oldest: `blue 4, blue 4, blue 5, red 3, blue 2`
-  - Alice clues number 5 to Donald, touching the blue 5 on slot 3.
-  - Bob blind-plays the red 1 (because he knows that it cannot be a *5 Stall*).
-  - Cathy blind-plays the red 2 (because she knows that she needs to play into the *Double Finesse*).
-  - Donald knows that the *5 Pulled* card is the red 3 to match the red 1 and the red 2.
-- Previously, we said that *5 Pull Finesse* **must** be a *Forward Finesse*. However, *5 Pulled* players **do** have to respect that a *5 Pull Finesse* can be a *5 Pull Double Finesse* with the second blind-play as a *Reverse Finesse*. (Specifically, we refer to this as a *Finesse* with a *Reverse Finesse* component.)
-- More examples of a *5 Pull Double Finesse* can be found [here](examples/5_pull_double_finesse.md).
-
-### The 5 Pull Clandestine Finesse
-
-- First, see the section on the [5 Pull Finesse](#the-5-pull-prompt--the-5-pull-finesse).
-- A *5 Pull Finesse* **must** be a *Forward Finesse*.
-- However, *5 Pulled* players **do** have to respect that the *Finesse* can be *Clandestine*.
-- For example in a 4-player game:
-  - It is the first turn of the game and nothing is played on the stacks.
-  - Bob's hand is as follows, from newest to oldest: `red 1, green 1, green 4, green 4, green 5`
-  - Cathy's hand is as follows, from newest to oldest: `blue 4, blue 4, blue 5, green 2, blue 2`
-  - Alice clues number 5 to Cathy, touching the blue 5 on slot 3.
-  - Bob blind-plays the red 1 (because he knows that it cannot be a *5 Stall*).
-  - Normally, Cathy would think that Alice performed a *5 Pull Finesse*, and she would blind-play her slot 4 card as the red 2 (to match the red 1).
-  - However, Cathy also sees that at the time of the clue, Bob had a playable green 1 behind the red 1. Thus, it is possible that Alice might be performing a *5 Pull Clandestine Finesse*.
-  - Cathy clues number 5 to Bob as a *5 Save*. (This is an unrelated clue.)
-  - Alice performs an unrelated action.
-  - Bob blind-plays the green 1 from slot 2.
-  - Cathy now knows that this was indeed a *5 Pull Clandestine Finesse* and that she has the green 2 on her slot 4.
-
-### The 5 Pull Promise (A Play Clue After a 5 Pull)
-
-- Normally, *5 Pulls* have to be treated as *Delayed Play Clues*. This means that sometimes, it can take a long time for the pulled card to blind-play.
-- From the perspective of the player who is *5 Pulled*, if a follow up *Play Clue* is given to a currently unplayable card, then they can disregard the *Delayed Play Clue* interpretation - the *5 Pulled* player is **promised** the card that makes the unplayable card playable.
-- For example, in a 4-player game:
-  - Alice has two clued 1's in her hand - red 1 and blue 1.
-  - Bob does a *5 Pull* on Donald. Donald knows that the *5 Pulled* card could be either red 2 or blue 2 (if it is a *Delayed Play Clue*).
-  - Cathy clues Alice about a red 3. Now, Donald knows that he is **promised** the red 2 as his *5 Pulled* card (and he no longer has to wait for the blue 1 to come down before blind-playing).
-
-### Finesses While 5 Pulled are Certain Finesses
-
-- Sometimes, a *5 Pulled* player may not play their pulled card right away. Maybe they have to wait for existing cards to play first, or maybe they want to capitalize on a *Finesse* while it is still available.
-- Any *Finesse* that a *5 Pulled* player performs is to be treated as a *Certain Finesse*.
-- Any *Certain Discard* that is performed in response to a *Finesse* that a *5 Pulled* player did applies to the *5 Pulled* card.
-
-### The 5 Pull Skip
-
-- If a player is already *Finessed*, it is possible to *Finesse* them again and get them to play their *Second Finesse Position* card.
-- Similarly, if a *5 Pull* is performed, and the card immediately to the right of a 5 is already clued or already "gotten", then the *5 Pull* skips over that card and gets the next card after that.
-
-### 5 Number Discharge (5ND)
-
-- This convention only applies in the *Low Score Phase*.
-- Players are only allowed to perform a *5 Stall* in certain situations. If a player performs a *5 Stall* when it would otherwise be illegal, then it is not a *5 Stall* at all, and would instead be:
-  - a *5's Chop Move* if the 5 is one-away-from-chop
-  - a *5 Pull* if the 5 is two-or-more-away-from-chop and the card to the right of it is playable
-  - a *5 Pull Finesse* if the 5 is two-or-more-away-from-chop and the card to the right of it is *one-away-from-playable*
-- However, what if the 5 is two-or-more-away-from-chop and the card to the right of it is *two-or-more-away-from-playable* **or** trash? This would be quite strange.
-- We agree that this signals a *Discharge* and that the next player should play their *Third Finesse Position*.
+- A clue that touches multiple cards only has one focus. As you probably know, if the chop card was not touched, then the focus is the left-most card.
+- However, this rule does not apply if a clue singles out a playable card from *Elimination*. In this case, the card is only focused on the *Elimination* card, and any other cards touched are not necessarily playable right now.
 - For example, in a 3-player game:
-  - It is the first turn and nothing is played on the stacks.
-  - Alice clues number 5 to Cathy, touching a 5 on slot 1.
-  - Cathy hand is, from newest to oldest: red 5, red 3, green 2, green 1, green 2
-  - Bob thinks about what Alice's 5 clue could mean:
-    - The clue cannot be a *5 Stall*, because there is a green 1 to *Play Clue*.
-    - The clue cannot be a *5 Pull*, because the red 3 is not playable.
-    - The clue cannot be a *5 Pull Finesse*, because the red 3 is *two-away-from-playable*.
-  - Since Bob would have to blind-play two cards into the *Finesse* (the same rule as in *5 Color Ejections*), Bob knows that he should instead treat this as a *5 Number Discharge*. Bob blind-plays his slot 3 card and it successfully plays as the red 1.
-- After a *5 Number Discharge*, the card next to the 5 should be marked accordingly. For example, if a *5 Number Discharge* happens on the first turn of the game, then the team should mark the "pulled" card as a 3 or a 4.
-- More examples of a *5 Number Discharge* can be found [here](examples/5_number_discharge.md).
+  - Red 1 and blue 1 are played on the stacks.
+  - Alice has both red 2's in her hand on slot 3 and slot 5. (Alice's chop is her slot 5.)
+  - Alice discards her chop, and it is revealed to be the red 2.
+  - Alice is surprised, and writes *Discard Elimination Notes* for red 2 on slots 2, 3, 4, and 5.
+  - Bob gives a number 2 clue to Alice that touches a card in slot 1 and slot 4.
+  - Normally, Alice would treat this as a *Play Clue* on the 2 in her slot 1. However, she now knows that her slot 4 card is exactly red 2 (and that she can play it right now).
+  - Thus, Alice knows that the point of the clue was only to get the red 2. The 2 in her slot 1 can be any 2 in the game and is not necessarily playable right now.
 
-### 5 Number Discharge Finesse Position Skips
+### Elimination & Chop Focus
 
-- First, see the section on the *[5 Number Discharge](#5-number-discharge-5nd)*.
-- After a *5 Number Discharge* occurs, it is common for the card next to the 5 to be marked as a 3 or a 4.
-- If the 5 was on slot 1, then the marked card is now on *Finesse Position*. For most intents and purposes, this "marking" from a *5 Number Discharge* **does not** change the player's *Finesse Position* - their *Finesse Position* is still the card marked as a 3 or a 4.
-- However, if that player is *Finessed* for a 1 or a 2, then it is fairly obvious that they should not play the card that is marked as a 3 or a 4. In this case, the player should skip over their *Finesse Position* card and instead play their *Second Finesse Position*.
+* First, see the section on the *[Elimination Play Clue](#the-elimination-play-clue)*.
+* In the *Elimination Play Clue*, the presence of *Elimination Notes* changes the "normal" focus of a clue, because the clue actively touches one of the cards with *Elimination Notes*.
+* However, if a clue does **not** touch one of the cards with *Elimination Notes*, then the focus of the clue should be evaluated normally. In other words, the focused slot should be evaluated before the clue was given (just like how every other clue works).
+* For example, in 3-player game:
+  * Red 1 is played on the stacks.
+  * Alice discards red 2. She writes *Elimination Notes* for red 2 on slot 2, slot 3, slot 4, and slot 5.
+  * Bob clues number 3 to Alice, touching four 3's on slot 1, slot 2, slot 3, and slot 4.
+  * Alice now knows that the red 2 is exactly on slot 5.
+  * Alice also knows that Bob's number 3 clue must be a *Play Clue* on the red 3. But which slot is focused (e.g. promised to be red 3)?
+  * The clue is either focused on slot 1 (her newest card) or slot 4 (her "new" chop after the red 2 is accounted for).
+  * Alice knows that you evaluate where the chop is before clues are given, so the clue must be focused on slot 1.
 
-<br />
+### The Elimination Riding Deduction
 
-## General Principles
+- If:
+  - there are only two cards left in a player's hand with *Elimination Notes* **and**
+  - the previous players let the chop card ride **and**
+  - the previous players were not busy, **then**
+- The card with the *Elimination Note* card cannot be on the chop! (Otherwise, one of the previous players would have clued it with either a *Play Clue* or a *Save Clue* in order to prevent it from being discarded.)
+- In such a situation, the player with the *Elimination Notes* can "jump ahead" and immediately blind-play the newest of the two cards.
+- For example, in a 3-player game:
+  - Red 1 has been played on the red stack.
+  - Alice has a completely unclued hand.
+  - Alice discards her chop (slot 5). It is a (playable) red 2.
+  - Alice knows that the team was not busy, so she must have the other copy of red 2.
+  - Alice writes *Elimination Notes* on slots 2, 3, 4, and 5.
+  - Alice receives no clues on the next go-around of the table. She discards, and now has *Elimination Notes* on slots 3, 4, and 5.
+  - Alice receives no clues on the next go-around of the table. She discards, and now has *Elimination Notes* on slots 4 and 5.
+  - Alice receives no clues on the next go-around of the table. Her teammates would not let the other copy of red 2 be discarded, so it must be on slot 4. Alice blind-plays red 2 from slot 4.
 
-### Interaction Between 2 Saves and 5 Stalls
+### The Riding Bluff
 
-- Normally, players are only allowed to *5 Stall* if there is nothing else to do. If there is something else to do, then the number 5 clue signals a more advanced move.
-- Sometimes, a player can receive a *5 Stall* clue when:
-  1. A *2 Save* still needs to be done to another player
-  2. That *2 Save* is the only clue left
-- In this situation, players should assume the least complicated thing: a *5 Stall*. Because of the *[Visible Rule](level_7.md#the-visible-rule)*, the player who gave the *5 Stall* clue was not allowed to perform the *2 Save* because the other copy was visible.
-- In this situation, the player who received the *5 Stall* should write *Elimination Notes* on their hand for the other copy of the 2. Furthermore, they are not allowed to *2 Save* the other copy of the 2, so they must give some other clue or discard.
-- For example, in a 4-player game:
-  - It is the first turn and nothing is played on the stacks.
-  - Alice clues number 5 to Bob, touching a 5 on slot 1.
-  - From Bob's perspective, he does not see any other *Play Clues* or *Save Clues* that Alice could have given, with the exception of a *2 Save* on a red 2 on Cathy's chop.
-  - Thus, Alice's number 5 clue could be either a *5 Pull* or a *5 Stall*, depending on whether or not Bob has the other copy of the red 2 in his hand.
-  - Bob knows that in this situation, *5 Stalls* take precedence over *5 Pulls*, so he marks his hand for the other copy of red 2 and discards.
+- Typically, when a player has two cards with *Elimination Notes* and the "true" copy of the card is on chop, you must clue it to let them know.
+- However, if the other card is also playable, you can choose to not clue anything.
+- Next, the player should perform an *Elimination Riding Deduction*, and play the unrelated card.
+- After that, there will be only one card left with an *Elimination Note*, so they will go on to play the "true" card on their next turn.
+
+### The Elimination Self-Chop Move
+
+- Sometimes, you will have narrowed down your *Elimination Notes* to one specific card. Thus, even though the card has no positive clues on it, you know the exact identity of the card.
+- If the card in question is on your chop **and** the card is not yet playable **and** you need to discard, you should obviously not discard the important elimination card. You should instead self-chop move and discard the next thing.
+
+### The Elimination Finesse
+
+- Normally, if a player is *Finessed*, they are supposed to play their *Finesse Position* card. However, what if they have *Elimination Notes* on their hand for the specific card that is *Finessed*?
+- In most situations, there will not be an *Elimination Note* on slot 1 (e.g. the *Finesse Position*). This means that playing slot 1 into the *Finesse* would not make any sense.
+  - However, in the rare case where there is an *Elimination Note* on their *Finesse Position*, then the player should **still** not play the *Finesse Position*; read on.
+- Here, the player is expected to play the **oldest** of the cards with the *Elimination Notes* on them (not counting *Chop Moved* cards, if any).
+- For example, in a 3-player game:
+  - Blue 2 is played on the stacks.
+  - Alice has a completely unclued hand.
+  - Alice discards a blue 3. Blue 3 was playable, and nothing urgent is currently happening, so she writes *Elimination Notes* on her hand for the other blue 3 on slots 2, 3, 4, and 5.
+  - Bob clues Cathy blue, which touches a blue 4 as a *Play Clue*.
+  - Cathy discards.
+  - Alice knows that this is some sort of *Reverse Finesse*, as it is calling for the blue 3. However, the blue 3 cannot be in her *Finesse Position* (slot 1), as she knows from the *Elimination Notes* that it must be either on slot 2, 3, 4, or 5. So it must instead be a *Reverse Elimination Finesse*.
+  - The *Elimination Finesse* promises that it is her oldest card, so she plays slot 5 as blue 3.
+- As mentioned above, *Chop Moved* cards should be skipped over when finding the *Elimination Finesse* target. If there are two or more cards with *Elimination Notes* on them and they are all *Chop Moved*, then the oldest *Chop Moved* card should be played.
+- *Elimination Finesses* apply to **all** types of situations with *Elimination Notes* (including *Double Discard Elimination Notes*). Subsequently, you can more specifically describe an *Elimination Finesse* as a *Discard Elimination Finesse* or a *Double Discard Elimination Finesse*.
+- Note that normal *Finesses* take priority over *Self-Elimination Finesses*. For example, in a 3-player game:
+  - Red 2 and blue 2 are played on the stacks.
+  - Alice's hand is completely unclued. Alice has *Elimination Notes* on slot 3 and slot 4 for red 3.
+  - Cathy clues a number 4 in Alice's slot 1 as a *Self-Finesse*.
+  - If Alice's 4 is a blue 4, then this would be a normal *Self-Finesse*, and Alice should blind-play blue 3 from slot 2.
+  - If Alice's 4 is a red 4, then this would be an *Elimination Self-Finesse*, and Alice should blind-play red 3 from slot 4.
+  - Alice knows that in this situation, you always supposed to assume a normal *Finesse*, so she blind-plays blue 3 from slot 2.
+
+### Trash Touch Elimination
+
+- After deciding on the target of a clue, players carefully choose between using a color clue and a number clue in order to avoid violating *Good Touch Principle* with the ancillary cards that will be touched (since every clued card is treated as a card that will eventually be played). Sometimes, when both a color clue **and** a number would violate *Good Touch Principle*, players are forced to pick between the lesser of two evils.
+- However, sometimes you can see that it **is** possible to use a color or number clue to uniquely touch a clue target without "picking up" extra bad cards. So, when extra bad cards are deliberately touched in this way, it is conveying an extra special message.
+- When this occurs and there is exactly one "missing" card, players should write an *Elimination Note* in their hand for the missing card. This is called *Trash Touch Elimination*.
+- For example, in a 3-player game:
+  - Red 3 is played on the stacks. All of the other suits have the 1 played on the stacks.
+  - Bob's hand is, from newest to oldest: red 4, red 1, blue 1, green 1, yellow 1.
+  - Alice wants to give a play clue to the red 4. Everyone else on the team (other than Bob) can see that she can give either number 4 or red.
+    - If Alice clues number 4, then it will uniquely touch the red 4 (which will satisfy *Good Touch Principle*).
+    - If Alice clues red, then it will touch the red 4 and the red 1 (which will **violate** *Good Touch Principle*).
+  - Alice clues red to Bob. Since nothing was stopping her from cluing number 4, this is very strange.
+  - Bob plays the red 4.
+  - There is only one "missing" red card - the red 5. Cathy knows that normally, Bob would think that his red 1 is the red 5 (from *Good Touch Principle*). This must mean that Cathy has the red 5. Cathy writes *Trash Touch Elimination Notes* on her hand for the red 5.

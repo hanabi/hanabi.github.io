@@ -1,6 +1,6 @@
 ---
 id: level_4
-title: Level 4 - Chop Moves
+title: Level 4 - Basic Chop Moves
 ---
 
 - Level 4 strategies should only be learned if you have played with the group for a week or so (40+ games of experience).

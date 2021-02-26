@@ -30,24 +30,25 @@ The following is a quick summary of the levels.
 | 3            | Basic Strategy          | *[Fix Clues](level_3.md#fix-clues)*, *[Playing Multiple 1's](level_3.md#playing-multiple-1s)*, *[Sarcastic Discards](level_3.md#the-sarcastic-discard)*
 | 4            | Chop Moves              | *[Trash Chop Moves](level_4.md#the-trash-chop-move)*, *[5's Chop Moves](level_4.md#the-5s-chop-move-5cm)*
 | 5            | Intermediate Finesses   | *[Hidden Finesses](level_5.md#the-hidden-finesse)*, *[Layered Finesses](level_5.md#the-layered-finesse)*, *[Clandestine Finesses](level_5.md#the-clandestine-finesse)*, *[Stacked Finesses](level_5.md#the-stacked-finesse)*, *[Ambiguous Finesses](level_5.md#the-ambiguous-finesse)*
-| 6            | Intermediate Chop Moves | *[Order Chop Moves](level_6.md#the-order-chop-move-ocm)*, *[Scream Discard Chop Moves](level_6.md#the-scream-discard-chop-move-deliberately-discarding-instead-of-playing)*, *[Generation Discards](level_6.md#the-generation-discard)*, *[Tempo Clue Chop Moves](level_6.md#the-tempo-clue-chop-move)*
-| 7            | Stalling                | *[Double Discard Situations](level_7.md#double-discard-situations)*, *[Locked Hand Saves](level_7.md#the-locked-hand-save-lhs)*, *[8 Clue Saves](level_7.md#clues-given-while-at-8-clues--the-8-clue-save-severity-4-stalling)*
-| 8            | Special Discards        | *[Gentleman's Discards](level_8.md#the-gentlemans-discard)*, *[Baton Discards](level_8.md#the-baton-discard)*, *[Sarcastic Finesses](level_8.md#the-sarcastic-finesse)*, *[Certain Finesses](level_8.md#the-certain-finesse--the-certain-discard)*
-| 9            | Bluffs                  | *[Bluffs](level_9.md#the-bluff)*
-| 10           | Miscellaneous           | *[Stale 1's Clues](level_10.md#context-clues--the-stale-1s-clue)*, *[Focus Inversion](level_10.md#focus-inversion)*, *[Positional Discards](level_10.md#the-positional-discard-indicating-a-play-with-a-discard)*, *[Positional Misplays](level_10.md#the-positional-misplay-indicating-a-play-with-a-misplay)*, *[Trash Order Chop Moves](level_10.md#the-trash-order-chop-move)*, *[Chop Transfers](level_10#the-chop-transfer), *[Misplay Chop Moves](level_10.md#the-misplay-chop-move)*
-| 11           | Intermediate Bluffs     | *[3 Bluffs](level_11.md#the-3-bluff)*, *[Critical 4 Bluffs](level_11.md#the-critical-4-bluff)*
-| 12           | Trash Moves             | *[Trash Bluffs](level_12.md#the-trash-bluff)*, *[Trash Pushes](level_12.md#the-trash-push)*
-| 13           | Double Bluffs           | *[Double Bluffs](level_13.md#the-double-bluff)*, *[4 Double Bluffs](level_13.md#the-4-double-bluff--the-5-double-bluff)*
-| 14           | Ejections & Discharges  | *[5 Color Ejections](level_14.md#the-5-color-ejection-5ce)*, *[The Unknown Trash Discharge](level_14.md#the-unknown-trash-discharge-utd)*
-| 15           | Elimination             | *[Elimination](level_15.md#discard-elimination--elimination-notes)*
-| 16           | 5 Tech                  | *[Early 5 Chop Moves](level_16#the-early-5-chop-move)*, *[5 Pulls](level_16.md#the-5-pull)*, *[5 Number Discharges](level_15.md#5-number-discharge-5nd)*
-| 17           | Priority                | *[Priority](level_17.md#the-priority-prompt--the-priority-finesse)*
-| 18           | Advanced Moves          | *[Occupied Play Clues](level_18.md#the-occupied-play-clue--the-occupied-finesse-opc)*, *[Out-of-Order Finesses](level_18.md#the-out-of-order-finesse)*, *[Suboptimal Finesses](level_18.md#the-suboptimal-prompt--the-suboptimal-finesse--the-suboptimal-bluff)*, *[The Good Touch Bluff](level_18.md#the-good-touch-bluff)*, *[The Pestilent Double Bluff](level_17.md#the-pestilent-double-bluff-pdb)*, *[The No-Information Double Finesse](level_18.md#the-no-information-double-finesse)*
-| 19           | Ignition                | *[Trash Double Ignition](level_19.md#the-trash-double-ignition)*, *[Replay Double Ignition](level_19.md#the-replay-double-ignition)*, *[Poke Double Ignition](level_19.md#the-poke-double-ignition)*
-| 20           | Emergency Discards      | *[Echo Scream Discard Chop Moves](level_20.md#the-echo-scream-discard-chop-move)*
-| 21           | Charms & Miscellaneous  | *[4 Charms](level_21.md#the-4-charm)*, *[Blaze Discards](level_21.md#the-blaze-discard)*, [*Finesses* with a *Lie Component*](level_21.md#finesses-with-a-lie-component), *[Out-of-Position Bluffs](level_21.md#the-out-of-position-bluff-oop--the-reverse-bluff)*, *[Hesitation Blind-Plays](level_21.md#the-hesitation-blind-play)*
-| 22           | Unnecessary Moves       | *[Unnecessary Moves](level_22.md#unnecessary-moves)*
-| Extras       | n/a                     | All of the other rarely-used conventions
+| 6            | Intermediate Chop Moves | *[Order Chop Moves](level_6.md#the-order-chop-move-ocm)*, *[Trash Order Chop Moves](level_10.md#the-trash-order-chop-move)*, *[Scream Discard Chop Moves](level_6.md#the-scream-discard-chop-move-deliberately-discarding-instead-of-playing)*, *[Generation Discards](level_6.md#the-generation-discard)*, *[Tempo Clue Chop Moves](level_6.md#the-tempo-clue-chop-move)*, *[Chop Transfers](level_10#the-chop-transfer)
+| 7            | End-Game                | *[Positional Discards](level_10.md#the-positional-discard-indicating-a-play-with-a-discard)*, *[Positional Misplays](level_10.md#the-positional-misplay-indicating-a-play-with-a-misplay)*
+| 8            | Stalling                | *[Double Discard Situations](level_7.md#double-discard-situations)*, *[Locked Hand Saves](level_7.md#the-locked-hand-save-lhs)*, *[8 Clue Saves](level_7.md#clues-given-while-at-8-clues--the-8-clue-save-severity-4-stalling)*
+| 9            | Special Discards        | *[Gentleman's Discards](level_8.md#the-gentlemans-discard)*, *[Baton Discards](level_8.md#the-baton-discard)*, *[Sarcastic Finesses](level_8.md#the-sarcastic-finesse)*, *[Certain Finesses](level_8.md#the-certain-finesse--the-certain-discard)*
+| 10           | Bluffs                  | *[Bluffs](level_9.md#the-bluff)*
+| 11           | Context & End-Game      | *[Stale 1's Clues](level_10.md#the-stale-1s-clue)*, *[Focus Inversion](level_10.md#focus-inversion)*
+| 12           | Intermediate Bluffs     | *[3 Bluffs](level_11.md#the-3-bluff)*, *[Critical 4 Bluffs](level_11.md#the-critical-4-bluff)*
+| 13           | Trash Moves             | *[Trash Bluffs](level_12.md#the-trash-bluff)*, *[Trash Pushes](level_12.md#the-trash-push)*
+| 14           | Double Bluffs           | *[Double Bluffs](level_13.md#the-double-bluff)*, *[4 Double Bluffs](level_13.md#the-4-double-bluff--the-5-double-bluff)*
+| 15           | Ejections & Discharges  | *[5 Color Ejections](level_14.md#the-5-color-ejection-5ce)*, *[The Unknown Trash Discharge](level_14.md#the-unknown-trash-discharge-utd)*
+| 16           | Elimination             | *[Elimination](level_15.md#discard-elimination--elimination-notes)*
+| 17           | 5 Tech                  | *[Early 5 Chop Moves](level_16#the-early-5-chop-move)*, *[5 Pulls](level_16.md#the-5-pull)*, *[5 Number Discharges](level_15.md#5-number-discharge-5nd)*
+| 18           | Priority                | *[Priority](level_17.md#the-priority-prompt--the-priority-finesse)*
+| 19           | Advanced Moves          | *[Occupied Play Clues](level_18.md#the-occupied-play-clue--the-occupied-finesse-opc)*, *[Out-of-Order Finesses](level_18.md#the-out-of-order-finesse)*, *[Suboptimal Finesses](level_18.md#the-suboptimal-prompt--the-suboptimal-finesse--the-suboptimal-bluff)*, *[The Good Touch Bluff](level_18.md#the-good-touch-bluff)*, *[The Pestilent Double Bluff](level_17.md#the-pestilent-double-bluff-pdb)*, *[The No-Information Double Finesse](level_18.md#the-no-information-double-finesse)*
+| 20           | Ignition                | *[Trash Double Ignition](level_19.md#the-trash-double-ignition)*, *[Replay Double Ignition](level_19.md#the-replay-double-ignition)*, *[Poke Double Ignition](level_19.md#the-poke-double-ignition)*
+| 21           | Emergency Discards      | *[Echo Scream Discard Chop Moves](level_20.md#the-echo-scream-discard-chop-move)*
+| 22           | Charms & Miscellaneous  | *[4 Charms](level_21.md#the-4-charm)*, *[Blaze Discards](level_21.md#the-blaze-discard)*, [*Finesses* with a *Lie Component*](level_21.md#finesses-with-a-lie-component), *[Out-of-Position Bluffs](level_21.md#the-out-of-position-bluff-oop--the-reverse-bluff)*, *[Hesitation Blind-Plays](level_21.md#the-hesitation-blind-play)*
+| 23           | Unnecessary Moves       | *[Unnecessary Moves](level_22.md#unnecessary-moves)*
+| Extras       | n/a                     | Other rarely-used conventions / edge-cases
 
 <br />
 

@@ -1,6 +1,6 @@
 ---
 id: level_12
-title: Level 12 - Trash Moves
+title: Level 12 - Intermediate Bluffs
 ---
 
 - Level 12 strategies should only be learned if you have 200+ games of experience with the group.
@@ -9,79 +9,113 @@ title: Level 12 - Trash Moves
 
 ## Special Moves
 
-### The Trash Bluff
+### The 3 Bluff
 
-- Normally, when a trash card is clued, it signifies a *Trash Chop Move* or a *Trash Push*. However, for both of these strategies to work, it is assumed that the recipient of the clue will know that the card that was touched is useless.
-- What if the recipient of the clue does **not** know that the card that the clued card is trash? Then, they will go on to misplay that card, mistaking it for a "normal" *Play Clue*.
-- If players misrepresent the identity of a trash card in this way, it is a signal for the next person to blind-play their *Finesse Position* card. This is extremely similar to how a *Finesse* or a *Bluff* works (e.g. a clued card has been misrepresented as being immediately playable).
-- *Trash Bluffs* are a good tool to get a card played that is sitting behind other annoying cards.
+- Typically, the player who receives a clue that causes a *Bluff* blind-play knows that the card that was clued is one-away from being playable.
+- Our group plays with an artificial *3 Bluffs* convention. This means that in addition to being one-away from being playable, we agree that the touched card can *also* be any 3 that will be useful in the future.
+- *3 Bluffs* are mostly used to get 1's played at the beginning of the game. However, similar to a normal *Bluff*, a *3 Bluff* can be used to get any playable card (as long as it doesn't look like a *Finesse*, obviously.)
+- Here are some examples that cover the four most common *3 Bluff* situations:
+
+#### Example 1 - **Color Mismatch** (Valid)
+
+- On the first turn of the game, Alice clues Cathy red, which touches a red 3.
+- Bob blind-plays blue 1.
+- Cathy knows that it is either a red 2 (if it was a normal *Bluff*) or a red 3 (if it was a *3 Bluff*). She marks down both of the possibilities for later.
+
+#### Example 2 - **Number 3 with Suit Mismatch** (Valid)
+
+- On the first turn of the game, Alice clues Cathy number 3, which touches a red 3.
+- Bob blind-plays blue 1.
+- Cathy knows that it was a *3 Bluff*, because a played 1 does not "match" number 3.
+- Beyond that, Cathy knows nothing about the card, besides that it is a 3 (since it has a number 3 clue on it).
+
+#### Example 3 - **Color Match** (NOT valid; looks like a Finesse)
+
+- On the first turn of the game, Alice clues Cathy red, which touches a red 3.
+- Bob blind-plays red 1.
+- Cathy sees that Bob does not have red 2. Since red matches red, Cathy assumes that she has the red 2.
+- Cathy misplays red 3 as red 2.
+- Alternatively, if Cathy saw that Bob had both red 1 and red 2 on his *Finesse Position* at the time the clue was given, she would know that she has the red 2 **or** the red 3. Subsequently, Bob is promised a red 2, since if he does not blind-play a card, Cathy will go on to misplay the red 3 as red 2.
+
+#### Example 4 - **Color Match with Rank Mismatch** (NOT valid; looks like a Finesse):
+  - This is a 4-player game.
+  - Nothing is played on the stacks.
+  - Alice clues Donald red, touching a red 3 as a play clue.
+  - Bob blind-plays the red 1.
+  - Cathy notices that Donald's red card has a negative 2 clue on it. This means that Donald will not go on to misplay the card as the red 2.
+  - Cathy needs to evaluate whether or not Alice's clue is a *Finesse* or a *3 Bluff*. If this is a *Double Finesse*, then Cathy needs to blind-play the red 2. If this is a *Bluff*, then Alice only intended for Bob to blind-play.
+  - Cathy knows that since **red matches red**, this must be a *Double Finesse*, so Cathy blind-plays the red 2 into the red 3.
+
+#### Example 5 - **Number 3 with Suit Match** (valid)
+
+- On the first turn of the game, Alice clues Cathy number 3, which touches a red 3.
+- Bob blind-plays red 1.
+- Cathy knows that it was a *3 Bluff*, because a played 1 does not "match" number 3.
+- Beyond that, Cathy knows nothing about the card, besides that it is a 3 (since it has a number 3 clue on it).
+- Even though red 1 and red 3 are the same suit, Bob is not promised a red 2, because if he does nothing, Cathy will not go on to misplay the red 3.
+
+#### Generic Questions
+
+- *3 Bluffs* can be confusing. If you don't want to memorize the five examples above, you can simply ask the following questions:
+  1. Does the clue "match" the blind-play? If it matches, then it is a *Finesse*. If it does not match, then it is a *Bluff*. Red matches red, but red does **not** match blue. 2 matches 3, but 1 does **not** match 3.
+  2. Will the player who received the clue go on to misplay if nothing else is blind-played? If yes, then it is a *Finesse*. If no, then it is a *Bluff*.
+
+### The Critical 4 Bluff
+
+- Building on the *3 Bluffs* convention, we also agree that it is possible for a card that initiates a *Bluff* to be a copy of any of the 4s that are currently in the discard pile, but only if **a color clue** is used.
 - For example, in a 3-player game:
-  - All of the 1's are played on the stacks **except** for the red 1.
-  - Cathy has no clued cards in her hand.
-  - Alice clues Cathy number 1, which only touches her newest (slot 1) card. This card is a blue 1, but Cathy will assume that it is a red 1.
-  - Bob blind-plays his *Finesse Position* card, and it is a playable blue 2.
-  - Cathy now knows that her 1 must not be red 1, or else Bob would not have blind-played anything. The 1 must be some other trash card.
-- Just like normal *Bluffs*, *Trash Bluffs* can only be done while in *Bluff Seat*.
-- Normal *Bluffs* take precedence over *Trash Bluffs*. This means that players can **only** use cards to *Trash Bluff* with if they will be proved to be trash by a blind-play.
-  - For example, if not all of the 1's have been played on the stacks, then you can use a number 1 clue to initiate a *Trash Bluff*, because a blind-play will prove that the clued 1 is not a good 1.
-  - For example, if the red stack is played up to the red 3, then you **cannot** use a red clue to initiate a *Trash Bluff*, because a blind-play will make the clued card look like the red 5.
-  - For example, if the red stack is played up to the red 4, then you can use a red clue to initiate a *Trash Bluff*, because a blind-play will prove that the clued card is not a red 5.
-- In the case where multiple cards are clued as part of a *Trash Bluff*, **all** of the touched cards are considered to be trash. However, the focus of the clue should be the first thing discarded, which allows for the possibility of your teammates to give a follow-up *Fix Clue*.
+  - Nothing is played on the stacks. Red 4 is currently in the discard pile.
+  - Alice clues Cathy red, touching a red 4 as a *Play Clue*.
+  - Bob blind-plays a blue 1.
+  - Cathy marks her red card as the *one-away-from-playable* red card, the red 2.
+  - However, Cathy also knows that *3 Bluffs* are a thing, so she *also* marks her red card as possibly a red 3.
+  - However, Cathy also knows that *Critical 4 Bluffs* are a thing, so she *also* marks her red card as possibly a red 4.
 
-### The Trash Finesse
+### The Hard Bluff
 
-- In a *Finesse*, we would say that the clue "matches" the blind-play. For example, a blue clue on a blue 2 matches a blind-play of blue 1. Or, a number 2 clue on blue 2 matches a blind-play of blue 1.
-- In a *Bluff*, we would say that the clue does not "match" the blind-play. For example, a blue clue on a blue 2 does not match a blind-play of a red 1. Or, a number 2 clue on a blue 2 does not match the blind-play of a red 2.
-- In the *Trash Bluff* example above, a blue 1 is used to *Trash Bluff* a blue 2. Similar to a *Bluff*, we would say this number 1 clue does not match the blind-play of a blue 2.
-- What if the *Trash Bluff* instead got a red 1 to blind-play? In this context, the red 1 would actually "match" the number 1 clue. Another way of saying this is that by cluing the trash 1 with a number 1 clue, the clue giver is saying that they **see** a matching 1 that is good.
-- Thus, it is possible to perform a *Trash Bluff* outside of *Bluff Seat* if the "matching" card is on someone's *Finesse Position*. When this is done, it promises that someone has that specific card, so we call it a *Trash Finesse* rather than a *Trash Bluff*.
-- For example, in a 4-player game:
-  - All the 1's are played on the stacks except for red 1.
-  - Alice clues number 1 to Donald, which touches a blue 1. To Donald, this will look like it is a red 1.
-  - At first glance, Bob might think this is a *Trash Bluff*, causing him to blind-play his *Finesse Position* card as either red 1 or some other currently-playable card.
-  - However, Bob also sees that Cathy has a red 1 on her *Finesse Position*. Thus, Alice's clue was a *Trash Finesse* instead of a *Trash Bluff*, since it is promises a playable 1.
-  - Thus, Bob discards.
-  - Cathy blind-plays her *Finesse Position* card and it is red 1.
-  - Donald discards his known-trash 1.
-- *Double Trash Finesses* are explicitly disallowed. Thus, it is possible to perform a *Trash Finesse* in a situation like this:
-  - All the 1's are played on the stacks except for red 1 and blue 1.
-  - Alice clues number 1 to Donald, which touches two green 1's on slot 1 and 2. To Donald, this will look like it is both the red 1 and the blue 1.
-  - Like in the previous example, Bob sees that Cathy has a red 1 on her *Finesse Position*.
-  - At first glance, Bob might think that Alice is promising both red 1 and blue 1, which would mean that he would need to blind-play the blue 1.
-  - However, a *Trash Finesse* only promises at least one matching card, and since he sees that Cathy has a matching card, then that is good enough. Thus, Bob discards.
-  - Cathy blind-plays her *Finesse Position* card and it is red 1.
-  - Donald knows that the focus of the clue (slot 1) is certainly trash, since that caused Cathy to blind-play.
-  - Furthermore, Donald knows that his slot 2 card is also trash, because all the cards touched in a *Trash Bluff* or *Trash Finesse* are guaranteed to be trash.
+- First, see the section on *[Cathy's Match Principle](level_9.md#cathys-match-principle-part-2)*.
+- Sometimes, it can be ambiguous as to whether a player blind-played a card into a *Bluff*, or they blind-played into a *Finesse* + *Prompt*. In this situation, *Occam's Razor* applies, so players should go with the *Bluff* interpretation, since it is simpler. When such a *Bluff* occurs, it is called a *Hard Bluff* to disambiguate from situations where *Bluffs* happen with no ambiguity.
+- For example, this is a *Finesse* + *Prompt* and **not** a *Hard Bluff*:
+  - Only red 1 is played on the stacks.
+  - Cathy has a 3 clued in her hand (with no color information on it).
+  - Alice clues Cathy about a brand new 4.
+  - Bob blind-plays red 2.
+  - In a normal *Bluff*, a *one-away-from-playable* card is clued. However, Cathy sees that the highest stack is the red stack, so the 4 in her hand must be two-away.
+  - Thus, Cathy does **not** read it as a *Bluff*; she is promised red 3 and red 4, so she plays the unknown 3 as a *Self-Prompt* for the red 3.
+- For example, this **is** a *Hard Bluff*:
+  - Red 1 and blue 2 are played on the stacks.
+  - Cathy has a 3 clued in her hand (with no color information on it).
+  - Alice clues Cathy about a brand new 4.
+  - Bob blind-plays red 2.
+  - This could be a *Bluff* if the 4 in her hand is blue 4, since blue 4 is currently *one-away-from-playable*. Thus, Cathy **does not** assume that her 4 is red 4, and subsequently, **does not** assume that her unknown 3 is a red 3. However, it could **also** be the case that the 4 is a red 4 (if the 3 in her hand happens to be red 3).
+  - Thus, Cathy marks down both possibilities for later and does not play anything right now.
 
-### The Reverse Trash Finesse
+### The Hard 3 Bluff
 
-- First, see the section on the *[Trash Finesse](#the-trash-finesse)*.
-- It is also possible to perform a *Trash Finesse* in reverse. This is much harder to see than a forward *Trash Finesse*. Even so, players should generally entertain the possibility of this occurring.
-- When a clue looks like it could be a *Reverse Trash Finesse*, the player who receives the clue is forced into immediately discarding the card. If it was indeed a *Reverse Trash Finesse*, it will be a trash card and it will immediately demonstrate what is going on. Alternatively, if the clue was a normal *Play Clue* on a playable card, then the discard will be a *Gentleman's Discard*. By discarding, it covers both cases.
-- For example, in 3-player game:
-  - The red 1 is played on the stacks. All of the 2's are played on the other stacks.
-  - Alice clues number 2 to Bob, touching his slot 1 card as a *Play Clue*.
-  - From Bob's perspective, this is probably just a *Play Clue* on the red 2 (which happens to be the final 2 that needs to be played).
-  - However, Bob sees that Cathy also has a red 2 on her *Finesse Position*. That means that this could be a *Reverse Trash Finesse*.
-  - If it is a *Reverse Trash Finesse*, then his 2 is a trash 2 (e.g. green 2). By immediately discarding it, it will prove to Cathy that *she* has a red 2.
-  - Alternatively, if Bob does indeed have the red 2, then he can discard it to perform a *Gentleman's Discard* on Cathy.
-  - Either way, discarding will cover both cases. Bob discards the 2 and it is revealed to be a green 2.
-  - Cathy comes next. Cathy was highly surprised when Alice gave Bob a number 2 clue on the green 2. From Cathy's perspective of Bob's perspective, the green 2 clue would immediately misplay as red 2. However, when Bob discards the green 2 instead of playing it, Alice's plan becomes clear. Cathy had the red 2 all along. Cathy blind-plays her *Finesse Position* card as red 2.
-- Note that *Reverse Trash Finesses* should not always be entertained and **depend on context**. Specifically, towards the end of the game, *Reverse Trash Finesses* are "turned off". This is because towards the end of the game, the team needs tempo, and *Reverse Trash Finesses* are slow and require even more discarding.
-
-### The Trash Push
-
-- Normally, when a useless card is clued, it signifies a *Trash Chop Move*. However, what if the useless card is actually the card on chop? Then it wouldn't be *Chop Moving* anything.
-- From *Good Touch Principle*, we know that it is pointless to spend a clue to touch a useless card on someone's chop, because if we just do nothing, the useless card will get automatically discarded.
-- Subsequently, if this is done deliberately, it must have a meaning. By doing this, it means that we want to "push" the card that is next to the useless card onto the table.
+- Players can use a 3 to *3 Bluff* the 1 of the same suit.
 - For example, in a 3-player game:
-  - All of the 1's are played on the stacks.
-  - Bob has no clued cards in his hand. His chop is his slot 5.
-  - Alice clues Bob number 1, which only touches his slot 5 card.
-  - Bob blind-plays his slot 4 card, and it is a playable red 2.
-- Sometimes, a *Trash Push* is the only way to get a card played that is sitting between two other annoying cards.
-- Similar to a *Bluff*, *Trash Pushes* must be immediately playable and should generally be demonstrated immediately. (This is unlike other similar moves like the *5 Pull*, which may have to wait a while.)
+  - Nothing is played on the stacks.
+  - Alice clues number 3 to Cathy, touching a red 3 on slot 1 as a *Play Clue*.
+  - Bob blind-plays red 1.
+  - Bob now knows that it was a *3 Bluff* and that no-one is promised the red 2. This is because even though the red 1 is the same suit as the red 3, *3 Bluffs* take precedence over *Double Finesses* as long as the clue type (number 3) does not match the card that was blind-played (a number 1).
 
-### A Trash Flowchart
+### Known Bluffs
 
-There are a lot of different moves that involve cluing trash. [Here is a flowchart](https://raw.githubusercontent.com/hanabi/hanabi.github.io/main/static/img/flowcharts/cluing_trash_flowchart.png) for determining the difference between the different types of special moves that touch trash. (The flowchart contains some strategies that have not been covered yet, but the three most important moves to understand are the *Trash Chop Move*, the *Trash Finesse/Bluff*, and the *Trash Push*.)
+- Usually, when a *Bluff* occurs, the blind-playing player has no idea that is a *Bluff* - they assume they are playing a specific card into a true *Finesse*.
+- However, in rare situations, a clue will be given that looks like a *Finesse*, but the next player will know for sure that they do not have the "matching" card.
+- In these situations, if the next player cannot see a better explanation for the clue, then they should blind-play their *Finesse Position* card as a *Known Bluff*.
+- For example:
+  - The player might see all of the copies of the card that they are supposed to be blind-playing.
+  - The player might have negative information on their entire hand (e.g. negative blue on every card when they are supposed to be blind-playing a blue 2).
+  - The player might know that they are blind-playing a 1 into a *3 Bluff* (e.g. a card was clued with number 3 and there are no cards played yet).
+
+<br />
+
+## General Principles
+
+### Legal Bluff-Targets
+
+- The full list of legal *Bluff* targets is as follows:
+  - any *one-away-from-playable* card (with either a color clue or a number clue)
+  - any 3 (with either a color clue or a number clue)
+  - any critical 4 (only with a color clue)

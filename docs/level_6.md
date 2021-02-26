@@ -35,7 +35,16 @@ title: Level 6 - Intermediate Chop Moves
   - The 1 that was played was originally *Finessed* from a clue that happened **before** the number 1 clue.
   - The 1 that was skipped over is known to be bad from contextual information.
 
-### The Scream Discard Chop Move
+### The Trash Order Chop Move (TOCM)
+
+- First, see the section on the *[Order Chop Move](#the-order-chop-move)*.
+- Sometimes, a player will have two known trash cards in their hand (and these cards are explicitly known trash, meaning that everyone on the team can equally see that they are known trash).
+- In this situation, the player is expected to discard the newest (left-most) trash card.
+- Thus, if a player skips over their newest trash card and instead discards the second newest trash card, they must be trying to communicate something extra.
+- This means that the next player should *Chop Move* (in a manner similar to a *Order Chop Move*).
+- Note that a player is not necessarily trying to perform a *Trash Order Chop Move* if the two trash cards have different kinds of clues on them. For example, by discarding specific trash cards, it can communicate that the player "sees" all of the non-trash possibilities of that card.
+
+### The Scream Discard Chop Move (SDCM)
 
 - The *Chop Move* is a tool to save multiple cards with one clue. However, sometimes you may not have a clue at all. One way to solve this situation is with a special kind of discard.
 - Typically, discarding is a last resort. So, if you have a known playable card in your hand, you can send a powerful message to your teammate by discarding a card instead. This is called a *Scream Discard*. Since your teammate expected you to play, it is like screaming at them to let them know that things are very bad.
@@ -60,7 +69,7 @@ title: Level 6 - Intermediate Chop Moves
 
 [Here is a flowchart](https://raw.githubusercontent.com/hanabi/hanabi.github.io/main/static/img/flowcharts/scream_discard_flowchart.png) for determining whether something is a *Scream Discard Chop Move* or a *Generation Discard*. (Ignore the *Echo Scream Discard Chop Move* for now.)
 
-### The Tempo Clue (Re-cluing a Card to Play)
+### The Tempo Clue
 
 - *Tempo Clues* are defined as clues that "get" no new cards. Their purpose is to get 1 or more cards played that **already** had a clue on them.
   - If a clue is given to a card that is **already** known to be playable, then that would **not** count as a *Tempo Clue*. It would instead be a *Burn Clue* (a clue that accomplishes nothing).
@@ -75,7 +84,7 @@ title: Level 6 - Intermediate Chop Moves
 - If a *Tempo Clue* touches multiple cards, it typically means that all the touched cards are playable. See the *Double Tempo Clue* section below.
 - Since they are so inefficient, *Tempo Clues* done outside of the special circumstances listed above are assigned a special meaning. See the *Tempo Clue Chop Moves* section below.
 
-### The Double Tempo Clue (Re-cluing 2+ Cards to Play)
+### The Double Tempo Clue
 
 - Typically, when a *Tempo Clue* is given that touches two or more cards, it means that **all** of the cards touched are playable in order from left to right.
 - For example, in a 3-player game:
@@ -111,6 +120,11 @@ title: Level 6 - Intermediate Chop Moves
   - Alice clues red to Bob, which re-touches his slot 4 card and his slot 5 card, "filling" both of them in.
   - Bob knows that this is a *Tempo Clue*, and plays red 2.
   - In most cases, since two cards were re-touched, they should both be playable. However, Bob knows that the red 5 is strictly not playable right now. Thus, since the clue did not get any new cards and only got tempo on one card in total, he knows that he should also *Chop Move* his slot 3 card.
+
+### The Chop Transfer
+
+- Sometimes, duplicated cards are accidentally *Chop Moved* through a mistake or through a complicated situation. When this happens, it is pointless to use a clue to "undo" the *Chop Move* - the team can just continue to allow the player to discard normally.
+- Subsequently, if someone **does** use a clue to undo the *Chop Move*, there must be a good reason. This means that the card they were about to discard is important, so the player should discard the now-known useless card and then permanently *Chop Move* their new chop.
 
 <br />
 

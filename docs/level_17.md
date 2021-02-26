@@ -1,145 +1,180 @@
 ---
 id: level_17
-title: Level 17 - Priority
+title: Level 17 - 5 Tech
 ---
 
 - Level 17 strategies should only be learned if you have 300+ games of experience with the group.
 
 <br />
 
+## Conventions
+
+### The Low Score Phase and the Normal Score Phase
+
+- At this point, you should already know that we split up the game of Hanabi into the *Early Game* and the *Mid-Game* (based on when someone discards).
+- In a similar way, we also split up the game of Hanabi into the *Low Score Phase* and the *Normal Score Phase*:
+  - The *Low Score Phase* is defined as when the score is below `2 x number of suits`. (e.g. 10 points in a no variant game, 6 points in a 3-suit game, etc.)
+  - The *Normal Score Phase* is defined as when the score is equal to or past this threshold.
+- Some special moves using a number 5 clue can only be performed in the *Low Score Phase* of the game.
+- On Hanab Live, the score will be colored cyan when the *Low Score Phase* is active.
+
+### No Play Clues with a Number 5 Clue in the Low Score Phase
+
+- Normally, if a player uses a number 5 clue to clue a 5 that is two-or-more-away-from-chop, and that player is not a stalling situation, then it would be a *Play Clue* on the 5.
+- However, all number 5 clues in the *Low Score Phase* are **never** to be interpreted as a direct *Play Clue*.
+- They are instead interpreted as a more advanced move. (See the *[5 Pull](#the-5-pull)* section below.)
+- This means that if players need to give a *Play Clue* to a playable 5, and the score is less than 2 points per stack, then they **must** use a color clue, or wait until later.
+
+<br />
+
 ## Special Moves
 
-### The Priority Prompt & The Priority Finesse
+### The Early 5's Chop Move
 
-- Typically, players will only have one card to play at a time. In this case, unless there is some really good clue to give, there are no decisions to be made - they just play their one playable card.
-- What if a player has two or more playable cards to play? Which card should they play first?
-- If one of the cards is not completely known yet (e.g. a playable 2 of unknown color), then the player might want to play that card first in order to find out exactly what it is. In general, **nothing special is triggered by players playing an unknown card.**
-- On the other hand, something special **can** be triggered if a player plays a fully-known card, because they knew exactly what they were doing. Our group agrees that **playable cards should be played in a specific order**. We refer to this as *Priority*. The agreed *Priority* is as follows:
+- First, see the section on the *[5 Stall](level_7.md#the-5-stall-intermediate-section)*.
+- In the *Early Game*, players are only allowed to perform a *5 Stall* if there is nothing left to do. (Or, as a special exception, if there is only one *Play Clue* to give and that card is on *Finesse Position*.)
+- Thus, if someone clues a 5 and there **is** something else to do, they must be trying to send an additional message.
+- If the 5 is one-away from chop, they intend for an *Early 5's Chop Move*. This functions in the exact same way a normal *5's Chop Move* does (except it was done in the *Early Game*, which is not normally possible).
 
-| Priority | Category of card                                                   | Reason
-| -------- | ------------------------------------------------------------------ | ------
-| 1        | Blind-plays                                                        | Demonstrating that a *Finesse* or *Bluff* occurred is very important.
-| 2        | Cards that lead into clued cards in someone else's hand            | Otherwise, the team would lose *Tempo*.
-| 3        | Cards that lead into the player's own hand                         | It is bad for a suit to be "held up" on one player.
-| 4        | 5's                                                                | Playing a 5 gets the team a free clue.
-| 5        | The lower rank card                                                | The smaller stacks are more important to fill up.
-| 6        | The left-most card                                                 | The left-most card is more likely to be good.
+### The 5 Pull
 
-- If someone plays a fully-known card and the card does **not** have *Priority*, then the player must be trying to send a special message.
-- Based on what card they did play, if you have any clued cards in your hand that match the next "connecting" card, it is a message that you can play it right now as a *Priority Prompt*. (This is similar to a normal *Prompt*, except instead of initiating the *Prompt* with a clue, they initiated it with the order that they played cards.)
-- Alternatively, if you do not have any clued cards in your hand that matches the card that they played, then you should play your *Finesse Position* card as a *Priority Finesse*.
+- This convention only applies in the *Low Score Phase*.
+- Players are only allowed to perform a *5 Stall* in certain situations. If a player performs a *5 Stall* when it would otherwise be illegal, then it is not a *5 Stall* at all, and would instead be:
+  - a *5's Chop Move* if the 5 is one-away-from-chop
+  - a *Play Clue* if the 5 is two-or-more-away-from-chop
+- However, since *Play Clues* with number 5 clues are "turned off" in the *Low Score Phase*, then the cluing player must be intending something else: a *5 Pull*.
+- A *5 Pull* causes the player to blind-play the card to the right of the 5. The clued 5 is not actually related to the blind-play. This is why it is called a *Pull* instead of a *Finesse* or a *Bluff*.
+- *5 Pulls* are typically done to 5's that are on slot 1. But, for example, you can also clue a 5 in slot 2 in order to get a blind-play on slot 3.
+- *5 Pulls* take precedence over *Finesses* and *Bluffs*, because a number 5 clue is never considered to be *Play Clue*. For example:
+  - It is the *Early Game* and the *Low Score Phase*.
+  - Red 3 is played on the stacks.
+  - Alice clues Cathy number 5, touching a red 5 on slot 1. (There are other *Play Clues* for Alice to give, so this cannot be a *5 Stall*.)
+  - Normally, Bob would think that this is a *Finesse* and that he should blind-play his *Finesse Position* card as the red 4.
+  - However, Bob knows that *Play Clues* with a number 5 clue are "turned off" in the *Low Score Phase*, which means that Alice is **not** indicating that the red 5 is playable.
+  - Bob can see that there is a playable blue 1 to the right of the 5, so Alice must be intending a *5 Pull*. When it gets to Cathy's turn, Cathy will blind-play that card.
+- Since *5 Pulls* are never *Play Clues* on the 5, it is possible to *5 Pull* a 4 without promising that the 5 matches the suit.
+- Confusingly, *5 Pulls* work differently from *Finesses*. Even though they involve playing a blind card, a *5 Pull* should be treated as a *Delayed Play Clue* (or a potential *Prompt*). This means that the blind card could play through any existing touched cards.
+- When a player is *Finessed* or *Bluffed*, they are allowed to defer playing the blind card in order to do a *Finesse* or *Bluff* of their own. However, if they could be *Bluffed*, they are **not** allowed to initiate a *5 Pull*. (Players are still allowed to defer playing into a *Finesse* in order to initiate a *5 Pull*.)
+- In the rare case where a *5 Pull* is performed in a 3-player game by touching two 5's in slot 1 and slot 3, then the *5 Pulled* card is slot 2.
+- For expert players, we define a specific [interaction between *5's Chop Moves* / *5 Pulls* and *2 Saves*](extras/save_clues.md#2-saves-interaction-with-5s-chop-moves--5-pulls).
+
+### A Flowchart for Cluing 5's
+
+- Differentiating between a *5 Stall* and a *5 Pull* can sometimes be confusing. [Here is a flowchart](https://raw.githubusercontent.com/hanabi/hanabi.github.io/main/static/img/flowcharts/early_game_5_flowchart.png) that steps you through how you can tell the difference.
+
+### The 5 Pull Prompt & The 5 Pull Finesse
+
+- *5 Pulls* are also allowed to initiate a *Prompt* or *Finesse*.
+- For example, in a 4-player game:
+  - It is the first turn of the game and nothing is played on the stacks.
+  - Cathy's hand is as follows, from newest to oldest: `blue 4, blue 4, blue 5, red 2, red 2`
+  - Donald's hand is as follows, from newest to oldest: `yellow 4, yellow 4, green 1, yellow 3, yellow 3`
+  - Alice clues number 5 to Cathy, touching the blue 5 on slot 3.
+  - Bob knows that since the team is the *Early Game*, Alice's clue might be a *5 Stall*.
+  - However, Bob also knows that you are only allowed to perform a *5 Stall* if there are no normal *Save Clues* or *Play Clues* to give. Bob sees that Donald has a green 1 that could be *Play Clued*. Thus, Bob knows that Alice's clue cannot not be a *5 Stall*, which makes it a *5 Pull* instead (since it is two-or-more-away from the chop).
+  - Bob knows that if this was a *5 Pull*, it would be pulling the red 2. If Bob does nothing, Cathy might go on to misplay the red 2 as some playable 1.
+  - Thus, this must be a *5 Pull Finesse*, so Bob blind-plays his *Finesse Position*. It is a red 1 and it successfully plays.
+  - Cathy knows that the only reason that Bob would blind-play a card is it this was a *5 Pull Finesse*. Cathy blind-plays her slot 4 card. It is a red 2 and it successfully plays.
+- Unlike other types of *Finesses*, *5 Pull Finesses* **must** be demonstrated with a blind-play between when the *5 Pull* is given and the *5 Pulled* player's next turn (e.g. a *Forward Finesse*).
+- Subsequently, *5 Pulls* are **not** allowed to initiate a *Reverse Finesse*. (This is because we don't want the person with the pulled card to have to entertain too many possibilities.)
+- Remember that during a *5 Pull Finesse*, the pulled card **always** matches the blind-play. In other words, it impossible to perform a *5 Pull Bluff*.
+
+### The 5 Pull Double Finesse
+
+- First, see the section on the [5 Pull Finesse](#the-5-pull-prompt--the-5-pull-finesse).
+- As you would expect, it is also possible to perform a *5 Pull Double Finesse* in the exact same way that you can *5 Pull Finesse*.
+- The "pulled" card will always match the final blind-play.
+- For example in a 4-player game:
+  - It is the first turn of the game and nothing is played on the stacks.
+  - Donald's hand is as follows, from newest to oldest: `blue 4, blue 4, blue 5, red 3, blue 2`
+  - Alice clues number 5 to Donald, touching the blue 5 on slot 3.
+  - Bob blind-plays the red 1 (because he knows that it cannot be a *5 Stall*).
+  - Cathy blind-plays the red 2 (because she knows that she needs to play into the *Double Finesse*).
+  - Donald knows that the *5 Pulled* card is the red 3 to match the red 1 and the red 2.
+- Previously, we said that *5 Pull Finesse* **must** be a *Forward Finesse*. However, *5 Pulled* players **do** have to respect that a *5 Pull Finesse* can be a *5 Pull Double Finesse* with the second blind-play as a *Reverse Finesse*. (Specifically, we refer to this as a *Finesse* with a *Reverse Finesse* component.)
+- More examples of a *5 Pull Double Finesse* can be found [here](examples/5_pull_double_finesse.md).
+
+### The 5 Pull Clandestine Finesse
+
+- First, see the section on the [5 Pull Finesse](#the-5-pull-prompt--the-5-pull-finesse).
+- A *5 Pull Finesse* **must** be a *Forward Finesse*.
+- However, *5 Pulled* players **do** have to respect that the *Finesse* can be *Clandestine*.
+- For example in a 4-player game:
+  - It is the first turn of the game and nothing is played on the stacks.
+  - Bob's hand is as follows, from newest to oldest: `red 1, green 1, green 4, green 4, green 5`
+  - Cathy's hand is as follows, from newest to oldest: `blue 4, blue 4, blue 5, green 2, blue 2`
+  - Alice clues number 5 to Cathy, touching the blue 5 on slot 3.
+  - Bob blind-plays the red 1 (because he knows that it cannot be a *5 Stall*).
+  - Normally, Cathy would think that Alice performed a *5 Pull Finesse*, and she would blind-play her slot 4 card as the red 2 (to match the red 1).
+  - However, Cathy also sees that at the time of the clue, Bob had a playable green 1 behind the red 1. Thus, it is possible that Alice might be performing a *5 Pull Clandestine Finesse*.
+  - Cathy clues number 5 to Bob as a *5 Save*. (This is an unrelated clue.)
+  - Alice performs an unrelated action.
+  - Bob blind-plays the green 1 from slot 2.
+  - Cathy now knows that this was indeed a *5 Pull Clandestine Finesse* and that she has the green 2 on her slot 4.
+
+### The 5 Pull Promise (A Play Clue After a 5 Pull)
+
+- Normally, *5 Pulls* have to be treated as *Delayed Play Clues*. This means that sometimes, it can take a long time for the pulled card to blind-play.
+- From the perspective of the player who is *5 Pulled*, if a follow up *Play Clue* is given to a currently unplayable card, then they can disregard the *Delayed Play Clue* interpretation - the *5 Pulled* player is **promised** the card that makes the unplayable card playable.
+- For example, in a 4-player game:
+  - Alice has two clued 1's in her hand - red 1 and blue 1.
+  - Bob does a *5 Pull* on Donald. Donald knows that the *5 Pulled* card could be either red 2 or blue 2 (if it is a *Delayed Play Clue*).
+  - Cathy clues Alice about a red 3. Now, Donald knows that he is **promised** the red 2 as his *5 Pulled* card (and he no longer has to wait for the blue 1 to come down before blind-playing).
+
+### Finesses While 5 Pulled are Certain Finesses
+
+- Sometimes, a *5 Pulled* player may not play their pulled card right away. Maybe they have to wait for existing cards to play first, or maybe they want to capitalize on a *Finesse* while it is still available.
+- Any *Finesse* that a *5 Pulled* player performs is to be treated as a *Certain Finesse*.
+- Any *Certain Discard* that is performed in response to a *Finesse* that a *5 Pulled* player did applies to the *5 Pulled* card.
+
+### The 5 Pull Skip
+
+- If a player is already *Finessed*, it is possible to *Finesse* them again and get them to play their *Second Finesse Position* card.
+- Similarly, if a *5 Pull* is performed, and the card immediately to the right of a 5 is already clued or already "gotten", then the *5 Pull* skips over that card and gets the next card after that.
+
+### 5 Number Discharge (5ND)
+
+- This convention only applies in the *Low Score Phase*.
+- Players are only allowed to perform a *5 Stall* in certain situations. If a player performs a *5 Stall* when it would otherwise be illegal, then it is not a *5 Stall* at all, and would instead be:
+  - a *5's Chop Move* if the 5 is one-away-from-chop
+  - a *5 Pull* if the 5 is two-or-more-away-from-chop and the card to the right of it is playable
+  - a *5 Pull Finesse* if the 5 is two-or-more-away-from-chop and the card to the right of it is *one-away-from-playable*
+- However, what if the 5 is two-or-more-away-from-chop and the card to the right of it is *two-or-more-away-from-playable* **or** trash? This would be quite strange.
+- We agree that this signals a *Discharge* and that the next player should play their *Third Finesse Position*.
 - For example, in a 3-player game:
-  - Alice has a clued + known playable red 1 and a clued + known playable blue 2 in her hand.
-  - Alice plays blue 2.
-  - Bob comes next. Bob knows that normally, when you have a choice between two cards, you are supposed to play the lowest rank card. (Unless it is a blind-play, or it leads into someone's hand, or it is a 5.) Bob does not see any blue 3's, so he knows that Alice was supposed to play the red 1 instead of the blue 2. Alice **did not** play the card with *Priority*.
-  - This means that Bob must have a blue 3. Bob does not have any clued cards in his hand, so he blind-plays his *Finesse Position* card.
-- Similar to a normal *Prompt*, if a *Priority Prompt* could apply to two or more clued cards, then you should play the left-most one.
-- Similar to a normal *Prompt*, if a *Priority Prompt* made you play the left-most card and it was not the matching card, then you should continuing playing clued cards until you find the matching card.
+  - It is the first turn and nothing is played on the stacks.
+  - Alice clues number 5 to Cathy, touching a 5 on slot 1.
+  - Cathy hand is, from newest to oldest: red 5, red 3, green 2, green 1, green 2
+  - Bob thinks about what Alice's 5 clue could mean:
+    - The clue cannot be a *5 Stall*, because there is a green 1 to *Play Clue*.
+    - The clue cannot be a *5 Pull*, because the red 3 is not playable.
+    - The clue cannot be a *5 Pull Finesse*, because the red 3 is *two-away-from-playable*.
+  - Since Bob would have to blind-play two cards into the *Finesse* (the same rule as in *5 Color Ejections*), Bob knows that he should instead treat this as a *5 Number Discharge*. Bob blind-plays his slot 3 card and it successfully plays as the red 1.
+- After a *5 Number Discharge*, the card next to the 5 should be marked accordingly. For example, if a *5 Number Discharge* happens on the first turn of the game, then the team should mark the "pulled" card as a 3 or a 4.
+- More examples of a *5 Number Discharge* can be found [here](examples/5_number_discharge.md).
 
-### The Priority Bluff
+### 5 Number Discharge Finesse Position Skips
 
-- Similar to a normal *Bluff*, it is also possible for players to perform a *Priority Bluff*.
-- For example, in a 3-player game:
-  - Alice has a known playable red 1 and a known playable blue 2 in her hand.
-  - Alice plays blue 2.
-  - Bob comes next. Bob knows that normally, when you have a choice between two cards, you are supposed to play the lowest rank card. (Unless it is a blind-play, or it leads into someone's hand, or it is a 5.) Bob does not see any blue 3's, so he knows that Alice was supposed to play the red 1 instead of the blue 2. Alice **did not** play the card with *Priority*.
-  - This means that Bob must have a blue 3. Bob does not have any clued cards in his hand, so he blind-plays his *Finesse Position* card. It is **not** the blue 3 and is instead the green 1. Bob now knows that he was *Bluffed* and that no-one has the blue 3.
+- First, see the section on the *[5 Number Discharge](#5-number-discharge-5nd)*.
+- After a *5 Number Discharge* occurs, it is common for the card next to the 5 to be marked as a 3 or a 4.
+- If the 5 was on slot 1, then the marked card is now on *Finesse Position*. For most intents and purposes, this "marking" from a *5 Number Discharge* **does not** change the player's *Finesse Position* - their *Finesse Position* is still the card marked as a 3 or a 4.
+- However, if that player is *Finessed* for a 1 or a 2, then it is fairly obvious that they should not play the card that is marked as a 3 or a 4. In this case, the player should skip over their *Finesse Position* card and instead play their *Second Finesse Position*.
 
-### A Priority Flowchart (for Choosing Between 2+ Playable Cards)
+<br />
 
-*Priority* can be confusing. [Here is a flowchart](https://raw.githubusercontent.com/hanabi/hanabi.github.io/main/static/img/flowcharts/priority_flowchart.png) that shows, in general, which card should be played when there is a choice between two cards.
+## General Principles
 
-[Here is another flowchart](https://raw.githubusercontent.com/hanabi/hanabi.github.io/main/static/img/flowcharts/priority_unknown_flowchart.png) that shows how *Priority* works when one or more of the cards is unknown.
+### Interaction Between 2 Saves and 5 Stalls
 
-### Priority Exceptions
-
-Priority does not always apply. Some common exceptions are listed below.
-
-#### 1) *End-Game*
-
-- *Priority* is generally "turned off" in the *End-Game*, because players often need to play specific cards.
-- With that said, *Priority* can still work if a player plays a card that would be really terrible for the team otherwise.
-
-#### 2) The 4's Priority Exception
-
-- If a player has a known playable 5 and a known playable 4 that leads into their own hand, then according to the above *Priority* table, the known playable 4 would have *Priority*. However, this does not make much sense, since the 5 has to be played no matter what, playing the 5 gives the team a clue back, the 4 could be played by someone else, and so on.
-- Thus, if a player has a known playable 5 and a known playable 4 that leads into their own hand, then the 5 is said to have *Priority*.
-
-#### 3) Blind-Playing Globally-Known Cards
-
-- Normally, blind-playing cards has *Priority* over everything else.
-- However, in some advanced cases, the blind-play does not need to be demonstrated to the team - everyone already has full knowledge of what is going on. In this case, players are supposed to treat the cards as clued for the purposes of finding the *Priority*. (The *Gentleman's Discards* is the main move that this applies to.)
-
-#### 4) "Important" Cards
-
-- Normally, cards that are the same rank should be played from left-to-right.
-- However, in certain situations, players can know that some **other** card is **more important** than the left-most card. If a player plays a "more important" card, it should never trigger a "right-to-left" style *Priority Finesse*.
-- For example, in a 3-player game:
-  - In the *Early Game*, Alice clues number 2 to Bob, touching three 2's on slot 3, slot 4, and slot 5 (his chop). (This is the *2 Save* convention.)
-  - Later on in the game, all of the 1's are now played on the stacks.
-  - Bob has not received any other clues since then - all of his 2's are known playable, but he has no idea what color they are.
-  - Normally, Bob knows that he is supposed to play his 2's from left-to-right. However, he also knows that his 2 on slot 5 is the most important card out of all of them - it was the focus of the original *2 Save* by Alice.
-  - Thus, Bob plays his 2 on slot 5 first. After that, he plays the 2's from left-to-right like normal.
-
-### The Load Clue
-
-- Players will generally play cards without *Priority* if they see the next card in someone else's *Finesse Position*, because this will get the card for "free" as a *Priority Finesse*.
-- Less commonly, players will see the next card in someone else's hand, but it will not be in *Finesse Position*. In these cases, it might still be good to play the card without *Priority*, just so that the player with the next card will have something to do on their turn.
-- However, if they do play the card without *Priority*, it will cause an impending misplay because the target player will think the card is actually on their *Finesse Position*. Thus, doing this **forces** someone to give a clue to the card directly in order to stop the misplay.
-- This clue is similar to a *Fix Clue*, since it fixes an impending misplay. But we specifically call this kind of clue a *Load Clue* to differentiate it from a *Fix Clue* that fixes a *Lie* or mistake. It is a *Load Clue* because it is loading the player up with something to do on their turn.
-- If you receive a *Load Clue*, you should suspect that you might have something valuable on your chop, as this would be an excellent reason to commit the team to giving the *Load Clue* in the first place.
-- If a player has a choice between playing one card that leads nowhere and playing one card that commits the team to giving a *Load Clue*, then they are not obligated to choose one or the other - they can choose whichever one is best for the situation.
-- When a player receives a *Load Clue*, they are to interpret it as a normal *Play Clue* instead of a *Fix Clue*. For example, in a 3-player game:
-  - Red 1 and blue 1 are played on the stacks.
-  - Alice has a choice between playing a known red 2 or a known blue 2. The red 2 has *Priority* because it is the left-most card.
-  - Alice plays the blue 2.
-  - Bob sees that Cathy's hand is as follows, from newest to oldest: yellow 4, yellow 3, yellow 4, red 1, blue 3.
-  - Bob sees that Cathy will think that Alice is performing a *Priority Finesse* on the blue 3. Thus, Bob must now give a *Load Clue* to stop the impending misplay.
-  - Bob clues number 3 to Cathy.
-  - Cathy is surprised - she was about to play her *Finesse Position* card as a blue 3, but she now knows that it can't be a blue 3.
-  - If this was a *Fix Clue*, Cathy might be inclined to play the card that was closest to her slot 1 (which would be the 3 on slot 2).
-  - However, Cathy knows that *Load Clues* are to be interpreted as normal *Play Clues* instead of *Fix Clues*, so she interprets this as a normal *Chop-Focus Play Clue* and plays blue 3 from slot 5.
-
-### The Layered Priority Finesse
-
-- Similar to a normal *Layered Finesse*, it is also possible to initiate a *Layered Priority Finesse* as long as the blind-playing player is not the very next person.
-
-### The Priority Finesse (Special Case)
-
-- To review, if a player has two playable cards, and both of them are fully-known, then they always have the ability to trigger a *Priority Finesse*.
-- If a player has two playable cards, and only one of them is fully-known, a *Priority Finesse* will never be triggered if they play the unknown card.
-- But what if a player plays a fully-known card over an unknown card? They **can still** trigger a *Priority Finesse*, but **only** if every single possibility for the unknown card would have *Priority* over the card that was played.
-- For example, in a 3-player game:
-  - Red 2 is played on the stacks. The 1's are played on all of the other stacks.
-  - Alice has a globally-known red 3. (She was given a *Play Clue* on it earlier.)
-  - Alice has a 2 of unknown color. (She was given a *Save Clue* on it earlier, but it is now playable since all of the 1's are down.)
-  - Alice's 2 could be either blue 2, green 2, yellow 2, or purple 2.
-  - The rest of the team does not have any clued cards in their hands.
-  - Alice knows that **all** of the possibilities for the 2 would have *Priority* over the red 3, since all of them are lower rank.
-  - Alice plays the red 3 anyway, which triggers a *Priority Finesse* on the red 4.
-
-### The Trust Finesse (A Situational Priority Finesse)
-
-- According to the *Priority* rules, if an unknown card is played, no *Priority Finesse* can be triggered.
-- However, even if this is the case, if playing one of the cards over the other would be really dumb, it should still trigger a *Finesse*.
-- This type of move is called a *Trust Finesse* to distinguish it from the case where the card is globally known.
-- It is also possible to perform a *Trust Prompt*, a *Trust Bluff*, and so forth.
-- For example, in a 3-player game:
-  - All the 1's are played on the stacks.
-  - Alice has two playable cards in her hand:
-    - One of the cards has a red clue on it. Since it was originally clued as a *Play Clue*, it is globally known that Alice knows that this is exactly red 2.
-    - One of the cards has a number 2 clue on it. Since it was originally clued with a *Save Clue*, it can be any non-red 2. But it is playable because all of the 1's are already played.
-  - Bob has a clued and globally known red 3 in his hand.
-  - Alice knows that she is expected to play her red 2 into Bob's red 3, because that would be good teamwork.
-  - Unknown from the rest of the team, Alice knows from the context of the game that her 2 must be exactly blue 2.
-  - Bob has blue 3 on his *Finesse Position*.
-  - Alice plays the globally unknown 2 to cause a *Trust Finesse*.
-
-### The Paused Priority Finesse
-
-- For the purposes of *Priority*, blind-playing a card is the most important thing to do. When players are supposed to be blind-playing a card, they are usually **not** allowed to perform a *Priority Finesse* - they must stick to playing the blind card.
-- One exception to this is if a player is in the middle of unraveling the layer of a *Layered Finesse*. Since they have already blind-played their first card in the layer, they have demonstrated that the *Finesse* was on them, and now everyone on the team knows that the rest of the cards inside of the layer are "gotten" for sure.
-- Note that this only applies when the card that was blind-played was unrelated to the original *Layered Finesse*.
-  - For example, if a player is finessed for both the red 1 and the red 2 and has just blind-played a green 1, then they can perform a *Paused Priority Finesse*, because everyone on the team knows that the green 1 played as red 1 and therefore that the layer is not yet unraveled.
-  - However, if a player is finessed for both the red 1 and the red 2 and has just blind-played the red 1, then they **cannot** perform a *Paused Priority Finesse* because they haven't demonstrated to the team that they are still finessed for the red 2.
-- Thus, in this situation, a player can "pause" finishing up the *Layered Finesse* and play some other clued card to perform a *Paused Priority Finesse*.
+- Normally, players are only allowed to *5 Stall* if there is nothing else to do. If there is something else to do, then the number 5 clue signals a more advanced move.
+- Sometimes, a player can receive a *5 Stall* clue when:
+  1. A *2 Save* still needs to be done to another player
+  2. That *2 Save* is the only clue left
+- In this situation, players should assume the least complicated thing: a *5 Stall*. Because of the *[Visible Rule](level_7.md#the-visible-rule)*, the player who gave the *5 Stall* clue was not allowed to perform the *2 Save* because the other copy was visible.
+- In this situation, the player who received the *5 Stall* should write *Elimination Notes* on their hand for the other copy of the 2. Furthermore, they are not allowed to *2 Save* the other copy of the 2, so they must give some other clue or discard.
+- For example, in a 4-player game:
+  - It is the first turn and nothing is played on the stacks.
+  - Alice clues number 5 to Bob, touching a 5 on slot 1.
+  - From Bob's perspective, he does not see any other *Play Clues* or *Save Clues* that Alice could have given, with the exception of a *2 Save* on a red 2 on Cathy's chop.
+  - Thus, Alice's number 5 clue could be either a *5 Pull* or a *5 Stall*, depending on whether or not Bob has the other copy of the red 2 in his hand.
+  - Bob knows that in this situation, *5 Stalls* take precedence over *5 Pulls*, so he marks his hand for the other copy of red 2 and discards.

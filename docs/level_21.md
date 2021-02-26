@@ -1,121 +1,100 @@
 ---
 id: level_21
-title: Level 21 - Charms & Miscellaneous
+title: Level 21 - Emergency Discards
 ---
 
 - Level 21 strategies should only be learned if you have 380+ games of experience with the group.
 
 <br />
 
-## Conventions
-
-### Charms
-
-- *Charm* is similar to *Ejection* and *Discharge*, except the *Forth Finesse Position* card is blind-played.
-- Just like a *Bluff*, a *Charm* can only be performed on the very next player.
-- Several different kinds of moves can cause a *Charm*. The most common one is the *4 Charm*.
-
-<br />
-
 ## Special Moves
 
-### The 4 Charm
+### Phantom Playable Cards
 
-- When a *Play Clue* is given to a 4 that is not yet playable, Bob must react:
-  - The first interpretation is that it is a *Prompt*.
-  - If Bob has no matching cards in his hand, then a *Prompt* is impossible.
-  - The second interpretation is that it is a *Finesse*.
-  - If Bob sees that he would have to **blind-play one card** or **blind-play two cards** to fulfill a *Finesse*, then he should assume that it is a *Finesse*.
-  - If Bob sees that he would have to **blind-play three cards** in their hand to fulfill the *Finesse*, then a *Finesse* is unlikely.
-  - The third interpretation is that it is a *4 Double Bluff*.
-  - If Bob sees that Cathy does not have a playable card (or a *one-away-from-playable* card) on her *Finesse Position*, then a *4 Double Bluff* is impossible.
-  - The fourth interpretation is a *4 Charm*; Bob should play his *Fourth Finesse Position*.
+- First, see the section on [the definition of "playable" cards](level_1.md#play-clues--delayed-play-clues--the-definition-of-playable).
+- For a card to be *delayed playable*, it needs to be playable "through" other clued cards or "through" cards on *Finesse Position*. In other words, we are allowed to give *Play Clues* to *delayed playable* cards.
+- Consider that a slightly different category of card can exist. A card is *Phantom Playable* if it is playable "through" cards that are visible in someone's hand, but the in-between cards are not on *Finesse Position* and are not yet clued. We are **not** allowed to give *Play Clues* to *Phantom Playable* cards - at least not until the other cards are clued first.
+- From *Save Principle*, we know that everyone agrees to not let *playable* or *delayed playable* cards get discarded.
+- If possible, the team should also try to protect *Phantom Playable* cards from being discarded as well, since they are nearly as important as *delayed playable* cards. For example, it is common for other people on the team to discard in order to let the player with the *Phantom Playable* card be the one to give a *Play Clue* to the in-between card.
+- Sometimes, *Phantom Playable* cards have to be discarded when the team is low on clues or in an otherwise tight situation. While regrettable, this is perfectly okay and does happen from time to time.
+
+### The Scream Discard for a Phantom Playable Card
+
+- First, see the section on the *[Scream Discard](level_6.md#the-scream-discard-chop-move-deliberately-discarding-instead-of-playing)* and the section on *[Phantom Playable Cards](#phantom-playable-cards)*.
+- Normally, you are only allowed to perform a *Scream Discard* for a critical card or a playable card. But what about a *Phantom Playable Card*?
+- In most cases, players should also *Scream Discard* for a *Phantom Playable Card*, but it depends on the situation:
+  - Will it be clear to everyone what is happening?
+  - Will the in-between cards get clued right away?
+  - Are there other critical cards on chop that need to be saved or will need to be saved soon?
+  - Is the *Phantom Playable* card a 3 or a 4?
+- In summary, it is better for the team to let a *Phantom Playable* card get discarded in a tricky or tight situation, **especially** if it is a 4.
+- Another way of saying this is that the team should never "bend over backwards" for a *Phantom Playable* card. Consider that a *Scream Discard* always has a small chance to lose the game (if the *Scream Discarded* card was itself critical).
+
+### The Sacrifice Discard
+
+- First, see the section on the *[Scream Discard](level_6.md#the-scream-discard-chop-move-deliberately-discarding-instead-of-playing)*.
+- It is generally undesirable for a player to have a *Locked* hand, but sometimes it happens. And sometimes, one card in the locked hand is useful in the future, but not critical (meaning there is another copy of the card in someone else's hand or still in the deck).
+- Normally, you are never supposed to discard cards that have clues on them. And if you do, it implies a *Sarcastic Discard* or a *Gentleman's Discard*. However, when a player is locked, they can choose to "sacrifice" one of the cards in their hand that is non-critical. And in this situation, it does **not** imply a *Sarcastic Discard* or a *Gentleman's Discard*.
+- Sometimes, when a *Locked* player discards a non-critical card, it is a *Generation Discard*, and sometimes, it is a *Sacrifice Discard*. The other players on the team just have to decide which one it is based on how well the game is going. Usually, it is pretty obvious which one of the two it is, as *Sacrifice Discards* are usually very rare and are only done in very dire situations.
+
+### The Shout Discard Chop Move
+
+- First, see the section on the *[Scream Discard](level_6.md#the-scream-discard-chop-move-deliberately-discarding-instead-of-playing)*.
+- Normally, when a player performs a *Scream Discard*, they are discarding their chop (e.g. an unknown and unclued card).
+- However, if a player has both a known-playable card and a known-trash card, then discarding the known-trash card instead of playing their known-playable card would *still* communicate a *Scream Discard* to the next player in the exact same way.
+- This situation is slightly different than the normal case, so we call it a *Shout Discard* to differentiate it from a more-ordinary *Scream Discard*.
+- A *Shout Discard* *Chop Moves* the very next player in the exact way that a *Scream Discard* does.
+- A *Shout Discard* forces the next player to **not** discard on their turn in the exact way that a *Scream Discard* does.
+- Normally, a *Scream Discard* is only allowed to *Chop Move* a critical card or a playable card. However, unlike a *Scream Discard*, it is permissible to use a *Shout Discard* to *Chop Move* any card that is desirable, even if it is not critical or playable.
+- Normally, a *Scream Discard* is only allowed if the team is at 0 clues (or if cluing the card is impossible). However, unlike a *Scream Discard*, it is permissible to use a *Shout Discard* to *Chop Move* regardless of the number of clues that the team has.
+- Normally, a *Scream Discard* would turn into an *Echo Scream Discard* if the next player has a playable card. *Shout Discards* can also turn into *Echo Shout Discards*, but only if the team is completely out of clues and it can be seen to be a "last-resort" move.
+
+### The Whisper Discard Chop Move
+
+- First, see the section on the *[Scream Discard](level_6.md#the-scream-discard-chop-move-deliberately-discarding-instead-of-playing)*.
+- Occasionally, a player will have known trash in their hand. Obviously, they are expected to discard the known trash first before discarding their right-most unclued card.
+- Thus, if a player instead discards their right-most unclued card instead of the known trash, it must be a signal that something is wrong, exactly like a *Scream Discard*. This is more subtle than a *Scream Discard* though, so it is called a Whisper Discard.
+- *Whisper Discards* are to be treated identically to *Scream Discards*. In short, this means that they 1) cause a *Chop Move* and 2) force a clue to be given on the next turn.
+
+### The Echo Scream Discard Chop Move
+
+- First, see the section on the *[Scream Discard](level_5.md#the-scream-discard-chop-move-deliberately-discarding-instead-of-playing)*.
+- A *Scream Discard Chop Move* is done only as a last resort. So, if the next player has an unimportant card on chop, then the move is usually a *Generation Discard* and does not *Chop Move* anyone.
+- However, what if a *Scream Discard* is done and the next player has either:
+  - a known playable card
+  - a known safe trash discard
+- Since *Scream Discards* are only done as a last resort, the clue must have some other meaning. So, it *Chop Moves* both the next player **and** the player after that. This is called an *Echo Scream Discard*, because it "bounces" off the next player and travels to the next player after that as a "double scream".
+- Similar to a normal *Scream Discard*, all of the players who are *Chop Moved* are not allowed to discard on their next turn.
+- In the unlikely scenario where **two** people in a row have known plays / known safe discards, then the *Echo Scream Discard* will bounce off of two people and perform **three** *Chop Moves* in total. (And three people in a row cause four *Chop Moves*, and so forth.)
+- An *Echo Whisper Discard* works in the same way.
+
+### The Composition Discard
+
+- First, see the section on the *[Scream Discard](level_6.md#the-scream-discard-chop-move-deliberately-discarding-instead-of-playing)* and the *[Generation Discard](level_5.md#the-generation-discard)*.
+- In rare cases, it is possible for a discard to be both a *Scream Discard* and a *Generation Discard* at the same time, for two different players.
 - For example, in a 4-player game:
-  - It is the first turn and nothing is played on the stacks.
-  - Alice clues number 4 clue to Cathy, touching a red 4 on slot 1 as a *Play Clue*.
-  - Bob knows that normally, this would be a *Finesse* on the red 4, meaning that he should blind-play a red 1, a red 2, and a red 3. (Bob does not see any red cards in anyone else's hands.)
-  - Since the *Finesse* requires three blind-plays, it is unlikely, and Bob knows he is supposed to revert to a different interpretation.
-  - Bob sees that Cathy does not have a playable card (or a *one-away-from-playable* card) on her *Finesse Position*, so a *4 Double Bluff* is impossible.
-  - Thus, Bob knows that this must be a *4 Charm*. He blind-plays his *Fourth Finesse Position*. It is a blue 1 and it successfully plays.
-- *4 Charms* can be given with either a color clue or a number clue.
-- Similar to a *5 Color Ejection*, *Prompts* don't factor into the "three or more blind-plays" rule. Players only count the number of blind-plays.
-- *4 Charms* take precedence over *Safety Charms*. (*Safety Charms* are an advanced move that is covered later.)
+  - There are 0 clues in the bank.
+  - Alice needs to plan ahead for her turn.
+  - Bob and Donald both have a critical chop card. Cathy has a safe discard.
+  - Alice and Bob both have one known playable card in their hand.
+  - So, if Alice plays, Bob will perform a *Generation Discard*, and discard a critical card. This is not an option.
+  - Therefore, Alice must discard. This is a *Scream Discard* to Bob, and he should *Chop Move*. It is also a *Generation Discard* to Cathy, and she should not *Chop Move*.
 
-### The Blaze Discard
+### The Rebellious Discard
 
-- Normally, if a player performs a *Gentleman's Discard* and the other card is **not** on *Finesse Position*, it could one of two things:
-  1. If the card on *Finesse Position* is itself playable right now, then it would be a *Layered Gentleman's Discard*.
-  2. If the card on *Finesse Position* is not playable right now, then it is an emergency situation or a player is making a mistake.
-- Alternatively, if a player performs a *Baton Discard* and the other card is **not** on *Finesse Position*, then it is an emergency situation or a player is making a mistake.
-- If this is the case, and it is **not** an emergency situation and the player is **not** making a mistake, then the player who is performing the weird *Gentleman's Discard* (or *Baton Discard*) must be trying to communicate something extra.
-- In this situation, the discarding player intends for the very next player to blind-play the *Finesse Position* that **matches the true *Finesse Position*** of the other card. This is called a *Blaze Discard* because it "ignites" the next player's hand to fix the problem.
+- First, see the section on the *[Scream Discard](level_6.md#the-scream-discard-chop-move-deliberately-discarding-instead-of-playing)*.
+- Part of the *Scream Discard* convention states that after a *Scream Discard*, the next player **cannot** discard. Thus, a player in this situation must completely waste a clue if there is nothing productive to do.
+- However, in some situations, the player who has been screamed at sees that if they give a clue, the next player will be left at 0 clues and will be forced to discard a critical card.
+- Thus, in this situation, the player should *Chop Move* as normal and then discard their new chop. This second *Scream Discard* is called a *Rebellious Discard*, because they are not doing what they are told.
 - For example, in a 3-player game:
-  - All 1's are played on the stacks.
-  - Alice discards a known red 2 as a *Gentleman's Discard*.
-  - Bob sees that Cathy's hand is completely unclued and is as follows, from left to right: `red 1 (trash), red 2, green 1 (trash), green 1 (trash), blue 1 (trash)`
-  - Bob knows that normally, the *Gentleman's Discard* promises that the other copy of the red 2 is on *Finesse Position*. But Alice is *Lying* to Cathy, because she will go on to misplay the red 1 as the red 2.
-  - Bob knows that it would be pointless for Alice to perform a *Gentleman's Discard* and then for Bob to give a *Fix Clue*, as that would waste a clue. So, if Alice is not making a mistake, she must be trying to communicate something extra.
-  - Bob knows that this must be a *Blaze Discard* and he must blind-play the *Finesse Position* that matches the *Finesse Position* of the other card. In this case, since the red 2 is on Cathy's *Second Finesse Position* (slot 2), Bob must play his *Second Finesse Position* (slot 2).
-  - Bob blind-plays slot 2. It is a blue 2 and it successfully plays.
-  - From Cathy's perspective, she first suspects that some kind of *Ejection* is going on, since Bob blind-played his *Second Finesse Position*. However, since the previous action was a *Gentleman's Discard*, Alice knows that this must be a *Blaze Discard*. In other words, Bob was just blind-playing his *Second Finesse Position* to communicate to Cathy that she should play her *Second Finesse Position* instead of her *First Finesse Position*.
-  - Cathy blind-plays the red 2 from slot 2.
-- *Blaze Discards* do not apply when someone discards a 1 and there are two copies remaining. (In other words, it is still possible to perform a normal *Gentleman's Discard* by discarding a red 1 in the case where Bob has a red 1 on his *Finesse Position* and Cathy has a red 1 on her *Second Finesse Position* behind an unplayable card.)
-- *Blaze Discards* do not apply when someone performs a *Gentleman's Discard* or a *Baton Discard* that looks like a *Sarcastic Discard*. In these situations, one of the following is true:
-  - The discarding player is making a mistake (as a *Wrong Prompt*).
-  - The discarding player is not making a mistake and there is enough past context for the player with the cards to be able to tell the difference.
-- Remember that *Blaze Discards* work with *Finesse Positions*, **not** with slot numbers.
-- For example, in a 3-player game:
-  - Alice discards a red 3 as a *Blaze Discard*.
-  - Bob sees that Cathy has the other copy of the red 3. However, it is on slot 2 instead of on slot 1. (Cathy's hand is completely unclued.) Thus, Bob has to communicate to Cathy that it is actually on her *Second Finesse Position*.
-  - Bob has a clued 5 on his slot 1. Thus, Bob's *Finesse Position* is on slot 2 and his *Second Finesse Position* is on slot 3.
-  - Bob blind-plays his *Second Finesse Position* (slot 3). It is a blue 1 and it successfully plays.
-  - Cathy knows that because Bob blind-played his slot 3, the red 3 must be on her slot 2.
-- Note that it is illegal to perform an *Ambiguous Blaze Discard*. We want to keep *Blaze Discards* as simple as possible.
-- Note that it is illegal to perform a *Layered Blaze Discard* (on either the ignited player or the player holding the matching card). We want to keep *Blaze Discards* as simple as possible.
-
-### Finesses with a Lie Component
-
-- *Lie Principle* states all that *Fibs* must resolve immediately. An untruth that does not resolve immediately is a *Lie*.
-- Normally, *Lies* are expressly illegal. However, some players will occasionally break the rules for the purposes of getting a *Finesse*. We call such moves *Finesses with a Lie Component*.
-- Typically, when players *Lie* out of *Bluff Seat*, the game quickly falls apart; subsequent clues will have different meanings to different players and everyone will become "desynchronized". This typically leads to a loss.
-- With that said, it is sometimes possible to construct **safe** lines that contain a *Lie Component*. There is usually deep levels of nuance involved in these lines, so this kind of thing is only recommended for advanced and expert players.
-- The previously mentioned *Out-of-Order Finesse* is a specific example of a *Finesse* with a *Lie Component*. One key attribute of the *Out-of-Order Finesse* is that the player who receives the *Fix Clue* knows that **all** of the related cards are playable, or it would not have been worth the risk (and the confusion) to perform a line with a *Lie Component* in the first place.
-- This concept can be generalized to all *Finesses* that have a *Lie Component*. After a player receives a *Fix Clue* in such a situation, they should assume that the *Finesse* is "still on". So, depending on the situation, they should either know that the initial card that was clued is playable (like in an *Out-of-Order Finesse*) or continue to blind-play cards to fulfill the initial *Finesse* (if the card clued with a *Fix Clue* seems to be unrelated).
-- Importantly, *Finesses* with a *Lie Component* are **only** allowed if there is not an alternative line that would "get" the same number of cards without any lies. Thus, if you are looking to do a *Finesse* with a *Lie Component*, make sure you carefully consider the efficiency of all of the possible alternatives.
-
-### The Out-of-Position Bluff (OOP) / The Reverse Bluff
-
-- It is legal to perform a *Reverse Finesse*, but it is not legal to perform a *Reverse Bluff*, because it breaks the *Bluff Seat* rule (and violates *Lie Principle*).
-  - Why this policy? It is not possible to play with both *Layered Finesses* and *Reverse Bluffs* at the same time. *Layered Finesses* are much better, so we choose to "turn on" *Layered Finesse* and "turn off" *Reverse Bluffs*.
-- However, players **can** rarely break the *Bluff Seat* rule if **one of the following is true**:
-  1. The next player is at 0 clues (and won't blind-play anything / will blind-play an unrelated card).
-  2. The next player will think that they have the *Bluffed* card in their own hand and will not try to *Finesse* or *Bluff* the next player. (In this case, the *Bluffed* card means the card that will blind-play.)
-  3. The next player has enough positive or negative clues on their entire hand to know that they cannot have the card that the blind-played card will be played as.
-- Essentially, if i. or ii. is true, then the next player cannot act on their state of misinformation. And if iii. is true, then the next player will have full knowledge that a *Lie* is occurring, so they will not try to "get" the *Bluffed* card.
-- Since valid *Out-of-Position Bluffs* are so rare, it is important to remember that:
-  - Valid *Out-of-Position Bluffs* take precedence over *Known Bluffs*. In other words, if Bob can see that an *OOP Bluff* could be valid (meaning it meets one of the three criteria above), then Bob should not blind-play anything as a *Known Bluff* and let Cathy play instead.
-  - Valid *Out-of-Position Bluffs* take precedence over *Layered Finesses*. In other words, if Cathy can see that an *OOP Bluff* could be valid (meaning it meets one of the three criteria above), then Cathy should not continue to blind-play cards as a *Layered Finesse*. (This is a common mistake.)
-- A *Reverse Bluff* is just a just a more-specific type of *Out-of-Position Bluff*. All of the same stipulations apply.
-
-### The Hesitation Blind-Play
-
-- Sometimes, a player will receive a *Play Clue* on a card. And then, instead of playing it, they will discard their chop instead. This would normally indicate some sort of emergency. However, sometimes it can be seen that there is nothing special going on and that everybody has safe chop cards.
-- In such a situation, if the player is not making a mistake, the only reason that they would discard is that they are allowing for the possibility of a *Prompt* or a *Reverse Finesse* - someone else on the team has a playable card (either clued or on *Finesse Position*) that "matches" the card that they got the *Play Clue* on.
-- Depending on the game state, clever players may be able to blind-play their *Finesse Position* card in response to this hesitation, getting a card for "free". This kind of move is called a *Hesitation Blind-Play*.
-- For example, in a 3-player game:
-  - Red 1 and all of the other 2's are played on the stacks.
-  - The team has 5 clues. Nobody on the team has any cards clued in their hand.
-  - Alice clues number 3 to Bob, touching a blue 3 on slot 1 as a *Play Clue*. (The team is now at 4 clues.)
-  - Bob discards. (The team is now at 5 clues.)
-  - From Cathy's perspective, Bob was supposed to play the blue 3 immediately instead of discarding.
-  - Cathy knows that since the team has so many clues available, this cannot be a *Scream Discard* from Bob. (*Scream Discards* are only typically done when the team is at 0 or 1 clues.)
-  - Thus, Cathy knows that Bob must be hesitating because is he allowing for the possibility of a *Reverse Finesse*. In this situation, the only possible card that could Bob could be hesitating for is red 2.
-  - Cathy blind-plays her *Finesse Position* card. It is red 2 and it successfully plays.
-  - Alice discards.
-  - Bob knows that since Cathy blind-played the red 2, Alice did a *Reverse Finesse* and that he has the red 3.
-  - Bob plays the 3, but it is revealed to be blue 3 instead of red 3.
-  - Bob now knows that nobody has the red 3 and that Cathy blind-played the red 2 from Bob's hesitation.
-- *Hesitation Blind-Plays* are **not always safe** to do:
-  - If a player could be hesitating for a clued card in your hand **or** your *Finesse Position* card, then you cannot act on the hesitation. (If you guess wrong, you could misplay a critical card.)
-  - If a player could be hesitating for a card that is identical to the card that was clued, then you cannot act on the hesitation. (If you blind-play the same copy of the card, then they will go on to misplay the clued card.)
-  - If blind-playing a particular card would cause the original clue to look like a *Double Finesse* with a "self" component, then you cannot act on the hesitation. (For example, if a number 4 clue causes a *Hesitation Blind-Play* of a red 2, the clue receiver would go on to misplay their *Finesse Position* card as the red 3.)
+  - Red 4 is in the discard pile.
+  - There are 0 clues available.
+  - Alice has a known-playable blue 2.
+  - Bob has a critical red 4 on chop. Bob has no playable cards in his hand.
+  - Cathy's hand is *Locked*. All of the cards in Cathy's hand are critical. None of these cards are playable.
+  - Alice looks into the future and sees that if she plays the blue 2, Bob will be forced to discard the critical red 4, since the team is currently at 0 clues.
+  - Thus, Alice performs a *Scream Discard*, discarding instead of playing the known-playable blue 2.
+  - Bob knows that Alice performed a *Scream Discard*, so he marks his chop card as *Chop Moved*.
+  - Bob also knows that, as per the *Scream Discard* rules, he is not allowed to discard on this turn, and must give some clue instead (in case he has two critical cards in a row).
+  - However, in this case, if Bob did that, then Bob would be using the last clue, and then Cathy would not have a clue available and would be forced to discard a critical card.
+  - Thus, Bob knows that he must perform a *Rebellious Discard* in order to provide a clue for Cathy to do something.
