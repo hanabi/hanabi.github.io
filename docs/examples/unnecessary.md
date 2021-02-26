@@ -3,7 +3,7 @@ id: unnecessary
 title: Examples of Unnecessary Moves
 ---
 
-*[Unnecessary Moves](/extras/unnecessary.md)* are a level 19 convention.
+*[Unnecessary Moves](/level_21.md)* are a level 21 convention.
 
 <br />
 
