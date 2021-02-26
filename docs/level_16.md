@@ -170,7 +170,7 @@ title: Level 16 - 5 Tech
 - Sometimes, a player can receive a *5 Stall* clue when:
   1. A *2 Save* still needs to be done to another player
   2. That *2 Save* is the only clue left
-- In this situation, players should assume the least complicated thing: a *5 Stall*. Because of the *Visible Rule*, the player who gave the *5 Stall* clue was not allowed to perform the *2 Save* because the other copy was visible.
+- In this situation, players should assume the least complicated thing: a *5 Stall*. Because of the *[Visible Rule](level_7.md#the-visible-rule)*, the player who gave the *5 Stall* clue was not allowed to perform the *2 Save* because the other copy was visible.
 - In this situation, the player who received the *5 Stall* should write *Elimination Notes* on their hand for the other copy of the 2. Furthermore, they are not allowed to *2 Save* the other copy of the 2, so they must give some other clue or discard.
 - For example, in a 4-player game:
   - It is the first turn and nothing is played on the stacks.
