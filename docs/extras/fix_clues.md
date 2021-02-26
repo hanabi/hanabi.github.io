@@ -3,7 +3,7 @@ id: fix_clues
 title: Fix Clues
 ---
 
-### The Just-In-Time Fix Clue (To Fix a Layered Finesse with a Lie Component) (JIT)
+### The Just-In-Time Fix Clue (JIT)
 
 - When performing a *Layered Finesse* with a *Lie Component*, if the plan is to give a *Fix Clue* to the *Finesse Target* card (the "final" card that is to be blind-played), then it is important to wait until the **last** moment to give the *Fix Clue*. This is because after receiving the *Fix Clue*, the player will not play any more blind cards.
 - Thus, you should first wait for all of the "good" blind cards to play, and **then** give the *Fix Clue* to the *Finesse Target*, so that it comes "just in time" before the misplay.
