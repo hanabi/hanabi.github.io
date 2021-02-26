@@ -1,12 +1,14 @@
 ---
 id: level_1
-title: Level 1 - Newbie
+title: Level 1 - Fundamentals
 ---
 
 - Level 1 strategies can be learned with no games of Hanabi played. You can either learn them before you play your first game or after you play a few games to learn the basic mechanics.
-- This stuff is a repeat of the [beginner's guide](beginner.md), but we go into a bit more detail here.
+- This stuff is mostly a repeat of the [beginner's guide](beginner.md), but we go into a bit more detail.
 
-## Conventions & Special Moves
+<br />
+
+## Conventions
 
 ### Chop
 
@@ -14,7 +16,7 @@ title: Level 1 - Newbie
 - A player's chop is formally defined as **the next unclued card that they would discard if they had nothing to do**.
 - If a player has a clued card that is known useless, then they will typically discard the useless card **instead** of discarding their chop. (But the useless card does **not** count as the chop - their chop remains the right-most unclued card.)
 
-### Play Clues & Delayed Play Clues & The Definition of Playable
+### Play Clues & Delayed Play Clues
 
 - *Play Clues* are different than *Delayed Play Clues*:
   - If the card will successfully play on the stacks **right now**, then the clue was a *Play Clue*.
@@ -27,8 +29,12 @@ title: Level 1 - Newbie
 - As a rule, we treat all *Play Clues* as potential *Delayed Play Clues*.
 - For example, if Alice was clued about a bunch of 1's and then Bob is given a Play Clue on an unknown 2, Bob must wait for Alice to play all of her 1's first before playing the 2.
 - Since we treat all *Play Clues* as potential *Delayed Play Clues*, the distinction between them is pretty much irrelevant. In the *Hyphen-ated Group*, we use the phrase *Play Clue* to mean **either** a *Play Clue* or a *Delayed Play Clue*.
-- Additionally, when we say that an unclued card is currently *playable*, we do **not** mean that the card would be able to play on the stacks right this instant. If an unclued card is *playable*, then what we really mean is that it would be legal for someone to give either a *Play Clue* **or** a *Delayed Play Clue* to the card.
-  - In other words, if an unclued *playable* card was given a *Delayed Play Clue*, that card would eventually play on the stack without any additional clues needing to be given by anyone else - all the in-between cards, if any, are present and accounted for.
+
+### The Definition of Playable
+
+- First, see the section on *[Play Clues & Delayed Play Clues](#play-clues--delayed-play-clues)*.
+- When we say that an unclued card is currently *playable*, we do **not** mean that the card would be able to play on the stacks right this instant. If an unclued card is *playable*, then what we really mean is that it would be legal for someone to give either a *Play Clue* **or** a *Delayed Play Clue* to the card.
+- In other words, if an unclued *playable* card was given a *Delayed Play Clue*, that card would eventually play on the stack without any additional clues needing to be given by anyone else - all the in-between cards, if any, are present and accounted for.
 
 ### One-Away-From-Playable Cards
 
@@ -58,6 +64,10 @@ title: Level 1 - Newbie
 - The *Early Game* is the period of time before someone discards for the first time.
 - Players **must** "extinguish" all of the available *Play Clues* and *Save Clues* on the board before ending the *Early Game*.
   - As outlined in the [beginner's guide](beginner.md#3---minimum-clue-value-principle-and-tempo-clues), "extinguishing" all the *Play Clues* does **not** include giving *Tempo Clues*. *Tempo Clues* do not meet *Minimum Clue Value Principle*, so in general, they should almost never be given.
+
+<br />
+
+## Special Moves
 
 ### The 5 Stall
 

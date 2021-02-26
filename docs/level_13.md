@@ -1,131 +1,115 @@
 ---
 id: level_13
-title: Level 13 - Senior
+title: Level 13 - Double Bluffs
 ---
 
 - Level 13 strategies should only be learned if you have 220+ games of experience with the group.
-- This level introduces *Elimination* and all of the complicated situations that go along with it.
 
 <br />
 
-### Discard Elimination & Elimination Notes
+## Special Moves
 
-- Normally, your teammates would never let you discard anything important. So when you discard some playable card (or a needed 2) **and** that card is not in anyone else's hand, you might think that the team make a mistake.
-- From *High Value Principle*, you should never assume your teammates are making a mistake. One excellent reason that they would let you discard an important card is that you have the other copy in your hand. (In order to satisfy *Good Touch Principle*, they had to wait for you to discard it so that they would not duplicate the card.)
-- Thus, when you get a follow-up clue, you will know exactly what card it is.
+### The Double Half Bluff (DHB)
+
+- Sometimes, you see that two players in a row have playable *Finesse Position* cards. However, they are unrelated, so you can't get them both played with a *Double Finesse*. In this situation, by performing a clue that looks like a *Double Finesse*, you can get the first card played like a normal *Finesse* and the second card like a *Bluff*.
 - For example, in a 4-player game:
-  - Red 3 is played on the stacks.
-  - Alice has a completely unclued hand.
-  - Alice discards her chop (slot 5). It is a (playable) red 4.
-  - Alice gasps in surprise - she knows that everyone on the team agrees to not let each other discard playable cards (*Save Principle*).
-  - Alice knows that the team was not in a dire situation or anything, so the only explanation is that she must have the other copy of the red 4.
-  - Alice writes a note of "r4?" on slots 2, 3, 4, and 5. (It can't be on slot 1, since that is the card she just drew.)
-  - Bob clues Alice red, which touches a card on slot 1 and slot 2.
-  - Normally, Alice would play the left-most card (slot 1) as the red 4. However, because of her notes, she knows that the red 4 must actually be on slot 2.
-  - Alice successfully plays red 4 from slot 2. Since the red 5 is the only good red card left, Alice can assume that her other red card is red 5 (from *Good Touch Principle*), and she can play it on the next turn.
-- In this example, the "r4?" notes that Alice writes are called *Elimination Notes*. *Elimination Notes* are notes that represent the possible slots for a specific card.
-- In this example, thing "thing" that triggered the writing of *Elimination Notes* was the discarding of a card, so this is called *Discard Elimination*.
-- Note that players should not always make *Elimination Notes* when they discard a playable card. In some cases, games can be extremely busy, leaving no reasonable way to get the playable card. Players must just their best judgment and account for this.
+  - Red 1 is played on the stacks.
+  - Alice clues Donald red, which touches a red 4 as a *Play Clue*.
+  - Bob goes next and assumes that it is a *Double Self-Finesse* - he has the red 2 and red 3 in his two newest slots. Thus, he blind-plays his left-most and it is red 2, as expected.
+  - Cathy goes next. Cathy sees that Bob does **not** have red 3 in his *Second Finesse Position* (and no one else has a red 3 in their *Finesse Position* either). Thus, Cathy must have the red 3. Cathy tries to blind-play red 3 from her *Finesse Position*, but is blue 1 instead.
+  - Bob now knows he does not have the red 3 anymore, since Cathy blind-played.
+  - Cathy now knows that since two blind-plays happened in a row, she does **not** have the red 3 and that she was *Bluffed*.
+  - At first, Donald thought that the red card in his hand was red 2 (as a *Play Clue*).
+  - After Bob blind-played, Donald thought that the red card in his hand was red 3 (as a *Finesse*).
+  - After Cathy blind-played, Donald knows that he must have the red 4 (as a *Double Half Bluff*).
+- Normally, players are only allowed to perform *Bluffs* while sitting in *Bluff Seat*. The *Double Half Bluff* is one of the few exceptions to the rule. (It is allowed because the *Fib* still resolves "immediately", which satisfies *Lie Principle*.)
 
-### The Elimination Blind-Play
+### The Double Bluff
 
-- First, see the section on [Discard Elimination](#discard-elimination--elimination-notes).
-- In the example for *Discard Elimination*, the team clued the second copy of the red 4 directly. But in other situations, the team will **not** need to clue anything. The player with the *Elimination Notes* can eliminate the possibilities one by one. When there is only one possibility left, they can blind-play the card as an *Elimination Blind-Play*.
+- Similar to a *Double Half Bluff*, it is also possible to get 2 cards played in a row that are completely unrelated. It is distinct from a *Double Half Bluff* because **none** of the blind-played cards match the card that is clued.
 - For example, in a 4-player game:
-  - Red 3 is played on the stacks.
-  - Alice has a completely unclued hand.
-  - Alice discards her chop (slot 5). It is a (playable) red 4.
-  - Alice knows that the team was not in a dire situation or anything, so the only explanation is that she must have the other copy of the red 4.
-  - Alice writes "r4?" *Elimination Notes* on slots 2, 3, 4, and 5. (It can't be on slot 1, since that is the card she just drew.)
-  - Bob clues Alice blue, which touches slots 1, 2, 3, and 4. (This is a *Play Clue* on slot 1.)
-  - Alice writes a note of "blue 1" on slot 1.
-  - Alice erases her *Elimination Notes* for the red 4 from slots 2, 3, and 4.
-  - The only card left with an *Elimination Note* is slot 5.
-  - Alice can now blind-play the red 4 when it gets to her turn as an *Elimination Blind-Play*.
+  - Red 1 is currently played on the stacks.
+  - Alice clues Donald red, which touches a red 4 as a *Play Clue*.
+  - Since red 4 must be playable right now, Bob thinks he has the red 2 and the red 3. Bob blind-plays his *Finesse Position* card, but it is actually a blue 1.
+  - Cathy sees that Bob blind-played because of the red clue. However, since the red 4 is a two-away from playable card instead of a *one-away-from-playable* card, it must mean that it is a *Double Bluff* instead of a single *Bluff*. Cathy blind-plays her *Finesse Position* card and it is yellow 1.
+  - At first, Donald thought that the red card in his hand was red 2 (as a *Play Clue*).
+  - After Bob blind-played, Donald thought that the red card in his hand was red 3 (as a *Bluff*).
+  - After Cathy blind-played, Donald knows that he must have the red 4 (as a *Double Bluff*).
+- Normally, players are only allowed to perform *Bluffs* while sitting in *Bluff Seat*. The *Double Bluff* is one of the few exceptions to the rule. (It is allowed because the *Fib* still resolves "immediately", which satisfies *Lie Principle*.)
 
-### The Elimination Play Clue
+### The Triple Bluff (Illegal)
 
-- A clue that touches multiple cards only has one focus. As you probably know, if the chop card was not touched, then the focus is the left-most card.
-- However, this rule does not apply if a clue singles out a playable card from *Elimination*. In this case, the card is only focused on the *Elimination* card, and any other cards touched are not necessarily playable right now.
-- For example, in a 3-player game:
-  - Red 1 and blue 1 are played on the stacks.
-  - Alice has both red 2's in her hand on slot 3 and slot 5. (Alice's chop is her slot 5.)
-  - Alice discards her chop, and it is revealed to be the red 2.
-  - Alice is surprised, and writes *Discard Elimination Notes* for red 2 on slots 2, 3, 4, and 5.
-  - Bob gives a number 2 clue to Alice that touches a card in slot 1 and slot 4.
-  - Normally, Alice would treat this as a *Play Clue* on the 2 in her slot 1. However, she now knows that her slot 4 card is exactly red 2 (and that she can play it right now).
-  - Thus, Alice knows that the point of the clue was only to get the red 2. The 2 in her slot 1 can be any 2 in the game and is not necessarily playable right now.
+- A *Double Bluff* is when a player clues a card that is two-away-from-playable and it gets two unrelated cards to blind-play from *Finesse Position*.
+- Logically, it follows from the *Double Bluff* that if a player clues a card that is three-away-from-playable, it would cause three unrelated cards to blind-play from *Finesse Position* as a *Triple Bluff*.
+- However, this is not the case. We explicitly agree that *Triple Bluffs* are illegal and not to be used. (*Triple One-Third Bluffs* and *Triple Two-Third Bluffs* are also illegal.)
+- The consequence of this is that if a player gives a *Play Clue* to a three-away-from-playable card (e.g. either a 4 or a 5) and it causes two cards to blind-play, then the next player should **not** continue to blind-play any more cards. See the next section for more information.
 
-### The Elimination Riding Deduction
+### The 4 Double Bluff & The 5 Double Bluff
 
-- If:
-  - there are only two cards left in a player's hand with *Elimination Notes* **and**
-  - the previous players let the chop card ride **and**
-  - the previous players were not busy, **then**
-- The card with the *Elimination Note* card cannot be on the chop! (Otherwise, one of the previous players would have clued it with either a *Play Clue* or a *Save Clue* in order to prevent it from being discarded.)
-- In such a situation, the player with the *Elimination Notes* can "jump ahead" and immediately blind-play the newest of the two cards.
-- For example, in a 3-player game:
-  - Red 1 has been played on the red stack.
-  - Alice has a completely unclued hand.
-  - Alice discards her chop (slot 5). It is a (playable) red 2.
-  - Alice knows that the team was not busy, so she must have the other copy of red 2.
-  - Alice writes *Elimination Notes* on slots 2, 3, 4, and 5.
-  - Alice receives no clues on the next go-around of the table. She discards, and now has *Elimination Notes* on slots 3, 4, and 5.
-  - Alice receives no clues on the next go-around of the table. She discards, and now has *Elimination Notes* on slots 4 and 5.
-  - Alice receives no clues on the next go-around of the table. Her teammates would not let the other copy of red 2 be discarded, so it must be on slot 4. Alice blind-plays red 2 from slot 4.
+- Since *Triple Bluffs* are illegal and not to be used, it is possible to perform a *Double Bluff* with a card that is not exactly two-away-from-playable. This is similar to how the *3 Bluff* convention works.
+- This is how it works for 4's:
+  - If a 4 is given a *Play Clue* and it is *one-away-from-playable*, then it would only trigger a single *Bluff* (and not a *Double Bluff*).
+  - If a 4 is given a *Play Clue* and it is *two-away-from-playable*, then it would trigger a *Double Bluff*. (This would be a "normal" *Double Bluff*.)
+  - If a 4 is given a *Play Clue* and it is *three-away-from-playable*, then it would still only trigger a double *Bluff* (as a *4's Double Bluff* specifically).
+- This is how it works for 5's:
+  - If a 5 is given a *Play Clue* and it is *one-away-from-playable*, then it would only trigger a single *Bluff* (and not a *Double Bluff*).
+  - If a 5 is given a *Play Clue* and it is *two-away-from-playable*, then it would trigger a *Double Bluff*. (This would be a "normal" *Double Bluff*.)
+    - Note that this would only happen if e.g. *5 Color Ejection* and *5 Number Discharge* would not apply.
+  - If a 5 is given a *Play Clue* and it is *three-away-from-playable* or *four-away-from-playable*, then it would still only trigger a double *Bluff* (as a *5's Double Bluff* specifically).
+    - Note that this would only happen if e.g. *5 Color Ejection* and *5 Number Discharge* would not apply.
+- For example, in a 5-player game:
+  - Nothing is played on the stacks.
+  - Alice clues Donald red, which touches a red 4 as a *Play Clue*.
+  - Bob tries to blind-play red 1 from his *Finesse Position*, but he instead plays a blue 1.
+  - Cathy knows that this must be a *Double Bluff*. She blind-plays yellow 1 from her *Finesse Position*.
+  - Now, it is Donald's turn.
+    - At first, Donald thought that the red card in his hand was red 1 (as a *Play Clue*).
+    - After Bob blind-played, Donald thought that the red card in his hand was either a red 2 (as a *Bluff*) or a red 3 (as a *3 Bluff*).
+    - After Cathy blind-played, Donald now knows that the red card in his hand is a red 4 (as a *4's Double Bluff*).
+    - (Donald knows that it cannot be a red 5, or else Bob would have blind-played his *Second Finesse Position*.)
 
-### The Elimination Riding Deduction Bluff
+### The 4 Double Bluff That Looks like a Double Half Bluff
 
-- Typically, when a player has two cards with *Elimination Notes* and the "true" copy of the card is on chop, you must clue it to let them know.
-- However, if the other card is also playable, you can choose to not clue anything.
-- Next, the player should perform an *Elimination Riding Deduction*, and play the unrelated card.
-- After that, there will be only one card left with an *Elimination Note*, so they will go on to play the "true" card on their next turn.
+- Because any *Bluff* sequence that gets two cards blind-played can be a 4, this means that players have to account for the fact that a card that initiates a *Double Half Bluff* could also be a 4.
+- For example, in a 4-player game:
+  - It is the first turn of the game and nothing is played on the stacks.
+  - Alice clues red to Donald, touching a red 3 as a *Play Clue*.
+  - Bob blind-plays red 1.
+  - Cathy blind-plays blue 1.
+  - Normally, Donald would know that his red card is exactly a red 3, as a *Double Half Bluff*.
+  - However, Donald also knows that any 4 in the game can be used to perform a *Double Bluff*.
+  - Thus, Donald marks his red card as either a red 3 (if it was a *Double Half Bluff*) or a red 4 (if it was a *4 Double Bluff*).
 
-### The Elimination Self-Chop Move
+<br />
 
-- Sometimes, you will have narrowed down your *Elimination Notes* to one specific card. Thus, even though the card has no positive clues on it, you know the exact identity of the card.
-- If the card in question is on your chop **and** the card is not yet playable **and** you need to discard, you should obviously not discard the important elimination card. You should instead self-chop move and discard the next thing.
+## General Principles
 
-### Double Discard Elimination
+### Deferring a Bluff
 
-- When a player who is in a *Double Discard* situation discards anyway with an obvious clue to give (such as a *5 Stall* on an off-chop 5), it implies that they **see** the other copy of the card, and were not *Double Discarding* at all.
-- Thus, when this occurs, you should write *Elimination Notes* on your entire hand for that card.
-- This is almost exactly the same thing as *Discard Elimination*, except it is triggered by the discard of a separate player.
+- From *Urgency Principle*, we know that players are allowed to defer a *Finesse* or a *Bluff* in order to do a *Finesse* or *Bluff* of their own. And indeed, when players see a really good clue, they should probably defer blind-playing to give the clue. But there are limits.
+- When a player knows for sure that they are *Finessed* (instead of *Bluffed*), then deferring a *Finesse* (to perform another *Finesse* or *Bluff*) is great! It has almost no downsides, other than the obvious loss of tempo. Everyone on the team is "in the know", so to speak.
+- When a player *could* be *Bluffed*, deferring a *Bluff* can be extremely dangerous because it causes *Information Desynchronization* throughout the team.
+- Deferring a *Bluff* to perform a *Finesse* can be pretty clear, depending on the situation. It should be done sparingly.
+  - Note that deferring a *Bluff* to perform a *Finesse* can potentially lose the game if the original cluer is performing a *Double Half Bluff*. So there is some risk involved.
+- Deferring a *Bluff* to perform **another** *Bluff* is much worse. Since the *Bluff* was not immediately resolved, the game state "fractures" into two valid game states for the receivers of each clue (e.g. the player who received the clue that initiated the first *Bluff*, and the player who received the clue that initiated the *Deferred Bluff*). This means that these two players will have to entertain two entire hypothetical game states in their mind and build upon each hypothetical with each new piece of information. This makes it extremely difficult for them to plan ahead or make correct decisions during their turns.
+- Thus, deferring a *Bluff* to do another *Bluff* should **almost never be performed**.
+- Also, see the below section on *Deferring a Double Bluff*.
 
-### The Elimination Finesse
+### Deferring a Double Bluff
 
-- Normally, if a player is *Finessed*, they are supposed to play their *Finesse Position* card. However, what if they have *Elimination Notes* on their hand for the specific card that is *Finessed*?
-- In most situations, there will not be an *Elimination Note* on slot 1 (e.g. the *Finesse Position*). This means that playing slot 1 into the *Finesse* would not make any sense.
-  - However, in the rare case where there is an *Elimination Note* on their *Finesse Position*, then the player should **still** not play the *Finesse Position*; read on.
-- Here, the player is expected to play the **oldest** of the cards with the *Elimination Notes* on them (not counting *Chop Moved* cards, if any).
-- For example, in a 3-player game:
-  - Blue 2 is played on the stacks.
-  - Alice has a completely unclued hand.
-  - Alice discards a blue 3. Blue 3 was playable, and nothing urgent is currently happening, so she writes *Elimination Notes* on her hand for the other blue 3 on slots 2, 3, 4, and 5.
-  - Bob clues Cathy blue, which touches a blue 4 as a *Play Clue*.
-  - Cathy discards.
-  - Alice knows that this is some sort of *Reverse Finesse*, as it is calling for the blue 3. However, the blue 3 cannot be in her *Finesse Position* (slot 1), as she knows from the *Elimination Notes* that it must be either on slot 2, 3, 4, or 5. So it must instead be a *Reverse Elimination Finesse*.
-  - The *Elimination Finesse* promises that it is her oldest card, so she plays slot 5 as blue 3.
-- As mentioned above, *Chop Moved* cards should be skipped over when finding the *Elimination Finesse* target. If there are two or more cards with *Elimination Notes* on them and they are all *Chop Moved*, then the oldest *Chop Moved* card should be played.
-- *Elimination Finesses* apply to **all** types of situations with *Elimination Notes* (including *Double Discard Elimination Notes*). Subsequently, you can more specifically describe an *Elimination Finesse* as a *Discard Elimination Finesse* or a *Double Discard Elimination Finesse*.
-- Note that normal *Finesses* take priority over *Self-Elimination Finesses*. For example, in a 3-player game:
-  - Red 2 and blue 2 are played on the stacks.
-  - Alice's hand is completely unclued. Alice has *Elimination Notes* on slot 3 and slot 4 for red 3.
-  - Cathy clues a number 4 in Alice's slot 1 as a *Self-Finesse*.
-  - If Alice's 4 is a blue 4, then this would be a normal *Self-Finesse*, and Alice should blind-play blue 3 from slot 2.
-  - If Alice's 4 is a red 4, then this would be an *Elimination Self-Finesse*, and Alice should blind-play red 3 from slot 4.
-  - Alice knows that in this situation, you always supposed to assume a normal *Finesse*, so she blind-plays blue 3 from slot 2.
+- First, see the section on *[Deferring a Bluff](#deferring-a-bluff)*.
+- If Bob suspects that Alice is performing a *Double Bluff*, then Bob should **never defer**. It is very important that *Double Bluffs* resolve immediately.
+- Similarly, if Bob blind-plays, and Cathy can not rule out a *Double Bluff*, then Cathy should **never defer**. (If Cathy defers, it will cause an unrecoverable *Information Desynchronization*, because her future blind-play will not be interpreted as related to the *Double Bluff*.)
 
-### Elimination & Chop Focus
+### A Table for Deferring Bluffs
 
-* First, see the section on the *[Elimination Play Clue](#the-elimination-play-clue)*.
-* In the *Elimination Play Clue*, the presence of *Elimination Notes* changes the "normal" focus of a clue, because the clue actively touches one of the cards with *Elimination Notes*.
-* However, if a clue does **not** touch one of the cards with *Elimination Notes*, then the focus of the clue should be evaluated normally. In other words, the focused slot should be evaluated before the clue was given (just like how every other clue works).
-* For example, in 3-player game:
-  * Red 1 is played on the stacks.
-  * Alice discards red 2. She writes *Elimination Notes* for red 2 on slot 2, slot 3, slot 4, and slot 5.
-  * Bob clues number 3 to Alice, touching four 3's on slot 1, slot 2, slot 3, and slot 4.
-  * Alice now knows that the red 2 is exactly on slot 5.
-  * Alice also knows that Bob's number 3 clue must be a *Play Clue* on the red 3. But which slot is focused (e.g. promised to be red 3)?
-  * The clue is either focused on slot 1 (her newest card) or slot 4 (her "new" chop after the red 2 is accounted for).
-  * Alice knows that you evaluate where the chop is before clues are given, so the clue must be focused on slot 1.
+| Alice is deferring a               | to perform a | Ok?
+| ---------------------------------- | ------------ | ---
+| Finesse                            | Finesse      | Yes!
+| Finesse                            | Bluff        | Yes!
+| Bluff                              | Finesse      | Sometimes, use sparingly
+| Bluff                              | Bluff        | Almost never do this
+| Double Bluff (first blind-player)  | Finesse      | No, **never** do this
+| Double Bluff (first blind-player)  | Bluff        | No, **never** do this
+| Double Bluff (second blind-player) | Finesse      | No, **never** do this
+| Double Bluff (second blind-player) | Bluff        | No, **never** do this

@@ -1,127 +1,121 @@
 ---
 id: level_11
-title: Level 11 - Advanced
+title: Level 11 - Intermediate Bluffs
 ---
 
 - Level 11 strategies should only be learned if you have 180+ games of experience with the group.
-- This level introduces various moves that have to do with cluing number 5 (which is also referred to as *5 Tech*).
 
 <br />
 
-### The Early 5's Chop Move
+## Special Moves
 
-- In the *Early Game*, players are only allowed to clue an off-chop 5 if there is nothing left to do. (Or, as a special exception, if there is only one *Play Clue* to give to a card that happens to be on *Finesse Position*.)
-- Thus, if someone clues a 5 and there **is** something else to do, they are performing a special move.
-- If the 5 is one-away from chop, then they are performing an *Early 5's Chop Move*. This functions in the exact same way a normal *5's Chop Move* does (except it was done in the *Early Game*, which is not normally possible).
+### The 3 Bluff
 
-### The Low Score Phase and the Normal Score Phase
+- Typically, the player who receives a clue that causes a *Bluff* blind-play knows that the card that was clued is one-away from being playable.
+- Our group plays with an artificial *3 Bluffs* convention. This means that in addition to being one-away from being playable, we agree that the touched card can *also* be any 3 that will be useful in the future.
+- *3 Bluffs* are mostly used to get 1's played at the beginning of the game. However, similar to a normal *Bluff*, a *3 Bluff* can be used to get any playable card (as long as it doesn't look like a *Finesse*, obviously.)
+- Here are some examples that cover the four most common *3 Bluff* situations:
 
-- At this point, you should already know that we split up the game of Hanabi into the *Early Game* and the *Mid-Game* (based on when someone discards).
-- In a similar way, we also split up the game of Hanabi into the *Low Score Phase* and the *Normal Score Phase*:
-  - The *Low Score Phase* is defined as when the score is below `2 x number of suits`. (e.g. 10 points in a no variant game, 6 points in a 3-suit game, etc.)
-  - The *Normal Score Phase* is defined as when the score is equal to or past this threshold.
-- Some special moves using a number 5 clue can only be performed in the *Low Score Phase* of the game.
-- On Hanab Live, the score will be colored cyan when the *Low Score Phase* is active.
+#### Example 1 - **Color Mismatch** (Valid)
 
-### No Play Clues with a Number 5 Clue in the Low Score Phase
+- On the first turn of the game, Alice clues Cathy red, which touches a red 3.
+- Bob blind-plays blue 1.
+- Cathy knows that it is either a red 2 (if it was a normal *Bluff*) or a red 3 (if it was a *3 Bluff*). She marks down both of the possibilities for later.
 
-- Normally, if a player uses a number 5 clue to clue a 5 that is two-or-more-away-from-chop, and that player is not a stalling situation, then it would be a *Play Clue* on the 5.
-- However, all number 5 clues in the *Low Score Phase* are **never** to be interpreted as a direct *Play Clue*.
-- They are instead interpreted as a more advanced move. (See the [5 Pull](#the-5-pull) section below.)
-- This means that if players need to give a *Play Clue* to a playable 5, and the score is less than 2 points per stack, then they **must** use a color clue, or wait until later.
+#### Example 2 - **Number 3 with Suit Mismatch** (Valid)
 
-### The 5 Pull
+- On the first turn of the game, Alice clues Cathy number 3, which touches a red 3.
+- Bob blind-plays blue 1.
+- Cathy knows that it was a *3 Bluff*, because a played 1 does not "match" number 3.
+- Beyond that, Cathy knows nothing about the card, besides that it is a 3 (since it has a number 3 clue on it).
 
-- This convention only applies in the *Low Score Phase*.
-- Players are only allowed to perform a *5 Stall* in certain situations. If a player performs a *5 Stall* when it would otherwise be illegal, then it is not a *5 Stall* at all, and would instead be:
-  - a *5's Chop Move* if the 5 is one-away-from-chop
-  - a *Play Clue* if the 5 is two-or-more-away-from-chop
-- However, since *Play Clues* with number 5 clues are "turned off" in the *Low Score Phase*, then the cluing player must be intending something else: a *5 Pull*.
-- A *5 Pull* causes the player to blind-play the card to the right of the 5. The clued 5 is not actually related to the blind-play. This is why it is called a *Pull* instead of a *Finesse* or a *Bluff*.
-- *5 Pulls* are typically done to 5's that are on slot 1. But, for example, you can also clue a 5 in slot 2 in order to get a blind-play on slot 3.
-- *5 Pulls* take precedence over *Finesses* and *Bluffs*, because a number 5 clue is never considered to be *Play Clue*. For example:
-  - It is the *Early Game* and the *Low Score Phase*.
-  - Red 3 is played on the stacks.
-  - Alice clues Cathy number 5, touching a red 5 on slot 1. (There are other *Play Clues* for Alice to give, so this cannot be a *5 Stall*.)
-  - Normally, Bob would think that this is a *Finesse* and that he should blind-play his *Finesse Position* card as the red 4.
-  - However, Bob knows that *Play Clues* with a number 5 clue are "turned off" in the *Low Score Phase*, which means that Alice is **not** indicating that the red 5 is playable.
-  - Bob can see that there is a playable blue 1 to the right of the 5, so Alice must be intending a *5 Pull*. When it gets to Cathy's turn, Cathy will blind-play that card.
-- Since *5 Pulls* are never *Play Clues* on the 5, it is possible to *5 Pull* a 4 without promising that the 5 matches the suit.
-- Confusingly, *5 Pulls* work differently from *Finesses*. Even though they involve playing a blind card, a *5 Pull* should be treated as a *Delayed Play Clue* (or a potential *Prompt*). This means that the blind card could play through any existing touched cards.
-- When a player is *Finessed* or *Bluffed*, they are allowed to defer playing the blind card in order to do a *Finesse* or *Bluff* of their own. However, if they could be *Bluffed*, they are **not** allowed to initiate a *5 Pull*. (Players are still allowed to defer playing into a *Finesse* in order to initiate a *5 Pull*.)
-- In the rare case where a *5 Pull* is performed in a 3-player game by touching two 5's in slot 1 and slot 3, then the *5 Pulled* card is slot 2.
-- For expert players, we define a specific [interaction between *5's Chop Moves* / *5 Pulls* and *2 Saves*](level_19/save_clues.md#2-saves-interaction-with-5s-chop-moves--5-pulls).
+#### Example 3 - **Color Match** (NOT valid; looks like a Finesse)
 
-### A Flowchart for Cluing 5's in the Early Game
+- On the first turn of the game, Alice clues Cathy red, which touches a red 3.
+- Bob blind-plays red 1.
+- Cathy sees that Bob does not have red 2. Since red matches red, Cathy assumes that she has the red 2.
+- Cathy misplays red 3 as red 2.
+- Alternatively, if Cathy saw that Bob had both red 1 and red 2 on his *Finesse Position* at the time the clue was given, she would know that she has the red 2 **or** the red 3. Subsequently, Bob is promised a red 2, since if he does not blind-play a card, Cathy will go on to misplay the red 3 as red 2.
 
-- Differentiating between a *5 Stall* and a *5 Pull* can sometimes be confusing. [Here is a handy flowchart](https://raw.githubusercontent.com/hanabi/hanabi.github.io/main/static/img/flowcharts/early_game_5_flowchart.png) that steps you through how you can tell the difference.
+#### Example 4 - **Color Match with Rank Mismatch** (NOT valid; looks like a Finesse):
+  - This is a 4-player game.
+  - Nothing is played on the stacks.
+  - Alice clues Donald red, touching a red 3 as a play clue.
+  - Bob blind-plays the red 1.
+  - Cathy notices that Donald's red card has a negative 2 clue on it. This means that Donald will not go on to misplay the card as the red 2.
+  - Cathy needs to evaluate whether or not Alice's clue is a *Finesse* or a *3 Bluff*. If this is a *Double Finesse*, then Cathy needs to blind-play the red 2. If this is a *Bluff*, then Alice only intended for Bob to blind-play.
+  - Cathy knows that since **red matches red**, this must be a *Double Finesse*, so Cathy blind-plays the red 2 into the red 3.
 
-### The 5 Pull Prompt & The 5 Pull Finesse
+#### Example 5 - **Number 3 with Suit Match** (valid)
 
-- *5 Pulls* are also allowed to initiate a *Prompt* or *Finesse*.
-- For example, in a 4-player game:
-  - It is the first turn of the game and nothing is played on the stacks.
-  - Cathy's hand is as follows, from newest to oldest: `blue 4, blue 4, blue 5, red 2, red 2`
-  - Donald's hand is as follows, from newest to oldest: `yellow 4, yellow 4, green 1, yellow 3, yellow 3`
-  - Alice clues number 5 to Cathy, touching the blue 5 on slot 3.
-  - Bob knows that since the team is the *Early Game*, Alice's clue might be a *5 Stall*.
-  - However, Bob also knows that you are only allowed to perform a *5 Stall* if there are no normal *Save Clues* or *Play Clues* to give. Bob sees that Donald has a green 1 that could be *Play Clued*. Thus, Bob knows that Alice's clue cannot not be a *5 Stall*, which makes it a *5 Pull* instead (since it is two-or-more-away from the chop).
-  - Bob knows that if this was a *5 Pull*, it would be pulling the red 2. If Bob does nothing, Cathy might go on to misplay the red 2 as some playable 1.
-  - Thus, this must be a *5 Pull Finesse*, so Bob blind-plays his *Finesse Position*. It is a red 1 and it successfully plays.
-  - Cathy knows that the only reason that Bob would blind-play a card is it this was a *5 Pull Finesse*. Cathy blind-plays her slot 4 card. It is a red 2 and it successfully plays.
-- Unlike other types of *Finesses*, *5 Pull Finesses* **must** be demonstrated with a blind-play between when the *5 Pull* is given and the *5 Pulled* player's next turn (e.g. a *Forward Finesse*).
-- Subsequently, *5 Pulls* are **not** allowed to initiate a *Reverse Finesse*. (This is because we don't want the person with the pulled card to have to entertain too many possibilities.)
-- Remember that during a *5 Pull Finesse*, the pulled card **always** matches the blind-play. In other words, it impossible to perform a *5 Pull Bluff*.
+- On the first turn of the game, Alice clues Cathy number 3, which touches a red 3.
+- Bob blind-plays red 1.
+- Cathy knows that it was a *3 Bluff*, because a played 1 does not "match" number 3.
+- Beyond that, Cathy knows nothing about the card, besides that it is a 3 (since it has a number 3 clue on it).
+- Even though red 1 and red 3 are the same suit, Bob is not promised a red 2, because if he does nothing, Cathy will not go on to misplay the red 3.
 
-### The 5 Pull Double Finesse
+#### Generic Questions
 
-- First, see the section on the [5 Pull Finesse](#the-5-pull-prompt--the-5-pull-finesse).
-- As you would expect, it is also possible to perform a *5 Pull Double Finesse* in the exact same way that you can *5 Pull Finesse*.
-- The "pulled" card will always match the final blind-play.
-- For example in a 4-player game:
-  - It is the first turn of the game and nothing is played on the stacks.
-  - Donald's hand is as follows, from newest to oldest: `blue 4, blue 4, blue 5, red 3, blue 2`
-  - Alice clues number 5 to Donald, touching the blue 5 on slot 3.
-  - Bob blind-plays the red 1 (because he knows that it cannot be a *5 Stall*).
-  - Cathy blind-plays the red 2 (because she knows that she needs to play into the *Double Finesse*).
-  - Donald knows that the *5 Pulled* card is the red 3 to match the red 1 and the red 2.
-- Previously, we said that *5 Pull Finesse* **must** be a *Forward Finesse*. However, *5 Pulled* players **do** have to respect that a *5 Pull Finesse* can be a *5 Pull Double Finesse* with the second blind-play as a *Reverse Finesse*. (Specifically, we refer to this as a *Finesse* with a *Reverse Finesse* component.)
-- More examples of a *5 Pull Double Finesse* can be found [here](examples/5_pull_double_finesse.md).
+- *3 Bluffs* can be confusing. If you don't want to memorize the five examples above, you can simply ask the following questions:
+  1. Does the clue "match" the blind-play? If it matches, then it is a *Finesse*. If it does not match, then it is a *Bluff*. Red matches red, but red does **not** match blue. 2 matches 3, but 1 does **not** match 3.
+  2. Will the player who received the clue go on to misplay if nothing else is blind-played? If yes, then it is a *Finesse*. If no, then it is a *Bluff*.
 
-### The 5 Pull Clandestine Finesse
+### The Critical 4 Bluff
 
-- First, see the section on the [5 Pull Finesse](#the-5-pull-prompt--the-5-pull-finesse).
-- A *5 Pull Finesse* **must** be a *Forward Finesse*.
-- However, *5 Pulled* players **do** have to respect that the *Finesse* can be *Clandestine*.
-- For example in a 4-player game:
-  - It is the first turn of the game and nothing is played on the stacks.
-  - Bob's hand is as follows, from newest to oldest: `red 1, green 1, green 4, green 4, green 5`
-  - Cathy's hand is as follows, from newest to oldest: `blue 4, blue 4, blue 5, green 2, blue 2`
-  - Alice clues number 5 to Cathy, touching the blue 5 on slot 3.
-  - Bob blind-plays the red 1 (because he knows that it cannot be a *5 Stall*).
-  - Normally, Cathy would think that Alice performed a *5 Pull Finesse*, and she would blind-play her slot 4 card as the red 2 (to match the red 1).
-  - However, Cathy also sees that at the time of the clue, Bob had a playable green 1 behind the red 1. Thus, it is possible that Alice might be performing a *5 Pull Clandestine Finesse*.
-  - Cathy clues number 5 to Bob as a *5 Save*. (This is an unrelated clue.)
-  - Alice performs an unrelated action.
-  - Bob blind-plays the green 1 from slot 2.
-  - Cathy now knows that this was indeed a *5 Pull Clandestine Finesse* and that she has the green 2 on her slot 4.
+- Building on the *3 Bluffs* convention, we also agree that it is possible for a card that initiates a *Bluff* to be a copy of any of the 4s that are currently in the discard pile, but only if **a color clue** is used.
+- For example, in a 3-player game:
+  - Nothing is played on the stacks. Red 4 is currently in the discard pile.
+  - Alice clues Cathy red, touching a red 4 as a *Play Clue*.
+  - Bob blind-plays a blue 1.
+  - Cathy marks her red card as the *one-away-from-playable* red card, the red 2.
+  - However, Cathy also knows that *3 Bluffs* are a thing, so she *also* marks her red card as possibly a red 3.
+  - However, Cathy also knows that *Critical 4 Bluffs* are a thing, so she *also* marks her red card as possibly a red 4.
 
-### The 5 Pull Promise (A Follow-up Play Clue After a 5 Pull)
+### The Hard Bluff
 
-- Normally, *5 Pulls* have to be treated as *Delayed Play Clues*. This means that sometimes, it can take a long time for the pulled card to blind-play.
-- From the perspective of the player who is *5 Pulled*, if a follow up *Play Clue* is given to a currently unplayable card, then they can disregard the *Delayed Play Clue* interpretation - the *5 Pulled* player is **promised** the card that makes the unplayable card playable.
-- For example, in a 4-player game:
-  - Alice has two clued 1's in her hand - red 1 and blue 1.
-  - Bob does a *5 Pull* on Donald. Donald knows that the *5 Pulled* card could be either red 2 or blue 2 (if it is a *Delayed Play Clue*).
-  - Cathy clues Alice about a red 3. Now, Donald knows that he is **promised** the red 2 as his *5 Pulled* card (and he no longer has to wait for the blue 1 to come down before blind-playing).
+- First, see the section on *[Cathy's Match Principle](level_8.md#cathys-match-principle-part-2)*.
+- Sometimes, it can be ambiguous as to whether a player blind-played a card into a *Bluff*, or they blind-played into a *Finesse* + *Prompt*. In this situation, *Occam's Razor* applies, so players should go with the *Bluff* interpretation, since it is simpler. When such a *Bluff* occurs, it is called a *Hard Bluff* to disambiguate from situations where *Bluffs* happen with no ambiguity.
+- For example, this is a *Finesse* + *Prompt* and **not** a *Hard Bluff*:
+  - Only red 1 is played on the stacks.
+  - Cathy has a 3 clued in her hand (with no color information on it).
+  - Alice clues Cathy about a brand new 4.
+  - Bob blind-plays red 2.
+  - In a normal *Bluff*, a *one-away-from-playable* card is clued. However, Cathy sees that the highest stack is the red stack, so the 4 in her hand must be two-away.
+  - Thus, Cathy does **not** read it as a *Bluff*; she is promised red 3 and red 4, so she plays the unknown 3 as a *Self-Prompt* for the red 3.
+- For example, this **is** a *Hard Bluff*:
+  - Red 1 and blue 2 are played on the stacks.
+  - Cathy has a 3 clued in her hand (with no color information on it).
+  - Alice clues Cathy about a brand new 4.
+  - Bob blind-plays red 2.
+  - This could be a *Bluff* if the 4 in her hand is blue 4, since blue 4 is currently *one-away-from-playable*. Thus, Cathy **does not** assume that her 4 is red 4, and subsequently, **does not** assume that her unknown 3 is a red 3. However, it could **also** be the case that the 4 is a red 4 (if the 3 in her hand happens to be red 3).
+  - Thus, Cathy marks down both possibilities for later and does not play anything right now.
 
-### Finesses While 5 Pulled
+### The Hard 3 Bluff
 
-- Sometimes, a *5 Pulled* player may not play their pulled card right away. Maybe they have to wait for existing cards to play first, or maybe they want to capitalize on a *Finesse* while it is still available.
-- Any *Finesse* that a *5 Pulled* player performs is to be treated as a *Certain Finesse*.
-- Any *Certain Discard* that is performed in response to a *Finesse* that a *5 Pulled* player did applies to the *5 Pulled* card.
+- Players can use a 3 to *3 Bluff* the 1 of the same suit.
+- For example, in a 3-player game:
+  - Nothing is played on the stacks.
+  - Alice clues number 3 to Cathy, touching a red 3 on slot 1 as a *Play Clue*.
+  - Bob blind-plays red 1.
+  - Bob now knows that it was a *3 Bluff* and that no-one is promised the red 2. This is because even though the red 1 is the same suit as the red 3, *3 Bluffs* take precedence over *Double Finesses* as long as the clue type (number 3) does not match the card that was blind-played (a number 1).
 
-### The 5 Pull Skip
+### Known Bluffs
 
-- If a player is already *Finessed*, it is possible to *Finesse* them again and get them to play their *Second Finesse Position* card.
-- Similarly, if a *5 Pull* is performed, and the card immediately to the right of a 5 is already clued or already "gotten", then the *5 Pull* skips over that card and gets the next card after that.
+- Usually, when a *Bluff* occurs, the blind-playing player has no idea that is a *Bluff* - they assume they are playing a specific card into a true *Finesse*.
+- However, in rare situations, a clue will be given that looks like a *Finesse*, but the next player will know for sure that they do not have the "matching" card.
+- In these situations, if the next player cannot see a better explanation for the clue, then they should blind-play their *Finesse Position* card as a *Known Bluff*.
+- For example:
+  - The player might see all of the copies of the card that they are supposed to be blind-playing.
+  - The player might have negative information on their entire hand (e.g. negative blue on every card when they are supposed to be blind-playing a blue 2).
+  - The player might know that they are blind-playing a 1 into a *3 Bluff* (e.g. a card was clued with number 3 and there are no cards played yet).
+
+<br />
+
+## General Principles
+
+### Legal Bluff-Targets
+
+- The full list of legal *Bluff* targets is as follows:
+  - any *one-away-from-playable* card (with either a color clue or a number clue)
+  - any 3 (with either a color clue or a number clue)
+  - any critical 4 (only with a color clue)

@@ -1,18 +1,93 @@
 ---
 id: level_3
-title: Level 3 - Initiate
+title: Level 3 - Basic Strategy
 ---
 
 - Level 3 strategies should only be learned if you have played with the group for a few days (20+ games of experience).
-- This level introduces a few different kinds of *Chop Moves*. While *Chop Moves* may not be used in every single game, level 3 players should be comfortable with all of the basic forms.
-- Level 3 subsections:
-  - [Conventions & Special Moves](#conventions--special-moves)
-  - [General Principles](#general-principles)
-  - [Common Mistakes](#common-mistakes)
 
 <br />
 
-## Conventions & Special Moves
+## Conventions
+
+### Fix Clues
+
+- Nearly every clue that is given is either a *Save Clue* or *Play Clue*. One small exception to this is a *Fix Clue*, which is an attempt to "fix" an impending misplay.
+- *Fix Clues* are often needed when a duplicate card is touched. Cards are not normally duplicated (which follows from *Good Touch Principle*), but sometimes someone makes a mistake, or a sequence of particular cards makes duplicating necessary. Duplicate cards will lead to misplays, so it is the team's responsibility to fix the problem and intervene before this happens.
+
+![Fix Clue](/img/level_2/fix_clue.png)
+
+- In the above screenshot:
+  - Before the clue was given, Alice had an unknown purple card in her hand.
+  - From *Good Touch Principle*, Alice concluded that her card must be purple 5, and had planned to play it as soon as possible.
+  - Bob clues number 3 to Alice, which "fills in" the purple card and reveals that it is purple 3.
+  - Since Alice was just about to play this card, Alice knows that this was a *Fix Clue* and that she can now safely discard the purple 3.
+
+![Fix Clue](/img/level_2/fix_clue2.png)
+
+- **A clue cannot be a *Play Clue* and a *Fix Clue* at the same time.** If you receive a *Fix Clue* and it touches other ancillary cards, none of them are necessarily playable; the primary point of the clue is to fix the impending misplay.
+- In the above screenshot:
+  - Before the clue was given, Alice has an unknown 1 in her hand.
+  - From *Good Touch Principle*, Alice concluded that her 1 must be green 1, and had planned to play it as soon as possible.
+  - Bob clues blue to Alice, which "fills in" the 1 and reveals that it is blue 1. The blue clue also touches a blue card on slot 1.
+  - In this situation, Alice might be tempted to think that this is a *Play Clue* on a blue 2 in slot 1, especially considering that the slot 1 card was the only brand new card introduced in the clue (and that the focus of a clue should always be on the brand new card introduced).
+  - However, the fact that the blue clue "fixed" an impending misplay means that Bob may have had no choice but to clue blue, and he may not necessarily be trying to give a *Play Clue*.
+  - Alice marks the blue card as either blue 2, blue 3, blue 4, or blue 5, and discards the blue 1.
+
+### Fix Clues (That Give No Additional Information)
+
+- Usually a *Fix Clue* will "fill in" the card to explicitly make it known that the card is unplayable or duplicated. However, it is also possible to perform a *Fix Clue* just by cluing the card again. For example:
+  - Alice clues Bob number 1 and it touches three 1's.
+  - Bob successfully plays two 1's.
+  - Before Bob can play the 3rd 1, Alice clues Bob number 1 again, and all the clue does is re-touch the remaining 1.
+  - Now it is Bob's turn. Since he was going to play the 1 already without Alice doing anything, the clue must have some other meaning. Thus, it is a *Fix Clue*: the remaining 1 is bad, and Bob can safely discard it.
+- *Fix Clues* that give no additional information only "fix" one card. For example:
+  - Alice clues Bob number 1 and it touches three 1's.
+  - Bob successfully plays one 1.
+  - Before Bob can play the 2nd 1, Alice clues Bob number 1 again, and all the clue does is re-touch the two remaining 1's.
+  - Now it is Bob's turn. Since he was going to play both of these 1's already without Alice doing anything, the clue must have some other meaning. Thus, it is a *Fix Clue*: the 1 that Bob was about to play is bad, and Bob can safely discard it. Bob skips over the 1 that he was about to play and plays the other one.
+
+### Playing Multiple 1's
+
+#### Part 1 - Play Order Inversion in the Starting Hand
+
+- If one or more 1's in your hand are clued, **you should assume that they are all playable**. (This only applies to 1's, and follows from *Good Touch Principle*.)
+- We agree that playing 1's at the beginning of the game is a special case - you should always **play the 1's in your starting hand from oldest to newest**. (This is a special case because normally, *Play Clues* mean to play the left-most card.)
+
+![Playing Multiple 1's](/img/level_2/playing_multiple_1s.png)
+
+- In the above screenshot, on the first turn of the game, Alice clues number 1 to Bob, which touches three 1s on slot 2, slot 3, and slot 4.
+- From *Good Touch Principle*, Bob knows that he can now play all 3 of these cards.
+- Bob should play the slot 4 card first, and then the slot 3 card, and then the slot 2 card.
+- The logic behind this convention is explained [here](https://github.com/hanabi/hanabi.github.io/blob/main/misc/Convention_Reasons.md#play-order-of-multiple-1s).
+
+#### Part 2 - The Fresh 1's Rule
+
+- If two (or more) 1's are clued in someone's hand, and one of the 1's was in the starting hand, and one of the 1's was not, then the "fresh" card is probably more important. (Otherwise, the clue might have been given earlier.)
+- Thus, freshly drawn 1's should always be played before any 1's that were present in the starting hand.
+- Continuing on from the example in the previous section, imagine that:
+  - Bob plays the slot 4 card. (He then draws a card, and all of the other cards in his hand slide over.)
+  - Alice clues 1's to Bob, which touches a brand new card on slot 1 and re-touches the ones on slot 3 and slot 4.
+
+![Playing Multiple 1's](/img/level_3/playing_multiple_1s.png)
+
+- Bob knows that fresh 1's have precedence, so he plays the slot 1 card next. After that, he should play the slot 4 card, and then the slot 3 card (e.g. resuming the play order from before).
+
+#### Part 3 - The Chop Focus Exception
+
+- The *Fresh 1's Rule* has an exception: *Chop-Focus* **overrides** it.
+- For example, in a 3-player game:
+  - No cards are played on the stacks.
+  - Alice discards a red 4.
+  - Bob discards.
+  - Cathy clues number 1 to Alice, touching four 1's on slots 1, 2, 3, and 5.
+  - Alice knows that the correct order to play all of the 1's in is 5, 1, 3, 2:
+    - Alice knows that normally, you are supposed to play freshly-drawn 1's before 1's that were present in your starting hand. However, *Chop-Focus* overrides this rule, so she knows that the slot 5 card (her chop) should play first.
+    - After that, she uses the *Fresh 1's Rule*, and knows to play the 1 in slot 1 next.
+    - After that, she will play the rest of the 1's from oldest to newest (since they were in her starting hand), so she will play slot 3 and then slot 2.
+
+<br />
+
+## Special Moves
 
 ### The Sarcastic Discard
 
@@ -30,127 +105,33 @@ title: Level 3 - Initiate
   - Bob has two cards clued with number 3 in his hand. He does not have any color information on either 3.
   - Bob can be certain that one of the two 3's is red 3, but he does not know which one it is yet.
 
-### Playing Multiple 1's - The Fresh 1's Rule (Part 2)
-
-- First, see the section on [Playing Multiple 1's - Play Order Inversion in the Starting Hand (Part 1)](level_2.md#playing-multiple-1s---play-order-inversion-in-the-starting-hand-part-1).
-- If two (or more) 1's are clued in someone's hand, and one of the 1's was in the starting hand, and one of the 1's was not, then the "fresh" card is probably more important. (Otherwise, the clue might have been given earlier.)
-- Thus, freshly drawn 1's should always be played before any 1's that were present in the starting hand.
-- Continuing on from the example in [Playing Multiple 1's - Part 1](level_2.md#playing-multiple-1s---play-order-inversion-in-the-starting-hand-part-1), imagine that:
-  - Bob plays the slot 4 card. (He then draws a card, and all of the other cards in his hand slide over.)
-  - Alice clues 1's to Bob, which touches a brand new card on slot 1 and re-touches the ones on slot 3 and slot 4.
-
-![Playing Multiple 1's](/img/level_3/playing_multiple_1s.png)
-
-- Bob knows that fresh 1's have precedence, so he plays the slot 1 card next. After that, he should play the slot 4 card, and then the slot 3 card (e.g. resuming the play order from before).
-
-### Playing Multiple 1's - The Chop Focus Exception (Part 3)
-
-- The *Fresh 1's Rule* has an exception: *Chop-Focus* **overrides** it.
-- For example, in a 3-player game:
-  - No cards are played on the stacks.
-  - Alice discards a red 4.
-  - Bob discards.
-  - Cathy clues number 1 to Alice, touching four 1's on slots 1, 2, 3, and 5.
-  - Alice knows that the correct order to play all of the 1's in is 5, 1, 3, 2:
-    - Alice knows that normally, you are supposed to play freshly-drawn 1's before 1's that were present in your starting hand. However, *Chop-Focus* overrides this rule, so she knows that the slot 5 card (her chop) should play first.
-    - After that, she uses the *Fresh 1's Rule*, and knows to play the 1 in slot 1 next.
-    - After that, she will play the rest of the 1's from oldest to newest (since they were in her starting hand), so she will play slot 3 and then slot 2.
-
-### The Chop Move
-
-- Normally, players discard their oldest (right-most) unclued card. However, sometimes a player can know that an unclued card is very important.
-- A *Chop Move* is a special kind of move that indicates to a player that the unclued card that is currently on their chop is very important.
-- After the *Chop Move*, the player considers the card on their chop to be touched with an "invisible" clue. Thus, their chop will "move" to the next right-most unclued card.
-- A *Chop Move* is permanent, meaning that a *Chop Moved* card should not be discarded for the remainder of the game.
-- Several kinds of *Chop Moves* are listed below.
-
-### The Trash Chop Move
-
-- See the *Chop Move* section above for an explanation on what a *Chop Move* is.
-- In the middle of a game, if all of the 1's have been played already, and someone clues a 1, this is quite strange. (From *Good Touch Principle*, players are not supposed to touch cards that have already been played.) In this situation, the 1 is considered "trash".
-- The clue must have some deeper meaning. We agree that it means that the cards to the right of the trash are important. The point of the clue was to give the player a safe discard.
-- However, in addition to giving a safe discard, it should also *Chop Move* **all** of the cards to the right of the trash.
-- For example, in a 3-player game:
-  - All of the 1's are played.
-  - Bob has a completely unclued hand.
-  - Alice clues 1's to Bob, which touches a 1 in his slot 4.
-  - Bob *Chop Moves* his slot 5.
-  - Bob discards the 1.
-  - Bob's chop is now his slot 4.
-- Most of the time, the *Trash Chop Move* is done for a single card (meaning that the trash card that was clued was one-away from chop). However, you can also use the *Trash Chop Move* to *Chop Move* multiple cards. For example, in a 3-player game:
-  - All of the 1's have been played on the stacks.
-  - Bob has a completely unclued hand.
-  - Alice clues 1's to Bob, which touches a 1 in his slot 1.
-  - Bob *Chop Moves* his slot 2, his slot 3, his slot 4, and his slot 5 (a quadruple *Chop Move*).
-  - Bob discards the 1.
-  - Bob's chop is now his slot 1.
-- This move is most commonly done with a number 1 clue because it is likely that in the middle of a game, all of the 1's will be already played. But it could also be done with a number two 2 clue if all the 2's are already played / accounted for. Or, it could be done with a red clue if all of the red cards are already played / accounted for. And so forth.
-- Strategy wise, the *Trash Chop Move* is used for two main reasons:
-  1. Sometimes there are multiple critical cards in a row on chop and it falls to one player to save all of them. In this situation, a multiple-card *Chop Move* could be the only way to do it.
-  2. Some cards (e.g. a *one-away-from-playable* 3) are quite useful to the team, but "illegal" to touch directly (as touching them directly with a clue would imply that they are playable right now). If the game is going well, then it can be useful to "waste" a clue in order to have the card saved permanently.
-- Note that you are **not** allowed to *Trash Chop Move* a card that you can just clue directly with a *Save Clue* (unless there are multiple critical cards in a row on chop and you have no other choice). This is because having some positive information is always better than having the card be a mystery.
-- If a *Trash Chop Move* touches **multiple** trash cards, then it only *Chop Moves* the cards to the right of the right-most trash card. For example, in a 3-player game:
-  - All the 1's are played on the stacks.
-  - Bob has a completely unclued hand.
-  - Alice clues 1's to Bob, which touches a 1 in slot 2 and a 1 in slot 4.
-  - Bob **only** *Chop Moves* his slot 5 card.
-
-### The 5's Chop Move (5CM)
-
-- See the *Chop Move* section above for an explanation on what a *Chop Move* is.
-- Normally, we are only allowed to save 5's on chop (unless it is done with a *5 Stall* clue, which can happen in the *Early Game* and in other "stalling" situations).
-- So, if a number 5 clue is performed on a 5 that is not on chop, and it is **not** a stalling situation, then it will normally look like a *Play Clue* on that 5.
-- However, if the 5 is:
-  - **one-away** from chop (or, if two or more 5's are clued and the right-most 5 is one-away from chop), and
-  - the chop card is not a trash card
-- Then, we agree that it has a special meaning, and that the clue is **not** a *Play Clue* at all.
-- Instead, it is understood that the clue is a *5's Chop Move*, and the player should *Chop Move* in a manner similar to the *Trash Chop Move*.
-- Note that the *5's Chop Move* is different than the *Trash Chop Move* in that you can only chop move **one** card with it. Thus, if you clue a 5 and it is **two** (or more) slots away from the chop, then it is to be assumed to be a *Play Clue* on the 5.
-  - When counting how far away from chop a card is, you should only look at **unclued** cards.
-- Similar to the *Trash Chop Move*, if a *5's Chop Move* touches **multiple** 5's, then it only *Chop Moves* the cards to the right of the right-most 5. For example, in a 3-player game:
-  - All the 1's are played on the stacks.
-  - Bob has a completely unclued hand.
-  - Alice clues 5's to Bob, which touches a 5 in slot 2 and a 5 in slot 4.
-  - Bob **only** *Chop Moves* his slot 5 card. Bob's new chop is his slot 3.
-- Remember that *5 Stalls* takes precedence over *5's Chop Moves*. Thus, if a number 5 clue **could** just be a *5 Stall* (e.g. it is the *Early Game*), then it should not *Chop Move* anything.
-
-### Chop Moves & New Clues
-
-- See the *Chop Move* section above for an explanation on what a *Chop Move* is.
-- Once a card has been *Chop Moved* and is no longer in danger of being discarded, it is treated as an already-clued card with regards to new clues given to that hand.
-- For example, in a 3-player game:
-  - All of the 1's have been played on the stacks.
-  - Bob has a completely unclued hand.
-  - Alice clues 1's to Bob, which touches a 1 in his slot 4.
-  - Bob *Chop Moves* his slot 5.
-  - Bob discards the 1.
-  - Bob's chop is now his slot 4.
-  - Cathy clues blue to Bob, which touches his slot 1 (the card he just drew) and his slot 5 (the card that was just *Chop Moved*).
-  - Bob knows that the focus of the clue is always on the brand-new card introduced, so this is **not** chop-focus, and the focus of the clue is on slot 1.
-  - Thus, Bob will play blue 2 from slot 1 on his next turn.
-- The exception to this is if a clue is given that touches a *Chop Moved* card for the first time and only "old" cards are touched.
-- For example, in a 3-player game of the rainbow variant:
-  - All the 2's are played on the stacks.
-  - Bob has an unknown red card on slot 3, an unknown red card on slot 4, and a *Chop Moved* card in slot 5 (that is completely unclued).
-  - Alice clues blue to Bob, which touches slot 3, slot 4, and slot 5. (Slot 3 and slot 4 are "filled in" to be rainbow cards and slot 5 is now a true blue card.)
-  - Bob knows that the focus of the clue is normally on the brand-new card introduced, but all three of the cards that were touched were "old".
-  - Bob knows that when old cards are re-touched, the focus of the clue is the left-most of those cards.
-  - However, Bob also knows that this is the exception to the rule. In this specific case, putting a positive clue on the *Chop Moved* card was more important than filling in the rainbow cards, so by convention the focus of the clue is his slot 5.
-
-### Chop Moves & Prompts
-
-- See the *Chop Move* section above for an explanation on what a *Chop Move* is.
-- *Chop Moves* interact with *Prompts* & *Finesses* in a potentially confusing way. *Chop Moved* cards should **not** be played into *Prompts*, even though they are imagined to have an "invisible" clue on them. For example:
-  - All the 1's are played on the stacks.
-  - Bob has no cards clued in his hand, but he is *Chop Moved* for a mystery card on his slot 5.
-  - Alice clues Cathy red, which touches a red 3.
-  - Bob knows that he is promised the red 2. If this is a *Finesse*, then he has the red 2 on his *Finesse Position* (slot 1).
-  - However, Bob is also *Chop Moved* for a card. Bob knows that *Chop Moved* cards have an "invisible" clue around them, and Bob also knows that *Prompts* are said to take precedence over *Finesses*.
-  - So should he play his slot 1 as a *Finesse* or his slot 5 as a *Prompt*? In this situation, Bob knows that *Prompts* do not apply to *Chop Moved* cards, so Bob should play his slot 1.
-
 <br />
 
 ## General Principles
+
+### Efficiency
+
+- A big part of Hanabi is of trying to be as efficient as possible. This means that players will generally try to "get" as many cards with one clue as possible.
+- If you use one clue to get one card, we refer to that as a 1-for-1 clue. For example:
+  - On the first turn of the game, Alice clues Bob number 1, touching one 1 as a 1-for-1.
+- If you use one clue to get two cards, we refer to that as a 2-for-1 clue. For example:
+  - On the first turn of the game, Alice clues Bob number 1, touching two 1's as a 2-for-1. (Bob will play both.)
+- 3-for-1 clues are even better than 2-for-1 clues, and so forth. It is even possible to perform a 9-for-1 clue with advanced techniques.
+- If a clue touches two cards but only one of them will play right now, it **still counts** as a 2-for-1. This is because we assume that all touched cards will eventually play from *Good Touch Principle*. For example:
+  - On the first turn of the game, Alice clues Bob red, touching a red 1 on slot 1 and a red 5 on slot 2 as a 2-for-1. (Bob will only play the red 1 and save the other red card for later.)
+- On Hanab Live, the future required efficiency is shown on the right side of the screen. Future required efficiency is calculated by the following formula:
+  - `number of cards that remain to be clued / number of clues remaining`
+- **If future required efficiency is high, players should probably not perform 1-for-1 clues!** Instead, it is better to discard and try to let someone perform a *Finesse*.
+
+### Tempo
+
+- *Tempo* is a term used to describe the speed at which cards are played. (This is similar to how it is used in other games such as chess.)
+- Hanabi can be thought of a race to get all the cards played before the time runs out. This means that even if the team is being extremely efficient, they can still lose the game if they are not playing their cards fast enough. Thus, players have to **strike a balance between *Efficiency* and *Tempo***. You can think of *Efficiency* and *Tempo* as the yin and yang of Hanabi.
+- At the beginning of the game, there is a lot of time left, so players will generally prefer clues that get a lot of efficiency over clues that get a lot of tempo.
+- At the end of the game, there is almost no time left, so players stop caring about efficiency and start caring only about tempo.
+- On Hanab Live, "Pace" is shown at the right side of the screen. Pace is a measure of how many more discards can occur, so this essentially tells you how much time is left in the game. Starting pace is calculated by the following formula:
+  - `current score + cards in deck + number of players - maximum score`
+- Even at the beginning of the game, players might prefer a clue that gets tempo over a more efficient clue if it will prevent the discard of some other useful card. It all depends on the context of the game!
 
 ### Information Lock Principle
 
@@ -195,49 +176,3 @@ title: Level 3 - Initiate
   - Bob has a written a note of "red 2" on the card, meaning that it has been "locked in" as a red 2. (Bob will permanently think that it is a red 2.)
   - Alice clues blue to Bob, which "fills in" the card as a blue 2.
   - It is now impossible for this card to be a red 2 - Bob knows that he was lied to earlier on in the game. Bob erases his note of "red 2" on the card and the *Information Lock* is broken.
-
-### Efficiency
-
-- A big part of Hanabi is of trying to be as efficient as possible. This means that players will generally try to "get" as many cards with one clue as possible.
-- If you use one clue to get one card, we refer to that as a 1-for-1 clue. For example:
-  - On the first turn of the game, Alice clues Bob number 1, touching one 1 as a 1-for-1.
-- If you use one clue to get two cards, we refer to that as a 2-for-1 clue. For example:
-  - On the first turn of the game, Alice clues Bob number 1, touching two 1's as a 2-for-1. (Bob will play both.)
-- 3-for-1 clues are even better than 2-for-1 clues, and so forth. It is even possible to perform a 9-for-1 clue with advanced techniques.
-- If a clue touches two cards but only one of them will play right now, it **still counts** as a 2-for-1. This is because we assume that all touched cards will eventually play from *Good Touch Principle*. For example:
-  - On the first turn of the game, Alice clues Bob red, touching a red 1 on slot 1 and a red 5 on slot 2 as a 2-for-1. (Bob will only play the red 1 and save the other red card for later.)
-- On Hanab Live, the future required efficiency is shown on the right side of the screen. Future required efficiency is calculated by the following formula:
-  - `number of cards that remain to be clued / number of clues remaining`
-- **If future required efficiency is high, players should probably not perform 1-for-1 clues!** Instead, it is better to discard and try to let someone perform a *Finesse*.
-
-### Tempo
-
-- *Tempo* is a term used to describe the speed at which cards are played. (This is similar to how it is used in other games such as chess.)
-- Hanabi can be thought of a race to get all the cards played before the time runs out. This means that even if the team is being extremely efficient, they can still lose the game if they are not playing their cards fast enough. Thus, players have to **strike a balance between *Efficiency* and *Tempo***. You can think of *Efficiency* and *Tempo* as the yin and yang of Hanabi.
-- At the beginning of the game, there is a lot of time left, so players will generally prefer clues that get a lot of efficiency over clues that get a lot of tempo.
-- At the end of the game, there is almost no time left, so players stop caring about efficiency and start caring only about tempo.
-- On Hanab Live, "Pace" is shown at the right side of the screen. Pace is a measure of how many more discards can occur, so this essentially tells you how much time is left in the game. Starting pace is calculated by the following formula:
-  - `current score + cards in deck + number of players - maximum score`
-- Even at the beginning of the game, players might prefer a clue that gets tempo over a more efficient clue if it will prevent the discard of some other useful card. It all depends on the context of the game!
-
-<br />
-
-## Common Mistakes
-
-### The Wrong Prompt (Mistake)
-
-- A common mistake in Hanabi is to attempt to perform a *Finesse* when there is a "matching" card in that player's hand. Since *Prompts* take precedence over *Finesses*, the player will always play their matching clued cards first.
-- When a card is *Prompted* and it misplays, everyone can read into this mistake - it was almost certainly a *Wrong Prompt*, meaning that the player who gave the clue probably intended for the *Finesse Position* card to play instead.
-- Thus, if there is nothing else special about the situation, the player who misplayed should go on to play their *Finesse Position* card on the next turn.
-
-### Critical Discards after a Chop Move (Mistake)
-
-- If a player *Chop Moves* a card, and then the next time they discard, they discard a critical card, then obviously some kind of mistake occurred.
-- The best explanation is that the *Chop Move* was never intended in the first place.
-- Thus, when this happens, the player should "undo" the *Chop Move*.
-
-### Undoing an Accidental Chop Move (Mistake)
-
-- Often times a player can misinterpret a clue as a *Chop Move* when it really had some other meaning. If this happens, after they discard their new *Chop*, everyone else on the team will know that an accidental *Chop Move* has occurred.
-- Later on in the game, sometimes a player in this situation can retroactively realize that they have made a mistake by *Chop Moving* earlier on. They might be tempted to shift their chop back to where it is supposed to be.
-- However, unless they discard a critical card (see the above section), players should generally **not ever undo a *Chop Move***, because they could be discarding a now-critical card that was not critical at the time of the original mistake. Everyone else on the team did not bother to clue the now-critical card, because they thought it was safely *Chop Moved*.

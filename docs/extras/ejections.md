@@ -9,12 +9,12 @@ title: Ejections
 
 ### The 5 Color Ejection
 
-- The *5 Color Ejection* is covered at [level 10](level_10.md#the-5-color-ejection-5ce).
+- The *5 Color Ejection* is covered at [level 14](level_14.md#the-5-color-ejection-5ce).
 - This results in a *Signal Shift* from *Play* --> *Save*.
 
 ### Trash Push Ejection
 
-- First, see the section on the [Trash Push](level_14.md#the-trash-push).
+- First, see the section on the [Trash Push](level_12.md#the-trash-push).
 - Normally, when known trash is touched as the focus of the clue, and the known trash is on chop, it communicates a *Trash Push*.
 - However, what if the *Trash Pushed* card is two-or-more-away-from-playable? This would normally be a *Trash Push Double Finesse* on Bob, but that is unlikely.
 - Instead, since no single play could ever prevent the *Pushed* card from immediately misplaying, Bob interprets the clue as an *Ejection*.

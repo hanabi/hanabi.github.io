@@ -34,16 +34,18 @@ The following is a quick summary of the levels.
 | 7     | *[Gentleman's Discards](level_7.md#the-gentlemans-discard)*, *[Sarcastic Finesses](level_7.md#the-sarcastic-finesse)*, *[Certain Finesses](level_7.md#the-certain-finesse--the-certain-discard)* | *[Baton Discards](level_7.md#the-baton-discard)*
 | 8     | *[Bluffs](level_8.md#the-bluff)*
 | 9     | *[Ambiguous Finesses](level_9.md#the-ambiguous-finesse)*, *[Trash Order Chop Moves](level_9.md#the-trash-order-chop-move)*, *[3 Bluffs](level_9.md#the-3-bluff)*, *[Critical 4 Bluffs](level_9.md#the-critical-4-bluff)* | *[Stale 1's Clues](level_9.md#context-clues--the-stale-1s-clue)*, *[Focus Inversion](level_9.md#focus-inversion)*, *[Positional Discards](level_9.md#the-positional-discard-indicating-a-play-with-a-discard)*, *[Positional Misplays](level_9.md#the-positional-misplay-indicating-a-play-with-a-misplay)*
-| 10    | *[The 5 Color Ejection](level_10.md#the-5-color-ejection-5ce)*
+| 10    | *[The 5 Color Ejection](level_10.md#the-5-color-ejection-5ce)* | *[The Fake Save](level_10.md#the-fake-save)*
 | 11    | *[The 5 Pull](level_11.md#the-5-pull)*
 | 12    | *[Priority](level_12.md#the-priority-prompt--the-priority-finesse)*
 | 13    | *[Elimination](level_13.md#discard-elimination--elimination-notes)*
-| 14    | *[Occupied Play Clues](level_14.md#the-occupied-play-clue--the-occupied-finesse-opc)*, *[Trash Pushes](level_14.md#the-trash-push)*, *[Trash Bluffs](level_14.md#the-trash-bluff)*, *[Trash Finesses](level_14.md#the-trash-finesse-strong-form)*, [*Finesses* with a *Lie Component*](level_14.md#finesses-with-a-lie-component)
+| 14    | *[Occupied Play Clues](level_14.md#the-occupied-play-clue--the-occupied-finesse-opc)*, *[Trash Pushes](level_14.md#the-trash-push)*, *[Trash Bluffs](level_14.md#the-trash-bluff)*, *[Trash Finesses](level_14.md#the-trash-finesse)*, [*Finesses* with a *Lie Component*](level_14.md#finesses-with-a-lie-component)
 | 15    | *[The Unknown Trash Discharge](level_15.md#the-unknown-trash-discharge-utd)*, *[The 5 Number Discharge](level_15.md#5-number-discharge-5nd)*
 | 16    | *[Double Bluffs](level_16.md#the-double-bluff)*, *[4 Double Bluffs](level_16.md#the-4-double-bluff--the-5-double-bluff)*
 | 17    | *[The Good Touch Bluff](level_17.md#the-good-touch-bluff)*, *[The Pestilent Double Bluff](level_17.md#the-pestilent-double-bluff-pdb)*
-| 18    | *[Echo Scream Discard Chop Move](level_18.md#the-echo-scream-discard-chop-move)* | *[Sacrifice Discards](level_18.md#the-sacrifice-discard)*
-| 19    | All the other miscellaneous rarely-used conventions
+| 18    | *[The 4 Charm](level_18.md#the-4-charm)*
+| 19    | *[Echo Scream Discard Chop Move](level_18.md#the-echo-scream-discard-chop-move)* | *[Sacrifice Discards](level_18.md#the-sacrifice-discard)*
+| 20    | ?
+| Extras | All of the other rarely-used conventions
 
 <br />
 

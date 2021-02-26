@@ -17,7 +17,7 @@ title: Pushes & Pulls
 - Since players often perform *Burn* clues for stalling purposes in the *End-Game*, care has to be taken to not confuse a normal *Burn* clue with a *Trash Pull*. This is especially true if there was nothing else obvious for the clue giver to do!
 - *Trash Pulls* should typically be used as a last-resort since they might be misinterpreted.
 
-### The Trash Pull Interaction with Trash Double Ignition
+#### Interaction with Trash Double Ignition
 
 - *Trash Pulls* and *Trash Double Ignition* are initiated in nearly the exact same way, so this can be confusing.
 - *Trash Pulls* take precedence over *Trash Double Ignition*. This means that if everyone can see that the *Trash Pull* was necessary to "get" a blocking card, then no-one else on the team is promised to have a playable card. (This follows from *[Occam's Razor](level_8.md#clue-interpretation--occams-razor)*.)

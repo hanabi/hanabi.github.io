@@ -3,44 +3,6 @@ id: special_bluffs
 title: Special Bluffs
 ---
 
-### Known Bluffs
-
-- Usually, when a *Bluff* occurs, the blind-playing player has no idea that is a *Bluff* - they assume they are playing a specific card into a true *Finesse*.
-- However, in rare situations, a clue will be given that looks like a *Finesse*, but the next player will know for sure that they do not have the "matching" card.
-- In these situations, if the next player cannot see a better explanation for the clue, then they should blind-play their *Finesse Position* card as a *Known Bluff*.
-- For example:
-  - The player might see all of the copies of the card that they are supposed to be blind-playing.
-  - The player might have negative information on their entire hand (e.g. negative blue on every card when they are supposed to be blind-playing a blue 2).
-  - The player might know that they are blind-playing a 1 into a *3 Bluff* (e.g. a card was clued with number 3 and there are no cards played yet).
-
-### The Hard Bluff
-
-- First, see the section on [How to Tell the Difference Between a Finesse and a Bluff (Part 2)](level_8.md#how-to-tell-the-difference-between-a-finesse-and-a-bluff-part-2---bluffs-are-on-mismatched-cards).
-- Sometimes, it can be ambiguous as to whether a player blind-played a card into a *Bluff*, or they blind-played into a *Finesse* + *Prompt*. In this situation, *Occam's Razor* applies, so players should go with the *Bluff* interpretation, since it is simpler. When such a *Bluff* occurs, it is called a *Hard Bluff* to disambiguate from situations where *Bluffs* happen with no ambiguity.
-- For example, this is a *Finesse* + *Prompt* and **not** a *Hard Bluff*:
-  - Only red 1 is played on the stacks.
-  - Cathy has a 3 clued in her hand (with no color information on it).
-  - Alice clues Cathy about a brand new 4.
-  - Bob blind-plays red 2.
-  - In a normal *Bluff*, a *one-away-from-playable* card is clued. However, Cathy sees that the highest stack is the red stack, so the 4 in her hand must be two-away.
-  - Thus, Cathy does **not** read it as a *Bluff*; she is promised red 3 and red 4, so she plays the unknown 3 as a *Self-Prompt* for the red 3.
-- For example, this **is** a *Hard Bluff*:
-  - Red 1 and blue 2 are played on the stacks.
-  - Cathy has a 3 clued in her hand (with no color information on it).
-  - Alice clues Cathy about a brand new 4.
-  - Bob blind-plays red 2.
-  - This could be a *Bluff* if the 4 in her hand is blue 4, since blue 4 is currently *one-away-from-playable*. Thus, Cathy **does not** assume that her 4 is red 4, and subsequently, **does not** assume that her unknown 3 is a red 3. However, it could **also** be the case that the 4 is a red 4 (if the 3 in her hand happens to be red 3).
-  - Thus, Cathy marks down both possibilities for later and does not play anything right now.
-
-### The Hard 3 Bluff
-
-- Players can use a 3 to *3 Bluff* the 1 of the same suit.
-- For example, in a 3-player game:
-  - Nothing is played on the stacks.
-  - Alice clues number 3 to Cathy, touching a red 3 on slot 1 as a *Play Clue*.
-  - Bob blind-plays red 1.
-  - Bob now knows that it was a *3 Bluff* and that no-one is promised the red 2. This is because even though the red 1 is the same suit as the red 3, *3 Bluffs* take precedence over *Double Finesses* as long as the clue type (number 3) does not match the card that was blind-played (a number 1).
-
 ### The Hard 4 Double Bluff
 
 - Similar to a *Hard 3 Bluff*, it is also possible to perform a *Hard 4 Double Bluff*.

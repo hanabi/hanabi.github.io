@@ -9,12 +9,12 @@ title: Discharges
 
 ### The Unknown Trash Discharge
 
-- The *Unknown Trash Discharge* is introduced at [level 15](level_15.md#the-unknown-trash-discharge-1-for-1-form-utd).
+- The *Unknown Trash Discharge* is introduced at [level 14](level_14.md#the-unknown-trash-discharge-1-for-1-form-utd).
 - This results in a *Signal Shift* from *Play* --> *Trash*.
 
 ### The 5 Number Discharge (5ND)
 
-- The *5 Number Discharge* is introduced in [level 15](level_15.md#5-number-discharge-5nd).
+- The *5 Number Discharge* is introduced in [level 16](level_16.md#5-number-discharge-5nd).
 - This results in a *Signal Shift* from *Play* --> *Trash* (on the *5 Pulled* card).
 
 ### The Unknown Trash Charm

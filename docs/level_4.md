@@ -1,141 +1,122 @@
 ---
 id: level_4
-title: Level 4 - Neophyte
+title: Level 4 - Chop Moves
 ---
 
 - Level 4 strategies should only be learned if you have played with the group for a week or so (40+ games of experience).
-- This level covers *Double Discard Situations* and introduces *Layered Finesses*.
-- Level 4 subsections:
-  - [Conventions & Special Moves](#conventions--special-movies)
-  - [General Principles](#general-principles)
 
 <br />
 
-## Conventions & Special Movies
+## Conventions
 
-### Prompts in Multi-Color Variants
+### Chop Moves
 
-- In multi-color variants, *Prompts* apply to the card with the most positive information.
-- For example, in a 3-player rainbow game:
-  - Red 2 is played on the stacks.
-  - Alice clues red to Cathy, touching a red 4 as a *Play Clue*. This is a *Prompt* on Bob for a red 3.
-  - In slot 1, Bob has a card with only a red clue on it. (Thus, it can be any red card or any rainbow card.)
-  - In slot 2, Bob has a card with a red clue and a 3 clue on it. (Thus, it can be red 3 or rainbow 3.)
-  - Since slot 2 has more positive information, Bob should choose to play slot 2 as red 3 (instead of slot 1, the left-most card).
-- Players are **not** supposed to use information from negative clues.
-- For example, in a 3-player rainbow game:
-  - Red 2 is played on the stacks.
-  - Alice clues red to Cathy, touching a red 4 as a *Play Clue*. This is a *Prompt* on Bob for a red 3.
-  - In slot 1, Bob has a card with a positive red clue on it. (Thus, it can be any red card or any rainbow card.)
-  - In slot 2, Bob has a card with a positive red clue on it and a negative green clue on it. (Thus, it can be any red card.)
-  - Even though slot 2 is technically more likely to be the red 3, Bob knows that players are not supposed to use negative information for determining which card to play into a *Prompt*. Thus, Bob plays the red 3 from slot 1.
-- For advanced players, also see the section on *[Double Prompts in Multi-Color Variants](level_19/miscellaneous.md#double-prompts-in-multi-color-variants)*.
+- Normally, players discard their oldest (right-most) unclued card. However, sometimes a player can know that an unclued card is very important.
+- A *Chop Move* is a special kind of move that indicates to a player that the unclued card that is currently on their chop is very important.
+- After the *Chop Move*, the player considers the card on their chop to be touched with an "invisible" clue. Thus, their chop will "move" to the next right-most unclued card.
+- A *Chop Move* is permanent, meaning that a *Chop Moved* card should not be discarded for the remainder of the game.
+- The two most common kinds of *Chop Moves* are listed below.
 
-### Double Discard Situations
+<br />
 
-- Often times in Hanabi, two players will discard in a row. However, in rare cases, this can cause a perfect score to be lost.
+## Special Moves
+
+### The Trash Chop Move
+
+- In the middle of a game, if all of the 1's have been played already, and someone clues a 1, this is quite strange. (From *Good Touch Principle*, players are not supposed to touch cards that have already been played.) In this situation, the 1 is considered "trash".
+- The clue must have some deeper meaning. We agree that it means that the cards to the right of the trash are important. The point of the clue was to give the player a safe discard.
+- However, in addition to giving a safe discard, it should also *Chop Move* **all** of the cards to the right of the trash.
 - For example, in a 3-player game:
-  - Alice has nothing to do. Alice discards her chop and it is a red 4.
-  - Bob has nothing to do. Bob also has a completely unclued hand. Bob discards his chop and it is the other copy of the red 4.
-  - Since both copies of the red 4 are discarded, it is no longer possible to get a perfect score. (The maximum score now is 23 instead of 25.)
-  - Normally, someone on the team would give a *Save Clue* to Bob's red 4 before it could get discarded. But since Bob's turn was immediately after Alice's turn, no-one on the team had time to save it.
-- In the above example, on Bob's turn, since Bob *could* have the red 4 on his chop, we would say that Bob is in a *Double Discard Situation* for the red 4.
-- More formally, a *Double Discard Situation* is defined as when the previous player discards or misplays an unplayed card **and** the current player could be discarding the other copy of that card.
-- Players agree to **never** discard in a *Double Discard Situation* if it has the potential to lower the maximum score. Instead, they must give some clue. If there are no normal *Play Clues* or *Save Clues* to give, then they are allowed to give "stall" clues, like a *5 Stall*. If there are no *5 Stalls* to give, they can even just "fill-in" some information on an already-clued card (and doing this should not cause a *Finesse*).
-- Let's revisit the above example to show what Bob should have done:
-  - Alice has nothing to do. Alice discards her chop and it is a red 4.
-  - Bob has nothing to do (meaning that there are no normal *Play Clues* or *Save Clues* to give). Bob also has a completely unclued hand.
-  - Bob's chop is his slot 5 card. Since Bob does not see the red 4 in anyone else's hand and Bob's slot 5 card has no positive or negative clues on it, it is possible that Bob's slot 5 card could be the red 4. Thus, Bob knows that he is currently in a *Double Discard Situation* for the red 4.
-  - Since there are no normal *Play Clues* or *Save Clues* available, Bob looks around to see if he can give a *5 Stall*. Bob sees that Cathy has a red 5 on her slot 1, so he clues number 5 to Cathy as a *5 Stall*.
-  - Cathy knows that since Bob was in a *Double Discard Situation* for the red 4, she should not read too closely into his clues. This number 5 clue must just be a *5 Stall* (as opposed to a *Play Clue* on the 5).
+  - All of the 1's are played.
+  - Bob has a completely unclued hand.
+  - Alice clues 1's to Bob, which touches a 1 in his slot 4.
+  - Bob *Chop Moves* his slot 5.
+  - Bob discards the 1.
+  - Bob's chop is now his slot 4.
+- Most of the time, the *Trash Chop Move* is done for a single card (meaning that the trash card that was clued was one-away from chop). However, you can also use the *Trash Chop Move* to *Chop Move* multiple cards. For example, in a 3-player game:
+  - All of the 1's have been played on the stacks.
+  - Bob has a completely unclued hand.
+  - Alice clues 1's to Bob, which touches a 1 in his slot 1.
+  - Bob *Chop Moves* his slot 2, his slot 3, his slot 4, and his slot 5 (a quadruple *Chop Move*).
+  - Bob discards the 1.
+  - Bob's chop is now his slot 1.
+- This move is most commonly done with a number 1 clue because it is likely that in the middle of a game, all of the 1's will be already played. But it could also be done with a number two 2 clue if all the 2's are already played / accounted for. Or, it could be done with a red clue if all of the red cards are already played / accounted for. And so forth.
+- Strategy wise, the *Trash Chop Move* is used for two main reasons:
+  1. Sometimes there are multiple critical cards in a row on chop and it falls to one player to save all of them. In this situation, a multiple-card *Chop Move* could be the only way to do it.
+  2. Some cards (e.g. a *one-away-from-playable* 3) are quite useful to the team, but "illegal" to touch directly (as touching them directly with a clue would imply that they are playable right now). If the game is going well, then it can be useful to "waste" a clue in order to have the card saved permanently.
+- Note that you are **not** allowed to *Trash Chop Move* a card that you can just clue directly with a *Save Clue* (unless there are multiple critical cards in a row on chop and you have no other choice). This is because having some positive information is always better than having the card be a mystery.
+- If a *Trash Chop Move* touches **multiple** trash cards, then it only *Chop Moves* the cards to the right of the right-most trash card. For example, in a 3-player game:
+  - All the 1's are played on the stacks.
+  - Bob has a completely unclued hand.
+  - Alice clues 1's to Bob, which touches a 1 in slot 2 and a 1 in slot 4.
+  - Bob **only** *Chop Moves* his slot 5 card.
 
-### The Hidden Finesse
+### The 5's Chop Move (5CM)
 
-- Sometimes, you want to *Finesse* someone with a clued card already in their hand. However, if you try to *Finesse* them, they will assume it is a *Prompt* and will play their clued card. Which means that a lot of the time, you can't give a *Finesse*, and must instead clue the card directly.
-- However, what if the clued card actually is playable? In that case, you can still do the *Finesse* - they will play the *Prompted* card, see that it wasn't the card you had intended, and then blind-play their 2nd newest card on the next turn. This is called a *Hidden Finesse* because the *Finesse* was temporarily hidden by the presence of clued card.
-- For example, in a 3-player game:
-    - Red 1 and rainbow 2 are played on the stacks.
-    - Alice clues red to Cathy, which touches her red 3.
-    - Bob has a rainbow 3 clued as red in his hand and he has no idea what it is.
-    - Bob sees that Alice's clue must be a *Prompt*, so he plays his red card as red 2. He is surprised to see that it is actually rainbow 3.
-    - Bob knows that he really must have the red 2, and it must have been on *Finesse Position* when Alice originally gave the clue. Since he just drew a card after he played the rainbow 3, he now knows that the red 2 is on his slot 2 (the second-newest card).
-    - On Bob's next turn, he blind-plays his the red 2 from slot 2.
-    - In this example, the red 2 was "hidden" by the rainbow 3.
-
-### The Layered Finesse
-
-- Normally, a *Finesse* promises the exact copy of the card on *Finesse Position*. However, as long as all of the cards leading to the card are playable, you can still promise the exact copy of the card. We do **not** consider this to be a *Lie*, since the blind-playing player does indeed have the true copy of the card.
-- We call this a *Layered Finesse* because the intended *Finesse* blind-play target is "layered" behind other playable cards.
-
-![Layered Finesse](/img/level_4/layered_finesse.png)
-
-- For example, in the above screenshot:
-  - It is the first turn of the game and nothing is played on the stacks.
-  - Alice clues green to Bob, touching a green 2 as a *Play Clue*.
-  - Normally, Bob would think that he has the green 1. However, he also sees that this could be a *Reverse Layered Finesse* on Cathy. Thus, Bob cannot play anything right now - he must wait and see what Cathy does.
-  - Bob clues yellow to Alice, touching the yellow 1 and the yellow 2 (as a *Play Clue* on the yellow 1).
-  - Cathy knows that this is a *Reverse Finesse* and that she has the green 1. Cathy blind-plays her *Finesse Position* card and it is a blue 1 instead. Cathy gasps in surprise.
-  - Alice plays the yellow 1.
-  - Bob knows that Cathy must have been trying to blind-play a green 1. Thus, he must have the green 2, and Alice did indeed perform a *Layered Finesse*. Bob clues number 5 to Cathy as a *5 Save*.
-  - Cathy was surprised that she played the blue 1 instead of the green 1. This must be a *Layered Finesse* and Cathy must really have the green 1. Cathy plays her *Second Finesse Position* and it is the green 1.
-
-### The Clandestine Finesse
-
-- To the player who receives a clue that initiates a *Layered Finesse*, it is usually obvious what is going on. For example, in a 4-player game:
-  - Alice clues Donald about one blue card.
-  - Bob discards.
-  - Cathy blind-plays a green 1.
-  - Donald clearly knows that this is a *Layered Finesse* on Cathy, and she will continue to play cards until she finds the blue card that matches the one in his hand.
-- In other words, most *Layered Finesses* cause unrelated cards to blind-play that do not match the type of clue given.
-- With that said, it is also possible to perform a *Layered Finesse* for unrelated cards that **do** match the type of the clue given. When this happens, it is hidden from the receiver of the clue, so we call it a *Clandestine Finesse* to disambiguate it from a (more obvious) *Layered Finesse*.
-
-![Clandestine Finesse](/img/level_4/clandestine_finesse.png)
-
-- For example, in the above screenshot:
-  - Alice clues number 3 to Cathy, which touches the purple 3 on slot 1 and the green 3 on slot 4. Thus, the purple 3 is the focus of the clue. This must be a *Play Clue* on the purple 3.
-  - Bob knows that the purple 3 is currently unplayable, so it must be a *Finesse*. He blind-plays his *Finesse Position* as purple 2, but it is a red 2 instead and successfully plays.
-  - Normally, Cathy would think that she has the red 3 on her slot 1, because the card that was blind-played matches the clue. (Number 2 matches number 3.)
-  - However, Cathy also sees that Bob had a purple 2 on his *Second Finesse Position* at the time of the clue. So there is a possibility that this was a *Clandestine Finesse* instead of a normal *Finesse*. Thus, Cathy has to give Bob a chance to blind-play the purple 2. If he does not, then Cathy does indeed have the red 3.
-  - For now, Cathy clues number 2 to Alice, which is a simple *Play Clue* on the yellow 2.
-  - Next, Alice plays the yellow 2.
-  - Bob was surprised that he blind-played the red 2, but now he knows that Alice performed a *Clandestine Finesse* instead of a normal *Finesse*. Bob must now continue to resolve the *Clandestine Finesse*, so he blind-plays his slot 2 card. It is the purple 2 and it successfully plays. (Bob knows that if he did not do this, then Cathy would go on to misplay purple 3 as red 3.)
-  - Cathy plays purple 3.
-
-### The Stacked Finesse
-
-- If a player has been *Finessed*, then their *Finesse Position* moves right one slot, exactly like if the blind card was clued. (This is a similar concept to how the chop moves left one slot when a player is *Chop Moved*.)
-- If **another** *Finesse* is performed on the player who has already been *Finessed*, it is stacking a 2nd *Finesse* on top of the first, and they are expected to blind-play the new *Finesse Position* card.
-- However, because of the possibility of *Layered Finesses*, players should always finish blind-playing cards left-to-right into the older *Finesse* before starting to blind-play cards into the newer one.
-- In rare cases, players can determine that a *Layered Finesse* was impossible (due to negative clues or some other piece of context). In this situation, if the play order of the cards does not matter, players should always "jump ahead" and play the second card to demonstrate to the team that they "got" both *Finesses*.
+- Normally, we are only allowed to save 5's on chop (unless it is done with a *5 Stall* clue, which can happen in the *Early Game* and in other "stalling" situations).
+- So, if a number 5 clue is performed on a 5 that is not on chop, and it is **not** a stalling situation, then it will normally look like a *Play Clue* on that 5.
+- However, if the 5 is:
+  - **one-away** from chop (or, if two or more 5's are clued and the right-most 5 is one-away from chop), and
+  - the chop card is not a trash card
+- Then, we agree that it has a special meaning, and that the clue is **not** a *Play Clue* at all.
+- Instead, it is understood that the clue is a *5's Chop Move*, and the player should *Chop Move* in a manner similar to the *Trash Chop Move*.
+- Note that the *5's Chop Move* is different than the *Trash Chop Move* in that you can only chop move **one** card with it. Thus, if you clue a 5 and it is **two** (or more) slots away from the chop, then it is to be assumed to be a *Play Clue* on the 5.
+  - When counting how far away from chop a card is, you should only look at **unclued** cards.
+- Similar to the *Trash Chop Move*, if a *5's Chop Move* touches **multiple** 5's, then it only *Chop Moves* the cards to the right of the right-most 5. For example, in a 3-player game:
+  - All the 1's are played on the stacks.
+  - Bob has a completely unclued hand.
+  - Alice clues 5's to Bob, which touches a 5 in slot 2 and a 5 in slot 4.
+  - Bob **only** *Chop Moves* his slot 5 card. Bob's new chop is his slot 3.
+- Remember that *5 Stalls* takes precedence over *5's Chop Moves*. Thus, if a number 5 clue **could** just be a *5 Stall* (e.g. it is the *Early Game*), then it should not *Chop Move* anything.
 
 <br />
 
 ## General Principles
 
-### Urgency Principle (Playing Into Finesses as Soon as Possible)
+### Chop Moves & New Clues
 
-- Normally, when a *Finesse* occurs, someone blind-plays right away. This is extremely important, because it resynchronizes the information among the team. So, as a group, we agree to **blind-play our cards as soon as reasonably possible**. This is called *The Urgency Principle*.
-- Thus, if you see that a player does **not** blind-play into the *Finesse*, then you know that the *Finesse* must be **on you**.
-- However, there are two important exceptions:
-  1. Players are allowed to **defer** playing into a *Finesse* if they are doing a *Finesse* of their own (and no-one else on the team could have done it).
-  2. Players are allowed to **defer** playing into a *Finesse* if they are doing something really important, like saving a 5 on chop, giving a *Play Clue* to a card that is about to be discarded, or something along those lines.
-- So, if any of the above two conditions apply, then you have to **wait** and give the player yet another turn to demonstrate whether or not they will blind-play.
-- For example, in a 5-player game:
-  - All of the 1's are played on the stacks.
-  - There is 1 clue in the bank.
-  - Alice clues red to Emily, touching a red 3 as a *Play Clue*. This is a *Finesse* on the red 2.
-  - Bob sees that the *Finesse* is on Cathy. (Cathy has the red 2 in her *Finesse Position*.) Since the team is at 0 clues, Bob discards.
-  - Cathy's knows that Alice is performing a *Finesse* and that she must have the red 2. Cathy's first instinct is to blind-play the red 2. This is urgent because otherwise, Emily will think that her red card might be the red 2, and it would misplay.
-  - However, Cathy also sees that Donald has a blue 5 on chop that needs to be saved. Furthermore, from Cathy's perspective, Donald could discard on his turn, so the blue 5 is in imminent danger. If Cathy blind-plays into the *Finesse*, then the blue 5 might get discarded.
-  - Instead of blind-playing into the *Finesse*, Cathy clues number 5 to Donald as a *5 Save*.
-  - Since the team is at 0 clues, Donald discards.
-  - After Alice's clue, Emily marked her red card as "red 2 or red 3 if Cathy blind-plays red 2". However, even though Cathy did not blind-play the red 2, Emily could see that Cathy was doing an important, time-sensitive action to prevent the team from losing the game. Thus, Emily knows that she needs to give Cathy another chance to blind-play the red 2. If Cathy does not blind-play the red 2 on her next turn (and nothing else special is going on), then Emily can play her own red card as the red 2.
+- Once a card has been *Chop Moved* and is no longer in danger of being discarded, it is treated as an already-clued card with regards to new clues given to that hand.
+- For example, in a 3-player game:
+  - All of the 1's have been played on the stacks.
+  - Bob has a completely unclued hand.
+  - Alice clues 1's to Bob, which touches a 1 in his slot 4.
+  - Bob *Chop Moves* his slot 5.
+  - Bob discards the 1.
+  - Bob's chop is now his slot 4.
+  - Cathy clues blue to Bob, which touches his slot 1 (the card he just drew) and his slot 5 (the card that was just *Chop Moved*).
+  - Bob knows that the focus of the clue is always on the brand-new card introduced, so this is **not** chop-focus, and the focus of the clue is on slot 1.
+  - Thus, Bob will play blue 2 from slot 1 on his next turn.
+- The exception to this is if a clue is given that touches a *Chop Moved* card for the first time and only "old" cards are touched.
+- For example, in a 3-player game of the rainbow variant:
+  - All the 2's are played on the stacks.
+  - Bob has an unknown red card on slot 3, an unknown red card on slot 4, and a *Chop Moved* card in slot 5 (that is completely unclued).
+  - Alice clues blue to Bob, which touches slot 3, slot 4, and slot 5. (Slot 3 and slot 4 are "filled in" to be rainbow cards and slot 5 is now a true blue card.)
+  - Bob knows that the focus of the clue is normally on the brand-new card introduced, but all three of the cards that were touched were "old".
+  - Bob knows that when old cards are re-touched, the focus of the clue is the left-most of those cards.
+  - However, Bob also knows that this is the exception to the rule. In this specific case, putting a positive clue on the *Chop Moved* card was more important than filling in the rainbow cards, so by convention the focus of the clue is his slot 5.
 
-### Schrödinger's Cat Principle
+### Chop Moves & Prompts
 
-- Often times when you are given a clue, the card could be two or more things. For example:
-  - In a no-variant game, a red *Play Clue* might indicate a red 2 or a red 3 depending on whether or not red 2 will blind-play from someone else's hand.
-  - In a rainbow-game, a red clue might indicate either a *Play Clue* on a red 1 or a *Delayed Play Clue* on a rainbow 2 through another player's yet-to-be-played rainbow 1.
-- After getting a clue, you should immediately mark all of the possibilities down on the card as a note.
-- For all of your subsequent turns, you have to treat that card like it is **all of the possibilities** at the same time. This is a lot like the *Schrödinger's Cat* quantum physics analogy, which states a cat is both alive and dead at the same time, and you won't know until you actually open the box and look. Similarly, treat the unknown card as all the possibilities at the same time, and you won't actually know until the card is played.
-- The implications of *Schrödinger's Cat Principle* is that players must be very careful. Before playing a card, they will often have to wait for everyone else to have a turn to allow for the possibility of a *Prompt*, *Reverse Finesse*, and so forth.
+- *Chop Moves* interact with *Prompts* & *Finesses* in a potentially confusing way. *Chop Moved* cards should **not** be played into *Prompts*, even though they are imagined to have an "invisible" clue on them. For example:
+  - All the 1's are played on the stacks.
+  - Bob has no cards clued in his hand, but he is *Chop Moved* for a mystery card on his slot 5.
+  - Alice clues Cathy red, which touches a red 3.
+  - Bob knows that he is promised the red 2. If this is a *Finesse*, then he has the red 2 on his *Finesse Position* (slot 1).
+  - However, Bob is also *Chop Moved* for a card. Bob knows that *Chop Moved* cards have an "invisible" clue around them, and Bob also knows that *Prompts* are said to take precedence over *Finesses*.
+  - So should he play his slot 1 as a *Finesse* or his slot 5 as a *Prompt*? In this situation, Bob knows that *Prompts* do not apply to *Chop Moved* cards, so Bob should play his slot 1.
+
+<br />
+
+## Common Mistakes
+
+### Critical Discards after a Chop Move (Mistake)
+
+- If a player *Chop Moves* a card, and then the next time they discard, they discard a critical card, then obviously some kind of mistake occurred.
+- The best explanation is that the *Chop Move* was never intended in the first place.
+- Thus, when this happens, the player should "undo" the *Chop Move*.
+
+### Undoing an Accidental Chop Move (Mistake)
+
+- Often times a player can misinterpret a clue as a *Chop Move* when it really had some other meaning. If this happens, after they discard their new *Chop*, everyone else on the team will know that an accidental *Chop Move* has occurred.
+- Later on in the game, sometimes a player in this situation can retroactively realize that they have made a mistake by *Chop Moving* earlier on. They might be tempted to shift their chop back to where it is supposed to be.
+- However, unless they discard a critical card (see the above section), players should generally **not ever undo a *Chop Move***, because they could be discarding a now-critical card that was not critical at the time of the original mistake. Everyone else on the team did not bother to clue the now-critical card, because they thought it was safely *Chop Moved*.

@@ -3,7 +3,7 @@ id: safety_charm
 title: Examples of the Safety Charm
 ---
 
-The *[Safety Charm](/level_19/charms.md#the-safety-charm-declined-5-pull)* is a level 19 convention.
+The *[Safety Charm](/extras/charms.md#the-safety-charm-declined-5-pull)* is a level 19 convention.
 
 <br />
 

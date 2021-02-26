@@ -7,29 +7,11 @@ title: Charms
 - *Charms* fall outside of the *Signal Shift* framework. Instead, playing from *Fourth Finesse Position* is required in order to disambiguate the clue from being a *Finesse*, *Ejection*, or *Discharge*.
 - Just like a *Bluff*, a *Charm* can only be performed on the very next player.
 
-### 4 Charm
+### The 4 Charm
 
-- When a *Play Clue* is given to a 4 that is not yet playable, Bob must react:
-  - The first interpretation is that it is a *Prompt*.
-  - If Bob has no matching cards in his hand, then a *Prompt* is impossible.
-  - The second interpretation is that it is a *Finesse*.
-  - If Bob sees that he would have to **blind-play one card** or **blind-play two cards** to fulfill a *Finesse*, then he should assume that it is a *Finesse*.
-  - If Bob sees that he would have to **blind-play three cards** in their hand to fulfill the *Finesse*, then a *Finesse* is unlikely.
-  - The third interpretation is that it is a *4 Double Bluff*.
-  - If Bob sees that Cathy does not have a playable card (or a *one-away-from-playable* card) on her *Finesse Position*, then a *4 Double Bluff* is impossible.
-  - The fourth interpretation is a *4 Charm*; Bob should play his *Fourth Finesse Position*.
-- For example, in a 4-player game:
-  - It is the first turn and nothing is played on the stacks.
-  - Alice clues number 4 clue to Cathy, touching a red 4 on slot 1 as a *Play Clue*.
-  - Bob knows that normally, this would be a *Finesse* on the red 4, meaning that he should blind-play a red 1, a red 2, and a red 3. (Bob does not see any red cards in anyone else's hands.)
-  - Since the *Finesse* requires three blind-plays, it is unlikely, and Bob knows he is supposed to revert to a different interpretation.
-  - Bob sees that Cathy does not have a playable card (or a *one-away-from-playable* card) on her *Finesse Position*, so a *4 Double Bluff* is impossible.
-  - Thus, Bob knows that this must be a *4 Charm*. He blind-plays his *Fourth Finesse Position*. It is a blue 1 and it successfully plays.
-- *4 Charms* can be given with either a color clue or a number clue.
-- Similar to a *5 Color Ejection*, *Prompts* don't factor into the "three or more blind-plays" rule. Players only count the number of blind-plays.
-- *4 Charms* take precedence over *Safety Charms*.
+- The *4 Charm Unknown Trash Discharge* is introduced at [level 18](level_18.md#the-4-charm).
 
-### 4 Charm Interaction with the Out-of-Order Finesse
+#### Interaction with the Out-of-Order Finesse
 
 - The *Out-of-Order Finesse* always takes precedence over a *4 Charm* or a *4's Double Bluff*, because of *Bob's Truth Principle*.
 - For example, in a 4-player game:

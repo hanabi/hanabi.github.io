@@ -26,7 +26,7 @@ The main website lists all of our conventions. But it does not bother listing **
 
 ### Play Order of Multiple 1's
 
-- In the Hyphen-ated convention framework, we [play 1's in the opening hand from right-to-left](https://hanabi.github.io/docs/level_2#playing-multiple-1s---play-order-inversion-in-the-starting-hand-part-1). Why?
+- In the Hyphen-ated convention framework, we [play 1's in the opening hand from right-to-left](https://hanabi.github.io/docs/level_3#playing-multiple-1s---play-order-inversion-in-the-starting-hand-part-1). Why?
 - First, notice that in Hanabi, when multiple cards are clued, players typically feel that playing the left-most (newest) card is "logical".
 - For example, in a 2 player game:
   - It is the first turn of the game and nothing is played on the stacks.
@@ -60,14 +60,14 @@ The main website lists all of our conventions. But it does not bother listing **
 
 | Convention Decision | Real Card Identity | Card Identity Assumed | xdragun will   | Outcome
 | ------------------- | ------------------ | --------------------- | -------------- | -------
-| discard leftmost    | purple 1           | purple 1              | discard slot 1 | *Gentleman's Discard* ✔
-| discard leftmost    | purple 1           | trash 1               | discard slot 1 | attempted normal discard that turns into a *Gentleman's Discard* ✔
-| discard leftmost    | trash 1            | purple 1              | discard slot 1 | attempted normal discard that turns into a *Gentleman's Discard* ✔
-| discard leftmost    | trash 1            | trash 1               | discard slot 1 | normal discard, nothing special happens ✔
-| discard rightmost   | purple 1           | purple 1              | discard slot 1 | *Gentleman's Discard* ✔
+| discard leftmost    | purple 1           | purple 1              | discard slot 1 | *Gentleman's Discard* ✅
+| discard leftmost    | purple 1           | trash 1               | discard slot 1 | attempted normal discard that turns into a *Gentleman's Discard* ✅
+| discard leftmost    | trash 1            | purple 1              | discard slot 1 | attempted normal discard that turns into a *Gentleman's Discard* ✅
+| discard leftmost    | trash 1            | trash 1               | discard slot 1 | normal discard, nothing special happens ✅
+| discard rightmost   | purple 1           | purple 1              | discard slot 1 | *Gentleman's Discard* ✅
 | discard rightmost   | purple 1           | trash 1               | discard slot 3 | attempted normal discard that turns into a *Trash Order Chop Move* on Libster ❌
 | discard rightmost   | trash 1            | purple 1              | discard slot 1 | attempted normal discard that turns into a *Trash Order Chop Move* on Libster ❌
-| discard rightmost   | trash 1            | trash 1               | discard slot 3 | normal discard, nothing special happens ✔
+| discard rightmost   | trash 1            | trash 1               | discard slot 3 | normal discard, nothing special happens ✅
 
 <br />
 

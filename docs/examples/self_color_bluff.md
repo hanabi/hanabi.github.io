@@ -3,7 +3,7 @@ id: self_color_bluff
 title: Examples of the Self Color Bluff
 ---
 
-The *[Self Color Bluff](/level_19/special_bluffs.md#self-color-bluffs-scb)* is a level 19 convention.
+The *[Self Color Bluff](/extras/special_bluffs.md#self-color-bluffs-scb)* is a level 19 convention.
 
 <br />
 

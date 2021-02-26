@@ -1,137 +1,182 @@
 ---
 id: level_7
-title: Level 7 - Apprentice
+title: Level 7 - Stalling
 ---
 
 - Level 7 strategies should only be learned if you have 100+ games of experience with the group.
-- This level explains how to do special discards that transfer cards to other players.
-- Level 7 subsections:
-  - [Conventions & Special Moves](#conventions--special-moves)
-  - [General Principles](#general-principles)
-  - [Common Mistakes](#common-mistakes)
 
-## Conventions & Special Moves
+<br />
 
-### The Gentleman's Discard
+## Conventions
 
-- First, read the section on the *[Sarcastic Discard](level_3.md#the-sarcastic-discard)*.
-- To review, the *Sarcastic Discard* is:
-  1. a move that transfers a **clued card** in one person's hand to a **clued card** in another person's hand
-  2. **necessary** to eliminate confusion among the team (because from *Good Touch Principle*, we are not normally supposed to have two copies of the same card "touched" with a clue)
-  3. done with both playable cards and non-playable cards
-- It is also possible to "transfer" cards to other players *Finesse Position*. This is called a *Gentleman's Discard* to signify that the other card was completely blind as opposed to having a clue on it already.
-- The *Gentleman's Discard* is:
-  1. a move that transfers a **clued card** in one person's hand to the ***Finesse Position*** of another person's hand
-  2. **not necessary** and does not directly help the team, but may have some helpful side effects
-  3. done with **only playable cards**
+### Allowable Stall Clues (Stall Table)
+
+- In certain situations, everyone understands that a player might be giving a "stall" clue. However, there are limits - they are not allowed to just clue anything they want. These are the specific clues that they are allowed to give along with the precedence of each clue:
+
+| Precedence | Type of Clue | Early Game (Severity 1) | Double Discard / Scream Discard (Severity 2) | Locked Hand (Severity 3) | 8 Clues (Severity 4)
+| ---------- | ------------ | ----------------------- | -------------------------------------------- | ------------------------ | --------------------
+| 1          | Normal *Play Clues* or *Save Clues*                                                                      | ✅ | ✅ | ✅ | ✅
+| 2          | *5 Stall*<br />(cluing off-chop 5's)                                                                     | ✅ | ✅ | ✅ | ✅
+| 3          | *Tempo Clue*<br />(re-cluing a card to make it play)                                                     | ❌ | ✅ | ✅ | ✅
+| 4 (tied)   | *Locked Hand Save*<br />(saving any card on chop, as long as doing so would not *Lock* the other player) | ❌ | ❌ | ✅ | ✅
+| 4 (tied)   | *8 Clue Save*<br />(saving any card not on slot 1)                                                       | ❌ | ❌ | ❌ | ✅
+| 4 (tied)   | *Fill-In Clue*<br />(giving extra information to already-clued cards or *Chop Moved* cards)              | ❌ | ✅ | ✅ | ✅
+| 5          | *Hard Burn*<br />(re-cluing an unplayable card that gives no new information, usually a 5)               | ❌ | ✅ | ✅ | ✅
+
+- For example:
+  - It is a *Double Discard* situation (severity 2).
+  - Alice does not have the option to perform any normal *Play Clues* or *Save Clues* (precedence 1).
+  - Alice does have the option to perform a *5 Stall* (precedence 2).
+  - Thus, Alice is not allowed to perform a *Tempo Clue* (precedence 3), or anything below that.
+- For example:
+  - It is a *Double Discard* situation (severity 2).
+  - Alice does not have the option to perform any normal *Play Clues* or *Save Clues* (precedence 1), and Alice does not have the option to *5 Stall* (precedence 2).
+  - Alice does have the option to perform a *Tempo Clue* (precedence 3).
+  - Thus, Alice is not allowed to give a *Fill-In Clue* (precedence 4) or a *Hard Burn* (precedence 5).
+- What is the point of having a complicated table with defined priorities? Well, normally, players in stalling situations are not able to give tricky-looking *Finesses*, because everyone else will think that they are just giving a stall clue. However, if it can be seen that there is a better clue available for them to give, then everyone can know that they are **not** giving a stall clue. So, because of this precedence table, players in stalling situations are still often able to make *Finesses* happen.
+- Obviously, stall clues are not allowed when the player has a known playable card in their hand.
+
+### The Early Game (Severity 1 Stalling)
+
+- The *Early Game* is introduced in the [beginner's guide](beginner.md). In short:
+  - The *Early Game* is defined as the period of time before the first discard happens.
+  - Players **must** "extinguish" all of the available *Play Clues* and *Save Clues* on the board before ending the *Early Game*.
+- As an intermediate player, you need to know about a few extra rules about the *Early Game*. We don't bother telling the extra rules to beginners because they deal with some edge-case situations. We have the extra rules because we want to "squeeze" as much value out of the conventions as possible.
+
+#### Ending the Early Game
+
+- The *Early Game* is only ended when the first **completely unknown** card is discarded.
+- In other words:
+  - Misplaying a card **does not count** as ending the *Early Game*.
+  - Discarding known trash **does not count** as ending the *Early Game*.
+  - Doing special discards that "transfer" cards to other players **does not count** as ending the *Early Game*.
+
+#### Extinguishing Every Clue
+
+- Extinguishing every clue **does** include *5 Stalling*, but it is only mandatory for the team to collectively perform one *5 Stall*. If one *5 Stall* clue has already been given and there is another *5 Stall* clue available, players are allowed to clue it if they want, but they don't have to.
+- Extinguishing every clue **does not** include giving *Tempo Clues* (e.g. clues that do not meet *Minimum Clue Value Principle*).
+- Extinguishing every clue **does not** include cluing something in the hand of the player who came directly before. This is because the player who came before did not see anything for the next player to do, and is therefore giving them "permission" to discard. In this situation, cluing is optional; players can choose to either clue the previous hand or discard at their discretion.
+- Extinguishing every clue **does not** include cluing cards that will be almost certainly be *Order Chop Moved* by an upcoming player who already has two or more 1's clued in their hand.
+
+### Double Discard Situations (Severity 2 Stalling)
+
+- Often times in Hanabi, two players will discard in a row. However, in rare cases, this can cause a perfect score to be lost.
 - For example, in a 3-player game:
-  - It is the first turn and nothing is played on the stacks.
-  - Alice clues number 1 to Cathy, touching one 1.
-  - Bob clues red to Cathy, filling in the already-touched 1 as red 1, as well as touching a new card, which must be red 2.
-  - Cathy discards the known red 1 as a *Gentleman's Discard*.
-  - Alice blind-plays her *Finesse Position* card as red 1.
-- Often times, doing a *Gentleman's Discard* will delay things and cost the team *Tempo*. Thus, a *Gentleman's Discard* that slows things down is only good if there is some other side benefit to offset the lost *Tempo* (such as delaying the discard of a valuable card, for example).
-- Just like how *Prompts* take precedence over *Finesses*, *Sarcastic Discards* take precedence over *Gentleman's Discards*.
-- For the purposes of *Priority*, *Gentleman's Discards* do not count as a blind-play. (*Priority* is a concept that is introduced in a later level.) This is because the *Gentleman's Discard* is an information-symmetric move and nothing needs to be "proven" to other members of the team.
+  - Alice has nothing to do. Alice discards her chop and it is a red 4.
+  - Bob has nothing to do. Bob also has a completely unclued hand. Bob discards his chop and it is the other copy of the red 4.
+  - Since both copies of the red 4 are discarded, it is no longer possible to get a perfect score. (The maximum score now is 23 instead of 25.)
+  - Normally, someone on the team would give a *Save Clue* to Bob's red 4 before it could get discarded. But since Bob's turn was immediately after Alice's turn, no-one on the team had time to save it.
+- In the above example, on Bob's turn, since Bob *could* have the red 4 on his chop, we would say that Bob is in a *Double Discard Situation* for the red 4.
+- More formally, a *Double Discard Situation* is defined as when the previous player discards or misplays an unplayed card **and** the current player could be discarding the other copy of that card.
+- Players agree to **never** discard in a *Double Discard Situation* if it has the potential to lower the maximum score. Instead, they must give some clue. If there are no normal *Play Clues* or *Save Clues* to give, then they are allowed to give "stall" clues, like a *5 Stall*. If there are no *5 Stalls* to give, they can even just "fill-in" some information on an already-clued card (and doing this should not cause a *Finesse*).
+- Let's revisit the above example to show what Bob should have done:
+  - Alice has nothing to do. Alice discards her chop and it is a red 4.
+  - Bob has nothing to do (meaning that there are no normal *Play Clues* or *Save Clues* to give). Bob also has a completely unclued hand.
+  - Bob's chop is his slot 5 card. Since Bob does not see the red 4 in anyone else's hand and Bob's slot 5 card has no positive or negative clues on it, it is possible that Bob's slot 5 card could be the red 4. Thus, Bob knows that he is currently in a *Double Discard Situation* for the red 4.
+  - Since there are no normal *Play Clues* or *Save Clues* available, Bob looks around to see if he can give a *5 Stall*. Bob sees that Cathy has a red 5 on her slot 1, so he clues number 5 to Cathy as a *5 Stall*.
+  - Cathy knows that since Bob was in a *Double Discard Situation* for the red 4, she should not read too closely into his clues. This number 5 clue must just be a *5 Stall* (as opposed to a *Play Clue* on the 5).
 
-### The Layered Gentleman's Discard
+### Locked Hands (Severity 3 Stalling)
 
-- One great reason to want to do a *Gentleman's Discard* is if the card you are discarding is also behind playable cards. This is similar to a *Layered Finesse*, only it was initiated by a discard instead of a clue.
-- For example, in a 3-player game:
-  - It is the first turn and nothing is played on the stacks.
-  - Alice clues number 1 to Cathy, touching one 1.
-  - Bob clues red to Cathy, filling in the already-touched 1 as red 1, as well as touching a new card, which must be red 2.
-  - Cathy discards the known red 1 as a *Gentleman's Discard*.
-  - Alice blind-plays her *Finesse Position* card as red 1, but it is green 1.
-  - Alice knows that she is promised the red 1, so she will blind-play her slot 2 on her next turn.
+- Generally speaking, it is a bad situation when someone's hand gets fully clued. This is also known as being *Locked*, and it should be avoided if possible. However, sometimes it cannot be helped, like when a player draws three 5's in a row.
+- A player with a *Locked Hand* may give a low-value clue because they are not sure that they can play anything (and they can't discard because their hand is fully clued). Similar to a *Double Discard* situation, players should not read too closely into any clues given during this state.
+- If the team is out of clues and someone's hand is fully clued, then you **have** to discard to generate a clue for them. Similarly, if there is only 1 clue left, you cannot steal it from them.
 
-### The Baton Discard
+### Clues Given While at 8 Clues (Severity 4 Stalling)
 
-- When a *Gentleman's Discard* happens, it transfers a playable card to someone else's hand. But players are also allowed to transfer unplayable cards that they happen to know the full identity of. We call this a *Baton Discard* to distinguish it from the more-ordinary *Gentleman's Discard*.
-- Just like a *Gentleman's Discard*, a *Baton Discard* promises that the card is exactly on someone else's *Finesse Position*.
-- For example, this would be a *Gentleman's Discard* in a 3-player game:
-  - Red 2 is played on the stacks.
-  - Alice discards a known red 3.
-  - Bob does not have any clued cards in his hand.
-  - Bob looks at Cathy's hand and does not see the red 3. Thus, he knows that he has it.
-  - Bob blind-plays his *Finesse Position* card and it is the red 3 and successfully plays.
-- For example, this would be a *Baton Discard* in a 3-player game:
-  - Red 1 is played on the stacks.
-  - Alice discards a known red 3.
-  - Bob does not have any clued cards in his hand.
-  - Bob looks at Cathy's hand and does not see the red 3. Thus, he knows that he has it.
-  - Bob marks his *Finesse Position* card as red 3. For now, Bob does not have anything else to do, so he discards his chop card.
-- Note that it is illegal to perform a *Layered Baton Discard*; the card **must** be exactly in *Finesse Position*.
-- *Baton Discards* are mostly useful for two main reasons:
-  1. To better satisfy *Team Distribution Principle*. It makes sense to transfer a card out of a locked / almost locked hand to a player with an "empty" hand or a hand that only has one card clued in it.
-  2. You want to protect your own chop. If you discard your chop, the team could be losing some high-value *one-away-from-playable* card. But if you transfer a card to someone else, it gives you something "safe" to do.
+- At the beginning of the game, you start with 8 clues. This section only applies to situations where you climb to 8 clues in the middle of the game.
+- A player who has a turn with 8 clue tokens available may give a low-value clue because they cannot play anything (and they cannot discard because the game does not allow you to discard while at 8 clues). Similar to a *Double Discard* or a *Locked Hand* situation, players should not read too closely into any clues given during this state.
 
-### The Sarcastic Finesse
+<br />
 
-- Imagine that in a 3-player game:
-  - Nothing is played on the stacks.
-  - Alice has an already-clued 2 in her hand. She has no idea what color 2 it is.
-  - Alice performs a *Finesse* by giving a red color *Play Clue* to a red 2 in Cathy's hand.
-  - Bob blind-plays red 1 from his *Finesse Position*.
-  - Normally, Cathy would think that she has the next red card, which is red 2, and play it.
-  - However, what if Alice actually has the red 2? In this situation, Cathy is expected to perform a *Sarcastic Discard*.
-- Doing a *Finesse* that potentially duplicates a card in this way is called a *Sarcastic Finesse*. Normally, potentially duplicating a card is bad - it violates *Good Touch Principle* and could lead to a clue being wasted. However, potentially duplicating a card with the *Sarcastic Finesse* is not bad because:
-  - In the best case, you get a "true" *Finesse* (a 2-for-1 or better).
-  - In the worst case, you get a 1-for-1 and full knowledge on a clued card in your own hand that was previously a mystery.
+## Special Moves
 
-### The Certain Finesse & The Certain Discard
+### The 2 Save (Intermediate Section)
 
-- Imagine that in a 3-player game:
-  - Red 2 is played on the stacks.
-  - Alice has an already-clued red card in her hand. It has a negative 4 clue on it, so from *Good Touch Principle* Alice knows that it is either red 3 or red 5.
-  - Alice performs a *Reverse Finesse* by giving a red color *Play Clue* to a red 4 in Bob's hand.
-  - Bob discards.
-  - Cathy knows that she is promised the red 3 in her *Finesse Position*.
-- This is an example of a *Certain Finesse* - it is similar to the *Sarcastic Finesse* above, but the "blind" card was potentially duplicated instead of the clued card.
-- In this situation, if Alice really has the red 3, Cathy is allowed to blind-discard their *Finesse Position* card. This is called a *Certain Discard*, because Cathy can be certain that it is exactly red 3.
-- A separate way to explain this convention is that everyone agrees that performing a *Layered Finesse* on a card that could potentially be clued in your own hand is illegal. So, everyone can be certain that they can safely blind discard a card to pass it back to someone who potentially duplicated. (*Layered Finesses* are an advanced type of *Finesse* that was explained above.)
-- Note that players are **only allowed** to do a *Certain Discard* if they know they have not been *Bluffed*. This means that *Certain Finesses* **cannot be performed** from *Bluff Seat*. (*Bluffs* are an advanced kind of move that is covered later on.)
+- As explained in the [beginner's guide](beginner.md), *2 Saves* must be given with a number 2 clue.
+  - The exception to this rule is when the other copy of the 2 is in the discard pile. Then you can do a "normal" *Save Clue* on the 2 with a color clue.
+- Players are **not allowed** to perform a *2 Save* on a 2 if the other copy of the 2 is visible in someone else's hand.
+  - The exception to this rule is when the same 2 is on two people's chops at the same time. In that situation, players are allowed to *2 Save* whichever one they want. And if it is the *Early Game*, then players **must** choose to save one of them before initiating the *Mid-Game*.
 
-### The Composition Finesse
+### The 5 Stall (Intermediate Section)
 
-- Sometimes, a move can be both a *Sarcastic Finesse* and a *Certain Finesse* at the same time. When this occurs, it is called a *Composition Finesse*.
-- For example, in a 3-player game:
-  - All of the 2's are played on the stacks.
-  - Alice has a card in her hand with a red clue on it. It could be either red 3, red 4, or red 5.
-  - Alice clues red to Bob, touching a red 4 as a *Play Clue*.
-  - Bob discards.
-  - Cathy knows that she has the red 3 on her *Finesse Position* (as a *Certain Finesse*). She can *Certain Discard* it if Alice has the red 3. But Alice does not have the red 3, so Cathy blind-plays the red 3.
-  - Alice discards.
-  - Bob knows that his red card is a red 4 (as a *Sarcastic Finesse*). He can *Sarcastic Discard* it if Alice has the red 4. But Alice does not have the red 4, so Bob plays the red 4.
+- As mentioned in the [beginner's guide](beginner.md), *5 Stalls* are when a player clues an off-chop 5 purely because they want (or need) to give a stall clue.
+- *5 Stalls* are usually performed in the *Early Game*. Less commonly, they can also be performed in the *Mid-Game* if a player happens to be in a special "stalling" situation where they are not allowed to discard.
+- In the *Early Game*, the team can give as many *5 Stalls* as they want before initiating the *Mid-Game*.
+- Regardless of whether they are done in the *Early Game* or the *Mid-Game*, *5 Stalls* are only allowed if there is nothing else "normal" to do (like playing a card, giving a normal *Play Clue*, or giving a normal *Save Clue*).
+  - However, as an exception, players are also allowed to *5 Stall* if there is **only one** *Play Clue* remaining and it would touch a card that someone else on the team could conceivably *Finesse*. (We refer to this as the *Finesse Position Exception*, or FPE.)
+  - The *Finesse Position Exception* also applies if the same card is in multiple *Finesse Positions* and there is nothing else to do.
+  - The *Finesse Position Exception* applies whenever a player performs a *5 Stall*, regardless of whether it is in the *Early Game* or not.
+- *5 Stalls* **cannot** be given in the *Mid-Game* if there are any playable 5's. In this situation, a number 5 clue would just look like a *Play Clue* on the 5.
+- *5 Stalls* **must** be given to the 5 that is closest to chop. For example, in a 3-player game:
+  - It is the *Early Game*. The only thing left for Alice to do is to clue an off-chop 5.
+  - Bob has two playable 1's on slots 1 and 2. He has a 5 on slot 4. Bob's 5 is therefore one-away from chop.
+  - Cathy has nothing clued in her hand. She has a 5 on slot 3. Cathy's 5 is therefore two-away from chop.
+  - Alice must clue number 5 to Bob as a *5 Stall* since his 5 is closer to chop (even though Bob has two playable cards).
+- Some additional rules for *5 Stalls* are found in the section on [the *Early Game*](#the-early-game-intermediate-section).
+
+### The Locked Hand Save (LHS)
+
+- We agree that players with a *Locked Hand* gain the special ability to save any card they want on chop (as long as it would not *Lock* the other player). This is called a *Locked Hand Save*.
+- A *Locked Hand Save* can be performed on **any** card, not just a critical or playable card.
+- However, players can only do a *Locked Hand Save* if there are no higher precedence clues available. See the "Allowable Stall Clues" section above.
+- A *Locked Hand Save* can be performed with either a color clue or a number clue.
+- If a clue that looks like a *Locked Hand Save* would *Lock* another player, it is instead treated as a normal *Play Clue* or a normal *Save Clue*.
+- Note that the precedence of a *Locked Hand Save* is tied with a "fill-in" clue. Essentially, this means that players who have a *Locked Hand* are not forced to perform a *Locked Hand Save* if they do not want to. Most of the time, doing a *Locked Hand Save* will be pretty good (as a 1-for-1 or a 2-for-1 instead of a 0-for-1), but *Locked* players can always ignore a *Locked Hand Save* to perform a "fill-in" clue if they want.
+
+### The Anxiety Play (Forcing a Locked Player to Play)
+
+- Sometimes, someone with a *Locked Hand* has a playable card, but they do not know that they can play it yet. Re-cluing the card would signal this, but that would waste a clue and not be very efficient.
+- A better way to signal this information is to deliberately leave them at 0 clues. By convention, this means that one of their cards is actually playable. The player should play the card in their hand that is most likely to be playable. If there is more than one option, then they should know that the left-most is playable. (This follows from *Left-Most Playable Principle*.)
+- This is called an *Anxiety Play* because you are putting the *Locked* player in a "do or die" situation.
+
+### The 8 Clue Save (8CS)
+
+- At the beginning of the game, you start with 8 clues. This section only applies to situations where you climb to 8 clues in the middle of the game.
+- We agree that players who have 8 clues available on their turn gain the special ability to save any card they want on **or** off chop (as long as it is not on slot 1). This is called an *8 Clue Save*.
+- An *8 Clue Save* can be performed on **any** card, not just a critical or playable card.
+- However, players can only do an *8 Clue Save* if there are no higher precedence clues available. See the "Allowable Stall Clues" section above.
+- An *8 Clue Save* can be performed with either a color clue or a number clue.
+- If a clue that looks like an *8 Clue Save* is on a card that is on slot 1, it is instead treated as a normal *Play Clue* or a normal *Save Clue*.
 
 <br />
 
 ## General Principles
 
-### Context
+### End-Game Threshold (End Game)
 
-- If you are reading this section, you are presumably a more-experienced Hanabi player who has the fundamentals down. So, now is a good time to clear up a potential misconception that you may have about the Hyphen-ated conventions.
-- Up until now, you may have the impression that the group has a lot of conventions, and that if you just memorize all of the conventions, you will become a really good Hanabi player. Or, you may have the impression that the conventions are like laws and that you must always follow them. Neither of these things are true.
-- *Context* is defined as all of the meta-information about the game state. In intermediate and expert games, when determining what a clue means, players must **always** take into account the full context of the game. This means that figuring out what a clue means is never truly as easy as following one of the flowcharts listed on the website.
-- When writing the strategy documentation, it would be distracting to constantly write the word "probably" and to constantly write "this may not apply in all situations" all over the place. For advanced players, this is obvious - Hanabi is complicated enough such that every convention is meant to be broken if the particular situation demands it.
-- Thus, players need to read the reference documentation with **a grain of salt**, especially when it says the word "always". Even though this website outlines the "correct" thing to do in a lot of situations, these are not hard and fast rules. Rather, they are intended to show the "default" or "common" case. Memorizing the default cases is really helpful, for intermediate and advanced players alike. But players have to always remember to keep their brain fully engaged on the particular situation.
+- Towards the end of the game, the strategy of the team will change. In most games, you stop becoming concerned with efficiency and become more concerned with tempo - every card needs to play **right now** before the game ends!
+- Thus, since clues can mean different things depending on whether you are in the *Mid-Game* or the *End-Game*, you need to be able to keep track of when the *End-Game* has arrived.
+- *Pace* is used to determine *End-Game* status. If pace is **less than the number of players**, the *End-Game* has arrived.
+  - On [Hanab Live](https://hanab.live), pace will turn yellow when this occurs.
+- If pace is **less than the number of players / 2**, you should be very careful with discarding. It might still be the best thing to do, but if there are enough clues in the bank, it is usually better to *Burn* a clue (meaning to deliberately waste a clue).
+- If pace is 0, no more discards can happen in order to get the maximum score.
+- If pace is below 0, it is impossible to get the maximum score.
 
-<br />
+### The Pace +1 Rule
 
-## Common Mistakes
+- Players can use *Pace* to determine if it is safe to discard. In general, a group can discard down to pace 0 and still get a perfect score.
+- However, as a rule, if pace is +1 and one of the players on your team **does not** have any playable cards, then you cannot discard - **you must let them perform the final discard**.
+- If both you and another player do not have any playable cards, then you can do the final discard - the team won't be able to get a perfect score anyway. But if you **could** have an unknown playable card in your hand, then you should be very careful about discarding, because it could ruin a perfect score.
 
-### The Double Gentleman's Discard (Illegal)
+### Burning (End-Game Stalling)
 
-- Normally, when a player performs a *Gentleman's Discard*, they know the **exact** identity of the card that they are discarding.
-- However, sometimes a *Gentleman's Discard* can occur where, from your perspective, the card could have been two different things. Does this mean that the *Gentleman's Discard* "gets" **both** of the cards?
-- No, it does not. By convention, even if it looks like the player could not have known the true identity of the card, the *Gentleman's Discard* only gets the specific other matching card. (The reason for this is that it allows players to act upon asymmetric information.)
-- For example, in a 3-player game:
-  - Red 1 and blue 1 are played on the stacks.
-  - Alice clues Bob number 2, which touches a red 2 on slot 1. This is a *Play Clue* on the 2. Thus, this is a globally known red 2 or blue 2. Alice right-clicks the card and writes a note of "r2, b2".
-  - Bob also writes a note of "r2, b2", but then stops to think a little deeper. He notices that Alice has a blue 3 in her hand, so it might have been possible for Cathy to perform a *Finesse* on a hypothetical blue 2 in his hand.
-  - Bob rewinds to the beginning of the game and re-plays through all of the turns, watching closely to see if Cathy had an ample opportunity to perform a *Finesse* on a blue 2. Indeed, he finds that Cathy had one or two turns where she could have easily performed a *Reverse Finesse*, but discarded instead.
-  - Thus, Bob knows that it must be a red 2, so he updates his "r2, b2" note to "r2".
-  - Bob sees that Cathy has a red 2 on her *Finesse Position*, so he performs a *Gentleman's Discard* by discarding the red 2.
-  - Cathy blind-plays the red 2 from her *Finesse Position*.
-  - Alice gasps in surprise, because Bob could not have possibly known that it was exactly a red 2. This must be a *Double Gentleman's Discard*, calling for both red 2 and blue 2. Alice blind-plays her *Finesse Position* card, hoping to play a blue 2, but instead plays a red 5, losing the game.
-  - Alice forgot that *Double Gentleman's Discards* were expressly illegal because it is possible for players to have asymmetric information about the current game state.
+- In the *End-Game*, often times there are still a lot of cards yet to be played. Thus, you need to be very careful when discarding, since by drawing a card you can make the game end before everyone has a chance to play all of the cards.
+- If there are enough of clues available, you can choose to stall, by giving a low-value (or even a completely useless) clue. This is referred to as *Burning* a clue.
+- The best way to give a useless clue is to re-clue cards which are already known to be playable.
+- Give a *Burn Clue* if:
+  - There is a possibility that the game can be completed without anyone discarding from now on.
+  - You have two or more useful cards in your hand, and you want to follow *Team Distribution Principle*.
+- Do not give a *Burn Clue* if:
+  - The end-game has not started yet (see the *End-Game Threshold*).
+  - You know that someone else will have to discard in the future.
+
+### End-Game Strategy
+
+- The previous three sections introduce the *End-Game* at a high-level. When the *End-Game* arrives, you should probably be changing the way you play.
+- However, giving specific advice for the *End-Game* is very difficult - things vary widely based on the deal and there are a lot of different things to consider.
+- So, you will need to think through each *End-Game* yourself, one step at a time. Ask questions like:
+  - Which cards are left in the deck that we need?
+  - What is the probability of drawing those cards?
+  - Who should be drawing those cards?
+  - Does stalling produce a line that is better than playing?

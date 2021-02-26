@@ -3,6 +3,22 @@ id: special_finesses
 title: Special Finesses
 ---
 
+### The Ambiguous Finesse Pass-Back
+
+- When an *Ambiguous Finesse* occurs, the first player will not play into the *Finesse*, and do something unrelated. At that point, it is usually clear that **another player** on the team **also** has the matching card. That other player should then **immediately blind-play**, resolving the *Ambiguous Finesse* as fast as possible.
+- However, in some specific situations, the second person **cannot** blind-play the card, or else a misplay would occur. In these situations, the second person has to **also** not play into the *Finesse*. This "passes" the blind-play back to the first person again.
+- For example, in a 4-player game:
+  - Blue 1 is played on the stacks.
+  - Alice clues blue to Donald, touching a blue 4 as a *Play Clue*.
+  - Bob sees that Cathy has the blue 2 on her *Finesse Position*. From his position, this must be a *Double Finesse*, with Cathy blind-playing the blue 2, and Bob blind-playing the blue 3 from his own *Finesse Position*. Bob discards.
+  - Cathy sees that Bob has the blue 2 on his *Finesse Position* and the blue 3 on his *Second Finesse Position*.
+  - Cathy also knows that the only reason that Bob would discard is if Cathy **also** had the blue 2 on her *Finesse Position*. Thus, Bob expects her to blind-play on this turn, and this is an *Ambiguous Finesse*.
+  - Normally, Cathy would blind-play the blue 2 herself. However, in this situation, if she blind-plays the blue 2, then Bob would go on to misplay the other blue 2, thinking that it is blue 3.
+  - Thus, Cathy must pretend like the *Finesse* is not on her after all, and force Bob to be the one to blind-play first. Cathy discards her chop card, passing the *Finesse* back to Bob.
+  - Donald and Alice discard.
+  - Bob knows that Cathy was supposed to blind-play the blue 2, but she didn't. He must also have the blue 2. Furthermore, he must also have the blue 3, as that would be an excellent reason for Cathy to pass the *Finesse* back to him. Bob will now blind-play blue 2 and blue 3.
+- As a side note, you may be wondering why, in the above example, Cathy does not blind-discard her blue 2 from her *Finesse Position* instead of discarding her chop. This is because it is possible that Cathy does **not** have the blue 2 on her *Finesse Position* and instead has some other unrelated playable card as a *Layered Finesse*. Thus, Cathy must play it safe and discard her chop.
+
 ### The Selfish Finesse (A Finesse Through Your Own Hand)
 
 - First, see the section on the *[Selfish Clue](miscellaneous.md#the-selfish-clue)*.
@@ -36,29 +52,6 @@ title: Special Finesses
 
 - Normally, players can perform any particular type of *Finesse* either by giving a clue or by playing a card without *Priority*. For example, it is possible to both do a *Layered Finesse* (by giving a clue) and a *Layered Priority Finesse* (by playing a card).
 - One exception to this rule is the *Certain Finesse*. When a player perform a *Certain Finesse*, it calls for a *Certain Discard*. However, when a player uses *Priority* to promise a card that could potentially be in their own hand, this should **not** induce a *Certain Discard*. The other players in this situation should just ignore the *Priority* and instead discard their chop card. (Doing it this way is much safer because it allow potential *Layered Finesses* as well as some slack for mistakes.)
-
-### The No-Information Double Finesse & The No-Information Double Bluff
-
-- Sometimes, a card that is two-away-from-playable is re-clued in order to initiate a *Finesse* or a *Bluff*. Most times, the clue will "fill in" or give extra information to the existing card.
-- Other times, the clue will give no information (e.g. re-cluing number 3 to an already known 3). In this situation, if it was merely a *Bluff*, it would be pretty low value.
-- Thus, by convention, a "no information" clue on a two-away-from-playable card **must** "get" at least 2 new cards (as opposed to a single *Bluff* that only gets 1 brand new card).
-- For example, in a 3-player game:
-  - Nothing is played on the stacks.
-  - Alice clues 3's to Cathy, which touches one 3, the red 3.
-  - Bob blind-plays blue 1. At this point, everyone knows that Alice has performed a *3 Bluff*, and from Cathy's perspective, her 3 can be any 3 at all.
-  - Cathy discards.
-  - Alice clues 3's to Cathy, which re-touches the red 3 (and gives no additional information to it).
-  - Bob blind-plays red 1. If this was a *3 Bluff*, then no-one would be promised the red 2. However, since no new information was given, it must be a *No-Information Double Finesse*. Bob sees that Cathy does not have the red 2, so he must have the red 2, and can blind-play it on his next turn.
-- Usually, a "no-information" clue conveys a *Double Finesse*. But you can also use it to perform a *Double Bluff* (or a *Double Half Bluff*). For example, in a 3-player game:
-  - Nothing is played on the stacks.
-  - Alice clues 3's to Cathy, which touches one 3, the red 3.
-  - Bob blind-plays blue 1. At this point, everyone knows that Alice has performed a *3 Bluff*, and from Cathy's perspective, her 3 can be any 3 at all.
-  - Cathy discards.
-  - Alice clues 3's to Cathy, which re-touches the red 3 (and gives no additional information to it).
-  - Bob blind-plays green 1. If this was a *3 Bluff*, then no-one would be promised the green 2. However, since no new information was given, it must be a *No-Information Double Finesse*.
-  - Cathy sees that Bob does not have the green 2, so she must have the green 2, so she blind-plays her *Finesse Position* card, and it is yellow 1 instead of green 2.
-  - Since two cards were blind-played (that did not match), everyone now knows that the *No-Information* clue was a *Double Bluff* instead of a *Double Finesse*. From Cathy's perspective, her 3 can (still) be any 3 at all.
-- The "no-information" principle can also be used to perform a *No-Information Layered Finesse* on the next player. (The next player will know that it is a *Layered Finesse* instead of a *Bluff* because some other more-useful clue could have been given to initiate the *Bluff*.)
 
 ### The Bad Touch Finesse (for 1's)
 
@@ -355,3 +348,36 @@ title: Special Finesses
   - Similar to Bob, Cathy also knows that this is a *Shadow Finesse*. Cathy blind-plays her *Third Finesse Position*. It is blue 1 and it successfully plays.
   - Donald is very surprised to see Cathy blind-play her *Third Finesse Position*. The only thing that could cause this is a *Shadow Finesse*.
   - Donald blind-plays the *shadow target* from his *Third Finesse Position*.
+
+### The Unnecessary Forced Reverse Trash Finesse (A Gentleman's Discard That Looks Like an Unnecessary Reverse Trash Finesse)
+
+- First, see the section on *[Unnecessary Moves with Known Trash](level_21.md#unnecessary-moves-with-known-trash)*, which defines what a *Unnecessary Trash Finesse* is. Basically, if a *Trash Finesse* is unnecessary, then it also causes a *Chop Move*.
+- This convention also applies to *Reverse Trash Finesses*. If they are unnecessary, then it causes a *Chop Move* in the same way.
+- If a line is chosen that forces a *Gentleman's Discard* to occur (because they have to entertain the possibility of a *Reverse Trash Finesse*), and the blind-playing card could have been clued in some other easier way, then it **still** *Chop Moves* in exactly the same way that an *Unnecessary Reverse Trash Finesse* would.
+- For example, in a 3-player game:
+  - This is a slightly modified version of the example given for the *Reverse Trash Finesse*.
+  - Red 1 is played on the stacks. All of the 2's are played on the other stacks.
+  - Alice clues number 2 to Bob, touching his slot 1 card as a *Play Clue*.
+  - From Bob's perspective, this is probably just a *Play Clue* on the red 2 (which happens to be the final 2 that needs to be played).
+  - However, Bob sees that Cathy also has a red 2 on her *Finesse Position*. That means that this could be a *Reverse Trash Finesse*.
+  - If it is a *Reverse Trash Finesse*, then his 2 is a trash 2 (e.g. green 2). By immediately discarding it, it will prove to Cathy that *she* has a red 2.
+  - Alternatively, if Bob does indeed have the red 2, then he can discard it to perform a *Gentleman's Discard* on Cathy.
+  - Either way, discarding will cover both cases. Bob discards the 2 and it is revealed to be a red 2.
+  - Cathy blind-plays her *Finesse Position* card as red 2 and it successfully plays.
+  - Alice discards.
+  - Bob knows that even though *Gentleman's Discards* are never supposed to cause a *Chop Move*, Alice forced him to discard in exactly the same way as a *Reverse Trash Finesse*. Furthermore, it was possible to cleanly clue the red 2 in Cathy's hand to begin with, and doing so would have been much simpler. Thus, doing the pseudo-*Reverse Trash Finesse* was unnecessary.
+  - Since it was unnecessary, Bob chop moves all the cards to the right of where the red 2 was (slot 2, slot 3, slot 4, and slot 5).
+
+### The Trash Push Inverted Finesse
+
+- First, see the section on *[Unnecessary Moves with Known Trash](level_21.md#unnecessary-moves-with-known-trash)*, which defines what a *Unnecessary Trash Push* is. Basically, if a *Trash Push* is unnecessary, then it also causes an extra blind-play.
+- Normally, the *Unnecessary Trash Push* calls for the very next player to blind-play an unrelated card, similar to a *Bluff*.
+- However, if the very next player can see that it could be a *Finesse* through the *Trash Pushed* card, then they should prefer that interpretation. This is similar to how Bob should always prefer a *Finesse* interpretation over a *Bluff* interpretation.
+- For example, in a 4-player game:
+  - All of the 2's are played on the stacks.
+  - Alice clues number 1 to Cathy, touching a single 1 on her chop. Since all of the 1's are already played, it is globally known that this must be some kind of *Trash Push*.
+  - Bob sees that the pushed card is a red 3. Cathy has no other red cards in her hand, so Alice could have just clued red to Cathy instead of doing a complicated *Trash Push*.
+  - Thus, Bob knows that this is an *Unnecessary Trash Push*. Normally, Bob would immediately blind-play his *Finesse Position* card. However, Bob also sees that Donald has a red 4 in his *Finesse Position*. Since *Finesses* take precedence over *Bluffs*, Bob knows that he should let Donald be the one to blind-play from the unnecessariness.
+  - Bob discards.
+  - Cathy knows that this must be a *Trash Push*. Cathy blind-plays her slot 3 card. It is red 3 instead and it successfully plays.
+  - Similar to Bob, Donald also sees that the *Trash Push* was unnecessary. Since Bob did not blind-play anything, this must be a *Trash Push Inverted Finesse*. Donald blind-plays his *Finesse Position* as red 4 and it successfully plays.
