@@ -95,8 +95,18 @@ title: Level 7 - Stalling
 
 - As explained in the [beginner's guide](beginner.md), *2 Saves* must be given with a number 2 clue.
   - The exception to this rule is when the other copy of the 2 is in the discard pile. Then you can do a "normal" *Save Clue* on the 2 with a color clue.
+
+#### The Visible Rule
+
 - Players are **not allowed** to perform a *2 Save* on a 2 if the other copy of the 2 is visible in someone else's hand.
-  - The exception to this rule is when the same 2 is on two people's chops at the same time. In that situation, players are allowed to *2 Save* whichever one they want. And if it is the *Early Game*, then players **must** choose to save one of them before initiating the *Mid-Game*.
+
+#### Double Chop 2's
+
+- The exception to the *Visible Rule* is when the same 2 is on two people's chops at the same time. In that situation, players are allowed to *2 Save* whichever one they want. And if it is the *Early Game*, then players **must** choose to save one of them before giving a *5 Stall* or before discarding to initiate the *Mid-Game*.
+
+#### Interaction With 5 Stalls & 5 Tech
+
+- For level 16 players, there is a [special interaction between *2 Saves* and *5 Stalls*](level_16.md#interaction-between-2-saves-and-5-stalls).
 
 ### The 5 Stall (Intermediate Section)
 

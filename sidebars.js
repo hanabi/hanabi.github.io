@@ -31,7 +31,7 @@ module.exports = {
         'level_21',
         'level_22',
         {
-          'Extras (Rarely-Used Strategies)': [
+          'Extras': [
             'extras',
             'extras/play_clues',
             'extras/save_clues',

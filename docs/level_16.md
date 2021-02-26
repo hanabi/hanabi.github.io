@@ -159,3 +159,22 @@ title: Level 16 - 5 Tech
 - After a *5 Number Discharge* occurs, it is common for the card next to the 5 to be marked as a 3 or a 4.
 - If the 5 was on slot 1, then the marked card is now on *Finesse Position*. For most intents and purposes, this "marking" from a *5 Number Discharge* **does not** change the player's *Finesse Position* - their *Finesse Position* is still the card marked as a 3 or a 4.
 - However, if that player is *Finessed* for a 1 or a 2, then it is fairly obvious that they should not play the card that is marked as a 3 or a 4. In this case, the player should skip over their *Finesse Position* card and instead play their *Second Finesse Position*.
+
+<br />
+
+## General Principles
+
+### Interaction Between 2 Saves and 5 Stalls
+
+- Normally, players are only allowed to *5 Stall* if there is nothing else to do. If there is something else to do, then the number 5 clue signals a more advanced move.
+- Sometimes, a player can receive a *5 Stall* clue when:
+  1. A *2 Save* still needs to be done to another player
+  2. That *2 Save* is the only clue left
+- In this situation, players should assume the least complicated thing: a *5 Stall*. Because of the *Visible Rule*, the player who gave the *5 Stall* clue was not allowed to perform the *2 Save* because the other copy was visible.
+- In this situation, the player who received the *5 Stall* should write *Elimination Notes* on their hand for the other copy of the 2. Furthermore, they are not allowed to *2 Save* the other copy of the 2, so they must give some other clue or discard.
+- For example, in a 4-player game:
+  - It is the first turn and nothing is played on the stacks.
+  - Alice clues number 5 to Bob, touching a 5 on slot 1.
+  - From Bob's perspective, he does not see any other *Play Clues* or *Save Clues* that Alice could have given, with the exception of a *2 Save* on a red 2 on Cathy's chop.
+  - Thus, Alice's number 5 clue could be either a *5 Pull* or a *5 Stall*, depending on whether or not Bob has the other copy of the red 2 in his hand.
+  - Bob knows that in this situation, *5 Stalls* take precedence over *5 Pulls*, so he marks his hand for the other copy of red 2 and discards.

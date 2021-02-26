@@ -12,7 +12,7 @@ title: Level 22 - Unnecessary Moves
 ### Unnecessary Moves
 
 - Experienced players will know about all sorts of tricky ways to "get" cards - the *Trash Bluff*, the *Trash Finesse*, the *Unknown Trash Discharge*, the *Trash Push*, and so forth.
-- In most cases, these complicated moves end up being a 1-for-1, which is not very efficient. Consider that doing a complicated move like a *Trash Bluff* as a 1-for-1 is pretty pointless if the cluer can instead just give a direct *Play Clue* to the card that needs to be played as a 1-for-1. Giving "normal" *Play Clues* is much more straightforward and has a much less margin for error!
+- In most cases, these complicated moves end up being a 1-for-1, which is not very efficient. Consider that doing a complicated move like a *Trash Bluff* as a 1-for-1 is pretty pointless if the cluer can instead just give a direct *Play Clue* to the card that needs to be played as a 1-for-1. Giving "normal" *Play Clues* is much less likely to go wrong!
 - Therefore, advanced moves are generally used in situations where the card that needs to be played is hard to clue directly. For example:
   - It could be "blocked" by other cards (e.g. two of the same card in the hand).
   - It could be on chop and "blocked" in the sense that any clue given would look like a *Save Clue* instead of a *Play Clue*.
