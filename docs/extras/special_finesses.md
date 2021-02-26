@@ -19,21 +19,6 @@ title: Special Finesses
   - Bob knows that Cathy was supposed to blind-play the blue 2, but she didn't. He must also have the blue 2. Furthermore, he must also have the blue 3, as that would be an excellent reason for Cathy to pass the *Finesse* back to him. Bob will now blind-play blue 2 and blue 3.
 - As a side note, you may be wondering why, in the above example, Cathy does not blind-discard her blue 2 from her *Finesse Position* instead of discarding her chop. This is because it is possible that Cathy does **not** have the blue 2 on her *Finesse Position* and instead has some other unrelated playable card as a *Layered Finesse*. Thus, Cathy must play it safe and discard her chop.
 
-### The Selfish Finesse (A Finesse Through Your Own Hand)
-
-- First, see the section on the *[Selfish Clue](miscellaneous.md#the-selfish-clue)*.
-- One excellent reason to give a *Selfish Clue* is to "lock in" a *Finesse* before the cards move out of *Finesse Position*. This is called a *Selfish Finesse*.
-- Like any other *Finesse*, players in this situation should just mark the cards for later and wait patiently for the cluer to play their card.
-- For example, in a 3-player game:
-  - It is the first turn and nothing is played on the stacks.
-  - Alice clues red to Bob, touching a red 1 on slot 1 as a *Play Clue*. (This is now a globally-known red 1, since Cathy does not have any red 1's in her hand.)
-  - Bob clues red to Cathy, touching a red 3 on slot 1 as a *Play Clue*.
-  - Cathy sees that Alice has as red 2 on her *Finesse Position*, so this must be a *Selfish Finesse*. Bob did not want to play the red 1 because then the *Finesse* might go away and he wanted to lock it in. Cathy marks her red card as potentially red 3 and discards.
-  - Alice sees that Bob gave a *Play Clue* to a red 3. Bob knows for sure that he has the red 1, so Alice must have the red 2 on her *Finesse Position*. Alice marks her *Finesse Position* card as red 2 and discards.
-  - Bob plays red 1.
-  - Cathy discards.
-  - Alice blind-plays red 2.
-
 ### The Bad Touch Layered Finesse that Causes a Blind-Play of a Known Dupe (Dupe Bluffs / Bluff Dupes)
 
 - If a player performs a *Bluff* that causes a blind-play of a globally-known duplicated card, that is quite strange. Doing this is not very good, as it violates *Good Touch Principle* and does not accomplish very much in general.

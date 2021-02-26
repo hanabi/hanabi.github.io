@@ -60,6 +60,21 @@ title: Level 10 - Miscellaneous
 
 ## Special Moves
 
+### The Selfish Finesse (A Finesse Through Your Own Hand)
+
+- First, see the section on the *[Selfish Clue](miscellaneous.md#the-selfish-clue)*.
+- One excellent reason to give a *Selfish Clue* is to "lock in" a *Finesse* before the cards move out of *Finesse Position*. This is called a *Selfish Finesse*.
+- Like any other *Finesse*, players in this situation should just mark the cards for later and wait patiently for the cluer to play their card.
+- For example, in a 3-player game:
+  - It is the first turn and nothing is played on the stacks.
+  - Alice clues red to Bob, touching a red 1 on slot 1 as a *Play Clue*. (This is now a globally-known red 1, since Cathy does not have any red 1's in her hand.)
+  - Bob clues red to Cathy, touching a red 3 on slot 1 as a *Play Clue*.
+  - Cathy sees that Alice has as red 2 on her *Finesse Position*, so this must be a *Selfish Finesse*. Bob did not want to play the red 1 because then the *Finesse* might go away and he wanted to lock it in. Cathy marks her red card as potentially red 3 and discards.
+  - Alice sees that Bob gave a *Play Clue* to a red 3. Bob knows for sure that he has the red 1, so Alice must have the red 2 on her *Finesse Position*. Alice marks her *Finesse Position* card as red 2 and discards.
+  - Bob plays red 1.
+  - Cathy discards.
+  - Alice blind-plays red 2.
+
 ### Context Clues & The Stale 1's Clue
 
 - We have many conventions that specify what a clue means. But combined with this, we are always expected to look at the context of the game.
