@@ -7,16 +7,6 @@ title: Level 18 - Advanced Moves
 
 <br />
 
-## Conventions
-
-### Charms
-
-- *Charm* is similar to *Ejection* and *Discharge*, except the *Forth Finesse Position* card is blind-played.
-- Just like a *Bluff*, a *Charm* can only be performed on the very next player.
-- Several different kinds of moves can cause a *Charm*. The most common one is the *4 Charm*.
-
-<br />
-
 ## Special Moves
 
 ### The Occupied Play Clue & The Occupied Finesse (OPC)
@@ -74,6 +64,15 @@ title: Level 18 - Advanced Moves
   * Alice clues red to Cathy, touching a red 5 on slot 1, a red 1 on slot 2, a red 2 on slot 3, and a red 4 on slot 4.
   * Bob knows that this could be an *Out-of-Order Finesse*. Specifically, if Bob gives a follow-up number 5 *Fix Clue* to Cathy, then Cathy would play the red 1, Cathy would play the red 2, Bob would blind-play the red 3, Cathy would play the red 4, and then Cathy would play the red 5.
   * Since this line only requires that Bob blind-plays 1 card, he knows that it cannot be a *5 Color Ejection*, so Bob performs the *Fix Clue* to allow for the *Out-of-Order Finesse*.
+
+### The Suboptimal Save Prompt & The Suboptimal Save Finesse & The Suboptimal Save Bluff
+
+- If the other copy of a card is in the trash already, then the remaining copy needs to be saved. These cards are allowed to be saved with either a color clue or a number clue.
+- If both types of clues will **only** introduce one new card, then it is said that that there is a *Free Choice* between the two clue types.
+- In this situation, the clue type will be chosen that "fills in" other ancillary cards in the hand or gives important negative information.
+- If a clue type is chosen that is **clearly worse** than the other one, then the clue giver must be trying to communicate something extra.
+- The means that this innocent-looking *Save Clue* is really a *Play Clue*, and all of the in-between cards are called for.
+- Note that for a *Suboptimal Save Finesse* to work, the clue has to be **really bad**, not just technically suboptimal in some slight way.
 
 ### The Good Touch Bluff
 
@@ -140,35 +139,3 @@ title: Level 18 - Advanced Moves
   - Bob blind-plays green 1. If this was a *3 Bluff*, then no-one would be promised the green 2. However, since no new information was given, it must be a *No-Information Double Finesse*.
   - Cathy sees that Bob does not have the green 2, so she must have the green 2, so she blind-plays her *Finesse Position* card, and it is yellow 1 instead of green 2.
   - Since two cards were blind-played (that did not match), everyone now knows that the *No-Information* clue was a *Double Bluff* instead of a *Double Finesse*. From Cathy's perspective, her 3 can (still) be any 3 at all.
-
-### 4 Charm
-
-- When a *Play Clue* is given to a 4 that is not yet playable, Bob must react:
-  - The first interpretation is that it is a *Prompt*.
-  - If Bob has no matching cards in his hand, then a *Prompt* is impossible.
-  - The second interpretation is that it is a *Finesse*.
-  - If Bob sees that he would have to **blind-play one card** or **blind-play two cards** to fulfill a *Finesse*, then he should assume that it is a *Finesse*.
-  - If Bob sees that he would have to **blind-play three cards** in their hand to fulfill the *Finesse*, then a *Finesse* is unlikely.
-  - The third interpretation is that it is a *4 Double Bluff*.
-  - If Bob sees that Cathy does not have a playable card (or a *one-away-from-playable* card) on her *Finesse Position*, then a *4 Double Bluff* is impossible.
-  - The fourth interpretation is a *4 Charm*; Bob should play his *Fourth Finesse Position*.
-- For example, in a 4-player game:
-  - It is the first turn and nothing is played on the stacks.
-  - Alice clues number 4 clue to Cathy, touching a red 4 on slot 1 as a *Play Clue*.
-  - Bob knows that normally, this would be a *Finesse* on the red 4, meaning that he should blind-play a red 1, a red 2, and a red 3. (Bob does not see any red cards in anyone else's hands.)
-  - Since the *Finesse* requires three blind-plays, it is unlikely, and Bob knows he is supposed to revert to a different interpretation.
-  - Bob sees that Cathy does not have a playable card (or a *one-away-from-playable* card) on her *Finesse Position*, so a *4 Double Bluff* is impossible.
-  - Thus, Bob knows that this must be a *4 Charm*. He blind-plays his *Fourth Finesse Position*. It is a blue 1 and it successfully plays.
-- *4 Charms* can be given with either a color clue or a number clue.
-- Similar to a *5 Color Ejection*, *Prompts* don't factor into the "three or more blind-plays" rule. Players only count the number of blind-plays.
-- *4 Charms* take precedence over *Safety Charms*. (*Safety Charms* are an advanced move that is covered later.)
-
-### Finesses with a Lie Component
-
-- *Lie Principle* states all that *Fibs* must resolve immediately. An untruth that does not resolve immediately is a *Lie*.
-- Normally, *Lies* are expressly illegal. However, some players will occasionally break the rules for the purposes of getting a *Finesse*. We call such moves *Finesses with a Lie Component*.
-- Typically, when players *Lie* out of *Bluff Seat*, the game quickly falls apart; subsequent clues will have different meanings to different players and everyone will become "desynchronized". This typically leads to a loss.
-- With that said, it is sometimes possible to construct **safe** lines that contain a *Lie Component*. There is usually deep levels of nuance involved in these lines, so this kind of thing is only recommended for advanced and expert players.
-- The previously mentioned *Out-of-Order Finesse* is a specific example of a *Finesse* with a *Lie Component*. One key attribute of the *Out-of-Order Finesse* is that the player who receives the *Fix Clue* knows that **all** of the related cards are playable, or it would not have been worth the risk (and the confusion) to perform a line with a *Lie Component* in the first place.
-- This concept can be generalized to all *Finesses* that have a *Lie Component*. After a player receives a *Fix Clue* in such a situation, they should assume that the *Finesse* is "still on". So, depending on the situation, they should either know that the initial card that was clued is playable (like in an *Out-of-Order Finesse*) or continue to blind-play cards to fulfill the initial *Finesse* (if the card clued with a *Fix Clue* seems to be unrelated).
-- Importantly, *Finesses* with a *Lie Component* are **only** allowed if there is not an alternative line that would "get" the same number of cards without any lies. Thus, if you are looking to do a *Finesse* with a *Lie Component*, make sure you carefully consider the efficiency of all of the possible alternatives.

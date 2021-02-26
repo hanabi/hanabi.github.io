@@ -29,6 +29,7 @@ module.exports = {
         'level_19',
         'level_20',
         'level_21',
+        'level_22',
         {
           'Extras (Rarely-Used Strategies)': [
             'extras',

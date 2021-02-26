@@ -83,20 +83,6 @@ title: Special Bluffs
 - If the player who performed the clue was in *Bluff Seat*, then it is to be treated like a *Bluff*, and thus they will not know where the actual *Elimination Card* is. (However, in most cases, at this point there will only be one remaining card with an *Elimination Note* on it, so it won't matter.)
 - If the player who performed the clue was not in *Bluff Seat*, then the blind-playing player is expected to keep playing until they find the intended card. This is similar to how a *Layered Finesse* works, but it is inverted such that they play cards from oldest to newest.
 
-### The Out-of-Position Bluff (OOP) / The Reverse Bluff
-
-- It is legal to perform a *Reverse Finesse*, but it is not legal to perform a *Reverse Bluff*, because it breaks the *Bluff Seat* rule (and violates *Lie Principle*).
-  - Why this policy? It is not possible to play with both *Layered Finesses* and *Reverse Bluffs* at the same time. *Layered Finesses* are much better, so we choose to "turn on" *Layered Finesse* and "turn off" *Reverse Bluffs*.
-- However, players **can** rarely break the *Bluff Seat* rule if **one of the following is true**:
-  1. The next player is at 0 clues (and won't blind-play anything / will blind-play an unrelated card).
-  2. The next player will think that they have the *Bluffed* card in their own hand and will not try to *Finesse* or *Bluff* the next player. (In this case, the *Bluffed* card means the card that will blind-play.)
-  3. The next player has enough positive or negative clues on their entire hand to know that they cannot have the card that the blind-played card will be played as.
-- Essentially, if i. or ii. is true, then the next player cannot act on their state of misinformation. And if iii. is true, then the next player will have full knowledge that a *Lie* is occurring, so they will not try to "get" the *Bluffed* card.
-- Since valid *Out-of-Position Bluffs* are so rare, it is important to remember that:
-  - Valid *Out-of-Position Bluffs* take precedence over *Known Bluffs*. In other words, if Bob can see that an *OOP Bluff* could be valid (meaning it meets one of the three criteria above), then Bob should not blind-play anything as a *Known Bluff* and let Cathy play instead.
-  - Valid *Out-of-Position Bluffs* take precedence over *Layered Finesses*. In other words, if Cathy can see that an *OOP Bluff* could be valid (meaning it meets one of the three criteria above), then Cathy should not continue to blind-play cards as a *Layered Finesse*. (This is a common mistake.)
-- A *Reverse Bluff* is just a just a more-specific type of *Out-of-Position Bluff*. All of the same stipulations apply.
-
 ### The Bad Touch Double Bluff (for 3's)
 
 - In the same way as the *Bad Touch Double Finesse*, it is also possible to *Bad Touch Double Bluff* (or *Bad Touch Double Half Bluff*) in order to get unrelated cards played from *Finesse Position*.

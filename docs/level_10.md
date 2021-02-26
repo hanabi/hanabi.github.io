@@ -108,7 +108,6 @@ title: Level 10 - Miscellaneous
 - *Positional Discards* and *Positional Misplays* promise that only one card in the specified slot is playable. So, if there are **two** people with a play on the same slot, then it will be ambiguous, because each of them will think that the other person is supposed to play.
 - Thus, a *Positional Misplay* that is unnecessary transforms into a *Double Positional Misplay*, indicating to the team that **two** cards on that exact slot are playable.
 
-
 ### The Trash Order Chop Move
 
 - Sometimes, a player will have two known trash cards in their hand (and these cards are explicitly known trash, meaning that everyone on the team can equally see that they are known trash).
@@ -116,6 +115,11 @@ title: Level 10 - Miscellaneous
 - Thus, if a player skips over their newest trash card and instead discards the second newest trash card, they must be trying to communicate something extra.
 - This means that the next player should *Chop Move* (in a manner similar to a *Order Chop Move*).
 - Note that a player is not necessarily trying to perform a *Trash Order Chop Move* if the two trash cards have different kinds of clues on them. For example, by discarding specific trash cards, it can communicate that the player "sees" all of the non-trash possibilities of that card.
+
+### The Chop Transfer
+
+- Sometimes, duplicated cards are accidentally *Chop Moved* through a mistake or through a complicated situation. When this happens, it is pointless to use a clue to "undo" the *Chop Move* - the team can just continue to allow the player to discard normally.
+- Subsequently, if someone **does** use a clue to undo the *Chop Move*, there must be a good reason. This means that the card they were about to discard is important, so the player should discard the now-known useless card and then permanently *Chop Move* their new chop.
 
 ### The Misplay Chop Move
 
