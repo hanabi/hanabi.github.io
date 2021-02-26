@@ -109,31 +109,6 @@ title: Level 9 - Special Discards
 
 <br />
 
-## General Principles
-
-### Context
-
-- If you are reading this section, you are presumably a more-experienced Hanabi player who has the fundamentals down. So, now is a good time to clear up a potential misconception that you may have about the Hyphen-ated conventions.
-- Up until now, you may have the impression that the group has a lot of conventions, and that if you just memorize all of the conventions, you will become a really good Hanabi player. Or, you may have the impression that the conventions are like laws and that you must always follow them. Neither of these things are true.
-- *Context* is defined as all of the meta-information about the game state. In intermediate and expert games, when determining what a clue means, players must **always** take into account the full context of the game. This means that figuring out what a clue means is never truly as easy as following one of the flowcharts listed on the website.
-- When writing the strategy documentation, it would be distracting to constantly write the word "probably" and to constantly write "this may not apply in all situations" all over the place. For advanced players, this is obvious - Hanabi is complicated enough such that every convention is meant to be broken if the particular situation demands it.
-- Thus, players need to read the reference documentation with **a grain of salt**, especially when it says the word "always". Even though this website outlines the "correct" thing to do in a lot of situations, these are not hard and fast rules. Rather, they are intended to show the "default" or "common" case. Memorizing the default cases is really helpful, for intermediate and advanced players alike. But players have to always remember to keep their brain fully engaged on the particular situation.
-
-### Misplay Cost Principle
-
-- On a turn where a player misplays and accumulates a strike for the team, they could have discarded instead and generated a clue.
-- So, if you can spend one clue to stop one misplay, the value comes out even.
-- Thus, since there are only 2 strikes allowed and accumulating strikes limits flexibility, it is almost always worth it to spend one clue to stop one strike.
-- If it would require two clues to stop an impending misplay, then as long as the strike would not lose the game, it is usually best to let the player misplay the card and get a strike.
-
-### Team Distribution Principle
-
-- In general, it is better for useful cards to be distributed **evenly** throughout the team. This is especially important in 5-player games.
-- Thus, if one of your teammates has 3 out of 4 cards clued, it may be better for **them** to be the one giving the clues, and you to be the one discarding - even if their chop is known trash.
-- There are multiple reasons for this. First, you don't want them to get a *Locked Hand*, which is generally bad. Second, if they continue to draw playable cards, the game may end before they get a chance to play them all.
-
-<br />
-
 ## Common Mistakes
 
 ### The Double Gentleman's Discard (Illegal)

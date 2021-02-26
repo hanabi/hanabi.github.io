@@ -141,6 +141,14 @@ title: Level 11 - Context
 
 ## General Principles
 
+### Context
+
+- If you are reading this section, you are presumably a more-experienced Hanabi player who has the fundamentals down. So, now is a good time to clear up a potential misconception that you may have about the Hyphen-ated conventions.
+- Up until now, you may have the impression that the group has a lot of conventions, and that if you just memorize all of the conventions, you will become a really good Hanabi player. Or, you may have the impression that the conventions are like laws and that you must always follow them. Neither of these things are true.
+- *Context* is defined as all of the meta-information about the game state. In intermediate and expert games, when determining what a clue means, players must **always** take into account the full context of the game. This means that figuring out what a clue means is never truly as easy as following one of the flowcharts listed on the website.
+- When writing the strategy documentation, it would be distracting to constantly write the word "probably" and to constantly write "this may not apply in all situations" all over the place. For advanced players, this is obvious - Hanabi is complicated enough such that every convention is meant to be broken if the particular situation demands it.
+- Thus, players need to read the reference documentation with **a grain of salt**, especially when it says the word "always". Even though this website outlines the "correct" thing to do in a lot of situations, these are not hard and fast rules. Rather, they are intended to show the "default" or "common" case. Memorizing the default cases is really helpful, for intermediate and advanced players alike. But players have to always remember to keep their brain fully engaged on the particular situation.
+
 ### Cluing 1's in the Early Game
 
 - As outlined in the [level 3 strategy section](level_3.md#tempo), Hanabi is about balancing *Efficiency* and *Tempo*.

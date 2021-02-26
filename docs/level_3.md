@@ -109,6 +109,13 @@ title: Level 3 - Basic Strategy
 
 ## General Principles
 
+### Misplay Cost Principle
+
+- On a turn where a player misplays and accumulates a strike for the team, they could have discarded instead and generated a clue.
+- So, if you can spend one clue to stop one misplay, the value comes out even.
+- Thus, since there are only 2 strikes allowed and accumulating strikes limits flexibility, it is almost always worth it to spend one clue to stop one strike.
+- If it would require two clues to stop an impending misplay, then as long as the strike would not lose the game, it is usually best to let the player misplay the card and get a strike.
+
 ### Efficiency
 
 - A big part of Hanabi is of trying to be as efficient as possible. This means that players will generally try to "get" as many cards with one clue as possible.
