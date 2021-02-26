@@ -99,6 +99,10 @@ Priority does not always apply. Some common exceptions are listed below.
   - If this was a *Fix Clue*, Cathy might be inclined to play the card that was closest to her slot 1 (which would be the 3 on slot 2).
   - However, Cathy knows that *Load Clues* are to be interpreted as normal *Play Clues* instead of *Fix Clues*, so she interprets this as a normal *Chop-Focus Play Clue* and plays blue 3 from slot 5.
 
+### The Layered Priority Finesse
+
+- Similar to a normal *Layered Finesse*, it is also possible to initiate a *Layered Priority Finesse* as long as the blind-playing player is not the very next person.
+
 ### The Priority Finesse (Special Case)
 
 - To review, if a player has two playable cards, and both of them are fully-known, then they always have the ability to trigger a *Priority Finesse*.
