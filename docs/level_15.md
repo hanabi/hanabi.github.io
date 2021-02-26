@@ -134,3 +134,18 @@ title: Level 15 - Elimination
   - If Alice's 4 is a blue 4, then this would be a normal *Self-Finesse*, and Alice should blind-play blue 3 from slot 2.
   - If Alice's 4 is a red 4, then this would be an *Elimination Self-Finesse*, and Alice should blind-play red 3 from slot 4.
   - Alice knows that in this situation, you always supposed to assume a normal *Finesse*, so she blind-plays blue 3 from slot 2.
+
+### Trash Touch Elimination
+
+- After deciding on the target of a clue, players carefully choose between using a color clue and a number clue in order to avoid violating *Good Touch Principle* with the ancillary cards that will be touched (since every clued card is treated as a card that will eventually be played). Sometimes, when both a color clue **and** a number would violate *Good Touch Principle*, players are forced to pick between the lesser of two evils.
+- However, sometimes you can see that it **is** possible to use a color or number clue to uniquely touch a clue target without "picking up" extra bad cards. So, when extra bad cards are deliberately touched in this way, it is conveying an extra special message.
+- When this occurs and there is exactly one "missing" card, players should write an *Elimination Note* in their hand for the missing card. This is called *Trash Touch Elimination*.
+- For example, in a 3-player game:
+  - Red 3 is played on the stacks. All of the other suits have the 1 played on the stacks.
+  - Bob's hand is, from newest to oldest: red 4, red 1, blue 1, green 1, yellow 1.
+  - Alice wants to give a play clue to the red 4. Everyone else on the team (other than Bob) can see that she can give either number 4 or red.
+    - If Alice clues number 4, then it will uniquely touch the red 4 (which will satisfy *Good Touch Principle*).
+    - If Alice clues red, then it will touch the red 4 and the red 1 (which will **violate** *Good Touch Principle*).
+  - Alice clues red to Bob. Since nothing was stopping her from cluing number 4, this is very strange.
+  - Bob plays the red 4.
+  - There is only one "missing" red card - the red 5. Cathy knows that normally, Bob would think that his red 1 is the red 5 (from *Good Touch Principle*). This must mean that Cathy has the red 5. Cathy writes *Trash Touch Elimination Notes* on her hand for the red 5.
