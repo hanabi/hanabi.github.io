@@ -37,14 +37,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
-
-      # By default, Algolia updates the search index once every 24 hours
-      # We want the index to match as soon as we push new code
-      # https://github.com/marketplace/actions/algolia-docsearch-indexer
-      - name: Algolia Docsearch Indexer
-        uses: darrenjennings/algolia-docsearch-action@v0.1.0
-        with:
-            algolia_application_id: 'BH4D9OD16A'
-            algolia_api_key: 'd78c09bd651631ef68e85a10a605d1e8'
-            # https://github.com/algolia/docsearch-configs/blob/master/configs/hanabi-conventions.json
-            file: 'algolia/hanabi-conventions.json'
