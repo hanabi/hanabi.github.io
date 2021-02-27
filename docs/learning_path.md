@@ -35,7 +35,7 @@ The following is a quick summary of the levels.
 | 8            | Stalling                | *[Double Discard Situations](level_8.md#double-discard-situations)*, *[Locked Hand Saves](level_8.md#the-locked-hand-save-lhs)*, *[8 Clue Saves](level_8.md#clues-given-while-at-8-clues--the-8-clue-save-severity-4-stalling)*
 | 9            | Special Discards        | *[Gentleman's Discards](level_9.md#the-gentlemans-discard)*, *[Baton Discards](level_9.md#the-baton-discard)*, *[Sarcastic Finesses](level_9.md#the-sarcastic-finesse)*, *[Certain Finesses](level_9.md#the-certain-finesse--the-certain-discard)*
 | 10           | Bluffs                  | *[Bluffs](level_10.md#the-bluff)*
-| 11           | Context & End-Game      | *[Stale 1's Clues](level_11.md#the-stale-1s-clue)*, *[Focus Inversion](level_11.md#focus-inversion)*
+| 11           | Context                 | *[Stale 1's Clues](level_11.md#the-stale-1s-clue)*, *[Focus Inversion](level_11.md#focus-inversion)*
 | 12           | Intermediate Bluffs     | *[3 Bluffs](level_12.md#the-3-bluff)*, *[Critical 4 Bluffs](level_12.md#the-critical-4-bluff)*
 | 13           | Trash Moves             | *[Trash Bluffs](level_13.md#the-trash-bluff)*, *[Trash Pushes](level_13.md#the-trash-push)*
 | 14           | Double Bluffs           | *[Double Bluffs](level_14.md#the-double-bluff)*, *[4 Double Bluffs](level_14.md#the-4-double-bluff--the-5-double-bluff)*
