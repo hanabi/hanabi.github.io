@@ -23,13 +23,17 @@ See the [convention reasons document](https://github.com/hanabi/hanabi.github.io
 
 <br />
 
+<!-- lint disable no-undefined-references -->
 ### Why isn't [situation X] defined in the convention docs?
+<!-- lint enable no-undefined-references -->
 
 Not everything has to have a meaning. We intentionally want to have situations be undefined so that we have some wiggle room to handle a wide variety of game states. Read [the goals of the conventions](https://github.com/hanabi/hanabi.github.io/blob/main/misc/convention-goals.md).
 
 <br />
 
+<!-- lint disable no-heading-punctuation no-undefined-references -->
 ### [Situation X] is undefined in the convention docs. I want to propose a new convention to define what it will mean.
+<!-- lint enable no-heading-punctuation no-undefined-references -->
 
 Not everything has to have a meaning. We intentionally want to have situations be undefined so that we have some wiggle room to handle a wide variety of game states. Read [the goals of the conventions](https://github.com/hanabi/hanabi.github.io/blob/main/misc/convention-goals.md).
 

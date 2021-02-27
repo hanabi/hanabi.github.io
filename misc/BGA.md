@@ -18,7 +18,7 @@ Board Game Arena is a website that allows people to play all different types of 
 
 Board Game Arena also has an ELO system, which insulates the expert players from the newbies. As you move up the ranks, you will start to get games with the same players, which also allows you to get to know everyone in the community a bit more intimately.
 
-#### The Interface
+#### BGA's Interface
 
 BGA upgraded their interface in 2020 to have a newer look. A lot of BGA players preferred the older interface to the new one. However, regardless of whether you are talking about the older interface, or the newer interface, they really leave a lot to be desired:
 
@@ -51,7 +51,7 @@ Of course, this problem is compounded by the terrible replay system. Even if pla
 
 Hanab Live was created by me (Zamiel) in June 2017 as a replacement for Keldon's excellent online implementation (which is now offline). Whereas BGA is closed-source and impossible to edit by the average user, Hanab Live is open-source: we can add new variants, add new features, fix bugs, and so forth.
 
-#### The Interface
+#### Hanab Live's Interface
 
 <img src="../static/img/bga/bga-mode.png" alt="The Hanab Live Interface" height="450px" />
 
