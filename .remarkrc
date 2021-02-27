@@ -7,6 +7,7 @@
     "remark-lint-no-dead-urls",
     "remark-lint-are-links-valid",
     "remark-lint-no-trailing-spaces",
+    "remark-lint-no-tabs",
     ["remark-lint-heading-style", false],
     ["remark-lint-list-item-indent", false],
     ["remark-lint-list-item-spacing", false],

@@ -11,7 +11,7 @@ import ImageSwitcher from '../src/pages/ImageSwitcher.js';
 - This guide assumes that you are already familiar with the basic rules of Hanabi. If you need to brush up on them, either [read them here](https://github.com/Zamiell/hanabi-live/blob/master/docs/RULES.md) or [watch this video](https://www.youtube.com/watch?v=VrFCekQb4nY).
 
 <br />
-poopz
+
 ## Table of Contents
 
 Use an code.
