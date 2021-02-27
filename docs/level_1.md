@@ -73,7 +73,7 @@ title: Level 1 - Fundamentals
 
 - A *2 Save* is when someone uses a number 2 clue to clue a previously-unclued 2 that is on someone's chop. (Everyone agrees that this is just a *Save Clue* instead of a *Play Clue*.)
 - By definition, you can only perform a *2 Save* with a number clue.
-  - If the other copy of the 2 is in the discard pile, then you can save it with color. But that wouldn't be a *2 Save*, that would just be a "normal" *Save Clue*.
+  - If the other copy of the 2 is in the discard pile, then you can save it with color. But that would not be a *2 Save*, that would just be a "normal" *Save Clue*.
 
 #### The Visible Rule
 
