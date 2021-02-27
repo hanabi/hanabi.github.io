@@ -71,8 +71,9 @@ title: Level 1 - Fundamentals
 
 ### The 2 Save
 
-- As explained in the [beginner's guide](beginner.md), *2 Saves* must be given with a number 2 clue.
-  - The exception to this rule is when the other copy of the 2 is in the discard pile. Then you can do a "normal" *Save Clue* on the 2 with a color clue.
+- A *2 Save* is when someone uses a number 2 clue to clue a previously-unclued 2 that is on someone's chop. (Everyone agrees that this is just a *Save Clue* instead of a *Play Clue*.)
+- By definition, you can only perform a *2 Save* with a number clue.
+  - If the other copy of the 2 is in the discard pile, then you can save it with color. But that wouldn't be a *2 Save*, that would just be a "normal" *Save Clue*.
 
 #### The Visible Rule
 
