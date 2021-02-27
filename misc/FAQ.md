@@ -1,4 +1,4 @@
-# Frequently Asked Questions (FAQ)
+## Frequently Asked Questions (FAQ)
 
 *Written by Valetta6789*
 
@@ -6,13 +6,13 @@
 
 ### Are there 2-player conventions for the *Hyphen-ated Group*?
 
-[Yes](https://github.com/hanabi/hanabi.github.io/blob/main/misc/2-Player.md).
+[Yes](https://github.com/hanabi/hanabi.github.io/blob/main/misc/2-player.md).
 
 <br />
 
 ### What is the reason to play 1's in the starting hand from right-to-left (instead of from left-to-right)?
 
-See the [convention reasons document](https://github.com/hanabi/hanabi.github.io/blob/main/misc/Convention-Reasons.md#play-order-of-multiple-1s).
+See the [convention reasons document](https://github.com/hanabi/hanabi.github.io/blob/main/misc/convention-reasons.md#play-order-of-multiple-1s).
 
 <br />
 
@@ -25,13 +25,13 @@ See the [convention reasons document](https://github.com/hanabi/hanabi.github.io
 
 ### Why isn't [situation X] defined in the convention docs?
 
-Not everything has to have a meaning. We intentionally want to have situations be undefined so that we have some wiggle room to handle a wide variety of game states. Read [the goals of the conventions](https://github.com/hanabi/hanabi.github.io/blob/main/misc/Convention-Goals.md).
+Not everything has to have a meaning. We intentionally want to have situations be undefined so that we have some wiggle room to handle a wide variety of game states. Read [the goals of the conventions](https://github.com/hanabi/hanabi.github.io/blob/main/misc/convention-goals.md).
 
 <br />
 
 ### [Situation X] is undefined in the convention docs. I want to propose a new convention to define what it will mean.
 
-Not everything has to have a meaning. We intentionally want to have situations be undefined so that we have some wiggle room to handle a wide variety of game states. Read [the goals of the conventions](https://github.com/hanabi/hanabi.github.io/blob/main/misc/Convention-Goals.md).
+Not everything has to have a meaning. We intentionally want to have situations be undefined so that we have some wiggle room to handle a wide variety of game states. Read [the goals of the conventions](https://github.com/hanabi/hanabi.github.io/blob/main/misc/convention-goals.md).
 
 <br />
 
@@ -306,7 +306,7 @@ No. It only promises that the matching cards are in your hand. Write *Trash Touc
 
 ### What is the reason behind discarding trash from left to right?
 
-See [the convention reasons document](Convention-Reasons.md#discarding-trash-from-left-to-right).
+See [the convention reasons document](convention-reasons.md#discarding-trash-from-left-to-right).
 
 <br />
 

@@ -157,9 +157,9 @@ First, let's go over some *Hat-Guessing* terminology before getting into the act
 - In this situation, you must give them an instruction with the highest possible priority:
   1. Discard of the right-most of the left-most copies of important dupes in a hand
   - (For example, in a hand of `blue 2, red 2, red 2, blue 2`, tell them to discard slot 2.)
-  2. Discard of the right-most trash, but only if the receiving player has no queued discard instructions or *Obvious* trash
-  3. Critical save the right-most critical
-  4. Discard the right-most trash
+  1. Discard of the right-most trash, but only if the receiving player has no queued discard instructions or *Obvious* trash
+  1. Critical save the right-most critical
+  1. Discard the right-most trash
 
 <br />
 

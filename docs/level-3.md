@@ -58,7 +58,7 @@ title: Level 3 - Basic Strategy
 - In the above screenshot, on the first turn of the game, Alice clues number 1 to Bob, which touches three 1s on slot 2, slot 3, and slot 4.
 - From *Good Touch Principle*, Bob knows that he can now play all 3 of these cards.
 - Bob should play the slot 4 card first, and then the slot 3 card, and then the slot 2 card.
-- The logic behind this convention is explained [here](https://github.com/hanabi/hanabi.github.io/blob/main/misc/Convention-Reasons.md#play-order-of-multiple-1s).
+- The logic behind this convention is explained [here](https://github.com/hanabi/hanabi.github.io/blob/main/misc/convention-reasons.md#play-order-of-multiple-1s).
 
 #### Part 2 - The Fresh 1's Rule
 

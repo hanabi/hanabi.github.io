@@ -102,10 +102,10 @@ Below are conventions for some specific variants. Each variant is located on its
 
 ### 2-Player
 
-- In the *Hyphen-ated Group*, we generally only play games with 3 to 5 players. If you are interested in playing 2-player games, then see the [2-player page](https://github.com/hanabi/hanabi.github.io/blob/main/misc/2-Player.md).
+- In the *Hyphen-ated Group*, we generally only play games with 3 to 5 players. If you are interested in playing 2-player games, then see the [2-player page](https://github.com/hanabi/hanabi.github.io/blob/main/misc/2-player.md).
 
 ### Empty Clues
 
 - *Empty Clues* are clues that touch no cards in a hand. On Hanab Live, each game has the option to allow *Empty Clues*. In our group, we typically disallow this option since it makes the game too easy.
 - If *Empty Clues* are enabled, it allows for a much wider channel of information transfer. We have developed an entire convention framework around this channel and it is too complicated to cover in a single section here.
-- If you are interested in learning about in the extended *Empty Clue* conventions, they are documented [on a separate page](https://github.com/hanabi/hanabi.github.io/blob/main/misc/Empty-Clues.md).
+- If you are interested in learning about in the extended *Empty Clue* conventions, they are documented [on a separate page](https://github.com/hanabi/hanabi.github.io/blob/main/misc/empty-clues.md).

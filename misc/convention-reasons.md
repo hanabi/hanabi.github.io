@@ -1,4 +1,4 @@
-# Reasons for Specific Hyphen-ated Conventions
+## Reasons for Specific Hyphen-ated Conventions
 
 The main website lists all of our conventions. But it does not bother listing **why** we implemented a particular convention, because we want to make it as concise as possible. Since beginners sometimes like to know the **why** behind a convention, this page will go into a bit more detail.
 

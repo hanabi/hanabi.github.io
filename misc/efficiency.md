@@ -1,4 +1,4 @@
-# Efficiency Tables
+## Efficiency Tables
 
 ### Pace
 

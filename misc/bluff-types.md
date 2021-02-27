@@ -26,6 +26,8 @@ When a player happens to play a "matching" card into a *Pseudo-Bluff*, it is a *
 
 Different things will happen if different kinds of *Bluffs* are deferred.
 
+<!-- lint disable no-duplicate-headings -->
+
 ### True Bluffs
 
 - A True Bluff is always an instruction to blind-play, regardless of whether the blind-play is supposed to come from *Bluff Seat* or not. This means that multiple players may think that they supposed to play from a *True Bluff* clue.
@@ -47,3 +49,5 @@ Different things will happen if different kinds of *Bluffs* are deferred.
   - Alice initiates a *Rank Choice Bluff* by giving a clue to Cathy.
   - Bob discards, interpreting the move as a *Reverse Finesse* on Donald.
   - Cathy will not misplay anything and wait for Donald to blind-play his *Finesse Position*.
+
+<!-- lint enable no-duplicate-headings -->

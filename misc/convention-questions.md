@@ -19,11 +19,15 @@ Ask questions about the Hyphen-ated conventions in the in the `#convention-quest
 
 Use notation that the Hyphen-ated group will be familiar with:
 
+<!-- lint disable no-undefined-references -->
+
 - Use "red 3" instead of "3 red".
 - Use "r3" instead of "3r".
 - Use "r[3]" to indicate that a card is a red 3 but has a number 3 clue on it.
 - If using a replay, then use the names of the players in the replay.
 - If using a hypothetical, always use the characters of Alice, Bob, Cathy, Donald, and Emily. (Alice should always be the player who performs the first action.)
+
+<!-- lint enable no-undefined-references -->
 
 ### 4) Attempt to Answer Your Own Question (and Provide a Detailed Explanation)
 

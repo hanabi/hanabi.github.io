@@ -83,7 +83,7 @@
 - Hanabi was first released in several European countries. In the initial German version of the game (and perhaps others), [the printed rules](https://www.brettspiele-report.de/images/h/hanabi/Spielanleitung-Hanabi.pdf) specifically allowed *Empty Clues* (page 3, section A, #2). Furthermore, Antoine Bauza (the creator of Hanabi) [clarified on his blog](http://www.antoinebauza.fr/?p=880) that giving *Empty Clues* is allowed. (An [English translation](https://boardgamegeek.com/article/6177967#6177967) of this post is also available.)
 - In the later American release of the deluxe (tiles) version of the game, [the printed rules](Rules.md) make it a point to explicitly mention:
 
->IMPORTANT: The player must clearly point to the tiles which he is giving information about. (Thus saying "You have zero of something" is not allowed as you cannot point to anything.)
+> IMPORTANT: The player must clearly point to the tiles which he is giving information about. (Thus saying "You have zero of something" is not allowed as you cannot point to anything.)
 
 - *Empty Clues* make it easier for players to get a perfect score and can encourage game-breaking strategies, such as the one described in the 2015 paper [*How to Make the Perfect Fireworks Display: Two Strategies for Hanabi*](../academic-papers/2015-02-01%20-%20How%20to%20Make%20the%20Perfect%20Fireworks%20Display.pdf). This could be the reason that the rule was changed between releases.
 - When I contacted Antoine Bauza (the creator of Hanabi) on Twitter, [he was neutral](https://twitter.com/Zamiel_SRL/status/975919901520130048) to the question of whether *Empty Clues* should be legal.
