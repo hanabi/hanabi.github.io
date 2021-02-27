@@ -13,12 +13,12 @@ const ImageSwitcher = ({src, altText}) => {
         const filenameExtensionLength = 4; // e.g. ".png"
         const filenameExtension = src.slice(src.length - filenameExtensionLength);
         const srcWithoutExtension = src.slice(0, -1 * filenameExtensionLength);
-        const darkSrc = `${srcWithoutExtension}_dark${filenameExtension}`;
+        const darkSrc = `${srcWithoutExtension}-dark${filenameExtension}`;
         const imgSrc = isDarkTheme ? darkSrc : src;
         const fullImgSrc = useBaseUrl(imgSrc);
 
         return (
-          <img src={fullImgSrc} alt={altText} />
+          <img src={fullImgSrc} alt={altText} className="ss" />
         )
       }}
     </BrowserOnly>
