@@ -85,7 +85,7 @@ title: Level 1 - Fundamentals
 
 #### Interaction With 5 Stalls
 
-- For level 16 players, there is a [special interaction between *2 Saves* and *5 Stalls*](level_16.md#interaction-between-2-saves-and-5-stalls).
+- For level 17 players, there is a [special interaction between *2 Saves* and *5 Stalls*](level_17.md#interaction-between-2-saves-and-5-stalls).
 
 ### The 5 Stall
 
