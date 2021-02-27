@@ -9,12 +9,12 @@ title: Discharges
 
 ### The Unknown Trash Discharge
 
-- The *Unknown Trash Discharge* is introduced at [level 14](level_14.md#the-unknown-trash-discharge-1-for-1-form-utd).
+- The *Unknown Trash Discharge* is introduced at [level 15](level_15.md#the-unknown-trash-discharge-1-for-1-form-utd).
 - This results in a *Signal Shift* from *Play* --> *Trash*.
 
 ### The 5 Number Discharge (5ND)
 
-- The *5 Number Discharge* is introduced in [level 16](level_16.md#5-number-discharge-5nd).
+- The *5 Number Discharge* is introduced in [level 17](level_17.md#5-number-discharge-5nd).
 - This results in a *Signal Shift* from *Play* --> *Trash* (on the *5 Pulled* card).
 
 ### Unknown Dupe Discharge (UDD)
@@ -57,7 +57,7 @@ title: Discharges
 
 ### The Trash Push Discharge
 
-- First, see the section on the [Trash Push](level_14.md#the-trash-push).
+- First, see the section on the [Trash Push](level_13.md#the-trash-push).
 - Normally, when known trash is touched as the focus of the clue, and the known trash is on chop, it communicates a *Trash Push*.
 - However, what if the *Trash Pushed* card is trash? The other players can see that this clue must have some other purpose - it should signal an *Discharge* on the very next player.
 - This move is extremely similar to the *Unknown Trash Discharge*. In UTD, the focus of the clue is promised as trash. In the *Trash Push Discharge*, the *Trash Pushed* card is promised as trash.
