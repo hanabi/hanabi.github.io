@@ -72,8 +72,8 @@ title: Level 2 - Basic Finesses
   - Alice clues number 3 to Cathy, touching one 3 on slot 2.
   - Bob discards.
   - Cathy knows that this was a *Play Clue* on the 3, but there are no 3's that are directly playable. Thus, someone must have the matching 2. Since Bob discarded, Cathy must be the one who has the matching 2.
-  - Thus, Cathy plays her *Finesse Position* card as **any** 2. It is red 2 and successfully plays.
-  - Cathy now knows that her 3 must match the 2, so she marks her 3 as red 3.
+  - Thus, Cathy plays her *Finesse Position* card as **any** 2. It is a red 2 and it successfully plays.
+  - Cathy now knows that her 3 must match the 2, so she marks her 3 as a red 3.
 - Note that *Self-Finesses* can be difficult to perform because the player receiving the clue will **only** consider the possibility of a *Self-Finesse* **if there are no other possibilities** for the clue. For example:
   - If the clue looks like it *could* just be a normal/direct *Play Clue* on a card, then the clue receiver will not blind-play anything - they will just play the card that was clued.
   - If the clue looks like it *could* be a *Prompt*, then the clue receiver will not play anything and assume that it is a *Prompt*. (At least, until the other player has had a chance to play the *Prompted* card.)
