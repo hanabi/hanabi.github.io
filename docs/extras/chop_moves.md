@@ -35,7 +35,7 @@ title: Chop Moves
 
 ### The Hesitation Chop Move (From a Misplay)
 
-- First, see the section on the *[Scream Discard](level_6.md#the-scream-discard-chop-move) and the *[Hesitation Blind-Play](level_21.md#the-hesitation-blind-play)*.
+- First, see the section on the *[Scream Discard](level_6.md#the-scream-discard-chop-move)* and the *[Hesitation Blind-Play](level_22.md#the-hesitation-blind-play)*.
 - Remember that as a special exception, *Scream Discards* do **not** apply when a player has a "blind" card to play in their hand **and** the blind card can exist in your hand.
 - Thus, when this occurs, you will usually want to blind-play your *Finesse Position* card, since this sequence of events indicates an *Ambiguous Finesse*.
 - When you blind-play a card in this situation and it misplays, it means that the unusual discard really was a *Scream Discard* after all, so you should treat it like a normal *Scream Discard* and permanently *Chop Move*.
