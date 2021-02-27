@@ -1,3 +1,3 @@
 #!/bin/bash
 
-npm run lint
+npx remark --quiet docs misc

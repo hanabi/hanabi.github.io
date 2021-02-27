@@ -9,8 +9,7 @@
     "docusaurus": "docusaurus",
     "serve": "docusaurus serve",
     "start": "docusaurus start",
-    "swizzle": "docusaurus swizzle",
-    "lint": "remark docs --quiet"
+    "swizzle": "docusaurus swizzle"
   },
   "browserslist": {
     "production": [

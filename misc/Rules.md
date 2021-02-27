@@ -37,8 +37,8 @@ CRUCIAL!: The players MUST NOT look at their own tiles! They must set them on th
 The player with the most colorful clothing begins the game. The players then take their turn going in a clockwise direction. On their turn, a player must complete one, and only one, of the following three actions (and they are not allowed to skip their turn):
 
 1. Give one piece of information.
-2. Discard a tile.
-3. Play a tile.
+1. Discard a tile.
+1. Play a tile.
 
 NOTE: When it is a player's turn, his teammates cannot comment or try to influence him. This is highly dishonorable and will bring great shame upon you.
 
@@ -51,7 +51,7 @@ IMPORTANT: The player must clearly point to the tiles which they are giving info
 Two types of information can be given and the player giving the information chooses only one type to give:
 
 1. Information about one specific COLOR (and only one)
-2. Information about one specific VALUE  (and only one)
+1. Information about one specific VALUE  (and only one)
 
 IMPORTANT: The player must give complete information. If a player has two green tiles, the informer cannot only point to one of them, they must point to BOTH green tiles.
 
@@ -68,11 +68,11 @@ NOTE: This action cannot be performed in all the Clock tiles are face up on the 
 The player takes a tile from his hand and plays it to the center of the table. Two options are possible:
 
 1. The tile either begins, adds to, or completes a firework and it is then added to the appropriate color firework.
-2. The tile doesn't begin, add to or complete any firework. Discard the tile out of the game, then flip the top Fuse tile face down beside that stack. The fuse is burning shorter and time is running out.
+1. The tile doesn't begin, add to or complete any firework. Discard the tile out of the game, then flip the top Fuse tile face down beside that stack. The fuse is burning shorter and time is running out.
 
 After playing their tile, they then take a new tile from the draw pile and adds it to their hand without looking at it.
 
-#### How the fireworks are built:
+#### How the fireworks are built
 
 - There can only be one firework of each color. The tiles for a firework have to be placed in rising order (1, 2, 3, 4 and finally 5).
 - There can only be one tile of each value in each firework (so 5 tiles in total).
@@ -86,8 +86,8 @@ When a player completes a firework - i.e. they successfully play the tile with a
 There are 3 ways to end the game of Hanabi:
 
 1. The game ends immediately and is lost if the third Fuse tile is flipped over (thus revealing the explosion).
-2. The game ends immediately and it is a stunning victory if the firework makers manage to make the 5 fireworks before the tiles run out. The players are then awarded the maximum score of 25 points.
-3. The game ends if a player takes the last tile from the pile: each player plays one more time, including the player who picked up the last tile. The players cannot pick up tiles during this last round (as the pile is empty).
+1. The game ends immediately and it is a stunning victory if the firework makers manage to make the 5 fireworks before the tiles run out. The players are then awarded the maximum score of 25 points.
+1. The game ends if a player takes the last tile from the pile: each player plays one more time, including the player who picked up the last tile. The players cannot pick up tiles during this last round (as the pile is empty).
 
 Once this last round is complete, the game ends and the players can then add up their score.
 
@@ -109,9 +109,9 @@ Artistic impression is determined by the Artisan League Of Fireworks Technicians
 #### MULTICOLOR VARIANTS
 
 1. Add the 6th suit to the game and attempt to create all 6 fireworks. In this variant, the multicolor suit is not wild, it's a separate firework.
-2. Same as Variant 1, except use only one tile of each number (1, 2, 3, 4, 5) for the multicolor suit.
-3. Add the 6th suit to the game and these tiles are now wild. In this variant, you cannot call out the multicolor suit. Instead of the multicolor tiles always count as the color in your clue. But when playing the tile, it counts and builds as the 6th (multicolor) firework.
-4. The game does not end after the round where the last tile is picked up. It continues until the players are defeated (3 Fuse tiles flipped over OR if an indispensable tile has been discarded) or until the players are victorious (all the fireworks are completed). The players can then find themselves with fewer tiles in their hand at the end of the game and the score scale is not used: the fireworks display has to be perfect. (Can also combine this with any one other variant.)
+1. Same as Variant 1, except use only one tile of each number (1, 2, 3, 4, 5) for the multicolor suit.
+1. Add the 6th suit to the game and these tiles are now wild. In this variant, you cannot call out the multicolor suit. Instead of the multicolor tiles always count as the color in your clue. But when playing the tile, it counts and builds as the 6th (multicolor) firework.
+1. The game does not end after the round where the last tile is picked up. It continues until the players are defeated (3 Fuse tiles flipped over OR if an indispensable tile has been discarded) or until the players are victorious (all the fireworks are completed). The players can then find themselves with fewer tiles in their hand at the end of the game and the score scale is not used: the fireworks display has to be perfect. (Can also combine this with any one other variant.)
 
 #### STRATEGIC ADVICE
 

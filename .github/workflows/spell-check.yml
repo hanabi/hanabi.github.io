@@ -30,7 +30,7 @@ jobs:
         run: ./spell-check/spell-check.sh
 
       - name: Lint
-        run: npm run lint
+        run: ./lint.sh
 
   discord:
     name: Discord Failure Notification

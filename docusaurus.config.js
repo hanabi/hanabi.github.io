@@ -41,6 +41,11 @@ module.exports = {
           position: 'left',
         },
         {
+          href: 'https://github.com/hanabi/hanabi.github.io/',
+          label: 'Repo',
+          position: 'right',
+        },
+        {
           href: 'https://github.com/hanabi/hanabi.github.io/issues',
           label: 'Proposals',
           position: 'right',

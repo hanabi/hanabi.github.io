@@ -137,8 +137,8 @@ First, let's go over some *Hat-Guessing* terminology before getting into the act
 - When giving a *Hat-Guessing* clue, you give each other player an instruction.
 - You have to give each player an instruction with the highest possible priority:
   1. Play instruction (regardless of whether it is "touched" by a clue or not)
-  2. Discard instruction **or** critical save instruction (see below)
-  3. Clue instruction
+  1. Discard instruction **or** critical save instruction (see below)
+  1. Clue instruction
 - You **cannot** target a card that has already been given an instruction from a previous clue.
 - You **cannot** target a card that is already an *Obvious* trash card, an *Obvious* discard, or an *Obvious* critical card.
 
@@ -147,16 +147,16 @@ First, let's go over some *Hat-Guessing* terminology before getting into the act
 - Sometimes, a player has more than one uncalled playable card in his hand.
 - In this situation, you must give them a play instruction with the highest possible priority:
   1. Unique cards (e.g. 5s, critical cards, and cards of which the player holds all copies)
-  2. Left-most 1 where the player holds two copies
-  3. Lowest rank
-  4. Left-most
+  1. Left-most 1 where the player holds two copies
+  1. Lowest rank
+  1. Left-most
 
 ### Discard/Critical Instruction Priority
 
 - If a player does not have any uncalled playable cards, then you can give them a "discard" instruction or a "save this critical card for later" instruction.
 - In this situation, you must give them an instruction with the highest possible priority:
   1. Discard of the right-most of the left-most copies of important dupes in a hand
-    - (For example, in a hand of `blue 2, red 2, red 2, blue 2`, tell them to discard slot 2.)
+  - (For example, in a hand of `blue 2, red 2, red 2, blue 2`, tell them to discard slot 2.)
   2. Discard of the right-most trash, but only if the receiving player has no queued discard instructions or *Obvious* trash
   3. Critical save the right-most critical
   4. Discard the right-most trash
