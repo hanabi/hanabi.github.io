@@ -20,9 +20,7 @@ Board Game Arena also has an ELO system, which insulates the expert players from
 
 #### The Interface
 
-<img src="../img/bga/bga_interface.png" alt="The Board Game Arena Interface" height="450px" />
-
-This is a screenshot of the older BGA interface, before they changed it in 2020. A lot of BGA players preferred the older interface to the new one. However, regardless of whether you are talking about the older interface, or the newer interface, both really leave a lot to be desired:
+BGA upgraded their interface in 2020 to have a newer look. A lot of BGA players preferred the older interface to the new one. However, regardless of whether you are talking about the older interface, or the newer interface, they really leave a lot to be desired:
 
 - There is an in-game replay feature, but using it is frustrating. Once you initiate a replay, you are stuck watching the movie until it reaches the present, with no ability to pause, and no ability to move back and forth at will.
 - There is no ability to see negative clues. You can keep track of them via memory, but this is quite cumbersome to do perfectly. Using negative clues is essential to playing at a high-level.
@@ -55,7 +53,7 @@ Hanab Live was created by me (Zamiel) in June 2017 as a replacement for Keldon's
 
 #### The Interface
 
-<img src="../img/bga/bga_mode_on_hanabi_live.png" alt="The Hanab Live Interface" height="450px" />
+<img src="../static/img/bga/bga-mode.png" alt="The Hanab Live Interface" height="450px" />
 
 All of the interface issues with BGA are fixed in the Hanab Live interface: it is snappier, it conveys all the information you need to know, and allows you to move forward and backward through time with ease. (This new default UI was created in September 2018.) Admittedly, not everything is exactly the same as it is on BGA. As you can see, the discard pile is on the bottom-right-hand corner instead of the bottom-left-hand corner. With that said, the interface should be fairly easy to use.
 
@@ -123,7 +121,7 @@ If you're reading this far, you'll want to know some of the basic differences be
 ### A Note on the Conventions Themselves
 
 - On BGA, the "rules" or conventions by which people play are largely unwritten, and can change from game to game. But you'll almost certainly have a good grasp of them after having played a bunch of games, and many are talked about on the [2b or not 2b group forums](https://en.boardgamearena.com/#!group?id=1598286).
-- In our group, the rules are [completely documented](../Reference.md). Yeah, don't bother reading through it now, but note that you can use it in case you ever need to look up something specific.
+- In our group, the rules are [completely documented](https://hanabi.github.io). Yeah, don't bother reading every single convention now, but note that you can use it in case you ever need to look up something specific.
 - Why do this? Having a strongly defined set of rules cuts out most silly post-game arguments on how an ambiguous-looking clue should be interpreted. Instead, it encourages discussion on finding the most efficient moves and strategies within a shared framework, which is much more productive.
 
 ### 2 Saves - Added Always
@@ -280,7 +278,7 @@ These are conventions that we don't typically turn on for new players, but we do
   - If a two-away 3 is used to initiate a *Bluff*, then we call that a *3 Bluff*.
 - Players are allowed to initiate *3 Bluffs* with either color or number.
 - This is one of the more arbitrary and tricky conventions that we have, so it will take a few games to get used to.
-- Why do this? It allows us to get 2-for-1 clues in situations where you would otherwise have to do a 1-for-1. Furthermore, it allows us to mitigate a good percentage of "bottom-deck" losses to 3's. (And if you're really interested, you can read [the story of how 3 Bluffs were invented](3_Bluffs.md)).
+- Why do this? It allows us to get 2-for-1 clues in situations where you would otherwise have to do a 1-for-1. Furthermore, it allows us to mitigate a good percentage of "bottom-deck" losses to 3's. (And if you're really interested, you can read [the story of how 3 Bluffs were invented](3-Bluffs.md)).
 
 <br />
 

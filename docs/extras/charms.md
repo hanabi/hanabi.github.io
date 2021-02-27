@@ -9,7 +9,7 @@ title: Charms
 
 ### The 4 Charm
 
-- The *4 Charm Unknown Trash Discharge* is introduced at [level 18](level_18.md#the-4-charm).
+- The *4 Charm Unknown Trash Discharge* is introduced at [level 18](level-18.md#the-4-charm).
 
 #### Interaction with the Out-of-Order Finesse
 
@@ -24,7 +24,7 @@ title: Charms
 
 ### The Unknown Trash Charm (UTC)
 
-- First, see the section on the *[Unknown Trash Discharge](level_15.md#the-unknown-trash-discharge-1-for-1-form)*.
+- First, see the section on the *[Unknown Trash Discharge](level-15.md#the-unknown-trash-discharge-1-for-1-form)*.
 - Normally, after an *Unknown Trash Discharge*, non-focused cards are known to be "good".
 - However, what if a player performs an *Unknown Trash Discharge* where **all** of the non-focused cards are trash? A *Discharge* would incorrectly signal that the non-focused cards are useful.
 - Instead, this should signal a *Charm* on the very next player.
@@ -54,4 +54,4 @@ title: Charms
   - Thus, Bob knows that this must be a *Safety Charm*. He blind-plays his *Fourth Finesse Position*. It is a blue 1 and it successfully plays.
   - Cathy knows that she must have the red 2. She also knows that her slot 1 card is a 5 that could have been used for a *5 Pull*. Cathy marks the 5 as being *Chop Moved* for later.
 - *4 Charms* take precedence over *Safety Charms*.
-- More examples of a *Safety Charm* can be found [here](examples/safety_charm.md).
+- More examples of a *Safety Charm* can be found [here](examples/safety-charm.md).

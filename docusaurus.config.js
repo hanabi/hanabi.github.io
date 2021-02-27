@@ -23,7 +23,7 @@ module.exports = {
           position: 'left',
         },
         {
-          to: 'docs/learning_path',
+          to: 'docs/learning-path',
           activeBasePath: 'docs',
           label: 'Learning Path',
           position: 'left',
@@ -35,7 +35,7 @@ module.exports = {
           position: 'left',
         },
         {
-          to: 'docs/variant_specific',
+          to: 'docs/variant-specific',
           activeBasePath: 'docs',
           label: 'Variant-Specific',
           position: 'left',

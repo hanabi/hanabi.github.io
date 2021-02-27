@@ -3,7 +3,7 @@ id: unnecessary
 title: Examples of Unnecessary Moves
 ---
 
-*[Unnecessary Moves](/level_21.md)* are a level 21 convention.
+*[Unnecessary Moves](/level-21.md)* are a level 21 convention.
 
 <br />
 
@@ -21,7 +21,7 @@ title: Examples of Unnecessary Moves
 
 #### Example 2
 
-![UTP screenshot](/img/examples/unnecessary_trash_push2.png)
+![UTP screenshot](/img/examples/unnecessary-trash-push-2.png)
 
 - It is pianoblook's turn.
 - pianoblook can clue red to derekcheah in order to get the red 3 to play. Nothing is "blocking" the clue.
@@ -29,11 +29,11 @@ title: Examples of Unnecessary Moves
 - Next, it is derekcheah's turn. derekcheah knows that this is a *Trash Push*, so he blind-plays his slot 1 card. It is a red 3 and it successfully plays.
 - Next, it is Animex52's turn. Animex52 sees that this *Trash Push* was *unnecessary*. So, Animex52 blind-plays his *Finesse Position* card. It is a white 1 and it successfully plays.
 
+<br />
+
 ### The Unnecessary Trash Push Finesse
 
-#### Example 1
-
-![UTPF screenshot](/img/examples/unnecessary_trash_push_finesse.png)
+![UTPF screenshot](/img/examples/unnecessary-trash-push-finesse.png)
 
 - It is Floriman's turn. Floriman can clue brown to scharkbite in order to perform a *Finesse* on the brown 3 into the brown 4.
 - Instead, Floriman clues red to scharkbite as a *Trash Push*.
@@ -42,11 +42,11 @@ title: Examples of Unnecessary Moves
 - Next, it is scharkbite's turn. scharkbite plays the brown 4.
 - Next, it is pianoblook's turn. pianoblook sees that this *Trash Push* was *unnecessary*. So, pianoblook blind-plays his *Finesse Position* card. It is a green 4 and it successfully plays.
 
+<br />
+
 ### The Unnecessary Trash Bluff (with a Trash Push)
 
-#### Example 1
-
-![UTB screenshot](/img/examples/unnecessary_trash_bluff.png)
+![UTB screenshot](/img/examples/unnecessary-trash-bluff.png)
 
 - It is Dr_Kakashi's turn. Dr_Kakashi can clue blue to Lilliana in order to get the blue 2 to play. Nothing is "blocking" the clue.
 - Instead, Dr_Kakashi clues number 1 to kimbifille.
@@ -55,11 +55,11 @@ title: Examples of Unnecessary Moves
 - Next, it is Kyle's turn. Kyle sees that the *Trash Bluff* was *unnecessary*. He also sees that the *unnecessary* component will be a *Trash Push* instead of a *Chop Move* (since the blue 1 was on kimbifille's chop). Kyle plays his previously known red 1.
 - Next, it is kimbifille's turn. kimbifille's also sees that the *Trash Bluff* was *unnecessary*. kimbifille blind-plays her slot 1 card to fulfill the "extra" component of the *Unnecessary Trash Bluff*. It is a red 2 and it successfully plays.
 
-### Unnecessary Unknown Trash Discharge (with a Trash Push)
+<br />
 
-#### Example 1
+### The Unnecessary Unknown Trash Discharge (with a Trash Push)
 
-![UUTD screenshot](/img/examples/unnecessary_unknown_trash_discharge.png)
+![UUTD screenshot](/img/examples/unnecessary-unknown-trash-discharge.png)
 
 - It is Dr_Kakashi's turn. Dr_Kakashi can clue number 4 to Lilliana in order to get the blue 4 to play. Nothing is "blocking" the clue.
 - Instead, Dr_Kakashi clues red to kimbifille.

@@ -1,0 +1,48 @@
+name: Spell Check & Lint
+
+on: [push, pull_request]
+
+jobs:
+  spell_check_and_lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the repository
+        uses: actions/checkout@v2
+
+      - name: Setup Node
+        uses: actions/setup-node@v2
+        with:
+          node-version: '12.x'
+
+      - name: Cache node modules
+        uses: actions/cache@v2
+        id: spell_check_cache
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - name: Install node modules
+        run: npm install
+
+      - name: Spell check
+        run: ./spell-check/spell-check.sh
+
+      - name: Lint
+        run: npm run lint
+
+  discord:
+    name: Discord Failure Notification
+    needs: [spell_check_and_lint]
+    # This is needed to always run this job, even if the other jobs fail
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: technote-space/workflow-conclusion-action@v2
+      - if: env.WORKFLOW_CONCLUSION != 'success' && env.WORKFLOW_CONCLUSION != 'cancelled'
+        uses: sarisia/actions-status-discord@v1
+        with:
+          webhook: ${{ secrets.DISCORD_WEBHOOK }}
+          status: ${{ env.WORKFLOW_CONCLUSION }}
+          title: ""

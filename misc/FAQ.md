@@ -12,7 +12,7 @@
 
 ### What is the reason to play 1's in the starting hand from right-to-left (instead of from left-to-right)?
 
-See the [convention reasons document](https://github.com/hanabi/hanabi.github.io/blob/main/misc/Convention_Reasons.md#play-order-of-multiple-1s).
+See the [convention reasons document](https://github.com/hanabi/hanabi.github.io/blob/main/misc/Convention-Reasons.md#play-order-of-multiple-1s).
 
 <br />
 
@@ -25,13 +25,13 @@ See the [convention reasons document](https://github.com/hanabi/hanabi.github.io
 
 ### Why isn't [situation X] defined in the convention docs?
 
-Not everything has to have a meaning. We intentionally want to have situations be undefined so that we have some wiggle room to handle a wide variety of game states. Read [the goals of the conventions](https://github.com/hanabi/hanabi.github.io/blob/main/misc/Convention_Goals.md).
+Not everything has to have a meaning. We intentionally want to have situations be undefined so that we have some wiggle room to handle a wide variety of game states. Read [the goals of the conventions](https://github.com/hanabi/hanabi.github.io/blob/main/misc/Convention-Goals.md).
 
 <br />
 
 ### [Situation X] is undefined in the convention docs. I want to propose a new convention to define what it will mean.
 
-Not everything has to have a meaning. We intentionally want to have situations be undefined so that we have some wiggle room to handle a wide variety of game states. Read [the goals of the conventions](https://github.com/hanabi/hanabi.github.io/blob/main/misc/Convention_Goals.md).
+Not everything has to have a meaning. We intentionally want to have situations be undefined so that we have some wiggle room to handle a wide variety of game states. Read [the goals of the conventions](https://github.com/hanabi/hanabi.github.io/blob/main/misc/Convention-Goals.md).
 
 <br />
 
@@ -144,11 +144,11 @@ Left-most.
 
 ### Should I always *Chop Move* after receiving a *Tempo Clue*?
 
-No! There are **five** conditions where *Tempo Clues* are allowed. If [any of these five conditions](https://hanabi.github.io/docs/level_5#the-tempo-clue-re-cluing-a-card-to-play) are true, then you should not *Chop Move*.
+No! There are **five** conditions where *Tempo Clues* are allowed. If [any of these five conditions](https://hanabi.github.io/docs/level-5#the-tempo-clue-re-cluing-a-card-to-play) are true, then you should not *Chop Move*.
 
 <br />
 
-### Does *[Schrodinger's Cat Principle](https://hanabi.github.io/docs/level_4#schr%C3%B6dingers-cat-principle)* always take priority over *[Occam's Razor](https://hanabi.github.io/docs/level_8#clue-interpretation--occams-razor)*?
+### Does *[Schrodinger's Cat Principle](https://hanabi.github.io/docs/level-4#schr%C3%B6dingers-cat-principle)* always take priority over *[Occam's Razor](https://hanabi.github.io/docs/level-8#clue-interpretation--occams-razor)*?
 
 Yes.
 
@@ -306,7 +306,7 @@ No. It only promises that the matching cards are in your hand. Write *Trash Touc
 
 ### What is the reason behind discarding trash from left to right?
 
-See [the convention reasons document](Convention_Reasons.md#discarding-trash-from-left-to-right).
+See [the convention reasons document](Convention-Reasons.md#discarding-trash-from-left-to-right).
 
 <br />
 

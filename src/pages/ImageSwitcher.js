@@ -1,26 +1,20 @@
 // From: https://stackoverflow.com/questions/64425555/is-it-possible-to-detect-if-docusaurus-is-in-light-or-dark-mode
 
-/*
-import ImageSwitcher from '../src/pages/ImageSwitcher.js';
-
-<ImageSwitcher
-  lightImgSrc="/img/level_2/double_prompt.png"
-  darkImgSrc="/img/level_2/double_prompt_dark.png"
-  altText="Double Prompt"
-/>
-*/
-
 import React from 'react';
 import BrowserOnly from '@docusaurus/BrowserOnly';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import useThemeContext from '@theme/hooks/useThemeContext'; // https://v2.docusaurus.io/docs/api/themes/configuration
 
-const ImageSwitcher = ({lightImgSrc, darkImgSrc, altText}) => {
+const ImageSwitcher = ({src, altText}) => {
   return (
-    <BrowserOnly fallback={<img src={useBaseUrl(darkImgSrc)} alt={altText}/>}>
+    <BrowserOnly fallback={<img src={useBaseUrl(src)} alt={altText}/>}>
       {() => {
         const { isDarkTheme } = useThemeContext();
-        const imgSrc = isDarkTheme ? darkImgSrc : lightImgSrc;
+        const filenameExtensionLength = 4; // e.g. ".png"
+        const filenameExtension = src.slice(src.length - filenameExtensionLength);
+        const srcWithoutExtension = src.slice(0, -1 * filenameExtensionLength);
+        const darkSrc = `${srcWithoutExtension}_dark${filenameExtension}`;
+        const imgSrc = isDarkTheme ? darkSrc : src;
         const fullImgSrc = useBaseUrl(imgSrc);
 
         return (

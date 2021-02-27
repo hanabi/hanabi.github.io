@@ -9,25 +9,25 @@ title: Discharges
 
 ### The Unknown Trash Discharge
 
-- The *Unknown Trash Discharge* is introduced at [level 15](level_15.md#the-unknown-trash-discharge-1-for-1-form-utd).
+- The *Unknown Trash Discharge* is introduced at [level 15](level-15.md#the-unknown-trash-discharge-1-for-1-form-utd).
 - This results in a *Signal Shift* from *Play* --> *Trash*.
 
 ### The 5 Number Discharge (5ND)
 
-- The *5 Number Discharge* is introduced in [level 17](level_17.md#5-number-discharge-5nd).
+- The *5 Number Discharge* is introduced in [level 17](level-17.md#5-number-discharge-5nd).
 - This results in a *Signal Shift* from *Play* --> *Trash* (on the *5 Pulled* card).
 
 ### Unknown Dupe Discharge (UDD)
 
-- First, see the section on *[Unknown Trash Discharge](level_15.md#the-unknown-trash-discharge-1-for-1-form-utd)*.
+- First, see the section on *[Unknown Trash Discharge](level-15.md#the-unknown-trash-discharge-1-for-1-form-utd)*.
 - Typically, players closely follow *Good Touch Principle*, since duplicating cards is confusing and wastes efficiency on follow-up *Fix Clues*.
 - However, there are still plenty of situations where players will intentionally duplicate a card:
   1. When it is the first turn of the game (and there is nothing else to do).
-  2. When the team is at 8 clues (and there is nothing else to do).
-  3. When a player is in a *Double Discard Situation* (and there is nothing else to do).
-  4. When the team is losing and nearing the *End-Game* (and *Tempo* on playable cards is really important).
-  5. When the efficiency of getting a *Double Finesse* or *Triple Finesse* outweighs the disadvantage of potentially having to give a *Fix Clue* later.
-  6. When a *Phantom Playable Card* is at risk of being discarded and the preceding cards must be clued as soon as possible.
+  1. When the team is at 8 clues (and there is nothing else to do).
+  1. When a player is in a *Double Discard Situation* (and there is nothing else to do).
+  1. When the team is losing and nearing the *End-Game* (and *Tempo* on playable cards is really important).
+  1. When the efficiency of getting a *Double Finesse* or *Triple Finesse* outweighs the disadvantage of potentially having to give a *Fix Clue* later.
+  1. When a *Phantom Playable Card* is at risk of being discarded and the preceding cards must be clued as soon as possible.
 - If a player uses a **color clue** to duplicate a card, and these 6 criteria do not apply, then they must be trying to send an additional message.
 - In this case, they intend for a *Discharge* to communicate the "badness" of the focused card. This is called an *Unknown Dupe Discard* (and works in a very similar way to the *Unknown Trash Discharge*).
 - After an *Unknown Dupe Discard*, the focus of the clue can be any unknown duplicated card. The player will only know which specific duplicated card it is after they discard it. Once they discard it, they should write *Elimination Notes* on the matching cards in their hand.
@@ -57,14 +57,14 @@ title: Discharges
 
 ### The Trash Push Discharge
 
-- First, see the section on the [Trash Push](level_13.md#the-trash-push).
+- First, see the section on the [Trash Push](level-13.md#the-trash-push).
 - Normally, when known trash is touched as the focus of the clue, and the known trash is on chop, it communicates a *Trash Push*.
 - However, what if the *Trash Pushed* card is trash? The other players can see that this clue must have some other purpose - it should signal an *Discharge* on the very next player.
 - This move is extremely similar to the *Unknown Trash Discharge*. In UTD, the focus of the clue is promised as trash. In the *Trash Push Discharge*, the *Trash Pushed* card is promised as trash.
 
 ### The Prophetic Discharge
 
-- First, see the section on the [Prophetic Finesse](special_finesses.md#the-prophetic-finesse-for-1s).
+- First, see the section on the [Prophetic Finesse](special-finesses.md#the-prophetic-finesse-for-1s).
 - *Prophetic Finesses* can only be given with a number 1 clue.
 - If a player tries to use a color clue to initiate a *Prophetic Finesse*, they instead intend for the next player to blind-play their *Third Finesse Position* (like an *Unknown Trash Discharge*).
 - Other than that, everything else works like a *Prophetic Finesse* (e.g. one of the in-between players is promised to have the matching card on their *Finesse Position*).

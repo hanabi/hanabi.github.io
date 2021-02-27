@@ -9,12 +9,12 @@ title: Ejections
 
 ### The 5 Color Ejection
 
-- The *5 Color Ejection* is covered at [level 15](level_15.md#the-5-color-ejection-5ce).
+- The *5 Color Ejection* is covered at [level 15](level-15.md#the-5-color-ejection-5ce).
 - This results in a *Signal Shift* from *Play* --> *Save*.
 
 ### Trash Push Ejection
 
-- First, see the section on the [Trash Push](level_13.md#the-trash-push).
+- First, see the section on the [Trash Push](level-13.md#the-trash-push).
 - Normally, when known trash is touched as the focus of the clue, and the known trash is on chop, it communicates a *Trash Push*.
 - However, what if the *Trash Pushed* card is two-or-more-away-from-playable? This would normally be a *Trash Push Double Finesse* on Bob, but that is unlikely.
 - Instead, since no single play could ever prevent the *Pushed* card from immediately misplaying, Bob interprets the clue as an *Ejection*.
@@ -58,17 +58,17 @@ title: Ejections
   - Bob sees that the obvious clue to give to Cathy was red, as it would actually get the red 2 played right now.
   - This move is so bad that it must be communicating something extra. Alice must be intending for a *Rank Choice Ejection*. Bob blind-plays his *Second Finesse Position* card and it is a blue 1 and successfully plays.
   - Cathy knows that since a number 2 clue cause Bob to blind-play his *Second Finesse Position*, this must be an *Ejection*. The only type of *Ejection* that matches this kind of clue is a *Rank Choice Ejection*, so Cathy knows that her 2 must be playable and that her 2 must be exactly the red 2. Cathy plays the red 2.
-- More examples of a *Rank Choice Ejection* can be found [here](examples/rank_choice_ejection.md).
+- More examples of a *Rank Choice Ejection* can be found [here](examples/rank-choice-ejection.md).
 
 ### The Trash Ejection
 
-- First, see the section on the *[Trash Double Ignition](level_20.md#trash-double-ignition)*.
+- First, see the section on the *[Trash Double Ignition](level-20.md#trash-double-ignition)*.
 - In certain situations, if a player re-clues a card that is globally known as trash, it triggers a *Trash Double Ignition*.
 - However, what if the next player can see that a *Trash Double Ignition* is impossible? In this situation, if the clue-giver is not making a mistake, they instead intend for an *Ejection* on the very next player.
 
 ### The Replay Ejection
 
-- First, see the section on the *[Replay Double Ignition](level_20.md#replay-double-ignition)*.
+- First, see the section on the *[Replay Double Ignition](level-20.md#replay-double-ignition)*.
 - Normally, if a player re-clues a card that is globally known as playable, it triggers a *Replay Double Ignition*.
 - However, what if the next player can see that a *Replay Double Ignition* is impossible? In this situation, if the clue-giver is not making a mistake, they instead intend for an *Ejection* on the very next player.
 - In most circumstances, *Replay Ejections* can not be performed by re-cluing a card in Bob's hand. This is because Bob would interpret it as a *Fix Clue*, meaning that the card that Bob was about to play is actually bad and that he should discard it instead of playing it.
@@ -76,13 +76,13 @@ title: Ejections
 
 ### The Poke Ejection
 
-- First, see the section on the *[Poke Double Ignition](level_20.md#poke-double-ignition)*.
+- First, see the section on the *[Poke Double Ignition](level-20.md#poke-double-ignition)*.
 - Normally, if a player re-clues globally known trash, it triggers a *Poke Double Ignition*.
 - However, what if the next player can see that a *Poke Double Ignition* is impossible? In this situation, if the clue-giver is not making a mistake, they instead intend for an *Ejection* on the very next player.
 
 ### The Self Color Ejection
 
-- First, see the section on the *[Self Color Double Bluff](special_bluffs.md#self-color-double-bluff-scdb)*.
+- First, see the section on the *[Self Color Double Bluff](special-bluffs.md#self-color-double-bluff-scdb)*.
 - Normally, when a card is "filled in" a card that is two-or-more-away-from-playable, it triggers a *Self Color Double Bluff*.
 - However, what if the next player can see that a *Double Bluff* is impossible? In this situation, they instead intend for an *Ejection* on the very next player.
 - For example, in a 4-player game:
