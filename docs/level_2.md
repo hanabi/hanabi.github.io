@@ -113,6 +113,6 @@ title: Level 2 - Basic Finesses
 
 - First, see the section on [What to Do After a Strike](#what-to-do-after-a-strike).
 - Normally, after a strike happens, you are supposed to relax and not make any additional assumptions.
-- However, there is one exception. A common mistake in Hanabi is to attempt to perform a *Finesse* when there is a "matching" card in that player's hand. Since *Prompts* take precedence over *Finesses*, the player will always play their matching clued cards first.
+- However, there is one major exception. A common mistake in Hanabi is to attempt to perform a *Finesse* when there is a "matching" card in that player's hand. Since *Prompts* take precedence over *Finesses*, the player will always play their matching clued cards first.
 - When a card is *Prompted* and it misplays, everyone can read into this mistake - it was almost certainly a *Wrong Prompt*, meaning that the player who gave the clue probably intended for the *Finesse Position* card to play instead.
 - Thus, if there is nothing else special about the situation, the player who misplayed should go on to play their *Finesse Position* card on the next turn.
