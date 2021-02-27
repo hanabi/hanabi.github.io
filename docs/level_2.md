@@ -49,7 +49,7 @@ title: Level 2 - Basic Finesses
 
 ### The Reverse Finesse
 
-- In a normal *Finesse*, you would give a clue to a player who comes after the player blind-playing a card. (e.g. clue --> blind-play --> clued-card plays)
+- In a normal *Finesse*, you give a clue to a player who comes after the player blind-playing a card. (e.g. clue --> blind-play --> clued-card plays)
 - If you give a *Finesse* clue to someone who gets to have a turn **before** the blind-play occurs, it is called a *Reverse Finesse*. This is more complicated than a normal *Finesse* and is harder to see. (e.g. clue --> clued player does unrelated action --> blind-play --> clued-card plays)
 - Because *Reverse Finesses* exist as a strategy, before playing any cards, players should always check out everyone's *Finesse Position*. If a card in someone's *Finesse Position* is playable and "matches" the clue, then **they need to defer playing the clued card** for at least one go-around and wait to see what happens.
 - If the player with the "matching" card blind-plays it, then it means that the clued card is the next card in the chain. For example, in a 3-player game:
