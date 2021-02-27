@@ -28,11 +28,11 @@
     "@docusaurus/preset-classic": "2.0.0-alpha.70",
     "@mdx-js/react": "^1.6.21",
     "clsx": "^1.1.1",
-    "cspell": "^5.3.3",
     "react": "^16.8.4",
     "react-dom": "^16.8.4"
   },
   "devDependencies": {
+    "cspell": "^5.3.3",
     "remark-cli": "^9.0.0",
     "remark-lint-are-links-valid": "^1.0.3",
     "remark-lint-match-punctuation": "^0.2.1",

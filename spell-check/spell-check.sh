@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo getting here 1
+set -e # Exit on any errors
 
 # Get the directory of this script
 # https://stackoverflow.com/questions/59895/getting-the-source-directory-of-a-bash-script-from-within
@@ -10,6 +10,4 @@ source "$DIR/get-files.sh"
 
 # Spell check every file using cspell
 cd "$PARENT_DIR"
-npx cspell --no-summary --config "$PARENT_DIR/.cspell.json" $FILES
-
-echo getting here 2
+npx cspell lint --no-progress --no-summary $FILES
