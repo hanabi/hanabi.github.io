@@ -1,0 +1,49 @@
+title: Trash Chop Move (ex. 1)
+stacks:
+  - r: 1
+  - y: 1
+  - g: 1
+  - b: 1
+  - p: 1
+players:
+  - name: Alice
+    cluegiver: yes
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - name: Bob
+    cards:
+      - type: x
+      - type: x
+      - type: x
+        above:
+          text:
+            - Chop
+            - slot
+          color: darkred
+      - type: 1
+        clue: 1
+        below:
+          text: Trash
+          color: peru
+      - type: x
+        below: Save
+        ontop: (CM)
+  - text: After discarding 1
+  - name: Bob
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+        above:
+          text:
+            - Chop
+            - slot
+          color: darkred
+      - type: x
+        below: Save
+        ontop: (CM)
