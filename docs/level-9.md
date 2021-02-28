@@ -91,12 +91,12 @@ title: Level 9 - Special Discards
   - Cathy knows that she is promised the red 3 in her *Finesse Position*.
 - This is an example of a *Certain Finesse* - it is similar to the *Sarcastic Finesse* above, but the "blind" card was potentially duplicated instead of the clued card.
 - In this situation, if Alice really has the red 3, Cathy is allowed to blind-discard their *Finesse Position* card. This is called a *Certain Discard*, because Cathy can be certain that it is exactly red 3.
-- A separate way to explain this convention is that everyone agrees that performing a *Layered Finesse* on a card that could potentially be clued in your own hand is illegal. So, everyone can be certain that they can safely blind discard a card to pass it back to someone who potentially duplicated. (*Layered Finesses* are an advanced type of *Finesse* that was explained above.)
+- A separate way to explain this convention is that everyone agrees that performing a *Layered Finesse* on a card that could potentially be clued in your own hand is illegal. So, everyone can be certain that they can safely blind discard a card to pass it back to someone who potentially duplicated.
 - Note that players are **only allowed** to do a *Certain Discard* if they know they have not been *Bluffed*. This means that *Certain Finesses* **cannot be performed** from *Bluff Seat*. (*Bluffs* are an advanced kind of move that is covered later on.)
 
 ### The Composition Finesse
 
-- First, see the section on the *[Sarcastic Finesse](#the-sarcastic-finesse)* and the *[Certain Finesse](#the-certain-finesse)*.
+- First, see the section on the *[Sarcastic Finesse](#the-sarcastic-finesse)* and the *[Certain Finesse](#the-certain-finesse--the-certain-discard)*.
 - Sometimes, a move can be both a *Sarcastic Finesse* and a *Certain Finesse* at the same time. When this occurs, it is called a *Composition Finesse*.
 - For example, in a 3-player game:
   - All of the 2's are played on the stacks.

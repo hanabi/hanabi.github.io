@@ -14,7 +14,7 @@ import ImageSwitcher from '../src/pages/ImageSwitcher.js';
 
 ## Table of Contents
 
-Use an code.
+Use a [code](level-1Z.md).
 
 1. [Card Layout](#card-layoutZ)
 1. [The Basics](#the-basics)

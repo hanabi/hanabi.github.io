@@ -19,7 +19,7 @@ These conventions apply to the "Duck" variants.
 ### Inverted Tempo Clues
 
 - Normally, if a *Save Clue* is given to two cards, and then the cards are re-touched, it is a *Double Tempo Clue* and both the cards should play from left to right, even if one of the cards was on chop.
-- In Duck, the older card should play first. (This is exactly the same thing as the *[Brown Inversion](brown.md#brown-inversion)* convention.)
+- In Duck, the older card should play first. (This is exactly the same thing as the *[Brown Inversion](brown.md#brown-tempo-clue-inversion)* convention.)
 
 ### Loaded Play Clues
 

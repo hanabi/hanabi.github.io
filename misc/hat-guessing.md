@@ -1,6 +1,6 @@
 # The Hat-Guessing Convention Framework
 
-[Floris van Doorn](https://github.com/fpvandoorn/) created [a convention framework called Hat-Guessing](https://github.com/fpvandoorn/hanabi/blob/master/doc_hat_player.md) in June 2016. This is based on the paper [How to Make the Perfect Fireworks Display: Two Strategies for Hanabi](../academic-papers/2015-02-01%20-%20How%20to%20Make%20the%20Perfect%20Fireworks%20Display.pdf) by Christopher Cox, Jessica De Silva, Phillip Deorsey, and Josh Tobin.
+[Floris van Doorn](https://github.com/fpvandoorn/) created [a convention framework called Hat-Guessing](https://github.com/fpvandoorn/hanabi/blob/master/doc_hat_player.md) in June 2016. This is based on the paper [How to Make the Perfect Fireworks Display: Two Strategies for Hanabi](https://quuxplusone.github.io/blog/images/how-to-make-the-perfect-fireworks-display.pdf) by Christopher Cox, Jessica De Silva, Phillip Deorsey, and Josh Tobin.
 
 This framework is entirely separate from the Hyphen-ated convention framework. This document contains a basic description of how it works and has some helpful tools for people attempting to play with it.
 

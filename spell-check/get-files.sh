@@ -6,7 +6,4 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 PARENT_DIR=$(dirname "$DIR")
 
 # Get the files that we should perform checks on
-FILES=$(find "$PARENT_DIR/docs" "$PARENT_DIR/misc" -type f \
-  -not -path "$PARENT_DIR/misc/Hanabi_grands_feux_regles_0419_BD.pdf" \
-  -not -path "$PARENT_DIR/misc/newest-friend.pdf" \
-)
+FILES=$(find "$PARENT_DIR/docs" "$PARENT_DIR/misc" -type f)

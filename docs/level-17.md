@@ -31,7 +31,7 @@ title: Level 17 - 5 Tech
 
 ### The Early 5's Chop Move
 
-- First, see the section on the *[5 Stall](level-7.md#the-5-stall-intermediate-section)*.
+- First, see the section on the *[5 Stall](level-8.md#the-5-stall-intermediate-section)*.
 - In the *Early Game*, players are only allowed to perform a *5 Stall* if there is nothing left to do. (Or, as a special exception, if there is only one *Play Clue* to give and that card is on *Finesse Position*.)
 - Thus, if someone clues a 5 and there **is** something else to do, they must be trying to send an additional message.
 - If the 5 is one-away from chop, they intend for an *Early 5's Chop Move*. This functions in the exact same way a normal *5's Chop Move* does (except it was done in the *Early Game*, which is not normally possible).
@@ -56,7 +56,7 @@ title: Level 17 - 5 Tech
 - Confusingly, *5 Pulls* work differently from *Finesses*. Even though they involve playing a blind card, a *5 Pull* should be treated as a *Delayed Play Clue* (or a potential *Prompt*). This means that the blind card could play through any existing touched cards.
 - When a player is *Finessed* or *Bluffed*, they are allowed to defer playing the blind card in order to do a *Finesse* or *Bluff* of their own. However, if they could be *Bluffed*, they are **not** allowed to initiate a *5 Pull*. (Players are still allowed to defer playing into a *Finesse* in order to initiate a *5 Pull*.)
 - In the rare case where a *5 Pull* is performed in a 3-player game by touching two 5's in slot 1 and slot 3, then the *5 Pulled* card is slot 2.
-- For expert players, we define a specific [interaction between *5's Chop Moves* / *5 Pulls* and *2 Saves*](extras/save-clues.md#2-saves-interaction-with-5s-chop-moves--5-pulls).
+- Remember that a number 5 clue [is always a *5 Stall* instead of a *5 Pull* if the only card ignored is a 2 on chop](#interaction-between-2-saves-and-5-stalls).
 
 ### A Flowchart for Cluing 5's
 
@@ -170,7 +170,7 @@ title: Level 17 - 5 Tech
 - Sometimes, a player can receive a *5 Stall* clue when:
   1. A *2 Save* still needs to be done to another player
   1. That *2 Save* is the only clue left
-- In this situation, players should assume the least complicated thing: a *5 Stall*. Because of the *[Visible Rule](level-7.md#the-visible-rule)*, the player who gave the *5 Stall* clue was not allowed to perform the *2 Save* because the other copy was visible.
+- In this situation, players should assume the least complicated thing: a *5 Stall*. Because of the *[Visible Rule](level-1.md#the-visible-rule)*, the player who gave the *5 Stall* clue was not allowed to perform the *2 Save* because the other copy was visible.
 - In this situation, the player who received the *5 Stall* should write *Elimination Notes* on their hand for the other copy of the 2. Furthermore, they are not allowed to *2 Save* the other copy of the 2, so they must give some other clue or discard.
 - For example, in a 4-player game:
   - It is the first turn and nothing is played on the stacks.

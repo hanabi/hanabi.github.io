@@ -67,19 +67,13 @@
 - Normally, when a player re-clues one or more 5's with a number 5 clue, it would be a *Play Clue* - the left-most 5 is playable right now.
 - In a 2-player game, if this would require two or more blind-plays (e.g. as a *Self Double Finesse*), then this interpretation is unlikely. Instead, we agree that this should communicate a *Double Chop Move*.
 
-### The Self Color Bluff (SCB)
-
-- In non-2-player games, *Self-Bluffs* with color clues are [explicitly illegal](../Reference.md#self-bluffs-with-color-clues-illegal). However, in 2-player games, they are allowed.
-- In other words, if a color clue does not touch a brand-new card and the player who receives the clue knows that the cards touched are not playable, then they know it is a signal to blind-play their *Finesse Position*.
-- Note that you are also allowed to perform a *Self-Bluff* by touching a *Chop Moved* card.
-
 <br />
 
 ## Advanced Conventions
 
 ### The Delayed Bluff
 
-- In non-2-player games, *Delayed Bluffs* are explicitly illegal, since they violate [*Lie Principle*](../Reference.md#8-lie-principle). However, in 2-player games, they are allowed.
+- In non-2-player games, *Delayed Bluffs* are explicitly illegal, since they violate *[Lie Principle](https://hanabi.github.io/docs/first-principles#8-lie-principle)*. However, in 2-player games, they are allowed.
 - Note that this convention also applies to *Double Bluffs*. For example, if cluing a 4 at the beginning of the game causes two 1's to blind-play, then the blind-playing player is not promised to have any more playable cards.
 
 ### Scream Discard Modification

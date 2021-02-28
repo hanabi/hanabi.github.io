@@ -37,7 +37,7 @@ title: Level 6 - Intermediate Chop Moves
 
 ### The Trash Order Chop Move (TOCM)
 
-- First, see the section on the *[Order Chop Move](#the-order-chop-move)*.
+- First, see the section on the *[Order Chop Move](#the-order-chop-move-ocm)*.
 - Sometimes, a player will have two known trash cards in their hand (and these cards are explicitly known trash, meaning that everyone on the team can equally see that they are known trash).
 - In this situation, the player is expected to discard the newest (left-most) trash card.
 - Thus, if a player skips over their newest trash card and instead discards the second newest trash card, they must be trying to communicate something extra.
@@ -174,7 +174,7 @@ title: Level 6 - Intermediate Chop Moves
 ### Blind-Playing Chop Moved Cards
 
 - Often times, cards are *Chop Moved* towards the beginning of the game. Normally, once the time comes, the *Chop Moved* card will be clued directly in order to get it to play.
-- However, other times, the *Chop Moved* card will sit there and will never be clued.  As the game progresses towards the end, the player with the *Chop Moved* card will learn more and more information about it. For example, they might accumulate a lot of negative clues on the card. Or, they might deduce that it is probably not any of the cards that are already played (which drastically reduces the possibilities towards the end of the game).
+- However, other times, the *Chop Moved* card will sit there and will never be clued. As the game progresses towards the end, the player with the *Chop Moved* card will learn more and more information about it. For example, they might accumulate a lot of negative clues on the card. Or, they might deduce that it is probably not any of the cards that are already played (which drastically reduces the possibilities towards the end of the game).
 - A clever player who accumulates enough information about a *Chop Moved* card may determine that all of the possibilities for the card are playable. In this situation, they do not have to wait for their teammates to clue the card directly - they can simply blind-play the *Chop Moved* card and it will work, regardless of which exact card it is.
 - Blind-playing cards in this manner is risky! It is fairly common for players to forgo cluing *Chop Moved* cards directly in favor of using the other copy of the card in someone else's hand. (For example, it may be more efficient to use the non-*Chop Moved* copy if it would be a 2-for-1 clue instead of a 1-for-1 clue.) Thus, there is always the chance that blind-playing a *Chop Moved* card in this manner will get a strike for the team (in the case where the other copy was used or in the case where the *Chop Move* was a mistake).
 - For this reason, clever players should try to blind-play their *Chop Moved* cards if they have a pretty good chance of being playable, but **only if the team has one or more strikes to spare**.

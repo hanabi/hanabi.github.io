@@ -40,7 +40,7 @@ title: Special Finesses
 
 ### The Bad Touch Finesse (for 1's)
 
-- In the *Trash Finesse* / *Trash Bluff*, it is possible to clue number 1 to a player in order to get someone to blind-play a card.  After the blind-play, it is understood that all of the 1's are trash.
+- In the *Trash Finesse* / *Trash Bluff*, it is possible to clue number 1 to a player in order to get someone to blind-play a card. After the blind-play, it is understood that all of the 1's are trash.
 - However, what if this is done on the first turn of the game, touching two 1's? If nothing is played on the stacks, then the 1 of every single suit is needed. In this situation, both of the 1's that are clued cannot be trash.
 - In this situation, the 1's clue only communicates that *Good Touch Principle* was violated and that both of the 1's are the same suit.
 - For example, in a 3-player game:
@@ -83,7 +83,7 @@ title: Special Finesses
   - Blue 2 and green 2 are played on the stacks.
   - Alice clues number 2 to Cathy, touching a red 2 on slot 3 and a red 2 on slot 5 (her chop).
   - Bob knows that normally, this would be a *2 Save* on the red 2. However, Alice is violating *Good Touch Principle*, so she must be trying to communicate something extra. Therefore, this must be a *Bad Touch Finesse*.
-  - Bob blind-plays his *Finesse Position* card, trying to play the red 1. Instead, it is is blue 3 and it successfully plays.
+  - Bob blind-plays his *Finesse Position* card, trying to play the red 1. Instead, it is blue 3 and it successfully plays.
   - Cathy knows that since a clue that looked like a *2 Save* got Bob to blind-play something, then a duplication occurred and both of the 2's must be the same. Cathy discards the chop card and saves the other one for later.
 
 ### The Bad Touch Double Finesse (for 3's)
@@ -123,7 +123,7 @@ title: Special Finesses
 
 ### The Certain Finesse Clandestine Exception
 
-- First, see the section on the *[Certain Finesse](level-7.md#the-certain-finesse--the-certain-discard)*.
+- First, see the section on the *[Certain Finesse](../level-9.md#the-certain-finesse--the-certain-discard)*.
 - This section outlines a specific and rare edge-case for *Certain Finesses*.
 - We agree that *Bluffs* take precedence over *Certain Finesses*. This means that a *Certain Finesse* cannot normally be performed from *Bluff Seat*.
 - *Certain Finesses* **can** be performed from *Bluff Seat* if it is strictly impossible to be a *Bluff*. In other words, this means that it is illegal for a player to perform a *Clandestine Finesse* on the very next player that targets a potentially duplicated card **and** the other player can rule out the possibility of a *Bluff*.
@@ -355,7 +355,7 @@ title: Special Finesses
 
 ### The Trash Push Inverted Finesse
 
-- First, see the section on *[Unnecessary Moves with Known Trash](level-21.md#unnecessary-moves-with-known-trash)*, which defines what a *Unnecessary Trash Push* is. Basically, if a *Trash Push* is unnecessary, then it also causes an extra blind-play.
+- First, see the section on *[Unnecessary Moves with Known Trash](../level-21.md#unnecessary-moves-with-known-trash)*, which defines what a *Unnecessary Trash Push* is. Basically, if a *Trash Push* is unnecessary, then it also causes an extra blind-play.
 - Normally, the *Unnecessary Trash Push* calls for the very next player to blind-play an unrelated card, similar to a *Bluff*.
 - However, if the very next player can see that it could be a *Finesse* through the *Trash Pushed* card, then they should prefer that interpretation. This is similar to how Bob should always prefer a *Finesse* interpretation over a *Bluff* interpretation.
 - For example, in a 4-player game:

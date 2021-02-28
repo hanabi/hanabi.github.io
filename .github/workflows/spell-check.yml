@@ -29,8 +29,15 @@ jobs:
       - name: Spell check
         run: ./spell-check/spell-check.sh
 
+      # Perform some checks using remark
+      # https://github.com/remarkjs/remark
       - name: Lint
         run: ./lint.sh
+
+      # Perform some additional language checks using remark-retext
+      # https://github.com/remarkjs/remark-retext
+      - name: lint-other
+        run: node ./spell-check/other-checks.js
 
   discord:
     name: Discord Failure Notification

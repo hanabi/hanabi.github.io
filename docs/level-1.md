@@ -91,7 +91,7 @@ title: Level 1 - Fundamentals
 
 - A *5 Stall* is when someone uses a number 5 clue to clue a previously-unclued 5 that is not on chop yet.
 - *5 Stalls* are only allowed to be performed in the *Early Game* and in other special stalling situations.
-- For level 8 players, there are [additional rules](level-8#the-early-game-intermediate-section) relating to the *5 Stall*.
+- For level 8 players, there are [additional rules](level-8.md#the-5-stall-intermediate-section) relating to the *5 Stall*.
 
 ### The Prompt
 

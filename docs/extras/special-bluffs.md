@@ -142,4 +142,4 @@ title: Special Bluffs
 - In extremely rare situations, it is possible to orchestrate a *Lie* in which the player with the fully playable hand thinks that they are *Layered Finessed* when they really do not have the connecting card. After they play their final card and it is not the matching card, they will know that they were *Purge Bluffed* and that nobody has the missing card.
 - Care has to be taken that the other player (e.g. the player who is not *Purge Bluffed*) will understand what is going on. For example, they might think that a *Patch Finesse* is happening. Thus, *Purge Bluffs* can only be done in expert games where there is **no other possible interpretation for what is happening**.
 - If the player blind-playing cards into a *Purge Bluff* realizes that a *Lie* has occurred before they finish blind-playing their entire hand, they are supposed to stop. In other words, they are **not** supposed to continue blind-playing cards as a *Known Purge Bluff*.
-- Examples of a *Purge Bluff* can be found [here](examples/purge-bluff.md).
+- Examples of a *Purge Bluff* can be found [here](../examples/purge-bluff.md).

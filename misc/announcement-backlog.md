@@ -38,7 +38,6 @@ As noted in the [convention changes document](Convention-Changes.md), sometimes 
 
 **Trash Push Ejection**
 
-- First, see the section on the [Trash Push](#the-trash-push).
 - Normally, when known trash is touched as the focus of the clue, and the known trash is on chop, it communicates a *Trash Push*.
 - However, what if the *Trash Pushed* card is two-or-more-away-from-playable? This would normally be a *Trash Push Double Finesse* on Bob, but that is unlikely.
 - Instead, we agree that similar to the rules for *5 Color Ejection*, if the *Trash Pushed* card would require two-or-more-blind-plays from Bob, then he interprets the clue as an *Ejection*.
@@ -46,7 +45,6 @@ As noted in the [convention changes document](Convention-Changes.md), sometimes 
 
 **Unknown Dupe Discharge (UDD)** (by Indego)
 
-- First, see the section on *[Unknown Trash Discharge](#the-unknown-trash-discharge-1-for-1-form-utd)*.
 - Typically, players closely follow *Good Touch Principle*, since duplicating cards is confusing and wastes efficiency on follow-up *Fix Clues*.
 - However, there are still plenty of situations where players will intentionally duplicate a card:
   1. When it is the first turn of the game (and there is nothing else to do).
@@ -104,7 +102,6 @@ As noted in the [convention changes document](Convention-Changes.md), sometimes 
 
 **The Unknown Trash Charm** (by piper)
 
-- First, see the section on the *[Unknown Trash Discharge](#the-unknown-trash-discharge-1-for-1-form)*.
 - Normally, after an *Unknown Trash Discharge*, non-focused cards are known to be "good".
 - However, what if a player performs an *Unknown Trash Discharge* where **all** of the non-focused cards are trash? A *Discharge* would incorrectly signal that the non-focused cards are useful.
 - Instead, this should signal a *Charm* on the very next player.
@@ -116,7 +113,6 @@ As noted in the [convention changes document](Convention-Changes.md), sometimes 
 
 **The Shallow Misplay** (by Jerry)
 
-- First, see the section on the *[Shallow Discard](#the-shallow-discard)*.
 - In a 5-player game, it possible to perform a *Shallow Misplay*, causing 4 people to blind-play from the same slot. (This works for the same reasons that a *Shallow Discard* works.)
 - For example, in a 5-player game:
   - The team has 0 strikes.
@@ -145,7 +141,7 @@ As noted in the [convention changes document](Convention-Changes.md), sometimes 
   - Cathy knows that this a *Prophetic Finesse* and that she is promised to have a blue 1 on her *Finesse Position*. Cathy blind-plays her *Finesse Position* (as a *Prophetic Blind-Play*). It is a blue 1 and it successfully plays.
   - Donald knows that since a number 1 clue touched a single 1 and caused two blind-plays, this must be a *Prophetic Finesse*. Donald marks his touched 1 as trash. He also *Chop Moves* his slot 4 card because of the *unnecessary* part of the move.
 - *Prophetic Finesses* can only be triggered by touching **exactly one 1**.
-- *Prophetic Finesses* can only be triggered by using a number 1 clue. (Color clues cause a *[Prophetic Discharge](discharges.md#the-prophetic-discharge)*.)
+- *Prophetic Finesses* can only be triggered by using a number 1 clue. (Color clues cause a *Prophetic Discharge*.)
 - *Prophetic Finesses* can also be given in situations that cannot be mistaken for *Trash Finesses*, but they will still work in the exact same way.
 - For example, in a 4-player game:
   - It is the first turn of the game and nothing is played on the stacks.
@@ -159,7 +155,6 @@ As noted in the [convention changes document](Convention-Changes.md), sometimes 
 
 **The Prophetic Discharge** (by pianoblook)
 
-- First, see the section on the [Prophetic Finesse](special-finesses.md#the-prophetic-finesse-for-1s).
 - *Prophetic Finesses* can only be given with a number 1 clue.
 - If a player tries to use a color clue to initiate a *Prophetic Finesse*, they instead intend for the next player to blind-play their *Third Finesse Position* (like an *Unknown Trash Discharge*).
 - Other than that, everything else works like a *Prophetic Finesse* (e.g. one of the in-between players is promised to have the matching card on their *Finesse Position*).
@@ -295,7 +290,7 @@ As noted in the [convention changes document](Convention-Changes.md), sometimes 
 **The Pink Fake Prompt & The Pink Fake Finesse** (by Jeff)
 
 - This convention only applies to variants with a pink suit.
-- First, see the section on the *[Pink Play Clue Lie](#the-pink-play-clue-lie-with-a-mismatched-play-clue-that-touches-other-cards)*.
+- First, see the section on the Pink Play Clue Lie.
 - In the *Pink Play Clue Lie*, *Pink Promise* is violated when giving a *Play Clue* to a playable pink card. However, no special actions need to be taken from anyone else on the team, because the lie will automatically resolve when the card is played.
 - In some special situations, it is possible to give a *Pink Play Clue Lie* that will **not** resolve automatically. In this situation, the next player must play a card to "fix" the lie.
 - For example, in a 3-player game:

@@ -9,7 +9,7 @@ These are *Finesses* that are triggered by performing a suboptimal clue or by pi
 
 ### The Suboptimal Finesse
 
-- The *Suboptimal Finesse* is covered at [level 18](level-18.md#the-suboptimal-save-prompt--the-suboptimal-save-finesse--the-suboptimal-save-bluff).
+- The *Suboptimal Finesse* is covered at [level 19](../level-19.md#the-suboptimal-prompt--the-suboptimal-finesse--the-suboptimal-bluff).
 
 ### The Declined 5's Finesse
 

@@ -106,7 +106,7 @@ title: Level 8 - Stalling
   - Bob has two playable 1's on slots 1 and 2. He has a 5 on slot 4. Bob's 5 is therefore one-away from chop.
   - Cathy has nothing clued in her hand. She has a 5 on slot 3. Cathy's 5 is therefore two-away from chop.
   - Alice must clue number 5 to Bob as a *5 Stall* since his 5 is closer to chop (even though Bob has two playable cards).
-- Some additional rules for *5 Stalls* are found in the section on [the *Early Game*](#the-early-game-intermediate-section).
+- Some additional rules for *5 Stalls* are found in the section on [the *Early Game*](#the-early-game-severity-1-stalling).
 
 ### The Locked Hand Save (LHS)
 

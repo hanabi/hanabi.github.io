@@ -22,7 +22,7 @@ title: Level 23 - Unnecessary Moves
   - an *Ignition*
   - a *Chop Move*
 - Remember that a move is only *unnecessary* if it does not have any side benefits. Specifically:
-  - A move is **not** *unnecessary* if it "picked up" a extra useful card (e.g. *Unknown Trash Discharges* commonly do this).
+  - A move is **not** *unnecessary* if it "picked up" an extra useful card (e.g. *Unknown Trash Discharges* commonly do this).
   - A move is **not** *unnecessary* if it also fixed an impending misplay or a violation of *Good Touch Principle*.
   - A move is **not** *unnecessary* if it also added more positive information to other previously-clued cards in the hand.
 
@@ -70,4 +70,4 @@ title: Level 23 - Unnecessary Moves
 
 ### Other Examples
 
-- More examples of a *unnecessary* moves can be found [here](examples/unnecessary.md).
+- More examples of *unnecessary* moves can be found [here](examples/unnecessary.md).

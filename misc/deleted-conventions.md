@@ -326,14 +326,12 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
 
 ### The Rank Choice Finesse
 
-- First, see the section on the *[Rank Choice Bluff](#the-rank-choice-bluff)*.
 - After Bob sees that Alice wants a *Rank Choice Bluff* to happen, he will blind-play his *Finesse Position* card, expecting it to be an unrelated card. But what if Bob plays a card that matches the card that was clued?
 - In this situation, it would be a *Rank Choice Finesse* instead of a *Rank Choice Bluff*. A *Rank Choice Finesse* may be preferable to a (more ordinary) *Ambiguous Finesse*, which will resolve more slowly.
 - This convention was deleted because it was confusing and led to accidental misplays.
 
 ### The Trash Finesse (Weak Form)
 
-- First, see the section on *[Trash Touch Elimination](miscellaneous.md#trash-touch-elimination)*.
 - When players deliberately touch ancillary trash and there is only one card "missing", then it should trigger *Trash Touch Elimination Notes*. But what if there are two or more cards that are missing?
 - In this situation, the clue giver is promising that someone has one of the missing cards on their *Finesse Position*. Once the card is blind-played, the recipient of the clue will know that one of their ancillary cards are trash.
 - This is more subtle than the strong *Trash Finesse*. In the strong form, the focus of the clue causes a blind-play. In the weak form, the non-focused cards are what causes the blind-play
