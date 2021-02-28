@@ -34,11 +34,6 @@ jobs:
       - name: Lint
         run: ./lint.sh
 
-      # Perform some additional language checks using remark-retext
-      # https://github.com/remarkjs/remark-retext
-      - name: lint-other
-        run: node ./spell-check/other-checks.js
-
   discord:
     name: Discord Failure Notification
     needs: [spell_check_and_lint]
