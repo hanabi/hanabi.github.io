@@ -278,7 +278,7 @@ These are conventions that we don't typically turn on for new players, but we do
   - If a two-away 3 is used to initiate a *Bluff*, then we call that a *3 Bluff*.
 - Players are allowed to initiate *3 Bluffs* with either color or number.
 - This is one of the more arbitrary and tricky conventions that we have, so it will take a few games to get used to.
-- Why do this? It allows us to get 2-for-1 clues in situations where you would otherwise have to do a 1-for-1. Furthermore, it allows us to mitigate a good percentage of "bottom-deck" losses to 3's. (And if you're really interested, you can read [the story of how 3 Bluffs were invented](3-Bluffs.md)).
+- Why do this? It allows us to get 2-for-1 clues in situations where you would otherwise have to do a 1-for-1. Furthermore, it allows us to mitigate a good percentage of "bottom-deck" losses to 3's. (And if you're really interested, you can read [the story of how 3 Bluffs were invented](3-bluffs.md)).
 
 <br />
 

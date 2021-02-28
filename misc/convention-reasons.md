@@ -45,7 +45,7 @@ The main website lists all of our conventions. But it does not bother listing **
 ### 3 Bluffs
 
 - In the Hyphen-ated convention framework, we extend the *[Bluff](https://hanabi.github.io/docs/level-8#the-bluff)* convention, allowing players to *Bluff* with [any 3 that they want](https://hanabi.github.io/docs/level-9#the-3-bluff). Why?
-- Read the [story of 3 Bluffs](3-Bluffs.md), which is on a separate page.
+- Read the [story of 3 Bluffs](3-bluffs.md), which is on a separate page.
 
 <br />
 

@@ -89,8 +89,8 @@
 - Every single convention change is announced to the group in this way (unless it is really small or insignificant).
 - Changes are generally announced at the same time that the website is updated.
 - However, there are at maximum two or three convention changes announced per week. The reason for this is to not overwhelm players of the group - not everybody wants to play Hanabi every day or read a bunch of boring convention-related stuff.
-- If there are more than 2-3 changes that occurred that week, then those changes will get put on a [backlog](Announcement-Backlog.md) and will be announced the following week.
-- If the backlog gets long enough, it can potentially be a long while before a convention gets announced to the group. Players who do not regularly read the GitHub issues can always [check the backlog](Announcement-Backlog.md) if they want to find a quick list of recent changes.
+- If there are more than 2-3 changes that occurred that week, then those changes will get put on a [backlog](announcement-backlog.md) and will be announced the following week.
+- If the backlog gets long enough, it can potentially be a long while before a convention gets announced to the group. Players who do not regularly read the GitHub issues can always [check the backlog](announcement-backlog.md) if they want to find a quick list of recent changes.
 
 <br />
 
