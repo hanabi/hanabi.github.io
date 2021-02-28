@@ -16,5 +16,6 @@ title: Fix Clues
 - However, if high-*tempo* is needed, a player can consider intentionally *stomping* on a *Layered Finesse* in order to "speed up" the play of a specific card that leads into other players hands.
 - One complicating factor of the *Speed-up Clue* is how to differentiate it from a more-ordinary *Fix Clue*. In other words, after the clued card is played, on their next turn, should the player go back and blind-play the other cards? If it was a *Speed-up Clue*, they should. If it was a *Fix Clue*, they should not.
 - The key lies in the context of the clue:
-  - Would another player have tried to blind-play something before the potential *Fix Clue* was given? If yes, then it is not a *Fix Clue*, and it is a *Speed-up Clue*.
   - Was it possible to take an equivalent line where a *Fix Clue* would not be needed? (In terms of the same number of clues, and no risk of discarding critical/playable cards.) If yes, it is not a *Speed-up Clue*.
+  - Is the timing of the *Fix Clue* appropriate? If not, then it might be a *Speed Up* clue.
+ 
