@@ -1,0 +1,49 @@
+title: Misplay Chop Move
+stacks:
+  - r: 2
+  - y: 2
+  - g: 2
+  - b: 2
+  - p: 2
+players:
+  - name: Alice
+    cluegiver: yes
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - name: Bob
+    cards:
+      - type: r
+        clue: 2
+        ontop: (4)
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - text: After Red 4 bombs
+  - name: Bob
+    cards:
+      - type: x
+      - type: x
+        above:
+          text:
+            - Chop
+            - Move
+      - type: x
+        above:
+          text:
+            - Chop
+            - Move
+      - type: x
+        above:
+          text:
+            - Chop
+            - Move
+      - type: x
+        above:
+          text:
+            - Chop
+            - Move

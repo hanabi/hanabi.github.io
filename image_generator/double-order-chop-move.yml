@@ -1,0 +1,81 @@
+title: Double Order Chop Move
+stacks:
+  - r: 0
+  - y: 0
+  - g: 0
+  - b: 0
+  - p: 0
+players:
+  - name: Alice
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+        above:
+          text:
+            - Chop
+            - Move
+          color: purple
+      - type: x
+        above:
+          text:
+            - Chop
+            - Move
+          color: maroon
+  - name: Bob
+    cluegiver: yes
+    cards:
+      - type: 1
+        clue: 1
+        below:
+          text:
+            - Double
+            - Chop
+            - Move
+            - Alice
+          color: purple
+      - type: 1
+        clue: 1
+        below:
+          text:
+            - Double
+            - Chop
+            - Move
+            - Cathy
+          color: darkgreen
+      - type: 1
+        clue: 1
+        below:
+          text:
+            - Chop
+            - Move
+            - Alice
+          color: maroon
+      - type: 1
+        clue: 1
+        below:
+          text:
+            - Chop
+            - Move
+            - Cathy
+          color: darkblue
+      - type: 1
+        clue: 1
+  - name: Cathy
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+        above:
+          text:
+            - Chop
+            - Move
+          color: darkgreen
+      - type: x
+        above:
+          text:
+            - Chop
+            - Move
+          color: darkblue

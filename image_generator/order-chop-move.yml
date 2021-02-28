@@ -1,0 +1,55 @@
+title: Order Chop Move
+stacks:
+  - r: 0
+  - y: 0
+  - g: 0
+  - b: 0
+  - p: 0
+players:
+  - name: Alice
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+        above:
+          text:
+            - Chop
+            - Move
+          color: maroon
+  - name: Bob
+    cluegiver: yes
+    cards:
+      - type: 1
+        clue: 1
+        below:
+          text:
+            - Chop
+            - Move
+            - Alice
+          color: maroon
+      - type: 1
+        clue: 1
+        below:
+          text:
+            - Chop
+            - Move
+            - Cathy
+          color: darkgreen
+      - type: 1
+        clue: 1
+      - type: x
+      - type: x
+  - name: Cathy
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+        above:
+          text:
+            - Chop
+            - Move
+          color: darkgreen
