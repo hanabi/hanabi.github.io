@@ -1,0 +1,105 @@
+<!-- generated via image_generator script in this repo -->
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg"  xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="435" version="1.1" viewBox="0 0 790 435" width="790">
+  <defs/>
+  <text dy="30" fill="#000001" font-size="24" x="20">Trash Chop Move (ex. 3)</text>
+  <image height="100" width="70" x="0" xlink:href="/img/pieces/r1.png" y="50"/>
+  <image height="100" width="70" x="72" xlink:href="/img/pieces/y1.png" y="50"/>
+  <image height="100" width="70" x="144" xlink:href="/img/pieces/g1.png" y="50"/>
+  <image height="100" width="70" x="216" xlink:href="/img/pieces/b1.png" y="50"/>
+  <image height="100" width="70" x="288" xlink:href="/img/pieces/p1.png" y="50"/>
+  <text dy="50" fill="#000001" x="360" y="0">Alice</text>
+  <text dy="70" fill="#000001" x="360" y="0">(clue</text>
+  <text dy="90" fill="#000001" x="360" y="0">giver)</text>
+  <image height="100" width="70" x="420" xlink:href="/img/pieces/back.png" y="10"/>
+  <image height="100" width="70" x="494" xlink:href="/img/pieces/back.png" y="10"/>
+  <image height="100" width="70" x="568" xlink:href="/img/pieces/back.png" y="10"/>
+  <image height="100" width="70" x="642" xlink:href="/img/pieces/back.png" y="10"/>
+  <image height="100" width="70" x="716" xlink:href="/img/pieces/back.png" y="10"/>
+  <text dy="50" fill="#000001" x="360" y="125">Bob</text>
+  <image height="100" width="70" x="420" xlink:href="/img/pieces/back.png" y="135"/>
+  <rect fill="orange" height="102" width="72" x="493" y="124"/>
+  <image height="100" width="70" x="494" xlink:href="/img/pieces/1.png" y="125"/>
+  <image height="70" width="50" x="504" xlink:href="/img/pieces/clue-1.png" y="85"/>
+  <svg height="20" width="64" x="497" y="220">
+    <defs/>
+    <rect fill="peru" height="20" stroke="white" width="64" x="0" y="0"/>
+    <svg height="20" width="64" x="0" y="0">
+      <defs/>
+      <text dominant-baseline="central" fill="white" text-anchor="middle" x="50%" y="50%">Trash</text>
+    </svg>
+  </svg>
+  <image height="100" width="70" x="568" xlink:href="/img/pieces/back.png" y="135"/>
+  <svg height="40" width="64" x="571" y="125">
+    <defs/>
+    <rect fill="darkred" height="40" stroke="white" width="64" x="0" y="0"/>
+    <svg height="20" width="64" x="0" y="0">
+      <defs/>
+      <text dominant-baseline="central" fill="white" text-anchor="middle" x="50%" y="50%">Chop</text>
+    </svg>
+    <svg height="20" width="64" x="0" y="20">
+      <defs/>
+      <text dominant-baseline="central" fill="white" text-anchor="middle" x="50%" y="50%">slot</text>
+    </svg>
+  </svg>
+  <rect fill="orange" height="102" width="72" x="641" y="124"/>
+  <image height="100" width="70" x="642" xlink:href="/img/pieces/1.png" y="125"/>
+  <image height="70" width="50" x="652" xlink:href="/img/pieces/clue-1.png" y="85"/>
+  <svg height="20" width="64" x="645" y="220">
+    <defs/>
+    <rect fill="peru" height="20" stroke="white" width="64" x="0" y="0"/>
+    <svg height="20" width="64" x="0" y="0">
+      <defs/>
+      <text dominant-baseline="central" fill="white" text-anchor="middle" x="50%" y="50%">Trash</text>
+    </svg>
+  </svg>
+  <image height="100" width="70" x="716" xlink:href="/img/pieces/back.png" y="135"/>
+  <svg height="20" width="64" x="719" y="220">
+    <defs/>
+    <rect fill="black" height="20" stroke="white" width="64" x="0" y="0"/>
+    <svg height="20" width="64" x="0" y="0">
+      <defs/>
+      <text dominant-baseline="central" fill="white" text-anchor="middle" x="50%" y="50%">Save</text>
+    </svg>
+  </svg>
+  <text dy="30" fill="white" stroke="white" x="746" y="125">(CM)</text>
+  <text dy="20" fill="#000001" x="400" y="265">After discarding 1</text>
+  <text dy="50" fill="#000001" x="360" y="295">Bob</text>
+  <image height="100" width="70" x="420" xlink:href="/img/pieces/back.png" y="305"/>
+  <image height="100" width="70" x="494" xlink:href="/img/pieces/back.png" y="305"/>
+  <image height="100" width="70" x="568" xlink:href="/img/pieces/back.png" y="305"/>
+  <svg height="40" width="64" x="571" y="295">
+    <defs/>
+    <rect fill="darkred" height="40" stroke="white" width="64" x="0" y="0"/>
+    <svg height="20" width="64" x="0" y="0">
+      <defs/>
+      <text dominant-baseline="central" fill="white" text-anchor="middle" x="50%" y="50%">Chop</text>
+    </svg>
+    <svg height="20" width="64" x="0" y="20">
+      <defs/>
+      <text dominant-baseline="central" fill="white" text-anchor="middle" x="50%" y="50%">slot</text>
+    </svg>
+  </svg>
+  <rect fill="orange" height="102" width="72" x="641" y="294"/>
+  <image height="100" width="70" x="642" xlink:href="/img/pieces/1.png" y="295"/>
+  <image height="70" width="50" x="652" xlink:href="/img/pieces/clue-1.png" y="255"/>
+  <svg height="20" width="64" x="645" y="390">
+    <defs/>
+    <rect fill="peru" height="20" stroke="white" width="64" x="0" y="0"/>
+    <svg height="20" width="64" x="0" y="0">
+      <defs/>
+      <text dominant-baseline="central" fill="white" text-anchor="middle" x="50%" y="50%">Trash</text>
+    </svg>
+  </svg>
+  <image height="100" width="70" x="716" xlink:href="/img/pieces/back.png" y="305"/>
+  <svg height="20" width="64" x="719" y="390">
+    <defs/>
+    <rect fill="black" height="20" stroke="white" width="64" x="0" y="0"/>
+    <svg height="20" width="64" x="0" y="0">
+      <defs/>
+      <text dominant-baseline="central" fill="white" text-anchor="middle" x="50%" y="50%">Save</text>
+    </svg>
+  </svg>
+  <text dy="30" fill="white" stroke="white" x="746" y="295">(CM)</text>
+</svg>
+

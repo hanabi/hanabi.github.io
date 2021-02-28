@@ -11,7 +11,7 @@ title: Level 6 - Intermediate Chop Moves
 
 ### The Order Chop Move (OCM)
 
-- First, see the section on [Playing Multiple 1's](level-3.md#playing-multiple-1s).
+- First, see the section on [Playing Multiple 1's](level-3.mdx#playing-multiple-1s).
 - We agree that unknown 1's are supposed to be played in a particular order. If a player has unknown 1's and does **not** play them in the correct order, it means that they are trying to send an additional message.
 - If a player skips over **one** of the 1's, and there is nothing else special going on, it means that the next player should *Chop Move* one card.
 - If a player skips over **two** of the 1s, the message skips over the next player, and the player after that should *Chop Move* one card.

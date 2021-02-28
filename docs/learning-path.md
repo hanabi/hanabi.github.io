@@ -26,9 +26,9 @@ The following is a quick summary of the levels.
 | Level Number | Level Name              | Main Conventions Learned
 | ------------ | ----------------------- | ------------------------
 | 1            | Fundamentals            | *[The Early Game](level-1.md#the-early-game)*, *[5 Stalls](level-1.md#the-5-stall)*, *[Prompts](level-1.md#the-prompt)*, *[Finesses](level-1.md#the-finesse)*
-| 2            | Basic Finesses          | *[Double Finesses](level-2.md#the-double-finesse--triple-finesse--quadruple-finesse)*, *[Reverse Finesses](level-2.md#the-reverse-finesse)*, *[Self-Finesses](level-2.md#the-self-finesse)*
-| 3            | Basic Strategy          | *[Fix Clues](level-3.md#fix-clues)*, *[Playing Multiple 1's](level-3.md#playing-multiple-1s)*, *[Sarcastic Discards](level-3.md#the-sarcastic-discard)*
-| 4            | Chop Moves              | *[Trash Chop Moves](level-4.md#the-trash-chop-move)*, *[5's Chop Moves](level-4.md#the-5s-chop-move-5cm)*
+| 2            | Basic Finesses          | *[Double Finesses](level-2.mdx#the-double-finesse--triple-finesse--quadruple-finesse)*, *[Reverse Finesses](level-2.mdx#the-reverse-finesse)*, *[Self-Finesses](level-2.mdx#the-self-finesse)*
+| 3            | Basic Strategy          | *[Fix Clues](level-3.mdx#fix-clues)*, *[Playing Multiple 1's](level-3.mdx#playing-multiple-1s)*, *[Sarcastic Discards](level-3.mdx#the-sarcastic-discard)*
+| 4            | Chop Moves              | *[Trash Chop Moves](level-4.mdx#the-trash-chop-move)*, *[5's Chop Moves](level-4.mdx#the-5s-chop-move-5cm)*
 | 5            | Intermediate Finesses   | *[Hidden Finesses](level-5.md#the-hidden-finesse)*, *[Layered Finesses](level-5.md#the-layered-finesse)*, *[Clandestine Finesses](level-5.md#the-clandestine-finesse)*, *[Stacked Finesses](level-5.md#the-stacked-finesse)*, *[Ambiguous Finesses](level-5.md#the-ambiguous-finesse)*
 | 6            | Intermediate Chop Moves | *[Order Chop Moves](level-6.md#the-order-chop-move-ocm)*, *[Trash Order Chop Moves](level-6.md#the-trash-order-chop-move-tocm)*, *[Scream Discard Chop Moves](level-6.md#the-scream-discard-chop-move-sdcm)*, *[Generation Discards](level-6.md#the-generation-discard)*, *[Tempo Clue Chop Moves](level-6.md#the-tempo-clue-chop-move)*
 | 7            | End-Game                | *[Positional Discards](level-7.md#the-positional-discard-indicating-a-play-with-a-discard)*, *[Positional Misplays](level-7.md#the-positional-misplay-indicating-a-play-with-a-misplay)*

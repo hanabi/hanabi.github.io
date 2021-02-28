@@ -1,0 +1,90 @@
+<!-- generated via image_generator script in this repo -->
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg"  xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="590" version="1.1" viewBox="0 0 862 590" width="862">
+  <defs/>
+  <text dy="30" fill="#000001" font-size="24" x="20">Chop Moves + New Clues (Exception)</text>
+  <image height="100" width="70" x="0" xlink:href="/img/pieces/r2.png" y="50"/>
+  <image height="100" width="70" x="72" xlink:href="/img/pieces/y2.png" y="50"/>
+  <image height="100" width="70" x="144" xlink:href="/img/pieces/g2.png" y="50"/>
+  <image height="100" width="70" x="216" xlink:href="/img/pieces/b2.png" y="50"/>
+  <image height="100" width="70" x="288" xlink:href="/img/pieces/p2.png" y="50"/>
+  <image height="100" width="70" x="360" xlink:href="/img/pieces/m2.png" y="50"/>
+  <text dy="20" fill="#000001" x="472" y="0">Situation before clue</text>
+  <text dy="50" fill="#000001" x="432" y="30">Alice</text>
+  <image height="100" width="70" x="492" xlink:href="/img/pieces/back.png" y="40"/>
+  <image height="100" width="70" x="566" xlink:href="/img/pieces/back.png" y="40"/>
+  <image height="100" width="70" x="640" xlink:href="/img/pieces/back.png" y="40"/>
+  <image height="100" width="70" x="714" xlink:href="/img/pieces/back.png" y="40"/>
+  <image height="100" width="70" x="788" xlink:href="/img/pieces/back.png" y="40"/>
+  <text dy="50" fill="#000001" x="432" y="155">Bob</text>
+  <image height="100" width="70" x="492" xlink:href="/img/pieces/back.png" y="165"/>
+  <image height="100" width="70" x="566" xlink:href="/img/pieces/back.png" y="165"/>
+  <svg height="40" width="64" x="569" y="155">
+    <defs/>
+    <rect fill="peru" height="40" stroke="white" width="64" x="0" y="0"/>
+    <svg height="20" width="64" x="0" y="0">
+      <defs/>
+      <text dominant-baseline="central" fill="white" text-anchor="middle" x="50%" y="50%">Chop</text>
+    </svg>
+    <svg height="20" width="64" x="0" y="20">
+      <defs/>
+      <text dominant-baseline="central" fill="white" text-anchor="middle" x="50%" y="50%">slot</text>
+    </svg>
+  </svg>
+  <rect fill="orange" height="102" width="72" x="639" y="154"/>
+  <image height="100" width="70" x="640" xlink:href="/img/pieces/rm.png" y="155"/>
+  <rect fill="orange" height="102" width="72" x="713" y="154"/>
+  <image height="100" width="70" x="714" xlink:href="/img/pieces/rm.png" y="155"/>
+  <image height="100" width="70" x="788" xlink:href="/img/pieces/back.png" y="165"/>
+  <svg height="20" width="64" x="791" y="250">
+    <defs/>
+    <rect fill="black" height="20" stroke="white" width="64" x="0" y="0"/>
+    <svg height="20" width="64" x="0" y="0">
+      <defs/>
+      <text dominant-baseline="central" fill="white" text-anchor="middle" x="50%" y="50%">Save</text>
+    </svg>
+  </svg>
+  <text dy="30" fill="white" stroke="white" x="818" y="155">(CM)</text>
+  <text dy="20" fill="#000001" x="472" y="295">Situation after clue</text>
+  <text dy="50" fill="#000001" x="432" y="325">Alice</text>
+  <text dy="70" fill="#000001" x="432" y="325">(clue</text>
+  <text dy="90" fill="#000001" x="432" y="325">giver)</text>
+  <image height="100" width="70" x="492" xlink:href="/img/pieces/back.png" y="335"/>
+  <image height="100" width="70" x="566" xlink:href="/img/pieces/back.png" y="335"/>
+  <image height="100" width="70" x="640" xlink:href="/img/pieces/back.png" y="335"/>
+  <image height="100" width="70" x="714" xlink:href="/img/pieces/back.png" y="335"/>
+  <image height="100" width="70" x="788" xlink:href="/img/pieces/back.png" y="335"/>
+  <text dy="50" fill="#000001" x="432" y="450">Bob</text>
+  <image height="100" width="70" x="492" xlink:href="/img/pieces/back.png" y="460"/>
+  <image height="100" width="70" x="566" xlink:href="/img/pieces/back.png" y="460"/>
+  <svg height="40" width="64" x="569" y="450">
+    <defs/>
+    <rect fill="peru" height="40" stroke="white" width="64" x="0" y="0"/>
+    <svg height="20" width="64" x="0" y="0">
+      <defs/>
+      <text dominant-baseline="central" fill="white" text-anchor="middle" x="50%" y="50%">Chop</text>
+    </svg>
+    <svg height="20" width="64" x="0" y="20">
+      <defs/>
+      <text dominant-baseline="central" fill="white" text-anchor="middle" x="50%" y="50%">slot</text>
+    </svg>
+  </svg>
+  <rect fill="orange" height="102" width="72" x="639" y="449"/>
+  <image height="100" width="70" x="640" xlink:href="/img/pieces/m.png" y="450"/>
+  <image height="70" width="50" x="650" xlink:href="/img/pieces/clue-b.png" y="410"/>
+  <rect fill="orange" height="102" width="72" x="713" y="449"/>
+  <image height="100" width="70" x="714" xlink:href="/img/pieces/m.png" y="450"/>
+  <image height="70" width="50" x="724" xlink:href="/img/pieces/clue-b.png" y="410"/>
+  <rect fill="orange" height="102" width="72" x="787" y="449"/>
+  <image height="100" width="70" x="788" xlink:href="/img/pieces/b.png" y="450"/>
+  <image height="70" width="50" x="798" xlink:href="/img/pieces/clue-b.png" y="410"/>
+  <svg height="20" width="64" x="791" y="545">
+    <defs/>
+    <rect fill="gold" height="20" stroke="black" width="64" x="0" y="0"/>
+    <svg height="20" width="64" x="0" y="0">
+      <defs/>
+      <text dominant-baseline="central" fill="black" text-anchor="middle" x="50%" y="50%">Focus</text>
+    </svg>
+  </svg>
+</svg>
+

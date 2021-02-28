@@ -43,3 +43,7 @@
 .ss {
   padding-bottom: 1em;
 }
+
+svg.example text[fill='#000001'] {
+  fill: var(--ifm-font-color-base);
+}
