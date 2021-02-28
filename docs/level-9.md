@@ -11,7 +11,7 @@ title: Level 9 - Special Discards
 
 ### The Gentleman's Discard
 
-- First, see the section on the *[Sarcastic Discard](level-3.md#the-sarcastic-discard)*.
+- First, see the section on the *[Sarcastic Discard](level-3.mdx#the-sarcastic-discard)*.
 - To review, the *Sarcastic Discard* is:
   1. a move that transfers a **clued card** in one person's hand to a **clued card** in another person's hand
   1. **necessary** to eliminate confusion among the team (because from *Good Touch Principle*, we are not normally supposed to have two copies of the same card "touched" with a clue)
@@ -67,7 +67,7 @@ title: Level 9 - Special Discards
 
 ### The Sarcastic Finesse
 
-- First, see the section on the *[Sarcastic Discard](level-3.md#the-sarcastic-discard)*.
+- First, see the section on the *[Sarcastic Discard](level-3.mdx#the-sarcastic-discard)*.
 - Imagine that in a 3-player game:
   - Nothing is played on the stacks.
   - Alice has an already-clued 2 in her hand. She has no idea what color 2 it is.
