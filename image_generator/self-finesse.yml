@@ -1,0 +1,34 @@
+title: Self Finesse
+stacks:
+  - r: 1
+  - y: 1
+  - g: 1
+  - b: 1
+  - p: 1
+players:
+  - name: Alice
+    cluegiver: yes
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - name: Bob
+    cards:
+      - type: x
+        above: Not 2
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - name: Cathy
+    cards:
+      - type: x
+        above: Red 2
+      - type: 3
+        clue: 3
+        ontop: (R)
+      - type: x
+      - type: x
+      - type: x

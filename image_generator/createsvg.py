@@ -66,14 +66,12 @@ for line_dict in input['players']:
         if 'cluegiver' in line_dict:
             draw.add(draw.text('(clue', x=[Xoff], y=[yoff], dy=[70], fill=THEME_TEXT_COLOR))
             draw.add(draw.text('giver)', x=[Xoff], y=[yoff], dy=[90], fill=THEME_TEXT_COLOR))
-        xoff = Xoff + 50
+        xoff = Xoff + 60
         ybelow = 5
         for card in line_dict['cards']:
             t = str(card['type'])
             if t == 'x':
                 fname = 'back'
-            elif len(t) == 1:
-                fname = 'back-' + t
             else:
                 fname = t
             if t != 'x':
