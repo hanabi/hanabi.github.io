@@ -3,7 +3,7 @@ id: 5-pull-double-finesse
 title: Examples of the 5 Pull Double Finesse
 ---
 
-The *[5 Pull Double Finesse](level-11.md#the-5-pull-double-finesse)* is a level 11 convention.
+The *[5 Pull Double Finesse](../level-17.md#the-5-pull-double-finesse)* is a level 17 convention.
 
 <br />
 

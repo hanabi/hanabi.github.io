@@ -14,11 +14,9 @@ import ImageSwitcher from '../src/pages/ImageSwitcher.js';
 
 ## Table of Contents
 
-Use a [code](level-1Z.md).
-
-1. [Card Layout](#card-layoutZ)
+1. [Card Layout](#card-layout)
 1. [The Basics](#the-basics)
-1. [Play Clues & Save Clues](#play-clues--save-clues)
+1. [Two Types of Clues](#two-types-of-clues)
 1. [The Three Main Principles](#the-three-main-principles)
 1. [Miscellaneous](#miscellaneous)
 1. [Special Moves](#special-moves)
@@ -110,7 +108,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
 
 <br />
 
-## There are Only Two Types of Clues
+## Two Types of Clues
 
 - A clue can either be:
   - a *Save Clue* (meaning to save the focused card for later)

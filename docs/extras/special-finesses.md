@@ -203,14 +203,14 @@ title: Special Finesses
 
 ### The Pestilent Finesse
 
-- First, see the section on the *[Pestilent Double Bluff](level-17.md#the-pestilent-double-bluff-pdb)*.
+- First, see the section on the *[Pestilent Double Bluff](../level-19.md#the-pestilent-double-bluff-pdb)*.
 - In the *Pestilent Double Bluff* example, Cathy is supposed to immediately blind-play her *Finesse Position* card in order to "heal" the situation with Bob.
 - However, if Cathy sees that someone else on the team has the red 2 in their *Finesse Position*, then Cathy can see that it is a *Pestilent Finesse* instead of a *Pestilent Bluff*. Cathy can simply let the person with the actual red 2 blind-play and that will "heal" the problem in the exact same way.
 - A *Pestilent Finesse* cannot be in reverse. (In other words, the blind-play must happen before the clued player can misplay.)
 
 ### The Diseased Clandestine Finesse
 
-- First, see the section on the *[Pestilent Double Bluff](level-17.md#the-pestilent-double-bluff-pdb)*.
+- First, see the section on the *[Pestilent Double Bluff](../level-19.md#the-pestilent-double-bluff-pdb)*.
 - In the *Pestilent Double Bluff* example, Cathy is supposed to immediately blind-play her *Finesse Position* card in order to "heal" the situation with Bob.
 - However, if Cathy sees a clue that she can give that will turn the move into a *Clandestine Finesse* on Bob, then she must always do that.
 - For example, in a 4-player game:
@@ -265,7 +265,7 @@ title: Special Finesses
   - However, Cathy also sees that before Bob blind-played the red 2, he had a blue 1 in the slot right after it.
   - Thus, it is possible for Cathy's 3 to actually be blue 3. If it is, Bob will blind-play the blue 1 and Cathy will know that she has blue 2 on her *Finesse Position*.
   - So, Cathy discards (instead of potentially playing the red 3 on this turn) to allow for the possibility of a *Surreptitious Finesse*.
-- Examples of a *Surreptitious Finesse* can be found [here](examples/surreptitious-finesse.md).
+- Examples of a *Surreptitious Finesse* can be found [here](../examples/surreptitious-finesse.md).
 
 ### The Distribution Finesse
 
@@ -336,7 +336,7 @@ title: Special Finesses
 
 ### The Unnecessary Forced Reverse Trash Finesse (A Gentleman's Discard That Looks Like an Unnecessary Reverse Trash Finesse)
 
-- First, see the section on *[Unnecessary Moves with Known Trash](level-21.md#unnecessary-moves-with-known-trash)*, which defines what a *Unnecessary Trash Finesse* is. Basically, if a *Trash Finesse* is unnecessary, then it also causes a *Chop Move*.
+- First, see the section on *[Unnecessary Moves with Known Trash](../level-23.md#unnecessary-moves-with-known-trash)*, which defines what a *Unnecessary Trash Finesse* is. Basically, if a *Trash Finesse* is unnecessary, then it also causes a *Chop Move*.
 - This convention also applies to *Reverse Trash Finesses*. If they are unnecessary, then it causes a *Chop Move* in the same way.
 - If a line is chosen that forces a *Gentleman's Discard* to occur (because they have to entertain the possibility of a *Reverse Trash Finesse*), and the blind-playing card could have been clued in some other easier way, then it **still** *Chop Moves* in exactly the same way that an *Unnecessary Reverse Trash Finesse* would.
 - For example, in a 3-player game:
@@ -355,7 +355,7 @@ title: Special Finesses
 
 ### The Trash Push Inverted Finesse
 
-- First, see the section on *[Unnecessary Moves with Known Trash](../level-21.md#unnecessary-moves-with-known-trash)*, which defines what a *Unnecessary Trash Push* is. Basically, if a *Trash Push* is unnecessary, then it also causes an extra blind-play.
+- First, see the section on *[Unnecessary Moves with Known Trash](../level-23.md#unnecessary-moves-with-known-trash)*, which defines what a *Unnecessary Trash Push* is. Basically, if a *Trash Push* is unnecessary, then it also causes an extra blind-play.
 - Normally, the *Unnecessary Trash Push* calls for the very next player to blind-play an unrelated card, similar to a *Bluff*.
 - However, if the very next player can see that it could be a *Finesse* through the *Trash Pushed* card, then they should prefer that interpretation. This is similar to how Bob should always prefer a *Finesse* interpretation over a *Bluff* interpretation.
 - For example, in a 4-player game:

@@ -3,7 +3,7 @@ id: rank-choice-ejection
 title: Examples of the Rank Choice Ejection
 ---
 
-The *[Rank Choice Ejection](extras/ejections.md#rank-choice-ejection-with-a-number-2-or-a-number-5)* is a level 19 convention.
+The *[Rank Choice Ejection](../extras/ejections.md#the-rank-choice-ejection-with-a-number-2-or-a-number-5-rce)* is a level 19 convention.
 
 <br />
 

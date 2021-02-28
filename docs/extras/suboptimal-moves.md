@@ -7,7 +7,7 @@ These are *Finesses* that are triggered by performing a suboptimal clue or by pi
 
 <br />
 
-### The Suboptimal Finesse
+### The Suboptimal Prompt & The Suboptimal Finesse & The Suboptimal Bluff
 
 - The *Suboptimal Finesse* is covered at [level 19](../level-19.md#the-suboptimal-prompt--the-suboptimal-finesse--the-suboptimal-bluff).
 

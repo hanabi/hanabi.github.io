@@ -20,7 +20,7 @@ title: Pushes & Pulls
 #### Interaction with Trash Double Ignition
 
 - *Trash Pulls* and *Trash Double Ignition* are initiated in nearly the exact same way, so this can be confusing.
-- *Trash Pulls* take precedence over *Trash Double Ignition*. This means that if everyone can see that the *Trash Pull* was necessary to "get" a blocking card, then no-one else on the team is promised to have a playable card. (This follows from *[Occam's Razor](level-8.md#clue-interpretation--occams-razor)*.)
+- *Trash Pulls* take precedence over *Trash Double Ignition*. This means that if everyone can see that the *Trash Pull* was necessary to "get" a blocking card, then no-one else on the team is promised to have a playable card. (This follows from *[Occam's Razor](../level-10.md#clue-interpretation--occams-razor)*.)
 
 ### The 5 Double Pull (Or The Double 5 Pull)
 
@@ -41,4 +41,4 @@ title: Pushes & Pulls
   - Save a *Delayed Playable* card that is followed by a critical card.
   - Save two important cards when there are a lot of cards to deal with and the team is low on clues.
   - Get a blind-play from *Elimination* when the duplicate is visible.
-- More examples of a *5 Double Pull* can be found [here](examples/5-double-pull.md).
+- More examples of a *5 Double Pull* can be found [here](../examples/5-double-pull.md).

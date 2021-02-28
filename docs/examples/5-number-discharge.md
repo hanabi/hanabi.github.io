@@ -3,7 +3,7 @@ id: 5-number-discharge
 title: Examples of the 5 Number Discharge
 ---
 
-The *[5 Number Discharge](level-15.md#5-number-discharge-5nd)* is a level 15 convention.
+The *[5 Number Discharge](../level-17.md#5-number-discharge-5nd)* is a level 17 convention.
 
 <br />
 
