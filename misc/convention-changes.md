@@ -105,6 +105,6 @@
 ## Why are conventions deleted? Who decides when a convention should be removed from the website?
 
 - After a period of time, rarely-used conventions are removed from the convention framework and deleted from the website. The reasons for this are two fold:
-  - Every "move" or section on the website has a cost associated with it. It is only worth the cost if the move is routinely used. The logic for this is outlined in the [convention goals document](Convention-Goals.md).
+  - Every "move" or section on the website has a cost associated with it. It is only worth the cost if the move is routinely used. The logic for this is outlined in the [convention goals document](convention-goals.md).
   - The website is a living document meant to be a reflection of what players in our group actually do on a day-to-day basis, rather than an encyclopedia of all possible Hanabi moves.
 - Whether or not a move is used often enough to warrant being included on the website is also based on consensus.
