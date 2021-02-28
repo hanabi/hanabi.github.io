@@ -18,4 +18,3 @@ title: Fix Clues
 - The key lies in the context of the clue:
   - Was it possible to take an equivalent line where a *Fix Clue* would not be needed? (In terms of the same number of clues, and no risk of discarding critical/playable cards.) If yes, it is not a *Speed-up Clue*.
   - Is the timing of the *Fix Clue* appropriate? If not, then it might be a *Speed Up* clue.
- 
