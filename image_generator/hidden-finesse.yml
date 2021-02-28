@@ -1,0 +1,37 @@
+title: Hidden Finesse
+stacks:
+  - r: 1
+  - y: 0
+  - g: 0
+  - b: 0
+  - p: 0
+  - m: 2
+players:
+  - name: Alice
+    cluegiver: yes
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - name: Bob
+    cards:
+      - type: x
+        above: Red 2
+      - type: x
+      - type: rm
+        above:
+          text: Rainbow 3
+          color: green
+      - type: x
+      - type: x
+  - name: Cathy
+    cards:
+      - type: x
+      - type: x
+      - type: r
+        clue: r
+        ontop: (3)
+      - type: x
+      - type: x

@@ -1,0 +1,33 @@
+title: Layered Finesse
+stacks:
+  - r: 0
+  - y: 0
+  - g: 0
+  - b: 0
+  - p: 0
+players:
+  - name: Alice
+    cluegiver: yes
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - name: Bob
+    cards:
+      - type: g
+        clue: g
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - name: Cathy
+    cards:
+      - type: x
+        above: Blue 1
+      - type: x
+        above: Green 1
+      - type: x
+      - type: x
+      - type: x

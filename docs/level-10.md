@@ -138,7 +138,7 @@ title: Level 10 - Bluffs
 
 ### Clue Interpretation & Occam's Razor
 
-- First, see the section on [Schrödinger's Cat Principle](level-5.md#schrödingers-cat-principle).
+- First, see the section on [Schrödinger's Cat Principle](level-5.mdx#schrödingers-cat-principle).
 - When a clue could have multiple interpretations, usually *Schrödinger's Cat Principle* is involved - players must wait a round and see what their teammates do in order to find out the true meaning of the clue. But what if a clue could have multiple interpretations and a player does **not** have to wait for information from anyone else?
 - For example:
   - Alice gives a weird clue to Cathy.
@@ -171,7 +171,7 @@ title: Level 10 - Bluffs
 
 ### Mistaking a Layered Finesse for a Bluff
 
-- First, see the section on the *[Layered Finesse](level-5.md#the-layered-finesse)*.
+- First, see the section on the *[Layered Finesse](level-5.mdx#the-layered-finesse)*.
 - Sometimes, players only play one card into a *Layered Finesse*, and then stop (when they should instead be digging for the promised card).
 - To tell the difference between a *Layered Finesse* and a *Bluff*, simply look at the *Bluff Seat*:
   - If the player was in *Bluff Seat*, then it is a *Bluff*.
@@ -194,7 +194,7 @@ title: Level 10 - Bluffs
 
 ### Stacked Bluffs (Illegal)
 
-- First, see the section on the *[Stacked Finesse](level-5.md#the-stacked-finesse)*.
+- First, see the section on the *[Stacked Finesse](level-5.mdx#the-stacked-finesse)*.
 - *Stacked Finesses* are encouraged, since they have few downsides.
 - However, players should **never** stack a *Bluff* on top of a player who is *Finessed*. This is because the blind-playing player will assume that a *Layered Finesse* is occurring and go on to play the card from the first *Finesse*. This means that the *Bluff* will not be resolved immediately, violating *Lie Principle*. (*Lie Principle* is one of the most important principles!) Typically, when this mistake happens, the team will go on to lose the game, because severe *Information Desynchronization* will occur.
 - Sometimes, in rare circumstances, expert players can perform *Out-of-Position Bluffs*. (This is normally illegal, so for it to work it has to be a very specific situation.) When this occurs, it is illegal to stack a second *Bluff* on top of them. You cannot stack a *Bluff* on a *Bluff* for the same reason that you cannot stack a *Bluff* on a *Finesse* - the *Fib* will not resolve immediately and will violate *Lie Principle*.
