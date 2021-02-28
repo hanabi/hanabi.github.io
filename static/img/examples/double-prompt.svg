@@ -20,17 +20,17 @@
   <image height="100" width="70" x="420" xlink:href="/img/pieces/back.png" y="135"/>
   <rect fill="orange" height="102" width="72" x="493" y="124"/>
   <image height="100" width="70" x="494" xlink:href="/img/pieces/r.png" y="125"/>
-  <text dy="30" fill="black" stroke="white" x="514" y="125">(2)</text>
+  <text dy="30" fill="black" stroke="black" x="524" y="125">(2)</text>
   <rect fill="orange" height="102" width="72" x="567" y="124"/>
   <image height="100" width="70" x="568" xlink:href="/img/pieces/r.png" y="125"/>
-  <text dy="30" fill="black" stroke="white" x="588" y="125">(3)</text>
+  <text dy="30" fill="black" stroke="black" x="598" y="125">(3)</text>
   <image height="100" width="70" x="642" xlink:href="/img/pieces/back.png" y="135"/>
   <image height="100" width="70" x="716" xlink:href="/img/pieces/back.png" y="135"/>
   <text dy="50" fill="#000001" x="360" y="250">Cathy</text>
   <rect fill="orange" height="102" width="72" x="419" y="249"/>
   <image height="100" width="70" x="420" xlink:href="/img/pieces/r.png" y="250"/>
   <image height="70" width="50" x="430" xlink:href="/img/pieces/clue-r.png" y="210"/>
-  <text dy="30" fill="black" stroke="white" x="440" y="250">(4)</text>
+  <text dy="30" fill="black" stroke="black" x="450" y="250">(4)</text>
   <image height="100" width="70" x="494" xlink:href="/img/pieces/back.png" y="260"/>
   <image height="100" width="70" x="568" xlink:href="/img/pieces/back.png" y="260"/>
   <image height="100" width="70" x="642" xlink:href="/img/pieces/back.png" y="260"/>

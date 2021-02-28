@@ -42,7 +42,7 @@
   <rect fill="orange" height="102" width="72" x="419" y="249"/>
   <image height="100" width="70" x="420" xlink:href="/img/pieces/r.png" y="250"/>
   <image height="70" width="50" x="430" xlink:href="/img/pieces/clue-r.png" y="210"/>
-  <text dy="30" fill="black" stroke="white" x="440" y="250">(3)</text>
+  <text dy="30" fill="black" stroke="black" x="450" y="250">(3)</text>
   <image height="100" width="70" x="494" xlink:href="/img/pieces/back.png" y="260"/>
   <image height="100" width="70" x="568" xlink:href="/img/pieces/back.png" y="260"/>
   <image height="100" width="70" x="642" xlink:href="/img/pieces/back.png" y="260"/>

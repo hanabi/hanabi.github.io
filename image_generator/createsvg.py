@@ -43,7 +43,7 @@ def textbox(opts, offset):
             text = [text]
         color = opts.get('color', 'black')
     r = draw.add(draw.svg((xoff+3, yoff+offset), (64, 20 * len(text))))
-    textcolor = 'white'
+    textcolor = 'black' if color == 'gold' else 'white'
     r.add(draw.rect((0, 0), (64, 20 * len(text)), stroke=textcolor, fill=color))
     for i, line in enumerate(text):
         l = r.add(draw.svg((0, 20 * i), (64, 20)))
@@ -88,7 +88,8 @@ for line_dict in input['players']:
                 if yb > ybelow:
                     ybelow = yb
             if 'ontop' in card:
-                draw.add(draw.text(card['ontop'], x=[xoff+20], y=[yoff], dy=[30], fill='black', stroke='white'))
+                color = {'(R)': 'red', '(B)': 'blue', '(G)': 'green', '(Y)': 'yellow', '(P)': 'purple'}.get(card['ontop'], 'white' if t == 'x' else 'black')
+                draw.add(draw.text(card['ontop'], x=[xoff+30], y=[yoff], dy=[30], fill=color, stroke=color))
             xoff += 74
         yoff += 120 + ybelow
         if xoff > Xmax:

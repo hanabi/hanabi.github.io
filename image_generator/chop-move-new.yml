@@ -1,0 +1,55 @@
+title: Chop Moves + New Clues
+stacks:
+  - r: 1
+  - y: 1
+  - g: 1
+  - b: 1
+  - p: 1
+players:
+  - name: Alice
+    cluegiver: yes
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - name: Bob
+    cards:
+      - type: x
+      - type: x
+      - type: x
+        above:
+          text:
+            - Chop
+            - slot
+          color: darkred
+      - type: 1
+        clue: 1
+        below:
+          text: Trash
+          color: peru
+      - type: x
+        below: Save
+        ontop: (CM)
+  - text: "Next turn: Bob discards 1"
+  - text: ""
+  - name: Bob
+    cards:
+      - type: b
+        ontop: (2)
+        clue: b
+        below:
+          text: Focus
+          color: gold
+      - type: x
+      - type: x
+      - type: x
+        above:
+          text:
+            - Chop
+            - slot
+          color: darkred
+      - type: b
+        clue: b
+        below: Save
