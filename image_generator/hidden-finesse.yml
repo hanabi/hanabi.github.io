@@ -23,9 +23,7 @@ players:
       - negate: m
       - type: x
       - type: rm
-        above:
-          text: Rainbow 3
-          color: green
+        above: Rainbow 3
       - type: x
       - type: x
   - name: Cathy
