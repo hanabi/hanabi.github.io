@@ -26,9 +26,7 @@ title: Level 23 - Unnecessary Moves
   - A move is **not** *unnecessary* if it also fixed an impending misplay or a violation of *Good Touch Principle*.
   - A move is **not** *unnecessary* if it also added more positive information to other previously-clued cards in the hand.
 
-## Special Moves
-
-### Unnecessary Moves with Known Trash
+#### Unnecessary Moves with Known Trash
 
 - If **known trash** is used as clue target, the "extra" thing is an *Ignition*. The *Ignition* can be on anyone on the team, similar to how *Double Ignition* works.
 - For example, this would be an *Unnecessary Trash Push* in a 3-player game:
@@ -41,7 +39,7 @@ title: Level 23 - Unnecessary Moves
 - For example, if an *Unnecessary Trash Push Discharge* was done, the next player should blind-play their *Third Finesse Position* (from the clue), and the next player after that should blind-play their *Finesse Position* (from the unnecessariness).
 - For example, if an *Unnecessary Trash Chop Move* was done on a card that could be saved directly, the next player should blind-play their *Finesse Position*, and the clue receiver should still *Chop Move*.
 
-### Unnecessary Moves with Unknown Trash (Off-Chop)
+#### Unnecessary Moves with Unknown Trash (Off-Chop)
 
 - If **unknown trash** is used as a clue target that is off-chop, the "extra" thing is a *Chop Move*.
 - For example, this would be an *Unnecessary Trash Finesse* in a 3-player game:
@@ -56,7 +54,7 @@ title: Level 23 - Unnecessary Moves
 - For example, if an *Unnecessary Unknown Trash Discharge* was done, the next player should blind-play their *Third Finesse Position* (from the clue), and the clue receiver should *Chop Move* (from the unnecessariness).
 - Importantly, note that *Unnecessary Chop Moves* are tricky in that they have **information asymmetry**: the player who blind-plays will **not** know that the card is chop moved, while everyone else will. All players will have to keep this in mind until the *Chop Move* has been demonstrated.
 
-### Unnecessary Moves with Unknown Trash (On-Chop)
+#### Unnecessary Moves with Unknown Trash (On-Chop)
 
 - If **unknown trash** is used as a clue target that is on-chop, but the clue **also** touched other trash cards in the hand that were not on chop, then the "extra" thing is a *Chop Move*, similar to the previous section.
 - If **unknown trash** is used as a clue target that is on-chop, and the clue only touched one card (or all the cards touched were also on chop), then the "extra" thing is a blind-play. This blind-play can be an *Ignition* or it can be a *Trash Push*, depending on the situation.
@@ -70,6 +68,6 @@ title: Level 23 - Unnecessary Moves
   - Cathy now knows that her 2 is trash (since Bob blind-played in response to the clue). However, Cathy also knows that this *Trash Finesse* was *unnecessary*, as Alice could have just clued red to Bob.
   - Thus, Cathy knows that this is an *Unnecessary Trash Finesse*. Normally, she would *Chop Move* something, but the focus of the clue was already on her chop. Cathy instead blind-plays her slot 4 as a *Trash Push*.
 
-### Other Examples
+#### Other Examples
 
 - More examples of *unnecessary* moves can be found [here](examples/unnecessary.md).
