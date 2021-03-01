@@ -26,6 +26,8 @@ title: Level 23 - Unnecessary Moves
   - A move is **not** *unnecessary* if it also fixed an impending misplay or a violation of *Good Touch Principle*.
   - A move is **not** *unnecessary* if it also added more positive information to other previously-clued cards in the hand.
 
+## Special Moves
+
 ### Unnecessary Moves with Known Trash
 
 - If **known trash** is used as clue target, the "extra" thing is an *Ignition*. The *Ignition* can be on anyone on the team, similar to how *Double Ignition* works.
