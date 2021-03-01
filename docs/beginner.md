@@ -364,4 +364,6 @@ In this guide, there will be some screenshots to show off the concepts introduce
 
 ## Next Steps
 
-Find out [how to join a game with us](how-to-join.md).
+- Once you've read the beginner's guide, you are ready to play some games.
+- Don't read anything else on the website until you have played a bunch of games with the group.
+- Next, find out [how to join a game with us](how-to-join.md).
