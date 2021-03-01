@@ -9,7 +9,7 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 cd "$DIR"
 
 # First, build all the SVG files from the YAML specifications (to show off example game states)
-"$DIR/image-generator/build-all.py"
+"$DIR/image-generator/create-svg-all.py"
 
 # Second, build the website, which will go into the "build" subdirectory
 npm run build

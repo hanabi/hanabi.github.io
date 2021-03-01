@@ -22,7 +22,8 @@ for subdirectory_path in subdirectories:
     # Create the corresponding output directory, if it does not already exist
     subdirectory_name = os.path.basename(subdirectory_path)
     output_dir = os.path.join(SVG_DIR, subdirectory_name)
-    os.makedirs(output_dir)
+    if not os.path.isdir(output_dir):
+        os.makedirs(output_dir)
 
     # Get all the YAML files in this subdirectory
     files = glob.glob(os.path.join(subdirectory_path, "*"))
