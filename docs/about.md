@@ -18,3 +18,9 @@ Have you found your way here from the Internet? That's fine too. Feel free to ch
 - [Hanab Live](https://hanab.live) (the best place to play online)
 - [Board Game Arena](http://boardgamearena.com) (not as good as Hanab Live, but has a good number of players)
 - [The Hanab Discord Server](https://discord.gg/FADvkJp) (a place to find teammates and discuss strategy)
+
+### Hotkeys
+
+- You can use the left and right arrow keys to quickly navigate between pages.
+- You can use `Ctrl + K` to open the search bar.
+- You can use `l` to navigate to a specific level.
