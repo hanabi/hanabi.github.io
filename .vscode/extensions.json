@@ -2,6 +2,8 @@
 // https://go.microsoft.com/fwlink/?LinkId=827846
 {
   "recommendations": [
+    // This repository contains Python scripts
+    "ms-python.python",
     // A spell-checking extension based on cspell is used
     "streetsidesoftware.code-spell-checker",
   ],

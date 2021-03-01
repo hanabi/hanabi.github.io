@@ -1,4 +1,5 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
+
 import yaml
 import sys
 import svgwrite
@@ -84,7 +85,7 @@ def draw_unknown_card(svg, positives):
                 x=-6, y=-6, width=12, height=12,
                 style='filter: url(#shadow)',
                 transform='translate({}, {})'.format(-20*math.sin(angle * i), -20*math.cos(angle * i))))
- 
+
 
 ytop = 0
 yoff = 0
@@ -171,7 +172,7 @@ out = re.sub(r'<defs/>', '''<defs>
         <feFuncA type="linear" slope="0.5"/>
       </feComponentTransfer>
       <feMorphology in="SourceAlpha" operator="dilate" radius="1" result="border"/>
-      <feMerge> 
+      <feMerge>
         <feMergeNode in="shadow"/>
         <feMergeNode in="border"/>
         <feMergeNode in="SourceGraphic"/>
