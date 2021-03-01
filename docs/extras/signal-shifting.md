@@ -3,8 +3,6 @@ id: signal-shifting
 title: Signal Shifting
 ---
 
-import ImageSwitcher from '../../src/pages/ImageSwitcher.js';
-
 - Nearly all clues send a distinct *Signal* about the card that is focused:
   1. *Play* the card
   1. *Save* the card
@@ -16,6 +14,6 @@ import ImageSwitcher from '../../src/pages/ImageSwitcher.js';
 - This *Signal Shift* can take two forms: *Ejection* and *Discharge*.
 - Just like a *Bluff*, all forms of *Signal Shifting* can only be performed on the very next player.
 
-<ImageSwitcher src="/img/extras/signal-shifting.png" altText="Signal Shifting" />
+![Signal Shifting](/img/extras/signal-shifting.png)
 
 - This chart shows some existing *Signal Shift* conventions and how they relate to the three *Signals*.
