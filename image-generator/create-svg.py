@@ -13,7 +13,6 @@ import svgwrite
 THEME_TEXT_COLOR = "#000001"
 
 input = yaml.load(sys.stdin, Loader=yaml.SafeLoader)
-print("<!-- generated via image_generator script in this repo -->")
 
 draw = svgwrite.Drawing()
 have_rainbow = False

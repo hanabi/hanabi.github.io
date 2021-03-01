@@ -7,5 +7,5 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 cd "$DIR/yml"
 for yml in *yml; do
   echo ${yml}
-  #python ./create-svg.py < ${yml} > ../static/img/examples/${yml/yml/}svg
+  #python ./create-svg.py < ${yml} > ../static/img/generated/${yml/yml/}svg
 done
