@@ -11,6 +11,8 @@ The *Hyphen-ated Group* plays games on the [Hanab Live](https://hanab.live) webs
 
 ### Preparation
 
+<!-- lint disable list-item-content-indent -->
+
 1. Create an account at [Hanab Live](https://hanab.live) and login.
 
 1. Hanab Live is used by many people, not just members of the *Hyphen-ated Group*, so there are always ongoing games. Choose a random ongoing game and spectate it so that you can start to get familiar with the user interface. Alternatively, you could also play a test game with yourself (where you control both of the players). You can do that by using an [incognito window](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DDesktop&hl=en) and logging into a separate test account.
@@ -18,8 +20,6 @@ The *Hyphen-ated Group* plays games on the [Hanab Live](https://hanab.live) webs
 1. Create a Discord account and login to the [Hanabi Discord server](https://discord.gg/FADvkJp).
 
 1. Even though you can access the Discord server in a browser, it is not very good, because it does not support a global push-to-talk hotkey. So, download and install the [Discord desktop client](https://discordapp.com/download).
-
-<!-- lint disable list-item-content-indent -->
 
 1. Test your microphone to make sure that it works:
 
