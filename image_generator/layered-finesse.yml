@@ -16,8 +16,10 @@ players:
       - type: x
   - name: Bob
     cards:
+      - negate: g
       - type: g
         clue: g
+        ontop: (2)
       - type: x
       - type: x
       - type: x

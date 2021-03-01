@@ -26,6 +26,8 @@ players:
           color: peru
       - type: rm
       - type: rm
+      - negate: r
+      - negate: m
       - type: x
         ontop: (CM)
         below: Save
@@ -40,6 +42,8 @@ players:
       - type: x
   - name: Bob
     cards:
+      - negate: b
+      - negate: m
       - type: x
       - type: x
         above:

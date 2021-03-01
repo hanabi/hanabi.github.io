@@ -16,6 +16,7 @@ players:
       - type: x
   - name: Bob
     cards:
+      - negate: 1
       - type: x
       - type: x
       - type: x
@@ -36,12 +37,14 @@ players:
   - text: ""
   - name: Bob
     cards:
+      - negate: b
       - type: b
         ontop: (2)
         clue: b
         below:
           text: Focus
           color: gold
+      - negate: 1
       - type: x
       - type: x
       - type: x
@@ -53,3 +56,11 @@ players:
       - type: b
         clue: b
         below: Save
+  - name: Cathy
+    cluegiver: yes
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x

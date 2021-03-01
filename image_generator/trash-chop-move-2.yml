@@ -21,6 +21,7 @@ players:
         below:
           text: Trash
           color: peru
+      - negate: 1
       - type: x
         below: Save
         ontop: (CM)
@@ -42,6 +43,7 @@ players:
             - Chop
             - slot
           color: darkred
+      - negate: 1
       - type: x
         below: Save
         ontop: (CM)

@@ -16,6 +16,7 @@ players:
       - type: x
   - name: Bob
     cards:
+      - negate: 1
       - type: x
       - type: 1
         clue: 1
@@ -40,6 +41,7 @@ players:
   - name: Bob
     cards:
       - type: x
+      - negate: 1
       - type: x
       - type: x
         above:

@@ -19,6 +19,8 @@ players:
     cards:
       - type: x
         above: Red 2
+      - negate: r
+      - negate: m
       - type: x
       - type: rm
         above:
@@ -28,6 +30,8 @@ players:
       - type: x
   - name: Cathy
     cards:
+      - negate: r
+      - negate: m
       - type: x
       - type: x
       - type: r

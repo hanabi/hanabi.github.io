@@ -17,8 +17,9 @@ players:
   - name: Bob
     cards:
       - type: r
-        clue: 2
+        clue: r
         ontop: (4)
+      - negate: r
       - type: x
       - type: x
       - type: x
@@ -27,6 +28,7 @@ players:
   - name: Bob
     cards:
       - type: x
+      - negate: r
       - type: x
         above:
           text:

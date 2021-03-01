@@ -21,12 +21,16 @@ players:
       - type: rm
         above: Red 3
         below: Prompt
+      - negate: r
+      - negate: m
       - type: r
       - type: x
       - type: x
       - type: x
   - name: Cathy
     cards:
+      - negate: r
+      - negate: m
       - type: x
       - type: x
       - type: r
