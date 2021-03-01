@@ -9,6 +9,7 @@ players:
   - name: Alice
     cluegiver: yes
     cards:
+      - negate: 3
       - type: x
       - type: x
       - type: 3
@@ -17,6 +18,7 @@ players:
       - type: x
   - name: Bob
     cards:
+      - negate: 3
       - type: x
       - type: 3
         ontop: (R)

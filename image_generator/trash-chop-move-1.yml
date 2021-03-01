@@ -16,6 +16,7 @@ players:
       - type: x
   - name: Bob
     cards:
+      - negate: 1
       - type: x
       - type: x
       - type: x
@@ -36,6 +37,7 @@ players:
   - name: Bob
     cards:
       - type: x
+      - negate: 1
       - type: x
       - type: x
       - type: x

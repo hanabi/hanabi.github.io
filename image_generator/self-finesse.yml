@@ -24,6 +24,7 @@ players:
       - type: x
   - name: Cathy
     cards:
+      - negate: 3
       - type: x
         above: Red 2
       - type: 3

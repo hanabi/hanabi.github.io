@@ -25,6 +25,7 @@ players:
       - type: x
   - name: Cathy
     cards:
+      - negate: 3
       - type: 3
         clue: 3
         ontop: (P)

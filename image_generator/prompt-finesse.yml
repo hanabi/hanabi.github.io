@@ -19,6 +19,7 @@ players:
       - type: x
         above: Red 3
       - type: x
+      - negate: r
       - type: x
       - type: r
         ontop: (2)
@@ -28,6 +29,7 @@ players:
       - type: r
         ontop: (4)
         clue: r
+      - negate: r
       - type: x
       - type: x
       - type: x
