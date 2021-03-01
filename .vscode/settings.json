@@ -5,4 +5,16 @@
   },
   "files.eol": "\n",
   "files.trimTrailingWhitespace": true,
+
+  // Use "black" to automatically format Python files
+  // https://github.com/psf/black
+  "python.formatting.provider": "black",
+  "python.linting.pylintEnabled": true,
+  "python.linting.enabled": true,
+
+  // Automatically run the formatter when a Python file is saved
+  "[python]": {
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4,
+  },
 }
