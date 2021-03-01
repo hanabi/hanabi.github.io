@@ -64,5 +64,8 @@ The following is a rough description of how some variants map to convention leve
 | 3/4/6 Suits | 2
 | Black       | 4
 | Rainbow     | 4
+| White       | 4
 | Pink        | 12
 | Brown       | 12
+| Omni        | 12
+| Null        | 23
