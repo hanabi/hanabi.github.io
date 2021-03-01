@@ -39,4 +39,9 @@ for subdirectory_path in subdirectories:
 
         stdin = open(file_path, "r")
         stdout = open(output_file_path, "w")
-        subprocess.run(["python", CREATE_SVG_SCRIPT_PATH], stdin=stdin, stdout=stdout)
+        if os.name == "nt":
+            subprocess.run(
+                ["python", CREATE_SVG_SCRIPT_PATH], stdin=stdin, stdout=stdout
+            )
+        else:
+            subprocess.run([CREATE_SVG_SCRIPT_PATH], stdin=stdin, stdout=stdout)
