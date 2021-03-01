@@ -7,7 +7,8 @@ set -e # Exit on any errors
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
 # First, build all the SVG files from the YAML specifications (to show off example game states)
-pip install -r "$DIR/image-generator/requirements.txt"
+rm -rf "$DIR/statuc/img/generated"
+pip install --quiet --requirement "$DIR/image-generator/requirements.txt"
 if [ "$(expr substr $(uname -s) 1 5)" == "MINGW" ]; then
   python "$DIR/image-generator/create-svg-all.py"
 else
@@ -16,4 +17,5 @@ fi
 
 # Second, build the website, which will go into the "build" subdirectory
 cd "$DIR"
+rm -rf "$DIR/build"
 npm run build
