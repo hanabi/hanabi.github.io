@@ -1,5 +1,6 @@
 name: Spell Check & Lint
 
+# We want this to be in a separate file from "deploy.xml" because we want this to run on pull requests
 on: [push, pull_request]
 
 jobs:
@@ -26,10 +27,11 @@ jobs:
       - name: Install node modules
         run: npm install
 
+      # Use cspell to spell check every Markdown file
       - name: Spell check
         run: ./spell-check/spell-check.sh
 
-      # Perform some checks using remark
+      # Perform some additional checks using remark
       # https://github.com/remarkjs/remark
       - name: Lint
         run: ./lint.sh
