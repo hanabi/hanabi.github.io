@@ -15,6 +15,7 @@ dir_path = os.path.dirname(os.path.realpath(__file__))
 # Constants
 YAML_DIR = "yml"
 SVG_DIR = os.path.join(dir_path, "..", "static", "img", "generated")
+CREATE_SVG_SCRIPT_PATH = os.path.join(dir_path, "create-svg.py")
 
 # Get all the subdirectories of the YAML directory
 subdirectories = glob.glob(os.path.join(dir_path, YAML_DIR, "*"))
@@ -38,4 +39,4 @@ for subdirectory_path in subdirectories:
 
         stdin = open(file_path, "r")
         stdout = open(output_file_path, "w")
-        subprocess.run(["python", "./create-svg.py"], stdin=stdin, stdout=stdout)
+        subprocess.run(["python", CREATE_SVG_SCRIPT_PATH], stdin=stdin, stdout=stdout)

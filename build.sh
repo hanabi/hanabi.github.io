@@ -9,7 +9,11 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 cd "$DIR"
 
 # First, build all the SVG files from the YAML specifications (to show off example game states)
-"$DIR/image-generator/create-svg-all.py"
+if [ "$(expr substr $(uname -s) 1 5)" == "MINGW" ]; then
+  python "$DIR/image-generator/create-svg-all.py"
+else
+  "$DIR/image-generator/create-svg-all.py"
+fi
 
 # Second, build the website, which will go into the "build" subdirectory
 npm run build
