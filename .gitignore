@@ -3,6 +3,7 @@ node_modules
 
 # Production
 /build
+/static/img/generated
 
 # Generated files
 .docusaurus

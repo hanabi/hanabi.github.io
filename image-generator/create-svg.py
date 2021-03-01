@@ -1,13 +1,16 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 
-import sys
-import re
 import io
 import math
+import re
+import sys
 
-import yaml
 import svgwrite
+import yaml
 
+if sys.version_info < (3, 0):
+    print("This script requires Python 3.x.")
+    sys.exit(1)
 
 # hack to change text color via CSS. Class name would be more proper, but it's mangled by docusaurus.
 THEME_TEXT_COLOR = "#000001"
