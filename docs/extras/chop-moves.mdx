@@ -2,6 +2,8 @@
 id: chop-moves
 title: Chop Moves
 ---
+import DoubleOCM from '@site/static/img/examples/double-order-chop-move.svg';
+import MisplayCM from '@site/static/img/examples/misplay-chop-move.svg';
 
 ### The Chop Transfer
 
@@ -18,6 +20,7 @@ title: Chop Moves
   - Alice clues Bob red, touching one card on slot 1 as a *Play Clue*.
   - Bob assumes that it is a red 3 and immediately plays the card. However, it is actually a red 4 and misplays.
   - Bob knows that if Alice is not making a mistake, then she must be trying to communicate something special. Similar to a *Trash Chop Move*, Bob can reason that multiple cards in his hand are important. He marks slot 2, slot 3, slot 4, and slot 5 as being *Chop Moved*.
+<MisplayCM className="example" />
 - The *Misplay Chop Move* is the most costly type of chop move, so it should only be performed in a situation where no other kind of *Chop Move* would work.
 
 ### Double Order Chop Move (for 3-Player Games)
@@ -27,6 +30,7 @@ title: Chop Moves
 - In a 4 or 5-player game, skipping over three 1's would *Chop Move* the player three seats away. However, in a 3-player game, this would be nonsensical, since there are only 3 players in total.
 - Thus, in a 3-player game, skipping over three 1's should *Double Chop Move* the very next player.
 - In the rare case where four things are skipped over, it should skip over the next player and *Double Chop Move* the player after that.
+<DoubleOCM className="example" />
 
 ### Spillover Chop Move
 

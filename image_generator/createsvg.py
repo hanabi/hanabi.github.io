@@ -42,11 +42,17 @@ def textbox(opts, offset):
         if type(text) == str:
             text = [text]
         color = opts.get('color', 'black')
-    r = draw.add(draw.svg((xoff+3, yoff+offset), (64, 20 * len(text))))
+    # TODO: make this widening more generic
+    if text[0].startswith('Rainbow'):
+        wid = 85
+        r = draw.add(draw.svg((xoff-10, yoff+offset), (wid, 20 * len(text))))
+    else:
+        wid = 64
+        r = draw.add(draw.svg((xoff+3, yoff+offset), (wid, 20 * len(text))))
     textcolor = 'black' if color == 'gold' else 'white'
-    r.add(draw.rect((0, 0), (64, 20 * len(text)), stroke=textcolor, fill=color))
+    r.add(draw.rect((0, 0), (wid, 20 * len(text)), stroke=textcolor, fill=color))
     for i, line in enumerate(text):
-        l = r.add(draw.svg((0, 20 * i), (64, 20)))
+        l = r.add(draw.svg((0, 20 * i), (wid, 20)))
         t = l.add(draw.text(line, x=['50%'], y=['50%'], fill=textcolor))
         t['text-anchor'] = 'middle'
         t['dominant-baseline'] = 'central'
