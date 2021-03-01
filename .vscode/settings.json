@@ -1,5 +1,8 @@
 // These are Visual Studio Code settings that should apply to this particular repository
 {
+  "files.associations": {
+    "*.mdx": "markdown", // mdx is "Markdown Extended", which are just Markdown files
+  },
   "files.eol": "\n",
   "files.trimTrailingWhitespace": true,
 }

@@ -18,13 +18,18 @@ import ClandestineFinesse from '@site/static/img/examples/clandestine-finesse.sv
 ### Prompts in Multi-Color Variants
 
 - In multi-color variants, *Prompts* apply to the card with the most positive information.
+
+<PromptMultiColor className="example" />
+
 - For example, in a 3-player rainbow game:
   - Red 2 is played on the stacks.
   - Alice clues red to Cathy, touching a red 4 as a *Play Clue*. This is a *Prompt* on Bob for a red 3.
   - In slot 1, Bob has a card with only a red clue on it. (Thus, it can be any red card or any rainbow card.)
   - In slot 2, Bob has a card with a red clue and a 3 clue on it. (Thus, it can be red 3 or rainbow 3.)
   - Since slot 2 has more positive information, Bob should choose to play slot 2 as red 3 (instead of slot 1, the left-most card).
-<PromptMultiColor className="example" />
+
+<PromptMultiColorNoNegative className="example" />
+
 - Players are **not** supposed to use information from negative clues.
 - For example, in a 3-player rainbow game:
   - Red 2 is played on the stacks.
@@ -32,13 +37,15 @@ import ClandestineFinesse from '@site/static/img/examples/clandestine-finesse.sv
   - In slot 1, Bob has a card with a positive red clue on it. (Thus, it can be any red card or any rainbow card.)
   - In slot 2, Bob has a card with a positive red clue on it and a negative green clue on it. (Thus, it can be any red card.)
   - Even though slot 2 is technically more likely to be the red 3, Bob knows that players are not supposed to use negative information for determining which card to play into a *Prompt*. Thus, Bob plays the red 3 from slot 1.
-<PromptMultiColorNoNegative className="example" />
 - For advanced players, also see the section on *[Double Prompts in Multi-Color Variants](extras/miscellaneous.md#double-prompts-in-multi-color-variants)*.
 
 ### The Hidden Finesse
 
 - Sometimes, you want to *Finesse* someone with a clued card already in their hand. However, if you try to *Finesse* them, they will assume it is a *Prompt* and will play their clued card. Which means that a lot of the time, you can't give a *Finesse*, and must instead clue the card directly.
 - However, what if the clued card actually is playable? In that case, you can still do the *Finesse* - they will play the *Prompted* card, see that it wasn't the card you had intended, and then blind-play their 2nd newest card on the next turn. This is called a *Hidden Finesse* because the *Finesse* was temporarily hidden by the presence of clued card.
+
+<HiddenFinesse className="example" />
+
 - For example, in a 3-player game:
   - Red 1 and rainbow 2 are played on the stacks.
   - Alice clues red to Cathy, which touches her red 3.
@@ -47,7 +54,6 @@ import ClandestineFinesse from '@site/static/img/examples/clandestine-finesse.sv
   - Bob knows that he really must have the red 2, and it must have been on *Finesse Position* when Alice originally gave the clue. Since he just drew a card after he played the rainbow 3, he now knows that the red 2 is on his slot 2 (the second-newest card).
   - On Bob's next turn, he blind-plays his the red 2 from slot 2.
   - In this example, the red 2 was "hidden" by the rainbow 3.
-<HiddenFinesse className="example" />
 
 ### The Layered Finesse
 
@@ -56,7 +62,7 @@ import ClandestineFinesse from '@site/static/img/examples/clandestine-finesse.sv
 
 <LayeredFinesse className="example" />
 
-- For example, in the above screenshot:
+- For example, in a 3-player game:
   - It is the first turn of the game and nothing is played on the stacks.
   - Alice clues green to Bob, touching a green 2 as a *Play Clue*.
   - Normally, Bob would think that he has the green 1. However, he also sees that this could be a *Reverse Layered Finesse* on Cathy. Thus, Bob cannot play anything right now - he must wait and see what Cathy does.
@@ -78,7 +84,7 @@ import ClandestineFinesse from '@site/static/img/examples/clandestine-finesse.sv
 
 <ClandestineFinesse className="example" />
 
-- For example, in the above screenshot:
+- For example, in a 3-player game:
   - Alice clues number 3 to Cathy, which touches the purple 3 on slot 1 and the green 3 on slot 4. Thus, the purple 3 is the focus of the clue. This must be a *Play Clue* on the purple 3.
   - Bob knows that the purple 3 is currently unplayable, so it must be a *Finesse*. He blind-plays his *Finesse Position* as purple 2, but it is a red 2 instead and successfully plays.
   - Normally, Cathy would think that she has the red 3 on her slot 1, because the card that was blind-played matches the clue. (Number 2 matches number 3.)

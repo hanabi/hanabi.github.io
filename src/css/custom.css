@@ -47,3 +47,7 @@
 svg.example text[fill='#000001'] {
   fill: var(--ifm-font-color-base);
 }
+
+.example {
+  width: 100%;
+}
