@@ -16,11 +16,11 @@
     </filter>
   </defs>
   <text dy="30" fill="#000001" font-size="24" x="20">Double Order Chop Move</text>
-  <image height="100" width="70" x="0" xlink:href="/img/pieces/back-r.png" y="50"/>
-  <image height="100" width="70" x="72" xlink:href="/img/pieces/back-y.png" y="50"/>
-  <image height="100" width="70" x="144" xlink:href="/img/pieces/back-g.png" y="50"/>
-  <image height="100" width="70" x="216" xlink:href="/img/pieces/back-b.png" y="50"/>
-  <image height="100" width="70" x="288" xlink:href="/img/pieces/back-p.png" y="50"/>
+  <image height="100" width="70" x="0" xlink:href="/img/pieces/back-r.svg" y="50"/>
+  <image height="100" width="70" x="72" xlink:href="/img/pieces/back-y.svg" y="50"/>
+  <image height="100" width="70" x="144" xlink:href="/img/pieces/back-g.svg" y="50"/>
+  <image height="100" width="70" x="216" xlink:href="/img/pieces/back-b.svg" y="50"/>
+  <image height="100" width="70" x="288" xlink:href="/img/pieces/back-p.svg" y="50"/>
   <text dy="50" fill="#000001" x="360" y="0">Alice</text>
   <svg height="100" width="70" x="420" y="10">
     <defs/>
@@ -210,7 +210,18 @@
   <text dy="70" fill="#000001" x="360" y="125">(clue</text>
   <text dy="90" fill="#000001" x="360" y="125">giver)</text>
   <rect fill="orange" height="102" rx="2" ry="2" width="72" x="419" y="124"/>
-  <image height="100" width="70" x="420" xlink:href="/img/pieces/1.png" y="125"/>
+  <svg height="100" width="70" x="420" y="125">
+    <defs/>
+    <image height="100" width="70" x="0" xlink:href="/img/pieces/1.svg" y="0"/>
+    <svg height="100" viewBox="-35 -50 70 100" width="70" x="0" y="0">
+      <defs/>
+      <image height="12" style="filter: url(#shadow)" transform="translate(-0.0, -20.0)" width="12" x="-6" xlink:href="/img/pieces/pip-r.svg" y="-6"/>
+      <image height="12" style="filter: url(#shadow)" transform="translate(-19.02113032590307, -6.180339887498949)" width="12" x="-6" xlink:href="/img/pieces/pip-y.svg" y="-6"/>
+      <image height="12" style="filter: url(#shadow)" transform="translate(-11.755705045849465, 16.180339887498945)" width="12" x="-6" xlink:href="/img/pieces/pip-g.svg" y="-6"/>
+      <image height="12" style="filter: url(#shadow)" transform="translate(11.75570504584946, 16.180339887498953)" width="12" x="-6" xlink:href="/img/pieces/pip-b.svg" y="-6"/>
+      <image height="12" style="filter: url(#shadow)" transform="translate(19.021130325903073, -6.180339887498945)" width="12" x="-6" xlink:href="/img/pieces/pip-p.svg" y="-6"/>
+    </svg>
+  </svg>
   <image height="70" width="50" x="430" xlink:href="/img/pieces/clue-1.png" y="85"/>
   <svg height="80" width="64" x="423" y="230">
     <defs/>
@@ -233,7 +244,18 @@
     </svg>
   </svg>
   <rect fill="orange" height="102" rx="2" ry="2" width="72" x="493" y="124"/>
-  <image height="100" width="70" x="494" xlink:href="/img/pieces/1.png" y="125"/>
+  <svg height="100" width="70" x="494" y="125">
+    <defs/>
+    <image height="100" width="70" x="0" xlink:href="/img/pieces/1.svg" y="0"/>
+    <svg height="100" viewBox="-35 -50 70 100" width="70" x="0" y="0">
+      <defs/>
+      <image height="12" style="filter: url(#shadow)" transform="translate(-0.0, -20.0)" width="12" x="-6" xlink:href="/img/pieces/pip-r.svg" y="-6"/>
+      <image height="12" style="filter: url(#shadow)" transform="translate(-19.02113032590307, -6.180339887498949)" width="12" x="-6" xlink:href="/img/pieces/pip-y.svg" y="-6"/>
+      <image height="12" style="filter: url(#shadow)" transform="translate(-11.755705045849465, 16.180339887498945)" width="12" x="-6" xlink:href="/img/pieces/pip-g.svg" y="-6"/>
+      <image height="12" style="filter: url(#shadow)" transform="translate(11.75570504584946, 16.180339887498953)" width="12" x="-6" xlink:href="/img/pieces/pip-b.svg" y="-6"/>
+      <image height="12" style="filter: url(#shadow)" transform="translate(19.021130325903073, -6.180339887498945)" width="12" x="-6" xlink:href="/img/pieces/pip-p.svg" y="-6"/>
+    </svg>
+  </svg>
   <image height="70" width="50" x="504" xlink:href="/img/pieces/clue-1.png" y="85"/>
   <svg height="80" width="64" x="497" y="230">
     <defs/>
@@ -256,7 +278,18 @@
     </svg>
   </svg>
   <rect fill="orange" height="102" rx="2" ry="2" width="72" x="567" y="124"/>
-  <image height="100" width="70" x="568" xlink:href="/img/pieces/1.png" y="125"/>
+  <svg height="100" width="70" x="568" y="125">
+    <defs/>
+    <image height="100" width="70" x="0" xlink:href="/img/pieces/1.svg" y="0"/>
+    <svg height="100" viewBox="-35 -50 70 100" width="70" x="0" y="0">
+      <defs/>
+      <image height="12" style="filter: url(#shadow)" transform="translate(-0.0, -20.0)" width="12" x="-6" xlink:href="/img/pieces/pip-r.svg" y="-6"/>
+      <image height="12" style="filter: url(#shadow)" transform="translate(-19.02113032590307, -6.180339887498949)" width="12" x="-6" xlink:href="/img/pieces/pip-y.svg" y="-6"/>
+      <image height="12" style="filter: url(#shadow)" transform="translate(-11.755705045849465, 16.180339887498945)" width="12" x="-6" xlink:href="/img/pieces/pip-g.svg" y="-6"/>
+      <image height="12" style="filter: url(#shadow)" transform="translate(11.75570504584946, 16.180339887498953)" width="12" x="-6" xlink:href="/img/pieces/pip-b.svg" y="-6"/>
+      <image height="12" style="filter: url(#shadow)" transform="translate(19.021130325903073, -6.180339887498945)" width="12" x="-6" xlink:href="/img/pieces/pip-p.svg" y="-6"/>
+    </svg>
+  </svg>
   <image height="70" width="50" x="578" xlink:href="/img/pieces/clue-1.png" y="85"/>
   <svg height="60" width="64" x="571" y="230">
     <defs/>
@@ -275,7 +308,18 @@
     </svg>
   </svg>
   <rect fill="orange" height="102" rx="2" ry="2" width="72" x="641" y="124"/>
-  <image height="100" width="70" x="642" xlink:href="/img/pieces/1.png" y="125"/>
+  <svg height="100" width="70" x="642" y="125">
+    <defs/>
+    <image height="100" width="70" x="0" xlink:href="/img/pieces/1.svg" y="0"/>
+    <svg height="100" viewBox="-35 -50 70 100" width="70" x="0" y="0">
+      <defs/>
+      <image height="12" style="filter: url(#shadow)" transform="translate(-0.0, -20.0)" width="12" x="-6" xlink:href="/img/pieces/pip-r.svg" y="-6"/>
+      <image height="12" style="filter: url(#shadow)" transform="translate(-19.02113032590307, -6.180339887498949)" width="12" x="-6" xlink:href="/img/pieces/pip-y.svg" y="-6"/>
+      <image height="12" style="filter: url(#shadow)" transform="translate(-11.755705045849465, 16.180339887498945)" width="12" x="-6" xlink:href="/img/pieces/pip-g.svg" y="-6"/>
+      <image height="12" style="filter: url(#shadow)" transform="translate(11.75570504584946, 16.180339887498953)" width="12" x="-6" xlink:href="/img/pieces/pip-b.svg" y="-6"/>
+      <image height="12" style="filter: url(#shadow)" transform="translate(19.021130325903073, -6.180339887498945)" width="12" x="-6" xlink:href="/img/pieces/pip-p.svg" y="-6"/>
+    </svg>
+  </svg>
   <image height="70" width="50" x="652" xlink:href="/img/pieces/clue-1.png" y="85"/>
   <svg height="60" width="64" x="645" y="230">
     <defs/>
@@ -294,7 +338,18 @@
     </svg>
   </svg>
   <rect fill="orange" height="102" rx="2" ry="2" width="72" x="715" y="124"/>
-  <image height="100" width="70" x="716" xlink:href="/img/pieces/1.png" y="125"/>
+  <svg height="100" width="70" x="716" y="125">
+    <defs/>
+    <image height="100" width="70" x="0" xlink:href="/img/pieces/1.svg" y="0"/>
+    <svg height="100" viewBox="-35 -50 70 100" width="70" x="0" y="0">
+      <defs/>
+      <image height="12" style="filter: url(#shadow)" transform="translate(-0.0, -20.0)" width="12" x="-6" xlink:href="/img/pieces/pip-r.svg" y="-6"/>
+      <image height="12" style="filter: url(#shadow)" transform="translate(-19.02113032590307, -6.180339887498949)" width="12" x="-6" xlink:href="/img/pieces/pip-y.svg" y="-6"/>
+      <image height="12" style="filter: url(#shadow)" transform="translate(-11.755705045849465, 16.180339887498945)" width="12" x="-6" xlink:href="/img/pieces/pip-g.svg" y="-6"/>
+      <image height="12" style="filter: url(#shadow)" transform="translate(11.75570504584946, 16.180339887498953)" width="12" x="-6" xlink:href="/img/pieces/pip-b.svg" y="-6"/>
+      <image height="12" style="filter: url(#shadow)" transform="translate(19.021130325903073, -6.180339887498945)" width="12" x="-6" xlink:href="/img/pieces/pip-p.svg" y="-6"/>
+    </svg>
+  </svg>
   <image height="70" width="50" x="726" xlink:href="/img/pieces/clue-1.png" y="85"/>
   <text dy="50" fill="#000001" x="360" y="325">Cathy</text>
   <svg height="100" width="70" x="420" y="335">

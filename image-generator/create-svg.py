@@ -27,7 +27,7 @@ for color_value in input['stacks']:
         fname = '{}{}'.format(color, value)
     else:
         fname = 'back-{}'.format(color)
-    draw.add(draw.image('/img/pieces/{}.png'.format(fname), x=xoff, y=50, width=70, height=100))
+    draw.add(draw.image('/img/pieces/{}.svg'.format(fname), x=xoff, y=50, width=70, height=100))
     xoff += 72
 
 for line_dict in input['players']:
@@ -68,7 +68,6 @@ def textbox(opts, offset):
     return 20 * len(text)
 
 def draw_unknown_card(svg, positives):
-    svg.add(draw.rect((0, 0), (70, 100), fill='gray'))
     numwid = 70 / 5
     for n in range(1, 6):
         if n in positives:
@@ -111,6 +110,7 @@ for line_dict in input['players']:
             t = str(card['type'])
             if t == 'x':
                 s = draw.add(draw.svg((xoff, yoff + 10), (70, 100)))
+                s.add(draw.rect((0, 0), (70, 100), fill='gray'))
                 draw_unknown_card(s, (set(all_colors) | set(range(1, 6))) - negatives)
             else:
                 numbers = set(t) & {'1', '2', '3', '4', '5'}
@@ -124,11 +124,18 @@ for line_dict in input['players']:
                 draw.add(draw.rect((xoff-1, yoff-1), (72, 102), rx=2, ry=2, fill='orange'))
                 if len(numbers) > 1 and len(colors) > 1:
                     s = draw.add(draw.svg((xoff, yoff), (70, 100)))
+                    s.add(draw.rect((0, 0), (70, 100), fill='gray'))
                     draw_unknown_card(s, numbers | colors)
-                    # TODO: cards with a single digit
-                    # TODO: cards with a single color
+                elif len(numbers) == 1 and len(colors) > 1:
+                    s = draw.add(draw.svg((xoff, yoff), (70, 100)))
+                    s.add(draw.image('/img/pieces/{}.svg'.format(next(iter(numbers))), x=0, y=0, width=70, height=100))
+                    draw_unknown_card(s, colors)
+                elif len(numbers) > 1 and len(colors) == 1:
+                    s = draw.add(draw.svg((xoff, yoff), (70, 100)))
+                    s.add(draw.image('/img/pieces/{}.svg'.format(next(iter(colors))), x=0, y=0, width=70, height=100))
+                    draw_unknown_card(s, numbers)
                 else:
-                    draw.add(draw.image('/img/pieces/{}.png'.format(t), x=xoff, y=yoff + (10 if t == 'x' else 0), width=70, height=100))
+                    draw.add(draw.image('/img/pieces/{}.svg'.format(t), x=xoff, y=yoff, width=70, height=100))
             if 'clue' in card:
                 draw.add(draw.image('/img/pieces/clue-{}.png'.format(card['clue']), x=xoff+10, y=yoff-40, width=50, height=70))
                 if yoff < 20:

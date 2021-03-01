@@ -15,11 +15,11 @@
       </feMerge>
     </filter>
   </defs>
-  <image height="100" width="70" x="0" xlink:href="/img/pieces/r1.png" y="50"/>
-  <image height="100" width="70" x="72" xlink:href="/img/pieces/back-y.png" y="50"/>
-  <image height="100" width="70" x="144" xlink:href="/img/pieces/back-g.png" y="50"/>
-  <image height="100" width="70" x="216" xlink:href="/img/pieces/back-b.png" y="50"/>
-  <image height="100" width="70" x="288" xlink:href="/img/pieces/back-p.png" y="50"/>
+  <image height="100" width="70" x="0" xlink:href="/img/pieces/r1.svg" y="50"/>
+  <image height="100" width="70" x="72" xlink:href="/img/pieces/back-y.svg" y="50"/>
+  <image height="100" width="70" x="144" xlink:href="/img/pieces/back-g.svg" y="50"/>
+  <image height="100" width="70" x="216" xlink:href="/img/pieces/back-b.svg" y="50"/>
+  <image height="100" width="70" x="288" xlink:href="/img/pieces/back-p.svg" y="50"/>
   <text dy="20" fill="#000001" x="400" y="0">Later...</text>
   <text dy="50" fill="#000001" x="360" y="30">Bob</text>
   <svg height="100" width="70" x="420" y="40">
@@ -55,7 +55,7 @@
     </svg>
   </svg>
   <rect fill="orange" height="102" rx="2" ry="2" width="72" x="493" y="29"/>
-  <image height="100" width="70" x="494" xlink:href="/img/pieces/r2.png" y="30"/>
+  <image height="100" width="70" x="494" xlink:href="/img/pieces/r2.svg" y="30"/>
   <image height="70" width="50" x="504" xlink:href="/img/pieces/clue-2.png" y="-10"/>
   <svg height="100" width="70" x="568" y="40">
     <defs/>
