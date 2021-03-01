@@ -3,8 +3,6 @@ id: beginner
 title: Beginner's Guide
 ---
 
-import ImageSwitcher from '../src/pages/ImageSwitcher.js';
-
 - Are you looking to start playing Hanabi with the *Hyphen-ated Group*? Fantastic - we are always looking to welcome new players. Take 15 minutes and go over this guide so that you can get up to speed with the basics.
 - Alternatively, are you looking to learn some solid fundamental strategies to use to play Hanabi with your own group of friends? Feel free to adopt these strategies.
 - Is a 15 minute briefing really necessary? Well, yes and no. If you try to play with our group and don't understand what basic clues mean, it is going to be analogous to a group of people trying to find each other in a dark room by running around with their arms flailing.
@@ -143,7 +141,7 @@ In this guide, there will be some screenshots to show off the concepts introduce
 
 - Even though there are two copies of each 2, we agree that they are so important that we must save them in a manner similar to 5's.
 
-<ImageSwitcher src="/img/beginner/2-save.png" altText="The 2 Save" />
+![2 Save](/img/beginner/2-save.png)
 
 - In the above screenshot:
   - Alice clues Bob number 2, which touches a 2 on slot 3 and slot 5.
