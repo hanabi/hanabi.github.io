@@ -34,6 +34,28 @@ As noted in the [convention changes document](convention-changes.md), sometimes 
 - Now, *Double Ignition* can be on any two members of the team.
 - Sometimes, three players on the team will have playable cards on *Finesse Position*. If a *Double Ignition* is performed in this case, then similar to how an *Ambiguous Finesse* works, it will "get" the cards from the final two players. (Bob will do nothing because he sees that the *Double Ignition* is on Cathy and Donald.)
 
+**The Trash Double Ignition** (renamed)
+
+- The old *Double Ignition* has been renamed to the *Trash Double Ignition* to signify that it is initiated by cluing brand-new trash.
+
+**The Replay Double Ignition**
+
+- When a player re-clues a globally-known playable card, it is a "useless" clue.
+- Usually, when this occurs, it is because a player is in a [stalling situation](level-8.md#allowable-stall-clues-stall-table) and cannot discard. (This is most common in [the *End-Game*](level-7.md#burning-end-game-stalling).
+- If a player is not in a stalling situation, then they must be trying to send a deeper message - a *Double Ignition*. This is called a *Replay Double Ignition* because you are re-giving a *Play Clue*.
+- The *Replay Double Ignition* must not introduce any new cards as part of the clue.
+- The *Replay Double Ignition* can be performed all throughout the game. (Conversely, the *Trash Double Ignition* can only be performed towards the end of the game.)
+- Also, see the section on [Replay Ejection](extras/ejections.md#the-replay-ejection).
+
+### The Poke Double Ignition
+
+- When a player re-clues a globally-known trash card, it is a "useless" clue.
+- Usually, when this occurs, it is because a player is in a [stalling situation](level-8.md#allowable-stall-clues-stall-table) and cannot discard.
+- If a player is not in a stalling situation, then they must be trying to send a deeper message - a *Double Ignition*. This is called a *Poke Double Ignition* because by re-touching a trash card, it is like you are poking the player.
+- The *Poke Double Ignition* must not introduce any new cards as part of the clue.
+- The *Poke Double Ignition* can be performed all throughout the game. (Conversely, the *Trash Double Ignition* can only be performed towards the end of the game.)
+- Also, see the section on [Poke Ejection](extras/ejections.md#the-poke-ejection).
+
 @everyone New conventions:
 
 **Trash Push Ejection**
