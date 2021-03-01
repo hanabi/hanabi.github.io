@@ -13,6 +13,7 @@ input = yaml.load(sys.stdin, Loader=yaml.SafeLoader)
 print('<!-- generated via image_generator script in this repo -->')
 
 draw = svgwrite.Drawing()
+have_rainbow = False
 
 if 'title' in input:
     draw.add(draw.text(input['title'], x=[20], dy=[30], fill=THEME_TEXT_COLOR, **{'font-size': 24}))
@@ -38,7 +39,7 @@ def textbox(opts, offset):
     if type(opts) == str:
         text = [opts]
         color = text[0].split()[0].lower()
-        if color not in ('red', 'yellow', 'black', 'purple', 'blue', 'green'):
+        if color not in ('red', 'yellow', 'black', 'purple', 'blue', 'green', 'rainbow'):
             color = 'black'
     else:
         text = opts['text']
@@ -52,8 +53,13 @@ def textbox(opts, offset):
     else:
         wid = 64
         r = draw.add(draw.svg((xoff+3, yoff+offset), (wid, 20 * len(text))))
-    textcolor = 'black' if color == 'gold' else 'white'
-    r.add(draw.rect((0, 0), (wid, 20 * len(text)), stroke=textcolor, fill=color))
+    textcolor = 'black' if color in ('gold', 'rainbow') else 'white'
+    if color == 'rainbow':
+        r.add(draw.rect((0, 0), (wid, 20 * len(text)), stroke=textcolor, fill='url(#rainbowtext)'))
+        global have_rainbow
+        have_rainbow = True
+    else:
+        r.add(draw.rect((0, 0), (wid, 20 * len(text)), stroke=textcolor, fill=color))
     for i, line in enumerate(text):
         l = r.add(draw.svg((0, 20 * i), (wid, 20)))
         t = l.add(draw.text(line, x=['50%'], y=['50%'], fill=textcolor))
@@ -163,7 +169,14 @@ out = re.sub(r'<defs/>', '''<defs>
         <feMergeNode in="border"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
-    </filter>
+    </filter>''' + ('''
+    <linearGradient id="rainbowtext" x1="0" y1="0" x2="100%" y2="0">
+      <stop offset="0" stop-color="#ff7777"></stop>
+      <stop offset="0.25" stop-color="#ffff77"></stop>
+      <stop offset="0.5" stop-color="#77ff77"></stop>
+      <stop offset="0.75" stop-color="#77ffff"></stop>
+      <stop offset="1" stop-color="#7777ff"></stop>
+    </linearGradient>''' if have_rainbow else '') + '''
   </defs>''', out, count=1)
 
 print(out)

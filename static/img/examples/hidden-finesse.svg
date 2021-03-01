@@ -14,6 +14,13 @@
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
+    <linearGradient id="rainbowtext" x1="0" y1="0" x2="100%" y2="0">
+      <stop offset="0" stop-color="#ff7777"></stop>
+      <stop offset="0.25" stop-color="#ffff77"></stop>
+      <stop offset="0.5" stop-color="#77ff77"></stop>
+      <stop offset="0.75" stop-color="#77ffff"></stop>
+      <stop offset="1" stop-color="#7777ff"></stop>
+    </linearGradient>
   </defs>
   <text dy="30" fill="#000001" font-size="24" x="20">Hidden Finesse</text>
   <image height="100" width="70" x="0" xlink:href="/img/pieces/r1.png" y="50"/>
@@ -295,10 +302,10 @@
   </svg>
   <svg height="20" width="85" x="630" y="125">
     <defs/>
-    <rect fill="green" height="20" stroke="white" width="85" x="0" y="0"/>
+    <rect fill="url(#rainbowtext)" height="20" stroke="black" width="85" x="0" y="0"/>
     <svg height="20" width="85" x="0" y="0">
       <defs/>
-      <text dominant-baseline="central" fill="white" text-anchor="middle" x="50%" y="50%">Rainbow 3</text>
+      <text dominant-baseline="central" fill="black" text-anchor="middle" x="50%" y="50%">Rainbow 3</text>
     </svg>
   </svg>
   <svg height="100" width="70" x="714" y="135">
