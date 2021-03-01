@@ -15,11 +15,6 @@ else
   "$DIR/image-generator/create-svg-all.py"
 fi
 
-# DEBUG
-echo "-----------"
-cat "$DIR/static/img/generated/level-3/sarcastic-discard.svg"
-echo "-----------"
-
 # Second, build the website, which will go into the "build" subdirectory
 cd "$DIR"
 rm -rf "$DIR/build"
