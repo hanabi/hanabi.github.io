@@ -8,7 +8,7 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
 # First, build all the SVG files from the YAML specifications (to show off example game states)
 cd "$DIR/image-generator"
-pip install -r "$DIR/requirements.txt"
+pip install -r "$DIR/image-generator/requirements.txt"
 if [ "$(expr substr $(uname -s) 1 5)" == "MINGW" ]; then
   python "$DIR/image-generator/create-svg-all.py"
 else
