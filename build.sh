@@ -6,9 +6,9 @@ set -e # Exit on any errors
 # https://stackoverflow.com/questions/59895/getting-the-source-directory-of-a-bash-script-from-within
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
-cd "$DIR"
-
 # First, build all the SVG files from the YAML specifications (to show off example game states)
+cd "$DIR/image-generator"
+pip install -r "$DIR/requirements.txt"
 if [ "$(expr substr $(uname -s) 1 5)" == "MINGW" ]; then
   python "$DIR/image-generator/create-svg-all.py"
 else
@@ -16,4 +16,5 @@ else
 fi
 
 # Second, build the website, which will go into the "build" subdirectory
+cd "$DIR"
 npm run build
