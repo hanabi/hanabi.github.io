@@ -18,7 +18,7 @@ import SarcasticDiscard from '@site/static/img/generated/level-3/sarcastic-disca
 - Nearly every clue that is either a *Save Clue* or *Play Clue*. One small exception to this is a *Fix Clue*, which is an attempt to "fix" an impending misplay.
 - *Fix Clues* are often needed when a duplicate card is touched. Cards are not normally duplicated (which follows from *Good Touch Principle*), but sometimes someone makes a mistake, or a sequence of particular cards makes duplicating necessary. Duplicate cards will lead to misplays, so it is the team's responsibility to fix the problem and intervene before this happens.
 
-![Fix Clue](/img/level-2/fix-clue.png)
+![Fix Clue](/img/level-3/fix-clue-1.png)
 
 - In the above screenshot:
   - Before the clue was given, Alice had an unknown purple card in her hand.
@@ -26,7 +26,7 @@ import SarcasticDiscard from '@site/static/img/generated/level-3/sarcastic-disca
   - Bob clues number 3 to Alice, which "fills in" the purple card and reveals that it is purple 3.
   - Since Alice was just about to play this card, Alice knows that this was a *Fix Clue* and that she can now safely discard the purple 3.
 
-![Fix Clue](/img/level-2/fix-clue-2.png)
+![Fix Clue](/img/level-3/fix-clue-2.png)
 
 - **A clue cannot be a *Play Clue* and a *Fix Clue* at the same time.** If you receive a *Fix Clue* and it touches other ancillary cards, none of them are necessarily playable; the primary point of the clue is to fix the impending misplay.
 - In the above screenshot:
@@ -61,7 +61,7 @@ import SarcasticDiscard from '@site/static/img/generated/level-3/sarcastic-disca
 - If one or more 1's in your hand are clued, **you should assume that they are all playable**. (This only applies to 1's, and follows from *Good Touch Principle*.)
 - We agree that playing 1's at the beginning of the game is a special case - you should always **play the 1's in your starting hand from oldest to newest**. (This is a special case because normally, *Play Clues* mean to play the left-most card.)
 
-![Playing Multiple 1's](/img/level-3/playing-multiple-1s.png)
+![Playing Multiple 1's](/img/level-3/playing-multiple-1s-1.png)
 
 - In the above screenshot, on the first turn of the game, Alice clues number 1 to Bob, which touches three 1s on slot 2, slot 3, and slot 4.
 - From *Good Touch Principle*, Bob knows that he can now play all 3 of these cards.
