@@ -33,7 +33,7 @@ PLAYER_NAMES = [
 have_rainbow = False
 have_whitenum = False
 x_offset = 0
-x_offset_of_players_first_card = 0
+x_offset_where_player_begins = 0
 x_max = 0
 y_offset = 0
 y_top = 0
@@ -41,7 +41,7 @@ y_top = 0
 
 def main():
     global x_offset
-    global x_offset_of_players_first_card
+    global x_offset_where_player_begins
     global x_max
     global all_suits
 
@@ -62,8 +62,8 @@ def main():
     # Add a bit of spacing between the play stacks and the player hands
     x_offset += CARD_WIDTH + 4
 
-    x_offset_of_players_first_card = x_offset
-    x_max = x_offset_of_players_first_card
+    x_offset_where_player_begins = x_offset
+    x_max = x_offset_where_player_begins
 
     # Draw the player hands on the right side
     draw_player_hands(yaml_file, svg_file)
@@ -101,7 +101,7 @@ def draw_play_stacks(yaml_file, svg_file):
 def draw_player_hands(yaml_file, svg_file):
     global have_whitenum
     global x_offset
-    global x_offset_of_players_first_card
+    global x_offset_where_player_begins
     global x_max
     global y_offset
     global y_top
@@ -114,7 +114,7 @@ def draw_player_hands(yaml_file, svg_file):
             # e.g. "After discarding the 1..."
             text = svg_file.text(
                 player["text"],
-                x=[x_offset_of_players_first_card + 40],
+                x=[x_offset_where_player_begins + 40],
                 y=[y_offset],
                 dy=[20],
                 fill=THEME_TEXT_COLOR,
@@ -132,7 +132,7 @@ def draw_player_hands(yaml_file, svg_file):
             # Draw text with their name
             player_name_text = svg_file.text(
                 name,
-                x=[x_offset_of_players_first_card],
+                x=[x_offset_where_player_begins],
                 y=[y_offset],
                 dy=[50],
                 fill=THEME_TEXT_COLOR,
@@ -148,7 +148,7 @@ def draw_player_hands(yaml_file, svg_file):
                 # player name
                 pass
 
-            x_offset = x_offset_of_players_first_card + 60
+            x_offset = x_offset_where_player_begins + 60
 
             # We need to increase the size of image if there is a tall text box
             # "below" one of cards
