@@ -136,7 +136,7 @@ def draw_unknown_card(svg, positives):
             )
 
 
-ytop = 0
+y_top = 0
 Xoff = x_offset
 Xmax = Xoff
 
@@ -174,7 +174,7 @@ for line_dict in input["players"]:
                 )
             )
         x_offset = Xoff + 60
-        ybelow = 5
+        y_below = 5
         negatives = set()
         for card in line_dict["cards"]:
             if "negate" in card:
@@ -257,13 +257,13 @@ for line_dict in input["players"]:
                     )
                 )
                 if y_offset < 20:
-                    ytop = -20
+                    y_top = -20
             if "above" in card:
                 textbox(card["above"], 0)
             if "below" in card:
                 yb = textbox(card["below"], 105)
-                if yb > ybelow:
-                    ybelow = yb
+                if yb > y_below:
+                    y_below = yb
             if "ontop" in card:
                 color = {
                     "(R)": "red",
@@ -284,13 +284,13 @@ for line_dict in input["players"]:
                     )
                 )
             x_offset += 74
-        y_offset += 120 + ybelow
+        y_offset += 120 + y_below
         if x_offset > Xmax:
             Xmax = x_offset
 
 draw["width"] = Xmax
-draw["height"] = y_offset - ytop
-draw["viewBox"] = "0 {} {} {}".format(ytop, Xmax, y_offset)
+draw["height"] = y_offset - y_top
+draw["viewBox"] = "0 {} {} {}".format(y_top, Xmax, y_offset)
 
 out = io.StringIO()
 draw.write(out, pretty=True)
