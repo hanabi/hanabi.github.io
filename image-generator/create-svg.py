@@ -15,7 +15,7 @@ if sys.version_info < (3, 0):
     sys.exit(1)
 
 # Constants
-# A hack to change text color via CSS
+# Setting the theme text color is a hack to change text color via CSS
 # Using the class name would be more proper, but it is mangled by Docusaurus
 THEME_TEXT_COLOR = "#000001"
 CARD_ROUNDED_CORNER_SIZE = 5
@@ -29,7 +29,7 @@ PLAYER_NAMES = [
     "Emily",
 ]
 
-# Variables
+# Global variables
 have_rainbow = False
 have_whitenum = False
 x_offset = 0
@@ -109,6 +109,8 @@ def draw_player_hands(yaml_file, svg_file):
 
     for player_num, player in enumerate(yaml_file["players"]):
         if "text" in player:
+            # This is a text separator between a player to describe some event
+            # taking place
             text = svg_file.text(
                 player["text"],
                 x=[x_offset_of_players_first_card + 40],
