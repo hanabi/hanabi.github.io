@@ -33,38 +33,299 @@ PLAYER_NAMES = [
 have_rainbow = False
 have_whitenum = False
 x_offset = 0
+x_offset_of_players_first_card = 0
+x_max = 0
 y_offset = 0
 y_top = 0
 
 
-# -----------
-# Subroutines
-# -----------
+def main():
+    global x_offset
+    global x_offset_of_players_first_card
+    global x_max
+    global all_suits
+
+    # This script reads from standard in, expecting a YAML file
+    # Decode it to YAML
+    yaml_file = yaml.load(sys.stdin, Loader=yaml.SafeLoader)
+
+    # Use the stack colors to determine the available suits for this particular
+    # variant
+    all_suits = [next(iter(color_pair)) for color_pair in yaml_file["stacks"]]
+
+    # Create a new SVG file
+    svg_file = svgwrite.Drawing()
+
+    # Draw the play stacks on the top-left part of the image
+    x_offset = draw_play_stacks(yaml_file, svg_file)
+
+    # Add a bit of spacing between the play stacks and the player hands
+    x_offset += CARD_WIDTH + 4
+
+    x_offset_of_players_first_card = x_offset
+    x_max = x_offset_of_players_first_card
+
+    # Draw the player hands on the right side
+    draw_player_hands(yaml_file, svg_file)
+
+    # Set the dimensions for the SVG file
+    svg_file["width"] = x_max
+    svg_file["height"] = y_offset - y_top
+    svg_file["viewBox"] = "0 {} {} {}".format(y_top, x_max, y_offset)
+
+    # Print the SVG file to standard out
+    print_svg(svg_file)
 
 
-def draw_play_stacks():
+def draw_play_stacks(yaml_file, svg_file):
     spacing = 4
     x_offset = 0
 
     for color_value in yaml_file["stacks"]:
         color, value = next(iter(color_value.items()))
         file_name = "{}{}".format(color, value)
-        draw.add(
-            draw.image(
-                "{}/cards/{}.svg".format(PIECES_PATH, file_name),
-                x=x_offset,
-                y=50,
-                width=70,
-                height=100,
-            )
+        stack_base_or_card = svg_file.image(
+            "{}/cards/{}.svg".format(PIECES_PATH, file_name),
+            x=x_offset,
+            y=50,
+            width=70,
+            height=100,
         )
+        svg_file.add(stack_base_or_card)
 
         x_offset += CARD_WIDTH + spacing
 
     return x_offset
 
 
-def draw_textbox(opts, offset):
+def draw_player_hands(yaml_file, svg_file):
+    global have_whitenum
+    global x_offset
+    global x_offset_of_players_first_card
+    global x_max
+    global y_offset
+    global y_top
+    global all_suits
+
+    for player_num, player in enumerate(yaml_file["players"]):
+        if "text" in player:
+            text = svg_file.text(
+                player["text"],
+                x=[x_offset_of_players_first_card + 40],
+                y=[y_offset],
+                dy=[20],
+                fill=THEME_TEXT_COLOR,
+            )
+            svg_file.add(text)
+            y_offset += 30
+        else:
+            if "name" in player:
+                name = player["name"]
+            else:
+                name = PLAYER_NAMES[player_num]
+
+            svg_file.add(
+                svg_file.text(
+                    name,
+                    x=[x_offset_of_players_first_card],
+                    y=[y_offset],
+                    dy=[50],
+                    fill=THEME_TEXT_COLOR,
+                )
+            )
+            if "cluegiver" in player:
+                text = svg_file.text(
+                    "(clue",
+                    x=[x_offset_of_players_first_card],
+                    y=[y_offset],
+                    dy=[70],
+                    fill=THEME_TEXT_COLOR,
+                )
+                svg_file.add(text)
+
+                text = svg_file.text(
+                    "giver)",
+                    x=[x_offset_of_players_first_card],
+                    y=[y_offset],
+                    dy=[90],
+                    fill=THEME_TEXT_COLOR,
+                )
+                svg_file.add(text)
+
+            x_offset = x_offset_of_players_first_card + 60
+            y_below = 5
+            negatives = set()
+            for card in player["cards"]:
+                if "negate" in card:
+                    negatives.add(card["negate"])
+                    continue
+                t = str(card["type"])
+                if t == "x":
+                    s = svg_file.add(svg_file.svg((x_offset, y_offset + 10), (70, 100)))
+                    s.add(
+                        svg_file.rect(
+                            (0, 0),
+                            (70, 100),
+                            fill="gray",
+                            rx=CARD_ROUNDED_CORNER_SIZE,
+                            ry=CARD_ROUNDED_CORNER_SIZE,
+                        )
+                    )
+                    draw_unknown_card(
+                        svg_file, s, (set(all_suits) | set(range(1, 6))) - negatives
+                    )
+                else:
+                    numbers = set(t) & {"1", "2", "3", "4", "5"}
+                    if numbers:
+                        numbers = set(int(i) for i in numbers)
+                    else:
+                        numbers = set(range(1, 6)) - negatives
+                    colors = set(t) & set(
+                        next(iter(color_pair)) for color_pair in yaml_file["stacks"]
+                    )
+                    if not colors:
+                        colors = (
+                            set(
+                                next(iter(color_pair))
+                                for color_pair in yaml_file["stacks"]
+                            )
+                            - negatives
+                        )
+                    svg_file.add(
+                        svg_file.rect(
+                            (x_offset - 1, y_offset - 1),
+                            (72, 102),
+                            fill="orange",
+                            rx=CARD_ROUNDED_CORNER_SIZE,
+                            ry=CARD_ROUNDED_CORNER_SIZE,
+                        )
+                    )
+                    if len(numbers) > 1 and len(colors) > 1:
+                        s = svg_file.add(svg_file.svg((x_offset, y_offset), (70, 100)))
+                        rect = svg_file.rect(
+                            (0, 0),
+                            (70, 100),
+                            fill="gray",
+                            rx=CARD_ROUNDED_CORNER_SIZE,
+                            ry=CARD_ROUNDED_CORNER_SIZE,
+                        )
+                        s.add(rect)
+                        draw_unknown_card(svg_file, s, numbers | colors)
+                    elif len(numbers) == 1 and len(colors) > 1:
+                        s = svg_file.add(svg_file.svg((x_offset, y_offset), (70, 100)))
+                        s.add(
+                            svg_file.image(
+                                "{}/cards/{}.svg".format(
+                                    PIECES_PATH, next(iter(numbers))
+                                ),
+                                x=0,
+                                y=0,
+                                width=70,
+                                height=100,
+                            )
+                        )
+                        draw_unknown_card(svg_file, s, colors)
+                    elif len(numbers) > 1 and len(colors) == 1:
+                        s = svg_file.add(svg_file.svg((x_offset, y_offset), (70, 100)))
+                        s.add(
+                            svg_file.image(
+                                "{}/cards/{}.svg".format(
+                                    PIECES_PATH, next(iter(colors))
+                                ),
+                                x=0,
+                                y=0,
+                                width=70,
+                                height=100,
+                            )
+                        )
+                        draw_unknown_card(svg_file, s, numbers)
+                    else:
+                        svg_file.add(
+                            svg_file.image(
+                                "{}/cards/{}.svg".format(PIECES_PATH, t),
+                                x=x_offset,
+                                y=y_offset,
+                                width=70,
+                                height=100,
+                            )
+                        )
+                if "clue" in card:
+                    svg_file.add(
+                        svg_file.image(
+                            "{}/arrow.svg".format(PIECES_PATH),
+                            x=x_offset + 10,
+                            y=y_offset - 40,
+                            width=50,
+                            height=70,
+                        )
+                    )
+                    color = {
+                        "r": "red",
+                        "b": "blue",
+                        "g": "lightgreen",
+                        "y": "yellow",
+                        "p": "blueviolet",
+                    }.get(card["clue"], "black")
+                    svg_file.add(
+                        svg_file.circle(
+                            (x_offset + 35, y_offset - 15),
+                            r=15,
+                            fill=color,
+                            stroke="white" if color == "black" else "black",
+                            **{"stroke-width": 2}
+                        )
+                    )
+                    img = svg_file.add(
+                        svg_file.image(
+                            "{}/pips/{}.svg".format(PIECES_PATH, card["clue"]),
+                            x=x_offset + 27,
+                            y=y_offset - 23,
+                            width=16,
+                            height=16,
+                        )
+                    )
+                    if card["clue"] in range(1, 6):
+                        img["style"] = "filter: url(#whitenum)"
+                        have_whitenum = True
+                    else:
+                        img["style"] = "filter: url(#shadow)"
+
+                    if y_offset < 20:
+                        y_top = -20
+                if "above" in card:
+                    draw_textbox(svg_file, card["above"], 0)
+                if "below" in card:
+                    yb = draw_textbox(svg_file, card["below"], 105)
+                    if yb > y_below:
+                        y_below = yb
+                if "ontop" in card:
+                    color = {
+                        "(R)": "red",
+                        "(B)": "cyan",
+                        "(G)": "lightgreen",
+                        "(Y)": "yellow",
+                        "(P)": "violet",
+                    }.get(card["ontop"], "white")
+                    svg_file.add(
+                        svg_file.text(
+                            card["ontop"],
+                            x=[x_offset + 35],
+                            y=[y_offset],
+                            dy=[30],
+                            fill=color,
+                            stroke=color,
+                            style="filter: url(#shadow)",
+                        )
+                    )
+                x_offset += 74
+            y_offset += 120 + y_below
+            if x_offset > x_max:
+                x_max = x_offset
+
+
+def draw_textbox(svg_file, opts, offset):
+    global have_rainbow
+
     if type(opts) == str:
         text = [opts]
         color = text[0].split()[0].lower()
@@ -87,28 +348,29 @@ def draw_textbox(opts, offset):
     # TODO: make this widening more generic
     if text[0].startswith("Rainbow"):
         wid = 85
-        r = draw.add(
-            draw.svg((x_offset - 10, y_offset + offset), (wid, 20 * len(text)))
+        r = svg_file.add(
+            svg_file.svg((x_offset - 10, y_offset + offset), (wid, 20 * len(text)))
         )
     else:
         wid = 64
-        r = draw.add(draw.svg((x_offset + 3, y_offset + offset), (wid, 20 * len(text))))
+        r = svg_file.add(
+            svg_file.svg((x_offset + 3, y_offset + offset), (wid, 20 * len(text)))
+        )
     textcolor = "black" if color in ("gold", "rainbow") else "white"
 
     if color == "rainbow":
         r.add(
-            draw.rect(
+            svg_file.rect(
                 (0, 0),
                 (wid, 20 * len(text)),
                 stroke=textcolor,
                 fill="url(#rainbowtext)",
             )
         )
-        global have_rainbow
         have_rainbow = True
     else:
         r.add(
-            draw.rect(
+            svg_file.rect(
                 (0, 0),
                 (wid, 20 * len(text)),
                 stroke=textcolor,
@@ -117,23 +379,23 @@ def draw_textbox(opts, offset):
         )
 
     for i, line in enumerate(text):
-        l = r.add(draw.svg((0, 20 * i), (wid, 20)))
-        t = l.add(draw.text(line, x=["50%"], y=["50%"], fill=textcolor))
+        l = r.add(svg_file.svg((0, 20 * i), (wid, 20)))
+        t = l.add(svg_file.text(line, x=["50%"], y=["50%"], fill=textcolor))
         t["text-anchor"] = "middle"
         t["dominant-baseline"] = "central"
 
     return 20 * len(text)
 
 
-def draw_unknown_card(svg, positives):
+def draw_unknown_card(svg_file, svg, positives):
     rank_pip_width = CARD_WIDTH / 5
     for n in range(1, 6):
         if n in positives:
             rank_pip_rectangle = svg.add(
-                draw.svg(((n - 1) * rank_pip_width, 80), (rank_pip_width, 20))
+                svg_file.svg(((n - 1) * rank_pip_width, 80), (rank_pip_width, 20))
             )
             rank_pip_text_element = rank_pip_rectangle.add(
-                draw.text(
+                svg_file.text(
                     str(n),
                     x=["50%"],
                     y=["50%"],
@@ -143,13 +405,13 @@ def draw_unknown_card(svg, positives):
             )
             rank_pip_text_element["text-anchor"] = "middle"
             rank_pip_text_element["dominant-baseline"] = "central"
-    suit_pips_combined_svg = svg.add(draw.svg((0, 0), (70, 100)))
+    suit_pips_combined_svg = svg.add(svg_file.svg((0, 0), (70, 100)))
     suit_pips_combined_svg["viewBox"] = "-35 -50 70 100"
-    angle = 2 * math.pi / len(all_colors)
-    for i, color in enumerate(all_colors):
+    angle = 2 * math.pi / len(all_suits)
+    for i, color in enumerate(all_suits):
         if color in positives:
             suit_pips_combined_svg.add(
-                draw.image(
+                svg_file.image(
                     "{}/pips/{}.svg".format(PIECES_PATH, color),
                     x=-6,
                     y=-6,
@@ -163,296 +425,68 @@ def draw_unknown_card(svg, positives):
             )
 
 
-# ----
-# Main
-# ----
+def print_svg(svg_file):
+    global have_rainbow
+    global have_whitenum
 
-# This script reads from standard in, expecting a YAML file
-# Decode it to YAML
-yaml_file = yaml.load(sys.stdin, Loader=yaml.SafeLoader)
+    output = io.StringIO()
+    svg_file.write(output, pretty=True)
+    output = output.getvalue()
 
-# Use the stack colors to determine the available colors in this particular
-# variant
-all_colors = [next(iter(color_pair)) for color_pair in yaml_file["stacks"]]
+    # Workround for stupid Docusaurus/React error similar to this one:
+    # https://github.com/facebook/docusaurus/issues/3689
+    output = re.sub(r'xmlns:ev="(?:.*?)"', "", output)
 
-# Create a new SVG file
-draw = svgwrite.Drawing()
-
-# Draw the play stacks on the top-left part of the image
-x_offset = draw_play_stacks()
-
-# Add a bit of spacing between the play stacks and the player hands
-x_offset += 72
-
-x_offset_of_players_first_card = x_offset
-x_max = x_offset_of_players_first_card
-
-for player_num, player in enumerate(yaml_file["players"]):
-    if "text" in player:
-        draw.add(
-            draw.text(
-                player["text"],
-                x=[x_offset_of_players_first_card + 40],
-                y=[y_offset],
-                dy=[20],
-                fill=THEME_TEXT_COLOR,
-            )
+    # Add shadow filter manually, because svgwrite's API for it is awkward
+    output = re.sub(
+        r"<defs/>",
+        """<defs>
+        <filter id="shadow">
+        <feOffset in="SourceAlpha" dx="2" dy="2" result="offsetblur"/>
+        <feComponentTransfer result="shadow">
+            <feFuncA type="linear" slope="0.5"/>
+        </feComponentTransfer>
+        <feMorphology in="SourceAlpha" operator="dilate" radius="1" result="border"/>
+        <feMerge>
+            <feMergeNode in="shadow"/>
+            <feMergeNode in="border"/>
+            <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+        </filter>"""
+        + (
+            """
+        <filter id="whitenum">
+        <feComponentTransfer>
+            <feFuncR type="linear" slope="100"/>
+            <feFuncG type="linear" slope="100"/>
+            <feFuncB type="linear" slope="100"/>
+        </feComponentTransfer>
+        </filter>
+            """
+            if have_whitenum
+            else ""
         )
-        y_offset += 30
-    else:
-        if "name" in player:
-            name = player["name"]
-        else:
-            name = PLAYER_NAMES[player_num]
-
-        draw.add(
-            draw.text(
-                name,
-                x=[x_offset_of_players_first_card],
-                y=[y_offset],
-                dy=[50],
-                fill=THEME_TEXT_COLOR,
-            )
+        + (
+            """
+        <linearGradient id="rainbowtext" x1="0" y1="0" x2="100%" y2="0">
+        <stop offset="0" stop-color="#ff7777"></stop>
+        <stop offset="0.25" stop-color="#ffff77"></stop>
+        <stop offset="0.5" stop-color="#77ff77"></stop>
+        <stop offset="0.75" stop-color="#77ffff"></stop>
+        <stop offset="1" stop-color="#7777ff"></stop>
+        </linearGradient>"""
+            if have_rainbow
+            else ""
         )
-        if "cluegiver" in player:
-            draw.add(
-                draw.text(
-                    "(clue",
-                    x=[x_offset_of_players_first_card],
-                    y=[y_offset],
-                    dy=[70],
-                    fill=THEME_TEXT_COLOR,
-                )
-            )
-            draw.add(
-                draw.text(
-                    "giver)",
-                    x=[x_offset_of_players_first_card],
-                    y=[y_offset],
-                    dy=[90],
-                    fill=THEME_TEXT_COLOR,
-                )
-            )
-        x_offset = x_offset_of_players_first_card + 60
-        y_below = 5
-        negatives = set()
-        for card in player["cards"]:
-            if "negate" in card:
-                negatives.add(card["negate"])
-                continue
-            t = str(card["type"])
-            if t == "x":
-                s = draw.add(draw.svg((x_offset, y_offset + 10), (70, 100)))
-                s.add(
-                    draw.rect(
-                        (0, 0),
-                        (70, 100),
-                        fill="gray",
-                        rx=CARD_ROUNDED_CORNER_SIZE,
-                        ry=CARD_ROUNDED_CORNER_SIZE,
-                    )
-                )
-                draw_unknown_card(s, (set(all_colors) | set(range(1, 6))) - negatives)
-            else:
-                numbers = set(t) & {"1", "2", "3", "4", "5"}
-                if numbers:
-                    numbers = set(int(i) for i in numbers)
-                else:
-                    numbers = set(range(1, 6)) - negatives
-                colors = set(t) & set(
-                    next(iter(color_pair)) for color_pair in yaml_file["stacks"]
-                )
-                if not colors:
-                    colors = (
-                        set(
-                            next(iter(color_pair)) for color_pair in yaml_file["stacks"]
-                        )
-                        - negatives
-                    )
-                draw.add(
-                    draw.rect(
-                        (x_offset - 1, y_offset - 1),
-                        (72, 102),
-                        fill="orange",
-                        rx=CARD_ROUNDED_CORNER_SIZE,
-                        ry=CARD_ROUNDED_CORNER_SIZE,
-                    )
-                )
-                if len(numbers) > 1 and len(colors) > 1:
-                    s = draw.add(draw.svg((x_offset, y_offset), (70, 100)))
-                    s.add(
-                        draw.rect(
-                            (0, 0),
-                            (70, 100),
-                            fill="gray",
-                            rx=CARD_ROUNDED_CORNER_SIZE,
-                            ry=CARD_ROUNDED_CORNER_SIZE,
-                        )
-                    )
-                    draw_unknown_card(s, numbers | colors)
-                elif len(numbers) == 1 and len(colors) > 1:
-                    s = draw.add(draw.svg((x_offset, y_offset), (70, 100)))
-                    s.add(
-                        draw.image(
-                            "{}/cards/{}.svg".format(PIECES_PATH, next(iter(numbers))),
-                            x=0,
-                            y=0,
-                            width=70,
-                            height=100,
-                        )
-                    )
-                    draw_unknown_card(s, colors)
-                elif len(numbers) > 1 and len(colors) == 1:
-                    s = draw.add(draw.svg((x_offset, y_offset), (70, 100)))
-                    s.add(
-                        draw.image(
-                            "{}/cards/{}.svg".format(PIECES_PATH, next(iter(colors))),
-                            x=0,
-                            y=0,
-                            width=70,
-                            height=100,
-                        )
-                    )
-                    draw_unknown_card(s, numbers)
-                else:
-                    draw.add(
-                        draw.image(
-                            "{}/cards/{}.svg".format(PIECES_PATH, t),
-                            x=x_offset,
-                            y=y_offset,
-                            width=70,
-                            height=100,
-                        )
-                    )
-            if "clue" in card:
-                draw.add(
-                    draw.image(
-                        "{}/arrow.svg".format(PIECES_PATH),
-                        x=x_offset + 10,
-                        y=y_offset - 40,
-                        width=50,
-                        height=70,
-                    )
-                )
-                color = {
-                    "r": "red",
-                    "b": "blue",
-                    "g": "lightgreen",
-                    "y": "yellow",
-                    "p": "blueviolet",
-                }.get(card["clue"], "black")
-                draw.add(
-                    draw.circle(
-                        (x_offset + 35, y_offset - 15),
-                        r=15,
-                        fill=color,
-                        stroke="white" if color == "black" else "black",
-                        **{"stroke-width": 2}
-                    )
-                )
-                img = draw.add(
-                    draw.image(
-                        "{}/pips/{}.svg".format(PIECES_PATH, card["clue"]),
-                        x=x_offset + 27,
-                        y=y_offset - 23,
-                        width=16,
-                        height=16,
-                    )
-                )
-                if card["clue"] in range(1, 6):
-                    img["style"] = "filter: url(#whitenum)"
-                    have_whitenum = True
-                else:
-                    img["style"] = "filter: url(#shadow)"
-
-                if y_offset < 20:
-                    y_top = -20
-            if "above" in card:
-                draw_textbox(card["above"], 0)
-            if "below" in card:
-                yb = draw_textbox(card["below"], 105)
-                if yb > y_below:
-                    y_below = yb
-            if "ontop" in card:
-                color = {
-                    "(R)": "red",
-                    "(B)": "cyan",
-                    "(G)": "lightgreen",
-                    "(Y)": "yellow",
-                    "(P)": "violet",
-                }.get(card["ontop"], "white")
-                draw.add(
-                    draw.text(
-                        card["ontop"],
-                        x=[x_offset + 35],
-                        y=[y_offset],
-                        dy=[30],
-                        fill=color,
-                        stroke=color,
-                        style="filter: url(#shadow)",
-                    )
-                )
-            x_offset += 74
-        y_offset += 120 + y_below
-        if x_offset > x_max:
-            x_max = x_offset
-
-draw["width"] = x_max
-draw["height"] = y_offset - y_top
-draw["viewBox"] = "0 {} {} {}".format(y_top, x_max, y_offset)
-
-out = io.StringIO()
-draw.write(out, pretty=True)
-out = out.getvalue()
-# workround stupid docusaurus/react error similar to this one:
-# https://github.com/facebook/docusaurus/issues/3689
-out = re.sub(r'xmlns:ev="(?:.*?)"', "", out)
-# add shadow filter manually, because svgwrite's API for it is awkward
-out = re.sub(
-    r"<defs/>",
-    """<defs>
-    <filter id="shadow">
-    <feOffset in="SourceAlpha" dx="2" dy="2" result="offsetblur"/>
-    <feComponentTransfer result="shadow">
-        <feFuncA type="linear" slope="0.5"/>
-    </feComponentTransfer>
-    <feMorphology in="SourceAlpha" operator="dilate" radius="1" result="border"/>
-    <feMerge>
-        <feMergeNode in="shadow"/>
-        <feMergeNode in="border"/>
-        <feMergeNode in="SourceGraphic"/>
-    </feMerge>
-    </filter>"""
-    + (
-        """
-      <filter id="whitenum">
-      <feComponentTransfer>
-        <feFuncR type="linear" slope="100"/>
-        <feFuncG type="linear" slope="100"/>
-        <feFuncB type="linear" slope="100"/>
-      </feComponentTransfer>
-    </filter>
-        """
-        if have_whitenum
-        else ""
+        + """
+    </defs>""",
+        output,
+        count=1,
     )
-    + (
-        """
-    <linearGradient id="rainbowtext" x1="0" y1="0" x2="100%" y2="0">
-    <stop offset="0" stop-color="#ff7777"></stop>
-    <stop offset="0.25" stop-color="#ffff77"></stop>
-    <stop offset="0.5" stop-color="#77ff77"></stop>
-    <stop offset="0.75" stop-color="#77ffff"></stop>
-    <stop offset="1" stop-color="#7777ff"></stop>
-    </linearGradient>"""
-        if have_rainbow
-        else ""
-    )
-    + """
-</defs>""",
-    out,
-    count=1,
-)
 
-# Write the resulting SVG to stdout
-print(out)
+    # Write the resulting SVG to stdout
+    print(output)
+
+
+if __name__ == "__main__":
+    main()
