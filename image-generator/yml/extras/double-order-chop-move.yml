@@ -5,8 +5,7 @@ stacks:
   - b: 0
   - p: 0
 players:
-  - name: Alice
-    cards:
+  - cards:
       - type: x
       - type: x
       - type: x
@@ -22,8 +21,7 @@ players:
             - Chop
             - Move
           color: maroon
-  - name: Bob
-    cluegiver: yes
+  - cluegiver: yes
     cards:
       - type: 1
         clue: 1
@@ -61,8 +59,7 @@ players:
           color: darkblue
       - type: 1
         clue: 1
-  - name: Cathy
-    cards:
+  - cards:
       - type: x
       - type: x
       - type: x

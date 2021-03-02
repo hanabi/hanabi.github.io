@@ -6,8 +6,7 @@ stacks:
   - p: 0
 players:
   - text: Later...
-  - name: Bob
-    cards:
+  - cards:
       - negate: 2
       - type: x
       - type: r2
@@ -20,8 +19,7 @@ players:
           text:
             - Chop
             - Move
-  - name: Cathy
-    cluegiver: yes
+  - cluegiver: yes
     cards:
       - type: x
       - type: x

@@ -5,29 +5,25 @@ stacks:
   - b: 0
   - p: 0
 players:
-  - name: Alice
-    cluegiver: yes
+  - cluegiver: yes
     cards:
       - type: x
       - type: x
       - type: x
       - type: x
-  - name: Bob
-    cards:
+  - cards:
       - type: x
         above: Red 2
       - type: x
       - type: x
       - type: x
-  - name: Cathy
-    cards:
+  - cards:
       - type: x
         above: Red 3
       - type: x
       - type: x
       - type: x
-  - name: Donald
-    cards:
+  - cards:
       - type: r
         ontop: (4)
         clue: r

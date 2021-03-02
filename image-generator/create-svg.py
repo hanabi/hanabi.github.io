@@ -21,6 +21,13 @@ THEME_TEXT_COLOR = "#000001"
 CARD_ROUNDED_CORNER_SIZE = 5
 CARD_WIDTH = 70
 PIECES_PATH = "/img/pieces"
+PLAYER_NAMES = [
+    "Alice",
+    "Bob",
+    "Cathy",
+    "Donald",
+    "Emily",
+]
 
 # Variables
 have_rainbow = False
@@ -180,7 +187,7 @@ x_offset += 72
 x_offset_of_players_first_card = x_offset
 x_max = x_offset_of_players_first_card
 
-for player in yaml_file["players"]:
+for player_num, player in enumerate(yaml_file["players"]):
     if "text" in player:
         draw.add(
             draw.text(
@@ -193,9 +200,14 @@ for player in yaml_file["players"]:
         )
         y_offset += 30
     else:
+        if "name" in player:
+            name = player["name"]
+        else:
+            name = PLAYER_NAMES[player_num]
+
         draw.add(
             draw.text(
-                player["name"],
+                name,
                 x=[x_offset_of_players_first_card],
                 y=[y_offset],
                 dy=[50],

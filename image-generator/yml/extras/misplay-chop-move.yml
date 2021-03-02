@@ -5,16 +5,14 @@ stacks:
   - b: 2
   - p: 2
 players:
-  - name: Alice
-    cluegiver: yes
+  - cluegiver: yes
     cards:
       - type: x
       - type: x
       - type: x
       - type: x
       - type: x
-  - name: Bob
-    cards:
+  - cards:
       - type: r
         clue: r
         ontop: (4)
@@ -24,8 +22,7 @@ players:
       - type: x
       - type: x
   - text: After Red 4 bombs
-  - name: Bob
-    cards:
+  - cards:
       - type: x
       - negate: r
       - type: x

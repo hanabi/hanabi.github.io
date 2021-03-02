@@ -6,16 +6,14 @@ stacks:
   - p: 0
   - m: 2
 players:
-  - name: Alice
-    cluegiver: yes
+  - cluegiver: yes
     cards:
       - type: x
       - type: x
       - type: x
       - type: x
       - type: x
-  - name: Bob
-    cards:
+  - cards:
       - type: x
         above: Red 2
       - negate: r
@@ -25,8 +23,7 @@ players:
         above: Rainbow 3
       - type: x
       - type: x
-  - name: Cathy
-    cards:
+  - cards:
       - negate: r
       - negate: m
       - type: x
