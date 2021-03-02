@@ -38,6 +38,7 @@ x_offset_where_player_begins = 0
 x_max = 0
 y_offset = 0
 y_top = 0
+y_below = 0
 
 
 def main():
@@ -130,6 +131,7 @@ def draw_player_name_and_hand(yaml_file, svg_file, player_num, player):
     global x_offset_where_player_begins
     global x_max
     global y_offset
+    global y_below
 
     draw_player_name(svg_file, player_num, player)
 
@@ -180,6 +182,7 @@ def draw_player_card(yaml_file, svg_file, card, negatives):
     global x_max
     global y_offset
     global y_top
+    global y_below
     global all_suits
 
     if "negate" in card:
