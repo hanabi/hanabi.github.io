@@ -150,9 +150,8 @@ def draw_player_name_and_hand(yaml_file, svg_file, player_num, player):
     y_below = 5
 
     # Draw each card
-    negatives = set()
     for card in player["cards"]:
-        draw_player_card(yaml_file, svg_file, card, negatives)
+        draw_player_card(yaml_file, svg_file, card)
 
     y_offset += CARD_HEIGHT + y_below + VERTICAL_SPACING_BETWEEN_PLAYERS
     if x_offset > x_max:
@@ -185,19 +184,15 @@ def draw_player_name(svg_file, player_num, player):
         pass
 
 
-def draw_player_card(yaml_file, svg_file, card, negatives):
+def draw_player_card(yaml_file, svg_file, card):
     global x_offset
-
-    if "negate" in card:
-        negatives.add(card["negate"])
-        return
 
     card_type = str(card["type"])
     if card_type == "x":
         draw_unclued_card(yaml_file, svg_file, x_offset, y_offset)
     else:
         draw_clued_card(
-            yaml_file, svg_file, card_type, card, negatives, x_offset, y_offset
+            yaml_file, svg_file, card_type, card, x_offset, y_offset
         )
 
     draw_extra_card_attributes(svg_file, card)
@@ -217,11 +212,11 @@ def draw_unclued_card(yaml_file, svg_file, x_offset, y_offset):
     s.add(card_image)
 
     # Draw an unknown card with no pips visible
-    draw_unknown_card(yaml_file, svg_file, s, (set() | set()))
+    draw_unknown_card(yaml_file, svg_file, s, [])
 
 
 def draw_clued_card(
-    yaml_file, svg_file, card_type, card, negatives, x_offset, y_offset
+    yaml_file, svg_file, card_type, card, x_offset, y_offset
 ):
     # Draw the clue border
     clue_border_overlap = 4
@@ -239,22 +234,17 @@ def draw_clued_card(
 
     # Find the possible ranks
     ranks = set(card_type) & {"1", "2", "3", "4", "5"}
-    if ranks:
-        ranks = set(int(i) for i in ranks)
-    else:
-        ranks = set(range(1, 6)) - negatives
+    ranks = set(int(i) for i in ranks)
 
     # Find the possible suits
     suits = set(card_type) & set(all_suits)
-    if not suits:
-        suits = set(all_suits) - negatives
 
     # Most of the time, we don't want any pips to show
     pips_to_show = set()
     if "show_pips" in card:
         pips_to_show = ranks | suits
 
-    if len(ranks) > 1 and len(suits) > 1:
+    if len(ranks) != 1 and len(suits) != 1:
         # This is a card with an unknown rank and an unknown color
         s = svg_file.add(svg_file.svg((x_offset, y_offset), (CARD_WIDTH, CARD_HEIGHT)))
         rect = svg_file.rect(
@@ -265,10 +255,9 @@ def draw_clued_card(
             ry=CARD_ROUNDED_CORNER_SIZE,
         )
         s.add(rect)
-        # Always draw pips on clued cards with unknown rank + unknown color,
-        # even if the "show_pips" property is not set
+        # Always draw pips on clued cards with unknown rank + unknown color
         draw_unknown_card(yaml_file, svg_file, s, ranks | suits)
-    elif len(ranks) == 1 and len(suits) > 1:
+    elif len(ranks) == 1 and len(suits) != 1:
         # This is a card with a known rank and an unknown color
         card_image = svg_file.image(
             "{}/cards/{}.svg".format(PIECES_PATH, next(iter(ranks))),
@@ -279,8 +268,8 @@ def draw_clued_card(
         )
         s = svg_file.add(svg_file.svg((x_offset, y_offset), (CARD_WIDTH, CARD_HEIGHT)))
         s.add(card_image)
-        draw_unknown_card(yaml_file, svg_file, s, pips_to_show)
-    elif len(ranks) > 1 and len(suits) == 1:
+        draw_unknown_card(yaml_file, svg_file, s, suits)
+    elif len(ranks) != 1 and len(suits) == 1:
         # This is a card with a known color and an unknown rank
         card_image = svg_file.image(
             "{}/cards/{}.svg".format(PIECES_PATH, next(iter(suits))),
@@ -291,7 +280,7 @@ def draw_clued_card(
         )
         s = svg_file.add(svg_file.svg((x_offset, y_offset), (CARD_WIDTH, CARD_HEIGHT)))
         s.add(card_image)
-        draw_unknown_card(yaml_file, svg_file, s, pips_to_show)
+        draw_unknown_card(yaml_file, svg_file, s, ranks)
     else:
         # An exact card identity was specified
         # (e.g. "r1")
