@@ -22,13 +22,13 @@ players:
   - cards:
       - type: x
       - type: 3
-        above:
+        below:
           text: Playable
           color: darkgreen
       - type: x
       - type: x
       - type: 4
-        above:
+        below:
           text: Playable
           color: darkgreen
         clue: 4
