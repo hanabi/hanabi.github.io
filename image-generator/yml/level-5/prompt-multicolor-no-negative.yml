@@ -15,7 +15,6 @@ players:
       - type: x
   - cards:
       - type: rm
-        above: Red 3
         below: Prompt
       - type: r
       - type: x

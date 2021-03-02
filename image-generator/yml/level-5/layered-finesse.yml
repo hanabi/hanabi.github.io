@@ -13,8 +13,8 @@ players:
       - type: x
       - type: x
   - cards:
-      - type: g
-        clue: g
+      - type: r
+        clue: r
         on_top: (2)
       - type: x
       - type: x
@@ -24,7 +24,7 @@ players:
       - type: x
         above: Blue 1
       - type: x
-        above: Green 1
+        above: Red 1
       - type: x
       - type: x
       - type: x

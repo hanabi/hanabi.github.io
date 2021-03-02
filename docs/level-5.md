@@ -66,13 +66,14 @@ import ClandestineFinesse from '@site/static/img/generated/level-5/clandestine-f
 - We call this a *Layered Finesse* because the intended *Finesse* blind-play target is "layered" behind other playable cards.
 - For example, in a 3-player game:
   - It is the first turn of the game and nothing is played on the stacks.
-  - Alice clues green to Bob, touching a green 2 as a *Play Clue*.
-  - Normally, Bob would think that he has the green 1. However, he also sees that this could be a *Reverse Layered Finesse* on Cathy. Thus, Bob cannot play anything right now - he must wait and see what Cathy does.
-  - Bob clues yellow to Alice, touching the yellow 1 and the yellow 2 (as a *Play Clue* on the yellow 1).
-  - Cathy knows that this is a *Reverse Finesse* and that she has the green 1. Cathy blind-plays her *Finesse Position* card and it is a blue 1 instead. Cathy gasps in surprise.
-  - Alice plays the yellow 1.
-  - Bob knows that Cathy must have been trying to blind-play a green 1. Thus, he must have the green 2, and Alice did indeed perform a *Layered Finesse*. Bob clues number 5 to Cathy as a *5 Save*.
-  - Cathy was surprised that she played the blue 1 instead of the green 1. This must be a *Layered Finesse* and Cathy must really have the green 1. Cathy plays her *Second Finesse Position* and it is the green 1.
+  - Alice clues red to Bob, touching a red 2 as a *Play Clue*.
+  - Normally, Bob would think that he has the red 1. However, he also sees that this could be a *Reverse Layered Finesse* on Cathy. Thus, Bob cannot play anything right now - he must wait and see what Cathy does.
+  - Bob does something unrelated.
+  - Cathy knows that this is a *Reverse Finesse* and that she has the red 1. Cathy blind-plays her *Finesse Position* card. However, it is actually a blue 1, and it successfully plays. Cathy gasps in surprise.
+  - Alice does something unrelated.
+  - Bob knows that Cathy must have been trying to blind-play a red 1. Thus, he must have the red 2, and Alice did indeed perform a *Layered Finesse*.
+  - Bob does something unrelated.
+  - Cathy was surprised that she played the blue 1 instead of the red 1. This must be a *Layered Finesse* and Cathy must really have the red 1. Cathy plays her *Second Finesse Position* and it is the red 1.
 
 <LayeredFinesse className="example" />
 

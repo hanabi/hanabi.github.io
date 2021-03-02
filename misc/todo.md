@@ -1,8 +1,8 @@
-# TODO
+### TODO
 
 - right now, the numbers that are drawn on clue arrows are stylized incorrectly. we either need to:
   1. generate new number pips that actually match the website
-  2. use `ctx_file.text` to just draw text like you do for the number pips at the bottom of the card
+  1. use `ctx_file.text` to just draw text like you do for the number pips at the bottom of the card
 - beginner's guide
 - level 3
   - Fix Clues
