@@ -95,3 +95,19 @@ title: Level 13 - Trash Moves
 ### A Trash Flowchart
 
 There are a lot of different moves that involve cluing trash. [Here is a flowchart](https://raw.githubusercontent.com/hanabi/hanabi.github.io/main/static/img/flowcharts/cluing-trash-flowchart.png) for determining the difference between the different types of special moves that touch trash. (The flowchart contains some strategies that have not been covered yet, but the three most important moves to understand are the *Trash Chop Move*, the *Trash Finesse/Bluff*, and the *Trash Push*.)
+
+<br />
+
+## General Principles
+
+<br />
+
+### Simplicity Principle
+
+- First, see the section on *[Context](level-11.md#context)*.
+- In the Hyphen-ated group, we like to find the "best" move for every turn in the post-game review. This is fun and helps everybody improve. But this practice can be taken too far.
+- Sometimes, players will give clues that are very complicated. Maybe the clue looks like it could be two different moves. Or, maybe the clue relies on non-obvious contextual factors in the game that someone might miss.
+- Often, these kinds of complicated clues end up in misplays and lost games. And in the post-game review, the cluers get defensive: "if everyone just played perfectly, then my clue would have worked!"
+- It's natural for people to feel this way, because normally, if Alice performs a *Finesse*, and Bob is not paying attention and misses it, then we would say that Bob is at fault. But things are a little different when Alice gives a really complicated clue that Bob should *technically* be able to figure out, but doesn't. In this case, Bob shares a little of the blame, but it is mostly Alice that is at fault.
+- Part of being good at Hanabi is recognizing when you should **not** try to do the most-optimal clue for the turn, because it would be confusing for your teammates. Clue clarity is really important and you should prioritize it! In the post-game review, you can always say: "On turn X, I considered this more-efficient clue, but it did not seem very clear. So I did this other more-clear clue instead."
+- **Don't give confusing clues.** If you do decide to give a confusing clue, and it doesn't work out, then **you are at fault**. This principle is more important than nearly all other principles.
