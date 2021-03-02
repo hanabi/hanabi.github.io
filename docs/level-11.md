@@ -169,8 +169,8 @@ title: Level 11 - Context
 
 ### Cluing 1's in the Early Game
 
-- As outlined in the [level 3 strategy section](level-3.mdx#tempo), Hanabi is about balancing *Efficiency* and *Tempo*.
-- As outlined in the [level 6 strategy section](level-6.mdx#the-value-of-one-away-from-playable-cards), *one-away-from-playable* cards are valuable.
+- As outlined in the [level 3 strategy section](level-3.md#tempo), Hanabi is about balancing *Efficiency* and *Tempo*.
+- As outlined in the [level 6 strategy section](level-6.md#the-value-of-one-away-from-playable-cards), *one-away-from-playable* cards are valuable.
 - So, players have to balance *Efficiency*, *Tempo*, and "locking in" a touch on *one-away-from-playable* cards.
 - In the *Early Game*, it is very common for players to give a number 1 clue when they see a hand that has two or more 1's in it. And this type of clue is normally pretty good. But because of the previous considerations, sometimes it would be better to get the 1's with several color clues instead.
 
