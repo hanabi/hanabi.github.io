@@ -20,6 +20,7 @@ if sys.version_info < (3, 0):
 THEME_TEXT_COLOR = "#000001"
 CARD_ROUNDED_CORNER_SIZE = 5
 CARD_WIDTH = 70
+PIECES_PATH = "/img/pieces"
 
 # Variables
 have_rainbow = False
@@ -40,15 +41,10 @@ def draw_play_stacks():
 
     for color_value in yaml_file["stacks"]:
         color, value = next(iter(color_value.items()))
-
-        if value:
-            file_name = "{}{}".format(color, value)
-        else:
-            file_name = "back-{}".format(color)
-
+        file_name = "{}{}".format(color, value)
         draw.add(
             draw.image(
-                "/img/pieces/{}.svg".format(file_name),
+                "{}/cards/{}.svg".format(PIECES_PATH, file_name),
                 x=x_offset,
                 y=50,
                 width=70,
@@ -147,7 +143,7 @@ def draw_unknown_card(svg, positives):
         if color in positives:
             suit_pips_combined_svg.add(
                 draw.image(
-                    "/img/pieces/pip-{}.svg".format(color),
+                    "{}/pips/{}.svg".format(PIECES_PATH, color),
                     x=-6,
                     y=-6,
                     width=12,
@@ -286,7 +282,7 @@ for line_dict in yaml_file["players"]:
                     s = draw.add(draw.svg((x_offset, y_offset), (70, 100)))
                     s.add(
                         draw.image(
-                            "/img/pieces/{}.svg".format(next(iter(numbers))),
+                            "{}/cards/{}.svg".format(PIECES_PATH, next(iter(numbers))),
                             x=0,
                             y=0,
                             width=70,
@@ -298,7 +294,7 @@ for line_dict in yaml_file["players"]:
                     s = draw.add(draw.svg((x_offset, y_offset), (70, 100)))
                     s.add(
                         draw.image(
-                            "/img/pieces/{}.svg".format(next(iter(colors))),
+                            "{}/cards/{}.svg".format(PIECES_PATH, next(iter(colors))),
                             x=0,
                             y=0,
                             width=70,
@@ -309,7 +305,7 @@ for line_dict in yaml_file["players"]:
                 else:
                     draw.add(
                         draw.image(
-                            "/img/pieces/{}.svg".format(t),
+                            "{}/cards/{}.svg".format(PIECES_PATH, t),
                             x=x_offset,
                             y=y_offset,
                             width=70,
@@ -319,7 +315,7 @@ for line_dict in yaml_file["players"]:
             if "clue" in card:
                 draw.add(
                     draw.image(
-                        "/img/pieces/arrow.svg",
+                        "{}/arrow.svg".format(PIECES_PATH),
                         x=x_offset + 10,
                         y=y_offset - 40,
                         width=50,
@@ -344,7 +340,7 @@ for line_dict in yaml_file["players"]:
                 )
                 img = draw.add(
                     draw.image(
-                        "/img/pieces/pip-{}.svg".format(card["clue"]),
+                        "{}/pips/{}.svg".format(PIECES_PATH, card["clue"]),
                         x=x_offset + 27,
                         y=y_offset - 23,
                         width=16,
