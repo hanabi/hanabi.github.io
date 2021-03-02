@@ -418,21 +418,18 @@ def draw_extra_card_attributes(svg_file, card):
             "(Y)": "yellow",
             "(P)": "violet",
         }.get(card["middle_note"], "white")
+        r = svg_file.add(svg_file.svg((x_offset, y_offset), (CARD_WIDTH, CARD_HEIGHT)))
         text = svg_file.text(
             card["middle_note"],
-            x=[x_offset],
-            y=[y_offset],
-            # BUG: MAKE THIS BASED ON THE LENGTH OF THE TEXT
-            # 13 is a constant to account for the width of the text
-            dx=[(CARD_WIDTH / 2) - 13],
-            # BUG: MAKE THIS BASED ON THE LENGTH OF THE TEXT
-            # 2 is a constant to make the text centered
-            dy=[(CARD_HEIGHT / 2) + 6],
+            x=["50%"],
+            y=["50%"],
             fill=color,
             stroke=color,
             style="font-size: 1.5em; filter: url(#shadow);",
         )
-        svg_file.add(text)
+        text["text-anchor"] = "middle"
+        text["dominant-baseline"] = "central"
+        r.add(text)
 
 
 def draw_textbox(svg_file, opts, offset):
