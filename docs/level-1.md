@@ -28,7 +28,7 @@ import DelayedPlayClue from '@site/static/img/generated/level-1/delayed-play-clu
   - If the card will successfully play on the stacks **right now**, then the clue was a *Play Clue*.
   - If the card will successfully play on the stacks after other people have played cards of the same suit, then the clue was a *Delayed Play Clue* that was *through* other cards.
 
-
+<DelayedPlayClue className="example" />
 
 - For example, in a 4-player game:
   - It is the first turn of the game and nothing is played on the stacks.
