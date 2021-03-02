@@ -8,9 +8,11 @@ players:
   - text: Later...
   - name: Bob
     cards:
+      - negate: 2
       - type: x
       - type: r2
         clue: 2
+      - negate: r
       - type: x
       - type: x
       - type: x
