@@ -61,7 +61,7 @@ import SarcasticDiscard from '@site/static/img/generated/level-3/sarcastic-disca
 - If one or more 1's in your hand are clued, **you should assume that they are all playable**. (This only applies to 1's, and follows from *Good Touch Principle*.)
 - We agree that playing 1's at the beginning of the game is a special case - you should always **play the 1's in your starting hand from oldest to newest**. (This is a special case because normally, *Play Clues* mean to play the left-most card.)
 
-![Playing Multiple 1's](/img/level-3/playing-multiple-1s.png)
+![Playing Multiple 1's](/img/level-3/playing-multiple-1s-2.png)
 
 - In the above screenshot, on the first turn of the game, Alice clues number 1 to Bob, which touches three 1s on slot 2, slot 3, and slot 4.
 - From *Good Touch Principle*, Bob knows that he can now play all 3 of these cards.
@@ -76,7 +76,7 @@ import SarcasticDiscard from '@site/static/img/generated/level-3/sarcastic-disca
   - Bob plays the slot 4 card. (He then draws a card, and all of the other cards in his hand slide over.)
   - Alice clues 1's to Bob, which touches a brand new card on slot 1 and re-touches the ones on slot 3 and slot 4.
 
-![Playing Multiple 1's](/img/level-3/playing-multiple-1s-2.png)
+![Playing Multiple 1's](/img/level-3/playing-multiple-1s.png)
 
 - Bob knows that fresh 1's have precedence, so he plays the slot 1 card next. After that, he should play the slot 4 card, and then the slot 3 card (e.g. resuming the play order from before).
 
