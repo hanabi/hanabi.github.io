@@ -101,13 +101,13 @@ def textbox(opts, offset):
 
 
 def draw_unknown_card(svg, positives):
-    width_of_number_pip = 70 / 5
+    rank_pip_width = 70 / 5
     for n in range(1, 6):
         if n in positives:
-            numr = svg.add(
-                draw.svg(((n - 1) * width_of_number_pip, 80), (width_of_number_pip, 20))
+            rank_pip_rectangle = svg.add(
+                draw.svg(((n - 1) * rank_pip_width, 80), (rank_pip_width, 20))
             )
-            numt = numr.add(
+            rank_pip_text_element = rank_pip_rectangle.add(
                 draw.text(
                     str(n),
                     x=["50%"],
@@ -116,14 +116,14 @@ def draw_unknown_card(svg, positives):
                     style="filter: url(#shadow)",
                 )
             )
-            numt["text-anchor"] = "middle"
-            numt["dominant-baseline"] = "central"
-    rpips = svg.add(draw.svg((0, 0), (70, 100)))
-    rpips["viewBox"] = "-35 -50 70 100"
+            rank_pip_text_element["text-anchor"] = "middle"
+            rank_pip_text_element["dominant-baseline"] = "central"
+    suit_pips_combined_svg = svg.add(draw.svg((0, 0), (70, 100)))
+    suit_pips_combined_svg["viewBox"] = "-35 -50 70 100"
     angle = 2 * math.pi / len(all_colors)
     for i, color in enumerate(all_colors):
         if color in positives:
-            rpips.add(
+            suit_pips_combined_svg.add(
                 draw.image(
                     "/img/pieces/pip-{}.svg".format(color),
                     x=-6,
@@ -139,15 +139,15 @@ def draw_unknown_card(svg, positives):
 
 
 y_top = 0
-Xoff = x_offset
-Xmax = Xoff
+x_offset_of_players_first_card = x_offset
+x_max = x_offset_of_players_first_card
 
 for line_dict in input["players"]:
     if "text" in line_dict:
         draw.add(
             draw.text(
                 line_dict["text"],
-                x=[Xoff + 40],
+                x=[x_offset_of_players_first_card + 40],
                 y=[y_offset],
                 dy=[20],
                 fill=THEME_TEXT_COLOR,
@@ -158,7 +158,7 @@ for line_dict in input["players"]:
         draw.add(
             draw.text(
                 line_dict["name"],
-                x=[Xoff],
+                x=[x_offset_of_players_first_card],
                 y=[y_offset],
                 dy=[50],
                 fill=THEME_TEXT_COLOR,
@@ -167,15 +167,23 @@ for line_dict in input["players"]:
         if "cluegiver" in line_dict:
             draw.add(
                 draw.text(
-                    "(clue", x=[Xoff], y=[y_offset], dy=[70], fill=THEME_TEXT_COLOR
+                    "(clue",
+                    x=[x_offset_of_players_first_card],
+                    y=[y_offset],
+                    dy=[70],
+                    fill=THEME_TEXT_COLOR,
                 )
             )
             draw.add(
                 draw.text(
-                    "giver)", x=[Xoff], y=[y_offset], dy=[90], fill=THEME_TEXT_COLOR
+                    "giver)",
+                    x=[x_offset_of_players_first_card],
+                    y=[y_offset],
+                    dy=[90],
+                    fill=THEME_TEXT_COLOR,
                 )
             )
-        x_offset = Xoff + 60
+        x_offset = x_offset_of_players_first_card + 60
         y_below = 5
         negatives = set()
         for card in line_dict["cards"]:
@@ -287,12 +295,12 @@ for line_dict in input["players"]:
                 )
             x_offset += 74
         y_offset += 120 + y_below
-        if x_offset > Xmax:
-            Xmax = x_offset
+        if x_offset > x_max:
+            x_max = x_offset
 
-draw["width"] = Xmax
+draw["width"] = x_max
 draw["height"] = y_offset - y_top
-draw["viewBox"] = "0 {} {} {}".format(y_top, Xmax, y_offset)
+draw["viewBox"] = "0 {} {} {}".format(y_top, x_max, y_offset)
 
 out = io.StringIO()
 draw.write(out, pretty=True)
