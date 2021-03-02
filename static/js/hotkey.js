@@ -10,6 +10,14 @@ document.onkeydown = function(e) {
     return;
   }
 
+  // Do not do anything if we have the search box focused
+  const searchInputElements = document.getElementsByClassName("DocSearch-Input");
+  for (const searchInputElement of searchInputElements) {
+    if (document.activeElement === searchInputElement) {
+      return;
+    }
+  }
+
   if (e.key === "Enter") {
     const buttons = document.getElementsByClassName("button--secondary button--lg");
     if (buttons.length >= 1) {
