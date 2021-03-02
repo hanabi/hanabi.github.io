@@ -5,7 +5,7 @@ stacks:
   - b: 1
   - p: 1
 players:
-  - cluegiver: yes
+  - cluegiver: true
     cards:
       - type: x
       - type: x
@@ -33,7 +33,7 @@ players:
   # We need to add extra space here because the clue arrow blocks the text
   - text: ""
   - name: Alice
-    cluegiver: yes
+    cluegiver: true
     cards:
       - type: x
       - type: x

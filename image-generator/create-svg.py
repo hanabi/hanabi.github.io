@@ -485,8 +485,6 @@ def draw_textbox(svg_file, opts, offset):
             (width, 20 * len(text)),
             stroke=text_color,
             fill=color,
-            rx=CARD_ROUNDED_CORNER_SIZE,
-            ry=CARD_ROUNDED_CORNER_SIZE,
         )
         r.add(rect)
 
