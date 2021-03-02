@@ -12,7 +12,9 @@ if sys.version_info < (3, 0):
     print("This script requires Python 3.x.")
     sys.exit(1)
 
-# hack to change text color via CSS. Class name would be more proper, but it's mangled by docusaurus.
+# Constants
+# A hack to change text color via CSS
+# Using the class name would be more proper, but it is mangled by Docusaurus
 THEME_TEXT_COLOR = "#000001"
 
 input = yaml.load(sys.stdin, Loader=yaml.SafeLoader)
@@ -20,16 +22,11 @@ input = yaml.load(sys.stdin, Loader=yaml.SafeLoader)
 draw = svgwrite.Drawing()
 have_rainbow = False
 
-if "title" in input:
-    draw.add(
-        draw.text(
-            input["title"], x=[20], dy=[30], fill=THEME_TEXT_COLOR, **{"font-size": 24}
-        )
-    )
-
 all_colors = [next(iter(color_pair)) for color_pair in input["stacks"]]
 
-xoff = 0
+x_offset = 0
+y_offset = 0
+
 for color_value in input["stacks"]:
     color, value = next(iter(color_value.items()))
     if value:
@@ -38,10 +35,10 @@ for color_value in input["stacks"]:
         fname = "back-{}".format(color)
     draw.add(
         draw.image(
-            "/img/pieces/{}.svg".format(fname), x=xoff, y=50, width=70, height=100
+            "/img/pieces/{}.svg".format(fname), x=x_offset, y=50, width=70, height=100
         )
     )
-    xoff += 72
+    x_offset += 72
 
 for line_dict in input["players"]:
     if "cards" in line_dict:
@@ -71,10 +68,12 @@ def textbox(opts, offset):
     # TODO: make this widening more generic
     if text[0].startswith("Rainbow"):
         wid = 85
-        r = draw.add(draw.svg((xoff - 10, yoff + offset), (wid, 20 * len(text))))
+        r = draw.add(
+            draw.svg((x_offset - 10, y_offset + offset), (wid, 20 * len(text)))
+        )
     else:
         wid = 64
-        r = draw.add(draw.svg((xoff + 3, yoff + offset), (wid, 20 * len(text))))
+        r = draw.add(draw.svg((x_offset + 3, y_offset + offset), (wid, 20 * len(text))))
     textcolor = "black" if color in ("gold", "rainbow") else "white"
     if color == "rainbow":
         r.add(
@@ -134,8 +133,7 @@ def draw_unknown_card(svg, positives):
 
 
 ytop = 0
-yoff = 0
-Xoff = xoff
+Xoff = x_offset
 Xmax = Xoff
 
 for line_dict in input["players"]:
@@ -144,26 +142,34 @@ for line_dict in input["players"]:
             draw.text(
                 line_dict["text"],
                 x=[Xoff + 40],
-                y=[yoff],
+                y=[y_offset],
                 dy=[20],
                 fill=THEME_TEXT_COLOR,
             )
         )
-        yoff += 30
+        y_offset += 30
     else:
         draw.add(
             draw.text(
-                line_dict["name"], x=[Xoff], y=[yoff], dy=[50], fill=THEME_TEXT_COLOR
+                line_dict["name"],
+                x=[Xoff],
+                y=[y_offset],
+                dy=[50],
+                fill=THEME_TEXT_COLOR,
             )
         )
         if "cluegiver" in line_dict:
             draw.add(
-                draw.text("(clue", x=[Xoff], y=[yoff], dy=[70], fill=THEME_TEXT_COLOR)
+                draw.text(
+                    "(clue", x=[Xoff], y=[y_offset], dy=[70], fill=THEME_TEXT_COLOR
+                )
             )
             draw.add(
-                draw.text("giver)", x=[Xoff], y=[yoff], dy=[90], fill=THEME_TEXT_COLOR)
+                draw.text(
+                    "giver)", x=[Xoff], y=[y_offset], dy=[90], fill=THEME_TEXT_COLOR
+                )
             )
-        xoff = Xoff + 60
+        x_offset = Xoff + 60
         ybelow = 5
         negatives = set()
         for card in line_dict["cards"]:
@@ -172,7 +178,7 @@ for line_dict in input["players"]:
                 continue
             t = str(card["type"])
             if t == "x":
-                s = draw.add(draw.svg((xoff, yoff + 10), (70, 100)))
+                s = draw.add(draw.svg((x_offset, y_offset + 10), (70, 100)))
                 s.add(draw.rect((0, 0), (70, 100), fill="gray"))
                 draw_unknown_card(s, (set(all_colors) | set(range(1, 6))) - negatives)
             else:
@@ -191,15 +197,19 @@ for line_dict in input["players"]:
                     )
                 draw.add(
                     draw.rect(
-                        (xoff - 1, yoff - 1), (72, 102), rx=2, ry=2, fill="orange"
+                        (x_offset - 1, y_offset - 1),
+                        (72, 102),
+                        rx=2,
+                        ry=2,
+                        fill="orange",
                     )
                 )
                 if len(numbers) > 1 and len(colors) > 1:
-                    s = draw.add(draw.svg((xoff, yoff), (70, 100)))
+                    s = draw.add(draw.svg((x_offset, y_offset), (70, 100)))
                     s.add(draw.rect((0, 0), (70, 100), fill="gray"))
                     draw_unknown_card(s, numbers | colors)
                 elif len(numbers) == 1 and len(colors) > 1:
-                    s = draw.add(draw.svg((xoff, yoff), (70, 100)))
+                    s = draw.add(draw.svg((x_offset, y_offset), (70, 100)))
                     s.add(
                         draw.image(
                             "/img/pieces/{}.svg".format(next(iter(numbers))),
@@ -211,7 +221,7 @@ for line_dict in input["players"]:
                     )
                     draw_unknown_card(s, colors)
                 elif len(numbers) > 1 and len(colors) == 1:
-                    s = draw.add(draw.svg((xoff, yoff), (70, 100)))
+                    s = draw.add(draw.svg((x_offset, y_offset), (70, 100)))
                     s.add(
                         draw.image(
                             "/img/pieces/{}.svg".format(next(iter(colors))),
@@ -226,8 +236,8 @@ for line_dict in input["players"]:
                     draw.add(
                         draw.image(
                             "/img/pieces/{}.svg".format(t),
-                            x=xoff,
-                            y=yoff,
+                            x=x_offset,
+                            y=y_offset,
                             width=70,
                             height=100,
                         )
@@ -236,13 +246,13 @@ for line_dict in input["players"]:
                 draw.add(
                     draw.image(
                         "/img/pieces/clue-{}.png".format(card["clue"]),
-                        x=xoff + 10,
-                        y=yoff - 40,
+                        x=x_offset + 10,
+                        y=y_offset - 40,
                         width=50,
                         height=70,
                     )
                 )
-                if yoff < 20:
+                if y_offset < 20:
                     ytop = -20
             if "above" in card:
                 textbox(card["above"], 0)
@@ -261,22 +271,22 @@ for line_dict in input["players"]:
                 draw.add(
                     draw.text(
                         card["ontop"],
-                        x=[xoff + 35],
-                        y=[yoff],
+                        x=[x_offset + 35],
+                        y=[y_offset],
                         dy=[30],
                         fill=color,
                         stroke=color,
                         style="filter: url(#shadow)",
                     )
                 )
-            xoff += 74
-        yoff += 120 + ybelow
-        if xoff > Xmax:
-            Xmax = xoff
+            x_offset += 74
+        y_offset += 120 + ybelow
+        if x_offset > Xmax:
+            Xmax = x_offset
 
 draw["width"] = Xmax
-draw["height"] = yoff - ytop
-draw["viewBox"] = "0 {} {} {}".format(ytop, Xmax, yoff)
+draw["height"] = y_offset - ytop
+draw["viewBox"] = "0 {} {} {}".format(ytop, Xmax, y_offset)
 
 out = io.StringIO()
 draw.write(out, pretty=True)
