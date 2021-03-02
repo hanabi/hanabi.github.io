@@ -9,6 +9,8 @@ title: Level 13 - Trash Moves
 
 ## Special Moves
 
+<br />
+
 ### The Trash Bluff
 
 - Normally, when a trash card is clued, it signifies a *Trash Chop Move* or a *Trash Push*. However, for both of these strategies to work, it is assumed that the recipient of the clue will know that the card that was touched is useless.
@@ -27,6 +29,8 @@ title: Level 13 - Trash Moves
   - For example, if the red stack is played up to the red 3, then you **cannot** use a red clue to initiate a *Trash Bluff*, because a blind-play will make the clued card look like the red 5.
   - For example, if the red stack is played up to the red 4, then you can use a red clue to initiate a *Trash Bluff*, because a blind-play will prove that the clued card is not a red 5.
 - In the case where multiple cards are clued as part of a *Trash Bluff*, **all** of the touched cards are considered to be trash. However, the focus of the clue should be the first thing discarded, which allows for the possibility of your teammates to give a follow-up *Fix Clue*.
+
+<br />
 
 ### The Trash Finesse
 
@@ -53,6 +57,8 @@ title: Level 13 - Trash Moves
   - Donald knows that the focus of the clue (slot 1) is certainly trash, since that caused Cathy to blind-play.
   - Furthermore, Donald knows that his slot 2 card is also trash, because all the cards touched in a *Trash Bluff* or *Trash Finesse* are guaranteed to be trash.
 
+<br />
+
 ### The Reverse Trash Finesse
 
 - First, see the section on the *[Trash Finesse](#the-trash-finesse)*.
@@ -69,6 +75,8 @@ title: Level 13 - Trash Moves
   - Cathy comes next. Cathy was highly surprised when Alice gave Bob a number 2 clue on the green 2. From Cathy's perspective of Bob's perspective, the green 2 clue would immediately misplay as red 2. However, when Bob discards the green 2 instead of playing it, Alice's plan becomes clear. Cathy had the red 2 all along. Cathy blind-plays her *Finesse Position* card as red 2.
 - Note that *Reverse Trash Finesses* should not always be entertained and **depend on context**. Specifically, towards the end of the game, *Reverse Trash Finesses* are "turned off". This is because towards the end of the game, the team needs tempo, and *Reverse Trash Finesses* are slow and require even more discarding.
 
+<br />
+
 ### The Trash Push
 
 - Normally, when a useless card is clued, it signifies a *Trash Chop Move*. However, what if the useless card is actually the card on chop? Then it wouldn't be *Chop Moving* anything.
@@ -81,6 +89,8 @@ title: Level 13 - Trash Moves
   - Bob blind-plays his slot 4 card, and it is a playable red 2.
 - Sometimes, a *Trash Push* is the only way to get a card played that is sitting between two other annoying cards.
 - Similar to a *Bluff*, *Trash Pushes* must be immediately playable and should generally be demonstrated immediately. (This is unlike other similar moves like the *5 Pull*, which may have to wait a while.)
+
+<br />
 
 ### A Trash Flowchart
 

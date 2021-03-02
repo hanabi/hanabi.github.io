@@ -15,6 +15,8 @@ title: Miscellaneous
   - Bob is promised the rainbow 2 and the rainbow 3, so he knows that these cards must be on slots 1 and slot 3.
   - However, Bob also knows that you should always play the card with the most information on it first, so he plays his slot 3 card as rainbow 2 (instead of slot 1, the left-most card).
 
+<br />
+
 ### The Elimination Rewrite (for 1's)
 
 - Normally, when a playable card is discarded, a player will write *Elimination Notes* on their hand for the other copy of the card.
@@ -26,10 +28,14 @@ title: Miscellaneous
   - On her next turn, Alice discards an unrelated card. She now has *Elimination Notes* on slot 3, slot 4, and slot 5.
   - On her next turn, Alice discards another red 1. Normally, she would now have *Elimination Notes* on slot 4 and slot 5. However, because of the *Elimination Rewrite*, she instead writes *Elimination Notes* on slot 2, slot 3, slot 4, and slot 5.
 
+<br />
+
 ### The Negative Blind-Play
 
 - Given enough negative clues on a card (and potentially some ancillary information based on the history of the game), it is possible to narrow down the identity of an unclued card in your hand to possibilities that only include playable cards that are not already touched in someone else's hand.
 - In this situation, you are expected to blind-play the card.
+
+<br />
 
 ### The Layered Jump
 

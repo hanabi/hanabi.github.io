@@ -9,6 +9,8 @@ The group is comprised of around 100 people, some of whom play regularly, and so
 
 The *Hyphen-ated Group* plays games on the [Hanab Live](https://hanab.live) website and use the [Discord server](https://discord.gg/FADvkJp) for voice chat. Here is a short list of things that you can do to prepare.
 
+<br />
+
 ### Preparation
 
 <!-- lint disable list-item-content-indent -->
@@ -45,6 +47,8 @@ The *Hyphen-ated Group* plays games on the [Hanab Live](https://hanab.live) webs
     - Scroll down and turn off the toggle-sliders for "PTT Activate" and "PTT Deactivate".
 
 <!-- lint enable list-item-content-indent -->
+
+<br />
 
 ### Joining a Game
 

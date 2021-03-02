@@ -9,6 +9,8 @@ title: Level 22 - Charms & Miscellaneous
 
 ## Conventions
 
+<br />
+
 ### Charms
 
 - *Charm* is similar to *Ejection* and *Discharge*, except the *Forth Finesse Position* card is blind-played.
@@ -18,6 +20,8 @@ title: Level 22 - Charms & Miscellaneous
 <br />
 
 ## Special Moves
+
+<br />
 
 ### The 4 Charm
 
@@ -40,6 +44,8 @@ title: Level 22 - Charms & Miscellaneous
 - *4 Charms* can be given with either a color clue or a number clue.
 - Similar to a *5 Color Ejection*, *Prompts* don't factor into the "three or more blind-plays" rule. Players only count the number of blind-plays.
 - *4 Charms* take precedence over *Safety Charms*. (*Safety Charms* are an advanced move that is covered later.)
+
+<br />
 
 ### The Blaze Discard
 
@@ -73,6 +79,8 @@ title: Level 22 - Charms & Miscellaneous
 - Note that it is illegal to perform an *Ambiguous Blaze Discard*. We want to keep *Blaze Discards* as simple as possible.
 - Note that it is illegal to perform a *Layered Blaze Discard* (on either the ignited player or the player holding the matching card). We want to keep *Blaze Discards* as simple as possible.
 
+<br />
+
 ### Finesses with a Lie Component
 
 - *Lie Principle* states all that *Fibs* must resolve immediately. An untruth that does not resolve immediately is a *Lie*.
@@ -82,6 +90,8 @@ title: Level 22 - Charms & Miscellaneous
 - The previously mentioned *Out-of-Order Finesse* is a specific example of a *Finesse* with a *Lie Component*. One key attribute of the *Out-of-Order Finesse* is that the player who receives the *Fix Clue* knows that **all** of the related cards are playable, or it would not have been worth the risk (and the confusion) to perform a line with a *Lie Component* in the first place.
 - This concept can be generalized to all *Finesses* that have a *Lie Component*. After a player receives a *Fix Clue* in such a situation, they should assume that the *Finesse* is "still on". So, depending on the situation, they should either know that the initial card that was clued is playable (like in an *Out-of-Order Finesse*) or continue to blind-play cards to fulfill the initial *Finesse* (if the card clued with a *Fix Clue* seems to be unrelated).
 - Importantly, *Finesses* with a *Lie Component* are **only** allowed if there is not an alternative line that would "get" the same number of cards without any lies. Thus, if you are looking to do a *Finesse* with a *Lie Component*, make sure you carefully consider the efficiency of all of the possible alternatives.
+
+<br />
 
 ### The Out-of-Position Bluff (OOP) / The Reverse Bluff
 
@@ -96,6 +106,8 @@ title: Level 22 - Charms & Miscellaneous
   - Valid *Out-of-Position Bluffs* take precedence over *Known Bluffs*. In other words, if Bob can see that an *OOP Bluff* could be valid (meaning it meets one of the three criteria above), then Bob should not blind-play anything as a *Known Bluff* and let Cathy play instead.
   - Valid *Out-of-Position Bluffs* take precedence over *Layered Finesses*. In other words, if Cathy can see that an *OOP Bluff* could be valid (meaning it meets one of the three criteria above), then Cathy should not continue to blind-play cards as a *Layered Finesse*. (This is a common mistake.)
 - A *Reverse Bluff* is just a just a more-specific type of *Out-of-Position Bluff*. All of the same stipulations apply.
+
+<br />
 
 ### The Hesitation Blind-Play
 

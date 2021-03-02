@@ -7,10 +7,14 @@ title: Ejections
   - For example, if a player's hand is completely unclued, their *Second Finesse Position* is slot 2.
 - Just like a *Bluff*, an *Ejection* can only be performed on the very next player.
 
+<br />
+
 ### The 5 Color Ejection
 
 - The *5 Color Ejection* is covered at [level 15](../level-15.md#the-5-color-ejection-5ce).
 - This results in a *Signal Shift* from *Play* --> *Save*.
+
+<br />
 
 ### Trash Push Ejection
 
@@ -20,6 +24,8 @@ title: Ejections
 - Instead, since no single play could ever prevent the *Pushed* card from immediately misplaying, Bob interprets the clue as an *Ejection*.
 - After a *Trash Push Ejection*, the clue receiver should *Chop Move* the two-or-more-away-from-playable card.
 
+<br />
+
 ### The Bad Chop Move Ejection (with a Trash Chop Move)
 
 - Normally, when known trash is touched as the focus of the clue, and the known trash is not on chop, it communicates a *Trash Chop Move*.
@@ -27,6 +33,8 @@ title: Ejections
 - In this situation, it should signal an *Ejection* on the very next player.
 - This results in a *Signal Shift* from *Save* --> *Trash*.
 - *Bad Chop Move Ejection* can be performed throughout the game. (But keep in mind that in the *End-Game*, a player might just be stalling.)
+
+<br />
 
 ### The Bad Chop Move Ejection (with 5's)
 
@@ -45,6 +53,8 @@ title: Ejections
   - Thus, Bob blind-plays his *Second Finesse Position*. It is a green 3 and successfully plays.
   - Cathy knows that if this was a *5's Chop Move*, then Bob would not have blind-played anything. If it was a *Finesse*, then Bob would have blind-played his *Finesse Position*. Since he blind-played his *Second Finesse Position* card, this must be a *Bad Chop Move Ejection* and her slot 4 card must be trash.
 
+<br />
+
 ### The Rank Choice Ejection (with a number 2 or a number 5) (RCE)
 
 - Typically, when a number 2 clue or a number 5 clue is performed on a chop card, it will be treated as a *2 Save* or a *5 Save* and the card will not play.
@@ -60,11 +70,15 @@ title: Ejections
   - Cathy knows that since a number 2 clue cause Bob to blind-play his *Second Finesse Position*, this must be an *Ejection*. The only type of *Ejection* that matches this kind of clue is a *Rank Choice Ejection*, so Cathy knows that her 2 must be playable and that her 2 must be exactly the red 2. Cathy plays the red 2.
 - More examples of a *Rank Choice Ejection* can be found [here](../examples/rank-choice-ejection.md).
 
+<br />
+
 ### The Trash Ejection
 
 - First, see the section on the *[Trash Double Ignition](../level-20.md#the-trash-double-ignition)*.
 - In certain situations, if a player re-clues a card that is globally known as trash, it triggers a *Trash Double Ignition*.
 - However, what if the next player can see that a *Trash Double Ignition* is impossible? In this situation, if the clue-giver is not making a mistake, they instead intend for an *Ejection* on the very next player.
+
+<br />
 
 ### The Replay Ejection
 
@@ -74,11 +88,15 @@ title: Ejections
 - In most circumstances, *Replay Ejections* can not be performed by re-cluing a card in Bob's hand. This is because Bob would interpret it as a *Fix Clue*, meaning that the card that Bob was about to play is actually bad and that he should discard it instead of playing it.
 - Note that the *Replay Ejection* is "turned off" in the *End-Game*. (This is because players often clue playable cards as a *Burn Clue*.)
 
+<br />
+
 ### The Poke Ejection
 
 - First, see the section on the *[Poke Double Ignition](../level-20.md#the-poke-double-ignition)*.
 - Normally, if a player re-clues globally known trash, it triggers a *Poke Double Ignition*.
 - However, what if the next player can see that a *Poke Double Ignition* is impossible? In this situation, if the clue-giver is not making a mistake, they instead intend for an *Ejection* on the very next player.
+
+<br />
 
 ### The Self Color Ejection
 

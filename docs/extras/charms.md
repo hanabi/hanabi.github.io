@@ -7,6 +7,8 @@ title: Charms
 - *Charms* fall outside of the *Signal Shift* framework. Instead, playing from *Fourth Finesse Position* is required in order to disambiguate the clue from being a *Finesse*, *Ejection*, or *Discharge*.
 - Just like a *Bluff*, a *Charm* can only be performed on the very next player.
 
+<br />
+
 ### The 4 Charm
 
 - The *4 Charm Unknown Trash Discharge* is introduced at [level 22](../level-22.md#the-4-charm).
@@ -22,6 +24,8 @@ title: Charms
   - Bob knows that this could also be a *4 Charm*, since the red 4 is *three-away-from-playable* and Bob does not see any other red cards on *Finesse Position*.
   - However, Bob knows that he should always assume the truth over a lie, so he assumes that Alice intends for an *Out-of-Order Finesse*.
 
+<br />
+
 ### The Unknown Trash Charm (UTC)
 
 - First, see the section on the *[Unknown Trash Discharge](../level-15.md#the-unknown-trash-discharge-1-for-1-form-utd)*.
@@ -33,6 +37,8 @@ title: Charms
   - Alice clues red to Cathy, touching a red 1 on slot 1 and a red 2 on slot 2.
   - Normally, Bob would treat this clue as an *Unknown Trash Discharge*. However, if he *Discharges*, then Cathy will discard the red 1 and mark the red 2 as either a red 3, a red 4, or a red 5, which would be a *Lie*.
   - Instead, Bob knows that this signals an *Unknown Trash Charm*, so he blind-plays his *Fourth Finesse Position*. It is a blue 3 and it successfully plays.
+
+<br />
 
 ### The Safety Charm (Declined 5 Pull)
 

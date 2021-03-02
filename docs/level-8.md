@@ -9,6 +9,8 @@ title: Level 8 - Stalling
 
 ## Conventions
 
+<br />
+
 ### Allowable Stall Clues (Stall Table)
 
 - In certain situations, everyone understands that a player might be giving a "stall" clue. However, there are limits - they are not allowed to just clue anything they want. These are the specific clues that they are allowed to give along with the precedence of each clue:
@@ -36,6 +38,8 @@ title: Level 8 - Stalling
 - What is the point of having a complicated table with defined priorities? Well, normally, players in stalling situations are not able to give tricky-looking *Finesses*, because everyone else will think that they are just giving a stall clue. However, if it can be seen that there is a better clue available for them to give, then everyone can know that they are **not** giving a stall clue. So, because of this precedence table, players in stalling situations are still often able to make *Finesses* happen.
 - Obviously, stall clues are not allowed when the player has a known playable card in their hand.
 
+<br />
+
 ### The Early Game (Severity 1 Stalling)
 
 - The *Early Game* is introduced in the [beginner's guide](beginner.md). In short:
@@ -58,6 +62,8 @@ title: Level 8 - Stalling
 - Extinguishing every clue **does not** include cluing something in the hand of the player who came directly before. This is because the player who came before did not see anything for the next player to do, and is therefore giving them "permission" to discard. In this situation, cluing is optional; players can choose to either clue the previous hand or discard at their discretion.
 - Extinguishing every clue **does not** include cluing cards that will be almost certainly be *Order Chop Moved* by an upcoming player who already has two or more 1's clued in their hand.
 
+<br />
+
 ### Double Discard Situations (Severity 2 Stalling)
 
 - Often times in Hanabi, two players will discard in a row. However, in rare cases, this can cause a perfect score to be lost.
@@ -76,11 +82,15 @@ title: Level 8 - Stalling
   - Since there are no normal *Play Clues* or *Save Clues* available, Bob looks around to see if he can give a *5 Stall*. Bob sees that Cathy has a red 5 on her slot 1, so he clues number 5 to Cathy as a *5 Stall*.
   - Cathy knows that since Bob was in a *Double Discard Situation* for the red 4, she should not read too closely into his clues. This number 5 clue must just be a *5 Stall* (as opposed to a *Play Clue* on the 5).
 
+<br />
+
 ### Locked Hands (Severity 3 Stalling)
 
 - Generally speaking, it is a bad situation when someone's hand gets fully clued. This is also known as being *Locked*, and it should be avoided if possible. However, sometimes it cannot be helped, like when a player draws three 5's in a row.
 - A player with a *Locked Hand* may give a low-value clue because they are not sure that they can play anything (and they can't discard because their hand is fully clued). Similar to a *Double Discard* situation, players should not read too closely into any clues given during this state.
 - If the team is out of clues and someone's hand is fully clued, then you **have** to discard to generate a clue for them. Similarly, if there is only 1 clue left, you cannot steal it from them.
+
+<br />
 
 ### Clues Given While at 8 Clues (Severity 4 Stalling)
 
@@ -90,6 +100,8 @@ title: Level 8 - Stalling
 <br />
 
 ## Special Moves
+
+<br />
 
 ### The 5 Stall (Intermediate Section)
 
@@ -108,6 +120,8 @@ title: Level 8 - Stalling
   - Alice must clue number 5 to Bob as a *5 Stall* since his 5 is closer to chop (even though Bob has two playable cards).
 - Some additional rules for *5 Stalls* are found in the section on [the *Early Game*](#the-early-game-severity-1-stalling).
 
+<br />
+
 ### The Locked Hand Save (LHS)
 
 - We agree that players with a *Locked Hand* gain the special ability to save any card they want on chop (as long as it would not *Lock* the other player). This is called a *Locked Hand Save*.
@@ -117,11 +131,15 @@ title: Level 8 - Stalling
 - If a clue that looks like a *Locked Hand Save* would *Lock* another player, it is instead treated as a normal *Play Clue* or a normal *Save Clue*.
 - Note that the precedence of a *Locked Hand Save* is tied with a "fill-in" clue. Essentially, this means that players who have a *Locked Hand* are not forced to perform a *Locked Hand Save* if they do not want to. Most of the time, doing a *Locked Hand Save* will be pretty good (as a 1-for-1 or a 2-for-1 instead of a 0-for-1), but *Locked* players can always ignore a *Locked Hand Save* to perform a "fill-in" clue if they want.
 
+<br />
+
 ### The Anxiety Play (Forcing a Locked Player to Play)
 
 - Sometimes, someone with a *Locked Hand* has a playable card, but they do not know that they can play it yet. Re-cluing the card would signal this, but that would waste a clue and not be very efficient.
 - A better way to signal this information is to deliberately leave them at 0 clues. By convention, this means that one of their cards is actually playable. The player should play the card in their hand that is most likely to be playable. If there is more than one option, then they should know that the left-most is playable. (This follows from *Left-Most Playable Principle*.)
 - This is called an *Anxiety Play* because you are putting the *Locked* player in a "do or die" situation.
+
+<br />
 
 ### The 8 Clue Save (8CS)
 

@@ -11,6 +11,8 @@ import SarcasticDiscard from '@site/static/img/generated/level-3/sarcastic-disca
 
 ## Conventions
 
+<br />
+
 ### Fix Clues
 
 - Nearly every clue that is either a *Save Clue* or *Play Clue*. One small exception to this is a *Fix Clue*, which is an attempt to "fix" an impending misplay.
@@ -35,6 +37,8 @@ import SarcasticDiscard from '@site/static/img/generated/level-3/sarcastic-disca
   - However, the fact that the blue clue "fixed" an impending misplay means that Bob may have had no choice but to clue blue, and he may not necessarily be trying to give a *Play Clue*.
   - Alice marks the blue card as either blue 2, blue 3, blue 4, or blue 5, and discards the blue 1.
 
+<br />
+
 ### Fix Clues (That Give No Additional Information)
 
 - Usually a *Fix Clue* will "fill in" the card to explicitly make it known that the card is unplayable or duplicated. However, it is also possible to perform a *Fix Clue* just by cluing the card again. For example:
@@ -47,6 +51,8 @@ import SarcasticDiscard from '@site/static/img/generated/level-3/sarcastic-disca
   - Bob successfully plays one 1.
   - Before Bob can play the 2nd 1, Alice clues Bob number 1 again, and all the clue does is re-touch the two remaining 1's.
   - Now it is Bob's turn. Since he was going to play both of these 1's already without Alice doing anything, the clue must have some other meaning. Thus, it is a *Fix Clue*: the 1 that Bob was about to play is bad, and Bob can safely discard it. Bob skips over the 1 that he was about to play and plays the other one.
+
+<br />
 
 ### Playing Multiple 1's
 
@@ -91,6 +97,8 @@ import SarcasticDiscard from '@site/static/img/generated/level-3/sarcastic-disca
 
 ## Special Moves
 
+<br />
+
 ### The Sarcastic Discard
 
 - Occasionally, through a mistake (or complicated situation), the same card will be clued in two different people's hands. Generally, this is to be avoided, but sometimes it happens. Handling this can be tricky.
@@ -114,12 +122,16 @@ import SarcasticDiscard from '@site/static/img/generated/level-3/sarcastic-disca
 
 ## General Principles
 
+<br />
+
 ### Misplay Cost Principle
 
 - On a turn where a player misplays and accumulates a strike for the team, they could have discarded instead and generated a clue.
 - So, if you can spend one clue to stop one misplay, the value comes out even.
 - Thus, since there are only 2 strikes allowed and accumulating strikes limits flexibility, it is almost always worth it to spend one clue to stop one strike.
 - If it would require two clues to stop an impending misplay, then as long as the strike would not lose the game, it is usually best to let the player misplay the card and get a strike.
+
+<br />
 
 ### Efficiency
 
@@ -135,6 +147,8 @@ import SarcasticDiscard from '@site/static/img/generated/level-3/sarcastic-disca
   - `number of cards that remain to be clued / number of clues remaining`
 - **If future required efficiency is high, players should probably not perform 1-for-1 clues!** Instead, it is better to discard and try to let someone perform a *Finesse*.
 
+<br />
+
 ### Tempo
 
 - *Tempo* is a term used to describe the speed at which cards are played. (This is similar to how it is used in other games such as chess.)
@@ -144,6 +158,8 @@ import SarcasticDiscard from '@site/static/img/generated/level-3/sarcastic-disca
 - On Hanab Live, "Pace" is shown at the right side of the screen. Pace is a measure of how many more discards can occur, so this essentially tells you how much time is left in the game. Starting pace is calculated by the following formula:
   - `current score + cards in deck + number of players - maximum score`
 - Even at the beginning of the game, players might prefer a clue that gets tempo over a more efficient clue if it will prevent the discard of some other useful card. It all depends on the context of the game!
+
+<br />
 
 ### Information Lock Principle
 
@@ -158,7 +174,7 @@ import SarcasticDiscard from '@site/static/img/generated/level-3/sarcastic-disca
 
 #### Information Lock with a Superposition
 
-- A *[superposition](https://en.wikipedia.org/wiki/Quantum_superposition)* is a term from [quantum mechanics](https://en.wikipedia.org/wiki/Quantum_mechanics) that describes how something can be two different things at the same time. For example, an electron is a type of a particle, and an electron can either be "spin up" or "spin down". But an electron could also be in a superposition of both "spin up" and "spin down" at the same time, as weird as that sounds. If an electron happens to bounce off of something (e.g. is measured), then the superposition will "collapse" and it will **only** be in a "spin up" or "spin down" state. The details of quantum mechanics are not important - the main point is that we treat unknown Hanabi cards sort of like unknown particles: even though they **really** have a true identity, we ignore that and treat them as being all of the possibilities at the same time.
+- A *[superposition](https://en.wikipedia.org/wiki/Quantum_superposition)* is a term from [quantum mechanics](https://en.wikipedia.org/wiki/Quantum_mechanics) that describes how something can be two different things at the same time. For example, an electron is a type of a particle, and an electron can either be "spin up" or "spin down". But an electron could also be in a superposition of both "spin up" and "spin down" at the same time, as weird as that sounds. If an electron happens to bounce off of something (e.g. is measured), then the superposition will "collapse" and it will **only** be in a "spin up" or "spin down" state. The details of quantum mechanics are not important - the point is that we treat unknown Hanabi cards sort of like unknown particles: even though they **really** have a true identity, we ignore that and treat them as being all of the possibilities at the same time.
 - As soon as a clue is given to a card that could be two or more different things, then the assumed superposition of all of the possibilities is locked in to the card.
 - For example, in 3-player rainbow game:
   - It is the first turn and nothing is played on the stacks.

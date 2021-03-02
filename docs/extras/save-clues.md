@@ -8,6 +8,8 @@ title: Save Clues
 - This convention only applies to 3-player games.
 - On the first turn of the game, it is not possible to discard. If there is absolutely nothing else to do, it is permissible in this situation to use a number 2 clue to save a 2 that is **not** on chop, but only if the other players can see that you had no other choice.
 
+<br />
+
 ### Saving Playable Cards when the Preceding Cards Are Not Promptable
 
 - Often times, a player will have two similar clued cards in their hand with the left-most being unplayable and the right-most being playable. In this situation, the other members of the team cannot use a *Prompt* to "get" the cards, since the left-most would misplay.

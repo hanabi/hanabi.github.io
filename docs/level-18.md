@@ -9,6 +9,8 @@ title: Level 18 - Priority
 
 ## Special Moves
 
+<br />
+
 ### The Priority Prompt & The Priority Finesse
 
 - Typically, players will only have one card to play at a time. In this case, unless there is some really good clue to give, there are no decisions to be made - they just play their one playable card.
@@ -36,6 +38,8 @@ title: Level 18 - Priority
 - Similar to a normal *Prompt*, if a *Priority Prompt* could apply to two or more clued cards, then you should play the left-most one.
 - Similar to a normal *Prompt*, if a *Priority Prompt* made you play the left-most card and it was not the matching card, then you should continuing playing clued cards until you find the matching card.
 
+<br />
+
 ### The Priority Bluff
 
 - Similar to a normal *Bluff*, it is also possible for players to perform a *Priority Bluff*.
@@ -45,11 +49,15 @@ title: Level 18 - Priority
   - Bob comes next. Bob knows that normally, when you have a choice between two cards, you are supposed to play the lowest rank card. (Unless it is a blind-play, or it leads into someone's hand, or it is a 5.) Bob does not see any blue 3's, so he knows that Alice was supposed to play the red 1 instead of the blue 2. Alice **did not** play the card with *Priority*.
   - This means that Bob must have a blue 3. Bob does not have any clued cards in his hand, so he blind-plays his *Finesse Position* card. It is **not** the blue 3 and is instead the green 1. Bob now knows that he was *Bluffed* and that no-one has the blue 3.
 
+<br />
+
 ### A Priority Flowchart (for Choosing Between 2+ Playable Cards)
 
 *Priority* can be confusing. [Here is a flowchart](https://raw.githubusercontent.com/hanabi/hanabi.github.io/main/static/img/flowcharts/priority-flowchart.png) that shows, in general, which card should be played when there is a choice between two cards.
 
 [Here is another flowchart](https://raw.githubusercontent.com/hanabi/hanabi.github.io/main/static/img/flowcharts/priority-unknown-flowchart.png) that shows how *Priority* works when one or more of the cards is unknown.
+
+<br />
 
 ### Priority Exceptions
 
@@ -81,6 +89,8 @@ Priority does not always apply. Some common exceptions are listed below.
   - Normally, Bob knows that he is supposed to play his 2's from left-to-right. However, he also knows that his 2 on slot 5 is the most important card out of all of them - it was the focus of the original *2 Save* by Alice.
   - Thus, Bob plays his 2 on slot 5 first. After that, he plays the 2's from left-to-right like normal.
 
+<br />
+
 ### The Load Clue
 
 - Players will generally play cards without *Priority* if they see the next card in someone else's *Finesse Position*, because this will get the card for "free" as a *Priority Finesse*.
@@ -100,9 +110,13 @@ Priority does not always apply. Some common exceptions are listed below.
   - If this was a *Fix Clue*, Cathy might be inclined to play the card that was closest to her slot 1 (which would be the 3 on slot 2).
   - However, Cathy knows that *Load Clues* are to be interpreted as normal *Play Clues* instead of *Fix Clues*, so she interprets this as a normal *Chop-Focus Play Clue* and plays blue 3 from slot 5.
 
+<br />
+
 ### The Layered Priority Finesse
 
 - Similar to a normal *Layered Finesse*, it is also possible to initiate a *Layered Priority Finesse* as long as the blind-playing player is not the very next person.
+
+<br />
 
 ### The Priority Finesse (Special Case)
 
@@ -117,6 +131,8 @@ Priority does not always apply. Some common exceptions are listed below.
   - The rest of the team does not have any clued cards in their hands.
   - Alice knows that **all** of the possibilities for the 2 would have *Priority* over the red 3, since all of them are lower rank.
   - Alice plays the red 3 anyway, which triggers a *Priority Finesse* on the red 4.
+
+<br />
 
 ### The Trust Finesse (A Situational Priority Finesse)
 
@@ -134,6 +150,8 @@ Priority does not always apply. Some common exceptions are listed below.
   - Unknown from the rest of the team, Alice knows from the context of the game that her 2 must be exactly blue 2.
   - Bob has blue 3 on his *Finesse Position*.
   - Alice plays the globally unknown 2 to cause a *Trust Finesse*.
+
+<br />
 
 ### The Paused Priority Finesse
 

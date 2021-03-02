@@ -9,6 +9,8 @@ title: Level 9 - Special Discards
 
 ## Special Moves
 
+<br />
+
 ### The Gentleman's Discard
 
 - First, see the section on the *[Sarcastic Discard](level-3.mdx#the-sarcastic-discard)*.
@@ -31,6 +33,8 @@ title: Level 9 - Special Discards
 - Just like how *Prompts* take precedence over *Finesses*, *Sarcastic Discards* take precedence over *Gentleman's Discards*.
 - For the purposes of *Priority*, *Gentleman's Discards* do not count as a blind-play. (*Priority* is a concept that is introduced in a later level.) This is because the *Gentleman's Discard* is an information-symmetric move and nothing needs to be "proven" to other members of the team.
 
+<br />
+
 ### The Layered Gentleman's Discard
 
 - First, see the section on the *[Gentleman's Discard](#the-gentlemans-discard)*.
@@ -42,6 +46,8 @@ title: Level 9 - Special Discards
   - Cathy discards the known red 1 as a *Gentleman's Discard*.
   - Alice blind-plays her *Finesse Position* card as red 1, but it is green 1.
   - Alice knows that she is promised the red 1, so she will blind-play her slot 2 on her next turn.
+
+<br />
 
 ### The Baton Discard
 
@@ -65,6 +71,8 @@ title: Level 9 - Special Discards
   1. To better satisfy *Team Distribution Principle*. It makes sense to transfer a card out of a locked / almost locked hand to a player with an "empty" hand or a hand that only has one card clued in it.
   1. You want to protect your own chop. If you discard your chop, the team could be losing some high-value *one-away-from-playable* card. But if you transfer a card to someone else, it gives you something "safe" to do.
 
+<br />
+
 ### The Sarcastic Finesse
 
 - First, see the section on the *[Sarcastic Discard](level-3.mdx#the-sarcastic-discard)*.
@@ -80,6 +88,8 @@ title: Level 9 - Special Discards
   - In the worst case, you get a 1-for-1 and full knowledge on a clued card in your own hand that was previously a mystery.
   - On average, this is a 1.5-for-1, which satisfies *Minimum Clue Value Principle*.
 
+<br />
+
 ### The Certain Finesse & The Certain Discard
 
 - First, see the section on the *[Sarcastic Finesse](#the-sarcastic-finesse)*.
@@ -93,6 +103,8 @@ title: Level 9 - Special Discards
 - In this situation, if Alice really has the red 3, Cathy is allowed to blind-discard their *Finesse Position* card. This is called a *Certain Discard*, because Cathy can be certain that it is exactly red 3.
 - A separate way to explain this convention is that everyone agrees that performing a *Layered Finesse* on a card that could potentially be clued in your own hand is illegal. So, everyone can be certain that they can safely blind discard a card to pass it back to someone who potentially duplicated.
 - Note that players are **only allowed** to do a *Certain Discard* if they know they have not been *Bluffed*. This means that *Certain Finesses* **cannot be performed** from *Bluff Seat*. (*Bluffs* are an advanced kind of move that is covered later on.)
+
+<br />
 
 ### The Composition Finesse
 
@@ -110,6 +122,8 @@ title: Level 9 - Special Discards
 <br />
 
 ## Common Mistakes
+
+<br />
 
 ### The Double Gentleman's Discard (Illegal)
 

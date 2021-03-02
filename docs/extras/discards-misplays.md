@@ -17,6 +17,8 @@ title: Discards & Misplays
   - Bob sees that Alice does indeed already have the red 4 in her hand, so from his perspective, if Alice was performing a *Generation Discard*, it was unnecessary.
   - However, it could also be the case that Bob's chop is unsafe. So, Bob will **not** clue the red 4 on Cathy's chop, but he **will** spend the clue in some other productive fashion. If Bob has nothing productive to do, he must "burn" a clue, similar to what happens when a *Scream Discard* occurs.
 
+<br />
+
 ### The Shallow Discard
 
 - At the end of the game, it is normal for players to use a *Positional Discard* to get 1 card to blind-play, and to use a *Positional Misplay* to get 2 cards to blind-play.
@@ -35,6 +37,8 @@ title: Discards & Misplays
   - Thus, they both know that this is a *Shallow Discard*, and blind-play their slot 2 cards (to match Alice's slot 2 discard).
 - In some specific situations, a *Positional Discard* from chop would not work, because it would just look like a normal discard. In these situations, a *Positional Misplay* would only get 1 blind-play (instead of 2) and a *Shallow Discard* would only get 2 blind-plays (instead of 3).
 
+<br />
+
 ### The Shallow Misplay
 
 - First, see the section on the *[Shallow Discard](#the-shallow-discard)*.
@@ -49,6 +53,8 @@ title: Discards & Misplays
   - Bob blind-plays his slot 2 card (to match Alice's slot 2 discard). It successfully plays.
   - Cathy, Donald, and Emily are all in a similar situation to Bob. (They expected Alice to perform a *Shallow Discard*.)
   - Thus, they all know that this is a *Shallow Misplay*, and blind-play their slot 2 cards (to match Alice's slot 2 discard).
+
+<br />
 
 ### The Promise Clue & The Promise Discard
 
@@ -68,6 +74,8 @@ title: Discards & Misplays
   - However, because of the *Promise Clue* convention, Cathy knows that Bob has promised that the red 1 happens to be exactly on her *Finesse Position* and that no *Layered Finesse* is happening.
   - Cathy blind-discards her *Finesse Position* card as a *Promise Discard*.
 - Note that as long as the duplication clue touches two or more cards (e.g. with an efficiency of a 1-for-1), the *Promise Discard* interpretation takes priority over the *Unknown Trash Discharge* interpretation.
+
+<br />
 
 ### The No-Context Double Gentleman's Discard
 

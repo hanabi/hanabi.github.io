@@ -9,11 +9,15 @@ title: Level 15 - Ejections & Discharges
 
 ## Conventions
 
+<br />
+
 ### Ejections
 
 - *Ejection* refers to a move like a *Bluff*, but instead of playing an unrelated card from *Finesse Position*, someone plays an unrelated card from their *Second Finesse Position*. For example, if a player's hand is completely unclued, their *Second Finesse Position* is slot 2.
 - Just like a *Bluff*, an *Ejection* can only be performed on the very next player.
 - Several different kinds of moves can cause an *Ejection*. The most common one is the *5 Color Ejection*.
+
+<br />
 
 ### Discharges
 
@@ -24,6 +28,8 @@ title: Level 15 - Ejections & Discharges
 <br />
 
 ## Special Moves
+
+<br />
 
 ### The 5 Color Ejection (5CE)
 
@@ -45,6 +51,8 @@ title: Level 15 - Ejections & Discharges
   - Alice clues red to Cathy, touching a red 5 on slot 2 and a red 2 on slot 3.
   - Bob knows that normally, this would be an *Out-of-Order Finesse* on the 5, indicating to Bob that he has the red 1, the red 3, and the red 4. However, since this calls for more than one blind card, he knows that *5 Color Ejection* should take precedence, so he knows to play his *Second Finesse Position* card. It is a red 1 and it successfully plays.
   - From Cathy's perspective, if Bob had played his *Finesse Position* card in response to the red clue, then Cathy would know that it was a *Finesse* or a *Bluff*. But since Bob blind-played his *Second Finesse Position* card, it must be a *5 Color Ejection*. Cathy marks the red card as red 5. Her other red card can be red 2, red 3, or red 4.
+
+<br />
 
 ### The Unknown Trash Discharge (1-for-1 Form) (UTD)
 
@@ -75,6 +83,8 @@ title: Level 15 - Ejections & Discharges
     - The empathy on the clued card contains one or more possibilities that are useful and currently unplayable.
     - Thus, something extra is needed to prove it is trash.
   - Other than this, don't use more complicated factors to prefer a *Trash Bluff* over an *Unknown Trash Discharge* (like Bob having to wait on some other card).
+
+<br />
 
 ### The Unknown Trash Discharge (2-for-1 Form) (UTD)
 

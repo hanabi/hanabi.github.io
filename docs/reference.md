@@ -3,6 +3,8 @@ id: reference
 title: Intro & Warning
 ---
 
+import Example from '@site/static/img/generated/extras/example.svg';
+
 Our group has come up with many different strategies. It is helpful to give specific names to each strategy to aid in both discussion and comprehension. If you know the general way we play but don't know about a specific kind of move, then you can look it up here.
 
 From time to time, we decide to change an old convention or add a new one. Convention updates are listed in the `#announcements` channel on the [Discord server](https://discord.gg/FADvkJp).
@@ -25,9 +27,10 @@ Even though the strategy reference outlines the "correct" thing to do in a lot o
 
 ## Examples
 
-This website has a mix of both text-based examples and graphical screenshots.
+Most special moves have an accompanying example that will look something like the following:
 
-In a text-based example:
+<Example className="example" />
+
 - The player who goes first will always be Alice.
 - The second player will always be Bob.
 - The third player will always be Cathy.
@@ -36,8 +39,4 @@ In a text-based example:
 
 (This is a historical convention created by [Keldon Jones](http://keldon.net/) and follows loosely from [cryptography](https://en.wikipedia.org/wiki/Alice_and_Bob).)
 
-A screenshot will look like the following:
-
-![Example Screenshot](/img/example.png)
-
-Note that in this user interface, players are **not** holding their hands like they would be if they were playing in real life. Every player's hand is presented in an identical way. The left-most card (slot 1) is the newest card in the hand. The right-most card (slot 4 / chop) is the oldest card in the hand.
+Note that in this format, players are **not** holding their hands like they would be if they were playing in real life. Every player's hand is presented in an identical way. The left-most card (slot 1) is the newest card in the hand. The right-most card (slot 4 / chop) is the oldest card in the hand.

@@ -9,6 +9,8 @@ title: Level 19 - Advanced Moves
 
 ## Special Moves
 
+<br />
+
 ### The Occupied Play Clue & The Occupied Finesse (OPC)
 
 - If a clue could be given by multiple players, who should give the clue? If some players have known-playable cards and other players have nothing to do, then it makes the most sense to leave the clue for the players who have nothing to do.
@@ -17,6 +19,8 @@ title: Level 19 - Advanced Moves
   - If the clue would normally be interpreted as a *Save Clue*, then it transforms into an *Occupied Play Clue*.
   - If the clue would normally be interpreted as a *Play Clue* or a *Prompt*, then it transforms into an *Occupied Finesse*.
 - Note that the concept of being *Occupied* generalizes to lots of different kind of moves. For example, when an *Occupied* player clues an off-chop 5, it is certainly not a *5 Stall* - it must be an *Occupied 5 Pull*!
+
+<br />
 
 ### The Out-of-Order Play Clue (Triple O / OOO)
 
@@ -33,6 +37,8 @@ title: Level 19 - Advanced Moves
   - Cathy is surprised because the card that she thought was red 1 is actually a red 4. Cathy knows that since the red 4 was the original focus of Alice's clue, then it must actually be playable right now. Thus, Cathy must have the red 1, the red 2, and the red 3.
   - Cathy plays the red 1 from slot 2 (the left-most red card that could be the red 1). She will go on to play the red 2, the red 3, and the red 4.
   - Cathy (and everyone else on the team) knows that even though the blue 4 was the focus of Bob's clue, it is not actually playable right now, and was just "collateral damage" of Bob's required *Fix Clue*.
+
+<br />
 
 ### The Out-of-Order Finesse
 
@@ -65,6 +71,8 @@ title: Level 19 - Advanced Moves
   - Bob knows that this could be an *Out-of-Order Finesse*. Specifically, if Bob gives a follow-up number 5 *Fix Clue* to Cathy, then Cathy would play the red 1, Cathy would play the red 2, Bob would blind-play the red 3, Cathy would play the red 4, and then Cathy would play the red 5.
   - Since this line only requires that Bob blind-plays 1 card, he knows that it cannot be a *5 Color Ejection*, so Bob performs the *Fix Clue* to allow for the *Out-of-Order Finesse*.
 
+<br />
+
 ### The Suboptimal Prompt & The Suboptimal Finesse & The Suboptimal Bluff
 
 - If the other copy of a card is in the trash, then the remaining copy is critical and needs to be saved. Critical cards of this nature can be saved with either a color clue or a number clue.
@@ -73,6 +81,8 @@ title: Level 19 - Advanced Moves
 - If a clue type is chosen that is **clearly worse** than the other one, then the clue giver must be trying to communicate something extra.
 - The means that this innocent-looking *Save Clue* is really a *Play Clue*, and all of the in-between cards are called for.
 - Note that for a *Suboptimal Save Finesse* to work, the clue has to be **really bad**, not just technically suboptimal in some slight way.
+
+<br />
 
 ### The Good Touch Bluff
 
@@ -91,6 +101,8 @@ title: Level 19 - Advanced Moves
   - Cathy knows that she must **not** have the blue 4, because then Alice's clue would have violated *Good Touch Principle*. Cathy can reason that her 4 is instead some **other** *one-away-from-playable* 4. The only other valid *Bluff* target is the red 4 (because the only *one-away-from-playable* 4 is red 4). So, Cathy marks her number 4 card as a red 4, and discards.
   - Donald is surprised by Alice's clue. From Donald's perspective, Cathy should have misplayed the red 4 as the blue 4, since 3 matches 4.
   - Since Cathy did not misplay, Donald can reason that **he** must have the blue 4. Donald marks the previously unknown blue card in his hand as blue 4.
+
+<br />
 
 ### The Pestilent Double Bluff (PDB)
 
@@ -114,6 +126,8 @@ title: Level 19 - Advanced Moves
 - Additionally, consider the case where Cathy sees **both** copies of red 2 in someone else's hand (e.g. Donald's hand). In this hypothetical, Bob would not go on to misplay the red 2, so no further action is needed to heal the situation. However, we agree that Cathy should **still** blind-play her *Finesse Position* card (as a *Known Pestilent Double Bluff*). (This is because seeing both copies is so rare that we do not want complicate things by having to consider it.)
 - More examples of a *Pestilent Double Bluff* can be found [here](examples/pestilent-double-bluff.md).
 
+<br />
+
 ### The No-Information Double Finesse
 
 - Sometimes, a card that is two-away-from-playable is re-clued in order to initiate a *Finesse* or a *Bluff*. Most times, the clue will "fill in" or give extra information to the existing card.
@@ -127,6 +141,8 @@ title: Level 19 - Advanced Moves
   - Alice clues 3's to Cathy, which re-touches the red 3 (and gives no additional information to it).
   - Bob blind-plays red 1. If this was a *3 Bluff*, then no-one would be promised the red 2. However, since no new information was given, it must be a *No-Information Double Finesse*. Bob sees that Cathy does not have the red 2, so he must have the red 2, and can blind-play it on his next turn.
 - The "no-information" principle can also be used to perform a *No-Information Layered Finesse* on the next player. (The next player will know that it is a *Layered Finesse* instead of a *Bluff* because some other more-useful clue could have been given to initiate the *Bluff*.)
+
+<br />
 
 ### The No-Information Double Bluff
 

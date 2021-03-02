@@ -20,6 +20,8 @@ title: Variant-Specific Strategies
   - Players are not allowed to *5 Stall* in the *Early Game*. Any clue that looks like a *5 Stall* is instead treated as either a *5's Chop Move* or a *5 Pull*.
   - Players are not required to clue anything in the *Early Game*; they are allowed to initiate the *Mid-Game* whenever they see fit.
 
+<br />
+
 ### The Loaded Play Clue (in Hard Variants) (LPC)
 
 - Normally, players are allowed to give a *Save Clue* to a card on chop, even if that clued player:
@@ -28,6 +30,8 @@ title: Variant-Specific Strategies
 - If a *Save Clue* is given in this kind of situation, it is referred to as an *Early Save*. In our group, *Early Saves* are normal, and they don't cause anything special to happen. (Allowing *Early Saves* is nice because it allows for *Discard Modulation.*)
 - In *Hard* variants (see the previous section), *Early Saves* are not legal. Instead, if an *Early Save* is given to a player, then it is treated as a *Play Clue* on that card.
 - This is called a *Loaded Play Clue* to distinguish it from a more ordinary *Play Clue*, because the player receiving the clue is currently "loaded" with a play or "loaded" with a safe discard.
+
+<br />
 
 ### The Loaded Play Clue Exceptions
 
@@ -51,10 +55,14 @@ title: Variant-Specific Strategies
   - However, Bob knows that this rule doesn't apply to number 5 clues during the *Low Score Phase*.
   - Thus, Bob knows that Alice is performing a simple *5 Save* and plays the red 4.
 
+<br />
+
 ### Precedence of Variant-Specific Conventions
 
 - We have many variant-specific strategies and conventions. Sometimes, it can be confusing as to how they interact with "normal" conventions (e.g. non-variant-specific conventions).
 - In general, non-variant-specific conventions take precedence over variant-specific conventions, unless explicitly mentioned otherwise.
+
+<br />
 
 ### Specific Variants
 
@@ -100,9 +108,13 @@ Below are conventions for some specific variants. Each variant is located on its
 - [Reversed](variant-specific/reversed.md)
 - [Up or Down](variant-specific/up-or-down.md)
 
+<br />
+
 ### 2-Player
 
 - In the *Hyphen-ated Group*, we generally only play games with 3 to 5 players. If you are interested in playing 2-player games, then see the [2-player page](https://github.com/hanabi/hanabi.github.io/blob/main/misc/2-player.md).
+
+<br />
 
 ### Empty Clues
 

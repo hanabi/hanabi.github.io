@@ -9,6 +9,8 @@ title: Fix Clues
 - Thus, you should first wait for all of the "good" blind cards to play, and **then** give the *Fix Clue* to the *Finesse Target*, so that it comes "just in time" before the misplay.
 - Alternatively, if the plan is to give a *Fix Clue* to some **other** card than the *Finesse Target* (e.g. a number 5 clue to a 5 in the middle of the hand), then the *Fix Clue* does not necessarily have to be just in time. It can be done early, and the player will know that they have to continue blind-playing cards until they find the *Finesse Target*.
 
+<br />
+
 ### The Speed-up Clue
 
 - The *Layered Finesse* convention (and its derivatives) are very efficient (in terms of "X-for-1"). However, sometimes it can be very slow (low-*tempo*), as players will have to allow for all possible *Reverse Finesses* before playing anything. This is generally not a problem in 3-player games, but *tempo* is important in 5-player games.

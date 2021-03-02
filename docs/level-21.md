@@ -9,6 +9,8 @@ title: Level 21 - Emergency Discards
 
 ## Special Moves
 
+<br />
+
 ### Phantom Playable Cards
 
 - First, see the section on [the definition of "playable" cards](level-1.md#the-definition-of-playable).
@@ -17,6 +19,8 @@ title: Level 21 - Emergency Discards
 - From *Save Principle*, we know that everyone agrees to not let *playable* or *delayed playable* cards get discarded.
 - If possible, the team should also try to protect *Phantom Playable* cards from being discarded as well, since they are nearly as important as *delayed playable* cards. For example, it is common for other people on the team to discard in order to let the player with the *Phantom Playable* card be the one to give a *Play Clue* to the in-between card.
 - Sometimes, *Phantom Playable* cards have to be discarded when the team is low on clues or in an otherwise tight situation. While regrettable, this is perfectly okay and does happen from time to time.
+
+<br />
 
 ### The Scream Discard for a Phantom Playable Card
 
@@ -30,12 +34,16 @@ title: Level 21 - Emergency Discards
 - In summary, it is better for the team to let a *Phantom Playable* card get discarded in a tricky or tight situation, **especially** if it is a 4.
 - Another way of saying this is that the team should never "bend over backwards" for a *Phantom Playable* card. Consider that a *Scream Discard* always has a small chance to lose the game (if the *Scream Discarded* card was itself critical).
 
+<br />
+
 ### The Sacrifice Discard
 
 - First, see the section on the *[Scream Discard](level-6.mdx#the-scream-discard-chop-move-sdcm)*.
 - It is generally undesirable for a player to have a *Locked* hand, but sometimes it happens. And sometimes, one card in the locked hand is useful in the future, but not critical (meaning there is another copy of the card in someone else's hand or still in the deck).
 - Normally, you are never supposed to discard cards that have clues on them. And if you do, it implies a *Sarcastic Discard* or a *Gentleman's Discard*. However, when a player is locked, they can choose to "sacrifice" one of the cards in their hand that is non-critical. And in this situation, it does **not** imply a *Sarcastic Discard* or a *Gentleman's Discard*.
 - Sometimes, when a *Locked* player discards a non-critical card, it is a *Generation Discard*, and sometimes, it is a *Sacrifice Discard*. The other players on the team just have to decide which one it is based on how well the game is going. Usually, it is pretty obvious which one of the two it is, as *Sacrifice Discards* are usually very rare and are only done in very dire situations.
+
+<br />
 
 ### The Shout Discard Chop Move
 
@@ -49,12 +57,16 @@ title: Level 21 - Emergency Discards
 - Normally, a *Scream Discard* is only allowed if the team is at 0 clues (or if cluing the card is impossible). However, unlike a *Scream Discard*, it is permissible to use a *Shout Discard* to *Chop Move* regardless of the number of clues that the team has.
 - Normally, a *Scream Discard* would turn into an *Echo Scream Discard* if the next player has a playable card. *Shout Discards* can also turn into *Echo Shout Discards*, but only if the team is completely out of clues and it can be seen to be a "last-resort" move.
 
+<br />
+
 ### The Whisper Discard Chop Move
 
 - First, see the section on the *[Scream Discard](level-6.mdx#the-scream-discard-chop-move-sdcm)*.
 - Occasionally, a player will have known trash in their hand. Obviously, they are expected to discard the known trash first before discarding their right-most unclued card.
 - Thus, if a player instead discards their right-most unclued card instead of the known trash, it must be a signal that something is wrong, exactly like a *Scream Discard*. This is more subtle than a *Scream Discard* though, so it is called a Whisper Discard.
 - *Whisper Discards* are to be treated identically to *Scream Discards*. In short, this means that they 1) cause a *Chop Move* and 2) force a clue to be given on the next turn.
+
+<br />
 
 ### The Echo Scream Discard Chop Move
 
@@ -68,6 +80,8 @@ title: Level 21 - Emergency Discards
 - In the unlikely scenario where **two** people in a row have known plays / known safe discards, then the *Echo Scream Discard* will bounce off of two people and perform **three** *Chop Moves* in total. (And three people in a row cause four *Chop Moves*, and so forth.)
 - An *Echo Whisper Discard* works in the same way.
 
+<br />
+
 ### The Composition Discard
 
 - First, see the section on the *[Scream Discard](level-6.mdx#the-scream-discard-chop-move-sdcm)* and the *[Generation Discard](level-6.mdx#the-generation-discard)*.
@@ -79,6 +93,8 @@ title: Level 21 - Emergency Discards
   - Alice and Bob both have one known playable card in their hand.
   - So, if Alice plays, Bob will perform a *Generation Discard*, and discard a critical card. This is not an option.
   - Therefore, Alice must discard. This is a *Scream Discard* to Bob, and he should *Chop Move*. It is also a *Generation Discard* to Cathy, and she should not *Chop Move*.
+
+<br />
 
 ### The Rebellious Discard
 

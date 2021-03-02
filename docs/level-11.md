@@ -9,6 +9,8 @@ title: Level 11 - Context
 
 ## Conventions
 
+<br />
+
 ### Assuming Asymmetric Information
 
 - Sometimes, players will figure out asymmetric information about the identities of cards in their hand.
@@ -23,6 +25,8 @@ title: Level 11 - Context
   - Alice and Bob will have to keep this information desync in mind going forward.
 - By default, players should never assume that other players have asymmetric information. This is because having asymmetric information is the **exception**, rather than the norm.
 - In the previous example, Bob might perform an action later on in the game that seems to demonstrate that he knows he has the red 2. But Cathy should not assume that he does, unless there is **no other explanation** for the clue.
+
+<br />
 
 ### Duplication Responsibility
 
@@ -60,6 +64,8 @@ title: Level 11 - Context
 
 ## Special Moves
 
+<br />
+
 ### The Selfish Clue
 
 - A *Selfish Clue* is when a player:
@@ -78,6 +84,8 @@ title: Level 11 - Context
   - Alice sees that if she gives a red clue to Bob *right now* (e.g. before she plays the red 2), then she will be able to "lock-in" a nice 3-for-1 clue. Even though the team will lose *Tempo*, this will be inconsequential because Bob has a safe discard and Cathy has a safe discard.
   - Alice clues red to Bob as a *Selfish Play Clue*.
 
+<br />
+
 ### The Selfish Finesse (A Finesse Through Your Own Hand)
 
 - First, see the section on the *[Selfish Clue](#the-selfish-clue)*.
@@ -93,6 +101,8 @@ title: Level 11 - Context
   - Cathy discards.
   - Alice blind-plays red 2.
 
+<br />
+
 ### The Stale 1's Clue
 
 - We have many conventions that specify what a clue means. But combined with this, we are always expected to look at the context of the game.
@@ -106,6 +116,8 @@ title: Level 11 - Context
   - Thus, Cathy can reason that one of the 1's are bad. Furthermore, by convention, she knows that the oldest (right-most) 1 is bad, because that would be the one that she would ordinarily play first.
   - So, Cathy should skip over the oldest (right-most) 1, and play the other 1. Cathy should also treat the other 1 as known-trash.
 - The *Stale 1's Clue* is specific example of a more general concept called *Focus Inversion*, which is covered below.
+
+<br />
 
 ### Focus Inversion
 
@@ -122,6 +134,8 @@ title: Level 11 - Context
   - However, his slot 5 card has a negative 1 clue on it (from Alice's number 1 clue), so it explicitly cannot be the blue 1.
   - Thus, this must be *Focus Inversion* and blue 1 must be on slot 1. The blue card on slot 5 can be either blue 2, blue 3, blue 4, or blue 5.
 - Note that ***Self-Finesses* with rank always take precedence over *Focus Inversion***. (*Self-Finesses* with rank are quite common, but *Self Finesses* with color are nonsensical.)
+
+<br />
 
 ### The Fake Save
 
@@ -141,6 +155,8 @@ title: Level 11 - Context
 
 ## General Principles
 
+<br />
+
 ### Context
 
 - If you are reading this section, you are presumably a more-experienced Hanabi player who has the fundamentals down. So, now is a good time to clear up a potential misconception that you may have about the Hyphen-ated conventions.
@@ -148,6 +164,8 @@ title: Level 11 - Context
 - *Context* is defined as all of the meta-information about the game state. In intermediate and expert games, when determining what a clue means, players must **always** take into account the full context of the game. This means that figuring out what a clue means is never truly as easy as following one of the flowcharts listed on the website.
 - When writing the strategy documentation, it would be distracting to constantly write the word "probably" and to constantly write "this may not apply in all situations" all over the place. For advanced players, this is obvious - Hanabi is complicated enough such that every convention is meant to be broken if the particular situation demands it.
 - Thus, players need to read the reference documentation with **a grain of salt**, especially when it says the word "always". Even though this website outlines the "correct" thing to do in a lot of situations, these are not hard and fast rules. Rather, they are intended to show the "default" or "common" case. Memorizing the default cases is really helpful, for intermediate and advanced players alike. But players have to always remember to keep their brain fully engaged on the particular situation.
+
+<br />
 
 ### Cluing 1's in the Early Game
 

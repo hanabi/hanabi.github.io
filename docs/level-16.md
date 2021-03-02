@@ -9,6 +9,8 @@ title: Level 16 - Elimination
 
 ## Conventions
 
+<br />
+
 ### Elimination & Elimination Notes
 
 - Normally, your teammates would never let you discard anything important. So when you discard some playable card (or a needed 2) **and** that card is not in anyone else's hand, you might think that the team make a mistake.
@@ -28,6 +30,8 @@ title: Level 16 - Elimination
 - In this example, thing "thing" that triggered the writing of *Elimination Notes* was the discarding of a card, so this is called *Discard Elimination*.
 - Note that players should not always make *Elimination Notes* when they discard a playable card. In some cases, games can be extremely busy, leaving no reasonable way to get the playable card. Players must just their best judgment and account for this.
 
+<br />
+
 ### Double Discard Elimination
 
 - When a player who is in a *Double Discard* situation discards anyway with an obvious clue to give (such as a *5 Stall*), it implies that they **see** the other copy of the card, and were not *Double Discarding* at all.
@@ -37,6 +41,8 @@ title: Level 16 - Elimination
 <br />
 
 ## Special Moves
+
+<br />
 
 ### The Elimination Blind-Play
 
@@ -54,6 +60,8 @@ title: Level 16 - Elimination
   - The only card left with an *Elimination Note* is slot 5.
   - Alice can now blind-play the red 4 when it gets to her turn as an *Elimination Blind-Play*.
 
+<br />
+
 ### The Elimination Play Clue
 
 - A clue that touches multiple cards only has one focus. As you probably know, if the chop card was not touched, then the focus is the left-most card.
@@ -66,6 +74,8 @@ title: Level 16 - Elimination
   - Bob gives a number 2 clue to Alice that touches a card in slot 1 and slot 4.
   - Normally, Alice would treat this as a *Play Clue* on the 2 in her slot 1. However, she now knows that her slot 4 card is exactly red 2 (and that she can play it right now).
   - Thus, Alice knows that the point of the clue was only to get the red 2. The 2 in her slot 1 can be any 2 in the game and is not necessarily playable right now.
+
+<br />
 
 ### Elimination & Chop Focus
 
@@ -80,6 +90,8 @@ title: Level 16 - Elimination
   - Alice also knows that Bob's number 3 clue must be a *Play Clue* on the red 3. But which slot is focused (e.g. promised to be red 3)?
   - The clue is either focused on slot 1 (her newest card) or slot 4 (her "new" chop after the red 2 is accounted for).
   - Alice knows that you evaluate where the chop is before clues are given, so the clue must be focused on slot 1.
+
+<br />
 
 ### The Elimination Riding Deduction
 
@@ -99,6 +111,8 @@ title: Level 16 - Elimination
   - Alice receives no clues on the next go-around of the table. She discards, and now has *Elimination Notes* on slots 4 and 5.
   - Alice receives no clues on the next go-around of the table. Her teammates would not let the other copy of red 2 be discarded, so it must be on slot 4. Alice blind-plays red 2 from slot 4.
 
+<br />
+
 ### The Riding Bluff
 
 - Typically, when a player has two cards with *Elimination Notes* and the "true" copy of the card is on chop, you must clue it to let them know.
@@ -106,10 +120,14 @@ title: Level 16 - Elimination
 - Next, the player should perform an *Elimination Riding Deduction*, and play the unrelated card.
 - After that, there will be only one card left with an *Elimination Note*, so they will go on to play the "true" card on their next turn.
 
+<br />
+
 ### The Elimination Self-Chop Move
 
 - Sometimes, you will have narrowed down your *Elimination Notes* to one specific card. Thus, even though the card has no positive clues on it, you know the exact identity of the card.
 - If the card in question is on your chop **and** the card is not yet playable **and** you need to discard, you should obviously not discard the important elimination card. You should instead self-chop move and discard the next thing.
+
+<br />
 
 ### The Elimination Finesse
 
@@ -134,6 +152,8 @@ title: Level 16 - Elimination
   - If Alice's 4 is a blue 4, then this would be a normal *Self-Finesse*, and Alice should blind-play blue 3 from slot 2.
   - If Alice's 4 is a red 4, then this would be an *Elimination Self-Finesse*, and Alice should blind-play red 3 from slot 4.
   - Alice knows that in this situation, you always supposed to assume a normal *Finesse*, so she blind-plays blue 3 from slot 2.
+
+<br />
 
 ### Trash Touch Elimination
 

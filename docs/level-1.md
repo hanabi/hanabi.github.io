@@ -10,11 +10,15 @@ title: Level 1 - Fundamentals
 
 ## Conventions
 
+<br />
+
 ### Chop
 
 - When players have to discard, they typically discard their right-most unclued card.
 - A player's chop is formally defined as **the next unclued card that they would discard if they had nothing to do**.
 - If a player has a clued card that is known useless, then they will typically discard the useless card **instead** of discarding their chop. (But the useless card does **not** count as the chop - their chop remains the right-most unclued card.)
+
+<br />
 
 ### Play Clues & Delayed Play Clues
 
@@ -30,11 +34,15 @@ title: Level 1 - Fundamentals
 - For example, if Alice was clued about a bunch of 1's and then Bob is given a Play Clue on an unknown 2, Bob must wait for Alice to play all of her 1's first before playing the 2.
 - Since we treat all *Play Clues* as potential *Delayed Play Clues*, the distinction between them is pretty much irrelevant. In the *Hyphen-ated Group*, we use the phrase *Play Clue* to mean **either** a *Play Clue* or a *Delayed Play Clue*.
 
+<br />
+
 ### The Definition of Playable
 
 - First, see the section on *[Play Clues & Delayed Play Clues](#play-clues--delayed-play-clues)*.
 - When we say that an unclued card is currently *playable*, we do **not** mean that the card would be able to play on the stacks right this instant. If an unclued card is *playable*, then what we really mean is that it would be legal for someone to give either a *Play Clue* **or** a *Delayed Play Clue* to the card.
 - In other words, if an unclued *playable* card was given a *Delayed Play Clue*, that card would eventually play on the stack without any additional clues needing to be given by anyone else - all the in-between cards, if any, are present and accounted for.
+
+<br />
 
 ### One-Away-From-Playable Cards
 
@@ -49,6 +57,8 @@ title: Level 1 - Fundamentals
 - Players are **not** allowed to give *Play Clues* or *Delayed Play Clues* to *one-away-from-playable* cards - they are not playable yet!
 - Players are **not** allowed to give *Save Clues* to *one-away-from-playable* cards - unless they also happen to be critical.
 
+<br />
+
 ### Save Clues
 
 - You are **only** allowed to give a *Save Clue* to a card that is on chop.
@@ -59,6 +69,8 @@ title: Level 1 - Fundamentals
   1. Critical cards (with either color or number)
 - Additionally, everyone in the group also agrees to never let anyone discard a (unique) playable card. However, a clue to a unique playable card would be defined as a *Play Clue*, not a *Save Clue*.
 
+<br />
+
 ### The Early Game
 
 - The *Early Game* is the period of time before someone discards for the first time.
@@ -68,6 +80,8 @@ title: Level 1 - Fundamentals
 <br />
 
 ## Special Moves
+
+<br />
 
 ### The 2 Save
 
@@ -87,11 +101,15 @@ title: Level 1 - Fundamentals
 
 - For level 17 players, there is a [special interaction between *2 Saves* and *5 Stalls*](level-17.md#interaction-between-2-saves-and-5-stalls).
 
+<br />
+
 ### The 5 Stall
 
 - A *5 Stall* is when someone uses a number 5 clue to clue a previously-unclued 5 that is not on chop yet.
 - *5 Stalls* are only allowed to be performed in the *Early Game* and in other special stalling situations.
 - For level 8 players, there are [additional rules](level-8.md#the-5-stall-intermediate-section) relating to the *5 Stall*.
+
+<br />
 
 ### The Prompt
 
@@ -100,6 +118,8 @@ title: Level 1 - Fundamentals
 - An example of a *Prompt* can be found in the [beginner's guide](beginner.md#the-prompt).
 - For level 5 players, see the *[Prompts in Multi-Color Variants](level-5.mdx#prompts-in-multi-color-variants)* section.
 
+<br />
+
 ### The Finesse
 
 - A *Finesse* is when you get a player to blind-play a card to fulfill a promise that a certain card is playable right now.
@@ -107,9 +127,13 @@ title: Level 1 - Fundamentals
 - *Finesses* must be on "matching" cards. (For example, the red 1 leads directly into the red 2, so they are considered to be a "matching" pair of cards.)
 - When a player is *Finessed*, they should blind-play their card right away in order to demonstrate it!
 
+<br />
+
 ### Finesse Position
 
 - A player's *Finesse Position* refers to the slot that their **left-most unclued card** is in.
+
+<br />
 
 ### Finessed Cards
 

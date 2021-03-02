@@ -9,6 +9,8 @@ title: Level 17 - 5 Tech
 
 ## Conventions
 
+<br />
+
 ### The Low Score Phase and the Normal Score Phase
 
 - At this point, you should already know that we split up the game of Hanabi into the *Early Game* and the *Mid-Game* (based on when someone discards).
@@ -17,6 +19,8 @@ title: Level 17 - 5 Tech
   - The *Normal Score Phase* is defined as when the score is equal to or past this threshold.
 - Some special moves using a number 5 clue can only be performed in the *Low Score Phase* of the game.
 - On Hanab Live, the score will be colored cyan when the *Low Score Phase* is active.
+
+<br />
 
 ### No Play Clues with a Number 5 Clue in the Low Score Phase
 
@@ -29,12 +33,16 @@ title: Level 17 - 5 Tech
 
 ## Special Moves
 
+<br />
+
 ### The Early 5's Chop Move
 
 - First, see the section on the *[5 Stall](level-8.md#the-5-stall-intermediate-section)*.
 - In the *Early Game*, players are only allowed to perform a *5 Stall* if there is nothing left to do. (Or, as a special exception, if there is only one *Play Clue* to give and that card is on *Finesse Position*.)
 - Thus, if someone clues a 5 and there **is** something else to do, they must be trying to send an additional message.
 - If the 5 is one-away from chop, they intend for an *Early 5's Chop Move*. This functions in the exact same way a normal *5's Chop Move* does (except it was done in the *Early Game*, which is not normally possible).
+
+<br />
 
 ### The 5 Pull
 
@@ -58,9 +66,13 @@ title: Level 17 - 5 Tech
 - In the rare case where a *5 Pull* is performed in a 3-player game by touching two 5's in slot 1 and slot 3, then the *5 Pulled* card is slot 2.
 - Remember that a number 5 clue [is always a *5 Stall* instead of a *5 Pull* if the only card ignored is a 2 on chop](#interaction-between-2-saves-and-5-stalls).
 
+<br />
+
 ### A Flowchart for Cluing 5's
 
 - Differentiating between a *5 Stall* and a *5 Pull* can sometimes be confusing. [Here is a flowchart](https://raw.githubusercontent.com/hanabi/hanabi.github.io/main/static/img/flowcharts/early-game-5-flowchart.png) that steps you through how you can tell the difference.
+
+<br />
 
 ### The 5 Pull Prompt & The 5 Pull Finesse
 
@@ -79,6 +91,8 @@ title: Level 17 - 5 Tech
 - Subsequently, *5 Pulls* are **not** allowed to initiate a *Reverse Finesse*. (This is because we don't want the person with the pulled card to have to entertain too many possibilities.)
 - Remember that during a *5 Pull Finesse*, the pulled card **always** matches the blind-play. In other words, it impossible to perform a *5 Pull Bluff*.
 
+<br />
+
 ### The 5 Pull Double Finesse
 
 - First, see the section on the [5 Pull Finesse](#the-5-pull-prompt--the-5-pull-finesse).
@@ -93,6 +107,8 @@ title: Level 17 - 5 Tech
   - Donald knows that the *5 Pulled* card is the red 3 to match the red 1 and the red 2.
 - Previously, we said that *5 Pull Finesse* **must** be a *Forward Finesse*. However, *5 Pulled* players **do** have to respect that a *5 Pull Finesse* can be a *5 Pull Double Finesse* with the second blind-play as a *Reverse Finesse*. (Specifically, we refer to this as a *Finesse* with a *Reverse Finesse* component.)
 - More examples of a *5 Pull Double Finesse* can be found [here](examples/5-pull-double-finesse.md).
+
+<br />
 
 ### The 5 Pull Clandestine Finesse
 
@@ -112,6 +128,8 @@ title: Level 17 - 5 Tech
   - Bob blind-plays the green 1 from slot 2.
   - Cathy now knows that this was indeed a *5 Pull Clandestine Finesse* and that she has the green 2 on her slot 4.
 
+<br />
+
 ### The 5 Pull Promise (A Play Clue After a 5 Pull)
 
 - Normally, *5 Pulls* have to be treated as *Delayed Play Clues*. This means that sometimes, it can take a long time for the pulled card to blind-play.
@@ -121,16 +139,22 @@ title: Level 17 - 5 Tech
   - Bob does a *5 Pull* on Donald. Donald knows that the *5 Pulled* card could be either red 2 or blue 2 (if it is a *Delayed Play Clue*).
   - Cathy clues Alice about a red 3. Now, Donald knows that he is **promised** the red 2 as his *5 Pulled* card (and he no longer has to wait for the blue 1 to come down before blind-playing).
 
+<br />
+
 ### Finesses While 5 Pulled are Certain Finesses
 
 - Sometimes, a *5 Pulled* player may not play their pulled card right away. Maybe they have to wait for existing cards to play first, or maybe they want to capitalize on a *Finesse* while it is still available.
 - Any *Finesse* that a *5 Pulled* player performs is to be treated as a *Certain Finesse*.
 - Any *Certain Discard* that is performed in response to a *Finesse* that a *5 Pulled* player did applies to the *5 Pulled* card.
 
+<br />
+
 ### The 5 Pull Skip
 
 - If a player is already *Finessed*, it is possible to *Finesse* them again and get them to play their *Second Finesse Position* card.
 - Similarly, if a *5 Pull* is performed, and the card immediately to the right of a 5 is already clued or already "gotten", then the *5 Pull* skips over that card and gets the next card after that.
+
+<br />
 
 ### 5 Number Discharge (5ND)
 
@@ -153,6 +177,8 @@ title: Level 17 - 5 Tech
 - After a *5 Number Discharge*, the card next to the 5 should be marked accordingly. For example, if a *5 Number Discharge* happens on the first turn of the game, then the team should mark the "pulled" card as a 3 or a 4.
 - More examples of a *5 Number Discharge* can be found [here](examples/5-number-discharge.md).
 
+<br />
+
 ### 5 Number Discharge Finesse Position Skips
 
 - First, see the section on the *[5 Number Discharge](#5-number-discharge-5nd)*.
@@ -163,6 +189,8 @@ title: Level 17 - 5 Tech
 <br />
 
 ## General Principles
+
+<br />
 
 ### Interaction Between 2 Saves and 5 Stalls
 

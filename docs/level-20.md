@@ -9,6 +9,8 @@ title: Level 20 - Ignition
 
 ## Conventions
 
+<br />
+
 ### Ignition
 
 - An *Ignition* is a type of move that makes someone blind-play a card from their *Finesse Position*.
@@ -17,6 +19,8 @@ title: Level 20 - Ignition
     - e.g. It doesn't "match", which is unlike a *Finesse*, but like a *Bluff*.
   - unrelated to the *playability* of the clued card
     - e.g. Nothing needs to be "proved" to the player who got clued, which is unlike a *Finesse*, and unlike a *Bluff*.
+
+<br />
 
 ### Double Ignition
 
@@ -29,6 +33,8 @@ title: Level 20 - Ignition
 <br />
 
 ## Special Moves
+
+<br />
 
 ### The Trash Double Ignition
 
@@ -54,6 +60,8 @@ title: Level 20 - Ignition
 - Players should always assume a *Trash Double Ignition* over a *Bad Trash Chop Move Ejection*, since the latter is very rare. (*Bad Trash Chop Move Ejection* is an advanced move that is covered later on.)
 - Also, see the section on [Trash Ejection](extras/ejections.md#the-trash-ejection).
 
+<br />
+
 ### The Replay Double Ignition
 
 - When a player re-clues a globally-known playable card, it is a "useless" clue.
@@ -62,6 +70,8 @@ title: Level 20 - Ignition
 - The *Replay Double Ignition* must not introduce any new cards as part of the clue.
 - The *Replay Double Ignition* can be performed all throughout the game. (Conversely, the *Trash Double Ignition* can only be performed towards the end of the game.)
 - Also, see the section on [Replay Ejection](extras/ejections.md#the-replay-ejection).
+
+<br />
 
 ### The Poke Double Ignition
 

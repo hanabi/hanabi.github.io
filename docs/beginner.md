@@ -44,6 +44,8 @@ In this guide, there will be some screenshots to show off the concepts introduce
 
 ## The Basics
 
+<br />
+
 ### The Chop
 
 - The right-most unclued card is called the "chop" card. (This is a metaphor of a card being "on the chopping block".)
@@ -126,6 +128,8 @@ In this guide, there will be some screenshots to show off the concepts introduce
 - Sometimes, a *Chop Focus* clue could be either a *Save Clue* or a *Play Clue*. When this happens, the receiving player must consider both possibilities and hold on to the card until they know for sure.
 - The three kinds of *Save Clues* are listed below.
 
+<br />
+
 ### The 5 Save
 
 ![5 Save](/img/beginner/5-save.png)
@@ -136,6 +140,8 @@ In this guide, there will be some screenshots to show off the concepts introduce
   - Before this clue, Bob did not have any clued cards in his hand.
   - Since the clue was focused on his chop, Bob knows that this must be a *5 Save* on the 5. It can be any 5 in the game.
 - 5's must be saved with a number clue instead of a color clue. (Otherwise, it will look like a *Play Clue*!)
+
+<br />
 
 ### The 2 Save
 
@@ -149,6 +155,8 @@ In this guide, there will be some screenshots to show off the concepts introduce
   - Since the clue was focused on his chop, Bob knows that this must be a *2 Save* on the 2. It can be any 2 in the game.
 - Similar to 5's, 2's must be saved with a number clue instead of a color clue.
 - You can think of the *2 Save* as a last resort to save a 2. Thus, players are not allowed to perform a *2 Save* on a 2 if that same 2 is visible in someone else's hand (because the team does not actually need to save that 2 quite yet - they can *2 Save* it when the other copy reaches the chop).
+
+<br />
 
 ### The Critical Save
 
@@ -169,11 +177,15 @@ In this guide, there will be some screenshots to show off the concepts introduce
 
 ## Play Clues
 
+<br />
+
 ### Normal Play Clues
 
 - We are very strict with what we clue - we don't just randomly clue cards in the hand.
 - So if a card is touched as the focus of the clue and it is not on chop, then that card must be playable!
 - Alternatively, if a chop-focus *Save Clue* is given to a card that does not meet the above saving criteria, then it is not a *Save Clue* at all, and must be a *Play Clue*!
+
+<br />
 
 ### Delayed Play Clues
 
@@ -198,6 +210,8 @@ In this guide, there will be some screenshots to show off the concepts introduce
 - But that doesn't really tell you much about the *strategy* involved to play the game. How do players find the best move for a certain situation?
 - Hanabi is very complicated, so it is impossible to write a guide on how to best solve each individual situation. (And that's a good thing, because the game continues to be interesting to play, even after thousands of games!)
 - Luckily, beginners can focus on internalizing just **three main principles**. Nearly all of the special moves and strategies naturally flow from these principles.
+
+<br />
 
 ### 1 - Good Touch Principle
 
@@ -231,6 +245,8 @@ In this guide, there will be some screenshots to show off the concepts introduce
   - Slot 3 was also touched by the clue, but it was not the focus. But just because it was not the focus does not mean that it can just be any yellow card. From *Good Touch Principle*, Bob knows that it must be playable in the future. (In other words, if the slot 3 card was a yellow 1 or yellow 2, then Alice's clue would be a *Bad Touch*.)
   - Therefore, Bob marks his slot 3 card as either yellow 3, yellow 4, or yellow 5.
 
+<br />
+
 ### 2 - Save Principle
 
 - The *Save Clue* section above explains that the team must save certain types of cards.
@@ -241,6 +257,8 @@ In this guide, there will be some screenshots to show off the concepts introduce
   - Critical cards (meaning that the other copy is discarded)
   - Unique playable cards (meaning that only one copy is currently visible)
 - This is called *Save Principle* and **it is the most important principle of them all**. You are allowed to **break any other principle or rule** in order to prevent a card in this list from being discarded! In fact, often times you will have to violate *Good Touch Principle* in order to save a specific card, and this is okay.
+
+<br />
 
 ### 3 - Minimum Clue Value Principle (and *Tempo Clues*)
 
@@ -255,11 +273,15 @@ In this guide, there will be some screenshots to show off the concepts introduce
 
 ## Miscellaneous
 
+<br />
+
 ### The Early Game
 
 - We define the *Early Game* as the period of time before someone discards for the first time. When they do, they initiate the *Mid-Game*.
 - The general goal of the *Early Game* is to extend it for as long as reasonably possible. Thus, everyone agrees that they **must** "extinguish" all of the available *Play Clues* and *Save Clues* before discarding. (There are no cards in the discard pile yet, but *Save Clues* still need to be given to all of the 5's on chop and all of the 2's on chop that are not present in someone else's hand.)
 - In the *Early Game*, you can do a special move called a *5 Stall*; see below.
+
+<br />
 
 ### The 5 Stall (Cluing Off-Chop 5's)
 
@@ -267,6 +289,8 @@ In this guide, there will be some screenshots to show off the concepts introduce
 - As a special rule, in the *Early Game*, you **are** allowed to clue number 5 as a *Save Clue* to off-chop 5's. Doing this is just interpreted as a "stall" clue and that you are trying to extend the *Early Game* for a little bit longer.
 - However, you are **only** allowed to do this if there is nothing else to do, meaning that all of the "normal" *Play Clues* and *Save Clues* have been extinguished.
 - Normally, a *5 Stall* is only done in the *Early Game*. However, you might see someone give a *5 Stall* in the *Mid-Game* if they are in a special situation where they are not allowed to discard.
+
+<br />
 
 ### Other General Strategy
 

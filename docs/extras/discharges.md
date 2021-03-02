@@ -7,15 +7,21 @@ title: Discharges
   - For example, if a player's hand is completely unclued, their *Third Finesse Position* is slot 3.
 - Just like a *Bluff*, a *Discharge* can only be performed on the very next player.
 
+<br />
+
 ### The Unknown Trash Discharge
 
 - The *Unknown Trash Discharge* is introduced at [level 15](../level-15.md#the-unknown-trash-discharge-1-for-1-form-utd).
 - This results in a *Signal Shift* from *Play* --> *Trash*.
 
+<br />
+
 ### The 5 Number Discharge (5ND)
 
 - The *5 Number Discharge* is introduced in [level 17](../level-17.md#5-number-discharge-5nd).
 - This results in a *Signal Shift* from *Play* --> *Trash* (on the *5 Pulled* card).
+
+<br />
 
 ### Unknown Dupe Discharge (UDD)
 
@@ -55,12 +61,16 @@ title: Discharges
   - However, Alice also knows that she is supposed to use the *two-or-more-blind-plays* rule in this situation. Since Alice would have to blind-play two cards into the *Finesse*, a *Finesse* is unlikely. Thus, this must be an *Unknown Dupe Discharge*.
   - Alice blind-plays her *Third Finesse Position*. It is a blue 1 and it successfully plays on the stacks.
 
+<br />
+
 ### The Trash Push Discharge
 
 - First, see the section on the [Trash Push](../level-13.md#the-trash-push).
 - Normally, when known trash is touched as the focus of the clue, and the known trash is on chop, it communicates a *Trash Push*.
 - However, what if the *Trash Pushed* card is trash? The other players can see that this clue must have some other purpose - it should signal an *Discharge* on the very next player.
 - This move is extremely similar to the *Unknown Trash Discharge*. In UTD, the focus of the clue is promised as trash. In the *Trash Push Discharge*, the *Trash Pushed* card is promised as trash.
+
+<br />
 
 ### The Prophetic Discharge
 

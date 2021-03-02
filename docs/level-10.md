@@ -9,6 +9,8 @@ title: Level 10 - Bluffs
 
 ## Special Moves
 
+<br />
+
 ### The Bluff
 
 - *Finesses* are quite efficient. So, when you see a playable card in someone's *Finesse Position* slot, you will often want to "get" the card with a *Finesse* (instead of cluing it directly). However, often times, the proper "connecting" card is not on the table.
@@ -22,6 +24,8 @@ title: Level 10 - Bluffs
   - Bob blind-plays his slot 1 card, expecting it to be a red 3. Instead, it is a blue 3, and it successfully plays on the stacks. Bob now knows that he was *Bluffed* by Alice.
   - Next, Cathy sees that Bob just blind-played a blue 3 immediately after this red clue, so she knows that she must have a *one-away-from-playable* red card - the red 4. Cathy holds on to the red 4 for later and discards.
 - Except in rare circumstances, ***Bluffing* is only permissible when you are the person directly before the player who is blind-playing a card**. This is called being in *Bluff Seat*. Do not *Bluff* unless you are in *Bluff Seat*! (This follows from *[Lie Principle](first-principles.md#8-lie-principle)*.)
+
+<br />
 
 ### Bluffs Through Already-Clued Cards
 
@@ -43,6 +47,8 @@ title: Level 10 - Bluffs
 
 ## General Principles
 
+<br />
+
 ### Bob's Truth Principle (Part 1)
 
 - Sometimes, a player will give a clue that looks like it could be either a *Finesse* or a *Bluff*. Between these two moves, which should have precedence?
@@ -57,6 +63,8 @@ title: Level 10 - Bluffs
   - Bob also knows that if this is a *Bluff*, then Bob should blind-play his *Finesse Position* card immediately.
   - Bob knows that if there is any way that this could be a *Finesse* (the truth), he should **assume that the truth is being told**. Thus, Bob knows that it must be a *Finesse* on Cathy and should not blind-play anything.
 - This is called *Bob's Truth Principle*, because Bob always assumes the truth over a *Lie*.
+
+<br />
 
 ### Cathy's Match Principle (Part 2)
 
@@ -120,6 +128,8 @@ title: Level 10 - Bluffs
   - However, Cathy notices that her red card has a negative blue clue on it. Thus, it cannot be the rainbow 3.
   - This must instead be a *Bluff*. Cathy marks her red card as the red 4 (since the red 4 is the *one-away-from-playable* red card).
 
+<br />
+
 ### Guide Principle
 
 - Part of Hanabi involves making sure that if you perform an action, someone else on the team won't discard anything important (e.g. *Save Principle*). Additionally, part of Hanabi involves accounting for all the possibilities (e.g. *Schrödinger's Cat Principle*).
@@ -135,6 +145,8 @@ title: Level 10 - Bluffs
   - Normally, Bob would play it safe and save the 5. However, in this case, he knows that *Guide Principle* applies, and Alice is guiding him to play right now.
   - Bob blind-plays his *Finesse Position*. It is the red 1 and it successfully plays.
   - Cathy does not discard since Alice saw that Cathy had something to clue.
+
+<br />
 
 ### Clue Interpretation & Occam's Razor
 
@@ -163,11 +175,15 @@ title: Level 10 - Bluffs
 
 ## Common Mistakes
 
+<br />
+
 ### Bluff Seat and the Pang of Guilt
 
 - As mentioned in the section on *Bluffs*, you are in *Bluff Seat* for a certain player if you are immediately before them.
 - Before cluing a card directly, you should first consider if the card is on *Finesse Position*. If it is, and you clue it directly, you may be "stealing" someone's *Finesse* or *Bluff*.
 - Thus, in this situation, it may be better to discard and let the player in *Bluff Seat* get the card. If you do decide to clue the card directly, you should always feel a *Pang of Guilt*.
+
+<br />
 
 ### Mistaking a Layered Finesse for a Bluff
 
@@ -176,6 +192,8 @@ title: Level 10 - Bluffs
 - To tell the difference between a *Layered Finesse* and a *Bluff*, simply look at the *Bluff Seat*:
   - If the player was in *Bluff Seat*, then it is a *Bluff*.
   - If the player was not in *Bluff Seat*, then it is a *Layered Finesse*.
+
+<br />
 
 ### Bluff Prompts / Prompt Bluffs (Illegal)
 
@@ -191,6 +209,8 @@ title: Level 10 - Bluffs
   - Cathy performs the same analysis that Bob does. Namely, Cathy knows that Alice is indicating that someone on the team has the red 2, and Cathy does not see the red 2 in anyone else's hand.
   - Thus, Cathy knows that Alice's clue to Donald must be a *Finesse*, so Cathy must have the red 2 on her *Finesse Position*. Cathy plays her *Finesse Position* card. It is instead the blue 5 and misplays.
   - This was Alice's fault, because *Bluffs* are only allowed if they can be revealed immediately from a blind-play.
+
+<br />
 
 ### Stacked Bluffs (Illegal)
 

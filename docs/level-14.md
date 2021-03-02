@@ -9,6 +9,8 @@ title: Level 14 - Double Bluffs
 
 ## Special Moves
 
+<br />
+
 ### The Double Half Bluff (DHB)
 
 - Sometimes, you see that two players in a row have playable *Finesse Position* cards. However, they are unrelated, so you can't get them both played with a *Double Finesse*. In this situation, by performing a clue that looks like a *Double Finesse*, you can get the first card played like a normal *Finesse* and the second card like a *Bluff*.
@@ -24,6 +26,8 @@ title: Level 14 - Double Bluffs
   - After Cathy blind-played, Donald knows that he must have the red 4 (as a *Double Half Bluff*).
 - Normally, players are only allowed to perform *Bluffs* while sitting in *Bluff Seat*. The *Double Half Bluff* is one of the few exceptions to the rule. (It is allowed because the *Fib* still resolves "immediately", which satisfies *Lie Principle*.)
 
+<br />
+
 ### The Double Bluff
 
 - Similar to a *Double Half Bluff*, it is also possible to get 2 cards played in a row that are completely unrelated. It is distinct from a *Double Half Bluff* because **none** of the blind-played cards match the card that is clued.
@@ -37,12 +41,16 @@ title: Level 14 - Double Bluffs
   - After Cathy blind-played, Donald knows that he must have the red 4 (as a *Double Bluff*).
 - Normally, players are only allowed to perform *Bluffs* while sitting in *Bluff Seat*. The *Double Bluff* is one of the few exceptions to the rule. (It is allowed because the *Fib* still resolves "immediately", which satisfies *Lie Principle*.)
 
+<br />
+
 ### The Triple Bluff (Illegal)
 
 - A *Double Bluff* is when a player clues a card that is two-away-from-playable and it gets two unrelated cards to blind-play from *Finesse Position*.
 - Logically, it follows from the *Double Bluff* that if a player clues a card that is three-away-from-playable, it would cause three unrelated cards to blind-play from *Finesse Position* as a *Triple Bluff*.
 - However, this is not the case. We explicitly agree that *Triple Bluffs* are illegal and not to be used. (*Triple One-Third Bluffs* and *Triple Two-Third Bluffs* are also illegal.)
 - The consequence of this is that if a player gives a *Play Clue* to a three-away-from-playable card (e.g. either a 4 or a 5) and it causes two cards to blind-play, then the next player should **not** continue to blind-play any more cards. See the next section for more information.
+
+<br />
 
 ### The 4 Double Bluff & The 5 Double Bluff
 
@@ -68,6 +76,8 @@ title: Level 14 - Double Bluffs
     - After Cathy blind-played, Donald now knows that the red card in his hand is a red 4 (as a *4's Double Bluff*).
     - (Donald knows that it cannot be a red 5, or else Bob would have blind-played his *Second Finesse Position*.)
 
+<br />
+
 ### The 4 Double Bluff That Looks like a Double Half Bluff
 
 - Because any *Bluff* sequence that gets two cards blind-played can be a 4, this means that players have to account for the fact that a card that initiates a *Double Half Bluff* could also be a 4.
@@ -80,6 +90,8 @@ title: Level 14 - Double Bluffs
   - However, Donald also knows that any 4 in the game can be used to perform a *Double Bluff*.
   - Thus, Donald marks his red card as either a red 3 (if it was a *Double Half Bluff*) or a red 4 (if it was a *4 Double Bluff*).
 
+<br />
+
 ### The Hard 4 Double Bluff
 
 - Similar to a *Hard 3 Bluff*, it is also possible to perform a *Hard 4 Double Bluff*.
@@ -89,6 +101,8 @@ title: Level 14 - Double Bluffs
   - Bob blind-plays red 1 from his *Finesse Position*.
   - Cathy blind-plays red 2 from her *Finesse Position*.
   - Even though red 1 and red 2 are the same suit as the red 4, the team knows that no-one is promised the red 3.
+
+<br />
 
 ### The Hard 5 Double Bluff
 
@@ -105,6 +119,8 @@ title: Level 14 - Double Bluffs
 
 ## General Principles
 
+<br />
+
 ### Deferring a Bluff
 
 - From *Urgency Principle*, we know that players are allowed to defer a *Finesse* or a *Bluff* in order to do a *Finesse* or *Bluff* of their own. And indeed, when players see a really good clue, they should probably defer blind-playing to give the clue. But there are limits.
@@ -116,11 +132,15 @@ title: Level 14 - Double Bluffs
 - Thus, deferring a *Bluff* to do another *Bluff* should **almost never be performed**.
 - Also, see the below section on *Deferring a Double Bluff*.
 
+<br />
+
 ### Deferring a Double Bluff
 
 - First, see the section on *[Deferring a Bluff](#deferring-a-bluff)*.
 - If Bob suspects that Alice is performing a *Double Bluff*, then Bob should **never defer**. It is very important that *Double Bluffs* resolve immediately.
 - Similarly, if Bob blind-plays, and Cathy can not rule out a *Double Bluff*, then Cathy should **never defer**. (If Cathy defers, it will cause an unrecoverable *Information Desynchronization*, because her future blind-play will not be interpreted as related to the *Double Bluff*.)
+
+<br />
 
 ### A Table for Deferring Bluffs
 

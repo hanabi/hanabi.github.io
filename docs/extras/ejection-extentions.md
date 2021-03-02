@@ -5,6 +5,8 @@ title: Ejection Extensions
 
 These are additional rules that can apply to *Ejections*, *Discharges*, and *Charms*.
 
+<br />
+
 ### The Out-of-Position Ejection
 
 - Normally, players are only allowed to perform an *Ejection* on the very next player (similar to a *Bluff*).
@@ -23,10 +25,14 @@ These are additional rules that can apply to *Ejections*, *Discharges*, and *Cha
 - Note that you are not allowed to perform *Out-of-Position Ejections* in reverse, unless it is super-obvious what is going on.
 - Remember that just because *OOP Ejections* are technically legal in some situations, this does **not** mean that players should use them. Just like any other complicated move, only use *OOP Ejections* when it is super-clear to the rest of the team what is going on. Otherwise, a simpler line should be chosen.
 
+<br />
+
 ### The Out-of-Position Discharge/Charm
 
 - First, see the section on *[Out-of-Position Ejection](#the-out-of-position-ejection)*.
 - Just like OOP *Ejection*, it is possible to do an OOP *Discharge* or an OOP *Charm* in the exact same way.
+
+<br />
 
 ### The Stacked Ejection
 
@@ -44,6 +50,8 @@ These are additional rules that can apply to *Ejections*, *Discharges*, and *Cha
   - Since a *Stacked Finesse* is impossible, Cathy knows that this must be a *Stacked 5 Color Ejection*.
   - Alice's clue *Finessed* Cathy. So after Alice's clue, Cathy's *Finesse Position* moved to her slot 2 and her *Second Finesse Position* moved to her slot 3.
   - Normally, *Ejection* calls for the *Second Finesse Position*, but in this case, Cathy knows that *Stacked 5 Color Ejections* call for the *First Finesse Position* instead of the *Second Finesse Position*, so Cathy blind-plays slot 2 (instead of slot 3).
+
+<br />
 
 ### The Stacked Discharge/Charm
 

@@ -29,6 +29,8 @@ title: Special Bluffs
 - Expert players can use *Self Color Bluffs* as a nice alternative to giving a 1-for-1 directly to the card in *Finesse Position*. Doing so has the advantage of "filling in" an ancillary card in the hand.
 - More examples of a *Self Color Bluff* can be found [here](../examples/self-color-bluff.md).
 
+<br />
+
 ### Self Color Bluff (2-for-1 Form) (SCB)
 
 - Rarely, it is also possible to perform a *Self Color Bluff* as a 2-for-1.
@@ -41,6 +43,8 @@ title: Special Bluffs
   - Bob cannot possibly have the red 3 in his *Finesse Position*, because that card now has negative red.
   - Thus, Bob knows that this must be a *Self Color Bluff*, so he blind-plays his *Finesse Position* card as a *Known Bluff* on any playable non-red card. It is a blue 1 and it successfully plays on the stacks.
   - Bob marks his red card as a red 4 (since that is the red card that is *one-away-from-playable*).
+
+<br />
 
 ### Self Color Double Bluff (SCDB)
 
@@ -60,11 +64,15 @@ title: Special Bluffs
   - Bob is surprised by Cathy's blind-play and realizes that it must be related to the clue that Alice gave. If Bob had a red 4 in his hand, then Cathy would not have gone on to blind-play anything. So, Bob erases his note of "red 4" and instead writes "red 5", because that is the only red card that is *two-away-from-playable*, and is the only card that would make Cathy blind-play.
 - More examples of a *Self Color Double Bluff* can be found [here](../examples/self-color-double-bluff.md).
 
+<br />
+
 ### Stacked Bluffs (Exception)
 
 - First, see the section explaining that [*Stacked Bluffs* are illegal](../level-10.md#stacked-bluffs-illegal).
 - Rarely, a player can know that a *Layered Finesse* is impossible. This could be because they know the identity of every card in their hand (minus their *Finesse Position* card). Or, alternatively, they could have relevant negative information on their entire hand.
 - If the player can rule out a *Layered Finesse*, then it is possible to perform a *Stacked Bluff* on them. It is important to note that such a player is "locked in" to the *Bluff* and should almost always immediately play their *Finesse Position* card.
+
+<br />
 
 ### The Known Priority Bluff
 
@@ -76,12 +84,16 @@ title: Special Bluffs
   - Normally, Bob would think that this is a *Priority Finesse* on the blue 5. However, both he and Alice know that Alice has the blue 5.
   - This must be a *Known Priority Bluff*, so Bob plays his *Finesse Position* card as any other playable card.
 
+<br />
+
 ### The Elimination Bluff & The Elimination Layered Finesse
 
 - Normally, if a player has *Elimination Notes* on their hand, you can clue the next card in the suit to perform an *Elimination Finesse*.
 - It is also possible to pretend like you are performing an *Elimination Finesse* on someone in order to get an unrelated card to blind-play from their oldest slot.
 - If the player who performed the clue was in *Bluff Seat*, then it is to be treated like a *Bluff*, and thus they will not know where the actual *Elimination Card* is. (However, in most cases, at this point there will only be one remaining card with an *Elimination Note* on it, so it won't matter.)
 - If the player who performed the clue was not in *Bluff Seat*, then the blind-playing player is expected to keep playing until they find the intended card. This is similar to how a *Layered Finesse* works, but it is inverted such that they play cards from oldest to newest.
+
+<br />
 
 ### The Bad Touch Double Bluff (for 3's)
 
@@ -103,6 +115,8 @@ title: Special Bluffs
   - Emily plays the red 3.
 - More examples of a *Bad Touch Double Bluff* can be found [here](../examples/bad-touch-double-bluff.md).
 
+<br />
+
 ### The Pestilent Triple Bluff
 
 - First, see the section on the *[Pestilent Double Bluff](../level-19.md#the-pestilent-double-bluff-pdb)*.
@@ -117,6 +131,8 @@ title: Special Bluffs
   - Alice must be intending for Donald to also blind-play his *Finesse Position* in order to "heal" the problem. Donald blind-plays his *Finesse Position*. It is a green 2 and it successfully plays.
   - At first, Emily thought that her 4 was the blue 4, in order to match the blue 2 and the blue 3. However, if that was the case, then Donald would not have blind-played anything. Emily knows that this must be a *Pestilent Triple Bluff*, and her 4 is any other 4 than blue 4 (because Donald blind-played) and green 4 (because Bob would have waited for Donald).
 
+<br />
+
 ### The Pass Bluff
 
 - First, see the section on the *[Hesitation Blind-Play](../level-22.md#the-hesitation-blind-play)*.
@@ -129,11 +145,15 @@ title: Special Bluffs
 - It is illegal for a player to perform a *Pass Bluff* if they could be *Bluffed*. (This is because the first *Bluff* would not resolve immediately and would violate *Lie Principle*.)
   - Subsequently, it is also illegal for a player to pass an *Ejection* to the next player.
 
+<br />
+
 ### The Double/Triple Pass Bluff
 
 - After a player performs a *Pass Bluff*, when it becomes their turn again, if they see an unrelated playable card on the *Second Finesse Position* of the next player, they can perform yet another *Pass Bluff*, implying that the first *Pass Bluff* was not a *Pass Bluff* at all and instead simply a *Layered Finesse* or *Clandestine Finesse*.
 - Then, after the unrelated card is played, the player who initiated the *Double Pass Bluff* can go ahead and play into the real *Finesse*.
 - Alternatively, if there continue to be playable cards, they can keep *Pass Bluffing*.
+
+<br />
 
 ### The Purge Bluff (Layered Bluff)
 

@@ -9,6 +9,8 @@ title: Level 12 - Intermediate Bluffs
 
 ## Special Moves
 
+<br />
+
 ### The 3 Bluff
 
 - Typically, the player who receives a clue that causes a *Bluff* blind-play knows that the card that was clued is one-away from being playable.
@@ -61,6 +63,8 @@ title: Level 12 - Intermediate Bluffs
   1. Does the clue "match" the blind-play? If it matches, then it is a *Finesse*. If it does not match, then it is a *Bluff*. Red matches red, but red does **not** match blue. 2 matches 3, but 1 does **not** match 3.
   1. Will the player who received the clue go on to misplay if nothing else is blind-played? If yes, then it is a *Finesse*. If no, then it is a *Bluff*.
 
+<br />
+
 ### The Critical 4 Bluff
 
 - Building on the *3 Bluffs* convention, we also agree that it is possible for a card that initiates a *Bluff* to be a copy of any of the 4s that are currently in the discard pile, but only if **a color clue** is used.
@@ -71,6 +75,8 @@ title: Level 12 - Intermediate Bluffs
   - Cathy marks her red card as the *one-away-from-playable* red card, the red 2.
   - However, Cathy also knows that *3 Bluffs* are a thing, so she *also* marks her red card as possibly a red 3.
   - However, Cathy also knows that *Critical 4 Bluffs* are a thing, so she *also* marks her red card as possibly a red 4.
+
+<br />
 
 ### The Hard Bluff
 
@@ -91,6 +97,8 @@ title: Level 12 - Intermediate Bluffs
   - This could be a *Bluff* if the 4 in her hand is blue 4, since blue 4 is currently *one-away-from-playable*. Thus, Cathy **does not** assume that her 4 is red 4, and subsequently, **does not** assume that her unknown 3 is a red 3. However, it could **also** be the case that the 4 is a red 4 (if the 3 in her hand happens to be red 3).
   - Thus, Cathy marks down both possibilities for later and does not play anything right now.
 
+<br />
+
 ### The Hard 3 Bluff
 
 - Players can use a 3 to *3 Bluff* the 1 of the same suit.
@@ -99,6 +107,8 @@ title: Level 12 - Intermediate Bluffs
   - Alice clues number 3 to Cathy, touching a red 3 on slot 1 as a *Play Clue*.
   - Bob blind-plays red 1.
   - Bob now knows that it was a *3 Bluff* and that no-one is promised the red 2. This is because even though the red 1 is the same suit as the red 3, *3 Bluffs* take precedence over *Double Finesses* as long as the clue type (number 3) does not match the card that was blind-played (a number 1).
+
+<br />
 
 ### Known Bluffs
 
@@ -113,6 +123,8 @@ title: Level 12 - Intermediate Bluffs
 <br />
 
 ## General Principles
+
+<br />
 
 ### Legal Bluff-Targets
 

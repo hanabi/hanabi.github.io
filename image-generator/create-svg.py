@@ -17,7 +17,7 @@ if sys.version_info < (3, 0):
 # Constants
 # Setting the theme text color is a hack to change text color via CSS
 # Using the class name would be more proper, but it is mangled by Docusaurus
-THEME_TEXT_COLOR = "#f5f6f7"  # This matches the text color of the website
+TEXT_COLOR = "#f5f6f7"  # This matches the text color of the website
 CARD_WIDTH = 70
 CARD_HEIGHT = 100
 CARD_ROUNDED_CORNER_SIZE = 5
@@ -116,7 +116,7 @@ def draw_text_divider(svg_file, text):
         x=[x_offset_where_player_begins + 40],
         y=[y_offset],
         dy=[20],
-        fill=THEME_TEXT_COLOR,
+        fill=TEXT_COLOR,
     )
     svg_file.add(text)
 
@@ -159,11 +159,10 @@ def draw_player_name(svg_file, player_num, player):
         y=[y_offset],
         # 7 is an arbitrary value to account for the height of the text
         dy=[(CARD_HEIGHT / 2) + 7],
-        fill=THEME_TEXT_COLOR,
+        fill=TEXT_COLOR,
+        style="font-size: 1.4em;",
     )
-    player_name_text_element = svg_file.g(style="font-size: 1.4em;")
-    player_name_text_element.add(player_name_text)
-    svg_file.add(player_name_text_element)
+    svg_file.add(player_name_text)
 
     if "cluegiver" in player:
         # TODO
@@ -274,7 +273,9 @@ def draw_clued_card(yaml_file, svg_file, card_type, negatives, x_offset, y_offse
         )
         s = svg_file.add(svg_file.svg((x_offset, y_offset), (CARD_WIDTH, CARD_HEIGHT)))
         s.add(card_image)
-        draw_unknown_card(yaml_file, svg_file, s, ranks)
+
+        # We don't want any rank pips to show
+        draw_unknown_card(yaml_file, svg_file, s, set())
     else:
         # An exact card identity was specified
         # (e.g. "r1")
@@ -346,6 +347,9 @@ def draw_extra_card_attributes(svg_file, card):
                 height=70,
             )
         )
+
+        # Draw the clue circle on the arrow
+        is_color_clue = not card["clue"] in range(1, 6)
         color = {
             "r": "red",
             "b": "blue",
@@ -362,20 +366,20 @@ def draw_extra_card_attributes(svg_file, card):
                 **{"stroke-width": 2}
             )
         )
-        img = svg_file.add(
-            svg_file.image(
+
+        # For number clues, add the number pip
+        if not is_color_clue:
+            pip = svg_file.image(
                 "{}/pips/{}.svg".format(PIECES_PATH, card["clue"]),
                 x=x_offset + 27,
                 y=y_offset - 23,
                 width=16,
                 height=16,
             )
-        )
-        if card["clue"] in range(1, 6):
+            img = svg_file.add(pip)
+
             img["style"] = "filter: url(#whitenum)"
             have_whitenum = True
-        else:
-            img["style"] = "filter: url(#shadow)"
 
         if y_offset < 20:
             y_top = -20
@@ -396,17 +400,19 @@ def draw_extra_card_attributes(svg_file, card):
             "(Y)": "yellow",
             "(P)": "violet",
         }.get(card["ontop"], "white")
-        svg_file.add(
-            svg_file.text(
-                card["ontop"],
-                x=[x_offset + 35],
-                y=[y_offset],
-                dy=[30],
-                fill=color,
-                stroke=color,
-                style="filter: url(#shadow)",
-            )
+        text = svg_file.text(
+            card["ontop"],
+            x=[x_offset],
+            y=[y_offset],
+            # 13 is a constant to account for the width of the text
+            dx=[(CARD_WIDTH / 2) - 13],
+            # 2 is a constant to make the text centered
+            dy=[(CARD_HEIGHT / 2) + 6],
+            fill=color,
+            stroke=color,
+            style="font-size: 1.5em; filter: url(#shadow);",
         )
+        svg_file.add(text)
 
 
 def draw_textbox(svg_file, opts, offset):
@@ -459,6 +465,8 @@ def draw_textbox(svg_file, opts, offset):
             (width, 20 * len(text)),
             stroke=text_color,
             fill=color,
+            rx=CARD_ROUNDED_CORNER_SIZE,
+            ry=CARD_ROUNDED_CORNER_SIZE,
         )
         r.add(rect)
 
