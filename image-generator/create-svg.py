@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 
+# Imports (standard library)
 import io
 import math
 import re
 import sys
 
+# Imports (external)
 import svgwrite
 import yaml
 
@@ -16,19 +18,25 @@ if sys.version_info < (3, 0):
 # A hack to change text color via CSS
 # Using the class name would be more proper, but it is mangled by Docusaurus
 THEME_TEXT_COLOR = "#000001"
-ROUNDED_CORNER_SIZE = 6
+CARD_ROUNDED_CORNER_SIZE = 6
 
-input = yaml.load(sys.stdin, Loader=yaml.SafeLoader)
-
-draw = svgwrite.Drawing()
+# Variables
 have_rainbow = False
 
-all_colors = [next(iter(color_pair)) for color_pair in input["stacks"]]
+# This script reads from standard in, expecting a YAML file
+# Decode it to YAML
+yaml_file = yaml.load(sys.stdin, Loader=yaml.SafeLoader)
+
+# Create a new SVG file
+draw = svgwrite.Drawing()
+
+#
+all_colors = [next(iter(color_pair)) for color_pair in yaml_file["stacks"]]
 
 x_offset = 0
 y_offset = 0
 
-for color_value in input["stacks"]:
+for color_value in yaml_file["stacks"]:
     color, value = next(iter(color_value.items()))
     if value:
         file_name = "{}{}".format(color, value)
@@ -45,7 +53,7 @@ for color_value in input["stacks"]:
     )
     x_offset += 72
 
-for line_dict in input["players"]:
+for line_dict in yaml_file["players"]:
     if "cards" in line_dict:
         num_cards_in_row = len(line_dict["cards"])
         break
@@ -87,8 +95,8 @@ def textbox(opts, offset):
                 (wid, 20 * len(text)),
                 stroke=textcolor,
                 fill="url(#rainbowtext)",
-                rx=ROUNDED_CORNER_SIZE,
-                ry=ROUNDED_CORNER_SIZE,
+                rx=CARD_ROUNDED_CORNER_SIZE,
+                ry=CARD_ROUNDED_CORNER_SIZE,
             )
         )
         global have_rainbow
@@ -100,8 +108,8 @@ def textbox(opts, offset):
                 (wid, 20 * len(text)),
                 stroke=textcolor,
                 fill=color,
-                rx=ROUNDED_CORNER_SIZE,
-                ry=ROUNDED_CORNER_SIZE,
+                rx=CARD_ROUNDED_CORNER_SIZE,
+                ry=CARD_ROUNDED_CORNER_SIZE,
             )
         )
     for i, line in enumerate(text):
@@ -154,7 +162,7 @@ y_top = 0
 x_offset_of_players_first_card = x_offset
 x_max = x_offset_of_players_first_card
 
-for line_dict in input["players"]:
+for line_dict in yaml_file["players"]:
     if "text" in line_dict:
         draw.add(
             draw.text(
@@ -210,8 +218,8 @@ for line_dict in input["players"]:
                         (0, 0),
                         (70, 100),
                         fill="gray",
-                        rx=ROUNDED_CORNER_SIZE,
-                        ry=ROUNDED_CORNER_SIZE,
+                        rx=CARD_ROUNDED_CORNER_SIZE,
+                        ry=CARD_ROUNDED_CORNER_SIZE,
                     )
                 )
                 draw_unknown_card(s, (set(all_colors) | set(range(1, 6))) - negatives)
@@ -222,11 +230,13 @@ for line_dict in input["players"]:
                 else:
                     numbers = set(range(1, 6)) - negatives
                 colors = set(t) & set(
-                    next(iter(color_pair)) for color_pair in input["stacks"]
+                    next(iter(color_pair)) for color_pair in yaml_file["stacks"]
                 )
                 if not colors:
                     colors = (
-                        set(next(iter(color_pair)) for color_pair in input["stacks"])
+                        set(
+                            next(iter(color_pair)) for color_pair in yaml_file["stacks"]
+                        )
                         - negatives
                     )
                 draw.add(
@@ -234,8 +244,8 @@ for line_dict in input["players"]:
                         (x_offset - 1, y_offset - 1),
                         (72, 102),
                         fill="orange",
-                        rx=ROUNDED_CORNER_SIZE,
-                        ry=ROUNDED_CORNER_SIZE,
+                        rx=CARD_ROUNDED_CORNER_SIZE,
+                        ry=CARD_ROUNDED_CORNER_SIZE,
                     )
                 )
                 if len(numbers) > 1 and len(colors) > 1:
@@ -245,8 +255,8 @@ for line_dict in input["players"]:
                             (0, 0),
                             (70, 100),
                             fill="gray",
-                            rx=ROUNDED_CORNER_SIZE,
-                            ry=ROUNDED_CORNER_SIZE,
+                            rx=CARD_ROUNDED_CORNER_SIZE,
+                            ry=CARD_ROUNDED_CORNER_SIZE,
                         )
                     )
                     draw_unknown_card(s, numbers | colors)
