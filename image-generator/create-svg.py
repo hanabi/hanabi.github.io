@@ -18,17 +18,46 @@ if sys.version_info < (3, 0):
 # A hack to change text color via CSS
 # Using the class name would be more proper, but it is mangled by Docusaurus
 THEME_TEXT_COLOR = "#000001"
-CARD_ROUNDED_CORNER_SIZE = 6
+CARD_ROUNDED_CORNER_SIZE = 5
+CARD_WIDTH = 70
 
 # Variables
 have_rainbow = False
 x_offset = 0
 y_offset = 0
+y_top = 0
 
 
 # -----------
 # Subroutines
 # -----------
+
+
+def draw_play_stacks():
+    spacing = 4
+    x_offset = 0
+
+    for color_value in yaml_file["stacks"]:
+        color, value = next(iter(color_value.items()))
+
+        if value:
+            file_name = "{}{}".format(color, value)
+        else:
+            file_name = "back-{}".format(color)
+
+        draw.add(
+            draw.image(
+                "/img/pieces/{}.svg".format(file_name),
+                x=x_offset,
+                y=50,
+                width=70,
+                height=100,
+            )
+        )
+
+        x_offset += CARD_WIDTH + spacing
+
+    return x_offset
 
 
 def draw_textbox(opts, offset):
@@ -150,25 +179,11 @@ all_colors = [next(iter(color_pair)) for color_pair in yaml_file["stacks"]]
 draw = svgwrite.Drawing()
 
 # Draw the play stacks on the top-left part of the image
-# draw_play_stacks()
-for color_value in yaml_file["stacks"]:
-    color, value = next(iter(color_value.items()))
-    if value:
-        file_name = "{}{}".format(color, value)
-    else:
-        file_name = "back-{}".format(color)
-    draw.add(
-        draw.image(
-            "/img/pieces/{}.svg".format(file_name),
-            x=x_offset,
-            y=50,
-            width=70,
-            height=100,
-        )
-    )
-    x_offset += 72
+x_offset = draw_play_stacks()
 
-y_top = 0
+# Add a bit of spacing between the play stacks and the player hands
+x_offset += 72
+
 x_offset_of_players_first_card = x_offset
 x_max = x_offset_of_players_first_card
 
