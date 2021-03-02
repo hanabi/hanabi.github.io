@@ -102,11 +102,11 @@ There are a lot of different moves that involve cluing trash. [Here is a flowcha
 
 <br />
 
-### Simplicity Principle
+### Clarity Principle
 
 - First, see the section on *[Context](level-11.md#context)*.
 - In the Hyphen-ated group, we like to find the "best" move for every turn in the post-game review. This is fun and helps everybody improve. But this practice can be taken too far.
-- Sometimes, players will give clues that are very complicated. Maybe the clue looks like it could be two different moves. Or, maybe the clue relies on non-obvious contextual factors in the game that someone might miss.
+- Sometimes, players will give clues that are very complicated. Maybe the clue looks like it could be two different moves. Or, maybe the clue relies on non-obvious contextual factors.
 - Often, these kinds of complicated clues end up in misplays and lost games. And in the post-game review, the cluers get defensive: "if everyone just played perfectly, then my clue would have worked!"
 - It's natural for people to feel this way, because normally, if Alice performs a *Finesse*, and Bob is not paying attention and misses it, then we would say that Bob is at fault. But things are a little different when Alice gives a really complicated clue that Bob should *technically* be able to figure out, but doesn't. In this case, Bob shares a little of the blame, but it is mostly Alice that is at fault.
 - Part of being good at Hanabi is recognizing when you should **not** try to do the most-optimal clue for the turn, because it would be confusing for your teammates. Clue clarity is really important and you should prioritize it! In the post-game review, you can always say: "On turn X, I considered this more-efficient clue, but it did not seem very clear. So I did this other more-clear clue instead."
