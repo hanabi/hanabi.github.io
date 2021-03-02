@@ -26,6 +26,6 @@ players:
       - type: x
       - type: r
         clue: r
-        on_top: (3)
+        middle_note: (3)
       - type: x
       - type: x

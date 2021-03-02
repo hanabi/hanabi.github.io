@@ -25,7 +25,7 @@ players:
       - type: x
   - cards:
       - type: r
-        on_top: (4)
+        middle_note: (4)
         clue: r
       - type: x
       - type: x

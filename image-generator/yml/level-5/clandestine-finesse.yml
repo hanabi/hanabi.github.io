@@ -24,7 +24,7 @@ players:
       - type: x
       - type: 3
         clue: 3
-        on_top: (R)
+        middle_note: (R)
       - type: x
       - type: x
       - type: x

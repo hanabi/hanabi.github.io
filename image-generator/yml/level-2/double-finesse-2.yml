@@ -22,7 +22,7 @@ players:
       - type: x
   - cards:
       - type: r
-        on_top: (3)
+        middle_note: (3)
         clue: r
       - type: x
       - type: x

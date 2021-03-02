@@ -43,7 +43,7 @@ players:
   - name: Bob
     cards:
       - type: b
-        on_top: (2)
+        middle_note: (2)
         clue: b
         below:
           text: Focus

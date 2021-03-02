@@ -410,16 +410,16 @@ def draw_extra_card_attributes(svg_file, card):
         if yb > y_below:
             y_below = yb
 
-    if "on_top" in card:
+    if "middle_note" in card:
         color = {
             "(R)": "red",
             "(B)": "cyan",
             "(G)": "lightgreen",
             "(Y)": "yellow",
             "(P)": "violet",
-        }.get(card["on_top"], "white")
+        }.get(card["middle_note"], "white")
         text = svg_file.text(
-            card["on_top"],
+            card["middle_note"],
             x=[x_offset],
             y=[y_offset],
             # BUG: MAKE THIS BASED ON THE LENGTH OF THE TEXT

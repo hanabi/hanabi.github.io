@@ -10,13 +10,13 @@ players:
       - type: x
       - type: x
       - type: 3
-        on_top: (R)
+        middle_note: (R)
       - type: x
       - type: x
   - cards:
       - type: x
       - type: 3
-        on_top: (R)
+        middle_note: (R)
         clue: 3
       - type: x
       - type: x
