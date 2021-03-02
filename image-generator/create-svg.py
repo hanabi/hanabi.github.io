@@ -111,6 +111,7 @@ def draw_player_hands(yaml_file, svg_file):
         if "text" in player:
             # This is a text separator between a player to describe some event
             # taking place
+            # e.g. "After discarding the 1..."
             text = svg_file.text(
                 player["text"],
                 x=[x_offset_of_players_first_card + 40],
@@ -121,46 +122,45 @@ def draw_player_hands(yaml_file, svg_file):
             svg_file.add(text)
             y_offset += 30
         else:
+            # This is a row for a player,
+            # containing their name and all of the cards in their hand
             if "name" in player:
                 name = player["name"]
             else:
                 name = PLAYER_NAMES[player_num]
 
-            svg_file.add(
-                svg_file.text(
-                    name,
-                    x=[x_offset_of_players_first_card],
-                    y=[y_offset],
-                    dy=[50],
-                    fill=THEME_TEXT_COLOR,
-                )
+            # Draw text with their name
+            player_name_text = svg_file.text(
+                name,
+                x=[x_offset_of_players_first_card],
+                y=[y_offset],
+                dy=[50],
+                fill=THEME_TEXT_COLOR,
             )
-            if "cluegiver" in player:
-                text = svg_file.text(
-                    "(clue",
-                    x=[x_offset_of_players_first_card],
-                    y=[y_offset],
-                    dy=[70],
-                    fill=THEME_TEXT_COLOR,
-                )
-                svg_file.add(text)
+            svg_file.add(player_name_text)
 
-                text = svg_file.text(
-                    "giver)",
-                    x=[x_offset_of_players_first_card],
-                    y=[y_offset],
-                    dy=[90],
-                    fill=THEME_TEXT_COLOR,
-                )
-                svg_file.add(text)
+            if "cluegiver" in player:
+                # TODO
+                # Before, "(clue giver)" was appended after the player name,
+                # which was ugly
+                # Instead, let's do it like Russ does
+                # Alternatively, we can try drawing a teal box around the
+                # player name
+                pass
 
             x_offset = x_offset_of_players_first_card + 60
+
+            # We need to increase the size of image if there is a tall text box
+            # "below" one of cards
             y_below = 5
+
+            # Draw each card
             negatives = set()
             for card in player["cards"]:
                 if "negate" in card:
                     negatives.add(card["negate"])
                     continue
+
                 t = str(card["type"])
                 if t == "x":
                     s = svg_file.add(svg_file.svg((x_offset, y_offset + 10), (70, 100)))
@@ -214,43 +214,41 @@ def draw_player_hands(yaml_file, svg_file):
                         s.add(rect)
                         draw_unknown_card(svg_file, s, numbers | colors)
                     elif len(numbers) == 1 and len(colors) > 1:
-                        s = svg_file.add(svg_file.svg((x_offset, y_offset), (70, 100)))
-                        s.add(
-                            svg_file.image(
-                                "{}/cards/{}.svg".format(
-                                    PIECES_PATH, next(iter(numbers))
-                                ),
-                                x=0,
-                                y=0,
-                                width=70,
-                                height=100,
-                            )
+                        # This is a card with a known rank and an unknown color
+                        card = svg_file.image(
+                            "{}/cards/{}.svg".format(PIECES_PATH, next(iter(numbers))),
+                            x=0,
+                            y=0,
+                            width=70,
+                            height=100,
                         )
+                        s = svg_file.add(svg_file.svg((x_offset, y_offset), (70, 100)))
+                        s.add(card)
                         draw_unknown_card(svg_file, s, colors)
                     elif len(numbers) > 1 and len(colors) == 1:
-                        s = svg_file.add(svg_file.svg((x_offset, y_offset), (70, 100)))
-                        s.add(
-                            svg_file.image(
-                                "{}/cards/{}.svg".format(
-                                    PIECES_PATH, next(iter(colors))
-                                ),
-                                x=0,
-                                y=0,
-                                width=70,
-                                height=100,
-                            )
+                        # This is a card with a known color and an unknown rank
+                        card = svg_file.image(
+                            "{}/cards/{}.svg".format(PIECES_PATH, next(iter(colors))),
+                            x=0,
+                            y=0,
+                            width=70,
+                            height=100,
                         )
+                        s = svg_file.add(svg_file.svg((x_offset, y_offset), (70, 100)))
+                        s.add(card)
                         draw_unknown_card(svg_file, s, numbers)
                     else:
-                        svg_file.add(
-                            svg_file.image(
-                                "{}/cards/{}.svg".format(PIECES_PATH, t),
-                                x=x_offset,
-                                y=y_offset,
-                                width=70,
-                                height=100,
-                            )
+                        # An exact card identity was specified
+                        # (e.g. "r1")
+                        card = svg_file.image(
+                            "{}/cards/{}.svg".format(PIECES_PATH, t),
+                            x=x_offset,
+                            y=y_offset,
+                            width=70,
+                            height=100,
                         )
+                        svg_file.add(card)
+
                 if "clue" in card:
                     svg_file.add(
                         svg_file.image(
@@ -319,7 +317,9 @@ def draw_player_hands(yaml_file, svg_file):
                             style="filter: url(#shadow)",
                         )
                     )
+
                 x_offset += 74
+
             y_offset += 120 + y_below
             if x_offset > x_max:
                 x_max = x_offset
@@ -349,40 +349,38 @@ def draw_textbox(svg_file, opts, offset):
 
     # TODO: make this widening more generic
     if text[0].startswith("Rainbow"):
-        wid = 85
+        width = 85
         r = svg_file.add(
-            svg_file.svg((x_offset - 10, y_offset + offset), (wid, 20 * len(text)))
+            svg_file.svg((x_offset - 10, y_offset + offset), (width, 20 * len(text)))
         )
     else:
-        wid = 64
+        width = 64
         r = svg_file.add(
-            svg_file.svg((x_offset + 3, y_offset + offset), (wid, 20 * len(text)))
+            svg_file.svg((x_offset + 3, y_offset + offset), (width, 20 * len(text)))
         )
-    textcolor = "black" if color in ("gold", "rainbow") else "white"
+    text_color = "black" if color in ("gold", "rainbow") else "white"
 
     if color == "rainbow":
-        r.add(
-            svg_file.rect(
-                (0, 0),
-                (wid, 20 * len(text)),
-                stroke=textcolor,
-                fill="url(#rainbowtext)",
-            )
+        rect = svg_file.rect(
+            (0, 0),
+            (width, 20 * len(text)),
+            stroke=text_color,
+            fill="url(#rainbowtext)",
         )
+        r.add(rect)
         have_rainbow = True
     else:
-        r.add(
-            svg_file.rect(
-                (0, 0),
-                (wid, 20 * len(text)),
-                stroke=textcolor,
-                fill=color,
-            )
+        rect = svg_file.rect(
+            (0, 0),
+            (width, 20 * len(text)),
+            stroke=text_color,
+            fill=color,
         )
+        r.add(rect)
 
     for i, line in enumerate(text):
-        l = r.add(svg_file.svg((0, 20 * i), (wid, 20)))
-        t = l.add(svg_file.text(line, x=["50%"], y=["50%"], fill=textcolor))
+        l = r.add(svg_file.svg((0, 20 * i), (width, 20)))
+        t = l.add(svg_file.text(line, x=["50%"], y=["50%"], fill=text_color))
         t["text-anchor"] = "middle"
         t["dominant-baseline"] = "central"
 
@@ -407,6 +405,7 @@ def draw_unknown_card(svg_file, svg, positives):
             )
             rank_pip_text_element["text-anchor"] = "middle"
             rank_pip_text_element["dominant-baseline"] = "central"
+
     suit_pips_combined_svg = svg.add(svg_file.svg((0, 0), (70, 100)))
     suit_pips_combined_svg["viewBox"] = "-35 -50 70 100"
     angle = 2 * math.pi / len(all_suits)
