@@ -3,6 +3,8 @@ id: variant-specific
 title: Variant-Specific Strategies
 ---
 
+import LoadedPlayClue from '@site/static/img/generated/extras/loaded-play-clue.svg';
+
 ### Hard Variants & Easy Variants
 
 - Some variants demand an enormous amount of efficiency. Since our normal conventions result in conservative play, we agree to change the way that we play in some specific variants in order to win more consistently.
@@ -22,18 +24,34 @@ title: Variant-Specific Strategies
 
 <br />
 
-### The Loaded Play Clue (in Hard Variants) (LPC)
+### The Early Save
 
 - Normally, players are allowed to give a *Save Clue* to a card on chop, even if that clued player:
   - has one or more playable cards to play (e.g. they won't discard their chop because they will almost certainly play their playable card)
   - has one or more known-trash cards to discard (e.g. they won't discard their chop because they will almost certainly discard their known-trash card instead)
 - If a *Save Clue* is given in this kind of situation, it is referred to as an *Early Save*. In our group, *Early Saves* are normal, and they don't cause anything special to happen. (Allowing *Early Saves* is nice because it allows for *Discard Modulation.*)
-- In *Hard* variants (see the previous section), *Early Saves* are not legal. Instead, if an *Early Save* is given to a player, then it is treated as a *Play Clue* on that card.
-- This is called a *Loaded Play Clue* to distinguish it from a more ordinary *Play Clue*, because the player receiving the clue is currently "loaded" with a play or "loaded" with a safe discard.
 
 <br />
 
-### The Loaded Play Clue Exceptions
+### The Loaded Play Clue (in Hard Variants) (LPC)
+
+- First, see the section on the *[Early Save](#the-early-save)*.
+- In [*Hard* variants](#hard-variants--easy-variants), *Early Saves* are not legal. Instead, if an *Early Save* is given to a player, then it is treated as a *Play Clue* on that card.
+- This is called a *Loaded Play Clue* to distinguish it from a more ordinary *Play Clue*, because the player receiving the clue is currently "loaded" with a play or "loaded" with a safe discard.
+- For example, in a 3-player game of a *Hard* variant:
+  - All of the 2's are played on the stacks. Blue 4 is in the trash.
+  - Alice clues number 3 to Cathy, touching a 3 as a *Play Clue*.
+  - Bob clues number 4 to Cathy, touching a 4 on chop. Is it a *Play Clue* or a *Save Clue*?
+  - Cathy knows that normally, Bob's number 4 clue could be an *Early Save* on a blue 4 (which is currently critical).
+  - However, Cathy also knows that *Early Saves* are turned off in *Hard* variants. Since Cathy is loaded with her playable 3, Bob's clue must have been a *Loaded Play Clue*.
+  - Cathy plays the 3. It is a red 3 and it successfully plays.
+  - Cathy now knows that her 4 must be the red 4 (to match the red 3).
+
+<LoadedPlayClue className="example" />
+
+<br />
+
+#### Exceptions
 
 - *Loaded Play Clues* **do not** apply in the *Early Game* - they are only "turned on" in the *Mid-Game*.
 - *Loaded Play Clues* **do not** apply in *Double Discard* situations. (Even though *Double Discard Avoidance* is "turned off" in hard variants in general, players are still allowed to avoid *Double Discarding* by giving *Early Saves* to cards.)

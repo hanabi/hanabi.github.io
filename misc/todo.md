@@ -1,6 +1,8 @@
 ### TODO
 
-- small bug on Chop Moves & New Clues section - in the 2nd example, clue arrows should be different when re-touching cards to made how it looks on Hanab Live
+- Before, "(clue giver)" was appended after the player name, which was ugly
+  Instead, let's either do it like Russ does or try drawing a teal box around the player name
+- Small bug on Chop Moves & New Clues section - in the 2nd example, clue arrows should be different when re-touching cards to made how it looks on Hanab Live
 - ALL Beginner's Guide
 - level 3
   - Fix Clues
