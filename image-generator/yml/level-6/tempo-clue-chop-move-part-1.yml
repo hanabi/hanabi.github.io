@@ -19,6 +19,7 @@ players:
         clue: r
       - type: r
         clue: r
+      - negate: r
       - type: x
       - type: x
       - type: x

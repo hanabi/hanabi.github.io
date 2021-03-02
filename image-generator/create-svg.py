@@ -99,8 +99,6 @@ def draw_textbox(opts, offset):
                 (wid, 20 * len(text)),
                 stroke=textcolor,
                 fill="url(#rainbowtext)",
-                rx=CARD_ROUNDED_CORNER_SIZE,
-                ry=CARD_ROUNDED_CORNER_SIZE,
             )
         )
         global have_rainbow
@@ -112,8 +110,6 @@ def draw_textbox(opts, offset):
                 (wid, 20 * len(text)),
                 stroke=textcolor,
                 fill=color,
-                rx=CARD_ROUNDED_CORNER_SIZE,
-                ry=CARD_ROUNDED_CORNER_SIZE,
             )
         )
 
