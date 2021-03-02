@@ -13,14 +13,11 @@ players:
       - type: x
       - type: x
   - cards:
-      - negate: 1
       - type: x
       - type: x
       - type: x
         above:
-          text:
-            - Chop
-            - slot
+          text: Chop
           color: darkred
       - type: 1
         clue: 1
@@ -28,32 +25,14 @@ players:
           text: Trash
           color: peru
       - type: x
-        below: Save
-        ontop: (CM)
-  - text: "Next turn: Bob discards 1"
-  - text: ""
-  - name: Bob
-    cards:
-      - negate: b
-      - type: b
-        ontop: (2)
-        clue: b
-        below:
-          text: Focus
-          color: gold
-      - negate: 1
-      - type: x
-      - type: x
-      - type: x
         above:
           text:
             - Chop
-            - slot
-          color: darkred
-      - type: b
-        clue: b
-        below: Save
-  - name: Cathy
+            - Moved
+  - text: After discarding the 1...
+  # We need to add extra space here because the clue arrow blocks the text
+  - text: ""
+  - name: Alice
     cluegiver: yes
     cards:
       - type: x
@@ -61,3 +40,24 @@ players:
       - type: x
       - type: x
       - type: x
+  - name: Bob
+    cards:
+      - type: b
+        on_top: (2)
+        clue: b
+        below:
+          text: Focus
+          color: gold
+      - type: x
+      - type: x
+      - type: x
+        above:
+          text: Chop
+          color: darkred
+      - type: b
+        clue: b
+        below:
+          text:
+            - Formerly
+            - Chop
+            - Moved

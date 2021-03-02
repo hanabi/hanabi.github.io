@@ -27,14 +27,14 @@ import DelayedPlayClue from '@site/static/img/generated/level-1/delayed-play-clu
 - *Play Clues* are different than *Delayed Play Clues*:
   - If the card will successfully play on the stacks **right now**, then the clue was a *Play Clue*.
   - If the card will successfully play on the stacks after other people have played cards of the same suit, then the clue was a *Delayed Play Clue* that was *through* other cards.
-
-<DelayedPlayClue className="example" />
-
 - For example, in a 4-player game:
   - It is the first turn of the game and nothing is played on the stacks.
   - Alice clues red to Donald, touching a red 1 as a *Play Clue*. This is a direct *Play Clue* - the red 1 can be played on the stacks as soon as it gets to Donald's turn.
   - Next, it is Bob's turn. Bob clues red to Cathy, touching a red 2 as a *Delayed Play Clue* - the red 2 cannot be played on the stacks as soon as it gets to Cathy's turn.
   - Next, it is Cathy's turn. Cathy must wait patiently for Donald to play the red 1 first, and then play the red 2 on her next turn.
+
+<DelayedPlayClue className="example" />
+
 - As a rule, we treat all *Play Clues* as potential *Delayed Play Clues*.
 - For example, if Alice was clued about a bunch of 1's and then Bob is given a Play Clue on an unknown 2, Bob must wait for Alice to play all of her 1's first before playing the 2.
 - Since we treat all *Play Clues* as potential *Delayed Play Clues*, the distinction between them is pretty much irrelevant. In the *Hyphen-ated Group*, we use the phrase *Play Clue* to mean **either** a *Play Clue* or a *Delayed Play Clue*.

@@ -21,33 +21,29 @@ import SelfFinesse from '@site/static/img/generated/level-2/self-finesse.svg';
 ### The Double Prompt / Triple Prompt / Quadruple Prompt
 
 - Sometimes, someone can give a *Prompt* that is prompting **two** (or more) cards with one clue, which is pretty good.
-
-<DoublePrompt className="example" />
-
 - For example, in a 3-player game:
   - Red 1 is played on the stacks.
   - Alice clues Cathy red, which touches a red 4. This must be a *Play Clue*, because the red 4 is not on chop.
   - Bob has two clued red cards in his hand. Since Alice has indicated that the red 4 must be playable right now, he knows that his two red cards must be a red 2 and a red 3 (in order from left-to-right).
   - Bob plays the left-most card as the red 2. On Bob's next turn, he plays the other red card as the red 3.
 
+<DoublePrompt className="example" />
+
 <br />
 
 ### The Double Finesse / Triple Finesse / Quadruple Finesse
 
 - Typically, *Finesses* are performed by cluing a *one-away-from-playable* card. However, it is possible to get two different people to blind-play their cards in a row if you give a clue to a *two-away-from-playable* card. This is very efficient, as it is a 3-for-1 clue.
-
-<DoubleFinesse1 className="example" />
-
 - For example, in a 4-player game:
   - Red 1 is played on the stacks.
   - Alice clues Donald red, which touches a red 4.
   - Bob plays red 2 from his *Finesse Position*.
   - Cathy plays red 3 from her *Finesse Position*.
   - Donald plays red 4.
+
+<DoubleFinesse1 className="example" />
+
 - Similarly, it is possible to get a single player to blind-play 2 cards in a row. In this situation, since they see that the blind cards are not in anyone else's hands, they will blind-play two turns in a row, playing from left to right.
-
-<DoubleFinesse2 className="example" />
-
 - For example, in a 3-player game:
   - It is the first turn and nothing is played on the stacks.
   - Alice clues red to Cathy, touching a red 3.
@@ -56,14 +52,13 @@ import SelfFinesse from '@site/static/img/generated/level-2/self-finesse.svg';
   - Thus, Cathy discards, giving Bob a chance to blind-play the red 2. If he does not blind-play it, then it was a normal *Finesse* and she has red 2. If he does blind-play it, then it was a *Double Finesse* and she has red 3.
   - On his next turn, Bob blind-plays red 2 from slot 2. Cathy now knows that she has the red 3.
 
+<DoubleFinesse2 className="example" />
+
 <br />
 
 ### The Prompt + Finesse
 
 - In general, remember that players will always assume *Prompts* over *Finesses*. Thus, is it possible to do a clue that *Prompts* a card from a player's hand **and then** gets them to blind-play their *Finesse Position* card on the next turn.
-
-<PromptFinesse className="example" />
-
 - For example, in a 3-player game:
   - Red 1 is played on the stacks.
   - Bob has a clued red card in his hand on slot 4.
@@ -71,6 +66,8 @@ import SelfFinesse from '@site/static/img/generated/level-2/self-finesse.svg';
   - Bob knows he must have both red 2 and red 3 (in order to make the red 4 playable), but he only has one clued red card in his hand. So this must be both a *Prompt* on him and a *Finesse* on him at the same time.
   - Since *Prompts* take precedence over *Finesses*, he plays the clued red card first from slot 4. It is red 2 and it successfully plays.
   - On his next turn, Bob blind-plays slot 2 as red 3. (His *Finesse Position* at the time of the clue was slot 1, but he drew a card, and now it slid down to slot 2.)
+
+<PromptFinesse className="example" />
 
 <br />
 
@@ -80,9 +77,6 @@ import SelfFinesse from '@site/static/img/generated/level-2/self-finesse.svg';
 - If you give a *Finesse* clue to someone who gets to have a turn **before** the blind-play occurs, it is called a *Reverse Finesse*. This is more complicated than a normal *Finesse* and is harder to see. (e.g. clue --> clued player does unrelated action --> blind-play --> clued-card plays)
 - Because *Reverse Finesses* exist as a strategy, before playing any cards, players should always check out everyone's *Finesse Position*. If a card in someone's *Finesse Position* is playable and "matches" the clue, then **they need to defer playing the clued card** for at least one go-around and wait to see what happens.
 - If the player with the "matching" card blind-plays it, then it means that the clued card is the next card in the chain.
-
-<ReverseFinesse className="example" />
-
 - For example, in a 3-player game:
   - It is the first turn and nothing is played on the stacks.
   - Alice clues Bob red, which touches his red 2.
@@ -90,7 +84,11 @@ import SelfFinesse from '@site/static/img/generated/level-2/self-finesse.svg';
   - However, Bob also notices that on Cathy has a red 1 on her slot 1 position. Thus, he has to give a chance for Cathy to prove whether or not a *Reverse Finesse* is happening. If Cathy does not blind-play anything, then Bob should have the red 1, and he can play it on his next turn.
   - Bob discards.
   - Cathy blind-plays red 1. Bob now knows that he has the red 2.
-- If the player with the "matching card" **does not** blind-play, then the clued card is probably the other copy, and can be played on the next turn. For example, in a 3-player game:
+
+<ReverseFinesse className="example" />
+
+- If the player with the "matching card" **does not** blind-play, then the clued card is probably the other copy, and can be played on the next turn.
+- For example, in a 3-player game:
   - The setup is the same as the last example. Bob is clued red, so he suspects a *Reverse Finesse* is occurring and discards.
   - Cathy discards.
   - Now Bob knows that the red card in his hand is actually the red 1.
@@ -100,9 +98,6 @@ import SelfFinesse from '@site/static/img/generated/level-2/self-finesse.svg';
 ### The Self-Finesse
 
 - It is also possible to perform a *Finesse* on a player by giving **them** a clue.
-
-<SelfFinesse className="example" />
-
 - For example, in a 3-player game:
   - All of the 1's are played on the stacks.
   - Alice clues number 3 to Cathy, touching one 3 on slot 2.
@@ -110,6 +105,9 @@ import SelfFinesse from '@site/static/img/generated/level-2/self-finesse.svg';
   - Cathy knows that this was a *Play Clue* on the 3, but there are no 3's that are directly playable. Thus, someone must have the matching 2. Since Bob discarded, Cathy must be the one who has the matching 2.
   - Thus, Cathy plays her *Finesse Position* card as **any** 2. It is a red 2 and it successfully plays.
   - Cathy now knows that her 3 must match the 2, so she marks her 3 as a red 3.
+
+<SelfFinesse className="example" />
+
 - Note that *Self-Finesses* can be difficult to perform because the player receiving the clue will **only** consider the possibility of a *Self-Finesse* **if there are no other possibilities** for the clue. For example:
   - If the clue looks like it *could* just be a normal/direct *Play Clue* on a card, then the clue receiver will not blind-play anything - they will just play the card that was clued.
   - If the clue looks like it *could* be a *Prompt*, then the clue receiver will not play anything and assume that it is a *Prompt*. (At least, until the other player has had a chance to play the *Prompted* card.)

@@ -14,20 +14,13 @@ players:
       - type: x
   - cards:
       - type: x
-      - type: 1
-        clue: 1
-        below:
-          text: Trash
-          color: peru
+      - type: x
       - type: x
         above:
           text: Chop
           color: darkred
-      - type: 1
-        clue: 1
-        below:
-          text: Trash
-          color: peru
+      - type: 5
+        clue: 5
       - type: x
         above:
           text:

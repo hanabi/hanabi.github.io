@@ -17,17 +17,15 @@ players:
       - type: x
       - type: x
         above:
+          text: Chop
+          color: darkred
+      - type: rm
+      - type: rm
+      - type: x
+        above:
           text:
             - Chop
-            - slot
-          color: peru
-      - type: rm
-      - type: rm
-      - negate: r
-      - negate: m
-      - type: x
-        ontop: (CM)
-        below: Save
+            - Moved
   - text: Situation after clue
   - name: Alice
     cluegiver: yes
@@ -39,15 +37,11 @@ players:
       - type: x
   - name: Bob
     cards:
-      - negate: b
-      - negate: m
       - type: x
       - type: x
         above:
-          text:
-            - Chop
-            - slot
-          color: peru
+          text: Chop
+          color: darkred
       - type: m
         clue: b
       - type: m

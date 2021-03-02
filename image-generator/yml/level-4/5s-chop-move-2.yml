@@ -13,18 +13,17 @@ players:
       - type: x
       - type: x
   - cards:
-      - negate: 5
       - type: x
+      - type: 5
+        clue: 5
+      - type: x
+        above:
+          text: Chop
+          color: darkred
       - type: 5
         clue: 5
       - type: x
         above:
           text:
             - Chop
-            - slot
-          color: darkred
-      - type: 5
-        clue: 5
-      - type: x
-        below: Save
-        ontop: (CM)
+            - Moved

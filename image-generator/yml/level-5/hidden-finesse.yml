@@ -16,20 +16,16 @@ players:
   - cards:
       - type: x
         above: Red 2
-      - negate: r
-      - negate: m
       - type: x
       - type: rm
         above: Rainbow 3
       - type: x
       - type: x
   - cards:
-      - negate: r
-      - negate: m
       - type: x
       - type: x
       - type: r
         clue: r
-        ontop: (3)
+        on_top: (3)
       - type: x
       - type: x

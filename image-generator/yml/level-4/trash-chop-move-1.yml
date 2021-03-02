@@ -13,14 +13,11 @@ players:
       - type: x
       - type: x
   - cards:
-      - negate: 1
       - type: x
       - type: x
       - type: x
         above:
-          text:
-            - Chop
-            - slot
+          text: Chop
           color: darkred
       - type: 1
         clue: 1
@@ -28,21 +25,22 @@ players:
           text: Trash
           color: peru
       - type: x
-        below: Save
-        ontop: (CM)
+        above:
+          text:
+            - Chop
+            - Moved
   - text: After discarding the 1...
   - name: Bob
     cards:
       - type: x
-      - negate: 1
       - type: x
       - type: x
       - type: x
         above:
-          text:
-            - Chop
-            - slot
+          text: Chop
           color: darkred
       - type: x
-        below: Save
-        ontop: (CM)
+        above:
+          text:
+            - Chop
+            - Moved

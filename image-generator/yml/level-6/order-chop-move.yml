@@ -18,7 +18,6 @@ players:
           color: maroon
   - cluegiver: yes
     cards:
-      - negate: 1
       - type: 1
         clue: 1
         below:

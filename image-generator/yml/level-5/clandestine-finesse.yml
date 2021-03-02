@@ -21,13 +21,12 @@ players:
       - type: x
       - type: x
   - cards:
-      - negate: 3
       - type: 3
         clue: 3
-        ontop: (P)
+        on_top: (P)
       - type: x
       - type: x
       - type: 3
         clue: 3
-        ontop: (G)
+        on_top: (G)
       - type: x

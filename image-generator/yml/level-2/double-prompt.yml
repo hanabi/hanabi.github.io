@@ -15,16 +15,15 @@ players:
   - cards:
       - type: x
       - type: r
-        ontop: (2)
+        on_top: (2)
       - type: r
-        ontop: (3)
+        on_top: (3)
       - type: x
       - type: x
   - cards:
       - type: r
         clue: r
-        ontop: (4)
-      - negate: r
+        on_top: (4)
       - type: x
       - type: x
       - type: x

@@ -20,9 +20,6 @@ import ClandestineFinesse from '@site/static/img/generated/level-5/clandestine-f
 ### Prompts in Multi-Color Variants
 
 - In multi-color variants, *Prompts* apply to the card with the most positive information.
-
-<PromptMultiColor className="example" />
-
 - For example, in a 3-player rainbow game:
   - Red 2 is played on the stacks.
   - Alice clues red to Cathy, touching a red 4 as a *Play Clue*. This is a *Prompt* on Bob for a red 3.
@@ -30,7 +27,7 @@ import ClandestineFinesse from '@site/static/img/generated/level-5/clandestine-f
   - In slot 2, Bob has a card with a red clue and a 3 clue on it. (Thus, it can be red 3 or rainbow 3.)
   - Since slot 2 has more positive information, Bob should choose to play slot 2 as red 3 (instead of slot 1, the left-most card).
 
-<PromptMultiColorNoNegative className="example" />
+<PromptMultiColor className="example" />
 
 - Players are **not** supposed to use information from negative clues.
 - For example, in a 3-player rainbow game:
@@ -39,6 +36,9 @@ import ClandestineFinesse from '@site/static/img/generated/level-5/clandestine-f
   - In slot 1, Bob has a card with a positive red clue on it. (Thus, it can be any red card or any rainbow card.)
   - In slot 2, Bob has a card with a positive red clue on it and a negative green clue on it. (Thus, it can be any red card.)
   - Even though slot 2 is technically more likely to be the red 3, Bob knows that players are not supposed to use negative information for determining which card to play into a *Prompt*. Thus, Bob plays the red 3 from slot 1.
+
+<PromptMultiColorNoNegative className="example" />
+
 - For advanced players, also see the section on *[Double Prompts in Multi-Color Variants](extras/miscellaneous.md#double-prompts-in-multi-color-variants)*.
 
 <br />
@@ -47,9 +47,6 @@ import ClandestineFinesse from '@site/static/img/generated/level-5/clandestine-f
 
 - Sometimes, you want to *Finesse* someone with a clued card already in their hand. However, if you try to *Finesse* them, they will assume it is a *Prompt* and will play their clued card. Which means that a lot of the time, you can't give a *Finesse*, and must instead clue the card directly.
 - However, what if the clued card actually is playable? In that case, you can still do the *Finesse* - they will play the *Prompted* card, see that it wasn't the card you had intended, and then blind-play their 2nd newest card on the next turn. This is called a *Hidden Finesse* because the *Finesse* was temporarily hidden by the presence of clued card.
-
-<HiddenFinesse className="example" />
-
 - For example, in a 3-player game:
   - Red 1 and rainbow 2 are played on the stacks.
   - Alice clues red to Cathy, which touches her red 3.
@@ -59,15 +56,14 @@ import ClandestineFinesse from '@site/static/img/generated/level-5/clandestine-f
   - On Bob's next turn, he blind-plays his the red 2 from slot 2.
   - In this example, the red 2 was "hidden" by the rainbow 3.
 
+<HiddenFinesse className="example" />
+
 <br />
 
 ### The Layered Finesse
 
 - Normally, a *Finesse* promises the exact copy of the card on *Finesse Position*. However, as long as all of the cards leading to the card are playable, you can still promise the exact copy of the card. We do **not** consider this to be a *Lie*, since the blind-playing player does indeed have the true copy of the card.
 - We call this a *Layered Finesse* because the intended *Finesse* blind-play target is "layered" behind other playable cards.
-
-<LayeredFinesse className="example" />
-
 - For example, in a 3-player game:
   - It is the first turn of the game and nothing is played on the stacks.
   - Alice clues green to Bob, touching a green 2 as a *Play Clue*.
@@ -77,6 +73,8 @@ import ClandestineFinesse from '@site/static/img/generated/level-5/clandestine-f
   - Alice plays the yellow 1.
   - Bob knows that Cathy must have been trying to blind-play a green 1. Thus, he must have the green 2, and Alice did indeed perform a *Layered Finesse*. Bob clues number 5 to Cathy as a *5 Save*.
   - Cathy was surprised that she played the blue 1 instead of the green 1. This must be a *Layered Finesse* and Cathy must really have the green 1. Cathy plays her *Second Finesse Position* and it is the green 1.
+
+<LayeredFinesse className="example" />
 
 <br />
 
@@ -89,9 +87,6 @@ import ClandestineFinesse from '@site/static/img/generated/level-5/clandestine-f
   - Donald clearly knows that this is a *Layered Finesse* on Cathy, and she will continue to play cards until she finds the blue card that matches the one in his hand.
 - In other words, most *Layered Finesses* cause unrelated cards to blind-play that do not match the type of clue given.
 - With that said, it is also possible to perform a *Layered Finesse* for unrelated cards that **do** match the type of the clue given. When this happens, it is hidden from the receiver of the clue, so we call it a *Clandestine Finesse* to disambiguate it from a (more obvious) *Layered Finesse*.
-
-<ClandestineFinesse className="example" />
-
 - For example, in a 3-player game:
   - Alice clues number 3 to Cathy, which touches the purple 3 on slot 1 and the green 3 on slot 4. Thus, the purple 3 is the focus of the clue. This must be a *Play Clue* on the purple 3.
   - Bob knows that the purple 3 is currently unplayable, so it must be a *Finesse*. He blind-plays his *Finesse Position* as purple 2, but it is a red 2 instead and successfully plays.
@@ -101,6 +96,8 @@ import ClandestineFinesse from '@site/static/img/generated/level-5/clandestine-f
   - Next, Alice plays the yellow 2.
   - Bob was surprised that he blind-played the red 2, but now he knows that Alice performed a *Clandestine Finesse* instead of a normal *Finesse*. Bob must now continue to resolve the *Clandestine Finesse*, so he blind-plays his slot 2 card. It is the purple 2 and it successfully plays. (Bob knows that if he did not do this, then Cathy would go on to misplay purple 3 as red 3.)
   - Cathy plays purple 3.
+
+<ClandestineFinesse className="example" />
 
 <br />
 

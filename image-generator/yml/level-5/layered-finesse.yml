@@ -13,10 +13,9 @@ players:
       - type: x
       - type: x
   - cards:
-      - negate: g
       - type: g
         clue: g
-        ontop: (2)
+        on_top: (2)
       - type: x
       - type: x
       - type: x

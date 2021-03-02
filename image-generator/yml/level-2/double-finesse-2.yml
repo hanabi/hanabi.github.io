@@ -22,9 +22,8 @@ players:
       - type: x
   - cards:
       - type: r
-        ontop: (3)
+        on_top: (3)
         clue: r
-      - negate: r
       - type: x
       - type: x
       - type: x

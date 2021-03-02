@@ -6,7 +6,8 @@ title: Level 4 - Basic Chop Moves
 import TrashChopMove1 from '@site/static/img/generated/level-4/trash-chop-move-1.svg';
 import TrashChopMove2 from '@site/static/img/generated/level-4/trash-chop-move-2.svg';
 import TrashChopMove3 from '@site/static/img/generated/level-4/trash-chop-move-3.svg';
-import FivesChopMove from '@site/static/img/generated/level-4/5-chop-move.svg';
+import FivesChopMove1 from '@site/static/img/generated/level-4/5s-chop-move-1.svg';
+import FivesChopMove2 from '@site/static/img/generated/level-4/5s-chop-move-2.svg';
 import ChopMoveNew from '@site/static/img/generated/level-4/chop-move-new.svg';
 import ChopMoveNewException from '@site/static/img/generated/level-4/chop-move-new-exception.svg';
 import ChopMovePrompt from '@site/static/img/generated/level-4/chop-move-prompt.svg';
@@ -38,9 +39,6 @@ import ChopMovePrompt from '@site/static/img/generated/level-4/chop-move-prompt.
 - In the middle of a game, if all of the 1's have been played already, and someone clues a 1, this is quite strange. (From *Good Touch Principle*, players are not supposed to touch cards that have already been played.) In this situation, the 1 is considered "trash".
 - The clue must have some deeper meaning. We agree that it means that the cards to the right of the trash are important. The point of the clue was to give the player a safe discard.
 - However, in addition to giving a safe discard, it should also *Chop Move* **all** of the cards to the right of the trash.
-
-<TrashChopMove1 className="example" />
-
 - For example, in a 3-player game:
   - All of the 1's are played.
   - Bob has a completely unclued hand.
@@ -49,7 +47,7 @@ import ChopMovePrompt from '@site/static/img/generated/level-4/chop-move-prompt.
   - Bob discards the 1.
   - Bob's chop is now his slot 4.
 
-<TrashChopMove2 className="example" />
+<TrashChopMove1 className="example" />
 
 - Most of the time, the *Trash Chop Move* is done for a single card (meaning that the trash card that was clued was one-away from chop). However, you can also use the *Trash Chop Move* to *Chop Move* multiple cards.
 - For example, in a 3-player game:
@@ -59,20 +57,22 @@ import ChopMovePrompt from '@site/static/img/generated/level-4/chop-move-prompt.
   - Bob *Chop Moves* his slot 2, his slot 3, his slot 4, and his slot 5 (a quadruple *Chop Move*).
   - Bob discards the 1.
   - Bob's chop is now his slot 1.
-- This move is most commonly done with a number 1 clue because it is likely that in the middle of a game, all of the 1's will be already played. But it could also be done with a number two 2 clue if all the 2's are already played / accounted for. Or, it could be done with a red clue if all of the red cards are already played / accounted for. And so forth.
+
+<TrashChopMove2 className="example" />
+
+- *Trash Chop Moves* are most commonly performed with a number 1 clue because it is likely that in the middle of a game, all of the 1's will be already played. But it could also be done with a number two 2 clue if all the 2's are already played / accounted for. Or, it could be done with a red clue if all of the red cards are already played / accounted for. And so forth.
 - Strategy wise, the *Trash Chop Move* is used for two main reasons:
   1. Sometimes there are multiple critical cards in a row on chop and it falls to one player to save all of them. In this situation, a multiple-card *Chop Move* could be the only way to do it.
   1. Some cards (e.g. a *one-away-from-playable* 3) are quite useful to the team, but "illegal" to touch directly (as touching them directly with a clue would imply that they are playable right now). If the game is going well, then it can be useful to "waste" a clue in order to have the card saved permanently.
 - Note that you are **not** allowed to *Trash Chop Move* a card that you can just clue directly with a *Save Clue* (unless there are multiple critical cards in a row on chop and you have no other choice). This is because having some positive information is always better than having the card be a mystery.
-
-<TrashChopMove3 className="example" />
-
 - If a *Trash Chop Move* touches **multiple** trash cards, then it only *Chop Moves* the cards to the right of the right-most trash card.
 - For example, in a 3-player game:
   - All the 1's are played on the stacks.
   - Bob has a completely unclued hand.
   - Alice clues 1's to Bob, which touches a 1 in slot 2 and a 1 in slot 4.
   - Bob **only** *Chop Moves* his slot 5 card.
+
+<TrashChopMove3 className="example" />
 
 <br />
 
@@ -85,10 +85,13 @@ import ChopMovePrompt from '@site/static/img/generated/level-4/chop-move-prompt.
   - the chop card is not a trash card
 - Then, we agree that it has a special meaning, and that the clue is **not** a *Play Clue* at all.
 - Instead, it is understood that the clue is a *5's Chop Move*, and the player should *Chop Move* in a manner similar to the *Trash Chop Move*.
-- Note that the *5's Chop Move* is different than the *Trash Chop Move* in that you can only chop move **one** card with it. Thus, if you clue a 5 and it is **two** (or more) slots away from the chop, then it is to be assumed to be a *Play Clue* on the 5.
-  - When counting how far away from chop a card is, you should only look at **unclued** cards.
+- For example, in a 3-player game:
+  - All the 1's are played on the stacks.
+  - Bob has a completely unclued hand.
+  - Alice clues 5's to Bob, which touches a 5 on slot 4.
+  - Bob *Chop Moves* his slot 5 card. Bob's new chop is his slot 3.
 
-<FivesChopMove className="example" />
+<FivesChopMove1 className="example" />
 
 - Similar to the *Trash Chop Move*, if a *5's Chop Move* touches **multiple** 5's, then it only *Chop Moves* the cards to the right of the right-most 5.
 - For example, in a 3-player game:
@@ -96,6 +99,11 @@ import ChopMovePrompt from '@site/static/img/generated/level-4/chop-move-prompt.
   - Bob has a completely unclued hand.
   - Alice clues 5's to Bob, which touches a 5 in slot 2 and a 5 in slot 4.
   - Bob **only** *Chop Moves* his slot 5 card. Bob's new chop is his slot 3.
+
+<FivesChopMove2 className="example" />
+
+- Note that the *5's Chop Move* is different than the *Trash Chop Move* in that you can only chop move **one** card with it. Thus, if you clue a 5 and it is **two** (or more) slots away from the chop, then it is to be assumed to be a *Play Clue* on the 5.
+  - When counting how far away from chop a card is, you should only look at **unclued** cards.
 - Remember that *5 Stalls* takes precedence over *5's Chop Moves*. Thus, if a number 5 clue **could** just be a *5 Stall* (e.g. it is the *Early Game*), then it should not *Chop Move* anything.
 
 <br />
@@ -107,9 +115,6 @@ import ChopMovePrompt from '@site/static/img/generated/level-4/chop-move-prompt.
 ### Chop Moves & New Clues
 
 - Once a card has been *Chop Moved* and is no longer in danger of being discarded, it is treated as an already-clued card with regards to new clues given to that hand.
-
-<ChopMoveNew className="example" />
-
 - For example, in a 3-player game:
   - All of the 1's have been played on the stacks.
   - Bob has a completely unclued hand.
@@ -121,7 +126,7 @@ import ChopMovePrompt from '@site/static/img/generated/level-4/chop-move-prompt.
   - Bob knows that the focus of the clue is always on the brand-new card introduced, so this is **not** chop-focus, and the focus of the clue is on slot 1.
   - Thus, Bob will play blue 2 from slot 1 on his next turn.
 
-<ChopMoveNewException className="example" />
+<ChopMoveNew className="example" />
 
 - The exception to the above rule is if a clue is given that touches a *Chop Moved* card for the first time and only "old" cards are touched.
 - For example, in a 3-player game of the rainbow variant:
@@ -132,14 +137,13 @@ import ChopMovePrompt from '@site/static/img/generated/level-4/chop-move-prompt.
   - Bob knows that when old cards are re-touched, the focus of the clue is the left-most of those cards.
   - However, Bob also knows that this is the exception to the rule. In this specific case, putting a positive clue on the *Chop Moved* card was more important than filling in the rainbow cards, so by convention the focus of the clue is his slot 5.
 
+<ChopMoveNewException className="example" />
+
 <br />
 
 ### Chop Moves & Prompts
 
 - *Chop Moves* interact with *Prompts* & *Finesses* in a potentially confusing way. *Chop Moved* cards should **not** be played into *Prompts*, even though they are imagined to have an "invisible" clue on them.
-
-<ChopMovePrompt className="example" />
-
 - For example:
   - All the 1's are played on the stacks.
   - Bob has no cards clued in his hand, but he is *Chop Moved* for a mystery card on his slot 5.
@@ -147,6 +151,8 @@ import ChopMovePrompt from '@site/static/img/generated/level-4/chop-move-prompt.
   - Bob knows that he is promised the red 2. If this is a *Finesse*, then he has the red 2 on his *Finesse Position* (slot 1).
   - However, Bob is also *Chop Moved* for a card. Bob knows that *Chop Moved* cards have an "invisible" clue around them, and Bob also knows that *Prompts* are said to take precedence over *Finesses*.
   - So should he play his slot 1 as a *Finesse* or his slot 5 as a *Prompt*? In this situation, Bob knows that *Prompts* do not apply to *Chop Moved* cards, so Bob should play his slot 1.
+
+<ChopMovePrompt className="example" />
 
 <br />
 

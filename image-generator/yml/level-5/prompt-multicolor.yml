@@ -16,21 +16,16 @@ players:
   - cards:
       - type: rm
       - type: rm3
-        above: Red 3
+        show_pips: true
         below: Prompt
-      - negate: r
-      - negate: m
-      - negate: 3
       - type: x
       - type: x
       - type: x
   - cards:
-      - negate: r
-      - negate: m
       - type: x
       - type: x
       - type: r
         clue: r
-        ontop: (4)
+        on_top: (4)
       - type: x
       - type: x

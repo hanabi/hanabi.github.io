@@ -1,5 +1,5 @@
 stacks:
-  - r: 1
+  - r: 0
   - y: 0
   - g: 0
   - b: 0
@@ -14,18 +14,21 @@ players:
       - type: x
   - cards:
       - type: x
-      - type: r
-        ontop: (2)
-      - type: r
-        ontop: (3)
+      - type: x
+      - type: x
       - type: x
       - type: x
   - cards:
-      - type: r
-        clue: r
-        ontop: (4)
-      - negate: r
       - type: x
+      - type: r
+        on_top: (2)
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+      - type: r
+        on_top: (1)
       - type: x
       - type: x
       - type: x

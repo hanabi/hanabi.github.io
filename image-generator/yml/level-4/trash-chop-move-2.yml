@@ -18,38 +18,50 @@ players:
         below:
           text: Trash
           color: peru
-      - negate: 1
-      - type: x
-        below: Save
-        ontop: (CM)
-      - type: x
-        below: Save
-        ontop: (CM)
-      - type: x
-        below: Save
-        ontop: (CM)
-      - type: x
-        below: Save
-        ontop: (CM)
-  - text: After discarding 1
-  - name: Bob
-    cards:
       - type: x
         above:
           text:
             - Chop
-            - slot
+            - Moved
+      - type: x
+        above:
+          text:
+            - Chop
+            - Moved
+      - type: x
+        above:
+          text:
+            - Chop
+            - Moved
+      - type: x
+        above:
+          text:
+            - Chop
+            - Moved
+  - text: After discarding the 1...
+  - name: Bob
+    cards:
+      - type: x
+        above:
+          text: Chop
           color: darkred
-      - negate: 1
       - type: x
-        below: Save
-        ontop: (CM)
+        above:
+          text:
+            - Chop
+            - Moved
       - type: x
-        below: Save
-        ontop: (CM)
+        above:
+          text:
+            - Chop
+            - Moved
       - type: x
-        below: Save
-        ontop: (CM)
+        above:
+          text:
+            - Chop
+            - Moved
       - type: x
-        below: Save
-        ontop: (CM)
+        above:
+          text:
+            - Chop
+            - Moved

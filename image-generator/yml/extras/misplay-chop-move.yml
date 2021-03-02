@@ -15,33 +15,32 @@ players:
   - cards:
       - type: r
         clue: r
-        ontop: (4)
-      - negate: r
+        on_top: (4)
       - type: x
       - type: x
       - type: x
       - type: x
-  - text: After Red 4 bombs
-  - cards:
+  - text: After Bob misplays the red 4...
+  - name: Bob
+    cards:
       - type: x
-      - negate: r
       - type: x
         above:
           text:
             - Chop
-            - Move
+            - Moved
       - type: x
         above:
           text:
             - Chop
-            - Move
+            - Moved
       - type: x
         above:
           text:
             - Chop
-            - Move
+            - Moved
       - type: x
         above:
           text:
             - Chop
-            - Move
+            - Moved

@@ -22,15 +22,15 @@ import TempoClueChopMovePart2 from '@site/static/img/generated/level-6/tempo-clu
 - If a player skips over **one** of the 1's, and there is nothing else special going on, it means that the next player should *Chop Move* one card.
 - If a player skips over **two** of the 1s, the message skips over the next player, and the player after that should *Chop Move* one card.
 - A skip of **three** 1's means that the player three seats away should *Chop Move*, and so on.
-
-<OrderChopMove className="example" />
-
 - For example, in a 3-player game:
   - It is the first turn and nothing is played on the stacks.
   - Alice clues Bob number 1, which touches three 1's. They are in slot 1, slot 2, and slot 3.
   - Bob is expected to play slot 3 (which is the oldest 1). If he plays slot 3, nothing special happens.
   - If Bob plays slot 2, then he is skipping over one card. Cathy should *Chop Move* one card (her slot 5).
   - If Bob plays slot 1, he is skipping over two cards. Alice should *Chop Move* one card (her slot 5).
+
+<OrderChopMove className="example" />
+
 - If a player decides to do an *Order Chop Move*, on their next turn, they should revert to the original order again.
 - For example, continuing from the previous example:
   - Bob decides to play slot 2, performing an *Order Chop Move* on Cathy.
@@ -126,16 +126,15 @@ import TempoClueChopMovePart2 from '@site/static/img/generated/level-6/tempo-clu
 - In general, *Tempo Clues* do not follow from *Minimum Clue Value Principle*, which states that a clue must get at least 1 new card played or save at least 1 new card from being discarded.
 - Thus, a *Tempo Clue* with no other purpose **must** save at least 1 new card, and the player should *Chop Move* their chop card.
 - Remember that *Tempo Clue Chop Moves* **do not** apply in the special situations listed above where natural *Tempo Clues* are allowed.
-
-<TempoClueChopMovePart1 className="example" />
-<TempoClueChopMovePart2 className="example" />
-
 - For example, in a 3-player game:
   - It is the first turn and nothing is played on the stacks.
   - Alice clues red to Bob, which touches two cards on slot 1 and slot 2.
   - Bob plays red 1 from slot 1. The red card in slot 2 could be red 2, red 3, red 4, or red 5.
   - Cathy clues number 2 to Bob, which does not introduce any new cards, but it does "fill in" his slot 2 card.
   - Bob now knows that he has exactly red 2 on slot 2 and that this was a *Tempo Clue*. Since it does not get any new cards and only get tempo on one card in total, he knows that he should also *Chop Move* his slot 5 card.
+
+<TempoClueChopMovePart1 className="example" />
+<TempoClueChopMovePart2 className="example" />
 
 - Normally, when two cards are retouched with a clue, it is a *Double Tempo Clue* and the player should play both cards. However, this interpretation does not apply if the second card is strictly not playable. In this situation, all players can see that since only one card is getting tempo, the interpretation of the clue should be a *Tempo Clue Chop Move*.
 - For example, in a 3-player game:
