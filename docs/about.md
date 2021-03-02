@@ -19,6 +19,8 @@ Have you found your way here from the Internet? That's fine too. Feel free to ch
 - [Board Game Arena](http://boardgamearena.com) (not as good as Hanab Live, but has a good number of players)
 - [The Hanab Discord Server](https://discord.gg/FADvkJp) (a place to find teammates and discuss strategy)
 
+<br />
+
 ### Hotkeys
 
 - You can use the left and right arrow keys to quickly navigate between pages.
