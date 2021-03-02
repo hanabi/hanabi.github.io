@@ -101,10 +101,12 @@ def textbox(opts, offset):
 
 
 def draw_unknown_card(svg, positives):
-    numwid = 70 / 5
+    width_of_number_pip = 70 / 5
     for n in range(1, 6):
         if n in positives:
-            numr = svg.add(draw.svg(((n - 1) * numwid, 80), (numwid, 20)))
+            numr = svg.add(
+                draw.svg(((n - 1) * width_of_number_pip, 80), (width_of_number_pip, 20))
+            )
             numt = numr.add(
                 draw.text(
                     str(n),
