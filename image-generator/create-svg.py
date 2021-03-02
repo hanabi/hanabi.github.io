@@ -180,11 +180,11 @@ x_offset += 72
 x_offset_of_players_first_card = x_offset
 x_max = x_offset_of_players_first_card
 
-for line_dict in yaml_file["players"]:
-    if "text" in line_dict:
+for player in yaml_file["players"]:
+    if "text" in player:
         draw.add(
             draw.text(
-                line_dict["text"],
+                player["text"],
                 x=[x_offset_of_players_first_card + 40],
                 y=[y_offset],
                 dy=[20],
@@ -195,14 +195,14 @@ for line_dict in yaml_file["players"]:
     else:
         draw.add(
             draw.text(
-                line_dict["name"],
+                player["name"],
                 x=[x_offset_of_players_first_card],
                 y=[y_offset],
                 dy=[50],
                 fill=THEME_TEXT_COLOR,
             )
         )
-        if "cluegiver" in line_dict:
+        if "cluegiver" in player:
             draw.add(
                 draw.text(
                     "(clue",
@@ -224,7 +224,7 @@ for line_dict in yaml_file["players"]:
         x_offset = x_offset_of_players_first_card + 60
         y_below = 5
         negatives = set()
-        for card in line_dict["cards"]:
+        for card in player["cards"]:
             if "negate" in card:
                 negatives.add(card["negate"])
                 continue
