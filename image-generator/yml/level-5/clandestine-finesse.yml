@@ -14,19 +14,17 @@ players:
       - type: x
   - cards:
       - type: x
-        above: Red 2
+        above: Blue 2
       - type: x
-        above: Purple 2
+        above: Red 2
       - type: x
       - type: x
       - type: x
   - cards:
-      - type: 3
-        clue: 3
-        on_top: (P)
-      - type: x
       - type: x
       - type: 3
         clue: 3
-        on_top: (G)
+        on_top: (R)
+      - type: x
+      - type: x
       - type: x

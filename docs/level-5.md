@@ -73,7 +73,7 @@ import ClandestineFinesse from '@site/static/img/generated/level-5/clandestine-f
   - Alice does something unrelated.
   - Bob knows that Cathy must have been trying to blind-play a red 1. Thus, he must have the red 2, and Alice did indeed perform a *Layered Finesse*.
   - Bob does something unrelated.
-  - Cathy was surprised that she played the blue 1 instead of the red 1. This must be a *Layered Finesse* and Cathy must really have the red 1. Cathy plays her *Second Finesse Position* and it is the red 1.
+  - Cathy was surprised that she blind-played the blue 1 instead of the red 1. This must be a *Layered Finesse* and Cathy must really have the red 1. Cathy plays her *Second Finesse Position* and it is the red 1.
 
 <LayeredFinesse className="example" />
 
@@ -89,14 +89,15 @@ import ClandestineFinesse from '@site/static/img/generated/level-5/clandestine-f
 - In other words, most *Layered Finesses* cause unrelated cards to blind-play that do not match the type of clue given.
 - With that said, it is also possible to perform a *Layered Finesse* for unrelated cards that **do** match the type of the clue given. When this happens, it is hidden from the receiver of the clue, so we call it a *Clandestine Finesse* to disambiguate it from a (more obvious) *Layered Finesse*.
 - For example, in a 3-player game:
-  - Alice clues number 3 to Cathy, which touches the purple 3 on slot 1 and the green 3 on slot 4. Thus, the purple 3 is the focus of the clue. This must be a *Play Clue* on the purple 3.
-  - Bob knows that the purple 3 is currently unplayable, so it must be a *Finesse*. He blind-plays his *Finesse Position* as purple 2, but it is a red 2 instead and successfully plays.
-  - Normally, Cathy would think that she has the red 3 on her slot 1, because the card that was blind-played matches the clue. (Number 2 matches number 3.)
-  - However, Cathy also sees that Bob had a purple 2 on his *Second Finesse Position* at the time of the clue. So there is a possibility that this was a *Clandestine Finesse* instead of a normal *Finesse*. Thus, Cathy has to give Bob a chance to blind-play the purple 2. If he does not, then Cathy does indeed have the red 3.
-  - For now, Cathy clues number 2 to Alice, which is a simple *Play Clue* on the yellow 2.
-  - Next, Alice plays the yellow 2.
-  - Bob was surprised that he blind-played the red 2, but now he knows that Alice performed a *Clandestine Finesse* instead of a normal *Finesse*. Bob must now continue to resolve the *Clandestine Finesse*, so he blind-plays his slot 2 card. It is the purple 2 and it successfully plays. (Bob knows that if he did not do this, then Cathy would go on to misplay purple 3 as red 3.)
-  - Cathy plays purple 3.
+  - Alice clues number 3 to Cathy, which touches the red 3 on slot 2. Thus, the red 3 is the focus of the clue. This must be a *Play Clue* on the red 3.
+  - Bob knows that the red 3 is currently unplayable, so it must be a *Finesse*. He blind-plays his *Finesse Position* as a red 2. Instead, it is a blue 2, and it successfully plays. Bob gasps in surprise.
+  - Normally, Cathy would think that she has the blue 3, because that would match the blue 2 that blind-played. (Number 2 matches number 3.)
+  - However, Cathy also sees that Bob had a red 2 on his *Second Finesse Position* at the time of the clue. So there is a possibility that this was a *Clandestine Finesse* instead of a normal *Finesse*. Thus, Cathy has to give Bob a chance to blind-play the red 2. If he does not, then Cathy does indeed have the blue 3.
+  - Cathy does something unrelated..
+  - Alice does something unrelated.
+  - Bob was surprised that he blind-played the blue 2 instead of the red 2. This must be a *Clandestine Finesse* and Bob must really have the red 2.
+  - Bob blind-plays his slot 2 card. It is the red 2 and it successfully plays. (Bob knows that if he did not do this, then Cathy would go on to misplay the red 3 as a blue 3.)
+  - Cathy plays the red 3.
 
 <ClandestineFinesse className="example" />
 
