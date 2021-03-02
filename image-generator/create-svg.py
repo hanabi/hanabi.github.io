@@ -22,10 +22,11 @@ CARD_WIDTH = 70
 CARD_HEIGHT = 100
 CARD_ROUNDED_CORNER_SIZE = 5
 CLUE_BORDER_COLOR = "orange"
-SPACING_BETWEEN_CARDS = 8
+HORIZONTAL_SPACING_BETWEEN_CARDS = 8
 # This needs to be long enough for Donald (e.g. the longest player name)
 # This will need to get bigger if the font size for the player name increases
-SPACING_BETWEEN_PLAYER_NAME_AND_HAND = 90
+HORIZONTAL_SPACING_BETWEEN_PLAYER_NAME_AND_HAND = 90
+VERTICAL_SPACING_BETWEEN_PLAYERS = 20
 PLAYER_NAMES = [
     "Alice",
     "Bob",
@@ -76,7 +77,7 @@ def main():
     draw_player_row(yaml_file, svg_file)
 
     # Draw discarded cards, if any
-    draw_trash(yaml_file, svg_file)
+    draw_discard_pile(yaml_file, svg_file)
 
     # Set the dimensions for the SVG file
     svg_file["width"] = x_max
@@ -102,7 +103,7 @@ def draw_play_stacks(yaml_file, svg_file):
         )
         svg_file.add(stack_base_or_card)
 
-        x_offset += CARD_WIDTH + SPACING_BETWEEN_CARDS
+        x_offset += CARD_WIDTH + HORIZONTAL_SPACING_BETWEEN_CARDS
 
     return x_offset
 
@@ -140,7 +141,9 @@ def draw_player_name_and_hand(yaml_file, svg_file, player_num, player):
     global y_below
 
     draw_player_name(svg_file, player_num, player)
-    x_offset = x_offset_where_player_begins + SPACING_BETWEEN_PLAYER_NAME_AND_HAND
+    x_offset = (
+        x_offset_where_player_begins + HORIZONTAL_SPACING_BETWEEN_PLAYER_NAME_AND_HAND
+    )
 
     # We need to increase the size of image if there is a tall text box
     # "below" one of cards
@@ -151,7 +154,7 @@ def draw_player_name_and_hand(yaml_file, svg_file, player_num, player):
     for card in player["cards"]:
         draw_player_card(yaml_file, svg_file, card, negatives)
 
-    y_offset += 120 + y_below
+    y_offset += CARD_HEIGHT + y_below + VERTICAL_SPACING_BETWEEN_PLAYERS
     if x_offset > x_max:
         x_max = x_offset
 
@@ -199,7 +202,7 @@ def draw_player_card(yaml_file, svg_file, card, negatives):
 
     draw_extra_card_attributes(svg_file, card)
 
-    x_offset += CARD_WIDTH + SPACING_BETWEEN_CARDS
+    x_offset += CARD_WIDTH + HORIZONTAL_SPACING_BETWEEN_CARDS
 
 
 def draw_unclued_card(yaml_file, svg_file, x_offset, y_offset):
@@ -493,30 +496,34 @@ def draw_textbox(svg_file, opts, offset):
     return 20 * len(text)
 
 
-def draw_trash(yaml_file, svg_file):
+def draw_discard_pile(yaml_file, svg_file):
     global y_offset
 
     if "discarded" not in yaml_file:
         return
-    svg_file.add(
-        svg_file.image(
-            "{}/trashcan.png".format(PIECES_PATH),
-            x=50,
-            y=CARD_HEIGHT * 1.5,
-            width=200,
-            height=200,
-        )
+
+    y_of_discard_pile_row = CARD_HEIGHT + VERTICAL_SPACING_BETWEEN_PLAYERS
+
+    trash_image = svg_file.image(
+        "{}/trashcan.png".format(PIECES_PATH),
+        x=0,
+        y=y_of_discard_pile_row,
+        width=CARD_WIDTH,
+        height=CARD_HEIGHT,
     )
-    for i, card in enumerate(yaml_file["discarded"]):
-        svg_file.add(
-            svg_file.image(
-                "{}/cards/{}.svg".format(PIECES_PATH, card),
-                x=100 + CARD_WIDTH * i / 3,
-                y=CARD_HEIGHT * 1.5 + 50 + CARD_HEIGHT * i / 4,
-                width=CARD_WIDTH,
-                height=CARD_HEIGHT,
-            )
+    svg_file.add(trash_image)
+
+    x = 0
+    for card in yaml_file["discarded"]:
+        x += CARD_WIDTH + HORIZONTAL_SPACING_BETWEEN_CARDS
+        card_image = svg_file.image(
+            "{}/cards/{}.svg".format(PIECES_PATH, card),
+            x=x,
+            y=y_of_discard_pile_row,
+            width=CARD_WIDTH,
+            height=CARD_HEIGHT,
         )
+        svg_file.add(card_image)
 
     if y_offset < CARD_HEIGHT * 1.5 + 200:
         y_offset = CARD_HEIGHT * 1.5 + 200
