@@ -7,13 +7,15 @@ stacks:
   - m: 2
 players:
   - text: Situation before clue
-  - cards:
+  - name: Alice
+    cards:
       - type: x
       - type: x
       - type: x
       - type: x
       - type: x
-  - cards:
+  - name: Bob
+    cards:
       - type: x
       - type: x
         above:
@@ -28,7 +30,7 @@ players:
             - Moved
   - text: Situation after clue
   - name: Alice
-    cluegiver: yes
+    cluegiver: true
     cards:
       - type: x
       - type: x
