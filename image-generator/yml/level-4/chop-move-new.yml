@@ -30,8 +30,6 @@ players:
             - Chop
             - Moved
   - text: After discarding the 1...
-  # We need to add extra space here because the clue arrow blocks the text
-  - text: ""
   - name: Alice
     cluegiver: true
     cards:

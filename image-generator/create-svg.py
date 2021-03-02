@@ -15,9 +15,9 @@ if sys.version_info < (3, 0):
     sys.exit(1)
 
 # Constants
-# Setting the theme text color is a hack to change text color via CSS
+# Setting the theme text color like this is a hack to change text color via CSS
 # Using the class name would be more proper, but it is mangled by Docusaurus
-TEXT_COLOR = "#f5f6f7"  # This matches the text color of the website
+TEXT_COLOR = "#000001"  # This matches the value in CSS selector in custom.css
 CARD_WIDTH = 70
 CARD_HEIGHT = 100
 CARD_ROUNDED_CORNER_SIZE = 5
@@ -36,6 +36,7 @@ PLAYER_NAMES = [
 PIECES_PATH = "/img/pieces"
 
 # Global variables
+all_suits = []
 have_rainbow = False
 have_whitenum = False
 x_offset = 0
@@ -47,6 +48,7 @@ y_below = 0
 
 
 def main():
+    global all_suits
     global x_offset
     global x_offset_where_player_begins
     global x_max
@@ -54,6 +56,10 @@ def main():
     # This script reads from standard in, expecting a YAML file
     # Decode it to YAML
     yaml_file = yaml.load(sys.stdin, Loader=yaml.SafeLoader)
+
+    # Use the play stack to determine the available suits for this particular
+    # variant
+    all_suits = [next(iter(color_pair)) for color_pair in yaml_file["stacks"]]
 
     # Create a new SVG file
     svg_file = svgwrite.Drawing()
@@ -234,14 +240,9 @@ def draw_clued_card(
         ranks = set(range(1, 6)) - negatives
 
     # Find the possible suits
-    suits = set(card_type) & set(
-        next(iter(color_pair)) for color_pair in yaml_file["stacks"]
-    )
+    suits = set(card_type) & set(all_suits)
     if not suits:
-        suits = (
-            set(next(iter(color_pair)) for color_pair in yaml_file["stacks"])
-            - negatives
-        )
+        suits = set(all_suits) - negatives
 
     # Most of the time, we don't want any pips to show
     pips_to_show = set()
@@ -326,10 +327,6 @@ def draw_unknown_card(yaml_file, svg_file, svg, positives):
             rank_pip_text_element["text-anchor"] = "middle"
             rank_pip_text_element["dominant-baseline"] = "central"
 
-    # Use the play stack to determine the available suits for this particular
-    # variant
-    all_suits = [next(iter(color_pair)) for color_pair in yaml_file["stacks"]]
-
     suit_pips_combined_svg = svg.add(svg_file.svg((0, 0), (CARD_WIDTH, CARD_HEIGHT)))
     suit_pips_combined_svg["viewBox"] = "-35 -50 70 100"
     angle = 2 * math.pi / len(all_suits)
@@ -367,7 +364,7 @@ def draw_extra_card_attributes(svg_file, card):
         )
 
         # Draw the clue circle on the arrow
-        is_color_clue = not card["clue"] in range(1, 6)
+        is_color_clue = card["clue"] not in range(1, 6)
         color = {
             "r": "red",
             "b": "blue",

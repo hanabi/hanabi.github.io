@@ -44,6 +44,7 @@
   padding-bottom: 1em;
 }
 
+/* See create-svg.py for an explanation */
 svg.example text[fill='#000001'] {
   fill: var(--ifm-font-color-base);
 }
