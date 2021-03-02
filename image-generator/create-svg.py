@@ -17,10 +17,13 @@ if sys.version_info < (3, 0):
 # Constants
 # Setting the theme text color is a hack to change text color via CSS
 # Using the class name would be more proper, but it is mangled by Docusaurus
-THEME_TEXT_COLOR = "#000001"
-CARD_ROUNDED_CORNER_SIZE = 5
+THEME_TEXT_COLOR = "#f5f6f7"  # This matches the text color of the website
 CARD_WIDTH = 70
 CARD_HEIGHT = 100
+CARD_ROUNDED_CORNER_SIZE = 5
+SPACING_BETWEEN_CARDS = 8
+# This will need to get bigger if the font size for the player name increases
+SPACING_BETWEEN_PLAYER_NAME_AND_HAND = 80
 PIECES_PATH = "/img/pieces"
 PLAYER_NAMES = [
     "Alice",
@@ -68,7 +71,7 @@ def main():
     x_max = x_offset_where_player_begins
 
     # Draw the player hands on the right side
-    draw_players(yaml_file, svg_file)
+    draw_player_row(yaml_file, svg_file)
 
     # Set the dimensions for the SVG file
     svg_file["width"] = x_max
@@ -80,7 +83,6 @@ def main():
 
 
 def draw_play_stacks(yaml_file, svg_file):
-    spacing = 4
     x_offset = 0
 
     for color_value in yaml_file["stacks"]:
@@ -95,12 +97,12 @@ def draw_play_stacks(yaml_file, svg_file):
         )
         svg_file.add(stack_base_or_card)
 
-        x_offset += CARD_WIDTH + spacing
+        x_offset += CARD_WIDTH + SPACING_BETWEEN_CARDS
 
     return x_offset
 
 
-def draw_players(yaml_file, svg_file):
+def draw_player_row(yaml_file, svg_file):
     for player_num, player in enumerate(yaml_file["players"]):
         if "text" in player:
             draw_text_divider(svg_file, player["text"])
@@ -134,8 +136,7 @@ def draw_player_name_and_hand(yaml_file, svg_file, player_num, player):
     global y_below
 
     draw_player_name(svg_file, player_num, player)
-
-    x_offset = x_offset_where_player_begins + 60
+    x_offset = x_offset_where_player_begins + SPACING_BETWEEN_PLAYER_NAME_AND_HAND
 
     # We need to increase the size of image if there is a tall text box
     # "below" one of cards
@@ -161,10 +162,13 @@ def draw_player_name(svg_file, player_num, player):
         name,
         x=[x_offset_where_player_begins],
         y=[y_offset],
-        dy=[50],
+        # 7 is an arbitrary value to account for the height of the text
+        dy=[(CARD_HEIGHT / 2) + 7],
         fill=THEME_TEXT_COLOR,
     )
-    svg_file.add(player_name_text)
+    player_name_text_element = svg_file.g(style="font-size: 1.4em;")
+    player_name_text_element.add(player_name_text)
+    svg_file.add(player_name_text_element)
 
     if "cluegiver" in player:
         # TODO
@@ -191,9 +195,8 @@ def draw_player_card(yaml_file, svg_file, card, negatives):
 
     t = str(card["type"])
     if t == "x":
-        s = svg_file.add(
-            svg_file.svg((x_offset, y_offset + 10), (CARD_WIDTH, CARD_HEIGHT))
-        )
+        # This is a completely unknown card
+        s = svg_file.add(svg_file.svg((x_offset, y_offset), (CARD_WIDTH, CARD_HEIGHT)))
         s.add(
             svg_file.rect(
                 (0, 0),
@@ -205,14 +208,14 @@ def draw_player_card(yaml_file, svg_file, card, negatives):
         )
         draw_unknown_card(svg_file, s, (set(all_suits) | set(range(1, 6))) - negatives)
     else:
-        # Add number pips
-        numbers = set(t) & {"1", "2", "3", "4", "5"}
-        if numbers:
-            numbers = set(int(i) for i in numbers)
+        # Find the possible ranks
+        ranks = set(t) & {"1", "2", "3", "4", "5"}
+        if ranks:
+            ranks = set(int(i) for i in ranks)
         else:
-            numbers = set(range(1, 6)) - negatives
+            ranks = set(range(1, 6)) - negatives
 
-        # Add suit pips
+        # Find the possible suits
         suits = set(t) & set(
             next(iter(color_pair)) for color_pair in yaml_file["stacks"]
         )
@@ -221,17 +224,22 @@ def draw_player_card(yaml_file, svg_file, card, negatives):
                 set(next(iter(color_pair)) for color_pair in yaml_file["stacks"])
                 - negatives
             )
-        svg_file.add(
-            svg_file.rect(
-                (x_offset - 1, y_offset - 1),
-                (72, 102),
-                fill="orange",
-                rx=CARD_ROUNDED_CORNER_SIZE,
-                ry=CARD_ROUNDED_CORNER_SIZE,
-            )
-        )
 
-        if len(numbers) > 1 and len(suits) > 1:
+        clue_border_overlap = 4
+        clue_border = svg_file.rect(
+            (
+                x_offset - (clue_border_overlap / 2),
+                y_offset - (clue_border_overlap / 2),
+            ),
+            (CARD_WIDTH + clue_border_overlap, CARD_HEIGHT + clue_border_overlap),
+            fill="orange",
+            rx=CARD_ROUNDED_CORNER_SIZE,
+            ry=CARD_ROUNDED_CORNER_SIZE,
+        )
+        svg_file.add(clue_border)
+
+        if len(ranks) > 1 and len(suits) > 1:
+            # This is a card with an unknown rank and an unknown color
             s = svg_file.add(
                 svg_file.svg((x_offset, y_offset), (CARD_WIDTH, CARD_HEIGHT))
             )
@@ -243,11 +251,11 @@ def draw_player_card(yaml_file, svg_file, card, negatives):
                 ry=CARD_ROUNDED_CORNER_SIZE,
             )
             s.add(rect)
-            draw_unknown_card(svg_file, s, numbers | suits)
-        elif len(numbers) == 1 and len(suits) > 1:
+            draw_unknown_card(svg_file, s, ranks | suits)
+        elif len(ranks) == 1 and len(suits) > 1:
             # This is a card with a known rank and an unknown color
             card_image = svg_file.image(
-                "{}/cards/{}.svg".format(PIECES_PATH, next(iter(numbers))),
+                "{}/cards/{}.svg".format(PIECES_PATH, next(iter(ranks))),
                 x=0,
                 y=0,
                 width=CARD_WIDTH,
@@ -258,7 +266,7 @@ def draw_player_card(yaml_file, svg_file, card, negatives):
             )
             s.add(card_image)
             draw_unknown_card(svg_file, s, suits)
-        elif len(numbers) > 1 and len(suits) == 1:
+        elif len(ranks) > 1 and len(suits) == 1:
             # This is a card with a known color and an unknown rank
             card_image = svg_file.image(
                 "{}/cards/{}.svg".format(PIECES_PATH, next(iter(suits))),
@@ -271,7 +279,7 @@ def draw_player_card(yaml_file, svg_file, card, negatives):
                 svg_file.svg((x_offset, y_offset), (CARD_WIDTH, CARD_HEIGHT))
             )
             s.add(card_image)
-            draw_unknown_card(svg_file, s, numbers)
+            draw_unknown_card(svg_file, s, ranks)
         else:
             # An exact card identity was specified
             # (e.g. "r1")
@@ -353,7 +361,7 @@ def draw_player_card(yaml_file, svg_file, card, negatives):
             )
         )
 
-    x_offset += 74
+    x_offset += CARD_WIDTH + SPACING_BETWEEN_CARDS
 
 
 def draw_textbox(svg_file, opts, offset):
