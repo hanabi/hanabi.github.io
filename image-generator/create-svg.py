@@ -30,12 +30,16 @@ y_offset = 0
 for color_value in input["stacks"]:
     color, value = next(iter(color_value.items()))
     if value:
-        fname = "{}{}".format(color, value)
+        file_name = "{}{}".format(color, value)
     else:
-        fname = "back-{}".format(color)
+        file_name = "back-{}".format(color)
     draw.add(
         draw.image(
-            "/img/pieces/{}.svg".format(fname), x=x_offset, y=50, width=70, height=100
+            "/img/pieces/{}.svg".format(file_name),
+            x=x_offset,
+            y=50,
+            width=70,
+            height=100,
         )
     )
     x_offset += 72
