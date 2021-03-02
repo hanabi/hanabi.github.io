@@ -23,6 +23,7 @@ CARD_WIDTH = 70
 
 # Variables
 have_rainbow = False
+have_whitenum = False
 x_offset = 0
 y_offset = 0
 y_top = 0
@@ -126,7 +127,7 @@ def draw_textbox(opts, offset):
 
 
 def draw_unknown_card(svg, positives):
-    rank_pip_width = 70 / 5
+    rank_pip_width = CARD_WIDTH / 5
     for n in range(1, 6):
         if n in positives:
             rank_pip_rectangle = svg.add(
@@ -322,13 +323,44 @@ for line_dict in yaml_file["players"]:
             if "clue" in card:
                 draw.add(
                     draw.image(
-                        "/img/pieces/clue-{}.png".format(card["clue"]),
+                        "/img/pieces/arrow.svg",
                         x=x_offset + 10,
                         y=y_offset - 40,
                         width=50,
                         height=70,
                     )
                 )
+                color = {
+                    "r": "red",
+                    "b": "blue",
+                    "g": "lightgreen",
+                    "y": "yellow",
+                    "p": "blueviolet",
+                }.get(card["clue"], "black")
+                draw.add(
+                    draw.circle(
+                        (x_offset + 35, y_offset - 15),
+                        r=15,
+                        fill=color,
+                        stroke="white" if color == "black" else "black",
+                        **{"stroke-width": 2}
+                    )
+                )
+                img = draw.add(
+                    draw.image(
+                        "/img/pieces/pip-{}.svg".format(card["clue"]),
+                        x=x_offset + 27,
+                        y=y_offset - 23,
+                        width=16,
+                        height=16,
+                    )
+                )
+                if card["clue"] in range(1, 6):
+                    img["style"] = "filter: url(#whitenum)"
+                    have_whitenum = True
+                else:
+                    img["style"] = "filter: url(#shadow)"
+
                 if y_offset < 20:
                     y_top = -20
             if "above" in card:
@@ -387,6 +419,19 @@ out = re.sub(
         <feMergeNode in="SourceGraphic"/>
     </feMerge>
     </filter>"""
+    + (
+        """
+      <filter id="whitenum">
+      <feComponentTransfer>
+        <feFuncR type="linear" slope="100"/>
+        <feFuncG type="linear" slope="100"/>
+        <feFuncB type="linear" slope="100"/>
+      </feComponentTransfer>
+    </filter>
+        """
+        if have_whitenum
+        else ""
+    )
     + (
         """
     <linearGradient id="rainbowtext" x1="0" y1="0" x2="100%" y2="0">
