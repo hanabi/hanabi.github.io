@@ -88,7 +88,7 @@ def draw_play_stacks(yaml_file, svg_file):
         stack_base_or_card = svg_file.image(
             "{}/cards/{}.svg".format(PIECES_PATH, file_name),
             x=x_offset,
-            y=50,
+            y=0,
             width=CARD_WIDTH,
             height=CARD_HEIGHT,
         )
@@ -224,7 +224,7 @@ def draw_player_hands(yaml_file, svg_file):
                         draw_unknown_card(svg_file, s, numbers | colors)
                     elif len(numbers) == 1 and len(colors) > 1:
                         # This is a card with a known rank and an unknown color
-                        card = svg_file.image(
+                        card_image = svg_file.image(
                             "{}/cards/{}.svg".format(PIECES_PATH, next(iter(numbers))),
                             x=0,
                             y=0,
@@ -236,11 +236,11 @@ def draw_player_hands(yaml_file, svg_file):
                                 (x_offset, y_offset), (CARD_WIDTH, CARD_HEIGHT)
                             )
                         )
-                        s.add(card)
+                        s.add(card_image)
                         draw_unknown_card(svg_file, s, colors)
                     elif len(numbers) > 1 and len(colors) == 1:
                         # This is a card with a known color and an unknown rank
-                        card = svg_file.image(
+                        card_image = svg_file.image(
                             "{}/cards/{}.svg".format(PIECES_PATH, next(iter(colors))),
                             x=0,
                             y=0,
@@ -252,19 +252,19 @@ def draw_player_hands(yaml_file, svg_file):
                                 (x_offset, y_offset), (CARD_WIDTH, CARD_HEIGHT)
                             )
                         )
-                        s.add(card)
+                        s.add(card_image)
                         draw_unknown_card(svg_file, s, numbers)
                     else:
                         # An exact card identity was specified
                         # (e.g. "r1")
-                        card = svg_file.image(
+                        card_image = svg_file.image(
                             "{}/cards/{}.svg".format(PIECES_PATH, t),
                             x=x_offset,
                             y=y_offset,
                             width=CARD_WIDTH,
                             height=CARD_HEIGHT,
                         )
-                        svg_file.add(card)
+                        svg_file.add(card_image)
 
                 if "clue" in card:
                     svg_file.add(
