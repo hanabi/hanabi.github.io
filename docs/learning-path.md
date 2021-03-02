@@ -26,7 +26,7 @@ The following is a quick summary of the levels.
 | Level Number | Level Name              | Main Conventions Learned
 | ------------ | ----------------------- | ------------------------
 | 1            | Fundamentals            | *[The Early Game](level-1.md#the-early-game)*, *[5 Stalls](level-1.md#the-5-stall)*, *[Prompts](level-1.md#the-prompt)*, *[Finesses](level-1.md#the-finesse)*
-| 2            | Basic Finesses          | *[Double Finesses](level-2.mdx#the-double-finesse--triple-finesse--quadruple-finesse)*, *[Reverse Finesses](level-2.mdx#the-reverse-finesse)*, *[Self-Finesses](level-2.mdx#the-self-finesse)*
+| 2            | Basic Finesses          | *[Double Finesses](level-2.md#the-double-finesse--triple-finesse--quadruple-finesse)*, *[Reverse Finesses](level-2.md#the-reverse-finesse)*, *[Self-Finesses](level-2.md#the-self-finesse)*
 | 3            | Basic Strategy          | *[Fix Clues](level-3.mdx#fix-clues)*, *[Playing Multiple 1's](level-3.mdx#playing-multiple-1s)*, *[Sarcastic Discards](level-3.mdx#the-sarcastic-discard)*
 | 4            | Chop Moves              | *[Trash Chop Moves](level-4.mdx#the-trash-chop-move)*, *[5's Chop Moves](level-4.mdx#the-5s-chop-move-5cm)*
 | 5            | Intermediate Finesses   | *[Hidden Finesses](level-5.mdx#the-hidden-finesse)*, *[Layered Finesses](level-5.mdx#the-layered-finesse)*, *[Clandestine Finesses](level-5.mdx#the-clandestine-finesse)*, *[Stacked Finesses](level-5.mdx#the-stacked-finesse)*, *[Ambiguous Finesses](level-5.mdx#the-ambiguous-finesse)*

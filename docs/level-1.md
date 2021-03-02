@@ -3,6 +3,8 @@ id: level-1
 title: Level 1 - Fundamentals
 ---
 
+import DelayedPlayClue from '@site/static/img/generated/level-1/delayed-play-clue.svg';
+
 - Level 1 strategies can be learned with no games of Hanabi played. You can either learn them before you play your first game or after you play a few games to learn the basic mechanics.
 - This stuff is mostly a repeat of the [beginner's guide](beginner.md), but we go into a bit more detail.
 
@@ -25,6 +27,9 @@ title: Level 1 - Fundamentals
 - *Play Clues* are different than *Delayed Play Clues*:
   - If the card will successfully play on the stacks **right now**, then the clue was a *Play Clue*.
   - If the card will successfully play on the stacks after other people have played cards of the same suit, then the clue was a *Delayed Play Clue* that was *through* other cards.
+
+
+
 - For example, in a 4-player game:
   - It is the first turn of the game and nothing is played on the stacks.
   - Alice clues red to Donald, touching a red 1 as a *Play Clue*. This is a direct *Play Clue* - the red 1 can be played on the stacks as soon as it gets to Donald's turn.
