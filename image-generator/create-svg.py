@@ -20,6 +20,7 @@ if sys.version_info < (3, 0):
 THEME_TEXT_COLOR = "#000001"
 CARD_ROUNDED_CORNER_SIZE = 5
 CARD_WIDTH = 70
+CARD_HEIGHT = 100
 PIECES_PATH = "/img/pieces"
 PLAYER_NAMES = [
     "Alice",
@@ -88,8 +89,8 @@ def draw_play_stacks(yaml_file, svg_file):
             "{}/cards/{}.svg".format(PIECES_PATH, file_name),
             x=x_offset,
             y=50,
-            width=70,
-            height=100,
+            width=CARD_WIDTH,
+            height=CARD_HEIGHT,
         )
         svg_file.add(stack_base_or_card)
 
@@ -163,11 +164,15 @@ def draw_player_hands(yaml_file, svg_file):
 
                 t = str(card["type"])
                 if t == "x":
-                    s = svg_file.add(svg_file.svg((x_offset, y_offset + 10), (70, 100)))
+                    s = svg_file.add(
+                        svg_file.svg(
+                            (x_offset, y_offset + 10), (CARD_WIDTH, CARD_HEIGHT)
+                        )
+                    )
                     s.add(
                         svg_file.rect(
                             (0, 0),
-                            (70, 100),
+                            (CARD_WIDTH, CARD_HEIGHT),
                             fill="gray",
                             rx=CARD_ROUNDED_CORNER_SIZE,
                             ry=CARD_ROUNDED_CORNER_SIZE,
@@ -203,10 +208,14 @@ def draw_player_hands(yaml_file, svg_file):
                         )
                     )
                     if len(numbers) > 1 and len(colors) > 1:
-                        s = svg_file.add(svg_file.svg((x_offset, y_offset), (70, 100)))
+                        s = svg_file.add(
+                            svg_file.svg(
+                                (x_offset, y_offset), (CARD_WIDTH, CARD_HEIGHT)
+                            )
+                        )
                         rect = svg_file.rect(
                             (0, 0),
-                            (70, 100),
+                            (CARD_WIDTH, CARD_HEIGHT),
                             fill="gray",
                             rx=CARD_ROUNDED_CORNER_SIZE,
                             ry=CARD_ROUNDED_CORNER_SIZE,
@@ -219,10 +228,14 @@ def draw_player_hands(yaml_file, svg_file):
                             "{}/cards/{}.svg".format(PIECES_PATH, next(iter(numbers))),
                             x=0,
                             y=0,
-                            width=70,
-                            height=100,
+                            width=CARD_WIDTH,
+                            height=CARD_HEIGHT,
                         )
-                        s = svg_file.add(svg_file.svg((x_offset, y_offset), (70, 100)))
+                        s = svg_file.add(
+                            svg_file.svg(
+                                (x_offset, y_offset), (CARD_WIDTH, CARD_HEIGHT)
+                            )
+                        )
                         s.add(card)
                         draw_unknown_card(svg_file, s, colors)
                     elif len(numbers) > 1 and len(colors) == 1:
@@ -231,10 +244,14 @@ def draw_player_hands(yaml_file, svg_file):
                             "{}/cards/{}.svg".format(PIECES_PATH, next(iter(colors))),
                             x=0,
                             y=0,
-                            width=70,
-                            height=100,
+                            width=CARD_WIDTH,
+                            height=CARD_HEIGHT,
                         )
-                        s = svg_file.add(svg_file.svg((x_offset, y_offset), (70, 100)))
+                        s = svg_file.add(
+                            svg_file.svg(
+                                (x_offset, y_offset), (CARD_WIDTH, CARD_HEIGHT)
+                            )
+                        )
                         s.add(card)
                         draw_unknown_card(svg_file, s, numbers)
                     else:
@@ -244,8 +261,8 @@ def draw_player_hands(yaml_file, svg_file):
                             "{}/cards/{}.svg".format(PIECES_PATH, t),
                             x=x_offset,
                             y=y_offset,
-                            width=70,
-                            height=100,
+                            width=CARD_WIDTH,
+                            height=CARD_HEIGHT,
                         )
                         svg_file.add(card)
 
@@ -406,7 +423,7 @@ def draw_unknown_card(svg_file, svg, positives):
             rank_pip_text_element["text-anchor"] = "middle"
             rank_pip_text_element["dominant-baseline"] = "central"
 
-    suit_pips_combined_svg = svg.add(svg_file.svg((0, 0), (70, 100)))
+    suit_pips_combined_svg = svg.add(svg_file.svg((0, 0), (CARD_WIDTH, CARD_HEIGHT)))
     suit_pips_combined_svg["viewBox"] = "-35 -50 70 100"
     angle = 2 * math.pi / len(all_suits)
     for i, color in enumerate(all_suits):
