@@ -75,6 +75,9 @@ def main():
     # Draw the player hands on the right side
     draw_player_row(yaml_file, svg_file)
 
+    # Draw discarded cards, if any
+    draw_trash(yaml_file, svg_file)
+
     # Set the dimensions for the SVG file
     svg_file["width"] = x_max
     svg_file["height"] = y_offset - y_top
@@ -488,6 +491,35 @@ def draw_textbox(svg_file, opts, offset):
         t["dominant-baseline"] = "central"
 
     return 20 * len(text)
+
+
+def draw_trash(yaml_file, svg_file):
+    global y_offset
+
+    if "discarded" not in yaml_file:
+        return
+    svg_file.add(
+        svg_file.image(
+            "{}/trashcan.png".format(PIECES_PATH),
+            x=50,
+            y=CARD_HEIGHT * 1.5,
+            width=200,
+            height=200,
+        )
+    )
+    for i, card in enumerate(yaml_file["discarded"]):
+        svg_file.add(
+            svg_file.image(
+                "{}/cards/{}.svg".format(PIECES_PATH, card),
+                x=100 + CARD_WIDTH * i / 3,
+                y=CARD_HEIGHT * 1.5 + 50 + CARD_HEIGHT * i / 4,
+                width=CARD_WIDTH,
+                height=CARD_HEIGHT,
+            )
+        )
+
+    if y_offset < CARD_HEIGHT * 1.5 + 200:
+        y_offset = CARD_HEIGHT * 1.5 + 200
 
 
 def print_svg(svg_file):
