@@ -502,7 +502,8 @@ def draw_discard_pile(yaml_file, svg_file):
     if "discarded" not in yaml_file:
         return
 
-    y_of_discard_pile_row = CARD_HEIGHT + VERTICAL_SPACING_BETWEEN_PLAYERS
+    # The discard pile goes beneath the play stacks, but we want to skip a row
+    y_of_discard_pile_row = (CARD_HEIGHT + VERTICAL_SPACING_BETWEEN_PLAYERS) * 2
 
     trash_image = svg_file.image(
         "{}/trashcan.png".format(PIECES_PATH),
