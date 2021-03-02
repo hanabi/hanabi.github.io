@@ -22,44 +22,16 @@ CARD_ROUNDED_CORNER_SIZE = 6
 
 # Variables
 have_rainbow = False
-
-# This script reads from standard in, expecting a YAML file
-# Decode it to YAML
-yaml_file = yaml.load(sys.stdin, Loader=yaml.SafeLoader)
-
-# Create a new SVG file
-draw = svgwrite.Drawing()
-
-#
-all_colors = [next(iter(color_pair)) for color_pair in yaml_file["stacks"]]
-
 x_offset = 0
 y_offset = 0
 
-for color_value in yaml_file["stacks"]:
-    color, value = next(iter(color_value.items()))
-    if value:
-        file_name = "{}{}".format(color, value)
-    else:
-        file_name = "back-{}".format(color)
-    draw.add(
-        draw.image(
-            "/img/pieces/{}.svg".format(file_name),
-            x=x_offset,
-            y=50,
-            width=70,
-            height=100,
-        )
-    )
-    x_offset += 72
 
-for line_dict in yaml_file["players"]:
-    if "cards" in line_dict:
-        num_cards_in_row = len(line_dict["cards"])
-        break
+# -----------
+# Subroutines
+# -----------
 
 
-def textbox(opts, offset):
+def draw_textbox(opts, offset):
     if type(opts) == str:
         text = [opts]
         color = text[0].split()[0].lower()
@@ -78,6 +50,7 @@ def textbox(opts, offset):
         if type(text) == str:
             text = [text]
         color = opts.get("color", "black")
+
     # TODO: make this widening more generic
     if text[0].startswith("Rainbow"):
         wid = 85
@@ -88,6 +61,7 @@ def textbox(opts, offset):
         wid = 64
         r = draw.add(draw.svg((x_offset + 3, y_offset + offset), (wid, 20 * len(text))))
     textcolor = "black" if color in ("gold", "rainbow") else "white"
+
     if color == "rainbow":
         r.add(
             draw.rect(
@@ -112,11 +86,13 @@ def textbox(opts, offset):
                 ry=CARD_ROUNDED_CORNER_SIZE,
             )
         )
+
     for i, line in enumerate(text):
         l = r.add(draw.svg((0, 20 * i), (wid, 20)))
         t = l.add(draw.text(line, x=["50%"], y=["50%"], fill=textcolor))
         t["text-anchor"] = "middle"
         t["dominant-baseline"] = "central"
+
     return 20 * len(text)
 
 
@@ -157,6 +133,40 @@ def draw_unknown_card(svg, positives):
                 )
             )
 
+
+# ----
+# Main
+# ----
+
+# This script reads from standard in, expecting a YAML file
+# Decode it to YAML
+yaml_file = yaml.load(sys.stdin, Loader=yaml.SafeLoader)
+
+# Use the stack colors to determine the available colors in this particular
+# variant
+all_colors = [next(iter(color_pair)) for color_pair in yaml_file["stacks"]]
+
+# Create a new SVG file
+draw = svgwrite.Drawing()
+
+# Draw the play stacks on the top-left part of the image
+# draw_play_stacks()
+for color_value in yaml_file["stacks"]:
+    color, value = next(iter(color_value.items()))
+    if value:
+        file_name = "{}{}".format(color, value)
+    else:
+        file_name = "back-{}".format(color)
+    draw.add(
+        draw.image(
+            "/img/pieces/{}.svg".format(file_name),
+            x=x_offset,
+            y=50,
+            width=70,
+            height=100,
+        )
+    )
+    x_offset += 72
 
 y_top = 0
 x_offset_of_players_first_card = x_offset
@@ -307,9 +317,9 @@ for line_dict in yaml_file["players"]:
                 if y_offset < 20:
                     y_top = -20
             if "above" in card:
-                textbox(card["above"], 0)
+                draw_textbox(card["above"], 0)
             if "below" in card:
-                yb = textbox(card["below"], 105)
+                yb = draw_textbox(card["below"], 105)
                 if yb > y_below:
                     y_below = yb
             if "ontop" in card:
@@ -343,40 +353,42 @@ draw["viewBox"] = "0 {} {} {}".format(y_top, x_max, y_offset)
 out = io.StringIO()
 draw.write(out, pretty=True)
 out = out.getvalue()
-# workround stupid docusaurus/react error similar to this one: https://github.com/facebook/docusaurus/issues/3689
+# workround stupid docusaurus/react error similar to this one:
+# https://github.com/facebook/docusaurus/issues/3689
 out = re.sub(r'xmlns:ev="(?:.*?)"', "", out)
 # add shadow filter manually, because svgwrite's API for it is awkward
 out = re.sub(
     r"<defs/>",
     """<defs>
     <filter id="shadow">
-      <feOffset in="SourceAlpha" dx="2" dy="2" result="offsetblur"/>
-      <feComponentTransfer result="shadow">
+    <feOffset in="SourceAlpha" dx="2" dy="2" result="offsetblur"/>
+    <feComponentTransfer result="shadow">
         <feFuncA type="linear" slope="0.5"/>
-      </feComponentTransfer>
-      <feMorphology in="SourceAlpha" operator="dilate" radius="1" result="border"/>
-      <feMerge>
+    </feComponentTransfer>
+    <feMorphology in="SourceAlpha" operator="dilate" radius="1" result="border"/>
+    <feMerge>
         <feMergeNode in="shadow"/>
         <feMergeNode in="border"/>
         <feMergeNode in="SourceGraphic"/>
-      </feMerge>
+    </feMerge>
     </filter>"""
     + (
         """
     <linearGradient id="rainbowtext" x1="0" y1="0" x2="100%" y2="0">
-      <stop offset="0" stop-color="#ff7777"></stop>
-      <stop offset="0.25" stop-color="#ffff77"></stop>
-      <stop offset="0.5" stop-color="#77ff77"></stop>
-      <stop offset="0.75" stop-color="#77ffff"></stop>
-      <stop offset="1" stop-color="#7777ff"></stop>
+    <stop offset="0" stop-color="#ff7777"></stop>
+    <stop offset="0.25" stop-color="#ffff77"></stop>
+    <stop offset="0.5" stop-color="#77ff77"></stop>
+    <stop offset="0.75" stop-color="#77ffff"></stop>
+    <stop offset="1" stop-color="#7777ff"></stop>
     </linearGradient>"""
         if have_rainbow
         else ""
     )
     + """
-  </defs>""",
+</defs>""",
     out,
     count=1,
 )
 
+# Write the resulting SVG to stdout
 print(out)
