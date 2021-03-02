@@ -16,6 +16,7 @@ if sys.version_info < (3, 0):
 # A hack to change text color via CSS
 # Using the class name would be more proper, but it is mangled by Docusaurus
 THEME_TEXT_COLOR = "#000001"
+ROUNDED_CORNER_SIZE = 6
 
 input = yaml.load(sys.stdin, Loader=yaml.SafeLoader)
 
@@ -86,12 +87,23 @@ def textbox(opts, offset):
                 (wid, 20 * len(text)),
                 stroke=textcolor,
                 fill="url(#rainbowtext)",
+                rx=ROUNDED_CORNER_SIZE,
+                ry=ROUNDED_CORNER_SIZE,
             )
         )
         global have_rainbow
         have_rainbow = True
     else:
-        r.add(draw.rect((0, 0), (wid, 20 * len(text)), stroke=textcolor, fill=color))
+        r.add(
+            draw.rect(
+                (0, 0),
+                (wid, 20 * len(text)),
+                stroke=textcolor,
+                fill=color,
+                rx=ROUNDED_CORNER_SIZE,
+                ry=ROUNDED_CORNER_SIZE,
+            )
+        )
     for i, line in enumerate(text):
         l = r.add(draw.svg((0, 20 * i), (wid, 20)))
         t = l.add(draw.text(line, x=["50%"], y=["50%"], fill=textcolor))
@@ -193,7 +205,15 @@ for line_dict in input["players"]:
             t = str(card["type"])
             if t == "x":
                 s = draw.add(draw.svg((x_offset, y_offset + 10), (70, 100)))
-                s.add(draw.rect((0, 0), (70, 100), fill="gray"))
+                s.add(
+                    draw.rect(
+                        (0, 0),
+                        (70, 100),
+                        fill="gray",
+                        rx=ROUNDED_CORNER_SIZE,
+                        ry=ROUNDED_CORNER_SIZE,
+                    )
+                )
                 draw_unknown_card(s, (set(all_colors) | set(range(1, 6))) - negatives)
             else:
                 numbers = set(t) & {"1", "2", "3", "4", "5"}
@@ -213,14 +233,22 @@ for line_dict in input["players"]:
                     draw.rect(
                         (x_offset - 1, y_offset - 1),
                         (72, 102),
-                        rx=2,
-                        ry=2,
                         fill="orange",
+                        rx=ROUNDED_CORNER_SIZE,
+                        ry=ROUNDED_CORNER_SIZE,
                     )
                 )
                 if len(numbers) > 1 and len(colors) > 1:
                     s = draw.add(draw.svg((x_offset, y_offset), (70, 100)))
-                    s.add(draw.rect((0, 0), (70, 100), fill="gray"))
+                    s.add(
+                        draw.rect(
+                            (0, 0),
+                            (70, 100),
+                            fill="gray",
+                            rx=ROUNDED_CORNER_SIZE,
+                            ry=ROUNDED_CORNER_SIZE,
+                        )
+                    )
                     draw_unknown_card(s, numbers | colors)
                 elif len(numbers) == 1 and len(colors) > 1:
                     s = draw.add(draw.svg((x_offset, y_offset), (70, 100)))

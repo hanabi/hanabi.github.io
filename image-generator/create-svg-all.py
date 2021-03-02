@@ -40,8 +40,13 @@ for subdirectory_path in subdirectories:
         stdin = open(file_path, "r")
         stdout = open(output_file_path, "w")
         if os.name == "nt":
-            subprocess.run(
+            completedProcess = subprocess.run(
                 ["python", CREATE_SVG_SCRIPT_PATH], stdin=stdin, stdout=stdout
             )
         else:
-            subprocess.run([CREATE_SVG_SCRIPT_PATH], stdin=stdin, stdout=stdout)
+            completedProcess = subprocess.run(
+                [CREATE_SVG_SCRIPT_PATH], stdin=stdin, stdout=stdout
+            )
+        if completedProcess.returncode != 0:
+            print("Failed; skipping creating the rest of the cards.")
+            sys.exit(1)

@@ -15,6 +15,7 @@
   // Automatically run the formatter when a Python file is saved
   "[python]": {
     "editor.formatOnSave": true,
+    "editor.rulers": [79],
     "editor.tabSize": 4,
   },
 }
