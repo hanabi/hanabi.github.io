@@ -5,7 +5,13 @@ stacks:
   - b: 0
   - p: 0
 players:
-  - text: Later...
+  - cluegiver: yes
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
   - cards:
       - type: x
       - type: r2
@@ -17,10 +23,3 @@ players:
           text:
             - Chop
             - Move
-  - cluegiver: yes
-    cards:
-      - type: x
-      - type: x
-      - type: x
-      - type: x
-      - type: x
