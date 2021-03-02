@@ -38,7 +38,6 @@ PIECES_PATH = "/img/pieces"
 # Global variables
 all_suits = []
 have_rainbow = False
-have_whitenum = False
 x_offset = 0
 x_offset_where_player_begins = 0
 x_max = 0
@@ -348,7 +347,6 @@ def draw_unknown_card(yaml_file, svg_file, svg, positives):
 
 
 def draw_extra_card_attributes(svg_file, card):
-    global have_whitenum
     global y_top
     global y_below
 
@@ -384,17 +382,18 @@ def draw_extra_card_attributes(svg_file, card):
 
         # For number clues, add the number pip
         if not is_color_clue:
-            pip = svg_file.image(
-                "{}/pips/{}.svg".format(PIECES_PATH, card["clue"]),
-                x=x_offset + 27,
-                y=y_offset - 23,
-                width=16,
-                height=16,
+            r = svg_file.add(svg_file.svg((x_offset + 27, y_offset - 23), (16, 16)))
+            pip = r.add(
+                svg_file.text(
+                    str(card["clue"]),
+                    x=["50%"],
+                    y=["50%"],
+                    fill="white",
+                    style="font-size: 1.4em;",
+                )
             )
-            img = svg_file.add(pip)
-
-            img["style"] = "filter: url(#whitenum)"
-            have_whitenum = True
+            pip["text-anchor"] = "middle"
+            pip["dominant-baseline"] = "central"
 
         if y_offset < 20:
             y_top = -20
@@ -516,19 +515,6 @@ def print_svg(svg_file):
             <feMergeNode in="SourceGraphic"/>
         </feMerge>
         </filter>"""
-        + (
-            """
-        <filter id="whitenum">
-        <feComponentTransfer>
-            <feFuncR type="linear" slope="100"/>
-            <feFuncG type="linear" slope="100"/>
-            <feFuncB type="linear" slope="100"/>
-        </feComponentTransfer>
-        </filter>
-            """
-            if have_whitenum
-            else ""
-        )
         + (
             """
         <linearGradient id="rainbowtext" x1="0" y1="0" x2="100%" y2="0">
