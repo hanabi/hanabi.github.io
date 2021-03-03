@@ -164,24 +164,43 @@ def draw_player_name(svg_file, player_num, player):
     else:
         name = PLAYER_NAMES[player_num]
 
+    r = svg_file.add(
+        svg_file.svg(
+            (x_offset_where_player_begins, y_offset),
+            (HORIZONTAL_SPACING_BETWEEN_PLAYER_NAME_AND_HAND, CARD_HEIGHT),
+        )
+    )
     player_name_text = svg_file.text(
         name,
-        x=[x_offset_where_player_begins],
-        y=[y_offset],
-        # 7 is an arbitrary value to account for the height of the text
-        dy=[(CARD_HEIGHT / 2) + 7],
+        x=["0%"],
+        y=["50%"],
         fill=TEXT_COLOR,
         style="font-size: 1.4em;",
+        **{"dominant-baseline": "central"},
     )
-    svg_file.add(player_name_text)
+    r.add(player_name_text)
 
     if "cluegiver" in player:
-        # TODO
-        # Before, "(clue giver)" was appended after the player name,
-        # which was ugly
-        # Instead, let's either do it like Russ does or try drawing a teal box
-        # around the player name
-        pass
+        # based on https://stackoverflow.com/a/42783381/14347173
+        clue_giver_bg = svg_file.text(
+            "clue giver",
+            x=["0%"],
+            y=["50%"],
+            dy=[30],
+            fill="black",
+            filter="url(#cluegiver)",
+            **{"dominant-baseline": "central"},
+        )
+        r.add(clue_giver_bg)
+        clue_giver_text = svg_file.text(
+            "clue giver",
+            x=["0%"],
+            y=["50%"],
+            dy=[30],
+            fill="black",
+            **{"dominant-baseline": "central"},
+        )
+        r.add(clue_giver_text)
 
 
 def draw_player_card(yaml_file, svg_file, card):
@@ -367,7 +386,7 @@ def draw_extra_card_attributes(svg_file, card):
                 r=15,
                 fill=color,
                 stroke="white" if color == "black" else "black",
-                **{"stroke-width": 2}
+                **{"stroke-width": 2},
             )
         )
 
@@ -530,7 +549,7 @@ def draw_discard_pile(yaml_file, svg_file):
             ry=CARD_ROUNDED_CORNER_SIZE * 2,
             stroke="darkgreen",
             fill="none",
-            **{"stroke-width": 2}
+            **{"stroke-width": 2},
         )
     )
 
@@ -547,21 +566,24 @@ def print_svg(svg_file):
     # https://github.com/facebook/docusaurus/issues/3689
     output = re.sub(r'xmlns:ev="(?:.*?)"', "", output)
 
-    # Add shadow filter manually, because svgwrite's API for it is awkward
+    # Add filters manually, because svgwrite's API for it is awkward
     output = re.sub(
         r"<defs/>",
         """<defs>
+        <filter x="0" y="0" width="1" height="1" id="cluegiver">
+            <feFlood flood-color="cyan"/>
+        </filter>
         <filter id="shadow">
-        <feOffset in="SourceAlpha" dx="2" dy="2" result="offsetblur"/>
-        <feComponentTransfer result="shadow">
-            <feFuncA type="linear" slope="0.5"/>
-        </feComponentTransfer>
-        <feMorphology in="SourceAlpha" operator="dilate" radius="1" result="border"/>
-        <feMerge>
-            <feMergeNode in="shadow"/>
-            <feMergeNode in="border"/>
-            <feMergeNode in="SourceGraphic"/>
-        </feMerge>
+            <feOffset in="SourceAlpha" dx="2" dy="2" result="offsetblur"/>
+            <feComponentTransfer result="shadow">
+                <feFuncA type="linear" slope="0.5"/>
+            </feComponentTransfer>
+            <feMorphology in="SourceAlpha" operator="dilate" radius="1" result="border"/>
+            <feMerge>
+                <feMergeNode in="shadow"/>
+                <feMergeNode in="border"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
         </filter>"""
         + (
             """
