@@ -207,8 +207,8 @@ def draw_player_card(yaml_file, svg_file, card):
     global x_offset
 
     card_type = str(card["type"])
-    if card_type == "x":
-        draw_unclued_card(yaml_file, svg_file, x_offset, y_offset)
+    if card_type.startswith("x"):
+        draw_unclued_card(yaml_file, svg_file, x_offset, y_offset, card_type[1:])
     else:
         draw_clued_card(yaml_file, svg_file, card_type, card, x_offset, y_offset)
 
@@ -217,7 +217,7 @@ def draw_player_card(yaml_file, svg_file, card):
     x_offset += CARD_WIDTH + HORIZONTAL_SPACING_BETWEEN_CARDS
 
 
-def draw_unclued_card(yaml_file, svg_file, x_offset, y_offset):
+def draw_unclued_card(yaml_file, svg_file, x_offset, y_offset, pips):
     s = svg_file.add(svg_file.svg((x_offset, y_offset), (CARD_WIDTH, CARD_HEIGHT)))
     card_image = svg_file.rect(
         (0, 0),
@@ -228,8 +228,8 @@ def draw_unclued_card(yaml_file, svg_file, x_offset, y_offset):
     )
     s.add(card_image)
 
-    # Draw an unknown card with no pips visible
-    draw_unknown_card(yaml_file, svg_file, s, [])
+    if pips:
+        draw_card_pips(yaml_file, svg_file, s, pips)
 
 
 def draw_clued_card(yaml_file, svg_file, card_type, card, x_offset, y_offset):
@@ -249,15 +249,9 @@ def draw_clued_card(yaml_file, svg_file, card_type, card, x_offset, y_offset):
 
     # Find the possible ranks
     ranks = set(card_type) & {"1", "2", "3", "4", "5"}
-    ranks = set(int(i) for i in ranks)
 
     # Find the possible suits
     suits = set(card_type) & set(all_suits)
-
-    # Most of the time, we don't want any pips to show
-    pips_to_show = set()
-    if "show_pips" in card:
-        pips_to_show = ranks | suits
 
     if len(ranks) != 1 and len(suits) != 1:
         # This is a card with an unknown rank and an unknown color
@@ -271,7 +265,7 @@ def draw_clued_card(yaml_file, svg_file, card_type, card, x_offset, y_offset):
         )
         s.add(rect)
         # Always draw pips on clued cards with unknown rank + unknown color
-        draw_unknown_card(yaml_file, svg_file, s, ranks | suits)
+        draw_card_pips(yaml_file, svg_file, s, ranks | suits)
     elif len(ranks) == 1 and len(suits) != 1:
         # This is a card with a known rank and an unknown color
         card_image = svg_file.image(
@@ -283,7 +277,7 @@ def draw_clued_card(yaml_file, svg_file, card_type, card, x_offset, y_offset):
         )
         s = svg_file.add(svg_file.svg((x_offset, y_offset), (CARD_WIDTH, CARD_HEIGHT)))
         s.add(card_image)
-        draw_unknown_card(yaml_file, svg_file, s, suits)
+        draw_card_pips(yaml_file, svg_file, s, suits)
     elif len(ranks) != 1 and len(suits) == 1:
         # This is a card with a known color and an unknown rank
         card_image = svg_file.image(
@@ -295,7 +289,7 @@ def draw_clued_card(yaml_file, svg_file, card_type, card, x_offset, y_offset):
         )
         s = svg_file.add(svg_file.svg((x_offset, y_offset), (CARD_WIDTH, CARD_HEIGHT)))
         s.add(card_image)
-        draw_unknown_card(yaml_file, svg_file, s, ranks)
+        draw_card_pips(yaml_file, svg_file, s, ranks)
     else:
         # An exact card identity was specified
         # (e.g. "r1")
@@ -309,24 +303,19 @@ def draw_clued_card(yaml_file, svg_file, card_type, card, x_offset, y_offset):
         svg_file.add(card_image)
 
 
-def draw_unknown_card(yaml_file, svg_file, svg, positives):
-    # Count the number of rank possibilities
-    rank_possibilities = []
-    for n in range(1, 6):
-        if n in positives:
-            rank_possibilities.append(n)
-
+def draw_card_pips(yaml_file, svg_file, svg, pips):
     rank_pip_width = CARD_WIDTH / 5
-    if len(rank_possibilities) > 1:
-        for rank_possibility in rank_possibilities:
+    for rank in range(1, 6):
+        if str(rank) in pips:
             rank_pip_rectangle = svg.add(
                 svg_file.svg(
-                    ((rank_possibility - 1) * rank_pip_width, 80), (rank_pip_width, 20)
+                    ((rank - 1) * rank_pip_width, CARD_HEIGHT * 4 / 5),
+                    (rank_pip_width, CARD_HEIGHT / 5),
                 )
             )
             rank_pip_text_element = rank_pip_rectangle.add(
                 svg_file.text(
-                    str(rank_possibility),
+                    str(rank),
                     x=["50%"],
                     y=["50%"],
                     fill="white",
@@ -336,22 +325,17 @@ def draw_unknown_card(yaml_file, svg_file, svg, positives):
             rank_pip_text_element["text-anchor"] = "middle"
             rank_pip_text_element["dominant-baseline"] = "central"
 
-    suit_pips_combined_svg = svg.add(svg_file.svg((0, 0), (CARD_WIDTH, CARD_HEIGHT)))
-    suit_pips_combined_svg["viewBox"] = "-35 -50 70 100"
     angle = 2 * math.pi / len(all_suits)
     for i, color in enumerate(all_suits):
-        if color in positives:
-            suit_pips_combined_svg.add(
+        if color in pips:
+            svg.add(
                 svg_file.image(
                     "{}/pips/{}.svg".format(PIECES_PATH, color),
-                    x=-6,
-                    y=-6,
+                    x=CARD_WIDTH / 2 - 6 - 20 * math.sin(angle * i),
+                    y=CARD_HEIGHT / 2 - 6 - 20 * math.cos(angle * i),
                     width=12,
                     height=12,
                     style="filter: url(#shadow)",
-                    transform="translate({}, {})".format(
-                        -20 * math.sin(angle * i), -20 * math.cos(angle * i)
-                    ),
                 )
             )
 
