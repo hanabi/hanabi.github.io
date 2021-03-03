@@ -12,6 +12,7 @@ import ChopFocus from '@site/static/img/generated/beginner/chop-focus.svg';
 import LeftMostFocus from '@site/static/img/generated/beginner/left-most-focus.svg';
 import TwoSave from '@site/static/img/generated/beginner/2-save.svg';
 import FiveSave from '@site/static/img/generated/beginner/5-save.svg';
+import CriticalSave from '@site/static/img/generated/beginner/critical-save.svg';
 import GoodTouchPrinciple1 from '@site/static/img/generated/beginner/good-touch-principle-1.svg';
 import GoodTouchPrinciple2 from '@site/static/img/generated/beginner/good-touch-principle-2.svg';
 import GoodTouchPrinciple3 from '@site/static/img/generated/beginner/good-touch-principle-3.svg';
@@ -180,12 +181,12 @@ In this guide, there will be some images to show off the concepts introduced. He
 
 ### The Critical Save
 
-![Critical Save](/img/beginner/critical-save.png)
+<CriticalSave className="example" />
 
 - For the same reason that 5's need to be saved, critical cards also need to be saved. (Critical cards are defined as cards that have the other copy discarded.)
 - Players can choose to save critical cards with either a color clue **or** a number clue.
   - Note that this even applies to 2's in the rare case that a copy of that 2 ends up in the discard pile.
-- In the above screenshot:
+- In the above image:
   - The current discard pile is shown to the right of the hands.
   - Alice clues Bob yellow, which touches a card on slot 4.
   - Before this clue, the only clued card in Bob's hand was the 5 on slot 5.

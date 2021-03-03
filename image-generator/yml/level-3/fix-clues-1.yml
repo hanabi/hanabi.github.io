@@ -5,17 +5,36 @@ stacks:
   - b: 2
   - p: 4
 players:
-  - cards:
+  - text: Before the Clue Alice thinks it's Purple 5
+  - name: Alice
+    cards:
       - type: x
       - type: x
       - type: x
-      - type: p3
-        clue: 3
+      - type: p
       - type: x
-  - cluegiver: yes
+  - name: Bob
     cards:
       - type: x
       - type: x
       - type: x
       - type: x
       - type: x
+  - text: After the Clue
+  - name: Alice
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: p3
+        clue: 3
+      - type: x
+  - name: Bob
+    cluegiver: true
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+
