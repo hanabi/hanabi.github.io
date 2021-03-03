@@ -169,7 +169,6 @@ In this guide, there will be some images to show off the concepts introduced. He
 
 <TwoSave className="example" />
 
-
 - In the above image:
   - Alice clues Bob number 2, which touches a 2 on slot 3 and slot 5.
   - Before this clue, Bob did not have any clued cards in his hand.
