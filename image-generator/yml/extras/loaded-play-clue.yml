@@ -1,0 +1,34 @@
+stacks:
+  - r: 2
+  - y: 2
+  - g: 2
+  - b: 2
+  - p: 2
+discarded:
+  - b4
+players:
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+      - type: 3
+        below:
+          text: Playable
+          color: darkgreen
+      - type: x
+      - type: x
+      - type: 4
+        below:
+          text: Playable
+          color: darkgreen
+        clue: 4

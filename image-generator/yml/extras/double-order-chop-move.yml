@@ -10,8 +10,19 @@ players:
       - type: x
       - type: x
       - type: x
+        above:
+          text:
+            - Double
+            - Chop
+            - Move
+          color: purple
       - type: x
-  - cluegiver: yes
+        above:
+          text:
+            - Chop
+            - Move
+          color: maroon
+  - cluegiver: true
     cards:
       - type: 1
         clue: 1
@@ -54,4 +65,15 @@ players:
       - type: x
       - type: x
       - type: x
+        above:
+          text:
+            - Double
+            - Chop
+            - Move
+          color: darkgreen
       - type: x
+        above:
+          text:
+            - Chop
+            - Move
+          color: darkblue

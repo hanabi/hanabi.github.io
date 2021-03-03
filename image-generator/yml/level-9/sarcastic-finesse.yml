@@ -1,0 +1,30 @@
+stacks:
+  - r: 0
+  - y: 0
+  - g: 0
+  - b: 0
+  - p: 0
+players:
+  - cluegiver: true
+    cards:
+      - type: x
+      - type: x
+      - type: 2
+        middle_note: (R)
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+        above: Red 1
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+      - type: r
+        middle_note: (2)
+        below: Discards
+      - type: x
+      - type: x
+      - type: x

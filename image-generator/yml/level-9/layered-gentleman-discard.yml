@@ -1,0 +1,32 @@
+stacks:
+  - r: 0
+  - y: 0
+  - g: 0
+  - b: 0
+  - p: 0
+players:
+  - cards:
+      - type: x
+        above: Green 1
+      - type: x
+        above: Red 1
+      - type: x
+      - type: x
+      - type: x
+  - cluegiver: true
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+      - type: x
+      - type: r1
+        below: Discards
+        clue: r
+      - type: r
+        middle_note: (2)
+        clue: r
+      - type: x

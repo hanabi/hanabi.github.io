@@ -5,15 +5,15 @@ stacks:
   - b: 2
   - p: 4
 players:
-  - cluegiver: yes
-    cards:
+  - cards:
       - type: x
       - type: x
       - type: x
       - type: p3
         clue: 3
       - type: x
-  - cards:
+  - cluegiver: yes
+    cards:
       - type: x
       - type: x
       - type: x

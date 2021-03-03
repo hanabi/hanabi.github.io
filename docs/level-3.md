@@ -23,11 +23,12 @@ import FixClue2 from '@site/static/img/generated/level-3/fix-clues-2.svg';
 
 <FixClue1 className="example" />
 
-- In the above screenshot:
+- In the above example:
   - Before the clue was given, Alice had an unknown purple card in her hand.
   - From *Good Touch Principle*, Alice concluded that her card must be purple 5, and had planned to play it as soon as possible.
   - Bob clues number 3 to Alice, which "fills in" the purple card and reveals that it is purple 3.
   - Since Alice was just about to play this card, Alice knows that this was a *Fix Clue* and that she can now safely discard the purple 3.
+- **A clue cannot be a *Play Clue* and a *Fix Clue* at the same time.** If you receive a *Fix Clue* and it touches other ancillary cards, none of them are necessarily playable; the primary point of the clue is to fix the impending misplay.
 
 - **A clue cannot be a *Play Clue* and a *Fix Clue* at the same time.** If you receive a *Fix Clue* and it touches other ancillary cards, none of them are necessarily playable; the primary point of the clue is to fix the impending misplay.
 
@@ -65,7 +66,7 @@ import FixClue2 from '@site/static/img/generated/level-3/fix-clues-2.svg';
 - If one or more 1's in your hand are clued, **you should assume that they are all playable**. (This only applies to 1's, and follows from *Good Touch Principle*.)
 - We agree that playing 1's at the beginning of the game is a special case - you should always **play the 1's in your starting hand from oldest to newest**. (This is a special case because normally, *Play Clues* mean to play the left-most card.)
 
-![Playing Multiple 1's](/img/level-3/playing-multiple-1s.png)
+![Playing Multiple 1's](/img/level-3/playing-multiple-1s-1.png)
 
 - In the above screenshot, on the first turn of the game, Alice clues number 1 to Bob, which touches three 1s on slot 2, slot 3, and slot 4.
 - From *Good Touch Principle*, Bob knows that he can now play all 3 of these cards.
@@ -167,7 +168,7 @@ import FixClue2 from '@site/static/img/generated/level-3/fix-clues-2.svg';
 
 ### Information Lock Principle
 
-#### Information Lock with the Full Identity
+#### Information Lock with the Full Identity 🔒
 
 - As soon as a clue is given to a card, if it is enough to determine the card's full identity, then the assumed identity is said to be locked in to the card. (On Hanab Live, this is usually represented as a player writing an "identity note" on the card.)
 - For example, in a 3-player no variant game:
@@ -176,7 +177,7 @@ import FixClue2 from '@site/static/img/generated/level-3/fix-clues-2.svg';
   - Bob immediately right-clicks on the card and writes a note of "red 1".
   - This card is now "locked in" as a red 1. No future clues or actions from other players can ever change that.
 
-#### Information Lock with a Superposition
+#### Information Lock with a Superposition 〰️
 
 - A *[superposition](https://en.wikipedia.org/wiki/Quantum_superposition)* is a term from [quantum mechanics](https://en.wikipedia.org/wiki/Quantum_mechanics) that describes how something can be two different things at the same time. For example, an electron is a type of a particle, and an electron can either be "spin up" or "spin down". But an electron could also be in a superposition of both "spin up" and "spin down" at the same time, as weird as that sounds. If an electron happens to bounce off of something (e.g. is measured), then the superposition will "collapse" and it will **only** be in a "spin up" or "spin down" state. The details of quantum mechanics are not important - the point is that we treat unknown Hanabi cards sort of like unknown particles: even though they **really** have a true identity, we ignore that and treat them as being all of the possibilities at the same time.
 - As soon as a clue is given to a card that could be two or more different things, then the assumed superposition of all of the possibilities is locked in to the card.
@@ -186,7 +187,7 @@ import FixClue2 from '@site/static/img/generated/level-3/fix-clues-2.svg';
   - Bob immediately right-clicks on the card and writes a note" of "red 1 or rainbow 1".
   - This card is now "locked in" as this specific superposition. Future clues and actions can narrow down the cards in the superposition or completely collapse the superposition, but new cards can never be added to the superposition.
 
-#### Information Lock on In-Between Cards
+#### Information Lock on In-Between Cards ⛓️
 
 - As soon as a clue is given to a card that is not immediately playable, the assumed identity is locked in to the card **and** all of the in-between cards.
 - For example, in a 4-player no variant game:
@@ -200,7 +201,7 @@ import FixClue2 from '@site/static/img/generated/level-3/fix-clues-2.svg';
   - Donald knows that from *Good Touch Principle*, his red card cannot be red 3, since Cathy has that card clued in her hand.
   - Donald knows that he must therefore have the red 4. He writes a note of "red 4" on his red card. It is now locked in forever as that card.
 
-#### Breaking Information Lock
+#### Breaking Information Lock 💔
 
 - A direct conflict is the only thing that can "break" an information lock.
 - For example, in a 3-player game:
