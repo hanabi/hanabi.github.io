@@ -5,7 +5,7 @@ stacks:
   - b: 1
   - p: 1
 players:
-  - text: Before the Clue Alice thinks it's Green 1
+  - text: Before the Clue Alice thinks it is a Green 1
   - name: Alice
     cards:
       - type: x

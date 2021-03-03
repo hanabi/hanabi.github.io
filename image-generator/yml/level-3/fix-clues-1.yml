@@ -5,7 +5,7 @@ stacks:
   - b: 2
   - p: 4
 players:
-  - text: Before the Clue Alice thinks it's Purple 5
+  - text: Before the Clue Alice thinks it is a Purple 5
   - name: Alice
     cards:
       - type: x
