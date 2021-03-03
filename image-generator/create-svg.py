@@ -247,11 +247,10 @@ def draw_clued_card(yaml_file, svg_file, card_type, card, x_offset, y_offset):
     )
     svg_file.add(clue_border)
 
-    # Find the possible ranks
-    ranks = set(card_type) & {"1", "2", "3", "4", "5"}
-
-    # Find the possible suits
-    suits = set(card_type) & set(all_suits)
+    # Find the possible ranks and suits
+    card_type = set(card_type)
+    ranks = card_type & {"1", "2", "3", "4", "5"}
+    suits = card_type & set(all_suits)
 
     if len(ranks) != 1 and len(suits) != 1:
         # This is a card with an unknown rank and an unknown color
@@ -294,7 +293,7 @@ def draw_clued_card(yaml_file, svg_file, card_type, card, x_offset, y_offset):
         # An exact card identity was specified
         # (e.g. "r1")
         card_image = svg_file.image(
-            "{}/cards/{}.svg".format(PIECES_PATH, card_type),
+            "{}/cards/{}{}.svg".format(PIECES_PATH, next(iter(suits)), next(iter(ranks))),
             x=x_offset,
             y=y_offset,
             width=CARD_WIDTH,
