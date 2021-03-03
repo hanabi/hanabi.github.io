@@ -5,7 +5,24 @@ stacks:
   - b: 1
   - p: 1
 players:
-  - cards:
+  - text: Before the Clue Alice thinks it is a Green 1
+  - name: Alice
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: 1
+      - type: x
+  - name: Bob
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - text: After the Clue
+  - name: Alice
+    cards:
       - type: b
         clue: b
       - type: x
@@ -13,7 +30,8 @@ players:
       - type: b1
         clue: b
       - type: x
-  - cluegiver: yes
+  - name: Bob
+    cluegiver: yes
     cards:
       - type: x
       - type: x

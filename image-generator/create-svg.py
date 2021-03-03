@@ -452,7 +452,7 @@ def draw_textbox(svg_file, opts, offset):
         r = svg_file.add(
             svg_file.svg((x_offset + 3, y_offset + offset), (width, 20 * len(text)))
         )
-    text_color = "black" if color in ("gold", "rainbow") else "white"
+    text_color = "black" if color in ("gold", "yellow", "rainbow") else "white"
 
     if color == "rainbow":
         rect = svg_file.rect(

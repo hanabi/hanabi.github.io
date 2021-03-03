@@ -1,0 +1,31 @@
+stacks:
+  - r: 0
+  - y: 0
+  - g: 0
+  - b: 0
+  - p: 0
+players:
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: r
+        middle_note: (1)
+      - type: r
+      - type: x
+        above: Blue 1
+      - type: x
+  - cards:
+      - type: b
+        clue: b
+        middle_note: (2)
+      - type: x
+      - type: x
+      - type: x

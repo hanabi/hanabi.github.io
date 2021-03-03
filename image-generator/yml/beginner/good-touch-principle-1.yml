@@ -1,0 +1,28 @@
+stacks:
+  - r: 1
+  - y: 1
+  - g: 0
+  - b: 1
+  - p: 0
+players:
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+        above:
+          text: Yellow 2
+          color: gold
+      - type: x
+        above:
+          text: Yellow 4
+          color: gold
+      - type: x
+        above:
+          text: Yellow 4
+          color: gold
+      - type: x
+      - type: x
