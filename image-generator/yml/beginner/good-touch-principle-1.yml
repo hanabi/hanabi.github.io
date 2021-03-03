@@ -15,14 +15,14 @@ players:
       - type: x
         above:
           text: Yellow 2
-          color: black
+          color: gold
       - type: x
         above:
           text: Yellow 4
-          color: black
+          color: gold
       - type: x
         above:
           text: Yellow 4
-          color: black
+          color: gold
       - type: x
       - type: x

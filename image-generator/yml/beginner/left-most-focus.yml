@@ -16,6 +16,9 @@ players:
       - type: x
       - type: b
         clue: b
+        below:
+          text: Focus
+          color: gold
       - type: x
       - type: b
         clue: b
