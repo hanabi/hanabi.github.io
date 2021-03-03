@@ -164,32 +164,51 @@ def draw_player_name(svg_file, player_num, player):
     else:
         name = PLAYER_NAMES[player_num]
 
+    r = svg_file.add(
+        svg_file.svg(
+            (x_offset_where_player_begins, y_offset),
+            (HORIZONTAL_SPACING_BETWEEN_PLAYER_NAME_AND_HAND, CARD_HEIGHT),
+        )
+    )
     player_name_text = svg_file.text(
         name,
-        x=[x_offset_where_player_begins],
-        y=[y_offset],
-        # 7 is an arbitrary value to account for the height of the text
-        dy=[(CARD_HEIGHT / 2) + 7],
+        x=["0%"],
+        y=["50%"],
         fill=TEXT_COLOR,
         style="font-size: 1.4em;",
+        **{"dominant-baseline": "central"},
     )
-    svg_file.add(player_name_text)
+    r.add(player_name_text)
 
     if "cluegiver" in player:
-        # TODO
-        # Before, "(clue giver)" was appended after the player name,
-        # which was ugly
-        # Instead, let's either do it like Russ does or try drawing a teal box
-        # around the player name
-        pass
+        # based on https://stackoverflow.com/a/42783381/14347173
+        clue_giver_bg = svg_file.text(
+            "clue giver",
+            x=["0%"],
+            y=["50%"],
+            dy=[30],
+            fill="black",
+            filter="url(#cluegiver)",
+            **{"dominant-baseline": "central"},
+        )
+        r.add(clue_giver_bg)
+        clue_giver_text = svg_file.text(
+            "clue giver",
+            x=["0%"],
+            y=["50%"],
+            dy=[30],
+            fill="black",
+            **{"dominant-baseline": "central"},
+        )
+        r.add(clue_giver_text)
 
 
 def draw_player_card(yaml_file, svg_file, card):
     global x_offset
 
     card_type = str(card["type"])
-    if card_type == "x":
-        draw_unclued_card(yaml_file, svg_file, x_offset, y_offset)
+    if card_type.startswith("x"):
+        draw_unclued_card(yaml_file, svg_file, x_offset, y_offset, card_type[1:])
     else:
         draw_clued_card(yaml_file, svg_file, card_type, card, x_offset, y_offset)
 
@@ -198,7 +217,7 @@ def draw_player_card(yaml_file, svg_file, card):
     x_offset += CARD_WIDTH + HORIZONTAL_SPACING_BETWEEN_CARDS
 
 
-def draw_unclued_card(yaml_file, svg_file, x_offset, y_offset):
+def draw_unclued_card(yaml_file, svg_file, x_offset, y_offset, pips):
     s = svg_file.add(svg_file.svg((x_offset, y_offset), (CARD_WIDTH, CARD_HEIGHT)))
     card_image = svg_file.rect(
         (0, 0),
@@ -209,8 +228,8 @@ def draw_unclued_card(yaml_file, svg_file, x_offset, y_offset):
     )
     s.add(card_image)
 
-    # Draw an unknown card with no pips visible
-    draw_unknown_card(yaml_file, svg_file, s, [])
+    if pips:
+        draw_card_pips(yaml_file, svg_file, s, pips)
 
 
 def draw_clued_card(yaml_file, svg_file, card_type, card, x_offset, y_offset):
@@ -228,17 +247,10 @@ def draw_clued_card(yaml_file, svg_file, card_type, card, x_offset, y_offset):
     )
     svg_file.add(clue_border)
 
-    # Find the possible ranks
-    ranks = set(card_type) & {"1", "2", "3", "4", "5"}
-    ranks = set(int(i) for i in ranks)
-
-    # Find the possible suits
-    suits = set(card_type) & set(all_suits)
-
-    # Most of the time, we don't want any pips to show
-    pips_to_show = set()
-    if "show_pips" in card:
-        pips_to_show = ranks | suits
+    # Find the possible ranks and suits
+    card_type = set(card_type)
+    ranks = card_type & {"1", "2", "3", "4", "5"}
+    suits = card_type & set(all_suits)
 
     if len(ranks) != 1 and len(suits) != 1:
         # This is a card with an unknown rank and an unknown color
@@ -252,7 +264,7 @@ def draw_clued_card(yaml_file, svg_file, card_type, card, x_offset, y_offset):
         )
         s.add(rect)
         # Always draw pips on clued cards with unknown rank + unknown color
-        draw_unknown_card(yaml_file, svg_file, s, ranks | suits)
+        draw_card_pips(yaml_file, svg_file, s, ranks | suits)
     elif len(ranks) == 1 and len(suits) != 1:
         # This is a card with a known rank and an unknown color
         card_image = svg_file.image(
@@ -264,7 +276,7 @@ def draw_clued_card(yaml_file, svg_file, card_type, card, x_offset, y_offset):
         )
         s = svg_file.add(svg_file.svg((x_offset, y_offset), (CARD_WIDTH, CARD_HEIGHT)))
         s.add(card_image)
-        draw_unknown_card(yaml_file, svg_file, s, suits)
+        draw_card_pips(yaml_file, svg_file, s, suits)
     elif len(ranks) != 1 and len(suits) == 1:
         # This is a card with a known color and an unknown rank
         card_image = svg_file.image(
@@ -276,12 +288,12 @@ def draw_clued_card(yaml_file, svg_file, card_type, card, x_offset, y_offset):
         )
         s = svg_file.add(svg_file.svg((x_offset, y_offset), (CARD_WIDTH, CARD_HEIGHT)))
         s.add(card_image)
-        draw_unknown_card(yaml_file, svg_file, s, ranks)
+        draw_card_pips(yaml_file, svg_file, s, ranks)
     else:
         # An exact card identity was specified
         # (e.g. "r1")
         card_image = svg_file.image(
-            "{}/cards/{}.svg".format(PIECES_PATH, card_type),
+            "{}/cards/{}{}.svg".format(PIECES_PATH, next(iter(suits)), next(iter(ranks))),
             x=x_offset,
             y=y_offset,
             width=CARD_WIDTH,
@@ -290,24 +302,19 @@ def draw_clued_card(yaml_file, svg_file, card_type, card, x_offset, y_offset):
         svg_file.add(card_image)
 
 
-def draw_unknown_card(yaml_file, svg_file, svg, positives):
-    # Count the number of rank possibilities
-    rank_possibilities = []
-    for n in range(1, 6):
-        if n in positives:
-            rank_possibilities.append(n)
-
+def draw_card_pips(yaml_file, svg_file, svg, pips):
     rank_pip_width = CARD_WIDTH / 5
-    if len(rank_possibilities) > 1:
-        for rank_possibility in rank_possibilities:
+    for rank in range(1, 6):
+        if str(rank) in pips:
             rank_pip_rectangle = svg.add(
                 svg_file.svg(
-                    ((rank_possibility - 1) * rank_pip_width, 80), (rank_pip_width, 20)
+                    ((rank - 1) * rank_pip_width, CARD_HEIGHT * 4 / 5),
+                    (rank_pip_width, CARD_HEIGHT / 5),
                 )
             )
             rank_pip_text_element = rank_pip_rectangle.add(
                 svg_file.text(
-                    str(rank_possibility),
+                    str(rank),
                     x=["50%"],
                     y=["50%"],
                     fill="white",
@@ -317,22 +324,17 @@ def draw_unknown_card(yaml_file, svg_file, svg, positives):
             rank_pip_text_element["text-anchor"] = "middle"
             rank_pip_text_element["dominant-baseline"] = "central"
 
-    suit_pips_combined_svg = svg.add(svg_file.svg((0, 0), (CARD_WIDTH, CARD_HEIGHT)))
-    suit_pips_combined_svg["viewBox"] = "-35 -50 70 100"
     angle = 2 * math.pi / len(all_suits)
     for i, color in enumerate(all_suits):
-        if color in positives:
-            suit_pips_combined_svg.add(
+        if color in pips:
+            svg.add(
                 svg_file.image(
                     "{}/pips/{}.svg".format(PIECES_PATH, color),
-                    x=-6,
-                    y=-6,
+                    x=CARD_WIDTH / 2 - 6 - 20 * math.sin(angle * i),
+                    y=CARD_HEIGHT / 2 - 6 - 20 * math.cos(angle * i),
                     width=12,
                     height=12,
                     style="filter: url(#shadow)",
-                    transform="translate({}, {})".format(
-                        -20 * math.sin(angle * i), -20 * math.cos(angle * i)
-                    ),
                 )
             )
 
@@ -367,7 +369,7 @@ def draw_extra_card_attributes(svg_file, card):
                 r=15,
                 fill=color,
                 stroke="white" if color == "black" else "black",
-                **{"stroke-width": 2}
+                **{"stroke-width": 2},
             )
         )
 
@@ -530,7 +532,7 @@ def draw_discard_pile(yaml_file, svg_file):
             ry=CARD_ROUNDED_CORNER_SIZE * 2,
             stroke="darkgreen",
             fill="none",
-            **{"stroke-width": 2}
+            **{"stroke-width": 2},
         )
     )
 
@@ -547,21 +549,24 @@ def print_svg(svg_file):
     # https://github.com/facebook/docusaurus/issues/3689
     output = re.sub(r'xmlns:ev="(?:.*?)"', "", output)
 
-    # Add shadow filter manually, because svgwrite's API for it is awkward
+    # Add filters manually, because svgwrite's API for it is awkward
     output = re.sub(
         r"<defs/>",
         """<defs>
+        <filter x="0" y="0" width="1" height="1" id="cluegiver">
+            <feFlood flood-color="cyan"/>
+        </filter>
         <filter id="shadow">
-        <feOffset in="SourceAlpha" dx="2" dy="2" result="offsetblur"/>
-        <feComponentTransfer result="shadow">
-            <feFuncA type="linear" slope="0.5"/>
-        </feComponentTransfer>
-        <feMorphology in="SourceAlpha" operator="dilate" radius="1" result="border"/>
-        <feMerge>
-            <feMergeNode in="shadow"/>
-            <feMergeNode in="border"/>
-            <feMergeNode in="SourceGraphic"/>
-        </feMerge>
+            <feOffset in="SourceAlpha" dx="2" dy="2" result="offsetblur"/>
+            <feComponentTransfer result="shadow">
+                <feFuncA type="linear" slope="0.5"/>
+            </feComponentTransfer>
+            <feMorphology in="SourceAlpha" operator="dilate" radius="1" result="border"/>
+            <feMerge>
+                <feMergeNode in="shadow"/>
+                <feMergeNode in="border"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
         </filter>"""
         + (
             """
