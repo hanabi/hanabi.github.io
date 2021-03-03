@@ -5,6 +5,9 @@ title: Level 3 - Basic Strategy
 
 import SarcasticDiscard from '@site/static/img/generated/level-3/sarcastic-discard.svg';
 
+import FixClue1 from '@site/static/img/generated/level-3/fix-clues-1.svg';
+import FixClue2 from '@site/static/img/generated/level-3/fix-clues-2.svg';
+
 - Level 3 strategies should only be learned if you have played with the group for a few days (20+ games of experience).
 
 <br />
@@ -18,7 +21,7 @@ import SarcasticDiscard from '@site/static/img/generated/level-3/sarcastic-disca
 - Nearly every clue that is either a *Save Clue* or *Play Clue*. One small exception to this is a *Fix Clue*, which is an attempt to "fix" an impending misplay.
 - *Fix Clues* are often needed when a duplicate card is touched. Cards are not normally duplicated (which follows from *Good Touch Principle*), but sometimes someone makes a mistake, or a sequence of particular cards makes duplicating necessary. Duplicate cards will lead to misplays, so it is the team's responsibility to fix the problem and intervene before this happens.
 
-![Fix Clue](/img/level-2/fix-clue.png)
+<FixClue1 className="example" />
 
 - In the above screenshot:
   - Before the clue was given, Alice had an unknown purple card in her hand.
@@ -26,9 +29,10 @@ import SarcasticDiscard from '@site/static/img/generated/level-3/sarcastic-disca
   - Bob clues number 3 to Alice, which "fills in" the purple card and reveals that it is purple 3.
   - Since Alice was just about to play this card, Alice knows that this was a *Fix Clue* and that she can now safely discard the purple 3.
 
-![Fix Clue](/img/level-2/fix-clue-2.png)
-
 - **A clue cannot be a *Play Clue* and a *Fix Clue* at the same time.** If you receive a *Fix Clue* and it touches other ancillary cards, none of them are necessarily playable; the primary point of the clue is to fix the impending misplay.
+
+<FixClue2 className="example" />
+
 - In the above screenshot:
   - Before the clue was given, Alice has an unknown 1 in her hand.
   - From *Good Touch Principle*, Alice concluded that her 1 must be green 1, and had planned to play it as soon as possible.

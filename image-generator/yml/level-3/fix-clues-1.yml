@@ -1,0 +1,21 @@
+stacks:
+  - r: 3
+  - y: 2
+  - g: 2
+  - b: 2
+  - p: 4
+players:
+  - cluegiver: yes
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: p3
+        clue: 3
+      - type: x
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
