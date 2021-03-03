@@ -191,9 +191,7 @@ def draw_player_card(yaml_file, svg_file, card):
     if card_type == "x":
         draw_unclued_card(yaml_file, svg_file, x_offset, y_offset)
     else:
-        draw_clued_card(
-            yaml_file, svg_file, card_type, card, x_offset, y_offset
-        )
+        draw_clued_card(yaml_file, svg_file, card_type, card, x_offset, y_offset)
 
     draw_extra_card_attributes(svg_file, card)
 
@@ -215,9 +213,7 @@ def draw_unclued_card(yaml_file, svg_file, x_offset, y_offset):
     draw_unknown_card(yaml_file, svg_file, s, [])
 
 
-def draw_clued_card(
-    yaml_file, svg_file, card_type, card, x_offset, y_offset
-):
+def draw_clued_card(yaml_file, svg_file, card_type, card, x_offset, y_offset):
     # Draw the clue border
     clue_border_overlap = 4
     clue_border = svg_file.rect(
@@ -491,32 +487,55 @@ def draw_discard_pile(yaml_file, svg_file):
     if "discarded" not in yaml_file:
         return
 
-    # The discard pile goes beneath the play stacks, but we want to skip a row
-    y_of_discard_pile_row = (CARD_HEIGHT + VERTICAL_SPACING_BETWEEN_PLAYERS) * 2
+    TRASH_WIDTH = 200
+    TRASH_HEIGHT = 200
+    x_of_discard_pile = (
+        len(all_suits) * (CARD_WIDTH + HORIZONTAL_SPACING_BETWEEN_CARDS)
+        - HORIZONTAL_SPACING_BETWEEN_CARDS
+        - TRASH_WIDTH
+    ) / 2
+    y_of_discard_pile = CARD_HEIGHT + VERTICAL_SPACING_BETWEEN_PLAYERS
 
     trash_image = svg_file.image(
         "{}/trashcan.png".format(PIECES_PATH),
-        x=0,
-        y=y_of_discard_pile_row,
-        width=CARD_WIDTH,
-        height=CARD_HEIGHT,
+        x=x_of_discard_pile,
+        y=y_of_discard_pile,
+        width=TRASH_WIDTH,
+        height=TRASH_HEIGHT,
+        opacity=0.2,
     )
     svg_file.add(trash_image)
 
-    x = 0
+    width_total = CARD_WIDTH + (len(yaml_file["discarded"]) - 1) * CARD_WIDTH / 2
+    height_total = CARD_HEIGHT + (len(yaml_file["discarded"]) - 1) * CARD_HEIGHT / 3
+    x = x_of_discard_pile + TRASH_WIDTH / 2 - width_total / 2
+    y = y_of_discard_pile + TRASH_HEIGHT / 2 - height_total / 2
     for card in yaml_file["discarded"]:
-        x += CARD_WIDTH + HORIZONTAL_SPACING_BETWEEN_CARDS
         card_image = svg_file.image(
             "{}/cards/{}.svg".format(PIECES_PATH, card),
             x=x,
-            y=y_of_discard_pile_row,
+            y=y,
             width=CARD_WIDTH,
             height=CARD_HEIGHT,
         )
         svg_file.add(card_image)
+        x += CARD_WIDTH / 2
+        y += CARD_HEIGHT / 3
 
-    if y_offset < CARD_HEIGHT * 1.5 + 200:
-        y_offset = CARD_HEIGHT * 1.5 + 200
+    svg_file.add(
+        svg_file.rect(
+            (x_of_discard_pile, y_of_discard_pile),
+            (TRASH_WIDTH, TRASH_HEIGHT),
+            rx=CARD_ROUNDED_CORNER_SIZE * 2,
+            ry=CARD_ROUNDED_CORNER_SIZE * 2,
+            stroke="darkgreen",
+            fill="none",
+            **{"stroke-width": 2}
+        )
+    )
+
+    if y_offset < y_of_discard_pile + TRASH_HEIGHT + 2:
+        y_offset = y_of_discard_pile + TRASH_HEIGHT + 2
 
 
 def print_svg(svg_file):
