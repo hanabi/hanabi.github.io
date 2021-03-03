@@ -7,13 +7,23 @@ stacks:
 players:
   - cards:
       - type: b1
+        border: false
       - type: b2
+        border: false
       - type: b3
+        border: false
       - type: b3
+        border: false
       - type: b5
+        border: false
   - cards:
       - type: r1
+        border: false
       - type: r2
+        border: false
       - type: r3
+        border: false
       - type: r4
+        border: false
       - type: r5
+        border: false

@@ -6,20 +6,25 @@ stacks:
   - p: 0
 players:
   - cards:
-      - type: x
-      - type: 5
-      - type: x
-      - type: x
-        above:
-          text: Blue 4
-          color: blue
-      - type: 5
+      - type: g3
+        border: false
+      - type: r2
+      - type: r1
+        border: false
+      - type: b4
+        border: false
+        below:
+          text: Chop
+          color: darkred
+      - type: 5ygp
   - cards:
-      - type: x
-      - type: x
-        above:
-          text: Blue 4
-          color: blue
-      - type: g
-      - type: g
-      - type: y
+      - type: y1
+        border: false
+      - type: b4
+        border: false
+        below:
+          text: Chop
+          color: darkred
+      - type: g235
+      - type: g4
+      - type: y25

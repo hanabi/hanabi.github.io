@@ -207,10 +207,27 @@ def draw_player_card(yaml_file, svg_file, card):
     global x_offset
 
     card_type = str(card["type"])
-    if card_type.startswith("x"):
-        draw_unclued_card(yaml_file, svg_file, x_offset, y_offset, card_type[1:])
-    else:
+    clued = not card_type.startswith("x")
+
+    # Draw the clue border
+    if card.get("border", clued):
+        clue_border_overlap = 6
+        clue_border = svg_file.rect(
+            (
+                x_offset - (clue_border_overlap / 2),
+                y_offset - (clue_border_overlap / 2),
+            ),
+            (CARD_WIDTH + clue_border_overlap, CARD_HEIGHT + clue_border_overlap),
+            fill=CLUE_BORDER_COLOR,
+            rx=CARD_ROUNDED_CORNER_SIZE,
+            ry=CARD_ROUNDED_CORNER_SIZE,
+        )
+        svg_file.add(clue_border)
+
+    if clued:
         draw_clued_card(yaml_file, svg_file, card_type, card, x_offset, y_offset)
+    else:
+        draw_unclued_card(yaml_file, svg_file, x_offset, y_offset, card_type[1:])
 
     draw_extra_card_attributes(svg_file, card)
 
@@ -233,20 +250,6 @@ def draw_unclued_card(yaml_file, svg_file, x_offset, y_offset, pips):
 
 
 def draw_clued_card(yaml_file, svg_file, card_type, card, x_offset, y_offset):
-    # Draw the clue border
-    clue_border_overlap = 4
-    clue_border = svg_file.rect(
-        (
-            x_offset - (clue_border_overlap / 2),
-            y_offset - (clue_border_overlap / 2),
-        ),
-        (CARD_WIDTH + clue_border_overlap, CARD_HEIGHT + clue_border_overlap),
-        fill=CLUE_BORDER_COLOR,
-        rx=CARD_ROUNDED_CORNER_SIZE,
-        ry=CARD_ROUNDED_CORNER_SIZE,
-    )
-    svg_file.add(clue_border)
-
     # Find the possible ranks and suits
     card_type = set(card_type)
     ranks = card_type & {"1", "2", "3", "4", "5"}
@@ -401,8 +404,8 @@ def draw_extra_card_attributes(svg_file, card):
 
     if "middle_note" in card:
         color = {
-            "(R)": "red",
-            "(B)": "cyan",
+            "(R)": "salmon",
+            "(B)": "deepskyblue",
             "(G)": "lightgreen",
             "(Y)": "yellow",
             "(P)": "violet",

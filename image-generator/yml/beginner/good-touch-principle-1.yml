@@ -12,17 +12,11 @@ players:
       - type: x
       - type: x
   - cards:
-      - type: x
-        above:
-          text: Yellow 2
-          color: gold
-      - type: x
-        above:
-          text: Yellow 4
-          color: gold
-      - type: x
-        above:
-          text: Yellow 4
-          color: gold
+      - type: y2
+        border: false
+      - type: y4
+        border: false
+      - type: 4y
+        border: false
       - type: x
       - type: x

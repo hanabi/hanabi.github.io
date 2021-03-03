@@ -21,3 +21,7 @@ players:
       - type: x
       - type: p
         clue: p
+        below:
+          text: Focus
+          color: gold
+        middle_note: (1)
