@@ -1,0 +1,42 @@
+stacks:
+  - r: 2
+  - y: 2
+  - g: 2
+  - b: 2
+  - p: 2
+players:
+  - cluegiver: true
+    cards:
+      - type: x
+      - type: x
+      - type: r345
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: r
+        clue: r
+        middle_note: (4)
+      - type: x
+  - cards:
+      - type: x
+        above: Red 3
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - text: If Alice has Red 3, Cathy blindly discards Red 3
+  - text: If Alice has Red 4 or 5, Cathy blindly plays Red 3
+  - text: Next turn...
+  - name: Bob
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: r
+        middle_note: (4)
+      - type: x
+  - text: If Alice has Red 4, Bob discards Red 4
+  - text: If Alice has Red 3 or 5, Bob plays Red 4

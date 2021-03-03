@@ -2,6 +2,11 @@
 id: level-9
 title: Level 9 - Special Discards
 ---
+import SarcasticFinesse from '@site/static/img/generated/level-9/sarcastic-finesse.svg';
+import GentlemanDiscard from '@site/static/img/generated/level-9/gentleman-discard.svg';
+import LayeredGentlemanDiscard from '@site/static/img/generated/level-9/layered-gentleman-discard.svg';
+import CertainFinesseDiscard from '@site/static/img/generated/level-9/certain-finesse-discard.svg';
+import CompositionFinesse from '@site/static/img/generated/level-9/composition-finesse.svg';
 
 - Level 9 strategies should only be learned if you have 140+ games of experience with the group.
 
@@ -29,6 +34,9 @@ title: Level 9 - Special Discards
   - Bob clues red to Cathy, filling in the already-touched 1 as red 1, as well as touching a new card, which must be red 2.
   - Cathy discards the known red 1 as a *Gentleman's Discard*.
   - Alice blind-plays her *Finesse Position* card as red 1.
+
+<GentlemanDiscard className="example" />
+
 - Often times, doing a *Gentleman's Discard* will delay things and cost the team *Tempo*. Thus, a *Gentleman's Discard* that slows things down is only good if there is some other side benefit to offset the lost *Tempo* (such as delaying the discard of a valuable card, for example).
 - Just like how *Prompts* take precedence over *Finesses*, *Sarcastic Discards* take precedence over *Gentleman's Discards*.
 - For the purposes of *Priority*, *Gentleman's Discards* do not count as a blind-play. (*Priority* is a concept that is introduced in a later level.) This is because the *Gentleman's Discard* is an information-symmetric move and nothing needs to be "proven" to other members of the team.
@@ -46,6 +54,8 @@ title: Level 9 - Special Discards
   - Cathy discards the known red 1 as a *Gentleman's Discard*.
   - Alice blind-plays her *Finesse Position* card as red 1, but it is green 1.
   - Alice knows that she is promised the red 1, so she will blind-play her slot 2 on her next turn.
+
+<LayeredGentlemanDiscard className="example" />
 
 <br />
 
@@ -83,6 +93,9 @@ title: Level 9 - Special Discards
   - Bob blind-plays red 1 from his *Finesse Position*.
   - Normally, Cathy would think that she has the next red card, which is red 2, and play it.
   - However, what if Alice actually has the red 2? In this situation, Cathy is expected to perform a *Sarcastic Discard*.
+
+<SarcasticFinesse className="example" />
+
 - Doing a *Finesse* that potentially duplicates a card in this way is called a *Sarcastic Finesse*. Normally, potentially duplicating a card is bad - it violates *Good Touch Principle* and could lead to a clue being wasted. However, potentially duplicating a card with the *Sarcastic Finesse* is not bad because:
   - In the best case, you get a "true" *Finesse* (a 2-for-1 or better).
   - In the worst case, you get a 1-for-1 and full knowledge on a clued card in your own hand that was previously a mystery.
@@ -99,6 +112,9 @@ title: Level 9 - Special Discards
   - Alice performs a *Reverse Finesse* by giving a red color *Play Clue* to a red 4 in Bob's hand.
   - Bob discards.
   - Cathy knows that she is promised the red 3 in her *Finesse Position*.
+
+<CertainFinesseDiscard className="example" />
+
 - This is an example of a *Certain Finesse* - it is similar to the *Sarcastic Finesse* above, but the "blind" card was potentially duplicated instead of the clued card.
 - In this situation, if Alice really has the red 3, Cathy is allowed to blind-discard their *Finesse Position* card. This is called a *Certain Discard*, because Cathy can be certain that it is exactly red 3.
 - A separate way to explain this convention is that everyone agrees that performing a *Layered Finesse* on a card that could potentially be clued in your own hand is illegal. So, everyone can be certain that they can safely blind discard a card to pass it back to someone who potentially duplicated.
@@ -118,6 +134,8 @@ title: Level 9 - Special Discards
   - Cathy knows that she has the red 3 on her *Finesse Position* (as a *Certain Finesse*). She can *Certain Discard* it if Alice has the red 3. But Alice does not have the red 3, so Cathy blind-plays the red 3.
   - Alice discards.
   - Bob knows that his red card is a red 4 (as a *Sarcastic Finesse*). He can *Sarcastic Discard* it if Alice has the red 4. But Alice does not have the red 4, so Bob plays the red 4.
+
+<CompositionFinesse className="example" />
 
 <br />
 

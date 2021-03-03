@@ -1,17 +1,12 @@
 stacks:
-  - r: 0
+  - r: 3
   - y: 0
   - g: 0
   - b: 0
   - p: 0
+discarded:
+  - b4
 players:
-  - cluegiver: true
-    cards:
-      - type: x
-      - type: x
-      - type: x
-      - type: x
-      - type: x
   - cards:
       - type: x
       - type: x
@@ -20,15 +15,21 @@ players:
       - type: x
   - cards:
       - type: x
-      - type: r
-        middle_note: (2)
       - type: x
+      - type: 5
+        clue: 5
       - type: x
-      - type: x
+      - type: r4
   - cards:
       - type: x
-      - type: r
-        middle_note: (1)
+      - type: 3
+        below:
+          text: Playable
+          color: darkgreen
       - type: x
       - type: x
-      - type: x
+      - type: 4
+        below:
+          text: Playable
+          color: darkgreen
+        clue: 4

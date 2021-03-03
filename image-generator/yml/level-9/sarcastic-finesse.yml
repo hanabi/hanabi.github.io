@@ -9,11 +9,13 @@ players:
     cards:
       - type: x
       - type: x
-      - type: x
+      - type: 2
+        middle_note: (R)
       - type: x
       - type: x
   - cards:
       - type: x
+        above: Red 1
       - type: x
       - type: x
       - type: x
@@ -22,13 +24,7 @@ players:
       - type: x
       - type: r
         middle_note: (2)
-      - type: x
-      - type: x
-      - type: x
-  - cards:
-      - type: x
-      - type: r
-        middle_note: (1)
+        below: Discards
       - type: x
       - type: x
       - type: x

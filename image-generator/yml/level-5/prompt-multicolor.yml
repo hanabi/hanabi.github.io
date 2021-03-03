@@ -6,7 +6,7 @@ stacks:
   - p: 0
   - m: 0
 players:
-  - cluegiver: yes
+  - cluegiver: true
     cards:
       - type: x
       - type: x
@@ -14,9 +14,8 @@ players:
       - type: x
       - type: x
   - cards:
-      - type: rm
+      - type: rm12345
       - type: rm3
-        show_pips: true
         below: Prompt
       - type: x
       - type: x

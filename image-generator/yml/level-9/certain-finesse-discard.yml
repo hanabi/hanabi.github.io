@@ -1,5 +1,5 @@
 stacks:
-  - r: 0
+  - r: 2
   - y: 0
   - g: 0
   - b: 0
@@ -9,26 +9,23 @@ players:
     cards:
       - type: x
       - type: x
-      - type: x
-      - type: x
-      - type: x
-  - cards:
-      - type: x
-      - type: x
-      - type: x
+      - type: r35
       - type: x
       - type: x
   - cards:
+      - type: x
+      - type: x
       - type: x
       - type: r
-        middle_note: (2)
-      - type: x
-      - type: x
+        clue: r
+        middle_note: (4)
       - type: x
   - cards:
       - type: x
-      - type: r
-        middle_note: (1)
+        above: Red 3
       - type: x
       - type: x
       - type: x
+      - type: x
+  - text: If Alice has Red 3, Cathy blindly discards Red 3
+  - text: If Alice has Red 5, Cathy blindly plays Red 3

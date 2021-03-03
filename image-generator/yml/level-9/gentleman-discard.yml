@@ -5,6 +5,13 @@ stacks:
   - b: 0
   - p: 0
 players:
+  - cards:
+      - type: x
+        above: Red 1
+      - type: x
+      - type: x
+      - type: x
+      - type: x
   - cluegiver: true
     cards:
       - type: x
@@ -15,20 +22,10 @@ players:
   - cards:
       - type: x
       - type: x
-      - type: x
-      - type: x
-      - type: x
-  - cards:
-      - type: x
+      - type: r1
+        below: Discards
+        clue: r
       - type: r
         middle_note: (2)
-      - type: x
-      - type: x
-      - type: x
-  - cards:
-      - type: x
-      - type: r
-        middle_note: (1)
-      - type: x
-      - type: x
+        clue: r
       - type: x

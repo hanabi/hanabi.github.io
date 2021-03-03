@@ -6,7 +6,7 @@ stacks:
   - p: 0
   - m: 0
 players:
-  - cluegiver: yes
+  - cluegiver: true
     cards:
       - type: x
       - type: x
