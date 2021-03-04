@@ -181,9 +181,10 @@ def draw_player_name(svg_file, player_num, player):
     r.add(player_name_text)
 
     if "clue_giver" in player:
-        # based on https://stackoverflow.com/a/42783381/14347173
-        clue_giver_bg = svg_file.text(
-            "clue giver",
+        # Based on: https://stackoverflow.com/a/42783381/14347173
+        clue_giver_description = "Clue Giver"
+        clue_giver_background = svg_file.text(
+            clue_giver_description,
             x=["0%"],
             y=["50%"],
             dy=[30],
@@ -191,9 +192,9 @@ def draw_player_name(svg_file, player_num, player):
             filter="url(#clue_giver)",
             **{"dominant-baseline": "central"},
         )
-        r.add(clue_giver_bg)
+        r.add(clue_giver_background)
         clue_giver_text = svg_file.text(
-            "clue giver",
+            clue_giver_description,
             x=["0%"],
             y=["50%"],
             dy=[30],

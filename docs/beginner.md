@@ -43,7 +43,7 @@ import Finesse2 from '@site/image-generator/yml/beginner/finesse-2.yml';
 
 ## Card Layout
 
-In this guide, there will be some images to show off the concepts introduced. Here's an example card layout:
+In this guide, there will be some images to show off the concepts introduced.
 
 <CardLayout1/>
 
@@ -51,9 +51,12 @@ In this guide, there will be some images to show off the concepts introduced. He
 - The **player hands** are on the right.
 - Alice is always player 1. (She will always go first.)
 - Bob is always player 2. (He will always go second.)
-- Cards are drawn and added to the left side to each hand. Thus, Alice's newest card is the blue 1 and Bob's newest card is the red 1.
-- Conversely, the oldest card is the right-most card. Alice's oldest card is the blue 5 and Bob's oldest card is the red 5.
-- A card's *slot* refers to its position in the hand. In the above image, the blue 1 is on slot 1, the blue 2 is on slot 2, etc.
+- Cards are drawn and added to the left side to each hand.
+  - Thus, Alice's newest card is the blue 1 and Bob's newest card is the red 1.
+- Conversely, the oldest card is the right-most card.
+  - Thus, Alice's oldest card is the blue 5 and Bob's oldest card is the red 5.
+- A card's *slot* refers to its position in the hand, from left to right.
+  - Thus, the blue 1 is on slot 1, the blue 2 is on slot 2, etc.
 
 <CardLayout2/>
 
