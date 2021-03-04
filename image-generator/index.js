@@ -1,9 +1,9 @@
-const path = require('path')
-const {getFileLoaderUtils} = require('@docusaurus/core/lib/webpack/utils');
+const path = require("path")
+const { getFileLoaderUtils } = require("@docusaurus/core/lib/webpack/utils");
 
 module.exports = function (context, options) {
   return {
-    name: 'hanabi-docusaurus-plugin',
+    name: "hanabi-docusaurus-plugin",
     configureWebpack(config, isServer, utils) {
       return {
         module: {
