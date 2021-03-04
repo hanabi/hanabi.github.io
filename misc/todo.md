@@ -15,3 +15,4 @@
   - The Double Tempo Clue
   - The Tempo Clue Chop Move (2nd example)
 - level 7 through level 23
+- cleanup remains of old build system for images
