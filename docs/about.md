@@ -26,3 +26,9 @@ Have you found your way here from the Internet? That's fine too. Feel free to ch
 - You can use the left and right arrow keys to quickly navigate between pages.
 - You can use `Ctrl + K` to open the search bar.
 - You can use `l` to navigate to a specific level.
+
+<br />
+
+### Contributing
+
+If you want to contribute to this website, [this page](image-format.md) explains how to create example images.

@@ -40,5 +40,3 @@ Most special moves have an accompanying example that will look something like th
 (This is a historical convention created by [Keldon Jones](http://keldon.net/) and follows loosely from [cryptography](https://en.wikipedia.org/wiki/Alice_and_Bob).)
 
 Note that in this format, players are **not** holding their hands like they would be if they were playing in real life. Every player's hand is presented in an identical way. The left-most card (slot 1) is the newest card in the hand. The right-most card (slot 4 / chop) is the oldest card in the hand.
-
-If you want to contribute to this website, [this page](image-format.md) explains how to create example images such as above.
