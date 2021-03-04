@@ -9,7 +9,7 @@ module.exports = function (context, options) {
         module: {
           rules: [
             {
-              test: /image-generator\/yml\/.*\.yml$/,
+              test: /image-generator[\/\\]yml\/.*\.yml$/,
               use: getFileLoaderUtils().rules.svg().use.concat([{
                 loader: "shell-loader",
                 options: {
