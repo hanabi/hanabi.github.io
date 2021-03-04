@@ -2,11 +2,11 @@
 id: level-9
 title: Level 9 - Special Discards
 ---
-import SarcasticFinesse from '@site/static/img/generated/level-9/sarcastic-finesse.svg';
-import GentlemanDiscard from '@site/static/img/generated/level-9/gentleman-discard.svg';
-import LayeredGentlemanDiscard from '@site/static/img/generated/level-9/layered-gentleman-discard.svg';
-import CertainFinesseDiscard from '@site/static/img/generated/level-9/certain-finesse-discard.svg';
-import CompositionFinesse from '@site/static/img/generated/level-9/composition-finesse.svg';
+import SarcasticFinesse from '@site/image-generator/yml/level-9/sarcastic-finesse.yml';
+import GentlemanDiscard from '@site/image-generator/yml/level-9/gentleman-discard.yml';
+import LayeredGentlemanDiscard from '@site/image-generator/yml/level-9/layered-gentleman-discard.yml';
+import CertainFinesseDiscard from '@site/image-generator/yml/level-9/certain-finesse-discard.yml';
+import CompositionFinesse from '@site/image-generator/yml/level-9/composition-finesse.yml';
 
 - Level 9 strategies should only be learned if you have 140+ games of experience with the group.
 
@@ -35,7 +35,7 @@ import CompositionFinesse from '@site/static/img/generated/level-9/composition-f
   - Cathy discards the known red 1 as a *Gentleman's Discard*.
   - Alice blind-plays her *Finesse Position* card as red 1.
 
-<GentlemanDiscard className="example" />
+<GentlemanDiscard/>
 
 - Often times, doing a *Gentleman's Discard* will delay things and cost the team *Tempo*. Thus, a *Gentleman's Discard* that slows things down is only good if there is some other side benefit to offset the lost *Tempo* (such as delaying the discard of a valuable card, for example).
 - Just like how *Prompts* take precedence over *Finesses*, *Sarcastic Discards* take precedence over *Gentleman's Discards*.
@@ -55,7 +55,7 @@ import CompositionFinesse from '@site/static/img/generated/level-9/composition-f
   - Alice blind-plays her *Finesse Position* card as red 1, but it is green 1.
   - Alice knows that she is promised the red 1, so she will blind-play her slot 2 on her next turn.
 
-<LayeredGentlemanDiscard className="example" />
+<LayeredGentlemanDiscard/>
 
 <br />
 
@@ -94,7 +94,7 @@ import CompositionFinesse from '@site/static/img/generated/level-9/composition-f
   - Normally, Cathy would think that she has the next red card, which is red 2, and play it.
   - However, what if Alice actually has the red 2? In this situation, Cathy is expected to perform a *Sarcastic Discard*.
 
-<SarcasticFinesse className="example" />
+<SarcasticFinesse/>
 
 - Doing a *Finesse* that potentially duplicates a card in this way is called a *Sarcastic Finesse*. Normally, potentially duplicating a card is bad - it violates *Good Touch Principle* and could lead to a clue being wasted. However, potentially duplicating a card with the *Sarcastic Finesse* is not bad because:
   - In the best case, you get a "true" *Finesse* (a 2-for-1 or better).
@@ -113,7 +113,7 @@ import CompositionFinesse from '@site/static/img/generated/level-9/composition-f
   - Bob discards.
   - Cathy knows that she is promised the red 3 in her *Finesse Position*.
 
-<CertainFinesseDiscard className="example" />
+<CertainFinesseDiscard/>
 
 - This is an example of a *Certain Finesse* - it is similar to the *Sarcastic Finesse* above, but the "blind" card was potentially duplicated instead of the clued card.
 - In this situation, if Alice really has the red 3, Cathy is allowed to blind-discard their *Finesse Position* card. This is called a *Certain Discard*, because Cathy can be certain that it is exactly red 3.
@@ -135,7 +135,7 @@ import CompositionFinesse from '@site/static/img/generated/level-9/composition-f
   - Alice discards.
   - Bob knows that his red card is a red 4 (as a *Sarcastic Finesse*). He can *Sarcastic Discard* it if Alice has the red 4. But Alice does not have the red 4, so Bob plays the red 4.
 
-<CompositionFinesse className="example" />
+<CompositionFinesse/>
 
 <br />
 

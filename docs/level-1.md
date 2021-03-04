@@ -3,7 +3,7 @@ id: level-1
 title: Level 1 - Fundamentals
 ---
 
-import DelayedPlayClue from '@site/static/img/generated/level-1/delayed-play-clue.svg';
+import DelayedPlayClue from '@site/image-generator/yml/level-1/delayed-play-clue.yml';
 
 - Level 1 strategies can be learned with no games of Hanabi played. You can either learn them before you play your first game or after you play a few games to learn the basic mechanics.
 - This stuff is mostly a repeat of the [beginner's guide](beginner.md), but we go into a bit more detail.
@@ -33,7 +33,7 @@ import DelayedPlayClue from '@site/static/img/generated/level-1/delayed-play-clu
   - Next, it is Bob's turn. Bob clues red to Cathy, touching a red 2 as a *Delayed Play Clue* - the red 2 cannot be played on the stacks as soon as it gets to Cathy's turn.
   - Next, it is Cathy's turn. Cathy must wait patiently for Donald to play the red 1 first, and then play the red 2 on her next turn.
 
-<DelayedPlayClue className="example" />
+<DelayedPlayClue/>
 
 - As a rule, we treat all *Play Clues* as potential *Delayed Play Clues*.
 - For example, if Alice was clued about a bunch of 1's and then Bob is given a Play Clue on an unknown 2, Bob must wait for Alice to play all of her 1's first before playing the 2.

@@ -3,7 +3,7 @@ id: reference
 title: Intro & Warning
 ---
 
-import Example from '@site/static/img/generated/extras/example.svg';
+import Example from '@site/image-generator/yml/extras/example.yml';
 
 Our group has come up with many different strategies. It is helpful to give specific names to each strategy to aid in both discussion and comprehension. If you know the general way we play but don't know about a specific kind of move, then you can look it up here.
 
@@ -29,7 +29,7 @@ Even though the strategy reference outlines the "correct" thing to do in a lot o
 
 Most special moves have an accompanying example that will look something like the following:
 
-<Example className="example" />
+<Example/>
 
 - The player who goes first will always be Alice.
 - The second player will always be Bob.
