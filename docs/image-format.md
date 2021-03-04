@@ -126,15 +126,17 @@ Cards in hand can be of various types:
 - unclued card without any pips displayed, e.g. `x`
 - unclued card with pips displayed, e.g. `xrg23`
 
-<Example code={TypesSource} Image={TypesResult} />
-
 By default, clued cards have an orange border, but this can be overridden with the `border` attribute.
+
+<Example code={TypesSource} Image={TypesResult} />
 
 <br />
 
 ### Clues
 
-By default, Alice will be the clue giver. You can also show the clue itself and who gives the clue:
+You can use the `clue` attribute to show that a card is in the process of being clued.
+
+By default, there is no clue giver, but this can be specified with the `clue_giver` attribute.
 
 <Example code={ClueSource} Image={ClueResult} />
 
@@ -143,20 +145,20 @@ By default, Alice will be the clue giver. You can also show the clue itself and 
 ### Text on Cards
 
 Text can be placed on a card:
-- in the middle
-  - `middle_note` accepts a string like `(R)` or `(3)`
+- `middle_note` to put a text label in the middle of the card
   - the string is automatically colored if it is a letter of one of the 5 suits
-- above
-- below
-  - `above` and `below` have the same syntax:
-  - `above: Green 3` or `above: Rainbow 5` will draw the box with the specified color and text
-  - You can override the color using `color` attribute. CSS color are accepted, and additionally `rainbow`
-  - You can make it multiline by using an array
+- `above` to put a note above the card
+- `below` to put a note below the card
+
+`above` and `below` have the same syntax:
+- `above: Green 3` or `above: Rainbow 5` will draw the box with the specified color and text.
+- You can override the color using `color` attribute. CSS color are accepted, and additionally `rainbow`.
+- You can make it a multi-line note by using an array.
 
 <Example code={CardTextSource} Image={CardTextResult} />
 
-### Trash bin
+### Discard Pile
 
-You can show that some cards were already discarded via `discarded` array on the top level:
+For some examples, some cards in the discard pile need to be shown. This is performed with the `discarded` array on the top level.
 
 <Example code={TrashSource} Image={TrashResult} />

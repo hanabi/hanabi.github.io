@@ -1,28 +1,27 @@
 stacks:
-  - y: 1
-  - g: 1
+  - r: 1
+  - b: 1
+  - m: 1
 players:
   - cards:
       - type: 4
-        middle_note: (G)
-      - type: y
+        middle_note: (B)
+      - type: r
         middle_note: (2)
       - type: x
         middle_note: (CM)
   - cards:
       - type: x
-        above: Yellow 1
+        above: Red 1
       - type: x
         below:
           text: Focus
           color: gold
       - type: x
-        middle_note: (B)
         above: Rainbow 4
         below:
           text:
             - Chop
-            - slot
           color: darkred
   - cards:
       - type: x

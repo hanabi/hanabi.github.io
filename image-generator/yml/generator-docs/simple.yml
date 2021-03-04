@@ -1,7 +1,7 @@
 stacks:
   - r: 1
-  - y: 0
-  - g: 3
+  - g: 0
+  - b: 3
 players:
   - cards:
       - type: x

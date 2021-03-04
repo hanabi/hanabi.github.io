@@ -1,18 +1,18 @@
 stacks:
+  - r: 1
   - b: 1
-  - g: 1
   - m: 1
 players:
   - cards:
       - type: x
-      - type: xbgm125
-      - type: g4
+      - type: xrbm125
+      - type: r4
   - cards:
       - type: m
       - type: b124
       - type: 5
   - cards:
-      - type: gm24
+      - type: rm24
       - type: bm3
       - type: b2
   - cards:
@@ -20,4 +20,4 @@ players:
         border: true
       - type: m4
         border: false
-      - type: xg3
+      - type: xr3
