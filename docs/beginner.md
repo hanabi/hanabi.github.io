@@ -60,8 +60,8 @@ In this guide, there will be some images to show off the concepts introduced.
 
 <CardLayout2/>
 
-- When a card has one or more clues on it, a yellow border will appear around the card. The blue 1 and the red 1 will now have permanent yellow borders around them (until they are played or discarded).
-- The arrows indicate the specific cards that are "touched" by the last clue that was given.
+- Arrows indicate that a card was "touched" by the last clue that was given.
+- Clued cards will have permanent yellow borders around them.
 
 <br />
 

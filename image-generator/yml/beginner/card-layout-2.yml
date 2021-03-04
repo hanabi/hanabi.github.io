@@ -17,9 +17,7 @@ players:
       - type: x
       - type: 1
         clue: 1
-        middle_note: (B)
       - type: 1
         clue: 1
-        middle_note: (R)
       - type: x
 
