@@ -1,9 +1,7 @@
 ### TODO
 
-- Before, "(clue giver)" was appended after the player name, which was ugly
-  Instead, let's either do it like Russ does or try drawing a teal box around the player name
 - Small bug on Chop Moves & New Clues section - in the 2nd example, clue arrows should be different when re-touching cards to made how it looks on Hanab Live
-- ALL Beginner's Guide
+- specifying a card as `3r` should throw an error (suit must always come first)
 - level 3
   - Fix Clues
   - Playing Multiple 1's
