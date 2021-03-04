@@ -3,7 +3,7 @@ id: learning-path
 title: Learning Path
 ---
 
-People all around the world like to play Hanabi. Thanks to the internet, we regularly see new players from all walks of life. Some only play for a few days, while some continue to play for years! But no matter how long people play for, there is always more to learn, because Hanabi has a ton of depth, similar to chess.
+People from all around the world like to play Hanabi. Thanks to the internet, we regularly see new players from all walks of life. Some only play for a few days, while some continue to play for years! But no matter how long people play for, there is always more to learn, because Hanabi has a ton of depth, similar to chess.
 
 For those who love Hanabi and wish to continue playing with the group, the path from a brand-new player to an expert player is a long one. It will be filled with many practice games, countless mistakes, and the learning of many different conventions. If that sounds daunting, it isn't meant to - getting to know the various people in the group and playing a lot of Hanabi will be a ton of fun, regardless of your skill level.
 
