@@ -190,8 +190,8 @@ title: Level 10 - Bluffs
 - First, see the section on the *[Layered Finesse](level-5.md#the-layered-finesse)*.
 - Sometimes, players only play one card into a *Layered Finesse*, and then stop (when they should instead be digging for the promised card).
 - To tell the difference between a *Layered Finesse* and a *Bluff*, simply look at the *Bluff Seat*:
-  - If the player was in *Bluff Seat*, then it is a *Bluff*.
-  - If the player was not in *Bluff Seat*, then it is a *Layered Finesse*.
+  - If the clue-giver was in *Bluff Seat*, then it is a *Bluff*.
+  - If the clue-giver was not in *Bluff Seat*, then it is a *Layered Finesse*.
 
 <br />
 
