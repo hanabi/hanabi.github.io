@@ -5,23 +5,23 @@ title: Technical Documentation for the Example Images
 
 import Highlight, {defaultProps} from 'prism-react-renderer';
 
-import SimpleSource from 'raw-loader!@site/image-generator/yml/generator-docs/simple.yml';
-import SimpleResult from '@site/static/img/generated/generator-docs/simple.svg';
+import SimpleSource from '!raw-loader!@site/image-generator/yml/generator-docs/simple.yml';
+import SimpleResult from '@site/image-generator/yml/generator-docs/simple.yml';
 
-import TextNameSource from 'raw-loader!@site/image-generator/yml/generator-docs/text-name.yml';
-import TextNameResult from '@site/static/img/generated/generator-docs/text-name.svg';
+import TextNameSource from '!raw-loader!@site/image-generator/yml/generator-docs/text-name.yml';
+import TextNameResult from '@site/image-generator/yml/generator-docs/text-name.yml';
 
-import TypesSource from 'raw-loader!@site/image-generator/yml/generator-docs/types.yml';
-import TypesResult from '@site/static/img/generated/generator-docs/types.svg';
+import TypesSource from '!raw-loader!@site/image-generator/yml/generator-docs/types.yml';
+import TypesResult from '@site/image-generator/yml/generator-docs/types.yml';
 
-import ClueSource from 'raw-loader!@site/image-generator/yml/generator-docs/clue.yml';
-import ClueResult from '@site/static/img/generated/generator-docs/clue.svg';
+import ClueSource from '!raw-loader!@site/image-generator/yml/generator-docs/clue.yml';
+import ClueResult from '@site/image-generator/yml/generator-docs/clue.yml';
 
-import CardTextSource from 'raw-loader!@site/image-generator/yml/generator-docs/card-text.yml';
-import CardTextResult from '@site/static/img/generated/generator-docs/card-text.svg';
+import CardTextSource from '!raw-loader!@site/image-generator/yml/generator-docs/card-text.yml';
+import CardTextResult from '@site/image-generator/yml/generator-docs/card-text.yml';
 
-import TrashSource from 'raw-loader!@site/image-generator/yml/generator-docs/trash.yml';
-import TrashResult from '@site/static/img/generated/generator-docs/trash.svg';
+import TrashSource from '!raw-loader!@site/image-generator/yml/generator-docs/trash.yml';
+import TrashResult from '@site/image-generator/yml/generator-docs/trash.yml';
 
 export const Code = ({code}) => (
   <Highlight {...defaultProps} code={code} language="yaml">
@@ -46,7 +46,7 @@ export const Example = ({code, Image}) => (
         <Code code={code} />
       </div>
       <div class="col">
-        <Image className="example" />
+        <Image/>
       </div>
     </div>
   </div>
@@ -68,25 +68,21 @@ Each example image is created from a [YAML](https://yaml.org/) file, which is a 
 
 1. Put a new YAML file or edit an existing YAML file in the [`image-generator/yml`](https://github.com/hanabi/hanabi.github.io/tree/main/image-generator/yml) directory.
 
-2. Run `create-svg-all.sh`, which will re-generate all of the SVG images.
-
-3. On the respective Markdown page, import the SVG file as a React component at the top of the file, like so:
+2. On the respective Markdown page, import it as a React component at the top of the file, like so:
 
 ```jsx
-import NewChopMove from '@site/static/img/generated/level-123/new-chop-move.svg';
+import NewChopMove from '@site/image-generator/yml/level-123/new-chop-move.yml';
 ```
 
 (For an example of this, look at the Markdown page for [Level 1](https://github.com/hanabi/hanabi.github.io/blob/main/docs/level-1.md).)
 
-4. Insert the React component at the appropriate place in the Markdown file:
+3. Insert the React component at the appropriate place in the Markdown file:
 
 ```jsx
-<NewChopMove className="example" />
+<NewChopMove/>
 ```
 
 (For an example of this, look at the Markdown page for [Level 1](https://github.com/hanabi/hanabi.github.io/blob/main/docs/level-1.md).)
-
-The `className="example"` part is required **as is** in order for the light & dark theme to work properly.
 
 <!-- lint enable ordered-list-marker-value -->
 
@@ -94,8 +90,7 @@ The `className="example"` part is required **as is** in order for the light & da
 
 ## Iteration
 
-- When using the `run.sh` script and viewing the page locally, any changes that you make to the website will be automatically updated without having to refresh the page.
-- However, this is not the case for YAML files. Whenever you change a YAML file, you will need to re-run the `create-svg-all.sh` in order for it to get updated on the page.
+When using the `run.sh` script and viewing the page locally, any changes that you make to the website will be automatically updated without having to refresh the page.
 
 <br />
 

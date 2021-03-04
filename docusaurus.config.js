@@ -1,3 +1,5 @@
+const path = require('path')
+
 module.exports = {
   title: 'The Hyphen-ated Conventions',
   url: 'https://hanabi.github.io',
@@ -68,11 +70,10 @@ module.exports = {
     },
     sidebarCollapsible: false,
   },
-  /*
   plugins: [
-    require.resolve('docusaurus-lunr-search'),
+    path.resolve(__dirname, 'image-generator'),
+    //require.resolve('docusaurus-lunr-search'),
   ],
-  */
   presets: [
     [
       '@docusaurus/preset-classic',

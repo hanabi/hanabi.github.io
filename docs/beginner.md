@@ -3,25 +3,25 @@ id: beginner
 title: Beginner's Guide
 ---
 
-import CardLayout1 from '@site/static/img/generated/beginner/card-layout-1.svg';
-import CardLayout2 from '@site/static/img/generated/beginner/card-layout-2.svg';
-import TheChop1 from '@site/static/img/generated/beginner/the-chop-1.svg';
-import TheChop2 from '@site/static/img/generated/beginner/the-chop-2.svg';
-import BasicClue from '@site/static/img/generated/beginner/basic-clue.svg';
-import ChopFocus from '@site/static/img/generated/beginner/chop-focus.svg';
-import LeftMostFocus from '@site/static/img/generated/beginner/left-most-focus.svg';
-import TwoSave from '@site/static/img/generated/beginner/2-save.svg';
-import FiveSave from '@site/static/img/generated/beginner/5-save.svg';
-import CriticalSave from '@site/static/img/generated/beginner/critical-save.svg';
-import GoodTouchPrinciple1 from '@site/static/img/generated/beginner/good-touch-principle-1.svg';
-import GoodTouchPrinciple2 from '@site/static/img/generated/beginner/good-touch-principle-2.svg';
-import GoodTouchPrinciple3 from '@site/static/img/generated/beginner/good-touch-principle-3.svg';
-import Prompt1 from '@site/static/img/generated/beginner/prompt-1.svg';
-import Prompt2 from '@site/static/img/generated/beginner/prompt-2.svg';
-import Prompt3 from '@site/static/img/generated/beginner/prompt-3.svg';
-import Prompt4 from '@site/static/img/generated/beginner/prompt-4.svg';
-import Finesse1 from '@site/static/img/generated/beginner/finesse-1.svg';
-import Finesse2 from '@site/static/img/generated/beginner/finesse-2.svg';
+import CardLayout1 from '@site/image-generator/yml/beginner/card-layout-1.yml';
+import CardLayout2 from '@site/image-generator/yml/beginner/card-layout-2.yml';
+import TheChop1 from '@site/image-generator/yml/beginner/the-chop-1.yml';
+import TheChop2 from '@site/image-generator/yml/beginner/the-chop-2.yml';
+import BasicClue from '@site/image-generator/yml/beginner/basic-clue.yml';
+import ChopFocus from '@site/image-generator/yml/beginner/chop-focus.yml';
+import LeftMostFocus from '@site/image-generator/yml/beginner/left-most-focus.yml';
+import TwoSave from '@site/image-generator/yml/beginner/2-save.yml';
+import FiveSave from '@site/image-generator/yml/beginner/5-save.yml';
+import CriticalSave from '@site/image-generator/yml/beginner/critical-save.yml';
+import GoodTouchPrinciple1 from '@site/image-generator/yml/beginner/good-touch-principle-1.yml';
+import GoodTouchPrinciple2 from '@site/image-generator/yml/beginner/good-touch-principle-2.yml';
+import GoodTouchPrinciple3 from '@site/image-generator/yml/beginner/good-touch-principle-3.yml';
+import Prompt1 from '@site/image-generator/yml/beginner/prompt-1.yml';
+import Prompt2 from '@site/image-generator/yml/beginner/prompt-2.yml';
+import Prompt3 from '@site/image-generator/yml/beginner/prompt-3.yml';
+import Prompt4 from '@site/image-generator/yml/beginner/prompt-4.yml';
+import Finesse1 from '@site/image-generator/yml/beginner/finesse-1.yml';
+import Finesse2 from '@site/image-generator/yml/beginner/finesse-2.yml';
 
 - Are you looking to start playing Hanabi with the *Hyphen-ated Group*? Fantastic - we are always looking to welcome new players. Take 15 minutes and go over this guide so that you can get up to speed with the basics.
 - Alternatively, are you looking to learn some solid fundamental strategies to use to play Hanabi with your own group of friends? Feel free to adopt these strategies.
@@ -45,7 +45,7 @@ import Finesse2 from '@site/static/img/generated/beginner/finesse-2.svg';
 
 In this guide, there will be some images to show off the concepts introduced. Here's an example card layout:
 
-<CardLayout1 className="example" />
+<CardLayout1/>
 
 - The five **play stacks** are on the left.
 - The **player hands** are on the right.
@@ -55,7 +55,7 @@ In this guide, there will be some images to show off the concepts introduced. He
 - Conversely, the oldest card is the right-most card. Alice's oldest card is the blue 5 and Bob's oldest card is the red 5.
 - A card's *slot* refers to its position in the hand. In the above image, the blue 1 is on slot 1, the blue 2 is on slot 2, etc.
 
-<CardLayout2 className="example" />
+<CardLayout2/>
 
 - When a card has one or more clues on it, a yellow border will appear around the card. The blue 1 and the red 1 will now have permanent yellow borders around them (until they are played or discarded).
 - The arrows indicate the specific cards that are "touched" by the last clue that was given.
@@ -72,13 +72,13 @@ In this guide, there will be some images to show off the concepts introduced. He
 - When a player needs to discard, they should discard their chop card.
 - This way, everyone discards in a predicable way.
 
-<TheChop1 className="example" />
+<TheChop1/>
 
 - In the above image:
   - Alice's chop card is the red 5 (on slot 5).
   - Bob's chop card is the red 3 (on slot 5).
 
-<TheChop2 className="example" />
+<TheChop2/>
 
 - In the above image:
   - Alice's chop card is the blue 4 (on slot 4).
@@ -103,7 +103,7 @@ In this guide, there will be some images to show off the concepts introduced. He
 
 #### Example 1 - A Basic Clue
 
-<BasicClue className="example" />
+<BasicClue/>
 
 - If only one card is touched by a clue, then the clue is (obviously) talking about that one card.
 - In the above image, Alice clues blue to Bob.
@@ -111,7 +111,7 @@ In this guide, there will be some images to show off the concepts introduced. He
 
 #### Example 2 - Left-most Focus
 
-<LeftMostFocus className="example" />
+<LeftMostFocus/>
 
 - In the above image, Alice clues blue to Bob.
 - Before this clue, Bob's hand was completely unclued. So, with this clue, **two new cards were introduced** - the blue card on slot 2 and the blue card on slot 4.
@@ -120,7 +120,7 @@ In this guide, there will be some images to show off the concepts introduced. He
 
 #### Example 3 - Chop Focus
 
-<ChopFocus className="example" />
+<ChopFocus/>
 
 - In the above image, Alice clues purple to Bob (on the first turn of the game).
 - Before this clue, Bob's hand was completely unclued. So, with this clue, **three new cards were introduced** - slot 1, slot 2, and slot 5.
@@ -152,7 +152,7 @@ In this guide, there will be some images to show off the concepts introduced. He
 
 ### The 5 Save
 
-<FiveSave className="example" />
+<FiveSave/>
 
 - Since there is only one copy of each 5, all of the 5's need to be saved so that they won't be discarded.
 - In the above image:
@@ -167,7 +167,7 @@ In this guide, there will be some images to show off the concepts introduced. He
 
 - Even though there are two copies of each 2, we agree that they are so important that we must save them in a manner similar to 5's.
 
-<TwoSave className="example" />
+<TwoSave/>
 
 - In the above image:
   - Alice clues Bob number 2, which touches a 2 on slot 3 and slot 5.
@@ -180,7 +180,7 @@ In this guide, there will be some images to show off the concepts introduced. He
 
 ### The Critical Save
 
-<CriticalSave className="example" />
+<CriticalSave/>
 
 - For the same reason that 5's need to be saved, critical cards also need to be saved. (Critical cards are defined as cards that have the other copy discarded.)
 - Players can choose to save critical cards with either a color clue **or** a number clue.
@@ -239,7 +239,7 @@ In this guide, there will be some images to show off the concepts introduced. He
 - When cluing cards, we follow *Good Touch Principle* - this means that **we only want to touch cards that will eventually be played**. So, if someone touches a card that is already played on the stacks or a card that is already clued in someone else's hand, then that would be a *Bad Touch*.
 - *Good Touch Principle* is a powerful building block for logic and reasoning. If everyone only touches good cards, then players can greatly narrow down the possibilities for all of the clued cards in their hand!
 
-<GoodTouchPrinciple1 className="example" />
+<GoodTouchPrinciple1/>
 
 - In the above image:
   - Alice wants to give a *Play Clue* to the yellow 2.
@@ -248,7 +248,7 @@ In this guide, there will be some images to show off the concepts introduced. He
   - If she clues yellow, then it would touch slot 1, slot 2, and slot 3. This clue would violate *Good Touch Principle*, as the yellow 4's would be duplicated in Bob's hand.
   - Thus, the correct clue for Alice to give is number 2.
 
-<GoodTouchPrinciple2 className="example" />
+<GoodTouchPrinciple2/>
 
 - In the above image:
   - Alice has an unknown purple card in her hand.
@@ -257,7 +257,7 @@ In this guide, there will be some images to show off the concepts introduced. He
   - Alice also knows that according to *Good Touch Principle*, every clued card will be eventually be played.
   - Thus, by process of elimination, she can reason that the unknown purple card in her hand must be purple 5, and she can immediately play it.
 
-<GoodTouchPrinciple3 className="example" />
+<GoodTouchPrinciple3/>
 
 - In the above image:
   - In the middle of the game, Alice gives Bob a yellow clue that touches slots 2 and 3.
@@ -333,7 +333,7 @@ In this guide, there will be some images to show off the concepts introduced. He
 
 ### The Prompt
 
-<Prompt1 className="example" />
+<Prompt1/>
 
 - In the above image:
   - Alice's hand is blacked out because it does not matter.
@@ -344,7 +344,7 @@ In this guide, there will be some images to show off the concepts introduced. He
 - In this way, clues can deliver messages to an entirely different player than the person who actually received the clue.
 - We call this move a *Prompt* because it is "prompting" a player to play a card that they would have otherwise held on to for a while longer.
 
-<Prompt2 className="example" />
+<Prompt2/>
 
 - If a player is *Prompted* and there are multiple cards in the hand that the *Prompt* could apply to, they should play the left-most.
 - In the above image:
@@ -352,7 +352,7 @@ In this guide, there will be some images to show off the concepts introduced. He
   - Bob has two different cards clued as red in slot 2 and slot 3.
   - Since both cards are unknown to Bob, Bob should choose to play the slot 2 card since it is the left-most.
 
-<Prompt3 className="example" />
+<Prompt3/>
 
 - In the above image:
   - Bob has an unknown 3 in his hand.
@@ -360,7 +360,7 @@ In this guide, there will be some images to show off the concepts introduced. He
   - There is no 4 that could possibly be playable right now. Thus, this must be a *Self-Prompt*, meaning that Bob's 3 must be either blue 3 or green 3.
   - Bob plays his 3, and it is blue 3. Thus, he knows that the 4 must match and be a blue 4.
 
-<Prompt4 className="example" />
+<Prompt4/>
 
 - The *Prompt* is a **promise** that the player has the connecting card. Therefore, if the left-most card is not the correct one, the player should continue to play his clued cards (left to right) until the expected card is found. (It is of course the responsibility of the player giving the clue to ensure that all those previous cards will play successfully.)
 - In the above image:
@@ -377,7 +377,7 @@ In this guide, there will be some images to show off the concepts introduced. He
 
 ### The Finesse
 
-<Finesse1 className="example" />
+<Finesse1/>
 
 - In the above image:
   - Alice's hand is blacked out because it does not matter.
@@ -393,7 +393,7 @@ In this guide, there will be some images to show off the concepts introduced. He
 - When a *Finesse* occurs, it causes temporary information desynchronization. (In the above example, if Bob did nothing, Cathy would go on to think that she had the red 3, but she really doesn't have the red 3, which means that information is not synced up throughout the team.)
 - For this reason, blind-playing a card into a *Finesse* is very important - by doing so, it resynchronizes all of the information. So, **if a player is *Finessed*, they should usually blind-play the card immediately**, even if they have other important cards to play or some good clue to give.
 
-<Finesse2 className="example" />
+<Finesse2/>
 
 - We define the *Finesse Position* as the slot that a player's left-most unclued card is in. Notice that a player's *Finesse Position* can move around, and if it does, it is still possible to *Finesse* them.
 - In the above image:

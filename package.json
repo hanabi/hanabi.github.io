@@ -51,6 +51,7 @@
     "retext-repeated-words": "^3.0.0",
     "retext-sentence-spacing": "^4.0.0",
     "retext-syntax-mentions": "^2.1.1",
-    "retext-syntax-urls": "^2.0.0"
+    "retext-syntax-urls": "^2.0.0",
+    "shell-loader": "^1.2.1"
   }
 }

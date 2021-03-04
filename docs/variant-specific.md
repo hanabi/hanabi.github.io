@@ -3,7 +3,7 @@ id: variant-specific
 title: Variant-Specific Strategies
 ---
 
-import LoadedPlayClue from '@site/static/img/generated/extras/loaded-play-clue.svg';
+import LoadedPlayClue from '@site/image-generator/yml/extras/loaded-play-clue.yml';
 
 ### Hard Variants & Easy Variants
 
@@ -47,7 +47,7 @@ import LoadedPlayClue from '@site/static/img/generated/extras/loaded-play-clue.s
   - Cathy plays the 3. It is a red 3 and it successfully plays.
   - Cathy now knows that her 4 must be the red 4 (to match the red 3).
 
-<LoadedPlayClue className="example" />
+<LoadedPlayClue/>
 
 <br />
 
