@@ -39,7 +39,7 @@ title: Pushes & Pulls
   - Cathy's hand is, from newest to oldest: blue 4, blue 4, blue 5, red 1
   - Alice clues number 5 to Cathy, touching a blue 5 on slot 3.
   - It is now Bob's turn. Bob sees that since there were other *Play Clues* for Alice to give, Cathy will interpret this as an *Early 5's Chop Move*.
-  - Bob also knows that it is nonsensical to *Chop Move* a playable red 1 - Alice could have just give a red *Chop Focus Play Clue* to the red 1.
+  - Bob also knows that it is nonsensical to *Chop Move* a playable red 1 - Alice could have just give a red *Chop-Focus Play Clue* to the red 1.
   - Thus, this must be a *5 Double Pull*, so Bob blind-plays his *Finesse Position* card. It is blue 1 and it successfully plays.
   - Cathy knows that if this was an *Early 5's Chop Move*, then Bob would not have blind-played anything. Since he blind-played his *Finesse Position* card, this must be a *5 Double Pull*. Cathy blind-plays her slot 4 card (the card to the right of the clued 5).
 - Sometimes, it can be useful to *Chop Move* a playable card. Something is only a *5 Double Pull* if there is not some other good reason for the *Chop Move*. Specifically, the player might want to:

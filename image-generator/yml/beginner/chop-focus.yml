@@ -13,14 +13,14 @@ players:
       - type: x
       - type: x
   - cards:
-      - type: p
-        clue: p
-      - type: p
-        clue: p
+      - type: r
+        clue: r
+      - type: r
+        clue: r
       - type: x
       - type: x
-      - type: p
-        clue: p
+      - type: r
+        clue: r
         below:
           text: Focus
           color: gold

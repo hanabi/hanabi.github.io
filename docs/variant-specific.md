@@ -47,7 +47,7 @@ import LoadedPlayClue from '@site/image-generator/yml/extras/loaded-play-clue.ym
   - Cathy plays the 3. It is a red 3 and it successfully plays.
   - Cathy now knows that her 4 must be the red 4 (to match the red 3).
 
-<LoadedPlayClue/>
+<LoadedPlayClue />
 
 <br />
 

@@ -143,25 +143,25 @@ If you're reading this far, you'll want to know some of the basic differences be
 - In our group, **the focus of the clue is always on card that did not have any clues on it already**. (We refer to this as the **brand new card introduced**.) In the previous example, Alice should play her newest card as either red 2 or rainbow 1. She is promised nothing about her other red card, meaning that it can be either red 2 or rainbow 2.
 - Why do this? Having this convention makes it extremely clear exactly what card is being talked about in almost all situations - **no guesswork involved**.
 
-### Chop Focus - Added
+### Chop-Focus - Added
 
 - It is common for a *Play Clue* to introduce several cards in the hand. So, which one is playable?
 - On BGA, the system is dead simple: (almost) always play the left-most card.
 - In our group, it is a two step process:
-  - If one of the new cards introduced was on the chop, then it is a *Chop Focus Play Clue*.
+  - If one of the new cards introduced was on the chop, then it is a *Chop-Focus Play Clue*.
   - Otherwise, it is a *Left-Most Play Clue*.
 - Why do this? For multiple reasons:
   - Without this convention, it takes more than one clue to give a *Play Clue* to a chop card.
   - This convention compliments *Finesses*. (Our group has a wide variety of *Finesses* and *Bluffs*, so it is easy to "get" fresh cards, but more difficult to "get" cards on chop.)
   - Consider the situation where all critical 4s are currently playable and a player receives a number 4 clue on newest + chop. On BGA, the focus of the clue is ambiguous. In our group, you can always play chop.
-- Don't worry - having *Chop Focus* turned on does not limit your options as much as you would think. With good players, you can often give a BGA-style clue that is NOT meant to be *Chop Focus*, and the other players will be able to figure it out from the negative information on the card or the context of the game. (We call this *Focus Inversion*, but let's not go into too much detail on that right now.)
+- Don't worry - having *Chop-Focus* turned on does not limit your options as much as you would think. With good players, you can often give a BGA-style clue that is NOT meant to be *Chop-Focus*, and the other players will be able to figure it out from the negative information on the card or the context of the game. (We call this *Focus Inversion*, but let's not go into too much detail on that right now.)
 
 ### Color Saves - Changed
 
 - One problem in Hanabi is when a clue lights up your chop card for the first time. How do you know whether it is a *Play Clue* or a *Save Clue*?
 - On BGA, there is a simple system: number clues mean *Save Clues* and color clues mean *Play Clues*. (Of course, there are exceptions, but this applies most of the time.)
 - In our group, both number clues **and** color clues can be used to save cards.
-- **Any** clue that touches the chop has to be treated as a *Save Clue* first and foremost. If you can rule out a *Save Clue* interpretation, then you know that it is a *Chop Focus Play Clue*.
+- **Any** clue that touches the chop has to be treated as a *Save Clue* first and foremost. If you can rule out a *Save Clue* interpretation, then you know that it is a *Chop-Focus Play Clue*.
 - Why do this? It allows us to choose the exact clue type that would avoid touching duplicated cards.
 
 ### Early Save Play Clues - Deleted

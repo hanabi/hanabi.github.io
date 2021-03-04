@@ -12,11 +12,11 @@ players:
       - type: x
       - type: x
   - cards:
-      - type: y2
+      - type: r2
         border: false
-      - type: y4
+      - type: r4
         border: false
-      - type: 4y
+      - type: r4
         border: false
       - type: x
       - type: x

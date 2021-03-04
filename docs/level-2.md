@@ -27,7 +27,7 @@ import SelfFinesse from '@site/image-generator/yml/level-2/self-finesse.yml';
   - Bob has two clued red cards in his hand. Since Alice has indicated that the red 4 must be playable right now, he knows that his two red cards must be a red 2 and a red 3 (in order from left-to-right).
   - Bob plays the left-most card as the red 2. On Bob's next turn, he plays the other red card as the red 3.
 
-<DoublePrompt/>
+<DoublePrompt />
 
 <br />
 
@@ -41,7 +41,7 @@ import SelfFinesse from '@site/image-generator/yml/level-2/self-finesse.yml';
   - Cathy plays red 3 from her *Finesse Position*.
   - Donald plays red 4.
 
-<DoubleFinesse1/>
+<DoubleFinesse1 />
 
 - Similarly, it is possible to get a single player to blind-play 2 cards in a row. In this situation, since they see that the blind cards are not in anyone else's hands, they will blind-play two turns in a row, playing from left to right.
 - For example, in a 3-player game:
@@ -52,7 +52,7 @@ import SelfFinesse from '@site/image-generator/yml/level-2/self-finesse.yml';
   - Thus, Cathy discards, giving Bob a chance to blind-play the red 2. If he does not blind-play it, then it was a normal *Finesse* and she has red 2. If he does blind-play it, then it was a *Double Finesse* and she has red 3.
   - On his next turn, Bob blind-plays red 2 from slot 2. Cathy now knows that she has the red 3.
 
-<DoubleFinesse2/>
+<DoubleFinesse2 />
 
 <br />
 
@@ -67,7 +67,7 @@ import SelfFinesse from '@site/image-generator/yml/level-2/self-finesse.yml';
   - Since *Prompts* take precedence over *Finesses*, he plays the clued red card first from slot 4. It is red 2 and it successfully plays.
   - On his next turn, Bob blind-plays slot 2 as red 3. (His *Finesse Position* at the time of the clue was slot 1, but he drew a card, and now it slid down to slot 2.)
 
-<PromptFinesse/>
+<PromptFinesse />
 
 <br />
 
@@ -85,7 +85,7 @@ import SelfFinesse from '@site/image-generator/yml/level-2/self-finesse.yml';
   - Bob discards.
   - Cathy blind-plays red 1. Bob now knows that he has the red 2.
 
-<ReverseFinesse/>
+<ReverseFinesse />
 
 - If the player with the "matching card" **does not** blind-play, then the clued card is probably the other copy, and can be played on the next turn.
 - For example, in a 3-player game:
@@ -106,7 +106,7 @@ import SelfFinesse from '@site/image-generator/yml/level-2/self-finesse.yml';
   - Thus, Cathy plays her *Finesse Position* card as **any** 2. It is a red 2 and it successfully plays.
   - Cathy now knows that her 3 must match the 2, so she marks her 3 as a red 3.
 
-<SelfFinesse/>
+<SelfFinesse />
 
 - Note that *Self-Finesses* can be difficult to perform because the player receiving the clue will **only** consider the possibility of a *Self-Finesse* **if there are no other possibilities** for the clue. For example:
   - If the clue looks like it *could* just be a normal/direct *Play Clue* on a card, then the clue receiver will not blind-play anything - they will just play the card that was clued.

@@ -47,7 +47,7 @@ import ChopMovePrompt from '@site/image-generator/yml/level-4/chop-move-prompt.y
   - Bob discards the 1.
   - Bob's chop is now his slot 4.
 
-<TrashChopMove1/>
+<TrashChopMove1 />
 
 - Most of the time, the *Trash Chop Move* is done for a single card (meaning that the trash card that was clued was one-away from chop). However, you can also use the *Trash Chop Move* to *Chop Move* multiple cards.
 - For example, in a 3-player game:
@@ -58,7 +58,7 @@ import ChopMovePrompt from '@site/image-generator/yml/level-4/chop-move-prompt.y
   - Bob discards the 1.
   - Bob's chop is now his slot 1.
 
-<TrashChopMove2/>
+<TrashChopMove2 />
 
 - *Trash Chop Moves* are most commonly performed with a number 1 clue because it is likely that in the middle of a game, all of the 1's will be already played. But it could also be done with a number two 2 clue if all the 2's are already played / accounted for. Or, it could be done with a red clue if all of the red cards are already played / accounted for. And so forth.
 - Strategy wise, the *Trash Chop Move* is used for two main reasons:
@@ -72,7 +72,7 @@ import ChopMovePrompt from '@site/image-generator/yml/level-4/chop-move-prompt.y
   - Alice clues 1's to Bob, which touches a 1 in slot 2 and a 1 in slot 4.
   - Bob **only** *Chop Moves* his slot 5 card.
 
-<TrashChopMove3/>
+<TrashChopMove3 />
 
 <br />
 
@@ -91,7 +91,7 @@ import ChopMovePrompt from '@site/image-generator/yml/level-4/chop-move-prompt.y
   - Alice clues 5's to Bob, which touches a 5 on slot 4.
   - Bob *Chop Moves* his slot 5 card. Bob's new chop is his slot 3.
 
-<FivesChopMove1/>
+<FivesChopMove1 />
 
 - Similar to the *Trash Chop Move*, if a *5's Chop Move* touches **multiple** 5's, then it only *Chop Moves* the cards to the right of the right-most 5.
 - For example, in a 3-player game:
@@ -100,7 +100,7 @@ import ChopMovePrompt from '@site/image-generator/yml/level-4/chop-move-prompt.y
   - Alice clues 5's to Bob, which touches a 5 in slot 2 and a 5 in slot 4.
   - Bob **only** *Chop Moves* his slot 5 card. Bob's new chop is his slot 3.
 
-<FivesChopMove2/>
+<FivesChopMove2 />
 
 - Note that the *5's Chop Move* is different than the *Trash Chop Move* in that you can only chop move **one** card with it. Thus, if you clue a 5 and it is **two** (or more) slots away from the chop, then it is to be assumed to be a *Play Clue* on the 5.
   - When counting how far away from chop a card is, you should only look at **unclued** cards.
@@ -126,7 +126,7 @@ import ChopMovePrompt from '@site/image-generator/yml/level-4/chop-move-prompt.y
   - Bob knows that the focus of the clue is always on the brand-new card introduced, so this is **not** chop-focus, and the focus of the clue is on slot 1.
   - Thus, Bob will play blue 2 from slot 1 on his next turn.
 
-<ChopMoveNew/>
+<ChopMoveNew />
 
 - The exception to the above rule is if a clue is given that touches a *Chop Moved* card for the first time and only "old" cards are touched.
 - For example, in a 3-player game of the rainbow variant:
@@ -137,7 +137,7 @@ import ChopMovePrompt from '@site/image-generator/yml/level-4/chop-move-prompt.y
   - Bob knows that when old cards are re-touched, the focus of the clue is the left-most of those cards.
   - However, Bob also knows that this is the exception to the rule. In this specific case, putting a positive clue on the *Chop Moved* card was more important than filling in the rainbow cards, so by convention the focus of the clue is his slot 5.
 
-<ChopMoveNewException/>
+<ChopMoveNewException />
 
 <br />
 
@@ -152,7 +152,7 @@ import ChopMovePrompt from '@site/image-generator/yml/level-4/chop-move-prompt.y
   - However, Bob is also *Chop Moved* for a card. Bob knows that *Chop Moved* cards have an "invisible" clue around them, and Bob also knows that *Prompts* are said to take precedence over *Finesses*.
   - So should he play his slot 1 as a *Finesse* or his slot 5 as a *Prompt*? In this situation, Bob knows that *Prompts* do not apply to *Chop Moved* cards, so Bob should play his slot 1.
 
-<ChopMovePrompt/>
+<ChopMovePrompt />
 
 <br />
 

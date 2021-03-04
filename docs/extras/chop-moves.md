@@ -24,7 +24,7 @@ import DoubleOrderChopMove from '@site/image-generator/yml/extras/double-order-c
   - Bob assumes that it is a red 3 and immediately plays the card. However, it is actually a red 4 and it misplays.
   - Bob knows that if Alice is not making a mistake, then she must be trying to communicate something special. Similar to a *Trash Chop Move*, Bob can reason that multiple cards in his hand are important. He marks slot 2, slot 3, slot 4, and slot 5 as being *Chop Moved*.
 
-<MisplayChopMove/>
+<MisplayChopMove />
 
 - The *Misplay Chop Move* is the most costly type of chop move, so it should only be performed in a situation where no other kind of *Chop Move* would work.
 
@@ -38,7 +38,7 @@ import DoubleOrderChopMove from '@site/image-generator/yml/extras/double-order-c
 - Thus, in a 3-player game, skipping over three 1's should *Double Chop Move* the very next player.
 - In the rare case where four things are skipped over, it should skip over the next player and *Double Chop Move* the player after that.
 
-<DoubleOrderChopMove/>
+<DoubleOrderChopMove />
 
 <br />
 

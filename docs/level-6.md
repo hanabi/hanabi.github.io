@@ -29,7 +29,7 @@ import TempoClueChopMovePart2 from '@site/image-generator/yml/level-6/tempo-clue
   - If Bob plays slot 2, then he is skipping over one card. Cathy should *Chop Move* one card (her slot 5).
   - If Bob plays slot 1, he is skipping over two cards. Alice should *Chop Move* one card (her slot 5).
 
-<OrderChopMove/>
+<OrderChopMove />
 
 - If a player decides to do an *Order Chop Move*, on their next turn, they should revert to the original order again.
 - For example, continuing from the previous example:
@@ -133,8 +133,8 @@ import TempoClueChopMovePart2 from '@site/image-generator/yml/level-6/tempo-clue
   - Cathy clues number 2 to Bob, which does not introduce any new cards, but it does "fill in" his slot 2 card.
   - Bob now knows that he has exactly red 2 on slot 2 and that this was a *Tempo Clue*. Since it does not get any new cards and only get tempo on one card in total, he knows that he should also *Chop Move* his slot 5 card.
 
-<TempoClueChopMovePart1/>
-<TempoClueChopMovePart2/>
+<TempoClueChopMovePart1 />
+<TempoClueChopMovePart2 />
 
 - Normally, when two cards are retouched with a clue, it is a *Double Tempo Clue* and the player should play both cards. However, this interpretation does not apply if the second card is strictly not playable. In this situation, all players can see that since only one card is getting tempo, the interpretation of the clue should be a *Tempo Clue Chop Move*.
 - For example, in a 3-player game:

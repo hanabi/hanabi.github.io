@@ -27,7 +27,7 @@ import ClandestineFinesse from '@site/image-generator/yml/level-5/clandestine-fi
   - In slot 2, Bob has a card with a red clue and a 3 clue on it. (Thus, it can be red 3 or rainbow 3.)
   - Since slot 2 has more positive information, Bob should choose to play slot 2 as red 3 (instead of slot 1, the left-most card).
 
-<PromptMultiColor/>
+<PromptMultiColor />
 
 - Players are **not** supposed to use information from negative clues.
 - For example, in a 3-player rainbow game:
@@ -37,7 +37,7 @@ import ClandestineFinesse from '@site/image-generator/yml/level-5/clandestine-fi
   - In slot 2, Bob has a card with a positive red clue on it and a negative green clue on it. (Thus, it can be any red card.)
   - Even though slot 2 is technically more likely to be the red 3, Bob knows that players are not supposed to use negative information for determining which card to play into a *Prompt*. Thus, Bob plays the red 3 from slot 1.
 
-<PromptMultiColorNoNegative/>
+<PromptMultiColorNoNegative />
 
 - For advanced players, also see the section on *[Double Prompts in Multi-Color Variants](extras/miscellaneous.md#double-prompts-in-multi-color-variants)*.
 
@@ -56,7 +56,7 @@ import ClandestineFinesse from '@site/image-generator/yml/level-5/clandestine-fi
   - On Bob's next turn, he blind-plays his the red 2 from slot 2.
   - In this example, the red 2 was "hidden" by the rainbow 3.
 
-<HiddenFinesse/>
+<HiddenFinesse />
 
 <br />
 
@@ -75,7 +75,7 @@ import ClandestineFinesse from '@site/image-generator/yml/level-5/clandestine-fi
   - Bob does something unrelated.
   - Cathy was surprised that she blind-played the blue 1 instead of the red 1. This must be a *Layered Finesse* and Cathy must really have the red 1. Cathy plays her *Second Finesse Position* and it is the red 1.
 
-<LayeredFinesse/>
+<LayeredFinesse />
 
 <br />
 
@@ -99,7 +99,7 @@ import ClandestineFinesse from '@site/image-generator/yml/level-5/clandestine-fi
   - Bob blind-plays his slot 2 card. It is the red 2 and it successfully plays. (Bob knows that if he did not do this, then Cathy would go on to misplay the red 3 as a blue 3.)
   - Cathy plays the red 3.
 
-<ClandestineFinesse/>
+<ClandestineFinesse />
 
 <br />
 

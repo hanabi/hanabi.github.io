@@ -21,7 +21,7 @@ import FixClue2 from '@site/image-generator/yml/level-3/fix-clues-2.yml';
 - Nearly every clue that is either a *Save Clue* or *Play Clue*. One small exception to this is a *Fix Clue*, which is an attempt to "fix" an impending misplay.
 - *Fix Clues* are often needed when a duplicate card is touched. Cards are not normally duplicated (which follows from *Good Touch Principle*), but sometimes someone makes a mistake, or a sequence of particular cards makes duplicating necessary. Duplicate cards will lead to misplays, so it is the team's responsibility to fix the problem and intervene before this happens.
 
-<FixClue1/>
+<FixClue1 />
 
 - In the above example:
   - Before the clue was given, Alice had an unknown purple card in her hand.
@@ -30,7 +30,7 @@ import FixClue2 from '@site/image-generator/yml/level-3/fix-clues-2.yml';
   - Since Alice was just about to play this card, Alice knows that this was a *Fix Clue* and that she can now safely discard the purple 3.
 - **A clue cannot be a *Play Clue* and a *Fix Clue* at the same time.** If you receive a *Fix Clue* and it touches other ancillary cards, none of them are necessarily playable; the primary point of the clue is to fix the impending misplay.
 
-<FixClue2/>
+<FixClue2 />
 
 - In the above screenshot:
   - Before the clue was given, Alice has an unknown 1 in her hand.
@@ -83,7 +83,7 @@ import FixClue2 from '@site/image-generator/yml/level-3/fix-clues-2.yml';
 
 - Bob knows that fresh 1's have precedence, so he plays the slot 1 card next. After that, he should play the slot 4 card, and then the slot 3 card (e.g. resuming the play order from before).
 
-#### Part 3 - The Chop Focus Exception
+#### Part 3 - The Chop-Focus Exception
 
 - The *Fresh 1's Rule* has an exception: *Chop-Focus* **overrides** it.
 - For example, in a 3-player game:
@@ -113,7 +113,7 @@ import FixClue2 from '@site/image-generator/yml/level-3/fix-clues-2.yml';
   - Bob knows that the only playable 3 is red 3. He also knows that Alice has a clued red 3 already in her hand. Thus, he knows that he has the red 3 and that Alice made a mistake.
   - Bob performs a *Sarcastic Discard* to pass the red 3 back to Alice.
 
-<SarcasticDiscard/>
+<SarcasticDiscard />
 
 - The *Sarcastic Discard* is similar to the *Prompt*, except that it is initiated by a discard instead of a clue.
 - However, unlike a *Prompt*, if there are multiple cards that a *Sarcastic Discard* could apply to, then it does **not** promise that it is the left-most card. It only promises that they have the card somewhere. For example:

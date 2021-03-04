@@ -46,7 +46,7 @@ export const Example = ({code, Image}) => (
         <Code code={code} />
       </div>
       <div class="col">
-        <Image/>
+        <Image />
       </div>
     </div>
   </div>
@@ -79,7 +79,7 @@ import NewChopMove from '@site/image-generator/yml/level-123/new-chop-move.yml';
 3. Insert the React component at the appropriate place in the Markdown file:
 
 ```jsx
-<NewChopMove/>
+<NewChopMove />
 ```
 
 (For an example of this, look at the Markdown page for [Level 1](https://github.com/hanabi/hanabi.github.io/blob/main/docs/level-1.md).)

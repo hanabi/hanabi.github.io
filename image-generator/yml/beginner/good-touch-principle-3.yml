@@ -16,6 +16,10 @@ players:
       - type: x
       - type: y
         clue: y
+        middle_note: (2)
+        below:
+          text: Focus
+          color: gold
       - type: y
         clue: y
       - type: x

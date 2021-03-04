@@ -20,9 +20,9 @@ players:
       - type: x
   - cards:
       - type: x
-      - type: x
       - type: r
         clue: r
         middle_note: (4)
+      - type: x
       - type: x
       - type: x
