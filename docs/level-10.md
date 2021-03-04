@@ -97,7 +97,7 @@ title: Level 10 - Bluffs
   - Bob blind-plays the blue 1.
   - This could be a *Triple Finesse* (on blue 1 + blue 2 + blue 3 into blue 4) or it could be a *Bluff* (on just blue 1 into red 4).
   - However, this must be a *Bluff*, because **1 does not match 4**. So Cathy should think that she has the *one-away-from-playable* 4, the red 4.
-  - The point of this example is to show that because a 2 happens to be played on the stacks, the blue 4 is a *one-away-from-playable* card and therefore becomes a legal *Bluff* target.
+  - The point of this example is to show that because a 2 happens to be played on the stacks, the red 4 is a *one-away-from-playable* card and therefore becomes a legal *Bluff* target.
 - Example 5 (rank mismatch where a *Bluff* is impossible):
   - This is a 4-player game.
   - Nothing is played on the stacks.
