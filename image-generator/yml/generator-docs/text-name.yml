@@ -7,7 +7,7 @@ players:
       - type: x
       - type: x
       - type: x
-  - text: Aliens replaced Bob with Zoe
+  - text: Aliens replaced Bob with Zoe.
   - name: Zoe
     cards:
       - type: x

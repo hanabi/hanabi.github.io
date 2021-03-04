@@ -103,31 +103,34 @@ There are 2 main sections: `stacks` and `players`.
   - `b`: blue,
   - `y`: yellow,
   - `p`: purple,
-  - `m`: multicolor.
-- `players` contains which `cards` players have in hands.
+  - `m`: rainbow (multicolor).
+- `players` contains an entry for each player. Each entry contains the `cards` that they have in their hand.
 
 <Example code={SimpleSource} Image={SimpleResult} />
 
-Players are assigned names automatically, in order: Alice, Bob, Cathy, Donald, Emily.
-But it's possible to override it via the `name` attribute, which may be useful when e.g. Bob's hand is shown twice - before and after.
+Players are assigned the following names automatically: Alice, Bob, Cathy, Donald, and Emily. It is possible to override this with the `name` attribute. For example, this could be useful if Bob's hand is shown twice, before and after something happens.
 
-`players` can also contain a `text` instead of `cards` which describe some situation in game:
+`players` can also contain a `text` instead of `cards`. This is used to describe something that happens in a game.
 
 <Example code={TextNameSource} Image={TextNameResult} />
+
+<br />
 
 ### Cards
 
 Cards in hand can be of various types:
-- known exact identity, e.g. `g2` or `5r`
-- known suit, e.g. `b` or `b234`
-- known rank, e.g. `4` or `4rm`
-- clued with multiple possibilities, e.g. `ym45`
-- unclued card, `x`
-- unclued card with pips displayed: prepend the combination of suits and ranks with `x`: `x23rg`
+- clued with known exact identity, e.g. `g2`
+- clued with known suit, e.g. `b`
+- clued with known rank, e.g. `4`
+- clued with multiple possibilities, e.g. `b234`, `rm4`, `ym45`
+- unclued card without any pips displayed, e.g. `x`
+- unclued card with pips displayed, e.g. `xrg23`
 
 <Example code={TypesSource} Image={TypesResult} />
 
 By default, clued cards have an orange border, but this can be overridden with the `border` attribute.
+
+<br />
 
 ### Clues
 
@@ -135,11 +138,14 @@ You can also show the clue itself and who gives the clue:
 
 <Example code={ClueSource} Image={ClueResult} />
 
-### Text on cards
+<br />
 
-On cards there can be text:
-- in middle of card
-  - `middle_note` accepts a string like `(R)` or `(3)`, and is automatically colored if it's letter of one of 5 suits
+### Text on Cards
+
+Text can be placed on a card:
+- in the middle
+  - `middle_note` accepts a string like `(R)` or `(3)`
+  - the string is automatically colored if it is a letter of one of the 5 suits
 - above
 - below
   - `above` and `below` have the same syntax:

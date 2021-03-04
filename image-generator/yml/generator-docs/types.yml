@@ -5,19 +5,19 @@ stacks:
 players:
   - cards:
       - type: x
-      - type: xbmg125
+      - type: xbgm125
       - type: g4
   - cards:
       - type: m
       - type: b124
       - type: 5
   - cards:
-      - type: 24gm
-      - type: mb3
-      - type: 2b
+      - type: gm24
+      - type: bm3
+      - type: b2
   - cards:
       - type: x
         border: true
-      - type: 4m
+      - type: m4
         border: false
-      - type: x3g
+      - type: xg3
