@@ -225,7 +225,7 @@ def draw_player_card(yaml_file, svg_file, card):
         svg_file.add(clue_border)
 
     if clued:
-        draw_clued_card(yaml_file, svg_file, card_type, card, x_offset, y_offset)
+        draw_clued_card(yaml_file, svg_file, card_type, x_offset, y_offset)
     else:
         draw_unclued_card(yaml_file, svg_file, x_offset, y_offset, card_type[1:])
 
@@ -249,7 +249,7 @@ def draw_unclued_card(yaml_file, svg_file, x_offset, y_offset, pips):
         draw_card_pips(yaml_file, svg_file, s, pips)
 
 
-def draw_clued_card(yaml_file, svg_file, card_type, card, x_offset, y_offset):
+def draw_clued_card(yaml_file, svg_file, card_type, x_offset, y_offset):
     # Find the possible ranks and suits
     card_type = set(card_type)
     ranks = card_type & {"1", "2", "3", "4", "5"}
@@ -398,7 +398,7 @@ def draw_extra_card_attributes(svg_file, card):
         draw_textbox(svg_file, card["above"], 0)
 
     if "below" in card:
-        yb = draw_textbox(svg_file, card["below"], 105)
+        yb = draw_textbox(svg_file, card["below"], CARD_HEIGHT + 5)
         if yb > y_below:
             y_below = yb
 
@@ -516,14 +516,7 @@ def draw_discard_pile(yaml_file, svg_file):
     x = x_of_discard_pile + TRASH_WIDTH / 2 - width_total / 2
     y = y_of_discard_pile + TRASH_HEIGHT / 2 - height_total / 2
     for card in yaml_file["discarded"]:
-        card_image = svg_file.image(
-            "{}/cards/{}.svg".format(PIECES_PATH, card),
-            x=x,
-            y=y,
-            width=CARD_WIDTH,
-            height=CARD_HEIGHT,
-        )
-        svg_file.add(card_image)
+        draw_clued_card(yaml_file, svg_file, card, x, y)
         x += CARD_WIDTH / 2
         y += CARD_HEIGHT / 3
 
@@ -574,11 +567,11 @@ def print_svg(svg_file):
         + (
             """
         <linearGradient id="rainbowtext" x1="0" y1="0" x2="100%" y2="0">
-        <stop offset="0" stop-color="#ff7777"></stop>
-        <stop offset="0.25" stop-color="#ffff77"></stop>
-        <stop offset="0.5" stop-color="#77ff77"></stop>
-        <stop offset="0.75" stop-color="#77ffff"></stop>
-        <stop offset="1" stop-color="#7777ff"></stop>
+            <stop offset="0" stop-color="#ff7777"></stop>
+            <stop offset="0.25" stop-color="#ffff77"></stop>
+            <stop offset="0.5" stop-color="#77ff77"></stop>
+            <stop offset="0.75" stop-color="#77ffff"></stop>
+            <stop offset="1" stop-color="#7777ff"></stop>
         </linearGradient>"""
             if have_rainbow
             else ""

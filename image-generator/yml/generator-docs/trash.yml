@@ -1,0 +1,20 @@
+stacks:
+  - r: 1
+  - g: 1
+  - b: 2
+discarded:
+  - r3
+  - 5b
+players:
+  - cards:
+     - type: x
+     - type: x
+     - type: x
+  - cards:
+     - type: x
+     - type: x
+     - type: x
+  - cards:
+     - type: x
+     - type: x
+     - type: x

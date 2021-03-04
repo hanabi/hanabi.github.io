@@ -1,0 +1,23 @@
+stacks:
+  - b: 1
+  - g: 1
+  - m: 1
+players:
+  - cards:
+      - type: x
+      - type: xbmg125
+      - type: g4
+  - cards:
+      - type: m
+      - type: b124
+      - type: 5
+  - cards:
+      - type: 24gm
+      - type: mb3
+      - type: 2b
+  - cards:
+      - type: x
+        border: true
+      - type: 4m
+        border: false
+      - type: x3g
