@@ -52,26 +52,57 @@ export const Example = ({code, Image}) => (
   </div>
 );
 
+<br />
+
 ## Intro
 
-The example images are created from a textual description in YAML format.
+Throughout this website, we have example images that show game states. This page describes how to edit them or how to create new ones.
 
-Put the .yml file to https://github.com/hanabi/hanabi.github.io/tree/main/image-generator/yml and the build system (`./build.sh`) will create SVG which you can import in .md file and use as React component:
+Each example image is created from a [YAML](https://yaml.org/) file, which is a simple textual description that you can easily edit. The YAML files are located in the [`image-generator/yml`](https://github.com/hanabi/hanabi.github.io/tree/main/image-generator/yml) directory.
+
+<br />
+
+## Steps
+
+<!-- lint disable ordered-list-marker-value -->
+
+1. Put a new YAML file or edit an existing YAML file in the [`image-generator/yml`](https://github.com/hanabi/hanabi.github.io/tree/main/image-generator/yml) directory.
+
+2. Run `create-svg-all.sh`, which will re-generate all of the SVG images.
+
+3. On the respective Markdown page, import the SVG file as a React component at the top of the file, like so:
 
 ```jsx
-import QuadrupleBluffChopPull from '@site/static/img/generated/level-123/quadruple-bluff-chop-pull.svg';
-
-<QuadrupleBluffChopPull className="example" />
+import NewChopMove from '@site/static/img/generated/level-123/new-chop-move.svg';
 ```
 
-Note the `className="example"`, that part is required **as is**, otherwise light/dark theme won't work.
+(For an example of this, look at the Markdown page for [Level 1](https://github.com/hanabi/hanabi.github.io/blob/main/docs/level-1.md).)
 
-For a quicker iteration you can use `./run.sh`, then every time after changing the .yml file, you'll need to run `image-generator/create-svg-all.py`, and existing `./run.sh` will pick up the changes to .svg files automatically.
+4. Insert the React component at the appropriate place in the Markdown file:
 
-## File Format
+```jsx
+<NewChopMove className="example" />
+```
+
+(For an example of this, look at the Markdown page for [Level 1](https://github.com/hanabi/hanabi.github.io/blob/main/docs/level-1.md).)
+
+The `className="example"` part is required **as is** in order for the light & dark theme to work properly.
+
+<!-- lint enable ordered-list-marker-value -->
+
+<br />
+
+## Iteration
+
+- When using the `run.sh` script and viewing the page locally, any changes that you make to the website will be automatically updated without having to refresh the page.
+- However, this is not the case for YAML files. Whenever you change a YAML file, you will need to re-run the `create-svg-all.sh` in order for it to get updated on the page.
+
+<br />
+
+## YML File Format
 
 There are 2 main sections: `stacks` and `players`.
-- `stacks` is an array of suit:rank pairs of cards which were played on stacks already. The following suits are supported:
+- `stacks` is an array of cards which have been played on the stacks already. The following suits are supported:
   - `r`: red,
   - `g`: green,
   - `b`: blue,
