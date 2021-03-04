@@ -1,0 +1,13 @@
+stacks:
+  - r: 1
+  - y: 0
+  - g: 3
+players:
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+      - type: x
+      - type: x

@@ -1,0 +1,37 @@
+stacks:
+  - y: 1
+  - g: 1
+players:
+  - cards:
+      - type: 4
+        middle_note: (G)
+      - type: y
+        middle_note: (2)
+      - type: x
+        middle_note: (CM)
+  - cards:
+      - type: x
+        above: Yellow 1
+      - type: x
+        below:
+          text: Focus
+          color: gold
+      - type: x
+        middle_note: (B)
+        above: Rainbow 4
+        below:
+          text:
+            - Chop
+            - slot
+          color: darkred
+  - cards:
+      - type: x
+        above:
+          text:
+            - Foo
+            - Bar
+          color: rainbow
+      - type: x
+        above: Blue 4
+      - type: x
+        above: Save
