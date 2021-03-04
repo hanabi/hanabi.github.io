@@ -5,7 +5,7 @@ stacks:
   - b: 1
   - p: 1
 players:
-  - cluegiver: true
+  - clue_giver: true
     cards:
       - type: x
       - type: x
@@ -31,7 +31,7 @@ players:
             - Moved
   - text: After discarding the 1...
   - name: Alice
-    cluegiver: true
+    clue_giver: true
     cards:
       - type: x
       - type: x

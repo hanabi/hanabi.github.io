@@ -31,4 +31,4 @@ Have you found your way here from the Internet? That's fine too. Feel free to ch
 
 ### Contributing
 
-If you want to contribute to this website, [this page](image-format.md) explains how to create example images.
+If you want to contribute to this website, see [the documentation on how to create example images](image-format.md).

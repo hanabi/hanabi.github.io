@@ -13,7 +13,7 @@ players:
       - type: x
       - type: x
       - type: x
-  - cluegiver: true
+  - clue_giver: true
     cards:
       - type: x
       - type: x

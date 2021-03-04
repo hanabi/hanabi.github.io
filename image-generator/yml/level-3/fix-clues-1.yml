@@ -30,7 +30,7 @@ players:
         clue: 3
       - type: x
   - name: Bob
-    cluegiver: true
+    clue_giver: true
     cards:
       - type: x
       - type: x

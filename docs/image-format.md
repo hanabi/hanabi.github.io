@@ -134,7 +134,7 @@ By default, clued cards have an orange border, but this can be overridden with t
 
 ### Clues
 
-You can also show the clue itself and who gives the clue:
+By default, Alice will be the clue giver. You can also show the clue itself and who gives the clue:
 
 <Example code={ClueSource} Image={ClueResult} />
 

@@ -180,7 +180,7 @@ def draw_player_name(svg_file, player_num, player):
     )
     r.add(player_name_text)
 
-    if "cluegiver" in player:
+    if "clue_giver" in player:
         # based on https://stackoverflow.com/a/42783381/14347173
         clue_giver_bg = svg_file.text(
             "clue giver",
@@ -188,7 +188,7 @@ def draw_player_name(svg_file, player_num, player):
             y=["50%"],
             dy=[30],
             fill="black",
-            filter="url(#cluegiver)",
+            filter="url(#clue_giver)",
             **{"dominant-baseline": "central"},
         )
         r.add(clue_giver_bg)
@@ -296,7 +296,9 @@ def draw_clued_card(yaml_file, svg_file, card_type, x_offset, y_offset):
         # An exact card identity was specified
         # (e.g. "r1")
         card_image = svg_file.image(
-            "{}/cards/{}{}.svg".format(PIECES_PATH, next(iter(suits)), next(iter(ranks))),
+            "{}/cards/{}{}.svg".format(
+                PIECES_PATH, next(iter(suits)), next(iter(ranks))
+            ),
             x=x_offset,
             y=y_offset,
             width=CARD_WIDTH,
@@ -549,7 +551,7 @@ def print_svg(svg_file):
     output = re.sub(
         r"<defs/>",
         """<defs>
-        <filter x="0" y="0" width="1" height="1" id="cluegiver">
+        <filter x="0" y="0" width="1" height="1" id="clue_giver">
             <feFlood flood-color="cyan"/>
         </filter>
         <filter id="shadow">
