@@ -138,6 +138,8 @@ You can use the `clue` attribute to show that a card is in the process of being 
 
 By default, there is no clue giver, but this can be specified with the `clue_giver` attribute.
 
+You can also use the `retouched` attribute to signify that the clue is re-touching a card, which will result in a darker arrow than normal. (This matches the behavior of Hanab Live.)
+
 <Example code={ClueSource} Image={ClueResult} />
 
 <br />
