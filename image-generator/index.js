@@ -18,7 +18,7 @@ module.exports = function (context, options) {
               use: getFileLoaderUtils().rules.svg().use.concat([{
                 loader: "shell-loader",
                 options: {
-                  script: `python ${createSVGScriptPath}`,
+                  script: `bash ${createSVGScriptPath}`,
                 },
               }, {
                 loader: path.resolve(__dirname, "depender"),
