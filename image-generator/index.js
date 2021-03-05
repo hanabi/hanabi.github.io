@@ -2,7 +2,7 @@
 // files located in the "image-generator/yml" directory
 // This is triggered whenever the website is built
 
-const path = require("path")
+const path = require("path");
 const { getFileLoaderUtils } = require("@docusaurus/core/lib/webpack/utils");
 
 module.exports = function (context, options) {
@@ -20,6 +20,8 @@ module.exports = function (context, options) {
                 options: {
                   script: `bash ${createSVGScriptPath}`,
                 },
+              }, {
+                loader: path.resolve(__dirname, "depender"),
               }]),
             },
           ],

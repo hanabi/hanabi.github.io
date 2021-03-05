@@ -152,7 +152,8 @@ Text can be placed on a card:
 
 `above` and `below` have the same syntax:
 - `above: Green 3` or `above: Rainbow 5` will draw the box with the specified color and text.
-- You can override the color using `color` attribute. CSS color are accepted, and additionally `rainbow`.
+- Several more keywords have a specific color assigned to them: `Focus`, `Chop`.
+- You can override the color using `color` attribute. CSS colors are accepted, and additionally `rainbow`.
 - You can make it a multi-line note by using an array.
 
 <Example code={CardTextSource} Image={CardTextResult} />

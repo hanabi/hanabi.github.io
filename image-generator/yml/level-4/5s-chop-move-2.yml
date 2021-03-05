@@ -17,9 +17,7 @@ players:
       - type: 5
         clue: 5
       - type: x
-        above:
-          text: Chop
-          color: darkred
+        above: Chop
       - type: 5
         clue: 5
       - type: x

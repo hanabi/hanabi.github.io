@@ -16,9 +16,7 @@ players:
       - type: x
       - type: x
       - type: x
-        above:
-          text: Chop
-          color: darkred
+        above: Chop
       - type: 1
         clue: 1
         below:
@@ -43,15 +41,11 @@ players:
       - type: b
         middle_note: (2)
         clue: b
-        below:
-          text: Focus
-          color: gold
+        below: Focus
       - type: x
       - type: x
       - type: x
-        above:
-          text: Chop
-          color: darkred
+        above: Chop
       - type: b
         clue: b
         below:

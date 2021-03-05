@@ -16,9 +16,7 @@ players:
         border: false
       - type: r5
         border: false
-        below:
-          text: Chop
-          color: darkred
+        below: Chop
   - cards:
       - type: g5
         border: false
@@ -30,6 +28,4 @@ players:
         border: false
       - type: r3
         border: false
-        below:
-          text: Chop
-          color: darkred
+        below: Chop

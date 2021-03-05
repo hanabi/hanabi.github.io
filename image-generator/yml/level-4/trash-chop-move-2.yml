@@ -42,9 +42,7 @@ players:
   - name: Bob
     cards:
       - type: x
-        above:
-          text: Chop
-          color: darkred
+        above: Chop
       - type: x
         above:
           text:
