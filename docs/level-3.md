@@ -188,7 +188,7 @@ import SarcasticDiscard from '@site/image-generator/yml/level-3/sarcastic-discar
 
 ### Information Lock Principle
 
-#### Information Lock with the Full Identity 🔒
+#### Information Lock with the Full Identity
 
 - As soon as a clue is given to a card, if it is enough to determine the card's full identity, then the assumed identity is said to be locked in to the card. (On Hanab Live, this is usually represented as a player writing an "identity note" on the card.)
 - For example, in a 3-player no variant game:
@@ -197,7 +197,7 @@ import SarcasticDiscard from '@site/image-generator/yml/level-3/sarcastic-discar
   - Bob immediately right-clicks on the card and writes a note of "red 1".
   - This card is now "locked in" as a red 1. No future clues or actions from other players can ever change that.
 
-#### Information Lock with a Superposition 〰️
+#### Information Lock with a Superposition
 
 - A *[superposition](https://en.wikipedia.org/wiki/Quantum_superposition)* is a term from [quantum mechanics](https://en.wikipedia.org/wiki/Quantum_mechanics) that describes how something can be two different things at the same time. For example, an electron is a type of a particle, and an electron can either be "spin up" or "spin down". But an electron could also be in a superposition of both "spin up" and "spin down" at the same time, as weird as that sounds. If an electron happens to bounce off of something (e.g. is measured), then the superposition will "collapse" and it will **only** be in a "spin up" or "spin down" state. The details of quantum mechanics are not important - the point is that we treat unknown Hanabi cards sort of like unknown particles: even though they **really** have a true identity, we ignore that and treat them as being all of the possibilities at the same time.
 - As soon as a clue is given to a card that could be two or more different things, then the assumed superposition of all of the possibilities is locked in to the card.
@@ -207,7 +207,7 @@ import SarcasticDiscard from '@site/image-generator/yml/level-3/sarcastic-discar
   - Bob immediately right-clicks on the card and writes a note" of "red 1 or rainbow 1".
   - This card is now "locked in" as this specific superposition. Future clues and actions can narrow down the cards in the superposition or completely collapse the superposition, but new cards can never be added to the superposition.
 
-#### Information Lock on In-Between Cards ⛓️
+#### Information Lock on In-Between Cards
 
 - As soon as a clue is given to a card that is not immediately playable, the assumed identity is locked in to the card **and** all of the in-between cards.
 - For example, in a 4-player no variant game:
@@ -221,7 +221,7 @@ import SarcasticDiscard from '@site/image-generator/yml/level-3/sarcastic-discar
   - Donald knows that from *Good Touch Principle*, his red card cannot be red 3, since Cathy has that card clued in her hand.
   - Donald knows that he must therefore have the red 4. He writes a note of "red 4" on his red card. It is now locked in forever as that card.
 
-#### Breaking Information Lock 💔
+#### Breaking Information Lock
 
 - A direct conflict is the only thing that can "break" an information lock.
 - For example, in a 3-player game:
