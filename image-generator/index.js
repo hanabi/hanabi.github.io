@@ -9,7 +9,7 @@ module.exports = function (context, options) {
   return {
     name: "hanabi-docusaurus-plugin",
     configureWebpack(config, isServer, utils) {
-      const createSVGScriptPath = path.resolve(__dirname, "create-svg.sh");
+      const createSVGScriptPath = path.resolve(__dirname, "create-svg.py");
       return {
         module: {
           rules: [
@@ -18,7 +18,7 @@ module.exports = function (context, options) {
               use: getFileLoaderUtils().rules.svg().use.concat([{
                 loader: "shell-loader",
                 options: {
-                  script: `bash ${createSVGScriptPath}`,
+                  script: `python ${createSVGScriptPath}`,
                 },
               }, {
                 loader: path.resolve(__dirname, "depender"),
