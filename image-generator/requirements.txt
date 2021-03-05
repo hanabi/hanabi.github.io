@@ -1,2 +1,2 @@
-svgwrite
-pyyaml
+svgwrite==1.4.1
+PyYAML==5.4.1
