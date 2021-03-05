@@ -66,7 +66,10 @@ def main():
 
     # Use the play stack to determine the available suits for this particular
     # variant
-    all_suits = [next(iter(color_pair)) for color_pair in yaml_file["stacks"]]
+    try:
+        all_suits = [next(iter(color_pair)) for color_pair in yaml_file["stacks"]]
+    except KeyError:
+        all_suits = "rygbp"
 
     # Create a new SVG file
     svg_file = svgwrite.Drawing()
@@ -97,6 +100,9 @@ def main():
 
 def draw_play_stacks(yaml_file, svg_file):
     x_offset = 0
+
+    if "stacks" not in yaml_file:
+        return x_offset
 
     for color_value in yaml_file["stacks"]:
         color, value = next(iter(color_value.items()))
