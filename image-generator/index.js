@@ -1,3 +1,7 @@
+// This is a Docusaurus plugin to automatically create SVG images from the YAML
+// files located in the "image-generator/yml" directory
+// This is triggered whenever the website is built
+
 const path = require("path")
 const { getFileLoaderUtils } = require("@docusaurus/core/lib/webpack/utils");
 
