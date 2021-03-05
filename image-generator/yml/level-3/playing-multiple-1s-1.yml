@@ -16,20 +16,11 @@ players:
       - type: x
       - type: 1
         clue: 1
-        below:
-          text:
-            - Play
-            - 3rd
+        middle_note: 3rd
       - type: 1
         clue: 1
-        below:
-          text:
-            - Play
-            - 2nd
+        middle_note: 2nd
       - type: 1
         clue: 1
-        below:
-          text:
-            - Play
-            - 1st
+        middle_note: 1st
       - type: x
