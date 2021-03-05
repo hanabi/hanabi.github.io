@@ -20,25 +20,24 @@ import FixClue2 from '@site/image-generator/yml/level-3/fix-clues-2.yml';
 
 - Nearly every clue that is either a *Save Clue* or *Play Clue*. One small exception to this is a *Fix Clue*, which is an attempt to "fix" an impending misplay.
 - *Fix Clues* are often needed when a duplicate card is touched. Cards are not normally duplicated (which follows from *Good Touch Principle*), but sometimes someone makes a mistake, or a sequence of particular cards makes duplicating necessary. Duplicate cards will lead to misplays, so it is the team's responsibility to fix the problem and intervene before this happens.
+- In the example below:
+  - Before the clue was given, Bob had an unknown purple card in his hand.
+  - Alice knows that from *Good Touch Principle*, Bob will conclude that the card is a purple 5, and he will likely play it on his next turn.
+  - Alice clues number 3 to Bob, which "fills in" the purple card and reveals that it is purple 3.
+  - Since Bob was about to play this card, Bob knows that this was a *Fix Clue* and that he can now safely discard the purple 3.
 
 <FixClue1 />
 
-- In the above example:
-  - Before the clue was given, Alice had an unknown purple card in her hand.
-  - From *Good Touch Principle*, Alice concluded that her card must be purple 5, and had planned to play it as soon as possible.
-  - Bob clues number 3 to Alice, which "fills in" the purple card and reveals that it is purple 3.
-  - Since Alice was just about to play this card, Alice knows that this was a *Fix Clue* and that she can now safely discard the purple 3.
-- **A clue cannot be a *Play Clue* and a *Fix Clue* at the same time.** If you receive a *Fix Clue* and it touches other ancillary cards, none of them are necessarily playable; the primary point of the clue is to fix the impending misplay.
+- **A clue cannot be a *Play Clue* and a *Fix Clue* at the same time.** If you receive a *Fix Clue* and it touches other ancillary cards, none of them are necessarily playable. The **only** information that a *Fix Clue* conveys is to fix the impending misplay or duplication.
+- In the example below:
+  - Before the clue was given, Bob has an unknown 1 in his hand.
+  - Alice knows that from *Good Touch Principle*, Bob will conclude that his 1 is a green 1, and he will likely play it on his next turn.
+  - Alice clues blue to Bob, which "fills in" the 1 and reveals that it is blue 1. The blue clue also touches a blue card on slot 1.
+  - In this situation, Bob might be tempted to think that this is a *Play Clue* on a blue 2 in slot 1, especially considering that the slot 1 card was the only brand new card introduced in the clue. (And the focus of a clue should always be on the brand new card introduced.)
+  - However, the fact that the blue clue "fixed" an impending misplay means that Alice may have had no choice but to clue blue, and she may not necessarily be trying to give a *Play Clue*.
+  - Bob marks the blue card on slot 1 as either blue 2, blue 3, blue 4, or blue 5. He then discards the blue 1.
 
 <FixClue2 />
-
-- In the above screenshot:
-  - Before the clue was given, Alice has an unknown 1 in her hand.
-  - From *Good Touch Principle*, Alice concluded that her 1 must be green 1, and had planned to play it as soon as possible.
-  - Bob clues blue to Alice, which "fills in" the 1 and reveals that it is blue 1. The blue clue also touches a blue card on slot 1.
-  - In this situation, Alice might be tempted to think that this is a *Play Clue* on a blue 2 in slot 1, especially considering that the slot 1 card was the only brand new card introduced in the clue (and that the focus of a clue should always be on the brand new card introduced).
-  - However, the fact that the blue clue "fixed" an impending misplay means that Bob may have had no choice but to clue blue, and he may not necessarily be trying to give a *Play Clue*.
-  - Alice marks the blue card as either blue 2, blue 3, blue 4, or blue 5, and discards the blue 1.
 
 <br />
 
