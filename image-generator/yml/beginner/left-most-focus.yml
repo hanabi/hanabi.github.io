@@ -16,9 +16,7 @@ players:
       - type: x
       - type: r
         clue: r
-        below:
-          text: Focus
-          color: gold
+        below: Focus
         middle_note: (1)
       - type: x
       - type: r

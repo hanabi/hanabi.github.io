@@ -14,18 +14,14 @@ players:
         border: false
       - type: b4
         border: false
-        below:
-          text: Chop
-          color: darkred
+        below: Chop
       - type: 5r
   - cards:
       - type: b4
         border: false
       - type: b3
         border: false
-        below:
-          text: Chop
-          color: darkred
+        below: Chop
       - type: g3
       - type: g4
       - type: g5
