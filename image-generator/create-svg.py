@@ -180,20 +180,21 @@ def draw_player_name(svg_file, player_num, player):
     )
     r.add(player_name_text)
 
-    if "cluegiver" in player:
-        # based on https://stackoverflow.com/a/42783381/14347173
-        clue_giver_bg = svg_file.text(
-            "clue giver",
+    if "clue_giver" in player:
+        # Based on: https://stackoverflow.com/a/42783381/14347173
+        clue_giver_description = "Clue Giver"
+        clue_giver_background = svg_file.text(
+            clue_giver_description,
             x=["0%"],
             y=["50%"],
             dy=[30],
             fill="black",
-            filter="url(#cluegiver)",
+            filter="url(#clue_giver)",
             **{"dominant-baseline": "central"},
         )
-        r.add(clue_giver_bg)
+        r.add(clue_giver_background)
         clue_giver_text = svg_file.text(
-            "clue giver",
+            clue_giver_description,
             x=["0%"],
             y=["50%"],
             dy=[30],
@@ -207,10 +208,27 @@ def draw_player_card(yaml_file, svg_file, card):
     global x_offset
 
     card_type = str(card["type"])
-    if card_type.startswith("x"):
-        draw_unclued_card(yaml_file, svg_file, x_offset, y_offset, card_type[1:])
+    clued = not card_type.startswith("x")
+
+    # Draw the clue border
+    if card.get("border", clued):
+        clue_border_overlap = 6
+        clue_border = svg_file.rect(
+            (
+                x_offset - (clue_border_overlap / 2),
+                y_offset - (clue_border_overlap / 2),
+            ),
+            (CARD_WIDTH + clue_border_overlap, CARD_HEIGHT + clue_border_overlap),
+            fill=CLUE_BORDER_COLOR,
+            rx=CARD_ROUNDED_CORNER_SIZE,
+            ry=CARD_ROUNDED_CORNER_SIZE,
+        )
+        svg_file.add(clue_border)
+
+    if clued:
+        draw_clued_card(yaml_file, svg_file, card_type, x_offset, y_offset)
     else:
-        draw_clued_card(yaml_file, svg_file, card_type, card, x_offset, y_offset)
+        draw_unclued_card(yaml_file, svg_file, x_offset, y_offset, card_type[1:])
 
     draw_extra_card_attributes(svg_file, card)
 
@@ -232,21 +250,7 @@ def draw_unclued_card(yaml_file, svg_file, x_offset, y_offset, pips):
         draw_card_pips(yaml_file, svg_file, s, pips)
 
 
-def draw_clued_card(yaml_file, svg_file, card_type, card, x_offset, y_offset):
-    # Draw the clue border
-    clue_border_overlap = 4
-    clue_border = svg_file.rect(
-        (
-            x_offset - (clue_border_overlap / 2),
-            y_offset - (clue_border_overlap / 2),
-        ),
-        (CARD_WIDTH + clue_border_overlap, CARD_HEIGHT + clue_border_overlap),
-        fill=CLUE_BORDER_COLOR,
-        rx=CARD_ROUNDED_CORNER_SIZE,
-        ry=CARD_ROUNDED_CORNER_SIZE,
-    )
-    svg_file.add(clue_border)
-
+def draw_clued_card(yaml_file, svg_file, card_type, x_offset, y_offset):
     # Find the possible ranks and suits
     card_type = set(card_type)
     ranks = card_type & {"1", "2", "3", "4", "5"}
@@ -293,7 +297,9 @@ def draw_clued_card(yaml_file, svg_file, card_type, card, x_offset, y_offset):
         # An exact card identity was specified
         # (e.g. "r1")
         card_image = svg_file.image(
-            "{}/cards/{}{}.svg".format(PIECES_PATH, next(iter(suits)), next(iter(ranks))),
+            "{}/cards/{}{}.svg".format(
+                PIECES_PATH, next(iter(suits)), next(iter(ranks))
+            ),
             x=x_offset,
             y=y_offset,
             width=CARD_WIDTH,
@@ -395,14 +401,14 @@ def draw_extra_card_attributes(svg_file, card):
         draw_textbox(svg_file, card["above"], 0)
 
     if "below" in card:
-        yb = draw_textbox(svg_file, card["below"], 105)
+        yb = draw_textbox(svg_file, card["below"], CARD_HEIGHT + 5)
         if yb > y_below:
             y_below = yb
 
     if "middle_note" in card:
         color = {
-            "(R)": "red",
-            "(B)": "cyan",
+            "(R)": "salmon",
+            "(B)": "deepskyblue",
             "(G)": "lightgreen",
             "(Y)": "yellow",
             "(P)": "violet",
@@ -513,14 +519,7 @@ def draw_discard_pile(yaml_file, svg_file):
     x = x_of_discard_pile + TRASH_WIDTH / 2 - width_total / 2
     y = y_of_discard_pile + TRASH_HEIGHT / 2 - height_total / 2
     for card in yaml_file["discarded"]:
-        card_image = svg_file.image(
-            "{}/cards/{}.svg".format(PIECES_PATH, card),
-            x=x,
-            y=y,
-            width=CARD_WIDTH,
-            height=CARD_HEIGHT,
-        )
-        svg_file.add(card_image)
+        draw_clued_card(yaml_file, svg_file, card, x, y)
         x += CARD_WIDTH / 2
         y += CARD_HEIGHT / 3
 
@@ -553,7 +552,7 @@ def print_svg(svg_file):
     output = re.sub(
         r"<defs/>",
         """<defs>
-        <filter x="0" y="0" width="1" height="1" id="cluegiver">
+        <filter x="0" y="0" width="1" height="1" id="clue_giver">
             <feFlood flood-color="cyan"/>
         </filter>
         <filter id="shadow">
@@ -571,11 +570,11 @@ def print_svg(svg_file):
         + (
             """
         <linearGradient id="rainbowtext" x1="0" y1="0" x2="100%" y2="0">
-        <stop offset="0" stop-color="#ff7777"></stop>
-        <stop offset="0.25" stop-color="#ffff77"></stop>
-        <stop offset="0.5" stop-color="#77ff77"></stop>
-        <stop offset="0.75" stop-color="#77ffff"></stop>
-        <stop offset="1" stop-color="#7777ff"></stop>
+            <stop offset="0" stop-color="#ff7777"></stop>
+            <stop offset="0.25" stop-color="#ffff77"></stop>
+            <stop offset="0.5" stop-color="#77ff77"></stop>
+            <stop offset="0.75" stop-color="#77ffff"></stop>
+            <stop offset="1" stop-color="#7777ff"></stop>
         </linearGradient>"""
             if have_rainbow
             else ""

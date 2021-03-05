@@ -3,6 +3,12 @@
   "files.eol": "\n",
   "files.trimTrailingWhitespace": true,
 
+  // Configure glob patterns for excluding files and folders in full text searches and quick open
+  "search.exclude": {
+    "**/*.png*": true,
+    "**/*.svg*": true,
+  },
+
   // Use "black" to automatically format Python files
   // https://github.com/psf/black
   "python.formatting.provider": "black",

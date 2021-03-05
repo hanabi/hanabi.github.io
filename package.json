@@ -28,6 +28,7 @@
     "@docusaurus/preset-classic": "2.0.0-alpha.70",
     "@mdx-js/react": "^1.6.21",
     "clsx": "^1.1.1",
+    "raw-loader": "^4.0.2",
     "react": "^16.8.4",
     "react-dom": "^16.8.4"
   },
@@ -50,6 +51,7 @@
     "retext-repeated-words": "^3.0.0",
     "retext-sentence-spacing": "^4.0.0",
     "retext-syntax-mentions": "^2.1.1",
-    "retext-syntax-urls": "^2.0.0"
+    "retext-syntax-urls": "^2.0.0",
+    "shell-loader": "^1.2.1"
   }
 }

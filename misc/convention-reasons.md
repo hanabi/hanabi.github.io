@@ -4,9 +4,9 @@ The main website lists all of our conventions. But it does not bother listing **
 
 <br />
 
-### Chop Focus
+### Chop-Focus
 
-- In the Hyphen-ated convention framework, we play with *[Chop Focus](https://hanabi.github.io/docs/beginner#the-chop)*, which allows us to "get" playable cards that are on chop. Nearly all other Hanabi groups play with a simpler system (e.g. *Play Clues* are always focused on the left-most card). Why do we have *Chop Focus*?
+- In the Hyphen-ated convention framework, we play with *[Chop-Focus](https://hanabi.github.io/docs/beginner#determining-the-focus)*, which allows us to "get" playable cards that are on chop. Nearly all other Hanabi groups play with a simpler system (e.g. *Play Clues* are always focused on the left-most card). Why do we have *Chop-Focus*?
 - Most Hanabi groups independently come up with the *Finesse* and the *Bluff*; they are considered to be the two core tools that allow players to be highly-efficient. In the Hyphen-ated group, we use these tools as building blocks to compose even more advanced moves, such as the *Layered Finesse* and the *3 Bluff*. These advanced *Finesses* and *Bluffs* allow us to get even more efficient.
 - Separately, notice that the strength of the "play the left-most" convention is that it allows players to easily clue the newest card. Meaning that even if the clue "splashes" other unrelated cards in the hand, it will always work to "get" the newest card.
 - But also notice that in the Hyphen-ated group (and in any sufficiently advanced group of Hanabi players that does a lot of *Finesses*), we have a lot of good options to "get" a player's *Finesse Position* card - it is uncommon to have to clue it directly. So this convention isn't helping much.

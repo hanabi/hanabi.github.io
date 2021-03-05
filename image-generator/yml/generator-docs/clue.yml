@@ -1,0 +1,13 @@
+stacks:
+  - p: 0
+  - y: 0
+players:
+  - clue_giver: true
+    cards:
+      - type: p
+        clue: p
+      - type: x
+  - cards:
+      - type: x
+      - type: 5py
+        clue: 5

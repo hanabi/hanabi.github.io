@@ -22,7 +22,7 @@ players:
             - Chop
             - Move
           color: maroon
-  - cluegiver: true
+  - clue_giver: true
     cards:
       - type: 1
         clue: 1

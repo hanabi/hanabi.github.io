@@ -32,7 +32,7 @@ title: Play Clues
 - First, see the section on the *[Selfish Clue](../level-11.md#the-selfish-clue)*.
 - Normally, when a player gives a *Selfish Clue*, they are doing it because no-one else on the team can perform the clue and they want to "lock-in" the value.
 - However, if a player gives a *Selfish Clue* with a color, and that clue could have been easily given by someone else on the team, then that is quite strange. They must be trying to send a deeper message.
-- In this situation, they are trying to communicate that the focus of the clue should be inverted. The *Play Clue* is either on the left-most card (if it would normally be *Chop Focus*) or on the right-most card (if it would normally be the left-most card).
+- In this situation, they are trying to communicate that the focus of the clue should be inverted. The *Play Clue* is either on the left-most card (if it would normally be *Chop-Focus*) or on the right-most card (if it would normally be the left-most card).
 - *Selfish Focus Inversion* can **only** be performed with color clues.
 - *Selfish Focus Inversion* takes precedence over an *Out-of-Order Finesse*. (This follows from *Occam's Razor*; if it could just be a normal *Focus Inversion* play clue, then it does not necessarily promise any blind-plays.)
 - For example, in a 4-player game:

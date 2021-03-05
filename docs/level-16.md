@@ -77,7 +77,7 @@ title: Level 16 - Elimination
 
 <br />
 
-### Elimination & Chop Focus
+### Elimination & Chop-Focus
 
 - First, see the section on the *[Elimination Play Clue](#the-elimination-play-clue)*.
 - In the *Elimination Play Clue*, the presence of *Elimination Notes* changes the "normal" focus of a clue, because the clue actively touches one of the cards with *Elimination Notes*.

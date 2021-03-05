@@ -31,7 +31,7 @@ players:
         clue: b
       - type: x
   - name: Bob
-    cluegiver: yes
+    clue_giver: yes
     cards:
       - type: x
       - type: x

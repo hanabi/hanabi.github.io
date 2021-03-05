@@ -1,0 +1,35 @@
+stacks:
+  - r: 0
+  - y: 0
+  - g: 0
+  - b: 0
+  - p: 0
+players:
+  - cards:
+      - type: y3
+        border: false
+      - type: b1
+        border: false
+      - type: y2
+        border: false
+      - type: g1
+        border: false
+      - type: r5
+        border: false
+        below:
+          text: Chop
+          color: darkred
+  - cards:
+      - type: g5
+        border: false
+      - type: r2
+        border: false
+      - type: b4
+        border: false
+      - type: b3
+        border: false
+      - type: r3
+        border: false
+        below:
+          text: Chop
+          color: darkred

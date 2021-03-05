@@ -3,11 +3,11 @@ id: level-5
 title: Level 5 - Intermediate Finesses
 ---
 
-import PromptMultiColor from '@site/static/img/generated/level-5/prompt-multicolor.svg';
-import PromptMultiColorNoNegative from '@site/static/img/generated/level-5/prompt-multicolor-no-negative.svg';
-import HiddenFinesse from '@site/static/img/generated/level-5/hidden-finesse.svg';
-import LayeredFinesse from '@site/static/img/generated/level-5/layered-finesse.svg';
-import ClandestineFinesse from '@site/static/img/generated/level-5/clandestine-finesse.svg';
+import PromptMultiColor from '@site/image-generator/yml/level-5/prompt-multicolor.yml';
+import PromptMultiColorNoNegative from '@site/image-generator/yml/level-5/prompt-multicolor-no-negative.yml';
+import HiddenFinesse from '@site/image-generator/yml/level-5/hidden-finesse.yml';
+import LayeredFinesse from '@site/image-generator/yml/level-5/layered-finesse.yml';
+import ClandestineFinesse from '@site/image-generator/yml/level-5/clandestine-finesse.yml';
 
 - Level 5 strategies should only be learned if you have 60+ games of experience with the group.
 
@@ -27,7 +27,7 @@ import ClandestineFinesse from '@site/static/img/generated/level-5/clandestine-f
   - In slot 2, Bob has a card with a red clue and a 3 clue on it. (Thus, it can be red 3 or rainbow 3.)
   - Since slot 2 has more positive information, Bob should choose to play slot 2 as red 3 (instead of slot 1, the left-most card).
 
-<PromptMultiColor className="example" />
+<PromptMultiColor />
 
 - Players are **not** supposed to use information from negative clues.
 - For example, in a 3-player rainbow game:
@@ -37,7 +37,7 @@ import ClandestineFinesse from '@site/static/img/generated/level-5/clandestine-f
   - In slot 2, Bob has a card with a positive red clue on it and a negative green clue on it. (Thus, it can be any red card.)
   - Even though slot 2 is technically more likely to be the red 3, Bob knows that players are not supposed to use negative information for determining which card to play into a *Prompt*. Thus, Bob plays the red 3 from slot 1.
 
-<PromptMultiColorNoNegative className="example" />
+<PromptMultiColorNoNegative />
 
 - For advanced players, also see the section on *[Double Prompts in Multi-Color Variants](extras/miscellaneous.md#double-prompts-in-multi-color-variants)*.
 
@@ -56,7 +56,7 @@ import ClandestineFinesse from '@site/static/img/generated/level-5/clandestine-f
   - On Bob's next turn, he blind-plays his the red 2 from slot 2.
   - In this example, the red 2 was "hidden" by the rainbow 3.
 
-<HiddenFinesse className="example" />
+<HiddenFinesse />
 
 <br />
 
@@ -75,7 +75,7 @@ import ClandestineFinesse from '@site/static/img/generated/level-5/clandestine-f
   - Bob does something unrelated.
   - Cathy was surprised that she blind-played the blue 1 instead of the red 1. This must be a *Layered Finesse* and Cathy must really have the red 1. Cathy plays her *Second Finesse Position* and it is the red 1.
 
-<LayeredFinesse className="example" />
+<LayeredFinesse />
 
 <br />
 
@@ -99,7 +99,7 @@ import ClandestineFinesse from '@site/static/img/generated/level-5/clandestine-f
   - Bob blind-plays his slot 2 card. It is the red 2 and it successfully plays. (Bob knows that if he did not do this, then Cathy would go on to misplay the red 3 as a blue 3.)
   - Cathy plays the red 3.
 
-<ClandestineFinesse className="example" />
+<ClandestineFinesse />
 
 <br />
 

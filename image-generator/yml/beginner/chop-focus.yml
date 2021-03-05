@@ -5,7 +5,7 @@ stacks:
   - b: 0
   - p: 0
 players:
-  - cluegiver: true
+  - clue_giver: true
     cards:
       - type: x
       - type: x
@@ -13,11 +13,15 @@ players:
       - type: x
       - type: x
   - cards:
-      - type: p
-        clue: p
-      - type: p
-        clue: p
+      - type: r
+        clue: r
+      - type: r
+        clue: r
       - type: x
       - type: x
-      - type: p
-        clue: p
+      - type: r
+        clue: r
+        below:
+          text: Focus
+          color: gold
+        middle_note: (1)

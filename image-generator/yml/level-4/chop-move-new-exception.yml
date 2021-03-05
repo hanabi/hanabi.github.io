@@ -30,7 +30,7 @@ players:
             - Moved
   - text: Situation after clue
   - name: Alice
-    cluegiver: true
+    clue_giver: true
     cards:
       - type: x
       - type: x
