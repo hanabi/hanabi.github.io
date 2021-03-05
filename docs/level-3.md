@@ -16,7 +16,7 @@ import FixClue2 from '@site/image-generator/yml/level-3/fix-clues-2.yml';
 
 <br />
 
-### Fix Clues
+### The Fix Clue
 
 - Nearly every clue that is either a *Save Clue* or *Play Clue*. One small exception to this is a *Fix Clue*, which is an attempt to "fix" an impending misplay.
 - *Fix Clues* are often needed when a duplicate card is touched. Cards are not normally duplicated (which follows from *Good Touch Principle*), but sometimes someone makes a mistake, or a sequence of particular cards makes duplicating necessary. Duplicate cards will lead to misplays, so it is the team's responsibility to fix the problem and intervene before this happens.
@@ -27,6 +27,10 @@ import FixClue2 from '@site/image-generator/yml/level-3/fix-clues-2.yml';
   - Since Bob was about to play this card, Bob knows that this was a *Fix Clue* and that he can now safely discard the purple 3.
 
 <FixClue1 />
+
+<br />
+
+### The Fix Clue (That Touches Multiple Cards)
 
 - **A clue cannot be a *Play Clue* and a *Fix Clue* at the same time.** If you receive a *Fix Clue* and it touches other ancillary cards, none of them are necessarily playable. The **only** information that a *Fix Clue* conveys is to fix the impending misplay or duplication.
 - In the example below:
@@ -41,7 +45,7 @@ import FixClue2 from '@site/image-generator/yml/level-3/fix-clues-2.yml';
 
 <br />
 
-### Fix Clues (That Give No Additional Information)
+### The Fix Clue (That Gives No Additional Information)
 
 - Usually a *Fix Clue* will "fill in" the card to explicitly make it known that the card is unplayable or duplicated. However, it is also possible to perform a *Fix Clue* just by cluing the card again. For example:
   - Alice clues Bob number 1 and it touches three 1's.
