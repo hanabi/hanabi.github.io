@@ -9,6 +9,7 @@ import DoubleFinesse2 from '@site/image-generator/yml/level-2/double-finesse-2.y
 import PromptFinesse from '@site/image-generator/yml/level-2/prompt-finesse.yml';
 import ReverseFinesse from '@site/image-generator/yml/level-2/reverse-finesse.yml';
 import SelfFinesse from '@site/image-generator/yml/level-2/self-finesse.yml';
+import WrongPrompt from '@site/image-generator/yml/level-2/wrong-prompt.yml';
 
 - Level 2 strategies should only be learned if you have played with the group a few times and have got the basics down (5-10 games of experience).
 
@@ -158,3 +159,12 @@ import SelfFinesse from '@site/image-generator/yml/level-2/self-finesse.yml';
 - However, there is one major exception. A common mistake in Hanabi is to attempt to perform a *Finesse* when there is a "matching" card in that player's hand. Since *Prompts* take precedence over *Finesses*, the player will always play their matching clued cards first.
 - When a card is *Prompted* and it misplays, everyone can read into this mistake - it was almost certainly a *Wrong Prompt*, meaning that the player who gave the clue probably intended for the *Finesse Position* card to play instead.
 - Thus, if there is nothing else special about the situation, the player who misplayed should go on to play their *Finesse Position* card on the next turn.
+- For example, in a 3-player game:
+  - Alice sees that Bob has a red 2 on his *Finesse Position*.
+  - Alice clues red to Cathy, touching a red 3 as a *Play Clue*. She is trying to perform a *Finesse*.
+  - Bob sees that Alice is signaling that he has the red 2. This must be a *Prompt*, so Bob plays his clued red card as a red 2.
+  - However, it is actually a red 4 and it misplays. Oops! Alice forgot that Bob had a clued red card in his hand.
+  - Bob knows that this was a *Wrong Prompt*. He really does the have the red 2 and it was on his *Finesse Position* at the time of the clue.
+  - On his next turn, Bob blind-plays his slot 2. (It is on slot 2 now because he drew a card when he misplayed the red 4.)
+
+<WrongPrompt />
