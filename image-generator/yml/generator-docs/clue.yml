@@ -11,3 +11,8 @@ players:
       - type: x
       - type: 5py
         clue: 5
+  - cards:
+      - type: p1
+        clue: 1
+        retouched: true
+      - type: x
