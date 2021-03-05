@@ -442,7 +442,10 @@ def draw_textbox(svg_file, opts, offset):
             "green",
             "rainbow",
         ):
-            color = "black"
+            color = {
+                "focus": "gold",
+                "chop": "darkred",
+            }.get(color, "black")
     else:
         text = opts["text"]
         if type(text) == str:

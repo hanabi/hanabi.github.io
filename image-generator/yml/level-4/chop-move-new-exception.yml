@@ -18,9 +18,7 @@ players:
     cards:
       - type: x
       - type: x
-        above:
-          text: Chop
-          color: darkred
+        above: Chop
       - type: rm
       - type: rm
       - type: x
@@ -41,15 +39,11 @@ players:
     cards:
       - type: x
       - type: x
-        above:
-          text: Chop
-          color: darkred
+        above: Chop
       - type: m
         clue: b
       - type: m
         clue: b
       - type: b
         clue: b
-        below:
-          text: Focus
-          color: gold
+        below: Focus

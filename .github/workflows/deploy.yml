@@ -17,6 +17,11 @@ jobs:
         with:
           node-version: '15.x'
 
+      - name: Setup Python 3
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+
       - name: Cache node modules
         uses: actions/cache@v2
         id: deploy_cache
