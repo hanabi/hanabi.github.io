@@ -357,15 +357,18 @@ def draw_extra_card_attributes(svg_file, card):
     global y_below
 
     if "clue" in card:
-        svg_file.add(
-            svg_file.image(
-                "{}/arrow.svg".format(PIECES_PATH),
-                x=x_offset + 10,
-                y=y_offset - 40,
-                width=50,
-                height=70,
-            )
+        # Draw the arrow above the card
+        arrow_name = "arrow"
+        if "retouched" in card:
+            arrow_name += "_dark"
+        arrow = svg_file.image(
+            "{}/{}.svg".format(PIECES_PATH, arrow_name),
+            x=x_offset + 10,
+            y=y_offset - 40,
+            width=50,
+            height=70,
         )
+        svg_file.add(arrow)
 
         # Draw the clue circle on the arrow
         is_color_clue = card["clue"] not in range(1, 6)
@@ -376,15 +379,14 @@ def draw_extra_card_attributes(svg_file, card):
             "y": "yellow",
             "p": "blueviolet",
         }.get(card["clue"], "black")
-        svg_file.add(
-            svg_file.circle(
-                (x_offset + 35, y_offset - 15),
-                r=15,
-                fill=color,
-                stroke="white" if color == "black" else "black",
-                **{"stroke-width": 2},
-            )
+        circle = svg_file.circle(
+            (x_offset + 35, y_offset - 15),
+            r=15,
+            fill=color,
+            stroke="white" if color == "black" else "black",
+            **{"stroke-width": 2},
         )
+        svg_file.add(circle)
 
         # For number clues, add the number pip
         if not is_color_clue:
@@ -452,6 +454,7 @@ def draw_textbox(svg_file, opts, offset):
             color = {
                 "focus": "gold",
                 "chop": "darkred",
+                "bad": "gray",
             }.get(color, "black")
     else:
         text = opts["text"]

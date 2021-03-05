@@ -3,16 +3,66 @@ id: level-3
 title: Level 3 - Basic Strategy
 ---
 
+import PlayingMultiple1s1 from '@site/image-generator/yml/level-3/playing-multiple-1s-1.yml';
+import PlayingMultiple1s2 from '@site/image-generator/yml/level-3/playing-multiple-1s-2.yml';
+import FixClue1 from '@site/image-generator/yml/level-3/fix-clue-1.yml';
+import FixClue2 from '@site/image-generator/yml/level-3/fix-clue-2.yml';
+import FixClue3 from '@site/image-generator/yml/level-3/fix-clue-3.yml';
+import FixClue4 from '@site/image-generator/yml/level-3/fix-clue-4.yml';
 import SarcasticDiscard from '@site/image-generator/yml/level-3/sarcastic-discard.yml';
-
-import FixClue1 from '@site/image-generator/yml/level-3/fix-clues-1.yml';
-import FixClue2 from '@site/image-generator/yml/level-3/fix-clues-2.yml';
 
 - Level 3 strategies should only be learned if you have played with the group for a few days (20+ games of experience).
 
 <br />
 
 ## Conventions
+
+<br />
+
+### Playing Multiple 1's
+
+#### Part 1 - Play Order Inversion in the Starting Hand
+
+- If one or more 1's in your hand are clued, **you should assume that they are all playable**. (This only applies to 1's, and follows from *Good Touch Principle*.)
+- We agree that playing 1's at the beginning of the game is a special case - you should always **play the 1's in your starting hand from oldest to newest**. (This is a special case because normally, *Play Clues* mean to play the left-most card.)
+- In the below example:
+  - On the first turn of the game, Alice clues number 1 to Bob, which touches three 1s (on slot 2, slot 3, and slot 4).
+  - From *Good Touch Principle*, Bob knows that he can now play all three of these cards.
+  - Bob should play the slot 4 card first, and then the slot 3 card, and then the slot 2 card.
+
+<PlayingMultiple1s1 />
+
+- (The logic behind this convention is explained [in the convention reasons document](https://github.com/hanabi/hanabi.github.io/blob/main/misc/convention-reasons.md#play-order-of-multiple-1s).)
+
+<br />
+
+#### Part 2 - The Fresh 1's Rule
+
+- If:
+  - two (or more) 1's are clued in someone's hand,
+  - and one of the 1's was in the starting hand,
+  - and one of the 1's was not,
+  - then the "fresh" card is probably more important. (Otherwise, the clue might have been given earlier.)
+- Thus, freshly drawn 1's should always be played before any 1's that were present in the starting hand.
+- Continuing on from the example in the previous section, imagine that:
+  - Bob plays his slot 4 card. (He then draws a card, and all of the other cards in his hand slide over.)
+  - Alice clues 1's to Bob, which touches a brand new card on slot 1 and re-touches the ones on slot 3 and slot 4.
+  - Bob knows that fresh 1's have precedence, so he plays the slot 1 card next. After that, he should play the slot 4 card, and then the slot 3 card (e.g. resuming the play order from before).
+
+<PlayingMultiple1s2 />
+
+#### Part 3 - The Chop-Focus Exception
+
+- The *Fresh 1's Rule* has an exception: *Chop-Focus* **overrides** it.
+- For example, in a 3-player game:
+  - No cards are played on the stacks.
+  - Alice discards a red 4.
+  - Bob discards.
+  - Cathy clues number 1 to Alice, touching four 1's on slots 1, 2, 3, and 5.
+  - Alice knows that the correct order to play all of the 1's in is 5, 1, 3, 2:
+    - Alice knows that normally, you are supposed to play freshly-drawn 1's before 1's that were present in your starting hand. However, *Chop-Focus* overrides this rule, so she knows that the slot 5 card (her chop) should play first.
+    - After that, she uses the *Fresh 1's Rule*, and knows to play the 1 in slot 1 next.
+    - After that, she will play the rest of the 1's from oldest to newest (since they were in her starting hand), so she will play slot 3 and then slot 2.
 
 <br />
 
@@ -47,57 +97,23 @@ import FixClue2 from '@site/image-generator/yml/level-3/fix-clues-2.yml';
 
 ### The Fix Clue (That Gives No Additional Information)
 
-- Usually a *Fix Clue* will "fill in" the card to explicitly make it known that the card is unplayable or duplicated. However, it is also possible to perform a *Fix Clue* just by cluing the card again. For example:
+- Usually a *Fix Clue* will "fill in" the card to explicitly make it known that the card is unplayable or duplicated. However, it is also possible to perform a *Fix Clue* just by cluing the card again.
+- In the example below:
   - Alice clues Bob number 1 and it touches three 1's.
   - Bob successfully plays two 1's.
-  - Before Bob can play the 3rd 1, Alice clues Bob number 1 again, and all the clue does is re-touch the remaining 1.
-  - Now it is Bob's turn. Since he was going to play the 1 already without Alice doing anything, the clue must have some other meaning. Thus, it is a *Fix Clue*: the remaining 1 is bad, and Bob can safely discard it.
-- *Fix Clues* that give no additional information only "fix" one card. For example:
+  - Alice clues Bob number 1 again, and all the clue does is re-touch the remaining 1.
+  - Since Bob was going to play the 1 already without Alice doing anything, the clue must have some other meaning. Thus, it is a *Fix Clue*: the remaining 1 is bad, and Bob can safely discard it.
+
+<FixClue3 />
+
+- *Fix Clues* that give no additional information only "fix" one card.
+- In the example below:
   - Alice clues Bob number 1 and it touches three 1's.
   - Bob successfully plays one 1.
-  - Before Bob can play the 2nd 1, Alice clues Bob number 1 again, and all the clue does is re-touch the two remaining 1's.
-  - Now it is Bob's turn. Since he was going to play both of these 1's already without Alice doing anything, the clue must have some other meaning. Thus, it is a *Fix Clue*: the 1 that Bob was about to play is bad, and Bob can safely discard it. Bob skips over the 1 that he was about to play and plays the other one.
+  - Alice clues Bob number 1 again, and all the clue does is re-touch the two remaining 1's.
+  - Since Bob was going to play his 1's already without Alice doing anything, the clue must have some other meaning. Thus, it is a *Fix Clue*: the 1 that Bob was about to play is bad, and Bob can safely discard it. Bob skips over the 1 that he was about to play (on slot 4) and plays the other one (on slot 3).
 
-<br />
-
-### Playing Multiple 1's
-
-#### Part 1 - Play Order Inversion in the Starting Hand
-
-- If one or more 1's in your hand are clued, **you should assume that they are all playable**. (This only applies to 1's, and follows from *Good Touch Principle*.)
-- We agree that playing 1's at the beginning of the game is a special case - you should always **play the 1's in your starting hand from oldest to newest**. (This is a special case because normally, *Play Clues* mean to play the left-most card.)
-
-![Playing Multiple 1's](/img/level-3/playing-multiple-1s-1.png)
-
-- In the above screenshot, on the first turn of the game, Alice clues number 1 to Bob, which touches three 1s on slot 2, slot 3, and slot 4.
-- From *Good Touch Principle*, Bob knows that he can now play all 3 of these cards.
-- Bob should play the slot 4 card first, and then the slot 3 card, and then the slot 2 card.
-- The logic behind this convention is explained [here](https://github.com/hanabi/hanabi.github.io/blob/main/misc/convention-reasons.md#play-order-of-multiple-1s).
-
-#### Part 2 - The Fresh 1's Rule
-
-- If two (or more) 1's are clued in someone's hand, and one of the 1's was in the starting hand, and one of the 1's was not, then the "fresh" card is probably more important. (Otherwise, the clue might have been given earlier.)
-- Thus, freshly drawn 1's should always be played before any 1's that were present in the starting hand.
-- Continuing on from the example in the previous section, imagine that:
-  - Bob plays the slot 4 card. (He then draws a card, and all of the other cards in his hand slide over.)
-  - Alice clues 1's to Bob, which touches a brand new card on slot 1 and re-touches the ones on slot 3 and slot 4.
-
-![Playing Multiple 1's](/img/level-3/playing-multiple-1s-2.png)
-
-- Bob knows that fresh 1's have precedence, so he plays the slot 1 card next. After that, he should play the slot 4 card, and then the slot 3 card (e.g. resuming the play order from before).
-
-#### Part 3 - The Chop-Focus Exception
-
-- The *Fresh 1's Rule* has an exception: *Chop-Focus* **overrides** it.
-- For example, in a 3-player game:
-  - No cards are played on the stacks.
-  - Alice discards a red 4.
-  - Bob discards.
-  - Cathy clues number 1 to Alice, touching four 1's on slots 1, 2, 3, and 5.
-  - Alice knows that the correct order to play all of the 1's in is 5, 1, 3, 2:
-    - Alice knows that normally, you are supposed to play freshly-drawn 1's before 1's that were present in your starting hand. However, *Chop-Focus* overrides this rule, so she knows that the slot 5 card (her chop) should play first.
-    - After that, she uses the *Fresh 1's Rule*, and knows to play the 1 in slot 1 next.
-    - After that, she will play the rest of the 1's from oldest to newest (since they were in her starting hand), so she will play slot 3 and then slot 2.
+<FixClue4 />
 
 <br />
 

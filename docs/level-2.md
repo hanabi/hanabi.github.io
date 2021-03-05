@@ -160,6 +160,7 @@ import WrongPrompt from '@site/image-generator/yml/level-2/wrong-prompt.yml';
 - When a card is *Prompted* and it misplays, everyone can read into this mistake - it was almost certainly a *Wrong Prompt*, meaning that the player who gave the clue probably intended for the *Finesse Position* card to play instead.
 - Thus, if there is nothing else special about the situation, the player who misplayed should go on to play their *Finesse Position* card on the next turn.
 - For example, in a 3-player game:
+  - All of the 1's are played on the stacks.
   - Alice sees that Bob has a red 2 on his *Finesse Position*.
   - Alice clues red to Cathy, touching a red 3 as a *Play Clue*. She is trying to perform a *Finesse*.
   - Bob sees that Alice is signaling that he has the red 2. This must be a *Prompt*, so Bob plays his clued red card as a red 2.

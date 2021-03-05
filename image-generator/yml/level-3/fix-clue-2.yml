@@ -1,11 +1,11 @@
 stacks:
-  - r: 3
-  - y: 2
-  - g: 2
-  - b: 2
-  - p: 4
+  - r: 1
+  - y: 1
+  - g: 0
+  - b: 1
+  - p: 1
 players:
-  - text: Bob assumes that his purple card is a purple 5.
+  - text: Bob assumes that his 1 is a green 1.
   - name: Alice
     cards:
       - type: x
@@ -18,7 +18,7 @@ players:
       - type: x
       - type: x
       - type: x
-      - type: p
+      - type: 1
       - type: x
   - text: Alice gives a Fix Clue.
   - name: Alice
@@ -31,10 +31,12 @@ players:
       - type: x
   - name: Bob
     cards:
+      - type: b
+        clue: b
       - type: x
       - type: x
+      - type: b1
+        clue: b
+        retouched: true
+        below: Focus
       - type: x
-      - type: p3
-        clue: 3
-      - type: x
-
