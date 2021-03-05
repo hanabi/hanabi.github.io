@@ -3,7 +3,7 @@
 - Small bug on Chop Moves & New Clues section - in the 2nd example, clue arrows should be different when re-touching cards to made how it looks on Hanab Live
 - specifying a card as `3r` should throw an error (suit must always come first)
 - level 3
-  - Fix Clues
+  - Fix Clues (part 3)
   - Playing Multiple 1's
 - level 5
   - The Stacked Finesse

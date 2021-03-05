@@ -1,0 +1,38 @@
+stacks:
+  - r: 0
+  - y: 0
+  - g: 0
+  - b: 0
+  - p: 0
+players:
+  - clue_giver: true
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: 1
+        clue: 1
+        below:
+          text:
+            - Play
+            - 1st
+            - (Fresh)
+      - type: x
+      - type: 1
+        clue: 1
+        retouched: true
+        below:
+          text:
+            - Play
+            - 3rd
+      - type: 1
+        clue: 1
+        retouched: true
+        below:
+          text:
+            - Play
+            - 2nd
+      - type: x
