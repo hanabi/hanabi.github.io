@@ -14,10 +14,14 @@ players:
   - cards:
       - type: rm24
       - type: bm3
-      - type: b2
+      - type: rm
   - cards:
       - type: x
         border: true
       - type: m4
         border: false
       - type: xr3
+  - cards:
+      - type: 134
+      - type: x
+      - type: x
