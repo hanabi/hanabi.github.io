@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg"  xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="250" version="1.1" viewBox="0 0 944 250" width="944">
+  <defs>
+        <filter id="shadow">
+        <feOffset in="SourceAlpha" dx="2" dy="2" result="offsetblur"/>
+        <feComponentTransfer result="shadow">
+            <feFuncA type="linear" slope="0.5"/>
+        </feComponentTransfer>
+        <feMorphology in="SourceAlpha" operator="dilate" radius="1" result="border"/>
+        <feMerge>
+            <feMergeNode in="shadow"/>
+            <feMergeNode in="border"/>
+            <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+        </filter>
+    </defs>
+  <image height="100" width="70" x="0" xlink:href="/img/pieces/cards/r0.svg" y="0"/>
+  <image height="100" width="70" x="78" xlink:href="/img/pieces/cards/y0.svg" y="0"/>
+  <image height="100" width="70" x="156" xlink:href="/img/pieces/cards/g0.svg" y="0"/>
+  <image height="100" width="70" x="234" xlink:href="/img/pieces/cards/b0.svg" y="0"/>
+  <image height="100" width="70" x="312" xlink:href="/img/pieces/cards/p0.svg" y="0"/>
+  <text dy="57.0" fill="#000001" style="font-size: 1.4em;" x="464" y="0">Alice</text>
+  <rect fill="orange" height="104" rx="5" ry="5" width="74" x="552.0" y="-2.0"/>
+  <image height="100" width="70" x="554" xlink:href="/img/pieces/cards/b1.svg" y="0"/>
+  <rect fill="orange" height="104" rx="5" ry="5" width="74" x="630.0" y="-2.0"/>
+  <image height="100" width="70" x="632" xlink:href="/img/pieces/cards/b2.svg" y="0"/>
+  <rect fill="orange" height="104" rx="5" ry="5" width="74" x="708.0" y="-2.0"/>
+  <image height="100" width="70" x="710" xlink:href="/img/pieces/cards/b3.svg" y="0"/>
+  <rect fill="orange" height="104" rx="5" ry="5" width="74" x="786.0" y="-2.0"/>
+  <image height="100" width="70" x="788" xlink:href="/img/pieces/cards/b3.svg" y="0"/>
+  <rect fill="orange" height="104" rx="5" ry="5" width="74" x="864.0" y="-2.0"/>
+  <image height="100" width="70" x="866" xlink:href="/img/pieces/cards/b5.svg" y="0"/>
+  <text dy="57.0" fill="#000001" style="font-size: 1.4em;" x="464" y="125">Bob</text>
+  <rect fill="orange" height="104" rx="5" ry="5" width="74" x="552.0" y="123.0"/>
+  <image height="100" width="70" x="554" xlink:href="/img/pieces/cards/r1.svg" y="125"/>
+  <rect fill="orange" height="104" rx="5" ry="5" width="74" x="630.0" y="123.0"/>
+  <image height="100" width="70" x="632" xlink:href="/img/pieces/cards/r2.svg" y="125"/>
+  <rect fill="orange" height="104" rx="5" ry="5" width="74" x="708.0" y="123.0"/>
+  <image height="100" width="70" x="710" xlink:href="/img/pieces/cards/r3.svg" y="125"/>
+  <rect fill="orange" height="104" rx="5" ry="5" width="74" x="786.0" y="123.0"/>
+  <image height="100" width="70" x="788" xlink:href="/img/pieces/cards/r4.svg" y="125"/>
+  <rect fill="orange" height="104" rx="5" ry="5" width="74" x="864.0" y="123.0"/>
+  <image height="100" width="70" x="866" xlink:href="/img/pieces/cards/r5.svg" y="125"/>
+</svg>
+

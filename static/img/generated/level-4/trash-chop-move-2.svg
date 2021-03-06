@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg"  xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="440" version="1.1" viewBox="0 0 944 440" width="944">
+  <defs>
+        <filter id="shadow">
+        <feOffset in="SourceAlpha" dx="2" dy="2" result="offsetblur"/>
+        <feComponentTransfer result="shadow">
+            <feFuncA type="linear" slope="0.5"/>
+        </feComponentTransfer>
+        <feMorphology in="SourceAlpha" operator="dilate" radius="1" result="border"/>
+        <feMerge>
+            <feMergeNode in="shadow"/>
+            <feMergeNode in="border"/>
+            <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+        </filter>
+    </defs>
+  <image height="100" width="70" x="0" xlink:href="/img/pieces/cards/r1.svg" y="0"/>
+  <image height="100" width="70" x="78" xlink:href="/img/pieces/cards/y1.svg" y="0"/>
+  <image height="100" width="70" x="156" xlink:href="/img/pieces/cards/g1.svg" y="0"/>
+  <image height="100" width="70" x="234" xlink:href="/img/pieces/cards/b1.svg" y="0"/>
+  <image height="100" width="70" x="312" xlink:href="/img/pieces/cards/p1.svg" y="0"/>
+  <text dy="57.0" fill="#000001" style="font-size: 1.4em;" x="464" y="0">Alice</text>
+  <svg height="100" width="70" x="554" y="0">
+    <defs/>
+    <rect fill="gray" height="100" rx="5" ry="5" width="70" x="0" y="0"/>
+    <svg height="100" viewBox="-35 -50 70 100" width="70" x="0" y="0">
+      <defs/>
+    </svg>
+  </svg>
+  <svg height="100" width="70" x="632" y="0">
+    <defs/>
+    <rect fill="gray" height="100" rx="5" ry="5" width="70" x="0" y="0"/>
+    <svg height="100" viewBox="-35 -50 70 100" width="70" x="0" y="0">
+      <defs/>
+    </svg>
+  </svg>
+  <svg height="100" width="70" x="710" y="0">
+    <defs/>
+    <rect fill="gray" height="100" rx="5" ry="5" width="70" x="0" y="0"/>
+    <svg height="100" viewBox="-35 -50 70 100" width="70" x="0" y="0">
+      <defs/>
+    </svg>
+  </svg>
+  <svg height="100" width="70" x="788" y="0">
+    <defs/>
+    <rect fill="gray" height="100" rx="5" ry="5" width="70" x="0" y="0"/>
+    <svg height="100" viewBox="-35 -50 70 100" width="70" x="0" y="0">
+      <defs/>
+    </svg>
+  </svg>
+  <svg height="100" width="70" x="866" y="0">
+    <defs/>
+    <rect fill="gray" height="100" rx="5" ry="5" width="70" x="0" y="0"/>
+    <svg height="100" viewBox="-35 -50 70 100" width="70" x="0" y="0">
+      <defs/>
+    </svg>
+  </svg>
+  <text dy="57.0" fill="#000001" style="font-size: 1.4em;" x="464" y="125">Bob</text>
+  <rect fill="orange" height="104" rx="5" ry="5" width="74" x="552.0" y="123.0"/>
+  <svg height="100" width="70" x="554" y="125">
+    <defs/>
+    <image height="100" width="70" x="0" xlink:href="/img/pieces/cards/1.svg" y="0"/>
+    <svg height="100" viewBox="-35 -50 70 100" width="70" x="0" y="0">
+      <defs/>
+    </svg>
+  </svg>
+  <image height="70" width="50" x="564" xlink:href="/img/pieces/arrow.svg" y="85"/>
+  <circle cx="589" cy="110" fill="black" r="15" stroke="white" stroke-width="2"/>
+  <svg height="16" width="16" x="581" y="102">
+    <defs/>
+    <text dominant-baseline="central" fill="white" style="font-size: 1.4em;" text-anchor="middle" x="50%" y="50%">1</text>
+  </svg>
+  <svg height="20" width="64" x="557" y="230">
+    <defs/>
+    <rect fill="peru" height="20" stroke="white" width="64" x="0" y="0"/>
+    <svg height="20" width="64" x="0" y="0">
+      <defs/>
+      <text dominant-baseline="central" fill="white" text-anchor="middle" x="50%" y="50%">Trash</text>
+    </svg>
+  </svg>
+  <svg height="100" width="70" x="632" y="125">
+    <defs/>
+    <rect fill="gray" height="100" rx="5" ry="5" width="70" x="0" y="0"/>
+    <svg height="100" viewBox="-35 -50 70 100" width="70" x="0" y="0">
+      <defs/>
+    </svg>
+  </svg>
+  <svg height="40" width="64" x="635" y="125">
+    <defs/>
+    <rect fill="black" height="40" stroke="white" width="64" x="0" y="0"/>
+    <svg height="20" width="64" x="0" y="0">
+      <defs/>
+      <text dominant-baseline="central" fill="white" text-anchor="middle" x="50%" y="50%">Chop</text>
+    </svg>
+    <svg height="20" width="64" x="0" y="20">
+      <defs/>
+      <text dominant-baseline="central" fill="white" text-anchor="middle" x="50%" y="50%">Moved</text>
+    </svg>
+  </svg>
+  <svg height="100" width="70" x="710" y="125">
+    <defs/>
+    <rect fill="gray" height="100" rx="5" ry="5" width="70" x="0" y="0"/>
+    <svg height="100" viewBox="-35 -50 70 100" width="70" x="0" y="0">
+      <defs/>
+    </svg>
+  </svg>
+  <svg height="40" width="64" x="713" y="125">
+    <defs/>
+    <rect fill="black" height="40" stroke="white" width="64" x="0" y="0"/>
+    <svg height="20" width="64" x="0" y="0">
+      <defs/>
+      <text dominant-baseline="central" fill="white" text-anchor="middle" x="50%" y="50%">Chop</text>
+    </svg>
+    <svg height="20" width="64" x="0" y="20">
+      <defs/>
+      <text dominant-baseline="central" fill="white" text-anchor="middle" x="50%" y="50%">Moved</text>
+    </svg>
+  </svg>
+  <svg height="100" width="70" x="788" y="125">
+    <defs/>
+    <rect fill="gray" height="100" rx="5" ry="5" width="70" x="0" y="0"/>
+    <svg height="100" viewBox="-35 -50 70 100" width="70" x="0" y="0">
+      <defs/>
+    </svg>
+  </svg>
+  <svg height="40" width="64" x="791" y="125">
+    <defs/>
+    <rect fill="black" height="40" stroke="white" width="64" x="0" y="0"/>
+    <svg height="20" width="64" x="0" y="0">
+      <defs/>
+      <text dominant-baseline="central" fill="white" text-anchor="middle" x="50%" y="50%">Chop</text>
+    </svg>
+    <svg height="20" width="64" x="0" y="20">
+      <defs/>
+      <text dominant-baseline="central" fill="white" text-anchor="middle" x="50%" y="50%">Moved</text>
+    </svg>
+  </svg>
+  <svg height="100" width="70" x="866" y="125">
+    <defs/>
+    <rect fill="gray" height="100" rx="5" ry="5" width="70" x="0" y="0"/>
+    <svg height="100" viewBox="-35 -50 70 100" width="70" x="0" y="0">
+      <defs/>
+    </svg>
+  </svg>
+  <svg height="40" width="64" x="869" y="125">
+    <defs/>
+    <rect fill="black" height="40" stroke="white" width="64" x="0" y="0"/>
+    <svg height="20" width="64" x="0" y="0">
+      <defs/>
+      <text dominant-baseline="central" fill="white" text-anchor="middle" x="50%" y="50%">Chop</text>
+    </svg>
+    <svg height="20" width="64" x="0" y="20">
+      <defs/>
+      <text dominant-baseline="central" fill="white" text-anchor="middle" x="50%" y="50%">Moved</text>
+    </svg>
+  </svg>
+  <text dy="20" fill="#000001" x="504" y="265">After discarding the 1...</text>
+  <text dy="57.0" fill="#000001" style="font-size: 1.4em;" x="464" y="315">Bob</text>
+  <svg height="100" width="70" x="554" y="315">
+    <defs/>
+    <rect fill="gray" height="100" rx="5" ry="5" width="70" x="0" y="0"/>
+    <svg height="100" viewBox="-35 -50 70 100" width="70" x="0" y="0">
+      <defs/>
+    </svg>
+  </svg>
+  <svg height="20" width="64" x="557" y="315">
+    <defs/>
+    <rect fill="darkred" height="20" stroke="white" width="64" x="0" y="0"/>
+    <svg height="20" width="64" x="0" y="0">
+      <defs/>
+      <text dominant-baseline="central" fill="white" text-anchor="middle" x="50%" y="50%">Chop</text>
+    </svg>
+  </svg>
+  <svg height="100" width="70" x="632" y="315">
+    <defs/>
+    <rect fill="gray" height="100" rx="5" ry="5" width="70" x="0" y="0"/>
+    <svg height="100" viewBox="-35 -50 70 100" width="70" x="0" y="0">
+      <defs/>
+    </svg>
+  </svg>
+  <svg height="40" width="64" x="635" y="315">
+    <defs/>
+    <rect fill="black" height="40" stroke="white" width="64" x="0" y="0"/>
+    <svg height="20" width="64" x="0" y="0">
+      <defs/>
+      <text dominant-baseline="central" fill="white" text-anchor="middle" x="50%" y="50%">Chop</text>
+    </svg>
+    <svg height="20" width="64" x="0" y="20">
+      <defs/>
+      <text dominant-baseline="central" fill="white" text-anchor="middle" x="50%" y="50%">Moved</text>
+    </svg>
+  </svg>
+  <svg height="100" width="70" x="710" y="315">
+    <defs/>
+    <rect fill="gray" height="100" rx="5" ry="5" width="70" x="0" y="0"/>
+    <svg height="100" viewBox="-35 -50 70 100" width="70" x="0" y="0">
+      <defs/>
+    </svg>
+  </svg>
+  <svg height="40" width="64" x="713" y="315">
+    <defs/>
+    <rect fill="black" height="40" stroke="white" width="64" x="0" y="0"/>
+    <svg height="20" width="64" x="0" y="0">
+      <defs/>
+      <text dominant-baseline="central" fill="white" text-anchor="middle" x="50%" y="50%">Chop</text>
+    </svg>
+    <svg height="20" width="64" x="0" y="20">
+      <defs/>
+      <text dominant-baseline="central" fill="white" text-anchor="middle" x="50%" y="50%">Moved</text>
+    </svg>
+  </svg>
+  <svg height="100" width="70" x="788" y="315">
+    <defs/>
+    <rect fill="gray" height="100" rx="5" ry="5" width="70" x="0" y="0"/>
+    <svg height="100" viewBox="-35 -50 70 100" width="70" x="0" y="0">
+      <defs/>
+    </svg>
+  </svg>
+  <svg height="40" width="64" x="791" y="315">
+    <defs/>
+    <rect fill="black" height="40" stroke="white" width="64" x="0" y="0"/>
+    <svg height="20" width="64" x="0" y="0">
+      <defs/>
+      <text dominant-baseline="central" fill="white" text-anchor="middle" x="50%" y="50%">Chop</text>
+    </svg>
+    <svg height="20" width="64" x="0" y="20">
+      <defs/>
+      <text dominant-baseline="central" fill="white" text-anchor="middle" x="50%" y="50%">Moved</text>
+    </svg>
+  </svg>
+  <svg height="100" width="70" x="866" y="315">
+    <defs/>
+    <rect fill="gray" height="100" rx="5" ry="5" width="70" x="0" y="0"/>
+    <svg height="100" viewBox="-35 -50 70 100" width="70" x="0" y="0">
+      <defs/>
+    </svg>
+  </svg>
+  <svg height="40" width="64" x="869" y="315">
+    <defs/>
+    <rect fill="black" height="40" stroke="white" width="64" x="0" y="0"/>
+    <svg height="20" width="64" x="0" y="0">
+      <defs/>
+      <text dominant-baseline="central" fill="white" text-anchor="middle" x="50%" y="50%">Chop</text>
+    </svg>
+    <svg height="20" width="64" x="0" y="20">
+      <defs/>
+      <text dominant-baseline="central" fill="white" text-anchor="middle" x="50%" y="50%">Moved</text>
+    </svg>
+  </svg>
+</svg>
+
