@@ -30,7 +30,7 @@ title: Level 14 - Double Bluffs
 
 ### The Double Bluff
 
-- Similar to a *Double Half Bluff*, it is also possible to get 2 cards played in a row that are completely unrelated. It is distinct from a *Double Half Bluff* because **none** of the blind-played cards match the card that is clued.
+- Similar to a *Double Half Bluff*, it is also possible to get 2 cards played in a row that are completely unrelated. It is distinct from a *Double Half Bluff* because **none** of the blind-played cards connect to the card that is clued.
 - For example, in a 4-player game:
   - Red 1 is currently played on the stacks.
   - Alice clues Donald red, which touches a red 4 as a *Play Clue*.
@@ -113,7 +113,7 @@ title: Level 14 - Double Bluffs
   - Bob blind-plays a red 2 from his *Finesse Position*.
   - Cathy blind-plays a red 3 from her *Finesse Position*.
   - Donald sees that no-one else has any red cards in their hand. Thus, if this was a *Triple Finesse* on the red 5, then Donald should blind-play the red 4 right now.
-  - However, Donald also knows that 5's are valid *Double Bluff* targets. Since number 3 does not match number 5, Donald knows that he should prefer the *Double Bluff* interpretation (that gets two blind-plays) over the *Triple Finesse* interpretation (that gets three blind-plays).
+  - However, Donald also knows that 5's are valid *Double Bluff* targets. Since number 3 does not connect to number 5, Donald knows that he should prefer the *Double Bluff* interpretation (that gets two blind-plays) over the *Triple Finesse* interpretation (that gets three blind-plays).
 
 <br />
 

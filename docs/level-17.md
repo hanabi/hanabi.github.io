@@ -60,7 +60,7 @@ title: Level 17 - 5 Tech
   - Normally, Bob would think that this is a *Finesse* and that he should blind-play his *Finesse Position* card as the red 4.
   - However, Bob knows that *Play Clues* with a number 5 clue are "turned off" in the *Low Score Phase*, which means that Alice is **not** indicating that the red 5 is playable.
   - Bob can see that there is a playable blue 1 to the right of the 5, so Alice must be intending a *5 Pull*. When it gets to Cathy's turn, Cathy will blind-play that card.
-- Since *5 Pulls* are never *Play Clues* on the 5, it is possible to *5 Pull* a 4 without promising that the 5 matches the suit.
+- Since *5 Pulls* are never *Play Clues* on the 5, it is possible to *5 Pull* a 4 without promising that the 5 is the same suit.
 - Confusingly, *5 Pulls* work differently from *Finesses*. Even though they involve playing a blind card, a *5 Pull* should be treated as a *Delayed Play Clue* (or a potential *Prompt*). This means that the blind card could play through any existing touched cards.
 - When a player is *Finessed* or *Bluffed*, they are allowed to defer playing the blind card in order to do a *Finesse* or *Bluff* of their own. However, if they could be *Bluffed*, they are **not** allowed to initiate a *5 Pull*. (Players are still allowed to defer playing into a *Finesse* in order to initiate a *5 Pull*.)
 - In the rare case where a *5 Pull* is performed in a 3-player game by touching two 5's in slot 1 and slot 3, then the *5 Pulled* card is slot 2.
@@ -89,7 +89,7 @@ title: Level 17 - 5 Tech
   - Cathy knows that the only reason that Bob would blind-play a card is it this was a *5 Pull Finesse*. Cathy blind-plays her slot 4 card. It is a red 2 and it successfully plays.
 - Unlike other types of *Finesses*, *5 Pull Finesses* **must** be demonstrated with a blind-play between when the *5 Pull* is given and the *5 Pulled* player's next turn (e.g. a *Forward Finesse*).
 - Subsequently, *5 Pulls* are **not** allowed to initiate a *Reverse Finesse*. (This is because we don't want the person with the pulled card to have to entertain too many possibilities.)
-- Remember that during a *5 Pull Finesse*, the pulled card **always** matches the blind-play. In other words, it impossible to perform a *5 Pull Bluff*.
+- Remember that during a *5 Pull Finesse*, the pulled card **always** connects to the blind-play. In other words, it not possible to perform a *5 Pull Bluff*.
 
 <br />
 
@@ -97,14 +97,14 @@ title: Level 17 - 5 Tech
 
 - First, see the section on the [5 Pull Finesse](#the-5-pull-prompt--the-5-pull-finesse).
 - As you would expect, it is also possible to perform a *5 Pull Double Finesse* in the exact same way that you can *5 Pull Finesse*.
-- The "pulled" card will always match the final blind-play.
+- The "pulled" card will always connect to the final blind-play.
 - For example in a 4-player game:
   - It is the first turn of the game and nothing is played on the stacks.
   - Donald's hand is as follows, from newest to oldest: `blue 4, blue 4, blue 5, red 3, blue 2`
   - Alice clues number 5 to Donald, touching the blue 5 on slot 3.
   - Bob blind-plays the red 1 (because he knows that it cannot be a *5 Stall*).
   - Cathy blind-plays the red 2 (because she knows that she needs to play into the *Double Finesse*).
-  - Donald knows that the *5 Pulled* card is the red 3 to match the red 1 and the red 2.
+  - Donald knows that the *5 Pulled* card is the red 3 (connecting to the red 1 and the red 2).
 - Previously, we said that *5 Pull Finesse* **must** be a *Forward Finesse*. However, *5 Pulled* players **do** have to respect that a *5 Pull Finesse* can be a *5 Pull Double Finesse* with the second blind-play as a *Reverse Finesse*. (Specifically, we refer to this as a *Finesse* with a *Reverse Finesse* component.)
 - More examples of a *5 Pull Double Finesse* can be found [here](examples/5-pull-double-finesse.md).
 
@@ -121,9 +121,9 @@ title: Level 17 - 5 Tech
   - Cathy's hand is as follows, from newest to oldest: `blue 4, blue 4, blue 5, green 2, blue 2`
   - Alice clues number 5 to Cathy, touching the blue 5 on slot 3.
   - Bob blind-plays the red 1 (because he knows that it cannot be a *5 Stall*).
-  - Normally, Cathy would think that Alice performed a *5 Pull Finesse*, and she would blind-play her slot 4 card as the red 2 (to match the red 1).
+  - Normally, Cathy would think that Alice performed a *5 Pull Finesse*, and she would blind-play her slot 4 card as the red 2 (which would connect to the red 1).
   - However, Cathy also sees that at the time of the clue, Bob had a playable green 1 behind the red 1. Thus, it is possible that Alice might be performing a *5 Pull Clandestine Finesse*.
-  - Cathy clues number 5 to Bob as a *5 Save*. (This is an unrelated clue.)
+  - Cathy performs an unrelated action.
   - Alice performs an unrelated action.
   - Bob blind-plays the green 1 from slot 2.
   - Cathy now knows that this was indeed a *5 Pull Clandestine Finesse* and that she has the green 2 on her slot 4.

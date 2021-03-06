@@ -42,9 +42,9 @@ title: Level 19 - Advanced Moves
 
 ### The Out-of-Order Finesse
 
-- Sometimes, a *Finesse* is initiated by giving a color clue to two or more cards where the next card in the sequence is clued, but it is **not** the focus of the clue.
-- When this happens, the *Finesse* will still work: a player will blind-play a matching card. However, a *Fix Clue* must then be given to the player who originally received the clue, or they will go on to misplay.
-- Normally, after receiving a *Fix Clue*, a player would normally "stop" and not assume anything else about his hand. However, this is a special situation: when the original *Finesse* was given, it was a message that the focus of the clue was playable. *Information Lock Principle* applies, and it means that the original focus of the clue is also playable.
+- Sometimes, a *Finesse* is initiated by giving a color clue that focuses the wrong card.
+- When this happens, the *Finesse* will still work: a player will blind-play a connecting card. However, a *Fix Clue* must then be given to the player who received the clue, or they will go on to misplay.
+- Normally, after receiving a *Fix Clue*, a player would "stop" and not assume anything else about his hand. However, when an *Out-of-Order* clue is given, the player should always go on to play the original focus of the clue.
 - For example, in a 3-player game:
   - It is the first turn and nothing is played on the stacks.
   - Bob has a red 3 and a red 2 (on slots 1 and 2 respectively).
@@ -90,16 +90,16 @@ title: Level 19 - Advanced Moves
   - Red 2 and blue 2 are played on the stacks.
   - Alice clues Cathy number 4, which touches a red 4.
   - Bob blind-plays a blue 3 from his *Finesse Position*.
-  - Since 3 matches 4, Cathy knows she has the blue 4, and goes on to misplay red 4 as blue 4.
+  - Since 3 connects to 4, Cathy knows she has the blue 4, and goes on to misplay red 4 as blue 4.
   - Thus, Alice should not have given this clue.
-- However, what if someone else on the team already has the matching card? In this situation, the clue can be given without fear: from *Good Touch Principle*, the clue recipient will know that it is a *Bluff* instead of a *Finesse*.
+- However, what if someone else on the team already has the connecting card? In this situation, the clue can be given without fear: from *Good Touch Principle*, the clue recipient will know that it is a *Bluff* instead of a *Finesse*.
 - For example, in a 4-player game:
   - Red 2 and blue 2 are played on the stacks.
   - Alice clues Cathy number 4, which touches a red 4.
   - Bob blind-plays a blue 3 from his *Finesse Position*.
-  - Cathy's first thought is that since 3 matches 4, she must have the blue 4. However, Cathy sees that Donald already has a clued blue 4 it in his hand. (The blue 4 just has a blue clue on it and the true identity of the card is not yet known to Donald.)
+  - Cathy's first thought is that since 3 connects to 4, she must have the blue 4. However, Cathy sees that Donald already has a clued blue 4 it in his hand. (The blue 4 just has a blue clue on it and the true identity of the card is not yet known to Donald.)
   - Cathy knows that she must **not** have the blue 4, because then Alice's clue would have violated *Good Touch Principle*. Cathy can reason that her 4 is instead some **other** *one-away-from-playable* 4. The only other valid *Bluff* target is the red 4 (because the only *one-away-from-playable* 4 is red 4). So, Cathy marks her number 4 card as a red 4, and discards.
-  - Donald is surprised by Alice's clue. From Donald's perspective, Cathy should have misplayed the red 4 as the blue 4, since 3 matches 4.
+  - Donald is surprised by Alice's clue. From Donald's perspective, Cathy should have misplayed the red 4 as the blue 4, since 3 connects to 4.
   - Since Cathy did not misplay, Donald can reason that **he** must have the blue 4. Donald marks the previously unknown blue card in his hand as blue 4.
 
 <br />
@@ -107,7 +107,7 @@ title: Level 19 - Advanced Moves
 ### The Pestilent Double Bluff (PDB)
 
 - First, see the section on the *[Good Touch Bluff](#the-good-touch-bluff)*.
-- In the *Good Touch Bluff*, a *Bluff* is given that looks like a *Finesse*. However, what a *Good Touch Bluff* is performed and the "matching" card is not yet clued?
+- In the *Good Touch Bluff*, a *Bluff* is given that looks like a *Finesse*. However, what a *Good Touch Bluff* is performed and the "connecting" card is not yet clued?
 - In this situation, if the cluer is not making a mistake, they are trying to send a deeper message - they want an extra person to blind-play.
 - For example, in a 4-player game:
   - It is the first turn and nothing is played on the stacks.
@@ -154,4 +154,4 @@ title: Level 19 - Advanced Moves
   - Alice clues 3's to Cathy, which re-touches the red 3 (and gives no additional information to it).
   - Bob blind-plays green 1. If this was a *3 Bluff*, then no-one would be promised the green 2. However, since no new information was given, it must be a *No-Information Double Finesse*.
   - Cathy sees that Bob does not have the green 2, so she must have the green 2, so she blind-plays her *Finesse Position* card, and it is yellow 1 instead of green 2.
-  - Since two cards were blind-played (that did not match), everyone now knows that the *No-Information* clue was a *Double Bluff* instead of a *Double Finesse*. From Cathy's perspective, her 3 can (still) be any 3 at all.
+  - Since two cards were blind-played (that did not connect to anything), everyone now knows that the *No-Information* clue was a *Double Bluff* instead of a *Double Finesse*. From Cathy's perspective, her 3 can (still) be any 3 at all.
