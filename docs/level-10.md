@@ -6,14 +6,14 @@ title: Level 10 - Bluffs
 import Bluff from '@site/image-generator/yml/level-10/bluff.yml';
 import BluffThroughClued from '@site/image-generator/yml/level-10/bluff-through-already-clued-cards.yml';
 import TruthPrinciple from '@site/image-generator/yml/level-10/truth-principle.yml';
-import ColorMatch from '@site/image-generator/yml/level-10/color-match.yml';
-import ColorMismatch from '@site/image-generator/yml/level-10/color-mismatch.yml';
-import RankMatch from '@site/image-generator/yml/level-10/rank-match.yml';
-import RankMismatch from '@site/image-generator/yml/level-10/rank-mismatch.yml';
-import RankMismatchBluffImpossible from '@site/image-generator/yml/level-10/rank-mismatch-bluff-impossible.yml';
-import RankMatchFinesseImpossible from '@site/image-generator/yml/level-10/rank-match-finesse-impossible.yml';
-import ColorMatchRainbow from '@site/image-generator/yml/level-10/color-match-rainbow.yml';
-import ColorMatchRainbowFinesseImpossible from '@site/image-generator/yml/level-10/color-match-rainbow-finesse-impossible.yml';
+import ColorConnect from '@site/image-generator/yml/level-10/color-connect.yml';
+import ColorDisconnect from '@site/image-generator/yml/level-10/color-disconnect.yml';
+import RankConnect from '@site/image-generator/yml/level-10/rank-connect.yml';
+import RankDisconnect from '@site/image-generator/yml/level-10/rank-disconnect.yml';
+import RankDisconnectBluffImpossible from '@site/image-generator/yml/level-10/rank-disconnect-bluff-impossible.yml';
+import RankConnectFinesseImpossible from '@site/image-generator/yml/level-10/rank-connect-finesse-impossible.yml';
+import ColorConnectRainbow from '@site/image-generator/yml/level-10/color-connect-rainbow.yml';
+import ColorConnectRainbowFinesseImpossible from '@site/image-generator/yml/level-10/color-connect-rainbow-finesse-impossible.yml';
 
 - Level 10 strategies should only be learned if you have 160+ games of experience with the group.
 
@@ -26,8 +26,8 @@ import ColorMatchRainbowFinesseImpossible from '@site/image-generator/yml/level-
 ### The Bluff
 
 - *Finesses* are quite efficient. So, when you see a playable card in someone's *Finesse Position* slot, you will often want to "get" the card with a *Finesse* (instead of cluing it directly). However, often times, the proper "connecting" card is not on the table.
-- In this situation, players can perform an alternate strategy by fibbing to the next player. By cluing an unrelated, *one-away-from-playable* card, the next player will think that it is a *Finesse* and that they have the matching card. Then, they will blind-play their *Finesse Position* card. This is called a *Bluff*.
-- After the card is blind-played, the player who received the clue will realize that something strange has happened - the type of clue **did not match** the card that was blind-played. Thus, the clued card is not currently playable and must be a *one-away-from-playable* card.
+- In this situation, players can perform an alternate strategy by fibbing to the next player. By cluing an unrelated, *one-away-from-playable* card, the next player will think that it is a *Finesse* and that they have the connecting card. Then, they will blind-play their *Finesse Position* card. This is called a *Bluff*.
+- After the card is blind-played, the player who received the clue will realize that something strange has happened - the type of clue **did not connect** to the card that was blind-played. Thus, the clued card is not currently playable and must be a *one-away-from-playable* card.
 - For example, in a 3-player game:
   - All the 2's are played on the stacks.
   - Alice clues Cathy red, which touches a red 4 as a *Play Clue*.
@@ -54,12 +54,13 @@ import ColorMatchRainbowFinesseImpossible from '@site/image-generator/yml/level-
   - Bob plays his *Finesse Position* card as red 2. Instead, it is a blue 2 and it successfully plays.
   - From Cathy's perspective, she knows that the red 4 is *two-away-from-playable* instead of *one-away-from-playable*. *Bluffs* on *two-away-from-playable* cards are normally illegal. Thus, Cathy's mystery 3 must be exactly red 3, making the red 4 *one-away-from-playable* after all.
   - Cathy discards.
-  - From Donald's perspective, since red (the type of clue that was given) does not match blue (the card that was blind-played), this must be a *Bluff*. Normally, since the red 1 is currently played on the stacks, Donald would think that he has the red 3 (e.g. the *one-away-from-playable* red card).
+  - From Donald's perspective, since red (the type of clue that was given) does not connect to blue (the card that was blind-played), this must be a *Bluff*. Normally, since the red 1 is currently played on the stacks, Donald would think that he has the red 3 (e.g. the *one-away-from-playable* red card).
   - However, Cathy already has a clued red 3 in her hand. If Donald also had a red 3, then Alice's clue would be violating *Good Touch Principle*. Thus, Donald must have the red 4 instead.
 
 <BluffThroughClued />
 
 - Sometimes, the player who has the in-between card might have more than one "matching" clued card. In this situation, the player is promised that they have the in-between card, but they are not promised the position - it can be any of the matching clued cards.
+- For example, in the previous situation, if Cathy had two different red cards clued in her hand, then either one could be the red 3 - she is not promised the position of the card.
 
 <br />
 
@@ -83,103 +84,103 @@ import ColorMatchRainbowFinesseImpossible from '@site/image-generator/yml/level-
   - Bob knows that if this is a *Finesse*, then Cathy will blind-play the blue 2, and then Donald will know that he has the blue 3. If this is the case, Bob should not do anything special.
   - Bob also knows that if this is a *Bluff*, then Bob should blind-play his *Finesse Position* card immediately.
   - Bob knows that if there is any way that this could be a *Finesse* (the truth), he should **assume that the truth is being told**. Thus, Bob knows that it must be a *Finesse* on Cathy and should not blind-play anything.
-- This is called *Bob's Truth Principle*, because Bob always assumes the truth over a *Lie*.
+- This is called *Bob's Truth Principle*, because Bob always assumes the truth over a *Fib*.
 
 <br />
 
-### Cathy's Match Principle (Part 2)
+### Cathy's Connecting Principle (Part 2)
 
 - First, see the section on *[Bob's Truth Principle](#bobs-truth-principle-part-1)*.
 - Previously, we considered the case of Bob before he blind-played a card.
 - Now, we can consider the case of Bob **after** he has blind-played a card, which also extends to Cathy and every other player on the team. How does everyone know whether Alice did a *Finesse* or a *Bluff* on Bob?
-- The way to find out is to look at **whether the card that blind-played "matches" the clue that was given**. If the clue matches, then it is a *Finesse*. If the clue did not match, then it is a *Bluff*.
-- This is called *Cathy's Match Principle* in order to highlight that everyone needs to assume different things than Bob did (before he blind-played anything).
-- If it is ambiguous whether or not the card matches, then everyone should **assume a *Bluff* over a *Finesse***. Note that this is the **opposite** of the precedence in *Bob's Truth Principle*!
+- The way to find out is to look at **whether the card that blind-played "connects" to the clue that was given**. If the clue connects, then it is a *Finesse*. If the clue did not connect, then it is a *Bluff*.
+- This is called *Cathy's Connecting Principle* in order to highlight that everyone needs to assume different things than Bob did (before he blind-played anything).
+- If it is ambiguous whether or not the card connects, then everyone should **assume a *Bluff* over a *Finesse***. Note that this is the **opposite** of the precedence in *Bob's Truth Principle*!
 
-#### Example 1 (Color Match)
+#### Example 1 (Color Connect)
 
 - Red 1 is played on the stacks.
 - Alice clues Cathy red, touching a red card as a *Play Clue*.
 - Bob blind-plays a red 2.
-- This must be a *Finesse*, because **red matches red**. So Cathy should think that she has the red 3.
+- This must be a *Finesse*, because **red connects to red**. So Cathy should think that she has the red 3.
 - This is a textbook *Finesse*; it can't get any more basic than this.
 
-<ColorMatch />
+<ColorConnect />
 
-#### Example 2 (Color Mismatch)
+#### Example 2 (Color Disconnect)
 
 - Red 1 is played on the stacks.
 - Alice clues Cathy red, touching a red card as a *Play Clue*.
 - Bob blind-plays a blue 1.
-- This must be a *Bluff*, because **blue does not match red**. So Cathy should think that she has the *one-away-from-playable* red card, the red 3.
+- This must be a *Bluff*, because **blue does not connect to red**. So Cathy should think that she has the *one-away-from-playable* red card, the red 3.
 - This is a textbook *Bluff*; it can't get any more basic than this.
 
-<ColorMismatch />
+<ColorDisconnect />
 
-#### Example 3 (Rank Match)
+#### Example 3 (Rank Connect)
 
 - Red 2 is played on the stacks.
 - Alice clues Cathy number 4, touching a 4 as a *Play Clue*.
 - Bob blind-plays the red 3.
-- This must be a *Finesse*, because **3 matches 4**. So Cathy should think that she has the red 4.
+- This must be a *Finesse*, because **3 connects to 4**. So Cathy should think that she has the red 4.
 
-<RankMatch />
+<RankConnect />
 
-#### Example 4 (Rank Mismatch)
+#### Example 4 (Rank Disconnect)
 
 - Red 2 is played on the stacks.
 - Alice clues Cathy number 4, touching a 4 as a *Play Clue*.
 - Bob blind-plays the blue 1.
 - This could be a *Triple Finesse* (on blue 1 + blue 2 + blue 3 into blue 4) or it could be a *Bluff* (on just blue 1 into red 4).
-- However, this must be a *Bluff*, because **1 does not match 4**. So Cathy should think that she has the *one-away-from-playable* 4, the red 4.
+- However, this must be a *Bluff*, because **1 does not connect to 4**. So Cathy should think that she has the *one-away-from-playable* 4, the red 4.
 - The point of this example is to show that because a 2 happens to be played on the stacks, the red 4 is a *one-away-from-playable* card and therefore becomes a legal *Bluff* target.
 
-<RankMismatch />
+<RankDisconnect />
 
-#### Example 5 (Rank Mismatch Where a *Bluff* Is Impossible)
+#### Example 5 (Rank Disconnect Where a *Bluff* Is Impossible)
 
 - This is a 4-player game.
 - Nothing is played on the stacks.
 - Alice clues Donald number 4, touching a 4 as a *Play Clue*.
 - Bob blind-plays the red 1.
 - Cathy discards.
-- Donald needs to evaluate whether or not Alice's clue is a *Finesse* or a *Bluff*. However, he knows that it **cannot** be a *Bluff*, because there are no *one-away-from-playable* 4's. So even though **1 does not match 4**, this must be a *Finesse*, because Alice is not allowed to perform a *Bluff* with any card that she wants.
-- Donald does not see any other red cards in Bob's hand. So Donald should think that he has the red 4, because that would match the blind-play of a red 1. Subsequently, Donald must have red 2 on his *Finesse Position* and red 3 on his *Second Finesse Position*.
+- Donald needs to evaluate whether or not Alice's clue is a *Finesse* or a *Bluff*. However, he knows that it **cannot** be a *Bluff*, because there are no *one-away-from-playable* 4's. So even though **1 does not connect to 4**, this must be a *Finesse*, because Alice is not allowed to perform a *Bluff* with any card that she wants.
+- Donald does not see any other red cards in Bob's hand. So Donald should think that he has the red 4, because that would connect to the blind-play of a red 1. Subsequently, Donald must have red 2 on his *Finesse Position* and red 3 on his *Second Finesse Position*.
 
-<RankMismatchBluffImpossible />
+<RankDisconnectBluffImpossible />
 
-#### Example 6 (Rank Match Where a *Finesse* Is Impossible)
+#### Example 6 (Rank Connect Where a *Finesse* Is Impossible)
 
 - Red 2 and blue 2 is played on the stacks.
 - Alice clues Cathy number 4, touching a 4 as a *Play Clue*.
 - Bob blind-plays the blue 3.
-- Normally, Cathy would think that this is a *Finesse*, because **3 matches 4**, meaning that Cathy's 4 is the blue 4.
+- Normally, Cathy would think that this is a *Finesse*, because **3 connects to 4**, meaning that Cathy's 4 is the blue 4.
 - However, Cathy notices that her 4 has a negative blue clue on it. Thus, it cannot be the blue 4.
 - This must instead be a *Bluff*. Cathy marks her 4 as the red 4 (since red 4 is the only other *one-away-from-playable* 4).
 
-<RankMatchFinesseImpossible />
+<RankConnectFinesseImpossible />
 
-#### Example 7 (Color Match With Rainbow)
+#### Example 7 (Color Connect With Rainbow)
 
 - This is a game with a rainbow suit. (The other examples in this section assume a "No Variant" game.)
 - Rainbow 1 is played on the stacks.
 - Alice clues Cathy red, touching a red card as a *Play Clue*.
 - Bob blind-plays a rainbow 2.
-- This must be a *Finesse*, because **red matches red** (rainbow cards match every color). So Cathy should think that she has the rainbow 3.
+- This must be a *Finesse*, because **red connects to red** (rainbow cards connect to every color). So Cathy should think that she has the rainbow 3.
 
-<ColorMatchRainbow />
+<ColorConnectRainbow />
 
-#### Example 8 (Color Match With Rainbow Where a *Finesse* Is Impossible)
+#### Example 8 (Color Connect With Rainbow Where a *Finesse* Is Impossible)
 
 - This is a game with a rainbow suit. (The other examples in this section assume a "No Variant" game.)
 - Rainbow 1 and red 2 are played on the stacks.
 - Alice clues Cathy red, touching a red card as a *Play Clue*.
 - Bob blind-plays a rainbow 2.
-- Normally, Cathy would think that this is a *Finesse*, because **red matches red** (rainbow cards match every color), meaning that Cathy's red card is the rainbow 3.
+- Normally, Cathy would think that this is a *Finesse*, because **red connects to red** (rainbow cards connect to every color), meaning that Cathy's red card is the rainbow 3.
 - However, Cathy notices that her red card has a negative blue clue on it. Thus, it cannot be the rainbow 3.
 - This must instead be a *Bluff*. Cathy marks her red card as the red 4 (since the red 4 is the *one-away-from-playable* red card).
 
-<ColorMatchRainbowFinesseImpossible />
+<ColorConnectRainbowFinesseImpossible />
 
 <br />
 
@@ -207,7 +208,7 @@ import ColorMatchRainbowFinesseImpossible from '@site/image-generator/yml/level-
 - When a clue could have multiple interpretations, usually *Schrödinger's Cat Principle* is involved - players must wait a round and see what their teammates do in order to find out the true meaning of the clue. But what if a clue could have multiple interpretations and a player does **not** have to wait for information from anyone else?
 - For example:
   - Alice gives a weird clue to Cathy.
-  - Bob does not see any "matching" cards in anybody else's hands, so he can rule out a *Prompt* and he can rule out a *Reverse Finesse*.
+  - Bob does not see any "connecting" cards in anybody else's hands, so he can rule out a *Prompt* and he can rule out a *Reverse Finesse*.
 - In this situation, we would say that Bob is the *reacting player*. If a *reacting player* does not "react" to a clue in some demonstrable way, then someone else on the team will go on to misplay a card. So, the *reacting player* has to immediately decide what the clue means and perform the resulting action.
   - In some situations, there can be two *reacting players* in a row. For example, if Alice clues a *two-away-from-playable* card, then Bob must react **and** Cathy must react.
 - So how does a *reacting player* figure out what the clue means? They should use *Occam's Razor* - always assume the simplest possible interpretation.

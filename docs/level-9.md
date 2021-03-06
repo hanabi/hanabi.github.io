@@ -147,7 +147,7 @@ import CompositionFinesse from '@site/image-generator/yml/level-9/composition-fi
 
 - Normally, when a player performs a *Gentleman's Discard*, they know the **exact** identity of the card that they are discarding.
 - However, sometimes a *Gentleman's Discard* can occur where, from your perspective, the card could have been two different things. Does this mean that the *Gentleman's Discard* "gets" **both** of the cards?
-- No, it does not. By convention, even if it looks like the player could not have known the true identity of the card, the *Gentleman's Discard* only gets the specific other matching card. (The reason for this is that it allows players to act upon asymmetric information.)
+- No, it does not. Even if it looks like the player could not have known the true identity of the card, the *Gentleman's Discard* only gets the specific other matching card. (The reason for this is that it allows players to act upon asymmetric information.)
 - For example, in a 3-player game:
   - Red 1 and blue 1 are played on the stacks.
   - Alice clues Bob number 2, which touches a red 2 on slot 1. This is a *Play Clue* on the 2. Thus, this is a globally known red 2 or blue 2. Alice right-clicks the card and writes a note of "r2, b2".

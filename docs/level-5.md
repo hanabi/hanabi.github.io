@@ -82,16 +82,16 @@ import ClandestineFinesse from '@site/image-generator/yml/level-5/clandestine-fi
 ### The Clandestine Finesse
 
 - To the player who receives a clue that initiates a *Layered Finesse*, it is usually obvious what is going on. For example, in a 4-player game:
-  - Alice clues Donald about one blue card.
+  - Alice clues Donald blue, touching one blue card.
   - Bob discards.
   - Cathy blind-plays a green 1.
-  - Donald clearly knows that this is a *Layered Finesse* on Cathy, and she will continue to play cards until she finds the blue card that matches the one in his hand.
-- In other words, most *Layered Finesses* cause unrelated cards to blind-play that do not match the type of clue given.
-- With that said, it is also possible to perform a *Layered Finesse* for unrelated cards that **do** match the type of the clue given. When this happens, it is hidden from the receiver of the clue, so we call it a *Clandestine Finesse* to disambiguate it from a (more obvious) *Layered Finesse*.
+  - Donald clearly knows that this is a *Layered Finesse* on Cathy - Cathy will continue to play cards until she finds the blue card that connects to the one in his hand.
+- In other words, most *Layered Finesses* cause unrelated cards to blind-play that do not connect to the type of clue given.
+- With that said, it is also possible to perform a *Layered Finesse* for unrelated cards that **do** connect to the type of the clue given. When this happens, it is hidden from the receiver of the clue, so we call it a *Clandestine Finesse* to disambiguate it from a (more obvious) *Layered Finesse*.
 - For example, in a 3-player game:
   - Alice clues number 3 to Cathy, which touches the red 3 on slot 2. Thus, the red 3 is the focus of the clue. This must be a *Play Clue* on the red 3.
   - Bob knows that the red 3 is currently unplayable, so it must be a *Finesse*. He blind-plays his *Finesse Position* as a red 2. Instead, it is a blue 2, and it successfully plays. Bob gasps in surprise.
-  - Normally, Cathy would think that she has the blue 3, because that would match the blue 2 that blind-played. (Number 2 matches number 3.)
+  - Normally, Cathy would think that she has the blue 3, because that would connect to the blue 2 that blind-played. (Number 2 connects to number 3.)
   - However, Cathy also sees that Bob had a red 2 on his *Second Finesse Position* at the time of the clue. So there is a possibility that this was a *Clandestine Finesse* instead of a normal *Finesse*. Thus, Cathy has to give Bob a chance to blind-play the red 2. If he does not, then Cathy does indeed have the blue 3.
   - Cathy does something unrelated..
   - Alice does something unrelated.

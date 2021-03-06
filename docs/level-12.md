@@ -18,28 +18,28 @@ title: Level 12 - Intermediate Bluffs
 - *3 Bluffs* are mostly used to get 1's played at the beginning of the game. However, similar to a normal *Bluff*, a *3 Bluff* can be used to get any playable card (as long as it doesn't look like a *Finesse*, obviously.)
 - Here are some examples that cover the four most common *3 Bluff* situations:
 
-#### Example 1 - **Color Mismatch** (Valid)
+#### Example 1 - **Color Disconnect** (Valid)
 
 - On the first turn of the game, Alice clues Cathy red, which touches a red 3.
 - Bob blind-plays blue 1.
 - Cathy knows that it is either a red 2 (if it was a normal *Bluff*) or a red 3 (if it was a *3 Bluff*). She marks down both of the possibilities for later.
 
-#### Example 2 - **Number 3 with Suit Mismatch** (Valid)
+#### Example 2 - **Number 3 with Suit Disconnect** (Valid)
 
 - On the first turn of the game, Alice clues Cathy number 3, which touches a red 3.
 - Bob blind-plays blue 1.
-- Cathy knows that it was a *3 Bluff*, because a played 1 does not "match" number 3.
+- Cathy knows that it was a *3 Bluff*, because a played 1 does not "connect" to number 3.
 - Beyond that, Cathy knows nothing about the card, besides that it is a 3 (since it has a number 3 clue on it).
 
-#### Example 3 - **Color Match** (NOT valid; looks like a Finesse)
+#### Example 3 - **Color Connect** (Not Valid; Looks Like a Finesse)
 
 - On the first turn of the game, Alice clues Cathy red, which touches a red 3.
 - Bob blind-plays red 1.
-- Cathy sees that Bob does not have red 2. Since red matches red, Cathy assumes that she has the red 2.
+- Cathy sees that Bob does not have red 2. Since red connects to red, Cathy assumes that she has the red 2.
 - Cathy misplays red 3 as red 2.
 - Alternatively, if Cathy saw that Bob had both red 1 and red 2 on his *Finesse Position* at the time the clue was given, she would know that she has the red 2 **or** the red 3. Subsequently, Bob is promised a red 2, since if he does not blind-play a card, Cathy will go on to misplay the red 3 as red 2.
 
-#### Example 4 - **Color Match with Rank Mismatch** (NOT valid; looks like a Finesse)
+#### Example 4 - **Color Connect With Rank Disconnect** (Not Valid; Looks Like a Finesse)
 
 - This is a 4-player game.
 - Nothing is played on the stacks.
@@ -47,20 +47,20 @@ title: Level 12 - Intermediate Bluffs
 - Bob blind-plays the red 1.
 - Cathy notices that Donald's red card has a negative 2 clue on it. This means that Donald will not go on to misplay the card as the red 2.
 - Cathy needs to evaluate whether or not Alice's clue is a *Finesse* or a *3 Bluff*. If this is a *Double Finesse*, then Cathy needs to blind-play the red 2. If this is a *Bluff*, then Alice only intended for Bob to blind-play.
-- Cathy knows that since **red matches red**, this must be a *Double Finesse*, so Cathy blind-plays the red 2 into the red 3.
+- Cathy knows that since **red connects to red**, this must be a *Double Finesse*, so Cathy blind-plays the red 2 into the red 3.
 
-#### Example 5 - **Number 3 with Suit Match** (valid)
+#### Example 5 - **Number 3 With Suit Connect** (Valid)
 
 - On the first turn of the game, Alice clues Cathy number 3, which touches a red 3.
 - Bob blind-plays red 1.
-- Cathy knows that it was a *3 Bluff*, because a played 1 does not "match" number 3.
+- Cathy knows that it was a *3 Bluff*, because a played 1 does not "connect" to number 3.
 - Beyond that, Cathy knows nothing about the card, besides that it is a 3 (since it has a number 3 clue on it).
-- Even though red 1 and red 3 are the same suit, Bob is not promised a red 2, because if he does nothing, Cathy will not go on to misplay the red 3.
+- Even though red 1 and red 3 are the same suit, Bob is not promised a red 2.
 
 #### Generic Questions
 
 - *3 Bluffs* can be confusing. If you don't want to memorize the five examples above, you can simply ask the following questions:
-  1. Does the clue "match" the blind-play? If it matches, then it is a *Finesse*. If it does not match, then it is a *Bluff*. Red matches red, but red does **not** match blue. 2 matches 3, but 1 does **not** match 3.
+  1. Does the clue "connect" to the blind-play? If it connects, then it is a *Finesse*. If it does not connect, then it is a *Bluff*. Red connects to red, but red does **not** connect to blue. 2 connects to 3, but 1 does **not** connect to 3.
   1. Will the player who received the clue go on to misplay if nothing else is blind-played? If yes, then it is a *Finesse*. If no, then it is a *Bluff*.
 
 <br />
@@ -80,7 +80,7 @@ title: Level 12 - Intermediate Bluffs
 
 ### The Hard Bluff
 
-- First, see the section on *[Cathy's Match Principle](level-10.md#cathys-match-principle-part-2)*.
+- First, see the section on *[Cathy's Connecting Principle](level-10.md#cathys-connecting-principle-part-2)*.
 - Sometimes, it can be ambiguous as to whether a player blind-played a card into a *Bluff*, or they blind-played into a *Finesse* + *Prompt*. In this situation, *Occam's Razor* applies, so players should go with the *Bluff* interpretation, since it is simpler. When such a *Bluff* occurs, it is called a *Hard Bluff* to disambiguate from situations where *Bluffs* happen with no ambiguity.
 - For example, this is a *Finesse* + *Prompt* and **not** a *Hard Bluff*:
   - Only red 1 is played on the stacks.
@@ -106,14 +106,14 @@ title: Level 12 - Intermediate Bluffs
   - Nothing is played on the stacks.
   - Alice clues number 3 to Cathy, touching a red 3 on slot 1 as a *Play Clue*.
   - Bob blind-plays red 1.
-  - Bob now knows that it was a *3 Bluff* and that no-one is promised the red 2. This is because even though the red 1 is the same suit as the red 3, *3 Bluffs* take precedence over *Double Finesses* as long as the clue type (number 3) does not match the card that was blind-played (a number 1).
+  - Bob now knows that it was a *3 Bluff* and that no-one is promised the red 2. This is because even though the red 1 is the same suit as the red 3, *3 Bluffs* take precedence over *Double Finesses* as long as the clue type (number 3) does not connect to the card that was blind-played (a number 1).
 
 <br />
 
 ### Known Bluffs
 
 - Usually, when a *Bluff* occurs, the blind-playing player has no idea that is a *Bluff* - they assume they are playing a specific card into a true *Finesse*.
-- However, in rare situations, a clue will be given that looks like a *Finesse*, but the next player will know for sure that they do not have the "matching" card.
+- However, in rare situations, a clue will be given that looks like a *Finesse*, but the next player will know for sure that they do not have the "connecting" card.
 - In these situations, if the next player cannot see a better explanation for the clue, then they should blind-play their *Finesse Position* card as a *Known Bluff*.
 - For example:
   - The player might see all of the copies of the card that they are supposed to be blind-playing.

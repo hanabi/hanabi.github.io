@@ -108,7 +108,7 @@ title: Level 1 - Fundamentals
 
 - A *Finesse* is when you get a player to blind-play a card to fulfill a promise that a certain card is playable right now.
 - An example of a *Finesse* can be found in the [beginner's guide](beginner.md#the-finesse).
-- *Finesses* must be on "matching" cards. (For example, the red 1 leads directly into the red 2, so they are considered to be a "matching" pair of cards.)
+- *Finesses* must be on "connecting" cards. (For example, the red 1 leads directly into the red 2, so they are considered to be a "connecting" pair of cards.)
 - When a player is *Finessed*, they should blind-play their card right away in order to demonstrate it!
 
 <br />

@@ -49,7 +49,7 @@ import WrongPrompt from '@site/image-generator/yml/level-2/wrong-prompt.yml';
   - It is the first turn and nothing is played on the stacks.
   - Alice clues red to Cathy, touching a red 3.
   - Bob blind-plays red 1 from slot 1.
-  - Cathy would normally think that she has red 2, which would match the red 1 that was just played. However, she sees that when the clue happened, there was a red 2 next to the red 1.
+  - Cathy would normally think that she has red 2, which would connect to the red 1 that was just played. However, she sees that when the clue happened, there was a red 2 next to the red 1.
   - Thus, Cathy discards, giving Bob a chance to blind-play the red 2. If he does not blind-play it, then it was a normal *Finesse* and she has red 2. If he does blind-play it, then it was a *Double Finesse* and she has red 3.
   - On his next turn, Bob blind-plays red 2 from slot 2. Cathy now knows that she has the red 3.
 
@@ -76,8 +76,8 @@ import WrongPrompt from '@site/image-generator/yml/level-2/wrong-prompt.yml';
 
 - In a normal *Finesse*, you give a clue to a player who comes after the player blind-playing a card. (e.g. clue --> blind-play --> clued-card plays)
 - If you give a *Finesse* clue to someone who gets to have a turn **before** the blind-play occurs, it is called a *Reverse Finesse*. This is more complicated than a normal *Finesse* and is harder to see. (e.g. clue --> clued player does unrelated action --> blind-play --> clued-card plays)
-- Because *Reverse Finesses* exist as a strategy, before playing any cards, players should always check out everyone's *Finesse Position*. If a card in someone's *Finesse Position* is playable and "matches" the clue, then **they need to defer playing the clued card** for at least one go-around and wait to see what happens.
-- If the player with the "matching" card blind-plays it, then it means that the clued card is the next card in the chain.
+- Because *Reverse Finesses* exist as a strategy, before playing any cards, players should always check out everyone's *Finesse Position*. If a card in someone's *Finesse Position* is playable and "connects" to the clue, then **they need to defer playing the clued card** for at least one go-around and wait to see what happens.
+- If the player with the "connecting" card blind-plays it, then it means that the clued card is the next card in the chain.
 - For example, in a 3-player game:
   - It is the first turn and nothing is played on the stacks.
   - Alice clues Bob red, which touches his red 2.
@@ -88,7 +88,7 @@ import WrongPrompt from '@site/image-generator/yml/level-2/wrong-prompt.yml';
 
 <ReverseFinesse />
 
-- If the player with the "matching card" **does not** blind-play, then the clued card is probably the other copy, and can be played on the next turn.
+- If the player with the "connecting" card **does not** blind-play, then the clued card is probably the other copy, and can be played on the next turn.
 - For example, in a 3-player game:
   - The setup is the same as the last example. Bob is clued red, so he suspects a *Reverse Finesse* is occurring and discards.
   - Cathy discards.
@@ -103,9 +103,9 @@ import WrongPrompt from '@site/image-generator/yml/level-2/wrong-prompt.yml';
   - All of the 1's are played on the stacks.
   - Alice clues number 3 to Cathy, touching one 3 on slot 2.
   - Bob discards.
-  - Cathy knows that this was a *Play Clue* on the 3, but there are no 3's that are directly playable. Thus, someone must have the matching 2. Since Bob discarded, Cathy must be the one who has the matching 2.
+  - Cathy knows that this was a *Play Clue* on the 3, but there are no 3's that are directly playable. Thus, someone must have the connecting 2. Since Bob discarded, Cathy must be the one who has the connecting 2.
   - Thus, Cathy plays her *Finesse Position* card as **any** 2. It is a red 2 and it successfully plays.
-  - Cathy now knows that her 3 must match the 2, so she marks her 3 as a red 3.
+  - Cathy now knows that her 3 must connect to the 2, so she marks her 3 as a red 3.
 
 <SelfFinesse />
 
@@ -156,7 +156,7 @@ import WrongPrompt from '@site/image-generator/yml/level-2/wrong-prompt.yml';
 
 - First, see the section on [What to Do After a Strike](#what-to-do-after-a-strike).
 - Normally, after a strike happens, you are supposed to relax and not make any additional assumptions.
-- However, there is one major exception. A common mistake in Hanabi is to attempt to perform a *Finesse* when there is a "matching" card in that player's hand. Since *Prompts* take precedence over *Finesses*, the player will always play their matching clued cards first.
+- However, there is one major exception. A common mistake in Hanabi is to attempt to perform a *Finesse* when there is a matching clued card in that player's hand. Since *Prompts* take precedence over *Finesses*, the player will always play their matching clued card first.
 - When a card is *Prompted* and it misplays, everyone can read into this mistake - it was almost certainly a *Wrong Prompt*, meaning that the player who gave the clue probably intended for the *Finesse Position* card to play instead.
 - Thus, if there is nothing else special about the situation, the player who misplayed should go on to play their *Finesse Position* card on the next turn.
 - For example, in a 3-player game:

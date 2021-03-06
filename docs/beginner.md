@@ -356,7 +356,7 @@ In this guide, there will be some images to show off the concepts introduced.
   - Bob has an unknown 3 in his hand.
   - Alice clues number 4 to Bob, which touches a 4. It must be a *Play Clue* on the 4.
   - There is no 4 that could possibly be playable right now. Thus, this must be a *Self-Prompt*, meaning that Bob's 3 must be either blue 3 or green 3.
-  - Bob plays his 3, and it is blue 3. Thus, he knows that the 4 must match and be a blue 4.
+  - Bob plays his 3, and it is blue 3. Thus, he knows that the 4 must connect and be a blue 4.
 
 <Prompt3 />
 
