@@ -95,80 +95,89 @@ import ColorMatchRainbowFinesseImpossible from '@site/image-generator/yml/level-
 - The way to find out is to look at **whether the card that blind-played "matches" the clue that was given**. If the clue matches, then it is a *Finesse*. If the clue did not match, then it is a *Bluff*.
 - This is called *Cathy's Match Principle* in order to highlight that everyone needs to assume different things than Bob did (before he blind-played anything).
 - If it is ambiguous whether or not the card matches, then everyone should **assume a *Bluff* over a *Finesse***. Note that this is the **opposite** of the precedence in *Bob's Truth Principle*!
-- Example 1 (color match):
-  - Red 1 is played on the stacks.
-  - Alice clues Cathy red, touching a red card as a *Play Clue*.
-  - Bob blind-plays a red 2.
-  - This must be a *Finesse*, because **red matches red**. So Cathy should think that she has the red 3.
-  - This is a textbook *Finesse*; it can't get any more basic than this.
+
+#### Example 1 (Color Match)
+
+- Red 1 is played on the stacks.
+- Alice clues Cathy red, touching a red card as a *Play Clue*.
+- Bob blind-plays a red 2.
+- This must be a *Finesse*, because **red matches red**. So Cathy should think that she has the red 3.
+- This is a textbook *Finesse*; it can't get any more basic than this.
 
 <ColorMatch />
 
-- Example 2 (color mismatch):
-  - Red 1 is played on the stacks.
-  - Alice clues Cathy red, touching a red card as a *Play Clue*.
-  - Bob blind-plays a blue 1.
-  - This must be a *Bluff*, because **blue does not match red**. So Cathy should think that she has the *one-away-from-playable* red card, the red 3.
-  - This is a textbook *Bluff*; it can't get any more basic than this.
+#### Example 2 (Color Mismatch)
+
+- Red 1 is played on the stacks.
+- Alice clues Cathy red, touching a red card as a *Play Clue*.
+- Bob blind-plays a blue 1.
+- This must be a *Bluff*, because **blue does not match red**. So Cathy should think that she has the *one-away-from-playable* red card, the red 3.
+- This is a textbook *Bluff*; it can't get any more basic than this.
 
 <ColorMismatch />
 
-- Example 3 (rank match):
-  - Red 2 is played on the stacks.
-  - Alice clues Cathy number 4, touching a 4 as a *Play Clue*.
-  - Bob blind-plays the red 3.
-  - This must be a *Finesse*, because **3 matches 4**. So Cathy should think that she has the red 4.
+#### Example 3 (Rank Match)
+
+- Red 2 is played on the stacks.
+- Alice clues Cathy number 4, touching a 4 as a *Play Clue*.
+- Bob blind-plays the red 3.
+- This must be a *Finesse*, because **3 matches 4**. So Cathy should think that she has the red 4.
 
 <RankMatch />
 
-- Example 4 (rank mismatch):
-  - Red 2 is played on the stacks.
-  - Alice clues Cathy number 4, touching a 4 as a *Play Clue*.
-  - Bob blind-plays the blue 1.
-  - This could be a *Triple Finesse* (on blue 1 + blue 2 + blue 3 into blue 4) or it could be a *Bluff* (on just blue 1 into red 4).
-  - However, this must be a *Bluff*, because **1 does not match 4**. So Cathy should think that she has the *one-away-from-playable* 4, the red 4.
-  - The point of this example is to show that because a 2 happens to be played on the stacks, the red 4 is a *one-away-from-playable* card and therefore becomes a legal *Bluff* target.
+#### Example 4 (Rank Mismatch)
+
+- Red 2 is played on the stacks.
+- Alice clues Cathy number 4, touching a 4 as a *Play Clue*.
+- Bob blind-plays the blue 1.
+- This could be a *Triple Finesse* (on blue 1 + blue 2 + blue 3 into blue 4) or it could be a *Bluff* (on just blue 1 into red 4).
+- However, this must be a *Bluff*, because **1 does not match 4**. So Cathy should think that she has the *one-away-from-playable* 4, the red 4.
+- The point of this example is to show that because a 2 happens to be played on the stacks, the red 4 is a *one-away-from-playable* card and therefore becomes a legal *Bluff* target.
 
 <RankMismatch />
 
-- Example 5 (rank mismatch where a *Bluff* is impossible):
-  - This is a 4-player game.
-  - Nothing is played on the stacks.
-  - Alice clues Donald number 4, touching a 4 as a *Play Clue*.
-  - Bob blind-plays the red 1.
-  - Cathy discards.
+#### Example 5 (Rank Mismatch Where a *Bluff* Is Impossible)
+
+- This is a 4-player game.
+- Nothing is played on the stacks.
+- Alice clues Donald number 4, touching a 4 as a *Play Clue*.
+- Bob blind-plays the red 1.
+- Cathy discards.
+- Donald needs to evaluate whether or not Alice's clue is a *Finesse* or a *Bluff*. However, he knows that it **cannot** be a *Bluff*, because there are no *one-away-from-playable* 4's. So even though **1 does not match 4**, this must be a *Finesse*, because Alice is not allowed to perform a *Bluff* with any card that she wants.
+- Donald does not see any other red cards in Bob's hand. So Donald should think that he has the red 4, because that would match the blind-play of a red 1. Subsequently, Donald must have red 2 on his *Finesse Position* and red 3 on his *Second Finesse Position*.
 
 <RankMismatchBluffImpossible />
 
-  - Donald needs to evaluate whether or not Alice's clue is a *Finesse* or a *Bluff*. However, he knows that it **cannot** be a *Bluff*, because there are no *one-away-from-playable* 4's. So even though **1 does not match 4**, this must be a *Finesse*, because Alice is not allowed to perform a *Bluff* with any card that she wants.
-  - Donald does not see any other red cards in Bob's hand. So Donald should think that he has the red 4, because that would match the blind-play of a red 1. Subsequently, Donald must have red 2 on his *Finesse Position* and red 3 on his *Second Finesse Position*.
-- Example 6 (rank match where a *Finesse* is impossible):
-  - Red 2 and blue 2 is played on the stacks.
-  - Alice clues Cathy number 4, touching a 4 as a *Play Clue*.
-  - Bob blind-plays the blue 3.
-  - Normally, Cathy would think that this is a *Finesse*, because **3 matches 4**, meaning that Cathy's 4 is the blue 4.
-  - However, Cathy notices that her 4 has a negative blue clue on it. Thus, it cannot be the blue 4.
-  - This must instead be a *Bluff*. Cathy marks her 4 as the red 4 (since red 4 is the only other *one-away-from-playable* 4).
+#### Example 6 (Rank Match Where a *Finesse* Is Impossible)
+
+- Red 2 and blue 2 is played on the stacks.
+- Alice clues Cathy number 4, touching a 4 as a *Play Clue*.
+- Bob blind-plays the blue 3.
+- Normally, Cathy would think that this is a *Finesse*, because **3 matches 4**, meaning that Cathy's 4 is the blue 4.
+- However, Cathy notices that her 4 has a negative blue clue on it. Thus, it cannot be the blue 4.
+- This must instead be a *Bluff*. Cathy marks her 4 as the red 4 (since red 4 is the only other *one-away-from-playable* 4).
 
 <RankMatchFinesseImpossible />
 
-- Example 7 (color match with rainbow):
-  - This is a game with a rainbow suit. (The other examples in this section assume a "No Variant" game.)
-  - Rainbow 1 is played on the stacks.
-  - Alice clues Cathy red, touching a red card as a *Play Clue*.
-  - Bob blind-plays a rainbow 2.
-  - This must be a *Finesse*, because **red matches red** (rainbow cards match every color). So Cathy should think that she has the rainbow 3.
+#### Example 7 (Color Match With Rainbow)
+
+- This is a game with a rainbow suit. (The other examples in this section assume a "No Variant" game.)
+- Rainbow 1 is played on the stacks.
+- Alice clues Cathy red, touching a red card as a *Play Clue*.
+- Bob blind-plays a rainbow 2.
+- This must be a *Finesse*, because **red matches red** (rainbow cards match every color). So Cathy should think that she has the rainbow 3.
 
 <ColorMatchRainbow />
 
-- Example 8 (color match with rainbow where a *Finesse* is impossible):
-  - This is a game with a rainbow suit. (The other examples in this section assume a "No Variant" game.)
-  - Rainbow 1 and red 2 are played on the stacks.
-  - Alice clues Cathy red, touching a red card as a *Play Clue*.
-  - Bob blind-plays a rainbow 2.
-  - Normally, Cathy would think that this is a *Finesse*, because **red matches red** (rainbow cards match every color), meaning that Cathy's red card is the rainbow 3.
-  - However, Cathy notices that her red card has a negative blue clue on it. Thus, it cannot be the rainbow 3.
-  - This must instead be a *Bluff*. Cathy marks her red card as the red 4 (since the red 4 is the *one-away-from-playable* red card).
+#### Example 8 (Color Match With Rainbow Where a *Finesse* Is Impossible)
+
+- This is a game with a rainbow suit. (The other examples in this section assume a "No Variant" game.)
+- Rainbow 1 and red 2 are played on the stacks.
+- Alice clues Cathy red, touching a red card as a *Play Clue*.
+- Bob blind-plays a rainbow 2.
+- Normally, Cathy would think that this is a *Finesse*, because **red matches red** (rainbow cards match every color), meaning that Cathy's red card is the rainbow 3.
+- However, Cathy notices that her red card has a negative blue clue on it. Thus, it cannot be the rainbow 3.
+- This must instead be a *Bluff*. Cathy marks her red card as the red 4 (since the red 4 is the *one-away-from-playable* red card).
 
 <ColorMatchRainbowFinesseImpossible />
 
