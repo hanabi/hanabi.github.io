@@ -57,7 +57,7 @@ import ColorMatchRainbowFinesseImpossible from '@site/image-generator/yml/level-
   - From Donald's perspective, since red (the type of clue that was given) does not match blue (the card that was blind-played), this must be a *Bluff*. Normally, since the red 1 is currently played on the stacks, Donald would think that he has the red 3 (e.g. the *one-away-from-playable* red card).
   - However, Cathy already has a clued red 3 in her hand. If Donald also had a red 3, then Alice's clue would be violating *Good Touch Principle*. Thus, Donald must have the red 4 instead.
 
-  <BluffThroughClued />
+<BluffThroughClued />
 
 - Sometimes, the player who has the in-between card might have more than one "matching" clued card. In this situation, the player is promised that they have the in-between card, but they are not promised the position - it can be any of the matching clued cards.
 
@@ -76,7 +76,7 @@ import ColorMatchRainbowFinesseImpossible from '@site/image-generator/yml/level-
   - Alice clues blues to Donald, highlighting a blue 3 as a *Play Clue*.
   - Now, it is Bob's turn.
 
- <TruthPrinciple />
+<TruthPrinciple />
 
 - What to think **depends** on whether you are Bob or whether you are someone else on the team.
 - First, let's consider the case of Bob, the very next player. Bob should **always assume a *Finesse* over a *Bluff***. From his perspective:
@@ -102,7 +102,7 @@ import ColorMatchRainbowFinesseImpossible from '@site/image-generator/yml/level-
   - This must be a *Finesse*, because **red matches red**. So Cathy should think that she has the red 3.
   - This is a textbook *Finesse*; it can't get any more basic than this.
 
-  <ColorMatch />
+<ColorMatch />
 
 - Example 2 (color mismatch):
   - Red 1 is played on the stacks.
@@ -111,7 +111,7 @@ import ColorMatchRainbowFinesseImpossible from '@site/image-generator/yml/level-
   - This must be a *Bluff*, because **blue does not match red**. So Cathy should think that she has the *one-away-from-playable* red card, the red 3.
   - This is a textbook *Bluff*; it can't get any more basic than this.
 
-    <ColorMismatch />
+<ColorMismatch />
 
 - Example 3 (rank match):
   - Red 2 is played on the stacks.
@@ -119,7 +119,7 @@ import ColorMatchRainbowFinesseImpossible from '@site/image-generator/yml/level-
   - Bob blind-plays the red 3.
   - This must be a *Finesse*, because **3 matches 4**. So Cathy should think that she has the red 4.
 
-    <RankMatch />
+<RankMatch />
 
 - Example 4 (rank mismatch):
   - Red 2 is played on the stacks.
@@ -129,7 +129,7 @@ import ColorMatchRainbowFinesseImpossible from '@site/image-generator/yml/level-
   - However, this must be a *Bluff*, because **1 does not match 4**. So Cathy should think that she has the *one-away-from-playable* 4, the red 4.
   - The point of this example is to show that because a 2 happens to be played on the stacks, the red 4 is a *one-away-from-playable* card and therefore becomes a legal *Bluff* target.
 
-    <RankMismatch />
+<RankMismatch />
 
 - Example 5 (rank mismatch where a *Bluff* is impossible):
   - This is a 4-player game.
@@ -138,7 +138,7 @@ import ColorMatchRainbowFinesseImpossible from '@site/image-generator/yml/level-
   - Bob blind-plays the red 1.
   - Cathy discards.
 
-    <RankMismatchBluffImpossible />
+<RankMismatchBluffImpossible />
 
   - Donald needs to evaluate whether or not Alice's clue is a *Finesse* or a *Bluff*. However, he knows that it **cannot** be a *Bluff*, because there are no *one-away-from-playable* 4's. So even though **1 does not match 4**, this must be a *Finesse*, because Alice is not allowed to perform a *Bluff* with any card that she wants.
   - Donald does not see any other red cards in Bob's hand. So Donald should think that he has the red 4, because that would match the blind-play of a red 1. Subsequently, Donald must have red 2 on his *Finesse Position* and red 3 on his *Second Finesse Position*.
@@ -150,7 +150,7 @@ import ColorMatchRainbowFinesseImpossible from '@site/image-generator/yml/level-
   - However, Cathy notices that her 4 has a negative blue clue on it. Thus, it cannot be the blue 4.
   - This must instead be a *Bluff*. Cathy marks her 4 as the red 4 (since red 4 is the only other *one-away-from-playable* 4).
 
-      <RankMatchFinesseImpossible />
+<RankMatchFinesseImpossible />
 
 - Example 7 (color match with rainbow):
   - This is a game with a rainbow suit. (The other examples in this section assume a "No Variant" game.)
@@ -159,7 +159,7 @@ import ColorMatchRainbowFinesseImpossible from '@site/image-generator/yml/level-
   - Bob blind-plays a rainbow 2.
   - This must be a *Finesse*, because **red matches red** (rainbow cards match every color). So Cathy should think that she has the rainbow 3.
 
-      <ColorMatchRainbow />
+<ColorMatchRainbow />
 
 - Example 8 (color match with rainbow where a *Finesse* is impossible):
   - This is a game with a rainbow suit. (The other examples in this section assume a "No Variant" game.)
@@ -170,7 +170,7 @@ import ColorMatchRainbowFinesseImpossible from '@site/image-generator/yml/level-
   - However, Cathy notices that her red card has a negative blue clue on it. Thus, it cannot be the rainbow 3.
   - This must instead be a *Bluff*. Cathy marks her red card as the red 4 (since the red 4 is the *one-away-from-playable* red card).
 
-      <ColorMatchRainbowFinesseImpossible />
+<ColorMatchRainbowFinesseImpossible />
 
 <br />
 
