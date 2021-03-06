@@ -190,7 +190,7 @@ Ok, so you've made it this far. The changes so far probably sound pretty strange
 - *Double Discarding* is when two players discard the same thing in a row (say, a red 4) and it causes a perfect score to be lost.
 - On BGA, in 2-player games, top players will often perform *Hard Double Discard Avoidance*.
 - In this context, "hard avoidance" means that a player will avoid *Double Discarding* at all costs. If they are in danger of *Double Discarding*, then they will give any clue at all to avoid it, even if it is a complete waste of a clue.
-- On BGA, in 3+ player games, players don't generally do *Hard Double Discard Avoidance*. Instead, they use two other strategies to prevent *Double Discards* from occurring:
+- On BGA, in 3+ player games, players generally do not perform *Hard Double Discard Avoidance*. Instead, they use two other strategies to prevent *Double Discards* from occurring:
   - First, players are generally allowed to save a copy of a non-critical card if both copies of that card are on the chop of adjacent players.
   - Second, players can indirectly solve the problem by planning a line where it sets up one of the DD players to give an obvious clue.
 - In our group, there is no need to do either of these strategies, because *Hard Double Discard Avoidance* is **always** turned on, regardless of the number of players.
