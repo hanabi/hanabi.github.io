@@ -3,6 +3,18 @@ id: level-10
 title: Level 10 - Bluffs
 ---
 
+import TheBluff from '@site/image-generator/yml/level-10/the-bluff.yml';
+import BluffThroughClued from '@site/image-generator/yml/level-10/bluff-through-already-clued-cards.yml';
+import TruthPrinciple from '@site/image-generator/yml/level-10/truth-principle.yml';
+import ColorMatch from '@site/image-generator/yml/level-10/color-match.yml';
+import ColorMismatch from '@site/image-generator/yml/level-10/color-mismatch.yml';
+import RankMatch from '@site/image-generator/yml/level-10/rank-match.yml';
+import RankMismatch from '@site/image-generator/yml/level-10/rank-mismatch.yml';
+import RankMismatchBluffImpossible from '@site/image-generator/yml/level-10/rank-mismatch-bluff-impossible.yml';
+import RankMatchFinesseImpossible from '@site/image-generator/yml/level-10/rank-match-finesse-impossible.yml';
+import ColorMatchRainbow from '@site/image-generator/yml/level-10/color-match-rainbow.yml';
+import ColorMatchRainbowFinesseImpossible from '@site/image-generator/yml/level-10/color-match-rainbow-finesse-impossible.yml';
+
 - Level 10 strategies should only be learned if you have 160+ games of experience with the group.
 
 <br />
@@ -23,6 +35,9 @@ title: Level 10 - Bluffs
   - From Bob's perspective, this looks like a *Finesse* - if Bob does not blind-play the red 3 right now, Cathy will go on to misplay the red 4 as the red 3.
   - Bob blind-plays his slot 1 card, expecting it to be a red 3. Instead, it is a blue 3, and it successfully plays on the stacks. Bob now knows that he was *Bluffed* by Alice.
   - Next, Cathy sees that Bob just blind-played a blue 3 immediately after this red clue, so she knows that she must have a *one-away-from-playable* red card - the red 4. Cathy holds on to the red 4 for later and discards.
+
+<TheBluff />
+
 - Except in rare circumstances, ***Bluffing* is only permissible when you are the person directly before the player who is blind-playing a card**. This is called being in *Bluff Seat*. Do not *Bluff* unless you are in *Bluff Seat*! (This follows from *[Lie Principle](first-principles.md#8-lie-principle)*.)
 
 <br />
@@ -41,6 +56,9 @@ title: Level 10 - Bluffs
   - Cathy discards.
   - From Donald's perspective, since red (the type of clue that was given) does not match blue (the card that was blind-played), this must be a *Bluff*. Normally, since the red 1 is currently played on the stacks, Donald would think that he has the red 3 (e.g. the *one-away-from-playable* red card).
   - However, Cathy already has a clued red 3 in her hand. If Donald also had a red 3, then Alice's clue would be violating *Good Touch Principle*. Thus, Donald must have the red 4 instead.
+
+  <BluffThroughClued />
+
 - Sometimes, the player who has the in-between card might have more than one "matching" clued card. In this situation, the player is promised that they have the in-between card, but they are not promised the position - it can be any of the matching clued cards.
 
 <br />
@@ -57,6 +75,9 @@ title: Level 10 - Bluffs
   - Cathy has a blue 2 on her *Finesse Position*.
   - Alice clues blues to Donald, highlighting a blue 3 as a *Play Clue*.
   - Now, it is Bob's turn.
+
+ <TruthPrinciple />
+
 - What to think **depends** on whether you are Bob or whether you are someone else on the team.
 - First, let's consider the case of Bob, the very next player. Bob should **always assume a *Finesse* over a *Bluff***. From his perspective:
   - Bob knows that if this is a *Finesse*, then Cathy will blind-play the blue 2, and then Donald will know that he has the blue 3. If this is the case, Bob should not do anything special.
@@ -80,17 +101,26 @@ title: Level 10 - Bluffs
   - Bob blind-plays a red 2.
   - This must be a *Finesse*, because **red matches red**. So Cathy should think that she has the red 3.
   - This is a textbook *Finesse*; it can't get any more basic than this.
+
+  <ColorMatch />
+
 - Example 2 (color mismatch):
   - Red 1 is played on the stacks.
   - Alice clues Cathy red, touching a red card as a *Play Clue*.
   - Bob blind-plays a blue 1.
   - This must be a *Bluff*, because **blue does not match red**. So Cathy should think that she has the *one-away-from-playable* red card, the red 3.
   - This is a textbook *Bluff*; it can't get any more basic than this.
+
+    <ColorMismatch />
+
 - Example 3 (rank match):
   - Red 2 is played on the stacks.
   - Alice clues Cathy number 4, touching a 4 as a *Play Clue*.
   - Bob blind-plays the red 3.
   - This must be a *Finesse*, because **3 matches 4**. So Cathy should think that she has the red 4.
+
+    <RankMatch />
+
 - Example 4 (rank mismatch):
   - Red 2 is played on the stacks.
   - Alice clues Cathy number 4, touching a 4 as a *Play Clue*.
@@ -98,12 +128,18 @@ title: Level 10 - Bluffs
   - This could be a *Triple Finesse* (on blue 1 + blue 2 + blue 3 into blue 4) or it could be a *Bluff* (on just blue 1 into red 4).
   - However, this must be a *Bluff*, because **1 does not match 4**. So Cathy should think that she has the *one-away-from-playable* 4, the red 4.
   - The point of this example is to show that because a 2 happens to be played on the stacks, the red 4 is a *one-away-from-playable* card and therefore becomes a legal *Bluff* target.
+
+    <RankMismatch />
+
 - Example 5 (rank mismatch where a *Bluff* is impossible):
   - This is a 4-player game.
   - Nothing is played on the stacks.
   - Alice clues Donald number 4, touching a 4 as a *Play Clue*.
   - Bob blind-plays the red 1.
   - Cathy discards.
+
+    <RankMismatchBluffImpossible />
+
   - Donald needs to evaluate whether or not Alice's clue is a *Finesse* or a *Bluff*. However, he knows that it **cannot** be a *Bluff*, because there are no *one-away-from-playable* 4's. So even though **1 does not match 4**, this must be a *Finesse*, because Alice is not allowed to perform a *Bluff* with any card that she wants.
   - Donald does not see any other red cards in Bob's hand. So Donald should think that he has the red 4, because that would match the blind-play of a red 1. Subsequently, Donald must have red 2 on his *Finesse Position* and red 3 on his *Second Finesse Position*.
 - Example 6 (rank match where a *Finesse* is impossible):
@@ -113,12 +149,18 @@ title: Level 10 - Bluffs
   - Normally, Cathy would think that this is a *Finesse*, because **3 matches 4**, meaning that Cathy's 4 is the blue 4.
   - However, Cathy notices that her 4 has a negative blue clue on it. Thus, it cannot be the blue 4.
   - This must instead be a *Bluff*. Cathy marks her 4 as the red 4 (since red 4 is the only other *one-away-from-playable* 4).
+
+      <RankMatchFinesseImpossible />
+
 - Example 7 (color match with rainbow):
   - This is a game with a rainbow suit. (The other examples in this section assume a "No Variant" game.)
   - Rainbow 1 is played on the stacks.
   - Alice clues Cathy red, touching a red card as a *Play Clue*.
   - Bob blind-plays a rainbow 2.
   - This must be a *Finesse*, because **red matches red** (rainbow cards match every color). So Cathy should think that she has the rainbow 3.
+
+      <ColorMatchRainbow />
+
 - Example 8 (color match with rainbow where a *Finesse* is impossible):
   - This is a game with a rainbow suit. (The other examples in this section assume a "No Variant" game.)
   - Rainbow 1 and red 2 are played on the stacks.
@@ -127,6 +169,8 @@ title: Level 10 - Bluffs
   - Normally, Cathy would think that this is a *Finesse*, because **red matches red** (rainbow cards match every color), meaning that Cathy's red card is the rainbow 3.
   - However, Cathy notices that her red card has a negative blue clue on it. Thus, it cannot be the rainbow 3.
   - This must instead be a *Bluff*. Cathy marks her red card as the red 4 (since the red 4 is the *one-away-from-playable* red card).
+
+      <ColorMatchRainbowFinesseImpossible />
 
 <br />
 
