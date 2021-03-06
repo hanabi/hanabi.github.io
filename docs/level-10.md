@@ -15,7 +15,6 @@ import RankMatchFinesseImpossible from '@site/image-generator/yml/level-10/rank-
 import ColorMatchRainbow from '@site/image-generator/yml/level-10/color-match-rainbow.yml';
 import ColorMatchRainbowFinesseImpossible from '@site/image-generator/yml/level-10/color-match-rainbow-finesse-impossible.yml';
 
-
 - Level 10 strategies should only be learned if you have 160+ games of experience with the group.
 
 <br />
