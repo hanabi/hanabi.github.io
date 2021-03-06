@@ -3,7 +3,7 @@ id: level-10
 title: Level 10 - Bluffs
 ---
 
-import TheBluff from '@site/image-generator/yml/level-10/the-bluff.yml';
+import Bluff from '@site/image-generator/yml/level-10/bluff.yml';
 import BluffThroughClued from '@site/image-generator/yml/level-10/bluff-through-already-clued-cards.yml';
 import TruthPrinciple from '@site/image-generator/yml/level-10/truth-principle.yml';
 import ColorMatch from '@site/image-generator/yml/level-10/color-match.yml';
@@ -36,7 +36,7 @@ import ColorMatchRainbowFinesseImpossible from '@site/image-generator/yml/level-
   - Bob blind-plays his slot 1 card, expecting it to be a red 3. Instead, it is a blue 3, and it successfully plays on the stacks. Bob now knows that he was *Bluffed* by Alice.
   - Next, Cathy sees that Bob just blind-played a blue 3 immediately after this red clue, so she knows that she must have a *one-away-from-playable* red card - the red 4. Cathy holds on to the red 4 for later and discards.
 
-<TheBluff />
+<Bluff />
 
 - Except in rare circumstances, ***Bluffing* is only permissible when you are the person directly before the player who is blind-playing a card**. This is called being in *Bluff Seat*. Do not *Bluff* unless you are in *Bluff Seat*! (This follows from *[Lie Principle](first-principles.md#8-lie-principle)*.)
 
