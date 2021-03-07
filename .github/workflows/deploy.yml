@@ -4,12 +4,9 @@ on:
   push:
     branches:
       - main
-  pull_request:
-    branches:
-      - main
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout the repository
@@ -45,12 +42,6 @@ jobs:
       - name: Build
         run: ./build.sh
 
-  deploy:
-    runs-on: ubuntu-latest
-    if: github.event_name != 'pull_request'
-    needs:
-      - build
-    steps:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
