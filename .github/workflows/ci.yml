@@ -73,6 +73,7 @@ jobs:
     if: always() && github.event_name != 'pull_request'
     runs-on: ubuntu-latest
     steps:
+      # The "workflow-conclusion-action" creates a "WORKFLOW_CONCLUSION" environment variable
       - uses: technote-space/workflow-conclusion-action@v2
       - if: env.WORKFLOW_CONCLUSION != 'success' && env.WORKFLOW_CONCLUSION != 'cancelled'
         uses: sarisia/actions-status-discord@v1
