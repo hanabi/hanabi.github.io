@@ -54,4 +54,4 @@ These conventions apply to any variant with a rainbow (touched by all colors) or
 ### The Free Choice Bluff
 
 - It is possible to use the *Free Choice* convention to communicate to a teammate that you want a *Finesse* instead of a *Prompt* in order to get them to play an unrelated playable card from their *Finesse Position*.
-- Like a normal *Bluff*, after a *Free Choice Bluff*, the player who blind-played does not necessarily have the "matching" card in their hand.
+- Like a normal *Bluff*, after a *Free Choice Bluff*, the player who blind-played does not necessarily have the "connecting" card in their hand.

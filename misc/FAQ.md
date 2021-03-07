@@ -168,16 +168,16 @@ Yes.
 ### A card has a positive number 3 clue on it. It is clued again with red, which fills in the card. A red 1 blind-plays. Is it a *Finesse* or a *Bluff*?
 
 - It does not matter if the card is "brand new" or if it has a clue on it already.
-- All that matters is if the clue matches the blind-play.
-- Here, a red 1 matches a red color clue, so it is a *Finesse*.
+- All that matters is if the clue connects to the blind-play.
+- Here, a red 1 connects to a red color clue, so it is a *Finesse*.
 
 <br />
 
 ### A card has a positive red clue on it. It is clued again with number 3, which fills in the card. A red 1 blind-plays. Is it a *Finesse* or a *Bluff*?
 
 - It does not matter if the card is "brand new" or if it has a clue on it already.
-- All that matters is if the clue matches the blind-play.
-- Here, a red 1 does not match a number 3 clue, so it is a *3 Bluff*.
+- All that matters is if the clue connects to the blind-play.
+- Here, a red 1 does not connect to a number 3 clue, so it is a *3 Bluff*.
 
 <br />
 
@@ -265,7 +265,7 @@ Green 4. The red 3 does not count as being a "lower rank" card in this case. It 
 
 <br />
 
-### Should I play my *Finesse Position* into a *Priority Finesse* if I see the matching card in someone else's hand?
+### Should I play my *Finesse Position* into a *Priority Finesse* if I see the connecting card in the middle of someone else's hand?
 
 - No. A *Load Clue* takes precedence over a *Priority Finesse* or a *Priority Bluff*.
 - The only exception is if the card is uncluable (e.g. blocked on both sides).
@@ -304,7 +304,7 @@ No. After a *Baton Discard* happens, any follow-up *Finesses* will skip over the
 
 ### If a clue is clearly a *Bad Touch*, does it promise the missing card on *Finesse Position*?
 
-No. It only promises that the matching cards are in your hand. Write *Trash Touch Elimination Notes*.
+No. It only promises that the missing cards are in your hand. Write *Trash Touch Elimination Notes*.
 
 <br />
 

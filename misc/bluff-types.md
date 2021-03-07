@@ -2,7 +2,7 @@
 
 ### True Bluffs
 
-A "normal" *Bluff* is when Alice clues Cathy with the intent to **lie to Bob**. Bob thinks that a *Finesse* is occurring and that he is about to play the connecting card. Only after Bob blind-plays some other card is it revealed that Alice lied to him. Bluffs that cause a player to blind-play a non-matching card where a matching card would be expected are called *True Bluffs*.
+A "normal" *Bluff* is when Alice clues Cathy with the intent to **lie to Bob**. Bob thinks that a *Finesse* is occurring and that he is about to play the connecting card. Only after Bob blind-plays some other card is it revealed that Alice lied to him. Bluffs that cause a player to blind-play a non-connected card where a connected card would be expected are called *True Bluffs*.
 
 ### Call-Out Bluffs
 
@@ -18,7 +18,7 @@ A *Rank Choice Bluff* is an example of a *Pseudo-Bluff*.
 
 ### Pseudo-Finesse
 
-When a player happens to play a "matching" card into a *Pseudo-Bluff*, it is a *Pseudo-Finesse*. (This is different from a "normal" *Finesse*, because the player in *Bluff Seat* has no reason to believe that the card that they are playing will necessarily match.
+When a player happens to play a "connecting" card into a *Pseudo-Bluff*, it is a *Pseudo-Finesse*. (This is different from a "normal" *Finesse*, because the player in *Bluff Seat* has no reason to believe that the card that they are playing will necessarily connect.
 
 <br />
 

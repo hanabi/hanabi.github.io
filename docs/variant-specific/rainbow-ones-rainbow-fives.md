@@ -31,17 +31,17 @@ These conventions apply to variants with rainbow-ones or rainbow-fives.
 
 - First, see the section on the *[Color Play Clue Lie](#the-color-play-clue-lie)*.
 - Usually, when *Color Promise* is violated, it is a *Color Play Clue Lie*. But what if *Color Promise* is violated and the clue is only a 1-for-1? The clue giver must be trying to communicate something extra.
-- In this situation, the next player should blind-play their *Finesse Position* card as a known *Disjointed Finesse*.
+- In this situation, the next player should blind-play their *Finesse Position* card as a *Color Promise Finesse*.
 - For example, in 3-player game:
   - The variant is "Rainbow-Ones (6 Suits)".
   - It is the first turn and nothing is played on the stacks.
   - Alice clues red to Cathy, touching a blue 1 on slot 1.
   - Bob sees that Cathy's hand has no other blue cards in it, so there is no good reason why Alice could not have just clued blue to Cathy and satisfied *Color Promise*. Alice must be trying to communicate something extra.
   - Bob knows that this is a *Color Promise Finesse* and blind-plays his finesse position. It is a red 1 and it successfully plays.
-  - Cathy knows that Alice performed a *Finesse* and that Cathy must have the red 2 to match the red 1 that was blind-played.
+  - Cathy knows that Alice performed a *Finesse* and that Cathy must have the red 2 that connects to the red 1 that was blind-played.
   - Cathy plays the red card and it is blue 1. It successfully plays.
   - Cathy now knows that Alice performed a *Color Promise Finesse* instead of a normal *Finesse*.
-- Note that the *Color Promise Finesse* can only be performed if the card that is blind-played matches the clue that was given. Otherwise, Cathy will think that a *Bluff* happened and will not play the clued card.
+- Note that the *Color Promise Finesse* can only be performed if the card that is blind-played connects to the clue that was given. Otherwise, Cathy will think that a *Bluff* happened and will not play the clued card.
 
 ### The Color Prompt Exception (for Rainbow-Ones)
 

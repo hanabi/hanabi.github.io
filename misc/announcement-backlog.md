@@ -184,7 +184,7 @@ As noted in the [convention changes document](convention-changes.md), sometimes 
 
 **The Cursed Finesse** (by pianoblook)
 
-- Commonly, players can use a *Double Finesse* or a *Clandestine Finesse* to "get" multiple cards from the next player. This works because the first blind-play "matches" the clued card.
+- Commonly, players can use a *Double Finesse* or a *Clandestine Finesse* to "get" multiple cards from the next player. This works because the first blind-play "connects" to the clued card.
 - However, what if a player intentionally performs a *Bluff* where other players can see that it was actually possible to perform a *Double Finesse* or a *Clandestine Finesse*?
 - In this situation, if the cluer is not making a mistake, they are trying to send a deeper message - they want an extra person to blind-play.
 - This is called a *Cursed Finesse* because it requires the situation to be "cured". By performing a *Cure Blind-Play*, the move is transformed from a *Bluff* into a real *Finesse*.
@@ -199,7 +199,7 @@ As noted in the [convention changes document](convention-changes.md), sometimes 
   - Bob and Donald both gasp in surprise when Cathy blind-plays:
     - From Bob's perspective, the focus of the clue is a *one-away-from-playable* card, so this cannot be a *Double Bluff*.
     - From Donald's perspective, this cannot be a normal *Finesse* or a *Double Bluff*, because Cathy would have done nothing, waiting for Bob to play the blue 1 (as a *Finesse*)
-    - From both Bob and Donald's perspective, Bob's red 1 did not match Donald's blue card, so this cannot be a *Pestilent Double Bluff*.
+    - From both Bob and Donald's perspective, Bob's red 1 did not connect to Donald's blue card, so this cannot be a *Pestilent Double Bluff*.
   - Therefore, the team knows that this must have been a *Cursed Finesse*. Bob will now continue to blind-play until he finds his promised blue 1.
 - *Cursed Finesses* can only occur if there is a *Free Choice* during the initial clue.
 
@@ -262,12 +262,12 @@ As noted in the [convention changes document](convention-changes.md), sometimes 
 **Prism Color Finesses (One-Away-From-Playable)** (by Zamiel)
 
 - This convention only applies to variants with a prism suit.
-- For the purposes of *Finesses*, prism cards "match" if they are the direct next color.
+- For the purposes of *Finesses*, prism cards only "connect" if they are the direct next color.
 - For example, in a 3-player game of *Prism (5 Suits)*:
   - Prism 1 is played on the stacks.
   - Alice clues green to Cathy, touching a prism 3 as a *Play Clue*.
   - Bob blind-plays a prism 2 from his *Finesse Position*.
-  - Cathy knows that since prism 3 is green, prism 2 matches green. Thus, this must be a *Finesse*.
+  - Cathy knows that since prism 3 is green, prism 2 connects to green. Thus, this must be a *Finesse*.
   - Cathy plays her green as a prism 3.
 
 **Prism Color Bluffs (Two-Away-From-Playable)** (by Zamiel)
@@ -278,7 +278,7 @@ As noted in the [convention changes document](convention-changes.md), sometimes 
   - Nothing is played on the stacks.
   - Alice clues green to Cathy, touching a prism 3 as a *Play Clue*.
   - Bob blind-plays a prism 1 from his *Finesse Position*.
-  - Cathy knows that prism 1 would match yellow, but it does not match green. Thus, this is just a *Bluff*.
+  - Cathy knows that prism 1 would connect to yellow, but it does not connect to green. Thus, this is just a *Bluff*.
   - Cathy marks her green card as either a green 2 (as a normal *Bluff*, a green 3 (as a *3 Bluff*), or a prism 3 (as a *Hard 3 Bluff*).
 
 **Gray Loaded Play Clues**

@@ -76,7 +76,7 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 
 ## Level 9 - Violations of *Pink Promise* That Don't Require a Fix
 
-### The Pink Play Clue Lie (with multiple 1's)
+### The Pink Play Clue Lie (With Multiple 1's)
 
 - Players can violate *Pink Promise* with a number 1's clue if all of the cards will successfully play.
 - For example, in a 3-player game:
@@ -88,7 +88,7 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
   - On his next turn, Bob plays the pink 3 from slot 2. Bob is again surprised that this is not a real 1, but he knows that this kind of thing is allowed and that he should continue to play his final 1.
   - On his next turn, Bob plays the red 1 from slot 1.
 
-### The Pink Play Clue Lie (with a mismatched *Play Clue* that touches other cards)
+### The Pink Play Clue Lie (With a Mismatched *Play Clue* That Touches Other Cards)
 
 - Players can also violate *Pink Promise* if they are giving a *Play Clue* and the lie will be resolved when the player who is clued plays their focused card.
 - For example, in a 3-player game:
@@ -206,7 +206,7 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
   - Bob knows that since Alice did not do either of these things, she must be trying to communicate something extra. This must be a *Bubblegum Finesse*, indicating which slot the pink 2 is in.
   - Bob sees that Cathy has the pink 2 in slot 4. Thus, he knows that the *Bubblegum Finesse* is not on him. Bob discards.
   - Cathy goes through the same steps as Bob. Cathy does not see the pink 2 anywhere else, so she knows that the *Bubblegum Finesse* is on her. Cathy blind-plays pink 2 from slot 4.
-  - Donald knows that since Cathy played his slot 4 card, this was a *Bubblegum Finesse*, and that his pink card must be the matching card. Donald plays the pink 3.
+  - Donald knows that since Cathy played her slot 4 card, this was a *Bubblegum Finesse*. Donald's pink card must be the connecting card. Donald plays the pink 3.
 - *Bubblegum Finesses* can only be used to get pink cards.
 - Note that *4 Charms* have precedence over *Bubblegum* moves.
 

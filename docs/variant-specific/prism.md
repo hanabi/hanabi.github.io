@@ -9,12 +9,12 @@ These conventions apply to any variant with a prism suit.
 
 ### Color Finesses (One-Away-From-Playable)
 
-- For the purposes of *Finesses*, prism cards "match" if they are the direct next color.
+- For the purposes of *Finesses*, prism cards only "connect" if they are the direct next color.
 - For example, in a 3-player game of *Prism (5 Suits)*:
   - Prism 1 is played on the stacks.
   - Alice clues green to Cathy, touching a prism 3 as a *Play Clue*.
   - Bob blind-plays a prism 2 from his *Finesse Position*.
-  - Cathy knows that since prism 3 is green, prism 2 matches green. Thus, this must be a *Finesse*.
+  - Cathy knows that since prism 3 is green, prism 2 connects to green. Thus, this must be a *Finesse*.
   - Cathy plays her green as a prism 3.
 
 ### Color Bluffs (Two-Away-From-Playable)
@@ -25,5 +25,5 @@ These conventions apply to any variant with a prism suit.
   - Nothing is played on the stacks.
   - Alice clues green to Cathy, touching a prism 3 as a *Play Clue*.
   - Bob blind-plays a prism 1 from his *Finesse Position*.
-  - Cathy knows that prism 1 would match yellow, but it does not match green. Thus, this is just a *Bluff*.
-  - Cathy marks her green card as either a green 2 (as a normal *Bluff*, a green 3 (as a *3 Bluff*), or a prism 3 (as a *Hard 3 Bluff*).
+  - Cathy knows that prism 1 would connect to yellow, but it does not connect to green. Thus, this is just a *Bluff*.
+  - Cathy marks her green card as either a green 2 (as a normal *Bluff*), a green 3 (as a *3 Bluff*), or a prism 3 (as a *Hard 3 Bluff*).

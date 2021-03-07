@@ -98,7 +98,7 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
   - Emily has a red 5 that has a number 5 clue on it. (It was *5 Saved* in the *Early Game*.)
   - Alice clues red to Emily, "filling in" the red 5 as a *Play Clue*. (This cannot be a *5 Color Ejection*, because that move requires the 5 to be freshly touched.)
   - Bob sees that no-one else has the red 2. Bob blind-plays his *Finesse Position* card as red 2, but it is instead a blue 2.
-  - Cathy knows a blue 2 does not match a red 5, so this must be some kind of *Bluff*. However, a red 5 is not a valid *Bluff* target and it is also not a valid *Double Bluff* target. Thus, this must be a *Triple Bluff*. Cathy blind-plays her *Finesse Position* card as any playable card, and it plays as green 2.
+  - Cathy knows a blue 2 does not connect to a red 5, so this must be some kind of *Bluff*. However, a red 5 is not a valid *Bluff* target and it is also not a valid *Double Bluff* target. Thus, this must be a *Triple Bluff*. Cathy blind-plays her *Finesse Position* card as any playable card, and it plays as green 2.
   - Donald also knows that this must be a *Triple Bluff* for the same reasons that Cathy does. Donald blind-plays his *Finesse Position* and it plays as a yellow 2.
 - This convention was deleted because it was hardly ever used. The similar moves of the *Triple One-Third Bluff*, the *Triple Two-Third Bluff*, and the *5's Triple Bluff* were also deleted.
 
@@ -318,7 +318,7 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
 
 ### The Rank Choice Bluff
 
-- *Reverse Finesses* take precedence over *Bluffs*. This means that players cannot use cards to *Bluff* when there are "matching" cards on other player's *Finesse Positions*.
+- *Reverse Finesses* take precedence over *Bluffs*. This means that players cannot use cards to *Bluff* when there are "connecting" cards on other player's *Finesse Positions*.
 - However, in some rare situations, when initiating a *Reverse Finesse*, players have a free choice between a color clue and a rank clue, meaning that both rank and color will **only** touch the one target card. Here, players will normally choose color instead of rank, since in most variants, color clues are better than rank clues.
 - In this situation, if a player chooses rank instead of color, and there was not a good reason to do so, then the player giving the clue must be trying to communicate something extra - that they really want a *Bluff* to happen (instead of a *Reverse Finesse*). This is called a *Rank Choice Bluff*.
 - It is possible to use the *Rank Choice* convention with any kind of *Bluff*. Thus, it is possible to *Rank Choice 3 Bluff*, *Rank Choice Double Bluff*, and so forth.
@@ -326,7 +326,7 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
 
 ### The Rank Choice Finesse
 
-- After Bob sees that Alice wants a *Rank Choice Bluff* to happen, he will blind-play his *Finesse Position* card, expecting it to be an unrelated card. But what if Bob plays a card that matches the card that was clued?
+- After Bob sees that Alice wants a *Rank Choice Bluff* to happen, he will blind-play his *Finesse Position* card, expecting it to be an unrelated card. But what if Bob plays a card that connects to the card that was clued?
 - In this situation, it would be a *Rank Choice Finesse* instead of a *Rank Choice Bluff*. A *Rank Choice Finesse* may be preferable to a (more ordinary) *Ambiguous Finesse*, which will resolve more slowly.
 - This convention was deleted because it was confusing and led to accidental misplays.
 
