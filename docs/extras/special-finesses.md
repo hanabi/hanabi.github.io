@@ -5,7 +5,7 @@ title: Special Finesses
 
 ### The Ambiguous Finesse Pass-Back
 
-- When an *Ambiguous Finesse* occurs, the first player will not play into the *Finesse*, and do something unrelated. At that point, it is usually clear that **another player** on the team **also** has the matching card. That other player should then **immediately blind-play**, resolving the *Ambiguous Finesse* as fast as possible.
+- When an *Ambiguous Finesse* occurs, the first player will not play into the *Finesse*, and do something unrelated. At that point, it is usually clear that **another player** on the team **also** has the connecting card. Normally, that other player should then **immediately blind-play**, resolving the *Ambiguous Finesse* as fast as possible.
 - However, in some specific situations, the second person **cannot** blind-play the card, or else a misplay would occur. In these situations, the second person has to **also** not play into the *Finesse*. This "passes" the blind-play back to the first person again.
 - For example, in a 4-player game:
   - Blue 1 is played on the stacks.
@@ -71,7 +71,7 @@ title: Special Finesses
 
 - Normally, if number 2 is clued to a chop card, it is considered to be a *Save Clue* (as the *2 Save* convention).
 - However, it is possible for players to transform this *Save Clue* interpretation into a *Play Clue* interpretation if they violate *Good Touch Principle* and intentionally duplicate another 2.
-- In this situation, the player who received the clue will know that the chop card matches.
+- In this situation, the player who received the clue will know that the chop card connects.
   - If two 2's were clued, then the other 2 is obviously the exact same copy as the chop 2. In this situation, the left-most card can be played and the other card discarded as known trash.
   - If three or more 2's were clued, then any of the other cards could be the duplicated 2. In this situation, the chop card should be discarded and then *Elimination Notes* for that card written on the other 2's.
 - For example, in a 3-player game:
@@ -150,7 +150,7 @@ title: Special Finesses
   - Alice has an unknown 3 in her hand that happens to be the red 3.
   - Alice clues number 4 to Cathy, touching a red 4 as a *Play Clue*.
   - Bob knows that Alice could be trying to perform a *Finesse* on a red 3. Normally, he would blind-discard his *Finesse Position* card as a *Certain Discard* in order to pass this card back to Alice.
-  - However, Bob also knows that this might be a *Bluff*. But wait - his *Finesse Position* card has negative blue on it. So anything that he blind-plays here would have to be a 3. Thus, this cannot be a *Bluff*, since a 3 would match a 4 and look like a *Finesse*.
+  - However, Bob also knows that this might be a *Bluff*. But wait - his *Finesse Position* card has negative blue on it. So anything that he blind-plays here would have to be a 3. Thus, this cannot be a *Bluff*, since a 3 would connect to 4 and look like a *Finesse*.
   - The only other possibility that Bob has to worry about is a *Clandestine Finesse*. For example, he could be blind-playing a green 3 **and then** a red 3 after that. If he blind-discarded, that could "kill" the green stack, since the other copy of green 3 is already discarded.
   - However, Bob **also** knows that you are not allowed to perform a *Clandestine Finesse* from *Bluff Seat* that could duplicate a card in your hand. Thus, he can discount both the possibility of a *Bluff* **and** the possibility of a *Clandestine Finesse*.
   - Bob performs a *Certain Discard* on his *Finesse Position* card and it is the red 3, successfully passing it back to Alice.
@@ -259,13 +259,13 @@ title: Special Finesses
   - Thus, Bob's 2 must be some other 2. Bob knows that this would normally cause a *Pestilent Double Bluff*, but Cathy did not blind-play anything.
   - Thus, this must be a *Disease Clandestine Finesse*. In other words, Alice told him that his 2 was playable right now, and no-one else has blind-played any 1s, so Bob must continue to blind-play cards until his 2 is playable.
   - Bob blind-plays his slot 3 card and it successfully plays as the blue 1.
-  - Bob knows that his 2 must be the blue 2 to match the blue 1.
+  - Bob knows that his 2 must be the blue 2 to connect to the blue 1.
 
 <br />
 
 ### The Cursed Finesse
 
-- Commonly, players can use a *Double Finesse* or a *Clandestine Finesse* to "get" multiple cards from the next player. This works because the first blind-play "matches" the clued card.
+- Commonly, players use a *Double Finesse* or a *Clandestine Finesse* to "get" multiple cards from the next player. This works because the first blind-play "connects" to the clued card, forcing Bob to blind-play again in order to prevent Cathy from misplaying.
 - However, what if a player intentionally performs a *Bluff* where other players can see that it was actually possible to perform a *Double Finesse* or a *Clandestine Finesse*?
 - In this situation, if the cluer is not making a mistake, they are trying to send a deeper message - they want an extra person to blind-play.
 - This is called a *Cursed Finesse* because it requires the situation to be "cured". By performing a *Cure Blind-Play*, the move is transformed from a *Bluff* into a real *Finesse*.
