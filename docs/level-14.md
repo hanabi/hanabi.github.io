@@ -62,9 +62,9 @@ title: Level 14 - Double Bluffs
 - This is how it works for 5's:
   - If a 5 is given a *Play Clue* and it is *one-away-from-playable*, then it would only trigger a single *Bluff* (and not a *Double Bluff*).
   - If a 5 is given a *Play Clue* and it is *two-away-from-playable*, then it would trigger a *Double Bluff*. (This would be a "normal" *Double Bluff*.)
-    - Note that this would only happen if e.g. *5 Color Ejection* and *5 Number Discharge* would not apply.
+    - Note that this would only happen if e.g. *5 Color Ejection* and *5 Number Discharge* would not apply. (These are advanced conventions that are covered in later levels.)
   - If a 5 is given a *Play Clue* and it is *three-away-from-playable* or *four-away-from-playable*, then it would still only trigger a double *Bluff* (as a *5's Double Bluff* specifically).
-    - Note that this would only happen if e.g. *5 Color Ejection* and *5 Number Discharge* would not apply.
+    - Note that this would only happen if e.g. *5 Color Ejection* and *5 Number Discharge* would not apply. (These are advanced conventions that are covered in later levels.)
 - For example, in a 5-player game:
   - Nothing is played on the stacks.
   - Alice clues Donald red, which touches a red 4 as a *Play Clue*.
