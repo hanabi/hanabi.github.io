@@ -1,0 +1,18 @@
+stacks:
+  - r: 1
+  - g: 1
+  - b: 1
+big_text:
+  text: Blah
+  color: green
+players:
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x

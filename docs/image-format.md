@@ -23,6 +23,9 @@ import CardTextResult from '@site/image-generator/yml/generator-docs/card-text.y
 import TrashSource from '!raw-loader!@site/image-generator/yml/generator-docs/trash.yml';
 import TrashResult from '@site/image-generator/yml/generator-docs/trash.yml';
 
+import BigTextSource from '!raw-loader!@site/image-generator/yml/generator-docs/big-text.yml';
+import BigTextResult from '@site/image-generator/yml/generator-docs/big-text.yml';
+
 export const Code = ({code}) => (
   <Highlight {...defaultProps} code={code} language="yaml">
     {({ className, style, tokens, getLineProps, getTokenProps }) => (
@@ -165,3 +168,7 @@ Text can be placed on a card:
 For some examples, some cards in the discard pile need to be shown. This is performed with the `discarded` array on the top level.
 
 <Example code={TrashSource} Image={TrashResult} />
+
+### Big Text
+
+<Example code={BigTextSource} Image={BigTextResult} />
