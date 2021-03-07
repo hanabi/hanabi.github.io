@@ -50,6 +50,7 @@ x_offset = 0
 x_offset_where_player_begins = 0
 x_max = 0
 y_offset = 0
+left_y_offset = 0
 y_top = 0
 y_below = 0
 
@@ -59,6 +60,7 @@ def main():
     global x_offset
     global x_offset_where_player_begins
     global x_max
+    global left_y_offset
 
     # This script reads from standard in, expecting a YAML file
     # Decode it to YAML
@@ -75,7 +77,7 @@ def main():
     svg_file = svgwrite.Drawing()
 
     # Draw the play stacks on the top-left part of the image
-    x_offset = draw_play_stacks(yaml_file, svg_file)
+    x_offset, left_y_offset = draw_play_stacks(yaml_file, svg_file)
 
     # Add a bit of spacing between the play stacks and the player hands
     x_offset += CARD_WIDTH + 4
@@ -85,6 +87,8 @@ def main():
 
     # Draw the player hands on the right side
     draw_player_row(yaml_file, svg_file)
+
+    draw_big_text(yaml_file, svg_file)
 
     # Draw discarded cards, if any
     draw_discard_pile(yaml_file, svg_file)
@@ -99,10 +103,11 @@ def main():
 
 
 def draw_play_stacks(yaml_file, svg_file):
-    x_offset = 0
-
     if "stacks" not in yaml_file:
-        return x_offset
+        return x_offset, 0
+
+    x_offset = 0
+    y_offset = CARD_HEIGHT + VERTICAL_SPACING_BETWEEN_PLAYERS
 
     for color_value in yaml_file["stacks"]:
         color, value = next(iter(color_value.items()))
@@ -118,7 +123,7 @@ def draw_play_stacks(yaml_file, svg_file):
 
         x_offset += CARD_WIDTH + HORIZONTAL_SPACING_BETWEEN_CARDS
 
-    return x_offset
+    return x_offset, y_offset
 
 
 def draw_player_row(yaml_file, svg_file):
@@ -509,6 +514,38 @@ def draw_textbox(svg_file, opts, offset):
     return 20 * len(text)
 
 
+def draw_big_text(yaml_file, svg_file):
+    # TODO: unify with draw_textbox
+    global left_y_offset
+
+    try:
+        opts = yaml_file["big_text"]
+    except KeyError:
+        return
+
+    TEXT_WIDTH=150
+    TEXT_HEIGHT=50
+    x_of_text = (
+        len(all_suits) * (CARD_WIDTH + HORIZONTAL_SPACING_BETWEEN_CARDS)
+        - HORIZONTAL_SPACING_BETWEEN_CARDS
+        - TEXT_WIDTH
+    ) / 2
+    y_of_text = left_y_offset
+    color = opts["color"]
+    text_color = "black" if color in ("gold", "yellow", "rainbow") else "white"
+    r = svg_file.svg((x_of_text, y_of_text), (TEXT_WIDTH, TEXT_HEIGHT))
+    svg_file.add(r)
+    rect = svg_file.rect((0, 0), (TEXT_WIDTH, TEXT_HEIGHT), stroke=text_color, fill=color)
+    r.add(rect)
+    t = r.add(svg_file.text(opts["text"], x=["50%"], y=["50%"], fill=text_color,
+        style="font-size: 2em;",
+        ))
+    t["text-anchor"] = "middle"
+    t["dominant-baseline"] = "central"
+
+    left_y_offset += TEXT_HEIGHT + VERTICAL_SPACING_BETWEEN_PLAYERS
+
+
 def draw_discard_pile(yaml_file, svg_file):
     global y_offset
 
@@ -522,7 +559,7 @@ def draw_discard_pile(yaml_file, svg_file):
         - HORIZONTAL_SPACING_BETWEEN_CARDS
         - TRASH_WIDTH
     ) / 2
-    y_of_discard_pile = CARD_HEIGHT + VERTICAL_SPACING_BETWEEN_PLAYERS
+    y_of_discard_pile = left_y_offset
 
     trash_image = svg_file.image(
         "{}/trashcan.png".format(PIECES_PATH),
