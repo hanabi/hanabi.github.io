@@ -3,6 +3,12 @@ id: level-12
 title: Level 12 - Intermediate Bluffs
 ---
 
+import BluffColorDisconnect from '@site/image-generator/yml/level-12/bluff-color-disconnect.yml';
+import Number3WithSuitDisconnect from '@site/image-generator/yml/level-12/number-3-with-suit-disconnect.yml';
+import ColorConnectNotValid from '@site/image-generator/yml/level-12/color-connect-not-valid.yml';
+import ColorConnectWithRankDisconnect from '@site/image-generator/yml/level-12/color-connect-with-rank-disconnect.yml';
+import Number3WithSuitConnect from '@site/image-generator/yml/level-12/number-3-with-suit-connect.yml';
+
 - Level 12 strategies should only be learned if you have 200+ games of experience with the group.
 
 <br />
@@ -24,12 +30,16 @@ title: Level 12 - Intermediate Bluffs
 - Bob blind-plays blue 1.
 - Cathy knows that it is either a red 2 (if it was a normal *Bluff*) or a red 3 (if it was a *3 Bluff*). She marks down both of the possibilities for later.
 
+<BluffColorDisconnect />
+
 #### Example 2 - **Number 3 with Suit Disconnect** (Valid)
 
 - On the first turn of the game, Alice clues Cathy number 3, which touches a red 3.
 - Bob blind-plays blue 1.
 - Cathy knows that it was a *3 Bluff*, because a played 1 does not "connect" to number 3.
 - Beyond that, Cathy knows nothing about the card, besides that it is a 3 (since it has a number 3 clue on it).
+
+<Number3WithSuitDisconnect />
 
 #### Example 3 - **Color Connect** (Not Valid; Looks Like a Finesse)
 
@@ -38,6 +48,8 @@ title: Level 12 - Intermediate Bluffs
 - Cathy sees that Bob does not have red 2. Since red connects to red, Cathy assumes that she has the red 2.
 - Cathy misplays red 3 as red 2.
 - Alternatively, if Cathy saw that Bob had both red 1 and red 2 on his *Finesse Position* at the time the clue was given, she would know that she has the red 2 **or** the red 3. Subsequently, Bob is promised a red 2, since if he does not blind-play a card, Cathy will go on to misplay the red 3 as red 2.
+
+<ColorConnectNotValid />
 
 #### Example 4 - **Color Connect With Rank Disconnect** (Not Valid; Looks Like a Finesse)
 
@@ -49,6 +61,8 @@ title: Level 12 - Intermediate Bluffs
 - Cathy needs to evaluate whether or not Alice's clue is a *Finesse* or a *3 Bluff*. If this is a *Double Finesse*, then Cathy needs to blind-play the red 2. If this is a *Bluff*, then Alice only intended for Bob to blind-play.
 - Cathy knows that since **red connects to red**, this must be a *Double Finesse*, so Cathy blind-plays the red 2 into the red 3.
 
+<ColorConnectWithRankDisconnect />
+
 #### Example 5 - **Number 3 With Suit Connect** (Valid)
 
 - On the first turn of the game, Alice clues Cathy number 3, which touches a red 3.
@@ -56,6 +70,8 @@ title: Level 12 - Intermediate Bluffs
 - Cathy knows that it was a *3 Bluff*, because a played 1 does not "connect" to number 3.
 - Beyond that, Cathy knows nothing about the card, besides that it is a 3 (since it has a number 3 clue on it).
 - Even though red 1 and red 3 are the same suit, Bob is not promised a red 2.
+
+<Number3WithSuitConnect />
 
 #### Generic Questions
 
