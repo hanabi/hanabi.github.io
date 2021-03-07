@@ -36,18 +36,6 @@ title: Level 20 - Ignition
 
 <br />
 
-### Priority Ignition
-
-- Players generally perform *Priority Bluffs* by tricking players into thinking they have a specific card. However, it is also possible to perform a *Priority Ignition*. For example:
-  - Alice has a three known playable cards: red 1, blue 4, and blue 5.
-  - Bob has a known red 2.
-  - Alice is expected to play the red 1 into the red 2, so the red 1 has *Priority*.
-  - Instead, Alice plays the blue 4.
-  - Normally, Bob would think that this is a *Priority Finesse* on the blue 5. However, both he and Alice know that Alice has the blue 5.
-  - This must be a *Priority Ignition*, so Bob plays his *Finesse Position* card as any playable card.
-
-<br />
-
 ### The Trash Double Ignition
 
 - Towards the end of the game, if a player clues one or more brand-new trash cards, and the cards are known to be trash, then there are usually 2 possible interpretations:

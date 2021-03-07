@@ -83,6 +83,19 @@ title: Special Bluffs
 
 <br />
 
+### The Known Priority Bluff
+
+- Players generally perform *Priority Bluffs* by tricking players into thinking they have a specific card. However, it is also possible to perform a *Known Priority Bluff*. For example:
+  - Alice has a three known playable cards: red 1, blue 4, and blue 5.
+  - Bob has a known red 2.
+  - Alice is expected to play the red 1 into the red 2, so the red 1 has *Priority*.
+  - Instead, Alice plays the blue 4.
+  - Normally, Bob would think that this is a *Priority Finesse* on the blue 5. However, both he and Alice know that Alice has the blue 5.
+  - This must be a *Known Priority Bluff*, so Bob plays his *Finesse Position* card as any playable card.
+- Just like normal *Bluffs*, players are only allowed to perform a *Known Priority Bluff* on the very next player.
+
+<br />
+
 ### The Bad Touch Double Bluff (for 3's)
 
 - In the same way as the *Bad Touch Double Finesse*, it is also possible to *Bad Touch Double Bluff* (or *Bad Touch Double Half Bluff*) in order to get unrelated cards played from *Finesse Position*.
