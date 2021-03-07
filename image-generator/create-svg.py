@@ -243,17 +243,21 @@ def draw_player_card(yaml_file, svg_file, card):
         )
         svg_file.add(clue_border)
 
+    crossed_out = str(card.get("crossed_out", ""))
+
     if clued:
-        draw_clued_card(yaml_file, svg_file, card_type, x_offset, y_offset)
+        draw_clued_card(yaml_file, svg_file, card_type, crossed_out, x_offset, y_offset)
     else:
-        draw_unclued_card(yaml_file, svg_file, x_offset, y_offset, card_type[1:])
+        draw_unclued_card(
+            yaml_file, svg_file, x_offset, y_offset, card_type[1:], crossed_out
+        )
 
     draw_extra_card_attributes(svg_file, card)
 
     x_offset += CARD_WIDTH + HORIZONTAL_SPACING_BETWEEN_CARDS
 
 
-def draw_unclued_card(yaml_file, svg_file, x_offset, y_offset, pips):
+def draw_unclued_card(yaml_file, svg_file, x_offset, y_offset, pips, crossed_out):
     s = svg_file.add(svg_file.svg((x_offset, y_offset), (CARD_WIDTH, CARD_HEIGHT)))
     card_image = svg_file.rect(
         (0, 0),
@@ -265,10 +269,10 @@ def draw_unclued_card(yaml_file, svg_file, x_offset, y_offset, pips):
     s.add(card_image)
 
     if pips:
-        draw_card_pips(yaml_file, svg_file, s, pips)
+        draw_card_pips(yaml_file, svg_file, s, pips, crossed_out)
 
 
-def draw_clued_card(yaml_file, svg_file, card_type, x_offset, y_offset):
+def draw_clued_card(yaml_file, svg_file, card_type, crossed_out, x_offset, y_offset):
     # Find the possible ranks and suits
     card_type = set(card_type)
     ranks = card_type & {"1", "2", "3", "4", "5"}
@@ -286,7 +290,7 @@ def draw_clued_card(yaml_file, svg_file, card_type, x_offset, y_offset):
         )
         s.add(rect)
         # Always draw pips on clued cards with unknown rank + unknown color
-        draw_card_pips(yaml_file, svg_file, s, ranks | suits)
+        draw_card_pips(yaml_file, svg_file, s, ranks | suits, crossed_out)
     elif len(ranks) == 1 and len(suits) != 1:
         # This is a card with a known rank and an unknown color
         card_image = svg_file.image(
@@ -298,7 +302,7 @@ def draw_clued_card(yaml_file, svg_file, card_type, x_offset, y_offset):
         )
         s = svg_file.add(svg_file.svg((x_offset, y_offset), (CARD_WIDTH, CARD_HEIGHT)))
         s.add(card_image)
-        draw_card_pips(yaml_file, svg_file, s, suits)
+        draw_card_pips(yaml_file, svg_file, s, suits, crossed_out)
     elif len(ranks) != 1 and len(suits) == 1:
         # This is a card with a known color and an unknown rank
         card_image = svg_file.image(
@@ -310,7 +314,7 @@ def draw_clued_card(yaml_file, svg_file, card_type, x_offset, y_offset):
         )
         s = svg_file.add(svg_file.svg((x_offset, y_offset), (CARD_WIDTH, CARD_HEIGHT)))
         s.add(card_image)
-        draw_card_pips(yaml_file, svg_file, s, ranks)
+        draw_card_pips(yaml_file, svg_file, s, ranks, crossed_out)
     else:
         # An exact card identity was specified
         # (e.g. "r1")
@@ -326,7 +330,7 @@ def draw_clued_card(yaml_file, svg_file, card_type, x_offset, y_offset):
         svg_file.add(card_image)
 
 
-def draw_card_pips(yaml_file, svg_file, svg, pips):
+def draw_card_pips(yaml_file, svg_file, svg, pips, crossed_out):
     rank_pip_width = CARD_WIDTH / 5
     for rank in range(1, 6):
         if str(rank) in pips:
@@ -347,6 +351,17 @@ def draw_card_pips(yaml_file, svg_file, svg, pips):
             )
             rank_pip_text_element["text-anchor"] = "middle"
             rank_pip_text_element["dominant-baseline"] = "central"
+            if str(rank) in crossed_out:
+                rank_pip_rectangle.add(
+                    svg_file.image(
+                        "{}/x.png".format(PIECES_PATH),
+                        x=CARD_WIDTH / 10 - 6,
+                        y=CARD_HEIGHT / 10 - 6,
+                        width=12,
+                        height=12,
+                        style="filter: url(#black_x_rank)",
+                    )
+                )
 
     angle = 2 * math.pi / len(all_suits)
     for i, color in enumerate(all_suits):
@@ -361,6 +376,17 @@ def draw_card_pips(yaml_file, svg_file, svg, pips):
                     style="filter: url(#shadow)",
                 )
             )
+            if color in crossed_out:
+                svg.add(
+                    svg_file.image(
+                        "{}/x.png".format(PIECES_PATH),
+                        x=CARD_WIDTH / 2 - 6 - 20 * math.sin(angle * i) - 2,
+                        y=CARD_HEIGHT / 2 - 6 - 20 * math.cos(angle * i) - 2,
+                        width=16,
+                        height=16,
+                        style="filter: url(#black_x_suit)",
+                    )
+                )
 
 
 def draw_extra_card_attributes(svg_file, card):
@@ -523,8 +549,8 @@ def draw_big_text(yaml_file, svg_file):
     except KeyError:
         return
 
-    TEXT_WIDTH=150
-    TEXT_HEIGHT=50
+    TEXT_WIDTH = 150
+    TEXT_HEIGHT = 50
     x_of_text = (
         len(all_suits) * (CARD_WIDTH + HORIZONTAL_SPACING_BETWEEN_CARDS)
         - HORIZONTAL_SPACING_BETWEEN_CARDS
@@ -535,11 +561,19 @@ def draw_big_text(yaml_file, svg_file):
     text_color = "black" if color in ("gold", "yellow", "rainbow") else "white"
     r = svg_file.svg((x_of_text, y_of_text), (TEXT_WIDTH, TEXT_HEIGHT))
     svg_file.add(r)
-    rect = svg_file.rect((0, 0), (TEXT_WIDTH, TEXT_HEIGHT), stroke=text_color, fill=color)
+    rect = svg_file.rect(
+        (0, 0), (TEXT_WIDTH, TEXT_HEIGHT), stroke=text_color, fill=color
+    )
     r.add(rect)
-    t = r.add(svg_file.text(opts["text"], x=["50%"], y=["50%"], fill=text_color,
-        style="font-size: 2em;",
-        ))
+    t = r.add(
+        svg_file.text(
+            opts["text"],
+            x=["50%"],
+            y=["50%"],
+            fill=text_color,
+            style="font-size: 2em;",
+        )
+    )
     t["text-anchor"] = "middle"
     t["dominant-baseline"] = "central"
 
@@ -576,7 +610,7 @@ def draw_discard_pile(yaml_file, svg_file):
     x = x_of_discard_pile + TRASH_WIDTH / 2 - width_total / 2
     y = y_of_discard_pile + TRASH_HEIGHT / 2 - height_total / 2
     for card in yaml_file["discarded"]:
-        draw_clued_card(yaml_file, svg_file, card, x, y)
+        draw_clued_card(yaml_file, svg_file, card, set(), x, y)
         x += CARD_WIDTH / 2
         y += CARD_HEIGHT / 3
 
@@ -611,6 +645,21 @@ def print_svg(svg_file):
         """<defs>
         <filter x="0" y="0" width="1" height="1" id="clue_giver">
             <feFlood flood-color="cyan"/>
+        </filter>
+        <filter id="black_x_rank">
+            <feComponentTransfer>
+                <feFuncR type="discrete" tableValues="0"/>
+                <feFuncG type="discrete" tableValues="0"/>
+                <feFuncB type="discrete" tableValues="0"/>
+            </feComponentTransfer>
+        </filter>
+        <filter id="black_x_suit">
+            <feColorMatrix type="matrix" values="
+                -1 0 0 0 1
+                -1 0 0 0 1
+                -1 0 0 0 1
+                 0 0 0 1 0
+            "/>
         </filter>
         <filter id="shadow">
             <feOffset in="SourceAlpha" dx="2" dy="2" result="offsetblur"/>

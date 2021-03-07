@@ -129,6 +129,8 @@ Cards in hand can be of various types:
 - unclued card without any pips displayed, e.g. `x`
 - unclued card with pips displayed, e.g. `xrg23`
 
+`crossed_out` attribute can be used to mark some pips with X (when all other copies of that card are seen elsewhere).
+
 By default, clued cards have an orange border, but this can be overridden with the `border` attribute.
 
 <Example code={TypesSource} Image={TypesResult} />

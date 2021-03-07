@@ -23,5 +23,7 @@ players:
       - type: xr3
   - cards:
       - type: 134
-      - type: x
-      - type: x
+      - type: rbm12345
+        crossed_out: m35
+      - type: xrbm12345
+        crossed_out: r4
