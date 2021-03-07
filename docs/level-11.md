@@ -3,6 +3,20 @@ id: level-11
 title: Level 11 - Context
 ---
 
+import AssumingAsymmetricInformation from '@site/image-generator/yml/level-11/assuming-asymmetric-information.yml';
+import DuplicationResponsibility1 from '@site/image-generator/yml/level-11/duplication-responsibility-1.yml';
+import DuplicationResponsibility2 from '@site/image-generator/yml/level-11/duplication-responsibility-2.yml';
+import DuplicationResponsibility3 from '@site/image-generator/yml/level-11/duplication-responsibility-3.yml';
+import DuplicationResponsibility4 from '@site/image-generator/yml/level-11/duplication-responsibility-4.yml';
+import DuplicationResponsibility5 from '@site/image-generator/yml/level-11/duplication-responsibility-5.yml';
+import SelfishClue from '@site/image-generator/yml/level-11/selfish-clue.yml';
+import SelfishFinesse from '@site/image-generator/yml/level-11/selfish-finesse.yml';
+import FocusInversion from '@site/image-generator/yml/level-11/focus-inversion.yml';
+import FakeSave from '@site/image-generator/yml/level-11/fake-save.yml';
+import CluingOnes1 from '@site/image-generator/yml/level-11/cluing-ones-1.yml';
+import CluingOnes2 from '@site/image-generator/yml/level-11/cluing-ones-2.yml';
+import CluingOnes3 from '@site/image-generator/yml/level-11/cluing-ones-3.yml';
+
 - Level 11 strategies should only be learned if you have 180+ games of experience with the group.
 
 <br />
@@ -23,6 +37,9 @@ title: Level 11 - Context
   - Bob has not discarded since the *2 Save* was given to him earlier on. Thus, he knows that one of his three clued 2's must be the other copy of the red 2, so he marks all three cards as "possible red 2".
   - However, these notes are asymmetric - Alice and Bob write the notes, but Cathy does not. (Cathy has no idea that this is happening because Cathy cannot see her own red 2 on chop.)
   - Alice and Bob will have to keep this information desync in mind going forward.
+
+<AssumingAsymmetricInformation />
+
 - By default, players should never assume that other players have asymmetric information. This is because having asymmetric information is the **exception**, rather than the norm.
 - In the previous example, Bob might perform an action later on in the game that seems to demonstrate that he knows he has the red 2. But Cathy should not assume that he does, unless there is **no other explanation** for the clue.
 
@@ -39,26 +56,39 @@ title: Level 11 - Context
   - Bob has 2 unknown 2's.
   - Cathy has 1 unknown 2.
   - Bob should let Cathy perform the save, since 1 matching card is less than 2 matching cards.
+
+ <DuplicationResponsibility1 />
+
 - Example 2:
   - In a 3 player game, Alice has a blue 2 on chop that needs to be saved.
   - Bob has 2 unknown 2's.
   - Cathy has 2 unknown 2's.
   - The responsibility is shared, so Bob should perform the clue if Cathy has a good discard, or he can discard and let Cathy do it.
+
+ <DuplicationResponsibility2 />
+
 - Example 3:
   - In a 3 player game, Alice has a blue 2 on chop that needs to be saved.
   - Bob has 2 unknown blue cards.
   - Cathy has 1 unknown 2's.
   - Bob should let Cathy perform the save, since 1 matching card is less than 2 matching cards.
+
+  <DuplicationResponsibility3 />
+
 - Example 4:
   - In a 3 player game, Alice has a blue 2 on chop that needs to be saved.
   - Bob has 2 unknown blue cards. No blue cards have been played yet, so from Bob's perspective, each blue card has a 1/5 chance of being the blue 2.
   - Cathy has 2 unknown 2's. No 2's have been played yet, so from Cathy's perspective, each 2 has a 1/5 chance of being the blue 2.
   - The responsibility is shared, so Bob should perform the clue if Cathy has a good discard, or he can discard and let Cathy do it.
+  <DuplicationResponsibility4 />
+
 - Example 5:
   - In a 3 player game, Alice has a blue 2 on chop that needs to be saved.
   - Bob has 2 unknown blue cards. No blue cards have been played yet, so from Bob's perspective, each blue card has a 1/5 chance of being the blue 2.
   - Cathy has 2 unknown 2's. One 2 has been played already, so from Cathy's perspective, each 2 has a 1/4 chance of being the blue 2.
   - Thus, it is Bob's responsibility to save the blue 2.
+
+  <DuplicationResponsibility5 />
 
 <br />
 
@@ -84,6 +114,8 @@ title: Level 11 - Context
   - Alice sees that if she gives a red clue to Bob *right now* (e.g. before she plays the red 2), then she will be able to "lock-in" a nice 3-for-1 clue. Even though the team will lose *Tempo*, this will be inconsequential because Bob has a safe discard and Cathy has a safe discard.
   - Alice clues red to Bob as a *Selfish Play Clue*.
 
+  <SelfishClue />
+
 <br />
 
 ### The Selfish Finesse (A Finesse Through Your Own Hand)
@@ -100,6 +132,8 @@ title: Level 11 - Context
   - Bob plays red 1.
   - Cathy discards.
   - Alice blind-plays red 2.
+
+  <SelfishFinesse />
 
 <br />
 
@@ -133,6 +167,9 @@ title: Level 11 - Context
   - Normally, Bob would think that this is a *Chop-Focus* clue, and play the blue 1 from slot 5.
   - However, his slot 5 card has a negative 1 clue on it (from Alice's number 1 clue), so it explicitly cannot be the blue 1.
   - Thus, this must be *Focus Inversion* and blue 1 must be on slot 1. The blue card on slot 5 can be either blue 2, blue 3, blue 4, or blue 5.
+
+  <FocusInversion />
+
 - Note that ***Self-Finesses* with rank always take precedence over *Focus Inversion***. (*Self-Finesses* with rank are quite common, but *Self Finesses* with color are nonsensical.)
 
 <br />
@@ -149,6 +186,9 @@ title: Level 11 - Context
   - However, if Alice clues number 5 to Bob, then he will discard the red 4.
   - Thus, Alice performs a *Fake Save* on both red cards by cluing red.
   - Bob will mark his chop as the red 4, so the team will have to give him a number 5 clue as a *Fix Clue* at some point in the future. At that point, Bob will be surprised, but he will be able to retroactively see that Alice was in a very tight spot and had to give a *Fake Save*.
+
+  <FakeSave />
+
 - *Fake Saves* are **only allowed as a last resort**. If there is some other line that would "work", then players must use the other line. Because of this, *Fake Saves* are extremely rare.
 
 <br />
@@ -185,6 +225,8 @@ title: Level 11 - Context
   - If Alice clues blue, it would be a 2-for-1 clue. But then the team will no longer be able to give a red clue, because it would be *Chop-Focused* on the red 3. So they would have to clue number 1, which would result in an efficiency of 3-for-2. Bad.
   - Thus, Alice should clue red first, and then clue blue later, resulting in an efficiency of 4-for-2.
 
+  <CluingOnes1 />
+
 #### Example 2
 
 - When players make the choice between cluing number 1 or cluing color, the cards in other people's hands should also be considered.
@@ -196,6 +238,8 @@ title: Level 11 - Context
   - Just like in the previous example, cluing number 1 means that the red 2 will have to be clued as a 1-for-1, which results in an efficiency of 3-for-2.
   - Instead, Alice clues red to Donald, performing the *Finesse* as a 2-for-1. Next, Bob clues blues to Cathy as a 2-for-1. In total, this is a 4-for-2.
 
+  <CluingOnes2 />
+
 #### Example 3
 
 - As explained in the [beginner's guide](beginner.md#other-general-strategy), it is almost always better to give a *Play Clue* instead of a *Save Clue* if a player has a playable card in their hand.
@@ -206,6 +250,8 @@ title: Level 11 - Context
   - Alice would like to get the red 1 played. (No-one else has a red 1 in their hand.) Alice also knows that the team needs to eventually save the red 5.
   - If Alice clues number 1 first to get the red 1, then the team will need to give a *5 Save* to save the blue 5, resulting in an efficiency of 2-for-2.
   - Instead, Alice clues number 5 as a *5 Save*, which allows Bob to follow up with a red *Chop-Focus Play Clue*. This touches the red 3 as a 2-for-1, allowing for an overall efficiency of a 3-for-2.
+
+  <CluingOnes3 />
 
 #### Other Considerations
 

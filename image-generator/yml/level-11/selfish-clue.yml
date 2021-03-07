@@ -1,0 +1,30 @@
+stacks:
+  - r: 1
+  - y: 1
+  - g: 1
+  - b: 1
+  - p: 1
+players:
+  - cards:
+      - type: x
+      - type: r2
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: b1
+        border: false
+      - type: r3
+        border: false
+      - type: r4
+        border: false
+      - type: r5
+        border: false
+      - type: b1
+        border: false
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x

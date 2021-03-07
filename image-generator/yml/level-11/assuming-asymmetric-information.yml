@@ -1,0 +1,31 @@
+stacks:
+  - r: 0
+  - y: 0
+  - g: 0
+  - b: 0
+  - p: 0
+discarded:
+  - b4
+players:
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+      - type: 2
+        below: Red 2?
+      - type: x
+      - type: 2
+        below: Red 2?
+      - type: 2
+        below: Red 2?
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: r2
+        border: false
