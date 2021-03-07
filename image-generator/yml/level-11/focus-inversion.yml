@@ -1,0 +1,30 @@
+stacks:
+  - r: 1
+  - y: 0
+  - g: 0
+  - b: 0
+  - p: 0
+players:
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: b
+        clue: b
+        middle_note: (1)
+        below: Focus
+      - type: x
+      - type: x
+      - type: x
+      - type: b2345
+        clue: b
+  - clue_giver: true
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
