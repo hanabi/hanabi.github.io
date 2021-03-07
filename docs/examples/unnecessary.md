@@ -17,7 +17,7 @@ title: Examples of Unnecessary Moves
   - Bob sees that the pushed card is a red 3. Cathy has no other red cards in her hand, so Alice could have just clued red to Cathy instead of doing a complicated *Trash Push*.
   - Thus, Bob knows that this is an *Unnecessary Trash Push*. Bob blind-plays his *Finesse Position* card. It is the blue 3 and it successfully plays.
   - Cathy knows that this must be a *Trash Push Finesse* on blue 4. Cathy blind-plays her slot 4 card, but it is red 3 instead and it successfully plays.
-  - Cathy now knows that since the two cards did not match each other, this must have been an *Unnecessary Trash Push*.
+  - Cathy now knows that since the two cards did not connect to each other, this must have been an *Unnecessary Trash Push*.
 
 #### Example 2
 

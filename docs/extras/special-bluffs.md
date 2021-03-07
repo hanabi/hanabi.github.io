@@ -13,7 +13,7 @@ title: Special Bluffs
   - The closest 4 to being playable is the red 4, so Bob knows that the 4 in his hand is probably a red 4.
   - Since Bob does not see any red 3's, Bob knows he must have the red 3, and he blind-plays his *Finesse Position* card. It is a blue 1 and successfully plays.
   - Bob now knows that he was *Bluffed* by Alice and that the 4 in his hand is exactly red 4.
-- Doing a *Self-Bluff* on a player with a color clue is a bit more weird. On the face of it, a *Self Color Bluff* would be nonsensical, since the receiving player would have negative color on the card that they are blind-playing - they would explicitly know that the blind-card cannot possibly match.
+- Doing a *Self-Bluff* on a player with a color clue is a bit more weird. On the face of it, a *Self Color Bluff* would be nonsensical, since the receiving player would have negative color on the card that they are blind-playing - they would explicitly know that the blind-card cannot possibly "connect".
 - Nonetheless, we agree that in this situation, players should blind-play a card anyway as a *Known Bluff*.
 - For example, in a 3-player game:
   - Red 2 is played on the stacks.
@@ -117,7 +117,7 @@ title: Special Bluffs
   - Cathy knows that this is probably a *4's Double Bluff*. Cathy blind-plays her *Finesse Position* as any playable card. It is a blue 3 and it successfully plays.
   - Donald knows that Emily will go on to incorrectly think that her red 4 is a blue 4 (because Alice's clue looks like a *Double Finesse*). Thus, Alice's clue is quite strange.
   - Alice must be intending for Donald to also blind-play his *Finesse Position* in order to "heal" the problem. Donald blind-plays his *Finesse Position*. It is a green 2 and it successfully plays.
-  - At first, Emily thought that her 4 was the blue 4, in order to match the blue 2 and the blue 3. However, if that was the case, then Donald would not have blind-played anything. Emily knows that this must be a *Pestilent Triple Bluff*, and her 4 is any other 4 than blue 4 (because Donald blind-played) and green 4 (because Bob would have waited for Donald).
+  - At first, Emily thought that her 4 was the blue 4 (connecting to the blue 2 and the blue 3). However, if that was the case, then Donald would not have blind-played anything. Emily knows that this must be a *Pestilent Triple Bluff*, and her 4 is any other 4 than blue 4 (because Donald blind-played) and green 4 (because Bob would have waited for Donald).
 
 <br />
 
@@ -147,7 +147,7 @@ title: Special Bluffs
 
 - This convention only applies to 3-player games.
 - Sometimes, a player will have a fully playable hand from left to right. In this situation, players will normally try to perform a *Layered Finesse* in order to get all of the cards in the most efficient manner. However, a *Layered Finesse* may not always be available.
-- In extremely rare situations, it is possible to orchestrate a *Lie* in which the player with the fully playable hand thinks that they are *Layered Finessed* when they really do not have the connecting card. After they play their final card and it is not the matching card, they will know that they were *Purge Bluffed* and that nobody has the missing card.
+- In extremely rare situations, it is possible to orchestrate a *Lie* in which the player with the fully playable hand thinks that they are *Layered Finessed* when they really do not have the connecting card. After they play their final card and it is not the connecting card, they will know that they were *Purge Bluffed* and that nobody has the missing card.
 - Care has to be taken that the other player (e.g. the player who is not *Purge Bluffed*) will understand what is going on. For example, they might think that a *Patch Finesse* is happening. Thus, *Purge Bluffs* can only be done in expert games where there is **no other possible interpretation for what is happening**.
 - If the player blind-playing cards into a *Purge Bluff* realizes that a *Lie* has occurred before they finish blind-playing their entire hand, they are supposed to stop. In other words, they are **not** supposed to continue blind-playing cards as a *Known Purge Bluff*.
 - Examples of a *Purge Bluff* can be found [here](../examples/purge-bluff.md).

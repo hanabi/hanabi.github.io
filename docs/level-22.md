@@ -112,7 +112,7 @@ title: Level 22 - Charms & Miscellaneous
 ### The Hesitation Blind-Play
 
 - Sometimes, a player will receive a *Play Clue* on a card. And then, instead of playing it, they will discard their chop instead. This would normally indicate some sort of emergency. However, sometimes it can be seen that there is nothing special going on and that everybody has safe chop cards.
-- In such a situation, if the player is not making a mistake, the only reason that they would discard is that they are allowing for the possibility of a *Prompt* or a *Reverse Finesse* - someone else on the team has a playable card (either clued or on *Finesse Position*) that "matches" the card that they got the *Play Clue* on.
+- In such a situation, if the player is not making a mistake, the only reason that they would discard is that they are allowing for the possibility of a *Prompt* or a *Reverse Finesse* - someone else on the team has a playable card (either clued or on *Finesse Position*) that "connects" to the card that they got the *Play Clue* on.
 - Depending on the game state, clever players may be able to blind-play their *Finesse Position* card in response to this hesitation, getting a card for "free". This kind of move is called a *Hesitation Blind-Play*.
 - For example, in a 3-player game:
   - Red 1 and all of the other 2's are played on the stacks.

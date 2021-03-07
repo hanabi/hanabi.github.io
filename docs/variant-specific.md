@@ -45,7 +45,7 @@ import LoadedPlayClue from '@site/image-generator/yml/extras/loaded-play-clue.ym
   - Cathy knows that normally, Bob's number 4 clue could be an *Early Save* on a blue 4 (which is currently critical).
   - However, Cathy also knows that *Early Saves* are turned off in *Hard* variants. Since Cathy is loaded with her playable 3, Bob's clue must have been a *Loaded Play Clue*.
   - Cathy plays the 3. It is a red 3 and it successfully plays.
-  - Cathy now knows that her 4 must be the red 4 (to match the red 3).
+  - Cathy now knows that her 4 must be the red 4 (connecting to the red 3).
 
 <LoadedPlayClue />
 
