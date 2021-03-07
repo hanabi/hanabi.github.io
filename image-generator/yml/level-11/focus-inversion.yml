@@ -15,6 +15,7 @@ players:
       - type: b
         clue: b
         middle_note: (1)
+        below: Focus
       - type: x
       - type: x
       - type: x
