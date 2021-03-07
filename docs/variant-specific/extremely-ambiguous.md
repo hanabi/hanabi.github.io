@@ -30,7 +30,7 @@ These conventions apply to the "Extremely Ambiguous" variants.
   - Instead, Alice clues blue to Cathy, touching all 5 cards in Cathy's hand. Cathy knows that this means that she can play her slot 2 card.
   - Bob sees that Cathy's blue clue was unnecessary, because a number 1 clue could have cleanly gotten the sky 1. Since blue clues are only to be used as a last resort, this must be an *Unnecessary Blue Bluff*.
   - Bob blind-plays his *Finesse Position* card and it is a berry 1.
-  - Cathy knows that a *Play Clue* on slot 2 made Bob blind-play, so this must be a *Finesse* and Cathy must have the berry 2 to match Bob's blind-play.
+  - Cathy knows that a *Play Clue* on slot 2 made Bob blind-play, so this must be a *Finesse* and Cathy must have the berry 2 to connect to Bob's blind-play.
   - Cathy plays her slot 2 card as berry 2 and it is instead the sky 1. Cathy now knows that Alice performed an *Unnecessary Blue Bluff*.
 
 ### Advanced Conventions

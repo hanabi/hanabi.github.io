@@ -30,14 +30,14 @@ These conventions apply to the following variants:
 
 ### The Transparent Bluff
 
-- Normally, you cannot perform a *Bluff* in variants without any positive information. This is because there is no way for the clue to not match the card that is blind-playing.
-- However, the one exception to this is if a 5 blind-plays. Then, the clue receiver can know that it is a *Bluff* (because there is no card that matches at 5).
+- Normally, you cannot perform a *Bluff* in variants without any positive information. This is because the blind-play will always look like it "connects" to the clue target.
+- However, the one exception to this is if a 5 blind-plays. Then, the clue receiver can know that it is a *Bluff* (because there is no card that connects to a 5).
 - In this situation, the clue receiver would mark their touched card as a one-away-from-playable card.
 
 ### The Transparent Double Bluff
 
-- Normally, you cannot perform a *Bluff* in variants without any positive information. This is because there is no way for the clue to not match the card that is blind-playing.
-- However, it is possible to perform a *Double Bluff* by cluing any one-away-from-playable card and getting two non-matching cards to play.
+- Normally, you cannot perform a *Bluff* in variants without any positive information. This is because the blind-play will always look like it "connects" to the clue target.
+- However, it is possible to perform a *Double Bluff* by cluing any one-away-from-playable card and getting two non-connected cards to play.
 - For example, in a 4-player game of the Duck variant:
   - It is the first turn and nothing is played on the stacks.
   - Alice clues red to Donald, touching a red 2 as a *Play Clue*.
