@@ -93,7 +93,7 @@ import NewChopMove from '@site/image-generator/yml/level-123/new-chop-move.yml';
 
 ## Iteration
 
-When using the `run.sh` script and viewing the page locally, any changes that you make to the website will be automatically updated without having to refresh the page.
+When using the `run.sh` script and viewing the page locally, any changes that you make to the website will be automatically updated without having to refresh the page. This includes any changes to YAML files - they will be automatically re-converted into SVG files on the fly and updated in the browser.
 
 <br />
 
