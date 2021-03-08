@@ -5,7 +5,7 @@ stacks:
   - b: 0
   - p: 0
 big_text:
-  text: Illegal
+  text: Illegal!
   color: red
 players:
   - clue_giver: true
@@ -36,6 +36,9 @@ players:
       - type: x
       - type: r
         below: Red 2
+        above: Bombs!
+        middle_note: (3)
       - type: x
       - type: x
       - type: x
+  - text: Cathy misplays red 3 as red 2. Alice made a mistake.
