@@ -1,0 +1,43 @@
+stacks:
+  - r: 1
+  - y: 0
+  - g: 0
+  - b: 0
+  - p: 0
+big_text:
+  text: Finesse
+  color: purple
+players:
+  - clue_giver: true
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+        above: Red 2
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+      - type: 3
+        middle_note: (R)
+      - type: 4
+        clue: 4
+        middle_note: (R)
+      - type: x
+      - type: x
+  - text: After Bob blind plays red 2...
+  - name: Cathy
+    cards:
+      - type: x
+      - type: 3
+        below: Red 3
+      - type: 4
+        below: Red 4
+      - type: x
+      - type: x
