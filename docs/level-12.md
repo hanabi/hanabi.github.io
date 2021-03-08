@@ -9,6 +9,11 @@ import ColorConnectNotValid from '@site/image-generator/yml/level-12/color-conne
 import ColorConnectWithRankDisconnect from '@site/image-generator/yml/level-12/color-connect-with-rank-disconnect.yml';
 import Number3WithSuitConnect from '@site/image-generator/yml/level-12/number-3-with-suit-connect.yml';
 
+import Critical4Bluff from '@site/image-generator/yml/level-12/critical-4-bluff.yml';
+import FinessePromptNotHardBluff from '@site/image-generator/yml/level-12/finesse-prompt-not-hard-bluff.yml';
+import HardBluff from '@site/image-generator/yml/level-12/hard-bluff.yml';
+import Hard3Bluff from '@site/image-generator/yml/level-12/hard-3-bluff.yml';
+
 - Level 12 strategies should only be learned if you have 200+ games of experience with the group.
 
 <br />
@@ -92,6 +97,8 @@ import Number3WithSuitConnect from '@site/image-generator/yml/level-12/number-3-
   - However, Cathy also knows that *3 Bluffs* are a thing, so she *also* marks her red card as possibly a red 3.
   - However, Cathy also knows that *Critical 4 Bluffs* are a thing, so she *also* marks her red card as possibly a red 4.
 
+<Critical4Bluff />
+
 <br />
 
 ### The Hard Bluff
@@ -105,6 +112,9 @@ import Number3WithSuitConnect from '@site/image-generator/yml/level-12/number-3-
   - Bob blind-plays red 2.
   - In a normal *Bluff*, a *one-away-from-playable* card is clued. However, Cathy sees that the highest stack is the red stack, so the 4 in her hand must be two-away.
   - Thus, Cathy does **not** read it as a *Bluff*; she is promised red 3 and red 4, so she plays the unknown 3 as a *Self-Prompt* for the red 3.
+
+<FinessePromptNotHardBluff />
+
 - For example, this **is** a *Hard Bluff*:
   - Red 1 and blue 2 are played on the stacks.
   - Cathy has a 3 clued in her hand (with no color information on it).
@@ -112,6 +122,8 @@ import Number3WithSuitConnect from '@site/image-generator/yml/level-12/number-3-
   - Bob blind-plays red 2.
   - This could be a *Bluff* if the 4 in her hand is blue 4, since blue 4 is currently *one-away-from-playable*. Thus, Cathy **does not** assume that her 4 is red 4, and subsequently, **does not** assume that her unknown 3 is a red 3. However, it could **also** be the case that the 4 is a red 4 (if the 3 in her hand happens to be red 3).
   - Thus, Cathy marks down both possibilities for later and does not play anything right now.
+
+<HardBluff />
 
 <br />
 
@@ -123,6 +135,8 @@ import Number3WithSuitConnect from '@site/image-generator/yml/level-12/number-3-
   - Alice clues number 3 to Cathy, touching a red 3 on slot 1 as a *Play Clue*.
   - Bob blind-plays red 1.
   - Bob now knows that it was a *3 Bluff* and that no-one is promised the red 2. This is because even though the red 1 is the same suit as the red 3, *3 Bluffs* take precedence over *Double Finesses* as long as the clue type (number 3) does not connect to the card that was blind-played (a number 1).
+
+<Hard3Bluff />
 
 <br />
 
