@@ -1,0 +1,38 @@
+stacks:
+  - r: 1
+  - y: 1
+  - g: 1
+  - b: 1
+  - p: 1
+players:
+  - clue_giver: true
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+        above: Blue 2
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+      - type: r
+        clue: r
+        middle_note: (1)
+      - type: x
+      - type: x
+      - type: x
+  - text: After Bob blind plays blue 2...
+  - name: Cathy
+    cards:
+      - type: x
+      - type: r
+        below: Trash
+      - type: x
+      - type: x
+      - type: x
