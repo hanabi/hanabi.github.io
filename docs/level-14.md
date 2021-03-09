@@ -90,6 +90,7 @@ import Hard5DoubleBluff from '@site/image-generator/yml/level-14/hard-5-double-b
     - (Donald knows that it cannot be a red 5, or else Bob would have blind-played his *Second Finesse Position*.)
 
 <DoubleBluffThreeAway />
+
 <br />
 
 ### The 4 Double Bluff That Looks like a Double Half Bluff
@@ -105,6 +106,7 @@ import Hard5DoubleBluff from '@site/image-generator/yml/level-14/hard-5-double-b
   - Thus, Donald marks his red card as either a red 3 (if it was a *Double Half Bluff*) or a red 4 (if it was a *4 Double Bluff*).
 
 <DoubleBluffLooksLikeHalf />
+
 <br />
 
 ### The Hard 4 Double Bluff
@@ -118,6 +120,7 @@ import Hard5DoubleBluff from '@site/image-generator/yml/level-14/hard-5-double-b
   - Even though red 1 and red 2 are the same suit as the red 4, the team knows that no-one is promised the red 3.
 
 <Hard4DoubleBluff />
+
 <br />
 
 ### The Hard 5 Double Bluff
@@ -132,6 +135,7 @@ import Hard5DoubleBluff from '@site/image-generator/yml/level-14/hard-5-double-b
   - However, Donald also knows that 5's are valid *Double Bluff* targets. Since number 3 does not connect to number 5, Donald knows that he should prefer the *Double Bluff* interpretation (that gets two blind-plays) over the *Triple Finesse* interpretation (that gets three blind-plays).
 
 <Hard5DoubleBluff />
+
 <br />
 
 ## General Principles
