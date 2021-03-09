@@ -11,18 +11,15 @@ players:
       - type: x
       - type: x
       - type: x
-      - type: x
   - cards:
       - type: x
         above: Red 2
       - type: x
       - type: x
       - type: x
-      - type: x
   - cards:
       - type: x
         above: Blue 1
-      - type: x
       - type: x
       - type: x
       - type: x
@@ -33,13 +30,11 @@ players:
         middle_note: (4)
       - type: x
       - type: x
-      - type: x
   - text: After both red 2 and blue 1 blind-play...
   - name: Donald
     cards:
       - type: x
       - type: r
         below: red 4
-      - type: x
       - type: x
       - type: x

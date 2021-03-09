@@ -11,9 +11,7 @@ players:
       - type: x
       - type: x
       - type: x
-      - type: x
   - cards:
-      - type: x
       - type: x
       - type: x
       - type: x
@@ -24,7 +22,6 @@ players:
       - type: x
       - type: x
       - type: x
-      - type: x
   - cards:
       - type: 1
         clue: 1
@@ -34,7 +31,6 @@ players:
         middle_note: (G)
       - type: x
       - type: x
-      - type: x
   - text: After Cathy blind plays red 1...
   - name: Donald
     cards:
@@ -42,6 +38,5 @@ players:
         below: trash
       - type: 1
         below: trash
-      - type: x
       - type: x
       - type: x

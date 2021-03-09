@@ -11,11 +11,9 @@ players:
       - type: x
       - type: x
       - type: x
-      - type: x
   - cards:
       - type: x
         above: Red 2
-      - type: x
       - type: x
       - type: x
       - type: x
@@ -25,9 +23,7 @@ players:
       - type: x
       - type: x
       - type: x
-      - type: x
   - cards:
-      - type: x
       - type: x
       - type: x
       - type: x
@@ -37,6 +33,5 @@ players:
       - type: 5
         clue: 5
         middle_note: (R)
-      - type: x
       - type: x
       - type: x

@@ -11,11 +11,9 @@ players:
       - type: x
       - type: x
       - type: x
-      - type: x
   - cards:
       - type: x
         above: Red 1
-      - type: x
       - type: x
       - type: x
       - type: x
@@ -25,13 +23,11 @@ players:
       - type: x
       - type: x
       - type: x
-      - type: x
   - cards:
       - type: x
       - type: r
         clue: r
         middle_note: (4)
-      - type: x
       - type: x
       - type: x
   - text: After both red 1 and blue 1 blind play...
@@ -44,6 +40,5 @@ players:
             - red 3
             - red 4
           color: red
-      - type: x
       - type: x
       - type: x
