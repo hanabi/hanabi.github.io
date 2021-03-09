@@ -1,8 +1,8 @@
 stacks:
-  - r: 0
+  - r: 1
   - y: 1
   - g: 1
-  - b: 0
+  - b: 1
   - p: 1
 players:
   - clue_giver: true
@@ -13,30 +13,25 @@ players:
       - type: x
   - cards:
       - type: x
+        above: Red 2
       - type: x
       - type: x
       - type: x
   - cards:
       - type: x
-        above: Red 1
+        above: Red 3
       - type: x
       - type: x
       - type: x
   - cards:
-      - type: 1
-        clue: 1
-        middle_note: (G)
-      - type: 1
-        clue: 1
-        middle_note: (G)
       - type: x
       - type: x
-  - text: After Cathy blind plays red 1...
-  - name: Donald
-    cards:
-      - type: 1
-        below: trash
-      - type: 1
-        below: trash
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+      - type: 5
+        clue: 5
+        middle_note: (R)
       - type: x
       - type: x
