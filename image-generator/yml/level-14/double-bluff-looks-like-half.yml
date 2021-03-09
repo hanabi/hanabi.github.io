@@ -1,0 +1,49 @@
+stacks:
+  - r: 0
+  - y: 0
+  - g: 0
+  - b: 0
+  - p: 0
+players:
+  - clue_giver: true
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+        above: Red 1
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+        above: Blue 1
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+      - type: r
+        clue: r
+        middle_note: (4)
+      - type: x
+      - type: x
+      - type: x
+  - text: After both red 1 and blue 1 blind play...
+  - name: Donald
+    cards:
+      - type: x
+      - type: r
+        below:
+          text:
+            - red 3
+            - red 4
+          color: red
+      - type: x
+      - type: x
+      - type: x
