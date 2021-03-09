@@ -3,6 +3,12 @@ id: level-15
 title: Level 15 - Ejections & Discharges
 ---
 
+import FiveColorEjectionNotOOO from '@site/image-generator/yml/level-15/five-color-ejection-not-ooo.yml';
+import FiveColorEjection from '@site/image-generator/yml/level-15/five-color-ejection.yml';
+import IllegalTrashBluff from '@site/image-generator/yml/level-15/illegal-trash-bluff.yml';
+import UnknownTrashDischargeTwoForOne from '@site/image-generator/yml/level-15/unknown-trash-discharge-two-for-one.yml';
+import UnknownTrashDischarge from '@site/image-generator/yml/level-15/unknown-trash-discharge.yml';
+
 - Level 15 strategies should only be learned if you have 260+ games of experience with the group.
 
 <br />
@@ -45,12 +51,17 @@ title: Level 15 - Ejections & Discharges
   - Alice clues red to Cathy, touching a red 5 on slot 3.
   - Bob knows that normally, this would be a *Finesse* on the 5, indicating to Bob that he has the red 1, the red 2, the red 3, and the red 4. However, since this calls for more than one blind card, he knows that *5 Color Ejection* should take precedence, so he knows to play his *Second Finesse Position* card. It is a red 1 and it successfully plays.
   - From Cathy's perspective, if Bob had played his *Finesse Position* card in response to the red clue, then Cathy would know that it was a *Finesse* or a *Bluff*. But since Bob blind-played his *Second Finesse Position* card, it must be a *5 Color Ejection*. Cathy marks the red card as red 5.
+
+<FiveColorEjection />
+
 - In the previous example, a *5 Color Ejection* was preformed with the 5 being the only brand new card introduced with the color clue. However, it is also possible to perform a *5 Color Ejection* with more than one card introduced. Normally, this kind of thing would signal an *Out-of-Order Finesse*, but the *5 Color Ejection* interpretation should take precedence as long as the next player would have to blind-play two or more cards.
 - For example, in a 3-player game:
   - It is the first turn and nothing is played on the stacks.
   - Alice clues red to Cathy, touching a red 5 on slot 2 and a red 2 on slot 3.
   - Bob knows that normally, this would be an *Out-of-Order Finesse* on the 5, indicating to Bob that he has the red 1, the red 3, and the red 4. However, since this calls for more than one blind card, he knows that *5 Color Ejection* should take precedence, so he knows to play his *Second Finesse Position* card. It is a red 1 and it successfully plays.
   - From Cathy's perspective, if Bob had played his *Finesse Position* card in response to the red clue, then Cathy would know that it was a *Finesse* or a *Bluff*. But since Bob blind-played his *Second Finesse Position* card, it must be a *5 Color Ejection*. Cathy marks the red card as red 5. Her other red card can be red 2, red 3, or red 4.
+
+<FiveColorEjectionNotOOO />
 
 <br />
 
@@ -65,6 +76,9 @@ title: Level 15 - Ejections & Discharges
   - Bob blind-plays his *Finesse Position* and it successfully plays as blue 2.
   - Cathy knows that a *Bluff* has occurred and marks her red card as red 3 (the *one-away-from-playable* red card).
   - Of course, this is not true, because Cathy's red card is actually a red 1. The team will likely get a misplay at some point in the future.
+
+<IllegalTrashBluff />
+
 - If the above example happens and Alice is not making a mistake, then Alice must be trying to communicate something extra. This should signal an *Discharge* on the very next player.
 - Since the *Third Finesse Position* card was played instead of the *Finesse Position* card, then the player who received the clue will know that the card is trash.
 - For example, in a 3-player game:
@@ -75,6 +89,9 @@ title: Level 15 - Ejections & Discharges
   - Bob blind-plays his *Third Finesse Position*. It is a blue 2 and it successfully plays.
   - Cathy knows that a *Discharge* has occurred from Alice's red clue. This must be an *Unknown Trash Discharge*, so the focus of the clue must be trash.
   - Cathy marks her red card as a red 1 (since that is the only possible trash red card) and discards it.
+
+<UnknownTrashDischarge />
+
 - In summary:
   - For a *Trash Bluff*:
     - The empathy on the clued card **only** contains possibilities that are *Playable*, *Delayed Playable*, or trash.
@@ -99,3 +116,5 @@ title: Level 15 - Ejections & Discharges
   - Cathy knows that a *Discharge* has occurred from Alice's red clue. This must be an *Unknown Trash Discharge*, so the focus of the clue must be trash.
   - Cathy marks her slot 2 card as a red 1 (since that is the only possible trash red card) and discards it.
   - Cathy also knows that non-focused cards touched in an *Unknown Trash Discharge* are supposed to be useful. Thus, Cathy marks her slot 3 card as a red 2, a red 3, a red 4, or a red 5.
+
+<UnknownTrashDischargeTwoForOne />

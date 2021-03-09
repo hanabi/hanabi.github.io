@@ -1,0 +1,38 @@
+stacks:
+  - r: 0
+  - y: 0
+  - g: 0
+  - b: 0
+  - p: 0
+players:
+  - clue_giver: true
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+      - type: x
+        above: Red 1
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+      - type: x
+      - type: r
+        clue: r
+        middle_note: (5)
+      - type: x
+      - type: x
+  - text: After Bob blind plays red 1...
+  - name: Cathy
+    cards:
+      - type: x
+      - type: x
+      - type: r
+        below: Red 5
+      - type: x
+      - type: x
