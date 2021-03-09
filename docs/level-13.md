@@ -3,6 +3,12 @@ id: level-13
 title: Level 13 - Trash Moves
 ---
 
+import TrashBluff from '@site/image-generator/yml/level-13/trash-bluff.yml';
+import TrashFinesse from '@site/image-generator/yml/level-13/trash-finesse.yml';
+import TrashFinesseTwoCards from '@site/image-generator/yml/level-13/trash-finesse-two-cards.yml';
+import ReverseTrashFinesse from '@site/image-generator/yml/level-13/reverse-trash-finesse.yml';
+import TrashPush from '@site/image-generator/yml/level-13/trash-push.yml';
+
 - Level 13 strategies should only be learned if you have 220+ games of experience with the group.
 
 <br />
@@ -23,6 +29,7 @@ title: Level 13 - Trash Moves
   - Alice clues Cathy number 1, which only touches her newest (slot 1) card. This card is a blue 1, but Cathy will assume that it is a red 1.
   - Bob blind-plays his *Finesse Position* card, and it is a playable blue 2.
   - Cathy now knows that her 1 must not be red 1, or else Bob would not have blind-played anything. The 1 must be some other trash card.
+<TrashBluff />
 - Just like normal *Bluffs*, *Trash Bluffs* can only be done while in *Bluff Seat*.
 - Normal *Bluffs* take precedence over *Trash Bluffs*. This means that players can **only** use cards to *Trash Bluff* with if they will be proved to be trash by a blind-play.
   - For example, if not all of the 1's have been played on the stacks, then you can use a number 1 clue to initiate a *Trash Bluff*, because a blind-play will prove that the clued 1 is not a good 1.
@@ -47,6 +54,7 @@ title: Level 13 - Trash Moves
   - Thus, Bob discards.
   - Cathy blind-plays her *Finesse Position* card and it is red 1.
   - Donald discards his known-trash 1.
+<TrashFinesse />
 - *Double Trash Finesses* are explicitly disallowed. Thus, it is possible to perform a *Trash Finesse* in a situation like this:
   - All the 1's are played on the stacks except for red 1 and blue 1.
   - Alice clues number 1 to Donald, which touches two green 1's on slot 1 and 2. To Donald, this will look like it is both the red 1 and the blue 1.
@@ -56,6 +64,7 @@ title: Level 13 - Trash Moves
   - Cathy blind-plays her *Finesse Position* card and it is red 1.
   - Donald knows that the focus of the clue (slot 1) is certainly trash, since that caused Cathy to blind-play.
   - Furthermore, Donald knows that his slot 2 card is also trash, because all the cards touched in a *Trash Bluff* or *Trash Finesse* are guaranteed to be trash.
+<TrashFinesseTwoCards />
 
 <br />
 
@@ -75,6 +84,8 @@ title: Level 13 - Trash Moves
   - Cathy comes next. Cathy was highly surprised when Alice gave Bob a number 2 clue on the green 2. From Cathy's perspective of Bob's perspective, the green 2 clue would immediately misplay as red 2. However, when Bob discards the green 2 instead of playing it, Alice's plan becomes clear. Cathy had the red 2 all along. Cathy blind-plays her *Finesse Position* card as red 2.
 - Note that *Reverse Trash Finesses* should not always be entertained and **depend on context**. Specifically, towards the end of the game, *Reverse Trash Finesses* are "turned off". This is because towards the end of the game, the team needs tempo, and *Reverse Trash Finesses* are slow and require even more discarding.
 
+<ReverseTrashFinesse />
+
 <br />
 
 ### The Trash Push
@@ -89,6 +100,8 @@ title: Level 13 - Trash Moves
   - Bob blind-plays his slot 4 card, and it is a playable red 2.
 - Sometimes, a *Trash Push* is the only way to get a card played that is sitting between two other annoying cards.
 - Similar to a *Bluff*, *Trash Pushes* must be immediately playable and should generally be demonstrated immediately. (This is unlike other similar moves like the *5 Pull*, which may have to wait a while.)
+
+<TrashPush />
 
 <br />
 
