@@ -34,12 +34,6 @@ players:
       - type: x
       - type: x
       - type: x
-  - cards:
-      - type: x
-      - type: x
-      - type: x
-      - type: x
-      - type: x
   - text: After both blue 1 and yellow 1 blind play...
   - name: Donald
     cards:

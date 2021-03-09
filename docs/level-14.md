@@ -31,7 +31,9 @@ import Hard5DoubleBluff from '@site/image-generator/yml/level-14/hard-5-double-b
   - At first, Donald thought that the red card in his hand was red 2 (as a *Play Clue*).
   - After Bob blind-played, Donald thought that the red card in his hand was red 3 (as a *Finesse*).
   - After Cathy blind-played, Donald knows that he must have the red 4 (as a *Double Half Bluff*).
+
 <DoubleHalfBluff />
+
 - Normally, players are only allowed to perform *Bluffs* while sitting in *Bluff Seat*. The *Double Half Bluff* is one of the few exceptions to the rule. (It is allowed because the *Fib* still resolves "immediately", which satisfies *Lie Principle*.)
 
 <br />
@@ -47,7 +49,9 @@ import Hard5DoubleBluff from '@site/image-generator/yml/level-14/hard-5-double-b
   - At first, Donald thought that the red card in his hand was red 2 (as a *Play Clue*).
   - After Bob blind-played, Donald thought that the red card in his hand was red 3 (as a *Bluff*).
   - After Cathy blind-played, Donald knows that he must have the red 4 (as a *Double Bluff*).
+
 <DoubleBluff />
+
 - Normally, players are only allowed to perform *Bluffs* while sitting in *Bluff Seat*. The *Double Bluff* is one of the few exceptions to the rule. (It is allowed because the *Fib* still resolves "immediately", which satisfies *Lie Principle*.)
 
 <br />
@@ -74,7 +78,7 @@ import Hard5DoubleBluff from '@site/image-generator/yml/level-14/hard-5-double-b
     - Note that this would only happen if e.g. *5 Color Ejection* and *5 Number Discharge* would not apply. (These are advanced conventions that are covered in later levels.)
   - If a 5 is given a *Play Clue* and it is *three-away-from-playable* or *four-away-from-playable*, then it would still only trigger a double *Bluff* (as a *5's Double Bluff* specifically).
     - Note that this would only happen if e.g. *5 Color Ejection* and *5 Number Discharge* would not apply. (These are advanced conventions that are covered in later levels.)
-- For example, in a 5-player game:
+- For example, in a 4-player game:
   - Nothing is played on the stacks.
   - Alice clues Donald red, which touches a red 4 as a *Play Clue*.
   - Bob tries to blind-play red 1 from his *Finesse Position*, but he instead plays a blue 1.
@@ -99,6 +103,7 @@ import Hard5DoubleBluff from '@site/image-generator/yml/level-14/hard-5-double-b
   - Normally, Donald would know that his red card is exactly a red 3, as a *Double Half Bluff*.
   - However, Donald also knows that any 4 in the game can be used to perform a *Double Bluff*.
   - Thus, Donald marks his red card as either a red 3 (if it was a *Double Half Bluff*) or a red 4 (if it was a *4 Double Bluff*).
+
 <DoubleBluffLooksLikeHalf />
 <br />
 
@@ -111,6 +116,7 @@ import Hard5DoubleBluff from '@site/image-generator/yml/level-14/hard-5-double-b
   - Bob blind-plays red 1 from his *Finesse Position*.
   - Cathy blind-plays red 2 from her *Finesse Position*.
   - Even though red 1 and red 2 are the same suit as the red 4, the team knows that no-one is promised the red 3.
+
 <Hard4DoubleBluff />
 <br />
 
@@ -124,6 +130,7 @@ import Hard5DoubleBluff from '@site/image-generator/yml/level-14/hard-5-double-b
   - Cathy blind-plays a red 3 from her *Finesse Position*.
   - Donald sees that no-one else has any red cards in their hand. Thus, if this was a *Triple Finesse* on the red 5, then Donald should blind-play the red 4 right now.
   - However, Donald also knows that 5's are valid *Double Bluff* targets. Since number 3 does not connect to number 5, Donald knows that he should prefer the *Double Bluff* interpretation (that gets two blind-plays) over the *Triple Finesse* interpretation (that gets three blind-plays).
+
 <Hard5DoubleBluff />
 <br />
 
