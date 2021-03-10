@@ -7,7 +7,10 @@ import PromptMultiColor from '@site/image-generator/yml/level-5/prompt-multicolo
 import PromptMultiColorNoNegative from '@site/image-generator/yml/level-5/prompt-multicolor-no-negative.yml';
 import HiddenFinesse from '@site/image-generator/yml/level-5/hidden-finesse.yml';
 import LayeredFinesse from '@site/image-generator/yml/level-5/layered-finesse.yml';
+import LayeredFinesse2 from '@site/image-generator/yml/level-5/layered-finesse-2.yml';
 import ClandestineFinesse from '@site/image-generator/yml/level-5/clandestine-finesse.yml';
+import AmbiguousFinesse from '@site/image-generator/yml/level-5/ambiguous-finesse.yml';
+import UrgencyPrinciple from '@site/image-generator/yml/level-5/urgency-principle.yml';
 
 - Level 5 strategies should only be learned if you have 60+ games of experience with the group.
 
@@ -86,6 +89,9 @@ import ClandestineFinesse from '@site/image-generator/yml/level-5/clandestine-fi
   - Bob discards.
   - Cathy blind-plays a green 1.
   - Donald clearly knows that this is a *Layered Finesse* on Cathy - Cathy will continue to play cards until she finds the blue card that connects to the one in his hand.
+
+<LayeredFinesse2 />
+
 - In other words, most *Layered Finesses* cause unrelated cards to blind-play that do not connect to the type of clue given.
 - With that said, it is also possible to perform a *Layered Finesse* for unrelated cards that **do** connect to the type of the clue given. When this happens, it is hidden from the receiver of the clue, so we call it a *Clandestine Finesse* to disambiguate it from a (more obvious) *Layered Finesse*.
 - For example, in a 3-player game:
@@ -120,6 +126,9 @@ import ClandestineFinesse from '@site/image-generator/yml/level-5/clandestine-fi
   - Both Bob **and** Cathy have red 1 on their *Finesse Position*.
   - Bob will think that it is a *Finesse* directed at Cathy, and he will discard.
   - Next, Cathy thinks that Bob made a mistake and "missed" the *Finesse*. Cathy discards.
+
+<AmbiguousFinesse />
+
 - Here, Cathy is actually the one making the mistake. It follows from *High-Value Principle* that you should never assume that your teammates are making a mistake. If Bob is discarding, then it means that Cathy also has the exact same copy of the card, and Cathy should immediately blind-play.
 
 <br />
@@ -146,6 +155,8 @@ import ClandestineFinesse from '@site/image-generator/yml/level-5/clandestine-fi
   - Instead of blind-playing into the *Finesse*, Cathy clues number 5 to Donald as a *5 Save*.
   - Since the team is at 0 clues, Donald discards.
   - After Alice's clue, Emily marked her red card as "red 2 or red 3 if Cathy blind-plays red 2". However, even though Cathy did not blind-play the red 2, Emily could see that Cathy was doing an important, time-sensitive action to prevent the team from losing the game. Thus, Emily knows that she needs to give Cathy another chance to blind-play the red 2. If Cathy does not blind-play the red 2 on her next turn (and nothing else special is going on), then Emily can play her own red card as the red 2.
+
+<UrgencyPrinciple />
 
 <br />
 
