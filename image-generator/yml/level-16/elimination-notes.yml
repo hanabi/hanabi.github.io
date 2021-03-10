@@ -1,0 +1,53 @@
+stacks:
+  - r: 3
+  - y: 0
+  - g: 0
+  - b: 0
+  - p: 0
+players:
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - text: Alice discards, it is Red 4
+  - text: Alice writes Elimination Notes
+  - name: Alice
+    cards:
+      - type: x
+      - type: x
+        middle_note: r4?
+      - type: x
+        middle_note: r4?
+      - type: x
+        middle_note: r4?
+      - type: x
+        middle_note: r4?
+  - text:
+  - name: Alice
+    cards:
+      - type: x
+        middle_note: r5
+        clue: r
+      - type: x
+        middle_note: r4?
+        clue: r
+      - type: x
+      - type: x
+      - type: x
+  - clue_giver: true
+    name: Bob
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - name: Cathy
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x

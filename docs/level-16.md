@@ -3,6 +3,15 @@ id: level-16
 title: Level 16 - Elimination
 ---
 
+import EliminationNotes from '@site/image-generator/yml/level-16/elimination-notes.yml';
+import EliminationBlindPlay from '@site/image-generator/yml/level-16/elimination-blind-play.yml';
+import EliminationPlayClue from '@site/image-generator/yml/level-16/elimination-play-clue.yml';
+import EliminationSingleOutNegative from '@site/image-generator/yml/level-16/elimination-single-out-negative.yml';
+import EliminationRidingDeduction from '@site/image-generator/yml/level-16/elimination-riding-deduction.yml';
+import EliminationFinesse from '@site/image-generator/yml/level-16/elimination-finesse.yml';
+import EliminationFinesse2 from '@site/image-generator/yml/level-16/elimination-finesse-2.yml';
+import TrashTouchElimination from '@site/image-generator/yml/level-16/trash-touch-elimination.yml';
+
 - Level 16 strategies should only be learned if you have 280+ games of experience with the group.
 
 <br />
@@ -16,7 +25,7 @@ title: Level 16 - Elimination
 - Normally, your teammates would never let you discard anything important. So when you discard some playable card (or a needed 2) **and** that card is not in anyone else's hand, you might think that the team make a mistake.
 - From *High Value Principle*, you should never assume your teammates are making a mistake. One excellent reason that they would let you discard an important card is that you have the other copy in your hand. (In order to satisfy *Good Touch Principle*, they had to wait for you to discard it so that they would not duplicate the card.)
 - Thus, when you get a follow-up clue, you will know exactly what card it is.
-- For example, in a 4-player game:
+- For example, in a 3-player game:
   - Red 3 is played on the stacks.
   - Alice has a completely unclued hand.
   - Alice discards her chop (slot 5). It is a (playable) red 4.
@@ -26,6 +35,9 @@ title: Level 16 - Elimination
   - Bob clues Alice red, which touches a card on slot 1 and slot 2.
   - Normally, Alice would play the left-most card (slot 1) as the red 4. However, because of her notes, she knows that the red 4 must actually be on slot 2.
   - Alice successfully plays red 4 from slot 2. Since the red 5 is the only good red card left, Alice can assume that her other red card is red 5 (from *Good Touch Principle*), and she can play it on the next turn.
+
+<EliminationNotes />
+
 - In this example, the "r4?" notes that Alice writes are called *Elimination Notes*. *Elimination Notes* are notes that represent the possible slots for a specific card.
 - In this example, thing "thing" that triggered the writing of *Elimination Notes* was the discarding of a card, so this is called *Discard Elimination*.
 - Note that players should not always make *Elimination Notes* when they discard a playable card. In some cases, games can be extremely busy, leaving no reasonable way to get the playable card. Players must just their best judgment and account for this.
@@ -48,7 +60,7 @@ title: Level 16 - Elimination
 
 - First, see the section on [Elimination](#elimination--elimination-notes).
 - In the example for *Discard Elimination*, the team clued the second copy of the red 4 directly. But in other situations, the team will **not** need to clue anything. The player with the *Elimination Notes* can eliminate the possibilities one by one. When there is only one possibility left, they can blind-play the card as an *Elimination Blind-Play*.
-- For example, in a 4-player game:
+- For example, in a 3-player game:
   - Red 3 is played on the stacks.
   - Alice has a completely unclued hand.
   - Alice discards her chop (slot 5). It is a (playable) red 4.
@@ -60,7 +72,7 @@ title: Level 16 - Elimination
   - The only card left with an *Elimination Note* is slot 5.
   - Alice can now blind-play the red 4 when it gets to her turn as an *Elimination Blind-Play*.
 
-<br />
+<EliminationBlindPlay />
 
 ### The Elimination Play Clue
 
@@ -75,7 +87,7 @@ title: Level 16 - Elimination
   - Normally, Alice would treat this as a *Play Clue* on the 2 in her slot 1. However, she now knows that her slot 4 card is exactly red 2 (and that she can play it right now).
   - Thus, Alice knows that the point of the clue was only to get the red 2. The 2 in her slot 1 can be any 2 in the game and is not necessarily playable right now.
 
-<br />
+<EliminationPlayClue />
 
 ### Interaction Between Elimination & Chop-Focus
 
@@ -85,8 +97,8 @@ title: Level 16 - Elimination
 #### Example of an Elimination Single-Out Using a Clue With Positive Information
 
 - See the section on the *[Elimination Play Clue](#the-elimination-play-clue)*:
-  - In the example for *Elimination Play Clue*, Bob receives a red clue.
-  - After getting the red clue, Alice deletes the *Elimination Notes* on her slot 2, slot 3, and slot 5.
+  - In the example for *Elimination Play Clue*, Alice receives a 2 clue.
+  - After getting the 2 clue, Alice deletes the *Elimination Notes* on her slot 2, slot 3, and slot 5.
   - Thus, Alice has completely narrowed down the identity of the red 2 to be in slot 4.
 
 #### Example of an Elimination Single-Out Using a Clue With Negative Information
@@ -95,7 +107,7 @@ title: Level 16 - Elimination
   - Red 1 is played on the stacks.
   - Alice discards red 2. She writes *Elimination Notes* for red 2 on slot 2, slot 3, slot 4, and slot 5.
   - Bob clues number 3 to Alice, touching three 3's on slot 2, slot 3, and slot 4.
-  - After getting the number 3 clue, Alice deletes the *Elimination Notes* on her slot 2, slot 3, and slot 5.
+  - After getting the number 3 clue, Alice deletes the *Elimination Notes* on her slot 2, slot 3, and slot 4.
   - Thus, Alice has completely narrowed down the identity of the red 2 to be in slot 5.
 
 #### Chop-Focus Happens **Before** Clues Are Given
@@ -108,7 +120,7 @@ title: Level 16 - Elimination
   - The clue is either focused on slot 2 (the newest of the clued cards) or slot 4 (the "new" chop after the red 2 is accounted for).
   - Alice knows that you evaluate where the chop is **before** clues are given, so the clue must be focused on slot 1.
 
-<br />
+<EliminationSingleOutNegative />
 
 ### The Elimination Riding Deduction
 
@@ -128,7 +140,7 @@ title: Level 16 - Elimination
   - Alice receives no clues on the next go-around of the table. She discards, and now has *Elimination Notes* on slots 4 and 5.
   - Alice receives no clues on the next go-around of the table. Her teammates would not let the other copy of red 2 be discarded, so it must be on slot 4. Alice blind-plays red 2 from slot 4.
 
-<br />
+<EliminationRidingDeduction />
 
 ### The Riding Bluff
 
@@ -160,6 +172,9 @@ title: Level 16 - Elimination
   - Cathy discards.
   - Alice knows that this is some sort of *Reverse Finesse*, as it is calling for the blue 3. However, the blue 3 cannot be in her *Finesse Position* (slot 1), as she knows from the *Elimination Notes* that it must be either on slot 2, 3, 4, or 5. So it must instead be a *Reverse Elimination Finesse*.
   - The *Elimination Finesse* promises that it is her oldest card, so she plays slot 5 as blue 3.
+
+<EliminationFinesse />
+
 - As mentioned above, *Chop Moved* cards should be skipped over when finding the *Elimination Finesse* target. If there are two or more cards with *Elimination Notes* on them and they are all *Chop Moved*, then the oldest *Chop Moved* card should be played.
 - *Elimination Finesses* apply to **all** types of situations with *Elimination Notes* (including *Double Discard Elimination Notes*). Subsequently, you can more specifically describe an *Elimination Finesse* as a *Discard Elimination Finesse* or a *Double Discard Elimination Finesse*.
 - Note that normal *Finesses* take priority over *Self-Elimination Finesses*. For example, in a 3-player game:
@@ -170,7 +185,7 @@ title: Level 16 - Elimination
   - If Alice's 4 is a red 4, then this would be an *Elimination Self-Finesse*, and Alice should blind-play red 3 from slot 4.
   - Alice knows that in this situation, you always supposed to assume a normal *Finesse*, so she blind-plays blue 3 from slot 2.
 
-<br />
+<EliminationFinesse2 />
 
 ### Trash Touch Elimination
 
@@ -186,3 +201,5 @@ title: Level 16 - Elimination
   - Alice clues red to Bob. Since nothing was stopping her from cluing number 4, this is very strange.
   - Bob plays the red 4.
   - There is only one "missing" red card - the red 5. Cathy knows that normally, Bob would think that his red 1 is the red 5 (from *Good Touch Principle*). This must mean that Cathy has the red 5. Cathy writes *Trash Touch Elimination Notes* on her hand for the red 5.
+
+<TrashTouchElimination />
