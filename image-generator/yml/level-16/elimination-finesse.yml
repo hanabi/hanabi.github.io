@@ -1,0 +1,52 @@
+stacks:
+  - r: 0
+  - y: 0
+  - g: 0
+  - b: 2
+  - p: 0
+players:
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - text: Alice discards, it is Blue 3
+  - text: Alice writes Elimination Notes
+  - name: Alice
+    cards:
+      - type: x
+      - type: x
+        middle_note: b3?
+      - type: x
+        middle_note: b3?
+      - type: x
+        middle_note: b3?
+      - type: x
+        middle_note: b3?
+  - text:
+  - name: Alice
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+        middle_note: b3?
+  - clue_giver: true
+    name: Bob
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - name: Cathy
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+        above: Blue 4
+        clue: b
+      - type: x
