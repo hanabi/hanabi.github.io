@@ -100,7 +100,7 @@ title: Level 16 - Elimination
 
 #### Chop-Focus Happens **Before** Clues Are Given
 
-- When an clue is given that singles out an *Elimination* card with *negative information*, then the focus of the clue should be evaluated normally.
+- When a clue is given that singles out an *Elimination* card with *negative information*, then the focus of the clue should be evaluated normally.
 - In other words, the focused slot should be evaluated **before** the clue was given, just like how every other clue works.
 - For example, continuing on from the previous example:
   - Alice also knows that Bob's number 3 clue must be a *Play Clue* on the red 3 (since red 1 is on the only 1 currently played and there are no 3's in the trash).
