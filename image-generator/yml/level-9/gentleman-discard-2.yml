@@ -1,0 +1,30 @@
+stacks:
+  - r: 2
+  - y: 0
+  - g: 0
+  - b: 0
+  - p: 0
+players:
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: r3
+      - type: x
+  - text: Alice discards known Red 3
+  - name: Bob
+    cards:
+      - type: x
+        above: Red 3
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - text: Bob blind plays his Finesse Position
+  - name: Cathy
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x

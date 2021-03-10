@@ -2,11 +2,15 @@
 id: level-9
 title: Level 9 - Special Discards
 ---
-import SarcasticFinesse from '@site/image-generator/yml/level-9/sarcastic-finesse.yml';
 import GentlemanDiscard from '@site/image-generator/yml/level-9/gentleman-discard.yml';
+import GentlemanDiscard2 from '@site/image-generator/yml/level-9/gentleman-discard-2.yml';
+import BatonDiscard from '@site/image-generator/yml/level-9/baton-discard.yml';
+import SarcasticFinesse from '@site/image-generator/yml/level-9/sarcastic-finesse.yml';
 import LayeredGentlemanDiscard from '@site/image-generator/yml/level-9/layered-gentleman-discard.yml';
 import CertainFinesseDiscard from '@site/image-generator/yml/level-9/certain-finesse-discard.yml';
 import CompositionFinesse from '@site/image-generator/yml/level-9/composition-finesse.yml';
+import DoubleGentlemanDiscard from '@site/image-generator/yml/level-9/double-gentleman-discard.yml';
+import DoubleGentlemanDiscard2 from '@site/image-generator/yml/level-9/double-gentleman-discard-2.yml';
 
 - Level 9 strategies should only be learned if you have 140+ games of experience with the group.
 
@@ -70,12 +74,18 @@ import CompositionFinesse from '@site/image-generator/yml/level-9/composition-fi
   - Bob does not have any clued cards in his hand.
   - Bob looks at Cathy's hand and does not see the red 3. Thus, he knows that he has it.
   - Bob blind-plays his *Finesse Position* card and it is the red 3 and successfully plays.
+
+<GentlemanDiscard2 />
+
 - For example, this would be a *Baton Discard* in a 3-player game:
   - Red 1 is played on the stacks.
   - Alice discards a known red 3.
   - Bob does not have any clued cards in his hand.
   - Bob looks at Cathy's hand and does not see the red 3. Thus, he knows that he has it.
   - Bob marks his *Finesse Position* card as red 3. For now, Bob does not have anything else to do, so he discards his chop card.
+
+<BatonDiscard />
+
 - Note that it is illegal to perform a *Layered Baton Discard*; the card **must** be exactly in *Finesse Position*.
 - *Baton Discards* are mostly useful for two main reasons:
   1. To better satisfy *Team Distribution Principle*. It makes sense to transfer a card out of a locked / almost locked hand to a player with an "empty" hand or a hand that only has one card clued in it.
@@ -158,3 +168,7 @@ import CompositionFinesse from '@site/image-generator/yml/level-9/composition-fi
   - Cathy blind-plays the red 2 from her *Finesse Position*.
   - Alice gasps in surprise, because Bob could not have possibly known that it was exactly a red 2. This must be a *Double Gentleman's Discard*, calling for both red 2 and blue 2. Alice blind-plays her *Finesse Position* card, hoping to play a blue 2, but instead plays a red 5, losing the game.
   - Alice forgot that *Double Gentleman's Discards* were expressly illegal because it is possible for players to have asymmetric information about the current game state.
+
+<DoubleGentlemanDiscard />
+
+<DoubleGentlemanDiscard2 />
