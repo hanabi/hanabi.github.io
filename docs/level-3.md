@@ -11,6 +11,7 @@ import FixClue2 from '@site/image-generator/yml/level-3/fix-clue-2.yml';
 import FixClue3 from '@site/image-generator/yml/level-3/fix-clue-3.yml';
 import FixClue4 from '@site/image-generator/yml/level-3/fix-clue-4.yml';
 import SarcasticDiscard from '@site/image-generator/yml/level-3/sarcastic-discard.yml';
+import InformationLock from '@site/image-generator/yml/level-3/information-lock.yml';
 
 - Level 3 strategies should only be learned if you have played with the group for a few days (20+ games of experience).
 
@@ -220,6 +221,8 @@ import SarcasticDiscard from '@site/image-generator/yml/level-3/sarcastic-discar
   - Donald knows that from *Good Touch Principle*, his red card cannot be red 2, since Bob has that card clued in his hand.
   - Donald knows that from *Good Touch Principle*, his red card cannot be red 3, since Cathy has that card clued in her hand.
   - Donald knows that he must therefore have the red 4. He writes a note of "red 4" on his red card. It is now locked in forever as that card.
+
+<InformationLock />
 
 #### Breaking Information Lock
 
