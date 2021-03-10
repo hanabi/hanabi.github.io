@@ -4,19 +4,16 @@ stacks:
   - g: 1
   - b: 1
   - p: 1
-big_text:
-  text: early
-  color: black
 players:
   - cards:
+      - type: x
+      - type: x
+        above: Green 2
       - type: x
         above: Red 1
         middle_note: play
       - type: x
       - type: x
-      - type: x
-      - type: x
-        clue: 5
   - cards:
       - type: x
       - type: x
