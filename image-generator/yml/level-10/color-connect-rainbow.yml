@@ -6,7 +6,7 @@ stacks:
   - m: 1
 big_text:
   text: Finesse
-  color: black
+  color: green
 players:
   - clue_giver: true
     cards:
