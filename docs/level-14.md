@@ -34,7 +34,7 @@ import Hard5DoubleBluff from '@site/image-generator/yml/level-14/hard-5-double-b
 
 <DoubleHalfBluff />
 
-- Normally, players are only allowed to perform *Bluffs* while sitting in *Bluff Seat*. The *Double Half Bluff* is one of the few exceptions to the rule. (It is allowed because the *Fib* still resolves "immediately", which satisfies *Lie Principle*.)
+- Normally, you are only allowed to *Bluff* the very next player (i.e. sitting in *Bluff Seat*). The *Double Half Bluff* bends this rule: Alice is in *Bluff Seat* for Bob (the first blind-player) but not in *Bluff Seat* for Cathy (the second blind-player). Even though this breaks the *Bluff Seat* rule, the *Double Half Bluff* is still allowed because the *Fib* resolves "immediately", which satisfies *Lie Principle*.
 
 <br />
 
