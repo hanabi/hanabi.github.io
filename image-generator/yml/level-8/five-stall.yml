@@ -1,0 +1,32 @@
+stacks:
+  - r: 0
+  - y: 0
+  - g: 0
+  - b: 0
+  - p: 0
+big_text:
+  text: early
+  color: black
+players:
+  - clue_giver: true
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: 1
+      - type: 1
+      - type: x
+      - type: x
+        clue: 5
+        above: Green 5
+      - type: x
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+        above: Yellow 5
+      - type: x
+      - type: x
