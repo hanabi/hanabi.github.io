@@ -77,19 +77,36 @@ title: Level 16 - Elimination
 
 <br />
 
-### Elimination & Chop-Focus
+### Interaction Between Elimination & Chop-Focus
 
-- First, see the section on the *[Elimination Play Clue](#the-elimination-play-clue)*.
-- In the *Elimination Play Clue*, the presence of *Elimination Notes* changes the focus of a clue from the left-most to the right-most, because the clue actively touches one of the cards with *Elimination Notes*.
-- However, if a clue does **not** touch one of the cards with *Elimination Notes*, then the focus of the clue should be evaluated normally. In other words, the focused slot should be evaluated before the clue was given (just like how every other clue works).
+- Sometimes, players will have two or more *Elimination Notes* on cards in their hand. These players can be given follow-up clues that single out the identity of the *Elimination* card.
+- Clues can single out the *Elimination* card using *positive information* or by using *negative information*.
+
+#### Example of an Elimination Single-Out Using a Clue With Positive Information
+
+- See the section on the *[Elimination Play Clue](#the-elimination-play-clue)*:
+  - In the example for *Elimination Play Clue*, Bob receives a red clue.
+  - After getting the red clue, Alice deletes the *Elimination Notes* on her slot 2, slot 3, and slot 5.
+  - Thus, Alice has completely narrowed down the identity of the red 2 to be in slot 4.
+
+#### Example of an Elimination Single-Out Using a Clue With Negative Information
+
 - For example, in 3-player game:
   - Red 1 is played on the stacks.
   - Alice discards red 2. She writes *Elimination Notes* for red 2 on slot 2, slot 3, slot 4, and slot 5.
   - Bob clues number 3 to Alice, touching three 3's on slot 2, slot 3, and slot 4.
-  - Alice now knows that the red 2 is exactly on slot 5.
-  - Alice also knows that Bob's number 3 clue must be a *Play Clue* on the red 3. But which slot is focused (e.g. promised to be red 3)?
+  - After getting the number 3 clue, Alice deletes the *Elimination Notes* on her slot 2, slot 3, and slot 5.
+  - Thus, Alice has completely narrowed down the identity of the red 2 to be in slot 5.
+
+#### Chop-Focus Happens **Before** Clues Are Given
+
+- When an clue is given that singles out an *Elimination* card with *negative information*, then the focus of the clue should be evaluated normally.
+- In other words, the focused slot should be evaluated **before** the clue was given, just like how every other clue works.
+- For example, continuing on from the previous example:
+  - Alice also knows that Bob's number 3 clue must be a *Play Clue* on the red 3 (since red 1 is on the only 1 currently played and there are no 3's in the trash).
+  - But which slot is Bob's clue focusing? In other words, which slot is promised to be red 3?
   - The clue is either focused on slot 2 (the newest of the clued cards) or slot 4 (the "new" chop after the red 2 is accounted for).
-  - Alice knows that you evaluate where the chop is before clues are given, so the clue must be focused on slot 1.
+  - Alice knows that you evaluate where the chop is **before** clues are given, so the clue must be focused on slot 1.
 
 <br />
 
