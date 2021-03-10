@@ -6,6 +6,9 @@ title: Level 6 - Intermediate Chop Moves
 import OrderChopMove from '@site/image-generator/yml/level-6/order-chop-move.yml';
 import TempoClueChopMovePart1 from '@site/image-generator/yml/level-6/tempo-clue-chop-move-part-1.yml';
 import TempoClueChopMovePart2 from '@site/image-generator/yml/level-6/tempo-clue-chop-move-part-2.yml';
+import TempoClueChopMovePart3 from '@site/image-generator/yml/level-6/tempo-clue-chop-move-part-3.yml';
+import DiscardModulation from '@site/image-generator/yml/level-6/discard-modulation.yml';
+import DiscardModulation2 from '@site/image-generator/yml/level-6/discard-modulation-2.yml';
 
 - Level 6 strategies should only be learned if you have 80+ games of experience with the group.
 
@@ -148,7 +151,7 @@ import TempoClueChopMovePart2 from '@site/image-generator/yml/level-6/tempo-clue
   - Bob knows that this is a *Tempo Clue*, and plays red 2.
   - In most cases, since two cards were re-touched, they should both be playable. However, Bob knows that the red 5 is strictly not playable right now. Thus, since the clue did not get any new cards and only got tempo on one card in total, he knows that he should also *Chop Move* his slot 3 card.
 
-<br />
+<TempoClueChopMovePart3 />
 
 ## General Principles
 
@@ -185,6 +188,9 @@ import TempoClueChopMovePart2 from '@site/image-generator/yml/level-6/tempo-clue
   - Bob decides to discard instead of saving the 5 in Alice's hand.
   - Cathy clues number 5 to Alice as a *5 Save*.
   - Bob has smartly prevented the discard of the red 3, at least for a little while. This kind of strategy is called *Discard Modulation*.
+
+<DiscardModulation />
+
 - For example, in a 3-player game (a similar situation):
   - All the 1's are played on the stacks except for the red 1.
   - It is the *Early Game*.
@@ -196,7 +202,7 @@ import TempoClueChopMovePart2 from '@site/image-generator/yml/level-6/tempo-clue
   - Cathy discards the red 1.
   - Bob has smartly orchestrated a line in which a useless card was discarded. This kind of strategy is called *Discard Modulation*.
 
-<br />
+<DiscardModulation2 />
 
 ### The Value of One-Away-From-Playable Cards
 

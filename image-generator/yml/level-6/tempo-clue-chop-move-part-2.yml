@@ -5,8 +5,7 @@ stacks:
   - b: 0
   - p: 0
 players:
-  - clue_giver: true
-    cards:
+  - cards:
       - type: x
       - type: x
       - type: x
@@ -23,3 +22,10 @@ players:
           text:
             - Chop
             - Move
+  - clue_giver: true
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x

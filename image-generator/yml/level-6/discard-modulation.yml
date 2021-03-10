@@ -1,30 +1,35 @@
 stacks:
   - r: 0
-  - y: 0
-  - g: 0
-  - b: 0
-  - p: 0
+  - y: 1
+  - g: 1
+  - b: 1
+  - p: 1
+big_text:
+  text: early
+  color: black
 players:
-  - clue_giver: true
-    cards:
-      - type: x
-      - type: x
-      - type: x
-      - type: x
-      - type: x
   - cards:
-      - type: r
-        clue: r
-      - type: r
-        clue: r
+      - type: x
+        above: Red 1
+        middle_note: play
       - type: x
       - type: x
       - type: x
-  - text: Bob plays slot 1 as Red 1
+      - type: x
+        clue: 5
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - text: Bob decides to discard
   - name: Cathy
+    clue_giver: true
     cards:
       - type: x
       - type: x
       - type: x
       - type: x
       - type: x
+        above: Red 3
