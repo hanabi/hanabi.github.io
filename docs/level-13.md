@@ -82,9 +82,11 @@ import TrashPush from '@site/image-generator/yml/level-13/trash-push.yml';
   - Alternatively, if Bob does indeed have the red 2, then he can discard it to perform a *Gentleman's Discard* on Cathy.
   - Either way, discarding will cover both cases. Bob discards the 2 and it is revealed to be a green 2.
   - Cathy comes next. Cathy was highly surprised when Alice gave Bob a number 2 clue on the green 2. From Cathy's perspective of Bob's perspective, the green 2 clue would immediately misplay as red 2. However, when Bob discards the green 2 instead of playing it, Alice's plan becomes clear. Cathy had the red 2 all along. Cathy blind-plays her *Finesse Position* card as red 2.
-- Note that *Reverse Trash Finesses* should not always be entertained and **depend on context**. Specifically, towards the end of the game, *Reverse Trash Finesses* are "turned off". This is because towards the end of the game, the team needs tempo, and *Reverse Trash Finesses* are slow and require even more discarding.
 
 <ReverseTrashFinesse />
+
+- Note that *Reverse Trash Finesses* should not always be entertained and **depend on context**. Specifically, towards the end of the game, *Reverse Trash Finesses* are "turned off". This is because towards the end of the game, the team needs tempo, and *Reverse Trash Finesses* are slow and require even more discarding.
+
 
 <br />
 
@@ -98,10 +100,12 @@ import TrashPush from '@site/image-generator/yml/level-13/trash-push.yml';
   - Bob has no clued cards in his hand. His chop is his slot 5.
   - Alice clues Bob number 1, which only touches his slot 5 card.
   - Bob blind-plays his slot 4 card, and it is a playable red 2.
+
+<TrashPush />
+
 - Sometimes, a *Trash Push* is the only way to get a card played that is sitting between two other annoying cards.
 - Similar to a *Bluff*, *Trash Pushes* must be immediately playable and should generally be demonstrated immediately. (This is unlike other similar moves like the *5 Pull*, which may have to wait a while.)
 
-<TrashPush />
 
 <br />
 
