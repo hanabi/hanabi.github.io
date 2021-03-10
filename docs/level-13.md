@@ -87,7 +87,6 @@ import TrashPush from '@site/image-generator/yml/level-13/trash-push.yml';
 
 - Note that *Reverse Trash Finesses* should not always be entertained and **depend on context**. Specifically, towards the end of the game, *Reverse Trash Finesses* are "turned off". This is because towards the end of the game, the team needs tempo, and *Reverse Trash Finesses* are slow and require even more discarding.
 
-
 <br />
 
 ### The Trash Push
@@ -105,7 +104,6 @@ import TrashPush from '@site/image-generator/yml/level-13/trash-push.yml';
 
 - Sometimes, a *Trash Push* is the only way to get a card played that is sitting between two other annoying cards.
 - Similar to a *Bluff*, *Trash Pushes* must be immediately playable and should generally be demonstrated immediately. (This is unlike other similar moves like the *5 Pull*, which may have to wait a while.)
-
 
 <br />
 
