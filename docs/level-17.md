@@ -192,7 +192,7 @@ title: Level 17 - 5 Tech
 
 <br />
 
-### Interaction Between 2 Saves and 5 Stalls
+### Interaction Between 2 Saves & 5 Stalls
 
 - Normally, players are only allowed to *5 Stall* if there is nothing else to do. If there is something else to do, then the number 5 clue signals a more advanced move.
 - Sometimes, a player can receive a *5 Stall* clue when:
