@@ -6,7 +6,6 @@ stacks:
   - p: 2
 big_text:
   text: Bluff
-  color: gold
 players:
   - clue_giver: true
     cards:

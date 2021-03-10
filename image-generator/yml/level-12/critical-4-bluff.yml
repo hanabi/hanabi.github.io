@@ -6,7 +6,6 @@ stacks:
   - p: 0
 big_text:
   text: Bluff
-  color: gold
 discarded:
   - r4
 players:

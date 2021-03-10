@@ -6,11 +6,10 @@ stacks:
   - p: 1
 big_text:
   text: Bluff
-  color: gold
 players:
   - clue_giver: true
     cards:
-      - type: x
+      - type: 1
       - type: x
       - type: x
       - type: x
