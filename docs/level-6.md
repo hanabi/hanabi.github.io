@@ -180,29 +180,15 @@ import DiscardModulation2 from '@site/image-generator/yml/level-6/discard-modula
 - "Stealing" clues in this way is called *Discard Modulation*. If other players are discarding to let you give all of the clues, you probably have a high-value chop.
 - For example, in a 3-player game:
   - All the 1's are played on the stacks except for the red 1.
-  - It is the *Early Game*.
+  - It is the *Mid Game*
   - Alice plays the red 1 from her hand. (It was clued earlier with a *Play Clue*.)
-  - Bob sees that from Alice's perspective, there is nothing in Cathy's hand to clue.
   - Cathy has a red 3 on chop. This is a *one-away-from-playable* card that is valuable to the team. However, it would be illegal to clue the card directly with a *Play Clue* or a *Save Clue*.
-  - Alice has a red 5 on chop. According to the *Early Game* rules, someone must clue the 5 before ending the *Early Game*. However, Bob knows that as an exception, it is not required to clue the person who came immediately before you. When Alice played the red 1 and did not see anything for Bob to do, Alice was giving permission to Bob to discard.
-  - Bob decides to discard instead of saving the 5 in Alice's hand.
-  - Cathy clues number 5 to Alice as a *5 Save*.
+  - Alice has a green 2 in her hand.
+  - Bob decides to discard instead of cluing the green 2 in Alice's hand.
+  - Cathy clues green to Alice as a *Play Clue*
   - Bob has smartly prevented the discard of the red 3, at least for a little while. This kind of strategy is called *Discard Modulation*.
 
 <DiscardModulation />
-
-- For example, in a 3-player game (a similar situation):
-  - All the 1's are played on the stacks except for the red 1.
-  - It is the *Early Game*.
-  - Alice plays the red 1 from her hand. (It was clued earlier with a *Play Clue*.)
-  - Bob sees that from Alice's perspective, there is nothing in Cathy's hand to clue.
-  - Cathy has a red 1 on chop. This is a trash card.
-  - Alice has a red 5 on chop. According to the *Early Game* rules, someone must clue the 5 before ending the *Early Game*. However, Bob knows that as an exception, it is not required to clue the person who came immediately before you. When Alice played the red 1 and did not see anything for Bob to do, Alice was giving permission to Bob to discard.
-  - Bob decides to ignore the exception and save the 5 in Alice's hand anyway.
-  - Cathy discards the red 1.
-  - Bob has smartly orchestrated a line in which a useless card was discarded. This kind of strategy is called *Discard Modulation*.
-
-<DiscardModulation2 />
 
 ### The Value of One-Away-From-Playable Cards
 
