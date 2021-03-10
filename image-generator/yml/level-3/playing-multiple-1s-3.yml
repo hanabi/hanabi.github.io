@@ -36,7 +36,7 @@ players:
           text:
             - Starting
             - Hand
-            - "& Chop"
+            - + Chop
           color: gray
 
   - clue_giver: true

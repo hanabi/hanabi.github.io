@@ -64,7 +64,7 @@ title: Level 17 - 5 Tech
 - Confusingly, *5 Pulls* work differently from *Finesses*. Even though they involve playing a blind card, a *5 Pull* should be treated as a *Delayed Play Clue* (or a potential *Prompt*). This means that the blind card could play through any existing touched cards.
 - When a player is *Finessed* or *Bluffed*, they are allowed to defer playing the blind card in order to do a *Finesse* or *Bluff* of their own. However, if they could be *Bluffed*, they are **not** allowed to initiate a *5 Pull*. (Players are still allowed to defer playing into a *Finesse* in order to initiate a *5 Pull*.)
 - In the rare case where a *5 Pull* is performed in a 3-player game by touching two 5's in slot 1 and slot 3, then the *5 Pulled* card is slot 2.
-- Remember that a number 5 clue [is always a *5 Stall* instead of a *5 Pull* if the only card ignored is a 2 on chop](#interaction-between-2-saves-and-5-stalls).
+- Remember that a number 5 clue [is always a *5 Stall* instead of a *5 Pull* if the only card ignored is a 2 on chop](#interaction-between-2-saves--5-stalls).
 
 <br />
 
@@ -192,7 +192,7 @@ title: Level 17 - 5 Tech
 
 <br />
 
-### Interaction Between 2 Saves and 5 Stalls
+### Interaction Between 2 Saves & 5 Stalls
 
 - Normally, players are only allowed to *5 Stall* if there is nothing else to do. If there is something else to do, then the number 5 clue signals a more advanced move.
 - Sometimes, a player can receive a *5 Stall* clue when:

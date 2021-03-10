@@ -1,10 +1,6 @@
 ### TODO
 
-- Small bug on Chop Moves & New Clues section - in the 2nd example, clue arrows should be different when re-touching cards to made how it looks on Hanab Live
 - specifying a card as `3r` should throw an error (suit must always come first)
-- level 3
-  - Fix Clues (part 3)
-  - Playing Multiple 1's
 - level 5
   - The Stacked Finesse
   - The Ambiguous Finesse
@@ -14,4 +10,20 @@
   - The Generation Discard
   - The Double Tempo Clue
   - The Tempo Clue Chop Move (2nd example)
-- level 7 through level 23
+- level 7
+- level 8
+- level 9
+- level 10
+- level 11
+- level 12
+- level 13
+- level 14
+- level 15
+- level 16
+- level 17
+- level 18
+- level 19
+- level 20
+- level 21
+- level 22
+- level 23

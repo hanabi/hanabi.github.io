@@ -139,6 +139,10 @@ def draw_player_row(yaml_file, svg_file):
 def draw_text_divider(svg_file, text):
     global y_offset
 
+    # if text is empty, do not output None
+    if not text:
+        text = ""
+
     text = svg_file.text(
         text,
         x=[x_offset_where_player_begins + 40],
