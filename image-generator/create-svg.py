@@ -557,8 +557,22 @@ def draw_big_text(yaml_file, svg_file):
         - TEXT_WIDTH
     ) / 2
     y_of_text = left_y_offset
-    color = opts["color"]
+
+    try:
+        color = opts["color"]
+    except:
+        color = "black"
+
+    # Select specific color for some keywords
+    if opts["text"] in ("Bluff", "Finesse", "Illegal!"):
+        color = {
+            "Bluff": "gold",
+            "Finesse": "green",
+            "Illegal!": "red"
+            }.get(opts["text"], "white")
+
     text_color = "black" if color in ("gold", "yellow", "rainbow") else "white"
+
     r = svg_file.svg((x_of_text, y_of_text), (TEXT_WIDTH, TEXT_HEIGHT))
     svg_file.add(r)
     rect = svg_file.rect(

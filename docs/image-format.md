@@ -173,4 +173,6 @@ For some examples, some cards in the discard pile need to be shown. This is perf
 
 ### Big Text
 
+For keywords "Bluff", "Finesse" and "Illegal!", color is ignored.
+
 <Example code={BigTextSource} Image={BigTextResult} />

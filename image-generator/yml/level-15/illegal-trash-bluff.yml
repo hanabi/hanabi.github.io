@@ -6,7 +6,6 @@ stacks:
   - p: 1
 big_text:
   text: Illegal!
-  color: red
 players:
   - clue_giver: true
     cards:
