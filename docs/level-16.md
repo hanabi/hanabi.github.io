@@ -80,7 +80,7 @@ title: Level 16 - Elimination
 ### Elimination & Chop-Focus
 
 - First, see the section on the *[Elimination Play Clue](#the-elimination-play-clue)*.
-- In the *Elimination Play Clue*, the presence of *Elimination Notes* changes the "normal" focus of a clue, because the clue actively touches one of the cards with *Elimination Notes*.
+- In the *Elimination Play Clue*, the presence of *Elimination Notes* changes the focus of a clue from the left-most to the right-most, because the clue actively touches one of the cards with *Elimination Notes*.
 - However, if a clue does **not** touch one of the cards with *Elimination Notes*, then the focus of the clue should be evaluated normally. In other words, the focused slot should be evaluated before the clue was given (just like how every other clue works).
 - For example, in 3-player game:
   - Red 1 is played on the stacks.
