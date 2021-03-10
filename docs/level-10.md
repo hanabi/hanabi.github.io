@@ -14,6 +14,7 @@ import RankDisconnectBluffImpossible from '@site/image-generator/yml/level-10/ra
 import RankConnectFinesseImpossible from '@site/image-generator/yml/level-10/rank-connect-finesse-impossible.yml';
 import ColorConnectRainbow from '@site/image-generator/yml/level-10/color-connect-rainbow.yml';
 import ColorConnectRainbowFinesseImpossible from '@site/image-generator/yml/level-10/color-connect-rainbow-finesse-impossible.yml';
+import BluffPromptsPromptBluffs from '@site/image-generator/yml/level-10/bluff-prompts-prompt-bluffs.yml';
 
 - Level 10 strategies should only be learned if you have 160+ games of experience with the group.
 
@@ -264,7 +265,7 @@ import ColorConnectRainbowFinesseImpossible from '@site/image-generator/yml/leve
   - Thus, Cathy knows that Alice's clue to Donald must be a *Finesse*, so Cathy must have the red 2 on her *Finesse Position*. Cathy plays her *Finesse Position* card. It is instead the blue 5 and misplays.
   - This was Alice's fault, because *Bluffs* are only allowed if they can be revealed immediately from a blind-play.
 
-<br />
+<BluffPromptsPromptBluffs />
 
 ### Stacked Bluffs (Illegal)
 
