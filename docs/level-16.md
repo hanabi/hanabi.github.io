@@ -85,10 +85,10 @@ title: Level 16 - Elimination
 - For example, in 3-player game:
   - Red 1 is played on the stacks.
   - Alice discards red 2. She writes *Elimination Notes* for red 2 on slot 2, slot 3, slot 4, and slot 5.
-  - Bob clues number 3 to Alice, touching four 3's on slot 1, slot 2, slot 3, and slot 4.
+  - Bob clues number 3 to Alice, touching three 3's on slot 2, slot 3, and slot 4.
   - Alice now knows that the red 2 is exactly on slot 5.
   - Alice also knows that Bob's number 3 clue must be a *Play Clue* on the red 3. But which slot is focused (e.g. promised to be red 3)?
-  - The clue is either focused on slot 1 (her newest card) or slot 4 (her "new" chop after the red 2 is accounted for).
+  - The clue is either focused on slot 2 (the newest of the clued cards) or slot 4 (the "new" chop after the red 2 is accounted for).
   - Alice knows that you evaluate where the chop is before clues are given, so the clue must be focused on slot 1.
 
 <br />
