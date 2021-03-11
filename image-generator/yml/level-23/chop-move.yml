@@ -1,0 +1,34 @@
+stacks:
+  - r: 1
+  - y: 2
+  - g: 2
+  - b: 2
+  - p: 2
+players:
+  - clue_giver: true
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+        above: Red 2
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - text: Bob blind plays slot 1
+  - name: Cathy
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+        clue: 2
+        above: Blue 2
+        middle_note: kt
+      - type: x
+        middle_note: cm
+  - text: Cathy performs a Chop Move, her 2 is a known trash
