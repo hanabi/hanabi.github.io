@@ -1,0 +1,40 @@
+stacks:
+  - r: 0
+  - y: 0
+  - g: 0
+  - b: 0
+  - p: 0
+big_text:
+  text: first turn
+  color: black
+players:
+  - clue_giver: true
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - text: Bob blind plays slot 4
+  - text:
+  - name: Cathy
+    cards:
+      - type: 4
+        clue: 4
+      - type: x
+        above:
+          text:
+            - not
+            - playable
+      - type: x
+      - type: x
+  - name: Donald
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x

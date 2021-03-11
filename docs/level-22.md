@@ -3,6 +3,11 @@ id: level-22
 title: Level 22 - Charms & Miscellaneous
 ---
 
+import FourCharm from '@site/image-generator/yml/level-22/four-charm.yml';
+import BlazeDiscard from '@site/image-generator/yml/level-22/blaze-discard.yml';
+import BlazeDiscard2 from '@site/image-generator/yml/level-22/blaze-discard-2.yml';
+import HesitationBlindPlay from '@site/image-generator/yml/level-22/hesitation-blind-play.yml';
+
 - Level 22 strategies should only be learned if you have 400+ games of experience with the group.
 
 <br />
@@ -41,6 +46,9 @@ title: Level 22 - Charms & Miscellaneous
   - Since the *Finesse* requires three blind-plays, it is unlikely, and Bob knows he is supposed to revert to a different interpretation.
   - Bob sees that Cathy does not have a playable card (or a *one-away-from-playable* card) on her *Finesse Position*, so a *4 Double Bluff* is impossible.
   - Thus, Bob knows that this must be a *4 Charm*. He blind-plays his *Fourth Finesse Position*. It is a blue 1 and it successfully plays.
+
+<FourCharm />
+
 - *4 Charms* can be given with either a color clue or a number clue.
 - Similar to a *5 Color Ejection*, *Prompts* don't factor into the "three or more blind-plays" rule. Players only count the number of blind-plays.
 - *4 Charms* take precedence over *Safety Charms*. (*Safety Charms* are an advanced move that is covered later.)
@@ -65,6 +73,9 @@ title: Level 22 - Charms & Miscellaneous
   - Bob blind-plays slot 2. It is a blue 2 and it successfully plays.
   - From Cathy's perspective, she first suspects that some kind of *Ejection* is going on, since Bob blind-played his *Second Finesse Position*. However, since the previous action was a *Gentleman's Discard*, Alice knows that this must be a *Blaze Discard*. In other words, Bob was just blind-playing his *Second Finesse Position* to communicate to Cathy that she should play her *Second Finesse Position* instead of her *First Finesse Position*.
   - Cathy blind-plays the red 2 from slot 2.
+
+<BlazeDiscard />
+
 - *Blaze Discards* do not apply when someone discards a 1 and there are two copies remaining. (In other words, it is still possible to perform a normal *Gentleman's Discard* by discarding a red 1 in the case where Bob has a red 1 on his *Finesse Position* and Cathy has a red 1 on her *Second Finesse Position* behind an unplayable card.)
 - *Blaze Discards* do not apply when someone performs a *Gentleman's Discard* or a *Baton Discard* that looks like a *Sarcastic Discard*. In these situations, one of the following is true:
   - The discarding player is making a mistake (as a *Wrong Prompt*).
@@ -76,6 +87,9 @@ title: Level 22 - Charms & Miscellaneous
   - Bob has a clued 5 on his slot 1. Thus, Bob's *Finesse Position* is on slot 2 and his *Second Finesse Position* is on slot 3.
   - Bob blind-plays his *Second Finesse Position* (slot 3). It is a blue 1 and it successfully plays.
   - Cathy knows that because Bob blind-played his slot 3, the red 3 must be on her slot 2.
+
+<BlazeDiscard2 />
+
 - Note that it is illegal to perform an *Ambiguous Blaze Discard*. We want to keep *Blaze Discards* as simple as possible.
 - Note that it is illegal to perform a *Layered Blaze Discard* (on either the ignited player or the player holding the matching card). We want to keep *Blaze Discards* as simple as possible.
 
@@ -127,6 +141,9 @@ title: Level 22 - Charms & Miscellaneous
   - Bob knows that since Cathy blind-played the red 2, Alice did a *Reverse Finesse* and that he has the red 3.
   - Bob plays the 3, but it is revealed to be blue 3 instead of red 3.
   - Bob now knows that nobody has the red 3 and that Cathy blind-played the red 2 from Bob's hesitation.
+
+<HesitationBlindPlay />
+
 - *Hesitation Blind-Plays* are **not always safe** to do:
   - If a player could be hesitating for a clued card in your hand **or** your *Finesse Position* card, then you cannot act on the hesitation. (If you guess wrong, you could misplay a critical card.)
   - If a player could be hesitating for a card that is identical to the card that was clued, then you cannot act on the hesitation. (If you blind-play the same copy of the card, then they will go on to misplay the clued card.)
