@@ -1,5 +1,5 @@
 stacks:
-  - r: 1
+  - r: 2
   - y: 1
   - g: 1
   - b: 1
@@ -7,26 +7,29 @@ stacks:
 players:
   - cards:
       - type: x
-      - type: r2
       - type: x
-      - type: 2by
-        crossed_out: y
-      - type: x
-  - text: Alice plays the unknown 2
-  - name: Bob
-    cards:
-      - type: x
-        above: Blue 3
       - type: x
       - type: r3
       - type: x
-        above: Yellow 2
+  - text: Alice Blaze Discards Red 3
+  - name: Bob
+    cards:
+      - type: 5
       - type: x
-        above: Yellow 2
+      - type: x
+      - type: x
+      - type: x
+  - text: Bob blind plays slot 3
   - name: Cathy
     cards:
       - type: x
+        above: Red 1
       - type: x
+        above: Red 3
       - type: x
+        above: Green 1
       - type: x
+        above: Green 1
       - type: x
+        above: Blue 1
+  - text: Cathy blind plays slot 2

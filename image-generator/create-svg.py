@@ -45,7 +45,6 @@ PIECES_PATH = "/img/pieces"
 
 # Global variables
 all_suits = []
-have_rainbow = False
 x_offset = 0
 x_offset_where_player_begins = 0
 x_max = 0
@@ -350,7 +349,7 @@ def draw_card_pips(yaml_file, svg_file, svg, pips, crossed_out):
                     x=["50%"],
                     y=["50%"],
                     fill="white",
-                    style="filter: url(#shadow)",
+                    style="filter: url(#shadow_rank)",
                 )
             )
             rank_pip_text_element["text-anchor"] = "middle"
@@ -377,7 +376,7 @@ def draw_card_pips(yaml_file, svg_file, svg, pips, crossed_out):
                     y=CARD_HEIGHT / 2 - 6 - 20 * math.cos(angle * i),
                     width=12,
                     height=12,
-                    style="filter: url(#shadow)",
+                    style="filter: url(#shadow_suit)",
                 )
             )
             if color in crossed_out:
@@ -470,7 +469,7 @@ def draw_extra_card_attributes(svg_file, card):
             y=["50%"],
             fill=color,
             stroke=color,
-            style="font-size: 1.5em; filter: url(#shadow);",
+            style="font-size: 1.5em; filter: url(#shadow_rank);",
         )
         text["text-anchor"] = "middle"
         text["dominant-baseline"] = "central"
@@ -478,8 +477,6 @@ def draw_extra_card_attributes(svg_file, card):
 
 
 def draw_textbox(svg_file, opts, offset):
-    global have_rainbow
-
     if type(opts) == str:
         text = [opts]
         color = text[0].split()[0].lower()
@@ -525,7 +522,6 @@ def draw_textbox(svg_file, opts, offset):
             fill="url(#rainbowtext)",
         )
         r.add(rect)
-        have_rainbow = True
     else:
         rect = svg_file.rect(
             (0, 0),
@@ -679,7 +675,7 @@ def print_svg(svg_file):
                  0 0 0 1 0
             "/>
         </filter>
-        <filter id="shadow">
+        <filter id="shadow_rank">
             <feOffset in="SourceAlpha" dx="2" dy="2" result="offsetblur"/>
             <feComponentTransfer result="shadow">
                 <feFuncA type="linear" slope="0.5"/>
@@ -690,20 +686,26 @@ def print_svg(svg_file):
                 <feMergeNode in="border"/>
                 <feMergeNode in="SourceGraphic"/>
             </feMerge>
-        </filter>"""
-        + (
-            """
+        </filter>
+        <filter id="shadow_suit">
+            <feOffset in="SourceAlpha" dx="1" dy="1" result="offsetblur"/>
+            <feComponentTransfer result="shadow">
+                <feFuncA type="linear" slope="0.5"/>
+            </feComponentTransfer>
+            <feMorphology in="SourceAlpha" operator="dilate" radius="0.5" result="border"/>
+            <feMerge>
+                <feMergeNode in="shadow"/>
+                <feMergeNode in="border"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
         <linearGradient id="rainbowtext" x1="0" y1="0" x2="100%" y2="0">
             <stop offset="0" stop-color="#ff7777"></stop>
             <stop offset="0.25" stop-color="#ffff77"></stop>
             <stop offset="0.5" stop-color="#77ff77"></stop>
             <stop offset="0.75" stop-color="#77ffff"></stop>
             <stop offset="1" stop-color="#7777ff"></stop>
-        </linearGradient>"""
-            if have_rainbow
-            else ""
-        )
-        + """
+        </linearGradient>
     </defs>""",
         output,
         count=1,
