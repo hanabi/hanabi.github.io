@@ -51,4 +51,5 @@ svg.example text[fill='#000001'] {
 
 .example {
   width: 100%;
+  height: auto;
 }

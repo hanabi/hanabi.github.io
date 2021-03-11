@@ -3,6 +3,11 @@ id: level-18
 title: Level 18 - Priority
 ---
 
+import PriorityBluff from '@site/image-generator/yml/level-18/priority-bluff.yml';
+import LoadClue from '@site/image-generator/yml/level-18/load-clue.yml';
+import PriorityFinesse from '@site/image-generator/yml/level-18/priority-finesse.yml';
+import TrustFinesse from '@site/image-generator/yml/level-18/trust-finesse.yml';
+
 - Level 18 strategies should only be learned if you have 320+ games of experience with the group.
 
 <br />
@@ -49,7 +54,7 @@ title: Level 18 - Priority
   - Bob comes next. Bob knows that normally, when you have a choice between two cards, you are supposed to play the lowest rank card. (Unless it is a blind-play, or it leads into someone's hand, or it is a 5.) Bob does not see any blue 3's, so he knows that Alice was supposed to play the red 1 instead of the blue 2. Alice **did not** play the card with *Priority*.
   - This means that Bob must have a blue 3. Bob does not have any clued cards in his hand, so he blind-plays his *Finesse Position* card. It is **not** the blue 3 and is instead the green 1. Bob now knows that he was *Bluffed* and that no-one has the blue 3.
 
-<br />
+<PriorityBluff />
 
 ### A Priority Flowchart (for Choosing Between 2+ Playable Cards)
 
@@ -99,7 +104,8 @@ Priority does not always apply. Some common exceptions are listed below.
 - This clue is similar to a *Fix Clue*, since it fixes an impending misplay. But we specifically call this kind of clue a *Load Clue* to differentiate it from a *Fix Clue* that fixes a *Lie* or mistake. It is a *Load Clue* because it is loading the player up with something to do on their turn.
 - If you receive a *Load Clue*, you should suspect that you might have something valuable on your chop, as this would be an excellent reason to commit the team to giving the *Load Clue* in the first place.
 - If a player has a choice between playing one card that leads nowhere and playing one card that commits the team to giving a *Load Clue*, then they are not obligated to choose one or the other - they can choose whichever one is best for the situation.
-- When a player receives a *Load Clue*, they are to interpret it as a normal *Play Clue* instead of a *Fix Clue*. For example, in a 3-player game:
+- When a player receives a *Load Clue*, they are to interpret it as a normal *Play Clue* instead of a *Fix Clue*.
+- For example, in a 3-player game:
   - Red 1 and blue 1 are played on the stacks.
   - Alice has a choice between playing a known red 2 or a known blue 2. The red 2 has *Priority* because it is the left-most card.
   - Alice plays the blue 2.
@@ -110,7 +116,7 @@ Priority does not always apply. Some common exceptions are listed below.
   - If this was a *Fix Clue*, Cathy might be inclined to play the card that was closest to her slot 1 (which would be the 3 on slot 2).
   - However, Cathy knows that *Load Clues* are to be interpreted as normal *Play Clues* instead of *Fix Clues*, so she interprets this as a normal *Chop-Focus Play Clue* and plays blue 3 from slot 5.
 
-<br />
+<LoadClue />
 
 ### The Layered Priority Finesse
 
@@ -132,7 +138,7 @@ Priority does not always apply. Some common exceptions are listed below.
   - Alice knows that **all** of the possibilities for the 2 would have *Priority* over the red 3, since all of them are lower rank.
   - Alice plays the red 3 anyway, which triggers a *Priority Finesse* on the red 4.
 
-<br />
+<PriorityFinesse />
 
 ### The Trust Finesse (A Situational Priority Finesse)
 
@@ -151,7 +157,7 @@ Priority does not always apply. Some common exceptions are listed below.
   - Bob has blue 3 on his *Finesse Position*.
   - Alice plays the globally unknown 2 to cause a *Trust Finesse*.
 
-<br />
+<TrustFinesse />
 
 ### The Paused Priority Finesse
 

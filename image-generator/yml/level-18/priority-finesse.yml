@@ -1,0 +1,29 @@
+stacks:
+  - r: 2
+  - y: 1
+  - g: 1
+  - b: 1
+  - p: 1
+players:
+  - cards:
+      - type: x
+      - type: r3
+      - type: x
+      - type: 2
+      - type: x
+  - text: Alice plays Red 3
+  - name: Bob
+    cards:
+      - type: x
+        above: Red 4
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - name: Cathy
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x

@@ -1,0 +1,34 @@
+stacks:
+  - r: 0
+  - y: 0
+  - g: 0
+  - b: 1
+  - p: 0
+big_text:
+  text: "Clues: 0"
+  color: black
+discarded:
+  - r4
+players:
+  - cards:
+      - type: x
+      - type: b2
+      - type: x
+      - type: x
+      - type: x
+  - text: Alice performs a Scream Discard
+  - name: Bob
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: r4
+  - text: Bob performs a Rebellious Discard
+  - name: Cathy
+    cards:
+      - type: 5
+      - type: 5
+      - type: 5
+      - type: 5
+      - type: 5
