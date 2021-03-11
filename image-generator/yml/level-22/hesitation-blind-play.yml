@@ -1,28 +1,29 @@
 stacks:
   - r: 1
-  - y: 1
-  - g: 1
-  - b: 1
-  - p: 1
+  - y: 2
+  - g: 2
+  - b: 2
+  - p: 2
+big_text:
+  text: "Clues: 5"
+  color: black
 players:
-  - cards:
-      - type: x
-      - type: r2
-      - type: x
-      - type: 2by
-        crossed_out: y
-      - type: x
-  - text: Alice plays the unknown 2
-  - name: Bob
+  - clue_giver: true
     cards:
       - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+        clue: 3
         above: Blue 3
       - type: x
-      - type: r3
       - type: x
-        above: Yellow 2
       - type: x
-        above: Yellow 2
+      - type: x
+  - text: Bob discards
   - name: Cathy
     cards:
       - type: x
@@ -30,3 +31,5 @@ players:
       - type: x
       - type: x
       - type: x
+  - text: Cathy blind plays slot 1, it is Red 2
+

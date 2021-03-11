@@ -3,6 +3,10 @@ id: level-23
 title: Level 23 - Unnecessary Moves
 ---
 
+import Ignition from '@site/image-generator/yml/level-23/ignition.yml';
+import ChopMove from '@site/image-generator/yml/level-23/chop-move.yml';
+import TrashPush from '@site/image-generator/yml/level-23/trash-push.yml';
+
 - Level 23 strategies should only be learned if you have 420+ games of experience with the group.
 
 <br />
@@ -36,6 +40,9 @@ title: Level 23 - Unnecessary Moves
   - Bob knows that this is a *Trash Push* and blind-plays his slot 4. It is a red 4 and it successfully plays.
   - Cathy sees that Bob has no other red cards in his hand. Thus, Alice could easily clued red to Bob in order to "get" the red 4 in a straightforward way. That means that Alice performed an *Unnecessary Trash Push*.
   - Cathy blind-plays her *Finesse Position*. It is a red 5 and it successfully plays.
+
+<Ignition />
+
 - For example, if an *Unnecessary Trash Push Discharge* was done, the next player should blind-play their *Third Finesse Position* (from the clue), and the next player after that should blind-play their *Finesse Position* (from the unnecessariness).
 - For example, if an *Unnecessary Trash Chop Move* was done on a card that could be saved directly, the next player should blind-play their *Finesse Position*, and the clue receiver should still *Chop Move*.
 
@@ -53,6 +60,9 @@ title: Level 23 - Unnecessary Moves
   - Thus, Bob knows that this is a *Trash Finesse* or *Trash Bluff*. He blind-plays his *Finesse Position* card. It is a red 2 and it successfully plays.
   - Cathy now knows that her 2 is trash (since Bob blind-played in response to the clue). However, Cathy also knows that this *Trash Finesse* was *unnecessary*, as Alice could have just clued red to Bob.
   - Thus, Cathy knows that this is an *Unnecessary Trash Finesse*, so she marks her slot 5 card as being *Chop Moved*.
+
+<ChopMove />
+
 - For example, if an *Unnecessary Unknown Trash Discharge* was done, the next player should blind-play their *Third Finesse Position* (from the clue), and the clue receiver should *Chop Move* (from the unnecessariness).
 - Importantly, note that *Unnecessary Chop Moves* are tricky in that they have **information asymmetry**: the player who blind-plays will **not** know that the card is chop moved, while everyone else will. All players will have to keep this in mind until the *Chop Move* has been demonstrated.
 
@@ -77,7 +87,7 @@ title: Level 23 - Unnecessary Moves
   - Cathy now knows that her 2 is trash (since Bob blind-played in response to the clue). However, Cathy also knows that this *Trash Finesse* was *unnecessary*, as Alice could have just clued red to Bob.
   - Thus, Cathy knows that this is an *Unnecessary Trash Finesse*. Normally, she would *Chop Move* something, but the focus of the clue was already on her chop. Cathy instead blind-plays her slot 4 as a *Trash Push*.
 
-<br />
+<TrashPush />
 
 ### Other Examples
 
