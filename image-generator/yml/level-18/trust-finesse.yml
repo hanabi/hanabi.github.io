@@ -7,11 +7,10 @@ stacks:
 players:
   - cards:
       - type: x
-      - type: r
-        middle_note: r2
+      - type: r2
       - type: x
-      - type: 2
-        middle_note: b2
+      - type: 2by
+        crossed_out: y
       - type: x
   - text: Alice plays the unknown 2
   - name: Bob
@@ -21,7 +20,9 @@ players:
       - type: x
       - type: r3
       - type: x
+        above: Yellow 2
       - type: x
+        above: Yellow 2
   - name: Cathy
     cards:
       - type: x
