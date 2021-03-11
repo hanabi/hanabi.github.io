@@ -3,9 +3,9 @@ id: level-18
 title: Level 18 - Priority
 ---
 
-import ProrityBluff from '@site/image-generator/yml/level-18/prority-bluff.yml';
+import PriorityBluff from '@site/image-generator/yml/level-18/priority-bluff.yml';
 import LoadClue from '@site/image-generator/yml/level-18/load-clue.yml';
-import ProrityFinesse from '@site/image-generator/yml/level-18/prority-finesse.yml';
+import PriorityFinesse from '@site/image-generator/yml/level-18/priority-finesse.yml';
 import TrustFinesse from '@site/image-generator/yml/level-18/trust-finesse.yml';
 
 - Level 18 strategies should only be learned if you have 320+ games of experience with the group.
@@ -54,7 +54,7 @@ import TrustFinesse from '@site/image-generator/yml/level-18/trust-finesse.yml';
   - Bob comes next. Bob knows that normally, when you have a choice between two cards, you are supposed to play the lowest rank card. (Unless it is a blind-play, or it leads into someone's hand, or it is a 5.) Bob does not see any blue 3's, so he knows that Alice was supposed to play the red 1 instead of the blue 2. Alice **did not** play the card with *Priority*.
   - This means that Bob must have a blue 3. Bob does not have any clued cards in his hand, so he blind-plays his *Finesse Position* card. It is **not** the blue 3 and is instead the green 1. Bob now knows that he was *Bluffed* and that no-one has the blue 3.
 
-<ProrityBluff />
+<PriorityBluff />
 
 ### A Priority Flowchart (for Choosing Between 2+ Playable Cards)
 
@@ -138,7 +138,7 @@ Priority does not always apply. Some common exceptions are listed below.
   - Alice knows that **all** of the possibilities for the 2 would have *Priority* over the red 3, since all of them are lower rank.
   - Alice plays the red 3 anyway, which triggers a *Priority Finesse* on the red 4.
 
-<ProrityFinesse />
+<PriorityFinesse />
 
 ### The Trust Finesse (A Situational Priority Finesse)
 
