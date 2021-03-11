@@ -3,6 +3,14 @@ id: level-17
 title: Level 17 - 5 Tech
 ---
 
+import TheFivePull from '@site/image-generator/yml/level-17/the-five-pull.yml';
+import TheFivePullPrompt from '@site/image-generator/yml/level-17/the-five-pull-prompt.yml';
+import TheFivePullDoubleFinesse from '@site/image-generator/yml/level-17/the-five-pull-double-finesse.yml';
+import TheFivePullClandestineFinesse from '@site/image-generator/yml/level-17/the-five-pull-clandestine-finesse.yml';
+import TheFivePullPromise from '@site/image-generator/yml/level-17/the-five-pull-promise.yml';
+import FiveNumberDischarge from '@site/image-generator/yml/level-17/five-number-discharge.yml';
+import InteractionsBetween2SavesAnd5Stalls from '@site/image-generator/yml/level-17/interaction-between-2-saves-and-5-stalls.yml';
+
 - Level 17 strategies should only be learned if you have 300+ games of experience with the group.
 
 <br />
@@ -53,13 +61,17 @@ title: Level 17 - 5 Tech
 - However, since *Play Clues* with number 5 clues are "turned off" in the *Low Score Phase*, then the cluing player must be intending something else: a *5 Pull*.
 - A *5 Pull* causes the player to blind-play the card to the right of the 5. The clued 5 is not actually related to the blind-play. This is why it is called a *Pull* instead of a *Finesse* or a *Bluff*.
 - *5 Pulls* are typically done to 5's that are on slot 1. But, for example, you can also clue a 5 in slot 2 in order to get a blind-play on slot 3.
-- *5 Pulls* take precedence over *Finesses* and *Bluffs*, because a number 5 clue is never considered to be *Play Clue*. For example:
+- *5 Pulls* take precedence over *Finesses* and *Bluffs*, because a number 5 clue is never considered to be *Play Clue*.
+- For example in a 3-player game:
   - It is the *Early Game* and the *Low Score Phase*.
   - Red 3 is played on the stacks.
   - Alice clues Cathy number 5, touching a red 5 on slot 1. (There are other *Play Clues* for Alice to give, so this cannot be a *5 Stall*.)
   - Normally, Bob would think that this is a *Finesse* and that he should blind-play his *Finesse Position* card as the red 4.
   - However, Bob knows that *Play Clues* with a number 5 clue are "turned off" in the *Low Score Phase*, which means that Alice is **not** indicating that the red 5 is playable.
   - Bob can see that there is a playable blue 1 to the right of the 5, so Alice must be intending a *5 Pull*. When it gets to Cathy's turn, Cathy will blind-play that card.
+
+<TheFivePull />
+
 - Since *5 Pulls* are never *Play Clues* on the 5, it is possible to *5 Pull* a 4 without promising that the 5 is the same suit.
 - Confusingly, *5 Pulls* work differently from *Finesses*. Even though they involve playing a blind card, a *5 Pull* should be treated as a *Delayed Play Clue* (or a potential *Prompt*). This means that the blind card could play through any existing touched cards.
 - When a player is *Finessed* or *Bluffed*, they are allowed to defer playing the blind card in order to do a *Finesse* or *Bluff* of their own. However, if they could be *Bluffed*, they are **not** allowed to initiate a *5 Pull*. (Players are still allowed to defer playing into a *Finesse* in order to initiate a *5 Pull*.)
@@ -79,14 +91,17 @@ title: Level 17 - 5 Tech
 - *5 Pulls* are also allowed to initiate a *Prompt* or *Finesse*.
 - For example, in a 4-player game:
   - It is the first turn of the game and nothing is played on the stacks.
-  - Cathy's hand is as follows, from newest to oldest: `blue 4, blue 4, blue 5, red 2, red 2`
-  - Donald's hand is as follows, from newest to oldest: `yellow 4, yellow 4, green 1, yellow 3, yellow 3`
+  - Cathy's hand is as follows, from newest to oldest: `blue 4, blue 5, red 2, red 2`
+  - Donald's hand is as follows, from newest to oldest: `yellow 4, green 1, yellow 3, yellow 3`
   - Alice clues number 5 to Cathy, touching the blue 5 on slot 3.
   - Bob knows that since the team is the *Early Game*, Alice's clue might be a *5 Stall*.
   - However, Bob also knows that you are only allowed to perform a *5 Stall* if there are no normal *Save Clues* or *Play Clues* to give. Bob sees that Donald has a green 1 that could be *Play Clued*. Thus, Bob knows that Alice's clue cannot not be a *5 Stall*, which makes it a *5 Pull* instead (since it is two-or-more-away from the chop).
   - Bob knows that if this was a *5 Pull*, it would be pulling the red 2. If Bob does nothing, Cathy might go on to misplay the red 2 as some playable 1.
   - Thus, this must be a *5 Pull Finesse*, so Bob blind-plays his *Finesse Position*. It is a red 1 and it successfully plays.
   - Cathy knows that the only reason that Bob would blind-play a card is it this was a *5 Pull Finesse*. Cathy blind-plays her slot 4 card. It is a red 2 and it successfully plays.
+
+<TheFivePullPrompt />
+
 - Unlike other types of *Finesses*, *5 Pull Finesses* **must** be demonstrated with a blind-play between when the *5 Pull* is given and the *5 Pulled* player's next turn (e.g. a *Forward Finesse*).
 - Subsequently, *5 Pulls* are **not** allowed to initiate a *Reverse Finesse*. (This is because we don't want the person with the pulled card to have to entertain too many possibilities.)
 - Remember that during a *5 Pull Finesse*, the pulled card **always** connects to the blind-play. In other words, it not possible to perform a *5 Pull Bluff*.
@@ -100,11 +115,14 @@ title: Level 17 - 5 Tech
 - The "pulled" card will always connect to the final blind-play.
 - For example in a 4-player game:
   - It is the first turn of the game and nothing is played on the stacks.
-  - Donald's hand is as follows, from newest to oldest: `blue 4, blue 4, blue 5, red 3, blue 2`
+  - Donald's hand is as follows, from newest to oldest: `blue 4, blue 5, red 3, blue 2`
   - Alice clues number 5 to Donald, touching the blue 5 on slot 3.
   - Bob blind-plays the red 1 (because he knows that it cannot be a *5 Stall*).
   - Cathy blind-plays the red 2 (because she knows that she needs to play into the *Double Finesse*).
   - Donald knows that the *5 Pulled* card is the red 3 (connecting to the red 1 and the red 2).
+
+<TheFivePullDoubleFinesse />
+
 - Previously, we said that *5 Pull Finesse* **must** be a *Forward Finesse*. However, *5 Pulled* players **do** have to respect that a *5 Pull Finesse* can be a *5 Pull Double Finesse* with the second blind-play as a *Reverse Finesse*. (Specifically, we refer to this as a *Finesse* with a *Reverse Finesse* component.)
 - More examples of a *5 Pull Double Finesse* can be found [here](examples/5-pull-double-finesse.md).
 
@@ -115,7 +133,7 @@ title: Level 17 - 5 Tech
 - First, see the section on the [5 Pull Finesse](#the-5-pull-prompt--the-5-pull-finesse).
 - A *5 Pull Finesse* **must** be a *Forward Finesse*.
 - However, *5 Pulled* players **do** have to respect that the *Finesse* can be *Clandestine*.
-- For example in a 4-player game:
+- For example in a 3-player game:
   - It is the first turn of the game and nothing is played on the stacks.
   - Bob's hand is as follows, from newest to oldest: `red 1, green 1, green 4, green 4, green 5`
   - Cathy's hand is as follows, from newest to oldest: `blue 4, blue 4, blue 5, green 2, blue 2`
@@ -128,7 +146,7 @@ title: Level 17 - 5 Tech
   - Bob blind-plays the green 1 from slot 2.
   - Cathy now knows that this was indeed a *5 Pull Clandestine Finesse* and that she has the green 2 on her slot 4.
 
-<br />
+<TheFivePullClandestineFinesse />
 
 ### The 5 Pull Promise (A Play Clue After a 5 Pull)
 
@@ -139,7 +157,7 @@ title: Level 17 - 5 Tech
   - Bob does a *5 Pull* on Donald. Donald knows that the *5 Pulled* card could be either red 2 or blue 2 (if it is a *Delayed Play Clue*).
   - Cathy clues Alice about a red 3. Now, Donald knows that he is **promised** the red 2 as his *5 Pulled* card (and he no longer has to wait for the blue 1 to come down before blind-playing).
 
-<br />
+<TheFivePullPromise />
 
 ### Finesses While 5 Pulled are Certain Finesses
 
@@ -174,6 +192,9 @@ title: Level 17 - 5 Tech
     - The clue cannot be a *5 Pull*, because the red 3 is not playable.
     - The clue cannot be a *5 Pull Finesse*, because the red 3 is *two-away-from-playable*.
   - Since Bob would have to blind-play two cards into the *Finesse* (the same rule as in *5 Color Ejections*), Bob knows that he should instead treat this as a *5 Number Discharge*. Bob blind-plays his slot 3 card and it successfully plays as the red 1.
+
+<FiveNumberDischarge />
+
 - After a *5 Number Discharge*, the card next to the 5 should be marked accordingly. For example, if a *5 Number Discharge* happens on the first turn of the game, then the team should mark the "pulled" card as a 3 or a 4.
 - More examples of a *5 Number Discharge* can be found [here](examples/5-number-discharge.md).
 
@@ -206,3 +227,5 @@ title: Level 17 - 5 Tech
   - From Bob's perspective, he does not see any other *Play Clues* or *Save Clues* that Alice could have given, with the exception of a *2 Save* on a red 2 on Cathy's chop.
   - Thus, Alice's number 5 clue could be either a *5 Pull* or a *5 Stall*, depending on whether or not Bob has the other copy of the red 2 in his hand.
   - Bob knows that in this situation, *5 Stalls* take precedence over *5 Pulls*, so he marks his hand for the other copy of red 2 and discards.
+
+<InteractionsBetween2SavesAnd5Stalls />
