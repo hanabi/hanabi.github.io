@@ -669,10 +669,10 @@ def print_svg(svg_file):
         </filter>
         <filter id="black_x_suit">
             <feColorMatrix type="matrix" values="
-                -1 0 0 0 1
-                -1 0 0 0 1
-                -1 0 0 0 1
-                 0 0 0 1 0
+                -10 0 0 0 1
+                -10 0 0 0 1
+                -10 0 0 0 1
+                  0 0 0 1 0
             "/>
         </filter>
         <filter id="shadow_rank">
