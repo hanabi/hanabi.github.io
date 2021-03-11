@@ -1,0 +1,61 @@
+stacks:
+  - r: 0
+  - y: 0
+  - g: 0
+  - b: 0
+  - p: 0
+big_text:
+  text: first turn
+  color: black
+players:
+  - clue_giver: true
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+        above: Red 3
+        clue: r
+      - type: x
+        above: Red 2
+        clue: r
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+        above: Red 1
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - text: Cathy blind plays Red 1
+  - text:
+  - text: Next turn
+  - name: Alice
+    clue_giver: true
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - name: Bob
+    cards:
+      - type: r
+        middle_note: r3
+      - type: r
+        clue: 2
+      - type: x
+      - type: x
+      - type: x
+  - name: Cathy
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x

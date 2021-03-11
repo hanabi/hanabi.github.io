@@ -1,0 +1,40 @@
+stacks:
+  - r: 0
+  - y: 0
+  - g: 0
+  - b: 0
+  - p: 0
+big_text:
+  text: first turn
+  color: black
+players:
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+        middle_note: r3
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - text: Bob gives a fix clue to Cathy
+  - text:
+  - name: Cathy
+    cards:
+      - type: x
+        above: Red 5
+        clue: r
+      - type: x
+        above: Red 1
+        clue: r
+      - type: x
+        above: Red 2
+        clue: r
+      - type: x
+        above: Red 4
+        clue: r
+      - type: x
