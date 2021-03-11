@@ -1,0 +1,40 @@
+stacks:
+  - r: 2
+  - y: 1
+  - g: 3
+  - b: 5
+  - p: 2
+big_text:
+  text: "Clues: 0"
+  color: black
+players:
+  - cards:
+      - type: x
+      - type: x
+      - type: g4
+      - type: x
+        middle_note: kt
+  - text: "Alice discards:"
+  - text: "- Scream Discard for Bob"
+  - text: "- Generation Discard for Cathy"
+  - name: Bob
+    cards:
+      - type: x
+      - type: y2
+      - type: x
+      - type: x
+        above: Red 5
+        middle_note: cm
+  - name: Cathy
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - name: Donald
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+        above: Purple 5

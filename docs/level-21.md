@@ -3,6 +3,9 @@ id: level-21
 title: Level 21 - Emergency Discards
 ---
 
+import CompositionDiscard from '@site/image-generator/yml/level-21/composition-discard.yml';
+import RebelliousDiscard from '@site/image-generator/yml/level-21/rebellious-discard.yml';
+
 - Level 21 strategies should only be learned if you have 380+ games of experience with the group.
 
 <br />
@@ -94,7 +97,7 @@ title: Level 21 - Emergency Discards
   - So, if Alice plays, Bob will perform a *Generation Discard*, and discard a critical card. This is not an option.
   - Therefore, Alice must discard. This is a *Scream Discard* to Bob, and he should *Chop Move*. It is also a *Generation Discard* to Cathy, and she should not *Chop Move*.
 
-<br />
+<CompositionDiscard />
 
 ### The Rebellious Discard
 
@@ -114,3 +117,5 @@ title: Level 21 - Emergency Discards
   - Bob also knows that, as per the *Scream Discard* rules, he is not allowed to discard on this turn, and must give some clue instead (in case he has two critical cards in a row).
   - However, in this case, if Bob did that, then Bob would be using the last clue, and then Cathy would not have a clue available and would be forced to discard a critical card.
   - Thus, Bob knows that he must perform a *Rebellious Discard* in order to provide a clue for Cathy to do something.
+
+<RebelliousDiscard />
