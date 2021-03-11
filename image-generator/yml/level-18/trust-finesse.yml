@@ -1,0 +1,31 @@
+stacks:
+  - r: 1
+  - y: 1
+  - g: 1
+  - b: 1
+  - p: 1
+players:
+  - cards:
+      - type: x
+      - type: r
+        middle_note: r2
+      - type: x
+      - type: 2
+        middle_note: b2
+      - type: x
+  - text: Alice plays the unknown 2
+  - name: Bob
+    cards:
+      - type: x
+        above: Blue 3
+      - type: x
+      - type: r3
+      - type: x
+      - type: x
+  - name: Cathy
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x

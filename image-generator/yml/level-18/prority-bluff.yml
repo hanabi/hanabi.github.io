@@ -1,0 +1,30 @@
+stacks:
+  - r: 0
+  - y: 0
+  - g: 0
+  - b: 1
+  - p: 0
+players:
+  - cards:
+      - type: r1
+      - type: x
+      - type: b2
+      - type: x
+      - type: x
+  - text: Alice plays Blue 2 instead of Red 1
+  - name: Bob
+    cards:
+      - type: x
+        above: Green 1
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - text: Bob blind plays slot 1 as Blue 3
+  - name: Cathy
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
