@@ -1,0 +1,34 @@
+stacks:
+  - r: 0
+  - g: 0
+  - b: 0
+big_text:
+  text: first turn
+  color: black
+players:
+  - clue_giver: true
+    cards:
+    - type: x
+      above: Red 1
+    - type: x
+      above: Blue 1
+    - type: x
+    - type: x
+    - type: x
+  - cards:
+    - type: x
+    - type: x
+    - type: x
+      clue: 1
+      above: Blue 1
+    - type: x
+    - type: x
+  - text: Bob discards Slot 3, it is Blue 1
+  - name: Cathy
+    cards:
+    - type: x
+      above: Green 1
+    - type: x
+    - type: x
+    - type: x
+    - type: x
