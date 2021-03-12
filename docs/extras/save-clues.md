@@ -3,6 +3,8 @@ id: save-clues
 title: Save Clues
 ---
 
+import SavingPlayableCards from '@site/image-generator/yml/extras/saving-playable-cards.yml';
+
 ### 2 Saves Off Chop on the First Turn
 
 - This convention only applies to 3-player games.
@@ -18,6 +20,9 @@ title: Save Clues
   - Earlier on in the game, Bob was given a *2 Save* clue. Now, he has a playable red 2 on his slot 5 and an unplayable blue 2 on his slot 4.
   - Cathy has a red 3 on her chop.
   - If Alice clued the red 3 in Cathy's hand, Bob would be *Prompted* for slot 4, and blue 2 would misplay.
+
+<SavingPlayableCards />
+
 - In this example, Cathy's red 3 is in danger of being discarded soon, so Alice is in a rough spot. From *Save Principle*, Alice is expected to not let the playable red 3 get discarded. But cluing the red 3 would cause Bob to misplay the valuable blue 2.
 - Players in this kind of situation will generally solve it in two ways:
 
