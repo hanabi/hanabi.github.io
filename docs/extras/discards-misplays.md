@@ -23,7 +23,7 @@ import NoContextDouble from '@site/image-generator/yml/extras/no-context-double.
   - Bob sees that Alice does indeed already have the red 4 in her hand, so from his perspective, if Alice was performing a *Generation Discard*, it was unnecessary.
   - However, it could also be the case that Bob's chop is unsafe. So, Bob will **not** clue the red 4 on Cathy's chop, but he **will** spend the clue in some other productive fashion. If Bob has nothing productive to do, he must "burn" a clue, similar to what happens when a *Scream Discard* occurs.
 
-<UnecessaryGeneration />
+<UnnecessaryGeneration />
 
 ### The Shallow Discard
 
