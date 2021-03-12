@@ -3,7 +3,7 @@ id: discards-misplays
 title: Discards & Misplays
 ---
 
-import UnecessaryGeneration from '@site/image-generator/yml/extras/unecessary-generation.yml';
+import UnnecessaryGeneration from '@site/image-generator/yml/extras/unnecessary-generation.yml';
 import ShallowDiscard from '@site/image-generator/yml/extras/shallow-discard.yml';
 import ShallowMisplay from '@site/image-generator/yml/extras/shallow-misplay.yml';
 import PromiseClue from '@site/image-generator/yml/extras/promise-clue.yml';
