@@ -27,3 +27,9 @@ players:
         crossed_out: m35
       - type: xrbm12345
         crossed_out: r4
+  - name: F
+    cards:
+      - type: rb2
+        crossed_out: b
+      - type: x
+      - type: x
