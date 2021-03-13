@@ -3,7 +3,9 @@ id: variant-specific
 title: Variant-Specific Strategies
 ---
 
-import LoadedPlayClue from '@site/image-generator/yml/extras/loaded-play-clue.yml';
+import LoadedPlayClue from '@site/image-generator/yml/extras/variant-specific/loaded-play-clue.yml';
+import LoadedException from '@site/image-generator/yml/extras/variant-specific/loaded-exception.yml';
+import LoadedException2 from '@site/image-generator/yml/extras/variant-specific/loaded-exception-2.yml';
 
 ### Hard Variants & Easy Variants
 
@@ -64,6 +66,9 @@ import LoadedPlayClue from '@site/image-generator/yml/extras/loaded-play-clue.ym
   - Bob knows that he is *Loaded*, because he has a red 4 to play. Bob knows that normally, no-one else is supposed to give *Save Clues* to *Loaded* players (and that they should be transformed into *Play Clues*).
   - However, Bob knows that this rule doesn't apply to number 5 clues during the *Low Score Phase*.
   - Thus, Bob marks his slot 4 card as being *Chop Moved* and plays the red 4.
+
+<LoadedException />
+
 - For example, in a 3-player game (similar to the last example):
   - It is the *Low Score Phase*.
   - Red 3 is played on the stacks.
@@ -73,7 +78,7 @@ import LoadedPlayClue from '@site/image-generator/yml/extras/loaded-play-clue.ym
   - However, Bob knows that this rule doesn't apply to number 5 clues during the *Low Score Phase*.
   - Thus, Bob knows that Alice is performing a simple *5 Save* and plays the red 4.
 
-<br />
+<LoadedException2 />
 
 ### Precedence of Variant-Specific Conventions
 
