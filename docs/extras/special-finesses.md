@@ -143,7 +143,6 @@ import TrashPushInvertedFinesse from '@site/image-generator/yml/extras/special-f
   - Donald knows that the other 3 in his hand must be the other copy of red 3, or else Cathy would not have blind-played anything, so Donald plays the non-focused red 3. The next time that Donald discards, he will discard the known trash red 3.
 
 <BadTouchDoubleFinesse />
-<layeredse />
 
 ### The Bad Touch Layered Finesse That Dupes a Clued Card (Illegal)
 
