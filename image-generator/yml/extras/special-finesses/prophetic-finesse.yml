@@ -1,0 +1,38 @@
+stacks:
+  - r: 1
+  - y: 0
+  - g: 0
+  - b: 0
+  - p: 0
+players:
+  - clue_giver: true
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+        above: Green 1
+      - type: x
+      - type: x
+      - type: x
+  - text: Bob blind plays Slot 1
+  - name: Cathy
+    cards:
+      - type: x
+        above: Blue 1
+      - type: x
+      - type: x
+      - type: x
+  - text: Cathy blind plays Slot 1
+  - name: Donald
+    cards:
+      - type: x
+      - type: x
+      - type: x
+        clue: 1
+        above: Blue 1
+        middle_note: kt
+      - type: x
+        middle_note: cm

@@ -1,0 +1,33 @@
+stacks:
+  - r: 2
+  - y: 2
+  - g: 2
+  - b: 3
+  - p: 2
+players:
+  - clue_giver: true
+    cards:
+      - type: x
+      - type: x
+      - type: 3
+        above: Red 3
+      - type: x
+      - type: x
+  - cards:
+      - type: xrygbp
+        crossed_out: b
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - text: Bob performs a Certain Discard of Slot 1, it is Red 3
+  - text:
+  - name: Cathy
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+        clue: 4
+        above: Red 4
+      - type: x
