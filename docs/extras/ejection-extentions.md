@@ -3,6 +3,9 @@ id: ejection-extensions
 title: Ejection Extensions
 ---
 
+import OutOfPositionEjection from '@site/image-generator/yml/extras/ejection-extensions/out-of-position-ejection.yml';
+import StackedEjection from '@site/image-generator/yml/extras/ejection-extensions/stacked-ejection.yml';
+
 These are additional rules that can apply to *Ejections*, *Discharges*, and *Charms*.
 
 <br />
@@ -22,6 +25,9 @@ These are additional rules that can apply to *Ejections*, *Discharges*, and *Cha
   - Bob discards.
   - Cathy blind-plays her *Second Finesse Position* and it successfully plays as red 2.
   - Donald knows that since Cathy blind-played her *Second Finesse Position* card, this must be a *5 Color Ejection* and that his red card is the red 5.
+
+<OutOfPositionEjection />
+
 - Note that you are not allowed to perform *Out-of-Position Ejections* in reverse, unless it is super-obvious what is going on.
 - Remember that just because *OOP Ejections* are technically legal in some situations, this does **not** mean that players should use them. Just like any other complicated move, only use *OOP Ejections* when it is super-clear to the rest of the team what is going on. Otherwise, a simpler line should be chosen.
 
@@ -51,7 +57,7 @@ These are additional rules that can apply to *Ejections*, *Discharges*, and *Cha
   - Alice's clue *Finessed* Cathy. So after Alice's clue, Cathy's *Finesse Position* moved to her slot 2 and her *Second Finesse Position* moved to her slot 3.
   - Normally, *Ejection* calls for the *Second Finesse Position*, but in this case, Cathy knows that *Stacked 5 Color Ejections* call for the *First Finesse Position* instead of the *Second Finesse Position*, so Cathy blind-plays slot 2 (instead of slot 3).
 
-<br />
+<StackedEjection />
 
 ### The Stacked Discharge/Charm
 
