@@ -1,0 +1,31 @@
+stacks:
+  - r: 1
+  - y: 1
+  - g: 1
+  - b: 1
+  - p: 1
+players:
+  - clue_giver: true
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: xrybp
+      - type: xrybp
+        above: Red 2
+      - type: 4
+        clue: g
+      - type: xrybp
+  - cards:
+      - type: x
+        above: Green 1
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
