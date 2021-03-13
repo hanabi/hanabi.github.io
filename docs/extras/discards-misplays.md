@@ -3,6 +3,12 @@ id: discards-misplays
 title: Discards & Misplays
 ---
 
+import UnnecessaryGeneration from '@site/image-generator/yml/extras/unnecessary-generation.yml';
+import ShallowDiscard from '@site/image-generator/yml/extras/shallow-discard.yml';
+import ShallowMisplay from '@site/image-generator/yml/extras/shallow-misplay.yml';
+import PromiseClue from '@site/image-generator/yml/extras/promise-clue.yml';
+import NoContextDouble from '@site/image-generator/yml/extras/no-context-double.yml';
+
 ### The Unnecessary Generation Discard
 
 - Sometimes, in order to satisfy *Save Principle*, a player will perform an unnecessary *Generation Discard*, which generates a clue to save a card that they actually already have in their hand.
@@ -17,7 +23,7 @@ title: Discards & Misplays
   - Bob sees that Alice does indeed already have the red 4 in her hand, so from his perspective, if Alice was performing a *Generation Discard*, it was unnecessary.
   - However, it could also be the case that Bob's chop is unsafe. So, Bob will **not** clue the red 4 on Cathy's chop, but he **will** spend the clue in some other productive fashion. If Bob has nothing productive to do, he must "burn" a clue, similar to what happens when a *Scream Discard* occurs.
 
-<br />
+<UnnecessaryGeneration />
 
 ### The Shallow Discard
 
@@ -35,6 +41,9 @@ title: Discards & Misplays
   - Bob blind-plays his slot 2 card (to match Alice's slot 2 discard). It successfully plays.
   - Cathy and Donald are both in a similar situation to Bob. (They expected Alice to perform a *Positional Misplay*.)
   - Thus, they both know that this is a *Shallow Discard*, and blind-play their slot 2 cards (to match Alice's slot 2 discard).
+
+<ShallowDiscard />
+
 - In some specific situations, a *Positional Discard* from chop would not work, because it would just look like a normal discard. In these situations, a *Positional Misplay* would only get 1 blind-play (instead of 2) and a *Shallow Discard* would only get 2 blind-plays (instead of 3).
 
 <br />
@@ -54,7 +63,7 @@ title: Discards & Misplays
   - Cathy, Donald, and Emily are all in a similar situation to Bob. (They expected Alice to perform a *Shallow Discard*.)
   - Thus, they all know that this is a *Shallow Misplay*, and blind-play their slot 2 cards (to match Alice's slot 2 discard).
 
-<br />
+<ShallowMisplay />
 
 ### The Promise Clue & The Promise Discard
 
@@ -73,6 +82,9 @@ title: Discards & Misplays
   - Cathy also knows that it is possible that Alice performed a *Layered Finesse* on her. For example, Cathy could have purple 1 in her *Finesse Position* and red 1 in her *Second Finesse Position*. If this were the case, and Cathy blind-discarded the purple 1, then the team could lose the only visible copy of purple 1, which would be really bad.
   - However, because of the *Promise Clue* convention, Cathy knows that Bob has promised that the red 1 happens to be exactly on her *Finesse Position* and that no *Layered Finesse* is happening.
   - Cathy blind-discards her *Finesse Position* card as a *Promise Discard*.
+
+<PromiseClue />
+
 - Note that as long as the duplication clue touches two or more cards (e.g. with an efficiency of a 1-for-1), the *Promise Discard* interpretation takes priority over the *Unknown Trash Discharge* interpretation.
 
 <br />
@@ -85,8 +97,10 @@ title: Discards & Misplays
 - For example, in a 3-player three suit game:
   - It is the first turn and nothing is played on the stacks.
   - Alice clues number 1 to Bob, touching a 1 on slot 3.
-  - From everyone's perspective, this 1 could be any 1 in the game - blue 1, green 1, or yellow 1.
+  - From everyone's perspective, this 1 could be any 1 in the game - red 1, green 1, or blue 1.
   - Bob discards the card and it is revealed to be a blue 1.
-  - Cathy blind-plays her *Finesse Position* card, and it is a blue 1.
-  - Normally, Alice knows that Bob's discard would only promise the blue 1 (and not promise the green 1 or the yellow 1). However, since the game started on the turn before the clue was given, there is no possible way that Bob could have figured out the exact identity of the card in such a short amount of time.
-  - Thus, since Alice does not see the green 1 or the yellow 1 in other people's hands, Alice knows that she must have the green 1 **and** the yellow 1 on her *Finesse Position* and *Second Finesse Position*.
+  - Cathy blind-plays her *Finesse Position* card, and it is a green 1.
+  - Normally, Alice knows that Bob's discard would only promise the blue 1 (and not promise the red 1 or the green 1). However, since the game started on the turn before the clue was given, there is no possible way that Bob could have figured out the exact identity of the card in such a short amount of time.
+  - Thus, since Alice does not see the red 1 or the blue 1 in other people's hands, Alice knows that she must have the red 1 **and** the blue 1 on her *Finesse Position* and *Second Finesse Position*.
+
+<NoContextDouble/>

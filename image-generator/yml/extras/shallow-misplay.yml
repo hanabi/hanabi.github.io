@@ -1,0 +1,48 @@
+stacks:
+  - r: 5
+  - y: 4
+  - g: 5
+  - b: 3
+  - p: 4
+big_text:
+  text: 0 Strikes
+  color: black
+players:
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - text: Alice misplays Slot 2
+  - name: Bob
+    cards:
+      - type: x
+      - type: x
+        above: Purple 5
+      - type: x
+      - type: x
+  - text: Bob blind plays Slot 2
+  - name: Cathy
+    cards:
+      - type: x
+      - type: x
+        above: Blue 4
+      - type: x
+      - type: x
+  - text: Cathy blind plays Slot 2
+  - name: Donald
+    cards:
+      - type: x
+      - type: x
+        above: Yellow 5
+      - type: x
+      - type: x
+  - text: Donald blind plays Slot 2
+  - name: Emily
+    cards:
+      - type: x
+      - type: x
+        above: Blue 5
+      - type: x
+      - type: x
+  - text: Emily blind plays Slot 2

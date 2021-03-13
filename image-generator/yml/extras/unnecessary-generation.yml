@@ -1,0 +1,33 @@
+stacks:
+  - r: 3
+  - y: 0
+  - g: 0
+  - b: 0
+  - p: 0
+big_text:
+  text: "Clues: 0"
+  color: black
+players:
+  - cards:
+      - type: x
+      - type: b1
+      - type: x
+      - type: 4
+        above: Red 4
+      - type: x
+  - text: Alice discards
+  - name: Bob
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - name: Cathy
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+        above: Red 4

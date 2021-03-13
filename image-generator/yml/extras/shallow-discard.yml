@@ -1,0 +1,44 @@
+stacks:
+  - r: 3
+  - y: 5
+  - g: 4
+  - b: 5
+  - p: 5
+big_text:
+  text: 0 Strikes
+  color: black
+players:
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - text: Alice blind discards Slot 2
+  - name: Bob
+    cards:
+      - type: x
+      - type: x
+        above: Red 4
+      - type: x
+      - type: x
+      - type: x
+  - text: Bob blind plays Slot 2
+  - name: Cathy
+    cards:
+      - type: x
+      - type: x
+        above: Green 5
+      - type: x
+      - type: x
+      - type: x
+  - text: Cathy blind plays Slot 2
+  - name: Donald
+    cards:
+      - type: x
+      - type: x
+        above: Red 5
+      - type: x
+      - type: x
+      - type: x
+  - text: Donald blind plays Slot 2
