@@ -69,6 +69,7 @@ module.exports = {
       defaultMode: 'dark',
     },
     sidebarCollapsible: false,
+    hideableSidebar: true,
   },
   plugins: [
     path.resolve(__dirname, 'image-generator'),
