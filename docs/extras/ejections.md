@@ -3,6 +3,10 @@ id: ejections
 title: Ejections
 ---
 
+import BadChopMove from '@site/image-generator/yml/extras/ejections/bad-chop-move.yml';
+import RankChoice from '@site/image-generator/yml/extras/ejections/rank-choice.yml';
+import SelfColor from '@site/image-generator/yml/extras/ejections/self-color.yml';
+
 - An *Ejection* refers to a *Signal Shift* blind-play in which someone plays an unrelated card from their *Second Finesse Position*.
   - For example, if a player's hand is completely unclued, their *Second Finesse Position* is slot 2.
 - Just like a *Bluff*, an *Ejection* can only be performed on the very next player.
@@ -53,7 +57,7 @@ title: Ejections
   - Thus, Bob blind-plays his *Second Finesse Position*. It is a green 3 and successfully plays.
   - Cathy knows that if this was a *5's Chop Move*, then Bob would not have blind-played anything. If it was a *Finesse*, then Bob would have blind-played his *Finesse Position*. Since he blind-played his *Second Finesse Position* card, this must be a *Bad Chop Move Ejection* and her slot 4 card must be trash.
 
-<br />
+<BadChopMove />
 
 ### The Rank Choice Ejection (with a number 2 or a number 5) (RCE)
 
@@ -68,6 +72,9 @@ title: Ejections
   - Bob sees that the obvious clue to give to Cathy was red, as it would actually get the red 2 played right now.
   - This move is so bad that it must be communicating something extra. Alice must be intending for a *Rank Choice Ejection*. Bob blind-plays his *Second Finesse Position* card and it is a blue 1 and successfully plays.
   - Cathy knows that since a number 2 clue cause Bob to blind-play his *Second Finesse Position*, this must be an *Ejection*. The only type of *Ejection* that matches this kind of clue is a *Rank Choice Ejection*, so Cathy knows that her 2 must be playable and that her 2 must be exactly the red 2. Cathy plays the red 2.
+
+<RankChoice />
+
 - More examples of a *Rank Choice Ejection* can be found [here](../examples/rank-choice-ejection.md).
 
 <br />
@@ -114,3 +121,5 @@ title: Ejections
     - If it isn't a *Self Color Double Bluff*, then it must be a *Self Color Ejection*.
   - Bob blind-plays his *Second Finesse Position*. It is a red 2 and it successfully plays.
   - Cathy does nothing; no other cards are promised.
+
+<SelfColor />
