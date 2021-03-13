@@ -22,7 +22,7 @@ import SurreptitiousFinesse from '@site/image-generator/yml/extras/special-fines
 import InvertedPriorityFinesse from '@site/image-generator/yml/extras/special-finesses/inverted-priority-finesse.yml';
 import ShadowFinesse from '@site/image-generator/yml/extras/special-finesses/shadow-finesse.yml';
 import ReverseShadowFinesse from '@site/image-generator/yml/extras/special-finesses/reverse-shadow-finesse.yml';
-import UnecessaryForcedReverse from '@site/image-generator/yml/extras/special-finesses/unecessary-forced-reverse.yml';
+import UnnecessaryForcedReverse from '@site/image-generator/yml/extras/special-finesses/unnecessary-forced-reverse.yml';
 import TrashPushInvertedFinesse from '@site/image-generator/yml/extras/special-finesses/trash-push-inverted-finesse.yml';
 
 ### The Ambiguous Finesse Pass-Back
@@ -452,7 +452,7 @@ import TrashPushInvertedFinesse from '@site/image-generator/yml/extras/special-f
   - Bob knows that even though *Gentleman's Discards* are never supposed to cause a *Chop Move*, Alice forced him to discard in exactly the same way as a *Reverse Trash Finesse*. Furthermore, it was possible to cleanly clue the red 2 in Cathy's hand to begin with, and doing so would have been much simpler. Thus, doing the pseudo-*Reverse Trash Finesse* was unnecessary.
   - Since it was unnecessary, Bob chop moves all the cards to the right of where the red 2 was (slot 2, slot 3, slot 4, and slot 5).
 
-<UnecessaryForcedReverse />
+<UnnecessaryForcedReverse />
 
 ### The Trash Push Inverted Finesse
 
