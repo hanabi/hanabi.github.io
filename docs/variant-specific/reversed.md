@@ -1,6 +1,6 @@
 ---
 id: reversed
-title: Specific Conventions for Reversed
+title: Reversed
 ---
 
 These conventions apply to any variant with a reversed suit (cards must be played as 5 --> 4 --> 3 --> 2 --> 1).

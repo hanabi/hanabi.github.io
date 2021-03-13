@@ -1,6 +1,6 @@
 ---
 id: pink-ones
-title: Specific Conventions for Pink-Ones
+title: Pink-Ones
 ---
 
 These conventions apply to variants with pink-ones.

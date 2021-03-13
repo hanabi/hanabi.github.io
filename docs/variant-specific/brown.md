@@ -1,6 +1,6 @@
 ---
 id: brown
-title: Specific Conventions for Brown
+title: Brown
 ---
 
 These conventions apply to any variant with a brown (touched by no ranks) suit.

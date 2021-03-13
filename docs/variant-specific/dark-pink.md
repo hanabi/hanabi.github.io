@@ -1,6 +1,6 @@
 ---
 id: dark-pink
-title: Specific Conventions for Dark Pink
+title: Dark Pink
 ---
 
 These conventions apply to any variant with a dark pink (touched by all ranks and one of each) suit.

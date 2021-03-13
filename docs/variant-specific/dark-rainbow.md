@@ -1,6 +1,6 @@
 ---
 id: dark-rainbow
-title: Specific Conventions for Dark Rainbow
+title: Dark Rainbow
 ---
 
 These conventions apply to any variant with a dark rainbow (touched by all colors and one of each) suit.

@@ -1,6 +1,6 @@
 ---
 id: prism
-title: Specific Conventions for Prism
+title: Prism
 ---
 
 These conventions apply to any variant with a prism suit.

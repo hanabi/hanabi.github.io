@@ -1,6 +1,6 @@
 ---
 id: dark-null
-title: Specific Conventions for Dark Null
+title: Dark Null
 ---
 
 These conventions apply to any variant with a dark null suit.

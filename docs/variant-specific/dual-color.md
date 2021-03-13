@@ -1,6 +1,6 @@
 ---
 id: dual-color
-title: Specific Conventions for Dual-Color
+title: Dual-Color
 ---
 
 These conventions apply to variants with a dual-color suit.

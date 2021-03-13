@@ -68,7 +68,7 @@ module.exports = {
     colorMode: {
       defaultMode: 'dark',
     },
-    sidebarCollapsible: false,
+    sidebarCollapsible: true,
     hideableSidebar: true,
   },
   plugins: [

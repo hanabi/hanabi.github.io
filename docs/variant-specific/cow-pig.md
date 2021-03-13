@@ -1,6 +1,6 @@
 ---
 id: cow-pig
-title: Specific Conventions for Cow & Pig
+title: Cow & Pig
 ---
 
 These conventions apply to the "Cow & Pig" variants.

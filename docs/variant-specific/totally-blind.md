@@ -1,6 +1,6 @@
 ---
 id: totally-blind
-title: Specific Conventions for Totally Blind
+title: Totally Blind
 ---
 
 These conventions apply to the "Totally Blind" variants.

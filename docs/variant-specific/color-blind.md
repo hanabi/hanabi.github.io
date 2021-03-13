@@ -1,6 +1,6 @@
 ---
 id: color-blind
-title: Specific Conventions for Color Blind
+title: Color Blind
 ---
 
 These conventions apply to the "Color Blind" variants.

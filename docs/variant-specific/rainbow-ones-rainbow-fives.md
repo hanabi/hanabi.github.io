@@ -1,6 +1,6 @@
 ---
 id: rainbow-ones-rainbow-fives
-title: Specific Conventions for Rainbow-Ones & Rainbow-Fives
+title: Rainbow-Ones & Rainbow-Fives
 ---
 
 These conventions apply to variants with rainbow-ones or rainbow-fives.

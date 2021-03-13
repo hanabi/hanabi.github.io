@@ -1,6 +1,6 @@
 ---
 id: number-mute
-title: Specific Conventions for Number Mute
+title: Number Mute
 ---
 
 These conventions apply to the "Number Mute" variants.

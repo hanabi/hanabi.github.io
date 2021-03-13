@@ -1,6 +1,6 @@
 ---
 id: muddy-rainbow-cocoa-rainbow
-title: Specific Conventions for Muddy Rainbow & Cocoa Rainbow
+title: Muddy Rainbow & Cocoa Rainbow
 ---
 
 These conventions apply to any variant with a muddy rainbow suit or a cocoa rainbow suit.
