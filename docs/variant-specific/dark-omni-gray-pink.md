@@ -1,6 +1,6 @@
 ---
 id: dark-omni-gray-pink
-title: Specific Conventions for Dark Omni & Gray Pink
+title: Dark Omni & Gray Pink
 ---
 
 These conventions apply to any variant with a dark omni suit or a gray pink suit.

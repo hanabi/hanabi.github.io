@@ -1,6 +1,6 @@
 ---
-id: null
-title: Specific Conventions for Null
+id: 'null'
+title: 'Null'
 ---
 
 These conventions apply to any variant with a null (touched by no clues) suit.

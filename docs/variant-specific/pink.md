@@ -1,6 +1,6 @@
 ---
 id: pink
-title: Specific Conventions for Pink
+title: Pink
 ---
 
 These conventions apply to any variant with a pink (touched by all ranks) suit.

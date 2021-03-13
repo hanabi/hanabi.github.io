@@ -1,6 +1,6 @@
 ---
 id: pink-omni
-title: Specific Conventions for Pink & Omni
+title: Pink & Omni
 ---
 
 These conventions apply to variants that have 50% or more of cards touched by all ranks. (For example, in the "Pink & Omni (3 Suit)" variant, 66% of the cards are touched by all ranks, so these convention would apply.)

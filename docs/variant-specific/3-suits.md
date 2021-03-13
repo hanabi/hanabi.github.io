@@ -1,6 +1,6 @@
 ---
 id: 3-suits
-title: Specific Conventions for 3 Suits
+title: 3 Suits
 ---
 
 These conventions apply to any variant with only 3 suits.

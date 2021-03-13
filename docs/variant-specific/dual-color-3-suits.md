@@ -1,6 +1,6 @@
 ---
 id: dual-color-3-suits
-title: Specific Conventions for Dual-Color (3 Suits)
+title: Dual-Color (3 Suits)
 ---
 
 These conventions apply to the "Dual-Color (3 Suits)" variant.

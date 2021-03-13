@@ -1,6 +1,6 @@
 ---
 id: gray
-title: Specific Conventions for Gray
+title: Gray
 ---
 
 These conventions apply to any variant with a gray (colorless and one-of-each) suit.

@@ -1,6 +1,6 @@
 ---
 id: variant-specific
-title: Variant-Specific Strategies
+title: Introduction
 ---
 
 import LoadedPlayClue from '@site/image-generator/yml/extras/variant-specific/loaded-play-clue.yml';
@@ -84,52 +84,6 @@ import LoadedException2 from '@site/image-generator/yml/extras/variant-specific/
 
 - We have many variant-specific strategies and conventions. Sometimes, it can be confusing as to how they interact with "normal" conventions (e.g. non-variant-specific conventions).
 - In general, non-variant-specific conventions take precedence over variant-specific conventions, unless explicitly mentioned otherwise.
-
-<br />
-
-### Specific Variants
-
-Below are conventions for some specific variants. Each variant is located on its own separate page.
-
-- [3 Suits](variant-specific/3-suits.md)
-- [Black](variant-specific/black.md)
-- [Rainbow](variant-specific/rainbow.md)
-- [Pink](variant-specific/pink.md)
-- [White](variant-specific/white.md)
-- [Brown](variant-specific/brown.md)
-- [Omni](variant-specific/omni.md)
-- [Null](variant-specific/null.md)
-- [Muddy Rainbow](variant-specific/muddy-rainbow-cocoa-rainbow.md)
-- [Prism](variant-specific/prism.md)
-- [Dark Rainbow](variant-specific/dark-rainbow.md)
-- [Dark Pink](variant-specific/dark-pink.md)
-- [Dark Omni](variant-specific/dark-omni-gray-pink.md)
-- [Dark Null](variant-specific/dark-null.md)
-- [Dark Prism](variant-specific/dark-prism.md)
-- [Cocoa Rainbow](variant-specific/muddy-rainbow-cocoa-rainbow.md)
-- [Gray Pink](variant-specific/dark-omni-gray-pink.md)
-- [Black & Rainbow](variant-specific/black-rainbow.md)
-- [Rainbow & Muddy Rainbow](variant-specific/rainbow-muddy-rainbow.md)
-- [Pink & Omni](variant-specific/pink-omni.md)
-- [Rainbow-Ones](variant-specific/rainbow-ones-rainbow-fives.md)
-- [Pink-Ones](variant-specific/pink-ones.md)
-- [Special-Fives](variant-specific/special-fives.md) (e.g. "Pink-Fives")
-- [Rainbow-Fives](variant-specific/rainbow-ones-rainbow-fives.md)
-- [Deceptive-Fives](variant-specific/deceptive-fives.md)
-- [Extremely Ambiguous](variant-specific/extremely-ambiguous.md)
-- [Dual-Color (any amount of suits)](variant-specific/dual-color.md)
-- [Dual-Color (6 Suits)](variant-specific/dual-color-6-suits.md)
-- [Dual-Color (3 Suits)](variant-specific/dual-color-3-suits.md)
-- [Color Blind](variant-specific/color-blind.md)
-- [Number Blind](variant-specific/number-blind.md)
-- [Totally Blind](variant-specific/totally-blind.md)
-- [Number Mute](variant-specific/number-mute.md)
-- [Clue Starved](variant-specific/clue-starved.md)
-- [Cow & Pig](variant-specific/cow-pig.md)
-- [Duck](variant-specific/duck.md)
-- [Throw It in a Hole](variant-specific/throw-it-in-a-hole.md)
-- [Reversed](variant-specific/reversed.md)
-- [Up or Down](variant-specific/up-or-down.md)
 
 <br />
 

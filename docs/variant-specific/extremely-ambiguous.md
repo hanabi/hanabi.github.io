@@ -1,6 +1,6 @@
 ---
 id: extremely-ambiguous
-title: Specific Conventions for Extremely Ambiguous
+title: Extremely Ambiguous
 ---
 
 These conventions apply to the "Extremely Ambiguous" variants.

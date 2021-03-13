@@ -1,6 +1,6 @@
 ---
 id: number-blind
-title: Specific Conventions for Number Blind
+title: Number Blind
 ---
 
 These conventions apply to the "Number Blind" variants.

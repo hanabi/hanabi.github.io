@@ -1,6 +1,6 @@
 ---
 id: white
-title: Specific Conventions for White
+title: White
 ---
 
 These conventions apply to any variant with a white (touched by no colors) suit.

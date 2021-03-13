@@ -1,6 +1,6 @@
 ---
 id: special-fives
-title: Specific Conventions for Special-Fives
+title: Special-Fives
 ---
 
 These conventions apply to the "Special-Fives" variants (e.g. "Pink-Fives").

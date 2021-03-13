@@ -1,6 +1,6 @@
 ---
 id: black-rainbow
-title: Specific Conventions for Black & Rainbow
+title: Black & Rainbow
 ---
 
 These conventions apply to variants with **both** a black suit and a rainbow suit.

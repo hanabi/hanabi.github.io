@@ -1,6 +1,6 @@
 ---
 id: black
-title: Specific Conventions for Black
+title: Black
 ---
 
 These conventions apply to any variant with a black (one of each) suit.
