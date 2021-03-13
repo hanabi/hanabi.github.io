@@ -3,6 +3,8 @@ id: pushes-pulls
 title: Pushes & Pulls
 ---
 
+import FiveDoublePull from '@site/image-generator/yml/extras/five-double-pull.yml';
+
 ### The Trash Push Prompt & The Trash Push Finesse
 
 - If a player performs a *Trash Push* on a *one-away-from-playable* card, it is a signal that someone else has the connecting card as a *Prompt* or a *Finesse*.
@@ -42,6 +44,9 @@ title: Pushes & Pulls
   - Bob also knows that it is nonsensical to *Chop Move* a playable red 1 - Alice could have just give a red *Chop-Focus Play Clue* to the red 1.
   - Thus, this must be a *5 Double Pull*, so Bob blind-plays his *Finesse Position* card. It is blue 1 and it successfully plays.
   - Cathy knows that if this was an *Early 5's Chop Move*, then Bob would not have blind-played anything. Since he blind-played his *Finesse Position* card, this must be a *5 Double Pull*. Cathy blind-plays her slot 4 card (the card to the right of the clued 5).
+
+<FiveDoublePull />
+
 - Sometimes, it can be useful to *Chop Move* a playable card. Something is only a *5 Double Pull* if there is not some other good reason for the *Chop Move*. Specifically, the player might want to:
   - Avoid violating *Good Touch Principle*.
   - Save a *Delayed Playable* card that is followed by a critical card.
