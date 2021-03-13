@@ -1,0 +1,35 @@
+stacks:
+  - r: 0
+  - y: 0
+  - g: 0
+  - b: 0
+  - p: 0
+discarded:
+  - r1
+  - r1
+  - y4
+players:
+  - cards:
+      - type: x
+      - type: x
+        middle_note: r1
+      - type: x
+        middle_note: r1
+      - type: x
+        middle_note: r1
+      - type: x
+        middle_note: r1
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - text: Alice discared Red 1, Yellow 4, Red 1
+  - text: Alice rewrites Elimination Notes
