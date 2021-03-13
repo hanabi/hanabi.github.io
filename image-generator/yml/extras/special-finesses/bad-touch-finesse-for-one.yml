@@ -1,0 +1,39 @@
+stacks:
+  - r: 0
+  - y: 0
+  - g: 0
+  - b: 0
+  - p: 0
+big_text:
+  text: first turn
+  color: black
+players:
+  - clue_giver: true
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+        above: Blue 1
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+        above: Green 4
+      - type: x
+        clue: 1
+        above: Red 1
+      - type: x
+        clue: 1
+        above: Red 1
+        middle_note: kt
+      - type: x
+        above: Red 5
+      - type: x
+        above: Green 5
+  - text: Cathy plays Slot 2

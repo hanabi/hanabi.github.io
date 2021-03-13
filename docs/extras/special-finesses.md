@@ -3,6 +3,28 @@ id: special-finesses
 title: Special Finesses
 ---
 
+import AmbiguousFinessePassBack from '@site/image-generator/yml/extras/special-finesses/ambiguous-finesse-pass-back.yml';
+import BadTouchLayeredFinesse from '@site/image-generator/yml/extras/special-finesses/bad-touch-layered-finesse.yml';
+import BadTouchFinesseForOne from '@site/image-generator/yml/extras/special-finesses/bad-touch-finesse-for-one.yml';
+import BadTouchFinesseForOne2 from '@site/image-generator/yml/extras/special-finesses/bad-touch-finesse-for-one-2.yml';
+import BadTouchFinesseForTwo from '@site/image-generator/yml/extras/special-finesses/bad-touch-finesse-for-two.yml';
+import BadTouchBluff from '@site/image-generator/yml/extras/special-finesses/bad-touch-bluff.yml';
+import BadTouchDoubleFinesse from '@site/image-generator/yml/extras/special-finesses/bad-touch-double-finesse.yml';
+import BadTouchLayeredFinesseDupes from '@site/image-generator/yml/extras/special-finesses/bad-touch-layered-finesse-dupes.yml';
+import BadTouchTripleFinesse from '@site/image-generator/yml/extras/special-finesses/bad-touch-triple-finesse.yml';
+import CertainFinesseException from '@site/image-generator/yml/extras/special-finesses/certain-finesse-exception.yml';
+import PropheticFinesse from '@site/image-generator/yml/extras/special-finesses/prophetic-finesse.yml';
+import PropheticFinesse2 from '@site/image-generator/yml/extras/special-finesses/prophetic-finesse-2.yml';
+import PatchFinesse from '@site/image-generator/yml/extras/special-finesses/patch-finesse.yml';
+import DiseasedClandestineFinesse from '@site/image-generator/yml/extras/special-finesses/diseased-clandestine-finesse.yml';
+import CursedFinesse from '@site/image-generator/yml/extras/special-finesses/cursed-finesse.yml';
+import SurreptitiousFinesse from '@site/image-generator/yml/extras/special-finesses/surreptitious-finesse.yml';
+import InvertedPriorityFinesse from '@site/image-generator/yml/extras/special-finesses/inverted-priority-finesse.yml';
+import ShadowFinesse from '@site/image-generator/yml/extras/special-finesses/shadow-finesse.yml';
+import ReverseShadowFinesse from '@site/image-generator/yml/extras/special-finesses/reverse-shadow-finesse.yml';
+import UnnecessaryForcedReverse from '@site/image-generator/yml/extras/special-finesses/unnecessary-forced-reverse.yml';
+import TrashPushInvertedFinesse from '@site/image-generator/yml/extras/special-finesses/trash-push-inverted-finesse.yml';
+
 ### The Ambiguous Finesse Pass-Back
 
 - When an *Ambiguous Finesse* occurs, the first player will not play into the *Finesse*, and do something unrelated. At that point, it is usually clear that **another player** on the team **also** has the connecting card. Normally, that other player should then **immediately blind-play**, resolving the *Ambiguous Finesse* as fast as possible.
@@ -17,6 +39,9 @@ title: Special Finesses
   - Thus, Cathy must pretend like the *Finesse* is not on her after all, and force Bob to be the one to blind-play first. Cathy discards her chop card, passing the *Finesse* back to Bob.
   - Donald and Alice discard.
   - Bob knows that Cathy was supposed to blind-play the blue 2, but she didn't. He must also have the blue 2. Furthermore, he must also have the blue 3, as that would be an excellent reason for Cathy to pass the *Finesse* back to him. Bob will now blind-play blue 2 and blue 3.
+
+<AmbiguousFinessePassBack />
+
 - As a side note, you may be wondering why, in the above example, Cathy does not blind-discard her blue 2 from her *Finesse Position* instead of discarding her chop. This is because it is possible that Cathy does **not** have the blue 2 on her *Finesse Position* and instead has some other unrelated playable card as a *Layered Finesse*. Thus, Cathy must play it safe and discard her chop.
 
 <br />
@@ -35,7 +60,7 @@ title: Special Finesses
   - Alice discards her known red 3 (since it is already played and is now trash).
   - Bob knows that *Bluffs* that duplicate a card like this are supposed to be treated as *Layered Finesses*. Bob blind-plays his *Second Finesse Position* as blue 3 and it successfully plays.
 
-<br />
+<BadTouchLayeredFinesse />
 
 ### Potential Priority Duplication & The Certain Priority Finesse (or Priority Certain Finesse)
 
@@ -56,6 +81,9 @@ title: Special Finesses
   - Bob sees that instead of violating *Good Touch Principle*, Alice could have instead simply performed a *5 Save* to Cathy.
   - Bob knows that since we are not normally supposed to violate *Good Touch Principle*, Alice must be trying to communicate something extra. Therefore, this must be a *Bad Touch Finesse*. Bob blind-plays his *Finesse Position* card. It is a blue 1 and it successfully plays.
   - Cathy knows that since this is the first turn of the game, both of her 1's cannot be trash. Similar to a *Stale 1's Clue*, Cathy skips over the older 1 and plays the newest 1. (She would normally play her 1's from right-to-left.) Cathy will then discard the other one later.
+
+<BadTouchFinesseForOne />
+
 - If a *Bad Touch Finesse* is performed on three or more 1s, it only promises that the oldest one is trash / duplicated.
 - For example, in a 3-player game:
   - It is the first turn and nothing is played on the stacks.
@@ -65,7 +93,7 @@ title: Special Finesses
   - Bob knows that since we are not normally supposed to violate *Good Touch Principle*, Alice must be trying to communicate something extra. Therefore, this must be a *Bad Touch Finesse*. Bob blind-plays his *Finesse Position* card. It is a blue 1 and it successfully plays.
   - Cathy knows that since this is the first turn of the game, all of her 1's cannot be trash. Similar to a *Stale 1's Clue*, Cathy skips over the oldest 1 (on slot 3) and plays the middle 1 (on slot 2). (She would normally play her 1's from right-to-left.) On Cathy's next turn, she will play the left-most 1. On Cathy's next turn after that, she will discard the right-most 1 (the one that she originally skipped over).
 
-<br />
+<BadTouchFinesseForOne2 />
 
 ### The Bad Touch Finesse (for 2's)
 
@@ -80,6 +108,9 @@ title: Special Finesses
   - Bob knows that normally, this would be a *2 Save* on the red 2. However, Alice is violating *Good Touch Principle*, so she must be trying to communicate something extra.
   - Bob blind-plays his *Finesse Position* card and it is red 1.
   - Cathy knows that since a clue that looks like a *2 Save* got Bob to blind-play something, then both of the 2's must be red 2. Cathy plays the 2 on slot 3 and plans to discard the 2 on slot 5 on her next turn.
+
+<BadTouchFinesseForTwo />
+
 - The *Bad Touch Finesse* is contextual and does not always apply:
   - If the clue giver was an *Occupied*, then it is an *Occupied Play Clue* and the other 2's are not necessarily duplicated.
   - If the clue giver gave a *2 Save* early and had other *Play Clues* to give instead, the clue could be so bad that it would trigger a *Finesse* and the other 2's are not necessarily duplicated.
@@ -96,7 +127,7 @@ title: Special Finesses
   - Bob blind-plays his *Finesse Position* card, trying to play the red 1. Instead, it is blue 3 and it successfully plays.
   - Cathy knows that since a clue that looked like a *2 Save* got Bob to blind-play something, then a duplication occurred and both of the 2's must be the same. Cathy discards the chop card and saves the other one for later.
 
-<br />
+<BadTouchBluff />
 
 ### The Bad Touch Double Finesse (for 3's)
 
@@ -109,9 +140,9 @@ title: Special Finesses
   - Alice clues number 3 to Donald, touching two red 3's.
   - Bob blind-plays his *Finesse Position* and it is red 1.
   - Cathy knows that normally, this would be a *3 Bluff*. However, since the red 3's are duplicated, this must be a *Bad Touch Double Finesse*, so Cathy blind-plays her *Finesse Position* and it is the red 2.
-  - Donald knows that the other 3 in his hand must be the other copy of red 3, or else Cathy would not have blind-played anything, so Donald plays the left-most red 3. The next time that Donald discards, he will discard the known trash red 3.
+  - Donald knows that the other 3 in his hand must be the other copy of red 3, or else Cathy would not have blind-played anything, so Donald plays the non-focused red 3. The next time that Donald discards, he will discard the known trash red 3.
 
-<br />
+<BadTouchDoubleFinesse />
 
 ### The Bad Touch Layered Finesse That Dupes a Clued Card (Illegal)
 
@@ -122,6 +153,9 @@ title: Special Finesses
   - Alice clues both copies of red 3 in Cathy's hand.
   - Bob blind-plays a blue 1.
   - Bob knows that if only one red 3 was touched, this would just be a normal *3 Bluff*. However, since there was a bad touch, he knows that he must continue to blind-play cards until he finds the red 1 and the red 2.
+
+<BadTouchLayeredFinesseDupes />
+
 - *Bad Touch Layered Finesses* are **explicitly illegal** because they violate *Lie Principle* - Bob cannot demonstrate that it is a bad touch until after Cathy has already taken a turn.
 
 <br />
@@ -137,7 +171,7 @@ title: Special Finesses
   - Donald knows that normally, this would be a *4 Double Bluff* and that no-one should play any more cards. However, since the red 4 was duplicated, this must be a *Bad Touch Triple Finesse*, so Cathy blind-plays her *Finesse Position* and it is the red 3.
   - Emily knows that this cannot be a *4 Double Bluff*, or else Donald would not have blind-played anything. Thus, this must be a *Bad Touch Triple Finesse*, so Emily plays her left-most red 4. The next time that Emily discards, she will discard the known trash red 4.
 
-<br />
+<BadTouchTripleFinesse />
 
 ### The Certain Finesse Clandestine Exception
 
@@ -154,6 +188,9 @@ title: Special Finesses
   - The only other possibility that Bob has to worry about is a *Clandestine Finesse*. For example, he could be blind-playing a green 3 **and then** a red 3 after that. If he blind-discarded, that could "kill" the green stack, since the other copy of green 3 is already discarded.
   - However, Bob **also** knows that you are not allowed to perform a *Clandestine Finesse* from *Bluff Seat* that could duplicate a card in your hand. Thus, he can discount both the possibility of a *Bluff* **and** the possibility of a *Clandestine Finesse*.
   - Bob performs a *Certain Discard* on his *Finesse Position* card and it is the red 3, successfully passing it back to Alice.
+
+<CertainFinesseException />
+
 - If someone performs a *Certain Discard* and you have two or more clued cards that could be the target, then you are not promised the order, only that you have the card clued somewhere in your hand. (This part works in the exact same way as a more-ordinary *Sarcastic Discard*.)
 
 <br />
@@ -173,6 +210,9 @@ title: Special Finesses
   - Cathy sees that from Donald's perspective, a *Trash Finesse* has just occurred. Donald will mark the blue 1 (playable) as a red 1 (trash), and will discard it. This is bad, so Cathy knows that something else is expected of her.
   - Cathy knows that this a *Prophetic Finesse* and that she is promised to have a blue 1 on her *Finesse Position*. Cathy blind-plays her *Finesse Position* (as a *Prophetic Blind-Play*). It is a blue 1 and it successfully plays.
   - Donald knows that since a number 1 clue touched a single 1 and caused two blind-plays, this must be a *Prophetic Finesse*. Donald marks his touched 1 as trash. He also *Chop Moves* his slot 4 card because of the *unnecessary* part of the move.
+
+<PropheticFinesse />
+
 - *Prophetic Finesses* can only be triggered by touching **exactly one 1**.
 - *Prophetic Finesses* can only be triggered by using a number 1 clue. (Color clues cause a *[Prophetic Discharge](discharges.md#the-prophetic-discharge)*.)
 - *Prophetic Finesses* can not be given in reverse.
@@ -188,7 +228,7 @@ title: Special Finesses
   - Therefore, as soon Bob blind-plays, both Cathy and Donald can understand that it is a *Prophetic Finesse*.
   - Just like in the previous example, Cathy blind-plays the blue 1, and Donald marks his 1 as trash and *Chop Moves* his slot 4 card.
 
-<br />
+<PropheticFinesse2 />
 
 ### The Patch Finesse
 
@@ -207,7 +247,7 @@ title: Special Finesses
   - Emily sees the playable red 2 and red 3 in Donald's hand, so she also knows that this was a *Patch Finesse*. The red card in her hand is either red 3 or red 4.
   - We skipped over Bob - why did he discard? Normally, Bob should think the same thing as Cathy - that he has both the red 2 and the red 3. However, Bob can look ahead and see that a *Patch Finesse* could occur, so since everything will work perfectly if he does nothing, then he should do nothing. It is also possible that Bob happens to have the red 2 and the red 3, so he should try to blind-play those on the next round if no-one else attempts to blind-play anything.
 
-<br />
+<PatchFinesse />
 
 ### The Known Patch Finesse (Illegal)
 
@@ -261,7 +301,7 @@ title: Special Finesses
   - Bob blind-plays his slot 3 card and it successfully plays as the blue 1.
   - Bob knows that his 2 must be the blue 2 to connect to the blue 1.
 
-<br />
+<DiseasedClandestineFinesse />
 
 ### The Cursed Finesse
 
@@ -282,6 +322,9 @@ title: Special Finesses
     - From Donald's perspective, this cannot be a normal *Finesse* or a *Double Bluff*, because Cathy would have done nothing, waiting for Bob to play the blue 1 (as a *Finesse*)
     - From both Bob and Donald's perspective, Bob's red 1 did not connect to Donald's blue card, so this cannot be a *Pestilent Double Bluff*.
   - Therefore, the team knows that this must have been a *Cursed Finesse*. Bob will now continue to blind-play until he finds his promised blue 1.
+
+<CursedFinesse />
+
 - *Cursed Finesses* can only occur if there is a *Free Choice* during the initial clue.
 
 <br />
@@ -301,6 +344,9 @@ title: Special Finesses
   - However, Cathy also sees that before Bob blind-played the red 2, he had a blue 1 in the slot right after it.
   - Thus, it is possible for Cathy's 3 to actually be blue 3. If it is, Bob will blind-play the blue 1 and Cathy will know that she has blue 2 on her *Finesse Position*.
   - So, Cathy discards (instead of potentially playing the red 3 on this turn) to allow for the possibility of a *Surreptitious Finesse*.
+
+<SurreptitiousFinesse />
+
 - Examples of a *Surreptitious Finesse* can be found [here](../examples/surreptitious-finesse.md).
 
 <br />
@@ -329,6 +375,9 @@ title: Special Finesses
   - Alice plays blue 2.
   - Bob discards.
   - Cathy blind-plays blue 3.
+
+<InvertedPriorityFinesse />
+
 - Note that *Inverted Priority Finesse* **will only work if the players are in a certain order**. Otherwise, the player holding the declined priority card can *Play Clue* the other card, which would destroy the information channel. This means that in most of cases, players should just go with the safer and less complicated option - the normal *Priority Finesse*.
 
 <br />
@@ -349,6 +398,9 @@ title: Special Finesses
   - Cathy can see all of the other hands and understands Alice's clue. Cathy plays the clued red 1.
   - Donald is very surprised to see Bob play his *Fourth Finesse Position*. The only thing that could cause this is a *Shadow Finesse*.
   - Donald blind-plays the red 2 (the shadow target) from his slot 4.
+
+<ShadowFinesse />
+
 - The *shadow* in a *Shadow Finesse* **must** exist in the immediate next player's hand, similar to a *Bluff*. And the player holding the *shadow* **must** blind-play it immediately to resynchronize the team, similar to a *Bluff*.
 - Once a *shadow* has been blind-played, the team should consider the *shadow target* as being fully known and "touched". (In other words, it no longer occupies a *Finesse Position*.)
 - Remember that *Shadow Finesses* work with *Finesse Positions*, **not** with slot numbers.
@@ -378,7 +430,7 @@ title: Special Finesses
   - Donald is very surprised to see Cathy blind-play her *Third Finesse Position*. The only thing that could cause this is a *Shadow Finesse*.
   - Donald blind-plays the *shadow target* from his *Third Finesse Position*.
 
-<br />
+<ReverseShadowFinesse />
 
 ### The Unnecessary Forced Reverse Trash Finesse (A Gentleman's Discard That Looks Like an Unnecessary Reverse Trash Finesse)
 
@@ -399,7 +451,7 @@ title: Special Finesses
   - Bob knows that even though *Gentleman's Discards* are never supposed to cause a *Chop Move*, Alice forced him to discard in exactly the same way as a *Reverse Trash Finesse*. Furthermore, it was possible to cleanly clue the red 2 in Cathy's hand to begin with, and doing so would have been much simpler. Thus, doing the pseudo-*Reverse Trash Finesse* was unnecessary.
   - Since it was unnecessary, Bob chop moves all the cards to the right of where the red 2 was (slot 2, slot 3, slot 4, and slot 5).
 
-<br />
+<UnnecessaryForcedReverse />
 
 ### The Trash Push Inverted Finesse
 
@@ -414,3 +466,5 @@ title: Special Finesses
   - Bob discards.
   - Cathy knows that this must be a *Trash Push*. Cathy blind-plays her slot 3 card. It is red 3 instead and it successfully plays.
   - Similar to Bob, Donald also sees that the *Trash Push* was unnecessary. Since Bob did not blind-play anything, this must be a *Trash Push Inverted Finesse*. Donald blind-plays his *Finesse Position* as red 4 and it successfully plays.
+
+<TrashPushInvertedFinesse />

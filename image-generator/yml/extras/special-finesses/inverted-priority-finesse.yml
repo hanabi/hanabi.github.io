@@ -1,0 +1,32 @@
+stacks:
+  - r: 0
+  - y: 0
+  - g: 0
+  - b: 1
+  - p: 0
+players:
+  - clue_giver: true
+    cards:
+      - type: x
+      - type: r1
+      - type: b2
+      - type: x
+      - type: x
+  - text: Alice plays Red 1
+  - name: Bob
+    cards:
+      - type: x
+        above: Red 2
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - name: Cathy
+    cards:
+      - type: x
+        above: Blue 3
+        middle_note: b3
+      - type: x
+      - type: x
+      - type: x
+      - type: x
