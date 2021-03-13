@@ -11,7 +11,7 @@ import BadTouchFinesseForTwo from '@site/image-generator/yml/extras/special-fine
 import BadTouchBluff from '@site/image-generator/yml/extras/special-finesses/bad-touch-bluff.yml';
 import BadTouchDoubleFinesse from '@site/image-generator/yml/extras/special-finesses/bad-touch-double-finesse.yml';
 import BadTouchLayeredFinesseDupes from '@site/image-generator/yml/extras/special-finesses/bad-touch-layered-finesse-dupes.yml';
-import BadTouchTrippleFinesse from '@site/image-generator/yml/extras/special-finesses/bad-touch-tripple-finesse.yml';
+import BadTouchTripleFinesse from '@site/image-generator/yml/extras/special-finesses/bad-touch-triple-finesse.yml';
 import CertainFinesseException from '@site/image-generator/yml/extras/special-finesses/certain-finesse-exception.yml';
 import PropheticFinesse from '@site/image-generator/yml/extras/special-finesses/prophetic-finesse.yml';
 import PropheticFinesse2 from '@site/image-generator/yml/extras/special-finesses/prophetic-finesse-2.yml';
@@ -172,7 +172,7 @@ import TrashPushInvertedFinesse from '@site/image-generator/yml/extras/special-f
   - Donald knows that normally, this would be a *4 Double Bluff* and that no-one should play any more cards. However, since the red 4 was duplicated, this must be a *Bad Touch Triple Finesse*, so Cathy blind-plays her *Finesse Position* and it is the red 3.
   - Emily knows that this cannot be a *4 Double Bluff*, or else Donald would not have blind-played anything. Thus, this must be a *Bad Touch Triple Finesse*, so Emily plays her left-most red 4. The next time that Emily discards, she will discard the known trash red 4.
 
-<BadTouchTrippleFinesse />
+<BadTouchTripleFinesse />
 
 ### The Certain Finesse Clandestine Exception
 
