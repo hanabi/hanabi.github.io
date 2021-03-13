@@ -1,0 +1,29 @@
+stacks:
+  - r: 0
+  - y: 3
+  - g: 2
+  - b: 3
+  - p: 5
+players:
+  - cards:
+      - type: x
+      - type: r1
+      - type: b4
+      - type: b5
+      - type: x
+  - text: Alice plays Blue 4
+  - name: Bob
+    cards:
+      - type: x
+        above: Green 3
+      - type: x
+      - type: x
+      - type: r2
+      - type: x
+  - name: Cathy
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x

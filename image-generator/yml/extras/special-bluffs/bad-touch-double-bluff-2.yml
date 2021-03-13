@@ -1,0 +1,39 @@
+stacks:
+  - r: 0
+  - y: 1
+  - g: 1
+  - b: 1
+  - p: 1
+players:
+  - clue_giver: true
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+        above: Red 1
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+        above: Red 2
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+        clue: 3
+        above: Red 3
+      - type: x
+  - text: Donald discards his red 3 as a Sarcastic Discard
+  - name: Emily
+    cards:
+      - type: x
+      - type: x
+      - type: r3
+      - type: x
