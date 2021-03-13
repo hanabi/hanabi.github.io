@@ -3,6 +3,9 @@ id: discharges
 title: Discharges
 ---
 
+import UnknownDupeDischarge from '@site/image-generator/yml/extras/discharges/unknown-dupe-discharge.yml';
+import UnknownDupeDischarge2 from '@site/image-generator/yml/extras/discharges/unknown-dupe-discharge-2.yml';
+
 - A *Discharge* refers to a *Signal Shift* blind-play in which someone plays an unrelated card from their *Third Finesse Position*.
   - For example, if a player's hand is completely unclued, their *Third Finesse Position* is slot 3.
 - Just like a *Bluff*, a *Discharge* can only be performed on the very next player.
@@ -42,11 +45,15 @@ title: Discharges
   - Alice clues number 5 to Bob as a *5 Save*.
   - Bob clues number 5 to Alice as a *5 Save*.
   - Bob's hand is as follows: `red 2, red 2, red 4, blue 4, blue [5]`
+  - Bob clues green to Cathy as a play clue.
   - Cathy clues red to Bob, touching the red 2 on slot 1, the red 2 on slot 2, and the red 4 on slot 3.
   - Alice knows that Cathy is violating *Good Touch Principle* and duplicating the red 2. There doesn't seem to be a very good reason for this, so this must be an *Unknown Dupe Discharge*.
   - Alice blind-plays her *Third Finesse Position*. It is a blue 1 and it successfully plays on the stacks.
   - Normally, Bob would think that this was an *Unknown Trash Discharge*. However, no red trash cards exist. Thus, this must have been an *Unknown Dupe Discharge*.
   - Bob discards his slot 1 card (the focus of the clue). It is revealed to be a red 2. Now, Bob writes *Elimination Notes* for the red 2 on his slot 2 and his slot 3.
+
+<UnknownDupeDischarge />
+
 - *Unknown Dupe Discharges* **can only be initiated with color clues**. This is because number clues will cause *Bad Touch Finesses*.
 - *Unknown Dupe Discharges* only apply if **the two duplicated cards are in the same person's hand**.
   - It is explicitly illegal to perform an *Unknown Dupe Discharge* that duplicates a card in someone else's hand. If this happens, the clue must have some other meaning.
@@ -61,7 +68,7 @@ title: Discharges
   - However, Alice also knows that she is supposed to use the *two-or-more-blind-plays* rule in this situation. Since Alice would have to blind-play two cards into the *Finesse*, a *Finesse* is unlikely. Thus, this must be an *Unknown Dupe Discharge*.
   - Alice blind-plays her *Third Finesse Position*. It is a blue 1 and it successfully plays on the stacks.
 
-<br />
+<UnknownDupeDischarge2 />
 
 ### The Trash Push Discharge
 
