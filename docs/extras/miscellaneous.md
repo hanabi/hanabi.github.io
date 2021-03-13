@@ -3,6 +3,9 @@ id: miscellaneous
 title: Miscellaneous
 ---
 
+import DoublePrompts from '@site/image-generator/yml/extras/miscellaneous/double-prompts.yml';
+import EliminationRewrite from '@site/image-generator/yml/extras/miscellaneous/elimination-rewrite.yml';
+
 ### Double Prompts in Multi-Color Variants
 
 - Normally, when a multi-color card is *Prompted* from someone's hand, they should play the card that has the most positive information.
@@ -15,7 +18,7 @@ title: Miscellaneous
   - Bob is promised the rainbow 2 and the rainbow 3, so he knows that these cards must be on slots 1 and slot 3.
   - However, Bob also knows that you should always play the card with the most information on it first, so he plays his slot 3 card as rainbow 2 (instead of slot 1, the left-most card).
 
-<br />
+<DoublePrompts />
 
 ### The Elimination Rewrite (for 1's)
 
@@ -28,7 +31,7 @@ title: Miscellaneous
   - On her next turn, Alice discards an unrelated card. She now has *Elimination Notes* on slot 3, slot 4, and slot 5.
   - On her next turn, Alice discards another red 1. Normally, she would now have *Elimination Notes* on slot 4 and slot 5. However, because of the *Elimination Rewrite*, she instead writes *Elimination Notes* on slot 2, slot 3, slot 4, and slot 5.
 
-<br />
+<EliminationRewrite />
 
 ### The Negative Blind-Play
 
