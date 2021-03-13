@@ -1,6 +1,6 @@
 ---
 id: deceptive-fives
-title: Specific Conventions for Deceptive-Fives
+title: Deceptive-Fives
 ---
 
 These conventions apply to the "Deceptive-Fives" variants.

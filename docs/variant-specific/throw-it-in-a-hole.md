@@ -1,6 +1,6 @@
 ---
 id: throw-it-in-a-hole
-title: Specific Conventions for Throw It in a Hole
+title: Throw It in a Hole
 ---
 
 These conventions apply to the "Throw It in a Hole" variants.

@@ -1,6 +1,6 @@
 ---
 id: rainbow
-title: Specific Conventions for Rainbow
+title: Rainbow
 ---
 
 These conventions apply to any variant with a rainbow (touched by all colors) or dual-color suit.

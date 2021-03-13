@@ -1,6 +1,6 @@
 ---
 id: dark-prism
-title: Specific Conventions for Dark Prism
+title: Dark Prism
 ---
 
 These conventions apply to any variant with a dark prism suit.

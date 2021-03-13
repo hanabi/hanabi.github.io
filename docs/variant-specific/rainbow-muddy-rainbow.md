@@ -1,6 +1,6 @@
 ---
 id: rainbow-muddy-rainbow
-title: Specific Conventions for Rainbow & Muddy Rainbow
+title: Rainbow & Muddy Rainbow
 ---
 
 These conventions apply to variants with **both** a rainbow and a muddy rainbow suit.

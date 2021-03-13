@@ -1,6 +1,6 @@
 ---
 id: omni
-title: Specific Conventions for Omni
+title: Omni
 ---
 
 These conventions apply to any variant with an omni (touched by all clues) suit.

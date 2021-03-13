@@ -1,6 +1,6 @@
 ---
 id: up-or-down
-title: Specific Conventions for Up or Down
+title: Up or Down
 ---
 
 These conventions apply to the "Up or Down" variants.

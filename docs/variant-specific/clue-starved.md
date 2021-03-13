@@ -1,6 +1,6 @@
 ---
 id: clue-starved
-title: Specific Conventions for Clue Starved
+title: Clue Starved
 ---
 
 These conventions apply to the "Clue Starved" variants.

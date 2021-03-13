@@ -1,6 +1,6 @@
 ---
 id: duck
-title: Specific Conventions for Duck
+title: Duck
 ---
 
 These conventions apply to the "Duck" variants.

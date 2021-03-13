@@ -1,6 +1,6 @@
 ---
 id: no-positive-clues
-title: Specific Conventions for Variants with No Positive Clues
+title: Variants with No Positive Clues
 ---
 
 These conventions apply to the following variants:
