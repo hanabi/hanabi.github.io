@@ -3,6 +3,10 @@ id: charms
 title: Charms
 ---
 
+import FourCharm from '@site/image-generator/yml/extras/charms/four-charm.yml';
+import UnknownTrashCharm from '@site/image-generator/yml/extras/charms/unknown-trash-charm.yml';
+import SafetyCharm from '@site/image-generator/yml/extras/charms/safety-charm.yml';
+
 - A *Charm* refers to a blind-play in which someone plays an unrelated card from their *Fourth Finesse Position*. For example, if a player's hand is completely unclued, their *Fourth Finesse Position* is slot 4.
 - *Charms* fall outside of the *Signal Shift* framework. Instead, playing from *Fourth Finesse Position* is required in order to disambiguate the clue from being a *Finesse*, *Ejection*, or *Discharge*.
 - Just like a *Bluff*, a *Charm* can only be performed on the very next player.
@@ -24,7 +28,7 @@ title: Charms
   - Bob knows that this could also be a *4 Charm*, since the red 4 is *three-away-from-playable* and Bob does not see any other red cards on *Finesse Position*.
   - However, Bob knows that he should always assume the truth over a lie, so he assumes that Alice intends for an *Out-of-Order Finesse*.
 
-<br />
+<FourCharm />
 
 ### The Unknown Trash Charm (UTC)
 
@@ -38,7 +42,7 @@ title: Charms
   - Normally, Bob would treat this clue as an *Unknown Trash Discharge*. However, if he *Discharges*, then Cathy will discard the red 1 and mark the red 2 as either a red 3, a red 4, or a red 5, which would be a *Lie*.
   - Instead, Bob knows that this signals an *Unknown Trash Charm*, so he blind-plays his *Fourth Finesse Position*. It is a blue 3 and it successfully plays.
 
-<br />
+<UnknownTrashCharm />
 
 ### The Safety Charm (Declined 5 Pull)
 
@@ -59,5 +63,8 @@ title: Charms
     - A *Third Finesse Position* blind-play would look like an *Unknown Trash Discharge* on a red 1, which would be a *Lie*.
   - Thus, Bob knows that this must be a *Safety Charm*. He blind-plays his *Fourth Finesse Position*. It is a blue 1 and it successfully plays.
   - Cathy knows that she must have the red 2. She also knows that her slot 1 card is a 5 that could have been used for a *5 Pull*. Cathy marks the 5 as being *Chop Moved* for later.
+
+<SafetyCharm />
+
 - *4 Charms* take precedence over *Safety Charms*.
 - More examples of a *Safety Charm* can be found [here](../examples/safety-charm.md).

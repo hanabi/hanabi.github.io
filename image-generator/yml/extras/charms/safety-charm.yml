@@ -1,0 +1,35 @@
+stacks:
+  - r: 1
+  - y: 0
+  - g: 0
+  - b: 0
+  - p: 0
+big_text:
+  text: low score
+  color: black
+players:
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+        above: Blue 1
+  - cards:
+      - type: x
+        above: Purple 5
+        middle_note: 5
+      - type: x
+        clue: r
+        above: Red 2
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
