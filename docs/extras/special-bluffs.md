@@ -3,6 +3,15 @@ id: special-bluffs
 title: Special Bluffs
 ---
 
+import SelfColorBluff from '@site/image-generator/yml/extras/special-bluffs/self-color-bluff.yml';
+import SelfColorBluff2 from '@site/image-generator/yml/extras/special-bluffs/self-color-bluff-2.yml';
+import SelfColorBluff3 from '@site/image-generator/yml/extras/special-bluffs/self-color-bluff-3.yml';
+import SelfColorDoubleBluff from '@site/image-generator/yml/extras/special-bluffs/self-color-double-bluff.yml';
+import KnownPriorityBluff from '@site/image-generator/yml/extras/special-bluffs/known-priority-bluff.yml';
+import BadTouchDoubleBluff from '@site/image-generator/yml/extras/special-bluffs/bad-touch-double-bluff.yml';
+import BadTouchDoubleBluff2 from '@site/image-generator/yml/extras/special-bluffs/bad-touch-double-bluff-2.yml';
+import PestilentTripleBluff from '@site/image-generator/yml/extras/special-bluffs/pestilent-triple-bluff.yml';
+
 ### Self Color Bluffs (1-for-1 Form) (SCB)
 
 - It is possible (and fairly common) to perform a *Self-Bluff* on a player with a rank clue.
@@ -13,6 +22,9 @@ title: Special Bluffs
   - The closest 4 to being playable is the red 4, so Bob knows that the 4 in his hand is probably a red 4.
   - Since Bob does not see any red 3's, Bob knows he must have the red 3, and he blind-plays his *Finesse Position* card. It is a blue 1 and successfully plays.
   - Bob now knows that he was *Bluffed* by Alice and that the 4 in his hand is exactly red 4.
+
+<SelfColorBluff />
+
 - Doing a *Self-Bluff* on a player with a color clue is a bit more weird. On the face of it, a *Self Color Bluff* would be nonsensical, since the receiving player would have negative color on the card that they are blind-playing - they would explicitly know that the blind-card cannot possibly "connect".
 - Nonetheless, we agree that in this situation, players should blind-play a card anyway as a *Known Bluff*.
 - For example, in a 3-player game:
@@ -22,6 +34,9 @@ title: Special Bluffs
   - Bob does not see any red cards in other player's hands, so it cannot be a *Prompt* or a *Reverse Finesse*.
   - Bob cannot possibly have the red 3 in his *Finesse Position*, because that card has negative red.
   - Thus, Bob knows that this must be a *Self Color Bluff*, so he blind-plays his *Finesse Position* card as a *Known Bluff* on any playable non-red card. It is a blue 1 and it successfully plays on the stacks.
+
+<SelfColorBluff2 />
+
 - Note that *Self Color Bluffs* should not be confused with the more-ordinary "fill-in" clues that are used in stalling situations. (See the [Allowable Stall Clues](../level-8.md#allowable-stall-clues-stall-table) section.) In other words, **if someone could be in a stalling situation, you should never blind-play a card from a fill-in clue**.
 - *Self Color Bluffs* are not very good and should only be used sparingly, because:
   - they can be confusing
@@ -44,7 +59,7 @@ title: Special Bluffs
   - Thus, Bob knows that this must be a *Self Color Bluff*, so he blind-plays his *Finesse Position* card as a *Known Bluff* on any playable non-red card. It is a blue 1 and it successfully plays on the stacks.
   - Bob marks his red card as a red 4 (since that is the red card that is *one-away-from-playable*).
 
-<br />
+<SelfColorBluff3 />
 
 ### Self Color Double Bluff (SCDB)
 
@@ -62,6 +77,9 @@ title: Special Bluffs
   - Cathy sees that Alice did a *Self Color Bluff* on Bob. However, Cathy sees that the red card in Bob's hand is the red 5, which is *two-away-from-playable*. That means that Alice means to perform a *Self Color Double Bluff* (instead of a single *Bluff*).
   - Cathy blind-plays her *Finesse Position* card as a *Known Bluff*. It is a blue 2 and it successfully plays on the stacks.
   - Bob is surprised by Cathy's blind-play and realizes that it must be related to the clue that Alice gave. If Bob had a red 4 in his hand, then Cathy would not have gone on to blind-play anything. So, Bob erases his note of "red 4" and instead writes "red 5", because that is the only red card that is *two-away-from-playable*, and is the only card that would make Cathy blind-play.
+
+<SelfColorDoubleBluff />
+
 - More examples of a *Self Color Double Bluff* can be found [here](../examples/self-color-double-bluff.md).
 
 <br />
@@ -85,13 +103,17 @@ title: Special Bluffs
 
 ### The Known Priority Bluff
 
-- Players generally perform *Priority Bluffs* by tricking players into thinking they have a specific card. However, it is also possible to perform a *Known Priority Bluff*. For example:
+- Players generally perform *Priority Bluffs* by tricking players into thinking they have a specific card. However, it is also possible to perform a *Known Priority Bluff*.
+- For example:
   - Alice has a three known playable cards: red 1, blue 4, and blue 5.
   - Bob has a known red 2.
   - Alice is expected to play the red 1 into the red 2, so the red 1 has *Priority*.
   - Instead, Alice plays the blue 4.
   - Normally, Bob would think that this is a *Priority Finesse* on the blue 5. However, both he and Alice know that Alice has the blue 5.
   - This must be a *Known Priority Bluff*, so Bob plays his *Finesse Position* card as any playable card.
+
+<KnownPriorityBluff />
+
 - Just like normal *Bluffs*, players are only allowed to perform a *Known Priority Bluff* on the very next player.
 
 <br />
@@ -104,7 +126,10 @@ title: Special Bluffs
   - Alice clues number 3 to Donald, touching two red 3's.
   - Bob blind-plays his *Finesse Position* and it is blue 1.
   - Cathy knows that normally, this would be a *3 Bluff*. However, since the red 3's are duplicated, this must be a *Bad Touch Double Bluff*, so Cathy blind-plays her *Finesse Position* and it is the green 1.
-  - Donald knows that he must have a duplicated copy of a 3, or else Cathy would not have blind-played anything. Donald discards the left-most 3.
+  - Donald knows that he must have a duplicated copy of a 3, or else Cathy would not have blind-played anything. Donald discards the non-focused 3.
+
+<BadTouchDoubleBluff />
+
 - Instead of cluing the same 3 in one hand, it is also possible to perform a *Bad Touch Double Finesse/Bluff* by intentionally duplicating a 3 in another player's hand.
 - For example, in a 5-player game:
   - All of the 1's are played except for red 1.
@@ -114,6 +139,9 @@ title: Special Bluffs
   - Cathy knows that normally, this would be a *3 Bluff*. However, since the red 3 was duplicated, this must be a *Bad Touch Double Finesse*, so Cathy blind-plays her *Finesse Position* and it is the red 2.
   - Donald knows that this cannot be a *3 Bluff*, or else Cathy would not have blind-played anything. Thus, this must be a *Bad Touch Double Finesse*, so Donald discards his red 3 as a *Sarcastic Discard* to pass it back to Emily.
   - Emily plays the red 3.
+
+<BadTouchDoubleBluff2 />
+
 - More examples of a *Bad Touch Double Bluff* can be found [here](../examples/bad-touch-double-bluff.md).
 
 <br />
@@ -132,7 +160,7 @@ title: Special Bluffs
   - Alice must be intending for Donald to also blind-play his *Finesse Position* in order to "heal" the problem. Donald blind-plays his *Finesse Position*. It is a green 2 and it successfully plays.
   - At first, Emily thought that her 4 was the blue 4 (connecting to the blue 2 and the blue 3). However, if that was the case, then Donald would not have blind-played anything. Emily knows that this must be a *Pestilent Triple Bluff*, and her 4 is any other 4 than blue 4 (because Donald blind-played) and green 4 (because Bob would have waited for Donald).
 
-<br />
+<PestilentTripleBluff />
 
 ### The Pass Bluff
 
