@@ -95,9 +95,9 @@ import TrashPush from '@site/image-generator/yml/level-23/trash-push.yml';
   - All of the 2's are played on the stacks.
   - Bob has a red 3 on his *Second Finesse Position* and no other red cards in his hand. Thus, Alice can give a red clue to Bob in order to "get" the red 3.
   - Donald's hand is r1 - g1 - b2 - b1, completely unclued.
-  - Alice clues number 2 to Donald, touching the blue 2 on slot 3. 
+  - Alice clues number 2 to Donald, touching the blue 2 on slot 3.
   - Bob knows that from Donald's perspective, Alice's clue looks like a *Trash Chop Move*. Since Donald is about to chop move a trash card, Bob ejects his red 3 as a *Bad Chop Move Ejection*.
-  - Since Bob's blind play told Donald about a trash card, namely that the chop-moved blue 1 was trash, Donald will now additionally interpret the clue as a *Trash Push*. 
+  - Since Bob's blind play told Donald about a trash card, namely that the chop-moved blue 1 was trash, Donald will now additionally interpret the clue as a *Trash Push*.
   - Cathy sees that Donald is about to play green 1 as a *Trash Push*, but green 1 is already played.
   - Thus, Cathy plays her third finesse position as a *Trash Push Discharge*.
 
