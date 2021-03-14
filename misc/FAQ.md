@@ -278,7 +278,7 @@ Green 4. The red 3 does not count as being a "lower rank" card in this case. It 
 
 <br />
 
-### Alice has two playable 5s and plays the rightmost. Is it a *Known Bluff*?
+### Alice has two playable 5s and plays the right-most. Is it a *Known Bluff*?
 
 Playing 5s not in the left-to-right order is considered to be a known mistake.
 
