@@ -33,7 +33,7 @@ import TrashPush from '@site/image-generator/yml/level-23/trash-push.yml';
 ### Unnecessary Moves with Known Trash --> Ignition
 
 - If **known trash** is used as clue target, the "extra" thing is an *Ignition*. The *Ignition* can be on anyone on the team, similar to how *Double Ignition* works.
-  	- Applicable conventions include *Trash Push*, *Trash Push Finesse*, *Trash Pull*, and performing a *Trash Chop Move* on a card which can be clued directly.
+  - Applicable conventions include *Trash Push*, *Trash Push Finesse*, *Trash Pull*, and performing a *Trash Chop Move* on a card which can be clued directly.
 - For example, this would be an *Unnecessary Trash Push* in a 3-player game:
   - All of the 3's are played on the stacks.
   - Bob's hand is completely unclued.
@@ -51,7 +51,7 @@ import TrashPush from '@site/image-generator/yml/level-23/trash-push.yml';
 
 ### Unnecessary Moves with Unknown Trash
 - If Bob already has to play to tell the clue receiver that the clue target is trash, as an "extra thing" the team also interprets the clue as the **known trash** version of the clue.
-	- Applicable conventions here are the *Trash Finesse*, *Trash Bluff*, *Unknown Trash Discharge (UTD)*, *Bad Chop Move Ejection (BCME)*, and *Trash Push Discharge*.
+  - Applicable conventions here are the *Trash Finesse*, *Trash Bluff*, *Unknown Trash Discharge (UTD)*, *Bad Chop Move Ejection (BCME)*, and *Trash Push Discharge*.
 - If the focus of the clue was off-chop trash, this will as if a *Trash Chop Move* was given.
 - If the focus of the clue was a trash card on chop, this will be a *Trash Push*.
 
