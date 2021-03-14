@@ -33,6 +33,7 @@ import TrashPush from '@site/image-generator/yml/level-23/trash-push.yml';
 ### Unnecessary Moves with Known Trash --> Ignition
 
 - If **known trash** is used as clue target, the "extra" thing is an *Ignition*. The *Ignition* can be on anyone on the team, similar to how *Double Ignition* works.
+  	- Applicable conventions include *Trash Push*, *Trash Push Finesse*, *Trash Pull*, and performing a *Trash Chop Move* on a card which can be clued directly.
 - For example, this would be an *Unnecessary Trash Push* in a 3-player game:
   - All of the 3's are played on the stacks.
   - Bob's hand is completely unclued.
@@ -48,9 +49,16 @@ import TrashPush from '@site/image-generator/yml/level-23/trash-push.yml';
 
 <br />
 
-### Unnecessary Moves with Unknown Trash (Off-Chop) --> Chop Move
+### Unnecessary Moves with Unknown Trash
+- If Bob already has to play to tell the clue receiver that the clue target is trash, as an "extra thing" the team also interprets the clue as the **known trash** version of the clue.
+	- Applicable conventions here are the *Trash Finesse*, *Trash Bluff*, *Unknown Trash Discharge (UTD)*, *Bad Chop Move Ejection (BCME)*, and *Trash Push Discharge*.
+- If the focus of the clue was off-chop trash, this will as if a *Trash Chop Move* was given.
+- If the focus of the clue was a trash card on chop, this will be a *Trash Push*.
 
-- If **unknown trash** is used as a clue target that is off-chop, the "extra" thing is a *Chop Move*.
+
+### Unnecessary Moves with Unknown Trash: Off-Chop Examples 
+
+- If **unknown trash** is used as a clue target that is off-chop, the team responds as if a *Trash Chop Move* was given.
 - For example, this would be an *Unnecessary Trash Finesse* in a 3-player game:
   - All of the 2's are played on the stacks except for the red 2.
   - Bob has a red 2 on his *Finesse Position* and no other red cards in his hand. Thus, Alice could give a red clue to Bob in order to "get" the red 2.
@@ -63,20 +71,15 @@ import TrashPush from '@site/image-generator/yml/level-23/trash-push.yml';
 
 <ChopMove />
 
-- For example, if an *Unnecessary Unknown Trash Discharge* was done, the next player should blind-play their *Third Finesse Position* (from the clue), and the clue receiver should *Chop Move* (from the unnecessariness).
+- For example, Alice performs an *Unnecessary Unknown Trash Discharge* by cluing Cathy. Then Bob should blind-play his *Third Finesse Position* (from the clue), and Cathy should *Chop Move* the cards right of the clue target (from the unnecessariness).
+- For example, Alice performs an *Unnecessary Unknown Trash Discharge* on a single off-chop card in Donald's hand, while Donald's chop is trash. Now Bob blind-plays his *Third Finesse Position* (from the clue). Cathy sees that Bob's card could have been clued directly, so Donald is about to chop move a trash card. Therefore Cathy plays her second finesse position as an additional *Bad Chop Move Ejection*.
 - Importantly, note that *Unnecessary Chop Moves* are tricky in that they have **information asymmetry**: the player who blind-plays will **not** know that the card is chop moved, while everyone else will. All players will have to keep this in mind until the *Chop Move* has been demonstrated.
 
 <br />
 
-### Unnecessary Moves with Unknown Trash (On-Chop) + Touched Other Cards --> Chop Move
+### Unnecessary Moves with Unknown Trash: On-Chop Examples 
 
-- If **unknown trash** is used as a clue target that is on-chop, but the clue **also** touched other trash cards in the hand that were not on chop, then the "extra" thing is a *Chop Move*, similar to the previous section.
-
-<br />
-
-### Unnecessary Moves with Unknown Trash (On-Chop) --> Trash Push
-
-- If **unknown trash** is used as a clue target that is on-chop, and the clue only touched one card (or all the cards touched were also on chop), then the "extra" thing is a *Trash Push*.
+- If **unknown trash** is used as a clue target that is on-chop, then the corresponding known-trash clue is a *Trash Push*.
 - For example, this would be an *Unnecessary Trash Finesse* in a 3-player game:
   - All of the 2's are played on the stacks except for the red 2.
   - Bob has a red 2 on his *Finesse Position* and no other red cards in his hand. Thus, Alice can give a red clue to Bob in order to "get" the red 2.
@@ -85,9 +88,20 @@ import TrashPush from '@site/image-generator/yml/level-23/trash-push.yml';
   - Bob knows that from Cathy's perspective, Alice's clue looks like a *Play Clue* on the final remaining 2 - the red 2. Cathy will go on to misplay the blue 2 as the red 2.
   - Thus, Bob knows that this is a *Trash Finesse*. He blind-plays his *Finesse Position* card. It is a red 2 and it successfully plays.
   - Cathy now knows that her 2 is trash (since Bob blind-played in response to the clue). However, Cathy also knows that this *Trash Finesse* was *unnecessary*, as Alice could have just clued red to Bob.
-  - Thus, Cathy knows that this is an *Unnecessary Trash Finesse*. Normally, she would *Chop Move* something, but the focus of the clue was already on her chop. Cathy instead blind-plays her slot 4 as a *Trash Push*.
+  - Thus, Cathy knows that this is an *Unnecessary Trash Finesse*. Therefore Cathy additionally responds as if a known trash card was clued on her chop, so she blind-plays her slot 4 as a *Trash Push*.
 
 <TrashPush />
+
+- The known-trash interpretation also holds if the team has to prevent the clue receiver to *Trash Push* a card that's not playable:
+  - All of the 2's are played on the stacks except for the red 2. 
+  - Bob has a red 2 on his *Finesse Position* and no other red cards in his hand. Thus, Alice can give a red clue to Bob in order to "get" the red 2.
+  - Donald's hand is r1 - g5 - g1 - b2, completely unclued.
+  - Alice clues number 2 to Donald, touching the blue 2 on slot 4. (Blue 2 is already played and is therefore trash.)
+  - Bob knows that from Donald's perspective, Alice's clue looks like a *Play Clue* on the final remaining 2 - the red 2. Donald will go on to misplay the blue 2 as the red 2.
+  - Thus, Bob knows that this is a *Trash Finesse*. He blind-plays his *Finesse Position* card. It is a red 2 and it successfully plays.
+  - Cathy sees that Donald is about to play green 1 as a *Trash Push*, but green 1 is a trash card, since it's already played.
+  - Thus, Cathy plays her third finesse position as a *Trash Push Discharge*.
+
 
 ### Other Examples
 
