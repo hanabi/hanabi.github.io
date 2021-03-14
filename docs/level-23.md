@@ -55,8 +55,7 @@ import TrashPush from '@site/image-generator/yml/level-23/trash-push.yml';
 - If the focus of the clue was off-chop trash, this will as if a *Trash Chop Move* was given.
 - If the focus of the clue was a trash card on chop, this will be a *Trash Push*.
 
-
-### Unnecessary Moves with Unknown Trash: Off-Chop Examples 
+### Unnecessary Moves with Unknown Trash: Off-Chop Examples
 
 - If **unknown trash** is used as a clue target that is off-chop, the team responds as if a *Trash Chop Move* was given.
 - For example, this would be an *Unnecessary Trash Finesse* in a 3-player game:
@@ -77,7 +76,7 @@ import TrashPush from '@site/image-generator/yml/level-23/trash-push.yml';
 
 <br />
 
-### Unnecessary Moves with Unknown Trash: On-Chop Examples 
+### Unnecessary Moves with Unknown Trash: On-Chop Examples
 
 - If **unknown trash** is used as a clue target that is on-chop, then the corresponding known-trash clue is a *Trash Push*.
 - For example, this would be an *Unnecessary Trash Finesse* in a 3-player game:
@@ -93,7 +92,7 @@ import TrashPush from '@site/image-generator/yml/level-23/trash-push.yml';
 <TrashPush />
 
 - The known-trash interpretation also holds if the team has to prevent the clue receiver to *Trash Push* a card that's not playable:
-  - All of the 2's are played on the stacks except for the red 2. 
+  - All of the 2's are played on the stacks except for the red 2.
   - Bob has a red 2 on his *Finesse Position* and no other red cards in his hand. Thus, Alice can give a red clue to Bob in order to "get" the red 2.
   - Donald's hand is r1 - g5 - g1 - b2, completely unclued.
   - Alice clues number 2 to Donald, touching the blue 2 on slot 4. (Blue 2 is already played and is therefore trash.)
@@ -101,7 +100,6 @@ import TrashPush from '@site/image-generator/yml/level-23/trash-push.yml';
   - Thus, Bob knows that this is a *Trash Finesse*. He blind-plays his *Finesse Position* card. It is a red 2 and it successfully plays.
   - Cathy sees that Donald is about to play green 1 as a *Trash Push*, but green 1 is a trash card, since it's already played.
   - Thus, Cathy plays her third finesse position as a *Trash Push Discharge*.
-
 
 ### Other Examples
 
