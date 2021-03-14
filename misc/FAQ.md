@@ -81,6 +81,12 @@ It means that random 3's and 4's on people's chop survive longer.
 
 <br />
 
+### What should I do in a *Double Discard Situation* if there are no allowable stall clues to give?
+
+Discard. Alternatively, you could try cluing a useful 3 and getting a strike, if you can see that a misplayed card would be trash.
+
+<br />
+
 ### Are all *Finesses* by a *5-Pulled* player *Certain Finesses*?
 
 Yes.
@@ -272,6 +278,12 @@ Green 4. The red 3 does not count as being a "lower rank" card in this case. It 
 
 <br />
 
+### Alice has two playable 5s and plays the rightmost. Is it a *Known Bluff*?
+
+Playing 5s not in the left-to-right order is considered to be a known mistake.
+
+<br />
+
 ### Can I *Bluff* a clued card?
 
 No. Playing a clued card does not "prove" anything because the player might have found out that the card was playable through some other read.
@@ -320,9 +332,21 @@ Yes.
 
 <br />
 
+### Is it allowed to perform a *Locked Hand Save* on a brown card?
+
+Yes.
+
+<br />
+
 ### Does *Good Touch Principle* apply to pink cards?
 
 Yes.
+
+<br />
+
+### Which convention takes precedence: *Trash Finesse*/*Unknown Trash Discharge*/*4 Charm* or *Bubblegum Bluff*?
+
+Non-variant-specific take precedence over variant-specific conventions.
 
 <br />
 
@@ -351,11 +375,5 @@ Yes.
 ### In variants with a pink suit, If 1's were clued in my hand, and all of the 1's are already played, should I play my next number 1 card as a pink 2?
 
 No. You should hold on to it for later. It could be any other useful pink card.
-
-<br />
-
-### What takes precedence for null cards: *Play Clues* or *Null Finesses*?
-
-*Null Finesses*. (Otherwise, it would be impossible to perform a *Reverse Null Finesse*.)
 
 <br />
