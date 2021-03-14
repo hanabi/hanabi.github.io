@@ -41,3 +41,7 @@ These conventions apply to any variant with a dark omni suit or a gray pink suit
   - A 4 clue on chop (touching 1 card with 4's in the trash) --> `any 4 that is in the trash`
   - A 4 clue on chop (touching 2+ card with 4's in the trash) --> `o2, o3, o4, o5, any 4 that is in the trash`
   - A 5 clue on chop (touching X cards) --> `o2, o3, o4, o5, any other 5`
+
+### Fake 5's (Chop Move & Pull)
+
+- Players can perform [Fake 5's Chop Moves](https://hanabi.github.io/docs/variant-specific/dark-pink/#fake-5s-chop-move) and [Fake 5 Pulls](https://hanabi.github.io/docs/variant-specific/dark-pink/#fake-5-pull), just as in Dark Pink.
