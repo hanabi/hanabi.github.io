@@ -12,18 +12,14 @@ NEXT ANNOUNCEMENT IS IGNITION
 
 **Out-of-Position Bluffs / Reverse Bluffs** (deleted)
 
-```
 - All *Out-of-Position Bluffs* have been deleted.
 - Now, when a clue is given that looks like an *Out-of-Position Bluff*, it is a *Layered Finesse* instead.
-``
 
 @everyone Renamed conventions:
 
 **The Trash Double Ignition** (renamed)
 
-```
 - The old *Double Ignition* has been renamed to the *Trash Double Ignition* to signify that it is initiated by cluing brand-new trash.
-```
 
 **The Replay Double Ignition**
 
@@ -44,7 +40,6 @@ NEXT ANNOUNCEMENT IS IGNITION
 - Also, see the section on Poke Ejection.
 
 @everyone New conventions:
-
 
 **Unknown Dupe Discharge (UDD)** (by Indego)
 
