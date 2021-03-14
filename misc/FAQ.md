@@ -344,7 +344,7 @@ Yes.
 
 <br />
 
-### Which convention takes precedence: *Trash Finesse*/*Unknown Trash Discharge*/*4 Charm* or *Bubblegum Bluff*?
+### Which convention takes precedence: *Bubblegum Bluff* or a *Trash Finesse* / *Unknown Trash Discharge* / *4 Charm*?
 
 Non-variant-specific take precedence over variant-specific conventions.
 
