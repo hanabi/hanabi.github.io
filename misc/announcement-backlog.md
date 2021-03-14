@@ -6,37 +6,24 @@ As noted in the [convention changes document](convention-changes.md), sometimes 
 
 ## The Backlog (General Conventions)
 
-@everyone Changed conventions:
+NEXT ANNOUNCEMENT IS IGNITION
 
-**The Loaded Play Clue (LPC)** (change)
+@everyone Deleted conventions
 
-- Now, *Loaded Play Clues* **do not** ever apply to number 5 clues during the *Low Score Phase*.
-- For example, in a 3-player game:
-  - It is the *Low Score Phase*.
-  - Red 3 is played on the stacks.
-  - Bob has a known red 4 in his hand on slot 5.
-  - Alice clues number 5 to Bob, touching a 5 on slot 3.
-  - Bob knows that he is *Loaded*, because he has a red 4 to play. Bob knows that normally, no-one else is supposed to give *Save Clues* to *Loaded* players (and that they should be transformed into *Play Clues*).
-  - However, Bob knows that this rule doesn't apply to number 5 clues during the *Low Score Phase*.
-  - Thus, Bob marks his slot 4 card as being *Chop Moved* and plays the red 4.
-- For example, in a 3-player game (similar to the last example):
-  - It is the *Low Score Phase*.
-  - Red 3 is played on the stacks.
-  - Bob has a known red 4 in his hand on slot 4.
-  - Alice clues number 5 to Bob, touching a 5 on slot 5 (Bob's chop).
-  - Bob knows that he is *Loaded*, because he has a red 4 to play. Bob knows that normally, no-one else is supposed to give *Save Clues* to *Loaded* players (and that they should be transformed into *Play Clues*).
-  - However, Bob knows that this rule doesn't apply to number 5 clues during the *Low Score Phase*.
-  - Thus, Bob knows that Alice is performing a simple *5 Save* and plays the red 4.
+**Out-of-Position Bluffs / Reverse Bluffs** (deleted)
 
-**Double Ignition** (change)
+```
+- All *Out-of-Position Bluffs* have been deleted.
+- Now, when a clue is given that looks like an *Out-of-Position Bluff*, it is a *Layered Finesse* instead.
+``
 
-- Previously, *Double Ignition* had to be on the very next two players.
-- Now, *Double Ignition* can be on any two members of the team.
-- Sometimes, three players on the team will have playable cards on *Finesse Position*. If a *Double Ignition* is performed in this case, then similar to how an *Ambiguous Finesse* works, it will "get" the cards from the final two players. (Bob will do nothing because he sees that the *Double Ignition* is on Cathy and Donald.)
+@everyone Renamed conventions:
 
 **The Trash Double Ignition** (renamed)
 
+```
 - The old *Double Ignition* has been renamed to the *Trash Double Ignition* to signify that it is initiated by cluing brand-new trash.
+```
 
 **The Replay Double Ignition**
 
@@ -58,12 +45,6 @@ As noted in the [convention changes document](convention-changes.md), sometimes 
 
 @everyone New conventions:
 
-**Trash Push Ejection**
-
-- Normally, when known trash is touched as the focus of the clue, and the known trash is on chop, it communicates a *Trash Push*.
-- However, what if the *Trash Pushed* card is two-or-more-away-from-playable? This would normally be a *Trash Push Double Finesse* on Bob, but that is unlikely.
-- Instead, we agree that similar to the rules for *5 Color Ejection*, if the *Trash Pushed* card would require two-or-more-blind-plays from Bob, then he interprets the clue as an *Ejection*.
-- After a *Trash Push Ejection*, the clue receiver should *Chop Move* the two-or-more-away-from-playable card.
 
 **Unknown Dupe Discharge (UDD)** (by Indego)
 
@@ -321,3 +302,15 @@ As noted in the [convention changes document](convention-changes.md), sometimes 
   - Bob knows that if he does nothing, Cathy will go on to interpret this as a *Self-Finesse*, and play her *Finesse Position*, which will misplay.
   - Thus, Bob plays his *Finesse Position* as a *Pink Fake Finesse*. It is a blue 1 and it successfully plays.
   - From Cathy's perspective, Alice performed a *Finesse* on the blue 1 into the blue 2. Cathy plays the blue 2, but it is actually the pink 1. Now, Cathy knows that Alice performed a *Pink Fake Finesse*.
+
+**The Fake 5's Chop Move** (by pianoblook)
+
+- This convention only applies to variants with a dark pink, dark omni, or gray pink suit.
+- Players are allowed to violate *Pink Promise* on dark pink cards in order to perform a *Fake 5's Chop Move*.
+- This means that *Pink Promise* no longer applies to off-chop cards when they are clued as a 5, unless it was just a *5 Stall*.
+
+### The Fake 5 Pull & The Fake 5 Number Discharge (by pianoblook)
+
+- This convention only applies to variants with a dark pink, dark omni, or gray pink suit.
+- Similar to the [Fake 5's Chop Move](#fake-5s-chop-move), players can also violate *Pink Promise* in order to initiate a *5 Pull* or a *5 Number Discharge*.
+- Sometimes, when a *5 Pull* is occurring, it can be ambiguous to other players on the team as to whether a *5 Pull* or a *5 Stall* is happening. However, when a *Fake 5 Pull* (or a *Fake 5 Number Discharge*) is happening, everyone can be sure that it is a *5 Pull*, because it would be illegal to violate *Pink Promise* when performing a *5 Stall*.
