@@ -85,7 +85,7 @@ def main():
     x_max = x_offset_where_player_begins
 
     # Draw the player hands on the right side
-    draw_player_row(yaml_file, svg_file)
+    draw_player_rows(yaml_file, svg_file)
 
     draw_big_text(yaml_file, svg_file)
 
@@ -93,9 +93,10 @@ def main():
     draw_discard_pile(yaml_file, svg_file)
 
     # Set the dimensions for the SVG file
+    y_max = max(y_offset, left_y_offset)
     svg_file["width"] = x_max
-    svg_file["height"] = y_offset - y_top
-    svg_file["viewBox"] = "0 {} {} {}".format(y_top, x_max, y_offset)
+    svg_file["height"] = y_max - y_top
+    svg_file["viewBox"] = "0 {} {} {}".format(y_top, x_max, y_max - y_top)
 
     # Print the SVG file to standard out
     print_svg(svg_file)
@@ -125,7 +126,7 @@ def draw_play_stacks(yaml_file, svg_file):
     return x_offset, y_offset
 
 
-def draw_player_row(yaml_file, svg_file):
+def draw_player_rows(yaml_file, svg_file):
     for player_num, player in enumerate(yaml_file["players"]):
         if "text" in player:
             draw_text_divider(svg_file, player["text"])
@@ -227,6 +228,7 @@ def draw_player_name(svg_file, player_num, player):
 
 def draw_player_card(yaml_file, svg_file, card):
     global x_offset
+    global y_top
 
     card_type = str(card["type"])
     clued = not card_type.startswith("x")
@@ -245,6 +247,9 @@ def draw_player_card(yaml_file, svg_file, card):
             ry=CARD_ROUNDED_CORNER_SIZE,
         )
         svg_file.add(clue_border)
+
+        if y_offset == 0:
+            y_top = min(y_top, -clue_border_overlap/2)
 
     crossed_out = str(card.get("crossed_out", ""))
 
@@ -443,8 +448,8 @@ def draw_extra_card_attributes(svg_file, card):
             pip["text-anchor"] = "middle"
             pip["dominant-baseline"] = "central"
 
-        if y_offset < 20:
-            y_top = -20
+        if y_offset == 0:
+            y_top = min(y_top, -35)
 
     if "above" in card:
         draw_textbox(svg_file, card["above"], 0)
@@ -595,7 +600,7 @@ def draw_big_text(yaml_file, svg_file):
 
 
 def draw_discard_pile(yaml_file, svg_file):
-    global y_offset
+    global left_y_offset
 
     if "discarded" not in yaml_file:
         return
@@ -640,8 +645,7 @@ def draw_discard_pile(yaml_file, svg_file):
         )
     )
 
-    if y_offset < y_of_discard_pile + TRASH_HEIGHT + 2:
-        y_offset = y_of_discard_pile + TRASH_HEIGHT + 2
+    left_y_offset = y_of_discard_pile + TRASH_HEIGHT + 2
 
 
 def print_svg(svg_file):
