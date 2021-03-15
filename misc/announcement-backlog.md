@@ -123,6 +123,11 @@ NEXT ANNOUNCEMENT IS IGNITION
   - Cathy, Donald, and Emily are all in a similar situation to Bob. (They expected Alice to perform a *Shallow Discard*.)
   - Thus, they all know that this is a *Shallow Misplay*, and blind-play their slot 2 cards (to match Alice's slot 2 discard).
 
+**Unnecessary Moves** (change) (by Floriman)
+
+- Previously, when an unnecessary move is performed using a card on chop, it calls for an *Unnecessary Ignition*.
+- Now, it instead becomes a *Trash Push*.
+
 **The Prophetic Finesse (for 1's)** (by pianoblook)
 
 - In most games, players will avoid giving a number 1 clue to a single playable 1 that is not on *Finesse Position* if a different player has the same 1 on *Finesse Position*. This is because it is usually better to *Finesse* it or to let someone else *Finesse* it.
