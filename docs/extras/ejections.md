@@ -30,34 +30,15 @@ import SelfColor from '@site/image-generator/yml/extras/ejections/self-color.yml
 
 <br />
 
-### The Bad Chop Move Ejection (with a Trash Chop Move)
+### The Bad Chop Move Ejection
 
-- Normally, when known trash is touched as the focus of the clue, and the known trash is not on chop, it communicates a *Trash Chop Move*.
-- However, what if the *Chop Moved* cards are also all trash? The other players can see that this clue must have some other purpose.
-- In this situation, it should signal an *Ejection* on the very next player.
+- Many moves result in one or more cards becoming *Chop Moved*. However, what if such a move is used when the *Chop Moved* card(s) are all trash? The other players can see that this move must have been done for some other purpose.
+- In this situation, it should signal an *Ejection* on the very next player. 
 - This results in a *Signal Shift* from *Save* --> *Trash*.
-- *Bad Chop Move Ejection* can be performed throughout the game. (But keep in mind that in the *End-Game*, a player might just be stalling.)
+- **Any** move that results in a *Chop Move* can be used to initiate such an *Ejection*. These include, but may not be limited to, *Trash Chop Moves*, *5's Chop Moves*, *Tempo Clue Chop Moves*, *Chop Transfers*, and *Skipped Order Chop Moves*.
+- *Bad Chop Move Ejections* can be performed throughout the game. (But keep in mind that in the *End-Game*, a player might just be stalling.)
 
 <br />
-
-### The Bad Chop Move Ejection (with 5's)
-
-- First, see the section on *[Bad Chop Move Ejection (with a Trash Chop Move)](#the-bad-chop-move-ejection-with-a-trash-chop-move)*.
-- Normally, if a player performs a *5's Chop Move* on a trash card, it would signal a *Finesse* on all of the cards leading up to the 5.
-- If the very next player sees that they would have to **blind-play one card in their hand** to fulfill the *Finesse*, then they should assume that it is a *Finesse*.
-- If the very next player sees that they would have to **blind-play two or more cards in their hand** to fulfill the *Finesse*, then a *Finesse* is unlikely. Instead, players agree that this signals an *Ejection* and that the next player should play their *Second Finesse Position*.
-- After the *Ejection*, the player receiving the 5 clue will knows that they have trash on their chop.
-- For example, in a 5-player game:
-  - It is the *Mid-Game* and all of the 2's are played on the stacks.
-  - Alice clues number 5 to Cathy, touching a blue 5 on slot 3.
-  - Cathy's slot 4 card is a red 1. (This was her chop prior to the number 5 clue being given.)
-  - It is now Bob's turn. Bob knows that since Alice number 5 clue kind of looks like a *5's Chop Move*, since the 5 is exactly one-away-from-chop. However, since it would be *Chop Moving* a trash card, it can't be that.
-  - Bob next assumes that this is simply a *Play Clue* on the blue 5. That would mean that someone has the blue 3 and the blue 4.
-  - Bob's hand is completely unclued. Furthermore, Bob does not see the blue 3 or the blue 4 anywhere else, so he would have to have both of them in his hand. Bob knows that similar to a *5 Color Ejection*, a *Bad Chop Move Ejection* should take precedence if he is supposed to play two or more blind cards.
-  - Thus, Bob blind-plays his *Second Finesse Position*. It is a green 3 and successfully plays.
-  - Cathy knows that if this was a *5's Chop Move*, then Bob would not have blind-played anything. If it was a *Finesse*, then Bob would have blind-played his *Finesse Position*. Since he blind-played his *Second Finesse Position* card, this must be a *Bad Chop Move Ejection* and her slot 4 card must be trash.
-
-<BadChopMove />
 
 ### The Rank Choice Ejection (with a number 2 or a number 5) (RCE)
 
