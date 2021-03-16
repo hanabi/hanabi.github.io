@@ -6,6 +6,7 @@ title: Level 23 - Unnecessary Moves
 import Ignition from '@site/image-generator/yml/level-23/ignition.yml';
 import ChopMove from '@site/image-generator/yml/level-23/chop-move.yml';
 import TrashPush from '@site/image-generator/yml/level-23/trash-push.yml';
+import TrashPushDischarge from '@site/image-generator/yml/level-23/trash-push-discharge.yml';
 
 - Level 23 strategies should only be learned if you have 420+ games of experience with the group.
 
@@ -21,8 +22,9 @@ import TrashPush from '@site/image-generator/yml/level-23/trash-push.yml';
   - And so on.
 - **An *unnecessary* move is defined as a "complicated" move that is performed when the cluer could have instead given a direct play clue.**
 - *Unnecessary* moves do "one extra thing" on top of the normal meaning of the move. Depending on the situation, the "extra" thing will be either:
-  - an *Ignition*
-  - a *Chop Move*
+  - an *Ignition* (with known trash)
+  - a *Chop Move* (with unknown trash off-chop)
+  - a *Trash Push* (with unknown trash on chop)
 - Remember that a move is only *unnecessary* if it does not have any side benefits. Specifically:
   - A move is **not** *unnecessary* if it "picked up" an extra useful card (e.g. *Unknown Trash Discharges* commonly do this).
   - A move is **not** *unnecessary* if it also fixed an impending misplay or a violation of *Good Touch Principle*.
@@ -50,7 +52,7 @@ import TrashPush from '@site/image-generator/yml/level-23/trash-push.yml';
 
 ### Unnecessary Moves with Unknown Trash
 - If Bob already has to play to tell the clue receiver that the clue target is trash, as an "extra thing" the team also interprets the clue as the **known trash** version of the clue.
-- If the focus of the clue was off-chop trash, this will as if a *Trash Chop Move* was given.
+- If the focus of the clue was off-chop trash, this will be a *Trash Chop Move*.
 - If the focus of the clue was a trash card on chop, this will be a *Trash Push*.
 
 <br />
@@ -100,6 +102,8 @@ import TrashPush from '@site/image-generator/yml/level-23/trash-push.yml';
   - Since Bob's blind play told Donald about a trash card, namely that the chop-moved blue 1 was trash, Donald will now additionally interpret the clue as a *Trash Push*.
   - Cathy sees that Donald is about to play green 1 as a *Trash Push*, but green 1 is already played.
   - Thus, Cathy plays her third finesse position as a *Trash Push Discharge*.
+
+<TrashPushDischarge />
 
 <br />
 
