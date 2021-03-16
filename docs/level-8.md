@@ -28,15 +28,16 @@ import FiveStall from '@site/image-generator/yml/level-8/five-stall.yml';
 | 5          | *Hard Burn*<br />(re-cluing an unplayable card that gives no new information, usually a 5)               | ❌ | ✅ | ✅ | ✅
 
 - For example:
-  - It is a *Double Discard* situation (severity 2).
-  - Alice does not have the option to perform any normal *Play Clues* or *Save Clues* (precedence 1).
-  - Alice does have the option to perform a *5 Stall* (precedence 2).
-  - Thus, Alice is not allowed to perform a *Tempo Clue* (precedence 3), or anything below that.
+  - It is the *Early Game* (severity 1).
+  - Alice does not have any normal *Play Clues* or *Save Clues* to give (precedence 1).
+  - Alice does not have any *5 Stalls* to give (precedence 2).
+  - Thus, Alice is not allowed to perform a *Tempo Clue* (precedence 3), or anything below that. She must discard.
 - For example:
-  - It is a *Double Discard* situation (severity 2).
-  - Alice does not have the option to perform any normal *Play Clues* or *Save Clues* (precedence 1), and Alice does not have the option to *5 Stall* (precedence 2).
-  - Alice does have the option to perform a *Tempo Clue* (precedence 3).
-  - Thus, Alice is not allowed to give a *Fill-In Clue* (precedence 4) or a *Hard Burn* (precedence 5).
+  - The team has 8 clues (severity 4).
+  - Alice does not have any normal *Play Clues* or *Save Clues* to give (precedence 1).
+  - Alice does not have any *5 Stalls* to give (precedence 2).
+  - Alice does have a *Tempo Clue* to give (precedence 3).
+  - Thus, Alice must perform the *Tempo Clue*. Alice is not allowed to do any moves with precedence 4 or 5..
 - What is the point of having a complicated table with defined priorities? Well, normally, players in stalling situations are not able to give tricky-looking *Finesses*, because everyone else will think that they are just giving a stall clue. However, if it can be seen that there is a better clue available for them to give, then everyone can know that they are **not** giving a stall clue. So, because of this precedence table, players in stalling situations are still often able to make *Finesses* happen.
 - Obviously, stall clues are not allowed when the player has a known playable card in their hand.
 
