@@ -1,0 +1,43 @@
+stacks:
+  - r: 2
+  - y: 2
+  - g: 2
+  - b: 2
+  - p: 2
+players:
+  - clue_giver: true
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+        middle_note: (!R)
+      - type: x
+        above: Red 3
+        below: Plays
+      - type: x
+        middle_note: (!R)
+      - type: x
+        middle_note: (!R)
+  - text: (Bob plays from Bad Chop Move Ejection)
+  - name: Cathy
+    cards:
+      - type: x
+      - type: x
+      - type: x
+        below: Plays
+      - type: x
+  - text: (Cathy plays from Trash Push Discharge)
+  - name: Donald
+    cards:
+      - type: x
+        middle_note: (R1)
+      - type: x
+        middle_note: (G1)
+      - type: 2
+        clue: 2
+        middle_note: (B2)
+      - type: x
+        middle_note: (B1)

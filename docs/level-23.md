@@ -6,6 +6,7 @@ title: Level 23 - Unnecessary Moves
 import Ignition from '@site/image-generator/yml/level-23/ignition.yml';
 import ChopMove from '@site/image-generator/yml/level-23/chop-move.yml';
 import TrashPush from '@site/image-generator/yml/level-23/trash-push.yml';
+import TrashPushDischarge from '@site/image-generator/yml/level-23/trash-push-discharge.yml';
 
 - Level 23 strategies should only be learned if you have 420+ games of experience with the group.
 
@@ -101,6 +102,8 @@ import TrashPush from '@site/image-generator/yml/level-23/trash-push.yml';
   - Since Bob's blind play told Donald about a trash card, namely that the chop-moved blue 1 was trash, Donald will now additionally interpret the clue as a *Trash Push*.
   - Cathy sees that Donald is about to play green 1 as a *Trash Push*, but green 1 is already played.
   - Thus, Cathy plays her third finesse position as a *Trash Push Discharge*.
+
+<TrashPushDischarge />
 
 <br />
 
