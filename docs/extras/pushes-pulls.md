@@ -30,26 +30,46 @@ import FiveDoublePull from '@site/image-generator/yml/extras/five-double-pull.ym
 
 <br />
 
-### The 5 Double Pull (Or The Double 5 Pull)
+### The Playful Ignition
 
-- This convention only applies in the *Early Game*.
-- Normally, in the *Early Game*, it is impossible to perform a *5 Pull* on a chop card, because it will instead be interpreted as an *Early 5's Chop Move*. In this situation, players will almost always just give a direct *Chop-Focus Play Clue* (and then give a *5 Save* to the 5 later on).
-- However, what if a player performs an *Early 5's Chop Move* on a playable card instead of just giving a *Chop-Focus Play Clue*? They must be trying to communicate something extra.
-- In this situation, they are really trying to perform a *5 Double Pull*, which pulls a card from the next player and also pulls a card from the player who received the number 5 clue. The next player should blind-play their *Finesse Position* card, which gives the clue receiver enough information to know that the move was really a *5 Pull* after all.
+- If a directly playable card is on chop, it's generally very strange to *Chop Move* it if it could just be given a direct *Chop-Focus Play Clue*. This is because doing so can be extremely bad for tempo and can cause issues with *Clue Focus* in the future.
+- However, what if a player performs a *Chop Move* on a playable card while there seems to be no good reason to do so? They must be trying to communicate something extra.
+- In this situation, they are really trying to perform a *Playful Ignition*, which *Ignites* a card from the next player. The next player should blind-play their *Finesse Position* card, which gives the player with the *Chop Moved* card enough information to know that it is actually playable.
 - For example, in a 4-player game:
   - It is the first turn and nothing is played on the stacks.
   - Cathy's hand is, from newest to oldest: blue 4, blue 4, blue 5, red 1
   - Alice clues number 5 to Cathy, touching a blue 5 on slot 3.
   - It is now Bob's turn. Bob sees that since there were other *Play Clues* for Alice to give, Cathy will interpret this as an *Early 5's Chop Move*.
   - Bob also knows that it is nonsensical to *Chop Move* a playable red 1 - Alice could have just give a red *Chop-Focus Play Clue* to the red 1.
-  - Thus, this must be a *5 Double Pull*, so Bob blind-plays his *Finesse Position* card. It is blue 1 and it successfully plays.
-  - Cathy knows that if this was an *Early 5's Chop Move*, then Bob would not have blind-played anything. Since he blind-played his *Finesse Position* card, this must be a *5 Double Pull*. Cathy blind-plays her slot 4 card (the card to the right of the clued 5).
+  - Thus, this must be a *Playful Ignition*, so Bob blind-plays his *Finesse Position* card. It is blue 1 and it successfully plays.
+  - Cathy knows that if this was an *Early 5's Chop Move*, then Bob would not have blind-played anything. Since he blind-played his *Finesse Position* card, this must be a *Playful Ignition*. Cathy blind-plays her slot 4 card (the card to the right of the clued 5).
 
 <FiveDoublePull />
 
-- Sometimes, it can be useful to *Chop Move* a playable card. Something is only a *5 Double Pull* if there is not some other good reason for the *Chop Move*. Specifically, the player might want to:
+- Sometimes, it can be useful to *Chop Move* a playable card. Something is only a *Playful Ignition* if there is not some other good reason for the *Chop Move*. Specifically, the player might want to:
   - Avoid violating *Good Touch Principle*.
   - Save a *Delayed Playable* card that is followed by a critical card.
   - Save two important cards when there are a lot of cards to deal with and the team is low on clues.
   - Get a blind-play from *Elimination* when the duplicate is visible.
-- More examples of a *5 Double Pull* can be found [here](../examples/5-double-pull.md).
+- More examples of a *Playful Ignition* can be found [here](../examples/5-double-pull.md).
+
+<br />
+
+#### Interaction with 5 Rank Clues
+
+- This interaction is turned **off** in *Late-Game*
+- When playing with both *Bad Chop Move Ejections* and *Playful Ignitions*, **every** rank clue that newly touches a 5 that is one away from chop should be considered a *Chop Move*.
+- In other words, a *5's Chop Move* interpretation **always** takes precedence over a *Direct Play Clue* on the focused 5.
+- Therefore, players must remember that regardless of any resulting blind-play, the focused 5 could still be any color. Instead, such a blind-play **always** relates to the card being *Chop Moved* by the clue, not the 5 directly.
+- For example, in a 3-player game:
+  - It is no longer *Early Game*, and blue 3 and green 2 are on the stack.
+  - Cathy's hand is, from newest to oldest: green 2, yellow 3, blue 5, red 1
+  - Alice clues 5 to Cathy, touching a green 5 on slot 3.
+  - Bob sees this is a *Playful Ignition*, and therefore blind-plays his *Finesse Position* card. It is blue 4 and it successfully plays.
+  - It is now Cathy's turn. Even though a blue 4 was just blind-played, Cathy knows that this does not indicate that her 5 is necessarily blue; it could still be any color. Since Alice's clue was by definition a *5's Chop Move*, Cathy knows that this must mean Bob was reacting to the *Chop Move*.
+  - Cathy understands that Bob must have blind-played as a *Playful Ignition*. She blind-plays her slot 4 card (the card to the right of the clued 5).
+
+- Inversely, even if a directly playable 5 is given a rank clue while one away from chop, the next player may still be expected to respond as a *Bad Chop Move Ejection* or *Playful Ignition* if the resulting *Chop Move* would be abnormal.
+
+<br />
+
