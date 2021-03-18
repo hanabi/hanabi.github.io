@@ -18,9 +18,9 @@ The story of Hat Guessing is relevant because if the goal of the group was to on
 
 <!-- lint disable list-item-content-indent -->
 
-1. To maximize win-rate
-    - We are Hanabi enthusiasts and we care about optimizing our play to win the maximum number of games possible.
-    - Optimizing win-rate too much can take the fun out of the game, so there is a balance involved.
+1. To maximize the highest average score
+    - We are Hanabi enthusiasts and we care about optimizing our play to get the highest possible scores for all deals.
+    - However, optimizing too much can take the fun out of the game, so there is a balance involved.
 
 1. To minimize complexity
     - We want to make conventions that are intuitive and easy to remember.
