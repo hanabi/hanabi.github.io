@@ -85,6 +85,7 @@ import ChopMovePrompt from '@site/image-generator/yml/level-4/chop-move-prompt.y
   - the chop card is not a trash card
 - Then, we agree that it has a special meaning, and that the clue is **not** a *Play Clue* at all.
 - Instead, it is understood that the clue is a *5's Chop Move*, and the player should *Chop Move* in a manner similar to the *Trash Chop Move*.
+- For level 23+ players using all conventions, there are [additional rules](https://hanabi.github.io/docs/extras/miscellaneous.md#interaction-with-5-rank-clues) relating to the 5's Chop Move.
 - For example, in a 3-player game:
   - All the 1's are played on the stacks.
   - Bob has a completely unclued hand.
