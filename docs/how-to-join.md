@@ -54,7 +54,7 @@ The *Hyphen-ated Group* plays games on the [Hanab Live](https://hanab.live) webs
 
 The *Hyphen-ated Group* usually has games going every day. You can see if there are any Hyphen-ated members currently playing by looking at the Discord voice channels along the left side of the screen ("Hyphen-ated 1", "Hyphen-ated 2", "Teaching/Beginner Games", etc.).
 
-If there are people currently playing, then the typical thing to do is to join the voice channel with the others, wait for the current game to end, and then hop into the next game after that (depending on how many people stick around).
+If there are people currently playing, then the typical thing to do is to join the voice channel with the others (by clicking on e.g. "Hyphen-ated 1"), wait for the current game to end, and then hop into the next game after that (depending on how many people stick around).
 
 A few things to note regarding that:
 
