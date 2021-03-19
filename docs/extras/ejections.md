@@ -35,7 +35,7 @@ import SelfColor from '@site/image-generator/yml/extras/ejections/self-color.yml
 - Many moves result in one or more cards becoming *Chop Moved*. However, what if such a move is used when the *Chop Moved* card(s) are all trash? The other players can see that this move must have been done for some other purpose.
 - In this situation, it should signal an *Ejection* on the very next player. 
 - This results in a *Signal Shift* from *Save* --> *Trash*.
-- **Any** move that results in a *Chop Move* can be used to initiate such an *Ejection*. These include, but may not be limited to, *Trash Chop Moves*, *5's Chop Moves*, *Tempo Clue Chop Moves*, *Chop Transfers*, and *Skipped Order Chop Moves*.
+- **Any** move that results in a *Chop Move* can be used to initiate such an *Ejection*.
 - *Bad Chop Move Ejections* can be performed throughout the game. (But keep in mind that in the *End-Game*, a player might just be stalling.)
 
 <br />
