@@ -74,7 +74,7 @@ import FiveDoublePull from '@site/image-generator/yml/extras/five-double-pull.ym
 
 #### Interaction with 5 Rank Clues
 
-- This interaction is turned **off** in *Late-Game*
+- This interaction is turned **off** when there are no cards left to *Chop Move*.
 - When playing with both *Bad Chop Move Ejections* and *Playful Ignitions*, **every** rank clue that newly touches a 5 that is one away from chop should be considered a *Chop Move*.
 - In other words, a *5's Chop Move* interpretation **always** takes precedence over a *Direct Play Clue* on the focused 5.
 - Therefore, players must remember that regardless of any resulting blind-play, the focused 5 could still be any color. Instead, such a blind-play **always** relates to the card being *Chop Moved* by the clue, not the 5 directly.
