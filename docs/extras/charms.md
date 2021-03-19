@@ -15,7 +15,7 @@ import SafetyCharm from '@site/image-generator/yml/extras/charms/safety-charm.ym
 
 ### The 4 Charm
 
-- The *4 Charm Unknown Trash Discharge* is introduced at [level 22](../level-22.md#the-4-charm).
+- The *4 Charm* is introduced at [level 22](../level-22.md#the-4-charm).
 
 #### Interaction with the Out-of-Order Finesse
 
