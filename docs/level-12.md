@@ -7,7 +7,6 @@ import BluffColorDisconnect from '@site/image-generator/yml/level-12/bluff-color
 import Number3WithSuitDisconnect from '@site/image-generator/yml/level-12/number-3-with-suit-disconnect.yml';
 import ColorConnectNotValid from '@site/image-generator/yml/level-12/color-connect-not-valid.yml';
 import ColorConnectWithRankDisconnect from '@site/image-generator/yml/level-12/color-connect-with-rank-disconnect.yml';
-import Number3WithSuitConnect from '@site/image-generator/yml/level-12/number-3-with-suit-connect.yml';
 
 import Critical4Bluff from '@site/image-generator/yml/level-12/critical-4-bluff.yml';
 import FinessePromptNotHardBluff from '@site/image-generator/yml/level-12/finesse-prompt-not-hard-bluff.yml';
@@ -68,16 +67,6 @@ import Hard3Bluff from '@site/image-generator/yml/level-12/hard-3-bluff.yml';
 
 <ColorConnectWithRankDisconnect />
 
-#### Example 5 - **Number 3 With Suit Connect** (Valid)
-
-- On the first turn of the game, Alice clues Cathy number 3, which touches a red 3.
-- Bob blind-plays red 1.
-- Cathy knows that it was a *3 Bluff*, because a played 1 does not "connect" to number 3.
-- Beyond that, Cathy knows nothing about the card, besides that it is a 3 (since it has a number 3 clue on it).
-- Even though red 1 and red 3 are the same suit, Bob is not promised a red 2.
-
-<Number3WithSuitConnect />
-
 #### Generic Questions
 
 - *3 Bluffs* can be confusing. If you don't want to memorize the five examples above, you can simply ask the following questions:
@@ -135,6 +124,7 @@ import Hard3Bluff from '@site/image-generator/yml/level-12/hard-3-bluff.yml';
   - Alice clues number 3 to Cathy, touching a red 3 on slot 1 as a *Play Clue*.
   - Bob blind-plays red 1.
   - Bob now knows that it was a *3 Bluff* and that no-one is promised the red 2. This is because even though the red 1 is the same suit as the red 3, *3 Bluffs* take precedence over *Double Finesses* as long as the clue type (number 3) does not connect to the card that was blind-played (a number 1).
+  - Cathy doesn't know the suit of clued card, besides that it is a 3 (since it has a number 3 clue on it).
 
 <Hard3Bluff />
 
