@@ -34,8 +34,7 @@ players:
     cards:
       - type: x
       - type: 3
-        below:
-          text: any 3
+        below: any 3
       - type: x
       - type: x
       - type: x
