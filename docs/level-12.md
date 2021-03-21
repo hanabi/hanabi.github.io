@@ -130,13 +130,8 @@ import Hard3Bluff from '@site/image-generator/yml/level-12/hard-3-bluff.yml';
 ### The Hard 3 Bluff
 
 - Players can use a 3 to *3 Bluff* the 1 of the same suit.
-- For example, in a 3-player game:
-  - Nothing is played on the stacks.
-  - Alice clues number 3 to Cathy, touching a red 3 on slot 1 as a *Play Clue*.
-  - Bob blind-plays red 1.
-  - Bob now knows that it was a *3 Bluff* and that no-one is promised the red 2. This is because even though the red 1 is the same suit as the red 3, *3 Bluffs* take precedence over *Double Finesses* as long as the clue type (number 3) does not connect to the card that was blind-played (a number 1).
-
-<Hard3Bluff />
+- This is called a *Hard 3 Bluff* to distinguish it from a more-ordinary 3 bluff.
+- An example of a *Hard 3 Bluff* can be found above as example 5.
 
 <br />
 
