@@ -12,7 +12,6 @@ import Number3WithSuitConnect from '@site/image-generator/yml/level-12/number-3-
 import Critical4Bluff from '@site/image-generator/yml/level-12/critical-4-bluff.yml';
 import FinessePromptNotHardBluff from '@site/image-generator/yml/level-12/finesse-prompt-not-hard-bluff.yml';
 import HardBluff from '@site/image-generator/yml/level-12/hard-bluff.yml';
-import Hard3Bluff from '@site/image-generator/yml/level-12/hard-3-bluff.yml';
 
 - Level 12 strategies should only be learned if you have 200+ games of experience with the group.
 
