@@ -46,8 +46,8 @@ Use notation that the Hyphen-ated group will be familiar with:
 
 ### Reasoning
 
+- The reason for needing the level is that it helps us narrow the scope of the question, it serves as a flag to let others know what kind of question it is, and it prevents lower level players from attempting to answer.
 - The reason for needing replays is that different people play in different modes (color-blind, art styles, card orientation, etc.).
 - The reason for needing Alice and Bob stories and for rule 2 is that it helps us to parse your question more easily.
-- The reason for rule 3 is that it helps us narrow the scope of the question, it serves as a flag to let others know what kind of question it is, and it prevents lower level players from attempting to answer.
-- The reason for rule 4 is that it allows us to hone in on the specific gaps in your knowledge. It is unfair to ask a low-effort question and then expect others to give a comprehensive response to it.
-- The reason for rule 5 is that it prevents spamming other people with notifications.
+- The reason for answering your own question is that it allows us to hone in on the specific gaps in your knowledge. It is unfair to ask a low-effort question and then expect others to give a comprehensive response to it.
+- The reason for putting everything in one message is that it prevents spamming other people with notifications.
