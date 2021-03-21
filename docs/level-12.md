@@ -8,7 +8,6 @@ import Number3WithSuitDisconnect from '@site/image-generator/yml/level-12/number
 import ColorConnectNotValid from '@site/image-generator/yml/level-12/color-connect-not-valid.yml';
 import ColorConnectWithRankDisconnect from '@site/image-generator/yml/level-12/color-connect-with-rank-disconnect.yml';
 import Number3WithSuitConnect from '@site/image-generator/yml/level-12/number-3-with-suit-connect.yml';
-
 import Critical4Bluff from '@site/image-generator/yml/level-12/critical-4-bluff.yml';
 import FinessePromptNotHardBluff from '@site/image-generator/yml/level-12/finesse-prompt-not-hard-bluff.yml';
 import HardBluff from '@site/image-generator/yml/level-12/hard-bluff.yml';
