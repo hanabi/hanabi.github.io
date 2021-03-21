@@ -35,7 +35,7 @@ players:
       - type: x
       - type: r
         below: Red 2
-        above: Bombs!
+        above: Misplays!
         middle_note: (3)
       - type: x
       - type: x
