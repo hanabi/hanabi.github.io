@@ -16,7 +16,7 @@ players:
       - type: x
   - cards:
       - type: x
-        above: Blue 1
+        above: Red 1
       - type: x
       - type: x
       - type: x
@@ -29,7 +29,7 @@ players:
       - type: x
       - type: x
       - type: x
-  - text: After Bob blind plays blue 1...
+  - text: After Bob blind plays red 1...
   - name: Cathy
     cards:
       - type: x
