@@ -75,21 +75,6 @@ import Hard3Bluff from '@site/image-generator/yml/level-12/hard-3-bluff.yml';
 
 <br />
 
-### The Critical 4 Bluff
-
-- Building on the *3 Bluffs* convention, we also agree that it is possible for a card that initiates a *Bluff* to be a copy of any of the 4s that are currently in the discard pile, but only if **a color clue** is used.
-- For example, in a 3-player game:
-  - Nothing is played on the stacks. Red 4 is currently in the discard pile.
-  - Alice clues Cathy red, touching a red 4 as a *Play Clue*.
-  - Bob blind-plays a blue 1.
-  - Cathy marks her red card as the *one-away-from-playable* red card, the red 2.
-  - However, Cathy also knows that *3 Bluffs* are a thing, so she *also* marks her red card as possibly a red 3.
-  - However, Cathy also knows that *Critical 4 Bluffs* are a thing, so she *also* marks her red card as possibly a red 4.
-
-<Critical4Bluff />
-
-<br />
-
 ### The Hard Bluff
 
 - First, see the section on *[Cathy's Connecting Principle](level-10.md#cathys-connecting-principle-part-2)*.
@@ -127,6 +112,21 @@ import Hard3Bluff from '@site/image-generator/yml/level-12/hard-3-bluff.yml';
   - Cathy doesn't know the suit of clued card, besides that it is a 3 (since it has a number 3 clue on it).
 
 <Hard3Bluff />
+
+<br />
+
+### The Critical 4 Bluff
+
+- Building on the *3 Bluffs* convention, we also agree that it is possible for a card that initiates a *Bluff* to be a copy of any of the 4s that are currently in the discard pile, but only if **a color clue** is used.
+- For example, in a 3-player game:
+  - Nothing is played on the stacks. Red 4 is currently in the discard pile.
+  - Alice clues Cathy red, touching a red 4 as a *Play Clue*.
+  - Bob blind-plays a blue 1.
+  - Cathy marks her red card as the *one-away-from-playable* red card, the red 2.
+  - However, Cathy also knows that *3 Bluffs* are a thing, so she *also* marks her red card as possibly a red 3.
+  - However, Cathy also knows that *Critical 4 Bluffs* are a thing, so she *also* marks her red card as possibly a red 4.
+
+<Critical4Bluff />
 
 <br />
 
