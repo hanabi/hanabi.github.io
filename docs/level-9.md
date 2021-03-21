@@ -2,6 +2,7 @@
 id: level-9
 title: Level 9 - Special Discards
 ---
+
 import GentlemanDiscard from '@site/image-generator/yml/level-9/gentleman-discard.yml';
 import GentlemanDiscard2 from '@site/image-generator/yml/level-9/gentleman-discard-2.yml';
 import BatonDiscard from '@site/image-generator/yml/level-9/baton-discard.yml';
