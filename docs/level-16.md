@@ -50,6 +50,11 @@ import TrashTouchElimination from '@site/image-generator/yml/level-16/trash-touc
 - Thus, when this occurs, you should write *Elimination Notes* on your entire hand for that card.
 - This is almost exactly the same thing as *Discard Elimination*, except it is triggered by the discard of a separate player.
 
+### 2 Elimination
+
+- According to *Save Principle*, everyone knows that all of the 2's must get saved. Thus, if someone else on the team lets a 2 get discarded, that is very strange.
+- If there is not anything special going on, then this should be a signal that someone else has the other copy of the 2, and should trigger the writing of *Elimination Notes* on their hand.
+
 <br />
 
 ## Special Moves
