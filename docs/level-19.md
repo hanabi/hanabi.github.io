@@ -98,7 +98,7 @@ import NoInformationDoubleBluff from '@site/image-generator/yml/level-19/no-info
   - Alice clues red to Cathy, touching two cards on slot 1 and slot 2.
   - Bob blind-plays an unrelated card.
   - Cathy marks her slot 1 card as the red 4. (Cathy knows that Alice performed a *Bluff*.)
-  - Cathy also marks her slot 2 card as the red 5. (Cathy knows that if it was instead of red 3, then Bob would be forced to give a *Fix Clue*.)
+  - Cathy also marks her slot 2 card as the red 5. (Cathy knows that if it was a red 3, then Bob would be forced to give a *Fix Clue*.)
 
 <br />
 
