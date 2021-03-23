@@ -88,6 +88,20 @@ import NoInformationDoubleBluff from '@site/image-generator/yml/level-19/no-info
 
 <OutOfOrderFinesse2 />
 
+### The Out-of-Order Corollary
+
+- First, see the section on the *[Out-of-Order Play Clue](#the-out-of-order-play-clue-triple-o--ooo)*.
+- As specified in the sections above, if Alice gives a clue to Cathy touching the next playable card, but the focus is wrong, Bob must give a *Fix Clue* instead of blind-play a card.
+- Thus, if Alice gives a clue to Cathy, and Bob does blind-play a card, then Cathy can mark all the cards that were touched with a note of not being the next playable card.
+- For example, in a 3-player game:
+  - Red 2 is played on the stacks.
+  - Alice clues red to Cathy, touching two cards on slot 1 and slot 2.
+  - Bob blind-plays an unrelated card.
+  - Cathy marks her slot 1 card as the red 4. (Cathy knows that Alice performed a *Bluff*.)
+  - Cathy also marks her slot 2 card as the red 5. (Cathy knows that if it was instead of red 3, then Bob would be forced to give a *Fix Clue*.)
+
+<br />
+
 ### The Suboptimal Prompt & The Suboptimal Finesse & The Suboptimal Bluff
 
 - If the other copy of a card is in the trash, then the remaining copy is critical and needs to be saved. Critical cards of this nature can be saved with either a color clue or a number clue.
