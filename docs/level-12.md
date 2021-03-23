@@ -133,7 +133,7 @@ import HardBluff from '@site/image-generator/yml/level-12/hard-bluff.yml';
 
 <br />
 
-### Known Bluffs
+### The Known Bluff
 
 - Usually, when a *Bluff* occurs, the blind-playing player has no idea that is a *Bluff* - they assume they are playing a specific card into a true *Finesse*.
 - However, in rare situations, a clue will be given that looks like a *Finesse*, but the next player will know for sure that they do not have the "connecting" card.
