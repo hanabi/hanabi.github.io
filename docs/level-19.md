@@ -91,7 +91,7 @@ import NoInformationDoubleBluff from '@site/image-generator/yml/level-19/no-info
 ### The Out-of-Order Corollary
 
 - First, see the section on the *[Out-of-Order Play Clue](#the-out-of-order-play-clue-triple-o--ooo)*.
-- As specified in the sections above, if Alice gives a clue to Cathy touching the next playable card, but the focus is wrong, Bob must give a *Fix Clue* instead of blind-play a card.
+- As specified in the sections above, if Alice gives a clue to Cathy touching the next playable card, but the focus is wrong, Bob must give a *Fix Clue* instead of blind-playing a card.
 - Thus, if Alice gives a clue to Cathy, and Bob does blind-play a card, then Cathy can mark all the cards that were touched with a note of not being the next playable card.
 - For example, in a 3-player game:
   - Red 2 is played on the stacks.
