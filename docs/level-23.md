@@ -28,7 +28,7 @@ import TrashPushDischarge from '@site/image-generator/yml/level-23/trash-push-di
 - Remember that a move is only *unnecessary* if it does not have any side benefits. Specifically:
   - A move is **not** *unnecessary* if it "picked up" an extra useful card (e.g. *Unknown Trash Discharges* commonly do this).
   - A move is **not** *unnecessary* if it also fixed an impending misplay or a violation of *Good Touch Principle*.
-  - A move is **not** *unnecessary* if it also added more positive information to other previously-clued cards in the hand.
+  - A move is **not** *unnecessary* if it also added more positive information to other previously-clued cards in the hand of the person who received the clue.
 
 <br />
 
