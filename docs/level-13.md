@@ -29,7 +29,9 @@ import TrashPush from '@site/image-generator/yml/level-13/trash-push.yml';
   - Alice clues Cathy number 1, which only touches her newest (slot 1) card. This card is a blue 1, but Cathy will assume that it is a red 1.
   - Bob blind-plays his *Finesse Position* card, and it is a playable blue 2.
   - Cathy now knows that her 1 must not be red 1, or else Bob would not have blind-played anything. The 1 must be some other trash card.
+
 <TrashBluff />
+
 - Just like normal *Bluffs*, *Trash Bluffs* can only be done while in *Bluff Seat*.
 - Normal *Bluffs* take precedence over *Trash Bluffs*. This means that players can **only** use cards to *Trash Bluff* with if they will be proved to be trash by a blind-play.
   - For example, if not all of the 1's have been played on the stacks, then you can use a number 1 clue to initiate a *Trash Bluff*, because a blind-play will prove that the clued 1 is not a good 1.
@@ -54,7 +56,9 @@ import TrashPush from '@site/image-generator/yml/level-13/trash-push.yml';
   - Thus, Bob discards.
   - Cathy blind-plays her *Finesse Position* card and it is red 1.
   - Donald discards his known-trash 1.
+
 <TrashFinesse />
+
 - *Double Trash Finesses* are explicitly disallowed. Thus, it is possible to perform a *Trash Finesse* in a situation like this:
   - All the 1's are played on the stacks except for red 1 and blue 1.
   - Alice clues number 1 to Donald, which touches two green 1's on slot 1 and 2. To Donald, this will look like it is both the red 1 and the blue 1.
@@ -64,6 +68,7 @@ import TrashPush from '@site/image-generator/yml/level-13/trash-push.yml';
   - Cathy blind-plays her *Finesse Position* card and it is red 1.
   - Donald knows that the focus of the clue (slot 1) is certainly trash, since that caused Cathy to blind-play.
   - Furthermore, Donald knows that his slot 2 card is also trash, because all the cards touched in a *Trash Bluff* or *Trash Finesse* are guaranteed to be trash.
+
 <TrashFinesseTwoCards />
 
 <br />
