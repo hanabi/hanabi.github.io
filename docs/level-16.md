@@ -123,7 +123,7 @@ import TrashTouchElimination from '@site/image-generator/yml/level-16/trash-touc
   - Alice also knows that Bob's number 3 clue must be a *Play Clue* on the red 3 (since red 1 is on the only 1 currently played and there are no 3's in the trash).
   - But which slot is Bob's clue focusing? In other words, which slot is promised to be red 3?
   - The clue is either focused on slot 2 (the newest of the clued cards) or slot 4 (the "new" chop after the red 2 is accounted for).
-  - Alice knows that you evaluate where the chop is **before** clues are given, so the clue must be focused on slot 1.
+  - Alice knows that you evaluate where the chop is **before** clues are given, so the clue must be focused on slot 2.
 
 <EliminationSingleOutNegative />
 
