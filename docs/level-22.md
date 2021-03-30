@@ -76,11 +76,12 @@ import HesitationBlindPlay from '@site/image-generator/yml/level-22/hesitation-b
 
 <BlazeDiscard />
 
+- Remember that *Blaze Discards* work with *Finesse Positions*, **not** with slot numbers.
+- *Blaze Discards* must be on the very next player. In other words, Bob has to immediately react to prove where the position of the matching card is.
 - *Blaze Discards* do not apply when someone discards a 1 and there are two copies remaining. (In other words, it is still possible to perform a normal *Gentleman's Discard* by discarding a red 1 in the case where Bob has a red 1 on his *Finesse Position* and Cathy has a red 1 on her *Second Finesse Position* behind an unplayable card.)
 - *Blaze Discards* do not apply when someone performs a *Gentleman's Discard* or a *Baton Discard* that looks like a *Sarcastic Discard*. In these situations, one of the following is true:
   - The discarding player is making a mistake (as a *Wrong Prompt*).
   - The discarding player is not making a mistake and there is enough past context for the player with the cards to be able to tell the difference.
-- Remember that *Blaze Discards* work with *Finesse Positions*, **not** with slot numbers.
 - For example, in a 3-player game:
   - Alice discards a red 3 as a *Blaze Discard*.
   - Bob sees that Cathy has the other copy of the red 3. However, it is on slot 2 instead of on slot 1. (Cathy's hand is completely unclued.) Thus, Bob has to communicate to Cathy that it is actually on her *Second Finesse Position*.
@@ -90,7 +91,6 @@ import HesitationBlindPlay from '@site/image-generator/yml/level-22/hesitation-b
 
 <BlazeDiscard2 />
 
-- Note that it is illegal to perform an *Ambiguous Blaze Discard*. We want to keep *Blaze Discards* as simple as possible.
 - Note that it is illegal to perform a *Layered Blaze Discard* (on either the ignited player or the player holding the matching card). We want to keep *Blaze Discards* as simple as possible.
 
 <br />
