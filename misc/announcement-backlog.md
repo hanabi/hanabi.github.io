@@ -15,30 +15,6 @@ NEXT ANNOUNCEMENT IS IGNITION
 - All *Out-of-Position Bluffs* have been deleted.
 - Now, when a clue is given that looks like an *Out-of-Position Bluff*, it is a *Layered Finesse* instead.
 
-@everyone Renamed conventions:
-
-**The Trash Double Ignition** (renamed)
-
-- The old *Double Ignition* has been renamed to the *Trash Double Ignition* to signify that it is initiated by cluing brand-new trash.
-
-**The Replay Double Ignition**
-
-- When a player re-clues a globally-known playable card, it is a "useless" clue.
-- Usually, when this occurs, it is because a player is in a stalling situation and cannot discard. (This is most common in the *End-Game*.)
-- If a player is not in a stalling situation, then they must be trying to send a deeper message - a *Double Ignition*. This is called a *Replay Double Ignition* because you are re-giving a *Play Clue*.
-- The *Replay Double Ignition* must not introduce any new cards as part of the clue.
-- The *Replay Double Ignition* can be performed all throughout the game. (Conversely, the *Trash Double Ignition* can only be performed towards the end of the game.)
-- Also, see the section on Replay Ejection.
-
-### The Poke Double Ignition
-
-- When a player re-clues a globally-known trash card, it is a "useless" clue.
-- Usually, when this occurs, it is because a player is in a stalling situation and cannot discard.
-- If a player is not in a stalling situation, then they must be trying to send a deeper message - a *Double Ignition*. This is called a *Poke Double Ignition* because by re-touching a trash card, it is like you are poking the player.
-- The *Poke Double Ignition* must not introduce any new cards as part of the clue.
-- The *Poke Double Ignition* can be performed all throughout the game. (Conversely, the *Trash Double Ignition* can only be performed towards the end of the game.)
-- Also, see the section on Poke Ejection.
-
 @everyone New conventions:
 
 **Unknown Dupe Discharge (UDD)** (by Indego)
