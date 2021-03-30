@@ -6,8 +6,6 @@ As noted in the [convention changes document](convention-changes.md), sometimes 
 
 ## The Backlog (General Conventions)
 
-NEXT ANNOUNCEMENT IS IGNITION
-
 @everyone Deleted conventions
 
 **Out-of-Position Bluffs / Reverse Bluffs** (deleted)
