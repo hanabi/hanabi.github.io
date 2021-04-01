@@ -3,8 +3,6 @@ id: level-20
 title: Level 20 - Ignition
 ---
 
-import FiveDoublePull from '@site/image-generator/yml/extras/five-double-pull.yml';
-
 - Level 20 strategies should only be learned if you have 360+ games of experience with the group.
 
 <br />
@@ -95,9 +93,6 @@ import FiveDoublePull from '@site/image-generator/yml/extras/five-double-pull.ym
   - Bob also knows that it is nonsensical to *Chop Move* a playable red 1 - Alice could have just give a red *Chop-Focus Play Clue* to the red 1.
   - Thus, this must be a *Playful Ignition*, so Bob blind-plays his *Finesse Position* card. It is blue 1 and it successfully plays.
   - Cathy knows that if this was an *Early 5's Chop Move*, then Bob would not have blind-played anything. Since he blind-played his *Finesse Position* card, this must be a *Playful Ignition*. Cathy blind-plays her slot 4 card (the card to the right of the clued 5).
-
-<FiveDoublePull />
-
 - Sometimes, it can be useful to *Chop Move* a playable card. Something is only a *Playful Ignition* if there is not some other good reason for the *Chop Move*. Specifically, the player might want to:
   - Avoid violating *Good Touch Principle*.
   - Save a *Delayed Playable* card that is followed by a critical card.
