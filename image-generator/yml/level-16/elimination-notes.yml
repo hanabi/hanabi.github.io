@@ -27,10 +27,10 @@ players:
   - text:
   - name: Alice
     cards:
-      - type: x
+      - type: r
         middle_note: r5
         clue: r
-      - type: x
+      - type: r
         middle_note: r4?
         clue: r
       - type: x

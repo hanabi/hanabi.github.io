@@ -32,6 +32,6 @@ players:
       - type: x
       - type: x
       - type: x
-      - type: x
+      - type: 4
         clue: 4
         above: Blue 4

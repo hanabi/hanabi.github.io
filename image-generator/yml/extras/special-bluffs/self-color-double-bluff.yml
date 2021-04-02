@@ -15,7 +15,7 @@ players:
   - cards:
       - type: x
         above: Blue 1
-      - type: x1245
+      - type: r1245
         clue: r
         above: Red 5
         middle_note: r4

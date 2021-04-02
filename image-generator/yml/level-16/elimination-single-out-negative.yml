@@ -28,12 +28,12 @@ players:
   - name: Alice
     cards:
       - type: x
-      - type: x
-        middle_note: r3
+      - type: 3
+        middle_note: (R)
         clue: 3
-      - type: x
+      - type: 3
         clue: 3
-      - type: x
+      - type: 3
         clue: 3
       - type: x
         middle_note: r2?

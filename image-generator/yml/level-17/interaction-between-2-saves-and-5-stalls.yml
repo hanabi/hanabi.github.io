@@ -15,7 +15,7 @@ players:
       - type: x
       - type: x
   - cards:
-    - type: x
+    - type: 5
       clue: 5
     - type: x
       middle_note: r2?

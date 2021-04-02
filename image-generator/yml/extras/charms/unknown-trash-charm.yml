@@ -20,10 +20,10 @@ players:
         above: Blue 3
       - type: x
   - cards:
-      - type: x
+      - type: r
         above: Red 1
         clue: r
-      - type: x
+      - type: r
         above: Red 2
         clue: r
       - type: x

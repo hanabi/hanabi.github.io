@@ -33,7 +33,7 @@ players:
     cards:
       - type: x
       - type: x
-      - type: x
+      - type: 1
         clue: 1
         above: Blue 1
         middle_note: kt

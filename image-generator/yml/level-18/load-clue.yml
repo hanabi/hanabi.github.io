@@ -24,13 +24,13 @@ players:
     cards:
       - type: x
         above: Yellow 4
-      - type: x
+      - type: 3
         above: Yellow 3
         clue: 3
       - type: x
         above: Yellow 4
       - type: x
         above: Red 1
-      - type: x
+      - type: 3
         above: Blue 3
         clue: 3

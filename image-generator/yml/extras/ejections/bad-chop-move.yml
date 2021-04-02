@@ -23,7 +23,7 @@ players:
   - cards:
       - type: x
       - type: x
-      - type: x
+      - type: 5
         clue: 5
         above: Blue 5
       - type: x

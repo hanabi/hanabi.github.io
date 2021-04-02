@@ -27,13 +27,13 @@ players:
   - text:
   - name: Alice
     cards:
-      - type: x
+      - type: b
         clue: b
-      - type: x
+      - type: b
         clue: b
-      - type: x
+      - type: b
         clue: b
-      - type: x
+      - type: b
         clue: b
       - type: x
         middle_note: r4?

@@ -33,7 +33,7 @@ players:
   - cards:
       - type: x
       - type: x
-      - type: x
+      - type: r
         clue: r
         above: Red 4
       - type: x

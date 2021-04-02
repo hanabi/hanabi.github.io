@@ -16,25 +16,24 @@ players:
       - type: x
       - type: x
   - cards:
-      - type: x
-        above: Red 1
-      - type: x
-        above: Green 1
-      - type: x
-        above: Green 4
-      - type: x
-        above: Green 4
-      - type: x
-        above: Green 5
+      - type: r1
+        border: false
+      - type: g1
+        border: false
+      - type: g4
+        border: false
+      - type: g4
+        border: false
+      - type: g5
+        border: false
   - cards:
-      - type: x
-        above: Blue 4
-      - type: x
-        above: Blue 4
-      - type: x
-        above: Blue 5
+      - type: b4
+        border: false
+      - type: b4
+        border: false
+      - type: b5
         clue: 5
-      - type: x
-        above: Green 2
-      - type: x
-        above: Blue 2
+      - type: g2
+        border: false
+      - type: b2
+        border: false

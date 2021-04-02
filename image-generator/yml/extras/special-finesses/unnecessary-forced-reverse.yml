@@ -13,7 +13,7 @@ players:
       - type: x
       - type: x
   - cards:
-      - type: x
+      - type: 2
         clue: 2
         above: Red 2
       - type: x

@@ -21,7 +21,7 @@ players:
       - type: x
         above: Blue 1
   - cards:
-      - type: x
+      - type: 1
         clue: 1
         above: Red 1
       - type: x

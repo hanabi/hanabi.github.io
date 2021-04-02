@@ -28,11 +28,11 @@ players:
       - type: x
   - cards:
       - type: x
-      - type: x
+      - type: 3
         clue: 3
         above: Red 3
         middle_note: kt
-      - type: x
+      - type: 3
         clue: 3
         above: Red 3
       - type: x

@@ -16,10 +16,10 @@ players:
       - type: x
       - type: x
   - cards:
-      - type: x
+      - type: r
         above: Red 3
         clue: r
-      - type: x
+      - type: r
         above: Red 2
         clue: r
       - type: x
@@ -47,7 +47,7 @@ players:
     cards:
       - type: r
         middle_note: r3
-      - type: r
+      - type: r2
         clue: 2
       - type: x
       - type: x
