@@ -23,7 +23,7 @@ players:
       - type: x
       - type: x
   - cards:
-      - type: x
+      - type: 5
         clue: 5
         above: Red 5
       - type: x

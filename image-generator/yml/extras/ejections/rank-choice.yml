@@ -28,7 +28,7 @@ players:
         above: Blue 4
       - type: x
         above: Blue 4
-      - type: x
+      - type: 2
         above: Red 2
         clue: 2
         middle_note: r2

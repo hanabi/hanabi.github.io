@@ -21,7 +21,7 @@ players:
       - type: x
       - type: x
         above: Red 3
-      - type: x
+      - type: 1
         clue: 1
   - cards:
       - type: x

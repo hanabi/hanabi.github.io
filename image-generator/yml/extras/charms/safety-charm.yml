@@ -23,7 +23,7 @@ players:
       - type: x
         above: Purple 5
         middle_note: 5
-      - type: x
+      - type: r
         clue: r
         above: Red 2
       - type: x

@@ -6,7 +6,7 @@ stacks:
   - p: 0
 players:
   - cards:
-      - type: x
+      - type: 4
         clue: 4
       - type: x
         above: Blue 3

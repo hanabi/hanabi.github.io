@@ -34,11 +34,11 @@ players:
       - type: x
   - cards:
       - type: x
-      - type: x
+      - type: r
         clue: r
         above: Red 4
       - type: x
-      - type: x
+      - type: r
         clue: r
         above: Red 4
         middle_note: kt

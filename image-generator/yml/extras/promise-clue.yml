@@ -38,7 +38,7 @@ players:
     cards:
       - type: x
       - type: x
-      - type: x
+      - type: r
         clue: r
       - type: x
   - name: Emily

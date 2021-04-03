@@ -19,13 +19,14 @@ players:
       - type: x
       - type: x
       - type: 2
-      - type: x
+        above: Blue 2
+      - type: 2
         above: Red 2
   - cards:
       - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
         clue: r
         above: Red 3
-      - type: x
-      - type: x
-      - type: x
-      - type: x

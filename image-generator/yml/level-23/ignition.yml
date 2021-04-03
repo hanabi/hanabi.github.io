@@ -17,7 +17,7 @@ players:
       - type: x
       - type: x
       - type: x
-      - type: x
+      - type: 1
         clue: 1
   - text: Bob blind plays slot 4
   - name: Cathy

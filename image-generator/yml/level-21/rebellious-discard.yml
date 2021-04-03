@@ -24,6 +24,7 @@ players:
       - type: x
       - type: x
       - type: r4
+        border: false
   - text: Bob performs a Rebellious Discard
   - name: Cathy
     cards:

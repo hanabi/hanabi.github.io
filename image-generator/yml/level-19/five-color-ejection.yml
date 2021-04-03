@@ -25,13 +25,13 @@ players:
   - text:
   - name: Cathy
     cards:
-      - type: x
+      - type: r
         above: Red 5
         clue: r
-      - type: x
+      - type: r
         above: Red 1
         clue: r
-      - type: x
+      - type: r
         above: Red 2
         clue: r
       - type: x
