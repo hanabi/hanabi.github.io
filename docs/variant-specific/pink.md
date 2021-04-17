@@ -11,6 +11,9 @@ import PlayClueLieMismatch from '@site/image-generator/yml/extras/variant-specif
 import FixClue1s from '@site/image-generator/yml/extras/variant-specific/pink/fix-clue-1s.yml';
 import FixPromise from '@site/image-generator/yml/extras/variant-specific/pink/fix-promise.yml';
 import FixClue from '@site/image-generator/yml/extras/variant-specific/pink/fix-clue.yml';
+import ChoiceTempo from '@site/image-generator/yml/extras/variant-specific/pink/choice-tempo.yml';
+import ChoiceFinesse from '@site/image-generator/yml/extras/variant-specific/pink/choice-finesse.yml';
+import Positional from '@site/image-generator/yml/extras/variant-specific/pink/positional.yml';
 
 These conventions apply to any variant with a pink (touched by all ranks) suit.
 
@@ -193,6 +196,8 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
   - Bob knows that a rank 4 clue means to play slot 4, so he plays his right-most pink card.
   - Bob holds on to the other pink card for later, knowing that the *Pink Choice Tempo Clue* only "gets" one card.
 
+<ChoiceTempo />
+
 ### The Pink Choice Finesse
 
 - The concept of *Pink Choice* can also be used to initiate a *Finesse* on a pink card.
@@ -202,6 +207,8 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
   - Alice clues number 4 to Cathy, which touches both pink cards and nothing else.
   - Bob knows that a number 4 clue means to play slot 4, so the pink 2 must be playable right now. Bob plays his *Finesse Position* card as pink 1.
   - Cathy plays the pink 2 from slot 4.
+
+<ChoiceFinesse />
 
 ### Pink Positional Clues
 
@@ -215,6 +222,8 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
   - However, Bob also knows that it is near the end of the game and there are no cards left to chop move, so this interpretation does not make much sense.
   - Thus, Bob knows that this must be a *Positional Clue*, and he plays his slot 2 card as the pink 5.
 - *Positional Clues* are different from *Pink Choice Tempo Clues* in that they can touch brand new cards. (*Pink Choice Tempo Clues* only re-touch known pink cards.) For this reason, *Positional Clues* can typically only be done at the end of the game when the clue is not likely to be interpreted as anything else.
+
+<Positional />
 
 <br />
 

@@ -1,0 +1,35 @@
+suits:
+  i: pink
+stacks:
+  - r: 1
+  - y: 1
+  - g: 1
+  - b: 1
+  - i: 1
+players:
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+    clue_giver: true
+  - cards:
+      - type: x
+      - type: x
+      - type: i12345
+      - type: i12345
+      - type: x
+  - name: Bob
+    cards:
+      - type: x
+      - type: x
+      - type: i12345
+        clue: 4
+        orange: 4
+      - type: i12345
+        clue: 4
+        orange: 4
+        above: Pink 2
+        below: Play
+      - type: x
