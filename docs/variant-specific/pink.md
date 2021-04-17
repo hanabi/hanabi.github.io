@@ -14,6 +14,8 @@ import FixClue from '@site/image-generator/yml/extras/variant-specific/pink/fix-
 import ChoiceTempo from '@site/image-generator/yml/extras/variant-specific/pink/choice-tempo.yml';
 import ChoiceFinesse from '@site/image-generator/yml/extras/variant-specific/pink/choice-finesse.yml';
 import Positional from '@site/image-generator/yml/extras/variant-specific/pink/positional.yml';
+import BubblegumFinesse from '@site/image-generator/yml/extras/variant-specific/pink/bubblegum-finesse.yml';
+import BubblegumBluff from '@site/image-generator/yml/extras/variant-specific/pink/bubblegum-bluff.yml';
 
 These conventions apply to any variant with a pink (touched by all ranks) suit.
 
@@ -243,6 +245,9 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
   - Bob sees that Cathy has the pink 2 in slot 4. Thus, he knows that the *Bubblegum Finesse* is not on him. Bob discards.
   - Cathy goes through the same steps as Bob. Cathy does not see the pink 2 anywhere else, so she knows that the *Bubblegum Finesse* is on her. Cathy blind-plays pink 2 from slot 4.
   - Donald knows that since Cathy played her slot 4 card, this was a *Bubblegum Finesse*. Donald's pink card must be the connecting card. Donald plays the pink 3.
+
+<BubblegumFinesse />
+
 - *Bubblegum Finesses* can only be used to get pink cards.
 - Note that *4 Charms* have precedence over *Bubblegum* moves.
 
@@ -257,6 +262,9 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
   - Cathy knows that if this was a *3 Bluff*, then Bob would have played his *Finesse Position*. So it cannot be a *3 Bluff*.
   - Thus, Cathy knows that this must be a *Bubblegum* clue. Since blue 3 is not a pink card and Alice was in *Bluff Seat* for Bob, this must be a *Bubblegum Bluff*.
   - Cathy marks her slot 5 card as the one-away-from-playable pink card, the pink 2.
+
+<BubblegumBluff />
+
 - *Bubblegum Bluffs* can only be performed on non-pink cards; otherwise, it will look like a *Double Finesse* with one part *Bubblegum Finesse* and one part normal *Finesse*.
 - Note that it is impossible to *3 Bluff* and *Bubblegum Bluff* at the same time.
 
