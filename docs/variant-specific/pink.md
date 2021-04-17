@@ -8,6 +8,9 @@ import PromisePrompt from '@site/image-generator/yml/extras/variant-specific/pin
 import PromptRankException from '@site/image-generator/yml/extras/variant-specific/pink/prompt-rank-exception.yml';
 import PlayClueLie1s from '@site/image-generator/yml/extras/variant-specific/pink/play-clue-lie-1s.yml';
 import PlayClueLieMismatch from '@site/image-generator/yml/extras/variant-specific/pink/play-clue-lie-mismatch.yml';
+import FixClue1s from '@site/image-generator/yml/extras/variant-specific/pink/fix-clue-1s.yml';
+import FixPromise from '@site/image-generator/yml/extras/variant-specific/pink/fix-promise.yml';
+import FixClue from '@site/image-generator/yml/extras/variant-specific/pink/fix-clue.yml';
 
 These conventions apply to any variant with a pink (touched by all ranks) suit.
 
@@ -134,6 +137,8 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
   - Bob knows that the pink card in his hand *could* be a pink 1. However, it could also be any other pink card in the game. Bob knows that when 1's are filled in to be pink, they should not be played anymore.
 - *Pink Fix Clues* do not necessarily have to be performed "just in time". In other words, **any** rank clue that "fills in" a pink card should stop it from being played, even if the clue was early.
 
+<FixClue1s />
+
 ### The Pink Fix Promise (PFP)
 
 - First, see the section on the *[Pink Fix Clue (on 1's)](#the-pink-fix-clue-on-1s)*
@@ -148,6 +153,9 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
   - Alice clues number 3 to Bob, touching a 3 on his chop. This also "fills in" the 1 to be a pink card.
   - Bob knows that the pink card in his hand could technically be a pink 1. However, Bob also knows that when 1's are filled in to be pink, they should not be played anymore.
   - Thus, Bob knows that the point of Alice's clue was a *Fix Clue* to stop him from playing the pink card. The 3 on his chop could be any 3 in the game. Furthermore, Bob knows that *Pink Promise* applies to this *Fix Clue* and that his pink card should be a pink 3.
+
+<FixPromise />
+
 - As an exception, *Pink Fix Promise* does **not** apply when the *Fix Clue* is a number 2 clue or a number 5 clue and the newly introduced card was on chop. An example of this can be found in the [previous section](#the-pink-fix-clue-on-1s). (In the example in this section, Bob's pink card is not necessarily a pink 5; it could be any pink card in the game.)
 
 ### Pink Fix Clues (in general)
@@ -162,6 +170,8 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
   - Normally, Bob would interpret this as a *Pink Choice Tempo Clue* and play his slot 3 card. However, his slot 3 card is completely unclued.
   - Bob instead knows that this must be a *Pink Fix Clue* and that his left-most pink card (on slot 4) must be exactly the pink 3.
   - Bob discards his slot 4 card as pink 3.
+
+<FixClue />
 
 <br />
 
