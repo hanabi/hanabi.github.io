@@ -52,6 +52,14 @@ y_offset = 0
 left_y_offset = 0
 y_top = 0
 y_below = 0
+suit_filenames = {
+    "r": "red",
+    "y": "yellow",
+    "g": "green",
+    "b": "blue",
+    "p": "purple",
+    "m": "multi",
+}
 
 
 def main():
@@ -64,6 +72,9 @@ def main():
     # This script reads from standard in, expecting a YAML file
     # Decode it to YAML
     yaml_file = yaml.load(sys.stdin, Loader=yaml.SafeLoader)
+
+    # Suits in addition to any standard suits
+    suit_filenames.update(yaml_file.get("suits", {}))
 
     # Use the play stack to determine the available suits for this particular
     # variant
@@ -111,7 +122,7 @@ def draw_play_stacks(yaml_file, svg_file):
 
     for color_value in yaml_file["stacks"]:
         color, value = next(iter(color_value.items()))
-        file_name = "{}{}".format(color, value)
+        file_name = "{}{}".format(suit_filenames[color], value)
         stack_base_or_card = svg_file.image(
             "{}/cards/{}.svg".format(PIECES_PATH, file_name),
             x=x_offset,
@@ -314,7 +325,7 @@ def draw_clued_card(yaml_file, svg_file, card_type, crossed_out, x_offset, y_off
     elif len(ranks) != 1 and len(suits) == 1:
         # This is a card with a known color and an unknown rank
         card_image = svg_file.image(
-            "{}/cards/{}.svg".format(PIECES_PATH, next(iter(suits))),
+            "{}/cards/{}.svg".format(PIECES_PATH, suit_filenames[next(iter(suits))]),
             x=0,
             y=0,
             width=CARD_WIDTH,
@@ -328,7 +339,7 @@ def draw_clued_card(yaml_file, svg_file, card_type, crossed_out, x_offset, y_off
         # (e.g. "r1")
         card_image = svg_file.image(
             "{}/cards/{}{}.svg".format(
-                PIECES_PATH, next(iter(suits)), next(iter(ranks))
+                PIECES_PATH, suit_filenames[next(iter(suits))], next(iter(ranks))
             ),
             x=x_offset,
             y=y_offset,
@@ -376,7 +387,7 @@ def draw_card_pips(yaml_file, svg_file, svg, pips, crossed_out):
         if color in pips:
             svg.add(
                 svg_file.image(
-                    "{}/pips/{}.svg".format(PIECES_PATH, color),
+                    "{}/pips/{}.svg".format(PIECES_PATH, suit_filenames[color]),
                     x=CARD_WIDTH / 2 - 6 - 20 * math.sin(angle * i),
                     y=CARD_HEIGHT / 2 - 6 - 20 * math.cos(angle * i),
                     width=12,

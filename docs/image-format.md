@@ -26,6 +26,9 @@ import TrashResult from '@site/image-generator/yml/generator-docs/trash.yml';
 import BigTextSource from '!raw-loader!@site/image-generator/yml/generator-docs/big-text.yml';
 import BigTextResult from '@site/image-generator/yml/generator-docs/big-text.yml';
 
+import SuitsSource from '!raw-loader!@site/image-generator/yml/generator-docs/suits.yml';
+import SuitsResult from '@site/image-generator/yml/generator-docs/suits.yml';
+
 export const Code = ({code}) => (
   <Highlight {...defaultProps} code={code} language="yaml">
     {({ className, style, tokens, getLineProps, getTokenProps }) => (
@@ -100,7 +103,7 @@ When using the `run.sh` script and viewing the page locally, any changes that yo
 ## YML File Format
 
 There are 2 main sections: `stacks` and `players`.
-- `stacks` is an array of cards which have been played on the stacks already. The following suits are supported:
+- `stacks` is an array of cards which have been played on the stacks already. The following suits are supported by default:
   - `r`: red,
   - `g`: green,
   - `b`: blue,
@@ -176,3 +179,25 @@ For some examples, some cards in the discard pile need to be shown. This is perf
 For keywords "Bluff", "Finesse" and "Illegal!", color is ignored.
 
 <Example code={BigTextSource} Image={BigTextResult} />
+
+### Variants
+
+Some variant-specific suits can be added via `suits`, which contains the mapping from the letter indicating the suit to the part of the filenames of card images and pips.
+Currently these variant suits are supported:
+- black
+- brown
+- null (needs to be in quotes because normally `null` is a YAML keyword)
+- omni
+- pink
+- prism-rygbp
+- teal
+- white
+
+Standard suits don't need to be repeated in `suits`.
+
+This is done to be able to differentiate between suits which commonly use the same letter, e.g. or "i" for both prism and pink.
+
+<Example code={SuitsSource} Image={SuitsResult} />
+
+
+
