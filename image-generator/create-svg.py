@@ -263,12 +263,13 @@ def draw_player_card(yaml_file, svg_file, card):
             y_top = min(y_top, -clue_border_overlap/2)
 
     crossed_out = str(card.get("crossed_out", ""))
+    orange = str(card.get("orange", ""))
 
     if clued:
-        draw_clued_card(yaml_file, svg_file, card_type, crossed_out, x_offset, y_offset)
+        draw_clued_card(yaml_file, svg_file, card_type, crossed_out, orange, x_offset, y_offset)
     else:
         draw_unclued_card(
-            yaml_file, svg_file, x_offset, y_offset, card_type[1:], crossed_out
+            yaml_file, svg_file, x_offset, y_offset, card_type[1:], crossed_out, orange
         )
 
     draw_extra_card_attributes(svg_file, card)
@@ -276,7 +277,7 @@ def draw_player_card(yaml_file, svg_file, card):
     x_offset += CARD_WIDTH + HORIZONTAL_SPACING_BETWEEN_CARDS
 
 
-def draw_unclued_card(yaml_file, svg_file, x_offset, y_offset, pips, crossed_out):
+def draw_unclued_card(yaml_file, svg_file, x_offset, y_offset, pips, crossed_out, orange):
     s = svg_file.add(svg_file.svg((x_offset, y_offset), (CARD_WIDTH, CARD_HEIGHT)))
     card_image = svg_file.rect(
         (0, 0),
@@ -288,10 +289,10 @@ def draw_unclued_card(yaml_file, svg_file, x_offset, y_offset, pips, crossed_out
     s.add(card_image)
 
     if pips:
-        draw_card_pips(yaml_file, svg_file, s, pips, crossed_out)
+        draw_card_pips(yaml_file, svg_file, s, pips, crossed_out, orange)
 
 
-def draw_clued_card(yaml_file, svg_file, card_type, crossed_out, x_offset, y_offset):
+def draw_clued_card(yaml_file, svg_file, card_type, crossed_out, orange, x_offset, y_offset):
     # Find the possible ranks and suits
     card_type = set(card_type)
     ranks = card_type & {"1", "2", "3", "4", "5"}
@@ -309,7 +310,7 @@ def draw_clued_card(yaml_file, svg_file, card_type, crossed_out, x_offset, y_off
         )
         s.add(rect)
         # Always draw pips on clued cards with unknown rank + unknown color
-        draw_card_pips(yaml_file, svg_file, s, ranks | suits, crossed_out)
+        draw_card_pips(yaml_file, svg_file, s, ranks | suits, crossed_out, orange)
     elif len(ranks) == 1 and len(suits) != 1:
         # This is a card with a known rank and an unknown color
         card_image = svg_file.image(
@@ -321,7 +322,7 @@ def draw_clued_card(yaml_file, svg_file, card_type, crossed_out, x_offset, y_off
         )
         s = svg_file.add(svg_file.svg((x_offset, y_offset), (CARD_WIDTH, CARD_HEIGHT)))
         s.add(card_image)
-        draw_card_pips(yaml_file, svg_file, s, suits, crossed_out)
+        draw_card_pips(yaml_file, svg_file, s, suits, crossed_out, orange)
     elif len(ranks) != 1 and len(suits) == 1:
         # This is a card with a known color and an unknown rank
         card_image = svg_file.image(
@@ -333,7 +334,7 @@ def draw_clued_card(yaml_file, svg_file, card_type, crossed_out, x_offset, y_off
         )
         s = svg_file.add(svg_file.svg((x_offset, y_offset), (CARD_WIDTH, CARD_HEIGHT)))
         s.add(card_image)
-        draw_card_pips(yaml_file, svg_file, s, ranks, crossed_out)
+        draw_card_pips(yaml_file, svg_file, s, ranks, crossed_out, orange)
     else:
         # An exact card identity was specified
         # (e.g. "r1")
@@ -349,7 +350,7 @@ def draw_clued_card(yaml_file, svg_file, card_type, crossed_out, x_offset, y_off
         svg_file.add(card_image)
 
 
-def draw_card_pips(yaml_file, svg_file, svg, pips, crossed_out):
+def draw_card_pips(yaml_file, svg_file, svg, pips, crossed_out, orange):
     rank_pip_width = CARD_WIDTH / 5
     for rank in range(1, 6):
         if str(rank) in pips:
@@ -364,7 +365,7 @@ def draw_card_pips(yaml_file, svg_file, svg, pips, crossed_out):
                     str(rank),
                     x=["50%"],
                     y=["50%"],
-                    fill="white",
+                    fill="orange" if str(rank) in orange else "white",
                     style="filter: url(#shadow_rank)",
                 )
             )
@@ -640,7 +641,7 @@ def draw_discard_pile(yaml_file, svg_file):
     x = x_of_discard_pile + TRASH_WIDTH / 2 - width_total / 2
     y = y_of_discard_pile + TRASH_HEIGHT / 2 - height_total / 2
     for card in yaml_file["discarded"]:
-        draw_clued_card(yaml_file, svg_file, card, set(), x, y)
+        draw_clued_card(yaml_file, svg_file, card, set(), set(), x, y)
         x += CARD_WIDTH / 2
         y += CARD_HEIGHT / 3
 

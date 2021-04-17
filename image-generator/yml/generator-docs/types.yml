@@ -31,5 +31,6 @@ players:
     cards:
       - type: rb2
         crossed_out: b
-      - type: x
+      - type: b345
+        orange: 34
       - type: x

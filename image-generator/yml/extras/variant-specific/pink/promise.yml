@@ -1,0 +1,39 @@
+suits:
+  i: pink
+stacks:
+  - r: 0
+  - y: 0
+  - g: 0
+  - b: 0
+  - i: 0
+players:
+  - name: Cathy
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: b5
+        border: false
+      - type: i2
+        border: false
+  - text: Alice saves 2
+  - name: Cathy
+    cards:
+      - type: xrygb1345
+      - type: xrygb1345
+      - type: xrygb1345
+      - type: xrygb1345
+      - type: rygbi12345
+        orange: 2
+        clue: 2
+  - text: Bob saves 5
+  - name: Cathy
+    cards:
+      - type: xrygb134
+      - type: xrygb134
+      - type: xrygb134
+      - type: rygb5
+        clue: 5
+      - type: i12345
+        orange: 25
+        clue: 5

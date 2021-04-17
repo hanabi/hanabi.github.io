@@ -3,6 +3,8 @@ id: pink
 title: Pink
 ---
 
+import Promise from '@site/image-generator/yml/extras/variant-specific/pink/promise.yml';
+
 These conventions apply to any variant with a pink (touched by all ranks) suit.
 
 <br />
@@ -19,6 +21,9 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
   - If Alice gave a number 5 clue, it would save both of the cards in one fell swoop, since a number 5 clue would touch the pink 2.
   - However, doing that would break *Pink Promise*, since once Cathy learns that her slot 5 card is a pink card, she will always assume that it is a pink 5.
   - Thus, Alice gives a number 2 clue as a *2 Save* on the pink 2, and then Bob clues a number 5 clue as a *5 Save* on the blue 5.
+
+<Promise />
+
 - *Pink Promise* is the **most important** pink convention! If you need to handle a tricky situation with pink cards, then make sure you first satisfy *Pink Promise* so that it is clear to the team what is going on.
 
 ### The 1's Assumption

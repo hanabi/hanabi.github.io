@@ -134,6 +134,8 @@ Cards in hand can be of various types:
 
 `crossed_out` attribute can be used to mark some pips with X (when all other copies of that card are seen elsewhere).
 
+`orange` attribute can be used to draw some rank pips with orange, it's useful for Pink suit.
+
 By default, clued cards have an orange border, but this can be overridden with the `border` attribute.
 
 <Example code={TypesSource} Image={TypesResult} />
