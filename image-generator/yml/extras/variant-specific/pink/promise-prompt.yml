@@ -1,0 +1,35 @@
+suits:
+  i: pink
+stacks:
+  - r: 1
+  - y: 0
+  - g: 0
+  - b: 0
+  - i: 0
+players:
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+    clue_giver: true
+  - cards:
+      - type: x
+      - type: rygbi12345
+        orange: 2
+        above: Red 2
+      - type: rygbi12345
+        orange: 2
+      - type: x
+      - type: rygbi12345
+        orange: 2
+        middle_note: (2)
+  - cards:
+      - type: r
+        above: Red 3
+        clue: r
+      - type: x
+      - type: x
+      - type: x
+      - type: x

@@ -435,6 +435,7 @@ def draw_extra_card_attributes(svg_file, card):
             "g": "lightgreen",
             "y": "yellow",
             "p": "blueviolet",
+            "pink": "pink",
         }.get(card["clue"], "black")
         circle = svg_file.circle(
             (x_offset + 35, y_offset - 15),
@@ -505,6 +506,7 @@ def draw_textbox(svg_file, opts, offset):
             "blue",
             "green",
             "rainbow",
+            "pink",
         ):
             color = {
                 "focus": "gold",
@@ -529,7 +531,7 @@ def draw_textbox(svg_file, opts, offset):
         r = svg_file.add(
             svg_file.svg((x_offset + 3, y_offset + offset), (width, 20 * len(text)))
         )
-    text_color = "black" if color in ("gold", "yellow", "rainbow") else "white"
+    text_color = "black" if color in ("gold", "yellow", "rainbow", "pink") else "white"
 
     if color == "rainbow":
         rect = svg_file.rect(
