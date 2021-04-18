@@ -495,6 +495,11 @@ def draw_extra_card_attributes(svg_file, card):
 
 
 def draw_textbox(svg_file, opts, offset):
+    if type(opts) == list:
+        my_offset = offset
+        for part in opts:
+            my_offset += 5 + draw_textbox(svg_file, part, my_offset)
+        return my_offset - offset
     if type(opts) == str:
         text = [opts]
         color = text[0].split()[0].lower()

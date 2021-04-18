@@ -1,0 +1,37 @@
+suits:
+  u: "null"
+stacks:
+  - r: 1
+  - y: 1
+  - g: 1
+  - b: 1
+  - u: 0
+players:
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+    clue_giver: true
+  - cards:
+      - type: r1
+        border: false
+        below: Red
+      - type: r1
+        border: false
+        below: Yellow
+      - type: u1
+        border: false
+        below: Green
+      - type: b1
+        border: false
+        below: Blue
+      - type: b5
+  - cards:
+      - type: x
+      - type: g1
+        clue: g
+      - type: x
+      - type: x
+      - type: x

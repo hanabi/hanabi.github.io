@@ -167,6 +167,7 @@ Text can be placed on a card:
 - Several more keywords have a specific color assigned to them: `Focus`, `Chop`.
 - You can override the color using `color` attribute. CSS colors are accepted, and additionally `rainbow`.
 - You can make it a multi-line note by using an array.
+- It can be a list of such text boxes, potentially with different colors.
 
 <Example code={CardTextSource} Image={CardTextResult} />
 

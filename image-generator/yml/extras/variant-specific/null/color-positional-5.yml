@@ -1,0 +1,19 @@
+suits:
+  u: "null"
+stacks:
+  - r: 0
+  - y: 0
+  - g: 0
+  - b: 0
+  - u: 0
+players:
+  - cards:
+      - type: x
+      - type: x
+        below: Red
+      - type: x
+        below: Yellow
+      - type: x
+        below: Green
+      - type: x
+        below: Blue
