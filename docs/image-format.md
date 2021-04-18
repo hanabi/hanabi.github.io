@@ -201,6 +201,3 @@ Standard suits don't need to be repeated in `suits`.
 This is done to be able to differentiate between suits which commonly use the same letter, e.g. or "i" for both prism and pink.
 
 <Example code={SuitsSource} Image={SuitsResult} />
-
-
-

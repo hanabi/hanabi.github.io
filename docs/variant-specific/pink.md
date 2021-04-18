@@ -311,7 +311,6 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 - If a *Turnabout Ejection* occurs from a number 1 clue that also touches other 1s, the non-focused cards should still be assumed to be 1s (using the *1's Assumption* convention).
 - *Turnabout Ejections* can only be performed with non-trash cards.
 
-
 ### The Pink Fake Prompt & The Pink Fake Finesse
 
 - First, see the section on the *[Pink Play Clue Lie](#the-pink-play-clue-lie-with-a-mismatched-play-clue-that-touches-other-cards)*.

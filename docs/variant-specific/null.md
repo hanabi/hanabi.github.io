@@ -90,12 +90,9 @@ Since null cards cannot be clued directly, we agree that we should use *Position
 
 - A color positional clue corresponds to a slot number that is based on the order of the stacks. Stacks correspond to the slot numbers **from right to left**.
   - For example, in a 3-player game of the *Null (6 Suit)* variant, there are 5 color clues and 5 slots in the hand. Thus, a purple clue equals slot 5 (since it is the right-most color), a blue clue equals slot 4 (since it is the 2nd right-most color), and so forth.
-
-<ColorPositional6 />
-
+  <ColorPositional6 />
   - For example, in a 3-player game of the *Null (5 Suit)* variant, there are 4 color clues and 5 slots in the hand. Thus, a blue clue equals slot 5 (since it is the right-most color), a green clue equals slot 4 (since it is the 2nd right-most color), and so forth.
-
-<ColorPositional5 />
+  <ColorPositional5 />
 
 #### Color Positional Clues Skip Over Clued Cards
 
