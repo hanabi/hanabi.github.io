@@ -507,7 +507,6 @@ def draw_textbox(svg_file, opts, offset):
             "green",
             "rainbow",
             "pink",
-            "brown",
         ):
             color = {
                 "focus": "gold",
@@ -515,6 +514,7 @@ def draw_textbox(svg_file, opts, offset):
                 "chop": "darkred",
                 "fresh": "green",
                 "bad": "gray",
+                "brown": "sienna",
             }.get(color, "black")
     else:
         text = opts["text"]
