@@ -16,6 +16,11 @@ import ChoiceFinesse from '@site/image-generator/yml/extras/variant-specific/pin
 import Positional from '@site/image-generator/yml/extras/variant-specific/pink/positional.yml';
 import BubblegumFinesse from '@site/image-generator/yml/extras/variant-specific/pink/bubblegum-finesse.yml';
 import BubblegumBluff from '@site/image-generator/yml/extras/variant-specific/pink/bubblegum-bluff.yml';
+import TurnaboutEjection from '@site/image-generator/yml/extras/variant-specific/pink/turnabout-ejection.yml';
+import FakeFinesse from '@site/image-generator/yml/extras/variant-specific/pink/fake-finesse.yml';
+import Promise5Stall from '@site/image-generator/yml/extras/variant-specific/pink/promise-5stall.yml';
+import Promise5ChopMove from '@site/image-generator/yml/extras/variant-specific/pink/promise-5cm.yml';
+import Promise5Pull from '@site/image-generator/yml/extras/variant-specific/pink/promise-5pull.yml';
 
 These conventions apply to any variant with a pink (touched by all ranks) suit.
 
@@ -300,8 +305,12 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
   - After Bob blind-plays, Cathy knows that Alice did not perform a *5 Save* and instead did something else.
   - Cathy knows that Alice did not perform a *Bubblegum Bluff*, because Bob would have played his slot 5 card instead of his slot 2 card.
   - Thus, Cathy knows that this must be a *Turnabout Ejection*. She marks her slot 5 card as a pink 1.
+
+<TurnaboutEjection />
+
 - If a *Turnabout Ejection* occurs from a number 1 clue that also touches other 1s, the non-focused cards should still be assumed to be 1s (using the *1's Assumption* convention).
 - *Turnabout Ejections* can only be performed with non-trash cards.
+
 
 ### The Pink Fake Prompt & The Pink Fake Finesse
 
@@ -314,6 +323,8 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
   - Bob knows that if he does nothing, Cathy will go on to interpret this as a *Self-Finesse*, and play her *Finesse Position*, which will misplay.
   - Thus, Bob plays his *Finesse Position* as a *Pink Fake Finesse*. It is a blue 1 and it successfully plays.
   - From Cathy's perspective, Alice performed a *Finesse* on the blue 1 into the blue 2. Cathy plays the blue 2, but it is actually the pink 1. Now, Cathy knows that Alice performed a *Pink Fake Finesse*.
+
+<FakeFinesse />
 
 <br />
 
@@ -347,6 +358,8 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
   - Thus, *Pink Promise* applies to this card, so he marks slot 2 as a 5.
   - Later on in the game, another rank clue "fills in" Bob's slot 2 card to be a pink card. From *Pink Promise*, Bob knows that it must be exactly the pink 5.
 
+<Promise5Stall />
+
 ### Pink Promise with a 5's Chop Move
 
 - First, see the section on *[Pink Promise with a 5 Stall](#pink-promise-with-a-5-stall)*.
@@ -364,6 +377,8 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
   - Thus, *Pink Promise* applies to this card, so he marks slot 4 as a 5.
   - Later on in the game, another rank clue "fills in" Bob's slot 4 card to be a pink card. From *Pink Promise*, Bob knows that it must be exactly the pink 5.
 
+<Promise5ChopMove />
+
 ### Pink Promise with a 5 Pull
 
 - First, see the section on *[Pink Promise with a 5's Chop Move](#pink-promise-with-a-5s-chop-move)*.
@@ -380,3 +395,5 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
   - Because of the "Pink Promise with a 5 Pull" convention, Bob knows that since this clue was a *5 Pull*, it must be focused on slot 2 (the card that was next to the pulled card).
   - Thus, *Pink Promise* applies to this card, so he marks slot 2 as a 5.
   - Later on in the game, another rank clue "fills in" Bob's slot 2 card to be a pink card. From *Pink Promise*, Bob knows that it must be exactly the pink 5.
+
+<Promise5Pull />
