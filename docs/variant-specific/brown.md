@@ -3,6 +3,8 @@ id: brown
 title: Brown
 ---
 
+import Positional from '@site/image-generator/yml/extras/variant-specific/brown-positional.yml';
+
 These conventions apply to any variant with a brown (touched by no ranks) suit.
 
 <br />
@@ -40,3 +42,5 @@ These conventions apply to any variant with a brown (touched by no ranks) suit.
   - Bob knows that since all of the 2's are already played, whatever 2 this is must be a trash 2.
   - Bob also knows that this cannot be a *Trash Chop Move*, a *Trash Push*, or any of the other trash moves.
   - Bob instead interprets this as a *Positional Clue*, and plays his slot 2 brown card.
+
+<Positional />

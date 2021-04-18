@@ -507,6 +507,7 @@ def draw_textbox(svg_file, opts, offset):
             "green",
             "rainbow",
             "pink",
+            "brown",
         ):
             color = {
                 "focus": "gold",
