@@ -165,11 +165,11 @@ Some additional rules apply to *Positional Clues* that are intended to be *Save 
 - Theoretically, it would be possible to do a *Finesse* with a *Positional Clue*. However, we explicitly disallow this.
 - For example, in a 3-player game:
   - Null 1 is played on the stacks.
-  - Alice gives a *Positional Clue*, indicating that someone should play a null card from slot 3.
-  - Bob sees that Cathy has a null 3 on her slot 3.
+  - Alice gives a *Positional Clue*, indicating that someone should play a null card from slot 4.
+  - Bob sees that Cathy has a null 3 on her slot 4.
   - Bob plays his *Finesse Position* as a null 2 (into the null 3).
   - Bob misplays a red 5 and loses the game.
-  - Bob realizes that the null 2 was actually on his slot 3.
+  - Bob realizes that the null 2 was actually on his slot 4.
 
 <NoPositionalFinesse />
 

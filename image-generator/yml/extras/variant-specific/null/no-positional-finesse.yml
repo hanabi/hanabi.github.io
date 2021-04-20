@@ -17,16 +17,24 @@ players:
   - cards:
       - type: r5
         border: false
+        below:
+          text: Misplays
+          color: red
       - type: x
+      - type: 4
+        clue: 4
       - type: u2
         border: false
-      - type: 3
-        clue: 3
+        below:
+          text:
+            - Must
+            - have
+            - played
       - type: x
   - cards:
       - type: x
       - type: x
+      - type: x
       - type: u3
         border: false
-      - type: x
       - type: x
