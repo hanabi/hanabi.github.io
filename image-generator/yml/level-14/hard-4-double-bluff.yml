@@ -30,7 +30,7 @@ players:
         middle_note: (R)
       - type: x
       - type: x
-  - text: After both red 1 and blue 1 blind play...
+  - text: After both red 1 and red 2 blind play...
   - name: Donald
     cards:
       - type: x
