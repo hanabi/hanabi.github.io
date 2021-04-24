@@ -1,0 +1,35 @@
+suits:
+  i: pink
+stacks:
+  - r: 3
+  - y: 3
+  - g: 3
+  - b: 3
+  - i: 3
+players:
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+    clue_giver: true
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: i12345
+      - type: i12345
+  - name: Bob
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: i12345
+        clue: 3
+        above: Pink 3
+        orange: 3
+        below: Trash
+      - type: i12345
+        clue: 3
+        orange: 3

@@ -10,6 +10,10 @@ players:
         middle_note: (2)
       - type: x
         middle_note: (CM)
+        below:
+          - Green
+          - text: Bar
+            color: yellow
   - cards:
       - type: x
         above: Red 1

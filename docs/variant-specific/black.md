@@ -3,6 +3,8 @@ id: black
 title: Black
 ---
 
+import BlackSaveBluff from '@site/image-generator/yml/extras/variant-specific/black-save-bluff.yml';
+
 These conventions apply to any variant with a black (one of each) suit.
 
 <br />
@@ -42,3 +44,5 @@ These conventions apply to any variant with a black (one of each) suit.
   - There must be a reason for this bad clue, so Bob knows that this is the *Black Save Bluff*, and he blind-plays his slot 1. It is a red 2.
   - Cathy knows that Alice's black clue touched two brand new cards, it is a legal save on any black cards in the game, which means that Bob should never have blind-played anything.
   - Thus, Cathy knows that it was a *Black Save Bluff* and she has exactly black 2 on her slot 5. Cathy plays black 2.
+
+<BlackSaveBluff />

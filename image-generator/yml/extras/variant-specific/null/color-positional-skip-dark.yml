@@ -1,0 +1,33 @@
+suits:
+  u: "null"
+  k: black
+stacks:
+  - r: 3
+  - y: 3
+  - g: 3
+  - b: 3
+  - k: 3
+  - u: 3
+players:
+  - cards:
+      - type: x
+        below: Black
+      - type: x
+        below: Red
+      - type: x
+        below: Yellow
+      - type: x
+        below: Green
+      - type: x
+        below: Blue
+  - cards:
+      - type: x
+        below: Red
+      - type: x
+        below: Yellow
+      - type: x
+        below: Green
+      - type: x
+        below:
+          - Blue
+          - Black

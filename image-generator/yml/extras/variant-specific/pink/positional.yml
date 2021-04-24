@@ -1,0 +1,32 @@
+suits:
+  i: pink
+stacks:
+  - r: 3
+  - y: 3
+  - g: 3
+  - b: 3
+  - i: 4
+players:
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+    clue_giver: true
+  - cards:
+      - type: rygbi12345
+        orange: 2
+        clue: 2
+        below: Trash
+      - type: rygbi12345
+        orange: 2
+        clue: 2
+        below: Play
+        above: Pink 5
+      - type: rygbi12345
+        orange: 2
+        clue: 2
+        below: Trash
+      - type: x
+      - type: x

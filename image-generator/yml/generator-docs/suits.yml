@@ -1,0 +1,38 @@
+suits:
+  i: pink
+  w: white
+  u: "null"
+  n: brown
+  t: teal
+  k: black
+  o: omni
+  s: prism-rygbp
+stacks:
+  - i: 1
+  - w: 0
+  - g: 2
+  - u: 4
+  - n: 5
+  - t: 0
+  - o: 3
+  - k: 4
+  - s: 2
+players:
+  - cards:
+      - type: i4
+        border: false
+      - type: u2
+        border: false
+      - type: w4
+  - cards:
+      - type: i12345
+      - type: xgiwnutoks
+      - type: 5giwnutoks
+  - cards:
+      - type: t1
+      - type: n2
+      - type: o1
+  - cards:
+      - type: k4
+      - type: s3
+      - type: s12345

@@ -3,6 +3,25 @@ id: pink
 title: Pink
 ---
 
+import Promise from '@site/image-generator/yml/extras/variant-specific/pink/promise.yml';
+import PromisePrompt from '@site/image-generator/yml/extras/variant-specific/pink/promise-prompt.yml';
+import PromptRankException from '@site/image-generator/yml/extras/variant-specific/pink/prompt-rank-exception.yml';
+import PlayClueLie1s from '@site/image-generator/yml/extras/variant-specific/pink/play-clue-lie-1s.yml';
+import PlayClueLieMismatch from '@site/image-generator/yml/extras/variant-specific/pink/play-clue-lie-mismatch.yml';
+import FixClue1s from '@site/image-generator/yml/extras/variant-specific/pink/fix-clue-1s.yml';
+import FixPromise from '@site/image-generator/yml/extras/variant-specific/pink/fix-promise.yml';
+import FixClue from '@site/image-generator/yml/extras/variant-specific/pink/fix-clue.yml';
+import ChoiceTempo from '@site/image-generator/yml/extras/variant-specific/pink/choice-tempo.yml';
+import ChoiceFinesse from '@site/image-generator/yml/extras/variant-specific/pink/choice-finesse.yml';
+import Positional from '@site/image-generator/yml/extras/variant-specific/pink/positional.yml';
+import BubblegumFinesse from '@site/image-generator/yml/extras/variant-specific/pink/bubblegum-finesse.yml';
+import BubblegumBluff from '@site/image-generator/yml/extras/variant-specific/pink/bubblegum-bluff.yml';
+import TurnaboutEjection from '@site/image-generator/yml/extras/variant-specific/pink/turnabout-ejection.yml';
+import FakeFinesse from '@site/image-generator/yml/extras/variant-specific/pink/fake-finesse.yml';
+import Promise5Stall from '@site/image-generator/yml/extras/variant-specific/pink/promise-5stall.yml';
+import Promise5ChopMove from '@site/image-generator/yml/extras/variant-specific/pink/promise-5cm.yml';
+import Promise5Pull from '@site/image-generator/yml/extras/variant-specific/pink/promise-5pull.yml';
+
 These conventions apply to any variant with a pink (touched by all ranks) suit.
 
 <br />
@@ -19,6 +38,9 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
   - If Alice gave a number 5 clue, it would save both of the cards in one fell swoop, since a number 5 clue would touch the pink 2.
   - However, doing that would break *Pink Promise*, since once Cathy learns that her slot 5 card is a pink card, she will always assume that it is a pink 5.
   - Thus, Alice gives a number 2 clue as a *2 Save* on the pink 2, and then Bob clues a number 5 clue as a *5 Save* on the blue 5.
+
+<Promise />
+
 - *Pink Promise* is the **most important** pink convention! If you need to handle a tricky situation with pink cards, then make sure you first satisfy *Pink Promise* so that it is clear to the team what is going on.
 
 ### The 1's Assumption
@@ -51,6 +73,8 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
   - Bob knows that he is *Prompted* for the red 2. Bob has three cards in his hand marked with a number 2 clue. Even though Bob knows for sure that slot 5 is a 2, Bob knows that the *Prompt* simply calls for the left-most card.
   - Bob plays the red 2 from slot 2.
 
+<PromisePrompt />
+
 ### The Pink Prompt Rank Exception
 
 - Normally, *Prompts* take precedence over *Finesses*. This means that if a card in a player's hand has one or more positive clues on it that "match", they should never blind-play their *Finesse Position* and instead play their left-most clued card.
@@ -62,6 +86,8 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
   - Bob's slot 2 card and slot 3 card have a single number 4 clue of them (and no other clues). Thus, the pink 3 could technically be Bob's slot 2 card.
   - Bob knows that *Prompts* normally take precedence over *Finesses*. However, Bob also knows that *Prompts* do not apply to pink cards with a rank mismatch. This is currently the case for him since he is promised a 3 and his clued card has a number 4 clue on it.
   - Thus, Bob plays his *Finesse Position* card as pink 3.
+
+<PromptRankException />
 
 ### Remaining 1's After All the 1's Have Been Played
 
@@ -88,6 +114,8 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
   - On his next turn, Bob plays the pink 3 from slot 2. Bob is again surprised that this is not a real 1, but he knows that this kind of thing is allowed and that he should continue to play his final 1.
   - On his next turn, Bob plays the red 1 from slot 1.
 
+<PlayClueLie1s />
+
 ### The Pink Play Clue Lie (With a Mismatched *Play Clue* That Touches Other Cards)
 
 - Players can also violate *Pink Promise* if they are giving a *Play Clue* and the lie will be resolved when the player who is clued plays their focused card.
@@ -97,6 +125,8 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
   - Bob discards.
   - Cathy plays the card on slot 1, thinking that it is a red 3. It is actually the pink 4.
   - Cathy knows that Alice broke *Pink Promise* and that she was lied to, but that it was a *Pink Play Clue Lie*. Cathy knows that Alice likely did things this way because she wanted a 2-for-1 (to pick up some useful 3 "for free") instead of just a 1-for-1 on just the pink 4.
+
+<PlayClueLieMismatch />
 
 <br />
 
@@ -117,6 +147,8 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
   - Bob knows that the pink card in his hand *could* be a pink 1. However, it could also be any other pink card in the game. Bob knows that when 1's are filled in to be pink, they should not be played anymore.
 - *Pink Fix Clues* do not necessarily have to be performed "just in time". In other words, **any** rank clue that "fills in" a pink card should stop it from being played, even if the clue was early.
 
+<FixClue1s />
+
 ### The Pink Fix Promise (PFP)
 
 - First, see the section on the *[Pink Fix Clue (on 1's)](#the-pink-fix-clue-on-1s)*
@@ -131,6 +163,9 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
   - Alice clues number 3 to Bob, touching a 3 on his chop. This also "fills in" the 1 to be a pink card.
   - Bob knows that the pink card in his hand could technically be a pink 1. However, Bob also knows that when 1's are filled in to be pink, they should not be played anymore.
   - Thus, Bob knows that the point of Alice's clue was a *Fix Clue* to stop him from playing the pink card. The 3 on his chop could be any 3 in the game. Furthermore, Bob knows that *Pink Promise* applies to this *Fix Clue* and that his pink card should be a pink 3.
+
+<FixPromise />
+
 - As an exception, *Pink Fix Promise* does **not** apply when the *Fix Clue* is a number 2 clue or a number 5 clue and the newly introduced card was on chop. An example of this can be found in the [previous section](#the-pink-fix-clue-on-1s). (In the example in this section, Bob's pink card is not necessarily a pink 5; it could be any pink card in the game.)
 
 ### Pink Fix Clues (in general)
@@ -145,6 +180,8 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
   - Normally, Bob would interpret this as a *Pink Choice Tempo Clue* and play his slot 3 card. However, his slot 3 card is completely unclued.
   - Bob instead knows that this must be a *Pink Fix Clue* and that his left-most pink card (on slot 4) must be exactly the pink 3.
   - Bob discards his slot 4 card as pink 3.
+
+<FixClue />
 
 <br />
 
@@ -166,6 +203,8 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
   - Bob knows that a rank 4 clue means to play slot 4, so he plays his right-most pink card.
   - Bob holds on to the other pink card for later, knowing that the *Pink Choice Tempo Clue* only "gets" one card.
 
+<ChoiceTempo />
+
 ### The Pink Choice Finesse
 
 - The concept of *Pink Choice* can also be used to initiate a *Finesse* on a pink card.
@@ -175,6 +214,8 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
   - Alice clues number 4 to Cathy, which touches both pink cards and nothing else.
   - Bob knows that a number 4 clue means to play slot 4, so the pink 2 must be playable right now. Bob plays his *Finesse Position* card as pink 1.
   - Cathy plays the pink 2 from slot 4.
+
+<ChoiceFinesse />
 
 ### Pink Positional Clues
 
@@ -188,6 +229,8 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
   - However, Bob also knows that it is near the end of the game and there are no cards left to chop move, so this interpretation does not make much sense.
   - Thus, Bob knows that this must be a *Positional Clue*, and he plays his slot 2 card as the pink 5.
 - *Positional Clues* are different from *Pink Choice Tempo Clues* in that they can touch brand new cards. (*Pink Choice Tempo Clues* only re-touch known pink cards.) For this reason, *Positional Clues* can typically only be done at the end of the game when the clue is not likely to be interpreted as anything else.
+
+<Positional />
 
 <br />
 
@@ -207,6 +250,9 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
   - Bob sees that Cathy has the pink 2 in slot 4. Thus, he knows that the *Bubblegum Finesse* is not on him. Bob discards.
   - Cathy goes through the same steps as Bob. Cathy does not see the pink 2 anywhere else, so she knows that the *Bubblegum Finesse* is on her. Cathy blind-plays pink 2 from slot 4.
   - Donald knows that since Cathy played her slot 4 card, this was a *Bubblegum Finesse*. Donald's pink card must be the connecting card. Donald plays the pink 3.
+
+<BubblegumFinesse />
+
 - *Bubblegum Finesses* can only be used to get pink cards.
 - Note that *4 Charms* have precedence over *Bubblegum* moves.
 
@@ -221,6 +267,9 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
   - Cathy knows that if this was a *3 Bluff*, then Bob would have played his *Finesse Position*. So it cannot be a *3 Bluff*.
   - Thus, Cathy knows that this must be a *Bubblegum* clue. Since blue 3 is not a pink card and Alice was in *Bluff Seat* for Bob, this must be a *Bubblegum Bluff*.
   - Cathy marks her slot 5 card as the one-away-from-playable pink card, the pink 2.
+
+<BubblegumBluff />
+
 - *Bubblegum Bluffs* can only be performed on non-pink cards; otherwise, it will look like a *Double Finesse* with one part *Bubblegum Finesse* and one part normal *Finesse*.
 - Note that it is impossible to *3 Bluff* and *Bubblegum Bluff* at the same time.
 
@@ -256,6 +305,9 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
   - After Bob blind-plays, Cathy knows that Alice did not perform a *5 Save* and instead did something else.
   - Cathy knows that Alice did not perform a *Bubblegum Bluff*, because Bob would have played his slot 5 card instead of his slot 2 card.
   - Thus, Cathy knows that this must be a *Turnabout Ejection*. She marks her slot 5 card as a pink 1.
+
+<TurnaboutEjection />
+
 - If a *Turnabout Ejection* occurs from a number 1 clue that also touches other 1s, the non-focused cards should still be assumed to be 1s (using the *1's Assumption* convention).
 - *Turnabout Ejections* can only be performed with non-trash cards.
 
@@ -270,6 +322,8 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
   - Bob knows that if he does nothing, Cathy will go on to interpret this as a *Self-Finesse*, and play her *Finesse Position*, which will misplay.
   - Thus, Bob plays his *Finesse Position* as a *Pink Fake Finesse*. It is a blue 1 and it successfully plays.
   - From Cathy's perspective, Alice performed a *Finesse* on the blue 1 into the blue 2. Cathy plays the blue 2, but it is actually the pink 1. Now, Cathy knows that Alice performed a *Pink Fake Finesse*.
+
+<FakeFinesse />
 
 <br />
 
@@ -303,6 +357,8 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
   - Thus, *Pink Promise* applies to this card, so he marks slot 2 as a 5.
   - Later on in the game, another rank clue "fills in" Bob's slot 2 card to be a pink card. From *Pink Promise*, Bob knows that it must be exactly the pink 5.
 
+<Promise5Stall />
+
 ### Pink Promise with a 5's Chop Move
 
 - First, see the section on *[Pink Promise with a 5 Stall](#pink-promise-with-a-5-stall)*.
@@ -320,6 +376,8 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
   - Thus, *Pink Promise* applies to this card, so he marks slot 4 as a 5.
   - Later on in the game, another rank clue "fills in" Bob's slot 4 card to be a pink card. From *Pink Promise*, Bob knows that it must be exactly the pink 5.
 
+<Promise5ChopMove />
+
 ### Pink Promise with a 5 Pull
 
 - First, see the section on *[Pink Promise with a 5's Chop Move](#pink-promise-with-a-5s-chop-move)*.
@@ -336,3 +394,5 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
   - Because of the "Pink Promise with a 5 Pull" convention, Bob knows that since this clue was a *5 Pull*, it must be focused on slot 2 (the card that was next to the pulled card).
   - Thus, *Pink Promise* applies to this card, so he marks slot 2 as a 5.
   - Later on in the game, another rank clue "fills in" Bob's slot 2 card to be a pink card. From *Pink Promise*, Bob knows that it must be exactly the pink 5.
+
+<Promise5Pull />

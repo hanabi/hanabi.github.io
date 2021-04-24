@@ -3,6 +3,14 @@ id: 'null'
 title: 'Null'
 ---
 
+import Positional from '@site/image-generator/yml/extras/variant-specific/null/positional.yml';
+import ColorPositional6 from '@site/image-generator/yml/extras/variant-specific/null/color-positional-6.yml';
+import ColorPositional5 from '@site/image-generator/yml/extras/variant-specific/null/color-positional-5.yml';
+import ColorPositionalSkipClued from '@site/image-generator/yml/extras/variant-specific/null/color-positional-skip-clued.yml';
+import ColorPositionalWrapAround from '@site/image-generator/yml/extras/variant-specific/null/color-positional-wrap-around.yml';
+import ColorPositionalSkipDark from '@site/image-generator/yml/extras/variant-specific/null/color-positional-skip-dark.yml';
+import NoPositionalFinesse from '@site/image-generator/yml/extras/variant-specific/null/no-positional-finesse.yml';
+
 These conventions apply to any variant with a null (touched by no clues) suit.
 
 <br />
@@ -69,6 +77,8 @@ Since null cards cannot be clued directly, we agree that we should use *Position
   - Bob instead knows that this is a *Positional Clue*, indicating that someone should play their slot 4 card.
   - Bob sees that Cathy's slot 4 card is not a null card, so he plays his slot 4 card as the null 1.
 
+<Positional />
+
 #### 7) Do you have to be in *Bluff Seat* to give a *Positional Clue*?
 
 - Yes. You are only allowed to give a *Positional Clue* to the very next player.
@@ -80,7 +90,9 @@ Since null cards cannot be clued directly, we agree that we should use *Position
 
 - A color positional clue corresponds to a slot number that is based on the order of the stacks. Stacks correspond to the slot numbers **from right to left**.
   - For example, in a 3-player game of the *Null (6 Suit)* variant, there are 5 color clues and 5 slots in the hand. Thus, a purple clue equals slot 5 (since it is the right-most color), a blue clue equals slot 4 (since it is the 2nd right-most color), and so forth.
+  <ColorPositional6 />
   - For example, in a 3-player game of the *Null (5 Suit)* variant, there are 4 color clues and 5 slots in the hand. Thus, a blue clue equals slot 5 (since it is the right-most color), a green clue equals slot 4 (since it is the 2nd right-most color), and so forth.
+  <ColorPositional5 />
 
 #### Color Positional Clues Skip Over Clued Cards
 
@@ -93,6 +105,8 @@ Since null cards cannot be clued directly, we agree that we should use *Position
   - Bob knows that normally, this would be an *Unknown Trash Discharge*. But all *Discharges* are "turned off" in null variants. Instead, this must be a *Null Positional Clue*.
   - Bob knows that if his hand was completely unclued, green would refer to slot 4, since there are 5 slots in the hand and green is the 2nd rightmost color. But since Bob's slot 5 card already has a clue on it, he should skip over that card. So this must be targeting his slot 3 (e.g. his 2nd rightmost unclued slot).
   - Bob blind-plays null 1 from slot 3.
+
+<ColorPositionalSkipClued />
 
 #### Color Positional Clues Wrap Around
 
@@ -107,6 +121,8 @@ Since null cards cannot be clued directly, we agree that we should use *Position
   - This means that blue would target slot 2 and green would target slot 1. Yellow would target slot 2 again (because of the wraparound) and red would target slot 1.
   - Bob blind-plays null 1 from slot 1.
 
+<ColorPositionalWrapAround />
+
 #### One-of-Each Colors Are Skipped
 
 - One-of-each colors are skipped over when finding the "rightmost color". This is because the right-most color is the most important color, and one-of-each colors are less likely to be around.
@@ -116,6 +132,8 @@ Since null cards cannot be clued directly, we agree that we should use *Position
   - Normally, the rightmost color would be black, meaning that black would be assigned to slot 5. But black is skipped over, so blue is assigned to slot 5.
   - Subsequently, green is assigned to slot 4, yellow is assigned to slot 3, and red is assigned to slot 2.
   - Black is then assigned to slot 1. (In a 4-player game with 4 cards in the hand, then black would wrap-around and be assigned to the oldest slot again.)
+
+<ColorPositionalSkipDark />
 
 <br />
 
@@ -147,11 +165,13 @@ Some additional rules apply to *Positional Clues* that are intended to be *Save 
 - Theoretically, it would be possible to do a *Finesse* with a *Positional Clue*. However, we explicitly disallow this.
 - For example, in a 3-player game:
   - Null 1 is played on the stacks.
-  - Alice gives a *Positional Clue*, indicating that someone should play a null card from slot 3.
-  - Bob sees that Cathy has a null 3 on her slot 3.
+  - Alice gives a *Positional Clue*, indicating that someone should play a null card from slot 4.
+  - Bob sees that Cathy has a null 3 on her slot 4.
   - Bob plays his *Finesse Position* as a null 2 (into the null 3).
   - Bob misplays a red 5 and loses the game.
-  - Bob realizes that the null 2 was actually on his slot 3.
+  - Bob realizes that the null 2 was actually on his slot 4.
+
+<NoPositionalFinesse />
 
 <br />
 

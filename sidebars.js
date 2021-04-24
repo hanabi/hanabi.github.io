@@ -92,6 +92,7 @@ module.exports = {
         'variant-specific/totally-blind',
         'variant-specific/up-or-down',
         'variant-specific/white',
+        'variant-specific/no-positive-clues',
       ],
     },
     'convention-attribution',
