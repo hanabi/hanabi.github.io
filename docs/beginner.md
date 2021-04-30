@@ -168,7 +168,7 @@ In this guide, there will be some images to show off the concepts introduced.
 
 <TwoSave />
 
-- Similar to 5's, 2's must be saved with a number clue instead of a color clue.
+- Similar to 5's, 2's **must be saved with a number clue** instead of a color clue.
 - You can think of the *2 Save* as a last resort to save a 2. Thus, players are not allowed to perform a *2 Save* on a 2 if that same 2 is visible in someone else's hand (because the team does not actually need to save that 2 quite yet - they can *2 Save* it when the other copy reaches the chop).
 
 <br />
