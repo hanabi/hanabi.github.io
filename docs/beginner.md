@@ -360,7 +360,7 @@ In this guide, there will be some images to show off the concepts introduced.
 
 <Prompt3 />
 
-- The *Prompt* is a **promise** that the player has the connecting card. Therefore, if the left-most card is not the correct one, the player should continue to play his clued cards (left to right) until the expected card is found. (It is of course the responsibility of the player giving the clue to ensure that all those previous cards will play successfully.)
+- The *Prompt* is a **promise** that the player has the connecting card. Therefore, if the left-most card is not the correct one, the player should continue to play his clued cards (left to right) until the expected card is found. (It is the responsibility of the player giving the clue to ensure that all those previous cards will play successfully.)
 - In the example below:
   - Bob has three separate unknown 3's in his hand.
   - Alice clues red to Cathy, which touches a red 4. This is a *Play Clue* on the red 4.
