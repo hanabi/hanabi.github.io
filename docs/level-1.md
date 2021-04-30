@@ -4,7 +4,7 @@ title: Level 1 - Fundamentals
 ---
 
 - Level 1 strategies can be learned with no games of Hanabi played. You can either learn them before you play your first game or after you play a few games to learn the basic mechanics.
-- This stuff is mostly a repeat of the [beginner's guide](beginner.md), but we go into a bit more detail.
+- This stuff is mostly a repeat of the [beginner's guide](beginner.md), but we go into a bit more detail here.
 
 <br />
 
@@ -59,7 +59,7 @@ title: Level 1 - Fundamentals
 
 - The *Early Game* is the period of time before someone discards for the first time.
 - Players **must** "extinguish" all of the available *Play Clues* and *Save Clues* on the board before ending the *Early Game*.
-  - As outlined in the [beginner's guide](beginner.md#3---minimum-clue-value-principle-and-tempo-clues), "extinguishing" all the *Play Clues* does **not** include giving *Tempo Clues*. *Tempo Clues* do not meet *Minimum Clue Value Principle*, so in general, they should almost never be given.
+  - As outlined in the [beginner's guide](beginner.md#principle-3---minimum-clue-value-principle-and-tempo-clues), "extinguishing" all the *Play Clues* does **not** include giving *Tempo Clues*. *Tempo Clues* do not meet *Minimum Clue Value Principle*, so in general, they should almost never be given.
 
 <br />
 

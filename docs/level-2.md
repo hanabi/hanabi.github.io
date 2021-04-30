@@ -74,24 +74,26 @@ import WrongPrompt from '@site/image-generator/yml/level-2/wrong-prompt.yml';
 
 ### The Reverse Finesse
 
-- In a normal *Finesse*, you give a clue to a player who comes after the player blind-playing a card. (e.g. clue --> blind-play --> clued-card plays)
-- If you give a *Finesse* clue to someone who gets to have a turn **before** the blind-play occurs, it is called a *Reverse Finesse*. This is more complicated than a normal *Finesse* and is harder to see. (e.g. clue --> clued player does unrelated action --> blind-play --> clued-card plays)
-- Because *Reverse Finesses* exist as a strategy, before playing any cards, players should always check out everyone's *Finesse Position*. If a card in someone's *Finesse Position* is playable and "connects" to the clue, then **they need to defer playing the clued card** for at least one go-around and wait to see what happens.
-- If the player with the "connecting" card blind-plays it, then it means that the clued card is the next card in the chain.
+- In a normal *Finesse*, you give a clue to a player who comes after the player blind-playing a card.
+  - i.e. clue --> blind-play --> clued-card plays
+- If you give a *Finesse* clue to someone who gets to have a turn **before** the blind-play occurs, it is called a *Reverse Finesse*. This is more complicated than a normal *Finesse* and is harder to see.
+  - i.e. clue --> clued player does unrelated action --> blind-play --> clued-card plays
+- Because we agree that *Reverse Finesses* should exist, players need to be careful before playing any cards. Players in this situation need to check out everyone else's *Finesse Position*. If a card in someone's *Finesse Position* is playable and "connects" to the clue, then **they should defer playing the clued card** for at least one go-around and wait to see what happens.
+- If a blind-play does happen, then it means that the clued card is the next card in the chain.
 - For example, in a 3-player game:
   - It is the first turn and nothing is played on the stacks.
   - Alice clues Bob red, which touches his red 2.
   - Next, it is Bob's turn. Normally, Bob would think that he had the red 1, and play it immediately.
   - However, Bob also notices that on Cathy has a red 1 on her slot 1 position. Thus, he has to give a chance for Cathy to prove whether or not a *Reverse Finesse* is happening. If Cathy does not blind-play anything, then Bob should have the red 1, and he can play it on his next turn.
   - Bob discards.
-  - Cathy blind-plays red 1. Bob now knows that he has the red 2.
+  - Cathy blind-plays the red 1. Bob now knows that he has the connecting red 2.
 
 <ReverseFinesse />
 
 - If the player with the "connecting" card **does not** blind-play, then the clued card is probably the other copy, and can be played on the next turn.
 - For example, in a 3-player game:
   - The setup is the same as the last example. Bob is clued red, so he suspects a *Reverse Finesse* is occurring and discards.
-  - Cathy discards.
+  - Cathy does an unrelated action.
   - Now Bob knows that the red card in his hand is actually the red 1.
 
 <br />
@@ -144,7 +146,7 @@ import WrongPrompt from '@site/image-generator/yml/level-2/wrong-prompt.yml';
 
 - When a card is misplayed and goes to the discard pile, the team accumulates a *strike* (which is also referred to as a *bomb*).
 - If three strikes are accumulated, the team will get a score of 0. This is to be **avoided at all costs**.
-  - (One exception is when players are explicitly going for a perfect score in a really tough variant, but this is less common.)
+  - One exception is when players are explicitly going for a perfect score in a really tough variant, but this is less common.
 - Building on this concept, it can also be **very bad** to get **two strikes in a row**. For example, say that Alice performs a bad clue and Bob misplays, causing a strike. And then Cathy "still believes" the original clue (thinking that Bob was the one who made the mistake instead of Alice), and Cathy goes on to misplay, causing yet another strike.
 - So, in general, we want to **isolate one mistake to one strike**. Why? Since Hanabi is so difficult, mistakes are common, and we don't want to push the team to the precipice of failure after one tiny mistake. That kind of thing is not very good for the overall win-rate.
 - This means that when a strike happens, **the state of information should "reset"** back to what it was before the mistake happened, at least most of the time.

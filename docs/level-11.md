@@ -171,7 +171,7 @@ import CluingOnes3 from '@site/image-generator/yml/level-11/cluing-ones-3.yml';
 
 <FocusInversion />
 
-- Note that ***Self-Finesses* with rank always take precedence over *Focus Inversion***. (*Self-Finesses* with rank are quite common, but *Self Finesses* with color are nonsensical.)
+- Note that ***Self-Finesses* with rank always take precedence over *Focus Inversion***, which is a specific case where *Occam's Razor* does not apply. (*Self-Finesses* with rank are quite common, but *Self Finesses* with color are nonsensical.)
 
 <br />
 

@@ -72,7 +72,7 @@ import InformationLock from '@site/image-generator/yml/level-3/information-lock.
 
 ### The Fix Clue
 
-- Nearly every clue that is either a *Save Clue* or *Play Clue*. One small exception to this is a *Fix Clue*, which is an attempt to "fix" an impending misplay.
+- Nearly every clue is either a *Save Clue* or *Play Clue*. One small exception to this is a *Fix Clue*, which is an attempt to "fix" an impending misplay.
 - *Fix Clues* are often needed when a duplicate card is touched. Cards are not normally duplicated (which follows from *Good Touch Principle*), but sometimes someone makes a mistake, or a sequence of particular cards makes duplicating necessary. Duplicate cards will lead to misplays, so it is the team's responsibility to fix the problem and intervene before this happens.
 - In the example below:
   - Before the clue was given, Bob had an unknown purple card in his hand.
@@ -131,7 +131,7 @@ import InformationLock from '@site/image-generator/yml/level-3/information-lock.
 - Generally, the **first** player who fully realizes that they have the duplicate card should discard it (as opposed to playing it or holding on to it). This is called a *Sarcastic Discard*, and it communicates to the other player that they 100% have the discarded card. (This is because normally, from *Good Touch Principle*, we never discard cards that have been clued, so if a player discards a clued card, something special must be going on.)
 - For example, in a 3-player game:
   - Red 2 is played on the stacks.
-  - Alice has one red 3 clued in his hand with just number 3.
+  - Alice has one red 3 clued in his hand with just number 3. (She does not know which suit it is.)
   - Alice clues number 3 to Bob, which touches one 3. (This is a mistake, because it might be violating *Good Touch Principle*.)
   - Bob knows that the only playable 3 is red 3. He also knows that Alice has a clued red 3 already in her hand. Thus, he knows that he has the red 3 and that Alice made a mistake.
   - Bob performs a *Sarcastic Discard* to pass the red 3 back to Alice.
