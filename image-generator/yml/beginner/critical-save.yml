@@ -5,7 +5,7 @@ stacks:
   - b: 1
   - p: 0
 discarded:
-  - y4
+  - b4
 players:
   - clue_giver: true
     cards:
@@ -18,6 +18,6 @@ players:
       - type: x
       - type: x
       - type: x
-      - type: y
-        clue: y
+      - type: b
+        clue: b
       - type: 5rgpb

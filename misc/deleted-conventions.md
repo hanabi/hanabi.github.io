@@ -41,7 +41,7 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
   - Alice clues number 2 to Bob, touching a blue 2 on slot 2.
   - Bob does not see any other 1's on *Finesse Position*. Thus, the number 2 clue must be a *Self-Finesse*, so he blind-plays red 1.
   - Cathy comes next. From her perspective, Bob should currently think that his slot 2 card is red 2 (instead of blue 2). If nothing else happens, Bob will go on to misplay that card.
-- In the above example, say that Cathy sees the red 2 in Donald's hand and she can uniquely clue it. If she does, Donald will go on to immediately play it.
+- In the previous example, say that Cathy sees the red 2 in Donald's hand and she could uniquely clue it. If she does, Donald will go on to immediately play it.
 - This would "heal" the problem, as Bob would not think that he has red 2 anymore. Thus, this clue is called a *Heal Clue*.
 - The original Bluff is called a Disease Bluff, since it requires healing. In a convention framework with *Disease Bluffs*, giving a *Heal Clue* would be the highest priority interpretation.
 - *Disease Bluffs* were deleted because they were too inefficient.

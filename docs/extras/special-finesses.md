@@ -42,7 +42,7 @@ import TrashPushInvertedFinesse from '@site/image-generator/yml/extras/special-f
 
 <AmbiguousFinessePassBack />
 
-- As a side note, you may be wondering why, in the above example, Cathy does not blind-discard her blue 2 from her *Finesse Position* instead of discarding her chop. This is because it is possible that Cathy does **not** have the blue 2 on her *Finesse Position* and instead has some other unrelated playable card as a *Layered Finesse*. Thus, Cathy must play it safe and discard her chop.
+- As a side note, you may be wondering why in the previous example Cathy does not blind-discard her blue 2 from her *Finesse Position* instead of discarding her chop. This is because it is possible that Cathy does **not** have the blue 2 on her *Finesse Position* and instead has some other unrelated playable card as a *Layered Finesse*. Thus, Cathy must play it safe and discard her chop.
 
 <br />
 
@@ -131,16 +131,18 @@ import TrashPushInvertedFinesse from '@site/image-generator/yml/extras/special-f
 
 ### The Bad Touch Double Finesse (for 3's)
 
-- Normally, a *3 Bluff* takes priority over a *Double Finesse*. This means that if someone clues a blue 3 using the number 3, and then a blue 1 blind-plays on the very next turn, no-one is promised the blue 2.
-- However, if **both** blue 3's were touched with the number 3 clue, then that would violate *Good Touch Principle*, and this would be considered a "bad touch".
-- If someone is violating *Good Touch Principle*, they must have a very good reason, so the clue must be a *Double Finesse* instead of a *3 Bluff*. In the above example, the next player should blind-play the blue 2 from their *Finesse Position*.
+- Normally, a *3 Bluff* takes priority over a *Double Finesse*. For example, someone clues a red 3 using a number 3 clue, and then the next player blind-plays a red 1, no-one on the team is promised to have a red 2.
+- However, if **both copies** of red 3 were clued with the number 3 clue, that would violate *Good Touch Principle* (and be considered a *Bad Touch*). If someone is violating *Good Touch Principle*, they must have a very good reason.
+- Thus, in this situation, the clue must be a *Double Finesse* instead of a *3 Bluff*, so the next player should go on to blind-play the red 2.
 - After that, the player who received the clue can safely discard the focused 3.
 - For example, in a 4-player game:
   - It is the first turn and nothing is played on the stacks.
   - Alice clues number 3 to Donald, touching two red 3's.
-  - Bob blind-plays his *Finesse Position* and it is red 1.
+  - Bob blind-plays his *Finesse Position* and it is a red 1.
   - Cathy knows that normally, this would be a *3 Bluff*. However, since the red 3's are duplicated, this must be a *Bad Touch Double Finesse*, so Cathy blind-plays her *Finesse Position* and it is the red 2.
-  - Donald knows that the other 3 in his hand must be the other copy of red 3, or else Cathy would not have blind-played anything, so Donald plays the non-focused red 3. The next time that Donald discards, he will discard the known trash red 3.
+  - From Donald's perspective, after Bob blind-played the red 1, he figured Alice was performing a *3 Bluff*.
+  - However, after Cathy blind-played the red 2, he knows that it could not be a *3 Bluff*, because then Cathy would not have blind-played anything.
+  - Instead, Donald knows that he must hold both copies of red 3. Donald plays the non-focused red 3. The next time that Donald discards, he will discard the known trash red 3.
 
 <BadTouchDoubleFinesse />
 
@@ -152,11 +154,11 @@ import TrashPushInvertedFinesse from '@site/image-generator/yml/extras/special-f
   - No cards are played on the stacks.
   - Alice clues both copies of red 3 in Cathy's hand.
   - Bob blind-plays a blue 1.
-  - Bob knows that if only one red 3 was touched, this would just be a normal *3 Bluff*. However, since there was a bad touch, he knows that he must continue to blind-play cards until he finds the red 1 and the red 2.
+  - Bob knows that if only one red 3 was touched, this would just be a normal *3 Bluff*. However, since there was a *Bad Touch*, he knows that he must continue to blind-play cards until he finds the red 1 and the red 2.
 
 <BadTouchLayeredFinesseDupes />
 
-- *Bad Touch Layered Finesses* are **explicitly illegal** because they violate *Lie Principle* - Bob cannot demonstrate that it is a bad touch until after Cathy has already taken a turn.
+- *Bad Touch Layered Finesses* are **explicitly illegal** because they violate *Lie Principle* - Bob cannot demonstrate that it is a *Bad Touch* until after Cathy has already taken a turn.
 
 <br />
 

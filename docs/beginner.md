@@ -180,11 +180,11 @@ In this guide, there will be some images to show off the concepts introduced.
 - Players can choose to save critical cards with either a color clue **or** a number clue.
   - Note that this also applies to 2's in the rare case that a copy of that 2 ends up in the discard pile.
 - In the example below:
-  - Alice clues Bob yellow, which touches a card on slot 4.
+  - Alice clues Bob blue, which touches a card on slot 4.
   - Before this clue, the only clued card in Bob's hand was the 5 on slot 5.
-  - This could be a *Play Clue* on the yellow 2. However, since the clue was focused on his chop, this could also be a *Save Clue*.
-  - Bob looks through the discard pile and finds that there is a yellow 4 there. Thus, this could be a *Save Clue* on the yellow 4. So, Bob knows that for now, he has to hold on to the card.
-  - Bob marks the card as either a yellow 2 or a yellow 4, so that he can keep track of it for later. Then, he discards.
+  - Bob's first instinct is that this could be a *Play Clue* on the blue 2. However, since the clue was focused on his chop, this could also be a *Save Clue*.
+  - Bob looks through the discard pile and finds that there is a blue 4 there. Thus, this could be a *Save Clue* on the blue 4. So, Bob knows that for now, he has to hold on to the card.
+  - Bob marks the card as either a blue 2 or a blue 4, so that he can keep track of it for later. Then, he discards.
 
 <CriticalSave />
 
@@ -198,7 +198,7 @@ In this guide, there will be some images to show off the concepts introduced.
 
 - We are very strict with what we clue - we don't just randomly clue cards in the hand.
 - So, if the focus of the clue is not on chop, then that card must be playable!
-- Or, if a *Save Clue* is given to a card that does not meet the above saving criteria, then it is not a *Save Clue* at all, and must be a *Play Clue*!
+- Or, if the focus of the clue is on chop, but the clue does not meet the above saving criteria, then it cannot be a *Save Clue* and must be a *Play Clue*!
 
 <br />
 
@@ -227,21 +227,21 @@ In this guide, there will be some images to show off the concepts introduced.
 ## The Three Main Principles
 
 - So far, we have covered:
-  - how to discard (e.g. the chop)
-  - how to tell what the focus of a clue is (e.g. *Chop-Focus* or left-most)
-  - how to tell what a clue means (e.g. a *Play Clue* or a *Save Clue*)
+  - how to discard (i.e. the chop)
+  - how to tell what the focus of a clue is (i.e. *Chop-Focus* or left-most)
+  - how to tell what a clue means (i.e. a *Play Clue* or a *Save Clue*)
 - But that doesn't really tell you much about the *strategy* involved to play the game. How do players find the best move for a certain situation?
 - Hanabi is very complicated, so it is impossible to write a guide on how to make the best move. (And that's a good thing, because the game continues to be interesting to play, even after thousands of games!)
 - Luckily, beginners can focus on internalizing just **three main principles**. Nearly all of the special moves and strategies naturally flow from these principles.
 
 <br />
 
-### 1 - Good Touch Principle
+### Principle 1 - Good Touch Principle
 
 - When cluing cards, we follow *Good Touch Principle* - **we only touch cards that will eventually be played**.
   - It would be a *Bad Touch* if someone touches a card that is already played on the stacks or a card that is already clued in someone else's hand.
 - *Good Touch Principle* is a powerful building block for logic and reasoning. If everyone only touches good cards, then players can greatly narrow down the possibilities for the clued cards in their hand!
-- In the above image:
+- In the below image:
   - Alice wants to give a *Play Clue* to the red 2.
   - Alice has a choice between cluing red and cluing number 2.
   - If she clues number 2, it would uniquely touch the red 2 on slot 1.
@@ -268,7 +268,7 @@ In this guide, there will be some images to show off the concepts introduced.
 
 <br />
 
-### 2 - Save Principle
+### Principle 2 - Save Principle
 
 - The *Save Clue* section above explains that the team must save certain types of cards.
 - But above and beyond this, we also agree that we must "get" all of the playable cards. In order words, **we don't let each other discard playable cards!**
@@ -281,7 +281,7 @@ In this guide, there will be some images to show off the concepts introduced.
 
 <br />
 
-### 3 - Minimum Clue Value Principle (and *Tempo Clues*)
+### Principle 3 - Minimum Clue Value Principle (and *Tempo Clues*)
 
 - Usually, players only discard when they have nothing to do. But don't take this the wrong way.
 - In order to avoid discarding, you are *not allowed* to just clue any card. You are only allowed to give *Save Clues* to the specific cards outlined in the *Save Principle* section. And you are only allowed to give *Play Clues* to actual playable cards.
@@ -394,7 +394,7 @@ In this guide, there will be some images to show off the concepts introduced.
 <Finesse1 />
 
 - Note that ***Prompts* take precedence over *Finesses***. Players should never blind-play a card if the situation can apply to the clued cards in their hand.
-- When a *Finesse* occurs, it causes temporary information desynchronization. (In the above example, if Bob did nothing, Cathy would go on to think that she had the red 3, but she really doesn't have the red 3, which means that information is not synchronized throughout the team.)
+- When a *Finesse* occurs, it causes temporary information desynchronization. (In the previous example, if Bob did nothing, Cathy would go on to think that she had the red 3, but she really doesn't have the red 3, which means that information is not synchronized throughout the team.)
 - For this reason, blind-playing a card into a *Finesse* is very important - by doing so, it resynchronizes all of the information. So, **if a player is *Finessed*, they should usually blind-play the card immediately**, even if they have other important cards to play or some good clue to give.
 - We define the *Finesse Position* as the slot that a player's left-most unclued card is in. A player's *Finesse Position* can move around, and if it does, it is still possible to *Finesse* them.
 - In the example below:
