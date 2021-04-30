@@ -9,7 +9,5 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 # Install Python dependencies
 pip install -r "$DIR/image-generator/requirements.txt" --quiet
 
-# Build the website, which will go into the "build" subdirectory
 cd "$DIR"
-rm -rf "$DIR/build"
-npm run build
+npm run start
