@@ -5,7 +5,7 @@ stacks:
   - b: 1
   - p: 1
 big_text:
-  text: Clues 1
+  text: "Clues: 1"
   color: black
 players:
   - clue_giver: true
@@ -14,14 +14,12 @@ players:
       - type: x
       - type: x
       - type: x
-  - text: Alice used the last clue
   - name: Bob
     cards:
       - type: x
       - type: x
       - type: x
       - type: x
-  - text: Bob discards giving back a clue
   - name: Cathy
     cards:
       - type: x
@@ -29,7 +27,6 @@ players:
       - type: x
       - type: x
       - type: x
-  - text: Cathy clues 5 to Donald as a 5 Save
   - name: Donald
     cards:
       - type: x

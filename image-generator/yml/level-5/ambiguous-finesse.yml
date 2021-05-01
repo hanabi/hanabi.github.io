@@ -17,7 +17,6 @@ players:
       - type: x
       - type: x
       - type: x
-  - text: Bob sees Red 1 on Cathy and discards
   - name: Cathy
     cards:
       - type: x
@@ -25,7 +24,6 @@ players:
       - type: x
       - type: x
       - type: x
-  - text: Cathy sees Red 1 on Bob and discards
   - name: Donald
     cards:
       - type: x

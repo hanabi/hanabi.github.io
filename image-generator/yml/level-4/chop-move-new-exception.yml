@@ -6,7 +6,7 @@ stacks:
   - p: 2
   - m: 2
 players:
-  - text: Situation before clue
+  - text: "Before the clue:"
   - name: Alice
     cards:
       - type: x
@@ -26,7 +26,7 @@ players:
           text:
             - Chop
             - Moved
-  - text: Situation after clue
+  - text: "After the clue:"
   - name: Alice
     clue_giver: true
     cards:
