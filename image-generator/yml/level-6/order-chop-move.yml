@@ -36,6 +36,7 @@ players:
           color: darkgreen
       - type: 1
         clue: 1
+        below: Expected
       - type: x
       - type: x
   - cards:
