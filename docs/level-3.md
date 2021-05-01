@@ -54,6 +54,8 @@ import InformationLock from '@site/image-generator/yml/level-3/information-lock.
 
 <PlayingMultiple1s2 />
 
+<br />
+
 #### Part 3 - The Chop-Focus Exception
 
 - The *Fresh 1's Rule* has an exception: *Chop-Focus* **overrides** it.
@@ -179,11 +181,11 @@ import InformationLock from '@site/image-generator/yml/level-3/information-lock.
 
 - *Tempo* is a term used to describe the speed at which cards are played. (This is similar to how it is used in other games such as chess.)
 - Hanabi can be thought of a race to get all the cards played before the time runs out. This means that even if the team is being extremely efficient, they can still lose the game if they are not playing their cards fast enough. Thus, players have to **strike a balance between *Efficiency* and *Tempo***. You can think of *Efficiency* and *Tempo* as the yin and yang of Hanabi.
-- At the beginning of the game, there is a lot of time left, so players will generally prefer clues that get a lot of efficiency over clues that get a lot of tempo.
-- At the end of the game, there is almost no time left, so players stop caring about efficiency and start caring only about tempo.
+- At the beginning of the game, there is a lot of time left, so players will generally prefer clues that get a lot of *Efficiency* over clues that get a lot of *Tempo*.
+- At the end of the game, there is almost no time left, so players stop caring about *Efficiency* and start only caring about *Tempo*.
 - On Hanab Live, "Pace" is shown at the right side of the screen. Pace is a measure of how many more discards can occur, so this essentially tells you how much time is left in the game. Starting pace is calculated by the following formula:
   - `current score + cards in deck + number of players - maximum score`
-- Even at the beginning of the game, players might prefer a clue that gets tempo over a more efficient clue if it will prevent the discard of some other useful card. It all depends on the context of the game!
+- Note that even at the beginning of the game, players might prefer a clue that gets *Tempo* over a more efficient clue if it will prevent the discard of some other useful card. It all depends on the context of the game!
 
 <br />
 

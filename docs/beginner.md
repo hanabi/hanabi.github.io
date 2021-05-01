@@ -83,6 +83,8 @@ In this guide, there will be some images to show off the concepts introduced.
 
 <BasicClue />
 
+<br />
+
 ## Single Card Focus
 
 - It is also possible to give a clue that "touches" **two or more** cards.
@@ -109,6 +111,8 @@ In this guide, there will be some images to show off the concepts introduced.
 - Since the other red card in his hand must be useful, Bob can reason that it is either red 2, red 3, red 4, or red 5. He will hold on to the card for later.
 
 <LeftMostFocus />
+
+<br />
 
 #### Example 2: Chop-Focus
 

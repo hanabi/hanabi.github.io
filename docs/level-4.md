@@ -36,7 +36,7 @@ import ChopMovePrompt from '@site/image-generator/yml/level-4/chop-move-prompt.y
 
 ### The Trash Chop Move
 
-- In the middle of a game, if all of the 1's have been played already, and someone clues a 1, this is quite strange. (From *Good Touch Principle*, players are not supposed to touch cards that have already been played.) In this situation, the 1 is considered "trash".
+- In the middle of a game, if all of the 1's have been played already, and someone clues a 1, this is quite strange. (From *Good Touch Principle*, players are not supposed to touch cards that have already been played.) In this situation, the 1 is considered to be *Trash*.
 - The clue must have some deeper meaning. We agree that it means that the cards to the right of the trash are important. The point of the clue was to give the player a safe discard.
 - However, in addition to giving a safe discard, it should also *Chop Move* **all** of the cards to the right of the trash.
 - For example, in a 3-player game:
@@ -105,8 +105,7 @@ import ChopMovePrompt from '@site/image-generator/yml/level-4/chop-move-prompt.y
 - Note that the *5's Chop Move* is different than the *Trash Chop Move* in that you can only chop move **one** card with it. Thus, if you clue a 5 and it is **two** (or more) slots away from the chop, then it is to be assumed to be a *Play Clue* on the 5.
   - When counting how far away from chop a card is, you should only look at **unclued** cards.
 - Remember that *5 Stalls* takes precedence over *5's Chop Moves*. Thus, if a number 5 clue **could** just be a *5 Stall* (e.g. it is the *Early Game*), then it should not *Chop Move* anything.
-  - Technically, one could try to analyze whether a clue is a *5 Stall* or *5's Chop Move* by looking at whether the clue-giver had a different clue to give, since *5 Stalls* are only permitted if all "normal" *Play Clues* and *Save Clues* have been extinguished.
-  - However, this analysis relies on asymmetric information, and can be confusing even for experienced players. So, this move is not introduced until [level 17](level-17.md#special-moves).
+  - Technically, one could try to analyze whether a clue is a *5 Stall* or *5's Chop Move* by looking at whether the clue-giver had a different clue to give, since *5 Stalls* are only permitted if all "normal" *Play Clues* and *Save Clues* have been extinguished. However, this analysis relies on asymmetric information, and can be confusing even for experienced players. So, this move is not introduced until [level 17](level-17.md#special-moves).
 
 <br />
 
@@ -174,4 +173,4 @@ import ChopMovePrompt from '@site/image-generator/yml/level-4/chop-move-prompt.y
 
 - Often times a player can misinterpret a clue as a *Chop Move* when it really had some other meaning. If this happens, after they discard their new *Chop*, everyone else on the team will know that an accidental *Chop Move* has occurred.
 - Later on in the game, sometimes a player in this situation can retroactively realize that they have made a mistake by *Chop Moving* earlier on. They might be tempted to shift their chop back to where it is supposed to be.
-- However, unless they discard a critical card (see the above section), players should generally **not ever undo a *Chop Move***, because they could be discarding a now-critical card that was not critical at the time of the original mistake. Everyone else on the team did not bother to clue the now-critical card, because they thought it was safely *Chop Moved*.
+- However, unless they discard a critical card (see the above section), players should **not ever undo a *Chop Move***, because they could be discarding a now-critical card that was not critical at the time of the original mistake. Everyone else on the team did not bother to clue the now-critical card, because they thought it was safely *Chop Moved*.

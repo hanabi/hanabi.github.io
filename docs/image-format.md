@@ -171,17 +171,23 @@ Text can be placed on a card:
 
 <Example code={CardTextSource} Image={CardTextResult} />
 
+<br />
+
 ### Discard Pile
 
 For some examples, some cards in the discard pile need to be shown. This is performed with the `discarded` array on the top level.
 
 <Example code={TrashSource} Image={TrashResult} />
 
+<br />
+
 ### Big Text
 
 For keywords "Bluff", "Finesse" and "Illegal!", color is ignored.
 
 <Example code={BigTextSource} Image={BigTextResult} />
+
+<br />
 
 ### Variants
 
