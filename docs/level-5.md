@@ -139,7 +139,7 @@ import UrgencyPrinciple from '@site/image-generator/yml/level-5/urgency-principl
 
 ### Urgency Principle (Playing Into Finesses as Soon as Possible)
 
-- Normally, when a *Finesse* occurs, someone blind-plays right away. This is extremely important, because it resynchronizes the information among the team. So, as a group, we agree to **blind-play our cards as soon as reasonably possible**. This is called *The Urgency Principle*.
+- Normally, when a *Finesse* occurs, someone blind-plays right away. This is extremely important, because it resynchronizes the information among the team. So, as a group, we agree to **blind-play our cards as soon as reasonably possible**. This is called the *Urgency Principle*.
 - Thus, if you see that a player does **not** blind-play into the *Finesse*, then you know that the *Finesse* must be **on you**.
 - However, there are two important exceptions:
   1. Players are allowed to **defer** playing into a *Finesse* if they are doing a *Finesse* of their own (and no-one else on the team could have done it).
