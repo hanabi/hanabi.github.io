@@ -11,11 +11,6 @@ players:
       - type: x
       - type: x
       - type: x
-        above:
-          text:
-            - Chop
-            - Move
-          color: maroon
   - clue_giver: true
     cards:
       - type: 1
@@ -36,7 +31,10 @@ players:
           color: darkgreen
       - type: 1
         clue: 1
-        below: Expected
+        below:
+          text:
+            - Expected
+            - Play
       - type: x
       - type: x
   - cards:
@@ -45,8 +43,3 @@ players:
       - type: x
       - type: x
       - type: x
-        above:
-          text:
-            - Chop
-            - Move
-          color: darkgreen

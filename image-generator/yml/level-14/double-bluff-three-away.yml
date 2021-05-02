@@ -35,6 +35,6 @@ players:
     cards:
       - type: x
       - type: r
-        below: red 4
+        below: Red 4
       - type: x
       - type: x
