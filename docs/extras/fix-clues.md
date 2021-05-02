@@ -13,9 +13,9 @@ title: Fix Clues
 
 ### The Speed-up Clue
 
-- The *Layered Finesse* convention (and its derivatives) are very efficient (in terms of "X-for-1"). However, sometimes it can be very slow (low-*tempo*), as players will have to allow for all possible *Reverse Finesses* before playing anything. This is generally not a problem in 3-player games, but *tempo* is important in 5-player games.
+- The *Layered Finesse* convention (and its derivatives) are very efficient (in terms of "X-for-1"). However, sometimes it can be very slow (low-*Tempo*), as players will have to allow for all possible *Reverse Finesses* before playing anything. This is generally not a problem in 3-player games, but *Tempo* is important in 5-player games.
 - Normally, when the *Finesse Target* (the card that is to be blind-played) is clued directly, it is a mistake due to someone not paying close enough attention. We refer to this as *Stomping on a Finesse*.
-- However, if high-*tempo* is needed, a player can consider intentionally *stomping* on a *Layered Finesse* in order to "speed up" the play of a specific card that leads into other players hands.
+- However, if high-*Tempo* is needed, a player can consider intentionally *stomping* on a *Layered Finesse* in order to "speed up" the play of a specific card that leads into other players hands.
 - One complicating factor of the *Speed-up Clue* is how to differentiate it from a more-ordinary *Fix Clue*. In other words, after the clued card is played, on their next turn, should the player go back and blind-play the other cards? If it was a *Speed-up Clue*, they should. If it was a *Fix Clue*, they should not.
 - The key lies in the context of the clue:
   - Was it possible to take an equivalent line where a *Fix Clue* would not be needed? (In terms of the same number of clues, and no risk of discarding critical/playable cards.) If yes, then it is a *Speed-up Clue*.

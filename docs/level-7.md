@@ -13,7 +13,7 @@ title: Level 7 - End-Game
 
 ### End-Game Threshold
 
-- Towards the end of the game, the strategy of the team will change. In most games, you stop becoming concerned with efficiency and become more concerned with tempo - every card needs to play **right now** before the game ends!
+- Towards the end of the game, the strategy of the team will change. In most games, you stop becoming concerned with efficiency and become more concerned with *Tempo* - every card needs to play **right now** before the game ends!
 - Thus, since clues can mean different things depending on whether you are in the *Mid-Game* or the *End-Game*, you need to be able to keep track of when the *End-Game* has arrived.
 - *Pace* is used to determine *End-Game* status. If pace is **less than the number of players**, the *End-Game* has arrived.
   - On [Hanab Live](https://hanab.live), pace will turn yellow when this occurs.

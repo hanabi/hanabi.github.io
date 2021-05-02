@@ -17,15 +17,18 @@ players:
   - cards:
       - type: x
       - type: x
-      - type: x
-        above: Green 4
-        middle_note: (cm)
-      - type: x
-        middle_note: (2)
+      - type: g4
+        border: false
+        above:
+          text:
+            - Chop
+            - Moved
+      - type: r2
         clue: r
-      - type: x
-        middle_note: (5)
+        retouched: true
+      - type: r5
         clue: r
+        retouched: true
   - cards:
       - type: x
       - type: x

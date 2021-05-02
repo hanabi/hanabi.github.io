@@ -15,13 +15,14 @@ players:
       - type: x
       - type: r2
         clue: 2
+        retouched: true
       - type: x
       - type: x
       - type: x
         above:
           text:
             - Chop
-            - Move
+            - Moved
   - clue_giver: true
     cards:
       - type: x

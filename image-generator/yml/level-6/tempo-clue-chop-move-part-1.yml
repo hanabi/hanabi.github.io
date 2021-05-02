@@ -15,12 +15,12 @@ players:
   - cards:
       - type: r
         clue: r
+        below: Focus
       - type: r
         clue: r
       - type: x
       - type: x
       - type: x
-  - text: Bob plays slot 1 as Red 1
   - name: Cathy
     cards:
       - type: x
@@ -28,3 +28,4 @@ players:
       - type: x
       - type: x
       - type: x
+  - text: Bob plays slot 1.

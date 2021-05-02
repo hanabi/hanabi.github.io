@@ -90,7 +90,7 @@ import TrashPush from '@site/image-generator/yml/level-13/trash-push.yml';
 
 <ReverseTrashFinesse />
 
-- Note that *Reverse Trash Finesses* should not always be entertained and **depend on context**. Specifically, towards the end of the game, *Reverse Trash Finesses* are "turned off". This is because towards the end of the game, the team needs tempo, and *Reverse Trash Finesses* are slow and require even more discarding.
+- Note that *Reverse Trash Finesses* should not always be entertained and **depend on context**. Specifically, towards the end of the game, *Reverse Trash Finesses* are "turned off". This is because towards the end of the game, the team needs *Tempo*, and *Reverse Trash Finesses* are slow and require even more discarding.
 
 <br />
 

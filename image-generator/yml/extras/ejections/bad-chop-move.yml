@@ -5,7 +5,7 @@ stacks:
   - b: 2
   - p: 2
 big_text:
-  text: mid game
+  text: Mid-Game
   color: black
 players:
   - clue_giver: true

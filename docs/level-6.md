@@ -134,12 +134,15 @@ import DiscardModulation2 from '@site/image-generator/yml/level-6/discard-modula
   - Alice clues red to Bob, which touches two cards on slot 1 and slot 2.
   - Bob plays red 1 from slot 1. The red card in slot 2 could be red 2, red 3, red 4, or red 5.
   - Cathy clues number 2 to Bob, which does not introduce any new cards, but it does "fill in" his slot 2 card.
-  - Bob now knows that he has exactly red 2 on slot 2 and that this was a *Tempo Clue*. Since it does not get any new cards and only get tempo on one card in total, he knows that he should also *Chop Move* his slot 5 card.
+  - Bob now knows that he has exactly red 2 on slot 2 and that this was a *Tempo Clue*. Since it does not get any new cards and only get *Tempo* on one card in total, he knows that he should also *Chop Move* his slot 5 card.
 
 <TempoClueChopMovePart1 />
+
+<hr />
+
 <TempoClueChopMovePart2 />
 
-- Normally, when two cards are retouched with a clue, it is a *Double Tempo Clue* and the player should play both cards. However, this interpretation does not apply if the second card is strictly not playable. In this situation, all players can see that since only one card is getting tempo, the interpretation of the clue should be a *Tempo Clue Chop Move*.
+- Normally, when two cards are retouched with a clue, it is a *Double Tempo Clue* and the player should play both cards. However, this interpretation does not apply if the second card is strictly not playable. In this situation, all players can see that since only one card is getting *Tempo*, the interpretation of the clue should be a *Tempo Clue Chop Move*.
 - For example, in a 3-player game:
   - Red 1 is played on the stacks.
   - Green 4 is in the trash.
@@ -149,7 +152,8 @@ import DiscardModulation2 from '@site/image-generator/yml/level-6/discard-modula
     - a red 5 on slot 5 with a 5 clue on it
   - Alice clues red to Bob, which re-touches his slot 4 card and his slot 5 card, "filling" both of them in.
   - Bob knows that this is a *Tempo Clue*, and plays red 2.
-  - In most cases, since two cards were re-touched, they should both be playable. However, Bob knows that the red 5 is strictly not playable right now. Thus, since the clue did not get any new cards and only got tempo on one card in total, he knows that he should also *Chop Move* his slot 3 card.
+  - In most cases, since two cards were re-touched, they should both be playable. However, Bob knows that the red 5 is strictly not playable right now. Thus, since the clue did not get any new cards and only got *Tempo* on one card in total, he knows that he should also *Chop Move* his slot 3 card.
+  - Cathy knows that no-one else on the team is promised the red 3 and the red 4.
 
 <TempoClueChopMovePart3 />
 
@@ -177,10 +181,10 @@ import DiscardModulation2 from '@site/image-generator/yml/level-6/discard-modula
 
 - Often times, either you or the player who comes after you can perform a clue. And the clue would have the same result if done by either player. So who should do it?
 - One way to decide is to look at the next player's chop. Is their chop high-value, low-value, or useless? If it is high-value, then you should discard and let them give the clue. If it is low-value or useless, then you should give the clue and let them discard.
-- "Stealing" clues in this way is called *Discard Modulation*. If other players are discarding to let you give all of the clues, you probably have a high-value chop.
+- "Stealing" clues in this way is called *Discard Modulation*. If other players are discarding to let you give all of the clues, you might have a high-value chop.
 - For example, in a 3-player game:
   - All the 1's are played on the stacks except for the red 1.
-  - It is the *Mid Game*
+  - It is the *Mid-Game*
   - Alice plays the red 1 from her hand. (It was clued earlier with a *Play Clue*.)
   - Cathy has a red 3 on chop. This is a *one-away-from-playable* card that is valuable to the team. However, it would be illegal to clue the card directly with a *Play Clue* or a *Save Clue*.
   - Alice has a green 2 in her hand.

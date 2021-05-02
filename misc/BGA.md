@@ -115,7 +115,7 @@ If you're reading this far, you'll want to know some of the basic differences be
 
 ### What's Different?
 
-- We will get into some specifics shortly. But in general, BGA conventions are more focused on **tempo** (getting cards played "right now") and **aggressive discarding**, while Hyphen-ated conventions are focused more on **orchestrating safe discards** and **absolute trust**.
+- We will get into some specifics shortly. But in general, BGA conventions are more focused on ***Tempo*** (getting cards played "right now") and **aggressive discarding**, while Hyphen-ated conventions are focused more on **orchestrating safe discards** and **absolute trust**.
 - Another general difference is when mistakes happen. On BGA, there is more wiggle room when someone makes a small mistake. In our group, even a small mistake can cause cascading failures, because everyone is strongly attuned to what everyone else is doing.
 
 ### A Note on the Conventions Themselves
