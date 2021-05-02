@@ -8,7 +8,6 @@ import TempoClueChopMovePart1 from '@site/image-generator/yml/level-6/tempo-clue
 import TempoClueChopMovePart2 from '@site/image-generator/yml/level-6/tempo-clue-chop-move-part-2.yml';
 import TempoClueChopMovePart3 from '@site/image-generator/yml/level-6/tempo-clue-chop-move-part-3.yml';
 import DiscardModulation from '@site/image-generator/yml/level-6/discard-modulation.yml';
-import DiscardModulation2 from '@site/image-generator/yml/level-6/discard-modulation-2.yml';
 
 - Level 6 strategies should only be learned if you have 80+ games of experience with the group.
 
@@ -184,7 +183,7 @@ import DiscardModulation2 from '@site/image-generator/yml/level-6/discard-modula
 - "Stealing" clues in this way is called *Discard Modulation*. If other players are discarding to let you give all of the clues, you might have a high-value chop.
 - For example, in a 3-player game:
   - All the 1's are played on the stacks except for the red 1.
-  - It is the *Mid-Game*
+  - It is the *Mid-Game*.
   - Alice plays the red 1 from her hand. (It was clued earlier with a *Play Clue*.)
   - Cathy has a red 3 on chop. This is a *one-away-from-playable* card that is valuable to the team. However, it would be illegal to clue the card directly with a *Play Clue* or a *Save Clue*.
   - Alice has a green 2 in her hand.
