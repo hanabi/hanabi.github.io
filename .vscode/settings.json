@@ -1,6 +1,13 @@
 // These are Visual Studio Code settings that should apply to this particular repository
 {
+  // ----------------
+  // Vanilla settings
+  // ----------------
+
+  // Linux line endings are used in this project
   "files.eol": "\n",
+
+  // Automatically removing all trailing whitespace when saving a file
   "files.trimTrailingWhitespace": true,
 
   // Configure glob patterns for excluding files and folders in full text searches and quick open
@@ -8,6 +15,19 @@
     "**/*.png*": true,
     "**/*.svg*": true,
   },
+
+  // ----------
+  // JavaScript
+  // ----------
+
+  "[javascript]": {
+    "editor.rulers": [100],
+    "editor.tabSize": 2,
+  },
+
+  // ------
+  // Python
+  // ------
 
   // Use "black" to automatically format Python files
   // https://github.com/psf/black
