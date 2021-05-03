@@ -114,6 +114,8 @@ def main():
 
 
 def draw_play_stacks(yaml_file, svg_file):
+    global x_offset
+
     if "stacks" not in yaml_file:
         return x_offset, 0
 
@@ -260,13 +262,15 @@ def draw_player_card(yaml_file, svg_file, card):
         svg_file.add(clue_border)
 
         if y_offset == 0:
-            y_top = min(y_top, -clue_border_overlap/2)
+            y_top = min(y_top, -clue_border_overlap / 2)
 
     crossed_out = str(card.get("crossed_out", ""))
     orange = str(card.get("orange", ""))
 
     if clued:
-        draw_clued_card(yaml_file, svg_file, card_type, crossed_out, orange, x_offset, y_offset)
+        draw_clued_card(
+            yaml_file, svg_file, card_type, crossed_out, orange, x_offset, y_offset
+        )
     else:
         draw_unclued_card(
             yaml_file, svg_file, x_offset, y_offset, card_type[1:], crossed_out, orange
@@ -277,7 +281,9 @@ def draw_player_card(yaml_file, svg_file, card):
     x_offset += CARD_WIDTH + HORIZONTAL_SPACING_BETWEEN_CARDS
 
 
-def draw_unclued_card(yaml_file, svg_file, x_offset, y_offset, pips, crossed_out, orange):
+def draw_unclued_card(
+    yaml_file, svg_file, x_offset, y_offset, pips, crossed_out, orange
+):
     s = svg_file.add(svg_file.svg((x_offset, y_offset), (CARD_WIDTH, CARD_HEIGHT)))
     card_image = svg_file.rect(
         (0, 0),
@@ -292,7 +298,9 @@ def draw_unclued_card(yaml_file, svg_file, x_offset, y_offset, pips, crossed_out
         draw_card_pips(yaml_file, svg_file, s, pips, crossed_out, orange)
 
 
-def draw_clued_card(yaml_file, svg_file, card_type, crossed_out, orange, x_offset, y_offset):
+def draw_clued_card(
+    yaml_file, svg_file, card_type, crossed_out, orange, x_offset, y_offset
+):
     # Find the possible ranks and suits
     card_type = set(card_type)
     ranks = card_type & {"1", "2", "3", "4", "5"}
@@ -591,11 +599,9 @@ def draw_big_text(yaml_file, svg_file):
 
     # Select specific color for some keywords
     if opts["text"] in ("Bluff", "Finesse", "Illegal!"):
-        color = {
-            "Bluff": "gold",
-            "Finesse": "green",
-            "Illegal!": "red"
-            }.get(opts["text"], "white")
+        color = {"Bluff": "gold", "Finesse": "green", "Illegal!": "red"}.get(
+            opts["text"], "white"
+        )
 
     text_color = "black" if color in ("gold", "yellow", "rainbow") else "white"
 
