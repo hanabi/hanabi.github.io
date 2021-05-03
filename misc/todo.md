@@ -15,6 +15,7 @@
   - The Double Positional Misplay (Indicating Two Plays with a Misplay)
   - The Distribution Clue
 - level 8
+  - Double Discard Situations (Severity 2 Stalling)
 - level 9
 - level 10
 - level 11

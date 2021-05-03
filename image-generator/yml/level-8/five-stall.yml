@@ -5,7 +5,7 @@ stacks:
   - b: 0
   - p: 0
 big_text:
-  text: early
+  text: Early Game
   color: black
 players:
   - clue_giver: true
