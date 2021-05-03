@@ -182,14 +182,13 @@ import DiscardModulation from '@site/image-generator/yml/level-6/discard-modulat
 - One way to decide is to look at the next player's chop. Is their chop high-value, low-value, or useless? If it is high-value, then you should discard and let them give the clue. If it is low-value or useless, then you should give the clue and let them discard.
 - "Stealing" clues in this way is called *Discard Modulation*. If other players are discarding to let you give all of the clues, you might have a high-value chop.
 - For example, in a 3-player game:
-  - All the 1's are played on the stacks except for the red 1.
+  - All the 1's are played on the stacks.
   - It is the *Mid-Game*.
-  - Alice plays the red 1 from her hand. (It was clued earlier with a *Play Clue*.)
-  - Cathy has a red 3 on chop. This is a *one-away-from-playable* card that is valuable to the team. However, it would be illegal to clue the card directly with a *Play Clue* or a *Save Clue*.
-  - Alice has a green 2 in her hand.
-  - Bob decides to discard instead of cluing the green 2 in Alice's hand.
-  - Cathy clues green to Alice as a *Play Clue*
-  - Bob has smartly prevented the discard of the red 3, at least for a little while. This kind of strategy is called *Discard Modulation*.
+  - Bob has a red 3 on chop. This is a *one-away-from-playable* card that is valuable to the team. However, it would be illegal to clue the card directly with a *Play Clue* or a *Save Clue*.
+  - Cathy has a (playable) blue 2 in her hand.
+  - Alice decides to discard instead of giving a *Play Clue* herself.
+  - Bob clues blue to Cathy as a *Play Clue*.
+  - Alice has smartly prevented the discard of the red 3, at least for a little while.
 
 <DiscardModulation />
 
