@@ -37,7 +37,7 @@ import FiveStall from '@site/image-generator/yml/level-8/five-stall.yml';
   - Alice does not have any normal *Play Clues* or *Save Clues* to give (precedence 1).
   - Alice does not have any *5 Stalls* to give (precedence 2).
   - Alice does have a *Tempo Clue* to give (precedence 3).
-  - Thus, Alice must perform the *Tempo Clue*. Alice is not allowed to do any moves with precedence 4 or 5..
+  - Thus, Alice must perform the *Tempo Clue*. Alice is not allowed to do any moves with precedence 4 or 5.
 - What is the point of having a complicated table with defined priorities? Well, normally, players in stalling situations are not able to give tricky-looking *Finesses*, because everyone else will think that they are just giving a stall clue. However, if it can be seen that there is a better clue available for them to give, then everyone can know that they are **not** giving a stall clue. So, because of this precedence table, players in stalling situations are still often able to make *Finesses* happen.
 - Obviously, stall clues are not allowed when the player has a known playable card in their hand.
 

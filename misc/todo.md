@@ -9,8 +9,11 @@
   - The Scream Discard Chop Move (SDCM)
   - The Generation Discard
   - The Double Tempo Clue
-  - The Tempo Clue Chop Move (2nd example)
 - level 7
+  - The Positional Discard (Indicating a Play with a Discard)
+  - The Positional Misplay (Indicating a Play with a Misplay)
+  - The Double Positional Misplay (Indicating Two Plays with a Misplay)
+  - The Distribution Clue
 - level 8
 - level 9
 - level 10

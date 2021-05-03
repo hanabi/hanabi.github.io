@@ -99,7 +99,7 @@ import UrgencyPrinciple from '@site/image-generator/yml/level-5/urgency-principl
   - Bob knows that the red 3 is currently unplayable, so it must be a *Finesse*. He blind-plays his *Finesse Position* as a red 2. Instead, it is a blue 2, and it successfully plays. Bob gasps in surprise.
   - Normally, Cathy would think that she has the blue 3, because that would connect to the blue 2 that blind-played. (Number 2 connects to number 3.)
   - However, Cathy also sees that Bob had a red 2 on his *Second Finesse Position* at the time of the clue. So there is a possibility that this was a *Clandestine Finesse* instead of a normal *Finesse*. Thus, Cathy has to give Bob a chance to blind-play the red 2. If he does not, then Cathy does indeed have the blue 3.
-  - Cathy does something unrelated..
+  - Cathy does something unrelated.
   - Alice does something unrelated.
   - Bob was surprised that he blind-played the blue 2 instead of the red 2. This must be a *Clandestine Finesse* and Bob must really have the red 2.
   - Bob blind-plays his slot 2 card. It is the red 2 and it successfully plays. (Bob knows that if he did not do this, then Cathy would go on to misplay the red 3 as a blue 3.)
