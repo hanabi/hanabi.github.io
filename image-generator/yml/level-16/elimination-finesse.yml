@@ -29,9 +29,13 @@ players:
     cards:
       - type: x
       - type: x
+        middle_note: b3?
       - type: x
+        middle_note: b3?
       - type: x
+        middle_note: b3?
       - type: x
+        above: Blue 3
         middle_note: b3?
   - clue_giver: true
     name: Bob
