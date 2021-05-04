@@ -34,12 +34,12 @@ players:
       - type: x
   - cards:
       - type: x
-      - type: r
-        clue: r
+      - type: 4
+        clue: 4
         above: Red 4
       - type: x
-      - type: r
-        clue: r
+      - type: 4
+        clue: 4
         above: Red 4
         middle_note: kt
   - text: Emily plays Slot 2 as Red 4
