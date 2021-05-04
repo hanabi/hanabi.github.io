@@ -36,7 +36,7 @@ import DoubleGentlemanDiscard2 from '@site/image-generator/yml/level-9/double-ge
 - For example, in a 3-player game:
   - It is the first turn and nothing is played on the stacks.
   - Alice clues number 1 to Cathy, touching one 1.
-  - Bob clues red to Cathy, filling in the already-touched 1 as red 1, as well as touching a new card, which must be red 2.
+  - Bob clues red to Cathy, filling in the already-touched 1 as red 1, as well as touching a new card, which must be a red 2.
   - Cathy discards the known red 1 as a *Gentleman's Discard*.
   - Alice blind-plays her *Finesse Position* card as red 1.
 

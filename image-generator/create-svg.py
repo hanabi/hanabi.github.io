@@ -583,7 +583,7 @@ def draw_big_text(yaml_file, svg_file):
     except KeyError:
         return
 
-    TEXT_WIDTH = 150
+    TEXT_WIDTH = 200
     TEXT_HEIGHT = 50
     x_of_text = (
         len(all_suits) * (CARD_WIDTH + HORIZONTAL_SPACING_BETWEEN_CARDS)

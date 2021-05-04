@@ -16,6 +16,9 @@
   - The Distribution Clue
 - level 8
   - Double Discard Situations (Severity 2 Stalling)
+  - The Locked Hand Save (LHS)
+  - The Anxiety Play (Forcing a Locked Player to Play)
+  - The 8 Clue Save (8CS)
 - level 9
 - level 10
 - level 11

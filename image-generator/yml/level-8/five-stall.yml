@@ -16,17 +16,16 @@ players:
       - type: x
       - type: x
   - cards:
-      - type: 1
-      - type: 1
+      - type: r1
+      - type: b1
       - type: x
-      - type: x
+      - type: g5
         clue: 5
-        above: Green 5
       - type: x
   - cards:
       - type: x
       - type: x
-      - type: x
-        above: Yellow 5
+      - type: p5
+        border: false
       - type: x
       - type: x

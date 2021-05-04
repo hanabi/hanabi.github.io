@@ -25,6 +25,7 @@ players:
       - type: r1
         below: Discards
         clue: r
+        retouched: true
       - type: r
         middle_note: (2)
         clue: r

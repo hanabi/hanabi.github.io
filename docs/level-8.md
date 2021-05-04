@@ -118,8 +118,8 @@ import FiveStall from '@site/image-generator/yml/level-8/five-stall.yml';
 - *5 Stalls* **cannot** be given in the *Mid-Game* if there are any playable 5's. In this situation, a number 5 clue would just look like a *Play Clue* on the 5.
 - *5 Stalls* **must** be given to the 5 that is closest to chop. For example, in a 3-player game:
   - It is the *Early Game*. The only thing left for Alice to do is to clue an off-chop 5.
-  - Bob has two playable 1's on slots 1 and 2. He has a 5 on slot 4. Bob's 5 is therefore one-away from chop.
-  - Cathy has nothing clued in her hand. She has a 5 on slot 3. Cathy's 5 is therefore two-away from chop.
+  - Bob has two playable 1's on slots 1 and 2. He has a green 5 on slot 4. Bob's 5 is therefore one-away from chop.
+  - Cathy has nothing clued in her hand. She has a purple 5 on slot 3. Cathy's 5 is therefore two-away from chop.
   - Alice must clue number 5 to Bob as a *5 Stall* since his 5 is closer to chop (even though Bob has two playable cards).
 
 <FiveStall />
