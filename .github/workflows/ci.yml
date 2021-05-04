@@ -44,7 +44,8 @@ jobs:
 
       - name: Lint Python code
         uses: lgeiger/black-action@master
-        args: ./image-generator/create-svg.py --check
+        with:
+          args: ./image-generator/create-svg.py --check
 
       # Use Docusaurus to build the website (e.g. convert the Markdown files to HTML)
       - name: Build
