@@ -190,9 +190,9 @@ import BluffPromptsPromptBluffs from '@site/image-generator/yml/level-10/bluff-p
 - Part of Hanabi involves making sure that if you perform an action, someone else on the team won't discard anything important (e.g. *Save Principle*). Additionally, part of Hanabi involves accounting for all the possibilities (e.g. *Schrödinger's Cat Principle*).
 - Combined, these two principles usually result in players taking the most conservative possible approach, even if a certain action would have a very low risk of losing the game.
 - One exception to the above rules is when Bob is playing into either a *Finesse* or a *Bluff*. In this case, Bob knows that Alice is "guiding" him and he does not have to worry about Cathy's chop card. If Alice needs Bob to save Cathy's chop card, then Alice would wait until later to perform the *Finesse* or *Bluff*.
-- For example, in a 3-player game:
+- For example, in a 4-player game:
   - No cards are played on the stacks.
-  - Alice clues red to Cathy, touching a red 2 as a *Play Clue*.
+  - Alice clues red to Donald, touching a red 2 as a *Play Clue*.
   - Bob does not see any red 1's in anyone else's hand. Thus, Bob knows that Alice intends for him to blind-play a card.
   - From Bob's perspective, it can be either a *Finesse* (on exactly red 1) or a *Bluff* (on the 1 of any of the other suits).
   - Cathy has a critical 5 on chop.
