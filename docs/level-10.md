@@ -192,7 +192,7 @@ import BluffPromptsPromptBluffs from '@site/image-generator/yml/level-10/bluff-p
 - One exception to the above rules is when Bob is playing into either a *Finesse* or a *Bluff*. In this case, Bob knows that Alice is "guiding" him and he does not have to worry about Cathy's chop card. If Alice needs Bob to save Cathy's chop card, then Alice would wait until later to perform the *Finesse* or *Bluff*.
 - For example, in a 3-player game:
   - No cards are played on the stacks.
-  - Alice clues red to Donald, touching a red 2 as a *Play Clue*.
+  - Alice clues red to Cathy, touching a red 2 as a *Play Clue*.
   - Bob does not see any red 1's in anyone else's hand. Thus, Bob knows that Alice intends for him to blind-play a card.
   - From Bob's perspective, it can be either a *Finesse* (on exactly red 1) or a *Bluff* (on the 1 of any of the other suits).
   - Cathy has a critical 5 on chop.
