@@ -22,7 +22,7 @@ import TrashTouchElimination from '@site/image-generator/yml/level-16/trash-touc
 
 ### Elimination & Elimination Notes
 
-- Normally, your teammates would never let you discard anything important. So when you discard some playable card (or a needed 2) **and** that card is not in anyone else's hand, you might think that the team make a mistake.
+- Normally, your teammates would never let you discard anything important. So when you discard some playable card (or a needed 2) **and** that card is not in anyone else's hand, you might think that the team made a mistake.
 - From *High Value Principle*, you should never assume your teammates are making a mistake. One excellent reason that they would let you discard an important card is that you have the other copy in your hand. (In order to satisfy *Good Touch Principle*, they had to wait for you to discard it so that they would not duplicate the card.)
 - Thus, when you get a follow-up clue, you will know exactly what card it is.
 - For example, in a 3-player game:
