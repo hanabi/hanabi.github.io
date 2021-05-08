@@ -20,7 +20,13 @@ module.exports = function (context, options) {
                   prettier: false,
                   svgo: true,
                   svgoConfig: {
-                    plugins: [{ removeViewBox: false }],
+                    plugins: [{
+                      removeViewBox: false
+                    }, {
+                      prefixIds: {
+                        prefixClassNames: false
+                      }
+                    }],
                   },
                   titleProp: true,
                 },

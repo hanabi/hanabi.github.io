@@ -22,9 +22,7 @@ if sys.version_info < (3, 0):
     sys.exit(1)
 
 # Constants
-# Setting the theme text color like this is a hack to change text color via CSS
-# Using the class name would be more proper, but it is mangled by Docusaurus
-TEXT_COLOR = "#000001"  # This matches the value in CSS selector in custom.css
+TEXT_COLOR_CLASS = "site-theme-text"  # This matches the value in CSS selector in custom.css
 CARD_WIDTH = 70
 CARD_HEIGHT = 100
 CARD_ROUNDED_CORNER_SIZE = 5
@@ -161,7 +159,7 @@ def draw_text_divider(svg_file, text):
         x=[x_offset_where_player_begins + 40],
         y=[y_offset],
         dy=[20],
-        fill=TEXT_COLOR,
+        class_=TEXT_COLOR_CLASS,
     )
     svg_file.add(text)
 
@@ -209,7 +207,7 @@ def draw_player_name(svg_file, player_num, player):
         name,
         x=["0%"],
         y=["50%"],
-        fill=TEXT_COLOR,
+        class_=TEXT_COLOR_CLASS,
         style="font-size: 1.4em;",
         **{"dominant-baseline": "central"},
     )

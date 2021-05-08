@@ -45,7 +45,7 @@
 }
 
 /* See create-svg.py for an explanation */
-svg.example text[fill='#000001'] {
+svg.example text.site-theme-text {
   fill: var(--ifm-font-color-base);
 }
 
