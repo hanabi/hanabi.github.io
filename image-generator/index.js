@@ -3,7 +3,6 @@
 // This is triggered whenever the website is built
 
 const path = require("path");
-const { getFileLoaderUtils } = require("@docusaurus/core/lib/webpack/utils");
 
 module.exports = function (context, options) {
   return {
@@ -15,14 +14,24 @@ module.exports = function (context, options) {
           rules: [
             {
               test: /image-generator.*yml$/,
-              use: getFileLoaderUtils().rules.svg().use.concat([{
+              use: [{
+                loader: '@svgr/webpack',
+                options: {
+                  prettier: false,
+                  svgo: true,
+                  svgoConfig: {
+                    plugins: [{ removeViewBox: false }],
+                  },
+                  titleProp: true,
+                },
+              }, {
                 loader: "shell-loader",
                 options: {
                   script: `bash ${createSVGScriptPath}`,
                 },
               }, {
                 loader: path.resolve(__dirname, "depender"),
-              }]),
+              }],
             },
           ],
         },
