@@ -22,7 +22,7 @@ if sys.version_info < (3, 0):
     sys.exit(1)
 
 # Constants
-TEXT_COLOR_CLASS = "site-theme-text"  # This matches the value in CSS selector in custom.css
+TEXT_COLOR_CLASS = "site-theme-text"
 CARD_WIDTH = 70
 CARD_HEIGHT = 100
 CARD_ROUNDED_CORNER_SIZE = 5
