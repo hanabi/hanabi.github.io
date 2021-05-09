@@ -44,8 +44,8 @@
   padding-bottom: 1em;
 }
 
-/* See create-svg.py for an explanation */
-svg.example text[fill='#000001'] {
+/* Follow dark/light mode in text in examples */
+svg.example text.site-theme-text {
   fill: var(--ifm-font-color-base);
 }
 
