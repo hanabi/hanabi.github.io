@@ -11,7 +11,7 @@ players:
       - type: r3
       - type: x
       - type: x
-  - text: Alice discards known Red 3
+  - text: Alice discards a known red 3.
   - name: Bob
     cards:
       - type: x
@@ -20,7 +20,7 @@ players:
       - type: x
       - type: x
       - type: x
-  - text: Bob marks his Finesse Position as Red 3
+  - text: Bob marks his Finesse Position as a red 3.
   - name: Cathy
     cards:
       - type: x
