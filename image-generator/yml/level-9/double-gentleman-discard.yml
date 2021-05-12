@@ -7,22 +7,22 @@ stacks:
 players:
   - clue_giver: true
     cards:
+      - type: r5
+        border: false
       - type: x
-      - type: x
-      - type: x
-        above: Blue 3
+      - type: b3
+        border: false
       - type: x
       - type: x
   - cards:
-      - type: x
+      - type: 2
+        middle_note: (R)
         clue: 2
       - type: x
       - type: x
       - type: x
       - type: x
-  - text: Bob finds that Cathy discarded earlier instead
-  - text: of performing a Reverse Finesse
-  - text: Bob discards Slot 1, it is Red 2
+  - text: Bob discards his slot 1 card, revealing it to be a red 2.
   - name: Cathy
     cards:
       - type: x
@@ -31,4 +31,5 @@ players:
       - type: x
       - type: x
       - type: x
-  - text: Cathy blind plays Slot 1
+  - text: Cathy blind plays her slot 1.
+  - text: Alice incorrectly blind-plays her slot 1 as a blue 2.

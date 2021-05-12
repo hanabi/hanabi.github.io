@@ -23,8 +23,8 @@ players:
   - cards:
       - type: x
       - type: r
+        clue: r
         middle_note: (2)
-        below: Discards
       - type: x
       - type: x
       - type: x
