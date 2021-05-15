@@ -1,0 +1,44 @@
+stacks:
+  - r: 0
+  - y: 0
+  - g: 1
+  - b: 2
+  - p: 2
+big_text:
+  text: "Clues: 1"
+  color: green
+discarded:
+  - b1
+players:
+  - cards:
+      - type: xrgbyp12345
+      - type: xrgbyp12345
+      - type: xrgbyp12345
+      - type: xrgbyp12345
+  - cards:
+      - type: y1
+        border: false
+      - type: g5
+        border: false
+      - type: r4
+        border: false
+      - type: r3
+        border: false
+  - cards:
+      - type: r2
+        border: false
+      - type: y3
+        clue: y
+      - type: y4
+        clue: y
+      - type: y2
+        clue: y
+  - clue_giver: true
+    cards:
+      - type: b3
+      - type: r1
+        border: false
+      - type: p1
+        border: false
+      - type: y5
+        border: false
