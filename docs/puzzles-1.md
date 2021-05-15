@@ -53,8 +53,31 @@ import Puzzle1E from '@site/image-generator/yml/puzzles-1/puzzle-1E.yml';
     {label: 'Solution 1B', value: 'solution'},
   ]}>
 <TabItem value="question">
+
+- Bob gives a blue clue to Alice, using up the last clue.
+- Previously, Alice only knew that she had a green 1 and no other green cards.
+- What notes should Alice write on her two cards?
+- How should those notes change once Cathy moves?
+
 </TabItem>
 <TabItem value="solution">
+
+- This clue *is* chop focused. Thus, it could be a play clue or save clue.
+- If it is a save clue, it must be a blue 4. No other cards are eligible to be saved by color yet. (Blue 5 should be saved by number.)
+- If it is a play clue, it could either be blue 2 or blue 3, by finessing the blue 2 in Cathy's hand.
+  - The blue 3 in Bob's hand is irrelevant, since Bob gave the clue and cannot see his own cards.
+- Thus, Alice should write blue 2, 3, 4 on her right blue card.
+- The other blue card could be any of blue 2, 3, 4, 5 (but not blue 1, because of good touch).
+- Alice should probably also make an "f" note now on Cathy's blue 2.
+  - If Cathy blind plays blue 2, then Alice knows for sure the right card is blue 3, and can play it.
+  - Her other blue card will then be either blue 4 or blue 5.
+  - If Cathy does not blind play, then Alice's rightmost blue card could be either blue 2 or blue 4.
+- This concludes the answer if we are following conventions like laws. However, if we think critically for a bit, we might realize which case it is.
+  - Indeed, Cathy has no clues to spend and no cards to play. So unless Cathy blind-plays a card, she is going to discard. This would cause purple 5 to discard, losing the game!
+  - Therefore, it would be really stupid for Bob to give a play clue to a blue 2 for Alice; he should save the purple 5 instead.
+  - It would also be really stupid for Bob to save a blue 4 for Alice, because Alice was already going to play green 1 anyways. Saving the purple 5 is much more urgent.
+  - So by chasing the logic, assuming Bob is thinking ahead, we should assume the blue 2 is going to blind play next turn, and Alice has blue 3.
+
 </TabItem>
 </Tabs>
 
