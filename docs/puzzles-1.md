@@ -92,8 +92,24 @@ import Puzzle1E from '@site/image-generator/yml/puzzles-1/puzzle-1E.yml';
     {label: 'Solution 1C', value: 'solution'},
   ]}>
 <TabItem value="question">
+
+- Alice was previously given a 2 Save, so she has some marked 2's in her hand.
+- Bob now gives the following green clue to Donald.
+- What notes should Alice write?
+
 </TabItem>
 <TabItem value="solution">
+
+- The clue to green 5 must be a play clue, because we save 5's by number.
+- Therefore, Bob is promising the entire team that all the green cards are ready to play.
+- Alice should now look around for the connecting green cards.
+- Bob has a green 2, but it is irrelevant because Bob is the one making the promise. So, Alice must trust she has green 2.
+- Alice is being asked to play her 2's from left to right until she finds green 2. For now, she should make a note on the left 2 saying it is green. If it turns out to not be green, then she would play the other 2.
+- Alice can see a green 3 on Cathy's finesse position. So, that is the promised green 3. Alice marks Cathy's green 3 as finessed, highlighting the card in a light blue border.
+- Alice can see a green 4 on Cathy's chop. But it is irrelevant, because Cathy would have no way of knowing it was there. Therefore, Alice must have green 4.
+- None of Alice's clued cards match 4. So, Alice marks her leftmost unclued card as a finessed green 4 right now. (This way, she will not lose track of it later when she plays a card and her cards shuffle around.)
+- Finally, Donald should know he has green 5. Alice makes a note that Donald should suspect his green card is exactly green 5, because he sees all the connecting cards.
+
 </TabItem>
 </Tabs>
 
