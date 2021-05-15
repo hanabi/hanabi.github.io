@@ -159,8 +159,43 @@ Note that Alice *cannot* give any of the following clues:
     {label: 'Solution 1E', value: 'solution'},
   ]}>
 <TabItem value="question">
+
+- Donald had a known playable blue 3. Instead of playing it, he gives a yellow clue to Cathy, using up the second-to-last clue.
+- Now, there is 1 clue left, and it is Alice's turn.
+- What notes should Alice make after Donald's clue?
+- What are all legal clues that Alice could give?
+- Which of these legal clues is the strongest?
+
 </TabItem>
 <TabItem value="solution">
+
+- Donald's clue focuses Cathy's chop. So, it is a promise the yellow 2 is playable right now.
+- Alice looks around and sees the yellow 1 on Bob's finesse position. So, Alice marks the yellow 1 as finessed. Bob will play it next turn.
+- Alice's legal options are:
+  - Alice could clue 5 to Donald, but this is not very good since it appears to be a 5 Save.
+  - Better yet, Alice could clue yellow to Donald, promising the yellow 5 is playable right now. Since the yellow 2 is already "locked in", Cathy would first play yellow 2, then play yellow 3 and yellow 4 from left to right, and finally let Donald play yellow 5.
+  - Alice could clue red to Donald, as a play clue on red 1.
+  - Alice could clue 2 to Cathy focusing the red 2, but this is not very good as it appears to be a 2 Save, although Cathy would know she has exactly red 2.
+  - With Level 2 conventions, Alice would be better off if she clued red to Cathy, making it a play clue. This would cause a *Reverse Finesse* where Cathy would wait to see if Donald blind plays. When he does, Cathy knows she has red 2.
+  - With Level 2 conventions, even better is 3 to Bob. This would be a double *Reverse Finesse* which gets red 1 and red 2 to blind play.
+  - With Level 2 conventions, better still is red to Bob. This would again cause both red 1 and red 2 to blind play, while also getting red 3 and red 4.
+- The following clues are illegal:
+  - Alice may not touch any of yellow 1, 2, 3, 4 as these are already gotten.
+  - Alice may not clue 1 to Donald, since it bad touches purple 1.
+- On the face of it, the red clue to Bob looks like the strongest one. It would get all four red cards to play with one clue.
+  - However, before jumping to this conclusion, one might want to think what happens next.
+  - By giving such a red clue, Alice would put Bob's green 5 on chop. Meanwhile, Donald has a 5 as well. Alice needs to make sure that her really efficient clue won't cause either card to discard! After all, she is using up the last clue.
+- So, before giving the red clue, Alice should play out the next few turns in her head to make sure that this clue is safe.
+  - On the next turn, Bob is going to blind play.
+  - On the next turn, Cathy will play yellow 2.
+  - On the next turn, Donald would blind play red 1.
+  - It would now be Alice's turn again. So, Alice would discard, since she has no cards to play.
+  - Now it is Bob's turn. Bob still would not have a card to play, but he has a great clue to give: Bob can be the one to give yellow to Donald, causing all yellow cards to play.
+  - Cathy now plays yellow 3 based on Bob's clue.
+  - Donald cannot play yellow 5 yet, so Donald discards. That is okay because he would discard the trash purple 1.
+  - Now it is Alice's turn. She could, for example, now save the green 5. This has the bonus that Bob knows his other red card is red 4 exactly.
+- Thus, the red clue is safe unless Alice has some important card on her chop. This is pretty unlikely since no one has told her about it, so this 4-for-1 clue is probably worthwhile to lock in.
+
 </TabItem>
 </Tabs>
 
