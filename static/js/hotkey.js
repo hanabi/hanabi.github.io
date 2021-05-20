@@ -30,18 +30,14 @@ document.onkeydown = function(e) {
 
 // Click on the "Learn More" button
 keyMap.set("Enter", () => {
-  const learnMoreButtons = document.getElementsByClassName("button--secondary button--lg");
-  if (learnMoreButtons.length >= 1) {
-    // There should only be buttons of this class on the landing page
-    learnMoreButtons[0].click();
+  if (isOnLandingPage()) {
+    clickOnFirstLargeButton();
   }
 });
 
 // Navigate backwards
 keyMap.set("ArrowLeft", () => {
-  // First, check to see if we are on the first doc page
-  const header = document.getElementsByClassName("docTitle_node_modules-@docusaurus-theme-classic-lib-next-theme-DocItem-");
-  if (header.length >= 1 && header[0].textContent === FIRST_DOC_PAGE_TITLE) {
+  if (isOnFirstDocPage()) {
     // Click on the nav bar title
     const navBarTitle = document.getElementsByClassName("navbar__title");
     if (navBarTitle.length >= 1) {
@@ -59,11 +55,8 @@ keyMap.set("ArrowLeft", () => {
 
 // Navigate forwards
 keyMap.set("ArrowRight", () => {
-  // First, check to see if we are on the landing page
-  const learnMoreButtons = document.getElementsByClassName("button--secondary button--lg");
-  if (learnMoreButtons.length >= 1) {
-    // Click on the "Learn More" button
-    learnMoreButtons[0].click();
+  if (isOnLandingPage()) {
+    clickOnFirstLargeButton();
     return;
   }
 
@@ -94,6 +87,23 @@ keyMap.set("l", () => {
 
   window.location = `/docs/level-${level}`;
 });
+
+function isOnLandingPage() {
+  const titles = document.getElementsByClassName("hero__title");
+  return titles.length >= 1;
+}
+
+function isOnFirstDocPage() {
+  const headerElements = document.getElementsByClassName("docTitle_node_modules-@docusaurus-theme-classic-lib-next-theme-DocItem-");
+  return headerElements.length >= 1 && headerElements[0].textContent === FIRST_DOC_PAGE_TITLE;
+}
+
+function clickOnFirstLargeButton() {
+  const largeButtons = document.getElementsByClassName("button--lg");
+  if (largeButtons.length >= 1) {
+    largeButtons[0].click();
+  }
+}
 
 // parseIntSafe is a more reliable version of parseInt
 // By default, "parseInt('1a')" will return "1", which is unexpected
