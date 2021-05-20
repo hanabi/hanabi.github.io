@@ -1,6 +1,9 @@
 // Constants
 const MAX_LEVEL = 23;
 
+// Variables
+const keyMap = new Map();
+
 document.onkeydown = function(e) {
   // Debugging
   // console.log("Key pressed:", e.key);
@@ -18,41 +21,78 @@ document.onkeydown = function(e) {
     }
   }
 
-  if (e.key === "Enter") {
-    const buttons = document.getElementsByClassName("button--secondary button--lg");
-    if (buttons.length >= 1) {
-      buttons[0].click();
-    }
-  } else if (e.key === "ArrowLeft") {
-    const buttons = document.getElementsByClassName("pagination-nav__link");
-    if (buttons.length >= 1) {
-      buttons[0].click();
-    }
-  } else if (e.key === "ArrowRight") {
-    const buttons = document.getElementsByClassName("pagination-nav__link");
-    if (buttons.length >= 2) {
-      buttons[1].click();
-    } else if (buttons.length >= 1) {
-      buttons[0].click();
-    }
-  } else if (e.key === "l") {
-    const levelString = window.prompt("Enter the level that you want to go to:");
-    if (levelString === null || levelString === "") {
-      return;
-    }
-
-    const level = parseIntSafe(levelString);
-    if (Number.isNaN(level)) {
-      return;
-    }
-
-    if (level < 1 || level > MAX_LEVEL) {
-      return;
-    }
-
-    window.location = `/docs/level-${level}`;
+  const keyFunction = keyMap.get(e.key);
+  if (keyFunction !== undefined) {
+    keyFunction();
   }
 }
+
+// Click on the "Learn More" button
+keyMap.set("Enter", () => {
+  const learnMoreButtons = document.getElementsByClassName("button--secondary button--lg");
+  if (learnMoreButtons.length >= 1) {
+    // There should only be buttons of this class on the landing page
+    learnMoreButtons[0].click();
+  }
+});
+
+// Navigate backwards
+keyMap.set("ArrowLeft", () => {
+  // First, check to see if we are on the first doc page
+  const header = document.getElementsByClassName("docTitle_node_modules-@docusaurus-theme-classic-lib-next-theme-DocItem-");
+  if (header.length >= 1 && header[0].textContent === "About") {
+    // Click on the nav bar title
+    const navBarTitle = document.getElementsByClassName("navbar__title");
+    if (navBarTitle.length >= 1) {
+      navBarTitle[0].click();
+      return;
+    }
+  }
+
+  // Click on the left-most button
+  const buttons = document.getElementsByClassName("pagination-nav__link");
+  if (buttons.length >= 1) {
+    buttons[0].click();
+  }
+});
+
+// Navigate forwards
+keyMap.set("ArrowRight", () => {
+  // First, check to see if we are on the landing page
+  const learnMoreButtons = document.getElementsByClassName("button--secondary button--lg");
+  if (learnMoreButtons.length >= 1) {
+    // Click on the "Learn More" button
+    learnMoreButtons[0].click();
+    return;
+  }
+
+  // Otherwise, assume that we are on a doc page
+  const buttons = document.getElementsByClassName("pagination-nav__link");
+  if (buttons.length >= 2) {
+    buttons[1].click();
+  } else if (buttons.length >= 1) {
+    buttons[0].click();
+  }
+});
+
+// Go to a specific level
+keyMap.set("l", () => {
+  const levelString = window.prompt("Enter the level that you want to go to:");
+  if (levelString === null || levelString === "") {
+    return;
+  }
+
+  const level = parseIntSafe(levelString);
+  if (Number.isNaN(level)) {
+    return;
+  }
+
+  if (level < 1 || level > MAX_LEVEL) {
+    return;
+  }
+
+  window.location = `/docs/level-${level}`;
+});
 
 // parseIntSafe is a more reliable version of parseInt
 // By default, "parseInt('1a')" will return "1", which is unexpected
