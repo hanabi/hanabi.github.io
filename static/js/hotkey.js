@@ -1,4 +1,5 @@
 // Constants
+const FIRST_DOC_PAGE_TITLE = "About";
 const MAX_LEVEL = 23;
 
 // Variables
@@ -40,7 +41,7 @@ keyMap.set("Enter", () => {
 keyMap.set("ArrowLeft", () => {
   // First, check to see if we are on the first doc page
   const header = document.getElementsByClassName("docTitle_node_modules-@docusaurus-theme-classic-lib-next-theme-DocItem-");
-  if (header.length >= 1 && header[0].textContent === "About") {
+  if (header.length >= 1 && header[0].textContent === FIRST_DOC_PAGE_TITLE) {
     // Click on the nav bar title
     const navBarTitle = document.getElementsByClassName("navbar__title");
     if (navBarTitle.length >= 1) {
