@@ -257,7 +257,7 @@ In this guide, there will be some images to show off the concepts introduced.
 - In the example below:
   - Alice has an unknown purple card in her hand.
   - Alice can see that the purple stack is played up to purple 4. The only other useful purple card left is the purple 5.
-  - Alice also knows that according to *Good Touch Principle*, every clued card will be eventually be played.
+  - Alice also knows that according to *Good Touch Principle*, every clued card will eventually be played.
   - Thus, by process of elimination, she can reason that the unknown purple card in her hand must be purple 5, and she can immediately play it.
 
 <GoodTouchPrinciple2 />
