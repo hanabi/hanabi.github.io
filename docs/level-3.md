@@ -50,7 +50,7 @@ import InformationLock from '@site/image-generator/yml/level-3/information-lock.
   - Bob plays his slot 4 card. It is a red 1 and it successfully plays. (He then draws a card, and all of the other cards in his hand slide over.)
   - Alice clues 1's to Bob, which touches a brand new card on slot 1 and re-touches the ones on slot 3 and slot 4.
   - Bob knows that fresh 1's have precedence, so he plays the slot 1 card next.
-  - After that, Bob resumes the play order from before, playing the slot 4 card, and then the slot 3 cared.
+  - After that, Bob resumes the play order from before, playing the slot 4 card, and then the slot 3 card.
 
 <PlayingMultiple1s2 />
 
