@@ -82,7 +82,7 @@ title: Level 7 - End-Game
 ### Burning (End-Game Stalling)
 
 - In the *End-Game*, often times there are still a lot of cards yet to be played. Thus, you need to be very careful when discarding, since by drawing a card you can make the game end before everyone has a chance to play all of the cards.
-- If there are enough of clues available, you can choose to stall, by giving a low-value clue (or even a completely useless clue). This is referred to as *Burning* a clue.
+- If there are enough clues available, you can choose to stall, by giving a low-value clue (or even a completely useless clue). This is referred to as *Burning* a clue.
 - The best way to give a useless clue is to re-clue cards which are already known to be playable.
 - Give a *Burn Clue* if:
   - There is a possibility that the game can be completed without anyone discarding from now on.
