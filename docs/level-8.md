@@ -161,8 +161,8 @@ import FiveStall from '@site/image-generator/yml/level-8/five-stall.yml';
 ### The Fill-In Clue
 
 - A "Fill-In Clue* is defined as a clue that:
-  1. only touches card(s) that already have a clue on them
+  1. only touches card(s) that already have a clue on them (or are *Chop Moved*)
   2. gives additional information to the touched card(s) that was not there before
-- *Fill-In Clues* are only used in specific stalling situations - see the stalling table above for the specific situations that you are allowed to perform one. If you give a clue like this in a normal situation, it would just look like a *Play Clue* on the left-most card.
+- *Fill-In Clues* are only used in specific stalling situations - see the stalling table above for the specific situations that you are allowed to perform one. If you give a clue like this in a normal situation, it would just look like a *Play Clue*.
 
 <br />
