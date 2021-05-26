@@ -155,3 +155,14 @@ import FiveStall from '@site/image-generator/yml/level-8/five-stall.yml';
 - However, players can only do an *8 Clue Save* if there are no higher precedence clues available. See the "Allowable Stall Clues" section above.
 - An *8 Clue Save* can be performed with either a color clue or a number clue.
 - If a clue that looks like an *8 Clue Save* is on a card that is on slot 1, it is instead treated as a normal *Play Clue* or a normal *Save Clue*.
+
+<br />
+
+### The Fill-In Clue
+
+- A "Fill-In Clue* is defined as a clue that:
+  1. only touches card(s) that already have a clue on them
+  2. gives additional information to the touched card(s) that was not there before
+- *Fill-In Clues* are only used in specific stalling situations - see the stalling table above for the specific situations that you are allowed to perform one. If you give a clue like this in a normal situation, it would just look like a *Play Clue* on the left-most card.
+
+<br />
