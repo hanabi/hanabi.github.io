@@ -6,31 +6,6 @@ As noted in the [convention changes document](convention-changes.md), sometimes 
 
 ## The Backlog (General Conventions)
 
-@everyone Deleted conventions
-
-**Out-of-Position Bluffs / Reverse Bluffs** (deleted)
-
-- All *Out-of-Position Bluffs* have been deleted.
-- Now, when a clue is given that looks like an *Out-of-Position Bluff*, it is a *Layered Finesse* instead.
-
-**The Shallow Discard** (by Jerry)
-
-- At the end of the game, it is normal for players to use a *Positional Discard* to get 1 card to blind-play, and to use a *Positional Misplay* to get 2 cards to blind-play.
-- If a player does a *Positional Discard* to only get 1 card when they could have performed a *Positional Misplay* instead, then this is quite strange. If they are not making a mistake, they must be trying to send an additional message.
-- In this situation, they intend for it to promise 3 blind-plays instead of 1.
-- This is called a *Shallow Discard* because from Bob's perspective, Alice could have performed a deeper move.
-- For example, in a 4-player game:
-  - The team has 0 strikes.
-  - It is the *End-Game* and Alice sees all of the remaining useful cards. Thus, she can *Positionally Discard* or *Positionally Misplay* any card that she wants in her hand.
-  - Alice sees that Bob, Cathy, and Donald all have playable cards on slot 2.
-  - Alice blind-discards her slot 2 card as a *Shallow Discard*.
-  - From Bob's perspective, he sees that Cathy and Donald have a playable card on slot 2. Thus, Bob expected Alice to perform a *Positional Misplay* or her slot 2 card.
-  - When Bob sees that Alice performed a *Positional Discard* instead of a *Positional Misplay*, he knows that she must be intending for 3 blind-plays to happen (instead of 1) as a *Shallow Discard*.
-  - Bob blind-plays his slot 2 card (to match Alice's slot 2 discard). It successfully plays.
-  - Cathy and Donald are both in a similar situation to Bob. (They expected Alice to perform a *Positional Misplay*.)
-  - Thus, they both know that this is a *Shallow Discard*, and blind-play their slot 2 cards (to match Alice's slot 2 discard).
-- In some specific situations, a *Positional Discard* from chop would not work, because it would just look like a normal discard. In these situations, a *Positional Misplay* would only get 1 blind-play (instead of 2) and a *Shallow Discard* would only get 2 blind-plays (instead of 3).
-
 **The Unknown Trash Charm** (by piper)
 
 - Normally, after an *Unknown Trash Discharge*, non-focused cards are known to be "good".
@@ -55,11 +30,6 @@ As noted in the [convention changes document](convention-changes.md), sometimes 
   - Bob blind-plays his slot 2 card (to match Alice's slot 2 discard). It successfully plays.
   - Cathy, Donald, and Emily are all in a similar situation to Bob. (They expected Alice to perform a *Shallow Discard*.)
   - Thus, they all know that this is a *Shallow Misplay*, and blind-play their slot 2 cards (to match Alice's slot 2 discard).
-
-**Unnecessary Moves** (change) (by Floriman)
-
-- Previously, when an unnecessary move is performed using a card on chop, it calls for an *Unnecessary Ignition*.
-- Now, it instead becomes a *Trash Push*.
 
 **The Prophetic Finesse (for 1's)** (by pianoblook)
 
