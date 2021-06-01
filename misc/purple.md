@@ -51,3 +51,15 @@ Zamiel "owns" the Discord server, but for most intents and purposes, we want the
 Purple people need to mix with green people so that our values continue to propagate. We want to avoid the scenario where a brand new player hops into a post-game review with a bunch of green people, and a yelling match ensues about who messed up the most, and the brand new player promptly leaves and never comes back. Do your part to help prevent this from occurring.
 
 Thank you for being a part of the group that I love so much!
+
+<br />
+
+## Criteria for the Purple Role
+
+The following is a rough set of criteria for someone getting the purple role.
+
+- Have played "actively" for at least 1 year.
+  - Active is defined as playing at least a few games a week. However, we acknowledge that for most people, there will be periods of heavy activity and periods where no Hanabi is played at all.
+  - Not playing any games for a 1+ month period would mean that that the period is subtracted from the 1 year calculation.
+  - The beginning point for measuring 1 year is the week that the person started playing regularly with one or more players who currently have the purple role.
+- It a "good fit" for the role. In other words, the person should be well-liked and regularly displays the 4 qualities listed in the "Culure" section above.
