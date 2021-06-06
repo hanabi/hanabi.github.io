@@ -29,4 +29,4 @@ These are *Finesses* that are triggered by performing a suboptimal clue or by pi
   - Both color and rank would communicate the exact identity of the specific card.
   - Both color and rank would not give any useful negative information to the other cards in the hand.
 - In these situations, the player giving the clue has a completely free choice between rank and color. We agree that by default, players should use color to save the card.
-- If players instead use a rank clue to save the card, this communicates a *Rank Choice Save Finesse*. (This is similar to the more-ordinary *Rank Choice Finesse*, except it is initiated with a *Save Clue* instead of a *Play Clue*.)
+- If players instead use a rank clue to save the card, this communicates a *Rank Choice Save Finesse*.
