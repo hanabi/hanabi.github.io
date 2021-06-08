@@ -140,7 +140,7 @@ import NoInformationDoubleBluff from '@site/image-generator/yml/level-19/no-info
 ### The Pestilent Double Bluff (PDB)
 
 - First, see the section on the *[Good Touch Bluff](#the-good-touch-bluff)*.
-- In the *Good Touch Bluff*, a *Bluff* is given that looks like a *Finesse*. However, what a *Good Touch Bluff* is performed and the "connecting" card is not yet clued?
+- In the *Good Touch Bluff*, a *Bluff* is given that looks like a *Finesse*. However, what if a *Good Touch Bluff* is performed and the "connecting" card is not yet clued?
 - In this situation, if the cluer is not making a mistake, they are trying to send a deeper message - they want an extra person to blind-play.
 - For example, in a 4-player game:
   - It is the first turn and nothing is played on the stacks.
