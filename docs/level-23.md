@@ -94,7 +94,7 @@ import TrashPushDischarge from '@site/image-generator/yml/level-23/trash-push-di
 <TrashPush />
 
 - For example, if an *Unnecessary Trash Push Discharge* was performed by cluing a card in Cathy's hand, Bob should blind-play his *Third Finesse Position* (from the clue). Note that, even though the focus of the card touched by the clue was known trash, Bob had to blind-play to tell Cathy that the card she was about to push is trash, so the 'unknown trash' rules apply. Therefore Cathy also performs a *Trash Push*, playing the card next to the card that she learned is trash.
-- The conversion to the known-trash interpretation also holds if the team has to prevent the clue receiver to *Trash Push* a card that's not playable:
+- The conversion to the known-trash interpretation also holds if the team has to prevent the clue receiver from *Trash Pushing* a card that's not playable:
   - All of the 2's are played on the stacks.
   - Bob has a red 3 on his *Second Finesse Position* and no other red cards in his hand. Thus, Alice can give a red clue to Bob in order to "get" the red 3.
   - Donald's hand is r1 - g1 - b2 - b1, completely unclued.
