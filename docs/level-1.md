@@ -4,7 +4,7 @@ title: Level 1 - Fundamentals
 ---
 
 - Level 1 strategies can be learned with no games of Hanabi played. You can either learn them before you play your first game or after you play a few games to learn the basic mechanics.
-- This stuff is mostly a repeat of the [beginner's guide](beginner.md), but we go into a bit more detail here.
+- This stuff is mostly a repeat of the [beginner's guide](beginner.md), but we go into a bit more detail here. If you haven't yet read the beginner's guide, **STOP NOW** and read that instead, and only come back here after you have played 5-10 games. (This page is just intended to be used as a reference.)
 
 <br />
 
