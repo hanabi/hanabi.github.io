@@ -6,30 +6,8 @@ As noted in the [convention changes document](convention-changes.md), sometimes 
 
 ## The Backlog (General Conventions)
 
-**The Unknown Trash Charm** (by piper)
 
-- Normally, after an *Unknown Trash Discharge*, non-focused cards are known to be "good".
-- However, what if a player performs an *Unknown Trash Discharge* where **all** of the non-focused cards are trash? A *Discharge* would incorrectly signal that the non-focused cards are useful.
-- Instead, this should signal a *Charm* on the very next player.
-- For example, in a 3-player game:
-  - All of the 2's are played on the stacks.
-  - Alice clues red to Cathy, touching a red 1 on slot 1 and a red 2 on slot 2.
-  - Normally, Bob would treat this clue as an *Unknown Trash Discharge*. However, if he *Discharges*, then Cathy will discard the red 1 and mark the red 2 as either a red 3, a red 4, or a red 5, which would be a *Lie*.
-  - Instead, Bob knows that this signals an *Unknown Trash Charm*, so he blind-plays his *Fourth Finesse Position*. It is a blue 3 and it successfully plays.
 
-**The Shallow Misplay** (by Jerry)
-
-- In a 5-player game, it possible to perform a *Shallow Misplay*, causing 4 people to blind-play from the same slot. (This works for the same reasons that a *Shallow Discard* works.)
-- For example, in a 5-player game:
-  - The team has 0 strikes.
-  - It is the *End-Game* and Alice sees all of the remaining useful cards. Thus, she can *Positionally Discard* or *Positionally Misplay* any card that she wants in her hand.
-  - Alice sees that Bob, Cathy, Donald, and Emily all have playable cards on slot 2.
-  - Alice blind-plays her slot 2 card as a *Shallow Misplay*.
-  - From Bob's perspective, he sees that Cathy, Donald, and Emily have a playable card on slot 2. Thus, Bob expected Alice to perform a *Shallow Discard* or her slot 2 card.
-  - When Bob sees that Alice performed a *Positional Misplay* instead of a *Shallow Discard*, he knows that she must be intending for 4 blind-plays to happen (instead of 2) as a *Shallow Misplay*.
-  - Bob blind-plays his slot 2 card (to match Alice's slot 2 discard). It successfully plays.
-  - Cathy, Donald, and Emily are all in a similar situation to Bob. (They expected Alice to perform a *Shallow Discard*.)
-  - Thus, they all know that this is a *Shallow Misplay*, and blind-play their slot 2 cards (to match Alice's slot 2 discard).
 
 **The Prophetic Finesse (for 1's)** (by pianoblook)
 
@@ -90,14 +68,6 @@ As noted in the [convention changes document](convention-changes.md), sometimes 
 <br />
 
 ## The Backlog (Variant-Specific Conventions)
-
-@everyone Deleted variant-specific conventions:
-
-**White Compromise** (deleted)
-
-- This convention only applies to variants with a white suit.
-- The *White Compromise* convention is deleted.
-- This convention was not used very often and didn't provide very much overall value.
 
 @everyone New variant-specific conventions:
 
