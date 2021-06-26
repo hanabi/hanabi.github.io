@@ -1,5 +1,5 @@
 // Constants
-const FIRST_DOC_PAGE_TITLE = "About";
+const FIRST_DOC_PAGE_TITLE = "About | The Hyphen-ated Conventions";
 const MAX_LEVEL = 23;
 
 // Variables
@@ -94,8 +94,7 @@ function isOnLandingPage() {
 }
 
 function isOnFirstDocPage() {
-  const headerElements = document.getElementsByClassName("docTitle_node_modules-@docusaurus-theme-classic-lib-next-theme-DocItem-");
-  return headerElements.length >= 1 && headerElements[0].textContent === FIRST_DOC_PAGE_TITLE;
+  return document.title === FIRST_DOC_PAGE_TITLE;
 }
 
 function clickOnFirstLargeButton() {
