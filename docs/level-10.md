@@ -39,7 +39,7 @@ import BluffPromptsPromptBluffs from '@site/image-generator/yml/level-10/bluff-p
 
 <Bluff />
 
-### Bluff Seat
+### The Bluff Seat
 
 - Except in rare circumstances, ***Bluffing* is only permissible when you are the person directly before the player who is blind-playing a card**.
 - We formalize this concept as the *Bluff Seat*. If Alice is sitting directly before Bob, then Alice is sitting in *Bluff Seat* for Bob, and Alice is allowed to *Bluff* Bob. Alice is not allowed to *Bluff* Cathy - Bob is in *Bluff Seat* for Cathy, so only Bob is allowed to *Bluff* Cathy.
