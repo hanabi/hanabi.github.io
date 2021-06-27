@@ -39,7 +39,10 @@ import BluffPromptsPromptBluffs from '@site/image-generator/yml/level-10/bluff-p
 
 <Bluff />
 
-- Except in rare circumstances, ***Bluffing* is only permissible when you are the person directly before the player who is blind-playing a card**. This is called being in *Bluff Seat*. Do not *Bluff* unless you are in *Bluff Seat*! (This follows from *[Lie Principle](first-principles.md#8-lie-principle)*.)
+### Bluff Seat
+
+- Except in rare circumstances, ***Bluffing* is only permissible when you are the person directly before the player who is blind-playing a card**.
+- We formalize this concept as the *Bluff Seat*. If Alice is sitting directly before Bob, then Alice is sitting in *Bluff Seat* for Bob, and Alice is allowed to *Bluff* Bob. Alice is not allowed to *Bluff* Cathy - Bob is in *Bluff Seat* for Cathy, so only Bob is allowed to *Bluff* Cathy.
 
 <br />
 
@@ -232,9 +235,9 @@ import BluffPromptsPromptBluffs from '@site/image-generator/yml/level-10/bluff-p
 
 <br />
 
-### Bluff Seat and the Pang of Guilt
+### The Pang of Guilt
 
-- As mentioned in the section on *Bluffs*, you are in *Bluff Seat* for a certain player if you are immediately before them.
+- First, see the section on the *[Bluff Seat](#the-bluff-seat)*.
 - Before cluing a card directly, you should first consider if the card is on *Finesse Position*. If it is, and you clue it directly, you may be "stealing" someone's *Finesse* or *Bluff*.
 - Thus, in this situation, it may be better to discard and let the player in *Bluff Seat* get the card. If you do decide to clue the card directly, you should always feel a *Pang of Guilt*.
 
