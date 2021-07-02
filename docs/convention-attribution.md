@@ -106,7 +106,7 @@ title: Convention Attribution
 | The 5 Color Ejection | IAMJEFF
 | The Double 5 Pull | IAMJEFF
 | Stacked Ejection | Fireheart
-| The Trash Push Discharge | IAMJEFF
+| The Trash Push Ejection & Discharge | IAMJEFF
 | The 5 Number Discharge | IAMJEFF
 | The Blaze Discard | IAMJEFF
 | The Rank Choice Ejection | IAMJEFF
@@ -115,11 +115,12 @@ title: Convention Attribution
 | The Shadow Finesse | pianoblook
 | The 4 Charm | IAMJEFF
 | The Safety Charm | pianoblook
+| Unnecessary Principles | Florrat & Kakashi
 | The Self Color Ejection | IAMJEFF
 | The Prophetic Finesse | pianoblook
 | The Prophetic Discharge | pianoblook
 | The Cursed Finesse | pianoblook
-| The Unknown Dupe Discharge | Indego
+| The Unknown Dupe Discharge | Kakashi & Indego
 | The Shallow Discard & The Shallow Misplay | Jerry
 | The Unknown Trash Charm | piper
 | The Replay Double Ignition | Jerry
@@ -139,8 +140,10 @@ title: Convention Attribution
 | The Black Save Bluff | Sankala
 | The Bubblegum Finesse | Razvogor
 | The Bubblegum Bluff | Stephen
+| The Turnabout Ejection | Pianoblook
 | The Bubblegum Slide | IAMJEFF
 | The Bubblegum Wraparound | kimbifille
+| The Pink Fake Prompt & The Pink Fake Finesse | IAMJEFF
 | Pink & Omni Majority Conventions | Fireheart
 | Null Positional Clues | Razvogor, Zamiel, IAMJEFF, & Kakashi
 | The Slot Finesse | IAMJEFF
@@ -160,8 +163,10 @@ title: Convention Attribution
 | The U-Turn Finesse | NoMercy
 | Cow & Pig Rank Saves | Florrat
 | Conventions for Variant with No Positive Clues | Kakashi, IAMJEFF, & Libster
+| Rank Save Promise | IAMJEFF
+| Deceptive-Five Number Ejection | IAMJEFF
 | Empty Clues | Zamiel & Florrat
 | The Empty Finesse | Instantiation
 | The Empty Double-Play | Zamiel & Jeep
 | The Empty Bluff | Cory
-| The Turnabout Ejection | Pianoblook
+
