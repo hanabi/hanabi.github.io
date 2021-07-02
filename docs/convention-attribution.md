@@ -106,7 +106,7 @@ title: Convention Attribution
 | The 5 Color Ejection | IAMJEFF
 | The Double 5 Pull | IAMJEFF
 | Stacked Ejection | Fireheart
-| The Trash Push Ejection & Discharge | IAMJEFF
+| The Trash Push Ejection & The Trash Push Discharge | IAMJEFF
 | The 5 Number Discharge | IAMJEFF
 | The Blaze Discard | IAMJEFF
 | The Rank Choice Ejection | IAMJEFF
