@@ -85,5 +85,3 @@ import PromiseClue from '@site/image-generator/yml/extras/promise-clue.yml';
 <PromiseClue />
 
 - Note that as long as the duplication clue touches two or more cards (e.g. with an efficiency of a 1-for-1), the *Promise Discard* interpretation takes priority over the *Unknown Trash Discharge* interpretation.
-
-<br />
