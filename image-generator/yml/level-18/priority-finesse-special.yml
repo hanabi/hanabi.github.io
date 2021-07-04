@@ -1,20 +1,21 @@
 stacks:
-  - r: 0
-  - y: 0
-  - g: 0
+  - r: 2
+  - y: 1
+  - g: 1
   - b: 1
-  - p: 0
+  - p: 1
 players:
   - cards:
       - type: x
-      - type: r1
+      - type: r3
       - type: x
-      - type: b2
+      - type: gbyp2
       - type: x
-  - text: Alice plays Blue 2
+  - text: Alice plays Red 3
   - name: Bob
     cards:
       - type: x
+        above: Red 4
       - type: x
       - type: x
       - type: x
@@ -22,7 +23,6 @@ players:
   - name: Cathy
     cards:
       - type: x
-        above: Blue 3
       - type: x
       - type: x
       - type: x
