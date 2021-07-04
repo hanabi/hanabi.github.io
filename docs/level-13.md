@@ -37,7 +37,7 @@ import TrashPush from '@site/image-generator/yml/level-13/trash-push.yml';
   - For example, if not all of the 1's have been played on the stacks, then you can use a number 1 clue to initiate a *Trash Bluff*, because a blind-play will prove that the clued 1 is not a good 1.
   - For example, if the red stack is played up to the red 3, then you **cannot** use a red clue to initiate a *Trash Bluff*, because a blind-play will make the clued card look like the red 5.
   - For example, if the red stack is played up to the red 4, then you can use a red clue to initiate a *Trash Bluff*, because a blind-play will prove that the clued card is not a red 5.
-- In the case where multiple cards are clued as part of a *Trash Bluff*, **all** of the touched cards are considered to be trash. However, the focus of the clue should be the first thing discarded, which allows for the possibility of your teammates to give a follow-up *Fix Clue*.
+- In the case where multiple cards are clued as part of a *Trash Bluff*, **all** of the touched cards are considered to be trash. However, the focus of the clue should be discarded first.
 
 <br />
 
