@@ -7,7 +7,6 @@ import UnnecessaryGeneration from '@site/image-generator/yml/extras/unnecessary-
 import ShallowDiscard from '@site/image-generator/yml/extras/shallow-discard.yml';
 import ShallowMisplay from '@site/image-generator/yml/extras/shallow-misplay.yml';
 import PromiseClue from '@site/image-generator/yml/extras/promise-clue.yml';
-import NoContextDouble from '@site/image-generator/yml/extras/no-context-double.yml';
 
 ### The Unnecessary Generation Discard
 
@@ -88,19 +87,3 @@ import NoContextDouble from '@site/image-generator/yml/extras/no-context-double.
 - Note that as long as the duplication clue touches two or more cards (e.g. with an efficiency of a 1-for-1), the *Promise Discard* interpretation takes priority over the *Unknown Trash Discharge* interpretation.
 
 <br />
-
-### The No-Context Double Gentleman's Discard
-
-- Normally, when someone performs a *Gentleman's Discard*, it only promises the exact other copy of the card, even if the discarded card could have been multiple different things. The reason for this is it allows for asymmetric reads.
-- However, what if a *Gentleman's Discard* is done, and the card could have been multiple different things, and there was no context and no possible way to know which exact card that it was?
-- In this case, then it is a legal *Double Gentleman's Discard*, and it promises that both of the possibilities exist. (Or, it could even be a *Triple Gentleman's Discard*.)
-- For example, in a 3-player three suit game:
-  - It is the first turn and nothing is played on the stacks.
-  - Alice clues number 1 to Bob, touching a 1 on slot 3.
-  - From everyone's perspective, this 1 could be any 1 in the game - red 1, green 1, or blue 1.
-  - Bob discards the card and it is revealed to be a blue 1.
-  - Cathy blind-plays her *Finesse Position* card, and it is a green 1.
-  - Normally, Alice knows that Bob's discard would only promise the blue 1 (and not promise the red 1 or the green 1). However, since the game started on the turn before the clue was given, there is no possible way that Bob could have figured out the exact identity of the card in such a short amount of time.
-  - Thus, since Alice does not see the red 1 or the blue 1 in other people's hands, Alice knows that she must have the red 1 **and** the blue 1 on her *Finesse Position* and *Second Finesse Position*.
-
-<NoContextDouble/>
