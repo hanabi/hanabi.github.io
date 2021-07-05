@@ -1,0 +1,37 @@
+stacks:
+  - r: 2
+  - y: 2
+  - g: 2
+  - b: 2
+  - p: 2
+players:
+  - clue_giver: true
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+      - type: x
+        above: Red 3
+      - type: x
+      - type: x
+  - text: Bob blind-plays the red 3.
+  - name: Cathy
+    cards:
+      - type: x
+      - type: x
+      - type: r4
+        border: false
+      - type: x
+  - name: Donald
+    cards:
+      - type: r1
+        border: false
+      - type: g1
+        border: false
+      - type: b2
+        clue: 2
+      - type: b1
+        border: false

@@ -6,7 +6,7 @@ title: Level 23 - Unnecessary Moves
 import UnnecessaryTrashPushIgnition from '@site/image-generator/yml/level-23/unnecessary-trash-push-ignition.yml';
 import UnnecessaryTrashFinesseChopMove from '@site/image-generator/yml/level-23/unnecessary-trash-finesse-chop-move.yml';
 import UnnecessaryTrashFinesseTrashPush from '@site/image-generator/yml/level-23/unnecessary-trash-finesse-trash-push.yml';
-import TrashPushDischarge from '@site/image-generator/yml/level-23/trash-push-discharge.yml';
+import UnnecessaryBadChopMoveEjection from '@site/image-generator/yml/level-23/unnecessary-bad-chop-move-ejection.yml';
 
 - Level 23 strategies should only be learned if you have 420+ games of experience with the group.
 
@@ -112,7 +112,7 @@ import TrashPushDischarge from '@site/image-generator/yml/level-23/trash-push-di
 
 - For example, if an *Trash Push Discharge* was performed by cluing a card in Cathy's hand, Bob should blind-play his *Third Finesse Position* to prove that the *Trash Pushed* card is trash. Then, Cathy should blind-play the card next to the the card that she learned is trash.
 
-#### Example 3 - ?
+#### Example 3 - An Unnecessary Bad Chop Move Ejection
 
 - The conversion to the known-trash interpretation also holds if the team has to prevent the clue receiver from *Trash Pushing* a card that's not playable.
 - For example, in a 3-player game:
@@ -125,7 +125,7 @@ import TrashPushDischarge from '@site/image-generator/yml/level-23/trash-push-di
   - Cathy sees that Donald is about to play green 1 as a *Trash Push*, but green 1 is already played.
   - Thus, Cathy plays her third finesse position as a *Trash Push Discharge*.
 
-<TrashPushDischarge />
+<UnnecessaryBadChopMoveEjection />
 
 <br />
 
