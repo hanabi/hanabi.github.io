@@ -38,7 +38,7 @@ The steps to create a new pull request are as follows:
 
 ## How to Submit a Pull Request (Complicated)
 
-Editing files on the GitHub website is a pain. If you are adding a significant amount of changes, I recommend that you set up a local development environment to work on the website. This means that you can actually run a full copy of the website that will be hosted on your local computer and you can see your changes live in the browser to see what they look like as soon as you make them.
+Editing files on the GitHub website is a pain. If you are adding a significant amount of changes, I recommend that you set up a local development environment to work on the website. That way, you can use a browser to instantaneously see how your edits look live in a local copy of the website that runs on your own computer.
 
 1. Download and install [Node.js](https://nodejs.org/en/) (if you don't already have it installed). Select the "Current" version instead of the "LTS" version.
 1. Download and install [Git](https://git-scm.com/downloads) (if you don't already have it installed).
