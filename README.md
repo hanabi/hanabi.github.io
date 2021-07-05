@@ -12,7 +12,7 @@ This is the GitHub repository for the website. It is built with [Docusaurus 2](h
 
 If you're in the Hyphen-ated group, then you might want to help edit the website. Maybe you want to fix some typos. Or maybe you want to add a new example. Or maybe you proposed a new convention, and it got voted in, and now you need to add a new section. Regardless of what you are doing, you will need to a submit a *pull request*.
 
-In plain English, a pull request (or a PR for short) is simply a request to merge the changes that you want into the master copy of the website. Essentially, you need to make a copy of the website (called a *fork*), make some changes (called a *commit*), and then click a button on the website to create a new PR. At that point, I'll be notified that there is a new PR, I can look over the specific changes, and then I can click on the "Approve" or "Deny" buttons, accordingly. If I click "Approve", then the changes are integrated and the website is automatically updated.
+In plain English, a pull request (or a PR for short) is simply a request to merge the changes that you want into the master copy of the website. Essentially, you need to make a copy of the website (called a *fork*), make some changes (called a *commit*), and then click a button on the website to create a new PR. At that point, I'll be notified that there is a new PR and I can look over the specific changes. Then, I can click "Approve" or "Deny" accordingly. If I click "Approve", then the changes are integrated and the website is automatically updated.
 
 Pull requests are how people collaborate together to work on code (and documents) on GitHub.
 
