@@ -98,7 +98,6 @@ title: Level 20 - Ignition
   - Save a *Delayed Playable* card that is followed by a critical card.
   - Save two important cards when there are a lot of cards to deal with and the team is low on clues.
   - Get a blind-play from *Elimination* when the duplicate is visible.
-- More examples of a *Playful Ignition* can be found [here](../examples/5-double-pull.md).
 
 <br />
 
