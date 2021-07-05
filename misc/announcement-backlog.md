@@ -55,6 +55,12 @@ As noted in the [convention changes document](convention-changes.md), sometimes 
 - Importantly, this interaction is **turned off** in the *End-Game*.
 - Note that sometimes, players will use a rank 5 clue to touch an actual playable 5 that is exactly one-away-from-chop. Regardless of whether or not the 5 is playable, the next player needs to react as if it wasn't playable. (This is because it is agreed that all *Play Clue* interpretations are turned off.)
 
+***Trash Order Chop Moves* after *Unknown Dupe Discharges***
+
+- If an *Unknown Dupe Discharge* touches exactly two brand-new cards, then both of them must be the same copy.
+- In this situation, the player is expected to discard the focus of the clue.
+- If they do not discard the focus of the clue, they are performing a *Trash Order Chop Move* on the next player.
+
 <br />
 
 ## The Backlog (Variant-Specific Conventions)
