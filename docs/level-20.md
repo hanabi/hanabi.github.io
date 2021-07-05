@@ -32,6 +32,10 @@ title: Level 20 - Ignition
 
 <br />
 
+## Special Moves
+
+<br />
+
 ### The Trash Double Ignition
 
 - Towards the end of the game, if a player clues one or more brand-new trash cards, and the cards are known to be trash, then there are usually 2 possible interpretations:
