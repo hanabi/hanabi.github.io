@@ -115,7 +115,7 @@ title: Convention Attribution
 | The Shadow Finesse | pianoblook
 | The 4 Charm | IAMJEFF
 | The Safety Charm | pianoblook
-| Unnecessary Principles | Florrat & Kakashi
+| Unnecessary Principles | Floriman & Kakashi
 | The Self Color Ejection | IAMJEFF
 | The Prophetic Finesse | pianoblook
 | The Prophetic Discharge | pianoblook
