@@ -28,6 +28,7 @@ The steps to create a new pull request are as follows:
 1. On the bottom of the page, you should see a link called "Edit this page". Click on that.
 1. Click the green button that says "Fork this repository". (That will create your own copy of the website that will live under your GitHub user account.)
 1. Edit the file using the website editor.
+1. When you are done, click the "Commit" button at the bottom. (This will save your change into your forked copy.)
 1. Click the green button that says "Create pull request".
 1. Type a description to explain what you changed and why.
 1. Click the green button that says "Create pull request".
