@@ -39,7 +39,7 @@ import BluffPromptsPromptBluffs from '@site/image-generator/yml/level-10/bluff-p
 
 <Bluff />
 
-### The Bluff Seat
+#### The Bluff Seat
 
 - ***Bluffing* is only allowed when you are the person directly before the player who is blind-playing a card**.
 - We formalize this concept as the *Bluff Seat*. You are sitting in *Bluff Seat* for a player if you are allowed to *Bluff* them.
@@ -48,6 +48,15 @@ import BluffPromptsPromptBluffs from '@site/image-generator/yml/level-10/bluff-p
   - Alice is **not allowed** to *Bluff* Cathy (or anyone else other than Bob, for that matter).
   - Bob is in *Bluff Seat* for Cathy, so Bob is allowed to *Bluff* Cathy, and so forth.
 - If a player gets someone else to blind-play a card, and they are not in *Bluff Seat* for them, then it **must** be a real *Finesse*!
+
+<br />
+
+#### Lie Principle
+
+- ***Bluffing* is only allowed if the very next player will blind-play on the very next turn.**
+- We formalize this concept as *Lie Principle*:
+  - If an untruth resolves immediately (i.e. the very next turn), then it is called a *Fib*. *Fibbing* is okay.
+  - If an untruth does not resolve immediately, it is called a *Lie*. *Lies* are **illegal**. Players should **never** assume that they are Lied to.
 
 <br />
 
