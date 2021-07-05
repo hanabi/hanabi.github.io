@@ -48,4 +48,6 @@
 - level 22
   - todo
 - level 23
-  - todo
+  - ?
+
+- search for all "blind play"

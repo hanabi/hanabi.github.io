@@ -22,10 +22,10 @@ import HardBluff from '@site/image-generator/yml/level-12/hard-bluff.yml';
 
 ### The 3 Bluff
 
-- Typically, the player who receives a clue that causes a *Bluff* blind-play knows that the card that was clued is one-away from being playable.
-- Our group plays with an artificial *3 Bluffs* convention. This means that in addition to being one-away from being playable, we agree that the touched card can *also* be any 3 that will be useful in the future.
-- *3 Bluffs* are mostly used to get 1's played at the beginning of the game. However, similar to a normal *Bluff*, a *3 Bluff* can be used to get any playable card (as long as it doesn't look like a *Finesse*, obviously.)
-- Here are some examples that cover the four most common *3 Bluff* situations:
+- Typically, the player who receives a clue that causes a *Bluff* blind-play knows that the card that was clued is *one-away-from-playable*.
+- Our group plays with an artificial *3 Bluffs* convention. This means that in addition to being *one-away-from-playable*, we agree that a *Bluff* can *also* be any 3 that will be useful in the future.
+- *3 Bluffs* are mostly used to get 1's played at the beginning of the game. However, similar to a normal *Bluff*, a *3 Bluff* can be used to get any playable card (as long as it doesn't look like a *Finesse*).
+- Here are some examples that cover the most common *3 Bluff* situations.
 
 #### Example 1 - **Color Disconnect** (Valid)
 
@@ -49,7 +49,7 @@ import HardBluff from '@site/image-generator/yml/level-12/hard-bluff.yml';
 - On the first turn of the game, Alice clues Cathy red, which touches a red 3.
 - Bob blind-plays red 1.
 - Cathy sees that Bob does not have red 2. Since red connects to red, Cathy assumes that she has the red 2.
-- Cathy misplays red 3 as red 2.
+- Cathy misplays the red 3 as a red 2.
 - Alternatively, if Cathy saw that Bob had both red 1 and red 2 on his *Finesse Position* at the time the clue was given, she would know that she has the red 2 **or** the red 3. Subsequently, Bob is promised a red 2, since if he does not blind-play a card, Cathy will go on to misplay the red 3 as red 2.
 
 <ColorConnectNotValid />
@@ -62,7 +62,8 @@ import HardBluff from '@site/image-generator/yml/level-12/hard-bluff.yml';
 - Bob blind-plays the red 1.
 - Cathy notices that Donald's red card has a negative 2 clue on it. This means that Donald will not go on to misplay the card as the red 2.
 - Cathy needs to evaluate whether or not Alice's clue is a *Finesse* or a *3 Bluff*. If this is a *Double Finesse*, then Cathy needs to blind-play the red 2. If this is a *Bluff*, then Alice only intended for Bob to blind-play.
-- Cathy knows that since **red connects to red**, this must be a *Double Finesse*, so Cathy blind-plays the red 2 into the red 3.
+- Cathy knows that since **red connects to red**, this must be a *Double Finesse*, so Cathy assumes that she has the red 2 on her *Finesse Position*.
+- Cathy misplays blue 5.
 
 <ColorConnectWithRankDisconnect />
 
@@ -78,9 +79,19 @@ import HardBluff from '@site/image-generator/yml/level-12/hard-bluff.yml';
 
 #### Generic Questions
 
+<!-- lint disable list-item-content-indent -->
+
 - *3 Bluffs* can be confusing. If you don't want to memorize the five examples above, you can simply ask the following questions:
-  1. Does the clue "connect" to the blind-play? If it connects, then it is a *Finesse*. If it does not connect, then it is a *Bluff*. Red connects to red, but red does **not** connect to blue. 2 connects to 3, but 1 does **not** connect to 3.
-  1. Will the player who received the clue go on to misplay if nothing else is blind-played? If yes, then it is a *Finesse*. If no, then it is a *Bluff*.
+  1. Does the clue "connect" to the blind-play?
+      - If it connects, then it is a *Finesse*.
+      - If it does not connect, then it is a *Bluff*.
+      - Red connects to red, but red does **not** connect to blue.
+      - 2 connects to 3, but 1 does **not** connect to 3.
+  1. Will the player who received the clue go on to misplay if nothing else is blind-played?
+      - If yes, then it is a *Finesse*.
+      - If no, then it is a *Bluff*.
+
+<!-- lint enable list-item-content-indent -->
 
 <br />
 
