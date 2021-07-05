@@ -44,5 +44,5 @@ These conventions apply to any variant with a dark omni suit or a gray pink suit
 
 ### The Fake 5's Chop Move & The Fake 5 Pull & The Fake 5 Number Discharge
 
-- First, see the section on the [Fake 5's Chop Move](dark-pink.md#the-fake-5s-chop-move) & the [Fake 5 Pull](dark-pink.md#the-fake-5-pull--the-fake-5-number-discharge) (in variants with a dark pink suit).
-- Just like with dark pink, players can perform Fake 5's Chop Moves, Fake 5 Pulls, and Fake 5 Number Discharges in variants with a dark omni or gray pink suit.
+- First, see the section on the *[Fake 5's Chop Move](dark-pink.md#the-fake-5s-chop-move)* & the *[Fake 5 Pull](dark-pink.md#the-fake-5-pull--the-fake-5-number-discharge)* (in variants with a dark pink suit).
+- Just like with dark pink, players can perform *Fake 5's Chop Moves*, *Fake 5 Pulls*, and *Fake 5 Number Discharges* in variants with a dark omni or gray pink suit.

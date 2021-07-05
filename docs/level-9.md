@@ -26,7 +26,7 @@ import DoubleGentlemanDiscard from '@site/image-generator/yml/level-9/double-gen
   1. a move that transfers a **clued card** in one person's hand to a **clued card** in another person's hand
   1. **necessary** to eliminate confusion among the team (because from *Good Touch Principle*, we are not normally supposed to have two copies of the same card "touched" with a clue)
   1. done with both playable cards and non-playable cards
-- It is also possible to "transfer" cards to other players *Finesse Position*. This is called a *Gentleman's Discard* to signify that the other card was completely blind as opposed to having a clue on it already.
+- It is also possible to "transfer" cards to the *Finesse Position* of other players. This is called a *Gentleman's Discard* to signify that the other card was completely blind as opposed to having a clue on it already.
 - The *Gentleman's Discard* is:
   1. a move that transfers a **clued card** in one person's hand to the ***Finesse Position*** of another person's hand
   1. **not necessary** and does not directly help the team, but may have some helpful side effects

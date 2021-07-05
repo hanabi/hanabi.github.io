@@ -73,7 +73,7 @@ import TrashPushDischarge from '@site/image-generator/yml/level-23/trash-push-di
 <ChopMove />
 
 - For example, Alice performs an *Unnecessary Unknown Trash Discharge* by cluing Cathy. Then Bob should blind-play his *Third Finesse Position* (from the clue), and Cathy should *Chop Move* the cards right of the clue target (from the unnecessariness).
-- For example, Alice performs an *Unnecessary Unknown Trash Discharge* on a single off-chop card in Donald's hand, while Donald's chop is trash. Now Bob blind-plays his *Third Finesse Position* (from the clue). Cathy sees that Bob's card could have been clued directly, so Donald is about to chop move a trash card. Therefore Cathy plays her second finesse position as an additional *Bad Chop Move Ejection*.
+- For example, Alice performs an *Unnecessary Unknown Trash Discharge* on a single off-chop card in Donald's hand, while Donald's chop is trash. Now Bob blind-plays his *Third Finesse Position* (from the clue). Cathy sees that Bob's card could have been clued directly, so Donald is about to chop move a trash card. Therefore Cathy plays her *Second Finesse Position* as an additional *Bad Chop Move Ejection*.
 - Importantly, note that *Unnecessary Chop Moves* are tricky in that they have **information asymmetry**: the player who blind-plays will **not** know that the card is chop moved, while everyone else will. All players will have to keep this in mind until the *Chop Move* has been demonstrated.
 
 <br />
@@ -93,7 +93,7 @@ import TrashPushDischarge from '@site/image-generator/yml/level-23/trash-push-di
 
 <TrashPush />
 
-- For example, if an *Unnecessary Trash Push Discharge* was performed by cluing a card in Cathy's hand, Bob should blind-play his *Third Finesse Position* (from the clue). Note that, even though the focus of the card touched by the clue was known trash, Bob had to blind-play to tell Cathy that the card she was about to push is trash, so the 'unknown trash' rules apply. Therefore Cathy also performs a *Trash Push*, playing the card next to the card that she learned is trash.
+- For example, if an *Unnecessary Trash Push Discharge* was performed by cluing a card in Cathy's hand, Bob should blind-play his *Third Finesse Position* (from the clue). Note that, even though the focus of the card touched by the clue was known trash, Bob had to blind-play to tell Cathy that the card she was about to push is trash, so the "unknown trash" rules apply. Therefore Cathy also performs a *Trash Push*, playing the card next to the card that she learned is trash.
 - The conversion to the known-trash interpretation also holds if the team has to prevent the clue receiver from *Trash Pushing* a card that's not playable:
   - All of the 2's are played on the stacks.
   - Bob has a red 3 on his *Second Finesse Position* and no other red cards in his hand. Thus, Alice can give a red clue to Bob in order to "get" the red 3.
