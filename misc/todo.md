@@ -38,13 +38,14 @@
 - level 19
   - todo
 - level 20
-  - todo
+  - The Trash Double Ignition
+  - The Replay Double Ignition
+  - The Poke Double Ignition
+  - The Playful Ignition
+  - Interaction with 5 Rank Clues
 - level 21
   - todo
 - level 22
   - todo
 - level 23
-  - The Trash Double Ignition
-  - The Replay Double Ignition
-  - The Poke Double Ignition
-  - The Playful Ignition
+  - todo

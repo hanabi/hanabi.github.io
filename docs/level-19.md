@@ -28,7 +28,7 @@ import NoInformationDoubleBluff from '@site/image-generator/yml/level-19/no-info
 - When this occurs, the clue should do one "extra" thing:
   - If the clue would normally be interpreted as a *Save Clue*, then it transforms into an *Occupied Play Clue*.
   - If the clue would normally be interpreted as a *Play Clue* or a *Prompt*, then it transforms into an *Occupied Finesse*.
-- Note that the concept of being *Occupied* generalizes to lots of different kind of moves. For example, when an *Occupied* player clues an off-chop 5, it is certainly not a *5 Stall* - it must be an *Occupied 5 Pull*!
+- Note that the concept of being *Occupied* generalizes to lots of different kind of moves. For example, when an *Occupied* player clues an off chop 5, it is certainly not a *5 Stall* - it must be an *Occupied 5 Pull*!
 
 <br />
 

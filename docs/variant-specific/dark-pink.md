@@ -30,7 +30,7 @@ These conventions apply to any variant with a dark pink (touched by all ranks an
 ### The Fake 5's Chop Move
 
 - Players are allowed to violate *Pink Promise* on dark pink cards in order to perform a *Fake 5's Chop Move*.
-- This means that *Pink Promise* no longer applies to off-chop cards when they are clued as a 5, unless it was just a *5 Stall*.
+- This means that *Pink Promise* no longer applies to off chop cards when they are clued as a 5, unless it was just a *5 Stall*.
 
 <br />
 

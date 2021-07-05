@@ -17,14 +17,14 @@ players:
       - type: x
       - type: x
       - type: x
+        above: Red 4
       - type: 1
         clue: 1
-  - text: Bob blind plays slot 4
   - name: Cathy
     cards:
+      - type: r5
+        border: false
       - type: x
       - type: x
       - type: x
       - type: x
-      - type: x
-  - text: Cathy blind plays her Finesse position

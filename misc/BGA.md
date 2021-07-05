@@ -219,8 +219,8 @@ Ok, so you've made it this far. The changes so far probably sound pretty strange
 
 ### Trash Chop Moves - Changed
 
-- On BGA, if you clue some cards which are known trash, this gives the player some safe discards. This is usually done if you don't want that player to discard their chop card. However, after they have discarded these cards, there are different opinions on what the player should discard next.
-- In our group, a known trash clue causes **all** cards behind the oldest clued card to be *Chop Moved*.
+- On BGA, if you clue some cards which are known-trash, this gives the player some safe discards. This is usually done if you don't want that player to discard their chop card. However, after they have discarded these cards, there are different opinions on what the player should discard next.
+- In our group, a known-trash clue causes **all** cards behind the oldest clued card to be *Chop Moved*.
 
 ### The Order Chop Move - Added
 

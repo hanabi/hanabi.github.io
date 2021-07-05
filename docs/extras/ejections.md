@@ -23,7 +23,7 @@ import SelfColor from '@site/image-generator/yml/extras/ejections/self-color.yml
 ### Trash Push Ejection
 
 - First, see the section on the [Trash Push](../level-13.md#the-trash-push).
-- Normally, when known trash is touched as the focus of the clue, and the known trash is on chop, it communicates a *Trash Push*.
+- Normally, when known-trash is touched as the focus of the clue, and the known-trash is on chop, it communicates a *Trash Push*.
 - However, what if the *Trash Pushed* card is two-or-more-away-from-playable? This would normally be a *Trash Push Double Finesse* on Bob, but that is unlikely.
 - Instead, since no single play could ever prevent the *Pushed* card from immediately misplaying, Bob interprets the clue as an *Ejection*.
 - After a *Trash Push Ejection*, the clue receiver should *Chop Move* the two-or-more-away-from-playable card.
@@ -81,7 +81,7 @@ import SelfColor from '@site/image-generator/yml/extras/ejections/self-color.yml
 ### The Poke Ejection
 
 - First, see the section on the *[Poke Double Ignition](../level-20.md#the-poke-double-ignition)*.
-- Normally, if a player re-clues globally known trash, it triggers a *Poke Double Ignition*.
+- Normally, if a player re-clues globally known-trash, it triggers a *Poke Double Ignition*.
 - However, what if the next player can see that a *Poke Double Ignition* is impossible? In this situation, if the clue-giver is not making a mistake, they instead intend for an *Ejection* on the very next player.
 
 <br />

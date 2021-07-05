@@ -161,7 +161,7 @@ As noted in the [convention changes document](convention-changes.md), sometimes 
 
 - This convention only applies to variants with a dark pink, dark omni, or gray pink suit.
 - Players are allowed to violate *Pink Promise* on dark pink cards in order to perform a *Fake 5's Chop Move*.
-- This means that *Pink Promise* no longer applies to off-chop cards when they are clued as a 5, unless it was just a *5 Stall*.
+- This means that *Pink Promise* no longer applies to off chop cards when they are clued as a 5, unless it was just a *5 Stall*.
 
 **The Fake 5 Pull & The Fake 5 Number Discharge** (by pianoblook)
 

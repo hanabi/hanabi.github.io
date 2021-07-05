@@ -19,7 +19,7 @@ players:
       - type: x
       - type: x
       - type: x
-  - text: Bob blind plays slot 1
+  - text: Bob blind-plays slot 1.
   - name: Cathy
     cards:
       - type: x
@@ -28,7 +28,5 @@ players:
       - type: x
       - type: 2
         clue: 2
-        above: Blue 2
         middle_note: kt
-  - text: Cathy blind plays slot 4
 

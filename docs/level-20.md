@@ -42,21 +42,21 @@ title: Level 20 - Ignition
 
 #### 1) A Late-Game Trash Chop Move
 
-- Sometimes, players perform a *Trash Chop Move* by cluing known trash in another player's hand (off-chop).
+- Sometimes, players perform a *Trash Chop Move* by cluing known-trash in another player's hand (off chop).
 - However, players can know that *Trash Chop Move* is impossible if:
   - they are not the clue-receiver and they can see that the *Chop Moved* card is bad
   - they are the clue-receiver and they can determine that they are no cards left to *Chop Move* (meaning that all of the cards are accounted for, or all of the remaining cards could be given a direct *Play Clue* or a direct *Save Clue*).
 
 #### 2) A Late-Game *Trash Push* (or a *Trash Push Finesse*)
 
-- Sometimes, players perform a *Trash Push* (or a *Trash Push Finesse*) by cluing known trash in another player's hand (on-chop).
+- Sometimes, players perform a *Trash Push* (or a *Trash Push Finesse*) by cluing known-trash in another player's hand (on chop).
 - However, players can know that a *Trash Push* is impossible if:
   - they are not the clue-receiver and they can see that the "pushed" card is bad
   - they are the clue-receiver and they can determine that they are no more cards left to *Trash Push*
 
 #### Otherwise, a Trash Double Ignition
 
-- If the known trash clue cannot be either of these two things, then it communicates a *Trash Double Ignition*.
+- If the known-trash clue cannot be either of these two things, then it communicates a *Trash Double Ignition*.
 - Players should always assume a *Trash Double Ignition* over a *Bad Trash Chop Move Ejection*, since the latter is very rare. (*Bad Trash Chop Move Ejection* is an advanced move that is covered later on.)
 - Also, see the section on [Trash Ejection](extras/ejections.md#the-trash-ejection).
 
@@ -75,7 +75,7 @@ title: Level 20 - Ignition
 
 ### The Poke Double Ignition
 
-- When a player re-clues a globally-known trash card, it is a "useless" clue.
+- When a player re-clues a globally-known-trash card, it is a "useless" clue.
 - Usually, when this occurs, it is because a player is in a [stalling situation](level-8.md#allowable-stall-clues-stall-table) and cannot discard.
 - If a player is not in a stalling situation, then they must be trying to send a deeper message - a *Double Ignition*. This is called a *Poke Double Ignition* because by re-touching a trash card, it is like you are poking the player.
 - The *Poke Double Ignition* must not introduce any new cards as part of the clue.

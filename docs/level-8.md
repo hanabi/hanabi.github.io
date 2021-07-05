@@ -20,7 +20,7 @@ import FiveStall from '@site/image-generator/yml/level-8/five-stall.yml';
 | Precedence | Type of Clue | Early Game (Severity 1) | Double Discard / Scream Discard (Severity 2) | Locked Hand (Severity 3) | 8 Clues (Severity 4)
 | ---------- | ------------ | ----------------------- | -------------------------------------------- | ------------------------ | --------------------
 | 1          | Normal *Play Clues* or *Save Clues*                                                                      | ✅ | ✅ | ✅ | ✅
-| 2          | *5 Stall*<br />(cluing off-chop 5's)                                                                     | ✅ | ✅ | ✅ | ✅
+| 2          | *5 Stall*<br />(cluing off chop 5's)                                                                     | ✅ | ✅ | ✅ | ✅
 | 3          | *Tempo Clue*<br />(re-cluing a card to make it play)                                                     | ❌ | ✅ | ✅ | ✅
 | 4 (tied)   | *Locked Hand Save*<br />(saving any card on chop, as long as doing so would not *Lock* the other player) | ❌ | ❌ | ✅ | ✅
 | 4 (tied)   | *8 Clue Save*<br />(saving any card not on slot 1)                                                       | ❌ | ❌ | ❌ | ✅
@@ -55,7 +55,7 @@ import FiveStall from '@site/image-generator/yml/level-8/five-stall.yml';
 - The *Early Game* is only ended when the first **completely unknown** card is discarded.
 - In other words:
   - Misplaying a card **does not count** as ending the *Early Game*.
-  - Discarding known trash **does not count** as ending the *Early Game*.
+  - Discarding known-trash **does not count** as ending the *Early Game*.
   - Doing special discards that "transfer" cards to other players **does not count** as ending the *Early Game*.
 
 #### Extinguishing Every Clue
@@ -108,7 +108,7 @@ import FiveStall from '@site/image-generator/yml/level-8/five-stall.yml';
 
 ### The 5 Stall (Intermediate Section)
 
-- As mentioned in the [beginner's guide](beginner.md), *5 Stalls* are when a player clues an off-chop 5 purely because they want (or need) to give a stall clue.
+- As mentioned in the [beginner's guide](beginner.md), *5 Stalls* are when a player clues an off chop 5 purely because they want (or need) to give a stall clue.
 - *5 Stalls* are usually performed in the *Early Game*. Less commonly, they can also be performed in the *Mid-Game* if a player happens to be in a special "stalling" situation where they are not allowed to discard.
 - In the *Early Game*, the team can give as many *5 Stalls* as they want before initiating the *Mid-Game*.
 - Regardless of whether they are done in the *Early Game* or the *Mid-Game*, *5 Stalls* are only allowed if there is nothing else "normal" to do (like playing a card, giving a normal *Play Clue*, or giving a normal *Save Clue*).
@@ -117,7 +117,7 @@ import FiveStall from '@site/image-generator/yml/level-8/five-stall.yml';
   - The *Finesse Position Exception* applies whenever a player performs a *5 Stall*, regardless of whether it is in the *Early Game* or not.
 - *5 Stalls* **cannot** be given in the *Mid-Game* if there are any playable 5's. In this situation, a number 5 clue would just look like a *Play Clue* on the 5.
 - *5 Stalls* **must** be given to the 5 that is closest to chop. For example, in a 3-player game:
-  - It is the *Early Game*. The only thing left for Alice to do is to clue an off-chop 5.
+  - It is the *Early Game*. The only thing left for Alice to do is to clue an off chop 5.
   - Bob has two playable 1's on slots 1 and 2. He has a green 5 on slot 4. Bob's 5 is therefore one-away from chop.
   - Cathy has nothing clued in her hand. She has a purple 5 on slot 3. Cathy's 5 is therefore two-away from chop.
   - Alice must clue number 5 to Bob as a *5 Stall* since his 5 is closer to chop (even though Bob has two playable cards).

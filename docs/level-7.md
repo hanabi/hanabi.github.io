@@ -66,7 +66,7 @@ title: Level 7 - End-Game
 ### Team Distribution Principle
 
 - In general, it is better for useful cards to be distributed **evenly** throughout the team. This is especially important in 5-player games.
-- Thus, if one of your teammates has 3 out of 4 cards clued, it may be better for **them** to be the one giving the clues, and you to be the one discarding - even if their chop is known trash.
+- Thus, if one of your teammates has 3 out of 4 cards clued, it may be better for **them** to be the one giving the clues, and you to be the one discarding - even if their chop is known-trash.
 - There are multiple reasons for this. First, you don't want them to get a *Locked Hand*, which is generally bad. Second, if they continue to draw playable cards, the game may end before they get a chance to play them all.
 
 <br />
