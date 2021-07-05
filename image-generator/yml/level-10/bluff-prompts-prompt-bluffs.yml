@@ -15,22 +15,20 @@ players:
       - type: x
   - cards:
     - type: x
-    - type: 2
+    - type: b2
     - type: x
     - type: x
-  - text: Bob plays the uknown 2, it is Blue 2
   - name: Cathy
     cards:
+    - type: b5
+      border: false
     - type: x
     - type: x
     - type: x
-    - type: x
-  - text: Cathy blind plays her Finesse Position, it is Blue 5
   - name: Donald
     cards:
     - type: x
     - type: x
-    - type: x
+    - type: r3
       clue: r
-      above: Red 3
     - type: x

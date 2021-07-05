@@ -4,8 +4,6 @@ stacks:
   - g: 1
   - b: 1
   - p: 1
-big_text:
-  text: Bluff
 players:
   - clue_giver: true
     cards:

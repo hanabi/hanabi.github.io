@@ -20,16 +20,31 @@
   - The Anxiety Play (Forcing a Locked Player to Play)
   - The 8 Clue Save (8CS)
 - level 10
-- level 11
+  - Guide Principle
 - level 12
+  - todo
 - level 13
+  - todo
 - level 14
+  - todo
 - level 15
+  - todo
 - level 16
+  - todo
 - level 17
+  - todo
 - level 18
+  - todo
 - level 19
+  - todo
 - level 20
+  - todo
 - level 21
+  - todo
 - level 22
+  - todo
 - level 23
+  - The Trash Double Ignition
+  - The Replay Double Ignition
+  - The Poke Double Ignition
+  - The Playful Ignition

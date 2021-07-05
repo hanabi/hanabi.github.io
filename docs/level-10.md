@@ -66,10 +66,10 @@ import BluffPromptsPromptBluffs from '@site/image-generator/yml/level-10/bluff-p
 - For example, in a 4-player game:
   - All the 1's are played on the stacks.
   - Bob has nothing clued in his hand.
-  - Cathy has a red 3 clued in her hand with just a number 3. She does not know what color it is.
+  - Cathy has a red 3 clued in her hand with just a number 3. She does not know what suit it is.
   - Alice clues Donald red, which touches one red 4 as a *Play Clue*.
   - Bob knows that he must have the red 2. If he blind-plays the red 2 (as a *Finesse*), then Cathy will play the red 3 (as a *Prompt*), and Donald will play the red 4.
-  - Bob plays his *Finesse Position* card as red 2. Instead, it is a blue 2 and it successfully plays.
+  - Bob plays his *Finesse Position* card as a red 2. Instead, it is a blue 2 and it successfully plays.
   - From Cathy's perspective, she knows that the red 4 is *two-away-from-playable* instead of *one-away-from-playable*. *Bluffs* on *two-away-from-playable* cards are normally illegal. Thus, Cathy's mystery 3 must be exactly red 3, making the red 4 *one-away-from-playable* after all.
   - Cathy discards.
   - From Donald's perspective, since red (the type of clue that was given) does not connect to blue (the card that was blind-played), this must be a *Bluff*. Normally, since the red 1 is currently played on the stacks, Donald would think that he has the red 3 (e.g. the *one-away-from-playable* red card).
@@ -288,4 +288,4 @@ import BluffPromptsPromptBluffs from '@site/image-generator/yml/level-10/bluff-p
 
 - First, see the section on the *[Stacked Finesse](level-5.md#the-stacked-finesse)*.
 - *Stacked Finesses* are encouraged, since they have few downsides.
-- However, players should **never** stack a *Bluff* on top of a player who is *Finessed*. This is because the blind-playing player will assume that a *Layered Finesse* is occurring and go on to play the card from the first *Finesse*. This means that the *Bluff* will not be resolved immediately, violating *Lie Principle*. (*Lie Principle* is one of the most important principles!) Typically, when this mistake happens, the team will go on to lose the game, because severe *Information Desynchronization* will occur.
+- However, players should **never** stack a *Bluff* on top of a player who is *Finessed*. This is because the blind-playing player will assume that a *Layered Finesse* is occurring and go on to play the card from the first *Finesse*. This means that the *Bluff* will not be resolved immediately, violating *Lie Principle*. This mistake is really bad because it causes severe *Information Desynchronization*.
