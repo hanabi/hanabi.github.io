@@ -37,7 +37,7 @@ import UnnecessaryBadChopMoveEjection from '@site/image-generator/yml/level-23/u
 
 - If **known trash** is used as clue target, the "extra" thing is an *Ignition*. The *Ignition* can be on anyone on the team, similar to how *Double Ignition* works.
 
-#### Example 1 - An Unnecessary Trash Push
+#### Example 1 - An Unnecessary Trash Push (with Ignition)
 
 - For example, this would be an *Unnecessary Trash Push* in a 3-player game:
   - All of the 3's are played on the stacks.
@@ -49,7 +49,7 @@ import UnnecessaryBadChopMoveEjection from '@site/image-generator/yml/level-23/u
 
 <UnnecessaryTrashPushIgnition />
 
-#### Example 2 - An Unnecessary Trash Chop Move
+#### Example 2 - An Unnecessary Trash Chop Move (with Ignition)
 
 - For example, if a *Trash Chop Move* was done on a card that could be saved directly, the next player should blind-play their *Finesse Position* as an *Ignition*, and the clue receiver should still *Chop Move*.
 
@@ -60,7 +60,7 @@ import UnnecessaryBadChopMoveEjection from '@site/image-generator/yml/level-23/u
 - If **unknown trash** is used as a clue target that is **off chop**, the team responds as if a *Trash Chop Move* was given.
 - Note that *Unnecessary Chop Moves* are tricky in that they have **information asymmetry**: the player who blind-plays will **not** know that the card is chop moved, while everyone else will. All players will have to keep this in mind until the *Chop Move* has been demonstrated.
 
-#### Example 1 - An Unnecessary Trash Finesse
+#### Example 1 - An Unnecessary Trash Finesse (with a Chop Move)
 
 - For example, this would be an *Unnecessary Trash Finesse* in a 3-player game:
   - All of the 2's are played on the stacks except for the red 2.
@@ -74,11 +74,11 @@ import UnnecessaryBadChopMoveEjection from '@site/image-generator/yml/level-23/u
 
 <UnnecessaryTrashFinesseChopMove />
 
-#### Example 2 - An Unnecessary Unknown Trash Discharge
+#### Example 2 - An Unnecessary Unknown Trash Discharge (with a Chop Move)
 
 - For example, if an *Unknown Trash Discharge* was done to *Discharge* a card that could be *Play Clued* directly, the clue receiver should *Chop Move* the cards to the right of the clue target.
 
-#### Example 3 - An Unnecessary Unknown Trash Discharge with a Bad Chop Move Ejection
+#### Example 3 - An Unnecessary Unknown Trash Discharge (with a Bad Chop Move Ejection)
 
 - For example, in a 4-player game:
   - All the 2's are played on the stacks.
@@ -94,7 +94,7 @@ import UnnecessaryBadChopMoveEjection from '@site/image-generator/yml/level-23/u
 
 - If **unknown trash** is used as a clue target that is **on chop**, the team responds as if a *Trash Push* was given.
 
-#### Example 1 - An Unnecessary Trash Finesse
+#### Example 1 - An Unnecessary Trash Finesse (with a Trash Push)
 
 - For example, this would be an *Unnecessary Trash Finesse* in a 3-player game:
   - All of the 2's are played on the stacks except for the red 2.
@@ -108,11 +108,11 @@ import UnnecessaryBadChopMoveEjection from '@site/image-generator/yml/level-23/u
 
 <UnnecessaryTrashFinesseTrashPush />
 
-#### Example 2 - An Unnecessary Trash Push Discharge
+#### Example 2 - An Unnecessary Trash Push Discharge (with a Trash Push)
 
-- For example, if an *Trash Push Discharge* was performed by cluing a card in Cathy's hand, Bob should blind-play his *Third Finesse Position* to prove that the *Trash Pushed* card is trash. Then, Cathy should blind-play the card next to the the card that she learned is trash.
+- For example, if an *Trash Push Discharge* was performed by cluing a card in Cathy's hand, Bob should blind-play his *Third Finesse Position* to prove that the *Trash Pushed* card is trash. Then, Cathy should blind-play the card next to the card that she learned is trash.
 
-#### Example 3 - An Unnecessary Bad Chop Move Ejection
+#### Example 3 - An Unnecessary Bad Chop Move Ejection (with a Trash Push Discharge)
 
 - The conversion to the known-trash interpretation also holds if the team has to prevent the clue receiver from *Trash Pushing* a card that's not playable.
 - For example, in a 3-player game:
