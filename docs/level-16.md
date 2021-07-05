@@ -206,6 +206,5 @@ import TrashTouchElimination from '@site/image-generator/yml/level-16/trash-touc
   - Alice clues red to Bob. Since nothing was stopping her from cluing number 4, this is very strange.
   - Bob plays the red 4.
   - There is only one "missing" red card - the red 5. Cathy knows that normally, Bob would think that his red 1 is the red 5 (from *Good Touch Principle*). This must mean that Cathy has the red 5. Cathy writes *Trash Touch Elimination Notes* on her hand for the red 5.
-    - Normally, the whole hand should get the elimination notes. But in this specific example it's reasonable to assume that the chop slot is not Red 5, because otherwise Red 4 could be finessed. Depending on the variant played (rainbow?) and where exactly Red 4 is, it might not be possible to do such finesse.
 
 <TrashTouchElimination />
