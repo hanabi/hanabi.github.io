@@ -16,13 +16,13 @@ players:
     cards:
       - type: x
       - type: x
-      - type: x
-      - type: x
+      - type: 3
+        above: Blue 3
+      - type: 3
       - type: x
   - name: Cathy
     cards:
       - type: x
-        above: Blue 3
       - type: x
       - type: x
       - type: x
