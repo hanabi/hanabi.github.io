@@ -123,7 +123,7 @@ import UnnecessaryBadChopMoveEjection from '@site/image-generator/yml/level-23/u
   - Bob knows that from Donald's perspective, Alice's clue looks like a *Trash Chop Move*. Since Donald is about to chop move a trash card, Bob blind-plays his red 3 as a *Bad Chop Move Ejection*.
   - Since Bob's blind-play told Donald about a trash card, namely that the *Chop Moved* blue 1 was trash, Donald will now additionally interpret the clue as a *Trash Push*.
   - Cathy sees that Donald is about to play green 1 as a *Trash Push*, but green 1 is already played.
-  - Thus, Cathy plays her third finesse position as a *Trash Push Discharge*.
+  - Thus, Cathy plays her *Third Finesse Position* as a *Trash Push Discharge*.
 
 <UnnecessaryBadChopMoveEjection />
 
