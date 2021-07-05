@@ -114,5 +114,4 @@ title: Level 20 - Ignition
   - Bob sees this is a *Playful Ignition*, and therefore blind-plays his *Finesse Position* card. It is blue 4 and it successfully plays.
   - It is now Cathy's turn. Even though a blue 4 was just blind-played, Cathy knows that this does not indicate that her 5 is necessarily blue; it could still be any color. Since Alice's clue was by definition a *5's Chop Move*, Cathy knows that this must mean Bob was reacting to the *Chop Move*.
   - Cathy understands that Bob must have blind-played as a *Playful Ignition*. She blind-plays her slot 4 card (the card to the right of the clued 5).
-
 - Inversely, even if a directly playable 5 is given a rank clue while one away from chop, the next player may still be expected to respond as a *Bad Chop Move Ejection* or *Playful Ignition* if the resulting *Chop Move* would be abnormal.
