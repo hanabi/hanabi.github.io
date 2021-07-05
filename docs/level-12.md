@@ -139,7 +139,7 @@ import HardBluff from '@site/image-generator/yml/level-12/hard-bluff.yml';
 ### The Hard 3 Bluff
 
 - Players can use a 3 to *3 Bluff* the 1 of the same suit.
-- This is called a *Hard 3 Bluff* to distinguish it from a more-ordinary 3 bluff.
+- This is called a *Hard 3 Bluff* to distinguish it from a more-ordinary *3 Bluff*.
 - An example of a *Hard 3 Bluff* can be found above as example 5.
 
 <br />
