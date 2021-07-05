@@ -100,7 +100,7 @@ import TrashPushInvertedFinesse from '@site/image-generator/yml/extras/special-f
 - Normally, if number 2 is clued to a chop card, it is considered to be a *Save Clue* (as the *2 Save* convention).
 - However, it is possible for players to transform this *Save Clue* interpretation into a *Play Clue* interpretation if they violate *Good Touch Principle* and intentionally duplicate another 2.
 - In this situation, the player who received the clue will know that the chop card connects.
-  - If two 2's were clued, then the other 2 is obviously the exact same copy as the chop 2. In this situation, the left-most card can be played and the other card discarded as known trash.
+  - If two 2's were clued, then the other 2 is obviously the exact same copy as the chop 2. In this situation, the left-most card can be played and the other card discarded as known-trash.
   - If three or more 2's were clued, then any of the other cards could be the duplicated 2. In this situation, the chop card should be discarded and then *Elimination Notes* for that card written on the other 2's.
 - For example, in a 3-player game:
   - It is the first turn of the game and nothing is played on the stacks.
@@ -142,7 +142,7 @@ import TrashPushInvertedFinesse from '@site/image-generator/yml/extras/special-f
   - Cathy knows that normally, this would be a *3 Bluff*. However, since the red 3's are duplicated, this must be a *Bad Touch Double Finesse*, so Cathy blind-plays her *Finesse Position* and it is the red 2.
   - From Donald's perspective, after Bob blind-played the red 1, he figured Alice was performing a *3 Bluff*.
   - However, after Cathy blind-played the red 2, he knows that it could not be a *3 Bluff*, because then Cathy would not have blind-played anything.
-  - Instead, Donald knows that he must hold both copies of red 3. Donald plays the non-focused red 3. The next time that Donald discards, he will discard the known trash red 3.
+  - Instead, Donald knows that he must hold both copies of red 3. Donald plays the non-focused red 3. The next time that Donald discards, he will discard the known-trash red 3.
 
 <BadTouchDoubleFinesse />
 
@@ -171,7 +171,7 @@ import TrashPushInvertedFinesse from '@site/image-generator/yml/extras/special-f
   - Bob blind-plays red 1.
   - Cathy blind-plays red 2.
   - Donald knows that normally, this would be a *4 Double Bluff* and that no-one should play any more cards. However, since the red 4 was duplicated, this must be a *Bad Touch Triple Finesse*, so Cathy blind-plays her *Finesse Position* and it is the red 3.
-  - Emily knows that this cannot be a *4 Double Bluff*, or else Donald would not have blind-played anything. Thus, this must be a *Bad Touch Triple Finesse*, so Emily plays her left-most red 4. The next time that Emily discards, she will discard the known trash red 4.
+  - Emily knows that this cannot be a *4 Double Bluff*, or else Donald would not have blind-played anything. Thus, this must be a *Bad Touch Triple Finesse*, so Emily plays her left-most red 4. The next time that Emily discards, she will discard the known-trash red 4.
 
 <BadTouchTripleFinesse />
 
@@ -436,7 +436,7 @@ import TrashPushInvertedFinesse from '@site/image-generator/yml/extras/special-f
 
 ### The Unnecessary Forced Reverse Trash Finesse (A Gentleman's Discard That Looks Like an Unnecessary Reverse Trash Finesse)
 
-- First, see the section on *[Unnecessary Moves with Known Trash](../level-23.md#unnecessary-moves-with-known-trash----ignition)*, which defines what a *Unnecessary Trash Finesse* is. Basically, if a *Trash Finesse* is unnecessary, then it also causes a *Chop Move*.
+- First, see the section on *[Unnecessary Moves with Known-Trash](../level-23.md#unnecessary-moves-with-known-trash----ignition)*, which defines what a *Unnecessary Trash Finesse* is. Basically, if a *Trash Finesse* is unnecessary, then it also causes a *Chop Move*.
 - This convention also applies to *Reverse Trash Finesses*. If they are unnecessary, then it causes a *Chop Move* in the same way.
 - If a line is chosen that forces a *Gentleman's Discard* to occur (because they have to entertain the possibility of a *Reverse Trash Finesse*), and the blind-playing card could have been clued in some other easier way, then it **still** *Chop Moves* in exactly the same way that an *Unnecessary Reverse Trash Finesse* would.
 - For example, in a 3-player game:
@@ -457,7 +457,7 @@ import TrashPushInvertedFinesse from '@site/image-generator/yml/extras/special-f
 
 ### The Trash Push Inverted Finesse
 
-- First, see the section on *[Unnecessary Moves with Known Trash](../level-23.md#unnecessary-moves-with-known-trash----ignition)*, which defines what a *Unnecessary Trash Push* is. Basically, if a *Trash Push* is unnecessary, then it also causes an extra blind-play.
+- First, see the section on *[Unnecessary Moves with Known-Trash](../level-23.md#unnecessary-moves-with-known-trash----ignition)*, which defines what a *Unnecessary Trash Push* is. Basically, if a *Trash Push* is unnecessary, then it also causes an extra blind-play.
 - Normally, the *Unnecessary Trash Push* calls for the very next player to blind-play an unrelated card, similar to a *Bluff*.
 - However, if the very next player can see that it could be a *Finesse* through the *Trash Pushed* card, then they should prefer that interpretation. This is similar to how Bob should always prefer a *Finesse* interpretation over a *Bluff* interpretation.
 - For example, in a 4-player game:

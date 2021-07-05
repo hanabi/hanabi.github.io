@@ -51,7 +51,7 @@ The main website lists all of our conventions. But it does not bother listing **
 
 ### Discarding Trash From Left to Right
 
-- In the Hyphen-ated convention framework, [we discard known trash from left-to-right](https://hanabi.github.io/docs/level-9#the-trash-order-chop-move). Why?
+- In the Hyphen-ated convention framework, [we discard known-trash from left-to-right](https://hanabi.github.io/docs/level-9#the-trash-order-chop-move). Why?
 - Intuitively, you would expect that trash should be discarded from right-to-left, because that is the order that we normally discard cards in.
 - However, this does not work well if you use the *Trash Finesse* convention and it gets deferred.
 - For example, consider the following replay: https://hanabi.live/replay/16627#32

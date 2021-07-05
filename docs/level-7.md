@@ -66,7 +66,7 @@ title: Level 7 - End-Game
 ### Team Distribution Principle
 
 - In general, it is better for useful cards to be distributed **evenly** throughout the team. This is especially important in 5-player games.
-- Thus, if one of your teammates has 3 out of 4 cards clued, it may be better for **them** to be the one giving the clues, and you to be the one discarding - even if their chop is known trash.
+- Thus, if one of your teammates has 3 out of 4 cards clued, it may be better for **them** to be the one giving the clues, and you to be the one discarding - even if their chop is known-trash.
 - There are multiple reasons for this. First, you don't want them to get a *Locked Hand*, which is generally bad. Second, if they continue to draw playable cards, the game may end before they get a chance to play them all.
 
 <br />
@@ -82,7 +82,7 @@ title: Level 7 - End-Game
 ### Burning (End-Game Stalling)
 
 - In the *End-Game*, often times there are still a lot of cards yet to be played. Thus, you need to be very careful when discarding, since by drawing a card you can make the game end before everyone has a chance to play all of the cards.
-- If there are enough of clues available, you can choose to stall, by giving a low-value clue (or even a completely useless clue). This is referred to as *Burning* a clue.
+- If there are enough clues available, you can choose to stall, by giving a low-value clue (or even a completely useless clue). This is referred to as *Burning* a clue.
 - The best way to give a useless clue is to re-clue cards which are already known to be playable.
 - Give a *Burn Clue* if:
   - There is a possibility that the game can be completed without anyone discarding from now on.

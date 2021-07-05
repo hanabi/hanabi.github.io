@@ -1,23 +1,21 @@
 stacks:
   - r: 2
-  - y: 0
-  - g: 0
+  - y: 1
+  - g: 1
   - b: 1
-  - p: 0
-big_text:
-  text: Illegal!
+  - p: 1
 players:
   - cards:
       - type: x
+      - type: r3
       - type: x
+      - type: gbyp2
       - type: x
-        above: Blue 3
-      - type: x
-      - type: x
-  - text: Alice blind plays Slot 1 as Blue 2
+  - text: Alice plays Red 3
   - name: Bob
     cards:
       - type: x
+        above: Red 4
       - type: x
       - type: x
       - type: x

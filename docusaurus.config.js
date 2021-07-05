@@ -73,7 +73,6 @@ module.exports = {
   },
   plugins: [
     path.resolve(__dirname, 'image-generator'),
-    //require.resolve('docusaurus-lunr-search'),
   ],
   presets: [
     [

@@ -3,9 +3,11 @@ id: level-18
 title: Level 18 - Priority
 ---
 
+import PriorityPrompt from '@site/image-generator/yml/level-18/priority-prompt.yml';
+import PriorityFinesse from '@site/image-generator/yml/level-18/priority-finesse.yml';
 import PriorityBluff from '@site/image-generator/yml/level-18/priority-bluff.yml';
 import LoadClue from '@site/image-generator/yml/level-18/load-clue.yml';
-import PriorityFinesse from '@site/image-generator/yml/level-18/priority-finesse.yml';
+import PriorityFinesseSpecial from '@site/image-generator/yml/level-18/priority-finesse-special.yml';
 import TrustFinesse from '@site/image-generator/yml/level-18/trust-finesse.yml';
 
 - Level 18 strategies should only be learned if you have 320+ games of experience with the group.
@@ -34,14 +36,25 @@ import TrustFinesse from '@site/image-generator/yml/level-18/trust-finesse.yml';
 
 - If someone plays a fully-known card and the card does **not** have *Priority*, then the player must be trying to send a special message.
 - Based on what card they did play, if you have any clued cards in your hand that match the next "connecting" card, it is a message that you can play it right now as a *Priority Prompt*. (This is similar to a normal *Prompt*, except instead of initiating the *Prompt* with a clue, they initiated it with the order that they played cards.)
+- For example, in a 3-player game:
+  - Alice has a clued + known playable red 1 and a clued + known playable blue 2 in her hand. Bob has two clued 3s in his hand.
+  - Alice plays blue 2.
+  - Bob comes next. Bob knows that normally Alice had a choice and therefore were supposed to play the lowest rank card - red 1 (unless it is a blind-play, or it leads into someone's hand, or it is a 5). Alice **did not** play the card with *Priority*.
+  - Bob doesn't see blue 3 in Cathy's hand. This must have been a *Priority Prompt*. Bob plays the leftmost clued 3, and it's blue 3.
+
+<PriorityPrompt />
+
+- Similar to a normal *Prompt*, if a *Priority Prompt* could apply to two or more clued cards, then you should play the left-most one.
+- Similar to a normal *Prompt*, if a *Priority Prompt* made you play the left-most card and it was not the connecting card, then you should continuing playing clued cards until you find the connecting card.
 - Alternatively, if you do not have any clued cards in your hand that connects to the card that they played, then you should play your *Finesse Position* card as a *Priority Finesse*.
 - For example, in a 3-player game:
   - Alice has a clued + known playable red 1 and a clued + known playable blue 2 in her hand.
   - Alice plays blue 2.
-  - Bob comes next. Bob knows that normally, when you have a choice between two cards, you are supposed to play the lowest rank card. (Unless it is a blind-play, or it leads into someone's hand, or it is a 5.) Bob does not see any blue 3's, so he knows that Alice was supposed to play the red 1 instead of the blue 2. Alice **did not** play the card with *Priority*.
-  - This means that Bob must have a blue 3. Bob does not have any clued cards in his hand, so he blind-plays his *Finesse Position* card.
-- Similar to a normal *Prompt*, if a *Priority Prompt* could apply to two or more clued cards, then you should play the left-most one.
-- Similar to a normal *Prompt*, if a *Priority Prompt* made you play the left-most card and it was not the connecting card, then you should continuing playing clued cards until you find the connecting card.
+  - Bob comes next. Bob knows that normally, when you have a choice between two cards, you are supposed to play the lowest rank card (unless it's a blind-play, etc). Bob knows that Alice was supposed to play the red 1 instead of the blue 2. Alice **did not** play the card with *Priority*.
+  - Bob sees blue 3 in Cathy's *Finesse Position*. This means that Alice in did a *Priority Finesse* on Cathy, not on Bob. Bob does something unrelated.
+  - Cathy blind-plays her *Finesse Position* card. It is a blue 3.
+
+<PriorityFinesse />
 
 <br />
 
@@ -138,7 +151,7 @@ Priority does not always apply. Some common exceptions are listed below.
   - Alice knows that **all** of the possibilities for the 2 would have *Priority* over the red 3, since all of them are lower rank.
   - Alice plays the red 3 anyway, which triggers a *Priority Finesse* on the red 4.
 
-<PriorityFinesse />
+<PriorityFinesseSpecial />
 
 ### The Trust Finesse (A Situational Priority Finesse)
 
@@ -164,6 +177,6 @@ Priority does not always apply. Some common exceptions are listed below.
 - For the purposes of *Priority*, blind-playing a card is the most important thing to do. When players are supposed to be blind-playing a card, they are usually **not** allowed to perform a *Priority Finesse* - they must stick to playing the blind card.
 - One exception to this is if a player is in the middle of unraveling the layer of a *Layered Finesse*. Since they have already blind-played their first card in the layer, they have demonstrated that the *Finesse* was on them, and now everyone on the team knows that the rest of the cards inside of the layer are "gotten" for sure.
 - Note that this only applies when the card that was blind-played was unrelated to the original *Layered Finesse*.
-  - For example, if a player is finessed for both the red 1 and the red 2 and has just blind-played a green 1, then they can perform a *Paused Priority Finesse*, because everyone on the team knows that the green 1 played as red 1 and therefore that the layer is not yet unraveled.
+  - For example, if a player is finessed for both the red 1 and the red 2 and has just blind-played a green 1, then they can perform a *Priority Finesse*, because everyone on the team knows that the green 1 played as red 1 and therefore that the layer is not yet unraveled.
   - However, if a player is finessed for both the red 1 and the red 2 and has just blind-played the red 1, then they **cannot** perform a *Paused Priority Finesse* because they haven't demonstrated to the team that they are still finessed for the red 2.
-- Thus, in this situation, a player can "pause" finishing up the *Layered Finesse* and play some other clued card to perform a *Paused Priority Finesse*.
+- Thus, in this situation, a player can "pause" finishing up the *Layered Finesse* and play some other clued card to perform a *Priority Finesse*. This is called a *Paused Priority Finesse*.

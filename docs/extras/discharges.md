@@ -57,6 +57,8 @@ import UnknownDupeDischarge2 from '@site/image-generator/yml/extras/discharges/u
 - *Unknown Dupe Discharges* **can only be initiated with color clues**. This is because number clues will cause *Bad Touch Finesses*.
 - *Unknown Dupe Discharges* only apply if **the two duplicated cards are in the same person's hand**.
   - It is explicitly illegal to perform an *Unknown Dupe Discharge* that duplicates a card in someone else's hand. If this happens, the clue must have some other meaning.
+- Remember that after an *Unknown Dupe Discharge*, the player who received the clue is supposed to *discard the focus of the clue*.
+  - However, in the case where only two brand-new cards are touched, then the player who received the clue knows that both of these cards must be the same. In this special case, they can discard the non-focused card to cause a *Trash Order Chop Move*.
 - In order for players to determine whether or not a *Double Finesse* or a *Triple Finesse* is happening, they should use the same *two-or-more-blind-plays* rule that applies to *5 Color Ejections*.
 - For example, in a 3-player game (similar to the previous example):
   - It is the first turn of the game and nothing is played on the stacks.
@@ -73,7 +75,7 @@ import UnknownDupeDischarge2 from '@site/image-generator/yml/extras/discharges/u
 ### The Trash Push Discharge
 
 - First, see the section on the [Trash Push](../level-13.md#the-trash-push).
-- Normally, when known trash is touched as the focus of the clue, and the known trash is on chop, it communicates a *Trash Push*.
+- Normally, when known-trash is touched as the focus of the clue, and the known-trash is on chop, it communicates a *Trash Push*.
 - However, what if the *Trash Pushed* card is trash? The other players can see that this clue must have some other purpose - it should signal an *Discharge* on the very next player.
 - This move is extremely similar to the *Unknown Trash Discharge*. In UTD, the focus of the clue is promised as trash. In the *Trash Push Discharge*, the *Trash Pushed* card is promised as trash.
 

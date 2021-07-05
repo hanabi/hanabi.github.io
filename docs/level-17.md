@@ -49,7 +49,7 @@ import InteractionsBetween2SavesAnd5Stalls from '@site/image-generator/yml/level
 - In the *Early Game*, players are only allowed to perform a *5 Stall* if there is nothing left to do. (Or, as a special exception, if there is only one *Play Clue* to give and that card is on *Finesse Position*.)
 - Thus, if someone clues a 5 and there **is** something else to do, they must be trying to send an additional message.
 - If the 5 is one-away from chop, they intend for an *Early 5's Chop Move*. This functions in the exact same way a normal *5's Chop Move* does (except it was done in the *Early Game*, which is not normally possible).
-
+- For level 23+ players using all conventions, there are [additional rules](https://hanabi.github.io/docs/extras/miscellaneous.md#interaction-with-5-rank-clues) relating to *Early 5's Chop Moves*.
 <br />
 
 ### The 5 Pull
@@ -98,7 +98,7 @@ import InteractionsBetween2SavesAnd5Stalls from '@site/image-generator/yml/level
   - However, Bob also knows that you are only allowed to perform a *5 Stall* if there are no normal *Save Clues* or *Play Clues* to give. Bob sees that Donald has a green 1 that could be *Play Clued*. Thus, Bob knows that Alice's clue cannot not be a *5 Stall*, which makes it a *5 Pull* instead (since it is two-or-more-away from the chop).
   - Bob knows that if this was a *5 Pull*, it would be pulling the red 2. If Bob does nothing, Cathy might go on to misplay the red 2 as some playable 1.
   - Thus, this must be a *5 Pull Finesse*, so Bob blind-plays his *Finesse Position*. It is a red 1 and it successfully plays.
-  - Cathy knows that the only reason that Bob would blind-play a card is it this was a *5 Pull Finesse*. Cathy blind-plays her slot 4 card. It is a red 2 and it successfully plays.
+  - Cathy knows that the only reason that Bob would blind-play a card is it this was a *5 Pull Finesse*. Cathy blind-plays her slot 3 card. It is a red 2 and it successfully plays.
 
 <TheFivePullPrompt />
 

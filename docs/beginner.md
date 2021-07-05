@@ -257,7 +257,7 @@ In this guide, there will be some images to show off the concepts introduced.
 - In the example below:
   - Alice has an unknown purple card in her hand.
   - Alice can see that the purple stack is played up to purple 4. The only other useful purple card left is the purple 5.
-  - Alice also knows that according to *Good Touch Principle*, every clued card will be eventually be played.
+  - Alice also knows that according to *Good Touch Principle*, every clued card will eventually be played.
   - Thus, by process of elimination, she can reason that the unknown purple card in her hand must be purple 5, and she can immediately play it.
 
 <GoodTouchPrinciple2 />
@@ -308,10 +308,10 @@ In this guide, there will be some images to show off the concepts introduced.
 
 <br />
 
-### The 5 Stall (Cluing Off-Chop 5's)
+### The 5 Stall (Cluing Off Chop 5's)
 
 - Normally, you are only allowed to give a *Save Clue* to a 5 if it is on chop. So if you use number 5 to clue a 5 that is **not** on chop, then it will typically look like a *Play Clue* on that 5 (or some other advanced strategy).
-- As a special rule, in the *Early Game*, you **are** allowed to clue number 5 as a *Save Clue* to off-chop 5's. Doing this is just interpreted as a "stall" clue and that you are trying to extend the *Early Game* for a little bit longer.
+- As a special rule, in the *Early Game*, you **are** allowed to clue number 5 as a *Save Clue* to off chop 5's. Doing this is just interpreted as a "stall" clue and that you are trying to extend the *Early Game* for a little bit longer.
 - However, you are **only** allowed to do this if there is nothing else to do, meaning that all of the "normal" *Play Clues* and *Save Clues* have been extinguished.
 - Normally, *5 Stalls* are only performed in the *Early Game*. However, you might see someone do a *5 Stall* in the *Mid-Game* if they are in a special situation where they are not allowed to discard.
 
