@@ -14,7 +14,7 @@ As noted in the [convention changes document](convention-changes.md), sometimes 
 
 @everyone New conventions:
 
-### The Playful Ignition
+**The Playful Ignition** (by pianoblook)
 
 - If a playable card is on chop, the natural thing to do is to give it a *Chop-Focus Play Clue*. If a player *Chop Moves* the playable card instead, this is very strange. If there is not a good reason to do so, then the cluer is trying to communicate something extra.
 - In this situation, they intend for an *Ignition* on the next player. Since a *Chop Move* causes a blind-play, the *Chop Moved* player will know that the *Chop Moved* card is playable.
@@ -34,7 +34,7 @@ As noted in the [convention changes document](convention-changes.md), sometimes 
 
 <br />
 
-#### Interaction with 5 Rank Clues
+**The Playful Ignition Interaction with 5 Rank Clues** (by pianoblook)
 
 - Normally, a number 5 rank clue to a 5 that is one-away-from-chop would be either:
   - a *5 Stall*
@@ -54,6 +54,8 @@ As noted in the [convention changes document](convention-changes.md), sometimes 
   - Thus, Cathy's 5 can be any color (including blue). Cathy blind-plays her slot 4 card.
 - Importantly, this interaction is **turned off** in the *End-Game*.
 - Note that sometimes, players will use a rank 5 clue to touch an actual playable 5 that is exactly one-away-from-chop. Regardless of whether or not the 5 is playable, the next player needs to react as if it wasn't playable. (This is because it is agreed that all *Play Clue* interpretations are turned off.)
+
+<br />
 
 ## The Backlog (Variant-Specific Conventions)
 
