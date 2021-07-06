@@ -21,8 +21,6 @@
   - The 8 Clue Save (8CS)
 - level 10
   - Guide Principle
-- level 12
-  - todo
 - level 13
   - todo
 - level 14
