@@ -67,7 +67,7 @@ import FiveStall from '@site/image-generator/yml/level-8/five-stall.yml';
 
 <br />
 
-### Double Discard Situations (Severity 2 Stalling)
+### Double Discard Situations / Double Discard Avoidance (DDA) (Severity 2 Stalling)
 
 - Often times in Hanabi, two players will discard in a row. However, in rare cases, this can cause a perfect score to be lost.
 - For example, in a 3-player game:
