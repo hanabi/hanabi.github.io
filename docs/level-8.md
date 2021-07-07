@@ -79,7 +79,8 @@ import FiveStall from '@site/image-generator/yml/level-8/five-stall.yml';
 - More formally, a *Double Discard Situation* is defined as when:
   1. the previous player discards or misplays a card
   2. **and** the current player could be discarding the other copy of that card.
-- Players agree to **never** discard in a *Double Discard Situation* if it has the potential to lower the maximum score. Instead, they must give some clue. If there are no normal *Play Clues* or *Save Clues* to give, then they are allowed to give "stall" clues, like a *5 Stall*. If there are no *5 Stalls* to give, they can even just "fill-in" some information on an already-clued card (and doing this should not cause a *Finesse*).
+- Players agree to **never** discard in a *Double Discard Situation* if it has the potential to lower the maximum score. Instead, they must give some clue. This is called *Double Discard Avoidance*, or DDA for short.
+- If a player in DDA has has no normal *Play Clues* or *Save Clues* to give, then they are allowed to give "stall" clues, like a *5 Stall*. If there are no *5 Stalls* to give, they can even just "fill-in" some information on an already-clued card (and doing this should not be read as a *Play Clue* or a *Finesse* or anything like that).
 - Let's revisit the above example to show what Bob should have done:
   - Alice has nothing to do. Alice discards her chop and it is a red 4.
   - Bob has nothing to do (meaning that there are no normal *Play Clues* or *Save Clues* to give). Bob also has a completely unclued hand.
