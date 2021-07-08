@@ -123,7 +123,7 @@ import DiscardModulation from '@site/image-generator/yml/level-6/discard-modulat
 
 <br />
 
-### The Tempo Clue Chop Move
+### The Tempo Clue Chop Move (TCCM)
 
 - In general, *Tempo Clues* do not follow from *Minimum Clue Value Principle*, which states that a clue must get at least 1 new card played or save at least 1 new card from being discarded.
 - Thus, a *Tempo Clue* with no other purpose **must** save at least 1 new card, and the player should *Chop Move* their chop card.
