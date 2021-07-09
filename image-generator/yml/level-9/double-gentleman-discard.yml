@@ -31,5 +31,4 @@ players:
       - type: x
       - type: x
       - type: x
-  - text: Cathy blind plays her slot 1.
-  - text: Alice incorrectly blind-plays her slot 1 as a blue 2.
+  - text: Cathy blind-plays her slot 1.

@@ -1,25 +1,25 @@
 stacks:
-  - r: 3
-  - y: 3
-  - g: 3
-  - b: 3
-  - p: 3
+  - r: 2
+  - y: 1
+  - g: 1
+  - b: 1
+  - p: 1
 players:
-  - clue_giver: true
-    cards:
-      - type: x
-      - type: x
-      - type: x
-      - type: x
-      - type: x
   - cards:
       - type: x
+      - type: r3
+      - type: x
+      - type: gbyp2
+      - type: x
+  - text: Alice plays Red 3
+  - name: Bob
+    cards:
+      - type: x
+        above: Red 4
       - type: x
       - type: x
       - type: x
-      - type: 1
-        clue: 1
-  - text: Bob blind plays slot 4
+      - type: x
   - name: Cathy
     cards:
       - type: x
@@ -27,4 +27,3 @@ players:
       - type: x
       - type: x
       - type: x
-  - text: Cathy blind plays her Finesse position

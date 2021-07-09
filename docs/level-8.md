@@ -20,7 +20,7 @@ import FiveStall from '@site/image-generator/yml/level-8/five-stall.yml';
 | Precedence | Type of Clue | Early Game (Severity 1) | Double Discard / Scream Discard (Severity 2) | Locked Hand (Severity 3) | 8 Clues (Severity 4)
 | ---------- | ------------ | ----------------------- | -------------------------------------------- | ------------------------ | --------------------
 | 1          | Normal *Play Clues* or *Save Clues*                                                                      | ✅ | ✅ | ✅ | ✅
-| 2          | *5 Stall*<br />(cluing off-chop 5's)                                                                     | ✅ | ✅ | ✅ | ✅
+| 2          | *5 Stall*<br />(cluing off chop 5's)                                                                     | ✅ | ✅ | ✅ | ✅
 | 3          | *Tempo Clue*<br />(re-cluing a card to make it play)                                                     | ❌ | ✅ | ✅ | ✅
 | 4 (tied)   | *Locked Hand Save*<br />(saving any card on chop, as long as doing so would not *Lock* the other player) | ❌ | ❌ | ✅ | ✅
 | 4 (tied)   | *8 Clue Save*<br />(saving any card not on slot 1)                                                       | ❌ | ❌ | ❌ | ✅
@@ -55,7 +55,7 @@ import FiveStall from '@site/image-generator/yml/level-8/five-stall.yml';
 - The *Early Game* is only ended when the first **completely unknown** card is discarded.
 - In other words:
   - Misplaying a card **does not count** as ending the *Early Game*.
-  - Discarding known trash **does not count** as ending the *Early Game*.
+  - Discarding known-trash **does not count** as ending the *Early Game*.
   - Doing special discards that "transfer" cards to other players **does not count** as ending the *Early Game*.
 
 #### Extinguishing Every Clue
@@ -67,7 +67,7 @@ import FiveStall from '@site/image-generator/yml/level-8/five-stall.yml';
 
 <br />
 
-### Double Discard Situations (Severity 2 Stalling)
+### Double Discard Situations / Double Discard Avoidance (DDA) (Severity 2 Stalling)
 
 - Often times in Hanabi, two players will discard in a row. However, in rare cases, this can cause a perfect score to be lost.
 - For example, in a 3-player game:
@@ -76,8 +76,11 @@ import FiveStall from '@site/image-generator/yml/level-8/five-stall.yml';
   - Since both copies of the red 4 are discarded, it is no longer possible to get a perfect score. (The maximum score now is 23 instead of 25.)
   - Normally, someone on the team would give a *Save Clue* to Bob's red 4 before it could get discarded. But since Bob's turn was immediately after Alice's turn, no-one on the team had time to save it.
 - In the previous example, on Bob's turn, since Bob *could* have the red 4 on his chop, we would say that Bob is in a *Double Discard Situation* for the red 4.
-- More formally, a *Double Discard Situation* is defined as when the previous player discards or misplays an unplayed card **and** the current player could be discarding the other copy of that card.
-- Players agree to **never** discard in a *Double Discard Situation* if it has the potential to lower the maximum score. Instead, they must give some clue. If there are no normal *Play Clues* or *Save Clues* to give, then they are allowed to give "stall" clues, like a *5 Stall*. If there are no *5 Stalls* to give, they can even just "fill-in" some information on an already-clued card (and doing this should not cause a *Finesse*).
+- More formally, a *Double Discard Situation* is defined as when:
+  1. the previous player discards or misplays a card
+  1. **and** the current player could be discarding the other copy of that card.
+- Players agree to **never** discard in a *Double Discard Situation* if it has the potential to lower the maximum score. Instead, they must give some clue. This is called *Double Discard Avoidance*, or DDA for short.
+- If a player in DDA has no normal *Play Clues* or *Save Clues* to give, then they are allowed to give "stall" clues, like a *5 Stall*. If there are no *5 Stalls* to give, they can even just "fill-in" some information on an already-clued card (and doing this should not be read as a *Play Clue* or a *Finesse* or anything like that).
 - Let's revisit the above example to show what Bob should have done:
   - Alice has nothing to do. Alice discards her chop and it is a red 4.
   - Bob has nothing to do (meaning that there are no normal *Play Clues* or *Save Clues* to give). Bob also has a completely unclued hand.
@@ -108,7 +111,7 @@ import FiveStall from '@site/image-generator/yml/level-8/five-stall.yml';
 
 ### The 5 Stall (Intermediate Section)
 
-- As mentioned in the [beginner's guide](beginner.md), *5 Stalls* are when a player clues an off-chop 5 purely because they want (or need) to give a stall clue.
+- As mentioned in the [beginner's guide](beginner.md), *5 Stalls* are when a player clues an off chop 5 purely because they want (or need) to give a stall clue.
 - *5 Stalls* are usually performed in the *Early Game*. Less commonly, they can also be performed in the *Mid-Game* if a player happens to be in a special "stalling" situation where they are not allowed to discard.
 - In the *Early Game*, the team can give as many *5 Stalls* as they want before initiating the *Mid-Game*.
 - Regardless of whether they are done in the *Early Game* or the *Mid-Game*, *5 Stalls* are only allowed if there is nothing else "normal" to do (like playing a card, giving a normal *Play Clue*, or giving a normal *Save Clue*).
@@ -117,7 +120,7 @@ import FiveStall from '@site/image-generator/yml/level-8/five-stall.yml';
   - The *Finesse Position Exception* applies whenever a player performs a *5 Stall*, regardless of whether it is in the *Early Game* or not.
 - *5 Stalls* **cannot** be given in the *Mid-Game* if there are any playable 5's. In this situation, a number 5 clue would just look like a *Play Clue* on the 5.
 - *5 Stalls* **must** be given to the 5 that is closest to chop. For example, in a 3-player game:
-  - It is the *Early Game*. The only thing left for Alice to do is to clue an off-chop 5.
+  - It is the *Early Game*. The only thing left for Alice to do is to clue an off chop 5.
   - Bob has two playable 1's on slots 1 and 2. He has a green 5 on slot 4. Bob's 5 is therefore one-away from chop.
   - Cathy has nothing clued in her hand. She has a purple 5 on slot 3. Cathy's 5 is therefore two-away from chop.
   - Alice must clue number 5 to Bob as a *5 Stall* since his 5 is closer to chop (even though Bob has two playable cards).
@@ -155,3 +158,14 @@ import FiveStall from '@site/image-generator/yml/level-8/five-stall.yml';
 - However, players can only do an *8 Clue Save* if there are no higher precedence clues available. See the "Allowable Stall Clues" section above.
 - An *8 Clue Save* can be performed with either a color clue or a number clue.
 - If a clue that looks like an *8 Clue Save* is on a card that is on slot 1, it is instead treated as a normal *Play Clue* or a normal *Save Clue*.
+
+<br />
+
+### The Fill-In Clue
+
+- A "Fill-In Clue* is defined as a clue that:
+  1. only touches card(s) that already have a clue on them (or are *Chop Moved*)
+  1. gives additional information to the touched card(s) that was not there before
+- *Fill-In Clues* are only used in specific stalling situations - see the stalling table above for the specific situations that you are allowed to perform one. If you give a clue like this in a normal situation, it would just look like a *Play Clue*.
+
+<br />

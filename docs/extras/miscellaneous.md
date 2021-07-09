@@ -43,5 +43,5 @@ import EliminationRewrite from '@site/image-generator/yml/extras/miscellaneous/e
 ### The Layered Jump
 
 - If a player who is blind-playing into a *Layered Finesse* skips over a card, they are performing a *Layered Jump*. This player has deduced that the card they are skipping over is duplicated (or otherwise bad).
-- The card skipped over in this way will be the next thing discarded, as it is now considered known trash.
+- The card skipped over in this way will be the next thing discarded, as it is now considered known-trash.
 - If a *Layered Jump* skips over a card that cannot be in your own hand, then you can determine that it must be a mistake. In this situation, the skipped-over card must be clued directly to re-signify that it is good.

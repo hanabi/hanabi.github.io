@@ -51,7 +51,7 @@ import DiscardModulation from '@site/image-generator/yml/level-6/discard-modulat
 ### The Trash Order Chop Move (TOCM)
 
 - First, see the section on the *[Order Chop Move](#the-order-chop-move-ocm)*.
-- Sometimes, a player will have two known trash cards in their hand (and these cards are explicitly known trash, meaning that everyone on the team can equally see that they are known trash).
+- Sometimes, a player will have two known-trash cards in their hand (and these cards are explicitly known-trash, meaning that everyone on the team can equally see that they are known-trash).
 - In this situation, the player is expected to discard the newest (left-most) trash card.
 - Thus, if a player skips over their newest trash card and instead discards the second newest trash card, they must be trying to communicate something extra.
 - This means that the next player should *Chop Move* (in a manner similar to a *Order Chop Move*).
@@ -123,7 +123,7 @@ import DiscardModulation from '@site/image-generator/yml/level-6/discard-modulat
 
 <br />
 
-### The Tempo Clue Chop Move
+### The Tempo Clue Chop Move (TCCM)
 
 - In general, *Tempo Clues* do not follow from *Minimum Clue Value Principle*, which states that a clue must get at least 1 new card played or save at least 1 new card from being discarded.
 - Thus, a *Tempo Clue* with no other purpose **must** save at least 1 new card, and the player should *Chop Move* their chop card.

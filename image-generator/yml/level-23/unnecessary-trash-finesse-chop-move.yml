@@ -1,29 +1,32 @@
 stacks:
-  - r: 2
-  - y: 0
-  - g: 0
-  - b: 0
-  - p: 0
+  - r: 1
+  - y: 2
+  - g: 2
+  - b: 2
+  - p: 2
 players:
   - clue_giver: true
     cards:
       - type: x
       - type: x
-      - type: r35
+      - type: x
       - type: x
       - type: x
   - cards:
       - type: x
-      - type: x
-      - type: x
-      - type: r
-        clue: r
-        middle_note: (4)
-      - type: x
-  - cards:
-      - type: x
-        above: Red 3
+        above: Red 2
       - type: x
       - type: x
       - type: x
       - type: x
+  - text: Bob blind-plays slot 1.
+  - name: Cathy
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: 2
+        clue: 2
+        middle_note: kt
+      - type: x
+        middle_note: cm

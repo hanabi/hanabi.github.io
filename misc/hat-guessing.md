@@ -102,7 +102,7 @@ First, let's go over some *Hat-Guessing* terminology before getting into the act
   - the state of the discard stacks
   - totally identified cards in hands
   - *Global Elimination Notes* (see the subsequent section)
-- In a similar fashion, critical cards can be *Obviously* critical, and known trash cards can be *Obvious* discards.
+- In a similar fashion, critical cards can be *Obviously* critical, and known-trash cards can be *Obvious* discards.
 - A card is never *Obvious* if a player needs to use contextual knowledge to determine the identity.
 - The fastest way to check if a card is an *Obvious* play, an *Obvious* critical, or an *Obvious* discard is to:
   - use empathy mode

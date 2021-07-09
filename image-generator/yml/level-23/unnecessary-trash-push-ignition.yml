@@ -1,28 +1,29 @@
 stacks:
-  - r: 2
-  - y: 0
-  - g: 0
-  - b: 0
-  - p: 0
+  - r: 3
+  - y: 3
+  - g: 3
+  - b: 3
+  - p: 3
 players:
   - clue_giver: true
     cards:
       - type: x
       - type: x
-      - type: r35
+      - type: x
       - type: x
       - type: x
   - cards:
       - type: x
       - type: x
       - type: x
-      - type: r
-        clue: r
-        middle_note: (4)
       - type: x
-  - cards:
-      - type: x
-        above: Red 3
+        above: Red 4
+      - type: 1
+        clue: 1
+  - name: Cathy
+    cards:
+      - type: r5
+        border: false
       - type: x
       - type: x
       - type: x

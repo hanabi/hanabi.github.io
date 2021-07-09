@@ -5,7 +5,7 @@ stacks:
   - b: 0
   - p: 0
 big_text:
-  text: Finesse
+  text: Illegal!
 players:
   - clue_giver: true
     cards:
@@ -21,7 +21,10 @@ players:
       - type: x
   - cards:
       - type: x
-        above: Red 2
+        border: false
+        above: Misplays!
+        middle_note: (B5)
+        below: Red 2
       - type: x
       - type: x
       - type: x

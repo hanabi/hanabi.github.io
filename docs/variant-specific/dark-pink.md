@@ -30,11 +30,11 @@ These conventions apply to any variant with a dark pink (touched by all ranks an
 ### The Fake 5's Chop Move
 
 - Players are allowed to violate *Pink Promise* on dark pink cards in order to perform a *Fake 5's Chop Move*.
-- This means that *Pink Promise* no longer applies to off-chop cards when they are clued as a 5, unless it was just a *5 Stall*.
+- This means that *Pink Promise* no longer applies to off chop cards when they are clued as a 5, unless it was just a *5 Stall*.
 
 <br />
 
 ### The Fake 5 Pull & The Fake 5 Number Discharge
 
-- Similar to the [Fake 5's Chop Move](#the-fake-5s-chop-move), players can also violate *Pink Promise* in order to initiate a *5 Pull* or a *5 Number Discharge*.
+- Similar to the *[Fake 5's Chop Move](#the-fake-5s-chop-move)&, players can also violate *Pink Promise* in order to initiate a *5 Pull* or a *5 Number Discharge*.
 - Sometimes, when a *5 Pull* is occurring, it can be ambiguous to other players on the team as to whether a *5 Pull* or a *5 Stall* is happening. However, when a *Fake 5 Pull* (or a *Fake 5 Number Discharge*) is happening, everyone can be sure that it is a *5 Pull*, because it would be illegal to violate *Pink Promise* when performing a *5 Stall*.

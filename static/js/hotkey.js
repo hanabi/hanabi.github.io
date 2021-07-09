@@ -1,5 +1,9 @@
 // Constants
+const FIRST_DOC_PAGE_TITLE = "About | The Hyphen-ated Conventions";
 const MAX_LEVEL = 23;
+
+// Variables
+const keyMap = new Map();
 
 document.onkeydown = function(e) {
   // Debugging
@@ -18,39 +22,85 @@ document.onkeydown = function(e) {
     }
   }
 
-  if (e.key === "Enter") {
-    const buttons = document.getElementsByClassName("button--secondary button--lg");
-    if (buttons.length >= 1) {
-      buttons[0].click();
-    }
-  } else if (e.key === "ArrowLeft") {
-    const buttons = document.getElementsByClassName("pagination-nav__link");
-    if (buttons.length >= 1) {
-      buttons[0].click();
-    }
-  } else if (e.key === "ArrowRight") {
-    const buttons = document.getElementsByClassName("pagination-nav__link");
-    if (buttons.length >= 2) {
-      buttons[1].click();
-    } else if (buttons.length >= 1) {
-      buttons[0].click();
-    }
-  } else if (e.key === "l") {
-    const levelString = window.prompt("Enter the level that you want to go to:");
-    if (levelString === null || levelString === "") {
+  const keyFunction = keyMap.get(e.key);
+  if (keyFunction !== undefined) {
+    keyFunction();
+  }
+}
+
+// Click on the "Learn More" button
+keyMap.set("Enter", () => {
+  if (isOnLandingPage()) {
+    clickOnFirstLargeButton();
+  }
+});
+
+// Navigate backwards
+keyMap.set("ArrowLeft", () => {
+  if (isOnFirstDocPage()) {
+    // Click on the nav bar title
+    const navBarTitle = document.getElementsByClassName("navbar__title");
+    if (navBarTitle.length >= 1) {
+      navBarTitle[0].click();
       return;
     }
+  }
 
-    const level = parseIntSafe(levelString);
-    if (Number.isNaN(level)) {
-      return;
-    }
+  // Click on the left-most button
+  const buttons = document.getElementsByClassName("pagination-nav__link");
+  if (buttons.length >= 1) {
+    buttons[0].click();
+  }
+});
 
-    if (level < 1 || level > MAX_LEVEL) {
-      return;
-    }
+// Navigate forwards
+keyMap.set("ArrowRight", () => {
+  if (isOnLandingPage()) {
+    clickOnFirstLargeButton();
+    return;
+  }
 
-    window.location = `/docs/level-${level}`;
+  // Otherwise, assume that we are on a doc page
+  const buttons = document.getElementsByClassName("pagination-nav__link");
+  if (buttons.length >= 2) {
+    buttons[1].click();
+  } else if (buttons.length >= 1) {
+    buttons[0].click();
+  }
+});
+
+// Go to a specific level
+keyMap.set("l", () => {
+  const levelString = window.prompt("Enter the level that you want to go to:");
+  if (levelString === null || levelString === "") {
+    return;
+  }
+
+  const level = parseIntSafe(levelString);
+  if (Number.isNaN(level)) {
+    return;
+  }
+
+  if (level < 1 || level > MAX_LEVEL) {
+    return;
+  }
+
+  window.location = `/docs/level-${level}`;
+});
+
+function isOnLandingPage() {
+  const titles = document.getElementsByClassName("hero__title");
+  return titles.length >= 1;
+}
+
+function isOnFirstDocPage() {
+  return document.title === FIRST_DOC_PAGE_TITLE;
+}
+
+function clickOnFirstLargeButton() {
+  const largeButtons = document.getElementsByClassName("button--lg");
+  if (largeButtons.length >= 1) {
+    largeButtons[0].click();
   }
 }
 

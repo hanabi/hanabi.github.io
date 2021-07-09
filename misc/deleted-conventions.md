@@ -352,10 +352,10 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
 
 <br />
 
-### Known Trash Ejection
+### Known-Trash Ejection
 
 - Often times, a player can have one or more cards that are known duplicates / trash. They will discard them it without being told anything further.
-- If a clue is given that **only** touches cards that are already known trash, then it must have some other purpose - it should signal an *Ejection* on the very next player.
+- If a clue is given that **only** touches cards that are already known-trash, then it must have some other purpose - it should signal an *Ejection* on the very next player.
 - This convention was deleted due to lack of use.
 
 <br />

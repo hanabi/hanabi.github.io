@@ -26,7 +26,7 @@ import DoubleGentlemanDiscard from '@site/image-generator/yml/level-9/double-gen
   1. a move that transfers a **clued card** in one person's hand to a **clued card** in another person's hand
   1. **necessary** to eliminate confusion among the team (because from *Good Touch Principle*, we are not normally supposed to have two copies of the same card "touched" with a clue)
   1. done with both playable cards and non-playable cards
-- It is also possible to "transfer" cards to other players *Finesse Position*. This is called a *Gentleman's Discard* to signify that the other card was completely blind as opposed to having a clue on it already.
+- It is also possible to "transfer" cards to the *Finesse Position* of other players. This is called a *Gentleman's Discard* to signify that the other card was completely blind as opposed to having a clue on it already.
 - The *Gentleman's Discard* is:
   1. a move that transfers a **clued card** in one person's hand to the ***Finesse Position*** of another person's hand
   1. **not necessary** and does not directly help the team, but may have some helpful side effects
@@ -42,7 +42,8 @@ import DoubleGentlemanDiscard from '@site/image-generator/yml/level-9/double-gen
 
 - Often times, doing a *Gentleman's Discard* will delay things and cost the team *Tempo*. Thus, a *Gentleman's Discard* that slows things down is only good if there is some other side benefit to offset the lost *Tempo* (such as delaying the discard of a valuable card, for example).
 - Just like how *Prompts* take precedence over *Finesses*, *Sarcastic Discards* take precedence over *Gentleman's Discards*.
-- For the purposes of *Priority*, *Gentleman's Discards* do not count as a blind-play. (*Priority* is a concept that is introduced in a later level.) This is because the *Gentleman's Discard* is an information-symmetric move and nothing needs to be "proven" to other members of the team.
+- For the purposes of *Priority*, *Gentleman's Discards* do not count as a blind-play. (*Priority* is a concept that is introduced in a later level.)
+  - This is because the *Gentleman's Discard* is an information-symmetric move and nothing needs to be "proven" to other members of the team.
 
 <br />
 
@@ -76,7 +77,7 @@ import DoubleGentlemanDiscard from '@site/image-generator/yml/level-9/double-gen
 
 <BatonDiscard />
 
-- Note that it is illegal to perform a *Layered Baton Discard*; the card **must** be exactly in *Finesse Position*.
+- Note that it is **illegal** to perform a *Layered Baton Discard*; the card **must** be exactly on *Finesse Position*.
 - *Baton Discards* are mostly useful for two main reasons:
   1. To better satisfy *Team Distribution Principle*. It makes sense to transfer a card out of a locked / almost locked hand to a player with an "empty" hand or a hand that only has one card clued in it.
   1. You want to protect your own chop. If you discard your chop, the team could be losing some high-value *one-away-from-playable* card. But if you transfer a card to someone else, it gives you something "safe" to do.
@@ -152,8 +153,8 @@ import DoubleGentlemanDiscard from '@site/image-generator/yml/level-9/double-gen
   - Red 1 and blue 1 are played on the stacks.
   - Alice clues Bob number 2, which touches a red 2 on slot 1. This is a *Play Clue* on the 2. Thus, this is a globally known red 2 or blue 2. Alice right-clicks on the card and writes a note of "r2, b2".
   - Bob also writes a note of "r2, b2", but then stops to think a little deeper. He notices that Alice has a blue 3 in her hand, so it might have been possible for Cathy to perform a *Finesse* on a hypothetical blue 2 in his hand.
-  - Bob rewinds to the beginning of the game and re-plays through all of the turns, watching closely to see if Cathy had an ample opportunity to perform a *Finesse* on a blue 2. Indeed, he finds that Cathy had one or two turns where she could have easily performed a *Reverse Finesse*, but discarded instead.
-  - Thus, Bob knows that it must be a red 2, so he updates his "r2, b2" note to "r2".
+  - Bob rewinds to the beginning of the game and looks through all of the turns, watching closely to see if Cathy had an ample opportunity to perform a *Finesse* on a blue 2. Indeed, he finds that Cathy had one or two turns where she could have easily performed a *Reverse Finesse*, but discarded instead.
+  - Thus, Bob knows that his card must be a red 2, so he updates his "r2, b2" note to "r2".
   - Bob sees that Cathy has a red 2 on her *Finesse Position*, so he performs a *Gentleman's Discard* by discarding the red 2.
   - Cathy blind-plays the red 2 from her *Finesse Position*.
   - Alice gasps in surprise, because Bob could not have possibly known that it was exactly a red 2. This must be a *Double Gentleman's Discard*, calling for both red 2 and blue 2. Alice blind-plays her *Finesse Position* card, hoping to play a blue 2, but instead plays a red 5, losing the game.

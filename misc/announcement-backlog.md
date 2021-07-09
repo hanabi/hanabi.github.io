@@ -6,128 +6,64 @@ As noted in the [convention changes document](convention-changes.md), sometimes 
 
 ## The Backlog (General Conventions)
 
-@everyone Deleted conventions
+@everyone Deleted conventions:
 
-**Out-of-Position Bluffs / Reverse Bluffs** (deleted)
+**The 5 Double Pull** (deleted)
 
-- All *Out-of-Position Bluffs* have been deleted.
-- Now, when a clue is given that looks like an *Out-of-Position Bluff*, it is a *Layered Finesse* instead.
+- This was deleted since it conflicted with the new *Playful Ignition* convention.
 
-**The Shallow Discard** (by Jerry)
+@everyone New conventions:
 
-- At the end of the game, it is normal for players to use a *Positional Discard* to get 1 card to blind-play, and to use a *Positional Misplay* to get 2 cards to blind-play.
-- If a player does a *Positional Discard* to only get 1 card when they could have performed a *Positional Misplay* instead, then this is quite strange. If they are not making a mistake, they must be trying to send an additional message.
-- In this situation, they intend for it to promise 3 blind-plays instead of 1.
-- This is called a *Shallow Discard* because from Bob's perspective, Alice could have performed a deeper move.
-- For example, in a 4-player game:
-  - The team has 0 strikes.
-  - It is the *End-Game* and Alice sees all of the remaining useful cards. Thus, she can *Positionally Discard* or *Positionally Misplay* any card that she wants in her hand.
-  - Alice sees that Bob, Cathy, and Donald all have playable cards on slot 2.
-  - Alice blind-discards her slot 2 card as a *Shallow Discard*.
-  - From Bob's perspective, he sees that Cathy and Donald have a playable card on slot 2. Thus, Bob expected Alice to perform a *Positional Misplay* or her slot 2 card.
-  - When Bob sees that Alice performed a *Positional Discard* instead of a *Positional Misplay*, he knows that she must be intending for 3 blind-plays to happen (instead of 1) as a *Shallow Discard*.
-  - Bob blind-plays his slot 2 card (to match Alice's slot 2 discard). It successfully plays.
-  - Cathy and Donald are both in a similar situation to Bob. (They expected Alice to perform a *Positional Misplay*.)
-  - Thus, they both know that this is a *Shallow Discard*, and blind-play their slot 2 cards (to match Alice's slot 2 discard).
-- In some specific situations, a *Positional Discard* from chop would not work, because it would just look like a normal discard. In these situations, a *Positional Misplay* would only get 1 blind-play (instead of 2) and a *Shallow Discard* would only get 2 blind-plays (instead of 3).
+**The Playful Ignition** (by pianoblook)
 
-**The Unknown Trash Charm** (by piper)
-
-- Normally, after an *Unknown Trash Discharge*, non-focused cards are known to be "good".
-- However, what if a player performs an *Unknown Trash Discharge* where **all** of the non-focused cards are trash? A *Discharge* would incorrectly signal that the non-focused cards are useful.
-- Instead, this should signal a *Charm* on the very next player.
-- For example, in a 3-player game:
-  - All of the 2's are played on the stacks.
-  - Alice clues red to Cathy, touching a red 1 on slot 1 and a red 2 on slot 2.
-  - Normally, Bob would treat this clue as an *Unknown Trash Discharge*. However, if he *Discharges*, then Cathy will discard the red 1 and mark the red 2 as either a red 3, a red 4, or a red 5, which would be a *Lie*.
-  - Instead, Bob knows that this signals an *Unknown Trash Charm*, so he blind-plays his *Fourth Finesse Position*. It is a blue 3 and it successfully plays.
-
-**The Shallow Misplay** (by Jerry)
-
-- In a 5-player game, it possible to perform a *Shallow Misplay*, causing 4 people to blind-play from the same slot. (This works for the same reasons that a *Shallow Discard* works.)
-- For example, in a 5-player game:
-  - The team has 0 strikes.
-  - It is the *End-Game* and Alice sees all of the remaining useful cards. Thus, she can *Positionally Discard* or *Positionally Misplay* any card that she wants in her hand.
-  - Alice sees that Bob, Cathy, Donald, and Emily all have playable cards on slot 2.
-  - Alice blind-plays her slot 2 card as a *Shallow Misplay*.
-  - From Bob's perspective, he sees that Cathy, Donald, and Emily have a playable card on slot 2. Thus, Bob expected Alice to perform a *Shallow Discard* or her slot 2 card.
-  - When Bob sees that Alice performed a *Positional Misplay* instead of a *Shallow Discard*, he knows that she must be intending for 4 blind-plays to happen (instead of 2) as a *Shallow Misplay*.
-  - Bob blind-plays his slot 2 card (to match Alice's slot 2 discard). It successfully plays.
-  - Cathy, Donald, and Emily are all in a similar situation to Bob. (They expected Alice to perform a *Shallow Discard*.)
-  - Thus, they all know that this is a *Shallow Misplay*, and blind-play their slot 2 cards (to match Alice's slot 2 discard).
-
-**Unnecessary Moves** (change) (by Floriman)
-
-- Previously, when an unnecessary move is performed using a card on chop, it calls for an *Unnecessary Ignition*.
-- Now, it instead becomes a *Trash Push*.
-
-**The Prophetic Finesse (for 1's)** (by pianoblook)
-
-- In most games, players will avoid giving a number 1 clue to a single playable 1 that is not on *Finesse Position* if a different player has the same 1 on *Finesse Position*. This is because it is usually better to *Finesse* it or to let someone else *Finesse* it.
-- If a player does this anyway, and doing so was clearly bad, they must be communicating something extra.
-- In this situation, the next player should treat the clue as if were a *Trash Finesse*.
-- This is different from a *Trash Finesse* because a second blind-play is needed to prove that the card is not actually trash. The in-between player is promised to have the matching 1 on *Finesse Position*. The in-between blind-play is called a *Prophetic Blind-Play* to distinguish it from a normal blind-play.
-- Furthermore, once the *Prophetic Finesse* has resolved, the clued player should **always** treat this as an *unnecessary* move (e.g. as an *Unnecessary Trash Chop Move* or an *Unnecessary Trash Push*).
-- For example, in a 4-player game:
-  - Red 1 is played on the stacks.
-  - Alice clues number 1 to Donald, touching a single blue 1 on slot 3.
-  - Bob sees that Cathy has a blue 1 on her *Finesse Position*. Thus, Alice's clue is strange - she should have probably clued Cathy's blue 1, or allowed someone to *Finesse* Cathy's blue 1.
-  - Bob knows that Alice must be intending for a *Prophetic Finesse*. Bob blind-plays his *Finesse Position*. It is a green 1 and it successfully plays.
-  - Cathy sees that from Donald's perspective, a *Trash Finesse* has just occurred. Donald will mark the blue 1 (playable) as a red 1 (trash), and will discard it. This is bad, so Cathy knows that something else is expected of her.
-  - Cathy knows that this a *Prophetic Finesse* and that she is promised to have a blue 1 on her *Finesse Position*. Cathy blind-plays her *Finesse Position* (as a *Prophetic Blind-Play*). It is a blue 1 and it successfully plays.
-  - Donald knows that since a number 1 clue touched a single 1 and caused two blind-plays, this must be a *Prophetic Finesse*. Donald marks his touched 1 as trash. He also *Chop Moves* his slot 4 card because of the *unnecessary* part of the move.
-- *Prophetic Finesses* can only be triggered by touching **exactly one 1**.
-- *Prophetic Finesses* can only be triggered by using a number 1 clue. (Color clues cause a *Prophetic Discharge*.)
-- *Prophetic Finesses* can also be given in situations that cannot be mistaken for *Trash Finesses*, but they will still work in the exact same way.
-- For example, in a 4-player game:
-  - It is the first turn of the game and nothing is played on the stacks.
-  - Alice clues number 1 to Donald, touching a single blue 1 on slot 3.
-  - Just like in the previous example, Bob sees that this is a *Prophetic Finesse* (because Cathy has a blue 1 on her *Finesse Position*). Bob blind-plays his *Finesse Position*. It is a green 1 and it successfully plays.
-  - Cathy sees that from Donald's perspective:
-    - It will not look like a *Trash Finesse*, because no 1's were played at the time of the clue.
-    - It will not look like a *Bad Touch Finesse (for 1's)*, since only a single 1 was clued.
-  - Therefore, as soon Bob blind-plays, both Cathy and Donald can understand that it is a *Prophetic Finesse*.
-  - Just like in the previous example, Cathy blind-plays the blue 1, and Donald marks his 1 as trash and *Chop Moves* his slot 4 card.
-
-**The Prophetic Discharge** (by pianoblook)
-
-- *Prophetic Finesses* can only be given with a number 1 clue.
-- If a player tries to use a color clue to initiate a *Prophetic Finesse*, they instead intend for the next player to blind-play their *Third Finesse Position* (like an *Unknown Trash Discharge*).
-- Other than that, everything else works like a *Prophetic Finesse* (e.g. one of the in-between players is promised to have the matching card on their *Finesse Position*).
-- Unlike the *Prophetic Finesse*, the clued player should **only** treat this as *unnecessary* move if the *Discharged* card could have been cleanly clued.
-
-**The Cursed Finesse** (by pianoblook)
-
-- Commonly, players can use a *Double Finesse* or a *Clandestine Finesse* to "get" multiple cards from the next player. This works because the first blind-play "connects" to the clued card.
-- However, what if a player intentionally performs a *Bluff* where other players can see that it was actually possible to perform a *Double Finesse* or a *Clandestine Finesse*?
-- In this situation, if the cluer is not making a mistake, they are trying to send a deeper message - they want an extra person to blind-play.
-- This is called a *Cursed Finesse* because it requires the situation to be "cured". By performing a *Cure Blind-Play*, the move is transformed from a *Bluff* into a real *Finesse*.
+- If a playable card is on chop, the natural thing to do is to give it a *Chop-Focus Play Clue*. If a player *Chop Moves* the playable card instead, this is very strange. If there is not a good reason to do so, then the cluer is trying to communicate something extra.
+- In this situation, they intend for an *Ignition* on the next player. Since a *Chop Move* causes a blind-play, the *Chop Moved* player will know that the *Chop Moved* card is playable.
 - For example, in a 4-player game:
   - It is the first turn and nothing is played on the stacks.
-  - Bob's hand is as follows, from left to right: `red 1, blue 1, green 3, green 3`
-  - Donald's hand is as follows, from left to right: `blue 2, green 4, green 4, yellow 4`
-  - Thus, Alice has a *Free Choice* between cluing blue to Donald and number 2 to Donald. If Alice chooses blue, then it will cause a *Bluff* (as a 2-for-1). If Alice chooses number 2, it will cause a *Clandestine Finesse* (as a 3-for-1).
-  - Alice clues blue to Donald, touching a single blue 2.
-  - Bob tries to blind-play the blue 1 from his *Finesse Position*. Instead, it is a red 1 and it successfully plays. Bob now knows that he was *Bluffed*.
-  - Cathy sees that Alice could have done a *Clandestine Finesse* instead of a *Bluff*. Thus, Cathy knows that this must be a *Cursed Finesse*. Cathy blind-plays her *Finesse Position* (as a *Cure Blind-Play*). It is a red 2 and it successfully plays.
-  - Bob and Donald both gasp in surprise when Cathy blind-plays:
-    - From Bob's perspective, the focus of the clue is a *one-away-from-playable* card, so this cannot be a *Double Bluff*.
-    - From Donald's perspective, this cannot be a normal *Finesse* or a *Double Bluff*, because Cathy would have done nothing, waiting for Bob to play the blue 1 (as a *Finesse*)
-    - From both Bob and Donald's perspective, Bob's red 1 did not connect to Donald's blue card, so this cannot be a *Pestilent Double Bluff*.
-  - Therefore, the team knows that this must have been a *Cursed Finesse*. Bob will now continue to blind-play until he finds his promised blue 1.
-- *Cursed Finesses* can only occur if there is a *Free Choice* during the initial clue.
+  - Cathy's hand is, from newest to oldest: blue 4, blue 4, blue 5, red 1
+  - Alice clues number 5 to Cathy, touching a blue 5 on slot 3.
+  - It is now Bob's turn. Bob sees that since there were other *Play Clues* for Alice to give, Cathy will interpret this as an *Early 5's Chop Move*.
+  - Bob also knows that it is nonsensical to *Chop Move* a playable red 1 - Alice could have just give a red *Chop-Focus Play Clue* to the red 1.
+  - Thus, this must be a *Playful Ignition*. Bob blind-plays his *Finesse Position* card. It is blue 1 and it successfully plays.
+  - Cathy knows that if this was an *Early 5's Chop Move*, then Bob would not have blind-played anything. Since he blind-played his *Finesse Position* card, this must be a *Playful Ignition*. Cathy blind-plays her slot 4 card (the card to the right of the clued 5).
+- Sometimes, it can be useful to *Chop Move* a playable card. Something is only a *Playful Ignition* if there is not some other good reason for the *Chop Move*. Specifically, the player might want to:
+  - Avoid violating *Good Touch Principle*.
+  - Save a *Delayed Playable* card that is followed by a critical card.
+  - Save two important cards when there are a lot of cards to deal with and the team is low on clues.
+  - Get a blind-play from *Elimination* when the duplicate is visible.
+
+<br />
+
+**The Playful Ignition Interaction with 5 Rank Clues** (by pianoblook)
+
+- Normally, a number 5 rank clue to a 5 that is one-away-from-chop would be either:
+  - a *5 Stall*
+  - a *5's Chop Move*
+  - a *Play Clue* on the 5
+- If a *5 Stall* is impossible (i.e. it is not a stalling situation), then a *5's Chop Move* on a playable card would normally be treated as a *Play Clue* on the 5.
+- However, for level 20 players, *Play Clues* like this are **turned off**. In other words, every number 5 clue that focuses a 5 that is exactly one-away-from-chop would always be a *5's Chop Move*. This is referred to as the *Playful Ignition Interaction*.
+- The *Playful Ignition Interaction* can be tricky for players, since *Playful Ignitions* can look like normal *Finesses*. Players need to remember that the blind-play relates to the card being *Chop Moved*, not the 5 directly.
+- For example, in a 3-player game:
+  - It is the *Mid-Game*.
+  - Red 3 is played on the stacks.
+  - Cathy's hand is, from newest to oldest: blue 4, blue 4, blue 5, blue 1
+  - Alice clues number 5 to Cathy, touching the blue 5 on slot 3.
+  - Bob expected Alice to clue number 1 to Cathy. Thus, this must be a *Playful Ignition*. Bob blind-plays his *Finesse Position* card. It is red 4 and it successfully plays.
+  - From Cathy's perspective, she first thought that Alice's clue was a *5's Chop Move*. However, if that were the case, Bob would not have blind-played anything.
+  - Furthermore, Cathy knows that *Play Clues* on 5's one-away-from-chop using rank clues are turned off. Thus, Bob's blind-play must indicate a *Playful Ignition*.
+  - Thus, Cathy's 5 can be any color (including blue). Cathy blind-plays her slot 4 card.
+- Importantly, this interaction is **turned off** in the *End-Game*.
+- Note that sometimes, players will use a rank 5 clue to touch an actual playable 5 that is exactly one-away-from-chop. Regardless of whether or not the 5 is playable, the next player needs to react as if it wasn't playable. (This is because it is agreed that all *Play Clue* interpretations are turned off.)
+
+***Trash Order Chop Moves* after *Unknown Dupe Discharges***
+
+- If an *Unknown Dupe Discharge* touches exactly two brand-new cards, then both of them must be the same copy.
+- In this situation, the player is expected to discard the focus of the clue.
+- If they do not discard the focus of the clue, they are performing a *Trash Order Chop Move* on the next player.
 
 <br />
 
 ## The Backlog (Variant-Specific Conventions)
-
-@everyone Deleted variant-specific conventions:
-
-**White Compromise** (deleted)
-
-- This convention only applies to variants with a white suit.
-- The *White Compromise* convention is deleted.
-- This convention was not used very often and didn't provide very much overall value.
 
 @everyone New variant-specific conventions:
 
@@ -164,15 +100,6 @@ As noted in the [convention changes document](convention-changes.md), sometimes 
   - However, Cathy knows that she is *Loaded* and that the 2 could be a white 2. Thus, this must be a *White Loaded Play Clue* on a white 2.
   - Bob does not see any white 1's, so he knows that he must have the white 1 as a *Self-Finesse*. Bob blind plays his *Finesse Position*. It is a white 1 and it successfully plays.
 
-@everyone New variant-specific conventions:
-
-**Positional Bluffs** (by Zamiel)
-
-- This convention only applies to variants with a null suit.
-- *Positional Layered Finesses* are deleted and *Positional Bluffs* are added.
-- This means that a *Positional Clue* can be used to get a non-null card.
-- Similar to a normal *Bluff*, a *Positional Bluff* only "gets" 1 card. No actual null cards are promised.
-
 **Prism Color Finesses (One-Away-From-Playable)** (by Zamiel)
 
 - This convention only applies to variants with a prism suit.
@@ -194,12 +121,6 @@ As noted in the [convention changes document](convention-changes.md), sometimes 
   - Bob blind-plays a prism 1 from his *Finesse Position*.
   - Cathy knows that prism 1 would connect to yellow, but it does not connect to green. Thus, this is just a *Bluff*.
   - Cathy marks her green card as either a green 2 (as a normal *Bluff*, a green 3 (as a *3 Bluff*), or a prism 3 (as a *Hard 3 Bluff*).
-
-**Gray Loaded Play Clues**
-
-- This convention only applies to variants with a gray suit.
-- Gray 3 must be saved with a number 3 clue and gray 4 must be saved with a number 4 suit.
-- However, these cards cannot be saved "early" - any *Early Saves* to these cards would instead be treated as a *Loaded Play Clue*.
 
 **The Turnabout Ejection (for 1's and 5's)** (by pianoblook)
 
@@ -240,7 +161,7 @@ As noted in the [convention changes document](convention-changes.md), sometimes 
 
 - This convention only applies to variants with a dark pink, dark omni, or gray pink suit.
 - Players are allowed to violate *Pink Promise* on dark pink cards in order to perform a *Fake 5's Chop Move*.
-- This means that *Pink Promise* no longer applies to off-chop cards when they are clued as a 5, unless it was just a *5 Stall*.
+- This means that *Pink Promise* no longer applies to off chop cards when they are clued as a 5, unless it was just a *5 Stall*.
 
 **The Fake 5 Pull & The Fake 5 Number Discharge** (by pianoblook)
 

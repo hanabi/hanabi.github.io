@@ -99,7 +99,7 @@ Slot 2.
 
 <br />
 
-### Is known trash considered to be the chop card?
+### Is known-trash considered to be the chop card?
 
 No. Even if you have a known safe discard, your chop is still the right-most unclued card.
 
@@ -111,7 +111,7 @@ No.
 
 <br />
 
-### Does discarding known trash end the *Early Game*?
+### Does discarding known-trash end the *Early Game*?
 
 No, only discarding an unknown card from chop does.
 

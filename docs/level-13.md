@@ -37,7 +37,7 @@ import TrashPush from '@site/image-generator/yml/level-13/trash-push.yml';
   - For example, if not all of the 1's have been played on the stacks, then you can use a number 1 clue to initiate a *Trash Bluff*, because a blind-play will prove that the clued 1 is not a good 1.
   - For example, if the red stack is played up to the red 3, then you **cannot** use a red clue to initiate a *Trash Bluff*, because a blind-play will make the clued card look like the red 5.
   - For example, if the red stack is played up to the red 4, then you can use a red clue to initiate a *Trash Bluff*, because a blind-play will prove that the clued card is not a red 5.
-- In the case where multiple cards are clued as part of a *Trash Bluff*, **all** of the touched cards are considered to be trash. However, the focus of the clue should be the first thing discarded, which allows for the possibility of your teammates to give a follow-up *Fix Clue*.
+- In the case where multiple cards are clued as part of a *Trash Bluff*, **all** of the touched cards are considered to be trash. However, the focus of the clue should be discarded first.
 
 <br />
 
@@ -59,6 +59,7 @@ import TrashPush from '@site/image-generator/yml/level-13/trash-push.yml';
 
 <TrashFinesse />
 
+- In the case where multiple cards are clued as part of a *Trash Finesse*, **all** of the touched cards are considered to be trash. However, the focus of the clue should be discarded first. (This is the exact same policy as what happens in a *Trash Bluff*.)
 - *Double Trash Finesses* are explicitly disallowed. Thus, it is possible to perform a *Trash Finesse* in a situation like this:
   - All the 1's are played on the stacks except for red 1 and blue 1.
   - Alice clues number 1 to Donald, which touches two green 1's on slot 1 and 2. To Donald, this will look like it is both the red 1 and the blue 1.
@@ -125,7 +126,7 @@ There are a lot of different moves that involve cluing trash. [Here is a flowcha
 ### Clarity Principle
 
 - First, see the section on *[Context](level-11.md#context)*.
-- In the Hyphen-ated group, we like to find the "best" move for every turn in the post-game review. This is fun and helps everybody improve. But this practice can be taken too far.
+- In the Hyphen-ated group, we like to find the "best" move for every turn in the post-game review. This is fun and helps everybody improve. But this can be taken too far.
 - Sometimes, players will give clues that are very complicated. Maybe the clue looks like it could be two different moves. Or, maybe the clue relies on non-obvious contextual factors.
 - Often, these kinds of complicated clues end up in misplays and lost games. And in the post-game review, the cluers get defensive: "if everyone just played perfectly, then my clue would have worked!"
 - It's natural for people to feel this way, because normally, if Alice performs a *Finesse*, and Bob is not paying attention and misses it, then we would say that Bob is at fault. But things are a little different when Alice gives a really complicated clue that Bob should *technically* be able to figure out, but doesn't. In this case, Bob shares a little of the blame, but it is mostly Alice that is at fault.

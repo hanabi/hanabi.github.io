@@ -54,10 +54,6 @@ module.exports = {
         },
       ],
     },
-    footer: {
-      style: 'dark',
-      copyright: `Built with <a href="https://v2.docusaurus.io/">Docusaurus</a>.`,
-    },
 
     // Extra settings
     algolia: {
@@ -73,7 +69,6 @@ module.exports = {
   },
   plugins: [
     path.resolve(__dirname, 'image-generator'),
-    //require.resolve('docusaurus-lunr-search'),
   ],
   presets: [
     [
