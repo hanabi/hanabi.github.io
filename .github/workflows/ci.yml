@@ -51,12 +51,7 @@ jobs:
       - name: Build
         run: ./build.sh
 
-      # Use cspell to spell check every Markdown file
-      # https://github.com/streetsidesoftware/cspell
-      - name: Spell check
-        run: ./spell-check/spell-check.sh
-
-      # Perform some additional checks using remark
+      # Run a spell checker and do remark checks
       # https://github.com/remarkjs/remark
       - name: Lint
         run: ./lint.sh
