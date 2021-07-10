@@ -24,7 +24,7 @@ Have you found your way here from the Internet? That's fine too. Feel free to ch
 ### Hotkeys
 
 - You can use the left and right arrow keys to quickly navigate between pages.
-- You can use `Ctrl + K` to open the search bar.
+- You can use `/` or `Ctrl + K` to open the search bar.
 - You can use `l` to navigate to a specific level.
 
 <br />
