@@ -88,7 +88,7 @@ Editing files on the GitHub website is a pain. If you are adding a significant a
 ### Part 5 - Commit Changes and Submit a PR
 
 * By default, VSCode starts in "Explorer" view, where the list of files is in the left pane. This is represented by the two-files icon in the top-left-hand-corner.
-* Switch to the "Source Contorl" view by clicking on the tree icon in the top-left-hand-corner (which is directly below the magnifying glass icon).
+* Switch to the "Source Control" view by clicking on the tree icon in the top-left-hand-corner (which is directly below the magnifying glass icon).
 * This view allows you to see a summary of the changes that you have made so far. If you are satisfied with the changes, then commit the changes by typing a commit message in the "Message" box in the top-left-hand-corner. For example, "adding new example for level 2".
 * After typing a message, press `Ctrl + Enter` to submit it. A warning box will appear; answer "Yes" to commit all of your changes. (Note that most of the time, you will want to commit all your changes. But you can always get more granular and only commit specific files if necessary.)
 * Now, the commit lives on your local computer, but it isn't synced with GitHub. Push the commit to GitHub by clicking on the "0⬇ 1⬆" icon in the bottom-left-hand-corner, then select "OK" to the warning box.
