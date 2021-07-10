@@ -78,7 +78,7 @@ Editing files on the GitHub website is a pain. If you are adding a significant a
 * VSCode is now treating the website as a "project". You can see the list of files in the left pane and you can double click a file to open it. (Alternatively, you can open a file by using the menu with "File" --> "Open File".)
 * The main files for the website are located in the "docs" folder. For example, the beginner's guide is located at "docs/beginner.md". Go ahead and edit whatever files that you want to change. As soon as you edit a particular file, you should see the changes automatically appear in your browser (that is, if you happen to be viewing the particular section).
 
-### Part 4 - Make Sure There are No Errors
+### Part 4 - Make Sure There Are No Errors
 
 * The website has some automated checks that can catch spelling errors and related mistakes. After making some changes, you should ensure that there are no errors with what you did.
 * In a shell from the previous step, run the "lint.sh" script:
