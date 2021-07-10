@@ -18,6 +18,7 @@
     "./src/**/*.ts",
     "./src/**/*.js",
     "./static/**/*.js",
+    "./.remarkrc.js",
     "./babel.config.js",
     "./docusaurus.config.js",
     "./sidebars.js",
