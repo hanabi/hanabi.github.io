@@ -43,4 +43,5 @@ Editing files on the GitHub website is a pain. If you are adding a significant a
 
 1. Download and install [Node.js](https://nodejs.org/en/) (if you don't already have it installed). Select the "Current" version instead of the "LTS" version.
 1. Download and install [Git](https://git-scm.com/downloads) (if you don't already have it installed).
-1. To be continued.
+1. Open "Git Bash" from the Start Menu. (If you are on another platform, then just open a terminal/shell.)
+1. By default, you will be "in" your home directory. (e.g. `C:\Users\[YourUsername]\`)
