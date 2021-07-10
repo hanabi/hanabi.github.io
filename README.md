@@ -94,3 +94,4 @@ Editing files on the GitHub website is a pain. If you are adding a significant a
 * Now, the commit lives on your local computer, but it isn't synced with GitHub. Push the commit to GitHub by clicking on the "0⬇ 1⬆" icon in the bottom-left-hand-corner, then select "OK" to the warning box.
 * Now, the commit is synced to your GitHub, meaning that if you view your forked copy of the repository on GitHub.com, it should show all of the changes you made.
 * On the main page for your forked repository, click on the "Contribute" link near the top of the page, and then click on the "Open Pull Request" button. Next, click on the "Create pull request" button. Enter in a good description of the changes that you made, and then click on "Create pull request".
+* Now, wait for me to review the request. If additional changes are needed, then you can just push commits to your fork, and they will be automatically reflected in the pull request without having to do anything else.
