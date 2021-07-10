@@ -43,7 +43,7 @@ Editing files on the GitHub website is a pain. If you are adding a significant a
 
 * Download and install [Node.js](https://nodejs.org/en/) (if you don't already have it installed). Select the "Current" version instead of the "LTS" version.
 * Download and install [Git](https://git-scm.com/downloads) (if you don't already have it installed).
-* Open "Git Bash" from the Start Menu. (If you are on another platform, then just open a terminal/shell.)
+* Open "Git Bash" from the Start Menu. (If you are not on Windows, then just open a terminal/shell.)
   * By default, the terminal will start in your home directory. (e.g. `C:\Users\[YourUsername]\`)
 * [Optional] In the terminal, navigate to the directory where you want the source code of the website to live. For example, if you want it to live in your "Documents" folder, then type `cd Documents`.
 * Clone the website by pasting in the following command:
