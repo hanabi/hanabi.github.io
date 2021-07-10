@@ -24,6 +24,7 @@ If all you are doing is making some small changes, like fixing typos, then you c
 
 The steps to create a new pull request are as follows:
 
+1. [Create an account on GitHub](https://github.com/join), if you already haven't. (They are free.)
 1. On the [main website](https://hanabi.github.io/), navigate to the page that you want to change.
 1. On the bottom of the page, you should see a link called "Edit this page". Click on that.
 1. Click the green button that says "Fork this repository". (That will create your own copy of the website that will live under your GitHub user account.)
