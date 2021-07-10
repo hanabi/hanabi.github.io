@@ -41,9 +41,10 @@ The steps to create a new pull request are as follows:
 
 Editing files on the GitHub website is a pain. If you are adding a significant amount of changes, I recommend that you set up a local development environment to work on the website. That way, you can use a browser to instantaneously see how your edits look live in a local copy of the website that runs on your own computer.
 
-1. Download and install [Node.js](https://nodejs.org/en/) (if you don't already have it installed). Select the "Current" version instead of the "LTS" version.
-1. Download and install [Git](https://git-scm.com/downloads) (if you don't already have it installed).
-1. Open "Git Bash" from the Start Menu. (If you are on another platform, then just open a terminal/shell.) By default, the terminal will start in your home directory. (e.g. `C:\Users\[YourUsername]\`)
-1. [Optional] In the terminal, navigate to the directory where you want the source code of the website to live. For example, if you want it to live in your "Documents" folder, then type `cd Documents`.
-1. Clone the website by pasting in the following command:
+* Download and install [Node.js](https://nodejs.org/en/) (if you don't already have it installed). Select the "Current" version instead of the "LTS" version.
+* Download and install [Git](https://git-scm.com/downloads) (if you don't already have it installed).
+* Open "Git Bash" from the Start Menu. (If you are on another platform, then just open a terminal/shell.)
+  * By default, the terminal will start in your home directory. (e.g. `C:\Users\[YourUsername]\`)
+* [Optional] In the terminal, navigate to the directory where you want the source code of the website to live. For example, if you want it to live in your "Documents" folder, then type `cd Documents`.
+* Clone the website by pasting in the following command:
   * `git clone https://github.com/hanabi/hanabi.github.io.git`
