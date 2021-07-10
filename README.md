@@ -62,7 +62,7 @@ Editing files on the GitHub website is a pain. If you are adding a significant a
 * [Optional] In the terminal, change to the directory where you want the source code of the website to live. For example, if you want it to live in your "Documents" folder, then type: `cd Documents`
 * Clone the forked copy of the website with the following command:
   * `git clone https://github.com/[YourGitHubUsername]/hanabi.github.io.git` <br />
-  (replace "YourGitHubUsername" with your GitHub username)
+  (replace "[YourGitHubUsername]" with your GitHub username)
 * Go into the cloned directory:
   * `cd hanabi.github.io`
 * Install the dependencies:
