@@ -24,7 +24,7 @@ If all you are doing is making some small changes, like fixing typos, then you c
 
 The steps to create a new pull request are as follows:
 
-1. [Create an account on GitHub](https://github.com/join), if you already haven't. (They are free.)
+1. [Create an account on GitHub](https://github.com/join) and login to that account, if you already haven't. (GitHub accounts are free.)
 1. On the [main Hanabi Conventions website](https://hanabi.github.io/), navigate to the page that you want to change.
 1. On the bottom of the page, you should see a link called "Edit this page". Click on that.
 1. Click the green button that says "Fork this repository". (That will create your own copy of the website that will live under your GitHub user account.)
@@ -41,13 +41,56 @@ The steps to create a new pull request are as follows:
 
 Editing files on the GitHub website is a pain. If you are adding a significant amount of changes, I recommend that you set up a local development environment to work on the website. That way, you can use a browser to instantaneously see how your edits look live in a local copy of the website that runs on your own computer.
 
+### Part 1 - Initial Setup
+
 * Download and install [Node.js](https://nodejs.org/en/) (if you don't already have it installed). Select the "Current" version instead of the "LTS" version.
+  * This allows the [JavaScript](https://www.javascript.com/) programming language to run on your local computer.
+* Download and install [Python](https://www.python.org/downloads/) (if you don't already have it installed). Select the latest version.
+  * This allows the [Python](https://www.python.org/) programming language to run on your local computer.
 * Download and install [Git](https://git-scm.com/downloads) (if you don't already have it installed).
+  * This allows you to push and pull files to [GitHub](https://github.com/).
 * Download and install [VSCode](https://code.visualstudio.com/) (if you don't already have it installed).
-* Open "Git Bash" from the Start Menu. (If you are not on Windows, then just open a terminal/shell.)
-  * By default, Git Bash will start in your home directory. (e.g. `C:\Users\[YourUsername]\`)
+  * This is a nice text editor that you can edit the website files with.
+
+### Part 2 - Fork and Clone the Repository
+
+* [Create an account on GitHub](https://github.com/join) and login to that account, if you already haven't. (GitHub accounts are free.)
+* In a browser, go to the [main page for the repository](https://github.com/hanabi/hanabi.github.io).
+* Click on the "Fork" button in the top-right-hand-corner. This will create your own copy of the website that will live under your GitHub user account.
+* Next, open "Git Bash" from the Start Menu. This is a command-line interface that allows you to run command-line programs. (If you are not on Windows, then just open a terminal/shell instead.)
+  * By default, the new shell will start in your home directory. (e.g. `C:\Users\[YourUsername]\`)
 * [Optional] In the terminal, change to the directory where you want the source code of the website to live. For example, if you want it to live in your "Documents" folder, then type `cd Documents`.
-* Clone the website by pasting in the following command:
-  * `git clone https://github.com/hanabi/hanabi.github.io.git`
+* Clone the forked copy of the website with the following command:
+  * `git clone https://github.com/[YourGitHubUsername]/hanabi.github.io.git` <br />
+  (replace "YourGitHubUsername" with your GitHub username)
 * Go into the cloned directory:
   * `cd hanabi.github.io`
+* Install the dependencies:
+  * `./install.sh`
+
+### Part 3 - Run It, Make Changes, and Observe Changes
+
+* In the shell from the previous step, test to see if the website works with the following command:
+  * `./run.sh`
+  * Now, the website will "run" forever until you press `Ctrl + C` to cancel it (or close the terminal window).
+  * In a browser, surf to http://localhost:3000/ in order to see your local copy of the website.
+* Now, open VSCode (which is a nice code/document editor). From the menu, select "File", then "Open Folder", then select the website folder that we cloned earlier.
+* VSCode is now treating the website as a "project". You can see the list of files in the left pane and you can double click a file to open it. (Alternatively, you can open a file by using the menu with "File" --> "Open File".)
+* The main files for the website are located in the "docs" folder. For example, the beginner's guide is located at "docs/beginner.md". Go ahead and edit whatever files that you want to change. As soon as you edit a particular file, you should see the changes automatically appear in your browser (that is, if you happen to be viewing the particular section).
+
+### Part 4 - Make Sure There are No Errors
+
+* The website has some automated checks that can catch spelling errors and related mistakes. After making some changes, you should ensure that there are no errors with what you did.
+* In a shell from the previous step, run the "lint.sh" script:
+  * `./lint.sh`
+* If it reports "Success!", then no errors were found. Otherwise, a description of the error will be shown.
+
+### Part 5 - Commit Changes and Submit a PR
+
+* By default, VSCode starts in "Explorer" view, where the list of files is in the left pane. This is represented by the two-files icon in the top-left-hand-corner.
+* Switch to the "Source Contorl" view by clicking on the tree icon in the top-left-hand-corner (which is directly below the magnifying glass icon).
+* This view allows you to see a summary of the changes that you have made so far. If you are satisfied with the changes, then commit the changes by typing a commit message in the "Message" box in the top-left-hand-corner. For example, "adding new example for level 2".
+* After typing a message, press `Ctrl + Enter` to submit it. A warning box will appear; answer "Yes" to commit all of your changes. (Note that most of the time, you will want to commit all your changes. But you can always get more granular and only commit specific files if necessary.)
+* Now, the commit lives on your local computer, but it isn't synced with GitHub. Push the commit to GitHub by clicking on the "0⬇ 1⬆" icon in the bottom-left-hand-corner, then select "OK" to the warning box.
+* Now, the commit is synced to your GitHub, meaning that if you view your forked copy of the repository on GitHub.com, it should show all of the changes you made.
+* On the main page for your forked repository, click on the "Contribute" link near the top of the page, and then click on the "Open Pull Request" button. Next, click on the "Create pull request" button. Enter in a good description of the changes that you made, and then click on "Create pull request".
