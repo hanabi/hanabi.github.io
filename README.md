@@ -59,7 +59,7 @@ Editing files on the GitHub website is a pain. If you are adding a significant a
 * Click on the "Fork" button in the top-right-hand-corner. This will create your own copy of the website that will live under your GitHub user account.
 * Next, open "Git Bash" from the Start Menu. This is a command-line interface that allows you to run command-line programs. (If you are not on Windows, then just open a terminal/shell instead.)
   * By default, the new shell will start in your home directory. (e.g. `C:\Users\[YourUsername]\`)
-* [Optional] In the terminal, change to the directory where you want the source code of the website to live. For example, if you want it to live in your "Documents" folder, then type `cd Documents`.
+* [Optional] In the terminal, change to the directory where you want the source code of the website to live. For example, if you want it to live in your "Documents" folder, then type: `cd Documents`
 * Clone the forked copy of the website with the following command:
   * `git clone https://github.com/[YourGitHubUsername]/hanabi.github.io.git` <br />
   (replace "YourGitHubUsername" with your GitHub username)
