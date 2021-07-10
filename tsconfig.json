@@ -1,0 +1,25 @@
+// The configuration file for TypeScript
+{
+  // We extend the standard IsaacScript config
+  // https://github.com/IsaacScript/isaacscript-tsconfig/blob/main/tsconfig.node.json
+  "extends": "isaacscript-tsconfig/tsconfig.node.json",
+
+  // https://www.typescriptlang.org/docs/handbook/compiler-options.html
+  "compilerOptions": {
+    // "outDir" specifies the output directory
+    // By default, it will put the compiled ".js" next to the respective ".ts" file,
+    // which will clutter the "src" directory
+    "outDir": "./dist",
+  },
+
+  // A list of the TypeScript files to compile
+  "include": [
+    "./image-generator/**/*.js",
+    "./src/**/*.ts",
+    "./src/**/*.js",
+    "./static/**/*.js",
+    "./babel.config.js",
+    "./docusaurus.config.js",
+    "./sidebars.js",
+  ],
+}

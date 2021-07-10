@@ -2,7 +2,8 @@
 // https://go.microsoft.com/fwlink/?LinkId=827846
 {
   "recommendations": [
-    "ms-python.python", // This repository contains Python scripts
+    "dbaeumer.vscode-eslint", // The TypeScript linter
     "streetsidesoftware.code-spell-checker", // A spell-checking extension based on cspell is used
+    "ms-python.python", // This repository contains Python scripts
   ],
 }

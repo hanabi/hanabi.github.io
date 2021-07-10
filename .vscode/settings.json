@@ -16,12 +16,25 @@
     "**/*.svg*": true,
   },
 
-  // ----------
-  // JavaScript
-  // ----------
+  // -----------------------
+  // JavaScript / TypeScript
+  // -----------------------
 
+  // By default, VSCode will not automatically fill-in function arguments
+  "javascript.suggest.completeFunctionCalls": true,
+  "typescript.suggest.completeFunctionCalls": true,
+
+  // Automatically run the formatter when a JavaScript or TypeScript file is saved
   "[javascript]": {
-    "editor.rulers": [100],
+    "editor.codeActionsOnSave": [
+      "source.fixAll.eslint",
+    ],
+    "editor.tabSize": 2,
+  },
+  "[typescript]": {
+    "editor.codeActionsOnSave": [
+      "source.fixAll.eslint",
+    ],
     "editor.tabSize": 2,
   },
 

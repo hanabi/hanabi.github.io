@@ -5,7 +5,7 @@ const MAX_LEVEL = 23;
 // Variables
 const keyMap = new Map();
 
-document.onkeydown = function(e) {
+document.onkeydown = function onKeyDown(e) {
   // Debugging
   // console.log("Key pressed:", e.key);
 
@@ -15,7 +15,8 @@ document.onkeydown = function(e) {
   }
 
   // Do not do anything if we have the search box focused
-  const searchInputElements = document.getElementsByClassName("DocSearch-Input");
+  const searchInputElements =
+    document.getElementsByClassName("DocSearch-Input");
   for (const searchInputElement of searchInputElements) {
     if (document.activeElement === searchInputElement) {
       return;
@@ -26,7 +27,7 @@ document.onkeydown = function(e) {
   if (keyFunction !== undefined) {
     keyFunction();
   }
-}
+};
 
 // Click on the "Learn More" button
 keyMap.set("Enter", () => {
