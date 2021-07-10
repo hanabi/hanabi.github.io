@@ -31,4 +31,4 @@ Have you found your way here from the Internet? That's fine too. Feel free to ch
 
 ### Contributing
 
-If you want to contribute to this website, see [the documentation on how to create example images](image-format.md).
+If you want to contribute to this website, then see the [README.md](https://github.com/hanabi/hanabi.github.io/blob/main/README.md) for the repository and [the documentation on how to create example images](image-format.md).
