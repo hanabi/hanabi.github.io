@@ -16,14 +16,22 @@ title: Level 1 - Fundamentals
 ### Chop
 
 - When players have to discard, they typically discard their right-most unclued card.
-- A player's chop is formally defined as **the next unclued card that they would discard if they had nothing to do**.
+- A player's chop is formally defined as **the next unclued card that they would discard if they had nothing else to do**.
 - If a player has a clued card that is known useless, then they will typically discard the useless card **instead** of discarding their chop. (But the useless card does **not** count as the chop - their chop remains the right-most unclued card.)
+
+<br />
+
+### Clue Focus
+
+- There is a 3-step process for determining the focus of the clue:
+
+<img src="/img/flowcharts/clue-focus-flowchart.png" alt="Clue Focus Flowchart" class="flowchart" />
 
 <br />
 
 ### The Definition of Playable
 
-- First, see the section on *[Delayed Play Clues](beginner.md#delayed-play-clues)* from the beginner's guide.
+- First, see the section on *[Delayed Play Clues](beginner/delayed-play-clues.md)* from the beginner's guide.
 - When we say that an unclued card is currently *playable*, we do **not** mean that the card would be able to play on the stacks right this instant. If an unclued card is *playable*, then what we really mean is that it would be legal for someone to give either a *Play Clue* **or** a *Delayed Play Clue* to the card.
 - In other words, if an unclued *playable* card was given a *Delayed Play Clue*, that card would eventually play on the stack without any additional clues needing to be given by anyone else - all the in-between cards, if any, are present and accounted for.
 

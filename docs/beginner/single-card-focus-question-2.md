@@ -1,0 +1,36 @@
+---
+id: single-card-focus-question-2
+title: Single Card Focus (Question 2)
+---
+
+import BeginnersGuideProgress from '@site/src/beginnersGuide.js';
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import SingleCardFocusQuestion2 from '@site/image-generator/yml/beginner/single-card-focus-question-2.yml';
+
+<BeginnersGuideProgress part="28" />
+
+<!-- lint disable no-undefined-references -->
+
+<Tabs
+  defaultValue="question"
+  values={[
+    {label: 'Question', value: 'question'},
+    {label: 'Solution', value: 'solution'},
+  ]}>
+<TabItem value="question">
+
+- Bob has a completely unclued hand.
+- Alice clues purple to Bob, touching five cards.
+- Which slot is focused?
+
+</TabItem>
+<TabItem value="solution">
+
+- Slot 5, because it is the chop card.
+  - (All of the cards are "new".)
+
+</TabItem>
+</Tabs>
+
+<SingleCardFocusQuestion2 />

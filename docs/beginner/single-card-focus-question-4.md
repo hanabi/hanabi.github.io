@@ -1,0 +1,36 @@
+---
+id: single-card-focus-question-4
+title: Single Card Focus (Question 4)
+---
+
+import BeginnersGuideProgress from '@site/src/beginnersGuide.js';
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import SingleCardFocusQuestion4 from '@site/image-generator/yml/beginner/single-card-focus-question-4.yml';
+
+<BeginnersGuideProgress part="30" />
+
+<!-- lint disable no-undefined-references -->
+
+<Tabs
+  defaultValue="question"
+  values={[
+    {label: 'Question', value: 'question'},
+    {label: 'Solution', value: 'solution'},
+  ]}>
+<TabItem value="question">
+
+- Bob has a 5 and a 2 clued in his hand.
+- Alice clues red to Bob, touching three cards.
+- Which slot is focused?
+
+</TabItem>
+<TabItem value="solution">
+
+- Slot 3, because there are two brand-new cards and slot 3 is the chop.
+  - (Slot 5 was previously touched, so the red clue "fills it in".)
+
+</TabItem>
+</Tabs>
+
+<SingleCardFocusQuestion4 />

@@ -1,7 +1,84 @@
 module.exports = {
   mainSidebar: [
     "about",
-    "beginner",
+    {
+      "Beginner's Guide": [
+        "beginner/intro",
+        "beginner/card-layout",
+        {
+          "The Chop": [
+            "beginner/chop",
+            "beginner/chop-question-1",
+            "beginner/chop-question-2",
+            "beginner/chop-question-3",
+          ],
+        },
+        "beginner/two-types-of-clues",
+        {
+          "1 - Play Clues": [
+            "beginner/play-clues",
+            "beginner/play-clues-question-1",
+            "beginner/play-clues-question-2",
+            "beginner/delayed-play-clues",
+            "beginner/delayed-play-clues-question-1",
+            "beginner/delayed-play-clues-question-2",
+            "beginner/delayed-play-clues-question-3",
+          ],
+        },
+        {
+          "2 - Save Clues": [
+            "beginner/save-clues",
+            "beginner/5-save",
+            "beginner/5-save-question-1",
+            "beginner/5-save-question-2",
+            "beginner/2-save",
+            "beginner/2-save-question-1",
+            "beginner/2-save-question-2",
+            "beginner/2-save-question-3",
+            "beginner/critical-save",
+            "beginner/critical-save-question-1",
+            "beginner/critical-save-question-2",
+            "beginner/critical-save-question-3",
+          ],
+        },
+        {
+          "Clue Interpretation": [
+            "beginner/single-card-focus",
+            "beginner/single-card-focus-question-1",
+            "beginner/single-card-focus-question-2",
+            "beginner/single-card-focus-question-3",
+            "beginner/single-card-focus-question-4",
+            "beginner/clue-interpretation",
+            "beginner/clue-interpretation-question-1",
+            "beginner/clue-interpretation-question-2",
+            "beginner/clue-interpretation-question-3",
+            "beginner/clue-interpretation-question-4",
+            "beginner/clue-interpretation-question-5",
+          ],
+        },
+        "beginner/three-main-principles",
+        {
+          "1 - Good Touch Principle": [
+            "beginner/good-touch-principle",
+            "beginner/good-touch-principle-question-1",
+            "beginner/good-touch-principle-question-2",
+          ],
+        },
+        {
+          "2 - Save Principle": [
+            "beginner/save-principle",
+            "beginner/save-principle-question-1",
+            "beginner/save-principle-question-2",
+          ],
+        },
+        {
+          "3 - Minimum Clue Value Principle": [
+            "beginner/minimum-clue-value-principle",
+            "beginner/minimum-clue-value-principle-question-1",
+          ],
+        },
+      ],
+    },
     "how-to-join",
     "learning-path",
     {

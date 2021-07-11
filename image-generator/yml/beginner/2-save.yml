@@ -15,8 +15,7 @@ players:
   - cards:
       - type: x
       - type: x
-      - type: 2
-        clue: 2
+      - type: x
       - type: x
       - type: 2
         clue: 2

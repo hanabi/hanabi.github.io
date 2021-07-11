@@ -1,0 +1,8 @@
+players:
+  - cards:
+      - type: y2
+        border: false
+      - type: b3
+      - type: g2
+      - type: p4
+      - type: b1

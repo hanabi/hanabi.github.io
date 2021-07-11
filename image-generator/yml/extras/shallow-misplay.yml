@@ -13,7 +13,7 @@ players:
       - type: x
       - type: x
       - type: x
-  - text: Alice misplays Slot 2
+  - text: Alice misplays slot 2
   - name: Bob
     cards:
       - type: x
@@ -21,7 +21,7 @@ players:
         above: Purple 5
       - type: x
       - type: x
-  - text: Bob blind plays Slot 2
+  - text: Bob blind-plays slot 2
   - name: Cathy
     cards:
       - type: x
@@ -29,7 +29,7 @@ players:
         above: Blue 4
       - type: x
       - type: x
-  - text: Cathy blind plays Slot 2
+  - text: Cathy blind-plays slot 2
   - name: Donald
     cards:
       - type: x
@@ -37,7 +37,7 @@ players:
         above: Yellow 5
       - type: x
       - type: x
-  - text: Donald blind plays Slot 2
+  - text: Donald blind-plays slot 2
   - name: Emily
     cards:
       - type: x
@@ -45,4 +45,4 @@ players:
         above: Blue 5
       - type: x
       - type: x
-  - text: Emily blind plays Slot 2
+  - text: Emily blind-plays slot 2

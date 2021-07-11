@@ -1,0 +1,36 @@
+---
+id: single-card-focus-question-3
+title: Single Card Focus (Question 3)
+---
+
+import BeginnersGuideProgress from '@site/src/beginnersGuide.js';
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import SingleCardFocusQuestion3 from '@site/image-generator/yml/beginner/single-card-focus-question-3.yml';
+
+<BeginnersGuideProgress part="29" />
+
+<!-- lint disable no-undefined-references -->
+
+<Tabs
+  defaultValue="question"
+  values={[
+    {label: 'Question', value: 'question'},
+    {label: 'Solution', value: 'solution'},
+  ]}>
+<TabItem value="question">
+
+- Bob has two 2's clued in his hand.
+- Alice clues blue to Bob, touching two cards.
+- Which slot is focused?
+
+</TabItem>
+<TabItem value="solution">
+
+- Slot 3, because it is the only brand-new card.
+  - (Slot 2 was previously touched, so the blue clue "fills it in".)
+
+</TabItem>
+</Tabs>
+
+<SingleCardFocusQuestion3 />

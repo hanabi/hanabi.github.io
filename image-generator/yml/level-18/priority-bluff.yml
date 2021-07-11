@@ -20,7 +20,7 @@ players:
       - type: x
       - type: x
       - type: x
-  - text: Bob blind plays slot 1 as Blue 3
+  - text: Bob blind-plays slot 1 as Blue 3
   - name: Cathy
     cards:
       - type: x
