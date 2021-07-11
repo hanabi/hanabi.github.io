@@ -77,6 +77,12 @@ module.exports = {
             "beginner/minimum-clue-value-principle-question-1",
           ],
         },
+        {
+          "The Early Game": [
+            "beginner/early-game",
+            "beginner/early-game-question-1",
+          ],
+        },
       ],
     },
     "how-to-join",

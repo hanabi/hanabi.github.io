@@ -12,7 +12,7 @@ const features = [
     title: "Beginner's Guide",
     iconName: "baby",
     description: <>Start here to learn the fundamentals.</>,
-    link: "beginner",
+    link: "beginner/intro",
   },
   {
     num: 2,

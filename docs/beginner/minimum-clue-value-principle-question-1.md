@@ -21,19 +21,22 @@ import MinimumClueValuePrincipleQuestion1 from '@site/image-generator/yml/beginn
 <TabItem value="question">
 
 - Alice is in a special situation where she cannot discard.
-- What action should Alice perform?
+- Bob's blue 4 has been previous touched with a blue clue.
+- Cathy's red 2 and yellow 2 have been previous touched with a number 2 clue.
+- Enumerate all of the legal *Tempo Clues* that Alice can give.
 
 </TabItem>
 <TabItem value="solution">
 
-- Alice needs to give a *Save Clue* to Bob's yellow 2 before it is discarded (because everyone agrees that all unique 2's **must** be saved).
-- Alice is not allowed to clue yellow, because 2's must be saved with a *2 Save*.
-  - If Alice did clue yellow, then it would look like a *Play Clue* on a yellow card and Bob would try to play it as the yellow 1.
-- If Alice clues number 2, then it would be a *2 Save* on the yellow 2, but it would also duplicate the red 2 (which is already played on the stacks).
-- Thus, Alice should clue number 2 to Bob as a *2 Save* (because it is more important to save cards than it is to violate *Good Touch Principle*).
-- That clue would be focused on slot 5. Bob will write the following identities on the card:
-  - green 2 or blue 2 (as a *Play Clue*)
-  - yellow 2 or purple 2 (as a *2 Save*)
+- Alice could give a *Tempo Clue* to the blue 4 in Bob's hand:
+  - A number 4 clue would be legal, since it would only touch slot 4. This would "fill-in" the 4 to be a blue 4.
+  - A blue clue would be legal, since it would only touch slot 4. This would not "fill-in" the card, but the clue would still mean to "play the card", so it would still work properly.
+- Alice could give a *Tempo Clue* to the red 2 in Cathy's hand:
+  - A number 2 clue would not be legal, since it would focus slot 1 instead of slot 4.
+  - A red clue would be legal, since it would only touch slot 4.
+- Alice cannot give a *Tempo Clue* to the yellow 2 in Cathy's hand:
+  - A number 2 clue would not be legal, since it would focus slot 1 instead of slot 5.
+  - A yellow clue would be legal, since it would focus slot 3 instead of slot 5.
 
 </TabItem>
 </Tabs>
