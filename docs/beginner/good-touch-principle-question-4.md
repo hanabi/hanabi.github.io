@@ -26,7 +26,7 @@ import GoodTouchPrincipleQuestion4 from '@site/image-generator/yml/beginner/good
 </TabItem>
 <TabItem value="solution">
 
-- If Alice tried to give a clue to Bob, no matter what kind of clue that she chose, it would duplicate the green 3 and violate *Good Touch Principle*.
+- Both a color and number clue would duplicate the green 3 and violate *Good Touch Principle*.
 - Thus, Alice should wait patiently for Bob to discard the green 3. Once the first copy of the green 3 is discarded, the team can clue the remaining green 3.
 - Since there are no legal clues to give, Alice must discard.
 

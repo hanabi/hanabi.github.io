@@ -20,7 +20,7 @@ import GoodTouchPrincipleQuestion3 from '@site/image-generator/yml/beginner/good
   ]}>
 <TabItem value="question">
 
-- Alice has a clued 2 in her hand of an unknown color. (It was given *2 Saved* earlier on in the game.)
+- Alice has a clued 2 in her hand of an unknown color. (It was *2 Saved* earlier on in the game.)
 - What action should Alice perform?
 
 </TabItem>
