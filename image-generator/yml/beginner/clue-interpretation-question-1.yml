@@ -15,9 +15,12 @@ players:
       - type: x
       - type: x
       - type: x
-      - type: x
   - cards:
       - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
       - type: x
       - type: x
       - type: g
@@ -25,8 +28,6 @@ players:
       - type: g
         clue: g
   - cards:
-      - type: b4
-        border: false
       - type: b3
         border: false
       - type: g2
