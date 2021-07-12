@@ -19,7 +19,7 @@ players:
         border: false
       - type: p1
       - type: g1
-      - type: b3
+      - type: y2
         border: false
   - cards:
       - type: g3
