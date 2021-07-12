@@ -17,16 +17,6 @@ export default function Progress({ part }) {
       }}
     >
       <CircularProgressbar value={percentage} text={`${percentage}%`} />
-      <script>
-        window.onload = function (){" "}
-        {setTimeout(function affixCircleBelowTOC() {
-          document
-            .querySelector("main > div > div > div:nth-child(2)")
-            .append(document.querySelector("#percent"));
-          document.querySelector("#percent").style.display = null;
-        }, 0)}
-        );
-      </script>
     </div>
   );
 }
