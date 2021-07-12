@@ -28,7 +28,7 @@ import PromptQuestion3 from '@site/image-generator/yml/beginner/prompt-question-
 <TabItem value="solution">
 
 - It is possible for Alice to give a *Play Clue* to the purple 4 either by cluing purple or by cluing number 4. Both clues would focus the purple 4.
-- However, this would signal a *Prompt* to Cathy, and she would play her purple cards from left-to-right. That means that the purple 3 would misplay from slot 3.
+- However, this would signal a *Prompt* to Cathy, and she would play her purple cards from left-to-right. That means that the purple 3 would misplay from slot 4.
 - Thus, Alice is not allowed to give a *Play Clue* to the purple 4.
 - Instead, Alice can clue number 3 to Cathy. This would focus the purple 3 as a *Self-Prompt*.
 - After that, Alice can give a *Play Clue* to the purple 4 without any problems.
