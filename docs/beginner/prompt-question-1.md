@@ -20,7 +20,8 @@ import PromptQuestion1 from '@site/image-generator/yml/beginner/prompt-question-
   ]}>
 <TabItem value="question">
 
-- Bob has two unknown 2's in his hand.
+- Bob has two unknown 2's previously clued in his hand.
+- Cathy has one unknown 5 previously clued in her hand.
 - Alice clues red to Cathy.
 - What is Bob's interpretation of Alice's clue?
 
