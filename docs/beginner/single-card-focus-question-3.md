@@ -8,7 +8,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import SingleCardFocusQuestion3 from '@site/image-generator/yml/beginner/single-card-focus-question-3.yml';
 
-<BeginnersGuideProgress part="29" />
+<BeginnersGuideProgress part="30" />
 
 <!-- lint disable no-undefined-references -->
 

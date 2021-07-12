@@ -8,7 +8,7 @@ import GoodTouchPrinciple1 from '@site/image-generator/yml/beginner/good-touch-p
 import GoodTouchPrinciple2 from '@site/image-generator/yml/beginner/good-touch-principle-2.yml';
 import GoodTouchPrinciple3 from '@site/image-generator/yml/beginner/good-touch-principle-3.yml';
 
-<BeginnersGuideProgress part="38" />
+<BeginnersGuideProgress part="39" />
 
 - When cluing cards, we follow *Good Touch Principle* - **we only touch cards that will eventually be played**.
   - It would be a *Bad Touch* if someone touched a card that was already played on the stacks or was already clued in someone else's hand.

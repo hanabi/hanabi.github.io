@@ -7,7 +7,7 @@ import BeginnersGuideProgress from '@site/src/beginnersGuide.js';
 import LeftMostFocus from '@site/image-generator/yml/beginner/left-most-focus.yml';
 import ChopFocus from '@site/image-generator/yml/beginner/chop-focus.yml';
 
-<BeginnersGuideProgress part="26" />
+<BeginnersGuideProgress part="27" />
 
 - So far, we have learned about the two types of clues: *Play Clues* and *Save Clues*.
 - But all of the *Play Clues* and *Save Clues* that we have seen so far have only "touched" a single card.

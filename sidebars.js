@@ -39,6 +39,7 @@ module.exports = {
             "beginner/critical-save-question-1",
             "beginner/critical-save-question-2",
             "beginner/critical-save-question-3",
+            "beginner/critical-save-question-4",
           ],
         },
         {
