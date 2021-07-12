@@ -31,13 +31,13 @@ In this guide, you'll learn the following strategies:
 
 1. *The Chop* - Discard the oldest unclued card.
 1. Two types of clues:
-    - *Play Clues* promise that a card can be played.
-    - *Save Clues* prevent a card from being discarded.
+    - *Play Clues* - Promise that a card can be played.
+    - *Save Clues* - Prevent a card from being discarded.
 1. *Single Focus* - Only one card is the *Focus* of every clue.
 1. *Good Touch Principle* - Only clue cards that will be played.
-1. *Save Principle* - We save all important cards.
+1. *Save Principle* - Save all important cards.
 1. *Minimum Clue Value Principle* - Get at least one new card with every clue.
-1. *Prompts* & *Finesses* - Special moves to "get" cards efficiently.
+1. *Prompts* & *Finesses* - Special moves that get two cards played with one clue.
 
 <!-- lint enable list-item-content-indent -->
 
