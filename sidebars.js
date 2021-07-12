@@ -62,6 +62,8 @@ module.exports = {
             "beginner/good-touch-principle",
             "beginner/good-touch-principle-question-1",
             "beginner/good-touch-principle-question-2",
+            "beginner/good-touch-principle-question-3",
+            "beginner/good-touch-principle-question-4",
           ],
         },
         {
@@ -81,8 +83,24 @@ module.exports = {
           "The Early Game": [
             "beginner/early-game",
             "beginner/early-game-question-1",
+            "beginner/early-game-question-2",
+            "beginner/early-game-question-3",
+            "beginner/early-game-question-4",
           ],
         },
+        "beginner/other-general-strategy",
+        {
+          "Special Moves": [
+            "beginner/special-moves",
+            "beginner/prompt",
+            "beginner/prompt-question-1",
+            "beginner/prompt-question-2",
+            "beginner/prompt-question-3",
+            "beginner/finesse",
+            "beginner/finesse-question-1",
+          ],
+        },
+        "beginner/next-steps",
       ],
     },
     "how-to-join",

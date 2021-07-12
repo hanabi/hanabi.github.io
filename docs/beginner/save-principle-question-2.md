@@ -8,7 +8,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import SavePrincipleQuestion2 from '@site/image-generator/yml/beginner/save-principle-question-2.yml';
 
-<BeginnersGuideProgress part="43" />
+<BeginnersGuideProgress part="45" />
 
 <!-- lint disable no-undefined-references -->
 

@@ -31,6 +31,8 @@ And only one card is focused by a clue.
 
 When a clue happens and you need to figure out what it means, **always ask yourself the following questions**:
 
+<!-- lint disable list-item-content-indent -->
+
 1. What slot is focused?
     - Use the 3-step process we covered in the previous section.
 1. Is it a *Play Clue* or a *Save Clue* or could it be both?
@@ -39,6 +41,8 @@ When a clue happens and you need to figure out what it means, **always ask yours
 1. What is the identity of the card?
     - Based on whether it is a *Play Clue* or *Save Clue*, record all of the possibilities on the card as a note.
     - (On Hanab.live, you can right-click on cards to add notes to them.)
+
+<!-- lint enable list-item-content-indent -->
 
 Follow this algorithm every time! Don't skip a step!
 

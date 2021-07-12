@@ -8,7 +8,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import EarlyGameQuestion1 from '@site/image-generator/yml/beginner/early-game-question-1.yml';
 
-<BeginnersGuideProgress part="47" />
+<BeginnersGuideProgress part="49" />
 
 <!-- lint disable no-undefined-references -->
 
@@ -20,7 +20,7 @@ import EarlyGameQuestion1 from '@site/image-generator/yml/beginner/early-game-qu
   ]}>
 <TabItem value="question">
 
-- Alice clues number 1 to Cathy, touching three cards.
+- On the first turn of the game, Alice clues number 1 to Cathy, touching three cards.
 - Bob discards a red 1.
 - Is it now the *Early Game* or the *Mid-Game*?
 

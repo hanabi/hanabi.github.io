@@ -8,7 +8,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import MinimumClueValuePrincipleQuestion1 from '@site/image-generator/yml/beginner/minimum-clue-value-principle-question-1.yml';
 
-<BeginnersGuideProgress part="45" />
+<BeginnersGuideProgress part="47" />
 
 <!-- lint disable no-undefined-references -->
 
