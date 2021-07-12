@@ -1,6 +1,6 @@
 ---
 id: intro
-title: Into
+title: Intro
 ---
 
 import { Redirect } from '@docusaurus/router';
