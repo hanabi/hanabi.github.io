@@ -36,7 +36,7 @@ import MinimumClueValuePrincipleQuestion1 from '@site/image-generator/yml/beginn
   - A red clue would be legal, since it would only touch slot 4.
 - Alice cannot give a *Tempo Clue* to the yellow 2 in Cathy's hand:
   - A number 2 clue would not be legal, since it would focus slot 1 instead of slot 5.
-  - A yellow clue would be legal, since it would focus slot 3 instead of slot 5.
+  - A yellow clue would not be legal, since it would focus slot 3 instead of slot 5.
 
 </TabItem>
 </Tabs>
