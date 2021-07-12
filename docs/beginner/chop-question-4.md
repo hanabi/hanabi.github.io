@@ -6,7 +6,7 @@ title: The Chop (Question 4)
 import BeginnersGuideProgress from '@site/src/beginnersGuide.js';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
-import ChopQuestion3 from '@site/image-generator/yml/beginner/chop-question-4.yml';
+import ChopQuestion4 from '@site/image-generator/yml/beginner/chop-question-4.yml';
 
 <BeginnersGuideProgress id="chop-question-4" />
 
