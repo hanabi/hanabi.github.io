@@ -8,7 +8,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import ChopQuestion2 from '@site/image-generator/yml/beginner/chop-question-2.yml';
 
-<BeginnersGuideProgress part="4" />
+<BeginnersGuideProgress id="chop-question-2" />
 
 <!-- lint disable no-undefined-references -->
 

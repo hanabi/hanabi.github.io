@@ -6,7 +6,7 @@ title: The 5 Save
 import BeginnersGuideProgress from '@site/src/beginnersGuide.js';
 import FiveSave from '@site/image-generator/yml/beginner/5-save.yml';
 
-<BeginnersGuideProgress part="15" />
+<BeginnersGuideProgress id="5-save" />
 
 - In Hanabi, there is only one copy of each 5. So, we need to stop players from discarding them.
 - We agree that 5's should be saved with **a number 5 clue**. This is called a *5 Save*.

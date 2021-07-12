@@ -8,7 +8,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import FinesseQuestion2 from '@site/image-generator/yml/beginner/finesse-question-2.yml';
 
-<BeginnersGuideProgress part="62" />
+<BeginnersGuideProgress id="finesse-question-2" />
 
 <!-- lint disable no-undefined-references -->
 

@@ -6,7 +6,7 @@ title: Save Principle
 import BeginnersGuideProgress from '@site/src/beginnersGuide.js';
 import SavePrinciple from '@site/image-generator/yml/beginner/save-principle.yml';
 
-<BeginnersGuideProgress part="44" />
+<BeginnersGuideProgress id="save-principle" />
 
 - Earlier, we explained that the team must save certain types of cards with *Save Clues*.
 - But above and beyond this, we also agree that we must "get" all of the playable cards. In order words, **we don't let each other discard playable cards!**

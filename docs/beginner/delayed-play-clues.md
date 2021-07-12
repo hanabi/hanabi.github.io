@@ -6,7 +6,7 @@ title: Delayed Play Clues
 import BeginnersGuideProgress from '@site/src/beginnersGuide.js';
 import DelayedPlayClues from '@site/image-generator/yml/beginner/delayed-play-clues.yml';
 
-<BeginnersGuideProgress part="10" />
+<BeginnersGuideProgress id="delayed-play-clues" />
 
 - It's permitted to give a *Play Clue* to a card that will only successfully play on the stacks *after* other people have played cards of the same suit.
   - We refer to such a clue as a *Delayed Play Clue* when the card is only playable *through* other cards that are going to play.

@@ -6,7 +6,7 @@ title: The Critical Save
 import BeginnersGuideProgress from '@site/src/beginnersGuide.js';
 import CriticalSave from '@site/image-generator/yml/beginner/critical-save.yml';
 
-<BeginnersGuideProgress part="22" />
+<BeginnersGuideProgress id="critical-save" />
 
 - Critical cards are defined as cards that have all other copies discarded.
 - For the same reason that 5's need to be saved, critical cards also need to be saved.

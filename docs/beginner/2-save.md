@@ -7,7 +7,7 @@ import BeginnersGuideProgress from '@site/src/beginnersGuide.js';
 import TwoSave from '@site/image-generator/yml/beginner/2-save.yml';
 import TwoSaveIllegal from '@site/image-generator/yml/beginner/2-save-illegal.yml';
 
-<BeginnersGuideProgress part="18" />
+<BeginnersGuideProgress id="2-save" />
 
 - Even though there are two copies of each 2, we agree that 2's are so important that we need to save them in a manner similar to 5's.
 - We agree that 2's should be saved with **a number 2 clue**. This is called a *2 Save*.

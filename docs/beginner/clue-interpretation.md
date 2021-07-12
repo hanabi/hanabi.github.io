@@ -5,7 +5,7 @@ title: Clue Interpretation
 
 import BeginnersGuideProgress from '@site/src/beginnersGuide.js';
 
-<BeginnersGuideProgress part="32" />
+<BeginnersGuideProgress id="clue-interpretation" />
 
 ## Clue Overview
 

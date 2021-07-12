@@ -5,7 +5,7 @@ title: Save Clues
 
 import BeginnersGuideProgress from '@site/src/beginnersGuide.js';
 
-<BeginnersGuideProgress part="14" />
+<BeginnersGuideProgress id="save-clues" />
 
 - The second type of clue is called a *Save Clue*.
 - In Hanabi, there are only so many copies of a particular card. If all copies of a card are discarded, then it is impossible to get the maximum score. Thus, we give *Save Clues* to communicate that specific cards should be saved for later.

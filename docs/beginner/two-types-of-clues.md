@@ -5,7 +5,7 @@ title: The Two Types of Clues
 
 import BeginnersGuideProgress from '@site/src/beginnersGuide.js';
 
-<BeginnersGuideProgress part="6" />
+<BeginnersGuideProgress id="two-types-of-clues" />
 
 - Fundamentally, Hanabi is all about giving clues. Different groups have different definitions of what clues should mean.
 - In our group, clues **always** have a specific meaning.
