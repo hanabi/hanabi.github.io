@@ -26,9 +26,9 @@ import FinesseQuestion2 from '@site/image-generator/yml/beginner/finesse-questio
 </TabItem>
 <TabItem value="solution">
 
-- No, it cannot be a *Finesse*. It is a *Prompt*.
+- No, it is not a *Finesse*.
 - Bob has a clued 3 in his hand, which could be the yellow 3. Therefore, this could be a *Prompt* on Bob.
-- Bob knows that *Prompts* take precedence over *Finesses*. Therefore, this must be a *Prompt*.
+- Bob knows that *Prompts* take precedence over *Finesses*. Since a *Prompt* is possible, it cannot be a *Finesse*.
 
 </TabItem>
 </Tabs>
