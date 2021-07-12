@@ -36,3 +36,9 @@ In this guide, you'll learn the following strategies:
 1. *Save Principle* - We save all important cards.
 1. *Minimum Clue Value Principle* - Get at least one new card with every clue.
 1. *Prompts* & *Finesses* - Special moves to "get" cards efficienctly.
+
+<br />
+
+## Ready?
+
+Ready to begin? Click on the "Next" button below.
