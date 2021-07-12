@@ -12,7 +12,7 @@ import BeginnersGuideProgress from '@site/src/beginnersGuide.js';
 
 <br />
 
-### Chop Cards
+### Save Clues --> Chop
 
 - *Save Clues* **can only be given to cards on chop**.
   - So, if a clue is focused on a non-chop card, then it must be a *Play Clue* instead.
