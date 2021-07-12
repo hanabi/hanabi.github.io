@@ -3,7 +3,7 @@ module.exports = {
     "about",
     {
       "Beginner's Guide": [
-        "beginner/intro",
+        "beginner",
         "beginner/card-layout",
         {
           "The Chop": [
