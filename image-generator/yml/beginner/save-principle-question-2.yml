@@ -15,7 +15,7 @@ players:
   - cards:
       - type: g4
         border: false
-      - type: p5
+      - type: b5
         border: false
       - type: g1
         border: false
