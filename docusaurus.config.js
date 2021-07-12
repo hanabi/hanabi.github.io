@@ -88,6 +88,5 @@ module.exports = {
       crossorigin: "anonymous",
     },
     "/js/hotkey.js",
-    "/js/progressCircle.js",
   ],
 };

@@ -53,7 +53,6 @@ module.exports = {
             "beginner/clue-interpretation-question-2",
             "beginner/clue-interpretation-question-3",
             "beginner/clue-interpretation-question-4",
-            "beginner/clue-interpretation-question-5",
           ],
         },
         "beginner/three-main-principles",

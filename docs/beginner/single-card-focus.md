@@ -25,9 +25,8 @@ import ChopFocus from '@site/image-generator/yml/beginner/chop-focus.yml';
 - If there are multiple "new" cards, then:
   - If the chop card is a "new" card, then the **focus is on the chop**.
   - Otherwise, the **focus is on the left-most card**.
-- Think of this as a 3-step process:
 
-<img src="/img/flowcharts/clue-focus-flowchart.png" alt="Clue Focus Flowchart" class="flowchart" />
+<br />
 
 ### Example 1: Left-Most Focus
 

@@ -4,6 +4,10 @@
   // Vanilla settings
   // ----------------
 
+  // This matches the Airbnb JavaScript style guide
+  "editor.rulers": [100],
+  "editor.tabSize": 2,
+
   // Linux line endings are used in this project
   "files.eol": "\n",
 

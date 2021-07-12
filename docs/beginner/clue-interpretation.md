@@ -45,11 +45,3 @@ When a clue happens and you need to figure out what it means, **always ask yours
 <!-- lint enable list-item-content-indent -->
 
 Follow this algorithm every time! Don't skip a step!
-
-<br />
-
-## Flowchart
-
-With all of our clue knowledge in mind, this is a basic clue interpretation flowchart:
-
-<img src="/img/flowcharts/clue-interpretation-flowchart.png" />
