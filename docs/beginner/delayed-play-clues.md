@@ -8,10 +8,9 @@ import DelayedPlayClues from '@site/image-generator/yml/beginner/delayed-play-cl
 
 <BeginnersGuideProgress part="10" />
 
-- *Play Clues* are different than *Delayed Play Clues*:
-  - If the card will successfully play on the stacks **right now**, then the clue was a *Play Clue*.
-  - If the card will successfully play on the stacks after other people have played cards of the same suit, then the clue was a *Delayed Play Clue* that was *through* other cards.
-- We treat **all *Play Clues*** as **potential *Delayed Play Clues***.
+- It's permitted to give a *Play Clue* to a card that will only successfully play on the stacks *after* other people have played cards of the same suit.
+  - We refer to such a clue as a *Delayed Play Clue* when the card is only playable *through* other cards that are going to play.
+- We agree to treat **all *Play Clues*** as **potential *Delayed Play Clues***.
 - For example, in a 3-player game:
   - Alice clues Bob number 2, which is a *Play Clue* on a 2.
   - Now, it is Bob's turn. If his 2 is the red 2, then he can play it right now.
