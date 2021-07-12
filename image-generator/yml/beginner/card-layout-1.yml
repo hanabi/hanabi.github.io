@@ -15,7 +15,7 @@ players:
       - type: b3
         border: false
         below: Slot 3
-      - type: b3
+      - type: b4
         border: false
         below: Slot 4
       - type: b5
