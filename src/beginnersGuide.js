@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 
-const TOTAL_PARTS = 60;
+const TOTAL_PARTS = 61;
 
 export default function Progress({ part }) {
   const percentage = Math.round(((part - 1) / TOTAL_PARTS) * 100);

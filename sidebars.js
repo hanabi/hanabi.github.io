@@ -97,6 +97,7 @@ module.exports = {
             "beginner/prompt-question-3",
             "beginner/finesse",
             "beginner/finesse-question-1",
+            "beginner/finesse-question-2",
           ],
         },
         "beginner/next-steps",
