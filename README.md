@@ -39,7 +39,7 @@ The steps to create a new pull request are as follows:
 
 ## How to Submit a Pull Request (Complicated)
 
-Editing files on the GitHub website is a pain. If you are adding a significant amount of changes, I recommend that you set up a local development environment to work on the website. That way, you can use a browser to instantaneously see how your edits look live in a local copy of the website that runs on your own computer.
+Editing files on the GitHub website is a pain. If you are adding a significant amount of changes, I recommend that you set up a local development environment to work on the website. That way, you can use a browser to see how your edits look in a local copy of the website that runs on your own computer.
 
 ### Part 1 - Initial Preparation
 
