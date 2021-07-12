@@ -1,5 +1,7 @@
 // Constants
-const FIRST_DOC_PAGE_TITLE = "About | The Hyphen-ated Conventions";
+const WEBPAGE_NAME = "The Hyphen-ated Conventions";
+const FIRST_DOC_PAGE_TITLE = "About";
+const LAST_DOC_PAGE_TITLE = "Convention Attribution";
 const MAX_LEVEL = 23;
 
 // Variables
@@ -38,6 +40,10 @@ keyMap.set("Enter", () => {
 
 // Navigate backwards
 keyMap.set("ArrowLeft", () => {
+  if (isOnLandingPage()) {
+    return;
+  }
+
   if (isOnFirstDocPage()) {
     // Click on the nav bar title
     const navBarTitle = document.getElementsByClassName("navbar__title");
@@ -58,6 +64,10 @@ keyMap.set("ArrowLeft", () => {
 keyMap.set("ArrowRight", () => {
   if (isOnLandingPage()) {
     clickOnFirstLargeButton();
+    return;
+  }
+
+  if (isOnLastDocPage()) {
     return;
   }
 
@@ -95,7 +105,11 @@ function isOnLandingPage() {
 }
 
 function isOnFirstDocPage() {
-  return document.title === FIRST_DOC_PAGE_TITLE;
+  return document.title === `${FIRST_DOC_PAGE_TITLE} | ${WEBPAGE_NAME}`;
+}
+
+function isOnLastDocPage() {
+  return document.title === `${LAST_DOC_PAGE_TITLE} | ${WEBPAGE_NAME}`;
 }
 
 function clickOnFirstLargeButton() {

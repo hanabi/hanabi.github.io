@@ -1,0 +1,29 @@
+stacks:
+  - r: 0
+  - y: 0
+  - g: 0
+  - b: 0
+  - p: 0
+players:
+  - clue_giver: true
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+      - type: b2
+        clue: b
+        retouched: true
+      - type: b
+        clue: b
+      - type: x
+      - type: 2
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x

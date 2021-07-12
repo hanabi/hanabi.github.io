@@ -20,7 +20,7 @@ players:
       - type: x
       - type: x
       - type: x
-  - text: Bob blind plays Slot 1
+  - text: Bob blind-plays slot 1
   - name: Cathy
     cards:
       - type: x
@@ -28,7 +28,7 @@ players:
       - type: x
       - type: x
       - type: x
-  - text: Cathy blind plays Slot 1
+  - text: Cathy blind-plays slot 1
   - name: Donald
     cards:
       - type: x

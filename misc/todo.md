@@ -1,5 +1,6 @@
 ### TODO
 
+- align circle better (it overlaps with TOC)
 - specifying a card as `3r` should throw an error (suit must always come first)
 - specifying suits as `yr` should throw an error (suit must always come in order)
 - level 5
@@ -48,5 +49,3 @@
   - todo
 - level 23
   - ?
-
-- search for all "blind play"

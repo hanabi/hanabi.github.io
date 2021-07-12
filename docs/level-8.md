@@ -45,7 +45,7 @@ import FiveStall from '@site/image-generator/yml/level-8/five-stall.yml';
 
 ### The Early Game (Severity 1 Stalling)
 
-- The *Early Game* is introduced in the [beginner's guide](beginner.md). In short:
+- The *Early Game* is introduced in the [beginner's guide](beginner/early-game.md). In short:
   - The *Early Game* is defined as the period of time before the first discard happens.
   - Players **must** "extinguish" all of the available *Play Clues* and *Save Clues* on the board before ending the *Early Game*.
 - As an intermediate player, you need to know about a few extra rules about the *Early Game*. We don't bother telling the extra rules to beginners because they deal with some edge-case situations. We have the extra rules because we want to "squeeze" as much value out of the conventions as possible.
@@ -111,7 +111,7 @@ import FiveStall from '@site/image-generator/yml/level-8/five-stall.yml';
 
 ### The 5 Stall (Intermediate Section)
 
-- As mentioned in the [beginner's guide](beginner.md), *5 Stalls* are when a player clues an off chop 5 purely because they want (or need) to give a stall clue.
+- As mentioned in the [beginner's guide](beginner/early-game.md#the-5-stall-cluing-off-chop-5s), *5 Stalls* are when a player clues an off chop 5 purely because they want (or need) to give a stall clue.
 - *5 Stalls* are usually performed in the *Early Game*. Less commonly, they can also be performed in the *Mid-Game* if a player happens to be in a special "stalling" situation where they are not allowed to discard.
 - In the *Early Game*, the team can give as many *5 Stalls* as they want before initiating the *Mid-Game*.
 - Regardless of whether they are done in the *Early Game* or the *Mid-Game*, *5 Stalls* are only allowed if there is nothing else "normal" to do (like playing a card, giving a normal *Play Clue*, or giving a normal *Save Clue*).

@@ -243,7 +243,7 @@ import CluingOnes3 from '@site/image-generator/yml/level-11/cluing-ones-3.yml';
 
 #### Example 3
 
-- As explained in the [beginner's guide](beginner.md#other-general-strategy), it is almost always better to give a *Play Clue* instead of a *Save Clue* if a player has a playable card in their hand.
+- As explained in the [beginner's guide](beginner/other-general-strategy.md), it is almost always better to give a *Play Clue* instead of a *Save Clue* if a player has a playable card in their hand.
 - However, building on the theme of having teammates "build" on your clues, sometimes it is better to give a *Save Clue* first and then a *Play Clue* later.
 - For example, in a 3-player game:
   - It is the first turn and nothing is played on the stacks.

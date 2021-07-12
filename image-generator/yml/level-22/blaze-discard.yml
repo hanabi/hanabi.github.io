@@ -19,7 +19,7 @@ players:
       - type: x
       - type: x
       - type: x
-  - text: Bob blind plays slot 2
+  - text: Bob blind-plays slot 2
   - name: Cathy
     cards:
       - type: x
@@ -32,4 +32,4 @@ players:
         above: Green 1
       - type: x
         above: Blue 1
-  - text: Cathy blind plays slot 2
+  - text: Cathy blind-plays slot 2

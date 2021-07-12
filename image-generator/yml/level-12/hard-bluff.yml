@@ -28,7 +28,7 @@ players:
         clue: 4
       - type: x
       - type: x
-  - text: After Bob blind plays red 2...
+  - text: After Bob blind-plays red 2...
   - name: Cathy
     cards:
       - type: x

@@ -21,7 +21,7 @@ players:
       - type: x
       - type: x
       - type: x
-  - text: Bob blind plays slot 2
+  - text: Bob blind-plays slot 2
   - text:
   - name: Cathy
     cards:

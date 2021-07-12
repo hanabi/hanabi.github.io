@@ -4,7 +4,7 @@ title: Level 1 - Fundamentals
 ---
 
 - Level 1 strategies can be learned with no games of Hanabi played. You can either learn them before you play your first game or after you play a few games to learn the basic mechanics.
-- This stuff is mostly a repeat of the [beginner's guide](beginner.md), but we go into a bit more detail here.
+- This stuff is mostly a repeat of the [beginner's guide](beginner/intro.md), but we go into a bit more detail here.
 - If you have not read the beginner's guide yet, **STOP NOW** and read that instead. Only come back here after you have played 5-10 games. (This page is just intended to be used as a reference for players who have already read the beginner's guide.)
 
 <br />
@@ -16,14 +16,22 @@ title: Level 1 - Fundamentals
 ### Chop
 
 - When players have to discard, they typically discard their right-most unclued card.
-- A player's chop is formally defined as **the next unclued card that they would discard if they had nothing to do**.
+- A player's chop is formally defined as **the next unclued card that they would discard if they had nothing else to do**.
 - If a player has a clued card that is known useless, then they will typically discard the useless card **instead** of discarding their chop. (But the useless card does **not** count as the chop - their chop remains the right-most unclued card.)
+
+<br />
+
+### Clue Focus
+
+- There is a 3-step process for determining the focus of the clue:
+
+<img src="/img/flowcharts/clue-focus-flowchart.png" alt="Clue Focus Flowchart" class="flowchart" />
 
 <br />
 
 ### The Definition of Playable
 
-- First, see the section on *[Delayed Play Clues](beginner.md#delayed-play-clues)* from the beginner's guide.
+- First, see the section on *[Delayed Play Clues](beginner/delayed-play-clues.md)* from the beginner's guide.
 - When we say that an unclued card is currently *playable*, we do **not** mean that the card would be able to play on the stacks right this instant. If an unclued card is *playable*, then what we really mean is that it would be legal for someone to give either a *Play Clue* **or** a *Delayed Play Clue* to the card.
 - In other words, if an unclued *playable* card was given a *Delayed Play Clue*, that card would eventually play on the stack without any additional clues needing to be given by anyone else - all the in-between cards, if any, are present and accounted for.
 
@@ -60,7 +68,7 @@ title: Level 1 - Fundamentals
 
 - The *Early Game* is the period of time before someone discards for the first time.
 - Players **must** "extinguish" all of the available *Play Clues* and *Save Clues* on the board before ending the *Early Game*.
-  - As outlined in the [beginner's guide](beginner.md#principle-3---minimum-clue-value-principle-and-tempo-clues), "extinguishing" all the *Play Clues* does **not** include giving *Tempo Clues*. *Tempo Clues* do not meet *Minimum Clue Value Principle*, so in general, they should almost never be given.
+  - As outlined in the [beginner's guide](beginner/minimum-clue-value-principle.md), "extinguishing" all the *Play Clues* does **not** include giving *Tempo Clues*. *Tempo Clues* do not meet *Minimum Clue Value Principle*, so in general, they should almost never be given.
 
 <br />
 
@@ -100,7 +108,7 @@ title: Level 1 - Fundamentals
 
 - A *Prompt* is when you get a player to play a clued card that was previously unknown.
 - If the player **was already going to play** the card, then **it isn't a *Prompt***. *Prompts* can only be on cards that were not going to play otherwise.
-- An example of a *Prompt* can be found in the [beginner's guide](beginner.md#the-prompt).
+- An example of a *Prompt* can be found in the [beginner's guide](beginner/prompt.md).
 - For level 5 players, see the *[Prompts in Multi-Color Variants](level-5.md#prompts-in-multi-color-variants)* section.
 
 <br />
@@ -108,7 +116,7 @@ title: Level 1 - Fundamentals
 ### The Finesse
 
 - A *Finesse* is when you get a player to blind-play a card to fulfill a promise that a certain card is playable right now.
-- An example of a *Finesse* can be found in the [beginner's guide](beginner.md#the-finesse).
+- An example of a *Finesse* can be found in the [beginner's guide](beginner/finesse.md).
 - *Finesses* must be on "connecting" cards. (For example, the red 1 leads directly into the red 2, so they are considered to be a "connecting" pair of cards.)
 - When a player is *Finessed*, they should blind-play their card right away in order to demonstrate it!
 

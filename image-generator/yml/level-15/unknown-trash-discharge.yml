@@ -27,7 +27,7 @@ players:
       - type: x
       - type: x
       - type: x
-  - text: After Bob blind plays blue 2...
+  - text: After Bob blind-plays blue 2...
   - name: Cathy
     cards:
       - type: x
