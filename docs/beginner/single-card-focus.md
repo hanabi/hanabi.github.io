@@ -13,7 +13,7 @@ import ChopFocus from '@site/image-generator/yml/beginner/chop-focus.yml';
 - But all of the *Play Clues* and *Save Clues* that we have seen so far have only "touched" a single card.
 - Obviously, it is also possible to give a clue that touches **two or more** cards.
 - We agree that if a clue touches two or more cards, the clue only delivers a message about **one specific card**. This is referred to as the *focus* of the clue.
-- With every clue, only **one card is focused**. Nothing specific is implied about non-focused cards (beyond that they will be useful at some point later on).
+- With every clue, only **one card is focused**. Nothing specific is implied about non-focused cards (except that they will be useful at some point later on).
 - For example, if Alice gives a *Play Clue* to Bob that touches two cards, then Bob can **only play the focused card**. He has to hold on to the non-focused card for later.
 
 <br />
