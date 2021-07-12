@@ -25,5 +25,5 @@ The length of the guide might be intimidating at first. But, everything written 
 - When multiple cards are touched by a clue, only one card is the *Focus* of the clue.
   - We'll explain later how to determine the *Focus* of a clue.
   - Nothing is promised about the other cards beyond that they will be useful at some point (called the *Good Touch Principle*).
-- We also agree as a team to save all important cards (*Save Principle*).
+- We agree as a team to save all important cards (*Save Principle*).
 - We also agree as a team to get at least one new card with every clue (*Minimum Clue Value Principle*).
