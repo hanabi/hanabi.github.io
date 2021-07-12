@@ -5,7 +5,7 @@ title: The Three Main Principles
 
 import BeginnersGuideProgress from '@site/src/beginnersGuide.js';
 
-<BeginnersGuideProgress part="37" />
+<BeginnersGuideProgress part="38" />
 
 - So far, we have covered:
   - how to discard (i.e. the chop)

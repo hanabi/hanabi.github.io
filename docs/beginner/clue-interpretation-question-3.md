@@ -8,7 +8,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import ClueInterpretationQuestion3 from '@site/image-generator/yml/beginner/clue-interpretation-question-3.yml';
 
-<BeginnersGuideProgress part="35" />
+<BeginnersGuideProgress part="36" />
 
 <!-- lint disable no-undefined-references -->
 

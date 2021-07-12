@@ -5,7 +5,7 @@ title: Other General Strategy
 
 import BeginnersGuideProgress from '@site/src/beginnersGuide.js';
 
-<BeginnersGuideProgress part="53" />
+<BeginnersGuideProgress part="54" />
 
 - In general, players can use the three main principles to guide their actions:
   - *Good Touch Principle*

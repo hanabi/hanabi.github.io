@@ -7,7 +7,7 @@ import BeginnersGuideProgress from '@site/src/beginnersGuide.js';
 import Finesse1 from '@site/image-generator/yml/beginner/finesse-1.yml';
 import Finesse2 from '@site/image-generator/yml/beginner/finesse-2.yml';
 
-<BeginnersGuideProgress part="59" />
+<BeginnersGuideProgress part="60" />
 
 - Normally, players play cards that have been clued by someone else on the team.
 - However, it is also possible to tell a player to blind-play a card without any clues on it at all.

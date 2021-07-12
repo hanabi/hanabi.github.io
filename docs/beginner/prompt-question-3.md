@@ -8,7 +8,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import PromptQuestion3 from '@site/image-generator/yml/beginner/prompt-question-3.yml';
 
-<BeginnersGuideProgress part="58" />
+<BeginnersGuideProgress part="59" />
 
 <!-- lint disable no-undefined-references -->
 
