@@ -1,7 +1,7 @@
 stacks:
   - r: 0
   - y: 0
-  - g: 1
+  - g: 0
   - b: 2
   - p: 1
 players:
