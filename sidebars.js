@@ -11,6 +11,7 @@ module.exports = {
             "beginner/chop-question-1",
             "beginner/chop-question-2",
             "beginner/chop-question-3",
+            "beginner/chop-question-4",
           ],
         },
         "beginner/two-types-of-clues",

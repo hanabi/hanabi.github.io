@@ -25,7 +25,7 @@ import ChopQuestion2 from '@site/image-generator/yml/beginner/chop-question-2.ym
 </TabItem>
 <TabItem value="solution">
 
-- Slot 1 (because slots 2 through 5 have clues on them).
+- Slot 2 (because slots 3 through 5 have clues on them).
 
 </TabItem>
 </Tabs>
