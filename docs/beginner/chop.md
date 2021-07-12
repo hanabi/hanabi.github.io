@@ -7,7 +7,7 @@ import BeginnersGuideProgress from '@site/src/beginnersGuide.js';
 import Chop1 from '@site/image-generator/yml/beginner/chop-1.yml';
 import Chop2 from '@site/image-generator/yml/beginner/chop-2.yml';
 
-<BeginnersGuideProgress part="2" />
+<BeginnersGuideProgress id="chop" />
 
 - In Hanabi, players discard when they have nothing else to do (or when the team is out of clues).
 - The right-most unclued card in a player's hand is called their "chop" card.

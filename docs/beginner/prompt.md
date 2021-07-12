@@ -9,7 +9,7 @@ import Prompt2 from '@site/image-generator/yml/beginner/prompt-2.yml';
 import Prompt3 from '@site/image-generator/yml/beginner/prompt-3.yml';
 import Prompt4 from '@site/image-generator/yml/beginner/prompt-4.yml';
 
-<BeginnersGuideProgress part="56" />
+<BeginnersGuideProgress id="prompt" />
 
 - In the example below:
   - Bob has a clued red card in his hand, but the full identity of the card is still unknown to him. In this situation, he knows he is supposed to just keep the card in his hand and continue to discard unclued cards.

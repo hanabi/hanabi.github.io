@@ -5,7 +5,7 @@ title: Next Steps
 
 import BeginnersGuideProgress from '@site/src/beginnersGuide.js';
 
-<BeginnersGuideProgress part="63" />
+<BeginnersGuideProgress id="next-steps" />
 
 - Congratulations! You made it through the beginner's guide and now you know about the basic way we play:
   1. How to discard: *The Chop*

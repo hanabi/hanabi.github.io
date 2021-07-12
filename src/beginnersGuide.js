@@ -1,11 +1,33 @@
 import React, { useEffect } from "react";
 import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
+import { mainSidebar } from "../sidebars.js";
 
-const TOTAL_PARTS = 62;
+const beginnersGuidePartsRaw = mainSidebar.find(item => item["Beginner's Guide"])["Beginner's Guide"];
+const parts = [];
+parseSidebar(parts, beginnersGuidePartsRaw);
+if (parts[0] === "beginner") {
+  parts.shift();
+}
 
-export default function Progress({ part }) {
-  const percentage = Math.round(((part - 1) / TOTAL_PARTS) * 100);
+function parseSidebar(acc, partsRaw) {
+  for (const item of partsRaw) {
+    if (typeof item === "string") {
+      acc.push(item);
+    } else {
+      parseSidebar(acc, Object.values(item)[0]);
+    }
+  }
+}
+const TOTAL_PARTS = parts.length;
+
+
+export default function Progress({ id }) {
+  const part = parts.findIndex(id2 => `beginner/${id}` === id2);
+  if (part === -1) {
+    throw new Error("page id not found in sidebar");
+  }
+  const percentage = Math.round(((part + 1) / TOTAL_PARTS) * 100);
 
   // Once the component is rendered, stick it underneath the table of contents and make it visible
   useEffect(() => {

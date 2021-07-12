@@ -6,7 +6,7 @@ title: Minimum Clue Value Principle (MCVP)
 import BeginnersGuideProgress from '@site/src/beginnersGuide.js';
 import TempoClue from '@site/image-generator/yml/beginner/tempo-clue.yml';
 
-<BeginnersGuideProgress part="47" />
+<BeginnersGuideProgress id="minimum-clue-value-principle" />
 
 ### No Nonsense Clues
 

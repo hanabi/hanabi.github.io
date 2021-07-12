@@ -8,7 +8,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import DelayedPlayCluesQuestion3 from '@site/image-generator/yml/beginner/delayed-play-clues-question-3.yml';
 
-<BeginnersGuideProgress part="13" />
+<BeginnersGuideProgress id="delayed-play-clues-question-3" />
 
 <!-- lint disable no-undefined-references -->
 

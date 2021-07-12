@@ -8,7 +8,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import GoodTouchPrincipleQuestion2 from '@site/image-generator/yml/beginner/good-touch-principle-question-2.yml';
 
-<BeginnersGuideProgress part="39" />
+<BeginnersGuideProgress id="good-touch-principle-question-2" />
 
 <!-- lint disable no-undefined-references -->
 

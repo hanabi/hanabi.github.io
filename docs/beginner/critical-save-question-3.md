@@ -8,7 +8,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import CriticalSaveQuestion3 from '@site/image-generator/yml/beginner/critical-save-question-3.yml';
 
-<BeginnersGuideProgress part="25" />
+<BeginnersGuideProgress id="critical-save-question-3" />
 
 <!-- lint disable no-undefined-references -->
 

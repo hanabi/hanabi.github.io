@@ -5,7 +5,7 @@ title: Special Moves
 
 import BeginnersGuideProgress from '@site/src/beginnersGuide.js';
 
-<BeginnersGuideProgress part="55" />
+<BeginnersGuideProgress id="special-moves" />
 
 - Hanabi is a game of trying to be as efficient as possible, since there is a limited number of clues.
 - Thus, it is ideal to get **two** or more cards to play from **one** clue.

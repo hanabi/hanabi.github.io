@@ -7,7 +7,7 @@ import BeginnersGuideProgress from '@site/src/beginnersGuide.js';
 import CardLayout1 from '@site/image-generator/yml/beginner/card-layout-1.yml';
 import CardLayout2 from '@site/image-generator/yml/beginner/card-layout-2.yml';
 
-<BeginnersGuideProgress part="1" />
+<BeginnersGuideProgress id="card-layout" />
 
 In this guide, there will be some images to show off the concepts introduced.
 

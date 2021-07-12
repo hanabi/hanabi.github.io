@@ -7,7 +7,7 @@ import BeginnersGuideProgress from '@site/src/beginnersGuide.js';
 import PlayClue1 from '@site/image-generator/yml/beginner/play-clue-1.yml';
 import PlayClue2 from '@site/image-generator/yml/beginner/play-clue-2.yml';
 
-<BeginnersGuideProgress part="7" />
+<BeginnersGuideProgress id="play-clues" />
 
 - The first type of clue is called a *Play Clue*.
 - The goal of Hanabi is to get all of the cards played on the stacks. Thus, we give *Play Clues* to each other to communicate that specific cards are playable.

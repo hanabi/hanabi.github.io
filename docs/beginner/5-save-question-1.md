@@ -8,7 +8,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import FiveSaveQuestion1 from '@site/image-generator/yml/beginner/5-save-question-1.yml';
 
-<BeginnersGuideProgress part="16" />
+<BeginnersGuideProgress id="5-save-question-1" />
 
 <!-- lint disable no-undefined-references -->
 
