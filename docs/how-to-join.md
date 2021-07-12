@@ -3,7 +3,7 @@ id: how-to-join
 title: How to Join Games
 ---
 
-Once you have read the [beginner's guide](beginner/intro.md), you can join a game with the *Hyphen-ated Group*.
+Once you have read the [beginner's guide](beginner), you can join a game with the *Hyphen-ated Group*.
 
 The group is comprised of around 100 people, some of whom play regularly, and some of whom play rarely, with a good mix of beginners, intermediate players, and experts. But not to worry - the intermediate and expert players are usually willing to do "beginner-level" games with all of the advanced stuff "turned off".
 
