@@ -3,10 +3,6 @@ id: level-7
 title: Level 7 - End-Game
 ---
 
-- Level 7 strategies should only be learned if you have 100+ games of experience with the group.
-
-<br />
-
 ## Conventions
 
 <br />

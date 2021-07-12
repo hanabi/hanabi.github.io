@@ -16,7 +16,10 @@ import ColorConnectRainbow from '@site/image-generator/yml/level-10/color-connec
 import ColorConnectRainbowFinesseImpossible from '@site/image-generator/yml/level-10/color-connect-rainbow-finesse-impossible.yml';
 import BluffPromptsPromptBluffs from '@site/image-generator/yml/level-10/bluff-prompts-prompt-bluffs.yml';
 
-- Level 10 strategies should only be learned if you have 160+ games of experience with the group.
+- This level introduces *Bluffs*, a way to tell a fib to the next player to cause them to blind-play.
+- *Bluffs* are one of the most fun parts of the Hyphen-ated conventions, because they enable players to get a lot more blind-plays than previously possible.
+- However, because this is the first time players do not always tell the truth to each other, this level takes a while to get used to.
+- We recommend you feel totally comfortable with the preceding levels before starting this one (perhaps 50-100 games of experience).
 
 <br />
 

@@ -6,10 +6,6 @@ title: Level 21 - Emergency Discards
 import CompositionDiscard from '@site/image-generator/yml/level-21/composition-discard.yml';
 import RebelliousDiscard from '@site/image-generator/yml/level-21/rebellious-discard.yml';
 
-- Level 21 strategies should only be learned if you have 380+ games of experience with the group.
-
-<br />
-
 ## Special Moves
 
 <br />

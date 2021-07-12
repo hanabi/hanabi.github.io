@@ -10,10 +10,6 @@ import DoubleHalfBluff from '@site/image-generator/yml/level-14/double-half-bluf
 import Hard4DoubleBluff from '@site/image-generator/yml/level-14/hard-4-double-bluff.yml';
 import Hard5DoubleBluff from '@site/image-generator/yml/level-14/hard-5-double-bluff.yml';
 
-- Level 14 strategies should only be learned if you have 240+ games of experience with the group.
-
-<br />
-
 ## Special Moves
 
 <br />

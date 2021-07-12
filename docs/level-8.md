@@ -5,10 +5,6 @@ title: Level 8 - Stalling
 
 import FiveStall from '@site/image-generator/yml/level-8/five-stall.yml';
 
-- Level 8 strategies should only be learned if you have 120+ games of experience with the group.
-
-<br />
-
 ## Conventions
 
 <br />

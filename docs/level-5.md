@@ -12,10 +12,6 @@ import ClandestineFinesse from '@site/image-generator/yml/level-5/clandestine-fi
 import AmbiguousFinesse from '@site/image-generator/yml/level-5/ambiguous-finesse.yml';
 import UrgencyPrinciple from '@site/image-generator/yml/level-5/urgency-principle.yml';
 
-- Level 5 strategies should only be learned if you have 60+ games of experience with the group.
-
-<br />
-
 ## Special Moves
 
 <br />

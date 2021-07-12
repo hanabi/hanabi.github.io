@@ -11,10 +11,6 @@ import CertainFinesseDiscard from '@site/image-generator/yml/level-9/certain-fin
 import CompositionFinesse from '@site/image-generator/yml/level-9/composition-finesse.yml';
 import DoubleGentlemanDiscard from '@site/image-generator/yml/level-9/double-gentleman-discard.yml';
 
-- Level 9 strategies should only be learned if you have 140+ games of experience with the group.
-
-<br />
-
 ## Special Moves
 
 <br />

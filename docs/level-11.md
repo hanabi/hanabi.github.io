@@ -17,10 +17,6 @@ import CluingOnes1 from '@site/image-generator/yml/level-11/cluing-ones-1.yml';
 import CluingOnes2 from '@site/image-generator/yml/level-11/cluing-ones-2.yml';
 import CluingOnes3 from '@site/image-generator/yml/level-11/cluing-ones-3.yml';
 
-- Level 11 strategies should only be learned if you have 180+ games of experience with the group.
-
-<br />
-
 ## Conventions
 
 <br />

@@ -11,7 +11,7 @@ import ReverseFinesse from '@site/image-generator/yml/level-2/reverse-finesse.ym
 import SelfFinesse from '@site/image-generator/yml/level-2/self-finesse.yml';
 import WrongPrompt from '@site/image-generator/yml/level-2/wrong-prompt.yml';
 
-- Level 2 strategies should only be learned if you have played with the group a few times and have got the basics down (5-10 games of experience).
+- Level 2 strategies can be learned after a few games of experience.
 
 <br />
 
