@@ -20,7 +20,7 @@ import CriticalSaveQuestion3 from '@site/image-generator/yml/beginner/critical-s
   ]}>
 <TabItem value="question">
 
-- Alice clues yellow 3 to Bob, touching a card on slot 4.
+- Alice clues yellow to Bob, touching a card on slot 4.
 - Is this a *Play Clue* or a *Save Clue*?
 - What identity does Bob write on the card? (Be specific.)
 
