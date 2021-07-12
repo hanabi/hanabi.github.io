@@ -27,7 +27,7 @@ import SavePrincipleQuestion1 from '@site/image-generator/yml/beginner/save-prin
 <TabItem value="solution">
 
 - No. If Bob plays the blue 1 and Cathy discards the green 4, then the maximum score would be decreased.
-- As long as there is a chance that Cathy will discard, Bob **must** save the green 4 right now before paying any playable cards.
+- As long as there is a chance that Cathy will discard, Bob **must** save the green 4 right now before playing any playable cards.
 
 </TabItem>
 </Tabs>
