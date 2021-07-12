@@ -27,6 +27,8 @@ title: Intro
 
 In this guide, you'll learn the following strategies:
 
+<!-- lint disable list-item-content-indent -->
+
 1. *The Chop* - Discard the oldest unclued card.
 1. Two types of clues:
     - *Play Clues* promise that a card can be played.
@@ -36,6 +38,8 @@ In this guide, you'll learn the following strategies:
 1. *Save Principle* - We save all important cards.
 1. *Minimum Clue Value Principle* - Get at least one new card with every clue.
 1. *Prompts* & *Finesses* - Special moves to "get" cards efficiently.
+
+<!-- lint enable list-item-content-indent -->
 
 <br />
 
