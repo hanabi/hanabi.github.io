@@ -16,9 +16,9 @@ import ColorConnectRainbow from '@site/image-generator/yml/level-10/color-connec
 import ColorConnectRainbowFinesseImpossible from '@site/image-generator/yml/level-10/color-connect-rainbow-finesse-impossible.yml';
 import BluffPromptsPromptBluffs from '@site/image-generator/yml/level-10/bluff-prompts-prompt-bluffs.yml';
 
-- This level introduces *Bluffs*, a way to tell a fib to the next player to cause them to blind-play.
-- *Bluffs* are one of the most fun parts of the Hyphen-ated conventions, because they enable players to get a lot more blind-plays than previously possible.
-- However, because this is the first time players do not always tell the truth to each other, this level takes a while to get used to.
+- This level introduces *Bluffs*, a way to tell a *Fib* to the next player to cause them to blind-play.
+- *Bluffs* can be very fun, since they allow for a lot more blind-plays than previously possible.
+- However, the fact that players are no longer always telling the truth to each other causes this level to be much more complicated and difficult to integrate than any of the previous levels.
 - We recommend you feel totally comfortable with the preceding levels before starting this one (perhaps 50-100 games of experience).
 
 <br />
