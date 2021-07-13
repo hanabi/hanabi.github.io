@@ -19,7 +19,7 @@ import BluffPromptsPromptBluffs from '@site/image-generator/yml/level-10/bluff-p
 - This level introduces *Bluffs*, a way to tell a *Fib* to the next player to cause them to blind-play.
 - *Bluffs* can be very fun, since they allow for a lot more blind-plays than previously possible.
 - However, the fact that players are no longer always telling the truth to each other causes this level to be much more complicated and difficult to integrate than any of the previous levels.
-- We recommend you feel totally comfortable with the preceding levels before starting this one (perhaps 50-100 games of experience).
+- Make sure that you are totally comfortable with the earlier levels before attempting to add *Bluffs* to the mix. (We recommend at least 100-200 games of experience.)
 
 <br />
 
