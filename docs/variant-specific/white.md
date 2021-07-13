@@ -9,10 +9,9 @@ These conventions apply to any variant with a white suit (i.e. touched by no col
 
 ### The Loaded Play Clue Assumption
 
-- Players are not allowed to give *Early Saves* on white cards.
-- Thus, if a player is *Loaded*, and a *Chop-Focused* card could be a playable white card, then they will assume it is a *Loaded Play Clue*.
+- Since it can be hard to get white cards on chop to play, we agree to turn on *Loaded Play Clues* for white cards.
+- Furthermore, players are not allowed to *Early Save* any card with a rank clue when the white card of that rank is playable. This is because the player who receives the clue will assume that it is a *Loaded Play Clue* on a white card and will play it. This is called the *Loaded Play Play Clue Assumption*.
 - Note that *Loaded Play Clues* of this form can be **on cards that are not white**, because the player who receives the clue will not be able to tell the difference.
-- The consequence of the *Loaded Play Clue Assumption* is that, in variants with a white suit, players are not allowed to give *Early Saves* with rank clues when the white card of that rank is playable.
 - Normally, *Loaded Play Clues* are "turned off" in the *Early Game*. However, note that the *Loaded Play Clue Assumption* still applies in the *Early Game*.
 - For example, in a 3-player game:
   - White 2 and red 2 are played on the stacks. Blue 3 is in the trash.
@@ -26,7 +25,7 @@ These conventions apply to any variant with a white suit (i.e. touched by no col
 
 ### The Loaded White Finesse
 
-- Because of the *Loaded Play Clue Assumption*, it is also possible to perform *Finesses*.
+- Because of the *Loaded Play Clue Assumption*, it is also possible to perform a *Finesse* (or a *Bluff*) by giving a *Loaded Play Clue* to a white card.
 - For example, in a 3-player game:
   - Nothing is played on the stacks.
   - Cathy has a globally-known playable red 1 in her hand.
