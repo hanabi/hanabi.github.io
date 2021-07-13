@@ -1,9 +1,11 @@
 import React, { useEffect } from "react";
 import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
-import { mainSidebar } from "../sidebars.js";
+import { mainSidebar } from "../sidebars";
 
-const beginnersGuidePartsRaw = mainSidebar.find(item => item["Beginner's Guide"])["Beginner's Guide"];
+const beginnersGuidePartsRaw = mainSidebar.find(
+  (item) => item["Beginner's Guide"]
+)["Beginner's Guide"];
 const parts = [];
 parseSidebar(parts, beginnersGuidePartsRaw);
 if (parts[0] === "beginner") {
@@ -21,9 +23,8 @@ function parseSidebar(acc, partsRaw) {
 }
 const TOTAL_PARTS = parts.length;
 
-
 export default function Progress({ id }) {
-  const part = parts.findIndex(id2 => `beginner/${id}` === id2);
+  const part = parts.findIndex((id2) => `beginner/${id}` === id2);
   if (part === -1) {
     throw new Error("page id not found in sidebar");
   }
