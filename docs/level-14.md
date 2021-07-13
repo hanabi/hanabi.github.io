@@ -83,7 +83,7 @@ import Hard5DoubleBluff from '@site/image-generator/yml/level-14/hard-5-double-b
     - At first, Donald thought that the red card in his hand was red 1 (as a *Play Clue*).
     - After Bob blind-played, Donald thought that the red card in his hand was either a red 2 (as a *Bluff*) or a red 3 (as a *3 Bluff*).
     - After Cathy blind-played, Donald now knows that the red card in his hand is a red 4 (as a *4's Double Bluff*).
-    - (Donald knows that it cannot be a red 5, or else Bob would have blind-played his *Second Finesse Position*.)
+    - (Donald knows that it cannot be a red 5, or else Bob would have blind-played his *Second Finesse Position* due to *5 Color Ejection*.)
 
 <DoubleBluffThreeAway />
 
