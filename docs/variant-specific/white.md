@@ -10,7 +10,7 @@ These conventions apply to any variant with a white suit (i.e. touched by no col
 ### The Loaded Play Clue Assumption
 
 - Since it can be hard to get white cards on chop to play, we agree to turn on *Loaded Play Clues* for white cards.
-- Furthermore, players are not allowed to *Early Save* any card with a rank clue when the white card of that rank is playable. This is because the player who receives the clue will assume that it is a *Loaded Play Clue* on a white card and will play it. This is called the *Loaded Play Play Clue Assumption*.
+- Furthermore, players are not allowed to *Early Save* any card with a rank clue when the white card of that rank is playable. This is because the player who receives the clue will assume that it is a *Loaded Play Clue* on a white card and will play it. This is called the *Loaded Play Clue Assumption*.
 - Note that *Loaded Play Clues* of this form can be **on cards that are not white**, because the player who receives the clue will not be able to tell the difference.
 - Normally, *Loaded Play Clues* are "turned off" in the *Early Game*. However, note that the *Loaded Play Clue Assumption* still applies in the *Early Game*.
 - For example, in a 3-player game:
