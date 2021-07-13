@@ -12,10 +12,6 @@ import ChopMoveNew from '@site/image-generator/yml/level-4/chop-move-new.yml';
 import ChopMoveNewException from '@site/image-generator/yml/level-4/chop-move-new-exception.yml';
 import ChopMovePrompt from '@site/image-generator/yml/level-4/chop-move-prompt.yml';
 
-- Level 4 strategies should only be learned if you have played with the group for a week or so (40+ games of experience).
-
-<br />
-
 ## Conventions
 
 <br />

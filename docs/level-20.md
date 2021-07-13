@@ -3,10 +3,6 @@ id: level-20
 title: Level 20 - Ignition
 ---
 
-- Level 20 strategies should only be learned if you have 360+ games of experience with the group.
-
-<br />
-
 ## Conventions
 
 <br />

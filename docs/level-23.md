@@ -8,10 +8,6 @@ import UnnecessaryTrashFinesseChopMove from '@site/image-generator/yml/level-23/
 import UnnecessaryTrashFinesseTrashPush from '@site/image-generator/yml/level-23/unnecessary-trash-finesse-trash-push.yml';
 import UnnecessaryBadChopMoveEjection from '@site/image-generator/yml/level-23/unnecessary-bad-chop-move-ejection.yml';
 
-- Level 23 strategies should only be learned if you have 420+ games of experience with the group.
-
-<br />
-
 ## Unnecessary Moves
 
 - Experienced players will know about all sorts of tricky ways to "get" cards - the *Trash Bluff*, the *Trash Finesse*, the *Unknown Trash Discharge*, the *Trash Push*, and so forth.

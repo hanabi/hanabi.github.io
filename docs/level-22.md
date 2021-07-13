@@ -8,10 +8,6 @@ import BlazeDiscard from '@site/image-generator/yml/level-22/blaze-discard.yml';
 import BlazeDiscard2 from '@site/image-generator/yml/level-22/blaze-discard-2.yml';
 import HesitationBlindPlay from '@site/image-generator/yml/level-22/hesitation-blind-play.yml';
 
-- Level 22 strategies should only be learned if you have 400+ games of experience with the group.
-
-<br />
-
 ## Conventions
 
 <br />

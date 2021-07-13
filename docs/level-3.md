@@ -13,7 +13,10 @@ import FixClue4 from '@site/image-generator/yml/level-3/fix-clue-4.yml';
 import SarcasticDiscard from '@site/image-generator/yml/level-3/sarcastic-discard.yml';
 import InformationLock from '@site/image-generator/yml/level-3/information-lock.yml';
 
-- Level 3 strategies should only be learned if you have played with the group for a few days (20+ games of experience).
+- From here on out, you can move to the next level once you feel comfortable with the previous one.
+- For levels 3-9, a good rule of thumb is 10-15 games of practice per level.
+- For later levels, a good rule of thumb is 15-20 games of practice per level.
+- Don't rush moving to the next level! If you haven't mastered what you already know, it can be frustrating for your teammates.
 
 <br />
 

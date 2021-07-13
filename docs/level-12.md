@@ -12,10 +12,6 @@ import Critical4Bluff from '@site/image-generator/yml/level-12/critical-4-bluff.
 import FinessePromptNotHardBluff from '@site/image-generator/yml/level-12/finesse-prompt-not-hard-bluff.yml';
 import HardBluff from '@site/image-generator/yml/level-12/hard-bluff.yml';
 
-- Level 12 strategies should only be learned if you have 200+ games of experience with the group.
-
-<br />
-
 ## Special Moves
 
 <br />

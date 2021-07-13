@@ -11,10 +11,6 @@ import TheFivePullPromise from '@site/image-generator/yml/level-17/the-five-pull
 import FiveNumberDischarge from '@site/image-generator/yml/level-17/five-number-discharge.yml';
 import InteractionsBetween2SavesAnd5Stalls from '@site/image-generator/yml/level-17/interaction-between-2-saves-and-5-stalls.yml';
 
-- Level 17 strategies should only be learned if you have 300+ games of experience with the group.
-
-<br />
-
 ## Conventions
 
 <br />

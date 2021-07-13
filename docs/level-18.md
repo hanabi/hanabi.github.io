@@ -10,7 +10,9 @@ import LoadClue from '@site/image-generator/yml/level-18/load-clue.yml';
 import PriorityFinesseSpecial from '@site/image-generator/yml/level-18/priority-finesse-special.yml';
 import TrustFinesse from '@site/image-generator/yml/level-18/trust-finesse.yml';
 
-- Level 18 strategies should only be learned if you have 320+ games of experience with the group.
+- This level introduces *Priority*, which requires players to pay attention to the order that cards are played in.
+- This can take a while to internalize, because signals from *Priority* are easy to miss.
+- Make sure that you are totally comfortable with the earlier levels before attempting to add *Priority* to the mix. (We recommend at least 250-300 games of experience.)
 
 <br />
 

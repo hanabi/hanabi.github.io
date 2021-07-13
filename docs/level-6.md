@@ -9,10 +9,6 @@ import TempoClueChopMovePart2 from '@site/image-generator/yml/level-6/tempo-clue
 import TempoClueChopMovePart3 from '@site/image-generator/yml/level-6/tempo-clue-chop-move-part-3.yml';
 import DiscardModulation from '@site/image-generator/yml/level-6/discard-modulation.yml';
 
-- Level 6 strategies should only be learned if you have 80+ games of experience with the group.
-
-<br />
-
 ## Special Moves
 
 <br />

@@ -9,10 +9,6 @@ import TrashFinesseTwoCards from '@site/image-generator/yml/level-13/trash-fines
 import ReverseTrashFinesse from '@site/image-generator/yml/level-13/reverse-trash-finesse.yml';
 import TrashPush from '@site/image-generator/yml/level-13/trash-push.yml';
 
-- Level 13 strategies should only be learned if you have 220+ games of experience with the group.
-
-<br />
-
 ## Special Moves
 
 <br />

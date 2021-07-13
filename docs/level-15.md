@@ -9,10 +9,6 @@ import IllegalTrashBluff from '@site/image-generator/yml/level-15/illegal-trash-
 import UnknownTrashDischargeTwoForOne from '@site/image-generator/yml/level-15/unknown-trash-discharge-two-for-one.yml';
 import UnknownTrashDischarge from '@site/image-generator/yml/level-15/unknown-trash-discharge.yml';
 
-- Level 15 strategies should only be learned if you have 260+ games of experience with the group.
-
-<br />
-
 ## Conventions
 
 <br />

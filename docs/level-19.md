@@ -13,8 +13,6 @@ import PestilentDoubleBluff from '@site/image-generator/yml/level-19/pestilent-d
 import NoInformationDoubleFinesse from '@site/image-generator/yml/level-19/no-information-double-finesse.yml';
 import NoInformationDoubleBluff from '@site/image-generator/yml/level-19/no-information-double-bluff.yml';
 
-- Level 19 strategies should only be learned if you have 340+ games of experience with the group.
-
 <br />
 
 ## Special Moves

@@ -12,10 +12,6 @@ import EliminationFinesse from '@site/image-generator/yml/level-16/elimination-f
 import EliminationFinesse2 from '@site/image-generator/yml/level-16/elimination-finesse-2.yml';
 import TrashTouchElimination from '@site/image-generator/yml/level-16/trash-touch-elimination.yml';
 
-- Level 16 strategies should only be learned if you have 280+ games of experience with the group.
-
-<br />
-
 ## Conventions
 
 <br />
