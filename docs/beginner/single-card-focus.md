@@ -18,12 +18,12 @@ import ChopFocus from '@site/image-generator/yml/beginner/chop-focus.yml';
 
 <br />
 
-### Determining the Focus
+### Determining the Focus: 3 Steps
 
+- Cards that were not previously clued are referred to as "brand new card introduced."
 - So, when two or more cards are touched by a clue, which card is focused?
-- The focus is always on the card that **did not have any clues on it already**. (We refer to this as the "brand new card introduced".)
-- If there are multiple "new" cards, then:
-  - If the chop card is a "new" card, then the **focus is on the chop**.
+  - If only one card is "new," the **focus is on the "new" card**.
+  - If the chop card is "new," the **focus is on the chop**.
   - Otherwise, the **focus is on the left-most card**.
 
 <br />
