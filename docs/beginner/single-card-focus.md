@@ -20,7 +20,7 @@ import ChopFocus from '@site/image-generator/yml/beginner/chop-focus.yml';
 
 ### Determining the Focus: 3 Steps
 
-- Cards that were not previously clued are referred to as "brand new card introduced."
+- Clued cards that were **not** previously clued are referred to as "brand new card introduced."
 - So, when two or more cards are touched by a clue, which card is focused?
   - If only one card is "new," the **focus is on the "new" card**.
   - If the chop card is "new," the **focus is on the chop**.
