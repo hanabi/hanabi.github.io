@@ -1,0 +1,39 @@
+---
+id: other-general-strategy-question-4
+title: Other General Strategy (Question 4)
+---
+
+import BeginnersGuideProgress from '@site/src/beginnersGuide.js';
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import OtherGeneralStrategyQuestion4 from '@site/image-generator/yml/beginner/other-general-strategy-question-4.yml';
+
+<BeginnersGuideProgress id="other-general-strategy-question-4" />
+
+<!-- lint disable no-undefined-references -->
+
+<Tabs
+  defaultValue="question"
+  values={[
+    {label: 'Question', value: 'question'},
+    {label: 'Solution', value: 'solution'},
+  ]}>
+<TabItem value="question">
+
+- Enumerate all of the legal clues that Alice can give.
+- Of these possibilities, what clue should Alice give?
+
+</TabItem>
+<TabItem value="solution">
+
+- Alice can clue blue to Bob as a *Play Clue* on the blue 2.
+  - If she did that, Bob would write a *card note* of "blue 2".
+- Alice can clue number 2 to Bob as a *Play Clue* on the blue 2.
+  - If she did that, Bob would write a *card note* of "yellow 2, blue 2, purple 2".
+- By default, Alice knows that color clues should be preferred over number clues. Specifically, in this situation, Alice knows that a blue clue will communicate the exact identity of the card, while a number clue would communicate three different possibilities.
+- Thus, Alice should give a blue clue to Bob.
+
+</TabItem>
+</Tabs>
+
+<OtherGeneralStrategyQuestion4 />

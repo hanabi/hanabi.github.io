@@ -90,7 +90,16 @@ module.exports = {
             "beginner/early-game-question-4",
           ],
         },
-        "beginner/other-general-strategy",
+        {
+          "General Strategy": [
+            "beginner/other-general-strategy",
+            "beginner/other-general-strategy-question-1",
+            "beginner/other-general-strategy-question-2",
+            "beginner/other-general-strategy-question-3",
+            "beginner/other-general-strategy-question-4",
+            "beginner/other-general-strategy-question-5",
+          ],
+        },
         {
           "Special Moves": [
             "beginner/special-moves",

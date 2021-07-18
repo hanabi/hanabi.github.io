@@ -1,0 +1,37 @@
+---
+id: other-general-strategy-question-1
+title: Other General Strategy (Question 1)
+---
+
+import BeginnersGuideProgress from '@site/src/beginnersGuide.js';
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import OtherGeneralStrategyQuestion1 from '@site/image-generator/yml/beginner/other-general-strategy-question-1.yml';
+
+<BeginnersGuideProgress id="other-general-strategy-question-1" />
+
+<!-- lint disable no-undefined-references -->
+
+<Tabs
+  defaultValue="question"
+  values={[
+    {label: 'Question', value: 'question'},
+    {label: 'Solution', value: 'solution'},
+  ]}>
+<TabItem value="question">
+
+- It is Alice's turn and she has a yellow 2 to play.
+- Cathy has a critical blue 5 on chop.
+- Should Alice play the yellow 2 or save Cathy's blue 5?
+
+</TabItem>
+<TabItem value="solution">
+
+- Alice has a playable card and Bob doesn't have anything to do.
+- Thus, it would be bad teamwork for Alice to save Cathy's blue 5.
+- Alice should play the yellow 2 and let Bob handle saving Cathy's blue 5.
+
+</TabItem>
+</Tabs>
+
+<OtherGeneralStrategyQuestion1 />
