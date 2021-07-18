@@ -26,8 +26,8 @@ When you play Hanabi, you will need to write *card notes*. This page explains wh
 
 ## Players Need to Track Implicit Information
 
-- On [Hanab Live](https://hanab.live/), the interface automatically will keep track of the clues that touch the cards for you.
-- However, this automated tracking of *explicit* information is not sufficient - there is so much more *implicit* information than *explicit* information.
+- On [Hanab Live](https://hanab.live/), the interface automatically will keep track of clues that touch cards. And the interface will automatically narrow down the identities of the cards as they "get" more clues.
+- However, this automated tracking of *explicit* information is not sufficient - there is much more *implicit* information than *explicit* information.
 - In Hanabi games where players only give basic *Play Clues* to each other (like in the previous example), remembering all of the *implicit* information about the cards is easy. But as games get more and more complicated, remembering *implicit* information about every card in the game is impossible.
 - Thus, in order to play Hanabi properly, players **must** go above and beyond the automated *explicit* tracking and record all of the implicit information themselves.
 
