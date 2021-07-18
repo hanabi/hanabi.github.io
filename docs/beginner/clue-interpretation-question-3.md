@@ -20,12 +20,12 @@ import ClueInterpretationQuestion3 from '@site/image-generator/yml/beginner/clue
   ]}>
 <TabItem value="question">
 
-- Bob has a clued 2 and a clued 5 in this hand.
+- Bob has a clued 2 and a clued 5 in his hand.
 - Alice clues red to Bob, touching slot 2, slot 3, slot 4, and slot 5.
 
 1. What slot is focused?
 1. Is this a *Play Clue* or a *Save Clue*?
-1. What identity does Bob write on the focused card?
+1. What *card note* does Bob write on the focused card?
 
 </TabItem>
 <TabItem value="solution">
@@ -35,7 +35,7 @@ import ClueInterpretationQuestion3 from '@site/image-generator/yml/beginner/clue
     - If it is a red 3, then this would be a *Chop-Focus Delayed Play Clue* through his own red 2. That is legal.
     - If it is a red 4, then it wouldn't make any sense, because red 4 is neither playable nor critical. (All clues must either be *Play Clues* or *Save Clues*.)
     - Thus, it must be a *Chop-Focus Delayed Play Clue* on the red 3.
-1. Bob writes "red 3" on slot 3.
+1. Bob writes a *card note* of "red 3" on his slot 3 card.
 
 </TabItem>
 </Tabs>

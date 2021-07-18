@@ -31,9 +31,9 @@ import SavePrincipleQuestion2 from '@site/image-generator/yml/beginner/save-prin
   - If Alice did clue yellow, then it would look like a *Play Clue* on a yellow card and Bob would try to play it as the yellow 1.
 - If Alice clues number 2, then it would be a *2 Save* on the yellow 2, but it would also duplicate the red 2 (which is already played on the stacks).
 - Thus, Alice should clue number 2 to Bob as a *2 Save* (because it is more important to save cards than it is to violate *Good Touch Principle*).
-- That clue would be focused on slot 5. Bob will write the following identities on the card:
-  - green 2 or blue 2 (as a *Play Clue*)
-  - yellow 2 or purple 2 (as a *2 Save*)
+- That clue would be focused on slot 5. Bob will write a *card note* with the following identities:
+  - green 2, blue 2 (as a *Play Clue*)
+  - yellow 2, purple 2 (as a *2 Save*)
 
 </TabItem>
 </Tabs>

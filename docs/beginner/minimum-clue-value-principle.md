@@ -12,8 +12,8 @@ import TempoClue from '@site/image-generator/yml/beginner/tempo-clue.yml';
 
 - Usually, players only discard when they have nothing else to do. But don't take this the wrong way.
 - Players are **not allowed** to just clue any card:
-  - Players are only allowed to give *Play Clues* to actual playable cards.
-  - Players are only allowed to give *Save Clues* to the specific cards outlined in the *Save Principle* section.
+  - Players are **only allowed** to give *Play Clues* to actual playable cards.
+  - Players are **only allowed** to give *Save Clues* to the specific cards outlined in the *Save Principle* section.
 - If players cannot give a legal *Play Clue* or *Save Clue*, then they **must discard**.
 
 <br />
@@ -25,8 +25,8 @@ import TempoClue from '@site/image-generator/yml/beginner/tempo-clue.yml';
 - *Tempo Clues* are quite inefficient - the team is using two clues to get one card. Since *Tempo Clues* are so bad, we say that players are **only allowed to perform *Tempo Clues* in special situations**, like when a player is forced to give a clue.
 - For example, in a 3-player game:
   - Alice is in a special situation where she cannot discard.
-  - Bob has a 2 in his hand that was saved with a *2 Save* clue earlier on in the game. He does not know what color it is, but assumes that it is either a red 2 or a blue 2.
-  - Alice clues red to Bob, "filling in" the red 2. This is a *Tempo Clue* because there are no new cards. (Since this is so inefficient, Alice would never do this unless she was in a special stalling situation.)
+  - Bob has a 2 in his hand that was saved with a *2 Save* clue earlier on in the game. He does not know what color it is, but assumes that it is either a red 2 (which is playable) or a blue 2 (which is not playable).
+  - Alice clues red to Bob, "filling in" the red 2. This is a *Tempo Clue* because there are no new cards introduced. (Since this is so inefficient, Alice would never do this unless she was in a special stalling situation.)
   - Bob can now play the red 2.
 
 <TempoClue />

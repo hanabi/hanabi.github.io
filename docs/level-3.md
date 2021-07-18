@@ -51,7 +51,7 @@ import InformationLock from '@site/image-generator/yml/level-3/information-lock.
 - Thus, freshly drawn 1's should always be played before any 1's that were present in the starting hand.
 - Continuing on from the example in the previous section, imagine that:
   - Bob plays his slot 4 card. It is a red 1 and it successfully plays. (He then draws a card, and all of the other cards in his hand slide over.)
-  - Alice clues 1's to Bob, which touches a brand new card on slot 1 and re-touches the ones on slot 3 and slot 4.
+  - Alice clues 1's to Bob, which touches a new card on slot 1 and re-touches the ones on slot 3 and slot 4.
   - Bob knows that fresh 1's have precedence, so he plays the slot 1 card next.
   - After that, Bob resumes the play order from before, playing the slot 4 card, and then the slot 3 card.
 
@@ -96,7 +96,7 @@ import InformationLock from '@site/image-generator/yml/level-3/information-lock.
   - Before the clue was given, Bob has an unknown 1 in his hand.
   - Alice knows that from *Good Touch Principle*, Bob will conclude that his 1 is a green 1, and he will likely play it on his next turn.
   - Alice clues blue to Bob, which "fills in" the 1 and reveals that it is blue 1. The blue clue also touches a blue card on slot 1.
-  - In this situation, Bob might be tempted to think that this is a *Play Clue* on a blue 2 in slot 1, especially considering that the slot 1 card was the only brand new card introduced in the clue. (And the focus of a clue should always be on the brand new card introduced.)
+  - In this situation, Bob might be tempted to think that this is a *Play Clue* on a blue 2 in slot 1, especially considering that the slot 1 card was the only new card introduced in the clue. (And the focus of a clue should always be on the new card introduced.)
   - However, the fact that the blue clue "fixed" an impending misplay means that Alice may have had no choice but to clue blue, and she may not necessarily be trying to give a *Play Clue*.
   - Bob marks the blue card on slot 1 as either blue 2, blue 3, blue 4, or blue 5. He then discards the blue 1.
 

@@ -21,7 +21,7 @@ import GoodTouchPrincipleQuestion2 from '@site/image-generator/yml/beginner/good
 <TabItem value="question">
 
 - What action should Alice perform?
-- If Alice should give a clue, what identity will be written on the focused card? (Be specific.)
+- If Alice should give a clue, what *card note* will be written on the focused card? (Be specific.)
 
 </TabItem>
 <TabItem value="solution">
@@ -30,7 +30,7 @@ import GoodTouchPrincipleQuestion2 from '@site/image-generator/yml/beginner/good
 - If Alice clues red, then it would focus the red 2, but the red 4 would be duplicated (because it is already clued in Cathy's hand).
 - If Alice clues number 2, then it would only touch the red 2.
 - Thus, Alice should clue number 2 to Bob.
-- Bob will write the following identities on the card:
+- Bob will write a *card note* with the following identities:
   - red 2 (as a *Play Clue*)
   - yellow 2 (as a *2 Save*)
 - (Bob knows that it cannot be a *2 Save* on a green 2 because that card is present in Cathy's hand and it is not on chop yet.)

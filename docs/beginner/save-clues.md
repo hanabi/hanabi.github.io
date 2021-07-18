@@ -12,7 +12,7 @@ import BeginnersGuideProgress from '@site/src/beginnersGuide.js';
 
 <br />
 
-### Save Clues --> Chop
+### Save Clues on Chop
 
 - *Save Clues* **can only be given to cards on chop**.
   - So, if a clue is focused on a non-chop card, then it must be a *Play Clue* instead.
@@ -30,16 +30,17 @@ import BeginnersGuideProgress from '@site/src/beginnersGuide.js';
 
 <br />
 
-### Save Clues > Play Clues
+### Sometimes You Won't Know, So Hold It
 
 - Sometimes, a clue that focuses the chop card could be either a *Play Clue* or a *Save Clue*.
 - When this happens, the player receiving the clue must **consider both possibilities** and hold on to the card until they know for sure.
+- Specifically, this means that they will write a *card note* that includes all of the possibilities for a *Play Clue* and all of the possibilities for a *Save Clue*.
 
 <br />
 
-### 3 Types
+### Three Types of Save Clues
 
-- Corresponding to the list above, there are 3 types of *Save Clues*:
+- Corresponding to the list above, there are three types of *Save Clues*:
   - *5 Saves*
   - *2 Saves*
   - *Critical Saves*

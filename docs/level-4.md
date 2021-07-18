@@ -121,7 +121,7 @@ import ChopMovePrompt from '@site/image-generator/yml/level-4/chop-move-prompt.y
   - Bob discards the 1.
   - Bob's chop is now his slot 4.
   - Cathy clues blue to Bob, which touches his slot 1 (the card he just drew) and his slot 5 (the card that was just *Chop Moved*).
-  - Bob knows that the focus of the clue is always on the brand-new card introduced, so this is **not** chop-focus, and the focus of the clue is on slot 1.
+  - Bob knows that the focus of the clue is always on the new card introduced, so this is **not** chop-focus, and the focus of the clue is on slot 1.
   - Thus, Bob will play blue 2 from slot 1 on his next turn.
 
 <ChopMoveNew />
@@ -131,7 +131,7 @@ import ChopMovePrompt from '@site/image-generator/yml/level-4/chop-move-prompt.y
   - All the 2's are played on the stacks.
   - Bob has an unknown red card on slot 3, an unknown red card on slot 4, and a *Chop Moved* card in slot 5 (that is completely unclued).
   - Alice clues blue to Bob, which touches slot 3, slot 4, and slot 5. (Slot 3 and slot 4 are "filled in" to be rainbow cards and slot 5 is now a true blue card.)
-  - Bob knows that the focus of the clue is normally on the brand-new card introduced, but all three of the cards that were touched were "old".
+  - Bob knows that the focus of the clue is normally on the new card introduced, but all three of the cards that were touched were "old".
   - Bob knows that when old cards are re-touched, the focus of the clue is the left-most of those cards.
   - However, Bob also knows that this is the exception to the rule. In this specific case, putting a positive clue on the *Chop Moved* card was more important than filling in the rainbow cards, so by convention the focus of the clue is his slot 5.
 

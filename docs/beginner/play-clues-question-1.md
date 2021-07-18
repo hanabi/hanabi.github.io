@@ -22,12 +22,12 @@ import PlayCluesQuestion1 from '@site/image-generator/yml/beginner/play-clues-qu
 
 - Alice clues blue to Bob, which touches one card on slot 3.
 - From Bob's perspective, this must be a *Play Clue*. Bob marks down the identity of the card.
-- What identity does Bob write down?
+- What *card note* (i.e. card identity) does Bob write?
 
 </TabItem>
 <TabItem value="solution">
 
-- Blue 2.
+- Bob writes "blue 2".
   - (Since the blue 1 is already played, the next blue card to play is the blue 2.)
 
 </TabItem>

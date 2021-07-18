@@ -25,7 +25,7 @@ import SavePrinciple from '@site/image-generator/yml/beginner/save-principle.yml
   - Alice needs to save the final blue 3 on Bob's chop.
   - Alice knows that she is allowed to perform *Critical Saves* with either a color clue or a number clue.
   - If Alice clues blue, it will violate *Good Touch Principle* because it will also touch both copies of blue 4.
-  - If Alice clues number 3, it will violate *Good Touch Principle* because it will touch the red 3 (since the red 3 is already played on the stacks).
+  - If Alice clues number 3, it will violate *Good Touch Principle* because it will touch the red 3 (and the red 3 is already played on the stacks).
   - Here, Alice knows that it is better to violate *Good Touch Principle* than to lose the chance at a perfect score. Thus, Alice must choose between the lesser of two evils and decide between cluing blue and cluing number 3.
   - Alice decides to clue blue to Bob instead of number 3 because at least one of the blue 4's will be useful later on.
 

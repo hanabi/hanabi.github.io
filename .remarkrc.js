@@ -36,6 +36,7 @@ module.exports = {
 
     // Disable some rules that are enabled by the presets above
     ["remark-lint-heading-style", false],
+    ["remark-lint-list-item-content-indent", false],
     ["remark-lint-list-item-indent", false],
     ["remark-lint-list-item-spacing", false],
     ["remark-lint-maximum-heading-length", false],

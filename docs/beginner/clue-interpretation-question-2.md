@@ -25,7 +25,7 @@ import ClueInterpretationQuestion2 from '@site/image-generator/yml/beginner/clue
 
 1. What slot is focused?
 1. Is this a *Play Clue* or a *Save Clue*?
-1. What identity does Bob write on his slot 5 card?
+1. What *card note* does Bob write on his slot 5 card?
 
 </TabItem>
 <TabItem value="solution">
@@ -33,7 +33,7 @@ import ClueInterpretationQuestion2 from '@site/image-generator/yml/beginner/clue
 1. Slot 5 is focused.
 1. This is a *Play Clue*.
     - (Normally, this would look like a *2 Save* clue, but all of the 2's are currently playable. So it can't be a *2 Save* and is just a simple *Play Clue* instead.)
-1. Bob writes an identity of "yellow 2 or green 2 or blue 2".
+1. Bob writes a *card note* of "yellow 2, green 2, blue 2".
 
 </TabItem>
 </Tabs>

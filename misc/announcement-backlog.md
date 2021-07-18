@@ -57,7 +57,7 @@ As noted in the [convention changes document](convention-changes.md), sometimes 
 
 ***Trash Order Chop Moves* after *Unknown Dupe Discharges***
 
-- If an *Unknown Dupe Discharge* touches exactly two brand-new cards, then both of them must be the same copy.
+- If an *Unknown Dupe Discharge* touches exactly two new cards, then both of them must be the same copy.
 - In this situation, the player is expected to discard the focus of the clue.
 - If they do not discard the focus of the clue, they are performing a *Trash Order Chop Move* on the next player.
 

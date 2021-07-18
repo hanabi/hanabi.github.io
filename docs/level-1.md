@@ -21,14 +21,6 @@ title: Level 1 - Fundamentals
 
 <br />
 
-### Clue Focus
-
-- There is a 3-step process for determining the focus of the clue:
-
-<img src="/img/flowcharts/clue-focus-flowchart.png" alt="Clue Focus Flowchart" class="flowchart" />
-
-<br />
-
 ### The Definition of Playable
 
 - First, see the section on *[Delayed Play Clues](beginner/delayed-play-clues.md)* from the beginner's guide.
@@ -44,6 +36,7 @@ title: Level 1 - Fundamentals
 - A card is *one-away-from-playable* if only one other card would need to be given a *Play Clue* or a *Delayed Play Clue* in order to make the card *playable*.
 - For example, in a 3-player game:
   - No red cards are played on the stacks.
+  - No player has any red 1's in their hand.
   - Bob has a red 2 with a number 2 clue on it. (It was saved with a *2 Save* clue earlier on.)
   - Cathy has an unclued red 3 in her hand.
   - Alice knows that the unclued red 3 is currently *one-away-from-playable*, because there is only one card needed in order to make it *playable* - the red 1.
@@ -61,6 +54,21 @@ title: Level 1 - Fundamentals
   1. 2's (with a *2 Save* clue, e.g. number 2)
   1. Critical cards (with either color or number)
 - Additionally, everyone in the group also agrees to never let anyone discard a (unique) playable card. However, a clue to a unique playable card would be defined as a *Play Clue*, not a *Save Clue*.
+
+<br />
+
+### Clue Focus
+
+There is a 4-step process for determining the focus of a clue:
+
+1. If no cards are new, then **the focus is on the left-most re-touched card**.
+1. If only one card is new, then **the focus is on the new card**.
+1. If two or more cards are new, and one of them was on chop, then **the focus is on the chop**.
+1. If two or more cards are new, and none of them were on chop, then **the focus is on the left-most new card**.
+
+This process is represented in the following flowchart:
+
+<img src="/img/flowcharts/clue-focus-flowchart.png" alt="Clue Focus Flowchart" class="flowchart" />
 
 <br />
 
@@ -131,4 +139,4 @@ title: Level 1 - Fundamentals
 ### Finessed Cards
 
 - Even though *Finessed* cards are unclued, you can think of them as having an invisible clue on them. (Because they are already "gotten".)
-- Thus, if a clue touches a *Finessed* card and some other card that did not have a clue on it, then the focus of the clue would be on the other card (because the focus of a clue is always on the "brand new card" introduced).
+- Thus, if a clue touches a *Finessed* card and some other card that did not have a clue on it, then the focus of the clue would be on the other card (because the focus of a clue is always on the "new" card introduced).

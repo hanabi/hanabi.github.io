@@ -50,7 +50,7 @@ import UnknownTrashDischarge from '@site/image-generator/yml/level-15/unknown-tr
 
 <FiveColorEjection />
 
-- In the previous example, a *5 Color Ejection* was preformed with the 5 being the only brand new card introduced with the color clue. However, it is also possible to perform a *5 Color Ejection* with more than one card introduced. Normally, this kind of thing would signal an *Out-of-Order Finesse*, but the *5 Color Ejection* interpretation should take precedence as long as the next player would have to blind-play two or more cards.
+- In the previous example, a *5 Color Ejection* was preformed with the 5 being the only new card introduced with the color clue. However, it is also possible to perform a *5 Color Ejection* with more than one card introduced. Normally, this kind of thing would signal an *Out-of-Order Finesse*, but the *5 Color Ejection* interpretation should take precedence as long as the next player would have to blind-play two or more cards.
 - For example, in a 3-player game:
   - It is the first turn and nothing is played on the stacks.
   - Alice clues red to Cathy, touching a red 5 on slot 2 and a red 2 on slot 3.

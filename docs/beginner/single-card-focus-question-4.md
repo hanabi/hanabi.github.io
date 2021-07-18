@@ -27,7 +27,7 @@ import SingleCardFocusQuestion4 from '@site/image-generator/yml/beginner/single-
 </TabItem>
 <TabItem value="solution">
 
-- Slot 3, because there are two brand-new cards and slot 3 is the chop.
+- Slot 3, because there are two new cards and slot 3 is the chop.
   - (Slot 5 was previously touched, so the red clue "fills it in".)
 
 </TabItem>

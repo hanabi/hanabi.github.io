@@ -30,10 +30,10 @@ import CriticalSaveQuestion2 from '@site/image-generator/yml/beginner/critical-s
 - However, it would be illegal for Alice to do that because 5's must be saved with a *5 Save*.
 - Thus, Alice should clue number 5 to Cathy as a *5 Save*.
 - Next, Bob would clue purple to Cathy as a *Critical Save* on the purple 3.
-- Cathy would mark her slot 4 card as either:
-  - a purple 1 (as a *Play Clue*)
-  - a purple 3 (as a *Critical Save*)
-  - a purple 4 (as a *Critical Save*)
+- Cathy would write a *card note* on her slot 4 card that contains the following identities:
+  - purple 1 (as a *Play Clue*)
+  - purple 3 (as a *Critical Save*)
+  - purple 4 (as a *Critical Save*)
 
 </TabItem>
 </Tabs>

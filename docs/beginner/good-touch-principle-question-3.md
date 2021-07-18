@@ -27,7 +27,7 @@ import GoodTouchPrincipleQuestion3 from '@site/image-generator/yml/beginner/good
 <TabItem value="solution">
 
 - Alice could clue yellow to Bob or clue number 2 to Bob. Either clue would be a *Play Clue* on the yellow 2.
-- However, it is possible that Alice's 2 is a yellow 2. If it was, then Alice would be violating *Good Touch Principle* and wasting a clue.
+- However, it is possible that Alice's clued 2 is a yellow 2. If it is, then Alice would be violating *Good Touch Principle* and wasting a clue.
 - Thus, it is not Alice's responsibility to clue the yellow 2. Someone else on the team will take care of that. Alice should discard, since there are no other clues to give.
 
 </TabItem>

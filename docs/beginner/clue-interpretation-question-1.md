@@ -25,7 +25,7 @@ import ClueInterpretationQuestion1 from '@site/image-generator/yml/beginner/clue
 
 1. What slot is focused?
 1. Is this a *Play Clue* or a *Save Clue*?
-1. What identity does Cathy write on the focused card?
+1. What *card note* does Cathy write on the focused card?
 
 </TabItem>
 <TabItem value="solution">
@@ -36,7 +36,7 @@ import ClueInterpretationQuestion1 from '@site/image-generator/yml/beginner/clue
     - If it is a green 4, then it wouldn't make any sense, because green 4 is neither playable nor critical. (All clues must either be *Play Clues* or *Save Clues*.)
     - If it is a green 5, then it wouldn't make any sense, because green 5 is not playable. Green 5 is critical, but it must be saved with a number 5 clue as a *5 Save*.
     - Thus, it must be a *Chop-Focus Play Clue* on the green 3.
-1. Cathy writes "green 3" on slot 4.
+1. Cathy writes a *card note* of "green 3" on her slot 4 card.
 
 </TabItem>
 </Tabs>

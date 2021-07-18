@@ -17,7 +17,7 @@ import PestilentTripleBluff from '@site/image-generator/yml/extras/special-bluff
 - It is possible (and fairly common) to perform a *Self-Bluff* on a player with a rank clue.
 - For example, in a 3-player game:
   - Red 2 is played on the stacks.
-  - Alice clues number 4 to Bob, which touches one brand new 4 as a *Play Clue*.
+  - Alice clues number 4 to Bob, which touches one new 4 as a *Play Clue*.
   - Bob does not see any playable cards in anyone else's hand.
   - The closest 4 to being playable is the red 4, so Bob knows that the 4 in his hand is probably a red 4.
   - Since Bob does not see any red 3's, Bob knows he must have the red 3, and he blind-plays his *Finesse Position* card. It is a blue 1 and successfully plays.
@@ -51,7 +51,7 @@ import PestilentTripleBluff from '@site/image-generator/yml/extras/special-bluff
 - Rarely, it is also possible to perform a *Self Color Bluff* as a 2-for-1.
 - For example, in a 3-player game:
   - Red 2 is played on the stacks.
-  - Alice clues red to Bob, which touches a brand new red card on his slot 2.
+  - Alice clues red to Bob, which touches a new red card on his slot 2.
   - This must be a *Play Clue* on the red card.
   - Bob has a negative 3 clue on his red card, so he knows it cannot possibly be a red 3 (the next playable red card).
   - Bob does not see any red cards in other player's hands, so it cannot be a *Prompt* or a *Reverse Finesse*.
@@ -67,7 +67,7 @@ import PestilentTripleBluff from '@site/image-generator/yml/extras/special-bluff
 - However, players can also perform a *Self Color Double Bluff* by "filling in" a card that is *two-or-more-away-from-playable* and not a legal *Bluff* target.
 - For example, in a 3-player game (similar to the previous example):
   - Red 2 is played on the stacks.
-  - Alice clues red to Bob, which touches a brand new red card on his slot 2.
+  - Alice clues red to Bob, which touches a new red card on his slot 2.
   - This must be a *Play Clue* on the red card, since Alice is not in a stalling situation. (If Alice was in a stalling situation, then she would be allowed to give a "fill-in" clue without anything special happening.)
   - Bob has a negative 3 clue on his red card, so he knows it cannot possibly be a red 3 (the next playable red card).
   - Bob does not see any red cards in other player's hands, so it cannot be a *Prompt* or a *Reverse Finesse*.

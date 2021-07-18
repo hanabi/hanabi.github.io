@@ -25,7 +25,7 @@ import ClueInterpretationQuestion4 from '@site/image-generator/yml/beginner/clue
 
 1. What slot is focused?
 1. Is this a *Play Clue* or a *Save Clue*?
-1. What identity does Bob write on the focused card?
+1. What *card note* does Bob write on the focused card?
 
 </TabItem>
 <TabItem value="solution">
@@ -36,7 +36,7 @@ import ClueInterpretationQuestion4 from '@site/image-generator/yml/beginner/clue
     - If it is a blue 4, then this would be a *Critical Save* on the blue 4.
     - If it is a blue 5, then it wouldn't make any sense, because blue 5 is not playable. Blue 5 is critical, but it must be saved with a number 5 clue as a *5 Save*.
     - Thus, this can either be a *Chop-Focus Delayed Play Clue* on the blue 3 or a *Critical Save* on the blue 4.
-1. Bob writes "blue 3 or blue 4" on slot 4.
+1. Bob writes a *card note* of "blue 3, blue 4" on his slot 4 card.
 
 - Note that before this clue, Bob was not able to play the 2 in his hand, because it could have been the yellow 2 (which is not playable).
 - This blue clue "filled in" his 2 to be the blue 2, so now Bob can go ahead and play it.

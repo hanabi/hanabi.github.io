@@ -14,6 +14,7 @@ module.exports = {
             "beginner/chop-question-4",
           ],
         },
+        "beginner/card-notes",
         "beginner/two-types-of-clues",
         {
           "1 - Play Clues": [

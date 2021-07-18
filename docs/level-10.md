@@ -234,8 +234,6 @@ import BluffPromptsPromptBluffs from '@site/image-generator/yml/level-10/bluff-p
   - In some situations, there can be two *reacting players* in a row. For example, if Alice clues a *two-away-from-playable* card, then Bob must react **and** Cathy must react.
 - So how does a *reacting player* figure out what the clue means? They should use *Occam's Razor* - always assume the simplest possible interpretation.
 
-<!-- lint disable list-item-content-indent -->
-
 1. Assume a direct *Play Clue* or a *Delayed Play Clue* (if it could be possible that no *Prompts* & no blind-plays are involved).
 1. Assume a *Prompt* (if it could be possible that no blind-plays are involved).
 1. Assume a *Finesse* (or a *Prompt* + *Finesse*) over a *Bluff*.
@@ -243,8 +241,6 @@ import BluffPromptsPromptBluffs from '@site/image-generator/yml/level-10/bluff-p
     - In general, this means assuming a one-blind-play *Bluff* over a two-blind-play *Finesse*. But keep in mind that only certain cards are legal *Bluff* targets - you can't just do a *Bluff* with any card.
 1. Assume the "move" that results in the least number of *Prompts*.
     - This means that if something could be either a one-blind-play *Finesse* **or** a one-blind-play *Finesse* with a *Prompt* involved, then the pure *Finesse* is simpler and you should assume that.
-
-<!-- lint enable list-item-content-indent -->
 
 <br />
 

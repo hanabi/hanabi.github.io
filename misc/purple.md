@@ -48,7 +48,7 @@ Zamiel "owns" the Discord server, but for most intents and purposes, we want the
 
 <br />
 
-Purple people need to mix with green people so that our values continue to propagate. We want to avoid the scenario where a brand new player hops into a post-game review with a bunch of green people, and a yelling match ensues about who messed up the most, and the brand new player promptly leaves and never comes back. Do your part to help prevent this from occurring.
+Purple people need to mix with green people so that our values continue to propagate. We want to avoid the scenario where a new player hops into a post-game review with a bunch of green people, and a yelling match ensues about who messed up the most, and the new player promptly leaves and never comes back. Do your part to help prevent this from occurring.
 
 Thank you for being a part of the group that I love so much!
 

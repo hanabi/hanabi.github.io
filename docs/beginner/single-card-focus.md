@@ -18,13 +18,21 @@ import ChopFocus from '@site/image-generator/yml/beginner/chop-focus.yml';
 
 <br />
 
-### Determining the Focus: 3 Steps
+### New Cards
+
+- When determining the *focus* of a clue, you need to look for "new" cards.
+- New cards are specifically defined as **cards that are touched by a clue that did not have any clues "on" them already**.
+
+<br />
+
+### Determining the Focus: 4 Steps
 
 So, when two or more cards are touched by a clue, which card is focused?
 
-1. If only one of the cards was previously unclued, then **the focus is on the new card**. ("New" cards are defined as cards that did not have any clues on them already.)
-1. Otherwise, if one of the new cards was on chop, then **the focus is on the chop**.
-1. Otherwise, the **focus is on the left-most new card**.
+1. If no cards are new, then **the focus is on the left-most re-touched card**.
+1. If only one card is new, then **the focus is on the new card**.
+1. If two or more cards are new, and one of them was on chop, then **the focus is on the chop**.
+1. If two or more cards are new, and none of them were on chop, then **the focus is on the left-most new card**.
 
 <br />
 

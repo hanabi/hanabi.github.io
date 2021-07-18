@@ -22,13 +22,13 @@ import PlayCluesQuestion2 from '@site/image-generator/yml/beginner/play-clues-qu
 
 - Alice clues number 4 to Bob, which touches one card on slot 4.
 - From Bob's perspective, this must be a *Play Clue*. Bob marks down the identity of the card.
-- What identity does Bob write down? (Be specific.)
+- What *card note* does Bob write? (Be specific.)
 
 </TabItem>
 <TabItem value="solution">
 
-- Red 4 or green 4 or blue 4.
-  - (These are the stacks that have playable 4's.)
+- Bob writes "red 4, green 4, blue 4".
+  - (These are the stacks that have playable 4's, so the card can be any of these possibilities.)
 
 </TabItem>
 </Tabs>

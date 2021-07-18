@@ -166,7 +166,7 @@ import NoInformationDoubleBluff from '@site/image-generator/yml/level-19/no-info
 
 - Sometimes, a card that is two-away-from-playable is re-clued in order to initiate a *Finesse* or a *Bluff*. Most times, the clue will "fill in" or give extra information to the existing card.
 - Other times, the clue will give no information (e.g. re-cluing number 3 to an already known 3). In this situation, if it was merely a *Bluff*, it would be pretty low value.
-- Thus, by convention, a "no information" clue on a two-away-from-playable card **must** "get" at least 2 new cards (as opposed to a single *Bluff* that only gets 1 brand new card).
+- Thus, by convention, a "no information" clue on a two-away-from-playable card **must** "get" at least 2 new cards (as opposed to a single *Bluff* that only gets 1 new card).
 - For example, in a 3-player game:
   - Nothing is played on the stacks.
   - Alice clues 3's to Cathy, which touches one 3, the red 3.

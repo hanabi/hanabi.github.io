@@ -16,8 +16,6 @@ Playing with Hat Guessing was quite fun, but not fun enough to want to play with
 
 The story of Hat Guessing is relevant because if the goal of the group was to only to maximize the average score, then we would simply play with Hat Guessing all the time. But Hanabi is a game, and we want to have as much fun playing it as possible. So with all of that in mind, we could say that the goal of the convention framework is three-fold:
 
-<!-- lint disable list-item-content-indent -->
-
 1. To maximize the highest average score
     - We are Hanabi enthusiasts and we care about optimizing our play to get the highest possible scores for all deals.
     - However, optimizing too much can take the fun out of the game, so there is a balance involved.
@@ -30,5 +28,3 @@ The story of Hat Guessing is relevant because if the goal of the group was to on
     - Having lots of conventions can be fun, because it raises the skill cap and provides a deeper challenge than just playing surface-level Hanabi.
     - It can be fun to make people blind-play cards in new and exciting ways.
     - Too much complexity can be overwhelming and not very fun, so there is a balance involved.
-
-<!-- lint enable list-item-content-indent -->

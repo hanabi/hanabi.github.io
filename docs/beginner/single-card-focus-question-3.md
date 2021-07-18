@@ -27,7 +27,7 @@ import SingleCardFocusQuestion3 from '@site/image-generator/yml/beginner/single-
 </TabItem>
 <TabItem value="solution">
 
-- Slot 3, because it is the only brand-new card.
+- Slot 3, because it is the only new card.
   - (Slot 2 was previously touched, so the blue clue "fills it in".)
 
 </TabItem>

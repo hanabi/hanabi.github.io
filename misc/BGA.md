@@ -134,13 +134,13 @@ If you're reading this far, you'll want to know some of the basic differences be
 ### Clue Focus on Retouched Cards - Changed
 
 - When multiple cards are "touched" by a clue, it typically only means to play one card. We call that card the *focus* of the clue.
-- On BGA, the focus can either be on the "brand new" card, or a card that is "filled in". Typically, if a filled in card looks like it is playable, then that is the focus. For example, in a Rainbow game:
+- On BGA, the focus can either be on the "new" card, or a card that is "filled in". Typically, if a filled in card looks like it is playable, then that is the focus. For example, in a Rainbow game:
   - Red 1 is played on the stacks.
   - Alice has a card in her hand clued with number 2.
-  - Bob clues Alice red, filling in the 2 with red and also touching a brand new card on her newest slot.
+  - Bob clues Alice red, filling in the 2 with red and also touching a new card on her newest slot.
   - Alice plays the "filled-in" card as the focus of the clue, and holds on to the other red card for later.
 - Furthermore, on BGA, clues given similar to the one in the example above can **also** mean to play both cards, depending on the situation. (i.e. Alice plays red 2 and then plays red 3.)
-- In our group, **the focus of the clue is always on card that did not have any clues on it already**. (We refer to this as the **brand new card introduced**.) In the previous example, Alice should play her newest card as either red 2 or rainbow 1. She is promised nothing about her other red card, meaning that it can be either red 2 or rainbow 2.
+- In our group, **the focus of the clue is always on card that did not have any clues on it already**. (We refer to this as the **new card introduced**.) In the previous example, Alice should play her newest card as either red 2 or rainbow 1. She is promised nothing about her other red card, meaning that it can be either red 2 or rainbow 2.
 - Why do this? Having this convention makes it extremely clear exactly what card is being talked about in almost all situations - **no guesswork involved**.
 
 ### Chop-Focus - Added
@@ -181,7 +181,7 @@ If you're reading this far, you'll want to know some of the basic differences be
 
 ## Convention Changes (Intermediate)
 
-Ok, so you've made it this far. The changes so far probably sound pretty strange, but at least most of the core stuff is still the same. Before reading further, you'll probably want to play a few games with us to get a feel for how the basics work. Beyond the basics, there are some other changes, as well as some brand new moves.
+Ok, so you've made it this far. The changes so far probably sound pretty strange, but at least most of the core stuff is still the same. Before reading further, you'll probably want to play a few games with us to get a feel for how the basics work. Beyond the basics, there are some other changes, as well as some new moves.
 
 <br />
 
@@ -214,7 +214,7 @@ Ok, so you've made it this far. The changes so far probably sound pretty strange
 ### The 5's Chop Move - Added
 
 - On BGA, if you clue number 5 to a 5 that is one-away-from-chop, high-level players will usually interpret it as a *Play Clue* on the 5 or a stall clue, depending on the situation.
-- In our group, we assign a special meaning to number 5 clues that introduce a brand new 5 that is **exactly** one-away from chop. You guessed it - it's a *Chop Move*.
+- In our group, we assign a special meaning to number 5 clues that introduce a new 5 that is **exactly** one-away from chop. You guessed it - it's a *Chop Move*.
 - Why do this? It allows players to use this special power to save two cards with one clue. For example, it can be used to save a critical card that is followed by a 5. Or, you can even use it to permanently save a non-critical but-still-useful card.
 
 ### Trash Chop Moves - Changed

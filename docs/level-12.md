@@ -75,8 +75,6 @@ import HardBluff from '@site/image-generator/yml/level-12/hard-bluff.yml';
 
 #### Generic Questions
 
-<!-- lint disable list-item-content-indent -->
-
 - *3 Bluffs* can be confusing. If you don't want to memorize the five examples above, you can simply ask the following questions:
   1. Does the clue "connect" to the blind-play?
       - If it connects, then it is a *Finesse*.
@@ -86,8 +84,6 @@ import HardBluff from '@site/image-generator/yml/level-12/hard-bluff.yml';
   1. Will the player who received the clue go on to misplay if nothing else is blind-played?
       - If yes, then it is a *Finesse*.
       - If no, then it is a *Bluff*.
-
-<!-- lint enable list-item-content-indent -->
 
 <br />
 
@@ -113,7 +109,7 @@ import HardBluff from '@site/image-generator/yml/level-12/hard-bluff.yml';
 - For example, this is a *Finesse* + *Prompt* and **not** a *Hard Bluff*:
   - Only red 1 is played on the stacks.
   - Cathy has a 3 clued in her hand (with no color information on it).
-  - Alice clues Cathy about a brand new 4.
+  - Alice clues Cathy about a new 4.
   - Bob blind-plays red 2.
   - In a normal *Bluff*, a *one-away-from-playable* card is clued. However, Cathy sees that the highest stack is the red stack, so the 4 in her hand must be two-away.
   - Thus, Cathy does **not** read it as a *Bluff*; she is promised red 3 and red 4, so she plays the unknown 3 as a *Self-Prompt* for the red 3.
@@ -123,7 +119,7 @@ import HardBluff from '@site/image-generator/yml/level-12/hard-bluff.yml';
 - For example, this **is** a *Hard Bluff*:
   - Red 1 and blue 2 are played on the stacks.
   - Cathy has a 3 clued in her hand (with no color information on it).
-  - Alice clues Cathy about a brand new 4.
+  - Alice clues Cathy about a new 4.
   - Bob blind-plays red 2.
   - This could be a *Bluff* if the 4 in her hand is blue 4, since blue 4 is currently *one-away-from-playable*. Thus, Cathy **does not** assume that her 4 is red 4, and subsequently, **does not** assume that her unknown 3 is a red 3. However, it could **also** be the case that the 4 is a red 4 (if the 3 in her hand happens to be red 3).
   - Thus, Cathy marks down both possibilities for later and does not play anything right now.
