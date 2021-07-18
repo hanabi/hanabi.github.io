@@ -46,4 +46,4 @@ When you play Hanabi, you will need to write *card notes*. This page explains wh
 
 - Since the red clue above was so simple, you may think that writing a note of "red 1" is silly and a waste of time. However, realize that Bob **might not play the red 1 for many, many turns**, at which point the game state may have dramatically changed.
 - The most common beginner mistake that we see is failing to write a note on a card, and then forgetting some piece of information later on in the game.
-- Do not forget to do this! Write *card notes* after **every clue**!
+- Do not forget to do this! Write *card notes* after **every single clue**, no matter how simple or complicated it is!
