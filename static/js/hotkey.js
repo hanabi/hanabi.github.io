@@ -31,13 +31,6 @@ document.onkeydown = function onKeyDown(e) {
   }
 };
 
-// Click on the "Learn More" button
-keyMap.set("Enter", () => {
-  if (isOnLandingPage()) {
-    clickOnFirstLargeButton();
-  }
-});
-
 // Navigate backwards
 keyMap.set("ArrowLeft", () => {
   if (isOnLandingPage()) {
