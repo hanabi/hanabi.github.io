@@ -23,8 +23,8 @@ import ChopFocus from '@site/image-generator/yml/beginner/chop-focus.yml';
 So, when two or more cards are touched by a clue, which card is focused?
 
 1. If only one of the cards was previously unclued, then **the focus is on the new card**. ("New" cards are defined as cards that did not have any clues on them already.)
-2. Otherwise, if one of the new cards was on chop, then **the focus is on the chop**.
-3. Otherwise, the **focus is on the left-most new card**.
+1. Otherwise, if one of the new cards was on chop, then **the focus is on the chop**.
+1. Otherwise, the **focus is on the left-most new card**.
 
 <br />
 
