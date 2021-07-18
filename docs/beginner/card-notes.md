@@ -17,7 +17,7 @@ When you play Hanabi, you will need to write *card notes*. This page explains wh
   - *Explicit* information is from the clues "on" the card.
   - *Implicit* information is from the context of the game *when* the card was clued.
 - For example, in a 3-player game:
-  - It is the first turn of the game and nothing is played on the stacks.
+  - It is the first turn of the game.
   - Alice clues Bob red, touching a card on his slot 1. Alice intends for this to be a *Play Clue*, signaling to Bob that he has a red 1 and that he should play it on the stacks right now.
   - From Bob's perspective, he knows that *explicitly*, his red card can be red 1, red 2, red 3, red 4, or red 5.
   - But Bob also knows that *implicitly*, Alice intends for him to play this red card, so it must be exactly the red 1.
