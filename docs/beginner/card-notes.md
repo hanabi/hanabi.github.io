@@ -7,7 +7,7 @@ import BeginnersGuideProgress from '@site/src/beginnersGuide.js';
 
 <BeginnersGuideProgress id="card-notes" />
 
-When you play Hanabi, you will **need** to write *card notes* and this page explains why.
+When you play Hanabi, you will need to write *card notes*. This page explains why.
 
 <br />
 
