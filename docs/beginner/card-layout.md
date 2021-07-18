@@ -34,3 +34,7 @@ In this guide, there will be some images to show off the concepts introduced.
 - Clued cards will have permanent yellow borders around them.
 
 <CardLayout2 />
+
+## Challenge Questions
+
+After each section, there will be one or more challenge questions. Once you have solved the question, click on the "Solution" tab near the top of the screen to see the answer.
