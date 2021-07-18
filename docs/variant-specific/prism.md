@@ -27,3 +27,13 @@ These conventions apply to any variant with a prism suit.
   - Bob blind-plays a prism 1 from his *Finesse Position*.
   - Cathy knows that prism 1 would connect to yellow, but it does not connect to green. Thus, this is just a *Bluff*.
   - Cathy marks her green card as either a green 2 (as a normal *Bluff*), a green 3 (as a *3 Bluff*), or a prism 3 (as a *Hard 3 Bluff*).
+
+### Ambiguous Prism Tempo Clue
+
+- Often we are in a situation when the prism card of the same color is drawn by the player holding the non prism card (or vice versa).
+- If a player has two cards clued with rank that are indistinguishable with either rank or color, it gets hard to tempo one of those cards unambiguously.
+- In such a case, we agree that the color tempo clue focuses on the right most card, and the rank tempo clue focuses on the left most card.
+
+#### Interaction with Tempo Clue Chop Move
+
+- We agree that getting tempo on a card in such a situation has high value and we never chop move from such a tempo clue.
