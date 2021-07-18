@@ -21,6 +21,7 @@ Use notation that the Hyphen-ated group will be familiar with:
 
 <!-- lint disable no-undefined-references -->
 
+- Use "Alice" instead of "a" or some other name.
 - Use "red 3" instead of "3 red".
 - Use "r3" instead of "3r".
 - Use "r[3]" to indicate that a card is a red 3 but has a number 3 clue on it.
