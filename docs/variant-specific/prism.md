@@ -17,6 +17,8 @@ These conventions apply to any variant with a prism suit.
   - Cathy knows that since prism 3 is green, prism 2 connects to green. Thus, this must be a *Finesse*.
   - Cathy plays her green as a prism 3.
 
+<br />
+
 ### Color Bluffs (Two-Away-From-Playable)
 
 - Players can perform a *Bluff* on a prism card with a color, as long as the focus of the clue is a valid *Bluff* target and the color represents a prism card that is *two-or-more-away-from-playable*.
@@ -28,12 +30,17 @@ These conventions apply to any variant with a prism suit.
   - Cathy knows that prism 1 would connect to yellow, but it does not connect to green. Thus, this is just a *Bluff*.
   - Cathy marks her green card as either a green 2 (as a normal *Bluff*), a green 3 (as a *3 Bluff*), or a prism 3 (as a *Hard 3 Bluff*).
 
+<br />
+
 ### Ambiguous Prism Tempo Clue
 
-- Often we are in a situation when the prism card of the same color is drawn by the player holding the non prism card (or vice versa).
-- If a player has two cards clued with rank that are indistinguishable with either rank or color, it gets hard to tempo one of those cards unambiguously.
-- In such a case, we agree that the color tempo clue focuses on the right most card, and the rank tempo clue focuses on the left most card.
+- Sometimes, players have a clued prism card in their hand that matches a clued normal card in their hand.
+- For example, in a "Prism (5 Suits)" game:
+  - Bob has a blue 4 and a prism 4 in his hand. Both have been previously clued with a blue color clue, but Bob does not know the true identity of either card.
+- In this situation, it is hard to give a *Tempo Clue* to the right-most card. Thus, we agree that:
+  - a color *Tempo Clue* should focus the right-most card
+  - a rank *Tempo Clue* should focus the left most card
 
-#### Interaction with Tempo Clue Chop Move
+#### Interaction with the Tempo Clue Chop Move
 
-- We agree that getting tempo on a card in such a situation has high value and we never chop move from such a tempo clue.
+- *Ambiguous Prism Tempo Clues* are considered to be high-value. Thus, we agree to never *Chop Move* from these types of clues.
