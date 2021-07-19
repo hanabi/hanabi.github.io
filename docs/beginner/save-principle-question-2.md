@@ -21,7 +21,7 @@ import SavePrincipleQuestion2 from '@site/image-generator/yml/beginner/save-prin
 <TabItem value="question">
 
 - What action should Alice perform?
-- If Alice should give a clue, what identity will be written on the focused card? (Be specific.)
+- If Alice should give a clue, what *card note* will be written on the focused card? (Be specific.)
 
 </TabItem>
 <TabItem value="solution">
