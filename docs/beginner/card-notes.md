@@ -35,7 +35,7 @@ When you play Hanabi, you will need to write *card notes*. This page explains wh
 
 ## Writing Notes
 
-- Handily, Hanab Live allows players to track *implicit* information on a card by right-clicking on it. This pops up a text box, allowing players to record any information that they want. This is card a *card note*.
+- Handily, Hanab Live allows players to track *implicit* information on a card by right-clicking on it. This pops up a text box, allowing players to record any information that they want. This is called a *card note*.
 - **After every single clue, players should record a note on the affected card.**
 - In the previous example, Bob should right-click on his red card and write "red 1", so that he doesn't forget for later.
 - Furthermore, Alice and Cathy should **also** right-click on Bob's red card and write "red 1", so that they can keep track of what Bob thinks about the card. In this way, **everybody writes notes on everybody's cards.**
