@@ -8,8 +8,7 @@ import DelayedPlayClues from '@site/image-generator/yml/beginner/delayed-play-cl
 
 <BeginnersGuideProgress id="delayed-play-clues" />
 
-- It is permitted to give a *Play Clue* to a card that will only successfully play on the stacks *after* other people have played cards of the same suit.
-  - We refer to such a clue as a *Delayed Play Clue* when the card is only playable *through* other cards that are going to play.
+- It is permitted to give a *Play Clue* to a card that can only play on the stacks *after* other people have played cards of the same suit. This is called a *Delayed Play Clue*.
 - We agree to treat **all *Play Clues*** as **potential *Delayed Play Clues***.
 - For example, in a 3-player game:
   - Alice clues Bob number 2, which is a *Play Clue* on a 2.
