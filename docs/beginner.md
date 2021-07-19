@@ -12,7 +12,7 @@ title: Intro
 - Are you looking to start playing Hanabi with the *Hyphen-ated Group*? Fantastic - we are always looking to welcome new players. Take 30 minutes and go through this guide so that you can get up to speed with the basics.
 - Alternatively, are you looking to learn some solid fundamental strategies to use to play Hanabi with your own group of friends? Feel free to adopt these strategies.
 - Is a 30 minute briefing really necessary? Well, yes and no. If you try to play with our group and don't understand what basic clues mean, it is going to be analogous to a group of people trying to find each other in a dark room by running around with their arms flailing.
-- We know that 30 minutes might be too long for some people to sit through. So, we've tried to split up the guide into bite-sized chunks with fun challenge questions at the end of every section in order to keep you interested.
+- We know that 30 minutes might be too long for some people to sit through. So, we've split up the guide into bite-sized chunks with fun challenge questions at the end of every section in order to keep you interested.
 
 <br />
 
