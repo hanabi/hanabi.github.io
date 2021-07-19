@@ -28,7 +28,7 @@ import PlayCluesQuestion2 from '@site/image-generator/yml/beginner/play-clues-qu
 <TabItem value="solution">
 
 - Bob writes "red 4, green 4, blue 4".
-  - (These are the stacks that have playable 4's, so the card can be any of these possibilities.)
+  - (These are the suits that have playable 4's, so the card can be any of these possibilities.)
 
 </TabItem>
 </Tabs>
