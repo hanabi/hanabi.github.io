@@ -21,7 +21,7 @@ import SingleCardFocusQuestion2 from '@site/image-generator/yml/beginner/single-
 <TabItem value="question">
 
 - Bob has a completely unclued hand.
-- Alice clues purple to Bob, touching five cards.
+- Alice clues green to Bob, touching five cards.
 - Which slot is focused?
 
 </TabItem>

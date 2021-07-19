@@ -13,16 +13,16 @@ players:
       - type: x
       - type: x
   - cards:
-      - type: p
-        clue: p
-      - type: p
-        clue: p
-      - type: p
-        clue: p
-      - type: p
-        clue: p
-      - type: p
-        clue: p
+      - type: g
+        clue: g
+      - type: g
+        clue: g
+      - type: g
+        clue: g
+      - type: g
+        clue: g
+      - type: g
+        clue: g
   - cards:
       - type: x
       - type: x
