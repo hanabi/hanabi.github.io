@@ -12,7 +12,7 @@ import Chop2 from '@site/image-generator/yml/beginner/chop-2.yml';
 - In Hanabi, players discard when they have nothing else to do (or when the team is out of clues).
 - The right-most **unclued card** in a player's hand is called their "chop" card.
   - This is a metaphor of a card being "on the chopping block".
-- When a player needs to discard, they should discard their chop card. This way, **everyone discards in a predicable way**.
+- When a player needs to discard, they should discard their chop card. This way, **everyone discards in a predictable way**.
 
 <br />
 
