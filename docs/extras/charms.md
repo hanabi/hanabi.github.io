@@ -55,7 +55,7 @@ import SafetyCharm from '@site/image-generator/yml/extras/charms/safety-charm.ym
   - Red 1 is played on the stacks.
   - It is the *Early Game* and the *Low Score Phase*.
   - Alice clues red to Cathy, touching a new red 2 on slot 2.
-  - Cathy hand is, from newest to oldest: `blue 5, red 2, blue 3, blue 2`
+  - Cathy's hand is, from newest to oldest: `blue 5, red 2, blue 3, blue 2`
   - Bob sees that Alice could have cleanly *5 Pulled* Cathy's red 2. (It is globally known that Alice had another *Play Clue* to give, so a number 5 clue would not have been interpreted as a *5 Stall*.)
   - Bob knows that this signals a blind-play:
     - A *First Finesse Position* blind-play would look like a *Bluff* on a red 3, which would be a *Lie*.
@@ -73,8 +73,17 @@ import SafetyCharm from '@site/image-generator/yml/extras/charms/safety-charm.ym
 
 ### The Junk Charm (for 1's)
 
-- Sometimes it's unavoidable to *Bad Touch* additional cards when giving a rank play clue for 1's. But what if such a clue is chosen intentionally, when a color clue would have cleanly avoided any possible *Bad Touch*?
-- Such a clue must be calling for something extra from the next player, but they must carefully consider which slot to blind-play.
-- If they were to blind-play *First Finesse Position*, all the clued 1's would be marked as trash. A *Third Finesse Position* would signify a *[Junk Discharge](../discharges.md#the-junk-discharge-for-1s)*.
-- Therefore, the correct response is a *Charm*.
-- After the *Charm* is demonstrated, all the clued 1's **except** for the focus are known-trash.
+- Sometimes it's unavoidable to *Bad Touch* additional cards when giving a rank play clue for 1's. But what if such a clue is chosen intentionally, when a color clue would have cleanly avoided any *Bad Touch*?
+- As long as all the non-focused 1's are trash, such a clue must be calling for something extra: the very next player is being called to *Charm*.
+- For example, in a 3-player game:
+  - Green 1 is played on the stacks.
+  - Alice clues 1's to Cathy, newly touching both a Red 1 on slot 5 and Green 1 on slot 2.
+  - Cathy's hand is, from newest to oldest: 'yellow 2, green 1, blue 3, purple 5, red 1'
+  - Bob can see that Alice could have cleanly clued red to singularly touch red 1 and avoid *Bad Touch*.
+  - Bob knows that this signals a blind-play:
+    - A *First Finesse Position* blind-play would look like a *Trash Finesse*, which would be a *Lie*.
+    - A *Second Finesse Position* blind-play would look like a *Trash Push Ejection*, which would be a *Lie*.
+    - A *Third Finesse Position* blind-play would look like an *Junk Discharge*, which would be a *Lie*.
+  - Thus, Bob knows this must be a *Junk Charm* and blind-plays his *Fourth Finesse Position*. It is a blue 1 and it successfully plays.
+- Note that this cannot be performed in *Reverse*, as a *Reverse Charm* would not be an appropriate or legal response.
+
