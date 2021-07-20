@@ -68,3 +68,13 @@ import SafetyCharm from '@site/image-generator/yml/extras/charms/safety-charm.ym
 
 - *4 Charms* take precedence over *Safety Charms*.
 - More examples of a *Safety Charm* can be found [here](../examples/safety-charm.md).
+
+<br />
+
+### The Junk Charm (for 1's)
+
+- Sometimes it's unavoidable to *Bad Touch* additional cards when giving a rank play clue for 1's. But what if such a clue is chosen intentionally, when a color clue would have cleanly avoided any possible *Bad Touch*?
+- Such a clue must be calling for something extra from the next player, but they must carefully consider which slot to blind-play.
+- If they were to blind-play *First Finesse Position*, all the clued 1's would be marked as trash. A *Third Finesse Position* would signify a *[Junk Discharge](../discharges.md#the-junk-discharge-for-1s)*.
+- Therefore, the correct response is a *Charm*.
+- After the *Charm* is demonstrated, all the clued 1's **except** for the focus are known-trash.
