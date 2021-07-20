@@ -14,7 +14,7 @@ title: Level 1 - Fundamentals
 <br />
 
 - If you have played a few games on hanab.live, you might have noticed the website has several features.
-- The website has a [extensive documentation](https://github.com/Zamiell/hanabi-live/blob/master/docs/FEATURES.md#notes). You can get to that page by pressing the "Help" icon in the upper-right.
+- The website has an [extensive documentation](https://github.com/Zamiell/hanabi-live/blob/master/docs/FEATURES.md#notes). You can get to that page by pressing the "Help" icon in the upper-right.
 - The list below is not an exhaustive list, but summarizes the most important features that beginners should know right now.
 
 ### Card notes
