@@ -322,6 +322,7 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
   - Bob knows that if he does nothing, Cathy will go on to interpret this as a *Self-Finesse*, and play her *Finesse Position*, which will misplay.
   - Thus, Bob plays his *Finesse Position* as a *Pink Fake Finesse*. It is a blue 1 and it successfully plays.
   - From Cathy's perspective, Alice performed a *Finesse* on the blue 1 into the blue 2. Cathy plays the blue 2, but it is actually the pink 1. Now, Cathy knows that Alice performed a *Pink Fake Finesse*.
+- In some rare cases, *Pink Fake Finesses* can be performed *Out of Position*: if another player's *Finesse Position* is seen to connect with a second newly touched card, the immediate next player should not react. Thus, the underlying *Finesse* will also be guaranteed after the *Out of Position* blind-play occurs."
 
 <FakeFinesse />
 
@@ -339,7 +340,8 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 
 - When a *Trash Push* happens in a normal variant, if more than one card is touched, then all of the touched cards are known to be trash.
 - When a *Trash Push* happens with a rank clue in a variant with a pink suit, if more than one card is touched, it is possible that only the card on chop was trash, and that the other cards touched are useful / critical pink cards.
-- In this situation, after blind-playing the *Trash Pushed* card, the player should first discard the card that initiated the *Trash Push* (the oldest card) and then hold on to the other touched cards.
+- In this situation, after 
+ing the *Trash Pushed* card, the player should first discard the card that initiated the *Trash Push* (the oldest card) and then hold on to the other touched cards.
   - In this situation, *Good Touch Principle* applies to the other touched cards. The other members of the team must give a *Fix Clue* to those cards if they are also trash.
 
 ### Pink Promise with a 5 Stall
