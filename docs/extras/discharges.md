@@ -91,3 +91,13 @@ import UnknownDupeDischarge2 from '@site/image-generator/yml/extras/discharges/u
 - *Prophetic Discharges* can only be triggered by touching **exactly one 1**.
 - *Prophetic Discharges* can only be triggered by using a color clue.
 - *Prophetic Discharges* can be *Layered*. (See the *Prophetic Finesse* section for an example of this.)
+
+<br />
+
+### The Junk Discharge (for 1's)
+
+- If two 1's are newly touched with a rank Play clue, but the focus is trash, some blind-play is being called for.
+- In cases where all the clued 1's are trash, this is simply a *Trash Finesse* or *Bluff*; a single blind-play from *First Finesse Position* is sufficient to convey that they should all be marked as known-trash.
+- But what if the non-focused 1 is **not** trash, and is indeed playable?
+- In this case, a *First Finesse* blind-play would result in incorrect notes. Therefore, this is actually calling for a *Third Finesse Position* blind-play, as a *Junk Discharge*.
+- As a result, the clued player will know to only mark the focused 1 as trash and play the other 1 as normal.
