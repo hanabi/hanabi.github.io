@@ -43,6 +43,7 @@ Editing files on the GitHub website is a pain. If you are adding a significant a
 
 ### Part 1 - Initial Preparation
 
+- Do you know what a shell/terminal is? If not, watch a basic video on YouTube that explains how to run program in a shell, how to use the `cd` command to change directories, and so forth.
 - Download and install [Node.js](https://nodejs.org/en/) (if you don't already have it installed). Select the "Current" version instead of the "LTS" version.
   - This allows the [JavaScript](https://www.javascript.com/) programming language to run on your local computer.
 - Download and install [Python](https://www.python.org/downloads/) (if you don't already have it installed). Select the latest version.
