@@ -20,6 +20,7 @@ import CriticalSaveQuestion2 from '@site/image-generator/yml/beginner/critical-s
   ]}>
 <TabItem value="question">
 
+- The team has 2 clue tokens left.
 - Cathy has three critical cards in a row.
 - What action should Alice perform?
 
