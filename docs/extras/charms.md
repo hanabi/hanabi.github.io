@@ -75,6 +75,7 @@ import SafetyCharm from '@site/image-generator/yml/extras/charms/safety-charm.ym
 
 - Sometimes it's unavoidable to *Bad Touch* additional cards when giving a rank play clue for 1's. But what if such a clue is chosen intentionally, when a color clue would have cleanly avoided any *Bad Touch*?
 - As long as all the non-focused 1's are trash, such a clue must be calling for something extra: the very next player is being called to *Charm*.
+- After the *Charm* occurs, the clued player will know that **only** the focus of the 1's clue is playable.
 - For example, in a 3-player game:
   - Green 1 is played on the stacks.
   - Alice clues 1's to Cathy, newly touching both a Red 1 on slot 5 and Green 1 on slot 2.
