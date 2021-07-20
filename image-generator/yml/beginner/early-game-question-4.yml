@@ -11,7 +11,6 @@ players:
       - type: x
       - type: x
       - type: x
-      - type: x
   - cards:
       - type: r4
         border: false
@@ -20,8 +19,6 @@ players:
       - type: p3
         border: false
       - type: g1
-        border: false
-      - type: y1
         border: false
   - cards:
       - type: r2
@@ -32,8 +29,6 @@ players:
         border: false
       - type: p2
         border: false
-      - type: g1
-        border: false
   - cards:
       - type: p5
         border: false
@@ -42,6 +37,4 @@ players:
       - type: b1
         border: false
       - type: r1
-        border: false
-      - type: g2
         border: false

@@ -35,7 +35,7 @@ import DelayedPlayCluesQuestion3 from '@site/image-generator/yml/beginner/delaye
     - Second, it could be a *Delayed Play Clue* on a yellow 4 through Cathy's yellow 2 and yellow 3.
     - Third, it could be a *Delayed Play Clue* on a blue 4 through Donald's blue 3.
 2. Bob does not know whether this is a *Play Clue* or a *Delayed Play Clue*. However, since Bob has to treat all *Play Clues* as potential *Delayed Play Clues*, Bob cannot play the 4 on this turn.
-3. Since Bob cannot play the 4 yet, he should give an unrelated clue or discard.
+3. Since Bob cannot play the 4 yet, he should discard.
 
 </TabItem>
 </Tabs>

@@ -16,5 +16,3 @@ import FiveSave from '@site/image-generator/yml/beginner/5-save.yml';
   - Since the clue was focused on his chop, Bob knows that this must be a *5 Save* on the 5. It can be any 5 in the game.
 
 <FiveSave />
-
-- 5's **must be saved with a number clue** instead of a color clue. (Otherwise, it will look like a *Play Clue*!)

@@ -11,14 +11,11 @@ players:
       - type: x
       - type: x
       - type: x
-      - type: x
   - cards:
       - type: p4
         border: false
       - type: r2
       - type: r3
-      - type: p1
-        border: false
       - type: p1
         border: false
   - cards:
@@ -30,14 +27,10 @@ players:
         border: false
       - type: y4
         border: false
-      - type: b3
-        border: false
   - cards:
       - type: g4
         border: false
       - type: r1
-        border: false
-      - type: g3
         border: false
       - type: g5
         border: false

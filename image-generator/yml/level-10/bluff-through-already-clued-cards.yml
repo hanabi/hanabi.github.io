@@ -11,16 +11,13 @@ players:
       - type: x
       - type: x
       - type: x
-      - type: x
   - cards:
       - type: x
         above: Blue 2
       - type: x
       - type: x
       - type: x
-      - type: x
   - cards:
-      - type: x
       - type: x
       - type: x
       - type: 3
@@ -31,6 +28,5 @@ players:
       - type: r
         clue: r
         middle_note: (4)
-      - type: x
       - type: x
       - type: x

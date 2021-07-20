@@ -39,8 +39,8 @@ import TrashPush from '@site/image-generator/yml/level-13/trash-push.yml';
 
 ### The Trash Finesse
 
-- In a *Finesse*, we would say that the clue "connects" to the blind-play. For example, a blue clue on a blue 2 would connect to a blind-play of blue 1. Or, a number 2 clue on a blue 2 would connect to a blind-play of blue 1.
-- In a *Bluff*, we would say that the clue does not "connect" to the blind-play. For example, a blue clue on a blue 2 does not connect to a blind-play of a red 1. Or, a number 2 clue on a blue 2 does not connect to the blind-play of a red 2.
+- In a *Finesse*, we say that the clue "connects" to the blind-play. For example, a blue clue on a blue 2 would connect to a blind-play of blue 1. Or, a number 2 clue on a blue 2 would connect to a blind-play of blue 1.
+- In a *Bluff*, we say that the clue does not "connect" to the blind-play. For example, a blue clue on a blue 2 does not connect to a blind-play of a red 1. Or, a number 2 clue on a blue 2 does not connect to the blind-play of a red 2.
 - In the *Trash Bluff* example above, a number 1 clue on a blue 1 is used to *Trash Bluff* a blue 2. Similar to a *Bluff*, we would say this number 1 clue does not connect to the blind-play of a blue 2.
 - What if a *Trash Bluff* using a number 1 clue instead got a red 1 to blind-play? In this context, the red 1 would actually "connect" to the number 1 clue. Another way of saying this is that by cluing a trash 1 with a number 1 clue, the clue giver is saying that they **see** a matching 1 that is good.
 - Thus, it is possible to perform a *Trash Bluff* outside of *Bluff Seat* if the "connecting" card is on someone's *Finesse Position*. When this is done, it promises that someone has that specific card, so we call it a *Trash Finesse* rather than a *Trash Bluff*.
@@ -55,7 +55,7 @@ import TrashPush from '@site/image-generator/yml/level-13/trash-push.yml';
 
 <TrashFinesse />
 
-- In the case where multiple cards are clued as part of a *Trash Finesse*, **all** of the touched cards are considered to be trash. However, the focus of the clue should be discarded first. (This is the exact same policy as what happens in a *Trash Bluff*.)
+- In the case where multiple cards are clued as part of a *Trash Finesse*, **all** of the touched cards are considered to be trash. However, the focus of the clue should be discarded first. (This is same thing that happens in a *Trash Bluff*.)
 - *Double Trash Finesses* are explicitly disallowed. Thus, it is possible to perform a *Trash Finesse* in a situation like this:
   - All the 1's are played on the stacks except for red 1 and blue 1.
   - Alice clues number 1 to Donald, which touches two green 1's on slot 1 and 2. To Donald, this will look like it is both the red 1 and the blue 1.

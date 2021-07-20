@@ -13,8 +13,7 @@ players:
       - type: x
       - type: x
       - type: x
-      - type: x
-  - text: Alice blind-discards slot 2
+  - text: Alice blind-discards slot 2.
   - name: Bob
     cards:
       - type: x
@@ -22,8 +21,7 @@ players:
         above: Red 4
       - type: x
       - type: x
-      - type: x
-  - text: Bob blind-plays slot 2
+  - text: Bob blind-plays slot 2.
   - name: Cathy
     cards:
       - type: x
@@ -31,8 +29,7 @@ players:
         above: Green 5
       - type: x
       - type: x
-      - type: x
-  - text: Cathy blind-plays slot 2
+  - text: Cathy blind-plays slot 2.
   - name: Donald
     cards:
       - type: x
@@ -40,5 +37,4 @@ players:
         above: Red 5
       - type: x
       - type: x
-      - type: x
-  - text: Donald blind-plays slot 2
+  - text: Donald blind-plays slot 2.

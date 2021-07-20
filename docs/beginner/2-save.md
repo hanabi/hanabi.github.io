@@ -18,10 +18,6 @@ import TwoSaveIllegal from '@site/image-generator/yml/beginner/2-save-illegal.ym
 
 <TwoSave />
 
-- Similar to 5's, 2's **must be saved with a number clue** instead of a color clue. (Otherwise, it will look like a *Play Clue*!)
-
-<br />
-
 ### When Multiple Copies are Visible
 
 - You can think of the *2 Save* as a last resort to save a 2. Thus, players are not allowed to perform a *2 Save* on a 2 if that same 2 is visible in someone else's hand.

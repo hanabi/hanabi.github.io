@@ -27,7 +27,7 @@ import FiveSaveQuestion2 from '@site/image-generator/yml/beginner/5-save-questio
 
 - Bob has two 5's, but neither of them are on chop, so they cannot be saved yet.
 - Cathy has a 5 and it is on chop.
-  - (Her chop is slot 2 because the cards on slot 3, slot 4, and slot 5 have a clue on them.)
+  - (Her chop is slot 2 because the cards on slot 3 and slot 4 have a clue on them.)
 - Donald has one 5, but it is not on chop, so it cannot be saved yet.
 - Thus, Alice should clue number 5 to Cathy as a *5 Save*.
 

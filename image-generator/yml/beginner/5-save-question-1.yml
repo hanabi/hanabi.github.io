@@ -13,10 +13,7 @@ players:
       - type: x
       - type: x
       - type: x
-      - type: x
   - cards:
-      - type: b3
-        border: false
       - type: p4
         border: false
       - type: g4
@@ -26,8 +23,6 @@ players:
       - type: y1
         border: false
   - cards:
-      - type: p4
-        border: false
       - type: y4
         border: false
       - type: g4
@@ -35,8 +30,6 @@ players:
       - type: g3
       - type: g2
   - cards:
-      - type: b3
-        border: false
       - type: p5
         border: false
       - type: b5

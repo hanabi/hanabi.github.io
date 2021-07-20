@@ -35,7 +35,7 @@ In this guide, you'll learn the following strategies:
 1. *Good Touch Principle* - Only clue cards that will be played.
 1. *Save Principle* - Save all important cards.
 1. *Minimum Clue Value Principle* - Get at least one new card with every clue.
-1. *Prompts* & *Finesses* - Get two cards played with one clue.
+1. *Prompts* & *Finesses* - If possible, get two cards played with one clue.
 
 <br />
 

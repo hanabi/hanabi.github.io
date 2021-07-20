@@ -173,7 +173,12 @@ def draw_player_name_and_hand(yaml_file, svg_file, player_num, player):
     global y_offset
     global y_below
 
-    draw_player_name(svg_file, player_num, player)
+    name = draw_player_name(svg_file, player_num, player)
+    four_or_more_players = name == PLAYER_NAMES[3] or name == PLAYER_NAMES[4]
+    num_cards = len(player["cards"])
+    if four_or_more_players and num_cards > 4:
+        error("The players have too many cards for a 4-player or a 5-player game.")
+
     x_offset = (
         x_offset_where_player_begins + HORIZONTAL_SPACING_BETWEEN_PLAYER_NAME_AND_HAND
     )
@@ -235,6 +240,8 @@ def draw_player_name(svg_file, player_num, player):
             **{"dominant-baseline": "central"},
         )
         r.add(clue_giver_text)
+
+    return name
 
 
 def draw_player_card(yaml_file, svg_file, card):
@@ -742,6 +749,11 @@ def print_svg(svg_file):
 
     # Write the resulting SVG to stdout
     print(output)
+
+
+def error(msg: str):
+    print("Error: {}".format(msg), file=sys.stderr)
+    sys.exit(1)
 
 
 if __name__ == "__main__":

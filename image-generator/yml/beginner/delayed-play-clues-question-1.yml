@@ -10,10 +10,8 @@ players:
       - type: x
       - type: x
       - type: x
-      - type: x
   - clue_giver: true
     cards:
-      - type: x
       - type: x
       - type: x
       - type: x
@@ -24,10 +22,8 @@ players:
       - type: r
         clue: r
       - type: x
-      - type: x
   - cards:
       - type: x
       - type: r2
-      - type: x
       - type: x
       - type: x

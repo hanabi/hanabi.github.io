@@ -51,8 +51,7 @@ jobs:
       - name: Build
         run: ./build.sh
 
-      # Run a spell checker and do remark checks
-      # https://github.com/remarkjs/remark
+      # Perform various quality checks
       - name: Lint
         run: ./lint.sh
 

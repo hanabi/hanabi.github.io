@@ -11,28 +11,23 @@ players:
       - type: x
       - type: x
       - type: x
-      - type: x
   - cards:
       - type: 4
         clue: 4
       - type: x
       - type: x
       - type: x
-      - type: x
   - cards:
-      - type: g1
+      - type: r1
         border: false
       - type: y2
       - type: y3
       - type: g5
-      - type: r5
   - cards:
       - type: p5
         border: false
       - type: g2
         border: false
-      - type: g1
+      - type: p1
         border: false
       - type: b3
-      - type: g1
-        border: false
