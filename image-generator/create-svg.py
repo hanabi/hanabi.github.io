@@ -8,6 +8,7 @@ exec echo "Error: This script requires Python to be installed."
 ":"""
 
 # Imports (standard library)
+import functools
 import io
 import math
 import re
@@ -40,10 +41,27 @@ PLAYER_NAMES = [
     "Emily",
 ]
 PIECES_PATH = "/img/pieces"
+NO_VARIANT_SUITS = ["r", "y", "g", "b", "p"]
+ALL_SUITS = [
+    "r",  # Red
+    "y",  # Yellow
+    "g",  # Green
+    "b",  # Blue
+    "p",  # Purple
+    "t",  # Teal
+    "k",  # Black
+    "m",  # Rainbow
+    "i",  # Pink
+    "w",  # White
+    "n",  # Brown
+    "o",  # Omni
+    "u",  # Null
+    "s",  # Prism
+]
 ALL_RANKS = ["1", "2", "3", "4", "5"]
 
 # Global variables
-all_suits = []  # This cannot be a constant since it depends on the play stacks
+all_suits = []  # Representing the possible suits for the current variant
 x_offset = 0
 x_offset_where_player_begins = 0
 x_max = 0
@@ -80,7 +98,7 @@ def main():
     try:
         all_suits = [next(iter(color_pair)) for color_pair in yaml_file["stacks"]]
     except KeyError:
-        all_suits = "rygbp"
+        all_suits = NO_VARIANT_SUITS
 
     # Create a new SVG file
     svg_file = svgwrite.Drawing()
@@ -262,8 +280,15 @@ def draw_player_card(yaml_file, svg_file, card):
             yaml_file, svg_file, card_type, crossed_out, orange, x_offset, y_offset
         )
     else:
+        card_type_without_x = card_type[1:]
         draw_unclued_card(
-            yaml_file, svg_file, x_offset, y_offset, card_type[1:], crossed_out, orange
+            yaml_file,
+            svg_file,
+            x_offset,
+            y_offset,
+            card_type_without_x,
+            crossed_out,
+            orange,
         )
 
     draw_extra_card_attributes(svg_file, card)
@@ -294,6 +319,10 @@ def draw_clue_border(svg_file):
 def draw_unclued_card(
     yaml_file, svg_file, x_offset, y_offset, pips, crossed_out, orange
 ):
+    # "crossed_out" represents suits and ranks that are crossed out from
+    # negative clues
+    validate_card_type(crossed_out)
+
     s = svg_file.add(svg_file.svg((x_offset, y_offset), (CARD_WIDTH, CARD_HEIGHT)))
     card_image = svg_file.rect(
         (0, 0),
@@ -311,19 +340,12 @@ def draw_unclued_card(
 def draw_clued_card(
     yaml_file, svg_file, card_type, crossed_out, orange, x_offset, y_offset
 ):
-    # Find the possible ranks and suits
+    validate_card_type(card_type)
+
+    # Use sets to store the possible ranks and suits
     card_type_set = set(card_type)
     ranks = card_type_set.intersection(set(ALL_RANKS))
     suits = card_type_set.intersection(set(all_suits))
-
-    # Validate that the suit comes before the rank
-    if len(ranks) > 0 and len(suits) > 0:
-        first_character = card_type[0]
-        if first_character in ALL_RANKS:
-            error("When defining a card, the suit must come before the rank.")
-
-    # Validate that the suits come in order
-    # TODO
 
     if len(ranks) != 1 and len(suits) != 1:
         # This is a card with an unknown rank and an unknown color
@@ -337,7 +359,8 @@ def draw_clued_card(
         )
         s.add(rect)
         # Always draw pips on clued cards with unknown rank + unknown color
-        draw_card_pips(yaml_file, svg_file, s, ranks | suits, crossed_out, orange)
+        pips = ranks.union(suits)  # Combine the ranks and the suits together
+        draw_card_pips(yaml_file, svg_file, s, pips, crossed_out, orange)
     elif len(ranks) == 1 and len(suits) != 1:
         # This is a card with a known rank and an unknown color
         card_image = svg_file.image(
@@ -375,6 +398,71 @@ def draw_clued_card(
             height=CARD_HEIGHT,
         )
         svg_file.add(card_image)
+
+
+def validate_card_type(card_type):
+    # Parse the string that contains:
+    # 1) letters (representing card suits)
+    # 2) numbers (representing card ranks)
+    # e.g. "rb34"
+    letters = []
+    numbers = []
+    for character in card_type:
+        try:
+            number = int(character)
+            numbers.append(character)
+
+        except:
+            letters.append(character)
+
+    # Validate the suits
+    for letter in letters:
+        if letter not in all_suits:
+            error('The suit of "{}" is invalid.'.format(letter))
+
+    # Validate the ranks
+    for number in numbers:
+        if number not in ALL_RANKS:
+            error('The rank of "{}" is invalid.'.format(number))
+
+    # Validate that the suit comes before the rank
+    # e.g. "b3" instead of "3b"
+    if len(letters) > 0 and len(numbers) > 0:
+        first_character = card_type[0]
+        if first_character in ALL_RANKS:
+            error("When defining a card, the suit must come before the rank.")
+
+    # Validate that there are no ranks after any suits
+    # e.g. "b3r4"
+    if len(letters) > 0 and len(numbers) > 0:
+        iterating_over_suit_characters = True
+        for character in card_type:
+            if iterating_over_suit_characters:
+                if character in numbers:
+                    iterating_over_suit_characters = False
+            else:
+                if character in letters:
+                    error(
+                        "When defining a card, the suits and the ranks have to be grouped together."
+                    )
+
+    # Validate that the suits come in order (with respect to the play stacks)
+    if len(letters) >= 2:
+        sorted_letters = letters.copy()
+        sorted_letters.sort(key=functools.cmp_to_key(compare_suit_letters))
+        if letters != sorted_letters:
+            error(
+                'When defining a card, the suits must be specified in order from left to right. In other words, "{}" should be "{}".'.format(
+                    "".join(letters), "".join(sorted_letters)
+                )
+            )
+
+
+def compare_suit_letters(letter1, letter2):
+    if ALL_SUITS.index(letter1) > ALL_SUITS.index(letter2):
+        return 1
+
+    return -1
 
 
 def draw_card_pips(yaml_file, svg_file, svg, pips, crossed_out, orange):

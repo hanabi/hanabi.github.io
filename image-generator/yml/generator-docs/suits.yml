@@ -1,11 +1,11 @@
 suits:
-  i: pink
-  w: white
-  u: "null"
-  n: brown
   t: teal
   k: black
+  i: pink
+  w: white
+  n: brown
   o: omni
+  u: "null"
   s: prism-rygbp
 stacks:
   - i: 1
@@ -26,8 +26,8 @@ players:
       - type: w4
   - cards:
       - type: i12345
-      - type: xgiwnutoks
-      - type: giwnutoks5
+      - type: xgtkiwnous
+      - type: gtkiwnous5
   - cards:
       - type: t1
       - type: n2

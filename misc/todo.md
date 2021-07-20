@@ -1,8 +1,5 @@
 ### TODO
 
-- specifying a card as `3r` should throw an error (suit must always come first)
-- specifying suits as `yr` should throw an error (suit must always come in order)
-
 - level 5
   - The Stacked Finesse
   - The Ambiguous Finesse

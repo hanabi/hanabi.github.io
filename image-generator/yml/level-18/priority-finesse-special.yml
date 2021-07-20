@@ -9,7 +9,7 @@ players:
       - type: x
       - type: r3
       - type: x
-      - type: gbyp2
+      - type: ygbp2
       - type: x
   - text: Alice plays Red 3
   - name: Bob

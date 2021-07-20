@@ -9,7 +9,7 @@ players:
       - type: x
   - cards:
       - type: x
-      - type: py5
+      - type: yp5
         clue: 5
   - cards:
       - type: p1
