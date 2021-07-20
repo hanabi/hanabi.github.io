@@ -9,7 +9,7 @@ players:
       - type: x
       - type: r2
       - type: x
-      - type: 2by
+      - type: by2
         crossed_out: y
       - type: x
   - text: Alice plays the unknown 2

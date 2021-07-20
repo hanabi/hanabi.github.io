@@ -27,7 +27,7 @@ players:
   - cards:
       - type: i12345
       - type: xgiwnutoks
-      - type: 5giwnutoks
+      - type: giwnutoks5
   - cards:
       - type: t1
       - type: n2

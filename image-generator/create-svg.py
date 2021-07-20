@@ -40,9 +40,10 @@ PLAYER_NAMES = [
     "Emily",
 ]
 PIECES_PATH = "/img/pieces"
+ALL_RANKS = ["1", "2", "3", "4", "5"]
 
 # Global variables
-all_suits = []
+all_suits = []  # This cannot be a constant since it depends on the play stacks
 x_offset = 0
 x_offset_where_player_begins = 0
 x_max = 0
@@ -311,9 +312,18 @@ def draw_clued_card(
     yaml_file, svg_file, card_type, crossed_out, orange, x_offset, y_offset
 ):
     # Find the possible ranks and suits
-    card_type = set(card_type)
-    ranks = card_type & {"1", "2", "3", "4", "5"}
-    suits = card_type & set(all_suits)
+    card_type_set = set(card_type)
+    ranks = card_type_set.intersection(set(ALL_RANKS))
+    suits = card_type_set.intersection(set(all_suits))
+
+    # Validate that the suit comes before the rank
+    if len(ranks) > 0 and len(suits) > 0:
+        first_character = card_type[0]
+        if first_character in ALL_RANKS:
+            error("When defining a card, the suit must come before the rank.")
+
+    # Validate that the suits come in order
+    # TODO
 
     if len(ranks) != 1 and len(suits) != 1:
         # This is a card with an unknown rank and an unknown color
