@@ -6,9 +6,6 @@ As noted in the [convention changes document](convention-changes.md), sometimes 
 
 ## The Backlog (General Conventions)
 
-
-<br />
-
 ***Trash Order Chop Moves* after *Unknown Dupe Discharges***
 
 - If an *Unknown Dupe Discharge* touches exactly two new cards, then both of them must be the same copy.
