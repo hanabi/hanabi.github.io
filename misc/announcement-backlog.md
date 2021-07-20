@@ -6,54 +6,8 @@ As noted in the [convention changes document](convention-changes.md), sometimes 
 
 ## The Backlog (General Conventions)
 
-@everyone Deleted conventions:
-
-**The 5 Double Pull** (deleted)
-
-- This was deleted since it conflicted with the new *Playful Ignition* convention.
-
-@everyone New conventions:
-
-**The Playful Ignition** (by pianoblook)
-
-- If a playable card is on chop, the natural thing to do is to give it a *Chop-Focus Play Clue*. If a player *Chop Moves* the playable card instead, this is very strange. If there is not a good reason to do so, then the cluer is trying to communicate something extra.
-- In this situation, they intend for an *Ignition* on the next player. Since a *Chop Move* causes a blind-play, the *Chop Moved* player will know that the *Chop Moved* card is playable.
-- For example, in a 4-player game:
-  - It is the first turn and nothing is played on the stacks.
-  - Cathy's hand is, from newest to oldest: blue 4, blue 4, blue 5, red 1
-  - Alice clues number 5 to Cathy, touching a blue 5 on slot 3.
-  - It is now Bob's turn. Bob sees that since there were other *Play Clues* for Alice to give, Cathy will interpret this as an *Early 5's Chop Move*.
-  - Bob also knows that it is nonsensical to *Chop Move* a playable red 1 - Alice could have just give a red *Chop-Focus Play Clue* to the red 1.
-  - Thus, this must be a *Playful Ignition*. Bob blind-plays his *Finesse Position* card. It is blue 1 and it successfully plays.
-  - Cathy knows that if this was an *Early 5's Chop Move*, then Bob would not have blind-played anything. Since he blind-played his *Finesse Position* card, this must be a *Playful Ignition*. Cathy blind-plays her slot 4 card (the card to the right of the clued 5).
-- Sometimes, it can be useful to *Chop Move* a playable card. Something is only a *Playful Ignition* if there is not some other good reason for the *Chop Move*. Specifically, the player might want to:
-  - Avoid violating *Good Touch Principle*.
-  - Save a *Delayed Playable* card that is followed by a critical card.
-  - Save two important cards when there are a lot of cards to deal with and the team is low on clues.
-  - Get a blind-play from *Elimination* when the duplicate is visible.
 
 <br />
-
-**The Playful Ignition Interaction with 5 Rank Clues** (by pianoblook)
-
-- Normally, a number 5 rank clue to a 5 that is one-away-from-chop would be either:
-  - a *5 Stall*
-  - a *5's Chop Move*
-  - a *Play Clue* on the 5
-- If a *5 Stall* is impossible (i.e. it is not a stalling situation), then a *5's Chop Move* on a playable card would normally be treated as a *Play Clue* on the 5.
-- However, for level 20 players, *Play Clues* like this are **turned off**. In other words, every number 5 clue that focuses a 5 that is exactly one-away-from-chop would always be a *5's Chop Move*. This is referred to as the *Playful Ignition Interaction*.
-- The *Playful Ignition Interaction* can be tricky for players, since *Playful Ignitions* can look like normal *Finesses*. Players need to remember that the blind-play relates to the card being *Chop Moved*, not the 5 directly.
-- For example, in a 3-player game:
-  - It is the *Mid-Game*.
-  - Red 3 is played on the stacks.
-  - Cathy's hand is, from newest to oldest: blue 4, blue 4, blue 5, blue 1
-  - Alice clues number 5 to Cathy, touching the blue 5 on slot 3.
-  - Bob expected Alice to clue number 1 to Cathy. Thus, this must be a *Playful Ignition*. Bob blind-plays his *Finesse Position* card. It is red 4 and it successfully plays.
-  - From Cathy's perspective, she first thought that Alice's clue was a *5's Chop Move*. However, if that were the case, Bob would not have blind-played anything.
-  - Furthermore, Cathy knows that *Play Clues* on 5's one-away-from-chop using rank clues are turned off. Thus, Bob's blind-play must indicate a *Playful Ignition*.
-  - Thus, Cathy's 5 can be any color (including blue). Cathy blind-plays her slot 4 card.
-- Importantly, this interaction is **turned off** in the *End-Game*.
-- Note that sometimes, players will use a rank 5 clue to touch an actual playable 5 that is exactly one-away-from-chop. Regardless of whether or not the 5 is playable, the next player needs to react as if it wasn't playable. (This is because it is agreed that all *Play Clue* interpretations are turned off.)
 
 ***Trash Order Chop Moves* after *Unknown Dupe Discharges***
 
