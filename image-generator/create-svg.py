@@ -4,7 +4,7 @@
 """:"
 which python3 >/dev/null 2>&1 && exec python3 "$0" "$@"
 which python  >/dev/null 2>&1 && exec python  "$0" "$@"
-exec echo "Error: requires python"
+exec echo "Error: This script requires Python to be installed."
 ":"""
 
 # Imports (standard library)
@@ -246,28 +246,12 @@ def draw_player_name(svg_file, player_num, player):
 
 def draw_player_card(yaml_file, svg_file, card):
     global x_offset
-    global y_top
 
     card_type = str(card["type"])
     clued = not card_type.startswith("x")
 
-    # Draw the clue border
     if card.get("border", clued):
-        clue_border_overlap = 6
-        clue_border = svg_file.rect(
-            (
-                x_offset - (clue_border_overlap / 2),
-                y_offset - (clue_border_overlap / 2),
-            ),
-            (CARD_WIDTH + clue_border_overlap, CARD_HEIGHT + clue_border_overlap),
-            fill=CLUE_BORDER_COLOR,
-            rx=CARD_ROUNDED_CORNER_SIZE,
-            ry=CARD_ROUNDED_CORNER_SIZE,
-        )
-        svg_file.add(clue_border)
-
-        if y_offset == 0:
-            y_top = min(y_top, -clue_border_overlap / 2)
+        draw_clue_border(svg_file)
 
     crossed_out = str(card.get("crossed_out", ""))
     orange = str(card.get("orange", ""))
@@ -284,6 +268,26 @@ def draw_player_card(yaml_file, svg_file, card):
     draw_extra_card_attributes(svg_file, card)
 
     x_offset += CARD_WIDTH + HORIZONTAL_SPACING_BETWEEN_CARDS
+
+
+def draw_clue_border(svg_file):
+    global y_top
+
+    clue_border_overlap = 6
+    clue_border = svg_file.rect(
+        (
+            x_offset - (clue_border_overlap / 2),
+            y_offset - (clue_border_overlap / 2),
+        ),
+        (CARD_WIDTH + clue_border_overlap, CARD_HEIGHT + clue_border_overlap),
+        fill=CLUE_BORDER_COLOR,
+        rx=CARD_ROUNDED_CORNER_SIZE,
+        ry=CARD_ROUNDED_CORNER_SIZE,
+    )
+    svg_file.add(clue_border)
+
+    if y_offset == 0:
+        y_top = min(y_top, -clue_border_overlap / 2)
 
 
 def draw_unclued_card(
