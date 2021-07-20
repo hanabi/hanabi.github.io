@@ -9,36 +9,6 @@ title: Level 1 - Fundamentals
 
 <br />
 
-## Website features
-
-<br />
-
-- If you have played a few games on hanab.live, you might have noticed the website has several features.
-- The website has an [extensive documentation](https://github.com/Zamiell/hanabi-live/blob/master/docs/FEATURES.md#notes). You can get to that page by pressing the "Help" icon in the upper-right.
-- The list below is not an exhaustive list, but summarizes the most important features that beginners should know right now.
-
-### Card notes
-
-- If you are following the beginner guide, then you should be [writing card notes](https://hanabi.github.io/docs/beginner/card-notes) in every game.
-- Certain special notes [change the appearance of the card for you](https://github.com/Zamiell/hanabi-live/blob/master/docs/FEATURES.md#notes).
-  - If you write the name of a card like "red 2", the image of the card will snap to the written card.
-  - A note of "f" is used to indicate a card is *Finessed* (meaning it will blind play). The website draws a special border for this.
-    - You can also use Shift+right-click to add this note.
-  - A note of "cm" is used to indicate a card is *Chop Moved* (a convention introduced in Level 3). The website draws a special border for this.
-    - You can also Alt+right-click to add this note.
-  - You can use brackets to stack multiple notes, e.g. "[f] [red 2]".
-
-### Rewind
-
-- During a game, clicking the arrow button in the bottom-left-hand corner gives an [in-game replay](https://github.com/Zamiell/hanabi-live/blob/master/docs/FEATURES.md#in-game-replay).
-- This is useful if you need to recall what happened several turns ago.
-
-### Empathy
-
-- If you press the space bar or left-click someone else's hand, you can see what explicit information they know about their cards.
-- This is the equivalent of asking "what do you know about your cards?" in real life.
-- This feature is referred to as "empathy" by the Hyphen-ated group.
-
 ## Conventions
 
 <br />
@@ -170,3 +140,40 @@ This process is represented in the following flowchart:
 
 - Even though *Finessed* cards are unclued, you can think of them as having an invisible clue on them. (Because they are already "gotten".)
 - Thus, if a clue touches a *Finessed* card and some other card that did not have a clue on it, then the focus of the clue would be on the other card (because the focus of a clue is always on the "new" card introduced).
+
+<br />
+
+## Website Features
+
+- If you have played a few games on [Hanab Live](https://hanab.live), then you may have noticed that the website has several features.
+- The website has an [extensive documentation](https://github.com/Zamiell/hanabi-live/blob/master/docs/FEATURES.md#notes). You can get to that page by pressing the "Help" icon in the upper-right part of the website lobby.
+- Below are a few of the most important features that a beginner should know about.
+
+<br />
+
+### Card Notes
+
+- If you are following the beginner's guide, then you should be [writing card notes](https://hanabi.github.io/docs/beginner/card-notes) in every game.
+- Certain special notes [change the appearance of the card for you](https://github.com/Zamiell/hanabi-live/blob/master/docs/FEATURES.md#notes).
+  - If you write the name of a card like "red 2" or "r2", the image of the card will snap to the written card.
+  - A note of "f" is used to indicate a card is *Finessed* (meaning that it will blind-play in the future). The website draws a special border around *Finessed* cards.
+    - You can use `shift + right-click` as a shortcut to add this note.
+  - A note of "cm" is used to indicate a card is *Chop Moved*. The website draws a special border around *Chop Moved* cards. (*Chop Moves* are a special convention introduced in level 3. If you are a level 1 player, don't worry about this for now.)
+    - You can use `alt + right-click` as a shortcut to add this note.
+  - You can also use brackets to stack multiple notes. For example, "[f] [red 2]".
+
+<br />
+
+### Rewind
+
+- During a game, clicking the arrow button in the bottom-left-hand corner opens the [in-game replay feature](https://github.com/Zamiell/hanabi-live/blob/master/docs/FEATURES.md#in-game-replay).
+  - You can also use the arrow keys as a shortcut to move backwards and forwards through time.
+- This is useful if you need to recall what happened several turns ago.
+
+<br />
+
+### Empathy
+
+- If you press the space bar or left-click on someone else's hand, you can see how the cards appear to them.
+- This is the equivalent of asking "what do you know about your cards?" in real life.
+- This feature is referred to as "empathy" by the Hyphen-ated group.
