@@ -102,7 +102,8 @@ import ChopMovePrompt from '@site/image-generator/yml/level-4/chop-move-prompt.y
   - When counting how far away from chop a card is, you should only look at **unclued** cards.
 - Remember that *5 Stalls* takes precedence over *5's Chop Moves*. Thus, if a number 5 clue **could** just be a *5 Stall* (e.g. it is the *Early Game*), then it should not *Chop Move* anything.
   - Technically, one could try to analyze whether a clue is a *5 Stall* or *5's Chop Move* by looking at whether the clue-giver had a different clue to give, since *5 Stalls* are only permitted if all "normal" *Play Clues* and *Save Clues* have been extinguished. However, this analysis relies on asymmetric information, and can be confusing even for experienced players. So, this move is not introduced until [level 17](level-17.md#special-moves).
-- For level 20+ players, there are [additional rules](level-20.md#interaction-with-5-rank-clues) relating to the 5's Chop Move.
+- For level 17+ players, see the *[Early 5's Chop Move](level-17.md#the-early-5s-chop-move)*.
+- For level 20+ players, there are [additional rules](level-20.md#interaction-with-5-rank-clues) relating to the *5's Chop Move*.
 
 <br />
 
