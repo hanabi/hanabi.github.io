@@ -81,7 +81,6 @@ import ChopMovePrompt from '@site/image-generator/yml/level-4/chop-move-prompt.y
   - the chop card is not a trash card
 - Then, we agree that it has a special meaning, and that the clue is **not** a *Play Clue* at all.
 - Instead, it is understood that the clue is a *5's Chop Move*, and the player should *Chop Move* in a manner similar to the *Trash Chop Move*.
-- For level 23+ players using all conventions, there are [additional rules](https://hanabi.github.io/docs/extras/miscellaneous.md#interaction-with-5-rank-clues) relating to the 5's Chop Move.
 - For example, in a 3-player game:
   - All the 1's are played on the stacks.
   - Bob has a completely unclued hand.
@@ -103,6 +102,7 @@ import ChopMovePrompt from '@site/image-generator/yml/level-4/chop-move-prompt.y
   - When counting how far away from chop a card is, you should only look at **unclued** cards.
 - Remember that *5 Stalls* takes precedence over *5's Chop Moves*. Thus, if a number 5 clue **could** just be a *5 Stall* (e.g. it is the *Early Game*), then it should not *Chop Move* anything.
   - Technically, one could try to analyze whether a clue is a *5 Stall* or *5's Chop Move* by looking at whether the clue-giver had a different clue to give, since *5 Stalls* are only permitted if all "normal" *Play Clues* and *Save Clues* have been extinguished. However, this analysis relies on asymmetric information, and can be confusing even for experienced players. So, this move is not introduced until [level 17](level-17.md#special-moves).
+- For level 20+ players, there are [additional rules](level-20.md#interaction-with-5-rank-clues) relating to the 5's Chop Move.
 
 <br />
 

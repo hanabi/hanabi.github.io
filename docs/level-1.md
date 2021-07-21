@@ -155,7 +155,7 @@ This process is represented in the following flowchart:
 
 <!-- lint disable no-undefined-references -->
 
-- If you are following the beginner's guide, then you should be [writing card notes](https://hanabi.github.io/docs/beginner/card-notes) in every game.
+- If you are following the beginner's guide, then you should be [writing card notes](beginner/card-notes) in every game.
 - Certain special notes [change the appearance of the card for you](https://github.com/Zamiell/hanabi-live/blob/master/docs/FEATURES.md#notes).
   - If you write the name of a card like "red 2" or "r2", the image of the card will snap to the written card.
   - A note of "f" is used to indicate a card is *Finessed* (meaning that it will blind-play in the future). The website draws a special border around *Finessed* cards.
