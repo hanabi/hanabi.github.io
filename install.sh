@@ -1,14 +1,17 @@
+#!/bin/bash
+
 set -e # Exit on any errors
 
 # Get the directory of this script
 # https://stackoverflow.com/questions/59895/getting-the-source-directory-of-a-bash-script-from-within
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
-# Install JavaScript dependencies
+echo "Installing JavaScript dependencies..."
 cd "$DIR"
 npm ci
+echo "Complete."
 
-# Install Python dependencies
+echo "Installing Python dependencies..."
 cd "$DIR/image-generator"
 if command -v "pip3" > /dev/null; then
   pip3 install -r requirements.txt
@@ -22,3 +25,4 @@ elif command -v "pip" > /dev/null; then
 else
   echo "Error: You do not appear to have Python / pip installed, which is required for this website."
 fi
+echo "Complete."
