@@ -16,7 +16,7 @@ Playing with Hat Guessing was quite fun, but not fun enough to want to play with
 
 The story of Hat Guessing is relevant because if the goal of the group was to only to maximize the average score, then we would simply play with Hat Guessing all the time. But Hanabi is a game, and we want to have as much fun playing it as possible. So with all of that in mind, we could say that the goal of the convention framework is three-fold:
 
-1. To maximize the highest average score
+1. To maximize the highest average score for the "classic" variants (i.e. `No Variant`, `Rainbow (6 Suits)` and `Black (6 Suits)`)
     - We are Hanabi enthusiasts and we care about optimizing our play to get the highest possible scores for all deals.
     - However, optimizing too much can take the fun out of the game, so there is a balance involved.
 
