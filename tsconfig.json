@@ -9,18 +9,18 @@
     // "outDir" specifies the output directory
     // By default, it will put the compiled ".js" next to the respective ".ts" file,
     // which will clutter the "src" directory
-    "outDir": "./dist",
+    "outDir": "dist",
   },
 
   // A list of the TypeScript files to compile
   "include": [
-    "./image-generator/**/*.js",
-    "./src/**/*.ts",
-    "./src/**/*.js",
-    "./static/**/*.js",
-    "./.remarkrc.js",
-    "./babel.config.js",
-    "./docusaurus.config.js",
-    "./sidebars.js",
+    ".remarkrc.mjs",
+    "babel.config.js",
+    "docusaurus.config.js",
+    "image-generator/**/*.js",
+    "sidebars.js",
+    "src/**/*.js",
+    "src/**/*.ts",
+    "static/**/*.js",
   ],
 }

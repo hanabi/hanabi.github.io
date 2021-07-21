@@ -1,5 +1,18 @@
-module.exports = {
-  "plugins": [
+/* eslint-disable import/no-extraneous-dependencies */
+
+import remarkRetext from "remark-retext";
+import retextEnglish from "retext-english";
+import unified from "unified";
+import retextSyntaxMentions from "retext-syntax-mentions";
+import retextSyntaxURLs from "retext-syntax-urls";
+import retextDiacritics from "retext-diacritics";
+import retextIndefiniteArticle from "retext-indefinite-article";
+import retextRedundantAcronyms from "retext-redundant-acronyms";
+import retextRepeatedWords from "retext-repeated-words";
+import retextSentenceSpacing from "retext-sentence-spacing";
+
+const config = {
+  plugins: [
     // Use the recommended presets by remark
     // https://github.com/remarkjs/remark-lint#list-of-presets
     "remark-preset-lint-consistent",
@@ -18,20 +31,20 @@ module.exports = {
     // Load retext linters to lint English
     [
       // Parse the Markdown as English using retext
-      require("remark-retext"),
-      require("unified")()
-        .use(require("retext-english"))
+      remarkRetext,
+      unified()
+        .use(retextEnglish)
 
         // Parse common kinds of syntax
-        .use(require("retext-syntax-mentions"))
-        .use(require("retext-syntax-urls"))
+        .use(retextSyntaxMentions)
+        .use(retextSyntaxURLs)
 
         // Load linters
-        .use(require("retext-diacritics"))
-        .use(require("retext-indefinite-article"))
-        .use(require("retext-redundant-acronyms"))
-        .use(require("retext-repeated-words"))
-        .use(require("retext-sentence-spacing"))
+        .use(retextDiacritics)
+        .use(retextIndefiniteArticle)
+        .use(retextRedundantAcronyms)
+        .use(retextRepeatedWords)
+        .use(retextSentenceSpacing),
     ],
 
     // Disable some rules that are enabled by the presets above
@@ -41,5 +54,6 @@ module.exports = {
     ["remark-lint-list-item-spacing", false],
     ["remark-lint-maximum-heading-length", false],
     ["remark-lint-maximum-line-length", false],
-  ]
-}
+  ],
+};
+export default config;

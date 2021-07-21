@@ -11,7 +11,7 @@ module.exports = {
     browser: true,
   },
 
-  ignorePatterns: ["docusaurus/**", "build/**"],
+  ignorePatterns: ["docusaurus/**", "build/**", "!.remarkrc.mjs"],
 
   parserOptions: {
     // ESLint needs to know about the project's TypeScript settings in order for TypeScript-specific
@@ -19,6 +19,7 @@ module.exports = {
     // We do not point this at "./tsconfig.json" because certain files (such at this file) should be
     // linted but not included in the actual project output
     project: "./tsconfig.eslint.json",
+    extraFileExtensions: [".mjs"],
   },
 
   rules: {
