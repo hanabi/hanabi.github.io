@@ -153,6 +153,8 @@ This process is represented in the following flowchart:
 
 ### Card Notes
 
+<!-- lint disable no-undefined-references -->
+
 - If you are following the beginner's guide, then you should be [writing card notes](https://hanabi.github.io/docs/beginner/card-notes) in every game.
 - Certain special notes [change the appearance of the card for you](https://github.com/Zamiell/hanabi-live/blob/master/docs/FEATURES.md#notes).
   - If you write the name of a card like "red 2" or "r2", the image of the card will snap to the written card.
@@ -161,6 +163,8 @@ This process is represented in the following flowchart:
   - A note of "cm" is used to indicate a card is *Chop Moved*. The website draws a special border around *Chop Moved* cards. (*Chop Moves* are a special convention introduced in level 3. If you are a level 1 player, don't worry about this for now.)
     - You can use `alt + right-click` as a shortcut to add this note.
   - You can also use brackets to stack multiple notes. For example, "[f] [red 2]".
+
+<!-- lint enable no-undefined-references -->
 
 <br />
 

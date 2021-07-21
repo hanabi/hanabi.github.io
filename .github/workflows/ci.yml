@@ -1,4 +1,4 @@
-name: Build & Lint & Deploy
+name: CI
 
 on:
   push:
@@ -15,27 +15,9 @@ jobs:
       - name: Checkout the repository
         uses: actions/checkout@v2
 
-      - name: Setup Node
-        uses: actions/setup-node@v2
-        with:
-          node-version: '16.x'
-
-      - name: Cache node modules
-        uses: actions/cache@v2
-        id: deploy_cache
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
-
-      - name: Install node modules
-        run: npm ci
-
-      - name: Setup Python 3
-        uses: actions/setup-python@v2
-        with:
-          python-version: '3.x'
+      # ------
+      # Python
+      # ------
 
       - name: Install Python dependencies
         run: |
@@ -47,17 +29,41 @@ jobs:
         with:
           args: ./image-generator/create-svg.py --check
 
-      # Use Docusaurus to build the website (e.g. convert the Markdown files to HTML)
-      - name: Build
+      # ----------
+      # JavaScript
+      # ----------
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          # The default version is 14
+          # The ESLint config requires Node 16 to work properly
+          node-version: '16.x'
+
+      - name: Retrieve the cached "node_modules" directory (if present)
+        uses: actions/cache@v2
+        id: node-cache
+        with:
+          path: node_modules
+          key: node-modules-${{ runner.os }}-${{ hashFiles('package-lock.json') }}
+
+      - name: Install dependencies (if the cached directory was not found)
+        if: steps.node-cache.outputs.cache-hit != 'true'
+        run: npm ci
+
+      - name: Setup Python 3
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+
+      - name: Use Docusaurus to build the website
         run: ./build.sh
 
-      # Perform various quality checks
-      - name: Lint
+      - name: Perform automated checks
         run: ./lint.sh
 
-      # Deploy it to production
       # https://hanabi.github.io
-      - name: Deploy
+      - name: Deploy to GitHub pages
         if: github.event_name != 'pull_request'
         uses: peaceiris/actions-gh-pages@v3
         with:
