@@ -45,7 +45,7 @@ import InteractionsBetween2SavesAnd5Stalls from '@site/image-generator/yml/level
 - In the *Early Game*, players are only allowed to perform a *5 Stall* if there is nothing left to do. (Or, as a special exception, if there is only one *Play Clue* to give and that card is on *Finesse Position*.)
 - Thus, if someone clues a 5 and there **is** something else to do, they must be trying to send an additional message.
 - If the 5 is one-away from chop, they intend for an *Early 5's Chop Move*. This functions in the exact same way a normal *5's Chop Move* does (except it was done in the *Early Game*, which is not normally possible).
-- For level 23+ players using all conventions, there are [additional rules](extras/miscellaneous.md#interaction-with-5-rank-clues) relating to *Early 5's Chop Moves*.
+- For level 20+ players, there are [additional rules](level-20.md#interaction-with-5-rank-clues) relating to *Early 5's Chop Moves*.
 <br />
 
 ### The 5 Pull
