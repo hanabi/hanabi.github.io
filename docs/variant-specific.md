@@ -19,10 +19,20 @@ import LoadedException2 from '@site/image-generator/yml/extras/variant-specific/
   - Throw It in a Hole
   - Cow & Pig
   - Duck
-- In hard variants, the following changes are made to the conventions:
-  - Players are not allowed to *Double Discard Avoid*. Any clue given in a *Double Discard* situation will instead be treated like a clue given in a non-*Double Discard* situation.
-  - Players are not allowed to *5 Stall* in the *Early Game*. Any clue that looks like a *5 Stall* is instead treated as either a *5's Chop Move* or a *5 Pull*.
-  - Players are not required to clue anything in the *Early Game*; they are allowed to initiate the *Mid-Game* whenever they see fit.
+
+<br />
+
+#### Convention Changes for All Hard Variants
+
+- Players are not allowed to *Double Discard Avoid*.
+  - Any clue given in a *Double Discard* situation will instead be treated like a clue given in a non-*Double Discard* situation.
+- Players are not allowed to *5 Stall* in the *Early Game*.
+  - Any clue that looks like a *5 Stall* is instead treated as either a *5's Chop Move* or a *5 Pull*.
+- Players are not required to clue anything in the *Early Game*; they are allowed to initiate the *Mid-Game* whenever they see fit.
+- Players are not allowed to give [*Double Tempo Clues*](level-6.md#the-double-tempo-clue).
+  - If a *Tempo Clue* is given that touches two or more cards, only the leftmost card is focused.
+  - This will therefore cause a [*Tempo Clue Chop Move*](level-6.md#the-tempo-clue-chop-move-tccm).
+- *Loaded Play Clues*, as defined below, are turned on.
 
 <br />
 
