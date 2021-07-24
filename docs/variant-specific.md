@@ -36,7 +36,6 @@ import LoadedException2 from '@site/image-generator/yml/extras/variant-specific/
 
 <br />
 
-
 ### The Early Save
 
 - Normally, players are allowed to give a *Save Clue* to a card on chop, even if that clued player:
