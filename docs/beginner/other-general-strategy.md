@@ -34,7 +34,7 @@ import BeginnersGuideProgress from '@site/src/beginnersGuide.js';
 ### Prefer Color Clues
 
 - In general, if you have a choice, **color clues should be given over number clues**. This is because color clues are usually more specific, telling the player the exact identity of the card.
-- Of course, don't be afraid to disregard this advice and use number clues if it helps to "fill in" other cards in the hand.
+- Of course, don't be afraid to disregard this advice and use number clues if it "gets" additional cards or it helps to "fill in" other cards in the hand.
 
 <br />
 
