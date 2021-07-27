@@ -57,10 +57,10 @@ jobs:
           python-version: '3.x'
 
       - name: Use Docusaurus to build the website
-        run: ./build.sh
+        run: bash build.sh
 
       - name: Perform automated checks
-        run: ./lint.sh
+        run: bash lint.sh
 
       - name: Deploy to GitHub pages
         if: github.event_name != 'pull_request'
