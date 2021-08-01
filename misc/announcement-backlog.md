@@ -55,7 +55,7 @@ As noted in the [convention changes document](convention-changes.md), sometimes 
 
 - This convention only applies in variants with a dark omni or gray pink suit.
 - The rules for saving dark omni and gray pink suits have been slightly refined so that players can perform more 2-for-1 clues.
-- See the doc for more details: https://github.com/hanabi/hanabi.github.io/blob/main/variant-specific/dark-omni-&-gray-pink.md
+- See the website for more details: https://hanabi.github.io/docs/variant-specific/dark-omni-gray-pink/
 
 **The Pink Fake Prompt & The Pink Fake Finesse** (by Jeff)
 
