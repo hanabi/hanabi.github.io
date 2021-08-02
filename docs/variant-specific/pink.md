@@ -265,7 +265,7 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
   - Bob knows that Alice is violating *Pink Promise*. This must mean that he is supposed to play his slot 3 card.
   - Bob blind-plays slot 3 and it is a red 1.
   - Cathy knows that if this was a *3 Bluff*, then Bob would have played his *Finesse Position*. So it cannot be a *3 Bluff*.
-  - Thus, Cathy knows that this must be a *Bubblegum* clue. Since Red 1 is not a pink card and Alice was in *Bluff Seat* for Bob, this must be a *Bubblegum Bluff*.
+  - Thus, Cathy knows that this must be a *Bubblegum* clue. Since red 1 is not a pink card and Alice was in *Bluff Seat* for Bob, this must be a *Bubblegum Bluff*.
   - Cathy marks her slot 5 card as the one-away-from-playable pink card, the pink 2.
 
 <BubblegumBluff />
