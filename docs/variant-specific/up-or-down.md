@@ -19,16 +19,17 @@ These conventions apply to the "Up or Down" variants.
 - The *3 Bluffs* convention is turned off. (3's are not valuable in this variant.)
 - The *5 Stall*, *5's Chop Move*, and *5 Pull* conventions are turned off.
 
-### 1's Color Ejection (1CE)
+### 1 Color Ejection (1CE)
 
 - Similar to *5 Color Ejection*, it is also possible to perform a *1 Color Ejection* in an *Up or Down* variant.
-- 1CE works in the exact same way that 5CE does (e.g. players use the "two or more blind-plays" rule).
+- *1 Color Ejection* works in the exact same way that *5 Color Ejection* does (e.g. players use the "two-or-more blind-plays" rule).
+- Before a *1 Color Ejection* can be performed, the suit direction must be established. For example, if no cards are played on the stacks, then a *Play Clue* touching a 1 would just look like a normal *Play Clue*.
 
 ### 2 Charm 
 
 - Similar to *4 Charm*, it is also possible to perform a *2 Charm* in an *Up or Down* variant.
-- 2 Charm works in the exact same way that 4 Charm does (e.g. players use the "two or more blind-plays" rule).
-- For both 1CE and 2 Charm the suit direction must be established before performing. For example, if no cards are played on the field, cluing a 4 initiates a single bluff on slot 1. 
+- *2 Charms* works in the exact same way that *4 Charms do* (e.g. players use the "three-or-more blind-plays" rule).
+- Before a *2 Charm* can be performend, the suit direction must be established. For example, if no cards are played on the stacks, then a *Play Clue* to a 2 would just indicate a normal *Finesse*. 
 
 ### The U-Turn Finesse
 
