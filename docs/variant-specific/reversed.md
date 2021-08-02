@@ -65,6 +65,12 @@ These conventions apply to any variant with a reversed suit (cards must be playe
 - Similar to *5 Color Ejection*, it is also possible to perform a *1 Color Ejection* on a reversed suit.
 - 1CE works in the exact same way that 5CE does (e.g. players use the "two or more blind-plays" rule).
 
+### 2 Charm 
+
+- Similar to *4 Charm*, it is also possible to perform a *2 Charm* in an *Up or Down* variant.
+- 2 Charm works in the exact same way that 4 Charm does (e.g. players use the "two or more blind-plays" rule).
+- For both 1CE and 2 Charm the suit direction must be established before performing. For example, if no cards are played on the field, cluing a 4 initiates a single bluff on slot 1. 
+
 ### 1's Chop Move
 
 - Normally, when someone gives a number 1 clue, and all the 1's are played on the stacks, it communicates a *Trash Chop Move*.
