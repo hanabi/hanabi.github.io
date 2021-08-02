@@ -24,6 +24,12 @@ These conventions apply to the "Up or Down" variants.
 - Similar to *5 Color Ejection*, it is also possible to perform a *1 Color Ejection* in an *Up or Down* variant.
 - 1CE works in the exact same way that 5CE does (e.g. players use the "two or more blind-plays" rule).
 
+### 2 Charm 
+
+- Similar to *4 Charm*, it is also possible to perform a *2 Charm* in an *Up or Down* variant.
+- 2 Charm works in the exact same way that 4 Charm does (e.g. players use the "two or more blind-plays" rule).
+- For both 1CE and 2 Charm the suit direction must be established before performing. For example, if no cards are played on the field, cluing a 4 initiates a single bluff on slot 1. 
+
 ### The U-Turn Finesse
 
 - Normally, when a clued card is going to play and then someone on the team clues that card **again**, this is usually one of two different things:
