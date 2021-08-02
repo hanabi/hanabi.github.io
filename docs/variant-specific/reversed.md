@@ -60,10 +60,15 @@ These conventions apply to any variant with a reversed suit (cards must be playe
 
 - Similar to the *5 Double Bluff*, you can also use a reversed 1 to initiate a *1 Double Bluff* in exactly the same way.
 
-### 1's Color Ejection (1CE)
+### 1 Color Ejection (1CE)
 
 - Similar to *5 Color Ejection*, it is also possible to perform a *1 Color Ejection* on a reversed suit.
-- 1CE works in the exact same way that 5CE does (e.g. players use the "two or more blind-plays" rule).
+- *1 Color Ejection* works in the exact same way that *5 Color Ejection* does (e.g. players use the "two-or-more blind-plays" rule).
+
+### 2 Charm 
+
+- Similar to *4 Charm*, it is also possible to perform a *2 Charm* in an *Up or Down* variant.
+- *2 Charms* works in the exact same way that *4 Charms do* (e.g. players use the "three-or-more blind-plays" rule).
 
 ### 1's Chop Move
 
