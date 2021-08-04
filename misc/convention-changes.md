@@ -43,7 +43,6 @@
   - If it is a small, non-controversial change, then it might make sense to immediately implement it.
   - Otherwise, we would typically wait a while so that everyone has time to chime in.
   - If there is a good amount of consensus about a move, then this will shorten the amount of time that it is in consideration for.
-- A good amount of time to wait for a sizable change is 2 weeks.
 
 <br />
 
