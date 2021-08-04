@@ -91,7 +91,7 @@ import DiscardModulation from '@site/image-generator/yml/level-6/discard-modulat
 - *Tempo Clues* are defined as clues that "get" no new cards. Their purpose is to get 1 or more cards played that **already** had a clue on them.
   - If a clue is given to a card that is **already** known to be playable, then that would **not** count as a *Tempo Clue*. It would instead be a *Burn Clue* (i.e. a clue that accomplishes nothing).
 - In our group, we do not generally perform *Tempo Clues*, because they do not meet *[Minimum Clue Value Principle](first-principles.md#2-minimum-clue-value-principle)*. However, in the following special circumstances, *Tempo Clues* have enough value to justify giving them:
-  1. When it gets two or more clued cards to play (in the context of the *Tempo Clue* only, not any other "moves" afterward)
+  1. When it gets two or more clued cards to play
   1. When the clued card is not a 5 and it is "out of order" (meaning that it is impossible for a *Prompt* to get the card played)
   1. When the clued card was *Chop Moved* and it is now playable
   1. When playing the clued card would "unlock" someone's hand (see the section on *Locked Hands* later on)
@@ -130,6 +130,7 @@ import DiscardModulation from '@site/image-generator/yml/level-6/discard-modulat
   - Bob plays red 1 from slot 1. The red card in slot 2 could be red 2, red 3, red 4, or red 5.
   - Cathy clues number 2 to Bob, which does not introduce any new cards, but it does "fill in" his slot 2 card.
   - Bob now knows that he has exactly red 2 on slot 2 and that this was a *Tempo Clue*. Since it does not get any new cards and only get *Tempo* on one card in total, he knows that he should also *Chop Move* his slot 5 card.
+- When determining if a *Tempo Clue* "has a purpose", it should only be evaluated on the turn immediately after the clue is given. (This helps keeps things simple and prevents desynchronization.)
 
 <TempoClueChopMovePart1 />
 
