@@ -31,7 +31,7 @@ import UnnecessaryBadChopMoveEjection from '@site/image-generator/yml/level-23/u
 
 ### Unnecessary Moves with Known Trash --> Ignition
 
-- If **known trash** is used as clue target, the "extra" thing is an *Ignition*. The *Ignition* can be on anyone on the team, similar to how *Double Ignition* works.
+- If **known trash** is used as clue target, the "extra" thing is an *Ignition*. The *Ignition* must be Bob, unless Alice had a very good reason not to let Bob give the clue, similar to how *Double Ignition* works.
 
 #### Example 1 - An Unnecessary Trash Push (with Ignition)
 

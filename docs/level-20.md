@@ -24,7 +24,9 @@ title: Level 20 - Ignition
 - When a *Double Ignition* is triggered, it means that two players on the team need to blind-play their *Finesse Position* as any playable card.
   - *Double Ignition* does not necessarily have to be on the next two players. It can be on anyone.
 - In most circumstances, a *Double Ignition* should be clear. This is because the two players that have a playable card will each see that the clue giver should have clued the other playable card directly (instead of giving a "useless" clue).
-- Sometimes, three players on the team will have playable cards on *Finesse Position*. If a *Double Ignition* is performed in this case, similar to how an *Ambiguous Finesse* works, it will "get" the two cards from the final two players. (Bob will do nothing because he sees that the *Double Ignition* is on Cathy and Donald.)
+- Sometimes, an *Ambiguous Double Ignition* can happen (when three or more players have a playable card on *Finesse Position*). In this situation:
+  - The first *Ignition* **must always be on Bob**, unless Alice had a very good reason to give the clue (i.e. Bob has a known-playable card already).
+  - The second *Ignition* **must always be on the last player with a playable card**. (This is because the players in the middle will think that the last person is supposed to play, similar to how a normal *Ambiguous Finesse* works.)
 
 <br />
 
