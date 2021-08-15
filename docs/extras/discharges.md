@@ -96,8 +96,7 @@ import UnknownDupeDischarge2 from '@site/image-generator/yml/extras/discharges/u
 
 ### The Junk Discharge (for 1's)
 
-- If two 1's are newly touched with a rank Play clue, but the focus is trash, some blind-play is being called for.
-- In cases where all the clued 1's are trash, this is simply a *Trash Finesse* or *Bluff*; a single blind-play from *First Finesse Position* is sufficient to convey that they should all be marked as known-trash.
-- But what if the non-focused 1 is **not** trash, and is indeed playable?
-- In this case, a *First Finesse* blind-play would result in incorrect notes. Therefore, this is actually calling for a *Third Finesse Position* blind-play, as a *Junk Discharge*.
-- As a result, the clued player will know to only mark the focused 1 as trash and play the other 1 as normal.
+- Usually, when two 1's are touched with a rank *Play Clue*, and one of them is good and one of them is bad, it is a *Stale 1's Clue*.
+- However, for a *Stale 1's Clue* to work properly, there has to be enough context in the game for the focused card to be stale. What a number 1 clue is given that clearly focuses the wrong card? This must be communicating something extra.
+- This situation cannot call for a *Trash Finesse* or *Trash Bluff*, because those moves promise that all of the ancillary touched cards are also trash (which is untrue in this case).
+- Since playing slot 1 won't work, we agree that this should call for a *Discharge*. As a result, the clued player will know to only mark the focused 1 as trash and play the other 1 as normal.
