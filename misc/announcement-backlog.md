@@ -6,33 +6,7 @@ As noted in the [convention changes document](convention-changes.md), sometimes 
 
 ## The Backlog (General Conventions)
 
-**Ambiguous Double Ignition** (change) (by timotree)
-
-- Before, *Ambiguous Double Ignitions* were always on the last two players with playable cards.
-- Now, *Ambiguous Double Ignitions* are always on Bob & on the last player with a playable card. (The only exception is when Alice has a really good reason to give the clue instead of Bob, like when Bob has a playable card already.)
-
-**The Junk Discharge (for 1's)** (by pianoblook)
-
-- Usually, when two 1's are touched with a rank *Play Clue*, and one of them is good and one of them is bad, it is a *Stale 1's Clue*.
-- However, for a *Stale 1's Clue* to work properly, there has to be enough context in the game for the focused card to be stale. What a number 1 clue is given that clearly focuses the wrong card? This must be communicating something extra.
-- This situation cannot call for a *Trash Finesse* or *Trash Bluff*, because those moves promise that all of the ancillary touched cards are also trash (which is untrue in this case).
-- Since playing slot 1 won't work, we agree that this should call for a *Discharge*. As a result, the clued player will know to only mark the focused 1 as trash and play the other 1 as normal.
-
-**The Junk Charm (for 1's)** (by pianoblook)
-
-- Sometimes, when giving a rank *Play Clue* for 1's, a *Bad Touch* is unavoidable. But what if a player does this when a color clue would have avoided a *Bad Touch*?
-- If all the non-focused 1's are trash, the clue must be calling for something extra - a *Charm* on the very next player.
-- After the *Charm* occurs, the clued player will know that **only** the focus of the 1's clue is playable.
-- For example, in a 3-player game:
-  - Green 1 is played on the stacks.
-  - Alice clues number 1 to Cathy, touching a red 1 on slot 5 and a green 1 on slot 2.
-  - Cathy's hand is, from newest to oldest: `yellow 2, green 1, blue 3, purple 5, red 1`
-  - Bob can see that Alice could have clued red to only touch the red 1 and avoid a *Bad Touch*.
-  - Bob knows that this signals a blind-play:
-    - A *Finesse Position* blind-play would look like a *Trash Finesse*, which would be a *Lie*.
-    - A *Second Finesse Position* blind-play would look like a *Trash Push Ejection*, which would be a *Lie*.
-    - A *Third Finesse Position* blind-play would look like an *Junk Discharge*, which would be a *Lie*.
-  - Thus, Bob knows this must be a *Junk Charm* and blind-plays his *Fourth Finesse Position*. It is a blue 1 and it successfully plays.
+n/a
 
 <br />
 
