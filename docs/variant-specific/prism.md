@@ -32,7 +32,7 @@ These conventions apply to any variant with a prism suit.
 
 <br />
 
-### Ambiguous Prism Tempo Clue
+### The Ambiguous Prism Tempo Clue
 
 - Sometimes, players have a clued prism card in their hand that matches a clued normal card in their hand.
 - For example, in a "Prism (5 Suits)" game:
