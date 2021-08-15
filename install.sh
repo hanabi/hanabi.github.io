@@ -6,6 +6,24 @@ set -e # Exit on any errors
 # https://stackoverflow.com/questions/59895/getting-the-source-directory-of-a-bash-script-from-within
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
+if [[ $OSTYPE == 'darwin'* ]]; then
+  # Install Homebrew if it already doesn't exist
+  which -s brew
+  if [[ $? != 0 ]] ; then
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  fi
+
+  which -s node
+  if [[ $? != 0 ]] ; then
+    brew install node
+  fi
+
+  which -s python3
+  if [[ $? != 0 ]] ; then
+    brew install python3
+  fi
+fi
+
 echo "Installing JavaScript dependencies..."
 cd "$DIR"
 npm ci
