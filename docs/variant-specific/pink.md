@@ -273,6 +273,25 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 - *Bubblegum Bluffs* can only be performed on non-pink cards; otherwise, it will look like a *Double Finesse* with one part *Bubblegum Finesse* and one part normal *Finesse*.
 - Note that it is impossible to *3 Bluff* and *Bubblegum Bluff* at the same time.
 
+### Taffy Bluff
+- Similar to a Bubblegum Bluff, it is possible to perform a Taffy Bluff.
+- A Taffy Bluff is when a 2 away pink card (n) is clued using rank to initiate a single bluff on slot n-1.
+- For Example, in a 3-player game:
+  - It is the first turn and nothing is played on the stacks.
+  - Alice clues number 2 to Cathy, touching a pink 3 (n=3) on slot 5
+  - Bob knows that Alice is violating Pink Promise. 
+  - If he plays slot 1, then Alice will mark it as the matching 2 and will bomb it.
+  - This must mean that he is supposed to play his slot 2 card (n-1=2) as a bubblegum bluff for pink 1.
+  - Bob blind-plays slot 2 and it is a red 1.
+  - Cathy knows that if this was a 2, Bob would've played slot 1. Thus, it is not a 2 and Cathy knows that this must be a Bubblegum clue. 
+  - Since red 1 is not a pink card and Alice was in Bluff Seat for Bob, this must be a Bubblegum Bluff.
+  - Cathy marks her slot 5 card as the one-away-from-playable pink card, the pink 2, but wait a minute! If it was pink 2, then it would be a Bubblegum Finesse, if it was in any other slot in her hand. In this case, a 2 on slot 5 is just a 2 save, so it shouldn't induce any blind play from Bob from her POV.
+  - Since it is not the pink 2, Cathy marks her slot 5 card as the two-away-from-playable pink card, the pink 3.
+  - Because Cathy is able to immediately identify her clued card, the entire table understands that the situation is immediately resolved.
+- If you want to use other 2 away pink cards: 
+  - Two away pink 4 (n=4) would get a blind play from n-1=3 or slot 3. Pink 4 would be clued with 3.
+  - Two away pink 5 (n=5) would get a blind play from n-1=4 or slot 4. Pink 5 would be clued with 4.
+
 ### The Bubblegum Wraparound
 
 - When players violate *Pink Promise* on an unplayable pink card, it usually indicates a *Bubblegum Prompt* or a *Bubblegum Finesse* (with the rank corresponding to the slot number to play).
