@@ -6,6 +6,11 @@ As noted in the [convention changes document](convention-changes.md), sometimes 
 
 ## The Backlog (General Conventions)
 
+**Ambiguous Double Ignition** (change) (by timotree)
+
+- Before, *Ambiguous Double Ignitions* were always on the last two players with playable cards.
+- Now, *Ambiguous Double Ignitions* are always on Bob & on the last player with a playable card. (The only exception is when Alice has a really good reason to give the clue instead of Bob, like when Bob has a playable card already.)
+
 **The Junk Discharge (for 1's)** (by pianoblook)
 
 - Usually, when two 1's are touched with a rank *Play Clue*, and one of them is good and one of them is bad, it is a *Stale 1's Clue*.
