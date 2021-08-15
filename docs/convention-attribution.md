@@ -117,6 +117,7 @@ title: Convention Attribution
 | The Safety Charm | pianoblook
 | Unnecessary Principles | Floriman & Kakashi
 | The Self Color Ejection | IAMJEFF
+| Low Score Phase | pianoblook
 | The Prophetic Finesse | pianoblook
 | The Prophetic Discharge | pianoblook
 | The Cursed Finesse | pianoblook
@@ -125,6 +126,9 @@ title: Convention Attribution
 | The Unknown Trash Charm | piper
 | The Replay Double Ignition | Jerry
 | The Poke Double Ignition | Jerry
+| The Playful Ignition | kimbifille, pianoblook, & piper
+| The 1's Junk Discharge | piper
+| The 1's Junk Charm | pianoblook
 
 <br />
 
@@ -140,10 +144,11 @@ title: Convention Attribution
 | The Black Save Bluff | Sankala
 | The Bubblegum Finesse | Razvogor
 | The Bubblegum Bluff | Stephen
-| The Turnabout Ejection | Pianoblook
+| The Turnabout Ejection | pianoblook
 | The Bubblegum Slide | IAMJEFF
 | The Bubblegum Wraparound | kimbifille
 | The Pink Fake Prompt & The Pink Fake Finesse | IAMJEFF
+| The Fake 5's Chop Move & Fake 5's Pull | kimbifille, pianoblook, & piper
 | Pink & Omni Majority Conventions | Fireheart
 | Null Positional Clues | Razvogor, Zamiel, IAMJEFF, & Kakashi
 | The Slot Finesse | IAMJEFF

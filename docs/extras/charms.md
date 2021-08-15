@@ -55,7 +55,7 @@ import SafetyCharm from '@site/image-generator/yml/extras/charms/safety-charm.ym
   - Red 1 is played on the stacks.
   - It is the *Early Game* and the *Low Score Phase*.
   - Alice clues red to Cathy, touching a new red 2 on slot 2.
-  - Cathy hand is, from newest to oldest: `blue 5, red 2, blue 3, blue 2`
+  - Cathy's hand is, from newest to oldest: `blue 5, red 2, blue 3, blue 2`
   - Bob sees that Alice could have cleanly *5 Pulled* Cathy's red 2. (It is globally known that Alice had another *Play Clue* to give, so a number 5 clue would not have been interpreted as a *5 Stall*.)
   - Bob knows that this signals a blind-play:
     - A *First Finesse Position* blind-play would look like a *Bluff* on a red 3, which would be a *Lie*.
@@ -68,3 +68,21 @@ import SafetyCharm from '@site/image-generator/yml/extras/charms/safety-charm.ym
 
 - *4 Charms* take precedence over *Safety Charms*.
 - More examples of a *Safety Charm* can be found [here](../examples/safety-charm.md).
+
+<br />
+
+### The Junk Charm (for 1's)
+
+- Sometimes, when giving a rank *Play Clue* for 1's, a *Bad Touch* is unavoidable. But what if a player does this when a color clue would have avoided a *Bad Touch*?
+- If all the non-focused 1's are trash, the clue must be calling for something extra - a *Charm* on the very next player.
+- After the *Charm* occurs, the clued player will know that **only** the focus of the 1's clue is playable.
+- For example, in a 3-player game:
+  - Green 1 is played on the stacks.
+  - Alice clues number 1 to Cathy, touching a red 1 on slot 5 and a green 1 on slot 2.
+  - Cathy's hand is, from newest to oldest: `yellow 2, green 1, blue 3, purple 5, red 1`
+  - Bob can see that Alice could have clued red to only touch the red 1 and avoid a *Bad Touch*.
+  - Bob knows that this signals a blind-play:
+    - A *Finesse Position* blind-play would look like a *Trash Finesse*, which would be a *Lie*.
+    - A *Second Finesse Position* blind-play would look like a *Trash Push Ejection*, which would be a *Lie*.
+    - A *Third Finesse Position* blind-play would look like an *Junk Discharge*, which would be a *Lie*.
+  - Thus, Bob knows this must be a *Junk Charm* and blind-plays his *Fourth Finesse Position*. It is a blue 1 and it successfully plays.

@@ -91,3 +91,12 @@ import UnknownDupeDischarge2 from '@site/image-generator/yml/extras/discharges/u
 - *Prophetic Discharges* can only be triggered by touching **exactly one 1**.
 - *Prophetic Discharges* can only be triggered by using a color clue.
 - *Prophetic Discharges* can be *Layered*. (See the *Prophetic Finesse* section for an example of this.)
+
+<br />
+
+### The Junk Discharge (for 1's)
+
+- Usually, when two 1's are touched with a rank *Play Clue*, and one of them is good and one of them is bad, it is a *Stale 1's Clue*.
+- However, for a *Stale 1's Clue* to work properly, there has to be enough context in the game for the focused card to be stale. What a number 1 clue is given that clearly focuses the wrong card? This must be communicating something extra.
+- This situation cannot call for a *Trash Finesse* or *Trash Bluff*, because those moves promise that all of the ancillary touched cards are also trash (which is untrue in this case).
+- Since playing slot 1 won't work, we agree that this should call for a *Discharge*. As a result, the clued player will know to only mark the focused 1 as trash and play the other 1 as normal.
