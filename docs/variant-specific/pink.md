@@ -322,7 +322,7 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
   - Bob knows that if he does nothing, Cathy will go on to interpret this as a *Self-Finesse*, and play her *Finesse Position*, which will misplay.
   - Thus, Bob plays his *Finesse Position* as a *Pink Fake Finesse*. It is a blue 1 and it successfully plays.
   - From Cathy's perspective, Alice performed a *Finesse* on the blue 1 into the blue 2. Cathy plays the blue 2, but it is actually the pink 1. Now, Cathy knows that Alice performed a *Pink Fake Finesse*.
-- In some rare cases, *Pink Fake Finesses* can be performed *Out of Position*: if another player's *Finesse Position* is seen to connect with a second newly touched card, the immediate next player should not react. Thus, the underlying *Finesse* will also be guaranteed after the *Out of Position* blind-play occurs."
+- Rarely, *Pink Fake Finesses* can be performed *Out of Position*, but only if the *Finessed* card plays into an ancillary-touched card. (This turns the "fake" *Finesse* into a "real" *Finesse* on the non-focused card.)
 
 <FakeFinesse />
 
