@@ -73,18 +73,16 @@ import SafetyCharm from '@site/image-generator/yml/extras/charms/safety-charm.ym
 
 ### The Junk Charm (for 1's)
 
-- Sometimes it's unavoidable to *Bad Touch* additional cards when giving a rank play clue for 1's. But what if such a clue is chosen intentionally, when a color clue would have cleanly avoided any *Bad Touch*?
-- As long as all the non-focused 1's are trash, such a clue must be calling for something extra: the very next player is being called to *Charm*.
+- Sometimes, when giving a rank *Play Clue* for 1's, a *Bad Touch* is unavoidable. But what if a player does this when a color clue would have avoided a *Bad Touch*?
+- If all the non-focused 1's are trash, the clue must be calling for something extra - a *Charm* on the very next player.
 - After the *Charm* occurs, the clued player will know that **only** the focus of the 1's clue is playable.
 - For example, in a 3-player game:
   - Green 1 is played on the stacks.
-  - Alice clues 1's to Cathy, newly touching both a Red 1 on slot 5 and Green 1 on slot 2.
-  - Cathy's hand is, from newest to oldest: 'yellow 2, green 1, blue 3, purple 5, red 1'
-  - Bob can see that Alice could have cleanly clued red to singularly touch red 1 and avoid *Bad Touch*.
+  - Alice clues number 1 to Cathy, touching a red 1 on slot 5 and a green 1 on slot 2.
+  - Cathy's hand is, from newest to oldest: `yellow 2, green 1, blue 3, purple 5, red 1`
+  - Bob can see that Alice could have clued red to only touch the red 1 and avoid a *Bad Touch*.
   - Bob knows that this signals a blind-play:
-    - A *First Finesse Position* blind-play would look like a *Trash Finesse*, which would be a *Lie*.
+    - A *Finesse Position* blind-play would look like a *Trash Finesse*, which would be a *Lie*.
     - A *Second Finesse Position* blind-play would look like a *Trash Push Ejection*, which would be a *Lie*.
     - A *Third Finesse Position* blind-play would look like an *Junk Discharge*, which would be a *Lie*.
   - Thus, Bob knows this must be a *Junk Charm* and blind-plays his *Fourth Finesse Position*. It is a blue 1 and it successfully plays.
-- Note that this cannot be performed in *Reverse*, as a *Reverse Charm* would not be an appropriate or legal response.
-
