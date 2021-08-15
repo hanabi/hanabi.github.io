@@ -127,7 +127,7 @@ title: Convention Attribution
 | The Replay Double Ignition | Jerry
 | The Poke Double Ignition | Jerry
 | The Playful Ignition | kimbifille, pianoblook, & piper
-| The 1's Junk Discharge | avanderwalde & rkass
+| The 1's Junk Discharge | piper
 | The 1's Junk Charm | pianoblook
 
 <br />
