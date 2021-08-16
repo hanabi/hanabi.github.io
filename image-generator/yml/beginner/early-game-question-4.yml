@@ -21,13 +21,13 @@ players:
       - type: g1
         border: false
   - cards:
-      - type: r2
-        border: false
-      - type: b4
-        border: false
-      - type: b4
-        border: false
       - type: p2
+        border: false
+      - type: b4
+        border: false
+      - type: b4
+        border: false
+      - type: r2
         border: false
   - cards:
       - type: p5
