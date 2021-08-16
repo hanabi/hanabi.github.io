@@ -22,6 +22,7 @@ import GoodTouchPrincipleQuestion4 from '@site/image-generator/yml/beginner/good
 
 - Green 3 needs be played on the stacks.
 - What action should Alice perform?
+- If Alice should give a clue, what card note will be written on the focused card?
 
 </TabItem>
 <TabItem value="solution">
