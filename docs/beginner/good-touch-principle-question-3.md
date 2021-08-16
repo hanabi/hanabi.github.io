@@ -22,6 +22,7 @@ import GoodTouchPrincipleQuestion3 from '@site/image-generator/yml/beginner/good
 
 - Alice has a clued 2 in her hand of an unknown color. (It was *2 Saved* earlier on in the game.)
 - What action should Alice perform?
+- If Alice should give a clue, what card note will be written on the focused card?
 
 </TabItem>
 <TabItem value="solution">
