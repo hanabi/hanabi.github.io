@@ -3,7 +3,7 @@ id: reference
 title: Intro & Warning
 ---
 
-Our group has come up with many different strategies. It is helpful to give specific names to each strategy to aid in both discussion and comprehension. If you know the general way we play but don't know about a specific kind of move, then you can look it up here.
+The *Hyphen-ated Group* has come up with many different strategies. It is helpful to give specific names to each strategy to aid in both discussion and comprehension. If you know the general way we play but don't know about a specific kind of move, then you can look it up here.
 
 From time to time, we decide to change an old convention or add a new one. Convention updates are listed in the `#announcements` channel on the [Discord server](https://discord.gg/FADvkJp).
 
