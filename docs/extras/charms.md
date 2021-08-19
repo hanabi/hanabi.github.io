@@ -84,5 +84,5 @@ import SafetyCharm from '@site/image-generator/yml/extras/charms/safety-charm.ym
   - Bob knows that this signals a blind-play:
     - A *Finesse Position* blind-play would look like a *Trash Finesse*, which would be a *Lie*.
     - A *Second Finesse Position* blind-play would look like a *Trash Push Ejection*, which would be a *Lie*.
-    - A *Third Finesse Position* blind-play would look like an *Junk Discharge*, which would be a *Lie*.
+    - A *Third Finesse Position* blind-play would look like a *Junk Discharge*, which would be a *Lie*.
   - Thus, Bob knows this must be a *Junk Charm* and blind-plays his *Fourth Finesse Position*. It is a blue 1 and it successfully plays.
