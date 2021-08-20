@@ -291,9 +291,9 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 
 ## Level 19 - Other Special Moves
 
-### The Turnabout Ejection (for 1's and 5's)
+### The Turnabout Ejection (with 1's or 5's)
 
-- If a player uses *Pink Promise* to falsely indicate a pink 1 as a pink 5 **or** a pink 5 as a pink 1, this is a dangerous lie that must be immediately resolved.
+- If a player violates *Pink Promise* to falsely indicate a pink 5 as a 1, **or** a playable pink card as a 5, this is a dangerous lie that must be immediately resolved.
 - In this situation, the next player must immediately play their *Second Finesse Position* to prove what happened. This is called a *Turnabout Ejection*.
 - After the *Ejection*, the player who received the clue will know that the focused card's identity has been "reversed".
 - For example, in a 3-player game:
@@ -309,7 +309,9 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 <TurnaboutEjection />
 
 - If a *Turnabout Ejection* occurs from a number 1 clue that also touches other 1s, the non-focused cards should still be assumed to be 1s (using the *1's Assumption* convention).
-- *Turnabout Ejections* can only be performed with non-trash cards.
+- During the *Early Game*, *Turnabout Ejections* take precedence over *Bad Chop Move Ejections (with 5's)*. Afterwards, *Bad Chop Move Ejection* takes precedence.
+- *Turnabout Ejections (with 5's)* can only be performed with non-trash cards.
+- *Turnabout Ejections (with 1's)* cannot be performed once all 1's have been played.
 
 ### The Pink Fake Prompt & The Pink Fake Finesse
 
@@ -343,6 +345,15 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 - In this situation, after blind-playing the *Trash Pushed* card, the player should first discard the card that initiated the *Trash Push* (the oldest card) and then hold on to the other touched cards.
   - In this situation, *Good Touch Principle* applies to the other touched cards. The other members of the team must give a *Fix Clue* to those cards if they are also trash.
 
+### Pink Precedence
+
+- Normally, non-variant-specific conventions always take precedence over variant-specific conventions.
+- As an exception, *Bubblegum* and *Taffy Bluff* conventions usually take precedence over their non-variant-specific *Signal Shift* alternatives, as described below:
+  - *Bubblegum* and *Taffy* conventions take precedence over *Rank Choice Ejection (with 2)*.
+  - *Bubblegum* and *Taffy* conventions take precedence over *Unknown Trash Discharge*.
+  - *Bubblegum Bluff* and *Taffy Bluff* holds equal precedence to *4 Charm*; the clued player must therefore write notes for either option.
+  - A true *Bubblegum Finesse* takes precedence over *4 Charm* (this is because, unlike in the *Bluff* scenarios, the pink blind-play 'matches' the rank clue).
+ 
 ### Pink Promise with a 5 Stall
 
 - When a player performs a *5 Stall*, it is clearly a type of *Save Clue*. But if two or more 5's are touched as part of the clue, the focus of the clue is unclear.
