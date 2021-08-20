@@ -106,8 +106,9 @@ This process is represented in the following flowchart:
 
 ### The 5 Stall
 
-- A *5 Stall* is when someone uses a number 5 clue to clue a previously-unclued 5 that is not on chop yet.
+- A *5 Stall* is when someone uses a number 5 clue to save a previously-unclued 5 that is not on chop yet.
 - *5 Stalls* are only allowed to be performed in the *Early Game* and in other special stalling situations.
+- Furthermore, you are only allowed to *5 Stall* in the *Early Game* if there is nothing else to do, meaning that all of the "normal" Play Clues and Save Clues have been extinguished.
 - For level 8 players, there are [additional rules](level-8.md#the-5-stall-intermediate-section) relating to the *5 Stall*.
 
 <br />
