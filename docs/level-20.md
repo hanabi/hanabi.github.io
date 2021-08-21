@@ -114,7 +114,7 @@ title: Level 20 - Ignition
 - For example, in a 3-player game:
   - It is the *Mid-Game*.
   - Red 3 is played on the stacks.
-  - Cathy's hand is, from newest to oldest: blue 4, blue 4, blue 5, blue 1
+  - Cathy's hand is, from newest to oldest: blue 4, green 3, blue 4, blue 5, blue 1
   - Alice clues number 5 to Cathy, touching the blue 5 on slot 3.
   - Bob expected Alice to clue number 1 to Cathy. Thus, this must be a *Playful Ignition*. Bob blind-plays his *Finesse Position* card. It is red 4 and it successfully plays.
   - From Cathy's perspective, she first thought that Alice's clue was a *5's Chop Move*. However, if that were the case, Bob would not have blind-played anything.
