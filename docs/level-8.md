@@ -27,7 +27,7 @@ import FiveStall from '@site/image-generator/yml/level-8/five-stall.yml';
   - It is the *Early Game* (severity 1).
   - Alice does not have any normal *Play Clues* or *Save Clues* to give (precedence 1).
   - Alice does not have any *5 Stalls* to give (precedence 2).
-  - Thus, Alice is not allowed to perform a *Tempo Clue* (precedence 3), or anything below that. She must discard.
+  - Thus, Alice is not allowed to perform a "normal" *Tempo Clue* (precedence 3), or anything below that. She must discard.
 - For example:
   - The team has 8 clues (severity 4).
   - Alice does not have any normal *Play Clues* or *Save Clues* to give (precedence 1).
