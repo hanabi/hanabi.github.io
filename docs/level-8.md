@@ -13,15 +13,15 @@ import FiveStall from '@site/image-generator/yml/level-8/five-stall.yml';
 
 - In certain situations, everyone understands that a player might be giving a "stall" clue. However, there are limits - they are not allowed to just clue anything they want. These are the specific clues that they are allowed to give along with the precedence of each clue:
 
-| Precedence | Type of Clue | Early Game (Severity 1) | Double Discard / Scream Discard (Severity 2) | Locked Hand (Severity 3) | 8 Clues (Severity 4)
-| ---------- | ------------ | ----------------------- | -------------------------------------------- | ------------------------ | --------------------
-| 1          | Normal *Play Clues* or *Save Clues*                                                                      | ✅ | ✅ | ✅ | ✅
-| 2          | *5 Stall*<br />(cluing off chop 5's)                                                                     | ✅ | ✅ | ✅ | ✅
-| 3          | *Tempo Clue*<br />(re-cluing a card to make it play)                                                     | ❌ | ✅ | ✅ | ✅
-| 4 (tied)   | *Locked Hand Save*<br />(saving any card on chop, as long as doing so would not *Lock* the other player) | ❌ | ❌ | ✅ | ✅
-| 4 (tied)   | *8 Clue Save*<br />(saving any card not on slot 1)                                                       | ❌ | ❌ | ❌ | ✅
-| 4 (tied)   | *Fill-In Clue*<br />(giving extra information to already-clued cards or *Chop Moved* cards)              | ❌ | ✅ | ✅ | ✅
-| 5          | *Hard Burn*<br />(re-cluing an unplayable card that gives no new information, usually a 5)               | ❌ | ✅ | ✅ | ✅
+| Precedence | Type of Clue | Normal Situation (Severity 0) | Early Game (Severity 1) | Double Discard / Scream Discard (Severity 2) | Locked Hand (Severity 3) | 8 Clues (Severity 4)
+| ---------- | ------------ | ----------------------------- | ----------------------- | -------------------------------------------- | ------------------------ | --------------------
+| 1          | Normal *Play Clues* or *Save Clues*                                                                      | ✅ | ✅ | ✅ | ✅ | ✅
+| 2          | *5 Stall*<br />(cluing off chop 5's)                                                                     | ❌ | ✅ | ✅ | ✅ | ✅
+| 3          | *Tempo Clue*<br />(re-cluing a card to make it play)                                                     | ❌ | ❌ | ✅ | ✅ | ✅
+| 4 (tied)   | *Locked Hand Save*<br />(saving any card on chop, as long as doing so would not *Lock* the other player) | ❌ | ❌ | ❌ | ✅ | ✅
+| 4 (tied)   | *8 Clue Save*<br />(saving any card not on slot 1)                                                       | ❌ | ❌ | ❌ | ❌ | ✅
+| 4 (tied)   | *Fill-In Clue*<br />(giving extra information to already-clued cards or *Chop Moved* cards)              | ❌ | ❌ | ✅ | ✅ | ✅
+| 5          | *Hard Burn*<br />(re-cluing an unplayable card that gives no new information, usually a 5)               | ❌ | ❌ | ✅ | ✅ | ✅
 
 - For example:
   - It is the *Early Game* (severity 1).
