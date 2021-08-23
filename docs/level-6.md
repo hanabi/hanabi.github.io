@@ -88,23 +88,35 @@ import DiscardModulation from '@site/image-generator/yml/level-6/discard-modulat
 
 ### The Tempo Clue
 
-- *Tempo Clues* are defined as clues that "get" no new cards. Their purpose is to get 1 or more cards played that **already** had a clue on them.
+- *Tempo Clues* are defined as clues that "get" no new cards. The purpose of a *Tempo Clue* is to get 1 or more cards played that **already** had a clue on them.
   - If a clue is given to a card that is **already** known to be playable, then that would **not** count as a *Tempo Clue*. It would instead be a *Burn Clue* (i.e. a clue that accomplishes nothing).
-- In our group, we do not generally perform *Tempo Clues*, because they do not meet *[Minimum Clue Value Principle](first-principles.md#2-minimum-clue-value-principle)*. However, in the following special circumstances, *Tempo Clues* have enough value to justify giving them:
+- As explained in the beginner's guide, we do not typically perform *Tempo Clues*, because they do not meet *[Minimum Clue Value Principle](first-principles.md#2-minimum-clue-value-principle)*.
+- When a *Tempo Clue* touches multiple cards, the focus is on the left-most card.
+  - The exception is if one of the cards was previously *Chop Moved*. In that case, the focus is on the left-most *Chop Moved* card.
+- If a *Tempo Clue* touches multiple cards, it typically means that all the touched cards are playable. See the *Double Tempo Clue* section below.
+
+#### The Cadence Clue (A Valuable Tempo Clue)
+
+- In some special situations, *Tempo Clues* have enough value to justify giving them:
   1. When it gets two or more clued cards to play
   1. When the clued card is not a 5 and it is "out of order" (meaning that it is impossible for a *Prompt* to get the card played)
   1. When the clued card was *Chop Moved* and it is now playable
   1. When playing the clued card would "unlock" someone's hand (see the section on *Locked Hands* later on)
-  1. When the clue giver is in a situation that requires them to stall (e.g. the player is *Locked*, etc.)
-- When a *Tempo Clue* touches multiple cards, the focus is on the left-most card.
-  - The exception is if one of the cards was previously *Chop Moved*. In that case, the focus is on the left-most *Chop Moved* card.
-- If a *Tempo Clue* touches multiple cards, it typically means that all the touched cards are playable. See the *Double Tempo Clue* section below.
-- Since they are so inefficient, *Tempo Clues* done outside of the special circumstances listed above are assigned a special meaning. See the *Tempo Clue Chop Moves* section below.
+- If a *Tempo Clue* is given in any of these situations, it is called a *Cadence Clue*.
+- *Cadence Clues* can be given at any time. They don't have any special rules associated with them and they are treated in exactly the same way a "normal" *Play Clue* is.
+
+#### The Stalling Tempo Clue (A Non-Valuable Tempo Clue)
+
+- If a player gives a *Tempo Clue* that does **not** meet one of the 5 criteria of a *Cadence Clue*, it is treated differently and given a different name.
+- Sometimes, players are in "stalling situations" where it would be illegal for them to discard (like when they have a hand that is completely clued). In some specific stalling situations, it is okay to give a *Tempo Clue* that doesn't meet the criteria for a *Cadence Clue*. This is called a *Stalling Tempo Clue*. Since everyone sees that the player giving the clue was in a stalling situation, they can understand what is going on.
+- For level 8 players, see the *[Allowable Stall Clues](level-8.md#allowable-stall-clues-stall-table)* section. If you are lower than level 8, the details are not important right now.
+- Obviously, players are only allowed to give a *Stalling Tempo Clue* in a valid stalling situation. If a player gives a *Tempo Clue* that does not meet the criteria for a *Cadence Clue* in an otherwise ordinary situation, then they must be intending to send a deeper message. See the *Tempo Clue Chop Moves* section below.
 
 <br />
 
 ### The Double Tempo Clue
 
+- First, see the section on *[Tempo Clues](#the-tempo-clue)*.
 - Typically, when a *Tempo Clue* is given that touches two or more cards, it means that **all** of the cards touched are playable in order from left to right.
 - For example, in a 3-player game:
   - It is the first turn and nothing is played on the stacks.
@@ -121,16 +133,17 @@ import DiscardModulation from '@site/image-generator/yml/level-6/discard-modulat
 
 ### The Tempo Clue Chop Move (TCCM)
 
-- In general, *Tempo Clues* do not follow from *Minimum Clue Value Principle*, which states that a clue must get at least 1 new card played or save at least 1 new card from being discarded.
-- Thus, a *Tempo Clue* with no other purpose **must** save at least 1 new card, and the player should *Chop Move* their chop card.
-- Remember that *Tempo Clue Chop Moves* **do not** apply in the special situations listed above where natural *Tempo Clues* are allowed.
+- First, see the section on *[Tempo Clues](#the-tempo-clue)*.
+- A *Stalling Tempo Clue* that is given in non-stalling situation doesn't make sense - the cluer must be intending to send a deeper message.
+- We agree that *Tempo Clues* of this nature cause a *Chop Move* in addition to getting the focus of the card to play.
 - For example, in a 3-player game:
   - It is the first turn and nothing is played on the stacks.
   - Alice clues red to Bob, which touches two cards on slot 1 and slot 2.
   - Bob plays red 1 from slot 1. The red card in slot 2 could be red 2, red 3, red 4, or red 5.
   - Cathy clues number 2 to Bob, which does not introduce any new cards, but it does "fill in" his slot 2 card.
   - Bob now knows that he has exactly red 2 on slot 2 and that this was a *Tempo Clue*. Since it does not get any new cards and only get *Tempo* on one card in total, he knows that he should also *Chop Move* his slot 5 card.
-- When determining if a *Tempo Clue* "has a purpose", it should only be evaluated on the turn immediately after the clue is given. (This helps keeps things simple and prevents desynchronization.)
+- *Cadence Clues* can never cause a *Tempo Clue Chop Move*.
+- When determining if a *Tempo Clue* meets the criteria of a *Cadence Clue*, it should only be evaluated on the turn immediately after the clue is given. (This helps keeps things simple and prevents desynchronization.)
 
 <TempoClueChopMovePart1 />
 
