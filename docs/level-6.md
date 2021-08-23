@@ -109,8 +109,8 @@ import DiscardModulation from '@site/image-generator/yml/level-6/discard-modulat
 
 - If a player gives a *Tempo Clue* that does **not** meet one of the 5 criteria of a *Cadence Clue*, it is treated differently and given a different name.
 - Sometimes, players are in "stalling situations" where it would be illegal for them to discard (like when they have a hand that is completely clued). In some specific stalling situations, it is okay to give a *Tempo Clue* that doesn't meet the criteria for a *Cadence Clue*. This is called a *Stalling Tempo Clue*. Since everyone sees that the player giving the clue was in a stalling situation, they can understand what is going on.
-- For level 8 players, see the *[Allowable Stall Clues](level-8.md#allowable-stall-clues-stall-table)* section. If you are lower than level 8, the details are not important right now.
-- Obviously, players are only allowed to give a *Stalling Tempo Clue* in a valid stalling situation. If a player gives a *Tempo Clue* that does not meet the criteria for a *Cadence Clue* in an otherwise ordinary situation, then they must be intending to send a deeper message. See the *Tempo Clue Chop Moves* section below.
+- For level 8 players, see the *[Allowable Stall Clues](level-8.md#allowable-stall-clues-stall-table)* section for the specific times when *Stalling Tempo Clues* are okay to give. If you are lower than level 8, the details are not important right now.
+- Obviously, players are **only** allowed to give a *Stalling Tempo Clue* in a valid stalling situation. If a player gives a *Tempo Clue* that does not meet the criteria for a *Cadence Clue* in an otherwise ordinary situation, then they must be intending to send a deeper message. See the *Tempo Clue Chop Moves* section below.
 
 <br />
 
