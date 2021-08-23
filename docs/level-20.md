@@ -3,6 +3,9 @@ id: level-20
 title: Level 20 - Ignition
 ---
 
+import Playful from '@site/image-generator/yml/level-20/playful.yml';
+import PlayfulInteraction from '@site/image-generator/yml/level-20/playful-interaction-5.yml';
+
 ## Conventions
 
 <br />
@@ -94,6 +97,9 @@ title: Level 20 - Ignition
   - Bob also knows that it is nonsensical to *Chop Move* a playable red 1 - Alice could have just give a red *Chop-Focus Play Clue* to the red 1.
   - Thus, this must be a *Playful Ignition*. Bob blind-plays his *Finesse Position* card. It is blue 1 and it successfully plays.
   - Cathy knows that if this was an *Early 5's Chop Move*, then Bob would not have blind-played anything. Since he blind-played his *Finesse Position* card, this must be a *Playful Ignition*. Cathy blind-plays her slot 4 card (the card to the right of the clued 5).
+
+<Playful />
+
 - Sometimes, it can be useful to *Chop Move* a playable card. Something is only a *Playful Ignition* if there is not some other good reason for the *Chop Move*. Specifically, the player might want to:
   - Avoid violating *Good Touch Principle*.
   - Save a *Delayed Playable* card that is followed by a critical card.
@@ -115,10 +121,13 @@ title: Level 20 - Ignition
   - It is the *Mid-Game*.
   - Red 3 is played on the stacks.
   - Cathy's hand is, from newest to oldest: blue 4, green 3, blue 4, blue 5, blue 1
-  - Alice clues number 5 to Cathy, touching the blue 5 on slot 3.
+  - Alice clues number 5 to Cathy, touching the blue 5 on slot 4.
   - Bob expected Alice to clue number 1 to Cathy. Thus, this must be a *Playful Ignition*. Bob blind-plays his *Finesse Position* card. It is red 4 and it successfully plays.
   - From Cathy's perspective, she first thought that Alice's clue was a *5's Chop Move*. However, if that were the case, Bob would not have blind-played anything.
   - Furthermore, Cathy knows that *Play Clues* on 5's one-away-from-chop using rank clues are turned off. Thus, Bob's blind-play must indicate a *Playful Ignition*.
-  - Thus, Cathy's 5 can be any color (including blue). Cathy blind-plays her slot 4 card.
+  - Thus, Cathy's 5 can be any color (including blue). Cathy blind-plays her slot 5 card.
+
+<PlayfulInteraction />
+
 - Importantly, this interaction is **turned off** in the *End-Game*.
 - Note that sometimes, players will use a rank 5 clue to touch an actual playable 5 that is exactly one-away-from-chop. Regardless of whether or not the 5 is playable, the next player needs to react as if it wasn't playable. (This is because it is agreed that all *Play Clue* interpretations are turned off.)
