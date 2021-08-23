@@ -17,7 +17,7 @@ import FiveStall from '@site/image-generator/yml/level-8/five-stall.yml';
 | ---------- | ------------ | ----------------------------- | ----------------------- | -------------------------------------------- | ------------------------ | --------------------
 | 1          | Normal *Play Clues* or *Save Clues*                                                                      | ✅ | ✅ | ✅ | ✅ | ✅
 | 2          | *5 Stall*<br />(cluing off chop 5's)                                                                     | ❌ | ✅ | ✅ | ✅ | ✅
-| 3          | *Tempo Clue*<br />(re-cluing a card to make it play)                                                     | ❌ | ❌ | ✅ | ✅ | ✅
+| 3          | *Stalling Tempo Clue*<br />(re-cluing a card to make it play)                                            | ❌ | ❌ | ✅ | ✅ | ✅
 | 4 (tied)   | *Locked Hand Save*<br />(saving any card on chop, as long as doing so would not *Lock* the other player) | ❌ | ❌ | ❌ | ✅ | ✅
 | 4 (tied)   | *8 Clue Save*<br />(saving any card not on slot 1)                                                       | ❌ | ❌ | ❌ | ❌ | ✅
 | 4 (tied)   | *Fill-In Clue*<br />(giving extra information to already-clued cards or *Chop Moved* cards)              | ❌ | ❌ | ✅ | ✅ | ✅
@@ -27,13 +27,14 @@ import FiveStall from '@site/image-generator/yml/level-8/five-stall.yml';
   - It is the *Early Game* (severity 1).
   - Alice does not have any normal *Play Clues* or *Save Clues* to give (precedence 1).
   - Alice does not have any *5 Stalls* to give (precedence 2).
-  - Thus, Alice is not allowed to perform a "normal" *Tempo Clue* (precedence 3), or anything below that. She must discard.
+  - Alice does have a *Tempo Clue* to give (precedence 3), but *Stalling Tempo Clues* are not a valid in the Early Game. Thus, if Alice gives a *Tempo Clue*, it would instead be interpreted as a *Tempo Clue Chop Move*.
+  - Thus, since Alice does not want to cause a *Tempo Clue Chop Move*, she must discard.
 - For example:
   - The team has 8 clues (severity 4).
   - Alice does not have any normal *Play Clues* or *Save Clues* to give (precedence 1).
   - Alice does not have any *5 Stalls* to give (precedence 2).
   - Alice does have a *Tempo Clue* to give (precedence 3).
-  - Thus, Alice must perform the *Tempo Clue*. Alice is not allowed to do any moves with precedence 4 or 5.
+  - Thus, Alice must perform the *Tempo Clue*. It will be interpretted as a *Stalling Tempo Clue* (and will not have a *Chop Move* component). Furthermore, Alice is not allowed to do any moves with precedence 4 or 5.
 - What is the point of having a complicated table with defined priorities? Well, normally, players in stalling situations are not able to give tricky-looking *Finesses*, because everyone else will think that they are just giving a stall clue. However, if it can be seen that there is a better clue available for them to give, then everyone can know that they are **not** giving a stall clue. So, because of this precedence table, players in stalling situations are still often able to make *Finesses* happen.
 - Obviously, stall clues are not allowed when the player has a known playable card in their hand.
 
