@@ -94,8 +94,11 @@ import DiscardModulation from '@site/image-generator/yml/level-6/discard-modulat
 - When a *Tempo Clue* touches multiple cards, the focus is on the left-most card.
   - The exception is if one of the cards was previously *Chop Moved*. In that case, the focus is on the left-most *Chop Moved* card.
 - If a *Tempo Clue* touches multiple cards, it typically means that all the touched cards are playable. See the *Double Tempo Clue* section below.
+- We treat *Tempo Clues* differently depending on whether they are valuable or not valuable. See the next two sections below.
 
-#### The Cadence Clue (A Valuable Tempo Clue)
+<br />
+
+### The Cadence Clue (A Valuable Tempo Clue)
 
 - In some special situations, *Tempo Clues* have enough value to justify giving them:
   1. When it gets two or more clued cards to play
@@ -105,7 +108,9 @@ import DiscardModulation from '@site/image-generator/yml/level-6/discard-modulat
 - If a *Tempo Clue* is given in any of these situations, it is called a *Cadence Clue*.
 - *Cadence Clues* can be given at any time. They don't have any special rules associated with them and they are treated in exactly the same way a "normal" *Play Clue* is.
 
-#### The Stalling Tempo Clue (A Non-Valuable Tempo Clue)
+<br />
+
+### The Stalling Tempo Clue (A Non-Valuable Tempo Clue)
 
 - If a player gives a *Tempo Clue* that does **not** meet one of the 5 criteria of a *Cadence Clue*, it is treated differently and given a different name.
 - Sometimes, players are in "stalling situations" where it would be illegal for them to discard (like when they have a hand that is completely clued). In some specific stalling situations, it is okay to give a *Tempo Clue* that doesn't meet the criteria for a *Cadence Clue*. This is called a *Stalling Tempo Clue*. Since everyone sees that the player giving the clue was in a stalling situation, they can understand what is going on.
