@@ -27,7 +27,7 @@ import FiveStall from '@site/image-generator/yml/level-8/five-stall.yml';
   - It is the *Early Game* (severity 1).
   - Alice does not have any normal *Play Clues* or *Save Clues* to give (precedence 1).
   - Alice does not have any *5 Stalls* to give (precedence 2).
-  - Alice does have a *Tempo Clue* to give (precedence 3), but *Stalling Tempo Clues* are not a valid in the Early Game. Thus, if Alice gives a *Tempo Clue*, it would instead be interpreted as a *Tempo Clue Chop Move*.
+  - Alice does have a *Tempo Clue* to give (precedence 3), but *Stalling Tempo Clues* are not valid in the Early Game. Thus, if Alice gives a *Tempo Clue*, it would instead be interpreted as a *Tempo Clue Chop Move*.
   - Thus, since Alice does not want to cause a *Tempo Clue Chop Move*, she must discard.
 - For example:
   - The team has 8 clues (severity 4).
