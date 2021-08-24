@@ -85,22 +85,22 @@ import PlayfulInteraction from '@site/image-generator/yml/level-20/playful-inter
 
 <br />
 
-### The Playful Ignition
+### The Chop Move Pull (CM Pull)
 
 - If a playable card is on chop, the natural thing to do is to give it a *Chop-Focus Play Clue*. If a player *Chop Moves* the playable card instead, this is very strange. If there is not a good reason to do so, then the cluer is trying to communicate something extra.
-- In this situation, they intend for an *Ignition* on the next player. Since a *Chop Move* causes a blind-play, the *Chop Moved* player will know that the *Chop Moved* card is playable.
+- In this situation, they clue giver intends for the next player to blind-play their finesse position. Since a *Chop Move* causes a blind-play, the *Chop Moved* player will know that the *Chop Moved* card is playable and thus *pulled* out of their hand.
 - For example, in a 4-player game:
   - It is the first turn and nothing is played on the stacks.
   - Cathy's hand is, from newest to oldest: blue 4, blue 4, blue 5, red 1
   - Alice clues number 5 to Cathy, touching a blue 5 on slot 3.
   - It is now Bob's turn. Bob sees that since there were other *Play Clues* for Alice to give, Cathy will interpret this as an *Early 5's Chop Move*.
   - Bob also knows that it is nonsensical to *Chop Move* a playable red 1 - Alice could have just give a red *Chop-Focus Play Clue* to the red 1.
-  - Thus, this must be a *Playful Ignition*. Bob blind-plays his *Finesse Position* card. It is blue 1 and it successfully plays.
-  - Cathy knows that if this was an *Early 5's Chop Move*, then Bob would not have blind-played anything. Since he blind-played his *Finesse Position* card, this must be a *Playful Ignition*. Cathy blind-plays her slot 4 card (the card to the right of the clued 5).
+  - Thus, this must be a *Chop Move Pull*. Bob blind-plays his *Finesse Position* card. It is blue 1 and it successfully plays.
+  - Cathy knows that if this was an *Early 5's Chop Move*, then Bob would not have blind-played anything. Since he blind-played his *Finesse Position* card, this must be a *Chop Move Pull*. Cathy blind-plays her slot 4 card (the card to the right of the clued 5).
 
-<Playful />
+<ChopMovePull />
 
-- Sometimes, it can be useful to *Chop Move* a playable card. Something is only a *Playful Ignition* if there is not some other good reason for the *Chop Move*. Specifically, the player might want to:
+- Sometimes, it can be useful to *Chop Move* a playable card. Something is only a *Chop Move Pull* if there is not some other good reason for the *Chop Move*. Specifically, the player might want to:
   - Avoid violating *Good Touch Principle*.
   - Save a *Delayed Playable* card that is followed by a critical card.
   - Save two important cards when there are a lot of cards to deal with and the team is low on clues.
