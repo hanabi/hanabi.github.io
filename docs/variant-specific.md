@@ -90,6 +90,27 @@ import LoadedException2 from '@site/image-generator/yml/extras/variant-specific/
 
 <LoadedException2 />
 
+### The Always Loaded Principle
+
+- In certain variants, a specific type of clue always looks like a *Save Clue* regardless of which cards are in the discard pile.
+- For example:
+  - In a Dark Prism variant, a 3 or 4 clue to the chop always looks like a *Save Clue* on prism 3 or prism 4.
+  - In a Brown variant, a brown clue to the chop always looks like a *Save Clue* on n2 or n5 or any critical brown card.
+- In such cases, we agree that this specific type of clue, if given to a player who is *Loaded*, must always be treated as a play clue throughout the game (including the *Early Game*).
+- For example, in a Gray variant game:
+  - Gray 1 and blue 1 are played on the stacks, Bob's hand is completely unclued.
+  - Alice clues a gray 3 with a rank 3 clue on Cathy, who is currently *Loaded*.
+  - Normally, Bob would assume it is an *Early Save*. But in this particular case, he knows that it is a *Loaded Play Clue* due to *The Always Loaded Principle*.
+  - Bob plays his finesse position card and it successfully plays as gray 2.
+- The consequence of this principle is that sometimes a certain kind of clue on a card is treated as a *Loaded Play Clue*, even if the card does not belong to the suit that causes the invocation of said principle.
+- For example, in a Gray variant game:
+  - Gray 2 and blue 1 are played on the stacks, Bob's hand is completely unclued.
+  - Alice clues a critical blue 3 with a rank 3 clue on Cathy, who is currently *Loaded*.
+  - Normally, Bob would assume it is an *Early Save*. But in this particular case, he knows that it is a *Loaded Play Clue* due to *The Always Loaded Principle*, and Cathy will assume that it is a *Loaded Play Clue* on gray 3.
+  - Bob plays his finesse position card and it successfully plays as blue 2.
+
+<br />
+
 ### Precedence of Variant-Specific Conventions
 
 - We have many variant-specific strategies and conventions. Sometimes, it can be confusing as to how they interact with "normal" conventions (e.g. non-variant-specific conventions).
