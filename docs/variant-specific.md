@@ -106,7 +106,7 @@ import LoadedException2 from '@site/image-generator/yml/extras/variant-specific/
 - For example, in a Gray variant game:
   - Gray 2 and blue 1 are played on the stacks, Bob's hand is completely unclued.
   - Alice clues a critical blue 3 with a rank 3 clue on Cathy, who is currently *Loaded*.
-  - Normally, Bob would assume it is an *Early Save*. But in this particular case, he knows that it is a *Loaded Play Clue* due to *The Always Loaded Principle*, and Cathy will assume that it is a *Loaded Play Clue* on gray 3.
+  - Normally, Bob would assume it is an *Early Save*. But in this particular case, he knows that it is a *Loaded Play Clue* due to *The Always Loaded Principle*. If Bob does nothing, Cathy will assume that it is a *Loaded Play Clue* on gray 3.
   - Bob plays his finesse position card and it successfully plays as blue 2.
 
 <br />
