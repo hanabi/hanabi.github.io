@@ -98,24 +98,24 @@ import DiscardModulation from '@site/image-generator/yml/level-6/discard-modulat
 
 <br />
 
-### The Cadence Clue (A Valuable Tempo Clue)
+### The Valuable Tempo Clue
 
 - In some special situations, *Tempo Clues* have enough value to justify giving them:
   1. When it gets two or more clued cards to play
   1. When the clued card is not a 5 and it is "out of order" (meaning that it is impossible for a *Prompt* to get the card played)
   1. When the clued card was *Chop Moved* and it is now playable
   1. When playing the clued card would "unlock" someone's hand (see the section on *Locked Hands* later on)
-- If a *Tempo Clue* is given in any of these situations, it is called a *Cadence Clue*.
-- *Cadence Clues* can be given at any time. They don't have any special rules associated with them and they are treated in exactly the same way a "normal" *Play Clue* is.
+- If a *Tempo Clue* is given in any of these situations, it is considered to be "valuable".
+- Valuable *Tempo Clues* can be given at any time. They don't have any special rules associated with them and they are treated in exactly the same way a "normal" *Play Clue* is.
 
 <br />
 
 ### The Tempo Clue Stall (A Non-Valuable Tempo Clue)
 
-- If a player gives a *Tempo Clue* that does **not** meet any of the criteria for a *Cadence Clue*, it is treated differently and given a different name.
-- Sometimes, players are in "stalling situations" where it would be illegal for them to discard (like when they have a hand that is completely clued). In some specific stalling situations, it is okay to give a *Tempo Clue* that doesn't meet the criteria for a *Cadence Clue*. This is called a *Tempo Clue Stall*. Since everyone sees that the player giving the clue was in a stalling situation, they can understand what is going on.
+- If a player gives a *Tempo Clue* that does **not** meet any of the criteria for being "valuable", it is treated differently and given a different name.
+- Sometimes, players are in "stalling situations" where it would be illegal for them to discard (like when they have a hand that is completely clued). In some specific stalling situations, it is okay to give a *Tempo Clue* that doesn't meet the criteria for being valuable. This is called a *Tempo Clue Stall*. Since everyone sees that the player giving the clue was in a stalling situation, they can understand what is going on.
 - For level 8 players, see the *[Allowable Stall Clues](level-8.md#allowable-stall-clues-stall-table)* section for the specific times when *Tempo Clue Stalls* are okay to give. If you are lower than level 8, the details are not important right now.
-- Obviously, players are **only** allowed to give a *Tempo Clue Stall* in a valid stalling situation. If a player gives a *Tempo Clue* that does not meet the criteria for a *Cadence Clue* in an otherwise ordinary situation, then they must be intending to send a deeper message. See the *Tempo Clue Chop Moves* section below.
+- Obviously, players are **only** allowed to give a *Tempo Clue Stall* in a valid stalling situation. If a player gives a *Tempo Clue* that does not meet the criteria to be valuable in an otherwise ordinary situation, then they must be intending to send a deeper message. See the *Tempo Clue Chop Moves* section below.
 
 <br />
 
@@ -130,8 +130,8 @@ import DiscardModulation from '@site/image-generator/yml/level-6/discard-modulat
   - Bob plays red 1 from slot 1. The red card in slot 2 could be red 2, red 3, red 4, or red 5.
   - Cathy clues number 2 to Bob, which does not introduce any new cards, but it does "fill in" his slot 2 card.
   - Bob now knows that he has exactly red 2 on slot 2 and that this was a *Tempo Clue*. Since it does not get any new cards and only get *Tempo* on one card in total, he knows that he should also *Chop Move* his slot 5 card.
-- *Cadence Clues* can never cause a *Tempo Clue Chop Move*.
-- When determining if a *Tempo Clue* meets the criteria of a *Cadence Clue*, it should only be evaluated on the turn immediately after the clue is given. (This helps keeps things simple and prevents desynchronization.)
+- Valuable *Tempo Clues* can never cause a *Tempo Clue Chop Move*.
+- When determining if a *Tempo Clue* is "valuable", it should only be evaluated on the turn immediately after the clue is given. (This helps keeps things simple and prevents desynchronization.)
 
 <TempoClueChopMovePart1 />
 
@@ -156,13 +156,13 @@ import DiscardModulation from '@site/image-generator/yml/level-6/discard-modulat
 
 <br />
 
-### The Double Tempo Clue (Cadence Clue)
+### The Double Tempo Clue (A Valuable Tempo Clue)
 
-- First, see the section on *[Tempo Clues](#the-tempo-clue)* and *[Cadence Clues](#the-cadence-clue-a-valuable-tempo-clue)*.
+- First, see the section on *[Tempo Clues](#the-tempo-clue)* and *[Valuable Tempo Clues](#the-valuable-tempo-clue)*.
 - When a *Tempo Clue* touches one card, it is a clear signal to play that card.
 - When a *Tempo Clue* touches two or more cards, we need to agree how many cards that it promises are playable.
 - We agree that it means that **all** of the cards touched are playable in order from left to right.
-- Since this kind of clue gets two or more cards played, it is a *Cadence Clue* and is allowed to be given at any time and in any situation.
+- Since this kind of clue gets two or more cards played, it is considered to be "valuable" and is allowed to be given at any time and in any situation.
 - For example, in a 3-player game:
   - It is the first turn and nothing is played on the stacks.
   - Alice clues red to Bob, which touches slot 1, slot 2, and slot 3.
