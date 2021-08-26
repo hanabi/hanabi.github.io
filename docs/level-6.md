@@ -119,23 +119,6 @@ import DiscardModulation from '@site/image-generator/yml/level-6/discard-modulat
 
 <br />
 
-### The Double Tempo Clue
-
-- First, see the section on *[Tempo Clues](#the-tempo-clue)*.
-- Typically, when a *Tempo Clue* is given that touches two or more cards, it means that **all** of the cards touched are playable in order from left to right.
-- For example, in a 3-player game:
-  - It is the first turn and nothing is played on the stacks.
-  - Alice clues red to Bob, which touches slot 1, slot 2, and slot 3.
-  - Bob plays red 1 from slot 1. The other two red cards in his hand could be nearly anything.
-  - Cathy clues red to Bob, which does not introduce any new cards, but it does re-touch slot 2 and slot 3.
-  - Bob knows that this is a *Double Tempo* clue. Both must be playable in order, so he must have red 2 in slot 2, and red 3 in slot 3.
-- Note that the normal "play all the cards" interpretation does not apply in some special situations:
-  - when the clue unlocks a player's hand
-  - when the clue got 2+ cards played in total (using cards in someone else's hand)
-  - when the clue touched a *Chop Moved* card; in this situation, **only** the *Chop Moved* card is playable
-
-<br />
-
 ### The Tempo Clue Chop Move (TCCM)
 
 - First, see the section on *[Tempo Clues](#the-tempo-clue)*.
@@ -170,6 +153,28 @@ import DiscardModulation from '@site/image-generator/yml/level-6/discard-modulat
   - Cathy knows that no-one else on the team is promised the red 3 and the red 4.
 
 <TempoClueChopMovePart3 />
+
+<br />
+
+### The Double Tempo Clue (Cadence Clue)
+
+- First, see the section on *[Tempo Clues](#the-tempo-clue)* and *[Cadence Clues](#the-cadence-clue-a-valuable-tempo-clue).
+- When a *Tempo Clue* touches one card, it is a clear signal to play that card.
+- When a *Tempo Clue* touches two or more cards, we need to agree how many cards that it promises are playable.
+- We agree that it means that **all** of the cards touched are playable in order from left to right.
+- Since this kind of clue gets two or more cards played, it is a *Cadence Clue* and is allowed to be given at any time and in any situation.
+- For example, in a 3-player game:
+  - It is the first turn and nothing is played on the stacks.
+  - Alice clues red to Bob, which touches slot 1, slot 2, and slot 3.
+  - Bob plays red 1 from slot 1. The other two red cards in his hand could be nearly anything.
+  - Cathy clues red to Bob, which does not introduce any new cards, but it does re-touch slot 2 and slot 3.
+  - Bob knows that this is a *Double Tempo* clue. Both must be playable in order, so he must have red 2 in slot 2, and red 3 in slot 3.
+- Note that the normal "play all the cards" interpretation does not apply in some special situations:
+  - when the clue unlocks a player's hand
+  - when the clue got 2+ cards played in total (using cards in someone else's hand)
+  - when the clue touched a *Chop Moved* card; in this situation, **only** the *Chop Moved* card is playable
+
+<br />
 
 ## General Principles
 
