@@ -25,11 +25,11 @@ These conventions apply to the "Up or Down" variants.
 - *1 Color Ejection* works in the exact same way that *5 Color Ejection* does (e.g. players use the "two-or-more blind-plays" rule).
 - Before a *1 Color Ejection* can be performed, the suit direction must be established. For example, if no cards are played on the stacks, then a *Play Clue* touching a 1 would just look like a normal *Play Clue*.
 
-### 2 Charm 
+### 2 Charm
 
 - Similar to *4 Charm*, it is also possible to perform a *2 Charm* in an *Up or Down* variant.
 - *2 Charms* works in the exact same way that *4 Charms do* (e.g. players use the "three-or-more blind-plays" rule).
-- Before a *2 Charm* can be performed, the suit direction must be established. For example, if no cards are played on the stacks, then a *Play Clue* to a 2 would just indicate a normal *Finesse*. 
+- Before a *2 Charm* can be performed, the suit direction must be established. For example, if no cards are played on the stacks, then a *Play Clue* to a 2 would just indicate a normal *Finesse*.
 
 ### The U-Turn Finesse
 
