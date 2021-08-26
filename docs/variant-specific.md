@@ -29,8 +29,8 @@ import LoadedException2 from '@site/image-generator/yml/extras/variant-specific/
 - Players are not allowed to *5 Stall* in the *Early Game*.
   - Any clue that looks like a *5 Stall* is instead treated as either a *5's Chop Move* or a *5 Pull*.
 - Players are not required to clue anything in the *Early Game*; they are allowed to initiate the *Mid-Game* whenever they see fit.
-- Players are not allowed to give [*Double Tempo Clues*](level-6.md#the-double-tempo-clue-cadence-clue).
-  - If a *Tempo Clue* is given that touches two or more cards, only the leftmost card is focused.
+- Players are not allowed to give [*Double Tempo Clues*](level-6.md#the-valuable-tempo).
+  - If a *Tempo Clue* is given that touches two or more cards, only the leftmost card is communicated to be playable.
   - This will therefore cause a [*Tempo Clue Chop Move*](level-6.md#the-tempo-clue-chop-move-tccm).
 - *Loaded Play Clues*, as defined below, are turned on.
 
