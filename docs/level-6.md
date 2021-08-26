@@ -110,19 +110,19 @@ import DiscardModulation from '@site/image-generator/yml/level-6/discard-modulat
 
 <br />
 
-### The Stalling Tempo Clue (A Non-Valuable Tempo Clue)
+### The Tempo Clue Stall (A Non-Valuable Tempo Clue)
 
 - If a player gives a *Tempo Clue* that does **not** meet any of the criteria for a *Cadence Clue*, it is treated differently and given a different name.
-- Sometimes, players are in "stalling situations" where it would be illegal for them to discard (like when they have a hand that is completely clued). In some specific stalling situations, it is okay to give a *Tempo Clue* that doesn't meet the criteria for a *Cadence Clue*. This is called a *Stalling Tempo Clue*. Since everyone sees that the player giving the clue was in a stalling situation, they can understand what is going on.
-- For level 8 players, see the *[Allowable Stall Clues](level-8.md#allowable-stall-clues-stall-table)* section for the specific times when *Stalling Tempo Clues* are okay to give. If you are lower than level 8, the details are not important right now.
-- Obviously, players are **only** allowed to give a *Stalling Tempo Clue* in a valid stalling situation. If a player gives a *Tempo Clue* that does not meet the criteria for a *Cadence Clue* in an otherwise ordinary situation, then they must be intending to send a deeper message. See the *Tempo Clue Chop Moves* section below.
+- Sometimes, players are in "stalling situations" where it would be illegal for them to discard (like when they have a hand that is completely clued). In some specific stalling situations, it is okay to give a *Tempo Clue* that doesn't meet the criteria for a *Cadence Clue*. This is called a *Tempo Clue Stall*. Since everyone sees that the player giving the clue was in a stalling situation, they can understand what is going on.
+- For level 8 players, see the *[Allowable Stall Clues](level-8.md#allowable-stall-clues-stall-table)* section for the specific times when *Tempo Clue Stalls* are okay to give. If you are lower than level 8, the details are not important right now.
+- Obviously, players are **only** allowed to give a *Tempo Clue Stall* in a valid stalling situation. If a player gives a *Tempo Clue* that does not meet the criteria for a *Cadence Clue* in an otherwise ordinary situation, then they must be intending to send a deeper message. See the *Tempo Clue Chop Moves* section below.
 
 <br />
 
 ### The Tempo Clue Chop Move (TCCM)
 
 - First, see the section on *[Tempo Clues](#the-tempo-clue)*.
-- A *Stalling Tempo Clue* that is given in non-stalling situation doesn't make sense - the cluer must be intending to send a deeper message.
+- A *Tempo Clue Stall* that is given in non-stalling situation can't be a stall - the cluer must be intending to send a deeper message.
 - We agree that *Tempo Clues* of this nature cause a *Chop Move* in addition to getting the focus of the card to play.
 - For example, in a 3-player game:
   - It is the first turn and nothing is played on the stacks.
@@ -158,7 +158,7 @@ import DiscardModulation from '@site/image-generator/yml/level-6/discard-modulat
 
 ### The Double Tempo Clue (Cadence Clue)
 
-- First, see the section on *[Tempo Clues](#the-tempo-clue)* and *[Cadence Clues](#the-cadence-clue-a-valuable-tempo-clue).
+- First, see the section on *[Tempo Clues](#the-tempo-clue)* and *[Cadence Clues](#the-cadence-clue-a-valuable-tempo-clue)*.
 - When a *Tempo Clue* touches one card, it is a clear signal to play that card.
 - When a *Tempo Clue* touches two or more cards, we need to agree how many cards that it promises are playable.
 - We agree that it means that **all** of the cards touched are playable in order from left to right.
