@@ -149,6 +149,7 @@ This process is represented in the following flowchart:
 - If you have played a few games on [Hanab Live](https://hanab.live), then you may have noticed that the website has several features.
 - The website has an [extensive documentation](https://github.com/Zamiell/hanabi-live/blob/master/docs/FEATURES.md#notes). You can get to that page by pressing the "Help" icon in the upper-right part of the website lobby.
 - Below are a few of the most important features that a beginner should know about.
+- When in the lobby you can also go to *Settings* and *Enable Hyphen-ated group features* (under *Expert Features*), which will enable some helpful [additional UI elements](https://github.com/Zamiell/hanabi-live/blob/master/docs/FEATURES.md#hyphen-ated-conventions) for playing with the Hyphen-ated conventions.
 
 <br />
 
