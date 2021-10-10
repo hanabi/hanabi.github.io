@@ -183,7 +183,7 @@ import DiscardModulation from '@site/image-generator/yml/level-6/discard-modulat
 ### Lines
 
 - During your turn, part of figuring out the best move involves looking into the future to see what the next player will do. If they discard, will it be okay? Is there some obvious clue that they will do? And so on.
-- As you get better at Hanabi, you will need to do this prediction not just for the next player, but for an entire go-around of the table. And as you really get good at Hanabi, you will need to do this for as far in the future as you can reasonable predict. (Sometimes, this means 15 moves or more in the future.)
+- As you get better at Hanabi, you will need to do this prediction not just for the next player, but for an entire go-around of the table. And as you really get good at Hanabi, you will need to do this for as far in the future as you can reasonably predict. (Sometimes, this means 15 moves or more in the future.)
 - Similar to chess, initiating a move in which you can predict the next sequence of moves is called initiating a "line".
 - In post-game reviews, we will often compare and hypothetically "play through" two different lines to see which one is better.
 
