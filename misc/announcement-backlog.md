@@ -6,7 +6,17 @@ As noted in the [convention changes document](convention-changes.md), sometimes 
 
 ## The Backlog (General Conventions)
 
-n/a
+**The Asymmetric Chop Move Dilemma** (by Lel0uch)
+
+- Sometimes, an asymmetric *Chop Move* occurs during a game.
+- For example, in a 3-player game:
+  - During the *Early Game*, Alice clues number 5 to Cathy, touching a 5 that is one-away-from-chop.
+  - Bob does not see anything else for Alice to do, so Alice's clue is probably just a *5 Stall*.
+  - However, it is also possible that Bob has a playable or savable card in his hand. If this is true, then Alice's clue would instead be an *Early 5's Chop Move*.
+  - Next, Alice clues Cathy, causing Bob to blind-play a card as a *Trash Bluff*.
+  - In this situation, Bob cannot determine whether or not the *Trash Bluff* was an *Unnecessary Move*. Thus, without any other conventions, Bob is not sure where Cathy's chop card is.
+- In such cases, we agree that Bob should assume that all moves are *Necessary*. This follows from *Occam's Razor*; assume the simplest possible thing is happening.
+
 
 <br />
 
