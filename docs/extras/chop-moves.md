@@ -64,3 +64,16 @@ import DoubleOrderChopMove from '@site/image-generator/yml/extras/double-order-c
 - If a card has negative 1, 2, 3, and 4 on it, then it is explicitly known to be a 5, while not directly clued.
 - In this situation, it would be a waste of a clue for the team to clue it directly.
 - Thus, the player should self-chop move the card.
+
+<br />
+
+### The Asymmetric Chop Move Dilemma
+
+- Sometimes, an asymmetric *Chop Move* occurs during a game.
+- For example, in a 3-player game:
+  - During the *Early Game*, Alice clues number 5 to Cathy, touching a 5 that is one-away-from-chop.
+  - Bob does not see anything else for Alice to do, so Alice's clue is probably just a *5 Stall*.
+  - However, it is also possible that Bob has a playable or savable card in his hand. If this is true, then Alice's clue would instead be an *Early 5's Chop Move*.
+  - Next, Alice clues Cathy, causing Bob to blind-play a card as a *Trash Bluff*.
+  - In this situation, Bob cannot determine whether or not the *Trash Bluff* was an *Unnecessary Move*. Thus, without any other conventions, Bob is not sure where Cathy's chop card is.
+- In such cases, we agree that Bob should assume that all moves are *Necessary*. This follows from *Occam's Razor*; assume the simplest possible thing is happening.
