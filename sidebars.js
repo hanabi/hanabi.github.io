@@ -188,6 +188,7 @@ module.exports = {
         "variant-specific/duck",
         "variant-specific/extremely-ambiguous",
         "variant-specific/gray",
+        "variant-specific/light-pink",
         "variant-specific/muddy-rainbow-cocoa-rainbow",
         "variant-specific/null",
         "variant-specific/number-blind",
