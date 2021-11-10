@@ -32,8 +32,8 @@ As noted in the [convention changes document](convention-changes.md), sometimes 
 **Pink Precedence** (by pianoblook)
 
 - Normally, non-variant-specific conventions always take precedence over variant-specific conventions.
-- As an exception, the *Bubblegum Bluff* and the *Taffy Bluff* conventions usually take precedence over their non-variant-specific alternatives:
-  - *Bubblegum* and *Taffy* conventions take precedence over *Rank Choice Ejection (with 2)*.
-  - *Bubblegum* and *Taffy* conventions take precedence over *Unknown Trash Discharge*.
-  - *Bubblegum Bluff* and *Taffy Bluff* holds equal precedence to *4 Charm*; the clued player must therefore write notes for either option.
-  - A true *Bubblegum Finesse* takes precedence over *4 Charm* (this is because, unlike in the *Bluff* scenarios, the pink blind-play 'matches' the rank clue).
+- As an exception, the *Bubblegum Bluff* and the *Taffy Bluff* conventions usually take precedence over their non-variant-specific alternatives. Specifically:
+  - The *Bubblegum* and *Taffy* conventions take precedence over *Rank Choice Ejection (with 2)*.
+  - The *Bubblegum* and *Taffy* conventions take precedence over *Unknown Trash Discharge*.
+  - The *Bubblegum Bluff* and *Taffy Bluff* holds equal precedence to *4 Charm*; the clued player must therefore write identity notes for either option.
+  - A true *Bubblegum Finesse* takes precedence over *4 Charm*. (This is because, unlike in the *Bluff* scenarios, the pink blind-play "connects" to the rank clue).
