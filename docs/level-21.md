@@ -48,9 +48,10 @@ import RebelliousDiscard from '@site/image-generator/yml/level-21/rebellious-dis
 
 - First, see the section on the *[Scream Discard](level-6.md#the-scream-discard-chop-move-sdcm)*.
 - Normally, when a player performs a *Scream Discard*, they are discarding their chop (e.g. an unknown and unclued card).
-- However, if a player has both a known-playable card and a known-trash card, then discarding the known-trash card instead of playing their known-playable card is called *Shout Discard*.
-- *Shout Discard* *still* communicates a *Scream Discard* to the next player in the exact same way.
-- This situation is slightly different than the more-ordinary *Scream Discard*, so we have a separate name for it.
+- However, if a player has both a known-playable card and a known-trash card, then discarding the known-trash card instead of playing their known-playable card can still accomplish the same thing as a *Scream Discard*. This is called a *Shout Discard* to distinguish it from the more-ordinary case.
+- In other words:
+  - a *Scream Discard* is when you send an emergency signal by discarding an unknown card when you have a known-playable card
+  - a *Shout Discard* is when you send an emergency signal by discarding a known-trash card when you have a known-playable card
 - A *Shout Discard* *Chop Moves* the very next player in the exact way that a *Scream Discard* does.
 - A *Shout Discard* forces the next player to **not** discard on their turn in the exact way that a *Scream Discard* does.
 - Normally, a *Scream Discard* is only allowed to *Chop Move* a critical card or a playable card. However, unlike a *Scream Discard*, it is permissible to use a *Shout Discard* to *Chop Move* any card that is desirable, even if it is not critical or playable.
