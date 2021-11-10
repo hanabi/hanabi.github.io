@@ -66,7 +66,7 @@ import RebelliousDiscard from '@site/image-generator/yml/level-21/rebellious-dis
 - Occasionally, a player will have known-trash in their hand. Obviously, they are expected to discard the known-trash first before discarding their right-most unclued card.
 - Thus, if a player instead discards their right-most unclued card instead of the known-trash, it must be a signal that something is wrong, exactly like a *Scream Discard*. This is more subtle than a *Scream Discard* though, so it is called a Whisper Discard.
 - *Whisper Discards* are to be treated identically to *Scream Discards*. In short, this means that they 1) cause a *Chop Move* and 2) force a clue to be given on the next turn.
-- It is illegal for a player to perform a *Whisper Discard* if they have a playable card in their hand. If a player does this, it is to be treated as a known-mistake.
+- It is illegal for a player to perform a *Whisper Discard* if they have a known-playable card in their hand. If a player does this, it is to be treated as a known-mistake.
 
 <br />
 
