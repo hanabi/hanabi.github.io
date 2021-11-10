@@ -32,7 +32,7 @@ As noted in the [convention changes document](convention-changes.md), sometimes 
 **Pink Precedence** (by pianoblook)
 
 - Normally, non-variant-specific conventions always take precedence over variant-specific conventions.
-- As an exception, *Bubblegum* and *Taffy Bluff* conventions usually take precedence over their non-variant-specific *Signal Shift* alternatives, as described below:
+- As an exception, the *Bubblegum Bluff* and the *Taffy Bluff* conventions usually take precedence over their non-variant-specific alternatives:
   - *Bubblegum* and *Taffy* conventions take precedence over *Rank Choice Ejection (with 2)*.
   - *Bubblegum* and *Taffy* conventions take precedence over *Unknown Trash Discharge*.
   - *Bubblegum Bluff* and *Taffy Bluff* holds equal precedence to *4 Charm*; the clued player must therefore write notes for either option.
