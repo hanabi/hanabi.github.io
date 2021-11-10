@@ -17,7 +17,6 @@ As noted in the [convention changes document](convention-changes.md), sometimes 
   - In this situation, Bob cannot determine whether or not the *Trash Bluff* was an *Unnecessary Move*. Thus, without any other conventions, Bob is not sure where Cathy's chop card is.
 - In such cases, we agree that Bob should assume that all moves are *Necessary*. This follows from *Occam's Razor*; assume the simplest possible thing is happening.
 
-
 <br />
 
 ## The Backlog (Variant-Specific Conventions)
@@ -37,3 +36,7 @@ As noted in the [convention changes document](convention-changes.md), sometimes 
   - The *Bubblegum* and *Taffy* conventions take precedence over *Unknown Trash Discharge*.
   - The *Bubblegum Bluff* and *Taffy Bluff* holds equal precedence to *4 Charm*; the clued player must therefore write identity notes for either option.
   - A true *Bubblegum Finesse* takes precedence over *4 Charm*. (This is because, unlike in the *Bluff* scenarios, the pink blind-play "connects" to the rank clue).
+
+**Bubblegum Wraparound** (change)
+
+- The *Bubblegum Wraparound* convention now only applies to variants with a light pink suit.
