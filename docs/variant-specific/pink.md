@@ -326,6 +326,25 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 
 <FakeFinesse />
 
+https://github.com/hanabi/hanabi.github.io/pull/731
+
+### The Taffy Bluff
+
+- First, see the section on the *[Bubblegum Bluff](#the-bubblegum-bluff)*.
+- A *Bubblegum Bluff* is when *Pink Promise* is violated on a *one-away-from-playable* pink card to perform a *Bluff*.
+- It is also permissible to violate *Pink Promise* on a *two-away-from-playable* pink card to perform a *Bluff*. This is called a *Taffy Bluff* to distinguish it from the former case.
+- For example, in a 3-player game:
+  - It is the first turn and nothing is played on the stacks.
+  - Alice clues number 2 to Cathy, touching a pink 3 on slot 5. (The pink 3 is *two-away-from-playable*.)
+  - Bob knows that Alice is violating *Pink Promise*.
+  - If he plays slot 1, then Alice will mark it as the matching 2 and will misplay it.
+  - Thus, this must be a *Bubblegum Double Finesse*, meaning that Bob should play the slot that matches the rank that Alice chose.
+  - Bob tries to blind-play pink 1 from slot 2, but it is a red 1 instead. It is now revealed to Bob that this was a *Taffy Bluff* instead of a *Bubblegum Double Finesse*.
+  - Cathy knows that if her clued card was really a 2, Bob would have played slot 1. Thus, it cannot be a 2. Furthermore, there are no *Ejections* that match this situation, so this must be a *Taffy Bluff* on a pink 3.
+- It is also possible to perform a *Taffy Bluff* with cards other than a pink 3. For example:
+  - A *two-away-from-playable* pink 4 that is clued with a number 3 clue would cause a blind-play from slot 3.
+  - A *two-away-from-playable* pink 5 that is clued with a number 4 clue would cause a blind-play from slot 4.
+
 <br />
 
 ## Level 19 - Edge Cases
