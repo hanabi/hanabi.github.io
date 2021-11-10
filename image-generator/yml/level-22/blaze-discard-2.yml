@@ -17,6 +17,7 @@ players:
       - type: 5
       - type: x
       - type: x
+        above: Blue 2
       - type: x
       - type: x
   - text: Bob blind-plays slot 3

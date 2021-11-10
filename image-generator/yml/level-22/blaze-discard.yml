@@ -16,6 +16,7 @@ players:
     cards:
       - type: x
       - type: x
+        above: Blue 2
       - type: x
       - type: x
       - type: x
