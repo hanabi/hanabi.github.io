@@ -70,7 +70,10 @@ import DoubleOrderChopMove from '@site/image-generator/yml/extras/double-order-c
 ### The Asymmetric Chop Move Dilemma
 
 - Sometimes, an asymmetric *Chop Move* occurs during a game.
-- For example:
-  - During the *Early Game*, Alice clues a 5 one-away from chop on Cathy. Bob does not see anything else for Alice to do, but he still does not know if it is a *5 Stall* or an *Early 5's Chop Move* since he does not know what cards he has in his hand.
-  - Alice performs a *Trash Bluff* by clueing a card on Cathy into which Bob blind plays. Bob does not know whether it was an *Unnecessary Move* and therefore, cannot know where Cathy's *Chop* is.
-- In such cases, we agree that any clue coming from Bob to Cathy must be treated as if the *Chop Move* did not occur, due to the asymmetric nature of said *Chop Move*.
+- For example, in a 3-player game:
+  - During the *Early Game*, Alice clues number 5 to Cathy, touching a 5 that is one-away-from-chop.
+  - Bob does not see anything else for Alice to do, so Alice's clue is probably just a *5 Stall*.
+  - However, it is also possible that Bob has a playable or savable card in his hand. If this is true, then Alice's clue would instead be an *Early 5's Chop Move*.
+  - Next, Alice clues Cathy, causing Bob to blind-play a card as a *Trash Bluff*.
+  - In this situation, Bob cannot determine whether or not the *Trash Bluff* was an *Unnecessary Move*. Thus, without any other conventions, Bob is not sure where Cathy's chop card is.
+- In such cases, we agree that Bob should assume that all moves are *Necessary*. This follows from *Occam's Razor*; assume the simplest possible thing is happening.
