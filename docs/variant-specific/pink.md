@@ -283,7 +283,7 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 
 ## Level 19 - Other Special Moves
 
-### The Turnabout Ejection (with 1's or 5's)
+### The Turnabout Ejection
 
 - If a player violates *Pink Promise* to falsely indicate a pink 5 as a 1, **or** a playable pink card as a 5, this is a dangerous lie that must be immediately resolved.
 - In this situation, the next player must immediately play their *Second Finesse Position* to prove what happened. This is called a *Turnabout Ejection*.
@@ -365,7 +365,7 @@ https://github.com/hanabi/hanabi.github.io/pull/731
   - The *Bubblegum* and *Taffy* conventions take precedence over *Unknown Trash Discharge*.
   - The *Bubblegum Bluff* and *Taffy Bluff* holds equal precedence to *4 Charm*; the clued player must therefore write identity notes for either option.
   - A true *Bubblegum Finesse* takes precedence over *4 Charm*. (This is because, unlike in the *Bluff* scenarios, the pink blind-play "connects" to the rank clue).
- 
+
 ### Pink Promise with a 5 Stall
 
 - When a player performs a *5 Stall*, it is clearly a type of *Save Clue*. But if two or more 5's are touched as part of the clue, the focus of the clue is unclear.

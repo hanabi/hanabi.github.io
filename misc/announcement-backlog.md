@@ -31,6 +31,12 @@ As noted in the [convention changes document](convention-changes.md), sometimes 
 
 <br />
 
+**Chop Move Ignition** (rename)
+
+- *Playful Ignition* has been renamed to *Chop Move Ignition*.
+
+<br />
+
 ### The Always Loaded Principle
 
 - In certain variants, a specific type of clue always looks like a *Save Clue* regardless of which cards are in the discard pile.

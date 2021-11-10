@@ -126,7 +126,7 @@ title: Convention Attribution
 | The Unknown Trash Charm | piper
 | The Replay Double Ignition | Jerry
 | The Poke Double Ignition | Jerry
-| The Playful Ignition | kimbifille, pianoblook, & piper
+| The Chop Move Ignition | kimbifille, pianoblook, & piper
 | The 1's Junk Discharge | piper
 | The 1's Junk Charm | pianoblook
 

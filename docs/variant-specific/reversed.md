@@ -80,7 +80,7 @@ These conventions apply to any variant with a reversed suit (cards must be playe
 
 ### The Turnabout Ejection (for 1s)
 
-- [Turnabout Ejections](pink.md#the-turnabout-ejection-for-1s-and-5s) can be performed on a reversed 1 in the same way that they can on a pink 5.
+- [Turnabout Ejections](pink.md#the-turnabout-ejection) can be performed on a reversed 1 in the same way that they can on a pink 5.
 - In other words:
   - if a reversed 1 is the focus of a number 1 clue that is a *Play Clue*,
   - and the next player would need to blind-play two or more cards to fulfill a *Finesse*,

@@ -38,7 +38,7 @@
   - The Trash Double Ignition
   - The Replay Double Ignition
   - The Poke Double Ignition
-  - The Playful Ignition
+  - The Chop Move Ignition
   - Interaction with 5 Rank Clues
 - level 21
   - todo
