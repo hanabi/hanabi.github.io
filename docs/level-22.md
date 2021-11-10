@@ -83,7 +83,7 @@ import HesitationBlindPlay from '@site/image-generator/yml/level-22/hesitation-b
   - Alice discards a red 3 as a *Blaze Discard*.
   - Bob sees that Cathy has the other copy of the red 3. However, it is on slot 2 instead of on slot 1. (Cathy's hand is completely unclued.) Thus, Bob has to communicate to Cathy that it is actually on her *Second Finesse Position*.
   - Bob has a clued 5 on his slot 1. Thus, Bob's *Finesse Position* is on slot 2 and his *Second Finesse Position* is on slot 3.
-  - Bob blind-plays his *Second Finesse Position* (slot 3). It is a blue 1 and it successfully plays.
+  - Bob blind-plays his *Second Finesse Position* (slot 3). It is a blue 2 and it successfully plays.
   - Cathy knows that because Bob blind-played his slot 3, the red 3 must be on her slot 2.
 
 <BlazeDiscard2 />
