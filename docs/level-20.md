@@ -4,7 +4,7 @@ title: Level 20 - Ignition
 ---
 
 import ChopMoveIgnition from '@site/image-generator/yml/level-20/chop-move-ignition.yml';
-import ChopMoveIgnitionInteraction from '@site/image-generator/yml/level-20/chop-move-ignition-interaction-5.yml';
+import ChopMoveIgnitionInteraction from '@site/image-generator/yml/level-20/chop-move-ignition-interaction.yml';
 
 ## Conventions
 
