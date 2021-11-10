@@ -12,4 +12,18 @@ n/a
 
 ## The Backlog (Variant-Specific Conventions)
 
-n/a
+**The Turnabout Ejection** (clarification)
+
+- Previously, *Turnabout Ejection* could only be performed on a 1 or a 5. Now, it can also be performed on any playable pink card.
+- During the *Early Game*, *Turnabout Ejections* take precedence over *Bad Chop Move Ejections (with 5's)*. Afterwards, *Bad Chop Move Ejection* takes precedence.
+- *Turnabout Ejections (with 5's)* can only be performed with non-trash cards.
+- *Turnabout Ejections (with 1's)* cannot be performed once all 1's have been played.
+
+**Pink Precedence** (by pianoblook)
+
+- Normally, non-variant-specific conventions always take precedence over variant-specific conventions.
+- As an exception, *Bubblegum* and *Taffy Bluff* conventions usually take precedence over their non-variant-specific *Signal Shift* alternatives, as described below:
+  - *Bubblegum* and *Taffy* conventions take precedence over *Rank Choice Ejection (with 2)*.
+  - *Bubblegum* and *Taffy* conventions take precedence over *Unknown Trash Discharge*.
+  - *Bubblegum Bluff* and *Taffy Bluff* holds equal precedence to *4 Charm*; the clued player must therefore write notes for either option.
+  - A true *Bubblegum Finesse* takes precedence over *4 Charm* (this is because, unlike in the *Bluff* scenarios, the pink blind-play 'matches' the rank clue).
