@@ -3,7 +3,7 @@
 {
   "recommendations": [
     "dbaeumer.vscode-eslint", // The TypeScript linter
-    "streetsidesoftware.code-spell-checker", // A spell-checking extension based on cspell is used
+    "streetsidesoftware.code-spell-checker", // A spell-checking extension based on cspell
     "ms-python.python", // This repository contains Python scripts
   ],
 }
