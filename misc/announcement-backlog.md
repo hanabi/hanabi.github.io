@@ -17,6 +17,14 @@ As noted in the [convention changes document](convention-changes.md), sometimes 
   - In this situation, Bob cannot determine whether or not the *Trash Bluff* was an *Unnecessary Move*. Thus, without any other conventions, Bob is not sure where Cathy's chop card is.
 - In such cases, we agree that Bob should assume that all moves are *Necessary*. This follows from *Occam's Razor*; assume the simplest possible thing is happening.
 
+**The Triple Positional Discard** (rename)
+
+- The *Shallow Discard* has been renamed to the *Triple Positional Discard*.
+
+**The Quadruple Positional Misplay** (rename)
+
+- The *Shallow Misplay* has been renamed to the *Quadruple Positional Misplay*.
+
 <br />
 
 ### The Always Loaded Principle
