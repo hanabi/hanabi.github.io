@@ -346,6 +346,7 @@ https://github.com/hanabi/hanabi.github.io/pull/731
 - It is also possible to perform a *Taffy Bluff* with cards other than a pink 3. For example:
   - A *two-away-from-playable* pink 4 that is clued with a number 3 clue would cause a blind-play from slot 3.
   - A *two-away-from-playable* pink 5 that is clued with a number 4 clue would cause a blind-play from slot 4.
+- *Bubblegum Bluffs* have precedence over *Taffy Bluffs*. In other words, you are only supposed to assume a *Taffy Bluff* if a *Bubblegum Bluff* is impossible.
 
 <br />
 
