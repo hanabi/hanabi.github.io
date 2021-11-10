@@ -4,8 +4,8 @@ title: Discards & Misplays
 ---
 
 import UnnecessaryGeneration from '@site/image-generator/yml/extras/unnecessary-generation.yml';
-import ShallowDiscard from '@site/image-generator/yml/extras/shallow-discard.yml';
-import ShallowMisplay from '@site/image-generator/yml/extras/shallow-misplay.yml';
+import TriplePositionalDiscard from '@site/image-generator/yml/extras/triple-positional-discard.yml';
+import QuadruplePositionalMisplay from '@site/image-generator/yml/extras/quadruple-positional-misplay.yml';
 import PromiseClue from '@site/image-generator/yml/extras/promise-clue.yml';
 
 ### The Unnecessary Generation Discard
@@ -24,45 +24,44 @@ import PromiseClue from '@site/image-generator/yml/extras/promise-clue.yml';
 
 <UnnecessaryGeneration />
 
-### The Shallow Discard
+### The Triple Positional Discard
 
 - At the end of the game, it is normal for players to use a *Positional Discard* to get 1 card to blind-play, and to use a *Positional Misplay* to get 2 cards to blind-play.
 - If a player does a *Positional Discard* to only get 1 card when they could have performed a *Positional Misplay* instead, then this is quite strange. If they are not making a mistake, they must be trying to send an additional message.
 - In this situation, they intend for it to promise 3 blind-plays instead of 1.
-- This is called a *Shallow Discard* because from Bob's perspective, Alice could have performed a deeper move.
 - For example, in a 4-player game:
   - The team has 0 strikes.
   - It is the *End-Game* and Alice sees all of the remaining useful cards. Thus, she can *Positionally Discard* or *Positionally Misplay* any card that she wants in her hand.
   - Alice sees that Bob, Cathy, and Donald all have playable cards on slot 2.
-  - Alice blind-discards her slot 2 card as a *Shallow Discard*.
-  - From Bob's perspective, he sees that Cathy and Donald have a playable card on slot 2. Thus, Bob expected Alice to perform a *Positional Misplay* or her slot 2 card.
-  - When Bob sees that Alice performed a *Positional Discard* instead of a *Positional Misplay*, he knows that she must be intending for 3 blind-plays to happen (instead of 1) as a *Shallow Discard*.
+  - Alice blind-discards her slot 2 card as a *Triple Positional Discard*.
+  - From Bob's perspective, he sees that Cathy and Donald have a playable card on slot 2. Thus, Bob expected Alice to perform a *Positional Misplay* on her slot 2 card.
+  - When Bob sees that Alice performed a *Positional Discard* instead of a *Positional Misplay*, he knows that she must be intending for 3 blind-plays to happen (instead of 1) as a *Triple Positional Discard*.
   - Bob blind-plays his slot 2 card (to match Alice's slot 2 discard). It successfully plays.
   - Cathy and Donald are both in a similar situation to Bob. (They expected Alice to perform a *Positional Misplay*.)
-  - Thus, they both know that this is a *Shallow Discard*, and blind-play their slot 2 cards (to match Alice's slot 2 discard).
+  - Thus, they both know that this is a *Triple Positional Discard*, and blind-play their slot 2 cards (to match Alice's slot 2 discard).
 
-<ShallowDiscard />
+<TriplePositionalDiscard />
 
 - In some specific situations, a *Positional Discard* from chop would not work, because it would just look like a normal discard. In these situations, a *Positional Misplay* would only get 1 blind-play (instead of 2) and a *Shallow Discard* would only get 2 blind-plays (instead of 3).
 
 <br />
 
-### The Shallow Misplay
+### The Positional Misplay
 
-- First, see the section on the *[Shallow Discard](#the-shallow-discard)*.
-- In a 5-player game, it possible to perform a *Shallow Misplay*, causing 4 people to blind-play from the same slot. (This works for the same reasons that a *Shallow Discard* works.)
+- First, see the section on the *[Triple Positional Discard](#the-triple-positional-discard)*.
+- In a 5-player game, it possible to perform a *Quadruple Positional Misplay*, causing 4 people to blind-play from the same slot. (This works for the same reasons that a *Triple Positional Discard* works.)
 - For example, in a 5-player game:
   - The team has 0 strikes.
   - It is the *End-Game* and Alice sees all of the remaining useful cards. Thus, she can *Positionally Discard* or *Positionally Misplay* any card that she wants in her hand.
   - Alice sees that Bob, Cathy, Donald, and Emily all have playable cards on slot 2.
-  - Alice blind-plays her slot 2 card as a *Shallow Misplay*.
-  - From Bob's perspective, he sees that Cathy, Donald, and Emily have a playable card on slot 2. Thus, Bob expected Alice to perform a *Shallow Discard* or her slot 2 card.
-  - When Bob sees that Alice performed a *Positional Misplay* instead of a *Shallow Discard*, he knows that she must be intending for 4 blind-plays to happen (instead of 2) as a *Shallow Misplay*.
+  - Alice blind-plays her slot 2 card as a *Quadruple Positional Misplay*.
+  - From Bob's perspective, he sees that Cathy, Donald, and Emily have a playable card on slot 2. Thus, Bob expected Alice to perform a *Triple Positional Discard* on her slot 2 card.
+  - When Bob sees that Alice performed a *Positional Misplay* instead of a *Triple Positional Discard*, he knows that she must be intending for 4 blind-plays to happen (instead of 2) as a *Quadruple Positional Misplay*.
   - Bob blind-plays his slot 2 card (to match Alice's slot 2 discard). It successfully plays.
-  - Cathy, Donald, and Emily are all in a similar situation to Bob. (They expected Alice to perform a *Shallow Discard*.)
-  - Thus, they all know that this is a *Shallow Misplay*, and blind-play their slot 2 cards (to match Alice's slot 2 discard).
+  - Cathy, Donald, and Emily are all in a similar situation to Bob. (They expected Alice to perform a *Triple Positional Discard*.)
+  - Thus, they all know that this is a *Quadruple Positional Misplay*, and blind-play their slot 2 cards (to match Alice's slot 2 discard).
 
-<ShallowMisplay />
+<QuadruplePositionalMisplay />
 
 ### The Promise Clue & The Promise Discard
 
