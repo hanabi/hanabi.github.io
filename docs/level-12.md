@@ -154,7 +154,10 @@ import HardBluff from '@site/image-generator/yml/level-12/hard-bluff.yml';
 
 ### Legal Bluff-Targets
 
-- The full list of legal *Bluff* targets is as follows:
-  - any *one-away-from-playable* card (with either a color clue or a number clue)
-  - any *two-away-from-playable* 3 (with either a color clue or a number clue)
-  - any *two-away-from-playable* or *three-away-from-playable* critical 4 (only with a color clue)
+The full list of legal *Bluff* targets is represented in the following table:
+
+| Type of Card                                                          | Color Clue | Number Clue | Name of Convention
+| --------------------------------------------------------------------- | ---------- | ----------- | ------------------
+| any *one-away-from-playable* card                                     | ✅         | ✅         | *Bluff*
+| any *two-away-from-playable* 3                                        | ✅         | ✅         | *3 Bluff*
+| any *two-away-from-playable* or *three-away-from-playable* critical 4 | ✅         | ❌         | *Critical 4 Bluff*
