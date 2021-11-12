@@ -156,5 +156,5 @@ import HardBluff from '@site/image-generator/yml/level-12/hard-bluff.yml';
 
 - The full list of legal *Bluff* targets is as follows:
   - any *one-away-from-playable* card (with either a color clue or a number clue)
-  - any 3 (with either a color clue or a number clue)
-  - any critical 4 (only with a color clue)
+  - any *two-away-from-playable* 3 (with either a color clue or a number clue)
+  - any *two-away-from-playable* or *three-away-from-playable* critical 4 (only with a color clue)
