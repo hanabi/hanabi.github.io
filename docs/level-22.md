@@ -33,14 +33,14 @@ import HesitationBlindPlay from '@site/image-generator/yml/level-22/hesitation-b
   - If Bob sees that he would have to **blind-play one card** or **blind-play two cards** to fulfill a *Finesse*, then he should assume that it is a *Finesse*.
   - If Bob sees that he would have to **blind-play three cards** in their hand to fulfill the *Finesse*, then a *Finesse* is unlikely.
   - The third interpretation is that it is a *4 Double Bluff*.
-  - If Bob sees that Cathy does not have a playable card (or a *one-away-from-playable* card) on her *Finesse Position*, then a *4 Double Bluff* is impossible.
-  - The fourth interpretation is a *4 Charm*; Bob should play his *Fourth Finesse Position*.
+  - If Bob sees that Cathy does not have a playable card on her *Finesse Position*, then a *4 Double Bluff* is impossible (or very unlikely).
+  - The fourth interpretation is that it is a *4 Charm*, meaning that Bob should blind-play his *Fourth Finesse Position*.
 - For example, in a 4-player game:
   - It is the first turn and nothing is played on the stacks.
   - Alice clues number 4 clue to Cathy, touching a red 4 on slot 1 as a *Play Clue*.
   - Bob knows that normally, this would be a *Finesse* on the red 4, meaning that he should blind-play a red 1, a red 2, and a red 3. (Bob does not see any red cards in anyone else's hands.)
   - Since the *Finesse* requires three blind-plays, it is unlikely, and Bob knows he is supposed to revert to a different interpretation.
-  - Bob sees that Cathy does not have a playable card (or a *one-away-from-playable* card) on her *Finesse Position*, so a *4 Double Bluff* is impossible.
+  - Bob sees that Cathy has a trash card on her *Finesse Position*, so a *4 Double Bluff* is impossible.
   - Thus, Bob knows that this must be a *4 Charm*. He blind-plays his *Fourth Finesse Position*. It is a blue 1 and it successfully plays.
 
 <FourCharm />
