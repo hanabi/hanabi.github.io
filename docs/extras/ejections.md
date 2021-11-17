@@ -63,7 +63,7 @@ import SelfColor from '@site/image-generator/yml/extras/ejections/self-color.yml
 ### The Trash Ejection
 
 - First, see the section on the *[Trash Double Ignition](../level-20.md#the-trash-double-ignition)*.
-- In certain situations, if a player re-clues a card that is globally known as trash, it triggers a *Trash Double Ignition*.
+- In certain situations, if a player clues a previously untouched card that is globally known as trash, it triggers a *Trash Double Ignition*.
 - However, what if the next player can see that a *Trash Double Ignition* is impossible? In this situation, if the clue-giver is not making a mistake, they instead intend for an *Ejection* on the very next player.
 
 <br />
