@@ -30,7 +30,7 @@ As noted in the [convention changes document](convention-changes.md), sometimes 
 
 **4 Charm** (change) (by Zamiel)
 
-- *4 Charms* now take precendence over *Double Bluffs* in the specific case where Bob sees that Cathy has a *one-away-from-playable* card on her *Finesse Position*.
+- *4 Charms* now take precedence over *Double Bluffs* in the specific case where Bob sees that Cathy has a *one-away-from-playable* card on her *Finesse Position*.
 - For example, in a 4-player game:
   - Red 1 is played on the stacks.
   - Alice clues blue to Donald, touching a blue 4 as a *Play Clue*. (Blue 4 is currently three-away-from-playable.)
