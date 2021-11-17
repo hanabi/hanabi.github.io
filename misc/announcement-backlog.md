@@ -6,7 +6,7 @@ As noted in the [convention changes document](convention-changes.md), sometimes 
 
 ## The Backlog (General Conventions)
 
-### The Always Loaded Principle
+**The Always Loaded Principle** (by Lel0uch)
 
 - In certain variants, a specific type of clue always looks like a *Save Clue* regardless of which cards are in the discard pile.
 - For example:
@@ -28,6 +28,25 @@ As noted in the [convention changes document](convention-changes.md), sometimes 
   - If Bob does nothing, Cathy will assume that it is a *Loaded Play Clue* on the gray 3.
   - Thus, Bob plays his *Finesse Position* card. It is a blue 2 and it successfully plays.
 
+**4 Charm** (change) (by Zamiel)
+
+- *4 Charms* now take precendence over *Double Bluffs* in the specific case where Bob sees that Cathy has a *one-away-from-playable* card on her *Finesse Position*.
+- For example, in a 4-player game:
+  - Red 1 is played on the stacks.
+  - Alice clues blue to Donald, touching a blue 4 as a *Play Clue*. (Blue 4 is currently three-away-from-playable.)
+  - Bob sees that Cathy has a red 3 on her *Finesse Position*.
+  - If Bob has exactly a red 2 on his *Finesse Position*, then he knows that Alice's clue would work as a *4's Double Bluff*.
+  - However, since the red 3 on Cathy's *Finesse Position* is *one-away-from-playable*, Bob knows that *4 Charms* take precedence over this interpretation.
+  - Bob blind-plays his *Fourth Finesse Finesse* card. It is a red 2 and successfully plays on the stacks.
+- *Double Bluffs* take precedence over *4 Charms* when Cathy has a directly playable card on her *Finesse Position*. (This is unchanged from how it worked before.)
+- For example, in a 4-player game, similar to the previous example:
+  - Red 1 is played on the stacks.
+  - Alice clues blue to Donald, touching a blue 4 as a *Play Clue*. (Blue 4 is currently three-away-from-playable.)
+  - Bob sees that Cathy has a green 1 on her *Finesse Position*.
+  - If Bob has any playable card other than green 1 on his *Finesse Position*, then Alice's clue will work as a *4's Double Bluff*.
+  - Bob knows that in this situation, *Double Bluffs* take precedence over *4 Charms*, so he blind-plays his *Finesse Position* card. It is a yellow 1 and it successfully plays on the stacks.
+  - Cathy blind-plays her *Finesse Position* card. It is a green 1 and it successfully plays on the stacks.
+  
 <br />
 
 ## The Backlog (Variant-Specific Conventions)
