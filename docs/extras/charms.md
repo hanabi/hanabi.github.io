@@ -17,8 +17,21 @@ import SafetyCharm from '@site/image-generator/yml/extras/charms/safety-charm.ym
 
 - The *4 Charm* is introduced at [level 22](../level-22.md#the-4-charm).
 
+#### Interaction with Double Bluffs Where Cathy Has a One-Away-From-Playable Card
+
+- As stated in the level 22 section, *Double Bluffs* have precedence over *4 Charms*. However, there is one small exception.
+- *Double Bluffs* do not have precedence in the situation where Bob sees that Cathy has a *one-away-from-playable* card on her *Finesse Position*. Here, it is technically possible that Bob will blind-play the exact card that makes Cathy's *Finesse Position* playable. But since this is so unlikely, we agree that players in this situation should revert to a *4 Charm* interpretation.
+- For example, in a 4-player game:
+  - Red 1 is played on the stacks.
+  - Alice clues blue to Donald, touching a blue 4 as a *Play Clue*. (Blue 4 is currently three-away-from-playable.)
+  - Bob sees that Cathy has a red 3 on her *Finesse Position*.
+  - If Bob has exactly a red 2 on his *Finesse Position*, then he knows that Alice's clue would work as a *4's Double Bluff*.
+  - However, since the red 3 on Cathy's *Finesse Position* is *one-away-from-playable*, Bob knows that *4 Charms* should take precedence.
+  - Bob blind-plays his *Fourth Finesse Finesse* card. It is a red 2 and successfully plays on the stacks.
+
 #### Interaction with the Out-of-Order Finesse
 
+- First, see the section on the *[Out-of-Order Finesse](../level-19.md#the-out-of-order-finesse)*.
 - The *Out-of-Order Finesse* always takes precedence over a *4 Charm* or a *4's Double Bluff*, because of *Bob's Truth Principle*.
 - For example, in a 4-player game:
   - It is the first turn and nothing is played on the stacks.
