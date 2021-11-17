@@ -36,7 +36,7 @@ As noted in the [convention changes document](convention-changes.md), sometimes 
   - Alice clues blue to Donald, touching a blue 4 as a *Play Clue*. (Blue 4 is currently three-away-from-playable.)
   - Bob sees that Cathy has a red 3 on her *Finesse Position*.
   - If Bob has exactly a red 2 on his *Finesse Position*, then he knows that Alice's clue would work as a *4's Double Bluff*.
-  - However, since the red 3 on Cathy's *Finesse Position* is *one-away-from-playable*, Bob knows that *4 Charms* take precedence over this interpretation.
+  - However, since the red 3 on Cathy's *Finesse Position* is *one-away-from-playable*, Bob knows that *4 Charms* should take precedence.
   - Bob blind-plays his *Fourth Finesse Finesse* card. It is a red 2 and successfully plays on the stacks.
 - *Double Bluffs* take precedence over *4 Charms* when Cathy has a directly playable card on her *Finesse Position*. (This is unchanged from how it worked before.)
 - For example, in a 4-player game, similar to the previous example:
