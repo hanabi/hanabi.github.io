@@ -43,7 +43,6 @@ import UnknownDupeDischarge2 from '@site/image-generator/yml/extras/discharges/u
 - For example, in a 3-player game:
   - It is the first turn of the game and nothing is played on the stacks.
   - Alice clues number 5 to Bob as a *5 Save*.
-  - Bob clues number 5 to Alice as a *5 Save*.
   - Bob's hand is as follows: `red 2, red 2, red 4, blue 4, blue [5]`
   - Bob clues green to Cathy as a play clue.
   - Cathy clues red to Bob, touching the red 2 on slot 1, the red 2 on slot 2, and the red 4 on slot 3.
