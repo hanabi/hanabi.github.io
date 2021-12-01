@@ -12,8 +12,8 @@ import CriticalSave from '@site/image-generator/yml/beginner/critical-save.yml';
   - If Alice has a red 2 in her hand, and the other copy of red 2 is in the deck, then Alice's red 2 is not critical.
   - If Alice has a red 2 in her hand, and the other copy of red 2 is already discarded, then Alice's red 2 is critical.
   - If Alice has a red 5 in her hand, then it is always critical. (There is only one copy of each 5 in a Hanabi deck.)
-- For the same reason that 5's need to be saved, critical cards also need to be saved.
-- We agree that players can save critical cards with **either a color clue or a number clue**.
+- Obviously, critical cards need to be given *Save Clues* so that they are not discarded. (If a critical card was discarded, then the maximum score of the game would decrease.)
+- As long as the critical card is not a 5, we agree that players can save critical cards with **either a color clue or a number clue**.
 - In the example below:
   - Alice clues Bob blue, which touches a card on slot 4.
   - Before this clue, the only clued card in Bob's hand was the 5 on slot 5.
