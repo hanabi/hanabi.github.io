@@ -320,8 +320,6 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 
 <FakeFinesse />
 
-https://github.com/hanabi/hanabi.github.io/pull/731
-
 ### The Taffy Bluff
 
 - First, see the section on the *[Bubblegum Bluff](#the-bubblegum-bluff)*.
@@ -340,7 +338,24 @@ https://github.com/hanabi/hanabi.github.io/pull/731
   - A *two-away-from-playable* pink 5 that is clued with a number 4 clue would cause a blind-play from slot 4.
 - *Bubblegum Bluffs* have precedence over *Taffy Bluffs*. In other words, you are only supposed to assume a *Taffy Bluff* if a *Bubblegum Bluff* is impossible.
 
-<br />
+### The Taffy Double/Triple Bluff
+
+- As an extension of *Taffy Bluff*, a player can perform a *Taffy Double/Triple Bluff* using either a 3 away or 4 away pink card respectively. 
+- For Example, in a 4 player game:
+  - Playfield: no pink cards are played
+  - Alice clues 4 to Donald touching only i3 on slot 3. 
+    - Donald's Hand X - X - i3 - X - X
+  - Bob can see that Cathy has a playable on slot 1. Bob also knows that *Bubblegum Bluffs* take precedance over *Double bluffs* in pink variants. The reason for this is because we want pink cards to be immediately identified when touched by a clue. 
+  - Bob blind plays slot 4 as a *Bubblegum Bluff*.
+  - It is Cathy's turn and she realizes that, if she does nothing, Donald will write i2 on i3. Thus, the situation is not resolved.
+  - Cathy blind plays slot 1 to resolve the situation as a *Taffy Double Bluff*
+  - Donald realizes, if it was i2, Cathy would do nothing. However, because she blind played, she is saying that it is not i2. Thus, it must be a 2 away pink card and now he is promised that it is i3.
+
+- Similarly, if a 4 away pink card is used, it should cause 3 blind plays as a *Taffy Triple Bluff*
+  - 1st Blind Play: the slot called for
+  - 2nd Blind Play: slot 1
+  - 3rd Blind Play: slot 1
+  - Note: Triple Bluffs are being phased out of the group. They are extremely rare, but I mentioned it here to cover the cases where it may happen.
 
 ## Level 19 - Edge Cases
 
