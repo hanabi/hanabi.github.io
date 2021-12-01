@@ -9,9 +9,9 @@ import CriticalSave from '@site/image-generator/yml/beginner/critical-save.yml';
 <BeginnersGuideProgress id="critical-save" />
 
 - Critical cards are defined as the final card of a suit and rank combination that is not discarded yet. For example:
-  - If Alice has a copy of red 2 in her hand, and the other copy of red 2 is in the deck, then Alice's copy is not critical.
-  - If Alice has a copy of red 2 in her hand, and the other copy of red 2 is already discarded, then Alice's copy is critical.
-  - If Alice has a copy of red 5 in her hand, then it is always critical. (There is only one copy of 5's in each Hanabi deck.)
+  - If Alice has a red 2 in her hand, and the other copy of red 2 is in the deck, then Alice's red 2 is not critical.
+  - If Alice has a red 2 in her hand, and the other copy of red 2 is already discarded, then Alice's red 2 is critical.
+  - If Alice has a red 5 in her hand, then it is always critical. (There is only one copy of each 5 in a Hanabi deck.)
 - For the same reason that 5's need to be saved, critical cards also need to be saved.
 - We agree that players can save critical cards with **either a color clue or a number clue**.
 - In the example below:
