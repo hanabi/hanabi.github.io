@@ -28,9 +28,6 @@ import WrongPrompt from '@site/image-generator/yml/level-2/wrong-prompt.yml';
 
 <br />
 
-
-<br />
-
 ### The Double Prompt / Triple Prompt / Quadruple Prompt
 
 - Sometimes, someone can give a *Prompt* that is prompting **two** (or more) cards with one clue, which is pretty good.
