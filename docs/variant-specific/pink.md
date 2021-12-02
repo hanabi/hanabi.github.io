@@ -254,7 +254,6 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 <BubblegumFinesse />
 
 - *Bubblegum Finesses* can only be used to get pink cards.
-- Note that *4 Charms* have precedence over *Bubblegum* moves.
 
 ### The Bubblegum Bluff
 
@@ -338,24 +337,21 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
   - A *two-away-from-playable* pink 5 that is clued with a number 4 clue would cause a blind-play from slot 4.
 - *Bubblegum Bluffs* have precedence over *Taffy Bluffs*. In other words, you are only supposed to assume a *Taffy Bluff* if a *Bubblegum Bluff* is impossible.
 
-### The Taffy Double/Triple Bluff
+### The Taffy Double Bluff
 
-- As an extension of *Taffy Bluff*, a player can perform a *Taffy Double/Triple Bluff* using either a 3 away or 4 away pink card respectively. 
-- For Example, in a 4 player game:
-  - Playfield: no pink cards are played
-  - Alice clues 4 to Donald touching only i3 on slot 3. 
-    - Donald's Hand X - X - i3 - X - X
-  - Bob can see that Cathy has a playable on slot 1. Bob also knows that *Bubblegum Bluffs* take precedance over *Double bluffs* in pink variants. The reason for this is because we want pink cards to be immediately identified when touched by a clue. 
-  - Bob blind plays slot 4 as a *Bubblegum Bluff*.
-  - It is Cathy's turn and she realizes that, if she does nothing, Donald will write i2 on i3. Thus, the situation is not resolved.
-  - Cathy blind plays slot 1 to resolve the situation as a *Taffy Double Bluff*
-  - Donald realizes, if it was i2, Cathy would do nothing. However, because she blind played, she is saying that it is not i2. Thus, it must be a 2 away pink card and now he is promised that it is i3.
+- First, see the section on the [Taffy Bluff](#the-taffy-bluff).
+- Rarely, a player can perform a *Taffy Double Bluff* by violating *Pink Promise* on a *two-away-from-playable* pink card.
+- For example, in a 4 player game:
+  - It is the first turn of the game and nothing is played on the stacks.
+  - Alice clues number 4 to Donald, touching a pink 3 on slot 3.
+  - Bob knows that since Alice violated *Pink Promise*, this must be some sort of *Bubblegum* move.
+  - Bob blind-plays his slot 4 card. It is a red 1 and it successfully plays on to the stacks.
+  - From Donald's perspective, he knows that Alice performed a *Bubblegum Bluff*. Donald marks his slot 3 card as a pink 2 (the pink card that is *one-away-from-playable*).
+  - Next, it is Cathy's turn. Cathy sees that Donald will mark his pink card as a pink 2. However, the card is really a pink 3, so the situation has not yet resolved.
+  - Cathy blind-plays her slot 1 card. It is a red 2 and it successfully plays on the stacks.
+  - Donald realizes that if his clued card was a pink 2, then Cathy would not have done anything. Thus, this must have been a *Taffy Double Bluff*. Donald updates the note on his card to be a pink 3 (the pink card that is *two-away-from-playable*).
 
-- Similarly, if a 4 away pink card is used, it should cause 3 blind plays as a *Taffy Triple Bluff*
-  - 1st Blind Play: the slot called for
-  - 2nd Blind Play: slot 1
-  - 3rd Blind Play: slot 1
-  - Note: Triple Bluffs are being phased out of the group. They are extremely rare, but I mentioned it here to cover the cases where it may happen.
+<br />
 
 ## Level 19 - Edge Cases
 
