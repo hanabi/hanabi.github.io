@@ -26,8 +26,7 @@ import EarlyGameQuestion4 from '@site/image-generator/yml/beginner/early-game-qu
 </TabItem>
 <TabItem value="solution">
 
-- At Level 1, there is no legal action that can be performed.
-  Therefore, Alice must discard.
+- At level 1, there are no legal action that can be performed. Thus, Alice must discard.
 
 </TabItem>
 </Tabs>
