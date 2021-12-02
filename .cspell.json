@@ -1,9 +1,5 @@
 {
-    "version": "0.1",
-    "language": "en",
-    "dictionaries": [
-        "en_US"
-    ],
+    "version": "0.2",
     "words": [
         "ahming",
         "albertine",
@@ -109,6 +105,7 @@
         "pianoblook's",
         "playstyle",
         "postmans",
+        "PPCL",
         "prepend",
         "progressbar",
         "promptable",

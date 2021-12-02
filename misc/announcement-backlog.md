@@ -34,7 +34,7 @@ n/a
 
 **The Taffy Double Bluff** (by Kakashi)
 
-- First, see the section on the [Taffy Bluff](#the-taffy-bluff).
+- First, see the section on the Taffy Bluff.
 - Rarely, a player can perform a *Taffy Double Bluff* by violating *Pink Promise* on a *two-away-from-playable* pink card.
 - For example, in a 4 player game:
   - It is the first turn of the game and nothing is played on the stacks.

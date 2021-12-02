@@ -14,7 +14,7 @@ These conventions apply to variants with rainbow-ones or rainbow-fives.
 
 ### The Color Play Clue Lie
 
-- First, see the section on the *[Pink Play Clue Lie](pink.md#the-pink-play-clue-lie-with-a-mismatched-play-clue-that-touches-other-cards)* (for pink variants).
+- First, see the section on the *[Pink Play Clue Lie](pink.md#the-pink-play-clue-lie-ppcl-with-a-mismatched-play-clue-that-touches-other-cards)* (for pink variants).
 - Similar to how the *Pink Play Clue Lie* violates *Pink Promise*, you can do a *Color Play Clue Lie* to violate *Color Promise* in the same way.
 - In other words, you can break *Color Promise* if:
   - using a "wrong" color would get extra cards (e.g. a 2-for-1 instead of a 1-for-1)
