@@ -26,8 +26,11 @@ import EarlyGameQuestion4 from '@site/image-generator/yml/beginner/early-game-qu
 </TabItem>
 <TabItem value="solution">
 
-- The **only** legal action that Alice can perform is to clue number 5 to Donald as a *5 Stall* on the purple 5.
-  - There are no playable cards and no savable cards. But since it is the *Early Game*, Alice must perform a *5 Stall* if it is available.
+- At Level 1, there is no legal action that can be performed.
+  Therefore, Alice must discard.
+- Starting from Level 2, there is a special move called the *5 Stall*
+  in which Alice clues 5 to Donald (touching the purple 5)
+  to prolong the *Early Game* slightly. However, you don't have to worry about this at Level 1.
 
 </TabItem>
 </Tabs>

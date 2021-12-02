@@ -98,19 +98,6 @@ This process is represented in the following flowchart:
 
 - The exception to the *Visible Rule* is when the same 2 is on two people's chops at the same time. In that situation, players are allowed to *2 Save* whichever one they want. And if it is the *Early Game*, then players **must** choose to save one of them before giving a *5 Stall* or before discarding to initiate the *Mid-Game*.
 
-#### Interaction With 5 Stalls
-
-- For level 17 players, there is a [special interaction between *2 Saves* and *5 Stalls*](level-17.md#interaction-between-2-saves--5-stalls).
-
-<br />
-
-### The 5 Stall
-
-- A *5 Stall* is when someone uses a number 5 clue to save a previously-unclued 5 that is not on chop yet.
-- *5 Stalls* are only allowed to be performed in the *Early Game* and in other special stalling situations.
-- Furthermore, you are only allowed to *5 Stall* in the *Early Game* if there is nothing else to do (meaning that all of the "normal" Play Clues and Save Clues have been extinguished).
-- For level 8 players, there are [additional rules](level-8.md#the-5-stall-intermediate-section) relating to the *5 Stall*.
-
 <br />
 
 ### The Prompt

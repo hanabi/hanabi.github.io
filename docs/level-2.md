@@ -17,6 +17,18 @@ import WrongPrompt from '@site/image-generator/yml/level-2/wrong-prompt.yml';
 
 ## Special Moves
 
+### The 5 Stall (Cluing Off Chop 5's)
+
+- Normally, you are only allowed to give a *Save Clue* to a 5 if it is on chop. So if you use number 5 to clue a 5 that is **not** on chop, then it will typically look like a *Play Clue* on that 5 (or some other advanced strategy).
+- As a special exception, in the *Early Game*, you **are** allowed to clue number 5 as a *Save Clue* to off chop 5's. Doing this is just interpreted as a "stall" clue and that you are trying to extend the *Early Game* for a little bit longer.
+- However, you are **only** allowed to do this if there is nothing else to do, meaning that all of the "normal" *Play Clues* and *Save Clues* have been extinguished.
+- Normally, *5 Stalls* are only performed in the *Early Game*. However, you might see someone do a *5 Stall* in the *Mid-Game* if they are in a special situation where they are not allowed to discard.
+- For level 8 players, there are [additional rules](level-8.md#the-5-stall-intermediate-section) relating to the *5 Stall*.
+- For level 17 players, there is a [special interaction between *2 Saves* and *5 Stalls*](level-17.md#interaction-between-2-saves--5-stalls).
+
+<br />
+
+
 <br />
 
 ### The Double Prompt / Triple Prompt / Quadruple Prompt
