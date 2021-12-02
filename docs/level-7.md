@@ -19,6 +19,14 @@ title: Level 7 - End-Game
 
 <br />
 
+### No Chop Moves in the End-Game
+
+- In the *Early Game* and the *Mid-Game*, it is often useful to *Chop Move* a card for later. The strategic point of a *Chop Move* is that it saves a potentially important card for later on.
+- In the *End-Game*, it does not make any sense to save a card for later, because there is no "later" - the team has run out of time! For this reason, *Chop Moves* are "turned off" in the *End-Game*.
+- If a player gives a clue that looks like a *Chop Move* in the *End-Game*, then players should reinterpret it as the next-simplest possible interpretation. In practice, this usually means a *Stall Clue*.
+
+<br />
+
 ## Special Moves
 
 <br />
