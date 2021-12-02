@@ -102,7 +102,7 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 
 ## Level 9 - Violations of *Pink Promise* That Don't Require a Fix
 
-### The Pink Play Clue Lie (With Multiple 1's)
+### The Pink Play Clue Lie (PPCL) (With Multiple 1's)
 
 - Players can violate *Pink Promise* with a number 1's clue if all of the cards will successfully play.
 - For example, in a 3-player game:
@@ -116,7 +116,7 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 
 <PlayClueLie1s />
 
-### The Pink Play Clue Lie (With a Mismatched *Play Clue* That Touches Other Cards)
+### The Pink Play Clue Lie (PPCL) (With a Mismatched *Play Clue* That Touches Other Cards)
 
 - Players can also violate *Pink Promise* if they are giving a *Play Clue* and the lie will be resolved when the player who is clued plays their focused card.
 - For example, in a 3-player game:
