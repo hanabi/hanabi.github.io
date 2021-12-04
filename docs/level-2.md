@@ -11,6 +11,10 @@ import ReverseFinesse from '@site/image-generator/yml/level-2/reverse-finesse.ym
 import SelfFinesse from '@site/image-generator/yml/level-2/self-finesse.yml';
 import WrongPrompt from '@site/image-generator/yml/level-2/wrong-prompt.yml';
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import EarlyGameQuestion4 from '@site/image-generator/yml/beginner/early-game-question-4.yml';
+
 - Level 2 strategies can be learned after a few games of experience.
 
 <br />
@@ -180,3 +184,28 @@ import WrongPrompt from '@site/image-generator/yml/level-2/wrong-prompt.yml';
   - On his next turn, Bob blind-plays his slot 2. (It is on slot 2 now because he drew a card when he misplayed the red 4.)
 
 <WrongPrompt />
+
+## Questions for Level 2
+
+<Tabs
+  defaultValue="question"
+  values={[
+    {label: 'Question', value: 'question'},
+    {label: 'Solution', value: 'solution'},
+  ]}>
+<TabItem value="question">
+
+- It is currently the *Early Game*. There is 1 clue token left.
+- What action should Alice perform?
+
+</TabItem>
+<TabItem value="solution">
+
+- The only legal move is for Alice to give a *5 Stall* to Donald
+  (touching the purple 5).
+  There are no other legal Play or Save clues to give at this time.
+
+</TabItem>
+</Tabs>
+
+<EarlyGameQuestion4 />
