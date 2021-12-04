@@ -27,8 +27,8 @@ The following is a quick summary of the levels.
 
 | Level Number        | Level Name              | Main Conventions Learned
 | ------------------- | ----------------------- | ------------------------
-| [1](level-1.md)     | Fundamentals            | *[The Early Game](level-1.md#the-early-game)*, *[5 Stalls](level-1.md#the-5-stall)*, *[Prompts](level-1.md#the-prompt)*, *[Finesses](level-1.md#the-finesse)*
-| [2](level-2.md)     | Basic Finesses          | *[Double Finesses](level-2.md#the-double-finesse--triple-finesse--quadruple-finesse)*, *[Reverse Finesses](level-2.md#the-reverse-finesse)*, *[Self-Finesses](level-2.md#the-self-finesse)*
+| [1](level-1.md)     | Fundamentals            | *[The Early Game](level-1.md#the-early-game)*, *[Prompts](level-1.md#the-prompt)*, *[Finesses](level-1.md#the-finesse)*
+| [2](level-2.md)     | Basic Finesses          | *[5 Stalls](level-2.md#the-5-stall)*, *[Double Finesses](level-2.md#the-double-finesse--triple-finesse--quadruple-finesse)*, *[Reverse Finesses](level-2.md#the-reverse-finesse)*, *[Self-Finesses](level-2.md#the-self-finesse)*
 | [3](level-3.md)     | Basic Strategy          | *[Playing Multiple 1's](level-3.md#playing-multiple-1s)*, *[The Fix Clue](level-3.md#the-fix-clue)*, *[Sarcastic Discards](level-3.md#the-sarcastic-discard)*
 | [4](level-4.md)     | Chop Moves              | *[Trash Chop Moves](level-4.md#the-trash-chop-move)*, *[5's Chop Moves](level-4.md#the-5s-chop-move-5cm)*
 | [5](level-5.md)     | Intermediate Finesses   | *[Hidden Finesses](level-5.md#the-hidden-finesse)*, *[Layered Finesses](level-5.md#the-layered-finesse)*, *[Clandestine Finesses](level-5.md#the-clandestine-finesse)*, *[Stacked Finesses](level-5.md#the-stacked-finesse)*, *[Ambiguous Finesses](level-5.md#the-ambiguous-finesse)*

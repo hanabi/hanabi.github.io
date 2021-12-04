@@ -87,7 +87,6 @@ module.exports = {
             "beginner/early-game-question-1",
             "beginner/early-game-question-2",
             "beginner/early-game-question-3",
-            "beginner/early-game-question-4",
           ],
         },
         {
