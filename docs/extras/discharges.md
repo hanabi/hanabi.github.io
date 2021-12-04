@@ -53,7 +53,7 @@ import UnknownDupeDischarge2 from '@site/image-generator/yml/extras/discharges/u
 
 <UnknownDupeDischarge />
 
-- *Unknown Dupe Discharges* **can only be initiated with color clues**. This is because number clues will cause *Bad Touch Finesses*.
+- *Unknown Dupe Discharges* can be initiated with either color clues or number clues.
 - *Unknown Dupe Discharges* only apply if **the two duplicated cards are in the same person's hand**.
   - It is explicitly illegal to perform an *Unknown Dupe Discharge* that duplicates a card in someone else's hand. If this happens, the clue must have some other meaning.
 - Remember that after an *Unknown Dupe Discharge*, the player who received the clue is supposed to *discard the focus of the clue*.

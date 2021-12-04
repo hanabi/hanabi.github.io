@@ -74,7 +74,6 @@ title: Convention Attribution
 | The Just-In-Time Fix Clue | Zamiel
 | The Occupied Play Clue & The Occupied Finesse | Zamiel
 | The Echo Scream Discard | Florrat & Zamiel
-| The Bad Touch Double Finesse & The Bad Touch Double Bluff | Sankala
 | Ejection | Razvogor & Zamiel & Sankala
 | The Order Chop Move | Zamiel & Libster
 | The Trash Order Chop Move | Zamiel & Libster
@@ -96,7 +95,6 @@ title: Convention Attribution
 | The Double Scream Discard Chop Move | Asddsa
 | The Distribution Finesse | Asddsa
 | The Double Positional Misplay | Libster
-| The Bad Touch Finesse | Zamiel
 | The Inverted 5's Tempo Clue | NoMercy
 | Discharge | Razvogor
 | The Unknown Trash Discharge | Sankala
