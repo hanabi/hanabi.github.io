@@ -6,7 +6,20 @@ As noted in the [convention changes document](convention-changes.md), sometimes 
 
 ## The Backlog (General Conventions)
 
-n/a
+@everyone Deleted conventions:
+
+**The Bad Touch Finesse & The Bad Touch Bluff** (deleted)
+
+```
+- All forms of *Bad Touch Finesses* and *Bad Touch Bluffs* are deleted.
+- Now, these kinds of clues are instead interpreted as an *Unknown Dupe Discharge*.
+```
+
+**Unknown Dupe Discharge** (change)
+
+```
+- *Unknown Dupe Discharges* can now be given with both a color clue and a number clue. (Previously, they could only be given with a color clue.)
+```
 
 <br />
 
