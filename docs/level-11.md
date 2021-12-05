@@ -244,7 +244,7 @@ import CluingOnes3 from '@site/image-generator/yml/level-11/cluing-ones-3.yml';
 - For example, in a 3-player game:
   - It is the first turn and nothing is played on the stacks.
   - Cathy's hand is as follows, from newest to oldest: `blue 4, blue 4, red 3, red 1, blue 5`
-  - Alice would like to get the red 1 played. (No-one else has a red 1 in their hand.) Alice also knows that the team needs to eventually save the red 5.
+  - Alice would like to get the red 1 played. (No-one else has a red 1 in their hand.) Alice also knows that the team needs to eventually save the blue 5.
   - If Alice clues number 1 first to get the red 1, then the team will need to give a *5 Save* to save the blue 5, resulting in an efficiency of 2-for-2.
   - Instead, Alice clues number 5 as a *5 Save*, which allows Bob to follow up with a red *Chop-Focus Play Clue*. This touches the red 3 as a 2-for-1, allowing for an overall efficiency of a 3-for-2.
 
