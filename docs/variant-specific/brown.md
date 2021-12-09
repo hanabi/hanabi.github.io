@@ -28,8 +28,7 @@ These conventions apply to any variant with a brown (touched by no ranks) suit.
 
 ### The Brown Loaded Play Clue
 
-- *Loaded Play Clues* are "turned on" for brown cards.
-- Normally, *Loaded Play Clues* are "turned off" in the *Early Game*. However, note that *Loaded Play Clues* **always** apply to brown cards, even in the *Early Game*.
+- *Loaded Play Clues* are "turned on" for brown cards, according to *Always Loaded Principle*.
 
 ### Positional Clues
 
