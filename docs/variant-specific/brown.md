@@ -28,7 +28,7 @@ These conventions apply to any variant with a brown (touched by no ranks) suit.
 
 ### The Brown Loaded Play Clue
 
-- *Loaded Play Clues* are "turned on" for brown cards, according to *Always Loaded Principle*.
+- *Loaded Play Clues* are always "turned on" for brown cards, according to the *Always Loaded Principle*.
 
 ### Positional Clues
 
