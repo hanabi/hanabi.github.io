@@ -18,4 +18,4 @@ These conventions apply to any variant with a dark prism suit.
 - There are two exceptions to this:
   - if the color clue also touched another critical card that is visible in the trash (e.g. not a 5 and not dark prism)
   - if the color matches a suit that is already completely played or accounted for
-- Additionally, *Always Loaded Principle* applies to saves with rank clue 3 and 4.
+- Additionally, according to the *Always Loaded Principle*, save clues with number 3 or number 4 are always *Loaded*.
