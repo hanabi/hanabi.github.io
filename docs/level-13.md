@@ -109,12 +109,6 @@ import TrashPush from '@site/image-generator/yml/level-13/trash-push.yml';
 
 <br />
 
-### A Trash Flowchart
-
-There are a lot of different moves that involve cluing trash. [Here is a flowchart](https://raw.githubusercontent.com/hanabi/hanabi.github.io/main/static/img/flowcharts/cluing-trash-flowchart.png) for determining the difference between the different types of special moves that touch trash. (The flowchart contains some strategies that have not been covered yet, but the three most important moves to understand are the *Trash Chop Move*, the *Trash Finesse/Bluff*, and the *Trash Push*.)
-
-<br />
-
 ## General Principles
 
 <br />
