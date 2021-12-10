@@ -18,6 +18,6 @@ These conventions apply to any variant with a dark rainbow (touched by all color
 - There are two exceptions to this:
   - if the color clue also touched another critical card that is visible in the trash (e.g. not a 5 and not dark rainbow)
   - if the color matches a suit that is already completely played or accounted for
-- Additionally, *Always Loaded Principle* applies to saves with rank clue 3 and 4.
-- Note that in variants where a black color clues is available, dark rainbow 3 and dark rainbow 4 must always be saved with a black color clue.
-  - Along the same lines, in *Dark Rainbow & Dark Pink*, dark rainbow cards should be saved with a pink clue, and in *Dark Rainbow & Dark Brown*, dark rainbow cards should be saved with a brown clue.
+- Additionally, according to the *Always Loaded Principle*, save clues with number 3 or number 4 are always *Loaded*.
+- Note that in variants where a black color clues is available, the above convention does not apply, and dark rainbow 3 and dark rainbow 4 must always be saved with a black color clue.
+  - Similarly, in *Dark Rainbow & Dark Pink*, dark rainbow cards should be saved with a pink clue, and in *Dark Rainbow & Dark Brown*, dark rainbow cards should be saved with a brown clue.
