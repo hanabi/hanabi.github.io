@@ -6,7 +6,13 @@ As noted in the [convention changes document](convention-changes.md), sometimes 
 
 ## The Backlog (General Conventions)
 
-n/a
+@everyone Moved conventions:
+
+**Finesses with a Fix Component** (moved)
+
+```
+- *Finnesses* with a *Fix Component* are now moved from level 22 to the "extras" section.
+```
 
 <br />
 
