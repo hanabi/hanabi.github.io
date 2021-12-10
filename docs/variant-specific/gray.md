@@ -19,4 +19,4 @@ These conventions apply to any variant with a gray (colorless and one-of-each) s
 
 - Obviously, players must use number 3 and number 4 to save the gray 3 and the gray 4, respectively.
 - Thus, players have to remember that any number 3 or number 4 clue to their chop could be a save on the gray 3 or the gray 4.
-- Additionally, *Always Loaded Principle* applies to saves with rank clue 3 and 4.
+- Additionally, according to the *Always Loaded Principle*, save clues with number 3 or number 4 are always *Loaded*.
