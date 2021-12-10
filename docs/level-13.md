@@ -55,7 +55,7 @@ import TrashPush from '@site/image-generator/yml/level-13/trash-push.yml';
 
 <TrashFinesse />
 
-- In the case where multiple cards are clued as part of a *Trash Finesse*, **all** of the touched cards are considered to be trash. However, the focus of the clue should be discarded first. (This is same thing that happens in a *Trash Bluff*.)
+- In the case where multiple cards are clued as part of a *Trash Finesse*, **all** of the touched cards are considered to be trash. (This is same thing that happens in a *Trash Bluff*.)
 - *Double Trash Finesses* are explicitly disallowed. Thus, it is possible to perform a *Trash Finesse* in a situation like this:
   - All the 1's are played on the stacks except for red 1 and blue 1.
   - Alice clues number 1 to Donald, which touches two green 1's on slot 1 and 2. To Donald, this will look like it is both the red 1 and the blue 1.
