@@ -22,8 +22,8 @@ These conventions apply to any variant with a muddy rainbow suit or a cocoa rain
 
 - Since muddy rainbow 2 cannot be *2 Saved* and muddy rainbow 5 cannot be *5 Saved*, there needs to be a separate way to save these cards.
 - Any red color clue (the left-most color) to a chop card is treated as a potential *Muddy Rainbow Save* on a muddy rainbow 2 or a muddy rainbow 5.
-- Similar to brown, *Always Loaded Principle* applies to *Muddy Rainbow Saves*.
-- In the special case of a variant where a one-of-each color is available, then the one-of-each color should be used instead of red.
+- Similar to brown saves, the *Always Loaded Principle* applies to muddy rainbow saves.
+- In the special case of a variant where a one-of-each color is available, then the above convention does not apply and the one-of-each color should be used instead of red.
 
 ### Mud Clues
 
