@@ -10,9 +10,7 @@ As noted in the [convention changes document](convention-changes.md), sometimes 
 
 **Finesses with a Fix Component** (moved)
 
-```
 - *Finesses* with a *Fix Component* are now moved from level 22 to the "extras" section.
-```
 
 <br />
 
