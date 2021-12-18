@@ -11,7 +11,7 @@ The following is the story of why we use push-to-talk in the *Hyphenated Group*:
   - It cut out on static.
   - It reduced people talking over each other.
   - It prevented teammates from hearing interruptions (like sneezing, or a spouse walking into the room).
-- The group found that after a week or two of using push to talk, the inconvenience of pressing a button faded away, and it became as effortless to press a button as it was to breathe. Because it was so effortless, it did not diminish any of the normal friendly conversations - it only cut out the inappropriate interuptions.
+- The group found that after a week or two of using push to talk, the inconvenience of pressing a button faded away, and it became as effortless to press a button as it was to breathe. Because it was so effortless, it did not diminish any of the normal friendly conversations - it only cut out the inappropriate interruptions.
 - As a group, the use of push-to-talk became part of the norms and shared culture. The group saw it as a sign of respect towards each other - they respected each other enough to volunteer extra effort in order to minimize rude sounds and the discomfort of others.
 
 <br />
@@ -32,7 +32,7 @@ Using the push-to-talk feature is sometimes controversial. It usually goes somet
 
 #### I play Hanabi from a tablet or a phone where it is not possible to use push-to-talk. What should I do?
 
-In the *Hyphen-ated Group*, we take Hanabi very seriously, with some of us having played for hundreds of thousands of hours. When we play, we generally use computers with headsets to play with each other. This results for the best possible shared experience for everybody. We recognize that some people want to play Hanabi more casually with a tablet or a phone. And that's fine! But in general, we do not want our group to be cater to those kinds of people, and we don't want to change the norms of the group to accomodate those kinds of people. Instead, we encourage those people to take Hanabi more seriously and find a computer of their own with a proper headset to play, just like the rest of us do.
+In the *Hyphen-ated Group*, we take Hanabi very seriously, with some of us having played for hundreds of thousands of hours. When we play, we generally use computers with headsets to play with each other. This results for the best possible shared experience for everybody. We recognize that some people want to play Hanabi more casually with a tablet or a phone. And that's fine! But in general, we do not want our group to be cater to those kinds of people, and we don't want to change the norms of the group to accommodate those kinds of people. Instead, we encourage those people to take Hanabi more seriously and find a computer of their own with a proper headset to play, just like the rest of us do.
 
 Unfortunately, this is necessarily exclusionary in order to maintain a high-quality playing experience for our members. Also see the *Exceptions* section below.
 
