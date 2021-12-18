@@ -32,7 +32,7 @@ Using the push-to-talk feature is sometimes controversial. It usually goes somet
 
 #### I play Hanabi from a tablet or a phone where it is not possible to use push-to-talk. What should I do?
 
-In the *Hyphen-ated Group*, we take Hanabi very seriously, with some of us having played for hundreds of thousands of hours. When we play, we generally use computers with headsets to play with each other. This results for the best possible shared experience for everybody. We recognize that some people want to play Hanabi more casually with a tablet or a phone. And that's fine! But in general, we do not want our group to be cater to those kinds of people, and we don't want to change the norms of the group to accommodate those kinds of people. Instead, we encourage those people to take Hanabi more seriously and find a computer of their own with a proper headset to play, just like the rest of us do.
+In the *Hyphen-ated Group*, we take Hanabi very seriously, with some of us having played for hundreds or thousands of hours. When we play, we generally use computers with headsets to play with each other. This results for the best possible shared experience for everybody. We recognize that some people want to play Hanabi more casually with a tablet or a phone. And that's fine! But in general, we do not want our group to be cater to those kinds of people, and we don't want to change the norms of the group to accommodate those kinds of people. Instead, we encourage those people to take Hanabi more seriously and find a computer of their own with a proper headset to play, just like the rest of us do.
 
 Unfortunately, this is necessarily exclusionary in order to maintain a high-quality playing experience for our members. Also see the *Exceptions* section below.
 
