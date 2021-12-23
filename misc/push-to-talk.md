@@ -40,7 +40,7 @@ Unfortunately, this is necessarily exclusionary in order to maintain a high-qual
 
 #### I play Hanabi from a work computer (or some other computer) where I cannot use install Discord properly, and thus cannot use push-to-talk. What should I do?
 
-In the *Hyphen-ated Group*, we take Hanabi very seriously. When we play, we generally use our own personal computers to play with each other, and we do so in contexts where we can devote our full attention to the game and to each other. In general, playing video games with your friends while at work is inappropriate, and while it can be fine in some contexts, we do not want our group to cater to those kinds of contexts. Instead, we encourage people in this situation to wait until they are at home in order to play Hanabi with us, or save up money to purchase a laptop of their own to use.
+In the *Hyphen-ated Group*, we take Hanabi very seriously. When we play, we generally use our own personal computers to play with each other, and we do so in contexts where we can devote our full attention to the game and to each other. In general, playing video games with your friends while at work is inappropriate, and while it can be fine in some contexts, we do not want our group to cater to those kinds of contexts. Instead, we encourage people in this situation to wait until they are at home in order to play Hanabi with us, or work towards getting getting a laptop of their own.
 
 Unfortunately, this is necessarily exclusionary in order to maintain a high-quality playing experience for our members. Also see the *Exceptions* section below.
 
