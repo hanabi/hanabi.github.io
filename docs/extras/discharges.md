@@ -37,7 +37,7 @@ import UnknownDupeDischarge2 from '@site/image-generator/yml/extras/discharges/u
   1. When the team is losing and nearing the *End-Game* (and *Tempo* on playable cards is really important).
   1. When the efficiency of getting a *Double Finesse* or *Triple Finesse* outweighs the disadvantage of potentially having to give a *Fix Clue* later.
   1. When a *Phantom Playable Card* is at risk of being discarded and the preceding cards must be clued as soon as possible.
-- If a player uses a **color clue** to duplicate a card, and these 6 criteria do not apply, then they must be trying to send an additional message.
+- If a player uses a clue to duplicate a card, and these 6 criteria do not apply, then they must be trying to send an additional message.
 - In this case, they intend for a *Discharge* to communicate the "badness" of the focused card. This is called an *Unknown Dupe Discard* (and works in a very similar way to the *Unknown Trash Discharge*).
 - After an *Unknown Dupe Discard*, the focus of the clue can be any unknown duplicated card. The player will only know which specific duplicated card it is after they discard it. Once they discard it, they should write *Elimination Notes* on the matching cards in their hand.
 - For example, in a 3-player game:
