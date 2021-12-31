@@ -32,6 +32,7 @@ import UnnecessaryBadChopMoveEjection from '@site/image-generator/yml/level-23/u
 ### Unnecessary Moves with Known Trash --> Ignition
 
 - If **known trash** is used as clue target, the "extra" thing is an *Ignition*. The *Ignition* must be Bob, unless Alice had a very good reason not to let Bob give the clue, similar to how *Double Ignition* works.
+- Note that performing a *Unnecessary Trash Chop Move* is explicitly illegal, since that move would be indistinguishable from a *Chop Move Ignition*.
 
 #### Example 1 - An Unnecessary Trash Push (with Ignition)
 
@@ -44,10 +45,6 @@ import UnnecessaryBadChopMoveEjection from '@site/image-generator/yml/level-23/u
   - Cathy blind-plays her *Finesse Position*. It is a red 5 and it successfully plays.
 
 <UnnecessaryTrashPushIgnition />
-
-#### Example 2 - An Unnecessary Trash Chop Move (with Ignition)
-
-- For example, if a *Trash Chop Move* was done on a card that could be saved directly, the next player should blind-play their *Finesse Position* as an *Ignition*, and the clue receiver should still *Chop Move*.
 
 <br />
 
