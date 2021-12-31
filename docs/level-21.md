@@ -60,13 +60,12 @@ import RebelliousDiscard from '@site/image-generator/yml/level-21/rebellious-dis
 
 <br />
 
-### The Whisper Discard Chop Move
+### The Scream Discard Chop Move (With Known-Trash)
 
 - First, see the section on the *[Scream Discard](level-6.md#the-scream-discard-chop-move-sdcm)*.
-- Occasionally, a player will have known-trash in their hand. Obviously, they are expected to discard the known-trash first before discarding their right-most unclued card.
-- Thus, if a player instead discards their right-most unclued card instead of the known-trash, it must be a signal that something is wrong, exactly like a *Scream Discard*. This is more subtle than a *Scream Discard* though, so it is called a Whisper Discard.
-- *Whisper Discards* are to be treated identically to *Scream Discards*. In short, this means that they 1) cause a *Chop Move* and 2) force a clue to be given on the next turn.
-- It is illegal for a player to perform a *Whisper Discard* if they have a known-playable card in their hand. If a player does this, it is to be treated as a known-mistake.
+- Occasionally, a player will have one or more known-trash cards in their hand. In this situation, the player is expected to first discard their known-trash card(s) before discarding their chop.
+- Subsequently, if a player instead discards their chop instead of discarding their known-trash card, it must be a signal that something is wrong. This works exactly in the same way as a normal *Scream Discard* does (except for the fact that it was triggered by having a known-trash card in the hand instead of having a known-playable card in the hand).
+- It is illegal for a player to discoard their chop if they have both a known-playable card and a known-trash card in their hand. (In this situation, if the player wanted to perform a *Scream Discard* in this situation, they would discard their known-trash card.) If a player does this, it is to be treated as a known-mistake.
 
 <br />
 
