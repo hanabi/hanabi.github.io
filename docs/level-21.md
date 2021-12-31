@@ -66,7 +66,7 @@ import RebelliousDiscard from '@site/image-generator/yml/level-21/rebellious-dis
 - Occasionally, a player will have one or more known-trash cards in their hand. In this situation, the player is expected to first discard their known-trash card(s) before discarding their chop.
 - Subsequently, if a player discards their chop instead of discarding their known-trash card, it must be a signal that something is wrong. This should trigger a *Scream Discard* in the same way that discarding chop with a known-playable card would.
 - Even though this move is triggered in a separate way from a normal *Scream Discard*, we still call it a *Scream Discard* since it is so similar.
-- It is illegal for a player to discoard their chop if they have both a known-playable card and a known-trash card in their hand. (In this situation, if the player wanted to perform a *Scream Discard* in this situation, they would discard their known-trash card.) If a player does this, it is to be treated as a known-mistake.
+- It is illegal for a player to discard their chop if they have both a known-playable card and a known-trash card in their hand. (In this situation, if the player wanted to perform a *Scream Discard* in this situation, they would discard their known-trash card.) If a player does this, it is to be treated as a known-mistake.
 
 <br />
 
