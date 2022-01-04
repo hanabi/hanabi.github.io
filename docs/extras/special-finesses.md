@@ -245,7 +245,7 @@ import TrashPushInvertedFinesse from '@site/image-generator/yml/extras/special-f
 - On the final round of the game, it is possible to give a *Play Clue* to a player that would be useless - they will not get a chance to play the card before the game ends.
 - If a player does this anyway, then it must be communicating something extra. In this situation, it is to be interpreted as a *Finesse* instead of a *Play Clue* for the purposes of better satisfying *Team Distribution Principle*.
 - Examples:
-  - [Game #16887, turn 29](https://hanab.live/replay/16887/29) if Instantiation clues 5 on the red 5
+  - [Game #16887, turn 29](https://hanab.live/replay/16887#29) if Instantiation clues 5 on the red 5
 
 <br />
 
