@@ -13,7 +13,7 @@ import SafetyCharm from '@site/image-generator/yml/extras/charms/safety-charm.ym
 
 <br />
 
-### The 4 Charm
+### The 4 Charm (details)
 
 - The *4 Charm* is introduced at [level 22](../level-22.md#the-4-charm).
 
