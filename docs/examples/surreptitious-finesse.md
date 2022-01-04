@@ -3,7 +3,7 @@ id: surreptitious-finesse
 title: Examples of the Surreptitious Finesse
 ---
 
-The *[Surreptitious Finesse](/extras/special-finesses.md#the-surreptitious-finesse)* is a level 19 convention.
+The *[Surreptitious Finesse](/extras/special-finesses.md#the-surreptitious-finesse)* is an advanced strategy.
 
 <br />
 
