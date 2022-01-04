@@ -2,7 +2,7 @@
 
 In a game of Hanabi, it is possible to cheat in several ways.
 
-Mild forms of cheating are when players accidently make "table-talk" comments in voice/text chat during an ongoing game that reveal subtle details about the game. Players are strongly discouraged from doing this. If this does happpen, players should explicitly ignore that information when deciding what to do.
+Mild forms of cheating are when players accidently make "table-talk" comments in voice/text chat during an ongoing game that reveal subtle details about the game. Players in the Hyphen-ated group are strongly discouraged from doing this. If this does happpen, players should explicitly ignore that information when deciding what to do.
 
 More severe forms of cheating are when players log in to an alternate account on their phone in order to spectate an ongoing game that they are playing for the purposes of seeing what their hand is. Players who do this kind of thing are not welcome in the Hyphen-ated group, as it spoils the integrity of what the game is supposed and goes against our values.
 
