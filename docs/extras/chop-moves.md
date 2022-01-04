@@ -8,6 +8,7 @@ import DoubleOrderChopMove from '@site/image-generator/yml/extras/double-order-c
 
 ### The Chop Transfer
 
+- First, see the section on [blind playing-chop-moved-cards](../level-6.md#blind-playing-chop-moved-cards).
 - Sometimes, duplicated cards are accidentally *Chop Moved* through a mistake or through a complicated situation. When this happens, it is pointless to use a clue to "undo" the *Chop Move* - the team can just continue to allow the player to discard normally.
 - Subsequently, if someone **does** use a clue to undo the *Chop Move*, there must be a good reason. This means that the card they were about to discard is important, so the player should discard the now-known useless card and then permanently *Chop Move* their new chop.
 
