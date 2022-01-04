@@ -11,11 +11,11 @@ title: Pushes & Pulls
 
 ### The Trash Pull
 
-- Sometimes, towards the end of the game, there can be a playable card in the middle of someone's hand that is not cluable directly due to the presence of other blocking cards.
-- In this situation, players often resort to a *Trash Push* in order to "get" the card without cluing it directly. However, this will only work if the player has a trash card on their chop, which may not always be the case.
-- Another tool to "get" a card in the middle of a hand is by doing the opposite of a *Trash Push* - a *Trash Pull*.
-- If an off chop trash card is clued, this would typically be interpreted as a *Trash Chop Move*. However, towards the end of the game, a *Chop Move* would be pointless, as there are no cards left to *Chop Move*. Thus, the player should know that it is a *Trash Pull* instead of a *Trash Chop Move*, and should blind-play the card to the right of the trash.
-- Just like how a *5 Pull* can only be done in the *Early Game*, a *Trash Pull* can only be done towards the end of the game.
+- Normally, when known-trash cards are clued, it is a *Trash Chop Move*.
+- Otherwise, when players can see that the clue cannot be a *Trash Chop Move*, they should instead interpret the clue as a *Trash Double Ignition*.
+- Rarely, players can see that a clue cannot be a *Trash Chop Move* or a *Trash Double Ingition*. In this situation, it should instead be interpreted as a *Trash Pull*, which is explained below.
+- A *Trash Pull* is similar to a *5 Pull* in that it "pulls" the card to the right of the card that was clued. This is a useful tool to have because sometimes, towards the end of the game, there can be a playable card in the middle of someone's hand that is not cluable directly due to the presence of other blocking cards.
+- Remember that a *Trash Pull* can only be performed if there is no other explanation for the clue.
 - Since players often perform *Burn* clues for stalling purposes in the *End-Game*, care has to be taken to not confuse a normal *Burn* clue with a *Trash Pull*. This is especially true if there was nothing else obvious for the clue giver to do!
 - *Trash Pulls* should typically be used as a last-resort since they might be misinterpreted.
 
