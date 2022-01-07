@@ -48,7 +48,7 @@ import TrashPush from '@site/image-generator/yml/level-13/trash-push.yml';
   - All the 1's are played on the stacks except for red 1.
   - Alice clues number 1 to Donald, which touches a blue 1. To Donald, this will look like it is a red 1.
   - At first glance, Bob might think this is a *Trash Bluff*, causing him to blind-play his *Finesse Position* card as either red 1 or some other currently-playable card.
-  - However, Bob also sees that Cathy has a red 1 on her *Finesse Position*. Thus, Alice's clue was a *Trash Finesse* instead of a *Trash Bluff*, since it is promises a playable 1.
+  - However, Bob also sees that Cathy has a red 1 on her *Finesse Position*. Thus, Alice's clue was a *Trash Finesse* instead of a *Trash Bluff*, since it promises a playable 1.
   - Thus, Bob discards.
   - Cathy blind-plays her *Finesse Position* card and it is red 1.
   - Donald discards his known-trash 1.
