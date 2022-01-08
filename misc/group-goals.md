@@ -24,7 +24,7 @@ Cheating ruins the game for us and has no place in our group.
 
 After the game, we come together in a voice chat to review the game, turn by turn. This allows us to analyze the game and get better in a communal way. Often, a post-game review involves pointing out someone's individual mistakes. But everyone in the group understands that this is nothing personal! When one person makes a mistake, it is everyone at the table that learns from it. Lots of people in our group consider the post-game reviews to be even more fun than playing the game itself!
 
-People who are not interested in attending and participanting in post-game reviews has no place in our group.
+People who are not interested in attending and participating in post-game reviews has no place in our group.
 
 ### To Use Voice Chat
 
@@ -36,7 +36,7 @@ We want everyone in our group to use voice chat during post-game reviews, and we
 
 ### To Have Effective Communication
 
-In order to be "good" at a post-game review, you have to be a good communicator. This involves communicating why you did something in a consise way without rambling. It involves having a good grasp of the English language. It involves having the ability to critcize others in a constructive way without making them feel bad. It involves using push-to-talk so that you don't accidently interupt other people when they are speaking. It involves being polite, kind, and empathetic to others.
+In order to be "good" at a post-game review, you have to be a good communicator. This involves communicating why you did something in a concise way without rambling. It involves having a good grasp of the English language. It involves having the ability to criticize others in a constructive way without making them feel bad. It involves using push-to-talk so that you don't accidentally interrupt other people when they are speaking. It involves being polite, kind, and empathetic to others.
 
 Communication is difficult! But post-game reviews with good communication are a ton of fun and part of the reason that makes the games in our group high-quality. We are not interested in playing with people that we can barely understand, people that are rude, and so on.
 
