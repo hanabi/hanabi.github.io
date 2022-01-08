@@ -30,7 +30,7 @@ People who are not interested in attending and participanting in post-game revie
 
 Since we are playing the game with each other over the Internet, it is possible to do post-game reviews using text chat or voice chat.
 
-Doing post-game reviews in text-chat really stinks. It takes much longer to communicate information, and things can get jumbled by everyone talking at the same time. In contrast, when talking to each other one-on-one in a voice chat, we are able to quickly analyze the game in a collective way that very efficient. Voice chat is a tool that unlocks the ability to really explore the game at a deep level, and is a one of the key reasons why people in our group have been able to elevate the game to such a high level.
+Doing post-game reviews in text-chat really stinks. It takes much longer to communicate information, and things can get jumbled by everyone talking at the same time. In contrast, when talking to each other in a voice chat, we are able to quickly analyze the game in a collective way that is very efficient. Voice chat is a tool that unlocks the ability to really explore the game at a deep level, and is a one of the key reasons why people in our group have been able to elevate the game to such a high level.
 
 We want everyone in our group to use voice chat during post-game reviews, and we encourage people who do not have a microphone to get one by whatever means possible.
 
