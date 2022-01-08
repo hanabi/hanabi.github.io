@@ -16,11 +16,11 @@ import LoadedException2 from '@site/image-generator/yml/extras/variant-specific/
   - Any "Mix" variant
   - Color Mute
   - Number Mute
-  - Throw It in a Hole
-  - Up or Down
   - Cow & Pig
   - Duck
-
+  - Throw It in a Hole
+  - Up or Down
+  
 <br />
 
 #### Convention Changes for All Hard Variants
