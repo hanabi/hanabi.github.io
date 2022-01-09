@@ -20,8 +20,7 @@ As noted in the [convention changes document](convention-changes.md), sometimes 
 
 @everyone Moved conventions:
 
-**Finesse with a Lie Component** (move)
-
+- *5 Stalls* are moved from level 1 to level 2.
 - *Finesses* with a *Lie Component* are moved from level 22 to "extras".
 
 <br />
