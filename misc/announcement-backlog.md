@@ -6,7 +6,11 @@ As noted in the [convention changes document](convention-changes.md), sometimes 
 
 ## The Backlog (General Conventions)
 
-n/a
+@everyone Renamed conventions:
+
+**Whisper Discard** (rename) (by pianoblook)
+
+- The *Whisper Discard* has been renamed to the *Scream Discard*. (It has a separate section in the doc, but it is still referred to by the same name.)
 
 <br />
 
