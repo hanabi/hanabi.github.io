@@ -6,11 +6,23 @@ As noted in the [convention changes document](convention-changes.md), sometimes 
 
 ## The Backlog (General Conventions)
 
+@everyone Deleted conventions:
+
+**Unnecessary Trash Chop Move** (deletion) (by pianoblook)
+
+- The *Unnecessary Trash Chop Move* was deleted since it conflicts with *Chop Move Ignition*.
+
 @everyone Renamed conventions:
 
 **Whisper Discard** (rename) (by pianoblook)
 
 - The *Whisper Discard* has been renamed to the *Scream Discard*. (It has a separate section in the doc, but it is still referred to by the same name.)
+
+@everyone Moved conventions:
+
+**Finesse with a Lie Component** (move)
+
+- *Finesses* with a *Lie Component* are moved from level 22 to "extras".
 
 <br />
 
