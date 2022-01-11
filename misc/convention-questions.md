@@ -42,6 +42,10 @@ Use notation that the Hyphen-ated group will be familiar with:
 
 - Type out your entire question into a single message.
 
+### 6) Start a Thread
+
+- After asking your question, you must immediately start a thread so that discussion about your question stays organized.
+
 <br />
 
 ### Reasoning
