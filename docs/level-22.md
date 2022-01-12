@@ -112,7 +112,7 @@ import HesitationBlindPlay from '@site/image-generator/yml/level-22/hesitation-b
 <HesitationBlindPlay />
 
 - *Hesitation Blind-Plays* are **not always safe** to do:
-  - If a player is *Self-Finessed* and hestiates, you cannot act on the hesitation because a playable card on your *Finesse Position* will not necessarily match the clued card.
+  - If a player is *Self-Finessed* and hesitates, you cannot act on the hesitation because a playable card on your *Finesse Position* will not necessarily match the clued card.
   - If a player could be hesitating for a clued card in your hand **or** your *Finesse Position* card, then you cannot act on the hesitation. (If you guess wrong, you could misplay a critical card.)
   - If a player could be hesitating for a card that is identical to the card that was clued, then you cannot act on the hesitation. (If you blind-play the same copy of the card, then they will go on to misplay the clued card.)
   - If blind-playing a particular card would cause the original clue to look like a *Double Finesse* with a "self" component, then you cannot act on the hesitation. (For example, if a number 4 clue causes a *Hesitation Blind-Play* of a red 2, the clue receiver would go on to misplay their *Finesse Position* card as the red 3.)
