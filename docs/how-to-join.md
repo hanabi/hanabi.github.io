@@ -52,7 +52,9 @@ The *Hyphen-ated Group* usually has games going every day. You can see if there 
 
 If there are people currently playing, then the typical thing to do is to join the voice channel with the others (by clicking on e.g. "Hyphen-ated 1"), wait for the current game to end, and then hop into the next game after that (depending on how many people stick around).
 
-A few things to note regarding that:
+Alternatively, you can also ping the `@Trusted Teacher` role in Discord to try to find a specific teacher. While everyone will generally play with beginners, Trusted Teachers are people who have volunteered to go above and beyond in showing beginners the ropes.
+
+Here are a few things to note about joining pick-up games:
 
 - In the *Hyphen-ated Group*, after every game we play, we do a post-game review so that we can find the best moves for every turn and have everyone learn from their mistakes. So before you can hop into the next game, you will have to wait for both the game to finish **and** the post-game review to finish. We try to keep the post-game reviews short, but if an interesting situation happens or a discussion gets heated, then it might take a while. ;)
 - If there are 6 or more players remaining after the post-game review is finished, then we usually split into two separate groups of 3.
