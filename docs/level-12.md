@@ -8,7 +8,7 @@ import Number3WithSuitDisconnect from '@site/image-generator/yml/level-12/number
 import ColorConnectNotValid from '@site/image-generator/yml/level-12/color-connect-not-valid.yml';
 import ColorConnectWithRankDisconnect from '@site/image-generator/yml/level-12/color-connect-with-rank-disconnect.yml';
 import Number3WithSuitConnect from '@site/image-generator/yml/level-12/number-3-with-suit-connect.yml';
-import Critical4Bluff from '@site/image-generator/yml/level-12/critical-4-bluff.yml';
+import CriticalColorBluff from '@site/image-generator/yml/level-12/critical-color-bluff.yml';
 import FinessePromptNotHardBluff from '@site/image-generator/yml/level-12/finesse-prompt-not-hard-bluff.yml';
 import HardBluff from '@site/image-generator/yml/level-12/hard-bluff.yml';
 
@@ -87,18 +87,18 @@ import HardBluff from '@site/image-generator/yml/level-12/hard-bluff.yml';
 
 <br />
 
-### The Critical 4 Bluff
+### The Critical Color Bluff
 
-- Building on the *3 Bluffs* convention, we also agree that it is possible for a card that initiates a *Bluff* to be a copy of any of the 4s that are currently in the discard pile, but only if **a color clue** is used.
+- Building on the *3 Bluffs* convention, we also agree that it is possible for a card that initiates a *Bluff* to be any critical card, but only if **a color clue** is used.
 - For example, in a 3-player game:
   - Nothing is played on the stacks. Red 4 is currently in the discard pile.
   - Alice clues Cathy red, touching a red 4 as a *Play Clue*.
   - Bob blind-plays a blue 1.
   - Cathy marks her red card as the *one-away-from-playable* red card, the red 2.
   - However, Cathy also knows that *3 Bluffs* are a thing, so she *also* marks her red card as possibly a red 3.
-  - However, Cathy also knows that *Critical 4 Bluffs* are a thing, so she *also* marks her red card as possibly a red 4.
+  - However, Cathy also knows that *Critical Color Bluffs* are a thing, so she *also* marks her red card as possibly a red 4.
 
-<Critical4Bluff />
+<CriticalColorBluff />
 
 <br />
 
