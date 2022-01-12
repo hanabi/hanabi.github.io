@@ -6,6 +6,16 @@ As noted in the [convention changes document](convention-changes.md), sometimes 
 
 ## The Backlog (General Conventions)
 
+@everyone New role:
+
+- Several players have volunteered for the @Trusted Teacher role. These are people who want to go above and beyond in helping out newcomers to the *Hyphen-ated Group*.
+- If you see a new player looking for a game in the #general channel (or otherwise), and you don't have the time to play with them yourself, please recommend that they ping the @Trusted Teacher role.
+- If you want to volunteer for the role, then you can send me a private message.
+
+@everyone Changed role:
+
+- The existing purple members have decided that due to the growing nature of the group, not every green member will be eligible for the purple role. Thus, we have renamed the role to "Community Leaders", since that more accurately reflects what the role is about. The purple role is not directly related to a person's importance, not directly related to the frequency that they play, not directly related to a person's skill-level, and not directly related to their convention proposal ability. The role simply represents someone who has been around for a while and has volunteered to help out with Discord-related administration as ambassador for the group, and not much else. 
+
 @everyone Clarified conventions:
 
 **The Trash Pull**
