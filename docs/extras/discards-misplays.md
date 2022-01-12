@@ -46,7 +46,7 @@ import PromiseClue from '@site/image-generator/yml/extras/promise-clue.yml';
 
 <br />
 
-### The Positional Misplay
+### The Quadruple Positional Misplay
 
 - First, see the section on the *[Triple Positional Discard](#the-triple-positional-discard)*.
 - In a 5-player game, it possible to perform a *Quadruple Positional Misplay*, causing 4 people to blind-play from the same slot. (This works for the same reasons that a *Triple Positional Discard* works.)
