@@ -86,7 +86,7 @@ import SafetyCharm from '@site/image-generator/yml/extras/charms/safety-charm.ym
 
 ### The Junk Charm (for 1's)
 
-- Sometimes, when giving a rank *Play Clue* for 1's, a *Bad Touch* is unavoidable. But what if a player does this when a color clue would have avoided a *Bad Touch*?
+- Sometimes, when giving a number 1 *Play Clue* for 1's, a *Bad Touch* is unavoidable. But what if a player does this when a color clue would have avoided a *Bad Touch*?
 - If all the non-focused 1's are trash, the clue must be calling for something extra - a *Charm* on the very next player.
 - After the *Charm* occurs, the clued player will know that **only** the focus of the 1's clue is playable.
 - For example, in a 3-player game:
