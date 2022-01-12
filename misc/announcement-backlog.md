@@ -6,6 +6,12 @@ As noted in the [convention changes document](convention-changes.md), sometimes 
 
 ## The Backlog (General Conventions)
 
+@everyone Clarified conventions:
+
+**The Trash Pull**
+
+- The document was changed to explicitly state that *Trash Double Ignitions* have precedence over *Trash Pulls*.
+
 @everyone Deleted conventions:
 
 **Unnecessary Trash Chop Move** (deletion) (by pianoblook)
