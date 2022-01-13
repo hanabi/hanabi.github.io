@@ -59,7 +59,7 @@ import BluffPromptsPromptBluffs from '@site/image-generator/yml/level-10/bluff-p
 - ***Bluffing* is only allowed if the very next player will blind-play on the very next turn.**
 - We formalize this concept as *Lie Principle*:
   - If an untruth resolves immediately (i.e. the very next turn), then it is called a *Fib*. *Fibbing* is okay.
-  - If an untruth does not resolve immediately, it is called a *Lie*. *Lies* are **illegal**. Players should **never** assume that they are Lied to.
+  - If an untruth does not resolve immediately, it is called a *Lie*. *Lies* are **illegal**. Players should **never** assume that they are *Lied* to.
 
 <br />
 
