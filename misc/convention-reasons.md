@@ -97,7 +97,7 @@ The main website lists all of our conventions. But it does not bother listing **
   - It is the first turn and nothing is played on the stacks.
   - Donald's hand is, from left to right: `blue 5, red 1, red 2, green 4, green 4`
   - Alice clues number 5 to Donald, touching the blue 5 as a *5 Stall*.
-  - Bob sees that thanks to Alice's clue, he can now perform a *Finesse* on the red 1 and the red 2, since they are now on *Finesse Positino*.
+  - Bob sees that thanks to Alice's clue, he can now perform a *Finesse* on the red 1 and the red 2, since they are now on *Finesse Position*.
   - Bob clues red to Cathy, touching a red 3 as a *Reverse Double Finesse*.
 - We called this kind of clue a *5 Stall Setup Clue*, because it was "setting up" a *Finesse* or *Blfuf* later on.
 - In our group, *5 Stall Setup Clues* were extremely common in the *Early Game*. They were so common that when a very early *5 Stall* happened, players who recieved the *5 Stall* could often predict that their new *Finesse Position* must be some kind of playable card.
