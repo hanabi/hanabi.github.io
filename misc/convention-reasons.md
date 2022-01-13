@@ -71,7 +71,7 @@ The main website lists all of our conventions. But it does not bother listing **
 
 <br />
 
-### Elimination Finesse Calling for Oldest Card
+### The Elimination Finesse Calling for Oldest Card
 
 - In the Hyphen-ated convention framework, we arbitrarily decide that [*Elimination Finesses* call for the right-most card](https://hanabi.github.io/docs/level-13#the-elimination-finesse) instead of the left-most card. Why?
 - Intuitively, you would expect the left-most card should be called for, since that is how *Finesses* normally work.
@@ -89,9 +89,17 @@ The main website lists all of our conventions. But it does not bother listing **
   - Therefore, the oldest card is the most likely to be the other copy of red 1, because it spent the most time being in the same hand as her other copy.
 - Another reason for this convention is that it allows for more possible *Finesses* over time. If the convention was to play the newest card, then as the player keeps discarding, the card on *Elimination Finesse Position* stays the same, but if the convention is the play chop, it changes after each discard.
 
+### The 5-Pull
 
-### 5-Pull
-
-- In the Hyphen-ated convention framework, we arbitrarily decide that *[5 Pull](https://hanabi.github.io/docs/level-17/#the-5-pull)* causes the player to blind-play the card to the right of the 5. Why?
-- When Cathy has a 5 in slot 1, and a 1 in slot 2, you sometimes intuitively want to clue 5 to let Bob bluff Cathy. So Alice clueing 5 to Cathy tell Cathy she got a play in slot 2.
-- For all others cases, that's conventional.
+- In the Hyphen-ated convention framework, we play with *[5 Pulls](https://hanabi.github.io/docs/level-17/#the-5-pull)*, which is a move that causes a blind-play to the right of the 5. Where did this arbitrary convention come from?
+- Right now, we play with a rule of "you cannot perform a *5 Stall* if there is something else to do". However, this rule did not always exist. Before this rule, we would perform *5 Stalls* when a 5 was on someone's *Finesse Position*, with the purpose of moving their *Finesse Position* to the next slot. Then, another player would take advantage of this and perform a *Finesse* or *Bluff* to get the card on the next slot.
+- For example, in a 4-player game:
+  - It is the first turn and nothing is played on the stacks.
+  - Donald's hand is, from left to right: `blue 5, red 1, red 2, green 4, green 4`
+  - Alice clues number 5 to Donald, touching the blue 5 as a *5 Stall*.
+  - Bob sees that thanks to Alice's clue, he can now perform a *Finesse* on the red 1 and the red 2, since they are now on *Finesse Positino*.
+  - Bob clues red to Cathy, touching a red 3 as a *Reverse Double Finesse*.
+- We called this kind of clue a *5 Stall Setup Clue*, because it was "setting up" a *Finesse* or *Blfuf* later on.
+- In our group, *5 Stall Setup Clues* were extremely common in the *Early Game*. They were so common that when a very early *5 Stall* happened, players who recieved the *5 Stall* could often predict that their new *Finesse Position* must be some kind of playable card.
+- One day, a player performed a *5 Stall Setup Clue* on Libster, but the next player declined performing a *Finesse* or *Bluff* in order to do something better / something else. When it got to Libster's turn, Libster made the intelligent leap that there was no need to for anyone to *actually* perform a *Finesse* or a *Bluff* on him - he could just simply play the card. He did, and it blind-played successfully.
+- From that point, we agreed that when a *5 Stall Setup Clue* was given, there was no need to actually *Finesse* or *Bluff* the card - it should always just blind-play automatically. Then, we formalized the rules around it, and made some arbitrary extensions (like the *5 Pull* still working in the same way, even if the 5 was not actually on *Finesse Position*).
