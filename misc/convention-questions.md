@@ -44,7 +44,7 @@ Use notation that the Hyphen-ated group will be familiar with:
 
 ### 6) Start a Thread
 
-- After asking your question, you must immediately start a thread so that discussion about your question stays organized.
+- After asking your question, you must immediately start a thread.
 
 <br />
 
@@ -55,3 +55,4 @@ Use notation that the Hyphen-ated group will be familiar with:
 - The reason for needing Alice and Bob stories and for rule 2 is that it helps us to parse your question more easily.
 - The reason for answering your own question is that it allows us to hone in on the specific gaps in your knowledge. It is unfair to ask a low-effort question and then expect others to give a comprehensive response to it.
 - The reason for putting everything in one message is that it prevents spamming other people with notifications.
+- The reason for using a thread is to keep all discussion organized.
