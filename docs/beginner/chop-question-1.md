@@ -25,7 +25,7 @@ import ChopQuestion1 from '@site/image-generator/yml/beginner/chop-question-1.ym
 </TabItem>
 <TabItem value="solution">
 
-- Slot 5 (because no cards have clues on them).
+- Slot 5 (Green 1) (because no cards have clues on them).
 
 </TabItem>
 </Tabs>
