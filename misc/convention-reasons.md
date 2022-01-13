@@ -91,7 +91,7 @@ The main website lists all of our conventions. But it does not bother listing **
 
 ### The 5-Pull
 
-- In the Hyphen-ated convention framework, we play with *[5 Pulls](https://hanabi.github.io/docs/level-17/#the-5-pull)*, which is a move that causes a blind-play to the right of the 5. Where did this arbitrary convention come from?
+- In the Hyphen-ated convention framework, we play with the *[5 Pull](https://hanabi.github.io/docs/level-17/#the-5-pull)*, which is a move that causes a blind-play to the right of the 5. Where did this arbitrary convention come from?
 - Right now, we play with a rule of "you cannot perform a *5 Stall* if there is something else to do". However, this rule did not always exist. Before this rule, we would perform *5 Stalls* when a 5 was on someone's *Finesse Position*, with the purpose of moving their *Finesse Position* to the next slot. Then, another player would take advantage of this and perform a *Finesse* or *Bluff* to get the card on the next slot.
 - For example, in a 4-player game:
   - It is the first turn and nothing is played on the stacks.
