@@ -99,7 +99,7 @@ The main website lists all of our conventions. But it does not bother listing **
   - Alice clues number 5 to Donald, touching the blue 5 as a *5 Stall*.
   - Bob sees that thanks to Alice's clue, he can now perform a *Finesse* on the red 1 and the red 2, since they are now on *Finesse Position*.
   - Bob clues red to Cathy, touching a red 3 as a *Reverse Double Finesse*.
-- We called this kind of clue a *5 Stall Setup Clue*, because it was "setting up" a *Finesse* or *Blfuf* later on.
+- We called this kind of clue a *5 Stall Setup Clue*, because it was "setting up" a *Finesse* or *Bluff* later on.
 - In our group, *5 Stall Setup Clues* were extremely common in the *Early Game*. They were so common that when a very early *5 Stall* happened, players who recieved the *5 Stall* could often predict that their new *Finesse Position* must be some kind of playable card.
 - One day, a player performed a *5 Stall Setup Clue* on Libster, but the next player declined performing a *Finesse* or *Bluff* in order to do something better / something else. When it got to Libster's turn, Libster made the intelligent leap that there was no need to for anyone to *actually* perform a *Finesse* or a *Bluff* on him - he could just simply play the card. He did, and it blind-played successfully.
 - From that point, we agreed that when a *5 Stall Setup Clue* was given, there was no need to actually *Finesse* or *Bluff* the card - it should always just blind-play automatically. Then, we formalized the rules around it, and made some arbitrary extensions (like the *5 Pull* still working in the same way, even if the 5 was not actually on *Finesse Position*).
