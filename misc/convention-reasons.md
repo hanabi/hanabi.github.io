@@ -88,3 +88,10 @@ The main website lists all of our conventions. But it does not bother listing **
   - If the red 1 is in slot 5, then she had one copy of red 1 in her hand for 1 round without her teammates cluing it.
   - Therefore, the oldest card is the most likely to be the other copy of red 1, because it spent the most time being in the same hand as her other copy.
 - Another reason for this convention is that it allows for more possible *Finesses* over time. If the convention was to play the newest card, then as the player keeps discarding, the card on *Elimination Finesse Position* stays the same, but if the convention is the play chop, it changes after each discard.
+
+
+### 5-Pull
+
+- In the Hyphen-ated convention framework, we arbitrarily decide that *[5 Pull](https://hanabi.github.io/docs/level-17/#the-5-pull)* causes the player to blind-play the card to the right of the 5. Why?
+- When Cathy has a 5 in slot 1, and a 1 in slot 2, you sometimes intuitively want to clue 5 to let Bob bluff Cathy. So Alice clueing 5 to Cathy tell Cathy she got a play in slot 2.
+- For all others cases, that's conventional.
