@@ -10,6 +10,17 @@ import BeginnersGuideProgress from '@site/src/beginnersGuide.js';
 - The second type of clue is called a *Save Clue*.
 - In Hanabi, there are only so many copies of a particular card. If all copies of a card are discarded, then it is impossible to get the maximum score. Thus, we give *Save Clues* to communicate that specific cards should be saved for later.
 
+
+<br />
+
+### Focus
+
+- When giving clues, a clue can "touch" multiple cards.
+  - When only one card is touched, it is the focus of the clue
+  - When multiple cards are touched
+    - If the clue touches the chop, the chop is the focus of the clue
+    - If the clue does no touch the chop, the focus is the leftmost (newest) unclued card.
+ 
 <br />
 
 ### On Chop Cards Only
