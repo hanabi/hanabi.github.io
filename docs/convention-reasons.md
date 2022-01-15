@@ -84,7 +84,7 @@ The main website lists all of our conventions. But it does not bother listing **
 
 <br />
 
-### Elimination Finesse Calling for Oldest Card
+### The Elimination Finesse Calling for Oldest Card
 
 - In the Hyphen-ated convention framework, we arbitrarily decide that [*Elimination Finesses* call for the right-most card](https://hanabi.github.io/docs/level-13#the-elimination-finesse) instead of the left-most card. Why?
 - Intuitively, you would expect the left-most card should be called for, since that is how *Finesses* normally work.
@@ -102,8 +102,11 @@ The main website lists all of our conventions. But it does not bother listing **
   - Therefore, the oldest card is the most likely to be the other copy of red 1, because it spent the most time being in the same hand as her other copy.
 - Another reason for this convention is that it allows for more possible *Finesses* over time. If the convention was to play the newest card, then as the player keeps discarding, the card on *Elimination Finesse Position* stays the same, but if the convention is the play chop, it changes after each discard.
 
-### The 5 Pull
+<br />
 
+### The 5-Pull
+
+- In the Hyphen-ated convention framework, we play with the *[5 Pull](https://hanabi.github.io/docs/level-17/#the-5-pull)*, which is a move that causes a blind-play to the right of the 5. Where did this arbitrary convention come from?
 - Right now, we play with a rule of "you cannot perform a *5 Stall* if there is something else to do". However, this rule did not always exist. Before this rule was created, we would perform *5 Stalls* when a 5 was on someone's *Finesse Position*, with the purpose of moving their *Finesse Position* to the next slot. Then, another player would take advantage of this and perform a *Finesse* or *Bluff* to get the card on the next slot.
 - For example, in a 4-player game:
   - It is the first turn and nothing is played on the stacks.
