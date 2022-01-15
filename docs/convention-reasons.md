@@ -1,3 +1,10 @@
+---
+id: convention-reasons
+title: Convention Reasons
+---
+
+import TheFivePullHistory from '@site/image-generator/yml/misc/the-five-pull-history.yml';
+
 ## Reasons for Specific Hyphen-ated Conventions
 
 The main website lists all of our conventions. But it does not bother listing **why** we implemented a particular convention, because we want to make it as concise as possible. Since beginners sometimes like to know the **why** behind a convention, this page will go into a bit more detail.
@@ -45,7 +52,13 @@ The main website lists all of our conventions. But it does not bother listing **
 ### 3 Bluffs
 
 - In the Hyphen-ated convention framework, we extend the *[Bluff](https://hanabi.github.io/docs/level-8#the-bluff)* convention, allowing players to *Bluff* with [any 3 that they want](https://hanabi.github.io/docs/level-9#the-3-bluff). Why?
-- Read the [story of 3 Bluffs](3-bluffs.md), which is on a separate page.
+- Back in 2015, a group of four expert players played Hanabi together. They played 200 games in a row of the rainbow variant (with 6 suits), and got a perfect score around 95% of the time. But of the very few games that they did not get a perfect score on, the main reason was that one player randomly discarded a 3 near the beginning of the game (through no fault of any of the players), and then the other copy of the 3 happened to be at the bottom of the deck. The players agreed to call this a "bottom-deck" loss.
+- One of the players said to the other three: "Why, we are so good at Hanabi that the only time we lose seems to be when we get a bottom-deck loss! We never get a bottom-deck loss to a 2, since we have the *2 Saves* convention. But we do seem to get bottom-decked by 3's quite a lot, and when this happens it is even worse than getting bottom decked by a 4. I wonder if we should come up with some strategy to avoid this? It would be quite logical to do so, given the circumstances."
+- This sounded like a good idea. Another player said, "Why yes! We should come up with some sort of tool to allow us the ability to save more 3's at the beginning of the game. What about implementing a *3 Saves* convention, similar to the *2 Saves* convention?
+- The first player replied, "Well, that does not sound very good, as it would remove the ability to give *Play Clues* (and *Finesses*) in a lot of circumstances. We should probably find something else."
+- The second player had a better idea. "Well, what about if we just extended the *Bluff* convention by agreeing that any *Bluff* can either be a one-away card or a 3. That would be relatively simple."
+- The four players tried it out. Indeed, it was not that complicated, and did not require any drastic changing of their existing conventions or core principles. It allowed them to get "free saves" on all kinds of 3's in the beginning and middle of the game. Moreover, it also allowed for more efficiency: since *Bluffs* could be used in more situations than previously, it was possible to do 2-for-1 clues in situations where it was only possible to do 1-for-1 clues before.
+- And that is the story of how *3 Bluffs* were invented. But more generally, any expert group of Hanabi players will naturally tend to value 3's more highly as their overall win rates increase. So, any strategy that mitigates discarding 3's is easily understood in this context. While the strategy itself may be surprising or seem completely arbitrary, the reasons behind it should be clearly logical, at least if you are experienced enough at Hanabi to be concerned with getting 100% of games won with a perfect score.
 
 <br />
 
@@ -88,3 +101,20 @@ The main website lists all of our conventions. But it does not bother listing **
   - If the red 1 is in slot 5, then she had one copy of red 1 in her hand for 1 round without her teammates cluing it.
   - Therefore, the oldest card is the most likely to be the other copy of red 1, because it spent the most time being in the same hand as her other copy.
 - Another reason for this convention is that it allows for more possible *Finesses* over time. If the convention was to play the newest card, then as the player keeps discarding, the card on *Elimination Finesse Position* stays the same, but if the convention is the play chop, it changes after each discard.
+
+### The 5 Pull
+
+- Right now, we play with a rule of "you cannot perform a *5 Stall* if there is something else to do". However, this rule did not always exist. Before this rule was created, we would perform *5 Stalls* when a 5 was on someone's *Finesse Position*, with the purpose of moving their *Finesse Position* to the next slot. Then, another player would take advantage of this and perform a *Finesse* or *Bluff* to get the card on the next slot.
+- For example, in a 4-player game:
+  - It is the first turn and nothing is played on the stacks.
+  - Donald's hand is, from left to right: `blue 5, red 1, red 2, green 4`
+  - Alice clues number 5 to Donald, touching the blue 5 as a *5 Stall*.
+  - Bob sees that thanks to Alice's clue, he can now perform a *Finesse* on the red 1 and the red 2, since they are now on *Finesse Position*.
+  - Bob clues red to Cathy, touching a red 3 as a *Reverse Double Finesse*.
+
+<TheFivePullHistory />
+
+- We called this kind of clue a *5 Stall Setup Clue*, because it was "setting up" a *Finesse* or *Bluff* later on.
+- In our group, *5 Stall Setup Clues* were extremely common in the *Early Game*. They were so common that when a very early *5 Stall* happened, players who received the *5 Stall* could often predict that their new *Finesse Position* must be some kind of playable card.
+- One day, a player performed a *5 Stall Setup Clue* on Libster, but the next player declined performing a *Finesse* or *Bluff* in order to do something better / something else. When it got to Libster's turn, Libster made the intelligent leap that there was no need to for anyone to *actually* perform a *Finesse* or a *Bluff* on him - he could just simply play the card. He did, and it blind-played successfully.
+- From that point on, we agreed that when a *5 Stall Setup Clue* was given, there was no need to actually *Finesse* or *Bluff* the card - it should always just blind-play automatically. Then, we formalized the rules around it, and made some arbitrary extensions (like how the *5 Pull* should still work the same way even if the 5 was not actually on *Finesse Position*).

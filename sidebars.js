@@ -210,5 +210,6 @@ module.exports = {
       ],
     },
     "convention-attribution",
+    "convention-reasons",
   ],
 };
