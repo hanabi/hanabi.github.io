@@ -95,7 +95,7 @@ The main website lists all of our conventions. But it does not bother listing **
 - Right now, we play with a rule of "you cannot perform a *5 Stall* if there is something else to do". However, this rule did not always exist. Before this rule was created, we would perform *5 Stalls* when a 5 was on someone's *Finesse Position*, with the purpose of moving their *Finesse Position* to the next slot. Then, another player would take advantage of this and perform a *Finesse* or *Bluff* to get the card on the next slot.
 - For example, in a 4-player game:
   - It is the first turn and nothing is played on the stacks.
-  - Donald's hand is, from left to right: `blue 5, red 1, red 2, green 4, green 4`
+  - Donald's hand is, from left to right: `blue 5, red 1, red 2, green 4`
   - Alice clues number 5 to Donald, touching the blue 5 as a *5 Stall*.
   - Bob sees that thanks to Alice's clue, he can now perform a *Finesse* on the red 1 and the red 2, since they are now on *Finesse Position*.
   - Bob clues red to Cathy, touching a red 3 as a *Reverse Double Finesse*.
