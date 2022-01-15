@@ -4,6 +4,7 @@ title: Level 17 - 5 Tech
 ---
 
 import TheFivePull from '@site/image-generator/yml/level-17/the-five-pull.yml';
+import TheFivePullHistory from '@site/image-generator/yml/level-17/the-five-pull-history.yml';
 import TheFivePullPrompt from '@site/image-generator/yml/level-17/the-five-pull-prompt.yml';
 import TheFivePullDoubleFinesse from '@site/image-generator/yml/level-17/the-five-pull-double-finesse.yml';
 import TheFivePullClandestineFinesse from '@site/image-generator/yml/level-17/the-five-pull-clandestine-finesse.yml';
@@ -73,6 +74,26 @@ import InteractionsBetween2SavesAnd5Stalls from '@site/image-generator/yml/level
 - When a player is *Finessed* or *Bluffed*, they are allowed to defer playing the blind card in order to do a *Finesse* or *Bluff* of their own. However, if they could be *Bluffed*, they are **not** allowed to initiate a *5 Pull*. (Players are still allowed to defer playing into a *Finesse* in order to initiate a *5 Pull*.)
 - In the rare case where a *5 Pull* is performed in a 3-player game by touching two 5's in slot 1 and slot 3, then the *5 Pulled* card is slot 2.
 - Remember that a number 5 clue [is always a *5 Stall* instead of a *5 Pull* if the only card ignored is a 2 on chop](#interaction-between-2-saves--5-stalls).
+
+<details>
+<summary>History of 5 Pull (Where did this arbitrary convention come from?)</summary>
+
+- Right now, we play with a rule of "you cannot perform a *5 Stall* if there is something else to do". However, this rule did not always exist. Before this rule was created, we would perform *5 Stalls* when a 5 was on someone's *Finesse Position*, with the purpose of moving their *Finesse Position* to the next slot. Then, another player would take advantage of this and perform a *Finesse* or *Bluff* to get the card on the next slot.
+- For example, in a 4-player game:
+  - It is the first turn and nothing is played on the stacks.
+  - Donald's hand is, from left to right: `blue 5, red 1, red 2, green 4`
+  - Alice clues number 5 to Donald, touching the blue 5 as a *5 Stall*.
+  - Bob sees that thanks to Alice's clue, he can now perform a *Finesse* on the red 1 and the red 2, since they are now on *Finesse Position*.
+  - Bob clues red to Cathy, touching a red 3 as a *Reverse Double Finesse*.
+
+<TheFivePullHistory />
+
+- We called this kind of clue a *5 Stall Setup Clue*, because it was "setting up" a *Finesse* or *Bluff* later on.
+- In our group, *5 Stall Setup Clues* were extremely common in the *Early Game*. They were so common that when a very early *5 Stall* happened, players who recieved the *5 Stall* could often predict that their new *Finesse Position* must be some kind of playable card.
+- One day, a player performed a *5 Stall Setup Clue* on Libster, but the next player declined performing a *Finesse* or *Bluff* in order to do something better / something else. When it got to Libster's turn, Libster made the intelligent leap that there was no need to for anyone to *actually* perform a *Finesse* or a *Bluff* on him - he could just simply play the card. He did, and it blind-played successfully.
+- From that point on, we agreed that when a *5 Stall Setup Clue* was given, there was no need to actually *Finesse* or *Bluff* the card - it should always just blind-play automatically. Then, we formalized the rules around it, and made some arbitrary extensions (like how the *5 Pull* should still work the same way even if the 5 was not actually on *Finesse Position*).
+
+</details>
 
 <br />
 
