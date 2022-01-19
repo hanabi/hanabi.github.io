@@ -39,7 +39,7 @@ Since null cards cannot be clued directly, we agree that we should use *Position
 
 - Any "nonsense" clue (e.g. a clue that has no normal conventional interpretation) is to be interpreted as a *Positional Clue* instead.
 - Furthermore, in order to make it easier to perform *Positional Clues*, we also "turn off" the following conventions:
-  - *Double Finesses* or *Triple Finesses* where one player has to blind-play **two or more** cards
+  - *Double Finesses* or *Triple Finesses* where the very next player has to blind-play **two or more** cards
   - *Double Bluffs* or *Triple Bluffs*
   - *Ejections*
   - *Discharges*
@@ -49,7 +49,7 @@ Since null cards cannot be clued directly, we agree that we should use *Position
   - *5 Pulls*
   - *Trash Pulls*
   - *Trash Pushes*
-  - *Black 4 Bluffs* (with black)
+  - *Critical Color Bluffs*
   - *Finesses* and *Bluffs* that were initiated with a rank clue when a ***Free Choice*** was available between rank and color
 - Any clue that looks like one of these conventions is to be interpreted as a *Positional Clue* instead:
 
