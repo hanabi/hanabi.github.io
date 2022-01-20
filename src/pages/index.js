@@ -66,7 +66,11 @@ function Home() {
     >
       <header className={clsx("hero hero--primary", styles.heroBanner)}>
         <div className="container">
-          <img src={useBaseUrl("img/hyphenated-circle.png")} />
+          <img
+            src={useBaseUrl("img/pieces/cards/pink5.svg")}
+            width="143"
+            height="203"
+          />
           <h1 className="hero__title">{siteConfig.title}</h1>
           <p className="hero__subtitle">
             Strategies for{" "}

@@ -15,7 +15,7 @@ module.exports = {
       title: "The H-Group Conventions",
       logo: {
         alt: "My Site Logo",
-        src: "img/hyphenated.png",
+        src: "img/pieces/cards/pink5.svg",
       },
       items: [
         {

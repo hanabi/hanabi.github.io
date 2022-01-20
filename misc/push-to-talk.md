@@ -2,7 +2,7 @@
 
 ### The Beginning
 
-The following is the story of why we use push-to-talk in the *Hyphenated Group*:
+The following is the story of why we use push-to-talk in the *H-Group*:
 
 - Alice, Bob, Cathy, and Donald played Hanabi together every day. They played online using the website of [Hanab Live](https://hanab.live) and used [Discord](https://discord.com/) for voice-chat.
 - As a group, they developed norms and a shared culture.

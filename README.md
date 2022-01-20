@@ -1,6 +1,6 @@
 # H-Group Conventions for Hanabi
 
-[![H-Group](/static/img/hyphenated-circle.png)](https://hanabi.github.io/)
+[![H-Group](/static/img/pieces/cards/pink5.svg)](https://hanabi.github.io/)
 
 Please visit the **[conventions website](https://hanabi.github.io/)**.
 
