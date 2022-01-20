@@ -6,6 +6,8 @@ As noted in the [convention changes document](convention-changes.md), sometimes 
 
 ## The Backlog (General Conventions)
 
+@everyone Renamed conventions:
+
 **Critical 4 Bluff** (rename) (by Romain)
 
 - The *Critical 4 Bluff* is renamed to the *Critical Color Bluff*.
