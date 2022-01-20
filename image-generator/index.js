@@ -38,7 +38,7 @@ module.exports = function hanabiDocusaurusPlugin(_context, _options) {
                 {
                   loader: "shell-loader",
                   options: {
-                    script: `bash ${createSVGScriptPath}`,
+                    script: `python ${createSVGScriptPath}`,
                   },
                 },
                 {

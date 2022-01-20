@@ -19,7 +19,7 @@ echo "Testing to see if all of the YAML files are valid..."
 YAML_FILES=$(find "$DIR/image-generator/yml" -name '*.yml' -type f)
 for YAML_FILE in $YAML_FILES; do
   echo $YAML_FILE
-  "$DIR/image-generator/create-svg.py" < "$YAML_FILE" > /dev/null
+  python "$DIR/image-generator/create-svg.py" < "$YAML_FILE" > /dev/null
 done
 echo "All the YAML files are valid. (It took $SECONDS seconds.)"
 
