@@ -1,4 +1,4 @@
-# Empty Clue Conventions for the Hyphen-ated Framework
+# Empty Clue Conventions for the Hyphenated Framework
 
 <br />
 
@@ -97,9 +97,9 @@
 
 ## Basic Description
 
-- [Floris van Doorn](https://github.com/fpvandoorn/) created a convention framework called Hat-Guessing in June 2016. This framework is entirely separate from the Hyphen-ated convention framework and is covered in a [separate document](hat-guessing.md).
-- In most Hanabi convention frameworks (including the Hyphen-ated framework), one clue causes one action to take place. In Hat-Guessing, multiple actions can be encoded into one clue by using [modular arithmetic](https://en.wikipedia.org/wiki/Modular_arithmetic). This can be extremely efficient.
-- Separate from Hat-Guessing, it is also possible to play with a Hat-Guessing-like extension tacked on to the existing Hyphen-ated convention framework.
+- [Floris van Doorn](https://github.com/fpvandoorn/) created a convention framework called Hat-Guessing in June 2016. This framework is entirely separate from the Hyphenated convention framework and is covered in a [separate document](hat-guessing.md).
+- In most Hanabi convention frameworks (including the Hyphenated framework), one clue causes one action to take place. In Hat-Guessing, multiple actions can be encoded into one clue by using [modular arithmetic](https://en.wikipedia.org/wiki/Modular_arithmetic). This can be extremely efficient.
+- Separate from Hat-Guessing, it is also possible to play with a Hat-Guessing-like extension tacked on to the existing Hyphenated convention framework.
 - If *Empty Clues* are legal, then they can be used as a means to encode multiple actions for the entire team in a manner identical to how Hat-Guessing works.
 - When an *Empty Clue* is given, players are told to blind-play a certain card in their hand.
 - Thus:
@@ -173,7 +173,7 @@
 
 ### Stacked Empty Clues (Through Their Own Hand)
 
-- With normal Hyphen-ated conventions, you must treat all *Play Clues* as *Delayed Play Clues*. For example, if you get clued about four 1's, and then are clued about one 2, then you must play all four of the 1's before playing the 2.
+- With normal Hyphenated conventions, you must treat all *Play Clues* as *Delayed Play Clues*. For example, if you get clued about four 1's, and then are clued about one 2, then you must play all four of the 1's before playing the 2.
 - With blind-plays from *Empty Clues*, this does NOT apply. You must immediately blind-play the cards indicated from an *Empty Clue* (unless you are the final person in the chain).
 - However, as a special exception, you DO have to treat an *Empty Clue* blind-play as a *Delayed Play Clue* if you have one or more cards in your hand that are already known-playable. Even if you can determine that the blind-play from the is unrelated to the clued cards, you **still have to play all of the clued cards first**.
 - For this reason, you can use an *Empty Clue* to get a red 2 to play from the same hand that has a known red 1.

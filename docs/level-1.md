@@ -168,4 +168,4 @@ This process is represented in the following flowchart:
 
 - If you press the space bar or left-click on someone else's hand, you can see how the cards appear to them.
 - This is the equivalent of asking "what do you know about your cards?" in real life.
-- This feature is referred to as "empathy" by the Hyphen-ated group.
+- This feature is referred to as "empathy" by the Hyphenated group.

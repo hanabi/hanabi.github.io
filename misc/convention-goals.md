@@ -1,8 +1,8 @@
-# Goals for the Hyphen-ated Conventions
+# Goals for the Hyphenated Conventions
 
-What are the stated goals of the Hyphen-ated conventions? You could start off by saying that the goal is to "always get the highest score", but it is a little more nuanced than that.
+What are the stated goals of the Hyphenated conventions? You could start off by saying that the goal is to "always get the highest score", but it is a little more nuanced than that.
 
-Like most Hanabi groups, when the Hyphen-ated group started playing together, there were no conventions at all. Only after a few games did we start to agree on some very simple conventions - discard the right-most card, save 5's using a number 5 clue, and so forth. Doing this increased the scores drastically and also made the game more fun to play. Next, we started to agree on more things, like *Finesses*, *Bluffs*, and so forth. Again, this both increased the scores and increased the enjoyment of the game - it is quite fun to perform big *Finesses*!
+Like most Hanabi groups, when the Hyphenated group started playing together, there were no conventions at all. Only after a few games did we start to agree on some very simple conventions - discard the right-most card, save 5's using a number 5 clue, and so forth. Doing this increased the scores drastically and also made the game more fun to play. Next, we started to agree on more things, like *Finesses*, *Bluffs*, and so forth. Again, this both increased the scores and increased the enjoyment of the game - it is quite fun to perform big *Finesses*!
 
 As the months went by, we continued to play Hanabi, and we were exposed to more and more kinds of situations. Naturally, we continued to refine the existing conventions and continued to come up with new strategies, like the *2 Save* convention and the *Hidden Finesse*. This continued the trend of increasing scores and increasing the enjoyment of the game. However, it also increased the overall complexity of playing with the group. We started to notice a down-side: getting new players up-to-speed with how to use all of the "special moves" was getting more and more complicated.
 
@@ -12,7 +12,7 @@ However, this was not destined to last forever. Eventually, with more and more m
 
 Separate from all of this, Floris van Doorn starting playing Hanabi with our group in 2017. Hailing from the Netherlands, he was passionate about Hanabi and showed us how to play with an entirely separate convention framework called [Hat Guessing](hat-guessing.md). It was a fun new challenge to re-learn how to play Hanabi with this new framework. And it was also extremely powerful - in 5-player games, every clue had the potential to get four cards played.
 
-Playing with Hat Guessing was quite fun, but not fun enough to want to play with it all the time - or even most of the time. It requires constant use of modular mathematics and it did not come naturally to most people. The Hyphen-ated group returned to playing the "normal" way and only ventured back to playing with Hat Guessing on rare occasions.
+Playing with Hat Guessing was quite fun, but not fun enough to want to play with it all the time - or even most of the time. It requires constant use of modular mathematics and it did not come naturally to most people. The Hyphenated group returned to playing the "normal" way and only ventured back to playing with Hat Guessing on rare occasions.
 
 The story of Hat Guessing is relevant because if the goal of the group was to only to maximize the average score, then we would simply play with Hat Guessing all the time. But Hanabi is a game, and we want to have as much fun playing it as possible. So with all of that in mind, we could say that the goal of the convention framework is three-fold:
 

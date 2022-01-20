@@ -2,7 +2,7 @@
 
 [Floris van Doorn](https://github.com/fpvandoorn/) created [a convention framework called Hat-Guessing](https://github.com/fpvandoorn/hanabi/blob/master/doc_hat_player.md) in June 2016. This is based on the paper [How to Make the Perfect Fireworks Display: Two Strategies for Hanabi](https://quuxplusone.github.io/blog/images/how-to-make-the-perfect-fireworks-display.pdf) by Christopher Cox, Jessica De Silva, Phillip Deorsey, and Josh Tobin.
 
-This framework is entirely separate from the Hyphen-ated convention framework. This document contains a basic description of how it works and has some helpful tools for people attempting to play with it.
+This framework is entirely separate from the Hyphenated convention framework. This document contains a basic description of how it works and has some helpful tools for people attempting to play with it.
 
 <br />
 
@@ -118,7 +118,7 @@ First, let's go over some *Hat-Guessing* terminology before getting into the act
 
 - In *Hat Guessing*, trash cards are called to be discarded.
 - If a non-trash card is called to be discarded, this indicates the presence of the other copy in someone else's hand.
-- When this happens, all players should make *Elimination Notes* on the relevant cards. (*Elimination Notes* are a concept borrowed from the *Hyphen-ated Convention Framework*.)
+- When this happens, all players should make *Elimination Notes* on the relevant cards. (*Elimination Notes* are a concept borrowed from the *Hyphenated Convention Framework*.)
 - If the other copy is in the same hand as the one that triggered the *Elimination Notes*, then the *Elimination Notes* should be written to the right of the card. For example, in a 3-player game:
   - It is the first turn of the game and nothing is played on the stacks.
   - Alice gives a *Hat-Guessing* clue.
@@ -212,7 +212,7 @@ First, let's go over some *Hat-Guessing* terminology before getting into the act
 
 - After assigning an instruction to everyone, add up the instruction numbers, and look in the table to see what kind of clue that you should give to convey the specified *Clue Value*.
   - If you could give the same type of clue to two or more different players, then you should give the clue that would touch the most useful cards or give the most new information.
-  - *Good Touch Principle* (from the *Hyphen-ated Convention Framework*) does not apply. You are allowed to touch trash cards if that would give more information to other useful cards.
+  - *Good Touch Principle* (from the *Hyphenated Convention Framework*) does not apply. You are allowed to touch trash cards if that would give more information to other useful cards.
 
 ### Cards That Become Obvious
 
@@ -337,7 +337,7 @@ First, let's go over some *Hat-Guessing* terminology before getting into the act
 
 ### Positional Discards
 
-- In the *End-Game*, you can use *Positional Discards* in the same way that the *Hyphen-ated Convention Framework* does.
+- In the *End-Game*, you can use *Positional Discards* in the same way that the *Hyphenated Convention Framework* does.
 
 ### Variant Specific Tables
 

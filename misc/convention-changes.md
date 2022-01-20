@@ -1,6 +1,6 @@
-# Changes to *The Hyphen-ated Convention Framework*
+# Changes to *The Hyphenated Convention Framework*
 
-- The set of conventions that everyone in the Hyphen-ated group agrees to is defined as the *Convention Framework*.
+- The set of conventions that everyone in the Hyphenated group agrees to is defined as the *Convention Framework*.
 - The framework evolves over time, as new strategies are thought up, older strategies are no longer used, and existing strategies are changed.
 
 <br />

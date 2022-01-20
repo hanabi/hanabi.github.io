@@ -16,6 +16,6 @@ import BeginnersGuideProgress from '@site/src/beginnersGuide.js';
   1. Be efficient: *Minimum Clue Value Principle*
   1. Extinguish all the clues in the *Early Game*
   1. Use *Prompts* and *Finesses*, if possible
-- You are ready to play some games with other members of the Hyphen-ated group.
+- You are ready to play some games with other members of the Hyphenated group.
 - Don't read anything else on the website until you have played a bunch of games with the group.
 - Next, find out [how to join a game with us](../how-to-join.md).

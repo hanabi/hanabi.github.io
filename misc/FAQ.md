@@ -4,7 +4,7 @@
 
 <br />
 
-### Are there 2-player conventions for the *Hyphen-ated Group*?
+### Are there 2-player conventions for the *Hyphenated Group*?
 
 [Yes](https://github.com/hanabi/hanabi.github.io/blob/main/misc/2-player.md).
 

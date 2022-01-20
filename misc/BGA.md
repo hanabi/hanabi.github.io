@@ -4,9 +4,9 @@
 
 ## Introduction
 
-This page is written for people who have a bunch of games on [Board Game Arena](https://en.boardgamearena.com/) and may be interested in playing some games with the *Hyphen-ated Group* on [Hanab Live](https://www.hanab.live). Since our group uses some advanced conventions, this page should be a quick guide to get BGA players up to speed.
+This page is written for people who have a bunch of games on [Board Game Arena](https://en.boardgamearena.com/) and may be interested in playing some games with the *Hyphenated Group* on [Hanab Live](https://www.hanab.live). Since our group uses some advanced conventions, this page should be a quick guide to get BGA players up to speed.
 
-(A quick note: On Hanab Live, you can play with anyone you want and you can play with any conventions you want - it is a free website. However, a good chunk of the players who play on the website are all part of the *Hyphen-ated Group*, so if you are playing non-Hyphen-ated games on the website, it might be hard to get a pick-up game going with random strangers.)
+(A quick note: On Hanab Live, you can play with anyone you want and you can play with any conventions you want - it is a free website. However, a good chunk of the players who play on the website are all part of the *Hyphenated Group*, so if you are playing non-Hyphenated games on the website, it might be hard to get a pick-up game going with random strangers.)
 
 Why bother taking the time to branch out from Board Game Arena to play Hanabi elsewhere? In order to properly answer that question, here's a short introduction on the differences between BGA and Hanab Live. It should explain why, at the very least, you might want to dabble on both platforms. If you are already convinced, you can skip down to the section on [convention changes](#convention-changes-beginner).
 
@@ -59,9 +59,9 @@ All of the interface issues with BGA are fixed in the Hanab Live interface: it i
 
 #### Reviewing
 
-Many different people play on the website, but I think that the majority are part of the *Hyphen-ated Group*. In terms of playstyle, we play in a manner similar to how BGA players play, but with a lot more "special moves" thrown in.
+Many different people play on the website, but I think that the majority are part of the *Hyphenated Group*. In terms of playstyle, we play in a manner similar to how BGA players play, but with a lot more "special moves" thrown in.
 
-More importantly, when *Hyphen-ated Group* members play together, we typically review every single game, turn by turn. Why do this? It accelerates the process of synchronizing everyone's strategies and playstyle to ensure that we are all on the same page. And it accelerates the process of making everyone really good at Hanabi, because people get the chance to learn from mistakes that they never would have known that they made. It's just a lot of fun - reviewing the game and looking for the best moves can be more fun than actually playing the game.
+More importantly, when *Hyphenated Group* members play together, we typically review every single game, turn by turn. Why do this? It accelerates the process of synchronizing everyone's strategies and playstyle to ensure that we are all on the same page. And it accelerates the process of making everyone really good at Hanabi, because people get the chance to learn from mistakes that they never would have known that they made. It's just a lot of fun - reviewing the game and looking for the best moves can be more fun than actually playing the game.
 
 For the purposes of reviewing, we talk to each other in a voice chat. Using a voice chat is worlds better than typing text snippets at each other, as you may imagine. To facilitate this, we use a program called [Discord](https://discord.gg/FADvkJp), which is a voice and chat application similar to Skype. (Discord is in widespread use among gamers nowadays and doesn't have the security vulnerabilities that Skype does.)
 
@@ -79,11 +79,11 @@ A side point here is that speedruns are viable on Hanab Live because it is nice 
 
 Getting a game going on Hanab Live is pretty different from how you would get a game going on BGA, since there is not a large pool of players to draw from. This means that you can't just click the "Create Table" button and have random people join your game, like you would on BGA.
 
-If the Hyphen-ated group is playing, there will typically be people in the voice channels in the [Discord server](https://discord.gg/FADvkJp). If there are people in the voice channels, then just join the respective voice channel, wait for their game to end, and then ask to join the next game.
+If the Hyphenated group is playing, there will typically be people in the voice channels in the [Discord server](https://discord.gg/FADvkJp). If there are people in the voice channels, then just join the respective voice channel, wait for their game to end, and then ask to join the next game.
 
 #### Small Number of Players
 
-If you are trying to get a game going at a weird time, there might not be any Hyphen-ated people around. So, that can be an annoying part of playing here.
+If you are trying to get a game going at a weird time, there might not be any Hyphenated people around. So, that can be an annoying part of playing here.
 
 What is the flip-side of not having very many members? Better cohesion, aided by discussion. When you are able to get a crew together, your games will potentially be more fulfilling and in-depth than on Board Game Arena.
 
@@ -103,7 +103,7 @@ One final thing to note is that, as a BGA player, you don't need to "convert" aw
 
 ## Convention Changes (Beginner)
 
-If you're reading this far, you'll want to know some of the basic differences between the *BGA convention framework* and the *Hyphen-ated convention framework*. Fear not - it isn't so bad once you play a few games.
+If you're reading this far, you'll want to know some of the basic differences between the *BGA convention framework* and the *Hyphenated convention framework*. Fear not - it isn't so bad once you play a few games.
 
 <br />
 
@@ -115,7 +115,7 @@ If you're reading this far, you'll want to know some of the basic differences be
 
 ### What's Different?
 
-- We will get into some specifics shortly. But in general, BGA conventions are more focused on ***Tempo*** (getting cards played "right now") and **aggressive discarding**, while Hyphen-ated conventions are focused more on **orchestrating safe discards** and **absolute trust**.
+- We will get into some specifics shortly. But in general, BGA conventions are more focused on ***Tempo*** (getting cards played "right now") and **aggressive discarding**, while Hyphenated conventions are focused more on **orchestrating safe discards** and **absolute trust**.
 - Another general difference is when mistakes happen. On BGA, there is more wiggle room when someone makes a small mistake. In our group, even a small mistake can cause cascading failures, because everyone is strongly attuned to what everyone else is doing.
 
 ### A Note on the Conventions Themselves
