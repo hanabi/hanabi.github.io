@@ -17,25 +17,25 @@ title: Convention Attribution
 | Convention Name | Inventor
 | --------------- | --------
 | The First Principles | Duneaught
-| The 2 Save | Hyphenated & Duneaught
-| Chop-Focus | Zamiel & Hyphenated
+| The 2 Save | Hyphen-ated & Duneaught
+| Chop-Focus | Zamiel & Hyphen-ated
 | The Layered Finesse | Antizoubilamaka
 | The Clandestine Finesse | Antizoubilamaka
 | The Patch Finesse | Zamiel & Libster
-| The 3 Bluff | Hyphenated
-| The Double Bluff | Hyphenated
-| The Double Half Bluff | Hyphenated
+| The 3 Bluff | Hyphen-ated
+| The Double Bluff | Hyphen-ated
+| The Double Half Bluff | Hyphen-ated
 | The Triple Bluff | Zamiel
 | The Triple Two-Thirds Bluff | Zamiel
 | Playing 1's from Oldest to Newest | Duneaught
 | The Gentleman's Discard | Duneaught
 | The Layered Gentleman's Discard | Duneaught
 | The Tempo Clue Chop Move | Zamiel
-| Discard Elimination & The Elimination Blind-Play | Aridolomo, Hyphenated, & Duneaught
+| Discard Elimination & The Elimination Blind-Play | Aridolomo, Hyphen-ated, & Duneaught
 | The Double Tempo Clue Inversion | Duneaught
 | The Elimination Finesse | Zamiel & Ahming
 | The Elimination Riding Deduction | Duneaught
-| The Free Choice Finesse | Hyphenated
+| The Free Choice Finesse | Hyphen-ated
 | The Trash Push | Duneaught
 | The Trash Bluff | Duneaught & Zamiel & IAMJEFF
 | The Trash Finesse | Duneaught
@@ -54,7 +54,7 @@ title: Convention Attribution
 | The Rebellious Discard | Zamiel
 | Focus Inversion | Zamiel
 | The Early Game | Libster & Florrat
-| The Double Tempo Clue | Hyphenated & Zamiel
+| The Double Tempo Clue | Hyphen-ated & Zamiel
 | The Hard Bluff | Florrat
 | The Double/Triple Pass Bluff | Zamiel
 | The Out-of-Order Finesse | Zamiel
