@@ -102,7 +102,7 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 
 ## Level 9 - Violations of *Pink Promise* That Don't Require a Fix
 
-### The Pink Play Clue Lie (With Multiple 1's)
+### The Pink Play Clue Lie (PPCL) (With Multiple 1's)
 
 - Players can violate *Pink Promise* with a number 1's clue if all of the cards will successfully play.
 - For example, in a 3-player game:
@@ -116,7 +116,7 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 
 <PlayClueLie1s />
 
-### The Pink Play Clue Lie (With a Mismatched *Play Clue* That Touches Other Cards)
+### The Pink Play Clue Lie (PPCL) (With a Mismatched *Play Clue* That Touches Other Cards)
 
 - Players can also violate *Pink Promise* if they are giving a *Play Clue* and the lie will be resolved when the player who is clued plays their focused card.
 - For example, in a 3-player game:
@@ -228,7 +228,7 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
   - Bob knows that since all of the 3's are already played, this might be a *Trash Chop Move*. If this is the case, slot 1 is focused, and he should discard that card, and then chop move slot 4 and slot 5.
   - However, Bob also knows that it is near the end of the game and there are no cards left to chop move, so this interpretation does not make much sense.
   - Thus, Bob knows that this must be a *Positional Clue*, and he plays his slot 2 card as the pink 5.
-- *Positional Clues* are different from *Pink Choice Tempo Clues* in that they can touch brand new cards. (*Pink Choice Tempo Clues* only re-touch known pink cards.) For this reason, *Positional Clues* can typically only be done at the end of the game when the clue is not likely to be interpreted as anything else.
+- *Positional Clues* are different from *Pink Choice Tempo Clues* in that they can touch new cards. (*Pink Choice Tempo Clues* only re-touch known pink cards.) For this reason, *Positional Clues* can typically only be done at the end of the game when the clue is not likely to be interpreted as anything else.
 
 <Positional />
 
@@ -254,7 +254,6 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 <BubblegumFinesse />
 
 - *Bubblegum Finesses* can only be used to get pink cards.
-- Note that *4 Charms* have precedence over *Bubblegum* moves.
 
 ### The Bubblegum Bluff
 
@@ -265,21 +264,13 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
   - Bob knows that Alice is violating *Pink Promise*. This must mean that he is supposed to play his slot 3 card.
   - Bob blind-plays slot 3 and it is a red 1.
   - Cathy knows that if this was a *3 Bluff*, then Bob would have played his *Finesse Position*. So it cannot be a *3 Bluff*.
-  - Thus, Cathy knows that this must be a *Bubblegum* clue. Since blue 3 is not a pink card and Alice was in *Bluff Seat* for Bob, this must be a *Bubblegum Bluff*.
+  - Thus, Cathy knows that this must be a *Bubblegum* clue. Since red 1 is not a pink card and Alice was in *Bluff Seat* for Bob, this must be a *Bubblegum Bluff*.
   - Cathy marks her slot 5 card as the one-away-from-playable pink card, the pink 2.
 
 <BubblegumBluff />
 
 - *Bubblegum Bluffs* can only be performed on non-pink cards; otherwise, it will look like a *Double Finesse* with one part *Bubblegum Finesse* and one part normal *Finesse*.
 - Note that it is impossible to *3 Bluff* and *Bubblegum Bluff* at the same time.
-
-### The Bubblegum Wraparound
-
-- When players violate *Pink Promise* on an unplayable pink card, it usually indicates a *Bubblegum Prompt* or a *Bubblegum Finesse* (with the rank corresponding to the slot number to play).
-- In 4-player and 5-player games, there are only 4 cards in the hand. If a player does a *Bubblegum Finesse* with a 5, then that would be nonsensical, since there is no slot 5.
-- Similarly, in a 6-player game, there are only 3 cards in the hand. If a player does a *Bubblegum Finesse* with a 4, then that would be nonsensical, since there is no slot 4.
-- In this situation, it should "wraparound" to slot 1, communicating that the first slot is playable.
-- This kind of thing is useful in some edge-case scenarios (e.g. helping satisfy *Good Touch Principle* in variants with a light pink suit).
 
 ### The Bubblegum Slide
 
@@ -291,9 +282,9 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 
 ## Level 19 - Other Special Moves
 
-### The Turnabout Ejection (for 1's and 5's)
+### The Turnabout Ejection
 
-- If a player uses *Pink Promise* to falsely indicate a pink 1 as a pink 5 **or** a pink 5 as a pink 1, this is a dangerous lie that must be immediately resolved.
+- If a player violates *Pink Promise* to falsely indicate a pink 5 as a 1, **or** a playable pink card as a 5, this is a dangerous lie that must be immediately resolved.
 - In this situation, the next player must immediately play their *Second Finesse Position* to prove what happened. This is called a *Turnabout Ejection*.
 - After the *Ejection*, the player who received the clue will know that the focused card's identity has been "reversed".
 - For example, in a 3-player game:
@@ -309,11 +300,13 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 <TurnaboutEjection />
 
 - If a *Turnabout Ejection* occurs from a number 1 clue that also touches other 1s, the non-focused cards should still be assumed to be 1s (using the *1's Assumption* convention).
-- *Turnabout Ejections* can only be performed with non-trash cards.
+- During the *Early Game*, *Turnabout Ejections* take precedence over *Bad Chop Move Ejections (with 5's)*. Afterwards, *Bad Chop Move Ejection* takes precedence.
+- *Turnabout Ejections (with 5's)* can only be performed with non-trash cards.
+- *Turnabout Ejections (with 1's)* cannot be performed once all 1's have been played.
 
 ### The Pink Fake Prompt & The Pink Fake Finesse
 
-- First, see the section on the *[Pink Play Clue Lie](#the-pink-play-clue-lie-with-a-mismatched-play-clue-that-touches-other-cards)*.
+- First, see the section on the *[Pink Play Clue Lie](#the-pink-play-clue-lie-ppcl-with-a-mismatched-play-clue-that-touches-other-cards)*.
 - In the *Pink Play Clue Lie*, *Pink Promise* is violated when giving a *Play Clue* to a playable pink card. However, no special actions need to be taken from anyone else on the team, because the lie will automatically resolve when the card is played.
 - In some special situations, it is possible to give a *Pink Play Clue Lie* that will **not** resolve automatically. In this situation, the next player must play a card to "fix" the lie.
 - For example, in a 3-player game:
@@ -322,8 +315,41 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
   - Bob knows that if he does nothing, Cathy will go on to interpret this as a *Self-Finesse*, and play her *Finesse Position*, which will misplay.
   - Thus, Bob plays his *Finesse Position* as a *Pink Fake Finesse*. It is a blue 1 and it successfully plays.
   - From Cathy's perspective, Alice performed a *Finesse* on the blue 1 into the blue 2. Cathy plays the blue 2, but it is actually the pink 1. Now, Cathy knows that Alice performed a *Pink Fake Finesse*.
+- Rarely, *Pink Fake Finesses* can be performed *Out of Position*, but only if the *Finessed* card plays into an ancillary-touched card. (This turns the "fake" *Finesse* into a "real" *Finesse* on the non-focused card.)
 
 <FakeFinesse />
+
+### The Taffy Bluff
+
+- First, see the section on the *[Bubblegum Bluff](#the-bubblegum-bluff)*.
+- A *Bubblegum Bluff* is when *Pink Promise* is violated on a *one-away-from-playable* pink card to perform a *Bluff*.
+- It is also permissible to violate *Pink Promise* on a *two-away-from-playable* pink card to perform a *Bluff*. This is called a *Taffy Bluff* to distinguish it from the former case.
+- For example, in a 3-player game:
+  - It is the first turn and nothing is played on the stacks.
+  - Alice clues number 2 to Cathy, touching a pink 3 on slot 5. (The pink 3 is *two-away-from-playable*.)
+  - Bob knows that Alice is violating *Pink Promise*.
+  - If he plays slot 1, then Alice will mark it as the matching 2 and will misplay it.
+  - Thus, this must be a *Bubblegum Double Finesse*, meaning that Bob should play the slot that matches the rank that Alice chose.
+  - Bob tries to blind-play pink 1 from slot 2, but it is a red 1 instead. It is now revealed to Bob that this was a *Taffy Bluff* instead of a *Bubblegum Double Finesse*.
+  - Cathy knows that if her clued card was really a 2, Bob would have played slot 1. Thus, it cannot be a 2. Furthermore, there are no *Ejections* that match this situation, so this must be a *Taffy Bluff* on a pink 3.
+- It is also possible to perform a *Taffy Bluff* with cards other than a pink 3. For example:
+  - A *two-away-from-playable* pink 4 that is clued with a number 3 clue would cause a blind-play from slot 3.
+  - A *two-away-from-playable* pink 5 that is clued with a number 4 clue would cause a blind-play from slot 4.
+- *Bubblegum Bluffs* have precedence over *Taffy Bluffs*. In other words, you are only supposed to assume a *Taffy Bluff* if a *Bubblegum Bluff* is impossible.
+
+### The Taffy Double Bluff
+
+- First, see the section on the [Taffy Bluff](#the-taffy-bluff).
+- Rarely, a player can perform a *Taffy Double Bluff* by violating *Pink Promise* on a *two-away-from-playable* pink card.
+- For example, in a 4 player game:
+  - It is the first turn of the game and nothing is played on the stacks.
+  - Alice clues number 4 to Donald, touching a pink 3 on slot 3.
+  - Bob knows that since Alice violated *Pink Promise*, this must be some sort of *Bubblegum* move.
+  - Bob blind-plays his slot 4 card. It is a red 1 and it successfully plays on to the stacks.
+  - From Donald's perspective, he knows that Alice performed a *Bubblegum Bluff*. Donald marks his slot 3 card as a pink 2 (the pink card that is *one-away-from-playable*).
+  - Next, it is Cathy's turn. Cathy sees that Donald will mark his pink card as a pink 2. However, the card is really a pink 3, so the situation has not yet resolved.
+  - Cathy blind-plays her slot 1 card. It is a red 2 and it successfully plays on the stacks.
+  - Donald realizes that if his clued card was a pink 2, then Cathy would not have done anything. Thus, this must have been a *Taffy Double Bluff*. Donald updates the note on his card to be a pink 3 (the pink card that is *two-away-from-playable*).
 
 <br />
 
@@ -341,6 +367,15 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 - When a *Trash Push* happens with a rank clue in a variant with a pink suit, if more than one card is touched, it is possible that only the card on chop was trash, and that the other cards touched are useful / critical pink cards.
 - In this situation, after blind-playing the *Trash Pushed* card, the player should first discard the card that initiated the *Trash Push* (the oldest card) and then hold on to the other touched cards.
   - In this situation, *Good Touch Principle* applies to the other touched cards. The other members of the team must give a *Fix Clue* to those cards if they are also trash.
+
+### Pink Precedence
+
+- Normally, non-variant-specific conventions always take precedence over variant-specific conventions.
+- As an exception, the *Bubblegum Bluff* and the *Taffy Bluff* conventions usually take precedence over their non-variant-specific alternatives. Specifically:
+  - The *Bubblegum* and *Taffy* conventions take precedence over *Rank Choice Ejection (with 2)*.
+  - The *Bubblegum* and *Taffy* conventions take precedence over *Unknown Trash Discharge*.
+  - The *Bubblegum Bluff* and *Taffy Bluff* holds equal precedence to *4 Charm*; the clued player must therefore write identity notes for either option.
+  - A true *Bubblegum Finesse* takes precedence over *4 Charm*. (This is because, unlike in the *Bluff* scenarios, the pink blind-play "connects" to the rank clue).
 
 ### Pink Promise with a 5 Stall
 

@@ -29,8 +29,8 @@ These conventions apply to any variant with a black (one of each) suit.
 ### The Black Save Bluff
 
 - Normally, if a black 1 is on chop, it is clued with number 1 instead of black. This is because a black color clue would make it look like a *Save Clue* on either black 3 or black 4, and then it would sit there, not being played.
-- Furthermore, if a black 1 is on chop and it was clued as black **and** the clue touched other brand new black cards in the hand, then the clue could also be a *Save Clue* on black 2 (as per the *Save Clue* rules outlined in the *Black 2 Saves* section).
-- Thus, if another player intentionally clues a black 1 on chop with a black color clue **and** it touched other brand new black cards, this would be quite strange, as it would not get the black 1 to play, so they must be trying to communicate something extra.
+- Furthermore, if a black 1 is on chop and it was clued as black **and** the clue touched other new black cards in the hand, then the clue could also be a *Save Clue* on black 2 (as per the *Save Clue* rules outlined in the *Black 2 Saves* section).
+- Thus, if another player intentionally clues a black 1 on chop with a black color clue **and** it touched other new black cards, this would be quite strange, as it would not get the black 1 to play, so they must be trying to communicate something extra.
 - This is a sneaky signal that the next player has a playable card on their *Finesse Position*. By blind-playing it, they can show that a *Bluff* is happening.
 - In a normal *Bluff*, the player receiving the clue would think that it is a one-away from playable card. In this case, if it was a normal *Bluff*, they would think that they have the black 2.
 - However, as noted above, in this situation black 2's on chop are allowed to be touched as a *Save Clue*. So, touching a black 2 in this way would **not** cause a blind-play. Thus, by convention, the card should be black 1, and they can play it.
@@ -42,7 +42,7 @@ These conventions apply to any variant with a black (one of each) suit.
   - Bob knows that this will be treated as either a black 3 or a black 4 save, and the black 2 will never play.
   - Bob also sees that there is nothing special going on.
   - There must be a reason for this bad clue, so Bob knows that this is the *Black Save Bluff*, and he blind-plays his slot 1. It is a red 2.
-  - Cathy knows that Alice's black clue touched two brand new cards, it is a legal save on any black cards in the game, which means that Bob should never have blind-played anything.
+  - Cathy knows that Alice's black clue touched two new cards, it is a legal save on any black cards in the game, which means that Bob should never have blind-played anything.
   - Thus, Cathy knows that it was a *Black Save Bluff* and she has exactly black 2 on her slot 5. Cathy plays black 2.
 
 <BlackSaveBluff />

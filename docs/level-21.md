@@ -6,10 +6,6 @@ title: Level 21 - Emergency Discards
 import CompositionDiscard from '@site/image-generator/yml/level-21/composition-discard.yml';
 import RebelliousDiscard from '@site/image-generator/yml/level-21/rebellious-discard.yml';
 
-- Level 21 strategies should only be learned if you have 380+ games of experience with the group.
-
-<br />
-
 ## Special Moves
 
 <br />
@@ -52,22 +48,25 @@ import RebelliousDiscard from '@site/image-generator/yml/level-21/rebellious-dis
 
 - First, see the section on the *[Scream Discard](level-6.md#the-scream-discard-chop-move-sdcm)*.
 - Normally, when a player performs a *Scream Discard*, they are discarding their chop (e.g. an unknown and unclued card).
-- However, if a player has both a known-playable card and a known-trash card, then discarding the known-trash card instead of playing their known-playable card would *still* communicate a *Scream Discard* to the next player in the exact same way.
-- This situation is slightly different than the normal case, so we call it a *Shout Discard* to differentiate it from a more-ordinary *Scream Discard*.
+- However, if a player has both a known-playable card and a known-trash card, then discarding the known-trash card instead of playing their known-playable card can still accomplish the same thing as a *Scream Discard*. This is called a *Shout Discard* to distinguish it from the more-ordinary case.
+- In other words:
+  - a *Scream Discard* is when you send an emergency signal by discarding an unknown card when you have a known-playable card
+  - a *Shout Discard* is when you send an emergency signal by discarding a known-trash card when you have a known-playable card
 - A *Shout Discard* *Chop Moves* the very next player in the exact way that a *Scream Discard* does.
 - A *Shout Discard* forces the next player to **not** discard on their turn in the exact way that a *Scream Discard* does.
 - Normally, a *Scream Discard* is only allowed to *Chop Move* a critical card or a playable card. However, unlike a *Scream Discard*, it is permissible to use a *Shout Discard* to *Chop Move* any card that is desirable, even if it is not critical or playable.
 - Normally, a *Scream Discard* is only allowed if the team is at 0 clues (or if cluing the card is impossible). However, unlike a *Scream Discard*, it is permissible to use a *Shout Discard* to *Chop Move* regardless of the number of clues that the team has.
-- Normally, a *Scream Discard* would turn into an *Echo Scream Discard* if the next player has a playable card. *Shout Discards* can also turn into *Echo Shout Discards*, but only if the team is completely out of clues and it can be seen to be a "last-resort" move.
+- Normally, a *Scream Discard* would turn into an *Echo Scream Discard* if the next player has a playable card (see below). *Shout Discards* can also turn into *Echo Shout Discards*, but only if the team is completely out of clues and it can be seen to be a "last-resort" move.
 
 <br />
 
-### The Whisper Discard Chop Move
+### The Scream Discard Chop Move (With Known-Trash)
 
 - First, see the section on the *[Scream Discard](level-6.md#the-scream-discard-chop-move-sdcm)*.
-- Occasionally, a player will have known trash in their hand. Obviously, they are expected to discard the known trash first before discarding their right-most unclued card.
-- Thus, if a player instead discards their right-most unclued card instead of the known trash, it must be a signal that something is wrong, exactly like a *Scream Discard*. This is more subtle than a *Scream Discard* though, so it is called a Whisper Discard.
-- *Whisper Discards* are to be treated identically to *Scream Discards*. In short, this means that they 1) cause a *Chop Move* and 2) force a clue to be given on the next turn.
+- Occasionally, a player will have one or more known-trash cards in their hand. In this situation, the player is expected to first discard their known-trash card(s) before discarding their chop.
+- Subsequently, if a player discards their chop instead of discarding their known-trash card, it must be a signal that something is wrong. This should trigger a *Scream Discard* in the same way that discarding chop with a known-playable card would.
+- Even though this move is triggered in a separate way from a normal *Scream Discard*, we still call it a *Scream Discard* since it is so similar.
+- It is illegal for a player to discard their chop if they have both a known-playable card and a known-trash card in their hand. (In this situation, if the player wanted to perform a *Scream Discard* in this situation, they would discard their known-trash card.) If a player does this, it is to be treated as a known-mistake.
 
 <br />
 

@@ -4,10 +4,11 @@
 """:"
 which python3 >/dev/null 2>&1 && exec python3 "$0" "$@"
 which python  >/dev/null 2>&1 && exec python  "$0" "$@"
-exec echo "Error: requires python"
+exec echo "Error: This script requires Python to be installed."
 ":"""
 
 # Imports (standard library)
+import functools
 import io
 import math
 import re
@@ -40,9 +41,27 @@ PLAYER_NAMES = [
     "Emily",
 ]
 PIECES_PATH = "/img/pieces"
+NO_VARIANT_SUITS = ["r", "y", "g", "b", "p"]
+ALL_SUITS = [
+    "r",  # Red
+    "y",  # Yellow
+    "g",  # Green
+    "b",  # Blue
+    "p",  # Purple
+    "t",  # Teal
+    "k",  # Black
+    "m",  # Rainbow
+    "i",  # Pink
+    "w",  # White
+    "n",  # Brown
+    "o",  # Omni
+    "u",  # Null
+    "s",  # Prism
+]
+ALL_RANKS = ["1", "2", "3", "4", "5"]
 
 # Global variables
-all_suits = []
+all_suits = []  # Representing the possible suits for the current variant
 x_offset = 0
 x_offset_where_player_begins = 0
 x_max = 0
@@ -79,7 +98,7 @@ def main():
     try:
         all_suits = [next(iter(color_pair)) for color_pair in yaml_file["stacks"]]
     except KeyError:
-        all_suits = "rygbp"
+        all_suits = NO_VARIANT_SUITS
 
     # Create a new SVG file
     svg_file = svgwrite.Drawing()
@@ -173,7 +192,12 @@ def draw_player_name_and_hand(yaml_file, svg_file, player_num, player):
     global y_offset
     global y_below
 
-    draw_player_name(svg_file, player_num, player)
+    name = draw_player_name(svg_file, player_num, player)
+    four_or_more_players = name == PLAYER_NAMES[3] or name == PLAYER_NAMES[4]
+    num_cards = len(player["cards"])
+    if four_or_more_players and num_cards > 4:
+        error("The players have too many cards for a 4-player or a 5-player game.")
+
     x_offset = (
         x_offset_where_player_begins + HORIZONTAL_SPACING_BETWEEN_PLAYER_NAME_AND_HAND
     )
@@ -236,31 +260,17 @@ def draw_player_name(svg_file, player_num, player):
         )
         r.add(clue_giver_text)
 
+    return name
+
 
 def draw_player_card(yaml_file, svg_file, card):
     global x_offset
-    global y_top
 
     card_type = str(card["type"])
     clued = not card_type.startswith("x")
 
-    # Draw the clue border
     if card.get("border", clued):
-        clue_border_overlap = 6
-        clue_border = svg_file.rect(
-            (
-                x_offset - (clue_border_overlap / 2),
-                y_offset - (clue_border_overlap / 2),
-            ),
-            (CARD_WIDTH + clue_border_overlap, CARD_HEIGHT + clue_border_overlap),
-            fill=CLUE_BORDER_COLOR,
-            rx=CARD_ROUNDED_CORNER_SIZE,
-            ry=CARD_ROUNDED_CORNER_SIZE,
-        )
-        svg_file.add(clue_border)
-
-        if y_offset == 0:
-            y_top = min(y_top, -clue_border_overlap / 2)
+        draw_clue_border(svg_file)
 
     crossed_out = str(card.get("crossed_out", ""))
     orange = str(card.get("orange", ""))
@@ -270,8 +280,15 @@ def draw_player_card(yaml_file, svg_file, card):
             yaml_file, svg_file, card_type, crossed_out, orange, x_offset, y_offset
         )
     else:
+        card_type_without_x = card_type[1:]
         draw_unclued_card(
-            yaml_file, svg_file, x_offset, y_offset, card_type[1:], crossed_out, orange
+            yaml_file,
+            svg_file,
+            x_offset,
+            y_offset,
+            card_type_without_x,
+            crossed_out,
+            orange,
         )
 
     draw_extra_card_attributes(svg_file, card)
@@ -279,9 +296,33 @@ def draw_player_card(yaml_file, svg_file, card):
     x_offset += CARD_WIDTH + HORIZONTAL_SPACING_BETWEEN_CARDS
 
 
+def draw_clue_border(svg_file):
+    global y_top
+
+    clue_border_overlap = 6
+    clue_border = svg_file.rect(
+        (
+            x_offset - (clue_border_overlap / 2),
+            y_offset - (clue_border_overlap / 2),
+        ),
+        (CARD_WIDTH + clue_border_overlap, CARD_HEIGHT + clue_border_overlap),
+        fill=CLUE_BORDER_COLOR,
+        rx=CARD_ROUNDED_CORNER_SIZE,
+        ry=CARD_ROUNDED_CORNER_SIZE,
+    )
+    svg_file.add(clue_border)
+
+    if y_offset == 0:
+        y_top = min(y_top, -clue_border_overlap / 2)
+
+
 def draw_unclued_card(
     yaml_file, svg_file, x_offset, y_offset, pips, crossed_out, orange
 ):
+    # "crossed_out" represents suits and ranks that are crossed out from
+    # negative clues
+    validate_card_type(crossed_out)
+
     s = svg_file.add(svg_file.svg((x_offset, y_offset), (CARD_WIDTH, CARD_HEIGHT)))
     card_image = svg_file.rect(
         (0, 0),
@@ -299,10 +340,12 @@ def draw_unclued_card(
 def draw_clued_card(
     yaml_file, svg_file, card_type, crossed_out, orange, x_offset, y_offset
 ):
-    # Find the possible ranks and suits
-    card_type = set(card_type)
-    ranks = card_type & {"1", "2", "3", "4", "5"}
-    suits = card_type & set(all_suits)
+    validate_card_type(card_type)
+
+    # Use sets to store the possible ranks and suits
+    card_type_set = set(card_type)
+    ranks = card_type_set.intersection(set(ALL_RANKS))
+    suits = card_type_set.intersection(set(all_suits))
 
     if len(ranks) != 1 and len(suits) != 1:
         # This is a card with an unknown rank and an unknown color
@@ -316,7 +359,8 @@ def draw_clued_card(
         )
         s.add(rect)
         # Always draw pips on clued cards with unknown rank + unknown color
-        draw_card_pips(yaml_file, svg_file, s, ranks | suits, crossed_out, orange)
+        pips = ranks.union(suits)  # Combine the ranks and the suits together
+        draw_card_pips(yaml_file, svg_file, s, pips, crossed_out, orange)
     elif len(ranks) == 1 and len(suits) != 1:
         # This is a card with a known rank and an unknown color
         card_image = svg_file.image(
@@ -354,6 +398,71 @@ def draw_clued_card(
             height=CARD_HEIGHT,
         )
         svg_file.add(card_image)
+
+
+def validate_card_type(card_type):
+    # Parse the string that contains:
+    # 1) letters (representing card suits)
+    # 2) numbers (representing card ranks)
+    # e.g. "rb34"
+    letters = []
+    numbers = []
+    for character in card_type:
+        try:
+            number = int(character)
+            numbers.append(character)
+
+        except:
+            letters.append(character)
+
+    # Validate the suits
+    for letter in letters:
+        if letter not in all_suits:
+            error('The suit of "{}" is invalid.'.format(letter))
+
+    # Validate the ranks
+    for number in numbers:
+        if number not in ALL_RANKS:
+            error('The rank of "{}" is invalid.'.format(number))
+
+    # Validate that the suit comes before the rank
+    # e.g. "b3" instead of "3b"
+    if len(letters) > 0 and len(numbers) > 0:
+        first_character = card_type[0]
+        if first_character in ALL_RANKS:
+            error("When defining a card, the suit must come before the rank.")
+
+    # Validate that there are no ranks after any suits
+    # e.g. "b3r4"
+    if len(letters) > 0 and len(numbers) > 0:
+        iterating_over_suit_characters = True
+        for character in card_type:
+            if iterating_over_suit_characters:
+                if character in numbers:
+                    iterating_over_suit_characters = False
+            else:
+                if character in letters:
+                    error(
+                        "When defining a card, the suits and the ranks have to be grouped together."
+                    )
+
+    # Validate that the suits come in order (with respect to the play stacks)
+    if len(letters) >= 2:
+        sorted_letters = letters.copy()
+        sorted_letters.sort(key=functools.cmp_to_key(compare_suit_letters))
+        if letters != sorted_letters:
+            error(
+                'When defining a card, the suits must be specified in order from left to right. In other words, "{}" should be "{}".'.format(
+                    "".join(letters), "".join(sorted_letters)
+                )
+            )
+
+
+def compare_suit_letters(letter1, letter2):
+    if ALL_SUITS.index(letter1) > ALL_SUITS.index(letter2):
+        return 1
+
+    return -1
 
 
 def draw_card_pips(yaml_file, svg_file, svg, pips, crossed_out, orange):
@@ -742,6 +851,11 @@ def print_svg(svg_file):
 
     # Write the resulting SVG to stdout
     print(output)
+
+
+def error(msg: str):
+    print("Error: {}".format(msg), file=sys.stderr)
+    sys.exit(1)
 
 
 if __name__ == "__main__":

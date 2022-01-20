@@ -13,9 +13,7 @@ players:
       - type: x
       - type: x
       - type: x
-      - type: x
   - cards:
-      - type: x
       - type: x
       - type: x
       - type: x
@@ -26,12 +24,10 @@ players:
       - type: x
       - type: x
       - type: x
-      - type: x
   - cards:
       - type: x
       - type: b
         clue: b
         middle_note: (3)
-      - type: x
       - type: x
       - type: x

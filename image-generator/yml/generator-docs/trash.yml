@@ -4,7 +4,7 @@ stacks:
   - b: 2
 discarded:
   - r3
-  - 5b
+  - b5
 players:
   - cards:
      - type: x

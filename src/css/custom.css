@@ -52,4 +52,16 @@ svg.example text.site-theme-text {
 .example {
   width: 100%;
   height: auto;
+  padding-bottom: 1em;
+}
+
+.flowchart {
+  height: 55em;
+  padding-bottom: 1em;
+}
+
+@media only screen and (max-width: 999px) {
+  #percent {
+    display: none !important;
+  }
 }

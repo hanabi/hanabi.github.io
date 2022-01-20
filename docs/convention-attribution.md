@@ -74,7 +74,6 @@ title: Convention Attribution
 | The Just-In-Time Fix Clue | Zamiel
 | The Occupied Play Clue & The Occupied Finesse | Zamiel
 | The Echo Scream Discard | Florrat & Zamiel
-| The Bad Touch Double Finesse & The Bad Touch Double Bluff | Sankala
 | Ejection | Razvogor & Zamiel & Sankala
 | The Order Chop Move | Zamiel & Libster
 | The Trash Order Chop Move | Zamiel & Libster
@@ -96,7 +95,6 @@ title: Convention Attribution
 | The Double Scream Discard Chop Move | Asddsa
 | The Distribution Finesse | Asddsa
 | The Double Positional Misplay | Libster
-| The Bad Touch Finesse | Zamiel
 | The Inverted 5's Tempo Clue | NoMercy
 | Discharge | Razvogor
 | The Unknown Trash Discharge | Sankala
@@ -106,7 +104,7 @@ title: Convention Attribution
 | The 5 Color Ejection | IAMJEFF
 | The Double 5 Pull | IAMJEFF
 | Stacked Ejection | Fireheart
-| The Trash Push Discharge | IAMJEFF
+| The Trash Push Ejection & The Trash Push Discharge | IAMJEFF
 | The 5 Number Discharge | IAMJEFF
 | The Blaze Discard | IAMJEFF
 | The Rank Choice Ejection | IAMJEFF
@@ -115,15 +113,20 @@ title: Convention Attribution
 | The Shadow Finesse | pianoblook
 | The 4 Charm | IAMJEFF
 | The Safety Charm | pianoblook
+| Unnecessary Principles | Floriman & Kakashi
 | The Self Color Ejection | IAMJEFF
+| Low Score Phase | pianoblook
 | The Prophetic Finesse | pianoblook
 | The Prophetic Discharge | pianoblook
 | The Cursed Finesse | pianoblook
-| The Unknown Dupe Discharge | Indego
+| The Unknown Dupe Discharge | Kakashi & Indego
 | The Shallow Discard & The Shallow Misplay | Jerry
 | The Unknown Trash Charm | piper
 | The Replay Double Ignition | Jerry
 | The Poke Double Ignition | Jerry
+| The Chop Move Ignition | kimbifille, pianoblook, & piper
+| The 1's Junk Discharge | piper
+| The 1's Junk Charm | pianoblook
 
 <br />
 
@@ -139,8 +142,11 @@ title: Convention Attribution
 | The Black Save Bluff | Sankala
 | The Bubblegum Finesse | Razvogor
 | The Bubblegum Bluff | Stephen
+| The Turnabout Ejection | pianoblook
 | The Bubblegum Slide | IAMJEFF
 | The Bubblegum Wraparound | kimbifille
+| The Pink Fake Prompt & The Pink Fake Finesse | IAMJEFF
+| The Fake 5's Chop Move & Fake 5's Pull | kimbifille, pianoblook, & piper
 | Pink & Omni Majority Conventions | Fireheart
 | Null Positional Clues | Razvogor, Zamiel, IAMJEFF, & Kakashi
 | The Slot Finesse | IAMJEFF
@@ -160,8 +166,10 @@ title: Convention Attribution
 | The U-Turn Finesse | NoMercy
 | Cow & Pig Rank Saves | Florrat
 | Conventions for Variant with No Positive Clues | Kakashi, IAMJEFF, & Libster
+| Rank Save Promise | IAMJEFF
+| Deceptive-Five Number Ejection | IAMJEFF
 | Empty Clues | Zamiel & Florrat
 | The Empty Finesse | Instantiation
 | The Empty Double-Play | Zamiel & Jeep
 | The Empty Bluff | Cory
-| The Turnabout Ejection | Pianoblook
+| Taffy Bluff | Kakashi

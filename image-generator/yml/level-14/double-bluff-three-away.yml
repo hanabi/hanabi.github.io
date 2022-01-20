@@ -30,7 +30,7 @@ players:
         middle_note: (4)
       - type: x
       - type: x
-  - text: After both blue 1 and yellow 1 blind play...
+  - text: After both blue 1 and yellow 1 blind-play...
   - name: Donald
     cards:
       - type: x

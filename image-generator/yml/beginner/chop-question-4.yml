@@ -1,0 +1,7 @@
+players:
+  - cards:
+      - type: g4
+      - type: p3
+      - type: p4
+      - type: g5
+      - type: b5

@@ -17,8 +17,21 @@ import SafetyCharm from '@site/image-generator/yml/extras/charms/safety-charm.ym
 
 - The *4 Charm* is introduced at [level 22](../level-22.md#the-4-charm).
 
+#### Interaction with Double Bluffs Where Cathy Has a One-Away-From-Playable Card
+
+- As stated in the level 22 section, *Double Bluffs* have precedence over *4 Charms*. However, there is one small exception.
+- *Double Bluffs* do not have precedence in the situation where Bob sees that Cathy has a *one-away-from-playable* card on her *Finesse Position*. Here, it is technically possible that Bob will blind-play the exact card that makes Cathy's *Finesse Position* playable. But since this is so unlikely, we agree that players in this situation should revert to a *4 Charm* interpretation.
+- For example, in a 4-player game:
+  - Red 1 is played on the stacks.
+  - Alice clues blue to Donald, touching a blue 4 as a *Play Clue*. (Blue 4 is currently three-away-from-playable.)
+  - Bob sees that Cathy has a red 3 on her *Finesse Position*.
+  - If Bob has exactly a red 2 on his *Finesse Position*, then he knows that Alice's clue would work as a *4's Double Bluff*.
+  - However, since the red 3 on Cathy's *Finesse Position* is *one-away-from-playable*, Bob knows that *4 Charms* should take precedence.
+  - Bob blind-plays his *Fourth Finesse Finesse* card. It is a red 2 and successfully plays on the stacks.
+
 #### Interaction with the Out-of-Order Finesse
 
+- First, see the section on the *[Out-of-Order Finesse](../level-19.md#the-out-of-order-finesse)*.
 - The *Out-of-Order Finesse* always takes precedence over a *4 Charm* or a *4's Double Bluff*, because of *Bob's Truth Principle*.
 - For example, in a 4-player game:
   - It is the first turn and nothing is played on the stacks.
@@ -55,7 +68,7 @@ import SafetyCharm from '@site/image-generator/yml/extras/charms/safety-charm.ym
   - Red 1 is played on the stacks.
   - It is the *Early Game* and the *Low Score Phase*.
   - Alice clues red to Cathy, touching a new red 2 on slot 2.
-  - Cathy hand is, from newest to oldest: `blue 5, red 2, blue 3, blue 2`
+  - Cathy's hand is, from newest to oldest: `blue 5, red 2, blue 3, blue 2`
   - Bob sees that Alice could have cleanly *5 Pulled* Cathy's red 2. (It is globally known that Alice had another *Play Clue* to give, so a number 5 clue would not have been interpreted as a *5 Stall*.)
   - Bob knows that this signals a blind-play:
     - A *First Finesse Position* blind-play would look like a *Bluff* on a red 3, which would be a *Lie*.
@@ -68,3 +81,21 @@ import SafetyCharm from '@site/image-generator/yml/extras/charms/safety-charm.ym
 
 - *4 Charms* take precedence over *Safety Charms*.
 - More examples of a *Safety Charm* can be found [here](../examples/safety-charm.md).
+
+<br />
+
+### The Junk Charm (for 1's)
+
+- Sometimes, when giving a number 1 *Play Clue* for 1's, a *Bad Touch* is unavoidable. But what if a player does this when a color clue would have avoided a *Bad Touch*?
+- If all the non-focused 1's are trash, the clue must be calling for something extra - a *Charm* on the very next player.
+- After the *Charm* occurs, the clued player will know that **only** the focus of the 1's clue is playable.
+- For example, in a 3-player game:
+  - Green 1 is played on the stacks.
+  - Alice clues number 1 to Cathy, touching a red 1 on slot 5 and a green 1 on slot 2.
+  - Cathy's hand is, from newest to oldest: `yellow 2, green 1, blue 3, purple 5, red 1`
+  - Bob can see that Alice could have clued red to only touch the red 1 and avoid a *Bad Touch*.
+  - Bob knows that this signals a blind-play:
+    - A *Finesse Position* blind-play would look like a *Trash Finesse*, which would be a *Lie*.
+    - A *Second Finesse Position* blind-play would look like a *Trash Push Ejection*, which would be a *Lie*.
+    - A *Third Finesse Position* blind-play would look like a *Junk Discharge*, which would be a *Lie*.
+  - Thus, Bob knows this must be a *Junk Charm* and blind-plays his *Fourth Finesse Position*. It is a blue 1 and it successfully plays.

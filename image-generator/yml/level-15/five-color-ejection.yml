@@ -27,7 +27,7 @@ players:
         middle_note: (5)
       - type: x
       - type: x
-  - text: After Bob blind plays red 1...
+  - text: After Bob blind-plays red 1...
   - name: Cathy
     cards:
       - type: x

@@ -60,22 +60,27 @@ These conventions apply to any variant with a reversed suit (cards must be playe
 
 - Similar to the *5 Double Bluff*, you can also use a reversed 1 to initiate a *1 Double Bluff* in exactly the same way.
 
-### 1's Color Ejection (1CE)
+### 1 Color Ejection (1CE)
 
 - Similar to *5 Color Ejection*, it is also possible to perform a *1 Color Ejection* on a reversed suit.
-- 1CE works in the exact same way that 5CE does (e.g. players use the "two or more blind-plays" rule).
+- *1 Color Ejection* works in the exact same way that *5 Color Ejection* does (e.g. players use the "two-or-more blind-plays" rule).
+
+### 2 Charm
+
+- Similar to *4 Charm*, it is also possible to perform a *2 Charm* in an *Up or Down* variant.
+- *2 Charms* works in the exact same way that *4 Charms do* (e.g. players use the "three-or-more blind-plays" rule).
 
 ### 1's Chop Move
 
 - Normally, when someone gives a number 1 clue, and all the 1's are played on the stacks, it communicates a *Trash Chop Move*.
 - In a variant with a reversed suit, we agree that players can also perform this move by using a reversed 1, as a *1's Chop Move* (which is similar to a *5's Chop Move)*.
 - In this situation, the player who receives the clue should *Chop Move* their cards to the right of the 1 and also keep the 1 as a (potential) reversed 1.
-  - If they happen to see the real copy of the reversed 1 at a later point in the game, then they can discard the 1 as known trash.
+  - If they happen to see the real copy of the reversed 1 at a later point in the game, then they can discard the 1 as known-trash.
 - If there are two or more cards are touched from *1's Chop Move*, the reversed 1 is promised on the right-most.
 
 ### The Turnabout Ejection (for 1s)
 
-- [Turnabout Ejections](pink.md#the-turnabout-ejection-for-1s-and-5s) can be performed on a reversed 1 in the same way that they can on a pink 5.
+- [Turnabout Ejections](pink.md#the-turnabout-ejection) can be performed on a reversed 1 in the same way that they can on a pink 5.
 - In other words:
   - if a reversed 1 is the focus of a number 1 clue that is a *Play Clue*,
   - and the next player would need to blind-play two or more cards to fulfill a *Finesse*,

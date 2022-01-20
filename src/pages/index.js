@@ -1,52 +1,40 @@
-import clsx from 'clsx';
-import Layout from '@theme/Layout';
-import Link from '@docusaurus/Link';
-import React from 'react';
-import styles from './styles.module.css';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import useBaseUrl from '@docusaurus/useBaseUrl';
+import Link from "@docusaurus/Link";
+import useBaseUrl from "@docusaurus/useBaseUrl";
+import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+import Layout from "@theme/Layout";
+import clsx from "clsx";
+import React from "react";
+import styles from "./styles.module.css";
 
 const features = [
   {
     num: 1,
-    title: 'Beginner\'s Guide',
-    iconName: 'baby',
-    description: (
-      <>
-        Start here to learn the fundamentals.
-      </>
-    ),
-    link: 'beginner',
+    title: "Beginner's Guide",
+    iconName: "baby",
+    description: <>Start here to learn the fundamentals.</>,
+    link: "beginner",
   },
   {
     num: 2,
-    title: 'Learning Path',
-    iconName: 'school',
-    description: (
-      <>
-        Learn our strategies gradually, level by level.
-      </>
-    ),
-    link: 'learning-path',
+    title: "Learning Path",
+    iconName: "school",
+    description: <>Learn our strategies gradually, level by level.</>,
+    link: "learning-path",
   },
   {
     num: 3,
-    title: 'Reference Document',
-    iconName: 'list-ul',
-    description: (
-      <>
-        Look up something specific.
-      </>
-    ),
-    link: 'reference',
+    title: "Reference Document",
+    iconName: "list-ul",
+    description: <>Look up something specific.</>,
+    link: "reference",
   },
 ];
 
-function Feature({num, title, iconName, description, link}) {
+function Feature({ num, title, iconName, description, link }) {
   const iconStyles = `fa fa-${iconName} fa-stack-1x fa-inverse`;
   const circleStyles = `fa fa-circle fa-stack-2x accent${num}`;
   return (
-    <div className={clsx('col col--4', styles.feature)}>
+    <div className={clsx("col col--4", styles.feature)}>
       {iconStyles && (
         <div className="text--center">
           <br />
@@ -56,7 +44,8 @@ function Feature({num, title, iconName, description, link}) {
               <i className={iconStyles}></i>
             </span>
           </a>
-          <br /><br />
+          <br />
+          <br />
         </div>
       )}
       <h3 className="text--center">
@@ -69,30 +58,35 @@ function Feature({num, title, iconName, description, link}) {
 
 function Home() {
   const context = useDocusaurusContext();
-  const {siteConfig = {}} = context;
+  const { siteConfig = {} } = context;
   return (
     <Layout
       title="Home"
       description="Strategies for Hanabi, a cooperative card game of logic and reasoning"
     >
-      <header className={clsx('hero hero--primary', styles.heroBanner)}>
+      <header className={clsx("hero hero--primary", styles.heroBanner)}>
         <div className="container">
-          <img src={useBaseUrl('img/hyphenated-circle.png')} />
+          <img src={useBaseUrl("img/hyphenated-circle.png")} />
           <h1 className="hero__title">{siteConfig.title}</h1>
           <p className="hero__subtitle">
-            Strategies for <a
+            Strategies for{" "}
+            <a
               href="https://boardgamegeek.com/boardgame/98778/hanabi"
               target="_blank"
               rel="noopener noreferrer"
-            >Hanabi</a>, a cooperative card game of logic and reasoning.
+            >
+              Hanabi
+            </a>
+            , a cooperative card game of logic and reasoning.
           </p>
           <div className={styles.buttons}>
             <Link
               className={clsx(
-                'button button--outline button--secondary button--lg',
-                styles.getStarted,
+                "button button--outline button--secondary button--lg",
+                styles.getStarted
               )}
-              to={useBaseUrl('docs/about')}>
+              to={useBaseUrl("docs/about")}
+            >
               Learn More
             </Link>
           </div>

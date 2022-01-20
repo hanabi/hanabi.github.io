@@ -13,16 +13,13 @@ players:
       - type: x
       - type: x
       - type: x
-      - type: x
   - cards:
       - type: x
         above: Red 1
       - type: x
       - type: x
       - type: x
-      - type: x
   - cards:
-      - type: x
       - type: x
       - type: x
       - type: x
@@ -35,5 +32,4 @@ players:
         middle_note: (R)
       - type: x
         above: Red 3
-      - type: x
       - type: x

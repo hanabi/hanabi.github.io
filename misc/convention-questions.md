@@ -25,7 +25,7 @@ Use notation that the H-Group will be familiar with:
 - Use "r3" instead of "3r".
 - Use "r[3]" to indicate that a card is a red 3 but has a number 3 clue on it.
 - If using a replay, then use the names of the players in the replay.
-- If using a hypothetical, always use the characters of Alice, Bob, Cathy, Donald, and Emily. (Alice should always be the player who performs the first action.)
+- If using a hypothetical, always use the characters of Alice, Bob, Cathy, Donald, and Emily. (Alice should always be the player who performs the first action.) Do not abbreviate the names as "A", "B", and so forth.
 
 <!-- lint enable no-undefined-references -->
 
@@ -42,6 +42,10 @@ Use notation that the H-Group will be familiar with:
 
 - Type out your entire question into a single message.
 
+### 6) Start a Thread
+
+- After asking your question, you must immediately start a thread.
+
 <br />
 
 ### Reasoning
@@ -51,3 +55,4 @@ Use notation that the H-Group will be familiar with:
 - The reason for needing Alice and Bob stories and for rule 2 is that it helps us to parse your question more easily.
 - The reason for answering your own question is that it allows us to hone in on the specific gaps in your knowledge. It is unfair to ask a low-effort question and then expect others to give a comprehensive response to it.
 - The reason for putting everything in one message is that it prevents spamming other people with notifications.
+- The reason for using a thread is to keep all discussion organized.

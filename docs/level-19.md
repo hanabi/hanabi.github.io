@@ -13,8 +13,6 @@ import PestilentDoubleBluff from '@site/image-generator/yml/level-19/pestilent-d
 import NoInformationDoubleFinesse from '@site/image-generator/yml/level-19/no-information-double-finesse.yml';
 import NoInformationDoubleBluff from '@site/image-generator/yml/level-19/no-information-double-bluff.yml';
 
-- Level 19 strategies should only be learned if you have 340+ games of experience with the group.
-
 <br />
 
 ## Special Moves
@@ -28,7 +26,7 @@ import NoInformationDoubleBluff from '@site/image-generator/yml/level-19/no-info
 - When this occurs, the clue should do one "extra" thing:
   - If the clue would normally be interpreted as a *Save Clue*, then it transforms into an *Occupied Play Clue*.
   - If the clue would normally be interpreted as a *Play Clue* or a *Prompt*, then it transforms into an *Occupied Finesse*.
-- Note that the concept of being *Occupied* generalizes to lots of different kind of moves. For example, when an *Occupied* player clues an off-chop 5, it is certainly not a *5 Stall* - it must be an *Occupied 5 Pull*!
+- Note that the concept of being *Occupied* generalizes to lots of different kind of moves. For example, when an *Occupied* player clues an off chop 5, it is certainly not a *5 Stall* - it must be an *Occupied 5 Pull*!
 
 <br />
 
@@ -140,7 +138,7 @@ import NoInformationDoubleBluff from '@site/image-generator/yml/level-19/no-info
 ### The Pestilent Double Bluff (PDB)
 
 - First, see the section on the *[Good Touch Bluff](#the-good-touch-bluff)*.
-- In the *Good Touch Bluff*, a *Bluff* is given that looks like a *Finesse*. However, what a *Good Touch Bluff* is performed and the "connecting" card is not yet clued?
+- In the *Good Touch Bluff*, a *Bluff* is given that looks like a *Finesse*. However, what if a *Good Touch Bluff* is performed and the "connecting" card is not yet clued?
 - In this situation, if the cluer is not making a mistake, they are trying to send a deeper message - they want an extra person to blind-play.
 - For example, in a 4-player game:
   - It is the first turn and nothing is played on the stacks.
@@ -168,7 +166,7 @@ import NoInformationDoubleBluff from '@site/image-generator/yml/level-19/no-info
 
 - Sometimes, a card that is two-away-from-playable is re-clued in order to initiate a *Finesse* or a *Bluff*. Most times, the clue will "fill in" or give extra information to the existing card.
 - Other times, the clue will give no information (e.g. re-cluing number 3 to an already known 3). In this situation, if it was merely a *Bluff*, it would be pretty low value.
-- Thus, by convention, a "no information" clue on a two-away-from-playable card **must** "get" at least 2 new cards (as opposed to a single *Bluff* that only gets 1 brand new card).
+- Thus, by convention, a "no information" clue on a two-away-from-playable card **must** "get" at least 2 new cards (as opposed to a single *Bluff* that only gets 1 new card).
 - For example, in a 3-player game:
   - Nothing is played on the stacks.
   - Alice clues 3's to Cathy, which touches one 3, the red 3.

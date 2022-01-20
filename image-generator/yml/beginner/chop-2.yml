@@ -15,7 +15,7 @@ players:
       - type: b4
         border: false
         below: Chop
-      - type: 5r
+      - type: r5
   - cards:
       - type: b4
         border: false

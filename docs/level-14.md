@@ -10,10 +10,6 @@ import DoubleHalfBluff from '@site/image-generator/yml/level-14/double-half-bluf
 import Hard4DoubleBluff from '@site/image-generator/yml/level-14/hard-4-double-bluff.yml';
 import Hard5DoubleBluff from '@site/image-generator/yml/level-14/hard-5-double-bluff.yml';
 
-- Level 14 strategies should only be learned if you have 240+ games of experience with the group.
-
-<br />
-
 ## Special Moves
 
 <br />
@@ -87,7 +83,7 @@ import Hard5DoubleBluff from '@site/image-generator/yml/level-14/hard-5-double-b
     - At first, Donald thought that the red card in his hand was red 1 (as a *Play Clue*).
     - After Bob blind-played, Donald thought that the red card in his hand was either a red 2 (as a *Bluff*) or a red 3 (as a *3 Bluff*).
     - After Cathy blind-played, Donald now knows that the red card in his hand is a red 4 (as a *4's Double Bluff*).
-    - (Donald knows that it cannot be a red 5, or else Bob would have blind-played his *Second Finesse Position*.)
+    - (Donald knows that it cannot be a red 5, or else Bob would have blind-played his *Second Finesse Position* due to *5 Color Ejection*.)
 
 <DoubleBluffThreeAway />
 

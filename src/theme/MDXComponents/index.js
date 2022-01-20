@@ -7,19 +7,17 @@
 
 // Diff from original
 // Just not replace the <pre> with a <div>
-import React from 'react';
-import Link from '@docusaurus/Link';
-import CodeBlock from '@theme/CodeBlock';
-import Heading from '@theme/Heading';
-import styles from './styles.module.css';
-const MDXComponents = {
-  code: props => {
-    const {
-      children
-    } = props;
+import Link from "@docusaurus/Link";
+import CodeBlock from "@theme/CodeBlock";
+import Heading from "@theme/Heading";
+import React from "react";
 
-    if (typeof children === 'string') {
-      if (!children.includes('\n')) {
+const MDXComponents = {
+  code: (props) => {
+    const { children } = props;
+
+    if (typeof children === "string") {
+      if (!children.includes("\n")) {
         return <code {...props} />;
       }
 
@@ -28,13 +26,13 @@ const MDXComponents = {
 
     return children;
   },
-  a: props => <Link {...props} />,
-  pre: props => <pre {...props} />,
-  h1: Heading('h1'),
-  h2: Heading('h2'),
-  h3: Heading('h3'),
-  h4: Heading('h4'),
-  h5: Heading('h5'),
-  h6: Heading('h6')
+  a: (props) => <Link {...props} />,
+  pre: (props) => <pre {...props} />,
+  h1: Heading("h1"),
+  h2: Heading("h2"),
+  h3: Heading("h3"),
+  h4: Heading("h4"),
+  h5: Heading("h5"),
+  h6: Heading("h6"),
 };
 export default MDXComponents;

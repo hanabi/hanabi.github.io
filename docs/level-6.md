@@ -9,10 +9,6 @@ import TempoClueChopMovePart2 from '@site/image-generator/yml/level-6/tempo-clue
 import TempoClueChopMovePart3 from '@site/image-generator/yml/level-6/tempo-clue-chop-move-part-3.yml';
 import DiscardModulation from '@site/image-generator/yml/level-6/discard-modulation.yml';
 
-- Level 6 strategies should only be learned if you have 80+ games of experience with the group.
-
-<br />
-
 ## Special Moves
 
 <br />
@@ -51,7 +47,7 @@ import DiscardModulation from '@site/image-generator/yml/level-6/discard-modulat
 ### The Trash Order Chop Move (TOCM)
 
 - First, see the section on the *[Order Chop Move](#the-order-chop-move-ocm)*.
-- Sometimes, a player will have two known trash cards in their hand (and these cards are explicitly known trash, meaning that everyone on the team can equally see that they are known trash).
+- Sometimes, a player will have two known-trash cards in their hand (and these cards are explicitly known-trash, meaning that everyone on the team can equally see that they are known-trash).
 - In this situation, the player is expected to discard the newest (left-most) trash card.
 - Thus, if a player skips over their newest trash card and instead discards the second newest trash card, they must be trying to communicate something extra.
 - This means that the next player should *Chop Move* (in a manner similar to a *Order Chop Move*).
@@ -92,48 +88,50 @@ import DiscardModulation from '@site/image-generator/yml/level-6/discard-modulat
 
 ### The Tempo Clue
 
-- *Tempo Clues* are defined as clues that "get" no new cards. Their purpose is to get 1 or more cards played that **already** had a clue on them.
-  - If a clue is given to a card that is **already** known to be playable, then that would **not** count as a *Tempo Clue*. It would instead be a *Burn Clue* (a clue that accomplishes nothing).
-- In our group, we do not generally perform *Tempo Clues*, because they do not meet *[Minimum Clue Value Principle](first-principles.md#2-minimum-clue-value-principle)*. However, in the following special circumstances, *Tempo Clues* have enough value to justify giving them:
+- *Tempo Clues* are defined as clues that "get" no new cards. The purpose of a *Tempo Clue* is to get 1 or more cards played that **already** had a clue on them.
+  - If a clue is given to a card that is **already** known to be playable, then that would **not** count as a *Tempo Clue*. It would instead be a *Burn Clue* (i.e. a clue that accomplishes nothing).
+- As explained in the beginner's guide, we do not typically perform *Tempo Clues*, because they do not meet *[Minimum Clue Value Principle](first-principles.md#2-minimum-clue-value-principle)*.
+- When a *Tempo Clue* touches multiple cards, the focus is on the left-most card.
+  - The exception is if one of the cards was previously *Chop Moved*. In that case, the focus is on the left-most *Chop Moved* card.
+- If a *Tempo Clue* touches multiple cards, it typically means that all the touched cards are playable. See the *Double Tempo Clue* section below.
+- We treat *Tempo Clues* differently depending on whether they are valuable or not valuable. See the next two sections below.
+
+<br />
+
+### The Valuable Tempo Clue
+
+- In some special situations, *Tempo Clues* have enough value to justify giving them:
   1. When it gets two or more clued cards to play
   1. When the clued card is not a 5 and it is "out of order" (meaning that it is impossible for a *Prompt* to get the card played)
   1. When the clued card was *Chop Moved* and it is now playable
   1. When playing the clued card would "unlock" someone's hand (see the section on *Locked Hands* later on)
-  1. When the clue giver is in a situation that requires them to stall (e.g. the player is *Locked*, etc.)
-- When a *Tempo Clue* touches multiple cards, the focus is on the left-most card.
-  - The exception is if one of the cards was previously *Chop Moved*. In that case, the focus is on the left-most *Chop Moved* card.
-- If a *Tempo Clue* touches multiple cards, it typically means that all the touched cards are playable. See the *Double Tempo Clue* section below.
-- Since they are so inefficient, *Tempo Clues* done outside of the special circumstances listed above are assigned a special meaning. See the *Tempo Clue Chop Moves* section below.
+- If a *Tempo Clue* is given in any of these situations, it is considered to be "valuable".
+- Valuable *Tempo Clues* can be given at any time. They don't have any special rules associated with them and they are treated in exactly the same way a "normal" *Play Clue* is.
 
 <br />
 
-### The Double Tempo Clue
+### The Tempo Clue Stall (A Non-Valuable Tempo Clue)
 
-- Typically, when a *Tempo Clue* is given that touches two or more cards, it means that **all** of the cards touched are playable in order from left to right.
-- For example, in a 3-player game:
-  - It is the first turn and nothing is played on the stacks.
-  - Alice clues red to Bob, which touches slot 1, slot 2, and slot 3.
-  - Bob plays red 1 from slot 1. The other two red cards in his hand could be nearly anything.
-  - Cathy clues red to Bob, which does not introduce any new cards, but it does re-touch slot 2 and slot 3.
-  - Bob knows that this is a *Double Tempo* clue. Both must be playable in order, so he must have red 2 in slot 2, and red 3 in slot 3.
-- Note that the normal "play all the cards" interpretation does not apply in some special situations:
-  - when the clue unlocks a player's hand
-  - when the clue got 2+ cards played in total (using cards in someone else's hand)
-  - when the clue touched a *Chop Moved* card; in this situation, **only** the *Chop Moved* card is playable
+- If a player gives a *Tempo Clue* that does **not** meet any of the criteria for being "valuable", it is treated differently and given a different name.
+- Sometimes, players are in "stalling situations" where it would be illegal for them to discard (like when they have a hand that is completely clued). In some specific stalling situations, it is okay to give a *Tempo Clue* that doesn't meet the criteria for being valuable. This is called a *Tempo Clue Stall*. Since everyone sees that the player giving the clue was in a stalling situation, they can understand what is going on.
+- For level 8 players, see the *[Allowable Stall Clues](level-8.md#allowable-stall-clues-stall-table)* section for the specific times when *Tempo Clue Stalls* are okay to give. If you are lower than level 8, the details are not important right now.
+- Obviously, players are **only** allowed to give a *Tempo Clue Stall* in a valid stalling situation. If a player gives a *Tempo Clue* that does not meet the criteria to be valuable in an otherwise ordinary situation, then they must be intending to send a deeper message. See the *Tempo Clue Chop Moves* section below.
 
 <br />
 
-### The Tempo Clue Chop Move
+### The Tempo Clue Chop Move (TCCM)
 
-- In general, *Tempo Clues* do not follow from *Minimum Clue Value Principle*, which states that a clue must get at least 1 new card played or save at least 1 new card from being discarded.
-- Thus, a *Tempo Clue* with no other purpose **must** save at least 1 new card, and the player should *Chop Move* their chop card.
-- Remember that *Tempo Clue Chop Moves* **do not** apply in the special situations listed above where natural *Tempo Clues* are allowed.
+- First, see the section on *[Tempo Clues](#the-tempo-clue)*.
+- A *Tempo Clue Stall* that is given in non-stalling situation can't be a stall - the cluer must be intending to send a deeper message.
+- We agree that *Tempo Clues* of this nature cause a *Chop Move* in addition to getting the focus of the card to play.
 - For example, in a 3-player game:
   - It is the first turn and nothing is played on the stacks.
   - Alice clues red to Bob, which touches two cards on slot 1 and slot 2.
   - Bob plays red 1 from slot 1. The red card in slot 2 could be red 2, red 3, red 4, or red 5.
   - Cathy clues number 2 to Bob, which does not introduce any new cards, but it does "fill in" his slot 2 card.
   - Bob now knows that he has exactly red 2 on slot 2 and that this was a *Tempo Clue*. Since it does not get any new cards and only get *Tempo* on one card in total, he knows that he should also *Chop Move* his slot 5 card.
+- Valuable *Tempo Clues* can never cause a *Tempo Clue Chop Move*.
+- When determining if a *Tempo Clue* is "valuable", it should only be evaluated on the turn immediately after the clue is given. (This helps keeps things simple and prevents desynchronization.)
 
 <TempoClueChopMovePart1 />
 
@@ -156,6 +154,28 @@ import DiscardModulation from '@site/image-generator/yml/level-6/discard-modulat
 
 <TempoClueChopMovePart3 />
 
+<br />
+
+### The Double Tempo Clue (A Valuable Tempo Clue)
+
+- First, see the section on *[Tempo Clues](#the-tempo-clue)* and *[Valuable Tempo Clues](#the-valuable-tempo-clue)*.
+- When a *Tempo Clue* touches one card, it is a clear signal to play that card.
+- When a *Tempo Clue* touches two or more cards, we need to agree how many cards that it promises are playable.
+- We agree that it means that **all** of the cards touched are playable in order from left to right.
+- Since this kind of clue gets two or more cards played, it is considered to be "valuable" and is allowed to be given at any time and in any situation.
+- For example, in a 3-player game:
+  - It is the first turn and nothing is played on the stacks.
+  - Alice clues red to Bob, which touches slot 1, slot 2, and slot 3.
+  - Bob plays red 1 from slot 1. The other two red cards in his hand could be nearly anything.
+  - Cathy clues red to Bob, which does not introduce any new cards, but it does re-touch slot 2 and slot 3.
+  - Bob knows that this is a *Double Tempo* clue. Both must be playable in order, so he must have red 2 in slot 2, and red 3 in slot 3.
+- Note that the normal "play all the cards" interpretation does not apply in some special situations:
+  - when the clue unlocks a player's hand
+  - when the clue got 2+ cards played in total (using cards in someone else's hand)
+  - when the clue touched a *Chop Moved* card; in this situation, **only** the *Chop Moved* card is playable
+
+<br />
+
 ## General Principles
 
 <br />
@@ -163,7 +183,7 @@ import DiscardModulation from '@site/image-generator/yml/level-6/discard-modulat
 ### Lines
 
 - During your turn, part of figuring out the best move involves looking into the future to see what the next player will do. If they discard, will it be okay? Is there some obvious clue that they will do? And so on.
-- As you get better at Hanabi, you will need to do this prediction not just for the next player, but for an entire go-around of the table. And as you really get good at Hanabi, you will need to do this for as far in the future as you can reasonable predict. (Sometimes, this means 15 moves or more in the future.)
+- As you get better at Hanabi, you will need to do this prediction not just for the next player, but for an entire go-around of the table. And as you really get good at Hanabi, you will need to do this for as far in the future as you can reasonably predict. (Sometimes, this means 15 moves or more in the future.)
 - Similar to chess, initiating a move in which you can predict the next sequence of moves is called initiating a "line".
 - In post-game reviews, we will often compare and hypothetically "play through" two different lines to see which one is better.
 
@@ -204,7 +224,7 @@ import DiscardModulation from '@site/image-generator/yml/level-6/discard-modulat
 
 ### Blind-Playing Chop Moved Cards
 
-- Often times, cards are *Chop Moved* towards the beginning of the game. Normally, once the time comes, the *Chop Moved* card will be clued directly in order to get it to play.
+- Often times, cards are *Chop Moved* towards the beginning of the game. Normally, once the time comes, the *Chop Moved* card will be directly clued in order to get it to play.
 - However, other times, the *Chop Moved* card will sit there and will never be clued. As the game progresses towards the end, the player with the *Chop Moved* card will learn more and more information about it. For example, they might accumulate a lot of negative clues on the card. Or, they might deduce that it is probably not any of the cards that are already played (which drastically reduces the possibilities towards the end of the game).
 - A clever player who accumulates enough information about a *Chop Moved* card may determine that all of the possibilities for the card are playable. In this situation, they do not have to wait for their teammates to clue the card directly - they can simply blind-play the *Chop Moved* card and it will work, regardless of which exact card it is.
 - Blind-playing cards in this manner is risky! It is fairly common for players to forgo cluing *Chop Moved* cards directly in favor of using the other copy of the card in someone else's hand. (For example, it may be more efficient to use the non-*Chop Moved* copy if it would be a 2-for-1 clue instead of a 1-for-1 clue.) Thus, there is always the chance that blind-playing a *Chop Moved* card in this manner will get a strike for the team (in the case where the other copy was used or in the case where the *Chop Move* was a mistake).

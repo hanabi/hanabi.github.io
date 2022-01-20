@@ -9,10 +9,6 @@ import TrashFinesseTwoCards from '@site/image-generator/yml/level-13/trash-fines
 import ReverseTrashFinesse from '@site/image-generator/yml/level-13/reverse-trash-finesse.yml';
 import TrashPush from '@site/image-generator/yml/level-13/trash-push.yml';
 
-- Level 13 strategies should only be learned if you have 220+ games of experience with the group.
-
-<br />
-
 ## Special Moves
 
 <br />
@@ -37,14 +33,14 @@ import TrashPush from '@site/image-generator/yml/level-13/trash-push.yml';
   - For example, if not all of the 1's have been played on the stacks, then you can use a number 1 clue to initiate a *Trash Bluff*, because a blind-play will prove that the clued 1 is not a good 1.
   - For example, if the red stack is played up to the red 3, then you **cannot** use a red clue to initiate a *Trash Bluff*, because a blind-play will make the clued card look like the red 5.
   - For example, if the red stack is played up to the red 4, then you can use a red clue to initiate a *Trash Bluff*, because a blind-play will prove that the clued card is not a red 5.
-- In the case where multiple cards are clued as part of a *Trash Bluff*, **all** of the touched cards are considered to be trash. However, the focus of the clue should be the first thing discarded, which allows for the possibility of your teammates to give a follow-up *Fix Clue*.
+- In the case where multiple cards are clued as part of a *Trash Bluff*, **all** of the touched cards are considered to be trash.
 
 <br />
 
 ### The Trash Finesse
 
-- In a *Finesse*, we would say that the clue "connects" to the blind-play. For example, a blue clue on a blue 2 would connect to a blind-play of blue 1. Or, a number 2 clue on a blue 2 would connect to a blind-play of blue 1.
-- In a *Bluff*, we would say that the clue does not "connect" to the blind-play. For example, a blue clue on a blue 2 does not connect to a blind-play of a red 1. Or, a number 2 clue on a blue 2 does not connect to the blind-play of a red 2.
+- In a *Finesse*, we say that the clue "connects" to the blind-play. For example, a blue clue on a blue 2 would connect to a blind-play of blue 1. Or, a number 2 clue on a blue 2 would connect to a blind-play of blue 1.
+- In a *Bluff*, we say that the clue does not "connect" to the blind-play. For example, a blue clue on a blue 2 does not connect to a blind-play of a red 1. Or, a number 2 clue on a blue 2 does not connect to the blind-play of a red 2.
 - In the *Trash Bluff* example above, a number 1 clue on a blue 1 is used to *Trash Bluff* a blue 2. Similar to a *Bluff*, we would say this number 1 clue does not connect to the blind-play of a blue 2.
 - What if a *Trash Bluff* using a number 1 clue instead got a red 1 to blind-play? In this context, the red 1 would actually "connect" to the number 1 clue. Another way of saying this is that by cluing a trash 1 with a number 1 clue, the clue giver is saying that they **see** a matching 1 that is good.
 - Thus, it is possible to perform a *Trash Bluff* outside of *Bluff Seat* if the "connecting" card is on someone's *Finesse Position*. When this is done, it promises that someone has that specific card, so we call it a *Trash Finesse* rather than a *Trash Bluff*.
@@ -52,13 +48,14 @@ import TrashPush from '@site/image-generator/yml/level-13/trash-push.yml';
   - All the 1's are played on the stacks except for red 1.
   - Alice clues number 1 to Donald, which touches a blue 1. To Donald, this will look like it is a red 1.
   - At first glance, Bob might think this is a *Trash Bluff*, causing him to blind-play his *Finesse Position* card as either red 1 or some other currently-playable card.
-  - However, Bob also sees that Cathy has a red 1 on her *Finesse Position*. Thus, Alice's clue was a *Trash Finesse* instead of a *Trash Bluff*, since it is promises a playable 1.
+  - However, Bob also sees that Cathy has a red 1 on her *Finesse Position*. Thus, Alice's clue was a *Trash Finesse* instead of a *Trash Bluff*, since it promises a playable 1.
   - Thus, Bob discards.
   - Cathy blind-plays her *Finesse Position* card and it is red 1.
   - Donald discards his known-trash 1.
 
 <TrashFinesse />
 
+- In the case where multiple cards are clued as part of a *Trash Finesse*, **all** of the touched cards are considered to be trash. (This is same thing that happens in a *Trash Bluff*.)
 - *Double Trash Finesses* are explicitly disallowed. Thus, it is possible to perform a *Trash Finesse* in a situation like this:
   - All the 1's are played on the stacks except for red 1 and blue 1.
   - Alice clues number 1 to Donald, which touches two green 1's on slot 1 and 2. To Donald, this will look like it is both the red 1 and the blue 1.
@@ -112,12 +109,6 @@ import TrashPush from '@site/image-generator/yml/level-13/trash-push.yml';
 
 <br />
 
-### A Trash Flowchart
-
-There are a lot of different moves that involve cluing trash. [Here is a flowchart](https://raw.githubusercontent.com/hanabi/hanabi.github.io/main/static/img/flowcharts/cluing-trash-flowchart.png) for determining the difference between the different types of special moves that touch trash. (The flowchart contains some strategies that have not been covered yet, but the three most important moves to understand are the *Trash Chop Move*, the *Trash Finesse/Bluff*, and the *Trash Push*.)
-
-<br />
-
 ## General Principles
 
 <br />
@@ -125,7 +116,7 @@ There are a lot of different moves that involve cluing trash. [Here is a flowcha
 ### Clarity Principle
 
 - First, see the section on *[Context](level-11.md#context)*.
-- In the H-Group, we like to find the "best" move for every turn in the post-game review. This is fun and helps everybody improve. But this practice can be taken too far.
+- In the H-Group, we like to find the "best" move for every turn in the post-game review. This is fun and helps everybody improve. But this can be taken too far.
 - Sometimes, players will give clues that are very complicated. Maybe the clue looks like it could be two different moves. Or, maybe the clue relies on non-obvious contextual factors.
 - Often, these kinds of complicated clues end up in misplays and lost games. And in the post-game review, the cluers get defensive: "if everyone just played perfectly, then my clue would have worked!"
 - It's natural for people to feel this way, because normally, if Alice performs a *Finesse*, and Bob is not paying attention and misses it, then we would say that Bob is at fault. But things are a little different when Alice gives a really complicated clue that Bob should *technically* be able to figure out, but doesn't. In this case, Bob shares a little of the blame, but it is mostly Alice that is at fault.

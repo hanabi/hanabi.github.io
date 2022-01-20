@@ -31,7 +31,7 @@ players:
         middle_note: (G)
       - type: x
       - type: x
-  - text: After Cathy blind plays red 1...
+  - text: After Cathy blind-plays red 1...
   - name: Donald
     cards:
       - type: 1

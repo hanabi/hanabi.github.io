@@ -16,7 +16,10 @@ import ColorConnectRainbow from '@site/image-generator/yml/level-10/color-connec
 import ColorConnectRainbowFinesseImpossible from '@site/image-generator/yml/level-10/color-connect-rainbow-finesse-impossible.yml';
 import BluffPromptsPromptBluffs from '@site/image-generator/yml/level-10/bluff-prompts-prompt-bluffs.yml';
 
-- Level 10 strategies should only be learned if you have 160+ games of experience with the group.
+- This level introduces *Bluffs*, a way to tell a *Fib* to the next player to cause them to blind-play.
+- *Bluffs* can be very fun, since they allow for a lot more blind-plays than previously possible.
+- However, the fact that players are no longer always telling the truth to each other causes this level to be much more complicated and difficult to integrate than any of the previous levels.
+- Make sure that you are totally comfortable with the earlier levels before attempting to add *Bluffs* to the mix. (We recommend at least 100-200 games of experience.)
 
 <br />
 
@@ -39,7 +42,24 @@ import BluffPromptsPromptBluffs from '@site/image-generator/yml/level-10/bluff-p
 
 <Bluff />
 
-- Except in rare circumstances, ***Bluffing* is only permissible when you are the person directly before the player who is blind-playing a card**. This is called being in *Bluff Seat*. Do not *Bluff* unless you are in *Bluff Seat*! (This follows from *[Lie Principle](first-principles.md#8-lie-principle)*.)
+#### The Bluff Seat
+
+- ***Bluffing* is only allowed when you are the person directly before the player who is blind-playing a card**.
+- We formalize this concept as the *Bluff Seat*. You are sitting in *Bluff Seat* for a player if you are allowed to *Bluff* them.
+- For example:
+  - If Alice is sitting directly before Bob, then Alice is sitting in *Bluff Seat* for Bob, and Alice is allowed to *Bluff* Bob.
+  - Alice is **not allowed** to *Bluff* Cathy (or anyone else other than Bob, for that matter).
+  - Bob is in *Bluff Seat* for Cathy, so Bob is allowed to *Bluff* Cathy, and so forth.
+- If a player gets someone else to blind-play a card, and they are not in *Bluff Seat* for them, then it **must** be a real *Finesse*!
+
+<br />
+
+#### Lie Principle
+
+- ***Bluffing* is only allowed if the very next player will blind-play on the very next turn.**
+- We formalize this concept as *Lie Principle*:
+  - If an untruth resolves immediately (i.e. the very next turn), then it is called a *Fib*. *Fibbing* is okay.
+  - If an untruth does not resolve immediately, it is called a *Lie*. *Lies* are **illegal**. Players should **never** assume that they are *Lied* to.
 
 <br />
 
@@ -49,10 +69,10 @@ import BluffPromptsPromptBluffs from '@site/image-generator/yml/level-10/bluff-p
 - For example, in a 4-player game:
   - All the 1's are played on the stacks.
   - Bob has nothing clued in his hand.
-  - Cathy has a red 3 clued in her hand with just a number 3. She does not know what color it is.
+  - Cathy has a red 3 clued in her hand with just a number 3. She does not know what suit it is.
   - Alice clues Donald red, which touches one red 4 as a *Play Clue*.
   - Bob knows that he must have the red 2. If he blind-plays the red 2 (as a *Finesse*), then Cathy will play the red 3 (as a *Prompt*), and Donald will play the red 4.
-  - Bob plays his *Finesse Position* card as red 2. Instead, it is a blue 2 and it successfully plays.
+  - Bob plays his *Finesse Position* card as a red 2. Instead, it is a blue 2 and it successfully plays.
   - From Cathy's perspective, she knows that the red 4 is *two-away-from-playable* instead of *one-away-from-playable*. *Bluffs* on *two-away-from-playable* cards are normally illegal. Thus, Cathy's mystery 3 must be exactly red 3, making the red 4 *one-away-from-playable* after all.
   - Cathy discards.
   - From Donald's perspective, since red (the type of clue that was given) does not connect to blue (the card that was blind-played), this must be a *Bluff*. Normally, since the red 1 is currently played on the stacks, Donald would think that he has the red 3 (e.g. the *one-away-from-playable* red card).
@@ -214,8 +234,6 @@ import BluffPromptsPromptBluffs from '@site/image-generator/yml/level-10/bluff-p
   - In some situations, there can be two *reacting players* in a row. For example, if Alice clues a *two-away-from-playable* card, then Bob must react **and** Cathy must react.
 - So how does a *reacting player* figure out what the clue means? They should use *Occam's Razor* - always assume the simplest possible interpretation.
 
-<!-- lint disable list-item-content-indent -->
-
 1. Assume a direct *Play Clue* or a *Delayed Play Clue* (if it could be possible that no *Prompts* & no blind-plays are involved).
 1. Assume a *Prompt* (if it could be possible that no blind-plays are involved).
 1. Assume a *Finesse* (or a *Prompt* + *Finesse*) over a *Bluff*.
@@ -224,17 +242,15 @@ import BluffPromptsPromptBluffs from '@site/image-generator/yml/level-10/bluff-p
 1. Assume the "move" that results in the least number of *Prompts*.
     - This means that if something could be either a one-blind-play *Finesse* **or** a one-blind-play *Finesse* with a *Prompt* involved, then the pure *Finesse* is simpler and you should assume that.
 
-<!-- lint enable list-item-content-indent -->
-
 <br />
 
 ## Common Mistakes
 
 <br />
 
-### Bluff Seat and the Pang of Guilt
+### The Pang of Guilt
 
-- As mentioned in the section on *Bluffs*, you are in *Bluff Seat* for a certain player if you are immediately before them.
+- First, see the section on the *[Bluff Seat](#the-bluff-seat)*.
 - Before cluing a card directly, you should first consider if the card is on *Finesse Position*. If it is, and you clue it directly, you may be "stealing" someone's *Finesse* or *Bluff*.
 - Thus, in this situation, it may be better to discard and let the player in *Bluff Seat* get the card. If you do decide to clue the card directly, you should always feel a *Pang of Guilt*.
 
@@ -271,4 +287,4 @@ import BluffPromptsPromptBluffs from '@site/image-generator/yml/level-10/bluff-p
 
 - First, see the section on the *[Stacked Finesse](level-5.md#the-stacked-finesse)*.
 - *Stacked Finesses* are encouraged, since they have few downsides.
-- However, players should **never** stack a *Bluff* on top of a player who is *Finessed*. This is because the blind-playing player will assume that a *Layered Finesse* is occurring and go on to play the card from the first *Finesse*. This means that the *Bluff* will not be resolved immediately, violating *Lie Principle*. (*Lie Principle* is one of the most important principles!) Typically, when this mistake happens, the team will go on to lose the game, because severe *Information Desynchronization* will occur.
+- However, players should **never** stack a *Bluff* on top of a player who is *Finessed*. This is because the blind-playing player will assume that a *Layered Finesse* is occurring and go on to play the card from the first *Finesse*. This means that the *Bluff* will not be resolved immediately, violating *Lie Principle*. This mistake is really bad because it causes severe *Information Desynchronization*.

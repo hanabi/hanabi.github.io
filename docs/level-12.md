@@ -8,13 +8,9 @@ import Number3WithSuitDisconnect from '@site/image-generator/yml/level-12/number
 import ColorConnectNotValid from '@site/image-generator/yml/level-12/color-connect-not-valid.yml';
 import ColorConnectWithRankDisconnect from '@site/image-generator/yml/level-12/color-connect-with-rank-disconnect.yml';
 import Number3WithSuitConnect from '@site/image-generator/yml/level-12/number-3-with-suit-connect.yml';
-import Critical4Bluff from '@site/image-generator/yml/level-12/critical-4-bluff.yml';
+import CriticalColorBluff from '@site/image-generator/yml/level-12/critical-color-bluff.yml';
 import FinessePromptNotHardBluff from '@site/image-generator/yml/level-12/finesse-prompt-not-hard-bluff.yml';
 import HardBluff from '@site/image-generator/yml/level-12/hard-bluff.yml';
-
-- Level 12 strategies should only be learned if you have 200+ games of experience with the group.
-
-<br />
 
 ## Special Moves
 
@@ -22,10 +18,10 @@ import HardBluff from '@site/image-generator/yml/level-12/hard-bluff.yml';
 
 ### The 3 Bluff
 
-- Typically, the player who receives a clue that causes a *Bluff* blind-play knows that the card that was clued is one-away from being playable.
-- Our group plays with an artificial *3 Bluffs* convention. This means that in addition to being one-away from being playable, we agree that the touched card can *also* be any 3 that will be useful in the future.
-- *3 Bluffs* are mostly used to get 1's played at the beginning of the game. However, similar to a normal *Bluff*, a *3 Bluff* can be used to get any playable card (as long as it doesn't look like a *Finesse*, obviously.)
-- Here are some examples that cover the four most common *3 Bluff* situations:
+- Typically, the player who receives a clue that causes a *Bluff* blind-play knows that the card that was clued is *one-away-from-playable*.
+- Our group plays with an artificial *3 Bluffs* convention. This means that in addition to being *one-away-from-playable*, we agree that a *Bluff* can *also* be any 3 that will be useful in the future.
+- *3 Bluffs* are mostly used to get 1's played at the beginning of the game. However, similar to a normal *Bluff*, a *3 Bluff* can be used to get any playable card (as long as it doesn't look like a *Finesse*).
+- Here are some examples that cover the most common *3 Bluff* situations.
 
 #### Example 1 - **Color Disconnect** (Valid)
 
@@ -49,7 +45,7 @@ import HardBluff from '@site/image-generator/yml/level-12/hard-bluff.yml';
 - On the first turn of the game, Alice clues Cathy red, which touches a red 3.
 - Bob blind-plays red 1.
 - Cathy sees that Bob does not have red 2. Since red connects to red, Cathy assumes that she has the red 2.
-- Cathy misplays red 3 as red 2.
+- Cathy misplays the red 3 as a red 2.
 - Alternatively, if Cathy saw that Bob had both red 1 and red 2 on his *Finesse Position* at the time the clue was given, she would know that she has the red 2 **or** the red 3. Subsequently, Bob is promised a red 2, since if he does not blind-play a card, Cathy will go on to misplay the red 3 as red 2.
 
 <ColorConnectNotValid />
@@ -62,7 +58,8 @@ import HardBluff from '@site/image-generator/yml/level-12/hard-bluff.yml';
 - Bob blind-plays the red 1.
 - Cathy notices that Donald's red card has a negative 2 clue on it. This means that Donald will not go on to misplay the card as the red 2.
 - Cathy needs to evaluate whether or not Alice's clue is a *Finesse* or a *3 Bluff*. If this is a *Double Finesse*, then Cathy needs to blind-play the red 2. If this is a *Bluff*, then Alice only intended for Bob to blind-play.
-- Cathy knows that since **red connects to red**, this must be a *Double Finesse*, so Cathy blind-plays the red 2 into the red 3.
+- Cathy knows that since **red connects to red**, this must be a *Double Finesse*, so Cathy assumes that she has the red 2 on her *Finesse Position*.
+- Cathy misplays blue 5.
 
 <ColorConnectWithRankDisconnect />
 
@@ -79,23 +76,29 @@ import HardBluff from '@site/image-generator/yml/level-12/hard-bluff.yml';
 #### Generic Questions
 
 - *3 Bluffs* can be confusing. If you don't want to memorize the five examples above, you can simply ask the following questions:
-  1. Does the clue "connect" to the blind-play? If it connects, then it is a *Finesse*. If it does not connect, then it is a *Bluff*. Red connects to red, but red does **not** connect to blue. 2 connects to 3, but 1 does **not** connect to 3.
-  1. Will the player who received the clue go on to misplay if nothing else is blind-played? If yes, then it is a *Finesse*. If no, then it is a *Bluff*.
+  1. Does the clue "connect" to the blind-play?
+      - If it connects, then it is a *Finesse*.
+      - If it does not connect, then it is a *Bluff*.
+      - Red connects to red, but red does **not** connect to blue.
+      - 2 connects to 3, but 1 does **not** connect to 3.
+  1. Will the player who received the clue go on to misplay if nothing else is blind-played?
+      - If yes, then it is a *Finesse*.
+      - If no, then it is a *Bluff*.
 
 <br />
 
-### The Critical 4 Bluff
+### The Critical Color Bluff
 
-- Building on the *3 Bluffs* convention, we also agree that it is possible for a card that initiates a *Bluff* to be a copy of any of the 4s that are currently in the discard pile, but only if **a color clue** is used.
+- Building on the *3 Bluffs* convention, we also agree that it is possible for a card that initiates a *Bluff* to be any critical card, but only if **a color clue** is used.
 - For example, in a 3-player game:
   - Nothing is played on the stacks. Red 4 is currently in the discard pile.
   - Alice clues Cathy red, touching a red 4 as a *Play Clue*.
   - Bob blind-plays a blue 1.
   - Cathy marks her red card as the *one-away-from-playable* red card, the red 2.
   - However, Cathy also knows that *3 Bluffs* are a thing, so she *also* marks her red card as possibly a red 3.
-  - However, Cathy also knows that *Critical 4 Bluffs* are a thing, so she *also* marks her red card as possibly a red 4.
+  - However, Cathy also knows that *Critical Color Bluffs* are a thing, so she *also* marks her red card as possibly a red 4.
 
-<Critical4Bluff />
+<CriticalColorBluff />
 
 <br />
 
@@ -106,7 +109,7 @@ import HardBluff from '@site/image-generator/yml/level-12/hard-bluff.yml';
 - For example, this is a *Finesse* + *Prompt* and **not** a *Hard Bluff*:
   - Only red 1 is played on the stacks.
   - Cathy has a 3 clued in her hand (with no color information on it).
-  - Alice clues Cathy about a brand new 4.
+  - Alice clues Cathy about a new 4.
   - Bob blind-plays red 2.
   - In a normal *Bluff*, a *one-away-from-playable* card is clued. However, Cathy sees that the highest stack is the red stack, so the 4 in her hand must be two-away.
   - Thus, Cathy does **not** read it as a *Bluff*; she is promised red 3 and red 4, so she plays the unknown 3 as a *Self-Prompt* for the red 3.
@@ -116,7 +119,7 @@ import HardBluff from '@site/image-generator/yml/level-12/hard-bluff.yml';
 - For example, this **is** a *Hard Bluff*:
   - Red 1 and blue 2 are played on the stacks.
   - Cathy has a 3 clued in her hand (with no color information on it).
-  - Alice clues Cathy about a brand new 4.
+  - Alice clues Cathy about a new 4.
   - Bob blind-plays red 2.
   - This could be a *Bluff* if the 4 in her hand is blue 4, since blue 4 is currently *one-away-from-playable*. Thus, Cathy **does not** assume that her 4 is red 4, and subsequently, **does not** assume that her unknown 3 is a red 3. However, it could **also** be the case that the 4 is a red 4 (if the 3 in her hand happens to be red 3).
   - Thus, Cathy marks down both possibilities for later and does not play anything right now.
@@ -128,7 +131,7 @@ import HardBluff from '@site/image-generator/yml/level-12/hard-bluff.yml';
 ### The Hard 3 Bluff
 
 - Players can use a 3 to *3 Bluff* the 1 of the same suit.
-- This is called a *Hard 3 Bluff* to distinguish it from a more-ordinary 3 bluff.
+- This is called a *Hard 3 Bluff* to distinguish it from a more-ordinary *3 Bluff*.
 - An example of a *Hard 3 Bluff* can be found above as example 5.
 
 <br />
@@ -151,7 +154,10 @@ import HardBluff from '@site/image-generator/yml/level-12/hard-bluff.yml';
 
 ### Legal Bluff-Targets
 
-- The full list of legal *Bluff* targets is as follows:
-  - any *one-away-from-playable* card (with either a color clue or a number clue)
-  - any 3 (with either a color clue or a number clue)
-  - any critical 4 (only with a color clue)
+The full list of legal *Bluff* targets is represented in the following table:
+
+| Type of Card                                                          | Color Clue | Number Clue | Name of Convention
+| --------------------------------------------------------------------- | ---------- | ----------- | ------------------
+| any *one-away-from-playable* card                                     | ✅         | ✅         | *Bluff*
+| any *two-away-from-playable* 3                                        | ✅         | ✅         | *3 Bluff*
+| any *two-away-from-playable* or *three-away-from-playable* critical 4 | ✅         | ❌         | *Critical 4 Bluff*

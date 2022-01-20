@@ -41,16 +41,17 @@ players:
       - type: x
         above: Red 1
       - type: x
+        above: Red 2
       - type: x
       - type: x
       - type: x
   - name: Cathy
     cards:
       - type: x
-        middle_note: r2
+        middle_note: r2?
+      - type: x
       - type: x
       - type: 3
         clue: 3
         above: Red 3
-      - type: x
       - type: x

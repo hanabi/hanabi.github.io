@@ -8,8 +8,6 @@ import SelfColorBluff2 from '@site/image-generator/yml/extras/special-bluffs/sel
 import SelfColorBluff3 from '@site/image-generator/yml/extras/special-bluffs/self-color-bluff-3.yml';
 import SelfColorDoubleBluff from '@site/image-generator/yml/extras/special-bluffs/self-color-double-bluff.yml';
 import KnownPriorityBluff from '@site/image-generator/yml/extras/special-bluffs/known-priority-bluff.yml';
-import BadTouchDoubleBluff from '@site/image-generator/yml/extras/special-bluffs/bad-touch-double-bluff.yml';
-import BadTouchDoubleBluff2 from '@site/image-generator/yml/extras/special-bluffs/bad-touch-double-bluff-2.yml';
 import PestilentTripleBluff from '@site/image-generator/yml/extras/special-bluffs/pestilent-triple-bluff.yml';
 
 ### Self Color Bluffs (1-for-1 Form) (SCB)
@@ -17,7 +15,7 @@ import PestilentTripleBluff from '@site/image-generator/yml/extras/special-bluff
 - It is possible (and fairly common) to perform a *Self-Bluff* on a player with a rank clue.
 - For example, in a 3-player game:
   - Red 2 is played on the stacks.
-  - Alice clues number 4 to Bob, which touches one brand new 4 as a *Play Clue*.
+  - Alice clues number 4 to Bob, which touches one new 4 as a *Play Clue*.
   - Bob does not see any playable cards in anyone else's hand.
   - The closest 4 to being playable is the red 4, so Bob knows that the 4 in his hand is probably a red 4.
   - Since Bob does not see any red 3's, Bob knows he must have the red 3, and he blind-plays his *Finesse Position* card. It is a blue 1 and successfully plays.
@@ -51,7 +49,7 @@ import PestilentTripleBluff from '@site/image-generator/yml/extras/special-bluff
 - Rarely, it is also possible to perform a *Self Color Bluff* as a 2-for-1.
 - For example, in a 3-player game:
   - Red 2 is played on the stacks.
-  - Alice clues red to Bob, which touches a brand new red card on his slot 2.
+  - Alice clues red to Bob, which touches a new red card on his slot 2.
   - This must be a *Play Clue* on the red card.
   - Bob has a negative 3 clue on his red card, so he knows it cannot possibly be a red 3 (the next playable red card).
   - Bob does not see any red cards in other player's hands, so it cannot be a *Prompt* or a *Reverse Finesse*.
@@ -67,7 +65,7 @@ import PestilentTripleBluff from '@site/image-generator/yml/extras/special-bluff
 - However, players can also perform a *Self Color Double Bluff* by "filling in" a card that is *two-or-more-away-from-playable* and not a legal *Bluff* target.
 - For example, in a 3-player game (similar to the previous example):
   - Red 2 is played on the stacks.
-  - Alice clues red to Bob, which touches a brand new red card on his slot 2.
+  - Alice clues red to Bob, which touches a new red card on his slot 2.
   - This must be a *Play Clue* on the red card, since Alice is not in a stalling situation. (If Alice was in a stalling situation, then she would be allowed to give a "fill-in" clue without anything special happening.)
   - Bob has a negative 3 clue on his red card, so he knows it cannot possibly be a red 3 (the next playable red card).
   - Bob does not see any red cards in other player's hands, so it cannot be a *Prompt* or a *Reverse Finesse*.
@@ -115,34 +113,6 @@ import PestilentTripleBluff from '@site/image-generator/yml/extras/special-bluff
 <KnownPriorityBluff />
 
 - Just like normal *Bluffs*, players are only allowed to perform a *Known Priority Bluff* on the very next player.
-
-<br />
-
-### The Bad Touch Double Bluff (for 3's)
-
-- In the same way as the *Bad Touch Double Finesse*, it is also possible to *Bad Touch Double Bluff* (or *Bad Touch Double Half Bluff*) in order to get unrelated cards played from *Finesse Position*.
-- For example, in a 4-player game:
-  - It is the first turn and nothing is played on the stacks.
-  - Alice clues number 3 to Donald, touching two red 3's.
-  - Bob blind-plays his *Finesse Position* and it is blue 1.
-  - Cathy knows that normally, this would be a *3 Bluff*. However, since the red 3's are duplicated, this must be a *Bad Touch Double Bluff*, so Cathy blind-plays her *Finesse Position* and it is the green 1.
-  - Donald knows that he must have a duplicated copy of a 3, or else Cathy would not have blind-played anything. Donald discards the non-focused 3.
-
-<BadTouchDoubleBluff />
-
-- Instead of cluing the same 3 in one hand, it is also possible to perform a *Bad Touch Double Finesse/Bluff* by intentionally duplicating a 3 in another player's hand.
-- For example, in a 5-player game:
-  - All of the 1's are played except for red 1.
-  - Emily has a clued red 3 in his hand.
-  - Alice clues number 3 to Donald, touching a red 3 (and duplicating it, since Emily already has a copy with a clue on it).
-  - Bob blind-plays his *Finesse Position* and it is red 1.
-  - Cathy knows that normally, this would be a *3 Bluff*. However, since the red 3 was duplicated, this must be a *Bad Touch Double Finesse*, so Cathy blind-plays her *Finesse Position* and it is the red 2.
-  - Donald knows that this cannot be a *3 Bluff*, or else Cathy would not have blind-played anything. Thus, this must be a *Bad Touch Double Finesse*, so Donald discards his red 3 as a *Sarcastic Discard* to pass it back to Emily.
-  - Emily plays the red 3.
-
-<BadTouchDoubleBluff2 />
-
-- More examples of a *Bad Touch Double Bluff* can be found [here](../examples/bad-touch-double-bluff.md).
 
 <br />
 

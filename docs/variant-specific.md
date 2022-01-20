@@ -16,13 +16,24 @@ import LoadedException2 from '@site/image-generator/yml/extras/variant-specific/
   - Any "Mix" variant
   - Color Mute
   - Number Mute
-  - Throw It in a Hole
   - Cow & Pig
   - Duck
-- In hard variants, the following changes are made to the conventions:
-  - Players are not allowed to *Double Discard Avoid*. Any clue given in a *Double Discard* situation will instead be treated like a clue given in a non-*Double Discard* situation.
-  - Players are not allowed to *5 Stall* in the *Early Game*. Any clue that looks like a *5 Stall* is instead treated as either a *5's Chop Move* or a *5 Pull*.
-  - Players are not required to clue anything in the *Early Game*; they are allowed to initiate the *Mid-Game* whenever they see fit.
+  - Throw It in a Hole
+  - Up or Down
+  
+<br />
+
+#### Convention Changes for All Hard Variants
+
+- Players are not allowed to *Double Discard Avoid*.
+  - Any clue given in a *Double Discard* situation will instead be treated like a clue given in a non-*Double Discard* situation.
+- Players are not allowed to *5 Stall* in the *Early Game*.
+  - Any clue that looks like a *5 Stall* is instead treated as either a *5's Chop Move* or a *5 Pull*.
+- Players are not required to clue anything in the *Early Game*; they are allowed to initiate the *Mid-Game* whenever they see fit.
+- Players are not allowed to give [*Double Tempo Clues*](level-6.md#the-valuable-tempo-clue).
+  - If a *Tempo Clue* is given that touches two or more cards, only the leftmost card is communicated to be playable.
+  - This will therefore cause a [*Tempo Clue Chop Move*](level-6.md#the-tempo-clue-chop-move-tccm).
+- *Loaded Play Clues*, as defined below, are turned on.
 
 <br />
 
@@ -79,6 +90,30 @@ import LoadedException2 from '@site/image-generator/yml/extras/variant-specific/
   - Thus, Bob knows that Alice is performing a simple *5 Save* and plays the red 4.
 
 <LoadedException2 />
+
+### The Always Loaded Principle
+
+- In certain variants, a specific type of clue always looks like a *Save Clue* regardless of which cards are in the discard pile.
+- For example:
+  - In a dark prism variant, a 3 or 4 clue to the chop always looks like a *Save Clue* on prism 3 or prism 4.
+  - In a brown variant, a brown clue to the chop always looks like a *Save Clue* on a brown 2, a brown 5, or another critical brown card.
+- In such cases, we agree that this specific type of clue, if given to a player who is *Loaded*, must always be treated as a play clue. (This includes during the *Early Game*.)
+- For example, in a 3-player game with a gray suit:
+  - Gray 1 and blue 1 are played on the stacks.
+  - Bob's hand is completely unclued.
+  - Alice clues a gray 3 with a rank 3 clue on Cathy, who is currently *Loaded*.
+  - Normally, Bob would assume that this is an *Early Save*. But due to the *Always Loaded Principle*, this must be a *Loaded Play Clue*.
+  - Bob plays his *Finesse Position* card. It is a gray 2 and it successfully plays.
+- One consequence of this principle is that in some cases, you can use it to get cards played that do not belong to a special suit.
+- For example, in a 3-player game with a gray suit:
+  - Gray 2 and blue 1 are played on the stacks.
+  - Bob's hand is completely unclued.
+  - Alice clues a critical blue 3 with a rank 3 clue on Cathy, who is currently *Loaded*.
+  - Normally, Bob would assume that this is an *Early Save*. But due to the *Always Loaded Principle*, this must be a *Loaded Play Clue*.
+  - If Bob does nothing, Cathy will assume that it is a *Loaded Play Clue* on the gray 3.
+  - Thus, Bob plays his *Finesse Position* card. It is a blue 2 and it successfully plays.
+
+<br />
 
 ### Precedence of Variant-Specific Conventions
 

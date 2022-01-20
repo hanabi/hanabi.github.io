@@ -12,10 +12,6 @@ import ChopMoveNew from '@site/image-generator/yml/level-4/chop-move-new.yml';
 import ChopMoveNewException from '@site/image-generator/yml/level-4/chop-move-new-exception.yml';
 import ChopMovePrompt from '@site/image-generator/yml/level-4/chop-move-prompt.yml';
 
-- Level 4 strategies should only be learned if you have played with the group for a week or so (40+ games of experience).
-
-<br />
-
 ## Conventions
 
 <br />
@@ -106,6 +102,8 @@ import ChopMovePrompt from '@site/image-generator/yml/level-4/chop-move-prompt.y
   - When counting how far away from chop a card is, you should only look at **unclued** cards.
 - Remember that *5 Stalls* takes precedence over *5's Chop Moves*. Thus, if a number 5 clue **could** just be a *5 Stall* (e.g. it is the *Early Game*), then it should not *Chop Move* anything.
   - Technically, one could try to analyze whether a clue is a *5 Stall* or *5's Chop Move* by looking at whether the clue-giver had a different clue to give, since *5 Stalls* are only permitted if all "normal" *Play Clues* and *Save Clues* have been extinguished. However, this analysis relies on asymmetric information, and can be confusing even for experienced players. So, this move is not introduced until [level 17](level-17.md#special-moves).
+- For level 17+ players, see the *[Early 5's Chop Move](level-17.md#the-early-5s-chop-move)*.
+- For level 20+ players, there are [additional rules](level-20.md#interaction-with-5-rank-clues) relating to the *5's Chop Move*.
 
 <br />
 
@@ -124,7 +122,7 @@ import ChopMovePrompt from '@site/image-generator/yml/level-4/chop-move-prompt.y
   - Bob discards the 1.
   - Bob's chop is now his slot 4.
   - Cathy clues blue to Bob, which touches his slot 1 (the card he just drew) and his slot 5 (the card that was just *Chop Moved*).
-  - Bob knows that the focus of the clue is always on the brand-new card introduced, so this is **not** chop-focus, and the focus of the clue is on slot 1.
+  - Bob knows that the focus of the clue is always on the new card introduced, so this is **not** chop-focus, and the focus of the clue is on slot 1.
   - Thus, Bob will play blue 2 from slot 1 on his next turn.
 
 <ChopMoveNew />
@@ -134,7 +132,7 @@ import ChopMovePrompt from '@site/image-generator/yml/level-4/chop-move-prompt.y
   - All the 2's are played on the stacks.
   - Bob has an unknown red card on slot 3, an unknown red card on slot 4, and a *Chop Moved* card in slot 5 (that is completely unclued).
   - Alice clues blue to Bob, which touches slot 3, slot 4, and slot 5. (Slot 3 and slot 4 are "filled in" to be rainbow cards and slot 5 is now a true blue card.)
-  - Bob knows that the focus of the clue is normally on the brand-new card introduced, but all three of the cards that were touched were "old".
+  - Bob knows that the focus of the clue is normally on the new card introduced, but all three of the cards that were touched were "old".
   - Bob knows that when old cards are re-touched, the focus of the clue is the left-most of those cards.
   - However, Bob also knows that this is the exception to the rule. In this specific case, putting a positive clue on the *Chop Moved* card was more important than filling in the rainbow cards, so by convention the focus of the clue is his slot 5.
 

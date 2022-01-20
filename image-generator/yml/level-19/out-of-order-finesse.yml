@@ -32,7 +32,7 @@ players:
       - type: x
       - type: x
       - type: x
-  - text: Cathy blind plays Red 1
+  - text: Cathy blind-plays red 1.
   - text:
   - text: Next turn
   - name: Alice

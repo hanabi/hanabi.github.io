@@ -3,7 +3,7 @@ id: how-to-join
 title: How to Join Games
 ---
 
-Once you have read the [beginner's guide](beginner.md), you can join a game with the *H-Group*.
+Once you have read the [beginner's guide](beginner), you can join a game with the *H-Group*.
 
 The group is comprised of around 100 people, some of whom play regularly, and some of whom play rarely, with a good mix of beginners, intermediate players, and experts. But not to worry - the intermediate and expert players are usually willing to do "beginner-level" games with all of the advanced stuff "turned off".
 
@@ -12,8 +12,6 @@ The *H-Group* plays games on the [Hanab Live](https://hanab.live) website and us
 <br />
 
 ### Preparation
-
-<!-- lint disable list-item-content-indent -->
 
 1. Create an account at [Hanab Live](https://hanab.live) and login.
 
@@ -46,17 +44,17 @@ The *H-Group* plays games on the [Hanab Live](https://hanab.live) website and us
     - Click on "Notifications" under "App Settings" in the left-hand menu.
     - Scroll down and turn off the toggle-sliders for "PTT Activate" and "PTT Deactivate".
 
-<!-- lint enable list-item-content-indent -->
-
 <br />
 
 ### Joining a Game
 
 The *H-Group* usually has games going every day. You can see if there are any H-Group members currently playing by looking at the Discord voice channels along the left side of the screen ("Hyphen-ated 1", "Hyphen-ated 2", "Teaching/Beginner Games", etc.).
 
-If there are people currently playing, then the typical thing to do is to join the voice channel with the others (by clicking on e.g. "Hyphen-ated 1"), wait for the current game to end, and then hop into the next game after that (depending on how many people stick around).
+If it's your first time and you don't know anybody else, you can ping the `@Trusted Teacher` role in Discord. While everyone will generally play with beginners, Trusted Teachers are people who have volunteered to go above and beyond in showing beginners the ropes.
 
-A few things to note regarding that:
+Otherwise, if there are people currently playing, then the typical thing to do is to join the voice channel with the others (by clicking on e.g. "Hyphen-ated 1"), wait for the current game to end, and then hop into the next game after that (depending on how many people stick around).
+
+Here are a few things to note about joining pick-up games:
 
 - In the *H-Group*, after every game we play, we do a post-game review so that we can find the best moves for every turn and have everyone learn from their mistakes. So before you can hop into the next game, you will have to wait for both the game to finish **and** the post-game review to finish. We try to keep the post-game reviews short, but if an interesting situation happens or a discussion gets heated, then it might take a while. ;)
 - If there are 6 or more players remaining after the post-game review is finished, then we usually split into two separate groups of 3.

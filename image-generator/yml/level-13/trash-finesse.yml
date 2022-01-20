@@ -11,9 +11,7 @@ players:
       - type: x
       - type: x
       - type: x
-      - type: x
   - cards:
-      - type: x
       - type: x
       - type: x
       - type: x
@@ -24,7 +22,6 @@ players:
       - type: x
       - type: x
       - type: x
-      - type: x
   - cards:
       - type: x
       - type: 1
@@ -32,14 +29,12 @@ players:
         middle_note: (B)
       - type: x
       - type: x
-      - type: x
-  - text: After Cathy blind plays red 1...
+  - text: After Cathy blind-plays red 1...
   - name: Donald
     cards:
       - type: x
       - type: 1
         below:
           text: trash
-      - type: x
       - type: x
       - type: x

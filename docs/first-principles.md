@@ -6,7 +6,7 @@ title: First Principles
 In general, we want all of our strategies to flow from some basic principles. That way, new players can just learn the first principles, and then use logic and reasoning to find out the resulting strategy that their teammate is intending. However, there are a few wrinkles with this:
 
 1. Some of our strategies are arbitrary and do not flow from the first principles. So take the phrase "First Principles" with a grain of salt.
-1. Since the principles are a little abstract, they are more useful as a reference than as an actual guide on how to play Hanabi with our group - this is what the [beginner's guide](beginner.md) is for.
+1. Since the principles are a little abstract, they are more useful as a reference than as an actual guide on how to play Hanabi with our group - this is what the [beginner's guide](beginner) is for.
 
 <br />
 
@@ -70,7 +70,7 @@ In general, we want all of our strategies to flow from some basic principles. Th
 
 - Normally, players try to make their clues as clear as possible and convey the exact identity of a card.
 - Rarely, players can use clues to trick other players into thinking that they have cards that they really don't.
-- If this untruth **resolves immediately** (e.g. the very next turn), it is called a *Fib*. For intermediate and advanced players, *Fibs* are legal and expected.
+- If this untruth **resolves immediately** (i.e. the very next turn), it is called a *Fib*. For intermediate and advanced players, *Fibs* are legal and expected.
 - If this untruth does **not resolve immediately**, it is called a *Lie*. *Lies* are illegal. Players should **never** assume that they are *Lied* to.
 
 <br />

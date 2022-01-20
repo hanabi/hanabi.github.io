@@ -9,7 +9,7 @@ import SelfishFocusInversion from '@site/image-generator/yml/extras/selfish-focu
 
 - Normally, if a color clue "fills in" a 5 (that was previously touched), and the clue touches no other cards in the hand, then it is obviously focused on the 5 - the 5 is playable right now.
 - However, as a special exception, if doing so makes *another* 5 in that player's hand known to be playable, then the clue is said to be focused on the other 5, making the original card clued **not** playable right now.
-- Since *Negative 5's Tempo Clues* only get one card played, they are also *Tempo Clue Chop Moves* like any other *Tempo Clue*.
+- Since *Negative 5's Tempo Clues* only get one card played, they are also *Tempo Clue Chop Moves* like most other *Tempo Clue*.
 
 <br />
 

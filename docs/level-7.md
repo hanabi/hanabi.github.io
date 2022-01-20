@@ -3,10 +3,6 @@ id: level-7
 title: Level 7 - End-Game
 ---
 
-- Level 7 strategies should only be learned if you have 100+ games of experience with the group.
-
-<br />
-
 ## Conventions
 
 <br />
@@ -20,6 +16,14 @@ title: Level 7 - End-Game
 - If pace is **less than the number of players / 2**, you should be very careful with discarding. It might still be the best thing to do, but if there are enough clues in the bank, it is usually better to *Burn* a clue (meaning to deliberately waste a clue).
 - If pace is 0, no more discards can happen in order to get the maximum score.
 - If pace is below 0, it is impossible to get the maximum score.
+
+<br />
+
+### No Chop Moves in the End-Game
+
+- In the *Early Game* and the *Mid-Game*, it is often useful to *Chop Move* a card for later. The strategic point of a *Chop Move* is that it saves a potentially important card for later on.
+- In the *End-Game*, it does not make any sense to save a card for later, because there is no "later" - the team has run out of time! For this reason, *Chop Moves* are "turned off" in the *End-Game*.
+- If a player gives a clue that looks like a *Chop Move* in the *End-Game*, then players should reinterpret it as the next-simplest possible interpretation. In practice, this usually means a *Stall Clue*.
 
 <br />
 
@@ -66,7 +70,7 @@ title: Level 7 - End-Game
 ### Team Distribution Principle
 
 - In general, it is better for useful cards to be distributed **evenly** throughout the team. This is especially important in 5-player games.
-- Thus, if one of your teammates has 3 out of 4 cards clued, it may be better for **them** to be the one giving the clues, and you to be the one discarding - even if their chop is known trash.
+- Thus, if one of your teammates has 3 out of 4 cards clued, it may be better for **them** to be the one giving the clues, and you to be the one discarding - even if their chop is known-trash.
 - There are multiple reasons for this. First, you don't want them to get a *Locked Hand*, which is generally bad. Second, if they continue to draw playable cards, the game may end before they get a chance to play them all.
 
 <br />
@@ -82,7 +86,7 @@ title: Level 7 - End-Game
 ### Burning (End-Game Stalling)
 
 - In the *End-Game*, often times there are still a lot of cards yet to be played. Thus, you need to be very careful when discarding, since by drawing a card you can make the game end before everyone has a chance to play all of the cards.
-- If there are enough of clues available, you can choose to stall, by giving a low-value clue (or even a completely useless clue). This is referred to as *Burning* a clue.
+- If there are enough clues available, you can choose to stall, by giving a low-value clue (or even a completely useless clue). This is referred to as *Burning* a clue.
 - The best way to give a useless clue is to re-clue cards which are already known to be playable.
 - Give a *Burn Clue* if:
   - There is a possibility that the game can be completed without anyone discarding from now on.

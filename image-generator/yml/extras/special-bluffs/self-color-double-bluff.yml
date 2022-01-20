@@ -29,5 +29,5 @@ players:
       - type: x
       - type: x
       - type: x
-  - text: Cathy blind plays Slot 1, since Bob has Red 5 on Slot 2
-  - text: Bob marks Slot 2 as Red 5
+  - text: Cathy blind-plays slot 1, since Bob has Red 5 on slot 2
+  - text: Bob marks slot 2 as Red 5

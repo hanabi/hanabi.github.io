@@ -1,0 +1,12 @@
+players:
+  - cards:
+      - type: b5
+        border: false
+      - type: y1
+        border: false
+      - type: y2
+        border: false
+      - type: y3
+        border: false
+      - type: g1
+        border: false

@@ -17,10 +17,6 @@ import CluingOnes1 from '@site/image-generator/yml/level-11/cluing-ones-1.yml';
 import CluingOnes2 from '@site/image-generator/yml/level-11/cluing-ones-2.yml';
 import CluingOnes3 from '@site/image-generator/yml/level-11/cluing-ones-3.yml';
 
-- Level 11 strategies should only be learned if you have 180+ games of experience with the group.
-
-<br />
-
 ## Conventions
 
 <br />
@@ -47,7 +43,7 @@ import CluingOnes3 from '@site/image-generator/yml/level-11/cluing-ones-3.yml';
 
 ### Duplication Responsibility
 
-- Usually, if a 2 needs to be saved, it is not the responsibility of a player with already-clued 2's in his hand, because they could potentially violate *Good Touch Principle* by cluing it. So, they should defer and let someone else on the team do it. (The same general concept also applies to cluing playable cards on chop, for example.)
+- Usually, if a 2 needs to be saved, it is not the responsibility of a player with already-clued 2's in their hand, because they could potentially violate *Good Touch Principle* by cluing it. So, they should defer and let someone else on the team do it. (The same general concept also applies to cluing playable cards on chop, for example.)
 - However, if all players have a clued 2 in their hand, then someone has to take a risk of violating *Good Touch Principle* in order to satisfy *Save Principle*. Who should do it?
 - In this situation, the player who has the least number of matching clued cards should take responsibility. If 2+ players are tied, then the player with the less specific type of clue on their card(s) should take responsibility.
 - If 2+ players have the exact same number of clued cards and type of clued cards, then either player should save the card.
@@ -243,12 +239,12 @@ import CluingOnes3 from '@site/image-generator/yml/level-11/cluing-ones-3.yml';
 
 #### Example 3
 
-- As explained in the [beginner's guide](beginner.md#other-general-strategy), it is almost always better to give a *Play Clue* instead of a *Save Clue* if a player has a playable card in their hand.
+- As explained in the [beginner's guide](beginner/other-general-strategy.md), it is almost always better to give a *Play Clue* instead of a *Save Clue* if a player has a playable card in their hand.
 - However, building on the theme of having teammates "build" on your clues, sometimes it is better to give a *Save Clue* first and then a *Play Clue* later.
 - For example, in a 3-player game:
   - It is the first turn and nothing is played on the stacks.
   - Cathy's hand is as follows, from newest to oldest: `blue 4, blue 4, red 3, red 1, blue 5`
-  - Alice would like to get the red 1 played. (No-one else has a red 1 in their hand.) Alice also knows that the team needs to eventually save the red 5.
+  - Alice would like to get the red 1 played. (No-one else has a red 1 in their hand.) Alice also knows that the team needs to eventually save the blue 5.
   - If Alice clues number 1 first to get the red 1, then the team will need to give a *5 Save* to save the blue 5, resulting in an efficiency of 2-for-2.
   - Instead, Alice clues number 5 as a *5 Save*, which allows Bob to follow up with a red *Chop-Focus Play Clue*. This touches the red 3 as a 2-for-1, allowing for an overall efficiency of a 3-for-2.
 

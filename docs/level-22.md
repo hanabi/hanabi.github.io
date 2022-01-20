@@ -8,10 +8,6 @@ import BlazeDiscard from '@site/image-generator/yml/level-22/blaze-discard.yml';
 import BlazeDiscard2 from '@site/image-generator/yml/level-22/blaze-discard-2.yml';
 import HesitationBlindPlay from '@site/image-generator/yml/level-22/hesitation-blind-play.yml';
 
-- Level 22 strategies should only be learned if you have 400+ games of experience with the group.
-
-<br />
-
 ## Conventions
 
 <br />
@@ -37,14 +33,14 @@ import HesitationBlindPlay from '@site/image-generator/yml/level-22/hesitation-b
   - If Bob sees that he would have to **blind-play one card** or **blind-play two cards** to fulfill a *Finesse*, then he should assume that it is a *Finesse*.
   - If Bob sees that he would have to **blind-play three cards** in their hand to fulfill the *Finesse*, then a *Finesse* is unlikely.
   - The third interpretation is that it is a *4 Double Bluff*.
-  - If Bob sees that Cathy does not have a playable card (or a *one-away-from-playable* card) on her *Finesse Position*, then a *4 Double Bluff* is impossible.
-  - The fourth interpretation is a *4 Charm*; Bob should play his *Fourth Finesse Position*.
+  - If Bob sees that Cathy does not have a playable card on her *Finesse Position*, then a *4 Double Bluff* is impossible (or very unlikely).
+  - The fourth interpretation is that it is a *4 Charm*, meaning that Bob should blind-play his *Fourth Finesse Position*.
 - For example, in a 4-player game:
   - It is the first turn and nothing is played on the stacks.
   - Alice clues number 4 clue to Cathy, touching a red 4 on slot 1 as a *Play Clue*.
   - Bob knows that normally, this would be a *Finesse* on the red 4, meaning that he should blind-play a red 1, a red 2, and a red 3. (Bob does not see any red cards in anyone else's hands.)
   - Since the *Finesse* requires three blind-plays, it is unlikely, and Bob knows he is supposed to revert to a different interpretation.
-  - Bob sees that Cathy does not have a playable card (or a *one-away-from-playable* card) on her *Finesse Position*, so a *4 Double Bluff* is impossible.
+  - Bob sees that Cathy has a trash card on her *Finesse Position*, so a *4 Double Bluff* is impossible.
   - Thus, Bob knows that this must be a *4 Charm*. He blind-plays his *Fourth Finesse Position*. It is a blue 1 and it successfully plays.
 
 <FourCharm />
@@ -57,7 +53,7 @@ import HesitationBlindPlay from '@site/image-generator/yml/level-22/hesitation-b
 
 ### The Blaze Discard
 
-- Normally, if a player performs a *Gentleman's Discard* and the other card is **not** on *Finesse Position*, it could one of two things:
+- Normally, if a player performs a *Gentleman's Discard* and the other card is **not** on *Finesse Position*, it could be one of two things:
   1. If the card on *Finesse Position* is itself playable right now, then it would be a *Layered Gentleman's Discard*.
   1. If the card on *Finesse Position* is not playable right now, then it is an emergency situation.
 - Alternatively, if a player performs a *Baton Discard* and the other card is **not** on *Finesse Position*, then it is an emergency situation.
@@ -87,23 +83,10 @@ import HesitationBlindPlay from '@site/image-generator/yml/level-22/hesitation-b
   - Alice discards a red 3 as a *Blaze Discard*.
   - Bob sees that Cathy has the other copy of the red 3. However, it is on slot 2 instead of on slot 1. (Cathy's hand is completely unclued.) Thus, Bob has to communicate to Cathy that it is actually on her *Second Finesse Position*.
   - Bob has a clued 5 on his slot 1. Thus, Bob's *Finesse Position* is on slot 2 and his *Second Finesse Position* is on slot 3.
-  - Bob blind-plays his *Second Finesse Position* (slot 3). It is a blue 1 and it successfully plays.
+  - Bob blind-plays his *Second Finesse Position* (slot 3). It is a blue 2 and it successfully plays.
   - Cathy knows that because Bob blind-played his slot 3, the red 3 must be on her slot 2.
 
 <BlazeDiscard2 />
-
-<br />
-
-### Finesses with a Lie Component
-
-- *Lie Principle* states all that *Fibs* must resolve immediately. An untruth that does not resolve immediately is a *Lie*.
-- Normally, *Lies* are expressly illegal. However, some players will occasionally break the rules for the purposes of getting a *Finesse*. We call such moves *Finesses with a Lie Component*.
-- Typically, when players *Lie* out of *Bluff Seat*, the game quickly falls apart; subsequent clues will have different meanings to different players and everyone will become "desynchronized". This typically leads to a loss.
-- With that said, it is sometimes possible to construct **safe** lines that contain a *Lie Component*. There is usually deep levels of nuance involved in these lines, so this kind of thing is only recommended for advanced and expert players.
-- The previously mentioned *Out-of-Order Finesse* is a specific example of a *Finesse* with a *Lie Component*. One key attribute of the *Out-of-Order Finesse* is that the player who receives the *Fix Clue* knows that **all** of the related cards are playable, or it would not have been worth the risk (and the confusion) to perform a line with a *Lie Component* in the first place.
-- This concept can be generalized to all *Finesses* that have a *Lie Component*. After a player receives a *Fix Clue* in such a situation, they should assume that the *Finesse* is "still on". So, depending on the situation, they should either know that the initial card that was clued is playable (like in an *Out-of-Order Finesse*) or continue to blind-play cards to fulfill the initial *Finesse* (if the card clued with a *Fix Clue* seems to be unrelated).
-- Note that since we want to minimize *Lying* as much as possible, *Finesses with a Lie Component* have the **lowest possible precedence**. For example, this means that you can give a *Delayed Play Clue* to a player who is still blind-playing cards without it looking like a *Fix Clue*.
-- Importantly, *Finesses* with a *Lie Component* are **only** allowed if there is not an alternative line that would "get" the same number of cards without any lies. Thus, if you are looking to do a *Finesse* with a *Lie Component*, make sure you carefully consider the efficiency of all of the possible alternatives.
 
 <br />
 
@@ -129,6 +112,7 @@ import HesitationBlindPlay from '@site/image-generator/yml/level-22/hesitation-b
 <HesitationBlindPlay />
 
 - *Hesitation Blind-Plays* are **not always safe** to do:
+  - If a player is *Self-Finessed* and hesitates, you cannot act on the hesitation because a playable card on your *Finesse Position* will not necessarily match the clued card.
   - If a player could be hesitating for a clued card in your hand **or** your *Finesse Position* card, then you cannot act on the hesitation. (If you guess wrong, you could misplay a critical card.)
   - If a player could be hesitating for a card that is identical to the card that was clued, then you cannot act on the hesitation. (If you blind-play the same copy of the card, then they will go on to misplay the clued card.)
   - If blind-playing a particular card would cause the original clue to look like a *Double Finesse* with a "self" component, then you cannot act on the hesitation. (For example, if a number 4 clue causes a *Hesitation Blind-Play* of a red 2, the clue receiver would go on to misplay their *Finesse Position* card as the red 3.)

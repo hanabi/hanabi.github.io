@@ -1,0 +1,38 @@
+---
+id: other-general-strategy-question-5
+title: Other General Strategy (Question 5)
+---
+
+import BeginnersGuideProgress from '@site/src/beginnersGuide.js';
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import OtherGeneralStrategyQuestion5 from '@site/image-generator/yml/beginner/other-general-strategy-question-5.yml';
+
+<BeginnersGuideProgress id="other-general-strategy-question-4" />
+
+<!-- lint disable no-undefined-references -->
+
+<Tabs
+  defaultValue="question"
+  values={[
+    {label: 'Question', value: 'question'},
+    {label: 'Solution', value: 'solution'},
+  ]}>
+<TabItem value="question">
+
+- Enumerate all of the legal clues that Alice can give.
+- Of these possibilities, what clue should Alice give?
+
+</TabItem>
+<TabItem value="solution">
+
+- Alice can clue green to Bob as a *Play Clue* on the green 3.
+  - This would "get" one card.
+- Alice can clue number 3 to Bob as a *Play Clue* on the green 3.
+  - This would "get" two cards. (Bob would play the green 3 and hold on to the yellow 3 for later.)
+- Alice knows that normally, color clues are preferred to number clues. But that's only when the color clue and the number clue are more or less "the same". Here, it is much better to get two cards than to get one card, so Alice should clue number 3.
+
+</TabItem>
+</Tabs>
+
+<OtherGeneralStrategyQuestion5 />

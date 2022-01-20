@@ -4,14 +4,7 @@ title: Special Finesses
 ---
 
 import AmbiguousFinessePassBack from '@site/image-generator/yml/extras/special-finesses/ambiguous-finesse-pass-back.yml';
-import BadTouchLayeredFinesse from '@site/image-generator/yml/extras/special-finesses/bad-touch-layered-finesse.yml';
-import BadTouchFinesseForOne from '@site/image-generator/yml/extras/special-finesses/bad-touch-finesse-for-one.yml';
-import BadTouchFinesseForOne2 from '@site/image-generator/yml/extras/special-finesses/bad-touch-finesse-for-one-2.yml';
-import BadTouchFinesseForTwo from '@site/image-generator/yml/extras/special-finesses/bad-touch-finesse-for-two.yml';
-import BadTouchBluff from '@site/image-generator/yml/extras/special-finesses/bad-touch-bluff.yml';
-import BadTouchDoubleFinesse from '@site/image-generator/yml/extras/special-finesses/bad-touch-double-finesse.yml';
-import BadTouchLayeredFinesseDupes from '@site/image-generator/yml/extras/special-finesses/bad-touch-layered-finesse-dupes.yml';
-import BadTouchTripleFinesse from '@site/image-generator/yml/extras/special-finesses/bad-touch-triple-finesse.yml';
+import BluffDupeLayeredFinesse from '@site/image-generator/yml/extras/special-finesses/bluff-dupe-layered-finesse.yml';
 import CertainFinesseException from '@site/image-generator/yml/extras/special-finesses/certain-finesse-exception.yml';
 import PropheticFinesse from '@site/image-generator/yml/extras/special-finesses/prophetic-finesse.yml';
 import PropheticFinesse2 from '@site/image-generator/yml/extras/special-finesses/prophetic-finesse-2.yml';
@@ -46,7 +39,7 @@ import TrashPushInvertedFinesse from '@site/image-generator/yml/extras/special-f
 
 <br />
 
-### The Bad Touch Layered Finesse that Causes a Blind-Play of a Known Dupe (Dupe Bluffs / Bluff Dupes)
+### The Bluff that Causes a Blind-Play of a Known Dupe (Dupe Bluffs / Bluff Dupes)
 
 - If a player performs a *Bluff* that causes a blind-play of a globally-known duplicated card, that is quite strange. Doing this is not very good, as it violates *Good Touch Principle* and does not accomplish very much in general.
 - Players agree that this is not a *Bluff* at all, but instead a *Layered Finesse*. The player who blind-played the card should continue to blind-play cards until they find the promised card.
@@ -60,7 +53,7 @@ import TrashPushInvertedFinesse from '@site/image-generator/yml/extras/special-f
   - Alice discards her known red 3 (since it is already played and is now trash).
   - Bob knows that *Bluffs* that duplicate a card like this are supposed to be treated as *Layered Finesses*. Bob blind-plays his *Second Finesse Position* as blue 3 and it successfully plays.
 
-<BadTouchLayeredFinesse />
+<BluffDupeLayeredFinesse />
 
 ### Potential Priority Duplication & The Certain Priority Finesse (or Priority Certain Finesse)
 
@@ -68,112 +61,6 @@ import TrashPushInvertedFinesse from '@site/image-generator/yml/extras/special-f
 - One exception to this rule is the *Certain Finesse*. When a player perform a *Certain Finesse*, it calls for a *Certain Discard*. However, when a player uses *Priority* to promise a card that could potentially be in their own hand, this should **not** induce a *Certain Discard*. The other players in this situation should just ignore the *Priority* and instead discard their chop card. (Doing it this way is much safer because it allow potential *Layered Finesses* as well as some slack for mistakes.)
 
 <br />
-
-### The Bad Touch Finesse (for 1's)
-
-- In the *Trash Finesse* / *Trash Bluff*, it is possible to clue number 1 to a player in order to get someone to blind-play a card. After the blind-play, it is understood that all of the 1's are trash.
-- However, what if this is done on the first turn of the game, touching two 1's? If nothing is played on the stacks, then the 1 of every single suit is needed. In this situation, both of the 1's that are clued cannot be trash.
-- In this situation, the 1's clue only communicates that *Good Touch Principle* was violated and that both of the 1's are the same suit.
-- For example, in a 3-player game:
-  - It is the first turn and nothing is played on the stacks.
-  - Cathy's hand is as follows, from newest to oldest: `green 4, red 1, red 1, red 5, green 5`
-  - Alice clues number 1 to Cathy, touching the two red 1's.
-  - Bob sees that instead of violating *Good Touch Principle*, Alice could have instead simply performed a *5 Save* to Cathy.
-  - Bob knows that since we are not normally supposed to violate *Good Touch Principle*, Alice must be trying to communicate something extra. Therefore, this must be a *Bad Touch Finesse*. Bob blind-plays his *Finesse Position* card. It is a blue 1 and it successfully plays.
-  - Cathy knows that since this is the first turn of the game, both of her 1's cannot be trash. Similar to a *Stale 1's Clue*, Cathy skips over the older 1 and plays the newest 1. (She would normally play her 1's from right-to-left.) Cathy will then discard the other one later.
-
-<BadTouchFinesseForOne />
-
-- If a *Bad Touch Finesse* is performed on three or more 1s, it only promises that the oldest one is trash / duplicated.
-- For example, in a 3-player game:
-  - It is the first turn and nothing is played on the stacks.
-  - Cathy's hand is as follows, from newest to oldest: `green 1, red 1, red 1, red 5, green 5`
-  - Alice clues number 1 to Cathy, touching slot 1, slot 2, and slot 3.
-  - Bob sees that instead of violating *Good Touch Principle*, Alice could have instead simply performed a *5 Save* to Cathy.
-  - Bob knows that since we are not normally supposed to violate *Good Touch Principle*, Alice must be trying to communicate something extra. Therefore, this must be a *Bad Touch Finesse*. Bob blind-plays his *Finesse Position* card. It is a blue 1 and it successfully plays.
-  - Cathy knows that since this is the first turn of the game, all of her 1's cannot be trash. Similar to a *Stale 1's Clue*, Cathy skips over the oldest 1 (on slot 3) and plays the middle 1 (on slot 2). (She would normally play her 1's from right-to-left.) On Cathy's next turn, she will play the left-most 1. On Cathy's next turn after that, she will discard the right-most 1 (the one that she originally skipped over).
-
-<BadTouchFinesseForOne2 />
-
-### The Bad Touch Finesse (for 2's)
-
-- Normally, if number 2 is clued to a chop card, it is considered to be a *Save Clue* (as the *2 Save* convention).
-- However, it is possible for players to transform this *Save Clue* interpretation into a *Play Clue* interpretation if they violate *Good Touch Principle* and intentionally duplicate another 2.
-- In this situation, the player who received the clue will know that the chop card connects.
-  - If two 2's were clued, then the other 2 is obviously the exact same copy as the chop 2. In this situation, the left-most card can be played and the other card discarded as known trash.
-  - If three or more 2's were clued, then any of the other cards could be the duplicated 2. In this situation, the chop card should be discarded and then *Elimination Notes* for that card written on the other 2's.
-- For example, in a 3-player game:
-  - It is the first turn of the game and nothing is played on the stacks.
-  - Alice clues number 2 to Cathy, touching a red 2 on slot 3 and a red 2 on slot 5 (her chop).
-  - Bob knows that normally, this would be a *2 Save* on the red 2. However, Alice is violating *Good Touch Principle*, so she must be trying to communicate something extra.
-  - Bob blind-plays his *Finesse Position* card and it is red 1.
-  - Cathy knows that since a clue that looks like a *2 Save* got Bob to blind-play something, then both of the 2's must be red 2. Cathy plays the 2 on slot 3 and plans to discard the 2 on slot 5 on her next turn.
-
-<BadTouchFinesseForTwo />
-
-- The *Bad Touch Finesse* is contextual and does not always apply:
-  - If the clue giver was an *Occupied*, then it is an *Occupied Play Clue* and the other 2's are not necessarily duplicated.
-  - If the clue giver gave a *2 Save* early and had other *Play Clues* to give instead, the clue could be so bad that it would trigger a *Finesse* and the other 2's are not necessarily duplicated.
-
-<br />
-
-### The Bad Touch Bluff (for 2's)
-
-- In the same way as the *Bad Touch Finesse*, it is also possible to *Bad Touch Bluff* in order to get unrelated cards played from *Finesse Position*.
-- For example, in a 3-player game:
-  - Blue 2 and green 2 are played on the stacks.
-  - Alice clues number 2 to Cathy, touching a red 2 on slot 3 and a red 2 on slot 5 (her chop).
-  - Bob knows that normally, this would be a *2 Save* on the red 2. However, Alice is violating *Good Touch Principle*, so she must be trying to communicate something extra. Therefore, this must be a *Bad Touch Finesse*.
-  - Bob blind-plays his *Finesse Position* card, trying to play the red 1. Instead, it is blue 3 and it successfully plays.
-  - Cathy knows that since a clue that looked like a *2 Save* got Bob to blind-play something, then a duplication occurred and both of the 2's must be the same. Cathy discards the chop card and saves the other one for later.
-
-<BadTouchBluff />
-
-### The Bad Touch Double Finesse (for 3's)
-
-- Normally, a *3 Bluff* takes priority over a *Double Finesse*. For example, someone clues a red 3 using a number 3 clue, and then the next player blind-plays a red 1, no-one on the team is promised to have a red 2.
-- However, if **both copies** of red 3 were clued with the number 3 clue, that would violate *Good Touch Principle* (and be considered a *Bad Touch*). If someone is violating *Good Touch Principle*, they must have a very good reason.
-- Thus, in this situation, the clue must be a *Double Finesse* instead of a *3 Bluff*, so the next player should go on to blind-play the red 2.
-- After that, the player who received the clue can safely discard the focused 3.
-- For example, in a 4-player game:
-  - It is the first turn and nothing is played on the stacks.
-  - Alice clues number 3 to Donald, touching two red 3's.
-  - Bob blind-plays his *Finesse Position* and it is a red 1.
-  - Cathy knows that normally, this would be a *3 Bluff*. However, since the red 3's are duplicated, this must be a *Bad Touch Double Finesse*, so Cathy blind-plays her *Finesse Position* and it is the red 2.
-  - From Donald's perspective, after Bob blind-played the red 1, he figured Alice was performing a *3 Bluff*.
-  - However, after Cathy blind-played the red 2, he knows that it could not be a *3 Bluff*, because then Cathy would not have blind-played anything.
-  - Instead, Donald knows that he must hold both copies of red 3. Donald plays the non-focused red 3. The next time that Donald discards, he will discard the known trash red 3.
-
-<BadTouchDoubleFinesse />
-
-### The Bad Touch Layered Finesse That Dupes a Clued Card (Illegal)
-
-- First, see the section on the *[Bad Touch Double Finesse (for 3's)](special-finesses.md#the-bad-touch-double-finesse-for-3s)*.
-- Similar to a *Bad Touch Double Finesse (for 3's)*, it is also possible to try a *Bad Touch Layered Finesse* on the next player.
-- For example, in a 3-player game:
-  - No cards are played on the stacks.
-  - Alice clues both copies of red 3 in Cathy's hand.
-  - Bob blind-plays a blue 1.
-  - Bob knows that if only one red 3 was touched, this would just be a normal *3 Bluff*. However, since there was a *Bad Touch*, he knows that he must continue to blind-play cards until he finds the red 1 and the red 2.
-
-<BadTouchLayeredFinesseDupes />
-
-- *Bad Touch Layered Finesses* are **explicitly illegal** because they violate *Lie Principle* - Bob cannot demonstrate that it is a *Bad Touch* until after Cathy has already taken a turn.
-
-<br />
-
-### The Bad Touch Triple Finesse (for 4's)
-
-- In the same way that it is possible to perform a *Bad Touch Double Finesse* to "get around" a *3 Bluff* interpretation, it is also possible to perform a *Bad Touch Triple Finesse* to "get around" a *4 Double Bluff* interpretation.
-- For example, in a 5-player game:
-  - It is the first turn of the game and nothing is played on the stacks.
-  - Alice clues number 4 to Emily, touching two red 4's.
-  - Bob blind-plays red 1.
-  - Cathy blind-plays red 2.
-  - Donald knows that normally, this would be a *4 Double Bluff* and that no-one should play any more cards. However, since the red 4 was duplicated, this must be a *Bad Touch Triple Finesse*, so Cathy blind-plays her *Finesse Position* and it is the red 3.
-  - Emily knows that this cannot be a *4 Double Bluff*, or else Donald would not have blind-played anything. Thus, this must be a *Bad Touch Triple Finesse*, so Emily plays her left-most red 4. The next time that Emily discards, she will discard the known trash red 4.
-
-<BadTouchTripleFinesse />
 
 ### The Certain Finesse Clandestine Exception
 
@@ -226,7 +113,7 @@ import TrashPushInvertedFinesse from '@site/image-generator/yml/extras/special-f
   - Just like in the previous example, Bob sees that this is a *Prophetic Finesse* (because Cathy has a blue 1 on her *Finesse Position*). Bob blind-plays his *Finesse Position*. It is a green 1 and it successfully plays.
   - Cathy sees that from Donald's perspective:
     - It will not look like a *Trash Finesse*, because no 1's were played at the time of the clue.
-    - It will not look like a *Bad Touch Finesse (for 1's)*, since only a single 1 was clued.
+    - It will not look like a *Unknown Dupe Discharge*, since only a single 1 was clued.
   - Therefore, as soon Bob blind-plays, both Cathy and Donald can understand that it is a *Prophetic Finesse*.
   - Just like in the previous example, Cathy blind-plays the blue 1, and Donald marks his 1 as trash and *Chop Moves* his slot 4 card.
 
@@ -358,7 +245,7 @@ import TrashPushInvertedFinesse from '@site/image-generator/yml/extras/special-f
 - On the final round of the game, it is possible to give a *Play Clue* to a player that would be useless - they will not get a chance to play the card before the game ends.
 - If a player does this anyway, then it must be communicating something extra. In this situation, it is to be interpreted as a *Finesse* instead of a *Play Clue* for the purposes of better satisfying *Team Distribution Principle*.
 - Examples:
-  - [Game #16887, turn 29](https://hanab.live/replay/16887/29) if Instantiation clues 5 on the red 5
+  - [Game #16887, turn 29](https://hanab.live/replay/16887#29) if Instantiation clues 5 on the red 5
 
 <br />
 
@@ -381,6 +268,19 @@ import TrashPushInvertedFinesse from '@site/image-generator/yml/extras/special-f
 <InvertedPriorityFinesse />
 
 - Note that *Inverted Priority Finesse* **will only work if the players are in a certain order**. Otherwise, the player holding the declined priority card can *Play Clue* the other card, which would destroy the information channel. This means that in most of cases, players should just go with the safer and less complicated option - the normal *Priority Finesse*.
+
+<br />
+
+### Finesses with a Lie Component
+
+- *Lie Principle* states all that *Fibs* must resolve immediately. An untruth that does not resolve immediately is a *Lie*.
+- Normally, *Lies* are expressly illegal. However, some players will occasionally break the rules for the purposes of getting a *Finesse*. We call such moves *Finesses with a Lie Component*.
+- Typically, when players *Lie* out of *Bluff Seat*, the game quickly falls apart; subsequent clues will have different meanings to different players and everyone will become "desynchronized". This typically leads to a loss.
+- With that said, it is sometimes possible to construct **safe** lines that contain a *Lie Component*. There is usually deep levels of nuance involved in these lines, so this kind of thing is only recommended for advanced and expert players.
+- The previously mentioned *Out-of-Order Finesse* is a specific example of a *Finesse* with a *Lie Component*. One key attribute of the *Out-of-Order Finesse* is that the player who receives the *Fix Clue* knows that **all** of the related cards are playable, or it would not have been worth the risk (and the confusion) to perform a line with a *Lie Component* in the first place.
+- This concept can be generalized to all *Finesses* that have a *Lie Component*. After a player receives a *Fix Clue* in such a situation, they should assume that the *Finesse* is "still on". So, depending on the situation, they should either know that the initial card that was clued is playable (like in an *Out-of-Order Finesse*) or continue to blind-play cards to fulfill the initial *Finesse* (if the card clued with a *Fix Clue* seems to be unrelated).
+- Note that since we want to minimize *Lying* as much as possible, *Finesses with a Lie Component* have the **lowest possible precedence**. For example, this means that you can give a *Delayed Play Clue* to a player who is still blind-playing cards without it looking like a *Fix Clue*.
+- Importantly, *Finesses* with a *Lie Component* are **only** allowed if there is not an alternative line that would "get" the same number of cards without any lies. Thus, if you are looking to do a *Finesse* with a *Lie Component*, make sure you carefully consider the efficiency of all of the possible alternatives.
 
 <br />
 
@@ -436,7 +336,7 @@ import TrashPushInvertedFinesse from '@site/image-generator/yml/extras/special-f
 
 ### The Unnecessary Forced Reverse Trash Finesse (A Gentleman's Discard That Looks Like an Unnecessary Reverse Trash Finesse)
 
-- First, see the section on *[Unnecessary Moves with Known Trash](../level-23.md#unnecessary-moves-with-known-trash----ignition)*, which defines what a *Unnecessary Trash Finesse* is. Basically, if a *Trash Finesse* is unnecessary, then it also causes a *Chop Move*.
+- First, see the section on *[Unnecessary Moves with Known-Trash](../level-23.md#unnecessary-moves-with-known-trash----ignition)*, which defines what a *Unnecessary Trash Finesse* is. Basically, if a *Trash Finesse* is unnecessary, then it also causes a *Chop Move*.
 - This convention also applies to *Reverse Trash Finesses*. If they are unnecessary, then it causes a *Chop Move* in the same way.
 - If a line is chosen that forces a *Gentleman's Discard* to occur (because they have to entertain the possibility of a *Reverse Trash Finesse*), and the blind-playing card could have been clued in some other easier way, then it **still** *Chop Moves* in exactly the same way that an *Unnecessary Reverse Trash Finesse* would.
 - For example, in a 3-player game:
@@ -457,7 +357,7 @@ import TrashPushInvertedFinesse from '@site/image-generator/yml/extras/special-f
 
 ### The Trash Push Inverted Finesse
 
-- First, see the section on *[Unnecessary Moves with Known Trash](../level-23.md#unnecessary-moves-with-known-trash----ignition)*, which defines what a *Unnecessary Trash Push* is. Basically, if a *Trash Push* is unnecessary, then it also causes an extra blind-play.
+- First, see the section on *[Unnecessary Moves with Known-Trash](../level-23.md#unnecessary-moves-with-known-trash----ignition)*, which defines what a *Unnecessary Trash Push* is. Basically, if a *Trash Push* is unnecessary, then it also causes an extra blind-play.
 - Normally, the *Unnecessary Trash Push* calls for the very next player to blind-play an unrelated card, similar to a *Bluff*.
 - However, if the very next player can see that it could be a *Finesse* through the *Trash Pushed* card, then they should prefer that interpretation. This is similar to how Bob should always prefer a *Finesse* interpretation over a *Bluff* interpretation.
 - For example, in a 4-player game:

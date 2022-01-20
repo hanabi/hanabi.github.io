@@ -19,7 +19,7 @@ players:
       - type: x
       - type: x
       - type: x
-  - text: Bob blind plays slot 4
+  - text: Bob blind-plays slot 4
   - text:
   - name: Cathy
     cards:

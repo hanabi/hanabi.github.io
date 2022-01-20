@@ -14,7 +14,7 @@ Our group started playing Hanabi like all other groups - with no conventions wha
 
 Lots of people who play Hanabi are also general board game enthusiasts, enjoying a wide variety of board games (like *[Codenames](https://boardgamegeek.com/boardgame/178900/codenames)* and *[Food Chain Magnate](https://boardgamegeek.com/boardgame/175914/food-chain-magnate)*) and card games (like *[Dominion](https://boardgamegeek.com/boardgame/36218/dominion)*). So it is common for groups to play Hanabi for a month or so - getting comfortable with the game, developing some conventions, getting pretty good at the game, and then moving on to new challenges. But in our group, we loved Hanabi, and we just kept playing it. Not every day, and not always with the exact same players, but certainly a few games a week at minimum.
 
-As the months went by, we played more and more games. Sometimes, we would stumble upon a unique situation that was difficult to solve with just the "vanilla" set of base conventions. This led to the creation of a new convention - some new kind of *Chop Move*, or some new kind of *Finesse*. And since it was only a couple moves added or changed every month or so, it was relatively easy for everyone to keep up. Even if you didn't play regularly, you could read the #announcements channel in [our Discord server](https://discord.gg/FADvkJp) and quickly get up-to-date on the latest changes over the last month or two. And brand new players could get up-to-speed relatively quickly.
+As the months went by, we played more and more games. Sometimes, we would stumble upon a unique situation that was difficult to solve with just the "vanilla" set of base conventions. This led to the creation of a new convention - some new kind of *Chop Move*, or some new kind of *Finesse*. And since it was only a couple moves added or changed every month or so, it was relatively easy for everyone to keep up. Even if you didn't play regularly, you could read the #announcements channel in [our Discord server](https://discord.gg/FADvkJp) and quickly get up-to-date on the latest changes over the last month or two. And new players could get up-to-speed relatively quickly.
 
 But as the years went by, you can imagine what happened. The process of adding a new move here and there over the course of 3 years can result in *a lot* of moves. The punchline of this story is that our huge convention list is not an artificial list of things invented all at once. Rather, it is a list of things that naturally flowed from playing 5000+ games of Hanabi in a process of slow iteration, week by week, month by month.
 
@@ -46,7 +46,7 @@ Yet other things in the reference document only apply to specific variants. Ther
 
 From time to time, we "pare down" the convention-framework to try and reduce to total amount (and complexity) of the conventions. We never want to get to a point where it becomes too complicated to learn the framework from scratch.
 
-But we also want to keep the expert players from getting bored. As a group, we want to continue to innovate and refine our convention-framework to be the best it can be, and sometimes that can mean changing some existing convention or adding a brand-new move.
+But we also want to keep the expert players from getting bored. As a group, we want to continue to innovate and refine our convention-framework to be the best it can be, and sometimes that can mean changing some existing convention or adding a new move.
 
 #### 4) We want to have high-level and fulfilling games
 

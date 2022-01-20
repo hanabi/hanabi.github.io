@@ -1,6 +1,5 @@
 ### TODO
 
-- specifying a card as `3r` should throw an error (suit must always come first)
 - level 5
   - The Stacked Finesse
   - The Ambiguous Finesse
@@ -19,18 +18,31 @@
   - The Locked Hand Save (LHS)
   - The Anxiety Play (Forcing a Locked Player to Play)
   - The 8 Clue Save (8CS)
-- level 9
 - level 10
-- level 11
-- level 12
+  - Guide Principle
 - level 13
+  - todo
 - level 14
+  - todo
 - level 15
+  - todo
 - level 16
+  - todo
 - level 17
+  - todo
 - level 18
+  - todo
 - level 19
+  - todo
 - level 20
+  - The Trash Double Ignition
+  - The Replay Double Ignition
+  - The Poke Double Ignition
+  - The Chop Move Ignition
+  - Interaction with 5 Rank Clues
 - level 21
+  - todo
 - level 22
+  - todo
 - level 23
+  - ?

@@ -22,7 +22,8 @@ These conventions apply to any variant with a muddy rainbow suit or a cocoa rain
 
 - Since muddy rainbow 2 cannot be *2 Saved* and muddy rainbow 5 cannot be *5 Saved*, there needs to be a separate way to save these cards.
 - Any red color clue (the left-most color) to a chop card is treated as a potential *Muddy Rainbow Save* on a muddy rainbow 2 or a muddy rainbow 5.
-- Similar to brown, *Loaded Play Clues* always apply to *Muddy Rainbow Saves*, even in the *Early Game*.
+- Similar to brown saves, the *Always Loaded Principle* applies to muddy rainbow saves.
+- In the special case of a variant where a one-of-each color is available, then the above convention does not apply and the one-of-each color should be used instead of red.
 
 ### Mud Clues
 
@@ -60,7 +61,7 @@ These conventions apply to any variant with a muddy rainbow suit or a cocoa rain
 
 - Any clue that looks like one of the following is instead considered to be a *Muddy Positional Clue* (that promises the slot number of the muddy rainbow card to play):
   - *Double Play Ejection* (re-cluing a playable card)
-  - *Known Trash Ejection* (re-cluing a known trash card)
-  - *Trash Pushes* (cluing a known trash card on chop for the first time)
+  - *Known-Trash Ejection* (re-cluing a known-trash card)
+  - *Trash Pushes* (cluing a known-trash card on chop for the first time)
   - a rank clue that has no conventional interpretation
 - Note that *Trash Chop Moves* are still "turned on".
