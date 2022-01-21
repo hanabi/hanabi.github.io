@@ -115,13 +115,6 @@ import LoadedException2 from '@site/image-generator/yml/extras/variant-specific/
 
 <br />
 
-### Precedence of Variant-Specific Conventions
-
-- We have many variant-specific strategies and conventions. Sometimes, it can be confusing as to how they interact with "normal" conventions (e.g. non-variant-specific conventions).
-- In general, non-variant-specific conventions take precedence over variant-specific conventions, unless explicitly mentioned otherwise.
-
-<br />
-
 ### 2-Player
 
 - In the *Hyphenated Group*, we generally only play games with 3 to 5 players. If you are interested in playing 2-player games, then see the [2-player page](https://github.com/hanabi/hanabi.github.io/blob/main/misc/2-player.md).
