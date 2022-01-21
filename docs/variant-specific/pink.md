@@ -368,15 +368,6 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 - In this situation, after blind-playing the *Trash Pushed* card, the player should first discard the card that initiated the *Trash Push* (the oldest card) and then hold on to the other touched cards.
   - In this situation, *Good Touch Principle* applies to the other touched cards. The other members of the team must give a *Fix Clue* to those cards if they are also trash.
 
-### Pink Precedence
-
-- Normally, non-variant-specific conventions always take precedence over variant-specific conventions.
-- As an exception, the *Bubblegum Bluff* and the *Taffy Bluff* conventions usually take precedence over their non-variant-specific alternatives. Specifically:
-  - The *Bubblegum* and *Taffy* conventions take precedence over *Rank Choice Ejection (with 2)*.
-  - The *Bubblegum* and *Taffy* conventions take precedence over *Unknown Trash Discharge*.
-  - The *Bubblegum Bluff* and *Taffy Bluff* holds equal precedence to *4 Charm*; the clued player must therefore write identity notes for either option.
-  - A true *Bubblegum Finesse* takes precedence over *4 Charm*. (This is because, unlike in the *Bluff* scenarios, the pink blind-play "connects" to the rank clue).
-
 ### Pink Promise with a 5 Stall
 
 - When a player performs a *5 Stall*, it is clearly a type of *Save Clue*. But if two or more 5's are touched as part of the clue, the focus of the clue is unclear.
