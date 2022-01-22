@@ -8,15 +8,24 @@ import DoubleBluffThreeAway from '@site/image-generator/yml/level-14/double-bluf
 import DoubleBluff from '@site/image-generator/yml/level-14/double-bluff.yml';
 import DoubleHalfBluff from '@site/image-generator/yml/level-14/double-half-bluff.yml';
 import Hard4DoubleBluff from '@site/image-generator/yml/level-14/hard-4-double-bluff.yml';
-import Hard5DoubleBluff from '@site/image-generator/yml/level-14/hard-5-double-bluff.yml';
+import Hard5DoubleBluffNew from '@site/image-generator/yml/level-14/hard-5-double-bluff-new.yml';
+import DoubleBluffThatLooksLikeTwoFinesses from '@site/image-generator/yml/level-14/double-bluff-that-looks-like-two-finesses.yml';
+import RainbowDoubleBluff from '@site/image-generator/yml/level-14/rainbow-double-bluff.yml';
 
-## Special Moves
+## Conventions
+
+### The Double Bluff (DB)
+
+- Sometimes, you see that two players in a row have playable *Finesse Position* cards. However, they are unrelated, so you can't get them both played with a *Double Finesse*. In this situation, by performing a clue that looks like a *Finesse* or a *Bluff* which resolves after two blindplays instead of one, you can get both cards played.
+- Like with *Bluffs*, if the type of clue does not connect to **Both** blind-played cards, all players should realize that a double bluff has occurred, and not attempt to blindplay any more cards.
+- Also like with *Bluffs*, *Double Bluffs* may only be performed from *Bluff Seat*, and must be demonstrated immediately. In other words, both blindplays must occur on the two turns directly following the clue.
+- A *Double Bluff* is possible with any good touched card which is not yet playable (Note that this is only if, for example, the *5 Color Ejection* and *5 Number Discharge* from future levels do not apply). Thus, the clue recipient should be very careful to note down all possibilities that explain the two blindplays that she observed. First, she should note all possibilities that would compel the first *Double Bluffed* player to respond by playing his *First Finesse Position*. Then, she should erase all possibilities that would not cause the second *Double Bluffed* player to blindplay, namely, any possiblities for a true finesse not requiring their contribution, and any valid *Bluffs*.
+- There are many different types of *Double Bluffs*, and some examples are given below.
 
 <br />
 
 ### The Double Half Bluff (DHB)
 
-- Sometimes, you see that two players in a row have playable *Finesse Position* cards. However, they are unrelated, so you can't get them both played with a *Double Finesse*. In this situation, by performing a clue that looks like a *Double Finesse*, you can get the first card played like a normal *Finesse* and the second card like a *Bluff*.
 - For example, in a 4-player game:
   - Red 1 is played on the stacks.
   - Alice clues Donald red, which touches a red 4 as a *Play Clue*.
@@ -26,17 +35,15 @@ import Hard5DoubleBluff from '@site/image-generator/yml/level-14/hard-5-double-b
   - Cathy now knows that since two blind-plays happened in a row, she does **not** have the red 3 and that she was *Bluffed*.
   - At first, Donald thought that the red card in his hand was red 2 (as a *Play Clue*).
   - After Bob blind-played, Donald thought that the red card in his hand was red 3 (as a *Finesse*).
-  - After Cathy blind-played, Donald knows that he must have the red 4 (as a *Double Half Bluff*).
+  - After Cathy blind-played, Donald knows that his card was not a valid *Finesse* target for the red 2, and so he must have the red 4 (as a *Double Half Bluff*)
+  - (Donald knows that it cannot be a red 5, or else Bob would have blind-played his *Second Finesse Position* due to *5 Color Ejection*.)
 
 <DoubleHalfBluff />
 
-- Normally, you are only allowed to *Bluff* the very next player (i.e. sitting in *Bluff Seat*). The *Double Half Bluff* bends this rule: Alice is in *Bluff Seat* for Bob (the first blind-player) but not in *Bluff Seat* for Cathy (the second blind-player). Even though this breaks the *Bluff Seat* rule, the *Double Half Bluff* is still allowed because the *Fib* resolves "immediately", which satisfies *Lie Principle*.
-
 <br />
 
-### The Double Bluff
+### The Double Total Bluff
 
-- Similar to a *Double Half Bluff*, it is also possible to get 2 cards played in a row that are completely unrelated. It is distinct from a *Double Half Bluff* because **none** of the blind-played cards connect to the card that is clued.
 - For example, in a 4-player game:
   - Red 1 is currently played on the stacks.
   - Alice clues Donald red, which touches a red 4 as a *Play Clue*.
@@ -44,11 +51,10 @@ import Hard5DoubleBluff from '@site/image-generator/yml/level-14/hard-5-double-b
   - Cathy sees that Bob blind-played because of the red clue. However, since the red 4 is a two-away from playable card instead of a *one-away-from-playable* card, it must mean that it is a *Double Bluff* instead of a single *Bluff*. Cathy blind-plays her *Finesse Position* card and it is yellow 1.
   - At first, Donald thought that the red card in his hand was red 2 (as a *Play Clue*).
   - After Bob blind-played, Donald thought that the red card in his hand was red 3 (as a *Bluff*).
-  - After Cathy blind-played, Donald knows that he must have the red 4 (as a *Double Bluff*).
+  - After Cathy blind-played, Donald knows that his card was not a valid *Bluff* target for the blue 1, and so he must have the red 4 (as a *Double Total Bluff*)
+  - (Donald knows that it cannot be a red 5, or else Bob would have blind-played his *Second Finesse Position* due to *5 Color Ejection*.)
 
 <DoubleBluff />
-
-- Normally, players are only allowed to perform *Bluffs* while sitting in *Bluff Seat*. The *Double Bluff* is one of the few exceptions to the rule. (It is allowed because the *Fib* still resolves "immediately", which satisfies *Lie Principle*.)
 
 <br />
 
@@ -97,9 +103,10 @@ import Hard5DoubleBluff from '@site/image-generator/yml/level-14/hard-5-double-b
   - Alice clues red to Donald, touching a red 3 as a *Play Clue*.
   - Bob blind-plays red 1.
   - Cathy blind-plays blue 1.
-  - Normally, Donald would know that his red card is exactly a red 3, as a *Double Half Bluff*.
-  - However, Donald also knows that any 4 in the game can be used to perform a *Double Bluff*.
-  - Thus, Donald marks his red card as either a red 3 (if it was a *Double Half Bluff*) or a red 4 (if it was a *4 Double Bluff*).
+  - At first, Donald thought that the red card in his hand was red 1 (as a *Play Clue*).
+  - After Bob blind-played, Donald thought that the red card in his hand was red 2 (as a *Finesse*).
+  - After Cathy blind-played, Donald knows that his card was not a valid *Finesse* target for the red 1, and so he must have the red 3 or red 4 (as a *Double Half Bluff* or as a *4 Double Bluff*).
+  - (Donald knows that it cannot be a red 5, or else Bob would have blind-played his *Second Finesse Position* due to *5 Color Ejection*.)
 
 <DoubleBluffLooksLikeHalf />
 
@@ -113,24 +120,59 @@ import Hard5DoubleBluff from '@site/image-generator/yml/level-14/hard-5-double-b
   - Alice clues number 4 to Donald, touching a red 4 as a *Play Clue*.
   - Bob blind-plays red 1 from his *Finesse Position*.
   - Cathy blind-plays red 2 from her *Finesse Position*.
-  - Even though red 1 and red 2 are the same suit as the red 4, the team knows that no-one is promised the red 3.
+  - Even though red 1 and red 2 are the same suit as the red 4, the team knows that no-one is promised the red 3, since two blindplays happened immediately after the clue.
+  - Donald knows that his clued card can be any 4.
 
 <Hard4DoubleBluff />
 
 <br />
 
+
 ### The Hard 5 Double Bluff
 
 - Similar to a *Hard 3 Bluff* and a *Hard 4 Double Bluff*, it is also possible to perform a *Hard 5 Double Bluff*.
-- For example, in a 5-player game:
-  - It is the *Mid-Game* and all the 1's are played on the stacks.
-  - Alice clues number 5 to Emily, touching a red 5 as a *Play Clue*.
-  - Bob blind-plays a red 2 from his *Finesse Position*.
-  - Cathy blind-plays a red 3 from her *Finesse Position*.
-  - Donald sees that no-one else has any red cards in their hand. Thus, if this was a *Triple Finesse* on the red 5, then Donald should blind-play the red 4 right now.
-  - However, Donald also knows that 5's are valid *Double Bluff* targets. Since number 3 does not connect to number 5, Donald knows that he should prefer the *Double Bluff* interpretation (that gets two blind-plays) over the *Triple Finesse* interpretation (that gets three blind-plays).
+- For example, in a 4-player game:
+   - It is the first turn of the game and nothing is played on the stacks.
+  - Alice clues red to Donald, touching a red 3 as a *Play Clue*.
+  - Bob blind-plays red 2 from his *Finesse Position*.
+  - Cathy blind-plays red 3 from her *Finesse Position*.
+  - Even though red 2 and red 3 are the same suit as the red 5, the team knows that no-one is promised the red 4, since two blindplays happened immediately after the clue.
+  - Donald initially marks his card as a red, yellow, green or blue 5, since any of these will get Bob to play slot 1. However, since Cathy blindplayed, the card must not have been a valid bluff target for the red 2; therefore, he erases the two possibilities and notes his 5 as red or yellow.
 
-<Hard5DoubleBluff />
+<Hard5DoubleBluffNew />
+
+<br />
+
+### The Double Bluff That Looks Like Two Finesses
+
+- Sometimes, a *Double Bluff* can be initiated with a card that is *one-away-from-playable*.
+- For example, in a 4-player game:
+  - It is the first turn of the game and nothing is played on the stacks.
+  - Alice clues 2 to Donald, touching a red 2 as a *Play Clue*.
+  - Bob blind-plays yellow 1 from his *Finesse Position*.
+  - Cathy sees that red 2, clued with a rank clue, connects to the yellow 1 but is not a valid finesse target for it. Therefore, this must be a double bluff, and she blind-plays green 1 from her *Finesse Position*.
+  - At first, Donald thought that the 2 in his hand was yellow or green 2 (as a *Finesse* on either Bob or Cathy).
+  - After Bob blind-played, Donald thought that the 2 in his hand was yellow 2 (as a *Finesse* on Bob).
+  - After Cathy blind-played, Donald knows that this was a *Double Bluff*. He first marks his 2 as a red, yellow, blue or purple 2, since any of those would cause Bob to blindplay. He then erases the yellow note, since Cathy's blindplay indicates that the 2 is not a valid finesse target for the yellow 1.
+
+<DoubleBluffThatLooksLikeTwoFinesses />
+
+<br />
+
+### Double Bluffs in Rainbow Variants
+
+- The range of notes on the clued card can be much greater when a *Double Bluff* is performed in certain variants.
+- For example, in a 4-player Rainbow (6 Suits) game:
+  - It is the first turn of the game and nothing is played on the stacks.
+  - Alice clues blue to Donald, touching a rainbow 3 as a *Play Clue*.
+  - Bob blind-plays blue 1 from his *Finesse Position*.
+  - Cathy sees that rainbow 3, clued with a color clue, connects to the blue 1 but is not a valid finesse target for it. Therefore, this must be a double bluff, and she blind-plays yellow 1 from her *Finesse Position*.
+  - At first, Donald thought that the blue card in his hand was a rainbow or blue 1 (as a *Play Clue*).
+  - After Bob blind-played, Donald thought that the blue card in his hand was blue 2 (as a *Finesse*).
+  - After Cathy blind-played, Donald knows that this was a *Double Bluff*. He first marks his blue card as blue 2, blue 3, blue 4, raindbow 2, rainbow 3, rainbow 4, since any of those would cause Bob to blindplay. He then erases the blue 2 note, since Cathy's blindplay indicates that the blue card is not a valid finesse target for the yellow 1.
+  - (Donald knows that it cannot be a blue or rainbow 5, or else Bob would have blind-played his *Second Finesse Position* due to *5 Color Ejection*.)
+
+<RainbowDoubleBluff />
 
 <br />
 
