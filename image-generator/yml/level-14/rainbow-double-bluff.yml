@@ -1,9 +1,10 @@
 stacks:
-  - r: 1
+  - r: 0
   - y: 0
   - g: 0
   - b: 0
   - p: 0
+  - m: 1
 players:
   - clue_giver: true
     cards:
@@ -25,16 +26,8 @@ players:
       - type: x
   - cards:
       - type: x
-      - type: r
-        clue: r
-        middle_note: (4)
-      - type: x
-      - type: x
-  - text: After both blue 1 and yellow 1 blind-play...
-  - name: Donald
-    cards:
-      - type: x
-      - type: r
-        below: Red 4
+      - type: b,m
+        clue: b
+        middle_note: (M3)
       - type: x
       - type: x
