@@ -8,7 +8,7 @@ The following is a rough set of criteria for someone receiving the purple role:
   - The beginning point for measuring 1 year is the week that the person started playing regularly with one or more players who had a purple role at the time.
 - Commonly plays "pick up" games with the general population.
 - Participates in reviews using voice chat.
-- Is a "good fit" for the role. (They embody the principles outlined above.)
+- Is a "good fit" for the role. (They embody the principles and culure of the group.)
 
 The following is not relevant:
 
