@@ -113,7 +113,7 @@ import Hard5DoubleBluff from '@site/image-generator/yml/level-14/hard-5-double-b
   - Alice clues number 4 to Donald, touching a red 4 as a *Play Clue*.
   - Bob blind-plays red 1 from his *Finesse Position*.
   - Cathy blind-plays red 2 from her *Finesse Position*.
-  - Even though red 1 and red 2 are the same suit as the red 4, the team knows that no-one is promised the red 3.
+  - Even though red 1 and red 2 are the same suit as the red 4, the team knows that no-one is promised the red 3, and the 4 is not promised to be red.
 
 <Hard4DoubleBluff />
 
