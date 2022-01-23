@@ -233,7 +233,9 @@ import CluingOnes3 from '@site/image-generator/yml/level-11/cluing-ones-3.yml';
   - Donald is holding a cluable red 2.
   - Alice would like to get the red 1 and the blue 1 played. (No-one else has a red 1 or a blue 1.) Should she clue 1, red, or blue?
   - Just like in the previous example, cluing number 1 means that the red 2 will have to be clued as a 1-for-1, which results in an efficiency of 3-for-2.
-  - Instead, Alice clues red to Donald, performing the *Finesse* as a 2-for-1. Next, Bob clues blues to Cathy as a 2-for-1. In total, this is a 4-for-2.
+  - Instead, Alice can clue red to Donald, performing the *Finesse* as a 2-for-1. Next, Bob clues blues to Cathy as a 2-for-1. In total, this is a 4-for-2.
+  - Alice considers possibility of having a good *Bluff* target in her own hand. If she clues blue to Cathy, Bob may be able to *Bluff* red 1 using green 2 in her hand, or he may be able to clue two red cards in Alice's hand (another copy of red 2 and red 4), making it 5-for-2 in total. Worst case, if Alice doesn't have anything interesting in her hand, Bob can still perform the same red *Finesse* using Donald's red 2 which Alice was going to do.
+  - Alice clues blue to Cathy.
 
 <CluingOnes2 />
 
