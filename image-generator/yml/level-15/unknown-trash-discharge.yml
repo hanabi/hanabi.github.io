@@ -33,6 +33,7 @@ players:
       - type: x
       - type: r
         below: Trash
+        trash: true
       - type: x
       - type: x
       - type: x

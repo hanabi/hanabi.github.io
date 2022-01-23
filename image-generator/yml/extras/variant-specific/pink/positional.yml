@@ -19,6 +19,7 @@ players:
         orange: 2
         clue: 2
         below: Trash
+        trash: true
       - type: rygbi12345
         orange: 2
         clue: 2
@@ -28,5 +29,6 @@ players:
         orange: 2
         clue: 2
         below: Trash
+        trash: true
       - type: x
       - type: x

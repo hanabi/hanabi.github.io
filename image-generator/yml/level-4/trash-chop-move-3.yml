@@ -16,6 +16,7 @@ players:
       - type: x
       - type: 1
         clue: 1
+        trash: true
         below:
           text: Trash
           color: peru
@@ -23,6 +24,7 @@ players:
         above: Chop
       - type: 1
         clue: 1
+        trash: true
         below:
           text: Trash
           color: peru

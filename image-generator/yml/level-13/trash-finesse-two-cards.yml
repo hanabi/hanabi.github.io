@@ -36,7 +36,9 @@ players:
     cards:
       - type: 1
         below: trash
+        trash: true
       - type: 1
         below: trash
+        trash: true
       - type: x
       - type: x

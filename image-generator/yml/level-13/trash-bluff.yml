@@ -34,6 +34,7 @@ players:
       - type: 1
         below:
           text: trash
+        trash: true
       - type: x
       - type: x
       - type: x
