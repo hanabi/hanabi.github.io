@@ -19,7 +19,7 @@ import EarlyGameQuestion4 from '@site/image-generator/yml/beginner/early-game-qu
 
 <br />
 
-## Stalls and Finesses
+## Special Moves
 
 ### The 5 Stall (Cluing Off Chop 5's)
 
