@@ -1,6 +1,6 @@
 ---
 id: level-2
-title: Level 2 - Basic Finesses
+title: Level 2 - Basic Moves
 ---
 
 import DoublePrompt from '@site/image-generator/yml/level-2/double-prompt.yml';
