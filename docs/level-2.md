@@ -1,6 +1,6 @@
 ---
 id: level-2
-title: Level 2 - Basic Finesses
+title: Level 2 - Basic Moves
 ---
 
 import DoublePrompt from '@site/image-generator/yml/level-2/double-prompt.yml';
@@ -19,7 +19,7 @@ import EarlyGameQuestion4 from '@site/image-generator/yml/beginner/early-game-qu
 
 <br />
 
-## Special Moves
+## Stalls and Finesses
 
 ### The 5 Stall (Cluing Off Chop 5's)
 
