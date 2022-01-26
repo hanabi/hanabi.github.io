@@ -39,7 +39,7 @@ The following is a quick summary of the levels.
 | [10](level-10.md)   | Bluffs                  | *[Bluffs](level-10.md#the-bluff)*
 | [11](level-11.md)   | Context                 | *[Stale 1's Clues](level-11.md#the-stale-1s-clue)*, *[Focus Inversion](level-11.md#focus-inversion)*
 | [12](level-12.md)   | Intermediate Bluffs     | *[3 Bluffs](level-12.md#the-3-bluff)*, *[Critical 4 Bluffs](level-12.md#the-critical-4-bluff)*
-| [13](level-13.md)   | Trash Moves             | *[Trash Bluffs](level-13.md#the-trash-bluff)*, *[Trash Pushes](level-13.md#the-trash-push)*
+| [13](level-13.md)   | Trash Moves             | *[Trash Bluffs](level-13.md#the-trash-bluff)*, *[Trash Pushes](level-13.md#the-trash-push)*, *[Trash Finesse](level-13.md#the-trash-finesse)*, *[Reverse Trash Finesse](level-13.md#the-reverse-trash-finesse)*
 | [14](level-14.md)   | Double Bluffs           | *[Double Bluffs](level-14.md#the-double-bluff)*, *[4 Double Bluffs](level-14.md#the-4-double-bluff--the-5-double-bluff)*
 | [15](level-15.md)   | Ejections & Discharges  | *[5 Color Ejections](level-15.md#the-5-color-ejection-5ce)*, *[The Unknown Trash Discharge](level-15.md#the-unknown-trash-discharge-1-for-1-form-utd)*
 | [16](level-16.md)   | Elimination             | *[Elimination](level-16.md#elimination--elimination-notes)*
