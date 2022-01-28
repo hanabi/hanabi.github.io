@@ -20,6 +20,8 @@ import EliminationRewrite from '@site/image-generator/yml/extras/miscellaneous/e
 
 <DoublePrompts />
 
+<br />
+
 ### The Elimination Rewrite (for 1's)
 
 - Normally, when a playable card is discarded, a player will write *Elimination Notes* on their hand for the other copy of the card.
@@ -33,15 +35,11 @@ import EliminationRewrite from '@site/image-generator/yml/extras/miscellaneous/e
 
 <EliminationRewrite />
 
+<br />
+
 ### The Negative Blind-Play
 
 - Given enough negative clues on a card (and potentially some ancillary information based on the history of the game), it is possible to narrow down the identity of an unclued card in your hand to possibilities that only include playable cards that are not already touched in someone else's hand.
 - In this situation, you are expected to blind-play the card.
 
 <br />
-
-### The Layered Jump
-
-- If a player who is blind-playing into a *Layered Finesse* skips over a card, they are performing a *Layered Jump*. This player has deduced that the card they are skipping over is duplicated (or otherwise bad).
-- The card skipped over in this way will be the next thing discarded, as it is now considered known-trash.
-- If a *Layered Jump* skips over a card that cannot be in your own hand, then you can determine that it must be a mistake. In this situation, the skipped-over card must be clued directly to re-signify that it is good.

@@ -66,7 +66,6 @@ title: Convention Attribution
 | Self-Elimination Finesse Priority | 910dan
 | Double Discard Elimination | Zamiel
 | The No-Information Double Finesse & The No-Information Double Bluff | Zamiel
-| The Layered Jump | Libster
 | The Free Choice Bluff | Zamiel
 | The Suboptimal Color Prompt & The Suboptimal Color Finesse | Zamiel
 | The Suboptimal Color Bluff | Zamiel
