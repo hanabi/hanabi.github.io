@@ -6,6 +6,13 @@ As noted in the [convention changes document](convention-changes.md), sometimes 
 
 ## The Backlog (General Conventions)
 
+@everyone Deleted conventions:
+
+**Safety Charm** (deleted) (by Zamiel)
+
+- The *Safety Charm* is deleted.
+- Now, a declined *5 Pull* is to be treated as either a *5 Stall* (for the purposes of *Discard Modulation*) or a *Known Mistake*.
+
 @everyone Renamed conventions:
 
 **Critical 4 Bluff** (rename) (by Romain)
