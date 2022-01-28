@@ -138,6 +138,8 @@ The `orange` attribute can be used to draw some rank pips with orange. This is u
 
 By default, clued cards have an orange border, but this can be overridden with the `border` attribute.
 
+The `trash` attribute can be used to draw a trash icon on top of the card.
+
 <Example code={TypesSource} Image={TypesResult} />
 
 <br />

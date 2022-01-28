@@ -33,7 +33,7 @@ players:
     cards:
       - type: x
       - type: r
-        below: Trash
+        trash: true
       - type: r
         below:
           text:

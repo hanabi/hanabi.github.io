@@ -519,6 +519,17 @@ def draw_extra_card_attributes(svg_file, card):
     global y_top
     global y_below
 
+    if "trash" in card and card["trash"]:
+        trash_image = svg_file.image(
+            "{}/trashcan.png".format(PIECES_PATH),
+            x=x_offset + 5,
+            y=y_offset + 5,
+            width=CARD_WIDTH - 10,
+            height=CARD_HEIGHT - 10,
+            opacity=0.4,
+        )
+        svg_file.add(trash_image)
+
     if "clue" in card:
         # Draw the arrow above the card
         arrow_name = "arrow"
