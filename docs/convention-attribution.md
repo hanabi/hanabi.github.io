@@ -112,7 +112,6 @@ title: Convention Attribution
 | The Shadow Finesse | pianoblook
 | The 4 Charm | IAMJEFF
 | Unnecessary Principles | Floriman & Kakashi
-| The Self Color Ejection | IAMJEFF
 | Low Score Phase | pianoblook
 | The Prophetic Finesse | pianoblook
 | The Prophetic Discharge | pianoblook
