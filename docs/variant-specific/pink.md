@@ -376,12 +376,10 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
   - The *Bubblegum* and *Taffy* conventions take precedence over *Unknown Trash Discharge*.
   - The *Bubblegum Bluff* and *Taffy Bluff* holds equal precedence to *4 Charm*; the clued player must therefore write identity notes for either option.
   - A true *Bubblegum Finesse* takes precedence over *4 Charm*. (This is because, unlike in the *Bluff* scenarios, the pink blind-play "connects" to the rank clue).
-- Note that *Trash Bluff* still takes precedence over *Bubblegum Finesse/Bluff*.
-  - For example, in a 3 player game:
-    - Not all 1s have been played on the stacks.
-    - Alice clues 1 to Cathy, Bob blind plays slot 1.
-    - Cathy must mark the focus of the 1s clue as trash, as a *Trash Bluff* rather than a 1-away pink card as a *Bubblegum Bluff*.
-
+- Note that *Trash Bluff* still takes precedence over *Bubblegum Finesse/Bluff*. For example, in a 3 player game:
+  - Not all 1s have been played on the stacks.
+  - Alice clues 1 to Cathy, Bob blind plays slot 1.
+  - Cathy must mark the focus of the 1s clue as trash, as a *Trash Bluff* rather than a 1-away pink card as a *Bubblegum Bluff*.
 
 ### Pink Promise with a 5 Stall
 
