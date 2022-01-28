@@ -12,7 +12,7 @@ import Hard5DoubleBluffNew from '@site/image-generator/yml/level-14/hard-5-doubl
 import DoubleBluffThatLooksLikeTwoFinesses from '@site/image-generator/yml/level-14/double-bluff-that-looks-like-two-finesses.yml';
 import RainbowDoubleBluff from '@site/image-generator/yml/level-14/rainbow-double-bluff.yml';
 
-## Conventions
+## Special Moves
 
 ### The Double Bluff (DB)
 
