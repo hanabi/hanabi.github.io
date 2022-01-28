@@ -15,6 +15,7 @@ The following conventions were deleted due to no-one using them enough:
 - *Cursed Finesse*
 - *Self Color Ejection*
 - *Layered Jump*
+- *Trash Push Inverted Finesse*
 
 <br />
 
