@@ -10,7 +10,6 @@ import PropheticFinesse from '@site/image-generator/yml/extras/special-finesses/
 import PropheticFinesse2 from '@site/image-generator/yml/extras/special-finesses/prophetic-finesse-2.yml';
 import PatchFinesse from '@site/image-generator/yml/extras/special-finesses/patch-finesse.yml';
 import DiseasedClandestineFinesse from '@site/image-generator/yml/extras/special-finesses/diseased-clandestine-finesse.yml';
-import CursedFinesse from '@site/image-generator/yml/extras/special-finesses/cursed-finesse.yml';
 import SurreptitiousFinesse from '@site/image-generator/yml/extras/special-finesses/surreptitious-finesse.yml';
 import InvertedPriorityFinesse from '@site/image-generator/yml/extras/special-finesses/inverted-priority-finesse.yml';
 import ShadowFinesse from '@site/image-generator/yml/extras/special-finesses/shadow-finesse.yml';
@@ -191,30 +190,6 @@ import TrashPushInvertedFinesse from '@site/image-generator/yml/extras/special-f
   - Bob knows that his 2 must be the blue 2 to connect to the blue 1.
 
 <DiseasedClandestineFinesse />
-
-### The Cursed Finesse
-
-- Commonly, players use a *Double Finesse* or a *Clandestine Finesse* to "get" multiple cards from the next player. This works because the first blind-play "connects" to the clued card, forcing Bob to blind-play again in order to prevent Cathy from misplaying.
-- However, what if a player intentionally performs a *Bluff* where other players can see that it was actually possible to perform a *Double Finesse* or a *Clandestine Finesse*?
-- In this situation, if the cluer is not making a mistake, they are trying to send a deeper message - they want an extra person to blind-play.
-- This is called a *Cursed Finesse* because it requires the situation to be "cured". By performing a *Cure Blind-Play*, the move is transformed from a *Bluff* into a real *Finesse*.
-- For example, in a 4-player game:
-  - It is the first turn and nothing is played on the stacks.
-  - Bob's hand is as follows, from left to right: `red 1, blue 1, green 3, green 3`
-  - Donald's hand is as follows, from left to right: `blue 2, green 4, green 4, yellow 4`
-  - Thus, Alice has a *Free Choice* between cluing blue to Donald and number 2 to Donald. If Alice chooses blue, then it will cause a *Bluff* (as a 2-for-1). If Alice chooses number 2, it will cause a *Clandestine Finesse* (as a 3-for-1).
-  - Alice clues blue to Donald, touching a single blue 2.
-  - Bob tries to blind-play the blue 1 from his *Finesse Position*. Instead, it is a red 1 and it successfully plays. Bob now knows that he was *Bluffed*.
-  - Cathy sees that Alice could have done a *Clandestine Finesse* instead of a *Bluff*. Thus, Cathy knows that this must be a *Cursed Finesse*. Cathy blind-plays her *Finesse Position* (as a *Cure Blind-Play*). It is a red 2 and it successfully plays.
-  - Bob and Donald both gasp in surprise when Cathy blind-plays:
-    - From Bob's perspective, the focus of the clue is a *one-away-from-playable* card, so this cannot be a *Double Bluff*.
-    - From Donald's perspective, this cannot be a normal *Finesse* or a *Double Bluff*, because Cathy would have done nothing, waiting for Bob to play the blue 1 (as a *Finesse*)
-    - From both Bob and Donald's perspective, Bob's red 1 did not connect to Donald's blue card, so this cannot be a *Pestilent Double Bluff*.
-  - Therefore, the team knows that this must have been a *Cursed Finesse*. Bob will now continue to blind-play until he finds his promised blue 1.
-
-<CursedFinesse />
-
-- *Cursed Finesses* can only occur if there is a *Free Choice* during the initial clue.
 
 <br />
 

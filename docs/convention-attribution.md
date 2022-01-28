@@ -116,7 +116,6 @@ title: Convention Attribution
 | Low Score Phase | pianoblook
 | The Prophetic Finesse | pianoblook
 | The Prophetic Discharge | pianoblook
-| The Cursed Finesse | pianoblook
 | The Unknown Dupe Discharge | Kakashi & Indego
 | The Shallow Discard & The Shallow Misplay | Jerry
 | The Unknown Trash Charm | piper
