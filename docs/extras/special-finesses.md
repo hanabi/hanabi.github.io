@@ -15,7 +15,6 @@ import InvertedPriorityFinesse from '@site/image-generator/yml/extras/special-fi
 import ShadowFinesse from '@site/image-generator/yml/extras/special-finesses/shadow-finesse.yml';
 import ReverseShadowFinesse from '@site/image-generator/yml/extras/special-finesses/reverse-shadow-finesse.yml';
 import UnnecessaryForcedReverse from '@site/image-generator/yml/extras/special-finesses/unnecessary-forced-reverse.yml';
-import TrashPushInvertedFinesse from '@site/image-generator/yml/extras/special-finesses/trash-push-inverted-finesse.yml';
 
 ### The Ambiguous Finesse Pass-Back
 
@@ -117,6 +116,8 @@ import TrashPushInvertedFinesse from '@site/image-generator/yml/extras/special-f
   - Just like in the previous example, Cathy blind-plays the blue 1, and Donald marks his 1 as trash and *Chop Moves* his slot 4 card.
 
 <PropheticFinesse2 />
+
+<br />
 
 ### The Patch Finesse
 
@@ -309,6 +310,8 @@ import TrashPushInvertedFinesse from '@site/image-generator/yml/extras/special-f
 
 <ReverseShadowFinesse />
 
+<br />
+
 ### The Unnecessary Forced Reverse Trash Finesse (A Gentleman's Discard That Looks Like an Unnecessary Reverse Trash Finesse)
 
 - First, see the section on *[Unnecessary Moves with Known-Trash](../level-23.md#unnecessary-moves-with-known-trash----ignition)*, which defines what a *Unnecessary Trash Finesse* is. Basically, if a *Trash Finesse* is unnecessary, then it also causes a *Chop Move*.
@@ -330,18 +333,4 @@ import TrashPushInvertedFinesse from '@site/image-generator/yml/extras/special-f
 
 <UnnecessaryForcedReverse />
 
-### The Trash Push Inverted Finesse
-
-- First, see the section on *[Unnecessary Moves with Known-Trash](../level-23.md#unnecessary-moves-with-known-trash----ignition)*, which defines what a *Unnecessary Trash Push* is. Basically, if a *Trash Push* is unnecessary, then it also causes an extra blind-play.
-- Normally, the *Unnecessary Trash Push* calls for the very next player to blind-play an unrelated card, similar to a *Bluff*.
-- However, if the very next player can see that it could be a *Finesse* through the *Trash Pushed* card, then they should prefer that interpretation. This is similar to how Bob should always prefer a *Finesse* interpretation over a *Bluff* interpretation.
-- For example, in a 4-player game:
-  - All of the 2's are played on the stacks.
-  - Alice clues number 1 to Cathy, touching a single 1 on her chop. Since all of the 1's are already played, it is globally known that this must be some kind of *Trash Push*.
-  - Bob sees that the pushed card is a red 3. Cathy has no other red cards in her hand, so Alice could have just clued red to Cathy instead of doing a complicated *Trash Push*.
-  - Thus, Bob knows that this is an *Unnecessary Trash Push*. Normally, Bob would immediately blind-play his *Finesse Position* card. However, Bob also sees that Donald has a red 4 in his *Finesse Position*. Since *Finesses* take precedence over *Bluffs*, Bob knows that he should let Donald be the one to blind-play from the unnecessariness.
-  - Bob discards.
-  - Cathy knows that this must be a *Trash Push*. Cathy blind-plays her slot 3 card. It is red 3 instead and it successfully plays.
-  - Similar to Bob, Donald also sees that the *Trash Push* was unnecessary. Since Bob did not blind-play anything, this must be a *Trash Push Inverted Finesse*. Donald blind-plays his *Finesse Position* as red 4 and it successfully plays.
-
-<TrashPushInvertedFinesse />
+<br />
