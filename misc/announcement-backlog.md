@@ -6,7 +6,15 @@ As noted in the [convention changes document](convention-changes.md), sometimes 
 
 ## The Backlog (General Conventions)
 
-n/a
+@everyone Deleted conventions:
+
+The following conventions were deleted due to no-one using them enough:
+
+- *Selfish Focus Inversion*
+- *Hesitation Chop Move*
+- *Cursed Finesse*
+- *Self Color Ejection*
+- *Layered Jump*
 
 <br />
 
