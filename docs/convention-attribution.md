@@ -127,6 +127,8 @@ title: Convention Attribution
 | The Chop Move Ignition | kimbifille, pianoblook, & piper
 | The 1's Junk Discharge | piper
 | The 1's Junk Charm | pianoblook
+| Always Loaded Principle | Lel0uch
+| Asymmetric Chop Move Dilemma | Lel0uch
 
 <br />
 
@@ -173,3 +175,4 @@ title: Convention Attribution
 | The Empty Double-Play | Zamiel & Jeep
 | The Empty Bluff | Cory
 | Taffy Bluff | Kakashi
+| Ambiguous Prism Tempo Clue | indego & Lel0uch
