@@ -16,6 +16,7 @@ players:
       - type: x
       - type: x
       - type: x
+        below: discards
   - text: Alice performs a Scream Discard
   - name: Bob
     cards:
@@ -23,9 +24,10 @@ players:
       - type: x
       - type: x
       - type: x
+        below: discards
       - type: r4
         border: false
-  - text: Bob performs a Rebellious Discard
+  - text: Bob performs a Rebellious Discard, discards slot 4
   - name: Cathy
     cards:
       - type: 5
