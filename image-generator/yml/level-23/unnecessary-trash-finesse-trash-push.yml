@@ -28,5 +28,4 @@ players:
       - type: x
       - type: 2
         clue: 2
-        middle_note: trash
         trash: true
