@@ -5,7 +5,6 @@ title: Charms
 
 import FourCharm from '@site/image-generator/yml/extras/charms/four-charm.yml';
 import UnknownTrashCharm from '@site/image-generator/yml/extras/charms/unknown-trash-charm.yml';
-import SafetyCharm from '@site/image-generator/yml/extras/charms/safety-charm.yml';
 
 - A *Charm* refers to a blind-play in which someone plays an unrelated card from their *Fourth Finesse Position*. For example, if a player's hand is completely unclued, their *Fourth Finesse Position* is slot 4.
 - *Charms* fall outside of the *Signal Shift* framework. Instead, playing from *Fourth Finesse Position* is required in order to disambiguate the clue from being a *Finesse*, *Ejection*, or *Discharge*.

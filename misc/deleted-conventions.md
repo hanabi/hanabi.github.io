@@ -456,3 +456,23 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
   - Thus, Bob knows that this must be a *Safety Charm*. He blind-plays his *Fourth Finesse Position*. It is a blue 1 and it successfully plays.
   - Cathy knows that she must have the red 2. She also knows that her slot 1 card is a 5 that could have been used for a *5 Pull*. Cathy marks the 5 as being *Chop Moved* for later.
 - This convention was deleted since it was too hard to see.
+
+<br />
+
+### Selfish Focus Inversion (SFI)
+
+- Normally, when a player gives a *Selfish Clue*, they are doing it because no-one else on the team can perform the clue and they want to "lock-in" the value.
+- However, if a player gives a *Selfish Clue* with a color, and that clue could have been easily given by someone else on the team, then that is quite strange. They must be trying to send a deeper message.
+- In this situation, they are trying to communicate that the focus of the clue should be inverted. The *Play Clue* is either on the left-most card (if it would normally be *Chop-Focus*) or on the right-most card (if it would normally be the left-most card).
+- *Selfish Focus Inversion* can **only** be performed with color clues.
+- *Selfish Focus Inversion* takes precedence over an *Out-of-Order Finesse*. (This follows from *Occam's Razor*; if it could just be a normal *Focus Inversion* play clue, then it does not necessarily promise any blind-plays.)
+- For example, in a 4-player game:
+  - It is the first turn and nothing is played on the stacks.
+  - Alice clues red to Cathy, touching a red 1 as a *Play Clue*.
+  - Bob clues blue to Alice as a *Play Clue* on a blue 1.
+  - Instead of playing her red 1, Cathy clues red to Donald, touching a red 3 on slot 1 and a red 2 on slot 2. This must be a *Play Clue*, since these cards are not on Donald's chop.
+  - Donald knows that since Cathy is not playing her red 1 and giving a clue, she must have a good reason.
+  - Donald looks around the table and does not see the red 2 in anybody else's *Finesse Position*. Thus, this cannot be a *Selfish Finesse*.
+  - Donald also knows that this cannot be a *Self Finesse*. (Donald has a negative red clue on his *Finesse Position* card.)
+  - Thus, this must be a *Selfish Focus Inversion*, so Donald marks his right-most card as red 2 for later. The other red card in his hand can be red 3, red 4, or red 5. Donald discards.
+- This convention was deleted since it was prone to misinterpretation and was too rare to be useful.

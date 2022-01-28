@@ -108,7 +108,6 @@ title: Convention Attribution
 | The 5 Number Discharge | IAMJEFF
 | The Blaze Discard | IAMJEFF
 | The Rank Choice Ejection | IAMJEFF
-| Selfish Focus Inversion | Romain
 | The Trash Double Ignition | Libster
 | The Shadow Finesse | pianoblook
 | The 4 Charm | IAMJEFF
