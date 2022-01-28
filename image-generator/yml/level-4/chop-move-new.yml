@@ -20,9 +20,6 @@ players:
       - type: 1
         clue: 1
         trash: true
-        below:
-          text: Trash
-          color: peru
       - type: x
         above:
           text:
