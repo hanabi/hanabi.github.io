@@ -112,7 +112,6 @@ title: Convention Attribution
 | The Trash Double Ignition | Libster
 | The Shadow Finesse | pianoblook
 | The 4 Charm | IAMJEFF
-| The Safety Charm | pianoblook
 | Unnecessary Principles | Floriman & Kakashi
 | The Self Color Ejection | IAMJEFF
 | Low Score Phase | pianoblook
