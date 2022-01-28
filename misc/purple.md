@@ -12,7 +12,7 @@ Zamiel "owns" the Discord server, but for most intents and purposes, we want the
 - Help moderate the chat. We expect all chatters to follow the rules posted in the `#rules-and-resources` channel.
   - For example, feel free to delete gore, porn, spam, and so forth.
 - Ask in the `#moderator-only` channel before doing things like creating new channels, and so forth. If you aren't sure, just ask.
-- Give new players the green role once you have played a game with them and confirmed that they have demonstrated the criteria listed in the #role-explanations channel.
+- Give new players the green role once you have played a game with them and confirmed that they have demonstrated the criteria listed in the #role-explanations channel. (There's no need to announce this to others.)
 
 <br />
 
