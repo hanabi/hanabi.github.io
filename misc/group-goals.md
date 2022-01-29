@@ -12,7 +12,7 @@ The goals of the group as are follows:
 
 We want to get the highest scores possible. With that said, we know that the game is very hard, and that finding the best move all the time is nearly impossible. But we strive to do our best when we play and improve when we can.
 
-It's not fun to play play with someone who is distracted and not focusing on the task at hand.
+It's not fun to play with someone who is distracted and not focusing on the task at hand.
 
 ## To Not Cheat
 

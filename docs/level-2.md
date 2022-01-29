@@ -187,6 +187,8 @@ import EarlyGameQuestion4 from '@site/image-generator/yml/beginner/early-game-qu
 
 ## Questions for Level 2
 
+<!-- lint disable no-undefined-references -->
+
 <Tabs
   defaultValue="question"
   values={[
