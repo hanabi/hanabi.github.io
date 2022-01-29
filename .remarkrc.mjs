@@ -24,7 +24,7 @@ const config = {
     "remark-lint-match-punctuation",
 
     // Load additional external rules that we explicitly want to have for this project
-    "remark-lint-no-tabs",
+    // "remark-lint-no-tabs",
     "remark-lint-no-trailing-spaces",
     "remark-validate-links",
 
