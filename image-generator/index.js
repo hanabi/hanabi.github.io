@@ -23,11 +23,14 @@ module.exports = function hanabiDocusaurusPlugin(_context, _options) {
                     svgoConfig: {
                       plugins: [
                         {
-                          removeViewBox: false,
-                        },
-                        {
-                          prefixIds: {
-                            prefixClassNames: false,
+                          name: "preset-default",
+                          params: {
+                            overrides: {
+                              removeViewBox: false,
+                              prefixIds: {
+                                prefixClassNames: false,
+                              },
+                            },
                           },
                         },
                       ],
