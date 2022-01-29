@@ -37,6 +37,7 @@
   "devDependencies": {
     "cspell": "^5.17.0",
     "isaacscript-lint": "^1.0.79",
+    "isaacscript-tsconfig": "^1.1.8",
     "remark-cli": "^10.0.1",
     "remark-lint-match-punctuation": "^0.2.1",
     "remark-lint-no-dead-urls": "^1.1.0",
