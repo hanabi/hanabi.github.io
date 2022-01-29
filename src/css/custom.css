@@ -65,3 +65,11 @@ svg.example text.site-theme-text {
     display: none !important;
   }
 }
+
+#percent {
+  position: fixed;
+  right: 10em;
+  top: 4em;
+  width: 6em;
+  height: 6em;
+}
