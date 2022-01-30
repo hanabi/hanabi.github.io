@@ -19,14 +19,14 @@ players:
       - type: x
         above: Red 2
         clue: r
-        middle_note: kt
+        trash: true
       - type: x
         above: Red 2
-        middle_note: el r2
+        middle_note: r2?
         clue: r
       - type: x
         above: Red 4
-        middle_note: el r2
+        middle_note: r2?
         clue: r
       - type: x
         above: Blue 4
