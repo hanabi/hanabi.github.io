@@ -27,10 +27,13 @@ module.exports = function hanabiDocusaurusPlugin(_context, _options) {
                           params: {
                             overrides: {
                               removeViewBox: false,
-                              prefixIds: {
-                                prefixClassNames: false,
-                              },
                             },
+                          },
+                        },
+                        {
+                          name: "prefixIds",
+                          params: {
+                            prefixClassNames: false,
                           },
                         },
                       ],
