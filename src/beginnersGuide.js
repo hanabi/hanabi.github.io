@@ -34,7 +34,7 @@ export default function Progress({ id }) {
   useEffect(() => {
     const toc = document.querySelector("ul.table-of-contents");
     if (toc) {
-      toc.style.paddingTop = '6em';
+      toc.style.paddingTop = "6em";
     }
   });
 
