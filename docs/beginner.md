@@ -32,7 +32,7 @@ In this guide, you'll learn the following strategies:
     - *Play Clues* - Promise that a card can be played.
     - *Save Clues* - Prevent a card from being discarded.
 1. *Single Focus* - Only one card is the *Focus* of every clue.
-1. *Good Touch Principle* - Only clue cards that will be played.  Do not clue cards that will never be played.
+1. *Good Touch Principle* - Only clue cards that will be played. Do not clue cards that will never be played.
 1. *Save Principle* - Save all important cards.
 1. *Minimum Clue Value Principle* - Get at least one new card with every clue.
 1. *Prompts* & *Finesses* - If possible, get two or more cards played with one clue.
