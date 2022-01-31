@@ -36,7 +36,7 @@ We want everyone in our group to use voice chat during post-game reviews, and we
 
 ## To Have Effective Communication
 
-In order to be "good" at a post-game review, you have to be a good communicator. This involves communicating why you did something in a concise way without rambling. It involves having a good grasp of the English language. It involves having the ability to criticize others in a constructive way without making them feel bad. It involves using push-to-talk so that you don't accidentally interrupt other people when they are speaking. It involves being polite, kind, and empathetic to others.
+In order to be "good" at a post-game review, you have to be a good communicator. This involves communicating why you did something in a concise way without rambling. It involves having a good grasp of the English language. It involves having the ability to criticize others in a constructive way without making them feel bad. It involves using headphones to avoid feedback from your speakers. It involves being polite, kind, and empathetic to others.
 
 Communication is difficult! But post-game reviews with good communication are a ton of fun and part of the reason that makes the games in our group high-quality. We are not interested in playing with people that we can barely understand, people that are rude, and so on.
 
