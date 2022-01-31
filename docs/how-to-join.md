@@ -48,7 +48,7 @@ The *H-Group* plays games on the [Hanab Live](https://hanab.live) website and us
 
 ### Joining a Game
 
-The *H-Group* usually has games going every day. You can see if there are any Hyphenated members currently playing by looking at the Discord voice channels along the left side of the screen ("Hyphenated 1", "Hyphenated 2", "Teaching/Beginner Games", etc.).
+The *H-Group* usually has games going every day. You can see if there are any Hyphenated members currently playing by looking at the Discord voice channels along the left side of the screen ("H-Group 1", "H-Group 2", "Teaching/Beginner Games", etc.).
 
 If it's your first time and you don't know anybody else, you can ping the `@Trusted Teacher` role in Discord. While everyone will generally play with beginners, Trusted Teachers are people who have volunteered to go above and beyond in showing beginners the ropes.
 
