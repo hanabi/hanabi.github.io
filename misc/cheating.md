@@ -1,4 +1,4 @@
-# Cheating in the Hyphenated Group
+# Cheating in the H-Group
 
 In a game of Hanabi, it is possible to cheat in several ways.
 

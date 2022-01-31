@@ -2,7 +2,7 @@
 
 ### The Beginning
 
-The following is the story of why we use push-to-talk in the *Hyphenated Group*:
+The following is the story of why we use push-to-talk in the *H-Group*:
 
 - Alice, Bob, Cathy, and Donald played Hanabi together every day. They played online using the website of [Hanab Live](https://hanab.live) and used [Discord](https://discord.com/) for voice-chat.
 - As a group, they developed norms and a shared culture.
@@ -36,7 +36,7 @@ Using the push-to-talk feature is sometimes controversial. It usually goes somet
 
 ### I play Hanabi from a tablet or a phone where it is not possible to use push-to-talk. What should I do?
 
-In the *Hyphenated Group*, we take Hanabi very seriously, with some of us having played for hundreds or thousands of hours. When we play, we generally use computers with headsets to play with each other. This results for the best possible shared experience for everybody. We recognize that some people want to play Hanabi more casually with a tablet or a phone. And that's fine! But in general, we do not want our group to be cater to those kinds of people, and we don't want to change the norms of the group to accommodate those kinds of people. Instead, we encourage those people to take Hanabi more seriously and find a computer of their own with a proper headset to play, just like the rest of us do.
+In the *H-Group*, we take Hanabi very seriously, with some of us having played for hundreds or thousands of hours. When we play, we generally use computers with headsets to play with each other. This results for the best possible shared experience for everybody. We recognize that some people want to play Hanabi more casually with a tablet or a phone. And that's fine! But in general, we do not want our group to be cater to those kinds of people, and we don't want to change the norms of the group to accommodate those kinds of people. Instead, we encourage those people to take Hanabi more seriously and find a computer of their own with a proper headset to play, just like the rest of us do.
 
 Unfortunately, this is necessarily exclusionary in order to maintain a high-quality playing experience for our members. Also see the *Exceptions* section below.
 
@@ -44,7 +44,7 @@ Unfortunately, this is necessarily exclusionary in order to maintain a high-qual
 
 ### I play Hanabi from a work computer (or some other computer) where I cannot use install Discord properly, and thus cannot use push-to-talk. What should I do?
 
-In the *Hyphenated Group*, we take Hanabi very seriously. When we play, we generally use our own personal computers to play with each other, and we do so in contexts where we can devote our full attention to the game and to each other. In general, playing video games with your friends while at work is inappropriate, and while it can be fine in some contexts, we do not want our group to cater to those kinds of contexts. Instead, we encourage people in this situation to wait until they are at home in order to play Hanabi with us, or work towards getting a laptop of their own.
+In the *H-Group*, we take Hanabi very seriously. When we play, we generally use our own personal computers to play with each other, and we do so in contexts where we can devote our full attention to the game and to each other. In general, playing video games with your friends while at work is inappropriate, and while it can be fine in some contexts, we do not want our group to cater to those kinds of contexts. Instead, we encourage people in this situation to wait until they are at home in order to play Hanabi with us, or work towards getting a laptop of their own.
 
 Unfortunately, this is necessarily exclusionary in order to maintain a high-quality playing experience for our members. Also see the *Exceptions* section below.
 
@@ -52,6 +52,6 @@ Unfortunately, this is necessarily exclusionary in order to maintain a high-qual
 
 ### Exceptions
 
-As of December 2021, the *Hyphenated Group* Discord server has one "No PTT" voice channel. This channel is intended to be used for exceptional circumstances.
+As of December 2021, the *H-Group* Discord server has one "No PTT" voice channel. This channel is intended to be used for exceptional circumstances.
 
-For example, some of our most-active members sometimes go on vacation, and only have access to their phone. Or, some of our most-active members like to play using a tablet from time to time. Longstanding *Hyphenated Group* members who normally use push-to-talk and have otherwise contributed to the group in a major way have earned the right to occasionally play with voice-activation as an exception to the normal rule.
+For example, some of our most-active members sometimes go on vacation, and only have access to their phone. Or, some of our most-active members like to play using a tablet from time to time. Longstanding *H-Group* members who normally use push-to-talk and have otherwise contributed to the group in a major way have earned the right to occasionally play with voice-activation as an exception to the normal rule.

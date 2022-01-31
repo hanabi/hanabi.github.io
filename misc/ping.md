@@ -1,4 +1,4 @@
-## Pinging the Hyphenated Group
+## Pinging the H-Group
 
 - The Hyphenated group hangs out in the [Hanab Discord server](https://discord.gg/FADvkJp).
 - The group is fairly active so there are usually people playing pick-up games at most hours of the day and night.
