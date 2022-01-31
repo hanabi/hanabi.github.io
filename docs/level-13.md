@@ -116,7 +116,7 @@ import TrashPush from '@site/image-generator/yml/level-13/trash-push.yml';
 ### Clarity Principle
 
 - First, see the section on *[Context](level-11.md#context)*.
-- In the Hyphenated group, we like to find the "best" move for every turn in the post-game review. This is fun and helps everybody improve. But this can be taken too far.
+- In the H-Group, we like to find the "best" move for every turn in the post-game review. This is fun and helps everybody improve. But this can be taken too far.
 - Sometimes, players will give clues that are very complicated. Maybe the clue looks like it could be two different moves. Or, maybe the clue relies on non-obvious contextual factors.
 - Often, these kinds of complicated clues end up in misplays and lost games. And in the post-game review, the cluers get defensive: "if everyone just played perfectly, then my clue would have worked!"
 - It's natural for people to feel this way, because normally, if Alice performs a *Finesse*, and Bob is not paying attention and misses it, then we would say that Bob is at fault. But things are a little different when Alice gives a really complicated clue that Bob should *technically* be able to figure out, but doesn't. In this case, Bob shares a little of the blame, but it is mostly Alice that is at fault.

@@ -1,6 +1,6 @@
 ## Convention Questions
 
-Ask questions about the Hyphenated conventions in the in the `#convention-questions` channel. But please follow these rules:
+Ask questions about the H-Group conventions in the in the `#convention-questions` channel. But please follow these rules:
 
 ### 1) State the Convention Level
 
@@ -15,9 +15,9 @@ Ask questions about the Hyphenated conventions in the in the `#convention-questi
 - If the question is about **a hypothetical**, then you must type out an Alice and Bob story in the style of the convention website.
 - (Hypotheticals are generally preferred to replays, since they narrow down the scope of what is happening.)
 
-### 3) Use Hyphenated Notation
+### 3) Use H-Group Notation
 
-Use notation that the Hyphenated group will be familiar with:
+Use notation that the H-Group will be familiar with:
 
 <!-- lint disable no-undefined-references -->
 

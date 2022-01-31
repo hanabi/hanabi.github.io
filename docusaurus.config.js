@@ -1,7 +1,7 @@
 const path = require("path");
 
 module.exports = {
-  title: "The Hyphenated Conventions",
+  title: "The H-Group Conventions",
   url: "https://hanabi.github.io",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -12,10 +12,10 @@ module.exports = {
   themeConfig: {
     // Vanilla components
     navbar: {
-      title: "Hyphenated Conventions",
+      title: "H-Group Conventions",
       logo: {
-        alt: "My Site Logo",
-        src: "img/hyphenated.png",
+        alt: "H-Group Logo",
+        src: "img/logo.png",
       },
       items: [
         {

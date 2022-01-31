@@ -1,4 +1,4 @@
-# Deleted Conventions in the Hyphenated Framework
+# Deleted Conventions in the H-Group Framework
 
 <br />
 
@@ -224,7 +224,7 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
   - Bob knows that technically, this could be a *Play Clue* on a blue 2 or a rainbow 2, but in general he can assume that it is a blue 2.
   - Cathy has a blue 3 on chop and is in danger of discarding it.
   - Thus, Bob assumes that he has a blue 2 and clues blue to Cathy as a *Play Clue* on the blue 3.
-- The Hyphenated group has never actually used this convention, but it is documented here since it is played with on Board Game Arena.
+- Our group has never actually used this convention, but it is documented here since it is played with on Board Game Arena.
 
 <br />
 
@@ -257,7 +257,7 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
   - Bob plays his red card and it turns out to be the rainbow 2.
   - Cathy knows that Bob was using *Implied Color Truth* to assume that he had the red 2. Thus, since red 4 was clued, Cathy knows that at the time of the clue, she must have had a red 3 in her *Finesse Position*. She marks it as such and discards.
   - Alice also knows that Bob was using *Implied Color Truth*. It would not make sense for Bob to defer playing the red 2 in order to clue the red 3 himself. Thus, her red card must be a red 4 and Bob was trying to *Finesse* Cathy's red 3. Alice marks the card as such as discards.
-- The Hyphenated group has never actually used this convention, but it is documented here since it is played with on Board Game Arena.
+- Our group has never actually used this convention, but it is documented here since it is played with on Board Game Arena.
 
 <br />
 

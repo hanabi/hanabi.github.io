@@ -1,5 +1,5 @@
 // Constants
-const WEBPAGE_NAME = "The Hyphenated Conventions";
+const WEBPAGE_NAME = "The H-Group Conventions";
 const FIRST_DOC_PAGE_TITLE = "About";
 const LAST_DOC_PAGE_TITLE = "Convention Attribution";
 const MAX_LEVEL = 23;
