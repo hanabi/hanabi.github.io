@@ -24,7 +24,7 @@ Cheating ruins the game for us and has no place in our group.
 
 After the game, we come together in a voice chat to review the game, turn by turn. This allows us to analyze the game and get better in a communal way. Often, a post-game review involves pointing out someone's individual mistakes. But everyone in the group understands that this is nothing personal. When one person makes a mistake, it is everyone at the table that learns from it. Lots of people in our group consider the post-game reviews to be even more fun than playing the game itself.
 
-People who are not interested in attending and participating in post-game reviews has no place in our group.
+People who are not interested in attending and participating in post-game reviews have no place in our group.
 
 ## To Use Voice Chat
 
