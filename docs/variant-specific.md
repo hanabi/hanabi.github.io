@@ -68,7 +68,7 @@ import LoadedException2 from '@site/image-generator/yml/extras/variant-specific/
 
 - *Loaded Play Clues* **do not** apply in the *Early Game* - they are only "turned on" in the *Mid-Game*.
 - *Loaded Play Clues* **do not** apply in *Double Discard* situations. (Even though *Double Discard Avoidance* is "turned off" in hard variants in general, players are still allowed to avoid *Double Discarding* by giving *Early Saves* to cards.)
-- *Loaded Play Clues* **do** apply in other stalling situations such as 8-clues stalling situation.
+- *Loaded Play Clues* **do** apply in stalling situations (e.g. 8-clue stalling situations), but only if there are other things to do that are [equal or lower precedence](../level8.md#allowable-stall-clues-stall-table).
 - *Loaded Play Clues* **do not** apply to number 5 clues during the *Low Score Phase*.
 - For example, in a 3-player game:
   - It is the *Low Score Phase*.
