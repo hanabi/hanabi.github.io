@@ -15,7 +15,7 @@ import FiveStall from '@site/image-generator/yml/level-8/five-stall.yml';
 
 | Precedence | Type of Clue | Normal Situation (Severity 0) | Early Game (Severity 1) | Double Discard / Scream Discard (Severity 2) | Locked Hand (Severity 3) | 8 Clues (Severity 4)
 | ---------- | ------------ | ----------------------------- | ----------------------- | -------------------------------------------- | ------------------------ | --------------------
-| 1          | Normal *Play Clues* or *Save Clues*                                                                      | ✅ | ✅ | ✅ | ✅ | ✅
+| 1          | Normal *Play Clues* or normal *Save Clues*                                                               | ✅ | ✅ | ✅ | ✅ | ✅
 | 2          | *5 Stall*<br />(cluing off chop 5's)                                                                     | ❌ | ✅ | ✅ | ✅ | ✅
 | 3          | *Tempo Clue Stall*<br />(re-cluing a card to make it play)                                               | ❌ | ❌ | ✅ | ✅ | ✅
 | 4 (tied)   | *Locked Hand Save*<br />(saving any card on chop, as long as doing so would not *Lock* the other player) | ❌ | ❌ | ❌ | ✅ | ✅
