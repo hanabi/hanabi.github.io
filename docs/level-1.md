@@ -135,6 +135,8 @@ This process is represented in the following flowchart:
 
 - *Promps* always take precedence over *Finesses*.
 
+<br />
+
 ## Website Features
 
 - If you have played a few games on [Hanab Live](https://hanab.live), then you may have noticed that the website has several features.
