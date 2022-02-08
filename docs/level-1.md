@@ -133,7 +133,7 @@ This process is represented in the following flowchart:
 
 ### Prompts > Finesses
 
-- *Prompts* always take precedence over *Finesses*. (That means that something is only a *Finesse* if it is impossible to be a *Prompt*.)
+- *Prompts* always take precedence over *Finesses*. That means that something can only be a *Finesse* if it is impossible to be a *Prompt*.
 
 <br />
 
