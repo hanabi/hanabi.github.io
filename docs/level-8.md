@@ -58,7 +58,7 @@ import FiveStall from '@site/image-generator/yml/level-8/five-stall.yml';
 #### Extinguishing Every Clue
 
 - Extinguishing every clue **does** include *5 Stalling*, but it is only mandatory for the team to collectively perform one *5 Stall*. If one *5 Stall* clue has already been given and there is another *5 Stall* clue available, players are allowed to clue it if they want, but they don't have to.
-- Extinguishing every clue **does not** include cluing something in the hand of the player who came directly before. See the *[Permission to Discard](permission-to-discard-ptd)* section.
+- Extinguishing every clue **does not** include cluing something in the hand of the player who came directly before. See the *[Permission to Discard](#permission-to-discard-ptd)* section.
 - Extinguishing every clue **does not** include giving *Tempo Clues* (e.g. clues that do not meet *Minimum Clue Value Principle*).
 - Extinguishing every clue **does not** include cluing cards that will be almost certainly be *Order Chop Moved* by an upcoming player who already has two or more 1's clued in their hand.
 
