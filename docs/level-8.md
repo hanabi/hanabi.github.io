@@ -112,9 +112,7 @@ import FiveStall from '@site/image-generator/yml/level-8/five-stall.yml';
 - *5 Stalls* are usually performed in the *Early Game*. Less commonly, they can also be performed in the *Mid-Game* if a player happens to be in a special "stalling" situation where they are not allowed to discard.
 - In the *Early Game*, the team can give as many *5 Stalls* as they want before initiating the *Mid-Game*.
 - Regardless of whether they are done in the *Early Game* or the *Mid-Game*, *5 Stalls* are only allowed if there is nothing else "normal" to do (like playing a card, giving a normal *Play Clue*, or giving a normal *Save Clue*).
-  - However, as an exception, players are also allowed to *5 Stall* if there is **only one** *Play Clue* remaining and it would touch a card that someone else on the team could conceivably *Finesse*. (We refer to this as the *Finesse Position Exception*, or FPE for short. Note that FPE only applies to *5 Stalls*, not the *Early Game*.)
-  - The *Finesse Position Exception* also applies if the same card is in multiple *Finesse Positions* and there is nothing else to do.
-  - The *Finesse Position Exception* applies whenever a player performs a *5 Stall*, regardless of whether it is in the *Early Game* or not.
+  - However, see the *Finesse Position Exception* section below.
 - *5 Stalls* **must** be given to the 5 that is closest to chop. For example, in a 3-player game:
   - It is the *Early Game*. The only thing left for Alice to do is to clue an off chop 5.
   - Bob has two playable 1's on slots 1 and 2. He has a green 5 on slot 4. Bob's 5 is therefore one-away from chop.
@@ -123,9 +121,18 @@ import FiveStall from '@site/image-generator/yml/level-8/five-stall.yml';
 
 <FiveStall />
 
-- Some additional rules for *5 Stalls* are found in the section on [the *Early Game*](#the-early-game-severity-1-stalling).
-
 <br />
+
+### The 5 Stall Finesse Position Exception (FPE)
+
+- Normally, you are only allowed to perform a *5 Stall* if:
+  - it is currently a valid *Stalling Situation*
+  - there are no normal *Play Clues* or normal *Save Clues* to give
+- However, as an exception, players are allowed to *5 Stall* if there is **only one** *Play Clue* remaining and it would touch a card that someone else on the team could possibly *Finesse*. We refer to this as the *Finesse Position Exception*, or FPE for short.
+- The *Finesse Position Exception* **only applies to *5 Stalls***. It does not apply to the *Early Game*.
+- The *Finesse Position Exception* does not apply every time there is a playable card on *Finesse Position*. It only applies when there is a card on *Finesse Position* that can actually be *Finessed* or "gotten" by someone else before the *Early Game* is over.
+- The *Finesse Position Exception* applies if the same card is in multiple *Finesse Positions* and there is nothing else to do.
+- The *Finesse Position Exception* applies whenever a player can perform a *5 Stall*, regardless of whether it is the *Early Game* or the *Mid-Game*.
 
 ### The Locked Hand Save (LHS)
 
