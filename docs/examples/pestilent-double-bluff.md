@@ -3,7 +3,7 @@ id: pestilent-double-bluff
 title: Examples of the Pestilent Double Bluff
 ---
 
-The *[Pestilent Double Bluff](../level-19.md#the-pestilent-double-bluff-pdb)* is a level 19 convention.
+The *[Pestilent Double Bluff](../level-14.md#the-pestilent-double-bluff-pdb)* is a level 14 convention.
 
 <br />
 
