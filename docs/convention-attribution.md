@@ -5,7 +5,7 @@ title: Convention Attribution
 
 ### General Terms
 
-- The general terms of chop, *Finesse*, and *Bluff* were not invented by this group. Those basic strategies were the building blocks for the current Hyphenated framework.
+- The general terms of chop, *Finesse*, and *Bluff* were not invented by this group. Those basic strategies were the building blocks for the current H-Group framework.
 - "Chop" is a term invented by [Ben Smalls](https://boardgamegeek.com/user/smallman), one of the more prominent early Hanabi players. The earliest mention of the word on the Board Game Geek forums comes from [his post back in 2013](https://boardgamegeek.com/article/13665606#13665606).
 - A "finesse" is a common strategy in [bridge](https://en.wikipedia.org/wiki/Finesse), so that is the likely origin of the term. The earliest mention of "finesse" and "bluff" on the Board Game Geek forums comes from [Adam Kunsemiller's post in 2012](https://boardgamegeek.com/article/9317490#9317490). He uses the terms in a colloquial way, which implies that these strategies were commonly used at the time of writing.
 - The specific inventors of some of our own strategies are listed below.
@@ -66,7 +66,6 @@ title: Convention Attribution
 | Self-Elimination Finesse Priority | 910dan
 | Double Discard Elimination | Zamiel
 | The No-Information Double Finesse & The No-Information Double Bluff | Zamiel
-| The Layered Jump | Libster
 | The Free Choice Bluff | Zamiel
 | The Suboptimal Color Prompt & The Suboptimal Color Finesse | Zamiel
 | The Suboptimal Color Bluff | Zamiel
@@ -108,17 +107,13 @@ title: Convention Attribution
 | The 5 Number Discharge | IAMJEFF
 | The Blaze Discard | IAMJEFF
 | The Rank Choice Ejection | IAMJEFF
-| Selfish Focus Inversion | Romain
 | The Trash Double Ignition | Libster
 | The Shadow Finesse | pianoblook
 | The 4 Charm | IAMJEFF
-| The Safety Charm | pianoblook
 | Unnecessary Principles | Floriman & Kakashi
-| The Self Color Ejection | IAMJEFF
 | Low Score Phase | pianoblook
 | The Prophetic Finesse | pianoblook
 | The Prophetic Discharge | pianoblook
-| The Cursed Finesse | pianoblook
 | The Unknown Dupe Discharge | Kakashi & Indego
 | The Shallow Discard & The Shallow Misplay | Jerry
 | The Unknown Trash Charm | piper
@@ -127,6 +122,7 @@ title: Convention Attribution
 | The Chop Move Ignition | kimbifille, pianoblook, & piper
 | The 1's Junk Discharge | piper
 | The 1's Junk Charm | pianoblook
+| Always Loaded Principle | Lel0uch
 
 <br />
 
@@ -173,3 +169,4 @@ title: Convention Attribution
 | The Empty Double-Play | Zamiel & Jeep
 | The Empty Bluff | Cory
 | Taffy Bluff | Kakashi
+| Ambiguous Prism Tempo Clue | Indego & Lel0uch

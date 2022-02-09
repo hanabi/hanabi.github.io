@@ -1,6 +1,6 @@
 ## Convention Questions
 
-Ask questions about the Hyphenated conventions in the in the `#convention-questions` channel. But please follow these rules:
+Ask questions about the H-Group conventions in the in the `#convention-questions` channel. But please follow these rules:
 
 ### 1) State the Convention Level
 
@@ -15,9 +15,9 @@ Ask questions about the Hyphenated conventions in the in the `#convention-questi
 - If the question is about **a hypothetical**, then you must type out an Alice and Bob story in the style of the convention website.
 - (Hypotheticals are generally preferred to replays, since they narrow down the scope of what is happening.)
 
-### 3) Use Hyphenated Notation
+### 3) Use H-Group Notation
 
-Use notation that the Hyphenated group will be familiar with:
+Use notation that the H-Group will be familiar with:
 
 <!-- lint disable no-undefined-references -->
 
@@ -42,10 +42,6 @@ Use notation that the Hyphenated group will be familiar with:
 
 - Type out your entire question into a single message.
 
-### 6) Start a Thread
-
-- After asking your question, you must immediately start a thread.
-
 <br />
 
 ### Reasoning
@@ -55,4 +51,3 @@ Use notation that the Hyphenated group will be familiar with:
 - The reason for needing Alice and Bob stories and for rule 2 is that it helps us to parse your question more easily.
 - The reason for answering your own question is that it allows us to hone in on the specific gaps in your knowledge. It is unfair to ask a low-effort question and then expect others to give a comprehensive response to it.
 - The reason for putting everything in one message is that it prevents spamming other people with notifications.
-- The reason for using a thread is to keep all discussion organized.

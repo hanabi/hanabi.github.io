@@ -370,12 +370,19 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 
 ### Pink Precedence
 
-- Normally, non-variant-specific conventions always take precedence over variant-specific conventions.
-- As an exception, the *Bubblegum Bluff* and the *Taffy Bluff* conventions usually take precedence over their non-variant-specific alternatives. Specifically:
-  - The *Bubblegum* and *Taffy* conventions take precedence over *Rank Choice Ejection (with 2)*.
-  - The *Bubblegum* and *Taffy* conventions take precedence over *Unknown Trash Discharge*.
-  - The *Bubblegum Bluff* and *Taffy Bluff* holds equal precedence to *4 Charm*; the clued player must therefore write identity notes for either option.
+- The *Bubblegum Bluff* and the *Taffy Bluff* conventions usually take precedence over other kinds of moves. Specifically:
+  - The *Bubblegum* and *Taffy* conventions take precedence over a *Rank Choice Ejection (with 2)*.
+  - The *Bubblegum* and *Taffy* conventions take precedence over an *Unknown Trash Discharge*.
+  - The *Bubblegum Bluff* and *Taffy Bluff* hold equal precedence to a *4 Charm*. Thus, the clued player must write identity notes for both options.
   - A true *Bubblegum Finesse* takes precedence over *4 Charm*. (This is because, unlike in the *Bluff* scenarios, the pink blind-play "connects" to the rank clue).
+- Note that *Trash Bluff* still takes precedence over a *Bubblegum Finesse* and a *Bubblegum Bluff*. For example, in a 3 player game:
+  - Red 1 and blue 1 are played on the stacks.
+  - Alice clues number 1 to Cathy, touching a red 1 as a *Trash Finesse*.
+  - Bob blind-plays a pink 1.
+  - Cathy knows that this is either a *Trash Finesse* or a *Bubblegum Finesses*:
+    - If Alice's clue was a *Trash Finesse*, then her clued card is either a red 1 or a blue 1.
+    - If Alice's clue was a *Bubblegum Finesse*, then her clued card is a pink 2.
+  - Cathy knows that *Trash Finesses* take precedence over a *Bubblegum Finesse*, so the card must be a red 1 or blue 1, and can be safely discarded.
 
 ### Pink Promise with a 5 Stall
 

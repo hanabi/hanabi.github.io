@@ -1,4 +1,4 @@
-# Deleted Conventions in the Hyphenated Framework
+# Deleted Conventions in the H-Group Framework
 
 <br />
 
@@ -224,7 +224,7 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
   - Bob knows that technically, this could be a *Play Clue* on a blue 2 or a rainbow 2, but in general he can assume that it is a blue 2.
   - Cathy has a blue 3 on chop and is in danger of discarding it.
   - Thus, Bob assumes that he has a blue 2 and clues blue to Cathy as a *Play Clue* on the blue 3.
-- The Hyphenated group has never actually used this convention, but it is documented here since it is played with on Board Game Arena.
+- Our group has never actually used this convention, but it is documented here since it is played with on Board Game Arena.
 
 <br />
 
@@ -257,7 +257,7 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
   - Bob plays his red card and it turns out to be the rainbow 2.
   - Cathy knows that Bob was using *Implied Color Truth* to assume that he had the red 2. Thus, since red 4 was clued, Cathy knows that at the time of the clue, she must have had a red 3 in her *Finesse Position*. She marks it as such and discards.
   - Alice also knows that Bob was using *Implied Color Truth*. It would not make sense for Bob to defer playing the red 2 in order to clue the red 3 himself. Thus, her red card must be a red 4 and Bob was trying to *Finesse* Cathy's red 3. Alice marks the card as such as discards.
-- The Hyphenated group has never actually used this convention, but it is documented here since it is played with on Board Game Arena.
+- Our group has never actually used this convention, but it is documented here since it is played with on Board Game Arena.
 
 <br />
 
@@ -435,3 +435,100 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
 - This convention was removed in favor of the *Replay Double Ignition* and *Replay Ejection*.
 
 <br />
+
+### The Safety Charm (Declined 5 Pull)
+
+- This convention only applies in the *Low Score Phase*.
+- If a card could be freely gotten by initiating a *5 Pull*, it would be very strange if the *5 Pull* was declined and the card was directly touched as a 1-for-1.
+- When this occurs, this player is trying to communicate something deeper - a *Charm* on the very next player.
+- Normally, when a card is blind-played after an innocent-looking *Play Clue*, the clue receiver knows to not play that card anymore. In this situation, since the *Fourth Finesse Position* card was played instead of the *First*, *Second*, or *Third*, the clue receiver will know that their card is still playable **and** that the unclued card directly to its left must be a 5.
+- This untouched 5 is now globally known; everyone on the team should treat it as a *Chop Moved* card.
+- For example, in a 4-player game:
+  - Red 1 is played on the stacks.
+  - It is the *Early Game* and the *Low Score Phase*.
+  - Alice clues red to Cathy, touching a new red 2 on slot 2.
+  - Cathy's hand is, from newest to oldest: `blue 5, red 2, blue 3, blue 2`
+  - Bob sees that Alice could have cleanly *5 Pulled* Cathy's red 2. (It is globally known that Alice had another *Play Clue* to give, so a number 5 clue would not have been interpreted as a *5 Stall*.)
+  - Bob knows that this signals a blind-play:
+    - A *First Finesse Position* blind-play would look like a *Bluff* on a red 3, which would be a *Lie*.
+    - A *Second Finesse Position* blind-play would look like a *5 Color Ejection* on a red 5, which would be a *Lie*.
+    - A *Third Finesse Position* blind-play would look like an *Unknown Trash Discharge* on a red 1, which would be a *Lie*.
+  - Thus, Bob knows that this must be a *Safety Charm*. He blind-plays his *Fourth Finesse Position*. It is a blue 1 and it successfully plays.
+  - Cathy knows that she must have the red 2. She also knows that her slot 1 card is a 5 that could have been used for a *5 Pull*. Cathy marks the 5 as being *Chop Moved* for later.
+- This convention was deleted since it was too hard to see.
+
+<br />
+
+### Selfish Focus Inversion (SFI)
+
+- Normally, when a player gives a *Selfish Clue*, they are doing it because no-one else on the team can perform the clue and they want to "lock-in" the value.
+- However, if a player gives a *Selfish Clue* with a color, and that clue could have been easily given by someone else on the team, then that is quite strange. They must be trying to send a deeper message.
+- In this situation, they are trying to communicate that the focus of the clue should be inverted. The *Play Clue* is either on the left-most card (if it would normally be *Chop-Focus*) or on the right-most card (if it would normally be the left-most card).
+- *Selfish Focus Inversion* can **only** be performed with color clues.
+- *Selfish Focus Inversion* takes precedence over an *Out-of-Order Finesse*. (This follows from *Occam's Razor*; if it could just be a normal *Focus Inversion* play clue, then it does not necessarily promise any blind-plays.)
+- For example, in a 4-player game:
+  - It is the first turn and nothing is played on the stacks.
+  - Alice clues red to Cathy, touching a red 1 as a *Play Clue*.
+  - Bob clues blue to Alice as a *Play Clue* on a blue 1.
+  - Instead of playing her red 1, Cathy clues red to Donald, touching a red 3 on slot 1 and a red 2 on slot 2. This must be a *Play Clue*, since these cards are not on Donald's chop.
+  - Donald knows that since Cathy is not playing her red 1 and giving a clue, she must have a good reason.
+  - Donald looks around the table and does not see the red 2 in anybody else's *Finesse Position*. Thus, this cannot be a *Selfish Finesse*.
+  - Donald also knows that this cannot be a *Self Finesse*. (Donald has a negative red clue on his *Finesse Position* card.)
+  - Thus, this must be a *Selfish Focus Inversion*, so Donald marks his right-most card as red 2 for later. The other red card in his hand can be red 3, red 4, or red 5. Donald discards.
+- This convention was deleted since it was prone to misinterpretation and was too rare to be useful.
+
+<br />
+
+### The Cursed Finesse
+
+- Commonly, players use a *Double Finesse* or a *Clandestine Finesse* to "get" multiple cards from the next player. This works because the first blind-play "connects" to the clued card, forcing Bob to blind-play again in order to prevent Cathy from misplaying.
+- However, what if a player intentionally performs a *Bluff* where other players can see that it was actually possible to perform a *Double Finesse* or a *Clandestine Finesse*?
+- In this situation, if the cluer is not making a mistake, they are trying to send a deeper message - they want an extra person to blind-play.
+- This is called a *Cursed Finesse* because it requires the situation to be "cured". By performing a *Cure Blind-Play*, the move is transformed from a *Bluff* into a real *Finesse*.
+- For example, in a 4-player game:
+  - It is the first turn and nothing is played on the stacks.
+  - Bob's hand is as follows, from left to right: `red 1, blue 1, green 3, green 3`
+  - Donald's hand is as follows, from left to right: `blue 2, green 4, green 4, yellow 4`
+  - Thus, Alice has a *Free Choice* between cluing blue to Donald and number 2 to Donald. If Alice chooses blue, then it will cause a *Bluff* (as a 2-for-1). If Alice chooses number 2, it will cause a *Clandestine Finesse* (as a 3-for-1).
+  - Alice clues blue to Donald, touching a single blue 2.
+  - Bob tries to blind-play the blue 1 from his *Finesse Position*. Instead, it is a red 1 and it successfully plays. Bob now knows that he was *Bluffed*.
+  - Cathy sees that Alice could have done a *Clandestine Finesse* instead of a *Bluff*. Thus, Cathy knows that this must be a *Cursed Finesse*. Cathy blind-plays her *Finesse Position* (as a *Cure Blind-Play*). It is a red 2 and it successfully plays.
+  - Bob and Donald both gasp in surprise when Cathy blind-plays:
+    - From Bob's perspective, the focus of the clue is a *one-away-from-playable* card, so this cannot be a *Double Bluff*.
+    - From Donald's perspective, this cannot be a normal *Finesse* or a *Double Bluff*, because Cathy would have done nothing, waiting for Bob to play the blue 1 (as a *Finesse*)
+    - From both Bob and Donald's perspective, Bob's red 1 did not connect to Donald's blue card, so this cannot be a *Pestilent Double Bluff*.
+  - Therefore, the team knows that this must have been a *Cursed Finesse*. Bob will now continue to blind-play until he finds his promised blue 1.
+- This convention was deleted because no-one ever used it.
+
+<br />
+
+### The Self Color Ejection
+
+- Normally, when a card is "filled in" a card that is two-or-more-away-from-playable, it triggers a *Self Color Double Bluff*.
+- However, what if the next player can see that a *Double Bluff* is impossible? In this situation, they instead intend for an *Ejection* on the very next player.
+- For example, in a 4-player game:
+  - All the 1's are played on the stacks.
+  - Bob has a green 4 in his hand that was previously clued with a number 4 clue.
+  - Alice clues green to Bob, which fills in the green 4.
+  - Bob considers what the clue means:
+    - Normally, this would be a *Play Clue* on the green 4, calling for a green 2 and a green 3 to be played as a *Finesse*. However, Bob does not see green 2 and green 3 in anyone else's hands. It also cannot be in his hand (because he has negative green on his entire hand).
+    - If it isn't a *Finesse*, then it must be a *Self Color Bluff*. However, *Self Color Bluffs* are only performed on legal *Bluff-Targets* (e.g. one-away-from-playable cards), and the green 4 is two-away-from-playable.
+    - If it isn't a *Self Color Bluff*, then it must be a *Self Color Double Bluff*. However, Bob sees that Cathy has a trash card on her *Finesse Position*. If he blind-plays his *Finesse Position*, Cathy will go on to misplay her *Finesse Position*. That means that a *Self Color Double Bluff* does not make sense.
+    - If it isn't a *Self Color Double Bluff*, then it must be a *Self Color Ejection*.
+  - Bob blind-plays his *Second Finesse Position*. It is a red 2 and it successfully plays.
+  - Cathy does nothing; no other cards are promised.
+- This convention was deleted because no-one ever used it.
+
+### The Trash Push Inverted Finesse
+
+- Normally, the *Unnecessary Trash Push* calls for the very next player to blind-play an unrelated card, similar to a *Bluff*.
+- However, if the very next player can see that it could be a *Finesse* through the *Trash Pushed* card, then they should prefer that interpretation. This is similar to how Bob should always prefer a *Finesse* interpretation over a *Bluff* interpretation.
+- For example, in a 4-player game:
+  - All of the 2's are played on the stacks.
+  - Alice clues number 1 to Cathy, touching a single 1 on her chop. Since all of the 1's are already played, it is globally known that this must be some kind of *Trash Push*.
+  - Bob sees that the pushed card is a red 3. Cathy has no other red cards in her hand, so Alice could have just clued red to Cathy instead of doing a complicated *Trash Push*.
+  - Thus, Bob knows that this is an *Unnecessary Trash Push*. Normally, Bob would immediately blind-play his *Finesse Position* card. However, Bob also sees that Donald has a red 4 in his *Finesse Position*. Since *Finesses* take precedence over *Bluffs*, Bob knows that he should let Donald be the one to blind-play from the unnecessariness.
+  - Bob discards.
+  - Cathy knows that this must be a *Trash Push*. Cathy blind-plays her slot 3 card. It is red 3 instead and it successfully plays.
+  - Similar to Bob, Donald also sees that the *Trash Push* was unnecessary. Since Bob did not blind-play anything, this must be a *Trash Push Inverted Finesse*. Donald blind-plays his *Finesse Position* as red 4 and it successfully plays.
+- This convention was deleted because it was too rare.

@@ -24,8 +24,8 @@ import DelayedPlayCluesQuestion3 from '@site/image-generator/yml/beginner/delaye
 - Bob writes a *card note* with the identity of the card.
 
 1. What *card note* does Bob write? (Be specific.)
-2. Is this a *Delayed Play Clue*?
-3. What action should Bob perform?
+1. Is this a *Delayed Play Clue*?
+1. What action should Bob perform?
 
 </TabItem>
 <TabItem value="solution">
@@ -34,8 +34,8 @@ import DelayedPlayCluesQuestion3 from '@site/image-generator/yml/beginner/delaye
     - First, it could be a direct *Play Clue* on a red 4 or a purple 4.
     - Second, it could be a *Delayed Play Clue* on a yellow 4 through Cathy's yellow 2 and yellow 3.
     - Third, it could be a *Delayed Play Clue* on a blue 4 through Donald's blue 3.
-2. Bob does not know whether this is a *Play Clue* or a *Delayed Play Clue*. However, since Bob has to treat all *Play Clues* as potential *Delayed Play Clues*, Bob cannot play the 4 on this turn.
-3. Since Bob cannot play the 4 yet, he should discard.
+1. Bob does not know whether this is a *Play Clue* or a *Delayed Play Clue*. However, since Bob has to treat all *Play Clues* as potential *Delayed Play Clues*, Bob cannot play the 4 on this turn.
+1. Since Bob cannot play the 4 yet, he should discard.
 
 </TabItem>
 </Tabs>

@@ -1,6 +1,6 @@
 # Convention Accumulation
 
-As you probably know, in the Hyphenated group, we play with a lot of conventions - things that we agree to before the game starts. Unlike other groups, we write all of these down in [a formal document](../Reference.md). And this document is *long*.
+As you probably know, in the H-Group, we play with a lot of conventions - things that we agree to before the game starts. Unlike other groups, we write all of these down in [a formal document](../Reference.md). And this document is *long*.
 
 <br />
 

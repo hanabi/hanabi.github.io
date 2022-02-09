@@ -26,7 +26,7 @@ import Finesse2 from '@site/image-generator/yml/beginner/finesse-2.yml';
 
 ### Prompts > Finesses
 
-- Note that ***Prompts* take precedence over *Finesses***. Players should never blind-play a card if the situation can apply to the clued cards in their hand.
+- ***Prompts* take precedence over *Finesses***. That means that something can only be a *Finesse* if it is impossible to be a *Prompt*.
 
 <br />
 

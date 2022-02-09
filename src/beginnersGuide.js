@@ -32,22 +32,14 @@ export default function Progress({ id }) {
 
   // Once the component is rendered, stick it underneath the table of contents and make it visible
   useEffect(() => {
-    document
-      .querySelector("main > div > div > div:nth-child(2)")
-      .append(document.querySelector("#percent"));
-    document.querySelector("#percent").style.display = null;
+    const toc = document.querySelector("ul.table-of-contents");
+    if (toc) {
+      toc.style.paddingTop = "6em";
+    }
   });
 
   return (
-    <div
-      id="percent"
-      style={{
-        position: "fixed",
-        display: "none",
-        width: "8em",
-        height: "8em",
-      }}
-    >
+    <div id="percent">
       <CircularProgressbar value={percentage} text={`${percentage}%`} />
     </div>
   );

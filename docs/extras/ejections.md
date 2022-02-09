@@ -5,7 +5,6 @@ title: Ejections
 
 import BadChopMove from '@site/image-generator/yml/extras/ejections/bad-chop-move.yml';
 import RankChoice from '@site/image-generator/yml/extras/ejections/rank-choice.yml';
-import SelfColor from '@site/image-generator/yml/extras/ejections/self-color.yml';
 
 - An *Ejection* refers to a *Signal Shift* blind-play in which someone plays an unrelated card from their *Second Finesse Position*.
   - For example, if a player's hand is completely unclued, their *Second Finesse Position* is slot 2.
@@ -85,22 +84,3 @@ import SelfColor from '@site/image-generator/yml/extras/ejections/self-color.yml
 - However, what if the next player can see that a *Poke Double Ignition* is impossible? In this situation, if the clue-giver is not making a mistake, they instead intend for an *Ejection* on the very next player.
 
 <br />
-
-### The Self Color Ejection
-
-- First, see the section on the *[Self Color Double Bluff](special-bluffs.md#self-color-double-bluff-scdb)*.
-- Normally, when a card is "filled in" a card that is two-or-more-away-from-playable, it triggers a *Self Color Double Bluff*.
-- However, what if the next player can see that a *Double Bluff* is impossible? In this situation, they instead intend for an *Ejection* on the very next player.
-- For example, in a 4-player game:
-  - All the 1's are played on the stacks.
-  - Bob has a green 4 in his hand that was previously clued with a number 4 clue.
-  - Alice clues green to Bob, which fills in the green 4.
-  - Bob considers what the clue means:
-    - Normally, this would be a *Play Clue* on the green 4, calling for a green 2 and a green 3 to be played as a *Finesse*. However, Bob does not see green 2 and green 3 in anyone else's hands. It also cannot be in his hand (because he has negative green on his entire hand).
-    - If it isn't a *Finesse*, then it must be a *Self Color Bluff*. However, *Self Color Bluffs* are only performed on legal *Bluff-Targets* (e.g. one-away-from-playable cards), and the green 4 is two-away-from-playable.
-    - If it isn't a *Self Color Bluff*, then it must be a *Self Color Double Bluff*. However, Bob sees that Cathy has a trash card on her *Finesse Position*. If he blind-plays his *Finesse Position*, Cathy will go on to misplay her *Finesse Position*. That means that a *Self Color Double Bluff* does not make sense.
-    - If it isn't a *Self Color Double Bluff*, then it must be a *Self Color Ejection*.
-  - Bob blind-plays his *Second Finesse Position*. It is a red 2 and it successfully plays.
-  - Cathy does nothing; no other cards are promised.
-
-<SelfColor />

@@ -68,6 +68,7 @@ import LoadedException2 from '@site/image-generator/yml/extras/variant-specific/
 
 - *Loaded Play Clues* **do not** apply in the *Early Game* - they are only "turned on" in the *Mid-Game*.
 - *Loaded Play Clues* **do not** apply in *Double Discard* situations. (Even though *Double Discard Avoidance* is "turned off" in hard variants in general, players are still allowed to avoid *Double Discarding* by giving *Early Saves* to cards.)
+- *Loaded Play Clues* **do** apply in stalling situations (e.g. 8-clue stalling situations), but only if there are other things to do that are [equal or lower precedence](level-8.md#allowable-stall-clues-stall-table).
 - *Loaded Play Clues* **do not** apply to number 5 clues during the *Low Score Phase*.
 - For example, in a 3-player game:
   - It is the *Low Score Phase*.
@@ -117,7 +118,7 @@ import LoadedException2 from '@site/image-generator/yml/extras/variant-specific/
 
 ### 2-Player
 
-- In the *Hyphenated Group*, we generally only play games with 3 to 5 players. If you are interested in playing 2-player games, then see the [2-player page](https://github.com/hanabi/hanabi.github.io/blob/main/misc/2-player.md).
+- In the *H-Group*, we generally only play games with 3 to 5 players. If you are interested in playing 2-player games, then see the [2-player page](https://github.com/hanabi/hanabi.github.io/blob/main/misc/2-player.md).
 
 <br />
 

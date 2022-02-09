@@ -89,7 +89,7 @@ import HardBluff from '@site/image-generator/yml/level-12/hard-bluff.yml';
 
 ### The Critical Color Bluff
 
-- Building on the *3 Bluffs* convention, we also agree that it is possible for a card that initiates a *Bluff* to be any critical card, but only if **a color clue** is used.
+- Building on the *3 Bluffs* convention, we also agree that it is possible for a card that initiates a *Bluff* to be any critical card, but only if **a color clue** is used, and only if **it is not a 5**.
 - For example, in a 3-player game:
   - Nothing is played on the stacks. Red 4 is currently in the discard pile.
   - Alice clues Cathy red, touching a red 4 as a *Play Clue*.
@@ -156,8 +156,8 @@ import HardBluff from '@site/image-generator/yml/level-12/hard-bluff.yml';
 
 The full list of legal *Bluff* targets is represented in the following table:
 
-| Type of Card                                                          | Color Clue | Number Clue | Name of Convention
-| --------------------------------------------------------------------- | ---------- | ----------- | ------------------
-| any *one-away-from-playable* card                                     | ✅         | ✅         | *Bluff*
-| any *two-away-from-playable* 3                                        | ✅         | ✅         | *3 Bluff*
-| any *two-away-from-playable* or *three-away-from-playable* critical 4 | ✅         | ❌         | *Critical 4 Bluff*
+| Type of Card                      | Color Clue | Number Clue | Name of Convention
+| ----------------------------------| ---------- | ----------- | ------------------
+| any *one-away-from-playable* card | ✅         | ✅         | *Bluff*
+| any *two-away-from-playable* 3    | ✅         | ✅         | *3 Bluff*
+| any critical non-5                | ✅         | ❌         | *Critical Color Bluff*

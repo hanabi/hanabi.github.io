@@ -1,11 +1,11 @@
-# 2-Player Conventions for the Hyphenated Framework
+# 2-Player Conventions for the H-Group Framework
 
 <br />
 
 ## Introduction
 
-- Our group generally only plays games with 3 to 5 players, since 2-player games are not as fun / not as skill-based. In general, the *Hyphenated Conventions Framework* is **not optimized for only 2-players**.
-- With that said, it is possible to use the Hyphenated convention framework to also play 2-player games. Expert players can usually get perfect scores with ease (depending on the variant).
+- Our group generally only plays games with 3 to 5 players, since 2-player games are not as fun / not as skill-based. In general, the *H-Group Conventions Framework* is **not optimized for only 2-players**.
+- With that said, it is possible to use the H-Group convention framework to also play 2-player games. Expert players can usually get perfect scores with ease (depending on the variant).
 - This page provides some extra conventions that are used by our group while playing 2-player games.
 - The goal of these conventions is to get the highest average score for the classic variants (`No Variant` and `Rainbow (6 Suit)`) over a large series of games. Thus, they are designed to be quite conservative. If you are playing a more difficult variant, then it might be prudent to play more risky by disabling certain conventions (e.g. one-away saves, DDA) and adding other ones (e.g. positional discards).
 
@@ -79,7 +79,7 @@
 ### Scream Discard Modification
 
 - In non-2-player games, *Scream Discards* are only to be used as a last-resort. For example, you are **not** allowed to *Scream Discard* to *Chop Move* a non-critical one-away 3. This is because there is always a risk of discarding a critical card by accident.
-- However, this logic does not apply to 2-player games. In a 2-player game, the other player will typically always keep your chop save.
+- However, this logic does not apply to 2-player games. In a 2-player game, the other player will typically always keep your chop safe.
 - Thus, in 2-player games, you can *Scream Discard Chop Move* a non-critical but-still-useful card if you want.
 
 ### Double Discard Save Stalls

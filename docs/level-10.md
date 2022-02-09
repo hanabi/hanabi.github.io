@@ -14,6 +14,7 @@ import RankDisconnectBluffImpossible from '@site/image-generator/yml/level-10/ra
 import RankConnectFinesseImpossible from '@site/image-generator/yml/level-10/rank-connect-finesse-impossible.yml';
 import ColorConnectRainbow from '@site/image-generator/yml/level-10/color-connect-rainbow.yml';
 import ColorConnectRainbowFinesseImpossible from '@site/image-generator/yml/level-10/color-connect-rainbow-finesse-impossible.yml';
+import GuidePrinciple from '@site/image-generator/yml/level-10/guide-principle.yml';
 import BluffPromptsPromptBluffs from '@site/image-generator/yml/level-10/bluff-prompts-prompt-bluffs.yml';
 
 - This level introduces *Bluffs*, a way to tell a *Fib* to the next player to cause them to blind-play.
@@ -220,6 +221,8 @@ import BluffPromptsPromptBluffs from '@site/image-generator/yml/level-10/bluff-p
   - Normally, Bob would play it safe and save the 5. However, in this case, he knows that *Guide Principle* applies, and Alice is guiding him to play right now.
   - Bob blind-plays his *Finesse Position*. It is the red 1 and it successfully plays.
   - Cathy does not discard since Alice saw that Cathy had something to clue.
+
+<GuidePrinciple />
 
 <br />
 

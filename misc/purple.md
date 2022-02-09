@@ -12,7 +12,7 @@ Zamiel "owns" the Discord server, but for most intents and purposes, we want the
 - Help moderate the chat. We expect all chatters to follow the rules posted in the `#rules-and-resources` channel.
   - For example, feel free to delete gore, porn, spam, and so forth.
 - Ask in the `#moderator-only` channel before doing things like creating new channels, and so forth. If you aren't sure, just ask.
-- Give players the green "H-Group - Some Experience" role once you have played a game with them and they have demonstrated that they have read and understood the beginner's guide.
+- Give new players the green role once you have played a game with them and confirmed that they have demonstrated the criteria listed in the #role-explanations channel. (There's no need to announce this to others.)
 
 <br />
 
@@ -26,7 +26,7 @@ Zamiel "owns" the Discord server, but for most intents and purposes, we want the
 
 ## The Culture
 
-- Purple people are seen as ambassadors of the Hyphenated group, and as ambassadors of Hanabi more generally.
+- Purple people are seen as ambassadors of the group, and as ambassadors of Hanabi more generally.
 - Thus, we want purple people to outwardly reflect the values of the group - values that you presumably already know.
 
 ### Politeness

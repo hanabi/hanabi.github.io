@@ -25,15 +25,15 @@ import DelayedPlayCluesQuestion1 from '@site/image-generator/yml/beginner/delaye
 - Cathy writes a *card note* with the identity of the card.
 
 1. What *card note* does Cathy write?
-2. Is this a *Delayed Play Clue*?
-3. What action should Cathy perform?
+1. Is this a *Delayed Play Clue*?
+1. What action should Cathy perform?
 
 </TabItem>
 <TabItem value="solution">
 
 1. Cathy writes a *card note* of "red 3".
-2. Yes, this is a *Delayed Play Clue* through the red 2.
-3. Since Cathy cannot play the red 3 yet, she should give an unrelated clue or discard.
+1. Yes, this is a *Delayed Play Clue* through the red 2.
+1. Since Cathy cannot play the red 3 yet, she should give an unrelated clue or discard.
 
 </TabItem>
 </Tabs>

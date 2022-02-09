@@ -13,7 +13,7 @@ players:
       - type: x
       - type: g4
       - type: x
-        middle_note: kt
+        trash: true
   - text: "Alice discards:"
   - text: "- Scream Discard for Bob"
   - text: "- Generation Discard for Cathy"

@@ -112,7 +112,7 @@ This process is represented in the following flowchart:
 ### The Finesse
 
 - A *Finesse* is when you get a player to blind-play a card to fulfill a promise that a certain card is playable right now.
-- An example of a *Finesse* can be found in the [beginner's guide](beginner/finesse.md).
+- *Finesses* are covered in detail in the [beginner's guide](beginner/finesse.md).
 - *Finesses* must be on "connecting" cards. (For example, the red 1 leads directly into the red 2, so they are considered to be a "connecting" pair of cards.)
 - When a player is *Finessed*, they should blind-play their card right away in order to demonstrate it!
 
@@ -128,6 +128,12 @@ This process is represented in the following flowchart:
 
 - Even though *Finessed* cards are unclued, you can think of them as having an invisible clue on them. (Because they are already "gotten".)
 - Thus, if a clue touches a *Finessed* card and some other card that did not have a clue on it, then the focus of the clue would be on the other card (because the focus of a clue is always on the "new" card introduced).
+
+<br />
+
+### Prompts > Finesses
+
+- *Prompts* always take precedence over *Finesses*. That means that something can only be a *Finesse* if it is impossible to be a *Prompt*.
 
 <br />
 
@@ -168,4 +174,4 @@ This process is represented in the following flowchart:
 
 - If you press the space bar or left-click on someone else's hand, you can see how the cards appear to them.
 - This is the equivalent of asking "what do you know about your cards?" in real life.
-- This feature is referred to as "empathy" by the Hyphenated group.
+- This feature is referred to as "empathy".

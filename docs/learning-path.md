@@ -28,7 +28,7 @@ The following is a quick summary of the levels.
 | Level Number        | Level Name              | Main Conventions Learned
 | ------------------- | ----------------------- | ------------------------
 | [1](level-1.md)     | Fundamentals            | *[The Early Game](level-1.md#the-early-game)*, *[Prompts](level-1.md#the-prompt)*, *[Finesses](level-1.md#the-finesse)*
-| [2](level-2.md)     | Basic Finesses          | *[5 Stalls](level-2.md#the-5-stall)*, *[Double Finesses](level-2.md#the-double-finesse--triple-finesse--quadruple-finesse)*, *[Reverse Finesses](level-2.md#the-reverse-finesse)*, *[Self-Finesses](level-2.md#the-self-finesse)*
+| [2](level-2.md)     | Basic Finesses          | *[5 Stalls](level-2.md#the-5-stall-cluing-off-chop-5s)*, *[Double Finesses](level-2.md#the-double-finesse--triple-finesse--quadruple-finesse)*, *[Reverse Finesses](level-2.md#the-reverse-finesse)*, *[Self-Finesses](level-2.md#the-self-finesse)*
 | [3](level-3.md)     | Basic Strategy          | *[Playing Multiple 1's](level-3.md#playing-multiple-1s)*, *[The Fix Clue](level-3.md#the-fix-clue)*, *[Sarcastic Discards](level-3.md#the-sarcastic-discard)*
 | [4](level-4.md)     | Chop Moves              | *[Trash Chop Moves](level-4.md#the-trash-chop-move)*, *[5's Chop Moves](level-4.md#the-5s-chop-move-5cm)*
 | [5](level-5.md)     | Intermediate Finesses   | *[Hidden Finesses](level-5.md#the-hidden-finesse)*, *[Layered Finesses](level-5.md#the-layered-finesse)*, *[Clandestine Finesses](level-5.md#the-clandestine-finesse)*, *[Stacked Finesses](level-5.md#the-stacked-finesse)*, *[Ambiguous Finesses](level-5.md#the-ambiguous-finesse)*
@@ -38,7 +38,7 @@ The following is a quick summary of the levels.
 | [9](level-9.md)     | Special Discards        | *[Gentleman's Discards](level-9.md#the-gentlemans-discard)*, *[Baton Discards](level-9.md#the-baton-discard)*, *[Sarcastic Finesses](level-9.md#the-sarcastic-finesse)*, *[Certain Finesses](level-9.md#the-certain-finesse--the-certain-discard)*
 | [10](level-10.md)   | Bluffs                  | *[Bluffs](level-10.md#the-bluff)*
 | [11](level-11.md)   | Context                 | *[Stale 1's Clues](level-11.md#the-stale-1s-clue)*, *[Focus Inversion](level-11.md#focus-inversion)*
-| [12](level-12.md)   | Intermediate Bluffs     | *[3 Bluffs](level-12.md#the-3-bluff)*, *[Critical 4 Bluffs](level-12.md#the-critical-4-bluff)*
+| [12](level-12.md)   | Intermediate Bluffs     | *[3 Bluffs](level-12.md#the-3-bluff)*, *[Critical Color Bluffs](level-12.md#the-critical-color-bluff)*
 | [13](level-13.md)   | Trash Moves             | *[Trash Bluffs](level-13.md#the-trash-bluff)*, *[Trash Pushes](level-13.md#the-trash-push)*
 | [14](level-14.md)   | Double Bluffs           | *[Double Bluffs](level-14.md#the-double-bluff)*, *[4 Double Bluffs](level-14.md#the-4-double-bluff--the-5-double-bluff)*
 | [15](level-15.md)   | Ejections & Discharges  | *[5 Color Ejections](level-15.md#the-5-color-ejection-5ce)*, *[The Unknown Trash Discharge](level-15.md#the-unknown-trash-discharge-1-for-1-form-utd)*
@@ -48,7 +48,7 @@ The following is a quick summary of the levels.
 | [19](level-19.md)   | Advanced Moves          | *[Occupied Play Clues](level-19.md#the-occupied-play-clue--the-occupied-finesse-opc)*, *[Out-of-Order Finesses](level-19.md#the-out-of-order-finesse)*, *[Suboptimal Finesses](level-19.md#the-suboptimal-prompt--the-suboptimal-finesse--the-suboptimal-bluff)*, *[The Good Touch Bluff](level-19.md#the-good-touch-bluff)*, *[The Pestilent Double Bluff](level-19.md#the-pestilent-double-bluff-pdb)*, *[The No-Information Double Finesse](level-19.md#the-no-information-double-finesse)*
 | [20](level-20.md)   | Ignition                | *[Trash Double Ignition](level-20.md#the-trash-double-ignition)*, *[Replay Double Ignition](level-20.md#the-replay-double-ignition)*, *[Poke Double Ignition](level-20.md#the-poke-double-ignition)*, *[Chop Move Ignition](level-20.md#the-chop-move-ignition)*
 | [21](level-21.md)   | Emergency Discards      | *[Echo Scream Discard Chop Moves](level-21.md#the-echo-scream-discard-chop-move)*
-| [22](level-22.md)   | Charms & Miscellaneous  | *[4 Charms](level-22.md#the-4-charm)*, *[Blaze Discards](level-22.md#the-blaze-discard)*, [*Finesses* with a *Lie Component*](level-22.md#finesses-with-a-lie-component), *[Hesitation Blind-Plays](level-22.md#the-hesitation-blind-play)*
+| [22](level-22.md)   | Charms & Miscellaneous  | *[4 Charms](level-22.md#the-4-charm)*, *[Blaze Discards](level-22.md#the-blaze-discard)*, *[Hesitation Blind-Plays](level-22.md#the-hesitation-blind-play)*
 | [23](level-23.md)   | Unnecessary Moves       | *[Unnecessary Moves](level-23.md#unnecessary-moves)*
 | [Extras](extras.md) | | n/a                   | Other rarely-used conventions / edge-cases
 
@@ -56,7 +56,7 @@ The following is a quick summary of the levels.
 
 ### Variant Summary
 
-Hanab Live has a lot of different variants and the *Hyphenated Group* plays a good mix of them. The point of variants is that they increase the difficulty of the game, giving experienced players an additional challenge. In the same way that it is counterproductive to play with advanced conventions before you have a good grasp of the underlying mechanics, it is equally counterproductive to play with complicated variants. For that reason, beginners should stick to playing "No Variant" until they have the fundamentals down.
+Hanab Live has a lot of different variants and the *H-Group* plays a good mix of them. The point of variants is that they increase the difficulty of the game, giving experienced players an additional challenge. In the same way that it is counterproductive to play with advanced conventions before you have a good grasp of the underlying mechanics, it is equally counterproductive to play with complicated variants. For that reason, beginners should stick to playing "No Variant" until they have the fundamentals down.
 
 The following is a rough description of how some variants map to convention levels.
 

@@ -38,6 +38,6 @@ players:
     cards:
       - type: x
       - type: x
-      - type: 3
+      - type: r
         clue: r
       - type: x

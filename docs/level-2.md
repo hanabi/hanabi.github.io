@@ -1,6 +1,6 @@
 ---
 id: level-2
-title: Level 2 - Basic Finesses
+title: Level 2 - Basic Moves
 ---
 
 import DoublePrompt from '@site/image-generator/yml/level-2/double-prompt.yml';
@@ -186,6 +186,8 @@ import EarlyGameQuestion4 from '@site/image-generator/yml/beginner/early-game-qu
 <WrongPrompt />
 
 ## Questions for Level 2
+
+<!-- lint disable no-undefined-references -->
 
 <Tabs
   defaultValue="question"

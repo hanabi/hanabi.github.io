@@ -47,7 +47,6 @@ import HesitationBlindPlay from '@site/image-generator/yml/level-22/hesitation-b
 
 - *4 Charms* can be given with either a color clue or a number clue.
 - Similar to a *5 Color Ejection*, *Prompts* don't factor into the "three or more blind-plays" rule. Players only count the number of blind-plays.
-- *4 Charms* take precedence over *Safety Charms*. (*Safety Charms* are an advanced move that is covered later.)
 
 <br />
 

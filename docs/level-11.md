@@ -196,7 +196,7 @@ import CluingOnes3 from '@site/image-generator/yml/level-11/cluing-ones-3.yml';
 
 ### Context
 
-- If you are reading this section, you are presumably a more-experienced Hanabi player who has the fundamentals down. So, now is a good time to clear up a potential misconception that you may have about the Hyphenated conventions.
+- If you are reading this section, you are presumably a more-experienced Hanabi player who has the fundamentals down. So, now is a good time to clear up a potential misconception that you may have about our conventions.
 - Up until now, you may have the impression that the group has a lot of conventions, and that if you just memorize all of the conventions, you will become a really good Hanabi player. Or, you may have the impression that the conventions are like laws and that you must always follow them. Neither of these things are true.
 - *Context* is defined as all of the meta-information about the game state. In intermediate and expert games, when determining what a clue means, players must **always** take into account the full context of the game. This means that figuring out what a clue means is never truly as easy as following one of the flowcharts listed on the website.
 - When writing the strategy documentation, it would be distracting to constantly write the word "probably" and to constantly write "this may not apply in all situations" all over the place. For advanced players, this is obvious - Hanabi is complicated enough such that every convention is meant to be broken if the particular situation demands it.
@@ -233,7 +233,7 @@ import CluingOnes3 from '@site/image-generator/yml/level-11/cluing-ones-3.yml';
   - Donald is holding a cluable red 2.
   - Alice would like to get the red 1 and the blue 1 played. (No-one else has a red 1 or a blue 1.) Should she clue 1, red, or blue?
   - Just like in the previous example, cluing number 1 means that the red 2 will have to be clued as a 1-for-1, which results in an efficiency of 3-for-2.
-  - Instead, Alice clues red to Donald, performing the *Finesse* as a 2-for-1. Next, Bob clues blues to Cathy as a 2-for-1. In total, this is a 4-for-2.
+  - Instead, Alice clues blue to Donald as a 2-for-1. Next, Bob will clue red to Donald, performing the *Finesse* as a 2-for-1. In total, this is a 4-for-2.
 
 <CluingOnes2 />
 

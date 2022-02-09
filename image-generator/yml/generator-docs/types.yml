@@ -32,5 +32,6 @@ players:
       - type: rb2
         crossed_out: b
       - type: b345
+        trash: true
         orange: 34
       - type: x

@@ -29,7 +29,7 @@ players:
         clue: 3
         above: Pink 3
         orange: 3
-        below: Trash
+        trash: true
       - type: i12345
         clue: 3
         orange: 3

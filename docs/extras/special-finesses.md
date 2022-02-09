@@ -10,13 +10,11 @@ import PropheticFinesse from '@site/image-generator/yml/extras/special-finesses/
 import PropheticFinesse2 from '@site/image-generator/yml/extras/special-finesses/prophetic-finesse-2.yml';
 import PatchFinesse from '@site/image-generator/yml/extras/special-finesses/patch-finesse.yml';
 import DiseasedClandestineFinesse from '@site/image-generator/yml/extras/special-finesses/diseased-clandestine-finesse.yml';
-import CursedFinesse from '@site/image-generator/yml/extras/special-finesses/cursed-finesse.yml';
 import SurreptitiousFinesse from '@site/image-generator/yml/extras/special-finesses/surreptitious-finesse.yml';
 import InvertedPriorityFinesse from '@site/image-generator/yml/extras/special-finesses/inverted-priority-finesse.yml';
 import ShadowFinesse from '@site/image-generator/yml/extras/special-finesses/shadow-finesse.yml';
 import ReverseShadowFinesse from '@site/image-generator/yml/extras/special-finesses/reverse-shadow-finesse.yml';
 import UnnecessaryForcedReverse from '@site/image-generator/yml/extras/special-finesses/unnecessary-forced-reverse.yml';
-import TrashPushInvertedFinesse from '@site/image-generator/yml/extras/special-finesses/trash-push-inverted-finesse.yml';
 
 ### The Ambiguous Finesse Pass-Back
 
@@ -119,6 +117,8 @@ import TrashPushInvertedFinesse from '@site/image-generator/yml/extras/special-f
 
 <PropheticFinesse2 />
 
+<br />
+
 ### The Patch Finesse
 
 - Sometimes, a player will initiate a *Layered Finesse* on a card that is behind a *one-away-from-playable* card. Normally, this would be quite bad, as the player would blind-play the *one-away-from-playable* card, and it would misplay.
@@ -191,30 +191,6 @@ import TrashPushInvertedFinesse from '@site/image-generator/yml/extras/special-f
   - Bob knows that his 2 must be the blue 2 to connect to the blue 1.
 
 <DiseasedClandestineFinesse />
-
-### The Cursed Finesse
-
-- Commonly, players use a *Double Finesse* or a *Clandestine Finesse* to "get" multiple cards from the next player. This works because the first blind-play "connects" to the clued card, forcing Bob to blind-play again in order to prevent Cathy from misplaying.
-- However, what if a player intentionally performs a *Bluff* where other players can see that it was actually possible to perform a *Double Finesse* or a *Clandestine Finesse*?
-- In this situation, if the cluer is not making a mistake, they are trying to send a deeper message - they want an extra person to blind-play.
-- This is called a *Cursed Finesse* because it requires the situation to be "cured". By performing a *Cure Blind-Play*, the move is transformed from a *Bluff* into a real *Finesse*.
-- For example, in a 4-player game:
-  - It is the first turn and nothing is played on the stacks.
-  - Bob's hand is as follows, from left to right: `red 1, blue 1, green 3, green 3`
-  - Donald's hand is as follows, from left to right: `blue 2, green 4, green 4, yellow 4`
-  - Thus, Alice has a *Free Choice* between cluing blue to Donald and number 2 to Donald. If Alice chooses blue, then it will cause a *Bluff* (as a 2-for-1). If Alice chooses number 2, it will cause a *Clandestine Finesse* (as a 3-for-1).
-  - Alice clues blue to Donald, touching a single blue 2.
-  - Bob tries to blind-play the blue 1 from his *Finesse Position*. Instead, it is a red 1 and it successfully plays. Bob now knows that he was *Bluffed*.
-  - Cathy sees that Alice could have done a *Clandestine Finesse* instead of a *Bluff*. Thus, Cathy knows that this must be a *Cursed Finesse*. Cathy blind-plays her *Finesse Position* (as a *Cure Blind-Play*). It is a red 2 and it successfully plays.
-  - Bob and Donald both gasp in surprise when Cathy blind-plays:
-    - From Bob's perspective, the focus of the clue is a *one-away-from-playable* card, so this cannot be a *Double Bluff*.
-    - From Donald's perspective, this cannot be a normal *Finesse* or a *Double Bluff*, because Cathy would have done nothing, waiting for Bob to play the blue 1 (as a *Finesse*)
-    - From both Bob and Donald's perspective, Bob's red 1 did not connect to Donald's blue card, so this cannot be a *Pestilent Double Bluff*.
-  - Therefore, the team knows that this must have been a *Cursed Finesse*. Bob will now continue to blind-play until he finds his promised blue 1.
-
-<CursedFinesse />
-
-- *Cursed Finesses* can only occur if there is a *Free Choice* during the initial clue.
 
 <br />
 
@@ -334,6 +310,8 @@ import TrashPushInvertedFinesse from '@site/image-generator/yml/extras/special-f
 
 <ReverseShadowFinesse />
 
+<br />
+
 ### The Unnecessary Forced Reverse Trash Finesse (A Gentleman's Discard That Looks Like an Unnecessary Reverse Trash Finesse)
 
 - First, see the section on *[Unnecessary Moves with Known-Trash](../level-23.md#unnecessary-moves-with-known-trash----ignition)*, which defines what a *Unnecessary Trash Finesse* is. Basically, if a *Trash Finesse* is unnecessary, then it also causes a *Chop Move*.
@@ -355,18 +333,4 @@ import TrashPushInvertedFinesse from '@site/image-generator/yml/extras/special-f
 
 <UnnecessaryForcedReverse />
 
-### The Trash Push Inverted Finesse
-
-- First, see the section on *[Unnecessary Moves with Known-Trash](../level-23.md#unnecessary-moves-with-known-trash----ignition)*, which defines what a *Unnecessary Trash Push* is. Basically, if a *Trash Push* is unnecessary, then it also causes an extra blind-play.
-- Normally, the *Unnecessary Trash Push* calls for the very next player to blind-play an unrelated card, similar to a *Bluff*.
-- However, if the very next player can see that it could be a *Finesse* through the *Trash Pushed* card, then they should prefer that interpretation. This is similar to how Bob should always prefer a *Finesse* interpretation over a *Bluff* interpretation.
-- For example, in a 4-player game:
-  - All of the 2's are played on the stacks.
-  - Alice clues number 1 to Cathy, touching a single 1 on her chop. Since all of the 1's are already played, it is globally known that this must be some kind of *Trash Push*.
-  - Bob sees that the pushed card is a red 3. Cathy has no other red cards in her hand, so Alice could have just clued red to Cathy instead of doing a complicated *Trash Push*.
-  - Thus, Bob knows that this is an *Unnecessary Trash Push*. Normally, Bob would immediately blind-play his *Finesse Position* card. However, Bob also sees that Donald has a red 4 in his *Finesse Position*. Since *Finesses* take precedence over *Bluffs*, Bob knows that he should let Donald be the one to blind-play from the unnecessariness.
-  - Bob discards.
-  - Cathy knows that this must be a *Trash Push*. Cathy blind-plays her slot 3 card. It is red 3 instead and it successfully plays.
-  - Similar to Bob, Donald also sees that the *Trash Push* was unnecessary. Since Bob did not blind-play anything, this must be a *Trash Push Inverted Finesse*. Donald blind-plays his *Finesse Position* as red 4 and it successfully plays.
-
-<TrashPushInvertedFinesse />
+<br />

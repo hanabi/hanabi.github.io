@@ -19,9 +19,7 @@ players:
         above: Chop
       - type: 1
         clue: 1
-        below:
-          text: Trash
-          color: peru
+        trash: true
       - type: x
         above:
           text:

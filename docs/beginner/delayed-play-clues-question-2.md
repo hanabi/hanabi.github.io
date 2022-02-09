@@ -25,15 +25,15 @@ import DelayedPlayCluesQuestion2 from '@site/image-generator/yml/beginner/delaye
 - Bob writes a *card note* with the identity of the card.
 
 1. What *card note* does Bob write? (Be specific.)
-2. Is this a *Delayed Play Clue*?
-3. What action should Bob perform?
+1. Is this a *Delayed Play Clue*?
+1. What action should Bob perform?
 
 </TabItem>
 <TabItem value="solution">
 
 1. Bob writes a *card note* of "blue 3, purple 3".
-2. No, this is not a *Delayed Play Clue*. Bob's 3 cannot connect to Cathy's red 1 or green 1 because no-one else has any connecting 2's.
-3. Bob should probably play the 3 immediately (unless he has a good clue to give).
+1. No, this is not a *Delayed Play Clue*. Bob's 3 cannot connect to Cathy's red 1 or green 1 because no-one else has any connecting 2's.
+1. Bob should probably play the 3 immediately (unless he has a good clue to give).
 
 </TabItem>
 </Tabs>

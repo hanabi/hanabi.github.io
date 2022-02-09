@@ -50,16 +50,6 @@ import DoubleOrderChopMove from '@site/image-generator/yml/extras/double-order-c
 
 <br />
 
-### The Hesitation Chop Move (From a Misplay)
-
-- First, see the section on the *[Scream Discard](../level-6.md#the-scream-discard-chop-move-sdcm)* and the *[Hesitation Blind-Play](../level-22.md#the-hesitation-blind-play)*.
-- Remember that as a special exception, *Scream Discards* do **not** apply when a player has a "blind" card to play in their hand **and** the blind card can exist in your hand.
-- Thus, when this occurs, you will usually want to blind-play your *Finesse Position* card, since this sequence of events indicates an *Ambiguous Finesse*.
-- When you blind-play a card in this situation and it misplays, it means that the unusual discard really was a *Scream Discard* after all, so you should treat it like a normal *Scream Discard* and permanently *Chop Move*.
-- This is called a *Hesitation Chop Move* for short, since it was triggered by a (failed) *Hesitation Blind-Play*.
-
-<br />
-
 ### The Negative Self-Chop Move
 
 - If a card has negative 1, 2, 3, and 4 on it, then it is explicitly known to be a 5, while not directly clued.

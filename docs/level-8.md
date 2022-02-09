@@ -15,7 +15,7 @@ import FiveStall from '@site/image-generator/yml/level-8/five-stall.yml';
 
 | Precedence | Type of Clue | Normal Situation (Severity 0) | Early Game (Severity 1) | Double Discard / Scream Discard (Severity 2) | Locked Hand (Severity 3) | 8 Clues (Severity 4)
 | ---------- | ------------ | ----------------------------- | ----------------------- | -------------------------------------------- | ------------------------ | --------------------
-| 1          | Normal *Play Clues* or *Save Clues*                                                                      | ✅ | ✅ | ✅ | ✅ | ✅
+| 1          | Normal *Play Clues* or normal *Save Clues*                                                               | ✅ | ✅ | ✅ | ✅ | ✅
 | 2          | *5 Stall*<br />(cluing off chop 5's)                                                                     | ❌ | ✅ | ✅ | ✅ | ✅
 | 3          | *Tempo Clue Stall*<br />(re-cluing a card to make it play)                                               | ❌ | ❌ | ✅ | ✅ | ✅
 | 4 (tied)   | *Locked Hand Save*<br />(saving any card on chop, as long as doing so would not *Lock* the other player) | ❌ | ❌ | ❌ | ✅ | ✅
@@ -58,9 +58,17 @@ import FiveStall from '@site/image-generator/yml/level-8/five-stall.yml';
 #### Extinguishing Every Clue
 
 - Extinguishing every clue **does** include *5 Stalling*, but it is only mandatory for the team to collectively perform one *5 Stall*. If one *5 Stall* clue has already been given and there is another *5 Stall* clue available, players are allowed to clue it if they want, but they don't have to.
+- Extinguishing every clue **does not** include cluing something in the hand of the player who came directly before. See the *[Permission to Discard](#permission-to-discard-ptd)* section.
 - Extinguishing every clue **does not** include giving *Tempo Clues* (e.g. clues that do not meet *Minimum Clue Value Principle*).
-- Extinguishing every clue **does not** include cluing something in the hand of the player who came directly before. This is because the player who came before did not see anything for the next player to do, and is therefore giving them "permission" to discard. In this situation, cluing is optional; players can choose to either clue the previous hand or discard at their discretion.
 - Extinguishing every clue **does not** include cluing cards that will be almost certainly be *Order Chop Moved* by an upcoming player who already has two or more 1's clued in their hand.
+
+#### Permission to Discard (PTD)
+
+- Normally, you have to "extinguish" every *Play Clue* and *Save Clue* before ending the *Early Game*.
+- However, there are several exceptions, which are listed in the [Extinguishing Every Clue](#extinguishing-every-clue) section.
+- The most important exception is that you are not required to clue the hand of the player who came directly before you. Players in this situation can clue the previous player if they want, or they can discard if they want - it's up to them.
+- This is because if Alice does not see any *Play Clues* or *Save Clues* for Bob to give, then Alice is implicitly giving Bob *Permission to Discard* (or PTD for short).
+- For level 10 players, note that *Permission to Discard* does not apply for Bob when Alice was blind-playing a card in a situation where *Guide Principle* applies.
 
 <br />
 
@@ -108,13 +116,11 @@ import FiveStall from '@site/image-generator/yml/level-8/five-stall.yml';
 
 ### The 5 Stall (Intermediate Section)
 
-- As mentioned in the [beginner's guide](beginner/early-game.md#the-5-stall-cluing-off-chop-5s), *5 Stalls* are when a player clues an off chop 5 purely because they want (or need) to give a stall clue.
+- As mentioned in the [level 2](level-2.md#the-5-stall-cluing-off-chop-5s), *5 Stalls* are when a player clues an off chop 5 purely because they want (or need) to give a stall clue.
 - *5 Stalls* are usually performed in the *Early Game*. Less commonly, they can also be performed in the *Mid-Game* if a player happens to be in a special "stalling" situation where they are not allowed to discard.
 - In the *Early Game*, the team can give as many *5 Stalls* as they want before initiating the *Mid-Game*.
 - Regardless of whether they are done in the *Early Game* or the *Mid-Game*, *5 Stalls* are only allowed if there is nothing else "normal" to do (like playing a card, giving a normal *Play Clue*, or giving a normal *Save Clue*).
-  - However, as an exception, players are also allowed to *5 Stall* if there is **only one** *Play Clue* remaining and it would touch a card that someone else on the team could conceivably *Finesse*. (We refer to this as the *Finesse Position Exception*, or FPE.)
-  - The *Finesse Position Exception* also applies if the same card is in multiple *Finesse Positions* and there is nothing else to do.
-  - The *Finesse Position Exception* applies whenever a player performs a *5 Stall*, regardless of whether it is in the *Early Game* or not.
+  - However, see the *Finesse Position Exception* section below.
 - *5 Stalls* **must** be given to the 5 that is closest to chop. For example, in a 3-player game:
   - It is the *Early Game*. The only thing left for Alice to do is to clue an off chop 5.
   - Bob has two playable 1's on slots 1 and 2. He has a green 5 on slot 4. Bob's 5 is therefore one-away from chop.
@@ -123,9 +129,20 @@ import FiveStall from '@site/image-generator/yml/level-8/five-stall.yml';
 
 <FiveStall />
 
-- Some additional rules for *5 Stalls* are found in the section on [the *Early Game*](#the-early-game-severity-1-stalling).
+- When in the *Early Game*, there is [an additional special rule](#extinguishing-every-clue) for *5 Stalls*.
 
 <br />
+
+### The 5 Stall Finesse Position Exception (FPE)
+
+- Normally, you are only allowed to perform a *5 Stall* if:
+  - it is currently a valid *Stalling Situation*
+  - there are no normal *Play Clues* or normal *Save Clues* to give
+- However, as an exception, players are allowed to *5 Stall* if there is **only one** *Play Clue* remaining and it would touch a card that someone else on the team could possibly *Finesse*. We refer to this as the *Finesse Position Exception*, or FPE for short.
+- The *Finesse Position Exception* **only applies to *5 Stalls***. It does not apply to the *Early Game*.
+- The *Finesse Position Exception* does not apply every time there is a playable card on *Finesse Position*. It only applies when there is a card on *Finesse Position* that can actually be *Finessed* or "gotten" by someone else before the *Early Game* is over.
+- The *Finesse Position Exception* applies if the same card is in multiple *Finesse Positions* and there is nothing else to do.
+- The *Finesse Position Exception* applies whenever a player can perform a *5 Stall*, regardless of whether it is the *Early Game* or the *Mid-Game*.
 
 ### The Locked Hand Save (LHS)
 

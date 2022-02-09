@@ -33,25 +33,35 @@ title: Level 7 - End-Game
 
 ### The Positional Discard (Indicating a Play with a Discard)
 
-- Near the end of the game, if you have no clues left and no cards to play, you can transmit information based on which card you discard.
-- Thus, you can discard the slot in your hand that matches the slot in someone else's hand that they are supposed to play.
-- Usually, players will only do this if they can see all of the remaining useful cards. Since they see everything, they know that they cannot be discarding anything important.
+- Normally, when players discard, they discard their chop card, because discarding anything else could lose an important card.
+- However, this does not apply at the end of the game. At the end of the game, if a player can see every card, then they can infer that all of the unknown cards in their hand are just trash. Subsequently, players in this situation can discard any card that they want, and it won't make a difference.
+- Thus, players in this situation can communicate information based on which card they discard. We agree that if a player discards a weird slot, it communicates that the chosen slot matches a slot in someone else's hand that should be blind-played. This is called a *Positional Discard*.
+- One *Positional Discard* gets one blind-play from another player.
+- After a *Positional Discard*, if two or more players have a playable card on the same slot, then the blind-play is always targeted at the final player with the playable card.
 
 <br />
 
 ### The Positional Misplay (Indicating a Play with a Misplay)
 
-- On the final round of the game, if a player has no cards in their hand to play, a *Positional Discard* from **any** slot will work, because it is globally known that every card is visible.
-- However, sometimes *Positional Discards* are done before the final round while there are still some cards left in the deck. In this situation, if a player discarded their chop card as a *Positional Discard*, this would not work, because discarding chop is the normal action that the rest of the team is expecting.
-- Thus, in order to more strongly communicate the "play this slot" message, they can instead misplay their chop card. Since the rest of the team can see that the card misplayed for "no reason", they can deduce that it was a *Positional Misplay*.
+- Sometimes, a player will want to perform a *Positional Discard*, but it won't work because the other player will interpret it as a normal discard.
+- For example, in a 4-player game:
+  - All the 4's are played on the stacks.
+  - There are 2 cards left in the deck.
+  - Alice has 0 clues available.
+  - Alice sees that every card needed by the team is currently present in other player's hands.
+  - Alice has no clued cards in her hand. Thus, her chop is slot 4.
+  - Donald has an unclued red 5 on his slot 4.
+- In this example, if Alice tried to perform a *Positional Discard* from slot 4, it would not work, because Donald expects Alice to discard slot 4.
+- In order to more strongly communicate the "play this slot" message, players in this situation can instead misplay their chop card. Since the rest of the team can see that the card misplayed for "no reason", they can deduce that it was a *Positional Misplay*.
+- One *Positional Misplay* gets one blind-plays from another player (as long as the *Positional Misplay* was needed because a *Positional Discard* wouldn't work).
 
 <br />
 
 ### The Double Positional Misplay (Indicating Two Plays with a Misplay)
 
-- Normally, the *Positional Misplay* is only used as a last-resort when a *Positional Discard* would not work. But what if a player does a *Positional Misplay* when a normal *Positional Discard* would have gotten the job done?
-- *Positional Discards* and *Positional Misplays* promise that only one card in the specified slot is playable. So, if there are **two** people with a play on the same slot, then it will be ambiguous, because each of them will think that the other person is supposed to play.
-- Thus, a *Positional Misplay* that is unnecessary transforms into a *Double Positional Misplay*, indicating to the team that **two** cards on that exact slot are playable.
+- Normally, the *Positional Misplay* is used as a last-resort when a *Positional Discard* would not work. But what if a player does a *Positional Misplay* anyway, even if a normal *Positional Discard* would have worked? The player must be trying to communicate something extra.
+- We agree that the "extra message" is that two cards are promised to be playable instead of just one.
+- One *Positional Misplay* gets two blind-plays from the team (as long as it was "unnecessary").
 
 <br />
 
