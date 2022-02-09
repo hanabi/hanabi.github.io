@@ -21,3 +21,9 @@ These conventions apply to the "Odds and Evens" variants.
 
 - Similar to the *Pink Prompt Rank Exception*, we agree that *Prompts* do not apply to cards with an odd clue on them, because they could be an unplayable 5.
 - This exception does not apply to even cards. Thus, it is possible to *Wrong Prompt* a player who has unplayable 4's with an even clue on them.
+
+### The Ambiguous O&E Tempo Clue
+
+- Similar to the *[Ambiguous Prism Tempo Clue](prism.md#the-ambiguous-prism-tempo-clue)*, we agree that certain kinds of *Tempo Clues* promise that different kinds of cards are focused:
+  - a color *Tempo Clue* should focus the right-most card
+  - an odd or even *Tempo Clue* should focus the left most card
