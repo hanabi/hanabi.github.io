@@ -8,7 +8,7 @@ import DoubleBluffThreeAway from '@site/image-generator/yml/level-14/double-bluf
 import DoubleBluff from '@site/image-generator/yml/level-14/double-bluff.yml';
 import DoubleHalfBluff from '@site/image-generator/yml/level-14/double-half-bluff.yml';
 import HardDoubleBluff from '@site/image-generator/yml/level-14/hard-double-bluff.yml';
-import DoubleBluffThatLooksLikeTwoFinesses from '@site/image-generator/yml/level-14/double-bluff-that-looks-like-two-finesses.yml';
+import PestilentDoubleBluff from '@site/image-generator/yml/level-14/pestilent-double-bluff.yml';
 import RainbowDoubleBluff from '@site/image-generator/yml/level-14/rainbow-double-bluff.yml';
 
 ## Special Moves
@@ -56,37 +56,27 @@ import RainbowDoubleBluff from '@site/image-generator/yml/level-14/rainbow-doubl
 
 <br />
 
-### The Double Bluff That Looks Like Two Finesses
+### The Pestilent Double Bluff
 
-- Sometimes, a *Double Bluff* can be initiated with a card that is *one-away-from-playable*.
+- Normally, a *Double Bluff* can only be initiated with a card that is not a legal *Bluff*-target. However, this is not always true.
+- Sometimes, Alice can clue a legal *Bluff*-target to make Bob blind-play, and then "force" Cathy to blind-play as well in order to resynchronize the information about the identity of the clued card.
+- This is called a *Pestilent Double Bluff* to distinguish it from the more-normal *Double Bluff* where a non-legal *Bluff*-target is used.
 - For example, in a 4-player game:
   - It is the first turn of the game and nothing is played on the stacks.
-  - Alice clues 2 to Donald, touching a red 2 as a *Play Clue*.
-  - Bob blind-plays yellow 1 from his *Finesse Position*.
-  - Cathy sees that red 2, clued with a rank clue, connects to the yellow 1 but is not a valid finesse target for it. Therefore, this must be a double bluff, and she blind-plays green 1 from her *Finesse Position*.
-  - At first, Donald thought that the 2 in his hand was yellow or green 2 (as a *Finesse* on either Bob or Cathy).
-  - After Bob blind-played, Donald thought that the 2 in his hand was yellow 2 (as a *Finesse* on Bob).
-  - After Cathy blind-played, Donald knows that this was a *Double Bluff*. He first marks his 2 as a red, yellow, blue or purple 2, since any of those would cause Bob to blind-play. He then erases the yellow note, since Cathy's blind-play indicates that the 2 is not a valid finesse target for the yellow 1.
+  - Alice clues number 2 to Donald, touching a red 2 as a *Play Clue*.
+  - Bob blind-plays a blue 1 from his *Finesse Position*.
+  - Cathy sees that right now, Donald will assume that he has the blue 2 (because it directly connects to the blue 1 that Bob blind-played). This is bad, because the card is really a red 2.
+  - Cathy knows that because information is still synchronized amongst the team, Alice must intent for Cathy to blind-play a card as a *Pestilent Double Bluff*.
+  - Cathy blind-plays her *Finesse Position*. It is a green 1 and it successfully plays.
+  - At first, Donald thought that his 2 was either a blue 2 (as a *Finesse* on Bob) or a green 2 (as a *Finesse* on Cathy).
+  - After Bob blind-played, Donald thought that his 2 was a blue 2 (as a *Finesse* on Bob).
+  - After Cathy blind-played, Donald knows that something weird happened. If his 2 really was blue 2, then Cathy would not have blind-played anything, so his 2 cannot be blue 2.
+  - Donald knows that his 2 cannot be green 2 either, or else Bob would not have blind-played anything. (He would have waited for Cathy to blind-play.)
+  - Thus, Donald marks his 2 as either red 2, yellow 2, or purple 2.
 
-<DoubleBluffThatLooksLikeTwoFinesses />
+<PestilentDoubleBluff />
 
-<br />
-
-### Double Bluffs in Rainbow Variants
-
-- The range of notes on the clued card can be much greater when a *Double Bluff* is performed in certain variants.
-- For example, in a 4-player Rainbow (6 Suits) game:
-  - It is the first turn of the game and nothing is played on the stacks.
-  - Alice clues blue to Donald, touching a rainbow 3 as a *Play Clue*.
-  - Bob blind-plays blue 1 from his *Finesse Position*.
-  - Cathy sees that the rainbow 3 was clued with a color clue, but it does not connect to the blue 1. Thus, the rainbow 3 is not a valid *Finesse*-target. Therefore, this must be a *Double Bluff*.
-  - Cathy blind-plays her *Finesse Position*. It is a yellow 1 and it successfully plays.
-  - At first, Donald thought that the blue card in his hand was a rainbow or blue 1 (as a *Play Clue*).
-  - After Bob blind-played, Donald thought that the blue card in his hand was blue 2 (as a *Finesse*).
-  - After Cathy blind-played, Donald knows that this was a *Double Bluff*. He first marks his blue card as blue 2, blue 3, blue 4, rainbow 2, rainbow 3, rainbow 4, since any of those would cause Bob to blind-play. He then erases the blue 2 note, since Cathy's blind-play indicates that the blue card is not a valid finesse target for the yellow 1.
-  - (Donald knows that it cannot be a blue or rainbow 5, or else Bob would have blind-played his *Second Finesse Position* due to *5 Color Ejection*.)
-
-<RainbowDoubleBluff />
+- More examples of a *Pestilent Double Bluff* can be found [here](examples/pestilent-double-bluff.md).
 
 <br />
 
