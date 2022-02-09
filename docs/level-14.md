@@ -56,7 +56,7 @@ import RainbowDoubleBluff from '@site/image-generator/yml/level-14/rainbow-doubl
 
 <br />
 
-### The Pestilent Double Bluff
+### The Pestilent Double Bluff (PDB)
 
 - Normally, a *Double Bluff* can only be initiated with a card that is not a legal *Bluff*-target. However, this is not always true.
 - Sometimes, Alice can clue a legal *Bluff*-target to make Bob blind-play, and then "force" Cathy to blind-play as well in order to resynchronize the information about the identity of the clued card.
