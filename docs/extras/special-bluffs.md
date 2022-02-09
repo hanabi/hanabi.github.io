@@ -118,8 +118,9 @@ import PestilentTripleBluff from '@site/image-generator/yml/extras/special-bluff
 
 ### The Pestilent Triple Bluff
 
-- First, see the section on the *[Pestilent Double Bluff](../level-19.md#the-pestilent-double-bluff-pdb)*.
-- Rarely, it is possible that a *Pestilent*-style clues is performed with a two-away-from-playable card instead of a *one-away-from-playable* card. In this situation, it would transform into a *Triple Bluff* instead of a *Double Bluff*.
+- First, see the section on the *[Pestilent Double Bluff](../level-14.md#the-pestilent-double-bluff-pdb)*.
+- Normally, when cluing a non-trash card, two blind-plays is enough to for the clued player to write the correct note on the card.
+- Rarely, in a 5-player game, two blind-plays is not enough, and the note is still wrong. In these cases, Alice would be intending for Donald to play as a *Pestilent Triple Bluff*.
 - Note that normally, *Triple Bluffs* are explicitly illegal. But *Pestilent Triple Bluffs* are an exception to this rule.
 - For example, in a 5-player game:
   - All the 1's are played on the stacks.

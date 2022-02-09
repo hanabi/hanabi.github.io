@@ -162,7 +162,7 @@ import UnnecessaryForcedReverse from '@site/image-generator/yml/extras/special-f
 
 ### The Pestilent Finesse
 
-- First, see the section on the *[Pestilent Double Bluff](../level-19.md#the-pestilent-double-bluff-pdb)*.
+- First, see the section on the *[Pestilent Double Bluff](../level-14.md#the-pestilent-double-bluff-pdb)*.
 - In the *Pestilent Double Bluff* example, Cathy is supposed to immediately blind-play her *Finesse Position* card in order to "heal" the situation with Bob.
 - However, if Cathy sees that someone else on the team has the red 2 in their *Finesse Position*, then Cathy can see that it is a *Pestilent Finesse* instead of a *Pestilent Bluff*. Cathy can simply let the person with the actual red 2 blind-play and that will "heal" the problem in the exact same way.
 - A *Pestilent Finesse* cannot be in reverse. (In other words, the blind-play must happen before the clued player can misplay.)
@@ -171,7 +171,7 @@ import UnnecessaryForcedReverse from '@site/image-generator/yml/extras/special-f
 
 ### The Diseased Clandestine Finesse
 
-- First, see the section on the *[Pestilent Double Bluff](../level-19.md#the-pestilent-double-bluff-pdb)*.
+- First, see the section on the *[Pestilent Double Bluff](../level-14.md#the-pestilent-double-bluff-pdb)*.
 - In the *Pestilent Double Bluff* example, Cathy is supposed to immediately blind-play her *Finesse Position* card in order to "heal" the situation with Bob.
 - However, if Cathy sees a clue that she can give that will turn the move into a *Clandestine Finesse* on Bob, then she must always do that.
 - For example, in a 4-player game:
