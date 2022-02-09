@@ -43,7 +43,7 @@ title: Level 7 - End-Game
 
 ### The Positional Misplay (Indicating a Play with a Misplay)
 
-- Sometimes, a player will want to perform a *Positional Discard*, but it won't work because the other player will interpet it as a normal discard.
+- Sometimes, a player will want to perform a *Positional Discard*, but it won't work because the other player will interpret it as a normal discard.
 - For example, in a 4-player game:
   - All the 4's are played on the stacks.
   - There are 2 cards left in the deck.
