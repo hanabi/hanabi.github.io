@@ -36,4 +36,6 @@ npx cspell --no-progress --no-summary "misc/**"
 npx cspell --no-progress --no-summary "src/**"
 npx cspell --no-progress --no-summary "static/js/**"
 
+image-generator/check-unused.py
+
 echo "Success!"
