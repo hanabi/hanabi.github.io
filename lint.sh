@@ -36,4 +36,7 @@ npx cspell --no-progress --no-summary "misc/**"
 npx cspell --no-progress --no-summary "src/**"
 npx cspell --no-progress --no-summary "static/js/**"
 
+# Step 4 - Check for unused YML files
+./image-generator/check-unused.py
+
 echo "Success!"
