@@ -14,12 +14,12 @@ pip install -r "$DIR/image-generator/requirements.txt" --quiet
 SECONDS=0
 
 # Test to see if all of the YAML files are valid
-# (by manually invoking the "create-svg.py" script on every YAML file)
+# (by manually invoking the "create_svg.py" script on every YAML file)
 echo "Testing to see if all of the YAML files are valid..."
 YAML_FILES=$(find "$DIR/image-generator/yml" -name '*.yml' -type f)
 for YAML_FILE in $YAML_FILES; do
   echo $YAML_FILE
-  python "$DIR/image-generator/create-svg.py" < "$YAML_FILE" > /dev/null
+  python "$DIR/image-generator/create_svg.py" < "$YAML_FILE" > /dev/null
 done
 echo "All the YAML files are valid. (It took $SECONDS seconds.)"
 

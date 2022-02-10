@@ -32,7 +32,7 @@ jobs:
       - name: Lint Python code
         uses: lgeiger/black-action@master
         with:
-          args: ./image-generator/create-svg.py --check
+          args: ./image-generator/create_svg.py --check
 
       # ----------
       # JavaScript

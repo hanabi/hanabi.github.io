@@ -115,7 +115,7 @@ def main():
     y_max = max(y_offset, left_y_offset)
     svg_file["width"] = x_max
     svg_file["height"] = y_max - y_top
-    svg_file["viewBox"] = "0 {} {} {}".format(y_top, x_max, y_max - y_top)
+    svg_file["viewBox"] = f"0 {y_top} {x_max} {y_max - y_top}"
 
     # Print the SVG file to standard out
     print_svg(svg_file)
@@ -132,9 +132,9 @@ def draw_play_stacks(yaml_file, svg_file):
 
     for color_value in yaml_file["stacks"]:
         color, value = next(iter(color_value.items()))
-        file_name = "{}{}".format(suit_filenames[color], value)
+        file_name = f"{suit_filenames[color]}{value}"
         stack_base_or_card = svg_file.image(
-            "{}/cards/{}.svg".format(PIECES_PATH, file_name),
+            f"{PIECES_PATH}/cards/{file_name}.svg",
             x=x_offset,
             y=0,
             width=CARD_WIDTH,
@@ -267,9 +267,7 @@ def draw_player_card(yaml_file, svg_file, card):
     orange = str(card.get("orange", ""))
 
     if clued:
-        draw_clued_card(
-            yaml_file, svg_file, card_type, crossed_out, orange, x_offset, y_offset
-        )
+        draw_clued_card(svg_file, card_type, crossed_out, orange, x_offset, y_offset)
     else:
         card_type_without_x = card_type[1:]
         draw_unclued_card(
@@ -325,12 +323,10 @@ def draw_unclued_card(
     s.add(card_image)
 
     if pips:
-        draw_card_pips(yaml_file, svg_file, s, pips, crossed_out, orange)
+        draw_card_pips(svg_file, s, pips, crossed_out, orange)
 
 
-def draw_clued_card(
-    yaml_file, svg_file, card_type, crossed_out, orange, x_offset, y_offset
-):
+def draw_clued_card(svg_file, card_type, crossed_out, orange, x_offset, y_offset):
     validate_card_type(card_type)
 
     # Use sets to store the possible ranks and suits
@@ -351,11 +347,11 @@ def draw_clued_card(
         s.add(rect)
         # Always draw pips on clued cards with unknown rank + unknown color
         pips = ranks.union(suits)  # Combine the ranks and the suits together
-        draw_card_pips(yaml_file, svg_file, s, pips, crossed_out, orange)
+        draw_card_pips(svg_file, s, pips, crossed_out, orange)
     elif len(ranks) == 1 and len(suits) != 1:
         # This is a card with a known rank and an unknown color
         card_image = svg_file.image(
-            "{}/cards/{}.svg".format(PIECES_PATH, next(iter(ranks))),
+            f"{PIECES_PATH}/cards/{next(iter(ranks))}.svg",
             x=0,
             y=0,
             width=CARD_WIDTH,
@@ -363,11 +359,11 @@ def draw_clued_card(
         )
         s = svg_file.add(svg_file.svg((x_offset, y_offset), (CARD_WIDTH, CARD_HEIGHT)))
         s.add(card_image)
-        draw_card_pips(yaml_file, svg_file, s, suits, crossed_out, orange)
+        draw_card_pips(svg_file, s, suits, crossed_out, orange)
     elif len(ranks) != 1 and len(suits) == 1:
         # This is a card with a known color and an unknown rank
         card_image = svg_file.image(
-            "{}/cards/{}.svg".format(PIECES_PATH, suit_filenames[next(iter(suits))]),
+            f"{PIECES_PATH}/cards/{suit_filenames[next(iter(suits))]}.svg",
             x=0,
             y=0,
             width=CARD_WIDTH,
@@ -375,14 +371,12 @@ def draw_clued_card(
         )
         s = svg_file.add(svg_file.svg((x_offset, y_offset), (CARD_WIDTH, CARD_HEIGHT)))
         s.add(card_image)
-        draw_card_pips(yaml_file, svg_file, s, ranks, crossed_out, orange)
+        draw_card_pips(svg_file, s, ranks, crossed_out, orange)
     else:
         # An exact card identity was specified
         # (e.g. "r1")
         card_image = svg_file.image(
-            "{}/cards/{}{}.svg".format(
-                PIECES_PATH, suit_filenames[next(iter(suits))], next(iter(ranks))
-            ),
+            f"{PIECES_PATH}/cards/{suit_filenames[next(iter(suits))]}{next(iter(ranks))}.svg",
             x=x_offset,
             y=y_offset,
             width=CARD_WIDTH,
@@ -402,19 +396,18 @@ def validate_card_type(card_type):
         try:
             number = int(character)
             numbers.append(character)
-
         except:
             letters.append(character)
 
     # Validate the suits
     for letter in letters:
         if letter not in all_suits:
-            error('The suit of "{}" is invalid.'.format(letter))
+            error(f'The suit of "{letter}" is invalid.')
 
     # Validate the ranks
     for number in numbers:
         if number not in ALL_RANKS:
-            error('The rank of "{}" is invalid.'.format(number))
+            error(f'The rank of "{number}" is invalid.')
 
     # Validate that the suit comes before the rank
     # e.g. "b3" instead of "3b"
@@ -442,10 +435,10 @@ def validate_card_type(card_type):
         sorted_letters = letters.copy()
         sorted_letters.sort(key=functools.cmp_to_key(compare_suit_letters))
         if letters != sorted_letters:
+            letters_string = "".join(letters)
+            sorted_letters_string = "".join(sorted_letters)
             error(
-                'When defining a card, the suits must be specified in order from left to right. In other words, "{}" should be "{}".'.format(
-                    "".join(letters), "".join(sorted_letters)
-                )
+                f'When defining a card, the suits must be specified in order from left to right. In other words, "{letters_string}" should be "{sorted_letters_string}".',
             )
 
 
@@ -456,7 +449,7 @@ def compare_suit_letters(letter1, letter2):
     return -1
 
 
-def draw_card_pips(yaml_file, svg_file, svg, pips, crossed_out, orange):
+def draw_card_pips(svg_file, svg, pips, crossed_out, orange):
     rank_pip_width = CARD_WIDTH / 5
     for rank in range(1, 6):
         if str(rank) in pips:
@@ -480,7 +473,7 @@ def draw_card_pips(yaml_file, svg_file, svg, pips, crossed_out, orange):
             if str(rank) in crossed_out:
                 rank_pip_rectangle.add(
                     svg_file.image(
-                        "{}/x.png".format(PIECES_PATH),
+                        f"{PIECES_PATH}/x.png",
                         x=CARD_WIDTH / 10 - 6,
                         y=CARD_HEIGHT / 10 - 6,
                         width=12,
@@ -494,7 +487,7 @@ def draw_card_pips(yaml_file, svg_file, svg, pips, crossed_out, orange):
         if color in pips:
             svg.add(
                 svg_file.image(
-                    "{}/pips/{}.svg".format(PIECES_PATH, suit_filenames[color]),
+                    f"{PIECES_PATH}/pips/{suit_filenames[color]}.svg",
                     x=CARD_WIDTH / 2 - 6 - 20 * math.sin(angle * i),
                     y=CARD_HEIGHT / 2 - 6 - 20 * math.cos(angle * i),
                     width=12,
@@ -505,7 +498,7 @@ def draw_card_pips(yaml_file, svg_file, svg, pips, crossed_out, orange):
             if color in crossed_out:
                 svg.add(
                     svg_file.image(
-                        "{}/x.png".format(PIECES_PATH),
+                        f"{PIECES_PATH}/x.png",
                         x=CARD_WIDTH / 2 - 6 - 20 * math.sin(angle * i) - 2,
                         y=CARD_HEIGHT / 2 - 6 - 20 * math.cos(angle * i) - 2,
                         width=16,
@@ -521,7 +514,7 @@ def draw_extra_card_attributes(svg_file, card):
 
     if "trash" in card and card["trash"]:
         trash_image = svg_file.image(
-            "{}/trashcan.png".format(PIECES_PATH),
+            f"{PIECES_PATH}/trashcan.png",
             x=x_offset + 5,
             y=y_offset + 5,
             width=CARD_WIDTH - 10,
@@ -536,7 +529,7 @@ def draw_extra_card_attributes(svg_file, card):
         if "retouched" in card:
             arrow_name += "_dark"
         arrow = svg_file.image(
-            "{}/{}.svg".format(PIECES_PATH, arrow_name),
+            f"{PIECES_PATH}/{arrow_name}.svg",
             x=x_offset + 10,
             y=y_offset - 40,
             width=50,
@@ -612,12 +605,12 @@ def draw_extra_card_attributes(svg_file, card):
 
 
 def draw_textbox(svg_file, opts, offset):
-    if type(opts) == list:
+    if isinstance(opts, list):
         my_offset = offset
         for part in opts:
             my_offset += 5 + draw_textbox(svg_file, part, my_offset)
         return my_offset - offset
-    if type(opts) == str:
+    if isinstance(opts, str):
         text = [opts]
         color = text[0].split()[0].lower()
         if color not in (
@@ -640,7 +633,7 @@ def draw_textbox(svg_file, opts, offset):
             }.get(color, "black")
     else:
         text = opts["text"]
-        if type(text) == str:
+        if isinstance(text, str):
             text = [text]
         color = opts.get("color", "black")
 
@@ -751,7 +744,7 @@ def draw_discard_pile(yaml_file, svg_file):
     y_of_discard_pile = left_y_offset
 
     trash_image = svg_file.image(
-        "{}/trashcan.png".format(PIECES_PATH),
+        f"{PIECES_PATH}/trashcan.png",
         x=x_of_discard_pile,
         y=y_of_discard_pile,
         width=TRASH_WIDTH,
@@ -765,7 +758,7 @@ def draw_discard_pile(yaml_file, svg_file):
     x = x_of_discard_pile + TRASH_WIDTH / 2 - width_total / 2
     y = y_of_discard_pile + TRASH_HEIGHT / 2 - height_total / 2
     for card in yaml_file["discarded"]:
-        draw_clued_card(yaml_file, svg_file, card, set(), set(), x, y)
+        draw_clued_card(svg_file, card, set(), set(), x, y)
         x += CARD_WIDTH / 2
         y += CARD_HEIGHT / 3
 
@@ -852,11 +845,15 @@ def print_svg(svg_file):
     )
 
     # Write the resulting SVG to stdout
-    print(output)
+    printf(output)
+
+
+def printf(*args):
+    print(*args, flush=True)
 
 
 def error(msg: str):
-    print("Error: {}".format(msg), file=sys.stderr)
+    print(f"Error: {msg}", file=sys.stderr, flush=True)
     sys.exit(1)
 
 

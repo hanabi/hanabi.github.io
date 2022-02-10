@@ -1,0 +1,2 @@
+[MESSAGES CONTROL]
+disable=global-statement,invalid-name,line-too-long,missing-function-docstring,missing-module-docstring
