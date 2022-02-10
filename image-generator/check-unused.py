@@ -9,7 +9,7 @@ used_ymls = set()
 used_ymls.add("image-generator/yml/template.yml")
 
 for md in glob.iglob("docs/**.md"):
-    with open(md, "rt") as f:
+    with open(md, "rt", encoding="utf-8") as f:
         for line in f.readlines():
             m = PATTERN.match(line)
             if m:
