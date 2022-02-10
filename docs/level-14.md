@@ -16,7 +16,7 @@ import RainbowDoubleBluff from '@site/image-generator/yml/level-14/rainbow-doubl
 ### The Double Bluff
 
 - Sometimes, Bob and Cathy will have playable cards on their *Finesse Position*. In this situation, you might be able to perform a *Double Finesse* to get them to immediately blind-play. However, this is only possible if both cards are related, and the "connecting" card is available to *Play Clue*.
-- In the same way that you can sometimes perform a *Bluff* when a *Finesse* is not available, you can also sometimes perform a *Double Bluff* when a *Double Finesse* is not available. This is performed by giving a *Play Clue* to non-trash card that not a legal *Bluff*-target.
+- In the same way that you can sometimes perform a *Bluff* when a *Finesse* is not available, you can also sometimes perform a *Double Bluff* when a *Double Finesse* is not available. This is performed by giving a *Play Clue* to a non-trash card that is not a legal *Bluff*-target.
 - For example, in a 4-player game:
   - Red 1 is currently played on the stacks.
   - Alice clues Donald red, which touches a red 4 as a *Play Clue*.
