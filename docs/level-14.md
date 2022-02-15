@@ -117,3 +117,21 @@ import RainbowDoubleBluff from '@site/image-generator/yml/level-14/rainbow-doubl
 | Double Bluff (first blind-player)  | Bluff        | No, **never** do this
 | Double Bluff (second blind-player) | Finesse      | No, **never** do this
 | Double Bluff (second blind-player) | Bluff        | No, **never** do this
+
+<br />
+
+### Interaction between Bob's Truth Principle and Occam's Razor
+
+- First, see the sections on *[Bob's Truth Principle](level-10.md#bobs-truth-principle-part-1)* and *[Occam's Razor](level-10.md#clue-interpretation--occams-razor)*.
+- Normally, Bob follows *Occam's Razor* - he assumes that clues mean the thing with the least amount of blind-plays and *Prompts*.
+- However, sometimes Bob can see that a clue is either a *Double Bluff* or a *Finesse*, where the *Finesse* needs more blind-plays than the *Bluff*.
+- In this situation, even though the *Finesse* requires more blind-plays, we agree that Bob should always assume the *Finesse* interpretation because of *Bob's Truth Principle*.
+- For example in a 3-player game:
+  - On the first turn of the game, Alice clues number 4, touching Bob's slot 1 card as a *Play Clue*.
+  - Bob sees Cathy's *Finesse Position* card is a playable red 1.
+  - Thus, Bob knows that Alice's clue can either be:
+    - a *Reverse Finesse* on a red 4, meaning that Cathy will blind-play the red 1, and then Bob will blind-play the red 2 and the red 3
+    - a *Double Bluff*, meaning that Bob will blind-play some playable card and then Cathy will blind-play the red 1
+  - Bob knows that in this situation, *Bob's Truth Principle* applies, so he knows it must be a *Reverse Finesse* instead of a *Double Bluff*.
+
+<br />
