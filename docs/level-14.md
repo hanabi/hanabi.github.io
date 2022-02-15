@@ -122,10 +122,16 @@ import RainbowDoubleBluff from '@site/image-generator/yml/level-14/rainbow-doubl
 
 ### Interaction between Bob's Truth Principle and Occam's Razor
 
-- Normally, Bob assumes the clue interpretation which requires minimum number of blind plays and *Prompts*, according to *Occam's Razor*.
-- However, sometimes a clue can either be a *Double Bluff* or a *Reverse Finesse* from Bob's perspective where the *Finesse* interpretation needs more blind plays than the *Bluff* interpretation.
-- In such a case, we agree that the *Finesse* interpretation still takes precedence because of *Bob's Truth Principle*.
+- First, see the sections on *[Bob's Truth Principle](level-10.md#bobs-truth-principle-part-1)* and *[Occam's Razor](level-10.md#clue-interpretation--occams-razor)*.
+- Normally, Bob follows *Occam's Razor* - he assumes that clues mean the thing with the least amount of blind-plays and *Prompts*.
+- However, sometimes Bob can see that a clue is either a *Double Bluff* or a *Finesse*, where the *Finesse* needs more blind-plays than the *Bluff*.
+- In this situation, even though the *Finesse* requires more blind-plays, we agree that Bob should always assume the *Finesse* interpretation because of *Bob's Truth Principle*.
 - For example in a 3-player game:
-  - On the first turn of the game, Alice clues rank 4 touching Bob's slot 1.
-  - Bob sees Cathy's finesse position is a playable red 1.
-  - Bob decides his 4 is red 4 and he needs to play red 2 and red 3 to fulfil the *Finesse*, rather than blind playing his finesse position as any unrelated card as a *Double Bluff*.
+  - On the first turn of the game, Alice clues number 4, touching Bob's slot 1 card as a *Play Clue*.
+  - Bob sees Cathy's *Finesse Position* card is a playable red 1.
+  - Thus, Bob knows that Alice's clue can either be:
+    - a *Reverse Finesse* on a red 4, meaning that Cathy will blind-play the red 1, and then Bob will blind-play the red 2 and the red 3
+    - a *Double Bluff*, meaning that Bob will blind-play some playable card and then Cathy will blind-play the red 1
+  - Bob knows that in this situation, *Bob's Truth Principle* applies, so he knows it must be a *Reverse Finesse* instead of a *Double Bluff*.
+
+<br />
