@@ -14,7 +14,7 @@ These conventions apply to any variant with a prism suit.
   - Nothing is played on the stacks.
   - Alice clues green to Cathy, touching a prism 3 as a *Play Clue*.
   - Bob blind-plays a prism 1 from his *Finesse Position*.
-  - Cathy knows that since prism 3 is green this is just a bluff and she marks the card as either prism 3 or green 3 and she doesn't blind play anything 
+  - Cathy knows that since prism 3 is green this is just a bluff and she marks the card as either prism 3 or green 3 and she doesn't blind play anything.
 
 <br />
 
