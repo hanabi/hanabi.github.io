@@ -1,7 +1,7 @@
 const path = require("path");
 
 module.exports = {
-  title: "The H-Group Conventions",
+  title: "H-Group Conventions",
   url: "https://hanabi.github.io",
   baseUrl: "/",
   onBrokenLinks: "throw",
