@@ -66,7 +66,7 @@ import RainbowDoubleBluff from '@site/image-generator/yml/level-14/rainbow-doubl
   - Alice clues number 2 to Donald, touching a red 2 as a *Play Clue*.
   - Bob blind-plays a blue 1 from his *Finesse Position*.
   - Cathy sees that right now, Donald will assume that he has the blue 2 (because it directly connects to the blue 1 that Bob blind-played). This is bad, because the card is really a red 2.
-  - Cathy knows that because information is still synchronized amongst the team, Alice must intent for Cathy to blind-play a card as a *Pestilent Double Bluff*.
+  - Cathy knows that because information is still not synchronized amongst the team, Alice must intent for Cathy to blind-play a card as a *Pestilent Double Bluff*.
   - Cathy blind-plays her *Finesse Position*. It is a green 1 and it successfully plays.
   - At first, Donald thought that his 2 was either a blue 2 (as a *Finesse* on Bob) or a green 2 (as a *Finesse* on Cathy).
   - After Bob blind-played, Donald thought that his 2 was a blue 2 (as a *Finesse* on Bob).
