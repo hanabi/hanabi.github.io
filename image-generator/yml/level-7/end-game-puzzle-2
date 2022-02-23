@@ -21,7 +21,7 @@ players:
       - type: b2
       - type: p3
   - cards:
-      - type: r2
-      - type: r1
+      - type: p2
+      - type: p1
       - type: y4
       - type: r5
