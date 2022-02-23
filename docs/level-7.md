@@ -121,7 +121,6 @@ import EndGamePuzzle3 from '@site/image-generator/yml/level-7/end-game-puzzle-3.
   - Who should be drawing those cards?
   - Does stalling produce a line that is better than playing?
 
-
 ## Questions for Level 7
 
 <!-- lint disable no-undefined-references -->
@@ -141,7 +140,7 @@ import EndGamePuzzle3 from '@site/image-generator/yml/level-7/end-game-puzzle-3.
 <TabItem value="solution">
 
 - It might be tempting for Alice to play her red 4 to allow Cathy to play her red 5, but in fact, doing so will cost the game.
-- This is because the limiting factor is Cathy's ability to play all of her 5s before the deck runs out, and to allow this, the team needs clues in order to stall. Discarding gives back a clue, but playing the 4 does not. 
+- This is because the limiting factor is Cathy's ability to play all of her 5s before the deck runs out, and to allow this, the team needs clues in order to stall. Discarding gives back a clue, but playing the 4 does not.
 - After counting carefully, Alice finds that she must discard and hold on to her 4 until the deck runs out.
 - Bob may freely play his 5, as this generates a clue, but he must ensure that Cathy successfully plays a 5 on this turn, so he may have to clue Cathy to single out her red 5.
 
