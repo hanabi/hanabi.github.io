@@ -5,12 +5,12 @@ stacks:
   - b: 4
   - p: 4
 players:
-    cards:
+    -cards:
       - type: x
       - type: x
       - type: x
       - type: r4
-    cards:
+    -cards:
       - type: y1
       - type: g5
         clue: 5
