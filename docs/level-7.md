@@ -149,8 +149,6 @@ import EndGamePuzzle3 from '@site/image-generator/yml/level-7/end-game-puzzle-3.
 
 <EndGamePuzzle1 />
 
-<!-- lint disable no-undefined-references -->
-
 <Tabs
   defaultValue="question"
   values={[
@@ -174,8 +172,6 @@ import EndGamePuzzle3 from '@site/image-generator/yml/level-7/end-game-puzzle-3.
 </Tabs>
 
 <EndGamePuzzle2 />
-
-<!-- lint disable no-undefined-references -->
 
 <Tabs
   defaultValue="question"
