@@ -5,12 +5,12 @@ stacks:
   - b: 5
   - p: 5
 players:
-    cards:
+    -cards:
       - type: x
       - type: x
       - type: x
       - type: x
-    cards:
+    -cards:
       - type: r5
       - type: p1
       - type: g1
