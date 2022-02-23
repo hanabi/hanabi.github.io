@@ -3,6 +3,10 @@ id: level-7
 title: Level 7 - End-Game
 ---
 
+import EndGamePuzzle1 from '@site/image-generator/yml/level-7/end-game-puzzle-1.yml';
+import EndGamePuzzle2 from '@site/image-generator/yml/level-7/end-game-puzzle-2.yml';
+import EndGamePuzzle3 from '@site/image-generator/yml/level-7/end-game-puzzle-3.yml';
+
 ## Conventions
 
 <br />
@@ -116,3 +120,83 @@ title: Level 7 - End-Game
   - What is the probability of drawing those cards?
   - Who should be drawing those cards?
   - Does stalling produce a line that is better than playing?
+
+## Questions for Level 7
+
+<!-- lint disable no-undefined-references -->
+
+<Tabs
+  defaultValue="question"
+  values={[
+    {label: 'Question', value: 'question'},
+    {label: 'Solution', value: 'solution'},
+  ]}>
+<TabItem value="question">
+
+- There are 4 cards left in the deck, and no clues available. All remaining useful cards are gotten.
+- What action should Alice perform?
+
+</TabItem>
+<TabItem value="solution">
+
+- It might be tempting for Alice to play her red 4 to allow Cathy to play her red 5, but in fact, doing so will cost the game.
+- This is because the limiting factor is Cathy's ability to play all of her 5s before the deck runs out, and to allow this, the team needs clues in order to stall. Discarding gives back a clue, but playing the 4 does not. 
+- After counting carefully, Alice finds that she must discard and hold on to her 4 until the deck runs out.
+- Bob may freely play his 5, as this generates a clue, but he must ensure that Cathy successfully plays a 5 on this turn, so he may have to clue Cathy to single out her red 5.
+
+</TabItem>
+</Tabs>
+
+<EndGamePuzzle1 />
+
+<!-- lint disable no-undefined-references -->
+
+<Tabs
+  defaultValue="question"
+  values={[
+    {label: 'Question', value: 'question'},
+    {label: 'Solution', value: 'solution'},
+  ]}>
+<TabItem value="question">
+
+- There are 5 cards left in the deck, and 3 clues available. The only clued cards are Alice's 5s.
+- What action should Alice perform?
+
+</TabItem>
+<TabItem value="solution">
+
+- It might be tempting for Alice to clue red to Donald, but in fact, doing so converts a guaranteed winning endgame into a very likely winning endgame.
+- This is because the game is guaranteed to end before Alice can make five turns. It is quite possible that Alice will draw two more 5s, and if she takes a turn off to clue the admittedly great finesse, she may not have time to play everything.
+- After counting carefully, Alice finds that she must focus on playing her 5s, and let the team figure out the red suit.
+- It is quite likely that they will use three clues to get all the red cards, but at this point in the game, cluing each playable card separately is sufficient to win.
+
+</TabItem>
+</Tabs>
+
+<EndGamePuzzle2 />
+
+<!-- lint disable no-undefined-references -->
+
+<Tabs
+  defaultValue="question"
+  values={[
+    {label: 'Question', value: 'question'},
+    {label: 'Solution', value: 'solution'},
+  ]}>
+<TabItem value="question">
+
+- There are 2 cards left in the deck, and 3 clues available. No one has any clued cards. One copy of the red 3 is in the discard pile, but Alice has not seen any red 4s yet.
+- What action should Alice perform?
+
+</TabItem>
+<TabItem value="solution">
+
+- Alice sees the red 3 in Donald's hand and the red 5 in Bob's hand. If Alice has a red 4, the situation is very simple; the team will clue the red cards, and then 3,4,5 can be played.
+- However, it is possible that both red 4s are still in the deck. In this case, there would be no time to play the 5 after playing the 4.
+- Alice should discard. She is guaranteed to either have had a red 4 in her hand, or to draw one of the copies. Since the team should have chop moved a unique red 4 by now, she should not expect to discard away the win by doing so.
+- The team can now clue Alice's red 4 to *Finesse* the red 3, and then the red 5 to close out the game.
+
+</TabItem>
+</Tabs>
+
+<EndGamePuzzle3 />
