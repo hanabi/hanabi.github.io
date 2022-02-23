@@ -12,7 +12,7 @@ players:
       - type: r4
     cards:
       - type: y1
-      - type: r5
+      - type: g5
         clue: 5
       - type: g1
       - type: b1
@@ -22,7 +22,7 @@ players:
         clue: 5
       - type: p5
         clue: 5
-      - type: g5
+      - type: r5
         clue: 5
   - cards:
       - type: r2
