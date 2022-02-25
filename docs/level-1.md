@@ -133,7 +133,11 @@ This process is represented in the following flowchart:
 
 ### Prompts > Finesses
 
-- *Prompts* always take precedence over *Finesses*. That means that something can only be a *Finesse* if it is impossible to be a *Prompt*.
+- *Prompts* always take precedence over *Finesses*.
+- That means that if Alice has to decide between:
+  1) playing a card in her hand with a red clue on it, and
+  2) blind-playing a potential red card from her *Finesse Position*
+- Then Alice should always do #1.
 
 <br />
 
