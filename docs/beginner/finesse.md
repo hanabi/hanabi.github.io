@@ -26,10 +26,10 @@ import Finesse2 from '@site/image-generator/yml/beginner/finesse-2.yml';
 
 ### Prompts > Finesses
 
-- ***Prompts* take precedence over *Finesses***.
+- ***Prompts* always take precedence over *Finesses***.
 - This means that if Alice has to decide between:
-  1) playing a card in her hand with a red clue on it, and
-  2) blind-playing a potential red card from her *Finesse Position*
+  1. playing a card in her hand with a red clue on it, and
+  1. blind-playing a potential red card from her *Finesse Position*
 - Then Alice should always do #1.
 
 <br />
