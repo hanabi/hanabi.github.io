@@ -29,21 +29,6 @@ The *H-Group* plays games on the [Hanab Live](https://hanab.live) website and us
     - Click on the "Let's Check" button under "Mic Test".
     - You should see the bars fill up when you talk. If not, then try changing your "Output Device" or figure out what is wrong with your microphone
 
-1. Enable a push to talk hotkey:
-
-    - Click the gear icon for "User Settings" in the bottom-left-hand-corner.
-    - Click on "Voice & Video" under "App Settings" in the left-hand menu.
-    - Select the "Push to Talk" checkbox under "Input Mode".
-    - Click on the "Shortcut" box and press the button on your keyboard that you want to use to enable push-to-talk. (I use left Ctrl, but you can use any key that you want.)
-    - You will have to press this button in order for Discord to transmit your microphone, so make sure to press it whenever you are talking.
-    - **Please** use earbuds or a headset to avoid talk-back (e.g. when people's voices come out of your speakers and get re-transmitted through your microphone).
-
-1. By default, the Discord client comes with some annoying sound effects turned on. Disable them:
-
-    - Click the gear icon for "User Settings" in the bottom-left-hand-corner.
-    - Click on "Notifications" under "App Settings" in the left-hand menu.
-    - Scroll down and turn off the toggle-sliders for "PTT Activate" and "PTT Deactivate".
-
 <br />
 
 ### Joining a Game
