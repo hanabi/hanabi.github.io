@@ -6,7 +6,7 @@ As noted in the [convention changes document](convention-changes.md), sometimes 
 
 ## The Backlog (General Conventions)
 
-- The *Pestilent Double Bluff* was moved from level 19 to level 14.
+n/a 
 
 <br />
 
