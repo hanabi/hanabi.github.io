@@ -420,6 +420,20 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 
 <Promise5ChopMove />
 
+### Pink Promise with a Trash Chop Move
+
+- First, see the section on *[Pink Promise with a 5's Chop Move](#pink-promise-with-a-5s-chop-move)*.
+- In a *5's Chop Move*:
+  - The focus of the clue is the 5 that is one-away from chop.
+  - *Pink Promise* applies to the focused 5.
+  - Other cards, if any, are not necessarily promised to be anything.
+- This same convention applies to a *Trash Chop Move* given with a number clue. In a *Trash Chop Move* given with a number clue:
+  - The focus of the clue is the trash card that is closest to chop.
+  - *Pink Promise* applies to the focus of the clue.
+  - Other cards, if any, are not necessarily promised to be anything.
+
+<br />
+
 ### Pink Promise with a 5 Pull
 
 - First, see the section on *[Pink Promise with a 5's Chop Move](#pink-promise-with-a-5s-chop-move)*.
