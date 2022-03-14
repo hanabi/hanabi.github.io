@@ -24,3 +24,10 @@ These conventions apply to any variant with an omni (touched by all clues) suit.
   - From *Good Touch Principle*, Bob knows that the card as either omni 2, omni 3, omni 4, or omni 5.
   - Alice gives a *Play Clue* to an omni 3 in Cathy's hand.
   - Bob knows that he is *Prompted* for the omni 2. He plays the number 1 card (as opposed to blind-playing slot 1 as a *Finesse*).
+
+### Trash Pushes in Omni
+
+- When a *Trash Push* happens in a normal variant, if more than one card is touched, then all of the touched cards are known to be trash.
+- When a *Trash Push* happens in a variant with an omni suit, if more than one card is touched, it is possible that only the card on chop was trash, and that the other cards touched are useful / critical omni cards.
+- In this situation, after blind-playing the *Trash Pushed* card, the player should first discard the card that initiated the *Trash Push* (the oldest card) and then hold on to the other touched cards.
+  - In this situation, *Good Touch Principle* applies to the other touched cards. The other members of the team must give a *Fix Clue* to those cards if they are also trash.
