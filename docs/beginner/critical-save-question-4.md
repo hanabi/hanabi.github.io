@@ -29,7 +29,7 @@ import CriticalSaveQuestion4 from '@site/image-generator/yml/beginner/critical-s
 
 - Bob knows that this could be a *Play Clue* on the red 1.
 - However, since it touched his chop, it could also be a *Save Clue*. Since red 2 is in the trash and a red clue matches that card, it could be red 2.
-- Bob does not know whether or not this is a *Play Clue* or a *Save Clue*, but he has to treat it as a *Save Clue* for the time being until he gets move information.
+- Bob does not know whether or not this is a *Play Clue* or a *Save Clue*, but he has to treat it as a *Save Clue* for the time being until he gets more information.
 - Bob writes a *card note* that includes the following identities:
   - red 1 (as a *Play Clue*)
   - red 2 (as a *Critical Save*)
