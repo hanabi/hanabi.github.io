@@ -122,7 +122,7 @@ import InformationLock from '@site/image-generator/yml/level-3/information-lock.
   - Alice clues Bob number 1 again, and all the clue does is re-touch the two remaining 1's.
   - Since Bob was going to play his 1's already without Alice doing anything, the clue must have some other meaning. Thus, it is a *Fix Clue*: the 1 that Bob was about to play is bad, and Bob can safely discard it. Bob skips over the 1 that he was about to play (on slot 4) and plays the other one (on slot 3).
 
-<FixClue4 />
+<FixClue4 /> <-here
 
 <br />
 
