@@ -22,7 +22,7 @@ import MinimumClueValuePrincipleQuestion1 from '@site/image-generator/yml/beginn
 
 - Alice is in a special situation where she cannot discard.
 - Bob's blue 4 has been previous touched with a blue clue.
-- Cathy's red 2 and yellow 2 have been previous touched with a number 2 clue.
+- Cathy's red 2 and yellow 2 have previously been touched with a number 2 clue.
 - Enumerate all of the legal *Tempo Clues* that Alice can give.
 
 </TabItem>
