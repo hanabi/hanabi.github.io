@@ -31,7 +31,7 @@ import CriticalSaveQuestion1 from '@site/image-generator/yml/beginner/critical-s
   - a yellow 3 (directly playable)
   - a red 3 (as a *Delayed Play Clue* through Cathy's red 2)
 - However, since it touched his chop, it could also be a *Save Clue*. Since green 3 is in the trash, a number 3 clue matches that, so it could be the matching green 3.
-- Bob does not know whether or not this is a *Play Clue* or a *Save Clue*, but he has to treat it as a *Save Clue* for the time being until he gets move information.
+- Bob does not know whether or not this is a *Play Clue* or a *Save Clue*, but he has to treat it as a *Save Clue* for the time being until he gets more information.
 - Bob writes a *card note* of "yellow 3, red 3, green 3".
 
 </TabItem>
