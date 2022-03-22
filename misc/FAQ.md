@@ -296,12 +296,6 @@ Only if both blind-plays would happen immediately. (e.g. Alice clues Bob, Bob bl
 
 <br />
 
-### Can I perform a *Reverse Patch Finesse*?
-
-No.
-
-<br />
-
 ### Can I perform a *Priority Bluff* that gets a blind-play of a card that is clued in my hand or clued in someone else's hand?
 
 No. That is defined as a *Layered Priority Finesse*.
@@ -346,7 +340,7 @@ Yes.
 
 ### Which convention takes precedence: *Bubblegum Bluff* or a *Trash Finesse* / *Unknown Trash Discharge* / *4 Charm*?
 
-Non-variant-specific take precedence over variant-specific conventions.
+Variant-specific take precedence over non-variant-specific conventions.
 
 <br />
 
