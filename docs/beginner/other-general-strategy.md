@@ -18,7 +18,7 @@ import BeginnersGuideProgress from '@site/src/beginnersGuide.js';
 ### Check Team Chops
 
 - The first thing you should do on your turn is to **look at the chop cards of everyone on the team**.
-- Are there any cards on chop that need to be saved (or *Play Clued*)? If so, do you have to do it, or can someone else do it?
+- Are there any cards on chop that need to be saved (or played)? If so, do you have to do it, or can someone else do it?
   - If no-one else can do it, then you need to give the *Save Clue* (or *Play Clue*), even if you have a card to play.
   - If someone else can do it, would it be better for you to save the card, or for them? If they have a card to play and you do not have a card to play, then it is better teamwork for you to save the card.
 
