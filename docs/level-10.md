@@ -119,7 +119,7 @@ import BluffPromptsPromptBluffs from '@site/image-generator/yml/level-10/bluff-p
 - This is called *Cathy's Connecting Principle* in order to highlight that everyone needs to assume different things than Bob did (before he blind-played anything).
 - If it is ambiguous whether or not the card connects, then everyone should **assume a *Bluff* over a *Finesse***. Note that this is the **opposite** of the precedence in *Bob's Truth Principle*!
 
-#### Example 1 (Color Connect)
+#### Example 1: Color Connect --> *Finesse*
 
 - Red 1 is played on the stacks.
 - Alice clues Cathy red, touching a red card as a *Play Clue*.
@@ -129,7 +129,7 @@ import BluffPromptsPromptBluffs from '@site/image-generator/yml/level-10/bluff-p
 
 <ColorConnect />
 
-#### Example 2 (Color Disconnect)
+#### Example 2: Color Disconnect --> *Bluff*
 
 - Red 1 is played on the stacks.
 - Alice clues Cathy red, touching a red card as a *Play Clue*.
@@ -139,7 +139,7 @@ import BluffPromptsPromptBluffs from '@site/image-generator/yml/level-10/bluff-p
 
 <ColorDisconnect />
 
-#### Example 3 (Rank Connect)
+#### Example 3: Rank Connect --> *Finesse*
 
 - Red 2 is played on the stacks.
 - Alice clues Cathy number 4, touching a 4 as a *Play Clue*.
@@ -148,7 +148,7 @@ import BluffPromptsPromptBluffs from '@site/image-generator/yml/level-10/bluff-p
 
 <RankConnect />
 
-#### Example 4 (Rank Disconnect)
+#### Example 4: Rank Disconnect --> *Bluff*
 
 - Red 2 is played on the stacks.
 - Alice clues Cathy number 4, touching a 4 as a *Play Clue*.
@@ -159,7 +159,7 @@ import BluffPromptsPromptBluffs from '@site/image-generator/yml/level-10/bluff-p
 
 <RankDisconnect />
 
-#### Example 5 (Rank Disconnect Where a *Bluff* Is Impossible)
+#### Example 5: Rank Disconnect Where a *Bluff* Is Impossible --> *Triple Finesse*
 
 - This is a 4-player game.
 - Nothing is played on the stacks.
@@ -171,7 +171,7 @@ import BluffPromptsPromptBluffs from '@site/image-generator/yml/level-10/bluff-p
 
 <RankDisconnectBluffImpossible />
 
-#### Example 6 (Rank Connect Where a *Finesse* Is Impossible)
+#### Example 6: Rank Connect Where a *Finesse* Is Impossible --> *Bluff*
 
 - Red 2 and blue 2 is played on the stacks.
 - Alice clues Cathy number 4, touching a 4 as a *Play Clue*.
@@ -182,7 +182,7 @@ import BluffPromptsPromptBluffs from '@site/image-generator/yml/level-10/bluff-p
 
 <RankConnectFinesseImpossible />
 
-#### Example 7 (Color Connect With Rainbow)
+#### Example 7: Color Connect With Rainbow --> *Finesse*
 
 - This is a game with a rainbow suit. (The other examples in this section assume a "No Variant" game.)
 - Rainbow 1 is played on the stacks.
@@ -192,7 +192,7 @@ import BluffPromptsPromptBluffs from '@site/image-generator/yml/level-10/bluff-p
 
 <ColorConnectRainbow />
 
-#### Example 8 (Color Connect With Rainbow Where a *Finesse* Is Impossible)
+#### Example 8: Color Connect With Rainbow Where a *Finesse* Is Impossible --> *Bluff*
 
 - This is a game with a rainbow suit. (The other examples in this section assume a "No Variant" game.)
 - Rainbow 1 and red 2 are played on the stacks.
