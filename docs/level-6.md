@@ -41,6 +41,7 @@ import DiscardModulation from '@site/image-generator/yml/level-6/discard-modulat
   - The 1 that was played has a **different amount of positive clues** than the other 1's. (Different negative clues are ignored.)
   - The 1 that was played was originally *Finessed* from a clue that happened **before** the number 1 clue.
   - The 1 that was skipped over is known to be bad from contextual information.
+- The *Order Chop Move* only applies to 1s. If it happens with any card that is not a 1, then it is never an *Order Chop Move* and it just means nothing.
 
 <br />
 
