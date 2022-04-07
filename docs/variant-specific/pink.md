@@ -234,7 +234,7 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 
 <br />
 
-## Level 19 - Bubblegum Moves & Other Special Moves
+## Level 19 - Bubblegum Moves
 
 ### The Bubblegum Prompt & The Bubblegum Finesse
 
