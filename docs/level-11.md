@@ -73,16 +73,16 @@ import CluingOnes3 from '@site/image-generator/yml/level-11/cluing-ones-3.yml';
 
 - Example 4:
   - In a 3 player game, Alice has a blue 2 on chop that needs to be saved.
-  - Bob has 2 unknown blue cards. No blue cards have been played yet, so from Bob's perspective, each blue card has a 1/5 chance of being the blue 2.
-  - Cathy has 2 unknown 2's. No 2's have been played yet, so from Cathy's perspective, each 2 has a 1/5 chance of being the blue 2.
+  - Bob has 2 unknown blue cards. No blue cards have been played yet, so from Bob's perspective, each blue card has a 1/9 chance of being the blue 2.
+  - Cathy has 2 unknown 2's. No 2's have been played yet, so from Cathy's perspective, each 2 has a 1/9 chance of being the blue 2.
   - The responsibility is shared, so Bob should perform the clue if Cathy has a good discard, or he can discard and let Cathy do it.
 
 <DuplicationResponsibility4 />
 
 - Example 5:
   - In a 3 player game, Alice has a blue 2 on chop that needs to be saved.
-  - Bob has 2 unknown blue cards. No blue cards have been played yet, so from Bob's perspective, each blue card has a 1/5 chance of being the blue 2.
-  - Cathy has 2 unknown 2's. One 2 has been played already, so from Cathy's perspective, each 2 has a 1/4 chance of being the blue 2.
+  - Bob has 2 unknown blue cards. No blue cards have been played yet, so from Bob's perspective, each blue card has a 1/9 chance of being the blue 2.
+  - Cathy has 2 unknown 2's. One 2 has been played already, so from Cathy's perspective, each 2 has a 1/8 chance of being the blue 2.
   - Thus, it is Bob's responsibility to save the blue 2.
 
 <DuplicationResponsibility5 />
