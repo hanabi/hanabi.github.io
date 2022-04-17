@@ -133,7 +133,7 @@ import InformationLock from '@site/image-generator/yml/level-3/information-lock.
 ### The Sarcastic Discard
 
 - Occasionally, through a mistake (or complicated situation), the same card will be clued in two different people's hands. Generally, this is to be avoided, but sometimes it happens. Handling this can be tricky.
-- Generally, the **first** player who fully realizes that they have the duplicate card should discard it (as opposed to playing it or holding on to it). This is called a *Sarcastic Discard*, and it communicates to the other player that they 100% have the discarded card. (This is because normally, from *Good Touch Principle*, we never discard cards that have been clued, so if a player discards a clued card, something special must be going on.)
+- Generally, the **first** player who fully realizes that they have the duplicate card should discard it (as opposed to playing it or holding on to it). This is called a *Sarcastic Discard*, and it communicates to the other player that they 100% have the discarded card. (This is because normally, from *Good Touch Principle*, we never discard cards that have been clued, so if a player discards a clued non-trash card, something special must be going on.)
 - For example, in a 3-player game:
   - Red 2 is played on the stacks.
   - Alice has one red 3 clued in his hand with just number 3. (She does not know which suit it is.)
@@ -200,6 +200,7 @@ import InformationLock from '@site/image-generator/yml/level-3/information-lock.
 - For example, in a 3-player no variant game:
   - It is the first turn and nothing is played on the stacks.
   - Alice clues Bob red, touching a red card on slot 1 as a *Play Clue*.
+  - Bob looks at Cathy's hand, her *Finesse Position* (slot 1) is not red 1, thus this is not *Finesse*.
   - Bob immediately right-clicks on the card and writes a note of "red 1".
   - This card is now "locked in" as a red 1. No future clues or actions from other players can ever change that.
 
@@ -210,6 +211,7 @@ import InformationLock from '@site/image-generator/yml/level-3/information-lock.
 - For example, in 3-player rainbow game:
   - It is the first turn and nothing is played on the stacks.
   - Alice clues Bob red, touching a red card on slot 1 as a *Play Clue*.
+  - Bob looks at Cathy's hand, her *Finesse Position* (slot 1) is not red 1 or rainbow 1, thus this is not *Finesse*.
   - Bob immediately right-clicks on the card and writes a note" of "red 1 or rainbow 1".
   - This card is now "locked in" as this specific superposition. Future clues and actions can narrow down the cards in the superposition or completely collapse the superposition, but new cards can never be added to the superposition.
 
