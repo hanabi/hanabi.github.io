@@ -9,7 +9,7 @@ import FiveSave from '@site/image-generator/yml/beginner/5-save.yml';
 <BeginnersGuideProgress id="5-save" />
 
 - In Hanabi, there is only one copy of each 5. So, we need to stop players from discarding them.
-- We agree that 5's should be saved with **a number 5 clue**. This is called a *5 Save*.
+- We agree that 5's must be saved with **a number 5 clue**. This is called a *5 Save*.
 - In the example below:
   - Alice clues Bob number 5, which touches a single 5 on slot 5.
   - Before this clue, Bob did not have any clued cards in his hand.
