@@ -7,14 +7,14 @@ stacks:
 discarded:
   - g4
 players:
-  - cards:
-      - type: x
-      - type: x
-      - type: x
-      - type: x
-      - type: x
   - clue_giver: true
     cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
       - type: b
         clue: b
         middle_note: (1)
