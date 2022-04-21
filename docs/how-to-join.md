@@ -27,7 +27,7 @@ The *H-Group* plays games on the [Hanab Live](https://hanab.live) website and us
     - Click on "Voice & Video" under "App Settings" in the left-hand menu.
     - Click on the "Output Device" drop-down and set it to be your microphone.
     - Click on the "Let's Check" button under "Mic Test".
-    - You should see the bars fill up when you talk. If not, then try changing your "Output Device" or figuring out what is wrong with your microphone.
+    - You should see the bars fill up when you talk. If not, then try changing your "Output Device".
 
 1. Enable a push to talk hotkey:
 
