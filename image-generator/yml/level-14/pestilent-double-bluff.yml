@@ -25,11 +25,6 @@ players:
       - type: x
   - cards:
       - type: x
-      - type: x
-      - type: x
-      - type: x
-  - cards:
-      - type: x
       - type: 2
         clue: 2
         middle_note: (R)
