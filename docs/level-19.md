@@ -19,14 +19,22 @@ import NoInformationDoubleBluff from '@site/image-generator/yml/level-19/no-info
 
 <br />
 
+import OccupiedFinesse from '@site/image-generator/yml/level-19/occupied-finesse.yml';
+
 ### The Occupied Play Clue & The Occupied Finesse (OPC)
 
 - If a clue could be given by multiple players, who should give the clue? If some players have known-playable cards and other players have nothing to do, then it makes the most sense to leave the clue for the players who have nothing to do.
-- If someone gives a clue with a globally-known playable card in their hand and forces the next player to have nothing to do, this is bad teamwork - unless there was a reason!
-- When this occurs, the clue should do one "extra" thing:
-  - If the clue would normally be interpreted as a *Save Clue*, then it transforms into an *Occupied Play Clue*.
-  - If the clue would normally be interpreted as a *Play Clue* or a *Prompt*, then it transforms into an *Occupied Finesse*.
-- Note that the concept of being *Occupied* generalizes to lots of different kind of moves. For example, when an *Occupied* player clues an off chop 5, it is certainly not a *5 Stall* - it must be an *Occupied 5 Pull*!
+- If someone gives a clue with a globally-known playable card in their hand and forces the next player to have nothing to do, this is bad teamwork – unless there was a reason!
+- One of the reasons is when the occupied player is the only one in position to perform a *Finesse* or other special move.
+- Another common reason is to get a playable card using a clue which would normally look like a *Save Clue*. When the clue given by an occupied player would normally be interpreted as a *Save Clue*, then it transforms into an *Occupied Play Clue*.
+- All the rules regarding *Play Clues* apply here – for example, if the clued card is one-away from playable, it might be a *Prompt*, a *Bluff*, or a *Finesse* (called an *Occupied Finesse*).
+- Note that the concept of being *Occupied* generalizes to lots of different kind of moves. For example, when an *Occupied* player clues an off chop 5, it is certainly not a *5 Stall* – it must be an *Occupied 5 Pull*!
+- For example, in a 3-player game:
+  - Alice has a globally known playable red 3 in her hand and Bob has nothing to do.
+  - Alice clues number 2 to Cathy, which touches a 2 on her chop. This would normally be a *2-Save*, but since Alice is occupied, it is instead an *Occupied Play Clue*.
+  - Bob knows that he had nothing to do, and the *2-Save* could have been done by him instead of Alice. Thus, it must be an *Occupied Play Clue*. If Bob does nothing, Cathy will misplay her 2 as a yellow 2. Thus, it must be an *Occupied Finesse* on him! Bob plays his finesse position and it plays successfully as a green 1.
+
+<OccupiedFinesse/>
 
 <br />
 
