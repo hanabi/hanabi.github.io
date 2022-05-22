@@ -1,0 +1,32 @@
+stacks:
+  - r: 2
+  - y: 0
+  - g: 0
+  - b: 1
+  - p: 0
+players:
+  - name: Alice
+    clue_giver: true
+    cards:
+      - type: x
+      - type: x
+      - type: r3
+      - type: x
+      - type: x
+  - name: Bob
+    cards:
+      - type: x
+        above: Green 1
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - name: Cathy
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+        clue: 2
+        above: Green 2

@@ -19,14 +19,28 @@ import NoInformationDoubleBluff from '@site/image-generator/yml/level-19/no-info
 
 <br />
 
+import OccupiedFinesse from '@site/image-generator/yml/level-19/occupied-finesse.yml';
+
 ### The Occupied Play Clue & The Occupied Finesse (OPC)
 
-- If a clue could be given by multiple players, who should give the clue? If some players have known-playable cards and other players have nothing to do, then it makes the most sense to leave the clue for the players who have nothing to do.
-- If someone gives a clue with a globally-known playable card in their hand and forces the next player to have nothing to do, this is bad teamwork - unless there was a reason!
-- When this occurs, the clue should do one "extra" thing:
+- Often, players will have a choice between playing a card and giving a clue. By default, it makes more sense for players to play the card and let some other teammate give the clue. That's just good teamwork!
+- On the other hand, in a lot of situations, players who have a playable card will *still* need to give a clue. Since Hanabi has asymmetric information, it is common that only one player will have the necessary knowledge to perform a *Finesse* or *Prompt* (or some other time-sensitive clue). Thus, if a player with a playable card is the only one who can reasonably give a certain type of clue, then it makes sense for them to perform the clue now, and then play their playable card later.
+- Similarly, if there are two or more clues that need to be given, then it makes sense for Alice and Bob to team up and perform the two actions in sequence. (If Alice has a playable card, this isn't really relevant; the two things would need to be clued regardess of whether Alice had a playable card or not.)
+- This section does not apply to those situations. Rather, it **only** applies when a clue really could have been given by two or more players, but a player with a playable card "stole" the clue, leaving the next player with nothing to do but to discard.
+- If a player "steals" a clue in this way, we would say that the player was *Occupied*. When an *Occupied* player gives a clue, it has a special meaning:
   - If the clue would normally be interpreted as a *Save Clue*, then it transforms into an *Occupied Play Clue*.
-  - If the clue would normally be interpreted as a *Play Clue* or a *Prompt*, then it transforms into an *Occupied Finesse*.
-- Note that the concept of being *Occupied* generalizes to lots of different kind of moves. For example, when an *Occupied* player clues an off chop 5, it is certainly not a *5 Stall* - it must be an *Occupied 5 Pull*!
+  - If the clue would normally be interpreted as a *Play Clue*, then it transforms into an *Occupied Finesse*.
+  - And so on. In general, an *Occupied* move does one "extra" thing than would it normally would do.
+- For example, in a 3-player game:
+  - Red 2 and blue 1 are played on the stacks.
+  - Alice has a globally-known playable red 3 in her hand and Bob has nothing to do.
+  - Alice clues number 2 to Cathy, which touches a green 2 on her chop. This would normally be a *2-Save*.
+  - However, since Alice is *Occupied* and Bob could have given the exact same clue, and Bob has nothing to do on his turn but to discard, the *2 Save* transforms into an *Occupied Play Clue*.
+  - Next, Bob sees that Alice's clue was *Occupied*. Thus, Bob knows that Cathy will go on to play the card.
+  - If Bob does nothing, Cathy will think that this is an *Occupied Play Clue* on the blue 2. Since she really has a green 2, it will misplay.
+  - Thus, Alice must intend for an *Occupied Finesse*. Bob plays his *Finesse Position*. It is a green 1 and it successfully plays.
+
+<OccupiedFinesse/>
 
 <br />
 
