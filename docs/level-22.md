@@ -40,7 +40,7 @@ import HesitationBlindPlay from '@site/image-generator/yml/level-22/hesitation-b
   - Alice clues number 4 clue to Cathy, touching a red 4 on slot 1 as a *Play Clue*.
   - Bob knows that normally, this would be a *Finesse* on the red 4, meaning that he should blind-play a red 1, a red 2, and a red 3. (Bob does not see any red cards in anyone else's hands.)
   - Since the *Finesse* requires three blind-plays, it is unlikely, and Bob knows he is supposed to revert to a different interpretation.
-  - Bob sees that Cathy has a non-playable card on her *Finesse Position*, so a *4 Double Bluff* is impossible.
+  - Bob sees that Cathy has a currently not playable card on her *Finesse Position*, so a *4 Double Bluff* is impossible.
   - Thus, Bob knows that this must be a *4 Charm*. He blind-plays his *Fourth Finesse Position*. It is a blue 1 and it successfully plays.
 
 <FourCharm />
