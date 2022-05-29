@@ -49,7 +49,7 @@ These conventions apply to variants with rainbow-ones or rainbow-fives.
 - Similar to how there is a *Pink Prompt Rank Exception* for pink cards, there is also a *Color Prompt Exception* for rainbow-ones.
 - In other words, cards in a player's hand that are clued with a single color clue are not treated to be a potential 1.
 - For example, in a 3-player game:
-  - Bob's slot 2 card has a blue clue on it (and no other positive or negative clues).
+  - Bob's slot 2 card has a green clue on it (and no other positive or negative clues).
   - Alice clues red to Cathy, touching a red 2 as a *Play Clue*.
   - Bob knows that if the green card in his hand is red 1, then this would be a *Prompt*.
   - Bob knows that if the green card in his hand is not red 1, then this would be a *Finesse*.
