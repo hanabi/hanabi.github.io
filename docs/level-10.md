@@ -96,7 +96,7 @@ import BluffPromptsPromptBluffs from '@site/image-generator/yml/level-10/bluff-p
 - For example, in a 4-player game:
   - All of the 1's are played on the stacks.
   - Cathy has a blue 2 on her *Finesse Position*.
-  - Alice clues blues to Donald, highlighting a blue 3 as a *Play Clue*.
+  - Alice clues blue to Donald, highlighting a blue 3 as a *Play Clue*.
   - Now, it is Bob's turn.
 
 <TruthPrinciple />
