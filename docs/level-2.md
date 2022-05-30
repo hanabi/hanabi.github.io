@@ -230,12 +230,13 @@ import EarlyGameQuestion4 from '@site/image-generator/yml/beginner/early-game-qu
 </TabItem>
 <TabItem value="solution2">
   
+
 1. Bob writes "blue 2, blue 3".
-  - Bob knows that this must be a *Play Clue* on the blue card, since it is not on chop. Blue 2 has not been played and has not been touched elsewhere, so this card could be the blue 2.
-  - However, Bob also sees a blue 2 on Cathy's *Finesse Position*, so Alice could have just performed a *Reverse Finesse*. If that is the case, this card could be a blue 3.
+    - Bob knows that this must be a *Play Clue* on the blue card, since it is not on chop. Blue 2 has not been played and has not been touched elsewhere, so this card could be the blue 2.
+    - However, Bob also sees a blue 2 on Cathy's *Finesse Position*, so Alice could have just performed a *Reverse Finesse*. If that is the case, this card could be a blue 3.
 1. Bob must entertain the possibility of a *Reverse Finesse*, so he cannot play the blue card immediately. Assuming there is nothing useful to clue in Alice's hand either, Bob should just discard (and avoid cluing the blue 2).
-  - If Cathy blind-plays her blue 2 on her turn, Bob can replace his note with "blue 3".
-  - If Cathy has nothing more urgent to do and still does not play her blue 2 on her turn, Bob can replace his note with "blue 2".  
+    - If Cathy blind-plays her blue 2 on her turn, Bob can replace his note with "blue 3".
+    - If Cathy has nothing more urgent to do and still does not play her blue 2 on her turn, Bob can replace his note with "blue 2".  
 
 </TabItem>
 </Tabs>

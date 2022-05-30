@@ -14,7 +14,7 @@ players:
       - type: x
   - cards:
       - type: x
-      - type: x
+      - type: b
         clue: b
       - type: x
       - type: x
