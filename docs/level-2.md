@@ -190,18 +190,18 @@ import EarlyGameQuestion4 from '@site/image-generator/yml/beginner/early-game-qu
 <!-- lint disable no-undefined-references -->
 
 <Tabs
-  defaultValue="question"
+  defaultValue="question1"
   values={[
-    {label: 'Question', value: 'question'},
-    {label: 'Solution', value: 'solution'},
+    {label: 'Question 1', value: 'question1'},
+    {label: 'Solution', value: 'solution1'},
   ]}>
-<TabItem value="question">
+<TabItem value="question1">
 
 - It is currently the *Early Game*. There is 1 clue token left.
 - What action should Alice perform?
 
 </TabItem>
-<TabItem value="solution">
+<TabItem value="solution1">
 
 - The only legal move is for Alice to give a *5 Stall* to Donald
   (touching the purple 5).
@@ -211,3 +211,32 @@ import EarlyGameQuestion4 from '@site/image-generator/yml/beginner/early-game-qu
 </Tabs>
 
 <EarlyGameQuestion4 />
+
+<Tabs
+  defaultValue="question2"
+  values={[
+    {label: 'Question 2', value: 'question2'},
+    {label: 'Solution', value: 'solution2'},
+  ]}>
+<TabItem value="question2">
+
+- Alice clues blue to Bob, which touches one card on slot 2.
+- Bob writes a card note with the identity of the card.
+
+1. What *card note* does Bob write?
+1. What action should Bob perform?
+
+</TabItem>
+<TabItem value="solution2">
+  
+1. Bob writes "blue 2, blue 3".
+  - Bob knows that this must be a *Play Clue* on the blue card, since it is not on chop. Blue 2 has not been played and has not been touched elsewhere, so this card could be the blue 2.
+  - However, Bob also sees a blue 2 on Cathy's *Finesse Position*, so Alice could have just performed a *Reverse Finesse*. If that is the case, this card could be a blue 3.
+1. Bob must entertain the possibility of a *Reverse Finesse*, so he cannot play the blue card immediately. Assuming there is nothing useful to clue in Alice's hand either, Bob should just discard (and avoid cluing the blue 2).
+  - If Cathy blind-plays her blue 2 on her turn, Bob can replace his note with "blue 3".
+  - If Cathy has nothing more urgent to do and still does not play her blue 2 on her turn, Bob can replace his note with "blue 2".  
+
+</TabItem>
+</Tabs>
+
+<Level2Question2 />
