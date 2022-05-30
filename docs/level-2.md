@@ -10,6 +10,7 @@ import PromptFinesse from '@site/image-generator/yml/level-2/prompt-finesse.yml'
 import ReverseFinesse from '@site/image-generator/yml/level-2/reverse-finesse.yml';
 import SelfFinesse from '@site/image-generator/yml/level-2/self-finesse.yml';
 import WrongPrompt from '@site/image-generator/yml/level-2/wrong-prompt.yml';
+import Question2 from '@site/image-generator/yml/level-2/question-2.yml';
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -239,4 +240,4 @@ import EarlyGameQuestion4 from '@site/image-generator/yml/beginner/early-game-qu
 </TabItem>
 </Tabs>
 
-<Level2Question2 />
+<Question2 />
