@@ -234,7 +234,7 @@ values={[
    - However, Bob also sees a blue 2 on Cathy's _Finesse Position_, so Alice could have performed a _Reverse Finesse_. If that is the case, this card could be a blue 3.
 1. Bob must entertain the possibility of a _Reverse Finesse_, so he cannot play the blue card immediately. Assuming there is nothing useful to clue in Alice's hand, Bob should just discard (and avoid cluing the blue 2).
    - If Cathy blind-plays her blue 2 on her turn, Bob can update his note to "blue 2, blue 3 if blue 2 f | blue 3".
-   - If Cathy has nothing more urgent to do and still does not play her blue 2 on her turn, Bob can update his note with "blue 2, blue 3 if blue 2 f | blue 3".
+   - If Cathy has nothing more urgent to do and still does not play her blue 2 on her turn, Bob can update his note with "blue 2, blue 3 if blue 2 f | blue 2".
 
 </TabItem>
 </Tabs>
