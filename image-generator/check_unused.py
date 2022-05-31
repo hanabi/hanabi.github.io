@@ -11,7 +11,7 @@ PATTERN = re.compile(r"import.*from.*@site/(image-generator/yml.*yml)")
 
 def main():
     used_yaml_files = set()
-    for markdown_file in glob.iglob("docs/**/*.md", recursive=True):
+    for markdown_file in glob.iglob("docs/**/*.mdx", recursive=True):
         with open(markdown_file, "r", encoding="utf-8") as file:
             for line in file.readlines():
                 match = PATTERN.match(line)
