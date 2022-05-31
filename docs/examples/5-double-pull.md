@@ -11,8 +11,8 @@ The _[5 Double Pull](/extras/pushes-pulls.md#the-5-double-pull-or-the-double-5-p
 
 ![Example Screenshot](/img/examples/5-double-pull.png)
 
-- It is Dr_Kakashi's turn.
-- Dr_Kakashi clues number 5 to invarse. That touches the blue 5. Since the blue 5 is one-away from chop, invarse will think that this is a _5's Chop Move_.
-- The next player is micerang. Micerang knows that performing a _5's Chop Move_ on a playable red 2 is nonsensical, since if Dr_Kakashi had instead clued red to invarse, then invarse would play the red 2 immediately.
+- It is Kakashi's turn.
+- Kakashi clues number 5 to invarse. That touches the blue 5. Since the blue 5 is one-away from chop, invarse will think that this is a _5's Chop Move_.
+- The next player is micerang. Micerang knows that performing a _5's Chop Move_ on a playable red 2 is nonsensical, since if Kakashi had instead clued red to invarse, then invarse would play the red 2 immediately.
 - Micerang knows that since this is the _Early Game_ and a playable card was _5's Chop Moved_, this must be a _5 Double Pull_. Micerang plays his _Finesse Position_ card (slot 1). It is a yellow 1 and it successfully plays.
 - The next player is invarse. Invarse knows that since a _5's Chop Move_ got micerang to blind-play his _Finesse Position_, this must be a _5 Double Pull_. invarse blind-plays the _Chop Moved_ card (slot 2). It is a red 2 and it successfully plays.

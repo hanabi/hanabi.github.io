@@ -11,13 +11,13 @@ The _[Pestilent Double Bluff](../level-14.md#the-pestilent-double-bluff-pdb)_ is
 
 ![Example Screenshot](/img/examples/pestilent-double-bluff.png)
 
-- It is the first turn of the game and Dr_Kakashi starts.
-- Imagine that Dr_Kakashi clues number 2 to RaKXeR. That would touch the red 2 as a _Play Clue_.
+- It is the first turn of the game and Kakashi starts.
+- Imagine that Kakashi clues number 2 to RaKXeR. That would touch the red 2 as a _Play Clue_.
 - The next player is MasN. From MasN's perspective, this looks like a _Finesse_. MasN knows that he probably has the red 1 on his _Finesse Position_. MasN blind-plays his _Finesse Position_ and it is yellow 1 and successfully plays. MasN now knows that he was _Bluffed_.
 - The next player is Kyle. Kyle sees that from RaKXeR's perspective, a _Finesse_ just occurred, and the 2 in RaKXeR's hand is the yellow 2 (to connect to the yellow 1 that was blind-played). This is a problem (because the card really is red 2 and RaKXeR will go on to misplay it).
-- Kyle knows that Dr_Kakashi must be trying to communicate something extra. When this kind of thing happens, it is usually a _Good Touch Bluff_, which means that someone else already has the yellow 2 clued in their hand. However, this is not the case because Dr_Kakashi gave the clue on the first turn of the game and obviously no-one has any clued cards in their hand yet.
-- This must be a _Pestilent Double Bluff_. Kyle can "heal" the situation by blind-playing his _Finesse Position_, and this was Dr_Kakashi's intent all along. Kyle blind-plays his _Finesse Position_ and it is blue 1 and it successfully plays.
-- From RaKXeR's perspective, Dr_Kakashi's move looked like a _Finesse_ after MasN blind-played the yellow 1. However, after Kyle also blind-played a card, RaKXeR gasped in surprise. Something special must be going on, since a _Finesse_ on the yellow 1 into the yellow 2 would never cause Kyle to blind-play.
+- Kyle knows that Kakashi must be trying to communicate something extra. When this kind of thing happens, it is usually a _Good Touch Bluff_, which means that someone else already has the yellow 2 clued in their hand. However, this is not the case because Kakashi gave the clue on the first turn of the game and obviously no-one has any clued cards in their hand yet.
+- This must be a _Pestilent Double Bluff_. Kyle can "heal" the situation by blind-playing his _Finesse Position_, and this was Kakashi's intent all along. Kyle blind-plays his _Finesse Position_ and it is blue 1 and it successfully plays.
+- From RaKXeR's perspective, Kakashi's move looked like a _Finesse_ after MasN blind-played the yellow 1. However, after Kyle also blind-played a card, RaKXeR gasped in surprise. Something special must be going on, since a _Finesse_ on the yellow 1 into the yellow 2 would never cause Kyle to blind-play.
 - Subsequently, RaKXeR knows that his 2 cannot be the yellow 2. Furthermore, RaKXeR also knows that his 2 cannot be the blue 2, because then MasN would not have blind-played anything.
 - Thus, RaKXeR knows that this must be a _Pestilent Double Bluff_ and marks his 2 as either a green 2, a red 2, or a purple 2.
 
@@ -27,8 +27,8 @@ The _[Pestilent Double Bluff](../level-14.md#the-pestilent-double-bluff-pdb)_ is
 
 ![Example Screenshot](/img/examples/pestilent-double-bluff-2.png)
 
-- It is Dr_Kakashi's turn.
-- Imagine that Dr_Kakashi clues number 3 to Kyle. That would touch the blue 3 as a _Play Clue_.
+- It is Kakashi's turn.
+- Imagine that Kakashi clues number 3 to Kyle. That would touch the blue 3 as a _Play Clue_.
 - The next player is Sucubis. He knows that this is a _Finesse_, so he blind-plays his _Finesse Position_ card (slot 1) as a blue 2. Instead, it is a black 2 and it successfully plays. Sucubis now knows that he was _Bluffed_.
 - The next player is Valetta6789. She knows that something weird has just happened. Since black 2 connects to a number 3 clue, Kyle will think that he has the black 3 (and it will go on to misplay).
 - Valetta6789 knows that this must be a _Pestilent Double Bluff_. She blind-plays her _Finesse Position_ card (slot 1). It is purple 1 and it successfully plays.

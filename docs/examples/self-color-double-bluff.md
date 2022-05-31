@@ -11,7 +11,7 @@ The _[Self Color Double Bluff](/extras/special-bluffs.md#self-color-double-bluff
 
 ![Example Screenshot](/img/examples/self-color-double-bluff.png)
 
-- It is Dr_Kakashi's turn.
-- Dr_Kakashi clues black to Kyle, which "fill in" the black 5. (It was already touched by a number 5 clue early on in the game.)
-- Kyle knows that Dr_Kakashi is not in a stalling situation, so this must be a _Self Color Bluff_. Kyle blind-plays his _Finesse Position_ as a _Known Bluff_. It is a yellow 2 and it successfully plays.
-- kimbifille knows that the black 5 is _three-away-from-playable_, so Dr_Kakashi must be intending for a _Self Color Double Bluff_ (instead of a single _Bluff_). Kimbifille blind-plays her _Finesse Position_ card as a _Known Double Bluff_. It is a red 1 and it successfully plays.
+- It is Kakashi's turn.
+- Kakashi clues black to Kyle, which "fill in" the black 5. (It was already touched by a number 5 clue early on in the game.)
+- Kyle knows that Kakashi is not in a stalling situation, so this must be a _Self Color Bluff_. Kyle blind-plays his _Finesse Position_ as a _Known Bluff_. It is a yellow 2 and it successfully plays.
+- kimbifille knows that the black 5 is _three-away-from-playable_, so Kakashi must be intending for a _Self Color Double Bluff_ (instead of a single _Bluff_). Kimbifille blind-plays her _Finesse Position_ card as a _Known Double Bluff_. It is a red 1 and it successfully plays.

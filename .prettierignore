@@ -2,3 +2,6 @@
 .docusaurus
 .cache-loader
 build
+
+# Images
+*.svg
