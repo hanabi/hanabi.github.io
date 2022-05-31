@@ -1,0 +1,4 @@
+# Docusaurus artifacts
+.docusaurus
+.cache-loader
+build
