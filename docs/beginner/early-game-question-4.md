@@ -11,14 +11,14 @@ import EarlyGameQuestion4 from '@site/image-generator/yml/beginner/early-game-qu
 <!-- lint disable no-undefined-references -->
 
 <Tabs
-  defaultValue="question"
-  values={[
-    {label: 'Question', value: 'question'},
-    {label: 'Solution', value: 'solution'},
-  ]}>
+defaultValue="question"
+values={[
+{label: 'Question', value: 'question'},
+{label: 'Solution', value: 'solution'},
+]}>
 <TabItem value="question">
 
-- It is currently the *Early Game*. There is 1 clue token left.
+- It is currently the _Early Game_. There is 1 clue token left.
 - What action should Alice perform?
 
 </TabItem>

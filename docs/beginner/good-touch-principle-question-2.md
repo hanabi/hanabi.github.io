@@ -13,27 +13,27 @@ import GoodTouchPrincipleQuestion2 from '@site/image-generator/yml/beginner/good
 <!-- lint disable no-undefined-references -->
 
 <Tabs
-  defaultValue="question"
-  values={[
-    {label: 'Question', value: 'question'},
-    {label: 'Solution', value: 'solution'},
-  ]}>
+defaultValue="question"
+values={[
+{label: 'Question', value: 'question'},
+{label: 'Solution', value: 'solution'},
+]}>
 <TabItem value="question">
 
 - What action should Alice perform?
-- If Alice should give a clue, what *card note* will be written on the focused card? (Be specific.)
+- If Alice should give a clue, what _card note_ will be written on the focused card? (Be specific.)
 
 </TabItem>
 <TabItem value="solution">
 
-- Alice needs to give a *Play Clue* to Bob's red 2 before it is discarded.
+- Alice needs to give a _Play Clue_ to Bob's red 2 before it is discarded.
 - If Alice clues red, then it would focus the red 2, but the red 4 would be duplicated (because it is already clued in Cathy's hand).
 - If Alice clues number 2, then it would only touch the red 2.
 - Thus, Alice should clue number 2 to Bob.
-- Bob will write a *card note* with the following identities:
-  - red 2 (as a *Play Clue*)
-  - yellow 2 (as a *2 Save*)
-- (Bob knows that it cannot be a *2 Save* on a green 2 because that card is present in Cathy's hand and it is not on chop yet.)
+- Bob will write a _card note_ with the following identities:
+  - red 2 (as a _Play Clue_)
+  - yellow 2 (as a _2 Save_)
+- (Bob knows that it cannot be a _2 Save_ on a green 2 because that card is present in Cathy's hand and it is not on chop yet.)
 
 </TabItem>
 </Tabs>

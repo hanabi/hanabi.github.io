@@ -13,11 +13,11 @@ import SingleCardFocusQuestion4 from '@site/image-generator/yml/beginner/single-
 <!-- lint disable no-undefined-references -->
 
 <Tabs
-  defaultValue="question"
-  values={[
-    {label: 'Question', value: 'question'},
-    {label: 'Solution', value: 'solution'},
-  ]}>
+defaultValue="question"
+values={[
+{label: 'Question', value: 'question'},
+{label: 'Solution', value: 'solution'},
+]}>
 <TabItem value="question">
 
 - Bob has a 5 and a 2 clued in his hand.

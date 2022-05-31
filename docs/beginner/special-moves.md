@@ -9,5 +9,5 @@ import BeginnersGuideProgress from '@site/src/beginnersGuide.js';
 
 - Hanabi is a game of trying to be as efficient as possible, since there is a limited number of clues.
 - Thus, it is ideal to get **two** or more cards to play from **one** clue.
-- Players can use two special "moves" to do this: *Prompts* and *Finesses*.
+- Players can use two special "moves" to do this: _Prompts_ and _Finesses_.
 - Let's go through each of them individually.

@@ -13,22 +13,22 @@ import FinesseQuestion2 from '@site/image-generator/yml/beginner/finesse-questio
 <!-- lint disable no-undefined-references -->
 
 <Tabs
-  defaultValue="question"
-  values={[
-    {label: 'Question', value: 'question'},
-    {label: 'Solution', value: 'solution'},
-  ]}>
+defaultValue="question"
+values={[
+{label: 'Question', value: 'question'},
+{label: 'Solution', value: 'solution'},
+]}>
 <TabItem value="question">
 
-- Alice clues yellow to Cathy, touching a yellow 4 as a *Play Clue*.
-- From Bob's perspective, is this a *Finesse*? Why or why not?
+- Alice clues yellow to Cathy, touching a yellow 4 as a _Play Clue_.
+- From Bob's perspective, is this a _Finesse_? Why or why not?
 
 </TabItem>
 <TabItem value="solution">
 
-- No, it is not a *Finesse*.
-- Bob has a clued 3 in his hand, which could be the yellow 3. Therefore, this could be a *Prompt* on Bob.
-- Bob knows that *Prompts* take precedence over *Finesses*. Since a *Prompt* is possible, it cannot be a *Finesse*.
+- No, it is not a _Finesse_.
+- Bob has a clued 3 in his hand, which could be the yellow 3. Therefore, this could be a _Prompt_ on Bob.
+- Bob knows that _Prompts_ take precedence over _Finesses_. Since a _Prompt_ is possible, it cannot be a _Finesse_.
 
 </TabItem>
 </Tabs>

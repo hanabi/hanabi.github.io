@@ -13,21 +13,21 @@ import EarlyGameQuestion3 from '@site/image-generator/yml/beginner/early-game-qu
 <!-- lint disable no-undefined-references -->
 
 <Tabs
-  defaultValue="question"
-  values={[
-    {label: 'Question', value: 'question'},
-    {label: 'Solution', value: 'solution'},
-  ]}>
+defaultValue="question"
+values={[
+{label: 'Question', value: 'question'},
+{label: 'Solution', value: 'solution'},
+]}>
 <TabItem value="question">
 
-- It is currently the *Early Game*. There is 1 clue token left.
+- It is currently the _Early Game_. There is 1 clue token left.
 - What action should Alice perform?
 
 </TabItem>
 <TabItem value="solution">
 
-- The **only** legal action that Alice can perform is to clue purple to Cathy as a *Play Clue* on the purple 2.
-  - Alice cannot clue number 2 to Cathy, since that would touch red 2 and would violate *Good Touch Principle*.
+- The **only** legal action that Alice can perform is to clue purple to Cathy as a _Play Clue_ on the purple 2.
+  - Alice cannot clue number 2 to Cathy, since that would touch red 2 and would violate _Good Touch Principle_.
 
 </TabItem>
 </Tabs>

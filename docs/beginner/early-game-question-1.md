@@ -13,21 +13,21 @@ import EarlyGameQuestion1 from '@site/image-generator/yml/beginner/early-game-qu
 <!-- lint disable no-undefined-references -->
 
 <Tabs
-  defaultValue="question"
-  values={[
-    {label: 'Question', value: 'question'},
-    {label: 'Solution', value: 'solution'},
-  ]}>
+defaultValue="question"
+values={[
+{label: 'Question', value: 'question'},
+{label: 'Solution', value: 'solution'},
+]}>
 <TabItem value="question">
 
 - On the first turn of the game, Alice clues number 1 to Cathy, touching three cards.
 - Bob discards a red 1.
-- Is it now the *Early Game* or the *Mid-Game*?
+- Is it now the _Early Game_ or the _Mid-Game_?
 
 </TabItem>
 <TabItem value="solution">
 
-- It is the *Mid-Game* because Bob discarded.
+- It is the _Mid-Game_ because Bob discarded.
 
 </TabItem>
 </Tabs>

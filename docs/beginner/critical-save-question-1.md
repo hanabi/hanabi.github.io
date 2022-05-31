@@ -13,26 +13,26 @@ import CriticalSaveQuestion1 from '@site/image-generator/yml/beginner/critical-s
 <!-- lint disable no-undefined-references -->
 
 <Tabs
-  defaultValue="question"
-  values={[
-    {label: 'Question', value: 'question'},
-    {label: 'Solution', value: 'solution'},
-  ]}>
+defaultValue="question"
+values={[
+{label: 'Question', value: 'question'},
+{label: 'Solution', value: 'solution'},
+]}>
 <TabItem value="question">
 
 - Alice clues number 3 to Bob, touching a card on slot 3.
-- Is this a *Play Clue* or a *Save Clue*?
-- What *card note* does Bob write?
+- Is this a _Play Clue_ or a _Save Clue_?
+- What _card note_ does Bob write?
 
 </TabItem>
 <TabItem value="solution">
 
-- Bob knows that this could be a *Play Clue* on:
+- Bob knows that this could be a _Play Clue_ on:
   - a yellow 3 (directly playable)
-  - a red 3 (as a *Delayed Play Clue* through Cathy's red 2)
-- However, since it touched his chop, it could also be a *Save Clue*. Since green 3 is in the trash, a number 3 clue matches that, so it could be the matching green 3.
-- Bob does not know whether or not this is a *Play Clue* or a *Save Clue*, but he has to treat it as a *Save Clue* for the time being until he gets more information.
-- Bob writes a *card note* of "yellow 3, red 3, green 3".
+  - a red 3 (as a _Delayed Play Clue_ through Cathy's red 2)
+- However, since it touched his chop, it could also be a _Save Clue_. Since green 3 is in the trash, a number 3 clue matches that, so it could be the matching green 3.
+- Bob does not know whether or not this is a _Play Clue_ or a _Save Clue_, but he has to treat it as a _Save Clue_ for the time being until he gets more information.
+- Bob writes a _card note_ of "yellow 3, red 3, green 3".
 
 </TabItem>
 </Tabs>

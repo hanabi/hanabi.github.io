@@ -13,16 +13,16 @@ import PlayCluesQuestion2 from '@site/image-generator/yml/beginner/play-clues-qu
 <!-- lint disable no-undefined-references -->
 
 <Tabs
-  defaultValue="question"
-  values={[
-    {label: 'Question', value: 'question'},
-    {label: 'Solution', value: 'solution'},
-  ]}>
+defaultValue="question"
+values={[
+{label: 'Question', value: 'question'},
+{label: 'Solution', value: 'solution'},
+]}>
 <TabItem value="question">
 
 - Alice clues number 4 to Bob, which touches one card on slot 4.
-- From Bob's perspective, this must be a *Play Clue*. Bob marks down the identity of the card.
-- What *card note* does Bob write? (Be specific.)
+- From Bob's perspective, this must be a _Play Clue_. Bob marks down the identity of the card.
+- What _card note_ does Bob write? (Be specific.)
 
 </TabItem>
 <TabItem value="solution">

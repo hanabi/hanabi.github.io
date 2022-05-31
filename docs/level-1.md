@@ -23,37 +23,37 @@ title: Level 1 - Fundamentals
 
 ### The Definition of Playable
 
-- First, see the section on *[Delayed Play Clues](beginner/delayed-play-clues.md)* from the beginner's guide.
-- When we say that an unclued card is currently *playable*, we do **not** mean that the card would be able to play on the stacks right this instant. If an unclued card is *playable*, then what we really mean is that it would be legal for someone to give either a *Play Clue* **or** a *Delayed Play Clue* to the card.
-- In other words, if an unclued *playable* card was given a *Delayed Play Clue*, that card would eventually play on the stack without any additional clues needing to be given by anyone else - all the in-between cards, if any, are present and accounted for.
+- First, see the section on _[Delayed Play Clues](beginner/delayed-play-clues.md)_ from the beginner's guide.
+- When we say that an unclued card is currently _playable_, we do **not** mean that the card would be able to play on the stacks right this instant. If an unclued card is _playable_, then what we really mean is that it would be legal for someone to give either a _Play Clue_ **or** a _Delayed Play Clue_ to the card.
+- In other words, if an unclued _playable_ card was given a _Delayed Play Clue_, that card would eventually play on the stack without any additional clues needing to be given by anyone else - all the in-between cards, if any, are present and accounted for.
 
 <br />
 
 ### One-Away-From-Playable Cards
 
-- As noted in the previous section, sometimes unclued cards happen to be *playable*.
-- Additionally, sometimes unclued cards happen to be *one-away-from-playable*.
-- A card is *one-away-from-playable* if only one other card would need to be given a *Play Clue* or a *Delayed Play Clue* in order to make the card *playable*.
+- As noted in the previous section, sometimes unclued cards happen to be _playable_.
+- Additionally, sometimes unclued cards happen to be _one-away-from-playable_.
+- A card is _one-away-from-playable_ if only one other card would need to be given a _Play Clue_ or a _Delayed Play Clue_ in order to make the card _playable_.
 - For example, in a 3-player game:
   - No red cards are played on the stacks.
   - No player has any red 1's in their hand.
-  - Bob has a red 2 with a number 2 clue on it. (It was saved with a *2 Save* clue earlier on.)
+  - Bob has a red 2 with a number 2 clue on it. (It was saved with a _2 Save_ clue earlier on.)
   - Cathy has an unclued red 3 in her hand.
-  - Alice knows that the unclued red 3 is currently *one-away-from-playable*, because there is only one card needed in order to make it *playable* - the red 1.
-- Players are **not** allowed to give *Play Clues* or *Delayed Play Clues* to *one-away-from-playable* cards - they are not playable yet!
-- Players are **not** allowed to give *Save Clues* to *one-away-from-playable* cards - unless they also happen to be critical.
+  - Alice knows that the unclued red 3 is currently _one-away-from-playable_, because there is only one card needed in order to make it _playable_ - the red 1.
+- Players are **not** allowed to give _Play Clues_ or _Delayed Play Clues_ to _one-away-from-playable_ cards - they are not playable yet!
+- Players are **not** allowed to give _Save Clues_ to _one-away-from-playable_ cards - unless they also happen to be critical.
 
 <br />
 
 ### Save Clues
 
-- You are **only** allowed to give a *Save Clue* to a card that is on chop.
-  - This means that if a clue focuses a non-chop card, then it must be a *Play Clue*!
-- You are **not** allowed to give a *Save Clue* to any card you want. You are **only** allowed to give a *Save Clue* on these specific cards:
-  1. 5's (with a *5 Save* clue, e.g. number 5)
-  1. 2's (with a *2 Save* clue, e.g. number 2)
+- You are **only** allowed to give a _Save Clue_ to a card that is on chop.
+  - This means that if a clue focuses a non-chop card, then it must be a _Play Clue_!
+- You are **not** allowed to give a _Save Clue_ to any card you want. You are **only** allowed to give a _Save Clue_ on these specific cards:
+  1. 5's (with a _5 Save_ clue, e.g. number 5)
+  1. 2's (with a _2 Save_ clue, e.g. number 2)
   1. Critical cards (with either color or number)
-- Additionally, everyone in the group also agrees to never let anyone discard a (unique) playable card. However, a clue to a unique playable card would be defined as a *Play Clue*, not a *Save Clue*.
+- Additionally, everyone in the group also agrees to never let anyone discard a (unique) playable card. However, a clue to a unique playable card would be defined as a _Play Clue_, not a _Save Clue_.
 
 <br />
 
@@ -74,9 +74,9 @@ This process is represented in the following flowchart:
 
 ### The Early Game
 
-- The *Early Game* is the period of time before someone discards for the first time.
-- Players **must** "extinguish" all of the available *Play Clues* and *Save Clues* on the board before ending the *Early Game*.
-  - As outlined in the [beginner's guide](beginner/minimum-clue-value-principle.md), "extinguishing" all the *Play Clues* does **not** include giving *Tempo Clues*. *Tempo Clues* do not meet *Minimum Clue Value Principle*, so in general, they should almost never be given.
+- The _Early Game_ is the period of time before someone discards for the first time.
+- Players **must** "extinguish" all of the available _Play Clues_ and _Save Clues_ on the board before ending the _Early Game_.
+  - As outlined in the [beginner's guide](beginner/minimum-clue-value-principle.md), "extinguishing" all the _Play Clues_ does **not** include giving _Tempo Clues_. _Tempo Clues_ do not meet _Minimum Clue Value Principle_, so in general, they should almost never be given.
 
 <br />
 
@@ -86,57 +86,57 @@ This process is represented in the following flowchart:
 
 ### The 2 Save
 
-- A *2 Save* is when someone uses a number 2 clue to clue a previously-unclued 2 that is on someone's chop. (Everyone agrees that this is just a *Save Clue* instead of a *Play Clue*.)
-- By definition, you can only perform a *2 Save* with a number clue.
-  - If the other copy of the 2 is in the discard pile, then you can save it with color. But that would not be a *2 Save*, that would just be a "normal" *Save Clue*.
+- A _2 Save_ is when someone uses a number 2 clue to clue a previously-unclued 2 that is on someone's chop. (Everyone agrees that this is just a _Save Clue_ instead of a _Play Clue_.)
+- By definition, you can only perform a _2 Save_ with a number clue.
+  - If the other copy of the 2 is in the discard pile, then you can save it with color. But that would not be a _2 Save_, that would just be a "normal" _Save Clue_.
 
 #### The Visible Rule
 
-- Players are **not allowed** to perform a *2 Save* on a 2 if the other copy of the 2 is visible in someone else's hand.
+- Players are **not allowed** to perform a _2 Save_ on a 2 if the other copy of the 2 is visible in someone else's hand.
 
 #### Double Chop 2's
 
-- The exception to the *Visible Rule* is when the same 2 is on two people's chops at the same time. In that situation, players are allowed to *2 Save* whichever one they want. And if it is the *Early Game*, then players **must** choose to save one of them before giving a *5 Stall* or before discarding to initiate the *Mid-Game*.
+- The exception to the _Visible Rule_ is when the same 2 is on two people's chops at the same time. In that situation, players are allowed to _2 Save_ whichever one they want. And if it is the _Early Game_, then players **must** choose to save one of them before giving a _5 Stall_ or before discarding to initiate the _Mid-Game_.
 
 <br />
 
 ### The Prompt
 
-- A *Prompt* is when you get a player to play a clued card that was previously unknown.
-- If the player **was already going to play** the card, then **it isn't a *Prompt***. *Prompts* can only be on cards that were not going to play otherwise.
-- An example of a *Prompt* can be found in the [beginner's guide](beginner/prompt.md).
-- For level 5 players, see the *[Prompts in Multi-Color Variants](level-5.md#prompts-in-multi-color-variants)* section.
+- A _Prompt_ is when you get a player to play a clued card that was previously unknown.
+- If the player **was already going to play** the card, then **it isn't a _Prompt_**. _Prompts_ can only be on cards that were not going to play otherwise.
+- An example of a _Prompt_ can be found in the [beginner's guide](beginner/prompt.md).
+- For level 5 players, see the _[Prompts in Multi-Color Variants](level-5.md#prompts-in-multi-color-variants)_ section.
 
 <br />
 
 ### The Finesse
 
-- A *Finesse* is when you get a player to blind-play a card to fulfill a promise that a certain card is playable right now.
-- *Finesses* are covered in detail in the [beginner's guide](beginner/finesse.md).
-- *Finesses* must be on "connecting" cards. (For example, the red 1 leads directly into the red 2, so they are considered to be a "connecting" pair of cards.)
-- When a player is *Finessed*, they should blind-play their card right away in order to demonstrate it!
+- A _Finesse_ is when you get a player to blind-play a card to fulfill a promise that a certain card is playable right now.
+- _Finesses_ are covered in detail in the [beginner's guide](beginner/finesse.md).
+- _Finesses_ must be on "connecting" cards. (For example, the red 1 leads directly into the red 2, so they are considered to be a "connecting" pair of cards.)
+- When a player is _Finessed_, they should blind-play their card right away in order to demonstrate it!
 
 <br />
 
 ### Finesse Position
 
-- A player's *Finesse Position* refers to the slot that their **left-most unclued card** is in.
+- A player's _Finesse Position_ refers to the slot that their **left-most unclued card** is in.
 
 <br />
 
 ### Finessed Cards
 
-- Even though *Finessed* cards are unclued, you can think of them as having an invisible clue on them. (Because they are already "gotten".)
-- Thus, if a clue touches a *Finessed* card and some other card that did not have a clue on it, then the focus of the clue would be on the other card (because the focus of a clue is always on the "new" card introduced).
+- Even though _Finessed_ cards are unclued, you can think of them as having an invisible clue on them. (Because they are already "gotten".)
+- Thus, if a clue touches a _Finessed_ card and some other card that did not have a clue on it, then the focus of the clue would be on the other card (because the focus of a clue is always on the "new" card introduced).
 
 <br />
 
 ### Prompts > Finesses
 
-- ***Prompts* always take precedence over *Finesses***.
+- **_Prompts_ always take precedence over _Finesses_**.
 - This means that if Alice has to decide between:
   1. playing a card in her hand with a red clue on it, and
-  1. blind-playing a potential red card from her *Finesse Position*
+  1. blind-playing a potential red card from her _Finesse Position_
 - Then Alice should always do #1.
 
 <br />
@@ -156,9 +156,9 @@ This process is represented in the following flowchart:
 - If you are following the beginner's guide, then you should be [writing card notes](beginner/card-notes.md) in every game.
 - Certain special notes [change the appearance of the card for you](https://github.com/Zamiell/hanabi-live/blob/master/docs/FEATURES.md#notes).
   - If you write the name of a card like "red 2" or "r2", the image of the card will snap to the written card.
-  - A note of "f" is used to indicate a card is *Finessed* (meaning that it will blind-play in the future). The website draws a special border around *Finessed* cards.
+  - A note of "f" is used to indicate a card is _Finessed_ (meaning that it will blind-play in the future). The website draws a special border around _Finessed_ cards.
     - You can use `shift + right-click` as a shortcut to add this note.
-  - A note of "cm" is used to indicate a card is *Chop Moved*. The website draws a special border around *Chop Moved* cards. (*Chop Moves* are a special convention introduced in level 3. If you are a level 1 player, don't worry about this for now.)
+  - A note of "cm" is used to indicate a card is _Chop Moved_. The website draws a special border around _Chop Moved_ cards. (_Chop Moves_ are a special convention introduced in level 3. If you are a level 1 player, don't worry about this for now.)
     - You can use `alt + right-click` as a shortcut to add this note.
   - You can also use brackets to stack multiple notes. For example, "[f] [red 2]".
 

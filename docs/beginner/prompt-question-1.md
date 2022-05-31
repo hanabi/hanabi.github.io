@@ -13,11 +13,11 @@ import PromptQuestion1 from '@site/image-generator/yml/beginner/prompt-question-
 <!-- lint disable no-undefined-references -->
 
 <Tabs
-  defaultValue="question"
-  values={[
-    {label: 'Question', value: 'question'},
-    {label: 'Solution', value: 'solution'},
-  ]}>
+defaultValue="question"
+values={[
+{label: 'Question', value: 'question'},
+{label: 'Solution', value: 'solution'},
+]}>
 <TabItem value="question">
 
 - Bob has two unknown 2's previously clued in his hand.
@@ -28,9 +28,9 @@ import PromptQuestion1 from '@site/image-generator/yml/beginner/prompt-question-
 </TabItem>
 <TabItem value="solution">
 
-- Since the red 3 is in this trash, this is a *Critical Save* on the red 3 (i.e. a *Save Clue*).
+- Since the red 3 is in this trash, this is a _Critical Save_ on the red 3 (i.e. a _Save Clue_).
 - Bob should therefore not react in any way.
-- If the red 3 were not in the trash, then it would be a *Prompt* on Bob's left-most 2.
+- If the red 3 were not in the trash, then it would be a _Prompt_ on Bob's left-most 2.
 
 </TabItem>
 </Tabs>

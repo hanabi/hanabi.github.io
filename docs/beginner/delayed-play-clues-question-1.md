@@ -13,26 +13,26 @@ import DelayedPlayCluesQuestion1 from '@site/image-generator/yml/beginner/delaye
 <!-- lint disable no-undefined-references -->
 
 <Tabs
-  defaultValue="question"
-  values={[
-    {label: 'Question', value: 'question'},
-    {label: 'Solution', value: 'solution'},
-  ]}>
+defaultValue="question"
+values={[
+{label: 'Question', value: 'question'},
+{label: 'Solution', value: 'solution'},
+]}>
 <TabItem value="question">
 
-- Alice clues red to Donald, which touches one card on slot 2. (This is a *Play Clue*.)
-- Bob clues red to Cathy, which touches one card on slot 3. (This is a *Play Clue*.)
-- Cathy writes a *card note* with the identity of the card.
+- Alice clues red to Donald, which touches one card on slot 2. (This is a _Play Clue_.)
+- Bob clues red to Cathy, which touches one card on slot 3. (This is a _Play Clue_.)
+- Cathy writes a _card note_ with the identity of the card.
 
-1. What *card note* does Cathy write?
-1. Is this a *Delayed Play Clue*?
+1. What _card note_ does Cathy write?
+1. Is this a _Delayed Play Clue_?
 1. What action should Cathy perform?
 
 </TabItem>
 <TabItem value="solution">
 
-1. Cathy writes a *card note* of "red 3".
-1. Yes, this is a *Delayed Play Clue* through the red 2.
+1. Cathy writes a _card note_ of "red 3".
+1. Yes, this is a _Delayed Play Clue_ through the red 2.
 1. Since Cathy cannot play the red 3 yet, she should give an unrelated clue or discard.
 
 </TabItem>

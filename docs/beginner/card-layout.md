@@ -23,7 +23,7 @@ In this guide, there will be some images to show off the concepts introduced.
   - Thus, Alice's newest card is the blue 1 and Bob's newest card is the red 1.
 - Conversely, the oldest card is the right-most card.
   - Thus, Alice's oldest card is the blue 5 and Bob's oldest card is the red 5.
-- A card's *slot* refers to its position in the hand, from left to right.
+- A card's _slot_ refers to its position in the hand, from left to right.
   - Thus, the blue 1 is on slot 1, the blue 2 is on slot 2, etc.
 
 <CardLayout1 />

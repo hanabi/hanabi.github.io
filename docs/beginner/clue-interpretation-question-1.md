@@ -13,30 +13,30 @@ import ClueInterpretationQuestion1 from '@site/image-generator/yml/beginner/clue
 <!-- lint disable no-undefined-references -->
 
 <Tabs
-  defaultValue="question"
-  values={[
-    {label: 'Question', value: 'question'},
-    {label: 'Solution', value: 'solution'},
-  ]}>
+defaultValue="question"
+values={[
+{label: 'Question', value: 'question'},
+{label: 'Solution', value: 'solution'},
+]}>
 <TabItem value="question">
 
 - Cathy has a completely unclued hand.
 - Alice clues green to Cathy, touching slot 3 and slot 4.
 
 1. What slot is focused?
-1. Is this a *Play Clue* or a *Save Clue*?
-1. What *card note* does Cathy write on the focused card?
+1. Is this a _Play Clue_ or a _Save Clue_?
+1. What _card note_ does Cathy write on the focused card?
 
 </TabItem>
 <TabItem value="solution">
 
 1. Slot 4 is focused (i.e. the chop card).
 1. Since green 2 is played on the stacks, the card on slot 4 must be either a green 3, a green 4, or a green 5.
-    - If it is a green 3, then this would be a *Chop-Focus Play Clue*. That is legal.
-    - If it is a green 4, then it wouldn't make any sense, because green 4 is neither playable nor critical. (All clues must either be *Play Clues* or *Save Clues*.)
-    - If it is a green 5, then it wouldn't make any sense, because green 5 is not playable. Green 5 is critical, but it must be saved with a number 5 clue as a *5 Save*.
-    - Thus, it must be a *Chop-Focus Play Clue* on the green 3.
-1. Cathy writes a *card note* of "green 3" on her slot 4 card.
+   - If it is a green 3, then this would be a _Chop-Focus Play Clue_. That is legal.
+   - If it is a green 4, then it wouldn't make any sense, because green 4 is neither playable nor critical. (All clues must either be _Play Clues_ or _Save Clues_.)
+   - If it is a green 5, then it wouldn't make any sense, because green 5 is not playable. Green 5 is critical, but it must be saved with a number 5 clue as a _5 Save_.
+   - Thus, it must be a _Chop-Focus Play Clue_ on the green 3.
+1. Cathy writes a _card note_ of "green 3" on her slot 4 card.
 
 </TabItem>
 </Tabs>

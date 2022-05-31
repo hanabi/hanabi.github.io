@@ -13,11 +13,11 @@ import GoodTouchPrincipleQuestion4 from '@site/image-generator/yml/beginner/good
 <!-- lint disable no-undefined-references -->
 
 <Tabs
-  defaultValue="question"
-  values={[
-    {label: 'Question', value: 'question'},
-    {label: 'Solution', value: 'solution'},
-  ]}>
+defaultValue="question"
+values={[
+{label: 'Question', value: 'question'},
+{label: 'Solution', value: 'solution'},
+]}>
 <TabItem value="question">
 
 - Green 3 needs be played on the stacks.
@@ -27,7 +27,7 @@ import GoodTouchPrincipleQuestion4 from '@site/image-generator/yml/beginner/good
 </TabItem>
 <TabItem value="solution">
 
-- Both a color and number clue would duplicate the green 3 and violate *Good Touch Principle*.
+- Both a color and number clue would duplicate the green 3 and violate _Good Touch Principle_.
 - Thus, Alice should wait patiently for Bob to discard the green 3. Once the first copy of the green 3 is discarded, the team can clue the remaining green 3.
 - Since there are no legal clues to give, Alice must discard.
 

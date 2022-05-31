@@ -13,11 +13,11 @@ import FinesseQuestion1 from '@site/image-generator/yml/beginner/finesse-questio
 <!-- lint disable no-undefined-references -->
 
 <Tabs
-  defaultValue="question"
-  values={[
-    {label: 'Question', value: 'question'},
-    {label: 'Solution', value: 'solution'},
-  ]}>
+defaultValue="question"
+values={[
+{label: 'Question', value: 'question'},
+{label: 'Solution', value: 'solution'},
+]}>
 <TabItem value="question">
 
 - Enumerate the 5 legal clues that Alice can give right now, along with their clue names.
@@ -26,13 +26,13 @@ import FinesseQuestion1 from '@site/image-generator/yml/beginner/finesse-questio
 </TabItem>
 <TabItem value="solution">
 
-1. Alice can clue blue to Bob, touching the blue 1 as a *Play Clue*.
-1. Alice can clue number 1 to Bob, touching the blue 1 as a *Play Clue*.
-1. Alice can clue yellow to Cathy, touching the yellow 2 as a *Play Clue*.
-1. Alice can clue blue to Cathy, touching the blue 2 as a *Finesse* on the blue 1.
-1. Alice can clue number 2 to Cathy, touching the yellow 2 and the blue 2 as a *2 Save*.
+1. Alice can clue blue to Bob, touching the blue 1 as a _Play Clue_.
+1. Alice can clue number 1 to Bob, touching the blue 1 as a _Play Clue_.
+1. Alice can clue yellow to Cathy, touching the yellow 2 as a _Play Clue_.
+1. Alice can clue blue to Cathy, touching the blue 2 as a _Finesse_ on the blue 1.
+1. Alice can clue number 2 to Cathy, touching the yellow 2 and the blue 2 as a _2 Save_.
 
-The best clue is the *Finesse* because it gets two cards played right now. (The team can give a *Play Clue* to the yellow 2 later on.)
+The best clue is the _Finesse_ because it gets two cards played right now. (The team can give a _Play Clue_ to the yellow 2 later on.)
 
 </TabItem>
 </Tabs>

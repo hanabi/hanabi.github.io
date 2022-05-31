@@ -13,11 +13,11 @@ import OtherGeneralStrategyQuestion1 from '@site/image-generator/yml/beginner/ot
 <!-- lint disable no-undefined-references -->
 
 <Tabs
-  defaultValue="question"
-  values={[
-    {label: 'Question', value: 'question'},
-    {label: 'Solution', value: 'solution'},
-  ]}>
+defaultValue="question"
+values={[
+{label: 'Question', value: 'question'},
+{label: 'Solution', value: 'solution'},
+]}>
 <TabItem value="question">
 
 - It is Alice's turn and she has a yellow 2 to play.

@@ -13,62 +13,62 @@ import FiveStall from '@site/image-generator/yml/level-8/five-stall.yml';
 
 - In certain situations, everyone understands that a player might be giving a "stall" clue. However, there are limits - they are not allowed to just clue anything they want. These are the specific clues that they are allowed to give along with the precedence of each clue:
 
-| Precedence | Type of Clue | Normal Situation (Severity 0) | Early Game (Severity 1) | Double Discard / Scream Discard (Severity 2) | Locked Hand (Severity 3) | 8 Clues (Severity 4)
-| ---------- | ------------ | ----------------------------- | ----------------------- | -------------------------------------------- | ------------------------ | --------------------
-| 1          | Normal *Play Clues* or normal *Save Clues*                                                               | ✅ | ✅ | ✅ | ✅ | ✅
-| 2          | *5 Stall*<br />(cluing off chop 5's)                                                                     | ❌ | ✅ | ✅ | ✅ | ✅
-| 3          | *Tempo Clue Stall*<br />(re-cluing a card to make it play)                                               | ❌ | ❌ | ✅ | ✅ | ✅
-| 4 (tied)   | *Locked Hand Save*<br />(saving any card on chop, as long as doing so would not *Lock* the other player) | ❌ | ❌ | ❌ | ✅ | ✅
-| 4 (tied)   | *8 Clue Save*<br />(saving any card not on slot 1)                                                       | ❌ | ❌ | ❌ | ❌ | ✅
-| 4 (tied)   | *Fill-In Clue*<br />(giving extra information to already-clued cards or *Chop Moved* cards)              | ❌ | ❌ | ✅ | ✅ | ✅
-| 5          | *Hard Burn*<br />(re-cluing an unplayable card that gives no new information, usually a 5)               | ❌ | ❌ | ✅ | ✅ | ✅
+| Precedence | Type of Clue                                                                                             | Normal Situation (Severity 0) | Early Game (Severity 1) | Double Discard / Scream Discard (Severity 2) | Locked Hand (Severity 3) | 8 Clues (Severity 4) |
+| ---------- | -------------------------------------------------------------------------------------------------------- | ----------------------------- | ----------------------- | -------------------------------------------- | ------------------------ | -------------------- |
+| 1          | Normal _Play Clues_ or normal _Save Clues_                                                               | ✅                            | ✅                      | ✅                                           | ✅                       | ✅                   |
+| 2          | _5 Stall_<br />(cluing off chop 5's)                                                                     | ❌                            | ✅                      | ✅                                           | ✅                       | ✅                   |
+| 3          | _Tempo Clue Stall_<br />(re-cluing a card to make it play)                                               | ❌                            | ❌                      | ✅                                           | ✅                       | ✅                   |
+| 4 (tied)   | _Locked Hand Save_<br />(saving any card on chop, as long as doing so would not _Lock_ the other player) | ❌                            | ❌                      | ❌                                           | ✅                       | ✅                   |
+| 4 (tied)   | _8 Clue Save_<br />(saving any card not on slot 1)                                                       | ❌                            | ❌                      | ❌                                           | ❌                       | ✅                   |
+| 4 (tied)   | _Fill-In Clue_<br />(giving extra information to already-clued cards or _Chop Moved_ cards)              | ❌                            | ❌                      | ✅                                           | ✅                       | ✅                   |
+| 5          | _Hard Burn_<br />(re-cluing an unplayable card that gives no new information, usually a 5)               | ❌                            | ❌                      | ✅                                           | ✅                       | ✅                   |
 
 - For example:
-  - It is the *Early Game* (severity 1).
-  - Alice does not have any normal *Play Clues* or *Save Clues* to give (precedence 1).
-  - Alice does not have any *5 Stalls* to give (precedence 2).
-  - Alice does have a *Tempo Clue* to give (precedence 3), but *Tempo Clue Stalls* are not valid in the Early Game. Thus, if Alice gives a *Tempo Clue*, it would instead be interpreted as a *Tempo Clue Chop Move*.
-  - Thus, since Alice does not want to cause a *Tempo Clue Chop Move*, she must discard.
+  - It is the _Early Game_ (severity 1).
+  - Alice does not have any normal _Play Clues_ or _Save Clues_ to give (precedence 1).
+  - Alice does not have any _5 Stalls_ to give (precedence 2).
+  - Alice does have a _Tempo Clue_ to give (precedence 3), but _Tempo Clue Stalls_ are not valid in the Early Game. Thus, if Alice gives a _Tempo Clue_, it would instead be interpreted as a _Tempo Clue Chop Move_.
+  - Thus, since Alice does not want to cause a _Tempo Clue Chop Move_, she must discard.
 - For example:
   - The team has 8 clues (severity 4).
-  - Alice does not have any normal *Play Clues* or *Save Clues* to give (precedence 1).
-  - Alice does not have any *5 Stalls* to give (precedence 2).
-  - Alice does have a *Tempo Clue* to give (precedence 3).
-  - Thus, Alice must perform the *Tempo Clue*. It will be interpreted as a *Tempo Clue Stall* (and will not have a *Chop Move* component). Furthermore, Alice is not allowed to do any moves with precedence 4 or 5.
-- What is the point of having a complicated table with defined priorities? Well, normally, players in stalling situations are not able to give tricky-looking *Finesses*, because everyone else will think that they are just giving a stall clue. However, if it can be seen that there is a better clue available for them to give, then everyone can know that they are **not** giving a stall clue. So, because of this precedence table, players in stalling situations are still often able to make *Finesses* happen.
+  - Alice does not have any normal _Play Clues_ or _Save Clues_ to give (precedence 1).
+  - Alice does not have any _5 Stalls_ to give (precedence 2).
+  - Alice does have a _Tempo Clue_ to give (precedence 3).
+  - Thus, Alice must perform the _Tempo Clue_. It will be interpreted as a _Tempo Clue Stall_ (and will not have a _Chop Move_ component). Furthermore, Alice is not allowed to do any moves with precedence 4 or 5.
+- What is the point of having a complicated table with defined priorities? Well, normally, players in stalling situations are not able to give tricky-looking _Finesses_, because everyone else will think that they are just giving a stall clue. However, if it can be seen that there is a better clue available for them to give, then everyone can know that they are **not** giving a stall clue. So, because of this precedence table, players in stalling situations are still often able to make _Finesses_ happen.
 - Obviously, stall clues are not allowed when the player has a known playable card in their hand.
 
 <br />
 
 ### The Early Game (Severity 1 Stalling)
 
-- The *Early Game* is introduced in the [beginner's guide](beginner/early-game.md). In short:
-  - The *Early Game* is defined as the period of time before the first discard happens.
-  - Players **must** "extinguish" all of the available *Play Clues* and *Save Clues* on the board before ending the *Early Game*.
-- As an intermediate player, you need to know about a few extra rules about the *Early Game*. We don't bother telling the extra rules to beginners because they deal with some edge-case situations. We have the extra rules because we want to "squeeze" as much value out of the conventions as possible.
+- The _Early Game_ is introduced in the [beginner's guide](beginner/early-game.md). In short:
+  - The _Early Game_ is defined as the period of time before the first discard happens.
+  - Players **must** "extinguish" all of the available _Play Clues_ and _Save Clues_ on the board before ending the _Early Game_.
+- As an intermediate player, you need to know about a few extra rules about the _Early Game_. We don't bother telling the extra rules to beginners because they deal with some edge-case situations. We have the extra rules because we want to "squeeze" as much value out of the conventions as possible.
 
 #### Ending the Early Game
 
-- The *Early Game* is only ended when the first **completely unknown** card is discarded.
+- The _Early Game_ is only ended when the first **completely unknown** card is discarded.
 - In other words:
-  - Misplaying a card **does not count** as ending the *Early Game*.
-  - Discarding known-trash **does not count** as ending the *Early Game*.
-  - Doing special discards that "transfer" cards to other players **does not count** as ending the *Early Game*.
+  - Misplaying a card **does not count** as ending the _Early Game_.
+  - Discarding known-trash **does not count** as ending the _Early Game_.
+  - Doing special discards that "transfer" cards to other players **does not count** as ending the _Early Game_.
 
 #### Extinguishing Every Clue
 
-- Extinguishing every clue **does** include *5 Stalling*, but it is only mandatory for the team to collectively perform one *5 Stall*. If one *5 Stall* clue has already been given and there is another *5 Stall* clue available, players are allowed to clue it if they want, but they don't have to.
-- Extinguishing every clue **does not** include cluing something in the hand of the player who came directly before. See the *[Permission to Discard](#permission-to-discard-ptd)* section.
-- Extinguishing every clue **does not** include giving *Tempo Clues* (e.g. clues that do not meet *Minimum Clue Value Principle*).
-- Extinguishing every clue **does not** include cluing cards that will be almost certainly be *Order Chop Moved* by an upcoming player who already has two or more 1's clued in their hand.
+- Extinguishing every clue **does** include _5 Stalling_, but it is only mandatory for the team to collectively perform one _5 Stall_. If one _5 Stall_ clue has already been given and there is another _5 Stall_ clue available, players are allowed to clue it if they want, but they don't have to.
+- Extinguishing every clue **does not** include cluing something in the hand of the player who came directly before. See the _[Permission to Discard](#permission-to-discard-ptd)_ section.
+- Extinguishing every clue **does not** include giving _Tempo Clues_ (e.g. clues that do not meet _Minimum Clue Value Principle_).
+- Extinguishing every clue **does not** include cluing cards that will be almost certainly be _Order Chop Moved_ by an upcoming player who already has two or more 1's clued in their hand.
 
 #### Permission to Discard (PTD)
 
-- Normally, you have to "extinguish" every *Play Clue* and *Save Clue* before ending the *Early Game*.
+- Normally, you have to "extinguish" every _Play Clue_ and _Save Clue_ before ending the _Early Game_.
 - However, there are several exceptions, which are listed in the [Extinguishing Every Clue](#extinguishing-every-clue) section.
 - The most important exception is that you are not required to clue the hand of the player who came directly before you. Players in this situation can clue the previous player if they want, or they can discard if they want - it's up to them.
-- This is because if Alice does not see any *Play Clues* or *Save Clues* for Bob to give, then Alice is implicitly giving Bob *Permission to Discard* (or PTD for short).
-- For level 10 players, note that *Permission to Discard* does not apply for Bob when Alice was blind-playing a card in a situation where *Guide Principle* applies.
+- This is because if Alice does not see any _Play Clues_ or _Save Clues_ for Bob to give, then Alice is implicitly giving Bob _Permission to Discard_ (or PTD for short).
+- For level 10 players, note that _Permission to Discard_ does not apply for Bob when Alice was blind-playing a card in a situation where _Guide Principle_ applies.
 
 <br />
 
@@ -79,26 +79,26 @@ import FiveStall from '@site/image-generator/yml/level-8/five-stall.yml';
   - Alice has nothing to do. Alice discards her chop and it is a red 4.
   - Bob has nothing to do. Bob also has a completely unclued hand. Bob discards his chop and it is the other copy of the red 4.
   - Since both copies of the red 4 are discarded, it is no longer possible to get a perfect score. (The maximum score now is 23 instead of 25.)
-  - Normally, someone on the team would give a *Save Clue* to Bob's red 4 before it could get discarded. But since Bob's turn was immediately after Alice's turn, no-one on the team had time to save it.
-- In the previous example, on Bob's turn, since Bob *could* have the red 4 on his chop, we would say that Bob is in a *Double Discard Situation* for the red 4.
-- More formally, a *Double Discard Situation* is defined as when:
+  - Normally, someone on the team would give a _Save Clue_ to Bob's red 4 before it could get discarded. But since Bob's turn was immediately after Alice's turn, no-one on the team had time to save it.
+- In the previous example, on Bob's turn, since Bob _could_ have the red 4 on his chop, we would say that Bob is in a _Double Discard Situation_ for the red 4.
+- More formally, a _Double Discard Situation_ is defined as when:
   1. the previous player discards or misplays a card
   1. **and** the current player could be discarding the other copy of that card.
-- Players agree to **never** discard in a *Double Discard Situation* if it has the potential to lower the maximum score. Instead, they must give some clue. This is called *Double Discard Avoidance*, or DDA for short.
-- If a player in DDA has no normal *Play Clues* or *Save Clues* to give, then they are allowed to give "stall" clues, like a *5 Stall*. If there are no *5 Stalls* to give, they can even just "fill-in" some information on an already-clued card (and doing this should not be read as a *Play Clue* or a *Finesse* or anything like that).
+- Players agree to **never** discard in a _Double Discard Situation_ if it has the potential to lower the maximum score. Instead, they must give some clue. This is called _Double Discard Avoidance_, or DDA for short.
+- If a player in DDA has no normal _Play Clues_ or _Save Clues_ to give, then they are allowed to give "stall" clues, like a _5 Stall_. If there are no _5 Stalls_ to give, they can even just "fill-in" some information on an already-clued card (and doing this should not be read as a _Play Clue_ or a _Finesse_ or anything like that).
 - Let's revisit the above example to show what Bob should have done:
   - Alice has nothing to do. Alice discards her chop and it is a red 4.
-  - Bob has nothing to do (meaning that there are no normal *Play Clues* or *Save Clues* to give). Bob also has a completely unclued hand.
-  - Bob's chop is his slot 5 card. Since Bob does not see the red 4 in anyone else's hand and Bob's slot 5 card has no positive or negative clues on it, it is possible that Bob's slot 5 card could be the red 4. Thus, Bob knows that he is currently in a *Double Discard Situation* for the red 4.
-  - Since there are no normal *Play Clues* or *Save Clues* available, Bob looks around to see if he can give a *5 Stall*. Bob sees that Cathy has a red 5 on her slot 1, so he clues number 5 to Cathy as a *5 Stall*.
-  - Cathy knows that since Bob was in a *Double Discard Situation* for the red 4, she should not read too closely into his clues. This number 5 clue must just be a *5 Stall* (as opposed to a *Play Clue* on the 5).
+  - Bob has nothing to do (meaning that there are no normal _Play Clues_ or _Save Clues_ to give). Bob also has a completely unclued hand.
+  - Bob's chop is his slot 5 card. Since Bob does not see the red 4 in anyone else's hand and Bob's slot 5 card has no positive or negative clues on it, it is possible that Bob's slot 5 card could be the red 4. Thus, Bob knows that he is currently in a _Double Discard Situation_ for the red 4.
+  - Since there are no normal _Play Clues_ or _Save Clues_ available, Bob looks around to see if he can give a _5 Stall_. Bob sees that Cathy has a red 5 on her slot 1, so he clues number 5 to Cathy as a _5 Stall_.
+  - Cathy knows that since Bob was in a _Double Discard Situation_ for the red 4, she should not read too closely into his clues. This number 5 clue must just be a _5 Stall_ (as opposed to a _Play Clue_ on the 5).
 
 <br />
 
 ### Locked Hands (Severity 3 Stalling)
 
-- Generally speaking, it is a bad situation when someone's hand gets fully clued. This is also known as being *Locked*, and it should be avoided if possible. However, sometimes it cannot be helped, like when a player draws three 5's in a row.
-- A player with a *Locked Hand* may give a low-value clue because they are not sure that they can play anything (and they can't discard because their hand is fully clued). Similar to a *Double Discard* situation, players should not read too closely into any clues given during this state.
+- Generally speaking, it is a bad situation when someone's hand gets fully clued. This is also known as being _Locked_, and it should be avoided if possible. However, sometimes it cannot be helped, like when a player draws three 5's in a row.
+- A player with a _Locked Hand_ may give a low-value clue because they are not sure that they can play anything (and they can't discard because their hand is fully clued). Similar to a _Double Discard_ situation, players should not read too closely into any clues given during this state.
 - If the team is out of clues and someone's hand is fully clued, then you **have** to discard to generate a clue for them. Similarly, if there is only 1 clue left, you cannot steal it from them.
 
 <br />
@@ -106,7 +106,7 @@ import FiveStall from '@site/image-generator/yml/level-8/five-stall.yml';
 ### Clues Given While at 8 Clues (Severity 4 Stalling)
 
 - At the beginning of the game, you start with 8 clues. This section only applies to situations where you climb to 8 clues in the middle of the game.
-- A player who has a turn with 8 clue tokens available may give a low-value clue because they cannot play anything (and they cannot discard because the game does not allow you to discard while at 8 clues). Similar to a *Double Discard* or a *Locked Hand* situation, players should not read too closely into any clues given during this state.
+- A player who has a turn with 8 clue tokens available may give a low-value clue because they cannot play anything (and they cannot discard because the game does not allow you to discard while at 8 clues). Similar to a _Double Discard_ or a _Locked Hand_ situation, players should not read too closely into any clues given during this state.
 
 <br />
 
@@ -116,69 +116,69 @@ import FiveStall from '@site/image-generator/yml/level-8/five-stall.yml';
 
 ### The 5 Stall (Intermediate Section)
 
-- As mentioned in the [level 2](level-2.md#the-5-stall-cluing-off-chop-5s), *5 Stalls* are when a player clues an off chop 5 purely because they want (or need) to give a stall clue.
-- *5 Stalls* are usually performed in the *Early Game*. Less commonly, they can also be performed in the *Mid-Game* if a player happens to be in a special "stalling" situation where they are not allowed to discard.
-- In the *Early Game*, the team can give as many *5 Stalls* as they want before initiating the *Mid-Game*.
-- Regardless of whether they are done in the *Early Game* or the *Mid-Game*, *5 Stalls* are only allowed if there is nothing else "normal" to do (like playing a card, giving a normal *Play Clue*, or giving a normal *Save Clue*).
-  - However, see the *Finesse Position Exception* section below.
-- *5 Stalls* **must** be given to the 5 that is closest to chop. For example, in a 3-player game:
-  - It is the *Early Game*. The only thing left for Alice to do is to clue an off chop 5.
+- As mentioned in the [level 2](level-2.md#the-5-stall-cluing-off-chop-5s), _5 Stalls_ are when a player clues an off chop 5 purely because they want (or need) to give a stall clue.
+- _5 Stalls_ are usually performed in the _Early Game_. Less commonly, they can also be performed in the _Mid-Game_ if a player happens to be in a special "stalling" situation where they are not allowed to discard.
+- In the _Early Game_, the team can give as many _5 Stalls_ as they want before initiating the _Mid-Game_.
+- Regardless of whether they are done in the _Early Game_ or the _Mid-Game_, _5 Stalls_ are only allowed if there is nothing else "normal" to do (like playing a card, giving a normal _Play Clue_, or giving a normal _Save Clue_).
+  - However, see the _Finesse Position Exception_ section below.
+- _5 Stalls_ **must** be given to the 5 that is closest to chop. For example, in a 3-player game:
+  - It is the _Early Game_. The only thing left for Alice to do is to clue an off chop 5.
   - Bob has two playable 1's on slots 1 and 2. He has a green 5 on slot 4. Bob's 5 is therefore one-away from chop.
   - Cathy has nothing clued in her hand. She has a purple 5 on slot 3. Cathy's 5 is therefore two-away from chop.
-  - Alice must clue number 5 to Bob as a *5 Stall* since his 5 is closer to chop (even though Bob has two playable cards).
+  - Alice must clue number 5 to Bob as a _5 Stall_ since his 5 is closer to chop (even though Bob has two playable cards).
 
 <FiveStall />
 
-- When in the *Early Game*, there is [an additional special rule](#extinguishing-every-clue) for *5 Stalls*.
+- When in the _Early Game_, there is [an additional special rule](#extinguishing-every-clue) for _5 Stalls_.
 
 <br />
 
 ### The 5 Stall Finesse Position Exception (FPE)
 
-- Normally, you are only allowed to perform a *5 Stall* if:
-  - it is currently a valid *Stalling Situation*
-  - there are no normal *Play Clues* or normal *Save Clues* to give
-- However, as an exception, players are allowed to *5 Stall* if there is **only one** *Play Clue* remaining and it would touch a card that someone else on the team could possibly *Finesse*. We refer to this as the *Finesse Position Exception*, or FPE for short.
-- The *Finesse Position Exception* **only applies to *5 Stalls***. Therefore, you cannot ever use the *Finesse Position Exception* as an excuse to end the *Early Game*.
-- The *Finesse Position Exception* does not apply every time there is a playable card on *Finesse Position*. It only applies when there is a card on *Finesse Position* that can actually be *Finessed* or "gotten" by someone else before the *Early Game* is over.
-- The *Finesse Position Exception* applies if the same card is in multiple *Finesse Positions* and there is nothing else to do.
-- The *Finesse Position Exception* applies whenever a player can perform a *5 Stall*, regardless of whether it is the *Early Game* or the *Mid-Game*.
+- Normally, you are only allowed to perform a _5 Stall_ if:
+  - it is currently a valid _Stalling Situation_
+  - there are no normal _Play Clues_ or normal _Save Clues_ to give
+- However, as an exception, players are allowed to _5 Stall_ if there is **only one** _Play Clue_ remaining and it would touch a card that someone else on the team could possibly _Finesse_. We refer to this as the _Finesse Position Exception_, or FPE for short.
+- The _Finesse Position Exception_ **only applies to _5 Stalls_**. Therefore, you cannot ever use the _Finesse Position Exception_ as an excuse to end the _Early Game_.
+- The _Finesse Position Exception_ does not apply every time there is a playable card on _Finesse Position_. It only applies when there is a card on _Finesse Position_ that can actually be _Finessed_ or "gotten" by someone else before the _Early Game_ is over.
+- The _Finesse Position Exception_ applies if the same card is in multiple _Finesse Positions_ and there is nothing else to do.
+- The _Finesse Position Exception_ applies whenever a player can perform a _5 Stall_, regardless of whether it is the _Early Game_ or the _Mid-Game_.
 
 ### The Locked Hand Save (LHS)
 
-- We agree that players with a *Locked Hand* gain the special ability to save any card they want on chop (as long as it would not *Lock* the other player). This is called a *Locked Hand Save*.
-- A *Locked Hand Save* can be performed on **any** card, not just a critical or playable card.
-- However, players can only do a *Locked Hand Save* if there are no higher precedence clues available. See the "Allowable Stall Clues" section above.
-- A *Locked Hand Save* can be performed with either a color clue or a number clue.
-- If a clue that looks like a *Locked Hand Save* would *Lock* another player, it is instead treated as a normal *Play Clue* or a normal *Save Clue*.
-- Note that the precedence of a *Locked Hand Save* is tied with a "fill-in" clue. Essentially, this means that players who have a *Locked Hand* are not forced to perform a *Locked Hand Save* if they do not want to. Most of the time, doing a *Locked Hand Save* will be pretty good (as a 1-for-1 or a 2-for-1 instead of a 0-for-1), but *Locked* players can always ignore a *Locked Hand Save* to perform a "fill-in" clue if they want.
+- We agree that players with a _Locked Hand_ gain the special ability to save any card they want on chop (as long as it would not _Lock_ the other player). This is called a _Locked Hand Save_.
+- A _Locked Hand Save_ can be performed on **any** card, not just a critical or playable card.
+- However, players can only do a _Locked Hand Save_ if there are no higher precedence clues available. See the "Allowable Stall Clues" section above.
+- A _Locked Hand Save_ can be performed with either a color clue or a number clue.
+- If a clue that looks like a _Locked Hand Save_ would _Lock_ another player, it is instead treated as a normal _Play Clue_ or a normal _Save Clue_.
+- Note that the precedence of a _Locked Hand Save_ is tied with a "fill-in" clue. Essentially, this means that players who have a _Locked Hand_ are not forced to perform a _Locked Hand Save_ if they do not want to. Most of the time, doing a _Locked Hand Save_ will be pretty good (as a 1-for-1 or a 2-for-1 instead of a 0-for-1), but _Locked_ players can always ignore a _Locked Hand Save_ to perform a "fill-in" clue if they want.
 
 <br />
 
 ### The Anxiety Play (Forcing a Locked Player to Play)
 
-- Sometimes, someone with a *Locked Hand* has a playable card, but they do not know that they can play it yet. Re-cluing the card would signal this, but that would waste a clue and not be very efficient.
-- A better way to signal this information is to deliberately leave them at 0 clues. By convention, this means that one of their cards is actually playable. The player should play the card in their hand that is most likely to be playable. If there is more than one option, then they should know that the left-most is playable. (This follows from *Left-Most Playable Principle*.)
-- This is called an *Anxiety Play* because you are putting the *Locked* player in a "do or die" situation.
+- Sometimes, someone with a _Locked Hand_ has a playable card, but they do not know that they can play it yet. Re-cluing the card would signal this, but that would waste a clue and not be very efficient.
+- A better way to signal this information is to deliberately leave them at 0 clues. By convention, this means that one of their cards is actually playable. The player should play the card in their hand that is most likely to be playable. If there is more than one option, then they should know that the left-most is playable. (This follows from _Left-Most Playable Principle_.)
+- This is called an _Anxiety Play_ because you are putting the _Locked_ player in a "do or die" situation.
 
 <br />
 
 ### The 8 Clue Save (8CS)
 
 - At the beginning of the game, you start with 8 clues. This section only applies to situations where you climb to 8 clues in the middle of the game.
-- We agree that players who have 8 clues available on their turn gain the special ability to save any card they want on **or** off chop (as long as it is not on slot 1). This is called an *8 Clue Save*.
-- An *8 Clue Save* can be performed on **any** card, not just a critical or playable card.
-- However, players can only do an *8 Clue Save* if there are no higher precedence clues available. See the "Allowable Stall Clues" section above.
-- An *8 Clue Save* can be performed with either a color clue or a number clue.
-- If a clue that looks like an *8 Clue Save* is on a card that is on slot 1, it is instead treated as a normal *Play Clue* or a normal *Save Clue*.
+- We agree that players who have 8 clues available on their turn gain the special ability to save any card they want on **or** off chop (as long as it is not on slot 1). This is called an _8 Clue Save_.
+- An _8 Clue Save_ can be performed on **any** card, not just a critical or playable card.
+- However, players can only do an _8 Clue Save_ if there are no higher precedence clues available. See the "Allowable Stall Clues" section above.
+- An _8 Clue Save_ can be performed with either a color clue or a number clue.
+- If a clue that looks like an _8 Clue Save_ is on a card that is on slot 1, it is instead treated as a normal _Play Clue_ or a normal _Save Clue_.
 
 <br />
 
 ### The Fill-In Clue
 
-- A *Fill-In Clue* is defined as a clue that:
-  1. only touches card(s) that already have a clue on them (or are *Chop Moved*)
+- A _Fill-In Clue_ is defined as a clue that:
+  1. only touches card(s) that already have a clue on them (or are _Chop Moved_)
   1. gives additional information to the touched card(s) that was not there before
-- *Fill-In Clues* are only used in specific stalling situations - see the stalling table above for the specific situations that you are allowed to perform one. If you give a clue like this in a normal situation, it would just look like a *Play Clue*.
+- _Fill-In Clues_ are only used in specific stalling situations - see the stalling table above for the specific situations that you are allowed to perform one. If you give a clue like this in a normal situation, it would just look like a _Play Clue_.
 
 <br />

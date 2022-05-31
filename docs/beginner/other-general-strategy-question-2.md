@@ -13,23 +13,23 @@ import OtherGeneralStrategyQuestion2 from '@site/image-generator/yml/beginner/ot
 <!-- lint disable no-undefined-references -->
 
 <Tabs
-  defaultValue="question"
-  values={[
-    {label: 'Question', value: 'question'},
-    {label: 'Solution', value: 'solution'},
-  ]}>
+defaultValue="question"
+values={[
+{label: 'Question', value: 'question'},
+{label: 'Solution', value: 'solution'},
+]}>
 <TabItem value="question">
 
-- It is the *Early Game*.
+- It is the _Early Game_.
 - Enumerate all of the legal clues that Alice can give.
 - Of these possibilities, what clue should Alice give?
 
 </TabItem>
 <TabItem value="solution">
 
-- Alice can clue green to Cathy as a *Play Clue* on the green 3.
-- Alice can clue number 5 to Cathy as a *5 Save* on the red 5.
-- It makes more sense for Alice to give the *Play Clue* instead of the *Save Clue*, since Cathy won't be discarding anything on her turn if she is preoccupied with playing a card.
+- Alice can clue green to Cathy as a _Play Clue_ on the green 3.
+- Alice can clue number 5 to Cathy as a _5 Save_ on the red 5.
+- It makes more sense for Alice to give the _Play Clue_ instead of the _Save Clue_, since Cathy won't be discarding anything on her turn if she is preoccupied with playing a card.
 
 </TabItem>
 </Tabs>

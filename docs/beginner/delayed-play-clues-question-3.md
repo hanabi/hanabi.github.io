@@ -13,28 +13,28 @@ import DelayedPlayCluesQuestion3 from '@site/image-generator/yml/beginner/delaye
 <!-- lint disable no-undefined-references -->
 
 <Tabs
-  defaultValue="question"
-  values={[
-    {label: 'Question', value: 'question'},
-    {label: 'Solution', value: 'solution'},
-  ]}>
+defaultValue="question"
+values={[
+{label: 'Question', value: 'question'},
+{label: 'Solution', value: 'solution'},
+]}>
 <TabItem value="question">
 
-- Alice clues number 4 to Bob, which touches one card on slot 1. (This is a *Play Clue*.)
-- Bob writes a *card note* with the identity of the card.
+- Alice clues number 4 to Bob, which touches one card on slot 1. (This is a _Play Clue_.)
+- Bob writes a _card note_ with the identity of the card.
 
-1. What *card note* does Bob write? (Be specific.)
-1. Is this a *Delayed Play Clue*?
+1. What _card note_ does Bob write? (Be specific.)
+1. Is this a _Delayed Play Clue_?
 1. What action should Bob perform?
 
 </TabItem>
 <TabItem value="solution">
 
-1. Bob writes a *card note* of "red 4, yellow 4, blue 4, purple 4".
-    - First, it could be a direct *Play Clue* on a red 4 or a purple 4.
-    - Second, it could be a *Delayed Play Clue* on a yellow 4 through Cathy's yellow 2 and yellow 3.
-    - Third, it could be a *Delayed Play Clue* on a blue 4 through Donald's blue 3.
-1. Bob does not know whether this is a *Play Clue* or a *Delayed Play Clue*. However, since Bob has to treat all *Play Clues* as potential *Delayed Play Clues*, Bob cannot play the 4 on this turn.
+1. Bob writes a _card note_ of "red 4, yellow 4, blue 4, purple 4".
+   - First, it could be a direct _Play Clue_ on a red 4 or a purple 4.
+   - Second, it could be a _Delayed Play Clue_ on a yellow 4 through Cathy's yellow 2 and yellow 3.
+   - Third, it could be a _Delayed Play Clue_ on a blue 4 through Donald's blue 3.
+1. Bob does not know whether this is a _Play Clue_ or a _Delayed Play Clue_. However, since Bob has to treat all _Play Clues_ as potential _Delayed Play Clues_, Bob cannot play the 4 on this turn.
 1. Since Bob cannot play the 4 yet, he should discard.
 
 </TabItem>

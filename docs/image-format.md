@@ -30,22 +30,23 @@ import SuitsSource from '!raw-loader!@site/image-generator/yml/generator-docs/su
 import SuitsResult from '@site/image-generator/yml/generator-docs/suits.yml';
 
 export const Code = ({code}) => (
-  <Highlight {...defaultProps} code={code} language="yaml">
-    {({ className, style, tokens, getLineProps, getTokenProps }) => (
-      <pre><code>
-        {tokens.map((line, i) => (
-          <div {...getLineProps({ line, key: i })}>
-            {line.map((token, key) => (
-              <span {...getTokenProps({ token, key })} />
-            ))}
-          </div>
-        ))}
-      </code></pre>
-    )}
-  </Highlight>
+<Highlight {...defaultProps} code={code} language="yaml">
+{({ className, style, tokens, getLineProps, getTokenProps }) => (
+<pre><code>
+{tokens.map((line, i) => (
+<div {...getLineProps({ line, key: i })}>
+{line.map((token, key) => (
+<span {...getTokenProps({ token, key })} />
+))}
+</div>
+))}
+</code></pre>
+)}
+</Highlight>
 );
 
 export const Example = ({code, Image}) => (
+
   <div class="container">
     <div class="row">
       <div class="col">
@@ -77,7 +78,7 @@ Each example image is created from a [YAML](https://yaml.org/) file, which is a 
 2. On the respective Markdown page, import it as a React component at the top of the file, like so:
 
 ```jsx
-import NewChopMove from '@site/image-generator/yml/level-123/new-chop-move.yml';
+import NewChopMove from "@site/image-generator/yml/level-123/new-chop-move.yml";
 ```
 
 (For an example of this, look at the Markdown page for [Level 1](https://github.com/hanabi/hanabi.github.io/blob/main/docs/level-1.md).)
@@ -103,6 +104,7 @@ When using the `run.sh` script and viewing the page locally, any changes that yo
 ## YML File Format
 
 There are 2 main sections: `stacks` and `players`.
+
 - `stacks` is an array of cards which have been played on the stacks already. The following suits are supported by default:
   - `r`: red,
   - `g`: green,
@@ -125,6 +127,7 @@ Players are assigned the following names automatically: Alice, Bob, Cathy, Donal
 ### Cards
 
 Cards in hand can be of various types:
+
 - clued with known exact identity, e.g. `g2`
 - clued with known suit, e.g. `b`
 - clued with known rank, e.g. `4`
@@ -159,12 +162,14 @@ You can also use the `retouched` attribute to signify that the clue is re-touchi
 ### Text on Cards
 
 Text can be placed on a card:
+
 - `middle_note` to put a text label in the middle of the card
   - the string is automatically colored if it is a letter of one of the 5 suits
 - `above` to put a note above the card
 - `below` to put a note below the card
 
 `above` and `below` have the same syntax:
+
 - `above: Green 3` or `above: Rainbow 5` will draw the box with the specified color and text.
 - Several more keywords have a specific color assigned to them: `Focus`, `Chop`.
 - You can override the color using `color` attribute. CSS colors are accepted, and additionally `rainbow`.
@@ -195,6 +200,7 @@ For keywords "Bluff", "Finesse" and "Illegal!", color is ignored.
 
 Some variant-specific suits can be added via `suits`, which contains the mapping from the letter indicating the suit to the part of the filenames of card images and pips.
 Currently these variant suits are supported:
+
 - black
 - brown
 - null (needs to be in quotes because normally `null` is a YAML keyword)

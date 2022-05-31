@@ -13,27 +13,27 @@ import CriticalSaveQuestion4 from '@site/image-generator/yml/beginner/critical-s
 <!-- lint disable no-undefined-references -->
 
 <Tabs
-  defaultValue="question"
-  values={[
-    {label: 'Question', value: 'question'},
-    {label: 'Solution', value: 'solution'},
-  ]}>
+defaultValue="question"
+values={[
+{label: 'Question', value: 'question'},
+{label: 'Solution', value: 'solution'},
+]}>
 <TabItem value="question">
 
 - Alice clues red to Bob, touching a card on slot 5.
-- Is this a *Play Clue* or a *Save Clue*?
-- What *card note* does Bob write? (Be specific.)
+- Is this a _Play Clue_ or a _Save Clue_?
+- What _card note_ does Bob write? (Be specific.)
 
 </TabItem>
 <TabItem value="solution">
 
-- Bob knows that this could be a *Play Clue* on the red 1.
-- However, since it touched his chop, it could also be a *Save Clue*. Since red 2 is in the trash and a red clue matches that card, it could be red 2.
-- Bob does not know whether or not this is a *Play Clue* or a *Save Clue*, but he has to treat it as a *Save Clue* for the time being until he gets more information.
-- Bob writes a *card note* that includes the following identities:
-  - red 1 (as a *Play Clue*)
-  - red 2 (as a *Critical Save*)
-- Note that most of the time, players save two's with a *2 Save*. However, if the first copy of a 2 gets discarded, the second copy of that 2 can be *Critical Saved* in the exact same way that a 3 or a 4 would be.
+- Bob knows that this could be a _Play Clue_ on the red 1.
+- However, since it touched his chop, it could also be a _Save Clue_. Since red 2 is in the trash and a red clue matches that card, it could be red 2.
+- Bob does not know whether or not this is a _Play Clue_ or a _Save Clue_, but he has to treat it as a _Save Clue_ for the time being until he gets more information.
+- Bob writes a _card note_ that includes the following identities:
+  - red 1 (as a _Play Clue_)
+  - red 2 (as a _Critical Save_)
+- Note that most of the time, players save two's with a _2 Save_. However, if the first copy of a 2 gets discarded, the second copy of that 2 can be _Critical Saved_ in the exact same way that a 3 or a 4 would be.
 
 </TabItem>
 </Tabs>

@@ -13,11 +13,11 @@ import FiveSaveQuestion2 from '@site/image-generator/yml/beginner/5-save-questio
 <!-- lint disable no-undefined-references -->
 
 <Tabs
-  defaultValue="question"
-  values={[
-    {label: 'Question', value: 'question'},
-    {label: 'Solution', value: 'solution'},
-  ]}>
+defaultValue="question"
+values={[
+{label: 'Question', value: 'question'},
+{label: 'Solution', value: 'solution'},
+]}>
 <TabItem value="question">
 
 - What action should Alice perform?
@@ -29,7 +29,7 @@ import FiveSaveQuestion2 from '@site/image-generator/yml/beginner/5-save-questio
 - Cathy has a 5 and it is on chop.
   - (Her chop is slot 2 because the cards on slot 3 and slot 4 have a clue on them.)
 - Donald has one 5, but it is not on chop, so it cannot be saved yet.
-- Thus, Alice should clue number 5 to Cathy as a *5 Save*.
+- Thus, Alice should clue number 5 to Cathy as a _5 Save_.
 
 </TabItem>
 </Tabs>

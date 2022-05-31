@@ -7,15 +7,15 @@ import BeginnersGuideProgress from '@site/src/beginnersGuide.js';
 
 <BeginnersGuideProgress id="save-clues" />
 
-- The second type of clue is called a *Save Clue*.
-- In Hanabi, there are only so many copies of a particular card. If all copies of a card are discarded, then it is impossible to get the maximum score. Thus, we give *Save Clues* to communicate that specific cards should be saved for later.
+- The second type of clue is called a _Save Clue_.
+- In Hanabi, there are only so many copies of a particular card. If all copies of a card are discarded, then it is impossible to get the maximum score. Thus, we give _Save Clues_ to communicate that specific cards should be saved for later.
 
 <br />
 
 ### On Chop Cards Only
 
-- *Save Clues* **can only be given to cards on chop**.
-  - So, if a clue is focused on a non-chop card, then it must be a *Play Clue* instead.
+- _Save Clues_ **can only be given to cards on chop**.
+  - So, if a clue is focused on a non-chop card, then it must be a _Play Clue_ instead.
 
 <br />
 
@@ -32,16 +32,16 @@ import BeginnersGuideProgress from '@site/src/beginnersGuide.js';
 
 ### Sometimes You Won't Know, So Hold It
 
-- Sometimes, a clue that focuses the chop card could be either a *Play Clue* or a *Save Clue*.
+- Sometimes, a clue that focuses the chop card could be either a _Play Clue_ or a _Save Clue_.
 - When this happens, the player receiving the clue must **consider both possibilities** and hold on to the card until they know for sure.
-- Specifically, this means that they will write a *card note* that includes all of the possibilities for a *Play Clue* and all of the possibilities for a *Save Clue*.
+- Specifically, this means that they will write a _card note_ that includes all of the possibilities for a _Play Clue_ and all of the possibilities for a _Save Clue_.
 
 <br />
 
 ### Three Types of Save Clues
 
-- Corresponding to the list above, there are three types of *Save Clues*:
-  - *5 Saves*
-  - *2 Saves*
-  - *Critical Saves*
+- Corresponding to the list above, there are three types of _Save Clues_:
+  - _5 Saves_
+  - _2 Saves_
+  - _Critical Saves_
 - Let's go through each individually.

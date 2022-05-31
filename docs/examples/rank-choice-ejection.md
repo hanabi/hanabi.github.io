@@ -3,7 +3,7 @@ id: rank-choice-ejection
 title: Examples of the Rank Choice Ejection
 ---
 
-The *[Rank Choice Ejection](../extras/ejections.md#the-rank-choice-ejection-with-a-number-2-or-a-number-5-rce)* is a level 19 convention.
+The _[Rank Choice Ejection](../extras/ejections.md#the-rank-choice-ejection-with-a-number-2-or-a-number-5-rce)_ is a level 19 convention.
 
 <br />
 
@@ -13,11 +13,11 @@ The *[Rank Choice Ejection](../extras/ejections.md#the-rank-choice-ejection-with
 
 - It is IAMJEFF's turn.
 - IAMJEFF wants to clue the rainbow 5. He could use either a blue clue or a number 5 clue to do so:
-  - A blue clue would be good because it would be a clear *Play Clue* on the card (and would also "fill-in" the blue 5).
-  - A number 5 could would be bad because it would be a *Save Clue*. pianoblook would have to account for the fact that the 5 *could* be the red 5, and pianoblook would not be able to play it quite yet.
-- IAMJEFF clues number 5 to pianoblook, touching the rainbow 5 on *Chop*.
+  - A blue clue would be good because it would be a clear _Play Clue_ on the card (and would also "fill-in" the blue 5).
+  - A number 5 could would be bad because it would be a _Save Clue_. pianoblook would have to account for the fact that the 5 _could_ be the red 5, and pianoblook would not be able to play it quite yet.
+- IAMJEFF clues number 5 to pianoblook, touching the rainbow 5 on _Chop_.
 - Now, it's piper's turn. piper knows that IAMJEFF could have "cleanly" given a blue clue to pianoblook.
 - piper knows that IAMJEFF must be trying to send an additional message:
-  - If piper does nothing, pianoblook will treat it as a *5 Save*.
-  - If piper blind-plays his *Finesse Position*, pianoblook might think it is a *Finesse* or *Bluff* on a muddy rainbow card (which is not true).
-- Thus, piper blind-plays his *Second Finessed Position* as a *Rank Choice Ejection*.
+  - If piper does nothing, pianoblook will treat it as a _5 Save_.
+  - If piper blind-plays his _Finesse Position_, pianoblook might think it is a _Finesse_ or _Bluff_ on a muddy rainbow card (which is not true).
+- Thus, piper blind-plays his _Second Finessed Position_ as a _Rank Choice Ejection_.

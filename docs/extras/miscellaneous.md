@@ -8,8 +8,8 @@ import EliminationRewrite from '@site/image-generator/yml/extras/miscellaneous/e
 
 ### Double Prompts in Multi-Color Variants
 
-- Normally, when a multi-color card is *Prompted* from someone's hand, they should play the card that has the most positive information.
-- However, what if they are *Prompted* for two cards of the same multi-color suit? They should play the card with the most positive information first, even if it is not the left-most card.
+- Normally, when a multi-color card is _Prompted_ from someone's hand, they should play the card that has the most positive information.
+- However, what if they are _Prompted_ for two cards of the same multi-color suit? They should play the card with the most positive information first, even if it is not the left-most card.
 - For example, in a 3-player rainbow game:
   - Rainbow 1 is played on the stacks.
   - Bob has a slot 1 card that has a blue clue on it. (Thus, it is either a blue card or a rainbow card.)
@@ -24,14 +24,14 @@ import EliminationRewrite from '@site/image-generator/yml/extras/miscellaneous/e
 
 ### The Elimination Rewrite (for 1's)
 
-- Normally, when a playable card is discarded, a player will write *Elimination Notes* on their hand for the other copy of the card.
-- However, there is a special case when **two** copies of the same 1 are discarded. The original *Elimination Notes* from the discard of the first 1 no longer apply because it is possible that the player has drawn the third copy of the 1 before the second copy could be clued.
-- Thus, when a player discards the second copy of a playable 1, they should delete all of their *Elimination Notes* from the first discard and rewrite all of the *Elimination Notes* on the rest of their hand anew (essentially acting like the second discard was the first discard).
+- Normally, when a playable card is discarded, a player will write _Elimination Notes_ on their hand for the other copy of the card.
+- However, there is a special case when **two** copies of the same 1 are discarded. The original _Elimination Notes_ from the discard of the first 1 no longer apply because it is possible that the player has drawn the third copy of the 1 before the second copy could be clued.
+- Thus, when a player discards the second copy of a playable 1, they should delete all of their _Elimination Notes_ from the first discard and rewrite all of the _Elimination Notes_ on the rest of their hand anew (essentially acting like the second discard was the first discard).
 - For example, in a 3-player game:
   - Nothing is played on the stacks.
-  - Alice discards a red 1. Alice writes *Elimination Notes* on her slot 2, slot 3, slot 4, and slot 5.
-  - On her next turn, Alice discards an unrelated card. She now has *Elimination Notes* on slot 3, slot 4, and slot 5.
-  - On her next turn, Alice discards another red 1. Normally, she would now have *Elimination Notes* on slot 4 and slot 5. However, because of the *Elimination Rewrite*, she instead writes *Elimination Notes* on slot 2, slot 3, slot 4, and slot 5.
+  - Alice discards a red 1. Alice writes _Elimination Notes_ on her slot 2, slot 3, slot 4, and slot 5.
+  - On her next turn, Alice discards an unrelated card. She now has _Elimination Notes_ on slot 3, slot 4, and slot 5.
+  - On her next turn, Alice discards another red 1. Normally, she would now have _Elimination Notes_ on slot 4 and slot 5. However, because of the _Elimination Rewrite_, she instead writes _Elimination Notes_ on slot 2, slot 3, slot 4, and slot 5.
 
 <EliminationRewrite />
 
