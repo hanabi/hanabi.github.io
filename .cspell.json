@@ -1,7 +1,14 @@
 {
   "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
   "version": "0.2",
-  "files": ["**"],
+  "files": [
+    "**"
+  ],
+  "ignorePaths": [
+    "*.svg",
+    "build/**",
+    "LICENSE"
+  ],
   "words": [
     "ahming",
     "albertine",
@@ -15,6 +22,7 @@
     "bauza",
     "bcme",
     "bga's",
+    "blueviolet",
     "browserslist",
     "carunty",
     "carunty's",
@@ -32,6 +40,7 @@
     "darkgreen",
     "darkred",
     "darrenjennings",
+    "deepskyblue",
     "deorsey",
     "depender",
     "derekcheah",
@@ -89,6 +98,7 @@
     "letical",
     "lgeiger",
     "libster",
+    "lightgreen",
     "lilliana",
     "lilliana's",
     "live's",
@@ -100,6 +110,7 @@
     "noopener",
     "noreferrer",
     "occams",
+    "offsetblur",
     "omni",
     "ostype",
     "pastebin",
@@ -114,6 +125,7 @@
     "progressbar",
     "promptable",
     "pyrotechnicians",
+    "rainbowtext",
     "ralenti",
     "razvogor",
     "remarkrc",

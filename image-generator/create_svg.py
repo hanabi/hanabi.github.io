@@ -782,7 +782,7 @@ def print_svg(svg_file):
     svg_file.write(output, pretty=True)
     output = output.getvalue()
 
-    # Workround for stupid Docusaurus/React error similar to this one:
+    # Workaround for stupid Docusaurus/React error similar to this one:
     # https://github.com/facebook/docusaurus/issues/3689
     output = re.sub(r'xmlns:ev="(?:.*?)"', "", output)
 

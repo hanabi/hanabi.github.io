@@ -6,7 +6,6 @@ import retextEnglish from "retext-english";
 import retextIndefiniteArticle from "retext-indefinite-article";
 import retextRedundantAcronyms from "retext-redundant-acronyms";
 import retextRepeatedWords from "retext-repeated-words";
-import retextSentenceSpacing from "retext-sentence-spacing";
 import retextSyntaxMentions from "retext-syntax-mentions";
 import retextSyntaxURLs from "retext-syntax-urls";
 import unified from "unified";
@@ -43,11 +42,11 @@ const config = {
         .use(retextDiacritics)
         .use(retextIndefiniteArticle)
         .use(retextRedundantAcronyms)
-        .use(retextRepeatedWords)
-        .use(retextSentenceSpacing),
+        .use(retextRepeatedWords),
     ],
 
     // Disable some rules that are enabled by the presets above.
+    ["remark-lint-emphasis-marker", false],
     ["remark-lint-heading-style", false],
     ["remark-lint-list-item-content-indent", false],
     ["remark-lint-list-item-indent", false],
