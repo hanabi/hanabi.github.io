@@ -20,8 +20,8 @@ In general, we want all of our strategies to flow from some basic principles. Th
 ### 2. Minimum Clue Value Principle
 
 - A given clue must either:
-  - indicate sufficient information for **one or more previously unclued** cards to be played (as a *Play Clue*)
-  - prevent the possible discard of **one or more previously unclued** cards that need to be saved (as a *Save Clue*)
+  - indicate sufficient information for **one or more previously unclued** cards to be played (as a _Play Clue_)
+  - prevent the possible discard of **one or more previously unclued** cards that need to be saved (as a _Save Clue_)
 
 <br />
 
@@ -31,8 +31,8 @@ In general, we want all of our strategies to flow from some basic principles. Th
   - only one copy remains (e.g. 5's or unplayed cards in the discard pile)
   - it is a 2 and not visible elsewhere in players' hands
   - it is currently playable and not visible elsewhere in players' hands
-- When a card that needs to be saved is at immediate risk of being discarded, it must be indicated with a *Save Clue* (or a *Play Clue* if it happens to be playable).
-- If a player receives a clue that could be either a *Save Clue* or a *Play Clue*, they **must** consider both possibilities. Specifically, this means that the player must hold on to the card until they know for sure.
+- When a card that needs to be saved is at immediate risk of being discarded, it must be indicated with a _Save Clue_ (or a _Play Clue_ if it happens to be playable).
+- If a player receives a clue that could be either a _Save Clue_ or a _Play Clue_, they **must** consider both possibilities. Specifically, this means that the player must hold on to the card until they know for sure.
 
 <br />
 
@@ -48,7 +48,7 @@ In general, we want all of our strategies to flow from some basic principles. Th
 
 ### 5. Play Order Principle
 
-- When a *Play Clue* touches multiple cards, if it includes the chop, it's focused on the chop. (This is referred to as the *Chop-Focus* convention.)
+- When a _Play Clue_ touches multiple cards, if it includes the chop, it's focused on the chop. (This is referred to as the _Chop-Focus_ convention.)
 - Otherwise, the clue is focused on the newest (e.g. left-most) of cards that did not have a clue "on" them already.
 - The non-focused cards may or may not be playable.
 
@@ -56,7 +56,7 @@ In general, we want all of our strategies to flow from some basic principles. Th
 
 ### 6. Left-Most Playable Principle
 
-- When a player is expected to play a card (or know a card is playable) in a situation not covered by the *Play Order Principle*, the card to be played is the left-most of the various cards that are most likely to be it.
+- When a player is expected to play a card (or know a card is playable) in a situation not covered by the _Play Order Principle_, the card to be played is the left-most of the various cards that are most likely to be it.
 
 <br />
 
@@ -70,8 +70,8 @@ In general, we want all of our strategies to flow from some basic principles. Th
 
 - Normally, players try to make their clues as clear as possible and convey the exact identity of a card.
 - Rarely, players can use clues to trick other players into thinking that they have cards that they really don't.
-- If this untruth **resolves immediately** (i.e. the very next turn), it is called a *Fib*. For intermediate and advanced players, *Fibs* are legal and expected.
-- If this untruth does **not resolve immediately**, it is called a *Lie*. *Lies* are illegal. Players should **never** assume that they are *Lied* to.
+- If this untruth **resolves immediately** (i.e. the very next turn), it is called a _Fib_. For intermediate and advanced players, _Fibs_ are legal and expected.
+- If this untruth does **not resolve immediately**, it is called a _Lie_. _Lies_ are illegal. Players should **never** assume that they are _Lied_ to.
 
 <br />
 

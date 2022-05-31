@@ -10,4 +10,4 @@ These conventions apply to variants with a dual-color suit.
 ### Inherited Conventions
 
 - By default, dual-color cards inherit all of the rainbow conventions.
-- For example, it is possible to perform a *Free Choice Finesse* by giving a color clue to a dual-color card.
+- For example, it is possible to perform a _Free Choice Finesse_ by giving a color clue to a dual-color card.
