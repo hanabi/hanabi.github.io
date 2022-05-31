@@ -26,7 +26,7 @@ fi
 
 echo "Installing JavaScript dependencies..."
 cd "$DIR"
-npm ci
+yarn install --frozen-lockfile
 echo "Complete."
 
 echo "Installing Python dependencies..."
