@@ -27,5 +27,5 @@ echo "All the YAML files are valid. (It took $SECONDS seconds.)"
 cd "$DIR"
 SECONDS=0
 rm -rf "$DIR/build"
-npm run build
+yarn build
 echo "Build successful. (It took $SECONDS seconds.)"
