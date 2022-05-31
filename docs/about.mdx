@@ -3,9 +3,9 @@ id: about
 title: About
 ---
 
-[Hanabi](https://boardgamegeek.com/boardgame/98778/hanabi) is a fantastic cooperative card game of logic and reasoning. Our group, called the *H-Group*, was started back in February 2016. We play Hanabi a lot, using the [Hanab Live](https://hanab.live) website and a [Discord server](https://discord.gg/FADvkJp) to get pick-up games going. Everything doesn't always go perfectly, but we strive to constantly improve. Naturally, we have also built up a set of conventions that we all agree upon at the beginning of the game so that it is easier to understand what everyone else is doing. As the list of conventions got longer, we wanted to make sure that everything was documented in an official capacity.
+[Hanabi](https://boardgamegeek.com/boardgame/98778/hanabi) is a fantastic cooperative card game of logic and reasoning. Our group, called the _H-Group_, was started back in February 2016. We play Hanabi a lot, using the [Hanab Live](https://hanab.live) website and a [Discord server](https://discord.gg/FADvkJp) to get pick-up games going. Everything doesn't always go perfectly, but we strive to constantly improve. Naturally, we have also built up a set of conventions that we all agree upon at the beginning of the game so that it is easier to understand what everyone else is doing. As the list of conventions got longer, we wanted to make sure that everything was documented in an official capacity.
 
-Are you looking to start playing games with the *H-Group*? Head on over to [the beginner's guide](/docs/beginner).
+Are you looking to start playing games with the _H-Group_? Head on over to [the beginner's guide](/docs/beginner).
 
 Have you found your way here from the Internet? That's fine too. Feel free to cherry-pick strategies for your own group, or even adopt the whole convention framework. We enjoy talking to other Hanabi players, so make sure to say hi in the Discord server as well. (Discord is a voice and text chat application that you can run in a browser.)
 
