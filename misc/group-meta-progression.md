@@ -1,6 +1,7 @@
 ## Hanabi Group Meta-Progression
 
 Observing the evolution of Hanabi groups is an interesting case-study because:
+
 - it is drastically different from strategy evolution in typical online computer games
 - it allows some rough comparison between disparate, independent Hanabi groups
 
@@ -20,7 +21,7 @@ Why do players converge on a meta at all? This has a straightforward explanation
 
 With this in mind, Hanabi is interesting because it is **not a shared petri dish**. Since Hanabi is an offline board game / card game, many groups around the world hear about Hanabi completely independently, perhaps at a local board game meetup. And then they start playing Hanabi with their group of friends, start to learn the tendencies of their friends, and start to develop strategy. But a group of players in Germany will have no idea what kind of strategies a group in England is playing with.
 
-When we observe different "organically grown" Hanabi groups, we find some interesting things. Nearly all groups independently come up with some of the same strategies like *Finesses* and *Bluffs*. But at the same time, groups also develop entirely unique strategies. One important thing to note here is that "poaching" a strategy from another group is often not effective, because the strategy will only get a lot of value when other seemingly unrelated conventions are "turned on" or when other subtle assumptions are being made.
+When we observe different "organically grown" Hanabi groups, we find some interesting things. Nearly all groups independently come up with some of the same strategies like _Finesses_ and _Bluffs_. But at the same time, groups also develop entirely unique strategies. One important thing to note here is that "poaching" a strategy from another group is often not effective, because the strategy will only get a lot of value when other seemingly unrelated conventions are "turned on" or when other subtle assumptions are being made.
 
 <br />
 
@@ -34,11 +35,11 @@ The group gets familiar with the rules of the game and sets some basic conventio
 
 #### Level 2 - Discovery and Innovation
 
-The group realizes that Hanabi is mostly about efficiency - you want to get as many cards played as you can with the least number of clues. So this is the step when strategies like the *Finesse* and *Bluff* are invented. The rate of perfect scores drastically increases.
+The group realizes that Hanabi is mostly about efficiency - you want to get as many cards played as you can with the least number of clues. So this is the step when strategies like the _Finesse_ and _Bluff_ are invented. The rate of perfect scores drastically increases.
 
 #### Level 3 - Cohesion
 
-The group starts to get pretty good at Hanabi. Players begin to discard aggressively to ensure that the maximum number of *Finesses* can occur. More advanced conventions are agreed upon. Sometimes, this is done explicitly, like when players conduct a pregame briefing on what a certain type of clue should mean. But even if a group refuses to formally agree on any conventions, they will still unconsciously tap into their reservoir of knowledge about how their teammates reacted in past situations. Over time, this will create implicit conventions.
+The group starts to get pretty good at Hanabi. Players begin to discard aggressively to ensure that the maximum number of _Finesses_ can occur. More advanced conventions are agreed upon. Sometimes, this is done explicitly, like when players conduct a pregame briefing on what a certain type of clue should mean. But even if a group refuses to formally agree on any conventions, they will still unconsciously tap into their reservoir of knowledge about how their teammates reacted in past situations. Over time, this will create implicit conventions.
 
 #### Level 4 - Mastery
 

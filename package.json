@@ -54,7 +54,6 @@
     "retext-indefinite-article": "^4.1.0",
     "retext-redundant-acronyms": "^4.3.0",
     "retext-repeated-words": "^4.2.0",
-    "retext-sentence-spacing": "^5.2.0",
     "retext-syntax-mentions": "^3.1.0",
     "retext-syntax-urls": "^3.1.2",
     "shell-loader": "^1.2.1",
