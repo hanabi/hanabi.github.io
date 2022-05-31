@@ -32,6 +32,7 @@ import SuitsResult from '@site/image-generator/yml/generator-docs/suits.yml';
 export const Code = ({code}) => (
 <Highlight {...defaultProps} code={code} language="yaml">
 {({ className, style, tokens, getLineProps, getTokenProps }) => (
+
 <pre><code>
 {tokens.map((line, i) => (
 <div {...getLineProps({ line, key: i })}>
@@ -41,6 +42,7 @@ export const Code = ({code}) => (
 </div>
 ))}
 </code></pre>
+
 )}
 </Highlight>
 );

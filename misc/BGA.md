@@ -4,9 +4,9 @@
 
 ## Introduction
 
-This page is written for people who have a bunch of games on [Board Game Arena](https://en.boardgamearena.com/) and may be interested in playing some games with the *H-Group* on [Hanab Live](https://www.hanab.live). Since our group uses some advanced conventions, this page should be a quick guide to get BGA players up to speed.
+This page is written for people who have a bunch of games on [Board Game Arena](https://en.boardgamearena.com/) and may be interested in playing some games with the _H-Group_ on [Hanab Live](https://www.hanab.live). Since our group uses some advanced conventions, this page should be a quick guide to get BGA players up to speed.
 
-(A quick note: On Hanab Live, you can play with anyone you want and you can play with any conventions you want - it is a free website. However, a good chunk of the players who play on the website are all part of the *H-Group*, so if you are playing non-H-Group games on the website, it might be hard to get a pick-up game going with random strangers.)
+(A quick note: On Hanab Live, you can play with anyone you want and you can play with any conventions you want - it is a free website. However, a good chunk of the players who play on the website are all part of the _H-Group_, so if you are playing non-H-Group games on the website, it might be hard to get a pick-up game going with random strangers.)
 
 Why bother taking the time to branch out from Board Game Arena to play Hanabi elsewhere? In order to properly answer that question, here's a short introduction on the differences between BGA and Hanab Live. It should explain why, at the very least, you might want to dabble on both platforms. If you are already convinced, you can skip down to the section on [convention changes](#convention-changes-beginner).
 
@@ -59,9 +59,9 @@ All of the interface issues with BGA are fixed in the Hanab Live interface: it i
 
 #### Reviewing
 
-Many different people play on the website, but I think that the majority are part of the *H-Group*. In terms of playstyle, we play in a manner similar to how BGA players play, but with a lot more "special moves" thrown in.
+Many different people play on the website, but I think that the majority are part of the _H-Group_. In terms of playstyle, we play in a manner similar to how BGA players play, but with a lot more "special moves" thrown in.
 
-More importantly, when *H-Group* members play together, we typically review every single game, turn by turn. Why do this? It accelerates the process of synchronizing everyone's strategies and playstyle to ensure that we are all on the same page. And it accelerates the process of making everyone really good at Hanabi, because people get the chance to learn from mistakes that they never would have known that they made. It's just a lot of fun - reviewing the game and looking for the best moves can be more fun than actually playing the game.
+More importantly, when _H-Group_ members play together, we typically review every single game, turn by turn. Why do this? It accelerates the process of synchronizing everyone's strategies and playstyle to ensure that we are all on the same page. And it accelerates the process of making everyone really good at Hanabi, because people get the chance to learn from mistakes that they never would have known that they made. It's just a lot of fun - reviewing the game and looking for the best moves can be more fun than actually playing the game.
 
 For the purposes of reviewing, we talk to each other in a voice chat. Using a voice chat is worlds better than typing text snippets at each other, as you may imagine. To facilitate this, we use a program called [Discord](https://discord.gg/FADvkJp), which is a voice and chat application similar to Skype. (Discord is in widespread use among gamers nowadays and doesn't have the security vulnerabilities that Skype does.)
 
@@ -103,7 +103,7 @@ One final thing to note is that, as a BGA player, you don't need to "convert" aw
 
 ## Convention Changes (Beginner)
 
-If you're reading this far, you'll want to know some of the basic differences between the *BGA Convention Framework* and the *H-Group Convention Framework*. Fear not - it isn't so bad once you play a few games.
+If you're reading this far, you'll want to know some of the basic differences between the _BGA Convention Framework_ and the _H-Group Convention Framework_. Fear not - it isn't so bad once you play a few games.
 
 <br />
 
@@ -111,11 +111,11 @@ If you're reading this far, you'll want to know some of the basic differences be
 
 - Below, you'll find a whole bunch of stuff about how our group does things differently from the way you are familiar with.
 - I think it is important to communicate right from the start that **most stuff will be the exact same as you are used to on BGA**.
-- Stuff like giving *Finesses*, giving *Bluffs*, paying attention to see that no-one on the team discards anything important, using good teamwork - all of this will carry over more or less exactly.
+- Stuff like giving _Finesses_, giving _Bluffs_, paying attention to see that no-one on the team discards anything important, using good teamwork - all of this will carry over more or less exactly.
 
 ### What's Different?
 
-- We will get into some specifics shortly. But in general, BGA conventions are more focused on ***Tempo*** (getting cards played "right now") and **aggressive discarding**, while H-Group conventions are focused more on **orchestrating safe discards** and **absolute trust**.
+- We will get into some specifics shortly. But in general, BGA conventions are more focused on **_Tempo_** (getting cards played "right now") and **aggressive discarding**, while H-Group conventions are focused more on **orchestrating safe discards** and **absolute trust**.
 - Another general difference is when mistakes happen. On BGA, there is more wiggle room when someone makes a small mistake. In our group, even a small mistake can cause cascading failures, because everyone is strongly attuned to what everyone else is doing.
 
 ### A Note on the Conventions Themselves
@@ -126,14 +126,14 @@ If you're reading this far, you'll want to know some of the basic differences be
 
 ### 2 Saves - Added Always
 
-- The *2 Saves Convention* is when someone clues number 2 and it touches a 2 on chop. Even if it touches some other 2, it doesn't necessarily mean anything is currently playable - the point of the clue was to save one or more 2's.
-- On BGA, *2 Saves* are typically "turned on" in 2-player games, and sometimes turned on in 3-player games, but almost always turned off in 4-player games and 5-player games.
-- In our group, *2 Saves* are **always** turned on, regardless of the number of players.
+- The _2 Saves Convention_ is when someone clues number 2 and it touches a 2 on chop. Even if it touches some other 2, it doesn't necessarily mean anything is currently playable - the point of the clue was to save one or more 2's.
+- On BGA, _2 Saves_ are typically "turned on" in 2-player games, and sometimes turned on in 3-player games, but almost always turned off in 4-player games and 5-player games.
+- In our group, _2 Saves_ are **always** turned on, regardless of the number of players.
 - Why do this? Having this convention eliminates 100% of "bottom-deck" losses to 2's.
 
 ### Clue Focus on Retouched Cards - Changed
 
-- When multiple cards are "touched" by a clue, it typically only means to play one card. We call that card the *focus* of the clue.
+- When multiple cards are "touched" by a clue, it typically only means to play one card. We call that card the _focus_ of the clue.
 - On BGA, the focus can either be on the "new" card, or a card that is "filled in". Typically, if a filled in card looks like it is playable, then that is the focus. For example, in a Rainbow game:
   - Red 1 is played on the stacks.
   - Alice has a card in her hand clued with number 2.
@@ -145,36 +145,36 @@ If you're reading this far, you'll want to know some of the basic differences be
 
 ### Chop-Focus - Added
 
-- It is common for a *Play Clue* to introduce several cards in the hand. So, which one is playable?
+- It is common for a _Play Clue_ to introduce several cards in the hand. So, which one is playable?
 - On BGA, the system is dead simple: (almost) always play the left-most card.
 - In our group, it is a two step process:
-  - If one of the new cards introduced was on the chop, then it is a *Chop-Focus Play Clue*.
-  - Otherwise, it is a *Left-Most Play Clue*.
+  - If one of the new cards introduced was on the chop, then it is a _Chop-Focus Play Clue_.
+  - Otherwise, it is a _Left-Most Play Clue_.
 - Why do this? For multiple reasons:
-  - Without this convention, it takes more than one clue to give a *Play Clue* to a chop card.
-  - This convention compliments *Finesses*. (Our group has a wide variety of *Finesses* and *Bluffs*, so it is easy to "get" fresh cards, but more difficult to "get" cards on chop.)
+  - Without this convention, it takes more than one clue to give a _Play Clue_ to a chop card.
+  - This convention compliments _Finesses_. (Our group has a wide variety of _Finesses_ and _Bluffs_, so it is easy to "get" fresh cards, but more difficult to "get" cards on chop.)
   - Consider the situation where all critical 4s are currently playable and a player receives a number 4 clue on newest + chop. On BGA, the focus of the clue is ambiguous. In our group, you can always play chop.
-- Don't worry - having *Chop-Focus* turned on does not limit your options as much as you would think. With good players, you can often give a BGA-style clue that is NOT meant to be *Chop-Focus*, and the other players will be able to figure it out from the negative information on the card or the context of the game. (We call this *Focus Inversion*, but let's not go into too much detail on that right now.)
+- Don't worry - having _Chop-Focus_ turned on does not limit your options as much as you would think. With good players, you can often give a BGA-style clue that is NOT meant to be _Chop-Focus_, and the other players will be able to figure it out from the negative information on the card or the context of the game. (We call this _Focus Inversion_, but let's not go into too much detail on that right now.)
 
 ### Color Saves - Changed
 
-- One problem in Hanabi is when a clue lights up your chop card for the first time. How do you know whether it is a *Play Clue* or a *Save Clue*?
-- On BGA, there is a simple system: number clues mean *Save Clues* and color clues mean *Play Clues*. (Of course, there are exceptions, but this applies most of the time.)
+- One problem in Hanabi is when a clue lights up your chop card for the first time. How do you know whether it is a _Play Clue_ or a _Save Clue_?
+- On BGA, there is a simple system: number clues mean _Save Clues_ and color clues mean _Play Clues_. (Of course, there are exceptions, but this applies most of the time.)
 - In our group, both number clues **and** color clues can be used to save cards.
-- **Any** clue that touches the chop has to be treated as a *Save Clue* first and foremost. If you can rule out a *Save Clue* interpretation, then you know that it is a *Chop-Focus Play Clue*.
+- **Any** clue that touches the chop has to be treated as a _Save Clue_ first and foremost. If you can rule out a _Save Clue_ interpretation, then you know that it is a _Chop-Focus Play Clue_.
 - Why do this? It allows us to choose the exact clue type that would avoid touching duplicated cards.
 
 ### Early Save Play Clues - Deleted
 
-- On BGA, a timing system is used such that if a card is saved "early" before it really needs to be saved, then the clue must not be a *Save Clue* at all, and instead transforms into a *Play Clue*. For now, let's call this a *Early Save Play Clue*. (Other people also call it a *Loaded Play Clue*.)
-- In our group, there is no such timing system. **All** clues that look like *Save Clues* are *Save Clues*, even if they are early.
-- Why do this? It allows for better *Discard Modulation*.
+- On BGA, a timing system is used such that if a card is saved "early" before it really needs to be saved, then the clue must not be a _Save Clue_ at all, and instead transforms into a _Play Clue_. For now, let's call this a _Early Save Play Clue_. (Other people also call it a _Loaded Play Clue_.)
+- In our group, there is no such timing system. **All** clues that look like _Save Clues_ are _Save Clues_, even if they are early.
+- Why do this? It allows for better _Discard Modulation_.
 
 ### The Early Game - Added
 
 - On BGA, you don't want to discard on the first few turns. But after that, you can pretty much discard whenever you want.
-- In our group, we have a thing called the *Early Game*. The *Early Game* is defined as the period of time before someone discards for the first time. When they do, they initiate the *Mid-Game*.
-- In the *Early Game*, everyone agrees that they **must** "extinguish" all of the available *Play Clues* and *Save Clues* before discarding.
+- In our group, we have a thing called the _Early Game_. The _Early Game_ is defined as the period of time before someone discards for the first time. When they do, they initiate the _Mid-Game_.
+- In the _Early Game_, everyone agrees that they **must** "extinguish" all of the available _Play Clues_ and _Save Clues_ before discarding.
 - Why do this? It prevents a certain percentage of "bottom-deck" losses by having cards on chop stick around for a little longer.
 
 <br />
@@ -187,66 +187,66 @@ Ok, so you've made it this far. The changes so far probably sound pretty strange
 
 ### Double Discard Avoidance (DDA) - Changed
 
-- *Double Discarding* is when two players discard the same thing in a row (say, a red 4) and it causes a perfect score to be lost.
-- On BGA, in 2-player games, top players will often perform *Hard Double Discard Avoidance*.
-- In this context, "hard avoidance" means that a player will avoid *Double Discarding* at all costs. If they are in danger of *Double Discarding*, then they will give any clue at all to avoid it, even if it is a complete waste of a clue.
-- On BGA, in 3+ player games, players generally do not perform *Hard Double Discard Avoidance*. Instead, they use two other strategies to prevent *Double Discards* from occurring:
+- _Double Discarding_ is when two players discard the same thing in a row (say, a red 4) and it causes a perfect score to be lost.
+- On BGA, in 2-player games, top players will often perform _Hard Double Discard Avoidance_.
+- In this context, "hard avoidance" means that a player will avoid _Double Discarding_ at all costs. If they are in danger of _Double Discarding_, then they will give any clue at all to avoid it, even if it is a complete waste of a clue.
+- On BGA, in 3+ player games, players generally do not perform _Hard Double Discard Avoidance_. Instead, they use two other strategies to prevent _Double Discards_ from occurring:
   - First, players are generally allowed to save a copy of a non-critical card if both copies of that card are on the chop of adjacent players.
   - Second, players can indirectly solve the problem by planning a line where it sets up one of the DD players to give an obvious clue.
-- In our group, there is no need to do either of these strategies, because *Hard Double Discard Avoidance* is **always** turned on, regardless of the number of players.
-- Why do this? It narrows the possibilities of what *Save Clues* can be, which is quite useful. Furthermore, it eliminates the silliness involved in dancing around a *Double Discard* situation - players simply do not have to worry about it and can focus on always giving the highest efficiency clue for the situation.
-- Finally, if a player notices that someone *Double Discards* when they weren't supposed to, they can mark their hand for the exact card, which is quite powerful.
+- In our group, there is no need to do either of these strategies, because _Hard Double Discard Avoidance_ is **always** turned on, regardless of the number of players.
+- Why do this? It narrows the possibilities of what _Save Clues_ can be, which is quite useful. Furthermore, it eliminates the silliness involved in dancing around a _Double Discard_ situation - players simply do not have to worry about it and can focus on always giving the highest efficiency clue for the situation.
+- Finally, if a player notices that someone _Double Discards_ when they weren't supposed to, they can mark their hand for the exact card, which is quite powerful.
 
 ### Chop Moves - Added
 
 - On BGA, there are certain situations where you save a card in your hand permanently, even though it is not clued.
-- In our group, we give this move a name - the *Chop Move*. We think of the *Chop Move* like an invisible clue that is applied to the chop card.
-- *Chop Moved* cards are permanent - you should never discard them, similar to how you would never normally discard a card that already has a clue on it.
-- There are several ways to initiate a *Chop Move*, some of which are detailed below.
+- In our group, we give this move a name - the _Chop Move_. We think of the _Chop Move_ like an invisible clue that is applied to the chop card.
+- _Chop Moved_ cards are permanent - you should never discard them, similar to how you would never normally discard a card that already has a clue on it.
+- There are several ways to initiate a _Chop Move_, some of which are detailed below.
 
 ### Scream Discard Chop Moves - Changed
 
 - On BGA, if you discard with a known playable card, it is usually a "danger" signal - the next person has something important on chop. So, the next person will give a stall clue, and then the important card in question will be explicitly saved by someone else on the next go-around of the table.
-- In our group, we give this move a name - the *Scream Discard*. This is because when you do it, it is like you are screaming at the next player.
-- Furthermore, in our group, we don't bother wasting a clue to explicitly save the card. The player is expected to *Chop Move* the card forever.
+- In our group, we give this move a name - the _Scream Discard_. This is because when you do it, it is like you are screaming at the next player.
+- Furthermore, in our group, we don't bother wasting a clue to explicitly save the card. The player is expected to _Chop Move_ the card forever.
 - Why do this? It is more efficient to not have to waste clues on critical cards that are not currently playable.
 
 ### The 5's Chop Move - Added
 
-- On BGA, if you clue number 5 to a 5 that is one-away-from-chop, high-level players will usually interpret it as a *Play Clue* on the 5 or a stall clue, depending on the situation.
-- In our group, we assign a special meaning to number 5 clues that introduce a new 5 that is **exactly** one-away from chop. You guessed it - it's a *Chop Move*.
+- On BGA, if you clue number 5 to a 5 that is one-away-from-chop, high-level players will usually interpret it as a _Play Clue_ on the 5 or a stall clue, depending on the situation.
+- In our group, we assign a special meaning to number 5 clues that introduce a new 5 that is **exactly** one-away from chop. You guessed it - it's a _Chop Move_.
 - Why do this? It allows players to use this special power to save two cards with one clue. For example, it can be used to save a critical card that is followed by a 5. Or, you can even use it to permanently save a non-critical but-still-useful card.
 
 ### Trash Chop Moves - Changed
 
 - On BGA, if you clue some cards which are known-trash, this gives the player some safe discards. This is usually done if you don't want that player to discard their chop card. However, after they have discarded these cards, there are different opinions on what the player should discard next.
-- In our group, a known-trash clue causes **all** cards behind the oldest clued card to be *Chop Moved*.
+- In our group, a known-trash clue causes **all** cards behind the oldest clued card to be _Chop Moved_.
 
 ### The Order Chop Move - Added
 
 - In the beginning of the game, it is common for two or more 1's to get clued in the same person's hand.
 - On BGA, people typically play their 1's from oldest to newest. However, if they don't, people just assume that a mistake is being made, and don't pay too much attention beyond that.
-- In our group, we pay attention. If you don't play your 1's from oldest to newest, it *Chop Moves* the next person.
+- In our group, we pay attention. If you don't play your 1's from oldest to newest, it _Chop Moves_ the next person.
 - Why do this? You get to save 5's (and other valuable stuff) "for free" without having to waste a clue. It's a bit arbitrary, but very strong.
 
 ### Layered Finesses - Added
 
-- On BGA, if you are playing into a *Finesse* but play an unrelated card, then you interpret the *Finesse* as a *Bluff* instead, and stop playing.
-- In our group, you can **only** *Bluff* the very next player.
-- This means that if someone plays into a *Finesse*, and they were not the very next player after the cluer, then they will **continue** to play cards in their hand from left to right until they find the promised card.
-- This is called a *Layered Finesse* because the intended *Finesse* blind-play target is "layered" behind other playable cards. (Isdariel refers to this as a *Deep Finesse*.)
+- On BGA, if you are playing into a _Finesse_ but play an unrelated card, then you interpret the _Finesse_ as a _Bluff_ instead, and stop playing.
+- In our group, you can **only** _Bluff_ the very next player.
+- This means that if someone plays into a _Finesse_, and they were not the very next player after the cluer, then they will **continue** to play cards in their hand from left to right until they find the promised card.
+- This is called a _Layered Finesse_ because the intended _Finesse_ blind-play target is "layered" behind other playable cards. (Isdariel refers to this as a _Deep Finesse_.)
 - For example, in a 4-player game with Alice, Bob, Cathy, and Donald:
-  - Alice clues red to Donald as a *Play Clue* on a red 2.
+  - Alice clues red to Donald as a _Play Clue_ on a red 2.
   - This promises that someone has the red 1.
   - Bob discards.
   - Cathy knows that she has the red 1, because she doesn't see anyone else have the red 1.
   - Cathy blind-plays a blue 1 (from slot 1).
-  - Cathy knows that Alice is only allowed to bluff Bob. Thus, Cathy cannot be *Bluffed*; Cathy must actually have the red 1 as a *Layered Finesse*.
+  - Cathy knows that Alice is only allowed to bluff Bob. Thus, Cathy cannot be _Bluffed_; Cathy must actually have the red 1 as a _Layered Finesse_.
   - On her next turn, Cathy tries to blind-play the red 1 (from slot 2), but it is really the blue 2.
   - On her next turn, Cathy tries to blind-play the red 1 (from slot 3), but it is really the blue 3.
   - On her next turn, Cathy blind-plays red 1 (from slot 4).
   - Donald plays red 2.
-- By extension, it is also possible to perform a *Double Finesse* where both promised cards are *Layered* behind other playable cards. Essentially, this means that when playing with good players, you always have to keep in mind that a *Finesse* could be *Layered*.
+- By extension, it is also possible to perform a _Double Finesse_ where both promised cards are _Layered_ behind other playable cards. Essentially, this means that when playing with good players, you always have to keep in mind that a _Finesse_ could be _Layered_.
 - Why do this? It's pretty awesome and one of the most fun parts of playing Hanabi with our group.
 
 <br />
@@ -265,18 +265,18 @@ These are conventions that we don't typically turn on for new players, but we do
 - For example:
   - Alice has a known red 1 and a known blue 1 to play.
   - Bob has a known red 2 to play and is waiting for Alice to play the red 1.
-  - Alice is expected to play the red 1. (The red 1 is said to have *Priority*.) Instead, Alice plays the blue 1.
-  - Thus, Alice is **promising** that someone one the team has the blue 2 on their *Finesse Position*. Whoever has it should blind-play it, similar to if a *Finesse* was performed.
-- You can also do *Priority Bluffs*. It works surprisingly well in a variety of situations.
+  - Alice is expected to play the red 1. (The red 1 is said to have _Priority_.) Instead, Alice plays the blue 1.
+  - Thus, Alice is **promising** that someone one the team has the blue 2 on their _Finesse Position_. Whoever has it should blind-play it, similar to if a _Finesse_ was performed.
+- You can also do _Priority Bluffs_. It works surprisingly well in a variety of situations.
 - Why do this? It gets cards "for free" without having to use any clues and has few downsides.
 
 ### 3 Bluffs - Added
 
-- On BGA, cards that are touched to initiate a *Bluff* are typically known to be one-away from being playable. (There is also a more complex interpretation called a *Promise Bluff* that I won't go into.)
-- In our group, we arbitrarily agree that any card used to initiate a *Bluff* can be either a one-away card OR a 3.
-  - If a one-away card is used to initiate a *Bluff*, then we call that a normal *Bluff*.
-  - If a two-away 3 is used to initiate a *Bluff*, then we call that a *3 Bluff*.
-- Players are allowed to initiate *3 Bluffs* with either color or number.
+- On BGA, cards that are touched to initiate a _Bluff_ are typically known to be one-away from being playable. (There is also a more complex interpretation called a _Promise Bluff_ that I won't go into.)
+- In our group, we arbitrarily agree that any card used to initiate a _Bluff_ can be either a one-away card OR a 3.
+  - If a one-away card is used to initiate a _Bluff_, then we call that a normal _Bluff_.
+  - If a two-away 3 is used to initiate a _Bluff_, then we call that a _3 Bluff_.
+- Players are allowed to initiate _3 Bluffs_ with either color or number.
 - This is one of the more arbitrary and tricky conventions that we have, so it will take a few games to get used to.
 - Why do this? It allows us to get 2-for-1 clues in situations where you would otherwise have to do a 1-for-1. Furthermore, it allows us to mitigate a good percentage of "bottom-deck" losses to 3's. (And if you're really interested, you can read [the story of how 3 Bluffs were invented](3-bluffs.md)).
 

@@ -36,7 +36,7 @@
 - Efficiency is a measure of how much value the team is getting with the amount of clues that they have spent thus far.
 - The formula for efficiency is:
   - `(number of cards played + number of cards with 1+ clues "on" them) / number of clues given or lost`
-  - (This formula assumes the use of *Good Touch Principle*.)
+  - (This formula assumes the use of _Good Touch Principle_.)
 
 <br />
 
@@ -71,9 +71,9 @@
 - The formula for minimum efficiency is:
   - `(5 * number of suits) / (8 + floor((starting pace + number of suits - unusable clues) / discards per clue))`
   - "unusable clues" is 1 by default, but 2 in a 5/6-player game
-  - "unusable clues" is equal to the number of suits in a *Throw It in a Hole* game
+  - "unusable clues" is equal to the number of suits in a _Throw It in a Hole_ game
   - "unusable clues" is always 1 if a game contains a Contrarian detrimental character
-  - "discards per clue" is 1 by default, but 2 in a *Clue Starved* game
+  - "discards per clue" is 1 by default, but 2 in a _Clue Starved_ game
 - To calculate the total number of clues given or lost, we use:
   - +8 for the 8 starting clues
   - starting pace because you get 1 clue per discard

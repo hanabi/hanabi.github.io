@@ -1,10 +1,10 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 import { mainSidebar } from "../sidebars";
 
 const beginnersGuidePartsRaw = mainSidebar.find(
-  (item) => item["Beginner's Guide"]
+  (item) => item["Beginner's Guide"],
 )["Beginner's Guide"];
 const parts = [];
 parseSidebar(parts, beginnersGuidePartsRaw);
@@ -30,7 +30,7 @@ export default function Progress({ id }) {
   }
   const percentage = Math.round(((part + 1) / TOTAL_PARTS) * 100);
 
-  // Once the component is rendered, stick it underneath the table of contents and make it visible
+  // Once the component is rendered, stick it underneath the table of contents and make it visible.
   useEffect(() => {
     const toc = document.querySelector("ul.table-of-contents");
     if (toc) {

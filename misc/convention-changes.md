@@ -1,18 +1,18 @@
-# Changes to *The H-Group Convention Framework*
+# Changes to _The H-Group Convention Framework_
 
-- The set of conventions that everyone to in the group is defined as the *Convention Framework*.
+- The set of conventions that everyone to in the group is defined as the _Convention Framework_.
 - The framework evolves over time, as new strategies are thought up, older strategies are no longer used, and existing strategies are changed.
 
 <br />
 
-## Who can submit changes to the *Convention Framework*?
+## Who can submit changes to the _Convention Framework_?
 
 - Anyone can propose a new move or a change to the conventions, regardless of whether they are new to the group or old.
 - However, we ask that players have a firm grasp of the general way we play before they start proposing things (e.g. max level).
 
 <br />
 
-## How are *Convention Framework* changes proposed?
+## How are _Convention Framework_ changes proposed?
 
 - We use the [GitHub issues tracker](https://github.com/hanabi/hanabi.github.io/issues) for this repository in order to organize convention proposals. (All GitHub-related discussion is also mirrored to the `#new-conventions` channel in [the Discord server](https://discord.gg/FADvkJp).)
 - Players must submit [a new issue](https://github.com/hanabi/hanabi.github.io/issues/new) for their request or proposed change.
@@ -28,13 +28,13 @@
 
 <br />
 
-## Do I need to be an expert player in order to review the latest *Convention Framework* changes or join in the discussion?
+## Do I need to be an expert player in order to review the latest _Convention Framework_ changes or join in the discussion?
 
 - No, you do not. Anyone at an intermediate level or above is encouraged to read the latest issues and participate in the discussion, at least if that kind of thing is interesting to you.
 
 <br />
 
-## How long are *Convention Framework* changes discussed for?
+## How long are _Convention Framework_ changes discussed for?
 
 - No decisions are made immediately, as:
   - We want the convention framework to change fairly slowly.
@@ -56,7 +56,7 @@
   - How long they have been playing with the group
   - How many games they have played with the group
   - How often they participate in the convention discussion
-- Determining consensus is **necessarily arbitrary**. In the case of a "tie" or a close call, preference is given to keeping the *Convention Framework* the way that it already is.
+- Determining consensus is **necessarily arbitrary**. In the case of a "tie" or a close call, preference is given to keeping the _Convention Framework_ the way that it already is.
 
 <br />
 
@@ -68,7 +68,7 @@
 
 <br />
 
-## How fast does the *Convention Framework* as a whole change?
+## How fast does the _Convention Framework_ as a whole change?
 
 - Changes usually happen slowly, over the course of months. This allows players who only play occasionally time to adjust (e.g. players who only play on the weekends, and so forth).
 
@@ -93,10 +93,10 @@
 
 <br />
 
-## How permanent are changes to the *Convention Framework*?
+## How permanent are changes to the _Convention Framework_?
 
-- No change is permanent. If the group consensus changes, then the *Convention Framework* should change.
-- With that said, it is confusing for players in the group who do not play very often to have a certain move be "turned on" one day and then "turned off" the next day. Thus, we do **not** want the *Convention Framework* to flop back and forth.
+- No change is permanent. If the group consensus changes, then the _Convention Framework_ should change.
+- With that said, it is confusing for players in the group who do not play very often to have a certain move be "turned on" one day and then "turned off" the next day. Thus, we do **not** want the _Convention Framework_ to flop back and forth.
 - If consensus is reached on a certain convention configuration, then as a general rule it should not be up for debate again for a period of six months.
 
 <br />

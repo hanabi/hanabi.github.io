@@ -1,6 +1,6 @@
 # Goals for the H-Group
 
-The *H-Group* is a loose collection of around 100-200 people who all love Hanabi, share the same conventions, and play pick-up games together.
+The _H-Group_ is a loose collection of around 100-200 people who all love Hanabi, share the same conventions, and play pick-up games together.
 
 As a group, we are always welcoming of new people that want to give our way of playing the Hanabi a try. With that said, we do not want to take-in just anybody. We take Hanabi very seriously, so **inclusiveness comes secondary to keeping our pick-up games of a high quality**.
 
@@ -42,4 +42,4 @@ Communication is difficult! But post-game reviews with good communication are a 
 
 ## To Have Fun
 
-Ultimately, we all play the game because we find it fun. Earlier, I said that the *H-Group* takes Hanabi very seriously. But no-one wants to play with someone who takes the game *too* seriously. At the end of the day, the most important goal of the group is to provide an environment where everyone can have fun together, so it is important not to lose sight of that.
+Ultimately, we all play the game because we find it fun. Earlier, I said that the _H-Group_ takes Hanabi very seriously. But no-one wants to play with someone who takes the game _too_ seriously. At the end of the day, the most important goal of the group is to provide an environment where everyone can have fun together, so it is important not to lose sight of that.
