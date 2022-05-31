@@ -12,8 +12,8 @@
       "command": "./install.sh",
       "presentation": {
         "reveal": "always",
-        "panel": "new"
-      }
+        "panel": "new",
+      },
     },
     {
       "label": "Run Website",
@@ -21,8 +21,8 @@
       "command": "./run.sh",
       "presentation": {
         "reveal": "always",
-        "panel": "new"
-      }
+        "panel": "new",
+      },
     },
   ],
 }

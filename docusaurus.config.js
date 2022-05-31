@@ -55,6 +55,12 @@ module.exports = {
       ],
     },
 
+    docs: {
+      sidebar: {
+        hideable: true,
+      },
+    },
+
     // Extra settings
     algolia: {
       appId: "24AGYEOQ7J", // cspell:disable-line
@@ -62,10 +68,10 @@ module.exports = {
       indexName: "hanabi-conventions",
       contextualSearch: false, // Only useful for versioned sites, e.g. docs for v1, v2
     },
+
     colorMode: {
       defaultMode: "dark",
     },
-    hideableSidebar: true,
   },
   plugins: [path.resolve(__dirname, "image-generator")],
   presets: [
