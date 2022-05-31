@@ -57,6 +57,7 @@ module.exports = {
 
     // Extra settings
     algolia: {
+      appId: "24AGYEOQ7J", // cspell:disable-line
       apiKey: "d78c09bd651631ef68e85a10a605d1e8",
       indexName: "hanabi-conventions",
       contextualSearch: false, // Only useful for versioned sites, e.g. docs for v1, v2
