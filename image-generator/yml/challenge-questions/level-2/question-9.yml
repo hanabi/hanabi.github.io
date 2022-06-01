@@ -1,0 +1,40 @@
+stacks:
+  - r: 1
+  - y: 1
+  - g: 2
+  - b: 2
+  - p: 2
+discarded:
+  - b4
+  - r3
+players:
+  - clue_giver: true
+    cards:
+      - type: x
+      - type: p
+        above: Purple 3
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: y4
+        border: false
+      - type: g4
+        border: false
+      - type: b2
+        border: false
+      - type: r1
+        border: false
+      - type: b5
+        middle_note: (5)
+  - cards:
+      - type: g3
+        border: false
+      - type: y1
+        border: false
+      - type: b4
+        border: false
+      - type: y3
+        middle_note: (Y)
+      - type: g1
+        border: false
