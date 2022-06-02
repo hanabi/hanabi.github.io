@@ -26,7 +26,7 @@ players:
         border: false
       - type: p4
         border: false
-      - type: g3
+      - type: y3
         border: false
       - type: r1
         border: false

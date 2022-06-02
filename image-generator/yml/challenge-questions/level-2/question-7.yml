@@ -26,9 +26,9 @@ players:
   - cards:
       - type: r2
         border: false
-      - type: p2
-        border: false
       - type: b4
+        border: false
+      - type: p2
         border: false
       - type: g1
         border: false
