@@ -213,11 +213,6 @@ module.exports = {
     {
       "Challenge Questions": [
         "challenge-questions",
-        {
-          type: "ref",
-          id: "beginner",
-          label: "Level 1 (Beginner's Guide)",
-        },
         "challenge-questions/level-2",
       ],
     },
