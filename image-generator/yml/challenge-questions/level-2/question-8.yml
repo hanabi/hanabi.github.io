@@ -11,8 +11,7 @@ players:
     cards:
       - type: x
       - type: x
-      - type: g
-        above: Green 2
+      - type: x
       - type: x
       - type: x
   - cards:
@@ -23,15 +22,15 @@ players:
       - type: b5
         border: false
       - type: b2
-        middle_note: (B)
+        below: (b)
       - type: y1
         border: false
   - cards:
       - type: r2
         border: false
       - type: p2
-        middle_note: (2) 
-      - type: b4
+        below: (2)
+      - type: r1
         border: false
       - type: y4
         border: false

@@ -11,15 +11,14 @@ players:
     cards:
       - type: x
       - type: x
-      - type: y
-        above: Yellow 2
+      - type: x
       - type: x
       - type: x
   - cards:
       - type: r3
         border: false
       - type: b5
-        border: false
+        below: (5)
       - type: p1
         border: false
       - type: r1
@@ -33,7 +32,7 @@ players:
         border: false
       - type: b1
         border: false
-      - type: p2
-        border: false
+      - type: p4
+        below: (p)
       - type: b2
         border: false

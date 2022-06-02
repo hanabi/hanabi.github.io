@@ -11,8 +11,7 @@ players:
   - clue_giver: true
     cards:
       - type: x
-      - type: p
-        above: Purple 3
+      - type: x
       - type: x
       - type: x
       - type: x
@@ -26,7 +25,7 @@ players:
       - type: r1
         border: false
       - type: b5
-        middle_note: (5)
+        below: (5)
   - cards:
       - type: g3
         border: false
@@ -35,6 +34,6 @@ players:
       - type: b4
         border: false
       - type: y3
-        middle_note: (Y)
+        below: (y)
       - type: g1
         border: false

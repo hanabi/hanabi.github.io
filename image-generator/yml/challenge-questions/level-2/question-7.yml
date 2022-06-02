@@ -19,7 +19,8 @@ players:
   - cards:
       - type: x
       - type: x
-      - type: x
+      - type: 3
+        clue: 3
       - type: x
       - type: 3
         clue: 3

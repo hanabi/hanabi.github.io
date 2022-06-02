@@ -95,12 +95,13 @@ values={[
 </TabItem>
 <TabItem value="solution3">
 
-1. Bob writes "yellow 3, blue 3, purple 3" (i.e. same as empathy)..
-    - Bob knows that this must be a _Play Clue_ on his 3, since it is not on chop. It is not playable through any of the clued card, and it cannot be a finesse off Cathy's green 2, since it is explicitly not a green 3. Therefore this is a _Self-Finesse_ and Bob must have the 2 to make his 3 playable.
-    - Bob does not know exactly which 3 is playable until he plays his finesse position.
+1. Bob writes "yellow 3, blue 3, purple 3" (i.e. same as empathy).
+   - Bob knows that this must be a _Play Clue_ on his 3, since it is not on chop. It is not currently playable, and it cannot be a finesse off Cathy's green 2, since it is explicitly not a green 3. Therefore this is a _Self-Finesse_ and Bob must have the 2 to make his 3 playable.
+   - Bob does not know exactly which 3 is playable until he plays his finesse position.
 1. Bob should blind-play slot 1 immediately to demonstrate that he (and not Cathy) has the connecting 2.
-    - Cathy's chop is trash and does not need saving.
-    - At [higher levels](/docs/level-5#urgency-principle-playing-into-finesses-as-soon-as-possible), Bob can consider deferring blind-playing, but only to give his own finesse on the green 2!
+   - Cathy's chop is trash and does not need saving.
+   - At [higher levels](/docs/level-5#urgency-principle-playing-into-finesses-as-soon-as-possible), Bob can consider deferring blind-playing, but only to give his own finesse on the green 2!
+   - After playing the 2, he should mark his 3 with the same color as the 2 that was played.
 
 </TabItem>
 </Tabs>
@@ -109,7 +110,6 @@ values={[
 
 ## Question 4
 
-2 save
 <Tabs
 defaultValue="question4"
 values={[
@@ -118,9 +118,15 @@ values={[
 ]}>
 <TabItem value="question4">
 
+- Alice clues 2 to Bob, which touches one card on slot 5.
+- Bob discards trash from slot 4.
+- Assuming Alice has trash on chop, should Cathy blind-play? Why or why not?
 
 </TabItem>
 <TabItem value="solution4">
+
+- No, Alice should not blind-play. The 2 is on chop, so this is just a regular _2 Save_. Since it is not a _Play Clue_, Cathy is not promised a connecting yellow 1.
+- If Alice wanted to give a _Reverse Finesse_ on the yellow 2, she must give yellow on the yellow 2 as a _Play Clue_.
 
 </TabItem>
 </Tabs>
@@ -129,7 +135,6 @@ values={[
 
 ## Question 5
 
-p3r3b3
 <Tabs
 defaultValue="question5"
 values={[
@@ -138,9 +143,20 @@ values={[
 ]}>
 <TabItem value="question5">
 
+- Alice clues 3 to Bob, which touches one card on slot 2.
+- Bob writes a card note with the identity of the card.
+
+1. What _card note_ does Bob write?
+1. What action should Bob perform?
 
 </TabItem>
 <TabItem value="solution5">
+
+1. Bob writes "red 3, blue 3, purple 3 if purple 2 f".
+   - Bob knows that this must be a _Play Clue_ on his 3, since it is not on chop. It could be an immediately playable red 3 or blue 3, but it can also be a _Reverse Finesse_ on a purple 3.
+1. Bob must entertain the possibility of a _Reverse Finesse_. Assuming there is nothing useful to clue in Alice's hand, Bob should just discard.
+   - Bob updates his note to "red 3, blue 3, purple 3 if purple 2 f | purple 3" if Cathy blind-plays. Otherwise he updates it to "red 3, blue 3, purple 3 if purple 2 f | red 3, blue 3".
+   - This cannot be a _Self-Finesse_ on Bob, since he knows that _Self-Finesses_ cannot be given if a _Play Clue_ interpretation is possible. In this case, the clued card can be an immediately playable red 3 or blue 3.
 
 </TabItem>
 </Tabs>
@@ -149,7 +165,6 @@ values={[
 
 ## Question 6
 
-Self-finesse
 <Tabs
 defaultValue="question6"
 values={[
@@ -158,9 +173,15 @@ values={[
 ]}>
 <TabItem value="question6">
 
+- Alice clues 2 to Bob, which touches one card on slot 5.
+- Bob discards trash from slot 4.
+- Assuming Alice has trash on chop, should Cathy blind-play? Why or why not?
 
 </TabItem>
 <TabItem value="solution6">
+
+- Yes, Cathy should blind-play. Green 4 is not critical, so the 4 clue is not a _Save Clue_ and must be a _Play Clue_. Cathy is promised a green 3 to make the green 4 playable.
+- Cathy also trusts that Bob knows his 4 is exactly a green 4. At first, Bob had to treat the 4 clue as a save on the critical purple 4, but if it was truly a purple 4, Cathy would not blind-play.
 
 </TabItem>
 </Tabs>
@@ -169,7 +190,12 @@ values={[
 
 ## Question 7
 
-Must be save - cannot be self-finesse, cannot be reverse finesse
+- Alice clues 3 to Bob, which touches two cards on slot 3 and 5.
+- Bob writes a card note with the identity of the card.
+
+1. What _card note_ does Bob write?
+1. What action should Bob perform?
+
 <Tabs
 defaultValue="question7"
 values={[
@@ -178,6 +204,11 @@ values={[
 ]}>
 <TabItem value="question7">
 
+1. Bob writes "red 3" on the 3 on slot 5, and "not red 3" on the 3 on slot 3.
+   - The 3 was clued on chop, and there is a red 3 in the discard pile, so Bob should treat this is as a _Save Clue_ on red 3 first and firstmost.
+   - There are no playable 3's currently, so this cannot be a _Direct Play Clue_.
+   - The only other possibility is if this 3 clue was a _Finesse_ of some sort. But Alice cannot give a _Self-Finesse_ this way - Alice would not expect Bob to blind-play due to the possibility of the 3 clue being a _Save Clue_. This is also not a _Reverse Finesse_ - although Cathy coincidentally has a red 2 on her finesse position, Cathy would interpret a clue touching a critical red 3 on chop as a _Save Clue_.
+1. Bob should not blind-play anything off this clue. He can (and perhaps should) give 2 to Cathy as a _Play Clue_, picking up the other 2 "for free". This would not be stomping on a _Finesse_, since the red 2 could not have been gotten by a _Finesse_ to begin with.
 
 </TabItem>
 <TabItem value="solution7">
@@ -189,7 +220,6 @@ values={[
 
 ## Question 8
 
-Alice should just play
 <Tabs
 defaultValue="question8"
 values={[
@@ -198,9 +228,16 @@ values={[
 ]}>
 <TabItem value="question8">
 
+- Bob has an unknown blue card in his hand.
+- Cathy has an unknown 2 in her hand.
+- What is the most valuable _Play Clue_ Alice can give?
 
 </TabItem>
 <TabItem value="solution8">
+
+- Alice only has one valid _Play Clue_: 2 to Cathy.
+  - As tempting as it may seem, she cannot clue the red 3 (either with color or rank) to initiate a _Reverse Finesse_, because Cathy would proceed to play the unknown 2 as a red 2 (assuming a _Prompt_ over a _Finesse_).
+  - She should avoid cluing red to Cathy, as it would touch the (trash) red 1.
 
 </TabItem>
 </Tabs>
@@ -209,7 +246,6 @@ values={[
 
 ## Question 9
 
-Alice can clue green to Bob
 <Tabs
 defaultValue="question9"
 values={[
@@ -218,9 +254,16 @@ values={[
 ]}>
 <TabItem value="question9">
 
+- Bob has an unknown 5 in his hand.
+- Cathy has an unknown yellow card in her hand.
+- What is the most valuable _Play Clue_ Alice can give?
 
 </TabItem>
 <TabItem value="solution9">
+
+- Alice's most valuable _Play Clue_ is green to Bob's green 4, as a _Reverse Finesse_ that gets 2 previously untouched cards played.
+  - Cathy's unknown card is also a 3, but she knows it is a yellow that cannot connect to a green 4.
+  - Alice can also clue 3 to Cathy as a _Play Clue_, but this only touches one new card (the green 3) and fills in another.
 
 </TabItem>
 </Tabs>
@@ -229,7 +272,6 @@ values={[
 
 ## Question 10
 
-Alice can clue 3 to Bob
 <Tabs
 defaultValue="question10"
 values={[
@@ -238,9 +280,16 @@ values={[
 ]}>
 <TabItem value="question10">
 
+- Bob has an unknown 5 in his hand.
+- Cathy has an unknown purple card in her hand.
+- What is the most valuable _Play Clue_ Alice can give?
 
 </TabItem>
 <TabItem value="solution10">
+
+- Alice's most valuable _Play Clue_ is 4 to Bob's red 4, as a _Self-Finesse_ that gets 2 previously untouched cards played.
+  - Alice can expect Bob to play into the _Self-Finesse_ because there is no other explanation for the clue. It cannot be a _Save Clue_ or a _Direct Play Clue_, as there are no critical or immediately playable 4's. It cannot be a _Reverse Finesse_ on Cathy, since her green 4 on finesse position certainly does not connect to a 4.
+  - Alice can also clue 3 to Cathy as a _Play Clue_, but then she would need to touch the red 4 later at some point anyways, "wasting" a clue.
 
 </TabItem>
 </Tabs>
