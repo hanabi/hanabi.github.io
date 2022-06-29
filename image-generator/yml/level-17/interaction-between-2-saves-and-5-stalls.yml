@@ -15,21 +15,21 @@ players:
       - type: x
       - type: x
   - cards:
-    - type: 5
-      clue: 5
-    - type: x
-      middle_note: r2?
-    - type: x
-      middle_note: r2?
-    - type: x
+      - type: 5
+        clue: 5
+      - type: x
+        middle_note: r2?
+      - type: x
+        middle_note: r2?
+      - type: x
   - cards:
-    - type: x
-    - type: x
-    - type: x
-    - type: x
-      above: Red 2
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+        above: Red 2
   - cards:
-    - type: x
-    - type: x
-    - type: x
-    - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x

@@ -1,0 +1,227 @@
+---
+id: level-17
+title: Level 17 - 5 Tech
+---
+
+import TheFivePull from "@site/image-generator/yml/level-17/the-five-pull.yml";
+import TheFivePullPrompt from "@site/image-generator/yml/level-17/the-five-pull-prompt.yml";
+import TheFivePullDoubleFinesse from "@site/image-generator/yml/level-17/the-five-pull-double-finesse.yml";
+import TheFivePullClandestineFinesse from "@site/image-generator/yml/level-17/the-five-pull-clandestine-finesse.yml";
+import TheFivePullPromise from "@site/image-generator/yml/level-17/the-five-pull-promise.yml";
+import FiveNumberDischarge from "@site/image-generator/yml/level-17/five-number-discharge.yml";
+import InteractionsBetween2SavesAnd5Stalls from "@site/image-generator/yml/level-17/interaction-between-2-saves-and-5-stalls.yml";
+
+## Conventions
+
+<br />
+
+### The Low Score Phase and the Normal Score Phase
+
+- At this point, you should already know that we split up the game of Hanabi into the _Early Game_ and the _Mid-Game_ (based on when someone discards).
+- In a similar way, we also split up the game of Hanabi into the _Low Score Phase_ and the _Normal Score Phase_:
+  - The _Low Score Phase_ is defined as when the score is below `2 x number of suits`. (e.g. 10 points in a no variant game, 6 points in a 3-suit game, etc.)
+  - The _Normal Score Phase_ is defined as when the score is equal to or past this threshold.
+- Some special moves using a number 5 clue can only be performed in the _Low Score Phase_ of the game.
+- On Hanab Live, the score will be colored cyan when the _Low Score Phase_ is active.
+
+<br />
+
+### No Play Clues with a Number 5 Clue in the Low Score Phase
+
+- Normally, if a player uses a number 5 clue to clue a 5 that is two-or-more-away-from-chop, and that player is not a stalling situation, then it would be a _Play Clue_ on the 5.
+- However, all number 5 clues in the _Low Score Phase_ are **never** to be interpreted as a direct _Play Clue_.
+- They are instead interpreted as a more advanced move. (See the _[5 Pull](#the-5-pull)_ section below.)
+- This means that if players need to give a _Play Clue_ to a playable 5, and the score is less than 2 points per stack, then they **must** use a color clue, or wait until later.
+
+<br />
+
+## Special Moves
+
+<br />
+
+### The Early 5's Chop Move
+
+- First, see the section on the _[5 Stall](level-8.mdx#the-5-stall-intermediate-section)_.
+- In the _Early Game_, players are only allowed to perform a _5 Stall_ if there is nothing left to do. (Or, as a special exception, if there is only one _Play Clue_ to give and that card is on _Finesse Position_.)
+- Thus, if someone clues a 5 and there **is** something else to do, they must be trying to send an additional message.
+- If the 5 is one-away from chop, they intend for an _Early 5's Chop Move_. This functions in the exact same way a normal _5's Chop Move_ does (except it was done in the _Early Game_, which is not normally possible).
+- For level 20+ players, there are [additional rules](level-20.mdx#interaction-with-5-rank-clues) relating to _Early 5's Chop Moves_.
+  <br />
+
+### The 5 Pull
+
+- This convention only applies in the _Low Score Phase_.
+- Players are only allowed to perform a _5 Stall_ in certain situations. If a player performs a _5 Stall_ when it would otherwise be illegal, then it is not a _5 Stall_ at all, and would instead be:
+  - a _5's Chop Move_ if the 5 is one-away-from-chop
+  - a _Play Clue_ if the 5 is two-or-more-away-from-chop
+- However, since _Play Clues_ with number 5 clues are "turned off" in the _Low Score Phase_, then the cluing player must be intending something else: a _5 Pull_.
+- A _5 Pull_ causes the player to blind-play the card to the right of the 5. The clued 5 is not actually related to the blind-play. This is why it is called a _Pull_ instead of a _Finesse_ or a _Bluff_.
+- _5 Pulls_ are typically done to 5's that are on slot 1. But, for example, you can also clue a 5 in slot 2 in order to get a blind-play on slot 3.
+- _5 Pulls_ take precedence over _Finesses_ and _Bluffs_, because a number 5 clue is never considered to be _Play Clue_.
+- For example in a 3-player game:
+  - It is the _Early Game_ and the _Low Score Phase_.
+  - Red 3 is played on the stacks.
+  - Alice clues Cathy number 5, touching a red 5 on slot 1. (There are other _Play Clues_ for Alice to give, so this cannot be a _5 Stall_.)
+  - Normally, Bob would think that this is a _Finesse_ and that he should blind-play his _Finesse Position_ card as the red 4.
+  - However, Bob knows that _Play Clues_ with a number 5 clue are "turned off" in the _Low Score Phase_, which means that Alice is **not** indicating that the red 5 is playable.
+  - Bob can see that there is a playable blue 1 to the right of the 5, so Alice must be intending a _5 Pull_. When it gets to Cathy's turn, Cathy will blind-play that card.
+
+<TheFivePull />
+
+- Since _5 Pulls_ are never _Play Clues_ on the 5, it is possible to _5 Pull_ a 4 without promising that the 5 is the same suit.
+- Confusingly, _5 Pulls_ work differently from _Finesses_. Even though they involve playing a blind card, a _5 Pull_ should be treated as a _Delayed Play Clue_ (or a potential _Prompt_). This means that the blind card could play through any existing touched cards.
+- When a player is _Finessed_ or _Bluffed_, they are allowed to defer playing the blind card in order to do a _Finesse_ or _Bluff_ of their own. However, if they could be _Bluffed_, they are **not** allowed to initiate a _5 Pull_. (Players are still allowed to defer playing into a _Finesse_ in order to initiate a _5 Pull_.)
+- In the rare case where a _5 Pull_ is performed in a 3-player game by touching two 5's in slot 1 and slot 3, then the _5 Pulled_ card is slot 2.
+- Remember that a number 5 clue [is always a _5 Stall_ instead of a _5 Pull_ if the only card ignored is a 2 on chop](#interaction-between-2-saves--5-stalls).
+
+<br />
+
+### A Flowchart for Cluing 5's
+
+- Differentiating between a _5 Stall_ and a _5 Pull_ can sometimes be confusing. [Here is a flowchart](https://raw.githubusercontent.com/hanabi/hanabi.github.io/main/static/img/flowcharts/early-game-5-flowchart.png) that steps you through how you can tell the difference.
+
+<br />
+
+### The 5 Pull Prompt & The 5 Pull Finesse
+
+- _5 Pulls_ are also allowed to initiate a _Prompt_ or _Finesse_.
+- For example, in a 4-player game:
+  - It is the first turn of the game and nothing is played on the stacks.
+  - Cathy's hand is as follows, from newest to oldest: `blue 4, blue 5, red 2, red 2`
+  - Donald's hand is as follows, from newest to oldest: `yellow 4, green 1, yellow 3, yellow 3`
+  - Alice clues number 5 to Cathy, touching the blue 5 on slot 3.
+  - Bob knows that since the team is the _Early Game_, Alice's clue might be a _5 Stall_.
+  - However, Bob also knows that you are only allowed to perform a _5 Stall_ if there are no normal _Save Clues_ or _Play Clues_ to give. Bob sees that Donald has a green 1 that could be _Play Clued_. Thus, Bob knows that Alice's clue cannot be a _5 Stall_, which makes it a _5 Pull_ instead (since it is two-or-more-away from the chop).
+  - Bob knows that if this was a _5 Pull_, it would be pulling the red 2. If Bob does nothing, Cathy might go on to misplay the red 2 as some playable 1.
+  - Thus, this must be a _5 Pull Finesse_, so Bob blind-plays his _Finesse Position_. It is a red 1 and it successfully plays.
+  - Cathy knows that the only reason that Bob would blind-play a card is it this was a _5 Pull Finesse_. Cathy blind-plays her slot 3 card. It is a red 2 and it successfully plays.
+
+<TheFivePullPrompt />
+
+- Unlike other types of _Finesses_, _5 Pull Finesses_ **must** be demonstrated with a blind-play between when the _5 Pull_ is given and the _5 Pulled_ player's next turn (e.g. a _Forward Finesse_).
+- Subsequently, _5 Pulls_ are **not** allowed to initiate a _Reverse Finesse_. (This is because we don't want the person with the pulled card to have to entertain too many possibilities.)
+- Remember that during a _5 Pull Finesse_, the pulled card **always** connects to the blind-play. In other words, it not possible to perform a _5 Pull Bluff_.
+
+<br />
+
+### The 5 Pull Double Finesse
+
+- First, see the section on the [5 Pull Finesse](#the-5-pull-prompt--the-5-pull-finesse).
+- As you would expect, it is also possible to perform a _5 Pull Double Finesse_ in the exact same way that you can _5 Pull Finesse_.
+- The "pulled" card will always connect to the final blind-play.
+- For example in a 4-player game:
+  - It is the first turn of the game and nothing is played on the stacks.
+  - Donald's hand is as follows, from newest to oldest: `blue 4, blue 5, red 3, blue 2`
+  - Alice clues number 5 to Donald, touching the blue 5 on slot 3.
+  - Bob blind-plays the red 1 (because he knows that it cannot be a _5 Stall_).
+  - Cathy blind-plays the red 2 (because she knows that she needs to play into the _Double Finesse_).
+  - Donald knows that the _5 Pulled_ card is the red 3 (connecting to the red 1 and the red 2).
+
+<TheFivePullDoubleFinesse />
+
+- Previously, we said that _5 Pull Finesse_ **must** be a _Forward Finesse_. However, _5 Pulled_ players **do** have to respect that a _5 Pull Finesse_ can be a _5 Pull Double Finesse_ with the second blind-play as a _Reverse Finesse_. (Specifically, we refer to this as a _Finesse_ with a _Reverse Finesse_ component.)
+- More examples of a _5 Pull Double Finesse_ can be found [here](examples/5-pull-double-finesse.mdx).
+
+<br />
+
+### The 5 Pull Clandestine Finesse
+
+- First, see the section on the [5 Pull Finesse](#the-5-pull-prompt--the-5-pull-finesse).
+- A _5 Pull Finesse_ **must** be a _Forward Finesse_.
+- However, _5 Pulled_ players **do** have to respect that the _Finesse_ can be _Clandestine_.
+- For example in a 3-player game:
+  - It is the first turn of the game and nothing is played on the stacks.
+  - Bob's hand is as follows, from newest to oldest: `red 1, green 1, green 4, green 4, green 5`
+  - Cathy's hand is as follows, from newest to oldest: `blue 4, blue 4, blue 5, green 2, blue 2`
+  - Alice clues number 5 to Cathy, touching the blue 5 on slot 3.
+  - Bob blind-plays the red 1 (because he knows that it cannot be a _5 Stall_).
+  - Normally, Cathy would think that Alice performed a _5 Pull Finesse_, and she would blind-play her slot 4 card as the red 2 (which would connect to the red 1).
+  - However, Cathy also sees that at the time of the clue, Bob had a playable green 1 behind the red 1. Thus, it is possible that Alice might be performing a _5 Pull Clandestine Finesse_.
+  - Cathy performs an unrelated action.
+  - Alice performs an unrelated action.
+  - Bob blind-plays the green 1 from slot 2.
+  - Cathy now knows that this was indeed a _5 Pull Clandestine Finesse_ and that she has the green 2 on her slot 4.
+
+<TheFivePullClandestineFinesse />
+
+### The 5 Pull Promise (A Play Clue After a 5 Pull)
+
+- Normally, _5 Pulls_ have to be treated as _Delayed Play Clues_. This means that sometimes, it can take a long time for the pulled card to blind-play.
+- From the perspective of the player who is _5 Pulled_, if a follow up _Play Clue_ is given to a currently unplayable card, then they can disregard the _Delayed Play Clue_ interpretation - the _5 Pulled_ player is **promised** the card that makes the unplayable card playable.
+- For example, in a 4-player game:
+  - Alice has two clued 1's in her hand - red 1 and blue 1.
+  - Bob does a _5 Pull_ on Donald. Donald knows that the _5 Pulled_ card could be either red 2 or blue 2 (if it is a _Delayed Play Clue_).
+  - Cathy clues Alice about a red 3. Now, Donald knows that he is **promised** the red 2 as his _5 Pulled_ card (and he no longer has to wait for the blue 1 to come down before blind-playing).
+
+<TheFivePullPromise />
+
+### Finesses While 5 Pulled are Certain Finesses
+
+- Sometimes, a _5 Pulled_ player may not play their pulled card right away. Maybe they have to wait for existing cards to play first, or maybe they want to capitalize on a _Finesse_ while it is still available.
+- Any _Finesse_ that a _5 Pulled_ player performs is to be treated as a _Certain Finesse_.
+- Any _Certain Discard_ that is performed in response to a _Finesse_ that a _5 Pulled_ player did applies to the _5 Pulled_ card.
+
+<br />
+
+### The 5 Pull Skip
+
+- If a player is already _Finessed_, it is possible to _Finesse_ them again and get them to play their _Second Finesse Position_ card.
+- Similarly, if a _5 Pull_ is performed, and the card immediately to the right of a 5 is already clued or already "gotten", then the _5 Pull_ skips over that card and gets the next card after that.
+
+<br />
+
+### 5 Number Discharge (5ND)
+
+- This convention only applies in the _Low Score Phase_.
+- Players are only allowed to perform a _5 Stall_ in certain situations. If a player performs a _5 Stall_ when it would otherwise be illegal, then it is not a _5 Stall_ at all, and would instead be:
+  - a _5's Chop Move_ if the 5 is one-away-from-chop
+  - a _5 Pull_ if the 5 is two-or-more-away-from-chop and the card to the right of it is playable
+  - a _5 Pull Finesse_ if the 5 is two-or-more-away-from-chop and the card to the right of it is _one-away-from-playable_
+- However, what if the 5 is two-or-more-away-from-chop and the card to the right of it is _two-or-more-away-from-playable_ **or** trash? This would be quite strange.
+- We agree that this signals a _Discharge_ and that the next player should play their _Third Finesse Position_.
+- For example, in a 3-player game:
+  - It is the first turn and nothing is played on the stacks.
+  - Alice clues number 5 to Cathy, touching a 5 on slot 1.
+  - Cathy hand is, from newest to oldest: red 5, red 3, green 2, green 1, green 2
+  - Bob thinks about what Alice's 5 clue could mean:
+    - The clue cannot be a _5 Stall_, because there is a green 1 to _Play Clue_.
+    - The clue cannot be a _5 Pull_, because the red 3 is not playable.
+    - The clue cannot be a _5 Pull Finesse_, because the red 3 is _two-away-from-playable_.
+  - Since Bob would have to blind-play two cards into the _Finesse_ (the same rule as in _5 Color Ejections_), Bob knows that he should instead treat this as a _5 Number Discharge_. Bob blind-plays his slot 3 card and it successfully plays as the red 1.
+
+<FiveNumberDischarge />
+
+- After a _5 Number Discharge_, the card next to the 5 should be marked accordingly. For example, if a _5 Number Discharge_ happens on the first turn of the game, then the team should mark the "pulled" card as a 3 or a 4.
+- More examples of a _5 Number Discharge_ can be found [here](examples/5-number-discharge.mdx).
+
+<br />
+
+### 5 Number Discharge Finesse Position Skips
+
+- First, see the section on the _[5 Number Discharge](#5-number-discharge-5nd)_.
+- After a _5 Number Discharge_ occurs, it is common for the card next to the 5 to be marked as a 3 or a 4.
+- If the 5 was on slot 1, then the marked card is now on _Finesse Position_. For most intents and purposes, this "marking" from a _5 Number Discharge_ **does not** change the player's _Finesse Position_ - their _Finesse Position_ is still the card marked as a 3 or a 4.
+- However, if that player is _Finessed_ for a 1 or a 2, then it is fairly obvious that they should not play the card that is marked as a 3 or a 4. In this case, the player should skip over their _Finesse Position_ card and instead play their _Second Finesse Position_.
+
+<br />
+
+## General Principles
+
+<br />
+
+### Interaction Between 2 Saves & 5 Stalls
+
+- Normally, players are only allowed to _5 Stall_ if there is nothing else to do. If there is something else to do, then the number 5 clue signals a more advanced move.
+- Sometimes, a player can receive a _5 Stall_ clue when:
+  1. A _2 Save_ still needs to be done to another player
+  1. That _2 Save_ is the only clue left
+- In this situation, players should assume the least complicated thing: a _5 Stall_. Because of the _[Visible Rule](level-1.mdx#the-visible-rule)_, the player who gave the _5 Stall_ clue was not allowed to perform the _2 Save_ because the other copy was visible.
+- In this situation, the player who received the _5 Stall_ should write _Elimination Notes_ on their hand for the other copy of the 2. Furthermore, they are not allowed to _2 Save_ the other copy of the 2, so they must give some other clue or discard.
+- For example, in a 4-player game:
+  - It is the first turn and nothing is played on the stacks.
+  - Alice clues number 5 to Bob, touching a 5 on slot 1.
+  - From Bob's perspective, he does not see any other _Play Clues_ or _Save Clues_ that Alice could have given, with the exception of a _2 Save_ on a red 2 on Cathy's chop.
+  - Thus, Alice's number 5 clue could be either a _5 Pull_ or a _5 Stall_, depending on whether or not Bob has the other copy of the red 2 in his hand.
+  - Bob knows that in this situation, _5 Stalls_ take precedence over _5 Pulls_, so he marks his hand for the other copy of red 2 and discards.
+
+<InteractionsBetween2SavesAnd5Stalls />

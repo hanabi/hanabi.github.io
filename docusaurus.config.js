@@ -55,16 +55,23 @@ module.exports = {
       ],
     },
 
+    docs: {
+      sidebar: {
+        hideable: true,
+      },
+    },
+
     // Extra settings
     algolia: {
-      apiKey: "d78c09bd651631ef68e85a10a605d1e8",
+      appId: "24AGYEOQ7J", // cspell:disable-line
+      apiKey: "7e647fd7de142915da9f459b345dfca4",
       indexName: "hanabi-conventions",
-      contextualSearch: false, // Only useful for versioned sites, e.g. docs for v1, v2
+      contextualSearch: false, // Enabled by default; only useful for versioned sites
     },
+
     colorMode: {
       defaultMode: "dark",
     },
-    hideableSidebar: true,
   },
   plugins: [path.resolve(__dirname, "image-generator")],
   presets: [

@@ -1,0 +1,38 @@
+---
+id: minimum-clue-value-principle
+title: Minimum Clue Value Principle (MCVP)
+---
+
+import BeginnersGuideProgress from "@site/src/beginnersGuide.js";
+import TempoClue from "@site/image-generator/yml/beginner/tempo-clue.yml";
+
+<BeginnersGuideProgress id="minimum-clue-value-principle" />
+
+### No Nonsense Clues
+
+- Usually, players only discard when they have nothing else to do. But don't take this the wrong way.
+- Players are **not allowed** to just clue any card:
+  - Players are **only allowed** to give _Play Clues_ to actual playable cards.
+  - Players are **only allowed** to give _Save Clues_ to the specific cards outlined in the _Save Principle_ section.
+- If players cannot give a legal _Play Clue_ or _Save Clue_, then they **must discard**.
+
+<br />
+
+### Tempo Clues
+
+- Furthermore, players might be tempted to **clue a card again that already has a clue on it** in order to make it play right now. We call this kind of clue a _Tempo Clue_.
+- A _Tempo Clue_ is defined as a _Play Clue_ that does not "get" any brand new cards.
+- _Tempo Clues_ are quite inefficient - the team is using two clues to get one card. Since _Tempo Clues_ are so bad, we say that players are **only allowed to perform _Tempo Clues_ in special situations**, like when a player is forced to give a clue.
+- For example, in a 3-player game:
+  - Alice is in a special situation where she cannot discard.
+  - Bob has a 2 in his hand that was saved with a _2 Save_ clue earlier on in the game. He does not know what color it is, but assumes that it is either a red 2 (which is playable) or a blue 2 (which is not playable).
+  - Alice clues red to Bob, "filling in" the red 2. This is a _Tempo Clue_ because there are no new cards introduced. (Since this is so inefficient, Alice would never do this unless she was in a special stalling situation.)
+  - Bob can now play the red 2.
+
+<TempoClue />
+
+### Minimum Clue Value Principle (MCVP)
+
+- So, if a player only has the option to give a _Tempo Clue_ or to discard, then they **must discard**.
+- We formally express this concept as _Minimum Clue Value Principle_: **all clues must get at least one previously unclued card played or saved**.
+- In other words, as a group, we hold ourselves to a high standard, and we don't give inefficient clues.

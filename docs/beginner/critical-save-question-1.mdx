@@ -1,0 +1,40 @@
+---
+id: critical-save-question-1
+title: The Critical Save (Question 1)
+---
+
+import BeginnersGuideProgress from "@site/src/beginnersGuide.js";
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import CriticalSaveQuestion1 from "@site/image-generator/yml/beginner/critical-save-question-1.yml";
+
+<BeginnersGuideProgress id="critical-save-question-1" />
+
+<!-- lint disable no-undefined-references -->
+
+<Tabs
+  defaultValue="question"
+  values={[
+    {label: 'Question', value: 'question'},
+    {label: 'Solution', value: 'solution'},
+  ]}>
+<TabItem value="question">
+
+- Alice clues number 3 to Bob, touching a card on slot 3.
+- Is this a _Play Clue_ or a _Save Clue_?
+- What _card note_ does Bob write?
+
+</TabItem>
+<TabItem value="solution">
+
+- Bob knows that this could be a _Play Clue_ on:
+  - a yellow 3 (directly playable)
+  - a red 3 (as a _Delayed Play Clue_ through Cathy's red 2)
+- However, since it touched his chop, it could also be a _Save Clue_. Since green 3 is in the trash, a number 3 clue matches that, so it could be the matching green 3.
+- Bob does not know whether or not this is a _Play Clue_ or a _Save Clue_, but he has to treat it as a _Save Clue_ for the time being until he gets more information.
+- Bob writes a _card note_ of "yellow 3, red 3, green 3".
+
+</TabItem>
+</Tabs>
+
+<CriticalSaveQuestion1 />

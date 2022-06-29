@@ -210,6 +210,12 @@ module.exports = {
         "variant-specific/white",
       ],
     },
+    {
+      "Challenge Questions": [
+        "challenge-questions",
+        "challenge-questions/level-2",
+      ],
+    },
     "convention-attribution",
   ],
 };
