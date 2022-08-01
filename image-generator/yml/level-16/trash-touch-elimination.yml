@@ -20,11 +20,8 @@ players:
         above: Red 1
         clue: r
       - type: x
-        above: Blue 1
       - type: x
-        above: Green 1
       - type: x
-        above: Yellow 1
   - cards:
       - type: x
         middle_note: r5?
