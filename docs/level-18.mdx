@@ -24,17 +24,17 @@ import TrustFinesse from "@site/image-generator/yml/level-18/trust-finesse.yml";
 
 - Typically, players will only have one card to play at a time. In this case, unless there is some really good clue to give, there are no decisions to be made - they just play their one playable card.
 - What if a player has two or more playable cards to play? Which card should they play first?
-- If one of the cards is not completely known yet (e.g. a playable 2 of unknown color), then the player might want to play that card first in order to find out exactly what it is. In general, **nothing special is triggered by players playing an unknown card.**
-- On the other hand, something special **can** be triggered if a player plays a fully-known card, because they knew exactly what they were doing. Our group agrees that **playable cards should be played in a specific order**. We refer to this as _Priority_. The agreed _Priority_ is as follows:
+- Something special **can** be triggered if a player plays a fully-known card, because they knew exactly what they were doing. Our group agrees that **playable cards should be played in a specific order**. We refer to this as _Priority_. The agreed _Priority_ is as follows:
 
 | Priority | Category of card                                        | Reason                                                                |
 | -------- | ------------------------------------------------------- | --------------------------------------------------------------------- |
 | 1        | Blind-plays                                             | Demonstrating that a _Finesse_ or _Bluff_ occurred is very important. |
-| 2        | Cards that lead into clued cards in someone else's hand | Otherwise, the team would lose _Tempo_.                               |
-| 3        | Cards that lead into the player's own hand              | It is bad for a suit to be "held up" on one player.                   |
-| 4        | 5's                                                     | Playing a 5 gets the team a free clue.                                |
-| 5        | The lower rank card                                     | The smaller stacks are more important to fill up.                     |
-| 6        | The left-most card                                      | The left-most card is more likely to be good.                         |
+| 2        | Unknown cards                                           | Gaining information about his own hand is valuable. |
+| 3        | Cards that lead into clued cards in someone else's hand | Otherwise, the team would lose _Tempo_.                               |
+| 4        | Cards that lead into the player's own hand              | It is bad for a suit to be "held up" on one player.                   |
+| 5        | 5's                                                     | Playing a 5 gets the team a free clue.                                |
+| 6        | The lower rank card                                     | The smaller stacks are more important to fill up.                     |
+| 7        | The left-most card                                      | The left-most card is more likely to be good.                         |
 
 - If someone plays a fully-known card and the card does **not** have _Priority_, then the player must be trying to send a special message.
 - Based on what card they did play, if you have any clued cards in your hand that match the next "connecting" card, it is a message that you can play it right now as a _Priority Prompt_. (This is similar to a normal _Prompt_, except instead of initiating the _Prompt_ with a clue, they initiated it with the order that they played cards.)
@@ -139,21 +139,6 @@ Priority does not always apply. Some common exceptions are listed below.
 
 <br />
 
-### The Priority Finesse (Special Case)
-
-- To review, if a player has two playable cards, and both of them are fully-known, then they always have the ability to trigger a _Priority Finesse_.
-- If a player has two playable cards, and only one of them is fully-known, a _Priority Finesse_ will never be triggered if they play the unknown card.
-- But what if a player plays a fully-known card over an unknown card? They **can still** trigger a _Priority Finesse_, but **only** if every single possibility for the unknown card would have _Priority_ over the card that was played.
-- For example, in a 3-player game:
-  - Red 2 is played on the stacks. The 1's are played on all of the other stacks.
-  - Alice has a globally-known red 3. (She was given a _Play Clue_ on it earlier.)
-  - Alice has a 2 of unknown color. (She was given a _Save Clue_ on it earlier, but it is now playable since all of the 1's are down.)
-  - Alice's 2 could be either blue 2, green 2, yellow 2, or purple 2.
-  - The rest of the team does not have any clued cards in their hands.
-  - Alice knows that **all** of the possibilities for the 2 would have _Priority_ over the red 3, since all of them are lower rank.
-  - Alice plays the red 3 anyway, which triggers a _Priority Finesse_ on the red 4.
-
-<PriorityFinesseSpecial />
 
 ### The Trust Finesse (A Situational Priority Finesse)
 
