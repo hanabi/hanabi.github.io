@@ -4,7 +4,7 @@ The following is a rough set of criteria for someone receiving the purple role:
 
 - Have played "actively" for at least 1 year.
   - Active is defined as playing at least a few games a week. However, we acknowledge that for most people, there will be periods of heavy activity and periods where no Hanabi is played at all.
-  - Not playing any games for a 1+ month period would mean that that the period is subtracted from the 1 year calculation.
+  - Not playing any games for a 1+ month period would mean that the period is subtracted from the 1 year calculation.
   - The beginning point for measuring 1 year is the week that the person started playing regularly with one or more players who had a purple role at the time.
 - Commonly plays "pick up" games with the general population.
 - Participates in reviews using voice chat.
