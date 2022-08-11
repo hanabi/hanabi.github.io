@@ -26,6 +26,7 @@ players:
       - type: x
       - type: x
       - type: r3
+        border: false
       - type: 2
         clue: 2
         trash: true
