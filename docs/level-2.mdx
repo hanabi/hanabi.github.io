@@ -75,7 +75,8 @@ import WrongPrompt from "@site/image-generator/yml/level-2/wrong-prompt.yml";
   - Alice clues Cathy red, which touches a red 4 as a _Play Clue_.
   - Bob knows he must have both red 2 and red 3 (in order to make the red 4 playable), but he only has one clued red card in his hand. So this must be both a _Prompt_ on him and a _Finesse_ on him at the same time.
   - Since _Prompts_ take precedence over _Finesses_, he plays the clued red card first from slot 4. It is red 2 and it successfully plays.
-  - On his next turn, Bob blind-plays slot 2 as red 3. (His _Finesse Position_ at the time of the clue was slot 1, but he drew a card, and now it slid down to slot 2.)
+  - Normally, Cathy would think she has a red 3. However, as she saw a red 3 on Bob's finesse position at the moment of giving the clue, she waits a turn to give him a chance to play it. If Bob doesn't blind-play anything, then Cathy should have the red 3, and she can play it on her next turn.
+  - On his next turn, Bob blind-plays slot 2 as red 3. (His _Finesse Position_ at the time of the clue was slot 1, but he drew a card, and now it slid down to slot 2.) and Cathy now knows she has the connecting red 4.
 
 <PromptFinesse />
 
