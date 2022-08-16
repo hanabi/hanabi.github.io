@@ -8,19 +8,25 @@ import TriplePositionalDiscard from "@site/image-generator/yml/extras/triple-pos
 import QuadruplePositionalMisplay from "@site/image-generator/yml/extras/quadruple-positional-misplay.yml";
 import PromiseClue from "@site/image-generator/yml/extras/promise-clue.yml";
 
-### The Unnecessary Generation Discard
+### The Redundant Generation Discard
 
-- Sometimes, in order to satisfy _Save Principle_, a player will perform an unnecessary _Generation Discard_, which generates a clue to save a card that they actually already have in their hand.
-- This puts the next player in an ambiguous situation: was it really a _Generation Discard_, or could it a _Scream Discard_? In order to cover both situations, they should not _Chop Move_, but they should also not discard on this turn.
+- First, see the section on the _[Generation Discard](../level-6.mdx#the-generation-discard)_.
+- Often times, a player will have a clued card in their hand, but not know the exact identity of it yet. In these situations, the player might think that the team needs a playable card in someone else's hand, when the team _really_ already has it already.
 - For example, in a 3-player game:
   - Red 3 is played on the stacks. No blue cards are played on the stacks.
   - Alice has a blue 1 in her hand. She knows the exact identity of it, so it is known playable.
   - Alice also has a 4 clued in her hand. She does not know what color it is.
   - There are 0 clues, so if Alice plays the blue 1, Bob will be forced to discard.
   - Alice sees that Cathy has a red 4 on chop, which is playable. If Alice does not have red 4 in her hand, then Cathy could potentially discard the red 4 (after Bob is forced to discard).
-  - So, Alice performs a _Generation Discard_ to generate a clue so that Bob can clue the get the red 4, if necessary.
-  - Bob sees that Alice does indeed already have the red 4 in her hand, so from his perspective, if Alice was performing a _Generation Discard_, it was unnecessary.
-  - However, it could also be the case that Bob's chop is unsafe. So, Bob will **not** clue the red 4 on Cathy's chop, but he **will** spend the clue in some other productive fashion. If Bob has nothing productive to do, he must "burn" a clue, similar to what happens when a _Scream Discard_ occurs.
+- Here, if Alice does not have a red 4, then doing a _Generation Discard_ for Cathy's red 4 would be required. On the other hand, if Alice does have a red 4, then doing a _Generation Discard_ for Cathy's red 4 would be redundant.
+- In order to cover both cases, Alice _must_ take the more conservative approach and always perform a _Generation Discord_. These kinds of _Generation Discards_ are called _Redundant Generation Discards_ to differentiate them from the more ordinary kind.
+- After a _Redundant Generation Discard_ happens, the next player is put into a tricky situation: was it really a _Generation Discard_ (for Cathy)? Or could it be a _Scream Discard_ (for Bob)? In order to cover both cases, the next player should not _Chop Move_, but they should also not discard on their turn.
+- For example, let's continue the scenario from before:
+  - Alice does not know whether or not the team needs Cathy's red 4, so Alice is forced to perform a _Redundant Generation Discard_.
+  - Bob sees that Alice does indeed already have the red 4 clued in her hand. So, from his perspective, if Alice was performing a _Generation Discard_, it was redundant.
+  - However, it is also possible that Alice's move could be a _Scream Discard_ for Bob.
+  - Bob knows that in this situation, he needs to cover both cases.
+  - Thus, Bob does not perform a _Chop Move_. Additionally, he does not need to clue the red 4 on Cathy's chop (because Alice already has it), but he **will** spend a clue in some other productive fashion. If Bob has nothing productive to do, he must "burn" a clue, similar to what happens when a _Scream Discard_ occurs.
 
 <UnnecessaryGeneration />
 
