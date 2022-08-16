@@ -4,6 +4,10 @@
   "files": [
     "**"
   ],
+  "enableFiletypes": [
+    "*"
+  ],
+  "enableGlobDot": true,
   "ignorePaths": [
     "*.svg",
     "build/**",
@@ -107,6 +111,7 @@
     "mcvp",
     "metagame",
     "micerang",
+    "misranked",
     "noopener",
     "noreferrer",
     "occams",
