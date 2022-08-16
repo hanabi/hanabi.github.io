@@ -26,7 +26,10 @@ npx remark --quiet --frail docs misc
 # We use no-progress and no-summary because we want to only output errors.
 npx cspell --no-progress --no-summary
 
-# Step 4 - Check for unused YML files
+# Step 4 - Check for orphaned words.
+bash "$DIR/check-orphaned-words.sh"
+
+# Step 5 - Check for unused YML files
 python "$DIR/image-generator/check_unused.py"
 
 echo "Success!"
