@@ -14,7 +14,7 @@ npx npm-check-updates --upgrade --packageFile "$PACKAGE_JSON" --reject "@mdx-js/
 NEW_HASH=$(md5sum "$PACKAGE_JSON")
 if [[ $OLD_HASH != $NEW_HASH ]]; then
   if test -f "$DIR/yarn.lock"; then
-    yarn
+    yarn install
   else
     npm install
   fi
