@@ -193,7 +193,7 @@ import TrashTouchElimination from "@site/image-generator/yml/level-16/trash-touc
 - Players carefully choose between using a color clue and a number clue in order to avoid violating _Good Touch Principle_. Sometimes, when both a color clue **and** a number would violate _Good Touch Principle_, players are forced to pick between the lesser of two evils.
 - For example, in a 3-player game:
   - Red 3 and blue 1 are played on the stacks.
-  - Bob's hand is the following: `red 4, red 3, blue 4, blue 4, blue 1`
+  - Bob's hand is, from newest to oldest: `red 4, red 3, blue 4, blue 4, blue 1`
   - If Alice needs to clue the red 4 **right now** for some reason, she would be screwed. If she clues red, she would duplicate the red 3. If she clues number 4, she would duplicate the blue 4. Both are bad.
   - So, Alice has to choose between the lesser of two evils and chooses to clue number 4 as a *Play Clue* on the red 4.
   - Bob plays the red 4.
@@ -202,7 +202,7 @@ import TrashTouchElimination from "@site/image-generator/yml/level-16/trash-touc
 - When this occurs, and there is exactly one "missing" card, players should write an _Elimination Note_ in their hand for the missing card. This is called _Trash Touch Elimination_.
 - For example, in a 3-player game:
   - Red 3 and all the other 1s are played on the stacks.
-  - Bob's hand is, from newest to oldest: red 4, red 1, blue 1, green 1, yellow 1.
+  - Bob's hand is, from newest to oldest: `red 4, red 1, blue 1, green 1, yellow 1`
   - Alice wants to give a play clue to the red 4. Everyone else on the team (other than Bob) can see that she can give either number 4 or red.
     - If Alice clues number 4, then it will uniquely touch the red 4 (which will satisfy _Good Touch Principle_).
     - If Alice clues red, then it will touch the red 4 and the red 1 (which will **violate** _Good Touch Principle_).
