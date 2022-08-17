@@ -13,15 +13,13 @@ players:
       - type: x
       - type: x
   - cards:
-      - type: r
-        above: Red 4
+      - type: r4
         clue: r
-      - type: r
-        above: Red 1
+      - type: r1
         clue: r
-      - type: x
-      - type: x
-      - type: x
+      - type: b1
+      - type: g1
+      - type: y1
   - cards:
       - type: x
         middle_note: r5?
