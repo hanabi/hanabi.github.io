@@ -4,6 +4,8 @@ stacks:
   - g: 5
   - b: 5
   - p: 5
+discarded:
+  - r3
 players:
   - clue_giver: true
     cards:
@@ -13,16 +15,28 @@ players:
       - type: x
     -cards:
       - type: r5
+        border: false
       - type: p1
+        border: false
       - type: g1
+        border: false
       - type: b1
+        border: false
   - cards:
       - type: p2
+        border: false
       - type: b1
-      - type: b2
+        border: false
+      - type: r5
+        border: false
       - type: p3
+        border: false
   - cards:
       - type: r3
+        border: false
       - type: p1
+        border: false
       - type: y4
+        border: false
       - type: b3
+        border: false

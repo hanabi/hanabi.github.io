@@ -19,14 +19,16 @@ players:
       - type: b1
   - cards:
       - type: g3
+        border: false
       - type: r5
-        clue: 5
       - type: p5
-        clue: 5
       - type: b5
-        clue: 5
   - cards:
       - type: r2
+        border: false
       - type: r1
+        border: false
       - type: y4
+        border: false
       - type: y3
+        border: false

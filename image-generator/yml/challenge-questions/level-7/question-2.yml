@@ -1,5 +1,5 @@
 stacks:
-  - r: 2
+  - r: 3
   - y: 4
   - g: 4
   - b: 4
@@ -9,20 +9,32 @@ players:
     cards:
       - type: x
       - type: x
-      - type: 5
-      - type: 5
+      - type: y5
+      - type: g5
     -cards:
       - type: r3
+        border: false
       - type: p1
+        border: false
       - type: g1
+        border: false
       - type: b1
+        border: false
   - cards:
       - type: r4
+        border: false
       - type: b1
+        border: false
       - type: b2
+        border: false
       - type: p3
+        border: false
   - cards:
       - type: p2
+        border: false
       - type: p1
+        border: false
       - type: y4
+        border: false
       - type: r5
+        border: false
