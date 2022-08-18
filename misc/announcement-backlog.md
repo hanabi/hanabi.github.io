@@ -21,7 +21,6 @@ As noted in the [convention changes document](convention-changes.md), sometimes 
   - Cathy knows that in this situation, Alice is intending for a _Double Ejection_. Cathy blind-plays her _Second Finesse Position_. It is a blue 2 and successfully plays.
 - Situations that call for _Double Ejections_ are very similar to situations that call for _Double Ignitions_. Notice that if Cathy's _Finesse Position_ is a playable or a one-away-from-playable card, Alice's _Double Ejection_ would not work: Bob would blind-play his _Finesse Position_ as a _Double Ignition_. However, since Cathy does not have a playable, Bob thinks to himself: "Even though this clue is pretty weird, Alice is probably just doing an _Ejection_ as a 1-for-1 here because I have some blocking card in my hand." After Bob blind-plays his _Second Finesse Position_, Cathy sees that the move was _Unnecessary_. But unlike a normal _Unnecessary_ move (where Cathy would be expected to blind-play her _Finesse Position_ card), here Cathy knows that it makes more sense to blind-play her _Second Finesse Position_ card (since her _First Finesse Position_ card must be unplayable).
 
-
 <br />
 
 ## The Backlog (Variant-Specific Conventions)
