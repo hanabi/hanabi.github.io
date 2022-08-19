@@ -158,11 +158,11 @@ Left-most.
 
 ### Should I always _Chop Move_ after receiving a _Tempo Clue_?
 
-No! There are **five** conditions where _Tempo Clues_ are allowed. If [any of these five conditions](https://hanabi.github.io/docs/level-5#the-tempo-clue-re-cluing-a-card-to-play) are true, then you should not _Chop Move_.
+No! There are **four** conditions where _Tempo Clues_ are allowed. If [any of these four conditions](https://hanabi.github.io/docs/level-6#the-valuable-tempo-clue) are true, then you should not _Chop Move_.
 
 <br />
 
-### Does _[Schrodinger's Cat Principle](https://hanabi.github.io/docs/level-4#schr%C3%B6dingers-cat-principle)_ always take priority over _[Occam's Razor](https://hanabi.github.io/docs/level-8#clue-interpretation--occams-razor)_?
+### Does _[Schrodinger's Cat Principle](https://hanabi.github.io/docs/level-5/#schr%C3%B6dingers-cat-principle)_ always take priority over _[Occam's Razor](https://hanabi.github.io/docs/level-10/#clue-interpretation--occams-razor)_?
 
 Yes.
 
