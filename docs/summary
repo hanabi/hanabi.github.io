@@ -1,0 +1,257 @@
+---
+id: summary
+title: Summary
+---
+
+## Beginner
+
+Chop: righmost unclued card [b][https://hanabi.github.io/docs/beginner/chop]"
+Play clues / Delayed play clues: You can play this now or later if other cards may have to be played first. [b][https://hanabi.github.io/docs/beginner/play-clues]
+Save Clues / 5 Save / Critical save / 2 Save: a clue which touch the chop and can be a save of a critical card or a 2 is a save [b][https://hanabi.github.io/docs/beginner/save-clues]
+Focus: unclued chop > leftmost unclued > leftmost clued [b][https://hanabi.github.io/docs/beginner/single-card-focus#determining-the-focus-4-steps]
+Good touch: try to not touch trash cards or cards already touched in any hand [b][https://hanabi.github.io/docs/beginner/good-touch-principle]
+Minimum clue value / Tempo clue: all clues must (good) touch one unclued card, or get 2+ plays, or have another good explanation [b][https://hanabi.github.io/docs/beginner/minimum-clue-value-principle]
+Early game: everyone must give all plays clues before doing the first discard [b][https://hanabi.github.io/docs/beginner/early-game]
+Prompt: when an already clued card is called to play from a clue focused on another card [b][https://hanabi.github.io/docs/beginner/prompt]
+Finesse: when an unclued card is called to play from a clue focused on another card [b][https://hanabi.github.io/docs/beginner/finesse]
+
+## Early game
+
+5 Stall (off chop): allowed [2][https://hanabi.github.io/docs/level-2#the-5-stall-cluing-off-chop-5s]"
+First unknown discard ends the early game: you must do one 5-stall before ending it [8][https://hanabi.github.io/docs/level-8#the-early-game-severity-1-stalling]
+Focus inversion: if a clue touches your chop and another card and it seems your chop isn't playable, you can decide to assume the focus is on the leftmost card. [11][https://hanabi.github.io/docs/level-11#focus-inversion]
+
+## Prompts
+
+Play saved card first [2][https://hanabi.github.io/docs/level-2#the-prompt--finesse]"
+Information lock: a play clue promisses the focus to be playable, even if a fix clue occurs, except if it doesn't make sense [3][https://hanabi.github.io/docs/level-3#information-lock-principle]
+Valuable tempo clue: a clue which only touches already saved cards must either: get 2+ cards to play / focus on a card difficult to prompt / focus on a chop moved card / unlock someone [6][https://hanabi.github.io/docs/level-6/#the-scream-discard-chop-move-sdcm]
+Tempo clue chop move (TCCM): a non valuable tempo clue chop moves the player clued [6][https://hanabi.github.io/docs/level-6/#the-scream-discard-chop-move-sdcm]
+Double tempo clue: recluing 3+ cards makes all cards playable from left to right [6][https://hanabi.github.io/docs/level-6/#the-scream-discard-chop-move-sdcm]
+
+## Playing 1s
+
+Play in order the 1 in chop, then the fresh drawn 1s left to right, then the opening 1s right to left [3][https://hanabi.github.io/docs/level-3#part-1---play-order-inversion-in-the-starting-hand]"
+Order chop move (OCM): when holding multiple 1s clued with 1, playing the second expected card chop moves Bob. Playing the third chop moves Cathy. [6][https://hanabi.github.io/docs/level-6#the-order-chop-move-ocm]
+The Stale 1's clue: if a playable 1 would have been clued, the focus of a 1s clue is trash [11][https://hanabi.github.io/docs/level-11#the-stale-1s-clue]
+Double order chop move: playing the fourth 1 at 3 players would chop move the next player twice. And so on. [+][https://hanabi.github.io/docs/extras/chop-moves#double-order-chop-move-for-3-player-games]
+
+## Fix clue
+
+A fix clue that touches extra cards means save the extra cards but don't play the fixed card. [3][https://hanabi.github.io/docs/level-3#part-3---the-chop-focus-exception]"
+A fix clue that gives no extra information means discard the card you were going to play next. [3][https://hanabi.github.io/docs/level-3#part-3---the-chop-focus-exception]
+Out of order play clue (ooo): the focus of a clue is normally always playable, even if a fix clue happen. [19][https://hanabi.github.io/docs/level-19#the-out-of-order-play-clue-triple-o--ooo]
+
+## Occam's razor
+
+Variants: play the card with the most positive information first [5][+][https://hanabi.github.io/docs/level-5#prompts-in-multi-color-variants][https://hanabi.github.io/docs/extras/miscellaneous#double-prompts-in-multi-color-variants]"
+Clue Interpretation & Occam's Razor: assume in priority: a play clue or delayed play clue / a prompt without blind play / a finesse / a prompt+finesse / a bluff / move that results in the least number of blind plays / move that results in the least number of prompts [10][https://hanabi.github.io/docs/level-10#clue-interpretation--occams-razor]
+Finesses have priority over bluffs [10][https://hanabi.github.io/docs/level-10#bobs-truth-principle-part-1]
+Out of order finesse has priority over 4-charms [+][https://hanabi.github.io/docs/extras/charms#interaction-with-the-out-of-order-finesse]
+
+## Finesses (until 22)
+
+Hidden finesse / Layered finesse / Clandestine finesse / Stacked finesse: if playing a card doesn't match the finessed card, you must continue to play your finesse position until the correct card is played [5][https://hanabi.github.io/docs/level-5/#special-moves]"
+Ambiguous finesse: if Bob don't answer a finesse, it's possible the finesse is on you, and if so, you must play [5][https://hanabi.github.io/docs/level-5/#the-ambiguous-finesse]
+Selfish clue / Selfish finesse: you can clue a finesse even though you have a connecting card of the finesse. (need rewrite?) [11][https://hanabi.github.io/docs/level-11#the-selfish-clue]
+Trash finesse: when you receive a clue, and you can deduce its identity, and another player has that same card in finesse position, the focus could be trash instead and you could be expected to discard it. [13][https://hanabi.github.io/docs/level-13/#the-reverse-trash-finesse]
+Out of order finesse: the focus of a clue is normally always playable, even if a fix clue happens. [19][https://hanabi.github.io/docs/level-19#the-out-of-order-finesse]
+No information double finesse: if a clue touches an already gotten card two away from playable, then it call for at least two plays. [19][https://hanabi.github.io/docs/level-19#the-no-information-double-finesse]
+Hesitation blind play: if a player discards instead of playing his card, it could be a scream discard, but it also could be that you hold a specific card in your slot 1. If you want to play it, be careful about what it could be, since depending of the situation it could require a fix clue after. [22][https://hanabi.github.io/docs/level-22#the-hesitation-blind-play]
+
+## Finesses (advanced)
+
+Continuation clue: if a clue during a layered finesse touch cards inside and oustide the layer, by default it's a normal play clue or save clue on the card outside the layer. [+][https://hanabi.github.io/docs/extras/play-clues#the-continuation-clue-touching-both-inside-and-outside-a-layer]"
+Just in time fix clue: when possible, give a fix clue as late as possible [+][https://hanabi.github.io/docs/extras/fix-clues#the-just-in-time-fix-clue-jit]
+Ambiguous finesse pass back: if a player doesn't answer a finesse, it usually promises the card is in another player's hand. But if it's a layered finesse, each player should still assume a single card in their finesse position, and act in consequence (ie not play it). [+][https://hanabi.github.io/docs/extras/special-finesses#the-ambiguous-finesse-pass-back]
+Prophetic finesse: Alice cluing a single 1 while another copy is in finesse position could make Bob blind play as a trash bluff, Cathy blind play the other copy, and the clued player consider it an unnecessary trash move. [+][https://hanabi.github.io/docs/extras/special-finesses#the-prophetic-finesse-for-1s]
+Patch finesse: Sometimes responding to a finesse actually provides the card that prevents the player who actually holds the connecting card from bombing. [+][https://hanabi.github.io/docs/extras/special-finesses#the-patch-finesse]
+Pestilent finesse / Diseased clandestine finesse: when a pestilent double bluff happens, one player can instead heal the problem by cluing one card which makes the clue receiver know the card isn't playable. It doesn't work in reverse. [+][https://hanabi.github.io/docs/extras/special-finesses#the-pestilent-finesse]
+Surreptitious finesse:  A Clandestine Finesse given with rank might call for additional blind plays if the actual connecting card is a different suit. [+][https://hanabi.github.io/docs/extras/special-finesses#the-surreptitious-finesse]
+Distribution finesse: giving a play clue to a card which can't be played until the end of the game could be a redistribution and a finesse. [+][https://hanabi.github.io/docs/extras/special-finesses#the-distribution-finesse]
+Inverted priority finesse: If a player plays the card that normally has priority when it looks like he should've used Priority Finesse, then it means the normal card connects to you.  This would tell the other player that they have the card that connects to the other card he could've played. [+][https://hanabi.github.io/docs/extras/special-finesses#inverted-priority-finesse]
+Finesses with a lie component: you can do a finesse which requires a fix clue on purpose if it gets enough cards. Use sparingly.  Don't do it if you can get the same cards without lying. [+][https://hanabi.github.io/docs/extras/special-finesses#finesses-with-a-lie-component]
+Shadow finesse: not doing a finesse and cluing a card solo in finesse position could mean next player should play the same finesse position of his hand as the connecting card to tell him where it is. [+][https://hanabi.github.io/docs/extras/special-finesses#the-shadow-finesse]
+Reverse shadow finesse: the shadow can be in another player before the next card. Like an ignition, it's the further player (before the shadow) [+][https://hanabi.github.io/docs/extras/special-finesses#the-reverse-shadow-finesse]
+Pass bluff / Double/Triple pass bluff: you can in some cases not answer a bluff on purpose to get some extra plays. You are then expected to answer to the bluff on the next turn, else it causes a double, then a triple pass bluff. [+][https://hanabi.github.io/docs/extras/special-bluffs#the-pass-bluff]
+
+## Bluffs
+
+You can only bluff Bob. When Bob plays, he assumes just a bluff and not a layered/hidden finesse. [10][https://hanabi.github.io/docs/level-10#the-bluff]"
+Bluffs through already clued card: allowed [10][https://hanabi.github.io/docs/level-10#bluffs-through-already-clued-cards]
+3 Bluff: a two-away 3 is a valid bluff target if the finessed card does not connect. [12][https://hanabi.github.io/docs/level-12#the-3-bluff]
+Critical color bluff: a non-playable critical card is a valid bluff target when clued by color [12][https://hanabi.github.io/docs/level-12#the-critical-color-bluff]
+Hard bluff / Hard 3 Bluff: after a bluff occurs, if for the receiver of the clue it can be a self finesse or a bluff, he must assume both possibilities and is allowed to discard. [12][https://hanabi.github.io/docs/level-12#the-hard-bluff]
+Trash bluff: if the focus of the clue is trash and playing any bluff would make that card known trash,  Bob plays his finesse position. [13][https://hanabi.github.io/docs/level-13/]
+Good touch bluff: if a bluffed card wrongly connect to the focus of a clue, that could mean one player is holding the connecting card of the bluff. [19][https://hanabi.github.io/docs/level-19#the-good-touch-bluff]
+Bluff that cause a blind play of a known dupe: if you bluff a card you are holding, it could be a true finesse. [+][https://hanabi.github.io/docs/extras/special-finesses#the-bluff-that-causes-a-blind-play-of-a-known-dupe-dupe-bluffs--bluff-dupes]
+Stacked bluffs are illegal, but can be done sometilmes if the player can rule out the position of the potential bluff. [+][https://hanabi.github.io/docs/extras/special-bluffs#stacked-bluffs-exception]
+Self color bluff (SCB) / Self color double bluff (SCDB): recluing a saved card which adds info on it normally means a finesse. But if the finesse isn't present, then it's usually a known self bluff. It can be a double bluff like usual. [+][https://hanabi.github.io/docs/extras/special-bluffs#self-color-bluffs-1-for-1-form-scb]
+
+## Double bluff
+
+When the focus of a card is more than one away from playable, it could be a double bluff. If so, the two next players must play their finesse position. [14][https://hanabi.github.io/docs/level-14#the-double-bluff]"
+Hard double bluff: after two plays has been done from a double bluff, no extra play is needed. [14][https://hanabi.github.io/docs/level-14#the-hard-double-bluff]
+Pestilent double bluff (PDB): after a bluff, if the focus of the clue is going to bomb, the next player must play his finesse position (even though he could hold both copies of a specific card) [14][https://hanabi.github.io/docs/level-14#the-pestilent-double-bluff-pdb]
+No-information double bluff: if a clue touches an already gotten card two away from playable, then it call for at least two plays. [19][https://hanabi.github.io/docs/level-19#the-no-information-double-bluff]
+Even if Cathy has a one away from playable in finesse position, that card is assumed to be not playable. [+][https://hanabi.github.io/docs/extras/charms#interaction-with-double-bluffs-where-cathy-has-a-one-away-from-playable-card]
+Pestilent triple bluff exist too. [+][https://hanabi.github.io/docs/extras/special-bluffs#the-pestilent-triple-bluff]
+Purge bluff: at 3 players, it is rarely possible to do a layered finesse to get the whole hand of someone else. [+][https://hanabi.github.io/docs/extras/special-bluffs#the-purge-bluff-layered-bluff]
+
+## Ejections & Discharges
+
+5 color ejection (5CE): if a color clue is focused on a 5, and the next player is supposed to play 2+ blind play to resolve it, then it is instead a 5CE, and he must play his slot 2 instead. [15][https://hanabi.github.io/docs/level-15#the-5-color-ejection-5ce]"
+Unknown Trash Discharge (UTD): when the focus of a clue is a trash card, and playing your first finesse position does not make the clued card known trash, then it's a discharge, and next player must play his slot 3. All other touched cards are considered saved. [15][https://hanabi.github.io/docs/level-15#the-unknown-trash-discharge-1-for-1-form-utd]
+Bad chop move ejection: doing a chop move which chop moves trash card ask for an ejection on the next player. [+][https://hanabi.github.io/docs/extras/ejections#the-bad-chop-move-ejection]
+Rank choice ejection: doing a save clue with number instead of color on a playable 2 or 5 is an ejection on the next player. [+][https://hanabi.github.io/docs/extras/ejections#the-rank-choice-ejection-with-a-number-2-or-a-number-5-rce]
+Unknown dupe discharge (UDD): if a player does a UTD which touches more than 2 cards, then be sure he hasn't another reason for the clue, and the clue promises the UDD in any of the others card touched. [+][https://hanabi.github.io/docs/extras/discharges#unknown-dupe-discharge-udd]
+Prophetic discharge: if a prophetic finesse is done with color, it usually discharges the next player. [+][https://hanabi.github.io/docs/extras/discharges#the-trash-push-discharge]
+Junk discharge: if a clue focuses on a trash 1 is done with 1s, it could ask for next player to discharge. Instead of making others card trash, since it's a 1 clue, it make the other card playable. [+][https://hanabi.github.io/docs/extras/discharges#the-junk-discharge-for-1s]
+Out of position ejection/discharge/charm: allowed if next player knows what is going on. [+][https://hanabi.github.io/docs/extras/ejection-extensions#the-out-of-position-ejection]
+Stacked ejection/discharge/charm: if a layered finesse is going on, you can do an ejection to make him play his second finesse immediately if that player doesn't have enough slots to answer the clue as a finesse. Same for discharge and charms. [+][https://hanabi.github.io/docs/extras/ejection-extensions#the-stacked-ejection]
+
+## Duplicates
+
+Sarcastic discard: if Alice discards a useful card, that could mean the other copy is already saved in your hand. [3][https://hanabi.github.io/docs/level-3#part-3---the-chop-focus-exception]"
+Double discard avoidance (DDA): if the previous player just discarded a card you could have on your chop, you aren't allowed to discard unless you see the other copy. It creates elimination notes if you don't respect it. [8][https://hanabi.github.io/docs/level-8#double-discard-situations--double-discard-avoidance-dda-severity-2-stalling]
+Gentleman's discard / Baton discard: discarding a known playable / unplayable means another player has the same card saved, or if it's impossible, in finesse position. For gentleman's discard only, it can be layered. [9][https://hanabi.github.io/docs/level-9#the-gentlemans-discard]
+Sarcastic finesse / Certain finesse / Certain discard / Composition finesse: you can do a finesse which gets a card you could hold. In this case, all blind plays which could be the card you hold are promised to be exactly that card (can't be layered). [9][https://hanabi.github.io/docs/level-9#the-sarcastic-finesse]
+Promise clue & Promise discard: certain finesse can't be layered. [+][https://hanabi.github.io/docs/extras/discards-misplays#the-promise-clue--the-promise-discard]
+Potential Priority Duplication / Certain Priority Finesse (or Priority Certain Finesse): doing a Priority Finesse on a card you could be holding does not promise that it isn't layered, but there should be no response to indicate the duplication. [+][https://hanabi.github.io/docs/extras/special-finesses#potential-priority-duplication--the-certain-priority-finesse-or-priority-certain-finesse]
+Certain Finesse Clandestine Exception: this is under advaced finesses [+][https://hanabi.github.io/docs/extras/special-finesses#the-certain-finesse-clandestine-exception]
+
+## Chop move
+
+Trash chop move: when you get clued a known trash card off chop, chop move all the cards to the right of it. [4][https://hanabi.github.io/docs/level-4#the-trash-chop-move]"
+5's chop move (5CM): a 5 clued one away from chop could chop move (look at 5-stall during early game) [4][https://hanabi.github.io/docs/level-4#the-5s-chop-move-5cm]
+Trash order chop move (TOCM): discard leftmost trash first, else it chop moves one other player [6][https://hanabi.github.io/docs/level-6#the-trash-order-chop-move-tocm]
+Scream discard chop move (SDCM): if Alice has a play but discards, it chop moves Bob [6][https://hanabi.github.io/docs/level-6/#the-scream-discard-chop-move-sdcm]
+Generation discard: If Bob cannot SDCM safely and Alice has a play, Alice should discard. The discard has no meaning. [6][https://hanabi.github.io/docs/level-6/#the-scream-discard-chop-move-sdcm]
+Chop transfer: if someone uses a clue to end a chop move, it usually mean to chop move that same player. [+][https://hanabi.github.io/docs/extras/chop-moves#the-chop-transfer]
+Misplay chop move: if someone intentionally clues a bomb, it could chop move all the cards to the right of the bomb. [+][https://hanabi.github.io/docs/extras/chop-moves#the-misplay-chop-move]
+Spillover chop move: if a player chop moves a player with no chop, it should skip that player and chop move the next one. [+][https://hanabi.github.io/docs/extras/chop-moves#spillover-chop-move]
+Negative self chop move: if a card is known critical by negative clue, it should chop move automatically. [+][https://hanabi.github.io/docs/extras/chop-moves#the-negative-self-chop-move]
+
+## End game
+
+No chop move [7][https://hanabi.github.io/docs/level-7/#no-chop-moves-in-the-end-game]"
+Positional discard: a weird discard gets another card in the same slot of the discard [7][https://hanabi.github.io/docs/level-7/#the-positional-discard-indicating-a-play-with-a-discard]
+Positional misplay: a weird bomb gets 2 cards in the same slot of the discard [7][https://hanabi.github.io/docs/level-7/#the-positional-misplay-indicating-a-play-with-a-misplay]
+Duplicating a playable card could be only to redistribute the number of plays across all hands. [7][https://hanabi.github.io/docs/level-7/#the-distribution-clue]
+If pace=1 and one player has no useful card, anyone else discarding reduces the max score. [7][https://hanabi.github.io/docs/level-7/#the-pace-1-rule]
+Speed up clue: With many players or close to the end game, you can stomp a finesse to make some specific cards play faster. [+][https://hanabi.github.io/docs/extras/fix-clues#the-speed-up-clue]
+Triple positional discard: a weird discard which could have been a weird bomb gets 3 cards in the same slot of the discard [+][https://hanabi.github.io/docs/extras/discards-misplays#the-triple-positional-discard]
+Quadruple positional misplay: a weird bomb which could have been a weird discard gets 4 cards in the same slot of the discard [+][https://hanabi.github.io/docs/extras/discards-misplays#the-quadruple-positional-misplay]
+
+## Stalling
+
+Play/Save clues (< normal situation) > 5 Stall (< early game) > Tempo clue (< dda / sd) > Locked hand save (< lh) = 8 clue save = (dda / sd >)(lh >) fill in > hard burn (< 8 clues)(< pace 0) [8][https://hanabi.github.io/docs/level-8#allowable-stall-clues-stall-table]"
+Locked hand save: if you are locked, you are allowed to save any card on chop if you have no play clue, 5-stall, or tempo clue to give. [8][https://hanabi.github.io/docs/level-8#locked-hands-severity-3-stalling]
+Anxiety play: if you have 0 clues and are locked, it seems the team wants you to play the card most likely to be playable. If there is more than one, play the leftmost. [8][https://hanabi.github.io/docs/level-8#the-anxiety-play-forcing-a-locked-player-to-play]
+8 clue save: if you have 8 clues and no play, you are allowed to save any card not in slot 1 unless you have a play clue, a 5-stall, or a tempo clue to give. [8][https://hanabi.github.io/docs/level-8#the-8-clue-save-8cs]
+
+## Pushes & Pulls
+
+Trash push:  if someone clue a known trash card on chop, that asks for the unknown card to the left of the chop. [13][https://hanabi.github.io/docs/level-13/#the-trash-push]"
+Trash pull: like a 5-pull in end game, you can sometimes focus a card to pull the card to the right of it. It has the lowest priority interpretation. [+][https://hanabi.github.io/docs/extras/pushes-pulls#the-trash-pull]
+Trash push ejection:if a player uses a trash push to touch a two or more away from playable, it usually ejects the next player. [+][https://hanabi.github.io/docs/extras/ejections#trash-push-ejection]
+Trash push discharge: if a player use a trash push to touch a trash card, it discharges the next player. [+][https://hanabi.github.io/docs/extras/discharges#the-trash-push-discharge]
+
+## Elimination notes
+
+On the below cases, if you assume everyone can know you hold a specific card in your hand, then it's assumed to be known by everyone. [16][https://hanabi.github.io/docs/level-16#elimination--elimination-notes]"
+Double discard elimination: if someone does not respect DDA, then you can write elimination notes for this card. [16][https://hanabi.github.io/docs/level-16#double-discard-elimination]
+2 Elimination: if a 2 is discarded and nothing special is going on, then you can write elimination notes for this card. [16][https://hanabi.github.io/docs/level-16#2-elimination]
+Elimination blind-play: if the possibilities of the elimination notes is reduced to one slot, then you can assume the card is there. [16][https://hanabi.github.io/docs/level-16#the-elimination-blind-play]
+Elimination play clue: a play clue that tells you where the eliminated card is and touches other cards is considered to be focused only on the eliminated card, and the other cards are considered saved. [16][https://hanabi.github.io/docs/level-16#the-elimination-play-clue]
+Elimination riding deduction / Elimination self-chop move: if the possibilities of the elimination notes is reduced to your chop and another card, and you have permission to discard, then you can deduce it can't be your chop, so treat the other card as that card. [16][https://hanabi.github.io/docs/level-16#the-elimination-riding-deduction]
+Riding bluff: if during an elimination riding deduction, the card is on the chop, and the other possiblity is playable, don't clue it, and let the other card play first. Then the chop must play. [16][https://hanabi.github.io/docs/level-16#the-riding-bluff]
+Elimination finesse: if a finesse promising a card a player who has elimination notes on is done, then the card can't usually be in finesse position. So the responder must play his chop instead. This applies even if the card could be in finesse position. [16][https://hanabi.github.io/docs/level-16#the-elimination-finesse]
+Trash touch elimination: if someone chooses on purpose to clue extra trash cards, that could mean the clue receiver knows these card are trash, and some players could write some elimination notes. [16][https://hanabi.github.io/docs/level-16#trash-touch-elimination]
+Elimination bluff / Elimination layered finesse: you can bluff a player with an elimination finesse. Then that player will assume the finesse is layered from oldest to newest. [+][https://hanabi.github.io/docs/extras/special-bluffs#the-elimination-bluff--the-elimination-layered-finesse]
+Elimination rewrite (for 1s): if you have elimination notes on a 1 and discard another 1, then you rewrite your elimination notes from your slot 2 and later. [+][https://hanabi.github.io/docs/extras/miscellaneous#the-elimination-rewrite-for-1s]
+
+## 5-tech
+
+Low score phase is defined as when the score is below 2x number of suits [17][https://hanabi.github.io/docs/level-17#the-low-score-phase-and-the-normal-score-phase]"
+No play clues with a number 5 during the low score phase [17][https://hanabi.github.io/docs/level-17#no-play-clues-with-a-number-5-clue-in-the-low-score-phase]
+During the early game, a 5-stall can only be given if it's on chop, or if there is exactly one play clue off finesse position, or no play clue to give. [][]
+Early 5's chop move: if a clue focuses on a 5 one away from chop is done with a number when there is something else to do, then it's a 5's chop move, and the chop of that player is saved too. [17][https://hanabi.github.io/docs/level-17#the-early-5s-chop-move]
+5 Pull: if a 5 clue is given off chop and off one away from chop, then it call for the next non-clued card to the right of the 5 to play. [17][https://hanabi.github.io/docs/level-17#the-5-pull]
+5 Pull prompt & 5 pull finesse / 5 pull double finesse / 5 pull clandestine finesse: 5 pull cards can be prompted & finessed, and can be layered but NOT in reverse. [17][https://hanabi.github.io/docs/level-17#the-5-pull-prompt--the-5-pull-finesse]
+5 pull promise: if a card is promised from someone who has a 5-pulled card, then it is usually promises that 5-pulled card. [17][https://hanabi.github.io/docs/level-17#the-5-pull-promise-a-play-clue-after-a-5-pull]
+Certain finesses are in any possible 5-pulled card. [17][https://hanabi.github.io/docs/level-17/#finesses-while-5-pulled-are-certain-finesses]
+5 number discharge (5ND): during the low score phase, if a pulled card requires two blind plays or more to work, then it's instead a discharge. The clue receiver note 34 in that slot unless it can be trash, and answer the potential future bluffs in consequence. [17][https://hanabi.github.io/docs/level-17/#5-number-discharge-5nd]
+A player 5-pulled should usually not do the 2-saves he could hold, and act in consequence (elimination notes). [17][https://hanabi.github.io/docs/level-17/#interaction-between-2-saves--5-stalls]
+
+## Priority
+
+When a player can play 2+ cards, he must play in priority: unknown cards, blind plays, then cards that lead into clued cards in someone else's hand, then cards that lead into the player's own hand, then 5's, then the lower rank card, then the left-most card. [][]"
+Else, one player must try to play the card after it. [18][https://hanabi.github.io/docs/level-18#the-priority-prompt--the-priority-finesse]
+If that card isn't visible, and can't be a prompt, it's on the next player finesse position. And it can be a bluff. [18][https://hanabi.github.io/docs/level-18#the-priority-bluff]
+Priority can be off when: it's end game / someone hold 45 in a color, and 5 in another / 'important' cards can be played first (ie not follow leftmost first). Blind playing globally known cards can be not done. [18][https://hanabi.github.io/docs/level-18#priority-exceptions]
+If the card requested by the priority is in someone else's hand but not finesse position, then someone must clue it to prevent the bomb. [18][https://hanabi.github.io/docs/level-18#the-load-clue]
+Priority can be layered. [18][https://hanabi.github.io/docs/level-18#the-layered-priority-finesse]
+Trust finesse: not doing a priority in purpose, can cause a priority for the other card. [18][https://hanabi.github.io/docs/level-18#the-trust-finesse-a-situational-priority-finesse]
+Paused priority finesse: after demonstrating a layered finesse is going on, the player who was playing it can decide to not blind play and do a priority. [18][https://hanabi.github.io/docs/level-18#the-paused-priority-finesse]
+Known priority bluff: a priority can sometimes be a known bluff. [+][https://hanabi.github.io/docs/extras/special-bluffs#the-known-priority-bluff]
+
+## Play clues
+
+Occupied play clue / Occupied finesse: if Alice has a play, Bob does not have a play, and Alice clue something Bob could have done, it makes the focus of the clue playable. [19][https://hanabi.github.io/docs/level-19#the-occupied-play-clue--the-occupied-finesse-opc]"
+Negative 5's tempo clue: a color clue touching a 5 and making another 5 playable is focused on other 5 (and usually is a chop move) [+][https://hanabi.github.io/docs/extras/play-clues#the-negative-5s-tempo-clue-or-inverted-5s-tempo-clue]
+If a playable card through a saved card not promptable is on chop, you can use two clues to get it. It does not chop move anyone. [+][https://hanabi.github.io/docs/extras/save-clues#saving-playable-cards-when-the-preceding-cards-are-not-promptable]
+Double tempo clue inversion: cluing twice the same card in one turn makes all cards from the clue playable from right to left. If one of them is the chop, play 2nd oldest to newest, and chop last. [+][https://hanabi.github.io/docs/extras/play-clues#the-double-tempo-clue-inversion-immediate-double-clue]
+Negative blind play: if a card is known playable from negative clue, you are expected to blind play it. [+][https://hanabi.github.io/docs/extras/miscellaneous#the-negative-blind-play]
+
+## Suboptimal moves
+
+Suboptimal Prompt / Suboptimal finesse / Suboptimal bluff: if a card can be saved with both color and number, and if one choice is clearly worse than the other one, then the worse one is a play clue on the saved card. [19][https://hanabi.github.io/docs/level-19#the-suboptimal-prompt--the-suboptimal-finesse--the-suboptimal-bluff]"
+Declined 5s finesse: declining to 5cm a card could be a finesse on that card. [+][https://hanabi.github.io/docs/extras/suboptimal-moves#the-declined-5s-finesse]
+Rank choice save finesse: doing a save with a rank clue instead of a color when there is no upside could be a finesse on that card. [+][https://hanabi.github.io/docs/extras/suboptimal-moves#the-rank-choice-save-finesse]
+
+## Ignition
+
+An Ignition gets someone play his finesse position. [20][https://hanabi.github.io/docs/level-20#ignition]"
+Double ignition: If Bob doesn't have a play, a double ignition happens on Bob and on the last player with a playable on his finesse position. If Bob has a play, a double ignition happen on the two last players with a playable on their finesse position (could be Bob). [20][https://hanabi.github.io/docs/level-20#double-ignition]
+Trash double ignition: towards the end of the game, if a clue isn't a trash chop move, trash push, or trash push finesse, then it's a double ignition. [20][https://hanabi.github.io/docs/level-20#the-trash-double-ignition]
+Replay double ignition / Poke double ignition: if a clue re-clues globally known playable or known trash cards, then if it's not a stalling situation, it's a double ignition. [20][https://hanabi.github.io/docs/level-20#the-replay-double-ignition]
+Chop move ignition: if a player chop move a playable card, it's usually an ignition on the next player. [20][https://hanabi.github.io/docs/level-20#the-chop-move-ignition]
+Trash ejection / Replay ejection / Poke ejection: a double ignition move which can't be a double ignition is instead an ejection on the next player. [+][https://hanabi.github.io/docs/extras/ejections#the-trash-ejection]
+
+## Emergency discards
+
+Fake save: as a last resort, you can save a 5 with color if it has an upside. [11][https://hanabi.github.io/docs/level-11#the-fake-save]"
+Phantom playable cards: it's a card which isn't saved but can be played through already clued cards [21][https://hanabi.github.io/docs/level-21#phantom-playable-cards]
+Scream discard for a phantom playable card: allowed, use sparingly. [21][https://hanabi.github.io/docs/level-21#the-scream-discard-for-a-phantom-playable-card]
+Sacrifice discard: if you are locked, you are allowed to discard a useful card, but it's usually not a good idea. [21][https://hanabi.github.io/docs/level-21#the-sacrifice-discard]
+Shout discard chop move: if you have a play and a known trash card, you can discard your known trash card to chop move any card on the next player. [21][https://hanabi.github.io/docs/level-21#the-shout-discard-chop-move]
+Scream discard chop move: if you have a known trash and discard your chop, it chop moves the next player. [21][https://hanabi.github.io/docs/level-21#the-scream-discard-chop-move-with-known-trash]
+Echo scream discard chop move: if playing your card would cause Bob to scream discard and lose the game, you should scream discard yourself: it chop moves both players. [21][https://hanabi.github.io/docs/level-21#the-echo-scream-discard-chop-move]
+Composition discard: if playing your card would cause Bob to generation discard and lose the game, you should scream discard yourself: it chop moves Bob and generates a clue for him. [21][https://hanabi.github.io/docs/level-21#the-composition-discard]
+Rebellious discard: if you aren't allowed to discard but discard your new chop anyway, it chop moves Bob. [21][https://hanabi.github.io/docs/level-21#the-rebellious-discard]
+Unnecessary generation discard: if a player does a generation discard for a playable card he is holding but doesn't know it, it is like a scream discard but it does not chop move the next player. [+][https://hanabi.github.io/docs/extras/discards-misplays#the-unnecessary-generation-discard]
+
+## Charms
+
+4 Charm: if a 4 clue looks like a double bluff, but the next player doesn't have a playable in his finesse position, then it's a 4 Charm and you play your slot 4. (if you need to blind play 2 cards for it to be a finesse, you should assume a finesse) [22][https://hanabi.github.io/docs/level-22#the-4-charm]"
+Blaze discard: gentleman's discard a card not in finesse position can ask the next player to play the finesse position of where that card really is. [22][https://hanabi.github.io/docs/level-22#the-blaze-discard]
+Unknown trash charm (UTC): if a clue touches all unknown trash cards,  it's usually a charm on the next player. [+][https://hanabi.github.io/docs/extras/charms#the-unknown-trash-charm-utc]
+Junk charm (for 1s): cluing two trash 1s could be a charm. [+][https://hanabi.github.io/docs/extras/charms#the-junk-charm-for-1s]
+
+## Unnecessary moves
+
+It's when a player does a complicated move while he could have done something else instead, and that move has no or minor upside.. [23][https://hanabi.github.io/docs/level-23#unnecessary-moves]"
+Trash push (ignition) [23][https://hanabi.github.io/docs/level-23#unnecessary-moves-with-known-trash----ignition]
+Trash finesse (chop move) [23][https://hanabi.github.io/docs/level-23#example-1---an-unnecessary-trash-finesse-with-a-chop-move]
+Unknown trash discharge (chop move) [23][https://hanabi.github.io/docs/level-23#example-2---an-unnecessary-unknown-trash-discharge-with-a-chop-move]
+Unknown trash discharge with a bad chop move ejection (Bob plays his third finesse position, Cathy plays her finesse position) [23][https://hanabi.github.io/docs/level-23#example-3---an-unnecessary-unknown-trash-discharge-with-a-bad-chop-move-ejection]
+Trash finesse with a trash push (Bob plays his finesse position, Cathy plays the pushed card) [23][https://hanabi.github.io/docs/level-23#example-1---an-unnecessary-trash-finesse-with-a-trash-push]
+Trash push discharge (Bob plays his third finesse position, Cathy plays the pushed card) [23][https://hanabi.github.io/docs/level-23#example-2---an-unnecessary-trash-push-discharge-with-a-trash-push]
+Bad chop move ejection with a trash push discharge (Bob plays his second finesse position to tell the chop moved card is trash, Cathy plays her third finesse position to tell the unecessary part is not the case here) [23][https://hanabi.github.io/docs/level-23#example-3---an-unnecessary-bad-chop-move-ejection-with-a-trash-push-discharge]
+By default, assume all move are necessary. [+][https://hanabi.github.io/docs/extras/chop-moves#the-asymmetric-chop-move-dilemma]
+Unnecessary forced reverse trash finesse: unnecessary reverse trash finesse chop move all the cards to the right of the clued [+][https://hanabi.github.io/docs/extras/special-finesses#the-unnecessary-forced-reverse-trash-finesse-a-gentlemans-discard-that-looks-like-an-unnecessary-reverse-trash-finesse]
+
+## Others
+
+2 Saves off chop on the first turn of 3 players is possible if no other choice is possible. [+][https://hanabi.github.io/docs/level-1#clue-focus]
