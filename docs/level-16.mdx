@@ -3,28 +3,108 @@ id: level-16
 title: Level 16 - Dupe Tech
 ---
 
-- Level 1 strategies can be learned with no games of Hanabi played. You can either learn them before you play your first game or after you play a few games to learn the basic mechanics.
-- This stuff is mostly a repeat of the [beginner's guide](beginner.mdx), but we go into a bit more detail here.
-- If you have not read the beginner's guide yet, **STOP NOW** and read that instead. Only come back here after you have played 5-10 games. (This page is just intended to be used as a reference for players who have already read the beginner's guide.)
-
-<br />
-
 ## Conventions
 
 <br />
 
-### Chop
+### Duplicitous Value Clue
 
-- When players have to discard, they typically discard their right-most unclued card.
-- A player's chop is formally defined as **the next unclued card that they would discard if they had nothing else to do**.
-- If a player has a clued card that is known useless, then they will typically discard the useless card **instead** of discarding their chop. (But the useless card does **not** count as the chop - their chop remains the right-most unclued card.)
+- It’s possible to pick up one or more valuable cards by tricking Bob into unknowingly playing a _Duped_ card.
+- We agree that as long as such a clue meets _Minimum Clue Value Principle_ (not counting the duplicated card itself), no further _Prompts_ or _Blind-Plays_ should be called for.
+- Instead, the team can immediately understand that this was simply a _Duplicitous Value Clue_, since it resulted in one or more extra valuable cards being _Touched_ for safekeeping.
+- For example, in a 3-player game:
+  - Blue 2 and Red 2 are played on the stacks.
+  - Alice holds a known Red 3.
+  - Alice clues 3 to Bob as a _Play Clue_, touching 2 cards.
+  - Bob plays his focused 3, assuming it's Blue, but gasps in surprise when it's actually Red 3.
+  - Although this was unexpected, the team sees that this was a _Duplicitous Value Clue_, since there is sufficient value in _Good Touching_ Bob's other 3.
+  - Bob marks his other 3 as **any** 3; it is not promised to be playable, so no one assumes they should _Blind-Play_ or _Prompt_ from the clue.
+- For _Duplicitous Value Clues_ that do **not** meet _MCVP_, see the [Dupe Tempo Clue Principle](#dupe-tempo-clue-principle) below.
 
 <br />
 
-### The Definition of Playable
+### Duplicitous Blind-Play
 
-- First, see the section on _[Delayed Play Clues](beginner/delayed-play-clues.mdx)_ from the beginner's guide.
-- When we say that an unclued card is currently _playable_, we do **not** mean that the card would be able to play on the stacks right this instant. If an unclued card is _playable_, then what we really mean is that it would be legal for someone to give either a _Play Clue_ **or** a _Delayed Play Clue_ to the card.
-- In other words, if an unclued _playable_ card was given a _Delayed Play Clue_, that card would eventually play on the stack without any additional clues needing to be given by anyone else - all of the in-between cards, if any, would be present and accounted for at the moment that the _Play Clue_ was given.
+- As with the _Duplicitous Value Clue_, it's also possible to give a valuable clue that results in a _Duped_ card being blind-played.
+- Once again, as long as the clue meets _Minimum Clue Value Principle_, no further _Prompts_ or _Blind-Plays_ should be called for.
+  - In the past such a blind-play would cause Bob to continue to dig as a true _Finesse_, but this is no longer true; we agree that the creative _Good Touching_ of the extra card(s) already provide sufficient justification for the clue.
+- For example, in a 4-player game:
+  - Blue 2 and Red 2 are played on the stacks.
+  - Alice holds a known Red 3.
+  - Alice clues Blue to Donald, touching a Blue 4.
+  - Bob _Blind-Plays_ his _First Finesse_; it's Red 3.
+  - Although this was unexpected, the team sees that this was a _Duplicitous Blind-Play_, since there is sufficient value in _Good Touching_ Donald's Blue 4. 
+  - Therefore, the team understands that no further _Blind-Plays_ are called for.
+- Note that _Duplicitous Blind-Plays_ can also be performed with certain _Ejections_, _Discharges_, etc.
 
 <br />
+
+### Dupe Tempo Clue Principle
+
+- What if a _Duplicitous_ clue doesn’t newly touch any additional valuable cards, but provides useful _Fill-In_ information?
+- If a filled-in card is revealed as playable, this should retroactively be treated as a _Tempo Clue_.
+  - This may or may not therefore cause a single _Tempo Clue Chop Move_, following the same condition guidelines as normal _Tempo Clues_.
+- For example, in a 3-player game:
+  - All 1s are played on the stacks.
+  - Cathy holds a known Red 2.
+  - Bob holds a previously-touched Green 2, but its rank is not yet known.
+  - Alice clues 2 to Bob, newly touching one card while filling in his Green 2.
+  - Bob plays the newly touched 2, and is shocked that it's a _Duped_ Red 2.
+  - Since no new valuable cards were touched, Bob knows to treat this as a _Dupe Tempo Clue_.
+  - Since his Green 2 was _Promptable_, and Alice was not in a valid _Stalling_ situation, Bob treats this as a single _Tempo Clue Chop Move_.
+
+<br />
+
+## Special Moves
+
+<br />
+
+### The Assisted Trash Chop Move
+
+- _Trash Chop Moves_ can be incredibly useful; but what if there’s no way for Alice to simply and cleanly clue **known** trash?
+- One clever solution is to perform an _Assisted Trash Chop Move_: this is when a _Trash Bluff_ or (single-touch) _Unknown Trash Discharge_ gets a known _Dupe_ to blind-play.
+- The ultimate goal of such a clue will be clear to the team: communicate a _Trash Chop Move_ on all cards to the right of the clued card(s).
+- For an example of an _Assisted Trash Bluff_, in a 3-player game:
+  - Blue 1 is played on the stacks.
+  - Alice holds a known Yellow 1.
+  - Cathy's hand is r5, g3, b1, y4, g4.
+  - Alice clues 1 to Cathy, as a _Trash Bluff_.
+  - Bob and Cathy gasp as Bob blind-plays Yellow 1.
+  - Alice's intention becomes clear to everyone: she wanted to provide Cathy with safe _Known Trash_, and expects Cathy to _Trash Chop Move_ her two cards behind the b1.
+- For an example of an _Assisted Trash Discharge_, in a 3-player game:
+  - The situation is the same as above.
+  - Alice clues blue to Cathy, as an _Unknown Trash Discharge_.
+  - Bob and Cathy gasp as Bob plays Yellow 1 from _Third Finesse Position_.
+  - Cathy evaluates. If Alice's clue had touched a secondary blue card, this would simply be a [Duplicitous Blind-Play](#duplicitous-blind-play).
+  - But since Alice's clue only resulted in _Known Trash_ being touched, Alice must have intended a _Trash Chop Move_ on Cathy.
+
+<br />
+
+### The Time Travel Chop Move (Direct Form)
+
+- If Alice performs a _Duplicitous Clue_ that doesn’t touch other good cards or provide immediate _Tempo Fill-In_ information, it must have been done for some other reason.
+- After the _Dupe_ reveals itself, the clued player can interpret the clue as a _Trash CM_ on their own hand (as if it were _Time Traveled_ _Known Trash_, from the future).
+- Thus, the clued player _Chop Moves_ all cards that were to the right of the clued dupe.
+- For example, in a 3-player game:
+  - All 2s are played.
+  - Cathy holds a known Purple 3.
+  - Alice clues 3 to Bob, newly touching a single card.
+  - Bob plays his 3 and gasps when he sees it's Purple 3.
+  - Since this was effectively a 0-for-1, Alice must have chosen this line in order to give Bob _Known Trash_.
+  - Therefore, the team can all tell that Alice performed a _Time Travel Chop Move_. Bob _Chop Moves_ all the cards that were behind his Purple 3.
+
+<br />
+
+### The Time Travel Chop Move (Blind-Play Form)
+
+- What if Alice wishes to perform a _Time Travel Chop Move_ on Bob, but is unable to cleanly clue it directly by itself?
+- In such a case, Alice can still attempt to force the dupe to blind-play. She must choose carefully, though, to ensure that the end result is truly 'bad' enough to result in a full _Time Travel Chop Move_!
+- More specifically, such a blind-play must be sure to avoid the following conditions:
+  - The clue can’t otherwise meet _Minimum Clue Value Principle_.
+  - The clue can’t simply look like a normal [Assisted Trash CM](#the-assisted-trash-chop-move) on the clue receiver.
+- For example, in a 4-player game:
+  - All 1s are played. Donald has a known Blue 2.
+  - Bob has a previously clued red card. Alice reclues it with a 3 clue, touching no other cards.
+  - Bob blind-plays as a _Self-Bluff_, but is shocked when a Blue 2 is played.
+  - Since this resulted in a 0-for-1 - and it wasn’t any sort of potential emergency - Bob understands that he should _Chop Move_ everything that was behind his Blue 2, as a _Time Travel Chop Move_.
+- In advanced games, it's also possible to perform _Time Travel Chop Moves_ further away from slot 1, by using certain 0-for-1 advanced techniques (such as _Useless Clue Ejections_, _Bad TCCME_,_Trash Push UTD_, etc).
