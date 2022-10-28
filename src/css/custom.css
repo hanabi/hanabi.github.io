@@ -73,3 +73,11 @@ svg.example text.site-theme-text {
   width: 6em;
   height: 6em;
 }
+
+.highlight {
+  color: rgb(187, 184, 37);
+}
+
+.unholy {
+  color: rgb(208, 116, 100);
+}
