@@ -19,13 +19,13 @@ players:
       - type: x
       - type: x
   - cards:
-      - type: y1
+      - type: y4
         border: false
-      - type: y1
+      - type: y5
         border: false
-      - type: g5
+      - type: g1
         border: false
-      - type: b1
+      - type: y3
         border: false
       - type: u5
         border: false
