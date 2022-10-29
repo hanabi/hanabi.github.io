@@ -21,7 +21,7 @@ players:
       - type: x
       - type: x
       - type: x
-      - type: r1
+      - type: u1
         border: false
   - cards:
       - type: r5
