@@ -3,9 +3,9 @@ suits:
 stacks:
   - r: 1
   - y: 1
-  - g: 1
+  - g: 0
   - b: 1
-  - u: 1
+  - u: 0
 discarded:
   - y4
 players:
@@ -28,13 +28,13 @@ players:
       - type: u5
         border: false
   - cards:
-      - type: g1
+      - type: g4
         border: false
-      - type: g1
+      - type: g4
         border: false
       - type: r1
         border: false
       - type: y2
         border: false
-      - type: b1
+      - type: b3
         border: false
