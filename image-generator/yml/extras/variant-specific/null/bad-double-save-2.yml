@@ -8,6 +8,7 @@ stacks:
   - u: 0
 discarded:
   - y4
+  - u3
 players:
   - clue_giver: true
     cards:
