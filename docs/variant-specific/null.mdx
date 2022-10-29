@@ -10,6 +10,9 @@ import ColorPositionalSkipClued from "@site/image-generator/yml/extras/variant-s
 import ColorPositionalWrapAround from "@site/image-generator/yml/extras/variant-specific/null/color-positional-wrap-around.yml";
 import ColorPositionalSkipDark from "@site/image-generator/yml/extras/variant-specific/null/color-positional-skip-dark.yml";
 import NoPositionalFinesse from "@site/image-generator/yml/extras/variant-specific/null/no-positional-finesse.yml";
+import GoodDoubleSave from "@site/image-generator/yml/extras/variant-specific/null/good-double-save.yml";
+import BadDoubleSave1 from "@site/image-generator/yml/extras/variant-specific/null/bad-double-save-1.yml";
+import BadDoubleSave2 from "@site/image-generator/yml/extras/variant-specific/null/bad-double-save-2.yml";
 
 These conventions apply to any variant with a null (touched by no clues) suit. They are turned off once all null cards are played or globally known.
 
@@ -75,11 +78,34 @@ These conventions apply to any variant with a null (touched by no clues) suit. T
 - When a _Double Save_ interpretation is possible, Cathy should always assume that a _Double Save_ has occurred; she should not assume that Alice performed a _Null 5 Chop Move_ on Bob and that Bob gave her a play clue.
 - Since the necessity of saving 2s is not symmetric and can depend on Alice's and Bob's hands, _Double Saves_ may not be initiated to save non-critical 2s.
 - Note that _Double Saves_ may be performed regardless of whether Bob is loaded.
+- For example, in a 3-player game of the "Null (5 Suits)" variant:
+  - The red 3 is played on the stacks.
+  - Bob has already been clued about his yellow 1, and has a playable null 1 in as his rightmost card.
+  - Cathy has two critical cards on chop: the null 5 and the green 4.
+  - To save these cards, Alice can clue a number 5 clue to Cathy, making Bob clue a number 4 clue to Cathy.
+  - Even if Bob is loaded, since this is a _Double Save Situation_, Bob should not consider this a _Loaded 5 Null Play Clue_, and he must save Cathy's green 4.
+  - Upon receiving these clues, Cathy might consider that the number 5 clue was intended to get the null 1 and that she has been clued a playable red 4. However, if the clues leading up to her turn may have been a _Double Save_, she should always respect this possibility.
+  - Cathy chop moves the null 5 and will discard the green 2 next; she should feel free to get other copies of the null 1.
+
+<GoodDoubleSave />
 
 #### The Double Save Corollary
 
 - Since Cathy should always assume a _Double Save_ occurred whenever it is possible, Alice must take care not to create ambiguous situations by performing a _Null 5 Chop Move_ at the wrong time.
-- For example, if Bob and Cathy both have critical null cards on their chops without Cathy's hand giving rise to a _Double Save Situation_, and Alice choses to perform a _Null 5 Chop Move_ on Bob, then Bob cannot perform a _Null 5 Chop Move_ on Cathy, as it would look like a _Double Save_; Alice should either wait for Bob to save Cathy first, or ensure that Cathy has something else to do.
+- For example, in a 3-player game of the "Null (5 Suits)" variant:
+  - The red, yellow, green, and blue twos are all played on the stacks. 
+  - Bob and Cathy both have critical null cards on chop.
+  - Alice should refrain from giving a number 5 clue to Cathy as a _Null 5 Chop Move_ on Bob's null 2.
+  - This is because doing so prevents Bob from saving Cathy's null 5; any attempt to do so would look like a double save, causing Cathy to chop move trash.
+  - Alice should either clue number 1 to Bob as a _Trash Chop Move_ or discard and count on Bob to save the null 5.
+<BadDoubleSave1 />
+- For example, in a 3-player game of the "Null (5 Suits)" variant:
+  - The red, yellow, and blue ones are all played on the stacks.
+  - Bob has a critical null card on chop, and Cathy has a playable yellow 2 near chop.
+  - If Alice clues number 5 to Bob as a _Null 5 Chop Move_, Bob will be unable to get the yellow 2 to play.
+  - This is because if Bob were to clue yellow to Cathy, it would look like a double save on the null 3 and yellow 4.
+  - To avoid losing one or both threes, Alice should strongly consider doing something else, such as cluing the green 1 or discarding.
+<BadDoubleSave2 />
 
 <br />
 
