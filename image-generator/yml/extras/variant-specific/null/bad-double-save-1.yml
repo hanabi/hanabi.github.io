@@ -21,7 +21,7 @@ players:
         border: false
       - type: y1
         border: false
-      - type: g5
+      - type: r1
         border: false
       - type: b1
         border: false
@@ -32,7 +32,7 @@ players:
         border: false
       - type: g1
         border: false
-      - type: r1
+      - type: g5
         border: false
       - type: r1
         border: false
