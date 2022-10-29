@@ -17,7 +17,7 @@ players:
       - type: x
       - type: x
   - cards:
-      - type: x
+      - type: y1
       - type: x
       - type: x
       - type: x
