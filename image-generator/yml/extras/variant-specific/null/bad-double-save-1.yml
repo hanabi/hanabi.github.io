@@ -5,9 +5,9 @@ stacks:
   - y: 2
   - g: 2
   - b: 2
-  - u: 2
+  - u: 0
 discarded:
-  - u4
+  - u2
 players:
   - clue_giver: true
     cards:
@@ -25,7 +25,7 @@ players:
         border: false
       - type: b1
         border: false
-      - type: u4
+      - type: u2
         border: false
   - cards:
       - type: g1
