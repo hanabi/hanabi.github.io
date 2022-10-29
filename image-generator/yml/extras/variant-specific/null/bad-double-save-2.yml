@@ -7,6 +7,7 @@ stacks:
   - b: 1
   - u: 0
 discarded:
+  - g2
   - y4
   - u3
 players:
@@ -31,7 +32,7 @@ players:
   - cards:
       - type: g4
         border: false
-      - type: g4
+      - type: g2
         border: false
       - type: r1
         border: false
