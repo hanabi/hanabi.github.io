@@ -1,127 +1,117 @@
 ---
 id: level-23
-title: Level 23 - Unnecessary Moves
+title: Level 23 - Charms & Miscellaneous
 ---
 
-import UnnecessaryTrashPushIgnition from "@site/image-generator/yml/level-23/unnecessary-trash-push-ignition.yml";
-import UnnecessaryTrashFinesseChopMove from "@site/image-generator/yml/level-23/unnecessary-trash-finesse-chop-move.yml";
-import UnnecessaryTrashFinesseTrashPush from "@site/image-generator/yml/level-23/unnecessary-trash-finesse-trash-push.yml";
-import UnnecessaryBadChopMoveEjection from "@site/image-generator/yml/level-23/unnecessary-bad-chop-move-ejection.yml";
+import FourCharm from "@site/image-generator/yml/level-23/four-charm.yml";
+import BlazeDiscard from "@site/image-generator/yml/level-23/blaze-discard.yml";
+import BlazeDiscard2 from "@site/image-generator/yml/level-23/blaze-discard-2.yml";
+import HesitationBlindPlay from "@site/image-generator/yml/level-23/hesitation-blind-play.yml";
 
-## Unnecessary Moves
-
-- Experienced players will know about all sorts of tricky ways to "get" cards - the _Trash Bluff_, the _Trash Finesse_, the _Unknown Trash Discharge_, the _Trash Push_, and so forth.
-- In most cases, these complicated moves end up being a 1-for-1, which is not very efficient. Consider that doing a complicated move like a _Trash Bluff_ as a 1-for-1 is pretty pointless if the cluer can instead just give a direct _Play Clue_ to the card that needs to be played as a 1-for-1. Giving "normal" _Play Clues_ is much less likely to go wrong!
-- Therefore, advanced moves are generally used in situations where the card that needs to be played is hard to clue directly. For example:
-  - It could be "blocked" by other cards (e.g. two of the same card in the hand).
-  - It could be on chop and "blocked" in the sense that any clue given would look like a _Save Clue_ instead of a _Play Clue_.
-  - And so on.
-- **An _unnecessary_ move is defined as a "complicated" move that is performed when the cluer could have instead given a direct _Play Clue_.**
-- _Unnecessary_ moves do "one extra thing" on top of the normal meaning of the move. Depending on the situation, the "extra" thing will be either:
-  - an _Ignition_ (with known trash)
-  - a _Chop Move_ (with unknown trash off chop)
-  - a _Trash Push_ (with unknown trash on chop)
-- Remember that a move is only _unnecessary_ if it does not have any side benefits. Specifically:
-  - A move is **not** _unnecessary_ if it "picked up" an extra useful card (e.g. _Unknown Trash Discharges_ commonly do this).
-  - A move is **not** _unnecessary_ if it also fixed an impending misplay or a violation of _Good Touch Principle_.
-  - A move is **not** _unnecessary_ if it also "filled-in" previously-clued cards in the hand of the person who received the clue.
-    - For simplicity, only positive clues "count" as being _Necessary_. "Filling-in" a card with a negative clue doesn't count.
+## Conventions
 
 <br />
 
-### Unnecessary Moves with Known Trash --> Ignition
+### Charms
 
-- If **known trash** is used as clue target, the "extra" thing is an _Ignition_. The _Ignition_ must be Bob, unless Alice had a very good reason not to let Bob give the clue, similar to how _Double Ignition_ works.
-- Note that performing a _Unnecessary Trash Chop Move_ is explicitly illegal, since that move would be indistinguishable from a _Chop Move Ignition_.
-
-#### Example 1 - An Unnecessary Trash Push (with Ignition)
-
-- For example, this would be an _Unnecessary Trash Push_ in a 3-player game:
-  - All of the 3's are played on the stacks.
-  - Bob's hand is completely unclued.
-  - Alice clues number 1 to Bob, touching a single 1 on Bob's slot 5 (his chop).
-  - Bob knows that this is a _Trash Push_ and blind-plays his slot 4. It is a red 4 and it successfully plays.
-  - Cathy sees that Bob has no other red cards in his hand. Thus, Alice could easily clued red to Bob in order to "get" the red 4 in a straightforward way. That means that Alice performed an _Unnecessary Trash Push_.
-  - Cathy blind-plays her _Finesse Position_. It is a red 5 and it successfully plays.
-
-<UnnecessaryTrashPushIgnition />
+- _Charm_ is similar to _Ejection_ and _Discharge_, except the _Forth Finesse Position_ card is blind-played.
+- Just like a _Bluff_, a _Charm_ can only be performed on the very next player.
+- Several different kinds of moves can cause a _Charm_. The most common one is the _4 Charm_.
 
 <br />
 
-### Unnecessary Moves with Unknown Trash Off Chop --> Chop Move
+## Special Moves
 
-- If **unknown trash** is used as a clue target that is **off chop**, the team responds as if a _Trash Chop Move_ was given.
-- Note that _Unnecessary Chop Moves_ are tricky in that they have **information asymmetry**: the player who blind-plays will **not** know that the card is chop moved, while everyone else will. All players will have to keep this in mind until the _Chop Move_ has been demonstrated.
+<br />
 
-#### Example 1 - An Unnecessary Trash Finesse (with a Chop Move)
+### The 4 Charm
 
-- For example, this would be an _Unnecessary Trash Finesse_ in a 3-player game:
-  - All of the 2's are played on the stacks except for the red 2.
-  - Bob has a red 2 on his _Finesse Position_ and no other red cards in his hand. Thus, Alice could give a red clue to Bob in order to "get" the red 2.
-  - Cathy's hand is completely unclued.
-  - Alice clues number 2 to Cathy, touching a blue 2 on slot 4. (Blue 2 is already played and is therefore trash.)
-  - Bob knows that from Cathy's perspective, Alice's clue looks like a _Play Clue_ on the final remaining 2 - the red 2. Cathy will go on to misplay the blue 2 as the red 2.
-  - Thus, Bob knows that this is a _Trash Finesse_ or _Trash Bluff_. He blind-plays his _Finesse Position_ card. It is a red 2 and it successfully plays.
-  - Cathy now knows that her 2 is trash (since Bob blind-played in response to the clue). However, Cathy also knows that this _Trash Finesse_ was _unnecessary_, as Alice could have just clued red to Bob.
-  - Thus, Cathy knows that this is an _Unnecessary Trash Finesse_, so she marks her slot 5 card as being _Chop Moved_.
-
-<UnnecessaryTrashFinesseChopMove />
-
-#### Example 2 - An Unnecessary Unknown Trash Discharge (with a Chop Move)
-
-- For example, if an _Unknown Trash Discharge_ was done to _Discharge_ a card that could be _Play Clued_ directly, the clue receiver should _Chop Move_ the cards to the right of the clue target.
-
-#### Example 3 - An Unnecessary Unknown Trash Discharge (with a Bad Chop Move Ejection)
-
+- When a _Play Clue_ is given to a 4 that is not yet playable, Bob must react:
+  - The first interpretation is that it is a _Prompt_.
+  - If Bob has no matching cards in his hand, then a _Prompt_ is impossible.
+  - The second interpretation is that it is a _Finesse_.
+  - If Bob sees that he would have to **blind-play one card** or **blind-play two cards** to fulfill a _Finesse_, then he should assume that it is a _Finesse_.
+  - If Bob sees that he would have to **blind-play three cards** in their hand to fulfill the _Finesse_, then a _Finesse_ is unlikely.
+  - The third interpretation is that it is a _4 Double Bluff_.
+  - If Bob sees that Cathy does not have a playable card on her _Finesse Position_, then a _4 Double Bluff_ is impossible (or very unlikely).
+  - The fourth interpretation is that it is a _4 Charm_, meaning that Bob should blind-play his _Fourth Finesse Position_.
 - For example, in a 4-player game:
-  - All the 2's are played on the stacks except for the blue 2.
-  - Donald's hand is as follows: `blue 4, blue 4, red 1, blue 1`
-  - Alice clues red to Donald, touching the red 1 on slot 3.
-  - Bob sees that this is an _Unknown Trash Discharge_. He plays his _Third Finesse Position_. It is a blue 2 and it successfully plays.
-  - Cathy sees that Alice could have given a direct _Play Clue_ to Bob's blue 2. Thus, this clue was _Unnecessary_, and Donald will go on to _Chop Move_ the blue 1 on slot 4.
-  - Thus, Cathy knows that this is a _Bad Chop Move Ejection_. She blind-plays her _Second Finesse Position_ card. It is a blue 3 and it successfully plays.
+  - It is the first turn and nothing is played on the stacks.
+  - Alice clues number 4 clue to Cathy, touching a red 4 on slot 1 as a _Play Clue_.
+  - Bob knows that normally, this would be a _Finesse_ on the red 4, meaning that he should blind-play a red 1, a red 2, and a red 3. (Bob does not see any red cards in anyone else's hands.)
+  - Since the _Finesse_ requires three blind-plays, it is unlikely, and Bob knows he is supposed to revert to a different interpretation.
+  - Bob sees that Cathy has a currently not playable card on her _Finesse Position_, so a _4 Double Bluff_ is impossible.
+  - Thus, Bob knows that this must be a _4 Charm_. He blind-plays his _Fourth Finesse Position_. It is a blue 1 and it successfully plays.
+
+<FourCharm />
+
+- _4 Charms_ can be given with either a color clue or a number clue.
+- Similar to a _5 Color Ejection_, _Prompts_ don't factor into the "three or more blind-plays" rule. Players only count the number of blind-plays.
 
 <br />
 
-### Unnecessary Moves with Unknown Trash On Chop --> Trash Push
+### The Blaze Discard
 
-- If **unknown trash** is used as a clue target that is **on chop**, the team responds as if a _Trash Push_ was given.
-
-#### Example 1 - An Unnecessary Trash Finesse (with a Trash Push)
-
-- For example, this would be an _Unnecessary Trash Finesse_ in a 3-player game:
-  - All of the 2's are played on the stacks except for the red 2.
-  - Bob has a red 2 on his _Finesse Position_ and no other red cards in his hand. Thus, Alice can give a red clue to Bob in order to "get" the red 2.
-  - Cathy's hand is completely unclued.
-  - Alice clues number 2 to Cathy, touching a blue 2 on slot 5. (Blue 2 is already played and is therefore trash.)
-  - Bob knows that from Cathy's perspective, Alice's clue looks like a _Play Clue_ on the final remaining 2 - the red 2. Cathy will go on to misplay the blue 2 as the red 2.
-  - Thus, Bob knows that this is a _Trash Finesse_. He blind-plays his _Finesse Position_ card. It is a red 2 and it successfully plays.
-  - Cathy now knows that her 2 is trash (since Bob blind-played in response to the clue). However, Cathy also knows that this _Trash Finesse_ was _unnecessary_, as Alice could have just clued red to Bob.
-  - Thus, Cathy knows that this is an _Unnecessary Trash Finesse_. She must respond as if a known-trash card was clued on her chop, so Cathy blind-plays her slot 4 card as a _Trash Push_.
-
-<UnnecessaryTrashFinesseTrashPush />
-
-#### Example 2 - An Unnecessary Trash Push Discharge (with a Trash Push)
-
-- For example, if an _Trash Push Discharge_ was performed by cluing a card in Cathy's hand, Bob should blind-play his _Third Finesse Position_ to prove that the _Trash Pushed_ card is trash. Then, Cathy should blind-play the card next to the card that she learned is trash.
-
-#### Example 3 - An Unnecessary Bad Chop Move Ejection (with a Trash Push Discharge)
-
-- The conversion to the known-trash interpretation also holds if the team has to prevent the clue receiver from _Trash Pushing_ a card that's not playable.
+- Normally, if a player performs a _Gentleman's Discard_ and the other card is **not** on _Finesse Position_, it could be one of two things:
+  1. If the card on _Finesse Position_ is itself playable right now, then it would be a _Layered Gentleman's Discard_.
+  1. If the card on _Finesse Position_ is not playable right now, then it is an emergency situation.
+- Alternatively, if a player performs a _Baton Discard_ and the other card is **not** on _Finesse Position_, then it is an emergency situation.
+- If this is the case, and it is **not** an emergency situation, then the player who is performing the weird _Gentleman's Discard_ (or _Baton Discard_) must be trying to communicate something extra.
+- In this situation, the discarding player intends for the very next player to blind-play the _Finesse Position_ that **matches the true _Finesse Position_** of the other card. This is called a _Blaze Discard_ because it "ignites" the next player's hand to fix the problem.
 - For example, in a 3-player game:
-  - All of the 2's are played on the stacks.
-  - Bob has a red 3 on his _Second Finesse Position_ and no other red cards in his hand. Thus, Alice can give a red clue to Bob in order to "get" the red 3.
-  - Donald's hand is as follows, from left-to-right: `red 1, green 1, blue 2, blue 1`
-  - Alice clues number 2 to Donald, touching the blue 2 on slot 3.
-  - Bob knows that from Donald's perspective, Alice's clue looks like a _Trash Chop Move_. Since Donald is about to chop move a trash card, Bob blind-plays his red 3 as a _Bad Chop Move Ejection_.
-  - Since Bob's blind-play told Donald about a trash card, namely that the _Chop Moved_ blue 1 was trash, Donald will now additionally interpret the clue as a _Trash Push_.
-  - Cathy sees that Donald is about to play green 1 as a _Trash Push_, but green 1 is already played.
-  - Thus, Cathy blind-plays her _Third Finesse Position_ as a _Trash Push Discharge_.
+  - All 1's are played on the stacks.
+  - Alice discards a known red 2 as a _Gentleman's Discard_.
+  - Bob sees that Cathy's hand is completely unclued and is as follows, from left to right: `red 1 (trash), red 2, green 1 (trash), green 1 (trash), blue 1 (trash)`
+  - Bob knows that normally, the _Gentleman's Discard_ promises that the other copy of the red 2 is on _Finesse Position_. But Alice is _Lying_ to Cathy, because she will go on to misplay the red 1 as the red 2.
+  - Bob knows that it would be pointless for Alice to perform a _Gentleman's Discard_ and then for Bob to give a _Fix Clue_, as that would waste a clue. So, if Alice is not making a mistake, she must be trying to communicate something extra.
+  - Bob knows that this must be a _Blaze Discard_ and he must blind-play the _Finesse Position_ that matches the _Finesse Position_ of the other card. In this case, since the red 2 is on Cathy's _Second Finesse Position_ (slot 2), Bob must play his _Second Finesse Position_ (slot 2).
+  - Bob blind-plays slot 2. It is a blue 2 and it successfully plays.
+  - From Cathy's perspective, she first suspects that some kind of _Ejection_ is going on, since Bob blind-played his _Second Finesse Position_. However, since the previous action was a _Gentleman's Discard_, Alice knows that this must be a _Blaze Discard_. In other words, Bob was just blind-playing his _Second Finesse Position_ to communicate to Cathy that she should play her _Second Finesse Position_ instead of her _First Finesse Position_.
+  - Cathy blind-plays the red 2 from slot 2.
 
-<UnnecessaryBadChopMoveEjection />
+<BlazeDiscard />
+
+- Remember that _Blaze Discards_ work with _Finesse Positions_, **not** with slot numbers.
+- _Blaze Discards_ must be on the very next player. In other words, Bob has to immediately react to prove where the position of the matching card is.
+- _Blaze Discards_ do not apply when someone discards a 1 and there are two copies remaining. (In other words, it is still possible to perform a normal _Gentleman's Discard_ by discarding a red 1 in the case where Bob has a red 1 on his _Finesse Position_ and Cathy has a red 1 on her _Second Finesse Position_ behind an unplayable card.)
+- It is illegal to perform a _Layered Blaze Discard_ (on either the ignited player or the player holding the matching card). We want to keep _Blaze Discards_ as simple as possible.
+- _Blaze Discards_ do not apply when someone performs a _Gentleman's Discard_ or a _Baton Discard_ that looks like a _Sarcastic Discard_. In these situations, one of the following is true:
+  - The discarding player is making a mistake (as a _Wrong Prompt_).
+  - The discarding player is not making a mistake and there is enough past context for the player with the cards to be able to tell the difference.
+- For example, in a 3-player game:
+  - Alice discards a red 3 as a _Blaze Discard_.
+  - Bob sees that Cathy has the other copy of the red 3. However, it is on slot 2 instead of on slot 1. (Cathy's hand is completely unclued.) Thus, Bob has to communicate to Cathy that it is actually on her _Second Finesse Position_.
+  - Bob has a clued 5 on his slot 1. Thus, Bob's _Finesse Position_ is on slot 2 and his _Second Finesse Position_ is on slot 3.
+  - Bob blind-plays his _Second Finesse Position_ (slot 3). It is a blue 2 and it successfully plays.
+  - Cathy knows that because Bob blind-played his slot 3, the red 3 must be on her slot 2.
+
+<BlazeDiscard2 />
 
 <br />
 
-### Other Examples
+### The Hesitation Blind-Play
 
-- More examples of _unnecessary_ moves can be found [here](examples/unnecessary.mdx).
+- Sometimes, a player will receive a _Play Clue_ on a card. And then, instead of playing it, they will discard their chop instead. This would normally indicate some sort of emergency. However, sometimes it can be seen that there is nothing special going on and that everybody has safe chop cards.
+- In such a situation, if the player is not making a mistake, the only reason that they would discard is that they are allowing for the possibility of a _Prompt_ or a _Reverse Finesse_ - someone else on the team has a playable card (either clued or on _Finesse Position_) that "connects" to the card that they got the _Play Clue_ on.
+- Depending on the game state, clever players may be able to blind-play their _Finesse Position_ card in response to this hesitation, getting a card for "free". This kind of move is called a _Hesitation Blind-Play_.
+- For example, in a 3-player game:
+  - Red 1 and all of the other 2's are played on the stacks.
+  - The team has 5 clues. Nobody on the team has any cards clued in their hand.
+  - Alice clues number 3 to Bob, touching a blue 3 on slot 1 as a _Play Clue_. (The team is now at 4 clues.)
+  - Bob discards. (The team is now at 5 clues.)
+  - From Cathy's perspective, Bob was supposed to play the blue 3 immediately instead of discarding.
+  - Cathy knows that since the team has so many clues available, this cannot be a _Scream Discard_ from Bob. (_Scream Discards_ are only typically done when the team is at 0 or 1 clues.)
+  - Thus, Cathy knows that Bob must be hesitating because is he allowing for the possibility of a _Reverse Finesse_. In this situation, the only possible card that could Bob could be hesitating for is red 2.
+  - Cathy blind-plays her _Finesse Position_ card. It is red 2 and it successfully plays.
+  - Alice discards.
+  - Bob knows that since Cathy blind-played the red 2, Alice did a _Reverse Finesse_ and that he has the red 3.
+  - Bob plays the 3, but it is revealed to be blue 3 instead of red 3.
+  - Bob now knows that nobody has the red 3 and that Cathy blind-played the red 2 from Bob's hesitation.
+
+<HesitationBlindPlay />
+
+- _Hesitation Blind-Plays_ are **not always safe** to do:
+  - If a player is _Self-Finessed_ and hesitates, you cannot act on the hesitation because a playable card on your _Finesse Position_ will not necessarily match the clued card.
+  - If a player could be hesitating for a clued card in your hand **or** your _Finesse Position_ card, then you cannot act on the hesitation. (If you guess wrong, you could misplay a critical card.)
+  - If a player could be hesitating for a card that is identical to the card that was clued, then you cannot act on the hesitation. (If you blind-play the same copy of the card, then they will go on to misplay the clued card.)
+  - If blind-playing a particular card would cause the original clue to look like a _Double Finesse_ with a "self" component, then you cannot act on the hesitation. (For example, if a number 4 clue causes a _Hesitation Blind-Play_ of a red 2, the clue receiver would go on to misplay their _Finesse Position_ card as the red 3.)

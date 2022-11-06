@@ -143,6 +143,7 @@ module.exports = {
         "level-21",
         "level-22",
         "level-23",
+        "level-24",
       ],
     },
     {
