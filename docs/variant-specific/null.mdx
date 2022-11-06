@@ -10,173 +10,110 @@ import ColorPositionalSkipClued from "@site/image-generator/yml/extras/variant-s
 import ColorPositionalWrapAround from "@site/image-generator/yml/extras/variant-specific/null/color-positional-wrap-around.yml";
 import ColorPositionalSkipDark from "@site/image-generator/yml/extras/variant-specific/null/color-positional-skip-dark.yml";
 import NoPositionalFinesse from "@site/image-generator/yml/extras/variant-specific/null/no-positional-finesse.yml";
+import GoodDoubleSave from "@site/image-generator/yml/extras/variant-specific/null/good-double-save.yml";
+import BadDoubleSave1 from "@site/image-generator/yml/extras/variant-specific/null/bad-double-save-1.yml";
+import BadDoubleSave2 from "@site/image-generator/yml/extras/variant-specific/null/bad-double-save-2.yml";
 
-These conventions apply to any variant with a null (touched by no clues) suit.
-
-<br />
-
-### Hard Variant
-
-- Any variant with a null suit is treated as a _Hard Variant_, meaning that _Loaded Play Clues_ are "turned on" and so forth.
+These conventions apply to any variant with a null (touched by no clues) suit. They are turned off once all null cards are played or globally known.
 
 <br />
 
-### Positional Clues
+### The Null Kick
 
-Since null cards cannot be clued directly, we agree that we should use _Positional Clues_ to "get" them.
-
-#### 1) What is a _Positional Clue_?
-
-- _Positional Clues_ correspond to a slot number.
-- A **number** positional clue corresponds directly to the slot number.
-  - For example, a number 3 clue equals slot 3.
-  - In a 4-player, 5-player game, or 6-player game a number 5 clue equals _Chop Move_ (since there is no slot 5 card).
-- A **color** positional clue corresponds to a slot number that is based on the order of the stacks. Stacks correspond to the slot numbers **from right to left**.
-  - For example, in a 3-player game of the _Null (6 Suit)_ variant, there are 5 color clues and 5 slots in the hand. Thus, a purple clue equals slot 5 (since it is the right-most color), a blue clue equals slot 4 (since it is the 2nd right-most color), and so forth.
-  - More examples for _Color Positional Clues_ are listed below in a separate section. (_Color Positional Clues_ have a dedicated section since they are a bit more complicated.)
-
-#### 2) How do you perform a _Positional Clue_?
-
-- Any "nonsense" clue (e.g. a clue that has no normal conventional interpretation) is to be interpreted as a _Positional Clue_ instead.
-- Furthermore, in order to make it easier to perform _Positional Clues_, we also "turn off" the following conventions:
-  - _Double Finesses_ or _Triple Finesses_ where the very next player has to blind-play **two or more** cards
-  - _Double Bluffs_ or _Triple Bluffs_
-  - _Ejections_
-  - _Discharges_
-  - _Charms_
-  - _Ignitions_
-  - _Self Color Bluffs_
-  - _5 Pulls_
-  - _Trash Pulls_
-  - _Trash Pushes_
-  - _Critical Color Bluffs_
-  - _Finesses_ and _Bluffs_ that were initiated with a rank clue when a **_Free Choice_** was available between rank and color
-- Any clue that looks like one of these conventions is to be interpreted as a _Positional Clue_ instead:
-
-#### 3) Are _Positional Clues_ a _Save Clue_ or a _Play Clue_?
-
-- A _Positional Clue_ can be either a _Save Clue_ or a _Play Clue_:
-  - If the slot corresponds to the chop of a player, then they have to respect that it could be a _Save Clue_. In other words, it could be a _2 Save_ on a null 2, a _5 Save_ on a null 5, or a save on a critical null 3 or null 4 (if the other copy is in the trash).
-  - If the slot corresponds to a slot that is not on the chop, then it is a _Play Clue_.
-  - However, _Loaded Play Clues_ **always** apply to _Positional Clues_, even in the _Early Game_. (This means that you cannot ever give a _Positional Save Clue_ to a player that has one or more known-playable cards.)
-
-#### 4) What about if all the Null cards are already played?
-
-- _Positional Clues_ are "turned off" once all of the null cards have been played. Once that happens, _Double Finesses_, _Ejections_, and so forth are turned back on.
-
-#### 5) Do I discard cards touched as a _Positional Clue_?
-
-- _Good Touch Principle_ applies to cards touched with a _Positional Clue_ in the same way that normal clues are.
-- Thus, if a trash card is used as part of a _Positional Clue_, then a _Fix Clue_ must be given to the trash card later on.
-
-#### 6) How about an example?
-
-- For example, in a 3-player null game:
-  - On the first turn of the game, Alice clues Cathy about one 4.
-  - Bob knows that normally, this would be a _4's Double Bluff_. But _Double Bluffs_ are turned off in variants with a null suit.
-  - Bob instead knows that this is a _Positional Clue_, indicating that someone should play their slot 4 card.
-  - Bob sees that Cathy's slot 4 card is not a null card, so he plays his slot 4 card as the null 1.
-
-<Positional />
-
-#### 7) Do you have to be in _Bluff Seat_ to give a _Positional Clue_?
-
-- Yes. You are only allowed to give a _Positional Clue_ to the very next player.
-- The only exceptions is when it is an extraordinary situation or it is very obvious to the team what is going on.
+- When null cards are newly drawn, they can usually be gotten by _Bluffs_, _Ejections_, and _Discharges_. However, it can sometimes be difficult to get cards near the back of the player's hand.
+- Therefore, in variants with a null suit, we replace less commonly used _Ejections_ with a move called a _Kick_. A _Kick_ signals that the next player should blind-play their chop. (_Chop Moved_ cards should never be blind-played from a _Kick_.)
+- Specifically, _Replay Ejections_, _Poke Ejections_, _Trash Ejections_ and _Double Ejections_ are turned off, and instead signal a _Null Kick_.
+- Similar to _Bluffs_, _Ejections_, and _Discharges_, _Kicks_ must be performed on the very next player.
+- Note that a _Double Ignition_ takes precedence over a _Null Kick_; if Bob sees that someone else has a playable card on finesse position, that interpretation should be preferred.
 
 <br />
 
-### Color Positional Clues
+### Null 5 Tech
 
-- A color positional clue corresponds to a slot number that is based on the order of the stacks. Stacks correspond to the slot numbers **from right to left**.
-  - For example, in a 3-player game of the _Null (6 Suit)_ variant, there are 5 color clues and 5 slots in the hand. Thus, a purple clue equals slot 5 (since it is the right-most color), a blue clue equals slot 4 (since it is the 2nd right-most color), and so forth.
-    <ColorPositional6 />
-  - For example, in a 3-player game of the _Null (5 Suit)_ variant, there are 4 color clues and 5 slots in the hand. Thus, a blue clue equals slot 5 (since it is the right-most color), a green clue equals slot 4 (since it is the 2nd right-most color), and so forth.
-    <ColorPositional5 />
+- _Bluffs_, _Ejections_, _Discharges_, and _Kicks_ are useful to "get" null cards. However, we need a separate and more reliable way to deal with null cards.
+- The main tool for this is to use number 5 clues.
+- The _5 Save_ and the _5's Chop Move_ still work the same as they would in a no variant game. However, the following conventions are turned off:
+  - _Play Clues_ with a number 5 (including on a previously clued 5)
+  - The _5 Stall_
+  - The _5 Pull_
+  - The _5 Number Discharge_
+- These moves are replaced with other things; see below.
 
-#### Color Positional Clues Skip Over Clued Cards
+#### The Null 5 Chop Move
 
-- When players are determining which slot number the _Color Positional Clue_ is talking about, they should always skip over any cards that have one or more positive clues on them.
+- When Alice gives a number 5 clue that is not a _5 Save_ or a _5's Chop Move_, **as long as Bob is not loaded**, it signals a _Null 5 Chop Move_ on Bob.
+  - Note that the number 5 clue can be given to any player; it does not necessarily have to be on Bob.
+- The _Null 5 Chop Move_ is **only** allowed to save null cards that are critical (or a null 2 that isn't visible elsewhere, same as an ordinary _2 Save_).
+- This convention applies only to Bob; see _The Double Save_ for saving other players.
+
+#### The Loaded 5 Null Play Clue
+
+- When Alice gives a number 5 clue that is not a _5 Save_ or a _5's Chop Move_, **if Bob is loaded**, it signals a _Loaded 5 Null Play Clue_ to Bob.
+  - Note that the number 5 clue can be given to any player; it does not necessarily have to be on Bob.
+- Bob should immediately play his rightmost card with no positive clues. Notably, if Bob is _Chop Moved_, he should play his rightmost _Chop Moved_ card.
+- This convention applies only to Bob.
+
+#### Interaction With Pink
+
+- _Pink Promise_ does not apply to number 5 clues, except for _5 Saves_, _5's Chop Moves_, and _Turnabout Ejections_.
+- In particular, it is not possible to perform a _Bubblegum Finesse_ or a _Bubblegum Bluff_ with a number 5 clue, except as a _Loaded 5 Tech Clue_.
+
+<br />
+
+### Saving Multiple Cards
+
+#### Double Save Situations
+
+- Given that the _Null 5 Chop Move_ only applies to Bob and only chop moves one card, it can be difficult to save two critical cards in a row on Bob.
+- A _Double Save Situation_ occurs when:
+  1. Cathy is not loaded.
+  2. Cathy has a critical null card on her chop.
+  3. Cathy has any critical card on her second chop (the next unclued card after the chop).
+  4. Cathy's two critical cards cannot be saved with one clue (e.g. a _5 Chop Move_, a _Trash Chop Move_, or an _Unnecessary Reverse Trash Finesse_).
+
+#### The Double Save
+
+- In the _Double Save_, Alice gives a number 5 clue, similar to a _Null 5 Chop Move_. But Bob does not _Chop Move_, and instead immediately performs a second _Save Clue_ or _Chop Move_ on Cathy.
+- _Double Saves_ can only be performed in _Double Save Situation_.
+- When a _Double Save_ interpretation is possible, Cathy should always assume that a _Double Save_ has occurred. In other words, Cathy should not assume that Alice performed a _Null 5 Chop Move_ on Bob and that Bob gave her a play clue.
+- Since the necessity of saving 2s is not symmetric, _Double Saves_ may not be initiated to save non-critical 2s.
+- Note that _Double Saves_ may be performed regardless of whether Bob is loaded.
 - For example, in a 3-player game of the "Null (5 Suits)" variant:
-  - All the 1's are played on the stacks except for the null 1.
-  - Bob hand is as follows, from newest to oldest: `red 1, red 1, null 1, blue 1, blue 5`
-  - Bob's blue 5 has a number 5 clue on it. (It was clued with a _5 Save_ earlier on.)
-  - Alice clues green to Cathy, touching a green 1.
-  - Bob knows that normally, this would be an _Unknown Trash Discharge_. But all _Discharges_ are "turned off" in null variants. Instead, this must be a _Null Positional Clue_.
-  - Bob knows that if his hand was completely unclued, green would refer to slot 4, since there are 5 slots in the hand and green is the 2nd rightmost color. But since Bob's slot 5 card already has a clue on it, he should skip over that card. So this must be targeting his slot 3 (e.g. his 2nd rightmost unclued slot).
-  - Bob blind-plays null 1 from slot 3.
+  - The red 3 is played on the stacks. The green 4 is discarded.
+  - Bob has already been given a _Play Clue_ on a yellow 1, but has not played it yet. He also has a playable null 1 in as his rightmost card.
+  - Cathy has two critical cards on chop: the null 5 and the green 4.
+  - To save these cards, Alice initiates a _Double Save_ by cluing number 5 clue to Cathy, which forces Bob clue a number 4 to Cathy.
+  - Normally, since Bob is loaded, he would consider this to be a _Loaded 5 Null Play Clue_, and would play his chop. However, Bob knows that _Double Save_ situations take precedence over _Loaded 5 Null Play Clues_.
+  - Normally, since Cathy sees that Bob has a playable null 1 on chop, she would consider this to be a _Loaded 5 Null Play Clue_. However, Cathy knows that _Double Save_ situations take precedence over _Loaded 5 Null Play Clues_.
 
-<ColorPositionalSkipClued />
+<GoodDoubleSave />
 
-#### Color Positional Clues Wrap Around
+#### The Double Save Corollary
 
-- _Color Positional Clues_ always "wrap around" to the oldest card. In other words, if they go "past" slot 1, then they would apply to slot 5 again.
+- Since Cathy should always assume a _Double Save_ occurred whenever it is possible, Alice must take care not to create ambiguous situations by performing a _Null 5 Chop Move_ at the wrong time.
 - For example, in a 3-player game of the "Null (5 Suits)" variant:
-  - All the 1's are played on the stacks except for the null 1.
-  - Bob hand is as follows, from newest to oldest: `null 1, red 1, red 5, blue 5, green 5`
-  - All of Bob's 5's have a number 5 clue on them. (They were clued with a _5 Save_ earlier on.)
-  - Alice clues red to Cathy, touching a red 1.
-  - Bob knows that normally, this would be an _Unknown Trash Discharge_. But all _Discharges_ are "turned off" in null variants. Instead, this must be a _Null Positional Clue_.
-  - Bob knows that if his hand was completely unclued, red would refer to slot 2, since there are 5 slots in the hand and red is the 4th rightmost color. But since Bob's slot 3, slot 4, and slot 5 card already have a clue on it, he should skip over those cards.
-  - This means that blue would target slot 2 and green would target slot 1. Yellow would target slot 2 again (because of the wraparound) and red would target slot 1.
-  - Bob blind-plays null 1 from slot 1.
+  - The red 2, yellow 2, green 2, and blue 2 are all played on the stacks.
+  - Bob and Cathy both have critical null cards on chop.
+  - Alice should refrain from trying to save Bob's critical card now.
+  - This is because using a _Null 5 Chop Move_ on Bob would prevent Bob from doing a _Null 5 Chop Move_ on Cathy, since it would look like a _Double Save_.
+  - Thus, Alice can clue number 1 to Bob as a _Trash Chop Move_. Alternatively, Alice can discard and count on Bob to save Cathy's critical null card.
 
-<ColorPositionalWrapAround />
+<BadDoubleSave1 />
 
-#### One-of-Each Colors Are Skipped
+- For example, in a 3-player game of the "Null (5 Suits)" variant:
+  - The red 1, yellow 1, and blue 1 are played on the stacks. The yellow 4 is discarded.
+  - Bob has a critical null card on chop, and Cathy has a playable yellow 2.
+  - If Alice clues number 5 to Bob as a _Null 5 Chop Move_, Bob will be unable to get the yellow 2 to play.
+  - This is because if Bob were to clue yellow to Cathy, it would look like a _Double Save_ on the null 3 and the yellow 4.
+  - Thus, Alice should probably clue the green 1 or discard.
 
-- One-of-each colors are skipped over when finding the "rightmost color". This is because the right-most color is the most important color, and one-of-each colors are less likely to be around.
-- For example, in a 3-player game of the "Black & Null (6 Suits)" variant:
-  - Everyone has 5 cards in their hand.
-  - There are 5 possible colors: red, yellow, green, blue, and black.
-  - Normally, the rightmost color would be black, meaning that black would be assigned to slot 5. But black is skipped over, so blue is assigned to slot 5.
-  - Subsequently, green is assigned to slot 4, yellow is assigned to slot 3, and red is assigned to slot 2.
-  - Black is then assigned to slot 1. (In a 4-player game with 4 cards in the hand, then black would wrap-around and be assigned to the oldest slot again.)
-
-<ColorPositionalSkipDark />
+<BadDoubleSave2 />
 
 <br />
 
-### Null Saves
-
-Some additional rules apply to _Positional Clues_ that are intended to be _Save Clues_.
-
-#### Relaxed 2 Saves
+### Relaxed 1 and 2 Saves
 
 - It is optional for players to give _Save Clues_ to null 2's.
-- Thus, if a null 2 is discarded, players should not make any _Elimination Notes_ for them.
-
-#### No Early Null 3 or Null 4 Saves
-
-- It is considered illegal to perform any kind of _Chop Move_ on a non-critical null 3 or a non-critical null 4.
-  - This rule counts for both _Positional Saves_ and normal _Chop Moves_ (such as the _5's Chop Move_).
-- Thus, when a player is _Chop Moved_ early on for a null card, they can know for sure that it is either a null 2 or a null 5.
-
-<br />
-
-### Positional Bluffs
-
-- Since _Positional Clues_ can only be given in _Bluff Seat_, it is also possible to use a _Positional Clue_ to get a non-null card.
-- This is a _Positional Bluff_, because Bob expects to be playing a null card.
-- Similar to a normal _Bluff_, a _Positional Bluff_ only "gets" 1 card. No actual null cards are promised.
-
-### No Positional Finesses
-
-- Theoretically, it would be possible to do a _Finesse_ with a _Positional Clue_. However, we explicitly disallow this.
-- For example, in a 3-player game:
-  - Null 1 is played on the stacks.
-  - Alice gives a _Positional Clue_, indicating that someone should play a null card from slot 4.
-  - Bob sees that Cathy has a null 3 on her slot 4.
-  - Bob plays his _Finesse Position_ as a null 2 (into the null 3).
-  - Bob misplays a red 5 and loses the game.
-  - Bob realizes that the null 2 was actually on his slot 4.
-
-<NoPositionalFinesse />
-
-<br />
-
-### The Scream Blind-Play (Blind-Playing Chop)
-
-- Sometimes, a player will have two critical cards in a row on chop. Usually, the team will work together to clue both of the cards. However, in variants with a null suit, it is sometimes difficult to do this.
-- In cases where one player needs to save two cards at once, they can perform a _Scream Blind-Play_ by blind-playing their chop card. This is similar to a _Scream Discard_, except it _Chop Moves_ two cards instead of one.
-- Just like the _Scream Discard_, the _Scream Blind-Play_ is only to be used as a last resort.
+- Thus, if a null 2 is discarded, players should not make any _Elimination Notes_ for it.
+- Similarly, it is optional to play the first copy of the null 1.
+- If the first copy of the null 1 was difficult to get played and is discarded, players should not make any _Elimination Notes_ for it.
