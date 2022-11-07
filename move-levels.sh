@@ -33,6 +33,9 @@ for x in $(seq "$MAX_LEVEL" -1 "$1"); do
 	if [ -d "image-generator/yml/level-$x" ]; then
 		git mv "image-generator/yml/level-$x" "image-generator/yml/level-$y"
 	fi
+	if [ -d "image-generator/yml/challenge-questions/level-$x" ]; then
+		git mv "image-generator/yml/challenge-questions/level-$x" "image-generator/yml/challenge-questions/level-$y"
+	fi
 	if [ -f "docs/challenge-questions/level-$x.mdx" ]; then
 		git mv "docs/challenge-questions/level-$x.mdx" "docs/challenge-questions/level-$y.mdx"
 	fi
@@ -41,5 +44,9 @@ for x in $(seq "$MAX_LEVEL" -1 "$1"); do
 	fi
 done
 
-echo "REMINDER: adjust sidebars.js and MAX_LEVEL in static/js/hotkey.js"
-echo "The table at the end of docs/learning-path.mdx may also need adjusting"
+echo "+----------------------------------------------------------+"
+echo "|                    ==  REMINDERS  ==                     |"
+echo "| Adjust sidebars.js and MAX_LEVEL in static/js/hotkey.js  |"
+echo "| and verify he table at the end of docs/learning-path.mdx |"
+echo "| You should also create the file docs/level-$1.mdx        |"
+echo "+----------------------------------------------------------+"
