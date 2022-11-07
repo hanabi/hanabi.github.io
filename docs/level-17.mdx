@@ -1,213 +1,111 @@
 ---
 id: level-17
-title: Level 17 - Elimination
+title: Level 17 - Dupe Tech
 ---
-
-import EliminationNotes from "@site/image-generator/yml/level-17/elimination-notes.yml";
-import EliminationBlindPlay from "@site/image-generator/yml/level-17/elimination-blind-play.yml";
-import EliminationPlayClue from "@site/image-generator/yml/level-17/elimination-play-clue.yml";
-import EliminationSingleOutNegative from "@site/image-generator/yml/level-17/elimination-single-out-negative.yml";
-import EliminationRidingDeduction from "@site/image-generator/yml/level-17/elimination-riding-deduction.yml";
-import EliminationFinesse from "@site/image-generator/yml/level-17/elimination-finesse.yml";
-import EliminationFinesse2 from "@site/image-generator/yml/level-17/elimination-finesse-2.yml";
-import TrashTouchElimination from "@site/image-generator/yml/level-17/trash-touch-elimination.yml";
-
-## Conventions
-
-<br />
-
-### Elimination & Elimination Notes
-
-- Normally, your teammates would never let you discard anything important. So when you discard some playable card (or a needed 2) **and** that card is not in anyone else's hand, you might think that the team made a mistake.
-- From _High Value Principle_, you should never assume your teammates are making a mistake. One excellent reason that they would let you discard an important card is that you have the other copy in your hand. (In order to satisfy _Good Touch Principle_, they had to wait for you to discard it so that they would not duplicate the card.)
-- Thus, when you get a follow-up clue, you will know exactly what card it is.
-- For example, in a 3-player game:
-  - Red 3 is played on the stacks.
-  - Alice has a completely unclued hand.
-  - Alice discards her chop (slot 5). It is a (playable) red 4.
-  - Alice gasps in surprise - she knows that everyone on the team agrees to not let each other discard playable cards (_Save Principle_).
-  - Alice knows that the team was not in a dire situation or anything, so the only explanation is that she must have the other copy of the red 4.
-  - Alice writes a note of "r4?" on slots 2, 3, 4, and 5. (It can't be on slot 1, since that is the card she just drew.)
-  - Bob clues Alice red, which touches a card on slot 1 and slot 2.
-  - Normally, Alice would play the left-most card (slot 1) as the red 4. However, because of her notes, she knows that the red 4 must actually be on slot 2.
-  - Alice successfully plays red 4 from slot 2. Since the red 5 is the only good red card left, Alice can assume that her other red card is red 5 (from _Good Touch Principle_), and she can play it on the next turn.
-
-<EliminationNotes />
-
-- In this example, the "r4?" notes that Alice writes are called _Elimination Notes_. _Elimination Notes_ are notes that represent the possible slots for a specific card.
-- In this example, the "thing" that triggered the writing of _Elimination Notes_ was the discarding of a card, so this is called _Discard Elimination_.
-- Note that players should not always make _Elimination Notes_ when they discard a playable card. In some cases, games can be extremely busy, leaving no reasonable way to get the playable card. Players must use their best judgment and account for this.
-
-<br />
-
-### Double Discard Elimination
-
-- When a player who is in a _Double Discard_ situation discards anyway with an obvious clue to give (such as a _5 Stall_), it implies that they **see** the other copy of the card, and were not _Double Discarding_ at all.
-- Thus, when this occurs, you should write _Elimination Notes_ on your entire hand for that card.
-- This is almost exactly the same thing as _Discard Elimination_, except it is triggered by the discard of a separate player.
-
-### 2 Elimination
-
-- According to _Save Principle_, everyone knows that all of the 2's must get saved. Thus, if someone else on the team lets a 2 get discarded, that is very strange.
-- If there is not anything special going on, then this should be a signal that someone else has the other copy of the 2, and should trigger the writing of _Elimination Notes_ on their hand.
-
-<br />
 
 ## Special Moves
 
 <br />
 
-### The Elimination Blind-Play
+### The Duplicitous Value Clue
 
-- First, see the section on [Elimination](#elimination--elimination-notes).
-- In the example for _Discard Elimination_, the team clued the second copy of the red 4 directly. But in other situations, the team will **not** need to clue anything. The player with the _Elimination Notes_ can eliminate the possibilities one by one. When there is only one possibility left, they can blind-play the card as an _Elimination Blind-Play_.
+- Normally, we do not give _Play Clues_ to duplicated cards, as that would violate _Good Touch Principle_.
+- However, in some situations, it is possible to give a _Play Clue_ to Bob and trick him into playing a duplicated card. If while doing so, the clue also picked up one or more other valuable cards, then this would be a _Duplicitous Value Clue_.
+- We agree that as long as this kind of clue meets _Minimum Clue Value Principle_ (not counting the duplicated card itself), no further _Prompts_ or blind-plays are called for - the point of the clue was to simply "lock in" a save on the valuable cards.
 - For example, in a 3-player game:
-  - Red 3 is played on the stacks.
-  - Alice has a completely unclued hand.
-  - Alice discards her chop (slot 5). It is a (playable) red 4.
-  - Alice knows that the team was not in a dire situation or anything, so the only explanation is that she must have the other copy of the red 4.
-  - Alice writes "r4?" _Elimination Notes_ on slots 2, 3, 4, and 5. (It can't be on slot 1, since that is the card she just drew.)
-  - Bob clues Alice blue, which touches slots 1, 2, 3, and 4. (This is a _Play Clue_ on slot 1.)
-  - Alice writes a note of "blue 1" on slot 1.
-  - Alice erases her _Elimination Notes_ for the red 4 from slots 2, 3, and 4.
-  - The only card left with an _Elimination Note_ is slot 5.
-  - Alice can now blind-play the red 4 when it gets to her turn as an _Elimination Blind-Play_.
+  - Red 2 and blue 2 are played on the stacks.
+  - Alice holds a globally-known red 3.
+  - Alice clues number 3 to Bob as a _Play Clue_, touching 2 cards.
+  - Bob plays the focused 3, assuming that it is the blue 3. However, it is actually red 3, and it successfully plays on the stacks.
+  - Although this was unexpected, the team sees that this was a _Duplicitous Value Clue_, since there is sufficient value in "locking in" a save on Bob's other 3.
+  - Bob marks his other 3 as **any** useful 3. It is not promised to be playable. (Thus, no-one will think that it is a _Prompt_ or a _Finesse_.)
+- For _Duplicitous Value Clues_ that do **not** meet _Minimum Clue Value Principle_, see the _[Dupe Tempo Clue Principle](#dupe-tempo-clue-principle)_ section below.
 
-<EliminationBlindPlay />
+<br />
 
-### The Elimination Play Clue
+### The Duplicitous Blind-Play
 
-- A clue that touches multiple cards only has one focus. As you probably know, if the chop card was not touched, then the focus is the left-most card.
-- However, this rule does not apply if a clue singles out a playable card from _Elimination_. In this case, the card is only focused on the _Elimination_ card, and any other cards touched are not necessarily playable right now.
+- First, see the section on the _[Duplicitous Value Clue](#duplicitous-value-clue)_.
+- In the _Duplicitous Value Clue_, a duplicated card is clued directly (in order to "get" some other cards). Similar to this, it is also possible to get a duplicated card to blind-play (in order to "get" some other cards). This is called a _Duplicitous Blind-Play_.
+- _Duplicitous Blind-Plays_ function the same way as _Duplicitous Value Clues_ in that as long as the clue meets _Minimum Clue Value Principle_, no further _Prompts_ or blind-plays are called for.
+- For example, in a 4-player game:
+  - Red 2 and blue 2 are played on the stacks.
+  - Alice holds a globally-known red 3.
+  - Alice clues blue to Donald, touching a blue 4 as a _Play Clue_.
+  - Bob blind-plays his _Finesse Position_, expecting it to be a blue 3 as a _Finesse_. Instead, it is a red 3, and successfully plays on the stacks.
+  - Although this was unexpected, the team sees that this was a _Duplicitous Blind-Play_, since there is sufficient value in "locking in" a save on Donald's blue 4.
+  - The team knows that blue 4 is not promised to be playable. (Thus, no-one will think that it is a _Prompt_ or a _Finesse_.)
+- Note that _Duplicitous Blind-Plays_ can also be performed with certain _Ejections_, _Discharges_, and so on.
+
+<br />
+
+### The Duplicitous Tempo Clue
+
+- First, see the section on the _[Duplicitous Value Clue](#duplicitous-value-clue)_ and the _[Duplicitous Blind-Play](#duplicitous-blind-play)_.
+- In the _Duplicitous Value Clue_ and the _Duplicitous Blind-Play_, one or more "extra" valuable cards are touched for later. But what if this type of move is performed, but no additional valuable cards were touched?
+- If a filled-in card is revealed as playable, the clue should retroactively be treated as a _Tempo Clue_. Thus, this type of clue is called a _Duplicitous Tempo Clue_.
+- _Duplicitous Tempo Clues_ may or may not cause a _Tempo Clue Chop Move_. (The conditions for this are the same as a "normal" _Tempo Clue_.)
 - For example, in a 3-player game:
   - Red 1 and blue 1 are played on the stacks.
-  - Alice has both red 2's in her hand on slot 3 and slot 5. (Alice's chop is her slot 5.)
-  - Alice discards her chop, and it is revealed to be the red 2.
-  - Alice is surprised, and writes _Discard Elimination Notes_ for red 2 on slots 2, 3, 4, and 5.
-  - Bob gives a number 2 clue to Alice that touches a card in slot 1 and slot 4.
-  - Normally, Alice would treat this as a _Play Clue_ on the 2 in her slot 1. However, she now knows that her slot 4 card is exactly red 2 (and that she can play it right now).
-  - Thus, Alice knows that the point of the clue was only to get the red 2. The 2 in her slot 1 can be any 2 in the game and is not necessarily playable right now.
-
-<EliminationPlayClue />
-
-### Interaction Between Elimination & Chop-Focus
-
-- Sometimes, players will have two or more _Elimination Notes_ on cards in their hand. These players can be given follow-up clues that single out the identity of the _Elimination_ card.
-- Clues can single out the _Elimination_ card using _positive information_ or by using _negative information_.
-
-#### Example of an Elimination Single-Out Using a Clue With Positive Information
-
-- See the section on the _[Elimination Play Clue](#the-elimination-play-clue)_:
-  - In the example for _Elimination Play Clue_, Alice receives a 2 clue.
-  - After getting the 2 clue, Alice deletes the _Elimination Notes_ on her slot 2, slot 3, and slot 5.
-  - Thus, Alice has completely narrowed down the identity of the red 2 to be in slot 4.
-
-#### Example of an Elimination Single-Out Using a Clue With Negative Information
-
-- For example, in 3-player game:
-  - Red 1 is played on the stacks.
-  - Alice discards red 2. She writes _Elimination Notes_ for red 2 on slot 2, slot 3, slot 4, and slot 5.
-  - Bob clues number 3 to Alice, touching three 3's on slot 2, slot 3, and slot 4.
-  - After getting the number 3 clue, Alice deletes the _Elimination Notes_ on her slot 2, slot 3, and slot 4.
-  - Thus, Alice has completely narrowed down the identity of the red 2 to be in slot 5.
-
-#### Chop-Focus Happens **Before** Clues Are Given
-
-- When a clue is given that singles out an _Elimination_ card with _negative information_, then the focus of the clue should be evaluated normally.
-- In other words, the focused slot should be evaluated **before** the clue was given, just like how every other clue works.
-- For example, continuing on from the previous example:
-  - Alice also knows that Bob's number 3 clue must be a _Play Clue_ on the red 3 (since red 1 is on the only 1 currently played and there are no 3's in the trash).
-  - But which slot is Bob's clue focusing? In other words, which slot is promised to be red 3?
-  - The clue is either focused on slot 2 (the newest of the clued cards) or slot 4 (the "new" chop after the red 2 is accounted for).
-  - Alice knows that you evaluate where the chop is **before** clues are given, so the clue must be focused on slot 2.
-
-<EliminationSingleOutNegative />
-
-### The Elimination Riding Deduction
-
-- If:
-  - there are only two cards left in a player's hand with _Elimination Notes_ **and**
-  - the previous players let the chop card ride **and**
-  - the previous players were not busy, **then**
-- The card with the _Elimination Note_ card cannot be on the chop! (Otherwise, one of the previous players would have clued it with either a _Play Clue_ or a _Save Clue_ in order to prevent it from being discarded.)
-- In such a situation, the player with the _Elimination Notes_ can "jump ahead" and immediately blind-play the newest of the two cards.
-- For example, in a 3-player game:
-  - Red 1 has been played on the red stack.
-  - Alice has a completely unclued hand.
-  - Alice discards her chop (slot 5). It is a (playable) red 2.
-  - Alice knows that the team was not busy, so she must have the other copy of red 2.
-  - Alice writes _Elimination Notes_ on slots 2, 3, 4, and 5.
-  - Alice receives no clues on the next go-around of the table. She discards, and now has _Elimination Notes_ on slots 3, 4, and 5.
-  - Alice receives no clues on the next go-around of the table. She discards, and now has _Elimination Notes_ on slots 4 and 5.
-  - Alice receives no clues on the next go-around of the table. Her teammates would not let the other copy of red 2 be discarded, so it must be on slot 4. Alice blind-plays red 2 from slot 4.
-
-<EliminationRidingDeduction />
-
-### The Riding Bluff
-
-- Typically, when a player has two cards with _Elimination Notes_ and the "true" copy of the card is on chop, you must clue it to let them know.
-- However, if the other card is also playable, you can choose to not clue anything.
-- Next, the player should perform an _Elimination Riding Deduction_, and play the unrelated card.
-- After that, there will be only one card left with an _Elimination Note_, so they will go on to play the "true" card on their next turn.
+  - Cathy holds a globally-known red 2.
+  - Bob holds a previously-touched green 2, but its rank is not yet known.
+  - Alice clues number 2 to Bob, touching one new card, and also "filling in" the green 2.
+  - Bob knows that this is a _Play Clue_ on the blue 2. He plays it, but it is actually a red 2, and successfully plays on the stacks.
+  - Bob's first thought was that this was a _Duplicitous Value Clue_, but no other new cards were touched as part of the clue. Thus, Bob knows that this is a _Duplicitous Tempo Clue_ instead.
+  - Since Bob's green 2 was _Promptable_ and Alice was not in a valid stalling situation, Bob treats this as a _Tempo Clue Chop Move_.
 
 <br />
 
-### The Elimination Self-Chop Move
+### The Assisted Trash Chop Move
 
-- Sometimes, you will have narrowed down your _Elimination Notes_ to one specific card. Thus, even though the card has no positive clues on it, you know the exact identity of the card.
-- If the card in question is on your chop **and** the card is not yet playable **and** you need to discard, you should obviously not discard the important elimination card. You should instead self-chop move and discard the next thing.
+- First, see the section on the _[Trash Chop Move](level-4.mdx#the-trash-chop-move)_.
+- _Trash Chop Moves_ can be very useful, but sometimes they can be "blocked" when there is no way to cleanly clue the known trash.
+- In this situation, the problem can be solved by using a _Trash Bluff_ or an _Unknown Trash Discharge_ to get a duplicated card to blind-play. This is called an _Assisted Trash Chop Move_.
+- Since no "extra" cards are touched as part of the move (like in an e.g. _Duplicitous Value Clue_), the point of the clue should be clear to the team: a _Trash Chop Move_ on all cards to the right of the clued card(s).
+- For example, this is an _Assisted Chop Move_ from a _Trash Finesse_ in a 3-player game:
+  - Blue 1 is played on the stacks.
+  - Alice holds a globally-known yellow 1.
+  - Cathy's hand is, from newest to oldest: `red 5, green 3, blue 1, yellow 4, green 4`
+  - Alice clues number 1 to Cathy, touching the blue 1 as a _Play Clue_.
+  - Bob knows that since the blue 1 was represented as a good 1, this must be a _Trash Finesse_, and Bob must have a red 1, a green 1, a yellow 1, or a purple 1 on his _Finesse Position_.
+  - Bob blind-plays his _Finesse Position_. To his surprise, it is a yellow 1 and it successfully plays on the stacks.
+  - Since yellow 1 was duplicated, the rest of the team knows that something unusual has happened. However, since no additional cards were touched as part of the clue, everyone knows that it was an _Assisted Chop Move_ on Cathy. (In this case, Cathy should _Chop Move_ slot 4 and slot 5.)
+- For example, this is an _Assisted Chop Move_ from an _Unknown Trash Discharge_ in a 3-player game:
+  - Blue 1 is played on the stacks.
+  - Alice holds a globally-known yellow 1.
+  - Cathy's hand is, from newest to oldest: `red 5, green 3, blue 1, yellow 4, green 4`
+  - Alice clues blue to Cathy, touching the blue 1 as a _Play Clue_.
+  - Bob knows that since blue 1 was represented as blue 2, this must be an _Unknown Trash Discharge_.
+  - Bob blind-plays his _Third Finesse Position_. To his surprise, it is a yellow 1 and it successfully plays on the stacks.
+  - Since yellow 1 was duplicated, the rest of the team knows that something unusual has happened. However, since no additional cards were touched as part of the clue, everyone knows that it was an _Assisted Chop Move_ on Cathy. (In this case, Cathy should _Chop Move_ slot 4 and slot 5.)
 
 <br />
 
-### The Elimination Finesse
+### The Time Travel Chop Move (Direct Form)
 
-- Normally, if a player is _Finessed_, they are supposed to play their _Finesse Position_ card. However, what if they have _Elimination Notes_ on their hand for the specific card that is _Finessed_?
-- In most situations, there will not be an _Elimination Note_ on slot 1 (e.g. the _Finesse Position_). This means that playing slot 1 into the _Finesse_ would not make any sense.
-  - However, in the rare case where there is an _Elimination Note_ on their _Finesse Position_, then the player should **still** not play the _Finesse Position_; read on.
-- Here, the player is expected to play the **oldest** of the cards with the _Elimination Notes_ on them (not counting _Chop Moved_ cards, if any).
+- First, see the section on the _[Duplicitous Value Clue](#duplicitous-value-clue)_ and the _[Duplicitous Blind-Play](#duplicitous-blind-play)_.
+- Normally, a _Duplicitous Clue_ "gets" an extra card or "fills in" another card as a _Tempo Clue_. However, if a _Duplicitous Clue_ is performed that does not accomplish either of these things, it must have been done for some other reason.
+- In this situation, after the duplication reveals itself, the clued player should interpret the clue as a _Trash Chop Move_ on their own hand. (In other words, they should pretend like the duplicated card was clued directly as a _Trash Chop Move_.)
 - For example, in a 3-player game:
-  - Blue 2 is played on the stacks.
-  - Alice has a completely unclued hand.
-  - Alice discards a blue 3. Blue 3 was playable, and nothing urgent is currently happening, so she writes _Elimination Notes_ on her hand for the other blue 3 on slots 2, 3, 4, and 5.
-  - Bob clues Cathy blue, which touches a blue 4 as a _Play Clue_.
-  - Cathy discards.
-  - Alice knows that this is some sort of _Reverse Finesse_, as it is calling for the blue 3. However, the blue 3 cannot be in her _Finesse Position_ (slot 1), as she knows from the _Elimination Notes_ that it must be either on slot 2, 3, 4, or 5. So it must instead be a _Reverse Elimination Finesse_.
-  - The _Elimination Finesse_ promises that it is her oldest card, so she plays slot 5 as blue 3.
+  - All of the 2s are played on the stacks.
+  - Cathy holds a globally-known red 3.
+  - Alice clues number 3 to Bob, touching a new 3 as a _Play Clue_.
+  - Bob plays his 3, expecting it to be any 3 other than red. However, it is actually red 3, and successfully plays on the stacks.
+  - Since this move was a 0-for-1 and did not provide tempo on any cards, everyone knows that this was a _Time Travel Chop Move_. Bob _Chop Moves_ all the cards that were behind his red 3.
 
-<EliminationFinesse />
+<br />
 
-- As mentioned above, _Chop Moved_ cards should be skipped over when finding the _Elimination Finesse_ target. If there are two or more cards with _Elimination Notes_ on them and they are all _Chop Moved_, then the oldest _Chop Moved_ card should be played.
-- _Elimination Finesses_ apply to **all** types of situations with _Elimination Notes_ (including _Double Discard Elimination Notes_). Subsequently, you can more specifically describe an _Elimination Finesse_ as a _Discard Elimination Finesse_ or a _Double Discard Elimination Finesse_.
-- Note that normal _Finesses_ take priority over _Self-Elimination Finesses_. For example, in a 3-player game:
-  - Red 2 and blue 2 are played on the stacks.
-  - Alice's hand is completely unclued. Alice has _Elimination Notes_ on slot 3 and slot 4 for red 3.
-  - Cathy clues a number 4 in Alice's slot 1 as a _Self-Finesse_.
-  - If Alice's 4 is a blue 4, then this would be a normal _Self-Finesse_, and Alice should blind-play blue 3 from slot 2.
-  - If Alice's 4 is a red 4, then this would be an _Elimination Self-Finesse_, and Alice should blind-play red 3 from slot 4.
-  - Alice knows that in this situation, you always supposed to assume a normal _Finesse_, so she blind-plays blue 3 from slot 2.
+### The Time Travel Chop Move (Blind-Play Form)
 
-<EliminationFinesse2 />
-
-### Trash Touch Elimination
-
-- Players carefully choose between using a color clue and a number clue in order to avoid violating _Good Touch Principle_. Sometimes, when both a color clue **and** a number would violate _Good Touch Principle_, players are forced to pick between the lesser of two evils.
-- For example, in a 3-player game:
-  - Red 3 and blue 1 are played on the stacks.
-  - Bob's hand is, from newest to oldest: `red 4, red 3, blue 4, blue 4, blue 1`
-  - If Alice needs to clue the red 4 **right now** for some reason, she would be screwed. If she clues red, she would duplicate the red 3. If she clues number 4, she would duplicate the blue 4. Both are bad.
-  - So, Alice has to choose between the lesser of two evils and chooses to clue number 4 as a _Play Clue_ on the red 4.
-  - Bob plays the red 4.
-  - Now, Cathy has to interpret what happened. Normally, Alice duplicating the blue 4 would mean that she is making making a mistake or something else special is going on. However, in this situation, Cathy knows that Alice had to choose between two evils, so the number 4 clue is considered to be ordinary.
-- In some situations, players you can see that it **is** possible to use a color or number clue to uniquely touch a clue target without "picking up" extra bad cards. So if a clue is given that does so anyway, it is conveying an extra special message.
-- When this occurs, and there is exactly one "missing" card, players should write an _Elimination Note_ in their hand for the missing card. This is called _Trash Touch Elimination_.
-- For example, in a 3-player game:
-  - Red 3 and all the other 1s are played on the stacks.
-  - Bob's hand is, from newest to oldest: `red 4, red 1, blue 1, green 1, yellow 1`
-  - Alice wants to give a play clue to the red 4. Everyone else on the team (other than Bob) can see that she can give either number 4 or red.
-    - If Alice clues number 4, then it will uniquely touch the red 4 (which will satisfy _Good Touch Principle_).
-    - If Alice clues red, then it will touch the red 4 and the red 1 (which will **violate** _Good Touch Principle_).
-  - Alice clues red to Bob. Since nothing was stopping her from cluing number 4, this is very strange.
-  - Bob plays the red 4.
-  - There is only one "missing" red card - the red 5. Cathy knows that normally, Bob would think that his red 1 is the red 5 (from _Good Touch Principle_). This must mean that Cathy has the red 5. Cathy writes _Trash Touch Elimination Notes_ on her hand for the red 5.
-
-<TrashTouchElimination />
+- First, see the section on the _[Time Travel Chop Move (Direct Form)](#the-time-travel-chop-move-direct-form)_.
+- Normally, a _Time Travel Chop Move_ involves cluing the duplicated card directly. But what if the duplicated card is "blocked" with no way to cleanly clue it?
+- In this situation, players can cause the duplicated card to blind-play instead of cluing it directly, which should accomplish the same thing (i.e. the cards to the right of the duplicated card being _Chop Moved_). However, care has to be taken to ensure that the end result is truly "bad" enough to not be misinterpreted as another kind of clue.
+- Specifically:
+  - The clue must not satisfy _Minimum Clue Value Principle_ (similar to a _Duplicitous Clue_).
+  - The clue must not look like an _[Assisted Trash Chop Move](#the-assisted-trash-chop-move)_ on the clue receiver.
+- For example, in a 4-player game:
+  - All of the 1s are played on the stacks. Donald has a known blue 2.
+  - Bob has a previously-clued red card in his hand, but does not know the rank of the card.
+  - Alice clues number 3 to Bob, "filling in" the red card as the red 3. (The clue touches no other cards.)
+  - Bob knows that this is a _Finesse_ on the red 2 into the red 3. Bob blind-plays his _Finesse Position_, but it is a blue 2 instead of a red 2, which successfully plays on the stacks.
+  - Since the move was a 0-for-1, Bob understands that he should _Chop Move_ everything that was behind the blue 2 as a _Time Travel Chop Move_.

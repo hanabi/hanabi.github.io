@@ -2,7 +2,7 @@
 const WEBPAGE_NAME = "The H-Group Conventions";
 const FIRST_DOC_PAGE_TITLE = "About";
 const LAST_DOC_PAGE_TITLE = "Convention Attribution";
-const MAX_LEVEL = 24;
+const MAX_LEVEL = 25;
 
 // Variables
 const keyMap = new Map();

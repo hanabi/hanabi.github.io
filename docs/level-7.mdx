@@ -1,75 +1,40 @@
 ---
 id: level-7
-title: Level 7 - End-Game
+title: Level 7 - Last Resorts
 ---
-
-## Conventions
-
-<br />
-
-### End-Game Threshold
-
-- Towards the end of the game, the strategy of the team will change. In most games, you stop becoming concerned with efficiency and become more concerned with _Tempo_ - every card needs to play **right now** before the game ends!
-- Thus, since clues can mean different things depending on whether you are in the _Mid-Game_ or the _End-Game_, you need to be able to keep track of when the _End-Game_ has arrived.
-- _Pace_ is used to determine _End-Game_ status. If pace is **less than the number of players**, the _End-Game_ has arrived.
-  - On [Hanab Live](https://hanab.live), pace will turn yellow when this occurs.
-- If pace is **less than the number of players / 2**, you should be very careful with discarding. It might still be the best thing to do, but if there are enough clues in the bank, it is usually better to _Burn_ a clue (meaning to deliberately waste a clue).
-- If pace is 0, no more discards can happen in order to get the maximum score.
-- If pace is below 0, it is impossible to get the maximum score.
-
-<br />
-
-### No Chop Moves in the End-Game
-
-- In the _Early Game_ and the _Mid-Game_, it is often useful to _Chop Move_ a card for later. The strategic point of a _Chop Move_ is that it saves a potentially important card for later on.
-- In the _End-Game_, it does not make any sense to save a card for later, because there is no "later" - the team has run out of time! For this reason, _Chop Moves_ are "turned off" in the _End-Game_.
-- If a player gives a clue that looks like a _Chop Move_ in the _End-Game_, then players should reinterpret it as the next-simplest possible interpretation. In practice, this usually means a _Stall Clue_.
-
-<br />
 
 ## Special Moves
 
 <br />
 
-### The Positional Discard (Indicating a Play with a Discard)
+### The Scream Discard Chop Move (SDCM)
 
-- Normally, when players discard, they discard their chop card, because discarding anything else could lose an important card.
-- However, this does not apply at the end of the game. At the end of the game, if a player can see every card, then they can infer that all of the unknown cards in their hand are just trash. Subsequently, players in this situation can discard any card that they want, and it won't make a difference.
-- Thus, players in this situation can communicate information based on which card they discard. We agree that if a player discards a weird slot, it communicates that the chosen slot matches a slot in someone else's hand that should be blind-played. This is called a _Positional Discard_.
-- One _Positional Discard_ gets one blind-play from another player.
-- After a _Positional Discard_, if two or more players have a playable card on the same slot, then the blind-play is always targeted at the final player with the playable card.
-
-<br />
-
-### The Positional Misplay (Indicating a Play with a Misplay)
-
-- Sometimes, a player will want to perform a _Positional Discard_, but it won't work because the other player will interpret it as a normal discard.
-- For example, in a 4-player game:
-  - All the 4's are played on the stacks.
-  - There are 2 cards left in the deck.
-  - Alice has 0 clues available.
-  - Alice sees that every card needed by the team is currently present in other player's hands.
-  - Alice has no clued cards in her hand. Thus, her chop is slot 4.
-  - Donald has an unclued red 5 on his slot 4.
-- In this example, if Alice tried to perform a _Positional Discard_ from slot 4, it would not work, because Donald expects Alice to discard slot 4.
-- In order to more strongly communicate the "play this slot" message, players in this situation can instead misplay their chop card. Since the rest of the team can see that the card misplayed for "no reason", they can deduce that it was a _Positional Misplay_.
-- One _Positional Misplay_ gets one blind-plays from another player (as long as the _Positional Misplay_ was needed because a _Positional Discard_ wouldn't work).
+- The _Chop Move_ is a tool to save multiple cards with one clue. However, sometimes you may not have a clue at all. One way to solve this situation is with a special kind of discard.
+- Typically, discarding is a last resort. So, if you have a known playable card in your hand, you can send a powerful message to your teammate by discarding a card instead. This is called a _Scream Discard_. Since your teammate expected you to play, it is like screaming at them to let them know that things are very bad.
+- A _Scream Discard_ does two things:
+  1. The player being "screamed at" should permanently move their chop by one position.
+  1. The player being "screamed at" is not allowed to discard on this turn. Instead, they must give a clue. If there are no normal _Play Clues_ or _Save Clues_ to give, then they are allowed to give "stall" clues, like a _5 Stall_. If there are no _5 Stalls_ to give, they can even just "fill-in" some information on an already-clued card (and doing this should not cause a _Finesse_).
+- Players are **only allowed** to _Scream Discard_ for **cards that are playable or critical** (or a needed 2 that isn't seen anywhere else). (This follows from _Save Principle_.)
+- Players are **only allowed** to _Scream Discard_ as an absolute last resort. This means _Scream Discards_ are almost always performed **while the team is at 0 clues**. (Less commonly, they can also be performed if the team is at 1 clue and the next person happens to be _Locked_.)
+- Players are **not** allowed to _Scream Discard_ for cards that are _one-away-from-playable_.
+- Players are **not** allowed to _Scream Discard_ if there was some other, less dangerous way to save the card. It is a "last resort" move.
+- Sometimes, a player will discard with a known-playable card in their hand, but they are **not** intending a _Scream Discard_ - it is some other special situation:
+  1. It is not a _Scream Discard_ if the next player **has** to generate a clue for cluing the next player after that. This is called a _Generation Discard_; see below.
+  1. It is not a _Scream Discard_ when the card that the player did not play was a "blind" card from a _Finesse_ **and** the blind card could also be in the next player's _Finesse Position_.
 
 <br />
 
-### The Double Positional Misplay (Indicating Two Plays with a Misplay)
+### The Generation Discard
 
-- Normally, the _Positional Misplay_ is used as a last-resort when a _Positional Discard_ would not work. But what if a player does a _Positional Misplay_ anyway, even if a normal _Positional Discard_ would have worked? The player must be trying to communicate something extra.
-- We agree that the "extra message" is that two cards are promised to be playable instead of just one.
-- One _Positional Misplay_ gets two blind-plays from the team (as long as it was "unnecessary").
+- Usually, if someone discards a card instead of playing a known playable card, this would indicate a _Scream Discard Chop Move_.
+- However, if playing the card (player 1) would cause the next player to discard (player 2) and the next player after that (player 3) to have a critical and/or playable card "ride" on chop, it is a very bad situation. Thus, the discard is **just** for the purposes of generating a clue so that player 2 can clue player 3.
+- The _Generation Discard_ is **only** to be used as a last resort. If player 3 has something else to do (like play a card or give some obvious clue), then player 1 should just play their card and let the card "ride" on chop.
 
 <br />
 
-### The Distribution Clue
+### A Scream Discard Flowchart
 
-- In the _End-Game_, when a player has many playable cards, there is the risk that they will not be able to play all cards before the end of the game.
-- Thus, it might make sense to spend a clue to duplicate one of their playable cards in someone else's hand. This would violate _Good Touch Principle_, but it would relieve the player with the loaded hand from some of the card-playing burden.
-- Since it distributes plays more evenly throughout the team, this is called a _Distribution Clue_. _Distribution Clues_ better satisfy _Team Distribution Principle_.
+[Here is a flowchart](https://raw.githubusercontent.com/hanabi/hanabi.github.io/main/static/img/flowcharts/scream-discard-flowchart.png) for determining whether something is a _Scream Discard Chop Move_ or a _Generation Discard_. (Ignore the _Echo Scream Discard Chop Move_ for now.)
 
 <br />
 
@@ -77,48 +42,29 @@ title: Level 7 - End-Game
 
 <br />
 
-### Team Distribution Principle
+### Lines
 
-- In general, it is better for useful cards to be distributed **evenly** throughout the team. This is especially important in 5-player games.
-- Thus, if one of your teammates has 3 out of 4 cards clued, it may be better for **them** to be the one giving the clues, and you to be the one discarding - even if their chop is known-trash.
-- There are multiple reasons for this. First, you don't want them to get a _Locked Hand_, which is generally bad. Second, if they continue to draw playable cards, the game may end before they get a chance to play them all.
-
-<br />
-
-### The Pace +1 Rule
-
-- Players can use _Pace_ to determine if it is safe to discard. In general, a group can discard down to pace 0 and still get a perfect score.
-- However, as a rule, if pace is +1 and one of the players on your team **does not** have any playable cards, then you cannot discard - **you must let them perform the final discard**.
-- If both you and another player do not have any playable cards, then you can do the final discard - the team won't be able to get a perfect score anyway. But if you **could** have an unknown playable card in your hand, then you should be very careful about discarding, because it could ruin a perfect score.
+- During your turn, part of figuring out the best move involves looking into the future to see what the next player will do. If they discard, will it be okay? Is there some obvious clue that they will do? And so on.
+- As you get better at Hanabi, you will need to do this prediction not just for the next player, but for an entire go-around of the table. And as you really get good at Hanabi, you will need to do this for as far in the future as you can reasonably predict. (Sometimes, this means 15 moves or more in the future.)
+- Similar to chess, initiating a move in which you can predict the next sequence of moves is called initiating a "line".
+- In post-game reviews, we will often compare and hypothetically "play through" two different lines to see which one is better.
 
 <br />
 
-### Burning (End-Game Stalling)
+### The All 4's Test
 
-- In the _End-Game_, often times there are still a lot of cards yet to be played. Thus, you need to be very careful when discarding, since by drawing a card you can make the game end before everyone has a chance to play all of the cards.
-- If there are enough clues available, you can choose to stall, by giving a low-value clue (or even a completely useless clue). This is referred to as _Burning_ a clue.
-- The best way to give a useless clue is to re-clue cards which are already known to be playable.
-- Give a _Burn Clue_ if:
-  - There is a possibility that the game can be completed without anyone discarding from now on.
-  - You have two or more useful cards in your hand, and you want to follow _Team Distribution Principle_.
-- Do not give a _Burn Clue_ if:
-  - The end-game has not started yet (see the _End-Game Threshold_).
-  - You know that someone else will have to discard in the future.
+- According to _Save Principle_, the team must not let any critical and/or playable cards be discarded. So part of constructing a line is figuring out whether this might happen.
+- When considering a line, it is not safe to assume that a player will clue anything in your hand. You should perform the _All 4's Test_: what would everyone do if I have all useless 4's in my hand? If a critical and/or playable card would get discarded, then the line has failed the test, and it is probably a bad idea.
 
 <br />
 
-### End-Game Strategy
+### Blind-Playing Chop Moved Cards
 
-- The previous three sections introduce the _End-Game_ at a high-level. When the _End-Game_ arrives, you should probably be changing the way you play.
-- However, giving specific advice for the _End-Game_ is very difficult - things vary widely based on the deal and there are a lot of different things to consider.
-- So, you will need to think through each _End-Game_ yourself, one step at a time. Ask questions like:
-  - Which cards are left in the deck that we need?
-  - What is the probability of drawing those cards?
-  - Who should be drawing those cards?
-  - Does stalling produce a line that is better than playing?
-
-<br />
-
-## Challenge Questions
-
-If you are new to level 7, see if you can complete [these challenge questions](challenge-questions/level-7.mdx).
+- Often times, cards are _Chop Moved_ towards the beginning of the game. Normally, once the time comes, the _Chop Moved_ card will be directly clued in order to get it to play.
+- However, other times, the _Chop Moved_ card will sit there and will never be clued. As the game progresses towards the end, the player with the _Chop Moved_ card will learn more and more information about it. For example, they might accumulate a lot of negative clues on the card. Or, they might deduce that it is probably not any of the cards that are already played (which drastically reduces the possibilities towards the end of the game).
+- A clever player who accumulates enough information about a _Chop Moved_ card may determine that all of the possibilities for the card are playable. In this situation, they do not have to wait for their teammates to clue the card directly - they can simply blind-play the _Chop Moved_ card and it will work, regardless of which exact card it is.
+- Blind-playing cards in this manner is risky! It is fairly common for players to forgo cluing _Chop Moved_ cards directly in favor of using the other copy of the card in someone else's hand. (For example, it may be more efficient to use the non-_Chop Moved_ copy if it would be a 2-for-1 clue instead of a 1-for-1 clue.) Thus, there is always the chance that blind-playing a _Chop Moved_ card in this manner will get a strike for the team (in the case where the other copy was used or in the case where the _Chop Move_ was a mistake).
+- For this reason, clever players should try to blind-play their _Chop Moved_ cards if they have a pretty good chance of being playable, but **only if the team has one or more strikes to spare**.
+- Subsequently, players should **not** clue a now-useless _Chop Moved_ card to prevent a future strike. The typical strategy is to just let it be _Chop Moved_ for the rest of the game:
+  - In the best case scenario, the _Chop Moved_ player will naturally figure out that the card is trash and can safely discard it. Or, alternatively, they will keep the card _Chop Moved_, but continue to discard other useless cards from their chop until the end of the game.
+  - In the worst case scenario, the _Chop Moved_ player will try to blind-play the card and get a strike for the team. But this is not guaranteed, and even if they do, they will only do it if there is a strike to spare.

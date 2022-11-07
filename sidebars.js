@@ -144,6 +144,7 @@ module.exports = {
         "level-22",
         "level-23",
         "level-24",
+        "level-25",
       ],
     },
     {
@@ -215,7 +216,7 @@ module.exports = {
       "Challenge Questions": [
         "challenge-questions",
         "challenge-questions/level-2",
-        "challenge-questions/level-7",
+        "challenge-questions/level-8",
       ],
     },
     "convention-attribution",
