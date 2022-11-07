@@ -17,7 +17,7 @@ if ! [[ $1 =~ ^[0-9]+$ ]]; then
 fi
 
 MAX_LEVEL="$(find docs/ -maxdepth 1 -name 'level-*.mdx' | wc --lines)"
-echo "Setting MAX_LEVEL to $MAX_LEVEL"
+echo "Setting old MAX_LEVEL to $MAX_LEVEL"
 readarray -t MDX_FILES < <(git ls-files 'docs/*.mdx')
 
 for x in $(seq "$MAX_LEVEL" -1 "$1"); do

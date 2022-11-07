@@ -1,0 +1,127 @@
+---
+id: level-25
+title: Level 25 - Unnecessary Moves
+---
+
+import UnnecessaryTrashPushIgnition from "@site/image-generator/yml/level-25/unnecessary-trash-push-ignition.yml";
+import UnnecessaryTrashFinesseChopMove from "@site/image-generator/yml/level-25/unnecessary-trash-finesse-chop-move.yml";
+import UnnecessaryTrashFinesseTrashPush from "@site/image-generator/yml/level-25/unnecessary-trash-finesse-trash-push.yml";
+import UnnecessaryBadChopMoveEjection from "@site/image-generator/yml/level-25/unnecessary-bad-chop-move-ejection.yml";
+
+## Unnecessary Moves
+
+- Experienced players will know about all sorts of tricky ways to "get" cards - the _Trash Bluff_, the _Trash Finesse_, the _Unknown Trash Discharge_, the _Trash Push_, and so forth.
+- In most cases, these complicated moves end up being a 1-for-1, which is not very efficient. Consider that doing a complicated move like a _Trash Bluff_ as a 1-for-1 is pretty pointless if the cluer can instead just give a direct _Play Clue_ to the card that needs to be played as a 1-for-1. Giving "normal" _Play Clues_ is much less likely to go wrong!
+- Therefore, advanced moves are generally used in situations where the card that needs to be played is hard to clue directly. For example:
+  - It could be "blocked" by other cards (e.g. two of the same card in the hand).
+  - It could be on chop and "blocked" in the sense that any clue given would look like a _Save Clue_ instead of a _Play Clue_.
+  - And so on.
+- **An _unnecessary_ move is defined as a "complicated" move that is performed when the cluer could have instead given a direct _Play Clue_.**
+- _Unnecessary_ moves do "one extra thing" on top of the normal meaning of the move. Depending on the situation, the "extra" thing will be either:
+  - an _Ignition_ (with known trash)
+  - a _Chop Move_ (with unknown trash off chop)
+  - a _Trash Push_ (with unknown trash on chop)
+- Remember that a move is only _unnecessary_ if it does not have any side benefits. Specifically:
+  - A move is **not** _unnecessary_ if it "picked up" an extra useful card (e.g. _Unknown Trash Discharges_ commonly do this).
+  - A move is **not** _unnecessary_ if it also fixed an impending misplay or a violation of _Good Touch Principle_.
+  - A move is **not** _unnecessary_ if it also "filled-in" previously-clued cards in the hand of the person who received the clue.
+    - For simplicity, only positive clues "count" as being _Necessary_. "Filling-in" a card with a negative clue doesn't count.
+
+<br />
+
+### Unnecessary Moves with Known Trash --> Ignition
+
+- If **known trash** is used as clue target, the "extra" thing is an _Ignition_. The _Ignition_ must be Bob, unless Alice had a very good reason not to let Bob give the clue, similar to how _Double Ignition_ works.
+- Note that performing a _Unnecessary Trash Chop Move_ is explicitly illegal, since that move would be indistinguishable from a _Chop Move Ignition_.
+
+#### Example 1 - An Unnecessary Trash Push (with Ignition)
+
+- For example, this would be an _Unnecessary Trash Push_ in a 3-player game:
+  - All of the 3's are played on the stacks.
+  - Bob's hand is completely unclued.
+  - Alice clues number 1 to Bob, touching a single 1 on Bob's slot 5 (his chop).
+  - Bob knows that this is a _Trash Push_ and blind-plays his slot 4. It is a red 4 and it successfully plays.
+  - Cathy sees that Bob has no other red cards in his hand. Thus, Alice could easily clued red to Bob in order to "get" the red 4 in a straightforward way. That means that Alice performed an _Unnecessary Trash Push_.
+  - Cathy blind-plays her _Finesse Position_. It is a red 5 and it successfully plays.
+
+<UnnecessaryTrashPushIgnition />
+
+<br />
+
+### Unnecessary Moves with Unknown Trash Off Chop --> Chop Move
+
+- If **unknown trash** is used as a clue target that is **off chop**, the team responds as if a _Trash Chop Move_ was given.
+- Note that _Unnecessary Chop Moves_ are tricky in that they have **information asymmetry**: the player who blind-plays will **not** know that the card is chop moved, while everyone else will. All players will have to keep this in mind until the _Chop Move_ has been demonstrated.
+
+#### Example 1 - An Unnecessary Trash Finesse (with a Chop Move)
+
+- For example, this would be an _Unnecessary Trash Finesse_ in a 3-player game:
+  - All of the 2's are played on the stacks except for the red 2.
+  - Bob has a red 2 on his _Finesse Position_ and no other red cards in his hand. Thus, Alice could give a red clue to Bob in order to "get" the red 2.
+  - Cathy's hand is completely unclued.
+  - Alice clues number 2 to Cathy, touching a blue 2 on slot 4. (Blue 2 is already played and is therefore trash.)
+  - Bob knows that from Cathy's perspective, Alice's clue looks like a _Play Clue_ on the final remaining 2 - the red 2. Cathy will go on to misplay the blue 2 as the red 2.
+  - Thus, Bob knows that this is a _Trash Finesse_ or _Trash Bluff_. He blind-plays his _Finesse Position_ card. It is a red 2 and it successfully plays.
+  - Cathy now knows that her 2 is trash (since Bob blind-played in response to the clue). However, Cathy also knows that this _Trash Finesse_ was _unnecessary_, as Alice could have just clued red to Bob.
+  - Thus, Cathy knows that this is an _Unnecessary Trash Finesse_, so she marks her slot 5 card as being _Chop Moved_.
+
+<UnnecessaryTrashFinesseChopMove />
+
+#### Example 2 - An Unnecessary Unknown Trash Discharge (with a Chop Move)
+
+- For example, if an _Unknown Trash Discharge_ was done to _Discharge_ a card that could be _Play Clued_ directly, the clue receiver should _Chop Move_ the cards to the right of the clue target.
+
+#### Example 3 - An Unnecessary Unknown Trash Discharge (with a Bad Chop Move Ejection)
+
+- For example, in a 4-player game:
+  - All the 2's are played on the stacks except for the blue 2.
+  - Donald's hand is as follows: `blue 4, blue 4, red 1, blue 1`
+  - Alice clues red to Donald, touching the red 1 on slot 3.
+  - Bob sees that this is an _Unknown Trash Discharge_. He plays his _Third Finesse Position_. It is a blue 2 and it successfully plays.
+  - Cathy sees that Alice could have given a direct _Play Clue_ to Bob's blue 2. Thus, this clue was _Unnecessary_, and Donald will go on to _Chop Move_ the blue 1 on slot 4.
+  - Thus, Cathy knows that this is a _Bad Chop Move Ejection_. She blind-plays her _Second Finesse Position_ card. It is a blue 3 and it successfully plays.
+
+<br />
+
+### Unnecessary Moves with Unknown Trash On Chop --> Trash Push
+
+- If **unknown trash** is used as a clue target that is **on chop**, the team responds as if a _Trash Push_ was given.
+
+#### Example 1 - An Unnecessary Trash Finesse (with a Trash Push)
+
+- For example, this would be an _Unnecessary Trash Finesse_ in a 3-player game:
+  - All of the 2's are played on the stacks except for the red 2.
+  - Bob has a red 2 on his _Finesse Position_ and no other red cards in his hand. Thus, Alice can give a red clue to Bob in order to "get" the red 2.
+  - Cathy's hand is completely unclued.
+  - Alice clues number 2 to Cathy, touching a blue 2 on slot 5. (Blue 2 is already played and is therefore trash.)
+  - Bob knows that from Cathy's perspective, Alice's clue looks like a _Play Clue_ on the final remaining 2 - the red 2. Cathy will go on to misplay the blue 2 as the red 2.
+  - Thus, Bob knows that this is a _Trash Finesse_. He blind-plays his _Finesse Position_ card. It is a red 2 and it successfully plays.
+  - Cathy now knows that her 2 is trash (since Bob blind-played in response to the clue). However, Cathy also knows that this _Trash Finesse_ was _unnecessary_, as Alice could have just clued red to Bob.
+  - Thus, Cathy knows that this is an _Unnecessary Trash Finesse_. She must respond as if a known-trash card was clued on her chop, so Cathy blind-plays her slot 4 card as a _Trash Push_.
+
+<UnnecessaryTrashFinesseTrashPush />
+
+#### Example 2 - An Unnecessary Trash Push Discharge (with a Trash Push)
+
+- For example, if an _Trash Push Discharge_ was performed by cluing a card in Cathy's hand, Bob should blind-play his _Third Finesse Position_ to prove that the _Trash Pushed_ card is trash. Then, Cathy should blind-play the card next to the card that she learned is trash.
+
+#### Example 3 - An Unnecessary Bad Chop Move Ejection (with a Trash Push Discharge)
+
+- The conversion to the known-trash interpretation also holds if the team has to prevent the clue receiver from _Trash Pushing_ a card that's not playable.
+- For example, in a 3-player game:
+  - All of the 2's are played on the stacks.
+  - Bob has a red 3 on his _Second Finesse Position_ and no other red cards in his hand. Thus, Alice can give a red clue to Bob in order to "get" the red 3.
+  - Donald's hand is as follows, from left-to-right: `red 1, green 1, blue 2, blue 1`
+  - Alice clues number 2 to Donald, touching the blue 2 on slot 3.
+  - Bob knows that from Donald's perspective, Alice's clue looks like a _Trash Chop Move_. Since Donald is about to chop move a trash card, Bob blind-plays his red 3 as a _Bad Chop Move Ejection_.
+  - Since Bob's blind-play told Donald about a trash card, namely that the _Chop Moved_ blue 1 was trash, Donald will now additionally interpret the clue as a _Trash Push_.
+  - Cathy sees that Donald is about to play green 1 as a _Trash Push_, but green 1 is already played.
+  - Thus, Cathy blind-plays her _Third Finesse Position_ as a _Trash Push Discharge_.
+
+<UnnecessaryBadChopMoveEjection />
+
+<br />
+
+### Other Examples
+
+- More examples of _unnecessary_ moves can be found [here](examples/unnecessary.mdx).

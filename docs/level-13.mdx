@@ -1,111 +1,150 @@
 ---
 id: level-13
-title: Level 13 - Trash Moves
+title: Level 13 - Intermediate Bluffs
 ---
 
-import TrashBluff from "@site/image-generator/yml/level-13/trash-bluff.yml";
-import TrashFinesse from "@site/image-generator/yml/level-13/trash-finesse.yml";
-import TrashFinesseTwoCards from "@site/image-generator/yml/level-13/trash-finesse-two-cards.yml";
-import ReverseTrashFinesse from "@site/image-generator/yml/level-13/reverse-trash-finesse.yml";
-import TrashPush from "@site/image-generator/yml/level-13/trash-push.yml";
+import BluffColorDisconnect from "@site/image-generator/yml/level-13/bluff-color-disconnect.yml";
+import Number3WithSuitDisconnect from "@site/image-generator/yml/level-13/number-3-with-suit-disconnect.yml";
+import ColorConnectNotValid from "@site/image-generator/yml/level-13/color-connect-not-valid.yml";
+import ColorConnectWithRankDisconnect from "@site/image-generator/yml/level-13/color-connect-with-rank-disconnect.yml";
+import Number3WithSuitConnect from "@site/image-generator/yml/level-13/number-3-with-suit-connect.yml";
+import CriticalColorBluff from "@site/image-generator/yml/level-13/critical-color-bluff.yml";
+import FinessePromptNotHardBluff from "@site/image-generator/yml/level-13/finesse-prompt-not-hard-bluff.yml";
+import HardBluff from "@site/image-generator/yml/level-13/hard-bluff.yml";
 
 ## Special Moves
 
 <br />
 
-### The Trash Bluff
+### The 3 Bluff
 
-- Normally, when a trash card is clued, it signifies a _Trash Chop Move_ or a _Trash Push_. However, for both of these strategies to work, it is assumed that the recipient of the clue will know that the card that was touched is useless.
-- What if the recipient of the clue does **not** know that the card that the clued card is trash? Then, they will go on to misplay that card, mistaking it for a "normal" _Play Clue_.
-- If players misrepresent the identity of a trash card in this way, it is a signal for the next person to blind-play their _Finesse Position_ card. This is extremely similar to how a _Finesse_ or a _Bluff_ works (e.g. a clued card has been misrepresented as being immediately playable).
-- _Trash Bluffs_ are a good tool to get a card played that is sitting behind other annoying cards.
+- Typically, the player who receives a clue that causes a _Bluff_ blind-play knows that the card that was clued is _one-away-from-playable_.
+- Our group plays with an artificial _3 Bluffs_ convention. This means that in addition to being _one-away-from-playable_, we agree that a _Bluff_ can _also_ be any 3 that will be useful in the future.
+- _3 Bluffs_ are mostly used to get 1's played at the beginning of the game. However, similar to a normal _Bluff_, a _3 Bluff_ can be used to get any playable card (as long as it doesn't look like a _Finesse_).
+- Here are some examples that cover the most common _3 Bluff_ situations.
+
+#### Example 1 - **Color Disconnect** (Valid)
+
+- On the first turn of the game, Alice clues Cathy red, which touches a red 3.
+- Bob blind-plays blue 1.
+- Cathy knows that it is either a red 2 (if it was a normal _Bluff_) or a red 3 (if it was a _3 Bluff_). She marks down both of the possibilities for later.
+
+<BluffColorDisconnect />
+
+#### Example 2 - **Number 3 with Suit Disconnect** (Valid)
+
+- On the first turn of the game, Alice clues Cathy number 3, which touches a red 3.
+- Bob blind-plays blue 1.
+- Cathy knows that it was a _3 Bluff_, because a played 1 does not "connect" to number 3.
+- Beyond that, Cathy knows nothing about the card, besides that it is a 3 (since it has a number 3 clue on it).
+
+<Number3WithSuitDisconnect />
+
+#### Example 3 - **Color Connect** (Not Valid; Looks Like a Finesse)
+
+- On the first turn of the game, Alice clues Cathy red, which touches a red 3.
+- Bob blind-plays red 1.
+- Cathy sees that Bob does not have red 2. Since red connects to red, Cathy assumes that she has the red 2.
+- Cathy misplays the red 3 as a red 2.
+- Alternatively, if Cathy saw that Bob had both red 1 and red 2 on his _Finesse Position_ at the time the clue was given, she would know that she has the red 2 **or** the red 3. Subsequently, Bob is promised a red 2, since if he does not blind-play a card, Cathy will go on to misplay the red 3 as red 2.
+
+<ColorConnectNotValid />
+
+#### Example 4 - **Color Connect With Rank Disconnect** (Not Valid; Looks Like a Finesse)
+
+- This is a 4-player game.
+- Nothing is played on the stacks.
+- Alice clues Donald red, touching a red 3 as a play clue.
+- Bob blind-plays the red 1.
+- Cathy notices that Donald's red card has a negative 2 clue on it. This means that Donald will not go on to misplay the card as the red 2.
+- Cathy needs to evaluate whether or not Alice's clue is a _Finesse_ or a _3 Bluff_. If this is a _Double Finesse_, then Cathy needs to blind-play the red 2. If this is a _Bluff_, then Alice only intended for Bob to blind-play.
+- Cathy knows that since **red connects to red**, this must be a _Double Finesse_, so Cathy assumes that she has the red 2 on her _Finesse Position_.
+- Cathy misplays blue 5.
+
+<ColorConnectWithRankDisconnect />
+
+#### Example 5 - **Number 3 With Suit Connect** (Valid)
+
+- On the first turn of the game, Alice clues Cathy number 3, which touches a red 3.
+- Bob blind-plays red 1.
+- Cathy knows that it was a _3 Bluff_, because a played 1 does not "connect" to number 3.
+- Beyond that, Cathy knows nothing about the card, besides that it is a 3 (since it has a number 3 clue on it).
+- Even though red 1 and red 3 are the same suit, Bob is not promised a red 2.
+
+<Number3WithSuitConnect />
+
+#### Generic Questions
+
+- _3 Bluffs_ can be confusing. If you don't want to memorize the five examples above, you can simply ask the following questions:
+  1. Does the clue "connect" to the blind-play?
+     - If it connects, then it is a _Finesse_.
+     - If it does not connect, then it is a _Bluff_.
+     - Red connects to red, but red does **not** connect to blue.
+     - 2 connects to 3, but 1 does **not** connect to 3.
+  1. Will the player who received the clue go on to misplay if nothing else is blind-played?
+     - If yes, then it is a _Finesse_.
+     - If no, then it is a _Bluff_.
+
+<br />
+
+### The Critical Color Bluff
+
+- Building on the _3 Bluffs_ convention, we also agree that it is possible for a card that initiates a _Bluff_ to be any critical card, but only if **a color clue** is used, and only if **it is not a 5**.
 - For example, in a 3-player game:
-  - All of the 1's are played on the stacks **except** for the red 1.
-  - Cathy has no clued cards in her hand.
-  - Alice clues Cathy number 1, which only touches her newest (slot 1) card. This card is a blue 1, but Cathy will assume that it is a red 1.
-  - Bob blind-plays his _Finesse Position_ card, and it is a playable blue 2.
-  - Cathy now knows that her 1 must not be red 1, or else Bob would not have blind-played anything. The 1 must be some other trash card.
+  - Nothing is played on the stacks. Red 4 is currently in the discard pile.
+  - Alice clues Cathy red, touching a red 4 as a _Play Clue_.
+  - Bob blind-plays a blue 1.
+  - Cathy marks her red card as the _one-away-from-playable_ red card, the red 2.
+  - However, Cathy also knows that _3 Bluffs_ are a thing, so she _also_ marks her red card as possibly a red 3.
+  - However, Cathy also knows that _Critical Color Bluffs_ are a thing, so she _also_ marks her red card as possibly a red 4.
 
-<TrashBluff />
-
-- Just like normal _Bluffs_, _Trash Bluffs_ can only be done while in _Bluff Seat_.
-- Normal _Bluffs_ take precedence over _Trash Bluffs_. This means that players can **only** use cards to _Trash Bluff_ with if they will be proved to be trash by a blind-play.
-  - For example, if not all of the 1's have been played on the stacks, then you can use a number 1 clue to initiate a _Trash Bluff_, because a blind-play will prove that the clued 1 is not a good 1.
-  - For example, if the red stack is played up to the red 3, then you **cannot** use a red clue to initiate a _Trash Bluff_, because a blind-play will make the clued card look like the red 5.
-  - For example, if the red stack is played up to the red 4, then you can use a red clue to initiate a _Trash Bluff_, because a blind-play will prove that the clued card is not a red 5.
-- In the case where multiple cards are clued as part of a _Trash Bluff_, **all** of the touched cards are considered to be trash.
+<CriticalColorBluff />
 
 <br />
 
-### The Trash Finesse
+### The Hard Bluff
 
-- In a _Finesse_, we say that the clue "connects" to the blind-play. For example, a blue clue on a blue 2 would connect to a blind-play of blue 1. Or, a number 2 clue on a blue 2 would connect to a blind-play of blue 1.
-- In a _Bluff_, we say that the clue does not "connect" to the blind-play. For example, a blue clue on a blue 2 does not connect to a blind-play of a red 1. Or, a number 2 clue on a blue 2 does not connect to the blind-play of a red 2.
-- In the _Trash Bluff_ example above, a number 1 clue on a blue 1 is used to _Trash Bluff_ a blue 2. Similar to a _Bluff_, we would say this number 1 clue does not connect to the blind-play of a blue 2.
-- What if a _Trash Bluff_ using a number 1 clue instead got a red 1 to blind-play? In this context, the red 1 would actually "connect" to the number 1 clue. Another way of saying this is that by cluing a trash 1 with a number 1 clue, the clue giver is saying that they **see** a matching 1 that is good.
-- Thus, it is possible to perform a _Trash Bluff_ outside of _Bluff Seat_ if the "connecting" card is on someone's _Finesse Position_. When this is done, it promises that someone has that specific card, so we call it a _Trash Finesse_ rather than a _Trash Bluff_.
-- For example, in a 4-player game:
-  - All the 1's are played on the stacks except for red 1.
-  - Alice clues number 1 to Donald, which touches a blue 1. To Donald, this will look like it is a red 1.
-  - At first glance, Bob might think this is a _Trash Bluff_, causing him to blind-play his _Finesse Position_ card as either red 1 or some other currently-playable card.
-  - However, Bob also sees that Cathy has a red 1 on her _Finesse Position_. Thus, Alice's clue was a _Trash Finesse_ instead of a _Trash Bluff_, since it promises a playable 1.
-  - Thus, Bob discards.
-  - Cathy blind-plays her _Finesse Position_ card and it is red 1.
-  - Donald discards his known-trash 1.
+- First, see the section on _[Cathy's Connecting Principle](level-11.mdx#cathys-connecting-principle-part-2)_.
+- Sometimes, it can be ambiguous as to whether a player blind-played a card into a _Bluff_, or they blind-played into a _Finesse_ + _Prompt_. In this situation, _Occam's Razor_ applies, so players should go with the _Bluff_ interpretation, since it is simpler. When such a _Bluff_ occurs, it is called a _Hard Bluff_ to disambiguate from situations where _Bluffs_ happen with no ambiguity.
+- For example, this is a _Finesse_ + _Prompt_ and **not** a _Hard Bluff_:
+  - Only red 1 is played on the stacks.
+  - Cathy has a 3 clued in her hand (with no color information on it).
+  - Alice clues Cathy about a new 4.
+  - Bob blind-plays red 2.
+  - In a normal _Bluff_, a _one-away-from-playable_ card is clued. However, Cathy sees that the highest stack is the red stack, so the 4 in her hand must be two-away.
+  - Thus, Cathy does **not** read it as a _Bluff_; she is promised red 3 and red 4, so she plays the unknown 3 as a _Self-Prompt_ for the red 3.
 
-<TrashFinesse />
+<FinessePromptNotHardBluff />
 
-- In the case where multiple cards are clued as part of a _Trash Finesse_, **all** of the touched cards are considered to be trash. (This is same thing that happens in a _Trash Bluff_.)
-- _Double Trash Finesses_ are explicitly disallowed. Thus, it is possible to perform a _Trash Finesse_ in a situation like this:
-  - All the 1's are played on the stacks except for red 1 and blue 1.
-  - Alice clues number 1 to Donald, which touches two green 1's on slot 1 and 2. To Donald, this will look like it is both the red 1 and the blue 1.
-  - Like in the previous example, Bob sees that Cathy has a red 1 on her _Finesse Position_.
-  - At first glance, Bob might think that Alice is promising both red 1 and blue 1, which would mean that he would need to blind-play the blue 1.
-  - However, a _Trash Finesse_ only promises at least one matching card, and since he sees that Cathy has a matching card, then that is good enough. Thus, Bob discards.
-  - Cathy blind-plays her _Finesse Position_ card and it is red 1.
-  - Donald knows that the focus of the clue (slot 1) is certainly trash, since that caused Cathy to blind-play.
-  - Furthermore, Donald knows that his slot 2 card is also trash, because all the cards touched in a _Trash Bluff_ or _Trash Finesse_ are guaranteed to be trash.
+- For example, this **is** a _Hard Bluff_:
+  - Red 1 and blue 2 are played on the stacks.
+  - Cathy has a 3 clued in her hand (with no color information on it).
+  - Alice clues Cathy about a new 4.
+  - Bob blind-plays red 2.
+  - This could be a _Bluff_ if the 4 in her hand is blue 4, since blue 4 is currently _one-away-from-playable_. Thus, Cathy **does not** assume that her 4 is red 4, and subsequently, **does not** assume that her unknown 3 is a red 3. However, it could **also** be the case that the 4 is a red 4 (if the 3 in her hand happens to be red 3).
+  - Thus, Cathy marks down both possibilities for later and does not play anything right now.
 
-<TrashFinesseTwoCards />
+<HardBluff />
 
 <br />
 
-### The Reverse Trash Finesse
+### The Hard 3 Bluff
 
-- First, see the section on the _[Trash Finesse](#the-trash-finesse)_.
-- It is also possible to perform a _Trash Finesse_ in reverse. This is much harder to see than a forward _Trash Finesse_. Even so, players should generally entertain the possibility of this occurring.
-- When a clue looks like it could be a _Reverse Trash Finesse_, the player who receives the clue is forced into immediately discarding the card. If it was indeed a _Reverse Trash Finesse_, it will be a trash card and it will immediately demonstrate what is going on. Alternatively, if the clue was a normal _Play Clue_ on a playable card, then the discard will be a _Gentleman's Discard_. By discarding, it covers both cases.
-- For example, in 3-player game:
-  - The red 1 is played on the stacks. All of the 2's are played on the other stacks.
-  - Alice clues number 2 to Bob, touching his slot 1 card as a _Play Clue_.
-  - From Bob's perspective, this is probably just a _Play Clue_ on the red 2 (which happens to be the final 2 that needs to be played).
-  - However, Bob sees that Cathy also has a red 2 on her _Finesse Position_. That means that this could be a _Reverse Trash Finesse_.
-  - If it is a _Reverse Trash Finesse_, then his 2 is a trash 2 (e.g. green 2). By immediately discarding it, it will prove to Cathy that _she_ has a red 2.
-  - Alternatively, if Bob does indeed have the red 2, then he can discard it to perform a _Gentleman's Discard_ on Cathy.
-  - Either way, discarding will cover both cases. Bob discards the 2 and it is revealed to be a green 2.
-  - Cathy comes next. Cathy was highly surprised when Alice gave Bob a number 2 clue on the green 2. From Cathy's perspective of Bob's perspective, the green 2 clue would immediately misplay as red 2. However, when Bob discards the green 2 instead of playing it, Alice's plan becomes clear. Cathy had the red 2 all along. Cathy blind-plays her _Finesse Position_ card as red 2.
-
-<ReverseTrashFinesse />
-
-- Note that _Reverse Trash Finesses_ should not always be entertained and **depend on context**. Specifically, towards the end of the game, _Reverse Trash Finesses_ are "turned off". This is because towards the end of the game, the team needs _Tempo_, and _Reverse Trash Finesses_ are slow and require even more discarding.
+- Players can use a 3 to _3 Bluff_ the 1 of the same suit.
+- This is called a _Hard 3 Bluff_ to distinguish it from a more-ordinary _3 Bluff_.
+- An example of a _Hard 3 Bluff_ can be found above as example 5.
 
 <br />
 
-### The Trash Push
+### The Known Bluff
 
-- Normally, when a useless card is clued, it signifies a _Trash Chop Move_. However, what if the useless card is actually the card on chop? Then it wouldn't be _Chop Moving_ anything.
-- From _Good Touch Principle_, we know that it is pointless to spend a clue to touch a useless card on someone's chop, because if we just do nothing, the useless card will get automatically discarded.
-- Subsequently, if this is done deliberately, it must have a meaning. By doing this, it means that we want to "push" the card that is next to the useless card onto the table.
-- For example, in a 3-player game:
-  - All of the 1's are played on the stacks.
-  - Bob has no clued cards in his hand. His chop is his slot 5.
-  - Alice clues Bob number 1, which only touches his slot 5 card.
-  - Bob blind-plays his slot 4 card, and it is a playable red 2.
-
-<TrashPush />
-
-- Sometimes, a _Trash Push_ is the only way to get a card played that is sitting between two other annoying cards.
-- Similar to a _Bluff_, _Trash Pushes_ must be immediately playable and should generally be demonstrated immediately. (This is unlike other similar moves like the _5 Pull_, which may have to wait a while.)
+- Usually, when a _Bluff_ occurs, the blind-playing player has no idea that is a _Bluff_ - they assume they are playing a specific card into a true _Finesse_.
+- However, in rare situations, a clue will be given that looks like a _Finesse_, but the next player will know for sure that they do not have the "connecting" card.
+- In these situations, if the next player cannot see a better explanation for the clue, then they should blind-play their _Finesse Position_ card as a _Known Bluff_.
+- For example:
+  - The player might see all of the copies of the card that they are supposed to be blind-playing.
+  - The player might have negative information on their entire hand (e.g. negative blue on every card when they are supposed to be blind-playing a blue 2).
+  - The player might know that they are blind-playing a 1 into a _3 Bluff_ (e.g. a card was clued with number 3 and there are no cards played yet).
 
 <br />
 
@@ -113,13 +152,12 @@ import TrashPush from "@site/image-generator/yml/level-13/trash-push.yml";
 
 <br />
 
-### Clarity Principle
+### Legal Bluff-Targets
 
-- First, see the section on _[Context](level-11.mdx#context)_.
-- In the H-Group, we like to find the "best" move for every turn in the post-game review. This is fun and helps everybody improve. But this can be taken too far.
-- Sometimes, players will give clues that are very complicated. Maybe the clue looks like it could be two different moves. Or, maybe the clue relies on non-obvious contextual factors.
-- Often, these kinds of complicated clues end up in misplays and lost games. And in the post-game review, the people who gave the clues get defensive: "if everyone just played perfectly, then my clue would have worked!"
-- It's natural for people to feel this way, because normally, if Alice performs a _Finesse_, and Bob is not paying attention and misses it, then we would say that Bob is at fault.
-- On the other hand, things are a little different when Alice gives a really complicated clue that Bob should _technically_ be able to figure out, but doesn't. In this case, Bob shares a little of the blame. **But it is mostly Alice that is at fault**.
-- Part of being good at Hanabi is recognizing when you should **not** try to do the most-optimal clue for the turn, because it would be confusing for your teammates. Clue clarity is really important and you should prioritize it! In the post-game review, you can always say: "On turn X, I considered this more-efficient clue, but it did not seem very clear. So I did this other more-clear clue instead." That gives everyone a chance to discuss the theoretical move together and find out if it really was the best move, without introducing a huge chance of failure in the actual game.
-- **Don't give confusing clues.** If you do decide to give a confusing clue, and it doesn't work out, then **you are at fault**. This principle is more important than all other principles.
+The full list of legal _Bluff_ targets is represented in the following table:
+
+| Type of Card                      | Color Clue | Number Clue | Name of Convention     |
+| --------------------------------- | ---------- | ----------- | ---------------------- |
+| any _one-away-from-playable_ card | ✅         | ✅          | _Bluff_                |
+| any _two-away-from-playable_ 3    | ✅         | ✅          | _3 Bluff_              |
+| any critical non-5                | ✅         | ❌          | _Critical Color Bluff_ |
