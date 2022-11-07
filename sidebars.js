@@ -144,6 +144,7 @@ module.exports = {
         "level-22",
         "level-23",
         "level-24",
+        "level-25",
       ],
     },
     {
