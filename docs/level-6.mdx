@@ -3,45 +3,12 @@ id: level-6
 title: Level 6 - Intermediate Chop Moves
 ---
 
-import OrderChopMove from "@site/image-generator/yml/level-6/order-chop-move.yml";
 import TempoClueChopMovePart1 from "@site/image-generator/yml/level-6/tempo-clue-chop-move-part-1.yml";
 import TempoClueChopMovePart2 from "@site/image-generator/yml/level-6/tempo-clue-chop-move-part-2.yml";
 import TempoClueChopMovePart3 from "@site/image-generator/yml/level-6/tempo-clue-chop-move-part-3.yml";
 import DiscardModulation from "@site/image-generator/yml/level-6/discard-modulation.yml";
 
 ## Special Moves
-
-<br />
-
-### The Order Chop Move (OCM)
-
-- First, see the section on [Playing Multiple 1's](level-3.mdx#playing-multiple-1s).
-- We agree that unknown 1's are supposed to be played in a particular order. If a player has unknown 1's and does **not** play them in the correct order, it means that they are trying to send an additional message.
-- If a player skips over **one** of the 1's, and there is nothing else special going on, it means that the next player should _Chop Move_ one card.
-- If a player skips over **two** of the 1s, the message skips over the next player, and the player after that should _Chop Move_ one card.
-- A skip of **three** 1's means that the player three seats away should _Chop Move_, and so on.
-- For example, in a 3-player game:
-  - It is the first turn and nothing is played on the stacks.
-  - Alice clues Bob number 1, which touches three 1's. They are in slot 1, slot 2, and slot 3.
-  - Bob is expected to play slot 3 (which is the oldest 1). If he plays slot 3, nothing special happens.
-  - If Bob plays slot 2, then he is skipping over one card. Cathy should _Chop Move_ one card (her slot 5).
-  - If Bob plays slot 1, he is skipping over two cards. Alice should _Chop Move_ one card (her slot 5).
-
-<OrderChopMove />
-
-- If a player decides to do an _Order Chop Move_, on their next turn, they should revert to the original order again.
-- For example, continuing from the previous example:
-  - Bob decides to play slot 2, performing an _Order Chop Move_ on Cathy.
-  - Cathy marks her slot 5 card as being _Chop Moved_. Then, Cathy gives an unrelated clue.
-  - Alice gives an unrelated clue.
-  - Now, Bob has two 1's left in slot 2 and slot 3.
-  - Bob is expected to play slot 3 (which is the oldest 1). If he plays slot 3, nothing special happens.
-  - If Bob plays slot 2, he is performing another _Order Chop Move_, and Cathy should _Chop Move_ one card. (It would be her slot 4, since her slot 5 is already _Chop Moved_.)
-- There are some other common situations that do **not** imply an _Order Chop Move_. Use your common sense! Here is a short list:
-  - The 1 that was played has a **different amount of positive clues** than the other 1's. (Different negative clues are ignored.)
-  - The 1 that was played was originally _Finessed_ from a clue that happened **before** the number 1 clue.
-  - The 1 that was skipped over is known to be bad from contextual information.
-- The _Order Chop Move_ only applies to 1s. If it happens with any card that is not a 1, then it is never an _Order Chop Move_ and it just means nothing.
 
 <br />
 
