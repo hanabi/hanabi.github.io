@@ -107,6 +107,7 @@ import BluffPromptsPromptBluffs from "@site/image-generator/yml/level-11/bluff-p
   - Bob also knows that if this is a _Bluff_, then Bob should blind-play his _Finesse Position_ card immediately.
   - Bob knows that if there is any way that this could be a _Finesse_ (the truth), he should **assume that the truth is being told**. Thus, Bob knows that it must be a _Finesse_ on Cathy and should not blind-play anything.
 - This is called _Bob's Truth Principle_, because Bob always assumes the truth over a _Fib_.
+- This convention is easy to remember because at the time of the blind-play, Bob does not need to play any differently than he did at level 10. He simply assumes the truth is being told.
 
 <br />
 
@@ -263,9 +264,13 @@ import BluffPromptsPromptBluffs from "@site/image-generator/yml/level-11/bluff-p
 
 - First, see the section on the _[Layered Finesse](level-5.mdx#the-layered-finesse)_.
 - Sometimes, players only play one card into a _Layered Finesse_, and then stop (when they should instead be digging for the promised card).
-- To tell the difference between a _Layered Finesse_ and a _Bluff_, simply look at the _Bluff Seat_:
-  - If the clue-giver was in _Bluff Seat_, then it is a _Bluff_.
-  - If the clue-giver was not in _Bluff Seat_, then it is a _Layered Finesse_.
+- Since _Bluffs_ are only allowed from _Bluff Seat_, if the clue-giver is not in _Bluff Seat_ then such a clue is **always** a _Layered Finesse_ and not a _Bluff_.
+- However, _Bluffs_ take precedence over _Layered Finesses_ from _Bluff Seat_.
+  - In other words, if Alice gives a clue which causes Bob to blind-play an unrelated card immediately, then Bob should assume a _Bluff_ when possible.
+  - In still other words, _Layered Finesses_ are generally "turned off" from _Bluff Seat_.
+  - Of course, this only applies if the clue actually satisfies the criteria for a potential _Bluff_.
+    - In particular, if Alice gives a clue to Bob but Bob does not blind-play immediately, then according to the _Lie Principle_, the clue should always be interpreted as a _Layered Finesse_ as it cannot possibly be a legal _Bluff_.
+    - In particular, if Alice gives a clue to Bob which is not a legal _Bluff_ target, the clue should always be interpreted as a _Layered Finesse_.
 
 <br />
 
