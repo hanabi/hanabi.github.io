@@ -1,0 +1,41 @@
+stacks:
+  - r: 1
+  - y: 1
+  - g: 1
+  - b: 1
+  - p: 1
+players:
+  - clue_giver: true
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+        above: Blue 2
+        middle_note: f
+        below: plays
+      - type: r3
+        clue: 3
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: b2
+      - type: x
+  - text: AFter Bob blind-plays blue 2...
+  - name: Bob
+    cards:
+      - type: x
+      - type: r3
+      - type: x
+        middle_note: cm
+      - type: x
+        middle_note: cm
+      - type: x
+        middle_note: cm
