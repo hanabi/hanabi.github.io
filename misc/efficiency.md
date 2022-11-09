@@ -51,12 +51,15 @@
 | 6 Suits (Clue Starved)                 | 1.43     | 1.58       | 1.76     | 1.58     |
 | 6 Suits (Throw It in a Hole)           | 1.00     | 1.15       | 1.30     | 1.15     |
 | 6 Suits (Throw It in a Hole) w/ 1x 1oE | 1.25     | 1.50       | 1.88     | 1.58     |
+| 6 Suits (Critical Fours)               | 1.03     | 1.20       | 1.43     | 1.25     |
+| 6 Suits (Critical Fours) w/ 1x 1oE     | 1.20     | 1.43       | 1.76     | 1.50     |
 | 5 Suits                                | 0.86     | 1.00       | 1.19     | 1.04     |
 | 5 Suits w/ 1x 1oE                      | 1.04     | 1.25       | 1.56     | 1.32     |
 | 5 Suits (Up or Down)                   | 1.04     | 1.25       | 1.56     | 1.32     |
 | 5 Suits (Clue Starved)                 | 1.39     | 1.56       | 1.79     | 1.56     |
 | 5 Suits (Throw It in a Hole)           | 1.00     | 1.19       | 1.39     | 1.19     |
 | 5 Suits (Throw It in a Hole) w/ 1x 1oE | 1.32     | 1.67       | 2.27     | 1.79     |
+| 5 Suits (Critical Fours)               | 1.04     | 1.25       | 1.56     | 1.32     |
 | 4 Suits                                | 0.87     | 1.05       | 1.33     | 1.11     |
 | 4 Suits w/ 1x 1oE                      | 1.11     | 1.43       | 2.00     | 1.54     |
 | 4 Suits (Up or Down)                   | 1.05     | 1.33       | 1.82     | 1.43     |
