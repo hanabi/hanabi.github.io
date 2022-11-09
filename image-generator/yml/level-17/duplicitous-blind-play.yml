@@ -30,7 +30,7 @@ players:
         above: blue 4
       - type: x
   - text: After Bob blind-plays...
-  - name: Carol
+  - name: Cathy
     cards:
       - type: x
       - type: x
