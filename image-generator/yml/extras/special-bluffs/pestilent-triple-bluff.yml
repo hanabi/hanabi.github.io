@@ -35,5 +35,5 @@ players:
       - type: 4
         clue: 4
         above: Red 4
-        middle_note: not bg
+        middle_note: "!b, !g"
       - type: x
