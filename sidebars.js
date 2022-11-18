@@ -187,6 +187,7 @@ module.exports = {
         "variant-specific/dual-color-6-suits",
         "variant-specific/duck",
         "variant-specific/extremely-ambiguous",
+        "variant-specific/funnels",
         "variant-specific/gray",
         "variant-specific/light-pink",
         "variant-specific/muddy-rainbow-cocoa-rainbow",
