@@ -16,7 +16,7 @@ _The Transfer Chop Move_ (rename)
 
 _The Ambiguous Tempo Clue_ (by Lel0uch)
 
-```
+```text
 - The _The Ambiguous Prism Tempo Clue_ now applies to every variant that has ambiguous cards that are impossible to distinguish between, such as Deceptive-Fives or Odds & Evens.
 - In short, we agree that:
   - a color _Tempo Clue_ should focus the right-most card.
