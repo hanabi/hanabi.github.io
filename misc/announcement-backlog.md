@@ -33,6 +33,14 @@ _The Transfer Chop Move_ (rename)
 - The _Chop Transfer_ is renamed to the _Transfer Chop Move_, so that it has the same format as all of the other chop moves.
 ```
 
+@everyone Deleted conventions:
+
+_The Junk Discharge_ (deleted)
+
+```text
+- The _Junk Discharge_ has been deleted, since it is just the same thing as a _Unknown Trash Discharge_ or an _Unknown Dupe Discharge_.
+```
+
 <br />
 
 ## The Backlog (Variant-Specific Conventions)
