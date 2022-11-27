@@ -1,11 +1,11 @@
 stacks:
-  - r: 0
-  - y: 0
-  - g: 0
-  - b: 0
-  - p: 0
+  - r: 1
+  - y: 1
+  - g: 1
+  - b: 1
+  - p: 1
 big_text:
-  text: first turn
+  text: low score
   color: black
 players:
   - clue_giver: true
@@ -19,19 +19,23 @@ players:
       - type: x
       - type: x
       - type: x
-        above: Red 1
+        above: Blue 2
+        below: plays
       - type: x
       - type: x
   - cards:
       - type: 5
         clue: 5
-        above: Red 5
+        above: Blue 5
       - type: x
-        above: Red 3
-        middle_note: 3,4
+        above: Red 1
+        middle_note: kt
+        below:
+          - globally
+          - known
       - type: x
         above: Green 2
       - type: x
-        above: Green 1
+        above: Green 4
       - type: x
-        above: Green 2
+        above: Yellow 1
