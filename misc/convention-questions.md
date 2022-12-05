@@ -40,7 +40,7 @@ Use notation that the H-Group will be familiar with:
 
 ### 5) Put Everything in One Message
 
-- Type out your entire question into a single message.
+- Type out your entire question into a single message (including the attempt to answer your own question).
 
 <br />
 
