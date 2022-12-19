@@ -29,6 +29,12 @@ _The Junk Discharge_ (deleted)
 
 @everyone New variant-specific conventions:
 
+**Hard Variant Revamp** (by pianoblook)
+
+```text
+- The efficiency threshold for hard variants is raised from 1.25 to 1.33.
+```
+
 **Odds & Evens Prompt Rank Exception** (by Sturm)
 
 ```text
