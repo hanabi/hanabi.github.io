@@ -8,7 +8,8 @@ import TheFivePullPrompt from "@site/image-generator/yml/level-19/the-five-pull-
 import TheFivePullDoubleFinesse from "@site/image-generator/yml/level-19/the-five-pull-double-finesse.yml";
 import TheFivePullClandestineFinesse from "@site/image-generator/yml/level-19/the-five-pull-clandestine-finesse.yml";
 import TheFivePullPromise from "@site/image-generator/yml/level-19/the-five-pull-promise.yml";
-import FiveNumberDischarge from "@site/image-generator/yml/level-19/five-number-discharge.yml";
+import TheFiveNumberEjection from "@site/image-generator/yml/level-19/the-five-number-ejection.yml";
+import TheFiveNumberDischarge from "@site/image-generator/yml/level-19/the-five-number-discharge.yml";
 import InteractionsBetween2SavesAnd5Stalls from "@site/image-generator/yml/level-19/interaction-between-2-saves-and-5-stalls.yml";
 
 ## Conventions
@@ -170,38 +171,57 @@ import InteractionsBetween2SavesAnd5Stalls from "@site/image-generator/yml/level
 
 <br />
 
-### 5 Number Discharge (5ND)
+### The 5 Number Ejection (5NE)
 
 - This convention only applies in the _Low Score Phase_.
 - Players are only allowed to perform a _5 Stall_ in certain situations. If a player performs a _5 Stall_ when it would otherwise be illegal, then it is not a _5 Stall_ at all, and would instead be:
   - a _5's Chop Move_ if the 5 is one-away-from-chop
   - a _5 Pull_ if the 5 is two-or-more-away-from-chop and the card to the right of it is playable
   - a _5 Pull Finesse_ if the 5 is two-or-more-away-from-chop and the card to the right of it is _one-away-from-playable_
-- However, what if the 5 is two-or-more-away-from-chop and the card to the right of it is _two-or-more-away-from-playable_ **or** trash? This would be quite strange.
-- We agree that this signals a _Discharge_ and that the next player should play their _Third Finesse Position_.
+- However, what if the 5 is two-or-more-away-from-chop and the card to the right of it is _two-or-more-away-from-playable_? This would be quite strange.
+- We agree that this signals an _Ejection_ and that the next player should play their _Second Finesse Position_.
 - For example, in a 3-player game:
   - It is the first turn and nothing is played on the stacks.
   - Alice clues number 5 to Cathy, touching a 5 on slot 1.
-  - Cathy hand is, from newest to oldest: red 5, red 3, green 2, green 1, green 2
+  - Cathy's hand is, from newest to oldest: red 5, red 3, green 2, green 1, green 2
   - Bob thinks about what Alice's 5 clue could mean:
     - The clue cannot be a _5 Stall_, because there is a green 1 to _Play Clue_.
     - The clue cannot be a _5 Pull_, because the red 3 is not playable.
     - The clue cannot be a _5 Pull Finesse_, because the red 3 is _two-away-from-playable_.
-  - Since Bob would have to blind-play two cards into the _Finesse_ (the same rule as in _5 Color Ejections_), Bob knows that he should instead treat this as a _5 Number Discharge_. Bob blind-plays his slot 3 card and it successfully plays as the red 1.
+  - Since Bob would have to blind-play two cards into the _Finesse_ (the same rule as in _5 Color Ejections_), Bob knows that he should instead treat this as a _5 Number Ejection_. Bob blind-plays his slot 2 card and it successfully plays as the red 1.
+- After a _5 Number Ejection_, the card next to the 5 should be globally marked as _Chop Moved_, and marked accordingly as _two-or-more-away-from-playable_. For example, in a no variant game, the card would always be a 3 or 4.
 
-<FiveNumberDischarge />
+<TheFiveNumberEjection />
 
-- After a _5 Number Discharge_, the card next to the 5 should be marked accordingly. For example, if a _5 Number Discharge_ happens on the first turn of the game, then the team should mark the "pulled" card as a 3 or a 4.
-- More examples of a _5 Number Discharge_ can be found [here](examples/5-number-discharge.mdx).
+### 5 Number Discharge (5ND)
 
-<br />
+- This convention only applies in the _Low Score Phase_.
+- When a _5 Pull_ is given, depending on the playability of the _pulled_ card, it would trigger a normal _5 Pull_, a _5 Pull Finesse_, or a _5 Pull Discharge_.
+- But what if the card was not playable at all? In other words, what happens if a _5 Pulled_ card is trash?
+- We agree that this signals a _Discharge_ and that the next player should play their _Third Finesse Position_.
+- For example, in a 3-player game:
+  - All the 1's are played on the stacks.
+  - Alice clues number 5 to Cathy, touching a 5 on slot 1.
+  - Cathy's hand is, from newest to oldest: blue 5, red 1, green 2, green 4, yellow 1
+  - Bob thinks about what Alice's 5 clue could mean:
+    - The clue cannot be a _5 Stall_, because there is a green 2 to _Play Clue_.
+    - The clue cannot be a _5 Pull_, because the red 1 is not playable.
+    - The clue cannot be a _5 Pull Finesse_, because the red 1 is not _one-away-from-playable_.
+    - The clue cannot be a _5 Number Ejection_, because the red 1 is not _two-or-more-away-from-playable_.
+  - Thus, Bob knows that this is a _5 Number Discharge_. He blind-plays his _Third Finesse Position_ card. It is a blue 2 and successfully plays.
+- After a _5 Number Discharge_, the card next to the 5 should be marked as globally known-trash.
+  - This means that the card counts as having a positive clue on it (as if it was used to perform a _Trash Chop Move_, for example).
+  - Subsequently, the clued player's _Finesse Position_ should move to the next unclued card.
 
-### 5 Number Discharge Finesse Position Skips
+<TheFiveNumberDischarge />
 
-- First, see the section on the _[5 Number Discharge](#5-number-discharge-5nd)_.
-- After a _5 Number Discharge_ occurs, it is common for the card next to the 5 to be marked as a 3 or a 4.
-- If the 5 was on slot 1, then the marked card is now on _Finesse Position_. For most intents and purposes, this "marking" from a _5 Number Discharge_ **does not** change the player's _Finesse Position_ - their _Finesse Position_ is still the card marked as a 3 or a 4.
-- However, if that player is _Finessed_ for a 1 or a 2, then it is fairly obvious that they should not play the card that is marked as a 3 or a 4. In this case, the player should skip over their _Finesse Position_ card and instead play their _Second Finesse Position_.
+### 5 Number Ejection Finesse Position Skips
+
+- First, see the section on the _[5 Number Ejection](#5-number-ejection-5ne)_ and the _[5 Number Discharge](#5-number-discharge-5nd)_.
+- After a _5 Number Ejection_, the card next to the 5 will be marked as either a _Chop Moved_ _two-or-more-away-from-playable_ card.
+- Normally, when a card is _Chop Moved_, players will skip over it when blind-playing into a _Finesse_. However, in the case of a _5 Number Ejection_, players agree to not skip over the _Chop Moved_ card as a special exception.
+  - For example, if the clued 5 was on slot 1, the _Chop Moved_ card is on slot 2, but the _Finesse Position_ is also on slot 2.
+- With that said, if that player is _Finessed_ for a 1 or a 2, then it is fairly obvious that they should not play the card that is marked as a 3 or a 4. In this case, the player should skip over their _Finesse Position_ card and instead play their _Second Finesse Position_.
 
 <br />
 
