@@ -34,6 +34,15 @@ As noted in the [convention changes document](convention-changes.md), sometimes 
 - If the team can see that a player who initiated a _Bomb Double Ignition_ could have obviously used a clue-based form of _Double Ignition_, then this signals an extra message: a _Triple Ignition_.
 ```
 
+@everyone Renamed conventions:
+
+**The Queued Finesse** (rename)
+
+```text
+- The _Stacked Finesse_ is renamed to the _Queued Finesse_.
+- (_Stacked Ejection_ is not renamed since it does not use a queue.)
+```
+
 @everyone Deleted conventions:
 
 **The Junk Discharge** (deleted)

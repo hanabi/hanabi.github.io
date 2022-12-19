@@ -225,7 +225,7 @@ First, let's go over some _Hat-Guessing_ terminology before getting into the act
 
 - No _Finesses_ can be performed in the _Hat-Guessing_ framework (which should be obvious if instructions are decided in reverse _Respond Order_).
 
-### Stacked Play Instructions
+### Queued Play Instructions
 
 - It is possible to give play instructions to cards that would play on top of cards in the _Play Queue_ of some player.
 - This is of course only possible if the intermediate card is played before the turn when the player receiving the instruction will try to play their card.
