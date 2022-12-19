@@ -8,7 +8,7 @@ As noted in the [convention changes document](convention-changes.md), sometimes 
 
 @everyone New conventions:
 
-*The 5 Number Ejection* and *The 5 Number Discharge* (by pianoblook)
+_The 5 Number Ejection_ and _The 5 Number Discharge_ (by pianoblook)
 
 ```text
 - The old convention called the _5 Number Discharge_ has now been split up into two different conventions: the _5 Number Ejection and the _5 Number Discharge_.
