@@ -6,6 +6,19 @@ As noted in the [convention changes document](convention-changes.md), sometimes 
 
 ## The Backlog (General Conventions)
 
+@everyone New conventions:
+
+*The 5 Number Ejection* and *The 5 Number Discharge* (by pianoblook)
+
+```text
+- The old convention called the _5 Number Discharge_ has now been split up into two different conventions: the _5 Number Ejection and the _5 Number Discharge_.
+- Now, when a _5 Pull_ happens, if the _5 Pulled_ card is:
+  - _Playable_ --> _5 Pull_
+  - _One-away-from-playable_ --> _5 Pull Finesse_
+  - _Two-or-more-away-from-playable_ --> _5 Pull Ejection_
+  - _Trash_ --> _5 Pull Discharge_
+```
+
 @everyone Deleted conventions:
 
 _The Junk Discharge_ (deleted)
