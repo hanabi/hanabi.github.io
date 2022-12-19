@@ -8,7 +8,7 @@ As noted in the [convention changes document](convention-changes.md), sometimes 
 
 @everyone New conventions:
 
-_The 5 Number Ejection_ and _The 5 Number Discharge_ (by pianoblook)
+**The 5 Number Ejection** and **The 5 Number Discharge** (by pianoblook)
 
 ```text
 - The old convention called the _5 Number Discharge_ has now been split up into two different conventions: the _5 Number Ejection and the _5 Number Discharge_.
@@ -19,9 +19,24 @@ _The 5 Number Ejection_ and _The 5 Number Discharge_ (by pianoblook)
   - _Trash_ --> _5 Pull Discharge_
 ```
 
+**Bomb Double Ignition** (by pianoblook)
+
+```text
+- Normally, when a player has a globally-known trash card in their hand, they can safely discard it.
+- In rare cases, a player might decide to intentionally misplay the trash card as a means of communicating a particular slot number as a _Positional Misplay_. This kind of thing almost always happens on either the last round of the game, or the second to last round of the game.
+- However, what if a player intentionally misplays a trash card before that point? Wasting a strike for no reason is "useless" in much the same way that the kinds of clues that cause _Double Ignition_ are. Thus, we agree that bombing a card in this way should trigger two blind-plays as a _Bomb Double Ignition_.
+```
+
+**Bomb Triple Ignition** (by pianoblook)
+
+```text
+- Using a clue instead of using a strike is almost always preferable. Thus, players should prefer to use the more-ordinary forms of _Double Ignition_ (like e.g. _Replay Double Ignition_) before resorting to a _Bomb Double Ignition_.
+- If the team can see that a player who initiated a _Bomb Double Ignition_ could have obviously used a clue-based form of _Double Ignition_, then this signals an extra message: a _Triple Ignition_.
+```
+
 @everyone Deleted conventions:
 
-_The Junk Discharge_ (deleted)
+**The Junk Discharge** (deleted)
 
 ```text
 - The _Junk Discharge_ has been deleted, since it is just the same thing as a _Unknown Trash Discharge_ or an _Unknown Dupe Discharge_.
