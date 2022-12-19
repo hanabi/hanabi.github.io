@@ -14,8 +14,7 @@ npx prettier --check .
 # Step 2 - Use ESLint to lint the JavaScript
 # Since all ESLint errors are set to warnings, we set max warnings to 0 so that warnings will fail
 # in CI.
-npx eslint --max-warnings 0 src
-npx eslint --max-warnings 0 static/js
+npx eslint --max-warnings 0 .
 
 # Step 3 - Use remark to check Markdown files for errors.
 # We set to quiet to output only warnings and errors.
