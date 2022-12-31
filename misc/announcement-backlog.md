@@ -6,34 +6,6 @@ As noted in the [convention changes document](convention-changes.md), sometimes 
 
 ## The Backlog (General Conventions)
 
-@everyone New conventions:
-
-**The 5 Number Ejection** and **The 5 Number Discharge** (by pianoblook)
-
-```text
-- The old convention called the _5 Number Discharge_ has now been split up into two different conventions: the _5 Number Ejection and the _5 Number Discharge_.
-- Now, when a _5 Pull_ happens, if the _5 Pulled_ card is:
-  - _Playable_ --> _5 Pull_
-  - _One-away-from-playable_ --> _5 Pull Finesse_
-  - _Two-or-more-away-from-playable_ --> _5 Pull Ejection_
-  - _Trash_ --> _5 Pull Discharge_
-```
-
-**Bomb Double Ignition** (by pianoblook)
-
-```text
-- Normally, when a player has a globally-known trash card in their hand, they can safely discard it.
-- In rare cases, a player might decide to intentionally misplay the trash card as a means of communicating a particular slot number as a _Positional Misplay_. This kind of thing almost always happens on either the last round of the game, or the second to last round of the game.
-- However, what if a player intentionally misplays a trash card before that point? Wasting a strike for no reason is "useless" in much the same way that the kinds of clues that cause _Double Ignition_ are. Thus, we agree that bombing a card in this way should trigger two blind-plays as a _Bomb Double Ignition_.
-```
-
-**Bomb Triple Ignition** (by pianoblook)
-
-```text
-- Using a clue instead of using a strike is almost always preferable. Thus, players should prefer to use the more-ordinary forms of _Double Ignition_ (like e.g. _Replay Double Ignition_) before resorting to a _Bomb Double Ignition_.
-- If the team can see that a player who initiated a _Bomb Double Ignition_ could have obviously used a clue-based form of _Double Ignition_, then this signals an extra message: a _Triple Ignition_.
-```
-
 @everyone Renamed conventions:
 
 **The Queued Finesse** (rename)
