@@ -171,7 +171,7 @@
 - When you are told to blind-play a card from an _Empty Clue_, you must do it immediately - you can't mess around with giving a clue, even if it is a really good clue. This is because someone else will assume that they have the same card that you have, and will try to play it.
 - However, as an exception, the final player to take an action in the _Empty Clue_ chain is not required to play immediately - they can stop to give a clue if they want. This is because the empty target is safely locked in and there is no-one after them that will get confused.
 
-### Stacked Empty Clues (Through Their Own Hand)
+### Queued Empty Clues (Through Their Own Hand)
 
 - With normal H-Group conventions, you must treat all _Play Clues_ as _Delayed Play Clues_. For example, if you get clued about four 1's, and then are clued about one 2, then you must play all four of the 1's before playing the 2.
 - With blind-plays from _Empty Clues_, this does NOT apply. You must immediately blind-play the cards indicated from an _Empty Clue_ (unless you are the final person in the chain).
@@ -183,17 +183,17 @@
   - Cathy gives an empty clue of number 2, with the intent for Alice to blind-play slot 1 and Bob to blind-play slot 1.
   - Alice blind-plays her slot 1.
   - Bob knows that Cathy's clue is telling him to blind-play his slot 1. However, he must play all the known-playable cards in his hand first. So, he marks his slot 1 card as currently playable, and plays his other clued 1 first.
-- Players should always assume a _Stacked Empty Clue_ interpretation over a re-target interpretation. (This follows from the empty target priority list above.)
+- Players should always assume a _Queued Empty Clue_ interpretation over a re-target interpretation. (This follows from the empty target priority list above.)
 
 ### Delayed Empty Clues (Through Other Player's Hands)
 
-- Normally, a stacked play action from an _Empty Clue_ should not be related to anyone else's hand. This is because it may not be globally known which cards play into which other cards, so different players will assign different actions and everything will get messed up.
+- Normally, a queued play action from an _Empty Clue_ should not be related to anyone else's hand. This is because it may not be globally known which cards play into which other cards, so different players will assign different actions and everything will get messed up.
 - However, it is possible to give a _Empty Clue_ as a _Delayed Play Clue_ through someone else's hand if all of the connecting cards are globally known playable. This way, the information never becomes desynchronized. For example, in a 3-player game:
   - Bob has a globally known blue 1 that is already clued.
   - Cathy has a globally known blue 2 that is already clued.
   - Bob has an unclued blue 3 that is ready to be _Play Clued_ in slot 1.
   - Cathy has an unclued red 1 that is ready to be _Play Clued_ in slot 1.
-  - Alice gives an _Empty Clue_ with a value of 2, which is a stacked play to blue 3 in Bob's hand and a stacked play to red 1 in Cathy's hand. (1 + 1 = 2)
+  - Alice gives an _Empty Clue_ with a value of 2, which is a queued play to blue 3 in Bob's hand and a queued play to red 1 in Cathy's hand. (1 + 1 = 2)
   - Usually, this type of thing is illegal, because the blue 2 that leads into the blue 3 is not played yet and is in someone else's hand. However, since the whole team knows that the blue 3 is playable, everything will work out.
   - First, Bob is able to see that Alice's clue is probably "getting" the red 1 in Cathy's slot 1, so it must also be getting his slot 1. However, he must first play all the known-playable cards in his hand, so he plays the blue 1.
   - Second, Cathy knows that Alice's clue is probably "getting" the blue 3 in Bob's hand, so it must also be getting her slot 1. However, she must first play all the known-playable cards in her hand, so she plays the blue 2.
@@ -201,9 +201,9 @@
   - Now that all of his other playable cards are played, Bob can blind-play the _Empty Clue_ target and successfully plays the blue 3 from slot 1.
   - Now that all of her other playable cards are played, Cathy can blind-play the _Empty Clue_ target and successfully plays the red 1 from slot 1.
 
-### Empty Clue Planning with Stacked Plays
+### Empty Clue Planning with Queued Plays
 
-- When planning an _Empty Clue_, the "right-to-left" rule does not always work if there are one or more players with known playable cards. The reason is somewhat complicated - players will assume that an _Empty Clue_ is giving a _Stacked Play_ to the player that already has playable cards to play.
+- When planning an _Empty Clue_, the "right-to-left" rule does not always work if there are one or more players with known playable cards. The reason is somewhat complicated - players will assume that an _Empty Clue_ is giving a _Queued Play_ to the player that already has playable cards to play.
 - In this situation, instead of planning from right-to-left, you must plan by starting with the player with the most playable cards, and then the player with the second most playable cards, and so forth. If there is a tie, then you start with the right-most player.
 - For example, in a 4-player game:
   - Alice is planning her _Empty Clue_.
