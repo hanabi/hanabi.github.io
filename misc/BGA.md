@@ -268,7 +268,7 @@ These are conventions that we don't typically turn on for new players, but we do
   - Alice is expected to play the red 1. (The red 1 is said to have _Priority_.) Instead, Alice plays the blue 1.
   - Thus, Alice is **promising** that someone one the team has the blue 2 on their _Finesse Position_. Whoever has it should blind-play it, similar to if a _Finesse_ was performed.
 - You can also do _Priority Bluffs_. It works surprisingly well in a variety of situations.
-- Why do this? It gets cards "for free" without having to use any clues and has few downsides.
+- Why do this? It gets cards "for free" without having to use any clues.
 
 ### 3 Bluffs - Added
 
