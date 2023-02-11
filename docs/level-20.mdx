@@ -6,6 +6,7 @@ title: Level 20 - Priority
 import PriorityPrompt from "@site/image-generator/yml/level-20/priority-prompt.yml";
 import PriorityFinesse from "@site/image-generator/yml/level-20/priority-finesse.yml";
 import PriorityBluff from "@site/image-generator/yml/level-20/priority-bluff.yml";
+import PriorityIntoSomeoneElsesHand from "@site/image-generator/yml/level-20/priority-into-someone-elses-hand.yml";
 import LoadClue from "@site/image-generator/yml/level-20/load-clue.yml";
 import PriorityFinesseSpecial from "@site/image-generator/yml/level-20/priority-finesse-special.yml";
 import TrustFinesse from "@site/image-generator/yml/level-20/trust-finesse.yml";
@@ -115,6 +116,16 @@ Priority does not always apply. Some common exceptions are listed below.
 ### Playing Into Someone Else's Hand
 
 - For the purposes of playing into someone else's hand, we only consider what the very next card is, in order to keep things simple.
+- For example, in a 3-player game:
+  - Alice has a globally-known blue 3, red 3, and red 4.
+  - Bob has a globally-known blue 4.
+  - Cathy has a globally-known red 5.
+  - Here, Alice knows that when playing cards into other player's hands, she is only supposed to consider what the very next card is.
+  - Thus, Alice plays the blue 3 into Bob's blue 4.
+
+<PriorityIntoSomeoneElsesHand />
+
+- The obvious exception to this rule is if one of the players on the team is locked. In this situation, it is better to work towards unlocking that player.
 
 <br />
 
