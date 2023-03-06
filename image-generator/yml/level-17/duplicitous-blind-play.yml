@@ -39,5 +39,4 @@ players:
         clue: b
         below:
           - Blue 4
-          - Blue 5
       - type: x
