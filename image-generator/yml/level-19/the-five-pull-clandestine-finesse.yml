@@ -29,7 +29,7 @@ players:
   - cards:
       - type: b4
         border: false
-      - type: b4
+      - type: b1
         border: false
       - type: b5
         clue: 5
