@@ -240,13 +240,16 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 
 ## Level 21 - Bubblegum Moves
 
-### The Bubblegum Prompt & The Bubblegum Finesse
-
 - Normally, when players give a clue to a pink card with a number, they exactly match the number of the card in order to satisfy _Pink Promise_.
 - Some common situations where players violate _Pink Promise_ are covered in the two different _Pink Play Clue Lie_ sections above.
-- Rarely, it is also possible to lie about the rank of a pink card that is not yet playable. Doing so communicates the slot number of where the connecting card is.
+- It is also possible to violate _Pink Promise_ in a different way: by lying about the rank of a pink card that is not yet playable. Doing so communicates the slot number of where the connecting card is to the other players on the team.
+- By unexpectedly playing cards from the matching slot number, the player communicates the true rank of the pink card, which fixes the lie.
+- All moves of this nature are called _Bubblegum_.
+
+### The Bubblegum Finesse
+
 - For example, in a 4-player game:
-  - All the 1's are played on the stacks
+  - All the 1's are played on the stacks.
   - Donald has a pink 3 in his hand clued with pink. He does not know the rank of the card.
   - Alice clues Donald number 4, which only touches the pink 3.
   - Bob knows that since the pink 3 is the focus of the clue, it must be playable right now. However, if this was a normal _Finesse_ (and Bob had a pink 2 on his _Finesse Position_), then Alice would have used a pink clue or a number 3 clue (to match the real rank of the card, satisfying _Pink Promise_).
@@ -257,9 +260,23 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 
 <BubblegumFinesse />
 
-- _Bubblegum Finesses_ can only be used to get pink cards.
+### The Bubblegum Prompt
 
-### The Bubblegum Bluff
+- Normally, you can only _Prompt_ a card if it is the left-most clued card. However, you can _Prompt_ a non-left-most clued card by violating _Pink Promise_. This is called a _Bubblegum Prompt_, which is conceptually similar to a _Bubblegum Finesse_.
+- For example, in a 4-player game:
+  - All the 1's are played on the stacks.
+  - Bob's _Finesse Position_ card has negative pink. He also has three cards clued with number 5 on slot 2, slot 3, and slot 4.
+  - Alice clues number 3 to Donald, which focuses a pink 4 on slot 2 and touches a pink 3 on slot 3.
+  - Bob sees that in order to make the pink 3 and the pink 4 playable, someone has to have the pink 2. Since no-one else seems to have it, Bob must have it as one of his clued 5's.
+  - Given that Alice violated _Pink Promise_, Bob can determine that his pink 2 is on his slot 3. Bob plays his slot 3, and it is the pink 2.
+  - Cathy discards.
+  - Donald knows that clues do not normally _Prompt_ a non-leftmost card. Thus, Donald knows that the focus of Alice's _Play Clue_ cannot be a 3.
+  - The next card after a pink 3 is a pink 4, so Donald knows that the card that Alice focused is a pink 4. Subsequently, since Alice's clue was a _Play Clue_, the pink 4 must be playable. In order for a pink 4 to be playable, someone has to have a pink 3. Donald does not see it anywhere else, so he determines that he must have the pink 3 on slot 3 (since that is the only other clued card that could possibly be a pink 3).
+- It is possible for a clue to be both a _Bubblegum Finesse_ and a _Bubblegum Prompt_ at the same time.
+  - In the previous example, we can modify Donald's hand such that he only holds the pink 4 (instead of holding both the pink 4 and the pink 3).
+  - In the previous example, Cathy discarded, but in the modified example, Cathy would know that the pink 4 was promised to be playable. And Cathy would not see anyone else holding the pink 3, so Cathy would have to respond by playing a pink 3 from her _Finesse Position_.
+
+### The Bubblegum Bluff (Standard Form)
 
 - Similar to a _Bubblegum Finesse_, it is also possible to perform a _Bubblegum Bluff_.
 - For example, in a 3-player game:
@@ -267,14 +284,42 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
   - Alice clues number 3 to Cathy, touching a pink 2 on slot 5.
   - Bob knows that Alice is violating _Pink Promise_. This must mean that he is supposed to play his slot 3 card.
   - Bob blind-plays slot 3 and it is a red 1.
-  - Cathy knows that if this was a _3 Bluff_, then Bob would have played his _Finesse Position_. So it cannot be a _3 Bluff_.
+  - Cathy knows that if this were a _3 Bluff_, then Bob would have played his _Finesse Position_. So it cannot be a _3 Bluff_.
   - Thus, Cathy knows that this must be a _Bubblegum_ clue. Since red 1 is not a pink card and Alice was in _Bluff Seat_ for Bob, this must be a _Bubblegum Bluff_.
   - Cathy marks her slot 5 card as the one-away-from-playable pink card, the pink 2.
 
 <BubblegumBluff />
 
-- _Bubblegum Bluffs_ can only be performed on non-pink cards; otherwise, it will look like a _Double Finesse_ with one part _Bubblegum Finesse_ and one part normal _Finesse_.
+- _Bubblegum Bluffs_ can only be performed on non-pink cards; otherwise, it will look like a _Bubblegum Finesse_.
 - Note that it is impossible to _3 Bluff_ and _Bubblegum Bluff_ at the same time.
+
+### The Bubblegum Bluff (Two-Away-From-Playable Form)
+
+- Normally, the clue reciever of a _Bubblegum Bluff_ marks their pink card as the lowest-possible, useful value. (In other words, it is marked as the _one-way-from-playable_ pink card.)
+- However, it is sometimes possible that the lowest-possible, useful value of the focused pink card is actually _two-away-from-playable_.
+- For example, in a 3-player game:
+  - It is the first turn and nothing is played on the stacks.
+  - Alice clues number 2 to Cathy, touching a pink 3 on slot 3 as a _Play Clue_. (The pink 3 is currently _two-away-from-playable_.)
+  - Bob knows that Alice is violating _Pink Promise_.
+  - If Bob blind-plays his _Finesse Position_ card and it successfully plays, it is guaranteed to be one of the 1s. If that happened, then Cathy would mark her clued card as the matching 2 and will go on to misplay it.
+  - Thus, Bob concludes this is a _Bubblegum Finesse_, with pink 1 in slot 2 and pink 2 in slot 1.
+  - Bob blind-plays his slot 2, but it is a red 1. It is now revealed to Bob that this was a _Bubblegum Bluff_ instead of a _Bubblegum Finesse_.
+  - Cathy knows that if her clued card were really a 2, Bob would have played slot 1. Thus, it cannot be a 2. Furthermore, there are no _Ejections_ that match this situation, so a _Bubblegum_ move must have happened. Normally, a _Bubblegum Bluff_ would be on a _one-away-from-playable_ card, but that would be the pink 2, and due to the circumstances of the clue, it is impossible to be a 2. Thus, it instead must be the _two-away-from-playable_ card, which is the pink 3.
+
+### The Bubblegum Double Bluff
+
+- Normally, after a _Bubblegum Bluff_, the entire team is synchronized on the identity of the focus of the _Bubblegum_ move.
+- But what if the note that the clue receiver would write on their card is still incorrect? In this situation, the clue-giver expects additional blind-plays to resynchronize the information, in the same way that a normal _Double Bluff_ works.
+- For example, in a 4-player game:
+  - It is the first turn and nothing is played on the stacks.
+  - Alice clues number 3 to Donald, touching a pink 4 on slot 1.
+  - Bob knows that Alice is violating _Pink Promise_. This must mean that he is supposed to play his slot 3 card as pink 1, with pink 2 and 3 promised as playable through his current _Finesse Position_ and _Second Finesse Position_, respectively.
+  - Bob blind-plays slot 3. It is a red 1 and it successfully plays on the stacks.
+  - From Donald's perspective, he knows that Alice performed a _Bubblegum Bluff_. Donald marks his slot 1 card as a pink 2 (i.e. the _one-away-from-playable_ pink card).
+  - Next, it is Cathy's turn. Cathy sees that Donald will mark his pink card as a pink 2. However, the card is really a pink 4, so the situation has not yet resolved.
+  - Cathy blind-plays her slot 1 card. It is a red 2 and it successfully plays on the stacks.
+  - Donald realizes that if his clued card were a pink 2, then Cathy would not have blind-played. Donald also knows that if the card were a pink 3, Bob would have played slot 1 as a _3 Bluff_. Thus, Donald updates the note on his card to be the next pink card, which is the pink 4.
+- Note that, in the previous example, the pink 4 happens to be _three-away-from-playable_, but that is not relevant for the move to work properly. A _Bubblegum Double Bluff_ can also be performed with a _two-away-from-playable_ card. What matters is that the team is re-synchronized on the identity of the focus of the _Bubblegum_ clue.
 
 ### The Bubblegum Slide
 
@@ -323,38 +368,6 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 
 <FakeFinesse />
 
-### The Taffy Bluff
-
-- First, see the section on the _[Bubblegum Bluff](#the-bubblegum-bluff)_.
-- A _Bubblegum Bluff_ is when _Pink Promise_ is violated on a _one-away-from-playable_ pink card to perform a _Bluff_.
-- It is also permissible to violate _Pink Promise_ on a _two-away-from-playable_ pink card to perform a _Bluff_. This is called a _Taffy Bluff_ to distinguish it from the former case.
-- For example, in a 3-player game:
-  - It is the first turn and nothing is played on the stacks.
-  - Alice clues number 2 to Cathy, touching a pink 3 on slot 5. (The pink 3 is _two-away-from-playable_.)
-  - Bob knows that Alice is violating _Pink Promise_.
-  - If he plays slot 1, then Alice will mark it as the matching 2 and will misplay it.
-  - Thus, this must be a _Bubblegum Double Finesse_, meaning that Bob should play the slot that matches the rank that Alice chose.
-  - Bob tries to blind-play pink 1 from slot 2, but it is a red 1 instead. It is now revealed to Bob that this was a _Taffy Bluff_ instead of a _Bubblegum Double Finesse_.
-  - Cathy knows that if her clued card was really a 2, Bob would have played slot 1. Thus, it cannot be a 2. Furthermore, there are no _Ejections_ that match this situation, so this must be a _Taffy Bluff_ on a pink 3.
-- It is also possible to perform a _Taffy Bluff_ with cards other than a pink 3. For example:
-  - A _two-away-from-playable_ pink 4 that is clued with a number 3 clue would cause a blind-play from slot 3.
-  - A _two-away-from-playable_ pink 5 that is clued with a number 4 clue would cause a blind-play from slot 4.
-- _Bubblegum Bluffs_ have precedence over _Taffy Bluffs_. In other words, you are only supposed to assume a _Taffy Bluff_ if a _Bubblegum Bluff_ is impossible.
-
-### The Taffy Double Bluff
-
-- First, see the section on the [Taffy Bluff](#the-taffy-bluff).
-- Rarely, a player can perform a _Taffy Double Bluff_ by violating _Pink Promise_ on a _three-away-from-playable_ pink card.
-- For example, in a 4 player game:
-  - It is the first turn of the game and nothing is played on the stacks.
-  - Alice clues number 4 to Donald, touching a pink 3 on slot 3.
-  - Bob knows that since Alice violated _Pink Promise_, this must be some sort of _Bubblegum_ move.
-  - Bob blind-plays his slot 4 card. It is a red 1 and it successfully plays on to the stacks.
-  - From Donald's perspective, he knows that Alice performed a _Bubblegum Bluff_. Donald marks his slot 3 card as a pink 2 (the pink card that is _one-away-from-playable_).
-  - Next, it is Cathy's turn. Cathy sees that Donald will mark his pink card as a pink 2. However, the card is really a pink 3, so the situation has not yet resolved.
-  - Cathy blind-plays her slot 1 card. It is a red 2 and it successfully plays on the stacks.
-  - Donald realizes that if his clued card was a pink 2, then Cathy would not have done anything. Thus, this must have been a _Taffy Double Bluff_. Donald updates the note on his card to be a pink 3 (the pink card that is _two-away-from-playable_).
-
 <br />
 
 ## Level 21 - Edge Cases
@@ -374,10 +387,10 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 
 ### Pink Precedence
 
-- The _Bubblegum Bluff_ and the _Taffy Bluff_ conventions usually take precedence over other kinds of moves. Specifically:
-  - The _Bubblegum_ and _Taffy_ conventions take precedence over a _Rank Choice Ejection (with 2)_.
-  - The _Bubblegum_ and _Taffy_ conventions take precedence over an _Unknown Trash Discharge_.
-  - The _Bubblegum Bluff_ and _Taffy Bluff_ hold equal precedence to a _4 Charm_. Thus, the clued player must write identity notes for both options.
+- The _Bubblegum_ conventions usually take precedence over other kinds of moves. Specifically:
+  - The _Bubblegum_ conventions take precedence over a _Rank Choice Ejection (with 2)_.
+  - The _Bubblegum_ conventions take precedence over an _Unknown Trash Discharge_.
+  - The _Bubblegum Bluff_ holds equal precedence to a _4 Charm_. Thus, the clued player must write identity notes for both options.
   - A true _Bubblegum Finesse_ takes precedence over _4 Charm_. (This is because, unlike in the _Bluff_ scenarios, the pink blind-play "connects" to the rank clue).
 - Note that _Trash Bluff_ still takes precedence over a _Bubblegum Finesse_ and a _Bubblegum Bluff_. For example, in a 3 player game:
   - Red 1 and blue 1 are played on the stacks.
