@@ -18,8 +18,11 @@ players:
       - type: r1
         clue: r
       - type: b1
+        border: false
       - type: g1
+        border: false
       - type: y1
+        border: false
   - cards:
       - type: x
         middle_note: r5?
