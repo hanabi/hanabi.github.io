@@ -1,10 +1,13 @@
 #!/bin/bash
 
-set -e # Exit on any errors.
+set -euo pipefail # Exit on errors and undefined variables.
+set -x
 
 # Get the directory of this script:
 # https://stackoverflow.com/questions/59895/getting-the-source-directory-of-a-bash-script-from-within
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+
+SECONDS=0
 
 cd "$DIR"
 
@@ -31,4 +34,4 @@ npx cspell-check-unused-words
 # Check for unused YML files.
 python "$DIR/image-generator/check_unused.py"
 
-echo "Success!"
+echo "Successfully linted in $SECONDS seconds."

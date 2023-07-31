@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -e
+set -euo pipefail # Exit on errors and undefined variables.
 
 function usage() {
 	echo "Usage: ./move-levels.sh A"
