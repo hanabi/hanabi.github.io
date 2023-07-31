@@ -119,7 +119,6 @@ module.exports = {
     {
       "Basic Strategies": [
         "reference",
-        "first-principles",
         "level-1",
         "level-2",
         "level-3",

@@ -10,12 +10,12 @@ cd "$DIR"
 
 PACKAGE_JSON="$DIR/package.json"
 OLD_HASH=$(md5sum "$PACKAGE_JSON")
+# - @mdx-js/react - Docusaurus does not support the latest version.
+# - react - Docusaurus does not support the latest version.
+# - react-dom - Docusaurus does not support the latest version.
+# - unified - Stuck until Docusaurus moves to ESM.
 npx npm-check-updates --upgrade --packageFile "$PACKAGE_JSON" --reject "@mdx-js/react,react,react-dom,unified"
 NEW_HASH=$(md5sum "$PACKAGE_JSON")
-if [[ $OLD_HASH != $NEW_HASH ]]; then
-  if test -f "$DIR/yarn.lock"; then
-    yarn install
-  else
-    npm install
-  fi
+if [[ "$OLD_HASH" != "$NEW_HASH" ]]; then
+  yarn install
 fi
