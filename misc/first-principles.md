@@ -16,7 +16,7 @@ Thus, _First Principles_ are a nice idea, but do not work well enough in practic
 
 ## A First Principles List
 
-If you absolutely had to come up with a set of _First Principles_ that our conventions "flowed from", you could do it, but it wouldn't be very accurate or very useful or very good (as explained above). But if you did, it would look something like this:
+If you absolutely had to come up with a set of _First Principles_ that our conventions "flowed from", you could do it, but it would not be very accurate or very useful or very good (as explained above). But if you did, it would look something like this:
 
 <br>
 
