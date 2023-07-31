@@ -4,7 +4,7 @@
 
 As a somewhat advanced Hanabi Group, we have a lot of conventions. Teaching a brand new player all of the conventions is difficult. To solve this problem, we have grouped the conventions into arbitrary "levels", so that new players can learn them bit by bit.
 
-Another possible strategy to solve this problem would be to agree on some basic principles, and then have every convention flow from the basic principles. In that world, new players could just learn the first principles, and then use logic and reasoning to find out the resulting strategy that their teammate is intending. However, in reality, this strategy does not work.
+Another possible strategy to solve this problem would be to agree on some basic principles, and then have every convention flow from the basic principles. In that world, new players could just learn the first principles, and then use logic and reasoning to find out the resulting strategy that their teammate is intending. Unfortunately, this strategy does not work very well.
 
 The first problem is that "first principles" collide with each other. When two first principles are in conflict, which one has precedence? In real games, this is messy: we want some principles to have precedence in certain situations, and other principles to have precedence in other situations. And you don't start to get an intuition for this until you have played hundreds and hundreds of games.
 
