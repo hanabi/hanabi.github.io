@@ -31,6 +31,7 @@ module.exports = {
     "@typescript-eslint/no-var-requires": "off",
     "@typescript-eslint/strict-boolean-expressions": "off",
     "import/no-unresolved": "off",
+    "import/no-default-export": "off",
     "isaacscript/no-let-any": "off",
     "isaacscript/no-object-any": "off",
     "no-alert": "off",

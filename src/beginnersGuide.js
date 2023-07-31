@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
-import { mainSidebar } from "../sidebars";
+import { mainSidebar } from "../sidebars.js";
 
 const beginnersGuidePartsRaw = mainSidebar.find(
   (item) => item["Beginner's Guide"]
