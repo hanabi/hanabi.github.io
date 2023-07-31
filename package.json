@@ -59,7 +59,7 @@
     "retext-syntax-urls": "^3.1.2",
     "shell-loader": "^1.2.1",
     "typescript": "^5.1.6",
-    "unified": "9.2.2"
+    "unified": "^10.1.2"
   },
   "packageManager": "yarn@3.6.1"
 }

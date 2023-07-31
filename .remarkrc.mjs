@@ -8,12 +8,12 @@ import retextRedundantAcronyms from "retext-redundant-acronyms";
 import retextRepeatedWords from "retext-repeated-words";
 import retextSyntaxMentions from "retext-syntax-mentions";
 import retextSyntaxURLs from "retext-syntax-urls";
-import unified from "unified";
+import { unified } from "unified";
 
 const config = {
   plugins: [
     // Use the recommended presets by remark:
-    // https://github.com/remarkjs/remark-lint#list-of-presets
+    // https://github.com/remarkjs/remark-lint#presets
     "remark-preset-lint-consistent",
     "remark-preset-lint-markdown-style-guide",
     "remark-preset-lint-recommended",
