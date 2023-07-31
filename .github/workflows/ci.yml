@@ -55,7 +55,7 @@ jobs:
 
       - name: Install dependencies (if the cached directory was not found)
         if: steps.node-cache.outputs.cache-hit != 'true'
-        run: yarn install --frozen-lockfile
+        run: yarn install --immutable
 
       - name: Use Docusaurus to build the website
         run: bash build.sh
@@ -64,7 +64,7 @@ jobs:
         run: bash lint.sh
 
       - name: Deploy to GitHub pages
-        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        if: github.ref == 'refs/heads/main' && needs.pr-check.outputs.number != 'null'
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -75,7 +75,7 @@ jobs:
     needs: [build_lint_deploy]
     # "always()" is needed to always run this job, even if the other jobs fail.
     # We don't want to spam the "#conventions-new" channel when people have failing pull requests.
-    if: always() && github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    if: always() && github.ref == 'refs/heads/main' && needs.pr-check.outputs.number != 'null'
     runs-on: ubuntu-latest
     steps:
       - uses: technote-space/workflow-conclusion-action@v2
