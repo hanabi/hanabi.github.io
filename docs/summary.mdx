@@ -102,11 +102,40 @@ This page is a summary of the most commonly used conventions in the "Basic Strat
 
 ## Bluffs
 
+- A [_Bluff_](level-11.mdx) is a special move in which one tells a "fib" to the next player, causing them to blind-play a card as if they were being _Finessed_, only for the fib to revealed as soon as Bob blind-plays.
+- The focused card of the clue that triggers a _Bluff_ is called a _Bluff Target_.
+- Because _Bluffs_ involve not telling the truth, we impose several restrictions on them. Say Alice is giving the clue.
+  - A _Bluff_ can **only** be done on Bob.
+  - A _Bluff_ is only legal if **Bob would blind-play on the very next turn**, even assuming a _Finesse_ over a _Bluff_. In other words, Bob must blind-play even if did not know about the _Bluff_ convention. This is called [_Bob's Truth Principle_](level-11.mdx#bobs-truth-principle-part-1).
+  - The only cards which may be used as the _Bluff Target_ are:
+    - Any card which is one-away-from-playable.
+    - Any 3 which is two-away-from-playable. This is called a [_3 Bluff_](level-13.mdx#the-3-bluff).
+    - Any 4 which is critical, but only if a color clue is used. This is called a [_Critical Color Bluff_](level-13.mdx#the-critical-color-bluff).
+  - Finally, the _Bluff Target_ must **not "connect" to the blind-played card** from Bob, so the clue is not mistaken for a _Finesse_. This is called [_Cathy's Connecting Principle_](level-11.mdx#cathys-connecting-principle-part-2).
+- A [_Double Bluff_](level-15.mdx) is similar to a _Bluff_, but it causes both Bob and Cathy to blind-play their first slot.
+  - The focused card must **not** be a valid _Bluff Target_, and at least two-away-from-playable.
+    (There is an exception called the [_Pestilent Double Bluff_](level-15.mdx#the-pestilent-double-bluff-pdb).)
+  - In practice, _Double Bluffs_ are almost always given to a 4, for which the corresponding 2 is not yet played.
+    (This is because the 5 case is overrode by the _5 Color Ejection_ defined later.)
+  - A _Double Bluff_ must be demonstrated immediately to be legal: both players must blind play immediately.
+
 ## Special blind plays
 
 ### Trash pushes
 
+- Normally, a clue which focuses known trash causes a _Trash Chop Move_ on cards to the right of the trash. However, if the trash is already on chop, this interpretation does not make sense as no cards would be _Chop Moved_.
+- Instead, this causes the card to the left of the clued trash to blind-play right away. This is called a [_Trash Push_](level-14.mdx#the-trash-push).
+
 ### Ejections, discharges, and charms
+
+- An _Ejection_, _Discharge_, or _Charm_ refers to a special move by Alice which causes Bob to immediately blind-play his _Second Finesse Position_, _Third Finesse Position_, or _Fourth Finesse Position_, respectively. Like _Bluffs_, these may not be deferred. The most common types of these moves are given below.
+- If Alice gives a _Play Clue_ by color to a 5, and Bob sees he would have to blind-play **two or more** cards to fulfill this promise, we agree this is not a _Play Clue_ at all, but a [_5 Color Ejection (5CE)_](level-16.mdx#the-5-color-ejection-5ce). Bob must immediately blind-play his _Second Finesse Position_.
+- Sometimes, Alice can give a _Play Clue_ to a card which is trash, but for which the recipient of the clue cannot tell it is trash. In that case, the rest of the team needs to blind-play something to signal to the clue recipient to prevent the card from bombing.
+  - In some cases, blind-playing a single card is enough to prove the card is trash. For example, if Cathy receives a 1's clue, and Bob blind-plays in response to the clue, then Cathy knows the focused 1 is trash.
+  - This is called a [_Trash Bluff_](level-14.mdx#the-trash-bluff) or [_Trash Finesse_](level-14.mdx#the-trash-finesse), and promises all the touched cards are trash.
+  - If a single blind-play would **not** resynchronize the team, then a different move is called for: an [_Unknown Trash Discharge (UTD)_](level-16.mdx#the-unknown-trash-discharge-1-for-1-form-utd). Bob must immediately blind-play his _Third Finesse Position_.
+  - Once this happens, the clue recipient marks the focused card as trash. However, _Good Touch_ still applies to any other touched cards (unlike with the _Trash Bluff_ or _Trash Finesse_).
+- TODO charm
 
 ### Ignition
 
