@@ -2,7 +2,7 @@
 
 Please visit the **[conventions website](https://hanabi.github.io/)**.
 
-This is the GitHub repository for the website. It is built with [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
+This is the GitHub repository for the website. It is built with [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
 <br />
 
