@@ -1,0 +1,83 @@
+---
+id: summary
+title: Summary
+---
+
+This page is a summary of the most commonly used conventions in the "Basic Strategies" section. It is intended to be used as a quick reference and overview, and does _not_ cover the details of each convention, edge cases, and so on. Moreover, it does not cover every single convention that is introduced in the document.
+
+## Playing and saving cards
+
+### Focus and clue interpretation
+
+- Normally, every clue is focused on one specific card, which is the _Chop_ (oldest unclued card) if possible; otherwise it is the leftmost new card.
+- We follow the _Good Touch Principle_, which is a promise that cards touched other than the focus will be eventually playable.
+- Normally, every clue is either a _Play Clue_ or a _Save Clue_.
+- We can only give a _Save Clue_ to a card which is on chop, and only if it is a 5 (by number), a unique 2 (by number), or a critical card (by either number or color).
+
+### Prompts and finesses
+
+- A _Play Clue_ is a promise that a card is playable now. So in particular, any "connecting" cards are promised to the remaining teammates as well. For example, if a red 3 is given a _Play Clue_, and the red 1 and 2 have not been played yet, then the player giving the clue is _also_ making a promise that the other teammates have the red 1 and red 2.
+- In such a situation, these teammates need to fulfill the promise of the clue giver by playing the connecting cards.
+- They should first look among their clued cards for cards that match, and play those from left to right (called a [_Prompt_](level-1.mdx#the-prompt)). If there are no clued cards that match (or all matching cards have been played, and the promise is still not fulfilled), they should blind-play their _unclued_ cards from left to right until the promise is fulfilled (called a [_Finesse_](level-1.mdx#the-finesse)).
+  - If there are potential _Prompts_ or _Finesses_, then other players may need to wait before playing their cards.
+  - The _Double Prompt_, _Double Finesse_, _Reverse Finesse_, _Hidden Finesse_, _Layered Finesse_, and _Clandestine Finesse_ are all special cases of this general principle, but they each have separate names.
+
+## Chop moves
+
+### Definition
+
+- The H-Group has several conventions which can tell a player that a card on their _Chop_ is important and should not be discarded, even without touching the card with a clue. This is called a _[Chop Move](level-4.mdx#chop-moves)_.
+- When a Chop Move occurs, the player considers the card on their chop to be touched with an "invisible" clue. Thus, their chop will "move" to the next right-most unclued card.
+- Chop Moved cards don't count as "matching" for the purposes of _Prompts_.
+
+### Types of chop moves
+
+- The [_Trash Chop Move_](level-4.mdx#the-trash-chop-move) is a move in which a clue is given that touches only cards that are known to be trash. In that case, we agree to _Chop Move_ every card to the right of the rightmost trash card.
+- The [_5's Chop Move_](level-4.mdx#the-5s-chop-move-5cm) is a number 5 clue that touches a 5 which is **one-away** from chop. In that case, we agree to also _Chop Move_ the _Chop_ card.
+- When a player receives a 1's clue at the beginning of the game, the 1's that were in the starting hand should "normally" be played in a [special order](level-3.mdx#playing-multiple-1s):
+
+  - If a 1 was on Chop at the start of the game, that 1 should be played first.
+  - Any 1's that were drawn after the start of the game should be played from newest to oldest.
+  - Any remaining 1's should be played from right to left.
+
+  If the 1's are played in a different order, this triggers an [_Order Chop Move_](level-4.mdx#the-order-chop-move-ocm) based on the number of 1's which are "skipped" over: skipping over a single 1 Chop Moves the next player, skipping over two 1's Chop Moves the player after that, and so on.
+
+- If a clue only gets a **single** card to play, and that card **already had a clue on it** (meaning the clue has efficiency 0-for-1), the clue is called a non-valuable [_Tempo Clue_](level-6.mdx#the-tempo-clue). These clues are so bad that, if the player is not in some sort of "stalling" situation, we agree the clue should also _Chop Move_ the player receiving the clue (because otherwise such clues are too wasteful). This is called a [_Tempo Clue Chop Move_](level-6.mdx#the-tempo-clue-chop-move-tccm).
+
+- If Alice has a known playable card in their hand, and she chooses to discard her Chop anyway instead of playing their card, then this signals to the team there is some sort of emergency. There are two common moves this corresponds to.
+
+  - If the team has 0 clues and Bob has a playable or critical card on his Chop, this triggers a [_Scream Discard Chop Move_](level-7.mdx#the-scream-discard-chop-move-sdcm) on Bob. the purpose of Alice's discard is to prevent Bob from discarding. So, Bob should _Chop Move_ once.
+  - Bob is also required to **not** discard on the turn he is screamed at (because he could have multiple critical cards), and can stall if necessary.
+  - If the team has 0 clues and Cathy has a playable or critical card on her Chop, and does not have something to do, we instead consider this a [_Generation Discard_](level-7.mdx#the-generation-discard); the purpose of Alice's discard is to generate a clue so that Bob can save Cathy's card.
+
+- When a player has multiple known-trash cards, they are normally expected to discard them from **left to right**. Skipping over trash cards triggers a [_Trash Order Chop Move_](level-14.mdx#the-trash-order-chop-move-tocm) similarly to an _Order Chop Move_.
+
+## Basic conventions
+
+### Special discards
+
+- If a player discards a known useful card, it promises **someone else has the other copy**.
+  - Like with prompts vs finesses, clued cards that match should first be considered. In ideal situations, this doesn't happen because the _Good Touch_ prohibits cluing both copies of the same card, but sometimes it could happen due to a mistake or an awkward situation. In this case, we call this move a [_Sarcastic Discard_](level-3.mdx#the-sarcastic-discard). Such a discard is useful because it resynchronizes the team, communicating to the other players and preventing potential confusion.
+  - Otherwise, it promises the other copy in someone's _Finesse Position_. This is called either a [_Gentleman's Discard_](level-10.mdx#the-gentlemans-discard) or [_Baton Discard_](level-10.mdx#-the-baton-discard), depending on whether the card is already playable or not.
+  - The _Gentleman's Discard_ can be layered, but the _Baton Discard_ cannot be.
+- Towards the very end of a game, a player can opt to discard an unclued card off their chop to communicate the position of a card to play: for example, discard slot 2 for no apparent reason tells the team that a player has a playable card on slot 2. This is called a [_Positional Discard_](level-8.mdx#the-positional-discard-indicating-a-play-with-a-discard).
+
+### Double discard avoidance
+
+### Stalling
+
+## Bluffs
+
+## Special blind plays
+
+### Trash pushes
+
+### Ejections, discharges, and charms
+
+### Ignition
+
+## Elimination
+
+## Priority
+
+## Unnecessary moves
