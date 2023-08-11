@@ -59,7 +59,7 @@ This page is a summary of the most commonly used conventions in the "Basic Strat
 ### Discarding clued non-trash cards
 
 - If a player discards a known non-trash card, it promises **someone else has the other copy**.
-- Like with prompts vs finesses, clued cards that match should first be considered. In ideal situations, this doesn't happen because the _Good Touch_ prohibits cluing both copies of the same card, but sometimes it could happen due to a mistake or an awkward situation. In this case, we call this move a [_Sarcastic Discard_](level-3.mdx#the-sarcastic-discard). Such a discard is useful because it resynchronizes the team, communicating to the other players and preventing potential confusion.
+- Like with prompts vs finesses, clued cards that match should first be considered. (This is rare because _Good Touch_ prohibits cluing both copies of the same card, but sometimes it happens due to a mistake or an awkward situation.) In this case, we call this move a [_Sarcastic Discard_](level-3.mdx#the-sarcastic-discard). Such a discard is useful because it resynchronizes the team, communicating the duplication to the other players and preventing potential confusion.
 - Otherwise, it promises the other copy in someone's _Finesse Position_. This is called either a [_Gentleman's Discard_](level-10.mdx#the-gentlemans-discard) or [_Baton Discard_](level-10.mdx#-the-baton-discard), depending on whether the card is already playable or not.
 
 ### Double discard avoidance
@@ -138,11 +138,30 @@ This page is a summary of the most commonly used conventions in the "Basic Strat
   - This is called a [_Trash Bluff_](level-14.mdx#the-trash-bluff) or [_Trash Finesse_](level-14.mdx#the-trash-finesse), and promises all the touched cards are trash.
   - If a single blind-play would **not** resynchronize the team, then a different move is called for: an [_Unknown Trash Discharge (UTD)_](level-16.mdx#the-unknown-trash-discharge-1-for-1-form-utd). Bob must immediately blind-play his _Third Finesse Position_.
   - Once this happens, the clue recipient marks the focused card as trash. However, _Good Touch_ still applies to any other touched cards (unlike with the _Trash Bluff_ or _Trash Finesse_).
-- **4 Charm**. If Alice gives a _Play Clue_ to a fresh 4, and Bob sees he would have to blind-play **three or more** cards to fulfill this promise, we agree this is not a _Play Clue_ at all. Bob would normally expect a _Double Bluff_, but sometimes Bob can rule out this interpretation too because Cathy's _Finesse Position_ is not playable. In this case, the clue instead triggers a [_4 Charm_](level-24.mdx#the-4-charm). Bob must immediately blind-play his _Fourth Finesse Position_.
+- **4 Charm**. If Alice gives a _Play Clue_ to a fresh 4, and Bob sees he would have to blind-play **three or more** cards to fulfill this promise, we agree this is not a _Play Clue_ at all. Bob would normally expect a _Double Bluff_, but sometimes Bob can rule out this interpretation too because Cathy's _Finesse Position_ is not playable. In this case, Alice's clue instead triggers a [_4 Charm_](level-24.mdx#the-4-charm). Bob must immediately blind-play his _Fourth Finesse Position_.
 
 ### Ignition
 
+- A [_Double Ignition_](level-22.mdx#double-ignition-di) is a move which causes
+  two players to blind-play their finesse position.
+  - If Alice gives the clue, then Bob, and the last player with a playable card,
+    should blind-play.
+- When not in a stalling situation, several "useless" moves trigger a _Double Ignition_:
+  - **Replay Double Ignition**. A [_Replay Double Ignition_](level-22.mdx#the-replay-double-ignition) is triggered by re-cluing a globally known playable card.
+  - **Poke Double Ignition**. A [_Poke Double Ignition_](level-22.mdx#the-poke-double-ignition) is triggered by re-cluing a globally known trash card.
+  - **Trash Double Ignition**. Towards the end of the game, [_Trash Double Ignition_](level-22.mdx#the-trash-double-ignition) is triggered by cluing new trash cards, when the move cannot be mistaken for a _Trash Chop Move_ (off-chop) or _Trash Push_ (on chop).
+- **Chop Move Ignition**. A [_Chop Move Ignition_](level-22.mdx#the-chop-move-ignition) is triggered by _Chop Moving_ a card that could have simply been given a direct _Play Clue_. (It is only calls for one blind play, unlike the previous _Double Ignitions_.)
+
 ## 5 Tech
+
+- Up until now, the precedence for "special" 5 moves are _5 Save_ > _5 Stall_ > _5 Chop Move_ > _Play Clue_.
+- We define the [_Low Score Phase_](level-19.mdx#the-low-score-phase-and-the-normal-score-phase) as the period when the score is at most twice the number of suits.
+- In the _Low Score Phase_, we **turn off _Play Clues_ by Number 5**. So, if Alice gives a number 5 clue to a 5 which is two-or-more-away-from-chop, and a _5 Stall_ can be ruled out, then a different interpretation is needed. The team should react based on the card which is to the right of the touched 5:
+  - **5 Pull**. The usual interpretation is a [_5 Pull_](level-19.mdx#the-5-pull), which calls for the card to the right of the 5 to be blind-played. We say the card is _Pulled_.
+  - _5 Pulls_ can also trigger _Prompts_ and _Finesses_ like a normal _Play Clue_.
+  - However, if a blind-play is necessary, we require the first blind-played card to be held by someone between Alice and the _Pulled_ player. (This limits the number of possibilities the _Pulled_ player needs to consider.)
+  - **5NE**. However, if Bob would require two or more blind-plays to fulfill a promise on the _Pulled_ card, we agree to instead use a different interpretation: Bob should react with a _Ejection_ (immediately blind-playing slot 2). This is called a [_5 Number Ejection_](level-19.mdx#5-number-ejection-5ne), much like a _5CE_.
+  - **5ND**. Finally, if the _Pulled_ card is actually trash, then Bob should react with a _Discharge_ (immediately blind-playing slot 3). This is called a [_5 Number Discharge_](level-19.mdx#5-number-discharge-5nd), much like a _UTD_.
 
 ## Priority
 
