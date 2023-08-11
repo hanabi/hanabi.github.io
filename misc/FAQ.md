@@ -63,7 +63,7 @@ Yes.
 
 ### What is the precedence of the different "5 moves"?
 
-_5 Save_ > 5 _Stall_ > _5 Chop Move_ > _5 Pull_
+_5 Save_ > _5 Stall_ > _5 Chop Move_ > _5 Pull_
 
 <br />
 
