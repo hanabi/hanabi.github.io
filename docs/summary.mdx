@@ -3,34 +3,34 @@ id: summary
 title: Summary / Cheat Sheet
 ---
 
-This page is a summary of the most commonly used conventions in the "Basic Strategies" section. It is intended to be used as a quick reference and overview, and does _not_ cover the details of each convention, edge cases, and so on. Moreover, it does not cover every single convention that is introduced in the document.
+This page is a summary of the most commonly used conventions in the "Basic Strategies" section. It is intended to be used as a quick reference and overview, and does not cover the details of each convention, edge cases, rarely-used conventions, and so on.
 
-Remember that conventions aren't meant to be followed like laws. [The context of the game should always be considered](level-11.mdx#context), and every convention can be broken from the textbook interpretation if the situation demands it.
+## Playing and Saving Cards
 
-## Playing and saving cards
+### Focus and Clue Interpretation
 
-### Focus and clue interpretation
-
-- Normally, every clue is focused on one specific card, which is the _Chop_ (oldest unclued card) if possible; otherwise it is the leftmost new card.
-- The _Good Touch Principle_ states that the other touched cards (besides the focus) will be eventually useful.
+- Normally, every clue is focused on one specific card.
+- If the _Chop_ (oldest unclued card) is touched, then the clue is focused on the chop. Otherwise, the clue is focused on the left-most new card.
+- _Good Touch Principle_ states that the other touched cards (besides the focus) will be eventually useful.
 - Normally, every clue is either a _Play Clue_ or a _Save Clue_.
 - We can only give a _Save Clue_ to a card which is on chop, and only if it is a 5 (by number), a unique 2 (by number), or a critical card (by either number or color).
 
-### Prompts and finesses
+### Prompts and Finesses
 
-- A _Play Clue_ is a promise that a card is playable now. So in particular, any "connecting" cards are promised to the remaining teammates as well. For example, if a red 3 is given a _Play Clue_, and the red 1 and 2 have not been played yet, then the player giving the clue is _also_ making a promise that the other teammates have the red 1 and red 2.
+- A _Play Clue_ is a promise that a card is playable now. If there are "connecting" cards, the team is promised that the connecting cards are present and accounted for.
+  - For example, if a red 3 is given a _Play Clue_, and the red 1 and 2 have not been played yet, then the player who is giving the clue is _also_ making a promise that the team collectively has the red 1 and the red 2.
 - In such a situation, these teammates need to fulfill the promise of the clue giver by playing the connecting cards.
 - They should first look among their clued cards for cards that match, and play those from left to right (called a [_Prompt_](level-1.mdx#the-prompt)). If there are no clued cards that match (or all matching cards have been played, and the promise is still not fulfilled), they should blind-play their _unclued_ cards from left to right until the promise is fulfilled (called a [_Finesse_](level-1.mdx#the-finesse)).
   - If there are potential _Prompts_ or _Finesses_, then other players may need to wait before playing their cards.
   - The _Double Prompt_, _Double Finesse_, _Reverse Finesse_, _Hidden Finesse_, _Layered Finesse_, and _Clandestine Finesse_ are all special cases of this general principle.
 
-## Chop moves
+## Chop Moves
 
 - The H-Group has several conventions which can tell a player that a card on their _Chop_ is important and should not be discarded, even without touching the card with a clue. This is called a _[Chop Move](level-4.mdx#chop-moves)_.
 - When a Chop Move occurs, the player considers the card on their chop to be touched with an "invisible" clue. Thus, their chop will "move" to the next right-most unclued card.
 - Chop Moved cards don't count as "matching" for the purposes of _Prompts_.
 
-### Types of chop moves
+### Types of Chop Moves
 
 - **Order Chop Move**. When a player receives a 1's clue at the beginning of the game, **the 1's that were in the starting hand should "normally" be played in a [special order](level-3.mdx#playing-multiple-1s)**:
 
@@ -58,20 +58,20 @@ Remember that conventions aren't meant to be followed like laws. [The context of
 
 ## Discarding
 
-### Discarding clued non-trash cards
+### Discarding Clued Non-Trash Cards
 
 - If a player discards a known non-trash card, it promises **someone else has the other copy**.
 - Like with prompts vs finesses, clued cards that match should first be considered. (This is rare because _Good Touch_ prohibits cluing both copies of the same card, but sometimes it happens due to a mistake or an awkward situation.) In this case, we call this move a [_Sarcastic Discard_](level-3.mdx#the-sarcastic-discard). Such a discard is useful because it resynchronizes the team, communicating the duplication to the other players and preventing potential confusion.
 - Otherwise, it promises the other copy in someone's _Finesse Position_. This is called either a [_Gentleman's Discard_](level-10.mdx#the-gentlemans-discard) or [_Baton Discard_](level-10.mdx#-the-baton-discard), depending on whether the card is already playable or not.
 
-### Double discard avoidance
+### Double Discard Avoidance
 
 - A _Double Discard situation_ is one where the previous player discards (or misplays) a card; **and** the current player could be discarding the other copy of that card.
 - If the team is unlucky, this could lose the game. So, we agree to treat this as a "stalling" situation as well.
 - If advanced H-group features are turned on in hanab.live, _Double Discard_ situations will be indicated by a different discard sound effect, a yellow border around the discard pile, and small blue question marks on cards which might match the card just discarded or misplayed.
 - In [hard variants](variant-specific.mdx#hard-variants--easy-variants), _Double Discard Avoidance_ is turned off.
 
-### Elimination notes
+### Elimination Notes
 
 - Sometimes a player can realize that they must have a specific card somewhere in their hand.
   - If nothing special is happening, and a player sees a playable card or a 2 get unexpectedly discarded, it follows someone has the other copy.
@@ -124,14 +124,14 @@ Remember that conventions aren't meant to be followed like laws. [The context of
   (This is because the 5 case is overwritten by the _5 Color Ejection_ defined later.)
 - A _Double Bluff_ must be demonstrated immediately to be legal: both players must blind play immediately.
 
-## Special blind plays
+## Special Blind Plays
 
-### Trash pushes
+### Trash Pushes
 
 - Normally, a clue which focuses known trash causes a _Trash Chop Move_ on cards to the right of the trash. However, if the trash is already on chop, this interpretation does not make sense as no cards would be _Chop Moved_.
 - Instead, this causes the card to the left of the clued trash to blind-play right away. This is called a [_Trash Push_](level-14.mdx#the-trash-push).
 
-### Ejections, discharges, and charms
+### Ejections, Discharges, and Charms
 
 - An _Ejection_, _Discharge_, or _Charm_ refers to a special move by Alice which causes Bob to immediately blind-play his _Second Finesse Position_, _Third Finesse Position_, or _Fourth Finesse Position_, respectively. Like _Bluffs_, these may not be deferred. The most common types of these moves are given below.
 - **5CE**. If Alice gives a _Play Clue_ by color to a fresh 5, and Bob sees he would have to blind-play **two or more** cards to fulfill this promise, we agree this is not a _Play Clue_ at all, but a [_5 Color Ejection (5CE)_](level-16.mdx#the-5-color-ejection-5ce). Bob must immediately blind-play his _Second Finesse Position_.
@@ -174,7 +174,7 @@ Remember that conventions aren't meant to be followed like laws. [The context of
   - It's also allowed to use _Priority_ to get the next card even if it is not on _Finesse Position_; however, this forces someone to give a _Play Clue_ to the player with the card to prevent an impending misplay (since they will think it's a _Priority Finesse_ otherwise). This kind of _Play Clue_ is called a [_Load Clue_](level-20.mdx#the-load-clue).
 - Normally _Priority_ is only triggered by playing known cards, not by unknown cards. However, if playing an unknown card is obviously really dumb, _Priority_ is still triggered anyway.
 
-## Unnecessary moves
+## Unnecessary Moves
 
 - An [_Unnecessary Move_](level-25.mdx#unnecessary-moves) is a "complicated" move that could have just been a normal _Play Clue_, with no other benefits (like picking up extra cards or filling in information).
 - If Alice performs an _Unnecessary Move_, one "extra" thing is called for:
