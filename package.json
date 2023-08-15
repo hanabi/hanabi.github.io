@@ -24,8 +24,8 @@
     ]
   },
   "dependencies": {
-    "@docusaurus/core": "2.4.1",
-    "@docusaurus/preset-classic": "2.4.1",
+    "@docusaurus/core": "^2.4.1",
+    "@docusaurus/preset-classic": "^2.4.1",
     "@mdx-js/react": "1.6.2",
     "clsx": "^2.0.0",
     "raw-loader": "^4.0.2",
@@ -35,11 +35,11 @@
     "react-helmet": "^6.1.0"
   },
   "devDependencies": {
-    "cspell": "^6.31.2",
+    "cspell": "^7.0.0",
     "cspell-check-unused-words": "^1.0.4",
-    "isaacscript-lint": "^4.16.10",
+    "isaacscript-lint": "^5.2.2",
     "isaacscript-tsconfig": "^4.0.0",
-    "npm-check-updates": "^16.10.17",
+    "npm-check-updates": "^16.11.1",
     "remark-cli": "^11.0.0",
     "remark-lint-match-punctuation": "^0.2.1",
     "remark-lint-no-dead-urls": "^1.1.0",
