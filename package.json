@@ -27,7 +27,7 @@
     "@docusaurus/core": "^2.4.1",
     "@docusaurus/preset-classic": "^2.4.1",
     "@mdx-js/react": "1.6.22",
-    "clsx": "1.2.1",
+    "clsx": "^2.0.0",
     "raw-loader": "^4.0.2",
     "react": "17.0.2",
     "react-circular-progressbar": "^2.1.0",

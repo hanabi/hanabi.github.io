@@ -31,5 +31,5 @@ fi
 cd "$DIR"
 SECONDS=0
 rm -rf "$DIR/build"
-yarn build
+yarn run build
 echo "Build successful. (It took $SECONDS seconds.)"
