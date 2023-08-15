@@ -29,7 +29,7 @@ def main():
 
     if unused_yaml_files:
         for yml in sorted(unused_yaml_files):
-            printf("unused YAML file:", yml)
+            printf("Unused YAML file:", yml)
         error("Unused YML files found.")
 
 
