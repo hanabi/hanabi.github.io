@@ -1,26 +1,38 @@
-// The configuration file for TypeScript
+// The configuration file for TypeScript.
+// This file is not used in compilation. It is here just for a nice editor experience.
 {
-  // We extend the standard IsaacScript config
-  // https://github.com/IsaacScript/isaacscript-tsconfig/blob/main/tsconfig.node.json
-  "extends": "isaacscript-tsconfig/tsconfig.node.json",
+  "extends": [
+    // We extend the base IsaacScript config:
+    // https://github.com/IsaacScript/isaacscript/blob/main/packages/isaacscript-tsconfig/configs/tsconfig.base.json
+    "isaacscript-tsconfig/tsconfig.base.json",
+
+    // We extend the standard Docusaurus config:
+    // https://github.com/tsconfig/bases/blob/main/bases/docusaurus.json
+    "@tsconfig/docusaurus/tsconfig.json",
+  ],
 
   // https://www.typescriptlang.org/docs/handbook/compiler-options.html
   "compilerOptions": {
-    // "outDir" specifies the output directory
-    // By default, it will put the compiled ".js" next to the respective ".ts" file,
-    // which will clutter the "src" directory
-    "outDir": "dist",
+    "baseUrl": ".",
   },
 
-  // A list of the TypeScript files to compile
+  // We want to lint every file in the repository.
   "include": [
-    ".remarkrc.mjs",
-    "babel.config.js",
-    "docusaurus.config.js",
-    "image-generator/**/*.js",
-    "sidebars.js",
-    "src/**/*.js",
-    "src/**/*.ts",
-    "static/**/*.js",
+    "./**/*.js",
+    "./**/.*.js",
+    "./**/*.cjs",
+    "./**/.*.cjs",
+    "./**/*.mjs",
+    "./**/.*.mjs",
+    "./**/*.jsx",
+    "./**/.*.jsx",
+    "./**/*.ts",
+    "./**/.*.ts",
+    "./**/*.cts",
+    "./**/.*.cts",
+    "./**/*.mts",
+    "./**/.*.mts",
+    "./**/*.tsx",
+    "./**/.*.tsx",
   ],
 }

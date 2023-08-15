@@ -35,6 +35,7 @@
     "react-helmet": "^6.1.0"
   },
   "devDependencies": {
+    "@tsconfig/docusaurus": "^2.0.0",
     "cspell": "^7.0.0",
     "cspell-check-unused-words": "^1.0.4",
     "isaacscript-lint": "^5.2.2",
