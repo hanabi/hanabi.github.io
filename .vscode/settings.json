@@ -8,22 +8,30 @@
   "editor.rulers": [100],
   "editor.tabSize": 2,
 
-  // Linux line endings are used in this project.
+  // We want to always use "lf" to be consistent with all platforms.
   "files.eol": "\n",
 
   // Automatically removing all trailing whitespace when saving a file.
   "files.trimTrailingWhitespace": true,
 
   // Configure glob patterns for excluding files and folders in full text searches and quick open.
-  // (File extensions must be specified or the glob won't work properly.)
   "search.exclude": {
     "**/*.png*": true,
     "**/*.svg*": true,
+    "**/.yarn/": true,
+    "**/node_modules/": true,
   },
 
-  // -----------------------
-  // JavaScript / TypeScript
-  // -----------------------
+  // ------------------
+  // Extension settings
+  // ------------------
+
+  // Use Prettier to format "cspell.json".
+  "cSpell.autoFormatConfigFile": true,
+
+  // -----------------
+  // Language settings
+  // -----------------
 
   // By default, VSCode will not automatically fill-in function arguments.
   "javascript.suggest.completeFunctionCalls": true,
