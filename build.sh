@@ -10,10 +10,7 @@ SECONDS=0
 
 cd "$DIR"
 
-# Install Python dependencies:
-pip install -r "$DIR/image-generator/requirements.txt" --quiet
-
-# Build the website (which will go into the "build" subdirectory):
+# Build the website. (It will go into the "build" subdirectory.)
 rm -rf "$DIR/build"
 yarn run build
 

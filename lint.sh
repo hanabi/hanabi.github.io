@@ -33,7 +33,10 @@ npx cspell --no-progress --no-summary .
 # Check for unused CSpell words.
 npx cspell-check-unused-words
 
-# Check for unused YML files.
+# Check for invalid YAML files.
+bash "$DIR/image-generator/check_valid.sh"
+
+# Check for unused YAML files.
 python "$DIR/image-generator/check_unused.py"
 
 echo "Successfully linted in $SECONDS seconds."
