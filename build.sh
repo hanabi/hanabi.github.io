@@ -15,13 +15,17 @@ SECONDS=0
 
 # Test to see if all of the YAML files are valid by manually invoking the "create_svg.py" script on
 # every YAML file.
-echo "Testing to see if all of the YAML files are valid..."
-YAML_FILES=$(find "$DIR/image-generator/yml" -name '*.yml' -type f)
-for YAML_FILE in $YAML_FILES; do
-  echo "$YAML_FILE"
-  python "$DIR/image-generator/create_svg.py" < "$YAML_FILE" > /dev/null
-done
-echo "All the YAML files are valid. (It took $SECONDS seconds.)"
+if [[ "${1-}" == "fast" ]]; then
+  echo "Skipping the YAML file check due to the \"fast\" option being present."
+else
+  echo "Testing to see if all of the YAML files are valid..."
+  YAML_FILES=$(find "$DIR/image-generator/yml" -name '*.yml' -type f)
+  for YAML_FILE in $YAML_FILES; do
+    echo "$YAML_FILE"
+    python "$DIR/image-generator/create_svg.py" < "$YAML_FILE" > /dev/null
+  done
+  echo "All the YAML files are valid. (It took $SECONDS seconds.)"
+fi
 
 # Build the website (which will go into the "build" subdirectory):
 cd "$DIR"
