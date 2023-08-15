@@ -27,7 +27,7 @@ jobs:
       - name: Check Python formatting with Black
         uses: lgeiger/black-action@master
         with:
-          args: --check
+          args: --check .
 
   website_build:
     runs-on: ubuntu-latest
@@ -91,7 +91,7 @@ jobs:
       - uses: ./.github/workflows/setup-python
 
       - name: Check for unused YAML files
-        run: python "$DIR/image-generator/check_unused.py"
+        run: python "./image-generator/check_unused.py"
 
   discord:
     name: Discord Failure Notification
