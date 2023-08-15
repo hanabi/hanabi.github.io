@@ -7,15 +7,14 @@ const MAX_LEVEL = 25;
 // Variables
 const keyMap = new Map();
 
-document.onkeydown = function onKeyDown(e) {
+document.addEventListener("keydown", (e) => {
   // Do not do anything if we have any modifier keys pressed down.
   if (e.ctrlKey || e.shiftKey || e.altKey || e.metaKey) {
     return;
   }
 
   // Do not do anything if we have the search box focused.
-  const searchInputElements =
-    document.getElementsByClassName("DocSearch-Input");
+  const searchInputElements = document.querySelectorAll(".DocSearch-Input");
   for (const searchInputElement of searchInputElements) {
     if (document.activeElement === searchInputElement) {
       return;
@@ -26,7 +25,7 @@ document.onkeydown = function onKeyDown(e) {
   if (keyFunction !== undefined) {
     keyFunction();
   }
-};
+});
 
 // Navigate backwards.
 keyMap.set("ArrowLeft", () => {
@@ -36,16 +35,16 @@ keyMap.set("ArrowLeft", () => {
 
   if (isOnFirstDocPage()) {
     // Click on the nav bar title.
-    const navBarTitle = document.getElementsByClassName("navbar__title");
-    if (navBarTitle.length >= 1) {
+    const navBarTitle = document.querySelectorAll(".navbar__title");
+    if (navBarTitle.length > 0) {
       navBarTitle[0].click();
       return;
     }
   }
 
   // Click on the left-most button.
-  const buttons = document.getElementsByClassName("pagination-nav__link");
-  if (buttons.length >= 1) {
+  const buttons = document.querySelectorAll(".pagination-nav__link");
+  if (buttons.length > 0) {
     buttons[0].click();
   }
 });
@@ -62,10 +61,10 @@ keyMap.set("ArrowRight", () => {
   }
 
   // Otherwise, assume that we are on a doc page.
-  const buttons = document.getElementsByClassName("pagination-nav__link");
+  const buttons = document.querySelectorAll(".pagination-nav__link");
   if (buttons.length >= 2) {
     buttons[1].click();
-  } else if (buttons.length >= 1) {
+  } else if (buttons.length > 0) {
     buttons[0].click();
   }
 });
@@ -90,8 +89,8 @@ keyMap.set("l", () => {
 });
 
 function isOnLandingPage() {
-  const titles = document.getElementsByClassName("hero__title");
-  return titles.length >= 1;
+  const titles = document.querySelectorAll(".hero__title");
+  return titles.length > 0;
 }
 
 function isOnFirstDocPage() {
@@ -103,8 +102,8 @@ function isOnLastDocPage() {
 }
 
 function clickOnFirstLargeButton() {
-  const largeButtons = document.getElementsByClassName("button--lg");
-  if (largeButtons.length >= 1) {
+  const largeButtons = document.querySelectorAll(".button--lg");
+  if (largeButtons.length > 0) {
     largeButtons[0].click();
   }
 }
@@ -120,12 +119,12 @@ function parseIntSafe(input) {
   const isNegativeNumber = trimmedInput.startsWith("-");
   if (isNegativeNumber) {
     // Remove the leading minus sign before we match the regular expression.
-    trimmedInput = trimmedInput.substring(1);
+    trimmedInput = trimmedInput.slice(1);
   }
 
   if (/^\d+$/.exec(trimmedInput) === null) {
     // "\d" matches any digit (same as "[0-9]").
-    return NaN;
+    return Number.NaN;
   }
 
   if (isNegativeNumber) {
@@ -133,5 +132,5 @@ function parseIntSafe(input) {
     trimmedInput = `-${trimmedInput}`;
   }
 
-  return parseInt(trimmedInput, 10);
+  return Number.parseInt(trimmedInput, 10);
 }
