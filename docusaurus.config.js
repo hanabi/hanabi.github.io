@@ -1,6 +1,73 @@
 const path = require("node:path");
 
-module.exports = {
+/** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+const themeConfig = {
+  // Vanilla components
+  navbar: {
+    title: "H-Group Conventions",
+    logo: {
+      alt: "H-Group Logo",
+      src: "img/logo.png",
+    },
+    items: [
+      {
+        to: "docs/beginner",
+        activeBasePath: "docs",
+        label: "Beginner",
+        position: "left",
+      },
+      {
+        to: "docs/learning-path",
+        activeBasePath: "docs",
+        label: "Learning Path",
+        position: "left",
+      },
+      {
+        to: "docs/reference",
+        activeBasePath: "docs",
+        label: "Reference",
+        position: "left",
+      },
+      {
+        to: "docs/variant-specific",
+        activeBasePath: "docs",
+        label: "Variant-Specific",
+        position: "left",
+      },
+      {
+        href: "https://github.com/hanabi/hanabi.github.io/",
+        label: "Repo",
+        position: "right",
+      },
+      {
+        href: "https://github.com/hanabi/hanabi.github.io/issues",
+        label: "Proposals",
+        position: "right",
+      },
+    ],
+  },
+
+  docs: {
+    sidebar: {
+      hideable: true,
+    },
+  },
+
+  // Extra settings
+  algolia: {
+    appId: "24AGYEOQ7J", // cspell:disable-line
+    apiKey: "7e647fd7de142915da9f459b345dfca4",
+    indexName: "hanabi-conventions",
+    contextualSearch: false, // Enabled by default; only useful for versioned sites
+  },
+
+  colorMode: {
+    defaultMode: "dark",
+  },
+};
+
+/** @type {import('@docusaurus/types').Config} */
+const config = {
   title: "H-Group Conventions",
   url: "https://hanabi.github.io",
   baseUrl: "/",
@@ -9,70 +76,7 @@ module.exports = {
   favicon: "img/favicon.ico",
   organizationName: "hanabi",
   projectName: "hanabi.github.io",
-  themeConfig: {
-    // Vanilla components
-    navbar: {
-      title: "H-Group Conventions",
-      logo: {
-        alt: "H-Group Logo",
-        src: "img/logo.png",
-      },
-      items: [
-        {
-          to: "docs/beginner",
-          activeBasePath: "docs",
-          label: "Beginner",
-          position: "left",
-        },
-        {
-          to: "docs/learning-path",
-          activeBasePath: "docs",
-          label: "Learning Path",
-          position: "left",
-        },
-        {
-          to: "docs/reference",
-          activeBasePath: "docs",
-          label: "Reference",
-          position: "left",
-        },
-        {
-          to: "docs/variant-specific",
-          activeBasePath: "docs",
-          label: "Variant-Specific",
-          position: "left",
-        },
-        {
-          href: "https://github.com/hanabi/hanabi.github.io/",
-          label: "Repo",
-          position: "right",
-        },
-        {
-          href: "https://github.com/hanabi/hanabi.github.io/issues",
-          label: "Proposals",
-          position: "right",
-        },
-      ],
-    },
-
-    docs: {
-      sidebar: {
-        hideable: true,
-      },
-    },
-
-    // Extra settings
-    algolia: {
-      appId: "24AGYEOQ7J", // cspell:disable-line
-      apiKey: "7e647fd7de142915da9f459b345dfca4",
-      indexName: "hanabi-conventions",
-      contextualSearch: false, // Enabled by default; only useful for versioned sites
-    },
-
-    colorMode: {
-      defaultMode: "dark",
-    },
-  },
+  themeConfig,
   plugins: [path.resolve(__dirname, "image-generator")],
   presets: [
     [
@@ -96,3 +100,5 @@ module.exports = {
     "/js/hotkey.js",
   ],
 };
+
+module.exports = config;

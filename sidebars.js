@@ -1,4 +1,5 @@
-module.exports = {
+/** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
+const sidebars = {
   mainSidebar: [
     "about",
     {
@@ -223,3 +224,5 @@ module.exports = {
     "convention-attribution",
   ],
 };
+
+module.exports = sidebars;
