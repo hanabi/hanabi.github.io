@@ -71,6 +71,7 @@ keyMap.set("ArrowRight", () => {
 
 // Go to a specific level.
 keyMap.set("l", () => {
+  // eslint-disable-next-line no-alert
   const levelString = window.prompt("Enter the level that you want to go to:");
   if (levelString === null || levelString === "") {
     return;

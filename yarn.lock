@@ -5088,7 +5088,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/eslint-plugin@npm:^6.3.0":
+"@typescript-eslint/eslint-plugin@npm:^6.4.0":
   version: 6.4.0
   resolution: "@typescript-eslint/eslint-plugin@npm:6.4.0"
   dependencies:
@@ -5113,7 +5113,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/parser@npm:^6.3.0":
+"@typescript-eslint/parser@npm:^6.4.0":
   version: 6.4.0
   resolution: "@typescript-eslint/parser@npm:6.4.0"
   dependencies:
@@ -8104,12 +8104,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-isaacscript@npm:^4.0.8":
-  version: 4.0.8
-  resolution: "eslint-config-isaacscript@npm:4.0.8"
+"eslint-config-isaacscript@npm:^4.0.9":
+  version: 4.0.9
+  resolution: "eslint-config-isaacscript@npm:4.0.9"
   dependencies:
     confusing-browser-globals: ^1.0.11
-  checksum: 97f76d57c19c4aa3e6fe63a804e66dde9b140306acb819168780debca21515d443666380e8620064d126cb644e0d010de485dbdbd6ff452cf45ee6b2ffe7b4cd
+  checksum: ad47ee32bd6b0df51c26a6102a66e8cd75d7fb88f9153401c380ba73036e5131e83a1c77513d1775d5020b3ed5972ccd95fd8925692a9a1e2f14459389c32ffb
   languageName: node
   linkType: hard
 
@@ -8348,7 +8348,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^8.46.0":
+"eslint@npm:^8.47.0":
   version: 8.47.0
   resolution: "eslint@npm:8.47.0"
   dependencies:
@@ -9392,7 +9392,7 @@ __metadata:
     clsx: ^2.0.0
     cspell: ^7.0.0
     cspell-check-unused-words: ^1.0.4
-    isaacscript-lint: ^5.2.2
+    isaacscript-lint: ^5.2.3
     isaacscript-tsconfig: ^4.0.0
     npm-check-updates: ^16.11.1
     raw-loader: ^4.0.2
@@ -10463,17 +10463,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"isaacscript-lint@npm:^5.2.2":
-  version: 5.2.2
-  resolution: "isaacscript-lint@npm:5.2.2"
+"isaacscript-lint@npm:^5.2.3":
+  version: 5.2.3
+  resolution: "isaacscript-lint@npm:5.2.3"
   dependencies:
     "@prettier/plugin-xml": ^3.2.0
-    "@typescript-eslint/eslint-plugin": ^6.3.0
-    "@typescript-eslint/parser": ^6.3.0
+    "@typescript-eslint/eslint-plugin": ^6.4.0
+    "@typescript-eslint/parser": ^6.4.0
     cspell: ^7.0.0
     cspell-check-unused-words: ^1.0.4
-    eslint: ^8.46.0
-    eslint-config-isaacscript: ^4.0.8
+    eslint: ^8.47.0
+    eslint-config-isaacscript: ^4.0.9
     eslint-config-prettier: ^9.0.0
     eslint-plugin-deprecation: ^1.5.0
     eslint-plugin-eslint-comments: ^3.2.0
@@ -10484,13 +10484,13 @@ __metadata:
     eslint-plugin-no-autofix: ^1.2.3
     eslint-plugin-only-warn: ^1.1.0
     eslint-plugin-unicorn: ^48.0.1
-    knip: ^2.19.2
+    knip: ^2.19.3
     prettier: ^3.0.1
     prettier-plugin-organize-imports: ^3.2.3
     ts-prune-2: ^0.10.7
   peerDependencies:
     typescript: ">= 4.0.0"
-  checksum: 9076d11a36f9e376bf3738870352eff1237e9a97a83e2dd5e503ddf78f733f18b9b7784173407d9442ea898fced0c69c9e358f705f0d5ebcfd309a365716ab39
+  checksum: f229fc5a9bda86aa2de3b21fb91f93672c40abd7915f10c32790c3e5685ab784938eca16862c3572496dc5b18ce9385696101c69a5e8067a7e29aa776456ff8c
   languageName: node
   linkType: hard
 
@@ -10830,7 +10830,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"knip@npm:^2.19.2":
+"knip@npm:^2.19.3":
   version: 2.19.3
   resolution: "knip@npm:2.19.3"
   dependencies:

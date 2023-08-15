@@ -37,7 +37,7 @@
     "@tsconfig/docusaurus": "^2.0.0",
     "cspell": "^7.0.0",
     "cspell-check-unused-words": "^1.0.4",
-    "isaacscript-lint": "^5.2.2",
+    "isaacscript-lint": "^5.2.3",
     "isaacscript-tsconfig": "^4.0.0",
     "npm-check-updates": "^16.11.1",
     "remark-cli": "^11.0.0",
