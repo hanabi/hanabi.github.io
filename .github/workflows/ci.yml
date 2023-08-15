@@ -16,7 +16,7 @@ jobs:
       - uses: ./.github/workflows/setup-node
 
       - name: Check formatting with Prettier
-        run: npx prettier --loglevel=warn --check .
+        run: npx prettier --log-level=warn --check .
 
   python_format:
     runs-on: ubuntu-latest

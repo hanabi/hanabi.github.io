@@ -4,15 +4,8 @@
   "files": ["**"],
   "enableFiletypes": ["*"],
   "enableGlobDot": true,
-  "ignorePaths": [
-    "*.svg",
-    ".docusaurus/**",
-    ".git/**",
-    "build/**",
-    "dist/**",
-    "LICENSE",
-    "yarn-*.cjs"
-  ],
+  "useGitignore": true,
+  "ignorePaths": ["*.svg", ".git/**", ".yarn/**", "LICENSE"],
   "words": [
     "ahming",
     "albertine",
