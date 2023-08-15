@@ -11,6 +11,8 @@ cd "$DIR"
 PACKAGE_JSON="$DIR/package.json"
 OLD_HASH=$(md5sum "$PACKAGE_JSON")
 # - @mdx-js/react - Docusaurus does not support the latest version.
+# - clsx - Docusaurus does not support the latest version. (Even though it does not cause any
+#   errors, it is hard-coded to 1.2.1 in new projects.)
 # - react - Docusaurus does not support the latest version.
 # - react-dom - Docusaurus does not support the latest version.
 npx npm-check-updates --upgrade --packageFile "$PACKAGE_JSON" --filterVersion "^*"
