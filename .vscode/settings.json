@@ -42,6 +42,16 @@
     "editor.formatOnSave": true,
     "editor.tabSize": 2,
   },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+  },
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true,
@@ -67,21 +77,9 @@
     "editor.formatOnSave": true,
     "editor.tabSize": 2,
   },
-
-  // ------
-  // Python
-  // ------
-
-  // Use "black" to automatically format Python files:
-  // https://github.com/psf/black
-  "python.formatting.provider": "black",
-  "python.linting.pylintEnabled": true,
-  "python.linting.enabled": true,
-
-  // Automatically run the formatter when a Python file is saved.
   "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
     "editor.formatOnSave": true,
-    "editor.rulers": [79],
     "editor.tabSize": 4,
   },
 }

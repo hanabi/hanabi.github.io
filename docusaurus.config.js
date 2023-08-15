@@ -58,7 +58,7 @@ const themeConfig = {
     appId: "24AGYEOQ7J", // cspell:disable-line
     apiKey: "7e647fd7de142915da9f459b345dfca4",
     indexName: "hanabi-conventions",
-    contextualSearch: false, // Enabled by default; only useful for versioned sites
+    contextualSearch: false, // Enabled by default; only useful for versioned sites.
   },
 
   colorMode: {
@@ -66,32 +66,36 @@ const themeConfig = {
   },
 };
 
+/** @type {import('@docusaurus/preset-classic').Options} */
+const presetsClassicOptions = {
+  docs: {
+    sidebarPath: require.resolve("./sidebars.js"),
+    editUrl: "https://github.com/hanabi/hanabi.github.io/edit/main/",
+  },
+  theme: {
+    customCss: require.resolve("./src/css/custom.css"),
+  },
+};
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "H-Group Conventions",
+  favicon: "img/favicon.ico",
+
   url: "https://hanabi.github.io",
   baseUrl: "/",
-  onBrokenLinks: "throw",
-  onBrokenMarkdownLinks: "warn",
-  favicon: "img/favicon.ico",
+
   organizationName: "hanabi",
   projectName: "hanabi.github.io",
+
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+
+  presets: [["classic", presetsClassicOptions]],
   themeConfig,
+
+  // Added fields from vanilla.
   plugins: [path.resolve(__dirname, "image-generator")],
-  presets: [
-    [
-      "@docusaurus/preset-classic",
-      {
-        docs: {
-          sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://github.com/hanabi/hanabi.github.io/edit/main/",
-        },
-        theme: {
-          customCss: require.resolve("./src/css/custom.css"),
-        },
-      },
-    ],
-  ],
   scripts: [
     {
       src: "https://kit.fontawesome.com/1932a73877.js",
