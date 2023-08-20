@@ -73,7 +73,7 @@ Editing files on the GitHub website is a pain. If you are adding a significant a
   - `./run.sh`
   - Now, the website will "run" forever until you press `Ctrl + C` to cancel it (or close the terminal window).
   - In a browser, surf to http://localhost:3000/ in order to see your local copy of the website. <!-- markdownlint-disable-line MD034 -->
-- Now, open VSCode (which is a nice code/document editor). From the menu, select "File", then "Open Folder", then select the website folder that we cloned earlier.
+- Now, open VSCode (which is a nice code/document editor). From the menu, select "File", then "Open Folder", then select the website folder that we cloned earlier. Or you can simply type `code .` in your terminal to open current folder in VSCode.
 - VSCode is now treating the website as a "project". You can see the list of files in the left pane and you can double click a file to open it. (Alternatively, you can open a file by using the menu with "File" --> "Open File".)
 - The main files for the website are located in the "docs" folder. For example, the section for level 1 is located at "docs/level-1.md". Go ahead and edit whatever files that you want to change. As soon as you edit a particular file, you should see the changes automatically appear in your browser (that is, if you happen to be viewing the particular section).
 
