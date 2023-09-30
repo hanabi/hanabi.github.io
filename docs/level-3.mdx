@@ -10,6 +10,7 @@ import FixClue1 from "@site/image-generator/yml/level-3/fix-clue-1.yml";
 import FixClue2 from "@site/image-generator/yml/level-3/fix-clue-2.yml";
 import FixClue3 from "@site/image-generator/yml/level-3/fix-clue-3.yml";
 import FixClue4 from "@site/image-generator/yml/level-3/fix-clue-4.yml";
+import FixClue5 from "@site/image-generator/yml/level-3/fix-clue-5.yml";
 import SarcasticDiscard from "@site/image-generator/yml/level-3/sarcastic-discard.yml";
 import InformationLock from "@site/image-generator/yml/level-3/information-lock.yml";
 
@@ -123,6 +124,22 @@ import InformationLock from "@site/image-generator/yml/level-3/information-lock.
   - Since Bob was going to play his 1's already without Alice doing anything, the clue must have some other meaning. Thus, it is a _Fix Clue_: the 1 that Bob was about to play is bad, and Bob can safely discard it. Bob skips over the 1 that he was about to play (on slot 4) and plays the other one (on slot 3).
 
 <FixClue4 />
+
+<br />
+
+### The Fix Clue (Providing Negative Clues)
+
+- It's also possible to give a _Fix Clue_ by not re-touching the card that needs to be fixed, and instead "fill it in" by providing negative clues.
+- For example, in a 3-player game:
+  - Before the clue was given, Bob had an unknown blue card in his hand.
+  - Also, before the clue was given, Cathy has blue 3 and blue 4 already clued in her hand.
+  - Red 4 and Blue 2 are played on the stacks.
+  - Alice know that from _Good Touch Principle_ Bob will conclude that his clued blue card is a blue 5, and he will likely play it next turn.
+  - Alice clues 5 to Bob, which "fills in" the blue card in Bob's hand with a negative clue, reveling that it can't possibly be a blue 5.
+  - Bob might be tempted to consider this a play clue on the focused 5, thinking it's a playable red 5.
+  - However, Bob observes that the clue by Alice prevented him from misplaying the card in his 4th slot, "fixing" a violation of _Good Touch Principle_. For this reason, Bob treats this clue as a _Fix Clue_ and discards from his 4th slot.
+
+<FixClue5 />
 
 <br />
 

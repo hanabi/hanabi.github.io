@@ -1,0 +1,56 @@
+stacks:
+  - r: 4
+  - y: 0
+  - g: 0
+  - b: 2
+  - p: 0
+players:
+  - text: Bob assumes that his blue card is a blue 5.
+  - name: Alice
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - name: Bob
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: b
+        below: Blue 2
+      - type: x
+  - name: Cathy
+    cards:
+      - type: x
+      - type: b3
+      - type: x
+      - type: b4
+      - type: x
+  - text: Alice gives a Fix Clue.
+  - name: Alice
+    clue_giver: true
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - name: Bob
+    cards:
+      - type: x
+      - type: 5
+        clue: 5
+      - type: 5
+        clue: 5
+      - type: b
+        below: Blue 2
+      - type: x
+  - name: Cathy
+    cards:
+      - type: x
+      - type: b3
+      - type: x
+      - type: b4
+      - type: x
