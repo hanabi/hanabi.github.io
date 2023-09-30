@@ -82,7 +82,7 @@ import InformationLock from "@site/image-generator/yml/level-3/information-lock.
 - _Fix Clues_ are often needed when a duplicate card is touched. Cards are not normally duplicated (which follows from _Good Touch Principle_), but sometimes someone makes a mistake, or a sequence of particular cards makes duplicating necessary. Duplicate cards will lead to misplays, so it is the team's responsibility to fix the problem and intervene before this happens.
 - In the example below:
   - Before the clue was given, Bob had an unknown purple card in his hand.
-  - Alice knows that from _Good Touch Principle_, Bob will conclude that the card is a purple 5, and he will likely play it on his next turn.
+  - Alice knows that from _Good Touch Principle_, Bob will conclude that the card is a purple 5, and he will likely misplay it on his next turn.
   - Alice clues number 3 to Bob, which "fills in" the purple card and reveals that it is purple 3.
   - Since Bob was about to play this card, Bob knows that this was a _Fix Clue_ and that he can now safely discard the purple 3.
 
@@ -95,7 +95,7 @@ import InformationLock from "@site/image-generator/yml/level-3/information-lock.
 - **A clue cannot be a _Play Clue_ and a _Fix Clue_ at the same time.** If you receive a _Fix Clue_ and it touches other ancillary cards, none of them are necessarily playable. The **only** information that a _Fix Clue_ conveys is to fix the violation of _Good Touch Principle_.
 - In the example below:
   - Before the clue was given, Bob has an unknown 1 in his hand.
-  - Alice knows that from _Good Touch Principle_, Bob will conclude that his 1 is a green 1, and he will likely play it on his next turn.
+  - Alice knows that from _Good Touch Principle_, Bob will conclude that his 1 is a green 1, and he will likely misplay it on his next turn.
   - Alice clues blue to Bob, which "fills in" the 1 and reveals that it is blue 1. The blue clue also touches a blue card on slot 1.
   - In this situation, Bob might be tempted to think that this is a _Play Clue_ on a blue 2 in slot 1, especially considering that the slot 1 card was the only new card introduced in the clue. (And the focus of a clue should always be on the new card introduced.)
   - However, the fact that the blue clue "fixed" a violation of _Good Touch Principle_ means that Alice may have had no choice but to clue blue, and she may not necessarily be trying to give a _Play Clue_.
@@ -130,14 +130,13 @@ import InformationLock from "@site/image-generator/yml/level-3/information-lock.
 ### The Fix Clue (Via a Negative Clue)
 
 - Most of the time, a _Fix Clue_ is given by retouching the card that needs to be fixed in some way. Rarely, it is also possible to give a _Fix Clue_ by "filling it in" with a negative clue.
-- For example, in a 3-player game:
-  - Before the clue was given, Bob had an unknown blue card in his hand.
-  - Also, before the clue was given, Cathy has blue 3 and blue 4 already clued in her hand.
-  - Red 4 and Blue 2 are played on the stacks.
-  - Alice know that from _Good Touch Principle_ Bob will conclude that his clued blue card is a blue 5, and he will likely play it next turn.
-  - Alice clues 5 to Bob, which "fills in" the blue card in Bob's hand with a negative clue, reveling that it can't possibly be a blue 5.
-  - Bob might be tempted to consider this a play clue on the focused 5, thinking it's a playable red 5.
-  - However, Bob observes that the clue by Alice prevented him from misplaying the card in his 4th slot, "fixing" a violation of _Good Touch Principle_. For this reason, Bob treats this clue as a _Fix Clue_ and discards from his 4th slot.
+- In the example below:
+  - Red 4 and blue 2 are played on the stacks.
+  - Before the clue was given, Bob had an unknown blue card in his hand and Cathy had a blue 3 and blue 4 already clued in her hand.
+  - Alice know that from _Good Touch Principle_, Bob will conclude that his clued blue card is a blue 5, and he will likely misplay it on a future turn.
+  - Alice clues number 5 to Bob, which touches a brand new 5. But it also falsifies the "blue 5" note that Bob has written on his blue card.
+  - Bob might be tempted to consider this a _Play Clue_ on the focused 5. (Red 5 is currently playable, so it might be a playable red 5.)
+  - However, Bob knows that since the clue prevented a misplay, it is not necessarily a _Play Clue_. Thus, Bob has to keep the 5 in his hand until he gets more information.
 
 <FixClue5 />
 
