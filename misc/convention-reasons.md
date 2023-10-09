@@ -60,14 +60,14 @@ The main website lists all of our conventions. But it does not bother listing **
 
 | Convention Decision | Real Card Identity | Card Identity Assumed | xdragun will   | Outcome                                                                          |
 | ------------------- | ------------------ | --------------------- | -------------- | -------------------------------------------------------------------------------- |
-| discard leftmost    | purple 1           | purple 1              | discard slot 1 | _Gentleman's Discard_ ✅                                                         |
-| discard leftmost    | purple 1           | trash 1               | discard slot 1 | attempted normal discard that turns into a _Gentleman's Discard_ ✅              |
-| discard leftmost    | trash 1            | purple 1              | discard slot 1 | attempted normal discard that turns into a _Gentleman's Discard_ ✅              |
-| discard leftmost    | trash 1            | trash 1               | discard slot 1 | normal discard, nothing special happens ✅                                       |
-| discard rightmost   | purple 1           | purple 1              | discard slot 1 | _Gentleman's Discard_ ✅                                                         |
+| discard leftmost    | purple 1           | purple 1              | discard slot 1 | _Gentleman's Discard_ ✔️                                                         |
+| discard leftmost    | purple 1           | trash 1               | discard slot 1 | attempted normal discard that turns into a _Gentleman's Discard_ ✔️              |
+| discard leftmost    | trash 1            | purple 1              | discard slot 1 | attempted normal discard that turns into a _Gentleman's Discard_ ✔️              |
+| discard leftmost    | trash 1            | trash 1               | discard slot 1 | normal discard, nothing special happens ✔️                                       |
+| discard rightmost   | purple 1           | purple 1              | discard slot 1 | _Gentleman's Discard_ ✔️                                                         |
 | discard rightmost   | purple 1           | trash 1               | discard slot 3 | attempted normal discard that turns into a _Trash Order Chop Move_ on Libster ❌ |
 | discard rightmost   | trash 1            | purple 1              | discard slot 1 | attempted normal discard that turns into a _Trash Order Chop Move_ on Libster ❌ |
-| discard rightmost   | trash 1            | trash 1               | discard slot 3 | normal discard, nothing special happens ✅                                       |
+| discard rightmost   | trash 1            | trash 1               | discard slot 3 | normal discard, nothing special happens ✔️                                       |
 
 <br />
 
