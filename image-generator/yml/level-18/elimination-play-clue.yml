@@ -31,9 +31,11 @@ players:
         middle_note: any 2
         clue: 2
       - type: x
-      - type: x
       - type: 2
-        middle_note: r2?
+        above: Red 2
+        clue: 2
+      - type: 2
+        middle_note: any 2
         clue: 2
       - type: x
   - clue_giver: true
