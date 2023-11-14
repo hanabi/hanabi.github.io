@@ -6,23 +6,6 @@ As noted in the [convention changes document](convention-changes.md), sometimes 
 
 ## The Backlog (General Conventions)
 
-@everyone Renamed conventions:
-
-**The Queued Finesse** (rename)
-
-```text
-- The _Stacked Finesse_ is renamed to the _Queued Finesse_.
-- (_Stacked Ejection_ is not renamed since it does not use a queue.)
-```
-
-@everyone Deleted conventions:
-
-**The Junk Discharge** (deleted)
-
-```text
-- The _Junk Discharge_ has been deleted, since it is just the same thing as a _Unknown Trash Discharge_ or an _Unknown Dupe Discharge_.
-```
-
 @everyone New variant-specific conventions:
 
 **Hard Variant Revamp** (by pianoblook)
