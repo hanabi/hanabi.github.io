@@ -199,6 +199,7 @@ const sidebars = {
         "variant-specific/number-mute",
         "variant-specific/odds-and-evens",
         "variant-specific/omni",
+        "variant-specific/omni-ones",
         "variant-specific/pink",
         "variant-specific/pink-omni",
         "variant-specific/pink-ones",
