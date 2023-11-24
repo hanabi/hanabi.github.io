@@ -10,8 +10,8 @@ import UnnecessaryBadChopMoveEjection from "@site/image-generator/yml/level-25/u
 
 ## Unnecessary Moves
 
-- Experienced players will know about all sorts of tricky ways to "get" cards - the _Trash Bluff_, the _Trash Finesse_, the _Unknown Trash Discharge_, the _Trash Push_, and so forth.
-- In most cases, these complicated moves end up being a 1-for-1, which is not very efficient. Consider that doing a complicated move like a _Trash Bluff_ as a 1-for-1 is pretty pointless if the cluer can instead just give a direct _Play Clue_ to the card that needs to be played as a 1-for-1. Giving "normal" _Play Clues_ is much less likely to go wrong!
+- Experienced players will know about all sorts of tricky ways to "get" cards - the _Trash Push_, the _Unknown Trash Discharge_, and so forth.
+- In most cases, these complicated moves end up being a 1-for-1, which is not very efficient. Consider that doing a complicated move like a _Trash Push_ as a 1-for-1 is pretty pointless if the cluer can instead just give a direct _Play Clue_ to the card that needs to be played as a 1-for-1. Giving "normal" _Play Clues_ is much less likely to go wrong!
 - Therefore, advanced moves are generally used in situations where the card that needs to be played is hard to clue directly. For example:
   - It could be "blocked" by other cards (e.g. two of the same card in the hand).
   - It could be on chop and "blocked" in the sense that any clue given would look like a _Save Clue_ instead of a _Play Clue_.
@@ -28,6 +28,12 @@ import UnnecessaryBadChopMoveEjection from "@site/image-generator/yml/level-25/u
     - For simplicity, only positive clues "count" as being _Necessary_. "Filling-in" a card with a negative clue doesn't count.
 
 <br />
+
+### Trash Finesses and Trash Bluffs Are Always Unnecessary
+
+- As explained in the previous section, tricky moves can either be _necessary_ or _unnecessary_.
+- However, we explicitly agree that _Trash Finesses_ and _Trash Bluffs_ are always treated as being _unnecessary_, regardless of whether it was actually possible to "get" the blind-played card with a normal clue.
+- The reason for this special status is to simplify thing a little bit, as _Trash Finesses_ and _Trash Bluffs_ are really common, and it can be a real pain to figure out whether they are actually _necessary_ or not.
 
 ### Unnecessary Moves with Known Trash --> Ignition
 

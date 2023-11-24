@@ -6,11 +6,20 @@ As noted in the [convention changes document](convention-changes.md), sometimes 
 
 ## The Backlog (General Conventions)
 
-n/a
+@everyone Deleted conventions:
+
+**Unnecessary Trash Finesse** & **Unnecessary Trash Bluff** (by pianoblook)
+
+```text
+- The special conventions called the **Unnecessary Trash Finesse** and the **Unnecessary Trash Bluff** are deleted.
+- Now, all *Trash Finesses* and all *Trash Bluffs* are treated as unnecessary. In other words, all *Trash Finesses* and all *Trash Bluffs* perform *Chop Moves* or *Trash Pushes* when they are performed.
+```
 
 <br />
 
 ## The Backlog (Variant-Specific Conventions)
+
+@everyone New variant-specific conventions:
 
 **Red Fix Clue** (by Dr. Kakashi)
 
@@ -19,7 +28,5 @@ n/a
 - Normally, when cards are re-clued with a red color clue, this would be interpreted as a _Tempo Clue_. However, in an omni-ones variant, this is instead interpreted as a _Fix Clue_.
 - We arbitrarily choose red since it is the left-most color.
 ```
-
-n/a
 
 <br />
