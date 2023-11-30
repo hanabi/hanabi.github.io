@@ -7,8 +7,8 @@
     "isaacscript-tsconfig/tsconfig.base.json",
 
     // We extend the standard Docusaurus config:
-    // https://github.com/tsconfig/bases/blob/main/bases/docusaurus.json
-    "@tsconfig/docusaurus/tsconfig.json",
+    // https://github.com/facebook/docusaurus/blob/main/packages/docusaurus-tsconfig/tsconfig.json
+    "@docusaurus/tsconfig",
   ],
 
   // https://www.typescriptlang.org/docs/handbook/compiler-options.html
@@ -16,7 +16,9 @@
     "baseUrl": ".",
   },
 
-  // We want to lint every file in the repository.
+  // We want to lint every file in the repository. Two entries for each file extension are needed
+  // because TypeScript will exclude files that begin with a period from an asterisk glob by
+  // default.
   "include": [
     "./**/*.js",
     "./**/.*.js",

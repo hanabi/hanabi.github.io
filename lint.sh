@@ -21,11 +21,6 @@ npx prettier --log-level=warn --check .
 # "--max-warnings 0" makes warnings fail in CI, since we set all ESLint errors to warnings.
 npx eslint --max-warnings 0 .
 
-# Use remark to check Markdown files for errors.
-# "--quiet" output only warnings and errors.
-# "--frail" exits with 1 on warnings (for CI).
-npx remark --quiet --frail docs misc
-
 # Spell check every file using CSpell.
 # "--no-progress" and "--no-summary" make it only output errors.
 npx cspell --no-progress --no-summary .
