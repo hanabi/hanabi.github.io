@@ -51,7 +51,7 @@ jobs:
       - uses: actions/upload-pages-artifact@v2
         with:
           path: "./build"
-      - name: actions/deploy-pages@v2
+      - uses: actions/deploy-pages@v2
 
   discord:
     name: Discord Failure Notification
