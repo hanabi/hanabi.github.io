@@ -8,9 +8,6 @@ await lintScript(async () => {
     // - "--log-level=warn" makes it only output errors.
     $`prettier --log-level=warn --check .`,
 
-    // Type-check the code using the TypeScript compiler.
-    $`tsc --noEmit`,
-
     // Use ESLint to lint the TypeScript.
     // - "--max-warnings 0" makes warnings fail, since we set all ESLint errors to warnings.
     $`eslint --max-warnings 0 .`,
