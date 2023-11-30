@@ -3,7 +3,7 @@ id: image-format
 title: Technical Documentation for the Example Images
 ---
 
-import Highlight, { defaultProps } from "prism-react-renderer";
+import { Highlight } from "prism-react-renderer";
 
 import SimpleSource from "!raw-loader!@site/image-generator/yml/generator-docs/simple.yml";
 import SimpleResult from "@site/image-generator/yml/generator-docs/simple.yml";
@@ -30,7 +30,7 @@ import SuitsSource from "!raw-loader!@site/image-generator/yml/generator-docs/su
 import SuitsResult from "@site/image-generator/yml/generator-docs/suits.yml";
 
 export const Code = ({ code }) => (
-  <Highlight {...defaultProps} code={code} language="yaml">
+  <Highlight code={code} language="yaml">
     {({ className, style, tokens, getLineProps, getTokenProps }) => (
       <pre>
         <code>
@@ -72,8 +72,6 @@ Each example image is created from a [YAML](https://yaml.org/) file, which is a 
 
 ## Steps
 
-<!-- lint disable ordered-list-marker-value -->
-
 1. Put a new YAML file or edit an existing YAML file in the [`image-generator/yml`](https://github.com/hanabi/hanabi.github.io/tree/main/image-generator/yml) directory.
 
 2. On the respective Markdown page, import it as a React component at the top of the file, like so:
@@ -91,8 +89,6 @@ import NewChopMove from "@site/image-generator/yml/level-123/new-chop-move.yml";
 ```
 
 (For an example of this, look at the Markdown page for [Level 1](https://github.com/hanabi/hanabi.github.io/blob/main/docs/level-1.mdx).)
-
-<!-- lint enable ordered-list-marker-value -->
 
 <br />
 

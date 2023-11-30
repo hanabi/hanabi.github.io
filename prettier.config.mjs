@@ -3,13 +3,18 @@
 
 /** @type {import("prettier").Config} */
 const config = {
-  plugins: ["prettier-plugin-organize-imports"],
+  plugins: ["prettier-plugin-organize-imports", "prettier-plugin-packagejson"],
 
   overrides: [
     // Allow proper formatting of JSONC files:
     // https://github.com/prettier/prettier/issues/5708
     {
-      files: ["**/.vscode/*.json", "**/tsconfig.json", "**/tsconfig.*.json"],
+      files: [
+        "**/*.jsonc",
+        "**/.vscode/*.json",
+        "**/tsconfig.json",
+        "**/tsconfig.*.json",
+      ],
       options: {
         parser: "json5",
         quoteProps: "preserve",
