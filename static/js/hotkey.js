@@ -86,7 +86,7 @@ keyMap.set("l", () => {
     return;
   }
 
-  window.location = `/docs/level-${level}`;
+  window.location = `/level-${level}`;
 });
 
 function isOnLandingPage() {

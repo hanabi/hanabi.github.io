@@ -43,7 +43,7 @@ function Feature({ num, title, iconName, description, link }: FeatureItem) {
       {iconStyles !== "" && (
         <div className="text--center">
           <br />
-          <a href={useBaseUrl(`docs/${link}`)}>
+          <a href={useBaseUrl(link)}>
             <span className="fa-stack fa-3x">
               <i className={circleStyles}></i>
               <i className={iconStyles}></i>
@@ -54,7 +54,7 @@ function Feature({ num, title, iconName, description, link }: FeatureItem) {
         </div>
       )}
       <h3 className="text--center">
-        <a href={useBaseUrl(`docs/${link}`)}>{title}</a>
+        <a href={useBaseUrl(link)}>{title}</a>
       </h3>
       <p className="text--center">{description}</p>
     </div>

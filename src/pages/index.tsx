@@ -31,7 +31,7 @@ function HomepageHeader() {
               "button button--outline button--secondary button--lg",
               styles["getStarted"],
             )}
-            to={useBaseUrl("docs/about")}
+            to={useBaseUrl("about")}
           >
             Learn More
           </Link>
