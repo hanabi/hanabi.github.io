@@ -76,7 +76,7 @@
 
 ## Are there any probationary conventions?
 
-- By default, players generally use the conventions that are specified in the main [website](https://hanabi.github.io/docs/reference/).
+- By default, players generally use the conventions that are specified in the main [website](https://hanabi.github.io/reference).
 - Conventions listed in the [GitHub issues tracker](https://github.com/hanabi/hanabi.github.io/issues) are considered probationary. Players can agree to play with one or more probationary conventions before the game begins, if they want to try something out.
 - When the issue for a proposed convention is closed, it will be integrated into the main website. At that time, it is no longer considered to be probationary.
 
