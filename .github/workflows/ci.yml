@@ -18,16 +18,6 @@ jobs:
       - uses: ./.github/workflows/setup
       - run: npm run build
 
-      # @template-customization-start
-
-      - if: "needs.pr-check.outputs.number != 'null'"
-        uses: actions/upload-artifact@v3
-        with:
-          name: build-directory
-          path: ./build
-
-      # @template-customization-end
-
   lint:
     runs-on: ubuntu-latest
     steps:
@@ -43,10 +33,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/download-artifact@v3
-        with:
-          name: build-directory
-          path: "./build"
+      - uses: ./.github/workflows/setup
+      - run: npm run build # It is faster to rebuild than to download/upload the build output.
       - uses: actions/configure-pages@v3
       - uses: actions/upload-pages-artifact@v2
         with:
