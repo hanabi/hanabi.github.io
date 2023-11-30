@@ -1,5 +1,5 @@
 // Constants
-const WEBPAGE_NAME = "The H-Group Conventions";
+const WEBPAGE_NAME = "H-Group Conventions";
 const FIRST_DOC_PAGE_TITLE = "About";
 const LAST_DOC_PAGE_TITLE = "Convention Attribution";
 const MAX_LEVEL = 25;
@@ -78,7 +78,7 @@ keyMap.set("l", () => {
   }
 
   const level = parseIntSafe(levelString);
-  if (Number.isNaN(level)) {
+  if (level === undefined) {
     return;
   }
 
@@ -110,28 +110,29 @@ function clickOnFirstLargeButton() {
 }
 
 /**
- * `parseIntSafe` is a more reliable version of `parseInt`. By default, "parseInt('1a')" will return
- * "1", which is unexpected This returns either an integer or NaN.
+ * This is a more reliable version of `Number.parseInt`:
+ *
+ * - `undefined` is returned instead of `Number.NaN`, which is helpful in conjunction with
+ *   TypeScript type narrowing patterns.
+ * - Strings that are a mixture of numbers and letters will result in undefined instead of the part
+ *   of the string that is the number. (e.g. "1a" --> undefined instead of "1a" --> 1)
+ * - Non-strings will result in undefined instead of being coerced to a number.
+ *
+ * If you have to use a radix other than 10, use the vanilla `Number.parseInt` function instead,
+ * because this function ensures that the string contains no letters.
  */
-function parseIntSafe(input) {
-  // Remove all leading and trailing whitespace.
-  let trimmedInput = input.trim();
-
-  const isNegativeNumber = trimmedInput.startsWith("-");
-  if (isNegativeNumber) {
-    // Remove the leading minus sign before we match the regular expression.
-    trimmedInput = trimmedInput.slice(1);
+export function parseIntSafe(string) {
+  if (typeof string !== "string") {
+    return undefined;
   }
 
-  if (/^\d+$/.exec(trimmedInput) === null) {
-    // "\d" matches any digit (same as "[0-9]").
-    return Number.NaN;
+  const trimmedString = string.trim();
+
+  // If the string does not entirely consist of numbers, return undefined.
+  if (INTEGER_REGEX.exec(trimmedString) === null) {
+    return undefined;
   }
 
-  if (isNegativeNumber) {
-    // Add the leading minus sign back.
-    trimmedInput = `-${trimmedInput}`;
-  }
-
-  return Number.parseInt(trimmedInput, 10);
+  const number = Number.parseInt(trimmedString, 10);
+  return Number.isNaN(number) ? undefined : number;
 }
