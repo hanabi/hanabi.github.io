@@ -121,7 +121,7 @@ function clickOnFirstLargeButton() {
  * If you have to use a radix other than 10, use the vanilla `Number.parseInt` function instead,
  * because this function ensures that the string contains no letters.
  */
-export function parseIntSafe(string) {
+function parseIntSafe(string) {
   if (typeof string !== "string") {
     return undefined;
   }
