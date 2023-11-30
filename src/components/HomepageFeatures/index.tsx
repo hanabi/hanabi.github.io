@@ -1,13 +1,12 @@
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import clsx from "clsx";
-import React from "react";
 import styles from "./styles.module.css";
 
 interface FeatureItem {
   num: number;
   title: string;
   iconName: string;
-  description: JSX.Element;
+  description: React.JSX.Element;
   link: string;
 }
 
@@ -62,7 +61,7 @@ function Feature({ num, title, iconName, description, link }: FeatureItem) {
   );
 }
 
-export default function HomepageFeatures(): JSX.Element {
+export default function HomepageFeatures(): React.JSX.Element {
   return (
     <section className={styles["features"]}>
       <div className="container">

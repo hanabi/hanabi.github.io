@@ -1,9 +1,11 @@
 // The configuration file for TypeScript.
 // This file is not used in compilation. It is here just for a nice editor experience.
 {
+  "$schema": "https://raw.githubusercontent.com/IsaacScript/isaacscript/main/packages/isaacscript-cli/schemas/tsconfig-strict-schema.json",
+
   "extends": [
     // We extend the base IsaacScript config:
-    // https://github.com/IsaacScript/isaacscript/blob/main/packages/isaacscript-tsconfig/configs/tsconfig.base.json
+    // https://github.com/IsaacScript/isaacscript/blob/main/packages/isaacscript-tsconfig/tsconfig.base.json
     "isaacscript-tsconfig/tsconfig.base.json",
 
     // We extend the standard Docusaurus config:
@@ -37,4 +39,6 @@
     "./**/*.tsx",
     "./**/.*.tsx",
   ],
+
+  "exclude": ["scripts"],
 }

@@ -1,5 +1,11 @@
+# ----------------
+# hanabi.github.io
+# ----------------
+
 # Docusaurus artifacts
+.docusaurus
 .cache-loader
+build
 
 # OS-specific artifacts
 .DS_Store

@@ -12,11 +12,11 @@ cd "$DIR"
 
 # Test to see if all of the YAML files are valid by manually invoking the "create_svg.py" script on
 # every YAML file.
-echo "Testing to see if all of the YAML files are valid..."
+# echo "Testing to see if all of the YAML files are valid..."
 YAML_FILES=$(find "$DIR/yml" -name '*.yml' -type f)
 for YAML_FILE in $YAML_FILES; do
-  echo "$YAML_FILE"
+  # echo "$YAML_FILE"
   python "$DIR/create_svg.py" < "$YAML_FILE" > /dev/null
 done
 
-echo "All the YAML files are valid. (It took $SECONDS seconds.)"
+# echo "All the YAML files are valid. (It took $SECONDS seconds.)"

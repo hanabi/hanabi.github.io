@@ -1,10 +1,10 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { CircularProgressbar } from "react-circular-progressbar";
-import "react-circular-progressbar/dist/styles.css"; // eslint-disable-line import/no-unassigned-import
+import "react-circular-progressbar/dist/styles.css"; // eslint-disable-line import/no-unassigned-import, @typescript-eslint/no-restricted-imports
 import { mainSidebar } from "../sidebars.js";
 
 const beginnersGuidePartsRaw = mainSidebar.find(
-  (item) => item["Beginner's Guide"]
+  (item) => item["Beginner's Guide"],
 )["Beginner's Guide"];
 const parts = [];
 parseSidebar(parts, beginnersGuidePartsRaw);

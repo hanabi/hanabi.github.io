@@ -1,123 +1,67 @@
 name: CI
 
-on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
+on: [push, pull_request]
+
+# @template-customization-start
+
+permissions:
+  pages: write
+  id-token: write
+
+# @template-customization-end
 
 jobs:
-  format:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: ./.github/workflows/setup-node
+      - uses: actions/checkout@v4
+      - uses: ./.github/workflows/setup
+      - run: npm run build
 
-      - name: Check formatting with Prettier
-        run: npx prettier --log-level=warn --check .
+      # @template-customization-start
 
-  python_format:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: ./.github/workflows/setup-python
-
-      - name: Check Python formatting with Black
-        uses: lgeiger/black-action@master
+      - if: "needs.pr-check.outputs.number != 'null'"
+        uses: actions/upload-artifact@v3
         with:
-          args: --check .
+          name: build-directory
+          path: ./build
 
-  website_build:
+      # @template-customization-end
+
+  lint:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: ./.github/workflows/setup-node
-      - uses: ./.github/workflows/setup-python
+      - uses: actions/checkout@v4
+      - uses: ./.github/workflows/setup
+      - run: npm run lint
 
-      - name: Use Docusaurus to build the website
-        run: bash build.sh
+  # @template-customization-start
 
-      - name: Deploy to GitHub pages
-        if: github.ref == 'refs/heads/main' && needs.pr-check.outputs.number != 'null'
-        uses: peaceiris/actions-gh-pages@v3
+  deploy_website:
+    if: "needs.pr-check.outputs.number != 'null'"
+    needs: [build, lint]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v3
+      - uses: actions/download-pages-artifact@v2
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build
-
-  typescript:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: ./.github/workflows/setup-node
-
-      - name: Use TypeScript to type-check the website
-        run: npx tsc --noEmit
-
-  eslint:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: ./.github/workflows/setup-node
-
-      - name: Use ESLint to lint the website
-        run: npx eslint --max-warnings 0 .
-
-  remark:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: ./.github/workflows/setup-node
-
-      - name: Use Remark to lint the Markdown
-        run: npx remark --quiet --frail docs misc
-
-  cspell:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: ./.github/workflows/setup-node
-
-      - name: Use CSpell to spell check everything
-        run: |
-          npx cspell --no-progress --no-summary .
-          npx cspell-check-unused-words
-
-  yaml:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: ./.github/workflows/setup-python
-
-      - name: Check that YAML files are valid
-        run: bash "./image-generator/check_valid.sh"
-
-      - name: Check for unused YAML files
-        run: python "./image-generator/check_unused.py"
+          path: "./build"
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v2
 
   discord:
     name: Discord Failure Notification
-    needs:
-      [
-        format,
-        python_format,
-        website_build,
-        typescript,
-        eslint,
-        remark,
-        cspell,
-        yaml,
-      ]
-    # "always()" is needed to always run this job, even if the other jobs fail.
-    # We don't want to spam the "#conventions-new" channel when people have failing pull requests.
-    if: always() && github.ref == 'refs/heads/main' && needs.pr-check.outputs.number != 'null'
+    needs: [build, lint, deploy_website]
+    if: always() # This is needed to always run this job, even if the other jobs fail.
     runs-on: ubuntu-latest
     steps:
-      - uses: technote-space/workflow-conclusion-action@v2
+      - uses: technote-space/workflow-conclusion-action@v3
       - if: env.WORKFLOW_CONCLUSION != 'success' && env.WORKFLOW_CONCLUSION != 'cancelled'
         uses: sarisia/actions-status-discord@v1
         with:
           webhook: ${{ secrets.DISCORD_WEBHOOK }}
           status: ${{ env.WORKFLOW_CONCLUSION }}
           title: ""
+
+  # @template-customization-end
