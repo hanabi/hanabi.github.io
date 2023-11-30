@@ -20,7 +20,7 @@ Board Game Arena also has an ELO system, which insulates the expert players from
 
 #### BGA's Interface
 
-BGA upgraded their interface in 2020 to have a newer look. A lot of BGA players preferred the older interface to the new one. However, regardless of whether you are talking about the older interface, or the newer interface, they really leave a lot to be desired:
+BGA upgraded their interface in 2020 to have a newer look. A lot of BGA players preferred the older interface to the new one. However, regardless of whether you are talking about the older interface, or the newer interface, there is a lot to be desired:
 
 - There is an in-game replay feature, but using it is frustrating. Once you initiate a replay, you are stuck watching the movie until it reaches the present, with no ability to pause, and no ability to move back and forth at will.
 - There is no ability to see negative clues. You can keep track of them via memory, but this is quite cumbersome to do perfectly. Using negative clues is essential to playing at a high-level.
