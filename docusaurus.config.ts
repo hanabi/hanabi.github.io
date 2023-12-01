@@ -1,14 +1,45 @@
-const path = require("path");
+import type * as Preset from "@docusaurus/preset-classic";
+import type { Config } from "@docusaurus/types";
+import path from "node:path";
+import url from "node:url";
 
-module.exports = {
+const __dirname = path.dirname(url.fileURLToPath(import.meta.url));
+
+const config: Config = {
   title: "H-Group Conventions",
+  tagline: undefined,
+  favicon: "img/favicon.ico",
+
   url: "https://hanabi.github.io",
   baseUrl: "/",
-  onBrokenLinks: "throw",
-  onBrokenMarkdownLinks: "warn",
-  favicon: "img/favicon.ico",
+
   organizationName: "hanabi",
   projectName: "hanabi.github.io",
+
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+
+  i18n: {
+    defaultLocale: "en",
+    locales: ["en"],
+  },
+
+  presets: [
+    [
+      "classic",
+      {
+        docs: {
+          routeBasePath: "/", // Serve the docs at the site's root.
+          sidebarPath: "./sidebars.ts",
+          editUrl: "https://github.com/hanabi/hanabi.github.io/edit/main/",
+        },
+        theme: {
+          customCss: "./src/css/custom.css",
+        },
+      } satisfies Preset.Options,
+    ],
+  ],
+
   themeConfig: {
     // Vanilla components
     navbar: {
@@ -19,25 +50,25 @@ module.exports = {
       },
       items: [
         {
-          to: "docs/beginner",
+          to: "beginner",
           activeBasePath: "docs",
           label: "Beginner",
           position: "left",
         },
         {
-          to: "docs/learning-path",
+          to: "learning-path",
           activeBasePath: "docs",
           label: "Learning Path",
           position: "left",
         },
         {
-          to: "docs/reference",
+          to: "reference",
           activeBasePath: "docs",
           label: "Reference",
           position: "left",
         },
         {
-          to: "docs/variant-specific",
+          to: "variant-specific",
           activeBasePath: "docs",
           label: "Variant-Specific",
           position: "left",
@@ -66,28 +97,19 @@ module.exports = {
       appId: "24AGYEOQ7J", // cspell:disable-line
       apiKey: "7e647fd7de142915da9f459b345dfca4",
       indexName: "hanabi-conventions",
-      contextualSearch: false, // Enabled by default; only useful for versioned sites
+      contextualSearch: false, // Enabled by default; only useful for versioned sites.
     },
 
     colorMode: {
       defaultMode: "dark",
     },
-  },
+  } satisfies Preset.ThemeConfig,
+
+  // -------------------------
+  // Added fields from vanilla
+  // -------------------------
+
   plugins: [path.resolve(__dirname, "image-generator")],
-  presets: [
-    [
-      "@docusaurus/preset-classic",
-      {
-        docs: {
-          sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://github.com/hanabi/hanabi.github.io/edit/main/",
-        },
-        theme: {
-          customCss: require.resolve("./src/css/custom.css"),
-        },
-      },
-    ],
-  ],
   scripts: [
     {
       src: "https://kit.fontawesome.com/1932a73877.js",
@@ -96,3 +118,5 @@ module.exports = {
     "/js/hotkey.js",
   ],
 };
+
+export default config;

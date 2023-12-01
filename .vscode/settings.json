@@ -8,36 +8,80 @@
   "editor.rulers": [100],
   "editor.tabSize": 2,
 
-  // Linux line endings are used in this project.
+  "files.associations": {
+    ".env*": "shellscript", // e.g. ".env.example" is the same as ".env".
+  },
+
+  // We want to always use "lf" to be consistent with all platforms.
   "files.eol": "\n",
 
-  // Automatically removing all trailing whitespace when saving a file.
+  // Automatically remove all trailing whitespace when saving a file.
   "files.trimTrailingWhitespace": true,
 
   // Configure glob patterns for excluding files and folders in full text searches and quick open.
-  // (File extensions must be specified or the glob won't work properly.)
   "search.exclude": {
-    "**/*.png*": true,
-    "**/*.svg*": true,
+    "**/*.mp3": true,
+    "**/*.png": true,
+    "**/*.svg": true,
+    "**/*.wav": true,
+    "**/.yarn/": true,
+    "**/dist/": true,
+    "**/node_modules/": true,
+    "LICENSE": true,
   },
 
-  // -----------------------
-  // JavaScript / TypeScript
-  // -----------------------
+  // ------------------
+  // Extension settings
+  // ------------------
+
+  // Use Prettier to format "cspell.jsonc".
+  "cSpell.autoFormatConfigFile": true,
+
+  // -----------------
+  // Language settings
+  // -----------------
 
   // By default, VSCode will not automatically fill-in function arguments.
   "javascript.suggest.completeFunctionCalls": true,
   "typescript.suggest.completeFunctionCalls": true,
 
+  // By default, VSCode will prefer non-relative paths for deeply nested files.
+  "javascript.preferences.importModuleSpecifier": "relative",
+  "typescript.preferences.importModuleSpecifier": "relative",
+
+  // Show TypeScript errors for files that don't happen to be currently open, which makes TypeScript
+  // work similar to other compiled languages like Golang or Rust.
+  "typescript.tsserver.experimental.enableProjectDiagnostics": true,
+
   // Automatically run the formatter when certain files are saved.
   "[javascript]": {
-    "editor.codeActionsOnSave": ["source.fixAll.eslint"],
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit",
+    },
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true,
     "editor.tabSize": 2,
   },
   "[typescript]": {
-    "editor.codeActionsOnSave": ["source.fixAll.eslint"],
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit",
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+  },
+  "[javascriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit",
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+  },
+  "[typescriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit",
+    },
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true,
     "editor.tabSize": 2,
@@ -62,26 +106,31 @@
     "editor.formatOnSave": true,
     "editor.tabSize": 2,
   },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+  },
+  "[postcss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+  },
+  // @template-customization-start
   "[mdx]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true,
     "editor.tabSize": 2,
   },
-
-  // ------
-  // Python
-  // ------
-
-  // Use "black" to automatically format Python files:
-  // https://github.com/psf/black
-  "python.formatting.provider": "black",
-  "python.linting.pylintEnabled": true,
-  "python.linting.enabled": true,
-
-  // Automatically run the formatter when a Python file is saved.
   "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
     "editor.formatOnSave": true,
-    "editor.rulers": [79],
     "editor.tabSize": 4,
   },
+  // @template-customization-end
 }

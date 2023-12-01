@@ -1,32 +1,31 @@
 #!/bin/bash
 
-set -e # Exit on any errors
+set -euo pipefail # Exit on errors and undefined variables.
 
-# Get the directory of this script
+# Get the directory of this script:
 # https://stackoverflow.com/questions/59895/getting-the-source-directory-of-a-bash-script-from-within
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
 if [[ $OSTYPE == 'darwin'* ]]; then
-  # Install Homebrew if it already doesn't exist
-  which -s brew
-  if [[ $? != 0 ]] ; then
+  # Install Homebrew if it already doesn't exist.
+  if ! which -s brew; then
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
   fi
 
-  which -s node
-  if [[ $? != 0 ]] ; then
+  if ! which -s node; then
     brew install node
   fi
 
-  which -s python3
-  if [[ $? != 0 ]] ; then
+  if ! which -s python3; then
     brew install python3
   fi
 fi
 
 echo "Installing JavaScript dependencies..."
 cd "$DIR"
-yarn install --frozen-lockfile
+corepack enable
+corepack prepare yarn@stable --activate
+yarn install
 echo "Complete."
 
 echo "Installing Python dependencies..."

@@ -1,5 +1,5 @@
 // Constants
-const WEBPAGE_NAME = "The H-Group Conventions";
+const WEBPAGE_NAME = "H-Group Conventions";
 const FIRST_DOC_PAGE_TITLE = "About";
 const LAST_DOC_PAGE_TITLE = "Convention Attribution";
 const MAX_LEVEL = 25;
@@ -7,15 +7,14 @@ const MAX_LEVEL = 25;
 // Variables
 const keyMap = new Map();
 
-document.onkeydown = function onKeyDown(e) {
+document.addEventListener("keydown", (e) => {
   // Do not do anything if we have any modifier keys pressed down.
   if (e.ctrlKey || e.shiftKey || e.altKey || e.metaKey) {
     return;
   }
 
   // Do not do anything if we have the search box focused.
-  const searchInputElements =
-    document.getElementsByClassName("DocSearch-Input");
+  const searchInputElements = document.querySelectorAll(".DocSearch-Input");
   for (const searchInputElement of searchInputElements) {
     if (document.activeElement === searchInputElement) {
       return;
@@ -26,7 +25,7 @@ document.onkeydown = function onKeyDown(e) {
   if (keyFunction !== undefined) {
     keyFunction();
   }
-};
+});
 
 // Navigate backwards.
 keyMap.set("ArrowLeft", () => {
@@ -36,16 +35,16 @@ keyMap.set("ArrowLeft", () => {
 
   if (isOnFirstDocPage()) {
     // Click on the nav bar title.
-    const navBarTitle = document.getElementsByClassName("navbar__title");
-    if (navBarTitle.length >= 1) {
+    const navBarTitle = document.querySelectorAll(".navbar__title");
+    if (navBarTitle.length > 0) {
       navBarTitle[0].click();
       return;
     }
   }
 
   // Click on the left-most button.
-  const buttons = document.getElementsByClassName("pagination-nav__link");
-  if (buttons.length >= 1) {
+  const buttons = document.querySelectorAll(".pagination-nav__link");
+  if (buttons.length > 0) {
     buttons[0].click();
   }
 });
@@ -62,23 +61,24 @@ keyMap.set("ArrowRight", () => {
   }
 
   // Otherwise, assume that we are on a doc page.
-  const buttons = document.getElementsByClassName("pagination-nav__link");
+  const buttons = document.querySelectorAll(".pagination-nav__link");
   if (buttons.length >= 2) {
     buttons[1].click();
-  } else if (buttons.length >= 1) {
+  } else if (buttons.length > 0) {
     buttons[0].click();
   }
 });
 
 // Go to a specific level.
 keyMap.set("l", () => {
+  // eslint-disable-next-line no-alert
   const levelString = window.prompt("Enter the level that you want to go to:");
   if (levelString === null || levelString === "") {
     return;
   }
 
   const level = parseIntSafe(levelString);
-  if (Number.isNaN(level)) {
+  if (level === undefined) {
     return;
   }
 
@@ -86,12 +86,12 @@ keyMap.set("l", () => {
     return;
   }
 
-  window.location = `/docs/level-${level}`;
+  window.location = `/level-${level}`;
 });
 
 function isOnLandingPage() {
-  const titles = document.getElementsByClassName("hero__title");
-  return titles.length >= 1;
+  const titles = document.querySelectorAll(".hero__title");
+  return titles.length > 0;
 }
 
 function isOnFirstDocPage() {
@@ -103,35 +103,36 @@ function isOnLastDocPage() {
 }
 
 function clickOnFirstLargeButton() {
-  const largeButtons = document.getElementsByClassName("button--lg");
-  if (largeButtons.length >= 1) {
+  const largeButtons = document.querySelectorAll(".button--lg");
+  if (largeButtons.length > 0) {
     largeButtons[0].click();
   }
 }
 
 /**
- * `parseIntSafe` is a more reliable version of `parseInt`. By default, "parseInt('1a')" will return
- * "1", which is unexpected This returns either an integer or NaN.
+ * This is a more reliable version of `Number.parseInt`:
+ *
+ * - `undefined` is returned instead of `Number.NaN`, which is helpful in conjunction with
+ *   TypeScript type narrowing patterns.
+ * - Strings that are a mixture of numbers and letters will result in undefined instead of the part
+ *   of the string that is the number. (e.g. "1a" --> undefined instead of "1a" --> 1)
+ * - Non-strings will result in undefined instead of being coerced to a number.
+ *
+ * If you have to use a radix other than 10, use the vanilla `Number.parseInt` function instead,
+ * because this function ensures that the string contains no letters.
  */
-function parseIntSafe(input) {
-  // Remove all leading and trailing whitespace.
-  let trimmedInput = input.trim();
-
-  const isNegativeNumber = trimmedInput.startsWith("-");
-  if (isNegativeNumber) {
-    // Remove the leading minus sign before we match the regular expression.
-    trimmedInput = trimmedInput.substring(1);
+function parseIntSafe(string) {
+  if (typeof string !== "string") {
+    return undefined;
   }
 
-  if (/^\d+$/.exec(trimmedInput) === null) {
-    // "\d" matches any digit (same as "[0-9]").
-    return NaN;
+  const trimmedString = string.trim();
+
+  // If the string does not entirely consist of numbers, return undefined.
+  if (INTEGER_REGEX.exec(trimmedString) === null) {
+    return undefined;
   }
 
-  if (isNegativeNumber) {
-    // Add the leading minus sign back.
-    trimmedInput = `-${trimmedInput}`;
-  }
-
-  return parseInt(trimmedInput, 10);
+  const number = Number.parseInt(trimmedString, 10);
+  return Number.isNaN(number) ? undefined : number;
 }

@@ -7,7 +7,6 @@ import EliminationNotes from "@site/image-generator/yml/level-18/elimination-not
 import EliminationBlindPlay from "@site/image-generator/yml/level-18/elimination-blind-play.yml";
 import EliminationPlayClue from "@site/image-generator/yml/level-18/elimination-play-clue.yml";
 import EliminationSingleOutNegative from "@site/image-generator/yml/level-18/elimination-single-out-negative.yml";
-import EliminationRidingDeduction from "@site/image-generator/yml/level-18/elimination-riding-deduction.yml";
 import EliminationFinesse from "@site/image-generator/yml/level-18/elimination-finesse.yml";
 import EliminationFinesse2 from "@site/image-generator/yml/level-18/elimination-finesse-2.yml";
 import TrashTouchElimination from "@site/image-generator/yml/level-18/trash-touch-elimination.yml";
@@ -81,12 +80,12 @@ import TrashTouchElimination from "@site/image-generator/yml/level-18/trash-touc
 - However, this rule does not apply if a clue singles out a playable card from _Elimination_. In this case, the card is only focused on the _Elimination_ card, and any other cards touched are not necessarily playable right now.
 - For example, in a 3-player game:
   - Red 1 and blue 1 are played on the stacks.
-  - Alice has both red 2's in her hand on slot 3 and slot 5. (Alice's chop is her slot 5.)
+  - Alice has both red 2's in her hand on slot 2 and slot 5. (Alice's chop is her slot 5.)
   - Alice discards her chop, and it is revealed to be the red 2.
   - Alice is surprised, and writes _Discard Elimination Notes_ for red 2 on slots 2, 3, 4, and 5.
-  - Bob gives a number 2 clue to Alice that touches a card in slot 1 and slot 4.
-  - Normally, Alice would treat this as a _Play Clue_ on the 2 in her slot 1. However, she now knows that her slot 4 card is exactly red 2 (and that she can play it right now).
-  - Thus, Alice knows that the point of the clue was only to get the red 2. The 2 in her slot 1 can be any 2 in the game and is not necessarily playable right now.
+  - Bob gives a number 2 clue to Alice that touches a card in slot 1, slot 3 and slot 4.
+  - Normally, Alice would treat this as a _Play Clue_ on the 2 in her slot 1. However, she knows from her elimination notes that this is not the red 2, so the focus of the clue moves to the right. Therefore, slot 3 is exactly red 2 (and she can play it right now).
+  - Alice knows that the point of the clue was only to get the red 2. Her cards in slots 1 and 4 can be any 2's in the game and are not necessarily playable right now.
 
 <EliminationPlayClue />
 
@@ -99,8 +98,8 @@ import TrashTouchElimination from "@site/image-generator/yml/level-18/trash-touc
 
 - See the section on the _[Elimination Play Clue](#the-elimination-play-clue)_:
   - In the example for _Elimination Play Clue_, Alice receives a 2 clue.
-  - After getting the 2 clue, Alice deletes the _Elimination Notes_ on her slot 2, slot 3, and slot 5.
-  - Thus, Alice has completely narrowed down the identity of the red 2 to be in slot 4.
+  - After getting the 2 clue, Alice deletes the _Elimination Notes_ on her slot 2, slot 4, and slot 5.
+  - Thus, Alice has completely narrowed down the identity of the red 2 to be in slot 3.
 
 #### Example of an Elimination Single-Out Using a Clue With Negative Information
 
@@ -140,8 +139,6 @@ import TrashTouchElimination from "@site/image-generator/yml/level-18/trash-touc
   - Alice receives no clues on the next go-around of the table. She discards, and now has _Elimination Notes_ on slots 3, 4, and 5.
   - Alice receives no clues on the next go-around of the table. She discards, and now has _Elimination Notes_ on slots 4 and 5.
   - Alice receives no clues on the next go-around of the table. Her teammates would not let the other copy of red 2 be discarded, so it must be on slot 4. Alice blind-plays red 2 from slot 4.
-
-<EliminationRidingDeduction />
 
 ### The Riding Bluff
 

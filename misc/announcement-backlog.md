@@ -6,60 +6,27 @@ As noted in the [convention changes document](convention-changes.md), sometimes 
 
 ## The Backlog (General Conventions)
 
-@everyone Renamed conventions:
-
-**The Queued Finesse** (rename)
-
-```text
-- The _Stacked Finesse_ is renamed to the _Queued Finesse_.
-- (_Stacked Ejection_ is not renamed since it does not use a queue.)
-```
-
 @everyone Deleted conventions:
 
-**The Junk Discharge** (deleted)
+**Unnecessary Trash Finesse** & **Unnecessary Trash Bluff** (by pianoblook)
 
 ```text
-- The _Junk Discharge_ has been deleted, since it is just the same thing as a _Unknown Trash Discharge_ or an _Unknown Dupe Discharge_.
-```
-
-@everyone New variant-specific conventions:
-
-**Hard Variant Revamp** (by pianoblook)
-
-```text
-- The efficiency threshold for hard variants is raised from 1.25 to 1.33.
-```
-
-**Odds & Evens Prompt Rank Exception** (by Sturm)
-
-```text
-- This convention only applies to the Odds & Evens variants.
-- Previously, _Prompts_ would not apply to a card if it had an odd clue on it.
-- Now, _Prompts_ do not apply if the card only has one clue on it and it is an odd clue.
-```
-
-**The 5 Odd Ejection** (by Sturm)
-
-```text
-- This convention only applies to the Odds & Evens variants.
-- An _Play Clue_ initiated with an odd clue to a 5 signals an _Ejection_ on the next player if they have to **blind-play two or more cards** to fulfill the _Finesse_. (This is similar to how _5 Color Ejection_ works.)
-- The _Odd Prompt Rank Exception_ applies when counting the blind-plays.
-- Players should be careful with odd clues focused on chop. Depending on if the _Always Loaded Principle_ applies, the clue can be a _Save Clue_, a _5 Odd Ejection_ or a _Rank Choice Ejection_.
-- For example, in a 3-player game:
-  - Red 4 is played on the stacks.
-  - Cathy has a red card clued in her hand. From _Good Touch Principle_, she assumes that it is the red 5.
-  - The only yellow card that both Alice and Bob see is Cathy's yellow 5.
-  - Alice gives an odd clue to Cathy, touching a yellow 5 on chop.
-  - Since Cathy is loaded with a playable red card, the _Always Loaded Principle_ applies. Therefore, the odd clue is a _Play Clue_ on the yellow 5.
-  - Since Bob has to blind-play two or more cards to fulfill the _Finesse_, he knows this is a _5 Odd Ejection_. Bob blind-plays his _Second Finesse Position_. It is a blue 1 and it successfully plays on the stacks.
-  - Cathy knows an _Ejection_ happened. The only ejection that matches this sequence is a _5 Odd Ejection_, so she marks her odd card as any non-red 5.
+- The special conventions called the **Unnecessary Trash Finesse** and the **Unnecessary Trash Bluff** are deleted.
+- Now, all *Trash Finesses* and all *Trash Bluffs* are treated as unnecessary. In other words, all *Trash Finesses* and all *Trash Bluffs* perform *Chop Moves* or *Trash Pushes* when they are performed.
 ```
 
 <br />
 
 ## The Backlog (Variant-Specific Conventions)
 
-n/a
+@everyone New variant-specific conventions:
+
+**Red Fix Clue** (by Dr. Kakashi)
+
+```text
+- This convention only applies to omni-ones variants.
+- Normally, when cards are re-clued with a red color clue, this would be interpreted as a _Tempo Clue_. However, in an omni-ones variant, this is instead interpreted as a _Fix Clue_.
+- We arbitrarily choose red since it is the left-most color.
+```
 
 <br />

@@ -1,14 +1,24 @@
----
-id: first-principles
-title: First Principles
----
+# First Principles
 
-In general, we want all of our strategies to flow from some basic principles. That way, new players can just learn the first principles, and then use logic and reasoning to find out the resulting strategy that their teammate is intending. However, there are a few wrinkles with this:
+## First Principles Don't Work
 
-1. Some of our strategies are arbitrary and do not flow from the first principles. So take the phrase "First Principles" with a grain of salt.
-1. Since the principles are a little abstract, they are more useful as a reference than as an actual guide on how to play Hanabi with our group - this is what the [beginner's guide](beginner.mdx) is for.
+As a somewhat advanced Hanabi Group, we have a lot of conventions. Teaching a brand new player all of the conventions is difficult. To solve this problem, we have grouped the conventions into arbitrary "levels", so that new players can learn them bit by bit.
 
-<br />
+Another possible strategy to solve this problem would be to agree on some basic principles, and then have every convention flow from the basic principles. In that world, new players could just learn the first principles, and then use logic and reasoning to find out the resulting strategy that their teammate is intending. Unfortunately, this strategy does not work very well.
+
+The first problem is that "first principles" collide with each other. When two first principles are in conflict, which one has precedence? In real games, this is messy: we want some principles to have precedence in certain situations, and other principles to have precedence in other situations. And you don't start to get an intuition for this until you have played hundreds and hundreds of games.
+
+Another problem is that Hanabi is filled with situations where a clue could mean two or more things at the same time. Sometimes, in these types of situations, all of the possible clue interpretations would be "logical" and provide value. So there really isn't a clear way for a new player to "reason" themselves into the intended strategy in a consistent way, because they just might arrive at an entirely separately logical conclusion. Here, the only solution here is to strongly define a precedence and have players arbitrarily memorize it.
+
+Thus, _First Principles_ are a nice idea, but do not work well enough in practice for a game as complicated as Hanabi. When you have a "simple" system that flows from a few basic principles, you often will have frustrating post-game reviews that are filled with arguments about what a clue "should" mean, and which _First Principle_ should take precedence in this particular situation. People often have strong intuitions about this that can not be reconciled! This problem is mostly solved by having a more strongly defined set of rules. Instead, our post-game reviews are focused on finding the most efficient moves and strategies within a shared framework, which is much more productive and fun!
+
+<br>
+
+## A First Principles List
+
+If you absolutely had to come up with a set of _First Principles_ that our conventions "flowed from", you could do it, but it would not be very accurate or very useful or very good (as explained above). But if you did, it would look something like this:
+
+<br>
 
 ### 1. Chop Principle
 

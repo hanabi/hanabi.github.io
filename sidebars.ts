@@ -1,4 +1,6 @@
-module.exports = {
+import type { SidebarsConfig } from "@docusaurus/plugin-content-docs";
+
+const sidebars: SidebarsConfig = {
   mainSidebar: [
     "about",
     {
@@ -119,7 +121,6 @@ module.exports = {
     {
       "Basic Strategies": [
         "reference",
-        "first-principles",
         "level-1",
         "level-2",
         "level-3",
@@ -145,6 +146,7 @@ module.exports = {
         "level-23",
         "level-24",
         "level-25",
+        "summary",
       ],
     },
     {
@@ -198,6 +200,7 @@ module.exports = {
         "variant-specific/number-mute",
         "variant-specific/odds-and-evens",
         "variant-specific/omni",
+        "variant-specific/omni-ones",
         "variant-specific/pink",
         "variant-specific/pink-omni",
         "variant-specific/pink-ones",
@@ -223,3 +226,5 @@ module.exports = {
     "convention-attribution",
   ],
 };
+
+export default sidebars;
