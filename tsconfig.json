@@ -40,5 +40,5 @@
     "./**/.*.tsx",
   ],
 
-  "exclude": ["scripts"],
+  "exclude": [".docusaurus", "build", "scripts"],
 }
