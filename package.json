@@ -28,8 +28,8 @@
     ]
   },
   "dependencies": {
-    "@docusaurus/core": "^3.0.0",
-    "@docusaurus/preset-classic": "^3.0.0",
+    "@docusaurus/core": "^3.0.1",
+    "@docusaurus/preset-classic": "^3.0.1",
     "@mdx-js/react": "^3.0.0",
     "clsx": "^2.0.0",
     "prism-react-renderer": "^2.3.0",
@@ -39,19 +39,19 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@docusaurus/eslint-plugin": "^3.0.0",
-    "@docusaurus/tsconfig": "^3.0.0",
+    "@docusaurus/eslint-plugin": "^3.0.1",
+    "@docusaurus/tsconfig": "^3.0.1",
     "@types/eslint": "^8",
-    "@types/react": "^18.2.39",
-    "cspell": "^8.0.0",
+    "@types/react": "^18.2.41",
+    "cspell": "^8.1.0",
     "cspell-check-unused-words": "^1.0.11",
-    "eslint": "^8.54.0",
+    "eslint": "^8.55.0",
     "isaacscript": "^3.29.0",
     "isaacscript-common-node": "^1.4.0",
-    "isaacscript-lint": "^6.4.1",
+    "isaacscript-lint": "^6.10.0",
     "isaacscript-tsconfig": "^5.0.0",
     "shell-loader": "^1.2.1",
-    "tsx": "^4.6.1",
+    "tsx": "^4.6.2",
     "typescript": "^5.3.2",
     "webpack": "^5.89.0"
   },

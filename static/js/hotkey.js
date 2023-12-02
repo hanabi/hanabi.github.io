@@ -1,58 +1,70 @@
-// Constants
+// @ts-check
+
 const WEBPAGE_NAME = "H-Group Conventions";
 const FIRST_DOC_PAGE_TITLE = "About";
 const LAST_DOC_PAGE_TITLE = "Convention Attribution";
 const MAX_LEVEL = 25;
 
-// Variables
-const keyMap = new Map();
+const KEY_MAP = new Map([
+  ["ArrowLeft", navigateBackwards],
+  ["ArrowRight", navigateForwards],
+  ["l", goToSpecificLevel],
+]);
 
-document.addEventListener("keydown", (e) => {
-  // Do not do anything if we have any modifier keys pressed down.
-  if (e.ctrlKey || e.shiftKey || e.altKey || e.metaKey) {
-    return;
-  }
+main();
 
-  // Do not do anything if we have the search box focused.
-  const searchInputElements = document.querySelectorAll(".DocSearch-Input");
-  for (const searchInputElement of searchInputElements) {
-    if (document.activeElement === searchInputElement) {
+function main() {
+  document.addEventListener("keydown", (event) => {
+    // Do not do anything if we have any modifier keys pressed down.
+    if (event.ctrlKey || event.shiftKey || event.altKey || event.metaKey) {
       return;
     }
-  }
 
-  const keyFunction = keyMap.get(e.key);
-  if (keyFunction !== undefined) {
-    keyFunction();
-  }
-});
+    // Do not do anything if we have the search box focused.
+    if (isSearchBarFocused()) {
+      return;
+    }
 
-// Navigate backwards.
-keyMap.set("ArrowLeft", () => {
+    const keyFunction = KEY_MAP.get(event.key);
+    if (keyFunction !== undefined) {
+      keyFunction();
+    }
+  });
+}
+
+/** @returns {boolean} */
+function isSearchBarFocused() {
+  // eslint-disable-next-line unicorn/prefer-spread
+  const searchInputElements = Array.from(
+    document.querySelectorAll(".DocSearch-Input"),
+  );
+  return (
+    document.activeElement !== null &&
+    searchInputElements.includes(document.activeElement)
+  );
+}
+
+function navigateBackwards() {
   if (isOnLandingPage()) {
     return;
   }
 
   if (isOnFirstDocPage()) {
-    // Click on the nav bar title.
-    const navBarTitle = document.querySelectorAll(".navbar__title");
-    if (navBarTitle.length > 0) {
-      navBarTitle[0].click();
-      return;
-    }
+    clickOnNavBarTitle();
+    return;
   }
 
-  // Click on the left-most button.
-  const buttons = document.querySelectorAll(".pagination-nav__link");
-  if (buttons.length > 0) {
-    buttons[0].click();
-  }
-});
+  clickFirstNavButton();
+}
 
-// Navigate forwards.
-keyMap.set("ArrowRight", () => {
+function navigateForwards() {
   if (isOnLandingPage()) {
-    clickOnFirstLargeButton();
+    clickOnFirstLandingPageButton();
+    return;
+  }
+
+  if (isOnFirstDocPage()) {
+    clickFirstNavButton();
     return;
   }
 
@@ -60,17 +72,10 @@ keyMap.set("ArrowRight", () => {
     return;
   }
 
-  // Otherwise, assume that we are on a doc page.
-  const buttons = document.querySelectorAll(".pagination-nav__link");
-  if (buttons.length >= 2) {
-    buttons[1].click();
-  } else if (buttons.length > 0) {
-    buttons[0].click();
-  }
-});
+  clickSecondNavButton();
+}
 
-// Go to a specific level.
-keyMap.set("l", () => {
+function goToSpecificLevel() {
   // eslint-disable-next-line no-alert
   const levelString = window.prompt("Enter the level that you want to go to:");
   if (levelString === null || levelString === "") {
@@ -92,8 +97,8 @@ keyMap.set("l", () => {
     return;
   }
 
-  window.location = `/level-${level}`;
-});
+  window.location.href = `/level-${level}`;
+}
 
 function isOnLandingPage() {
   const titles = document.querySelectorAll(".hero__title");
@@ -108,10 +113,46 @@ function isOnLastDocPage() {
   return document.title === `${LAST_DOC_PAGE_TITLE} | ${WEBPAGE_NAME}`;
 }
 
-function clickOnFirstLargeButton() {
+function clickOnNavBarTitle() {
+  const navBarTitles = document.querySelectorAll(".navbar__title");
+  const navBarTitle = navBarTitles[0];
+  if (navBarTitle !== undefined && navBarTitle instanceof HTMLElement) {
+    navBarTitle.click();
+  }
+}
+
+function clickOnFirstLandingPageButton() {
   const largeButtons = document.querySelectorAll(".button--lg");
-  if (largeButtons.length > 0) {
-    largeButtons[0].click();
+  const largeButton = largeButtons[0];
+  if (largeButton !== undefined && largeButton instanceof HTMLElement) {
+    largeButton.click();
+  }
+}
+
+function clickFirstNavButton() {
+  clickNavButton(0);
+}
+
+function clickSecondNavButton() {
+  clickNavButton(1);
+}
+
+/** @param {number} i */
+function clickNavButton(i) {
+  const navButtonsCollection = document.querySelectorAll(".pagination-nav");
+  const navButtons = navButtonsCollection[0];
+  if (navButtons === undefined) {
+    return;
+  }
+
+  const buttonDiv = navButtons.children[i];
+  if (buttonDiv === undefined) {
+    return;
+  }
+
+  const buttonLink = buttonDiv.children[0];
+  if (buttonLink !== undefined && buttonLink instanceof HTMLElement) {
+    buttonLink.click();
   }
 }
 
@@ -126,6 +167,8 @@ function clickOnFirstLargeButton() {
  *
  * If you have to use a radix other than 10, use the vanilla `Number.parseInt` function instead,
  * because this function ensures that the string contains no letters.
+ *
+ * @param {string} string The string to convert to a number.
  */
 function parseIntSafe(string) {
   if (typeof string !== "string") {
@@ -135,7 +178,7 @@ function parseIntSafe(string) {
   const trimmedString = string.trim();
 
   // If the string does not entirely consist of numbers, return undefined.
-  if (INTEGER_REGEX.exec(trimmedString) === null) {
+  if (/^-?\d+$/.exec(trimmedString) === null) {
     return undefined;
   }
 
