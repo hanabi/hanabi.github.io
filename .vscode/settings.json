@@ -28,6 +28,10 @@
     "**/dist/": true,
     "**/node_modules/": true,
     "LICENSE": true,
+    // @template-customization-start
+    "**/.docusaurus/": true,
+    "**/build/": true,
+    // @template-customization-end
   },
 
   // ------------------

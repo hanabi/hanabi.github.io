@@ -79,10 +79,16 @@ keyMap.set("l", () => {
 
   const level = parseIntSafe(levelString);
   if (level === undefined) {
+    // eslint-disable-next-line no-alert
+    window.alert(`"${levelString}" is not a number.`);
     return;
   }
 
   if (level < 1 || level > MAX_LEVEL) {
+    // eslint-disable-next-line no-alert
+    window.alert(
+      `Level ${level} is not a valid level; levels must be between 1 and ${MAX_LEVEL}.`,
+    );
     return;
   }
 
