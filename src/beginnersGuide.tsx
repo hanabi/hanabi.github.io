@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css"; // eslint-disable-line import/no-unassigned-import, @typescript-eslint/no-restricted-imports
 import sidebars from "../sidebars";
-import { isObject } from "./utils.js";
+import { isObject } from "./utils";
 
 const BEGINNERS_GUIDE_PARTS: readonly string[] = (() => {
   const { mainSidebar } = sidebars;

@@ -21,6 +21,14 @@ const config = {
 
   rules: {
     // Insert changed or disabled rules here, if necessary.
+
+    // @template-customization-start
+
+    // Docusaurus is stuck on ESM. Remove this when "package.json" can be converted:
+    // https://github.com/facebook/docusaurus/issues/6520
+    "n/file-extension-in-import": "off",
+
+    // @template-customization-end
   },
 };
 
