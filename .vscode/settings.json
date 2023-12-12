@@ -53,6 +53,9 @@
   "javascript.preferences.importModuleSpecifier": "relative",
   "typescript.preferences.importModuleSpecifier": "relative",
 
+  // By default, VSCode will not add `import type` automatically.
+  "typescript.preferences.preferTypeOnlyAutoImports": true,
+
   // Show TypeScript errors for files that don't happen to be currently open, which makes TypeScript
   // work similar to other compiled languages like Golang or Rust.
   "typescript.tsserver.experimental.enableProjectDiagnostics": true,
