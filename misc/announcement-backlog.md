@@ -29,4 +29,13 @@ As noted in the [convention changes document](convention-changes.md), sometimes 
 - We arbitrarily choose red since it is the left-most color.
 ```
 
+@everyone Changed conventions:
+
+**Trash Finesse & Trash Bluff** (in Pink) (by str8tsknacker) <!-- cspell:ignore tsknacker -->
+
+```text
+- The exception for pink variants where not all of the cards are promised to be trash is deleted.
+- Now, _Trash Finesses_ and _Trash Bluffs_ work identically do all other variants.
+```
+
 <br />

@@ -1,4 +1,4 @@
-## Pinging the H-Group
+# Pinging the H-Group
 
 - The H-Group hangs out in our [Discord server](https://discord.gg/FADvkJp).
 - The group is fairly active so there are usually people playing pick-up games at most hours of the day and night.
@@ -10,7 +10,7 @@
 
 <br />
 
-### Rules
+## Rules
 
 - Don't ping if there are already one or more pick-up games going on.
 - Don't ping more than once every two to three hours.
