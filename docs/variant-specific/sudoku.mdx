@@ -1,0 +1,56 @@
+---
+id: throw-it-in-a-hole
+title: Throw It in a Hole
+---
+
+These conventions apply to the "Sudoku" variants.
+
+<br />
+
+## Rank Explosion
+
+- This convention only applies on the very first turn of the game.
+- If Alice gives a rank clue, it is a normal play clue on the focused card, and also conveys an additional meaning.
+- The additional meaning is for the final two players at the table to blind-play. (The final two players does not include the person who received the rank clue.)
+- The two blind-playing players should blind-play the slot number corresponding to the rank clue that was given.
+- For example, in a 4-player game:
+  - It is the first turn and nothing is played on the stacks.
+  - Alice clues Donald number 2, touching a red 2 on slot 1.
+  - Bob blind-plays slot 2. It is a blue 3 and successfully plays on the stacks.
+  - Cathy blind-plays slot 2. It is a green 4 and successfully plays on the stacks.
+  - Donald plays the red 2 that was originally clued.
+- In a 3-player game:
+  - The clued player always blind-plays their _Finesse Position_ as an _Ignition_. (On their next turn, they can play the focus of the rank clue.)
+  - The non-clued player always blind-plays the slot number corresponding to the rank clue.
+- For example, in a 3-player game:
+  - It is the first turn and nothing is played on the stacks.
+  - Alice clues Cathy number 2, touching a red 2 on slot 1.
+  - Bob blind-plays slot 2. It is a blue 3 and successfully plays on the stacks.
+  - Cathy blind-plays _Finesse Position_ (slot 1). It is a green 4 and successfully plays on the stacks.
+  - On her next turn, Cathy can play the clued card as a red 2, yellow 2, or a purple 2.
+
+<br>
+
+## Safety Blind Play (SBP)
+
+- This convention only applies on the very first turn of the game.
+- If Alice plays slot 1, Bob chop moves.
+- If Alice plays slot 2, Cathy chop moves.
+- If Alice plays slot 3:
+  - In a 3-player game --> Bob chop moves twice.
+  - In a 4-player game --> Donald chop moves.
+  - In a 5-player game --> Donald chop moves.
+- If Alice plays slot 4:
+  - In a 3-player game --> Cathy chop moves twice.
+  - In a 4-player game --> Bob chop moves twice.
+  - In a 5-player game --> Emily chop moves.
+- If Alice plays slot 5:
+  - In a 3-player game --> Bob chop moves three times.
+
+<br>
+
+## Last Color Ejection (LCE)
+
+- The _5 Color Ejection_ (5CE) convention is turned off in Sudoku variants.
+- However, you can still perform the equivalent move by giving a color clue to the last card in a stack.
+- LCE is inherently worse than 5CE, because 5CE is always on a critical card, and LCE is not necessarily on a critical card. However, since the required efficiency of Sudoku is low, we still prefer LCE over a _Finesse_ that requires two-or-more-blind-plays from Bob.

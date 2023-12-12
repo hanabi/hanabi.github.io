@@ -206,6 +206,7 @@ const sidebars: SidebarsConfig = {
         "variant-specific/reversed",
         "variant-specific/special-ones",
         "variant-specific/special-fives",
+        "variant-specific/sudoku",
         "variant-specific/throw-it-in-a-hole",
         "variant-specific/totally-blind",
         "variant-specific/up-or-down",
