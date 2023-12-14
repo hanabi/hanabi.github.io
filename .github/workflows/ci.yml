@@ -2,14 +2,6 @@ name: CI
 
 on: [push, pull_request]
 
-# @template-customization-start
-
-permissions:
-  pages: write
-  id-token: write
-
-# @template-customization-end
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -31,6 +23,9 @@ jobs:
     if: "needs.pr-check.outputs.number != 'null'"
     needs: [build, lint]
     runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
     steps:
       - uses: actions/checkout@v4
       - uses: ./.github/workflows/setup
@@ -39,6 +34,18 @@ jobs:
         with:
           path: "./build"
       - uses: actions/deploy-pages@v2
+
+  auto-format:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ./.github/workflows/setup
+      - run: npx prettier --write .
+      - uses: stefanzweifel/git-auto-commit-action@v5
 
   discord:
     name: Discord Failure Notification
