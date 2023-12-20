@@ -20,14 +20,14 @@ jobs:
   # @template-customization-start
 
   deploy_website:
-    if: needs.pr-check.outputs.number != 'null'
+    if: github.event_name != 'pull_request'
     needs: [build, lint]
     runs-on: ubuntu-latest
     permissions:
       pages: write
       id-token: write
     steps:
-      - run: echo Z${{ needs.pr-check.outputs.number }}Z
+      - run: echo Z${{ github.event_namer }}Z
       - uses: actions/checkout@v4
       - uses: ./.github/workflows/setup
       - run: npm run build # It is faster to rebuild than to download/upload the build output.
