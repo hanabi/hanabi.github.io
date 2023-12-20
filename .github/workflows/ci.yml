@@ -20,7 +20,7 @@ jobs:
   # @template-customization-start
 
   deploy_website:
-    if: github.event_name != 'pull_request'
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
     needs: [build, lint]
     runs-on: ubuntu-latest
     permissions:
