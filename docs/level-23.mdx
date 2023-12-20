@@ -61,12 +61,13 @@ import RebelliousDiscard from "@site/image-generator/yml/level-23/rebellious-dis
 
 - First, see the sections on the _[Shout Discard Chop Move](#the-shout-discard-chop-move)_ and the _[Trash Order Chop Move](level-14.mdx#the-trash-order-chop-move-tocm)_.
 - If a player has a known-playable card and multiple known-trash cards, then discarding a trash card other than the left-most trash card causes a skip in exactly the same way as a Trash Order Chop Move.
-- Note: this also applies to known dupes from an _Unknown Dupe Discharge_. Both cards are considered trash for the purpose of _Order Chop Moves_.
 - For example, in a 3-player game:
   - Alice has a known playable card on slot 1, a known trash card on slot 2, and a known trash card on slot 3.
   - If Alice plays her known playable card from slot 1, nothing special happens.
   - If Alice discards her known trash card from slot 2, it would trigger a _Shout Discard Chop Move_ on Bob.
   - If Alice discards her known trash card from slot 3, it would trigger a _Shout Discard Order Chop Move_ on Cathy.
+- Note that it is explicitly illegal to perform a _Shout Discard Order Chop Move_ if the player has exactly two trash cards that were touched by an _Unknown Dupe Discharge_. In the case, if a player discards the cards out of order, it is to be treated as a known mistake.
+
 
 <br />
 
