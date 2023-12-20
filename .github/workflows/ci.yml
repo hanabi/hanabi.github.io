@@ -20,7 +20,7 @@ jobs:
   # @template-customization-start
 
   deploy_website:
-    if: "needs.pr-check.outputs.number != 'null'"
+    if: needs.pr-check.outputs.number != 'null'
     needs: [build, lint]
     runs-on: ubuntu-latest
     permissions:
