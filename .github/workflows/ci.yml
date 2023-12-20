@@ -27,7 +27,7 @@ jobs:
       pages: write
       id-token: write
     steps:
-      - run: echo Z${{ github.event_namer }}Z
+      - run: echo Z${{ github.event_name }}Z
       - uses: actions/checkout@v4
       - uses: ./.github/workflows/setup
       - run: npm run build # It is faster to rebuild than to download/upload the build output.
