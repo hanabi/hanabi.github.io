@@ -16,8 +16,10 @@ const config: Config = {
   organizationName: "hanabi",
   projectName: "hanabi.github.io",
 
+  onBrokenAnchors: "throw",
   onBrokenLinks: "throw",
-  onBrokenMarkdownLinks: "warn",
+  onBrokenMarkdownLinks: "throw",
+  onDuplicateRoutes: "throw",
 
   i18n: {
     defaultLocale: "en",
@@ -98,6 +100,7 @@ const config: Config = {
       apiKey: "7e647fd7de142915da9f459b345dfca4",
       indexName: "hanabi-conventions",
       contextualSearch: false, // Enabled by default; only useful for versioned sites.
+      searchParameters: {},
     },
 
     colorMode: {

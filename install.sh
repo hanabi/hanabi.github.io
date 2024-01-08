@@ -24,7 +24,6 @@ fi
 echo "Installing JavaScript dependencies..."
 cd "$DIR"
 corepack enable
-corepack prepare yarn@stable --activate
 yarn install
 echo "Complete."
 
