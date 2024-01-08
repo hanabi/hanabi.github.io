@@ -3,7 +3,10 @@
 
 /** @type {import("prettier").Config} */
 const config = {
-  plugins: ["prettier-plugin-organize-imports", "prettier-plugin-packagejson"],
+  plugins: [
+    "prettier-plugin-organize-imports", // Prettier does not format imports by default.
+    "prettier-plugin-packagejson", // Prettier does not format "package.json" by default.
+  ],
 
   overrides: [
     // Allow proper formatting of JSONC files:
