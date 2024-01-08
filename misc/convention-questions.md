@@ -1,13 +1,13 @@
-## Convention Questions
+# Convention Questions
 
 Ask questions about the H-Group conventions in the in the `#convention-questions` channel. But please follow these rules:
 
-### 1) State the Convention Level
+## 1) State the Convention Level
 
 - You **must** include a convention level with your question (even if you think it is obvious).
 - Use the level that the players of the game were playing with or the level relating to the convention that you are asking about.
 
-### 2) Use Replay Links or Use Alice and Bob Stories
+## 2) Use Replay Links or Use Alice and Bob Stories
 
 - If your answer is about something really simple, then ask away. But it is almost always better to provide an example.
 - If the question is about **a real game**, then you must include a link to the game by using the `/replay [game id] [turn number]` command.
@@ -15,7 +15,7 @@ Ask questions about the H-Group conventions in the in the `#convention-questions
 - If the question is about **a hypothetical**, then you must type out an Alice and Bob story in the style of the convention website.
 - (Hypotheticals are generally preferred to replays, since they narrow down the scope of what is happening.)
 
-### 3) Use H-Group Notation
+## 3) Use H-Group Notation
 
 Use notation that the H-Group will be familiar with:
 
@@ -29,22 +29,22 @@ Use notation that the H-Group will be familiar with:
 
 <!-- lint enable no-undefined-references -->
 
-### 4) Attempt to Answer Your Own Question (and Provide a Detailed Explanation)
+## 4) Attempt to Answer Your Own Question (and Provide a Detailed Explanation)
 
 - You **must** attempt to answer your own question, based on your current understanding of the conventions.
 - Provide a detailed explanation as to **why** you think it is the best answer, linking to the relevant sections of the website if necessary.
 - For example, the following question will be deleted:
   - /replay 12345 12<br />Level 11 game. Is this a 5 Stall or a 5 Pull?
 - For example, the following question is good:
-  - /replay 12345 12<br />Level 11 game. Here, it is Alice's turn. It is also the Early Game and no 5 Stalls have been given yet. Thus, based on my understanding of the conventions, when Alice clues number 5 to Bob, it would just be a 5 Stall, because there is no other possible clues that Alice can give. Is this correct? (From: https://hanabi.github.io/level-6#5-stalls-intermediate-section)
+  - /replay 12345 12<br />Level 11 game. Here, it is Alice's turn. It is also the Early Game and no 5 Stalls have been given yet. Thus, based on my understanding of the conventions, when Alice clues number 5 to Bob, it would just be a 5 Stall, because there is no other possible clues that Alice can give. Is this correct? (From: https://hanabi.github.io/level-9/#the-5-stall-intermediate-section)
 
-### 5) Put Everything in One Message
+## 5) Put Everything in One Message
 
 - Type out your entire question into a single message (including the attempt to answer your own question).
 
 <br />
 
-### Reasoning
+## Reasoning
 
 - The reason for needing the level is that it helps us narrow the scope of the question, it serves as a flag to let others know what kind of question it is, and it prevents lower level players from attempting to answer.
 - The reason for needing replays is that different people play in different modes (color-blind, art styles, card orientation, etc.).
