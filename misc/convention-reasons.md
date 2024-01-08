@@ -6,7 +6,7 @@ The main website lists all of our conventions. But it does not bother listing **
 
 ## Chop-Focus
 
-- In the H-Group convention framework, we play with _[Chop-Focus](https://hanabi.github.io/beginner/single-card-focus)_, which allows us to "get" playable cards that are on chop. Nearly all other Hanabi groups play with a simpler system (e.g. _Play Clues_ are always focused on the left-most card). Why do we have _Chop-Focus_?
+- In the H-Group convention framework, we play with [_Chop-Focus_](https://hanabi.github.io/beginner/single-card-focus), which allows us to "get" playable cards that are on chop. Nearly all other Hanabi groups play with a simpler system (e.g. _Play Clues_ are always focused on the left-most card). Why do we have _Chop-Focus_?
 - Most Hanabi groups independently come up with the _Finesse_ and the _Bluff_; they are considered to be the two core tools that allow players to be highly-efficient. In the H-Group, we use these tools as building blocks to compose even more advanced moves, such as the _Layered Finesse_ and the _3 Bluff_. These advanced _Finesses_ and _Bluffs_ allow us to get even more efficient.
 - Separately, notice that the strength of the "play the left-most" convention is that it allows players to easily clue the newest card. Meaning that even if the clue "splashes" other unrelated cards in the hand, it will always work to "get" the newest card.
 - But also notice that in the H-Group (and in any sufficiently advanced group of Hanabi players that does a lot of _Finesses_), we have a lot of good options to "get" a player's _Finesse Position_ card - it is uncommon to have to clue it directly. So this convention isn't helping much.
@@ -17,7 +17,7 @@ The main website lists all of our conventions. But it does not bother listing **
 
 ## Mandatory 5 Stalling
 
-- In the H-Group convention framework, we require that the team collectively performs one _[5 Stall](https://hanabi.github.io/level-2#the-5-stall-cluing-off-chop-5s)_. Why?
+- In the H-Group convention framework, we require that the team collectively performs one [_5 Stall_](https://hanabi.github.io/level-2#the-5-stall-cluing-off-chop-5s). Why?
 - _5 Stalls_ can be useful because they extend the _Early Game_. Extending the _Early Game_ is good, because it prevents bottom-deck losses.
 - On the other hand, _5 Stalls_ are kind of a waste, as they don't accomplish much in-of-themselves. It is more efficient to only save 5's when they actually get on chop and _need_ to be saved.
 - Thus, requiring one _5 Stall_ is a compromise between extending the _Early Game_ and not doing too many _5 Stalls_.
@@ -35,7 +35,7 @@ The main website lists all of our conventions. But it does not bother listing **
   - Bob plays slot 1 as red 1.
 - Why does this seem logical? The reason is that a big part of Hanabi is discarding and waiting patiently for playable cards to be drawn. When a new playable card is drawn, it is usually immediately given a clue. So interpreting _Play Clues_ as being focused on the card that was just drawn makes a lot of sense.
 - This "left-most" logic applies for most of the game. But notice that this logic does not apply to the opening hand. A playable card in the opening hand is **equally likely to be in any slot at all**, since the deck was shuffled randomly. So that explains why it is not necessarily "correct" to play 1's in the starting hand from left-to-right. But is it actually beneficial to play the 1's from right-to-left instead?
-- The H-Group closely follows _[Good Touch Principle](https://hanabi.github.io/beginner/good-touch-principle)_. A common problem with _Good Touch Principle_ is when one player has two copies of the same card in their hand. Even if the card is playable right now (e.g. a red 1), cluing it would be a no-no, since it would be a _Bad Touch_.
+- The H-Group closely follows [_Good Touch Principle_](https://hanabi.github.io/beginner/good-touch-principle). A common problem with _Good Touch Principle_ is when one player has two copies of the same card in their hand. Even if the card is playable right now (e.g. a red 1), cluing it would be a no-no, since it would be a _Bad Touch_.
 - Instead, the typical strategy is to do nothing and patiently wait for that player to discard. Eventually, the player will discard the first copy of the card, allowing the remaining copy to be clued in a "clean" way.
 - So, what about the inverse? What about when players do **not** patiently wait for a discard and instead clue two or more 1's immediately? The player who receives the clue knows that out of all of the 1s, the most important 1 must be the chop card (or the card closest to chop). Otherwise, if it were a "bad" 1, then the team would do nothing and let it get discarded!
 - It follows that players should always play 1's in the starting hand from right-to-left.
@@ -44,7 +44,7 @@ The main website lists all of our conventions. But it does not bother listing **
 
 ## 3 Bluffs
 
-- In the H-Group convention framework, we extend the _[Bluff](https://hanabi.github.io/level-10#the-bluff)_ convention, allowing players to _Bluff_ with [any 3 that they want](https://hanabi.github.io/level-12#the-3-bluff). Why?
+- In the H-Group convention framework, we extend the [_Bluff_](https://hanabi.github.io/level-10#the-bluff) convention, allowing players to _Bluff_ with [any 3 that they want](https://hanabi.github.io/level-12#the-3-bluff). Why?
 - Read the [story of 3 Bluffs](3-bluffs.md), which is on a separate page.
 
 <br />
@@ -91,7 +91,7 @@ The main website lists all of our conventions. But it does not bother listing **
 
 ## The 5-Pull
 
-- In the H-Group convention framework, we play with the _[5 Pull](https://hanabi.github.io/level-17#the-5-pull)_, which is a move that causes a blind-play to the right of the 5. Where did this arbitrary convention come from?
+- In the H-Group convention framework, we play with the [_5 Pull_](https://hanabi.github.io/level-17#the-5-pull), which is a move that causes a blind-play to the right of the 5. Where did this arbitrary convention come from?
 - Right now, we play with a rule of "you cannot perform a _5 Stall_ if there is something else to do". However, this rule did not always exist. Before this rule was created, we would perform _5 Stalls_ when a 5 was on someone's _Finesse Position_, with the purpose of moving their _Finesse Position_ to the next slot. Then, another player would take advantage of this and perform a _Finesse_ or _Bluff_ to get the card on the next slot.
 - For example, in a 4-player game:
   - It is the first turn and nothing is played on the stacks.

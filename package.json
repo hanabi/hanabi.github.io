@@ -43,8 +43,6 @@
     "@docusaurus/tsconfig": "^3.1.0",
     "@types/eslint": "^8",
     "@types/react": "^18.2.47",
-    "cspell": "^8.3.2",
-    "cspell-check-unused-words": "^1.1.1",
     "eslint": "^8.56.0",
     "isaacscript": "^3.37.0",
     "isaacscript-common-node": "^3.0.0",

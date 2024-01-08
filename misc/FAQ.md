@@ -162,7 +162,7 @@ No! There are **four** conditions where _Tempo Clues_ are allowed. If [any of th
 
 <br />
 
-## Does _[Schrodinger's Cat Principle](https://hanabi.github.io/level-5#schr%C3%B6dingers-cat-principle)_ always take priority over _[Occam's Razor](https://hanabi.github.io/level-10#clue-interpretation--occams-razor)_?
+## Does [_Schrodinger's Cat Principle_](https://hanabi.github.io/level-5#schr%C3%B6dingers-cat-principle) always take priority over [_Occam's Razor_](https://hanabi.github.io/level-10#clue-interpretation--occams-razor)?
 
 Yes.
 

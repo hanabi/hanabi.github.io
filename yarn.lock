@@ -9533,8 +9533,6 @@ __metadata:
     "@types/eslint": "npm:^8"
     "@types/react": "npm:^18.2.47"
     clsx: "npm:^2.1.0"
-    cspell: "npm:^8.3.2"
-    cspell-check-unused-words: "npm:^1.1.1"
     eslint: "npm:^8.56.0"
     isaacscript: "npm:^3.37.0"
     isaacscript-common-node: "npm:^3.0.0"
