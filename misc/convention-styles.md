@@ -1,4 +1,4 @@
-# Conventions Types & The Right Way to Play Hanabi
+# Conventions Styles & The Right Way to Play Hanabi
 
 ## Introduction
 
