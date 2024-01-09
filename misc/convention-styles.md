@@ -18,7 +18,7 @@ The human brain is one of the most advanced pattern-matching machines in the uni
 
 In this way, you could imagine that even if a group explicitly decides to _never_ discuss anything about the game, they could create conventions in a completely-accidental way. Everyone at the table would just instinctively know that when Bob is doing a certain kind of thing, he is in trouble. Will the players deliberately go against their instincts in order to preserve the "no convention" spirit of the game? Maybe, but that's going to be extremely difficult to do (or impossible) in the long term: there are hundreds of little signals that your teammates can subtly perform, and your pattern-matching brain is going to pick up on them.
 
-For people who get "into" Hanabi and play with the same people over and over, it is important to realize that it really is impossible to play with "no conventions". It's okay if you think that the game is best played with "implicit conventions only" - that could be a fun meta-game for a group's progression. But the point is that the distance between "implicit conventions only" and "some explicit conventions" is much less of a gap than some people in this camp would care to admit.
+For people who get "into" Hanabi and play with the same people over and over, it is important to realize that it really is impossible to play with "no conventions". It's okay if you think that the game is best played with "implicit conventions only" - that could be a fun meta-game for a group's progression. But the point here is that the distance between "implicit conventions only" and "some explicit conventions" is much less of a gap than some people in this camp would care to admit.
 
 ## Chapter 2: The Fallacy of "Logic-Only"
 
