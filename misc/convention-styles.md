@@ -24,7 +24,7 @@ For people who get "into" Hanabi and play with the same people over and over, it
 
 Even if we admit that playing with "no conventions" is impossible, it is not necessarily desirable to memorize a 100-page document filled with arbitrary conventions either. Is there some sweet spot between the two extremes?
 
-Some people argue there is an objective delineation between "logical" moves like _Finesses_ (that can be derived from first principles) and arbitrary moves like _Order Chop Move_ (that could have any arbitrary meaning). The most infamous supporter of this position is [Ben Smalls](https://boardgamegeek.com/user/smallman), who commonly asks for "logic-only" games. But this sentiment has been historically shared by many of the players who play a lot of Hanabi on [Board Game Arena](https://en.boardgamearena.com/), or BGA for short.
+Some people argue there is an objective delineation between "logical" moves like _Finesses_ (that can be derived from first principles) and arbitrary moves like [_Order Chop Moves_](https://hanabi.github.io/level-4/#the-order-chop-move-ocm) (that could have any arbitrary meaning). The most infamous supporter of this position is [Ben Smalls](https://boardgamegeek.com/user/smallman), who commonly asks for "logic-only" games. But this sentiment has been historically shared by many of the players who play a lot of Hanabi on [Board Game Arena](https://en.boardgamearena.com/), or BGA for short.
 
 These people think that the best way to play Hanabi is with "logical conventions only". But what is the exact definition of a logical convention? In truth, this is a delineation that falls apart under closer scrutiny. Let's dive deeper.
 
