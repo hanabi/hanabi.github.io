@@ -52,7 +52,7 @@ In this kind of environment, you can kind of see how the distinction between "lo
 
 If you find my historical retelling to not be very compelling, I encourage you to seek out and play a few games with Ben Smalls. Ben is notorious for berating players in post-game reviews for giving "wrong" clues that do not map on to his personal, convoluted chain of logic. It's the best wake up call in existence that "logic" is simply a synonym for "a thing that I personally find intuitive".
 
-The actual end-game here is that it is impossible to delineate what a "logical" convention is. All you can say is that some conventions are more intuitive. But even "more intuitive" is fraught with danger, because different groups play with different base assumptions! For example, you could imagine the _Finesse_ convention springing out of a group that struggles to get slot 1 played. But in a group that already has other ways to get slot 1, it would be natural and intuitive for them to develop a convention that gets slot 2!
+The actual end-game here is that it is impossible to delineate what a "logical" convention is. All you can say is that some conventions are more intuitive. But even "more intuitive" is fraught with danger, because different groups play with different base assumptions!
 
 So when someone says that they like playing with conventions that are "logical" or that it is the best way to play Hanabi, I always encourage them to be a little bit more precise. The word "logic" is dripping with so much historical arrogance that it is anathema to a holistic discussion of the game.
 
