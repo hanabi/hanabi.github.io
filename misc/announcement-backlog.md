@@ -6,7 +6,11 @@ As noted in the [convention changes document](convention-changes.md), sometimes 
 
 ## The Backlog (General Conventions)
 
-n/a
+@everyone Clarified conventions:
+
+**The Always Loaded Principle** (by James)
+
+- The _Always Loaded Principle_ applies during _Double Discard_ situations.
 
 <br>
 
