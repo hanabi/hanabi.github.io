@@ -46,7 +46,7 @@
     "eslint": "^8.56.0",
     "isaacscript": "^3.37.0",
     "isaacscript-common-node": "^3.0.0",
-    "isaacscript-lint": "^6.16.1",
+    "isaacscript-lint": "^6.18.0",
     "isaacscript-tsconfig": "^5.0.0",
     "shell-loader": "^1.2.1",
     "tsx": "^4.7.0",
