@@ -29,8 +29,13 @@ echo "Complete."
 
 echo "Installing Python dependencies..."
 cd "$DIR/image-generator"
-if command -v "pip3" > /dev/null; then
-  pip3 install -r requirements.txt
+
+# Check that `pip3` and `python` commands are present
+if (command -v "pip3" > /dev/null; command -v "python" > /dev/null) then
+   pip3 install -r requirements.txt
+elif command -v "python3" > /dev/null; then
+  echo "Error: Your Python program appears to be assocaited with the \"python3\" command. The \"python\" command is required for this website."
+  exit 1
 elif command -v "pip" > /dev/null; then
   # Check to make sure that pip is for Python 3, not Python 2
   if [[ ! $(pip3 --version | sed -n 's/^.*(python \(.\).*/\1/p' | grep 3) ]]; then
