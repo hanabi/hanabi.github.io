@@ -32,6 +32,7 @@
     "@docusaurus/preset-classic": "^3.1.0",
     "@mdx-js/react": "^3.0.0",
     "clsx": "^2.1.0",
+    "command-exists": "^1.2.9",
     "prism-react-renderer": "^2.3.1",
     "raw-loader": "^4.0.2",
     "react": "^18.2.0",
@@ -41,6 +42,7 @@
   "devDependencies": {
     "@docusaurus/eslint-plugin": "^3.1.0",
     "@docusaurus/tsconfig": "^3.1.0",
+    "@types/command-exists": "^1",
     "@types/eslint": "^8",
     "@types/react": "^18.2.47",
     "eslint": "^8.56.0",
