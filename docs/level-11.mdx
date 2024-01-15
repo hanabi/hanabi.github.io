@@ -4,6 +4,7 @@ title: Level 11 - Bluffs
 ---
 
 import Bluff from "@site/image-generator/yml/level-11/bluff.yml";
+import SelfBluff from "@site/image-generator/yml/extras/special-bluffs/self-color-bluff.yml";
 import BluffThroughClued from "@site/image-generator/yml/level-11/bluff-through-already-clued-cards.yml";
 import TruthPrinciple from "@site/image-generator/yml/level-11/truth-principle.yml";
 import ColorConnect from "@site/image-generator/yml/level-11/color-connect.yml";
@@ -63,6 +64,21 @@ import BluffPromptsPromptBluffs from "@site/image-generator/yml/level-11/bluff-p
   - If a card is represented to be something different than what it really is, and the state of misinformation does not resolve immediately, it is called a _Lie_. _Lies_ are **illegal**. Players should **never** assume that they are _Lied_ to.
 
 <br />
+
+### The Self-Bluff
+
+- Just in the same way you can do a _Self-Finesse_, it is possible to perform a _Self-Bluff_ by cluing someone in order to get their own _Finesse Position_ card.
+- This is most generally done by giving a number clue on a _one-away-from-playable_ card which does not connect with the _Finesse Position_ card.
+- For _Self-Bluffs_ with color clues, see the [Self Color Bluffs](extras/special-bluffs.mdx#self-color-bluffs-1-for-1-form-scb) section.
+- For example, in a 3-player game:
+  - Red 2 is played on the stacks.
+  - Alice clues number 4 to Bob, which touches one new 4 as a _Play Clue_.
+  - Bob does not see any playable cards in anyone else's hand.
+  - The closest 4 to being playable is the red 4, so Bob knows that the 4 in his hand is probably a red 4.
+  - Since Bob does not see any red 3's, Bob knows he must have the red 3, and he blind-plays his _Finesse Position_ card. It is a blue 1 and successfully plays.
+  - Bob now knows that he was _Bluffed_ by Alice and that the 4 in his hand is exactly red 4.
+
+<SelfBluff />
 
 ### Bluffs Through Already-Clued Cards
 
