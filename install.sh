@@ -39,6 +39,7 @@ elif command -v "pip" > /dev/null; then
   fi
   pip install -r requirements.txt
 else
-  echo "Error: You do not appear to have Python / pip installed, which is required for this website."
+  echo "Error: You do not appear to have pip installed, which is required for this website."
+  exit 1
 fi
 echo "Complete."

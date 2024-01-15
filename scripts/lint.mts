@@ -1,4 +1,19 @@
+import commandExists from "command-exists";
 import { $, lintScript } from "isaacscript-common-node";
+
+const pythonExists = commandExists.sync("python");
+const pythonExists3 = commandExists.sync("python3");
+
+let pythonCommand: string;
+if (pythonExists3) {
+  pythonCommand = "python3";
+} else if (pythonExists) {
+  pythonCommand = "python";
+} else {
+  throw new Error(
+    "You must have Python installed and available in the PATH to lint this website.",
+  );
+}
 
 await lintScript(async () => {
   const promises: Array<Promise<unknown>> = [];
@@ -31,7 +46,7 @@ await lintScript(async () => {
     $`bash ./image-generator/check_valid.sh`,
 
     // Check for unused YAML files.
-    $`python ./image-generator/check_unused.py`,
+    $`${pythonCommand} ./image-generator/check_unused.py`,
 
     // @template-customization-end
   );
