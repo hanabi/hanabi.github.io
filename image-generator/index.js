@@ -13,7 +13,9 @@ if (pythonExists3) {
 } else if (pythonExists) {
   pythonCommand = "python";
 } else {
-  throw new Error("You must have Python installed to run this website.");
+  throw new Error(
+    "You must have Python installed and available in the PATH to run this website.",
+  );
 }
 
 module.exports = function hanabiDocusaurusPlugin(_context, _options) {
