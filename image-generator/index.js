@@ -2,6 +2,21 @@
 // "image-generator/yml" directory. This is triggered whenever the website is built.
 
 const path = require("node:path");
+const commandExists = require("command-exists");
+
+const pythonExists = commandExists.sync("python");
+const pythonExists3 = commandExists.sync("python3");
+
+let pythonCommand;
+if (pythonExists3) {
+  pythonCommand = "python3";
+} else if (pythonExists) {
+  pythonCommand = "python";
+} else {
+  throw new Error(
+    "You must have Python installed and available in the PATH to run this website.",
+  );
+}
 
 module.exports = function hanabiDocusaurusPlugin(_context, _options) {
   return {
@@ -43,7 +58,7 @@ module.exports = function hanabiDocusaurusPlugin(_context, _options) {
                 {
                   loader: "shell-loader",
                   options: {
-                    script: `python ${createSVGScriptPath}`,
+                    script: `${pythonCommand} ${createSVGScriptPath}`,
                   },
                 },
                 {
