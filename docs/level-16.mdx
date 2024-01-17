@@ -52,11 +52,12 @@ import UnknownDupeDischarge2 from "@site/image-generator/yml/level-16/unknown-du
 
 <FiveColorEjection />
 
-- In the previous example, a _5 Color Ejection_ was preformed with the 5 being the only new card introduced with the color clue. However, it is also possible to perform a _5 Color Ejection_ with more than one card introduced. Normally, this kind of thing would signal an _Out-of-Order Finesse_, but the _5 Color Ejection_ interpretation should take precedence as long as the next player would have to blind-play two or more cards.
+- In the previous example, a _5 Color Ejection_ was preformed with the 5 being the only new card introduced with the color clue. However, it is also possible to perform a _5 Color Ejection_ with more than one card introduced.
+- For players playing at level 21, this kind of thing would normally signal an _[Out-of-Order Finesse](the-out-of-order-finesse)_, but the _5 Color Ejection_ interpretation should take precedence as long as the next player would have to blind-play two or more cards.
 - For example, in a 3-player game:
   - It is the first turn and nothing is played on the stacks.
   - Alice clues red to Cathy, touching a red 5 on slot 2 and a red 2 on slot 3.
-  - Bob knows that normally, this would be an _Out-of-Order Finesse_ on the 5, indicating to Bob that he has the red 1, the red 3, and the red 4. However, since this calls for more than one blind card, he knows that _5 Color Ejection_ should take precedence, so he knows to play his _Second Finesse Position_ card. It is a red 1 and it successfully plays.
+  - Bob knows that at level 21, this would be an _Out-of-Order Finesse_ on the 5, indicating to Bob that he has the red 1, the red 3, and the red 4. However, since this calls for more than one blind card, he knows that _5 Color Ejection_ should take precedence, so he knows to play his _Second Finesse Position_ card. It is a red 1 and it successfully plays.
   - From Cathy's perspective, if Bob had played his _Finesse Position_ card in response to the red clue, then Cathy would know that it was a _Finesse_ or a _Bluff_. But since Bob blind-played his _Second Finesse Position_ card, it must be a _5 Color Ejection_. Cathy marks the red card as red 5. Her other red card can be red 2, red 3, or red 4.
 
 <FiveColorEjectionNotOOO />
@@ -128,8 +129,8 @@ import UnknownDupeDischarge2 from "@site/image-generator/yml/level-16/unknown-du
   1. When the team is at 8 clues (and there is nothing else to do).
   1. When a player is in a _Double Discard Situation_ (and there is nothing else to do).
   1. When the team is losing and nearing the _End-Game_ (and _Tempo_ on playable cards is really important).
-  1. When the efficiency of getting a _Double Finesse_ or _Triple Finesse_ outweighs the disadvantage of potentially having to give a _Fix Clue_ later.
-- If a player uses a clue to duplicate a card, and these 6 criteria do not apply, then they must be trying to send an additional message.
+  1. When the efficiency of getting a _Layered Finesse_, a _Double Finesse_ or _Triple Finesse_ outweighs the disadvantage of potentially having to give a _Fix Clue_ later.
+- If a player uses a clue to duplicate a card, and these 5 criteria do not apply, then they must be trying to send an additional message.
 - In this case, they intend for a _Discharge_ to communicate the "badness" of the focused card. This is called an _Unknown Dupe Discharge_ (and works in a very similar way to the _Unknown Trash Discharge_).
 - After an _Unknown Dupe Discharge_, the focus of the clue can be any unknown duplicated card. The player will only know which specific duplicated card it is after they discard it.
 - For example, in a 3-player game:
@@ -150,14 +151,14 @@ import UnknownDupeDischarge2 from "@site/image-generator/yml/level-16/unknown-du
   - It is explicitly illegal to perform an _Unknown Dupe Discharge_ that duplicates a card in someone else's hand. If this happens, the clue must have some other meaning.
 - Remember that after an _Unknown Dupe Discharge_, the player who received the clue is supposed to _discard the focus of the clue_.
   - However, in the case where only two new cards are touched, then the player who received the clue knows that both of these cards must be the same. In this special case, they can discard the non-focused card to cause a _Trash Order Chop Move_.
-- In order for players to determine whether or not a _Double Finesse_ or a _Triple Finesse_ is happening, they should use the same _two-or-more-blind-plays_ rule that applies to _5 Color Ejections_.
+- In order for players to determine whether or not a _Layered Finesse_, a _Double Finesse_ or a _Triple Finesse_ is happening, they should use the same _two-or-more-blind-plays_ rule that applies to _5 Color Ejections_.
 - For example, in a 3-player game (similar to the previous example):
   - It is the first turn of the game and nothing is played on the stacks.
   - Alice clues number 5 to Bob as a _5 Save_.
   - Bob clues number 5 to Alice as a _5 Save_.
   - Bob's hand is as follows: `red 3, red 3, red 4, blue 4, blue [5]`
   - Cathy clues red to Bob, touching the red 3 on slot 1, the red 3 on slot 2, and the red 4 on slot 3.
-  - Alice knows that Cathy is violating _Good Touch Principle_ and duplicating the red 3. One excellent reason to do this would be to get a _Double Finesse_ on red 1 + red 2 into the red 3.
+  - Alice knows that Cathy is violating _Good Touch Principle_ and duplicating the red 3. One excellent reason to do this would be to get a _Layered Finesse_ on red 1 + red 2 into the red 3.
   - However, Alice also knows that she is supposed to use the _two-or-more-blind-plays_ rule in this situation. Since Alice would have to blind-play two cards into the _Finesse_, a _Finesse_ is unlikely. Thus, this must be an _Unknown Dupe Discharge_.
   - Alice blind-plays her _Third Finesse Position_. It is a blue 1 and it successfully plays on the stacks.
 
