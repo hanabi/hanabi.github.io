@@ -31,5 +31,5 @@ n/a
   - Red 2 and blue 4 are played on the stacks.
   - Alice clues number 3 to Bob, touching a single card on slot 1.
   - Bob knows that this must be a _Play Clue_. Bob marks the card as either the red 3 or the blue 5.
- 
+
 <br>
