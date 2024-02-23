@@ -44,7 +44,7 @@
     "@docusaurus/tsconfig": "^3.1.1",
     "@types/command-exists": "^1",
     "@types/eslint": "^8",
-    "@types/react": "^18.2.57",
+    "@types/react": "^18.2.58",
     "eslint": "^8.56.0",
     "isaacscript": "^4.2.3",
     "isaacscript-common-node": "^3.0.1",
