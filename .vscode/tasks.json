@@ -9,7 +9,7 @@
     {
       "label": "Install Dependencies",
       "type": "shell",
-      "command": "./install.sh",
+      "command": "./scripts/install.sh",
       "presentation": {
         "reveal": "always",
         "panel": "new",
@@ -18,7 +18,7 @@
     {
       "label": "Run Website",
       "type": "shell",
-      "command": "./run.sh",
+      "command": "npm run start",
       "presentation": {
         "reveal": "always",
         "panel": "new",

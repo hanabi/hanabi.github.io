@@ -65,7 +65,7 @@ Editing files on the GitHub website is a pain. If you are adding a significant a
 - Go into the cloned directory:
   - `cd hanabi.github.io`
 - Install the dependencies:
-  - `./install.sh`
+  - `bash ./scripts/install.sh`
 
 ### Part 3 - Run It, Make Changes, and Observe Changes
 
