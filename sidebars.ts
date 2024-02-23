@@ -180,6 +180,7 @@ const sidebars: SidebarsConfig = {
         "variant-specific/clue-starved",
         "variant-specific/color-blind",
         "variant-specific/cow-pig",
+        "variant-specific/critical-fours",
         "variant-specific/dark-omni-gray-pink",
         "variant-specific/dark-pink",
         "variant-specific/dark-prism",
