@@ -6,6 +6,24 @@ title: Miscellaneous
 import DoublePrompts from "@site/image-generator/yml/extras/miscellaneous/double-prompts.yml";
 import EliminationRewrite from "@site/image-generator/yml/extras/miscellaneous/elimination-rewrite.yml";
 
+### No Valid First Turn Clues
+
+- Though rare, it is possible to have a no valid clues to give on the first turn. (Specifically, no playable cards, no 2's on chop, and 5's to _5 Save_ or _5 Stall_ with.) Thus, since any clue will cause a misplay to occur, we agree to give the clue that causes the least amount of damage (or the most benefit).
+- The best clue will depend on the particular game.
+- For example, you might want to cause a misplay of a card that will not be a bottom-deck risk:
+  - Alice sees no valid clues to give on the first turn.
+  - Bob has a yellow 4 on chop and Cathy has a yellow 4 in slot 2.
+  - Alice clues Bob yellow, touching the yellow 4 and representing a _Play Clue_ on a yellow 1.
+  - Bob misplays the yellow 4.
+  - Cathy assumes Alice had no legal clues to give on the first turn.
+- For example, you might want to lock-in a save one or more cards:
+  - Alice sees no valid clues to give on the first turn.
+  - Bob has a a purple 4 on his _Finesse Position_.
+  - Cathy's hand is, from newest to oldest: `x, x, red 3, blue 3, yellow 3`
+  - Alice clues number 3 to Cathy, touching three 3s and representing a _3 Bluff_ to Bob.
+  - Bob misplays the purple 4.
+  - Cathy assumes Alice had no legal clues to give on the first turn.
+
 ### Double Prompts in Multi-Color Variants
 
 - Normally, when a multi-color card is _Prompted_ from someone's hand, they should play the card that has the most positive information.

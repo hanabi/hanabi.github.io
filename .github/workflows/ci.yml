@@ -35,18 +35,6 @@ jobs:
           path: "./build"
       - uses: actions/deploy-pages@v2
 
-  auto-format:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - uses: actions/checkout@v4
-      - uses: ./.github/workflows/setup
-      - run: npx prettier --write .
-      - uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "chore: format with Prettier"
-
   discord:
     name: Discord Failure Notification
     needs: [build, lint, deploy_website]

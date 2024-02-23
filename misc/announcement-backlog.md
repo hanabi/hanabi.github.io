@@ -6,7 +6,10 @@ As noted in the [convention changes document](convention-changes.md), sometimes 
 
 ## The Backlog (General Conventions)
 
-n/a
+**2 Saves Off-Chop on the First Turn** (deleted)
+
+- The convention where off-chop _2 Saves_ are permitted on the first turn is deleted.
+- Now, if you do not have anything to do on the first turn, you must intentionally cause a misplay that will either get some side benefit or cause the least amount of damage.
 
 <br>
 

@@ -1,0 +1,17 @@
+name: autofix.ci
+
+on: [push, pull_request]
+
+permissions:
+  contents: read
+
+jobs:
+  autofix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ./.github/workflows/setup
+      - run: npx prettier --write .
+      - uses: autofix-ci/action@d3e591514b99d0fca6779455ff8338516663f7cc
+        with:
+          commit-message: "chore: format with Prettier"
