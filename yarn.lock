@@ -6899,7 +6899,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"diff@npm:^5.1.0":
+"diff@npm:^5.1.0, diff@npm:^5.2.0":
   version: 5.2.0
   resolution: "diff@npm:5.2.0"
   checksum: 10c0/aed0941f206fe261ecb258dc8d0ceea8abbde3ace5827518ff8d302f0fc9cc81ce116c4d8f379151171336caf0516b79e01abdc1ed1201b6440d895a66689eb4
@@ -7030,7 +7030,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dotenv@npm:^16.3.1, dotenv@npm:^16.4.1":
+"dotenv@npm:^16.3.1, dotenv@npm:^16.4.5":
   version: 16.4.5
   resolution: "dotenv@npm:16.4.5"
   checksum: 10c0/48d92870076832af0418b13acd6e5a5a3e83bb00df690d9812e94b24aff62b88ade955ac99a05501305b8dc8f1b0ee7638b18493deb6fe93d680e5220936292f
@@ -8722,8 +8722,8 @@ __metadata:
     clsx: "npm:^2.1.0"
     command-exists: "npm:^1.2.9"
     eslint: "npm:^8.56.0"
-    isaacscript: "npm:^4.2.3"
-    isaacscript-common-node: "npm:^3.0.1"
+    isaacscript: "npm:^4.3.0"
+    isaacscript-common-node: "npm:^4.0.0"
     isaacscript-lint: "npm:^6.20.0"
     isaacscript-tsconfig: "npm:^5.0.0"
     prism-react-renderer: "npm:^2.3.1"
@@ -9849,21 +9849,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"isaacscript-common-node@npm:^3.0.1":
-  version: 3.0.1
-  resolution: "isaacscript-common-node@npm:3.0.1"
+"isaacscript-common-node@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "isaacscript-common-node@npm:4.0.0"
   dependencies:
     "@arktype/fs": "npm:^0.0.11"
     chalk: "npm:^5.3.0"
     command-exists: "npm:^1.2.9"
-    diff: "npm:^5.1.0"
-    dotenv: "npm:^16.4.1"
+    diff: "npm:^5.2.0"
+    dotenv: "npm:^16.4.5"
     execa: "npm:^8.0.1"
     isaacscript-common-ts: "npm:^16.1.0"
     jsonc-parser: "npm:^3.2.1"
     npm-check-updates: "npm:^16.14.15"
     zod: "npm:^3.22.4"
-  checksum: 10c0/d9a534cd9963523ad935a5ef92ae1228e5dde9c94d95fb928e107941545cf0211f47084e0478846959c0fc7310f6c491c155dc495fc0e3e93dcbd08989615d4a
+  checksum: 10c0/83d4da13b73267c878378851701f49df4423c516411cef9d1a6f0171c14462124d6418e2b6ba81308a58dff676fc3140dc90524ed6a8042d1b9c58d711b3c437
   languageName: node
   linkType: hard
 
@@ -9927,9 +9927,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"isaacscript@npm:^4.2.3":
-  version: 4.2.3
-  resolution: "isaacscript@npm:4.2.3"
+"isaacscript@npm:^4.3.0":
+  version: 4.3.0
+  resolution: "isaacscript@npm:4.3.0"
   dependencies:
     "@commander-js/extra-typings": "npm:^12.0.0"
     "@zamiell/sync-directory": "npm:^6.0.5"
@@ -9937,7 +9937,7 @@ __metadata:
     chalk: "npm:^5.3.0"
     commander: "npm:^12.0.0"
     figlet: "npm:^1.7.0"
-    isaacscript-common-node: "npm:^3.0.1"
+    isaacscript-common-node: "npm:^4.0.0"
     isaacscript-common-ts: "npm:^16.1.0"
     jsonc-parser: "npm:^3.2.1"
     klaw-sync: "npm:^6.0.0"
@@ -9954,7 +9954,7 @@ __metadata:
       optional: true
   bin:
     isaacscript: dist/main.js
-  checksum: 10c0/bccb533f02e1cf28666f8328a66494da9e8609585d6f9536b8f093de1b14abeb69b92270d9a628bba467f667bd8509c53d331e1ff3d1eb113ad190ef6af5bb2c
+  checksum: 10c0/5037085de2496a628e29a59e27ec7c62dce77889b7364d6d79fd75595f1b8d0bfff066c562a51cbb41c3149064e977eef79d6359ffcc865253ce48436dbcaa5a
   languageName: node
   linkType: hard
 
