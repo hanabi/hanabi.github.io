@@ -9697,7 +9697,7 @@ __metadata:
     clsx: "npm:^2.1.0"
     command-exists: "npm:^1.2.9"
     eslint: "npm:^8.56.0"
-    isaacscript: "npm:^4.1.0"
+    isaacscript: "npm:^4.2.3"
     isaacscript-common-node: "npm:^3.0.1"
     isaacscript-lint: "npm:^6.20.0"
     isaacscript-tsconfig: "npm:^5.0.0"
@@ -10883,9 +10883,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"isaacscript@npm:^4.1.0":
-  version: 4.1.0
-  resolution: "isaacscript@npm:4.1.0"
+"isaacscript@npm:^4.2.3":
+  version: 4.2.3
+  resolution: "isaacscript@npm:4.2.3"
   dependencies:
     "@commander-js/extra-typings": "npm:^12.0.0"
     "@zamiell/sync-directory": "npm:^6.0.5"
@@ -10910,7 +10910,7 @@ __metadata:
       optional: true
   bin:
     isaacscript: dist/main.js
-  checksum: 10c0/09610a64c3db1cdd2f4a3f1379d6a1074cca4a650666d064e2445f344342ea4405db08899cb8b445a9fecdbfdb4bc134e9dc4cd2d933ff712163c1797d1dae24
+  checksum: 10c0/bccb533f02e1cf28666f8328a66494da9e8609585d6f9536b8f093de1b14abeb69b92270d9a628bba467f667bd8509c53d331e1ff3d1eb113ad190ef6af5bb2c
   languageName: node
   linkType: hard
 
