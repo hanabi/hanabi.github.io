@@ -16,7 +16,7 @@ const config: Config = {
   organizationName: "hanabi",
   projectName: "hanabi.github.io",
 
-  onBrokenAnchors: "warn", // TODO: change to throw https://github.com/facebook/docusaurus/issues/9717
+  onBrokenAnchors: "throw",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "throw",
   onDuplicateRoutes: "throw",

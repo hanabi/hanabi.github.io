@@ -28,6 +28,7 @@ if (process.platform === "win32") {
 module.exports = function hanabiDocusaurusPlugin(_context, _options) {
   return {
     name: "hanabi-docusaurus-plugin",
+
     configureWebpack(_config, _isServer, _utils) {
       const createSVGScriptPath = path.resolve(__dirname, "create_svg.py");
       return {
