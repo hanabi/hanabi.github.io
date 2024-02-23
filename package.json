@@ -28,9 +28,9 @@
     ]
   },
   "dependencies": {
-    "@docusaurus/core": "^3.1.0",
-    "@docusaurus/preset-classic": "^3.1.0",
-    "@mdx-js/react": "^3.0.0",
+    "@docusaurus/core": "^3.1.1",
+    "@docusaurus/preset-classic": "^3.1.1",
+    "@mdx-js/react": "^3.0.1",
     "clsx": "^2.1.0",
     "command-exists": "^1.2.9",
     "prism-react-renderer": "^2.3.1",
@@ -40,20 +40,20 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@docusaurus/eslint-plugin": "^3.1.0",
-    "@docusaurus/tsconfig": "^3.1.0",
+    "@docusaurus/eslint-plugin": "^3.1.1",
+    "@docusaurus/tsconfig": "^3.1.1",
     "@types/command-exists": "^1",
     "@types/eslint": "^8",
-    "@types/react": "^18.2.47",
+    "@types/react": "^18.2.57",
     "eslint": "^8.56.0",
-    "isaacscript": "^3.37.0",
-    "isaacscript-common-node": "^3.0.0",
-    "isaacscript-lint": "^6.18.0",
+    "isaacscript": "^4.0.1",
+    "isaacscript-common-node": "^3.0.1",
+    "isaacscript-lint": "^6.20.0",
     "isaacscript-tsconfig": "^5.0.0",
     "shell-loader": "^1.2.1",
-    "tsx": "^4.7.0",
+    "tsx": "^4.7.1",
     "typescript": "^5.3.3",
-    "webpack": "^5.89.0"
+    "webpack": "^5.90.3"
   },
-  "packageManager": "yarn@4.0.2"
+  "packageManager": "yarn@4.1.0"
 }
