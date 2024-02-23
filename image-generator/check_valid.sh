@@ -14,6 +14,9 @@ PYTHON_COMMAND="python"
 if command -v "python3" > /dev/null; then
   PYTHON_COMMAND="python3"
 fi
+if [[ "$OSTYPE" == "msys" || "$OSTYPE" == "cygwin" ]]; then
+  PYTHON_COMMAND="python"
+fi
 
 # Test to see if all of the YAML files are valid by manually invoking the "create_svg.py" script on
 # every YAML file.
