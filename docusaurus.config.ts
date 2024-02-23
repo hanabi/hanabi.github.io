@@ -112,7 +112,7 @@ const config: Config = {
   // Added fields from vanilla
   // -------------------------
 
-  plugins: [path.resolve(__dirname, "image-generator")],
+  plugins: ["./image-generator/index.ts"],
   scripts: [
     {
       src: "https://kit.fontawesome.com/1932a73877.js",

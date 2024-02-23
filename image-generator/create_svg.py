@@ -20,8 +20,8 @@ CARD_HEIGHT = 100
 CARD_ROUNDED_CORNER_SIZE = 5
 CLUE_BORDER_COLOR = "orange"
 HORIZONTAL_SPACING_BETWEEN_CARDS = 8
-# This needs to be long enough for Donald (e.g. the longest player name)
-# This will need to get bigger if the font size for the player name increases
+# This needs to be long enough for Donald (e.g. the longest player name).
+# This will need to get bigger if the font size for the player name increases.
 HORIZONTAL_SPACING_BETWEEN_PLAYER_NAME_AND_HAND = 90
 VERTICAL_SPACING_BETWEEN_PLAYERS = 20
 PLAYER_NAMES = [
@@ -52,7 +52,7 @@ ALL_SUITS = [
 ALL_RANKS = ["1", "2", "3", "4", "5"]
 
 # Global variables
-all_suits = []  # Representing the possible suits for the current variant
+all_suits = []  # Representing the possible suits for the current variant.
 x_offset = 0
 x_offset_where_player_begins = 0
 x_max = 0
@@ -77,47 +77,45 @@ def main():
     global x_max
     global left_y_offset
 
-    # This script reads from standard in, expecting a YAML file
-    # Decode it to YAML
+    # This script reads from standard in, expecting a YAML file. Decode it to YAML.
     yaml_file = yaml.load(sys.stdin, Loader=yaml.SafeLoader)
 
-    # Suits in addition to any standard suits
+    # Suits in addition to any standard suits.
     suit_filenames.update(yaml_file.get("suits", {}))
 
-    # Use the play stack to determine the available suits for this particular
-    # variant
+    # Use the play stack to determine the available suits for this particular variant.
     try:
         all_suits = [next(iter(color_pair)) for color_pair in yaml_file["stacks"]]
     except KeyError:
         all_suits = NO_VARIANT_SUITS
 
-    # Create a new SVG file
+    # Create a new SVG file.
     svg_file = svgwrite.Drawing()
 
-    # Draw the play stacks on the top-left part of the image
+    # Draw the play stacks on the top-left part of the image.
     x_offset, left_y_offset = draw_play_stacks(yaml_file, svg_file)
 
-    # Add a bit of spacing between the play stacks and the player hands
+    # Add a bit of spacing between the play stacks and the player hands.
     x_offset += CARD_WIDTH + 4
 
     x_offset_where_player_begins = x_offset
     x_max = x_offset_where_player_begins
 
-    # Draw the player hands on the right side
+    # Draw the player hands on the right side.
     draw_player_rows(yaml_file, svg_file)
 
     draw_big_text(yaml_file, svg_file)
 
-    # Draw discarded cards, if any
+    # Draw discarded cards, if any.
     draw_discard_pile(yaml_file, svg_file)
 
-    # Set the dimensions for the SVG file
+    # Set the dimensions for the SVG file.
     y_max = max(y_offset, left_y_offset)
     svg_file["width"] = x_max
     svg_file["height"] = y_max - y_top
     svg_file["viewBox"] = f"0 {y_top} {x_max} {y_max - y_top}"
 
-    # Print the SVG file to standard out
+    # Print the SVG file to standard out.
     print_svg(svg_file)
 
 
@@ -155,12 +153,12 @@ def draw_player_rows(yaml_file, svg_file):
             draw_player_name_and_hand(yaml_file, svg_file, player_num, player)
 
 
-# Draw a text separator between a player to describe some event taking place
+# Draw a text separator between a player to describe some event taking place.
 # e.g. "After discarding the 1..."
 def draw_text_divider(svg_file, text):
     global y_offset
 
-    # if text is empty, do not output None
+    # If text is empty, do not output `None`.
     if not text:
         text = ""
 
@@ -176,7 +174,7 @@ def draw_text_divider(svg_file, text):
     y_offset += 50
 
 
-# Draw a row representing a player's hand
+# Draw a row representing a player's hand.
 def draw_player_name_and_hand(yaml_file, svg_file, player_num, player):
     global x_offset
     global x_max
@@ -193,8 +191,7 @@ def draw_player_name_and_hand(yaml_file, svg_file, player_num, player):
         x_offset_where_player_begins + HORIZONTAL_SPACING_BETWEEN_PLAYER_NAME_AND_HAND
     )
 
-    # We need to increase the size of image if there is a tall text box
-    # "below" one of cards
+    # We need to increase the size of image if there is a tall text box "below" one of cards.
     y_below = 5
 
     # Draw each card
@@ -308,8 +305,7 @@ def draw_clue_border(svg_file):
 def draw_unclued_card(
     yaml_file, svg_file, x_offset, y_offset, pips, crossed_out, orange
 ):
-    # "crossed_out" represents suits and ranks that are crossed out from
-    # negative clues
+    # "crossed_out" represents suits and ranks that are crossed out from negative clues.
     validate_card_type(crossed_out)
 
     s = svg_file.add(svg_file.svg((x_offset, y_offset), (CARD_WIDTH, CARD_HEIGHT)))
@@ -329,13 +325,13 @@ def draw_unclued_card(
 def draw_clued_card(svg_file, card_type, crossed_out, orange, x_offset, y_offset):
     validate_card_type(card_type)
 
-    # Use sets to store the possible ranks and suits
+    # Use sets to store the possible ranks and suits.
     card_type_set = set(card_type)
     ranks = card_type_set.intersection(set(ALL_RANKS))
     suits = card_type_set.intersection(set(all_suits))
 
     if len(ranks) != 1 and len(suits) != 1:
-        # This is a card with an unknown rank and an unknown color
+        # This is a card with an unknown rank and an unknown color.
         s = svg_file.add(svg_file.svg((x_offset, y_offset), (CARD_WIDTH, CARD_HEIGHT)))
         rect = svg_file.rect(
             (0, 0),
@@ -345,11 +341,11 @@ def draw_clued_card(svg_file, card_type, crossed_out, orange, x_offset, y_offset
             ry=CARD_ROUNDED_CORNER_SIZE,
         )
         s.add(rect)
-        # Always draw pips on clued cards with unknown rank + unknown color
-        pips = ranks.union(suits)  # Combine the ranks and the suits together
+        # Always draw pips on clued cards with unknown rank + unknown color.
+        pips = ranks.union(suits)  # Combine the ranks and the suits together.
         draw_card_pips(svg_file, s, pips, crossed_out, orange)
     elif len(ranks) == 1 and len(suits) != 1:
-        # This is a card with a known rank and an unknown color
+        # This is a card with a known rank and an unknown color.
         card_image = svg_file.image(
             f"{PIECES_PATH}/cards/{next(iter(ranks))}.svg",
             x=0,
@@ -361,7 +357,7 @@ def draw_clued_card(svg_file, card_type, crossed_out, orange, x_offset, y_offset
         s.add(card_image)
         draw_card_pips(svg_file, s, suits, crossed_out, orange)
     elif len(ranks) != 1 and len(suits) == 1:
-        # This is a card with a known color and an unknown rank
+        # This is a card with a known color and an unknown rank.
         card_image = svg_file.image(
             f"{PIECES_PATH}/cards/{suit_filenames[next(iter(suits))]}.svg",
             x=0,
@@ -373,7 +369,7 @@ def draw_clued_card(svg_file, card_type, crossed_out, orange, x_offset, y_offset
         s.add(card_image)
         draw_card_pips(svg_file, s, ranks, crossed_out, orange)
     else:
-        # An exact card identity was specified
+        # An exact card identity was specified.
         # (e.g. "r1")
         card_image = svg_file.image(
             f"{PIECES_PATH}/cards/{suit_filenames[next(iter(suits))]}{next(iter(ranks))}.svg",
@@ -399,24 +395,24 @@ def validate_card_type(card_type):
         except:
             letters.append(character)
 
-    # Validate the suits
+    # Validate the suits.
     for letter in letters:
         if letter not in all_suits:
             error(f'The suit of "{letter}" is invalid.')
 
-    # Validate the ranks
+    # Validate the ranks.
     for number in numbers:
         if number not in ALL_RANKS:
             error(f'The rank of "{number}" is invalid.')
 
-    # Validate that the suit comes before the rank
+    # Validate that the suit comes before the rank.
     # e.g. "b3" instead of "3b"
     if len(letters) > 0 and len(numbers) > 0:
         first_character = card_type[0]
         if first_character in ALL_RANKS:
             error("When defining a card, the suit must come before the rank.")
 
-    # Validate that there are no ranks after any suits
+    # Validate that there are no ranks after any suits.
     # e.g. "b3r4"
     if len(letters) > 0 and len(numbers) > 0:
         iterating_over_suit_characters = True
@@ -430,7 +426,7 @@ def validate_card_type(card_type):
                         "When defining a card, the suits and the ranks have to be grouped together."
                     )
 
-    # Validate that the suits come in order (with respect to the play stacks)
+    # Validate that the suits come in order (with respect to the play stacks).
     if len(letters) >= 2:
         sorted_letters = letters.copy()
         sorted_letters.sort(key=functools.cmp_to_key(compare_suit_letters))
@@ -524,7 +520,7 @@ def draw_extra_card_attributes(svg_file, card):
         svg_file.add(trash_image)
 
     if "clue" in card:
-        # Draw the arrow above the card
+        # Draw the arrow above the card.
         arrow_name = "arrow"
         if "retouched" in card:
             arrow_name += "_dark"
@@ -537,7 +533,7 @@ def draw_extra_card_attributes(svg_file, card):
         )
         svg_file.add(arrow)
 
-        # Draw the clue circle on the arrow
+        # Draw the clue circle on the arrow.
         is_color_clue = card["clue"] not in range(1, 6)
         color = {
             "r": "red",
@@ -556,7 +552,7 @@ def draw_extra_card_attributes(svg_file, card):
         )
         svg_file.add(circle)
 
-        # For number clues, add the number pip
+        # For number clues, add the number pip.
         if not is_color_clue:
             r = svg_file.add(svg_file.svg((x_offset + 27, y_offset - 23), (16, 16)))
             pip = r.add(
@@ -786,7 +782,7 @@ def print_svg(svg_file):
     # https://github.com/facebook/docusaurus/issues/3689
     output = re.sub(r'xmlns:ev="(?:.*?)"', "", output)
 
-    # Add filters manually, because svgwrite's API for it is awkward
+    # Add filters manually, because svgwrite's API for it is awkward.
     output = re.sub(
         r"<defs/>",
         """<defs>
