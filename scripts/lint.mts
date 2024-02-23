@@ -15,6 +15,13 @@ if (pythonExists3) {
   );
 }
 
+// "python3" will exist on Windows but is not actually a real version of Python, generating the
+// following output: Python was not found; run without arguments to install from the Microsoft
+// Store, or disable this shortcut from Settings > Manage App Execution Aliases.
+if (process.platform === "win32") {
+  pythonCommand = "python";
+}
+
 await lintScript(async () => {
   const promises: Array<Promise<unknown>> = [];
 

@@ -18,6 +18,13 @@ if (pythonExists3) {
   );
 }
 
+// "python3" will exist on Windows but is not actually a real version of Python, generating the
+// following output: Python was not found; run without arguments to install from the Microsoft
+// Store, or disable this shortcut from Settings > Manage App Execution Aliases.
+if (process.platform === "win32") {
+  pythonCommand = "python";
+}
+
 module.exports = function hanabiDocusaurusPlugin(_context, _options) {
   return {
     name: "hanabi-docusaurus-plugin",
