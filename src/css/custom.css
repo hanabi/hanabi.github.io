@@ -37,9 +37,12 @@
 /* Other changes from vanilla below here */
 /* ------------------------------------- */
 
-.landing-page-hanabi-link {
+#landing-page-hanabi-link {
   color: green;
 }
+
+/* Emulate a <br /> element in between every header element */
+/* TODO */
 
 /* The 3 circle icons on the landing page */
 .accent1 {
@@ -66,7 +69,7 @@ svg.example text.site-theme-text {
   padding-bottom: 1em;
 }
 
-/* CSS for the Beginner's Guide progress bar */
+/* The Beginner's Guide progress bar */
 @media only screen and (max-width: 999px) {
   #percent {
     display: none !important;

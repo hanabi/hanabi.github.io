@@ -17,10 +17,10 @@ function HomepageHeader() {
         <p className="hero__subtitle">
           Strategies for{" "}
           <a
+            id="landing-page-hanabi-link"
             href="https://boardgamegeek.com/boardgame/98778/hanabi"
             target="_blank"
             rel="noopener noreferrer"
-            id="landing-page-hanabi-link"
           >
             Hanabi
           </a>
