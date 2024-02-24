@@ -37,8 +37,7 @@
 /* Other changes from vanilla below here */
 /* ------------------------------------- */
 
-/* The link on the landing page */
-.hero__subtitle a {
+.landing-page-hanabi-link {
   color: green;
 }
 
