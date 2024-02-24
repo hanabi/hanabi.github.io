@@ -1,4 +1,4 @@
-## Criteria for the Purple Role
+# Criteria for the Purple Role
 
 The following is a rough set of criteria for someone receiving the purple role:
 
