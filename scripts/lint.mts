@@ -1,26 +1,6 @@
-import commandExists from "command-exists";
-import { $, lintScript } from "isaacscript-common-node";
+import { $, getPythonCommand, lintScript } from "isaacscript-common-node";
 
-const pythonExists = commandExists.sync("python");
-const pythonExists3 = commandExists.sync("python3");
-
-let pythonCommand: string;
-if (pythonExists3) {
-  pythonCommand = "python3";
-} else if (pythonExists) {
-  pythonCommand = "python";
-} else {
-  throw new Error(
-    "You must have Python installed and available in the PATH to lint this website.",
-  );
-}
-
-// "python3" will exist on Windows but is not actually a real version of Python, generating the
-// following output: Python was not found; run without arguments to install from the Microsoft
-// Store, or disable this shortcut from Settings > Manage App Execution Aliases.
-if (process.platform === "win32") {
-  pythonCommand = "python";
-}
+const pythonCommand = getPythonCommand(true);
 
 await lintScript(async () => {
   const promises = [
