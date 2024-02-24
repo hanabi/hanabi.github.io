@@ -60,15 +60,11 @@ export const Example = ({ code, Image }) => (
   </div>
 );
 
-<br />
-
 ## Intro
 
 Throughout this website, we have example images that show game states. This page describes how to edit them or how to create new ones.
 
 Each example image is created from a [YAML](https://yaml.org/) file, which is a simple textual description that you can easily edit. The YAML files are located in the [`image-generator/yml`](https://github.com/hanabi/hanabi.github.io/tree/main/image-generator/yml) directory.
-
-<br />
 
 ## Steps
 
@@ -90,13 +86,9 @@ import NewChopMove from "@site/image-generator/yml/level-123/new-chop-move.yml";
 
 (For an example of this, look at the Markdown page for [Level 1](https://github.com/hanabi/hanabi.github.io/blob/main/docs/level-1.mdx).)
 
-<br />
-
 ## Development
 
 When using the `run.sh` script and viewing the page locally, any changes that you make to the website will be automatically updated without having to refresh the page. This includes any changes to YAML files - they will be automatically re-converted into SVG files on the fly and updated in the browser.
-
-<br />
 
 ## YML File Format
 
@@ -119,8 +111,6 @@ Players are assigned the following names automatically: Alice, Bob, Cathy, Donal
 
 <Example code={TextNameSource} Image={TextNameResult} />
 
-<br />
-
 ### Cards
 
 Cards in hand can be of various types:
@@ -142,8 +132,6 @@ The `trash` attribute can be used to draw a trash icon on top of the card.
 
 <Example code={TypesSource} Image={TypesResult} />
 
-<br />
-
 ### Clues
 
 You can use the `clue` attribute to show that a card is in the process of being clued.
@@ -153,8 +141,6 @@ By default, there is no clue giver, but this can be specified with the `clue_giv
 You can also use the `retouched` attribute to signify that the clue is re-touching a card, which will result in a darker arrow than normal. (This matches the behavior of Hanab Live.)
 
 <Example code={ClueSource} Image={ClueResult} />
-
-<br />
 
 ### Text on Cards
 
@@ -175,23 +161,17 @@ Text can be placed on a card:
 
 <Example code={CardTextSource} Image={CardTextResult} />
 
-<br />
-
 ### Discard Pile
 
 For some examples, some cards in the discard pile need to be shown. This is performed with the `discarded` array on the top level.
 
 <Example code={TrashSource} Image={TrashResult} />
 
-<br />
-
 ### Big Text
 
 For keywords "Bluff", "Finesse" and "Illegal!", color is ignored.
 
 <Example code={BigTextSource} Image={BigTextResult} />
-
-<br />
 
 ### Variants
 

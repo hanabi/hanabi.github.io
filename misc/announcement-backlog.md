@@ -2,16 +2,12 @@
 
 As noted in the [convention changes document](convention-changes.md), sometimes a change to the conventions is made but is not yet announced due to there being a backlog of things to announce. This document contains the backlog.
 
-<br>
-
 ## The Backlog (General Conventions)
 
 **2 Saves Off-Chop on the First Turn** (deleted)
 
 - The convention where off-chop _2 Saves_ are permitted on the first turn is deleted.
 - Now, if you do not have anything to do on the first turn, you must intentionally cause a misplay that will either get some side benefit or cause the least amount of damage.
-
-<br>
 
 ## The Backlog (Variant-Specific Conventions)
 
@@ -34,5 +30,3 @@ As noted in the [convention changes document](convention-changes.md), sometimes 
   - Red 2 and blue 4 are played on the stacks.
   - Alice clues number 3 to Bob, touching a single card on slot 1.
   - Bob knows that this must be a _Play Clue_. Bob marks the card as either the red 3 or the blue 5.
-
-<br>

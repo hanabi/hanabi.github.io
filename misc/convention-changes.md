@@ -3,14 +3,10 @@
 - The set of conventions that everyone to in the group agrees to is defined as the _Convention Framework_.
 - The framework evolves over time, as new strategies are thought up, older strategies are no longer used, and existing strategies are changed.
 
-<br />
-
 ## Who can submit changes to the _Convention Framework_?
 
 - Anyone can propose a new move or a change to the conventions, regardless of whether they are new to the group or old.
 - However, we ask that players have a firm grasp of the general way we play before they start proposing things (e.g. max level).
-
-<br />
 
 ## How are _Convention Framework_ changes proposed?
 
@@ -19,20 +15,14 @@
 - In a new issue, players will typically type up a short paragraph of the proposed change. Screenshots and/or Alice and Bob stories are encouraged so that other players can easily understand what is being proposed.
 - Then, other players can comment on whether they like it or not, or if they see any potential problems.
 
-<br />
-
 ## Do I need a GitHub account to submit new proposals or to comment on other people's proposals?
 
 - Yes, you do. Thankfully, GitHub accounts are free and it is relatively painless to create one.
 - GitHub allows us to have threaded discussion and makes things much easier to track.
 
-<br />
-
 ## Do I need to be an expert player in order to review the latest _Convention Framework_ changes or join in the discussion?
 
 - No, you do not. Anyone at an intermediate level or above is encouraged to read the latest issues and participate in the discussion, at least if that kind of thing is interesting to you.
-
-<br />
 
 ## How long are _Convention Framework_ changes discussed for?
 
@@ -43,8 +33,6 @@
   - If it is a small, non-controversial change, then it might make sense to immediately implement it.
   - Otherwise, we would typically wait a while so that everyone has time to chime in.
   - If there is a good amount of consensus about a move, then this will shorten the amount of time that it is in consideration for.
-
-<br />
 
 ## What decides whether or not a change gets implemented?
 
@@ -58,29 +46,21 @@
   - How often they participate in the convention discussion
 - Determining consensus is **necessarily arbitrary**. In the case of a "tie" or a close call, preference is given to keeping the _Convention Framework_ the way that it already is.
 
-<br />
-
 ## How is consensus determined when a proposed change is not discussed?
 
 - Many convention proposals are ignored or not heavily discussed. After a period of time, a decision will have to be made one way or the other.
 - If it is a large or potentially contentious change, then consensus is gathered manually by sending a direct message to a few of the most skilled members of the group, asking what their opinion is.
 - If it is a small change, and no-one has any strong opinions, then Zamiel will usually decide one way or the other.
 
-<br />
-
 ## How fast does the _Convention Framework_ as a whole change?
 
 - Changes usually happen slowly, over the course of months. This allows players who only play occasionally time to adjust (e.g. players who only play on the weekends, and so forth).
-
-<br />
 
 ## Are there any probationary conventions?
 
 - By default, players generally use the conventions that are specified in the main [website](https://hanabi.github.io/reference).
 - Conventions listed in the [GitHub issues tracker](https://github.com/hanabi/hanabi.github.io/issues) are considered probationary. Players can agree to play with one or more probationary conventions before the game begins, if they want to try something out.
 - When the issue for a proposed convention is closed, it will be integrated into the main website. At that time, it is no longer considered to be probationary.
-
-<br />
 
 ## When are new conventions announced? How do announcements work?
 
@@ -91,15 +71,11 @@
 - If there are more than 2-3 changes that occurred that week, then those changes will get put on a [backlog](announcement-backlog.md) and will be announced the following week.
 - If the backlog gets long enough, it can potentially be a long while before a convention gets announced to the group. Players who do not regularly read the GitHub issues can always [check the backlog](announcement-backlog.md) if they want to find a quick list of recent changes.
 
-<br />
-
 ## How permanent are changes to the _Convention Framework_?
 
 - No change is permanent. If the group consensus changes, then the _Convention Framework_ should change.
 - With that said, it is confusing for players in the group who do not play very often to have a certain move be "turned on" one day and then "turned off" the next day. Thus, we do **not** want the _Convention Framework_ to flop back and forth.
 - If consensus is reached on a certain convention configuration, then as a general rule it should not be up for debate again for a period of six months.
-
-<br />
 
 ## Why are conventions deleted? Who decides when a convention should be removed from the website?
 

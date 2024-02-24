@@ -7,8 +7,6 @@ import FiveStall from "@site/image-generator/yml/level-9/five-stall.yml";
 
 ## Conventions
 
-<br />
-
 ### Allowable Stall Clues (Stall Table)
 
 - In certain situations, everyone understands that a player might be giving a "stall" clue. However, there are limits - they are not allowed to just clue anything they want. These are the specific clues that they are allowed to give along with the precedence of each clue:
@@ -37,8 +35,6 @@ import FiveStall from "@site/image-generator/yml/level-9/five-stall.yml";
   - Thus, Alice must perform the _Tempo Clue_. It will be interpreted as a _Tempo Clue Stall_ (and will not have a _Chop Move_ component). Furthermore, Alice is not allowed to do any moves with precedence 4 or 5.
 - What is the point of having a complicated table with defined priorities? Well, normally, players in stalling situations are not able to give tricky-looking _Finesses_, because everyone else will think that they are just giving a stall clue. However, if it can be seen that there is a better clue available for them to give, then everyone can know that they are **not** giving a stall clue. So, because of this precedence table, players in stalling situations are still often able to make _Finesses_ happen.
 - Obviously, stall clues are not allowed when the player has a known playable card in their hand.
-
-<br />
 
 ### The Early Game (Severity 1 Stalling)
 
@@ -70,8 +66,6 @@ import FiveStall from "@site/image-generator/yml/level-9/five-stall.yml";
 - This is because if Alice does not see any _Play Clues_ or _Save Clues_ for Bob to give, then Alice is implicitly giving Bob _Permission to Discard_ (or PTD for short).
 - For level 11 players, note that _Permission to Discard_ does not apply for Bob when Alice was blind-playing a card in a situation where _Guide Principle_ applies.
 
-<br />
-
 ### Double Discard Situations / Double Discard Avoidance (DDA) (Severity 2 Stalling)
 
 - Often times in Hanabi, two players will discard in a row. However, in rare cases, this can cause a perfect score to be lost.
@@ -93,26 +87,18 @@ import FiveStall from "@site/image-generator/yml/level-9/five-stall.yml";
   - Since there are no normal _Play Clues_ or _Save Clues_ available, Bob looks around to see if he can give a _5 Stall_. Bob sees that Cathy has a red 5 on her slot 1, so he clues number 5 to Cathy as a _5 Stall_.
   - Cathy knows that since Bob was in a _Double Discard Situation_ for the red 4, she should not read too closely into his clues. This number 5 clue must just be a _5 Stall_ (as opposed to a _Play Clue_ on the 5).
 
-<br />
-
 ### Locked Hands (Severity 3 Stalling)
 
 - Generally speaking, it is a bad situation when someone's hand gets fully clued. This is also known as being _Locked_, and it should be avoided if possible. However, sometimes it cannot be helped, like when a player draws three 5's in a row.
 - A player with a _Locked Hand_ may give a low-value clue because they are not sure that they can play anything (and they can't discard because their hand is fully clued). Similar to a _Double Discard_ situation, players should not read too closely into any clues given during this state.
 - If the team is out of clues and someone's hand is fully clued, then you **have** to discard to generate a clue for them. Similarly, if there is only 1 clue left, you cannot steal it from them.
 
-<br />
-
 ### Clues Given While at 8 Clues (Severity 4 Stalling)
 
 - At the beginning of the game, you start with 8 clues. This section only applies to situations where you climb to 8 clues in the middle of the game.
 - A player who has a turn with 8 clue tokens available may give a low-value clue because they cannot play anything (and they cannot discard because the game does not allow you to discard while at 8 clues). Similar to a _Double Discard_ or a _Locked Hand_ situation, players should not read too closely into any clues given during this state.
 
-<br />
-
 ## Special Moves
-
-<br />
 
 ### The 5 Stall (Intermediate Section)
 
@@ -130,8 +116,6 @@ import FiveStall from "@site/image-generator/yml/level-9/five-stall.yml";
 <FiveStall />
 
 - When in the _Early Game_, there is [an additional special rule](#extinguishing-every-clue) for _5 Stalls_.
-
-<br />
 
 ### The 5 Stall Finesse Position Exception (FPE)
 
@@ -153,15 +137,11 @@ import FiveStall from "@site/image-generator/yml/level-9/five-stall.yml";
 - If a clue that looks like a _Locked Hand Save_ would _Lock_ another player, it is instead treated as a normal _Play Clue_ or a normal _Save Clue_.
 - Note that the precedence of a _Locked Hand Save_ is tied with a "fill-in" clue. Essentially, this means that players who have a _Locked Hand_ are not forced to perform a _Locked Hand Save_ if they do not want to. Most of the time, doing a _Locked Hand Save_ will be pretty good (as a 1-for-1 or a 2-for-1 instead of a 0-for-1), but _Locked_ players can always ignore a _Locked Hand Save_ to perform a "fill-in" clue if they want.
 
-<br />
-
 ### The Anxiety Play (Forcing a Locked Player to Play)
 
 - Sometimes, someone with a _Locked Hand_ has a playable card, but they do not know that they can play it yet. Re-cluing the card would signal this, but that would waste a clue and not be very efficient.
 - A better way to signal this information is to deliberately leave them at 0 clues. By convention, this means that one of their cards is actually playable. The player should play the card in their hand that is most likely to be playable. If there is more than one option, then they should know that the left-most is playable. (This follows from _Left-Most Playable Principle_.)
 - This is called an _Anxiety Play_ because you are putting the _Locked_ player in a "do or die" situation.
-
-<br />
 
 ### The 8 Clue Save (8CS)
 
@@ -171,13 +151,9 @@ import FiveStall from "@site/image-generator/yml/level-9/five-stall.yml";
 - If a clue that looks like an _8 Clue Save_ is on a card that is on slot 1, it is instead treated as a normal _Play Clue_ or a normal _Save Clue_.
 - The _8 Clue Save_ does not apply on the first turn of the game.
 
-<br />
-
 ### The Fill-In Clue
 
 - A _Fill-In Clue_ is defined as a clue that:
   1. only touches card(s) that already have a clue on them (or are _Chop Moved_)
   1. gives additional information to the touched card(s) that was not there before
 - _Fill-In Clues_ are only used in specific stalling situations - see the stalling table above for the specific situations that you are allowed to perform one. If you give a clue like this in a normal situation, it would just look like a _Play Clue_.
-
-<br />

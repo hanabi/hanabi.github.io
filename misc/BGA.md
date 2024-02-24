@@ -1,7 +1,5 @@
 # Welcoming Board Game Arena Players
 
-<br />
-
 ## Introduction
 
 This page is written for people who have a bunch of games on [Board Game Arena](https://en.boardgamearena.com/) and may be interested in playing some games with the _H-Group_ on [Hanab Live](https://www.hanab.live). Since our group uses some advanced conventions, this page should be a quick guide to get BGA players up to speed.
@@ -9,8 +7,6 @@ This page is written for people who have a bunch of games on [Board Game Arena](
 (A quick note: On Hanab Live, you can play with anyone you want and you can play with any conventions you want - it is a free website. However, a good chunk of the players who play on the website are all part of the _H-Group_, so if you are playing non-H-Group games on the website, it might be hard to get a pick-up game going with random strangers.)
 
 Why bother taking the time to branch out from Board Game Arena to play Hanabi elsewhere? In order to properly answer that question, here's a short introduction on the differences between BGA and Hanab Live. It should explain why, at the very least, you might want to dabble on both platforms. If you are already convinced, you can skip down to the section on [convention changes](#convention-changes-beginner).
-
-<br />
 
 ### Board Game Arena
 
@@ -44,8 +40,6 @@ Besides the problems with the user interface, there is another big disadvantage 
 Since there are so many players on the site, a general culture has emerged where once a game is over, players will typically just jump into the next game with the next player. Of course, this doesn't always occur, and there may be some lively post-game discussions from time to time. But this is the exception rather than the norm. In a way, it makes sense: why bother giving other players tips or have a discussion after the end of the game when you may not ever play with that player again? It is just more practical to move on.
 
 Of course, this problem is compounded by the terrible replay system. Even if players wanted to go over the replay of a game to analyze certain key moments, the replay system is not very conducive to this task - it requires some coordination to get every player to load up the replay on a specific turn, and even then, not all of the cards are revealed.
-
-<br />
 
 ### Hanab Live
 
@@ -99,13 +93,9 @@ We know that for people who really like Hanabi, it will be worth the extra effor
 
 One final thing to note is that, as a BGA player, you don't need to "convert" away from BGA, like it is some kind of religion. Rather, feel free to experiment and play on either platform, as it is absolutely possible to switch back and forth between convention frameworks. You can think of this as similar to a bilingual person switching from Spanish to French - you don't necessarily have to choose between the two.
 
-<br />
-
 ## Convention Changes (Beginner)
 
 If you're reading this far, you'll want to know some of the basic differences between the _BGA Convention Framework_ and the _H-Group Convention Framework_. Fear not - it isn't so bad once you play a few games.
-
-<br />
 
 ### What's the Same?
 
@@ -177,13 +167,9 @@ If you're reading this far, you'll want to know some of the basic differences be
 - In the _Early Game_, everyone agrees that they **must** "extinguish" all of the available _Play Clues_ and _Save Clues_ before discarding.
 - Why do this? It prevents a certain percentage of "bottom-deck" losses by having cards on chop stick around for a little longer.
 
-<br />
-
 ## Convention Changes (Intermediate)
 
 Ok, so you've made it this far. The changes so far probably sound pretty strange, but at least most of the core stuff is still the same. Before reading further, you'll probably want to play a few games with us to get a feel for how the basics work. Beyond the basics, there are some other changes, as well as some new moves.
-
-<br />
 
 ### Double Discard Avoidance (DDA) - Changed
 
@@ -249,13 +235,9 @@ Ok, so you've made it this far. The changes so far probably sound pretty strange
 - By extension, it is also possible to perform a _Double Finesse_ where both promised cards are _Layered_ behind other playable cards. Essentially, this means that when playing with good players, you always have to keep in mind that a _Finesse_ could be _Layered_.
 - Why do this? It's pretty awesome and one of the most fun parts of playing Hanabi with our group.
 
-<br />
-
 ## Convention Changes (Advanced)
 
 These are conventions that we don't typically turn on for new players, but we do use regularly in high-level games.
-
-<br />
 
 ### The Priority Finesse - Added
 
@@ -279,8 +261,6 @@ These are conventions that we don't typically turn on for new players, but we do
 - Players are allowed to initiate _3 Bluffs_ with either color or number.
 - This is one of the more arbitrary and tricky conventions that we have, so it will take a few games to get used to.
 - Why do this? It allows us to get 2-for-1 clues in situations where you would otherwise have to do a 1-for-1. Furthermore, it allows us to mitigate a good percentage of "bottom-deck" losses to 3's. (And if you're really interested, you can read [the story of how 3 Bluffs were invented](3-bluffs.md)).
-
-<br />
 
 ## A Concluding Note
 

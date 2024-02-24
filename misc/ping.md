@@ -8,8 +8,6 @@
 - The people who are assigned this role should then get a notification.
 - If you would like to be added to this role, please send Zamiel a direct message on Discord.
 
-<br />
-
 ## Rules
 
 - Don't ping if there are already one or more pick-up games going on.

@@ -1,16 +1,10 @@
 # Deleted Conventions in the H-Group Framework
 
-<br />
-
 ## Introduction
 
 As we evolve our convention framework, sometimes we decide to delete existing "moves" or strategies in order to simplify things. And other times, new strategies that we come up with will conflict with older, existing strategies, so we must retire the older ones. This is a short list of some retired strategies.
 
-<br />
-
 ## Deleted Conventions
-
-<br />
 
 ### The Weak Prompt
 
@@ -19,8 +13,6 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
 - So instead, you are promised that you have the connecting card somewhere in your hand, but it could be any of the cards, and not strictly the left-most.
 - This convention was deleted since it was rarely used and increased complexity.
 
-<br />
-
 ### The Early Fix Clue Chop Move
 
 - As noted in the _Fix Clues_ section, a _Fix Clue_ is required before a misplay occurs on duplicated cards. But usually, the misplay will not occur until late in the game, because there is always some other extra card (that is not currently playable) that it could be.
@@ -28,8 +20,6 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
 - So if a _Fix Clue_ is given early to you, it can be strange. You were happily discarding, and now all of a sudden you are being fixed on a card that was just sitting in your hand and was not in danger of being misplayed.
 - This usually means that your chop suddenly became important, so the _Fix Clue_ was given early to give you a good discard and keep you occupied. Thus, you should permanently chop move one card.
 - This convention was deleted because it was ambiguous as to whether _Fix Clues_ were early or not.
-
-<br />
 
 ### The Disease Bluff
 
@@ -46,8 +36,6 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
 - The original Bluff is called a Disease Bluff, since it requires healing. In a convention framework with _Disease Bluffs_, giving a _Heal Clue_ would be the highest priority interpretation.
 - _Disease Bluffs_ were deleted because they were too inefficient.
 
-<br />
-
 ### The Promise Bluff
 
 - Typically, we are only allowed to _Bluff_ with cards that are 1-away (normal _Bluff_) or a 3 (_3 Bluff_) or a critical 4 (_Critical 4 Bluff_). However, _Bluffs_ can also be performed with cards that are 2 away if the true intermediary card exists on someone's _Finesse Position_. Doing such a move is essentially like doing a _Bluff_ and a _Finesse_ at the same time, with one component of each. This is called a _Promise Bluff_, because it promises the true one-away card in addition to being a _Bluff_.
@@ -55,8 +43,6 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
   - As the receiver of the clue that initiates a _Promise Bluff_, it may be ambiguous as to what exactly the connecting card is, if it exists. As long as there is at least one candidate on someone's _Finesse Position_, then you have to assume a _Promise Bluff_ over a _Double Bluff_.
 - _Promise Bluffs_ also take priority over _Layered Finesses_. This isn't normally an issue, since it is rare to actually to perform a _Layered Finesse_ from _Bluff Position_, but it is worth mentioning.
 - This convention was deleted because it was too rare to be worth the additional cognitive overhead. It also prevents some _Double Bluffs_ from occurring.
-
-<br />
 
 ### The Double Gentleman's Discard
 
@@ -66,16 +52,12 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
 - This is called a _Double Gentleman's Discard_ because it "gets" two cards instead of one.
 - This convention was removed because it would lead to misplays after players made information-asymmetric reads.
 
-<br />
-
 ### The Redundant Save Chop Move
 
 - Players that have two or more clued 1's in their hand will often use the _Order Chop Move_ to _Chop Move_ a 2, a 5, or a critical card on the next player's chop.
 - Subsequently, if a player with two or more clued 1's in their hand does not play a 1 and instead gives a _Save Clue_ to a 2, a 5, or a critical card on the next player's chop, this is very strange.
 - In this situation, if there is nothing else special going on, the player who got clued should _Chop Move_ the card next to the one that was explicitly saved.
 - This convention was deleted since it was hardly ever used.
-
-<br />
 
 ### The Reverse Misplay Chop Move
 
@@ -85,8 +67,6 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
 - In such a scenario, the clue will look like a _Reverse Finesse_ and then next person will misplay their _Finesse Position_ card.
 - After the misplay, the person who received the clue is to treat it like a normal _Misplay Chop Move_, and chop move all the cards to the right of the clued card.
 - This convention was deleted since it was hardly ever used.
-
-<br />
 
 ### Priority in Multi-Color Variants
 
@@ -98,8 +78,6 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
   - However, since the blue stack is the to the left of the rainbow stack, Alice knows that for the purposes of calculating _Priority_, she has to assume that her blue card is the blue 1.
   - Thus, even if Alice really does have the rainbow 3, playing the red 2 will still cause a _Priority Finesse_ to occur on the red 3.
 - This convention was deleted with the rework to make _Priority_ only apply to globally-known cards.
-
-<br />
 
 ### The Out-of-Position Bluff (OOP) / The Reverse Bluff
 
@@ -116,16 +94,12 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
 - A _Reverse Bluff_ is just a just a more-specific type of _Out-of-Position Bluff_. All of the same stipulations apply.
 - This move was deleted because players were not good enough to recognize valid _Out-of-Position Bluffs_ or know what the criteria were.
 
-<br />
-
 ### The Suboptimal Color Bluff
 
 - Often, when giving a color clue to a Rainbow or dual-color card, you want to pick a color that will "fill-in" ancillary cards in the hand as to give the maximum amount of information.
 - If a suboptimal color is chosen that does not fill in ancillary cards, it follows from _High Value Principle_ that there must be a reason, so you should blind-play your _Finesse Position_ card.
 - This move is contextual in that you don't want to make it appear as if the clued card is currently unplayable. Thus, it is best performed as a _Reverse Bluff_ or a _Long-Distance Bluff_.
 - This convention was deleted because it was hardly ever used and it increased complexity.
-
-<br />
 
 ### The Triple Bluff
 
@@ -138,8 +112,6 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
   - Cathy knows a blue 2 does not connect to a red 5, so this must be some kind of _Bluff_. However, a red 5 is not a valid _Bluff_ target and it is also not a valid _Double Bluff_ target. Thus, this must be a _Triple Bluff_. Cathy blind-plays her _Finesse Position_ card as any playable card, and it plays as green 2.
   - Donald also knows that this must be a _Triple Bluff_ for the same reasons that Cathy does. Donald blind-plays his _Finesse Position_ and it plays as a yellow 2.
 - This convention was deleted because it was hardly ever used. The similar moves of the _Triple One-Third Bluff_, the _Triple Two-Third Bluff_, and the _5's Triple Bluff_ were also deleted.
-
-<br />
 
 ### The Speculation Prompt & The Speculation Finesse
 
@@ -160,22 +132,16 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
 - Note that we agree that it is illegal for players to perform a _Ambiguous Speculation Finesse_, so players do not have to account for that possibility.
 - This convention was deleted with the rework to make _Priority_ only apply to globally-known cards.
 
-<br />
-
 ### The Speculation Layered Finesse
 
 - Similar to a _Layered Priority Finesse_, it is also possible to _Layered Speculation Finesse_. This is safe to do because if the _Speculation_ fails, no lie will have occurred, since the other player will write _Elimination Notes_ on their entire hand.
 - This convention was deleted with the rework to make _Priority_ only apply to globally-known cards.
-
-<br />
 
 ### The Speculation Elimination Finesse
 
 - In a normal _Elimination Finesse_, the right-most card is called for.
 - However, if an _Elimination Finesse_ calls for a card that specifically has _Speculation Elimination Notes_ on it, then the **left-most** card is called for instead of the right-most card.
 - This convention was deleted with the rework to make _Priority_ only apply to globally-known cards.
-
-<br />
 
 ### The Speculation Bluff
 
@@ -195,8 +161,6 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
 - Note that to prevent confusion, we agree that it is illegal for players to perform a _Speculation Finesse_ on a player who is two or more seats away if the next player has a playable card in _Finesse Position_ that is not already gotten.
 - This convention was deleted because it was too complicated.
 
-<br />
-
 ### The Misplay Trash Push
 
 - When a card is clued and the next player misplays that card, it is usually the _Misplay Chop Move_ - they had no other options and had to protect an important card on chop.
@@ -204,15 +168,11 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
 - Normally, when trash is clued on chop, it is a _Trash Push_. So they should go on to blind-play the card that was touching the trash on their next turn.
 - This convention was deleted due to lack of use.
 
-<br />
-
 ### The Dupe Bluff
 
 - This is where you perform a _Bluff_ such that the card that is blind-played is already touched in someone else's hand **and** the player who has the other copy has full knowledge of the card.
 - You wouldn't normally do this since it is only a 1-for-1 instead of a 2-for-1. However, it can be useful if you want to touch a card that you wouldn't otherwise be able to, like a one-away from playable card. Alternatively, you may strongly want to give ancillary information to some other card.
 - This convention was deleted due to lack of use.
-
-<br />
 
 ### Implied Color Truth
 
@@ -225,8 +185,6 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
   - Cathy has a blue 3 on chop and is in danger of discarding it.
   - Thus, Bob assumes that he has a blue 2 and clues blue to Cathy as a _Play Clue_ on the blue 3.
 - Our group has never actually used this convention, but it is documented here since it is played with on Board Game Arena.
-
-<br />
 
 ### The Phantom Finesse
 
@@ -259,8 +217,6 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
   - Alice also knows that Bob was using _Implied Color Truth_. It would not make sense for Bob to defer playing the red 2 in order to clue the red 3 himself. Thus, her red card must be a red 4 and Bob was trying to _Finesse_ Cathy's red 3. Alice marks the card as such as discards.
 - Our group has never actually used this convention, but it is documented here since it is played with on Board Game Arena.
 
-<br />
-
 ### The Unnecessary Trash Finesse/Bluff Chop Move (Alternate Form)
 
 - An alternate form of the _Unnecessary Trash Finesse/Bluff Chop Move_ exists where the unnecessary part is **not** in the clue receivers hand but in someone else's hand.
@@ -274,8 +230,6 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
   - Cathy does not know that Donald is _Chop Moved_. However, she will be able to retroactively figure it out once the blue 3 is clued. Alternatively, she will know once Donald demonstrates the _Chop Move_ by discarding his slot 3.
 - This convention was deleted due to lack of use.
 
-<br />
-
 ### The Stop Blind-Play (Blind-Playing Chop)
 
 - Sometimes, due to a mistake or a complicated situation, you can see that the next player after you is going to misplay a critical card. Additionally, there may be no "fix" clue that you can give that will remedy the situation, or perhaps you are currently at 0 clues.
@@ -284,8 +238,6 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
 - If you see someone blind-play their chop and it works, your first thought may be that it could be a _Stop Blind-Play_. However, it could also be a _Negative Blind-Play_ (which is covered later), so it is important to not confuse these two strategies.
 - Note that a _Scream Blind-Play_ (listed above) is almost exactly the same as this move, but it has a completely different interpretation. Whether or not a move is a _Scream Blind-Play_ or a _Stop Blind-Play_ is entirely dependent on the context of the situation.
 - This convention was deleted due to lack of use.
-
-<br />
 
 ### The Stop Discard
 
@@ -296,8 +248,6 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
 - If there is a card that could potentially be playable on chop, then the _Echo Scream Discard_ interpretation takes priority over the _Stop Discard_ interpretation.
 - This convention was deleted due to lack of use.
 
-<br />
-
 ### The Skipped Scream Discard
 
 - In emergency situations, players should perform _Scream Discards_ and _Generation Discards_ to save important cards. These two moves (along with their derivatives, the _Echo Scream Discard_ and the _Composition Discard_), should be enough to "solve" almost every tricky situation that could ever come up.
@@ -306,8 +256,6 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
 - It is common for players to accidentally _Chop Move_ a card. Thus, the _Skipped Scream Discard_ interpretation should almost never be entertained, simply because of how rarely it is actually needed.
 - Furthermore, this move should never be performed if there is a non-expert player playing or if it is likely to be interpreted as a mistake.
 - This convention was deleted due to lack of use (outside of 2-player games).
-
-<br />
 
 ### Order Ejection
 
@@ -325,8 +273,6 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
   - Furthermore, Donald knows that his _Chop Moved_ card **must** be a 5 or some other critical card. (This is unlike a normal _Order Chop Move_, since _Order Chop Moves_ are allowed to get non-critical cards.)
 - Note that _Order Ejections_ only apply if the player did not _Order Chop Move_ a **critical** card. Unique 2's **do not** count as critical in this case.
 - This convention was deleted due to lack of use.
-
-<br />
 
 ### Reverse Order Ejection
 
@@ -350,15 +296,11 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
   - Bob now knows that the _Reverse Order Ejection_ failed and that the 5 will not get retroactively _Chop Moved_ anymore. If Cathy might discard on the next turn, Bob should not play his remaining 1 and should instead give a _5 Save_ to Cathy.
 - This convention was deleted due to lack of use.
 
-<br />
-
 ### Known-Trash Ejection
 
 - Often times, a player can have one or more cards that are known duplicates / trash. They will discard them it without being told anything further.
 - If a clue is given that **only** touches cards that are already known-trash, then it must have some other purpose - it should signal an _Ejection_ on the very next player.
 - This convention was deleted due to lack of use.
-
-<br />
 
 ### The Dump Truck
 
@@ -369,8 +311,6 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
 - In the middle of the game, it is relatively safe to blind-play your chop card, since it is known to not be a critical/playable card.
 - In the beginning of the game, it may not be safe to blind-play your chop card. In this situation, you may see that multiple players have the opportunity to initiate the _Dump Truck_. Normally, it is best to let the player immediately before the blind-player do it. If they have an unsafe chop, then the 2nd player before the blind-player should do it, and so forth.
 - This convention was deleted due to lack of use.
-
-<br />
 
 ### The Distributed Dump Truck
 
@@ -387,8 +327,6 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
   - Emily plays blue 2 from her _Finesse Position_.
 - This convention was deleted due to lack of use.
 
-<br />
-
 ### The Rank Choice Bluff
 
 - _Reverse Finesses_ take precedence over _Bluffs_. This means that players cannot use cards to _Bluff_ when there are "connecting" cards on other player's _Finesse Positions_.
@@ -397,15 +335,11 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
 - It is possible to use the _Rank Choice_ convention with any kind of _Bluff_. Thus, it is possible to _Rank Choice 3 Bluff_, _Rank Choice Double Bluff_, and so forth.
 - This convention was deleted because it was confusing and led to accidental misplays.
 
-<br />
-
 ### The Rank Choice Finesse
 
 - After Bob sees that Alice wants a _Rank Choice Bluff_ to happen, he will blind-play his _Finesse Position_ card, expecting it to be an unrelated card. But what if Bob plays a card that connects to the card that was clued?
 - In this situation, it would be a _Rank Choice Finesse_ instead of a _Rank Choice Bluff_. A _Rank Choice Finesse_ may be preferable to a (more ordinary) _Ambiguous Finesse_, which will resolve more slowly.
 - This convention was deleted because it was confusing and led to accidental misplays.
-
-<br />
 
 ### The Trash Finesse (Weak Form)
 
@@ -425,16 +359,12 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
   - Bob sees Cathy blind-play the next red card for seemingly no reason, so he is able to deduce that his slot 2 card is trash.
 - This convention was deleted due to lack of use.
 
-<br />
-
 ### The Double Play Ejection
 
 - If a player knows that a card in their hand is playable, and then they receive **another** clue on that card, it is usually a _Fix Clue_, which means that the card is actually bad and they should discard it instead of playing it.
 - However, if this happens on a good card, the other players can see that the clue must have some other purpose - it should signal an _Ejection_ on the very next player.
 - This results in a _Signal Shift_ from _Fix_ --> _Play_.
 - This convention was removed in favor of the _Replay Double Ignition_ and _Replay Ejection_.
-
-<br />
 
 ### The Safety Charm (Declined 5 Pull)
 
@@ -457,8 +387,6 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
   - Cathy knows that she must have the red 2. She also knows that her slot 1 card is a 5 that could have been used for a _5 Pull_. Cathy marks the 5 as being _Chop Moved_ for later.
 - This convention was deleted since it was too hard to see.
 
-<br />
-
 ### Selfish Focus Inversion (SFI)
 
 - Normally, when a player gives a _Selfish Clue_, they are doing it because no-one else on the team can perform the clue and they want to "lock-in" the value.
@@ -476,8 +404,6 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
   - Donald also knows that this cannot be a _Self Finesse_. (Donald has a negative red clue on his _Finesse Position_ card.)
   - Thus, this must be a _Selfish Focus Inversion_, so Donald marks his right-most card as red 2 for later. The other red card in his hand can be red 3, red 4, or red 5. Donald discards.
 - This convention was deleted since it was prone to misinterpretation and was too rare to be useful.
-
-<br />
 
 ### The Cursed Finesse
 
@@ -499,8 +425,6 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
     - From both Bob and Donald's perspective, Bob's red 1 did not connect to Donald's blue card, so this cannot be a _Pestilent Double Bluff_.
   - Therefore, the team knows that this must have been a _Cursed Finesse_. Bob will now continue to blind-play until he finds his promised blue 1.
 - This convention was deleted because no-one ever used it.
-
-<br />
 
 ### The Self Color Ejection
 

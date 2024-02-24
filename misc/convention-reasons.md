@@ -2,8 +2,6 @@
 
 The main website lists all of our conventions. But it does not bother listing **why** we implemented a particular convention, because we want to make it as concise as possible. Since beginners sometimes like to know the **why** behind a convention, this page will go into a bit more detail.
 
-<br />
-
 ## Chop-Focus
 
 - In the H-Group convention framework, we play with [_Chop-Focus_](https://hanabi.github.io/beginner/single-card-focus), which allows us to "get" playable cards that are on chop. Nearly all other Hanabi groups play with a simpler system (e.g. _Play Clues_ are always focused on the left-most card). Why do we have _Chop-Focus_?
@@ -13,16 +11,12 @@ The main website lists all of our conventions. But it does not bother listing **
 - _Finesses_ and _Bluffs_ can't "get" a player's chop card. In fact, there are no "moves" that get a player's chop card, at least in our convention framework. So rather than cluing cards on _Finesse Position_, what **is** common for us is to clue playable cards on chop before they get discarded.
 - With all of this in mind, we can see that it makes much more sense to have clues be focused on the chop and let cards on _Finesse Position_ be _Finessed_ or _Bluffed_.
 
-<br />
-
 ## Mandatory 5 Stalling
 
 - In the H-Group convention framework, we require that the team collectively performs one [_5 Stall_](https://hanabi.github.io/level-2#the-5-stall-cluing-off-chop-5s). Why?
 - _5 Stalls_ can be useful because they extend the _Early Game_. Extending the _Early Game_ is good, because it prevents bottom-deck losses.
 - On the other hand, _5 Stalls_ are kind of a waste, as they don't accomplish much in-of-themselves. It is more efficient to only save 5's when they actually get on chop and _need_ to be saved.
 - Thus, requiring one _5 Stall_ is a compromise between extending the _Early Game_ and not doing too many _5 Stalls_.
-
-<br />
 
 ## Play Order of Multiple 1's
 
@@ -40,14 +34,10 @@ The main website lists all of our conventions. But it does not bother listing **
 - So, what about the inverse? What about when players do **not** patiently wait for a discard and instead clue two or more 1's immediately? The player who receives the clue knows that out of all of the 1s, the most important 1 must be the chop card (or the card closest to chop). Otherwise, if it were a "bad" 1, then the team would do nothing and let it get discarded!
 - It follows that players should always play 1's in the starting hand from right-to-left.
 
-<br />
-
 ## 3 Bluffs
 
 - In the H-Group convention framework, we extend the [_Bluff_](https://hanabi.github.io/level-10#the-bluff) convention, allowing players to _Bluff_ with [any 3 that they want](https://hanabi.github.io/level-12#the-3-bluff). Why?
 - Read the [story of 3 Bluffs](3-bluffs.md), which is on a separate page.
-
-<br />
 
 ## Discarding Trash From Left to Right
 
@@ -68,8 +58,6 @@ The main website lists all of our conventions. But it does not bother listing **
 | discard rightmost   | purple 1           | trash 1               | discard slot 3 | attempted normal discard that turns into a _Trash Order Chop Move_ on Libster ❌ |
 | discard rightmost   | trash 1            | purple 1              | discard slot 1 | attempted normal discard that turns into a _Trash Order Chop Move_ on Libster ❌ |
 | discard rightmost   | trash 1            | trash 1               | discard slot 3 | normal discard, nothing special happens ✔️                                       |
-
-<br />
 
 ## The Elimination Finesse Calling for Oldest Card
 

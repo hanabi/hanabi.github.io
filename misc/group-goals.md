@@ -4,8 +4,6 @@ The _H-Group_ is a loose collection of around 100-200 people who all love Hanabi
 
 As a group, we are always welcoming of new people that want to give our way of playing the Hanabi a try. With that said, we do not want to take-in just anybody. We take Hanabi very seriously, so **inclusiveness comes secondary to keeping our pick-up games of a high quality**.
 
-<br />
-
 The goals of the group as are follows:
 
 ## To Play At a High-Level

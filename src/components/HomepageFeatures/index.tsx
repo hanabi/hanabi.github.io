@@ -42,15 +42,12 @@ function Feature({ num, title, iconName, description, link }: FeatureItem) {
     <div className={clsx("col col--4", styles["feature"])}>
       {iconStyles !== "" && (
         <div className="text--center">
-          <br />
           <a href={useBaseUrl(link)}>
             <span className="fa-stack fa-3x">
               <i className={circleStyles}></i>
               <i className={iconStyles}></i>
             </span>
           </a>
-          <br />
-          <br />
         </div>
       )}
       <h3 className="text--center">

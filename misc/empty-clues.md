@@ -1,7 +1,5 @@
 # Empty Clue Conventions for the H-Group Framework
 
-<br />
-
 ## Clue Interpretation Tables
 
 ### 3-Player
@@ -14,8 +12,6 @@
 | 3 (8, 13) | play 3 | number 3 or yellow          |
 | 4 (9, 14) | play 4 | number 4 or red             |
 
-<br />
-
 ### 4-Player
 
 | # mod 5   | action          | type of clue                |
@@ -25,8 +21,6 @@
 | 2 (7, 12) | play 2          | number 2 or green           |
 | 3 (8, 13) | play 3          | number 3 or yellow          |
 | 4 (9, 14) | play 4          | number 4 or red             |
-
-<br />
 
 ### 5-Player / 6-Player (with 5 color clues)
 
@@ -44,8 +38,6 @@
   - they have no new playable cards in their hand to "get" (which includes non-_Prompted_ cards that have clues on them already)
 - The player receiving the chop move action can clue or discard, just like action 0.
 
-<br />
-
 ### 5-Player / 6 Player (with 3 color clues)
 
 | # mod 5   | action          | type of clue       |
@@ -55,8 +47,6 @@
 | 2 (7, 12) | play 2          | number 2 or green  |
 | 3 (8, 13) | play 3          | number 3 or yellow |
 | 4 (9, 14) | play 4          | number 4           |
-
-<br />
 
 ## Empty Target Priority
 
@@ -74,8 +64,6 @@
   - #3 - left-most
 - If playing with 5-players, the _Chop Move_ action has a priority of #1d.
 
-<br />
-
 ## History
 
 - In Hanabi, it is generally assumed that you will give clues that "touch" one or more cards in someone else's hand. But what if you want to give a clue that touches NO cards in the hand? We refer to this as an _Empty Clue_.
@@ -92,8 +80,6 @@
   - [Board Game Arena's implementation](https://en.boardgamearena.com/) does allow _Empty Clues_.
   - Keldon's implementation (which is now offline) does not allow _Empty Clues_.
   - [Hanab Live's implementation](https://hanab.live) follows Keldon's lead and disables _Empty Clues_ by default. However, game creators can allow _Empty Clues_ an as optional setting when creating a game.
-
-<br />
 
 ## Basic Description
 
@@ -129,8 +115,6 @@
   - Donald has the easiest time of all. He does not have to figure out anyone's action. He just has to plug in the values for what the two previous players did in order to determine that he is supposed to play slot 1.
   - Donald calculates: 3 (Alice's clue) - 1 (Bob's past action) - 1 (Cathy's past action) = 1 (play slot 1)
   - Donald blind-plays slot 1.
-
-<br />
 
 ## Dealing with Edge Cases
 
@@ -218,8 +202,6 @@
 - Sometimes, a player is given an _Empty Clue_ action and plays the wrong card, causing a misplay.
 - In this situation, even though they might be able to go back into the in-game replay and figure out their mistake, everyone agrees that the original card that was supposed to be "gotten" from the _Empty Clue_ needs to be re-clued.
 
-<br />
-
 ## Special Empty Moves
 
 ### The Final Freedom Certain Finesse
@@ -241,8 +223,6 @@
 - _Empty Bluffs_ do not meet _Empty Minimum Value Clue Principle_, but they can be useful to get a 1-for-1 on a card that is otherwise blocked. Alternatively, they can be used to get a 1-for-1 on a card while also telling the other player that a particular card is exactly 1-away from being playable.
 - It is also possible to do a _Known Empty Bluff_, in which the blind-playing player knows that they are playing an unrelated card. In this situation, it would be the only way for the _Empty Clue_ to make sense.
 
-<br />
-
 ## Alternate Clue Interpretation Tables
 
 ### 5-Player (with 6 color clues)
@@ -256,8 +236,6 @@
 | 4 (10, 16) | play 4          | number 4 or red    |
 | 5 (11, 17) | chop move       | number 5           |
 
-<br />
-
 ### 4-Player or 5-Player (with 4 color clues)
 
 | # mod 5   | action          | type of clue        |
@@ -267,8 +245,6 @@
 | 2 (7, 12) | play 2          | number 2 or color 2 |
 | 3 (8, 13) | play 3          | number 3 or color 3 |
 | 4 (9, 14) | play 4          | number 4 or color 4 |
-
-<br />
 
 ### 3-Player (with 4 color clues)
 

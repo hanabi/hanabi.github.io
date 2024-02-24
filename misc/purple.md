@@ -4,8 +4,6 @@ If you are reading this, you are presumably being promoted to having the purple 
 
 Zamiel "owns" the Discord server, but for most intents and purposes, we want the server to be governed in an egalitarian manner. For that reason, all purple people have administrative powers in the Discord. (Meaning that, for example, you can move people around in voice channels, delete other people's messages, and so forth.) But with **great power** comes **great responsibility**.
 
-<br />
-
 ## Do
 
 - Use common sense.
@@ -14,15 +12,11 @@ Zamiel "owns" the Discord server, but for most intents and purposes, we want the
 - Ask in the `#moderator-only` channel before doing things like creating new channels, and so forth. If you aren't sure, just ask.
 - Give new players the green role once you have played a game with them and confirmed that they have demonstrated the criteria listed in the #role-explanations channel. (There's no need to announce this to others.)
 
-<br />
-
 ## Don't
 
 - Don't power trip.
 - Don't delete other people's posts unless there is a good reason.
 - Don't be a dick. More on that below.
-
-<br />
 
 ## The Culture
 
@@ -46,10 +40,6 @@ Zamiel "owns" the Discord server, but for most intents and purposes, we want the
 - Over time, players in this group retire, and they hardly ever come back. Without new players, **this group will die**.
 - Be open to playing with new players, at least some of the time.
 
-<br />
-
 Purple people need to mix with green people so that our values continue to propagate. We want to avoid the scenario where a new player hops into a post-game review with a bunch of green people, and a yelling match ensues about who messed up the most, and the new player promptly leaves and never comes back. Do your part to help prevent this from occurring.
 
 Thank you for being a part of the group that I love so much!
-
-<br />

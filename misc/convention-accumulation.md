@@ -2,8 +2,6 @@
 
 As you probably know, in the H-Group, we play with a lot of conventions - things that we agree to before the game starts. Unlike other groups, we write all of these down in [a formal document](../Reference.md). And this document is _long_.
 
-<br />
-
 ## The History
 
 A common reaction to seeing a hundred-page-long conventions document for the first time is often surprise: "Wow, these guys are crazy at Hanabi!" But the surprise can quickly turn to disgust: "This list is insane - how can they remember all of these conventions? I would never want to play like this. Even if I did, learning all of these conventions would take years."
@@ -18,21 +16,17 @@ As the months went by, we played more and more games. Sometimes, we would stumbl
 
 But as the years went by, you can imagine what happened. The process of adding a new move here and there over the course of 3 years can result in _a lot_ of moves. The punchline of this story is that our huge convention list is not an artificial list of things invented all at once. Rather, it is a list of things that naturally flowed from playing 5000+ games of Hanabi in a process of slow iteration, week by week, month by month.
 
-<br />
-
 ## Learning the Conventions from Scratch
 
 So even if you can understand and empathize with the history of the long convention document, there is still a problem with getting new players up-to-speed. We certainly want new players to join our group - if we stopped getting new players entirely, the group would eventually die out. But with each convention we add, it gets just a little bit harder to come in starting from scratch. There's no getting around it - playing Hanabi with our group is going to be more complicated and more difficult than playing Hanabi with others, because we have been already playing for many years.
 
 But there are some important counterpoints:
 
-<!-- lint disable heading-increment -->
-
-#### 1) Advanced conventions are "turned off" when playing with beginners
+### 1) Advanced conventions are "turned off" when playing with beginners\*\*
 
 Beginners don't have to worry about learning everything all at once, because we will "turn off" all of the advanced stuff so that the beginner can focus on the fundamentals.
 
-#### 2) Players do not need to know most of the information in the reference document
+### 2) Players do not need to know most of the information in the reference document
 
 New players are **not supposed** to read the reference document. We only expect them to read the (relatively-short) beginner's guide. Let's go into why this is.
 
@@ -42,16 +36,14 @@ Some other things in the reference document only apply **very rarely**, like onc
 
 Yet other things in the reference document only apply to specific variants. There are over a thousand different variants on Hanab Live, and unless you are an expert player, it is going to be pretty pointless to try and learn the intricacies of each one, especially considering that people typically play "No Variant" and "Rainbow" games for their first 100-200 games.
 
-#### 3) We want to strike a compromise between new and expert players
+### 3) We want to strike a compromise between new and expert players
 
 From time to time, we "pare down" the convention-framework to try and reduce to total amount (and complexity) of the conventions. We never want to get to a point where it becomes too complicated to learn the framework from scratch.
 
 But we also want to keep the expert players from getting bored. As a group, we want to continue to innovate and refine our convention-framework to be the best it can be, and sometimes that can mean changing some existing convention or adding a new move.
 
-#### 4) We want to have high-level and fulfilling games
+### 4) We want to have high-level and fulfilling games
 
 What is the flip-side of having more conventions and more complexity? First off, it raises the skill ceiling. Hanabi throws plenty of tricky situations at you, and you only have a limited number of tools to solve them. By adding some conventions, it can be like adding additional tools to the tool-belt. For expert players, by empowering them with more tools, it increases the total ways in which they can solve problems, making the game take on a new layer of beauty. But even for newer players, it can be very fun to learn how to make your teammates blind-play cards from their hands in new and exciting ways.
 
 We know that for people who really like Hanabi, it will be worth the extra effort to play with a little more complexity.
-
-<!-- lint enable heading-increment -->

@@ -19,30 +19,24 @@ Ask questions about the H-Group conventions in the in the `#convention-questions
 
 Use notation that the H-Group will be familiar with:
 
-<!-- lint disable no-undefined-references -->
-
 - Use "red 3" instead of "3 red".
 - Use "r3" instead of "3r".
 - Use "r[3]" to indicate that a card is a red 3 but has a number 3 clue on it.
 - If using a replay, then use the names of the players in the replay.
 - If using a hypothetical, always use the characters of Alice, Bob, Cathy, Donald, and Emily. (Alice should always be the player who performs the first action.) Do not abbreviate the names as "A", "B", and so forth, because letter abbreviations are reserved for colors.
 
-<!-- lint enable no-undefined-references -->
-
 ## 4) Attempt to Answer Your Own Question (and Provide a Detailed Explanation)
 
 - You **must** attempt to answer your own question, based on your current understanding of the conventions.
 - Provide a detailed explanation as to **why** you think it is the best answer, linking to the relevant sections of the website if necessary.
-- For example, the following question will be deleted:
-  - /replay 12345 12<br />Level 11 game. Is this a 5 Stall or a 5 Pull?
+- For example, the following question is bad:
+  - /replay 12345 12<br>Level 11 game. Is this a 5 Stall or a 5 Pull?
 - For example, the following question is good:
-  - /replay 12345 12<br />Level 11 game. Here, it is Alice's turn. It is also the Early Game and no 5 Stalls have been given yet. Thus, based on my understanding of the conventions, when Alice clues number 5 to Bob, it would just be a 5 Stall, because there is no other possible clues that Alice can give. Is this correct? (From: https://hanabi.github.io/level-9/#the-5-stall-intermediate-section)
+  - /replay 12345 12<br>Level 11 game. Here, it is Alice's turn. It is also the Early Game and no 5 Stalls have been given yet. Thus, based on my understanding of the conventions, when Alice clues number 5 to Bob, it would just be a 5 Stall, because there is no other possible clues that Alice can give. Is this correct? (From: https://hanabi.github.io/level-9/#the-5-stall-intermediate-section)
 
 ## 5) Put Everything in One Message
 
 - Type out your entire question into a single message (including the attempt to answer your own question).
-
-<br />
 
 ## Reasoning
 

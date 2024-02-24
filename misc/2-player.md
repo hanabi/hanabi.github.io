@@ -1,15 +1,11 @@
 # 2-Player Conventions for the H-Group Framework
 
-<br />
-
 ## Introduction
 
 - Our group generally only plays games with 3 to 5 players, since 2-player games are not as fun / not as skill-based. In general, the _H-Group Conventions Framework_ is **not optimized for only 2-players**.
 - With that said, it is possible to use the H-Group convention framework to also play 2-player games. Expert players can usually get perfect scores with ease (depending on the variant).
 - This page provides some extra conventions that are used by our group while playing 2-player games.
 - The goal of these conventions is to get the highest average score for the classic variants (`No Variant` and `Rainbow (6 Suit)`) over a large series of games. Thus, they are designed to be quite conservative. If you are playing a more difficult variant, then it might be prudent to play more risky by disabling certain conventions (e.g. one-away saves, DDA) and adding other ones (e.g. positional discards).
-
-<br />
 
 ## Basic Conventions
 
@@ -66,8 +62,6 @@
 
 - Normally, when a player re-clues one or more 5's with a number 5 clue, it would be a _Play Clue_ - the left-most 5 is playable right now.
 - In a 2-player game, if this would require two or more blind-plays (e.g. as a _Self Double Finesse_), then this interpretation is unlikely. Instead, we agree that this should communicate a _Double Chop Move_.
-
-<br />
 
 ## Advanced Conventions
 
@@ -128,8 +122,6 @@
 - This situation should be treated the same as _Anxiety_ - even though there is 1 clue available, the locked player **has** to play something to keep the game going.
 - If nothing else in their hand makes sense to play, then the locked player should blind-play the _Chop Moved_ card.
 
-<br />
-
 ## Variant-Specific Conventions
 
 ### The Flush Save
@@ -184,8 +176,6 @@
   - Alice knows from context that her blue card cannot be the blue 2, because Bob would have clued it earlier on.
   - Alice knows from context that her blue card is probably not the rainbow 3, because Bob would **not** assume that he has the rainbow 2 from a blue clue.
   - Thus, Alice knows that her blue card must be blue 3. She will hold on to the card for later.
-
-<br />
 
 ## Optional Conventions
 

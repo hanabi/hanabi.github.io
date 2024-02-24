@@ -4,8 +4,6 @@
 
 This framework is entirely separate from the H-Group convention framework. This document contains a basic description of how it works and has some helpful tools for people attempting to play with it.
 
-<br />
-
 ## Basic Description
 
 - In most Hanabi convention frameworks, you clue cards to tell the player to play that card (or discard that card). In Hat-Guessing, clues have nothing to do with the cards that are "touched" by the clue.
@@ -29,8 +27,6 @@ This framework is entirely separate from the H-Group convention framework. This 
   - Donald calculates: 3 (Alice's clue) - 1 (Bob's past action) - 1 (Cathy's past action) = 1 (play slot 1)
   - Donald blind-plays slot 1.
 
-<br />
-
 ## Clue Interpretation Tables
 
 ### 3-Player
@@ -46,8 +42,6 @@ This framework is entirely separate from the H-Group convention framework. This 
 | 6 (15)  | discard 2 | 2 players away | number clue which is not 1 and doesn't hit newest card |
 | 7 (16)  | discard 3 | 2 players away | color clue not on newest card                          |
 | 8 (17)  | discard 4 | any player     | 1 clue not on newest card                              |
-
-<br />
 
 ### 4-Player
 
@@ -65,8 +59,6 @@ This framework is entirely separate from the H-Group convention framework. This 
 | 9 (21)   | 3rd right-most is critical | 3 players away | color on newest card      |
 | 10 (22)  | 2nd right-most is critical | 3 players away | number not on newest card |
 | 11 (23)  | right-most is critical     | 3 players away | color not on newest card  |
-
-<br />
 
 ### 5-Player
 
@@ -86,13 +78,9 @@ This framework is entirely separate from the H-Group convention framework. This 
 | 11 (24)  | slot 3 is critical | 3 players away | color not on newest card  |
 | 12 (25)  | slot 4 is critical | 4 players away | any clue                  |
 
-<br />
-
 ## Terminology
 
 First, let's go over some _Hat-Guessing_ terminology before getting into the actual mechanics.
-
-<br />
 
 ### Obvious Plays
 
@@ -130,8 +118,6 @@ First, let's go over some _Hat-Guessing_ terminology before getting into the act
 
 - Duplicate copies of currently-called playable cards (from a previous clue) are considered to be trash.
 
-<br />
-
 ## Instruction Priority
 
 - When giving a _Hat-Guessing_ clue, you give each other player an instruction.
@@ -161,13 +147,9 @@ First, let's go over some _Hat-Guessing_ terminology before getting into the act
   1. Critical save the right-most critical
   1. Discard the right-most trash
 
-<br />
-
 ## Instruction Rules
 
 - Now that we know the priority of the various instructions, we need to explain how to give the instructions.
-
-<br />
 
 ### Instructions to Every Player
 
@@ -260,8 +242,6 @@ First, let's go over some _Hat-Guessing_ terminology before getting into the act
   - On Donald's turn, he knows that Cathy instructed him to give a clue. And since Donald is Cathy's _First Responder_, he must immediately react to whatever Cathy told him.
   - However, this situation is the exception. Donald does not have to give a clue and can discard instead. This is because that everyone else on the team can see that Cathy must have assigned a clue instruction to Donald, because the rest of his hand is useless. Thus, Donald does not have to demonstrate anything in particular.
 
-<br />
-
 ## Interpreting Instructions
 
 - When it is your turn, you should first play any cards still in your _Play Queue_ from previous clues.
@@ -283,8 +263,6 @@ First, let's go over some _Hat-Guessing_ terminology before getting into the act
   - You can deduce what instruction was given to them by applying the _Instruction Priority_ on their hand.
   - Make sure to assign their instructions in **reverse** _Respond Order_, just like the clue giver did.
 - The remaining number is your _Instruction Value_.
-
-<br />
 
 ## Executing Instructions
 
@@ -344,13 +322,9 @@ First, let's go over some _Hat-Guessing_ terminology before getting into the act
 - In many custom variants, it is hard to guarantee that a clue will not be "blocked".
 - In these cases you will need to remove some rows from the tables.
 
-<br />
-
 ## Hat Guessing Tables with Finesses
 
 See [Jeff's document](https://github.com/iamwhoiamhahaha/hanabi/blob/master/hat-guessing/Advanced_Hat_Guessing.md) for tables that allow _Finesses_.
-
-<br />
 
 ## Variant-Specific Hat Guessing Tables
 

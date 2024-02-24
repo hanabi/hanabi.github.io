@@ -35,14 +35,10 @@ import UnnecessaryForcedReverse from "@site/image-generator/yml/extras/special-f
 
 - As a side note, you may be wondering why in the previous example Cathy does not blind-discard her blue 2 from her _Finesse Position_ instead of discarding her chop. This is because it is possible that Cathy does **not** have the blue 2 on her _Finesse Position_ and instead has some other unrelated playable card as a _Layered Finesse_. Thus, Cathy must play it safe and discard her chop.
 
-<br />
-
 ### Potential Priority Duplication & The Certain Priority Finesse (or Priority Certain Finesse)
 
 - Normally, players can perform any particular type of _Finesse_ either by giving a clue or by playing a card without _Priority_. For example, it is possible to both do a _Layered Finesse_ (by giving a clue) and a _Layered Priority Finesse_ (by playing a card).
 - One exception to this rule is the _Certain Finesse_. When a player perform a _Certain Finesse_, it calls for a _Certain Discard_. However, when a player uses _Priority_ to promise a card that could potentially be in their own hand, this should **not** induce a _Certain Discard_. The other players in this situation should just ignore the _Priority_ and instead discard their chop card. (Doing it this way is much safer because it allow potential _Layered Finesses_ as well as some slack for mistakes.)
-
-<br />
 
 ### The Certain Finesse Clandestine Exception
 
@@ -63,8 +59,6 @@ import UnnecessaryForcedReverse from "@site/image-generator/yml/extras/special-f
 <CertainFinesseException />
 
 - If someone performs a _Certain Discard_ and you have two or more clued cards that could be the target, then you are not promised the order, only that you have the card clued somewhere in your hand. (This part works in the exact same way as a more-ordinary _Sarcastic Discard_.)
-
-<br />
 
 ### The Prophetic Finesse (for 1's)
 
@@ -101,8 +95,6 @@ import UnnecessaryForcedReverse from "@site/image-generator/yml/extras/special-f
 
 <PropheticFinesse2 />
 
-<br />
-
 ### The Patch Finesse
 
 - Sometimes, a player will initiate a _Layered Finesse_ on a card that is behind a _one-away-from-playable_ card. Normally, this would be quite bad, as the player would blind-play the _one-away-from-playable_ card, and it would misplay.
@@ -128,21 +120,15 @@ import UnnecessaryForcedReverse from "@site/image-generator/yml/extras/special-f
 - In other words, if Alice performs a legal _Patch Finesse_, then **no-one else on the team has to even know that the _Patch Finesse_ convention exists** - everything will just work out properly because everyone will just blind-play cards like any other ordinary _Layered Finesse_.
   - The exception is when it comes time for the patched player to begin blind-playing. In this situation, the patched player might be "spooked" from the blind-play of the patcher, because they will not understand why the blind-play happened. In this situation, players need to have full trust and not be spooked when another person on the team successfully blind-plays a card in an unexpected way.
 
-<br />
-
 ### The Double Patch Finesse (Illegal)
 
 - Building on the _Patch Finesse_, it is theoretically possible for a _Patch Finesse_ to require **two** separate players to patch at the same time.
 - However, we expressly forbid this because it is too confusing. Players should **never** consider the possibility of a _Patch Finesse_ with two _Patch Components_.
 
-<br />
-
 ### The Patch Gentleman's Discard (Illegal)
 
 - Theoretically, it could be possible to perform a _Gentleman's Discard_ that contains a _Patch Component_.
 - However, we explicitly disallow this. _Gentleman's Discards_ **must** be for cards that are on slot 1. Otherwise, it would communicate a _Blaze Discard_.
-
-<br />
 
 ### The Pestilent Finesse
 
@@ -150,8 +136,6 @@ import UnnecessaryForcedReverse from "@site/image-generator/yml/extras/special-f
 - In the _Pestilent Double Bluff_ example, Cathy is supposed to immediately blind-play her _Finesse Position_ card in order to "heal" the situation with Bob.
 - However, if Cathy sees that someone else on the team has the blue 2 in their _Finesse Position_, then Cathy can see that it is a _Pestilent Finesse_ instead of a _Pestilent Bluff_. Cathy can simply let the person with the actual blue 2 blind-play and that will "heal" the problem in the exact same way.
 - A _Pestilent Finesse_ cannot be in reverse. (In other words, the blind-play must happen before the clued player can misplay.)
-
-<br />
 
 ### The Diseased Clandestine Finesse
 
@@ -176,8 +160,6 @@ import UnnecessaryForcedReverse from "@site/image-generator/yml/extras/special-f
 
 <DiseasedClandestineFinesse />
 
-<br />
-
 ### The Surreptitious Finesse
 
 - _Clandestine Finesses_ are when a color or rank clue "connects" to the card from a blind-play, but the clue receiver must wait for **additional** connecting playable cards to blind-play. Another way of saying this is that _Clandestine Finesses_ have a _Misplay Component_; if the blind-player does not continue to blind-play cards, then the clue receiver will go on to misplay the clued card.
@@ -198,16 +180,12 @@ import UnnecessaryForcedReverse from "@site/image-generator/yml/extras/special-f
 
 - Examples of a _Surreptitious Finesse_ can be found [here](../examples/surreptitious-finesse.mdx).
 
-<br />
-
 ### The Distribution Finesse
 
 - On the final round of the game, it is possible to give a _Play Clue_ to a player that would be useless - they will not get a chance to play the card before the game ends.
 - If a player does this anyway, then it must be communicating something extra. In this situation, it is to be interpreted as a _Finesse_ instead of a _Play Clue_ for the purposes of better satisfying _Team Distribution Principle_.
 - Examples:
   - [Game #16887, turn 29](https://hanab.live/replay/16887#29) if Instantiation clues 5 on the red 5
-
-<br />
 
 ### Inverted Priority Finesse
 
@@ -229,8 +207,6 @@ import UnnecessaryForcedReverse from "@site/image-generator/yml/extras/special-f
 
 - Note that _Inverted Priority Finesse_ **will only work if the players are in a certain order**. Otherwise, the player holding the declined priority card can _Play Clue_ the other card, which would destroy the information channel. This means that in most of cases, players should just go with the safer and less complicated option - the normal _Priority Finesse_.
 
-<br />
-
 ### Finesses with a Lie Component
 
 - _[Lie Principle](../level-11.mdx#lie-principle)_ states all that _Fibs_ must resolve immediately. An untruth that does not resolve immediately is a _Lie_.
@@ -241,8 +217,6 @@ import UnnecessaryForcedReverse from "@site/image-generator/yml/extras/special-f
 - This concept can be generalized to all _Finesses_ that have a _Lie Component_. After a player receives a _Fix Clue_ in such a situation, they should assume that the _Finesse_ is "still on". So, depending on the situation, they should either know that the initial card that was clued is playable (like in an _Out-of-Order Finesse_) or continue to blind-play cards to fulfill the initial _Finesse_ (if the card clued with a _Fix Clue_ seems to be unrelated).
 - Note that since we want to minimize _Lying_ as much as possible, _Finesses with a Lie Component_ have the **lowest possible precedence**. For example, this means that you can give a _Delayed Play Clue_ to a player who is still blind-playing cards without it looking like a _Fix Clue_.
 - Importantly, _Finesses_ with a _Lie Component_ are **only** allowed if there is not an alternative line that would "get" the same number of cards without any lies. Thus, if you are looking to do a _Finesse_ with a _Lie Component_, make sure you carefully consider the efficiency of all of the possible alternatives.
-
-<br />
 
 ### The Shadow Finesse
 
@@ -272,8 +246,6 @@ import UnnecessaryForcedReverse from "@site/image-generator/yml/extras/special-f
   - If the _shadow_ is on the _Third Finesse Position_, then the move might be misinterpreted as an _Unknown Trash Discharge_.
 - The _shadow_ **must** come before the _shadow target_. In other words, it is **illegal** for Bob to hold the _shadow target_, since he cannot see that a _Shadow Finesse_ is occurring (and therefore might try to get the _shadow_).
 
-<br />
-
 ### The Reverse Shadow Finesse
 
 - _Shadow Finesses_ can also be performed in reverse.
@@ -293,8 +265,6 @@ import UnnecessaryForcedReverse from "@site/image-generator/yml/extras/special-f
   - Donald blind-plays the _shadow target_ from his _Third Finesse Position_.
 
 <ReverseShadowFinesse />
-
-<br />
 
 ### The Unnecessary Forced Reverse Trash Finesse (A Gentleman's Discard That Looks Like an Unnecessary Reverse Trash Finesse)
 
@@ -316,5 +286,3 @@ import UnnecessaryForcedReverse from "@site/image-generator/yml/extras/special-f
   - Since it was unnecessary, Bob chop moves all the cards to the right of where the red 2 was (slot 2, slot 3, slot 4, and slot 5).
 
 <UnnecessaryForcedReverse />
-
-<br />

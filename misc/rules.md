@@ -2,8 +2,6 @@
 
 [Hanabi](https://boardgamegeek.com/boardgame/98778/hanabi) is a card game by [Antoine Bauza](https://boardgamegeek.com/boardgamedesigner/9714/antoine-bauza). These rules are copied directly from the official leaflet of the American Hanabi Deluxe printing of the game. Most grammatical errors and inconsistencies are unchanged.
 
-<br />
-
 ## Deluxe Hanabi
 
 - Antoine Bauza

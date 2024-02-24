@@ -1,15 +1,13 @@
-## Efficiency Tables
+# Efficiency Tables
 
-### Pace
+## Pace
 
 - Pace is a measure of how many discards the team can do before a perfect score becomes impossible.
 - The formula for pace is:
   - `total cards in the deck - ((number of cards in a player's hand - 1) * number of players) - (5 * number of suits)`
   - If a game contains the Contrarian detrimental character, `(number of players - 2)` is subtracted from the pace.
 
-<br />
-
-### Starting Pace
+## Starting Pace
 
 | Variant Type           | 2-player | 3/4-player | 5-player | 6-player |
 | ---------------------- | -------- | ---------- | -------- | -------- |
@@ -29,18 +27,14 @@
 | 3 Suits                | 7        | 3          | 0        | 3        |
 | 3 Suits (Clue Starved) | 7        | 3          | 0        | 3        |
 
-<br />
-
-### Efficiency
+## Efficiency
 
 - Efficiency is a measure of how much value the team is getting with the amount of clues that they have spent thus far.
 - The formula for efficiency is:
   - `(number of cards played + number of cards with 1+ clues "on" them) / number of clues given or lost`
   - (This formula assumes the use of _Good Touch Principle_.)
 
-<br />
-
-### Minimum Efficiency Needed for a Perfect Score
+## Minimum Efficiency Needed for a Perfect Score
 
 | Variant Type                           | 2-player | 3/4-player | 5-player | 6-player |
 | -------------------------------------- | -------- | ---------- | -------- | -------- |

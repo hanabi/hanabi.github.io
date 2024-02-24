@@ -4,8 +4,6 @@ Please visit the **[conventions website](https://hanabi.github.io/)**.
 
 This is the GitHub repository for the website. It is built with [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
-<br />
-
 ## What is a Pull Request?
 
 If you're in the H-Group, then you might want to help edit the website. Maybe you want to fix some typos. Or maybe you want to add a new example. Or maybe you proposed a new convention, and it got voted in, and now you need to add a new section. Regardless of what you are doing, you will need to a submit a _pull request_.
@@ -13,8 +11,6 @@ If you're in the H-Group, then you might want to help edit the website. Maybe yo
 In plain English, a pull request (or a PR for short) is simply a request to merge the changes that you want into the master copy of the website. Essentially, you need to make a copy of the website (called a _fork_), make some changes (called a _commit_), and then click a button on the website to create a new PR. At that point, I'll be notified that there is a new PR and I can look over the specific changes. Then, I can click "Approve" or "Deny" accordingly. If I click "Approve", then the changes are integrated and the website is automatically updated!
 
 Pull requests are how people collaborate together to work on code (and documents) on GitHub.
-
-<br />
 
 ## How to Submit a Pull Request (Simple)
 
@@ -33,11 +29,9 @@ The steps to create a new pull request are as follows:
 1. Click the green button that says "Create pull request".
 1. All done!
 
-<br />
-
 ## How to Submit a Pull Request (Complicated)
 
-Editing files on the GitHub website is a pain. If you are adding a significant amount of changes, I recommend that you set up a local development environment to work on the website. That way, you can use a browser to see how your edits look in a local copy of the website that runs on your own computer.
+Editing files on the GitHub website is a pain. If you are adding a significant amount of changes, we recommend that you set up a local development environment to work on the website. That way, you can use a browser to see how your edits look in a local copy of the website that runs on your own computer.
 
 ### Part 1 - Initial Preparation
 
@@ -60,7 +54,7 @@ Editing files on the GitHub website is a pain. If you are adding a significant a
   - By default, the new shell will start in your home directory. (e.g. `C:\Users\[YourUsername]\`)
 - [Optional] In the terminal, change to the directory where you want the source code of the website to live. For example, if you want it to live in your "Documents" folder, then type: `cd Documents`
 - Clone the forked copy of the website with the following command:
-  - `git clone https://github.com/[YourGitHubUsername]/hanabi.github.io.git` <br />
+  - `git clone https://github.com/[YourGitHubUsername]/hanabi.github.io.git` <br>
     (replace "[YourGitHubUsername]" with your GitHub username)
 - Go into the cloned directory:
   - `cd hanabi.github.io`
