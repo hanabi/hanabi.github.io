@@ -20,6 +20,7 @@ function HomepageHeader() {
             href="https://boardgamegeek.com/boardgame/98778/hanabi"
             target="_blank"
             rel="noopener noreferrer"
+            className="ifm-color-primary-dark"
           >
             Hanabi
           </a>

@@ -1,4 +1,3 @@
-/* stylelint-disable docusaurus/copyright-header */
 /**
  * Any CSS included here will be global. The classic template
  * bundles Infima by default. Infima is a CSS framework designed to
@@ -6,66 +5,74 @@
  */
 
 /* You can override the default Infima variables here. */
+/* (changed from vanilla to be orange) */
+/* (calculated with: https://docusaurus.io/docs/styling-layout) */
 :root {
-  --ifm-color-primary: rgb(208, 116, 100);
-  --ifm-color-primary-dark: rgb(33, 175, 144);
-  --ifm-color-primary-darker: rgb(31, 165, 136);
-  --ifm-color-primary-darkest: rgb(26, 136, 112);
-  --ifm-color-primary-light: rgb(70, 203, 174);
-  --ifm-color-primary-lighter: rgb(102, 212, 189);
-  --ifm-color-primary-lightest: rgb(146, 224, 208);
+  --ifm-color-primary: #d07464;
+  --ifm-color-primary-dark: #c95f4c;
+  --ifm-color-primary-darker: #c55441;
+  --ifm-color-primary-darkest: #a54332;
+  --ifm-color-primary-light: #d7897c;
+  --ifm-color-primary-lighter: #db9487;
+  --ifm-color-primary-lightest: #e5b4ab;
   --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
-.docusaurus-highlight-code-line {
-  background-color: rgb(72, 77, 91);
-  display: block;
-  margin: 0 calc(-1 * var(--ifm-pre-padding));
-  padding: 0 var(--ifm-pre-padding);
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+/* (we use an identical color since it seems to look fine in both light and dark mode) */
+[data-theme="dark"] {
+  --ifm-color-primary: #d07464;
+  --ifm-color-primary-dark: #c95f4c;
+  --ifm-color-primary-darker: #c55441;
+  --ifm-color-primary-darkest: #a54332;
+  --ifm-color-primary-light: #d7897c;
+  --ifm-color-primary-lighter: #db9487;
+  --ifm-color-primary-lightest: #e5b4ab;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
+/* ------------------------------------- */
+/* Other changes from vanilla below here */
+/* ------------------------------------- */
+
+/* The link on the landing page */
 .hero__subtitle a {
   color: green;
 }
 
+/* The 3 circle icons on the landing page */
 .accent1 {
   color: #c4a0bc;
 }
-
 .accent2 {
   color: #e5cb95;
 }
-
 .accent3 {
   color: #7fcdb8;
-}
-
-.ss {
-  padding-bottom: 1em;
 }
 
 /* Follow dark/light mode in text in examples */
 svg.example text.site-theme-text {
   fill: var(--ifm-font-color-base);
 }
-
 .example {
   width: 100%;
   height: auto;
   padding-bottom: 1em;
 }
-
 .flowchart {
   height: 55em;
   padding-bottom: 1em;
 }
 
+/* CSS for the Beginner's Guide progress bar */
 @media only screen and (max-width: 999px) {
   #percent {
     display: none !important;
   }
 }
-
 #percent {
   position: fixed;
   right: 10em;
