@@ -1,13 +1,13 @@
-suits:
-  k: black
 stacks:
   - r: 0
   - y: 0
   - g: 0
   - b: 0
-  - k: 0
+  - p: 0
 big_text:
   text: Bluff
+discarded:
+  - r4
 players:
   - clue_giver: true
     cards:
@@ -25,9 +25,9 @@ players:
       - type: x
   - cards:
       - type: x
-      - type: k
-        clue: black
-        above: Black 4
+      - type: r
+        clue: r
+        middle_note: (4)
       - type: x
       - type: x
       - type: x
@@ -35,13 +35,13 @@ players:
   - name: Cathy
     cards:
       - type: x
-      - type: k
+      - type: r
         below:
           text:
-            - Black 2
-            - Black 3
-            - Black 4
-          color: black
+            - Red 2
+            - Red 3
+            - Red 4
+          color: red
       - type: x
       - type: x
       - type: x
