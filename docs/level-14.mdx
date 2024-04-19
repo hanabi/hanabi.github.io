@@ -20,6 +20,17 @@ import TrashPush from "@site/image-generator/yml/level-14/trash-push.yml";
 - This means that the next player should _Chop Move_ (in a manner similar to a _Order Chop Move_).
 - Note that a player is not necessarily trying to perform a _Trash Order Chop Move_ if the two trash cards have different kinds of clues on them. For example, by discarding specific trash cards, it can communicate that the player "sees" all of the non-trash possibilities of that card.
 
+### The Shout Discard Order Chop Move
+
+- First, see the sections on the _[Shout Discard Chop Move](#the-shout-discard-chop-move)_ and the _[Trash Order Chop Move](level-14.mdx#the-trash-order-chop-move-tocm)_.
+- If a player has a known-playable card and multiple known-trash cards, then discarding a trash card other than the expected trash card causes a skip in exactly the same way as a _Trash Order Chop Move_.
+  - As discussed in previous levels, the discard order for trash from left to right. The exception is with trash that comes from an _Unknown Trash Discharge_ or _Unknown Dupe Discharge_. In that case, the focus is discarded first.
+- For example, in a 3-player game:
+  - Alice has a known playable card on slot 1, a known trash card on slot 2, and a known trash card on slot 3.
+  - If Alice plays her known playable card from slot 1, nothing special happens.
+  - If Alice discards her known trash card from slot 2, it would trigger a _Shout Discard Chop Move_ on Bob.
+  - If Alice discards her known trash card from slot 3, it would trigger a _Shout Discard Order Chop Move_ on Cathy.
+
 ### The Trash Bluff
 
 - Normally, when a trash card is clued, it signifies a _Trash Chop Move_ or a _Trash Push_. However, for both of these strategies to work, it is assumed that the recipient of the clue will know that the card that was touched is useless.
