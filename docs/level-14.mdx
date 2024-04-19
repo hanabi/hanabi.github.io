@@ -23,18 +23,19 @@ import TrashPush from "@site/image-generator/yml/level-14/trash-push.yml";
 ### The Trash Bluff
 
 - Normally, when a trash card is clued, it signifies a _Trash Chop Move_ or a _Trash Push_. However, for both of these strategies to work, it is assumed that the recipient of the clue will know that the card that was touched is useless.
-- What if the recipient of the clue does **not** know that the card that the clued card is trash? Then, they will go on to misplay that card, mistaking it for a "normal" _Play Clue_.
-- If players misrepresent the identity of a trash card in this way, it is a signal for the next person to blind-play their _Finesse Position_ card. This is extremely similar to how a _Finesse_ or a _Bluff_ works (e.g. a clued card has been misrepresented as being immediately playable).
-- _Trash Bluffs_ are a good tool to get a card played that is sitting behind other annoying cards.
-- Just like _Trash Chop Move_ the player clued trash will cm all cards to the right of the trash card.
+- What if the recipient of the clue does **not** know that the card that the clued card is trash? Then, they would go on to misplay that card, mistaking it for a "normal" _Play Clue_.
+- If players misrepresent the identity of a trash card in this way, it is a signal for the next person to blind-play their _Finesse Position_ card. This is similar to how a _Finesse_ or a _Bluff_ works (in that the clued card has been misrepresented as being immediately playable).
+- Additionally, after a _Trash Bluff_, the player is clued should _Chop Move_ all of the cards to the right of the trash card (similar to how a _Trash Chop Move_ works).
 - For example, in a 3-player game:
   - All of the 1's are played on the stacks **except** for the red 1.
   - Cathy has no clued cards in her hand.
   - Alice clues Cathy number 1, which only touches her newest (slot 1) card. This card is a blue 1, but Cathy will assume that it is a red 1.
   - Bob blind-plays his _Finesse Position_ card, and it is a playable blue 2.
   - Cathy now knows that her 1 must not be red 1, or else Bob would not have blind-played anything. The 1 must be some other trash card.
+  - Additionally, Cathy knows that her slot 3, slot 4, and slot 5 cards are also permanently _Chop Moved_.
 
 <TrashBluff />
+
 
 - Just like normal _Bluffs_, _Trash Bluffs_ can only be done while in _Bluff Seat_.
 - Normal _Bluffs_ take precedence over _Trash Bluffs_. This means that players can **only** use cards to _Trash Bluff_ with if they will be proved to be trash by a blind-play.
@@ -42,6 +43,7 @@ import TrashPush from "@site/image-generator/yml/level-14/trash-push.yml";
   - For example, if the red stack is played up to the red 3, then you **cannot** use a red clue to initiate a _Trash Bluff_, because a blind-play will make the clued card look like the red 5.
   - For example, if the red stack is played up to the red 4, then you can use a red clue to initiate a _Trash Bluff_, because a blind-play will prove that the clued card is not a red 5.
 - In the case where multiple cards are clued as part of a _Trash Bluff_, **all** of the touched cards are considered to be trash.
+- _Trash Bluffs_ are a good tool to get a card played that is sitting behind other annoying cards.
 - For level 25 players, there are [additional rules](level-25.mdx#trash-finesses-and-trash-bluffs-are-always-unnecessary) relating to _Trash Bluffs_.
 
 ### The Trash Finesse
