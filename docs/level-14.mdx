@@ -32,7 +32,7 @@ import TrashPush from "@site/image-generator/yml/level-14/trash-push.yml";
   - Alice clues Cathy number 1, which only touches her newest (slot 1) card. This card is a blue 1, but Cathy will assume that it is a red 1.
   - Bob blind-plays his _Finesse Position_ card, and it is a playable blue 2.
   - Cathy now knows that her 1 must not be red 1, or else Bob would not have blind-played anything. The 1 must be some other trash card.
-  - Additionally, Cathy knows that her slot 3, slot 4, and slot 5 cards are also permanently _Chop Moved_.
+  - Additionally, Cathy marks her slot 3, slot 4, and slot 5 cards as being _Chop Moved_.
 
 <TrashBluff />
 
@@ -51,7 +51,7 @@ import TrashPush from "@site/image-generator/yml/level-14/trash-push.yml";
 - In the _Trash Bluff_ example above, a number 1 clue on a blue 1 is used to _Trash Bluff_ a blue 2. Similar to a _Bluff_, we would say this number 1 clue does not connect to the blind-play of a blue 2.
 - What if a _Trash Bluff_ using a number 1 clue instead got a red 1 to blind-play? In this context, the red 1 would actually "connect" to the number 1 clue. Another way of saying this is that by cluing a trash 1 with a number 1 clue, the clue giver is saying that they **see** a matching 1 that is good.
 - Thus, it is possible to perform a _Trash Bluff_ outside of _Bluff Seat_ if the "connecting" card is on someone's _Finesse Position_. When this is done, it promises that someone has that specific card, so we call it a _Trash Finesse_ rather than a _Trash Bluff_.
-- Just like _Trash Chop Move_ the player clued trash will cm all cards to the right of the trash card.
+- Similar to a _Trash Bluff_, a _Trash Finesse_ will also _Chop Move_ all of the cards to the right of the trash card (similar to how a _Trash Chop Move_ works).
 - For example, in a 4-player game:
   - All the 1's are played on the stacks except for red 1.
   - Alice clues number 1 to Donald, which touches a blue 1. To Donald, this will look like it is a red 1.
@@ -59,7 +59,7 @@ import TrashPush from "@site/image-generator/yml/level-14/trash-push.yml";
   - However, Bob also sees that Cathy has a red 1 on her _Finesse Position_. Thus, Alice's clue was a _Trash Finesse_ instead of a _Trash Bluff_, since it promises a playable 1.
   - Thus, Bob discards.
   - Cathy blind-plays her _Finesse Position_ card and it is red 1.
-  - Donald discards his known-trash 1.
+  - Donald discards his known-trash 1. He also marks his slot 3 and slot 4 cards as being _Chop Moved_.
 
 <TrashFinesse />
 
