@@ -37,11 +37,11 @@ players:
         trash: true
       - type: x
         above:
-            text:
-              - Chop
-              - Moved
+          text:
+            - Chop
+            - Moved
       - type: x
         above:
-            text:
-              - Chop
-              - Moved
+          text:
+            - Chop
+            - Moved
