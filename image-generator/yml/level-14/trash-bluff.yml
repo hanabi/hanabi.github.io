@@ -34,5 +34,17 @@ players:
       - type: 1
         trash: true
       - type: x
+        above:
+          text:
+            - Chop
+            - Moved
       - type: x
+        above:
+          text:
+            - Chop
+            - Moved
       - type: x
+        above:
+          text:
+            - Chop
+            - Moved
