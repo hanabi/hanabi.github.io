@@ -41,7 +41,16 @@ import TrustFinesse from "@site/image-generator/yml/level-20/trust-finesse.yml";
   - Alice plays blue 2.
   - Bob comes next. Bob knows that normally Alice had a choice and therefore were supposed to play the lowest rank card - red 1 (unless it is a blind-play, or it leads into someone's hand, or it is a 5). Alice **did not** play the card with _Priority_.
   - Bob doesn't see blue 3 in Cathy's hand. This must have been a _Priority Prompt_. Bob plays the leftmost clued 3, and it's blue 3.
-
+- For Priority 6 - Unknown Card - It is important to understand that playing an Unknown Card does not trigger priority inherently by being unknown. In order for priority to trigger, one must consider all possible options for the unknown card and all possible options must have priority **over** the known card that was played.
+- For example, in a 3-player game:
+  - Alice has a clued + known playable red 2 in slot 2 and a clued playable unknown blue 2 in slot 3. Red 1, Blue 1, and Yellow 1 are all played on the stacks.
+  - No other player has any 3s in hand.
+  - Alice plays the known red 2.
+  - Bob comes next. Bob knows that the priority chart states Unknown Cards have priority over Left-most card. However, Bob also knows that the Unknown card options must all have priority over the known card for priority to take effect. Bob can see that blue 2 and yellow 2 do not have priority over red 2. Therefore, because all options for the unknown card **do not** have priority over red 2, Bob does nothing and this is not a priority finesse.
+- A second example for Priority 6 that *does* cause a priority finesse, in a 3-player Rainbow game:
+  - Alice has a clued + known playable red 2 in slot 2 and a clued blue card in slot 3. 
+  - Alice plays red 2.
+  - Bob comes next. Bob knows that the priority chart states Unknown Cards have priority over Left-most card. Bob considers the options for the blue card in Alice's hand as blue 1 or rainbow 1. Because both of those possibilities would have priority over a red 2, Bob plays his finesse position as a *priority finesse* and successfully played red 3.
 <PriorityPrompt />
 
 - Similar to a normal _Prompt_, if a _Priority Prompt_ could apply to two or more clued cards, then you should play the left-most one.
