@@ -1,8 +1,8 @@
 stacks:
-  - r: 0
+  - r: 2
   - y: 0
   - g: 0
-  - b: 1
+  - b: 2
   - p: 0
 players:
   - cards:
