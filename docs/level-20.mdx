@@ -41,16 +41,6 @@ import TrustFinesse from "@site/image-generator/yml/level-20/trust-finesse.yml";
   - Alice plays blue 2.
   - Bob comes next. Bob knows that normally Alice had a choice and therefore were supposed to play the lowest rank card - red 1 (unless it is a blind-play, or it leads into someone's hand, or it is a 5). Alice **did not** play the card with _Priority_.
   - Bob doesn't see blue 3 in Cathy's hand. This must have been a _Priority Prompt_. Bob plays the leftmost clued 3, and it's blue 3.
-- For Priority 6 - Unknown Card - It is important to understand that playing an Unknown Card does not trigger priority inherently by being unknown. In order for priority to trigger, one must consider all possible options for the unknown card and all possible options must have priority **over** the known card that was played.
-- For example, in a 3-player game:
-  - Alice has a clued + known playable red 2 in slot 2 and a clued playable unknown blue 2 in slot 3. Red 1, Blue 1, and Yellow 1 are all played on the stacks.
-  - No other player has any 3s in hand.
-  - Alice plays the known red 2.
-  - Bob comes next. Bob knows that the priority chart states Unknown Cards have priority over Left-most card. However, Bob also knows that the Unknown card options must all have priority over the known card for priority to take effect. Bob can see that blue 2 and yellow 2 do not have priority over red 2. Therefore, because all options for the unknown card **do not** have priority over red 2, Bob does nothing and this is not a priority finesse.
-- A second example for Priority 6 that _does_ cause a priority finesse, in a 3-player Rainbow game:
-  - Alice has a clued + known playable red 2 in slot 2 and a clued blue card in slot 3.
-  - Alice plays red 2.
-  - Bob comes next. Bob knows that the priority chart states Unknown Cards have priority over Left-most card. Bob considers the options for the blue card in Alice's hand as blue 1 or rainbow 1. Because both of those possibilities would have priority over a red 2, Bob plays his finesse position as a _priority finesse_ and successfully played red 3.
 
 <PriorityPrompt />
 
@@ -65,6 +55,28 @@ import TrustFinesse from "@site/image-generator/yml/level-20/trust-finesse.yml";
   - Cathy blind-plays her _Finesse Position_ card. It is a blue 3.
 
 <PriorityFinesse />
+
+### Priority with Unknown Cards (Clarification)
+
+- In the above priority table, "unknown card" is listed below most things. However, it is important to understand that playing an unknown card does not trigger a _Priority Prompt_ / _Priority Finesse_ inherently by being unknown. In order for those moves to trigger, **all possible cards** in the unknown superposition must have priority over the card that was not played.
+- For example, in a 3-player game:
+  - Red 1, blue 1, and yellow 1 are played on the stacks.  
+  - Alice is going to play a card on her turn. She has the choice between two playable cards:
+    - A red 2 in slot 2. It is globally-known as a red 2.
+    - A blue 2 in slot 3. From Alice's perspective, it is in a superposition of `blue 2, yellow 2`.
+  - Alice plays the red 2.
+  - Bob needs to determine if the red 2 had _Priority_ so that he can react accordingly.
+  - Bob knows that the priority chart states unknown cards have priority over the left-most card. However, Bob also knows that the unknown card superpositions must all have priority over the known card for priority to take effect.
+  - Bob can see that blue 2 and yellow 2 do not have priority over red 2. Therefore, because all options for the unknown card **do not** have priority over red 2, Bob knows that the red 2 has _Priority_, and he does not need to react.
+- For example, in a 3-player rainbow game:
+  - Red 1 is played on the stacks.  
+  - Alice is going to play a card on her turn. She has the choice between two playable cards:
+    - A red 2 in slot 2. It is globally-known as a red 2.
+    - A blue 1 in slot 3. From Alice's perspective, it is in a superposition of `blue 1, rainbow 1`.
+  - Alice plays the red 2.
+  - Bob needs to determine if the red 2 had _Priority_ so that he can react accordingly.
+  - Bob knows that the priority chart states unknown cards have priority over left-most card. However, Bob also knows that the unknown card superpositions must all have priority over the known card for priority to take effect.
+  - Bob can see that both blue 1 and rainbow 1 have _Priority_ over red 2. Thus, Bob plays his _Finesse Position_ as a _Priority Finesse_, and successfully plays red 3.
 
 ### The Priority Bluff
 
