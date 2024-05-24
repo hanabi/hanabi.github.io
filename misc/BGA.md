@@ -124,7 +124,7 @@ If you're reading this far, you'll want to know some of the basic differences be
 ### Clue Focus on Retouched Cards - Changed
 
 - When multiple cards are "touched" by a clue, it typically only means to play one card. We call that card the _focus_ of the clue.
-- On BGA, the focus can either be on the "new" card, or a card that is "filled in". Typically, if a filled in card looks like it is playable, then that is the focus. For example, in a Rainbow game:
+- On BGA, the focus can either be on the "new" card, or a card that is "filled in". Typically, if a filled in card looks like it is playable, then that is the focus. For example, in a rainbow game:
   - Red 1 is played on the stacks.
   - Alice has a card in her hand clued with number 2.
   - Bob clues Alice red, filling in the 2 with red and also touching a new card on her newest slot.
