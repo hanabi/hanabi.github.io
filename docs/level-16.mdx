@@ -10,7 +10,6 @@ import UnknownTrashDischarge from "@site/image-generator/yml/level-16/unknown-tr
 import UnknownTrashDischargeTwoForOne from "@site/image-generator/yml/level-16/unknown-trash-discharge-two-for-one.yml";
 import UnknownTrashDischargeTwoForOne2 from "@site/image-generator/yml/level-16/unknown-trash-discharge-two-for-one-2.yml";
 import UnknownDupeDischarge from "@site/image-generator/yml/level-16/unknown-dupe-discharge.yml";
-import UnknownDupeDischarge2 from "@site/image-generator/yml/level-16/unknown-dupe-discharge-2.yml";
 
 ## Conventions
 
@@ -149,15 +148,3 @@ import UnknownDupeDischarge2 from "@site/image-generator/yml/level-16/unknown-du
   - However, in the case where only two new cards are touched, then the player who received the clue knows that both of these cards must be the same. In this special case, they can discard the non-focused card to cause a _Trash Order Chop Move_.
   - Note that if the _Unknown Dupe Discharge_ was initiated by a chop-focus clue, this means that the expected discard order is thus different from the usual 'left to right' order, since in that case, the focus of the clue will be rightmost.
   - Players are also expected to discard focus-first even in the case where it is globally known that the clued cards are duplicated cards. This is because in general, it can be hard to tell if the clue receiver knows that an _Unknown Dupe Discharge_ has occurred, because it could have been an _Unknown Trash Discharge_, in which case only the focus is discardable. Discarding focus-first in all cases avoids desync on whether the clue receiver knows they hold dupes or simply trash.
-- In order for players to determine whether or not a _Finesse_ is happening, they should use the same _two-or-more-blind-plays_ rule that applies to _5 Color Ejections_.
-- For example, in a 3-player game (similar to the previous example):
-  - It is the first turn of the game and nothing is played on the stacks.
-  - Alice clues number 5 to Bob as a _5 Save_.
-  - Bob clues number 5 to Alice as a _5 Save_.
-  - Bob's hand is as follows: `red 3, red 3, red 4, blue 4, blue [5]`
-  - Cathy clues red to Bob, touching the red 3 on slot 1, the red 3 on slot 2, and the red 4 on slot 3.
-  - Alice knows that Cathy is violating _Good Touch Principle_ and duplicating the red 3. One excellent reason to do this would be to get a _Double Finesse_ on red 1 + red 2 into the red 3.
-  - However, Alice also knows that she is supposed to use the _two-or-more-blind-plays_ rule in this situation. Since Alice would have to blind-play two cards into the _Finesse_, a _Finesse_ is unlikely. Thus, this must be an _Unknown Dupe Discharge_.
-  - Alice blind-plays her _Third Finesse Position_. It is a blue 1 and it successfully plays on the stacks.
-
-<UnknownDupeDischarge2 />
