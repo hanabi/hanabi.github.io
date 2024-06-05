@@ -48,8 +48,6 @@ import DiscardModulation from "@site/image-generator/yml/level-6/discard-modulat
   - Bob plays red 1 from slot 1. The red card in slot 2 could be red 2, red 3, red 4, or red 5.
   - Cathy clues number 2 to Bob, which does not introduce any new cards, but it does "fill in" his slot 2 card.
   - Bob now knows that he has exactly red 2 on slot 2 and that this was a _Tempo Clue_. Since it does not get any new cards and only get _Tempo_ on one card in total, he knows that he should also _Chop Move_ his slot 5 card.
-- Valuable _Tempo Clues_ can never cause a _Tempo Clue Chop Move_.
-- When determining if a _Tempo Clue_ is "valuable", it should only be evaluated on the turn immediately after the clue is given. (This helps keeps things simple and prevents desynchronization.)
 
 <TempoClueChopMovePart1 />
 
@@ -57,6 +55,8 @@ import DiscardModulation from "@site/image-generator/yml/level-6/discard-modulat
 
 <TempoClueChopMovePart2 />
 
+- Valuable _Tempo Clues_ can never cause a _Tempo Clue Chop Move_.
+- When determining if a _Tempo Clue_ is "valuable", it should only be evaluated on the turn immediately after the clue is given. (This helps keeps things simple and prevents desynchronization.)
 - Normally, when two cards are retouched with a clue, it is a _Double Tempo Clue_ and the player should play both cards. However, this interpretation does not apply if the second card is strictly not playable. In this situation, all players can see that since only one card is getting _Tempo_, the interpretation of the clue should be a _Tempo Clue Chop Move_.
 - For example, in a 3-player game:
   - Red 1 is played on the stacks.
