@@ -529,3 +529,13 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
     - It will not look like a _Unknown Dupe Discharge_, since only a single 1 was clued.
   - Therefore, as soon Bob blind-plays, both Cathy and Donald can understand that it is a _Prophetic Finesse_.
   - Just like in the previous example, Cathy blind-plays the blue 1, and Donald marks his 1 as trash and _Chop Moves_ his slot 4 card.
+
+### The Prophetic Discharge
+
+- _Prophetic Finesses_ can only be given with a number 1 clue.
+- If a player tries to use a color clue to initiate a _Prophetic Finesse_, they instead intend for the next player to blind-play their _Third Finesse Position_ (like an _Unknown Trash Discharge_).
+- Other than that, everything else works like a _Prophetic Finesse_ (e.g. one of the in-between players is promised to have the matching card on their _Finesse Position_).
+- Unlike the _Prophetic Finesse_, the clued player should **only** treat this as _unnecessary_ move if the _Discharged_ card could have been cleanly clued.
+- _Prophetic Discharges_ can only be triggered by touching **exactly one 1**.
+- _Prophetic Discharges_ can only be triggered by using a color clue.
+- _Prophetic Discharges_ can be _Layered_. (See the _Prophetic Finesse_ section for an example of this.)
