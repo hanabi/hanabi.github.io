@@ -499,3 +499,33 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
   - Similar to Bob, Cathy also knows that this is a _Shadow Finesse_. Cathy blind-plays her _Third Finesse Position_. It is blue 1 and it successfully plays.
   - Donald is very surprised to see Cathy blind-play her _Third Finesse Position_. The only thing that could cause this is a _Shadow Finesse_.
   - Donald blind-plays the _shadow target_ from his _Third Finesse Position_.
+
+### The Prophetic Finesse (for 1's)
+
+- In most games, players will avoid giving a number 1 clue to a single playable 1 that is not on _Finesse Position_ if a different player has the same 1 on _Finesse Position_. This is because it is usually better to _Finesse_ it or to let someone else _Finesse_ it.
+- If a player does this anyway, and doing so was clearly bad, they must be communicating something extra.
+- In this situation, the next player should treat the clue as if were a _Trash Finesse_.
+- This is different from a _Trash Finesse_ because a second blind-play is needed to prove that the card is not actually trash. The in-between player is promised to have the matching 1 on _Finesse Position_. The in-between blind-play is called a _Prophetic Blind-Play_ to distinguish it from a normal blind-play.
+- Furthermore, once the _Prophetic Finesse_ has resolved, the clued player should **always** treat this as an _unnecessary_ move (e.g. as an _Unnecessary Trash Chop Move_ or an _Unnecessary Trash Push_).
+- For example, in a 4-player game:
+  - Red 1 is played on the stacks.
+  - Alice clues number 1 to Donald, touching a single blue 1 on slot 3.
+  - Bob sees that Cathy has a blue 1 on her _Finesse Position_. Thus, Alice's clue is strange - she should have probably clued Cathy's blue 1, or allowed someone to _Finesse_ Cathy's blue 1.
+  - Bob knows that Alice must be intending for a _Prophetic Finesse_. Bob blind-plays his _Finesse Position_. It is a green 1 and it successfully plays.
+  - Cathy sees that from Donald's perspective, a _Trash Finesse_ has just occurred. Donald will mark the blue 1 (playable) as a red 1 (trash), and will discard it. This is bad, so Cathy knows that something else is expected of her.
+  - Cathy knows that this a _Prophetic Finesse_ and that she is promised to have a blue 1 on her _Finesse Position_. Cathy blind-plays her _Finesse Position_ (as a _Prophetic Blind-Play_). It is a blue 1 and it successfully plays.
+  - Donald knows that since a number 1 clue touched a single 1 and caused two blind-plays, this must be a _Prophetic Finesse_. Donald marks his touched 1 as trash. He also _Chop Moves_ his slot 4 card because of the _unnecessary_ part of the move.
+- _Prophetic Finesses_ can only be triggered by touching **exactly one 1**.
+- _Prophetic Finesses_ can only be triggered by using a number 1 clue. (Color clues cause a _[Prophetic Discharge](discharges.mdx#the-prophetic-discharge)_.)
+- _Prophetic Finesses_ can not be given in reverse.
+- _Prophetic Finesses_ can be _Layered_. In other words, in the previous example, if Cathy plays her _Finesse Position_ and it is yellow 1, she will be surprised. However, Cathy will know that she is promised to have the blue 1, so she will go on to play the blue 1 from her _Second Finesse Position_ on the next turn.
+- _Prophetic Finesses_ can also be given in situations that cannot be mistaken for _Trash Finesses_.
+- For example, in a 4-player game:
+  - It is the first turn of the game and nothing is played on the stacks.
+  - Alice clues number 1 to Donald, touching a single blue 1 on slot 3.
+  - Just like in the previous example, Bob sees that this is a _Prophetic Finesse_ (because Cathy has a blue 1 on her _Finesse Position_). Bob blind-plays his _Finesse Position_. It is a green 1 and it successfully plays.
+  - Cathy sees that from Donald's perspective:
+    - It will not look like a _Trash Finesse_, because no 1's were played at the time of the clue.
+    - It will not look like a _Unknown Dupe Discharge_, since only a single 1 was clued.
+  - Therefore, as soon Bob blind-plays, both Cathy and Donald can understand that it is a _Prophetic Finesse_.
+  - Just like in the previous example, Cathy blind-plays the blue 1, and Donald marks his 1 as trash and _Chop Moves_ his slot 4 card.
