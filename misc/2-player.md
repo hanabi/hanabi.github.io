@@ -30,7 +30,7 @@
   - Alice clues number 5 to Bob as a _One-Away Save_.
   - Bob knows that normally, 5's are saved on chop. This 5 clue could be a _One-Away Save_. He might have another critical card on slot 3, but he does not know for sure quite yet.
   - Bob discards his chop, slot 5 (the green 1).
-  - Alice clues number 4 to Bob as a normal _Save Clue_.
+  - Alice clues blue to Bob as a normal _Save Clue_.
   - Bob knows that this is probably a _Save Clue_ on a critical blue 4, which would confirm his previous suspicion of having two critical cards in a row.
   - Bob discards his chop, slot 3 (the green 4).
   - Alice has successfully saved both critical cards.
