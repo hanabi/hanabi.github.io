@@ -10,7 +10,6 @@ import PatchFinesse from "@site/image-generator/yml/extras/special-finesses/patc
 import DiseasedClandestineFinesse from "@site/image-generator/yml/extras/special-finesses/diseased-clandestine-finesse.yml";
 import SurreptitiousFinesse from "@site/image-generator/yml/extras/special-finesses/surreptitious-finesse.yml";
 import InvertedPriorityFinesse from "@site/image-generator/yml/extras/special-finesses/inverted-priority-finesse.yml";
-import UnnecessaryForcedReverse from "@site/image-generator/yml/extras/special-finesses/unnecessary-forced-reverse.yml";
 
 ### The Ambiguous Finesse Pass-Back
 
@@ -178,24 +177,3 @@ import UnnecessaryForcedReverse from "@site/image-generator/yml/extras/special-f
 - This concept can be generalized to all _Finesses_ that have a _Lie Component_. After a player receives a _Fix Clue_ in such a situation, they should assume that the _Finesse_ is "still on". So, depending on the situation, they should either know that the initial card that was clued is playable (like in an _Out-of-Order Finesse_) or continue to blind-play cards to fulfill the initial _Finesse_ (if the card clued with a _Fix Clue_ seems to be unrelated).
 - Note that since we want to minimize _Lying_ as much as possible, _Finesses with a Lie Component_ have the **lowest possible precedence**. For example, this means that you can give a _Delayed Play Clue_ to a player who is still blind-playing cards without it looking like a _Fix Clue_.
 - Importantly, _Finesses_ with a _Lie Component_ are **only** allowed if there is not an alternative line that would "get" the same number of cards without any lies. Thus, if you are looking to do a _Finesse_ with a _Lie Component_, make sure you carefully consider the efficiency of all of the possible alternatives.
-
-### The Unnecessary Forced Reverse Trash Finesse (A Gentleman's Discard That Looks Like an Unnecessary Reverse Trash Finesse)
-
-- First, see the section on _[Unnecessary Moves with Known-Trash](../level-25.mdx#unnecessary-moves-with-known-trash----ignition)_, which defines what a _Unnecessary Trash Finesse_ is. Basically, if a _Trash Finesse_ is unnecessary, then it also causes a _Chop Move_.
-- This convention also applies to _Reverse Trash Finesses_. If they are unnecessary, then it causes a _Chop Move_ in the same way.
-- If a line is chosen that forces a _Gentleman's Discard_ to occur (because they have to entertain the possibility of a _Reverse Trash Finesse_), and the blind-playing card could have been clued in some other easier way, then it **still** _Chop Moves_ in exactly the same way that an _Unnecessary Reverse Trash Finesse_ would.
-- For example, in a 3-player game:
-  - This is a slightly modified version of the example given for the _Reverse Trash Finesse_.
-  - Red 1 is played on the stacks. All of the 2's are played on the other stacks.
-  - Alice clues number 2 to Bob, touching his slot 1 card as a _Play Clue_.
-  - From Bob's perspective, this is probably just a _Play Clue_ on the red 2 (which happens to be the final 2 that needs to be played).
-  - However, Bob sees that Cathy also has a red 2 on her _Finesse Position_. That means that this could be a _Reverse Trash Finesse_.
-  - If it is a _Reverse Trash Finesse_, then his 2 is a trash 2 (e.g. green 2). By immediately discarding it, it will prove to Cathy that _she_ has a red 2.
-  - Alternatively, if Bob does indeed have the red 2, then he can discard it to perform a _Gentleman's Discard_ on Cathy.
-  - Either way, discarding will cover both cases. Bob discards the 2 and it is revealed to be a red 2.
-  - Cathy blind-plays her _Finesse Position_ card as red 2 and it successfully plays.
-  - Alice discards.
-  - Bob knows that even though _Gentleman's Discards_ are never supposed to cause a _Chop Move_, Alice forced him to discard in exactly the same way as a _Reverse Trash Finesse_. Furthermore, it was possible to cleanly clue the red 2 in Cathy's hand to begin with, and doing so would have been much simpler. Thus, doing the pseudo-_Reverse Trash Finesse_ was unnecessary.
-  - Since it was unnecessary, Bob chop moves all the cards to the right of where the red 2 was (slot 2, slot 3, slot 4, and slot 5).
-
-<UnnecessaryForcedReverse />
