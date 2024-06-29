@@ -4,8 +4,6 @@ title: Discards & Misplays
 ---
 
 import CautiousGenerationDiscard from "@site/image-generator/yml/extras/cautious-generation-discard.yml";
-import TriplePositionalDiscard from "@site/image-generator/yml/extras/triple-positional-discard.yml";
-import QuadruplePositionalMisplay from "@site/image-generator/yml/extras/quadruple-positional-misplay.yml";
 import PromiseClue from "@site/image-generator/yml/extras/promise-clue.yml";
 
 ### The Cautious Generation Discard
@@ -29,43 +27,6 @@ import PromiseClue from "@site/image-generator/yml/extras/promise-clue.yml";
   - Thus, Bob does not perform a _Chop Move_. Additionally, he does not need to clue the red 4 on Cathy's chop (because Alice already has it), but he **will** spend a clue in some other productive fashion. If Bob has nothing productive to do, he must "burn" a clue, similar to what happens when a _Scream Discard_ occurs.
 
 <CautiousGenerationDiscard />
-
-### The Triple Positional Discard
-
-- At the end of the game, it is normal for players to use a _Positional Discard_ to get 1 card to blind-play, and to use a _Positional Misplay_ to get 2 cards to blind-play.
-- If a player does a _Positional Discard_ to only get 1 card when they could have performed a _Positional Misplay_ instead, then this is quite strange. If they are not making a mistake, they must be trying to send an additional message.
-- In this situation, they intend for it to promise 3 blind-plays instead of 1.
-- For example, in a 4-player game:
-  - The team has 0 strikes.
-  - It is the _End-Game_ and Alice sees all of the remaining useful cards. Thus, she can _Positionally Discard_ or _Positionally Misplay_ any card that she wants in her hand.
-  - Alice sees that Bob, Cathy, and Donald all have playable cards on slot 2.
-  - Alice blind-discards her slot 2 card as a _Triple Positional Discard_.
-  - From Bob's perspective, he sees that Cathy and Donald have a playable card on slot 2. Thus, Bob expected Alice to perform a _Positional Misplay_ on her slot 2 card.
-  - When Bob sees that Alice performed a _Positional Discard_ instead of a _Positional Misplay_, he knows that she must be intending for 3 blind-plays to happen (instead of 1) as a _Triple Positional Discard_.
-  - Bob blind-plays his slot 2 card (to match Alice's slot 2 discard). It successfully plays.
-  - Cathy and Donald are both in a similar situation to Bob. (They expected Alice to perform a _Positional Misplay_.)
-  - Thus, they both know that this is a _Triple Positional Discard_, and blind-play their slot 2 cards (to match Alice's slot 2 discard).
-
-<TriplePositionalDiscard />
-
-- In some specific situations, a _Positional Discard_ from chop would not work, because it would just look like a normal discard. In these situations, a _Positional Misplay_ would only get 1 blind-play (instead of 2) and a _Shallow Discard_ would only get 2 blind-plays (instead of 3).
-
-### The Quadruple Positional Misplay
-
-- First, see the section on the _[Triple Positional Discard](#the-triple-positional-discard)_.
-- In a 5-player game, it possible to perform a _Quadruple Positional Misplay_, causing 4 people to blind-play from the same slot. (This works for the same reasons that a _Triple Positional Discard_ works.)
-- For example, in a 5-player game:
-  - The team has 0 strikes.
-  - It is the _End-Game_ and Alice sees all of the remaining useful cards. Thus, she can _Positionally Discard_ or _Positionally Misplay_ any card that she wants in her hand.
-  - Alice sees that Bob, Cathy, Donald, and Emily all have playable cards on slot 2.
-  - Alice blind-plays her slot 2 card as a _Quadruple Positional Misplay_.
-  - From Bob's perspective, he sees that Cathy, Donald, and Emily have a playable card on slot 2. Thus, Bob expected Alice to perform a _Triple Positional Discard_ on her slot 2 card.
-  - When Bob sees that Alice performed a _Positional Misplay_ instead of a _Triple Positional Discard_, he knows that she must be intending for 4 blind-plays to happen (instead of 2) as a _Quadruple Positional Misplay_.
-  - Bob blind-plays his slot 2 card (to match Alice's slot 2 discard). It successfully plays.
-  - Cathy, Donald, and Emily are all in a similar situation to Bob. (They expected Alice to perform a _Triple Positional Discard_.)
-  - Thus, they all know that this is a _Quadruple Positional Misplay_, and blind-play their slot 2 cards (to match Alice's slot 2 discard).
-
-<QuadruplePositionalMisplay />
 
 ### The Promise Clue & The Promise Discard
 
