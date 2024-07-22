@@ -28,7 +28,7 @@ yarn install
 echo "Complete."
 
 echo "Installing Python dependencies..."
-cd "$DIR/image-generator"
+cd "$DIR/../image-generator"
 if command -v "pip3" > /dev/null; then
   pip3 install -r requirements.txt
 elif command -v "pip" > /dev/null; then

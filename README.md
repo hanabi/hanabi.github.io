@@ -64,7 +64,7 @@ Editing files on the GitHub website is a pain. If you are adding a significant a
 ### Part 3 - Run It, Make Changes, and Observe Changes
 
 - In the shell from the previous step, test to see if the website works with the following command:
-  - `./run.sh`
+  - `npm run start`
   - Now, the website will "run" forever until you press `Ctrl + C` to cancel it (or close the terminal window).
   - In a browser, surf to http://localhost:3000/ in order to see your local copy of the website. <!-- markdownlint-disable-line MD034 -->
 - Now, open VSCode (which is a nice code/document editor). From the menu, select "File", then "Open Folder", then select the website folder that we cloned earlier. (Or, you can type `code .` in your terminal to open the current directory in VSCode.)
