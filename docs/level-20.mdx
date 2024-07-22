@@ -56,9 +56,10 @@ import TrustFinesse from "@site/image-generator/yml/level-20/trust-finesse.yml";
 
 <PriorityFinesse />
 
-### Priority with Unknown Cards (Clarification)
+### Priority with Both Known and Unknown Cards (Clarification)
 
-- In the above priority table, "unknown card" is listed below most things. However, it is important to understand that playing an unknown card does not trigger a _Priority Prompt_ / _Priority Finesse_ inherently by being unknown. In order for those moves to trigger, **all possible cards** in the unknown superposition must have priority over the card that was not played.
+- Playing any unknown card generally does not trigger anything special.
+- However, playing a known card instead of an unknown card can trigger a _Priority Prompt_ / _Priority Finesse_ - but only if **all possible cards** in the unknown superposition have priority over the known card.
 - For example, in a 3-player game:
   - Red 1, blue 1, and yellow 1 are played on the stacks.
   - Alice is going to play a card on her turn. She has the choice between two playable cards:
@@ -67,16 +68,16 @@ import TrustFinesse from "@site/image-generator/yml/level-20/trust-finesse.yml";
   - Alice plays the red 2.
   - Bob needs to determine if the red 2 had _Priority_ so that he can react accordingly.
   - Bob knows that the priority chart states unknown cards have priority over the left-most card. However, Bob also knows that the unknown card superpositions must all have priority over the known card for priority to take effect.
-  - Bob can see that blue 2 and yellow 2 do not have priority over red 2. Therefore, because all options for the unknown card **do not** have priority over red 2, Bob knows that the red 2 has _Priority_, and he does not need to react.
+  - Bob can see that both blue 2 and yellow 2 have priority over red 2 (unknown before left-most). Therefore, because all options for the unknown card have priority over red 2, Bob plays his _Finesse Position_ as a _Priority Finesse_, and successfully plays red 3.
 - For example, in a 3-player rainbow game:
-  - Red 1 is played on the stacks.
+  - Red 1 and rainbow 2 are played on the stacks.
   - Alice is going to play a card on her turn. She has the choice between two playable cards:
     - A red 2 in slot 2. It is globally-known as a red 2.
-    - A blue 1 in slot 3. From Alice's perspective, it is in a superposition of `blue 1, rainbow 1`.
+    - A blue 1 in slot 3. From Alice's perspective, it is in a superposition of `blue 1, rainbow 3`.
   - Alice plays the red 2.
   - Bob needs to determine if the red 2 had _Priority_ so that he can react accordingly.
-  - Bob knows that the priority chart states unknown cards have priority over left-most card. However, Bob also knows that the unknown card superpositions must all have priority over the known card for priority to take effect.
-  - Bob can see that both blue 1 and rainbow 1 have _Priority_ over red 2. Thus, Bob plays his _Finesse Position_ as a _Priority Finesse_, and successfully plays red 3.
+  - Bob checks whether all the unknown card superpositions have priority over the known card.
+  - Bob can see that rainbow 3 **does not** have _Priority_ over red 2 (red 2 is lower rank). Because **not all** unknown card superpositions were higher priority than red 2, Alice playing red 2 did not trigger a _Priority Prompt_ / _Priority Finesse_. Bob should not react.
 
 ### The Priority Bluff
 
