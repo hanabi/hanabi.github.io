@@ -75,7 +75,7 @@
 
 - No change is permanent. If the group consensus changes, then the _Convention Framework_ should change.
 - With that said, it is confusing for players in the group who do not play very often to have a certain move be "turned on" one day and then "turned off" the next day. Thus, we do **not** want the _Convention Framework_ to flop back and forth.
-- If consensus is reached on a certain convention configuration, then as a general rule it should not be up for debate again for a period of six months.
+- If consensus is reached on a certain convention configuration, then as a general rule it should not be up for debate again for a period of one year.
 
 ## Why are conventions deleted? Who decides when a convention should be removed from the website?
 
