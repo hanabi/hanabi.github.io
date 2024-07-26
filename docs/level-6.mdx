@@ -63,12 +63,15 @@ import DiscardModulation from "@site/image-generator/yml/level-6/discard-modulat
   - Green 4 is in the trash.
   - Bob has:
     - a green 4 on slot 3 with no clues on it yet (on chop and critical)
-    - a red 2 on slot 4 with a 2 clue on it
-    - a red 5 on slot 5 with a 5 clue on it
+    - a red 2 on slot 4 with a number 2 clue on it
+    - a red 5 on slot 5 with a number 5 clue on it
   - Alice clues red to Bob, which re-touches his slot 4 card and his slot 5 card, "filling" both of them in.
   - Bob knows that this is a _Tempo Clue_, and plays red 2.
-  - In most cases, since two cards were re-touched, they should both be playable. However, Bob knows that the red 5 is strictly not playable right now. Thus, since the clue did not get any new cards and only got _Tempo_ on one card in total, he knows that he should also _Chop Move_ his slot 3 card.
-  - Cathy knows that no-one else on the team is promised the red 3 and the red 4.
+  - In most situations, since two cards were re-touched, it would be a _Double Tempo Clue_, meaning that both of the touched cards should be playable. However, Bob knows that the red 5 is strictly not playable right now. Thus, since the clue did not get any new cards and only got _Tempo_ on one card in total, he knows that he should also _Chop Move_ his slot 3 card.
+  - Cathy has to perform a similar analysis to Bob, but it is a bit harder for her, since she does not know that the red 5 is strictly not playable. In other words, from Cathy's perspective, there are two possibilities for Alice's clue:
+    - First, it could a _Tempo Clue_ on the red 2 + a _Tempo Clue Chop Move_ on the green 4.
+    - Second, it could be a _Tempo Clue_ on the red 2 + a _Finesse_ on the red 3 + a _Finesse_ on the red 4 + a _Tempo Clue_ on the red 5.
+  - Between these two options, the first option involves zero blind plays. Thus, Cathy knows that she should prefer that one. (Additionally, Cathy needs to use _Minimum Clue Value Principle_ when examining the two options, but in this specific situation, _Minimum Clue Value Principle_ does not matter because both options satisfy MCVP.)
 
 <TempoClueChopMovePart3 />
 
