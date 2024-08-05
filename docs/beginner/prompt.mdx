@@ -21,11 +21,11 @@ import Prompt4 from "@site/image-generator/yml/beginner/prompt-4.yml";
 
 - We call this move a _Prompt_ because it is "prompting" a player to play a card that they would have otherwise held on to for a while longer.
 - In this way, clues can deliver messages to a different player than the person who actually received the clue.
-- If a player is _Prompted_ and there are multiple cards in the hand that the _Prompt_ could apply to, they should play the left-most.
+- If a player is _Prompted_ and there are multiple cards in the hand that the _Prompt_ could apply to, they should play the leftmost.
 - In the example below:
   - Bob is _Prompted_ for a red 3 in the exact same way as the previous example.
   - Bob has two different cards clued as red in slot 4 and slot 5.
-  - Since both cards are unknown to Bob, Bob should choose to play the slot 4 card since it is the left-most.
+  - Since both cards are unknown to Bob, Bob should choose to play the slot 4 card since it is the leftmost.
 
 <Prompt2 />
 
@@ -37,12 +37,12 @@ import Prompt4 from "@site/image-generator/yml/beginner/prompt-4.yml";
 
 <Prompt3 />
 
-- The _Prompt_ is a **promise** that the player has the connecting card. Therefore, if the left-most card is not the correct one, the player should continue to play his clued cards (left to right) until the expected card is found. (It is the responsibility of the player giving the clue to ensure that all those previous cards will play successfully.)
+- The _Prompt_ is a **promise** that the player has the connecting card. Therefore, if the leftmost card is not the correct one, the player should continue to play his clued cards (left to right) until the expected card is found. (It is the responsibility of the player giving the clue to ensure that all those previous cards will play successfully.)
 - In the example below:
   - Bob has three separate unknown 3's in his hand.
   - Alice clues red to Cathy, which touches a red 4. This is a _Play Clue_ on the red 4.
-  - Bob knows that he must have the red 3 and this is a _Prompt_. Bob plays his left-most 3 from slot 2.
-  - However, after playing it, Bob sees that it is not the red 3 - it was the blue 3 (which played successfully). Bob now knows that the next-left-most 3 must be the red 3 (on slot 3).
+  - Bob knows that he must have the red 3 and this is a _Prompt_. Bob plays his leftmost 3 from slot 2.
+  - However, after playing it, Bob sees that it is not the red 3 - it was the blue 3 (which played successfully). Bob now knows that the next-leftmost 3 must be the red 3 (on slot 3).
   - Cathy can see the clued red 3 in Bob's hand. Thus, she knows from the _Good Touch Principle_ that her red card must be the red 4.
   - Cathy does something unrelated.
   - On his next turn, Bob tries to play his slot 3 card as the red 3. However, after playing it, Bob sees that it was not the red 3 - it was the green 3 (which played successfully). Bob now knows that his final 3 must be the red 3 (on slot 4).

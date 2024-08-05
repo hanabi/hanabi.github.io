@@ -29,7 +29,7 @@ import OccupiedFinesse from "@site/image-generator/yml/level-21/occupied-finesse
   - And so on. In general, an _Occupied_ move does one "extra" thing than would it normally would do.
 - For example, in a 3-player game:
   - Red 2 and blue 1 are played on the stacks.
-  - Alice has a globally-known playable red 3 in her hand and Bob has nothing to do.
+  - Alice has a globally known playable red 3 in her hand and Bob has nothing to do.
   - Alice clues number 2 to Cathy, which touches a green 2 on her chop. This would normally be a _2-Save_.
   - However, since Alice is _Occupied_ and Bob could have given the exact same clue, and Bob has nothing to do on his turn but to discard, the _2 Save_ transforms into an _Occupied Play Clue_.
   - Next, Bob sees that Alice's clue was _Occupied_. Thus, Bob knows that Cathy will go on to play the card.
@@ -51,7 +51,7 @@ import OccupiedFinesse from "@site/image-generator/yml/level-21/occupied-finesse
   - Instead, Bob knows that the team should be using Cathy's red 1. Thus, Bob knows that he needs to give a _Fix Clue_ to Cathy, because Alice intends for her and Bob to work together.
   - Bob clues number 4 to Cathy, touching the blue 4 and "filling in" the red 4.
   - Cathy is surprised because the card that she thought was red 1 is actually a red 4. Cathy knows that since the red 4 was the original focus of Alice's clue, then it must actually be playable right now. Thus, Cathy must have the red 1, the red 2, and the red 3.
-  - Cathy plays the red 1 from slot 2 (the left-most red card that could be the red 1). She will go on to play the red 2, the red 3, and the red 4.
+  - Cathy plays the red 1 from slot 2 (the leftmost red card that could be the red 1). She will go on to play the red 2, the red 3, and the red 4.
   - Cathy (and everyone else on the team) knows that even though the blue 4 was the focus of Bob's clue, it is not actually playable right now, and was just "collateral damage" of Bob's required _Fix Clue_.
 
 <OutOfOrderPlayClue />
@@ -64,7 +64,7 @@ import OccupiedFinesse from "@site/image-generator/yml/level-21/occupied-finesse
 - For example, in a 3-player game:
   - It is the first turn and nothing is played on the stacks.
   - Bob has a red 3 and a red 2 (on slots 1 and 2 respectively).
-  - Cathy has a red 1 on slot 1 (in _Finesse Position_).
+  - Cathy has a red 1 on slot 1 (on _Finesse Position_).
   - Alice clues Bob red (as an _Out-of-Order Reverse Finesse_). The focus of the clue is the red 3 on slot 1.
   - Bob sees the red 1 on Cathy's _Finesse Position_, so he has to respect that it could be _Reverse Finesse_. Bob discards.
   - Cathy blind-plays red 1.

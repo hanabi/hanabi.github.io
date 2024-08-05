@@ -60,7 +60,7 @@
 
 ### The 5's Double Chop Move
 
-- Normally, when a player re-clues one or more 5's with a number 5 clue, it would be a _Play Clue_ - the left-most 5 is playable right now.
+- Normally, when a player re-clues one or more 5's with a number 5 clue, it would be a _Play Clue_ - the leftmost 5 is playable right now.
 - In a 2-player game, if this would require two or more blind-plays (e.g. as a _Self Double Finesse_), then this interpretation is unlikely. Instead, we agree that this should communicate a _Double Chop Move_.
 
 ## Advanced Conventions
