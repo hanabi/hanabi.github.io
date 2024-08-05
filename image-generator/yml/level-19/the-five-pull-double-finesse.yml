@@ -33,5 +33,5 @@ players:
         clue: 5
       - type: r3
         border: false
-      - type: b2
+      - type: y1
         border: false
