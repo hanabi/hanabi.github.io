@@ -35,16 +35,16 @@ import LoadedException2 from "@site/image-generator/yml/extras/variant-specific/
 
 ### The Early Save
 
-- Normally, players are allowed to give a _Save Clue_ to a card on chop, even if that clued player:
-  - has one or more playable cards to play (e.g. they won't discard their chop because they will almost certainly play their playable card)
-  - has one or more known-trash cards to discard (e.g. they won't discard their chop because they will almost certainly discard their known-trash card instead)
-- If a _Save Clue_ is given in this kind of situation, it is referred to as an _Early Save_. In our group, _Early Saves_ are normal, and they don't cause anything special to happen. (Allowing _Early Saves_ is nice because it allows for _Discard Modulation._)
+- A player is said to be _Loaded_ if they have a globally-known play or a globally-known safe discard.
+- Players are allowed to give a _Save Clue_ to a card on chop, even if that clued player is _Loaded_.
+- If a _Save Clue_ is given in this kind of situation, it is referred to as an _Early Save_. The clue is considered to be "early" because the _Loaded_ player will almost certainly play their playable card or discard their known trash before discarding their chop.
+- In our group, _Early Saves_ are normal, and they don't cause anything special to happen. (Allowing _Early Saves_ is nice because it allows for _Discard Modulation._)
 
 ### The Loaded Play Clue (in Hard Variants) (LPC)
 
 - First, see the section on the _[Early Save](#the-early-save)_.
-- In [_Hard_ variants](#hard-variants--easy-variants), _Early Saves_ are not legal. Instead, if an _Early Save_ is given to a player, then it is treated as a _Play Clue_ on that card.
-- This is called a _Loaded Play Clue_ to distinguish it from a more ordinary _Play Clue_, because the player receiving the clue is currently "loaded" with a play or "loaded" with a safe discard.
+- In [_Hard_ variants](#hard-variants--easy-variants), _Early Saves_ are not legal. Instead, if an _Early Save_ is given to a _Loaded_ player, then it is treated as a _Play Clue_ on that card.
+- This is called a _Loaded Play Clue_ to distinguish it from a more ordinary _Play Clue_. 
 - For example, in a 3-player game of a _Hard_ variant:
   - All of the 2's are played on the stacks. Blue 4 is in the trash.
   - Alice clues number 3 to Cathy, touching a 3 as a _Play Clue_.
