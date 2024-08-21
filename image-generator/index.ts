@@ -2,9 +2,9 @@
 // "image-generator/yml" directory. This is triggered whenever the website is built.
 
 import type { Plugin } from "@docusaurus/types";
-import { getPythonCommand } from "isaacscript-common-node";
 import path from "node:path";
 import url from "node:url";
+import { getPythonCommand } from "./getPythonCommand";
 
 /**
  * Using `import.meta.dirname` here results in an error while building:

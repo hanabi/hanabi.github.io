@@ -204,13 +204,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@arktype/fs@npm:^0.0.11":
-  version: 0.0.11
-  resolution: "@arktype/fs@npm:0.0.11"
-  checksum: 10c0/8b23fd9e88263e395fa367944ef5273c62f9b4612a4f97480ec4ea87af4a1fb4e6fb46a5124b457cde38cb9d6c754ccdfa071d5749a12c4f84e00178c698f48b
-  languageName: node
-  linkType: hard
-
 "@arktype/fs@npm:^0.0.8":
   version: 0.0.8
   resolution: "@arktype/fs@npm:0.0.8"
@@ -3968,6 +3961,13 @@ __metadata:
   dependencies:
     "@types/node": "npm:*"
   checksum: 10c0/eebedbca185ac3c39dd5992ef18d9e2a9f99e7f3c2f52f5561f90e9ed482c5d224c7962db95362712f580ed5713264e777a98d8f0bd8747f4eadf62937baed16
+  languageName: node
+  linkType: hard
+
+"@types/command-exists@npm:^1":
+  version: 1.2.3
+  resolution: "@types/command-exists@npm:1.2.3"
+  checksum: 10c0/8e92b72b2e4e85bab6b832b9b95bc0f11b7f2c3b94ffe1ffc577fe70af699d901969e49a6307782bb262c195368ab78111db2fddda4a7dc1c218e319f2b63b9a
   languageName: node
   linkType: hard
 
@@ -8934,9 +8934,12 @@ __metadata:
     "@docusaurus/preset-classic": "npm:^3.1.1"
     "@docusaurus/tsconfig": "npm:^3.1.1"
     "@mdx-js/react": "npm:^3.0.1"
+    "@types/command-exists": "npm:^1"
     clsx: "npm:^2.1.1"
+    command-exists: "npm:^1.2.9"
+    execa: "npm:^9.3.1"
     isaacscript: "npm:^4.5.1"
-    isaacscript-common-node: "npm:^4.0.3"
+    isaacscript-common-node: "npm:^4.0.6"
     isaacscript-lint: "npm:^6.20.0"
     isaacscript-tsconfig: "npm:^5.0.0"
     prism-react-renderer: "npm:^2.3.1"
@@ -10083,24 +10086,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"isaacscript-common-node@npm:^4.0.3":
-  version: 4.0.3
-  resolution: "isaacscript-common-node@npm:4.0.3"
-  dependencies:
-    "@arktype/fs": "npm:^0.0.11"
-    chalk: "npm:^5.3.0"
-    command-exists: "npm:^1.2.9"
-    diff: "npm:^5.2.0"
-    dotenv: "npm:^16.4.5"
-    execa: "npm:^8.0.1"
-    isaacscript-common-ts: "npm:^16.1.0"
-    jsonc-parser: "npm:^3.2.1"
-    npm-check-updates: "npm:^16.14.15"
-    zod: "npm:^3.22.4"
-  checksum: 10c0/42fb7c0b8d30cea74734de0bda0cbee2294ef599ee0dacf314e3b0c279cf646ac1528eeb79443e5aba768a2012b7e4a07f62d677dcd92aeacfe2b3886cdea1cb
-  languageName: node
-  linkType: hard
-
 "isaacscript-common-node@npm:^4.0.6":
   version: 4.0.6
   resolution: "isaacscript-common-node@npm:4.0.6"
@@ -10488,7 +10473,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jsonc-parser@npm:^3.2.0, jsonc-parser@npm:^3.2.1":
+"jsonc-parser@npm:^3.2.0":
   version: 3.2.1
   resolution: "jsonc-parser@npm:3.2.1"
   checksum: 10c0/ada66dec143d7f9cb0e2d0d29c69e9ce40d20f3a4cb96b0c6efb745025ac7f9ba647d7ac0990d0adfc37a2d2ae084a12009a9c833dbdbeadf648879a99b9df89
@@ -12340,7 +12325,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"npm-check-updates@npm:^16.14.12, npm-check-updates@npm:^16.14.15":
+"npm-check-updates@npm:^16.14.12":
   version: 16.14.15
   resolution: "npm-check-updates@npm:16.14.15"
   dependencies:
