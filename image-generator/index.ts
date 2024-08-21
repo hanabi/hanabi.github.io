@@ -2,10 +2,17 @@
 // "image-generator/yml" directory. This is triggered whenever the website is built.
 
 import type { Plugin } from "@docusaurus/types";
-import { dirName, getPythonCommand } from "isaacscript-common-node";
+import { getPythonCommand } from "isaacscript-common-node";
 import path from "node:path";
+import url from "node:url";
 
-const __dirname = dirName();
+/**
+ * Using `import.meta.dirname` here results in an error while building:
+ *
+ * "SyntaxError: Cannot use 'import.meta' outside a module"
+ */
+const __dirname = path.dirname(url.fileURLToPath(import.meta.url));
+
 const createSVGScriptPath = path.join(__dirname, "create_svg.py");
 const pythonCommand = getPythonCommand(true);
 
