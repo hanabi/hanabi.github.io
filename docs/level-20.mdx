@@ -75,7 +75,7 @@ import TrustFinesse from "@site/image-generator/yml/level-20/trust-finesse.yml";
 - But what if a player plays a fully-known card over an unknown card? They **can still** trigger _Priority_, but **only** if the card that was played has lower _Priority_ than **every** possibility for the unknown card.
 - For example, in a 3-player game:
   - Red 2 is played on the stacks. The 1's are played on all of the other stacks.
-  - Alice has a globally-known red 3.
+  - Alice has a globally known red 3.
   - Alice has a 2 of unknown color. Specifically, it can be either blue 2, green 2, yellow 2, or purple 2 (from _Good Touch Principle_).
   - The rest of the team does not have any clued cards in their hands.
   - Alice knows that red 3 has lower _Priority_ than **all** of the possibilities for the 2. (All possibilities for the 2 are lower rank.)
@@ -85,7 +85,7 @@ import TrustFinesse from "@site/image-generator/yml/level-20/trust-finesse.yml";
 
 - For example, in a 3-player rainbow game:
   - Red 2 and rainbow 2 are played on the stacks. The 1's are played on all of the other stacks.
-  - Alice has a globally-known red 3.
+  - Alice has a globally known red 3.
   - Alice has a playable blue card of unknown rank. It could be either blue 2 or rainbow 3.
   - Alice knows that the red 3 has a lower _Priority_ than the blue 2 and that red 3 has a higher _Priority_ than the rainbow 3 (because the red 3 is leftmost).
   - The rest of the team does not have any clued cards in their hands.
@@ -111,7 +111,7 @@ Priority does not always apply. Some common exceptions are listed below.
 - If a player has a known playable 5 and a known playable 4 that leads into their own hand, then according to the above _Priority_ table, the known playable 4 would have _Priority_. However, this does not make much sense, since the 5 has to be played no matter what, playing the 5 gives the team a clue back, the 4 could be distributed to someone else, and so on.
 - Thus, if a player has a known playable 5 and a known playable 4 that leads into their own hand, then the 5 is said to have _Priority_.
 
-#### 3) Blind-Playing Globally-Known Cards
+#### 3) Blind-Playing globally known Cards
 
 - Normally, blind-playing cards has _Priority_ over everything else.
 - However, in some advanced cases, the blind-play does not need to be demonstrated to the team - everyone already has full knowledge of what is going on. In this case, players are supposed to treat the cards as clued for the purposes of finding the _Priority_. (The _Gentleman's Discard_ on a non-1 is the main move that this applies to.)
@@ -131,9 +131,9 @@ Priority does not always apply. Some common exceptions are listed below.
 
 - For the purposes of playing into someone else's hand, we only consider what the very next card is, in order to keep things simple.
 - For example, in a 3-player game:
-  - Alice has a globally-known blue 3, red 3, and red 4.
-  - Bob has a globally-known blue 4.
-  - Cathy has a globally-known red 5.
+  - Alice has a globally known blue 3, red 3, and red 4.
+  - Bob has a globally known blue 4.
+  - Cathy has a globally known red 5.
   - Here, Alice knows that when playing cards into other player's hands, she is only supposed to consider what the very next card is.
   - Thus, Alice plays the blue 3 into Bob's blue 4.
 
