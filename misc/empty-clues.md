@@ -187,13 +187,13 @@
 
 ### Empty Clue Planning with Queued Plays
 
-- When planning an _Empty Clue_, the "right-to-left" rule does not always work if there are one or more players with known playable cards. The reason is somewhat complicated - players will assume that an _Empty Clue_ is giving a _Queued Play_ to the player that already has playable cards to play.
-- In this situation, instead of planning from right-to-left, you must plan by starting with the player with the most playable cards, and then the player with the second most playable cards, and so forth. If there is a tie, then you start with the rightmost player.
+- When planning an _Empty Clue_, the "right to left" rule does not always work if there are one or more players with known playable cards. The reason is somewhat complicated - players will assume that an _Empty Clue_ is giving a _Queued Play_ to the player that already has playable cards to play.
+- In this situation, instead of planning from right to left, you must plan by starting with the player with the most playable cards, and then the player with the second most playable cards, and so forth. If there is a tie, then you start with the rightmost player.
 - For example, in a 4-player game:
   - Alice is planning her _Empty Clue_.
   - Bob has a known red 1 and a known red 2 to play.
   - Donald has a known blue 1 to play.
-  - Alice would normally plan her line with Donald, Cathy, and then Bob (right-to-left).
+  - Alice would normally plan her line with Donald, Cathy, and then Bob (right to left).
   - However, since players have some known playable cards, this won't work.
   - Alice instead plans the line with Bob, Donald, and then Cathy.
 

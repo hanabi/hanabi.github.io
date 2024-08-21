@@ -6,7 +6,7 @@ This page was originally written by Valetta6789.
 
 [Yes](https://github.com/hanabi/hanabi.github.io/blob/main/misc/2-player.md).
 
-## What is the reason to play 1's in the starting hand from right-to-left (instead of from left-to-right)?
+## What is the reason to play 1's in the starting hand from right to left (instead of from left to right)?
 
 See the [convention reasons document](https://github.com/hanabi/hanabi.github.io/blob/main/misc/convention-reasons.md#play-order-of-multiple-1s).
 
@@ -188,7 +188,7 @@ Green 4. The red 3 does not count as being a "lower rank" card in this case. It 
 
 ## Alice has two playable 5s and plays the rightmost. Is it a _Known Bluff_?
 
-Playing 5s not in the left-to-right order is considered to be a known mistake.
+Playing 5s not in the left to right order is considered to be a known mistake.
 
 ## Can I _Bluff_ a clued card?
 
@@ -212,7 +212,7 @@ No. It only promises that the missing cards are in your hand. Write _Trash Touch
 
 ## What is the reason behind discarding trash from left to right?
 
-See [the convention reasons document](convention-reasons.md#discarding-trash-from-left-to-right).
+See [the convention reasons document](convention-reasons.md#discarding-trash-from-left to right).
 
 ## Are _Loaded Play Clues_ turned on for brown cards, even if it is the _Early Game_ and there is nothing else to do?
 
@@ -238,8 +238,8 @@ Variant-specific take precedence over non-variant-specific conventions.
 - If you get a _Save Clue_ on a chop card and there are two or more possibilities, then:
   - You should write a note on the card for all of the possibilities. The card is now in a _superposition_.
   - If you are _Prompted_ later on for a card that matches one of the possibilities, then:
-    - If all of the possibilities in the _superposition_ are now playable, then you should play the card from the original _Save Clue_ first. If that was not the card, then you can continue playing cards left-to-right.
-    - If not all of the possibilities in the _superposition_ are playable, then you should simply play cards from left-to-right. (The _Prompt_ does not collapse the _superposition_ if it could apply to other cards.)
+    - If all of the possibilities in the _superposition_ are now playable, then you should play the card from the original _Save Clue_ first. If that was not the card, then you can continue playing cards left to right.
+    - If not all of the possibilities in the _superposition_ are playable, then you should simply play cards from left to right. (The _Prompt_ does not collapse the _superposition_ if it could apply to other cards.)
 
 ## In variants with a pink suit, if I have cards in my hand that only have a rank clue on them, which ones am I allowed to play?
 
