@@ -37,7 +37,7 @@ Yes.
 
 ## What is the precedence of the different "5 moves"?
 
-_5 Save_ > _5 Stall_ > _5 Chop Move_ > _5 Pull_
+_5 Save_ > _5 Stall_ > _5's Chop Move_ > _5 Pull_
 
 ## Is a number 5 clue always a _5 Save_ on the chop card, if there are play clues available?
 
