@@ -26,7 +26,7 @@ import InformationLock from "@site/image-generator/yml/level-3/information-lock.
 #### Part 1 - Play Order Inversion in the Starting Hand
 
 - If one or more 1's in your hand are clued, **you should assume that they are all playable**. (This only applies to 1's, and follows from _Good Touch Principle_.)
-- We agree that playing 1's at the beginning of the game is a special case - you should always **play the 1's in your starting hand from oldest to newest**. (This is a special case because normally, _Play Clues_ mean to play the left-most card.)
+- We agree that playing 1's at the beginning of the game is a special case - you should always **play the 1's in your starting hand from oldest to newest**. (This is a special case because normally, _Play Clues_ mean to play the leftmost card.)
 - In the below example:
   - On the first turn of the game, Alice clues number 1 to Bob, which touches three 1s (on slot 2, slot 3, and slot 4).
   - From _Good Touch Principle_, Bob knows that he can now play all three of these cards.
@@ -141,7 +141,7 @@ import InformationLock from "@site/image-generator/yml/level-3/information-lock.
 <SarcasticDiscard />
 
 - The _Sarcastic Discard_ is similar to the _Prompt_, except that it is initiated by a discard instead of a clue.
-- However, unlike a _Prompt_, if there are multiple cards that a _Sarcastic Discard_ could apply to, then it does **not** promise that it is the left-most card. It only promises that they have the card somewhere. For example:
+- However, unlike a _Prompt_, if there are multiple cards that a _Sarcastic Discard_ could apply to, then it does **not** promise that it is the leftmost card. It only promises that they have the card somewhere. For example:
   - Alice _Sarcastic Discards_ a red 3.
   - Bob has two cards clued with number 3 in his hand. He does not have any color information on either 3.
   - Bob can be certain that one of the two 3's is red 3, but he does not know which one it is yet.

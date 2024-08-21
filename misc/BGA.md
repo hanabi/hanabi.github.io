@@ -136,7 +136,7 @@ If you're reading this far, you'll want to know some of the basic differences be
 ### Chop-Focus - Added
 
 - It is common for a _Play Clue_ to introduce several cards in the hand. So, which one is playable?
-- On BGA, the system is dead simple: (almost) always play the left-most card.
+- On BGA, the system is dead simple: (almost) always play the leftmost card.
 - In our group, it is a two step process:
   - If one of the new cards introduced was on the chop, then it is a _Chop-Focus Play Clue_.
   - Otherwise, it is a _Left-Most Play Clue_.

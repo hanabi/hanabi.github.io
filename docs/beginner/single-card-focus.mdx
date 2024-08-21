@@ -4,7 +4,7 @@ title: Single Card Focus
 ---
 
 import BeginnersGuideProgress from "@site/src/beginnersGuide.tsx";
-import LeftMostFocus from "@site/image-generator/yml/beginner/left-most-focus.yml";
+import LeftMostFocus from "@site/image-generator/yml/beginner/leftmost-focus.yml";
 import ChopFocus from "@site/image-generator/yml/beginner/chop-focus.yml";
 
 <BeginnersGuideProgress id="single-card-focus" />
@@ -25,16 +25,16 @@ import ChopFocus from "@site/image-generator/yml/beginner/chop-focus.yml";
 
 So, when two or more cards are touched by a clue, which card is focused?
 
-1. If no cards are new, then **the focus is on the left-most re-touched card**.
+1. If no cards are new, then **the focus is on the leftmost re-touched card**.
 1. If only one card is new, then **the focus is on the new card**.
 1. If two or more cards are new, and one of them was on chop, then **the focus is on the chop**.
-1. If two or more cards are new, and none of them were on chop, then **the focus is on the left-most new card**.
+1. If two or more cards are new, and none of them were on chop, then **the focus is on the leftmost new card**.
 
 ### Example 1: Left-Most Focus
 
 - In the example below, Alice clues red to Bob. This must be a _Play Clue_.
 - Before this clue, Bob's hand was completely unclued. So, with this clue, **two new cards were introduced** - the red card on slot 2 and the red card on slot 4.
-- Bob knows that in this situation, the focus of the clue is the left-most of the two new cards. This must be a _Play Clue_ on a red 1.
+- Bob knows that in this situation, the focus of the clue is the leftmost of the two new cards. This must be a _Play Clue_ on a red 1.
 
 <LeftMostFocus />
 

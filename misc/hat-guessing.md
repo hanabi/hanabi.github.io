@@ -45,20 +45,20 @@ This framework is entirely separate from the H-Group convention framework. This 
 
 ### 4-Player
 
-| # mod 12 | action                     | person clued   | type of clue              |
-| -------- | -------------------------- | -------------- | ------------------------- |
-| 0 (12)   | give clue                  | 1 player away  | number on newest card     |
-| 1 (13)   | play 1                     | 1 player away  | color on newest card      |
-| 2 (14)   | play 2                     | 1 player away  | number not on newest card |
-| 3 (15)   | play 3                     | 1 player away  | color not on newest card  |
-| 4 (16)   | play 4                     | 2 players away | number on newest card     |
-| 5 (17)   | discard 1                  | 2 players away | color on newest card      |
-| 6 (18)   | discard 2                  | 2 players away | number not on newest card |
-| 7 (19)   | discard 3                  | 2 players away | color not on newest card  |
-| 8 (20)   | discard 4                  | 3 players away | number on newest card     |
-| 9 (21)   | 3rd right-most is critical | 3 players away | color on newest card      |
-| 10 (22)  | 2nd right-most is critical | 3 players away | number not on newest card |
-| 11 (23)  | right-most is critical     | 3 players away | color not on newest card  |
+| # mod 12 | action                    | person clued   | type of clue              |
+| -------- | ------------------------- | -------------- | ------------------------- |
+| 0 (12)   | give clue                 | 1 player away  | number on newest card     |
+| 1 (13)   | play 1                    | 1 player away  | color on newest card      |
+| 2 (14)   | play 2                    | 1 player away  | number not on newest card |
+| 3 (15)   | play 3                    | 1 player away  | color not on newest card  |
+| 4 (16)   | play 4                    | 2 players away | number on newest card     |
+| 5 (17)   | discard 1                 | 2 players away | color on newest card      |
+| 6 (18)   | discard 2                 | 2 players away | number not on newest card |
+| 7 (19)   | discard 3                 | 2 players away | color not on newest card  |
+| 8 (20)   | discard 4                 | 3 players away | number on newest card     |
+| 9 (21)   | 3rd rightmost is critical | 3 players away | color on newest card      |
+| 10 (22)  | 2nd rightmost is critical | 3 players away | number not on newest card |
+| 11 (23)  | rightmost is critical     | 3 players away | color not on newest card  |
 
 ### 5-Player
 
@@ -141,11 +141,11 @@ First, let's go over some _Hat-Guessing_ terminology before getting into the act
 
 - If a player does not have any uncalled playable cards, then you can give them a "discard" instruction or a "save this critical card for later" instruction.
 - In this situation, you must give them an instruction with the highest possible priority:
-  1. Discard of the right-most of the left-most copies of important dupes in a hand
+  1. Discard of the rightmost of the leftmost copies of important dupes in a hand
   - (For example, in a hand of `blue 2, red 2, red 2, blue 2`, tell them to discard slot 2.)
-  1. Discard of the right-most trash, but only if the receiving player has no queued discard instructions or _Obvious_ trash
-  1. Critical save the right-most critical
-  1. Discard the right-most trash
+  1. Discard of the rightmost trash, but only if the receiving player has no queued discard instructions or _Obvious_ trash
+  1. Critical save the rightmost critical
+  1. Discard the rightmost trash
 
 ## Instruction Rules
 
@@ -174,7 +174,7 @@ First, let's go over some _Hat-Guessing_ terminology before getting into the act
   - It is the first turn of the game and nothing is played on the stacks.
   - Alice sees that both Cathy and Donald both have a red 1 on slot 1.
   - Since Donald is last in _Respond Order_, Donald will receive the instruction to play red 1.
-  - Cathy will not receive the instruction to play red 1. Instead, Cathy will get an instruction to play the left-most 1 behind the red 1 (if any), or some other instruction.
+  - Cathy will not receive the instruction to play red 1. Instead, Cathy will get an instruction to play the leftmost 1 behind the red 1 (if any), or some other instruction.
   - When interpreting the clue, Bob has to make sure to also assign the red 1 play instruction to Donald, and not to Cathy.
   - If, instead, Cathy still has green 1 to play from a previous clue, and Donald has an empty _Play Queue_, then Cathy is last in Respond Order, and Cathy will get the instruction to play red 1, and Donald will get a different instruction.
 - The first player in _Respond Order_ is called the _First Responder_, the last player in _Respond Order_ is called the _Last Responder_. Every other player is called an _Intermediate Responder_.
@@ -183,7 +183,7 @@ First, let's go over some _Hat-Guessing_ terminology before getting into the act
 
 - _Critical Instructions_ can be given in 4 and 5 player games. They are skipped in 3 player games.
 - In 4 player games, you count from the right to indicate which card is critical. You skip all called cards, and cards that are known to be not critical.
-  - For example: If Donald has a red 5 in slot 4 that was already called as critical, and you now want to tell him that slot 3 is also critical, you assign them 11 (right-most critical).
+  - For example: If Donald has a red 5 in slot 4 that was already called as critical, and you now want to tell him that slot 3 is also critical, you assign them 11 (rightmost critical).
 
 ### Discard Instructions
 
@@ -220,7 +220,7 @@ First, let's go over some _Hat-Guessing_ terminology before getting into the act
 - For example, in a 3-player No Variant game:
   - It is the first turn of the game and nothing is played on the stacks.
   - Bob's hand is as follows, from newest to oldest: `red 1, yellow 1, green 1, red 3, red 3`
-  - Alice knows that normally, the red 1 has play priority, since it is the left-most 1.
+  - Alice knows that normally, the red 1 has play priority, since it is the leftmost 1.
   - However, Alice also sees that Bob has the yellow 2 in his hand. It would be useful to get the yellow 1 to play before the red 1, so that the team can get the yellow 2 played sooner than later.
   - Alice also knows that since Bob is her _First Responder_, she can break the play priority and just get Bob to play any card she wants. Alice will give a play instruction for Bob to play the yellow 1.
 - Unlike play instructions and discard instructions, clue instructions and critical instructions given to the _First Responder_ still have to follow _Instruction Priority_ as per normal.

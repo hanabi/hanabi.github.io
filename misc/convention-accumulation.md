@@ -8,7 +8,7 @@ A common reaction to seeing a hundred-page-long conventions document for the fir
 
 And indeed, looking at it from the outside-in, I can agree and sympathize with this reaction. But I think it is important to understand the story of how we got here in the first place.
 
-Our group started playing Hanabi like all other groups - with no conventions whatsoever. Eventually, after getting a little comfortable with the game, we figured out basic things like "_Play Clues_ should probably mean to play the left-most card". Eventually, we graduated to playing _Board Game Arena_-style: a few simple conventions with some _Finesses_ and _Bluffs_ thrown in.
+Our group started playing Hanabi like all other groups - with no conventions whatsoever. Eventually, after getting a little comfortable with the game, we figured out basic things like "_Play Clues_ should probably mean to play the leftmost card". Eventually, we graduated to playing _Board Game Arena_-style: a few simple conventions with some _Finesses_ and _Bluffs_ thrown in.
 
 Lots of people who play Hanabi are also general board game enthusiasts, enjoying a wide variety of board games (like [_Codenames_](https://boardgamegeek.com/boardgame/178900/codenames) and [_Food Chain Magnate_](https://boardgamegeek.com/boardgame/175914/food-chain-magnate)) and card games (like [_Dominion_](https://boardgamegeek.com/boardgame/36218/dominion)). So it is common for groups to play Hanabi for a month or so - getting comfortable with the game, developing some conventions, getting pretty good at the game, and then moving on to new challenges. But in our group, we loved Hanabi, and we just kept playing it. Not every day, and not always with the exact same players, but certainly a few games a week at minimum.
 
