@@ -12,12 +12,12 @@ import DiscardModulation from "@site/image-generator/yml/level-6/discard-modulat
 
 ### The Tempo Clue
 
-- _Tempo Clues_ are defined as clues that "get" no new cards. The purpose of a _Tempo Clue_ is to get 1 or more cards played that **already** had a clue on them.
+- _Tempo Clues_ are defined as clues that "get" no new cards. The purpose of a _Tempo Clue_ is to get a card played that **already** had a clue on it.
   - If a clue is given to a card that is **already** known to be playable, then that would **not** count as a _Tempo Clue_. It would instead be a _Burn Clue_ (i.e. a clue that accomplishes nothing).
 - As explained in the beginner's guide, we do not typically perform _Tempo Clues_, because they do not meet _[Minimum Clue Value Principle](beginner/minimum-clue-value-principle)_.
 - When a _Tempo Clue_ touches multiple cards, the focus is on the leftmost card.
   - The exception is if one of the cards was previously _Chop Moved_. In that case, the focus is on the leftmost _Chop Moved_ card.
-- If a _Tempo Clue_ touches multiple cards, it typically means that all the touched cards are playable. See the [_Double Tempo Clue_](#the-double-tempo-clue-a-valuable-tempo-clue) section below.
+  - The non-focused cards are not promised to be playable.
 - We treat _Tempo Clues_ differently depending on whether they are valuable or not valuable. See the next two sections below.
 
 ### The Valuable Tempo Clue
@@ -74,24 +74,6 @@ import DiscardModulation from "@site/image-generator/yml/level-6/discard-modulat
   - Between these two options, the first option involves zero blind plays. Thus, Cathy knows that she should prefer that one. (Additionally, Cathy needs to use _Minimum Clue Value Principle_ when examining the two options, but in this specific situation, _Minimum Clue Value Principle_ does not matter because both options satisfy MCVP.)
 
 <TempoClueChopMovePart3 />
-
-### The Double Tempo Clue (A Valuable Tempo Clue)
-
-- First, see the section on _[Tempo Clues](#the-tempo-clue)_ and _[Valuable Tempo Clues](#the-valuable-tempo-clue)_.
-- When a _Tempo Clue_ touches one card, it is a clear signal to play that card.
-- When a _Tempo Clue_ touches two or more cards, we need to agree how many cards that it promises are playable.
-- We agree that it means that **all** of the cards touched are playable in order from left to right.
-- Since this kind of clue gets two or more cards played, it is considered to be "valuable" and is allowed to be given at any time and in any situation.
-- For example, in a 3-player game:
-  - It is the first turn and nothing is played on the stacks.
-  - Alice clues red to Bob, which touches slot 1, slot 2, and slot 3.
-  - Bob plays red 1 from slot 1. The other two red cards in his hand could be nearly anything.
-  - Cathy clues red to Bob, which does not introduce any new cards, but it does re-touch slot 2 and slot 3.
-  - Bob knows that this is a _Double Tempo_ clue. Both must be playable in order, so he must have red 2 in slot 2, and red 3 in slot 3.
-- Note that the normal "play all the cards" interpretation does not apply in some special situations:
-  - when the clue unlocks a player's hand
-  - when the clue got 2+ cards played in total (using cards in someone else's hand)
-  - when the clue touched a _Chop Moved_ card; in this situation, **only** the _Chop Moved_ card is playable
 
 ## General Principles
 
