@@ -158,7 +158,7 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
   - Alice and Cathy both mark the green 1 as a "blue 3 _Speculation Mismark_". At this point, they can either:
     - Clue green 1 directly to get it to play, which would reveal to everyone that a failed _Speculation Bluff_ occurred and immediately resynchronize information among the team.
     - Let the card sit there until the real blue 2 is played, after which the green 1 will play for free as blue 2. After this happens, the _Speculation Bluff_ will be revealed.
-- Note that to prevent confusion, we agree that it is illegal for players to perform a _Speculation Finesse_ on a player who is two or more seats away if the next player has a playable card in _Finesse Position_ that is not already gotten.
+- Note that to prevent confusion, we agree that it is illegal for players to perform a _Speculation Finesse_ on a player who is two or more seats away if the next player has a playable card on _Finesse Position_ that is not already gotten.
 - This convention was deleted because it was too complicated.
 
 ### The Misplay Trash Push
