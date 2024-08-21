@@ -77,7 +77,7 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
   - If the blue card is blue 1, then the blue card would have _Priority_, since it would be the lowest rank. But if the blue card is rainbow 3, then the red 2 would have _Priority_, since that would be the lowest rank.
   - However, since the blue stack is the to the left of the rainbow stack, Alice knows that for the purposes of calculating _Priority_, she has to assume that her blue card is the blue 1.
   - Thus, even if Alice really does have the rainbow 3, playing the red 2 will still cause a _Priority Finesse_ to occur on the red 3.
-- This convention was deleted with the rework to make _Priority_ only apply to globally known cards.
+- This convention was deleted with the rework to make _Priority_ only apply to globally-known cards.
 
 ### The Out-of-Position Bluff (OOP) / The Reverse Bluff
 
@@ -130,18 +130,18 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
   - The card happens to be the red 2 (instead of blue 2).
   - The rest of the team knows that the blue 3 was promised. Bob does not see anyone else with the blue 3, so he writes _Speculation Elimination Notes_ on every card in his hand.
 - Note that we agree that it is illegal for players to perform a _Ambiguous Speculation Finesse_, so players do not have to account for that possibility.
-- This convention was deleted with the rework to make _Priority_ only apply to globally known cards.
+- This convention was deleted with the rework to make _Priority_ only apply to globally-known cards.
 
 ### The Speculation Layered Finesse
 
 - Similar to a _Layered Priority Finesse_, it is also possible to _Layered Speculation Finesse_. This is safe to do because if the _Speculation_ fails, no lie will have occurred, since the other player will write _Elimination Notes_ on their entire hand.
-- This convention was deleted with the rework to make _Priority_ only apply to globally known cards.
+- This convention was deleted with the rework to make _Priority_ only apply to globally-known cards.
 
 ### The Speculation Elimination Finesse
 
 - In a normal _Elimination Finesse_, the rightmost card is called for.
 - However, if an _Elimination Finesse_ calls for a card that specifically has _Speculation Elimination Notes_ on it, then the **leftmost** card is called for instead of the rightmost card.
-- This convention was deleted with the rework to make _Priority_ only apply to globally known cards.
+- This convention was deleted with the rework to make _Priority_ only apply to globally-known cards.
 
 ### The Speculation Bluff
 

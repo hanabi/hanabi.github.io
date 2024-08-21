@@ -34,7 +34,7 @@
 | 5 (11, 17) | chop move       | number 5            |
 
 - The chop move action **must** be given to a player (and can only be given to a player) if **both** of the following are true:
-  - they have a globally known critical card on chop (2's do not count as critical unless the other copy is in the discard pile)
+  - they have a globally-known critical card on chop (2's do not count as critical unless the other copy is in the discard pile)
   - they have no new playable cards in their hand to "get" (which includes non-_Prompted_ cards that have clues on them already)
 - The player receiving the chop move action can clue or discard, just like action 0.
 
