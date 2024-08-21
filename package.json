@@ -32,7 +32,7 @@
     "@docusaurus/preset-classic": "^3.1.1",
     "@mdx-js/react": "^3.0.1",
     "clsx": "^2.1.0",
-    "isaacscript-common-node": "^4.0.3",
+    "isaacscript-common-node": "^4.0.6",
     "prism-react-renderer": "^2.3.1",
     "raw-loader": "^4.0.2",
     "react": "^18.2.0",
@@ -42,7 +42,7 @@
   "devDependencies": {
     "@docusaurus/eslint-plugin": "^3.1.1",
     "@docusaurus/tsconfig": "^3.1.1",
-    "isaacscript": "^4.3.0",
+    "isaacscript": "^4.5.1",
     "isaacscript-lint": "^6.20.0",
     "isaacscript-tsconfig": "^5.0.0",
     "shell-loader": "^1.2.1",
