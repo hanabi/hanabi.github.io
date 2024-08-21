@@ -98,7 +98,7 @@ You should not play the chop. You should play the card that is closest to your _
 
 ## I receive a clue that touches several cards and focuses on chop. Later I am _Prompted_. Which card should I play?
 
-Left-most.
+Leftmost.
 
 ## Should I always _Chop Move_ after receiving a _Tempo Clue_?
 

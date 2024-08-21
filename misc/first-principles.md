@@ -50,7 +50,7 @@ If you absolutely had to come up with a set of _First Principles_ that our conve
 - Otherwise, the clue is focused on the newest (e.g. leftmost) of cards that did not have a clue "on" them already.
 - The non-focused cards may or may not be playable.
 
-### 6. Left-Most Playable Principle
+### 6. Leftmost Playable Principle
 
 - When a player is expected to play a card (or know a card is playable) in a situation not covered by the _Play Order Principle_, the card to be played is the leftmost of the various cards that are most likely to be it.
 

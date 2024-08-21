@@ -138,8 +138,8 @@ If you're reading this far, you'll want to know some of the basic differences be
 - It is common for a _Play Clue_ to introduce several cards in the hand. So, which one is playable?
 - On BGA, the system is dead simple: (almost) always play the leftmost card.
 - In our group, it is a two step process:
-  - If one of the new cards introduced was on the chop, then it is a _Chop-Focus Play Clue_.
-  - Otherwise, it is a _Left-Most Play Clue_.
+  - If one of the new cards introduced was on the chop, then it is a chop focus _Play Clue_.
+  - Otherwise, it is a leftmost _Play Clue_.
 - Why do this? For multiple reasons:
   - Without this convention, it takes more than one clue to give a _Play Clue_ to a chop card.
   - This convention compliments _Finesses_. (Our group has a wide variety of _Finesses_ and _Bluffs_, so it is easy to "get" fresh cards, but more difficult to "get" cards on chop.)

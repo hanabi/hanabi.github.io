@@ -133,9 +133,9 @@ First, let's go over some _Hat-Guessing_ terminology before getting into the act
 - Sometimes, a player has more than one uncalled playable card in his hand.
 - In this situation, you must give them a play instruction with the highest possible priority:
   1. Unique cards (e.g. 5s, critical cards, and cards of which the player holds all copies)
-  1. Left-most 1 where the player holds two copies
+  1. Leftmost 1 where the player holds two copies
   1. Lowest rank
-  1. Left-most
+  1. Leftmost
 
 ### Discard/Critical Instruction Priority
 
