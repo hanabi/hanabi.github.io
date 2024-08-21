@@ -18,7 +18,7 @@ If you absolutely had to come up with a set of _First Principles_ that our conve
 
 ### 1. Chop Principle
 
-- The "chop" is the right-most (oldest) unclued card.
+- The "chop" is the rightmost (oldest) unclued card.
 - When a player needs to discard and has no known safe discards, they should discard the chop card.
 
 ### 2. Minimum Clue Value Principle
@@ -47,12 +47,12 @@ If you absolutely had to come up with a set of _First Principles_ that our conve
 ### 5. Play Order Principle
 
 - When a _Play Clue_ touches multiple cards, if it includes the chop, it's focused on the chop. (This is referred to as the _Chop-Focus_ convention.)
-- Otherwise, the clue is focused on the newest (e.g. left-most) of cards that did not have a clue "on" them already.
+- Otherwise, the clue is focused on the newest (e.g. leftmost) of cards that did not have a clue "on" them already.
 - The non-focused cards may or may not be playable.
 
-### 6. Left-Most Playable Principle
+### 6. leftmost Playable Principle
 
-- When a player is expected to play a card (or know a card is playable) in a situation not covered by the _Play Order Principle_, the card to be played is the left-most of the various cards that are most likely to be it.
+- When a player is expected to play a card (or know a card is playable) in a situation not covered by the _Play Order Principle_, the card to be played is the leftmost of the various cards that are most likely to be it.
 
 ### 7. Information Lock Principle
 
