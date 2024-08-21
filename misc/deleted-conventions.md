@@ -8,9 +8,9 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
 
 ### The Weak Prompt
 
-- If a teammate performs a _Prompt_ on you, and you have multiple cards in your hand that match the connecting card, normally you would be promised that the leftmost (newest) is playable.
-- However, if the card that initiated the prompt was **on chop** when it was touched **and** it was in danger of being imminently discarded, the leftmost rule no longer applies, since your teammate had to take drastic measures to prevent the discard of that card.
-- So instead, you are promised that you have the connecting card somewhere in your hand, but it could be any of the cards, and not strictly the leftmost.
+- If a teammate performs a _Prompt_ on you, and you have multiple cards in your hand that match the connecting card, normally you would be promised that the left-most (newest) is playable.
+- However, if the card that initiated the prompt was **on chop** when it was touched **and** it was in danger of being imminently discarded, the left-most rule no longer applies, since your teammate had to take drastic measures to prevent the discard of that card.
+- So instead, you are promised that you have the connecting card somewhere in your hand, but it could be any of the cards, and not strictly the left-most.
 - This convention was deleted since it was rarely used and increased complexity.
 
 ### The Early Fix Clue Chop Move
@@ -71,7 +71,7 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
 ### Priority in Multi-Color Variants
 
 - Multi-color variants can make finding out which card has _Priority_ a little tricky, because sometimes players will know that a card is playable, but not know its exact identity.
-- In these situations, players should always assume that the suit of their playable card is the leftmost of the possible suits.
+- In these situations, players should always assume that the suit of their playable card is the left-most of the possible suits.
 - For example:
   - Alice has a known playable red 2 and a known playable blue card that is either blue 1 or rainbow 3.
   - If the blue card is blue 1, then the blue card would have _Priority_, since it would be the lowest rank. But if the blue card is rainbow 3, then the red 2 would have _Priority_, since that would be the lowest rank.
@@ -117,14 +117,14 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
 
 - Normally, a player needs to know the exact identity of a card in order to initiate a _Priority Prompt_ or _Priority Finesse_. However, it is somewhat common that a player will get a _Play Clue_ on a card and they will not know its exact identity. (For example, when they get a color _Play Clue_ in a multi-color variant.) In this situation, the rules of _Priority_ still apply, as enumerated above in the previous section.
 - Subsequently, if a player plays a non-priority card that they do not know the exact identity of, this can be quite strange. In this situation, they are trying to perform a speculative _Priority Prompt_ or _Priority Finesse_ with the intent that it will only work if they happen to be playing a specific suit. This is called a _Speculation Prompt_ or a _Speculation Finesse_ for short.
-- We agree that a _Speculation Prompt_ or _Speculation Finesse_ only promises the next card in the suit that is the leftmost of the possible suits that it could be (when looking at the suits in the middle of the table).
+- We agree that a _Speculation Prompt_ or _Speculation Finesse_ only promises the next card in the suit that is the left-most of the possible suits that it could be (when looking at the suits in the middle of the table).
 - For example, in a no variant game:
   - Blue 1 and red 1 are played on the stacks.
   - Alice has a known playable yellow 1. She also has a known playable 2 that could be either blue 2 or red 2.
   - The yellow 1 has _Priority_ and Alice is expected to play that. Instead, she plays the 2 as a _Speculation Finesse_.
-  - Between blue and red, the blue suit is the _Speculation Target_, since it is the leftmost suit between blue and red.
+  - Between blue and red, the blue suit is the _Speculation Target_, since it is the left-most suit between blue and red.
   - The card happens to be blue 2. The rest of the team is promised the blue 3, just like a normal _Priority Prompt_ or _Priority Finesse_.
-- It is also possible for the _Speculation_ to fail, meaning that the card does not happen to be the leftmost suit. In this situation, the rest of the team is still promised the _Speculation Target_, but they should write _Speculation Elimination Notes_ for the card.
+- It is also possible for the _Speculation_ to fail, meaning that the card does not happen to be the left-most suit. In this situation, the rest of the team is still promised the _Speculation Target_, but they should write _Speculation Elimination Notes_ for the card.
 - For example, in a no variant game:
   - The setup is the same as the previous example.
   - The card happens to be the red 2 (instead of blue 2).
@@ -139,15 +139,15 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
 
 ### The Speculation Elimination Finesse
 
-- In a normal _Elimination Finesse_, the rightmost card is called for.
-- However, if an _Elimination Finesse_ calls for a card that specifically has _Speculation Elimination Notes_ on it, then the **leftmost** card is called for instead of the rightmost card.
+- In a normal _Elimination Finesse_, the right-most card is called for.
+- However, if an _Elimination Finesse_ calls for a card that specifically has _Speculation Elimination Notes_ on it, then the **left-most** card is called for instead of the right-most card.
 - This convention was deleted with the rework to make _Priority_ only apply to globally-known cards.
 
 ### The Speculation Bluff
 
 - The _Speculation_ mechanism in a _Speculation Finesse_ can also be used to perform a _Speculation Bluff_, which is similar to a _Priority Bluff_.
-- In the case where the card played was indeed the leftmost of the possibilities, then this works exactly the same as a _Priority Bluff_ - the next player will immediately blind-play their _Finesse Position_ card and it will be immediately revealed that a _Bluff_ has occurred.
-- Things become more complicated if the card played does not happen to be the leftmost of the possibilities. The next player will mark their _Finesse Position_ card in the same way as if a failed _Speculation Finesse_ occurred. However, the rest of the team will know that it was a _Speculation Bluff_, because they see a playable card in the _Finesse Position_ of the next player.
+- In the case where the card played was indeed the left-most of the possibilities, then this works exactly the same as a _Priority Bluff_ - the next player will immediately blind-play their _Finesse Position_ card and it will be immediately revealed that a _Bluff_ has occurred.
+- Things become more complicated if the card played does not happen to be the left-most of the possibilities. The next player will mark their _Finesse Position_ card in the same way as if a failed _Speculation Finesse_ occurred. However, the rest of the team will know that it was a _Speculation Bluff_, because they see a playable card in the _Finesse Position_ of the next player.
 - When this occurs, the bluffed player will mark their card with the wrong note. This is referred to as a _Speculation Mismark_.
 - For example, in a 3-player game:
   - Blue 1 and red 1 are played on the stacks.
@@ -391,7 +391,7 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
 
 - Normally, when a player gives a _Selfish Clue_, they are doing it because no-one else on the team can perform the clue and they want to "lock-in" the value.
 - However, if a player gives a _Selfish Clue_ with a color, and that clue could have been easily given by someone else on the team, then that is quite strange. They must be trying to send a deeper message.
-- In this situation, they are trying to communicate that the focus of the clue should be inverted. The _Play Clue_ is either on the leftmost card (if it would normally be _Chop-Focus_) or on the rightmost card (if it would normally be the leftmost card).
+- In this situation, they are trying to communicate that the focus of the clue should be inverted. The _Play Clue_ is either on the left-most card (if it would normally be _Chop-Focus_) or on the right-most card (if it would normally be the left-most card).
 - _Selfish Focus Inversion_ can **only** be performed with color clues.
 - _Selfish Focus Inversion_ takes precedence over an _Out-of-Order Finesse_. (This follows from _Occam's Razor_; if it could just be a normal _Focus Inversion_ play clue, then it does not necessarily promise any blind-plays.)
 - For example, in a 4-player game:
@@ -402,7 +402,7 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
   - Donald knows that since Cathy is not playing her red 1 and giving a clue, she must have a good reason.
   - Donald looks around the table and does not see the red 2 in anybody else's _Finesse Position_. Thus, this cannot be a _Selfish Finesse_.
   - Donald also knows that this cannot be a _Self Finesse_. (Donald has a negative red clue on his _Finesse Position_ card.)
-  - Thus, this must be a _Selfish Focus Inversion_, so Donald marks his rightmost card as red 2 for later. The other red card in his hand can be red 3, red 4, or red 5. Donald discards.
+  - Thus, this must be a _Selfish Focus Inversion_, so Donald marks his right-most card as red 2 for later. The other red card in his hand can be red 3, red 4, or red 5. Donald discards.
 - This convention was deleted since it was prone to misinterpretation and was too rare to be useful.
 
 ### The Cursed Finesse

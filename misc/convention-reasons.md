@@ -4,9 +4,9 @@ The main website lists all of our conventions. But it does not bother listing **
 
 ## Chop-Focus
 
-- In the H-Group convention framework, we play with [_Chop-Focus_](https://hanabi.github.io/beginner/single-card-focus), which allows us to "get" playable cards that are on chop. Nearly all other Hanabi groups play with a simpler system (e.g. _Play Clues_ are always focused on the leftmost card). Why do we have _Chop-Focus_?
+- In the H-Group convention framework, we play with [_Chop-Focus_](https://hanabi.github.io/beginner/single-card-focus), which allows us to "get" playable cards that are on chop. Nearly all other Hanabi groups play with a simpler system (e.g. _Play Clues_ are always focused on the left-most card). Why do we have _Chop-Focus_?
 - Most Hanabi groups independently come up with the _Finesse_ and the _Bluff_; they are considered to be the two core tools that allow players to be highly-efficient. In the H-Group, we use these tools as building blocks to compose even more advanced moves, such as the _Layered Finesse_ and the _3 Bluff_. These advanced _Finesses_ and _Bluffs_ allow us to get even more efficient.
-- Separately, notice that the strength of the "play the leftmost" convention is that it allows players to easily clue the newest card. Meaning that even if the clue "splashes" other unrelated cards in the hand, it will always work to "get" the newest card.
+- Separately, notice that the strength of the "play the left-most" convention is that it allows players to easily clue the newest card. Meaning that even if the clue "splashes" other unrelated cards in the hand, it will always work to "get" the newest card.
 - But also notice that in the H-Group (and in any sufficiently advanced group of Hanabi players that does a lot of _Finesses_), we have a lot of good options to "get" a player's _Finesse Position_ card - it is uncommon to have to clue it directly. So this convention isn't helping much.
 - _Finesses_ and _Bluffs_ can't "get" a player's chop card. In fact, there are no "moves" that get a player's chop card, at least in our convention framework. So rather than cluing cards on _Finesse Position_, what **is** common for us is to clue playable cards on chop before they get discarded.
 - With all of this in mind, we can see that it makes much more sense to have clues be focused on the chop and let cards on _Finesse Position_ be _Finessed_ or _Bluffed_.
@@ -21,14 +21,14 @@ The main website lists all of our conventions. But it does not bother listing **
 ## Play Order of Multiple 1's
 
 - In the H-Group convention framework, we [play 1's in the opening hand from right-to-left](https://hanabi.github.io/level-3#part-1---play-order-inversion-in-the-starting-hand). Why?
-- First, notice that in Hanabi, when multiple cards are clued, players typically feel that playing the leftmost (newest) card is "logical".
+- First, notice that in Hanabi, when multiple cards are clued, players typically feel that playing the left-most (newest) card is "logical".
 - For example, in a 2 player game:
   - It is the first turn of the game and nothing is played on the stacks.
   - Alice goes first.
   - Alice clues Bob about two red cards in slot 1 and slot 2.
   - Bob plays slot 1 as red 1.
 - Why does this seem logical? The reason is that a big part of Hanabi is discarding and waiting patiently for playable cards to be drawn. When a new playable card is drawn, it is usually immediately given a clue. So interpreting _Play Clues_ as being focused on the card that was just drawn makes a lot of sense.
-- This "leftmost" logic applies for most of the game. But notice that this logic does not apply to the opening hand. A playable card in the opening hand is **equally likely to be in any slot at all**, since the deck was shuffled randomly. So that explains why it is not necessarily "correct" to play 1's in the starting hand from left-to-right. But is it actually beneficial to play the 1's from right-to-left instead?
+- This "left-most" logic applies for most of the game. But notice that this logic does not apply to the opening hand. A playable card in the opening hand is **equally likely to be in any slot at all**, since the deck was shuffled randomly. So that explains why it is not necessarily "correct" to play 1's in the starting hand from left-to-right. But is it actually beneficial to play the 1's from right-to-left instead?
 - The H-Group closely follows [_Good Touch Principle_](https://hanabi.github.io/beginner/good-touch-principle). A common problem with _Good Touch Principle_ is when one player has two copies of the same card in their hand. Even if the card is playable right now (e.g. a red 1), cluing it would be a no-no, since it would be a _Bad Touch_.
 - Instead, the typical strategy is to do nothing and patiently wait for that player to discard. Eventually, the player will discard the first copy of the card, allowing the remaining copy to be clued in a "clean" way.
 - So, what about the inverse? What about when players do **not** patiently wait for a discard and instead clue two or more 1's immediately? The player who receives the clue knows that out of all of the 1s, the most important 1 must be the chop card (or the card closest to chop). Otherwise, if it were a "bad" 1, then the team would do nothing and let it get discarded!
@@ -61,8 +61,8 @@ The main website lists all of our conventions. But it does not bother listing **
 
 ## The Elimination Finesse Calling for Oldest Card
 
-- In the H-Group convention framework, we arbitrarily decide that [_Elimination Finesses_ call for the rightmost card](https://hanabi.github.io/level-16#the-elimination-finesse) instead of the leftmost card. Why?
-- Intuitively, you would expect the leftmost card should be called for, since that is how _Finesses_ normally work.
+- In the H-Group convention framework, we arbitrarily decide that [_Elimination Finesses_ call for the right-most card](https://hanabi.github.io/level-16#the-elimination-finesse) instead of the left-most card. Why?
+- Intuitively, you would expect the left-most card should be called for, since that is how _Finesses_ normally work.
 - However, consider the following 3-player game:
   - No red cards are played on the stacks.
   - Alice discards red 1 from slot 5 and writes _Elimination Notes_ on her slot 2, slot 3, slot 4, and slot 5.

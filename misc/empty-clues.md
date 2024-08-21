@@ -61,7 +61,7 @@
 - If there two or more cards of the same subcategory above, then the priority is as follows:
   - #1 - unique (e.g. black 1)
   - #2 - lowest rank
-  - #3 - leftmost
+  - #3 - left-most
 - If playing with 5-players, the _Chop Move_ action has a priority of #1d.
 
 ## History
@@ -163,7 +163,7 @@
 - For this reason, you can use an _Empty Clue_ to get a red 2 to play from the same hand that has a known red 1.
 - For example, in a 3-player game:
   - Alice clues Bob 1's, which touches two 1's.
-  - Bob plays the rightmost 1.
+  - Bob plays the right-most 1.
   - Cathy gives an empty clue of number 2, with the intent for Alice to blind-play slot 1 and Bob to blind-play slot 1.
   - Alice blind-plays her slot 1.
   - Bob knows that Cathy's clue is telling him to blind-play his slot 1. However, he must play all the known-playable cards in his hand first. So, he marks his slot 1 card as currently playable, and plays his other clued 1 first.
@@ -188,7 +188,7 @@
 ### Empty Clue Planning with Queued Plays
 
 - When planning an _Empty Clue_, the "right-to-left" rule does not always work if there are one or more players with known playable cards. The reason is somewhat complicated - players will assume that an _Empty Clue_ is giving a _Queued Play_ to the player that already has playable cards to play.
-- In this situation, instead of planning from right-to-left, you must plan by starting with the player with the most playable cards, and then the player with the second most playable cards, and so forth. If there is a tie, then you start with the rightmost player.
+- In this situation, instead of planning from right-to-left, you must plan by starting with the player with the most playable cards, and then the player with the second most playable cards, and so forth. If there is a tie, then you start with the right-most player.
 - For example, in a 4-player game:
   - Alice is planning her _Empty Clue_.
   - Bob has a known red 1 and a known red 2 to play.

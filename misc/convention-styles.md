@@ -12,7 +12,7 @@ One way of playing is not "better" than the other. Hanabi is a game, and players
 
 ## Chapter 1: The "No Convention" Impossibility
 
-First, let's take a look at the people on the leftmost side of the spectrum: those who think that any form of "convention" or "pre-game agreement" is cheating. This style works best with new groups. But it has a subtle pitfall when playing with the same people over and over again.
+First, let's take a look at the people on the left-most side of the spectrum: those who think that any form of "convention" or "pre-game agreement" is cheating. This style works best with new groups. But it has a subtle pitfall when playing with the same people over and over again.
 
 The human brain is one of the most advanced pattern-matching machines in the universe. We effortlessly and helplessly derive patterns from everything around us. And when you play Hanabi, you cannot turn this part of your brain off. You will notice patterns of behavior in your teammates and try to model them. For example: "A few games ago, when Bob was in trouble, he discarded when he had a known play. This seems a lot like that last situation, so maybe Bob is in trouble again." Even if you don't _explicitly_ think these kinds of things, you _implicitly_ will, as hard as you might try to stop it.
 

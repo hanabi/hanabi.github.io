@@ -65,7 +65,7 @@ Slot 2.
 
 ## Is known-trash considered to be the chop card?
 
-No. Even if you have a known safe discard, your chop is still the rightmost unclued card.
+No. Even if you have a known safe discard, your chop is still the right-most unclued card.
 
 ## If my chop is _Finessed_, does it still count as chop?
 
@@ -98,7 +98,7 @@ You should not play the chop. You should play the card that is closest to your _
 
 ## I receive a clue that touches several cards and focuses on chop. Later I am _Prompted_. Which card should I play?
 
-leftmost.
+Left-most.
 
 ## Should I always _Chop Move_ after receiving a _Tempo Clue_?
 
@@ -186,7 +186,7 @@ Green 4. The red 3 does not count as being a "lower rank" card in this case. It 
 - No. A _Load Clue_ takes precedence over a _Priority Finesse_ or a _Priority Bluff_.
 - The only exception is if the card is uncluable (e.g. blocked on both sides).
 
-## Alice has two playable 5s and plays the rightmost. Is it a _Known Bluff_?
+## Alice has two playable 5s and plays the right-most. Is it a _Known Bluff_?
 
 Playing 5s not in the left-to-right order is considered to be a known mistake.
 

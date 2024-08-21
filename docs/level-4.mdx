@@ -17,9 +17,9 @@ import ChopMovePrompt from "@site/image-generator/yml/level-4/chop-move-prompt.y
 
 ### Chop Moves
 
-- Normally, players discard their oldest (rightmost) unclued card. However, sometimes a player can know that an unclued card is very important.
+- Normally, players discard their oldest (right-most) unclued card. However, sometimes a player can know that an unclued card is very important.
 - A _Chop Move_ is a special kind of move that indicates to a player that the unclued card that is currently on their chop is very important.
-- After the _Chop Move_, the player considers the card on their chop to be touched with an "invisible" clue. Thus, their chop will "move" to the next rightmost unclued card.
+- After the _Chop Move_, the player considers the card on their chop to be touched with an "invisible" clue. Thus, their chop will "move" to the next right-most unclued card.
 - A _Chop Move_ is permanent, meaning that a _Chop Moved_ card should not be discarded for the remainder of the game.
 - The three simplest kinds of _Chop Moves_ are listed below.
   (In levels 6 and 7, two additional common kinds of _Chop Moves_ will be introduced:
@@ -59,7 +59,7 @@ import ChopMovePrompt from "@site/image-generator/yml/level-4/chop-move-prompt.y
   1. Sometimes there are multiple critical cards in a row on chop and it falls to one player to save all of them. In this situation, a multiple-card _Chop Move_ could be the only way to do it.
   1. Some cards (e.g. a _one-away-from-playable_ 3) are quite useful to the team, but "illegal" to touch directly (as touching them directly with a clue would imply that they are playable right now). If the game is going well, then it can be useful to "waste" a clue in order to have the card saved permanently.
 - Note that you are **not** allowed to _Trash Chop Move_ a card that you can just clue directly with a _Save Clue_ (unless there are multiple critical cards in a row on chop and you have no other choice). This is because having some positive information is always better than having the card be a mystery.
-- If a _Trash Chop Move_ touches **multiple** trash cards, then it only _Chop Moves_ the cards to the right of the rightmost trash card.
+- If a _Trash Chop Move_ touches **multiple** trash cards, then it only _Chop Moves_ the cards to the right of the right-most trash card.
 - For example, in a 3-player game:
   - All the 1's are played on the stacks.
   - Bob has a completely unclued hand.
@@ -73,7 +73,7 @@ import ChopMovePrompt from "@site/image-generator/yml/level-4/chop-move-prompt.y
 - Normally, we are only allowed to save 5's on chop (unless it is done with a _5 Stall_ clue, which can happen in the _Early Game_ and in other "stalling" situations).
 - So, if a number 5 clue is performed on a 5 that is not on chop, and it is **not** a stalling situation, then it will normally look like a _Play Clue_ on that 5.
 - However, if the 5 is:
-  - **one-away** from chop (or, if two or more 5's are clued and the rightmost 5 is one-away from chop), and
+  - **one-away** from chop (or, if two or more 5's are clued and the right-most 5 is one-away from chop), and
   - the chop card is not a trash card
 - Then, we agree that it has a special meaning, and that the clue is **not** a _Play Clue_ at all.
 - Instead, it is understood that the clue is a _5's Chop Move_, and the player should _Chop Move_ in a manner similar to the _Trash Chop Move_.
@@ -85,7 +85,7 @@ import ChopMovePrompt from "@site/image-generator/yml/level-4/chop-move-prompt.y
 
 <FivesChopMove1 />
 
-- Similar to the _Trash Chop Move_, if a _5's Chop Move_ touches **multiple** 5's, then it only _Chop Moves_ the cards to the right of the rightmost 5.
+- Similar to the _Trash Chop Move_, if a _5's Chop Move_ touches **multiple** 5's, then it only _Chop Moves_ the cards to the right of the right-most 5.
 - For example, in a 3-player game:
   - All the 1's are played on the stacks.
   - Bob has a completely unclued hand.
@@ -154,13 +154,13 @@ import ChopMovePrompt from "@site/image-generator/yml/level-4/chop-move-prompt.y
 
 <ChopMoveNew />
 
-- The exception to the above rule is if a clue is given that touches a _Chop Moved_ card for the first time and only "old" cards are touched. In this case, the focus is on the leftmost _Chop Moved_ card that was touched by the clue.
+- The exception to the above rule is if a clue is given that touches a _Chop Moved_ card for the first time and only "old" cards are touched. In this case, the focus is on the left-most _Chop Moved_ card that was touched by the clue.
 - For example, in a 3-player rainbow game:
   - All the 2's are played on the stacks.
   - Bob has an unknown red card on slot 3, an unknown red card on slot 4, and a _Chop Moved_ card in slot 5 (that is completely unclued).
   - Alice clues blue to Bob, which touches slot 3, slot 4, and slot 5. (Slot 3 and slot 4 are "filled in" to be rainbow cards and slot 5 is now a true blue card.)
   - Bob knows that the focus of the clue is normally on the new card introduced, but all three of the cards that were touched were "old".
-  - Bob knows that when old cards are re-touched, the focus of the clue is the leftmost of those cards.
+  - Bob knows that when old cards are re-touched, the focus of the clue is the left-most of those cards.
   - However, Bob also knows that this is the exception to the rule. In this specific case, putting a positive clue on the _Chop Moved_ card was more important than filling in the rainbow cards, so by convention the focus of the clue is his slot 5.
 
 <ChopMoveNewException />
