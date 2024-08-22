@@ -57,7 +57,6 @@ import DiscardModulation from "@site/image-generator/yml/level-6/discard-modulat
 
 - Valuable _Tempo Clues_ can never cause a _Tempo Clue Chop Move_.
 - When determining if a _Tempo Clue_ is "valuable", it should only be evaluated on the turn immediately after the clue is given. (This helps keeps things simple and prevents desynchronization.)
-- Normally, when two cards are retouched with a clue, it is a _Double Tempo Clue_ and the player should play both cards. However, this interpretation does not apply if the second card is strictly not playable. In this situation, all players can see that since only one card is getting _Tempo_, the interpretation of the clue should be a _Tempo Clue Chop Move_.
 - For example, in a 3-player game:
   - Red 1 is played on the stacks.
   - Green 4 is in the trash.
@@ -67,7 +66,6 @@ import DiscardModulation from "@site/image-generator/yml/level-6/discard-modulat
     - a red 5 on slot 5 with a number 5 clue on it
   - Alice clues red to Bob, which re-touches his slot 4 card and his slot 5 card, "filling" both of them in.
   - Bob knows that this is a _Tempo Clue_, and plays red 2.
-  - In most situations, since two cards were re-touched, it would be a _Double Tempo Clue_, meaning that both of the touched cards should be playable. However, Bob knows that the red 5 is strictly not playable right now. Thus, since the clue did not get any new cards and only got _Tempo_ on one card in total, he knows that he should also _Chop Move_ his slot 3 card.
   - Cathy has to perform a similar analysis to Bob, but it is a bit harder. From Cathy's perspective, there are two possibilities for Alice's clue:
     - First, it could a _Tempo Clue_ on the red 2 + a _Tempo Clue Chop Move_ on the green 4.
     - Second, it could be a _Tempo Clue_ on the red 2 + a _Finesse_ on the red 3 + a _Finesse_ on the red 4 + a _Tempo Clue_ on the red 5.
