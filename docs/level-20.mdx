@@ -68,6 +68,10 @@ import TrustFinesse from "@site/image-generator/yml/level-20/trust-finesse.yml";
 
 <PriorityBluff />
 
+### The Layered Priority Finesse
+
+- Similar to a normal _Layered Finesse_, it is also possible to initiate a _Layered Priority Finesse_ as long as the blind-playing player is not the very next person.
+
 ### Priority with Both Known and Unknown Cards
 
 - To review, if a player has two playable cards, and both of them are fully-known, then they always have the ability to trigger _Priority_.
@@ -143,14 +147,10 @@ Priority does not always apply. Some common exceptions are listed below.
 
 ### The Load Clue
 
-- Players will generally play cards without _Priority_ if they see the next card in someone else's _Finesse Position_, because this will get the card for "free" as a _Priority Finesse_.
-- Less commonly, players will see the next card in someone else's hand, but it will not be on _Finesse Position_. In these cases, it might still be good to play the card without _Priority_, just so that the player with the next card will have something to do on their turn.
-- However, if they do play the card without _Priority_, it will cause an impending misplay because the target player will think the card is actually on their _Finesse Position_. Thus, doing this **forces** someone to give a clue to the card directly in order to stop the misplay.
-- This clue is similar to a _Fix Clue_, since it fixes an impending misplay. But we specifically call this kind of clue a _Load Clue_ to differentiate it from a _Fix Clue_ that fixes a _Lie_ or mistake. It is a _Load Clue_ because it is loading the player who received the clue with something to do on their turn.
-- Note that a _Load Clue_ applies even if the clue would look like a _Save Clue_ otherwise. (In other words, the card promised from the _Priority_ move has to be _somewhere_.)
-- If you receive a _Load Clue_, you should suspect that you might have something valuable on your chop, as this would be an excellent reason to commit the team to giving the _Load Clue_ in the first place.
-- If a player has a choice between playing one card that leads nowhere and playing one card that commits the team to giving a _Load Clue_, then they are not obligated to choose one or the other - they can choose whichever one is best for the situation.
-- When a player receives a _Load Clue_, they are to interpret it as a normal _Play Clue_ instead of a _Fix Clue_.
+- First, see the section on the [Priority Prompt & The Priority Finesse](#the-priority-prompt--the-priority-finesse).
+- In Hanabi, it is optimal to play cards that lead into your teammates hands because it gains _Tempo_ and reduces bottom-deck risk. _Priority_ is optimized for the special case where the next card is on someone's _Finesse Position_. However, it is actually more common that the next card is not on _Finesse Position_. As you can imagine, a huge downside of playing with _Priority_ is that you can't play into non-_Finesse Position_ cards (or someone else would misplay).
+- For this reason, we agree that if a card is visible in someone else's non-_Finesse Position_, then _Priority Finesses_ are turned off and the team is committed to give a direct clue to the next card.
+- This clue is similar to a _Fix Clue_, since it fixes an impending misplay from a situation that looks like a _Priority Finesse_. But we specifically call this kind of clue a _Load Clue_ to differentiate it from a _Fix Clue_ that fixes a _Lie_ or mistake. It is a _Load Clue_ because it is loading the player who received the clue with something to do on their turn.
 - For example, in a 3-player game:
   - Red 1 and blue 1 are played on the stacks.
   - Alice has a choice between playing a known red 2 or a known blue 2. The red 2 has _Priority_ because it is the leftmost card.
@@ -164,9 +164,11 @@ Priority does not always apply. Some common exceptions are listed below.
 
 <LoadClue />
 
-### The Layered Priority Finesse
-
-- Similar to a normal _Layered Finesse_, it is also possible to initiate a _Layered Priority Finesse_ as long as the blind-playing player is not the very next person.
+- When a player receives a _Load Clue_, they are to interpret it as a normal _Play Clue_ instead of a _Fix Clue_.
+- A clue is still a _Load Clue_ even if would otherwise look like a _Save Clue_. (In other words, the card promised from the _Priority_ move has to be _somewhere_.)
+- _Load Clues_ are unique in that they are the only move that violates [_Information Lock Principle_](#level-3.mdx#information-lock-principle). In other words, when a player realizes that they have been given a _Load Clue_, they must rewind to when the _Prority Move_ happened, delete all of their _Priority_-related notes, and then re-interpret the clue from scratch.
+- If you receive a _Load Clue_, you should suspect that you might have something valuable on your chop, as this would be an excellent reason to commit the team to giving the _Load Clue_ in the first place.
+- If a player has a choice between playing one card that leads nowhere and playing one card that commits the team to giving a _Load Clue_, then they are not obligated to choose one or the other - they can choose whichever one is best for the situation.
 
 ### The Trust Finesse (A Situational Priority Finesse)
 
