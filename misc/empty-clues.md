@@ -74,7 +74,7 @@
 > IMPORTANT: The player must clearly point to the tiles which he is giving information about. (Thus saying "You have zero of something" is not allowed as you cannot point to anything.)
 
 - _Empty Clues_ make it easier for players to get a perfect score and can encourage game-breaking strategies, such as the one described in the 2015 paper [_How to Make the Perfect Fireworks Display: Two Strategies for Hanabi_](https://quuxplusone.github.io/blog/images/how-to-make-the-perfect-fireworks-display.pdf). This could be the reason that the rule was changed between releases.
-- When I contacted Antoine Bauza (the creator of Hanabi) on Twitter, [he was neutral](https://twitter.com/Zamiel_SRL/status/975919901520130048) to the question of whether _Empty Clues_ should be legal.
+- When I contacted Antoine Bauza (the creator of Hanabi) on Twitter, he was neutral to the question of whether _Empty Clues_ should be legal.
 - I acknowledge that players should play the game in the way that they find the most fun. With that said, expert players should challenge themselves to not use _Empty Clues_. Utilizing _Empty Clues_ is analogous to using a crutch - good players should be able to get a perfect score without having to resort to them.
 - The online implementations of the game handle _Empty Clues_ differently:
   - [Board Game Arena's implementation](https://en.boardgamearena.com/) does allow _Empty Clues_.
