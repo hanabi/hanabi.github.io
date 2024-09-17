@@ -16,6 +16,7 @@ import NoInformationDoubleBluff from "@site/image-generator/yml/level-21/no-info
 ## Special Moves
 
 import OccupiedFinesse from "@site/image-generator/yml/level-21/occupied-finesse.yml";
+import OccupiedSelfFinesse from "@site/image-generator/yml/level-21/occupied-self-finesse.yml";
 
 ### The Occupied Play Clue & The Occupied Finesse (OPC)
 
@@ -37,6 +38,18 @@ import OccupiedFinesse from "@site/image-generator/yml/level-21/occupied-finesse
   - Thus, Alice must intend for an _Occupied Finesse_. Bob plays his _Finesse Position_. It is a green 1 and it successfully plays.
 
 <OccupiedFinesse />
+
+- For example, in a 3-player game:
+  - Blue 1 is played on the stacks.
+  - Alice has a globally known playable red 1 in her hand and Bob has nothing to do.
+  - Alice clues number 2 to Cathy, which touches a 2 in slot 2.
+  - Bob discards.
+  - Normally, Cathy would intepret Alice's clue as a normal _Play Clue_ on the blue 2.
+  - However, since Alice is _Occupied_ and Bob could have given the same clue, Cathy knows that it must be an _Occupied Self-Finesse_ instead.
+  - Cathy blind-plays her _Finesse Position_. It is a red 1 and it successfully plays on the stacks.
+  - Cathy now knows that her 2 is the connecting red 2.
+
+<OccupiedSelfFinesse />
 
 ### The Out-of-Order Play Clue (Triple O / OOO)
 
