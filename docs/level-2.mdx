@@ -139,8 +139,8 @@ import WrongPrompt from "@site/image-generator/yml/level-2/wrong-prompt.yml";
   - One exception is when players are explicitly going for a perfect score in a really tough variant, but this is less common.
 - Building on this concept, it can also be **very bad** to get **two strikes in a row**. For example, say that Alice performs a bad clue and Bob misplays, causing a strike. And then Cathy "still believes" the original clue (thinking that Bob was the one who made the mistake instead of Alice), and Cathy goes on to misplay, causing yet another strike.
 - So, in general, we want to **limit mistakes to a single strike**. Why? Since Hanabi is so difficult, mistakes are common, and we don't want to push the team to the precipice of failure after one mistake.
-- This means that when a strike happens, **the state of information should "reset"** back to what it was before the mistake happened. Card notes made since the mistake should be disregarded.
-  - Other information, like empathy and which cards have been touched, does not reset.
+- This means that when a strike happens, **the state of information should "reset"** back to what it was before the mistake happened.
+  - Specifically, card notes that were made since the mistake should be deleted. Explicit information from clues does not reset.
 - For example, if Alice clues red to Cathy, and Bob misplays a card, then Cathy should **not** go on to play any of her red cards, and Cathy should **not** make any assumptions about what her red cards could be. Obviously, some kind of mistake happened, and Cathy should sit and wait patiently for further instructions.
 - This convention for what to do after a strike applies at all levels.
 
