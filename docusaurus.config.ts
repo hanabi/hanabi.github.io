@@ -1,9 +1,5 @@
 import type * as Preset from "@docusaurus/preset-classic";
 import type { Config } from "@docusaurus/types";
-import path from "node:path";
-import url from "node:url";
-
-const __dirname = path.dirname(url.fileURLToPath(import.meta.url));
 
 const config: Config = {
   title: "H-Group Conventions",
