@@ -16,6 +16,18 @@
   ],
 
   // @template-customization-start
+
+  "include": [
+    "./src/**/*.ts",
+    "./src/**/*.tsx",
+    "./image-generator/*.cjs",
+    "./image-generator/*.ts",
+    "./static/js/*.js",
+    "docusaurus.config.ts",
+    "sidebars.ts",
+  ],
+
   "exclude": [".docusaurus", "build", "scripts"],
+
   // @template-customization-end
 }

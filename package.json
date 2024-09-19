@@ -43,8 +43,11 @@
   "devDependencies": {
     "@docusaurus/eslint-plugin": "^3.5.2",
     "@docusaurus/tsconfig": "^3.5.2",
-    "@types/command-exists": "^1",
+    "@docusaurus/types": "^3.5.2",
+    "@types/command-exists": "^1.2.3",
     "complete-lint": "^1.9.2",
+    "complete-node": "^1.5.1",
+    "eslint": "^9.10.0",
     "isaacscript": "^5.0.6",
     "shell-loader": "^1.2.1",
     "tsx": "^4.19.1",

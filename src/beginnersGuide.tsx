@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { CircularProgressbar } from "react-circular-progressbar";
-import "react-circular-progressbar/dist/styles.css"; // eslint-disable-line import/no-unassigned-import, @typescript-eslint/no-restricted-imports
+import "react-circular-progressbar/dist/styles.css"; // eslint-disable-line @typescript-eslint/no-restricted-imports, import-x/no-unassigned-import
 import sidebars from "../sidebars";
 import { isObject } from "./utils";
 

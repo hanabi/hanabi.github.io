@@ -16,9 +16,6 @@ await lintScript(async () => {
     // - "--log-level=warn" makes it only output errors.
     $`prettier --log-level=warn --check .`,
 
-    // Use Knip to check for unused files, exports, and dependencies.
-    $`knip --no-progress`,
-
     // Use CSpell to spell check every file.
     // - "--no-progress" and "--no-summary" make it only output errors.
     $`cspell --no-progress --no-summary .`,
@@ -27,7 +24,7 @@ await lintScript(async () => {
     $`cspell-check-unused-words`,
 
     // Check for template updates.
-    $`isaacscript check-ts --ignore build.ts,LICENSE,lint.ts`,
+    $`isaacscript check-ts --ignore build.ts,knip.config.js,LICENSE,lint.ts`,
 
     // Check for invalid YAML files.
     $`bash ./image-generator/check_valid.sh`,
