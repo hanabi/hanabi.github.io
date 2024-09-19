@@ -1,44 +1,33 @@
 // The configuration file for TypeScript.
-// This file is not used in compilation. It is here just for a nice editor experience.
 {
-  "$schema": "https://raw.githubusercontent.com/IsaacScript/isaacscript/main/packages/isaacscript-cli/schemas/tsconfig-strict-schema.json",
+  "$schema": "https://raw.githubusercontent.com/complete-ts/complete/main/packages/complete-tsconfig/schemas/tsconfig-strict-schema.json",
 
   "extends": [
-    // We extend the base IsaacScript config:
-    // https://github.com/IsaacScript/isaacscript/blob/main/packages/isaacscript-tsconfig/tsconfig.base.json
-    "isaacscript-tsconfig/tsconfig.base.json",
+    // https://github.com/complete-ts/complete/blob/main/packages/complete-tsconfig/tsconfig.base.json
+    "complete-tsconfig/tsconfig.base.json",
 
-    // We extend the standard Docusaurus config:
+    // https://github.com/complete-ts/complete/blob/main/packages/complete-tsconfig/tsconfig.node.json
+    "complete-tsconfig/tsconfig.node.json",
+
+    // @template-customization-start
     // https://github.com/facebook/docusaurus/blob/main/packages/docusaurus-tsconfig/tsconfig.json
     "@docusaurus/tsconfig",
+    // @template-customization-end
   ],
 
-  // https://www.typescriptlang.org/docs/handbook/compiler-options.html
-  "compilerOptions": {
-    "baseUrl": ".",
-  },
+  // @template-customization-start
 
-  // We want to lint every file in the repository. Two entries for each file extension are needed
-  // because TypeScript will exclude files that begin with a period from an asterisk glob by
-  // default.
   "include": [
-    "./**/*.js",
-    "./**/.*.js",
-    "./**/*.cjs",
-    "./**/.*.cjs",
-    "./**/*.mjs",
-    "./**/.*.mjs",
-    "./**/*.jsx",
-    "./**/.*.jsx",
-    "./**/*.ts",
-    "./**/.*.ts",
-    "./**/*.cts",
-    "./**/.*.cts",
-    "./**/*.mts",
-    "./**/.*.mts",
-    "./**/*.tsx",
-    "./**/.*.tsx",
+    "./src/**/*.ts",
+    "./src/**/*.tsx",
+    "./image-generator/*.cjs",
+    "./image-generator/*.ts",
+    "./static/js/*.js",
+    "docusaurus.config.ts",
+    "sidebars.ts",
   ],
 
   "exclude": [".docusaurus", "build", "scripts"],
+
+  // @template-customization-end
 }

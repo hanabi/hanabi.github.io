@@ -1,5 +1,5 @@
 import useBaseUrl from "@docusaurus/useBaseUrl";
-import clsx from "clsx";
+import { clsx } from "clsx";
 import styles from "./styles.module.css";
 
 interface FeatureItem {
@@ -10,7 +10,7 @@ interface FeatureItem {
   link: string;
 }
 
-// eslint-disable-next-line isaacscript/require-capital-const-assertions, isaacscript/require-capital-read-only
+// eslint-disable-next-line complete/require-capital-const-assertions, complete/require-capital-read-only
 const FeatureList: FeatureItem[] = [
   {
     num: 1,

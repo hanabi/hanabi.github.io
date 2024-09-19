@@ -33,8 +33,8 @@
     "@mdx-js/react": "^3.0.1",
     "clsx": "^2.1.1",
     "command-exists": "^1.2.9",
-    "execa": "^9.3.1",
-    "prism-react-renderer": "^2.3.1",
+    "execa": "^9.4.0",
+    "prism-react-renderer": "^2.4.0",
     "raw-loader": "^4.0.2",
     "react": "^18.3.1",
     "react-circular-progressbar": "^2.1.0",
@@ -43,15 +43,15 @@
   "devDependencies": {
     "@docusaurus/eslint-plugin": "^3.5.2",
     "@docusaurus/tsconfig": "^3.5.2",
-    "@types/command-exists": "^1",
-    "isaacscript": "^4.5.1",
-    "isaacscript-common-node": "^4.0.6",
-    "isaacscript-lint": "^6.20.0",
-    "isaacscript-tsconfig": "^5.0.0",
+    "@docusaurus/types": "^3.5.2",
+    "@types/command-exists": "^1.2.3",
+    "complete-lint": "^1.9.2",
+    "complete-node": "^1.5.1",
+    "eslint": "^9.10.0",
+    "isaacscript": "^5.0.6",
     "shell-loader": "^1.2.1",
-    "tsx": "^4.17.0",
-    "typescript": "5.3.3",
-    "webpack": "^5.93.0"
-  },
-  "packageManager": "yarn@4.4.0"
+    "tsx": "^4.19.1",
+    "typescript": "5.5.4",
+    "webpack": "^5.94.0"
+  }
 }
