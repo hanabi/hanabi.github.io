@@ -13,7 +13,7 @@
     "serve": "docusaurus serve",
     "start": "docusaurus start",
     "swizzle": "docusaurus swizzle",
-    "update": "isaacscript update"
+    "update": "npm-check-updates --upgrade --filter !typescript"
   },
   "browserslist": {
     "production": [
