@@ -1,5 +1,5 @@
 import commandExists from "command-exists";
-import { $ } from "execa";
+import { execSync } from "node:child_process";
 
 export function getPythonCommand(
   fatal: boolean,
@@ -33,7 +33,7 @@ export function getPythonCommand(
  */
 function doesCommandWork(command: string): boolean {
   try {
-    const output = $.sync`${command} --version`.stdout;
+    const output = execSync(`${command} --version`, { encoding: "utf8" });
     return !output.includes("was not found");
   } catch {
     return false;
