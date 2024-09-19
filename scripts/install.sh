@@ -23,7 +23,8 @@ fi
 
 echo "Installing JavaScript dependencies..."
 cd "$DIR"
-npm ci
+corepack enable
+yarn install
 echo "Complete."
 
 echo "Installing Python dependencies..."

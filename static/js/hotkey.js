@@ -1,3 +1,5 @@
+// @ts-check
+
 const WEBPAGE_NAME = "H-Group Conventions";
 const FIRST_DOC_PAGE_TITLE = "About";
 const LAST_DOC_PAGE_TITLE = "Convention Attribution";

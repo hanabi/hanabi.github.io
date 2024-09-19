@@ -2,14 +2,18 @@ runs:
   using: composite
 
   steps:
+    - name: Enable corepack to work around a setup-node bug
+      run: corepack enable
+      shell: bash # Composite jobs must specify the shell.
+
     - name: Setup Node.js
       uses: actions/setup-node@v4
       with:
         node-version: lts/*
-        cache: npm
+        cache: yarn
 
     - name: Install dependencies
-      run: npm ci
+      run: yarn install --immutable
       shell: bash # Composite jobs must specify the shell.
 
     # @template-customization-start

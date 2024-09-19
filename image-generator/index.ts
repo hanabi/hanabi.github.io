@@ -11,7 +11,6 @@ import { getPythonCommand } from "./getPythonCommand";
  *
  * "SyntaxError: Cannot use 'import.meta' outside a module"
  */
-// eslint-disable-next-line @typescript-eslint/naming-convention
 const __dirname = path.dirname(url.fileURLToPath(import.meta.url));
 
 const createSVGScriptPath = path.join(__dirname, "create_svg.py");
@@ -61,7 +60,7 @@ export default function hanabiDocusaurusPlugin(): Plugin {
                   },
                 },
                 {
-                  loader: path.join(__dirname, "depender.cjs"),
+                  loader: path.join(__dirname, "depender.js"),
                 },
               ],
             },

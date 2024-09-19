@@ -8,7 +8,6 @@
     // @template-customization-start
     "unifiedjs.vscode-mdx", // Extension for MDX
     "ms-python.python", // Extension for Python scripts
-    "ms-python.black-formatter", // The Python formatter
     // @template-customization-end
   ],
 }
