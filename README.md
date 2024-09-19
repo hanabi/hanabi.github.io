@@ -74,8 +74,8 @@ Editing files on the GitHub website is a pain. If you are adding a significant a
 ### Part 4 - Make Sure There Are No Errors
 
 - The website has some automated checks that can catch spelling errors and related mistakes. After making some changes, you should ensure that there are no errors with what you did.
-- In the shell from the previous step, run the "lint.sh" script:
-  - `./lint.sh`
+- In the shell from the previous step, run the lint script:
+  - `npm run lint`
 - If it reports "Success!", then no errors were found. Otherwise, a description of the error will be shown.
 
 ### Part 5 - Commit Changes and Submit a PR
