@@ -49,6 +49,6 @@
     "complete-node": "1.5.1",
     "isaacscript": "5.0.6",
     "typescript": "5.5.4",
-    "webpack": "5.93.0"
+    "webpack": "5.94.0"
   }
 }
