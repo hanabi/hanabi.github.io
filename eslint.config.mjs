@@ -10,6 +10,14 @@ export default tseslint.config(
   // https://github.com/complete-ts/complete/blob/main/packages/eslint-config-complete/src/base.js
   ...completeConfigBase,
 
+  // @template-customization-start
+
+  // https://github.com/facebook/docusaurus/blob/main/packages/eslint-plugin/src/index.ts
+  // Disabled due to: https://github.com/facebook/docusaurus/issues/10490
+  /// ...compat.extends("plugin:@docusaurus/all"),
+
+  // @template-customization-end
+
   {
     rules: {
       // Insert changed or disabled rules here, if necessary.
