@@ -30,10 +30,10 @@ jobs:
       - uses: actions/checkout@v4
       - uses: ./.github/workflows/setup
       - run: npm run build # It is faster to rebuild than to download/upload the build output.
-      - uses: actions/upload-pages-artifact@v2
+      - uses: actions/upload-pages-artifact@v3
         with:
-          path: "./build"
-      - uses: actions/deploy-pages@v2
+          path: ./build
+      - uses: actions/deploy-pages@v4
 
   discord:
     name: Discord Failure Notification
