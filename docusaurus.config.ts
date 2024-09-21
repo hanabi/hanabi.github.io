@@ -109,6 +109,7 @@ const config: Config = {
   plugins: ["./image-generator/index.ts"],
   scripts: [
     // Font Awesome is used for the icons on the landing page.
+    // https://fontawesome.com/kits/1932a73877/setup
     {
       src: "https://kit.fontawesome.com/1932a73877.js",
       crossorigin: "anonymous",
