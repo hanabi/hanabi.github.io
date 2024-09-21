@@ -2,7 +2,6 @@ import Link from "@docusaurus/Link";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
-import { clsx } from "clsx";
 import HomepageFeatures from "../components/HomepageFeatures";
 import styles from "./styles.module.css";
 
@@ -10,7 +9,7 @@ function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
 
   return (
-    <header className={clsx("hero hero--primary", styles["heroBanner"])}>
+    <header className={`hero hero--primary ${styles["heroBanner"]}`}>
       <div className="container">
         <img src={useBaseUrl("img/logo.png")} width="200em" />
         <h1 className="hero__title">{siteConfig.title}</h1>
@@ -28,10 +27,7 @@ function HomepageHeader() {
         </p>
         <div className={styles["buttons"]}>
           <Link
-            className={clsx(
-              "button button--outline button--secondary button--lg",
-              styles["getStarted"],
-            )}
+            className={`button button--outline button--secondary button--lg ${styles["getStarted"]}`}
             to={useBaseUrl("about")}
           >
             Learn More

@@ -1,5 +1,4 @@
 import useBaseUrl from "@docusaurus/useBaseUrl";
-import { clsx } from "clsx";
 import styles from "./styles.module.css";
 
 interface FeatureItem {
@@ -36,23 +35,21 @@ const FeatureList: FeatureItem[] = [
 ];
 
 function Feature({ num, title, iconName, description, link }: FeatureItem) {
-  const iconStyles = `fa fa-${iconName} fa-stack-1x fa-inverse`;
-  const circleStyles = `fa fa-circle fa-stack-2x accent${num}`;
   return (
-    <div className={clsx("col col--4", styles["feature"])}>
-      {iconStyles !== "" && (
-        <div className="text--center">
-          <br />
-          <a href={useBaseUrl(link)}>
-            <span className="fa-stack fa-3x">
-              <i className={circleStyles}></i>
-              <i className={iconStyles}></i>
-            </span>
-          </a>
-          <br />
-          <br />
-        </div>
-      )}
+    <div className={`col col--4 ${styles["feature"]}`}>
+      <div className="text--center">
+        <br />
+        <a href={useBaseUrl(link)}>
+          <span className="fa-stack fa-3x">
+            <div
+              className={`fa fa-circle fa-stack-2x ${styles[`circle-accent${num}`]}`}
+            ></div>
+            <div className={`fa fa-${iconName} fa-stack-1x fa-inverse`}></div>
+          </span>
+        </a>
+        <br />
+        <br />
+      </div>
       <h3 className="text--center">
         <a href={useBaseUrl(link)}>{title}</a>
       </h3>
