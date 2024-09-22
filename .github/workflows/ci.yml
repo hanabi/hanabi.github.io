@@ -9,10 +9,15 @@ jobs:
       - uses: actions/checkout@v4
       - uses: ./.github/workflows/setup
       - run: npm run build
+
+      # @template-customization-start
+
       - uses: actions/upload-artifact@v4
         with:
           name: build
           path: ./build
+
+      # @template-customization-end
 
   lint:
     runs-on: ubuntu-latest
