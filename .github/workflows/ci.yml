@@ -35,6 +35,43 @@ jobs:
           path: ./build
       - uses: actions/deploy-pages@v4
 
+      - name: Check if the "ALGOLIA_CRAWLER_USER_ID" GitHub secret is set
+        env:
+          SECRET_CHECK: ${{ secrets.ALGOLIA_CRAWLER_USER_ID }}
+        if: ${{ env.SECRET_CHECK == '' }}
+        run: |
+          echo "Error: The GitHub secret of \"ALGOLIA_CRAWLER_USER_ID\" is not set."
+          exit 1
+
+      - name: Check if the "ALGOLIA_CRAWLER_ID" GitHub secret is set
+        env:
+          SECRET_CHECK: ${{ secrets.ALGOLIA_CRAWLER_ID }}
+        if: ${{ env.SECRET_CHECK == '' }}
+        run: |
+          echo "Error: The GitHub secret of \"ALGOLIA_CRAWLER_ID\" is not set."
+          exit 1
+
+      - name: Check if the "ALGOLIA_CRAWLER_API_KEY" GitHub secret is set
+        env:
+          SECRET_CHECK: ${{ secrets.ALGOLIA_CRAWLER_API_KEY }}
+        if: ${{ env.SECRET_CHECK == '' }}
+        run: |
+          echo "Error: The GitHub secret of \"ALGOLIA_CRAWLER_API_KEY\" is not set."
+          exit 1
+
+      - name: Run Algolia Crawler
+        env:
+          # From: https://crawler.algolia.com/admin/user/settings/
+          ALGOLIA_CRAWLER_USER_ID: ${{ secrets.ALGOLIA_CRAWLER_USER_ID }}
+          ALGOLIA_CRAWLER_API_KEY: ${{ secrets.ALGOLIA_CRAWLER_API_KEY }}
+
+          # From: https://crawler.algolia.com/admin/crawlers/dad522b3-94ab-461d-a752-7217b4c91b9e/settings
+          ALGOLIA_CRAWLER_ID: ${{ secrets.ALGOLIA_CRAWLER_ID }}
+        run: |
+          curl -X POST -H "Content-Type: application/json" \
+            --user $ALGOLIA_CRAWLER_USER_ID:$ALGOLIA_CRAWLER_API_KEY \
+            "https://crawler.algolia.com/api/1/crawlers/$ALGOLIA_CRAWLER_ID/reindex"
+
   discord:
     name: Discord Failure Notification
     needs: [build, lint, deploy_website]
