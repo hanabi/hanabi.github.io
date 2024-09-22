@@ -55,20 +55,20 @@ jobs:
           echo "Error: The GitHub secret of \"ALGOLIA_CRAWLER_USER_ID\" is not set."
           exit 1
 
-      - name: Check if the "ALGOLIA_CRAWLER_ID" GitHub secret is set
-        env:
-          SECRET_CHECK: ${{ secrets.ALGOLIA_CRAWLER_ID }}
-        if: ${{ env.SECRET_CHECK == '' }}
-        run: |
-          echo "Error: The GitHub secret of \"ALGOLIA_CRAWLER_ID\" is not set."
-          exit 1
-
       - name: Check if the "ALGOLIA_CRAWLER_API_KEY" GitHub secret is set
         env:
           SECRET_CHECK: ${{ secrets.ALGOLIA_CRAWLER_API_KEY }}
         if: ${{ env.SECRET_CHECK == '' }}
         run: |
           echo "Error: The GitHub secret of \"ALGOLIA_CRAWLER_API_KEY\" is not set."
+          exit 1
+
+      - name: Check if the "ALGOLIA_CRAWLER_ID" GitHub secret is set
+        env:
+          SECRET_CHECK: ${{ secrets.ALGOLIA_CRAWLER_ID }}
+        if: ${{ env.SECRET_CHECK == '' }}
+        run: |
+          echo "Error: The GitHub secret of \"ALGOLIA_CRAWLER_ID\" is not set."
           exit 1
 
       - name: Run Algolia Crawler
