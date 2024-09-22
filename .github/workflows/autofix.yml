@@ -1,6 +1,6 @@
 # See: https://autofix.ci/
 
-name: autofix
+name: autofix.ci # This cannot be renamed or else the action will fail.
 
 on: [push, pull_request]
 
