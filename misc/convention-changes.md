@@ -23,7 +23,7 @@
 
 - No decisions are made immediately, as:
   - We want the convention framework to change fairly slowly.
-  - Not every player regularly reads the GitHub issues, so we want to allow time for everyone to comment.
+  - Not every player regularly reads the Discord forum, so we want to allow time for everyone to comment.
 - The length of time to wait will depend on how big the change is:
   - If it is a small, non-controversial change, then it might make sense to immediately implement it.
   - Otherwise, we would typically wait a while so that everyone has time to chime in.
