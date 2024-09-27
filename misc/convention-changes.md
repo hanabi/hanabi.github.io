@@ -10,15 +10,10 @@
 
 ## How are _Convention Framework_ changes proposed?
 
-- We use the [GitHub issues tracker](https://github.com/hanabi/hanabi.github.io/issues) for this repository in order to organize convention proposals. (All GitHub-related discussion is also mirrored to the `#new-conventions` channel in [the Discord server](https://discord.gg/FADvkJp).)
-- Players must submit [a new issue](https://github.com/hanabi/hanabi.github.io/issues/new) for their request or proposed change.
-- In a new issue, players will typically type up a short paragraph of the proposed change. Screenshots and/or Alice and Bob stories are encouraged so that other players can easily understand what is being proposed.
+- We use the #convention-proposals forum in [our Discord server](https://discord.gg/FADvkJp) as the place for people to propose changes.
+- Players must submit a new post for their request or proposed change.
+- In the new post, players will typically type up a short paragraph of the proposed change. Alice and Bob stories are encouraged so that other players can easily understand what is being proposed.
 - Then, other players can comment on whether they like it or not, or if they see any potential problems.
-
-## Do I need a GitHub account to submit new proposals or to comment on other people's proposals?
-
-- Yes, you do. Thankfully, GitHub accounts are free and it is relatively painless to create one.
-- GitHub allows us to have threaded discussion and makes things much easier to track.
 
 ## Do I need to be an expert player in order to review the latest _Convention Framework_ changes or join in the discussion?
 
@@ -56,15 +51,9 @@
 
 - Changes usually happen slowly, over the course of months. This allows players who only play occasionally time to adjust (e.g. players who only play on the weekends, and so forth).
 
-## Are there any probationary conventions?
-
-- By default, players generally use the conventions that are specified in the main [website](https://hanabi.github.io/reference).
-- Conventions listed in the [GitHub issues tracker](https://github.com/hanabi/hanabi.github.io/issues) are considered probationary. Players can agree to play with one or more probationary conventions before the game begins, if they want to try something out.
-- When the issue for a proposed convention is closed, it will be integrated into the main website. At that time, it is no longer considered to be probationary.
-
 ## When are new conventions announced? How do announcements work?
 
-- Convention changes are announced to the group via the `#announcements` channel in the Discord server.
+- Convention changes are announced to the group via the `#convention-announcements` channel in the Discord server.
 - Every single convention change is announced to the group in this way (unless it is really small or insignificant).
 - Changes are generally announced at the same time that the website is updated.
 - However, there are at maximum two or three convention changes announced per week. The reason for this is to not overwhelm players of the group - not everybody wants to play Hanabi every day or read a bunch of boring convention-related stuff.
