@@ -539,6 +539,16 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
 - _Prophetic Discharges_ can only be triggered by using a color clue.
 - _Prophetic Discharges_ can be _Layered_. (See the _Prophetic Finesse_ section for an example of this.)
 
+### The Speed-up Clue
+
+- The _Layered Finesse_ convention (and its derivatives) are very efficient (in terms of "X-for-1"). However, sometimes it can be very slow (low-_Tempo_), as players will have to allow for all possible _Reverse Finesses_ before playing anything. This is generally not a problem in 3-player games, but _Tempo_ is important in 5-player games.
+- Normally, when the _Finesse Target_ (the card that is to be blind-played) is clued directly, it is a mistake due to someone not paying close enough attention. We refer to this as _Stomping on a Finesse_.
+- However, if high-_Tempo_ is needed, a player can consider intentionally _stomping_ on a _Layered Finesse_ in order to "speed up" the play of a specific card that leads into other players hands.
+- One complicating factor of the _Speed-up Clue_ is how to differentiate it from a more-ordinary _Fix Clue_. In other words, after the clued card is played, on their next turn, should the player go back and blind-play the other cards? If it was a _Speed-up Clue_, they should. If it was a _Fix Clue_, they should not.
+- The key lies in the context of the clue:
+  - Was it possible to take an equivalent line where a _Fix Clue_ would not be needed? (In terms of the same number of clues, and no risk of discarding critical/playable cards.) If yes, then it is a _Speed-up Clue_.
+  - Is the timing of the _Fix Clue_ appropriate? If not, then it might be a _Speed Up_ clue.
+
 ### The Pestilent Finesse
 
 - First, see the section on the _Pestilent Double Bluff_.
@@ -566,3 +576,22 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
   - Thus, this must be a _Disease Clandestine Finesse_. In other words, Alice told him that his 2 was playable right now, and no-one else has blind-played any 1s, so Bob must continue to blind-play cards until his 2 is playable.
   - Bob blind-plays his slot 3 card and it successfully plays as the blue 1.
   - Bob knows that his 2 must be the blue 2 to connect to the blue 1.
+
+### The Black Save Bluff
+
+- Normally, if a black 1 is on chop, it is clued with number 1 instead of black. This is because a black color clue would make it look like a _Save Clue_ on either black 3 or black 4, and then it would sit there, not being played.
+- Furthermore, if a black 1 is on chop and it was clued as black **and** the clue touched other new black cards in the hand, then the clue could also be a _Save Clue_ on black 2 (as per the _Save Clue_ rules outlined in the _Black 2 Saves_ section).
+- Thus, if another player intentionally clues a black 1 on chop with a black color clue **and** it touched other new black cards, this would be quite strange, as it would not get the black 1 to play, so they must be trying to communicate something extra.
+- This is a sneaky signal that the next player has a playable card on their _Finesse Position_. By blind-playing it, they can show that a _Bluff_ is happening.
+- In a normal _Bluff_, the player receiving the clue would think that it is a one-away from playable card. In this case, if it was a normal _Bluff_, they would think that they have the black 2.
+- However, as noted above, in this situation black 2's on chop are allowed to be touched as a _Save Clue_. So, touching a black 2 in this way would **not** cause a blind-play. Thus, by convention, the card should be black 1, and they can play it.
+- It is also possible to use this convention to perform a _Black Save Bluff_ on cards other than the black 1. For example, in a 3-player game:
+  - All of the 1's are played on the stacks.
+  - Cathy has a black 3 on slot 3 and a black 2 on slot 5. (The black 2 is on chop.)
+  - Cathy has no other 2's in her hand, so a number 2 clue is available for Alice to use and would clearly communicate a _Play Clue_ on the black 2 (since all of the 2's are currently playable).
+  - Alice clues black to Cathy.
+  - Bob knows that this will be treated as either a black 3 or a black 4 save, and the black 2 will never play.
+  - Bob also sees that there is nothing special going on.
+  - There must be a reason for this bad clue, so Bob knows that this is the _Black Save Bluff_, and he blind-plays his slot 1. It is a red 2.
+  - Cathy knows that Alice's black clue touched two new cards, it is a legal save on any black cards in the game, which means that Bob should never have blind-played anything.
+  - Thus, Cathy knows that it was a _Black Save Bluff_ and she has exactly black 2 on her slot 5. Cathy plays black 2.
