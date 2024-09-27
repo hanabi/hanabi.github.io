@@ -77,7 +77,7 @@ jobs:
           ALGOLIA_CRAWLER_USER_ID: ${{ secrets.ALGOLIA_CRAWLER_USER_ID }}
           ALGOLIA_CRAWLER_API_KEY: ${{ secrets.ALGOLIA_CRAWLER_API_KEY }}
 
-          # From: https://crawler.algolia.com/admin/crawlers/dad522b3-94ab-461d-a752-7217b4c91b9e/settings
+          # From: https://crawler.algolia.com/admin/crawlers/[crawler-id]/settings
           ALGOLIA_CRAWLER_ID: ${{ secrets.ALGOLIA_CRAWLER_ID }}
         run: |
           curl -X POST -H "Content-Type: application/json" \
