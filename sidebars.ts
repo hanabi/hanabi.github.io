@@ -197,7 +197,6 @@ const sidebars: SidebarsConfig = {
         "variant-specific/no-positive-clues",
         "variant-specific/null",
         "variant-specific/number-blind",
-        "variant-specific/number-mute",
         "variant-specific/odds-and-evens",
         "variant-specific/omni",
         "variant-specific/pink",
