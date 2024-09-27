@@ -90,36 +90,6 @@ import InvertedPriorityFinesse from "@site/image-generator/yml/extras/special-fi
 - Theoretically, it could be possible to perform a _Gentleman's Discard_ that contains a _Patch Component_.
 - However, we explicitly disallow this. _Gentleman's Discards_ **must** be for cards that are on slot 1. Otherwise, it would communicate a _Blaze Discard_.
 
-### The Pestilent Finesse
-
-- First, see the section on the _[Pestilent Double Bluff](../level-15.mdx#the-pestilent-double-bluff-pdb)_.
-- In the _Pestilent Double Bluff_ example, Cathy is supposed to immediately blind-play her _Finesse Position_ card in order to "heal" the situation with Bob.
-- However, if Cathy sees that someone else on the team has the blue 2 in their _Finesse Position_, then Cathy can see that it is a _Pestilent Finesse_ instead of a _Pestilent Bluff_. Cathy can simply let the person with the actual blue 2 blind-play and that will "heal" the problem in the exact same way.
-- A _Pestilent Finesse_ cannot be in reverse. (In other words, the blind-play must happen before the clued player can misplay.)
-
-### The Diseased Clandestine Finesse
-
-- First, see the section on the _[Pestilent Double Bluff](../level-15.mdx#the-pestilent-double-bluff-pdb)_.
-- In the _Pestilent Double Bluff_ example, Cathy is supposed to immediately blind-play her _Finesse Position_ card in order to "heal" the situation with Bob.
-- However, if Cathy sees a clue that she can give that will turn the move into a _Clandestine Finesse_ on Bob, then she must always do that.
-- For example, in a 4-player game:
-  - It is the first turn of the game and nothing is played on the stacks.
-  - Bob's hand is as follows, from newest to oldest: `red 1, blue 2, blue 1, blue 5`
-  - Donald hand has a red 2 in it.
-  - Alice clues number 2 to Bob, touching a blue 2 on slot 2.
-  - Bob blind-plays the red 1.
-  - Cathy sees that this looks like a _Pestilent Double Bluff_ situation. However, she also sees that if she gives a _Play Clue_ to the red 2, Donald will play it, and then Bob will reinterpret Alice's clue as a _Clandestine Finesse_.
-  - Cathy clues red to Donald, touching a red 2 as a _Play Clue_.
-  - Donald plays the red 2.
-  - Alice discards.
-  - Originally, Bob thought that Alice had performed a _Self-Finesse_ on him for the red 1 into the red 2. However, from _Good Touch Principle_, this cannot be the case anymore, because Cathy got Donald's red 2.
-  - Thus, Bob's 2 must be some other 2. Bob knows that this would normally cause a _Pestilent Double Bluff_, but Cathy did not blind-play anything.
-  - Thus, this must be a _Disease Clandestine Finesse_. In other words, Alice told him that his 2 was playable right now, and no-one else has blind-played any 1s, so Bob must continue to blind-play cards until his 2 is playable.
-  - Bob blind-plays his slot 3 card and it successfully plays as the blue 1.
-  - Bob knows that his 2 must be the blue 2 to connect to the blue 1.
-
-<DiseasedClandestineFinesse />
-
 ### The Surreptitious Finesse
 
 - _Clandestine Finesses_ are when a color or rank clue "connects" to the card from a blind-play, but the clue receiver must wait for **additional** connecting playable cards to blind-play. Another way of saying this is that _Clandestine Finesses_ have a _Misplay Component_; if the blind-player does not continue to blind-play cards, then the clue receiver will go on to misplay the clued card.

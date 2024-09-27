@@ -162,7 +162,6 @@ const sidebars: SidebarsConfig = {
         "extras/special-bluffs",
         "extras/suboptimal-moves",
         "extras/pushes-pulls",
-        "extras/signal-shifting",
         "extras/ejections",
         "extras/discharges",
         "extras/charms",

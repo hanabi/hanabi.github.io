@@ -363,7 +363,6 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
 
 - If a player knows that a card in their hand is playable, and then they receive **another** clue on that card, it is usually a _Fix Clue_, which means that the card is actually bad and they should discard it instead of playing it.
 - However, if this happens on a good card, the other players can see that the clue must have some other purpose - it should signal an _Ejection_ on the very next player.
-- This results in a _Signal Shift_ from _Fix_ --> _Play_.
 - This convention was removed in favor of the _Replay Double Ignition_ and _Replay Ejection_.
 
 ### The Safety Charm (Declined 5 Pull)
@@ -516,7 +515,7 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
   - Cathy knows that this a _Prophetic Finesse_ and that she is promised to have a blue 1 on her _Finesse Position_. Cathy blind-plays her _Finesse Position_ (as a _Prophetic Blind-Play_). It is a blue 1 and it successfully plays.
   - Donald knows that since a number 1 clue touched a single 1 and caused two blind-plays, this must be a _Prophetic Finesse_. Donald marks his touched 1 as trash. He also _Chop Moves_ his slot 4 card because of the _unnecessary_ part of the move.
 - _Prophetic Finesses_ can only be triggered by touching **exactly one 1**.
-- _Prophetic Finesses_ can only be triggered by using a number 1 clue. (Color clues cause a _[Prophetic Discharge](discharges.mdx#the-prophetic-discharge)_.)
+- _Prophetic Finesses_ can only be triggered by using a number 1 clue. (Color clues cause a _Prophetic Discharge_.)
 - _Prophetic Finesses_ can not be given in reverse.
 - _Prophetic Finesses_ can be _Layered_. In other words, in the previous example, if Cathy plays her _Finesse Position_ and it is yellow 1, she will be surprised. However, Cathy will know that she is promised to have the blue 1, so she will go on to play the blue 1 from her _Second Finesse Position_ on the next turn.
 - _Prophetic Finesses_ can also be given in situations that cannot be mistaken for _Trash Finesses_.
@@ -539,3 +538,31 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
 - _Prophetic Discharges_ can only be triggered by touching **exactly one 1**.
 - _Prophetic Discharges_ can only be triggered by using a color clue.
 - _Prophetic Discharges_ can be _Layered_. (See the _Prophetic Finesse_ section for an example of this.)
+
+### The Pestilent Finesse
+
+- First, see the section on the _Pestilent Double Bluff_.
+- In the _Pestilent Double Bluff_ example, Cathy is supposed to immediately blind-play her _Finesse Position_ card in order to "heal" the situation with Bob.
+- However, if Cathy sees that someone else on the team has the blue 2 in their _Finesse Position_, then Cathy can see that it is a _Pestilent Finesse_ instead of a _Pestilent Bluff_. Cathy can simply let the person with the actual blue 2 blind-play and that will "heal" the problem in the exact same way.
+- A _Pestilent Finesse_ cannot be in reverse. (In other words, the blind-play must happen before the clued player can misplay.)
+
+### The Diseased Clandestine Finesse
+
+- First, see the section on the _Pestilent Double Bluff_.
+- In the _Pestilent Double Bluff_ example, Cathy is supposed to immediately blind-play her _Finesse Position_ card in order to "heal" the situation with Bob.
+- However, if Cathy sees a clue that she can give that will turn the move into a _Clandestine Finesse_ on Bob, then she must always do that.
+- For example, in a 4-player game:
+  - It is the first turn of the game and nothing is played on the stacks.
+  - Bob's hand is as follows, from newest to oldest: `red 1, blue 2, blue 1, blue 5`
+  - Donald hand has a red 2 in it.
+  - Alice clues number 2 to Bob, touching a blue 2 on slot 2.
+  - Bob blind-plays the red 1.
+  - Cathy sees that this looks like a _Pestilent Double Bluff_ situation. However, she also sees that if she gives a _Play Clue_ to the red 2, Donald will play it, and then Bob will reinterpret Alice's clue as a _Clandestine Finesse_.
+  - Cathy clues red to Donald, touching a red 2 as a _Play Clue_.
+  - Donald plays the red 2.
+  - Alice discards.
+  - Originally, Bob thought that Alice had performed a _Self-Finesse_ on him for the red 1 into the red 2. However, from _Good Touch Principle_, this cannot be the case anymore, because Cathy got Donald's red 2.
+  - Thus, Bob's 2 must be some other 2. Bob knows that this would normally cause a _Pestilent Double Bluff_, but Cathy did not blind-play anything.
+  - Thus, this must be a _Disease Clandestine Finesse_. In other words, Alice told him that his 2 was playable right now, and no-one else has blind-played any 1s, so Bob must continue to blind-play cards until his 2 is playable.
+  - Bob blind-plays his slot 3 card and it successfully plays as the blue 1.
+  - Bob knows that his 2 must be the blue 2 to connect to the blue 1.
