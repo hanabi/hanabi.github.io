@@ -21,22 +21,6 @@ const VERTICAL_SPACING_BETWEEN_PLAYERS = 20;
 const PLAYER_NAMES = ["Alice", "Bob", "Cathy", "Donald", "Emily"];
 const PIECES_PATH = "/img/pieces";
 const NO_VARIANT_SUITS = ["r", "y", "g", "b", "p"];
-const ALL_SUITS = [
-  "r", // Red
-  "y", // Yellow
-  "g", // Green
-  "b", // Blue
-  "p", // Purple
-  "t", // Teal
-  "k", // Black
-  "m", // Rainbow
-  "i", // Pink
-  "w", // White
-  "n", // Brown
-  "o", // Omni
-  "u", // Null
-  "s", // Prism
-];
 const ALL_RANKS = new Set(["1", "2", "3", "4", "5"]);
 
 const DEFS_PREFACE = `
