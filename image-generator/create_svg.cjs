@@ -191,7 +191,7 @@ class SVG {
   }
 }
 
-class Imager {
+class ImageGenerator {
   #all_suits = []; // Representing the possible suits for the current variant.
   #x_offset = 0;
   #y_offset = 0;
@@ -933,6 +933,6 @@ class Imager {
 
 module.exports = function convertYamlToSvg(content, _map, _meta) {
   const yaml_file = YAML.parse(content, { mapAsMap: true });
-  const imager = new Imager(yaml_file);
+  const imager = new ImageGenerator(yaml_file);
   return imager.svg_text();
 };
