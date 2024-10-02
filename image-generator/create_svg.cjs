@@ -6,6 +6,7 @@
 "use strict";
 
 const YAML = require("yaml");
+require("core-js/actual/set");
 
 // Constants
 const TEXT_COLOR_CLASS = "site-theme-text";
