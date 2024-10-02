@@ -13,8 +13,6 @@ import url from "node:url";
 // eslint-disable-next-line @typescript-eslint/naming-convention
 const __dirname = path.dirname(url.fileURLToPath(import.meta.url));
 
-const createSVGScriptPath = path.join(__dirname, "create_svg_cli.mjs");
-
 export default function hanabiDocusaurusPlugin(): Plugin {
   return {
     name: "hanabi-docusaurus-plugin",
@@ -53,13 +51,7 @@ export default function hanabiDocusaurusPlugin(): Plugin {
                   },
                 },
                 {
-                  loader: "shell-loader",
-                  options: {
-                    script: `node ${createSVGScriptPath}`,
-                  },
-                },
-                {
-                  loader: path.join(__dirname, "depender.cjs"),
+                  loader: path.join(__dirname, "create_svg.cjs"),
                 },
               ],
             },
