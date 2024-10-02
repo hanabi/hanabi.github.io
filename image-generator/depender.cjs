@@ -6,6 +6,7 @@
 const path = require("node:path");
 
 module.exports = function addCreateSVGDependency(content, _map, _meta) {
-  this.addDependency(path.resolve(__dirname, "create_svg.py"));
+  this.addDependency(path.resolve(__dirname, "create_svg.cjs"));
+  this.addDependency(path.resolve(__dirname, "create_svg_cli.mjs"));
   return content;
 };

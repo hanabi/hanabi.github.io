@@ -4,7 +4,6 @@
 import type { Plugin } from "@docusaurus/types";
 import path from "node:path";
 import url from "node:url";
-import { getPythonCommand } from "./getPythonCommand";
 
 /**
  * Using `import.meta.dirname` here results in an error while building:
@@ -14,8 +13,7 @@ import { getPythonCommand } from "./getPythonCommand";
 // eslint-disable-next-line @typescript-eslint/naming-convention
 const __dirname = path.dirname(url.fileURLToPath(import.meta.url));
 
-const createSVGScriptPath = path.join(__dirname, "create_svg.py");
-const pythonCommand = getPythonCommand(true);
+const createSVGScriptPath = path.join(__dirname, "create_svg_cli.mjs");
 
 export default function hanabiDocusaurusPlugin(): Plugin {
   return {
@@ -57,7 +55,7 @@ export default function hanabiDocusaurusPlugin(): Plugin {
                 {
                   loader: "shell-loader",
                   options: {
-                    script: `${pythonCommand} ${createSVGScriptPath}`,
+                    script: `node ${createSVGScriptPath}`,
                   },
                 },
                 {
