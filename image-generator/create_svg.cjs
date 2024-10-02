@@ -933,6 +933,6 @@ class ImageGenerator {
 
 module.exports = function convertYamlToSvg(content, _map, _meta) {
   const yaml_file = YAML.parse(content, { mapAsMap: true });
-  const imager = new ImageGenerator(yaml_file);
-  return imager.svg_text();
+  const image = new ImageGenerator(yaml_file);
+  return image.svg_text();
 };
