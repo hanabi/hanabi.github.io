@@ -101,7 +101,6 @@ class SvgNode {
 	name;
 	children = [];
 	attributes = new Map();
-	attributes1 = '';
 	text_content;
 
 	constructor(name) {
@@ -140,16 +139,10 @@ class SvgNode {
 	get attrs_text() {
 		// Iterator.map isn't supported yet on node, apparently; but also there's no sort() on it
 		// TODO: sort() can be removed after py and js start producing the same svg
-		return this.attributes1 + [...this.attributes.entries()].sort((a, b) => {
+		return [...this.attributes.entries()].sort((a, b) => {
 			if (a[0] < b[0]) return -1;
 			if (a[0] > b[0]) return 1;
 			return 0;
-		}).map(([key, value]) => {
-			// TODO: remove when py and js start producing the same svg
-			if ((this.name === 'rect') && (key === 'x' || key === 'y') && value !== 0) {
-				return [key, value + '.0'];
-			}
-			return [key, value];
 		}).map(([key, value]) => ` ${key}="${value}"`).join('');
 	}
 
@@ -176,7 +169,8 @@ class SVG {
 
 	constructor() {
 		this.#root = new SvgNode('svg');
-		this.#root.attributes1 = ' xmlns="http://www.w3.org/2000/svg"  xmlns:xlink="http://www.w3.org/1999/xlink"';
+		this.#root.attributes.set('xmlns', 'http://www.w3.org/2000/svg');
+		this.#root.attributes.set('xmlns:xlink', 'http://www.w3.org/1999/xlink');
 		this.#root.attributes.set('baseProfile', 'full');
 		this.#root.attributes.set('version', '1.1');
 		const defs = new SvgNode('defs');
