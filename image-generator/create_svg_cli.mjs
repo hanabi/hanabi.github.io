@@ -1,3 +1,6 @@
+/* eslint-disable */
+// @ts-nocheck
+
 // Does the same thing as the loader, but without webpack.
 // Useful for manual testing, and also for linter.
 

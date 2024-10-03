@@ -1,6 +1,6 @@
 // Webpack loaders do not support TypeScript, so this file must be in JavaScript.
 
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+/* eslint-disable */
 // @ts-nocheck
 
 "use strict";
