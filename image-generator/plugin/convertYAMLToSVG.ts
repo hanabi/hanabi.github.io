@@ -589,7 +589,7 @@ class ImageGenerator {
     const rank_pip_width = CARD_WIDTH / 5;
     for (let rank = 1; rank < 6; ++rank) {
       if (pips.has(rank + "")) {
-        const rect = svg.addSvg({
+        const rect = svg.addSVG({
           x: (rank - 1) * rank_pip_width,
           y: (CARD_HEIGHT * 4) / 5,
           width: rank_pip_width,
