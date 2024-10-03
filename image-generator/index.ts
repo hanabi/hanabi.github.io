@@ -25,7 +25,7 @@ export default function hanabiDocusaurusPlugin(): Plugin {
               test: /\.yml$/,
               use: [
                 // Convert the SVG to a React component:
-                // https://github.com/gregberge/svgr/tree/main
+                // https://react-svgr.com/
                 {
                   loader: "@svgr/webpack",
                   options: {
@@ -38,6 +38,20 @@ export default function hanabiDocusaurusPlugin(): Plugin {
                      */
                     svgProps: {
                       className: "example",
+                    },
+
+                    // By default, SVGR will use the SVG Optimizer on the output. However, SVGO will
+                    // mess up the class names, so we have to use the "prefixIds" plugin:
+                    // https://svgo.dev/docs/plugins/prefixIds/
+                    svgoConfig: {
+                      plugins: [
+                        {
+                          name: "prefixIds",
+                          params: {
+                            prefixClassNames: false,
+                          },
+                        },
+                      ],
                     },
                   },
                 },

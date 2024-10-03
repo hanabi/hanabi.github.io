@@ -935,7 +935,7 @@ class ImageGenerator {
   }
 }
 
-export default function convertYAMLToSVG(source) {
+export default function convertYAMLToSVG(source: string) {
   const yamlFile = YAML.parse(source, {
     mapAsMap: true,
   });
