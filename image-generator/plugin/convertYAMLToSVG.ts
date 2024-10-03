@@ -1,4 +1,7 @@
-// Webpack loaders do not support TypeScript, so this file must be in JavaScript.
+// Webpack loaders do not support TypeScript, so this file must be in JavaScript. (We could write it
+// in TypeScript and then transpile it, but we chose to use JSDoc comments instead to avoid
+// transpiling.)
+
 // See: https://webpack.js.org/contribute/writing-a-loader/
 
 /* eslint-disable */
@@ -209,8 +212,8 @@ class ImageGenerator {
   #suit_filenames;
   #svg_file;
 
-  constructor(yaml_file) {
-    this.#yaml_file = yaml_file;
+  constructor(yamlFile) {
+    this.#yaml_file = yamlFile;
 
     // Suits in addition to any standard suits.
     this.#suit_filenames = new Map([
@@ -220,12 +223,12 @@ class ImageGenerator {
       ["b", "blue"],
       ["p", "purple"],
       ["m", "multi"],
-      ...(yaml_file.get("suits") ?? []),
+      ...(yamlFile.get("suits") ?? []),
     ]);
 
     // Use the play stack to determine the available suits for this particular variant.
     this.#all_suits = (
-      yaml_file.get("stacks") ?? NO_VARIANT_SUITS.map((a) => new Map([[a, 0]]))
+      yamlFile.get("stacks") ?? NO_VARIANT_SUITS.map((a) => new Map([[a, 0]]))
     ).map((a) => a.keys().next().value);
 
     // Create a new SVG file.
@@ -937,7 +940,9 @@ class ImageGenerator {
 }
 
 export default function convertYAMLToSVG(source) {
-  const yaml_file = YAML.parse(source, { mapAsMap: true });
-  const image = new ImageGenerator(yaml_file);
+  const yamlFile = YAML.parse(source, {
+    mapAsMap: true,
+  });
+  const image = new ImageGenerator(yamlFile);
   return image.svg_text();
 }

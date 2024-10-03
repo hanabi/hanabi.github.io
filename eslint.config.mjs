@@ -36,7 +36,11 @@ export default tseslint.config(
 
   // Do not lint the compiled output.
   {
-    ignores: ["**/.docusaurus/", "**/build/"],
+    ignores: [
+      "**/.docusaurus/",
+      "**/build/",
+      "image-generator/plugin/convertYAMLToSVG.js",
+    ],
   },
 
   // @template-customization-end

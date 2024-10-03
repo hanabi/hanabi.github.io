@@ -1,0 +1,23 @@
+// The Webpack plugin is written in TypeScript, but Webpack does not support loading TypeScript
+// directly, so we must transpile it.
+{
+  "$schema": "https://raw.githubusercontent.com/complete-ts/complete/main/packages/complete-tsconfig/schemas/tsconfig-strict-schema.json",
+
+  "extends": [
+    // https://github.com/complete-ts/complete/blob/main/packages/complete-tsconfig/tsconfig.base.json
+    "complete-tsconfig/tsconfig.base.json",
+
+    // https://github.com/complete-ts/complete/blob/main/packages/complete-tsconfig/tsconfig.node.json
+    "complete-tsconfig/tsconfig.node.json",
+  ],
+
+  "compilerOptions": {
+    "outDir": ".",
+  },
+
+  "include": ["convertYAMLToSVG.ts"],
+
+  // By default, the "outDir" is excluded. Thus, since the source files are in the same directory as
+  // the compiled output, we must explicitly specify a blank exclude array.
+  "exclude": [],
+}

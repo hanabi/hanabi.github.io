@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "docusaurus clear && docusaurus build",
+    "build": "tsx --tsconfig ./scripts/tsconfig.json ./scripts/build.mts",
     "clear": "docusaurus clear",
     "deploy": "docusaurus deploy",
     "docusaurus": "docusaurus",

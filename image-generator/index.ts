@@ -29,13 +29,22 @@ export default function hanabiDocusaurusPlugin(): Plugin {
                 {
                   loader: "@svgr/webpack",
                   options: {
-                    svgo: false, // Using the SVG Optimizer results in non-white player names.
+                    /**
+                     * We add the "example" class to every SVG so that the text will respect the
+                     * light/dark theme.
+                     *
+                     * @see https://react-svgr.com/docs/options/#svg-props
+                     * @see ./src/css/custom.css
+                     */
+                    svgProps: {
+                      className: "example",
+                    },
                   },
                 },
 
                 // Generate an SVG based on the YAML file. (This must be after "@svgr/webpack".)
                 {
-                  loader: path.join(__dirname, "convertYAMLToSVG.mjs"),
+                  loader: path.join(__dirname, "plugin", "convertYAMLToSVG.js"),
                 },
               ],
             },
