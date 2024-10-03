@@ -1,7 +1,3 @@
-// Webpack loaders do not support TypeScript, so this file must be in JavaScript. (We could write it
-// in TypeScript and then transpile it, but we chose to use JSDoc comments instead to avoid
-// transpiling.)
-
 // See: https://webpack.js.org/contribute/writing-a-loader/
 
 /* eslint-disable */

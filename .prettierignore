@@ -21,7 +21,4 @@ bun.lockb
 .cache-loader
 build
 
-# Compiled plugins
-image-generator/plugin/convertYAMLToSVG.js
-
 # @template-customization-end
