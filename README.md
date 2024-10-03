@@ -38,8 +38,6 @@ Editing files on the GitHub website is a pain. If you are adding a significant a
 - Do you know what a shell/terminal is? If not, watch a basic video on YouTube that explains how to run programs in a shell, how to use the `cd` command to change directories, and so forth.
 - Download and install [Node.js](https://nodejs.org/en/) (if you don't already have it installed).
   - This allows the [JavaScript](https://www.javascript.com/) programming language to run on your local computer.
-- Download and install [Python](https://www.python.org/downloads/) (if you don't already have it installed). Select the latest version.
-  - This allows the [Python](https://www.python.org/) programming language to run on your local computer.
 - Download and install [Git](https://git-scm.com/downloads) (if you don't already have it installed).
   - This allows you to push and pull files to [GitHub](https://github.com/).
 - Download and install [VSCode](https://code.visualstudio.com/) (if you don't already have it installed).

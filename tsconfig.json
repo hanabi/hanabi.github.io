@@ -23,6 +23,8 @@
     "./image-generator/*.cjs",
     "./image-generator/*.ts",
     "./static/js/*.js",
+    "./image-generator/*.cjs",
+    "./image-generator/*.mjs",
     "docusaurus.config.ts",
     "sidebars.ts",
   ],
