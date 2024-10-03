@@ -11,16 +11,19 @@ const YAML = require("yaml");
 // Node.js LTS is brought to version 22.
 require("core-js/actual/set");
 
-// Constants
 const TEXT_COLOR_CLASS = "site-theme-text";
 const CARD_WIDTH = 70;
 const CARD_HEIGHT = 100;
 const CARD_ROUNDED_CORNER_SIZE = 5;
 const CLUE_BORDER_COLOR = "orange";
 const HORIZONTAL_SPACING_BETWEEN_CARDS = 8;
-// This needs to be long enough for Donald (e.g. the longest player name).
-// This will need to get bigger if the font size for the player name increases.
+
+/**
+ * This needs to be long enough for Donald (e.g. the longest player name). This will need to get
+ * bigger if the font size for the player name increases.
+ */
 const HORIZONTAL_SPACING_BETWEEN_PLAYER_NAME_AND_HAND = 90;
+
 const VERTICAL_SPACING_BETWEEN_PLAYERS = 20;
 const PLAYER_NAMES = ["Alice", "Bob", "Cathy", "Donald", "Emily"];
 const PIECES_PATH = "/img/pieces";
