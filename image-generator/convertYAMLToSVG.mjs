@@ -4,13 +4,11 @@
 /* eslint-disable */
 // @ts-nocheck
 
-"use strict";
-
-const YAML = require("yaml");
+import YAML from "yaml";
 
 // Needed because `Set.intersection` is not in Node 20. This polyfill can be removed when the
 // Node.js LTS is brought to version 22.
-require("core-js/actual/set");
+import "core-js/actual/set/index.js";
 
 const TEXT_COLOR_CLASS = "site-theme-text";
 const CARD_WIDTH = 70;
@@ -938,8 +936,8 @@ class ImageGenerator {
   }
 }
 
-module.exports = function convertYAMLToSVG(source) {
+export default function convertYAMLToSVG(source) {
   const yaml_file = YAML.parse(source, { mapAsMap: true });
   const image = new ImageGenerator(yaml_file);
   return image.svg_text();
-};
+}

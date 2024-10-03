@@ -35,7 +35,7 @@ export default function hanabiDocusaurusPlugin(): Plugin {
 
                 // Generate an SVG based on the YAML file. (This must be after "@svgr/webpack".)
                 {
-                  loader: path.join(__dirname, "create_svg.cjs"),
+                  loader: path.join(__dirname, "convertYAMLToSVG.mjs"),
                 },
               ],
             },

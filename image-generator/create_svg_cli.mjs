@@ -4,7 +4,7 @@
 // Does the same thing as the loader, but without webpack.
 // Useful for manual testing, and also for linter.
 
-import create_svg from "./create_svg.cjs";
+import create_svg from "./convertYAMLToSVG.mjs";
 
 const chunks = [];
 const readable = process.stdin;
