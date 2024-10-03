@@ -44,9 +44,9 @@ for x in $(seq "$MAX_LEVEL" -1 "$1"); do
 	fi
 done
 
-echo "+----------------------------------------------------------+"
-echo "|                    ==  REMINDERS  ==                     |"
-echo "| Adjust sidebars.ts and MAX_LEVEL in static/js/hotkey.js  |"
-echo "| and verify he table at the end of docs/learning-path.mdx |"
-echo "| You should also create the file docs/level-$1.mdx        |"
-echo "+----------------------------------------------------------+"
+echo "+-----------------------------------------------------------+"
+echo "|                    ==  REMINDERS  ==                      |"
+echo "| Adjust sidebars.ts and MAX_LEVEL in static/js/hotkey.js   |"
+echo "| and verify the table at the end of docs/learning-path.mdx |"
+echo "| You should also create the file docs/level-$1.mdx         |"
+echo "+-----------------------------------------------------------+"
