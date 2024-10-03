@@ -31,7 +31,6 @@
     "@docusaurus/core": "3.5.2",
     "@docusaurus/preset-classic": "3.5.2",
     "@mdx-js/react": "3.0.1",
-    "command-exists": "1.2.9",
     "core-js": "^3.38.1",
     "prism-react-renderer": "2.4.0",
     "raw-loader": "4.0.2",
@@ -41,7 +40,6 @@
   },
   "devDependencies": {
     "@docusaurus/tsconfig": "3.5.2",
-    "@types/command-exists": "1.2.3",
     "complete-lint": "1.9.2",
     "complete-node": "1.5.1",
     "isaacscript": "5.0.6",
