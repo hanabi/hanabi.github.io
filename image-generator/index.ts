@@ -24,32 +24,16 @@ export default function hanabiDocusaurusPlugin(): Plugin {
             {
               test: /\.yml$/,
               use: [
+                // Convert the SVG to a React component:
+                // https://github.com/gregberge/svgr/tree/main
                 {
                   loader: "@svgr/webpack",
                   options: {
-                    prettier: false,
-                    svgo: true,
-                    svgoConfig: {
-                      plugins: [
-                        {
-                          name: "preset-default",
-                          params: {
-                            overrides: {
-                              removeViewBox: false,
-                            },
-                          },
-                        },
-                        {
-                          name: "prefixIds",
-                          params: {
-                            prefixClassNames: false,
-                          },
-                        },
-                      ],
-                    },
-                    titleProp: true,
+                    svgo: false, // Using the SVG Optimizer results in non-white player names.
                   },
                 },
+
+                // Generate an SVG based on the YAML file. (This must be after "@svgr/webpack". )
                 {
                   loader: path.join(__dirname, "create_svg.cjs"),
                 },
