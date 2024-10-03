@@ -7,7 +7,8 @@
 
 const YAML = require("yaml");
 
-// Needed because `Set.intersection` is not in Node 20. This can be removed when LTS is bumped to 22.
+// Needed because `Set.intersection` is not in Node 20. This polyfill can be removed when the
+// Node.js LTS is brought to version 22.
 require("core-js/actual/set");
 
 // Constants
