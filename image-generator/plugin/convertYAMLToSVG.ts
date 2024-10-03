@@ -83,7 +83,7 @@ const DEFS_PREFACE = `
 class SvgNode {
   name: string;
   children: SvgNode[] = [];
-  attributes = new Map();
+  attributes = new Map<string, string>();
   textContent = "";
 
   constructor(name: string) {
@@ -418,7 +418,7 @@ class ImageGenerator {
 
   #draw_unclued_card(pips, crossedOut, orange) {
     // "crossed_out" represents suits and ranks that are crossed out from negative clues.
-    this.#validate_card_type(crossedOut);
+    this.#validateCardType(crossedOut);
     const s = this.#svgFile.addSVG({
       x: this.#xOffset,
       y: this.#yOffset,
@@ -441,7 +441,7 @@ class ImageGenerator {
   }
 
   #drawCluedCard(cardType, crossedOut, orange, x, y) {
-    this.#validate_card_type(cardType);
+    this.#validateCardType(cardType);
 
     // Use sets to store the possible ranks and suits.
     const card_type_set = new Set(cardType);
@@ -505,7 +505,7 @@ class ImageGenerator {
     }
   }
 
-  #validate_card_type(card) {
+  #validateCardType(card) {
     if (typeof card !== "string") {
       throw new Error("not string: " + JSON.stringify(card));
     }
