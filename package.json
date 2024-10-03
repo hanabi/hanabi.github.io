@@ -42,7 +42,6 @@
   "devDependencies": {
     "@docusaurus/tsconfig": "3.5.2",
     "@types/command-exists": "1.2.3",
-    "@typescript-eslint/parser": "8.6.0",
     "complete-lint": "1.9.2",
     "complete-node": "1.5.1",
     "isaacscript": "5.0.6",
