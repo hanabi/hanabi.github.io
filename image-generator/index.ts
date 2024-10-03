@@ -22,7 +22,7 @@ export default function hanabiDocusaurusPlugin(): Plugin {
         module: {
           rules: [
             {
-              test: /image-generator.*yml$/,
+              test: /\.yml$/,
               use: [
                 {
                   loader: "@svgr/webpack",
