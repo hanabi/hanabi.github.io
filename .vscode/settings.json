@@ -10,9 +10,6 @@
 
   "files.associations": {
     ".env*": "shellscript", // e.g. ".env.example" is the same as ".env".
-    // @template-customization-start
-    ".svgrc": "yaml",
-    // @template-customization-end
   },
 
   // We want to always use "lf" to be consistent with all platforms.
