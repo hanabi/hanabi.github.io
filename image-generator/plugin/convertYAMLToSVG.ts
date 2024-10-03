@@ -81,21 +81,21 @@ const DEFS_PREFACE = `
     `;
 
 class SvgNode {
-  name;
-  children = [];
+  name: string;
+  children: SvgNode[] = [];
   attributes = new Map();
-  text_content;
+  text_content = "";
 
-  constructor(name) {
+  constructor(name: string) {
     this.name = name;
   }
 
-  addImage(href, opts) {
+  addImage(href: string, opts) {
     const node = this.addElement("image", opts);
     node.attributes.set("xlink:href", href);
   }
 
-  addText(text, opts) {
+  addText(text: string, opts) {
     const node = this.addElement("text", opts);
     node.text_content = text;
   }
@@ -110,7 +110,7 @@ class SvgNode {
     return this.addElement("rect", opts);
   }
 
-  addElement(name, opts) {
+  addElement(name: string, opts) {
     const node = new SvgNode(name);
     for (const a in opts) {
       node.attributes.set(a, opts[a]);
@@ -164,11 +164,11 @@ class SVG {
     this.#root.children.push(defs);
   }
 
-  addImage(href, opts) {
+  addImage(href: string, opts) {
     this.#root.addImage(href, opts);
   }
 
-  addText(text, opts) {
+  addText(text: string, opts) {
     this.#root.addText(text, opts);
   }
 
@@ -180,7 +180,7 @@ class SVG {
     this.#root.addRect(opts);
   }
 
-  addElement(name, opts) {
+  addElement(name: string, opts) {
     return this.#root.addElement(name, opts);
   }
 
@@ -204,12 +204,15 @@ class ImageGenerator {
   #left_y_offset = 0;
   #y_top = 0;
   #y_below = 0;
-  #yaml_file;
+  #yamlMap: Map<string, unknown>;
   #suit_filenames;
   #svg_file;
 
-  constructor(yamlFile) {
-    this.#yaml_file = yamlFile;
+  constructor(yamlMap: Map<string, unknown>) {
+    this.#yamlMap = yamlMap;
+
+    const yamlSuits = yamlMap.get("suits");
+    const extraSuits = Array.isArray(yamlSuits) ? yamlSuits : [];
 
     // Suits in addition to any standard suits.
     this.#suit_filenames = new Map([
@@ -219,12 +222,12 @@ class ImageGenerator {
       ["b", "blue"],
       ["p", "purple"],
       ["m", "multi"],
-      ...(yamlFile.get("suits") ?? []),
+      ...extraSuits,
     ]);
 
     // Use the play stack to determine the available suits for this particular variant.
     this.#all_suits = (
-      yamlFile.get("stacks") ?? NO_VARIANT_SUITS.map((a) => new Map([[a, 0]]))
+      yamlMap.get("stacks") ?? NO_VARIANT_SUITS.map((a) => new Map([[a, 0]]))
     ).map((a) => a.keys().next().value);
 
     // Create a new SVG file.
@@ -258,7 +261,7 @@ class ImageGenerator {
   }
 
   #draw_play_stacks() {
-    if (!this.#yaml_file.has("stacks")) {
+    if (!this.#yamlMap.has("stacks")) {
       this.#left_y_offset = 0;
       return;
     }
@@ -266,7 +269,7 @@ class ImageGenerator {
     let x_offset = 0;
     let y_offset = CARD_HEIGHT + VERTICAL_SPACING_BETWEEN_PLAYERS;
 
-    for (const color_value of this.#yaml_file.get("stacks")) {
+    for (const color_value of this.#yamlMap.get("stacks")) {
       const [color, value] = color_value.entries().next().value;
       const file_name = `${this.#suit_filenames.get(color)}${value}`;
       this.#svg_file.addImage(`${PIECES_PATH}/cards/${file_name}.svg`, {
@@ -284,7 +287,7 @@ class ImageGenerator {
   }
 
   #draw_player_rows() {
-    this.#yaml_file.get("players").forEach((player, player_num) => {
+    this.#yamlMap.get("players").forEach((player, player_num) => {
       if (player.has("text")) {
         // Draw a text separator between a player to describe some event taking place.
         // e.g. "After discarding the 1..."
@@ -830,7 +833,7 @@ class ImageGenerator {
   #draw_big_text() {
     // TODO: unify with draw_textbox
 
-    const opts = this.#yaml_file.get("big_text");
+    const opts = this.#yamlMap.get("big_text");
     if (!opts) return;
     const text = opts.get("text");
 
@@ -883,7 +886,7 @@ class ImageGenerator {
   }
 
   #draw_discard_pile() {
-    const discarded = this.#yaml_file.get("discarded");
+    const discarded = this.#yamlMap.get("discarded");
     if (!discarded) return;
 
     const TRASH_WIDTH = 200;
@@ -936,9 +939,9 @@ class ImageGenerator {
 }
 
 export default function convertYAMLToSVG(source: string) {
-  const yamlFile = YAML.parse(source, {
+  const yamlMap = YAML.parse(source, {
     mapAsMap: true,
-  });
-  const image = new ImageGenerator(yamlFile);
+  }) as Map<string, unknown>;
+  const image = new ImageGenerator(yamlMap);
   return image.svg_text();
 }

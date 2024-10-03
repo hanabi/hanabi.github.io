@@ -124,7 +124,7 @@ svg.example text.site-theme-text {
 
 /* The Beginner's Guide progress bar */
 
-@media only screen and (max-width: 999px) {
+@media only screen and (max-width: 996px) {
   #percent {
     display: none !important;
   }
