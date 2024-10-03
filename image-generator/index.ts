@@ -40,11 +40,26 @@ export default function hanabiDocusaurusPlugin(): Plugin {
                       className: "example",
                     },
 
-                    // By default, SVGR will use the SVG Optimizer on the output. However, SVGO will
-                    // mess up the class names, so we have to use the "prefixIds" plugin:
-                    // https://svgo.dev/docs/plugins/prefixIds/
+                    /**
+                     * By default, SVGR will use the SVG Optimizer on the output. However, SVGO will
+                     * mess up the class names, so we have to use the "prefixIds" plugin:
+                     * https://svgo.dev/docs/plugins/prefixIds/
+                     *
+                     * Furthermore, if we specify an SVGO config, it will remove all optimizations,
+                     * so we have to first extend from the default presets.
+                     */
                     svgoConfig: {
                       plugins: [
+                        {
+                          name: "preset-default",
+                          params: {
+                            overrides: {
+                              // We must keep the view box to preserve the behavior of automatically
+                              // resizing the images as the window size changes.
+                              removeViewBox: false,
+                            },
+                          },
+                        },
                         {
                           name: "prefixIds",
                           params: {
