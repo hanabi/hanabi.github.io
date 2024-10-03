@@ -1,4 +1,5 @@
 // Webpack loaders do not support TypeScript, so this file must be in JavaScript.
+// See: https://webpack.js.org/contribute/writing-a-loader/
 
 /* eslint-disable */
 // @ts-nocheck
@@ -937,8 +938,8 @@ class ImageGenerator {
   }
 }
 
-module.exports = function convertYamlToSvg(content, _map, _meta) {
-  const yaml_file = YAML.parse(content, { mapAsMap: true });
+module.exports = function convertYAMLToSVG(source) {
+  const yaml_file = YAML.parse(source, { mapAsMap: true });
   const image = new ImageGenerator(yaml_file);
   return image.svg_text();
 };
