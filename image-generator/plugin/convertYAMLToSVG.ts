@@ -403,8 +403,11 @@ class ImageGenerator {
       this.#drawClueBorder();
     }
 
-    const crossedOut = card.get("crossed_out") ?? "";
-    const orange = card.get("orange") ?? "";
+    const crossedOut =
+      (card.get("crossed_out") as string | number | undefined)?.toString() ??
+      "";
+    const orange =
+      (card.get("orange") as string | number | undefined)?.toString() ?? "";
 
     if (clued) {
       this.#drawCluedCard(
