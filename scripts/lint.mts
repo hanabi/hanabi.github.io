@@ -1,4 +1,8 @@
-import { $, lintScript } from "complete-node";
+import { $, lintScript, readFile } from "complete-node";
+import { glob } from "glob";
+import path from "node:path";
+
+const REPO_ROOT = path.join(import.meta.dirname, "..");
 
 await lintScript(async () => {
   const promises = [
@@ -58,73 +62,51 @@ done
 }
 
 async function checkUnusedYAMLFiles() {
-  // TODO
-  /*
+  const importRegex = /import .+ from "@site\/(image-generator\/yml\/.+yml)/;
 
-DIR = os.path.dirname(os.path.realpath(__file__))
-PATTERN = re.compile(r"import.*from.*@site/(image-generator/yml.*yml)")
+  // Go through every ".mdx" file and compile a set of used YAML files.
+  const mdxFilePathFragments = await glob("./docs/**/*.mdx");
+  const usedYAMLFilePaths = new Set<string>();
+  for (const mdxFilePathFragment of mdxFilePathFragments) {
+    const mdxFilePath = path.join(REPO_ROOT, mdxFilePathFragment);
+    const fileContents = readFile(mdxFilePath);
+    const lines = fileContents.split("\n");
 
+    for (const line of lines) {
+      const match = line.match(importRegex);
+      if (match === null) {
+        continue;
+      }
 
-def main():
-    used_yaml_files = set()
-    for markdown_file in glob.glob("docs/@@/*.mdx", recursive=True):
-    with open(markdown_file, "r", encoding="utf-8") as file:
-    for line in file.read_lines():
-        match = PATTERN.match(line)
-        if match:
-            yaml_path = match.group(1)
-            used_yaml_files.add(yaml_path)
+      const yamlFilePathFragment = match[1];
+      if (yamlFilePathFragment === undefined) {
+        throw new Error(
+          `Failed to parse the YAML file path from file: ${mdxFilePath}`,
+        );
+      }
 
-all_yaml_files = set()
-for yaml_file in glob.glob("image-generator/yml/@@/*.yml", recursive=True):
-yaml_path = yaml_file
-yaml_path = yaml_path.replace("\\", "/")  # Windows fix
-all_yaml_files.add(yaml_path)
+      const yamlFilePath = path.join(REPO_ROOT, yamlFilePathFragment);
 
-unused_yaml_files = all_yaml_files - used_yaml_files
+      if (usedYAMLFilePaths.has(yamlFilePath)) {
+        throw new Error(
+          `The following YAML file is being used two or more times: ${yamlFilePath}`,
+        );
+      }
 
-if unused_yaml_files:
-for yml in sorted(unused_yaml_files):
-    printf("Unused YAML file:", yml)
-error("Unused YML files found.")
-
-
-def printf(*args):
-print(*args, flush=True)
-
-
-def error(msg: str):
-print(f"Error: {msg}", file=sys.stderr, flush=True)
-sys.exit(1)
-
-
-if __name__ == "__main__":
-main()
-
-*/
-}
-
-/*
-
-// Does the same thing as the loader, but without webpack.
-// Useful for manual testing, and also for linter.
-
-import create_svg from "./convertYAMLToSVG.js";
-
-const chunks = [];
-const readable = process.stdin;
-
-readable.on("readable", () => {
-  let chunk;
-  while (null !== (chunk = readable.read())) {
-    chunks.push(chunk);
+      usedYAMLFilePaths.add(yamlFilePath);
+    }
   }
-});
 
-readable.on("end", () => {
-  const content = chunks.join("");
-  const data = create_svg(content);
-  process.stdout.write(data);
-});
-
-*/
+  // Go through every ".yml" file.
+  const yamlFilePathFragments = await glob("./**/*.yml", {
+    ignore: "node_modules/**",
+  });
+  for (const yamlFilePathFragment of yamlFilePathFragments) {
+    const yamlFilePath = path.join(REPO_ROOT, yamlFilePathFragment);
+    if (!usedYAMLFilePaths.has(yamlFilePath)) {
+      throw new Error(
+        `The following YAML file is not being used: ${yamlFilePath}`,
+      );
+    }
+  }
+}

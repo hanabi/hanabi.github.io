@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg"  xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="375" version="1.1" viewBox="0 0 944 375" width="944">
+  <defs>
+        <filter x="0" y="0" width="1" height="1" id="clue_giver">
+            <feFlood flood-color="cyan"/>
+        </filter>
+        <filter id="black_x_rank">
+            <feComponentTransfer>
+                <feFuncR type="discrete" tableValues="0"/>
+                <feFuncG type="discrete" tableValues="0"/>
+                <feFuncB type="discrete" tableValues="0"/>
+            </feComponentTransfer>
+        </filter>
+        <filter id="black_x_suit">
+            <feColorMatrix type="matrix" values="
+                -10 0 0 0 1
+                -10 0 0 0 1
+                -10 0 0 0 1
+                  0 0 0 1 0
+            "/>
+        </filter>
+        <filter id="shadow_rank">
+            <feOffset in="SourceAlpha" dx="2" dy="2" result="offsetblur"/>
+            <feComponentTransfer result="shadow">
+                <feFuncA type="linear" slope="0.5"/>
+            </feComponentTransfer>
+            <feMorphology in="SourceAlpha" operator="dilate" radius="1" result="border"/>
+            <feMerge>
+                <feMergeNode in="shadow"/>
+                <feMergeNode in="border"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <filter id="shadow_suit">
+            <feOffset in="SourceAlpha" dx="1" dy="1" result="offsetblur"/>
+            <feComponentTransfer result="shadow">
+                <feFuncA type="linear" slope="0.5"/>
+            </feComponentTransfer>
+            <feMorphology in="SourceAlpha" operator="dilate" radius="0.5" result="border"/>
+            <feMerge>
+                <feMergeNode in="shadow"/>
+                <feMergeNode in="border"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <linearGradient id="rainbowtext" x1="0" y1="0" x2="100%" y2="0">
+            <stop offset="0" stop-color="#ff7777"></stop>
+            <stop offset="0.25" stop-color="#ffff77"></stop>
+            <stop offset="0.5" stop-color="#77ff77"></stop>
+            <stop offset="0.75" stop-color="#77ffff"></stop>
+            <stop offset="1" stop-color="#7777ff"></stop>
+        </linearGradient>
+    </defs>
+  <image height="100" width="70" x="0" xlink:href="/img/pieces/cards/red0.svg" y="0"/>
+  <image height="100" width="70" x="78" xlink:href="/img/pieces/cards/yellow0.svg" y="0"/>
+  <image height="100" width="70" x="156" xlink:href="/img/pieces/cards/green0.svg" y="0"/>
+  <image height="100" width="70" x="234" xlink:href="/img/pieces/cards/blue0.svg" y="0"/>
+  <image height="100" width="70" x="312" xlink:href="/img/pieces/cards/purple0.svg" y="0"/>
+  <svg height="100" width="90" x="464" y="0">
+    <defs/>
+    <text class="site-theme-text" dominant-baseline="central" style="font-size: 1.4em;" x="0%" y="50%">Alice</text>
+    <text dominant-baseline="central" dy="30" fill="black" filter="url(#clue_giver)" x="0%" y="50%">Clue Giver</text>
+    <text dominant-baseline="central" dy="30" fill="black" x="0%" y="50%">Clue Giver</text>
+  </svg>
+  <svg height="100" width="70" x="554" y="0">
+    <defs/>
+    <rect fill="gray" height="100" rx="5" ry="5" width="70" x="0" y="0"/>
+  </svg>
+  <svg height="100" width="70" x="632" y="0">
+    <defs/>
+    <rect fill="gray" height="100" rx="5" ry="5" width="70" x="0" y="0"/>
+  </svg>
+  <svg height="100" width="70" x="710" y="0">
+    <defs/>
+    <rect fill="gray" height="100" rx="5" ry="5" width="70" x="0" y="0"/>
+  </svg>
+  <svg height="100" width="70" x="788" y="0">
+    <defs/>
+    <rect fill="gray" height="100" rx="5" ry="5" width="70" x="0" y="0"/>
+  </svg>
+  <svg height="100" width="70" x="866" y="0">
+    <defs/>
+    <rect fill="gray" height="100" rx="5" ry="5" width="70" x="0" y="0"/>
+  </svg>
+  <svg height="100" width="90" x="464" y="125">
+    <defs/>
+    <text class="site-theme-text" dominant-baseline="central" style="font-size: 1.4em;" x="0%" y="50%">Bob</text>
+  </svg>
+  <image height="100" width="70" x="554" xlink:href="/img/pieces/cards/green5.svg" y="125"/>
+  <image height="100" width="70" x="632" xlink:href="/img/pieces/cards/blue3.svg" y="125"/>
+  <image height="100" width="70" x="710" xlink:href="/img/pieces/cards/blue3.svg" y="125"/>
+  <image height="100" width="70" x="788" xlink:href="/img/pieces/cards/yellow3.svg" y="125"/>
+  <image height="100" width="70" x="866" xlink:href="/img/pieces/cards/red2.svg" y="125"/>
+  <svg height="100" width="90" x="464" y="250">
+    <defs/>
+    <text class="site-theme-text" dominant-baseline="central" style="font-size: 1.4em;" x="0%" y="50%">Cathy</text>
+  </svg>
+  <image height="100" width="70" x="554" xlink:href="/img/pieces/cards/blue5.svg" y="250"/>
+  <image height="100" width="70" x="632" xlink:href="/img/pieces/cards/yellow2.svg" y="250"/>
+  <image height="100" width="70" x="710" xlink:href="/img/pieces/cards/red2.svg" y="250"/>
+  <image height="100" width="70" x="788" xlink:href="/img/pieces/cards/yellow3.svg" y="250"/>
+  <image height="100" width="70" x="866" xlink:href="/img/pieces/cards/yellow4.svg" y="250"/>
+</svg>
+

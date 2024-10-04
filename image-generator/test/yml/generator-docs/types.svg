@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg"  xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="753.0" version="1.1" viewBox="0 -3.0 632 753.0" width="632">
+  <defs>
+        <filter x="0" y="0" width="1" height="1" id="clue_giver">
+            <feFlood flood-color="cyan"/>
+        </filter>
+        <filter id="black_x_rank">
+            <feComponentTransfer>
+                <feFuncR type="discrete" tableValues="0"/>
+                <feFuncG type="discrete" tableValues="0"/>
+                <feFuncB type="discrete" tableValues="0"/>
+            </feComponentTransfer>
+        </filter>
+        <filter id="black_x_suit">
+            <feColorMatrix type="matrix" values="
+                -10 0 0 0 1
+                -10 0 0 0 1
+                -10 0 0 0 1
+                  0 0 0 1 0
+            "/>
+        </filter>
+        <filter id="shadow_rank">
+            <feOffset in="SourceAlpha" dx="2" dy="2" result="offsetblur"/>
+            <feComponentTransfer result="shadow">
+                <feFuncA type="linear" slope="0.5"/>
+            </feComponentTransfer>
+            <feMorphology in="SourceAlpha" operator="dilate" radius="1" result="border"/>
+            <feMerge>
+                <feMergeNode in="shadow"/>
+                <feMergeNode in="border"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <filter id="shadow_suit">
+            <feOffset in="SourceAlpha" dx="1" dy="1" result="offsetblur"/>
+            <feComponentTransfer result="shadow">
+                <feFuncA type="linear" slope="0.5"/>
+            </feComponentTransfer>
+            <feMorphology in="SourceAlpha" operator="dilate" radius="0.5" result="border"/>
+            <feMerge>
+                <feMergeNode in="shadow"/>
+                <feMergeNode in="border"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <linearGradient id="rainbowtext" x1="0" y1="0" x2="100%" y2="0">
+            <stop offset="0" stop-color="#ff7777"></stop>
+            <stop offset="0.25" stop-color="#ffff77"></stop>
+            <stop offset="0.5" stop-color="#77ff77"></stop>
+            <stop offset="0.75" stop-color="#77ffff"></stop>
+            <stop offset="1" stop-color="#7777ff"></stop>
+        </linearGradient>
+    </defs>
+  <image height="100" width="70" x="0" xlink:href="/img/pieces/cards/red1.svg" y="0"/>
+  <image height="100" width="70" x="78" xlink:href="/img/pieces/cards/blue1.svg" y="0"/>
+  <image height="100" width="70" x="156" xlink:href="/img/pieces/cards/multi1.svg" y="0"/>
+  <svg height="100" width="90" x="308" y="0">
+    <defs/>
+    <text class="site-theme-text" dominant-baseline="central" style="font-size: 1.4em;" x="0%" y="50%">Alice</text>
+  </svg>
+  <svg height="100" width="70" x="398" y="0">
+    <defs/>
+    <rect fill="gray" height="100" rx="5" ry="5" width="70" x="0" y="0"/>
+  </svg>
+  <svg height="100" width="70" x="476" y="0">
+    <defs/>
+    <rect fill="gray" height="100" rx="5" ry="5" width="70" x="0" y="0"/>
+    <svg height="20.0" width="14.0" x="0.0" y="80.0">
+      <defs/>
+      <text dominant-baseline="central" fill="white" style="filter: url(#shadow_rank)" text-anchor="middle" x="50%" y="50%">1</text>
+    </svg>
+    <svg height="20.0" width="14.0" x="14.0" y="80.0">
+      <defs/>
+      <text dominant-baseline="central" fill="white" style="filter: url(#shadow_rank)" text-anchor="middle" x="50%" y="50%">2</text>
+    </svg>
+    <svg height="20.0" width="14.0" x="56.0" y="80.0">
+      <defs/>
+      <text dominant-baseline="central" fill="white" style="filter: url(#shadow_rank)" text-anchor="middle" x="50%" y="50%">5</text>
+    </svg>
+    <image height="12" style="filter: url(#shadow_suit)" width="12" x="29.0" xlink:href="/img/pieces/pips/red.svg" y="24.0"/>
+    <image height="12" style="filter: url(#shadow_suit)" width="12" x="11.679491924311225" xlink:href="/img/pieces/pips/blue.svg" y="54.0"/>
+    <image height="12" style="filter: url(#shadow_suit)" width="12" x="46.32050807568877" xlink:href="/img/pieces/pips/multi.svg" y="54.00000000000001"/>
+  </svg>
+  <rect fill="orange" height="106" rx="5" ry="5" width="76" x="551.0" y="-3.0"/>
+  <image height="100" width="70" x="554" xlink:href="/img/pieces/cards/red4.svg" y="0"/>
+  <svg height="100" width="90" x="308" y="125">
+    <defs/>
+    <text class="site-theme-text" dominant-baseline="central" style="font-size: 1.4em;" x="0%" y="50%">Bob</text>
+  </svg>
+  <rect fill="orange" height="106" rx="5" ry="5" width="76" x="395.0" y="122.0"/>
+  <svg height="100" width="70" x="398" y="125">
+    <defs/>
+    <image height="100" width="70" x="0" xlink:href="/img/pieces/cards/multi.svg" y="0"/>
+  </svg>
+  <rect fill="orange" height="106" rx="5" ry="5" width="76" x="473.0" y="122.0"/>
+  <svg height="100" width="70" x="476" y="125">
+    <defs/>
+    <image height="100" width="70" x="0" xlink:href="/img/pieces/cards/blue.svg" y="0"/>
+    <svg height="20.0" width="14.0" x="0.0" y="80.0">
+      <defs/>
+      <text dominant-baseline="central" fill="white" style="filter: url(#shadow_rank)" text-anchor="middle" x="50%" y="50%">1</text>
+    </svg>
+    <svg height="20.0" width="14.0" x="14.0" y="80.0">
+      <defs/>
+      <text dominant-baseline="central" fill="white" style="filter: url(#shadow_rank)" text-anchor="middle" x="50%" y="50%">2</text>
+    </svg>
+    <svg height="20.0" width="14.0" x="42.0" y="80.0">
+      <defs/>
+      <text dominant-baseline="central" fill="white" style="filter: url(#shadow_rank)" text-anchor="middle" x="50%" y="50%">4</text>
+    </svg>
+  </svg>
+  <rect fill="orange" height="106" rx="5" ry="5" width="76" x="551.0" y="122.0"/>
+  <svg height="100" width="70" x="554" y="125">
+    <defs/>
+    <image height="100" width="70" x="0" xlink:href="/img/pieces/cards/5.svg" y="0"/>
+  </svg>
+  <svg height="100" width="90" x="308" y="250">
+    <defs/>
+    <text class="site-theme-text" dominant-baseline="central" style="font-size: 1.4em;" x="0%" y="50%">Cathy</text>
+  </svg>
+  <rect fill="orange" height="106" rx="5" ry="5" width="76" x="395.0" y="247.0"/>
+  <svg height="100" width="70" x="398" y="250">
+    <defs/>
+    <rect fill="gray" height="100" rx="5" ry="5" width="70" x="0" y="0"/>
+    <svg height="20.0" width="14.0" x="14.0" y="80.0">
+      <defs/>
+      <text dominant-baseline="central" fill="white" style="filter: url(#shadow_rank)" text-anchor="middle" x="50%" y="50%">2</text>
+    </svg>
+    <svg height="20.0" width="14.0" x="42.0" y="80.0">
+      <defs/>
+      <text dominant-baseline="central" fill="white" style="filter: url(#shadow_rank)" text-anchor="middle" x="50%" y="50%">4</text>
+    </svg>
+    <image height="12" style="filter: url(#shadow_suit)" width="12" x="29.0" xlink:href="/img/pieces/pips/red.svg" y="24.0"/>
+    <image height="12" style="filter: url(#shadow_suit)" width="12" x="46.32050807568877" xlink:href="/img/pieces/pips/multi.svg" y="54.00000000000001"/>
+  </svg>
+  <rect fill="orange" height="106" rx="5" ry="5" width="76" x="473.0" y="247.0"/>
+  <svg height="100" width="70" x="476" y="250">
+    <defs/>
+    <image height="100" width="70" x="0" xlink:href="/img/pieces/cards/3.svg" y="0"/>
+    <image height="12" style="filter: url(#shadow_suit)" width="12" x="11.679491924311225" xlink:href="/img/pieces/pips/blue.svg" y="54.0"/>
+    <image height="12" style="filter: url(#shadow_suit)" width="12" x="46.32050807568877" xlink:href="/img/pieces/pips/multi.svg" y="54.00000000000001"/>
+  </svg>
+  <rect fill="orange" height="106" rx="5" ry="5" width="76" x="551.0" y="247.0"/>
+  <svg height="100" width="70" x="554" y="250">
+    <defs/>
+    <rect fill="gray" height="100" rx="5" ry="5" width="70" x="0" y="0"/>
+    <image height="12" style="filter: url(#shadow_suit)" width="12" x="29.0" xlink:href="/img/pieces/pips/red.svg" y="24.0"/>
+    <image height="12" style="filter: url(#shadow_suit)" width="12" x="46.32050807568877" xlink:href="/img/pieces/pips/multi.svg" y="54.00000000000001"/>
+  </svg>
+  <svg height="100" width="90" x="308" y="375">
+    <defs/>
+    <text class="site-theme-text" dominant-baseline="central" style="font-size: 1.4em;" x="0%" y="50%">Donald</text>
+  </svg>
+  <rect fill="orange" height="106" rx="5" ry="5" width="76" x="395.0" y="372.0"/>
+  <svg height="100" width="70" x="398" y="375">
+    <defs/>
+    <rect fill="gray" height="100" rx="5" ry="5" width="70" x="0" y="0"/>
+  </svg>
+  <image height="100" width="70" x="476" xlink:href="/img/pieces/cards/multi4.svg" y="375"/>
+  <svg height="100" width="70" x="554" y="375">
+    <defs/>
+    <rect fill="gray" height="100" rx="5" ry="5" width="70" x="0" y="0"/>
+    <svg height="20.0" width="14.0" x="28.0" y="80.0">
+      <defs/>
+      <text dominant-baseline="central" fill="white" style="filter: url(#shadow_rank)" text-anchor="middle" x="50%" y="50%">3</text>
+    </svg>
+    <image height="12" style="filter: url(#shadow_suit)" width="12" x="29.0" xlink:href="/img/pieces/pips/red.svg" y="24.0"/>
+  </svg>
+  <svg height="100" width="90" x="308" y="500">
+    <defs/>
+    <text class="site-theme-text" dominant-baseline="central" style="font-size: 1.4em;" x="0%" y="50%">Emily</text>
+  </svg>
+  <rect fill="orange" height="106" rx="5" ry="5" width="76" x="395.0" y="497.0"/>
+  <svg height="100" width="70" x="398" y="500">
+    <defs/>
+    <rect fill="gray" height="100" rx="5" ry="5" width="70" x="0" y="0"/>
+    <svg height="20.0" width="14.0" x="0.0" y="80.0">
+      <defs/>
+      <text dominant-baseline="central" fill="white" style="filter: url(#shadow_rank)" text-anchor="middle" x="50%" y="50%">1</text>
+    </svg>
+    <svg height="20.0" width="14.0" x="28.0" y="80.0">
+      <defs/>
+      <text dominant-baseline="central" fill="white" style="filter: url(#shadow_rank)" text-anchor="middle" x="50%" y="50%">3</text>
+    </svg>
+    <svg height="20.0" width="14.0" x="42.0" y="80.0">
+      <defs/>
+      <text dominant-baseline="central" fill="white" style="filter: url(#shadow_rank)" text-anchor="middle" x="50%" y="50%">4</text>
+    </svg>
+  </svg>
+  <rect fill="orange" height="106" rx="5" ry="5" width="76" x="473.0" y="497.0"/>
+  <svg height="100" width="70" x="476" y="500">
+    <defs/>
+    <rect fill="gray" height="100" rx="5" ry="5" width="70" x="0" y="0"/>
+    <svg height="20.0" width="14.0" x="0.0" y="80.0">
+      <defs/>
+      <text dominant-baseline="central" fill="white" style="filter: url(#shadow_rank)" text-anchor="middle" x="50%" y="50%">1</text>
+    </svg>
+    <svg height="20.0" width="14.0" x="14.0" y="80.0">
+      <defs/>
+      <text dominant-baseline="central" fill="white" style="filter: url(#shadow_rank)" text-anchor="middle" x="50%" y="50%">2</text>
+    </svg>
+    <svg height="20.0" width="14.0" x="28.0" y="80.0">
+      <defs/>
+      <text dominant-baseline="central" fill="white" style="filter: url(#shadow_rank)" text-anchor="middle" x="50%" y="50%">3</text>
+      <image height="12" style="filter: url(#black_x_rank)" width="12" x="1.0" xlink:href="/img/pieces/x.png" y="4.0"/>
+    </svg>
+    <svg height="20.0" width="14.0" x="42.0" y="80.0">
+      <defs/>
+      <text dominant-baseline="central" fill="white" style="filter: url(#shadow_rank)" text-anchor="middle" x="50%" y="50%">4</text>
+    </svg>
+    <svg height="20.0" width="14.0" x="56.0" y="80.0">
+      <defs/>
+      <text dominant-baseline="central" fill="white" style="filter: url(#shadow_rank)" text-anchor="middle" x="50%" y="50%">5</text>
+      <image height="12" style="filter: url(#black_x_rank)" width="12" x="1.0" xlink:href="/img/pieces/x.png" y="4.0"/>
+    </svg>
+    <image height="12" style="filter: url(#shadow_suit)" width="12" x="29.0" xlink:href="/img/pieces/pips/red.svg" y="24.0"/>
+    <image height="12" style="filter: url(#shadow_suit)" width="12" x="11.679491924311225" xlink:href="/img/pieces/pips/blue.svg" y="54.0"/>
+    <image height="12" style="filter: url(#shadow_suit)" width="12" x="46.32050807568877" xlink:href="/img/pieces/pips/multi.svg" y="54.00000000000001"/>
+    <image height="16" style="filter: url(#black_x_suit)" width="16" x="44.32050807568877" xlink:href="/img/pieces/x.png" y="52.00000000000001"/>
+  </svg>
+  <svg height="100" width="70" x="554" y="500">
+    <defs/>
+    <rect fill="gray" height="100" rx="5" ry="5" width="70" x="0" y="0"/>
+    <svg height="20.0" width="14.0" x="0.0" y="80.0">
+      <defs/>
+      <text dominant-baseline="central" fill="white" style="filter: url(#shadow_rank)" text-anchor="middle" x="50%" y="50%">1</text>
+    </svg>
+    <svg height="20.0" width="14.0" x="14.0" y="80.0">
+      <defs/>
+      <text dominant-baseline="central" fill="white" style="filter: url(#shadow_rank)" text-anchor="middle" x="50%" y="50%">2</text>
+    </svg>
+    <svg height="20.0" width="14.0" x="28.0" y="80.0">
+      <defs/>
+      <text dominant-baseline="central" fill="white" style="filter: url(#shadow_rank)" text-anchor="middle" x="50%" y="50%">3</text>
+    </svg>
+    <svg height="20.0" width="14.0" x="42.0" y="80.0">
+      <defs/>
+      <text dominant-baseline="central" fill="white" style="filter: url(#shadow_rank)" text-anchor="middle" x="50%" y="50%">4</text>
+      <image height="12" style="filter: url(#black_x_rank)" width="12" x="1.0" xlink:href="/img/pieces/x.png" y="4.0"/>
+    </svg>
+    <svg height="20.0" width="14.0" x="56.0" y="80.0">
+      <defs/>
+      <text dominant-baseline="central" fill="white" style="filter: url(#shadow_rank)" text-anchor="middle" x="50%" y="50%">5</text>
+    </svg>
+    <image height="12" style="filter: url(#shadow_suit)" width="12" x="29.0" xlink:href="/img/pieces/pips/red.svg" y="24.0"/>
+    <image height="16" style="filter: url(#black_x_suit)" width="16" x="27.0" xlink:href="/img/pieces/x.png" y="22.0"/>
+    <image height="12" style="filter: url(#shadow_suit)" width="12" x="11.679491924311225" xlink:href="/img/pieces/pips/blue.svg" y="54.0"/>
+    <image height="12" style="filter: url(#shadow_suit)" width="12" x="46.32050807568877" xlink:href="/img/pieces/pips/multi.svg" y="54.00000000000001"/>
+  </svg>
+  <svg height="100" width="90" x="308" y="625">
+    <defs/>
+    <text class="site-theme-text" dominant-baseline="central" style="font-size: 1.4em;" x="0%" y="50%">F</text>
+  </svg>
+  <rect fill="orange" height="106" rx="5" ry="5" width="76" x="395.0" y="622.0"/>
+  <svg height="100" width="70" x="398" y="625">
+    <defs/>
+    <image height="100" width="70" x="0" xlink:href="/img/pieces/cards/2.svg" y="0"/>
+    <image height="12" style="filter: url(#shadow_suit)" width="12" x="29.0" xlink:href="/img/pieces/pips/red.svg" y="24.0"/>
+    <image height="12" style="filter: url(#shadow_suit)" width="12" x="11.679491924311225" xlink:href="/img/pieces/pips/blue.svg" y="54.0"/>
+    <image height="16" style="filter: url(#black_x_suit)" width="16" x="9.679491924311225" xlink:href="/img/pieces/x.png" y="52.0"/>
+  </svg>
+  <rect fill="orange" height="106" rx="5" ry="5" width="76" x="473.0" y="622.0"/>
+  <svg height="100" width="70" x="476" y="625">
+    <defs/>
+    <image height="100" width="70" x="0" xlink:href="/img/pieces/cards/blue.svg" y="0"/>
+    <svg height="20.0" width="14.0" x="28.0" y="80.0">
+      <defs/>
+      <text dominant-baseline="central" fill="orange" style="filter: url(#shadow_rank)" text-anchor="middle" x="50%" y="50%">3</text>
+    </svg>
+    <svg height="20.0" width="14.0" x="42.0" y="80.0">
+      <defs/>
+      <text dominant-baseline="central" fill="orange" style="filter: url(#shadow_rank)" text-anchor="middle" x="50%" y="50%">4</text>
+    </svg>
+    <svg height="20.0" width="14.0" x="56.0" y="80.0">
+      <defs/>
+      <text dominant-baseline="central" fill="white" style="filter: url(#shadow_rank)" text-anchor="middle" x="50%" y="50%">5</text>
+    </svg>
+  </svg>
+  <image height="90" opacity="0.4" width="60" x="481" xlink:href="/img/pieces/trashcan.png" y="630"/>
+  <svg height="100" width="70" x="554" y="625">
+    <defs/>
+    <rect fill="gray" height="100" rx="5" ry="5" width="70" x="0" y="0"/>
+  </svg>
+</svg>
+

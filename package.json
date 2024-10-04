@@ -42,6 +42,7 @@
     "@docusaurus/tsconfig": "3.5.2",
     "complete-lint": "1.9.2",
     "complete-node": "1.5.1",
+    "glob": "^11.0.0",
     "isaacscript": "5.0.6",
     "typescript": "5.5.4",
     "webpack": "5.94.0"
