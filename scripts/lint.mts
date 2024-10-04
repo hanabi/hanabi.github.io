@@ -1,8 +1,6 @@
-import { $, diff, lintScript, readFile } from "complete-node";
+import { $, lintScript, readFile } from "complete-node";
 import { glob } from "glob";
 import path from "node:path";
-import xmlFormat from "xml-formatter";
-import convertYAMLToSVG from "../image-generator/plugin/src/convertYAMLToSVG.js"; // eslint-disable-line @typescript-eslint/no-restricted-imports
 
 const REPO_ROOT = path.join(import.meta.dirname, "..");
 
@@ -32,7 +30,7 @@ await lintScript(async () => {
 
     // @template-customization-start
 
-    /// checkValidYAMLFiles(),
+    /// checkValidYAMLFiles(), // TODO: enable
     checkUnusedYAMLFiles(),
 
     // @template-customization-end
@@ -40,69 +38,6 @@ await lintScript(async () => {
 
   await Promise.all(promises);
 });
-
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-async function checkValidYAMLFiles() {
-  // Go through every ".yml" file.
-  const yamlFilePathFragments = await glob("./**/*.yml", {
-    ignore: "node_modules/**",
-  });
-
-  for (const yamlFilePathFragment of yamlFilePathFragments) {
-    const yamlFilePath = path.join(REPO_ROOT, yamlFilePathFragment);
-    const fileContents = readFile(yamlFilePath);
-    const svg = convertYAMLToSVG.default(fileContents);
-
-    const testSVGPath = yamlFilePath
-      .replace("image-generator", "image-generator/test")
-      .replace(".yml", ".svg");
-    const testSVG = readFile(testSVGPath);
-
-    const svgPretty = prettifyXML(svg);
-    const testSVGPretty = prettifyXML(svg);
-
-    if (svgPretty !== testSVGPretty) {
-      console.error(
-        "-----------------------------------------------------------------------------",
-      );
-      console.error("Old SVG:\n");
-      console.error(testSVG);
-      console.error(
-        "-----------------------------------------------------------------------------",
-      );
-      console.error("New SVG:\n");
-      console.error(svg);
-      console.error(
-        "-----------------------------------------------------------------------------",
-      );
-      diff(svgPretty, testSVGPretty);
-      throw new Error(
-        `The "convertYAMLToSVG" function failed to create an SVG file that matched the reference SVG for file: ${yamlFilePath}`,
-      );
-    }
-  }
-
-  // TODO
-  // Remove the referential SVGs and simply run the function on every file to check for validity.
-}
-
-function prettifyXML(xml: string): string {
-  const formatted = (xmlFormat as unknown as (input: string) => string)(xml);
-
-  const lines = formatted.split("\n");
-  for (const [lineNum, line] of lines.entries()) {
-    const match = line.match(/"(\d+)\.0"/);
-    if (match !== null) {
-      const number = match[1];
-      if (number === undefined) {
-        throw new Error("Failed to parse the line.");
-      }
-      const newLine = line.replace(`"${number}.0"`, number);
-      lines[lineNum] = newLine;
-    }
-  }
-  return lines.join("\n");
-}
 
 async function checkUnusedYAMLFiles() {
   const importRegex = /import .+ from "@site\/(image-generator\/yml\/.+yml)/;

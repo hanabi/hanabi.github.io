@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "build": "tsx --tsconfig ./scripts/tsconfig.json ./scripts/build.mts",
+    "check-valid": "tsx --tsconfig ./scripts/tsconfig.json ./scripts/checkValidYAMLFiles.mts",
     "clear": "docusaurus clear",
     "deploy": "docusaurus deploy",
     "docusaurus": "docusaurus",
