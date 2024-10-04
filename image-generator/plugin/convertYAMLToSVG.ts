@@ -561,11 +561,6 @@ class ImageGenerator {
       // TODO: get rid of this
     }
 
-    const firstCharacter = card[0];
-    if (firstCharacter === undefined) {
-      throw new Error("Failed to get the first character of a card.");
-    }
-
     // Parse the string that contains:
     // 1) letters (representing card suits)
     // 2) numbers (representing card ranks)
@@ -597,6 +592,11 @@ class ImageGenerator {
     // Validate that the suit comes before the rank.
     // e.g. "b3" instead of "3b"
     if (letters.length > 0 && numbers.length > 0) {
+      const firstCharacter = card[0];
+      if (firstCharacter === undefined) {
+        throw new Error("Failed to get the first character of a card.");
+      }
+
       if (ALL_RANKS.has(firstCharacter)) {
         throw new Error(
           "When defining a card, the suit must come before the rank.",
