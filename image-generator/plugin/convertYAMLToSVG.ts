@@ -1,6 +1,7 @@
 // See: https://webpack.js.org/contribute/writing-a-loader/
 
 // TODO: remove all toString
+// TODO: add zod
 
 /* eslint-disable */
 
@@ -285,7 +286,6 @@ class ImageGenerator {
 
     const stacks = this.#yamlMap.get("stacks") as Array<Map<string, number>>;
     for (const colorValue of stacks) {
-      // @ts-expect-error No idea what this is. TODO
       const [color, value] = colorValue.entries().next().value;
       const fileName = `${this.#suitFilenames.get(color)}${value}`;
       this.#svgFile.addImage(`${PIECES_PATH}/cards/${fileName}.svg`, {
