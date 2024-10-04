@@ -1,15 +1,10 @@
 // See: https://webpack.js.org/contribute/writing-a-loader/
-
 // TODO: remove all toString
 // TODO: add zod
 
-/* eslint-disable */
+/* eslint-disable max-classes-per-file */
 
 import YAML from "yaml";
-
-// Needed because `Set.intersection` is not in Node 20. This polyfill can be removed when the
-// Node.js LTS is brought to version 22.
-import "core-js/actual/set/index.js";
 
 const TEXT_COLOR_CLASS = "site-theme-text";
 const CARD_WIDTH = 70;
@@ -25,10 +20,10 @@ const HORIZONTAL_SPACING_BETWEEN_CARDS = 8;
 const HORIZONTAL_SPACING_BETWEEN_PLAYER_NAME_AND_HAND = 90;
 
 const VERTICAL_SPACING_BETWEEN_PLAYERS = 20;
-const PLAYER_NAMES = ["Alice", "Bob", "Cathy", "Donald", "Emily"];
+const PLAYER_NAMES = ["Alice", "Bob", "Cathy", "Donald", "Emily"] as const;
 const PIECES_PATH = "/img/pieces";
-const NO_VARIANT_SUITS = ["r", "y", "g", "b", "p"];
-const ALL_RANKS = new Set(["1", "2", "3", "4", "5"]);
+const NO_VARIANT_SUITS = ["r", "y", "g", "b", "p"] as const;
+const ALL_RANKS: ReadonlySet<string> = new Set(["1", "2", "3", "4", "5"]);
 
 const DEFS_PREFACE = `
         <filter x="0" y="0" width="1" height="1" id="clue_giver">
@@ -92,27 +87,27 @@ class SvgNode {
     this.name = name;
   }
 
-  addImage(href: string, opts: Record<string, string>) {
+  addImage(href: string, opts: Readonly<Record<string, string>>) {
     const node = this.addElement("image", opts);
     node.attributes.set("xlink:href", href);
   }
 
-  addText(text: string, opts: Record<string, string>) {
+  addText(text: string, opts: Readonly<Record<string, string>>) {
     const node = this.addElement("text", opts);
     node.textContent = text;
   }
 
-  addSVG(opts: Record<string, string>) {
+  addSVG(opts: Readonly<Record<string, string>>) {
     const node = this.addElement("svg", opts);
     node.children.push(new SvgNode("defs"));
     return node;
   }
 
-  addRect(opts: Record<string, string>) {
+  addRect(opts: Readonly<Record<string, string>>) {
     return this.addElement("rect", opts);
   }
 
-  addElement(name: string, opts: Record<string, string>) {
+  addElement(name: string, opts: Readonly<Record<string, string>>) {
     const node = new SvgNode(name);
     for (const [key, value] of Object.entries(opts)) {
       node.attributes.set(key, value);
@@ -126,8 +121,12 @@ class SvgNode {
     // TODO: sort() can be removed after py and js start producing the same svg
     return [...this.attributes.entries()]
       .sort((a, b) => {
-        if (a[0] < b[0]) return -1;
-        if (a[0] > b[0]) return 1;
+        if (a[0] < b[0]) {
+          return -1;
+        }
+        if (a[0] > b[0]) {
+          return 1;
+        }
         return 0;
       })
       .map(([key, value]) => ` ${key}="${value}"`)
@@ -143,17 +142,17 @@ class SvgNode {
         result += child.text(offset + 2);
       }
       result += `${indent}</${this.name}>\n`;
-    } else if (this.textContent) {
-      result += `>${this.textContent}</${this.name}>\n`;
-    } else {
+    } else if (this.textContent === "") {
       result += "/>\n";
+    } else {
+      result += `>${this.textContent}</${this.name}>\n`;
     }
     return result;
   }
 }
 
 class SVG {
-  #root;
+  readonly #root;
 
   constructor() {
     this.#root = new SvgNode("svg");
@@ -166,23 +165,23 @@ class SVG {
     this.#root.children.push(defs);
   }
 
-  addImage(href: string, opts: Record<string, string>) {
+  addImage(href: string, opts: Readonly<Record<string, string>>) {
     this.#root.addImage(href, opts);
   }
 
-  addText(text: string, opts: Record<string, string>) {
+  addText(text: string, opts: Readonly<Record<string, string>>) {
     this.#root.addText(text, opts);
   }
 
-  addSVG(opts: Record<string, string>) {
+  addSVG(opts: Readonly<Record<string, string>>) {
     return this.#root.addSVG(opts);
   }
 
-  addRect(opts: Record<string, string>) {
+  addRect(opts: Readonly<Record<string, string>>) {
     this.#root.addRect(opts);
   }
 
-  addElement(name: string, opts: Record<string, string>) {
+  addElement(name: string, opts: Readonly<Record<string, string>>) {
     return this.#root.addElement(name, opts);
   }
 
@@ -191,32 +190,30 @@ class SVG {
   }
 
   get text() {
-    return (
-      '<?xml version="1.0" encoding="utf-8" ?>\n' + this.#root.text() + "\n"
-    );
+    return `<?xml version="1.0" encoding="utf-8" ?>\n${this.#root.text()}\n`;
   }
 }
 
 class ImageGenerator {
   /** The suits for the current variant. */
-  #allSuits: Array<string> = [];
+  readonly #allSuits: string[] = [];
 
   #xOffset = 0;
   #yOffset = 0;
-  #xOffsetWherePlayerBegins = 0;
+  readonly #xOffsetWherePlayerBegins: number = 0;
   #xMax = 0;
   #leftYOffset = 0;
   #yTop = 0;
   #yBelow = 0;
-  #yamlMap: Map<string, unknown>;
-  #suitFilenames;
-  #svgFile;
+  readonly #yamlMap: ReadonlyMap<string, unknown>;
+  readonly #suitFilenames;
+  readonly #svgFile;
 
-  constructor(yamlMap: Map<string, unknown>) {
+  constructor(yamlMap: ReadonlyMap<string, unknown>) {
     this.#yamlMap = yamlMap;
 
-    const yamlSuits = yamlMap.get("suits");
-    const extraSuits = Array.isArray(yamlSuits) ? yamlSuits : [];
+    const yamlSuits = yamlMap.get("suits") as Map<string, string> | undefined;
+    const extraSuits = yamlSuits ?? new Map<string, string>();
 
     // Suits in addition to any standard suits.
     this.#suitFilenames = new Map([
@@ -232,7 +229,7 @@ class ImageGenerator {
     // Use the play stack to determine the available suits for this particular variant.
     const defaultStacks = NO_VARIANT_SUITS.map((suit) => new Map([[suit, 0]]));
     const stacksMapArray = (yamlMap.get("stacks") ?? defaultStacks) as Array<
-      Map<string, number>
+      ReadonlyMap<string, number>
     >; // TODO: remove type assertion
     this.#allSuits = stacksMapArray.map((stacksMap) => {
       const keys = [...stacksMap.keys()];
@@ -282,11 +279,16 @@ class ImageGenerator {
     }
 
     let xOffset = 0;
-    let yOffset = CARD_HEIGHT + VERTICAL_SPACING_BETWEEN_PLAYERS;
+    const yOffset = CARD_HEIGHT + VERTICAL_SPACING_BETWEEN_PLAYERS;
 
     const stacks = this.#yamlMap.get("stacks") as Array<Map<string, number>>;
     for (const colorValue of stacks) {
-      const [color, value] = colorValue.entries().next().value;
+      const entries = [...colorValue.entries()];
+      const firstEntry = entries[0];
+      if (firstEntry === undefined || entries.length !== 1) {
+        throw new Error("Failed to parse the stacks.");
+      }
+      const [color, value] = firstEntry;
       const fileName = `${this.#suitFilenames.get(color)}${value}`;
       this.#svgFile.addImage(`${PIECES_PATH}/cards/${fileName}.svg`, {
         x: xOffset.toString(),
@@ -311,8 +313,8 @@ class ImageGenerator {
         // Draw a row representing a player's hand.
         const name = this.#drawPlayerName(playerNum, player);
         const fourOrMorePlayers =
-          name == PLAYER_NAMES[3] || name == PLAYER_NAMES[4];
-        const cards = player.get("cards") as Array<Map<string, unknown>>;
+          name === PLAYER_NAMES[3] || name === PLAYER_NAMES[4];
+        const cards = player.get("cards") as Array<ReadonlyMap<string, string>>;
         const numCards = cards.length;
         if (fourOrMorePlayers && numCards > 4) {
           throw new Error(
@@ -352,7 +354,7 @@ class ImageGenerator {
     }
   }
 
-  #drawPlayerName(playerNum: number, player: Map<string, unknown>) {
+  #drawPlayerName(playerNum: number, player: ReadonlyMap<string, unknown>) {
     const name = (player.get("name") ??
       PLAYER_NAMES[playerNum] ??
       "Unknown") as string; // TODO
@@ -393,16 +395,16 @@ class ImageGenerator {
     return name;
   }
 
-  #drawPlayerCard(card: Map<string, unknown>) {
-    const cardType = card.get("type") + "";
+  #drawPlayerCard(card: ReadonlyMap<string, string>) {
+    const cardType = `${card.get("type")}`;
     const clued = !cardType.startsWith("x");
 
-    if (card.get("border") ?? clued) {
+    if (card.has("border") || clued) {
       this.#drawClueBorder();
     }
 
-    const crossedOut = (card.get("crossed_out") ?? "") + "";
-    const orange = (card.get("orange") ?? "") + "";
+    const crossedOut = card.get("crossed_out") ?? "";
+    const orange = card.get("orange") ?? "";
 
     if (clued) {
       this.#drawCluedCard(
@@ -413,7 +415,7 @@ class ImageGenerator {
         this.#yOffset,
       );
     } else {
-      const cardTypeWithoutX = new Set(cardType.substring(1));
+      const cardTypeWithoutX = new Set(cardType.slice(1));
       this.#drawUncluedCard(cardTypeWithoutX, crossedOut, orange);
     }
 
@@ -438,13 +440,17 @@ class ImageGenerator {
       ry: CARD_ROUNDED_CORNER_SIZE.toString(),
     });
 
-    if (this.#yOffset == 0) {
+    if (this.#yOffset === 0) {
       this.#yTop = Math.min(this.#yTop, -clueBorderOverlap / 2);
     }
   }
 
   /** `crossedOut` represents suits and ranks that are crossed out from negative clues. */
-  #drawUncluedCard(pips: Set<string>, crossedOut: string, orange: string) {
+  #drawUncluedCard(
+    pips: ReadonlySet<string> | undefined,
+    crossedOut: string,
+    orange: string,
+  ) {
     this.#validateCardType(crossedOut);
     const s = this.#svgFile.addSVG({
       x: this.#xOffset.toString(),
@@ -462,7 +468,7 @@ class ImageGenerator {
       ry: CARD_ROUNDED_CORNER_SIZE.toString(),
     });
 
-    if (pips) {
+    if (pips !== undefined) {
       this.#drawCardPips(s, pips, crossedOut, orange);
     }
   }
@@ -516,7 +522,12 @@ class ImageGenerator {
         width: CARD_WIDTH.toString(),
         height: CARD_HEIGHT.toString(),
       });
-      s.addImage(`${PIECES_PATH}/cards/${ranks.keys().next().value}.svg`, {
+      const rankStrings = [...ranks.values()];
+      const firstRank = rankStrings[0];
+      if (firstRank === undefined) {
+        throw new Error("Failed to parse the first rank.");
+      }
+      s.addImage(`${PIECES_PATH}/cards/${firstRank}.svg`, {
         x: "0",
         y: "0",
         width: CARD_WIDTH.toString(),
@@ -531,20 +542,40 @@ class ImageGenerator {
         width: CARD_WIDTH.toString(),
         height: CARD_HEIGHT.toString(),
       });
-      s.addImage(
-        `${PIECES_PATH}/cards/${this.#suitFilenames.get(suits.keys().next().value)}.svg`,
-        {
-          x: "0",
-          y: "0",
-          width: CARD_WIDTH.toString(),
-          height: CARD_HEIGHT.toString(),
-        },
-      );
+      const suitStrings = [...suits.values()];
+      const firstSuit = suitStrings[0];
+      if (firstSuit === undefined) {
+        throw new Error("Failed to parse the first suit.");
+      }
+      const suitName = this.#suitFilenames.get(firstSuit);
+      if (suitName === undefined) {
+        throw new Error("Failed to parse the first suit name.");
+      }
+      s.addImage(`${PIECES_PATH}/cards/${suitName}.svg`, {
+        x: "0",
+        y: "0",
+        width: CARD_WIDTH.toString(),
+        height: CARD_HEIGHT.toString(),
+      });
       this.#drawCardPips(s, ranks, crossedOut, orange);
     } else {
       // An exact card identity was specified. (e.g. "r1")
+      const suitStrings = [...suits.values()];
+      const firstSuit = suitStrings[0];
+      if (firstSuit === undefined) {
+        throw new Error("Failed to parse the first suit.");
+      }
+      const suitName = this.#suitFilenames.get(firstSuit);
+      if (suitName === undefined) {
+        throw new Error("Failed to parse the first suit name.");
+      }
+      const rankStrings = [...ranks.values()];
+      const firstRank = rankStrings[0];
+      if (firstRank === undefined) {
+        throw new Error("Failed to parse the first rank.");
+      }
       this.#svgFile.addImage(
-        `${PIECES_PATH}/cards/${this.#suitFilenames.get(suits.keys().next().value)}${ranks.keys().next().value}.svg`,
+        `${PIECES_PATH}/cards/${suitName}${firstRank}.svg`,
         {
           x: x.toString(),
           y: y.toString(),
@@ -557,7 +588,7 @@ class ImageGenerator {
 
   #validateCardType(card: string) {
     if (typeof card !== "string") {
-      throw new Error("not string: " + JSON.stringify(card));
+      throw new TypeError(`not string: ${JSON.stringify(card)}`);
       // TODO: get rid of this
     }
 
@@ -565,8 +596,8 @@ class ImageGenerator {
     // 1) letters (representing card suits)
     // 2) numbers (representing card ranks)
     // e.g. "rb34"
-    const letters = [];
-    const numbers = [];
+    const letters: string[] = [];
+    const numbers: string[] = [];
     for (const ch of card) {
       if (/^\d$/.test(ch)) {
         numbers.push(ch);
@@ -613,12 +644,10 @@ class ImageGenerator {
           if (numbers.includes(ch)) {
             iteratingOverSuitCharacters = false;
           }
-        } else {
-          if (letters.includes(ch)) {
-            throw new Error(
-              "When defining a card, the suits and the ranks have to be grouped together.",
-            );
-          }
+        } else if (letters.includes(ch)) {
+          throw new Error(
+            "When defining a card, the suits and the ranks have to be grouped together.",
+          );
         }
       }
     }
@@ -642,15 +671,15 @@ class ImageGenerator {
 
   #drawCardPips(
     svg: SvgNode,
-    pips: Set<string>,
+    pips: ReadonlySet<string>,
     crossedOutString: string,
     orangeString: string,
   ) {
     const crossedOut = new Set(crossedOutString);
     const orange = new Set(orangeString);
     const rankPipWidth = CARD_WIDTH / 5;
-    for (let rank = 1; rank < 6; ++rank) {
-      if (pips.has(rank + "")) {
+    for (let rank = 1; rank < 6; rank++) {
+      if (pips.has(`${rank}`)) {
         const x = (rank - 1) * rankPipWidth;
         const y = (CARD_HEIGHT * 4) / 5;
         const height = CARD_HEIGHT / 5;
@@ -668,12 +697,12 @@ class ImageGenerator {
           "text-anchor": "middle",
           "dominant-baseline": "central",
         });
-        if (crossedOut.has(rank + "")) {
-          const x = CARD_WIDTH / 10 - 6;
-          const y = CARD_HEIGHT / 10 - 6;
+        if (crossedOut.has(`${rank}`)) {
+          const x2 = CARD_WIDTH / 10 - 6;
+          const y2 = CARD_HEIGHT / 10 - 6;
           rect.addImage(`${PIECES_PATH}/x.png`, {
-            x: x.toString(),
-            y: y.toString(),
+            x: x2.toString(),
+            y: y2.toString(),
             width: "12",
             height: "12",
             style: "filter: url(#black_x_rank)",
@@ -698,11 +727,11 @@ class ImageGenerator {
           },
         );
         if (crossedOut.has(color)) {
-          const x = CARD_WIDTH / 2 - 6 - 20 * Math.sin(angle * i) - 2;
-          const y = CARD_HEIGHT / 2 - 6 - 20 * Math.cos(angle * i) - 2;
+          const x2 = CARD_WIDTH / 2 - 6 - 20 * Math.sin(angle * i) - 2;
+          const y2 = CARD_HEIGHT / 2 - 6 - 20 * Math.cos(angle * i) - 2;
           svg.addImage(`${PIECES_PATH}/x.png`, {
-            x: x.toString(),
-            y: y.toString(),
+            x: x2.toString(),
+            y: y2.toString(),
             width: "16",
             height: "16",
             style: "filter: url(#black_x_suit)",
@@ -712,7 +741,7 @@ class ImageGenerator {
     }
   }
 
-  #drawExtraCardAttributes(card: Map<string, unknown>) {
+  #drawExtraCardAttributes(card: ReadonlyMap<string, unknown>) {
     if (card.has("trash")) {
       const x = this.#xOffset + 5;
       const y = this.#yOffset + 5;
@@ -730,7 +759,7 @@ class ImageGenerator {
     const clue = card.get("clue") as string | undefined;
     if (clue !== undefined) {
       // Draw the arrow above the card.
-      const arrowName = card.get("retouched") ? "arrow_dark" : "arrow";
+      const arrowName = card.get("retouched") === true ? "arrow_dark" : "arrow";
       const x = this.#xOffset + 10;
       const y = this.#yOffset - 40;
       this.#svgFile.addImage(`${PIECES_PATH}/${arrowName}.svg`, {
@@ -762,11 +791,11 @@ class ImageGenerator {
       });
 
       if (/^\d$/.test(clue)) {
-        const x = this.#xOffset + 27;
-        const y = this.#yOffset - 23;
+        const x2 = this.#xOffset + 27;
+        const y2 = this.#yOffset - 23;
         const r = this.#svgFile.addSVG({
-          x: x.toString(),
-          y: y.toString(),
+          x: x2.toString(),
+          y: y2.toString(),
           width: "16",
           height: "16",
         });
@@ -826,17 +855,18 @@ class ImageGenerator {
     }
   }
 
-  #drawTextbox(opts: string | Map<string, string>, offset: number) {
+  #drawTextbox(opts: string | Map<string, string>, offset: number): number {
     if (Array.isArray(opts)) {
       let myOffset = offset;
       for (const part of opts) {
+        // eslint-disable-next-line @typescript-eslint/no-unsafe-argument
         myOffset += 5 + this.#drawTextbox(part, myOffset);
       }
       return myOffset - offset;
     }
 
     let text: string[];
-    let color;
+    let color: string;
     if (typeof opts === "string") {
       text = [opts];
       const firstColor = opts.split(" ")[0];
@@ -867,11 +897,7 @@ class ImageGenerator {
       }
     } else {
       const newText = opts.get("text") as string | string[];
-      if (typeof newText === "string") {
-        text = [newText];
-      } else {
-        text = newText;
-      }
+      text = typeof newText === "string" ? [newText] : newText;
       color = opts.get("color") ?? "black";
     }
 
@@ -880,8 +906,8 @@ class ImageGenerator {
       throw new Error("Failed to parse the first character of the text.");
     }
 
-    let width;
-    let r;
+    let width: number;
+    let r: SvgNode;
     // TODO: make this widening more generic
     if (firstCharacter.startsWith("Rainbow")) {
       width = 85;
@@ -920,7 +946,7 @@ class ImageGenerator {
       fill: color === "rainbow" ? "url(#rainbowtext)" : color,
     });
 
-    text.forEach((line, i) => {
+    for (const [i, line] of text.entries()) {
       const y = 20 * i;
       r.addSVG({
         x: "0",
@@ -934,7 +960,7 @@ class ImageGenerator {
         "text-anchor": "middle",
         "dominant-baseline": "central",
       });
-    });
+    }
 
     return 20 * text.length;
   }
@@ -947,7 +973,7 @@ class ImageGenerator {
     if (bigText === undefined) {
       return;
     }
-    const text = bigText.get("text") as string | undefined;
+    const text = bigText.get("text");
     if (text === undefined) {
       throw new Error('Failed to parse the text in "big_text" element.');
     }
@@ -961,13 +987,13 @@ class ImageGenerator {
       2;
     const yOfText = this.#leftYOffset;
 
-    // Select specific color for some keywords
+    // Select a specific color for some keywords.
     const colors: ReadonlyMap<string, string> = new Map([
       ["Bluff", "gold"],
       ["Finesse", "green"],
       ["Illegal!", "red"],
     ]);
-    const color = colors.get(text ?? "") ?? bigText.get("color") ?? "black";
+    const color = colors.get(text) ?? bigText.get("color") ?? "black";
 
     const textColor = new Set(["gold", "yellow", "rainbow"]).has(color)
       ? "black"
@@ -1055,7 +1081,7 @@ class ImageGenerator {
   }
 }
 
-export default function convertYAMLToSVG(source: string) {
+export default function convertYAMLToSVG(source: string): string {
   const yamlMap = YAML.parse(source, {
     mapAsMap: true,
   }) as Map<string, unknown>;
