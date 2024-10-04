@@ -1,7 +1,8 @@
 // See: https://webpack.js.org/contribute/writing-a-loader/
 
+// TODO: remove all toString
+
 /* eslint-disable */
-// @ts-nocheck
 
 import YAML from "yaml";
 
@@ -196,8 +197,8 @@ class SVG {
 }
 
 class ImageGenerator {
-  /** Representing the possible suits for the current variant. */
-  #allSuits: Array<string | undefined> = [];
+  /** The suits for the current variant. */
+  #allSuits: Array<string> = [];
 
   #xOffset = 0;
   #yOffset = 0;
@@ -229,10 +230,17 @@ class ImageGenerator {
 
     // Use the play stack to determine the available suits for this particular variant.
     const defaultStacks = NO_VARIANT_SUITS.map((suit) => new Map([[suit, 0]]));
-    const stacks = (yamlMap.get("stacks") ?? defaultStacks) as Array<
+    const stacksMapArray = (yamlMap.get("stacks") ?? defaultStacks) as Array<
       Map<string, number>
     >; // TODO: remove type assertion
-    this.#allSuits = stacks.map((a) => a.keys().next().value);
+    this.#allSuits = stacksMapArray.map((stacksMap) => {
+      const keys = [...stacksMap.keys()];
+      const key = keys[0];
+      if (key === undefined || keys.length !== 1) {
+        throw new Error("Failed to parse the stacks.");
+      }
+      return key;
+    });
 
     // Create a new SVG file.
     this.#svgFile = new SVG();
@@ -277,6 +285,7 @@ class ImageGenerator {
 
     const stacks = this.#yamlMap.get("stacks") as Array<Map<string, number>>;
     for (const colorValue of stacks) {
+      // @ts-expect-error No idea what this is. TODO
       const [color, value] = colorValue.entries().next().value;
       const fileName = `${this.#suitFilenames.get(color)}${value}`;
       this.#svgFile.addImage(`${PIECES_PATH}/cards/${fileName}.svg`, {
@@ -294,23 +303,17 @@ class ImageGenerator {
   }
 
   #drawPlayerRows() {
-    this.#yamlMap.get("players").forEach((player, playerNum) => {
-      if (player.has("text")) {
-        // Draw a text separator between a player to describe some event taking place.
-        // e.g. "After discarding the 1..."
-        this.#svgFile.addText(player.get("text"), {
-          x: this.#xOffsetWherePlayerBegins + 40,
-          y: this.#yOffset,
-          dy: 20,
-          class: TEXT_COLOR_CLASS,
-        });
-        this.#yOffset += 50;
-      } else {
+    const players = this.#yamlMap.get("players") as Array<Map<string, unknown>>;
+
+    for (const [playerNum, player] of players.entries()) {
+      const text = player.get("text") as string | undefined;
+      if (text === undefined) {
         // Draw a row representing a player's hand.
         const name = this.#drawPlayerName(playerNum, player);
         const fourOrMorePlayers =
           name == PLAYER_NAMES[3] || name == PLAYER_NAMES[4];
-        const numCards = player.get("cards").length;
+        const cards = player.get("cards") as Array<Map<string, unknown>>;
+        const numCards = cards.length;
         if (fourOrMorePlayers && numCards > 4) {
           throw new Error(
             "The players have too many cards for a 4-player or a 5-player game.",
@@ -325,7 +328,7 @@ class ImageGenerator {
         this.#yBelow = 5;
 
         // Draw each card
-        for (const card of player.get("cards")) {
+        for (const card of cards) {
           this.#drawPlayerCard(card);
         }
 
@@ -334,18 +337,31 @@ class ImageGenerator {
         if (this.#xOffset > this.#xMax) {
           this.#xMax = this.#xOffset;
         }
+      } else {
+        // Draw a text separator between a player to describe some event taking place.
+        // e.g. "After discarding the 1..."
+        const x = this.#xOffsetWherePlayerBegins + 40;
+        this.#svgFile.addText(text, {
+          x: x.toString(),
+          y: this.#yOffset.toString(),
+          dy: "20",
+          class: TEXT_COLOR_CLASS,
+        });
+        this.#yOffset += 50;
       }
-    });
+    }
   }
 
-  #drawPlayerName(playerNum, player) {
-    const name = player.get("name") ?? PLAYER_NAMES[playerNum];
+  #drawPlayerName(playerNum: number, player: Map<string, unknown>) {
+    const name = (player.get("name") ??
+      PLAYER_NAMES[playerNum] ??
+      "Unknown") as string; // TODO
 
     const r = this.#svgFile.addSVG({
-      x: this.#xOffsetWherePlayerBegins,
-      y: this.#yOffset,
-      width: HORIZONTAL_SPACING_BETWEEN_PLAYER_NAME_AND_HAND,
-      height: CARD_HEIGHT,
+      x: this.#xOffsetWherePlayerBegins.toString(),
+      y: this.#yOffset.toString(),
+      width: HORIZONTAL_SPACING_BETWEEN_PLAYER_NAME_AND_HAND.toString(),
+      height: CARD_HEIGHT.toString(),
     });
     r.addText(name, {
       x: "0%",
@@ -361,7 +377,7 @@ class ImageGenerator {
       r.addText(clueGiverDescription, {
         x: "0%",
         y: "50%",
-        dy: 30,
+        dy: "30",
         fill: "black",
         "dominant-baseline": "central",
         filter: "url(#clue_giver)",
@@ -369,7 +385,7 @@ class ImageGenerator {
       r.addText(clueGiverDescription, {
         x: "0%",
         y: "50%",
-        dy: 30,
+        dy: "30",
         fill: "black",
         "dominant-baseline": "central",
       });
@@ -377,7 +393,7 @@ class ImageGenerator {
     return name;
   }
 
-  #drawPlayerCard(card) {
+  #drawPlayerCard(card: Map<string, unknown>) {
     const cardType = card.get("type") + "";
     const clued = !cardType.startsWith("x");
 
@@ -408,14 +424,18 @@ class ImageGenerator {
 
   #drawClueBorder() {
     const clueBorderOverlap = 6;
+    const x = this.#xOffset - clueBorderOverlap / 2;
+    const y = this.#yOffset - clueBorderOverlap / 2;
+    const width = CARD_WIDTH + clueBorderOverlap;
+    const height = CARD_HEIGHT + clueBorderOverlap;
     this.#svgFile.addRect({
-      x: this.#xOffset - clueBorderOverlap / 2,
-      y: this.#yOffset - clueBorderOverlap / 2,
-      width: CARD_WIDTH + clueBorderOverlap,
-      height: CARD_HEIGHT + clueBorderOverlap,
+      x: x.toString(),
+      y: y.toString(),
+      width: width.toString(),
+      height: height.toString(),
       fill: CLUE_BORDER_COLOR,
-      rx: CARD_ROUNDED_CORNER_SIZE,
-      ry: CARD_ROUNDED_CORNER_SIZE,
+      rx: CARD_ROUNDED_CORNER_SIZE.toString(),
+      ry: CARD_ROUNDED_CORNER_SIZE.toString(),
     });
 
     if (this.#yOffset == 0) {
@@ -424,22 +444,22 @@ class ImageGenerator {
   }
 
   /** `crossedOut` represents suits and ranks that are crossed out from negative clues. */
-  #drawUncluedCard(pips, crossedOut, orange) {
+  #drawUncluedCard(pips: Set<string>, crossedOut: string, orange: string) {
     this.#validateCardType(crossedOut);
     const s = this.#svgFile.addSVG({
-      x: this.#xOffset,
-      y: this.#yOffset,
-      width: CARD_WIDTH,
-      height: CARD_HEIGHT,
+      x: this.#xOffset.toString(),
+      y: this.#yOffset.toString(),
+      width: CARD_WIDTH.toString(),
+      height: CARD_HEIGHT.toString(),
     });
     s.addRect({
-      x: 0,
-      y: 0,
-      width: CARD_WIDTH,
-      height: CARD_HEIGHT,
+      x: "0",
+      y: "0",
+      width: CARD_WIDTH.toString(),
+      height: CARD_HEIGHT.toString(),
       fill: "gray",
-      rx: CARD_ROUNDED_CORNER_SIZE,
-      ry: CARD_ROUNDED_CORNER_SIZE,
+      rx: CARD_ROUNDED_CORNER_SIZE.toString(),
+      ry: CARD_ROUNDED_CORNER_SIZE.toString(),
     });
 
     if (pips) {
@@ -447,75 +467,105 @@ class ImageGenerator {
     }
   }
 
-  #drawCluedCard(cardType, crossedOut, orange, x, y) {
+  #drawCluedCard(
+    cardType: string,
+    crossedOut: string,
+    orange: string,
+    x: number,
+    y: number,
+  ) {
     this.#validateCardType(cardType);
 
     // Use sets to store the possible ranks and suits.
     const cardTypeSet = new Set(cardType);
-    const ranks = cardTypeSet.intersection(ALL_RANKS);
-    const suits = cardTypeSet.intersection(new Set(this.#allSuits));
+    const cardTypeSetValues = [...cardTypeSet];
+    const matchingRanks = cardTypeSetValues.filter((character) =>
+      ALL_RANKS.has(character),
+    );
+    const ranks = new Set(matchingRanks);
+    const matchingSuits = cardTypeSetValues.filter((character) =>
+      this.#allSuits.includes(character),
+    );
+    const suits = new Set(matchingSuits);
 
     if (ranks.size !== 1 && suits.size !== 1) {
       // This is a card with an unknown rank and an unknown color.
       const s = this.#svgFile.addSVG({
-        x,
-        y,
-        width: CARD_WIDTH,
-        height: CARD_HEIGHT,
+        x: x.toString(),
+        y: y.toString(),
+        width: CARD_WIDTH.toString(),
+        height: CARD_HEIGHT.toString(),
       });
       s.addRect({
-        x: 0,
-        y: 0,
-        width: CARD_WIDTH,
-        height: CARD_HEIGHT,
+        x: "0",
+        y: "0",
+        width: CARD_WIDTH.toString(),
+        height: CARD_HEIGHT.toString(),
         fill: "gray",
-        rx: CARD_ROUNDED_CORNER_SIZE,
-        ry: CARD_ROUNDED_CORNER_SIZE,
+        rx: CARD_ROUNDED_CORNER_SIZE.toString(),
+        ry: CARD_ROUNDED_CORNER_SIZE.toString(),
       });
       // Always draw pips on clued cards with unknown rank + unknown color.
-      const pips = ranks.union(suits); // Combine the ranks and the suits together.
+      const pips = new Set(...ranks, ...suits);
       this.#drawCardPips(s, pips, crossedOut, orange);
     } else if (ranks.size === 1 && suits.size !== 1) {
       // This is a card with a known rank and an unknown color.
       const s = this.#svgFile.addSVG({
-        x,
-        y,
-        width: CARD_WIDTH,
-        height: CARD_HEIGHT,
+        x: x.toString(),
+        y: y.toString(),
+        width: CARD_WIDTH.toString(),
+        height: CARD_HEIGHT.toString(),
       });
       s.addImage(`${PIECES_PATH}/cards/${ranks.keys().next().value}.svg`, {
-        x: 0,
-        y: 0,
-        width: CARD_WIDTH,
-        height: CARD_HEIGHT,
+        x: "0",
+        y: "0",
+        width: CARD_WIDTH.toString(),
+        height: CARD_HEIGHT.toString(),
       });
       this.#drawCardPips(s, suits, crossedOut, orange);
     } else if (ranks.size !== 1 && suits.size === 1) {
       // This is a card with a known color and an unknown rank.
       const s = this.#svgFile.addSVG({
-        x,
-        y,
-        width: CARD_WIDTH,
-        height: CARD_HEIGHT,
+        x: x.toString(),
+        y: y.toString(),
+        width: CARD_WIDTH.toString(),
+        height: CARD_HEIGHT.toString(),
       });
       s.addImage(
         `${PIECES_PATH}/cards/${this.#suitFilenames.get(suits.keys().next().value)}.svg`,
-        { x: 0, y: 0, width: CARD_WIDTH, height: CARD_HEIGHT },
+        {
+          x: "0",
+          y: "0",
+          width: CARD_WIDTH.toString(),
+          height: CARD_HEIGHT.toString(),
+        },
       );
       this.#drawCardPips(s, ranks, crossedOut, orange);
     } else {
       // An exact card identity was specified. (e.g. "r1")
       this.#svgFile.addImage(
         `${PIECES_PATH}/cards/${this.#suitFilenames.get(suits.keys().next().value)}${ranks.keys().next().value}.svg`,
-        { x, y, width: CARD_WIDTH, height: CARD_HEIGHT },
+        {
+          x: x.toString(),
+          y: y.toString(),
+          width: CARD_WIDTH.toString(),
+          height: CARD_HEIGHT.toString(),
+        },
       );
     }
   }
 
-  #validateCardType(card) {
+  #validateCardType(card: string) {
     if (typeof card !== "string") {
       throw new Error("not string: " + JSON.stringify(card));
+      // TODO: get rid of this
     }
+
+    const firstCharacter = card[0];
+    if (firstCharacter === undefined) {
+      throw new Error("Failed to get the first character of a card.");
+    }
+
     // Parse the string that contains:
     // 1) letters (representing card suits)
     // 2) numbers (representing card ranks)
@@ -547,7 +597,7 @@ class ImageGenerator {
     // Validate that the suit comes before the rank.
     // e.g. "b3" instead of "3b"
     if (letters.length > 0 && numbers.length > 0) {
-      if (ALL_RANKS.has(card[0])) {
+      if (ALL_RANKS.has(firstCharacter)) {
         throw new Error(
           "When defining a card, the suit must come before the rank.",
         );
@@ -575,47 +625,57 @@ class ImageGenerator {
 
     // Validate that the suits come in order (with respect to the play stacks).
     if (letters.length >= 2) {
-      const sortedLetters = JSON.parse(JSON.stringify(letters))
-        .sort((a, b) => {
-          const aa = this.#allSuits.indexOf(a);
-          const bb = this.#allSuits.indexOf(b);
-          return aa - bb;
-        })
-        .join("");
-      if (letters.join("") !== sortedLetters) {
+      const sortedLetters = letters.toSorted((a, b) => {
+        const aa = this.#allSuits.indexOf(a);
+        const bb = this.#allSuits.indexOf(b);
+        return aa - bb;
+      });
+      const lettersString = letters.join("");
+      const sortedLettersString = sortedLetters.join("");
+      if (lettersString !== sortedLettersString) {
         throw new Error(
-          `When defining a card, the suits must be specified in order from left to right. In other words, "${letters.join("")}" should be "${sortedLetters}".`,
+          `When defining a card, the suits must be specified in order from left to right. In other words, "${lettersString}" should be "${sortedLettersString}".`,
         );
       }
     }
   }
 
-  #drawCardPips(svg, pips, crossedOut, orange) {
-    crossedOut = new Set(crossedOut);
-    orange = new Set(orange);
+  #drawCardPips(
+    svg: SvgNode,
+    pips: Set<string>,
+    crossedOutString: string,
+    orangeString: string,
+  ) {
+    const crossedOut = new Set(crossedOutString);
+    const orange = new Set(orangeString);
     const rankPipWidth = CARD_WIDTH / 5;
     for (let rank = 1; rank < 6; ++rank) {
       if (pips.has(rank + "")) {
+        const x = (rank - 1) * rankPipWidth;
+        const y = (CARD_HEIGHT * 4) / 5;
+        const height = CARD_HEIGHT / 5;
         const rect = svg.addSVG({
-          x: (rank - 1) * rankPipWidth,
-          y: (CARD_HEIGHT * 4) / 5,
-          width: rankPipWidth,
-          height: CARD_HEIGHT / 5,
+          x: x.toString(),
+          y: y.toString(),
+          width: rankPipWidth.toString(),
+          height: height.toString(),
         });
-        rect.addText(rank, {
+        rect.addText(rank.toString(), {
           x: "50%",
           y: "50%",
-          fill: orange.has(rank + "") ? "orange" : "white",
+          fill: orange.has(rank.toString()) ? "orange" : "white",
           style: "filter: url(#shadow_rank)",
           "text-anchor": "middle",
           "dominant-baseline": "central",
         });
         if (crossedOut.has(rank + "")) {
+          const x = CARD_WIDTH / 10 - 6;
+          const y = CARD_HEIGHT / 10 - 6;
           rect.addImage(`${PIECES_PATH}/x.png`, {
-            x: CARD_WIDTH / 10 - 6,
-            y: CARD_HEIGHT / 10 - 6,
-            width: 12,
-            height: 12,
+            x: x.toString(),
+            y: y.toString(),
+            width: "12",
+            height: "12",
             style: "filter: url(#black_x_rank)",
           });
         }
@@ -623,54 +683,65 @@ class ImageGenerator {
     }
 
     const angle = (2 * Math.PI) / this.#allSuits.length;
-    this.#allSuits.forEach((color, i) => {
+    for (const [i, color] of this.#allSuits.entries()) {
       if (pips.has(color)) {
+        const x = CARD_WIDTH / 2 - 6 - 20 * Math.sin(angle * i);
+        const y = CARD_HEIGHT / 2 - 6 - 20 * Math.cos(angle * i);
         svg.addImage(
           `${PIECES_PATH}/pips/${this.#suitFilenames.get(color)}.svg`,
           {
-            x: CARD_WIDTH / 2 - 6 - 20 * Math.sin(angle * i),
-            y: CARD_HEIGHT / 2 - 6 - 20 * Math.cos(angle * i),
-            width: 12,
-            height: 12,
+            x: x.toString(),
+            y: y.toString(),
+            width: "12",
+            height: "12",
             style: "filter: url(#shadow_suit)",
           },
         );
         if (crossedOut.has(color)) {
+          const x = CARD_WIDTH / 2 - 6 - 20 * Math.sin(angle * i) - 2;
+          const y = CARD_HEIGHT / 2 - 6 - 20 * Math.cos(angle * i) - 2;
           svg.addImage(`${PIECES_PATH}/x.png`, {
-            x: CARD_WIDTH / 2 - 6 - 20 * Math.sin(angle * i) - 2,
-            y: CARD_HEIGHT / 2 - 6 - 20 * Math.cos(angle * i) - 2,
-            width: 16,
-            height: 16,
+            x: x.toString(),
+            y: y.toString(),
+            width: "16",
+            height: "16",
             style: "filter: url(#black_x_suit)",
           });
         }
       }
-    });
+    }
   }
 
-  #drawExtraCardAttributes(card) {
-    if (card.get("trash")) {
+  #drawExtraCardAttributes(card: Map<string, unknown>) {
+    if (card.has("trash")) {
+      const x = this.#xOffset + 5;
+      const y = this.#yOffset + 5;
+      const width = CARD_WIDTH - 10;
+      const height = CARD_HEIGHT - 10;
       this.#svgFile.addImage(`${PIECES_PATH}/trashcan.png`, {
-        x: this.#xOffset + 5,
-        y: this.#yOffset + 5,
-        width: CARD_WIDTH - 10,
-        height: CARD_HEIGHT - 10,
-        opacity: 0.4,
+        x: x.toString(),
+        y: y.toString(),
+        width: width.toString(),
+        height: height.toString(),
+        opacity: "0.4",
       });
     }
 
-    if (card.has("clue")) {
+    const clue = card.get("clue") as string | undefined;
+    if (clue !== undefined) {
       // Draw the arrow above the card.
       const arrowName = card.get("retouched") ? "arrow_dark" : "arrow";
+      const x = this.#xOffset + 10;
+      const y = this.#yOffset - 40;
       this.#svgFile.addImage(`${PIECES_PATH}/${arrowName}.svg`, {
-        x: this.#xOffset + 10,
-        y: this.#yOffset - 40,
-        width: 50,
-        height: 70,
+        x: x.toString(),
+        y: y.toString(),
+        width: "50",
+        height: "70",
       });
 
       // Draw the clue circle on the arrow.
-      const colors = new Map([
+      const colors: ReadonlyMap<string, string> = new Map([
         ["r", "red"],
         ["b", "blue"],
         ["g", "lightgreen"],
@@ -678,24 +749,28 @@ class ImageGenerator {
         ["p", "blueviolet"],
         ["pink", "pink"],
       ]);
-      const color = colors.get(card.get("clue")) ?? "black";
+      const color = colors.get(clue) ?? "black";
+      const cx = this.#xOffset + 35;
+      const cy = this.#yOffset - 15;
       this.#svgFile.addElement("circle", {
-        cx: this.#xOffset + 35,
-        cy: this.#yOffset - 15,
-        r: 15,
+        cx: cx.toString(),
+        cy: cy.toString(),
+        r: "15",
         fill: color,
         stroke: color === "black" ? "white" : "black",
-        "stroke-width": 2,
+        "stroke-width": "2",
       });
 
-      if (/^\d$/.test(card.get("clue"))) {
+      if (/^\d$/.test(clue)) {
+        const x = this.#xOffset + 27;
+        const y = this.#yOffset - 23;
         const r = this.#svgFile.addSVG({
-          x: this.#xOffset + 27,
-          y: this.#yOffset - 23,
-          width: 16,
-          height: 16,
+          x: x.toString(),
+          y: y.toString(),
+          width: "16",
+          height: "16",
         });
-        r.addText(card.get("clue"), {
+        r.addText(clue, {
           x: "50%",
           y: "50%",
           fill: "white",
@@ -710,33 +785,36 @@ class ImageGenerator {
       }
     }
 
-    if (card.get("above")) {
-      this.#drawTextbox(card.get("above"), 0);
+    const above = card.get("above") as string | undefined;
+    if (above !== undefined) {
+      this.#drawTextbox(above, 0);
     }
 
-    if (card.get("below")) {
-      const yb = this.#drawTextbox(card.get("below"), CARD_HEIGHT + 5);
+    const below = card.get("below") as string | undefined;
+    if (below !== undefined) {
+      const yb = this.#drawTextbox(below, CARD_HEIGHT + 5);
       if (yb > this.#yBelow) {
         this.#yBelow = yb;
       }
     }
 
-    if (card.get("middle_note")) {
-      const colors = new Map([
+    const middleNote = card.get("middle_note") as string | undefined;
+    if (middleNote !== undefined) {
+      const colors: ReadonlyMap<string, string> = new Map([
         ["(R)", "salmon"],
         ["(B)", "deepskyblue"],
         ["(G)", "lightgreen"],
         ["(Y)", "yellow"],
         ["(P)", "violet"],
       ]);
-      const color = colors.get(card.get("middle_note")) ?? "white";
+      const color = colors.get(middleNote) ?? "white";
       const r = this.#svgFile.addSVG({
-        x: this.#xOffset,
-        y: this.#yOffset,
-        width: CARD_WIDTH,
-        height: CARD_HEIGHT,
+        x: this.#xOffset.toString(),
+        y: this.#yOffset.toString(),
+        width: CARD_WIDTH.toString(),
+        height: CARD_HEIGHT.toString(),
       });
-      r.addText(card.get("middle_note"), {
+      r.addText(middleNote, {
         x: "50%",
         y: "50%",
         fill: color,
@@ -748,7 +826,7 @@ class ImageGenerator {
     }
   }
 
-  #drawTextbox(opts, offset) {
+  #drawTextbox(opts: string | Map<string, string>, offset: number) {
     if (Array.isArray(opts)) {
       let myOffset = offset;
       for (const part of opts) {
@@ -761,7 +839,11 @@ class ImageGenerator {
     let color;
     if (typeof opts === "string") {
       text = [opts];
-      color = opts.split(" ")[0].toLowerCase();
+      const firstColor = opts.split(" ")[0];
+      if (firstColor === undefined) {
+        throw new Error("Failed to parse the first color.");
+      }
+      color = firstColor.toLowerCase();
       const sameColors = new Set([
         "red",
         "yellow",
@@ -773,7 +855,7 @@ class ImageGenerator {
         "pink",
       ]);
       if (!sameColors.has(color)) {
-        const colors = new Map([
+        const colors: ReadonlyMap<string, string> = new Map([
           ["focus", "gold"],
           ["play", "gold"],
           ["chop", "darkred"],
@@ -784,48 +866,68 @@ class ImageGenerator {
         color = colors.get(color) ?? "black";
       }
     } else {
-      text = opts.get("text");
-      if (typeof text === "string") {
-        text = [text];
+      const newText = opts.get("text") as string | string[];
+      if (typeof newText === "string") {
+        text = [newText];
+      } else {
+        text = newText;
       }
       color = opts.get("color") ?? "black";
+    }
+
+    const firstCharacter = text[0];
+    if (firstCharacter === undefined) {
+      throw new Error("Failed to parse the first character of the text.");
     }
 
     let width;
     let r;
     // TODO: make this widening more generic
-    if (text[0].startsWith("Rainbow")) {
+    if (firstCharacter.startsWith("Rainbow")) {
       width = 85;
+      const x = this.#xOffset - 10;
+      const y = this.#yOffset + offset;
+      const height = 20 * text.length;
       r = this.#svgFile.addSVG({
-        x: this.#xOffset - 10,
-        y: this.#yOffset + offset,
-        width,
-        height: 20 * text.length,
+        x: x.toString(),
+        y: y.toString(),
+        width: width.toString(),
+        height: height.toString(),
       });
     } else {
       width = 64;
+      const x = this.#xOffset + 3;
+      const y = this.#yOffset + offset;
+      const height = 20 * text.length;
       r = this.#svgFile.addSVG({
-        x: this.#xOffset + 3,
-        y: this.#yOffset + offset,
-        width,
-        height: 20 * text.length,
+        x: x.toString(),
+        y: y.toString(),
+        width: width.toString(),
+        height: height.toString(),
       });
     }
     const textColor = new Set(["gold", "yellow", "rainbow", "pink"]).has(color)
       ? "black"
       : "white";
 
+    const height = 20 * text.length;
     r.addRect({
-      x: 0,
-      y: 0,
-      width,
-      height: 20 * text.length,
+      x: "0",
+      y: "0",
+      width: width.toString(),
+      height: height.toString(),
       stroke: textColor,
       fill: color === "rainbow" ? "url(#rainbowtext)" : color,
     });
 
     text.forEach((line, i) => {
-      r.addSVG({ x: 0, y: 20 * i, width, height: 20 }).addText(line, {
+      const y = 20 * i;
+      r.addSVG({
+        x: "0",
+        y: y.toString(),
+        width: width.toString(),
+        height: "20",
+      }).addText(line, {
         x: "50%",
         y: "50%",
         fill: textColor,
@@ -837,12 +939,18 @@ class ImageGenerator {
     return 20 * text.length;
   }
 
+  // TODO: unify with drawTextbox
   #drawBigText() {
-    // TODO: unify with drawTextbox
-
-    const opts = this.#yamlMap.get("big_text");
-    if (!opts) return;
-    const text = opts.get("text");
+    const bigText = this.#yamlMap.get("big_text") as
+      | Map<string, string>
+      | undefined;
+    if (bigText === undefined) {
+      return;
+    }
+    const text = bigText.get("text") as string | undefined;
+    if (text === undefined) {
+      throw new Error('Failed to parse the text in "big_text" element.');
+    }
 
     const TEXT_WIDTH = 200;
     const TEXT_HEIGHT = 50;
@@ -854,28 +962,28 @@ class ImageGenerator {
     const yOfText = this.#leftYOffset;
 
     // Select specific color for some keywords
-    const colors = new Map([
+    const colors: ReadonlyMap<string, string> = new Map([
       ["Bluff", "gold"],
       ["Finesse", "green"],
       ["Illegal!", "red"],
     ]);
-    const color = colors.get(text) ?? opts.get("color") ?? "black";
+    const color = colors.get(text ?? "") ?? bigText.get("color") ?? "black";
 
     const textColor = new Set(["gold", "yellow", "rainbow"]).has(color)
       ? "black"
       : "white";
 
     const r = this.#svgFile.addSVG({
-      x: xOfText,
-      y: yOfText,
-      width: TEXT_WIDTH,
-      height: TEXT_HEIGHT,
+      x: xOfText.toString(),
+      y: yOfText.toString(),
+      width: TEXT_WIDTH.toString(),
+      height: TEXT_HEIGHT.toString(),
     });
     r.addRect({
-      x: 0,
-      y: 0,
-      width: TEXT_WIDTH,
-      height: TEXT_HEIGHT,
+      x: "0",
+      y: "0",
+      width: TEXT_WIDTH.toString(),
+      height: TEXT_HEIGHT.toString(),
       stroke: textColor,
       fill: color,
     });
@@ -892,8 +1000,10 @@ class ImageGenerator {
   }
 
   #drawDiscardPile() {
-    const discarded = this.#yamlMap.get("discarded");
-    if (!discarded) return;
+    const discarded = this.#yamlMap.get("discarded") as string[] | undefined;
+    if (discarded === undefined) {
+      return;
+    }
 
     const TRASH_WIDTH = 200;
     const TRASH_HEIGHT = 200;
@@ -905,11 +1015,11 @@ class ImageGenerator {
     const yOfDiscardPile = this.#leftYOffset;
 
     this.#svgFile.addImage(`${PIECES_PATH}/trashcan.png`, {
-      x: xOfDiscardPile,
-      y: yOfDiscardPile,
-      width: TRASH_WIDTH,
-      height: TRASH_HEIGHT,
-      opacity: 0.2,
+      x: xOfDiscardPile.toString(),
+      y: yOfDiscardPile.toString(),
+      width: TRASH_WIDTH.toString(),
+      height: TRASH_HEIGHT.toString(),
+      opacity: "0.2",
     });
 
     const widthTotal = CARD_WIDTH + ((discarded.length - 1) * CARD_WIDTH) / 2;
@@ -918,21 +1028,23 @@ class ImageGenerator {
     let x = xOfDiscardPile + TRASH_WIDTH / 2 - widthTotal / 2;
     let y = yOfDiscardPile + TRASH_HEIGHT / 2 - heightTotal / 2;
     for (const card of discarded) {
-      this.#drawCluedCard(card, new Set(), new Set(), x, y);
+      this.#drawCluedCard(card, "", "", x, y);
       x += CARD_WIDTH / 2;
       y += CARD_HEIGHT / 3;
     }
 
+    const rx = CARD_ROUNDED_CORNER_SIZE * 2;
+    const ry = CARD_ROUNDED_CORNER_SIZE * 2;
     this.#svgFile.addRect({
-      x: xOfDiscardPile,
-      y: yOfDiscardPile,
-      width: TRASH_WIDTH,
-      height: TRASH_HEIGHT,
-      rx: CARD_ROUNDED_CORNER_SIZE * 2,
-      ry: CARD_ROUNDED_CORNER_SIZE * 2,
+      x: xOfDiscardPile.toString(),
+      y: yOfDiscardPile.toString(),
+      width: TRASH_WIDTH.toString(),
+      height: TRASH_HEIGHT.toString(),
+      rx: rx.toString(),
+      ry: ry.toString(),
       stroke: "darkgreen",
       fill: "none",
-      "stroke-width": 2,
+      "stroke-width": "2",
     });
 
     this.#leftYOffset = yOfDiscardPile + TRASH_HEIGHT + 2;

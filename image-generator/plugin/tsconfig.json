@@ -13,6 +13,7 @@
 
   "compilerOptions": {
     "outDir": ".",
+    "target": "ESNext",
   },
 
   "include": ["convertYAMLToSVG.ts"],
