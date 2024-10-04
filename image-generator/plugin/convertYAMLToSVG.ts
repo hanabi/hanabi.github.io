@@ -75,7 +75,7 @@ const DEFS_PREFACE = `
             <stop offset="0.75" stop-color="#77ffff"></stop>
             <stop offset="1" stop-color="#7777ff"></stop>
         </linearGradient>
-    `;
+`;
 
 class SvgNode {
   name: string;
