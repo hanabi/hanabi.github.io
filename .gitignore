@@ -11,9 +11,6 @@ build
 .DS_Store
 thumbs.db
 
-# Compiled output
-image-generator/plugin/convertYAMLToSVG.js
-
 # ------------------------------
 # GitHub Node.gitignore template
 # https://raw.githubusercontent.com/github/gitignore/master/Node.gitignore

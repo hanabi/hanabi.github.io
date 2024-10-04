@@ -75,7 +75,12 @@ export default function hanabiDocusaurusPlugin(): Plugin {
                 {
                   // Webpack loaders do not support TypeScript, so the plugin must be transpiled to
                   // a JavaScript file.
-                  loader: path.join(__dirname, "plugin", "convertYAMLToSVG.js"),
+                  loader: path.join(
+                    __dirname,
+                    "plugin",
+                    "dist",
+                    "convertYAMLToSVG.js",
+                  ),
                 },
               ],
             },
