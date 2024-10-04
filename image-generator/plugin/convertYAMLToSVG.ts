@@ -90,30 +90,30 @@ class SvgNode {
     this.name = name;
   }
 
-  addImage(href: string, opts: Record<string, unknown>) {
+  addImage(href: string, opts: Record<string, string>) {
     const node = this.addElement("image", opts);
     node.attributes.set("xlink:href", href);
   }
 
-  addText(text: string, opts: Record<string, unknown>) {
+  addText(text: string, opts: Record<string, string>) {
     const node = this.addElement("text", opts);
     node.textContent = text;
   }
 
-  addSVG(opts: Record<string, unknown>) {
+  addSVG(opts: Record<string, string>) {
     const node = this.addElement("svg", opts);
     node.children.push(new SvgNode("defs"));
     return node;
   }
 
-  addRect(opts: Record<string, unknown>) {
+  addRect(opts: Record<string, string>) {
     return this.addElement("rect", opts);
   }
 
-  addElement(name: string, opts: Record<string, unknown>) {
+  addElement(name: string, opts: Record<string, string>) {
     const node = new SvgNode(name);
-    for (const a in opts) {
-      node.attributes.set(a, opts[a]);
+    for (const [key, value] of Object.entries(opts)) {
+      node.attributes.set(key, value);
     }
     this.children.push(node);
     return node;
@@ -164,23 +164,23 @@ class SVG {
     this.#root.children.push(defs);
   }
 
-  addImage(href: string, opts: Record<string, unknown>) {
+  addImage(href: string, opts: Record<string, string>) {
     this.#root.addImage(href, opts);
   }
 
-  addText(text: string, opts: Record<string, unknown>) {
+  addText(text: string, opts: Record<string, string>) {
     this.#root.addText(text, opts);
   }
 
-  addSVG(opts: Record<string, unknown>) {
+  addSVG(opts: Record<string, string>) {
     return this.#root.addSVG(opts);
   }
 
-  addRect(opts: Record<string, unknown>) {
+  addRect(opts: Record<string, string>) {
     this.#root.addRect(opts);
   }
 
-  addElement(name: string, opts: Record<string, unknown>) {
+  addElement(name: string, opts: Record<string, string>) {
     return this.#root.addElement(name, opts);
   }
 
@@ -196,7 +196,9 @@ class SVG {
 }
 
 class ImageGenerator {
-  #allSuits = []; // Representing the possible suits for the current variant.
+  /** Representing the possible suits for the current variant. */
+  #allSuits: Array<string | undefined> = [];
+
   #xOffset = 0;
   #yOffset = 0;
   #xOffsetWherePlayerBegins = 0;
@@ -226,9 +228,11 @@ class ImageGenerator {
     ]);
 
     // Use the play stack to determine the available suits for this particular variant.
-    this.#allSuits = (
-      yamlMap.get("stacks") ?? NO_VARIANT_SUITS.map((a) => new Map([[a, 0]]))
-    ).map((a) => a.keys().next().value);
+    const defaultStacks = NO_VARIANT_SUITS.map((suit) => new Map([[suit, 0]]));
+    const stacks = (yamlMap.get("stacks") ?? defaultStacks) as Array<
+      Map<string, number>
+    >; // TODO: remove type assertion
+    this.#allSuits = stacks.map((a) => a.keys().next().value);
 
     // Create a new SVG file.
     this.#svgFile = new SVG();
@@ -251,9 +255,11 @@ class ImageGenerator {
     this.#drawDiscardPile();
 
     // Set the dimensions for the SVG file.
+    const width = this.#xMax;
+    this.#svgFile.attributes.set("width", width.toString());
     const yMax = Math.max(this.#yOffset, this.#leftYOffset);
-    this.#svgFile.attributes.set("width", this.#xMax);
-    this.#svgFile.attributes.set("height", yMax - this.#yTop);
+    const height = yMax - this.#yTop;
+    this.#svgFile.attributes.set("height", height.toString());
     this.#svgFile.attributes.set(
       "viewBox",
       `0 ${this.#yTop} ${this.#xMax} ${yMax - this.#yTop}`,
@@ -269,14 +275,15 @@ class ImageGenerator {
     let xOffset = 0;
     let yOffset = CARD_HEIGHT + VERTICAL_SPACING_BETWEEN_PLAYERS;
 
-    for (const colorValue of this.#yamlMap.get("stacks")) {
+    const stacks = this.#yamlMap.get("stacks") as Array<Map<string, number>>;
+    for (const colorValue of stacks) {
       const [color, value] = colorValue.entries().next().value;
       const fileName = `${this.#suitFilenames.get(color)}${value}`;
       this.#svgFile.addImage(`${PIECES_PATH}/cards/${fileName}.svg`, {
-        x: xOffset,
-        y: 0,
-        width: CARD_WIDTH,
-        height: CARD_HEIGHT,
+        x: xOffset.toString(),
+        y: "0",
+        width: CARD_WIDTH.toString(),
+        height: CARD_HEIGHT.toString(),
       });
 
       xOffset += CARD_WIDTH + HORIZONTAL_SPACING_BETWEEN_CARDS;
