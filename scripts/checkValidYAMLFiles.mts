@@ -55,13 +55,7 @@ function prettifySVG(svg: string): string {
 
   const lines = formatted.split("\n");
   for (const [lineNum, line] of lines.entries()) {
-    if (lineNum === 1) {
-      if (!line.startsWith("<svg ")) {
-        throw new Error(
-          `Failed to parse the second line of an SVG file: ${line}`,
-        );
-      }
-
+    if (!line.startsWith("<svg ")) {
       // Ignore the second line that starts with "<svg", since the attributes are not sorted in the
       // same way between Node.js and Python.
       lines[1] = "";
