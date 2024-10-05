@@ -910,15 +910,15 @@ class ImageGenerator {
       color = opts.get("color") ?? "black";
     }
 
-    const firstCharacter = text[0];
-    if (firstCharacter === undefined) {
-      throw new Error("Failed to parse the first character of the text.");
+    const firstLine = text[0];
+    if (firstLine === undefined) {
+      throw new Error("Failed to parse the first line of the text.");
     }
 
     let width: number;
     let r: SvgNode;
     // TODO: make this widening more generic
-    if (firstCharacter.startsWith("Rainbow")) {
+    if (firstLine.startsWith("Rainbow")) {
       width = 85;
       const x = this.xOffset - 10;
       const y = this.yOffset + offset;
