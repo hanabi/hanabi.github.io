@@ -685,7 +685,7 @@ class ImageGenerator {
     const orange = new Set(orangeString);
     const rankPipWidth = CARD_WIDTH / 5;
     for (let rank = 1; rank < 6; rank++) {
-      if (pips.has(`${rank}`)) {
+      if (pips.has(rank.toString())) {
         const x = (rank - 1) * rankPipWidth;
         const y = (CARD_HEIGHT * 4) / 5;
         const height = CARD_HEIGHT / 5;
@@ -703,7 +703,7 @@ class ImageGenerator {
           "text-anchor": "middle",
           "dominant-baseline": "central",
         });
-        if (crossedOut.has(`${rank}`)) {
+        if (crossedOut.has(rank.toString())) {
           const x2 = CARD_WIDTH / 10 - 6;
           const y2 = CARD_HEIGHT / 10 - 6;
           rect.addImage(`${PIECES_PATH}/x.png`, {
