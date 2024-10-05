@@ -150,7 +150,9 @@ class SvgNode {
       result += `${indent}</${this.name}>\n`;
       // eslint-disable-next-line @typescript-eslint/strict-boolean-expressions
     } else if (this.textContent) {
-      const escaped = this.textContent.toString().replace(/[<>&'"]/g, function (c: string) {
+      const escaped = this.textContent
+        .toString()
+        .replace(/[<>&'"]/g, function (c: string) {
           switch (c) {
             case "<":
               return "&lt;";
