@@ -86,8 +86,8 @@ class SvgNode {
   name: string;
   children: SvgNode[] = [];
   attributes = new Map<string, string>();
-  textContent: string = "";
-  rawTextContent: string = "";
+  textContent = "";
+  rawTextContent = "";
 
   constructor(name: string) {
     this.name = name;
@@ -152,20 +152,32 @@ class SvgNode {
     } else if (this.textContent) {
       const escaped = this.textContent
         .toString()
-        .replace(/[<>&'"]/g, function (c: string) {
-          switch (c) {
-            case "<":
+        .replaceAll(/["&'<>]/g, (character: string) => {
+          switch (character) {
+            case "<": {
               return "&lt;";
-            case ">":
+            }
+
+            case ">": {
               return "&gt;";
-            case "&":
+            }
+
+            case "&": {
               return "&amp;";
-            case "'":
+            }
+
+            case "'": {
               return "&apos;";
-            case '"':
+            }
+
+            case '"': {
               return "&quot;";
+            }
+
+            default: {
+              return character;
+            }
           }
-          return c;
         });
       result += `>${escaped}</${this.name}>\n`;
       // eslint-disable-next-line @typescript-eslint/strict-boolean-expressions
