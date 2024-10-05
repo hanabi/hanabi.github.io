@@ -402,7 +402,8 @@ class ImageGenerator {
     const cardType = `${card.get("type")}`;
     const clued = !cardType.startsWith("x");
 
-    if (card.has("border") || clued) {
+    // eslint-disable-next-line @typescript-eslint/strict-boolean-expressions
+    if (card.get("border") ?? clued) {
       this.drawClueBorder();
     }
 
