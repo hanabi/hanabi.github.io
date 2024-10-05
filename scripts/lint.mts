@@ -1,6 +1,7 @@
 import { $, lintScript, readFile } from "complete-node";
 import { glob } from "glob";
 import path from "node:path";
+import { checkValidYAMLFiles } from "./checkValidYAMLFiles.mjs";
 
 const REPO_ROOT = path.join(import.meta.dirname, "..");
 
@@ -30,7 +31,7 @@ await lintScript(async () => {
 
     // @template-customization-start
 
-    /// checkValidYAMLFiles(), // TODO: enable
+    checkValidYAMLFiles(),
     checkUnusedYAMLFiles(),
 
     // @template-customization-end

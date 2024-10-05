@@ -51,8 +51,8 @@
             <stop offset="1" stop-color="#7777ff"></stop>
         </linearGradient>
     </defs>
-  <image height="100" width="70" x="0" xlink:href="/img/pieces/cards/purple0.svg" y="0"/>
-  <image height="100" width="70" x="78" xlink:href="/img/pieces/cards/yellow0.svg" y="0"/>
+  <image height="100" width="70" x="0" xlink:href="/img/pieces/cards/yellow0.svg" y="0"/>
+  <image height="100" width="70" x="78" xlink:href="/img/pieces/cards/purple0.svg" y="0"/>
   <svg height="100" width="90" x="230" y="0">
     <defs/>
     <text class="site-theme-text" dominant-baseline="central" style="font-size: 1.4em;" x="0%" y="50%">Alice</text>
@@ -82,8 +82,8 @@
   <svg height="100" width="70" x="398" y="125">
     <defs/>
     <image height="100" width="70" x="0" xlink:href="/img/pieces/cards/5.svg" y="0"/>
-    <image height="12" style="filter: url(#shadow_suit)" width="12" x="29.0" xlink:href="/img/pieces/pips/purple.svg" y="24.0"/>
-    <image height="12" style="filter: url(#shadow_suit)" width="12" x="28.999999999999996" xlink:href="/img/pieces/pips/yellow.svg" y="64.0"/>
+    <image height="12" style="filter: url(#shadow_suit)" width="12" x="29" xlink:href="/img/pieces/pips/yellow.svg" y="24"/>
+    <image height="12" style="filter: url(#shadow_suit)" width="12" x="28.999999999999996" xlink:href="/img/pieces/pips/purple.svg" y="64"/>
   </svg>
   <image height="70" width="50" x="408" xlink:href="/img/pieces/arrow.svg" y="85"/>
   <circle cx="433" cy="110" fill="black" r="15" stroke="white" stroke-width="2"/>
@@ -108,4 +108,3 @@
     <rect fill="gray" height="100" rx="5" ry="5" width="70" x="0" y="0"/>
   </svg>
 </svg>
-
