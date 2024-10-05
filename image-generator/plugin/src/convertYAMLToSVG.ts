@@ -147,10 +147,11 @@ class SvgNode {
         result += child.text(offset + 2);
       }
       result += `${indent}</${this.name}>\n`;
-    } else if (this.textContent === "") {
-      result += "/>\n";
-    } else {
+      // eslint-disable-next-line @typescript-eslint/strict-boolean-expressions
+    } else if (this.textContent) {
       result += `>${this.textContent}</${this.name}>\n`;
+    } else {
+      result += "/>\n";
     }
     return result;
   }
