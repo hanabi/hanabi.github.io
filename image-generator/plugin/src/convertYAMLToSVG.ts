@@ -87,6 +87,7 @@ class SvgNode {
   children: SvgNode[] = [];
   attributes = new Map<string, string>();
   textContent = "";
+  rawTextContent = "";
 
   constructor(name: string) {
     this.name = name;
@@ -149,7 +150,39 @@ class SvgNode {
       result += `${indent}</${this.name}>\n`;
       // eslint-disable-next-line @typescript-eslint/strict-boolean-expressions
     } else if (this.textContent) {
-      result += `>${this.textContent}</${this.name}>\n`;
+      const escaped = this.textContent
+        .toString()
+        .replaceAll(/["&'<>]/g, (character: string) => {
+          switch (character) {
+            case "<": {
+              return "&lt;";
+            }
+
+            case ">": {
+              return "&gt;";
+            }
+
+            case "&": {
+              return "&amp;";
+            }
+
+            case "'": {
+              return "&apos;";
+            }
+
+            case '"': {
+              return "&quot;";
+            }
+
+            default: {
+              return character;
+            }
+          }
+        });
+      result += `>${escaped}</${this.name}>\n`;
+      // eslint-disable-next-line @typescript-eslint/strict-boolean-expressions
+    } else if (this.rawTextContent) {
+      result += `>${this.rawTextContent}</${this.name}>\n`;
     } else {
       result += "/>\n";
     }
@@ -167,7 +200,7 @@ class SVG {
     this.root.attributes.set("baseProfile", "full");
     this.root.attributes.set("version", "1.1");
     const defs = new SvgNode("defs");
-    defs.textContent = DEFS_PREFACE;
+    defs.rawTextContent = DEFS_PREFACE;
     this.root.children.push(defs);
   }
 
