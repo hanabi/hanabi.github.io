@@ -4,6 +4,11 @@
 
 /* eslint-disable max-classes-per-file */
 
+// Needed because `Set.intersection` is not in Node 20. This polyfill can be removed when the
+// Node.js LTS is brought to version 22.
+// eslint-disable-next-line import-x/no-extraneous-dependencies, import-x/no-unassigned-import
+import "core-js/actual/set/index.js";
+
 import YAML from "yaml";
 
 const TEXT_COLOR_CLASS = "site-theme-text";
@@ -491,15 +496,14 @@ class ImageGenerator {
 
     // Use sets to store the possible ranks and suits.
     const cardTypeSet = new Set(cardType);
-    const cardTypeSetValues = [...cardTypeSet];
-    const matchingRanks = cardTypeSetValues.filter((character) =>
-      ALL_RANKS.has(character),
-    );
-    const ranks = new Set(matchingRanks);
-    const matchingSuits = cardTypeSetValues.filter((character) =>
-      this.allSuits.includes(character),
-    );
-    const suits = new Set(matchingSuits);
+    // @ts-expect-error TypeScript does not work with core-js.
+    // eslint-disable-next-line @typescript-eslint/no-unsafe-call
+    const ranks = cardTypeSet.intersection(ALL_RANKS) as Set<string>;
+    // @ts-expect-error TypeScript does not work with core-js.
+    // eslint-disable-next-line @typescript-eslint/no-unsafe-call
+    const suits = cardTypeSet.intersection(
+      new Set(this.allSuits),
+    ) as Set<string>;
 
     if (ranks.size !== 1 && suits.size !== 1) {
       // This is a card with an unknown rank and an unknown color.
@@ -519,7 +523,9 @@ class ImageGenerator {
         ry: CARD_ROUNDED_CORNER_SIZE.toString(),
       });
       // Always draw pips on clued cards with unknown rank + unknown color.
-      const pips = new Set(...ranks, ...suits);
+      // @ts-expect-error  TypeScript does not work with core-js.
+      // eslint-disable-next-line @typescript-eslint/no-unsafe-call
+      const pips = ranks.union(suits) as Set<string>;
       this.drawCardPips(s, pips, crossedOut, orange);
     } else if (ranks.size === 1 && suits.size !== 1) {
       // This is a card with a known rank and an unknown color.
