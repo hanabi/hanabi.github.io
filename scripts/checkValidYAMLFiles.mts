@@ -52,8 +52,8 @@ export async function checkValidYAMLFiles(): Promise<void> {
 
 function prettifySVG(svg: string): string {
   const formatted = (xmlFormat as unknown as (input: string) => string)(svg);
-
   const lines = formatted.split("\n");
+
   for (const [lineNum, line] of lines.entries()) {
     if (!line.startsWith("<svg ")) {
       // Ignore the second line that starts with "<svg", since the attributes are not sorted in the
@@ -70,5 +70,6 @@ function prettifySVG(svg: string): string {
       lines[lineNum] = newLine;
     }
   }
+
   return lines.join("\n");
 }
