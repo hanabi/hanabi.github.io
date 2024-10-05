@@ -69,7 +69,7 @@ function prettifySVG(svg: string): string {
 
     // Some lines have extraneous decimal points, like "12.0". Convert this to just "12".
     const newLine = line.replaceAll(
-      /"(\d+)\.0"/g,
+      /"(-*\d+)\.0"/g,
       (_match, number) => `"${number}"`,
     );
     if (newLine !== line) {
