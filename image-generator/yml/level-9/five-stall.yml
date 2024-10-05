@@ -8,7 +8,7 @@ big_text:
   text: Early Game
   color: black
 players:
-  - clue_giver: true
+  - clueGiver: true
     cards:
       - type: x
       - type: x

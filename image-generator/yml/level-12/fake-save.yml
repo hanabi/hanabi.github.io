@@ -7,7 +7,7 @@ stacks:
 discarded:
   - r4
 players:
-  - clue_giver: true
+  - clueGiver: true
     cards:
       - type: x
       - type: x
@@ -20,10 +20,10 @@ players:
       - type: x
       - type: r
         clue: r
-        middle_note: (4)
+        middleNote: (4)
       - type: r
         clue: r
-        middle_note: (5)
+        middleNote: (5)
   - cards:
       - type: x
       - type: x

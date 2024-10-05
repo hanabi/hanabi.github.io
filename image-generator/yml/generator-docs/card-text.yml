@@ -5,11 +5,11 @@ stacks:
 players:
   - cards:
       - type: 4
-        middle_note: (B)
+        middleNote: (B)
       - type: r
-        middle_note: (2)
+        middleNote: (2)
       - type: x
-        middle_note: (CM)
+        middleNote: (CM)
         below:
           - Green
           - text: Bar

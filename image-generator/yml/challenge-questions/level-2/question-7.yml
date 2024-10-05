@@ -9,7 +9,7 @@ discarded:
   - r4
   - g4
 players:
-  - clue_giver: true
+  - clueGiver: true
     cards:
       - type: x
       - type: x

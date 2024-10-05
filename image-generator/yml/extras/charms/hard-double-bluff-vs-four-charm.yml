@@ -5,7 +5,7 @@ stacks:
   - b: 0
   - p: 0
 players:
-  - clue_giver: true
+  - clueGiver: true
     cards:
       - type: x
       - type: x
@@ -28,7 +28,7 @@ players:
         border: false
       - type: 4
         clue: 4
-        middle_note: (G)
+        middleNote: (G)
       - type: x
       - type: x
   - text: After both red 1 and red 2 blind-play...

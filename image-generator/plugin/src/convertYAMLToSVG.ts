@@ -31,7 +31,7 @@ const NO_VARIANT_SUITS = ["r", "y", "g", "b", "p"] as const;
 const ALL_RANKS: ReadonlySet<string> = new Set(["1", "2", "3", "4", "5"]);
 
 const DEFS_PREFACE = `
-        <filter x="0" y="0" width="1" height="1" id="clue_giver">
+        <filter x="0" y="0" width="1" height="1" id="clueGiver">
             <feFlood flood-color="cyan"/>
         </filter>
         <filter id="black_x_rank">
@@ -382,7 +382,7 @@ class ImageGenerator {
       "dominant-baseline": "central",
     });
 
-    if (player.has("clue_giver")) {
+    if (player.has("clueGiver")) {
       // Based on: https://stackoverflow.com/a/42783381/14347173
       const clueGiverDescription = "Clue Giver";
       r.addText(clueGiverDescription, {
@@ -391,7 +391,7 @@ class ImageGenerator {
         dy: "30",
         fill: "black",
         "dominant-baseline": "central",
-        filter: "url(#clue_giver)",
+        filter: "url(#clueGiver)",
       });
       r.addText(clueGiverDescription, {
         x: "0%",
@@ -841,7 +841,7 @@ class ImageGenerator {
       }
     }
 
-    const middleNote = card.get("middle_note") as string | undefined;
+    const middleNote = card.get("middleNote") as string | undefined;
     if (middleNote !== undefined) {
       const colors: ReadonlyMap<string, string> = new Map([
         ["(R)", "salmon"],
@@ -1099,9 +1099,10 @@ class ImageGenerator {
 }
 
 export default function convertYAMLToSVG(source: string): string {
-  const yamlMap = YAML.parse(source, {
+  const yaml = YAML.parse(source, {
     mapAsMap: true,
   }) as Map<string, unknown>;
-  const image = new ImageGenerator(yamlMap);
+  /// const hanabiGameState = hanabiGameStateSchema.parse(yaml);
+  const image = new ImageGenerator(yaml);
   return image.getSVGText();
 }

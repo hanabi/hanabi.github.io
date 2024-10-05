@@ -5,7 +5,7 @@ stacks:
   - b: 1
   - p: 0
 players:
-  - clue_giver: true
+  - clueGiver: true
     cards:
       - type: x
       - type: x
@@ -17,7 +17,7 @@ players:
       - type: x
       - type: x
         above: Yellow 1
-        middle_note: (f)
+        middleNote: (f)
         below: plays
       - type: x
       - type: x
@@ -34,11 +34,11 @@ players:
     cards:
       - type: x
       - type: b
-        middle_note: b1
+        middleNote: b1
         trash: true
       - type: x
-        middle_note: cm
+        middleNote: cm
       - type: x
-        middle_note: cm
+        middleNote: cm
       - type: x
-        middle_note: cm
+        middleNote: cm

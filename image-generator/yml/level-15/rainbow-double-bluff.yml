@@ -6,7 +6,7 @@ stacks:
   - p: 0
   - m: 1
 players:
-  - clue_giver: true
+  - clueGiver: true
     cards:
       - type: x
       - type: x
@@ -28,6 +28,6 @@ players:
       - type: x
       - type: bm
         clue: b
-        middle_note: (M3)
+        middleNote: (M3)
       - type: x
       - type: x

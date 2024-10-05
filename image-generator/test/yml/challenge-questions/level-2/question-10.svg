@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <svg xmlns="http://www.w3.org/2000/svg"  xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="405" version="1.1" viewBox="0 0 944 405" width="944">
   <defs>
-        <filter x="0" y="0" width="1" height="1" id="clue_giver">
+        <filter x="0" y="0" width="1" height="1" id="clueGiver">
             <feFlood flood-color="cyan"/>
         </filter>
         <filter id="black_x_rank">
@@ -59,7 +59,7 @@
   <svg height="100" width="90" x="464" y="0">
     <defs/>
     <text class="site-theme-text" dominant-baseline="central" style="font-size: 1.4em;" x="0%" y="50%">Alice</text>
-    <text dominant-baseline="central" dy="30" fill="black" filter="url(#clue_giver)" x="0%" y="50%">Clue Giver</text>
+    <text dominant-baseline="central" dy="30" fill="black" filter="url(#clueGiver)" x="0%" y="50%">Clue Giver</text>
     <text dominant-baseline="central" dy="30" fill="black" x="0%" y="50%">Clue Giver</text>
   </svg>
   <svg height="100" width="70" x="554" y="0">
@@ -122,4 +122,3 @@
   <image height="100" width="70" x="156.0" xlink:href="/img/pieces/cards/green3.svg" y="170.0"/>
   <rect fill="none" height="200" rx="10" ry="10" stroke="darkgreen" stroke-width="2" width="200" x="91.0" y="120"/>
 </svg>
-

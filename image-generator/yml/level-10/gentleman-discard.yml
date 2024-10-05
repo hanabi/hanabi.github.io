@@ -12,7 +12,7 @@ players:
       - type: x
       - type: x
       - type: x
-  - clue_giver: true
+  - clueGiver: true
     cards:
       - type: x
       - type: x
@@ -27,6 +27,6 @@ players:
         clue: r
         retouched: true
       - type: r
-        middle_note: (2)
+        middleNote: (2)
         clue: r
       - type: x

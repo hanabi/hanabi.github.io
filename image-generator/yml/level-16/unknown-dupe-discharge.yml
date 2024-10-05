@@ -22,17 +22,17 @@ players:
         trash: true
       - type: x
         above: Red 2
-        middle_note: r2?
+        middleNote: r2?
         clue: r
       - type: x
         above: Red 4
-        middle_note: r2?
+        middleNote: r2?
         clue: r
       - type: x
         above: Blue 4
       - type: 5
         above: Blue 5
-  - clue_giver: true
+  - clueGiver: true
     cards:
       - type: x
       - type: x

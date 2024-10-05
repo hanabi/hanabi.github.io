@@ -8,7 +8,7 @@ big_text:
   text: first turn
   color: black
 players:
-  - clue_giver: true
+  - clueGiver: true
     cards:
       - type: x
       - type: x
@@ -36,7 +36,7 @@ players:
   - text:
   - text: Next turn
   - name: Alice
-    clue_giver: true
+    clueGiver: true
     cards:
       - type: x
       - type: x
@@ -46,7 +46,7 @@ players:
   - name: Bob
     cards:
       - type: r
-        middle_note: r3
+        middleNote: r3
       - type: r2
         clue: 2
       - type: x

@@ -24,7 +24,7 @@ players:
       - type: x
       - type: x
         above: Red 5
-        middle_note: cm
+        middleNote: cm
   - name: Cathy
     cards:
       - type: x

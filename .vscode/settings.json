@@ -22,7 +22,8 @@
   "search.exclude": {
     "**/*.mp3": true,
     "**/*.png": true,
-    "**/*.svg": true,
+    // @template-ignore-next-line
+    "**/*.svg": false,
     "**/*.wav": true,
     "**/.yarn/": true,
     "**/dist/": true,

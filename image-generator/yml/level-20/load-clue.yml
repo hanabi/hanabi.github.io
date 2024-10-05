@@ -13,7 +13,7 @@ players:
       - type: x
   - text: Alice plays Blue 2
   - name: Bob
-    clue_giver: true
+    clueGiver: true
     cards:
       - type: x
       - type: x

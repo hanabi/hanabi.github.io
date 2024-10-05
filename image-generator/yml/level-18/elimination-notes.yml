@@ -17,26 +17,26 @@ players:
     cards:
       - type: x
       - type: x
-        middle_note: r4?
+        middleNote: r4?
       - type: x
-        middle_note: r4?
+        middleNote: r4?
       - type: x
-        middle_note: r4?
+        middleNote: r4?
       - type: x
-        middle_note: r4?
+        middleNote: r4?
   - text:
   - name: Alice
     cards:
       - type: r
-        middle_note: r5
+        middleNote: r5
         clue: r
       - type: r
-        middle_note: r4?
+        middleNote: r4?
         clue: r
       - type: x
       - type: x
       - type: x
-  - clue_giver: true
+  - clueGiver: true
     name: Bob
     cards:
       - type: x

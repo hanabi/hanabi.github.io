@@ -16,7 +16,7 @@ players:
       - type: x
   - text: Alice clues Red to Cathy, touching slots 1-4
   - name: Bob
-    clue_giver: true
+    clueGiver: true
     cards:
       - type: x
       - type: x

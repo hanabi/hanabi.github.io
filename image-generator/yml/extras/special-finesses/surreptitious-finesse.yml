@@ -5,7 +5,7 @@ stacks:
   - b: 0
   - p: 0
 players:
-  - clue_giver: true
+  - clueGiver: true
     cards:
       - type: x
       - type: x
@@ -22,11 +22,11 @@ players:
       - type: x
   - cards:
       - type: x
-        middle_note: b2?
+        middleNote: b2?
       - type: x
       - type: 3
         clue: 3
-        middle_note: r3/b3
+        middleNote: r3/b3
       - type: x
       - type: x
   - text: Cathy discards

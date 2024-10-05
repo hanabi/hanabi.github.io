@@ -13,7 +13,7 @@ players:
       - type: x
       - type: x
       - type: x
-    clue_giver: true
+    clueGiver: true
   - cards:
       - type: x
       - type: rygbi12345
@@ -24,7 +24,7 @@ players:
       - type: x
       - type: rygbi12345
         orange: 2
-        middle_note: (2)
+        middleNote: (2)
   - cards:
       - type: r
         above: Red 3
