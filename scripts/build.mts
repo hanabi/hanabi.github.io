@@ -1,12 +1,8 @@
-import { $op, $s, buildScript } from "complete-node";
-import path from "node:path";
+import { $s, buildScript } from "complete-node";
+import { compilePlugin } from "./compilePlugin.mjs";
 
 await buildScript((packageRoot) => {
-  // Compile the "image-generator" plugin.
-  const pluginDir = path.join(packageRoot, "image-generator", "plugin");
-  const $$ = $op({ cwd: pluginDir });
-  $$.sync`tsc`;
-
+  compilePlugin(packageRoot);
   $s`docusaurus clear`;
   $s`docusaurus build`;
 });
