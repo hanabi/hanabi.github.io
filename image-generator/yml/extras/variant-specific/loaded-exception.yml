@@ -8,7 +8,7 @@ big_text:
   text: low score
   color: black
 players:
-  - clue_giver: true
+  - clueGiver: true
     cards:
       - type: x
       - type: x
@@ -21,7 +21,7 @@ players:
       - type: x
         clue: 5
       - type: x
-        middle_note: cm
+        middleNote: cm
       - type: r4
   - cards:
       - type: x

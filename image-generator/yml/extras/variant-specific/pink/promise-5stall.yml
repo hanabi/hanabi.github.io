@@ -14,7 +14,7 @@ players:
       - type: x
       - type: x
       - type: x
-    clue_giver: true
+    clueGiver: true
   - cards:
       - type: rygbpi12345
         orange: 5
@@ -22,7 +22,7 @@ players:
       - type: rygbpi12345
         orange: 5
         clue: 5
-        middle_note: (5)
+        middleNote: (5)
       - type: x
       - type: x
       - type: x

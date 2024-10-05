@@ -7,7 +7,7 @@ stacks:
 big_text:
   text: Finesse
 players:
-  - clue_giver: true
+  - clueGiver: true
     cards:
       - type: x
       - type: x
@@ -24,10 +24,10 @@ players:
   - cards:
       - type: x
       - type: 3
-        middle_note: (R)
+        middleNote: (R)
       - type: 4
         clue: 4
-        middle_note: (R)
+        middleNote: (R)
       - type: x
       - type: x
   - text: After Bob blind-plays red 2...

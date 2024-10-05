@@ -30,7 +30,7 @@ players:
       - type: x
   - text: Alice gives a Fix Clue.
   - name: Alice
-    clue_giver: true
+    clueGiver: true
     cards:
       - type: x
       - type: x

@@ -5,7 +5,7 @@ stacks:
   - b: 1
   - p: 0
 players:
-  - clue_giver: true
+  - clueGiver: true
     cards:
       - type: x
       - type: x

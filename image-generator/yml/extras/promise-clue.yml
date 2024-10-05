@@ -21,7 +21,7 @@ players:
       - type: x
         clue: 1
         above: Red 1
-  - clue_giver: true
+  - clueGiver: true
     cards:
       - type: x
       - type: x

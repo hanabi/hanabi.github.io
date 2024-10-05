@@ -8,7 +8,7 @@ big_text:
   text: first turn
   color: black
 players:
-  - clue_giver: true
+  - clueGiver: true
     cards:
       - type: x
       - type: x
@@ -18,9 +18,9 @@ players:
       - type: 5
         clue: 5
       - type: x
-        middle_note: r2?
+        middleNote: r2?
       - type: x
-        middle_note: r2?
+        middleNote: r2?
       - type: x
   - cards:
       - type: x

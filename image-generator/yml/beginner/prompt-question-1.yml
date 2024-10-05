@@ -10,7 +10,7 @@ discarded:
   - r3
   - b3
 players:
-  - clue_giver: true
+  - clueGiver: true
     cards:
       - type: x
       - type: x

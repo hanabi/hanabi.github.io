@@ -14,14 +14,14 @@ players:
   - cards:
       - type: b
         clue: b
-        middle_note: (1)
+        middleNote: (1)
         below: Focus
       - type: x
       - type: x
       - type: x
       - type: b2345
         clue: b
-  - clue_giver: true
+  - clueGiver: true
     cards:
       - type: x
       - type: x

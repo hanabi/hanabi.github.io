@@ -7,7 +7,7 @@ stacks:
 big_text:
   text: Finesse
 players:
-  - clue_giver: true
+  - clueGiver: true
     cards:
       - type: x
       - type: x
@@ -29,7 +29,7 @@ players:
         above: Red 2
       - type: 4
         clue: 4
-        middle_note: (R)
+        middleNote: (R)
       - type: x
         above: Red 3
       - type: x

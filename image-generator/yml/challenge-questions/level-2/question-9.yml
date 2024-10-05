@@ -8,7 +8,7 @@ discarded:
   - b4
   - r3
 players:
-  - clue_giver: true
+  - clueGiver: true
     cards:
       - type: x
       - type: x

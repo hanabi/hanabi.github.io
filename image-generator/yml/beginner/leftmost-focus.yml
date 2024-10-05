@@ -5,7 +5,7 @@ stacks:
   - b: 0
   - p: 0
 players:
-  - clue_giver: true
+  - clueGiver: true
     cards:
       - type: x
       - type: x
@@ -17,7 +17,7 @@ players:
       - type: r
         clue: r
         below: Focus
-        middle_note: (1)
+        middleNote: (1)
       - type: x
       - type: r
         clue: r

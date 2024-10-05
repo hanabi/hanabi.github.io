@@ -12,13 +12,13 @@ players:
   - cards:
       - type: x
       - type: x
-        middle_note: r1
+        middleNote: r1
       - type: x
-        middle_note: r1
+        middleNote: r1
       - type: x
-        middle_note: r1
+        middleNote: r1
       - type: x
-        middle_note: r1
+        middleNote: r1
   - cards:
       - type: x
       - type: x

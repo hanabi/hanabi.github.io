@@ -12,10 +12,10 @@ players:
       - type: x
       - type: x
       - type: x
-  - clue_giver: true
+  - clueGiver: true
     cards:
       - type: r
-        middle_note: (1)
+        middleNote: (1)
       - type: x
       - type: x
       - type: x
@@ -23,7 +23,7 @@ players:
   - cards:
       - type: r
         clue: r
-        middle_note: (3)
+        middleNote: (3)
       - type: x
       - type: x
       - type: x

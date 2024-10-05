@@ -6,7 +6,7 @@ stacks:
   - p: 0
 players:
   - name: Alice
-    clue_giver: true
+    clueGiver: true
     cards:
       - type: x
       - type: x

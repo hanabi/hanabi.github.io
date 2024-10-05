@@ -16,7 +16,7 @@ players:
       - type: x
   - text: Alice discards to protect the red 3.
   - name: Bob
-    clue_giver: true
+    clueGiver: true
     cards:
       - type: x
       - type: x

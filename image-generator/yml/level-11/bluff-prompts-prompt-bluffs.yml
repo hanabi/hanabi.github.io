@@ -7,7 +7,7 @@ stacks:
 big_text:
   text: Illegal!
 players:
-  - clue_giver: true
+  - clueGiver: true
     cards:
       - type: x
       - type: x

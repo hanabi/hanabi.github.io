@@ -8,7 +8,7 @@ big_text:
   text: Mid-Game
   color: black
 players:
-  - clue_giver: true
+  - clueGiver: true
     cards:
       - type: x
       - type: x
@@ -28,7 +28,7 @@ players:
         above: Blue 5
       - type: x
         above: Red 1
-        middle_note: kt
+        middleNote: kt
   - cards:
       - type: x
       - type: x

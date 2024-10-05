@@ -5,7 +5,7 @@ stacks:
   - b: 0
   - p: 0
 players:
-  - clue_giver: true
+  - clueGiver: true
     cards:
       - type: x
       - type: x
@@ -31,4 +31,4 @@ players:
       - type: 2
         above: Red 2
         clue: 2
-        middle_note: r2
+        middleNote: r2

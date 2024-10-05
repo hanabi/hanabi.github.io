@@ -7,7 +7,7 @@ stacks:
 big_text:
   text: Illegal!
 players:
-  - clue_giver: true
+  - clueGiver: true
     cards:
       - type: x
       - type: x
@@ -23,7 +23,7 @@ players:
       - type: x
         border: false
         above: Misplays!
-        middle_note: (B5)
+        middleNote: (B5)
         below: Red 2
       - type: x
       - type: x
@@ -32,6 +32,6 @@ players:
       - type: x
       - type: r1345
         clue: r
-        middle_note: (3)
+        middleNote: (3)
       - type: x
       - type: x

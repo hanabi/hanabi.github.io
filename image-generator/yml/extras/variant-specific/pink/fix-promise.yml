@@ -13,7 +13,7 @@ players:
       - type: x
       - type: x
       - type: x
-    clue_giver: true
+    clueGiver: true
   - cards:
       - type: rygbi12345
         orange: 1
@@ -59,7 +59,7 @@ players:
       - type: i12345
         orange: 13
         clue: 3
-        middle_note: (3)
+        middleNote: (3)
         above: Pink 3
       - type: xrygb245
       - type: rygb3

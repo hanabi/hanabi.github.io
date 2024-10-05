@@ -11,9 +11,9 @@ players:
       - type: x
         above: Blue 3
       - type: x
-        middle_note: r3?
+        middleNote: r3?
       - type: x
-        middle_note: r3?
+        middleNote: r3?
       - type: x
   - cards:
       - type: x
@@ -21,7 +21,7 @@ players:
       - type: x
       - type: x
       - type: x
-  - clue_giver: true
+  - clueGiver: true
     cards:
       - type: x
       - type: x

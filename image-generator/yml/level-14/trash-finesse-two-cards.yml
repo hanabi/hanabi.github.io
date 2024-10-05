@@ -5,7 +5,7 @@ stacks:
   - b: 0
   - p: 1
 players:
-  - clue_giver: true
+  - clueGiver: true
     cards:
       - type: x
       - type: x
@@ -25,10 +25,10 @@ players:
   - cards:
       - type: 1
         clue: 1
-        middle_note: (G)
+        middleNote: (G)
       - type: 1
         clue: 1
-        middle_note: (G)
+        middleNote: (G)
       - type: x
       - type: x
   - text: After Cathy blind-plays red 1...

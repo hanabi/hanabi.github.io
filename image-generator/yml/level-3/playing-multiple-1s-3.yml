@@ -10,11 +10,11 @@ players:
   - cards:
       - type: 1
         clue: 1
-        middle_note: 2nd
+        middleNote: 2nd
         below: Fresh
       - type: 1
         clue: 1
-        middle_note: 4th
+        middleNote: 4th
         below:
           text:
             - Starting
@@ -22,7 +22,7 @@ players:
           color: gray
       - type: 1
         clue: 1
-        middle_note: 3rd
+        middleNote: 3rd
         below:
           text:
             - Starting
@@ -31,7 +31,7 @@ players:
       - type: x
       - type: 1
         clue: 1
-        middle_note: 1st
+        middleNote: 1st
         below:
           text:
             - Starting
@@ -39,7 +39,7 @@ players:
             - + Chop
           color: gray
 
-  - clue_giver: true
+  - clueGiver: true
     cards:
       - type: x
       - type: x
