@@ -10,7 +10,7 @@ Why bother taking the time to branch out from Board Game Arena to play Hanabi el
 
 ### Board Game Arena
 
-Board Game Arena is a website that allows people to play all different types of board games. It introduced Hanabi on the platform in June 2014, and it is currently the most popular place to play Hanabi online. For the most part, it has players ready to play at most times of the day, making it easy to join a quick game. Even though you will often be playing with complete strangers, most people on the site play with the same basic conventions, so little coordination is needed. And everyone is generally quite friendly!
+Board Game Arena is a website that allows people to play all different types of board games. It introduced Hanabi on the platform in June 2014, and it is currently the most popular place to play Hanabi online. For the most part, it has players ready to play at most times of the day, making it easy to hop into a quick game. Even though you will often be playing with complete strangers, most people on the site play with the same basic conventions, so little coordination is needed. And everyone is generally quite friendly!
 
 Board Game Arena also has an ELO system, which insulates the expert players from the newbies. As you move up the ranks, you will start to get games with the same players, which also allows you to get to know everyone in the community a bit more intimately.
 
