@@ -701,7 +701,7 @@ class ImageGenerator {
 
     // Validate that the suits come in order (with respect to the play stacks).
     if (letters.length >= 2) {
-      const sortedLetters = letters.toSorted((a, b) => {
+      const sortedLetters = [...letters].sort((a, b) => {
         const aa = this.allSuits.indexOf(a);
         const bb = this.allSuits.indexOf(b);
         return aa - bb;
