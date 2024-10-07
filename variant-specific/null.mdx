@@ -1,0 +1,117 @@
+---
+id: "null"
+title: "Null"
+---
+
+import Positional from "@site/image-generator/yml/extras/variant-specific/null/positional.yml";
+import ColorPositional6 from "@site/image-generator/yml/extras/variant-specific/null/color-positional-6.yml";
+import ColorPositional5 from "@site/image-generator/yml/extras/variant-specific/null/color-positional-5.yml";
+import ColorPositionalSkipClued from "@site/image-generator/yml/extras/variant-specific/null/color-positional-skip-clued.yml";
+import ColorPositionalWrapAround from "@site/image-generator/yml/extras/variant-specific/null/color-positional-wrap-around.yml";
+import ColorPositionalSkipDark from "@site/image-generator/yml/extras/variant-specific/null/color-positional-skip-dark.yml";
+import NoPositionalFinesse from "@site/image-generator/yml/extras/variant-specific/null/no-positional-finesse.yml";
+import GoodDoubleSave from "@site/image-generator/yml/extras/variant-specific/null/good-double-save.yml";
+import BadDoubleSave1 from "@site/image-generator/yml/extras/variant-specific/null/bad-double-save-1.yml";
+import BadDoubleSave2 from "@site/image-generator/yml/extras/variant-specific/null/bad-double-save-2.yml";
+
+These conventions apply to any variant with a null (touched by no clues) suit. They are turned off once all null cards are played or globally known.
+
+### The Null Kick
+
+- When null cards are newly drawn, they can usually be gotten by _Bluffs_, _Ejections_, and _Discharges_. However, it can sometimes be difficult to get cards near the back of the player's hand.
+- Therefore, in variants with a null suit, we replace less commonly used _Ejections_ with a move called a _Kick_. A _Kick_ signals that the next player should blind-play their chop. (_Chop Moved_ cards should never be blind-played from a _Kick_.)
+- Specifically, _Replay Ejections_, _Poke Ejections_, _Trash Ejections_ and _Double Ejections_ are turned off, and instead signal a _Null Kick_.
+- Similar to _Bluffs_, _Ejections_, and _Discharges_, _Kicks_ must be performed on the very next player.
+- Note that a _Double Ignition_ takes precedence over a _Null Kick_; if Bob sees that someone else has a playable card on finesse position, that interpretation should be preferred.
+
+#### The Null Kick Finesse
+
+- Since it is usually very easy to get non-null cards on a player's chop, we agree that _Null Kicks_ should be used only to get null cards.
+- Thus, if Bob blind-plays a non-null card into a _Null Kick_, he should continue blind-playing cards until he finds a null card.
+- In this situation, Bob should blind-play his _Second Chop_, _Third Chop_, and so on, until he reaches his _First Finesse Position_. If he has still has not blind-played a null card, he should then play his _Chop Moved_ cards from left to right.
+
+### Null 5 Tech
+
+- _Bluffs_, _Ejections_, _Discharges_, and _Kicks_ are useful to get null cards played. However, we need a separate and more reliable way to deal with null saves.
+- The main tool for this is to use number 5 clues.
+- The _5 Save_ and the _5's Chop Move_ still work the same as they would in a no variant game. However, the following conventions are turned off:
+  - _Play Clues_ with a number 5 (including on a previously clued 5)
+  - The _5 Stall_
+  - The _5 Pull_
+  - The _5 Number Discharge_
+- These moves are replaced with other things; see below.
+
+#### The Null 5's Chop Move
+
+- When Alice gives a number 5 clue that is not a _5 Save_ or a _5's Chop Move_, **as long as Bob is not loaded**, it signals a _Null 5's Chop Move_ on Bob.
+  - Note that the number 5 clue can be given to any player; it does not necessarily have to be on Bob.
+- The _Null 5's Chop Move_ is **only** allowed to save null cards that are playable / phantom playable or critical (or a null 2 that isn't visible elsewhere, same as an ordinary _2 Save_).
+- This convention applies only to Bob; see _The Double Save_ for saving other players.
+
+#### The Loaded 5 Null Play Clue
+
+- When Alice gives a number 5 clue that is not a _5 Save_ or a _5's Chop Move_, **if Bob is loaded**, it signals a _Loaded 5 Null Play Clue_ to Bob.
+  - Note that the number 5 clue can be given to any player; it does not necessarily have to be on Bob.
+- Bob should immediately play his rightmost card with no positive clues. Notably, if Bob is _Chop Moved_, he should play his rightmost _Chop Moved_ card.
+- This convention applies only to Bob.
+
+#### Interaction With Pink
+
+- _Pink Promise_ does not apply to number 5 clues, except for _5 Saves_, _5's Chop Moves_, and _Turnabout Ejections_.
+- In particular, it is not possible to perform a _Bubblegum Finesse_ or a _Bubblegum Bluff_ with a number 5 clue.
+
+### Saving Multiple Cards
+
+#### Double Save Situations
+
+- Given that the _Null 5's Chop Move_ only applies to Bob and only chop moves one card, it can be difficult to save two critical cards in a row on Bob.
+- A _Double Save Situation_ occurs when:
+  1. Cathy is not loaded.
+  2. Cathy has a critical null card on her chop.
+  3. Cathy has any critical card on her second chop (the next unclued card after the chop).
+  4. Cathy's two critical cards cannot be saved with one clue (e.g. a _5's Chop Move_, a _Trash Chop Move_, or an _Unnecessary Reverse Trash Finesse_).
+
+#### The Double Save
+
+- In the _Double Save_, Alice gives a number 5 clue, similar to a _Null 5's Chop Move_. But Bob does not _Chop Move_, and instead immediately performs a second _Save Clue_ or _Chop Move_ on Cathy.
+- _Double Saves_ can only be performed in _Double Save Situation_.
+- When a _Double Save_ interpretation is possible, Cathy should always assume that a _Double Save_ has occurred. In other words, Cathy should not assume that Alice performed a _Null 5's Chop Move_ on Bob and that Bob gave her a play clue.
+- Since the necessity of saving 2s is not symmetric, _Double Saves_ may not be initiated to save non-critical 2s.
+- Note that _Double Saves_ may be performed regardless of whether Bob is loaded.
+- For example, in a 3-player game of the "Null (5 Suits)" variant:
+  - The red 3 is played on the stacks. The green 4 is discarded.
+  - Bob has already been given a _Play Clue_ on a yellow 1, but has not played it yet. He also has a playable null 1 in as his rightmost card.
+  - Cathy has two critical cards on chop: the null 5 and the green 4.
+  - To save these cards, Alice initiates a _Double Save_ by cluing number 5 clue to Cathy, which forces Bob clue a number 4 to Cathy.
+  - Normally, since Bob is loaded, he would consider this to be a _Loaded 5 Null Play Clue_, and would play his chop. However, Bob knows that _Double Save_ situations take precedence over _Loaded 5 Null Play Clues_.
+  - Normally, since Cathy sees that Bob has a playable null 1 on chop, she would consider this to be a _Loaded 5 Null Play Clue_. However, Cathy knows that _Double Save_ situations take precedence over _Loaded 5 Null Play Clues_.
+
+<GoodDoubleSave />
+
+#### The Double Save Corollary
+
+- Since Cathy should always assume a _Double Save_ occurred whenever it is possible, Alice must take care not to create ambiguous situations by performing a _Null 5's Chop Move_ at the wrong time.
+- For example, in a 3-player game of the "Null (5 Suits)" variant:
+  - The red 2, yellow 2, green 2, and blue 2 are all played on the stacks.
+  - Bob and Cathy both have critical null cards on chop.
+  - Alice should refrain from trying to save Bob's critical card now.
+  - This is because using a _Null 5's Chop Move_ on Bob would prevent Bob from doing a _Null 5's Chop Move_ on Cathy, since it would look like a _Double Save_.
+  - Thus, Alice can clue number 1 to Bob as a _Trash Chop Move_. Alternatively, Alice can discard and count on Bob to save Cathy's critical null card.
+
+<BadDoubleSave1 />
+
+- For example, in a 3-player game of the "Null (5 Suits)" variant:
+  - The red 1, yellow 1, and blue 1 are played on the stacks. The yellow 4 is discarded.
+  - Bob has a critical null card on chop, and Cathy has a playable yellow 2.
+  - If Alice clues number 5 to Bob as a _Null 5's Chop Move_, Bob will be unable to get the yellow 2 to play.
+  - This is because if Bob were to clue yellow to Cathy, it would look like a _Double Save_ on the null 3 and the yellow 4.
+  - Thus, Alice should probably clue the green 1 or discard.
+
+<BadDoubleSave2 />
+
+### Relaxed 1 and 2 Saves
+
+- It is optional for players to give _Save Clues_ to null 2's.
+- Thus, if a null 2 is discarded, players should not make any _Elimination Notes_ for it.
+- Similarly, it is optional to "get" the first copy of the null 1.
+- If the first copy of the null 1 was difficult to get played and is discarded, players should not make any _Elimination Notes_ for it.
