@@ -2,7 +2,7 @@ stacks:
   - r: 1
   - g: 1
   - b: 1
-big_text:
+bigText:
   text: Blah
   color: green
 players:

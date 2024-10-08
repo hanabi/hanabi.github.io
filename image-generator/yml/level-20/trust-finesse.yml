@@ -10,7 +10,7 @@ players:
       - type: r2
       - type: x
       - type: yb2
-        crossed_out: y
+        crossedOut: y
       - type: x
   - text: Alice plays the unknown 2
   - name: Bob

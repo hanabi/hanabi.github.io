@@ -11,15 +11,6 @@ players:
       - type: x
       - type: y5
       - type: g5
-    -cards:
-      - type: r3
-        border: false
-      - type: p1
-        border: false
-      - type: g1
-        border: false
-      - type: b1
-        border: false
   - cards:
       - type: r4
         border: false

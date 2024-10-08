@@ -29,9 +29,10 @@ players:
       - type: x
       - type: 3
         below:
-          - Blue 3
-          - Yellow 3
-          - Green 3
-          - Purple 3
+          text:
+            - Blue 3
+            - Yellow 3
+            - Green 3
+            - Purple 3
       - type: x
       - type: x

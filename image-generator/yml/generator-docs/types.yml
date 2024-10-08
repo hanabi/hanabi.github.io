@@ -24,13 +24,13 @@ players:
   - cards:
       - type: 134
       - type: rbm12345
-        crossed_out: m35
+        crossedOut: m35
       - type: xrbm12345
-        crossed_out: r4
+        crossedOut: r4
   - name: F
     cards:
       - type: rb2
-        crossed_out: b
+        crossedOut: b
       - type: b345
         trash: true
         orange: 34

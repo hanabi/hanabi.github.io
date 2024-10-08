@@ -27,7 +27,6 @@ players:
       - type: x
       - type: b
         clue: b
-        above: blue 4
       - type: x
   - text: After Bob blind-plays...
   - name: Cathy
@@ -38,5 +37,6 @@ players:
       - type: b
         clue: b
         below:
-          - Blue 4
+          text:
+            - Blue 4
       - type: x

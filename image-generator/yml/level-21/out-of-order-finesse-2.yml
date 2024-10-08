@@ -4,7 +4,7 @@ stacks:
   - g: 0
   - b: 0
   - p: 0
-big_text:
+bigText:
   text: first turn
   color: black
 players:
@@ -22,7 +22,7 @@ players:
       - type: x
       - type: x
   - text: Bob gives a fix clue to Cathy
-  - text:
+  - text: ""
   - name: Cathy
     cards:
       - type: r
