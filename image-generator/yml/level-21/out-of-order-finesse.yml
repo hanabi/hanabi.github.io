@@ -4,7 +4,7 @@ stacks:
   - g: 0
   - b: 0
   - p: 0
-big_text:
+bigText:
   text: first turn
   color: black
 players:
@@ -33,7 +33,7 @@ players:
       - type: x
       - type: x
   - text: Cathy blind-plays red 1.
-  - text:
+  - text: ""
   - text: Next turn
   - name: Alice
     clueGiver: true

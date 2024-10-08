@@ -4,7 +4,7 @@ stacks:
   - g: 1
   - b: 1
   - p: 1
-big_text:
+bigText:
   text: Mid-Game
   color: black
 players:

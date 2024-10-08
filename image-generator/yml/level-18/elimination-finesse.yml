@@ -24,7 +24,7 @@ players:
         middleNote: b3?
       - type: x
         middleNote: b3?
-  - text:
+  - text: ""
   - name: Alice
     cards:
       - type: x

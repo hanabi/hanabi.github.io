@@ -11,9 +11,8 @@ players:
       - type: x
         middleNote: (CM)
         below:
-          - Green
-          - text: Bar
-            color: yellow
+          text: Bar
+          color: yellow
   - cards:
       - type: x
         above: Red 1

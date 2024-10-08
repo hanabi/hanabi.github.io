@@ -11,12 +11,6 @@ players:
       - type: x
       - type: x
       - type: r4
-    -cards:
-      - type: y1
-      - type: g5
-        clue: 5
-      - type: g1
-      - type: b1
   - cards:
       - type: g3
         border: false

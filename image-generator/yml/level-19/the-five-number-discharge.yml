@@ -4,7 +4,7 @@ stacks:
   - g: 1
   - b: 1
   - p: 1
-big_text:
+bigText:
   text: low score
   color: black
 players:
@@ -31,8 +31,9 @@ players:
         above: Red 1
         middleNote: kt
         below:
-          - globally
-          - known
+          text:
+            - globally
+            - known
       - type: x
         above: Green 2
       - type: x

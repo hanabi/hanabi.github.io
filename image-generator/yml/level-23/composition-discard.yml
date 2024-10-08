@@ -4,7 +4,7 @@ stacks:
   - g: 3
   - b: 5
   - p: 2
-big_text:
+bigText:
   text: "Clues: 0"
   color: black
 players:

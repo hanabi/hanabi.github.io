@@ -30,7 +30,7 @@ players:
       - type: x
       - type: x
   - text: Cathy discards
-  - text:
+  - text: ""
   - text: Next turn
   - name: Alice
     clueGiver: true
