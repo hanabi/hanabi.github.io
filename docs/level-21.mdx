@@ -7,8 +7,6 @@ import OutOfOrderPlayClue from "@site/image-generator/yml/level-21/out-of-order-
 import OutOfOrderFinesse from "@site/image-generator/yml/level-21/out-of-order-finesse.yml";
 import FiveColorEjection from "@site/image-generator/yml/level-21/five-color-ejection.yml";
 import OutOfOrderFinesse2 from "@site/image-generator/yml/level-21/out-of-order-finesse-2.yml";
-import GoodTouchBluff from "@site/image-generator/yml/level-21/good-touch-bluff.yml";
-import GoodTouchBluff2 from "@site/image-generator/yml/level-21/good-touch-bluff-2.yml";
 import NoInformationDoubleFinesse from "@site/image-generator/yml/level-21/no-information-double-finesse.yml";
 import NoInformationDoubleBluff from "@site/image-generator/yml/level-21/no-information-double-bluff.yml";
 
@@ -126,30 +124,6 @@ import OccupiedSelfFinesse from "@site/image-generator/yml/level-21/occupied-sel
 - If a clue type is chosen that is **clearly worse** than the other one, then the clue giver must be trying to communicate something extra.
 - The means that this innocent-looking _Save Clue_ is really a _Play Clue_, and all of the in-between cards are called for.
 - Note that for a _Suboptimal Save Finesse_ to work, the clue has to be **really bad**, not just technically suboptimal in some slight way.
-
-### The Good Touch Bluff
-
-- Care has to be taken so that a _Bluff_ does not look like a _Finesse_.
-- For example, in a 4-player game:
-  - Red 2 and blue 2 are played on the stacks.
-  - Alice clues Cathy number 4, which touches a red 4.
-  - Bob blind-plays a blue 3 from his _Finesse Position_.
-  - Since 3 connects to 4, Cathy knows she has the blue 4, and goes on to misplay red 4 as blue 4.
-  - Thus, Alice should not have given this clue.
-
-<GoodTouchBluff />
-
-- However, what if someone else on the team already has the connecting card? In this situation, the clue can be given without fear: from _Good Touch Principle_, the clue recipient will know that it is a _Bluff_ instead of a _Finesse_.
-- For example, in a 4-player game:
-  - Red 2 and blue 2 are played on the stacks.
-  - Alice clues Cathy number 4, which touches a red 4.
-  - Bob blind-plays a blue 3 from his _Finesse Position_.
-  - Cathy's first thought is that since 3 connects to 4, she must have the blue 4. However, Cathy sees that Donald already has a clued blue 4 it in his hand. (The blue 4 just has a blue clue on it and the true identity of the card is not yet known to Donald.)
-  - Cathy knows that she must **not** have the blue 4, because then Alice's clue would have violated _Good Touch Principle_. Cathy can reason that her 4 is instead some **other** _one-away-from-playable_ 4. The only other valid _Bluff_ target is the red 4 (because the only _one-away-from-playable_ 4 is red 4). So, Cathy marks her number 4 card as a red 4, and discards.
-  - Donald is surprised by Alice's clue. From Donald's perspective, Cathy should have misplayed the red 4 as the blue 4, since 3 connects to 4.
-  - Since Cathy did not misplay, Donald can reason that **he** must have the blue 4. Donald marks the previously unknown blue card in his hand as blue 4.
-
-<GoodTouchBluff2 />
 
 ### The No-Information Double Finesse
 
