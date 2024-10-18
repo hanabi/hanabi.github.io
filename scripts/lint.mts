@@ -32,7 +32,7 @@ await lintScript(async () => {
     // @template-customization-start
 
     testEveryYAMLFile(true),
-    checkUnusedYAMLFiles(),
+    /// checkUnusedYAMLFiles(), // TODO: unused while YAML files are reshuffled next to mdx
 
     // @template-customization-end
   ];
@@ -40,6 +40,7 @@ await lintScript(async () => {
   await Promise.all(promises);
 });
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 async function checkUnusedYAMLFiles() {
   const importRegex = /import .+ from "@site\/(image-generator\/yml\/.+yml)/;
 
