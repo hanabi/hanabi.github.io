@@ -27,12 +27,3 @@ players:
         border: false
       - type: b5
       - type: y2
-  - cards:
-      - type: p4
-        border: false
-      - type: b1
-        border: false
-      - type: r5
-        border: false
-      - type: p3
-        border: false
