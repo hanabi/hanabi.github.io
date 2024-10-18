@@ -14,7 +14,7 @@ if (isMain()) {
 /**
  * Ensure that an SVG file can be generated from every YAML file without any run-time errors
  * occurring. (This is useful because Zod will throw a run-time error if there is a mistake when
- * parsing the file format.
+ * parsing the file format.)
  */
 export async function testEveryYAMLFile(quiet: boolean): Promise<void> {
   const yamlFilePathFragments = await glob("./**/*.yml", {
