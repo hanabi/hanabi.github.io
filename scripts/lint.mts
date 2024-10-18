@@ -32,6 +32,7 @@ await lintScript(async () => {
     // @template-customization-start
 
     testEveryYAMLFile(true),
+    testYAMLFilesUniqueNames(),
     /// checkUnusedYAMLFiles(), // TODO: unused while YAML files are reshuffled next to mdx
 
     // @template-customization-end
@@ -39,6 +40,24 @@ await lintScript(async () => {
 
   await Promise.all(promises);
 });
+
+async function testYAMLFilesUniqueNames() {
+  // Go through every ".yml" file.
+  const yamlFilePathFragments = await glob("./**/*.yml", {
+    ignore: "node_modules/**",
+  });
+  const fileNameSet = new Set<string>();
+  for (const yamlFilePathFragment of yamlFilePathFragments) {
+    const fileName = path.basename(yamlFilePathFragment);
+    if (fileNameSet.has(fileName)) {
+      throw new Error(
+        `There is more than one YAML file with the name of: ${fileName}`,
+      );
+    }
+
+    fileNameSet.add(fileName);
+  }
+}
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 async function checkUnusedYAMLFiles() {
