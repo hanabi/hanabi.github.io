@@ -1,6 +1,5 @@
 {
   "name": "hanabi.github.io",
-  "version": "0.0.0",
   "private": true,
   "scripts": {
     "build": "tsx --tsconfig ./scripts/tsconfig.json ./scripts/build.mts",
