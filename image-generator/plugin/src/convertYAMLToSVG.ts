@@ -1,6 +1,4 @@
 // See: https://webpack.js.org/contribute/writing-a-loader/
-// TODO: remove all toString
-// TODO: remove sort todo
 // TODO: go through all variables and remove them potentially
 
 // Needed because `Set.intersection` is not in Node 20. This polyfill can be removed when the
