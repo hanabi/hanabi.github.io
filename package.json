@@ -15,7 +15,7 @@
     "start": "npm run compile-plugin && docusaurus start",
     "swizzle": "docusaurus swizzle",
     "test": "tsx --tsconfig ./scripts/tsconfig.json ./scripts/test.mts",
-    "update": "npm-check-updates --upgrade"
+    "update": "isaacscript update"
   },
   "browserslist": {
     "production": [
@@ -48,7 +48,6 @@
     "glob": "^11.0.0",
     "isaacscript": "^5.0.7",
     "typescript": "^5.6.3",
-    "webpack": "^5.95.0",
-    "xml-formatter": "^3.6.3"
+    "webpack": "^5.95.0"
   }
 }
