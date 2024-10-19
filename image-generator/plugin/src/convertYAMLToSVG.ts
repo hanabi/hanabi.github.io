@@ -2,7 +2,8 @@
 // TODO: go through all variables and remove them potentially
 
 // Needed because `Set.intersection` is not in Node 20. This polyfill can be removed when the
-// Node.js LTS is brought to version 22.
+// Node.js LTS is brought to version 22. Put an engines directive in "package.json" when this is the
+// case.
 // eslint-disable-next-line import-x/no-unassigned-import
 import "core-js/actual/set/index.js";
 
