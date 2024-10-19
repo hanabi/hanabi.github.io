@@ -6,13 +6,12 @@ if (isMain()) {
   compilePlugin(packageRoot);
 }
 
-/** Compile the "imageGenerator" plugin. */
+/** Compile the "hanabiDocusaurusPlugin" plugin. */
 export function compilePlugin(packageRoot: string): void {
   const pluginDir = path.join(
     packageRoot,
-    "src",
     "plugins",
-    "imageGenerator",
+    "hanabiDocusaurusPlugin",
     "plugin",
   );
   const $$ = $op({ cwd: pluginDir });

@@ -105,7 +105,7 @@ const config: Config = {
   // Added fields from vanilla
   // -------------------------
 
-  plugins: ["./src/plugins/imageGenerator/index.ts"],
+  plugins: ["./plugins/hanabiDocusaurusPlugin/index.ts"],
   scripts: [
     // Font Awesome is used for the icons on the landing page.
     // https://fontawesome.com/kits/1932a73877/setup

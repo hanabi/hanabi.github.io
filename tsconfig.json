@@ -18,6 +18,7 @@
   // @template-customization-start
 
   "include": [
+    "./plugins/**/*.ts",
     "./src/**/*.ts",
     "./src/**/*.tsx",
     "./static/js/*.js",
