@@ -30,12 +30,6 @@ done
 git diff --stat
 for x in $(seq "$MAX_LEVEL" -1 "$1"); do
 	((y = x + 1))
-	if [ -d "image-generator/yml/level-$x" ]; then
-		git mv "image-generator/yml/level-$x" "image-generator/yml/level-$y"
-	fi
-	if [ -d "image-generator/yml/challenge-questions/level-$x" ]; then
-		git mv "image-generator/yml/challenge-questions/level-$x" "image-generator/yml/challenge-questions/level-$y"
-	fi
 	if [ -f "docs/challenge-questions/level-$x.mdx" ]; then
 		git mv "docs/challenge-questions/level-$x.mdx" "docs/challenge-questions/level-$y.mdx"
 	fi

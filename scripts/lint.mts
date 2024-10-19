@@ -1,12 +1,11 @@
 import { $, lintScript, readFile } from "complete-node";
 import { glob } from "glob";
 import path from "node:path";
-import { testEveryYAMLFile } from "./test.mjs";
 
 const REPO_ROOT = path.join(import.meta.dirname, "..");
 
 await lintScript(async () => {
-  const promises = [
+  await Promise.all([
     // Use TypeScript to type-check the code.
     $`tsc --noEmit`,
     $`tsc --noEmit --project ./scripts/tsconfig.json`,
@@ -33,44 +32,20 @@ await lintScript(async () => {
     $`isaacscript check-ts --ignore build.ts,LICENSE,lint.ts`,
 
     // @template-customization-start
-
-    testEveryYAMLFile(true),
-    testYAMLFilesUniqueNames(),
-    /// checkUnusedYAMLFiles(), // TODO: unused while YAML files are reshuffled next to mdx
-
+    checkUnusedYAMLFiles(),
     // @template-customization-end
-  ];
-
-  await Promise.all(promises);
+  ]);
 });
 
-async function testYAMLFilesUniqueNames() {
-  // Go through every ".yml" file.
-  const yamlFilePathFragments = await glob("./**/*.yml", {
-    ignore: "node_modules/**",
-  });
-  const fileNameSet = new Set<string>();
-  for (const yamlFilePathFragment of yamlFilePathFragments) {
-    const fileName = path.basename(yamlFilePathFragment);
-    if (fileNameSet.has(fileName)) {
-      throw new Error(
-        `There is more than one YAML file with the name of: ${fileName}`,
-      );
-    }
-
-    fileNameSet.add(fileName);
-  }
-}
-
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
 async function checkUnusedYAMLFiles() {
-  const importRegex = /import .+ from "@site\/(image-generator\/yml\/.+yml)/;
+  const importRegex = /import .+ from ".*\/(.+.yml)/;
 
   // Go through every ".mdx" file and compile a set of used YAML files.
   const mdxFilePathFragments = await glob("./docs/**/*.mdx");
-  const usedYAMLFilePaths = new Set<string>();
+  const usedYAMLFileNames = new Set<string>();
   for (const mdxFilePathFragment of mdxFilePathFragments) {
     const mdxFilePath = path.join(REPO_ROOT, mdxFilePathFragment);
+    const mdxFileName = path.basename(mdxFilePath);
     const fileContents = readFile(mdxFilePath);
     const lines = fileContents.split("\n");
 
@@ -80,34 +55,42 @@ async function checkUnusedYAMLFiles() {
         continue;
       }
 
-      const yamlFilePathFragment = match[1];
-      if (yamlFilePathFragment === undefined) {
+      const yamlFileName = match[1];
+      if (yamlFileName === undefined) {
         throw new Error(
           `Failed to parse the YAML file path from file: ${mdxFilePath}`,
         );
       }
 
-      const yamlFilePath = path.join(REPO_ROOT, yamlFilePathFragment);
-
-      if (usedYAMLFilePaths.has(yamlFilePath)) {
+      if (
+        usedYAMLFileNames.has(yamlFileName) &&
+        mdxFileName !== "example-images"
+      ) {
         throw new Error(
-          `The following YAML file is being used two or more times: ${yamlFilePath}`,
+          `The following YAML file is being used two or more times: ${yamlFileName}`,
         );
       }
 
-      usedYAMLFilePaths.add(yamlFilePath);
+      usedYAMLFileNames.add(yamlFileName);
     }
   }
 
   // Go through every ".yml" file.
-  const yamlFilePathFragments = await glob("./**/*.yml", {
-    ignore: "node_modules/**",
-  });
+  const yamlFilePathFragments = await glob("./docs/**/*.yml");
+  const yamlFileNames = new Set<string>();
   for (const yamlFilePathFragment of yamlFilePathFragments) {
-    const yamlFilePath = path.join(REPO_ROOT, yamlFilePathFragment);
-    if (!usedYAMLFilePaths.has(yamlFilePath)) {
+    const yamlFileName = path.basename(yamlFilePathFragment);
+    if (yamlFileNames.has(yamlFileName)) {
       throw new Error(
-        `The following YAML file is not being used: ${yamlFilePath}`,
+        `There is more than one YAML file with the name of: ${yamlFileName}`,
+      );
+    }
+
+    yamlFileNames.add(yamlFileName);
+
+    if (!usedYAMLFileNames.has(yamlFileName)) {
+      throw new Error(
+        `The following YAML file is not being used: ${yamlFileName}`,
       );
     }
   }

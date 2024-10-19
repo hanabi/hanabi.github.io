@@ -6,9 +6,15 @@ if (isMain()) {
   compilePlugin(packageRoot);
 }
 
-/** Compile the "image-generator" plugin. */
+/** Compile the "imageGenerator" plugin. */
 export function compilePlugin(packageRoot: string): void {
-  const pluginDir = path.join(packageRoot, "image-generator", "plugin");
+  const pluginDir = path.join(
+    packageRoot,
+    "src",
+    "plugins",
+    "imageGenerator",
+    "plugin",
+  );
   const $$ = $op({ cwd: pluginDir });
   $$.sync`tsc`;
 }

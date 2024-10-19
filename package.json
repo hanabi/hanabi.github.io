@@ -14,7 +14,6 @@
     "serve": "docusaurus serve",
     "start": "npm run compile-plugin && docusaurus start",
     "swizzle": "docusaurus swizzle",
-    "test": "tsx --tsconfig ./scripts/tsconfig.json ./scripts/test.mts",
     "update": "isaacscript update"
   },
   "browserslist": {

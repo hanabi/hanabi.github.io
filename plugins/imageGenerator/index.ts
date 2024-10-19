@@ -1,5 +1,5 @@
-// This is a Docusaurus plugin to automatically create SVG images from the YAML files located in the
-// "image-generator/yml" directory. This is triggered whenever the website is built.
+// This is a Docusaurus plugin to automatically create SVG images from the YAML files. This is
+// triggered whenever the website is built.
 
 import type { Plugin } from "@docusaurus/types";
 import path from "node:path";

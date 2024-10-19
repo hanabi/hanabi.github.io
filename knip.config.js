@@ -11,9 +11,10 @@ const config = {
   entry: [
     "docusaurus.config.ts",
     "sidebars.ts",
-    "image-generator/index.ts",
     "src/beginnersGuide.tsx",
     "src/pages/index.tsx",
+    "src/plugins/imageGenerator/index.ts",
+    "src/plugins/imageGenerator/plugin/src/convertYAMLToSVG.ts",
     "static/js/hotkey.js",
   ],
   // @template-customization-end
