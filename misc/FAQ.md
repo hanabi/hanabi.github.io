@@ -15,11 +15,7 @@ See the [convention reasons document](https://github.com/hanabi/hanabi.github.io
 - First, [do a search](https://github.com/Hanabi-Live/hanabi-live/issues) to see if someone has already posted an issue about the bug.
 - If there is not an existing issue, then [make one](https://github.com/Hanabi-Live/hanabi-live/issues/new). (You will need to create a free GitHub account.)
 
-## Why isn't situation X defined in the convention docs?
-
-Not everything has to have a meaning. We intentionally want to have situations be undefined so that we have some wiggle room to handle a wide variety of game states. Read [the goals of the conventions](https://github.com/hanabi/hanabi.github.io/blob/main/misc/convention-goals.md).
-
-## Situation X is undefined in the convention docs. Can I propose a new convention to define it?
+## Why isn't situation X defined in the convention docs? Can I propose a new convention to define it?
 
 Not everything has to have a meaning. We intentionally want to have situations be undefined so that we have some wiggle room to handle a wide variety of game states. Read [the goals of the conventions](https://github.com/hanabi/hanabi.github.io/blob/main/misc/convention-goals.md).
 
