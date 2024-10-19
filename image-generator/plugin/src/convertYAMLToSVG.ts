@@ -3,7 +3,7 @@
 
 // Needed because `Set.intersection` is not in Node 20. This polyfill can be removed when the
 // Node.js LTS is brought to version 22.
-// eslint-disable-next-line import-x/no-extraneous-dependencies, import-x/no-unassigned-import
+// eslint-disable-next-line import-x/no-unassigned-import
 import "core-js/actual/set/index.js";
 
 import YAML from "yaml";
