@@ -64,7 +64,7 @@ async function checkUnusedYAMLFiles() {
 
       if (
         usedYAMLFileNames.has(yamlFileName) &&
-        mdxFileName !== "example-images"
+        mdxFileName !== "example-images.mdx"
       ) {
         throw new Error(
           `The following YAML file is being used two or more times: ${yamlFileName}`,

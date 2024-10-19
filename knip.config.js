@@ -13,8 +13,8 @@ const config = {
     "sidebars.ts",
     "src/beginnersGuide.tsx",
     "src/pages/index.tsx",
-    "src/plugins/hanabiDocusaurusPlugin/index.ts",
-    "src/plugins/hanabiDocusaurusPlugin/plugin/src/convertYAMLToSVG.ts",
+    "plugins/hanabiDocusaurusPlugin/index.ts",
+    "plugins/hanabiDocusaurusPlugin/plugin/src/convertYAMLToSVG.ts",
     "static/js/hotkey.js",
   ],
   // @template-customization-end

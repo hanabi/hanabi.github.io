@@ -26,7 +26,12 @@
     "sidebars.ts",
   ],
 
-  "exclude": [".docusaurus", "build", "scripts"],
+  "exclude": [
+    ".docusaurus",
+    "build",
+    "scripts",
+    "plugins/hanabiDocusaurusPlugin/plugin",
+  ],
 
   // @template-customization-end
 }
