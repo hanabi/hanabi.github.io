@@ -45,11 +45,15 @@ async function checkUnusedYAMLFiles() {
   const usedYAMLFileNames = new Set<string>();
   for (const mdxFilePathFragment of mdxFilePathFragments) {
     const mdxFilePath = path.join(REPO_ROOT, mdxFilePathFragment);
-    const mdxFileName = path.basename(mdxFilePath);
     const fileContents = readFile(mdxFilePath);
     const lines = fileContents.split("\n");
 
     for (const line of lines) {
+      // The "example-images.mdx" file imports some YAML files twice using `raw-loader`.
+      if (line.includes("!raw-loader!")) {
+        continue;
+      }
+
       const match = line.match(importRegex);
       if (match === null) {
         continue;
@@ -62,10 +66,7 @@ async function checkUnusedYAMLFiles() {
         );
       }
 
-      if (
-        usedYAMLFileNames.has(yamlFileName) &&
-        mdxFileName !== "example-images.mdx"
-      ) {
+      if (usedYAMLFileNames.has(yamlFileName)) {
         throw new Error(
           `The following YAML file is being used two or more times: ${yamlFileName}`,
         );
