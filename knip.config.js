@@ -5,9 +5,9 @@
 
 /** @type {import("knip").KnipConfig} */
 const config = {
+  // @template-customization-start
   // There is no Knip Docusaurus plugin:
   // https://github.com/webpro-nl/knip/issues/483#issuecomment-2073024263
-  // @template-customization-start
   entry: [
     "docusaurus.config.ts",
     "sidebars.ts",

@@ -44,7 +44,7 @@
   },
   "devDependencies": {
     "@docusaurus/tsconfig": "^3.5.2",
-    "complete-lint": "^1.10.0",
+    "complete-lint": "^1.10.1",
     "complete-node": "^1.5.1",
     "glob": "^11.0.0",
     "isaacscript": "^5.1.0",
