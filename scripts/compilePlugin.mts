@@ -1,4 +1,4 @@
-import { $op, isMain } from "complete-node";
+import { $op, isDirectory, isMain } from "complete-node";
 import path from "node:path";
 
 if (isMain()) {
@@ -14,6 +14,10 @@ export function compilePlugin(packageRoot: string): void {
     "hanabiDocusaurusPlugin",
     "plugin",
   );
+  if (!isDirectory(pluginDir)) {
+    throw new Error(`The plugin directory does not exist: ${pluginDir}`);
+  }
+
   const $$ = $op({ cwd: pluginDir });
   $$.sync`tsc`;
 }

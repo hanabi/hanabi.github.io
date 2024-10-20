@@ -2,8 +2,9 @@
 title: Level 22 - Ignition
 ---
 
-import ChopMoveIgnition from "./level-22/chop-move-ignition.yml";
+import ChopMoveIgnitionOneCard from "./level-22/chop-move-ignition-one-card.yml";
 import ChopMoveIgnitionInteraction from "./level-22/chop-move-ignition-interaction.yml";
+import ChopMoveIgnitionTwoCards from "./level-22/chop-move-ignition-two-cards.yml";
 
 ## Conventions
 
@@ -68,12 +69,10 @@ import ChopMoveIgnitionInteraction from "./level-22/chop-move-ignition-interacti
 - The _Poke Double Ignition_ can be performed all throughout the game. (Conversely, the _Trash Double Ignition_ can only be performed towards the end of the game.)
 - Also, see the section on [Poke Ejection](extras/ejections.mdx#the-poke-ejection).
 
-### The Chop Move Ignition (CMI)
+### The Chop Move Ignition (CMI) (with 1 card Chop Moved)
 
 - If a playable card is on chop, the natural thing to do is to give it a _Chop-Focus Play Clue_. If a player _Chop Moves_ the playable card instead, this is very strange. If there is not a good reason to do so, then the cluer is trying to communicate something extra.
 - In this situation, they intend for an _Ignition_ on the next player. Since a _Chop Move_ causes a blind-play, the _Chop Moved_ player will know that the _Chop Moved_ card is playable.
-- If multiple cards are _Chop Moved_, the (possible) target of a _Chop Move Ignition_ is the leftmost, the same as the target would have been for a _Trash Pull_.
-- If a _Chop Move Ignition_ is successful, the clue receiver does _not_ _Chop Move_ because 2 plays meets _Minimum Clue Value Principle_.
 - For example, in a 4-player game:
   - It is the first turn and nothing is played on the stacks.
   - Cathy's hand is, from newest to oldest: blue 4, blue 4, blue 5, red 1
@@ -81,14 +80,13 @@ import ChopMoveIgnitionInteraction from "./level-22/chop-move-ignition-interacti
   - It is now Bob's turn. Bob sees that since there were other _Play Clues_ for Alice to give, Cathy will interpret this as an _Early 5's Chop Move_.
   - Bob also knows that it is nonsensical to _Chop Move_ a playable red 1 - Alice could have just give a red _Chop-Focus Play Clue_ to the red 1.
   - Thus, this must be a _Chop Move Ignition_. Bob blind-plays his _Finesse Position_ card. It is blue 1 and it successfully plays.
-  - Cathy knows that if this was an _Early 5's Chop Move_, then Bob would not have blind-played anything. Since he blind-played his _Finesse Position_ card, this must be a _Chop Move Ignition_. Cathy blind-plays her slot 4 card (the card to the right of the clued 5).
+  - At first, Cathy thought that Alice's clue was a _Early 5's Chop Move_. However, if that was the case, then Bob would not have blind-played anything. Since he blind-played his _Finesse Position_ card, this must be a _Chop Move Ignition_. Cathy blind-plays her slot 4 card (the card to the right of the clued 5).
 
-<ChopMoveIgnition />
+<ChopMoveIgnitionOneCard />
 
 - Sometimes, it can be useful to _Chop Move_ a playable card. Something is only a _Chop Move Ignition_ if there is not some other good reason for the _Chop Move_. Specifically, the player might want to:
   - Avoid violating _Good Touch Principle_.
   - Save a _Delayed Playable_ card that is followed by a critical card.
-  - Save two important cards when there are a lot of cards to deal with and the team is low on clues.
   - Get a blind-play from _Elimination_ when the duplicate is visible.
 
 #### Interaction with 5 Rank Clues
@@ -114,6 +112,28 @@ import ChopMoveIgnitionInteraction from "./level-22/chop-move-ignition-interacti
 
 - Importantly, this interaction is **turned off** in the _End-Game_.
 - Note that sometimes, players will use a rank 5 clue to touch an actual playable 5 that is exactly one-away-from-chop. Regardless of whether or not the 5 is playable, the next player needs to react as if it wasn't playable. (This is because it is agreed that all _Play Clue_ interpretations are turned off.)
+
+### The Chop Move Ignition (CMI) (with 2+ cards Chop Moved)
+
+- First, see the previous section on [_Chop Move Ignition_ with one card _Chop Moved_](#the-chop-move-ignition-cmi-with-1-card-chop-moved).
+- It is also possible to perform a _Chop Move Ignition_ that _Chop Moves_ two or more cards, but this is more complicated.
+- This kind of _Chop Move Ignition_ is only valid if both of the following conditions are true:
+  1. The leftmost _Chop Moved_ card is playable.
+  2. The rightmost _Chop Moved_ card is trash or is a copy of an unclued card in the same hand.
+- For example, in a 4-player game:
+  - All the 1's are played on the stacks.
+  - Cathy's hand is, from newest to oldest: blue 4, blue 1, red 2, blue 4
+  - Alice clues number 1 to Cathy, touching a blue 1 on slot 2.
+  - It is now Bob's turn. Bob sees that Cathy will interpret this as a _Trash Chop Move_ on slot 3 and slot 4.
+  - Bob also knows that it is nonsensical to _Chop Move_ a playable red 2 - Alice could have just give a direct red _Play Clue_ to the red 2.
+  - Thus, this must be a _Chop Move Ignition_. Bob blind-plays his _Finesse Position_ card. It is blue 2 and it successfully plays.
+  - At first, Cathy thought that Alice's clue was a _Trash Chop Move_. However, if that was the case, then Bob would not have blind-played anything. Since he blind-played his _Finesse Position_ card, this must be a _Chop Move Ignition_. Cathy blind-plays her slot 3 card (the card to the right of the clued 1). It is a red 2 and successfully plays.
+  - At the same time that Cathy marked her slot 3 card as playable, she also marked her slot 4 card as known trash.
+  - Later on, Cathy discards her slot 4 card, and discovers that it is a blue 4. Since blue 4 was not trash at the time that the _Chop Move Ignition_ was given, Cathy marks _Elimination Notes_ in her hand for the other copy of the blue 4. (The rest of the team also marks _Elimination Notes_ in the same way.)
+
+<ChopMoveIgnitionTwoCards />
+
+- If three or more cards are _Chop Moved_, nothing is promised about the middle cards.
 
 ### Bomb Double Ignition
 

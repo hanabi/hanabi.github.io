@@ -20,9 +20,7 @@ players:
       - type: x
       - type: x
       - type: x
-  - text: Bob blind-plays slot 1
-  - name: Cathy
-    cards:
+  - cards:
       - type: b4
         border: false
       - type: b4
@@ -31,9 +29,7 @@ players:
         clue: 5
       - type: r1
         border: false
-  - text: Cathy blind-plays slot 4
-  - name: Donald
-    cards:
+  - cards:
       - type: x
       - type: x
       - type: x
