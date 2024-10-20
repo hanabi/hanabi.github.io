@@ -220,6 +220,7 @@ const sidebars: SidebarsConfig = {
         "challenge-questions/level-8",
       ],
     },
+    "glossary",
     "convention-attribution",
   ],
 };
