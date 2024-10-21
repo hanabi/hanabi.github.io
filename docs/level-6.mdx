@@ -54,8 +54,7 @@ import DiscardModulation from "./level-6/discard-modulation.yml";
 
 <TempoClueChopMovePart2 />
 
-- _Valuable Tempo Clues_ can never cause a _Tempo Clue Chop Move_.
-- When determining if a _Tempo Clue_ is "valuable", it should only be evaluated on the turn immediately after the clue is given. (This helps keeps things simple and prevents desynchronization.)
+- _Valuable Tempo Clues_ can never cause a _Tempo Clue Chop Move_. However, if it is ambiguous as to whether the clue was _Valuable_, then players should choose the more conservative option.
 - For example, in a 3-player game:
   - Red 1 is played on the stacks.
   - Green 4 is in the trash.
@@ -72,6 +71,8 @@ import DiscardModulation from "./level-6/discard-modulation.yml";
   - Between these two options, the first option involves zero blind plays. Thus, Cathy knows that she should prefer that one. (Additionally, Cathy needs to use _Minimum Clue Value Principle_ when examining the two options, but in this specific situation, _Minimum Clue Value Principle_ does not matter because both options satisfy MCVP.)
 
 <TempoClueChopMoveComplicated />
+
+- When determining if a _Tempo Clue_ is "valuable", it should only be evaluated on the turn immediately after the clue is given. (This helps keeps things simple and prevents desynchronization.)
 
 ## General Principles
 
