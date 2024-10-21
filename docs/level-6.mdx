@@ -4,6 +4,7 @@ title: Level 6 - Tempo Clues
 
 import TempoClueChopMovePart1 from "./level-6/tempo-clue-chop-move-part-1.yml";
 import TempoClueChopMovePart2 from "./level-6/tempo-clue-chop-move-part-2.yml";
+import TempoClueChopMoveComplicated from "./level-6/tempo-clue-chop-move-complicated.yml";
 import DiscardModulation from "./level-6/discard-modulation.yml";
 
 ## Special Moves
@@ -61,13 +62,16 @@ import DiscardModulation from "./level-6/discard-modulation.yml";
   - Bob has:
     - a green 4 on slot 3 with no clues on it yet (on chop and critical)
     - a red 2 on slot 4 with a number 2 clue on it
-    - a red 5 on slot 5 with a number 5 clue on it
+    - a red 4 on slot 5 with a number 4 clue on it
   - Alice clues red to Bob, which re-touches his slot 4 card and his slot 5 card, "filling" both of them in.
-  - Bob knows that this is a _Tempo Clue_, and plays red 2.
+  - Bob knows that this is a _Tempo Clue_ on the red 2. Furthermore, Bob knows that since the _Tempo Clue_ only "got" one card, it is not a _Valuable Tempo Clue_. Therefore, it must be a _Tempo Clue Chop Move_ as well, so Bob marks his slot 3 as _Chop Moved_.
+  - Bob plays the red 2.
   - Cathy has to perform a similar analysis to Bob, but it is a bit harder. From Cathy's perspective, there are two possibilities for Alice's clue:
     - First, it could a _Tempo Clue_ on the red 2 + a _Tempo Clue Chop Move_ on the green 4.
-    - Second, it could be a _Tempo Clue_ on the red 2 + a _Finesse_ on the red 3 + a _Finesse_ on the red 4 + a _Tempo Clue_ on the red 5.
+    - Second, it could be a _Tempo Clue_ on the red 2 + a _Finesse_ on the red 3 + a _Tempo Clue_ on the red 4.
   - Between these two options, the first option involves zero blind plays. Thus, Cathy knows that she should prefer that one. (Additionally, Cathy needs to use _Minimum Clue Value Principle_ when examining the two options, but in this specific situation, _Minimum Clue Value Principle_ does not matter because both options satisfy MCVP.)
+
+<TempoClueChopMoveComplicated />
 
 ## General Principles
 
