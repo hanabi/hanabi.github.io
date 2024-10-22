@@ -4,7 +4,6 @@ title: Level 6 - Tempo Clues
 
 import TempoClueChopMovePart1 from "./level-6/tempo-clue-chop-move-part-1.yml";
 import TempoClueChopMovePart2 from "./level-6/tempo-clue-chop-move-part-2.yml";
-import TempoClueChopMoveComplicated from "./level-6/tempo-clue-chop-move-complicated.yml";
 import DiscardModulation from "./level-6/discard-modulation.yml";
 
 ## Special Moves
@@ -28,6 +27,7 @@ import DiscardModulation from "./level-6/discard-modulation.yml";
   1. When playing the clued card would "unlock" someone's hand (see the section on _Locked Hands_ later on).
 - If a _Tempo Clue_ is given in any of these situations, it is considered to be "valuable".
 - _Valuable Tempo Clues_ can be given at any time. They don't have any special rules associated with them and they are treated in exactly the same way a "normal" _Play Clue_ is.
+- When determining if a _Tempo Clue_ is _Valuable_, it should only be evaluated on the turn immediately after the clue is given. (This helps keeps things simple and prevents desynchronization.)
 
 ### The Tempo Clue Stall (A Non-Valuable Tempo Clue)
 
@@ -53,26 +53,6 @@ import DiscardModulation from "./level-6/discard-modulation.yml";
 <hr />
 
 <TempoClueChopMovePart2 />
-
-- _Valuable Tempo Clues_ can never cause a _Tempo Clue Chop Move_. However, if it is ambiguous as to whether the clue was _Valuable_, then players should choose the more conservative option.
-- For example, in a 3-player game:
-  - Red 1 is played on the stacks.
-  - Green 4 is in the trash.
-  - Bob has:
-    - a green 4 on slot 3 with no clues on it yet (on chop and critical)
-    - a red 2 on slot 4 with a number 2 clue on it
-    - a red 4 on slot 5 with a number 4 clue on it
-  - Alice clues red to Bob, which re-touches his slot 4 card and his slot 5 card, "filling" both of them in.
-  - Bob knows that this is a _Tempo Clue_ on the red 2. Furthermore, Bob knows that since the _Tempo Clue_ only "got" one card, it is not a _Valuable Tempo Clue_. Therefore, it must be a _Tempo Clue Chop Move_ as well, so Bob marks his slot 3 as _Chop Moved_.
-  - Bob plays the red 2.
-  - Cathy has to perform a similar analysis to Bob, but it is a bit harder. From Cathy's perspective, there are two possibilities for Alice's clue:
-    - First, it could a _Tempo Clue_ on the red 2 + a _Tempo Clue Chop Move_ on the green 4.
-    - Second, it could be a _Tempo Clue_ on the red 2 + a _Finesse_ on the red 3 + a _Tempo Clue_ on the red 4.
-  - Between these two options, the first option involves zero blind plays. Thus, Cathy knows that she should prefer that one. (Additionally, Cathy needs to use _Minimum Clue Value Principle_ when examining the two options, but in this specific situation, _Minimum Clue Value Principle_ does not matter because both options satisfy MCVP.)
-
-<TempoClueChopMoveComplicated />
-
-- When determining if a _Tempo Clue_ is "valuable", it should only be evaluated on the turn immediately after the clue is given. (This helps keeps things simple and prevents desynchronization.)
 
 ## General Principles
 
