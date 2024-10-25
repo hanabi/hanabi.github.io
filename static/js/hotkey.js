@@ -95,7 +95,7 @@ function goToSpecificLevel() {
     return;
   }
 
-  globalThis.location.href = `/level-${level}`;
+  globalThis.location.href = `/level-${level}/`;
 }
 
 function isOnLandingPage() {
