@@ -21,7 +21,7 @@ Newer players to the H-Group are used to having every situation be completely fl
 
 **Why isn't situation X defined in the convention docs?**
 
-The same type of thing happens with the #convention-proposals forum: after playing a game in which an intermediate player discovers an undefined situation, they realize that this is "uncharted territory", and that they can "help" the group by "charting it" via adding a brand new move/convention. They rush to post something like:
+The same type of thing happens with the #convention-proposals forum: after playing a game in which an intermediate player discovers an undefined situation, they realize that this is "uncharted territory", and that they can "help" the group by "charting it" via adding a brand new move/convention. So they post something like:
 
 **Situation X is undefined. Can I propose a new convention to define it?**
 
