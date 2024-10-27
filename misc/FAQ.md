@@ -25,7 +25,7 @@ The same type of thing happens with the #convention-proposals forum: after playi
 
 **Situation X is undefined. Can I propose a new convention to define it?**
 
-The answer to "why isn't situation X defined" and "can I propose a convention for situation X" is the same: **not everything has to have a meaning.** We **intentionally** want to have situations be undefined so that players have wiggle room to handle a wide variety of game states. The [convention goals document](https://github.com/hanabi/hanabi.github.io/blob/main/misc/convention-goals.md) goes over why it is actually detrimental to the group to add new conventions and is a very important read for intermediate players who are starting to think about this kind of thing.
+The answer to "why isn't situation X defined" and "can I propose a convention for situation X" is the same: **not everything has to have a meaning.** We **intentionally** want to have situations be undefined so that players have wiggle room to handle a wide variety of game states. The [convention goals document](https://github.com/hanabi/hanabi.github.io/blob/main/misc/convention-goals.md) goes over why it is actually detrimental to the group to add new conventions and is a very important read for intermediate players who are starting to think about the meta-game of creating and managing conventions.
 
 ## In what order should 1's be played?
 
