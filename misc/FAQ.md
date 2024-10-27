@@ -17,11 +17,11 @@ See the [convention reasons document](https://github.com/hanabi/hanabi.github.io
 
 ## Why isn't situation X defined in the convention docs? Can I propose a new convention to define it?
 
-Newer players to the H-Group are used to having every situation be completely fleshed out by the doc/website. This feels good, as everything has a "right" answer. But as newer players get more experience, they inevitably discover a situation that is undefined. This feels shocking, so they often post a message to the #convention-questions channel with the title of:
+Newer players to the H-Group are used to having every situation be completely fleshed out by the doc/website. This feels good, as everything has a "right" answer. But as newer players get more experience, they inevitably discover a situation that is undefined. This feels shocking, so they often post a message to the #convention-questions forum with the title of:
 
 **Why isn't situation X defined in the convention docs?**
 
-The same type of thing happens with #convention-proposals: after playing a game in which a newer player discovers an undefined situation, they realize that this is "uncharted territory", and that they can "help" the group by "charting it" via adding a brand new move/convention. They rush to post something like:
+The same type of thing happens with the #convention-proposals forum: after playing a game in which a newer player discovers an undefined situation, they realize that this is "uncharted territory", and that they can "help" the group by "charting it" via adding a brand new move/convention. They rush to post something like:
 
 **Situation X is undefined. Can I propose a new convention to define it?**
 
