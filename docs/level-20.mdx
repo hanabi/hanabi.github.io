@@ -71,6 +71,72 @@ import TrustFinesse from "./level-20/trust-finesse.yml";
 
 - Similar to a normal _Layered Finesse_, it is also possible to initiate a _Layered Priority Finesse_ as long as the blind-playing player is not the very next person.
 
+### The Load Clue
+
+- First, see the section on the [Priority Prompt & The Priority Finesse](#the-priority-prompt--the-priority-finesse).
+- In Hanabi, it is optimal to play cards that lead into your teammate's hands because it gains _Tempo_ and reduces bottom-deck risk. _Priority_ is optimized for the special case where the next card is on someone's _Finesse Position_. However, it is actually more common that the next card is not on _Finesse Position_. As you can imagine, a huge downside of playing with _Priority_ is that you can't play into non-_Finesse Position_ cards (or else someone would misplay).
+- For this reason, we agree that if a card is visible in someone else's non-_Finesse Position_, then _Priority Finesses_ are turned off and the team is committed to give a direct clue to the next card.
+- This clue is similar to a _Fix Clue_, since it fixes an impending misplay from a situation that looks like a _Priority Finesse_. But we specifically call this kind of clue a _Load Clue_ to differentiate it from a _Fix Clue_ that fixes a _Lie_ or mistake. It is a _Load Clue_ because it is loading the player who received the clue with something to do on their turn.
+- For example, in a 3-player game:
+  - Red 1 and blue 1 are played on the stacks.
+  - Alice has a choice between playing a known red 2 or a known blue 2. The red 2 has _Priority_ because it is the leftmost card.
+  - Alice plays the blue 2.
+  - Bob sees that Cathy's hand is as follows, from newest to oldest: yellow 4, yellow 3, yellow 4, red 1, blue 3.
+  - Bob sees that Cathy will think that Alice is performing a _Priority Finesse_ on the blue 3. Thus, Bob must now give a _Load Clue_ to stop the impending misplay.
+  - Bob clues number 3 to Cathy.
+  - Cathy is surprised - she was about to play her _Finesse Position_ card as a blue 3, but she now knows that it can't be a blue 3.
+  - If this was a _Fix Clue_, Cathy might be inclined to play the card that was closest to her slot 1 (which would be the 3 on slot 2).
+  - However, Cathy knows that _Load Clues_ are to be interpreted as normal _Play Clues_ instead of _Fix Clues_, so she interprets this as a normal _Chop-Focus Play Clue_ and plays blue 3 from slot 5.
+
+<LoadClue />
+
+- When a player receives a _Load Clue_, they are to interpret it as a normal _Play Clue_ instead of a _Fix Clue_.
+- A clue is still a _Load Clue_ even if would otherwise look like a _Save Clue_. (In other words, the card promised from the _Priority_ move has to be _somewhere_.)
+- _Load Clues_ are unique in that they are the only move that violates [_Information Lock Principle_](level-3.mdx#information-lock-principle). In other words, when a player realizes that they have been given a _Load Clue_, they must rewind to when the _Priority Move_ happened, delete all of their _Priority_-related notes, and then re-interpret the clue from scratch.
+- If you receive a _Load Clue_, you should suspect that you might have something valuable on your chop, as this would be an excellent reason to commit the team to giving the _Load Clue_ in the first place.
+- If a player has a choice between playing one card that leads nowhere and playing one card that commits the team to giving a _Load Clue_, then they are not obligated to choose one or the other - they can choose whichever one is best for the situation.
+
+### The Paused Priority Finesse
+
+- For the purposes of _Priority_, blind-playing a card is the most important thing to do. When players are supposed to be blind-playing a card, they are usually **not** allowed to perform a _Priority Finesse_ - they must stick to playing the blind card.
+- One exception to this is if a player is in the middle of unraveling the layer of a _Layered Finesse_. Since they have already blind-played their first card in the layer, they have demonstrated that the _Finesse_ was on them, and now everyone on the team knows that the rest of the cards inside of the layer are "gotten" for sure.
+- Thus, in this situation, a player can "pause" finishing up the _Layered Finesse_ and play some other clued card to perform a _Priority Finesse_. This is called a _Paused Priority Finesse_.
+- Note that this only applies when the card that was blind-played was unrelated to the original _Layered Finesse_.
+  - For example, if a player is finessed for both the red 1 and the red 2 and has just blind-played a green 1, then they can perform a _Priority Finesse_, because everyone on the team knows that the green 1 played as red 1 and therefore that the layer is not yet unraveled.
+  - However, if a player is finessed for both the red 1 and the red 2 and has just blind-played the red 1, then they **cannot** perform a _Paused Priority Finesse_ because they haven't demonstrated to the team that they are still finessed for the red 2.
+
+### The Trust Finesse (A Priority Finesse From Playing an Unknown Card)
+
+- According to the _Priority_ rules, if an unknown card is played, no _Priority Finesse_ can be triggered.
+- However, even though this is the case, if playing one of the cards over the other would be **extremely** suboptimal, it should still trigger a _Finesse_.
+- This type of move is called a _Trust Finesse_ to distinguish it from the case where the card is globally known.
+- It is also possible to perform a _Trust Prompt_, a _Trust Bluff_, and so forth.
+- For example, in a 3-player game:
+  - All the 1's are played on the stacks.
+  - Alice has two playable cards in her hand:
+    - One of the cards has a red clue on it. Since it was originally clued as a _Play Clue_, it is globally known as a red 2.
+    - One of the cards has a number 2 clue on it. Since it was originally clued with a _Save Clue_, it can be any non-red 2. But it is playable because all of the 1's are already played.
+  - Bob has a clued and globally known red 3 in his hand.
+  - Alice knows that she is expected to play her red 2 into Bob's red 3, because that would be good teamwork.
+  - Unknown from the rest of the team, Alice knows from the context of the game that her 2 must be exactly blue 2.
+  - Bob has blue 3 on his _Finesse Position_.
+  - Alice plays the globally unknown 2 to cause a _Trust Finesse_.
+
+<TrustFinesse />
+
+## Other Priority-Related Conventions
+
+### A Priority Flowchart (for Choosing Between 2+ Playable Cards)
+
+_Priority_ can be confusing. [Here is a flowchart](https://raw.githubusercontent.com/hanabi/hanabi.github.io/main/static/img/flowcharts/priority-flowchart.png) that shows, in general, which card should be played when there is a choice between two cards.
+
+### Priority with Blind-Plays
+
+As stated above, blind-playing cards has the highest priority (because Demonstrating that a _Finesse_ or _Bluff_ occurred is very important). However, cards that have an exact identity note on them do not count as "blind-plays" for the purposes of _Priority_. Specifically:
+
+- After a _Gentleman's Discard_ or a _Baton Discard_, the other copy of the card has an exact identity note on it. Thus, it counts as "clued" for the purposes of playing into _Priority_.
+- After _Elimination Notes_ have been eliminated from all but one card, the final card has an exact identity note on it. Thus, it counts as "clued" for the purposes of playing into _Priority_.
+
 ### Priority with Both Known and Unknown Cards
 
 - To review, if a player has two playable cards, and both of them are fully-known, then they always have the ability to trigger _Priority_.
@@ -95,10 +161,6 @@ import TrustFinesse from "./level-20/trust-finesse.yml";
   - Alice plays the red 3, which does not trigger a _Priority Finesse_ (because the _Priority_ of the possibilities in the superposition are mixed).
 
 <PriorityFinesseSpecial2 />
-
-### A Priority Flowchart (for Choosing Between 2+ Playable Cards)
-
-_Priority_ can be confusing. [Here is a flowchart](https://raw.githubusercontent.com/hanabi/hanabi.github.io/main/static/img/flowcharts/priority-flowchart.png) that shows, in general, which card should be played when there is a choice between two cards.
 
 ### Situations Where Priority Does Not Apply
 
@@ -143,56 +205,3 @@ Priority does not always apply. Some common exceptions are listed below.
 <PriorityIntoSomeoneElsesHand />
 
 - The obvious exception to this rule is if one of the players on the team is locked. In this situation, it is better to work towards unlocking that player.
-
-### The Load Clue
-
-- First, see the section on the [Priority Prompt & The Priority Finesse](#the-priority-prompt--the-priority-finesse).
-- In Hanabi, it is optimal to play cards that lead into your teammate's hands because it gains _Tempo_ and reduces bottom-deck risk. _Priority_ is optimized for the special case where the next card is on someone's _Finesse Position_. However, it is actually more common that the next card is not on _Finesse Position_. As you can imagine, a huge downside of playing with _Priority_ is that you can't play into non-_Finesse Position_ cards (or else someone would misplay).
-- For this reason, we agree that if a card is visible in someone else's non-_Finesse Position_, then _Priority Finesses_ are turned off and the team is committed to give a direct clue to the next card.
-- This clue is similar to a _Fix Clue_, since it fixes an impending misplay from a situation that looks like a _Priority Finesse_. But we specifically call this kind of clue a _Load Clue_ to differentiate it from a _Fix Clue_ that fixes a _Lie_ or mistake. It is a _Load Clue_ because it is loading the player who received the clue with something to do on their turn.
-- For example, in a 3-player game:
-  - Red 1 and blue 1 are played on the stacks.
-  - Alice has a choice between playing a known red 2 or a known blue 2. The red 2 has _Priority_ because it is the leftmost card.
-  - Alice plays the blue 2.
-  - Bob sees that Cathy's hand is as follows, from newest to oldest: yellow 4, yellow 3, yellow 4, red 1, blue 3.
-  - Bob sees that Cathy will think that Alice is performing a _Priority Finesse_ on the blue 3. Thus, Bob must now give a _Load Clue_ to stop the impending misplay.
-  - Bob clues number 3 to Cathy.
-  - Cathy is surprised - she was about to play her _Finesse Position_ card as a blue 3, but she now knows that it can't be a blue 3.
-  - If this was a _Fix Clue_, Cathy might be inclined to play the card that was closest to her slot 1 (which would be the 3 on slot 2).
-  - However, Cathy knows that _Load Clues_ are to be interpreted as normal _Play Clues_ instead of _Fix Clues_, so she interprets this as a normal _Chop-Focus Play Clue_ and plays blue 3 from slot 5.
-
-<LoadClue />
-
-- When a player receives a _Load Clue_, they are to interpret it as a normal _Play Clue_ instead of a _Fix Clue_.
-- A clue is still a _Load Clue_ even if would otherwise look like a _Save Clue_. (In other words, the card promised from the _Priority_ move has to be _somewhere_.)
-- _Load Clues_ are unique in that they are the only move that violates [_Information Lock Principle_](level-3.mdx#information-lock-principle). In other words, when a player realizes that they have been given a _Load Clue_, they must rewind to when the _Priority Move_ happened, delete all of their _Priority_-related notes, and then re-interpret the clue from scratch.
-- If you receive a _Load Clue_, you should suspect that you might have something valuable on your chop, as this would be an excellent reason to commit the team to giving the _Load Clue_ in the first place.
-- If a player has a choice between playing one card that leads nowhere and playing one card that commits the team to giving a _Load Clue_, then they are not obligated to choose one or the other - they can choose whichever one is best for the situation.
-
-### The Trust Finesse (A Situational Priority Finesse)
-
-- According to the _Priority_ rules, if an unknown card is played, no _Priority Finesse_ can be triggered.
-- However, even though this is the case, if playing one of the cards over the other would be **extremely** suboptimal, it should still trigger a _Finesse_.
-- This type of move is called a _Trust Finesse_ to distinguish it from the case where the card is globally known.
-- It is also possible to perform a _Trust Prompt_, a _Trust Bluff_, and so forth.
-- For example, in a 3-player game:
-  - All the 1's are played on the stacks.
-  - Alice has two playable cards in her hand:
-    - One of the cards has a red clue on it. Since it was originally clued as a _Play Clue_, it is globally known as a red 2.
-    - One of the cards has a number 2 clue on it. Since it was originally clued with a _Save Clue_, it can be any non-red 2. But it is playable because all of the 1's are already played.
-  - Bob has a clued and globally known red 3 in his hand.
-  - Alice knows that she is expected to play her red 2 into Bob's red 3, because that would be good teamwork.
-  - Unknown from the rest of the team, Alice knows from the context of the game that her 2 must be exactly blue 2.
-  - Bob has blue 3 on his _Finesse Position_.
-  - Alice plays the globally unknown 2 to cause a _Trust Finesse_.
-
-<TrustFinesse />
-
-### The Paused Priority Finesse
-
-- For the purposes of _Priority_, blind-playing a card is the most important thing to do. When players are supposed to be blind-playing a card, they are usually **not** allowed to perform a _Priority Finesse_ - they must stick to playing the blind card.
-- One exception to this is if a player is in the middle of unraveling the layer of a _Layered Finesse_. Since they have already blind-played their first card in the layer, they have demonstrated that the _Finesse_ was on them, and now everyone on the team knows that the rest of the cards inside of the layer are "gotten" for sure.
-- Thus, in this situation, a player can "pause" finishing up the _Layered Finesse_ and play some other clued card to perform a _Priority Finesse_. This is called a _Paused Priority Finesse_.
-- Note that this only applies when the card that was blind-played was unrelated to the original _Layered Finesse_.
-  - For example, if a player is finessed for both the red 1 and the red 2 and has just blind-played a green 1, then they can perform a _Priority Finesse_, because everyone on the team knows that the green 1 played as red 1 and therefore that the layer is not yet unraveled.
-  - However, if a player is finessed for both the red 1 and the red 2 and has just blind-played the red 1, then they **cannot** perform a _Paused Priority Finesse_ because they haven't demonstrated to the team that they are still finessed for the red 2.
