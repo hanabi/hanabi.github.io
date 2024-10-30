@@ -20,6 +20,7 @@ players:
         below: plays
       - type: g2
         clue: 2
+        retouched: true
       - type: x
       - type: x
   - cards:
