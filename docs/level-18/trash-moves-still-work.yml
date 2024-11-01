@@ -14,6 +14,7 @@ players:
       - type: x
   - cards:
       - type: x
+        above: Green 2
       - type: 5
       - type: 5
       - type: 5
@@ -29,4 +30,5 @@ players:
         border: false
       - type: b3
         border: false
-  -text: 
+  -text: After Bob blind-plays green 2...
+  
