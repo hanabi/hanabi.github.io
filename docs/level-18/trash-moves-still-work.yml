@@ -21,6 +21,7 @@ players:
   - cards:
       - type: x
       - type: r4
+        middleNote: (4)
         clue: r
       - type: y3
         border: false
