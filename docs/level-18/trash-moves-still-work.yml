@@ -1,0 +1,30 @@
+stacks:
+  - r: 4
+  - y: 1
+  - g: 1
+  - b: 1
+  - p: 0
+players:
+  - clueGiver: true
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+      - type: 5
+      - type: 5
+      - type: 5
+      - type: 5
+  - cards:
+      - type: x
+      - type: r4
+        clue: r
+      - type: y3
+        border: false
+      - type: g3
+        border: false
+      - type: b3
+        border: false
