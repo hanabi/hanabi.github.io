@@ -198,25 +198,29 @@ import TrashBluffStillWorks from "./level-18/trash-bluff-still-works.yml";
 
 <TrashTouchElimination />
 
-#### Interaction Between Elimination & Potentially Unknown Trash
+#### Interaction Between Elimination & Potentially Unknown Trash (Foward)
 
-- First, see the section on the _[Trash Chop Move](level-4.mdx#the-trash-chop-move)_ and the _[Trash Bluff](level-14.mdx#the-trash-bluff)_.
+- First, see the section on the _[Trash Chop Move](level-4.mdx#the-trash-chop-move)_.
 - Normally, when a trash card is clued to initiate a _Trash Chop Move_, the card is globally known to be trash at the moment the clue is given.
 - Sometimes, it is possible for a player later in the turn order not to know that everyone else knows the clued card is trash.
 - When the clued card discards, that player realizes that a _Trash Chop Move_ has occurred, assisted by the presence of the final non-trash card(s) in their hand.
 - For example, in a 3-player game:
-  - Yellow 1, green 1, blue 1, and purple 4 are played on the stacks.
-  - Bob's hand is completely unclued but contains a purple 4 and a few useful 3s behind it.
-  - Alice clues purple to Bob, touching his purple 4 in slot 2.
-  - Bob sees that Cathy has the purple 5 in her hand. So, Alice must be intending a _Trash Chop Move_.
-  - Bob discards his purple card and marks his slot 3, slot 4, and slot 5 cards as being _Chop Moved_.
-  - Cathy is surprised to see that Bob did not go on to misplay his purple card as purple 5.
-  - The only explanation is that Cathy actually has the missing purple card in her hand, so she writes _Elimination Notes_ on her entire hand for the purple 5.
-  - All players similarly record the _Chop Move_ and _Elimination Notes_.
+  - Red 4, green 1, and blue 1 are played on the stacks.
+  - Bob's hand is completely unclued and is as follows: `blue 1, blue 1, red 4, blue 3, green 3`
+  - Cathy hand is completely unclued and is as follows: `red 5, red 1, red 1, red 2, red 3`
+  - Alice clues red to Bob, touching his red 4 on slot 4.
+  - Bob knows that from _Good Touch Principle_, the only good red card is red 5. Since Bob sees the red 5 in Cathy's hand, his red card must be trash. Thus, Alice must be intending a _Trash Chop Move_.
+  - Bob discards his red card and marks his slot 4 and slot 5 cards as being _Chop Moved_.
+  - Cathy is surprised to see that Bob did not misplay the red 4 as a red 5.
+  - The only explanation is that Cathy has the red 5 in her hand. Thus, Cathy writes _Elimination Notes_ on her entire hand for the red 5.
+  - Similarly, all players also write the _Chop Move_ and _Elimination Notes_.
 
 <TrashTouchElimination2 />
 
-- However, what if Bob and Cathy were in the reverse order? Could Alice still save the useful 3s?
+#### Interaction Between Elimination & Potentially Unknown Trash (Reverse)
+
+- First, see [the previous section](#interaction-between-elimination--potentially-unknown-trash-forward) and the section on the _[Trash Bluff](level-14.mdx#the-trash-bluff)_
+- Building on the previous example, we can also consider the case where Bob and Cathy are in the reverse order.
 - Normally, when a trash card is clued to initiate a _Trash Bluff_, the player who received the clue does not know their card is trash until the player following the clue giver blind-plays their _Finesse Position_ card.
 - Sometimes, it is possible for the clue receiver to know that their card is trash even before the blind-player responds. This can happen if the blind-player has all copies of any potential non-trash cards matching the clue given.
 - In this situation, however, _Elimination Notes_ are **not** to be written on the blind-player's hand, and the _Trash Bluff_ should proceed as it normally would!
