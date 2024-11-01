@@ -1,9 +1,9 @@
 stacks:
-  - r: 0
+  - r: 4
   - y: 1
   - g: 1
   - b: 1
-  - p: 4
+  - p: 0
 players:
   - clueGiver: true
     cards:
@@ -14,9 +14,9 @@ players:
       - type: x
   - cards:
       - type: x
-      - type: p
+      - type: r
         middleNote: (4)
-        clue: p
+        clue: r
         trash: true
       - type: y3
         border: false
@@ -29,9 +29,9 @@ players:
       - type: 5
       - type: 5
       - type: 5
-        middleNote: (P)
+        middleNote: (R)
       - type: 5
-  - text: After Bob discards the purple card...
+  - text: After Bob discards the red card...
   - name: Bob
     cards:
       - type: x
@@ -57,12 +57,12 @@ players:
   - name: Cathy
     cards:
       - type: x
-        middleNote: p5?
+        middleNote: r5?
       - type: x
-        middleNote: p5?
+        middleNote: r5?
       - type: x
-        middleNote: p5?
+        middleNote: r5?
       - type: 5
-        middleNote: p5?
+        middleNote: r5?
       - type: x
-        middleNote: p5?
+        middleNote: r5?
