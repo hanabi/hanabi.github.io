@@ -1,0 +1,68 @@
+stacks:
+  - r: 0
+  - y: 1
+  - g: 1
+  - b: 1
+  - p: 4
+players:
+  - clueGiver: true
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+      - type: p
+        middleNote: (4)
+        clue: p
+        trash: true
+      - type: y3
+        border: false
+      - type: g3
+        border: false
+      - type: b3
+        border: false
+  - cards:
+      - type: x
+      - type: 5
+      - type: 5
+      - type: 5
+        middleNote: (P)
+      - type: 5
+  - text: After Bob discards the purple card...
+  - name: Bob
+    cards:
+      - type: x
+      - type: x
+      - type: y3
+        border: false
+        above:
+          text:
+            - Chop
+            - Moved
+      - type: g3
+        border: false
+        above:
+          text:
+            - Chop
+            - Moved
+      - type: b3
+        border: false
+        above:
+          text:
+            - Chop
+            - Moved
+  - name: Cathy
+    cards:
+      - type: x
+        middleNote: p5?
+      - type: x
+        middleNote: p5?
+      - type: x
+        middleNote: p5?
+      - type: 5
+        middleNote: p5?
+      - type: x
+        middleNote: p5?
