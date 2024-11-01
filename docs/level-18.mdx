@@ -9,6 +9,7 @@ import EliminationSingleOutNegative from "./level-18/elimination-single-out-nega
 import EliminationFinesse from "./level-18/elimination-finesse.yml";
 import EliminationFinesse2 from "./level-18/elimination-finesse-2.yml";
 import TrashTouchElimination from "./level-18/trash-touch-elimination.yml";
+import TrashTouchElimination2 from "./level-18/trash-touch-elimination-2.yml";
 import TrashBluffStillWorks from "./level-18/trash-bluff-still-works.yml";
 
 ## Conventions
@@ -197,9 +198,41 @@ import TrashBluffStillWorks from "./level-18/trash-bluff-still-works.yml";
 
 <TrashTouchElimination />
 
-### Interaction with Unknown Trash
+### Interaction Between Elimination & Potentially Unknown Trash
 
+- First, see the section on the _[Trash Chop Move](level-4.mdx#the-trash-chop-move)_.
+- Normally, when a trash card is clued to initiate a _Trash Chop Move_, the card is globally known to be trash at the moment the clue is given.
+- Sometimes, it is possible for a player later in the turn order not to know that everyone else knows the clued card is trash.
+- When the clued card discards, that player realizes that a _Trash Chop Move_ has occurred, assisted by the presence of the final non-trash card(s) in their hand.
+- For example, in a 3-player game:
+  - Purple 4 and all the other 1s except red 1 are played on the stacks.
+  - Bob's hand is completely unclued but contains a purple 4 and a few useful 3s behind it.
+  - Alice clues purple to Bob, touching his purple 4 in slot 2.
+  - Bob sees that Cathy has the purple 5 in her hand. So, Alice must be intending a _Trash Chop Move_.
+  - Bob discards his purple card and marks his slot 3, slot 4, and slot 5 cards as being _Chop Moved_.
+  - Cathy is surprised to see that Bob did not go on to misplay his purple card as purple 5.
+  - The only explanation is that Cathy actually has the missing purple card in her hand, so she writes _Elimination Notes_ on her entire hand for the purple 5.
+  - All players similarly record the _Chop Move_ and _Elimination Notes_.
+
+<TrashTouchElimination2 />
+
+- However, what if Bob and Cathy were in the reverse order? Could Alice still save the useful 3s?
 - First, see the section on the _[Trash Bluff](level-14.mdx#the-trash-bluff)_.
-- Sometimes, when a trash card is clued, 
+- Normally, when a trash card is clued to initiate a _Trash Bluff_, the player who received the clue does not know their card is trash until the player following the clue giver blind-plays their _Finesse Position_ card.
+- Sometimes, it is possible for the clue receiver to know that their card is trash even before the blind-player responds. This can happen if the blind-player has all copies of any potential non-trash cards matching the clue given.
+- In this situation, however, _Elimination Notes_ are **not** to be written on the blind-player's hand, and the _Trash Bluff_ should proceed as it normally would!
+- For example, in a 3-player game:
+  - Red 4 and all the other 1s except purple 1 are played on the stacks.
+  - Bob has four 5s in his hand, all of which are clued from a _5 Save_ earlier in the game. Notably, one of his 5s is red.
+  - Cathy's hand is completely unclued but contains a red 4 and a few useful 3s behind it.
+  - Alice, wanting to _Chop Move_ Cathy's 3s and get Bob's green 2, clues red to Cathy, touching her red 4.
+  - Bob knows that if he doesn't react, Cathy will assume that her card is the red 5.
+  - Before reacting, however, Bob remembers that he has four 5s in his hand. If he has the red 5 in his hand, then similar to the previous example, this would be a valid _Trash Chop Move_ on Cathy.
+  - Bob knows, however, that he is not supposed to assume that he has the red 5, the only non-trash red card. 
+  - Bob blind-plays his _Finesse Position_ card to fulfill the _Trash Bluff_, and it is a playable green 2.
+  - Normally, Cathy would now know that her red card is trash because otherwise Bob would not have blind-played anything.
+  - Unbeknownst to Bob, however, Cathy already knew that her red card is trash because she sees the last non-trash red card in Bob's hand.
+  - Cathy discards her trash and marks all her slot 3, slot 4, and slot 5 cards as being _Chop Moved_.
+ - All players similarly record the _Chop Move_.
 
 <TrashBluffStillWorks />
