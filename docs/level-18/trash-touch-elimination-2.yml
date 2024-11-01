@@ -33,7 +33,7 @@ players:
       - type: 5
   - text: After Bob discards the purple card...
   - name: Bob
-    - cards:
+    cards:
       - type: x
       - type: x
       - type: y3
@@ -55,7 +55,7 @@ players:
             - Chop
             - Moved
   - name: Cathy
-    - cards:
+    cards:
       - type: x
         middleNote: p5?
       - type: x
