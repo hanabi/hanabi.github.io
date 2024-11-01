@@ -1,0 +1,57 @@
+stacks:
+  - r: 4
+  - y: 1
+  - g: 1
+  - b: 1
+  - p: 0
+players:
+  - clueGiver: true
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+        above: Green 2
+      - type: 5
+      - type: 5
+      - type: 5
+      - type: 5
+        middleNote: (R)
+  - cards:
+      - type: x
+      - type: r
+        middleNote: (4)
+        clue: r
+      - type: y3
+        border: false
+      - type: g3
+        border: false
+      - type: b3
+        border: false
+  - text: After Bob blind-plays green 2...
+  - name: Cathy
+    cards:
+      - type: x
+      - type: r
+        trash: true
+      - type: y3
+        border: false
+        above:
+          text:
+            - Chop
+            - Moved
+      - type: g3
+        border: false
+        above:
+          text:
+            - Chop
+            - Moved
+      - type: b3
+        border: false
+        above:
+          text:
+            - Chop
+            - Moved
