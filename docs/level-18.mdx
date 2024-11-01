@@ -229,13 +229,11 @@ import TrashBluffStillWorks from "./level-18/trash-bluff-still-works.yml";
   - Bob has a clued red 5 in his hand. It was clued from a _5 Save_ earlier in the game, so Bob does not know the identity of the 5.
   - Cathy hand is completely unclued and is as follows: `blue 1, blue 1, red 4, blue 3, green 3`
   - Alice clues red to Cathy, touching her red 4.
-  - Bob knows that if he doesn't react, Cathy will assume that her card is the red 5.
-  - Before reacting, however, Bob remembers that he has four 5s in his hand. If he has the red 5 in his hand, then similar to the previous example, this would be a valid _Trash Chop Move_ on Cathy.
-  - Bob knows, however, that he is not supposed to assume that he has the red 5, the only non-trash red card.
-  - Bob blind-plays his _Finesse Position_ card to fulfill the _Trash Bluff_, and it is a playable green 2.
-  - Normally, Cathy would now know that her red card is trash because otherwise Bob would not have blind-played anything.
-  - Unbeknownst to Bob, however, Cathy already knew that her red card is trash because she sees the last non-trash red card in Bob's hand.
-  - Cathy discards her trash and marks all her slot 3, slot 4, and slot 5 cards as being _Chop Moved_.
-- Similarly, all players also record the _Chop Move_.
+  - Bob knows that Alice's clue is a _Play Clue_ and that Cathy will assume that her red 4 is the red 5. Thus, Alice's clue appears to be a _Trash Bluff_.
+  - Bob remembers that he has an unknown 5 in his hand. If his 5 is the red 5, then Alice's clue would work as a _Trash Chop Move_ on Cathy (and would not need any blind-plays).
+  - However, Bob knows that for the purposes of playing into _Trash Bluffs_, you are not supposed to assume that the unknown cards in your hand match the trash.
+  - Thus, Bob blind-plays his _Finesse Position_ card to fulfill the _Trash Bluff_. It is a blue 2 and successfully plays on the stacks.
+  - Normally, Cathy would now know that her red card is trash (because otherwise, Bob would not have blind-played anything). But unbeknownst to Bob, Cathy already knew that her red card was trash, because Cathy sees the red 5 in Bob's hand.
+  - Cathy discards her trash and marks all her slot 4 and slot 5 cards as being _Chop Moved_.
 
 <TrashBluffStillWorks />
