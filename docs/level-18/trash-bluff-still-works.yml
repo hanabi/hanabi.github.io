@@ -13,7 +13,8 @@ players:
       - type: x
       - type: x
   - cards:
-      - type: x
+      - type: g2
+        border: false
       - type: x
       - type: x
       - type: x
