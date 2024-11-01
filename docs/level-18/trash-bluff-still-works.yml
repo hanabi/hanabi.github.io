@@ -19,6 +19,7 @@ players:
       - type: 5
       - type: 5
       - type: 5
+        middleNote: (R)
   - cards:
       - type: x
       - type: r
