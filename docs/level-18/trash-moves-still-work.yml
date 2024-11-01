@@ -21,7 +21,7 @@ players:
       - type: 5
   - cards:
       - type: x
-      - type: r4
+      - type: r
         middleNote: (4)
         clue: r
       - type: y3
@@ -30,5 +30,27 @@ players:
         border: false
       - type: b3
         border: false
-  -text: After Bob blind-plays green 2...
-  
+  - text: After Bob blind-plays green 2...
+  - name: Cathy
+    cards:
+      - type: x
+      - type: r
+        trash: true
+      - type: y3
+        border: false
+        above:
+          text:
+            - Chop
+            - Moved
+      - type: g3
+        border: false
+        above:
+          text:
+            - Chop
+            - Moved
+      - type: b3
+        border: false
+        above:
+          text:
+            - Chop
+            - Moved
