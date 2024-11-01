@@ -5,6 +5,7 @@ title: Card Layout
 import BeginnersGuideProgress from "@site/src/beginnersGuide.tsx";
 import CardLayout1 from "./card-layout-1.yml";
 import CardLayout2 from "./card-layout-2.yml";
+import CardLayout3 from "./card-layout-3.yml";
 
 <BeginnersGuideProgress id="card-layout" />
 
@@ -28,9 +29,14 @@ In this guide, there will be some images to show off the concepts introduced.
 ## Clues
 
 - Arrows indicate that a card was "touched" by the last clue that was given.
-- Clued cards will have permanent yellow borders around them.
+- Clued cards will have permanent yellow borders around them. Unclued cards will not have these yellow borders.
 
 <CardLayout2 />
+
+- When a card is "touched" by a clue for the first time, a white arrow will point to the card and a yellow border will be applied. 
+- When an already-clued card is "retouched" by subsequent clues, a gray arrow will point to the card instead.
+
+<CardLayout3 />
 
 ## Challenge Questions
 
