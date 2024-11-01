@@ -9,6 +9,8 @@ import EliminationSingleOutNegative from "./level-18/elimination-single-out-nega
 import EliminationFinesse from "./level-18/elimination-finesse.yml";
 import EliminationFinesse2 from "./level-18/elimination-finesse-2.yml";
 import TrashTouchElimination from "./level-18/trash-touch-elimination.yml";
+import TrashTouchElimination2 from "./level-18/trash-touch-elimination-2.yml";
+import TrashBluffStillWorks from "./level-18/trash-bluff-still-works.yml";
 
 ## Conventions
 
@@ -131,7 +133,7 @@ import TrashTouchElimination from "./level-18/trash-touch-elimination.yml";
   - Alice receives no clues on the next go-around of the table. She discards, and now has _Elimination Notes_ on slots 4 and 5.
   - Alice receives no clues on the next go-around of the table. Her teammates would not let the other copy of red 2 be discarded, so it must be on slot 4. Alice blind-plays red 2 from slot 4.
 
-### The Riding Deduction Bluff
+### The Riding Bluff
 
 - Typically, when a player has two cards with _Elimination Notes_ and the "true" copy of the card is on chop, you must clue it to let them know.
 - However, if the other card is also playable, you can choose to not clue anything.
@@ -195,3 +197,42 @@ import TrashTouchElimination from "./level-18/trash-touch-elimination.yml";
   - There is only one "missing" red card - the red 5. Cathy knows that normally, Bob would think that his red 1 is the red 5 (from _Good Touch Principle_). This must mean that Cathy has the red 5. Cathy writes _Trash Touch Elimination Notes_ on her hand for the red 5.
 
 <TrashTouchElimination />
+
+#### Interaction Between Elimination & Potentially Unknown Trash
+
+- First, see the section on the _[Trash Chop Move](level-4.mdx#the-trash-chop-move)_ and the _[Trash Bluff](level-14.mdx#the-trash-bluff)_.
+- Normally, when a trash card is clued to initiate a _Trash Chop Move_, the card is globally known to be trash at the moment the clue is given.
+- Sometimes, it is possible for a player later in the turn order not to know that everyone else knows the clued card is trash.
+- When the clued card discards, that player realizes that a _Trash Chop Move_ has occurred, assisted by the presence of the final non-trash card(s) in their hand.
+- For example, in a 3-player game:
+  - Red 4, yellow 1, green 1, and blue 1 are played on the stacks.
+  - Bob's hand is completely unclued but contains a red 4 and a few useful 3s behind it.
+  - Alice clues red to Bob, touching his red 4 in slot 2.
+  - Bob sees that Cathy has the red 5 in her hand. So, Alice must be intending a _Trash Chop Move_.
+  - Bob discards his red card and marks his slot 3, slot 4, and slot 5 cards as being _Chop Moved_.
+  - Cathy is surprised to see that Bob did not go on to misplay his red card as red 5.
+  - The only explanation is that Cathy actually has the missing red card in her hand, so she writes _Elimination Notes_ on her entire hand for the red 5.
+  - All players similarly record the _Chop Move_ and _Elimination Notes_.
+
+<TrashTouchElimination2 />
+
+- However, what if Bob and Cathy were in the reverse order? Could Alice still save the useful 3s?
+- Normally, when a trash card is clued to initiate a _Trash Bluff_, the player who received the clue does not know their card is trash until the player following the clue giver blind-plays their _Finesse Position_ card.
+- Sometimes, it is possible for the clue receiver to know that their card is trash even before the blind-player responds. This can happen if the blind-player is holding all copies of any potential non-trash cards matching the clue given.
+- However, _Elimination Notes_ are **not** to be written on the blind-player's hand, even if they suspect that they have the missing card(s)! The _Trash Bluff_ should proceed as it normally would, because it is possible that the blind-player actually does not have the missing card(s).
+- For example, in a 3-player game:
+  - Red 4, yellow 1, green 1, and blue 1 are played on the stacks.
+  - Bob has four 5s in his hand, all of which are clued from a _5 Save_ earlier in the game. Notably, one of his 5s is red.
+  - Cathy's hand is completely unclued but contains a red 4 and a few useful 3s behind it.
+  - Alice, wanting to _Chop Move_ Cathy's 3s and get Bob to blind-play a card, clues red to Cathy, touching her red 4.
+    - She could not have clued number 3 to Cathy directly, because _Cathy's Connecting Principle_ will make Cathy misplay the blue 3.
+  - Bob knows that if he doesn't react, Cathy will assume that her card is the red 5.
+  - Before reacting, Bob remembers that he has four 5s in his hand and entertains the thought that one of them is red. If true, then similarly to the previous example, Alice's clue would be a valid _Trash Chop Move_ on Cathy.
+  - Bob knows, however, that there is not global knowledge whether he is holding a red 5. Thus, Alice must not be intending a _Trash Chop Move_ after all.
+  - Bob blind-plays his _Finesse Position_ card to fulfill a _Trash Bluff_, and it is a playable green 2.
+  - Normally, Cathy would now know that her red card is trash because otherwise Bob would not have blind-played anything.
+  - Unbeknownst to Bob, though, Cathy already knew that her red card is trash because she sees the final non-trash red card in Bob's hand.
+  - Cathy discards her trash and marks all her slot 3, slot 4, and slot 5 cards as being _Chop Moved_.
+- All players similarly record the _Chop Move_, and no players record _Elimination Notes_ for the red 5.
+
+<TrashBluffStillWorks />
