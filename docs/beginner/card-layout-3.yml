@@ -23,7 +23,7 @@ players:
         clue: b
       - type: x
       - type: 1
-      - type: 1
+      - type: b1
         clue: b
         retouched: true
       - type: x
