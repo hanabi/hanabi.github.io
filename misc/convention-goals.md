@@ -1,4 +1,4 @@
-# Goals for the H-Group Conventions
+# Goals for the _H-Group Convention Framework_
 
 What are the stated goals of the H-Group conventions? You could start off by saying that the goal is to "always get the highest score", but it is a little more nuanced than that.
 
