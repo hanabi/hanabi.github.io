@@ -29,10 +29,10 @@
     ]
   },
   "dependencies": {
-    "@docusaurus/core": "^3.5.2",
-    "@docusaurus/preset-classic": "^3.5.2",
+    "@docusaurus/core": "^3.6.1",
+    "@docusaurus/preset-classic": "^3.6.1",
     "@mdx-js/react": "^3.1.0",
-    "core-js": "^3.38.1",
+    "core-js": "^3.39.0",
     "prism-react-renderer": "^2.4.0",
     "raw-loader": "^4.0.2",
     "react": "^18.3.1",
@@ -42,12 +42,12 @@
     "zod": "^3.23.8"
   },
   "devDependencies": {
-    "@docusaurus/tsconfig": "^3.5.2",
-    "complete-lint": "^1.10.1",
-    "complete-node": "^1.5.1",
+    "@docusaurus/tsconfig": "^3.6.1",
+    "complete-lint": "^1.11.0",
+    "complete-node": "^1.7.4",
     "glob": "^11.0.0",
-    "isaacscript": "^5.1.0",
+    "isaacscript": "^5.2.4",
     "typescript": "^5.6.3",
-    "webpack": "^5.95.0"
+    "webpack": "^5.96.1"
   }
 }

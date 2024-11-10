@@ -33,7 +33,6 @@ const config = {
   ],
   ignoreDependencies: [
     "complete-lint", // This is a linting meta-package.
-    "complete-tsconfig", // This is provided by "complete-lint".
     // @template-customization-start
     "prism-react-renderer",
     "raw-loader",
@@ -44,9 +43,6 @@ const config = {
     "@docusaurus/Link",
     "@docusaurus/useDocusaurusContext",
     "@theme/Layout",
-    "@docusaurus/module-type-aliases",
-    "@docusaurus/theme-classic",
-    "node", // This is provided by "complete-lint".
     // @template-customization-end
   ],
 };
