@@ -41,7 +41,7 @@ Use notation that the H-Group will be familiar with:
 ## 6) Do Not Post Questions About Bots
 
 - Some bots exist that emulate the way that the H-Group plays. However, these bots are imprecise and often have unexplainable behavior.
-- Thus, do not post any questions relating to bots in this channel. Instead, send a direct message to the author of the bot.
+- Thus, do not post any questions relating to bots in this channel. Instead, send a direct message to the author of the bot if you do not understand why it performed some particular action.
 
 ## Reasoning
 
