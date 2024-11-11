@@ -142,12 +142,11 @@ import ChopMovePrompt from "./level-4/chop-move-prompt.yml";
 - For example, in a 3-player game:
   - All of the 1's have been played on the stacks.
   - Bob has a completely unclued hand.
-  - Alice clues number 1 to Bob, which touches a 1 in his slot 4.
-  - Bob _Chop Moves_ his slot 5.
+  - Alice clues number 1 to Bob, which touches a 1 on Bob's slot 4 as a _Trash Chop Move_.
   - Bob discards the 1.
   - Bob's chop is now his slot 4.
   - Cathy clues blue to Bob, which touches his slot 1 (the card he just drew) and his slot 5 (the card that was just _Chop Moved_).
-  - Bob knows that the focus of the clue is always on the new card introduced, so this is **not** chop-focus, and the focus of the clue is on slot 1.
+  - Bob knows that the focus of the clue is always on the new card introduced. Therefore, the focus of the clue is on slot 1.
   - Thus, Bob will play blue 2 from slot 1 on his next turn.
 
 <ChopMoveNew />
