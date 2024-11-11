@@ -38,6 +38,11 @@ Use notation that the H-Group will be familiar with:
 
 - Type out your entire question into a single message (including the attempt to answer your own question).
 
+## 6) Do Not Post Questions About Bots
+
+- Some bots exist that emulate the way that the H-Group plays. However, these bots are imprecise and often have unexplainable behavior.
+- Thus, do not post any questions relating to bots in this channel. Instead, send a direct message to the author of the bot.
+
 ## Reasoning
 
 - The reason for needing the level is that it helps us narrow the scope of the question, it serves as a flag to let others know what kind of question it is, and it prevents lower level players from attempting to answer.
