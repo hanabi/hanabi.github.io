@@ -9,6 +9,8 @@ import EliminationSingleOutNegative from "./level-18/elimination-single-out-nega
 import EliminationFinesse from "./level-18/elimination-finesse.yml";
 import EliminationFinesse2 from "./level-18/elimination-finesse-2.yml";
 import TrashTouchElimination from "./level-18/trash-touch-elimination.yml";
+import TrashTouchElimination2 from "./level-18/trash-touch-elimination-2.yml";
+import TrashBluffStillWorks from "./level-18/trash-bluff-still-works.yml";
 
 ## Conventions
 
@@ -195,3 +197,22 @@ import TrashTouchElimination from "./level-18/trash-touch-elimination.yml";
   - There is only one "missing" red card - the red 5. Cathy knows that normally, Bob would think that his red 1 is the red 5 (from _Good Touch Principle_). This must mean that Cathy has the red 5. Cathy writes _Trash Touch Elimination Notes_ on her hand for the red 5.
 
 <TrashTouchElimination />
+
+#### Interaction Between Trash Touch Elimination & Potentially Unknown Trash
+
+- First, see the section on the _[Trash Chop Move](level-4.mdx#the-trash-chop-move-tcm)_.
+- Normally, when a trash card is clued to initiate a _Trash Chop Move_, the card is globally known to be trash at the moment the clue is given.
+- However, it is also possible that one player may not already know that the clued card is trash.
+- When the clued card discards, that player realizes that a _Trash Chop Move_ has occurred, assisted by the presence of the final non-trash card(s) in their hand.
+- For example, in a 3-player game:
+  - Red 4, green 1, and blue 1 are played on the stacks.
+  - Bob's hand is completely unclued and is as follows: `blue 1, blue 1, red 4, blue 3, green 3`
+  - Cathy's hand is completely unclued and is as follows: `red 5, red 1, red 1, red 2, red 3`
+  - Alice clues red to Bob, touching his red 4 on slot 3.
+  - Bob knows that from _Good Touch Principle_, the only good red card is red 5. Since Bob sees the red 5 in Cathy's hand, his red card must be trash. Thus, Alice must be intending a _Trash Chop Move_.
+  - Bob discards his red card and marks his slot 4 and slot 5 cards as being _Chop Moved_.
+  - Cathy is surprised to see that Bob did not misplay the red 4 as a red 5.
+  - The only explanation is that Cathy has the red 5 in her hand. Since there is only one copy of a useful red card left, Cathy knows the "1 copy left" _Trash Touch Elimination_ rule applies. Subsequently, Cathy writes _Elimination Notes_ on her entire hand for the red 5.
+  - Alternatively, if there were two or more "good" copies of red cards existing, Cathy would be expected to blind-play as a _Trash Finesse_ instead.
+
+<TrashTouchElimination2 />
