@@ -2,7 +2,6 @@
 title: Level 16 - Ejections & Discharges
 ---
 
-import FiveColorEjectionNotOOO from "./level-16/five-color-ejection-not-ooo.yml";
 import FiveColorEjection from "./level-16/five-color-ejection.yml";
 import IllegalTrashBluff from "./level-16/illegal-trash-bluff.yml";
 import UnknownTrashDischarge from "./level-16/unknown-trash-discharge.yml";
@@ -42,16 +41,6 @@ import UnknownDupeDischarge from "./level-16/unknown-dupe-discharge.yml";
   - From Cathy's perspective, if Bob had played his _Finesse Position_ card in response to the red clue, then Cathy would know that it was a _Finesse_ or a _Bluff_. But since Bob blind-played his _Second Finesse Position_ card, it must be a _5 Color Ejection_. Cathy marks the red card as red 5.
 
 <FiveColorEjection />
-
-- In the previous example, a _5 Color Ejection_ was preformed with the 5 being the only new card introduced with the color clue. However, it is also possible to perform a _5 Color Ejection_ with more than one card introduced.
-- For players playing at level 21, this kind of thing would normally signal an _[Out-of-Order Finesse](level-21.mdx#the-out-of-order-finesse)_, but the _5 Color Ejection_ interpretation should take precedence as long as the next player would have to blind-play two or more cards.
-- For example, in a 3-player game:
-  - It is the first turn and nothing is played on the stacks.
-  - Alice clues red to Cathy, touching a red 5 on slot 2 and a red 2 on slot 3.
-  - Bob knows that at level 21, this would be an _Out-of-Order Finesse_ on the 5, indicating to Bob that he has the red 1, the red 3, and the red 4. However, since this calls for more than one blind card, he knows that _5 Color Ejection_ should take precedence, so he knows to play his _Second Finesse Position_ card. It is a red 1 and it successfully plays.
-  - From Cathy's perspective, if Bob had played his _Finesse Position_ card in response to the red clue, then Cathy would know that it was a _Finesse_ or a _Bluff_. But since Bob blind-played his _Second Finesse Position_ card, it must be a _5 Color Ejection_. Cathy marks the red card as red 5. Her other red card can be red 2, red 3, or red 4.
-
-<FiveColorEjectionNotOOO />
 
 ### The Unknown Trash Discharge (1-for-1 Form) (UTD)
 

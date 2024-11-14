@@ -160,7 +160,6 @@ const sidebars: SidebarsConfig = {
         "extras/chop-moves",
         "extras/special-finesses",
         "extras/special-bluffs",
-        "extras/suboptimal-moves",
         "extras/pushes-pulls",
         "extras/ejections",
         "extras/discharges",
