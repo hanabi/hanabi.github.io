@@ -4,6 +4,7 @@ title: Level 3 - Basic Strategy
 
 import PlayingMultiple1s1 from "./level-3/playing-multiple-1s-1.yml";
 import PlayingMultiple1s2 from "./level-3/playing-multiple-1s-2.yml";
+import PlayingMultiple1s2a from "./level-3/playing-multiple-1s-2a.yml";
 import PlayingMultiple1s3 from "./level-3/playing-multiple-1s-3.yml";
 import FixClue1 from "./level-3/fix-clue-1.yml";
 import FixClue2 from "./level-3/fix-clue-2.yml";
@@ -39,8 +40,8 @@ import InformationLock from "./level-3/information-lock.yml";
 
 - If:
   - two (or more) 1's are clued in someone's hand,
-  - and one of the 1's was in the starting hand,
-  - and one of the 1's was not on chop,
+  - and one (or more) of the 1's was in the starting hand,
+  - and one (or more) of the remaining 1's was not on chop,
   - then the "fresh" card is probably more important. (Otherwise, the clue might have been given earlier.)
 - Thus, freshly drawn 1's should always be played before any 1's that were present in the starting hand.
 - Continuing on from the example in the previous section, imagine that:
@@ -50,6 +51,15 @@ import InformationLock from "./level-3/information-lock.yml";
   - After that, Bob resumes the play order from before, playing the slot 4 card, and then the slot 3 card.
 
 <PlayingMultiple1s2 />
+
+- If there are multiple freshly drawn 1's, they should be played newest to oldest, as is normal for play clues.
+- For example, in a 2-player game:
+  - Red 3 and blue 3 are played on the stacks.
+  - None of the cards in Bob's hand were in his starting hand.
+  - Alice clues number 1 to Bob, touching two 1's on slots 1 and 3.
+  - Bob knows that the correct order to play all of the 1's is is 1, 3.
+
+<PlayingMultiple1s2a />
 
 #### Part 3 - The Chop-Focus Exception
 
