@@ -15,75 +15,6 @@ import CluingOnes1 from "./level-12/cluing-ones-1.yml";
 import CluingOnes2 from "./level-12/cluing-ones-2.yml";
 import CluingOnes3 from "./level-12/cluing-ones-3.yml";
 
-## General Principles
-
-### Context
-
-- If you are reading this section, you are presumably a more-experienced Hanabi player who has the fundamentals down. So, now is a good time to clear up a potential misconception that you may have about our conventions.
-- Up until now, you may have the impression that the group has a lot of conventions, and that if you just memorize all of the conventions, you will become a really good Hanabi player. Or, you may have the impression that the conventions are like laws and that you must always follow them. Neither of these things are true.
-- _Context_ is defined as all of the meta-information about the game state. In intermediate and expert games, when determining what a clue means, players must **always** take into account the full context of the game. This means that figuring out what a clue means is never truly as easy as following one of the flowcharts listed on the website.
-- When writing the strategy documentation, it would be distracting to constantly write the word "probably" and to constantly write "this may not apply in all situations" all over the place. For advanced players, this is obvious - Hanabi is complicated enough such that every convention is meant to be broken if the particular situation demands it.
-- Thus, players need to read the reference documentation with **a grain of salt**, especially when it says the word "always". Even though this website outlines the "correct" thing to do in a lot of situations, these are not strict rules. Rather, they are intended to show the "default" or "common" case. Memorizing the default cases is really helpful, for intermediate and advanced players alike. But players have to always remember to keep their brain fully engaged on the particular situation.
-
-### Cluing 1's in the Early Game
-
-- As outlined in the [level 3 strategy section](level-3.mdx#tempo), Hanabi is about balancing _Efficiency_ and _Tempo_.
-- As outlined in the [level 6 strategy section](level-6.mdx#the-value-of-one-away-from-playable-cards), _one-away-from-playable_ cards are valuable.
-- So, players have to balance _Efficiency_, _Tempo_, and "locking in" a touch on _one-away-from-playable_ cards.
-- In the _Early Game_, it is very common for players to give a number 1 clue when they see a hand that has two or more 1's in it. And this type of clue is normally pretty good. But because of the previous considerations, sometimes it would be better to get the 1's with several color clues instead.
-
-#### Example 1
-
-- Players should not just consider how good their individual clue is - they should also consider how their teammates can **build** on top of their clue.
-  - Or might it be better to play and let someone else give the exact same clue?
-- For example, in a 3-player game:
-  - It is the first turn and nothing is played on the stacks.
-  - Bob's hand is as follows, from newest to oldest: `green 4, red 1, red 3, blue 2, blue 1`
-  - Alice would like to get the red 1 and the blue 1 played from Bob's hand. (No-one else has a red 1 or a blue 1.) Should Alice clue number 1, red, or blue?
-  - If Alice clues number 1, it would be a 2-for-1 clue. But then the team will probably spend a clue getting the blue 2. This will result in an efficiency of 3-for-2. And the red 3 will probably end up being discarded. Bad.
-  - If Alice clues blue, it would be a 2-for-1 clue. But then the team will no longer be able to give a red clue, because it would be _Chop-Focused_ on the red 3. So they would have to clue number 1, which would result in an efficiency of 3-for-2. Bad.
-  - Thus, Alice should clue red first, and then clue blue later, resulting in an efficiency of 4-for-2.
-
-<CluingOnes1 />
-
-#### Example 2
-
-- When players make the choice between cluing number 1 or cluing color, the cards in other people's hands should also be considered.
-- For example, in a 4-player game:
-  - It is the first turn and nothing is played on the stacks.
-  - Cathy's hand is as follows, from newest to oldest: `red 1, green 4, blue 3, blue 1`
-  - Donald is holding a cluable red 2.
-  - Alice would like to get the red 1 and the blue 1 played. (No-one else has a red 1 or a blue 1.) Should she clue 1, red, or blue?
-  - Just like in the previous example, cluing number 1 means that the red 2 will have to be clued as a 1-for-1, which results in an efficiency of 3-for-2.
-  - Instead, Alice clues blue to Cathy as a 2-for-1. Next, Bob will clue red to Donald, performing the _Finesse_ as a 2-for-1. In total, this is a 4-for-2.
-
-<CluingOnes2 />
-
-#### Example 3
-
-- As explained in the [beginner's guide](beginner/other-general-strategy.mdx), it is almost always better to give a _Play Clue_ instead of a _Save Clue_ if a player has a playable card in their hand.
-- However, building on the theme of having teammates "build" on your clues, sometimes it is better to give a _Save Clue_ first and then a _Play Clue_ later.
-- For example, in a 3-player game:
-  - It is the first turn and nothing is played on the stacks.
-  - Cathy's hand is as follows, from newest to oldest: `blue 4, blue 4, red 3, red 1, blue 5`
-  - Alice would like to get the red 1 played. (No-one else has a red 1 in their hand.) Alice also knows that the team needs to eventually save the blue 5.
-  - If Alice clues number 1 first to get the red 1, then the team will need to give a _5 Save_ to save the blue 5, resulting in an efficiency of 2-for-2.
-  - Instead, Alice clues number 5 as a _5 Save_, which allows Bob to follow up with a red _Chop-Focus Play Clue_. This touches the red 3 as a 2-for-1, allowing for an overall efficiency of a 3-for-2.
-
-<CluingOnes3 />
-
-#### Other Considerations
-
-- Just in case you thought Hanabi was not difficult enough, there are some other factors to consider when finding the best clue:
-  - Does giving a color clue put a playable card on _Finesse Position_? If so, maybe a color clue is better.
-  - Does giving a number 1 clue give the player the ability to perform a useful _Order Chop Move_? If so, maybe a number 1 clue is better.
-
-### Holding Immediately Playable Cards
-
-- When you hold an immediately playable card, it is often better to play instead of cluing.
-- When you have multiple immediately playable cards, it is almost always better to play instead of cluing. Playing a card into somebody else's hand is especially good teamwork, but you are free to play any card you like.
-  - At [level 25](level-25.mdx), playing cards into other people's hands is mandatory.
-
 ## Conventions
 
 ### Assuming Asymmetric Information
@@ -236,3 +167,72 @@ import CluingOnes3 from "./level-12/cluing-ones-3.yml";
 <FocusInversion />
 
 - Note that **_Self-Finesses_ with rank always take precedence over _Focus Inversion_**, which is a specific case where _Occam's Razor_ does not apply. (_Self-Finesses_ with rank are quite common, but _Self Finesses_ with color are nonsensical.)
+
+## General Principles
+
+### Context
+
+- If you are reading this section, you are presumably a more-experienced Hanabi player who has the fundamentals down. So, now is a good time to clear up a potential misconception that you may have about our conventions.
+- Up until now, you may have the impression that the group has a lot of conventions, and that if you just memorize all of the conventions, you will become a really good Hanabi player. Or, you may have the impression that the conventions are like laws and that you must always follow them. Neither of these things are true.
+- _Context_ is defined as all of the meta-information about the game state. In intermediate and expert games, when determining what a clue means, players must **always** take into account the full context of the game. This means that figuring out what a clue means is never truly as easy as following one of the flowcharts listed on the website.
+- When writing the strategy documentation, it would be distracting to constantly write the word "probably" and to constantly write "this may not apply in all situations" all over the place. For advanced players, this is obvious - Hanabi is complicated enough such that every convention is meant to be broken if the particular situation demands it.
+- Thus, players need to read the reference documentation with **a grain of salt**, especially when it says the word "always". Even though this website outlines the "correct" thing to do in a lot of situations, these are not strict rules. Rather, they are intended to show the "default" or "common" case. Memorizing the default cases is really helpful, for intermediate and advanced players alike. But players have to always remember to keep their brain fully engaged on the particular situation.
+
+### Holding Immediately Playable Cards
+
+- When you hold an immediately playable card, it is often better to play instead of cluing.
+- When you have multiple immediately playable cards, it is almost always better to play instead of cluing. Playing a card into somebody else's hand is especially good teamwork, but you are free to play any card you like.
+  - At [level 25](level-25.mdx), playing cards into other people's hands is mandatory.
+
+### Cluing 1's in the Early Game
+
+- As outlined in the [level 3 strategy section](level-3.mdx#tempo), Hanabi is about balancing _Efficiency_ and _Tempo_.
+- As outlined in the [level 6 strategy section](level-6.mdx#the-value-of-one-away-from-playable-cards), _one-away-from-playable_ cards are valuable.
+- So, players have to balance _Efficiency_, _Tempo_, and "locking in" a touch on _one-away-from-playable_ cards.
+- In the _Early Game_, it is very common for players to give a number 1 clue when they see a hand that has two or more 1's in it. And this type of clue is normally pretty good. But because of the previous considerations, sometimes it would be better to get the 1's with several color clues instead.
+
+#### Example 1
+
+- Players should not just consider how good their individual clue is - they should also consider how their teammates can **build** on top of their clue.
+  - Or might it be better to play and let someone else give the exact same clue?
+- For example, in a 3-player game:
+  - It is the first turn and nothing is played on the stacks.
+  - Bob's hand is as follows, from newest to oldest: `green 4, red 1, red 3, blue 2, blue 1`
+  - Alice would like to get the red 1 and the blue 1 played from Bob's hand. (No-one else has a red 1 or a blue 1.) Should Alice clue number 1, red, or blue?
+  - If Alice clues number 1, it would be a 2-for-1 clue. But then the team will probably spend a clue getting the blue 2. This will result in an efficiency of 3-for-2. And the red 3 will probably end up being discarded. Bad.
+  - If Alice clues blue, it would be a 2-for-1 clue. But then the team will no longer be able to give a red clue, because it would be _Chop-Focused_ on the red 3. So they would have to clue number 1, which would result in an efficiency of 3-for-2. Bad.
+  - Thus, Alice should clue red first, and then clue blue later, resulting in an efficiency of 4-for-2.
+
+<CluingOnes1 />
+
+#### Example 2
+
+- When players make the choice between cluing number 1 or cluing color, the cards in other people's hands should also be considered.
+- For example, in a 4-player game:
+  - It is the first turn and nothing is played on the stacks.
+  - Cathy's hand is as follows, from newest to oldest: `red 1, green 4, blue 3, blue 1`
+  - Donald is holding a cluable red 2.
+  - Alice would like to get the red 1 and the blue 1 played. (No-one else has a red 1 or a blue 1.) Should she clue 1, red, or blue?
+  - Just like in the previous example, cluing number 1 means that the red 2 will have to be clued as a 1-for-1, which results in an efficiency of 3-for-2.
+  - Instead, Alice clues blue to Cathy as a 2-for-1. Next, Bob will clue red to Donald, performing the _Finesse_ as a 2-for-1. In total, this is a 4-for-2.
+
+<CluingOnes2 />
+
+#### Example 3
+
+- As explained in the [beginner's guide](beginner/other-general-strategy.mdx), it is almost always better to give a _Play Clue_ instead of a _Save Clue_ if a player has a playable card in their hand.
+- However, building on the theme of having teammates "build" on your clues, sometimes it is better to give a _Save Clue_ first and then a _Play Clue_ later.
+- For example, in a 3-player game:
+  - It is the first turn and nothing is played on the stacks.
+  - Cathy's hand is as follows, from newest to oldest: `blue 4, blue 4, red 3, red 1, blue 5`
+  - Alice would like to get the red 1 played. (No-one else has a red 1 in their hand.) Alice also knows that the team needs to eventually save the blue 5.
+  - If Alice clues number 1 first to get the red 1, then the team will need to give a _5 Save_ to save the blue 5, resulting in an efficiency of 2-for-2.
+  - Instead, Alice clues number 5 as a _5 Save_, which allows Bob to follow up with a red _Chop-Focus Play Clue_. This touches the red 3 as a 2-for-1, allowing for an overall efficiency of a 3-for-2.
+
+<CluingOnes3 />
+
+#### Other Considerations
+
+- Just in case you thought Hanabi was not difficult enough, there are some other factors to consider when finding the best clue:
+  - Does giving a color clue put a playable card on _Finesse Position_? If so, maybe a color clue is better.
+  - Does giving a number 1 clue give the player the ability to perform a useful _Order Chop Move_? If so, maybe a number 1 clue is better.
