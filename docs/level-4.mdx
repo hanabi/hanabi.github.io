@@ -159,9 +159,17 @@ import ChopMovePrompt from "./level-4/chop-move-prompt.yml";
 
 <ChopMoveNewException />
 
+### Chop Moves & Tempo Clues
+
+- _Chop Moves_ interact with _Temop Clues_ in a potentially confusing way. _Play Clues_ to _Chop Moved_ cards are **not** considered to be _Tempo Clues_, even though _Chop Moved_ cards are imagined to have an "invisible" clue on them.
+
+When a _Play Clue_ is given to a _Chop Moved_ card that previously had 0 positive clues on it
+
+s should **not** be played into _Prompts_, even though they are imagined to have an "invisible" clue on them.
+
 ### Chop Moves & Prompts
 
-- _Chop Moves_ interact with _Prompts_ & _Finesses_ in a potentially confusing way. _Chop Moved_ cards should **not** be played into _Prompts_, even though they are imagined to have an "invisible" clue on them.
+- _Chop Moves_ interact with _Prompts_ & _Finesses_ in a potentially confusing way. _Chop Moved_ cards should **not** be played into _Prompts_, even though _Chop Moved_ cards are imagined to have an "invisible" clue on them.
 - For example:
   - All the 1's are played on the stacks.
   - Bob has no cards clued in his hand, but he is _Chop Moved_ for a mystery card on his slot 5.
