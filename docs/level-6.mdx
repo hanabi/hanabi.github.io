@@ -16,12 +16,6 @@ import DiscardModulation from "./level-6/discard-modulation.yml";
 - When a _Tempo Clue_ touches multiple cards, the focus is on the leftmost card. The non-focused cards are not promised to be playable.
 - We treat _Tempo Clues_ differently depending on whether they are valuable or not valuable. See the next two sections below.
 
-### Chop Moves & Tempo Clues
-
-- _Chop Moves_ interact with _Tempo Clues_ in a potentially confusing way. When a _Play Clue_ is given that touches a _Chop Moved_ card for the first time, it is **not** considered to be _Tempo Clue_, even though _Chop Moved_ cards are imagined to have an "invisible" clue on them. Instead, this would be categorized a normal _Play Clue_.
-  - The reason for this is kind of technical. A _Tempo Clue_ is defined as a 0-for-1 because all clued cards will "automatically" play on the stacks from _Good Touch Principle_. However, there is not an analogous principle for _Chop Moved_ cards - they will not automatically play on the stacks. Thus, a _Play Clue_ to a _Chop Moved_ card would be a 1-for-1.
-- In the _Early Game_, players must exhaust all _Play Clues_ and _Save Clues_ that satisfy _Minimum Clue Value Principle_. Since clues to playable _Chop Moved_ cards count as normal _Play Clues_, it follows that players are are obligated to give these kinds of clues before ending the _Early Game_.
-
 ### The Valuable Tempo Clue
 
 - In some special situations, _Tempo Clues_ have enough value to justify giving them:
@@ -58,6 +52,12 @@ import DiscardModulation from "./level-6/discard-modulation.yml";
 <TempoClueChopMovePart2 />
 
 ## General Principles
+
+### Chop Moves & Tempo Clues
+
+- _Chop Moves_ interact with _Tempo Clues_ in a potentially confusing way. When a _Play Clue_ is given that touches a _Chop Moved_ card for the first time, it is **not** considered to be _Tempo Clue_, even though _Chop Moved_ cards are imagined to have an "invisible" clue on them. Instead, this would be categorized a normal _Play Clue_.
+  - The reason for this is kind of technical. A _Tempo Clue_ is defined as a 0-for-1 because all clued cards will "automatically" play on the stacks from _Good Touch Principle_. However, there is not an analogous principle for _Chop Moved_ cards - they will not automatically play on the stacks. Thus, a _Play Clue_ to a _Chop Moved_ card would be a 1-for-1.
+- In the _Early Game_, players must exhaust all _Play Clues_ and _Save Clues_ that satisfy _Minimum Clue Value Principle_. Since clues to playable _Chop Moved_ cards count as normal _Play Clues_, it follows that players are are obligated to give these kinds of clues before ending the _Early Game_.
 
 ### Discard Modulation
 
