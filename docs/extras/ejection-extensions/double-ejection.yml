@@ -32,6 +32,7 @@ players:
     cards:
       - type: r2
         clue: r
+        retouched: true
       - type: x
       - type: x
       - type: x
