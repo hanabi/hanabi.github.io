@@ -92,7 +92,6 @@ import InformationLock from "./level-3/information-lock.yml";
 ### The Fix Clue (That Gives No Additional Information)
 
 - Usually a _Fix Clue_ will "fill in" the card to explicitly make it known that the card is unplayable or duplicated. However, it is also possible to perform a _Fix Clue_ just by cluing the card again.
-- This may only be done if the card is already going to play.
 - In the example below:
   - Alice clues Bob number 1 and it touches three 1's.
   - Bob successfully plays two 1's.
@@ -109,6 +108,9 @@ import InformationLock from "./level-3/information-lock.yml";
   - Since Bob was going to play his 1's already without Alice doing anything, the clue must have some other meaning. Thus, it is a _Fix Clue_: the 1 that Bob was about to play is bad, and Bob can safely discard it. Bob skips over the 1 that he was about to play (on slot 4) and plays the other one (on slot 3).
 
 <FixClue4 />
+
+- For level 6 players, note that _Fix Clues_ that give no additional information (and do not "fill in" the card to be explicitly known to be bad) only typically work if the card is about to play on the stacks. Otherwise, it would look like a [_Tempo Clue_](level-6.mdx#the-tempo-clue).
+  - The reason is because of _Good Touch Principle_. In other words, we assume by default that all of our cards are "good" unless it is explicitly demonstrated otherwise. _Fix Clues_ that give no additional information are the exception to this, so we only assume a _Fix Clue_ that give no additional information if there is no other more-ordinary explination for the clue.
 
 ### The Fix Clue (Via a Negative Number Clue)
 
