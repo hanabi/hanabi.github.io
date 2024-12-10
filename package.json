@@ -29,25 +29,25 @@
     ]
   },
   "dependencies": {
-    "@docusaurus/core": "^3.6.1",
-    "@docusaurus/preset-classic": "^3.6.1",
+    "@docusaurus/core": "^3.6.3",
+    "@docusaurus/preset-classic": "^3.6.3",
     "@mdx-js/react": "^3.1.0",
     "core-js": "^3.39.0",
     "prism-react-renderer": "^2.4.0",
     "raw-loader": "^4.0.2",
-    "react": "^18.3.1",
+    "react": "18.3.1",
     "react-circular-progressbar": "^2.1.0",
-    "react-dom": "^18.3.1",
-    "yaml": "^2.6.0",
+    "react-dom": "18.3.1",
+    "yaml": "^2.6.1",
     "zod": "^3.23.8"
   },
   "devDependencies": {
-    "@docusaurus/tsconfig": "^3.6.1",
-    "complete-lint": "^1.11.0",
+    "@docusaurus/tsconfig": "^3.6.3",
+    "complete-lint": "^1.12.1",
     "complete-node": "^1.7.4",
     "glob": "^11.0.0",
     "isaacscript": "^5.2.4",
-    "typescript": "^5.6.3",
-    "webpack": "^5.96.1"
+    "typescript": "^5.7.2",
+    "webpack": "^5.97.1"
   }
 }

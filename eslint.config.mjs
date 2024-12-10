@@ -24,6 +24,9 @@ export default tseslint.config(
 
       // @template-customization-start
 
+      // React uses default exports.
+      "import-x/no-default-export": "off",
+
       // Docusaurus is stuck on ESM. Remove this when "package.json" can be converted:
       // https://github.com/facebook/docusaurus/issues/6520
       "n/file-extension-in-import": "off",
