@@ -37,6 +37,7 @@ const config = {
     "prism-react-renderer",
     "raw-loader",
     "webpack",
+    "@docusaurus/faster",
     "@docusaurus/types",
     "@docusaurus/plugin-content-docs",
     "@docusaurus/useBaseUrl",
