@@ -42,6 +42,7 @@
     "zod": "^3.23.8"
   },
   "devDependencies": {
+    "@docusaurus/faster": "^3.6.3",
     "@docusaurus/tsconfig": "^3.6.3",
     "complete-lint": "^1.12.1",
     "complete-node": "^1.7.4",
