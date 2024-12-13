@@ -6,6 +6,14 @@ import FiveStall from "./level-9/five-stall.yml";
 
 ## Conventions
 
+### Stalling Situation
+
+- In Hanabi a player has three possible actions on their turn — giving a clue, playing a card, discarding a card.
+- Sometimes, it becomes essential to restrict a player from discarding their chop. If such a restriction is placed upon a player, it is said that they are in a _Stalling Situation_.
+- Discarding is often a last resort. If players could (if clues were infinite), they would only give clues and play their cards. Therefore, a player that has a safe action, that is, either a play or a safe discard (discarding chop is always unsafe), cannot be put in a _Stalling Situation_.
+- Hence, the only action left to a player in a _Stalling Situation_ is giving a clue.
+- Clues given in such situations are treated as "stall" clues.
+
 ### Allowable Stall Clues (Stall Table)
 
 - In certain situations, everyone understands that a player might be giving a "stall" clue. However, there are limits - they are not allowed to just clue anything they want. These are the specific clues that they are allowed to give along with the precedence of each clue:
@@ -33,7 +41,6 @@ import FiveStall from "./level-9/five-stall.yml";
   - Alice does have a _Tempo Clue_ to give (precedence 3).
   - Thus, Alice must perform the _Tempo Clue_. It will be interpreted as a _Tempo Clue Stall_ (and will not have a _Chop Move_ component). Furthermore, Alice is not allowed to do any moves with precedence 4 or 5.
 - What is the point of having a complicated table with defined priorities? Well, normally, players in stalling situations are not able to give tricky-looking _Finesses_, because everyone else will think that they are just giving a stall clue. However, if it can be seen that there is a better clue available for them to give, then everyone can know that they are **not** giving a stall clue. So, because of this precedence table, players in stalling situations are still often able to make _Finesses_ happen.
-- Obviously, stall clues are not allowed when the player has a known playable card in their hand.
 
 ### The Early Game (Severity 1 Stalling)
 
