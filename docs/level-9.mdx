@@ -6,9 +6,16 @@ import FiveStall from "./level-9/five-stall.yml";
 
 ## Conventions
 
+### Stalling Situation
+
+- First, see the section on [Minimum Clue Value Principle](beginner/minimum-clue-value-principle.mdx), one of our core principles.
+- On most turns, players will not have any known-playable cards. Thus, on most turns, player will either give a clue (if it is a good clue) or discard (the null action).
+- However, in certain situations, discarding a card can be dangerous, having the potential to lower the maximum score. In those situations, the only safe action to perform is to give a clue. So, in those situations, we allow players to give low-value clues that would otherwise be illegal.
+- We call these types of situations _Stalling Situations_. The rest of this page will go over the specific kinds of _Stalling Situations_ that exist.
+
 ### Allowable Stall Clues (Stall Table)
 
-- In certain situations, everyone understands that a player might be giving a "stall" clue. However, there are limits - they are not allowed to just clue anything they want. These are the specific clues that they are allowed to give along with the precedence of each clue:
+- In _Stalling Situations_, everyone understands that a player might be giving a low-value clue. However, there are limits - they are not allowed to just clue anything they want. These are the specific clues that they are allowed to give along with the precedence of each clue:
 
 | Precedence | Type of Clue                                                                                             | Normal Situation (Severity 0) | Early Game (Severity 1) | Double Discard / Scream Discard (Severity 2) | Locked Hand (Severity 3) | 8 Clues (Severity 4) | End-Game (Severity ?) |
 | ---------- | -------------------------------------------------------------------------------------------------------- | ----------------------------- | ----------------------- | -------------------------------------------- | ------------------------ | -------------------- | --------------------- |
@@ -20,6 +27,7 @@ import FiveStall from "./level-9/five-stall.yml";
 | 4 (tied)   | _8 Clue Save_<br />(saving any card not on slot 1)                                                       | ❌                            | ❌                      | ❌                                           | ❌                       | ✔️                   | use context           |
 | 5          | _Hard Burn_<br />(re-cluing a card that gives no new information, usually a 5)                           | ❌                            | ❌                      | ✔️                                           | ✔️                       | ✔️                   | use context           |
 
+- Don't let this complicated table scare you: it is mostly describing some common-sense Hanabi intuitions.
 - For example:
   - It is the _Early Game_ (severity 1).
   - Alice does not have any normal _Play Clues_ or _Save Clues_ to give (precedence 1).
@@ -32,8 +40,7 @@ import FiveStall from "./level-9/five-stall.yml";
   - Alice does not have any _5 Stalls_ to give (precedence 2).
   - Alice does have a _Tempo Clue_ to give (precedence 3).
   - Thus, Alice must perform the _Tempo Clue_. It will be interpreted as a _Tempo Clue Stall_ (and will not have a _Chop Move_ component). Furthermore, Alice is not allowed to do any moves with precedence 4 or 5.
-- What is the point of having a complicated table with defined priorities? Well, normally, players in stalling situations are not able to give tricky-looking _Finesses_, because everyone else will think that they are just giving a stall clue. However, if it can be seen that there is a better clue available for them to give, then everyone can know that they are **not** giving a stall clue. So, because of this precedence table, players in stalling situations are still often able to make _Finesses_ happen.
-- Obviously, stall clues are not allowed when the player has a known playable card in their hand.
+- What is the point in having a complicated precedence table? Normally, players in stalling situations are not able to give tricky-looking _Finesses_, because everyone else will think that they are just giving a stall clue. However, if it can be seen that there is a better clue available for them to give, then everyone can know that they are **not** giving a stall clue. So, because of this precedence table, players in stalling situations are still often able to make _Finesses_ happen.
 
 ### The Early Game (Severity 1 Stalling)
 
