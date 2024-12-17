@@ -55,10 +55,49 @@ There is a 4-step process for determining the focus of a clue:
 
 This process is represented in the following flowchart:
 
-<img
-  src="/img/flowcharts/clue-focus-flowchart.png"
-  alt="Clue Focus Flowchart"
-/>
+graph TD;
+  S([A clue is given.<br />What card is focused?])
+    style S fill:#ed395d,color:#fff
+  D1{Did it touch one or more previously untouched cards?}
+    style D1 fill:#f7c545,color:#fff
+  D1Y(Yes)
+    style D1Y fill:#45e0f7,color:#fff
+  D1N(No)
+    style D1N fill:#45e0f7,color:#fff
+  D1NL([The focus is on the left-most card.])
+    style D1NL fill:#ed395d,color:#fff
+  D2{Did it touch exactly one previously untouched card?}
+    style D2 fill:#f7c545,color:#fff
+  D2Y(Yes)
+    style D2Y fill:#45e0f7,color:#fff
+  D2N(No)
+    style D2N fill:#45e0f7,color:#fff
+  D2YL([The focus is on the brand-new card.])
+    style D2YL fill:#ed395d,color:#fff
+  D3{Did it touch the chop card?}
+    style D3 fill:#f7c545,color:#fff
+  D3Y(Yes)
+    style D3Y fill:#45e0f7,color:#fff
+  D3N(No)
+    style D3N fill:#45e0f7,color:#fff
+  D3YL([The focus is on the chop card.])
+    style D3YL fill:#ed395d,color:#fff
+  D3NL([The focus is on the left-most card.])
+    style D3NL fill:#ed395d,color:#fff
+
+  S --> D1;
+  D1 --> D1Y;
+  D1 --> D1N;
+  D1N --> D1NL;
+  D1Y --> D2;
+  D2 --> D2Y;
+  D2 --> D2N;
+  D2Y --> D2YL;
+  D2N --> D3;
+  D3 --> D3Y;
+  D3 --> D3N;
+  D3Y --> D3YL;
+  D3N --> D3NL;
 
 ### The Early Game
 
