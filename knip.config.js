@@ -38,10 +38,11 @@ const config = {
     "raw-loader",
     "webpack",
     "@docusaurus/faster",
+    "@docusaurus/Link",
+    "@docusaurus/theme-mermaid",
     "@docusaurus/types",
     "@docusaurus/plugin-content-docs",
     "@docusaurus/useBaseUrl",
-    "@docusaurus/Link",
     "@docusaurus/useDocusaurusContext",
     "@theme/Layout",
     // @template-customization-end
