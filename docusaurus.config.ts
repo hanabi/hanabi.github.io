@@ -120,6 +120,13 @@ const config: Config = {
   future: {
     experimental_faster: true,
   },
+
+  // Enable Mermaid diagrams:
+  // https://docusaurus.io/docs/next/markdown-features/diagrams
+  markdown: {
+    mermaid: true,
+  },
+  themes: ["@docusaurus/theme-mermaid"],
 };
 
 export default config;
