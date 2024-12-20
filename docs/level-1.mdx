@@ -55,10 +55,38 @@ There is a 4-step process for determining the focus of a clue:
 
 This process is represented in the following flowchart:
 
-<img
-  src="/img/flowcharts/clue-focus-flowchart.png"
-  alt="Clue Focus Flowchart"
-/>
+```mermaid
+flowchart TD;
+
+S([A clue is given.<br />What card is focused?])
+D1[/Did it touch one or more previously untouched cards?\]
+D1Y(Yes)
+D1N(No)
+D1NL([The focus is on the left-most card.])
+D2[/Did it touch exactly one previously untouched card?\]
+D2Y(Yes)
+D2N(No)
+D2YL([The focus is on the brand-new card.])
+D3[/Did it touch the chop card?\]
+D3Y(Yes)
+D3N(No)
+D3YL([The focus is on the chop card.])
+D3NL([The focus is on the left-most card.])
+
+S --> D1;
+D1 --> D1Y;
+D1 --> D1N;
+D1N --> D1NL;
+D1Y --> D2;
+D2 --> D2Y;
+D2 --> D2N;
+D2Y --> D2YL;
+D2N --> D3;
+D3 --> D3Y;
+D3 --> D3N;
+D3Y --> D3YL;
+D3N --> D3NL;
+```
 
 ### The Early Game
 
