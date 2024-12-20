@@ -17,6 +17,8 @@
   --ifm-color-primary-lightest: #e5b4ab;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --flowchart-yes: #88ff88;
+  --flowchart-no: #ff8888;
 
   /* Hack to increase the spacing between header elements */
   /* (the Infima class name was determined by looking at the CSS calculation in Chrome dev-tools) */
@@ -35,6 +37,8 @@
   --ifm-color-primary-lightest: #e5b4ab;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --flowchart-yes: #008800;
+  --flowchart-no: #880000;
 }
 
 /* ------------------------------------- */
@@ -131,4 +135,13 @@ svg.example text.site-theme-text {
   top: 4em;
   width: 6em;
   height: 6em;
+}
+
+/* In order to override the default styling from Mermaid, we need to provide an ID. The outermost <div> has a known ID. */
+#__docusaurus g.node-yes > rect {
+  fill: var(--flowchart-yes);
+}
+
+#__docusaurus g.node-no > rect {
+  fill: var(--flowchart-no);
 }
