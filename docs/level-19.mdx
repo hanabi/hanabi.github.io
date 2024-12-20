@@ -203,7 +203,61 @@ import InteractionsBetween2SavesAnd5Stalls from "./level-19/interaction-between-
 
 ### A Flowchart for Cluing 5's
 
-- Differentiating between a _5 Stall_ and a _5 Pull_ can sometimes be confusing. [Here is a flowchart](https://raw.githubusercontent.com/hanabi/hanabi.github.io/main/static/img/flowcharts/early-game-5-flowchart.png) that steps you through how you can tell the difference.
+- Differentiating between a _5 Stall_ and a _5 Pull_ can sometimes be confusing. Here is a flowchart that steps you through how you can tell the difference:
+
+```mermaid
+graph TD;
+
+S([It is the _Early Game_ and one or more 5's are clued with number 5.])
+D1[/Was the right-most 5 on chop?\]
+D1Y(Yes)
+D1N(No)
+D1YL(["It is a _Save Clue_ on the 5. (This does not imply anything special.)"])
+D2[/Did the cluer have a play or a safe discard?\]
+D2Y(Yes)
+D2N(No)
+D3[/Was there any other _Play Clue_ or _Save Clue_ that the cluer could have given instead?\]
+D3Y(Yes)
+D3N(No)
+D4[/Was the only thing left to do was to give a _Play Clue_ to a card on _Finesse Position_?\]
+D4Y(Yes)
+D4N(No)
+D5[/Were there any other 5's that were closer to chop than this one?\]
+D5Y(Yes)
+D5N(No)
+D5NL(["It is a _5 stall_. (It is an early save on the 5 and does not imply anything special.)"])
+D6[/Was the right-most 5 one-away from chop?\]
+D6Y(Yes)
+D6N(No)
+D6YL(["It is an _Early 5's Chop Move_. (They should _Chop Move_ the card to the right of the 5.)"])
+D6NL(["It is a _5 Pull_. (They should blind-play the card to the right of the 5.)"])
+
+S --> D1;
+D1 --> D1Y;
+D1 --> D1N;
+D1Y --> D1YL;
+D1N --> D2;
+D2 --> D2Y;
+D2 --> D2N;
+D2Y --> D6;
+D2N --> D3;
+D3 --> D3Y;
+D3 --> D3N;
+D3Y --> D4;
+D3N --> D5;
+D4 --> D4N;
+D4 --> D4Y;
+D4Y --> D5;
+D4N --> D6;
+D5 --> D5Y;
+D5 --> D5N;
+D5Y --> D6NL;
+D5N --> D5NL;
+D6 --> D6Y;
+D6 --> D6N;
+D6Y --> D6YL;
+D6N --> D6NL;
+```
 
 ### Interaction Between 2 Saves & 5 Stalls
 
