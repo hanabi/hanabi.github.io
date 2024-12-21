@@ -58,20 +58,20 @@ This process is represented in the following flowchart:
 ```mermaid
 flowchart TD;
 
-S([A clue is given.<br />What card is focused?])
+S(A clue is given.<br />What card is focused?)
 D1[/Did it touch one or more previously untouched cards?\]
-D1Y(Yes)
-D1N(No)
-D1NL([The focus is on the left-most card.])
+D1Y([Yes])
+D1N([No])
+D1NL(The focus is on the **left-most** card.)
 D2[/Did it touch exactly one previously untouched card?\]
-D2Y(Yes)
-D2N(No)
-D2YL([The focus is on the brand-new card.])
+D2Y([Yes])
+D2N([No])
+D2YL(The focus is on the **brand-new** card.)
 D3[/Did it touch the chop card?\]
-D3Y(Yes)
-D3N(No)
-D3YL([The focus is on the chop card.])
-D3NL([The focus is on the left-most card.])
+D3Y([Yes])
+D3N([No])
+D3YL(The focus is on the **chop** card.)
+D3NL(The focus is on the **left-most** card.)
 
 class D1Y,D2Y,D3Y node-yes
 class D1N,D2N,D3N node-no
