@@ -21,6 +21,8 @@
   /* Flowchart classes for light theme */
   --flowchart-yes: #88ff88;
   --flowchart-no: #ff8888;
+  --flowchart-dec: #ffffff;
+  --flowchart-act: #ffffff;
 
   /* Hack to increase the spacing between header elements */
   /* (the Infima class name was determined by looking at the CSS calculation in Chrome dev-tools) */
@@ -43,6 +45,8 @@
   /* Flowchart classes for dark theme */
   --flowchart-yes: #008800;
   --flowchart-no: #880000;
+  --flowchart-dec: #000000;
+  --flowchart-act: #000000;
 }
 
 /* ------------------------------------- */
