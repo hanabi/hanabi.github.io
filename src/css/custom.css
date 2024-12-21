@@ -153,3 +153,11 @@ svg.example text.site-theme-text {
 #__docusaurus g.node-no > rect {
   fill: var(--flowchart-no);
 }
+
+#__docusaurus g.node-act > rect {
+  fill: var(--flowchart-act);
+}
+
+#__docusaurus g.node-dec > rect {
+  fill: var(--flowchart-dec);
+}
