@@ -30,9 +30,10 @@ import RankChoice from "./ejections/rank-choice.yml";
 - Many moves result in one or more cards becoming _Chop Moved_. However, what if such a move is used when the _Chop Moved_ card(s) are all trash? The other players can see that this move must have been done for some other reason.
 - In this situation, it should signal an _Ejection_ on the very next player.
 - **Any** move that results in a _Chop Move_ can be used to initiate such an _Ejection_.
-- Duplicated cards can be chop moved for distribution purposes and should not be considered as _Chop Moving_ trash.
-- _Bad Chop Move Ejections_ can be performed throughout the game. (But keep in mind that in the _End-Game_, a player might just be stalling.)
-- Note that sometimes, players perform _Chop Moves_ on the other copy of currently clued cards. This can be useful for distribution purposes, meaning that everyone will have a card to play on the final round of the game. For this reason, a _Bad Chop Move Ejection_ can only be triggered when chop moving cards that have been played already.
+- _Bad Chop Move Ejections_ do not always apply:
+  - In general, _Chop Move_-related clues are turned off as soon as there are no cards left to _Chop Move_. Specifically, this means _one-away-from-playable_ cards that cannot be given a direct _Play Clue_ or _Save Clue_. Thus, if there are no cards left to _Chop Move_, a _Bad Chop Move Ejection_ would transform into something else, like a _Double Ignition_ of some sort.
+  - Sometimes, players perform _Chop Moves_ on the other copy of currently clued cards. This can be useful for distribution purposes, so that everyone will have a card to play on the final round of the game. For this reason, a _Bad Chop Move Ejection_ can only be triggered when _Chop Moving_ cards that have been played already.
+  - Remember that in the _End-Game_, a player that gives a clue that looks like a _Bad Chop Move Ejection_ might just be stalling.
 
 ### The Bad Trash Finesse Ejection / The Bad Trash Bluff Ejection
 
