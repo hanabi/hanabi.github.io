@@ -17,6 +17,8 @@
   --ifm-color-primary-lightest: #e5b4ab;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  /* Flowchart classes for light theme */
   --flowchart-yes: #88ff88;
   --flowchart-no: #ff8888;
 
@@ -37,6 +39,8 @@
   --ifm-color-primary-lightest: #e5b4ab;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+
+  /* Flowchart classes for dark theme */  
   --flowchart-yes: #008800;
   --flowchart-no: #880000;
 }
