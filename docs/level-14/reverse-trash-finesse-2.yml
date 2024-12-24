@@ -1,0 +1,73 @@
+stacks:
+  - r: 1
+  - y: 2
+  - g: 2
+  - b: 2
+  - p: 2
+discarded:
+  - r2
+players:
+  - clueGiver: true
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: 2
+        clue: 2
+        middleNote: (G)
+        below: discards
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+      - type: x
+        above: Red 2
+      - type: x
+      - type: x
+      - type: x
+  - text: After Bob discards green 2...
+    - name: Bob
+      cards:
+        - type: 2
+        clue: 2
+        middleNote: (G)
+        below: discards
+        - type: x
+        above:
+            text:
+              - Chop
+              - Moved
+        - type: x
+        above:
+            text:
+              - Chop
+              - Moved
+        - type: x
+        above:
+            text:
+              - Chop
+              - Moved
+        - type: x
+        above:
+            text:
+              - Chop
+              - Moved
+    - name: Cathy
+      cards:
+        - type: x
+          middleNote: r2?
+        - type: x
+          above: Red 2
+          middleNote: r2?
+        - type: x
+          middleNote: r2?
+        - type: x
+          middleNote: r2?
+        - type: x
+          middleNote: r2?
+        
