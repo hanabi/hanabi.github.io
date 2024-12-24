@@ -36,24 +36,24 @@ players:
       - type: x
       - type: x
         above:
-            text:
-              - Chop
-              - Moved
+          text:
+            - Chop
+            - Moved
       - type: x
         above:
-            text:
-              - Chop
-              - Moved
+          text:
+            - Chop
+            - Moved
       - type: x
         above:
-            text:
-              - Chop
-              - Moved
+          text:
+            - Chop
+            - Moved
       - type: x
         above:
-            text:
-              - Chop
-              - Moved
+          text:
+            - Chop
+            - Moved
   - name: Cathy
     cards:
       - type: x
@@ -67,4 +67,3 @@ players:
         middleNote: r2?
       - type: x
         middleNote: r2?
-        
