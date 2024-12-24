@@ -54,17 +54,17 @@ players:
             text:
               - Chop
               - Moved
-    - name: Cathy
-      cards:
-        - type: x
-          middleNote: r2?
-        - type: x
-          above: Red 2
-          middleNote: r2?
-        - type: x
-          middleNote: r2?
-        - type: x
-          middleNote: r2?
-        - type: x
-          middleNote: r2?
+  - name: Cathy
+    cards:
+      - type: x
+        middleNote: r2?
+      - type: x
+        above: Red 2
+        middleNote: r2?
+      - type: x
+        middleNote: r2?
+      - type: x
+        middleNote: r2?
+      - type: x
+        middleNote: r2?
         
