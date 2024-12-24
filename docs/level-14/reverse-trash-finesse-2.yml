@@ -31,28 +31,25 @@ players:
       - type: x
       - type: x
   - text: After Bob discards green 2...
-    - name: Bob
-      cards:
-        - type: 2
-        clue: 2
-        middleNote: (G)
-        below: discards
-        - type: x
+  - name: Bob
+    cards:
+      - type: x
+      - type: x
         above:
             text:
               - Chop
               - Moved
-        - type: x
+      - type: x
         above:
             text:
               - Chop
               - Moved
-        - type: x
+      - type: x
         above:
             text:
               - Chop
               - Moved
-        - type: x
+      - type: x
         above:
             text:
               - Chop
