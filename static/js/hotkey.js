@@ -75,8 +75,16 @@ function navigateForwards() {
 
 function goToSpecificLevel() {
   // eslint-disable-next-line no-alert
-  const levelString = prompt("Enter the level that you want to go to:");
+  const levelString = prompt(
+    "Enter the level that you want to go to (or p for the learning path):",
+  );
   if (levelString === null || levelString === "") {
+    return;
+  }
+
+  // "p" is short for "Learning Path".
+  if (levelString.toLowerCase() === "p") {
+    globalThis.location.href = "/learning-path/";
     return;
   }
 
