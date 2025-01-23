@@ -1,0 +1,40 @@
+---
+title: Level 6 Challenge Questions
+---
+
+import Question1 from "./level-6-question-1.yml";
+
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+
+These questions are for [level 6](../level-6.mdx) strategies.
+
+## Question 1
+
+<Tabs
+  defaultValue="question1"
+  values={[
+    {label: 'Question', value: 'question1'},
+    {label: 'Solution', value: 'solution1'},
+  ]}>
+<TabItem value="question1">
+
+- Alice has two clued, but otherwise unknown cards in her hand: a blue card in slot 3 and a green card in slot 4.
+- Bob clues 3 to Alice which touches the two clued cards in slots 3 and 4.
+- One of the blue 4 is in the discard pile. The other blue 4 is yet to be drawn from the remaining available cards.
+- What is the meaning of the clue?
+- What is the focus of the clue?
+
+</TabItem>
+<TabItem value="solution1">
+
+- Since Alice cards were already "gotten" when Bob clued, this must be a _Tempo Clue_.
+- The clue gets exactly two new cards to become playable within the next turn.
+- As the last remaining blue 4 is not accounted for, it is not currently possible for a _Prompt_ to get the blue card played at this time.
+- As a result, even though it does not meet the _[Minimum Clue Value Principle](../beginner/minimum-clue-value-principle)_ it is still considered to be "valuable".
+- As a _Tempo Clue_, the focus of the clue is the leftmost, blue 3 card.
+
+</TabItem>
+</Tabs>
+
+<Question1 />
