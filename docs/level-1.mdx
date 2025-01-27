@@ -59,24 +59,20 @@ This process is represented in the following flowchart:
 flowchart TD;
 
 S(A clue is given.<br />What card is focused?)
-D1[/Did it touch one or more previously untouched cards?\]
+D1[/"Did it touch one or more previously untouched card(s)?"\]
 D1Y([Yes])
 D1N([No])
-D1NL(The focus is on the **left-most** card.)
-D2[/Did it touch exactly one previously untouched card?\]
+D1NL("The focus is on the (**left-most**) re-touched card.")
+D2[/"Did it touch the chop card?"\]
 D2Y([Yes])
 D2N([No])
-D2YL(The focus is on the **brand-new** card.)
-D3[/Did it touch the chop card?\]
-D3Y([Yes])
-D3N([No])
-D3YL(The focus is on the **chop** card.)
-D3NL(The focus is on the **left-most** card.)
+D2YL(The focus is on the **chop** card.)
+D2NL("The focus is on the (**left-most**) new card.")
 
-class D1Y,D2Y,D3Y node-yes
-class D1N,D2N,D3N node-no
-class S,D1NL,D2YL,D3YL,D3NL node-act
-class D1,D2,D3 node-dec
+class D1Y,D2Y node-yes
+class D1N,D2N node-no
+class S,D1NL,D2YL,D2NL node-act
+class D1,D2 node-dec
 
 S --> D1;
 D1 --> D1Y;
@@ -86,11 +82,7 @@ D1Y --> D2;
 D2 --> D2Y;
 D2 --> D2N;
 D2Y --> D2YL;
-D2N --> D3;
-D3 --> D3Y;
-D3 --> D3N;
-D3Y --> D3YL;
-D3N --> D3NL;
+D2N --> D2NL;
 ```
 
 ### The Early Game

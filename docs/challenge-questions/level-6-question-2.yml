@@ -1,0 +1,25 @@
+stacks:
+  - r: 4
+  - y: 2
+  - g: 2
+  - b: 2
+  - p: 5
+players:
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: g3
+        clue: 3
+        retouched: true
+  - clueGiver: true
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
