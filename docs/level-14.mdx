@@ -6,6 +6,7 @@ import TrashBluff from "./level-14/trash-bluff.yml";
 import TrashFinesse from "./level-14/trash-finesse.yml";
 import TrashFinesseTwoCards from "./level-14/trash-finesse-two-cards.yml";
 import ReverseTrashFinesse from "./level-14/reverse-trash-finesse.yml";
+import ReverseTrashFinesse2 from "./level-14/reverse-trash-finesse-2.yml";
 import TrashPush from "./level-14/trash-push.yml";
 
 ## Special Moves
@@ -76,13 +77,26 @@ import TrashPush from "./level-14/trash-push.yml";
   - If it is a _Reverse Trash Finesse_, then his 2 is a trash 2 (e.g. green 2). By immediately discarding it, it will prove to Cathy that _she_ has a red 2.
   - Alternatively, if Bob does indeed have the red 2, then he can discard it to perform a _Gentleman's Discard_ on Cathy.
   - Either way, discarding will cover both cases. Bob discards the 2 and it is revealed to be a green 2.
-  - Cathy comes next. Cathy was highly surprised when Alice gave Bob a number 2 clue on the green 2. From Cathy's perspective of Bob's perspective, the green 2 clue would immediately misplay as red 2. However, when Bob discards the green 2 instead of playing it, Alice's plan becomes clear. Cathy had the red 2 all along. Cathy blind-plays her _Finesse Position_ card as red 2.
+  - Cathy comes next. She was highly surprised when Alice gave Bob a number 2 clue on the green 2. From Cathy's perspective of Bob's perspective, the green 2 would immediately misplay as red 2. However, when Bob discards the green 2 instead of playing it, Alice's plan becomes clear. Cathy had the red 2 all along. Cathy blind-plays her _Finesse Position_ card as red 2.
   - Because this was a _Trash Finesse_, Bob _Chop Moves_ slot 2, slot 3, slot 4, and slot 5.
 
 <ReverseTrashFinesse />
 
+- _Reverse Trash Finesses_ **must** contain a "potential _Gentleman's Discard_". In other words, it is not possible to perform a _Reverse Trash Finesse_ that causes a matching critical card to blind-play.
+  - For level 18 players, this concept is fleshed out more in the [_Trash Touch Elimination_](level-18.mdx#trash-touch-elimination-tte) section, but this is not necessary to understand the rule.
+- For example, in 3-player game:
+  - The red 1 is played on the stacks. All of the 2's are played on the other stacks. One copy of the red 2 is in the discard pile.
+  - Alice clues number 2 to Bob, touching his slot 1 card as a _Play Clue_.
+  - Bob's first thought is that this is a _Play Clue_ on the red 2 (which is the final 2 that needs to be played).
+  - However, Bob sees both copies of the red 2. One is in the discard pile and the other is in Cathy's hand. That means that Bob's 2 cannot possibly be the red 2. Thus, Bob knows that this his 2 is trash.
+  - Bob discards his 2, understanding that Alice performed a [_Trash Chop Move_](level-4.mdx#the-trash-chop-move-tcm).
+  - Cathy was highly surprised when Alice gave Bob a number 2 clue on the green 2. From Cathy's perspective of Bob's perspective, the green 2 would immediately misplay as red 2. However, when Bob discards the green 2 instead of playing it, Cathy knows that something else is happening.
+  - Cathy's first thought is that this is a _Reverse Trash Finesse_ (and that she should play the red 2 from her _Finesse Position_).
+  - However, Cathy knows that _Reverse Trash Finesses_ must have a _Gentleman's Discard_ component, and it is not possible to _Gentleman's Discard_ a critical red 2. Thus, Cathy just assumes that she has a red 2 somewhere in her hand, and discards.
+
+<ReverseTrashFinesse2 />
+
 - Note that _Reverse Trash Finesses_ should not always be entertained and **depend on context**. Specifically, towards the end of the game, _Reverse Trash Finesses_ are "turned off". This is because towards the end of the game, the team needs _Tempo_, and _Reverse Trash Finesses_ are slow and require even more discarding.
-- For level 18 players, note that Reverse Trash Finesses can conflict with [Trash Touch Elimination](level-18.mdx#trash-touch-elimination-tte). Specifically, if the represented card satisfies the "1 copy left" rule, then the Reverse Trash Finesse will no longer work and the person with the critical card will write _Trash Touch Elimination Notes_ instead.
 
 ### The Trash Bluff
 
