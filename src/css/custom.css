@@ -23,6 +23,7 @@
   --flowchart-no: #fc9f9f;
   --flowchart-dec: #faf593;
   --flowchart-act: #f9b1fc;
+  --flowchart-con: #ccb1fc;
 
   /* Hack to increase the spacing between header elements */
   /* (the Infima class name was determined by looking at the CSS calculation in Chrome dev-tools) */
@@ -47,6 +48,7 @@
   --flowchart-no: #ba2d20;
   --flowchart-dec: #8c5f0a;
   --flowchart-act: #206e6e;
+  --flowchart-con: #5d3a9b;
 }
 
 /* ------------------------------------- */
@@ -160,4 +162,8 @@ svg.example text.site-theme-text {
 
 #__docusaurus g.node-dec > :is(rect, circle, ellipse, polygon, path) {
   fill: var(--flowchart-dec);
+}
+
+#__docusaurus g.node-con > :is(rect, circle, ellipse, polygon, path) {
+  fill: var(--flowchart-con);
 }
