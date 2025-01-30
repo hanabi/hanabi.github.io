@@ -55,7 +55,8 @@ Here is a flowchart for determining whether something is a _Scream Discard Chop 
 ```mermaid
 flowchart TD;
 
-S("Alice discards with a known-play. (Or, Alice has a known-safe discard and discards her chop instead.)")
+S1("Alice discards with a known-play. (Or, Alice has a known-safe discard and discards her chop instead.)")
+S2("This is an emergency!")
 D1[/Does Bob have a known-play or a known-safe discard?\]
 D1Y([Yes])
 D1N([No])
@@ -81,7 +82,8 @@ class D1N,D2N,D3N,D4N,D5N node-no
 class D1,D2,D3,D4,D5 node-dec
 class S,D3NL,D3YL,D5YL,D4YL node-act
 
-S-- This is an emergency! ---D1;
+S1 --> S2;
+S2 --> D1;
 D1 --> D1N;
 D1 --> D1Y;
 D1N --> D2;
