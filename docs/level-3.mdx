@@ -5,6 +5,7 @@ title: Level 3 - Basic Strategy
 import PlayingMultiple1s1 from "./level-3/playing-multiple-1s-1.yml";
 import PlayingMultiple1s2 from "./level-3/playing-multiple-1s-2.yml";
 import PlayingMultiple1s3 from "./level-3/playing-multiple-1s-3.yml";
+import Clue1Stacking from "./level-3/1-clue-stacking.yml";
 import FixClue1 from "./level-3/fix-clue-1.yml";
 import FixClue2 from "./level-3/fix-clue-2.yml";
 import FixClue3 from "./level-3/fix-clue-3.yml";
@@ -40,11 +41,12 @@ import InformationLock from "./level-3/information-lock.yml";
 - However, what if there is a **mix** of starting hand 1s and non-starting hand 1s? Then, things get a little more complicated.
 - In this situation, we call the non-starting hand 1s "fresh" 1s. It makes sense that fresh 1s would be more important than non-fresh 1s, because otherwise the non-fresh 1s might have been clued earlier.
 - Thus, freshly drawn 1's should always be played before non-fresh 1's.
-- Continuing on from the example in the previous section, imagine that:
-  - Bob plays his slot 4 card. It is a red 1 and it successfully plays. (He then draws a card, and all of the other cards in his hand slide over.)
-  - Alice clues 1's to Bob, which touches a new card on slot 1 and re-touches the ones on slot 3 and slot 4.
+- For example:
+  - Alice clues Bob red, touching red 3 on slot 1 and red 1 on chop.
+  - Bob plays the chop red card. It successfully plays as red 1. (He then draws a card, and all of the other cards in his hand slide over.) Cathy does something unrelated.
+  - Alice clues 1's to Bob, which touches three new card on slot 1, slot 3 and slot 4.
   - Bob knows that fresh 1's have precedence, so he plays the slot 1 card next.
-  - After that, Bob resumes the play order from before, playing the slot 4 card, and then the slot 3 card.
+  - After that, Bob plays the 1s from his starting hand from right to left, that is, slot 4 then the slot 3 card.
 
 <PlayingMultiple1s2 />
 
@@ -67,6 +69,17 @@ import InformationLock from "./level-3/information-lock.yml";
 - In rare scenarios, another number 1 clue may be given before the previously clued 1s have played, to touch fresher 1s drawn by the player.
 - When this happens, the order of playing the newly clued 1s is calculated separately, and is **stacked before** the order of playing the previously clued 1s.
 - The order of playing the newly clued 1s is calculated in a similar fashion - chop 1 followed by fresh 1s.
+- For example
+
+  - Alice clues Bob's 1s with a number 1 clue in his starting hand.
+  - The order of playing these 1s is from right to left. Bob plays the rightmost 1 (drawing a new card in the process). It successfully plays as red 1.
+  - Cathy clues Bob red on the chop card, giving him red 2. Alice does something unrelated.
+  - Bob plays the red 2 (drawing another card). Cathy does something unrelated.
+  - Alice gives Bob a number 1 clue again, touching Bob's two new cards as well as re-touching the 1s from his starting hand.
+  - Bob is surprised to receive two more 1s. He sees that the order of playing the newly clued 1s is slot 2 (Chop-focus exception) then slot 1 (Fresh 1s rule). Bob stacks this order before the old order, now making the order of playing 1s slot 2, slot 1, slot 5, slot 4 and slot 3.
+  - Bob also knows that the 1 on slot 3 will never play, so he marks it as known-trash.
+
+<Clue1Stacking />
 
 ### The Fix Clue
 

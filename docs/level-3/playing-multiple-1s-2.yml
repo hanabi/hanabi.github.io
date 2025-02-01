@@ -17,21 +17,22 @@ players:
         clue: 1
         middleNote: 1st
         below: Fresh
-      - type: x
+      - type: r
+        middleNote: (3)
       - type: 1
         clue: 1
-        retouched: true
         middleNote: 3rd
         below:
           text:
-            - Already
-            - clued
+            - Starting
+            - Hand
+          color: gray
       - type: 1
         clue: 1
-        retouched: true
         middleNote: 2nd
         below:
           text:
-            - Already
-            - clued
+            - Starting
+            - Hand
+          color: gray
       - type: x
