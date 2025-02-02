@@ -59,15 +59,15 @@ This process is represented in the following flowchart:
 flowchart TD;
 
 S(A clue is given.<br />What card is focused?)
-D1[/"Did it touch one or more previously untouched card(s)?"\]
+D1[/Did it touch one or more cards for the first time?\]
 D1Y([Yes])
 D1N([No])
-D1NL("The focus is on the (**left-most**) re-touched card.")
-D2[/"Did it touch the chop card?"\]
+D1NL(The focus is on the left-most re-touched card.)
+D2[/Was the chop card touched for the first time?\]
 D2Y([Yes])
 D2N([No])
-D2YL(The focus is on the **chop** card.)
-D2NL("The focus is on the (**left-most**) new card.")
+D2YL(The focus is on the chop card.)
+D2NL(The focus is on the left-most newly-touched card.)
 
 class D1Y,D2Y node-yes
 class D1N,D2N node-no

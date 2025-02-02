@@ -128,7 +128,130 @@ import TrustFinesse from "./level-25/trust-finesse.yml";
 
 ### A Priority Flowchart (for Choosing Between 2+ Playable Cards)
 
-_Priority_ can be confusing. [Here is a flowchart](https://raw.githubusercontent.com/hanabi/hanabi.github.io/main/static/img/flowcharts/priority-flowchart.png) that shows, in general, which card should be played when there is a choice between two cards.
+Priority can be confusing. Here is a flowchart that shows, in general, which card should be played when there is a choice between two cards:
+
+```mermaid
+flowchart TD;
+
+S(Alice has a choice between two playable cards in her hand.)
+D1[/"Are both options 'blind-plays'?"\]
+D1Y([Yes])
+D1N([No])
+D2[/Could either option be hidden inside a _Layered Finesse_\]
+D2Y([Yes])
+D2N([No])
+D3[/"Is one option a blind-play?"\]
+D3Y([Yes])
+D3N([No])
+D4[/Is one or more blind-plays from a _Gentleman's Discard_?\]
+D4Y([Yes])
+D4N([No])
+D5[/Do both cards lead into _Finessed_ or known clued cards in other people's hands?\]
+D5Y([Yes])
+D5N([No])
+D6[/Does one card lead into a _Finesse_ while the other does not?\]
+D6Y([Yes])
+D6N([No])
+D7[/Does one card lead into a _Finesse_ or a known clued card in someone else's hand?\]
+D7Y([Yes])
+D7N([No])
+D8[/Does one card lead into a card in their own hand?\]
+D8Y([Yes])
+D8N([No])
+D9[/Are both of the cards the same rank?\]
+D9Y([Yes])
+D9N([No])
+D10[/Is one of the cards a 5?\]
+D10Y([Yes])
+D10N([No])
+D11[/Does the card without *Priority* lead to an unclued card on someone's _Finesse Position_?\]
+D11Y([Yes])
+D11N([No])
+D12[/Does the card without *Priority* lead to a clued card in someone else's hand that they don't yet know the identity of?\]
+D12Y([Yes])
+D12N([No])
+D13[/Is there an unrelated playable card on the next person's _Finesse Position_?\]
+D13Y([Yes])
+D13N([No])
+C1{{Alice knows that the card that leads into the other hand has _Priority_.<br/ ><br/ >Not playing it would lose tempo.}}
+C2{{Alice knows that the card that leads into her own hand has _Priority_.<br/ ><br/ >That way the suit can play into someone else's hand faster.}}
+C3{{Alice knows that the left-most card has _Priority_.<br/ ><br/ >This follows from _Left-Most Playable Principle_.}}
+C4{{"Alice knows that the 5 has _Priority_.<br/ ><br/ >Playing a 5 gives the team a free clue and is quite useful."}}
+C5{{Alice knows that the lower-rank card has _Priority_.<br/ ><br/ >Lower stacks take longer to fill up.}}
+D2YL("Alice should blind-play the card from the _Finesse_ that happened first.<br/ ><br/ >Because _Layered Finesses_ exist, players must unwrap the layer in order from left to right without jumping ahead.")
+D4NL("Alice should play the blind card.<br/ ><br/ >Playing blind cards demonstrates that you got a _Finesse_ and is very important.")
+D6YL(Alice should play the card that leads into the _Finesse_.<br/ ><br/ >It is important for Finesses to resolve as quickly as possible.)
+D6NL(Alice knows that both cards have equal _Priority_.<br/ ><br/ >She can play whichever one she determines is more important.)
+D11YL("Alice should play the card WITHOUT _Priority_.<br/ ><br/ >This would get the unclued card as a _Priority Finesse_.")
+D12YL("Alice should play the card WITHOUT _Priority_.<br/ ><br/ >This would get the clued card as a _Priority Prompt_.")
+D13YL("Alice should play the card WITHOUT _Priority_.<br/ ><br/ >This would get the unclued card as a _Priority Bluff_.")
+D13NL(Alice should play the card with _Priority_.<br/ ><br/ >This is what all of her teammates expect.)
+
+class D1Y,D2Y,D3Y,D4Y,D5Y,D6Y,D7Y,D8Y,D9Y,D10Y,D11Y,D12Y,D13Y node-yes
+class D1N,D2N,D3N,D4N,D5N,D6N,D7N,D8N,D9N,D10N,D11N,D12N,D13N node-no
+class D1,D2,D3,D4,D5,D6,D7,D8,D9,D10,D11,D12,D13 node-dec
+class S,D2YL,D4NL,D6YL,D6NL,D11YL,D12YL,D13YL,D13NL node-act
+class C1,C2,C3,C4,C5 node-con
+
+S --> D1;
+D1 --> D1N;
+D1 --> D1Y;
+D1N --> D3;
+D1Y --> D2;
+D2 --> D2N;
+D2 --> D2Y;
+D2N --> D4;
+D3 --> D3N;
+D3 --> D3Y;
+D3Y --> D4;
+D3N --> D5;
+D4 --> D4Y;
+D4 --> D4N;
+D4Y --> D5;
+D5 --> D5Y;
+D5 --> D5N;
+D5Y --> D6;
+D5N --> D7;
+D6 --> D6Y;
+D6 --> D6N;
+D7 --> D7Y;
+D7 --> D7N;
+D7N --> D8;
+D8 --> D8Y;
+D8 --> D8N;
+D8N --> D9;
+D9 --> D9Y;
+D9 --> D9N;
+D9N --> D10;
+D10 --> D10Y;
+D10 --> D10N;
+D7Y --> C1;
+D8Y --> C2;
+D9Y --> C3;
+D10Y --> C4;
+D10N --> C5;
+C1 --> D11;
+C2 --> D11;
+C3 --> D11;
+C4 --> D11;
+C5 --> D11;
+D11 --> D11Y;
+D11 --> D11N;
+D11N --> D12;
+D12 --> D12Y;
+D12 --> D12N;
+D12N --> D13;
+D13 --> D13Y;
+D13 --> D13N;
+D2Y --> D2YL;
+D4N --> D4NL;
+D6Y --> D6YL;
+D6N --> D6NL;
+D11Y --> D11YL;
+D12Y --> D12YL;
+D13Y --> D13YL;
+D13N --> D13NL;
+```
 
 ### Priority with Blind-Plays
 
