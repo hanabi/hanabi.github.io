@@ -1,38 +1,33 @@
 import type { WrapperProps } from "@docusaurus/types";
 import Mermaid from "@theme-original/Mermaid";
 import type MermaidType from "@theme/Mermaid";
-import React, {
-  useEffect,
-  useLayoutEffect,
-  useRef,
-  useState,
-  type ReactNode,
-} from "react";
-
-import {
-  ReactZoomPanPinchContentRef,
-  TransformComponent,
-  TransformWrapper,
-} from "react-zoom-pan-pinch";
+import type { ReactNode } from "react";
+import React, { useEffect, useLayoutEffect, useRef, useState } from "react";
+import type { ReactZoomPanPinchContentRef } from "react-zoom-pan-pinch";
+import { TransformComponent, TransformWrapper } from "react-zoom-pan-pinch";
 
 type Props = WrapperProps<typeof MermaidType>;
 
-type Size = {
+interface Size {
   width: number;
   height: number;
-};
+}
 
 function useSize(ref: React.RefObject<HTMLElement>): Size {
   const [size, setSize] = useState<Size>({ width: 1, height: 1 });
   useLayoutEffect(() => {
-    if (!ref.current) return;
-    let r = ref.current!;
-    let observer = new ResizeObserver(() => {
-      let rect = r.getBoundingClientRect();
+    if (!ref.current) {
+      return undefined;
+    }
+    const r = ref.current;
+    const observer = new ResizeObserver(() => {
+      const rect = r.getBoundingClientRect();
       setSize(rect);
     });
     observer.observe(r);
-    return () => observer.disconnect();
+    return () => {
+      observer.disconnect();
+    };
   }, [ref]);
   return size;
 }
@@ -47,7 +42,9 @@ export default function MermaidWrapper(props: Props): ReactNode {
   const transformWrapper = useRef<ReactZoomPanPinchContentRef>(null);
 
   useEffect(() => {
-    transformWrapper.current!.zoomToElement(chart.current!, undefined, 0);
+    if (transformWrapper.current !== null && chart.current !== null) {
+      transformWrapper.current.zoomToElement(chart.current, undefined, 0);
+    }
   }, [containerSize, chartSize]);
 
   return (
