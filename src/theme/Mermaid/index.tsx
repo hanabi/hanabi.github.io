@@ -58,6 +58,7 @@ export default function MermaidWrapper(props: Props): ReactNode {
             wrapperStyle={{
               width: "100%",
               aspectRatio: chartSize.width / chartSize.height,
+              maxHeight: "75vh",
             }}
           >
             <div ref={chart}>
