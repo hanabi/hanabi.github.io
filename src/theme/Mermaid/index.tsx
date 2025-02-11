@@ -8,6 +8,10 @@ import { TransformComponent, TransformWrapper } from "react-zoom-pan-pinch";
 
 type Props = WrapperProps<typeof MermaidType>;
 
+const CONFIG = {
+  scroll_step: 0.5,
+} as const;
+
 interface Size {
   width: number;
   height: number;
@@ -50,7 +54,13 @@ export default function MermaidWrapper(props: Props): ReactNode {
   return (
     <>
       <div ref={container}>
-        <TransformWrapper ref={transformWrapper}>
+        <TransformWrapper
+          ref={transformWrapper}
+          wheel={{
+            step: CONFIG.scroll_step,
+            smoothStep: CONFIG.scroll_step / 200,
+          }}
+        >
           <TransformComponent
             wrapperStyle={{
               width: "100%",
