@@ -10,7 +10,7 @@ type Props = WrapperProps<typeof MermaidType>;
 
 const CONFIG = {
   scroll_step: 0.5,
-};
+} as const;
 
 interface Size {
   width: number;
