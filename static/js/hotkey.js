@@ -32,14 +32,7 @@ function main() {
 
 /** @returns {boolean} */
 function isSearchBarFocused() {
-  // eslint-disable-next-line unicorn/prefer-spread
-  const searchInputElements = Array.from(
-    document.querySelectorAll(".DocSearch-Input"),
-  );
-  return (
-    document.activeElement !== null &&
-    searchInputElements.includes(document.activeElement)
-  );
+  return document.activeElement instanceof HTMLInputElement;
 }
 
 function navigateBackwards() {
