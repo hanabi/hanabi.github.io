@@ -76,8 +76,9 @@ function goToSpecificLevel() {
     return;
   }
 
-  // "p" is short for "Learning Path".
-  if (levelString.toLowerCase() === "p") {
+  // The Learning Path is also a common destination, so we provide a dedicated hotkey for this.
+  const levelLowerCase = levelString.toLowerCase();
+  if (levelLowerCase === "p" || levelLowerCase === "path") {
     globalThis.location.href = "/learning-path/";
     return;
   }
