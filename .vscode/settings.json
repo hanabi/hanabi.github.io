@@ -27,7 +27,7 @@
     "**/.yarn/": true,
     "**/dist/": true,
     "**/node_modules/": true,
-    "bun.lockb": true,
+    "bun.lock": true,
     "LICENSE": true,
     "package-lock.json": true,
     "pnpm-lock.yaml": true,

@@ -10,11 +10,10 @@
     "docusaurus": "docusaurus",
     "format": "prettier --write .",
     "lint": "tsx --tsconfig ./scripts/tsconfig.json ./scripts/lint.mts",
-    "nuke": "isaacscript nuke",
     "serve": "docusaurus serve",
     "start": "npm run compile-plugin && docusaurus start",
     "swizzle": "docusaurus swizzle",
-    "update": "isaacscript update"
+    "update": "complete-cli update"
   },
   "browserslist": {
     "production": [
@@ -46,10 +45,10 @@
   },
   "devDependencies": {
     "@docusaurus/tsconfig": "^3.7.0",
+    "complete-cli": "^1.0.1",
     "complete-lint": "^1.12.2",
     "complete-node": "^1.7.4",
     "glob": "^11.0.1",
-    "isaacscript": "^5.2.4",
     "typescript": "^5.7.3",
     "webpack": "^5.97.1"
   }

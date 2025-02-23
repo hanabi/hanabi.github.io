@@ -30,11 +30,9 @@ await lintScript(async () => {
     $`cspell-check-unused-words`,
 
     // Check for template updates.
-    $`isaacscript check-ts --ignore build.ts,knip.config.js,LICENSE,lint.ts`,
+    $`complete-cli check --ignore build.ts,knip.config.js,LICENSE,lint.ts`,
 
-    // @template-customization-start
     checkUnusedYAMLFiles(),
-    // @template-customization-end
   ]);
 });
 
