@@ -36,20 +36,20 @@
     "core-js": "^3.40.0",
     "prism-react-renderer": "^2.4.1",
     "raw-loader": "^4.0.2",
-    "react": "18.3.1",
-    "react-circular-progressbar": "^2.1.0",
-    "react-dom": "18.3.1",
+    "react": "19.0.0",
+    "react-circular-progressbar": "^2.2.0",
+    "react-dom": "19.0.0",
     "react-zoom-pan-pinch": "^3.7.0",
     "yaml": "^2.7.0",
-    "zod": "^3.24.1"
+    "zod": "^3.24.2"
   },
   "devDependencies": {
     "@docusaurus/tsconfig": "^3.7.0",
-    "complete-cli": "^1.0.1",
-    "complete-lint": "^1.12.2",
-    "complete-node": "^1.7.4",
+    "complete-cli": "^1.0.10",
+    "complete-lint": "^1.14.1",
+    "complete-node": "^3.1.0",
     "glob": "^11.0.1",
     "typescript": "^5.7.3",
-    "webpack": "^5.97.1"
+    "webpack": "^5.98.0"
   }
 }

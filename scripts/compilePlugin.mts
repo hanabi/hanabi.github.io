@@ -1,13 +1,13 @@
-import { $op, isDirectory, isMain } from "complete-node";
+import { $, isDirectory, isMain } from "complete-node";
 import path from "node:path";
 
 if (isMain()) {
   const packageRoot = path.join(import.meta.dirname, "..");
-  compilePlugin(packageRoot);
+  await compilePlugin(packageRoot);
 }
 
 /** Compile the "hanabiDocusaurusPlugin" plugin. */
-export function compilePlugin(packageRoot: string): void {
+export async function compilePlugin(packageRoot: string): Promise<void> {
   const pluginDir = path.join(
     packageRoot,
     "plugins",
@@ -18,6 +18,6 @@ export function compilePlugin(packageRoot: string): void {
     throw new Error(`The plugin directory does not exist: ${pluginDir}`);
   }
 
-  const $$ = $op({ cwd: pluginDir });
-  $$.sync`tsc`;
+  const $$ = $({ cwd: pluginDir });
+  await $$`tsc`;
 }
