@@ -69,7 +69,7 @@ import TrashTouchEliminationInteraction from "./level-18/trash-touch-elimination
 ### The Elimination Play Clue
 
 - A clue that touches multiple cards only has one focus. As you probably know, if the chop card was not touched, then the focus is the leftmost card.
-- However, this rule does not apply if a clue singles out a playable card from _Elimination_. In this case, the card is only focused on the _Elimination_ card, and any other cards touched are not necessarily playable right now.
+- However, this rule does not apply if a clue singles out an immediately playable card from _Elimination_. In this case, the card is only focused on the _Elimination_ card, and any other cards touched are not necessarily playable right now.
 - For example, in a 3-player game:
   - Red 1 and blue 1 are played on the stacks.
   - Alice has both red 2's in her hand on slot 2 and slot 5. (Alice's chop is her slot 5.)
@@ -80,6 +80,8 @@ import TrashTouchEliminationInteraction from "./level-18/trash-touch-elimination
   - Alice knows that the point of the clue was only to get the red 2. Her cards in slots 1 and 4 can be any 2's in the game and are not necessarily playable right now.
 
 <EliminationPlayClue />
+
+- Note: A clue that touches multiple new cards is to be treated as an _Elimination Play Clue_ only if it singles out a card with an _Elimination Note_ on it for an **immediately** playable card, meaning _Elimination Play Clues_ cannot be entertained as a _Delayed Play Clue_, a _Prompt Clue_ or a _Finesse Clue_.
 
 ### Interaction Between Elimination & Chop-Focus
 
