@@ -42,8 +42,10 @@ players:
         above: Chop
       - type: m
         clue: b
+        retouched: true
       - type: m
         clue: b
+        retouched: true
       - type: b
         clue: b
         below: Focus
