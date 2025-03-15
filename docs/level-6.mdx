@@ -5,6 +5,7 @@ title: Level 6 - Tempo Clues
 import TempoClueChopMovePart1 from "./level-6/tempo-clue-chop-move-part-1.yml";
 import TempoClueChopMovePart2 from "./level-6/tempo-clue-chop-move-part-2.yml";
 import DiscardModulation from "./level-6/discard-modulation.yml";
+import TempoClueChopMoveTrash from "./level-6/tempo-clue-chop-move-trash.yml";
 
 ## Special Moves
 
@@ -59,6 +60,27 @@ import DiscardModulation from "./level-6/discard-modulation.yml";
 - _Chop Moves_ interact with _Tempo Clues_ in a potentially confusing way. When a _Play Clue_ is given that touches a _Chop Moved_ card for the first time, it is **not** considered to be _Tempo Clue_, even though _Chop Moved_ cards are imagined to have an "invisible" clue on them. Instead, this would be categorized a normal _Play Clue_.
   - The reason for this is kind of technical. A _Tempo Clue_ is defined as a 0-for-1 because all clued cards will "automatically" play on the stacks from _Good Touch Principle_. However, there is not an analogous principle for _Chop Moved_ cards - they will not automatically play on the stacks. Thus, a _Play Clue_ to a _Chop Moved_ card would be a 1-for-1.
 - In the _Early Game_, players must exhaust all _Play Clues_ and _Save Clues_ that satisfy _Minimum Clue Value Principle_. Since clues to playable _Chop Moved_ cards count as normal _Play Clues_, it follows that players are are obligated to give these kinds of clues before ending the _Early Game_.
+
+### The Ambiguous Tempo Clue Chop Move
+
+- _Trash_ cards may interact with _Tempo Clues_ in a potentially confusing way.
+- Consider the following situation:
+
+  - The red 1 card is played on the stacks.
+  - Alice has a red card in slot 3, known to be a playable red 4.
+  - Bob has an unknown 5, saved on chop.
+  - Cathy has a red card in slot 2, known to a a playable red 3.
+  - Alice then gives a red clue to Bob, that touches a red card on slot 1 and fills-in the previously unknown red 5 in slot 5.
+
+<TempoClueChopMoveTrash />
+
+- In this situation, the focus of the red clue is ambiguous:
+
+  - If the red clue were focused on the "new" slot 1 card, then the focus would be _Trash_, so the resulting move would be a _Trash Chop Move_ on slots 2 and 3.
+  - If the red clue were focused on the already-clued slot 5, then the focus would be the previously-unknown-to-be-playable red 5, so the resulting move would be a _Tempo Clue Chop Move_ on slot 3.
+  - We agree that _Tempo Clue Chop Moves_ have precedence over _Trash Chop Moves_. Thus, in this situation, Bob should only _Chop Move_ one card.
+  - This follows from our general approach of "when interpreting an ambiguous clue, use the most conservative interpretation possible".
+
 
 ### Focus Shifting
 
