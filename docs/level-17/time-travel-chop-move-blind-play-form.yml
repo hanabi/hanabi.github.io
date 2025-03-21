@@ -19,6 +19,7 @@ players:
         below: plays
       - type: r3
         clue: 3
+        retouched: true
       - type: x
       - type: x
       - type: x
