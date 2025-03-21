@@ -20,10 +20,6 @@ players:
       - type: x
       - type: x
       - type: x
-        above:
-          text:
-            - Chop
-            - Moved
       - type: r5
         clue: r
         retouched: true
