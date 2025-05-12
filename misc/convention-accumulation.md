@@ -22,7 +22,7 @@ So even if you can understand and empathize with the history of the long convent
 
 But there are some important counterpoints:
 
-### 1) Advanced conventions are "turned off" when playing with beginners\*\*
+### 1) Advanced conventions are "turned off" when playing with beginners
 
 Beginners don't have to worry about learning everything all at once, because we will "turn off" all of the advanced stuff so that the beginner can focus on the fundamentals.
 
