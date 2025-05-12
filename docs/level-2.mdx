@@ -118,10 +118,26 @@ import WrongPrompt from "./level-2/wrong-prompt.yml";
 
 ### Trash
 
-- _Trash_ cards are defined as cards that have already been played or clued. Thus, they are useless to the team.
+- _Trash_ cards are defined as cards that can never play on the stacks or cards that have another copy that is clued in someone's hand. Thus, _Trash_ cards are useless to the team.
 - Players should generally avoid "touching" trash cards with a clue, as doing so would violate _Good Touch Principle_.
   - Rarely, it can be useful to deliberately clue a trash card and violate _Good Touch Principle_ in order to perform a special move. Several such moves are covered later on.
 - In the case where a suit is partially "dead", the unneeded cards are also considered trash. For example, if both copies of the red 3 have been discarded, then the red 4 and the red 5 are both considered trash.
+
+### One-Away-From-Playable Cards
+
+- As noted in the previous section, sometimes unclued cards happen to be _playable_.
+- Additionally, sometimes unclued cards happen to be _one-away-from-playable_.
+- A card is _one-away-from-playable_ if only one other card would need to be given a _Play Clue_ or a _Delayed Play Clue_ in order to make the card _playable_.
+- For example, in a 3-player game:
+  - No red cards are played on the stacks.
+  - No player has any red 1's in their hand.
+  - Bob has a red 2 with a number 2 clue on it. (It was saved with a _2 Save_ clue earlier on.)
+  - Cathy has an unclued red 3 in her hand.
+  - Alice knows that the unclued red 3 is currently _one-away-from-playable_, because there is only one card needed in order to make it _playable_ - the red 1.
+- As a category, _one-away-from-playable_ cards are interesting:
+  - They are not valuable enough to warrant cluing them directly. (In other words, they are not legal targets for _Play Clues_ or _Save Clues_, so we must let them get discarded.)
+  - They are more valuable than _two-away-from-playable_ cards, because they could become _playable_ at a moment's notice.
+- For this reason, even though _one-away-from-playable_ cards cannot be given clues, players try to keep them around for as long as possible.
 
 ## Common Mistakes
 

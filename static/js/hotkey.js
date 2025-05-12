@@ -18,8 +18,8 @@ function main() {
       return;
     }
 
-    // Do not do anything if we have the search box focused.
-    if (isSearchBarFocused()) {
+    // Do not do anything if we are typing in an input field.
+    if (isInputFocused()) {
       return;
     }
 
@@ -31,15 +31,9 @@ function main() {
 }
 
 /** @returns {boolean} */
-function isSearchBarFocused() {
-  // eslint-disable-next-line unicorn/prefer-spread
-  const searchInputElements = Array.from(
-    document.querySelectorAll(".DocSearch-Input"),
-  );
-  return (
-    document.activeElement !== null &&
-    searchInputElements.includes(document.activeElement)
-  );
+function isInputFocused() {
+  // Checking for input elements is more robust than specifically matching the standard search bar.
+  return document.activeElement instanceof HTMLInputElement;
 }
 
 function navigateBackwards() {
@@ -82,8 +76,9 @@ function goToSpecificLevel() {
     return;
   }
 
-  // "p" is short for "Learning Path".
-  if (levelString.toLowerCase() === "p") {
+  // The Learning Path is also a common destination, so we provide a dedicated hotkey for this.
+  const levelLowerCase = levelString.toLowerCase();
+  if (levelLowerCase === "p" || levelLowerCase === "path") {
     globalThis.location.href = "/learning-path/";
     return;
   }

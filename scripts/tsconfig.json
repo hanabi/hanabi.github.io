@@ -11,5 +11,5 @@
   ],
 
   // @template-ignore-next-line
-  "include": ["*.mts"],
+  "include": ["./**/*.mts"],
 }

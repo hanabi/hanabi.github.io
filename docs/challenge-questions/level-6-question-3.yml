@@ -1,0 +1,32 @@
+stacks:
+  - r: 2
+  - y: 0
+  - g: 0
+  - b: 0
+  - p: 0
+players:
+  - cards:
+      - type: x
+      - type: x
+      - type: r
+        middleNote: (4)
+      - type: x
+      - type: x
+    clueGiver: true
+  - cards:
+      - type: r
+        trash: true
+        clue: r
+      - type: x
+      - type: x
+      - type: x
+      - type: r5
+        clue: r
+        retouched: true
+  - cards:
+      - type: x
+      - type: r
+        middleNote: (3)
+      - type: x
+      - type: x
+      - type: x
