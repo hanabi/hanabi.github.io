@@ -220,8 +220,8 @@ class ImageGenerator {
     const { cards } = player;
 
     this.xOffset =
-      this.xOffsetWherePlayerBegins +
-      HORIZONTAL_SPACING_BETWEEN_PLAYER_NAME_AND_HAND;
+      this.xOffsetWherePlayerBegins
+      + HORIZONTAL_SPACING_BETWEEN_PLAYER_NAME_AND_HAND;
 
     // We need to increase the size of image if there is a tall text box "below" one of cards.
     this.yBelow = 5;
@@ -794,11 +794,11 @@ class ImageGenerator {
     const TEXT_WIDTH = 200;
     const TEXT_HEIGHT = 50;
     const xOfText =
-      (this.suitAbbreviations.length *
-        (CARD_WIDTH + HORIZONTAL_SPACING_BETWEEN_CARDS) -
-        HORIZONTAL_SPACING_BETWEEN_CARDS -
-        TEXT_WIDTH) /
-      2;
+      (this.suitAbbreviations.length
+        * (CARD_WIDTH + HORIZONTAL_SPACING_BETWEEN_CARDS)
+        - HORIZONTAL_SPACING_BETWEEN_CARDS
+        - TEXT_WIDTH)
+      / 2;
     const yOfText = this.leftYOffset;
 
     // Select a specific color for some keywords.
@@ -847,11 +847,11 @@ class ImageGenerator {
     const TRASH_WIDTH = 200;
     const TRASH_HEIGHT = 200;
     const xOfDiscardPile =
-      (this.suitAbbreviations.length *
-        (CARD_WIDTH + HORIZONTAL_SPACING_BETWEEN_CARDS) -
-        HORIZONTAL_SPACING_BETWEEN_CARDS -
-        TRASH_WIDTH) /
-      2;
+      (this.suitAbbreviations.length
+        * (CARD_WIDTH + HORIZONTAL_SPACING_BETWEEN_CARDS)
+        - HORIZONTAL_SPACING_BETWEEN_CARDS
+        - TRASH_WIDTH)
+      / 2;
     const yOfDiscardPile = this.leftYOffset;
 
     this.svgFile.addImage(`${PIECES_PATH}/trashcan.png`, {
