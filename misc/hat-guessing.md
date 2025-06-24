@@ -107,7 +107,7 @@ First, let's go over some _Hat-Guessing_ terminology before getting into the act
 - In _Hat Guessing_, trash cards are called to be discarded.
 - If a non-trash card is called to be discarded, this indicates the presence of the other copy in someone else's hand.
 - When this happens, all players should make _Elimination Notes_ on the relevant cards. (_Elimination Notes_ are a concept borrowed from the _H-Group Convention Framework_.)
-- This convention does not always apply if the discarder is _First Responder_. See _After Executing an Action_.
+- This convention does not always apply if the discarder is the _First Responder_. See _After Executing an Action_.
 - If the other copy is in the same hand as the one that triggered the _Elimination Notes_, then the _Elimination Notes_ should be written to the right of the card. For example, in a 3-player game:
   - It is the first turn of the game and nothing is played on the stacks.
   - Alice gives a _Hat-Guessing_ clue.
