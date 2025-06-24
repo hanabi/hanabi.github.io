@@ -107,6 +107,7 @@ First, let's go over some _Hat-Guessing_ terminology before getting into the act
 - In _Hat Guessing_, trash cards are called to be discarded.
 - If a non-trash card is called to be discarded, this indicates the presence of the other copy in someone else's hand.
 - When this happens, all players should make _Elimination Notes_ on the relevant cards. (_Elimination Notes_ are a concept borrowed from the _H-Group Convention Framework_.)
+- This convention does not always apply if the discarder is the _First Responder_. See _After Executing an Action_.
 - If the other copy is in the same hand as the one that triggered the _Elimination Notes_, then the _Elimination Notes_ should be written to the right of the card. For example, in a 3-player game:
   - It is the first turn of the game and nothing is played on the stacks.
   - Alice gives a _Hat-Guessing_ clue.
@@ -193,8 +194,9 @@ First, let's go over some _Hat-Guessing_ terminology before getting into the act
 ### Giving the Hat-Guessing Clue
 
 - After assigning an instruction to everyone, add up the instruction numbers, and look in the table to see what kind of clue that you should give to convey the specified _Clue Value_.
-  - If you could give the same type of clue to two or more different players, then you should give the clue that would touch the most useful cards or give the most new information.
+  - If you are allowed to give multiple clues, then you should give the clue that would touch the most useful cards or give the most new information.
   - _Good Touch Principle_ (from the _H-Group Convention Framework_) does not apply. You are allowed to touch trash cards if that would give more information to other useful cards.
+  - If you cannot give a legal clue with the desired instruction number, you should assign a different action to the _First Responder_ that does allow for a valid clue (this is unlikely to happen in _No Variant_).
 
 ### Cards That Become Obvious
 
@@ -216,31 +218,32 @@ First, let's go over some _Hat-Guessing_ terminology before getting into the act
 ### First Responder Exception
 
 - The _First Responder_ is usually the player to your left. (If the player to your left has a non-empty _Play Queue_, then it might be a different player.)
-- As a special exception, a clue giver may give **any** play instruction or discard instruction to the _First Responder_. This does not need to follow _Instruction Priority_. (The reason is because they can immediately demonstrate their action to the rest of the team.)
+- As a special exception, a clue giver may give **any** play instruction or new discard instruction to the _First Responder_. This does not need to follow _Instruction Priority_. (The reason is because they can immediately demonstrate their action to the rest of the team.)
+- The clue giver is still not allowed to give a discard instruction on a card that is already known trash (either by a previous discard instruction, or by positive/negative information).
 - For example, in a 3-player No Variant game:
   - It is the first turn of the game and nothing is played on the stacks.
   - Bob's hand is as follows, from newest to oldest: `red 1, yellow 1, green 1, red 3, red 3`
   - Alice knows that normally, the red 1 has play priority, since it is the leftmost 1.
-  - However, Alice also sees that Bob has the yellow 2 in his hand. It would be useful to get the yellow 1 to play before the red 1, so that the team can get the yellow 2 played sooner than later.
+  - However, Alice also sees that Donald has the yellow 2 in his hand. It would be useful to get the yellow 1 to play before the red 1, so that the team can get the yellow 2 played sooner than later.
   - Alice also knows that since Bob is her _First Responder_, she can break the play priority and just get Bob to play any card she wants. Alice will give a play instruction for Bob to play the yellow 1.
 - Unlike play instructions and discard instructions, clue instructions and critical instructions given to the _First Responder_ still have to follow _Instruction Priority_ as per normal.
-- If given a clue instruction or a critical action, the _First Responder_ **must** give a clue.
+- If given a clue instruction or a critical instruction, the _First Responder_ **must** give a clue, or discard a card they already knew was trash.
 - If given a play instruction or a discard instruction, the _First Responder_ **must** respond immediately. They are not allowed to defer this action or discard a different card first.
-- In some cases, this means that the _First Responder_ might need to "jump" ahead of his previous instruction.
+- In some cases, this means that the _First Responder_ might need to "jump" ahead of previous discard instructions.
 - For example, in a 4-player game:
   - All the 1's are played on the stacks.
   - Alice gives a _Hat-Guessing_ clue that instructs Bob to play slot 1, Cathy to clue, and Donald to discard slot 4.
   - Bob blind-plays slot 1. It is a red 2 and successfully plays.
   - From Cathy's perspective, Donald's hand is as follows, from newest to oldest: `red 4, blue 4, red 1, red 1`
-  - Donald already knows that his slot 4 card is trash, and Cathy is not allowed to repeat this instruction, so Cathy needs to tell Donald that his slot 3 card is trash.
+  - Donald already knows that his slot 4 card is trash, and Cathy is not allowed to repeat this instruction. Cathy decides to tell Donald that his slot 3 card is trash.
   - Cathy gives a _Hat-Guessing_ clue that instructs Donald to discard slot 3, Alice to play slot 1, and Bob to play slot 1.
   - Donald knows that the first clue told him to discard slot 4 and the second clue told him to discard slot 3. Normally, he would follow the instructions in order. But in this case, since he is Cathy's _First Responder_, it is his responsibility to immediately demonstrate Cathy's instruction for him to the entire team. Thus, Donald discards slot 3 (instead of slot 4).
 - For example, in a 4-player game:
   - The setup is the exact same as the previous example, except that Donald's hand is: `red 4, blue 4, yellow 4, red 1`
   - In this hand, Cathy has no additional information to convey to Donald. He already knows about his one trash card, and the rest of the cards are not-yet-playable, but still useful to the team.
-  - Thus, Cathy needs to give a clue instruction to Donald.
+  - If the team has no playable cards, Cathy could decide to instruct Donald to discard one of his 4s. Otherwise, Cathy needs to give a clue instruction to Donald.
   - On Donald's turn, he knows that Cathy instructed him to give a clue. And since Donald is Cathy's _First Responder_, he must immediately react to whatever Cathy told him.
-  - However, this situation is the exception. Donald does not have to give a clue and can discard instead. This is because that everyone else on the team can see that Cathy must have assigned a clue instruction to Donald, because the rest of his hand is useless. Thus, Donald does not have to demonstrate anything in particular.
+  - Donald has to give a clue, or discard slot 4, which he knows is trash from a previous clue. All players know that in both cases, Cathy instructed Donald to give a clue, since Cathy is not allowed to give a discard instruction on cards that are already known to be trash.
 
 ## Interpreting Instructions
 
@@ -311,7 +314,8 @@ First, let's go over some _Hat-Guessing_ terminology before getting into the act
 ### End-Game
 
 - Sometimes it is valuable to revert to ordinary conventions.
-- When there are only 5s left to play, a 5 clue not on the newest card is a non-hat clue, and from then on since an alternative hat clue exists.
+- When there are only 5s left to play, a 5 clue not on the newest card is a non-hat clue, since an alternative hat clue exists.
+- From then on, no clues should be interpreted as hat clues anymore.
 
 ### Positional Discards
 
