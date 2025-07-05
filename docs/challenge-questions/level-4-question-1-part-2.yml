@@ -1,5 +1,5 @@
 players:
-  - name: Alice
+  - name: Bob
     cards:
       - type: x
         middleNote: (1)
@@ -17,7 +17,7 @@ players:
         clue: b
       - type: x
   - text: "After playing blue 3:"
-  - name: Alice
+  - name: Bob
     cards:
       - type: x
         middleNote: (1)
@@ -38,7 +38,7 @@ players:
         clue: b
       - type: x
   - text: "After playing blue 4:"
-  - name: Alice
+  - name: Bob
     cards:
       - type: x
       - type: 1

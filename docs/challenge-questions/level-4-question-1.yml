@@ -5,20 +5,6 @@ stacks:
   - b: 5
   - p: 0
 players:
-  - cards:
-      - type: x
-      - type: 1
-        clue: 1
-      - type: 1
-        clue: 1
-      - type: x
-      - type: x
-  - cards:
-      - type: x
-      - type: x
-      - type: x
-      - type: 2
-      - type: 2
   - clueGiver: true
     cards:
       - type: x
@@ -26,3 +12,17 @@ players:
       - type: x
       - type: x
       - type: x
+  - cards:
+      - type: x
+      - type: 1
+        clue: 1
+      - type: 1
+        clue: 1
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: 2
+      - type: 2
