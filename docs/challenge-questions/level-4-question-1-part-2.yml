@@ -41,14 +41,14 @@ players:
   - name: Bob
     cards:
       - type: x
-      - type: 1
-        clue: 1
+      - type: x
+        middleNote: (1)
         below:
           text:
             - Fresh
           color: Green
-      - type: 1
-        clue: 1
+      - type: x
+        middleNote: (1)
         below:
           text:
             - Starting
