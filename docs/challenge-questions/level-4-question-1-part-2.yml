@@ -1,0 +1,58 @@
+players:
+  - name: Bob
+    cards:
+      - type: x
+        middleNote: (1)
+        below:
+          text:
+            - Starting
+            - Hand
+          color: Gray
+      - type: b
+        middleNote: (3)
+        clue: b
+      - type: x
+      - type: b
+        middleNote: (4)
+        clue: b
+      - type: x
+  - text: "After playing blue 3:"
+  - name: Bob
+    cards:
+      - type: x
+        middleNote: (1)
+        below:
+          text:
+            - Fresh
+          color: Green
+      - type: x
+        middleNote: (1)
+        below:
+          text:
+            - Starting
+            - Hand
+          color: Gray
+      - type: x
+      - type: b
+        middleNote: (4)
+        clue: b
+      - type: x
+  - text: "After playing blue 4:"
+  - name: Bob
+    cards:
+      - type: x
+      - type: x
+        middleNote: (1)
+        below:
+          text:
+            - Fresh
+          color: Green
+      - type: x
+        middleNote: (1)
+        below:
+          text:
+            - Starting
+            - Hand
+          color: Gray
+      - type: x
+      - type: x

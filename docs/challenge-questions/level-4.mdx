@@ -1,0 +1,50 @@
+---
+title: Level 4 Challenge Questions
+---
+
+import Question1 from "./level-4-question-1.yml";
+import Solution1Part1 from "./level-4-question-1-part-2.yml";
+import Solution1Part2 from "./level-4-question-1-part-3.yml";
+
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+
+These questions are for [level 4](../level-4.mdx) strategies.
+
+## Question 1
+
+<Tabs
+  defaultValue="question1"
+  values={[
+    {label: 'Question', value: 'question1'},
+    {label: 'Solution', value: 'solution1'},
+  ]}>
+<TabItem value="question1">
+
+- It is the _Early Game_.
+- Red 1 and blue 5 are played on the stacks.
+- Previously, Bob played blue 3 from slot 2 and blue 4 from slot 4.
+- Cathy has two unknown 2's saved on chop.
+- Alice clues number 1 to Bob which touches the cards in slot 2 and 3.
+- Bob plays his slot 3 card. It is a green 1 and successfully plays.
+- What slot will Cathy discard next?
+
+<Question1 />
+
+</TabItem>
+<TabItem value="solution1">
+
+- Since Bob previously played a card from slot 2 and 4, he has drawn two cards.
+- As a result, his slot 3 card must have been in his starting hand, while his slot 2 card must have been drawn after playing the blue 3.
+- Thus, his slot 2 card is a "fresh" one and his slot 3 card is a "normal" one from the starting hand.
+
+<Solution1Part1 />
+
+- As established in level 3, [unknown 1's are supposed to be played in a particular order](../level-3.mdx#playing-multiple-1s). Specifically, [fresh 1's are supposed to have precedence](../level-3.mdx#part-2---the-fresh-1s-rule).
+- This means that Bob was expected to play his slot 2 card instead of his slot 3 card.
+- Thus, Cathy knows that Bob intended for an _Order Chop Move_. Cathy _Chop Moves_ her slot 3 card. Her new chop is slot 2, so that would be the slot that Cathy would discard next.
+
+<Solution1Part2 />
+
+</TabItem>
+</Tabs>
