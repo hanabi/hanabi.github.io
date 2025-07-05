@@ -16,7 +16,6 @@ players:
       - type: x
       - type: x
       - type: 1
-        clue: 1
         below:
           text:
             - Fresh
