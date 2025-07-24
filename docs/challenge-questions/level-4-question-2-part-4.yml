@@ -1,0 +1,54 @@
+stacks:
+  - r: 1
+  - y: 0
+  - g: 0
+  - b: 1
+  - p: 0
+players:
+  - clueGiver: true
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+        middleNote: (r1)
+  - cards:
+      - type: 1
+        clue: 1
+        middleNote: 2nd
+        below: Fresh
+      - type: 1
+        clue: 1
+        middleNote: 1st
+        below:
+          text:
+            - Fresh
+            - + Chop
+          color: green
+      - type: r
+        middleNote: (r2)
+      - type: 1
+        clue: 1
+        retouched: true
+        trash: true
+        middleNote: 4th
+        below:
+          text:
+            - Starting
+            - Hand
+      - type: 1
+        clue: 1
+        retouched: true
+        middleNote: 3rd
+        below:
+          text:
+            - Starting
+            - Hand
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+        middleNote: (b1)
