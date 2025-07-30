@@ -17,7 +17,6 @@ players:
       - type: x
       - type: 2
         below: Red 2?
-      - type: x
       - type: 2
         below: Red 2?
       - type: 2
@@ -26,6 +25,10 @@ players:
       - type: x
       - type: x
       - type: x
-      - type: x
       - type: r2
         border: false
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
