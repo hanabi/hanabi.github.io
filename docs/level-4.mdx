@@ -55,7 +55,7 @@ import ChopMovePrompt from "./level-4/chop-move-prompt.yml";
   1. Sometimes there are multiple critical cards in a row on chop and it falls to one player to save all of them. In this situation, a multiple-card _Chop Move_ can be the only way to save all of them.
   1. Some unplayable cards (e.g. a _one-away-from-playable_ 3) are quite useful to the team, but are illegal to touch directly (as touching them directly would be a _Play Clue_ on the unplayable card). If the game is going well, then it can be useful to "waste" a clue to save the card permanently.
 - Note that you are **not** allowed to _Trash Chop Move_ a card that you can just clue directly with a _Save Clue_ (unless there are multiple critical cards in a row on chop and you have no other choice). This is because having some positive information is always better than having the card be a mystery.
-- If a _Trash Chop Move_ touches **multiple** trash cards, then it only _Chop Moves_ the cards to the right of the rightmost trash card.
+- If a _Trash Chop Move_ touches **multiple** trash cards, then it only _Chop Moves_ the cards to the right of the rightmost trash card. (The rightmost trash card is considered to be focused.)
 - For example, in a 3-player game:
   - All the 1's are played on the stacks.
   - Bob has a completely unclued hand.
@@ -80,7 +80,7 @@ import ChopMovePrompt from "./level-4/chop-move-prompt.yml";
 
 <FivesChopMove1 />
 
-- Similar to the _Trash Chop Move_, if a _5's Chop Move_ touches **multiple** 5's, then it only _Chop Moves_ the card to the right of the rightmost 5.
+- Similar to the _Trash Chop Move_, if a _5's Chop Move_ touches **multiple** 5's, then it only _Chop Moves_ the card to the right of the rightmost 5.  (The rightmost 5 is considered to be focused.)
 - For example, in a 3-player game:
   - All the 1's are played on the stacks.
   - Bob has a completely unclued hand.
