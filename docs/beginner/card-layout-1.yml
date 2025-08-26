@@ -22,18 +22,18 @@ players:
         border: false
         below: Slot 5
   - cards:
-      - type: r2
+      - type: r1
         border: false
         below: Slot 1
-      - type: r3
+      - type: r2
         border: false
         below: Slot 2
-      - type: r4
+      - type: r3
         border: false
         below: Slot 3
-      - type: r5
+      - type: r4
         border: false
         below: Slot 4
-      - type: r1
+      - type: r5
         border: false
         below: Slot 5
