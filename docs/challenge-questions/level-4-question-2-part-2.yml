@@ -12,10 +12,8 @@ players:
       - type: x
       - type: x
       - type: x
-        middleNote: (r1)
   - cards:
       - type: x
-        middleNote: (y1)
       - type: r
         clue: r
         middleNote: (r2)
@@ -31,4 +29,3 @@ players:
       - type: x
       - type: x
       - type: x
-        middleNote: (b1)

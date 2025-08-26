@@ -12,10 +12,8 @@ players:
       - type: x
       - type: x
       - type: x
-        middleNote: (r1)
   - cards:
       - type: x
-        middleNote: r2
       - type: 1
         clue: 1
         middleNote: 4th
@@ -47,8 +45,6 @@ players:
           text:
             - Starting
             - Hand
-            - +
-            - Chop
           color: gray
   - cards:
       - type: x
@@ -56,4 +52,3 @@ players:
       - type: x
       - type: x
       - type: x
-        middleNote: (b1)

@@ -69,28 +69,35 @@ These questions are for [level 4](../level-4.mdx) strategies.
 
 <Question2Part1 />
 
-- Bob plays the rightmost 1. It successfully plays as red 1. (Bob draws a new card.)
+- Bob plays the rightmost one. It successfully plays as red 1. (Bob draws a new card.)
 - Cathy does something unrelated.
 - Alice clues red to Bob. It touches Bob's chop. This must be a _Play Clue_ on a red 2.
 
 <Question2Part2 />
 
-- Bob plays his slot 5 1, the 1 next in order (drawing another card). It successfully plays as b1.
+- Bob plays his slot 5 one. It successfully plays as blue 1. (Bob draws a new card.)
 - Cathy does something unrelated.
 - Alice gives Bob a number 1 clue again, touching Bob's two new cards as well as re-touching the 1s from his starting hand.
-- Which card does Bob play to avoid chop-moving trash on either player's chop?
+- Which card is Bob expected to play?
 
 <Question2Part3 />
 
 </TabItem>
 <TabItem value="solution2">
 
-- In rare scenarios, another number 1 clue may be given before the previously clued 1s have played, to touch fresher 1s drawn by the player.
-- When this happens, the play-order notes on previous 1s are erased and the order of playing the 1s is re-calculated. The precedence remains the same: Chop, then Fresh 1s leftmost first, then Starting Hand 1s rightmost first.
-  - Bob is surprised to receive two more 1s. He erases his notes on his previous 1s.
-  - Slot 2 1 is chop, so Bob writes '1st' on it. Slot 1 card is a fresh 1, he writes '2nd' on it. Slot 4 and 5 cards are 1s from his starting hand. He writes '3rd' on slot 5 and '4th' on slot 4.
-  - Bob also knows that the 1 on slot 4 will never play, so he marks it as known-trash.
-  - Bob plays his slot 2 1. It successfully plays as y1 and does not chop-move any player.
+- Sometimes, fresh 1s are touched in the same hand as 1s that have not played yet.
+- When this happens, the play-order notes on previous 1s are erased and the order of playing the 1s is re-calculated.
+- For this calculation, the precedence remains the same:
+  - Chop
+  - Fresh 1s (left to right)
+  - Starting Hand 1s (right to left)
+- Thus:
+  - Bob erases the notes on his 1s.
+  - Bob's slot 2 is chop, so Bob writes "1st" on it.
+  - Bob's slot 1 card is a fresh 1, he writes "2nd" on it.
+  - Bob's slot 4 and slot 5 cards are 1s from his starting hand. He writes "3rd" on slot 5 and "4th" on slot 4.
+  - Additionally, Bob knows that he has four 1s in his hand and only three 1s need to be played. Thus, from _Good Touch Principal_, his 1 on slot 4 will never play, so he marks it as known-trash.
+  - Bob plays his slot 2 one. It successfully plays as yellow 1. (Since this is expected, it does not _Chop Move_ any player.)
 
 <Solution2 />
 
