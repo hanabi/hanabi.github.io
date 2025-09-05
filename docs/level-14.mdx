@@ -62,8 +62,7 @@ import TrashPush from "./level-14/trash-push.yml";
 - Normally, when a trash card is clued, it signifies a _Trash Chop Move_ or a _Trash Push_. However, for both of these strategies to work, it is assumed that the recipient of the clue will know that the card that was touched is useless.
 - What if the recipient of the clue does **not** know that the card that the clued card is trash? Then, they would go on to misplay that card, mistaking it for a "normal" _Play Clue_.
 - If players misrepresent the identity of a trash card in this way, it is a signal that a player has the originally-promised card on their _Finesse Position_.
-- For example, if a trash 2 is clued with number 2, then another player must have a playable 2 on their _Finesse Position_.
-- After a _Trash Finesse_, the player who was clued should _Chop Move_ all of the cards to the right of the trash card (similar to how a _Trash Chop Move_ works).
+- After a _Trash Finesse_, the player who was clued should _Chop Move_ all of the cards to the right of the focused card. (In other words, you can think of a _Trash Finesse_ as both a _Finesse_ and a _Trash Chop Move_ at the same time.)
   - If the clued card in a _Trash Finesse_ was already on chop, then nothing extra happens.
   - For level 24 players, an [extra thing happens](level-24.mdx#trash-finesses-and-trash-bluffs-are-always-unnecessary).
 - For example, in a 4-player game:
@@ -134,7 +133,7 @@ import TrashPush from "./level-14/trash-push.yml";
 - First, see the section on the _[Trash Finesse](#the-trash-finesse)_.
 - In a regular _Bluff_, Alice fibs Bob by pretending he has the connecting card on his _Finesse Position_. According to _Bob's Truth Principle_, Bob must assume Alice is telling the truth and only knows it's a fib after he blind-plays.
 - Similarly, in a _Trash Bluff_, Alice clues a trash card, forcing Bob to blind-play his finesse. Bob will assume it's the originally-promised card and only knows it's a fib after he blind-plays.
-- Just like a _Trash Finesse_, a _Trash Bluff_ will also _Chop Move_ all of the cards to the right of the clue focus (similar to how a _Trash Chop Move_ works).
+- Just like a _Trash Finesse_, a _Trash Bluff_ will also _Chop Move_ all of the cards to the right of the focused card (similar to how a _Trash Chop Move_ works).
 - The focus of a trash bluff is the leftmost freshly touched card.
 - In the case where multiple cards are clued as part of a _Trash Bluff_, **all** of the touched cards are considered to be trash.
 - For example, in a 3-player game:
