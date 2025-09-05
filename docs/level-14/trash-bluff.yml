@@ -25,7 +25,9 @@ players:
         clue: 1
         middleNote: (B)
       - type: x
-      - type: x
+      - type: 1
+        clue: 1
+        middleNote: (G)
       - type: x
   - text: After Bob blind-plays blue 2...
   - name: Cathy
@@ -38,11 +40,8 @@ players:
           text:
             - Chop
             - Moved
-      - type: x
-        above:
-          text:
-            - Chop
-            - Moved
+      - type: 1
+        trash: true
       - type: x
         above:
           text:
