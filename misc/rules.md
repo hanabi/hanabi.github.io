@@ -59,7 +59,7 @@ NOTE: The action cannot be performed if there are no Clock tiles face up on the 
 
 This act turns over a face down Clock tile on the table back to face up. The player announces clearly that they are DISCARDING, then places a tile from his hand in the discard pile (separated away from the draw pile and face up). They then takes a new tile from the draw pile and adds it to his hand without looking at it.
 
-NOTE: This action cannot be performed in all the Clock tiles are face up on the table. The player must perform a different action.
+NOTE: This action cannot be performed if all the Clock tiles are face up on the table. The player must perform a different action.
 
 #### 3. PLAYING A TILE
 

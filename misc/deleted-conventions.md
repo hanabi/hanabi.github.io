@@ -254,7 +254,6 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
 - However, in an extremely difficult variant, or in a situation where a previous player has blundered, it might fall to one player to save the next player's critical chop card. In this situation, they might not be able to perform a _Scream Discard_, because they might not have any playable cards. And they might not be able to perform a _Scream Blind-Play_, because if the team is at 2 strikes, then the game would immediately end.
 - In this situation, the player can discard a card one-away from their chop as a _Skipped Scream Discard_. This convention is normally only used in 2-player games, because it is very unsafe, risking the discard of a critical card.
 - It is common for players to accidentally _Chop Move_ a card. Thus, the _Skipped Scream Discard_ interpretation should almost never be entertained, simply because of how rarely it is actually needed.
-- Furthermore, this move should never be performed if there is a non-expert player playing or if it is likely to be interpreted as a mistake.
 - This convention was deleted due to lack of use (outside of 2-player games).
 
 ### Order Ejection
@@ -294,12 +293,6 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
   - When it gets to Cathy's turn, instead of performing a _5 Save_ on Bob, she instead clues Donald's blue 2 directly as a _Play Clue_.
   - Donald plays the blue 2.
   - Bob now knows that the _Reverse Order Ejection_ failed and that the 5 will not get retroactively _Chop Moved_ anymore. If Cathy might discard on the next turn, Bob should not play his remaining 1 and should instead give a _5 Save_ to Cathy.
-- This convention was deleted due to lack of use.
-
-### Known-Trash Ejection
-
-- Often times, a player can have one or more cards that are known duplicates / trash. They will discard them it without being told anything further.
-- If a clue is given that **only** touches cards that are already known-trash, then it must have some other purpose - it should signal an _Ejection_ on the very next player.
 - This convention was deleted due to lack of use.
 
 ### The Dump Truck

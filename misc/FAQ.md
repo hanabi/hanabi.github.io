@@ -93,8 +93,8 @@ Anytime. Doesn't necessarily have to be early, doesn't necessarily have to be do
 
 ## Who should give a _Fix Clue_ when a player performs a _Finesse with a Lie Component_?
 
-- Almost always, the player who initiated the move.
-- Alternatively, someone else on the time can also give a _Fix Clue_ if they are "in" on the lie, meaning that they see both copies of the card, etc.
+- Almost always, it should be the player who initiated the move.
+- Alternatively, someone else on the team can also give a _Fix Clue_ if they are "in" on the lie, meaning that they see both copies of the card, etc.
 
 ## If I am _Finessed_, and I get a _Fix Clue_ to stop me from bombing my _Finesse Position_, and the _Fix Clue_ touches my chop and some other card, which one should I play into the _Finesse_?
 
@@ -216,7 +216,7 @@ No. It only promises that the missing cards are in your hand. Write _Trash Touch
 
 ## What is the reason behind discarding trash from left to right?
 
-See [the convention reasons document](convention-reasons.md#discarding-trash-from-left to right).
+See [the convention reasons document](convention-reasons.md#discarding-trash-from-left-to-right).
 
 ## Are _Loaded Play Clues_ turned on for brown cards, even if it is the _Early Game_ and there is nothing else to do?
 
@@ -250,7 +250,7 @@ Variant-specific take precedence over non-variant-specific conventions.
 - You can only play cards with a number 1 clue on them.
   - If a card with a number 1 clue on it happens to be some other unplayable pink card, then someone else on the team is required to give a _Pink Fix Clue_.
 - You are not allowed to play cards with a number 2 clue on them, a number 3 clue on them, etc. (Because they could be a pink 5.)
-  - No-one else on the team is expected to give a _Pink Fix Clue_ in this case.)
+  - No-one else on the team is expected to give a _Pink Fix Clue_ in this case.
 
 ## In variants with a pink suit, If 1's were clued in my hand, and all of the 1's are already played, should I play my next number 1 card as a pink 2?
 
