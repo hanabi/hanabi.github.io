@@ -32,7 +32,7 @@
 ## What decides whether or not a change gets implemented?
 
 - All convention changes are made by **group consensus**.
-- For the purposes of determining consensus, each player that has an opinion is given a weighed representation based on the following things (in ordered of most important to least important):
+- For the purposes of determining consensus, each player that has an opinion is given a weighted representation based on the following things (in ordered of most important to least important):
   - Perceived skill level
   - Holistic knowledge of the convention framework
   - How active they are at the current time (playing every day, etc.)

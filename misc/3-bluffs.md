@@ -2,9 +2,9 @@
 
 Back in 2015, a group of four expert players played Hanabi together. They played 200 games in a row of the rainbow variant (with 6 suits), and got a perfect score around 95% of the time. But of the very few games that they did not get a perfect score on, the main reason was that one player randomly discarded a 3 near the beginning of the game (through no fault of any of the players), and then the other copy of the 3 happened to be at the bottom of the deck. The players agreed to call this a "bottom-deck" loss.
 
-One of the players said to the other three: "Why, we are so good at Hanabi that the only time we lose seems to be when we get a bottom-deck loss! We never get a bottom-deck loss to a 2, since we have the _2 Saves_ convention. But we do seem to get bottom-decked by 3's quite a lot, and when this happens it is even worse than getting bottom decked by a 4. I wonder if we should come up with some strategy to avoid this? It would be quite logical to do so, given the circumstances."
+One of the players said to the other three: "We are so good at Hanabi that the only time we lose seems to be when we get a bottom-deck loss! We never get a bottom-deck loss to a 2, since we have the _2 Saves_ convention. But we do seem to get bottom-decked by 3's quite a lot, and when this happens it is even worse than getting bottom decked by a 4. I wonder if we should come up with some strategy to avoid this? It would be quite logical to do so, given the circumstances."
 
-This sounded like a good idea. Another player said, "Why, yes! We should come up with some sort of tool to allow us the ability to save more 3's at the beginning of the game. What about implementing a _3 Saves_ convention, similar to the _2 Saves_ convention?
+This sounded like a good idea. Another player said, "Yes! We should come up with some sort of tool to allow us the ability to save more 3's at the beginning of the game. What about implementing a _3 Saves_ convention, similar to the _2 Saves_ convention?
 
 The first player replied, "Well, that does not sound very good, as it would remove the ability to give _Play Clues_ (and _Finesses_) in a lot of circumstances. We should probably find something else."
 
