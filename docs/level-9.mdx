@@ -9,7 +9,7 @@ import FiveStall from "./level-9/five-stall.yml";
 ### Stalling Situation
 
 - First, see the section on [Minimum Clue Value Principle](beginner/minimum-clue-value-principle.mdx), one of our core principles.
-- On most turns, players will not have any known-playable (or known-trash) cards. Thus, on most turns, player will either give a clue (if it is a good clue) or discard chop (the null action).
+- On most turns, players will not have any known-playable (or known-trash) cards. Thus, on most turns, players will either give a clue (if it is a good clue) or discard their chop card (the null action).
 - However, in certain situations, discarding the chop card can be dangerous, having the potential to lower the maximum score. In those situations, the only safe action to perform is to give a clue. So, in those situations, we allow players to give low-value clues that would otherwise be illegal.
 - We call these types of situations _Stalling Situations_. The rest of this page will go over the specific kinds of _Stalling Situations_ that exist.
 
@@ -75,7 +75,7 @@ import FiveStall from "./level-9/five-stall.yml";
 
 ### Double Discard Situations / Double Discard Avoidance (DDA) (Severity 2 Stalling)
 
-- Often times in Hanabi, two players will discard in a row. However, in rare cases, this can cause a perfect score to be lost.
+- Oftentimes in Hanabi, two players will discard in a row. However, in rare cases, this can cause a perfect score to be lost.
 - For example, in a 3-player game:
   - Alice has nothing to do. Alice discards her chop and it is a red 4.
   - Bob has nothing to do. Bob discards his chop and it is the other copy of the red 4.
