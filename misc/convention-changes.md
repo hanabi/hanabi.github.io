@@ -1,6 +1,6 @@
 # Changes to _The H-Group Convention Framework_
 
-- The set of conventions that everyone to in the group agrees to is defined as the _Convention Framework_.
+- The set of conventions that everyone in the group agrees to is defined as the _Convention Framework_.
 - The framework evolves over time, as new strategies are thought up, older strategies are no longer used, and existing strategies are changed.
 
 ## Who can submit changes to the _Convention Framework_?

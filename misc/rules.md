@@ -26,7 +26,7 @@ Place the 8 Clock tiles face up on the table. Stack the 4 Fuse tiles nearby with
 - With 2 or 3 players, each player selects 5 tiles.
 - With 4 or 5 players, each player selects 4 tiles.
 
-We will refer to these tiles in front of each players as their 'hand'.
+We will refer to these tiles in front of each player as their 'hand'.
 
 CRUCIAL!: The players MUST NOT look at their own tiles! They must set them on the table so that the other players can see the fronts of the tiles (showing the symbols) and they only see the backs (with Shinto gate). They are not allowed to look at the fronts of their tiles during the game until they are played. This would dishonor them and taint their reputation as master pyrotechnicians!
 

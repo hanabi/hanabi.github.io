@@ -127,7 +127,7 @@
 ### The Flush Save
 
 - This convention only applies to variants with a black suit.
-- Normally, black 3 and black 4 are saved with a black color clue. However, if try to save a black 3 or black 4 like this when it is in a player's slot 1, then will interpret it as a _Flush Clue_ and will misplay it.
+- Normally, black 3 and black 4 are saved with a black color clue. However, if you try to save a black 3 or black 4 with a color when it is in a player's slot 1, then they will interpret it as a _Flush Clue_ and will misplay it.
 - Thus, when players are in this situation, they must save using number. Any number 3 or number 4 clue given to a slot 1 card must be treated as a potential save on a black 3 or a black 4, respectively.
 
 ### The Dark Chop Move
