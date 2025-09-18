@@ -6,7 +6,7 @@ import path from "node:path";
 import url from "node:url";
 
 /**
- * Using `import.meta.dirname` here results in an error while building:
+ * Using `import.meta.dirname` in the below loader results in an error while building:
  *
  * "SyntaxError: Cannot use 'import.meta' outside a module"
  */
