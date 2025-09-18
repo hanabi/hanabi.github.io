@@ -10,4 +10,9 @@
     // https://github.com/complete-ts/complete/blob/main/packages/complete-tsconfig/tsconfig.node.json
     "complete-tsconfig/tsconfig.node.json",
   ],
+
+  "compilerOptions": {
+    // Needed since we use the `Set.intersection` and `Set.union` methods.
+    "lib": ["ESNext"],
+  },
 }

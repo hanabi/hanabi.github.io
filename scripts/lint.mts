@@ -4,7 +4,7 @@ import path from "node:path";
 
 const REPO_ROOT = path.join(import.meta.dirname, "..");
 
-await lintScript(async () => {
+await lintScript(import.meta.dirname, async () => {
   await Promise.all([
     // Use TypeScript to type-check the code.
     $`tsc --noEmit`,
@@ -44,7 +44,8 @@ async function checkUnusedYAMLFiles() {
   const usedYAMLFileNames = new Set<string>();
   for (const mdxFilePathFragment of mdxFilePathFragments) {
     const mdxFilePath = path.join(REPO_ROOT, mdxFilePathFragment);
-    const fileContents = readFile(mdxFilePath);
+    // eslint-disable-next-line no-await-in-loop
+    const fileContents = await readFile(mdxFilePath);
     const lines = fileContents.split("\n");
 
     for (const line of lines) {

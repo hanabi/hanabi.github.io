@@ -1,7 +1,7 @@
 import { $, isDirectory, isMain } from "complete-node";
 import path from "node:path";
 
-if (isMain()) {
+if (isMain(import.meta.filename)) {
   const packageRoot = path.join(import.meta.dirname, "..");
   await compilePlugin(packageRoot);
 }
@@ -14,7 +14,8 @@ export async function compilePlugin(packageRoot: string): Promise<void> {
     "hanabiDocusaurusPlugin",
     "plugin",
   );
-  if (!isDirectory(pluginDir)) {
+  const pluginDirExists = await isDirectory(pluginDir);
+  if (!pluginDirExists) {
     throw new Error(`The plugin directory does not exist: ${pluginDir}`);
   }
 
