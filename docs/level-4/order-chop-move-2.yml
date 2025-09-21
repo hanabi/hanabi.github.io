@@ -1,0 +1,39 @@
+stacks:
+  - r: 0
+  - y: 0
+  - g: 0
+  - b: 0
+  - p: 0
+players:
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: 2
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+      - type: p
+      - type: 1
+        below:
+          text:
+            - Chop
+            - Move
+            - Alice
+          color: maroon
+      - type: 1
+        below:
+          text:
+            - Expected
+            - Play
+      - type: p1
+        below:
+          text:
+            - Expected
+            - Play
