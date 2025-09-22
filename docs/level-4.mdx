@@ -7,8 +7,7 @@ import TrashChopMove2 from "./level-4/trash-chop-move-2.yml";
 import TrashChopMove3 from "./level-4/trash-chop-move-3.yml";
 import FivesChopMove1 from "./level-4/5s-chop-move-1.yml";
 import FivesChopMove2 from "./level-4/5s-chop-move-2.yml";
-import OrderChopMove1 from "./level-4/order-chop-move-1.yml";
-import OrderChopMove2 from "./level-4/order-chop-move-2.yml";
+import OrderChopMove from "./level-4/order-chop-move.yml";
 import ChopMoveNew from "./level-4/chop-move-new.yml";
 import ChopMoveNewException from "./level-4/chop-move-new-exception.yml";
 import ChopMovePrompt from "./level-4/chop-move-prompt.yml";
@@ -110,7 +109,7 @@ import ChopMovePrompt from "./level-4/chop-move-prompt.yml";
   - If Bob plays slot 2, then he is skipping over one card. Cathy should _Chop Move_ one card (her slot 5).
   - If Bob plays slot 1, he is skipping over two cards. Alice should _Chop Move_ one card (her slot 5).
 
-<OrderChopMove1 />
+<OrderChopMove />
 
 - If a player decides to do an _Order Chop Move_, on their next turn, they should revert to the original order again.
 - For example, continuing from the previous example:
@@ -124,16 +123,7 @@ import ChopMovePrompt from "./level-4/chop-move-prompt.yml";
   - The 1 that was played has a **different amount of positive clues** than the other 1's. (Different negative clues are ignored.)
   - The 1 that was played was originally _Finessed_ from a clue that happened **before** the number 1 clue.
   - The 1 that was skipped over is known to be bad from contextual information.
-- If one of the 1's is known it must not be considered when determining who is being chop moved.
-- For example, in another 3-player game:
-  - It is the first turn and nothing is played on the stacks.
-  - Alice clues Cathy number 1, which touches three 1's. They are in slot 3, slot 4, and slot 5.
-  - Bob clues Cathy purple, which touches two cards in slots 2 and 5.
-  - If Cathy plays slot 4, they are not skipping a 1 relevant for an order chop move. Nothing happens.
-  - If Cathy plays slot 3, they are skipping over one card. Thus, Alice's slot 5 is \_Chop Move_d.
-
-<OrderChopMove2 />
-
+- This only applies to the order that **unknown** 1's are played in. If a hand has a mixture of known and unknown 1's, only the order of the unknown 1's can signal an _Order Chop Move_. This is because, once Alice has information about some of her 1's, she might have other reasons to play particular 1's, such as trying to play cards that allow her teammates to play cards.
 - The _Order Chop Move_ only applies to 1s. If it happens with any card that is not a 1, then it is never an _Order Chop Move_ and it just means nothing.
 - For max level players, there is a rare situation where a [_Double Order Chop Move_](extras/chop-moves.mdx#double-order-chop-move-for-3-player-games) can happen.
 
