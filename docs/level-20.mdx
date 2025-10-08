@@ -16,7 +16,7 @@ import NoInformationDoubleBluff from "./level-20/no-information-double-bluff.yml
 ### The Occupied Play Clue & The Occupied Finesse (OPC)
 
 - Often, players will have a choice between playing a card and giving a clue. By default, it makes more sense for players to play the card and let some other teammate give the clue. That's just good teamwork!
-- On the other hand, in a lot of situations, players who have a playable card will _still_ need to give a clue. Since Hanabi has asymmetric information, it is common that only one player will have the necessary knowledge to perform a _Finesse_ or _Prompt_ (or some other time-sensitive clue). Thus, if a player with a playable card is the only one who can reasonably give a certain type of clue, then it makes sense for them to perform the clue now, and then play their playable card later.
+- On the other hand, in a lot of situations, players who have a playable card will _still_ need to give a clue. Since Hanabi has asymmetric information, it is common that only one player will have the necessary knowledge to perform a _Finesse_ or _Prompt_ (or some other time-sensitive clue). Thus, if a player with a plyable card is the only one who can reasonably give a certain type of clue, then it makes sense for them to perform the clue now, and then play their playable card later.
 - Similarly, if there are two or more clues that need to be given, then it makes sense for Alice and Bob to team up and perform the two actions in sequence. (If Alice has a playable card, this isn't really relevant; the two things would need to be clued regardless of whether Alice had a playable card or not.)
 - This section does not apply to those situations. Rather, it **only** applies when a clue really could have been given by two or more players, but a player with a playable card "stole" the clue, leaving the next player with nothing to do but to discard.
 - If a player "steals" a clue in this way, we would say that the player was _Occupied_. When an _Occupied_ player gives a clue, it has a special meaning:
@@ -140,6 +140,17 @@ import NoInformationDoubleBluff from "./level-20/no-information-double-bluff.yml
 
 <NoInformationDoubleFinesse />
 
+- Even if a clue does not "fill-in" a card, it not necessarily a "no-information" clue.
+- For example, in a 3-player game:
+  - It is the first turn of the game.
+  - Alice clues red to Cathy, touching a card on slot 1 as a _Play Clue_.
+  - Bob blind-plays a blue 1.
+  - Cathy marks her red card as either the red 2 or the red 3.
+  - Later on the game, red 1 is now played.
+  - Alice clues red to Cathy, re-touching the card that is in a superposition of red 2 or red 3.
+  - Bob blind-plays a blue 2.
+  - Cathy updates the note on her red card to be exactly red 3.
+  - Everyone at the table clearly understands that this clue gave valuable information to Cathy's red card and would not be considered a "no information" clue.
 - The "no-information" principle can also be used to perform a _No-Information Layered Finesse_ on the next player. (The next player will know that it is a _Layered Finesse_ instead of a _Bluff_ because some other more-useful clue could have been given to initiate the _Bluff_.)
 
 ### The No-Information Double Bluff
