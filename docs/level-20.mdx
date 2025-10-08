@@ -125,9 +125,11 @@ import NoInformationDoubleBluff from "./level-20/no-information-double-bluff.yml
 
 ### The No-Information Double Finesse
 
-- Sometimes, a card that is not-yet-playable is re-clued in order to initiate a _Finesse_ or a _Bluff_. Most times, the clue will "fill in" or give extra information to the existing card.
-- Other times, the clue will give no information to the focused card. For example, re-cluing number 3 to an already known 3. In this situation, if it was merely a _Bluff_, it would be pretty low value.
-- Thus, by convention, a "no information" clue like this on a two-away-from-playable card **must** "get" at least 2 new cards (as opposed to a single _Bluff_ that only gets 1 new card).
+- Sometimes, cards are re-clued to cause a _Finesse_ or _Bluff_. But most times, the re-clue will "fill in" or give extra information to the existing card.
+- Formally, a "no information" clue is defined by having the following criteria:
+  - The re-clue gave no additional positive or negative information to the card.
+  - The elements in the superposition on the re-clued card were the same before and after the clue.
+- Since "no information" clues are not very valuable, we agree that a "no information" clue on a two-away-from-playable card **must** "get" at least 2 new cards (as opposed to a single _Finesse_ that only gets 1 new card).
 - For example, in a 3-player game:
   - Nothing is played on the stacks.
   - Alice clues 3's to Cathy, which touches one 3, the red 3.
