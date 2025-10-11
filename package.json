@@ -35,20 +35,20 @@
     "@mdx-js/react": "3.1.1",
     "prism-react-renderer": "2.4.1",
     "raw-loader": "4.0.2",
-    "react": "19.1.1",
+    "react": "19.2.0",
     "react-circular-progressbar": "2.2.0",
-    "react-dom": "19.1.1",
+    "react-dom": "19.2.0",
     "react-zoom-pan-pinch": "3.7.0",
     "yaml": "2.8.1",
-    "zod": "4.1.9"
+    "zod": "4.1.12"
   },
   "devDependencies": {
     "@docusaurus/tsconfig": "3.8.1",
-    "complete-cli": "1.3.11",
-    "complete-lint": "4.0.0",
+    "complete-cli": "1.4.1",
+    "complete-lint": "4.2.1",
     "complete-node": "12.2.1",
     "glob": "11.0.3",
-    "typescript": "5.9.2",
-    "webpack": "5.101.3"
+    "typescript": "5.9.3",
+    "webpack": "5.102.1"
   }
 }
