@@ -8,7 +8,7 @@
     "compile-plugin": "tsx --tsconfig ./scripts/tsconfig.json ./scripts/compilePlugin.mts",
     "deploy": "docusaurus deploy",
     "docusaurus": "docusaurus",
-    "format": "prettier --write .",
+    "format": "eslint --fix . && prettier --write .",
     "lint": "tsx --tsconfig ./scripts/tsconfig.json ./scripts/lint.mts",
     "serve": "docusaurus serve",
     "start": "npm run compile-plugin && docusaurus start",

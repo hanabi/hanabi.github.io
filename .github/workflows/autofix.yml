@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v5
       - uses: ./.github/workflows/setup
-      - run: npx prettier --write .
+      - run: npm run format
       - uses: autofix-ci/action@635ffb0c9798bd160680f18fd73371e355b85f27 # "@v1" does not work.
         with:
           commit-message: "chore: format with ESLint & Prettier"
