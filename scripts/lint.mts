@@ -1,40 +1,39 @@
-import { $, lintScript, readFile } from "complete-node";
+import { lintCommands, readFile } from "complete-node";
 import { glob } from "glob";
 import path from "node:path";
 
 const REPO_ROOT = path.join(import.meta.dirname, "..");
 
-await lintScript(import.meta.dirname, async () => {
-  await Promise.all([
-    // Use TypeScript to type-check the code.
-    $`tsc --noEmit`,
-    $`tsc --noEmit --project ./scripts/tsconfig.json`,
+await lintCommands(import.meta.dirname, [
+  // Use TypeScript to type-check the code.
+  "tsc --noEmit",
+  "tsc --noEmit --project ./scripts/tsconfig.json",
 
-    // Use ESLint to lint the TypeScript code.
-    // - "--max-warnings 0" makes warnings fail, since we set all ESLint errors to warnings.
-    $`eslint --max-warnings 0 .`,
+  // Use ESLint to lint the TypeScript code.
+  // - "--max-warnings 0" makes warnings fail, since we set all ESLint errors to warnings.
+  "eslint --max-warnings 0 .",
 
-    // Use Prettier to check formatting.
-    // - "--log-level=warn" makes it only output errors.
-    $`prettier --log-level=warn --check .`,
+  // Use Prettier to check formatting.
+  // - "--log-level=warn" makes it only output errors.
+  "prettier --log-level=warn --check .",
 
-    // Use Knip to check for unused files, exports, and dependencies. (We do not currently use Knip
-    // since there is no Docusaurus plugin and whitelisting everything does not get us much value.)
-    /// $`knip --no-progress`,
+  // Use Knip to check for unused files, exports, and dependencies. (We do not currently use Knip
+  // since there is no Docusaurus plugin and whitelisting everything does not get us much value.)
+  /// $`knip --no-progress`,
 
-    // Use CSpell to spell check every file.
-    // - "--no-progress" and "--no-summary" make it only output errors.
-    $`cspell --no-progress --no-summary .`,
+  // Use CSpell to spell check every file.
+  // - "--no-progress" and "--no-summary" make it only output errors.
+  "cspell --no-progress --no-summary .",
 
-    // Check for unused words in the CSpell configuration file.
-    $`cspell-check-unused-words`,
+  // Check for unused words in the CSpell configuration file.
+  "cspell-check-unused-words",
 
-    // Check for template updates.
-    $`complete-cli check --ignore build.ts,knip.config.js,LICENSE,lint.ts`,
+  // Check for template updates.
+  "complete-cli check --ignore build.ts,knip.config.js,LICENSE,lint.ts",
 
-    checkUnusedYAMLFiles(),
-  ]);
-});
+  // eslint-disable-next-line unicorn/prefer-top-level-await
+  ["check unused YAML files", checkUnusedYAMLFiles()],
+]);
 
 async function checkUnusedYAMLFiles() {
   const importRegex = /import .+ from ".*\/(.+.yml)/;
