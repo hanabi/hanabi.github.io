@@ -75,7 +75,7 @@ import HesitationBlindPlay from "./level-23/hesitation-blind-play.yml";
 <BlazeDiscard2 />
 
 - _Blaze Discards_ must be on the very next player. In other words, Bob has to immediately react to prove where the position of the matching card is.
-- _Blaze Discards_ do not apply when someone discards a 1 and there are two copies remaining. (In other words, it is still possible to perform a normal _Gentleman's Discard_ by discarding a red 1 in the case where Bob has a red 1 on his _Finesse Position_ and Cathy has a red 1 on her _Second Finesse Position_ behind an unplayable card.)
+- Since there are three copies of 1s, it can sometimes be ambiguous as to whether a discard of a playable 1 is a _Gentleman's Discard_ or a _Blaze Discard_. In this situation, _Blaze Discards_ take precedence. (This is because it is unlikely that Bob would have the third copy of of the 1 on his _Finesse Position_.)
 - It is illegal to perform a _Layered Blaze Discard_ (on either the ignited player or the player holding the matching card). We want to keep _Blaze Discards_ as simple as possible.
 - _Blaze Discards_ do not apply when someone performs a _Gentleman's Discard_ or a _Baton Discard_ that looks like a _Sarcastic Discard_. In these situations, one of the following is true:
   - The discarding player is making a mistake (as a _Wrong Prompt_).

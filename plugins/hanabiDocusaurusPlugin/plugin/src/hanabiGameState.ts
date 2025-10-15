@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-empty-object-type */
 
-import z from "zod";
+import { z } from "zod";
 
 const rankOrEmpty = z.number().min(0).max(5);
 const stack = z.record(z.string().length(1), rankOrEmpty).readonly();

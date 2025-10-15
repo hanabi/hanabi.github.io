@@ -51,7 +51,7 @@ export class SVGNode {
     // Iterator.map isn't supported yet on node, apparently; but also there's no sort() on it.
     // TODO: sort() can be removed after py and js start producing the same svg
     return [...this.attributes.entries()]
-      .sort((a, b) => {
+      .toSorted((a, b) => {
         if (a[0] < b[0]) {
           return -1;
         }
@@ -80,9 +80,9 @@ export class SVGNode {
 
     // eslint-disable-next-line @typescript-eslint/strict-boolean-expressions
     if (this.textContent) {
-      const escaped = this.textContent
-        .toString()
-        .replaceAll(/["&'<>]/g, (character: string) => {
+      const escaped = this.textContent.replaceAll(
+        /["&'<>]/g,
+        (character: string) => {
           switch (character) {
             case "<": {
               return "&lt;";
@@ -108,7 +108,8 @@ export class SVGNode {
               return character;
             }
           }
-        });
+        },
+      );
       result += `>${escaped}</${this.name}>\n`;
 
       return result;

@@ -1,12 +1,6 @@
 // See: https://webpack.js.org/contribute/writing-a-loader/
 // TODO: go through all variables and remove them potentially
 
-// Needed because `Set.intersection` is not in Node 20. This polyfill can be removed when the
-// Node.js LTS is brought to version 22. Put an engines directive in "package.json" when this is the
-// case.
-// eslint-disable-next-line import-x/no-unassigned-import
-import "core-js/actual/set/index.js";
-
 import YAML from "yaml";
 import type {
   BigText,
@@ -332,14 +326,8 @@ class ImageGenerator {
 
     // Use sets to store the possible ranks and suits.
     const cardTypeSet = new Set(cardType);
-    // @ts-expect-error TypeScript does not work with core-js.
-    // eslint-disable-next-line @typescript-eslint/no-unsafe-call
-    const ranks = cardTypeSet.intersection(ALL_RANKS) as Set<string>;
-    // @ts-expect-error TypeScript does not work with core-js.
-    // eslint-disable-next-line @typescript-eslint/no-unsafe-call
-    const suits = cardTypeSet.intersection(
-      new Set(this.suitAbbreviations),
-    ) as Set<string>;
+    const ranks = cardTypeSet.intersection(ALL_RANKS);
+    const suits = cardTypeSet.intersection(new Set(this.suitAbbreviations));
 
     if (ranks.size !== 1 && suits.size !== 1) {
       // This is a card with an unknown rank and an unknown color.
@@ -359,9 +347,7 @@ class ImageGenerator {
         ry: CARD_ROUNDED_CORNER_SIZE,
       });
       // Always draw pips on clued cards with unknown rank + unknown color.
-      // @ts-expect-error TypeScript does not work with core-js.
-      // eslint-disable-next-line @typescript-eslint/no-unsafe-call
-      const pips = ranks.union(suits) as Set<string>;
+      const pips = ranks.union(suits);
       this.drawCardPips(s, pips, crossedOut, orange);
     } else if (ranks.size === 1 && suits.size !== 1) {
       // This is a card with a known rank and an unknown color.
@@ -526,7 +512,7 @@ class ImageGenerator {
 
     // Validate that the suits come in order (with respect to the play stacks).
     if (letters.length >= 2) {
-      const sortedLetters = [...letters].sort((a, b) => {
+      const sortedLetters = [...letters].toSorted((a, b) => {
         const aa = this.suitAbbreviations.indexOf(a);
         const bb = this.suitAbbreviations.indexOf(b);
         return aa - bb;

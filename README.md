@@ -6,7 +6,7 @@ This is the GitHub repository for the website. It is built with [Docusaurus](htt
 
 ## What is a Pull Request?
 
-If you're in the H-Group, then you might want to help edit the website. Maybe you want to fix some typos. Or maybe you want to add a new example. Or maybe you proposed a new convention, and it got voted in, and now you need to add a new section. Regardless of what you are doing, you will need to a submit a _pull request_.
+If you're in the H-Group, then you might want to help edit the website. Maybe you want to fix some typos. Or maybe you want to add a new example. Or maybe you proposed a new convention, and it got voted in, and now you need to add a new section. Regardless of what you are doing, you will need to submit a _pull request_.
 
 In plain English, a pull request (or a PR for short) is simply a request to merge the changes that you want into the main copy of the website. Essentially, you need to make a copy of the website (called a _fork_), make some changes (called a _commit_), and then click a button on the website to create a new PR. At that point, I'll be notified that there is a new PR and I can look over the specific changes. Then, I can click "Approve" or "Deny" accordingly. If I click "Approve", then the changes are integrated and the website is automatically updated!
 
@@ -65,7 +65,7 @@ Editing files on the GitHub website is a pain. If you are adding a significant a
   - `npm run start`
   - Now, the website will "run" forever until you press `Ctrl + C` to cancel it (or close the terminal window).
   - In a browser, surf to http://localhost:3000/ in order to see your local copy of the website. <!-- markdownlint-disable-line MD034 -->
-- Now, open VSCode (which is a nice code/document editor). From the menu, select "File", then "Open Folder", then select the website folder that we cloned earlier. (Or, you can type `code .` in your terminal to open the current directory in VSCode.)
+- Now, open VSCode. From the menu, select "File", then "Open Folder", then select the website folder that we cloned earlier. (Or, you can type `code .` in your terminal to open the current directory in VSCode.)
 - VSCode is now treating the website as a "project". You can see the list of files in the left pane and you can double click a file to open it. (Alternatively, you can open a file by using the menu with "File" --> "Open File".)
 - The main files for the website are located in the "docs" folder. For example, the section for level 1 is located at "docs/level-1.md". Go ahead and edit whatever files that you want to change. As soon as you edit a particular file, you should see the changes automatically appear in your browser (that is, if you happen to be viewing the particular section).
 

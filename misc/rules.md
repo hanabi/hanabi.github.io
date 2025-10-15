@@ -1,6 +1,6 @@
 # The Rules of Hanabi
 
-[Hanabi](https://boardgamegeek.com/boardgame/98778/hanabi) is a card game by [Antoine Bauza](https://boardgamegeek.com/boardgamedesigner/9714/antoine-bauza). These rules are copied directly from the official leaflet of the American Hanabi Deluxe printing of the game. Most grammatical errors and inconsistencies are unchanged.
+[Hanabi](https://boardgamegeek.com/boardgame/98778/hanabi) is a card game by [Antoine Bauza](https://boardgamegeek.com/boardgamedesigner/9714/antoine-bauza). These rules are copied directly from the official leaflet of the American Hanabi Deluxe printing of the game.
 
 ## Deluxe Hanabi
 
@@ -26,7 +26,7 @@ Place the 8 Clock tiles face up on the table. Stack the 4 Fuse tiles nearby with
 - With 2 or 3 players, each player selects 5 tiles.
 - With 4 or 5 players, each player selects 4 tiles.
 
-We will refer to these tiles in front of each players as their 'hand'.
+We will refer to these tiles in front of each player as their 'hand'.
 
 CRUCIAL!: The players MUST NOT look at their own tiles! They must set them on the table so that the other players can see the fronts of the tiles (showing the symbols) and they only see the backs (with Shinto gate). They are not allowed to look at the fronts of their tiles during the game until they are played. This would dishonor them and taint their reputation as master pyrotechnicians!
 
@@ -38,7 +38,7 @@ The player with the most colorful clothing begins the game. The players then tak
 1. Discard a tile.
 1. Play a tile.
 
-NOTE: When it is a player's turn, his teammates cannot comment or try to influence him. This is highly dishonorable and will bring great shame upon you.
+NOTE: When it is a player's turn, their teammates cannot comment or try to influence them. This is highly dishonorable and will bring great shame upon you.
 
 #### 1. GIVING A PIECE OF INFORMATION
 
@@ -57,18 +57,18 @@ NOTE: The action cannot be performed if there are no Clock tiles face up on the 
 
 #### 2. DISCARDING A TILE
 
-This act turns over a face down Clock tile on the table back to face up. The player announces clearly that they are DISCARDING, then places a tile from his hand in the discard pile (separated away from the draw pile and face up). They then takes a new tile from the draw pile and adds it to his hand without looking at it.
+This act turns over a face down Clock tile on the table back to face up. The player announces clearly that they are DISCARDING, then places a tile from their hand in the discard pile (separated away from the draw pile and face up). They then take a new tile from the draw pile and add it to their hand without looking at it.
 
-NOTE: This action cannot be performed in all the Clock tiles are face up on the table. The player must perform a different action.
+NOTE: This action cannot be performed if all the Clock tiles are face up on the table. The player must perform a different action.
 
 #### 3. PLAYING A TILE
 
-The player takes a tile from his hand and plays it to the center of the table. Two options are possible:
+The player takes a tile from their hand and plays it to the center of the table. Two options are possible:
 
 1. The tile either begins, adds to, or completes a firework and it is then added to the appropriate color firework.
 1. The tile doesn't begin, add to or complete any firework. Discard the tile out of the game, then flip the top Fuse tile face down beside that stack. The fuse is burning shorter and time is running out.
 
-After playing their tile, they then take a new tile from the draw pile and adds it to their hand without looking at it.
+After playing their tile, they then take a new tile from the draw pile and add it to their hand without looking at it.
 
 #### How the fireworks are built
 
@@ -115,7 +115,7 @@ Artistic impression is determined by the Artisan League Of Fireworks Technicians
 
 A player who is given information can rearrange their hand in order to put the tiles concerned in an order which is easier for him to remember (on the left, on the right, standing horizontally or vertically).
 
-The players can look at the tiles in the discarded pile at any time. If a player discards a tile that they have no information about, they run the risk of getting rid of a tile which could be useful in completing a firework. Sometimes a player will have no choice and will have to discard a tile that they knows nothing about. However, there are multiple copies of the tiles (except for the tiles with a value of 5); so discarding one does not necessarily mean that the firework cannot be completed.
+The players can look at the tiles in the discarded pile at any time. If a player discards a tile that they have no information about, they run the risk of getting rid of a tile that could be useful in completing a firework. Sometimes a player will have no choice and will have to discard a tile that they knows nothing about. However, there are multiple copies of the tiles (except for the tiles with a value of 5), so discarding one does not necessarily mean that the firework cannot be completed.
 
 Clearly identify a firework that you know you cannot complete: for example pulling out the last tile in the series slightly. The tiles of the corresponding color could still be discarded to flip Clock tiles back face up on the table.
 

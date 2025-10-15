@@ -11,6 +11,9 @@ build
 .DS_Store
 thumbs.db
 
+# Agents
+.claude
+
 # ------------------------------
 # GitHub Node.gitignore template
 # https://raw.githubusercontent.com/github/gitignore/master/Node.gitignore

@@ -5,6 +5,10 @@ title: Level 4 Challenge Questions
 import Question1 from "./level-4-question-1.yml";
 import Solution1Part1 from "./level-4-question-1-part-2.yml";
 import Solution1Part2 from "./level-4-question-1-part-3.yml";
+import Question2Part1 from "./level-4-question-2-part-1.yml";
+import Question2Part2 from "./level-4-question-2-part-2.yml";
+import Question2Part3 from "./level-4-question-2-part-3.yml";
+import Solution2 from "./level-4-question-2-part-4.yml";
 
 import Tabs from "@theme/Tabs";
 import TabItem from "@theme/TabItem";
@@ -45,6 +49,57 @@ These questions are for [level 4](../level-4.mdx) strategies.
 - Thus, Cathy knows that Bob intended for an _Order Chop Move_. Cathy _Chop Moves_ her slot 3 card. Her new chop is slot 2, so that would be the slot that Cathy would discard next.
 
 <Solution1Part2 />
+
+</TabItem>
+</Tabs>
+
+## Question 2
+
+<Tabs
+  defaultValue="question2"
+  values={[
+    {label: 'Question', value: 'question2'},
+    {label: 'Solution', value: 'solution2'},
+  ]}>
+<TabItem value="question2">
+
+- It is the first turn of the game.
+- Alice clues number 1 to Bob.
+- The order of playing these 1s is from right to left.
+
+<Question2Part1 />
+
+- Bob plays the rightmost one. It successfully plays as red 1. (Bob draws a new card.)
+- Cathy does something unrelated.
+- Alice clues red to Bob. It touches Bob's chop. This must be a _Play Clue_ on a red 2.
+
+<Question2Part2 />
+
+- Bob plays his slot 5 one. It successfully plays as blue 1. (Bob draws a new card.)
+- Cathy does something unrelated.
+- Alice gives Bob a number 1 clue again, touching Bob's two new cards as well as re-touching the 1s from his starting hand.
+- Which card is Bob expected to play?
+
+<Question2Part3 />
+
+</TabItem>
+<TabItem value="solution2">
+
+- Sometimes, fresh 1s are touched in the same hand as 1s that have not played yet.
+- When this happens, the play-order notes on previous 1s are erased and the order of playing the 1s is re-calculated.
+- For this calculation, the precedence remains the same:
+  - Chop
+  - Fresh 1s (left to right)
+  - Starting Hand 1s (right to left)
+- Thus:
+  - Bob erases the notes on his 1s.
+  - Bob's slot 2 is chop, so Bob writes "1st" on it.
+  - Bob's slot 1 card is a fresh 1, he writes "2nd" on it.
+  - Bob's slot 4 and slot 5 cards are 1s from his starting hand. He writes "3rd" on slot 5 and "4th" on slot 4.
+  - Additionally, Bob knows that he has four 1s in his hand and only three 1s need to be played. Thus, from _Good Touch Principle_, his 1 on slot 4 will never play, so he marks it as known-trash.
+  - Bob plays his slot 2 one. It successfully plays as yellow 1. (Since this is expected, it does not _Chop Move_ any player.)
+
+<Solution2 />
 
 </TabItem>
 </Tabs>

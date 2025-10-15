@@ -125,9 +125,11 @@ import NoInformationDoubleBluff from "./level-20/no-information-double-bluff.yml
 
 ### The No-Information Double Finesse
 
-- Sometimes, a card that is not-yet-playable is re-clued in order to initiate a _Finesse_ or a _Bluff_. Most times, the clue will "fill in" or give extra information to the existing card.
-- Other times, the clue will give no information to the focused card. For example, re-cluing number 3 to an already known 3. In this situation, if it was merely a _Bluff_, it would be pretty low value.
-- Thus, by convention, a "no information" clue like this on a two-away-from-playable card **must** "get" at least 2 new cards (as opposed to a single _Bluff_ that only gets 1 new card).
+- Sometimes, cards are re-clued to cause a _Finesse_ or _Bluff_. But most times, the re-clue will "fill in" or give extra information to the existing card.
+- Formally, a "no-information" clue is defined by having the following criteria:
+  - The re-clue gave no additional positive or negative information to the card.
+  - The elements in the superposition of the re-clued card were the same before and after the clue sequence.
+- Since "no-information" clues are not very valuable, we agree that a "no-information" clue on a two-away-from-playable card **must** "get" at least 2 new cards (as opposed to a single _Finesse_ that only gets 1 new card).
 - For example, in a 3-player game:
   - Nothing is played on the stacks.
   - Alice clues 3's to Cathy, which touches one 3, the red 3.
@@ -138,6 +140,17 @@ import NoInformationDoubleBluff from "./level-20/no-information-double-bluff.yml
 
 <NoInformationDoubleFinesse />
 
+- Even if a clue does not "fill-in" a card, it is not necessarily a "no-information" clue.
+- For example, in a 3-player game:
+  - It is the first turn of the game.
+  - Alice clues red to Cathy, touching a card on slot 1 as a _Play Clue_.
+  - Bob blind-plays a blue 1.
+  - Cathy marks her red card as either a red 2 or a red 3.
+  - Later on in the game, red 1 is now played.
+  - Alice clues red to Cathy, re-touching the card that is in a superposition of red 2 and red 3.
+  - Bob blind-plays a blue 2.
+  - Cathy updates the note on her red card to be exactly red 3.
+  - Everyone at the table understands that this clue gave valuable information to Cathy's red card and would not be considered a "no-information" clue.
 - The "no-information" principle can also be used to perform a _No-Information Layered Finesse_ on the next player. (The next player will know that it is a _Layered Finesse_ instead of a _Bluff_ because some other more-useful clue could have been given to initiate the _Bluff_.)
 
 ### The No-Information Double Bluff

@@ -159,7 +159,7 @@
 
 - With normal H-Group conventions, you must treat all _Play Clues_ as _Delayed Play Clues_. For example, if you get clued about four 1's, and then are clued about one 2, then you must play all four of the 1's before playing the 2.
 - With blind-plays from _Empty Clues_, this does NOT apply. You must immediately blind-play the cards indicated from an _Empty Clue_ (unless you are the final person in the chain).
-- However, as a special exception, you DO have to treat an _Empty Clue_ blind-play as a _Delayed Play Clue_ if you have one or more cards in your hand that are already known-playable. Even if you can determine that the blind-play from the is unrelated to the clued cards, you **still have to play all of the clued cards first**.
+- However, as a special exception, you DO have to treat an _Empty Clue_ blind-play as a _Delayed Play Clue_ if you have one or more cards in your hand that are already known-playable. Even if you can determine that the blind-play is unrelated to the clued cards, you **still have to play all of the clued cards first**.
 - For this reason, you can use an _Empty Clue_ to get a red 2 to play from the same hand that has a known red 1.
 - For example, in a 3-player game:
   - Alice clues Bob 1's, which touches two 1's.

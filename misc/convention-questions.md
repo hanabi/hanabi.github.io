@@ -1,6 +1,6 @@
 # Convention Questions
 
-Ask questions about the H-Group conventions in the in the `convention-questions` forum. But please follow these rules:
+Ask questions about the H-Group conventions in the `convention-questions` forum. But please follow these rules:
 
 ## 1) State the Convention Level
 

@@ -1,9 +1,9 @@
 stacks:
-  - r: 0
-  - y: 1
-  - g: 1
-  - b: 1
-  - p: 1
+  - r: 1
+  - y: 2
+  - g: 2
+  - b: 2
+  - p: 2
 players:
   - clueGiver: true
     cards:
@@ -14,35 +14,34 @@ players:
       - type: x
   - cards:
       - type: x
-        above: Blue 2
+        above: Blue 3
       - type: x
       - type: x
       - type: x
       - type: x
   - cards:
       - type: x
-      - type: 1
-        clue: 1
+      - type: 2
+        clue: 2
         middleNote: (B)
       - type: x
+      - type: 2
+        clue: 2
+        middleNote: (G)
       - type: x
-      - type: x
-  - text: After Bob blind-plays blue 2...
+  - text: After Bob blind-plays blue 3...
   - name: Cathy
     cards:
       - type: x
-      - type: 1
+      - type: 2
         trash: true
       - type: x
         above:
           text:
             - Chop
             - Moved
-      - type: x
-        above:
-          text:
-            - Chop
-            - Moved
+      - type: 2
+        trash: true
       - type: x
         above:
           text:

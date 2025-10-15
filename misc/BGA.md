@@ -241,7 +241,7 @@ These are conventions that we don't typically turn on for new players, but we do
 
 ### The Priority Finesse - Added
 
-- Often times, a player will have two or more playable cards in their hand and have a choice as to which one to play.
+- Oftentimes, a player will have two or more playable cards in their hand and have a choice as to which one to play.
 - On BGA, it is typical for people to play the cards that lead into teammate's hands. However, you are ultimately allowed to play your cards in whatever order you want, and no-one really pays too much attention.
 - In our group, we pay attention.
 - For example:

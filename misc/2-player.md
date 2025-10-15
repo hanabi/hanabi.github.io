@@ -3,7 +3,7 @@
 ## Introduction
 
 - Our group generally only plays games with 3 to 5 players, since 2-player games are not as fun / not as skill-based. In general, the _H-Group Conventions Framework_ is **not optimized for only 2-players**.
-- With that said, it is possible to use the H-Group convention framework to also play 2-player games. Expert players can usually get perfect scores with ease (depending on the variant).
+- With that said, it is possible to use the H-Group convention framework to also play 2-player games. Expert players can usually get perfect scores with ease, depending on the variant.
 - This page provides some extra conventions that are used by our group while playing 2-player games.
 - The goal of these conventions is to get the highest average score for the classic variants (`No Variant` and `Rainbow (6 Suit)`) over a large series of games. Thus, they are designed to be quite conservative. If you are playing a more difficult variant, then it might be prudent to play more risky by disabling certain conventions (e.g. one-away saves, DDA) and adding other ones (e.g. positional discards).
 
@@ -127,7 +127,7 @@
 ### The Flush Save
 
 - This convention only applies to variants with a black suit.
-- Normally, black 3 and black 4 are saved with a black color clue. However, if try to save a black 3 or black 4 like this when it is in a player's slot 1, then will interpret it as a _Flush Clue_ and will misplay it.
+- Normally, black 3 and black 4 are saved with a black color clue. However, if you try to save a black 3 or black 4 with a color when it is in a player's slot 1, then they will interpret it as a _Flush Clue_ and will misplay it.
 - Thus, when players are in this situation, they must save using number. Any number 3 or number 4 clue given to a slot 1 card must be treated as a potential save on a black 3 or a black 4, respectively.
 
 ### The Dark Chop Move

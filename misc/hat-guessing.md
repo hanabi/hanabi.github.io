@@ -253,7 +253,7 @@ First, let's go over some _Hat-Guessing_ terminology before getting into the act
   - Every player with an empty _Play Queue_ also knows the full _Play Queue_ of every player.
 - If your _Play Queue_ is empty, you can interpret the next clue (the first clue that you have not interpreted before).
   - This will only be accurate if every player before you in _Respond Order_ has already performed their action. (In other words, you must wait until it is your turn in order to interpret a _Hat-Guessing_ clue.)
-  - Often times you can make a good guess of every instruction to the players before you. But make sure to pay attention if they deviate from the expected instructions!
+  - Oftentimes you can make a good guess of every instruction to the players before you. But make sure to pay attention if they deviate from the expected instructions!
   - When interpreting a clue, make sure to go back to the turn when the clue was given, to correctly interpret the positions of all cards.
 - To find out what instructions are contained within a _Hat-Guessing_ clue, read the _Clue Value_ from the table.
 - Subtract the _Instruction Value_ from all players that were before you in the _Respond Order_.

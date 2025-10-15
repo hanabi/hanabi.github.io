@@ -6,12 +6,12 @@ import path from "node:path";
 import url from "node:url";
 
 /**
- * Using `import.meta.dirname` here results in an error while building:
+ * Using `import.meta.dirname` in the below loader results in an error while building:
  *
  * "SyntaxError: Cannot use 'import.meta' outside a module"
  */
-// eslint-disable-next-line @typescript-eslint/naming-convention
-const __dirname = path.dirname(url.fileURLToPath(import.meta.url));
+// eslint-disable-next-line unicorn/prefer-import-meta-properties
+const importMetaDirname = path.dirname(url.fileURLToPath(import.meta.url));
 
 export default function hanabiDocusaurusPlugin(): Plugin {
   return {
@@ -76,7 +76,7 @@ export default function hanabiDocusaurusPlugin(): Plugin {
                   // Webpack loaders do not support TypeScript, so the plugin must be transpiled to
                   // a JavaScript file.
                   loader: path.join(
-                    __dirname,
+                    importMetaDirname,
                     "plugin",
                     "dist",
                     "convertYAMLToSVG.js",
