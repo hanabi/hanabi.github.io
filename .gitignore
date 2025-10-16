@@ -153,3 +153,7 @@ dist
 
 # built files
 build/
+
+# Vim
+*.un~
+

@@ -12,6 +12,12 @@ jobs:
 
       # @template-customization-start
 
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.14'
+          cache: 'pip'
+      - run: pip install -r scripts/requirements.txt
+      - run: ./scripts/epub.sh
       - uses: actions/upload-artifact@v4
         with:
           name: build
