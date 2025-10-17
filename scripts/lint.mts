@@ -3,6 +3,7 @@ import { glob } from "glob";
 import path from "node:path";
 
 const REPO_ROOT = path.join(import.meta.dirname, "..");
+
 const BAD_WORDS = [
   // This is a common mistake: https://github.com/hanabi/hanabi.github.io/pull/1367
   "Principal",
