@@ -1,8 +1,12 @@
-import { lintCommands, readFile } from "complete-node";
+import { $o, lintCommands, readFile } from "complete-node";
 import { glob } from "glob";
 import path from "node:path";
 
 const REPO_ROOT = path.join(import.meta.dirname, "..");
+const BAD_WORDS = [
+  // This is a common mistake: https://github.com/hanabi/hanabi.github.io/pull/1367
+  "Principal",
+] as const;
 
 await lintCommands(import.meta.dirname, [
   // Use TypeScript to type-check the code.
@@ -33,6 +37,9 @@ await lintCommands(import.meta.dirname, [
 
   // eslint-disable-next-line unicorn/prefer-top-level-await
   ["check unused YAML files", checkUnusedYAMLFiles()],
+
+  // eslint-disable-next-line unicorn/prefer-top-level-await
+  ["check bad words", checkBadWords()],
 ]);
 
 async function checkUnusedYAMLFiles() {
@@ -94,4 +101,25 @@ async function checkUnusedYAMLFiles() {
       );
     }
   }
+}
+
+async function checkBadWords() {
+  const output = await $o`git ls-files`;
+  const filePaths = output.trim().split("\n");
+  await Promise.all(
+    filePaths.map(async (filePath) => {
+      if (filePath === "scripts/lint.mts") {
+        return;
+      }
+
+      const fileContents = await readFile(filePath);
+      for (const word of BAD_WORDS) {
+        if (fileContents.includes(word)) {
+          throw new Error(
+            `The following file contains the bad word "${word}": ${filePath}`,
+          );
+        }
+      }
+    }),
+  );
 }
