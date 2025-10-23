@@ -11,6 +11,19 @@ The main website lists all of our conventions. But it does not bother listing **
 - _Finesses_ and _Bluffs_ can't "get" a player's chop card. In fact, there are no "moves" that get a player's chop card, at least in our convention framework. So rather than cluing cards on _Finesse Position_, what **is** common for us is to clue playable cards on chop before they get discarded.
 - With all of this in mind, we can see that it makes much more sense to have clues be focused on the chop and let cards on _Finesse Position_ be _Finessed_ or _Bluffed_.
 
+## The 2 Save
+
+- In the H-Group convention framework, we play with the [_2 Save_](https://hanabi.github.io/level-1/#the-2-save) convention, which allow us to easily save the first copy of every 2 that is drawn. This convention does not exist in other convention frameworks like _Board Game Arena_.
+- The basis for this convention is the _5 Save_ convention, so we have to discuss that first.
+- Most Hanabi groups independently come up with the _5 Save_ convention. The reason is straightforward: due to the rules of the game, all 5's are critical and need to be saved. By indicating that an about-to-be-discarded card is a 5 with a number clue, it preserves the ability of color clues to be used for other things, such as _Play Clues_. (Otherwise, all color clues to chop cards would have to be treated as _Save Clues_ on potential 5's, completely preventing the ability to give a _Play Clue_ using color.)
+- The _2 Save_ convention builds upon the already-agreed-upon _5 Save_ convention - it uses the same rules, but just applys them to 2's. However, while the _5 Save_ convention is somehwat logical and intuitive, the _2 Save_ convention is arbitrary. In other words: 2's are not inherantly critical like 5's are. So if you are going to have a _2 Save_ convention, why not have a _3 Save_ convention and a _4 Save_ convention?
+- The answer is that 2's are more important than 3's and 4's:
+  - There are two 2's, two 3's, and two 4's in a Hanabi deck. But they are not of equal value.
+  - In Hanabi games, it is common to discard the first copy of a 2, and then have the second copy appear near the bottom of the deck. In these situations, since the 2 comes so late, there is not enough time to play the 3 and the 4 and the 5 on top of it before the game ends.
+  - When this happens with 3's, it is still fairly bad, but not as bad, since you only need to play the 4 and the 5 on top of it.
+  - When this happens with 4's, it is only slightly bad, since you only need to play the 5 on top of it. (It is still possible to lose a perfect score to a "bottom-deck" 4, but this is not common enough to be worth taking drastic measures to prevent.) 
+- Thus, we see that the lower rank the card is, the more important it is. For that reason, we all agree to "turn on" the _2 Save_ convention but not "turn on" the _3 Save_ convention or the _4 Save_ convention.
+
 ## Mandatory 5 Stalling
 
 - In the H-Group convention framework, we require that the team collectively performs one [_5 Stall_](https://hanabi.github.io/level-2#the-5-stall-cluing-off-chop-5s). Why?
