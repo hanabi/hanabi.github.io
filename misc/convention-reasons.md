@@ -21,7 +21,7 @@ The main website lists all of our conventions. But it does not bother listing **
   - There are two 2's, two 3's, and two 4's in a Hanabi deck. But they are not of equal value.
   - In Hanabi games, it is common to discard the first copy of a 2, and then have the second copy appear near the bottom of the deck. In these situations, since the 2 comes so late, there is not enough time to play the 3 and the 4 and the 5 on top of it before the game ends.
   - When this happens with 3's, it is still fairly bad, but not as bad, since you only need to play the 4 and the 5 on top of it.
-  - When this happens with 4's, it is only slightly bad, since you only need to play the 5 on top of it. (It is still possible to lose a perfect score to a "bottom-deck" 4, but this is not common enough to be worth taking drastic measures to prevent.) 
+  - When this happens with 4's, it is only slightly bad, since you only need to play the 5 on top of it. (It is still possible to lose a perfect score to a "bottom-deck" 4, but this is not common enough to be worth taking drastic measures to prevent.)
 - Thus, we see that the lower rank the card is, the more important it is. For that reason, we all agree to "turn on" the _2 Save_ convention but not "turn on" the _3 Save_ convention or the _4 Save_ convention.
 
 ## Mandatory 5 Stalling
