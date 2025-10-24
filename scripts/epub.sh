@@ -9,7 +9,7 @@ git clone git@github.com:d20cay/epub-template.git epub-src
 cp ../../../static/img/logo.png epub-src/OEBPS/img/logo.png
 rm epub-src/OEBPS/img/cover.png
 # Remove following line once generation of cover works.
-mv ../../../static/img/cover.png epub-src/OEBPS/img/cover.png
+cp ../../../static/img/cover.png epub-src/OEBPS/img/cover.png
 python3 ../../../scripts/epub.py
 
 filename="hgroup-conventions.epub"
