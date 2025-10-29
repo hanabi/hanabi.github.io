@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN"
+ "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd"><ncx version="2005-1" xml:lang="en" xmlns="http://www.daisy.org/z3986/2005/ncx/">
+  <head>
+    <meta content="B581A839-681B-4263-AFB5-BB85F1E58147" name="dtb:uid"/>
+    <meta content="1" name="dtb:depth"/> <!-- TOC depth (e.g. 1.3.2) -->
+    <meta content="0" name="dtb:totalPageCount"/> <!-- 0 means unknown page count, default for epub -->
+    <meta content="0" name="dtb:maxPageNumber"/> <!-- 0 means unknown page count, default for epub -->
+  </head>
+  <docTitle>
+    <text>xxx toc.ncx docTitle</text>
+  </docTitle>
+  <docAuthor>
+    <text>xxx toc.ncx docAuthor</text>
+  </docAuthor>
+  <navMap>
+    <!-- id must not match anything else, just be unique -->
+    <navPoint id="cover" playOrder="1">
+      <navLabel>
+        <text>Cover</text>
+      </navLabel>
+      <content src="parts/cover.xhtml"/>
+    </navPoint>
+    <navPoint id="dedication" playOrder="2">
+      <navLabel>
+        <text>Dedication</text>
+      </navLabel>
+      <content src="parts/dedication.xhtml"/>
+    </navPoint>
+    <navPoint id="preface" playOrder="3">
+      <navLabel>
+        <text>Preface</text>
+      </navLabel>
+      <content src="parts/preface.xhtml"/>
+    </navPoint>
+    <navPoint id="chapter-01" playOrder="4">
+      <navLabel>
+        <text>xxx toc.ncx navPoint Chapter 1</text>
+      </navLabel>
+      <content src="parts/chapter-01.xhtml"/>
+    </navPoint>
+    <navPoint id="conclusion" playOrder="5">
+      <navLabel>
+        <text>Conclusion</text>
+      </navLabel>
+      <content src="parts/conclusion.xhtml"/>
+    </navPoint>
+    <navPoint id="notes" playOrder="6">
+      <navLabel>
+        <text>Notes</text>
+      </navLabel>
+      <content src="parts/notes.xhtml"/>
+    </navPoint>
+  </navMap>
+</ncx>

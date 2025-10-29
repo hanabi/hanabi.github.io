@@ -1,3 +1,4 @@
 beautifulsoup3==4.14.2
 lxml==6.0.2
+markdown==3.9.0
 
