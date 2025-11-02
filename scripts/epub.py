@@ -306,7 +306,7 @@ def construct_xhtml(file_info, link_map):
 
     # Fit image into page.
     for svg in svgs:
-        svg['class'] = svg.get('class', []) + ['img--full-width']
+        svg['class'] = svg.get('class', []) + ['image--full-width']
 
     # Remove unsupported SVG attrs.
     for svg in svgs:
