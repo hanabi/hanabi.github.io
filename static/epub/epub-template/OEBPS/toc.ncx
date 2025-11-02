@@ -14,42 +14,5 @@
     <text>xxx toc.ncx docAuthor</text>
   </docAuthor>
   <navMap>
-    <!-- id must not match anything else, just be unique -->
-    <navPoint id="cover" playOrder="1">
-      <navLabel>
-        <text>Cover</text>
-      </navLabel>
-      <content src="parts/cover.xhtml"/>
-    </navPoint>
-    <navPoint id="dedication" playOrder="2">
-      <navLabel>
-        <text>Dedication</text>
-      </navLabel>
-      <content src="parts/dedication.xhtml"/>
-    </navPoint>
-    <navPoint id="preface" playOrder="3">
-      <navLabel>
-        <text>Preface</text>
-      </navLabel>
-      <content src="parts/preface.xhtml"/>
-    </navPoint>
-    <navPoint id="chapter-01" playOrder="4">
-      <navLabel>
-        <text>xxx toc.ncx navPoint Chapter 1</text>
-      </navLabel>
-      <content src="parts/chapter-01.xhtml"/>
-    </navPoint>
-    <navPoint id="conclusion" playOrder="5">
-      <navLabel>
-        <text>Conclusion</text>
-      </navLabel>
-      <content src="parts/conclusion.xhtml"/>
-    </navPoint>
-    <navPoint id="notes" playOrder="6">
-      <navLabel>
-        <text>Notes</text>
-      </navLabel>
-      <content src="parts/notes.xhtml"/>
-    </navPoint>
   </navMap>
 </ncx>

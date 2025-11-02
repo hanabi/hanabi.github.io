@@ -14,12 +14,14 @@ TITLE_PAGE_PATH = '../../../src/pages/index.tsx'
 SIDEBAR_CONFIG_PATH = '../../../sidebars.ts'
 XHTML_TEMPLATE_PATH = '../../../static/epub/page-template.xhtml'
 
-LOGO_PATH          = 'epub-src/OEBPS/img/logo.png'
-COVER_IMG_PATH     = 'epub-src/OEBPS/img/cover.png'
-COVER_PATH         = 'epub-src/OEBPS/parts/cover.xhtml'
-CONTENT_PATH       = 'epub-src/OEBPS/content.opf'
-TOC_PATH           = 'epub-src/OEBPS/toc.ncx'
-EXAMPLE_PIECES_DIR = 'epub-src/OEBPS/img/pieces'
+LOGO_PATH               = 'epub-src/OEBPS/img/logo.png'
+COVER_IMG_PATH          = 'epub-src/OEBPS/img/cover.png'
+COVER_PATH              = 'epub-src/OEBPS/parts/cover.xhtml'
+TOC_PATH                = 'epub-src/OEBPS/parts/toc.xhtml'
+CONTENT_PATH            = 'epub-src/OEBPS/content.opf'
+TOC_NCX_PATH            = 'epub-src/OEBPS/toc.ncx'
+EXAMPLE_PIECES_DIR      = 'epub-src/OEBPS/img/pieces'
+EXAMPLE_SCREENSHOTS_DIR = 'epub-src/OEBPS/img/examples'
 
 TABS_P = re.compile(r'(<Tabs\b[^>]*?>)((?:.|\n|\r)*?)(<\/Tabs>)')
 TAB_P = re.compile(r'(<TabItem\b[^>]*?>)((?:.|\r|\n)*?)(<\/TabItem>)')
@@ -29,11 +31,14 @@ SVG_PLACEHOLDER_P = re.compile(r'\[example-svg-placeholder\]')
 
 EPUB_ID = 'AF8C59C9-7DBC-4D40-BDEA-2CE8B997C472'
 BOOK_TITLE = 'H-Group Conventions'
+BOOK_AUTHOR = 'H-Group Contributors'
 
 # TODO: Investigate what the logic behind this path compilation is.
 BUILD_PATH_EXCEPTIONS = {
     'examples/5-pull-double-finesse': 'examples/pull-double-finesse',
 }
+
+CONTENT_EXCLUSIONS = ['example-images']
 
 
 def main():
@@ -65,7 +70,7 @@ def main():
     construct_epub(linked_files, link_map, write_xhtml)
 
     # Remove unallowed SVG attributes.
-    example_pieces_paths = collect_example_pieces()
+    example_pieces_paths = collect_examples(EXAMPLE_PIECES_DIR)
     for path in example_pieces_paths:
         if '.svg' != os.path.splitext(path)[1]:
             continue
@@ -81,23 +86,29 @@ def main():
         content_soup = BeautifulSoup(f, 'xml')
     unneeded_parts = ['colophon', 'dedication', 'preface', 'chapter-01',
         'conclusion', 'notes']
+    example_screenshot_paths = collect_examples(EXAMPLE_SCREENSHOTS_DIR)
+    examples_paths = example_pieces_paths + example_screenshot_paths
     content_soup = update_content(content_soup,
                                   toc,
                                   linked_files,
-                                  example_pieces_paths,
+                                  examples_paths,
                                   unneeded_parts)
     with open(CONTENT_PATH, 'w', encoding='utf-8') as f:
         f.write(content_soup.prettify())
 
     # Update TOC.ncx
+    with open(TOC_NCX_PATH) as f:
+        toc_ncx_soup = BeautifulSoup(f, 'lxml-xml')
+    toc_ncx_soup = update_toc_ncx(toc_ncx_soup, toc)
+    with open(TOC_NCX_PATH, 'w', encoding='utf-8') as f:
+        f.write(toc_ncx_soup.prettify())
+
+    # Update TOC.xhtml
     with open(TOC_PATH) as f:
-        toc_soup = BeautifulSoup(f, 'xml')
-    toc_soup = update_toc_ncx(toc_soup, toc)
+        toc_soup = BeautifulSoup(f, 'lxml')
+    toc_soup = update_toc(toc_soup, toc)
     with open(TOC_PATH, 'w', encoding='utf-8') as f:
         f.write(toc_soup.prettify())
-
-    # Update TOC page
-    # TODO
 
 
 def update_cover(cover_soup):
@@ -178,8 +189,6 @@ def collect_linked_files(toc_tree, link_map, files=[]):
 
         elif 'folder' == node['type']:
             collect_linked_files(node['children'], files)
-        else:
-            raise Exception(f'Found unknown file type {node["type"]}.')
     return files
 
 
@@ -208,8 +217,6 @@ def construct_link_map(toc, link_map={}):
             link_map[item['docs_path']] = f'{item['id']}.xhtml'
         elif 'folder' == item ['type']:
             construct_link_map(item['children'], link_map)
-        else:
-            raise Exception(f'Found unknown file type {file["type"]}.')
     return link_map
 
 
@@ -221,8 +228,6 @@ def construct_epub(toc_tree, link_map, write):
             write(entry, xhtml_content)
         elif 'folder' == entry['type']:
             construct_epub(entry['children'], link_map, write)
-        else:
-            raise Exception(f'Found unknown file type {file["type"]}.')
 
 
 def construct_xhtml(file_info, link_map):
@@ -243,6 +248,18 @@ def construct_xhtml(file_info, link_map):
     h2_tag = page_soup.new_tag('h2')
     h2_tag.string = page_title
     chapter_div.append(h2_tag)
+
+    if file_info['docs_path'] in CONTENT_EXCLUSIONS:
+        p = page_soup.new_tag('p')
+        p.append('This content is not avaiable in the epub version due to ')
+        p.append('formatting complications. Please view the content at ')
+        a = page_soup.new_tag('a')
+        a['href'] = f'https://hanabi.github.io{file_info["docs_path"]}'
+        a.string = f'https://hanabi.github.io{file_info["docs_path"]}</a>'
+        p.append(a)
+        p.append('.')
+        chapter_div.append(p)
+        return page_soup.prettify(), page_title
 
     # Get compiled example images.
     with open(ROOT_PATH + file_info['html']) as f:
@@ -286,6 +303,10 @@ def construct_xhtml(file_info, link_map):
 
     # Insert converted md into page soup.
     chapter_div.append(converted_soup)
+
+    # Fit image into page.
+    for svg in svgs:
+        svg['class'] = svg.get('class', []) + ['img--full-width']
 
     # Remove unsupported SVG attrs.
     for svg in svgs:
@@ -345,7 +366,8 @@ def construct_xhtml(file_info, link_map):
         ['fecomponenttransfer', 'feComponentTransfer'], ['fefunca', 'feFuncA'],
         ['fefuncb', 'feFuncB'], ['fefuncg', 'feFuncG'], ['fefuncr', 'feFuncR'],
         ['femergenode', 'feMergeNode'], ['feMergenode', 'feMergeNode'],
-        ['lineargradient', 'linearGradient'], ['fecolormatrix', 'feColorMatrix']]
+        ['lineargradient', 'linearGradient'],
+        ['fecolormatrix', 'feColorMatrix']]
     for repl in repl_list:
         page_str = page_str.replace(repl[0], repl[1])
 
@@ -361,7 +383,6 @@ def extract_frontmatter_title(lines):
         if line.strip().startswith('title: '):
             return line.strip()[7:]
     return None
-
 
 
 def strip_non_md_start(lines):
@@ -386,9 +407,9 @@ def find_frontmatter_delimiters(lines):
     return start_line, end_line
 
 
-def collect_example_pieces():
+def collect_examples(base_dir):
     paths = []
-    for root, _, files in os.walk(EXAMPLE_PIECES_DIR):
+    for root, _, files in os.walk(base_dir):
         for file in files:
             folder = root.split('/', 2)[2]
             paths.append(f'{folder}/{file}')
@@ -425,10 +446,12 @@ def reset_ref_root(ref, from_doc_path):
                 + f'"{from_doc_path}", which doesn\'t exist.')
 
 
-def update_content(content_soup, toc, linked_files, example_pieces_paths, unneeded_items):
-    dc_identifier = content_soup.find('dc:identifier', {'id': 'BookId'})
-    if dc_identifier:
-        dc_identifier.string = EPUB_ID
+def update_content(content_soup, toc, linked_files, examples_paths, unneeded_items):
+    content_soup.find('dc:identifier', {'id': 'BookId'}).string = EPUB_ID
+    content_soup.find('dc:title').string = BOOK_TITLE
+    dc_creator = content_soup.find('dc:creator')
+    dc_creator.string = BOOK_AUTHOR
+    dc_creator['opf:file-as'] = BOOK_AUTHOR
     def rem_item(id_):
         item = content_soup.find('item', {'id': id_})
         itemref = content_soup.find('itemref', {'idref': id_})
@@ -452,11 +475,11 @@ def update_content(content_soup, toc, linked_files, example_pieces_paths, unneed
 
                 itemref = content_soup.new_tag('itemref')
                 itemref['idref'] = toc_item['id']
+                if not toc_item['in_toc']:
+                    itemref['linear'] = 'no'
                 spine.append(itemref)
             elif 'folder' == toc_item['type']:
                 add_pages(toc_item['children'])
-            else:
-                raise Exception('Found unknown type "{toc_item["type"]}".')
     add_pages(toc)
     add_pages(linked_files)
 
@@ -464,7 +487,7 @@ def update_content(content_soup, toc, linked_files, example_pieces_paths, unneed
                       'png': 'image/png',
                       'jpg': 'image/jpeg',
                       'jpeg': 'image/jpeg'}
-    for path in example_pieces_paths:
+    for path in examples_paths:
         item = content_soup.new_tag('item')
         item['id'] = path.replace('/', '_')
         item['href'] = path
@@ -485,12 +508,91 @@ def update_content(content_soup, toc, linked_files, example_pieces_paths, unneed
     return content_soup
 
 
-def update_toc_ncx(toc_soup, toc_items):
-    # TODO: Build toc.
-    meta_uid = toc_soup.find('meta', {'name': 'dtb:uid'})
-    if meta_uid:
-        meta_uid['content'] = EPUB_ID
-    return toc_soup
+def update_toc_ncx(soup, toc):
+    soup.find('meta', {'name': 'dtb:uid'})['content'] = EPUB_ID
+    soup.find('docTitle').find('text').string = BOOK_TITLE
+    soup.find('docAuthor').find('text').string = BOOK_AUTHOR
+
+    navmap = soup.find('navMap')
+    navmap.append(create_ncx_navpoint(1, 'Cover', 'parts/cover.xhtml'))
+    navpoint_tree, _, depth = construct_navpoint_tree(toc, play_order_start=2)
+    navmap.append(navpoint_tree)
+
+    soup.find('meta', {'name': 'dtb:depth'})['content'] = str(depth)
+
+    return soup
+
+
+def construct_navpoint_tree(toc, play_order_start=1, depth=1):
+    play_order = play_order_start
+    soup = BeautifulSoup('', 'lxml-xml')
+    for item in toc:
+        if 'file' == item['type']:
+            soup.append(create_ncx_navpoint(play_order, item['title'],
+                                            f'parts/{item["id"]}.xhtml'))
+            play_order += 1
+        elif 'folder' == item['type']:
+            before_play_order = play_order
+            children_soup, play_order, depth = construct_navpoint_tree(
+                item['children'], play_order, 1 + depth)
+            first_content_src = children_soup.find('content')['src']
+            navpoint = create_ncx_navpoint(before_play_order, item['name'],
+                                           first_content_src, True)
+            navpoint.append(children_soup)
+            soup.append(navpoint)
+    return soup, play_order, depth
+
+
+def create_ncx_navpoint(play_order, label, content_src, is_parent=False):
+    soup = BeautifulSoup('', 'lxml-xml')
+
+    xmlified_id = content_src.replace('/', '_')
+    if is_parent:
+        xmlified_id = 'p' + xmlified_id
+    navpoint = soup.new_tag('navPoint', id=xmlified_id,
+                            playOrder=str(play_order))
+
+    navlabel = soup.new_tag("navLabel")
+    text = soup.new_tag("text")
+    text.string = label
+    navlabel.append(text)
+
+    content = soup.new_tag("content", src=content_src)
+
+    navpoint.append(navlabel)
+    navpoint.append(content)
+    return navpoint
+
+
+def update_toc(soup, toc):
+    body = soup.find('body')
+    body.append(construct_toc_tree(toc))
+    return soup
+
+
+def construct_toc_tree(toc):
+    soup = BeautifulSoup('', 'lxml-xml')
+    ul = soup.new_tag('ul', attrs={'class': 'toc'})
+    for item in toc:
+        if 'file' == item['type']:
+            ul.append(create_toc_li(item['title'], f'{item["id"]}.xhtml'))
+        elif 'folder' == item['type']:
+            group_li = soup.new_tag('li')
+            group_li.string = item['name']
+            group_li.append(construct_toc_tree(item['children']))
+            ul.append(group_li)
+    return ul
+
+
+def create_toc_li(label, href):
+    soup = BeautifulSoup('', 'lxml')
+
+    li = soup.new_tag('li')
+    a = soup.new_tag('a', href=href)
+    a.string = label
+    li.append(a)
+
+    return li
 
 
 if __name__ == '__main__':

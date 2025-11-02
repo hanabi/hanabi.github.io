@@ -94,6 +94,18 @@ a.note {
     font-size: 0.7em;
 }
 
+.toc {
+    list-style-type: none;
+    padding: 0;
+}
+
+.image--full-width {
+    /* Makes image as wide as possible. */
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 .image--cover {
     /* Makes image as large as possible while note exceeding either width or height. */
     max-width: 100%;
