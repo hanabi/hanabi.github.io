@@ -9,6 +9,7 @@ mkdir -p $epubsrc
 cp -r static/epub/epub-template/ "$epubsrc/epub-src/"
 cp    static/img/cover.png       "$epubsrc/epub-src/OEBPS/img"
 cp -r static/img/pieces          "$epubsrc/epub-src/OEBPS/img"
+cp -r static/img/examples        "$epubsrc/epub-src/OEBPS/img"
 cd $epubsrc
 
 python3 ../../../scripts/epub.py

@@ -21,17 +21,28 @@ CONTENT_PATH       = 'epub-src/OEBPS/content.opf'
 TOC_PATH           = 'epub-src/OEBPS/toc.ncx'
 EXAMPLE_PIECES_DIR = 'epub-src/OEBPS/img/pieces'
 
+TABS_P = re.compile(r'(<Tabs\b[^>]*?>)((?:.|\n|\r)*?)(<\/Tabs>)')
+TAB_P = re.compile(r'(<TabItem\b[^>]*?>)((?:.|\r|\n)*?)(<\/TabItem>)')
+GUIDE_PROGRESS_P = re.compile(r'<BeginnersGuideProgress[^>]*?\/>')
+SELF_CLOSE_MDX_P = re.compile(r'<[A-Z]\w*\s/>')
+SVG_PLACEHOLDER_P = re.compile(r'\[example-svg-placeholder\]')
+
 EPUB_ID = 'AF8C59C9-7DBC-4D40-BDEA-2CE8B997C472'
 BOOK_TITLE = 'H-Group Conventions'
+
+# TODO: Investigate what the logic behind this path compilation is.
+BUILD_PATH_EXCEPTIONS = {
+    'examples/5-pull-double-finesse': 'examples/pull-double-finesse',
+}
 
 
 def main():
     # Update cover page with alt text.
     with open(COVER_PATH) as f:
-        cover_soup = BeautifulSoup(f, 'xml')
+        cover_soup = BeautifulSoup(f, 'lxml')
     cover_soup = update_cover(cover_soup)
     with open(COVER_PATH, 'w', encoding='utf-8') as f:
-        f.write(str(cover_soup))
+        f.write(cover_soup.prettify())
 
     # Collect toc file infos.
     with open(SIDEBAR_CONFIG_PATH, 'r') as f:
@@ -47,15 +58,27 @@ def main():
     link_map = link_map | linked_files_link_map
 
     # Combine mdx and html files (for svg file) to xhtml for epub
-    def write_xhtml(file_info, text):
+    def write_xhtml(file_info, xhtml_str):
         with open(ROOT_PATH + file_info['xhtml'], 'w', encoding='utf-8') as f:
-            f.write(str(text))
-    construct_epub(toc, link_map, write_xhtml)
+            f.write(xhtml_str)
+    construct_epub(toc,          link_map, write_xhtml)
+    construct_epub(linked_files, link_map, write_xhtml)
+
+    # Remove unallowed SVG attributes.
+    example_pieces_paths = collect_example_pieces()
+    for path in example_pieces_paths:
+        if '.svg' != os.path.splitext(path)[1]:
+            continue
+        piece_path = 'epub-src/OEBPS/' + path
+        with open(piece_path, 'r') as f:
+            soup = BeautifulSoup(f, 'lxml-xml') 
+        cleaned_svg_soup = replace_unallowed_svg_attrs(soup)
+        with open(piece_path, 'w', encoding='utf-8') as f:
+            f.write(cleaned_svg_soup.prettify())
 
     # Update content.opf with new files.
     with open(CONTENT_PATH) as f:
         content_soup = BeautifulSoup(f, 'xml')
-    example_pieces_paths = collect_example_pieces()
     unneeded_parts = ['colophon', 'dedication', 'preface', 'chapter-01',
         'conclusion', 'notes']
     content_soup = update_content(content_soup,
@@ -64,14 +87,14 @@ def main():
                                   example_pieces_paths,
                                   unneeded_parts)
     with open(CONTENT_PATH, 'w', encoding='utf-8') as f:
-        f.write(str(content_soup))
+        f.write(content_soup.prettify())
 
     # Update TOC.ncx
     with open(TOC_PATH) as f:
         toc_soup = BeautifulSoup(f, 'xml')
     toc_soup = update_toc_ncx(toc_soup, toc)
     with open(TOC_PATH, 'w', encoding='utf-8') as f:
-        f.write(str(toc_soup))
+        f.write(toc_soup.prettify())
 
     # Update TOC page
     # TODO
@@ -133,24 +156,26 @@ def collect_linked_files(toc_tree, link_map, files=[]):
             converted_html = Markdown(extensions=['extra']).convert(mdx_str)
             converted_soup = BeautifulSoup(converted_html, 'html.parser')
             for a_tag in converted_soup.find_all("a", href=True):
-                root_capt_pattern \
-                    = r'^(?!https?)(?:(?:(?:\.\.\/)?\.\.)?\/)?(.+)$'
-                match = re.search(root_capt_pattern, a_tag['href'])
-                if match:
-                    clean_href = match.group(1)
-                    # TODO: Delete next 6 lines and implement anchor links.
-                    anchor_parts = clean_href.split('#')
-                    if len(anchor_parts) > 1:
-                        if '' != anchor_parts[0]:
-                            clean_href = anchor_parts[0]
-                        elif '' == anchor_parts[0]:
-                            continue
+                href = a_tag['href']
+                if href.startswith('http://') or href.startswith('https://'):
+                    continue
+                elif href.startswith('#'): continue # TODO: Delete and impl anchor links
 
-                    # Strip file ending.
-                    if clean_href.endswith('.mdx'):
-                        clean_href = clean_href[:-4]
-                    if clean_href not in link_map:
-                        files.append(build_file_info(clean_href, False))
+                # Fix "malformed" anchor links.
+                href = href.replace('/#', '#')
+
+                # TODO: Delete next 3 lines and implement anchor links.
+                anchor_parts = href.split('#')
+                if len(anchor_parts) > 1 and '' != anchor_parts[0]:
+                    href = anchor_parts[0]
+
+                if href.endswith('.mdx'): href = href[:-4]
+
+                r_href = reset_ref_root(href, node['docs_path'])
+
+                if r_href not in link_map:
+                    files.append(build_file_info(r_href, False))
+
         elif 'folder' == node['type']:
             collect_linked_files(node['children'], files)
         else:
@@ -159,6 +184,10 @@ def collect_linked_files(toc_tree, link_map, files=[]):
 
 
 def build_file_info(docs_path, in_toc):
+    build_path = docs_path
+    if docs_path in BUILD_PATH_EXCEPTIONS:
+        build_path = BUILD_PATH_EXCEPTIONS[docs_path]
+
     # Adding 'a' to file id, because epub requires manifest item ids to
     # start with a letter.
     file_id = 'a' + str(uuid4())
@@ -166,7 +195,7 @@ def build_file_info(docs_path, in_toc):
         'type': 'file',
         'docs_path': docs_path,
         'mdx': f'docs/{docs_path}.mdx',
-        'html': f'build/{docs_path}/index.html',
+        'html': f'build/{build_path}/index.html',
         'xhtml': f'build/assets/epub/epub-src/OEBPS/parts/{file_id}.xhtml',
         'id': file_id,
         'in_toc': in_toc,
@@ -207,7 +236,7 @@ def construct_xhtml(file_info, link_map):
 
     # Create page soup.
     with open(XHTML_TEMPLATE_PATH) as f:
-        page_soup = BeautifulSoup(f, 'lxml-xml')
+        page_soup = BeautifulSoup(f, 'lxml')
     chapter_div = page_soup.find('div', class_='chapter')
     # Insert page title
     page_soup.title.string = page_title
@@ -219,23 +248,16 @@ def construct_xhtml(file_info, link_map):
     with open(ROOT_PATH + file_info['html']) as f:
         html_soup = BeautifulSoup(f, 'lxml')
     svgs = html_soup.find_all('svg', {'xmlns': 'http://www.w3.org/2000/svg',
-                                  'class': 'example'})
-    for svg in svgs:
-        svg.attrs.pop('baseprofile')
-        for image in svg.find_all('image'):
-            image['xlink:href'] = '..' + image['xlink:href']
-    if None == svgs: svgs = []
+                              'class': 'example'})
 
     # Replace MDX tags with md compatibles
     mdx_source = ''.join(mdx_lines)
     # Removes <Tabs> and inserts page-break between contents of <TabItems>.
-    tabs_pattern = re.compile(r'(<Tabs\b[^>]*?>)((?:.|\n|\r)*?)(<\/Tabs>)')
-    tab_pattern = re.compile(r'(<TabItem\b[^>]*?>)([^<]*?)(<\/TabItem>)')
     page_break = '<div style="page-break: after;"></div>'
-    for tabs_open_tag, tabs_content, tabs_close_tag in tabs_pattern.findall(
+    for tabs_open_tag, tabs_content, tabs_close_tag in TABS_P.findall(
         mdx_source):
         mdx_source = mdx_source.replace(tabs_open_tag, '', 1)
-        for tab_open_tag, tab_content, tab_close_tag in tab_pattern.findall(
+        for tab_open_tag, tab_content, tab_close_tag in TAB_P.findall(
             tabs_content):
             mdx_source = mdx_source.replace(tab_open_tag, '', 1)
             mdx_source = mdx_source.replace(tab_close_tag, page_break, 1)
@@ -243,49 +265,91 @@ def construct_xhtml(file_info, link_map):
         mdx_source = ''.join(mdx_source.rsplit(page_break, 1))
         mdx_source = mdx_source.replace(tabs_close_tag, '', 1)
     # Removes BeginnersGuideProgress
-    guide_progress_pattern = re.compile(r'<BeginnersGuideProgress[^>]*?\/>')
-    mdx_source = re.sub(guide_progress_pattern, '', mdx_source)
+    mdx_source = re.sub(GUIDE_PROGRESS_P, '', mdx_source)
 
-    # Replaces remaining mdx tags with compiled example SVGs.
-    self_close_mdx_pattern = re.compile(r'<[A-Z]\w*\s/>')
-    mdx_matches = self_close_mdx_pattern.findall(mdx_source)
+    # Prepare SVG replacement for html soup.
+    mdx_matches = SELF_CLOSE_MDX_P.findall(mdx_source)
     if len(mdx_matches) > len(svgs):
         raise Exception(f'Unexpected MDX tag found. Have {len(svgs)} SVGs to'
-            + ' insert, but found {len(mdx_matches)} MDX tags, namely:'
-            + ' {mdx_matches}.')
+            + f' insert, but found {len(mdx_matches)} MDX tags, namely:'
+            + f' {mdx_matches}.')
     else:
         i = 0
         for mdx_tag in mdx_matches:
-            mdx_source = mdx_source.replace(mdx_tag, str(svgs[i]))
+            mdx_source = mdx_source.replace(mdx_tag, '[example-svg-placeholder]')
             i += 1
 
-    # Insert converted html.
+    # Convert to html.
     converted_html = Markdown(extensions=['extra']).convert(mdx_source)
+    # Use html.parser instead of lxml to avoid nested <html>, and <body> tags.
     converted_soup = BeautifulSoup(converted_html, 'html.parser')
+
+    # Insert converted md into page soup.
     chapter_div.append(converted_soup)
 
+    # Remove unsupported SVG attrs.
+    for svg in svgs:
+        replace_unallowed_svg_attrs(svg)
+
+    # Fix rel SVG links.
+    for svg in svgs:
+        for image in svg.find_all('image'):
+            image['xlink:href'] = '..' + image['xlink:href']
+        invalid_tags = [
+            tag for tag in svg.find_all(id=True)
+            if not re.match(r'^[A-Za-z_][A-Za-z0-9._-]*$', tag['id'])
+        ]
+        for tag in invalid_tags:
+            tag['id'] = '_' + tag['id']
+
+    # Insert example SVGs into soup.
+    svg_placeholders = chapter_div.find_all(string=SVG_PLACEHOLDER_P)
+    i = 0
+    for p in svg_placeholders:
+        wrapper = p.find_parent()
+        wrapper.replace_with(svgs[i])
+        i += 1
+
     # Map doc links to xhtml file.
-    for a_tag in chapter_div.find_all("a", href=True):
+    for a_tag in chapter_div.find_all('a', href=True):
         # TODO: Delete following if and impelement anchor links.
         if '#' in a_tag['href']:
             a_tag.replace_with(a_tag.text)
             continue
 
         href = a_tag['href']
-        r_href = None
         if href.startswith('https://') or href.startswith('http://'):
             continue
-        # Removing relative path information, since I'm working with root.
-        elif href.startswith('../../'): r_href = href[6:]
-        elif href.startswith('../'):    r_href = href[3:]
-        elif href.startswith('/'):      r_href = href[1:]
-        else:                           r_href = href
-        # Strip file ending.
-        if r_href.endswith('.mdx'): r_href = r_href[:-4]
+
+        if href.endswith('.mdx'): href = href[:-4]
+
+        r_href = reset_ref_root(href, file_info['docs_path'])
 
         if r_href in link_map:
             a_tag['href'] = link_map[r_href]
-    return page_soup, page_title
+
+    # Fix example image links.
+    for img_tag in chapter_div.find_all('img', src=True):
+        if img_tag['src'].startswith('/img/examples/'):
+            img_tag['src'] = '..' + img_tag['src']
+
+    # Prepares soup for writing.
+    page_str = page_soup.prettify()
+
+    # Fixes svg issues.
+    # The fixing of the svgs must happen in the string. Otherwise it will be
+    # screwed up by bs4 when prettifying.
+    repl_list = [['baseprofile', 'baseProfile'], ['viewbox', 'viewBox'],
+        ['feflood', 'feFlood'], ['feoffset', 'feOffset'],
+        ['femorphology', 'feMorphology'], ['femerge', 'feMerge'],
+        ['fecomponenttransfer', 'feComponentTransfer'], ['fefunca', 'feFuncA'],
+        ['fefuncb', 'feFuncB'], ['fefuncg', 'feFuncG'], ['fefuncr', 'feFuncR'],
+        ['femergenode', 'feMergeNode'], ['feMergenode', 'feMergeNode'],
+        ['lineargradient', 'linearGradient'], ['fecolormatrix', 'feColorMatrix']]
+    for repl in repl_list:
+        page_str = page_str.replace(repl[0], repl[1])
+
+    return page_str, page_title
 
 
 def extract_frontmatter_title(lines):
@@ -303,7 +367,7 @@ def extract_frontmatter_title(lines):
 def strip_non_md_start(lines):
     fm_start, fm_end = find_frontmatter_delimiters(lines)
     # Strips imports
-    for i in range(fm_end, len(lines)):
+    for i in range(fm_end + 1, len(lines)):
         line = lines[i].strip()
         if '' != line and not line.startswith('import '):
             lines = lines[i:]
@@ -329,6 +393,36 @@ def collect_example_pieces():
             folder = root.split('/', 2)[2]
             paths.append(f'{folder}/{file}')
     return paths
+
+
+def replace_unallowed_svg_attrs(soup):
+    rem_list = ['paint-order']
+    for rem in rem_list:
+        for tag in soup.find_all(attrs={'paint-order': True}):
+            tag.attrs.pop(rem)
+    return soup
+
+
+def reset_ref_root(ref, from_doc_path):
+    parent_path_parts = from_doc_path.split('/')[:-1]
+
+    while True:
+        root_ref = None
+        if ref.startswith('https://') or ref.startswith('http://'): return ref
+        elif ref.startswith('../'):
+            back_c = ref.count('../')
+            root_ref = '/'.join(parent_path_parts[:-back_c] \
+                                + [ref[back_c * 3:]])
+        elif ref.startswith('/'): root_ref = ref[1:]
+        else:                     root_ref = '/'.join(parent_path_parts + [ref])
+
+        if os.path.isfile(ROOT_PATH + 'docs/' + root_ref + '.mdx'):
+            return root_ref
+        elif ref.count('../') < len(parent_path_parts):
+            ref = '../' + ref
+        else:
+            raise Exception(f'Found reference "{ref}" in file ' \
+                + f'"{from_doc_path}", which doesn\'t exist.')
 
 
 def update_content(content_soup, toc, linked_files, example_pieces_paths, unneeded_items):
@@ -372,12 +466,12 @@ def update_content(content_soup, toc, linked_files, example_pieces_paths, unneed
                       'jpeg': 'image/jpeg'}
     for path in example_pieces_paths:
         item = content_soup.new_tag('item')
-        item['id'] = path
+        item['id'] = path.replace('/', '_')
         item['href'] = path
         file_t = path.rsplit('.', 1)[1].lower()
         if file_t not in media_type_map:
             raise Exception(f'Found unexpected file type {file_t}. Expected'
-                + ' one of {media_type_map.keys()}.')
+                + f' one of {media_type_map.keys()}.')
         item['media-type'] = media_type_map[file_t]
         manifest.append(item)
 
