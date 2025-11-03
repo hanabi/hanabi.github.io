@@ -251,7 +251,7 @@ def construct_xhtml(file_info, link_map):
 
     if file_info['docs_path'] in CONTENT_EXCLUSIONS:
         p = page_soup.new_tag('p')
-        p.append('This content is not avaiable in the epub version due to ')
+        p.append('This content is not available in the epub version due to ')
         p.append('formatting complications. Please view the content at ')
         a = page_soup.new_tag('a')
         a['href'] = f'https://hanabi.github.io{file_info["docs_path"]}'
@@ -333,7 +333,7 @@ def construct_xhtml(file_info, link_map):
 
     # Map doc links to xhtml file.
     for a_tag in chapter_div.find_all('a', href=True):
-        # TODO: Delete following if and impelement anchor links.
+        # TODO: Delete following if and implement anchor links.
         if '#' in a_tag['href']:
             a_tag.replace_with(a_tag.text)
             continue
