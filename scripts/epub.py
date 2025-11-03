@@ -33,10 +33,12 @@ EPUB_ID = 'AF8C59C9-7DBC-4D40-BDEA-2CE8B997C472'
 BOOK_TITLE = 'H-Group Conventions'
 BOOK_AUTHOR = 'H-Group Contributors'
 
-# TODO: Investigate what the logic behind this path compilation is.
+# TODO: Add logic to link files correctly if included as link from another mdx file.
 BUILD_PATH_EXCEPTIONS = {
     'examples/5-pull-double-finesse': 'examples/pull-double-finesse',
 }
+
+# TODO: Fix nesting of md lists by doubling spacing before item denotion if = 2.
 
 CONTENT_EXCLUSIONS = ['example-images']
 
