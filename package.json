@@ -48,7 +48,11 @@
     "complete-lint": "4.2.1",
     "complete-node": "12.2.1",
     "glob": "11.0.3",
+<<<<<<< HEAD
     "prettier-plugin-sh": "0.17.4",
+=======
+    "prettier": "3.6.2",
+>>>>>>> 358fc81f5 (Fixes prettier issues.)
     "typescript": "5.9.3",
     "webpack": "5.102.1"
   }

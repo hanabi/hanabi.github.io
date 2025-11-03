@@ -1,119 +1,120 @@
 @font-face {
-    font-family: "Libre Baskerville";
-    font-style: normal;
-    font-weight: 400;
-    src: url("../fonts/LibreBaskerville-Regular.otf");
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/LibreBaskerville-Regular.otf");
 }
 @font-face {
-    font-family: "Libre Baskerville";
-    font-style: italic;
-    font-weight: 400;
-    src: url("../fonts/LibreBaskerville-Italic.otf");
+  font-family: "Libre Baskerville";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/LibreBaskerville-Italic.otf");
 }
 @font-face {
-    font-family: "Libre Baskerville";
-    font-style: normal;
-    font-weight: 700;
-    src: url("../fonts/LibreBaskerville-Bold.otf");
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/LibreBaskerville-Bold.otf");
 }
 @font-face {
-    font-family: "Libre Baskerville";
-    font-style: italic;
-    font-weight: 700;
-    src: url("../fonts/LibreBaskerville-BoldItalic.otf");
+  font-family: "Libre Baskerville";
+  font-style: italic;
+  font-weight: 700;
+  src: url("../fonts/LibreBaskerville-BoldItalic.otf");
 }
 
 @page {
-    margin: 5pt;
+  margin: 5pt;
 }
 
 html body {
-    margin: 0;
-    font-family: "Libre Baskerville", serif;
+  margin: 0;
+  font-family: "Libre Baskerville", serif;
 }
 
 .chapter {
-    margin-top: 1em;
+  margin-top: 1em;
 }
 .chapter__head {
-    width: 100%;
-    page-break-inside: avoid; /* Deprecated */
-    break-inside: avoid;
+  width: 100%;
+  page-break-inside: avoid; /* Deprecated */
+  break-inside: avoid;
 }
-h1 + p, .chapter__head + p {
-    text-indent: 0;
+h1 + p,
+.chapter__head + p {
+  text-indent: 0;
 }
 
 .text {
-    font-family: "Libre Baskerville", serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 1em;
-    text-decoration: none;
-    font-variant: normal;
-    line-height: 1.2;
-    text-align: justify;
-    color: #000000;
-    text-indent: 1.5em;
-    margin: 0px;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1em;
+  text-decoration: none;
+  font-variant: normal;
+  line-height: 1.2;
+  text-align: justify;
+  color: #000000;
+  text-indent: 1.5em;
+  margin: 0px;
 }
 .text--noindent {
-    text-indent: 0;
+  text-indent: 0;
 }
 .text--em {
-    font-style: italic;
+  font-style: italic;
 }
 .text--bold {
-    font-weight: 700;
+  font-weight: 700;
 }
 .text--small-caps {
-    font-variant: small-caps;
+  font-variant: small-caps;
 }
 .text--small {
-    font-size: .75em;
+  font-size: 0.75em;
 }
 
-.quote { /* Best used with <blockquote> */
-    margin: 1em 1.5em;
+.quote {
+  /* Best used with <blockquote> */
+  margin: 1em 1.5em;
 }
 .quote__title {
-    text-align: center;
-    margin: 0.5em 0;
+  text-align: center;
+  margin: 0.5em 0;
 }
 
 .illustration {
-    text-align: center;
-    margin: 1em 0;
-    clear: both;
-    page-break-inside: avoid; /* Deprecated */
-    break-inside: avoid;
+  text-align: center;
+  margin: 1em 0;
+  clear: both;
+  page-break-inside: avoid; /* Deprecated */
+  break-inside: avoid;
 }
 
 a.note {
-    vertical-align: super;
-    font-size: 0.7em;
+  vertical-align: super;
+  font-size: 0.7em;
 }
 
 .toc {
-    list-style-type: none;
-    padding: 0;
+  list-style-type: none;
+  padding: 0;
 }
 
 .image--full-width {
-    /* Makes image as wide as possible. */
-    width: 100%;
-    height: auto;
-    display: block;
+  /* Makes image as wide as possible. */
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 .image--cover {
-    /* Makes image as large as possible while note exceeding either width or height. */
-    max-width: 100%;
-    max-height: 100%;
-    width: auto;
-    height: auto;
-    object-fit: contain;
-    display: block;
-    margin: auto;
+  /* Makes image as large as possible while note exceeding either width or height. */
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  margin: auto;
 }
-
