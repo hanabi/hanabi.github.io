@@ -38,7 +38,7 @@ BUILD_PATH_EXCEPTIONS = {
     'examples/5-pull-double-finesse': 'examples/pull-double-finesse',
 }
 
-# TODO: Fix nesting of md lists by doubling spacing before item denotion if = 2.
+# TODO: Fix nesting of md lists by doubling spacing before item indicator if = 2.
 
 CONTENT_EXCLUSIONS = ['example-images']
 
