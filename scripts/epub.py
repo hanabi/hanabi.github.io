@@ -28,17 +28,12 @@ TAB_P = re.compile(r'(<TabItem\b[^>]*?>)((?:.|\r|\n)*?)(<\/TabItem>)')
 GUIDE_PROGRESS_P = re.compile(r'<BeginnersGuideProgress[^>]*?\/>')
 SELF_CLOSE_MDX_P = re.compile(r'<[A-Z]\w*\s/>')
 SVG_PLACEHOLDER_P = re.compile(r'\[example-svg-placeholder\]')
+LIST_ITEM_P = re.compile(r'^\s*(?:[\*\-+]|\d+\.)\s*.*')
+D_PREFIX_FILE_P = re.compile(r'(?:\d+[-_])+([A-Za-z0-1-_]+)')
 
 EPUB_ID = 'AF8C59C9-7DBC-4D40-BDEA-2CE8B997C472'
 BOOK_TITLE = 'H-Group Conventions'
 BOOK_AUTHOR = 'H-Group Contributors'
-
-# TODO: Add logic to link files correctly if included as link from another mdx file.
-BUILD_PATH_EXCEPTIONS = {
-    'examples/5-pull-double-finesse': 'examples/pull-double-finesse',
-}
-
-# TODO: Fix nesting of md lists by doubling spacing before item indicator if = 2.
 
 CONTENT_EXCLUSIONS = ['example-images']
 
@@ -196,8 +191,16 @@ def collect_linked_files(toc_tree, link_map, files=[]):
 
 def build_file_info(docs_path, in_toc):
     build_path = docs_path
-    if docs_path in BUILD_PATH_EXCEPTIONS:
-        build_path = BUILD_PATH_EXCEPTIONS[docs_path]
+    path_atoms = build_path.split('/')
+    if not in_toc:
+        fixed = False
+        for i in range(len(path_atoms)):
+            atom = path_atoms[i]
+            match = re.fullmatch(D_PREFIX_FILE_P, atom)
+            if match:
+                fixed = True
+                path_atoms[i] = match.group(1)
+        if fixed: build_path = '/'.join(path_atoms)
 
     # Adding 'a' to file id, because epub requires manifest item ids to
     # start with a letter.
@@ -241,6 +244,24 @@ def construct_xhtml(file_info, link_map):
     # Strips frontmatter and import statements from mdx lines.
     mdx_lines = strip_non_md_start(mdx_lines)
 
+    # Fix list indentation depth for md parser.
+    min_list_indent = -1
+    for i in range(len(mdx_lines)):
+        line = mdx_lines[i]
+        if not re.match(LIST_ITEM_P, line):
+            continue
+        content_len = len(line.lstrip())
+        strip_delta = len(line) - content_len
+        if -1 == min_list_indent and 0 != content_len and 0 != strip_delta:
+            # Assumes first list indent is min indent.
+            min_list_indent = strip_delta
+        if min_list_indent > 0 and min_list_indent < 4 and 0 < strip_delta:
+            leading_s = line[:strip_delta]
+            mdx_lines[i] = leading_s + line
+
+    # Join to single string.
+    mdx_source = ''.join(mdx_lines)
+
     # Create page soup.
     with open(XHTML_TEMPLATE_PATH) as f:
         page_soup = BeautifulSoup(f, 'lxml')
@@ -269,10 +290,8 @@ def construct_xhtml(file_info, link_map):
     svgs = html_soup.find_all('svg', {'xmlns': 'http://www.w3.org/2000/svg',
                               'class': 'example'})
 
-    # Replace MDX tags with md compatibles
-    mdx_source = ''.join(mdx_lines)
     # Removes <Tabs> and inserts page-break between contents of <TabItems>.
-    page_break = '<div style="page-break: after;"></div>'
+    page_break = '<div style="page-break-after: always;"></div>'
     for tabs_open_tag, tabs_content, tabs_close_tag in TABS_P.findall(
         mdx_source):
         mdx_source = mdx_source.replace(tabs_open_tag, '', 1)
