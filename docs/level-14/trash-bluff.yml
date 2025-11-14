@@ -36,10 +36,6 @@ players:
       - type: 2
         trash: true
       - type: x
-        above:
-          text:
-            - Chop
-            - Moved
       - type: 2
         trash: true
       - type: x

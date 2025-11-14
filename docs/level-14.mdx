@@ -62,7 +62,7 @@ import TrashPush from "./level-14/trash-push.yml";
 - Normally, when a trash card is clued, it signifies a _Trash Chop Move_ or a _Trash Push_. However, for both of these strategies to work, it is assumed that the recipient of the clue will know that the card that was touched is useless.
 - What if the recipient of the clue does **not** know that the card that the clued card is trash? Then, they would go on to misplay that card, mistaking it for a "normal" _Play Clue_.
 - If players misrepresent the identity of a trash card in this way, it is a signal that a player has the originally-promised card on their _Finesse Position_.
-- After a _Trash Finesse_, the player who was clued should _Chop Move_ all of the cards to the right of the focused card. (In other words, you can think of a _Trash Finesse_ as both a _Finesse_ and a _Trash Chop Move_ at the same time.)
+- After a _Trash Finesse_, the player who was clued should _Chop Move_ all of the cards to the right of the trash card. (In other words, you can think of a _Trash Finesse_ as both a _Finesse_ and a _Trash Chop Move_ at the same time.)
   - If the clued card in a _Trash Finesse_ was already on chop, then nothing extra happens.
   - For level 24 players, an [extra thing happens](level-24.mdx#trash-finesses-and-trash-bluffs-are-always-unnecessary).
 - For example, in a 4-player game:
@@ -74,7 +74,7 @@ import TrashPush from "./level-14/trash-push.yml";
 
 <TrashFinesse />
 
-- In the case where multiple cards are clued as part of a _Trash Finesse_, **all** of the touched cards are considered to be trash.
+- In the case where multiple cards are clued as part of a _Trash Finesse_, **all** of the touched cards are considered to be trash, and the cards to the right of the rightmost trash card are _Chop Moved_ (similar to how a _Trash Chop Move_ works).
 - _Double Trash Finesses_ are explicitly disallowed. Thus, it is possible to perform a _Trash Finesse_ in a situation like this:
   - All the 1's are played on the stacks except for red 1 and blue 1.
   - Alice clues number 1 to Donald, which touches two green 1's on slot 1 and 2. To Donald, this will look like it is both the red 1 and the blue 1.
@@ -140,7 +140,7 @@ import TrashPush from "./level-14/trash-push.yml";
   - Alice clues Cathy number 2, which touches her slot 2 and slot 4 cards. The card on slot 2 is a blue 2, but Cathy will assume that it is a red 2.
   - Bob blind-plays his _Finesse Position_ card, and it is a playable blue 3.
   - Cathy now knows that her 2 on slot 2 must not be red 2, or else Bob would not have blind-played anything. The 2 must be some other trash card.
-  - Additionally, Cathy marks her slot 3 and slot 5 cards as being _Chop Moved_.
+  - Additionally, Cathy marks her slot 5 card as being _Chop Moved_.
 
 <TrashBluff />
 
