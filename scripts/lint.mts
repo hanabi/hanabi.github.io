@@ -1,40 +1,47 @@
-import { $, lintScript, readFile } from "complete-node";
+import { $o, lintCommands, readFile } from "complete-node";
 import { glob } from "glob";
 import path from "node:path";
 
 const REPO_ROOT = path.join(import.meta.dirname, "..");
 
-await lintScript(import.meta.dirname, async () => {
-  await Promise.all([
-    // Use TypeScript to type-check the code.
-    $`tsc --noEmit`,
-    $`tsc --noEmit --project ./scripts/tsconfig.json`,
+const BAD_WORDS = [
+  // This is a common mistake: https://github.com/hanabi/hanabi.github.io/pull/1367
+  "Principal",
+] as const;
 
-    // Use ESLint to lint the TypeScript code.
-    // - "--max-warnings 0" makes warnings fail, since we set all ESLint errors to warnings.
-    $`eslint --max-warnings 0 .`,
+await lintCommands(import.meta.dirname, [
+  // Use TypeScript to type-check the code.
+  "tsc --noEmit",
+  "tsc --noEmit --project ./scripts/tsconfig.json",
 
-    // Use Prettier to check formatting.
-    // - "--log-level=warn" makes it only output errors.
-    $`prettier --log-level=warn --check .`,
+  // Use ESLint to lint the TypeScript code.
+  // - "--max-warnings 0" makes warnings fail, since we set all ESLint errors to warnings.
+  "eslint --max-warnings 0 .",
 
-    // Use Knip to check for unused files, exports, and dependencies. (We do not currently use Knip
-    // since there is no Docusaurus plugin and whitelisting everything does not get us much value.)
-    /// $`knip --no-progress`,
+  // Use Prettier to check formatting.
+  // - "--log-level=warn" makes it only output errors.
+  "prettier --log-level=warn --check .",
 
-    // Use CSpell to spell check every file.
-    // - "--no-progress" and "--no-summary" make it only output errors.
-    $`cspell --no-progress --no-summary .`,
+  // Use Knip to check for unused files, exports, and dependencies. (We do not currently use Knip
+  // since there is no Docusaurus plugin and whitelisting everything does not get us much value.)
+  /// $`knip --no-progress`,
 
-    // Check for unused words in the CSpell configuration file.
-    $`cspell-check-unused-words`,
+  // Use CSpell to spell check every file.
+  // - "--no-progress" and "--no-summary" make it only output errors.
+  "cspell --no-progress --no-summary .",
 
-    // Check for template updates.
-    $`complete-cli check --ignore build.ts,knip.config.js,LICENSE,lint.ts`,
+  // Check for unused words in the CSpell configuration file.
+  "cspell-check-unused-words",
 
-    checkUnusedYAMLFiles(),
-  ]);
-});
+  // Check for template updates.
+  "complete-cli check --ignore build.ts,knip.config.js,LICENSE,lint.ts",
+
+  // eslint-disable-next-line unicorn/prefer-top-level-await
+  ["check unused YAML files", checkUnusedYAMLFiles()],
+
+  // eslint-disable-next-line unicorn/prefer-top-level-await
+  ["check bad words", checkBadWords()],
+]);
 
 async function checkUnusedYAMLFiles() {
   const importRegex = /import .+ from ".*\/(.+.yml)/;
@@ -95,4 +102,25 @@ async function checkUnusedYAMLFiles() {
       );
     }
   }
+}
+
+async function checkBadWords() {
+  const output = await $o`git ls-files`;
+  const filePaths = output.trim().split("\n");
+  await Promise.all(
+    filePaths.map(async (filePath) => {
+      if (filePath === "scripts/lint.mts") {
+        return;
+      }
+
+      const fileContents = await readFile(filePath);
+      for (const word of BAD_WORDS) {
+        if (fileContents.includes(word)) {
+          throw new Error(
+            `The following file contains the bad word "${word}": ${filePath}`,
+          );
+        }
+      }
+    }),
+  );
 }

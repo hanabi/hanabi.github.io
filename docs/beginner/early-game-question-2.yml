@@ -22,7 +22,7 @@ players:
       - type: y2
         border: false
   - cards:
-      - type: g3
+      - type: b3
         border: false
       - type: p4
         border: false

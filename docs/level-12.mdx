@@ -158,11 +158,11 @@ import CluingOnes3 from "./level-12/cluing-ones-3.yml";
 - Just like a "normal" _Play Clue_ that touches multiple new cards, the chop card (and other new cards introduced) are not necessarily playable right now.
 - For example, in a 3-player game:
   - Alice clues 1's to Bob, which introduces one card on slot 1.
-  - Bob plays the 1 and it is red 1.
+  - Bob plays the 1. It is a red 1 and successfully plays.
   - Cathy clues blue to Bob, which introduces two cards on slot 1 and slot 5.
   - Normally, Bob would think that this is a _Chop-Focus_ clue, and play the blue 1 from slot 5.
-  - However, his slot 5 card has a negative 1 clue on it (from Alice's number 1 clue), so it explicitly cannot be the blue 1.
-  - Thus, this must be _Focus Inversion_ and blue 1 must be on slot 1. The blue card on slot 5 can be either blue 2, blue 3, blue 4, or blue 5.
+  - However, his slot 5 card has a negative 1 clue on it (from Alice's number 1 clue earlier), so it explicitly cannot be the blue 1.
+  - Thus, this must be _Focus Inversion_ and the blue 1 must be on slot 1. The blue card on slot 5 can be either blue 2, blue 3, blue 4, or blue 5.
 
 <FocusInversion />
 
@@ -217,7 +217,8 @@ import CluingOnes3 from "./level-12/cluing-ones-3.yml";
   - Donald is holding a cluable red 2.
   - Alice would like to get the red 1 and the blue 1 played. (No-one else has a red 1 or a blue 1.) Should she clue 1, red, or blue?
   - Just like in the previous example, cluing number 1 means that the red 2 will have to be clued as a 1-for-1, which results in an efficiency of 3-for-2.
-  - Instead, Alice clues blue to Cathy as a 2-for-1. Next, Bob will clue red to Donald, performing the _Finesse_ as a 2-for-1. In total, this is a 4-for-2.
+  - Instead, Alice clues red to Donald, performing the _Finesse_ as a 2-for-1. Next, Bob will clue blue to Cathy as a 2-for-1. In total, this is a 4-for-2.
+    - These two clues could also be given in the opposite order, but it is slightly safer for Alice to perform the _Finesse_, as she might be holding a blocking card.
 
 <CluingOnes2 />
 

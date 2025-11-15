@@ -123,7 +123,7 @@ const config: Config = {
   },
 
   // Enable Mermaid diagrams:
-  // https://docusaurus.io/docs/next/markdown-features/diagrams
+  // https://docusaurus.io/docs/markdown-features/diagrams
   markdown: {
     mermaid: true,
   },
