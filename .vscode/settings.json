@@ -77,8 +77,8 @@
     "editor.formatOnSave": true,
   },
   // @template-customization-start
-  // Auto-formatting of MDX files will only work when the "MDX" extension is enabled.
-  "[mdx]": {
+  // Note that auto-formatting of MDX files will only work when the "MDX" extension is enabled.
+  "[mdx][shellscript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true,
   },

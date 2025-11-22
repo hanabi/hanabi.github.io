@@ -48,6 +48,7 @@
     "complete-lint": "4.2.1",
     "complete-node": "12.2.1",
     "glob": "11.0.3",
+    "prettier-plugin-sh": "0.17.4",
     "typescript": "5.9.3",
     "webpack": "5.102.1"
   }

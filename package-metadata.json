@@ -1,0 +1,9 @@
+{
+  "@schema": "https://raw.githubusercontent.com/complete-ts/complete/refs/heads/main/packages/complete-cli/schemas/package-metadata-schema.json",
+  "dependencies": {
+    "prettier-plugin-sh": {
+      "lock-version": true,
+      "lock-reason": "https://github.com/un-ts/prettier/issues/489"
+    }
+  }
+}
