@@ -16,7 +16,7 @@ cp -r static/img/pieces "$EPUB_DIR/epub-src/OEBPS/img"
 cp -r static/img/examples "$EPUB_DIR/epub-src/OEBPS/img"
 cd "$EPUB_DIR"
 
-python3 ../../../scripts/epub.py
+python ../../../scripts/epub.py
 
 FILE_NAME="hgroup-conventions.epub"
 EPUB_OUT="epub-src/out"
