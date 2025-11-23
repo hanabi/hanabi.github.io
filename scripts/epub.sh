@@ -1,25 +1,29 @@
 #! /bin/bash
 
-# Make script stop on non-zero exit code of command.
-set -e
+set -euo pipefail # Exit on errors and undefined variables.
 
-epubsrc="build/assets/epub"
+# Get the directory of this script:
+# https://stackoverflow.com/questions/59895/getting-the-source-directory-of-a-bash-script-from-within
+DIR=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" &> /dev/null && pwd)
 
-mkdir -p $epubsrc
-cp -r static/epub/epub-template/ "$epubsrc/epub-src/"
-cp static/img/cover.png "$epubsrc/epub-src/OEBPS/img"
-cp -r static/img/pieces "$epubsrc/epub-src/OEBPS/img"
-cp -r static/img/examples "$epubsrc/epub-src/OEBPS/img"
-cd $epubsrc
+REPO_ROOT=$(realpath "$DIR/..")
+EPUB_DIR="$REPO_ROOT/build/assets/epub"
+
+mkdir -p "$EPUB_DIR"
+cp -r static/epub/epub-template/ "$EPUB_DIR/epub-src/"
+cp static/img/cover.png "$EPUB_DIR/epub-src/OEBPS/img"
+cp -r static/img/pieces "$EPUB_DIR/epub-src/OEBPS/img"
+cp -r static/img/examples "$EPUB_DIR/epub-src/OEBPS/img"
+cd "$EPUB_DIR"
 
 python3 ../../../scripts/epub.py
 
-filename="hgroup-conventions.epub"
-epubout="epub-src/out/"
-mkdir -p $epubout
+FILE_NAME="hgroup-conventions.epub"
+EPUB_OUT="epub-src/out"
+mkdir -p "$EPUB_OUT"
 cd epub-src
-zip -X0 "../$epubout$filename" mimetype
-zip -9 -r "../$epubout$filename" META-INF/ OEBPS/ -x '*.DS_Store'
+zip -X0 "../$EPUB_OUT/$FILE_NAME" mimetype
+zip -9 -r "../$EPUB_OUT/$FILE_NAME" META-INF/ OEBPS/ -x '*.DS_Store'
 cd ..
-mv "$epubout$filename" "$filename"
+mv "$EPUB_OUT/$FILE_NAME" "$FILE_NAME"
 rm -rf epub-src
