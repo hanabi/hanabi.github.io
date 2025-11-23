@@ -6,11 +6,11 @@ from bs4 import BeautifulSoup
 from markdown import Markdown
 
 ROOT_PATH = "../../../"
-STYLE_PATH = "../../../src/css/custom.css"
-CONFIG_PATH = "../../../docusaurus.config.ts"
-TITLE_PAGE_PATH = "../../../src/pages/index.tsx"
-SIDEBAR_CONFIG_PATH = "../../../sidebars.ts"
-XHTML_TEMPLATE_PATH = "../../../static/epub/page-template.xhtml"
+STYLE_PATH = f"{ROOT_PATH}src/css/custom.css"
+CONFIG_PATH = f"{ROOT_PATH}docusaurus.config.ts"
+TITLE_PAGE_PATH = f"{ROOT_PATH}src/pages/index.tsx"
+SIDEBAR_CONFIG_PATH = f"{ROOT_PATH}sidebars.ts"
+XHTML_TEMPLATE_PATH = f"{ROOT_PATH}static/epub/page-template.xhtml"
 
 LOGO_PATH = "epub-src/OEBPS/img/logo.png"
 COVER_IMG_PATH = "epub-src/OEBPS/img/cover.png"
@@ -29,6 +29,7 @@ SVG_PLACEHOLDER_P = re.compile(r"\[example-svg-placeholder\]")
 LIST_ITEM_P = re.compile(r"^\s*(?:[\*\-+]|\d+\.)\s*.*")
 D_PREFIX_FILE_P = re.compile(r"(?:\d+[-_])+([A-Za-z0-1-_]+)")
 
+# Randomly generated UUID. Helps ereaders match multiples of the same epub.
 EPUB_ID = "AF8C59C9-7DBC-4D40-BDEA-2CE8B997C472"
 BOOK_TITLE = "H-Group Conventions"
 BOOK_AUTHOR = "H-Group Contributors"
@@ -38,14 +39,14 @@ CONTENT_EXCLUSIONS = ["example-images"]
 
 def main():
     # Update cover page with alt text.
-    with open(COVER_PATH) as f:
+    with open(COVER_PATH, encoding="utf-8") as f:
         cover_soup = BeautifulSoup(f, "lxml")
     cover_soup = update_cover(cover_soup)
     with open(COVER_PATH, "w", encoding="utf-8") as f:
         f.write(cover_soup.prettify())
 
     # Collect toc file infos.
-    with open(SIDEBAR_CONFIG_PATH, "r") as f:
+    with open(SIDEBAR_CONFIG_PATH, "r", encoding="utf-8") as f:
         sidebar_conf_lines = f.readlines()
     toc = parse_content_files(sidebar_conf_lines)
 
@@ -71,14 +72,14 @@ def main():
         if ".svg" != os.path.splitext(path)[1]:
             continue
         piece_path = "epub-src/OEBPS/" + path
-        with open(piece_path, "r") as f:
+        with open(piece_path, "r", encoding="utf-8") as f:
             soup = BeautifulSoup(f, "lxml-xml")
         cleaned_svg_soup = replace_unallowed_svg_attrs(soup)
         with open(piece_path, "w", encoding="utf-8") as f:
             f.write(cleaned_svg_soup.prettify())
 
     # Update content.opf with new files.
-    with open(CONTENT_PATH) as f:
+    with open(CONTENT_PATH, encoding="utf-8") as f:
         content_soup = BeautifulSoup(f, "xml")
     unneeded_parts = [
         "colophon",
@@ -97,14 +98,14 @@ def main():
         f.write(content_soup.prettify())
 
     # Update TOC.ncx
-    with open(TOC_NCX_PATH) as f:
+    with open(TOC_NCX_PATH, encoding="utf-8") as f:
         toc_ncx_soup = BeautifulSoup(f, "lxml-xml")
     toc_ncx_soup = update_toc_ncx(toc_ncx_soup, toc)
     with open(TOC_NCX_PATH, "w", encoding="utf-8") as f:
         f.write(toc_ncx_soup.prettify())
 
     # Update TOC.xhtml
-    with open(TOC_PATH) as f:
+    with open(TOC_PATH, encoding="utf-8") as f:
         toc_soup = BeautifulSoup(f, "lxml")
     toc_soup = update_toc(toc_soup, toc)
     with open(TOC_PATH, "w", encoding="utf-8") as f:
@@ -163,7 +164,7 @@ def link_src_build(sidebar_part):
 def collect_linked_files(toc_tree, link_map, files=[]):
     for node in toc_tree:
         if "file" == node["type"]:
-            with open(ROOT_PATH + node["mdx"]) as f:
+            with open(ROOT_PATH + node["mdx"], encoding="utf-8") as f:
                 mdx_str = f.read()
             converted_html = Markdown(extensions=["extra"]).convert(mdx_str)
             converted_soup = BeautifulSoup(converted_html, "html.parser")
@@ -243,7 +244,7 @@ def construct_epub(toc_tree, link_map, write):
 
 
 def construct_xhtml(file_info, link_map):
-    with open(ROOT_PATH + file_info["mdx"]) as f:
+    with open(ROOT_PATH + file_info["mdx"], encoding="utf-8") as f:
         mdx_lines = f.readlines()
 
     # Pulls page title out of mdx frontmatter.
@@ -270,7 +271,7 @@ def construct_xhtml(file_info, link_map):
     mdx_source = "".join(mdx_lines)
 
     # Create page soup.
-    with open(XHTML_TEMPLATE_PATH) as f:
+    with open(XHTML_TEMPLATE_PATH, encoding="utf-8") as f:
         page_soup = BeautifulSoup(f, "lxml")
     chapter_div = page_soup.find("div", class_="chapter")
     # Insert page title
@@ -292,7 +293,7 @@ def construct_xhtml(file_info, link_map):
         return page_soup.prettify(), page_title
 
     # Get compiled example images.
-    with open(ROOT_PATH + file_info["html"]) as f:
+    with open(ROOT_PATH + file_info["html"], encoding="utf-8") as f:
         html_soup = BeautifulSoup(f, "lxml")
     svgs = html_soup.find_all(
         "svg", {"xmlns": "http://www.w3.org/2000/svg", "class": "example"}
