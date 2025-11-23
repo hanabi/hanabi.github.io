@@ -8,7 +8,9 @@ const config = {
   plugins: [
     "prettier-plugin-organize-imports", // Prettier does not format imports by default.
     "prettier-plugin-packagejson", // Prettier does not format "package.json" by default.
+    // @template-customization-start
     "prettier-plugin-sh", // Prettier does not format Bash files by default.
+    // @template-customization-end
   ],
 
   overrides: [
