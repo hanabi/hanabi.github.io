@@ -29,7 +29,7 @@ SVG_PLACEHOLDER_P = re.compile(r"\[example-svg-placeholder\]")
 LIST_ITEM_P = re.compile(r"^\s*(?:[\*\-+]|\d+\.)\s*.*")
 D_PREFIX_FILE_P = re.compile(r"(?:\d+[-_])+([A-Za-z0-1-_]+)")
 
-# Randomly generated UUID. Helps ereaders match multiples of the same epub.
+# Randomly generated UUID. Helps e-readers match multiples of the same epub.
 EPUB_ID = "AF8C59C9-7DBC-4D40-BDEA-2CE8B997C472"
 BOOK_TITLE = "H-Group Conventions"
 BOOK_AUTHOR = "H-Group Contributors"
