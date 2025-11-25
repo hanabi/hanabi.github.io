@@ -13,12 +13,13 @@ players:
       - type: x
       - type: x
   - cards:
-      - type: r4
-        clue: r
-        middleNote: r3
+      - type: b3
+        clue: b
+        middleNote: b4
         below: Play
       - type: x
-      - type: x
+      - type: b
+        clue: b
       - type: x
       - type: x
   - text: After Bob misplays the red 4...
@@ -26,12 +27,10 @@ players:
     cards:
       - type: x
       - type: x
-        cm: true
-        middleNote: cm
       - type: x
         cm: true
         middleNote: cm
-      - type: x
+      - type: b
         cm: true
         middleNote: cm
       - type: x
