@@ -1,7 +1,7 @@
 stacks:
   - r: 2
   - y: 2
-  - g: 2
+  - g: 0
   - b: 2
   - p: 2
 players:
@@ -13,27 +13,23 @@ players:
       - type: x
       - type: x
   - cards:
-      - type: r
-        clue: r
+      - type: b
+        clue: b
         middleNote: (4)
       - type: x
+      - type: b
+        clue: b
       - type: x
       - type: x
-      - type: x
-  - text: After Bob misplays the red 4...
+  - text: After Bob misplays the blue 4...
   - name: Bob
     cards:
       - type: x
       - type: x
         above:
-          text:
-            - Chop
-            - Moved
-      - type: x
-        above:
-          text:
-            - Chop
-            - Moved
+          text: Chop
+          color: darkred
+      - type: b
       - type: x
         above:
           text:
