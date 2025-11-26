@@ -1,0 +1,52 @@
+<?xml version="1.0"  encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="2.0" unique-identifier="BookId">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:title>xxx content.opf The Title</dc:title>
+    <dc:creator opf:role="aut" opf:file-as="xxx Author">xxx content.opf dc:creator</dc:creator>
+    <dc:identifier id="BookId">B581A839-681B-4263-AFB5-BB85F1E58147</dc:identifier>
+    <dc:language>en</dc:language>
+    <meta name="cover" content="cover.png"/>
+    <meta name="calibre:title_sort" content="Title, The"/>
+  </metadata>
+  <manifest>
+    <item id="cover" href="parts/cover.xhtml" media-type="application/xhtml+xml"/>
+    <item id="dedication" href="parts/dedication.xhtml" media-type="application/xhtml+xml"/>
+    <item id="colophon" href="parts/colophon.xhtml" media-type="application/xhtml+xml"/>
+    <item id="preface" href="parts/preface.xhtml" media-type="application/xhtml+xml"/>
+    <item id="toc" href="parts/toc.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter-01" href="parts/chapter-01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="conclusion" href="parts/conclusion.xhtml" media-type="application/xhtml+xml"/>
+    <item id="notes" href="parts/notes.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+    <item id="style" href="styles/style.css" media-type="text/css"/>
+    <item id="cover.png" href="img/cover.png" media-type="image/png"/>
+    <item id="LibreBaskerville-Regular.otf" href="fonts/LibreBaskerville-Regular.otf" media-type="application/x-font-otf"/>
+    <item id="LibreBaskerville-Italic.otf" href="fonts/LibreBaskerville-Italic.otf" media-type="application/x-font-otf"/>
+    <item id="LibreBaskerville-Bold.otf" href="fonts/LibreBaskerville-Bold.otf" media-type="application/x-font-otf"/>
+    <item id="LibreBaskerville-BoldItalic.otf" href="fonts/LibreBaskerville-BoldItalic.otf" media-type="application/x-font-otf"/>
+ </manifest>
+  <!-- Defines the reading order with reference to ids in manifest. -->
+  <!-- linear="no" are only reachable through links. -->
+  <spine toc="ncx">
+    <itemref idref="cover"/>
+    <itemref idref="colophon"/>
+    <itemref idref="dedication"/>
+    <itemref idref="preface"/>
+    <itemref idref="toc"/>
+    <itemref idref="chapter-01"/>
+    <itemref idref="conclusion"/>
+    <itemref idref="notes"/>
+  </spine>
+  <!-- Gives semantic hints for older readers (epub v2) -->
+  <!-- Valid type values: cover, title-page, toc, index, glossary, acknowledgements, bibliography, colophon (publishing details), copyright-page, dedication, foreword, loi (list of illustrations), lot (list of tables), notes, preface, text (first page of text) -->
+  <guide>
+    <reference type="cover" title="Cover" href="parts/cover.xhtml"/>
+    <reference type="colophon" title="Publishing Details" href="parts/colophon.xhtml"/>
+    <reference type="dedication" title="Dedication" href="parts/dedication.xhtml"/>
+    <reference type="preface" title="Preface" href="parts/preface.xhtml"/>
+    <reference type="toc" title="Table of Contents" href="parts/toc.xhtml"/>
+    <reference type="text" title="Content" href="parts/chapter-01.xhtml"/>
+    <reference type="notes" title="Notes" href="parts/notes.xhtml"/>
+  </guide>
+</package>
+
