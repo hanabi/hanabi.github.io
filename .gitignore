@@ -153,3 +153,6 @@ dist
 
 # built files
 build/
+
+# Vim undo file
+*.un~
