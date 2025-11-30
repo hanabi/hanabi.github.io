@@ -123,24 +123,24 @@ import NoInformationDoubleBluff from "./level-20/no-information-double-bluff.yml
 - The means that this innocent-looking _Save Clue_ is really a _Play Clue_, and all of the in-between cards are called for.
 - Note that for a _Suboptimal Save Finesse_ to work, the clue has to be **really bad**, not just technically suboptimal in some slight way.
 
-### The No-Information Double Finesse
+### The No-Information Finesse
 
 - Sometimes, cards are re-clued to cause a _Finesse_ or _Bluff_. But most times, the re-clue will "fill in" or give extra information to the existing card.
-- Formally, a "no-information" clue is defined by having the following criteria:
-  - The re-clue gave no additional positive or negative information to the card.
+- Formally, a _No-Information_ clue is defined by the following criteria:
+  - The re-clue gave no additional positive information to the card.
   - The elements in the superposition of the re-clued card were the same before and after the clue sequence.
-- Since "no-information" clues are not very valuable, we agree that a "no-information" clue on a two-away-from-playable card **must** "get" at least 2 new cards (as opposed to a single _Finesse_ that only gets 1 new card).
+- Using a _No-Information_ clue to cause a _Finesse_ that gets a single card is okay. But since _No-Information_ clues are not very valuable, we agree that a _No-Information_ clue can never be a _Bluff_ that gets a single card. Instead, it must get two cards.
 - For example, in a 3-player game:
   - Nothing is played on the stacks.
   - Alice clues 3's to Cathy, which touches one 3, the red 3.
   - Bob blind-plays blue 1. At this point, everyone knows that Alice has performed a _3 Bluff_, and from Cathy's perspective, her 3 can be any 3 at all.
   - Cathy discards.
   - Alice clues 3's to Cathy, which re-touches the red 3 (and gives no additional information to it).
-  - Bob blind-plays red 1. If this was a _3 Bluff_, then no-one would be promised the red 2. However, since no new information was given, it must be a _No-Information Double Finesse_. Bob sees that Cathy does not have the red 2, so he must have the red 2, and can blind-play it on his next turn.
+  - Bob blind-plays red 1. If this was a _3 Bluff_, then no-one would be promised the red 2. However, since no new information was given, it must be a _No-Information Finesse_. Bob sees that Cathy does not have the red 2, so he must have the red 2, and can blind-play it on his next turn.
 
 <NoInformationDoubleFinesse />
 
-- Even if a clue does not "fill-in" a card, it is not necessarily a "no-information" clue.
+- Even if a clue does not "fill-in" a card, it is not necessarily a _No-Information_ clue, because of the second criteria.
 - For example, in a 3-player game:
   - It is the first turn of the game.
   - Alice clues red to Cathy, touching a card on slot 1 as a _Play Clue_.
@@ -151,18 +151,19 @@ import NoInformationDoubleBluff from "./level-20/no-information-double-bluff.yml
   - Bob blind-plays a blue 2.
   - Cathy updates the note on her red card to be exactly red 3.
   - Everyone at the table understands that this clue gave valuable information to Cathy's red card and would not be considered a "no-information" clue.
-- The "no-information" principle can also be used to perform a _No-Information Layered Finesse_ on the next player. (The next player will know that it is a _Layered Finesse_ instead of a _Bluff_ because some other more-useful clue could have been given to initiate the _Bluff_.)
+- The _No-Information_ principle can also be used to perform a _No-Information Layered Finesse_ on the next player. (The next player will know that it is a _Layered Finesse_ instead of a _Bluff_ because some other more-useful clue could have been given to initiate the _Bluff_.)
+- A _No-Information_ clue can only cause a _No-Information Finesse_ (or a _No-Information Bluff_) if the touched card is _one-or-more-away-from-playable_.
 
 ### The No-Information Double Bluff
 
-- Usually, a "no-information" clue conveys a _Double Finesse_. But you can also use it to perform a _Double Bluff_. For example, in a 3-player game:
+- Usually, a _No-Information_ clue conveys a _Finesse_. But you can also use it to perform a _Double Bluff_. For example, in a 3-player game:
   - Nothing is played on the stacks.
   - Alice clues 3's to Cathy, which touches one 3, the red 3.
   - Bob blind-plays blue 1. At this point, everyone knows that Alice has performed a _3 Bluff_, and from Cathy's perspective, her 3 can be any 3 at all.
   - Cathy discards.
   - Alice clues 3's to Cathy, which re-touches the red 3 (and gives no additional information to it).
-  - Bob blind-plays green 1. If this was a _3 Bluff_, then no-one would be promised the green 2. However, since no new information was given, it must be a _No-Information Double Finesse_.
+  - Bob blind-plays green 1. If this was a _3 Bluff_, then no-one would be promised the green 2. However, since no new information was given, it must be a _No-Information Finesse_.
   - Cathy sees that Bob does not have the green 2, so she must have the green 2, so she blind-plays her _Finesse Position_ card, and it is yellow 1 instead of green 2.
-  - Since two cards were blind-played (that did not connect to anything), everyone now knows that the _No-Information_ clue was a _Double Bluff_ instead of a _Double Finesse_. From Cathy's perspective, her 3 can (still) be any 3 at all.
+  - Since two cards were blind-played (that did not connect to anything), everyone now knows that the _No-Information_ clue was a _Double Bluff_ instead of a _Finesse_. From Cathy's perspective, her 3 can (still) be any 3 at all.
 
 <NoInformationDoubleBluff />
