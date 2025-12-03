@@ -1,12 +1,12 @@
-import type { WrapperProps } from "@docusaurus/types";
-import type { Props as MermaidType } from "@theme-original/Mermaid";
 import Mermaid from "@theme-original/Mermaid";
 import type { ReactNode } from "react";
 import React, { useEffect, useLayoutEffect, useRef, useState } from "react";
 import type { ReactZoomPanPinchContentRef } from "react-zoom-pan-pinch";
 import { TransformComponent, TransformWrapper } from "react-zoom-pan-pinch";
 
-type Props = WrapperProps<typeof MermaidType>;
+interface Props {
+  value: string;
+}
 
 const CONFIG = {
   scroll_step: 0.5,
