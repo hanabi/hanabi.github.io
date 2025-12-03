@@ -40,10 +40,7 @@ function HomepageHeader() {
 
 function Home(): React.JSX.Element {
   return (
-    <Layout
-      title="Home"
-      description="Strategies for Hanabi, a cooperative card game of logic and reasoning"
-    >
+    <Layout>
       <HomepageHeader />
       <main>
         <HomepageFeatures />
