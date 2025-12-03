@@ -28,10 +28,10 @@
     ]
   },
   "dependencies": {
-    "@docusaurus/core": "3.8.1",
-    "@docusaurus/faster": "3.8.1",
-    "@docusaurus/preset-classic": "3.8.1",
-    "@docusaurus/theme-mermaid": "3.8.1",
+    "@docusaurus/core": "3.9.2",
+    "@docusaurus/faster": "3.9.2",
+    "@docusaurus/preset-classic": "3.9.2",
+    "@docusaurus/theme-mermaid": "3.9.2",
     "@mdx-js/react": "3.1.1",
     "prism-react-renderer": "2.4.1",
     "raw-loader": "4.0.2",
@@ -39,17 +39,17 @@
     "react-circular-progressbar": "2.2.0",
     "react-dom": "19.2.0",
     "react-zoom-pan-pinch": "3.7.0",
-    "yaml": "2.8.1",
-    "zod": "4.1.12"
+    "yaml": "2.8.2",
+    "zod": "4.1.13"
   },
   "devDependencies": {
-    "@docusaurus/tsconfig": "3.8.1",
-    "complete-cli": "1.4.1",
-    "complete-lint": "4.2.1",
-    "complete-node": "12.2.1",
-    "glob": "11.0.3",
+    "@docusaurus/tsconfig": "3.9.2",
+    "complete-cli": "1.5.7",
+    "complete-lint": "5.1.2",
+    "complete-node": "12.5.1",
+    "glob": "13.0.0",
     "prettier-plugin-sh": "0.17.4",
     "typescript": "5.9.3",
-    "webpack": "5.102.1"
+    "webpack": "5.103.0"
   }
 }

@@ -2,7 +2,7 @@ import { $o, lintCommands, readFile } from "complete-node";
 import { glob } from "glob";
 import path from "node:path";
 
-const REPO_ROOT = path.join(import.meta.dirname, "..");
+const REPO_ROOT = path.resolve(import.meta.dirname, "..");
 
 const BAD_WORDS = [
   // This is a common mistake: https://github.com/hanabi/hanabi.github.io/pull/1367
@@ -15,8 +15,7 @@ await lintCommands(import.meta.dirname, [
   "tsc --noEmit --project ./scripts/tsconfig.json",
 
   // Use ESLint to lint the TypeScript code.
-  // - "--max-warnings 0" makes warnings fail, since we set all ESLint errors to warnings.
-  "eslint --max-warnings 0 .",
+  "eslint .",
 
   // Use Prettier to check formatting.
   // - "--log-level=warn" makes it only output errors.

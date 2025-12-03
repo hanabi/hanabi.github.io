@@ -22,7 +22,6 @@
     "./src/**/*.ts",
     "./src/**/*.tsx",
     "./static/js/*.js",
-    "docusaurus.config.ts",
     "sidebars.ts",
   ],
 

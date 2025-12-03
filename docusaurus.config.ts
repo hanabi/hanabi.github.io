@@ -14,7 +14,6 @@ const config: Config = {
 
   onBrokenAnchors: "throw",
   onBrokenLinks: "throw",
-  onBrokenMarkdownLinks: "throw",
   onDuplicateRoutes: "throw",
 
   i18n: {
@@ -122,9 +121,13 @@ const config: Config = {
     v4: true,
   },
 
-  // Enable Mermaid diagrams:
-  // https://docusaurus.io/docs/markdown-features/diagrams
   markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: "throw",
+    },
+
+    // Enable Mermaid diagrams:
+    // https://docusaurus.io/docs/markdown-features/diagrams
     mermaid: true,
   },
   themes: ["@docusaurus/theme-mermaid"],
