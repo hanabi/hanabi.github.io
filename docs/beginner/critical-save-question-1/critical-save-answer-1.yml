@@ -19,7 +19,6 @@ players:
       - type: x
       - type: 3
         clue: 3
-        middleNote: ryg3
         below: sp
       - type: 4
       - type: 4
