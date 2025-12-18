@@ -216,6 +216,7 @@ const sidebars: SidebarsConfig = {
       "Challenge Questions": [
         "challenge-questions",
         "challenge-questions/level-2",
+        "challenge-questions/level-4",
         "challenge-questions/level-6",
         "challenge-questions/level-8",
       ],
