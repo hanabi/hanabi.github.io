@@ -20,16 +20,14 @@ players:
         border: false
       - type: g4
         border: false
-  - name: Cathy
-    cards:
+  - cards:
       - type: r1
         border: false
       - type: b2
         border: false
       - type: x
       - type: x
-  - name: Donald
-    cards:
+  - cards:
       - type: r2
         clue: r
         retouched: true

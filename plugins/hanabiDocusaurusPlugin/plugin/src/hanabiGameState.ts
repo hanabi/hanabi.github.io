@@ -80,6 +80,7 @@ const player = z
     name: z.coerce.string().min(1).optional(),
     clueGiver: z.boolean().optional(),
     cards: z.array(card).readonly(),
+    offset: z.int().optional(),
   })
   .strict()
   .readonly();
@@ -94,6 +95,13 @@ const text = z
   .strict()
   .readonly();
 
+const space = z
+  .object({
+    space: z.coerce.number(),
+  })
+  .strict()
+  .readonly();
+
 export const hanabiGameStateSchema = z
   .object({
     suits: z
@@ -103,7 +111,10 @@ export const hanabiGameStateSchema = z
     stacks: z.array(stack).readonly().optional(),
     discarded: z.array(cardType).readonly().optional(),
     bigText: bigText.optional(),
-    players: z.array(player.or(text)).min(1).readonly(),
+    players: z
+      .array(player.or(text).or(space).or(z.literal("space")))
+      .min(1)
+      .readonly(),
   })
   .strict()
   .readonly();
@@ -119,6 +130,8 @@ export interface Card extends z.infer<typeof card> {}
 export interface Player extends z.infer<typeof player> {}
 
 export interface Text extends z.infer<typeof text> {}
+
+export interface Space extends z.infer<typeof space> {}
 
 export interface HanabiGameState
   extends z.infer<typeof hanabiGameStateSchema> {}

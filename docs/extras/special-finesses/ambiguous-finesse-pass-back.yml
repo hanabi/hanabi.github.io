@@ -19,16 +19,14 @@ players:
       - type: x
       - type: x
   - text: Bob discards
-  - name: Cathy
-    cards:
+  - cards:
       - type: x
         above: Blue 2
       - type: x
       - type: x
       - type: x
   - text: Cathy discards
-  - name: Donald
-    cards:
+  - cards:
       - type: x
       - type: x
       - type: x

@@ -13,16 +13,14 @@ players:
       - type: x
       - type: x
   - text: Alice plays Red 1
-  - name: Bob
-    cards:
+  - cards:
       - type: x
         above: Red 2
       - type: x
       - type: x
       - type: x
       - type: x
-  - name: Cathy
-    cards:
+  - cards:
       - type: x
         above: Blue 3
         middleNote: b3

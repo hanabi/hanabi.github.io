@@ -17,15 +17,13 @@ players:
       - type: 5
       - type: 5
   - text: Bob discards
-  - name: Cathy
-    cards:
+  - cards:
       - type: x
       - type: x
         above: Red 2
       - type: x
       - type: x
-  - name: Donald
-    cards:
+  - cards:
       - type: x
         clue: r
         above: Red 5
