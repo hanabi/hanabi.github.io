@@ -7,6 +7,7 @@ import type {
   Card,
   HanabiGameState,
   Player,
+  Space,
   Stack,
   Text,
   TextObject,
@@ -176,16 +177,28 @@ class ImageGenerator {
     this.leftYOffset = yOffset;
   }
 
-  private drawPlayerRows(players?: ReadonlyArray<Player | Text>) {
+  private drawPlayerRows(
+    players?: ReadonlyArray<Player | Text | Space | string>,
+  ) {
     if (players === undefined) {
       return;
     }
+    let playerNum = 0;
 
-    for (const [playerNum, playerOrText] of players.entries()) {
-      if ("text" in playerOrText) {
+    for (const playerOrText of players) {
+      if (typeof playerOrText === "string") {
+        // "space" is the only allowed literal.
+        this.drawTextSeparator("", 25);
+      } else if ("space" in playerOrText) {
+        this.drawTextSeparator("", playerOrText.space);
+      } else if ("text" in playerOrText) {
         this.drawTextSeparator(playerOrText.text);
       } else {
+        if (playerOrText.offset !== undefined) {
+          playerNum += playerOrText.offset;
+        }
         this.drawPlayer(playerNum, playerOrText);
+        playerNum++;
       }
     }
   }
@@ -194,14 +207,14 @@ class ImageGenerator {
    * Draw a text separator between a player to describe some event taking place.
    * e.g. "After discarding the 1..."
    */
-  private drawTextSeparator(text: string | null) {
+  private drawTextSeparator(text: string | null, offset = 50) {
     this.svgFile.addText(text, {
       x: this.xOffsetWherePlayerBegins + 40,
       y: this.yOffset,
       dy: 20,
       class: TEXT_COLOR_CLASS,
     });
-    this.yOffset += 50;
+    this.yOffset += offset;
   }
 
   /** Draw a row representing a player's hand. */

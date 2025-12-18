@@ -1,0 +1,20 @@
+stacks:
+  - r: 0
+  - b: 5
+  - m: 3
+players:
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+        clue: r
+  - text: Bob reinterprets his hand
+  - offset: -1
+    cards:
+      - type: x
+      - type: x
+      - type: r2

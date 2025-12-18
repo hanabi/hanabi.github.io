@@ -22,9 +22,8 @@ players:
       - type: x
       - type: x
   - text: Bob performs a Certain Discard of Slot 1, it is Red 3
-  - text: ""
-  - name: Cathy
-    cards:
+  - space
+  - cards:
       - type: x
       - type: x
       - type: x

@@ -16,15 +16,13 @@ players:
         above: Red 4
       - type: x
   - text: Alice discards
-  - name: Bob
-    cards:
+  - cards:
       - type: x
       - type: x
       - type: x
       - type: x
       - type: x
-  - name: Cathy
-    cards:
+  - cards:
       - type: x
       - type: x
       - type: x
