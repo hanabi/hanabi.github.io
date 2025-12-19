@@ -1,12 +1,9 @@
 stacks:
-  - r: 4
+  - r: 3
   - y: 0
-  - g: 1
-  - b: 2
-  - p: 0
-discarded:
-  - p3
-  - p4
+  - g: 0
+  - b: 1
+  - p: 2
 players:
   - clueGiver: true
     cards:
@@ -19,16 +16,19 @@ players:
       - type: x
       - type: x
       - type: x
+      - type: 2
+        clue: 2
+        middleNote: yb2
+        below: Play
       - type: x
-      - type: x
+        below: Chop
   - cards:
-      - type: r1
+      - type: y5
         border: false
-      - type: r1
+      - type: y1
+      - type: r3
         border: false
-      - type: g4
+      - type: r2
         border: false
-      - type: p3
-        border: false
-      - type: p5
+      - type: b2
         border: false

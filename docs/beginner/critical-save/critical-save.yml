@@ -20,4 +20,6 @@ players:
       - type: x
       - type: b
         clue: b
+        middleNote: b24
+        below: sp
       - type: rygp5

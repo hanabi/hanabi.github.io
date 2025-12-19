@@ -1,0 +1,44 @@
+stacks:
+  - r: 1
+  - y: 2
+  - g: 0
+  - b: 1
+  - p: 1
+discarded:
+  - g3
+players:
+  - clueGiver: true
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+        below: Discard
+  - cards:
+      - type: p4
+        border: false
+      - type: g4
+        border: false
+      - type: y5
+        border: false
+      - type: y1
+        border: false
+        below: Chop
+  - cards:
+      - type: y4
+        border: false
+      - type: g4
+        border: false
+        below: Chop
+      - type: g3
+      - type: g2
+  - cards:
+      - type: p5
+        border: false
+      - type: b5
+        border: false
+      - type: p3
+        border: false
+      - type: p3
+        border: false
+        below: Chop
