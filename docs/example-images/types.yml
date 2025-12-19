@@ -21,6 +21,8 @@ players:
       - type: m4
         border: false
       - type: xr3
+        middleNote: cm
+        cm: true
   - cards:
       - type: 134
       - type: rbm12345
@@ -35,3 +37,4 @@ players:
         trash: true
         orange: 34
       - type: x
+        fix: true

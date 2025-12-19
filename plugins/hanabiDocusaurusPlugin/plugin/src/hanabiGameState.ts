@@ -57,11 +57,22 @@ const card = z
     /** Whether the card has a trash can overlay on top of it. Defaults to false. */
     trash: z.boolean().optional(),
 
+    /** Whether the card has a wrench overlay on top of it. Defaults to false. */
+    fix: z.boolean().optional(),
+
+    /** Whether the card has has a cm border around it. Defaults to false. */
+    cm: z.boolean().optional(),
+
     /**
      * A text label on the top of the card. Can be either a string or an object representing a
      * string.
      */
-    above: z.string().min(1).or(textObject).optional(),
+    above: z
+      .string()
+      .min(1)
+      .or(z.array(z.string().min(1)).min(1))
+      .or(textObject)
+      .optional(),
 
     /** A text label in the middle of the card. (This cannot be a multi-line string.) */
     middleNote: z.coerce.string().min(1).optional(),
@@ -70,7 +81,12 @@ const card = z
      * A text label on the bottom of the card. Can be either a string or an object representing a
      * string.
      */
-    below: z.string().min(1).or(textObject).optional(),
+    below: z
+      .string()
+      .min(1)
+      .or(z.array(z.string().min(1)).min(1))
+      .or(textObject)
+      .optional(),
   })
   .strict()
   .readonly();
