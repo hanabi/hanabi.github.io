@@ -14,6 +14,10 @@ const bigText = z
   .strict()
   .readonly();
 
+/*
+ * A text object representing a colored string. The text attribute can either be a single string or
+ * an array of strings.
+ */
 const textObject = z
   .object({
     text: z
@@ -64,8 +68,8 @@ const card = z
     cm: z.boolean().optional(),
 
     /**
-     * A text label on the top of the card. Can be either a string or an object representing a
-     * string.
+     * A text label at the top of the card. Can be either a string, an array of strings, or a
+     * textObject object representing a colored string.
      */
     above: z
       .string()
@@ -78,8 +82,8 @@ const card = z
     middleNote: z.coerce.string().min(1).optional(),
 
     /**
-     * A text label on the bottom of the card. Can be either a string or an object representing a
-     * string.
+     * A text label below the card. Can be either a string, an array of strings, or a textObject
+     * object representing a colored string.
      */
     below: z
       .string()
