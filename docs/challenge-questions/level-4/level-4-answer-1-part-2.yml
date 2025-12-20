@@ -4,9 +4,10 @@ stacks:
   - g: 1
   - b: 5
   - p: 0
+bigText:
+  text: Early Game
 players:
-  - clueGiver: true
-    cards:
+  - cards:
       - type: x
       - type: x
       - type: x
@@ -17,18 +18,17 @@ players:
       - type: x
       - type: 1
         below:
-          text:
-            - Fresh
+          text: Fresh
           color: Green
       - type: x
       - type: x
   - cards:
       - type: x
       - type: x
+        below: Chop
       - type: x
-        above:
-          text:
-            - Chop
-            - Move
+        cm: true
+        middleNote: cm
+        below: cm
       - type: 2
       - type: 2
