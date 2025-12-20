@@ -18,6 +18,7 @@ players:
       - type: x
       - type: 2
         clue: 2
+        middleNote: y2, b2
         below: Play
       - type: x
         below: Chop
