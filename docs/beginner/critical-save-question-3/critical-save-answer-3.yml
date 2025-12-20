@@ -22,7 +22,7 @@ players:
       - type: y12345
         crossedOut: 3
         clue: y
-        middleNote: y14
+        middleNote: y1, y4
         below: sp
       - type: 3
   - cards:
