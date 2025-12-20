@@ -9,6 +9,7 @@ players:
   - cards:
       - type: p
         clue: p
+        below: Focus
       - type: p
         clue: p
       - type: p

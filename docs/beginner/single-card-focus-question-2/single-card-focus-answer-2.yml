@@ -7,15 +7,17 @@ players:
       - type: x
       - type: x
   - cards:
-      - type: p
-        clue: p
-      - type: p
-        clue: p
-      - type: p
-        clue: p
-      - type: p
-        clue: p
-      - type: x
+      - type: g
+        clue: g
+      - type: g
+        clue: g
+      - type: g
+        clue: g
+      - type: g
+        clue: g
+      - type: g
+        clue: g
+        below: Focus
   - cards:
       - type: x
       - type: x

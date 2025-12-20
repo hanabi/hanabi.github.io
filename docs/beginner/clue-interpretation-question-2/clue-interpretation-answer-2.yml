@@ -1,3 +1,9 @@
+stacks:
+  - r: 2
+  - y: 1
+  - g: 1
+  - b: 2
+  - p: 3
 players:
   - clueGiver: true
     cards:
@@ -7,15 +13,14 @@ players:
       - type: x
       - type: x
   - cards:
-      - type: p
-        clue: p
-      - type: p
-        clue: p
-      - type: p
-        clue: p
-      - type: p
-        clue: p
       - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: 2
+        clue: 2
+        middleNote: y2, g2
+        below: Play
   - cards:
       - type: x
       - type: x
