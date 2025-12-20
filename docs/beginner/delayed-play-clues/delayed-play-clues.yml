@@ -17,7 +17,7 @@ players:
       - type: x
       - type: 2
         clue: 2
-        middleNote: rygb2
+        middleNote: r2, y2, g2, b2
         below: Play
       - type: x
       - type: x
