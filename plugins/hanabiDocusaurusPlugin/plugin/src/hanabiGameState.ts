@@ -73,8 +73,8 @@ const card = z
      */
     above: z.string().min(1).or(textObject).optional(),
 
-    /** A text label in the middle of the card. (This cannot be a multi-line string.) */
-    middleNote: z.coerce.string().min(1).optional(),
+    /** A text label in the middle of the card. (This string must be short to fit on the card.) */
+    middleNote: z.coerce.string().min(1).max(6).optional(),
 
     /** A text label below the card. Can be either a string or an object representing a string. */
     below: z.string().min(1).or(textObject).optional(),
