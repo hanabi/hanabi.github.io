@@ -1,12 +1,11 @@
 stacks:
-  - r: 4
-  - y: 0
-  - g: 1
+  - r: 0
+  - y: 2
+  - g: 2
   - b: 2
-  - p: 0
+  - p: 2
 discarded:
-  - p3
-  - p4
+  - r2
 players:
   - clueGiver: true
     cards:
@@ -20,15 +19,18 @@ players:
       - type: x
       - type: x
       - type: x
-      - type: x
+      - type: r
+        clue: r
+        middleNote: r1, r2
+        below: sp
   - cards:
-      - type: r1
+      - type: p1
         border: false
-      - type: r1
+      - type: g1
         border: false
-      - type: g4
+      - type: b2
         border: false
-      - type: p3
+      - type: b1
         border: false
-      - type: p5
+      - type: g2
         border: false

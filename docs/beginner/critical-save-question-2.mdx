@@ -6,6 +6,7 @@ import BeginnersGuideProgress from "@site/src/beginnersGuide.tsx";
 import Tabs from "@theme/Tabs";
 import TabItem from "@theme/TabItem";
 import CriticalSaveQuestion2 from "./critical-save-question-2/critical-save-question-2.yml";
+import CriticalSaveAnswer2 from "./critical-save-question-2/critical-save-answer-2.yml";
 
 <BeginnersGuideProgress id="critical-save-question-2" />
 
@@ -18,13 +19,15 @@ import CriticalSaveQuestion2 from "./critical-save-question-2/critical-save-ques
 <TabItem value="question">
 
 - The team has 2 clue tokens left.
-- Cathy has three critical cards in a row.
+- Cathy has two critical cards in a row.
 - What action should Alice perform?
+
+<CriticalSaveQuestion2 />
 
 </TabItem>
 <TabItem value="solution">
 
-- Alice might be tempted to clue purple to Cathy, which would "get" all three purple cards in one fell swoop.
+- Alice might be tempted to clue purple to Cathy, which would "get" both purple cards in one fell swoop.
 - However, it would be illegal for Alice to do that because 5's must be saved with a _5 Save_.
 - Thus, Alice should clue number 5 to Cathy as a _5 Save_.
 - Next, Bob would clue purple to Cathy as a _Critical Save_ on the purple 3.
@@ -33,7 +36,7 @@ import CriticalSaveQuestion2 from "./critical-save-question-2/critical-save-ques
   - purple 3 (as a _Critical Save_)
   - purple 4 (as a _Critical Save_)
 
+<CriticalSaveAnswer2 />
+
 </TabItem>
 </Tabs>
-
-<CriticalSaveQuestion2 />

@@ -31,4 +31,29 @@ players:
       - type: p3
         border: false
       - type: p5
+        clue: 5
+        middleNote: 5
+        below: Save
+  - text: Then Bob clues
+  - clueGiver: true
+    offset: -2
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: r1
         border: false
+      - type: r1
+        border: false
+      - type: g4
+        border: false
+      - type: p3
+        clue: p
+        below: sp
+      - type: p5
+        clue: p
+        retouched: true
+        middleNote: p5

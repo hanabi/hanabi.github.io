@@ -1,9 +1,3 @@
-stacks:
-  - r: 0
-  - y: 0
-  - g: 0
-  - b: 0
-  - p: 0
 players:
   - clueGiver: true
     cards:
@@ -23,6 +17,7 @@ players:
         border: false
       - type: r2
         border: false
+        below: Dupe
   - cards:
       - type: b5
         border: false
@@ -30,6 +25,7 @@ players:
         border: false
       - type: r2
         border: false
+        below: Dupe
       - type: y3
         border: false
       - type: y4
