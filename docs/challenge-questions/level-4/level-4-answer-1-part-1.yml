@@ -68,7 +68,7 @@ players:
         below:
           text:
             - Starting
-            - Hand,
+            - "Hand,"
             - Plays
       - type: x
       - type: x
