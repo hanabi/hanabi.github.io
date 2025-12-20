@@ -5,6 +5,12 @@ stacks:
   - b: 2
   - p: 5
 players:
+  - clueGiver: true
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
   - cards:
       - type: x
       - type: x
@@ -12,12 +18,6 @@ players:
       - type: g3
         clue: 3
         retouched: true
-  - clueGiver: true
-    cards:
-      - type: x
-      - type: x
-      - type: x
-      - type: x
   - cards:
       - type: x
       - type: x
