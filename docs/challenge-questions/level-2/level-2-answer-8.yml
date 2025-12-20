@@ -28,7 +28,6 @@ players:
   - cards:
       - type: r2
         clue: 2
-        middleNote: ryg2
         below: Play
       - type: p2
         clue: 2

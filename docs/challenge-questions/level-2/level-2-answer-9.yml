@@ -19,7 +19,7 @@ players:
       - type: y4
         border: false
       - type: g4
-        middleNote: g34
+        middleNote: g3, g4
         clue: g
         below: Play
       - type: b2

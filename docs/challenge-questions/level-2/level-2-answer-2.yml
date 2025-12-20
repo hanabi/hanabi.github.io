@@ -15,7 +15,7 @@ players:
       - type: x
       - type: b
         clue: b
-        middleNote: b23
+        middleNote: b2, b3
         below: Play
       - type: x
       - type: x

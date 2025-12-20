@@ -21,7 +21,6 @@ players:
       - type: rygbp3
         crossedOut: g
         clue: 3
-        middleNote: rbp3
         below: Play
       - type: x
       - type: x
