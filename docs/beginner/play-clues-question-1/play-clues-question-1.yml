@@ -17,5 +17,6 @@ players:
       - type: x
       - type: b
         clue: b
+        below: Play
       - type: x
       - type: x

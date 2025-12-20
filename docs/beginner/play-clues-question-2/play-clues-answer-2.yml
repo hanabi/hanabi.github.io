@@ -18,5 +18,6 @@ players:
       - type: x
       - type: 4
         clue: 4
+        middleNote: rgb4
         below: Play
       - type: x
