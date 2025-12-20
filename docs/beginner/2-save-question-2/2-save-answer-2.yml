@@ -19,7 +19,6 @@ players:
       - type: x
       - type: 2
         clue: 2
-        middleNote: rybp2
         below: sp
   - cards:
       - type: g5
