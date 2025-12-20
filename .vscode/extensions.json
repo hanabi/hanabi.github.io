@@ -3,7 +3,7 @@
 {
   "recommendations": [
     "dbaeumer.vscode-eslint", // The TypeScript linter
-    "esbenp.prettier-vscode", // The TypeScript formatter
+    "prettier.prettier-vscode", // The TypeScript formatter
     "streetsidesoftware.code-spell-checker", // A spell-checker extension based on CSpell
     // @template-customization-start
     "unifiedjs.vscode-mdx", // Extension for MDX

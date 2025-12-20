@@ -1,0 +1,40 @@
+# The configuration file for yamllint:
+# https://yamllint.readthedocs.io/en/stable/
+
+ignore:
+  # JavaScript/TypeScript dependencies
+  - node_modules
+
+# https://yamllint.readthedocs.io/en/stable/rules.html
+rules:
+  anchors:
+    forbid-duplicated-anchors: true # Defaults to "false". (This must be a boolean.)
+    forbid-unused-anchors: true # Defaults to "false". (This must be a boolean.)
+  braces: disable # Handled by Prettier.
+  brackets: disable # Handled by Prettier.
+  colons: disable # Handled by Prettier.
+  commas: disable # Handled by Prettier.
+  comments:
+    min-spaces-from-content: 1 # Defaults to 2. This matches Prettier.
+  comments-indentation: disable # Handled by Prettier.
+  document-end: disable # The document end marker is superfluous.
+  document-start: enable
+  empty-lines: disable # Handled by Prettier.
+  empty-values: enable
+  float-values:
+    forbid-inf: true # Defaults to "false". (This must be a boolean.)
+    forbid-nan: true # Defaults to "false". (This must be a boolean.)
+    forbid-scientific-notation: true # Defaults to "false". (This must be a boolean.)
+    require-numeral-before-decimal: true # Defaults to "false". (This must be a boolean.)
+  hyphens: disable # Handled by Prettier.
+  indentation: disable # Handled by Prettier.
+  key-duplicates: enable
+  key-ordering: disable # YAML keys are not typically alphabetically sorted.
+  line-length: disable # Handled by Prettier.
+  new-line-at-end-of-file: disable # Handled by Prettier.
+  new-lines: disable # Handled by Prettier.
+  octal-values: enable
+  quoted-strings:
+    required: only-when-needed # Defaults to "enable".
+  trailing-spaces: disable # Handled by Prettier.
+  truthy: enable
