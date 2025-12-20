@@ -21,6 +21,7 @@ players:
       - type: x
       - type: r
         clue: r
+        below: Play
       - type: x
   - cards:
       - type: x

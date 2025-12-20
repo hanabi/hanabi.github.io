@@ -15,6 +15,7 @@ players:
   - cards:
       - type: 3
         clue: 3
+        middleNote: bp3
         below: Play
       - type: x
       - type: x
