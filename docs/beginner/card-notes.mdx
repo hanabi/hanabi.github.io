@@ -3,6 +3,7 @@ title: Card Notes
 ---
 
 import BeginnersGuideProgress from "@site/src/beginnersGuide.tsx";
+import CardNotes1 from "./card-notes/card-notes-1.yml";
 
 <BeginnersGuideProgress id="card-notes" />
 
@@ -18,6 +19,9 @@ When you play Hanabi, you will need to write _card notes_. This page explains wh
   - Alice clues Bob red, touching a card on his slot 1. Alice intends for this to be a _Play Clue_, signaling to Bob that he has a red 1 and that he should play it on the stacks right now.
   - From Bob's perspective, he knows that _explicitly_, his red card can be red 1, red 2, red 3, red 4, or red 5.
   - But Bob also knows that _implicitly_, Alice intends for him to play this red card, so it must be exactly the red 1.
+  - Colors in card notes are conventionally shortened to the first letter.
+
+<CardNotes1 />
 
 ## Players Need to Track Implicit Information
 
@@ -30,11 +34,11 @@ When you play Hanabi, you will need to write _card notes_. This page explains wh
 
 - Handily, Hanab Live allows players to track _implicit_ information on a card by right-clicking on it. This pops up a text box, allowing players to record any information that they want. This is called a _card note_.
 - **After every single clue, players should record a note on the affected card.**
-- In the previous example, Bob should right-click on his red card and write "red 1", so that he doesn't forget for later.
-- Furthermore, Alice and Cathy should **also** right-click on Bob's red card and write "red 1", so that they can keep track of what Bob thinks about the card. In this way, **everybody writes notes on everybody's cards.**
+- In the previous example, Bob should right-click on his red card and write "r1", so that he does not forget about it later.
+- Furthermore, Alice and Cathy should **also** right-click on Bob's red card and write "r1", so that they can keep track of what Bob thinks about the card. In this way, **everybody writes notes on everybody's cards.**
 
 ## Avoiding Mistakes
 
-- Since the red clue above was so simple, you may think that writing a note of "red 1" is silly and a waste of time. However, realize that Bob **might not play the red 1 for many, many turns**, at which point the game state may have dramatically changed.
-- The most common beginner mistake that we see is failing to write a note on a card, and then forgetting some piece of information later on in the game.
+- Since the red clue above was so simple, you may think that writing a note of "r1" is silly and a waste of time. However, realize that Bob **might not play the red 1 for many, many turns**, at which point the game state may have dramatically changed.
+- The most common beginner mistake that we see is failing to write a note on a card, and then forgetting that piece of information later on in the game.
 - Do not forget to do this! Write _card notes_ after **every single clue**, no matter how simple or complicated it is!

@@ -14,6 +14,7 @@ players:
   - cards:
       - type: 4
         clue: 4
+        middleNote: rybp4
         below: Play
       - type: x
       - type: x

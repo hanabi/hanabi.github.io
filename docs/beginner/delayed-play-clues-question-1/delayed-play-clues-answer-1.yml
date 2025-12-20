@@ -1,28 +1,31 @@
 stacks:
-  - r: 0
-  - y: 1
-  - g: 0
+  - r: 1
+  - y: 4
+  - g: 4
   - b: 2
-  - p: 2
+  - p: 3
 players:
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
   - clueGiver: true
     cards:
       - type: x
       - type: x
       - type: x
       - type: x
-      - type: x
   - cards:
-      - type: 3
-        clue: 3
+      - type: x
+      - type: x
+      - type: r
+        clue: r
+        middleNote: r3
         below: Play
       - type: x
-      - type: x
-      - type: x
-      - type: x
   - cards:
       - type: x
+      - type: r2
       - type: x
-      - type: r1
-      - type: g1
       - type: x

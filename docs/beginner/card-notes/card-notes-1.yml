@@ -1,22 +1,15 @@
-stacks:
-  - r: 3
-  - y: 4
-  - g: 3
-  - b: 3
-  - p: 2
 players:
-  - clueGiver: true
-    cards:
+  - cards:
       - type: x
       - type: x
       - type: x
       - type: x
       - type: x
   - cards:
+      - type: r
+        clue: r
+        middleNote: r1
       - type: x
       - type: x
       - type: x
-      - type: 4
-        clue: 4
-        below: Play
       - type: x

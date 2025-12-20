@@ -16,7 +16,8 @@ players:
       - type: x
       - type: r
         clue: r
-        middleNote: (1)
+        middleNote: r1
+        below: Play
       - type: x
       - type: x
       - type: x
