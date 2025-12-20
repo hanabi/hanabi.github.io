@@ -22,14 +22,14 @@ players:
       - type: b5
         border: false
       - type: b2
-        below: (b)
+        middleNote: b
       - type: y1
         border: false
   - cards:
       - type: r2
         border: false
       - type: p2
-        below: (2)
+        middleNote: 2
       - type: r1
         border: false
       - type: y4

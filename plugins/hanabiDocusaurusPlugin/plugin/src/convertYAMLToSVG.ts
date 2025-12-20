@@ -54,6 +54,7 @@ const WORD_TO_COLOR: ReadonlyMap<string, string> = new Map([
   ["save", "gold"],
   ["sp", "gold"],
   ["op", "gold"],
+  ["stall", "gold"],
   ["discard", "cyan"],
   ["chop", "darkred"],
   ["fresh", "green"],
