@@ -9,7 +9,7 @@ players:
       - type: x
       - type: x
       - type: r
-        middleNote: (4)
+        middleNote: r4
       - type: x
       - type: x
     clueGiver: true
@@ -26,7 +26,7 @@ players:
   - cards:
       - type: x
       - type: r
-        middleNote: (3)
+        middleNote: r3
       - type: x
       - type: x
       - type: x

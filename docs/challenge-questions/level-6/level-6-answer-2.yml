@@ -14,14 +14,16 @@ players:
   - cards:
       - type: x
       - type: x
-      - type: b3
-        clue: 3
-        retouched: true
+      - type: x
+        cm: true
+        middleNote: cm
+        below: cm
       - type: g3
         clue: 3
         retouched: true
+        below: Tempo
   - cards:
       - type: x
       - type: x
       - type: x
-      - type: b5
+      - type: x

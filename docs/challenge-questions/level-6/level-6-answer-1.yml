@@ -5,14 +5,19 @@ stacks:
   - b: 2
   - p: 5
 players:
+  - clueGiver: true
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
   - cards:
       - type: x
       - type: x
-      - type: x
-        above:
-          text:
-            - Chop
-            - Move
+      - type: b3
+        clue: 3
+        retouched: true
+        below: Tempo
       - type: g3
         clue: 3
         retouched: true
@@ -20,9 +25,4 @@ players:
       - type: x
       - type: x
       - type: x
-      - type: x
-  - cards:
-      - type: x
-      - type: x
-      - type: x
-      - type: x
+      - type: b5
