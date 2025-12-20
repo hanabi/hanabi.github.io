@@ -18,7 +18,7 @@ players:
       - type: 1
         clue: 1
       - type: r
-        middleNote: (r2)
+        middleNote: r2
       - type: 1
         clue: 1
         retouched: true
