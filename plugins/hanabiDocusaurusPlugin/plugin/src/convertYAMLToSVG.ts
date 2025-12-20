@@ -745,7 +745,7 @@ class ImageGenerator {
 
   /** @returns The offset corresponding to the height of the text that was written. */
   private drawTextbox(
-    textOrObject: string | string[] | TextObject,
+    textOrObject: string | TextObject,
     offset: number,
   ): number {
     let lines: readonly string[];
@@ -762,9 +762,6 @@ class ImageGenerator {
 
       lines = TEXT_EXPANSION.get(textOrObject) ?? [textOrObject];
       color = colorWord ?? defaultColor;
-    } else if (Array.isArray(textOrObject)) {
-      lines = textOrObject;
-      color = defaultColor;
     } else if (typeof textOrObject.text === "string") {
       lines = [textOrObject.text];
       color = textOrObject.color ?? defaultColor;

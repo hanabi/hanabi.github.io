@@ -68,29 +68,16 @@ const card = z
     cm: z.boolean().optional(),
 
     /**
-     * A text label at the top of the card. Can be either a string, an array of strings, or a
-     * textObject object representing a colored string.
+     * A text label on the top of the card. Can be either a string or an object representing a
+     * string.
      */
-    above: z
-      .string()
-      .min(1)
-      .or(z.array(z.string().min(1)).min(1))
-      .or(textObject)
-      .optional(),
+    above: z.string().min(1).or(textObject).optional(),
 
     /** A text label in the middle of the card. (This cannot be a multi-line string.) */
     middleNote: z.coerce.string().min(1).optional(),
 
-    /**
-     * A text label below the card. Can be either a string, an array of strings, or a textObject
-     * object representing a colored string.
-     */
-    below: z
-      .string()
-      .min(1)
-      .or(z.array(z.string().min(1)).min(1))
-      .or(textObject)
-      .optional(),
+    /** A text label below the card. Can be either a string or an object representing a string. */
+    below: z.string().min(1).or(textObject).optional(),
   })
   .strict()
   .readonly();

@@ -17,7 +17,8 @@ players:
       - type: x
         above: Red 1
       - type: x
-        above: [Multi-, line]
+        above:
+          text: [Multi-, line]
         below: Focus
       - type: x
         above: Rainbow 4
