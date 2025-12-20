@@ -18,7 +18,9 @@ players:
         above: Red 1
       - type: x
         above:
-          text: [Multi-, line]
+          text:
+            - Multi-
+            - line
         below: Focus
       - type: x
         above: Rainbow 4
@@ -26,7 +28,9 @@ players:
   - cards:
       - type: x
         above:
-          text: [Foo, Bar]
+          text:
+            - Foo
+            - Bar
           color: rainbow
       - type: x
         above:
