@@ -21,6 +21,7 @@ const CARD_WIDTH = 70;
 const CARD_HEIGHT = 100;
 const CARD_ROUNDED_CORNER_SIZE = 5;
 const CLUE_BORDER_COLOR = "orange";
+const CM_BORDER_COLOR = "whitesmoke";
 const CLUE_BORDER_OVERLAP = 6;
 const HORIZONTAL_SPACING_BETWEEN_CARDS = 8;
 
@@ -50,11 +51,20 @@ const WORD_TO_COLOR: ReadonlyMap<string, string> = new Map([
   // Other
   ["focus", "gold"],
   ["play", "gold"],
+  ["save", "gold"],
+  ["sp", "gold"],
+  ["op", "gold"],
   ["discard", "cyan"],
   ["chop", "darkred"],
   ["fresh", "green"],
   ["bad", "gray"],
   ["brown", "sienna"],
+]);
+
+const TEXT_EXPANSION: ReadonlyMap<string, string[]> = new Map([
+  ["sp", ["Save or", "Play"]],
+  ["op", ["Occupied", "Play"]],
+  ["cm", ["Chop", "Move"]],
 ]);
 
 const COLORS_WITH_BLACK_TEXT: ReadonlySet<string> = new Set([
@@ -285,8 +295,10 @@ class ImageGenerator {
   private drawPlayerCard(card: Card) {
     const clued = !card.type.startsWith("x");
 
-    // We allow the YAML to specify "border: false" to manually disable the clue border.
-    if (card.border === true || (clued && card.border !== false)) {
+    if (card.cm === true) {
+      this.drawCmBorder();
+    } else if (card.border === true || (clued && card.border !== false)) {
+      // We allow the YAML to specify "border: false" to manually disable the clue border.
       this.drawClueBorder();
     }
 
@@ -314,6 +326,23 @@ class ImageGenerator {
       width: CARD_WIDTH + CLUE_BORDER_OVERLAP,
       height: CARD_HEIGHT + CLUE_BORDER_OVERLAP,
       fill: CLUE_BORDER_COLOR,
+      rx: CARD_ROUNDED_CORNER_SIZE,
+      ry: CARD_ROUNDED_CORNER_SIZE,
+    });
+
+    if (this.yOffset === 0) {
+      this.yTop = Math.min(this.yTop, -CLUE_BORDER_OVERLAP / 2);
+    }
+  }
+
+  private drawCmBorder() {
+    this.svgFile.addRect({
+      x: this.xOffset - CLUE_BORDER_OVERLAP / 2,
+      y: this.yOffset - CLUE_BORDER_OVERLAP / 2,
+      width: CARD_WIDTH + CLUE_BORDER_OVERLAP,
+      height: CARD_HEIGHT + CLUE_BORDER_OVERLAP,
+      fill: CM_BORDER_COLOR,
+      stroke: "black",
       rx: CARD_ROUNDED_CORNER_SIZE,
       ry: CARD_ROUNDED_CORNER_SIZE,
     });
@@ -613,6 +642,16 @@ class ImageGenerator {
       });
     }
 
+    if (card.fix === true) {
+      this.svgFile.addImage(`${PIECES_PATH}/wrench.png`, {
+        x: this.xOffset + 5,
+        y: this.yOffset + 5,
+        width: CARD_WIDTH - 10,
+        height: CARD_HEIGHT - 10,
+        opacity: "0.8",
+      });
+    }
+
     const { clue } = card;
     if (clue !== undefined) {
       // Draw the arrow above the card.
@@ -722,7 +761,7 @@ class ImageGenerator {
       }
       const colorWord = WORD_TO_COLOR.get(firstWord.toLowerCase());
 
-      lines = [textOrObject];
+      lines = TEXT_EXPANSION.get(textOrObject) ?? [textOrObject];
       color = colorWord ?? defaultColor;
     } else if (typeof textOrObject.text === "string") {
       lines = [textOrObject.text];

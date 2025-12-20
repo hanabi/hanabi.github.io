@@ -21,6 +21,9 @@ import ClueResult from "./example-images/clue.yml";
 import CardTextSource from "!raw-loader!./example-images/card-text.yml";
 import CardTextResult from "./example-images/card-text.yml";
 
+import CardTextExpandSource from "!raw-loader!./example-images/card-text-expand.yml";
+import CardTextExpandResult from "./example-images/card-text-expand.yml";
+
 import TrashSource from "!raw-loader!./example-images/trash.yml";
 import TrashResult from "./example-images/trash.yml";
 
@@ -69,12 +72,12 @@ Each example image is created from a [YAML](https://yaml.org/) file, which is a 
 
 ## Adding a New Image
 
-1. Create a new YAML file. (You can base it off of an existing YAML file if you want.)
+1. Create a new YAML file in a subdirectory having the same name as the Markdown page you're putting it on. (You can base it off of an existing YAML file if you want.)
 
-2. On the respective Markdown page, import it as a React component at the top of the file, like so:
+2. On the Markdown page, import it as a React component at the top of the file, like so:
 
 ```jsx
-import NewChopMove from "./new-chop-move.yml";
+import NewChopMove from "./page-name/new-chop-move.yml";
 ```
 
 3. Insert the React component at the appropriate place in the Markdown file:
@@ -89,7 +92,44 @@ See [the Markdown file for level 2](https://raw.githubusercontent.com/hanabi/han
 
 When using `npm run start` to view the page locally, any changes that you make to the website will be automatically updated without having to refresh the page. This includes any changes to YAML files - they will be automatically re-converted into SVG files on the fly and updated in the browser.
 
-## YML File Format
+## Guidelines
+
+These are general guidelines that should be followed when creating or modifying images. The best way to start is to copy and modifying an existing one.
+
+- Examples should normally use 5 stacks and 3 players. Include more only if needed.
+- Stacks can be skipped if they are not at all important to the scenario.
+- Only include card identities that are relevant to the scenario. The less details, the clearer and more general.
+  - Identify cards with the `type:` attribute.
+    - Make sure to use `border: false` if they haven't been touched by a clue.
+    - Cards that _have_ been touched by a clue are partially identified. (For example `type: 2`.)
+    - Additionally, if a note has been written, put it in the `middleNote` attribute.
+    - Use multiple `type`s sparingly, and only when relevant to the variant (i.e. rainbow/pink).
+  - Usually do not identify cards in the clue giver's or clue receiver's hand.
+    - Cards that are seen by only _some_ players should have their identities _above_ the card. (For instance: `above: Red 2`.)
+- If a clue is given, always include who gives it using the `clueGiver: true` attribute.
+  - The clue giver is usually Alice.
+  - Make sure to include all touched cards with the `clue: X` attribute.
+  - Morph touched cards like the game UI would do, using `type: X` attribute.
+  - Indicate the focus of the clue with a gold message _below_ the card. (For example `below: Play` or `below: Stall`.)
+  - Retouched cards must have `retouched: true` to make the arrow grey.
+  - Almost always indicate what the receiving player would write on the card using the `middleNote` attribute.
+    - Use shorthand notation, and include all possibilities:
+      - Fully identified: `b2`
+      - Partially identified: `b23`, `ryg2`
+      - Chop moved: `cm`. Additionally chop moved cards should have `cm: true` to draw a white border.
+      - Known trash: `kt`. Additionally, known trash should have `trash: true` to draw a trash can.
+  - Other cards whose identities are inferred from the given clue should have a black message _below_ the card. (For example `below: Finesse`.)
+    - It is not necessary to write notes on those cards, as they will usually blind play right away.
+    - _Do_ write their actual identities using `above:`, as those are known by the clue giver.
+- Illegal clues and/or misplays should clearly be marked in `red` color.
+- Mistakes or suboptimal clues should be marked in `orange` color.
+- Alternative actions (discards, plays) should be marked `below:` in cyan color.
+  - The player whose action it is should be marked with `clueGiver: true`.
+- Other information about cards should be marked `below:`.
+
+Each example is different, these are guidelines, use common judgment.
+
+## Detailed YML File Format
 
 There are 2 main sections: `stacks` and `players`.
 
@@ -131,7 +171,11 @@ The `orange` attribute can be used to draw some rank pips with orange. This is u
 
 By default, clued cards have an orange border, but this can be overridden with the `border` attribute.
 
+The `cm` attribute can be used to draw a white border around the card.
+
 The `trash` attribute can be used to draw a trash icon on top of the card.
+
+The `fix` attribute can be used to draw a wrench icon on top of the card.
 
 <Example code={TypesSource} Image={TypesResult} />
 
@@ -157,12 +201,14 @@ Text can be placed on a card:
 `above` and `below` have the same syntax:
 
 - `above: Green 3` or `above: Rainbow 5` will draw the box with the specified color and text.
-- Several more keywords have a specific color assigned to them: `Focus`, `Chop`.
+- Several more keywords have a specific color assigned to them: `Focus`, `Chop`, `Bad`, `Play`.
 - You can override the color using `color` attribute. CSS colors are accepted, and additionally `rainbow`.
-- You can make it a multi-line note by using an array.
-- It can be a list of such text boxes, potentially with different colors.
 
 <Example code={CardTextSource} Image={CardTextResult} />
+
+Some shortcuts expand to larger text:
+
+<Example code={CardTextExpandSource} Image={CardTextExpandResult} />
 
 ### Discard Pile
 
