@@ -181,7 +181,7 @@ import InformationLock from "./level-3/information-lock.yml";
   - It is the first turn and nothing is played on the stacks.
   - Alice clues red to Bob, touching a red card on slot 1 as a _Play Clue_.
   - Bob looks at Cathy's hand, her _Finesse Position_ (slot 1) is not red 1, thus this is not _Finesse_.
-  - Bob immediately right-clicks on the card and writes a note of "red 1".
+  - Bob immediately right-clicks on the card and writes a note of "r1".
   - This card is now "locked in" as a red 1. No future clues or actions from other players can ever change that.
 
 #### Information Lock with a Superposition
@@ -204,11 +204,11 @@ import InformationLock from "./level-3/information-lock.yml";
   - Bob has one card in his hand clued with number 2. (It is currently unknown.)
   - Cathy has one card in her hand clued with number 3. (It is currently unknown.)
   - Alice clues Donald red, touching a red 4 as a _Play Clue_.
-  - Bob is promised to have the red 2. He writes a note of "red 2" on his clued 2. It is now locked in forever as that card.
-  - Cathy is promised to have the red 3. She writes a note of "red 3" on her clued 3. It is now locked in forever as that card.
+  - Bob is promised to have the red 2. He writes a note of "r2" on his clued 2. It is now locked in forever as that card.
+  - Cathy is promised to have the red 3. She writes a note of "r3" on her clued 3. It is now locked in forever as that card.
   - Donald knows that from _Good Touch Principle_, his red card cannot be red 2, since Bob has that card clued in his hand.
   - Donald knows that from _Good Touch Principle_, his red card cannot be red 3, since Cathy has that card clued in her hand.
-  - Donald knows that he must therefore have the red 4. He writes a note of "red 4" on his red card. It is now locked in forever as that card.
+  - Donald knows that he must therefore have the red 4. He writes a note of "r4" on his red card. It is now locked in forever as that card.
 
 <InformationLock />
 
@@ -217,6 +217,6 @@ import InformationLock from "./level-3/information-lock.yml";
 - A direct conflict is the only thing that can "break" an information lock.
 - For example, in a 3-player game:
   - Bob has a card in his hand that is touched with a number 2 clue. (It has no color clues on it.)
-  - Bob has a written a note of "red 2" on the card, meaning that it has been "locked in" as a red 2. (Bob will permanently think that it is a red 2.)
+  - Bob has a written a note of "r2" on the card, meaning that it has been "locked in" as a red 2. (Bob will permanently think that it is a red 2.)
   - Alice clues blue to Bob, which "fills in" the card as a blue 2.
-  - It is now impossible for this card to be a red 2 - Bob knows that he was lied to earlier on in the game. Bob erases his note of "red 2" on the card and the _Information Lock_ is broken.
+  - It is now impossible for this card to be a red 2 - Bob knows that he was lied to earlier on in the game. Bob erases his note of "r2" on the card and the _Information Lock_ is broken.
