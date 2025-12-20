@@ -21,7 +21,7 @@ players:
       - type: x
       - type: r
         clue: r
-        middleNote: r12
+        middleNote: r1, r2
         below: sp
   - cards:
       - type: p1
