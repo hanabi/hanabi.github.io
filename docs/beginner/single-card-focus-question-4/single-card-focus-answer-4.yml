@@ -10,8 +10,16 @@ players:
       - type: x
       - type: r
         clue: r
-        below: Focus
-      - type: x
       - type: r
         clue: r
+        below: Focus
+      - type: 5
+      - type: r2
+        clue: r
+        retouched: true
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
       - type: x

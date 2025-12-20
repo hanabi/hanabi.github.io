@@ -1,3 +1,9 @@
+stacks:
+  - r: 1
+  - y: 0
+  - g: 3
+  - b: 5
+  - p: 4
 players:
   - clueGiver: true
     cards:
@@ -8,13 +14,18 @@ players:
       - type: x
   - cards:
       - type: x
-      - type: b2
-        clue: b
+      - type: r
+        clue: r
+      - type: r
+        clue: r
+        middleNote: r3
+        below: Play
+      - type: r2
+        clue: r
         retouched: true
-      - type: b
-        clue: b
-      - type: x
-      - type: 2
+      - type: r5
+        clue: r
+        retouched: true
   - cards:
       - type: x
       - type: x
