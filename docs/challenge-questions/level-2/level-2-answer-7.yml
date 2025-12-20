@@ -9,29 +9,32 @@ discarded:
   - r4
   - g4
 players:
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
   - clueGiver: true
     cards:
       - type: x
       - type: x
-      - type: x
-      - type: x
-      - type: x
-  - cards:
-      - type: x
+      - type: 3
+        clue: 3
+        middleNote: ygbp3
       - type: x
       - type: 3
         clue: 3
-      - type: x
-      - type: 3
-        clue: 3
-        below: Focus
+        middleNote: r3
+        below: Save
   - cards:
       - type: r2
-        border: false
+        clue: 2
+        below: Play
       - type: b4
         border: false
       - type: p2
-        border: false
+        clue: 2
       - type: g1
         border: false
       - type: y1

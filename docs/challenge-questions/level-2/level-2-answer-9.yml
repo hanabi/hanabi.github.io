@@ -19,7 +19,9 @@ players:
       - type: y4
         border: false
       - type: g4
-        border: false
+        middleNote: g34
+        clue: g
+        below: Play
       - type: b2
         border: false
       - type: r1
@@ -29,6 +31,7 @@ players:
   - cards:
       - type: g3
         border: false
+        below: Finesse
       - type: y1
         border: false
       - type: b4
