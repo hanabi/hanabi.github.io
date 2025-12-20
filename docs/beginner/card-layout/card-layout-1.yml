@@ -8,7 +8,10 @@ players:
   - cards:
       - type: b1
         border: false
-        below: Slot 1
+        below:
+          text:
+            - Slot 1
+            - Newest
       - type: b2
         border: false
         below: Slot 2
@@ -20,11 +23,17 @@ players:
         below: Slot 4
       - type: b5
         border: false
-        below: Slot 5
+        below:
+          text:
+            - Slot 5
+            - Oldest
   - cards:
       - type: r2
         border: false
-        below: Slot 1
+        below:
+          text:
+            - Slot 1
+            - Newest
       - type: r3
         border: false
         below: Slot 2
@@ -36,4 +45,7 @@ players:
         below: Slot 4
       - type: r1
         border: false
-        below: Slot 5
+        below:
+          text:
+            - Slot 5
+            - Oldest

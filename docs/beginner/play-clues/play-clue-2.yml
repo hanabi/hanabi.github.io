@@ -17,5 +17,7 @@ players:
       - type: x
       - type: 1
         clue: 1
+        middleNote: yb1
+        below: Play
       - type: x
       - type: x
