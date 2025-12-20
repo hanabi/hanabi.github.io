@@ -14,6 +14,10 @@ const bigText = z
   .strict()
   .readonly();
 
+/*
+ * A text object representing a colored string. The text attribute can either be a single string or
+ * an array of strings.
+ */
 const textObject = z
   .object({
     text: z
@@ -57,6 +61,12 @@ const card = z
     /** Whether the card has a trash can overlay on top of it. Defaults to false. */
     trash: z.boolean().optional(),
 
+    /** Whether the card has a wrench overlay on top of it. Defaults to false. */
+    fix: z.boolean().optional(),
+
+    /** Whether the card has has a cm border around it. Defaults to false. */
+    cm: z.boolean().optional(),
+
     /**
      * A text label on the top of the card. Can be either a string or an object representing a
      * string.
@@ -66,10 +76,7 @@ const card = z
     /** A text label in the middle of the card. (This cannot be a multi-line string.) */
     middleNote: z.coerce.string().min(1).optional(),
 
-    /**
-     * A text label on the bottom of the card. Can be either a string or an object representing a
-     * string.
-     */
+    /** A text label below the card. Can be either a string or an object representing a string. */
     below: z.string().min(1).or(textObject).optional(),
   })
   .strict()

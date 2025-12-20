@@ -1,0 +1,14 @@
+stacks:
+  - r: 1
+  - b: 1
+  - m: 1
+players:
+  - cards:
+      - type: r
+        below: cm
+      - type: 4
+        clue: 4
+        below: op
+      - type: 4
+        clue: 4
+        below: sp

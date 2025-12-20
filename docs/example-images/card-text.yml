@@ -9,7 +9,7 @@ players:
       - type: r
         middleNote: (2)
       - type: x
-        middleNote: (CM)
+        middleNote: cm
         below:
           text: Bar
           color: yellow
@@ -17,6 +17,10 @@ players:
       - type: x
         above: Red 1
       - type: x
+        above:
+          text:
+            - Multi-
+            - line
         below: Focus
       - type: x
         above: Rainbow 4
@@ -32,5 +36,6 @@ players:
         above:
           text: Foo
           color: indigo
+        below: Bad
       - type: x
-        above: Save
+        below: Play
