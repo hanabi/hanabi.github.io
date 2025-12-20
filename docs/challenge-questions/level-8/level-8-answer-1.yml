@@ -1,0 +1,29 @@
+stacks:
+  - r: 3
+  - y: 5
+  - g: 5
+  - b: 4
+  - p: 4
+players:
+  - clueGiver: true
+    cards:
+      - type: x
+      - type: x
+      - type: x
+        below: Discard
+      - type: r4
+  - cards:
+      - type: g3
+        border: false
+      - type: r5
+      - type: p5
+      - type: b5
+  - cards:
+      - type: r2
+        border: false
+      - type: r1
+        border: false
+      - type: y4
+        border: false
+      - type: y3
+        border: false

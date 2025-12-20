@@ -50,6 +50,7 @@ const WORD_TO_COLOR: ReadonlyMap<string, string> = new Map([
   // Other
   ["focus", "gold"],
   ["play", "gold"],
+  ["discard", "cyan"],
   ["chop", "darkred"],
   ["fresh", "green"],
   ["bad", "gray"],
@@ -61,6 +62,8 @@ const COLORS_WITH_BLACK_TEXT: ReadonlySet<string> = new Set([
   "yellow",
   "rainbow",
   "pink",
+  "white",
+  "cyan",
 ]);
 
 class ImageGenerator {
