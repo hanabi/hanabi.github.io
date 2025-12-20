@@ -15,7 +15,7 @@ await lintCommands(import.meta.dirname, [
   "tsc --noEmit --project ./scripts/tsconfig.json",
 
   // Use ESLint to lint the TypeScript code.
-  "eslint .",
+  "eslint",
 
   // Use Prettier to check formatting.
   // - "--log-level=warn" makes it only output errors.
@@ -27,13 +27,16 @@ await lintCommands(import.meta.dirname, [
 
   // Use CSpell to spell check every file.
   // - "--no-progress" and "--no-summary" make it only output errors.
-  "cspell --no-progress --no-summary .",
+  "cspell --no-progress --no-summary",
 
   // Check for unused words in the CSpell configuration file.
   "cspell-check-unused-words",
 
   // Check for template updates.
   "complete-cli check --ignore build.ts,knip.config.js,LICENSE,lint.ts",
+
+  // Lint YAML files.
+  "yamllint .",
 
   // eslint-disable-next-line unicorn/prefer-top-level-await
   ["check unused YAML files", checkUnusedYAMLFiles()],

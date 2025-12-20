@@ -5,25 +5,23 @@ stacks:
   - b: 1
   - p: 2
 players:
-  - clueGiver: true
-    cards:
+  - cards:
       - type: x
       - type: x
       - type: x
       - type: x
       - type: x
   - cards:
+      - type: x
       - type: r4
         border: false
       - type: g4
         border: false
       - type: b3
         border: false
-      - type: p1
-        border: false
-        below: Discards
       - type: y2
         clue: 2
+        below: Save
   - cards:
       - type: x
       - type: x

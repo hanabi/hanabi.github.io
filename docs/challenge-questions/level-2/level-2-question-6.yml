@@ -24,6 +24,7 @@ players:
         border: false
       - type: p1
         border: false
+        below: Discards
       - type: g4
         clue: 4
   - cards:

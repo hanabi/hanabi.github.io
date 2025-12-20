@@ -12,7 +12,6 @@ players:
       - type: x
       - type: x
       - type: x
-        middleNote: (r1)
   - cards:
       - type: 1
         clue: 1
@@ -27,12 +26,12 @@ players:
             - + Chop
           color: green
       - type: r
-        middleNote: (r2)
+        middleNote: r2
       - type: 1
         clue: 1
         retouched: true
         trash: true
-        middleNote: 4th
+        middleNote: kt
         below:
           text:
             - Starting
@@ -51,4 +50,3 @@ players:
       - type: x
       - type: x
       - type: x
-        middleNote: (b1)
