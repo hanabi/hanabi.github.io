@@ -35,6 +35,9 @@ await lintCommands(import.meta.dirname, [
   // Check for template updates.
   "complete-cli check --ignore build.ts,knip.config.js,LICENSE,lint.ts",
 
+  // Lint YAML files.
+  "yamllint .",
+
   // eslint-disable-next-line unicorn/prefer-top-level-await
   ["check unused YAML files", checkUnusedYAMLFiles()],
 

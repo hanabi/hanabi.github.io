@@ -18,7 +18,7 @@ rules:
     min-spaces-from-content: 1 # Defaults to 2. This matches Prettier.
   comments-indentation: disable # Handled by Prettier.
   document-end: disable # The document end marker is superfluous.
-  document-start: enable
+  document-start: disable # The document start marker is superfluous.
   empty-lines: disable # Handled by Prettier.
   empty-values: enable
   float-values:
@@ -37,4 +37,7 @@ rules:
   quoted-strings:
     required: only-when-needed # Defaults to "enable".
   trailing-spaces: disable # Handled by Prettier.
-  truthy: enable
+  truthy:
+    # We must disable the rule for keys since GitHub actions has a false positive:
+    # https://github.com/adrienverge/yamllint/issues/430
+    check-keys: false
