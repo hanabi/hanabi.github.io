@@ -25,3 +25,20 @@ players:
         border: false
       - type: b3
         border: false
+  - text: "Save Principle overrides Good Touch Principle:"
+  - space
+  - offset: -1
+    cards:
+      - type: b4
+        clue: b
+        fix: true
+      - type: r3
+        border: false
+      - type: g1
+        border: false
+      - type: b4
+        clue: b
+        fix: true
+      - type: b3
+        clue: b
+        below: Save

@@ -4,6 +4,8 @@ stacks:
   - g: 0
   - b: 0
   - p: 0
+bigText:
+  text: Illegal!
 players:
   - clueGiver: true
     cards:
@@ -14,10 +16,13 @@ players:
       - type: x
   - cards:
       - type: r2
-        border: false
+        clue: r
+        below: Play
       - type: r4
-        border: false
+        clue: r
+        below: Dupe
       - type: r4
-        border: false
+        clue: r
+        below: Dupe
       - type: x
       - type: x

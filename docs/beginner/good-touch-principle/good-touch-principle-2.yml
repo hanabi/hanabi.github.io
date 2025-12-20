@@ -11,9 +11,15 @@ players:
       - type: x
       - type: p
       - type: x
-  - cards:
+  - text: "From Good Touch Principle:"
+  - offset: -1
+    cards:
       - type: x
       - type: x
       - type: x
-      - type: x
+      - type: p
+        middleNote: p5
+        below:
+          text: Play
+          color: cyan
       - type: x

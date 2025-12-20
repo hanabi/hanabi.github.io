@@ -1,9 +1,12 @@
 stacks:
   - r: 1
-  - y: 2
+  - y: 0
   - g: 0
-  - b: 1
+  - b: 0
   - p: 0
+bigText:
+  text: Correct
+  color: Green
 players:
   - clueGiver: true
     cards:
@@ -13,13 +16,12 @@ players:
       - type: x
       - type: x
   - cards:
-      - type: x
-      - type: y
-        clue: y
-        middleNote: y3
+      - type: r2
+        clue: 2
         below: Play
-      - type: y
-        clue: y
-        middleNote: y4, y5
+      - type: r4
+        border: false
+      - type: r4
+        border: false
       - type: x
       - type: x

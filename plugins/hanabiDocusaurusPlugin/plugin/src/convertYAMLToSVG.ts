@@ -848,9 +848,7 @@ class ImageGenerator {
     ]);
     const color = colors.get(text) ?? bigText.color ?? "black";
 
-    const textColor = new Set(["gold", "yellow", "rainbow"]).has(color)
-      ? "black"
-      : "white";
+    const textColor = COLORS_WITH_BLACK_TEXT.has(color) ? "black" : "white";
 
     const r = this.svgFile.addSVG({
       x: xOfText,

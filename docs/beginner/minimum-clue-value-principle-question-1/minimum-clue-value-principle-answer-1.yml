@@ -23,9 +23,29 @@ players:
       - type: g3
         border: false
       - type: b4
-        middleNote: b
+        clue: 4
+        retouched: true
+        middleNote: b4
+        below: Tempo
       - type: r1
         border: false
+  - text: OR
+  - offset: -1
+    cards:
+      - type: p5
+        border: false
+      - type: g5
+        border: false
+      - type: g3
+        border: false
+      - type: b4
+        clue: b
+        retouched: true
+        middleNote: b4
+        below: Tempo
+      - type: r1
+        border: false
+  - text: OR
   - cards:
       - type: b2
         border: false
@@ -34,6 +54,9 @@ players:
       - type: y1
         border: false
       - type: r2
-        middleNote: 2
+        clue: r
+        retouched: true
+        middleNote: r2
+        below: Tempo
       - type: y2
         middleNote: 2

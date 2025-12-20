@@ -1,12 +1,9 @@
 stacks:
-  - r: 1
-  - y: 1
-  - g: 0
-  - b: 3
+  - r: 0
+  - y: 0
+  - g: 2
+  - b: 0
   - p: 0
-bigText:
-  text: Must clue
-  color: cyan
 players:
   - clueGiver: true
     cards:
@@ -15,25 +12,28 @@ players:
       - type: x
       - type: x
       - type: x
+        below: Discard
   - cards:
-      - type: p5
+      - type: p3
         border: false
-      - type: g5
+      - type: r2
         border: false
       - type: g3
         border: false
-      - type: b4
-        middleNote: b
-      - type: r1
+        below: Dupe
+      - type: p4
         border: false
+      - type: g3
+        border: false
+        below: Dupe
   - cards:
-      - type: b2
+      - type: r5
         border: false
-      - type: g4
+      - type: b3
         border: false
-      - type: y1
+      - type: y4
         border: false
-      - type: r2
-        middleNote: 2
       - type: y2
-        middleNote: 2
+        border: false
+      - type: g1
+        border: false

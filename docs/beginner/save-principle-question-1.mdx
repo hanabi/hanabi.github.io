@@ -6,6 +6,7 @@ import BeginnersGuideProgress from "@site/src/beginnersGuide.tsx";
 import Tabs from "@theme/Tabs";
 import TabItem from "@theme/TabItem";
 import SavePrincipleQuestion1 from "./save-principle-question-1/save-principle-question-1.yml";
+import SavePrincipleAnswer1 from "./save-principle-question-1/save-principle-answer-1.yml";
 
 <BeginnersGuideProgress id="save-principle-question-1" />
 
@@ -20,13 +21,16 @@ import SavePrincipleQuestion1 from "./save-principle-question-1/save-principle-q
 - Alice clues blue to Bob, touching a card on slot 1. This must be a _Play Clue_ on the blue 1.
 - Should Bob play the blue 1?
 
+<SavePrincipleQuestion1 />
+
 </TabItem>
 <TabItem value="solution">
 
 - No. If Bob plays the blue 1 and Cathy discards the green 4, then the maximum score would be decreased.
 - As long as there is a chance that Cathy will discard, Bob **must** save the green 4 right now before playing any playable cards.
+- Bob can either clue green or 4 to save the green 4. But 4 would touch another useful card, and is usually the better clue.
+
+<SavePrincipleAnswer1 />
 
 </TabItem>
 </Tabs>
-
-<SavePrincipleQuestion1 />
