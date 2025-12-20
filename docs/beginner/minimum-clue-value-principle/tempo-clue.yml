@@ -20,6 +20,7 @@ players:
       - type: r2
         clue: r
         retouched: true
+        below: Tempo
   - cards:
       - type: x
       - type: x

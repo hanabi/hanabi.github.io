@@ -7,18 +7,17 @@ stacks:
 discarded:
   - g4
 players:
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
   - clueGiver: true
     cards:
-      - type: x
-      - type: x
-      - type: x
-      - type: x
-      - type: x
-  - cards:
       - type: b
         clue: b
         middleNote: b1
-        below: Play
       - type: x
       - type: x
       - type: x
@@ -27,10 +26,12 @@ players:
       - type: r1
         border: false
       - type: p4
-        border: false
+        clue: 4
       - type: p3
         border: false
       - type: r1
         border: false
       - type: g4
-        border: false
+        clue: 4
+        middleNote: g4, p4
+        below: sp
