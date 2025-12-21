@@ -15,14 +15,14 @@ players:
   - cards:
       - type: r
         clue: r
-        below: Focus
+        middleNote: r1
+        below: Play
       - type: r
         clue: r
       - type: x
       - type: x
       - type: x
-  - name: Cathy
-    cards:
+  - cards:
       - type: x
       - type: x
       - type: x

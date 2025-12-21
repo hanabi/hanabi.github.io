@@ -16,13 +16,13 @@ players:
       - type: r2
         clue: 2
         retouched: true
+        below: Tempo
       - type: x
       - type: x
       - type: x
-        above:
-          text:
-            - Chop
-            - Moved
+        cm: true
+        middleNote: cm
+        below: cm
   - clueGiver: true
     cards:
       - type: x

@@ -6,7 +6,6 @@ stacks:
   - p: 1
 bigText:
   text: Mid-Game
-  color: black
 players:
   - cards:
       - type: x
@@ -15,8 +14,7 @@ players:
       - type: x
       - type: x
   - text: Alice discards to protect the red 3.
-  - name: Bob
-    clueGiver: true
+  - clueGiver: true
     cards:
       - type: x
       - type: x
@@ -24,11 +22,11 @@ players:
       - type: x
       - type: r3
         border: false
-  - name: Cathy
-    cards:
+  - cards:
       - type: x
       - type: b2
         clue: b
+        below: Play
       - type: x
       - type: x
       - type: x
