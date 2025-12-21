@@ -4,26 +4,32 @@ stacks:
   - g: 0
   - b: 0
   - p: 0
+bigText:
+  text: Mistake
+  color: orange
 players:
   - clueGiver: true
     cards:
       - type: x
       - type: x
       - type: 3
-        middleNote: (R)
+        above: Red 3
+        middleNote: 3
       - type: x
       - type: x
   - cards:
       - type: x
       - type: 3
-        middleNote: (R)
         clue: 3
-      - type: x
-      - type: x
-      - type: x
-  - cards:
-      - type: x
-      - type: x
+        above: Red 3
+        middleNote: r3
+        below:
+          text:
+            - Play,
+            - Should
+            - sarcastic
+            - discard
+          color: gold
       - type: x
       - type: x
       - type: x

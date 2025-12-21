@@ -7,6 +7,13 @@ stacks:
 discarded:
   - r4
 players:
+  - clueGiver: true
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
   - cards:
       - type: 1
         clue: 1
@@ -38,11 +45,3 @@ players:
             - Hand
             - + Chop
           color: gray
-
-  - clueGiver: true
-    cards:
-      - type: x
-      - type: x
-      - type: x
-      - type: x
-      - type: x
