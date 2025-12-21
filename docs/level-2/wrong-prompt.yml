@@ -4,6 +4,8 @@ stacks:
   - g: 1
   - b: 1
   - p: 1
+bigText:
+  text: Illegal!
 players:
   - clueGiver: true
     cards:
@@ -15,15 +17,45 @@ players:
   - cards:
       - type: x
         above: Red 2
+        below: Finesse
       - type: x
       - type: r
-        middleNote: (4)
+        above: Red 4
+        middleNote: r2
+        below:
+          text:
+            - Prompt
+            - Bombs
+          color: red
       - type: x
       - type: x
   - cards:
       - type: x
+      - type: x
+      - type: x
       - type: r3
         clue: r
+        middleNote: r3?
+        below: Play
+      - type: x
+  - text: Next round
+  - offset: -2
+    cards:
       - type: x
       - type: x
+        above: Red 2
+        middleNote: r2
+        below:
+          text:
+            - Finesse
+            - Plays
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: r3
+        middleNote: r3
       - type: x
