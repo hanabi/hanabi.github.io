@@ -22,7 +22,6 @@ players:
       - type: r2
         clue: 2
         middleNote: 2, !r
-        fix: true
       - type: y2
         clue: 2
         middleNote: 2, !r
