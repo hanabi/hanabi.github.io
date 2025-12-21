@@ -19,19 +19,19 @@ players:
         below: Trash
       - type: x
         cm: true
-        middleNote: tcm
+        middleNote: cm
         below: cm
       - type: x
         cm: true
-        middleNote: tcm
+        middleNote: cm
         below: cm
       - type: x
         cm: true
-        middleNote: tcm
+        middleNote: cm
         below: cm
       - type: x
         cm: true
-        middleNote: tcm
+        middleNote: cm
         below: cm
   - text: After discarding the 1...
   - offset: -1
@@ -39,14 +39,14 @@ players:
       - type: x
         below: Chop
       - type: x
-        middleNote: tcm
+        middleNote: cm
         cm: true
       - type: x
-        middleNote: tcm
+        middleNote: cm
         cm: true
       - type: x
-        middleNote: tcm
+        middleNote: cm
         cm: true
       - type: x
-        middleNote: tcm
+        middleNote: cm
         cm: true

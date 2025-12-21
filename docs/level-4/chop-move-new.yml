@@ -23,7 +23,7 @@ players:
         below: Trash
       - type: x
         cm: true
-        middleNote: tcm
+        middleNote: cm
         below: cm
   - text: After discarding the 1...
   - offset: -2
