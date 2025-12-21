@@ -19,14 +19,26 @@ players:
   - cards:
       - type: x
         above: Green 1
+        below:
+          text:
+            - Layered
+            - Finesse
       - type: x
         above: Red 2
+        below:
+          text:
+            - Layered
+            - Finesse
       - type: x
         above: Blue 1
+        below: Finesse
       - type: x
+  - space
   - cards:
       - type: x
-      - type: b
+      - type: b2
         clue: b
+        middleNote: b2
+        below: Play
       - type: x
       - type: x

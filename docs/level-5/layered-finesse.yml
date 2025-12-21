@@ -13,9 +13,10 @@ players:
       - type: x
       - type: x
   - cards:
-      - type: r
+      - type: r2
         clue: r
-        middleNote: (2)
+        middleNote: r1, r2
+        below: Play
       - type: x
       - type: x
       - type: x
@@ -23,8 +24,13 @@ players:
   - cards:
       - type: x
         above: Blue 1
+        below:
+          text:
+            - Layered
+            - Finesse
       - type: x
         above: Red 1
+        below: Finesse
       - type: x
       - type: x
       - type: x
