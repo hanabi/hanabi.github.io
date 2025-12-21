@@ -18,11 +18,13 @@ players:
         clue: 1
       - type: 1
         clue: 1
+        below: Plays
       - type: 1
         clue: 1
+        below: Plays
       - type: x
-  - text: After Bob plays two of the 1s...
-  - name: Alice
+  - text: After Bob has played two of the 1s...
+  - offset: -2
     clueGiver: true
     cards:
       - type: x
@@ -30,13 +32,14 @@ players:
       - type: x
       - type: x
       - type: x
-  - name: Bob
-    cards:
+  - cards:
       - type: x
       - type: x
       - type: x
       - type: 1
         clue: 1
         retouched: true
-        below: Bad
+        middleNote: kt
+        trash: true
+        below: Fix
       - type: x

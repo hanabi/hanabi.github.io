@@ -1,0 +1,28 @@
+stacks:
+  - r: 2
+  - y: 0
+  - g: 0
+  - b: 0
+  - p: 0
+players:
+  - cards:
+      - type: x
+      - type: x
+      - type: 3
+        above: Red 3
+        middleNote: r3
+        below:
+          text:
+            - Sarcastic
+            - discard
+          color: cyan
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+      - type: 3
+        middleNote: r3?
+      - type: x
+      - type: 3
+        middleNote: r3?
+      - type: x

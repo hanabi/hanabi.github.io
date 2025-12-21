@@ -15,12 +15,14 @@ players:
       - type: x
       - type: x
       - type: 2
-        below: Red 2
+        middleNote: r2
+        below: Prompt
       - type: x
   - cards:
       - type: x
       - type: 3
-        below: Red 3
+        middleNote: r3
+        below: Prompt
       - type: x
       - type: x
   - cards:
@@ -29,4 +31,5 @@ players:
       - type: x
       - type: r
         clue: r
-        below: Red 4
+        middleNote: r4
+        below: Play
