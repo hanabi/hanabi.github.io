@@ -16,19 +16,37 @@ players:
       - type: x
   - cards:
       - type: 2
-        middleNote: (R)
+        above: Red 2
+        middleNote: r2, b2
         clue: 2
+        below: Discards
       - type: x
       - type: x
       - type: x
       - type: x
   - text: Bob discards his slot 1 card, revealing it to be a red 2.
-  - name: Cathy
-    cards:
+  - cards:
       - type: x
         above: Red 2
+        below: GD
       - type: x
       - type: x
       - type: x
       - type: x
   - text: Cathy blind-plays her slot 1.
+  - offset: -3
+    cards:
+      - type: r5
+        border: false
+        middleNote: b2?
+        below:
+          text:
+            - Plays
+            - (Illegal!)
+          color: red
+      - type: x
+      - type: b3
+        border: false
+      - type: x
+      - type: x
+  - text: Alice mistakenly blind-plays her slot 1.

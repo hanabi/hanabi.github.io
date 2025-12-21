@@ -10,12 +10,14 @@ players:
       - type: x
       - type: x
       - type: 2
-        middleNote: (R)
+        above: Red 2
+        middleNote: any
       - type: x
       - type: x
   - cards:
       - type: x
         above: Red 1
+        below: Finesse
       - type: x
       - type: x
       - type: x
@@ -24,7 +26,13 @@ players:
       - type: x
       - type: r
         clue: r
-        middleNote: (2)
+        middleNote: r2
+        below:
+          text:
+            - Play,
+            - Should
+            - discard
+          color: gold
       - type: x
       - type: x
       - type: x
