@@ -22,5 +22,5 @@ players:
         below: 5CM
       - type: x
         cm: true
-        middleNote: cm
+        middleNote: 5cm
         below: cm

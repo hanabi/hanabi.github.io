@@ -33,5 +33,5 @@ players:
           color: gold
       - type: x
         cm: true
-        middleNote: cm
+        middleNote: tcm
         below: cm
