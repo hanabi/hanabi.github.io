@@ -277,9 +277,10 @@ class ImageGenerator {
       "dominant-baseline": "central",
     });
 
-    if (player.clueGiver === true) {
+    if (player.clueGiver === true || player.zeroClues === true) {
       // Based on: https://stackoverflow.com/a/42783381/14347173
-      const clueGiverDescription = "Clue Giver";
+      const clueGiverDescription =
+        player.clueGiver === true ? "Clue Giver" : "0 clues left";
       r.addText(clueGiverDescription, {
         x: "0%",
         y: "50%",
