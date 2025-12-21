@@ -20,10 +20,7 @@ players:
       - type: x
       - type: rm
         above: Rainbow 3
-        below:
-          text:
-            - Hidden
-            - Finesse
+        below: Finesse
       - type: x
       - type: x
   - cards:

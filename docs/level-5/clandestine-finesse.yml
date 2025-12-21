@@ -15,10 +15,7 @@ players:
   - cards:
       - type: x
         above: Blue 2
-        below:
-          text:
-            - Cl'stine
-            - Finesse
+        below: Finesse
       - type: x
         above: Red 2
         below: Finesse

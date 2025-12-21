@@ -19,16 +19,10 @@ players:
   - cards:
       - type: x
         above: Green 1
-        below:
-          text:
-            - Layered
-            - Finesse
+        below: Finesse
       - type: x
         above: Red 2
-        below:
-          text:
-            - Layered
-            - Finesse
+        below: Finesse
       - type: x
         above: Blue 1
         below: Finesse

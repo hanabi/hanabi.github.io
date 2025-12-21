@@ -21,7 +21,7 @@ players:
   - cards:
       - type: x
         above: Red 1
-        below: Finesse!
+        below: Finesse
       - type: x
       - type: x
       - type: x
