@@ -5,19 +5,21 @@ stacks:
   - b: 0
   - p: 0
 players:
-  - cards:
+  - clueGiver: true
+    cards:
       - type: x
       - type: x
       - type: r3
+        below: Discard
       - type: x
       - type: x
-  - text: Alice discards a known red 3.
-  - name: Bob
-    cards:
+  - text: Bob marks his Finesse Position slot as the other red 3.
+  - cards:
       - type: x
         above: Red 3
+        middleNote: r3
+        below: Baton
       - type: x
       - type: x
       - type: x
       - type: x
-  - text: Bob marks his Finesse Position slot as a red 3.

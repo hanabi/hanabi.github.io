@@ -8,8 +8,17 @@ players:
   - cards:
       - type: x
         above: Green 1
+        middleNote: r1
+        below: GD
       - type: x
         above: Red 1
+        below: GD
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+      - type: x
       - type: x
       - type: x
       - type: x
@@ -17,17 +26,9 @@ players:
     cards:
       - type: x
       - type: x
-      - type: x
-      - type: x
-      - type: x
-  - cards:
-      - type: x
-      - type: x
       - type: r1
-        below: Discards
-        clue: r
-        retouched: true
+        middleNote: r1
+        below: Discard
       - type: r
-        middleNote: (2)
-        clue: r
+        middleNote: r2
       - type: x
