@@ -16,29 +16,23 @@ players:
       - type: x
       - type: x
       - type: x
-        above:
-          text: Chop
-          color: darkred
+        below: Chop
       - type: 1
         clue: 1
         trash: true
+        below: Trash
       - type: x
-        above:
-          text:
-            - Chop
-            - Moved
+        cm: true
+        middleNote: cm
+        below: cm
   - text: After discarding the 1...
-  - name: Bob
+  - offset: -1
     cards:
       - type: x
       - type: x
       - type: x
       - type: x
-        above:
-          text: Chop
-          color: darkred
+        below: Chop
       - type: x
-        above:
-          text:
-            - Chop
-            - Moved
+        cm: true
+        middleNote: cm

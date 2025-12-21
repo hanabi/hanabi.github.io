@@ -16,17 +16,17 @@ players:
       - type: x
       - type: x
       - type: x
-        above: Chop
+        below: Chop
       - type: 1
         clue: 1
         trash: true
+        below: Trash
       - type: x
-        above:
-          text:
-            - Chop
-            - Moved
+        cm: true
+        middleNote: cm
+        below: cm
   - text: After discarding the 1...
-  - name: Alice
+  - offset: -2
     clueGiver: true
     cards:
       - type: x
@@ -34,16 +34,15 @@ players:
       - type: x
       - type: x
       - type: x
-  - name: Bob
-    cards:
+  - cards:
       - type: b
-        middleNote: (2)
+        middleNote: b2
         clue: b
         below: Focus
       - type: x
       - type: x
       - type: x
-        above: Chop
+        below: Chop
       - type: b
         clue: b
         below:

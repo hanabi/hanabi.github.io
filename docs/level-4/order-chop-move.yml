@@ -4,6 +4,8 @@ stacks:
   - g: 0
   - b: 0
   - p: 0
+bigText:
+  text: First turn
 players:
   - cards:
       - type: x
@@ -11,8 +13,12 @@ players:
       - type: x
       - type: x
       - type: x
-  - clueGiver: true
-    cards:
+        above:
+          text:
+            - Chop
+            - Move
+          color: maroon
+  - cards:
       - type: 1
         clue: 1
         below:
@@ -43,3 +49,8 @@ players:
       - type: x
       - type: x
       - type: x
+        above:
+          text:
+            - Chop
+            - Move
+          color: darkgreen
