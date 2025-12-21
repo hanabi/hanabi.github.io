@@ -1,0 +1,32 @@
+stacks:
+  - r: 4
+  - y: 4
+  - g: 4
+  - b: 4
+  - p: 4
+players:
+  - zeroClues: true
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+        below:
+          text: Misplay
+          color: cyan
+  - cards:
+      - type: x
+      - type: g5
+      - type: p5
+      - type: x
+  - cards:
+      - type: y5
+      - type: x
+      - type: b5
+      - type: x
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+        above: Red 5

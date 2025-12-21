@@ -89,6 +89,7 @@ const player = z
   .object({
     name: z.coerce.string().min(1).optional(),
     clueGiver: z.boolean().optional(),
+    zeroClues: z.boolean().optional(),
     cards: z.array(card).readonly(),
     offset: z.int().optional(),
   })

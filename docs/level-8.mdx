@@ -2,6 +2,9 @@
 title: Level 8 - End-Game
 ---
 
+import PositionalDiscard from "./level-8/positional-discard.yml";
+import PositionalMisplay from "./level-8/positional-misplay.yml";
+
 ## Conventions
 
 ### End-Game Threshold
@@ -27,6 +30,16 @@ title: Level 8 - End-Game
 - Normally, when players discard, they discard their chop card, because discarding anything else could lose an important card.
 - However, this does not apply at the end of the game. At the end of the game, if a player can see every card, then they can infer that all of the unknown cards in their hand are just trash. Subsequently, players in this situation can discard any card that they want, and it won't make a difference.
 - Thus, players in this situation can communicate information based on which card they discard. We agree that if a player discards a weird slot, it communicates that the chosen slot matches a slot in someone else's hand that should be blind-played. This is called a _Positional Discard_.
+- For example, in a 3-player game:
+  - All cards except the red 5 and yellow 5 are played.
+  - There are 0 cards left in the deck and Alice has 0 clues available.
+  - Bob has the yellow 5 clued in his hand.
+  - Cathy has an unclued red 5 on her slot 2.
+  - Alice discards her slot 2 as a _Positional Discard_.
+  - Cathy marks her slot 2 as red 5, the final card.
+
+<PositionalDiscard />
+
 - One _Positional Discard_ gets one blind-play from another player.
 - After a _Positional Discard_, if two or more players have a playable card on the same slot, then the blind-play is always targeted at the final player with the playable card.
 
@@ -35,13 +48,16 @@ title: Level 8 - End-Game
 - Sometimes, a player will want to perform a _Positional Discard_, but it won't work because the other player will interpret it as a normal discard.
 - For example, in a 4-player game:
   - All the 4's are played on the stacks.
-  - There are 2 cards left in the deck.
+  - There are 3 cards left in the deck.
   - Alice has 0 clues available.
   - Alice sees that every card needed by the team is currently present in other player's hands.
   - Alice has no clued cards in her hand. Thus, her chop is slot 4.
   - Donald has an unclued red 5 on his slot 4.
 - In this example, if Alice tried to perform a _Positional Discard_ from slot 4, it would not work, because Donald expects Alice to discard slot 4.
 - In order to more strongly communicate the "play this slot" message, players in this situation can instead misplay their chop card. Since the rest of the team can see that the card misplayed for "no reason", they can deduce that it was a _Positional Misplay_.
+
+<PositionalMisplay />
+
 - One _Positional Misplay_ gets one blind-play from another player (as long as the _Positional Misplay_ was needed because a _Positional Discard_ wouldn't work).
 
 ### The Double Positional Misplay (Indicating Two Plays with a Misplay)
