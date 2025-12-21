@@ -17,11 +17,11 @@ players:
       - type: 5
         clue: 5
       - type: x
-        above: Chop
+        below: Chop
       - type: 5
         clue: 5
+        below: 5CM
       - type: x
-        above:
-          text:
-            - Chop
-            - Moved
+        cm: true
+        middleNote: cm
+        below: cm

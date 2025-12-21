@@ -3,31 +3,26 @@ stacks:
   - y: 2
   - g: 2
   - b: 2
-  - p: 2
   - m: 2
 players:
   - text: "Before the clue:"
-  - name: Alice
-    cards:
+  - cards:
       - type: x
       - type: x
       - type: x
       - type: x
       - type: x
-  - name: Bob
-    cards:
+  - cards:
       - type: x
       - type: x
-        above: Chop
+        below: Chop
       - type: rm
       - type: rm
       - type: x
-        above:
-          text:
-            - Chop
-            - Moved
+        cm: true
+        middleNote: cm
   - text: "After the clue:"
-  - name: Alice
+  - offset: -2
     clueGiver: true
     cards:
       - type: x
@@ -35,11 +30,10 @@ players:
       - type: x
       - type: x
       - type: x
-  - name: Bob
-    cards:
+  - cards:
       - type: x
       - type: x
-        above: Chop
+        below: Chop
       - type: m
         clue: b
         retouched: true
@@ -48,4 +42,5 @@ players:
         retouched: true
       - type: b
         clue: b
+        middleNote: b3
         below: Focus

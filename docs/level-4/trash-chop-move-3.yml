@@ -17,13 +17,21 @@ players:
       - type: 1
         clue: 1
         trash: true
+        below:
+          text:
+            - Also
+            - Trash
       - type: x
-        above: Chop
+        below: Chop
       - type: 1
         clue: 1
         trash: true
-      - type: x
-        above:
+        below:
           text:
-            - Chop
-            - Moved
+            - Focus,
+            - Trash
+          color: gold
+      - type: x
+        cm: true
+        middleNote: cm
+        below: cm
