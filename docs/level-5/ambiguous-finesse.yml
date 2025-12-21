@@ -17,17 +17,19 @@ players:
       - type: x
       - type: x
       - type: x
-  - name: Cathy
-    cards:
+        below: Discards
+  - cards:
       - type: x
         above: Red 1
+        below: Finesse
       - type: x
       - type: x
       - type: x
-  - name: Donald
-    cards:
+  - cards:
       - type: x
       - type: x
       - type: x
-      - type: 2
+      - type: r2
         clue: r
+        middleNote: r2
+        below: Play
