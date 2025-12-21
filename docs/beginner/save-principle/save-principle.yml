@@ -31,14 +31,15 @@ players:
     cards:
       - type: b4
         clue: b
-        fix: true
+        middleNote: b4, b5
       - type: r3
         border: false
       - type: g1
         border: false
       - type: b4
         clue: b
-        fix: true
+        middleNote: b4, b5
       - type: b3
         clue: b
+        middleNote: b3
         below: Save
