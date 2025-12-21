@@ -1,0 +1,28 @@
+stacks:
+  - r: 4
+  - y: 4
+  - g: 5
+  - b: 5
+  - p: 5
+players:
+  - zeroClues: true
+    cards:
+      - type: x
+      - type: x
+        below: Discard
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: y5
+      - type: x
+  - cards:
+      - type: x
+      - type: x
+        above: Red 5
+      - type: x
+      - type: x
+      - type: x
