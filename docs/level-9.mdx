@@ -2,6 +2,8 @@
 title: Level 9 - Stalling
 ---
 
+import DoubleDiscardSituation1 from "./level-9/double-discard-situation1.yml";
+import DoubleDiscardSituation2 from "./level-9/double-discard-situation2.yml";
 import FiveStall from "./level-9/five-stall.yml";
 
 ## Conventions
@@ -82,6 +84,9 @@ import FiveStall from "./level-9/five-stall.yml";
   - Since both copies of the red 4 are discarded, it is no longer possible to get a perfect score. (The maximum score now is 23 instead of 25.)
   - Normally, someone on the team would give a _Save Clue_ to Bob's red 4 before it could get discarded. But since Bob's turn was immediately after Alice's turn, no-one on the team had time to save it.
 - In the previous example, on Bob's turn, since Bob _could_ have the red 4 on his chop, we would say that Bob is in a _Double Discard Situation_ for the red 4.
+
+<DoubleDiscardSituation1 />
+
 - More formally, a _Double Discard Situation_ is defined as when:
   1. the previous player discards or misplays a card
   1. **and** the current player could be discarding the other copy of that card.
@@ -93,6 +98,8 @@ import FiveStall from "./level-9/five-stall.yml";
   - Bob's chop is his slot 5 card. Since Bob does not see the red 4 in anyone else's hand and Bob's slot 5 card has no positive or negative clues on it, it is possible that Bob's slot 5 card could be the red 4. Thus, Bob knows that he is currently in a _Double Discard Situation_ for the red 4.
   - Since there are no normal _Play Clues_ or _Save Clues_ available, Bob looks around to see if he can give a _5 Stall_. Bob sees that Cathy has a red 5 on her slot 1, so he clues number 5 to Cathy as a _5 Stall_.
   - Cathy knows that since Bob was in a _Double Discard Situation_ for the red 4, she should not read too closely into his clues. This number 5 clue must just be a _5 Stall_ (as opposed to a _Play Clue_ on the 5).
+
+<DoubleDiscardSituation2 />
 
 ### Locked Hands (Severity 3 Stalling)
 

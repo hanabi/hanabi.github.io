@@ -1,0 +1,31 @@
+stacks:
+  - r: 0
+  - y: 0
+  - g: 0
+  - b: 0
+  - p: 0
+bigText:
+  text: DDA
+  color: orange
+players:
+  - clueGiver: true
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: r4
+        below: Discard
+        border: false
+  - text: Alice discards a seemingly harmless Red 4.
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+        middleNote: r4?
+        below: Chop
+  - text: Bob must temporarily mark his chop card
+  - space: -25
+  - text: as potentially the other Red 4.
