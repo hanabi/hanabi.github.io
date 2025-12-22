@@ -16,9 +16,9 @@ players:
       - type: x
       - type: x
       - type: x
-      - type: r
+      - type: r2
         clue: r
-        middleNote: r2
+        middleNote: r1, r2
         below: Play
       - type: x
   - cards:

@@ -26,6 +26,7 @@ players:
       - type: x
       - type: b2
         clue: b
+        middleNote: b2
         below: Play
       - type: x
       - type: x
