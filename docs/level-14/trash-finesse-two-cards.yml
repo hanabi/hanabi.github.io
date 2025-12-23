@@ -19,32 +19,31 @@ players:
   - cards:
       - type: x
         above: Red 1
+        below: Finesse
       - type: x
       - type: x
       - type: x
+  - space
   - cards:
-      - type: 1
+      - type: g1
         clue: 1
-        middleNote: (G)
-      - type: 1
+        middleNote: r1, b1
+        below: Play
+      - type: g1
         clue: 1
-        middleNote: (G)
+        middleNote: r1, b1
       - type: x
       - type: x
   - text: After Cathy blind-plays red 1...
-  - name: Donald
+  - offset: -1
     cards:
       - type: 1
         trash: true
       - type: 1
         trash: true
       - type: x
-        above:
-          text:
-            - Chop
-            - Moved
+        cm: true
+        middleNote: cm
       - type: x
-        above:
-          text:
-            - Chop
-            - Moved
+        cm: true
+        middleNote: cm

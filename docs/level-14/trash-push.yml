@@ -18,6 +18,8 @@ players:
       - type: x
       - type: x
         above: Red 2
-        below: plays
+        below: Pushed
       - type: 1
         clue: 1
+        trash: true
+        below: Trash

@@ -15,31 +15,34 @@ players:
   - cards:
       - type: x
         above: Blue 3
+        below: Bluff
       - type: x
       - type: x
       - type: x
       - type: x
   - cards:
       - type: x
-      - type: 2
+      - type: b2
         clue: 2
-        middleNote: (B)
+        middleNote: r2
+        below: Play
       - type: x
-      - type: 2
+      - type: g2
         clue: 2
-        middleNote: (G)
+        middleNote: kt
+        trash: true
       - type: x
   - text: After Bob blind-plays blue 3...
-  - name: Cathy
+  - offset: -1
     cards:
       - type: x
-      - type: 2
+      - type: b2
+        middleNote: kt
         trash: true
       - type: x
-      - type: 2
+      - type: g2
+        middleNote: kt
         trash: true
       - type: x
-        above:
-          text:
-            - Chop
-            - Moved
+        cm: true
+        middleNote: cm

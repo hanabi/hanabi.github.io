@@ -15,51 +15,43 @@ players:
       - type: x
       - type: x
   - cards:
-      - type: 2
+      - type: rygbp2
+        above: Green 2
+        crossedOut: r
         clue: 2
-        middleNote: (G)
-        below: discards
+        below: Trash
       - type: x
       - type: x
       - type: x
       - type: x
   - cards:
       - type: x
+      - type: r2
+        border: false
       - type: x
-        above: Red 2
       - type: x
       - type: x
-      - type: x
-  - text: After Bob discards green 2...
-  - name: Bob
+  - text: After Bob discards the green 2...
+  - offset: -2
     cards:
       - type: x
       - type: x
-        above:
-          text:
-            - Chop
-            - Moved
+        cm: true
+        middleNote: cm
       - type: x
-        above:
-          text:
-            - Chop
-            - Moved
+        cm: true
+        middleNote: cm
       - type: x
-        above:
-          text:
-            - Chop
-            - Moved
+        cm: true
+        middleNote: cm
       - type: x
-        above:
-          text:
-            - Chop
-            - Moved
-  - name: Cathy
-    cards:
+        cm: true
+        middleNote: cm
+  - cards:
       - type: x
         middleNote: r2?
-      - type: x
-        above: Red 2
+      - type: r2
+        border: false
         middleNote: r2?
       - type: x
         middleNote: r2?
