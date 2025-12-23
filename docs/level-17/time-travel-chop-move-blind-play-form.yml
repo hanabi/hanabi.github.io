@@ -15,12 +15,13 @@ players:
   - cards:
       - type: x
         above: Blue 2
-        middleNote: f
-        below: plays
+        middleNote: r2
+        below: Finesse
+      - type: x
       - type: r3
         clue: 3
+        middleNote: r3
         retouched: true
-      - type: x
       - type: x
       - type: x
   - cards:
@@ -30,13 +31,24 @@ players:
       - type: b2
       - type: x
   - text: After Bob blind-plays blue 2...
-  - name: Bob
+  - offset: -2
     cards:
       - type: x
+      - type: x
+        cm: true
+        middleNote: cm
       - type: r3
       - type: x
+        cm: true
         middleNote: cm
       - type: x
+        cm: true
         middleNote: cm
+  - cards:
       - type: x
-        middleNote: cm
+      - type: x
+      - type: x
+      - type: b2
+        middleNote: kt
+        trash: true
+      - type: x

@@ -17,22 +17,17 @@ players:
       - type: 3
         clue: 3
         above: Red 3
-        below: plays
+        middleNote: b3
+        below: Play
       - type: 3
         clue: 3
       - type: x
       - type: x
-  - text: After Bob plays red 3....
-  - name: Bob
+  - text: After Bob plays red 3...
+  - offset: -1
     cards:
       - type: x
       - type: x
       - type: 3
-        below:
-          text:
-            - Blue 3
-            - Yellow 3
-            - Green 3
-            - Purple 3
       - type: x
       - type: x

@@ -17,9 +17,11 @@ players:
       - type: 2
         clue: 2
         above: Red 2
-        below: plays
+        middleNote: b2
+        below: Play
       - type: g2
         clue: 2
+        middleNote: g2
         retouched: true
       - type: x
       - type: x
@@ -30,11 +32,21 @@ players:
       - type: r2
       - type: x
   - text: After Bob plays red 2...
-  - name: Bob
+  - offset: -2
     cards:
       - type: x
       - type: x
       - type: g2
+        middleNote: g2
       - type: x
       - type: x
+        cm: true
         middleNote: cm
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: r2
+        middleNote: kt
+        trash: true
+      - type: x

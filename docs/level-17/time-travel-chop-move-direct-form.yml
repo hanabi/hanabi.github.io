@@ -17,7 +17,7 @@ players:
       - type: 3
         clue: 3
         above: Red 3
-        below: plays
+        below: Play
       - type: x
       - type: x
       - type: x
@@ -28,13 +28,24 @@ players:
       - type: x
       - type: r3
   - text: After Bob plays red 3...
-  - name: Bob
+  - offset: -2
     cards:
       - type: x
       - type: x
       - type: x
+        cm: true
         middleNote: cm
       - type: x
+        cm: true
         middleNote: cm
       - type: x
+        cm: true
         middleNote: cm
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: r3
+        middleNote: kt
+        trash: true
