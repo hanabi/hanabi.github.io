@@ -17,6 +17,7 @@ players:
   - cards:
       - type: x
         above: Red 2
+        below: Bluff
       - type: x
       - type: x
       - type: x
@@ -26,18 +27,7 @@ players:
       - type: 3
       - type: 4
         clue: 4
-      - type: x
-      - type: x
-  - text: After Bob blind-plays red 2...
-  - name: Cathy
-    cards:
-      - type: x
-      - type: 3
-      - type: 4
-        below:
-          text:
-            - Red 4
-            - Blue 4
-          color: grey
+        middleNote: r4, b4
+        below: Play
       - type: x
       - type: x

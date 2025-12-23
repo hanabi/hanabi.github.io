@@ -17,24 +17,17 @@ players:
   - cards:
       - type: x
         above: Blue 1
+        below: Bluff
       - type: x
       - type: x
       - type: x
       - type: x
   - cards:
       - type: x
-      - type: 3
+      - type: r3
         clue: 3
-        middleNote: (R)
-      - type: x
-      - type: x
-      - type: x
-  - text: After Bob blind-plays the blue 1...
-  - name: Cathy
-    cards:
-      - type: x
-      - type: 3
-        below: any 3
+        middleNote: any 3
+        below: Play
       - type: x
       - type: x
       - type: x

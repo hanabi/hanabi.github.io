@@ -17,26 +17,19 @@ players:
   - cards:
       - type: x
         above: Red 1
+        below: Finesse
       - type: x
       - type: x
       - type: x
       - type: x
   - cards:
       - type: x
-      - type: r
+      - type: r3
         clue: r
-        middleNote: (3)
-      - type: x
-      - type: x
-      - type: x
-  - text: After Bob blind-plays the red 1...
-  - name: Cathy
-    cards:
-      - type: x
-      - type: r
-        below: Red 2
-        above: Misplays!
-        middleNote: (3)
+        middleNote: r2
+        below:
+          text: Misplays
+          color: red
       - type: x
       - type: x
       - type: x

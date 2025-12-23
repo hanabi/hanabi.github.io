@@ -16,15 +16,19 @@ players:
   - cards:
       - type: x
         above: Red 1
+        below: Finesse
       - type: x
       - type: x
       - type: x
   - cards:
       - type: x
-        border: false
-        above: Misplays!
-        middleNote: (B5)
-        below: Red 2
+        above: Blue 5
+        middleNote: r2
+        below:
+          text:
+            - Finesse,
+            - Misplays
+          color: red
       - type: x
       - type: x
       - type: x
@@ -32,6 +36,7 @@ players:
       - type: x
       - type: r1345
         clue: r
-        middleNote: (3)
+        middleNote: r3
+        below: Play
       - type: x
       - type: x
