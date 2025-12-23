@@ -5,17 +5,36 @@ stacks:
   - b: 0
   - p: 0
 bigText:
-  text: first turn
-  color: black
+  text: First turn
 players:
+  - clueGiver: true
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
   - cards:
       - type: x
       - type: x
       - type: x
       - type: x
       - type: x
-  - text: Alice clues Red to Cathy, touching slots 1-4
-  - name: Bob
+  - cards:
+      - type: r4
+        clue: r
+        middleNote: r1
+        below: Play
+      - type: r1
+        clue: r
+      - type: r2
+        clue: r
+      - type: r3
+        clue: r
+      - type: b4
+        border: false
+  - text: "Bob sees this is an OOO and gives a fix clue:"
+  - offset: -2
     clueGiver: true
     cards:
       - type: x
@@ -23,20 +42,18 @@ players:
       - type: x
       - type: x
       - type: x
-  - text: Bob gives a fix clue to Cathy, touching slots 1 and 5
-  - text: ""
-  - name: Cathy
-    cards:
-      - type: r
-        above: Red 4
+  - cards:
+      - type: r4
         clue: 4
+        retouched: true
+        below: Fix
       - type: r
-        above: Red 1
+        middleNote: r1
       - type: r
-        above: Red 2
+        middleNote: r2
       - type: r
-        above: Red 3
-      - type: x
+        middleNote: r3
+      - type: 4
         clue: 4
-        above: Blue 4
+        middleNote: any 4
   - text: Cathy will play slot 2

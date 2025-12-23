@@ -1,5 +1,5 @@
 stacks:
-  - r: 2
+  - r: 1
   - y: 0
   - g: 0
   - b: 1
@@ -9,23 +9,24 @@ players:
     cards:
       - type: x
       - type: x
-      - type: r3
-      - type: x
-      - type: x
-  - cards:
-      - type: x
-        above: Green 1
-        below: Finesse
-      - type: x
       - type: x
       - type: x
       - type: x
   - cards:
       - type: x
+        above: Blue 2
+        below: Bluff
       - type: x
       - type: x
       - type: x
-      - type: g2
-        clue: 2
-        middleNote: g2
-        below: op
+      - type: x
+  - cards:
+      - type: x
+      - type: x
+      - type: r
+        clue: r
+        retouched: true
+        middleNote: r3
+        below: Play
+      - type: x
+      - type: x

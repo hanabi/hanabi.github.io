@@ -8,7 +8,12 @@ import OutOfOrderPlayClue from "./level-20/out-of-order-play-clue.yml";
 import OutOfOrderFinesse from "./level-20/out-of-order-finesse.yml";
 import FiveColorEjectionInteraction from "./level-20/five-color-ejection-interaction.yml";
 import OutOfOrderFinesse2 from "./level-20/out-of-order-finesse-2.yml";
+import OutOfOrderCorollary from "./level-20/out-of-order-corollary.yml";
+import SuboptimalFinesse from "./level-20/suboptimal-finesse.yml";
+import SuboptimalBluff from "./level-20/suboptimal-bluff.yml";
 import NoInformationDoubleFinesse from "./level-20/no-information-double-finesse.yml";
+import InformationNoFinesse1 from "./level-20/information-no-finesse-1.yml";
+import InformationNoFinesse2 from "./level-20/information-no-finesse-2.yml";
 import NoInformationDoubleBluff from "./level-20/no-information-double-bluff.yml";
 
 ## Special Moves
@@ -36,7 +41,7 @@ import NoInformationDoubleBluff from "./level-20/no-information-double-bluff.yml
 
 - For example, in a 3-player game:
   - Blue 1 is played on the stacks.
-  - Alice has a globally known playable red 1 in her hand and Bob has nothing to do.
+  - Alice has a globally known playable green 1 in her hand and Bob has nothing to do.
   - Alice clues number 2 to Cathy, which touches a 2 in slot 2.
   - Bob discards.
   - Normally, Cathy would interpret Alice's clue as a normal _Play Clue_ on the blue 2.
@@ -109,10 +114,12 @@ import NoInformationDoubleBluff from "./level-20/no-information-double-bluff.yml
 - Thus, if Alice gives a clue to Cathy, and Bob does blind-play a card, then by default, Cathy can mark all the cards that were touched with a note of not being the next playable card.
 - For example, in a 3-player game:
   - Red 2 is played on the stacks.
-  - Alice clues red to Cathy, touching two cards on slot 1 and slot 2.
+  - Alice clues red to Cathy, touching two cards on slot 2 and slot 3.
   - Bob blind-plays an unrelated card.
-  - Cathy marks her slot 1 card as the red 4. (Cathy knows that Alice performed a _Bluff_ and slot 1 was the focus of the clue.)
-  - Cathy also marks her slot 2 card as the red 5. (Cathy knows that if it was a red 3, then Bob would be forced to give a _Fix Clue_.)
+  - Cathy marks her slot 2 card as the red 4. (Cathy knows that Alice performed a _Bluff_ and slot 2 was the focus of the clue.)
+  - Cathy also marks her slot 3 card as the red 5. (Cathy knows that if it was a red 3, then Bob would be forced to give a _Fix Clue_.)
+
+<OutOfOrderCorollary />
 
 ### The Suboptimal Prompt & The Suboptimal Finesse & The Suboptimal Bluff
 
@@ -121,7 +128,30 @@ import NoInformationDoubleBluff from "./level-20/no-information-double-bluff.yml
 - In this situation, the clue type will be chosen that "fills in" other ancillary cards in the hand or gives important negative information.
 - If a clue type is chosen that is **clearly worse** than the other one, then the clue giver must be trying to communicate something extra.
 - The means that this innocent-looking _Save Clue_ is really a _Play Clue_, and all of the in-between cards are called for.
-- Note that for a _Suboptimal Save Finesse_ to work, the clue has to be **really bad**, not just technically suboptimal in some slight way.
+- For example, in a 3-player game:
+  - Yellow 1 and blue 1 are played on the stacks.
+  - Blue 3 and blue 4 have been discarded, making the remaining blue 3 and 4 critical.
+  - Cathy has a red 3 on slot 1, a yellow 3 on slot 3 and the critical blue 3 on her chop.
+  - Alice needs to save the blue 3.
+  - Alice could clue number 3 to Cathy, which would touch 3 useful cards.
+  - Alice chooses instead to clue blue to Cathy, which only touches the blue 3. This is clearly worse.
+  - Bob realizes this is suboptimal. Since it's not just a Save Clue, it must be a Play Clue on the blue 3.
+  - Bob blind-plays his Finesse Position as a _Suboptimal Finesse_ and it is blue 2.
+  - Cathy realizes that Bob only played because it was a Play Clue, so she plays blue 3.
+
+<SuboptimalFinesse />
+
+- A _Suboptimal Bluff_ works similarly, but Bob blind-plays an unrelated card instead of the connecting card. For example, in the same 3-player game:
+  - Alice clues blue to Cathy (the suboptimal clue).
+  - Bob realizes this is suboptimal and should be a Play Clue on blue 3, which would require blue 2.
+  - Bob blind-plays his Finesse Position, and it is green 1 (unrelated).
+  - Cathy sees that Bob played an unrelated card, so this was a _Suboptimal Bluff_.
+  - Cathy knows her blue 3 is one-away-from-playable, and not the blue 4.
+
+<SuboptimalBluff />
+
+- Note that for a _Suboptimal Prompt, Finesse or Bluff_ to work, the clue has to be **really bad**, not just technically suboptimal in some slight way.
+- For instance, if Bob had any clued 3 in his hands, Alice might want to avoid touching a duplicate 3 by _Good Touch Principle_, and Bob should not take it as a suboptimal move.
 
 ### The No-Information Finesse
 
@@ -143,7 +173,7 @@ import NoInformationDoubleBluff from "./level-20/no-information-double-bluff.yml
 - Even if a clue does not "fill-in" a card, it is not necessarily a _No-Information_ clue, because of the second criteria.
 - For example, in a 3-player game:
   - It is the first turn of the game.
-  - Alice clues red to Cathy, touching a card on slot 1 as a _Play Clue_.
+  - Alice clues red to Cathy, touching a card on slot 3 as a _Play Clue_.
   - Bob blind-plays a blue 1.
   - Cathy marks her red card as either a red 2 or a red 3.
   - Later on in the game, red 1 is now played.
@@ -151,6 +181,11 @@ import NoInformationDoubleBluff from "./level-20/no-information-double-bluff.yml
   - Bob blind-plays a blue 2.
   - Cathy updates the note on her red card to be exactly red 3.
   - Everyone at the table understands that this clue gave valuable information to Cathy's red card and would not be considered a "no-information" clue.
+
+<InformationNoFinesse1 />
+
+<InformationNoFinesse2 />
+
 - The _No-Information_ principle can also be used to perform a _No-Information Layered Finesse_ on the next player. (The next player will know that it is a _Layered Finesse_ instead of a _Bluff_ because some other more-useful clue could have been given to initiate the _Bluff_.)
 - A _No-Information_ clue can only cause a _No-Information Finesse_ (or a _No-Information Bluff_) if the touched card is _one-or-more-away-from-playable_.
 

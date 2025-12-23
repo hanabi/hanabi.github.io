@@ -5,8 +5,7 @@ stacks:
   - b: 0
   - p: 0
 bigText:
-  text: first turn
-  color: black
+  text: First turn
 players:
   - clueGiver: true
     cards:
@@ -18,21 +17,31 @@ players:
   - cards:
       - type: x
       - type: x
+        above: Red 1
+        below: Ejection
       - type: x
       - type: x
       - type: x
-  - text: Bob blind-plays slot 2
-  - text: ""
-  - name: Cathy
-    cards:
-      - type: r
-        above: Red 5
+  - space
+  - cards:
+      - type: r5
+        middleNote: r1
         clue: r
+        below: Play
+      - type: r1
+        clue: r
+      - type: r2
+        clue: r
+      - type: x
+      - type: x
+  - text: "After Bob blind-plays slot 2:"
+  - cards:
+      - type: r
+        middleNote: r5
       - type: r
         above: Red 1
-        clue: r
+        fix: true
       - type: r
         above: Red 2
-        clue: r
       - type: x
       - type: x

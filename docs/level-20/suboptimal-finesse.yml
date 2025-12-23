@@ -1,0 +1,36 @@
+stacks:
+  - r: 0
+  - y: 1
+  - g: 0
+  - b: 1
+  - p: 0
+discarded:
+  - b3
+  - b4
+players:
+  - clueGiver: true
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+        above: Blue 2
+        below: Finesse
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: r3
+        border: false
+      - type: x
+      - type: y3
+        border: false
+      - type: x
+      - type: b3
+        clue: b
+        middleNote: b3
+        below: Play
