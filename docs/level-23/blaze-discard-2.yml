@@ -5,32 +5,41 @@ stacks:
   - b: 1
   - p: 1
 players:
-  - cards:
+  - clueGiver: true
+    cards:
       - type: x
       - type: x
       - type: x
       - type: r3
+        below:
+          text:
+            - Blaze
+            - Discard
+          color: cyan
       - type: x
-  - text: Alice Blaze Discards Red 3
-  - name: Bob
-    cards:
+  - cards:
       - type: 5
       - type: x
       - type: x
         above: Blue 2
+        below:
+          text:
+            - Blaze
+            - Play
       - type: x
       - type: x
-  - text: Bob blind-plays slot 3
-  - name: Cathy
-    cards:
-      - type: x
-        above: Red 1
-      - type: x
-        above: Red 3
-      - type: x
-        above: Green 1
-      - type: x
-        above: Green 1
-      - type: x
-        above: Blue 1
-  - text: Cathy blind-plays slot 2
+  - cards:
+      - type: r1
+        border: false
+      - type: r3
+        border: false
+        below:
+          text:
+            - Blaze
+            - Play
+      - type: g1
+        border: false
+      - type: g1
+        border: false
+      - type: b1
+        border: false

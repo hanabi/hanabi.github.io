@@ -5,8 +5,7 @@ stacks:
   - b: 0
   - p: 0
 bigText:
-  text: first turn
-  color: black
+  text: First turn
 players:
   - clueGiver: true
     cards:
@@ -19,21 +18,20 @@ players:
       - type: x
       - type: x
       - type: x
-  - text: Bob blind-plays slot 4
-  - text: ""
-  - name: Cathy
-    cards:
+        above: Blue 1
+        below: Charm
+  - cards:
       - type: 4
         clue: 4
+        below: Play
       - type: x
         above:
           text:
-            - not
+            - Not
             - playable
       - type: x
       - type: x
-  - name: Donald
-    cards:
+  - cards:
       - type: x
       - type: x
       - type: x
