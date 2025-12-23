@@ -17,6 +17,7 @@ players:
   - cards:
       - type: x
         above: Red 2
+        below: Finesse
       - type: x
       - type: x
       - type: x
@@ -25,7 +26,8 @@ players:
       - type: x
       - type: r
         clue: r
-        middleNote: (3)
+        middleNote: r3
+        below: Play
       - type: x
       - type: x
       - type: x

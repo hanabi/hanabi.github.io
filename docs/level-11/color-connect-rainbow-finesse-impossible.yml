@@ -17,6 +17,7 @@ players:
   - cards:
       - type: x
         above: Rainbow 2
+        below: Bluff
       - type: x
       - type: x
       - type: x
@@ -25,7 +26,8 @@ players:
       - type: x
       - type: r
         clue: r
-        middleNote: (4)
+        middleNote: r4
+        below: Play
       - type: x
       - type: x
       - type: x

@@ -15,20 +15,30 @@ players:
       - type: x
   - cards:
       - type: x
-      - type: b2
+      - type: 2
+        above: Blue 2
+        middleNote: 2
+        below:
+          text:
+            - Prompt
+            - Bluff?
       - type: x
       - type: x
-  - name: Cathy
-    cards:
+  - cards:
       - type: b5
         border: false
+        below:
+          text:
+            - Finesse,
+            - Bombs
+          color: red
       - type: x
       - type: x
       - type: x
-  - name: Donald
-    cards:
+  - cards:
       - type: x
       - type: x
       - type: r3
         clue: r
+        below: Play
       - type: x
