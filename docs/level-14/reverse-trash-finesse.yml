@@ -13,17 +13,47 @@ players:
       - type: x
       - type: x
   - cards:
-      - type: 2
+      - type: g2
         clue: 2
-        middleNote: (G)
-        below: discards
+        middleNote: r2?
+        below:
+          text:
+            - Play,
+            - must
+            - discard
+          color: gold
       - type: x
       - type: x
       - type: x
       - type: x
   - cards:
+      - type: r2
+        border: false
       - type: x
-        above: Red 2
+      - type: x
+      - type: x
+      - type: x
+  - text: After Bob discards the green 2...
+  - offset: -2
+    cards:
+      - type: x
+      - type: x
+        cm: true
+        middleNote: cm
+      - type: x
+        cm: true
+        middleNote: cm
+      - type: x
+        cm: true
+        middleNote: cm
+      - type: x
+        cm: true
+        middleNote: cm
+  - cards:
+      - type: r2
+        border: false
+        middleNote: r2
+        below: Finesse
       - type: x
       - type: x
       - type: x

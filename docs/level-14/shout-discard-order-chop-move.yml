@@ -1,0 +1,53 @@
+stacks:
+  - r: 1
+  - y: 1
+  - g: 1
+  - b: 1
+  - p: 1
+players:
+  - cards:
+      - type: r2
+        below:
+          text:
+            - Known
+            - playable
+      - type: y1
+        trash: true
+        below:
+          text:
+            - Chop
+            - Move
+            - Bob
+          color: darkgreen
+      - type: g1
+        trash: true
+        below:
+          text:
+            - Chop
+            - Move
+            - Cathy
+          color: maroon
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+        above:
+          text:
+            - Chop
+            - Move
+          color: darkgreen
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+        above:
+          text:
+            - Chop
+            - Move
+          color: maroon
