@@ -1,5 +1,5 @@
 stacks:
-  - r: 0
+  - r: 1
   - y: 0
   - g: 0
   - b: 0
@@ -19,29 +19,17 @@ players:
   - cards:
       - type: x
         above: Blue 1
+        below: Bluff
       - type: x
       - type: x
       - type: x
       - type: x
   - cards:
       - type: x
-      - type: r
+      - type: r4
         clue: r
-        middleNote: (4)
-      - type: x
-      - type: x
-      - type: x
-  - text: After Bob blind-plays the blue 1...
-  - name: Cathy
-    cards:
-      - type: x
-      - type: r
-        below:
-          text:
-            - Red 2
-            - Red 3
-            - Red 4
-          color: red
+        middleNote: r3, r4
+        below: Play
       - type: x
       - type: x
       - type: x

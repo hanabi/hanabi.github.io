@@ -17,6 +17,7 @@ players:
   - cards:
       - type: x
         above: Red 2
+        below: Finesse
       - type: x
       - type: x
       - type: x
@@ -24,19 +25,11 @@ players:
   - cards:
       - type: x
       - type: 3
-        middleNote: (R)
+        middleNote: r3
+        below: Prompt
       - type: 4
         clue: 4
-        middleNote: (R)
-      - type: x
-      - type: x
-  - text: After Bob blind-plays red 2...
-  - name: Cathy
-    cards:
-      - type: x
-      - type: 3
-        below: Red 3
-      - type: 4
-        below: Red 4
+        middleNote: r4
+        below: Play
       - type: x
       - type: x

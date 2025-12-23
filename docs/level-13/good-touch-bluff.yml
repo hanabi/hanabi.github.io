@@ -17,6 +17,7 @@ players:
   - cards:
       - type: x
         above: Blue 3
+        below: Bluff?
       - type: x
       - type: x
       - type: x
@@ -24,8 +25,11 @@ players:
   - cards:
       - type: x
       - type: x
-      - type: 4
+      - type: r4
         clue: 4
-        above: Red 4
+        middleNote: b4
+        below:
+          text: Misplays
+          color: red
       - type: x
       - type: x
