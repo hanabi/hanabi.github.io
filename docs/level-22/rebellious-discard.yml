@@ -6,30 +6,28 @@ stacks:
   - p: 0
 bigText:
   text: "Clues: 0"
-  color: black
 discarded:
   - r4
 players:
-  - cards:
+  - zeroClues: true
+    cards:
       - type: x
       - type: b2
       - type: x
       - type: x
       - type: x
-        below: discards
-  - text: Alice performs a Scream Discard
-  - name: Bob
-    cards:
+        below: Discard
+  - cards:
       - type: x
       - type: x
       - type: x
       - type: x
-        below: discards
+        below: Discards
       - type: r4
-        border: false
-  - text: Bob performs a Rebellious Discard, discards slot 4
-  - name: Cathy
-    cards:
+        cm: true
+        middleNote: cm
+  - text: Bob must perform a Rebellious Discard, discarding slot 4
+  - cards:
       - type: 5
       - type: 5
       - type: 5
