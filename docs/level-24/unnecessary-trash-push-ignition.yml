@@ -13,17 +13,23 @@ players:
       - type: x
       - type: x
   - cards:
-      - type: x
-      - type: x
-      - type: x
-      - type: x
-        above: Red 4
-      - type: 1
-        clue: 1
-  - name: Cathy
-    cards:
-      - type: r5
+      - type: g2
         border: false
+      - type: y2
+        border: false
+      - type: b5
+        border: false
+      - type: r4
+        border: false
+        below: Pushed
+      - type: b1
+        clue: 1
+        trash: true
+        below: Trash
+  - cards:
+      - type: x
+        above: Red 5
+        below: Ignition
       - type: x
       - type: x
       - type: x

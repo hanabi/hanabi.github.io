@@ -15,23 +15,25 @@ players:
       - type: x
       - type: x
         above: Red 3
+        below: Ejection
       - type: x
       - type: x
-  - text: Bob blind-plays the red 3.
-  - name: Cathy
-    cards:
+  - cards:
       - type: x
       - type: x
-      - type: r4
-        border: false
       - type: x
-  - name: Donald
-    cards:
+        above: Red 4
+        below: Discharge
+      - type: x
+  - space
+  - cards:
       - type: r1
         border: false
       - type: g1
         border: false
       - type: b2
         clue: 2
+        trash: true
+        below: Trash
       - type: b1
         border: false

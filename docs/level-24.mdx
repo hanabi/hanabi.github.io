@@ -43,7 +43,7 @@ import UnnecessaryBadChopMoveEjection from "./level-24/unnecessary-bad-chop-move
 
 - For example, this would be an _Unnecessary Trash Push_ in a 3-player game:
   - All of the 3's are played on the stacks.
-  - Bob's hand is completely unclued.
+  - Bob's hand is completely unclued and consists of green 2, yellow 2, blue 5, red 4 and blue 1.
   - Alice clues number 1 to Bob, touching a single 1 on Bob's slot 5 (his chop).
   - Bob knows that this is a _Trash Push_ and blind-plays his slot 4. It is a red 4 and it successfully plays.
   - Cathy sees that Bob has no other red cards in his hand. Thus, Alice could easily clued red to Bob in order to "get" the red 4 in a straightforward way. That means that Alice performed an _Unnecessary Trash Push_.
@@ -55,19 +55,19 @@ import UnnecessaryBadChopMoveEjection from "./level-24/unnecessary-bad-chop-move
 
 - If **unknown trash** is used as a clue target that is **off chop**, the team responds as if a _Trash Chop Move_ was given.
 - Note that _Unnecessary Chop Moves_ are tricky in that they can have **information asymmetry**: the player who blind-plays will **not** know that the card is chop moved, while everyone else will. All players will have to keep this in mind until the _Chop Move_ has been demonstrated.
-  - As explained in the first section, _Trash Finesses_ and _Trash Bluffs_ are always unnecessary, so this comment does not apply to them. (But it applies to the other fancy trash moves.)
+  - As noted previously, _Trash Finesses_ and _Trash Bluffs_ are always unnecessary, so this comment does not apply to them. (But it applies to the other fancy trash moves.)
 
-#### Example 1 - An Unnecessary Trash Finesse (with a Chop Move)
+#### Example 1 - A Trash Finesse (with a Chop Move)
 
-- For example, this would be an _Unnecessary Trash Finesse_ in a 3-player game:
+- For example, this would be a _Trash Finesse_ in a 3-player game:
   - All of the 2's are played on the stacks except for the red 2.
   - Bob has a red 2 on his _Finesse Position_ and no other red cards in his hand. Thus, Alice could give a red clue to Bob in order to "get" the red 2.
   - Cathy's hand is completely unclued.
   - Alice clues number 2 to Cathy, touching a blue 2 on slot 4. (Blue 2 is already played and is therefore trash.)
   - Bob knows that from Cathy's perspective, Alice's clue looks like a _Play Clue_ on the final remaining 2 - the red 2. Cathy will go on to misplay the blue 2 as the red 2.
   - Thus, Bob knows that this is a _Trash Finesse_ or _Trash Bluff_. He blind-plays his _Finesse Position_ card. It is a red 2 and it successfully plays.
-  - Cathy now knows that her 2 is trash (since Bob blind-played in response to the clue). However, Cathy also knows that this _Trash Finesse_ was _unnecessary_, as Alice could have just clued red to Bob.
-  - Thus, Cathy knows that this is an _Unnecessary Trash Finesse_, so she marks her slot 5 card as being _Chop Moved_.
+  - Cathy now knows that her 2 is trash (since Bob blind-played in response to the clue).
+  - She also knows that all _Trash Finesses_ are unnecessary, so she marks her slot 5 card as being _Chop Moved_.
 
 <UnnecessaryTrashFinesseChopMove />
 
@@ -119,6 +119,7 @@ import UnnecessaryBadChopMoveEjection from "./level-24/unnecessary-bad-chop-move
   - Since Bob's blind-play told Donald about a trash card, namely that the _Chop Moved_ blue 1 was trash, Donald will now additionally interpret the clue as a _Trash Push_.
   - Cathy sees that Donald is about to play green 1 as a _Trash Push_, but green 1 is already played.
   - Thus, Cathy blind-plays her _Third Finesse Position_ as a _Trash Push Discharge_.
+  - Donald recognizes this move as an _Unnecessary Bad Chop Move Ejection_, and neither plays his green 1 nor chop moves anything.
 
 <UnnecessaryBadChopMoveEjection />
 
