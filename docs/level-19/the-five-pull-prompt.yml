@@ -5,8 +5,7 @@ stacks:
   - b: 0
   - p: 0
 bigText:
-  text: first turn
-  color: black
+  text: First turn
 players:
   - clueGiver: true
     cards:
@@ -15,8 +14,9 @@ players:
       - type: x
       - type: x
   - cards:
-      - type: r1
-        border: false
+      - type: x
+        above: Red 1
+        below: Finesse
       - type: x
       - type: x
       - type: x
@@ -25,8 +25,10 @@ players:
         border: false
       - type: b5
         clue: 5
+        below: Pull
       - type: r2
         border: false
+        below: Pulled
       - type: r2
         border: false
   - cards:
