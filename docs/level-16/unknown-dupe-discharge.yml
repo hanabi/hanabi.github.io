@@ -4,42 +4,42 @@ stacks:
   - g: 0
   - b: 0
   - p: 0
-bigText:
-  text: first turn
-  color: black
 players:
-  - cards:
-      - type: x
-      - type: x
-      - type: x
-        above: Blue 1
-      - type: x
-      - type: x
-  - cards:
-      - type: x
-        above: Red 2
-        clue: r
-        trash: true
-      - type: x
-        above: Red 2
-        middleNote: r2?
-        clue: r
-      - type: x
-        above: Red 4
-        middleNote: r2?
-        clue: r
-      - type: x
-        above: Blue 4
-      - type: 5
-        above: Blue 5
   - clueGiver: true
     cards:
       - type: x
       - type: x
       - type: x
       - type: x
-      - type: g
-        above: Green 1
-  - text: Alice plays Slot 3
-  - text: Bob discards Slot 1
-  - text: Bob writes Elimination Notes on Slots 2 and 3
+      - type: x
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+        above: Blue 1
+        below: Discharge
+      - type: x
+      - type: x
+  - space
+  - cards:
+      - type: r2
+        clue: r
+        below: Play
+      - type: r2
+        clue: r
+      - type: r4
+        clue: r
+      - type: b4
+        border: false
+      - type: g1
+        border: false
+  - text: "After Bob plays slot 3 and Cathy discards slot 1:"
+  - offset: -1
+    cards:
+      - type: x
+      - type: r2
+        middleNote: r2?
+      - type: r4
+        middleNote: r2?
+      - type: x
+      - type: x
