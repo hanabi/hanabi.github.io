@@ -14,27 +14,30 @@ players:
   - cards:
       - type: x
         above: Red 1
+        below: Bluff
       - type: x
       - type: x
       - type: x
   - cards:
       - type: x
         above: Red 2
+        below: Bluff
       - type: x
       - type: x
       - type: x
   - cards:
       - type: x
-      - type: 4
+      - type: r4
         clue: 4
-        middleNote: (R)
+        middleNote: any 4
+        below: Play
       - type: x
       - type: x
   - text: After both red 1 and red 2 blind-play...
-  - name: Donald
+  - offset: -1
     cards:
       - type: x
       - type: 4
-        below: any 4
+        middleNote: any 4
       - type: x
       - type: x
