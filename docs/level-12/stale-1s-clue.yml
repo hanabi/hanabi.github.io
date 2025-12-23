@@ -1,30 +1,35 @@
 stacks:
   - r: 0
-  - y: 0
-  - g: 0
+  - y: 1
+  - g: 2
   - b: 0
   - p: 0
+bigText:
+  text: Mid-Game
 players:
   - cards:
-      - type: x
-        above: Red 2
-        below: Finesse
       - type: x
       - type: x
       - type: x
       - type: x
   - clueGiver: true
     cards:
-      - type: r1
       - type: x
       - type: x
       - type: x
       - type: x
   - cards:
-      - type: r
-        clue: r
-        middleNote: r3
-        below: Play
+      - type: x
+      - type: 1
+        clue: 1
+        below: Good
+      - type: 1
+        clue: 1
+        middleNote: kt
+        trash: true
+        below: Bad
+      - type: x
+  - cards:
       - type: x
       - type: x
       - type: x

@@ -13,14 +13,20 @@ players:
       - type: x
       - type: x
   - cards:
-      - type: x
+      - type: b1
+        border: false
       - type: r
         clue: r
+        middleNote: r3
+        below: Play
       - type: r
         clue: r
+        middleNote: r4, r5
       - type: r
         clue: r
-      - type: x
+        middleNote: r4, r5
+      - type: b1
+        border: false
   - cards:
       - type: x
       - type: x

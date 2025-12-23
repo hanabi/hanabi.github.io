@@ -1,35 +1,34 @@
 stacks:
-  - r: 0
+  - r: 1
   - y: 0
   - g: 0
   - b: 0
   - p: 0
-discarded:
-  - b4
+bigText:
+  text: Mistake
+  color: orange
 players:
   - clueGiver: true
     cards:
+      - type: b1
       - type: x
       - type: x
       - type: x
       - type: x
-        below: Discard
-  - cards:
-      - type: x
-      - type: 2
-        middleNote: r2?
-      - type: 2
-        middleNote: r2?
-      - type: 2
-        middleNote: r2?
   - cards:
       - type: x
       - type: x
       - type: x
       - type: r2
         border: false
+      - type: r2
+        border: false
   - cards:
       - type: x
       - type: x
+      - type: y
+        middleNote: y1
+        clue: y
+        below: Play
       - type: x
       - type: x
