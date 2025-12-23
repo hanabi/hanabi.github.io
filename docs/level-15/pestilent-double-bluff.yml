@@ -13,20 +13,33 @@ players:
       - type: x
   - cards:
       - type: x
-        above: Blue 1
-      - type: x
-      - type: x
-      - type: x
-  - cards:
-      - type: x
         above: Green 1
+        below: Bluff
       - type: x
       - type: x
       - type: x
   - cards:
       - type: x
-      - type: 2
+        above: Blue 1
+        below: Bluff
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+      - type: r2
         clue: 2
-        middleNote: (R)
+        middleNote: g2, b2
+        below: Play
+      - type: x
+      - type: x
+  - text: After both blue 1 and green 2 blind-play...
+  - space: 15
+  - offset: -1
+    cards:
+      - type: x
+      - type: r2
+        clue: 2
+        middleNote: "!g, !b"
       - type: x
       - type: x

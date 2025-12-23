@@ -57,15 +57,15 @@ import PestilentDoubleBluff from "./level-15/pestilent-double-bluff.yml";
 - For example, in a 4-player game:
   - It is the first turn of the game and nothing is played on the stacks.
   - Alice clues number 2 to Donald, touching a red 2 as a _Play Clue_.
-  - Bob blind-plays a blue 1 from his _Finesse Position_.
-  - Cathy sees that right now, Donald will assume that he has the blue 2 (because it directly connects to the blue 1 that Bob blind-played). This is bad, because the card is really a red 2.
+  - Bob blind-plays a green 1 from his _Finesse Position_.
+  - Cathy sees that right now, Donald will assume that he has the green 2 (because it directly connects to the green 1 that Bob blind-played). This is bad, because the card is really a red 2.
   - Cathy knows that because information is still not synchronized amongst the team, Alice must intend for Cathy to blind-play a card as a _Pestilent Double Bluff_.
-  - Cathy blind-plays her _Finesse Position_. It is a green 1 and it successfully plays.
-  - At first, Donald thought that his 2 was either a blue 2 (as a _Finesse_ on Bob) or a green 2 (as a _Finesse_ on Cathy).
-  - After Bob blind-played, Donald thought that his 2 was a blue 2 (as a _Finesse_ on Bob).
-  - After Cathy blind-played, Donald knows that something weird happened. If his 2 really was blue 2, then Cathy would not have blind-played anything, so his 2 cannot be blue 2.
-  - Donald knows that his 2 cannot be green 2 either, or else Bob would not have blind-played anything. (He would have waited for Cathy to blind-play.)
-  - Thus, Donald marks his 2 as either red 2, yellow 2, or purple 2.
+  - Cathy blind-plays her _Finesse Position_. It is a blue 1 and it successfully plays.
+  - At first, Donald thought that his 2 was either a green 2 (as a _Finesse_ on Bob) or a blue 2 (as a _Finesse_ on Cathy).
+  - After Bob blind-played, Donald thought that his 2 was a green 2 (as a _Finesse_ on Bob).
+  - After Cathy blind-played, Donald knows that something weird happened. If his 2 really was green 2, then Cathy would not have blind-played anything, so his 2 cannot be green 2.
+  - Donald knows that his 2 cannot be blue 2 either, or else Bob would not have blind-played anything. (He would have waited for Cathy to blind-play.)
+  - Thus, Donald marks his 2 as being neither the green nor the blue 2.
 
 <PestilentDoubleBluff />
 
