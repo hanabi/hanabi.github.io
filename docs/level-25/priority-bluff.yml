@@ -5,24 +5,26 @@ stacks:
   - b: 1
   - p: 0
 players:
-  - cards:
+  - clueGiver: true
+    cards:
       - type: r1
       - type: x
       - type: b2
+        below:
+          text: Play
+          color: cyan
       - type: x
       - type: x
-  - text: Alice plays Blue 2 instead of Red 1
-  - name: Bob
-    cards:
+  - cards:
       - type: x
         above: Green 1
+        middleNote: b3
+        below: Prio
       - type: x
       - type: x
       - type: x
       - type: x
-  - text: Bob blind-plays slot 1 as Blue 3
-  - name: Cathy
-    cards:
+  - cards:
       - type: x
       - type: x
       - type: x

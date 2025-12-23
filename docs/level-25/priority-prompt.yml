@@ -5,23 +5,25 @@ stacks:
   - b: 1
   - p: 0
 players:
-  - cards:
+  - clueGiver: true
+    cards:
       - type: x
       - type: r1
       - type: x
       - type: b2
+        below:
+          text: Play
+          color: cyan
       - type: x
-  - text: Alice plays Blue 2
-  - name: Bob
-    cards:
+  - cards:
       - type: x
       - type: x
       - type: 3
         above: Blue 3
+        below: Prio
       - type: 3
       - type: x
-  - name: Cathy
-    cards:
+  - cards:
       - type: x
       - type: x
       - type: x
