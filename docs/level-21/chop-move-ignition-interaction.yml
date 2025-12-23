@@ -13,15 +13,14 @@ players:
       - type: x
       - type: x
   - cards:
-      - type: r4
-        border: false
+      - type: x
+        above: Red 4
+        below: Ignition
       - type: x
       - type: x
       - type: x
       - type: x
-  - text: Bob blind-plays slot 1
-  - name: Cathy
-    cards:
+  - cards:
       - type: b4
         border: false
       - type: g3
@@ -30,5 +29,7 @@ players:
         border: false
       - type: b5
         clue: 5
+        below: 5CM
       - type: b1
         border: false
+        below: Plays

@@ -5,8 +5,7 @@ stacks:
   - b: 1
   - p: 1
 bigText:
-  text: first turn
-  color: black
+  text: First turn
 players:
   - clueGiver: true
     cards:
@@ -15,8 +14,9 @@ players:
       - type: x
       - type: x
   - cards:
-      - type: b2
-        border: false
+      - type: x
+        above: Blue 2
+        below: Ignition
       - type: x
       - type: x
       - type: x
@@ -25,10 +25,14 @@ players:
         border: false
       - type: b1
         clue: 1
+        trash: true
+        below: Trash
       - type: r2
         border: false
+        below: Plays
       - type: b4
         border: false
+        middleNote: kt
   - cards:
       - type: x
       - type: x
