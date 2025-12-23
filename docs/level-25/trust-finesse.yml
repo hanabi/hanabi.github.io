@@ -19,7 +19,7 @@ players:
   - cards:
       - type: b3
         border: false
-        below: Prio
+        below: Priority
       - type: x
       - type: r3
       - type: y2

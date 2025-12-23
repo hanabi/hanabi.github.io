@@ -24,7 +24,7 @@ players:
   - cards:
       - type: x
         above: Blue 3
-        below: Prio
+        below: Priority
       - type: x
       - type: x
       - type: x

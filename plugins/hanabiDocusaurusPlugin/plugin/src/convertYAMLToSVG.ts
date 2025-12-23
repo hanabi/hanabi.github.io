@@ -60,7 +60,7 @@ const WORD_TO_COLOR: ReadonlyMap<string, string> = new Map([
   ["trash", "gold"],
   ["5cm", "gold"],
   ["pull", "gold"],
-  ["prio", "gold"],
+  ["priority", "gold"],
   ["load", "gold"],
   ["discard", "cyan"],
   ["chop", "darkred"],

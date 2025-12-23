@@ -17,14 +17,20 @@ players:
       - type: x
   - cards:
       - type: x
-        below: (No prio)
+        below:
+          text:
+            - No
+            - priority
       - type: x
       - type: x
       - type: x
       - type: x
   - cards:
       - type: x
-        below: (No prio)
+        below:
+          text:
+            - No
+            - priority
       - type: x
       - type: x
       - type: x
