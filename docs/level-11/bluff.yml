@@ -15,15 +15,18 @@ players:
   - cards:
       - type: x
         above: Blue 3
+        middleNote: r3
+        below: Bluff
       - type: x
       - type: x
       - type: x
       - type: x
   - cards:
       - type: x
-      - type: r
+      - type: r4
         clue: r
-        middleNote: (4)
+        middleNote: r4
+        below: Play
       - type: x
       - type: x
       - type: x

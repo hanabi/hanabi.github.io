@@ -14,6 +14,8 @@ players:
   - cards:
       - type: x
         above: Blue 2
+        middleNote: r2
+        below: Bluff
       - type: x
       - type: x
       - type: x
@@ -21,12 +23,25 @@ players:
       - type: x
       - type: x
       - type: 3
-        middleNote: (R)
       - type: x
   - cards:
       - type: x
-      - type: r
+      - type: r4
         clue: r
-        middleNote: (4)
+        below: Play
+      - type: x
+      - type: x
+  - text: "After Bob blind-plays:"
+  - offset: -2
+    cards:
+      - type: x
+      - type: x
+      - type: 3
+        middleNote: r3
+      - type: x
+  - cards:
+      - type: x
+      - type: r4
+        middleNote: r4
       - type: x
       - type: x

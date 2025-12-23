@@ -12,8 +12,9 @@ players:
       - type: x
     clueGiver: true
   - cards:
-      - type: r1
-        border: false
+      - type: x
+        above: Red 1
+        below: Finesse
       - type: x
       - type: x
       - type: b1
@@ -29,4 +30,6 @@ players:
       - type: x
       - type: r2
         clue: r
+        middleNote: r2
+        below: Play
       - type: x
