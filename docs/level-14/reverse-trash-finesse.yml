@@ -34,8 +34,6 @@ players:
       - type: x
       - type: x
   - text: After Bob discards the green 2...
-  - space: -25
-  - text: (or even if it actually was a red 2, see the next section)
   - offset: -2
     cards:
       - type: x
