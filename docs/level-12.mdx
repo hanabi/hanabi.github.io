@@ -14,6 +14,8 @@ import FocusInversion from "./level-12/focus-inversion.yml";
 import CluingOnes1 from "./level-12/cluing-ones-1.yml";
 import CluingOnes2 from "./level-12/cluing-ones-2.yml";
 import CluingOnes3 from "./level-12/cluing-ones-3.yml";
+import Stale1sClue from "./level-12/stale-1s-clue.yml";
+import EgoClue from "./level-12/ego-clue.yml";
 
 ## Conventions
 
@@ -131,6 +133,9 @@ import CluingOnes3 from "./level-12/cluing-ones-3.yml";
   - Alice wants Bob to discard so that she can cleanly clue the red 2 to get it played. Thus, Alice decides to give a _Play Clue_ to Cathy on a yellow 1, and hope that Bob has nothing else to do.
   - Bob discards.
   - Here, Alice made a mistake, because the line with better teamwork was for Alice to play the blue 1 and Bob to clue the yellow 1. Accelerating the red 2 is not as important as allowing for Bob to potentially clue Alice's hand.
+
+<EgoClue />
+
 - _Ego Clues_ are usually not good because the cluer is forgetting that they cannot see their own hand. In some cases, it really is important to have Bob discard as soon as possible, but it is the exception rather than the norm. Good Hanabi players know that the best lines empower their teammates, instead of forcing them to do actions that are only good from one specific perspective.
 - _Ego Clues_ only apply when the cluer has a playable card. They do not apply when the cluer has a known trash card.
 - _Ego Clues_ are different from [_Selfish Clues_](#the-selfish-clue) because _Ego Clues_ are defined as cluing cards of a separate suit (instead of the same suit).
@@ -147,6 +152,9 @@ import CluingOnes3 from "./level-12/cluing-ones-3.yml";
   - However, Cathy also knows that if both of these 1's were good, then Alice was required to clue them before discarding.
   - Thus, Cathy can reason that one of the 1's are bad. Furthermore, by convention, she knows that the oldest (rightmost) 1 is bad, because that would be the one that she would ordinarily play first.
   - So, Cathy should skip over the oldest (rightmost) 1, and play the other 1. Cathy should also treat the other 1 as known-trash.
+
+<Stale1sClue />
+
 - The _Stale 1's Clue_ is specific example of a more general concept called _Focus Inversion_, which is covered below.
 
 ### Focus Inversion

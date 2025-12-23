@@ -14,7 +14,7 @@ players:
   - cards:
       - type: b
         clue: b
-        middleNote: (1)
+        middleNote: b1
         below: Focus
       - type: x
       - type: x
