@@ -5,8 +5,7 @@ stacks:
   - b: 0
   - p: 0
 bigText:
-  text: first turn
-  color: black
+  text: First turn
 players:
   - clueGiver: true
     cards:
@@ -17,6 +16,7 @@ players:
   - cards:
       - type: 5
         clue: 5
+        below: Stall
       - type: x
         middleNote: r2?
       - type: x
@@ -26,8 +26,8 @@ players:
       - type: x
       - type: x
       - type: x
-      - type: x
-        above: Red 2
+      - type: r2
+        border: false
   - cards:
       - type: x
       - type: x

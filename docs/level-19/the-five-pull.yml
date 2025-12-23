@@ -5,8 +5,7 @@ stacks:
   - b: 0
   - p: 0
 bigText:
-  text: low score
-  color: black
+  text: Low score
 players:
   - clueGiver: true
     cards:
@@ -18,14 +17,17 @@ players:
   - cards:
       - type: x
       - type: x
-      - type: x
+      - type: g1
+        border: false
       - type: x
       - type: x
   - cards:
       - type: 5
         clue: 5
+        below: Pull
       - type: x
         above: Blue 1
+        below: Pulled
       - type: x
       - type: x
       - type: x

@@ -5,8 +5,7 @@ stacks:
   - b: 1
   - p: 1
 bigText:
-  text: low score
-  color: black
+  text: Low score
 players:
   - clueGiver: true
     cards:
@@ -20,23 +19,35 @@ players:
       - type: x
       - type: x
         above: Blue 2
-        below: plays
+        below: Discharge
       - type: x
       - type: x
   - cards:
-      - type: 5
+      - type: b5
         clue: 5
-        above: Blue 5
+        below: Pull
+      - type: r1
+        border: false
+        trash: true
+        below: Pulled
+      - type: g2
+        border: false
+      - type: g4
+        border: false
+      - type: y1
+        border: false
+  - text: "After Bob discharges:"
+  - space
+  - offset: -1
+    cards:
+      - type: 5
       - type: x
-        above: Red 1
+        trash: true
         middleNote: kt
         below:
           text:
-            - globally
+            - Globally
             - known
       - type: x
-        above: Green 2
       - type: x
-        above: Green 4
       - type: x
-        above: Yellow 1

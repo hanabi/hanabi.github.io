@@ -52,6 +52,7 @@ import InteractionsBetween2SavesAnd5Stalls from "./level-19/interaction-between-
 - For example in a 3-player game:
   - It is the _Early Game_ and the _Low Score Phase_.
   - Red 3 is played on the stacks.
+  - Bob has an unclued green 1 in his hand.
   - Alice clues Cathy number 5, touching a red 5 on slot 1. (There are other _Play Clues_ for Alice to give, so this cannot be a _5 Stall_.)
   - Normally, Bob would think that this is a _Finesse_ and that he should blind-play his _Finesse Position_ card as the red 4.
   - However, Bob knows that _Play Clues_ with a number 5 clue are "turned off" in the _Low Score Phase_, which means that Alice is **not** indicating that the red 5 is playable.
@@ -128,9 +129,9 @@ import InteractionsBetween2SavesAnd5Stalls from "./level-19/interaction-between-
 - Normally, _5 Pulls_ have to be treated as _Delayed Play Clues_. This means that sometimes, it can take a long time for the pulled card to blind-play.
 - From the perspective of the player who is _5 Pulled_, if a follow up _Play Clue_ is given to a currently unplayable card, then they can disregard the _Delayed Play Clue_ interpretation - the _5 Pulled_ player is **promised** the card that makes the unplayable card playable.
 - For example, in a 4-player game:
-  - Alice has two clued 1's in her hand - red 1 and blue 1.
-  - Bob does a _5 Pull_ on Donald. Donald knows that the _5 Pulled_ card could be either red 2 or blue 2 (if it is a _Delayed Play Clue_).
-  - Cathy clues Alice about a red 3. Now, Donald knows that he is **promised** the red 2 as his _5 Pulled_ card (and he no longer has to wait for the blue 1 to come down before blind-playing).
+  - Donald has two clued 1's in his hand - red 1 and blue 1.
+  - Alice does a _5 Pull_ on Cathy. Cathy knows that the _5 Pulled_ card could be either red 2 or blue 2 (if it is a _Delayed Play Clue_).
+  - Bob clues Donald about a red 3. Now, Cathy knows that she is **promised** the red 2 as her _5 Pulled_ card (and she no longer has to wait for the blue 1 to come down before blind-playing).
 
 <TheFivePullPromise />
 

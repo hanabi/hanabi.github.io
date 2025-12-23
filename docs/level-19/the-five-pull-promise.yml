@@ -4,21 +4,9 @@ stacks:
   - g: 0
   - b: 0
   - p: 0
+bigText:
+  text: Low score
 players:
-  - cards:
-      - type: 1
-        above: Red 1
-      - type: x
-      - type: 1
-        above: Blue 1
-      - type: 3
-        clue: 3
-        above: Red 3
-  - cards:
-      - type: x
-      - type: x
-      - type: x
-      - type: x
   - clueGiver: true
     cards:
       - type: x
@@ -27,7 +15,47 @@ players:
       - type: x
   - cards:
       - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
       - type: 5
+        clue: 5
+        below: Pull
+      - type: r2
+        middleNote: r2, b2
+        below: Pulled
       - type: x
-        above: Red 2
+  - cards:
+      - type: r1
+        middleNote: r1?
       - type: x
+      - type: b1
+        middleNote: r1?
+      - type: x
+  - text: Next...
+  - offset: -3
+    clueGiver: true
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+      - type: 5
+      - type: r2
+        middleNote: r2
+        below: Pulled
+      - type: x
+  - cards:
+      - type: r1
+        middleNote: r1?
+      - type: x
+      - type: b1
+        middleNote: r1?
+      - type: r3
+        clue: 3
+        middleNote: r3
+        below: Play

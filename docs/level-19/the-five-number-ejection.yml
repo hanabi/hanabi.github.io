@@ -5,8 +5,7 @@ stacks:
   - b: 0
   - p: 0
 bigText:
-  text: first turn
-  color: black
+  text: First turn
 players:
   - clueGiver: true
     cards:
@@ -19,20 +18,31 @@ players:
       - type: x
       - type: x
         above: Red 1
-        below: plays
+        below: Ejection
       - type: x
       - type: x
       - type: x
   - cards:
-      - type: 5
+      - type: r5
         clue: 5
-        above: Red 5
+        below: Pull
+      - type: r3
+        border: false
+        below: Pulled
+      - type: g2
+        border: false
+      - type: g1
+        border: false
+      - type: g2
+        border: false
+  - text: "After Bob ejects:"
+  - offset: -1
+    cards:
+      - type: 5
       - type: x
-        above: Red 3
-        middleNote: 3,4
+        cm: true
+        below: cm
+        middleNote: cm, 34
       - type: x
-        above: Green 2
       - type: x
-        above: Green 1
       - type: x
-        above: Green 2
