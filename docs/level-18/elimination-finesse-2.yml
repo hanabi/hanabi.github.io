@@ -5,24 +5,29 @@ stacks:
   - b: 2
   - p: 0
 players:
+  - clueGiver: true
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
   - cards:
       - type: 4
         clue: 4
+        middleNote: r4
+        below: Play
       - type: x
-        above: Blue 3
+        above: Red 3
+        middleNote: r3
+        below: Finesse
       - type: x
-        middleNote: r3?
+        middleNote: b3?
       - type: x
-        middleNote: r3?
+        middleNote: b3?
       - type: x
+        middleNote: b3?
   - cards:
-      - type: x
-      - type: x
-      - type: x
-      - type: x
-      - type: x
-  - clueGiver: true
-    cards:
       - type: x
       - type: x
       - type: x

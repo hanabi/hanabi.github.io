@@ -10,10 +10,11 @@ players:
       - type: x
       - type: x
       - type: x
-      - type: x
-  - text: Alice discards, it is Blue 3
+      - type: b3
+        border: false
+        below: Discard
   - text: Alice writes Elimination Notes
-  - name: Alice
+  - offset: -1
     cards:
       - type: x
       - type: x
@@ -24,33 +25,31 @@ players:
         middleNote: b3?
       - type: x
         middleNote: b3?
-  - text: ""
-  - name: Alice
+  - space: 50
+  - offset: -1
     cards:
       - type: x
       - type: x
-        middleNote: b3?
       - type: x
-        middleNote: b3?
       - type: x
-        middleNote: b3?
       - type: x
         above: Blue 3
-        middleNote: b3?
+        middleNote: b3
+        below: Finesse
   - clueGiver: true
-    name: Bob
     cards:
       - type: x
       - type: x
       - type: x
       - type: x
       - type: x
-  - name: Cathy
-    cards:
+  - cards:
       - type: x
       - type: x
       - type: x
-      - type: b
-        above: Blue 4
+      - type: b12345
+        crossedOut: 3
         clue: b
+        middleNote: b4
+        below: Play
       - type: x
