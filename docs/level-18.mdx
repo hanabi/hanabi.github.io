@@ -6,9 +6,10 @@ import EliminationNotes from "./level-18/elimination-notes.yml";
 import EliminationBlindPlay from "./level-18/elimination-blind-play.yml";
 import EliminationPlayClue from "./level-18/elimination-play-clue.yml";
 import EliminationSingleOutNegative from "./level-18/elimination-single-out-negative.yml";
-import EliminationFinesse from "./level-18/elimination-finesse.yml";
+import EliminationFinesse1 from "./level-18/elimination-finesse-1.yml";
 import EliminationFinesse2 from "./level-18/elimination-finesse-2.yml";
-import TrashTouchElimination from "./level-18/trash-touch-elimination.yml";
+import TrashTouchElimination1 from "./level-18/trash-touch-elimination-1.yml";
+import TrashTouchElimination2 from "./level-18/trash-touch-elimination-2.yml";
 import TrashTouchEliminationInteraction from "./level-18/trash-touch-elimination-interaction.yml";
 
 ## Conventions
@@ -72,7 +73,6 @@ import TrashTouchEliminationInteraction from "./level-18/trash-touch-elimination
 - However, this rule does not apply if a clue singles out an immediately playable card from _Elimination_. In this case, the clue only focuses on the _Elimination_ card, and any other cards touched are not necessarily playable right now.
 - For example, in a 3-player game:
   - Red 1 and blue 1 are played on the stacks.
-  - Alice has both red 2's in her hand on slot 2 and slot 5. (Alice's chop is her slot 5.)
   - Alice discards her chop, and it is revealed to be the red 2.
   - Alice is surprised, and writes _Discard Elimination Notes_ for red 2 on slots 2, 3, 4, and 5.
   - Bob gives a number 2 clue to Alice that touches a card in slot 1, slot 3 and slot 4.
@@ -162,17 +162,17 @@ import TrashTouchEliminationInteraction from "./level-18/trash-touch-elimination
   - Alice knows that this is some sort of _Reverse Finesse_, as it is calling for the blue 3. However, the blue 3 cannot be in her _Finesse Position_ (slot 1), as she knows from the _Elimination Notes_ that it must be either on slot 2, 3, 4, or 5. So it must instead be a _Reverse Elimination Finesse_.
   - The _Elimination Finesse_ promises that it is her oldest card, so she plays slot 5 as blue 3.
 
-<EliminationFinesse />
+<EliminationFinesse1 />
 
 - As mentioned above, _Chop Moved_ cards should be skipped over when finding the _Elimination Finesse_ target. If there are two or more cards with _Elimination Notes_ on them and they are all _Chop Moved_, then the oldest _Chop Moved_ card should be played.
 - _Elimination Finesses_ apply to **all** types of situations with _Elimination Notes_ (including _Double Discard Elimination Notes_). Subsequently, you can more specifically describe an _Elimination Finesse_ as a _Discard Elimination Finesse_ or a _Double Discard Elimination Finesse_.
 - Note that normal _Finesses_ take priority over _Self-Elimination Finesses_. For example, in a 3-player game:
   - Red 2 and blue 2 are played on the stacks.
-  - Alice's hand is completely unclued. Alice has _Elimination Notes_ on slot 3 and slot 4 for red 3.
-  - Cathy clues a number 4 in Alice's slot 1 as a _Self-Finesse_.
-  - If Alice's 4 is a blue 4, then this would be a normal _Self-Finesse_, and Alice should blind-play blue 3 from slot 2.
-  - If Alice's 4 is a red 4, then this would be an _Elimination Self-Finesse_, and Alice should blind-play red 3 from slot 4.
-  - Alice knows that in this situation, you always supposed to assume a normal _Finesse_, so she blind-plays blue 3 from slot 2.
+  - Bob's hand is completely unclued. Bob has _Elimination Notes_ on slot 3, 4 and 5 for blue 3.
+  - Alice clues a number 4 in Bob's slot 1 as a _Self-Finesse_.
+  - If Bob's 4 is a red 4, then this would be a normal _Self-Finesse_, and Bob should blind-play red 3 from slot 2.
+  - If Bob's 4 is a blue 4, then this would be an _Elimination Self-Finesse_, and Bob should blind-play blue 3 from slot 5.
+  - Bob knows that in this situation, you always supposed to assume a normal _Finesse_, so he blind-plays red 3 from slot 2.
 
 <EliminationFinesse2 />
 
@@ -186,11 +186,15 @@ import TrashTouchEliminationInteraction from "./level-18/trash-touch-elimination
   - So, Alice has to choose between the lesser of two evils and chooses to clue number 4 as a _Play Clue_ on the red 4.
   - Bob plays the red 4.
   - Now, Cathy has to interpret what happened. Normally, Alice duplicating the blue 4 would mean that she is making a mistake or something else special is going on. However, in this situation, Cathy knows that Alice had to choose between two evils, so the number 4 clue is considered to be ordinary.
+
+<TrashTouchElimination1 />
+
 - In some situations, players can see that it **is** possible to use a color or number clue to uniquely touch a clue target without "picking up" extra bad cards. So if a clue is given that does so anyway, it is conveying an extra special message.
 - When this occurs, and there is exactly one "missing" card, players should write an _Elimination Note_ in their hand for the missing card. This is called _Trash Touch Elimination_.
 - For example, in a 3-player game:
   - Red 3 and all the other 1s are played on the stacks.
-  - Bob's hand is, from newest to oldest: `red 4, red 1, blue 1, green 1, yellow 1`
+  - Bob's hand is, from newest to oldest: `red 4, red 1, blue 1, green 1, yellow 1`.
+  - Cathy's hand contains a red 5, unbeknownst to her.
   - Alice wants to give a play clue to the red 4. Everyone else on the team (other than Bob) can see that she can give either number 4 or red.
     - If Alice clues number 4, then it will uniquely touch the red 4 (which will satisfy _Good Touch Principle_).
     - If Alice clues red, then it will touch the red 4 and the red 1 (which will **violate** _Good Touch Principle_).
@@ -198,7 +202,7 @@ import TrashTouchEliminationInteraction from "./level-18/trash-touch-elimination
   - Bob plays the red 4.
   - There is only one "missing" red card - the red 5. Cathy knows that normally, Bob would think that his red 1 is the red 5 (from _Good Touch Principle_). This must mean that Cathy has the red 5. Cathy writes _Trash Touch Elimination Notes_ on her hand for the red 5.
 
-<TrashTouchElimination />
+<TrashTouchElimination2 />
 
 #### Interaction Between Trash Touch Elimination & Potentially Unknown Trash
 
@@ -208,8 +212,8 @@ import TrashTouchEliminationInteraction from "./level-18/trash-touch-elimination
 - When the clued card discards, that player realizes that a _Trash Chop Move_ has occurred, assisted by the presence of the final non-trash card(s) in their hand.
 - For example, in a 3-player game:
   - Red 4, green 1, and blue 1 are played on the stacks.
-  - Bob's hand is completely unclued and is as follows: `blue 1, blue 1, red 4, blue 3, green 3`
-  - Cathy's hand is completely unclued and is as follows: `red 5, red 1, red 1, red 2, red 3`
+  - Bob's hand is completely unclued and is as follows: `blue 1, blue 1, red 4, blue 3, green 3`.
+  - Cathy's hand contains a red 5, unbeknownst to her.
   - Alice clues red to Bob, touching his red 4 on slot 3.
   - Bob knows that from _Good Touch Principle_, the only good red card is red 5. Since Bob sees the red 5 in Cathy's hand, his red card must be trash. Thus, Alice must be intending a _Trash Chop Move_.
   - Bob discards his red card and marks his slot 4 and slot 5 cards as being _Chop Moved_.

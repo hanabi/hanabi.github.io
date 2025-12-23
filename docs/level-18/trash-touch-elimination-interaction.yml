@@ -20,18 +20,43 @@ players:
       - type: r4
         clue: r
         trash: true
+        below: Trash
       - type: b3
         border: false
       - type: g3
         border: false
   - cards:
+      - type: x
+      - type: x
       - type: r5
         border: false
-      - type: r1
+      - type: x
+      - type: x
+  - text: "After Bob discards the red 4:"
+  - offset: -2
+    cards:
+      - type: x
+      - type: b1
         border: false
-      - type: r1
+      - type: b1
         border: false
-      - type: r2
+      - type: b3
         border: false
-      - type: r3
+        cm: true
+        middleNote: cm
+      - type: g3
         border: false
+        cm: true
+        middleNote: cm
+  - cards:
+      - type: x
+        middleNote: r5?
+      - type: x
+        middleNote: r5?
+      - type: r5
+        border: false
+        middleNote: r5?
+      - type: x
+        middleNote: r5?
+      - type: x
+        middleNote: r5?

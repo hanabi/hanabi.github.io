@@ -10,10 +10,11 @@ players:
       - type: x
       - type: x
       - type: x
-      - type: x
-  - text: Alice discards, it is Red 2
+      - type: r2
+        border: false
+        below: Discard
   - text: Alice writes Elimination Notes
-  - name: Alice
+  - offset: -1
     cards:
       - type: x
       - type: x
@@ -24,29 +25,28 @@ players:
         middleNote: r2?
       - type: x
         middleNote: r2?
-  - text: ""
-  - name: Alice
+  - space: 50
+  - offset: -1
     cards:
       - type: x
       - type: 3
-        middleNote: (R)
         clue: 3
+        middleNote: r3
+        below: Play
       - type: 3
         clue: 3
       - type: 3
         clue: 3
       - type: x
-        middleNote: r2?
+        middleNote: r2
   - clueGiver: true
-    name: Bob
     cards:
       - type: x
       - type: x
       - type: x
       - type: x
       - type: x
-  - name: Cathy
-    cards:
+  - cards:
       - type: x
       - type: x
       - type: x
