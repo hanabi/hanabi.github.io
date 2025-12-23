@@ -119,15 +119,13 @@ import UnknownDupeDischarge from "./level-16/unknown-dupe-discharge.yml";
 - In this case, they intend for a _Discharge_ to communicate the "badness" of the focused card. This is called an _Unknown Dupe Discharge_ (and works in a very similar way to the _Unknown Trash Discharge_).
 - After an _Unknown Dupe Discharge_, the focus of the clue can be any unknown duplicated card. The player will only know which specific duplicated card it is after they discard it.
 - For example, in a 3-player game:
-  - It is the first turn of the game and nothing is played on the stacks.
-  - Alice clues number 5 to Bob as a _5 Save_.
-  - Bob's hand is as follows: `red 2, red 2, red 4, blue 4, blue [5]`
-  - Bob clues green to Cathy as a play clue.
-  - Cathy clues red to Bob, touching the red 2 on slot 1, the red 2 on slot 2, and the red 4 on slot 3.
-  - Alice knows that Cathy is violating _Good Touch Principle_ and duplicating the red 2. There doesn't seem to be a very good reason for this, so this must be an _Unknown Dupe Discharge_.
-  - Alice blind-plays her _Third Finesse Position_. It is a blue 1 and it successfully plays on the stacks.
-  - Normally, Bob would think that this was an _Unknown Trash Discharge_. However, no red trash cards exist. Thus, this must have been an _Unknown Dupe Discharge_.
-  - Bob discards his slot 1 card (the focus of the clue). It is revealed to be a red 2. Now, Bob writes _Elimination Notes_ for the red 2 on his slot 2 and his slot 3.
+  - Nothing is played on the stacks.
+  - Cathy's hand is as follows: `red 2, red 2, red 4, blue 4, green 1`
+  - Alice clues red to Cathy as a play clue, touching the red 2 on slot 1, the red 2 on slot 2, and the red 4 on slot 3.
+  - Bob knows that Alice is violating _Good Touch Principle_ and duplicating the red 2. There doesn't seem to be a very good reason for this, so this must be an _Unknown Dupe Discharge_.
+  - Bob blind-plays his _Third Finesse Position_. It is a blue 1 and it successfully plays on the stacks.
+  - Normally, Cathy would think that this was an _Unknown Trash Discharge_. However, no red trash cards exist. Thus, this must have been an _Unknown Dupe Discharge_.
+  - Cathy discards her slot 1 card (the focus of the clue). It is revealed to be a red 2. Now, Cathy writes _Elimination Notes_ for the red 2 on her slot 2 and her slot 3.
 
 <UnknownDupeDischarge />
 
