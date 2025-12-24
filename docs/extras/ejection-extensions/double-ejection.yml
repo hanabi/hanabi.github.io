@@ -14,8 +14,10 @@ players:
   - cards:
       - type: r1
         border: false
-      - type: b1
+      - type: x
         border: false
+        above: Blue 1
+        below: Ejection
       - type: g4
         border: false
       - type: g4
@@ -23,14 +25,18 @@ players:
   - cards:
       - type: r1
         border: false
-      - type: b2
+      - type: x
+        above: Blue 2
         border: false
+        below: Ejection
       - type: x
       - type: x
   - cards:
       - type: r2
         clue: r
+        middleNote: r2
         retouched: true
+        below: Tempo
       - type: x
       - type: x
       - type: x

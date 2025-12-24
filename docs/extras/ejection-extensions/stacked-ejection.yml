@@ -4,9 +4,6 @@ stacks:
   - g: 0
   - b: 0
   - p: 0
-bigText:
-  text: first turn
-  color: black
 players:
   - cards:
       - type: x
@@ -22,15 +19,19 @@ players:
   - cards:
       - type: x
         above: Red 1
+        middleNote: r1
+        below: Finessed
       - type: x
         above: Green 1
+        below: Ejection
       - type: x
       - type: x
   - cards:
       - type: x
-      - type: r
-        above: Red 2
-      - type: x
+      - type: r2
+        middleNote: r2
+      - type: b5
         clue: b
-        above: Blue 5
+        middleNote: b5
+        below: Play
       - type: x
