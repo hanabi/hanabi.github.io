@@ -13,34 +13,27 @@ players:
       - type: x
       - type: x
   - cards:
-      - type: r
+      - type: r4
         clue: r
-        middleNote: (4)
+        middleNote: r3
+        below: Play
       - type: x
       - type: x
       - type: x
       - type: x
   - text: After Bob misplays the red 4...
-  - name: Bob
+  - offset: -1
     cards:
       - type: x
       - type: x
-        above:
-          text:
-            - Chop
-            - Moved
+        cm: true
+        middleNote: cm
       - type: x
-        above:
-          text:
-            - Chop
-            - Moved
+        cm: true
+        middleNote: cm
       - type: x
-        above:
-          text:
-            - Chop
-            - Moved
+        cm: true
+        middleNote: cm
       - type: x
-        above:
-          text:
-            - Chop
-            - Moved
+        cm: true
+        middleNote: cm
