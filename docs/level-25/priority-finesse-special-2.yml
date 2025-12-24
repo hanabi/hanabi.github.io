@@ -19,7 +19,7 @@ players:
       - type: x
         below:
           text:
-            - No
+            - "No"
             - priority
       - type: x
       - type: x
@@ -29,7 +29,7 @@ players:
       - type: x
         below:
           text:
-            - No
+            - "No"
             - priority
       - type: x
       - type: x
