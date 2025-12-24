@@ -6,6 +6,7 @@ import FourCharmInteractionDoubleBluff from "./charms/4-charm-interaction-double
 import FourCharmInteractionHardDoubleBluff from "./charms/4-charm-interaction-hard-double-bluff.yml";
 import FourCharmInteractionOOO from "./charms/4-charm-interaction-ooo.yml";
 import UnknownTrashCharm from "./charms/unknown-trash-charm.yml";
+import JunkCharm from "./charms/junk-charm.yml";
 
 - A *Charm* refers to a blind-play in which someone plays an unrelated card from their *Fourth Finesse Position*. For example, if a player's hand is completely unclued, their *Fourth Finesse Position* is slot 4.
 - Just like a *Bluff*, a *Charm* can only be performed on the very next player.
@@ -26,7 +27,7 @@ import UnknownTrashCharm from "./charms/unknown-trash-charm.yml";
   - Bob sees that Cathy has a red 3 on her _Finesse Position_.
   - If Bob has exactly a red 2 on his _Finesse Position_, then he knows that Alice's clue would work as a _4's Double Bluff_.
   - However, since the red 3 on Cathy's _Finesse Position_ is _one-away-from-playable_, Bob knows that _4 Charms_ should take precedence.
-  - Bob blind-plays his _Fourth Finesse Position_ card.
+  - Bob blind-plays his _Fourth Finesse Position_ card. It is a green 1.
 
 <FourCharmInteractionDoubleBluff />
 
@@ -86,3 +87,5 @@ import UnknownTrashCharm from "./charms/unknown-trash-charm.yml";
     - A _Second Finesse Position_ blind-play would look like a _Trash Push Ejection_, which would be a _Lie_.
     - A _Third Finesse Position_ blind-play would look like a _Unknown Trash Discharge_, which would be a _Lie_.
   - Thus, Bob knows this must be a _Junk Charm_ and blind-plays his _Fourth Finesse Position_. It is a blue 1 and it successfully plays.
+
+<JunkCharm />
