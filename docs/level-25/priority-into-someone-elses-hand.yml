@@ -5,10 +5,14 @@ stacks:
   - b: 2
   - p: 0
 players:
-  - cards:
+  - clueGiver: true
+    cards:
       - type: x
       - type: x
       - type: b3
+        below:
+          text: Play
+          color: cyan
       - type: r3
       - type: r4
   - cards:

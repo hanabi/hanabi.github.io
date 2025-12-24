@@ -5,26 +5,28 @@ stacks:
   - b: 1
   - p: 1
 players:
-  - cards:
+  - clueGiver: true
+    cards:
       - type: x
       - type: r2
       - type: x
       - type: yb2
         crossedOut: y
+        below:
+          text: Play
+          color: cyan
       - type: x
-  - text: Alice plays the unknown 2
-  - name: Bob
-    cards:
-      - type: x
-        above: Blue 3
+  - cards:
+      - type: b3
+        border: false
+        below: Priority
       - type: x
       - type: r3
-      - type: x
-        above: Yellow 2
-      - type: x
-        above: Yellow 2
-  - name: Cathy
-    cards:
+      - type: y2
+        border: false
+      - type: y2
+        border: false
+  - cards:
       - type: x
       - type: x
       - type: x

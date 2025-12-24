@@ -5,23 +5,25 @@ stacks:
   - b: 1
   - p: 1
 players:
-  - cards:
+  - clueGiver: true
+    cards:
       - type: x
       - type: r3
+        below:
+          text: Play
+          color: cyan
       - type: x
       - type: ygbp2
       - type: x
-  - text: Alice plays Red 3
-  - name: Bob
-    cards:
+  - cards:
       - type: x
         above: Red 4
+        below: Priority
       - type: x
       - type: x
       - type: x
       - type: x
-  - name: Cathy
-    cards:
+  - cards:
       - type: x
       - type: x
       - type: x
