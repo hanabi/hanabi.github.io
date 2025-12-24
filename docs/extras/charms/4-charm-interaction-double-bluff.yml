@@ -16,10 +16,15 @@ players:
       - type: x
       - type: x
       - type: x
-        above: plays
+        above: Green 1
+        below: Charm
   - cards:
       - type: r3
         border: false
+        below:
+          text:
+            - Not
+            - Finessed
       - type: x
       - type: x
       - type: x
@@ -29,3 +34,5 @@ players:
       - type: x
       - type: b4
         clue: b
+        middleNote: b4
+        below: Play

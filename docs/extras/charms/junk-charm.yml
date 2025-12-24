@@ -1,0 +1,36 @@
+stacks:
+  - r: 0
+  - y: 0
+  - g: 1
+  - b: 0
+  - p: 0
+players:
+  - clueGiver: true
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+        above: Blue 1
+        below: Charm
+      - type: x
+  - cards:
+      - type: y2
+        border: false
+      - type: g1
+        clue: 1
+        middleNote: kt
+        trash: true
+      - type: b3
+        border: false
+      - type: p5
+        border: false
+      - type: r1
+        clue: 1
+        below: Play

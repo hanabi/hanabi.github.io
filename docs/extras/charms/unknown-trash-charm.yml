@@ -18,14 +18,28 @@ players:
       - type: x
       - type: x
         above: Blue 3
+        below: Charm
       - type: x
   - cards:
-      - type: r
-        above: Red 1
+      - type: r1
         clue: r
-      - type: r
-        above: Red 2
+        middleNote: r3
+        below: Play
+      - type: r2
+        middleNote: r4, r5
         clue: r
+      - type: x
+      - type: x
+      - type: x
+  - text: "After Bob charms:"
+  - offset: -1
+    cards:
+      - type: r1
+        middleNote: kt
+        trash: true
+      - type: r2
+        middleNote: kt
+        trash: true
       - type: x
       - type: x
       - type: x

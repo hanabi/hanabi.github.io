@@ -14,28 +14,28 @@ players:
   - cards:
       - type: x
         above: Red 1
+        middleNote: g1
+        below: Finesse
       - type: x
+        middleNote: g3
       - type: x
       - type: x
   - cards:
       - type: x
         above: Red 2
+        below: Finesse
       - type: x
       - type: x
       - type: x
   - cards:
       - type: g2
         border: false
-      - type: 4
+      - type: g4
         clue: 4
-        middleNote: (G)
+        middleNote: any
+        below: Play
       - type: x
       - type: x
-  - text: After both red 1 and red 2 blind-play...
-  - name: Donald
-    cards:
-      - type: x
-      - type: 4
-        below: any 4
-      - type: x
-      - type: x
+  - text: After both red 1 and red 2 blind-play,
+  - space: -25
+  - text: Bob deletes his g3 note
