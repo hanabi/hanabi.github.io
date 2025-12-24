@@ -6,26 +6,31 @@ stacks:
   - p: 0
 bigText:
   text: "Clues: 0"
-  color: black
 players:
-  - cards:
+  - zeroClues: true
+    cards:
       - type: x
       - type: b1
       - type: x
       - type: 4
         above: Red 4
       - type: x
-  - text: Alice discards
+        below: Discard
   - cards:
       - type: x
       - type: x
       - type: x
       - type: x
       - type: x
+        below:
+          text:
+            - Not
+            - Chop
+            - Moved
   - cards:
       - type: x
       - type: x
       - type: x
       - type: x
-      - type: x
-        above: Red 4
+      - type: r4
+        border: false
