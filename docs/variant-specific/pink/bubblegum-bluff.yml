@@ -19,6 +19,7 @@ players:
       - type: x
       - type: x
         above: Red 1
+        below: Bubble
       - type: x
       - type: x
   - cards:
@@ -30,3 +31,5 @@ players:
         orange: 3
         above: Pink 2
         clue: 3
+        middleNote: i2
+        below: Play

@@ -17,6 +17,7 @@ players:
   - cards:
       - type: x
         above: Blue 1
+        below: Finesse
       - type: x
       - type: x
       - type: x
@@ -27,6 +28,8 @@ players:
         orange: 2
         above: Pink 1
         clue: 2
+        middleNote: b2
+        below: Play
       - type: x
       - type: x
       - type: x

@@ -24,11 +24,14 @@ players:
       - type: x
       - type: x
         above: Pink 2
+        below: Bubble
   - cards:
       - type: x
       - type: i12345
         above: Pink 3
         clue: 4
         orange: 4
+        middleNote: i3
+        below: Play
       - type: x
       - type: x

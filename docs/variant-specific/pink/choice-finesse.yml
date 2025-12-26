@@ -17,6 +17,7 @@ players:
   - cards:
       - type: x
         above: Pink 1
+        below: Finesse
       - type: x
       - type: x
       - type: x
@@ -27,8 +28,12 @@ players:
       - type: i12345
         clue: 4
         orange: 4
+        retouched: true
       - type: i12345
         clue: 4
         orange: 4
+        retouched: true
+        middleNote: i2
         above: Pink 2
+        below: Play
       - type: x

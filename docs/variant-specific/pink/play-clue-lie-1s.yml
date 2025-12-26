@@ -6,6 +6,9 @@ stacks:
   - g: 0
   - b: 0
   - i: 0
+bigText:
+  text: No fix needed
+  color: green
 players:
   - cards:
       - type: x
@@ -19,16 +22,22 @@ players:
         orange: 1
         above: Red 1
         clue: 1
+        middleNote: 4th
       - type: rygbi12345
         orange: 1
         above: Pink 3
         clue: 1
+        middleNote: 3rd
       - type: rygbi12345
         orange: 1
         above: Pink 2
         clue: 1
+        middleNote: 2nd
       - type: rygbi12345
         orange: 1
         above: Pink 1
         clue: 1
-      - type: x
+        middleNote: 1st
+        below: Play
+      - type: rygb2345
+        border: false

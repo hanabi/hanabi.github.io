@@ -1,35 +1,36 @@
 suits:
   i: pink
 stacks:
-  - r: 0
+  - r: 1
   - y: 0
   - g: 0
-  - b: 0
+  - b: 1
   - i: 0
 players:
-  - cards:
+  - clueGiver: true
+    cards:
       - type: x
       - type: x
-      - type: x
-      - type: x
-      - type: x
-    clueGiver: true
-  - cards:
-      - type: x
-      - type: x
-        above: Blue 1
-        below: Ejection
       - type: x
       - type: x
       - type: x
   - cards:
       - type: x
+        above: Pink 1
+        below: Finesse
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
       - type: x
       - type: x
       - type: x
       - type: rygbi12345
-        clue: 5
-        orange: 5
-        above: Pink 1
-        middleNote: i1
-        below: Play
+        orange: 1
+        clue: 1
+        above: Red 1
+        middleNote: kt
+        trash: true
+        below: Trash
+      - type: x

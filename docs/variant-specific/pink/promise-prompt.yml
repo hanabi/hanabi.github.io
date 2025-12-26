@@ -19,16 +19,18 @@ players:
       - type: rygbi12345
         orange: 2
         above: Red 2
+        below: Prompt
       - type: rygbi12345
         orange: 2
       - type: x
       - type: rygbi12345
         orange: 2
-        middleNote: (2)
+        middleNote: 2
   - cards:
-      - type: r
-        above: Red 3
+      - type: r3
         clue: r
+        middleNote: r3
+        below: Play
       - type: x
       - type: x
       - type: x

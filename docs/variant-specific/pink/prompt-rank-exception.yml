@@ -17,6 +17,7 @@ players:
   - cards:
       - type: x
         above: Pink 3
+        below: Finesse
       - type: rygbi12345
         orange: 4
       - type: rygbi12345
@@ -24,10 +25,11 @@ players:
       - type: x
       - type: x
   - cards:
-      - type: i
-        above: Pink 4
-        clue: pink
       - type: x
+      - type: i4
+        clue: pink
+        middleNote: i4
+        below: Play
       - type: x
       - type: x
       - type: x

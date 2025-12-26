@@ -7,29 +7,29 @@ stacks:
   - b: 0
   - i: 0
 players:
-  - cards:
+  - clueGiver: true
+    cards:
       - type: x
       - type: x
-      - type: x
-      - type: x
-      - type: x
-    clueGiver: true
-  - cards:
-      - type: x
-      - type: x
-        above: Blue 1
-        below: Ejection
       - type: x
       - type: x
       - type: x
   - cards:
       - type: x
       - type: x
+        above: Pink 1
+        below: Bubble
+      - type: x
+      - type: x
+      - type: x
+  - cards:
       - type: x
       - type: x
       - type: rygbi12345
-        clue: 5
-        orange: 5
-        above: Pink 1
-        middleNote: i1
+        orange: 2
+        clue: 2
+        above: Pink 3
+        middleNote: i3
         below: Play
+      - type: x
+      - type: x
