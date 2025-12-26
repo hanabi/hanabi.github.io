@@ -15,18 +15,11 @@ players:
       - type: x
     clueGiver: true
   - cards:
-      - type: x
-      - type: n
-      - type: n
-      - type: n
-      - type: n
-  - name: Bob
-    cards:
       - type: 2
         clue: 2
-        above: Blue 2
+        trash: true
       - type: n
-        above: Brown 3
+        middleNote: n3
         below: Play
       - type: n
       - type: n
