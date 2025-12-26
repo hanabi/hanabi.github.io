@@ -1,0 +1,34 @@
+suits:
+  w: white
+stacks:
+  - r: 2
+  - y: 0
+  - g: 0
+  - b: 0
+  - w: 2
+discarded:
+  - b3
+players:
+  - clueGiver: true
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: g1
+        below: Loaded
+      - type: x
+      - type: x
+      - type: x
+      - type: 3
+        clue: 3
+        middleNote: r3, w3
+        below: Play
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
