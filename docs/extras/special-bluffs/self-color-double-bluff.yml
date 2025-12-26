@@ -13,21 +13,32 @@ players:
       - type: x
       - type: x
   - cards:
-      - type: x
+      - type: xygpb
         above: Blue 1
+        below: Bluff
       - type: r1245
         clue: r
         above: Red 5
         middleNote: r4
+        below: Play
       - type: x
       - type: x
       - type: x
   - cards:
       - type: x
         above: Blue 2
+        below: Bluff
       - type: x
       - type: x
       - type: x
       - type: x
-  - text: Cathy blind-plays slot 1, since Bob has Red 5 on slot 2
-  - text: Bob marks slot 2 as Red 5
+  - text: "After Cathy also blind-plays:"
+  - offset: -2
+    cards:
+      - type: x
+      - type: r1245
+        above: Red 5
+        middleNote: r5
+      - type: x
+      - type: x
+      - type: x

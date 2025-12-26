@@ -13,13 +13,16 @@ players:
       - type: x
       - type: x
   - cards:
-      - type: x
+      - type: xygbp
         above: Blue 1
+        below: Bluff
       - type: x
       - type: x
       - type: x
-      - type: 4
+      - type: r4
         clue: r
+        retouched: true
+        below: Play
   - cards:
       - type: x
       - type: x
