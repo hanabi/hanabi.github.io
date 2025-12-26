@@ -1,0 +1,30 @@
+stacks:
+  - r: 1
+  - y: 0
+  - g: 0
+  - b: 4
+  - p: 0
+players:
+  - clueGiver: true
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: 35
+        orange: 3
+        clue: 3
+        middleNote: b5
+        below: Play
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
