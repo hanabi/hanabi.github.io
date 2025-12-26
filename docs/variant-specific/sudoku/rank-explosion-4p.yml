@@ -1,0 +1,34 @@
+stacks:
+  - r: 0
+  - y: 0
+  - g: 0
+  - b: 0
+  - p: 0
+players:
+  - clueGiver: true
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+      - type: x
+        above: Blue 3
+        below: Explosion
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+      - type: x
+        above: Green 4
+        below: Explosion
+      - type: x
+      - type: x
+  - cards:
+      - type: r2
+        clue: 2
+        below: Play
+      - type: x
+      - type: x
+      - type: x
