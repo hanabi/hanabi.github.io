@@ -9,13 +9,16 @@ players:
     cards:
       - type: x
       - type: r1
+        below:
+          text: Play
+          color: cyan
       - type: b2
       - type: x
       - type: x
-  - text: Alice plays Red 1
   - cards:
       - type: x
         above: Red 2
+        below: Priority
       - type: x
       - type: x
       - type: x
@@ -24,6 +27,7 @@ players:
       - type: x
         above: Blue 3
         middleNote: b3
+        below: Priority
       - type: x
       - type: x
       - type: x

@@ -17,17 +17,22 @@ players:
       - type: x
   - cards:
       - type: xrygp
+        above: Red 3
+        middleNote: r3
+        below:
+          text:
+            - Finesse,
+            - Discards
       - type: x
       - type: x
       - type: x
       - type: x
-  - text: Bob performs a Certain Discard of Slot 1, it is Red 3
-  - space
   - cards:
       - type: x
       - type: x
       - type: x
-      - type: x
+      - type: r4
+        middleNote: r4
         clue: 4
-        above: Red 4
+        below: Play
       - type: x
