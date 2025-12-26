@@ -1,0 +1,57 @@
+stacks:
+  - r: 0
+  - y: 0
+  - g: 0
+  - b: 0
+  - p: 0
+bigText:
+  text: Reversed
+  color: purple
+players:
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+    clueGiver: true
+  - cards:
+      - type: 1
+        clue: 1
+        above: Blue 1
+        middleNote: 3rd
+      - type: 1
+        clue: 1
+        above: Purple 1
+        middleNote: 2nd
+      - type: 1
+        clue: 1
+        above: Red 1
+        middleNote: 1st
+        below: Play
+      - type: x
+      - type: x
+  - text: Bob plays Red 1.
+  - offset: -2
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+    clueGiver: true
+  - cards:
+      - type: x
+      - type: 1
+        clue: 1
+        retouched: true
+        above: Blue 1
+        below: Good
+      - type: 1
+        clue: 1
+        above: Purple 1
+        middleNote: p1
+        retouched: true
+        below: Fix
+      - type: x
+      - type: x
