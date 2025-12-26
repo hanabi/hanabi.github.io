@@ -46,13 +46,14 @@ await lintCommands(import.meta.dirname, [
 ]);
 
 async function checkUnusedYAMLFiles() {
-  const importRegex = /import .+ from ".*\/(.+.yml)/;
+  const importRegex = /import .+ from "([^"]+\.yml)"/;
 
   // Go through every ".mdx" file and compile a set of used YAML files.
   const mdxFilePathFragments = await glob("./docs/**/*.mdx");
-  const usedYAMLFileNames = new Set<string>();
+  const usedYAMLFilePaths = new Set<string>();
   for (const mdxFilePathFragment of mdxFilePathFragments) {
     const mdxFilePath = path.join(REPO_ROOT, mdxFilePathFragment);
+    const mdxDir = path.dirname(mdxFilePath);
     // eslint-disable-next-line no-await-in-loop
     const fileContents = await readFile(mdxFilePath);
     const lines = fileContents.split("\n");
@@ -68,39 +69,43 @@ async function checkUnusedYAMLFiles() {
         continue;
       }
 
-      const yamlFileName = match[1];
-      if (yamlFileName === undefined) {
+      const yamlImportPath = match[1];
+      if (yamlImportPath === undefined) {
         throw new Error(
           `Failed to parse the YAML file path from file: ${mdxFilePath}`,
         );
       }
 
-      if (usedYAMLFileNames.has(yamlFileName)) {
+      // Resolve the import path relative to the importing file.
+      const absoluteYamlPath = path.resolve(mdxDir, yamlImportPath);
+      // Normalize to relative path from docs directory.
+      const relativeYamlPath = path.relative(
+        path.join(REPO_ROOT, "docs"),
+        absoluteYamlPath,
+      );
+
+      if (usedYAMLFilePaths.has(relativeYamlPath)) {
         throw new Error(
-          `The following YAML file is being used two or more times: ${yamlFileName}`,
+          `The following YAML file is being used two or more times: ${relativeYamlPath}`,
         );
       }
 
-      usedYAMLFileNames.add(yamlFileName);
+      usedYAMLFilePaths.add(relativeYamlPath);
     }
   }
 
   // Go through every ".yml" file.
   const yamlFilePathFragments = await glob("./docs/**/*.yml");
-  const yamlFileNames = new Set<string>();
+  const yamlFilePaths = new Set<string>();
   for (const yamlFilePathFragment of yamlFilePathFragments) {
-    const yamlFileName = path.basename(yamlFilePathFragment);
-    if (yamlFileNames.has(yamlFileName)) {
-      throw new Error(
-        `There is more than one YAML file with the name of: ${yamlFileName}`,
-      );
-    }
+    // Normalize the path relative to docs directory.
+    const relativeYamlPath = path.relative("./docs", yamlFilePathFragment);
 
-    yamlFileNames.add(yamlFileName);
+    yamlFilePaths.add(relativeYamlPath);
 
-    if (!usedYAMLFileNames.has(yamlFileName)) {
+    if (!usedYAMLFilePaths.has(relativeYamlPath)) {
       throw new Error(
-        `The following YAML file is not being used: ${yamlFileName}`,
+        `The following YAML file is not being used: ${relativeYamlPath}`,
       );
     }
   }
