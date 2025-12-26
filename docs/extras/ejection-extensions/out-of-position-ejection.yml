@@ -13,21 +13,22 @@ players:
       - type: x
   - cards:
       - type: x
+        below: Discards
       - type: 5
       - type: 5
       - type: 5
-  - text: Bob discards
   - cards:
       - type: x
       - type: x
         above: Red 2
+        below: Ejection
       - type: x
       - type: x
   - cards:
-      - type: x
+      - type: r5
         clue: r
-        above: Red 5
-        middleNote: 5
+        middleNote: r5
+        below: Play
       - type: x
       - type: x
       - type: x

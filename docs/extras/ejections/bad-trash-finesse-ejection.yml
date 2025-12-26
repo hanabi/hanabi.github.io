@@ -1,6 +1,6 @@
 stacks:
-  - r: 1
-  - y: 0
+  - r: 2
+  - y: 1
   - g: 0
   - b: 0
   - p: 0
@@ -21,24 +21,25 @@ players:
       - type: x
       - type: x
   - cards:
-      - type: b3
+      - type: g2
         border: false
-      - type: b3
+      - type: r3
         border: false
-      - type: b4
+      - type: y5
         border: false
-      - type: b4
-        border: false
+      - type: y1
+        clue: 1
+        below: Play
       - type: r2
-        clue: 2
-        middleNote: "!r2"
-        below: Save
+        border: false
   - text: "After Bob ejects:"
   - offset: -1
     cards:
       - type: x
       - type: x
       - type: x
+      - type: 1
+        middleNote: kt
+        trash: true
       - type: x
-      - type: 2
-        middleNote: r2
+        trash: true
