@@ -5,8 +5,7 @@ stacks:
   - b: 0
   - p: 0
 bigText:
-  text: low score
-  color: black
+  text: Low score
 players:
   - clueGiver: true
     cards:
@@ -20,8 +19,10 @@ players:
       - type: x
       - type: x
       - type: r4
-      - type: x
+        below: Loaded
+      - type: 5
         clue: 5
+        below: Save
   - cards:
       - type: x
       - type: x

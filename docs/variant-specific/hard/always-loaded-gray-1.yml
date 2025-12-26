@@ -1,11 +1,13 @@
+suits:
+  w: white
 stacks:
-  - r: 3
+  - r: 0
   - y: 0
   - g: 0
-  - b: 0
-  - p: 0
+  - b: 1
+  - w: 1
 bigText:
-  text: Low score
+  text: Hard
 players:
   - clueGiver: true
     cards:
@@ -16,19 +18,19 @@ players:
       - type: x
   - cards:
       - type: x
+        above: Gray 2
+        below: Finesse
       - type: x
-      - type: 5
-        clue: 5
-        below: 5CM
       - type: x
-        cm: true
-        middleNote: cm
-        below: cm
-      - type: r4
-        below: Loaded
+      - type: x
+      - type: x
   - cards:
+      - type: b2
+        below: Loaded
       - type: x
       - type: x
       - type: x
-      - type: x
-      - type: x
+      - type: w3
+        clue: 3
+        middleNote: a3
+        below: Play
