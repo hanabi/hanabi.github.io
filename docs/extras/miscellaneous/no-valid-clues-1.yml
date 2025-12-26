@@ -4,22 +4,11 @@ stacks:
   - g: 0
   - b: 0
   - p: 0
-discarded:
-  - r1
-  - r1
-  - y4
+bigText:
+  text: First Turn
 players:
-  - cards:
-      - type: x
-      - type: x
-        middleNote: r1
-      - type: x
-        middleNote: r1
-      - type: x
-        middleNote: r1
-      - type: x
-        middleNote: r1
-  - cards:
+  - clueGiver: true
+    cards:
       - type: x
       - type: x
       - type: x
@@ -30,6 +19,16 @@ players:
       - type: x
       - type: x
       - type: x
+      - type: y4
+        clue: y
+        middleNote: y1
+        below:
+          text: Misplays
+          color: red
+  - cards:
       - type: x
-  - text: Alice discarded Red 1, Yellow 4, Red 1
-  - text: Alice rewrites Elimination Notes
+      - type: y4
+        border: false
+      - type: x
+      - type: x
+      - type: x

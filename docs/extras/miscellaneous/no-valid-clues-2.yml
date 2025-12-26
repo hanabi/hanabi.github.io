@@ -3,7 +3,9 @@ stacks:
   - y: 0
   - g: 0
   - b: 0
-  - m: 1
+  - p: 0
+bigText:
+  text: First Turn
 players:
   - clueGiver: true
     cards:
@@ -13,20 +15,22 @@ players:
       - type: x
       - type: x
   - cards:
-      - type: bm
-        middleNote: m3
-        below: Prompt
+      - type: p4
+        border: false
+        below:
+          text: Misplays
+          color: Red
       - type: x
-      - type: m
-        middleNote: m2
-        below: Prompt
+      - type: x
       - type: x
       - type: x
   - cards:
       - type: x
       - type: x
-      - type: x
-      - type: m4
-        clue: 4
+      - type: r3
+        clue: 3
+      - type: b3
+        clue: 3
+      - type: y3
+        clue: 3
         below: Play
-      - type: x

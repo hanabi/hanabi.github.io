@@ -1,0 +1,46 @@
+stacks:
+  - r: 0
+  - y: 0
+  - g: 0
+  - b: 0
+  - p: 0
+players:
+  - cards:
+      - type: x
+      - type: x
+      - type: r1
+        border: false
+      - type: y4
+        border: false
+      - type: r1
+        border: false
+        below: Discards
+  - text: Alice writes Elimination Notes
+  - offset: -1
+    cards:
+      - type: x
+      - type: x
+        middleNote: r1?
+      - type: x
+        middleNote: r1?
+      - type: r1
+        border: false
+        middleNote: r1?
+      - type: y4
+        border: false
+        middleNote: r1?
+        below: Discards
+  - space: 50
+  - offset: -1
+    cards:
+      - type: x
+      - type: x
+      - type: x
+        middleNote: r1?
+      - type: x
+        middleNote: r1?
+      - type: r1
+        border: false
+        middleNote: r1?
+        below: Discards
+  - text: Alice rewrites Elimination Notes
