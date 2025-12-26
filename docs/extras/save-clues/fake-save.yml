@@ -18,12 +18,13 @@ players:
       - type: x
       - type: x
       - type: x
-      - type: r
+      - type: r4
         clue: r
-        middleNote: (4)
-      - type: r
+      - type: r5
         clue: r
-        middleNote: (5)
+        middleNote: r4
+        fix: true
+        below: Save
   - cards:
       - type: x
       - type: x
