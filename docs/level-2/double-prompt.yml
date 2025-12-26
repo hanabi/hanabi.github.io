@@ -23,7 +23,7 @@ players:
       - type: x
       - type: x
   - cards:
-      - type: r
+      - type: r4
         clue: r
         middleNote: r4
         below: Play
