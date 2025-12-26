@@ -2,6 +2,9 @@
 title: Rainbow
 ---
 
+import FreeChoiceFinesse1 from "./rainbow/free-choice-finesse-1.yml";
+import FreeChoiceFinesse2 from "./rainbow/free-choice-finesse-2.yml";
+
 These conventions apply to any variant with a rainbow (touched by all colors) or dual-color suit.
 
 ### Saving Rainbow Cards
@@ -23,30 +26,24 @@ These conventions apply to any variant with a rainbow (touched by all colors) or
 
 ### The Free Choice Finesse
 
-- When performing a _Prompt_ on a rainbow card, if the cluer chooses a color that only touches rainbow cards **and** they have a _Free Choice_ to choose the color that matches the color on the clued rainbow card, then **they should always choose the color that matches**.
-- For example, in a rainbow game with 6 suits:
-  - All of the 1's are played on the stacks.
-  - Bob has a clued rainbow 2 in his hand. It is clued with only red. He does not know the identity of the card.
-  - Cathy has no clued cards in her hand. Cathy hand is, from newest to oldest: rainbow 3, blue 1, yellow 1, green 1, yellow 1
-  - If Alice gives a _Play Clue_ to the rainbow 3, it would _Prompt_ the rainbow 2 in Bob's hand.
-  - Alice needs to decide on what clue to give. She does not want to give blue, yellow, or green, since that would cause a _Bad Touch_ on the 1's that are already played.
-  - That leaves red, purple, and number 3. Since all of these clues would **only** touch the rainbow 3, Alice is said to have a _Free Choice_ between those clue types.
-  - So, the following things are true:
-    1. Alice is doing a _Prompt_ by giving a clue that will only touch rainbow cards
-    1. Alice has red available as a _Free Choice_ between two or more clue types
-    1. Bob's rainbow 2 is clued red
-  - Thus, Alice **must** choose red if she wants to prompt the rainbow 2.
+- When performing a _Prompt_ on a rainbow card, if the cluer chooses a color that only touches rainbow cards **and** they have a _Free Choice_ to choose the color that matches the color on the clued rainbow card, then **they must always choose the color that matches**.
+- For example, in a rainbow game:
+  - The red 1 is played on the stack.
+  - Bob has a clued red card in his hand. He does not know the identity of the card.
+  - Cathy has no clued cards in her hand, and her hand is, from newest to oldest: yellow 2, green 3, rainbow 2, yellow 5, green 4.
+  - Alice clues red to Cathy, touching the rainbow 2.
+  - Bob sees that Alice had a _Free Choice_ between blue and red, which would both only touch the rainbow 2, and she chose the color that _matches_ Bob's clued card.
+  - Bob therefore knows that this is a _Free Choice Prompt_ and plays his slot 2 card as the rainbow 1.
+
+<FreeChoiceFinesse1 />
+
 - If a player in this situation chooses **not** choose to match the color, then they must be trying to communicate something extra. This signifies that it is actually a _Finesse_ instead of a _Prompt_.
-- For example, in a 3-player game:
-  - It is the first turn and nothing is played on the stacks.
-  - Alice clues Bob red, which touches a red 1 in slot 1 and a red 3 in slot 2.
-  - Bob plays red 1 from slot 1. He draws a rainbow 1, which is now in his slot 1.
-  - Cathy discards.
-  - Alice notices that Bob has a rainbow 1 on _Finesse Position_. And Cathy has a rainbow 2 in her hand.
-  - Since _Prompts_ take precedence over _Finesses_, if Alice clues the rainbow 2 with red, then Bob will misplay the red 3 as rainbow 1. This is a problem.
-  - However, Cathy has no red cards, no blue cards, and no other rainbow cards in her hand. Thus, if Alice wants to clue the rainbow 2 with a color, Alice has a _Free Choice_ between cluing red and cluing blue.
-  - Alice clues blue to Cathy, which only touches the rainbow 2.
-  - Bob knows that since Alice had a _Free Choice_ and did not color-match with red, he should play his slot 1 instead of his slot 2.
+- Modifying the example above:
+  - Alice clues **blue** to Cathy instead, touching the rainbow 2.
+  - Bob sees that Alice had a _Free Choice_ between blue and red, which would both only touch the rainbow 2, and she chose the color that does _not_ match Bob's clued card.
+  - Bob therefore knows that this is a _Free Choice Finesse_ and plays his slot 1 card as the rainbow 1.
+
+<FreeChoiceFinesse2 />
 
 ### The Free Choice Bluff
 

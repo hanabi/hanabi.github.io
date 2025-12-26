@@ -1,0 +1,35 @@
+stacks:
+  - r: 1
+  - y: 0
+  - g: 0
+  - b: 0
+  - m: 0
+players:
+  - clueGiver: true
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+      - type: rm
+        above: Rainbow 1
+        below: Prompt
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: y2
+        border: false
+      - type: g3
+        border: false
+      - type: m2
+        clue: r
+        middleNote: m2
+        below: Play
+      - type: y5
+        border: false
+      - type: g4
+        border: false
