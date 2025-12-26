@@ -13,7 +13,7 @@ players:
       - type: x
       - type: x
   - cards:
-      - type: xygpb
+      - type: xygbp
         above: Blue 1
         below: Bluff
       - type: r1245
