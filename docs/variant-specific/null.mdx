@@ -2,6 +2,8 @@
 title: "Null"
 ---
 
+import Null5CM from "./null/null-5-cm.yml";
+import Null5Play from "./null/null-5-play.yml";
 import GoodDoubleSave from "./null/good-double-save.yml";
 import BadDoubleSave1 from "./null/bad-double-save-1.yml";
 import BadDoubleSave2 from "./null/bad-double-save-2.yml";
@@ -41,6 +43,14 @@ These conventions apply to any variant with a null (touched by no clues) suit. T
   - Note that the number 5 clue can be given to any player; it does not necessarily have to be on Bob.
 - The _Null 5's Chop Move_ is **only** allowed to save null cards that are playable / phantom playable or critical (or a null 2 that isn't visible elsewhere, same as an ordinary _2 Save_).
 - This convention applies only to Bob; see _The Double Save_ for saving other players.
+- For example, in a 4-player game of the "Null (5 Suits)" variant:
+  - It is the first turn of the game.
+  - Bob has a null 2 on chop, and there are no other null 2s to be seen.
+  - Alice cannot save the null 2 with a clue, but fortunately, Cathy has a red 5 in slot 2.
+  - Alice clues 5 to Cathy as a _Null 5's Chop Move_ to chop move the null 2.
+  - Cathy knows that this was a _Null 5's Chop Move_ and saves her 5 for later.
+
+<Null5CM />
 
 #### The Loaded 5 Null Play Clue
 
@@ -48,6 +58,14 @@ These conventions apply to any variant with a null (touched by no clues) suit. T
   - Note that the number 5 clue can be given to any player; it does not necessarily have to be on Bob.
 - Bob should immediately play his rightmost card with no positive clues. Notably, if Bob is _Chop Moved_, he should play his rightmost _Chop Moved_ card.
 - This convention applies only to Bob.
+- For example, in a 4-player game of the "Null (5 Suits)" variant:
+  - Bob has a globally known playable green 1 on slot 1, so he is **loaded**.
+  - Bob has a null 1 on chop, and Alice has an unclued red 5 on slot 2.
+  - Alice clues 5 to Cathy as a _Loaded 5 Null Play Clue_.
+  - Bob blind-plays his rightmost unclued card. It is a null 1.
+  - Cathy knows that this was a _Loaded 5 Null Play Clue_ and saves her 5 for later.
+
+<Null5Play />
 
 #### Interaction Between the Null Kick and Pink Cards
 
@@ -78,7 +96,7 @@ These conventions apply to any variant with a null (touched by no clues) suit. T
   - Cathy has two critical cards on chop: the null 5 and the green 4.
   - To save these cards, Alice initiates a _Double Save_ by cluing number 5 clue to Cathy, which forces Bob clue a number 4 to Cathy.
   - Normally, since Bob is loaded, he would consider this to be a _Loaded 5 Null Play Clue_, and would play his chop. However, Bob knows that _Double Save_ situations take precedence over _Loaded 5 Null Play Clues_.
-  - Normally, since Cathy sees that Bob has a playable null 1 on chop, she would consider this to be a _Loaded 5 Null Play Clue_. However, Cathy knows that _Double Save_ situations take precedence over _Loaded 5 Null Play Clues_.
+  - Normally, since Cathy sees that Bob has a playable null 1 on chop, she would consider this to be a _Loaded 5 Null Play Clue_. However, Cathy knows that _Double Save_ situations take precedence over _Loaded 5 Null Play Clues_. She therefore chop moves her card on slot 5.
 
 <GoodDoubleSave />
 
