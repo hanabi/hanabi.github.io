@@ -2,6 +2,8 @@
 title: Number Blind
 ---
 
+import MismatchFinesse from "./number-blind/mismatch-finesse.yml";
+
 These conventions apply to the "Number Blind" variants.
 
 ### Number Clues --> Slot Numbers
@@ -19,13 +21,15 @@ These conventions apply to the "Number Blind" variants.
 - For example, in a 3-player game:
   - It is the first turn and nothing is played on the stacks.
   - Cathy has a red 1 in slot 1 and another red 1 in slot 2.
-  - Alice clues green to Cathy, giving a _Play Clue_ to Cathy's slot 2.
+  - Alice clues 2 to Cathy, giving a _Play Clue_ to Cathy's slot 2.
   - Bob knows that since Cathy had a duplicate card on slot 1 and slot 2, Alice was supposed to get the leftmost card, the slot 1.
   - Alice must be doing the _Mismatch Finesse_. Bob blind-plays his _Finesse Position_, and it is a blue 1.
   - Cathy assumes that Alice did a _Finesse_ - due to Bob's blind-play, she must have the blue 2 in her slot 2. Cathy plays her slot 2, and it is revealed to be red 1.
   - Cathy now knows that it was not a normal _Finesse_ at all - it was instead a _Mismatch Finesse_, because there is no other explanation for why Bob would blind-play from a _Play Clue_ on a red 1.
   - Cathy also knows that she must have another red 1 in her hand. Since there is only one card to the left of her slot 2, she knows that the red 1 has to be exactly in her slot 1 (at the time of the clue).
   - Due to this, when Cathy needs to discard next, she will blind-discard her slot 2 card (since slot 1 has now shifted down to slot 2 after she played the red 1).
+
+<MismatchFinesse />
 
 ### Advanced Conventions
 
