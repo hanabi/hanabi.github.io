@@ -5,7 +5,6 @@ stacks:
   - y: 2
   - g: 2
   - b: 2
-  - p: 2
   - i: 2
 players:
   - cards:
@@ -16,14 +15,17 @@ players:
       - type: x
     clueGiver: true
   - cards:
-      - type: rygbpi12345
+      - type: rygbi12345
         orange: 5
         clue: 5
       - type: x
       - type: x
-      - type: rygbpi12345
+      - type: rygbi12345
         orange: 5
         clue: 5
-        middleNote: (5)
+        middleNote: 5
+        below: 5CM
       - type: x
-        middleNote: (CM)
+        cm: true
+        middleNote: cm
+        below: cm

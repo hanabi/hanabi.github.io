@@ -13,23 +13,34 @@ players:
       - type: x
       - type: x
       - type: x
-    clueGiver: true
   - cards:
       - type: x
       - type: x
       - type: x
       - type: i12345
       - type: i12345
-  - name: Bob
+  - text: Later...
+  - offset: -2
+    clueGiver: true
     cards:
       - type: x
       - type: x
       - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+      - type: x
+      - type: x
       - type: i12345
-        clue: 3
         above: Pink 3
+        clue: 3
         orange: 3
+        middleNote: i3
         trash: true
+        retouched: true
+        below: Fix
       - type: i12345
         clue: 3
         orange: 3
+        retouched: true

@@ -15,6 +15,11 @@ import ChoiceFinesse from "./pink/choice-finesse.yml";
 import Positional from "./pink/positional.yml";
 import BubblegumFinesse from "./pink/bubblegum-finesse.yml";
 import BubblegumBluff from "./pink/bubblegum-bluff.yml";
+import BubblegumPrompt1 from "./pink/bubblegum-prompt-1.yml";
+import BubblegumPrompt2 from "./pink/bubblegum-prompt-2.yml";
+import BubblegumBluffTwoAway from "./pink/bubblegum-bluff-two-away.yml";
+import BubblegumDoubleBluff from "./pink/bubblegum-double-bluff.yml";
+import PinkPrecedence from "./pink/pink-precedence.yml";
 import TurnaboutEjection from "./pink/turnabout-ejection.yml";
 import FakeFinesse from "./pink/fake-finesse.yml";
 import Promise5Stall from "./pink/promise-5stall.yml";
@@ -79,7 +84,7 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 - To summarize: when looking for a pink card, look for it in leftmost clued known pink, then leftmost clued matching rank, then leftmost unclued possible (_Finesse_), then leftmost clued mismatched rank, then leftmost unclued (_Known Bluff_).
 - For example, in a 3-player game:
   - All of the 2's are played on the stacks.
-  - Alice clues pink to Cathy, touching a pink 4 on slot 1 as a _Play Clue_.
+  - Alice clues pink to Cathy, touching a pink 4 on slot 2 as a _Play Clue_.
   - Bob knows that this is either a _Prompt_ or a _Finesse_ on the pink 3.
   - Bob's slot 2 card and slot 3 card have a single number 4 clue of them (and no other clues). Thus, the pink 3 could technically be Bob's slot 2 card.
   - Bob knows that _Prompts_ normally take precedence over _Finesses_. However, Bob also knows that _Prompts_ do not apply to pink cards with a rank mismatch. This is currently the case for him since he is promised a 3 and his clued card has a number 4 clue on it.
@@ -261,9 +266,14 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
   - Cathy discards.
   - Donald knows that clues do not normally _Prompt_ a non-leftmost card. Thus, Donald knows that the focus of Alice's _Play Clue_ cannot be a 3.
   - The next card after a pink 3 is a pink 4, so Donald knows that the card that Alice focused is a pink 4. Subsequently, since Alice's clue was a _Play Clue_, the pink 4 must be playable. In order for a pink 4 to be playable, someone has to have a pink 3. Donald does not see it anywhere else, so he determines that he must have the pink 3 on slot 3 (since that is the only other clued card that could possibly be a pink 3).
+
+<BubblegumPrompt1 />
+
 - It is possible for a clue to be both a _Bubblegum Finesse_ and a _Bubblegum Prompt_ at the same time.
   - In the previous example, we can modify Donald's hand such that he only holds the pink 4 (instead of holding both the pink 4 and the pink 3).
   - In the previous example, Cathy discarded, but in the modified example, Cathy would know that the pink 4 was promised to be playable. And Cathy would not see anyone else holding the pink 3, so Cathy would have to respond by playing a pink 3 from her _Finesse Position_.
+
+<BubblegumPrompt2 />
 
 ### The Bubblegum Bluff (Standard Form)
 
@@ -297,19 +307,24 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
   - Bob blind-plays his slot 2 and it is a pink 1.
   - Cathy knows that if her clued card were really a 2, Bob would have played slot 1. Thus, it cannot be a 2. Furthermore, there are no _Ejections_ that match this situation, so a _Bubblegum_ move must have happened. Normally, a _Bubblegum Bluff_ would be on a _one-away-from-playable_ card, but that would be the pink 2, and due to the circumstances of the clue, it is impossible to be a 2. Thus, it instead must be the _two-away-from-playable_ card, which is the pink 3.
 
+<BubblegumBluffTwoAway />
+
 ### The Bubblegum Double Bluff
 
 - Normally, after a _Bubblegum Bluff_, the entire team is synchronized on the identity of the focus of the _Bubblegum_ move.
 - But what if the note that the clue receiver would write on their card is still incorrect? In this situation, the clue-giver expects additional blind-plays to resynchronize the information, in the same way that a normal _Double Bluff_ works.
 - For example, in a 4-player game:
   - It is the first turn and nothing is played on the stacks.
-  - Alice clues number 3 to Donald, touching a pink 4 on slot 1.
+  - Alice clues number 3 to Donald, touching a pink 4 on slot 2.
   - Bob knows that Alice is violating _Pink Promise_. This must mean that he is supposed to play his slot 3 card as pink 1, with pink 2 and 3 promised as playable through his current _Finesse Position_ and _Second Finesse Position_, respectively.
   - Bob blind-plays slot 3. It is a red 1 and it successfully plays on the stacks.
-  - From Donald's perspective, he knows that Alice performed a _Bubblegum Bluff_. Donald marks his slot 1 card as a pink 2 (i.e. the _one-away-from-playable_ pink card).
+  - From Donald's perspective, he knows that Alice performed a _Bubblegum Bluff_. Donald marks his slot 2 card as a pink 2 (i.e. the _one-away-from-playable_ pink card).
   - Next, it is Cathy's turn. Cathy sees that Donald will mark his pink card as a pink 2. However, the card is really a pink 4, so the situation has not yet resolved.
   - Cathy blind-plays her slot 1 card. It is a red 2 and it successfully plays on the stacks.
   - Donald realizes that if his clued card were a pink 2, then Cathy would not have blind-played. Donald also knows that if the card were a pink 3, Bob would have played slot 1 as a _3 Bluff_. Thus, Donald updates the note on his card to be the next pink card, which is the pink 4.
+
+<BubblegumDoubleBluff />
+
 - Note that, in the previous example, the pink 4 happens to be _three-away-from-playable_, but that is not relevant for the move to work properly. A _Bubblegum Double Bluff_ can also be performed with a _two-away-from-playable_ card. What matters is that the team is re-synchronized on the identity of the focus of the _Bubblegum_ clue.
 - The _Bubblegum Double Bluff_ can be hard in the same way as the _Hard Double Bluff_.
   For example, in a 4-player game:
@@ -389,18 +404,19 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
     - If Alice's clue was a _Bubblegum Finesse_, then her clued card is a pink 2.
   - Cathy knows that _Trash Finesses_ take precedence over a _Bubblegum Finesse_, so the card must be a red 1 or blue 1, and can be safely discarded.
 
+<PinkPrecedence />
+
 ### Pink Promise with a 5 Stall
 
 - When a player performs a _5 Stall_ that touches two or more 5's, the focus of the clue is not obvious.
 - We define the focus of a _5 Stall_ to be the specific 5 that is closest to the chop.
 - Thus, when a player knows for sure that a number 5 clue indicates a _5 Stall_, _Pink Promise_ only applies to the 5 that is closest to the chop.
 - For example, in a 3-player game:
-  - The variant is "Pink (6 Suits)".
   - It is the _Early Game_ and all of the _Play Clues_ and _Save Clues_ have been extinguished.
   - Bob has a completely unclued hand.
   - Alice clues number 5 to Bob, touching two 5's on slot 1 and slot 2.
   - Bob knows that this is a _5 Stall_. Bob knows that the clue is either focused on slot 1 or slot 2.
-  - Because of the "Pink Promise with a 5 Stall" convention, Bob knows that since this clue is focused on slot 2.
+  - Because of the _Pink Promise with a 5 Stall_ convention, Bob knows that since this clue is focused on slot 2.
   - Thus, _Pink Promise_ applies to this card, so he marks slot 2 as a 5.
   - Later on in the game, another rank clue "fills in" Bob's slot 2 card to be a pink card. From _Pink Promise_, Bob knows that it must be exactly the pink 5.
 
@@ -413,13 +429,12 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 - We define the focus of a _5's Chop Move_ to be the specific 5 that is one-away from the chop. (This is similar to how _Pink Promise_ works with a _5 Stall_.)
 - Thus, when a player knows for sure that a number 5 clue indicates a _5's Chop Move_, _Pink Promise_ only applies to the 5 that is one-away from the chop.
 - For example, in a 3-player game:
-  - The variant is "Pink (6 Suits)".
   - It is the middle of the game and no 5's are yet playable.
   - Bob has a completely unclued hand.
   - Alice clues number 5 to Bob, touching two 5's on slot 1 and slot 4.
   - Bob knows that this is a _5's Chop Move_, and marks his slot 5 card as being _Chop Moved_.
   - Bob knows that the clue is either focused on slot 1 or slot 4.
-  - Because of the "Pink Promise with a 5's Chop Move" convention, Bob knows that since this clue caused him to _Chop Move_, it is focused on slot 4.
+  - Because of the _Pink Promise with a 5's Chop Move_ convention, Bob knows that since this clue caused him to _Chop Move_, it is focused on slot 4.
   - Thus, _Pink Promise_ applies to this card, so he marks slot 4 as a 5.
   - Later on in the game, another rank clue "fills in" Bob's slot 4 card to be a pink card. From _Pink Promise_, Bob knows that it must be exactly the pink 5.
 
@@ -432,13 +447,12 @@ These conventions apply to any variant with a pink (touched by all ranks) suit.
 - We define the focus of a _5 Pull_ to be the 5 that is directly to the left of the "pulled" card.
 - Thus, when a player knows for sure that a number 5 clue indicates a _5 Pull_, _Pink Promise_ only applies to the 5 that is next to the pulled card.
 - For example, in a 3-player game:
-  - The variant is "Pink (6 Suits)".
   - It is the first turn of the game and nothing is played on the stacks.
   - Alice clues number 5 to Bob, touching two 5's on slot 1 and slot 2.
   - Bob knows that this is a _5 Pull_, because he sees that Cathy has a bunch of playable cards in her hand that Alice could have clued instead.
   - Bob blind-plays his slot 3. It is a red 1 and it successfully plays.
   - Next, Bob retroactively considers the implications of the _5 Pull_. Bob knows that the _5 Pull_ was either focused on slot 1 or slot 2.
-  - Because of the "Pink Promise with a 5 Pull" convention, Bob knows that since this clue was a _5 Pull_, it must be focused on slot 2 (the card that was next to the pulled card).
+  - Because of the _Pink Promise with a 5 Pull_ convention, Bob knows that since this clue was a _5 Pull_, it must be focused on slot 2 (the card that was next to the pulled card).
   - Thus, _Pink Promise_ applies to this card, so he marks slot 2 as a 5.
   - Later on in the game, another rank clue "fills in" Bob's slot 2 card to be a pink card. From _Pink Promise_, Bob knows that it must be exactly the pink 5.
 

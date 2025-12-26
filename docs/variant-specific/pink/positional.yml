@@ -22,8 +22,8 @@ players:
       - type: rygbi12345
         orange: 2
         clue: 2
+        middleNote: i5
         below: Play
-        above: Pink 5
       - type: rygbi12345
         orange: 2
         clue: 2

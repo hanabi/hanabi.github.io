@@ -26,6 +26,8 @@ players:
       - type: rygbi12345
         orange: 2
         clue: 2
+        middleNote: 2
+        below: Save
   - text: Bob saves 5
   - name: Cathy
     cards:
@@ -34,6 +36,10 @@ players:
       - type: xrygb134
       - type: rygb5
         clue: 5
+        middleNote: 5
+        below: Save
       - type: i12345
         orange: 25
         clue: 5
+        retouched: true
+        middleNote: i2
