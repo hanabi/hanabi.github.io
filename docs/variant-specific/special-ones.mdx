@@ -2,6 +2,11 @@
 title: Special-Ones
 ---
 
+import PlayClueNumber from "./special-ones/play-clue-number.yml";
+import ColorPlayClueLie from "./special-ones/color-play-clue-lie.yml";
+import ColorPromiseFinesse from "./special-ones/color-promise-finesse.yml";
+import ColorPromptException from "./special-ones/color-prompt-exception.yml";
+
 These conventions apply to "Special-Ones" variants (e.g. "Pink-Ones", "Rainbow-Ones", etc.).
 
 ## Deceptive Ones
@@ -26,6 +31,8 @@ These conventions apply to "Special-Ones" variants (e.g. "Pink-Ones", "Rainbow-O
   - Bob sees that Cathy does not have a playable card on her _Finesse Position_. (If she did, then Bob would need to wait to see what Cathy does.)
   - Bob knows that this is just a _Play Clue_ on a 1. Bob plays his slot 1 card. It is a red 1 and it successfully plays.
   - Bob knows that his slot 2 card can either be another good 1 or a 3.
+
+<PlayClueNumber />
 
 ### Prompting 1's
 
@@ -57,11 +64,13 @@ These conventions apply to "Special-Ones" variants (e.g. "Pink-Ones", "Rainbow-O
   - the card would play immediately or very soon
   - no-one else would be confused
 - For example, in a 3-player game:
-  - The variant is "Rainbow-Ones (6 Suits)".
+  - The variant is "Rainbow-Ones".
   - It is the first turn and nothing is played on the stacks.
   - Alice clues red to Bob, touching a blue 1 on slot 1 and a red 3 on slot 2.
   - Bob assumes that it is red 1 and plays it. It is instead the blue 1 and it successfully plays.
   - Bob reasons that Alice lied about the color identity of the 1 so that she could "get" the card on his slot 2 "for free".
+
+<ColorPlayClueLie />
 
 ### The Color Promise Finesse
 
@@ -69,14 +78,17 @@ These conventions apply to "Special-Ones" variants (e.g. "Pink-Ones", "Rainbow-O
 - Usually, when _Color Promise_ is violated, it is a _Color Play Clue Lie_. But what if _Color Promise_ is violated and the clue is only a 1-for-1? The clue giver must be trying to communicate something extra.
 - In this situation, the next player should blind-play their _Finesse Position_ card as a _Color Promise Finesse_.
 - For example, in 3-player game:
-  - The variant is "Rainbow-Ones (6 Suits)".
+  - The variant is "Rainbow-Ones".
   - It is the first turn and nothing is played on the stacks.
-  - Alice clues red to Cathy, touching a blue 1 on slot 1.
+  - Alice clues red to Cathy, touching a blue 1 on slot 2.
   - Bob sees that Cathy's hand has no other blue cards in it, so there is no good reason why Alice could not have just clued blue to Cathy and satisfied _Color Promise_. Alice must be trying to communicate something extra.
   - Bob knows that this is a _Color Promise Finesse_ and blind-plays his finesse position. It is a red 1 and it successfully plays.
   - Cathy knows that Alice performed a _Finesse_ and that Cathy must have the red 2 that connects to the red 1 that was blind-played.
   - Cathy plays the red card and it is blue 1. It successfully plays.
   - Cathy now knows that Alice performed a _Color Promise Finesse_ instead of a normal _Finesse_.
+
+<ColorPromiseFinesse />
+
 - Note that the _Color Promise Finesse_ can only be performed if the card that is blind-played connects to the clue that was given. Otherwise, Cathy will think that a _Bluff_ happened and will not play the clued card.
 
 ### The Color Prompt Exception (for Rainbow-Ones)
@@ -91,3 +103,5 @@ These conventions apply to "Special-Ones" variants (e.g. "Pink-Ones", "Rainbow-O
   - Bob knows that if the green card in his hand is not red 1, then this would be a _Finesse_.
   - Bob knows that normally, _Prompts_ are supposed to take precedence over _Finesses_. However, in this case, since his green card only has a single color clue on it, the _Color Prompt Exception_ applies, so he should assume a finesse.
   - Bob blind-plays his _Finesse Position_ card. It is a red 1 and it successfully plays.
+
+<ColorPromptException />
