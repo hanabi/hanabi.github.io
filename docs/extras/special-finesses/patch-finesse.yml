@@ -19,21 +19,49 @@ players:
   - cards:
       - type: x
         above: Blue 2
+        middleNote: r2
+        below: Finesse
       - type: x
+        middleNote: r3
       - type: x
       - type: x
   - cards:
       - type: x
         above: Blue 3
+        middleNote: r2
+        below: Finesse
       - type: x
         above: Red 2
+        middleNote: r3
+        below: Finesse
       - type: x
         above: Red 3
+        below: Finesse
+      - type: x
+  - space
+  - cards:
+      - type: x
+      - type: x
+      - type: r4
+        clue: r
+        middleNote: r3, r4
+        below: Play
+      - type: x
+  - text: "After both Cathy and Donald blind-play:"
+  - offset: -3
+    cards:
+      - type: x
+      - type: x
+      - type: x
       - type: x
   - cards:
       - type: x
       - type: x
-      - type: r
-        clue: r
-        above: Red 4
+        above: Red 2
+        middleNote: r2
+        below: Finesse
+      - type: x
+        above: Red 3
+        middleNote: r3
+        below: Finesse
       - type: x
