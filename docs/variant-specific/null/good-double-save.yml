@@ -18,14 +18,17 @@ players:
       - type: x
   - cards:
       - type: y1
+        below: Loaded
       - type: x
       - type: x
       - type: x
       - type: u1
         border: false
+  - space
   - cards:
       - type: r5
-        border: false
+        clue: 5
+        below: Save
       - type: g2
         border: false
       - type: g2
@@ -34,3 +37,27 @@ players:
         border: false
       - type: u5
         border: false
+  - text: Then...
+  - offset: -2
+    clueGiver: true
+    cards:
+      - type: y1
+        below: Loaded
+      - type: x
+      - type: x
+      - type: x
+      - type: u1
+        border: false
+  - space
+  - cards:
+      - type: r5
+      - type: g2
+        border: false
+      - type: g2
+        border: false
+      - type: g4
+        clue: 4
+        below: Save
+      - type: u5
+        cm: true
+        middleNote: cm
