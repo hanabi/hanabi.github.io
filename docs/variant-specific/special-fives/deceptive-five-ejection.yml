@@ -1,0 +1,33 @@
+stacks:
+  - r: 0
+  - y: 0
+  - g: 0
+  - b: 0
+  - p: 0
+players:
+  - clueGiver: true
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+      - type: x
+        above: Yellow 1
+        below: Ejection
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+      - type: x
+      - type: 35
+        orange: 3
+        clue: 3
+        middleNote: 5
+        above: Green 5
+        below: Play
+      - type: x
+      - type: x
