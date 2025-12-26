@@ -5,6 +5,13 @@ stacks:
   - b: 0
   - p: 0
 players:
+  - clueGiver: true
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
   - cards:
       - type: x
       - type: 1
@@ -16,11 +23,4 @@ players:
       - type: 1
         clue: 1
         middleNote: 1st
-      - type: x
-  - clueGiver: true
-    cards:
-      - type: x
-      - type: x
-      - type: x
-      - type: x
       - type: x
