@@ -5,6 +5,8 @@ title: Introduction
 import LoadedPlayClue from "./variant-specific/hard/loaded-play-clue.yml";
 import LoadedException from "./variant-specific/hard/loaded-exception.yml";
 import LoadedException2 from "./variant-specific/hard/loaded-exception-2.yml";
+import AlwaysLoadedGray1 from "./variant-specific/hard/always-loaded-gray-1.yml";
+import AlwaysLoadedGray2 from "./variant-specific/hard/always-loaded-gray-2.yml";
 
 [Hanab Live](https://hanab.live) is programmed by enthusiasts who have played the game thousands of times. In order to keep the game fresh, the server allows you to create games using many different variants. The implemented variants are [described in a separate document](https://github.com/Hanabi-Live/hanabi-live/blob/main/docs/variants.md).
 
@@ -96,17 +98,25 @@ import LoadedException2 from "./variant-specific/hard/loaded-exception-2.yml";
 - For example, in a 3-player game with a gray suit:
   - Gray 1 and blue 1 are played on the stacks.
   - Bob's hand is completely unclued.
-  - Alice clues a gray 3 with a rank 3 clue on Cathy, who is currently _Loaded_.
+  - Alice clues a gray 3 with a rank 3 clue on Cathy, who is currently _Loaded_ with a blue 2.
   - Normally, Bob would assume that this is an _Early Save_. But due to the _Always Loaded Principle_, this must be a _Loaded Play Clue_.
   - Bob plays his _Finesse Position_ card. It is a gray 2 and it successfully plays.
+  - Since Bob played, Cathy marks her card as the gray 3.
+
+<AlwaysLoadedGray1 />
+
 - One consequence of this principle is that in some cases, you can use it to get cards played that do not belong to a special suit.
 - For example, in a 3-player game with a gray suit:
-  - Gray 2 and blue 1 are played on the stacks.
+  - Gray 1 and blue 1 are played on the stacks.
   - Bob's hand is completely unclued.
-  - Alice clues a critical blue 3 with a rank 3 clue on Cathy, who is currently _Loaded_.
+  - Alice clues a critical blue 3 with a rank 3 clue on Cathy, who is currently _Loaded_ with a gray 2.
   - Normally, Bob would assume that this is an _Early Save_. But due to the _Always Loaded Principle_, this must be a _Loaded Play Clue_.
   - If Bob does nothing, Cathy will assume that it is a _Loaded Play Clue_ on the gray 3.
   - Thus, Bob plays his _Finesse Position_ card. It is a blue 2 and it successfully plays.
+  - Since Bob played, Cathy marks her card as the blue 3.
+
+<AlwaysLoadedGray2 />
+
 - The only exception to ALP is for cluing number 5 in a variant with a white suit. ALP never applies to number 5 clues. (The tempo on white 5's is not as important as the confusion it would cause with normal _Save Clues_.)
 
 ### The Ambiguous Tempo Clue

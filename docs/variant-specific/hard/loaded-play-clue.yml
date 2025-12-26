@@ -5,8 +5,7 @@ stacks:
   - b: 2
   - p: 2
 bigText:
-  text: hard
-  color: black
+  text: Hard
 discarded:
   - b4
 players:
@@ -26,13 +25,12 @@ players:
   - cards:
       - type: x
       - type: 3
-        below:
-          text: Playable
-          color: darkgreen
+        above: Red 3
+        below: Loaded
       - type: x
       - type: x
       - type: 4
-        below:
-          text: Playable
-          color: darkgreen
+        above: Red 4
+        middleNote: r4
+        below: Play
         clue: 4

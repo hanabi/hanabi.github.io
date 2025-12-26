@@ -48,6 +48,7 @@ const WORD_TO_COLOR: ReadonlyMap<string, string> = new Map([
   ["rainbow", "rainbow"],
   ["pink", "pink"],
   ["white", "white"],
+  ["gray", "gray"],
 
   // Other
   ["focus", "gold"],
