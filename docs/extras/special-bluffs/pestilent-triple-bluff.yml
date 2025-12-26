@@ -14,26 +14,29 @@ players:
   - cards:
       - type: x
         above: Blue 2
+        below: Bluff
       - type: x
       - type: x
       - type: x
   - cards:
       - type: x
         above: Blue 3
+        below: Bluff
       - type: x
       - type: x
       - type: x
   - cards:
       - type: x
         above: Green 2
+        below: Bluff
       - type: x
       - type: x
       - type: x
   - cards:
       - type: x
       - type: x
-      - type: 4
+      - type: r4
         clue: 4
-        above: Red 4
         middleNote: "!b, !g"
+        below: Play
       - type: x

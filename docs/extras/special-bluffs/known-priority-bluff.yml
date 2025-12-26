@@ -5,16 +5,20 @@ stacks:
   - b: 3
   - p: 5
 players:
-  - cards:
+  - clueGiver: true
+    cards:
       - type: x
       - type: r1
       - type: b4
+        below:
+          text: Play
+          color: cyan
       - type: b5
       - type: x
-  - text: Alice plays Blue 4
   - cards:
       - type: x
         above: Green 3
+        below: Priority
       - type: x
       - type: x
       - type: r2
