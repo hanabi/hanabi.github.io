@@ -197,6 +197,7 @@ const sidebars: SidebarsConfig = {
         "variant-specific/number-blind",
         "variant-specific/odds-and-evens",
         "variant-specific/omni",
+        "variant-specific/orange",
         "variant-specific/pink",
         "variant-specific/pink-omni",
         "variant-specific/prism",
