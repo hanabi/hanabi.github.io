@@ -18,7 +18,7 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
 - As noted in the _Fix Clues_ section, a _Fix Clue_ is required before a misplay occurs on duplicated cards. But usually, the misplay will not occur until late in the game, because there is always some other extra card (that is not currently playable) that it could be.
 - Thus, if other urgent things are at hand, you can usually defer giving some _Fix Clue_ for a long time and hope that through ancillary information and the context of the game, the player will "naturally" figure out that the card is duplicated.
 - So if a _Fix Clue_ is given early to you, it can be strange. You were happily discarding, and now all of a sudden you are being fixed on a card that was just sitting in your hand and was not in danger of being misplayed.
-- This usually means that your chop suddenly became important, so the _Fix Clue_ was given early to give you a good discard and keep you occupied. Thus, you should permanently chop move one card.
+- This usually means that your chop suddenly became important, so the _Fix Clue_ was given early to give you a good discard and keep you occupied. Thus, you should permanently _Chop Move_ one card.
 - This convention was deleted because it was ambiguous as to whether _Fix Clues_ were early or not. (It was one of the worst conventions of all time, leading to many lost games.)
 
 ### The Disease Bluff
@@ -65,7 +65,7 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
   - negative clues present on the card
   - historical / contextual information about the card (derived from moves that teammates performed earlier on in the game)
 - In such a scenario, the clue will look like a _Reverse Finesse_ and then next person will misplay their _Finesse Position_ card.
-- After the misplay, the person who received the clue is to treat it like a normal _Misplay Chop Move_, and chop move all the cards to the right of the clued card.
+- After the misplay, the person who received the clue is to treat it like a normal _Misplay Chop Move_, and _Chop Move_ all the cards to the right of the clued card.
 - This convention was deleted since it was hardly ever used.
 
 ### Priority in Multi-Color Variants
