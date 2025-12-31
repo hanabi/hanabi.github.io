@@ -80,7 +80,13 @@ jobs:
           # From: https://crawler.algolia.com/admin/crawlers/[crawler-id]/settings
           ALGOLIA_CRAWLER_ID: ${{ secrets.ALGOLIA_CRAWLER_ID }}
         run: |
-          curl -X POST -H "Content-Type: application/json" \
+          curl \
+            --silent \
+            --fail \
+            --show-error \
+            --location \
+            --request POST \
+            --header "Content-Type: application/json" \
             --user $ALGOLIA_CRAWLER_USER_ID:$ALGOLIA_CRAWLER_API_KEY \
             "https://crawler.algolia.com/api/1/crawlers/$ALGOLIA_CRAWLER_ID/reindex"
 
