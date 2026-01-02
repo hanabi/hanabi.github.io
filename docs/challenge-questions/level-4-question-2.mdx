@@ -1,0 +1,62 @@
+---
+title: Question 2
+---
+
+import ChallengeQuestionProgress from "@site/src/challengeQuestions.tsx";
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import QuestionPart1 from "./level-4-question-2/question-part-1.yml";
+import QuestionPart2 from "./level-4-question-2/question-part-2.yml";
+import QuestionPart3 from "./level-4-question-2/question-part-3.yml";
+import Answer from "./level-4-question-2/answer.yml";
+
+<ChallengeQuestionProgress level={4} id="level-4-question-2" />
+
+<Tabs
+  defaultValue="question"
+  values={[
+    {label: 'Question', value: 'question'},
+    {label: 'Solution', value: 'solution'},
+  ]}>
+<TabItem value="question">
+
+- It is the first turn of the game.
+- Alice clues number 1 to Bob.
+- The order of playing these 1s is from right to left.
+
+<QuestionPart1 />
+
+- Bob plays the rightmost one. It successfully plays as red 1. (Bob draws a new card.)
+- Cathy does something unrelated.
+- Alice clues red to Bob. It touches Bob's chop. This must be a _Play Clue_ on a red 2.
+
+<QuestionPart2 />
+
+- Bob plays his slot 5 one. It successfully plays as blue 1. (Bob draws a new card.)
+- Cathy does something unrelated.
+- Alice gives Bob a number 1 clue again, touching Bob's two new cards as well as re-touching the 1s from his starting hand.
+- Which card is Bob expected to play?
+
+<QuestionPart3 />
+
+</TabItem>
+<TabItem value="solution">
+
+- Sometimes, fresh 1s are touched in the same hand as 1s that have not played yet.
+- When this happens, the play-order notes on previous 1s are erased and the order of playing the 1s is re-calculated.
+- For this calculation, the precedence remains the same:
+  - Chop
+  - Fresh 1s (left to right)
+  - Starting Hand 1s (right to left)
+- Thus:
+  - Bob erases the notes on his 1s.
+  - Bob's slot 2 is chop, so Bob writes "1st" on it.
+  - Bob's slot 1 card is a fresh 1, he writes "2nd" on it.
+  - Bob's slot 4 and slot 5 cards are 1s from his starting hand. He writes "3rd" on slot 5 and "4th" on slot 4.
+  - Additionally, Bob knows that he has four 1s in his hand and only three 1s need to be played. Thus, from _Good Touch Principle_, his 1 on slot 4 will never play, so he marks it as known-trash.
+  - Bob plays his slot 2 one. It successfully plays as yellow 1. (Since this is expected, it does not _Chop Move_ any player.)
+
+<Answer />
+
+</TabItem>
+</Tabs>

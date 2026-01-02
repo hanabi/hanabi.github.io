@@ -2,112 +2,12 @@
 title: Level 6 Challenge Questions
 ---
 
-import Question1 from "./level-6/level-6-question-1.yml";
-import Answer1 from "./level-6/level-6-answer-1.yml";
-import Question2 from "./level-6/level-6-question-2.yml";
-import Answer2 from "./level-6/level-6-answer-2.yml";
-import Question3 from "./level-6/level-6-question-3.yml";
-import Answer3 from "./level-6/level-6-answer-3.yml";
+import ChallengeQuestionProgress, {
+  ChallengeQuestionToC,
+} from "@site/src/challengeQuestions.tsx";
 
-import Tabs from "@theme/Tabs";
-import TabItem from "@theme/TabItem";
+<ChallengeQuestionProgress level={6} id="intro" />
 
 These questions are for [level 6](../level-6.mdx) strategies.
 
-## Question 1
-
-<Tabs
-  defaultValue="question1"
-  values={[
-    {label: 'Question', value: 'question1'},
-    {label: 'Solution', value: 'solution1'},
-  ]}>
-<TabItem value="question1">
-
-- Bob has two clued, but otherwise unknown cards in his hand: a blue card in slot 3 and a green card in slot 4.
-- Alice clues 3 to Bob which touches the two clued cards in slots 3 and 4.
-- One blue 4 is in the discard pile. The other blue 4 is yet to be drawn from the remaining available cards.
-- What is the meaning of the clue?
-- What is the focus of the clue?
-
-<Question1 />
-
-</TabItem>
-<TabItem value="solution1">
-
-- Since Bob's cards were already "gotten" when Alice clued, this must be a _Tempo Clue_.
-- The clue gets exactly two new cards to become playable within the next turn.
-- As the last remaining blue 4 is not accounted for, it is not currently possible for a _Prompt_ to get the blue card played at this time.
-- As a result, even though it does not meet the _[Minimum Clue Value Principle](../beginner/minimum-clue-value-principle)_ it is still considered to be "valuable".
-- As a _Tempo Clue_, the focus of the clue is the leftmost, blue 3 card.
-
-<Answer1 />
-
-</TabItem>
-</Tabs>
-
-## Question 2
-
-<Tabs
-  defaultValue="question2"
-  values={[
-    {label: 'Question', value: 'question2'},
-    {label: 'Solution', value: 'solution2'},
-  ]}>
-<TabItem value="question2">
-
-- Bob has one clued, but otherwise unknown card in his hand: a green card in slot 4.
-- Alice clues 3 to Bob, which touches his card in slot 4 and "fills it in".
-- What actions will Bob take on his next turn?
-
-<Question2 />
-
-</TabItem>
-<TabItem value="solution2">
-
-- Since Bob's card was already "gotten" when Alice clued, this must be a _Tempo Clue_.
-- The clue gets a single new card to become playable within the next turn.
-- Thus, the clue is not considered to be "valuable" enough; it must have a deeper meaning.
-- Bob knows that a non-valuable _Tempo Clue_ actually _Chop Moves_ the card currently on the chop.
-- Bob performs the following actions:
-  - Bob marks his slot 3 card as being _Chop Moved_ with a "cm" note on the card.
-  - Bob will play the green 3 card from slot 4 on his next turn.
-
-<Answer2 />
-
-</TabItem>
-</Tabs>
-
-## Question 3
-
-<Tabs
-  defaultValue="question3"
-  values={[
-    {label: 'Question', value: 'question3'},
-    {label: 'Solution', value: 'solution3'},
-  ]}>
-<TabItem value="question3">
-
-- The red 2 card is played on the stacks.
-- Alice has a red card in slot 3, promised to be a playable red 4.
-- Bob has an unknown 5, saved on chop.
-- Cathy has a red card in slot 2, promised to be a playable red 3.
-- Alice then gives a red clue to Bob, that touches a red card on slot 1 and fills-in the previously unknown red 5 in slot 5.
-- What actions will Bob take on his turn?
-
-<Question3 />
-
-</TabItem>
-<TabItem value="solution3">
-
-- In this situation, the focus of the red clue is ambiguous:
-  - If the red clue were focused on the "new" slot 1 card, then the focus would be _Trash_, so the resulting move would be a _Trash Chop Move_ on slots 2, 3 and 4.
-  - If the red clue were focused on the already-clued slot 5, then the focus would be the previously-unknown-to-be-playable red 5, so the resulting move would be a _Tempo Clue Chop Move_ on slot 4.
-  - Bob also knows that _Tempo Clue Chop Moves_ have precedence over _Trash Chop Moves_.
-  - Thus, in this situation, Bob should only _Chop Move_ the card in slot 4.
-  - Bob writes "cm" on his slot 4 card and proceeds to give an unrelated clue or discards his slot 1 card.
-
-<Answer3 />
-
-</TabItem>
-</Tabs>
+<ChallengeQuestionToC level={6} />

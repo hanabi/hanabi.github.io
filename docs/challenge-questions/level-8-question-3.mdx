@@ -1,0 +1,39 @@
+---
+title: Question 3
+---
+
+import ChallengeQuestionProgress from "@site/src/challengeQuestions.tsx";
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Question from "./level-8-question-3/question.yml";
+import Answer from "./level-8-question-3/answer.yml";
+
+<ChallengeQuestionProgress level={8} id="level-8-question-3" />
+
+<Tabs
+  defaultValue="question"
+  values={[
+    {label: 'Question', value: 'question'},
+    {label: 'Solution', value: 'solution'},
+  ]}>
+<TabItem value="question">
+
+- There are 2 cards left in the deck, and 2 clues available. No one has any clued cards.
+- What action should Alice perform?
+
+<Question />
+
+</TabItem>
+<TabItem value="solution">
+
+- Alice sees the red 3 in Cathy's hand and the red 5 in Bob's hand.
+- If Alice has the red 4 in her hand, then the situation is simple: the team will clue the red cards and then play them.
+- On the other hand, it is possible that both red 4s are still in the deck. In this case, there would be no time to play the 5 after playing the 4.
+- Thus, Alice should discard. She is guaranteed to either have had a red 4 in her hand, or to draw one of the copies.
+  - (For the purposes of this example, we assume that it is extremely unlikely for Alice to be discarding the red 4, since the team would have likely _Chop Moved_ it earlier on.)
+- After Alice discards, Bob can _Finesse_ the red 3 by cluing Alice's red 4, and then the red 5 can play in the subsequent round.
+
+<Answer />
+
+</TabItem>
+</Tabs>

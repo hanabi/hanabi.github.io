@@ -1,0 +1,41 @@
+---
+title: Question 2
+---
+
+import ChallengeQuestionProgress from "@site/src/challengeQuestions.tsx";
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Question from "./level-6-question-2/question.yml";
+import Answer from "./level-6-question-2/answer.yml";
+
+<ChallengeQuestionProgress level={6} id="level-6-question-2" />
+
+<Tabs
+  defaultValue="question"
+  values={[
+    {label: 'Question', value: 'question'},
+    {label: 'Solution', value: 'solution'},
+  ]}>
+<TabItem value="question">
+
+- Bob has one clued, but otherwise unknown card in his hand: a green card in slot 4.
+- Alice clues 3 to Bob, which touches his card in slot 4 and "fills it in".
+- What actions will Bob take on his next turn?
+
+<Question />
+
+</TabItem>
+<TabItem value="solution">
+
+- Since Bob's card was already "gotten" when Alice clued, this must be a _Tempo Clue_.
+- The clue gets a single new card to become playable within the next turn.
+- Thus, the clue is not considered to be "valuable" enough; it must have a deeper meaning.
+- Bob knows that a non-valuable _Tempo Clue_ actually _Chop Moves_ the card currently on the chop.
+- Bob performs the following actions:
+  - Bob marks his slot 3 card as being _Chop Moved_ with a "cm" note on the card.
+  - Bob will play the green 3 card from slot 4 on his next turn.
+
+<Answer />
+
+</TabItem>
+</Tabs>
