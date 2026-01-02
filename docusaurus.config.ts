@@ -46,6 +46,12 @@ const config: Config = {
       },
       items: [
         {
+          to: "about",
+          activeBasePath: "docs",
+          label: "About",
+          position: "left",
+        },
+        {
           to: "beginner",
           activeBasePath: "docs",
           label: "Beginner",
@@ -67,6 +73,12 @@ const config: Config = {
           to: "variant-specific",
           activeBasePath: "docs",
           label: "Variant-Specific",
+          position: "left",
+        },
+        {
+          to: "glossary",
+          activeBasePath: "docs",
+          label: "Glossary",
           position: "left",
         },
         {

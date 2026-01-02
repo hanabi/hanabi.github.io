@@ -29,14 +29,21 @@ const FeatureList: FeatureItem[] = [
     num: 3,
     title: "Reference Document",
     iconName: "list-ul",
-    description: <>Look up something specific.</>,
+    description: <>Look up a specific convention.</>,
     link: "reference",
+  },
+  {
+    num: 4,
+    title: "Glossary",
+    iconName: "info",
+    description: <>Common terms.</>,
+    link: "glossary",
   },
 ];
 
 function Feature({ num, title, iconName, description, link }: FeatureItem) {
   return (
-    <div className={`col col--4 ${styles["feature"]}`}>
+    <div className={`col col--6 ${styles["feature"]}`}>
       <div className="text--center">
         <br />
         <a href={useBaseUrl(link)}>
