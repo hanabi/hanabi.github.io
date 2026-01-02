@@ -1,0 +1,36 @@
+---
+title: Question 2
+---
+
+import ChallengeQuestionProgress from "@site/src/challengeQuestions.tsx";
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Question from "./level-8-question-2/question.yml";
+import Answer from "./level-8-question-2/answer.yml";
+
+<ChallengeQuestionProgress level={8} id="level-8-question-2" />
+
+<Tabs
+  defaultValue="question"
+  values={[
+    {label: 'Question', value: 'question'},
+    {label: 'Solution', value: 'solution'},
+  ]}>
+<TabItem value="question">
+
+- There are 5 cards left in the deck, and 1 clue available. The only clued cards are Alice's 5s.
+- What action should Alice perform?
+
+<Question />
+
+</TabItem>
+<TabItem value="solution">
+
+- It might be tempting for Alice to clue red to Cathy, which would be a _Finesse_ on the red 4. However, doing so would risk losing the game.
+- This is because it is possible that Alice will draw the blue 5 and the purple 5. If she did, then she would have to play 4 cards in total. If Alice clues on this turn, then it would be impossible to play all 4 cards (because the game will end).
+- Instead, it is correct for Alice to play yellow 5 or green 5, letting Bob save the red 5, and Cathy getting the red 4.
+
+<Answer />
+
+</TabItem>
+</Tabs>

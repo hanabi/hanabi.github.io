@@ -1,0 +1,36 @@
+---
+title: Question 6
+---
+
+import ChallengeQuestionProgress from "@site/src/challengeQuestions.tsx";
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Question from "./level-2-question-6/question.yml";
+import Answer from "./level-2-question-6/answer.yml";
+
+<ChallengeQuestionProgress level={2} id="level-2-question-6" />
+
+<Tabs
+  defaultValue="question"
+  values={[
+    {label: 'Question', value: 'question'},
+    {label: 'Solution', value: 'solution'},
+  ]}>
+<TabItem value="question">
+
+- Alice clues number 4 to Bob, which touches a green 4 on slot 5.
+- Bob discards trash from slot 4.
+- From Cathy's perspective, was Alice's clue a _Reverse Finesse_? Why or why not?
+
+<Question />
+
+</TabItem>
+<TabItem value="solution">
+
+- Yes, this is a _Reverse Finesse_.
+- Green 4 is not critical, so the 4 clue cannot be a _Save Clue_. Thus, it must be a _Play Clue_. Cathy is promised a green 3 to make the green 4 playable.
+
+<Answer />
+
+</TabItem>
+</Tabs>

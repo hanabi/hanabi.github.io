@@ -1,0 +1,40 @@
+---
+title: Question 1
+---
+
+import ChallengeQuestionProgress from "@site/src/challengeQuestions.tsx";
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Question from "./level-2-question-1/question.yml";
+import Answer from "./level-2-question-1/answer.yml";
+
+<ChallengeQuestionProgress level={2} id="level-2-question-1" />
+
+<Tabs
+  defaultValue="question"
+  values={[
+    {label: 'Question', value: 'question'},
+    {label: 'Solution', value: 'solution'},
+  ]}>
+<TabItem value="question">
+
+- It is currently the _Early Game_. There is 1 clue token left.
+- List all the legal actions that Alice can perform. Of the legal actions, which is the best one?
+
+<Question />
+
+</TabItem>
+<TabItem value="solution">
+
+- There are two legal things for Alice to do:
+  - First, Alice can perform a _5 Stall_ to Donald (by cluing number 5 to touch the purple 5).
+  - Second, Alice can discard.
+- If Alice performs a _5 Stall_, then Bob's action would be to discard (since there are no clue tokens left).
+- If Bob discarded, he would discard a green 1, which is considered to be an excellent discard (since it is already played and is thus considered to be trash).
+- Alice could have a more desirable card on chop than a green 1, like a yellow 3 or a blue 3.
+- Thus, while it is permissible for Alice to either _5 Stall_ or discard, her best action is to perform a _5 Stall_, since her chop is more valuable than Bob's chop.
+
+<Answer />
+
+</TabItem>
+</Tabs>

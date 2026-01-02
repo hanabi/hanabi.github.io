@@ -216,10 +216,44 @@ const sidebars: SidebarsConfig = {
     {
       "Challenge Questions": [
         "challenge-questions",
-        "challenge-questions/level-2",
-        "challenge-questions/level-4",
-        "challenge-questions/level-6",
-        "challenge-questions/level-8",
+        {
+          "Level 2": [
+            "challenge-questions/level-2",
+            "challenge-questions/level-2-question-1",
+            "challenge-questions/level-2-question-2",
+            "challenge-questions/level-2-question-3",
+            "challenge-questions/level-2-question-4",
+            "challenge-questions/level-2-question-5",
+            "challenge-questions/level-2-question-6",
+            "challenge-questions/level-2-question-7",
+            "challenge-questions/level-2-question-8",
+            "challenge-questions/level-2-question-9",
+            "challenge-questions/level-2-question-10",
+          ],
+        },
+        {
+          "Level 4": [
+            "challenge-questions/level-4",
+            "challenge-questions/level-4-question-1",
+            "challenge-questions/level-4-question-2",
+          ],
+        },
+        {
+          "Level 6": [
+            "challenge-questions/level-6",
+            "challenge-questions/level-6-question-1",
+            "challenge-questions/level-6-question-2",
+            "challenge-questions/level-6-question-3",
+          ],
+        },
+        {
+          "Level 8": [
+            "challenge-questions/level-8",
+            "challenge-questions/level-8-question-1",
+            "challenge-questions/level-8-question-2",
+            "challenge-questions/level-8-question-3",
+          ],
+        },
       ],
     },
     "glossary",

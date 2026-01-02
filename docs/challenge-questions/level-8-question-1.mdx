@@ -1,0 +1,37 @@
+---
+title: Question 1
+---
+
+import ChallengeQuestionProgress from "@site/src/challengeQuestions.tsx";
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Question from "./level-8-question-1/question.yml";
+import Answer from "./level-8-question-1/answer.yml";
+
+<ChallengeQuestionProgress level={8} id="level-8-question-1" />
+
+<Tabs
+  defaultValue="question"
+  values={[
+    {label: 'Question', value: 'question'},
+    {label: 'Solution', value: 'solution'},
+  ]}>
+<TabItem value="question">
+
+- There are 3 cards left in the deck, and no clues available. All remaining useful cards are gotten.
+- Bob knows the identity of all of his clued cards.
+- What action should Alice perform?
+
+<Question />
+
+</TabItem>
+<TabItem value="solution">
+
+- It might be tempting for Alice to play her red 4 to allow Bob to play his red 5. However, doing this will lose the game.
+- This is because the limiting factor is Bob's ability to play all of his 5s before the end of the game. For this to happen, the team needs clues in order to stall. Discarding gives back a clue, but playing the 4 does not.
+- Thus, it is correct for Alice to discard on this turn, holding on to the red 4 for later.
+
+<Answer />
+
+</TabItem>
+</Tabs>

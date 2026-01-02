@@ -1,0 +1,37 @@
+---
+title: Question 9
+---
+
+import ChallengeQuestionProgress from "@site/src/challengeQuestions.tsx";
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Question from "./level-2-question-9/question.yml";
+import Answer from "./level-2-question-9/answer.yml";
+
+<ChallengeQuestionProgress level={2} id="level-2-question-9" />
+
+<Tabs
+  defaultValue="question"
+  values={[
+    {label: 'Question', value: 'question'},
+    {label: 'Solution', value: 'solution'},
+  ]}>
+<TabItem value="question">
+
+- Bob has an unknown 5 in his hand.
+- Cathy has an unknown yellow card in her hand.
+- What is the best clue that Alice can give?
+
+<Question />
+
+</TabItem>
+<TabItem value="solution">
+
+- Alice's most valuable clue is green to Bob. This would be a _Play Clue_ on the green 4 and initiate a _Reverse Finesse_.
+- Unlike the previous question, the _Reverse Finesse_ will work because Cathy knows that her yellow card cannot connect to a green 4.
+- Alice could also clue number 3 to Cathy as a _Play Clue_ on the green 3. This would also "fill in" the yellow 3. But it would only "get" one brand new card instead of two brand new cards.
+
+<Answer />
+
+</TabItem>
+</Tabs>
