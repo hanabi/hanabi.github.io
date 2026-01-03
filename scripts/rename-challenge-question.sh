@@ -5,7 +5,7 @@
 
 set -euo pipefail # Exit on errors and undefined variables.
 
-if [ "$#" -ne 2 ]; then
+if [[ "$#" -ne 2 ]]; then
   echo "Usage: $0 <path> \"<new-title>\""
   exit 1
 fi
@@ -18,7 +18,7 @@ if [[ ! "$CURRENT_PATH" =~ \.mdx$ ]]; then
   CURRENT_PATH="${CURRENT_PATH}.mdx"
 fi
 
-if [ ! -f "$CURRENT_PATH" ]; then
+if [[ ! -f "$CURRENT_PATH" ]]; then
   echo "Error: File $CURRENT_PATH does not exist"
   exit 1
 fi
@@ -45,7 +45,7 @@ NEW_ASSET_DIR="$DOCS_DIR/$NEW_SLUG"
 echo "Rename: $CURRENT_ASSET_DIR -> $NEW_ASSET_DIR"
 echo ""
 
-if [ -f "$NEW_PATH" ] && [ "$CURRENT_PATH" != "$NEW_PATH" ]; then
+if [[ -f "$NEW_PATH" ]] && [[ "$CURRENT_PATH" != "$NEW_PATH" ]]; then
   echo "Error: Target file $NEW_PATH already exists"
   exit 1
 fi
@@ -57,8 +57,8 @@ sed -i "s|from \"./$CURRENT_BASENAME/|from \"./$NEW_SLUG/|g" "$CURRENT_PATH"
 sed -i "s|id=\"$CURRENT_BASENAME\"|id=\"$NEW_SLUG\"|g" "$CURRENT_PATH"
 
 # Step 2: Rename asset directory if it exists.
-if [ -d "$CURRENT_ASSET_DIR" ]; then
-  if [ "$CURRENT_ASSET_DIR" != "$NEW_ASSET_DIR" ]; then
+if [[ -d "$CURRENT_ASSET_DIR" ]]; then
+  if [[ "$CURRENT_ASSET_DIR" != "$NEW_ASSET_DIR" ]]; then
     # Only rename directory if the name is actually changing.
     echo "Renaming asset directory..."
     git mv "$CURRENT_ASSET_DIR" "$NEW_ASSET_DIR"
@@ -68,7 +68,7 @@ else
 fi
 
 # Step 3: Rename the MDX file.
-if [ "$CURRENT_PATH" != "$NEW_PATH" ]; then
+if [[ "$CURRENT_PATH" != "$NEW_PATH" ]]; then
   echo "Renaming MDX file..."
   git mv "$CURRENT_PATH" "$NEW_PATH"
 fi

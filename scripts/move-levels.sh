@@ -8,11 +8,11 @@ function usage() {
   exit 64
 }
 
-if [ $# -ne 1 ]; then
+if [[ "$#" -ne 1 ]]; then
   usage
 fi
 
-if ! [[ $1 =~ ^[0-9]+$ ]]; then
+if ! [[ "$1" =~ ^[0-9]+$ ]]; then
   usage
 fi
 
