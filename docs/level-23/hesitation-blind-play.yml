@@ -17,7 +17,7 @@ players:
   - cards:
       - type: b3
         clue: 3
-        middleNote: r3, b3
+        middleNote: any 3
       - type: x
       - type: x
       - type: x
