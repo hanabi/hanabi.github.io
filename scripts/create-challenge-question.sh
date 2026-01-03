@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Script to create a new challenge question
+# Script to create a new challenge question.
 # Usage: ./create-challenge-question.sh <level> "<title>"
 
 set -euo pipefail # Exit on errors and undefined variables.
@@ -13,25 +13,22 @@ fi
 LEVEL=$1
 TITLE=$2
 
-# Convert title to filename-friendly format (lowercase, replace spaces with hyphens, remove special chars)
+# Convert title to filename-friendly format (lowercase, replace spaces with hyphens, remove special chars).
 FILENAME=$(echo "$TITLE" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9]/-/g' | sed 's/-\+/-/g' | sed 's/^-//' | sed 's/-$//')
 FULL_NAME="level-${LEVEL}-${FILENAME}"
 
-# Paths
 BASE_DIR="docs/challenge-questions"
 QUESTION_DIR="${BASE_DIR}/${FULL_NAME}"
 MDX_FILE="${BASE_DIR}/${FULL_NAME}.mdx"
 
-# Check if files already exist
 if [ -d "$QUESTION_DIR" ] || [ -f "$MDX_FILE" ]; then
   echo "Error: Files already exist for this question"
   exit 1
 fi
 
-# Create directory
+# Create question page, and directories with question and answer YML files.
 mkdir -p "$QUESTION_DIR"
 
-# Template for YML files
 YML_TEMPLATE="stacks:
   - r: 0
   - y: 0
@@ -60,11 +57,8 @@ players:
       - type: x
 "
 
-# Create question.yml and answer.yml
 echo "$YML_TEMPLATE" > "${QUESTION_DIR}/question.yml"
 echo "$YML_TEMPLATE" > "${QUESTION_DIR}/answer.yml"
-
-# Create MDX file
 cat > "$MDX_FILE" << EOF
 ---
 title: ${TITLE}
@@ -102,20 +96,19 @@ import Answer from "./${FULL_NAME}/answer.yml";
 </Tabs>
 EOF
 
-# Update sidebars.ts
+# Update sidebars.ts.
 SIDEBAR_FILE="sidebars.ts"
 LEVEL_INDEX="docs/challenge-questions/level-${LEVEL}.mdx"
 LEVEL_INDEX_CREATED=false
 
-# Check if the level section already exists
 if grep -q "\"Level ${LEVEL}\":" "$SIDEBAR_FILE"; then
-  # Level section exists, add the question to it
+  # Level section exists, add the question to it.
   sed -i "/\"Level ${LEVEL}\":/,/^[[:space:]]*\],/{
       /^[[:space:]]*\],/i\\            \"challenge-questions/${FULL_NAME}\",
     }" "$SIDEBAR_FILE"
 else
-  # Level section doesn't exist, need to create it
-  # First, check if the level index page exists and create it if needed
+  # Level section doesn't exist, need to create it.
+  # First, check if the level index page exists and create it if needed.
   if [ ! -f "$LEVEL_INDEX" ]; then
     LEVEL_INDEX_CREATED=true
     cat > "$LEVEL_INDEX" << EOF
@@ -136,9 +129,9 @@ EOF
     echo "Created level index page: ${LEVEL_INDEX}"
   fi
 
-  # Find the right place to insert the new level section
+  # Find the right place to insert the new level section.
   # Get all existing level numbers in the Challenge Questions section and
-  # find the first level number that's greater than our new level
+  # find the first level number that's greater than our new level.
   EXISTING_LEVELS=$(grep -oP '"Level \K\d+(?=":)' "$SIDEBAR_FILE" | sort -n)
   NEXT_LEVEL=""
   for existing in $EXISTING_LEVELS; do
@@ -148,10 +141,10 @@ EOF
     fi
   done
 
-  # Use sed with multi-line pattern to insert in the right place
+  # Use sed with multi-line pattern to insert in the right place.
   if [ -z "$NEXT_LEVEL" ]; then
-    # No higher level found, insert before the closing of Challenge Questions section
-    # Match exactly 6 spaces to find the Challenge Questions closing bracket
+    # No higher level found, insert before the closing of Challenge Questions section.
+    # Match exactly 6 spaces to find the Challenge Questions closing bracket.
     sed -i "/\"Challenge Questions\":/,/^      \],/{
           /^      \],/{
             i\\
@@ -164,9 +157,9 @@ EOF
           }
         }" "$SIDEBAR_FILE"
   else
-    # Insert before the next higher level
+    # Insert before the next higher level.
     # We need to insert before the opening brace that precedes "Level X":
-    # Use a multi-line pattern to match the brace followed by "Level X" on next line
+    # Use a multi-line pattern to match the brace followed by "Level X" on next line.
     sed -i "/^[[:space:]]*{[[:space:]]*$/{
           N
           /\\n.*\"Level ${NEXT_LEVEL}\":/{
@@ -186,7 +179,7 @@ EOF
   fi
 fi
 
-# If we created a new level index, add a link to it from the main level doc
+# If we created a new level index, add a link to it from the main level doc.
 if [ "$LEVEL_INDEX_CREATED" = true ]; then
   LEVEL_DOC="docs/level-${LEVEL}.mdx"
   if [ -f "$LEVEL_DOC" ]; then
