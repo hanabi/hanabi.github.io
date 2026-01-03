@@ -2,10 +2,8 @@ stacks:
   - r: 2
   - y: 2
   - g: 2
-  - b: 3
+  - b: 2
   - p: 2
-discarded:
-  - g3
 players:
   - clueGiver: true
     cards:
@@ -16,7 +14,7 @@ players:
       - type: x
       - type: x
   - cards:
-      - type: xrygp
+      - type: x
         above: Red 3
         middleNote: r3
         below:
