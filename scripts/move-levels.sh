@@ -42,16 +42,16 @@ for x in $(seq "$MAX_LEVEL" -1 "$1"); do
     git mv "docs/challenge-questions/level-$x.mdx" "docs/challenge-questions/level-$y.mdx"
   fi
   # Move all challenge question pages for this level
-  for file in docs/challenge-questions/level-$x-*.mdx; do
+  for file in "docs/challenge-questions/level-$x-"*.mdx; do
     if [ -f "$file" ]; then
-      new_file=$(echo "$file" | sed "s/level-$x-/level-$y-/")
+      new_file="${file//level-$x-/level-$y-}"
       git mv "$file" "$new_file"
     fi
   done
   # Move all challenge question YML directories for this level
-  for dir in docs/challenge-questions/level-$x-*/; do
+  for dir in "docs/challenge-questions/level-$x-"*/; do
     if [ -d "$dir" ]; then
-      new_dir=$(echo "$dir" | sed "s/level-$x-/level-$y-/")
+      new_dir="${dir//level-$x-/level-$y-}"
       git mv "$dir" "$new_dir"
     fi
   done
