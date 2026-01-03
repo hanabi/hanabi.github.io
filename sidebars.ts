@@ -246,6 +246,7 @@ const sidebars: SidebarsConfig = {
             "challenge-questions/level-4-a-wasted-clue",
             "challenge-questions/level-4-5's-chop-move",
             "challenge-questions/level-4-order-is-important",
+            "challenge-questions/level-4-focus-when-chop-moved",
           ],
         },
         {
