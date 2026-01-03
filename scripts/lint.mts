@@ -38,6 +38,9 @@ await lintCommands(import.meta.dirname, [
   // Lint YAML files.
   "yamllint .",
 
+  // Lint Bash files.
+  "bash scripts/shellcheck.sh",
+
   // eslint-disable-next-line unicorn/prefer-top-level-await
   ["check unused YAML files", checkUnusedYAMLFiles()],
 
