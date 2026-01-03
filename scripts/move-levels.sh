@@ -29,26 +29,26 @@ for x in $(seq "$MAX_LEVEL" -1 "$1"); do
 done
 for x in $(seq "$MAX_LEVEL" -1 "$1"); do
   ((y = x + 1))
-  # Move main level page
+  # Move main level page.
   if [ -f "docs/level-$x.mdx" ]; then
     git mv "docs/level-$x.mdx" "docs/level-$y.mdx"
   fi
-  # Move main level YML directory
+  # Move main level YML directory.
   if [ -d "docs/level-$x" ]; then
     git mv "docs/level-$x" "docs/level-$y"
   fi
-  # Move challenge question intro page
+  # Move challenge question intro page.
   if [ -f "docs/challenge-questions/level-$x.mdx" ]; then
     git mv "docs/challenge-questions/level-$x.mdx" "docs/challenge-questions/level-$y.mdx"
   fi
-  # Move all challenge question pages for this level
+  # Move all challenge question pages for this level.
   for file in "docs/challenge-questions/level-$x-"*.mdx; do
     if [ -f "$file" ]; then
       new_file="${file//level-$x-/level-$y-}"
       git mv "$file" "$new_file"
     fi
   done
-  # Move all challenge question YML directories for this level
+  # Move all challenge question YML directories for this level.
   for dir in "docs/challenge-questions/level-$x-"*/; do
     if [ -d "$dir" ]; then
       new_dir="${dir//level-$x-/level-$y-}"
@@ -57,26 +57,23 @@ for x in $(seq "$MAX_LEVEL" -1 "$1"); do
   done
 done
 
-# Update sidebars.ts - shift level references up
+# Update sidebars.ts - shift level references up.
 for x in $(seq "$MAX_LEVEL" -1 "$1"); do
   ((y = x + 1))
-  # Update paths like "level-8" -> "level-9"
   sed -i "s/level-$x\\>/level-$y/g" sidebars.ts
-  # Update labels like "Level 8" -> "Level 9"
   sed -i "s/\"Level $x\"/\"Level $y\"/g" sidebars.ts
 done
-# Add the new level entry at position $1
-# Find the line before (level-$1 is now level-($1+1)) and insert before it
+# Add the new level entry.
 ((next_level = $1 + 1))
 sed -i "/\"level-$next_level\",/i\\        \"level-$1\"," sidebars.ts
 echo "Updated sidebars.ts: shifted levels and added level-$1"
 
-# Update MAX_LEVEL in static/js/hotkey.js
+# Update MAX_LEVEL in static/js/hotkey.js.
 NEW_MAX_LEVEL=$((MAX_LEVEL + 1))
 sed -i "s/^const MAX_LEVEL = $MAX_LEVEL;$/const MAX_LEVEL = $NEW_MAX_LEVEL;/" static/js/hotkey.js
 echo "Updated MAX_LEVEL in static/js/hotkey.js to $NEW_MAX_LEVEL"
 
-# Create the new level file
+# Create the new level file.
 cat > "docs/level-$1.mdx" << EOF
 ---
 title: Level $1 - TODO
@@ -90,7 +87,7 @@ title: Level $1 - TODO
 EOF
 echo "Created docs/level-$1.mdx from template"
 
-# Create the directory for level YAML files
+# Create the directory for level YAML files.
 mkdir -p "docs/level-$1"
 echo "Created docs/level-$1/ directory for example images"
 
