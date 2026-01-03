@@ -77,7 +77,7 @@ sed -i "s/^const MAX_LEVEL = $MAX_LEVEL;$/const MAX_LEVEL = $NEW_MAX_LEVEL;/" st
 echo "Updated MAX_LEVEL in static/js/hotkey.js to $NEW_MAX_LEVEL"
 
 # Create the new level file
-cat > "docs/level-$1.mdx" <<EOF
+cat > "docs/level-$1.mdx" << EOF
 ---
 title: Level $1 - TODO
 ---
