@@ -1,0 +1,41 @@
+---
+title: 5's Chop Move
+---
+
+import ChallengeQuestionProgress from "@site/src/challengeQuestions.tsx";
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Question from "./level-4-5's-chop-move/question.yml";
+import Answer from "./level-4-5's-chop-move/answer.yml";
+
+<ChallengeQuestionProgress level={4} id="level-4-5's-chop-move" />
+
+<Tabs
+  queryString="tab"
+  defaultValue="question"
+  values={[
+    {label: 'Question', value: 'question'},
+    {label: 'Solution', value: 'solution'},
+  ]}>
+<TabItem value="question">
+
+- It is the first turn and nothing is played on the stacks.
+- Alice clues 5 to Cathy, touching a 5 on slot 4.
+- What kind of clue is this?
+- What notes should be written?
+
+<Question />
+
+</TabItem>
+<TabItem value="solution">
+
+- Usually, any clue that is not focused on chop is a _Play Clue_. However, 5 clues are different.
+- Level 4 introduces the [5's Chop Move](../level-4#the-5s-chop-move-5cm) which says that a 5 clue to **one-away-from-chop** might have a special meaning.
+- However, _5 Stalls_ takes precedence over _5 Chop Moves_, so players need to check the game state.
+- Since it is still the _Early Game_, _5 Stalls_ are allowed, and this is not a _Chop Move_.
+- No notes should be written. Alice simply didn't see anything else to clue.
+
+<Answer />
+
+</TabItem>
+</Tabs>

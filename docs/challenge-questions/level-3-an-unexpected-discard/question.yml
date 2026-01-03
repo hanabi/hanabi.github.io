@@ -1,0 +1,29 @@
+stacks:
+  - r: 2
+  - y: 0
+  - g: 0
+  - b: 2
+  - p: 0
+players:
+  - clueGiver: true
+    cards:
+      - type: x
+      - type: x
+      - type: b3
+        below: Discard
+      - type: x
+  - cards:
+      - type: x
+      - type: 3
+      - type: 3
+      - type: x
+  - cards:
+      - type: 3
+      - type: x
+      - type: 3
+      - type: x
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x

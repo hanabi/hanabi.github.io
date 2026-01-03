@@ -1,0 +1,44 @@
+---
+title: Focus When Chop Moved
+---
+
+import ChallengeQuestionProgress from "@site/src/challengeQuestions.tsx";
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Question from "./level-4-focus-when-chop-moved/question.yml";
+import Answer from "./level-4-focus-when-chop-moved/answer.yml";
+
+<ChallengeQuestionProgress level={4} id="level-4-focus-when-chop-moved" />
+
+<Tabs
+  queryString="tab"
+  defaultValue="question"
+  values={[
+    {label: 'Question', value: 'question'},
+    {label: 'Solution', value: 'solution'},
+  ]}>
+<TabItem value="question">
+
+- All the 1's are played on the stacks.
+- Alice clues 1 to Cathy, touching a card on slot 3. (This is a _Trash Chop Move_.)
+- Bob clues blue to Cathy, touching _all_ cards in Bob's hand.
+- What notes should be written on Cathy's cards?
+- What should Cathy do next?
+
+<Question />
+
+</TabItem>
+<TabItem value="solution">
+
+- After Alice's _Trash Chop Move_, Cathy's chop moved to slot 2.
+- Bob's clue has normal _Chop Focus_, and is focused on slot 2.
+- There are no blue cards in the discard pile, so it is a play clue on a blue 2.
+- The blue 1 on slot 3 is still trash.
+- The other blue cards are from _Good Touch Principle_ assumed to be blue 3, 4 and 5, but the order is not known.
+- Slot 4 and slot 5 are no longer chop moved, as they now have been touched by a clue.
+- Cathy should play the blue 2.
+
+<Answer />
+
+</TabItem>
+</Tabs>

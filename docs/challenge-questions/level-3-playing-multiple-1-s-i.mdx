@@ -1,0 +1,36 @@
+---
+title: Playing Multiple 1's, I
+---
+
+import ChallengeQuestionProgress from "@site/src/challengeQuestions.tsx";
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Question from "./level-3-playing-multiple-1-s-i/question.yml";
+import Answer from "./level-3-playing-multiple-1-s-i/answer.yml";
+
+<ChallengeQuestionProgress level={3} id="level-3-playing-multiple-1-s-i" />
+
+<Tabs
+  defaultValue="question"
+  values={[
+    {label: 'Question', value: 'question'},
+    {label: 'Solution', value: 'solution'},
+  ]}>
+<TabItem value="question">
+
+- It is the first turn of the game.
+- Alice clues number 1 to Bob, touching two cards on slot 2 and 5.
+- In which order should Bob play these cards?
+
+<Question />
+
+</TabItem>
+<TabItem value="solution">
+
+- Bob knows about _Play Order Inversion in the Starting Hand_.
+- He therefore plays the touched cards from **oldest to newest**.
+
+<Answer />
+
+</TabItem>
+</Tabs>
