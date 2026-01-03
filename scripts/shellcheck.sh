@@ -8,4 +8,4 @@ DIR=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" &> /dev/null && pwd)
 
 REPO_ROOT=$(realpath "$DIR/..")
 
-find "$REPO_ROOT" \( -name "node_modules" -o -name ".venv" \) -prune -o -type f -name "*.sh" -exec shellcheck {} +
+find "$REPO_ROOT" \( -name ".husky" -o -name "node_modules" \) -prune -o -type f -name "*.sh" -exec shellcheck {} +
