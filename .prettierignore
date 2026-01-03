@@ -21,4 +21,7 @@ bun.lock
 .cache-loader
 build
 
+# Auto-generated Husky files
+.husky/_
+
 # @template-customization-end
