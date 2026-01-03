@@ -77,7 +77,7 @@ import ShoutDiscardOrderChopMove from "./level-14/shout-discard-order-chop-move.
 
 <TrashFinesse />
 
-- In the case where multiple cards are clued as part of a _Trash Finesse_, **all** of the touched cards are considered to be trash.
+- In the case where multiple cards are clued as part of a _Trash Finesse_, **all** of the newly touched cards are considered to be trash.
 - _Double Trash Finesses_ are explicitly disallowed. Thus, it is possible to perform a _Trash Finesse_ in a situation like this:
   - All the 1's are played on the stacks except for red 1 and blue 1.
   - Alice clues number 1 to Donald, which touches two green 1's on slot 1 and 2. To Donald, this will look like it is both the red 1 and the blue 1.
@@ -86,7 +86,7 @@ import ShoutDiscardOrderChopMove from "./level-14/shout-discard-order-chop-move.
   - However, a _Trash Finesse_ only promises one matching card, and since he sees that Cathy has a matching card, then that is good enough. Thus, Bob discards.
   - Cathy blind-plays her _Finesse Position_ card and it is red 1.
   - Donald knows that the focus of the clue (slot 1) is certainly trash, since that caused Cathy to blind-play.
-  - Furthermore, Donald knows that his slot 2 card is also trash, because all the cards touched in a _Trash Finesse_ are guaranteed to be trash.
+  - Furthermore, Donald knows that his slot 2 card is also trash, because all newly touched cards in a _Trash Finesse_ are guaranteed to be trash.
 
 <TrashFinesseTwoCards />
 
