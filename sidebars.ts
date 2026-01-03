@@ -232,10 +232,18 @@ const sidebars: SidebarsConfig = {
           ],
         },
         {
+          "Level 3": [
+            "challenge-questions/level-3",
+            "challenge-questions/level-3-playing-multiple-1-s-i",
+            "challenge-questions/level-3-playing-multiple-1-s-ii",
+            "challenge-questions/level-3-playing-multiple-1-s-iii",
+            "challenge-questions/level-3-an-unexpected-discard",
+          ],
+        },
+        {
           "Level 4": [
             "challenge-questions/level-4",
             "challenge-questions/level-4-question-1",
-            "challenge-questions/level-4-question-2",
           ],
         },
         {

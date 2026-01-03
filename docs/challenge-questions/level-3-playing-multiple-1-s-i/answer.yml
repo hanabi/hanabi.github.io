@@ -1,0 +1,33 @@
+stacks:
+  - r: 0
+  - y: 0
+  - g: 0
+  - b: 0
+  - p: 0
+bigText:
+  text: First turn
+players:
+  - clueGiver: true
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+      - type: 1
+        clue: 1
+        middleNote: 2nd
+      - type: x
+      - type: x
+      - type: 1
+        clue: 1
+        middleNote: 1st
+        below: Play
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x

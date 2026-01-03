@@ -1,0 +1,38 @@
+---
+title: Playing Multiple 1's, III
+---
+
+import ChallengeQuestionProgress from "@site/src/challengeQuestions.tsx";
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Question from "./level-3-playing-multiple-1-s-iii/question.yml";
+import Answer from "./level-3-playing-multiple-1-s-iii/answer.yml";
+
+<ChallengeQuestionProgress level={3} id="level-3-playing-multiple-1-s-iii" />
+
+<Tabs
+  defaultValue="question"
+  values={[
+    {label: 'Question', value: 'question'},
+    {label: 'Solution', value: 'solution'},
+  ]}>
+<TabItem value="question">
+
+- It is the first turn of the game.
+- Alice clues number 1 to Cathy, touching two cards on slot 3 and 4.
+- Immediately, Bob clues number 1 to Cathy, touching the same two cards.
+- What notes should Cathy write on her cards. What should she do next?
+
+<Question />
+
+</TabItem>
+<TabItem value="solution">
+
+- Alice's clue tells Cathy to play the 1's from right to left.
+- Bob's clue is a _Fix Clue (That Gives No Additional Information)_.
+- This means that Cathy should _not_ play the expected card (slot 4), but skip to slot 3 and play that card. (In practice, the two cards are equal.)
+
+<Answer />
+
+</TabItem>
+</Tabs>
