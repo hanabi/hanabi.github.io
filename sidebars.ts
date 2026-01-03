@@ -243,7 +243,9 @@ const sidebars: SidebarsConfig = {
         {
           "Level 4": [
             "challenge-questions/level-4",
-            "challenge-questions/level-4-question-1",
+            "challenge-questions/level-4-a-wasted-clue",
+            "challenge-questions/level-4-5's-chop-move",
+            "challenge-questions/level-4-order-is-important",
           ],
         },
         {

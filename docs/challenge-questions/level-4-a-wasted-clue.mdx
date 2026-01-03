@@ -1,0 +1,38 @@
+---
+title: A Wasted Clue?
+---
+
+import ChallengeQuestionProgress from "@site/src/challengeQuestions.tsx";
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Question from "./level-4-a-wasted-clue/question.yml";
+import Answer from "./level-4-a-wasted-clue/answer.yml";
+
+<ChallengeQuestionProgress level={4} id="level-4-a-wasted-clue" />
+
+<Tabs
+  defaultValue="question"
+  values={[
+    {label: 'Question', value: 'question'},
+    {label: 'Solution', value: 'solution'},
+  ]}>
+<TabItem value="question">
+
+- All 3's have been played on the stacks.
+- Alice clues 3 to Cathy, touching one card on slot 3.
+- What type of clue is this?
+- What notes should be written?
+
+<Question />
+
+</TabItem>
+<TabItem value="solution">
+
+- No more 3's should be played on the stacks, so the touched card is known trash.
+- This is a _Trash Chop Move_, which _Chop Moves_ all cards to the right of the trash.
+- All players should write `kt` on Bob's slot 3 and `cm` on Bob's slot 4 and slot 5.
+
+<Answer />
+
+</TabItem>
+</Tabs>
