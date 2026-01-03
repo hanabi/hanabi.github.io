@@ -30,27 +30,27 @@ done
 for x in $(seq "$MAX_LEVEL" -1 "$1"); do
   ((y = x + 1))
   # Move main level page.
-  if [ -f "docs/level-$x.mdx" ]; then
+  if [[ -f "docs/level-$x.mdx" ]]; then
     git mv "docs/level-$x.mdx" "docs/level-$y.mdx"
   fi
   # Move main level YML directory.
-  if [ -d "docs/level-$x" ]; then
+  if [[ -d "docs/level-$x" ]]; then
     git mv "docs/level-$x" "docs/level-$y"
   fi
   # Move challenge question intro page.
-  if [ -f "docs/challenge-questions/level-$x.mdx" ]; then
+  if [[ -f "docs/challenge-questions/level-$x.mdx" ]]; then
     git mv "docs/challenge-questions/level-$x.mdx" "docs/challenge-questions/level-$y.mdx"
   fi
   # Move all challenge question pages for this level.
   for file in "docs/challenge-questions/level-$x-"*.mdx; do
-    if [ -f "$file" ]; then
+    if [[ -f "$file" ]]; then
       new_file="${file//level-$x-/level-$y-}"
       git mv "$file" "$new_file"
     fi
   done
   # Move all challenge question YML directories for this level.
   for dir in "docs/challenge-questions/level-$x-"*/; do
-    if [ -d "$dir" ]; then
+    if [[ -d "$dir" ]]; then
       new_dir="${dir//level-$x-/level-$y-}"
       git mv "$dir" "$new_dir"
     fi
