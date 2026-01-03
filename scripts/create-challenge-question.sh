@@ -54,8 +54,7 @@ players:
       - type: x
       - type: x
       - type: x
-      - type: x
-"
+      - type: x"
 
 echo "$YML_TEMPLATE" > "${QUESTION_DIR}/question.yml"
 echo "$YML_TEMPLATE" > "${QUESTION_DIR}/answer.yml"
