@@ -95,7 +95,7 @@ import EgoClue from "./level-12/ego-clue.yml";
 - For example, in a 3-player game:
   - All the 1's are played on the stacks.
   - Alice has a globally known playable red 2 in her hand.
-  - Bob's hand is as follows, from newest to oldest: `blue 1, red 3, red 4, red 5, blue 1`
+  - Bob's hand is, from newest to oldest: `blue 1, red 3, red 4, red 5, blue 1`
   - Both Bob and Cathy has a safe discard.
   - Alice knows that on this turn, she is expected to play the red 2, unless she has a really good clue to give.
   - Alice sees that if she plays the red 2, then Bob will probably have nothing to do, and will go on to discard the blue 1.
@@ -208,7 +208,7 @@ import EgoClue from "./level-12/ego-clue.yml";
 - Players should not just consider how good their individual clue is - they should also consider how their teammates can **build** on top of their clue.
 - For example, in a 3-player game:
   - It is the first turn and nothing is played on the stacks.
-  - Bob's hand is as follows, from newest to oldest: `green 4, red 1, red 3, blue 2, blue 1`
+  - Bob's hand is, from newest to oldest: `green 4, red 1, red 3, blue 2, blue 1`
   - Alice would like to get the red 1 and the blue 1 played from Bob's hand. (No-one else has a red 1 or a blue 1.) Should Alice clue number 1, red, or blue?
   - If Alice clues number 1, it would be a 2-for-1 clue. But then the team will probably spend a clue getting the blue 2. This will result in an efficiency of 3-for-2. And the red 3 will probably end up being discarded. Bad.
   - If Alice clues blue, it would be a 2-for-1 clue. But then the team will no longer be able to give a red clue, because it would be _Chop-Focused_ on the red 3. So they would have to clue number 1, which would result in an efficiency of 3-for-2. Bad.
@@ -221,7 +221,7 @@ import EgoClue from "./level-12/ego-clue.yml";
 - When players make the choice between cluing number 1 or cluing color, the cards in other people's hands should also be considered.
 - For example, in a 4-player game:
   - It is the first turn and nothing is played on the stacks.
-  - Cathy's hand is as follows, from newest to oldest: `red 1, green 4, blue 3, blue 1`
+  - Cathy's hand is, from newest to oldest: `red 1, green 4, blue 3, blue 1`
   - Donald is holding a cluable red 2.
   - Alice would like to get the red 1 and the blue 1 played. (No-one else has a red 1 or a blue 1.) Should she clue 1, red, or blue?
   - Just like in the previous example, cluing number 1 means that the red 2 will have to be clued as a 1-for-1, which results in an efficiency of 3-for-2.
@@ -236,7 +236,7 @@ import EgoClue from "./level-12/ego-clue.yml";
 - However, sometimes it is better to give a _Save Clue_ first and then a _Play Clue_ later.
 - For example, in a 3-player game:
   - It is the first turn and nothing is played on the stacks.
-  - Cathy's hand is as follows, from newest to oldest: `blue 4, blue 4, red 3, red 1, blue 5`
+  - Cathy's hand is, from newest to oldest: `blue 4, blue 4, red 3, red 1, blue 5`
   - Alice would like to get the red 1 played. (No-one else has a red 1 in their hand.) Alice also knows that the team needs to eventually save the blue 5.
   - If Alice clues number 1 first to get the red 1, then the team will need to give a _5 Save_ to save the blue 5, resulting in an efficiency of 2-for-2.
   - Instead, Alice clues number 5 as a _5 Save_, which allows Bob to follow up with a red _Chop-Focus Play Clue_. This touches the red 3 as a 2-for-1, allowing for an overall efficiency of a 3-for-2.

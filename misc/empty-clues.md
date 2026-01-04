@@ -50,7 +50,7 @@
 
 ## Empty Target Priority
 
-- If a player has two or more playable cards, the priority is as follows:
+- If a player has two or more playable cards, the priority is:
   - #1 - unknown playable cards
     - #1a - unclued & completely unknown playable cards
     - #1b - unclued & unknown _Chop Moved_ playable cards
@@ -58,7 +58,7 @@
   - #2 - known playable cards
     - #2a - unclued & known playable cards (which would be confirming that they are indeed _Finessed_, for example)
     - #2b - clued & known playable cards (which would just be retouching the card, accomplishing nothing new)
-- If there two or more cards of the same subcategory above, then the priority is as follows:
+- If there two or more cards of the same subcategory above, then the priority is:
   - #1 - unique (e.g. black 1)
   - #2 - lowest rank
   - #3 - leftmost

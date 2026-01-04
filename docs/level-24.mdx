@@ -79,7 +79,7 @@ import UnnecessaryBadChopMoveEjection from "./level-24/unnecessary-bad-chop-move
 
 - For example, in a 4-player game:
   - All the 2's are played on the stacks except for the blue 2.
-  - Donald's hand is as follows: `blue 4, blue 4, red 1, blue 1`
+  - Donald's hand is, from newest to oldest: `blue 4, blue 4, red 1, blue 1`
   - Alice clues red to Donald, touching the red 1 on slot 3.
   - Bob sees that this is an _Unknown Trash Discharge_. He plays his _Third Finesse Position_. It is a blue 2 and it successfully plays.
   - Cathy sees that Alice could have given a direct _Play Clue_ to Bob's blue 2. Thus, this clue was _Unnecessary_, and Donald will go on to _Chop Move_ the blue 1 on slot 4.
@@ -113,7 +113,7 @@ import UnnecessaryBadChopMoveEjection from "./level-24/unnecessary-bad-chop-move
 - For example, in a 3-player game:
   - All of the 2's are played on the stacks.
   - Bob has a red 3 on his _Second Finesse Position_ and no other red cards in his hand. Thus, Alice can give a red clue to Bob in order to "get" the red 3.
-  - Donald's hand is as follows, from left to right: `red 1, green 1, blue 2, blue 1`
+  - Donald's hand is, from newest to oldest: `red 1, green 1, blue 2, blue 1`
   - Alice clues number 2 to Donald, touching the blue 2 on slot 3.
   - Bob knows that from Donald's perspective, Alice's clue looks like a _Trash Chop Move_. Since Donald is about to _Chop Move_ a trash card, Bob blind-plays his red 3 as a _Bad Chop Move Ejection_.
   - Since Bob's blind-play told Donald about a trash card, namely that the _Chop Moved_ blue 1 was trash, Donald will now additionally interpret the clue as a _Trash Push_.

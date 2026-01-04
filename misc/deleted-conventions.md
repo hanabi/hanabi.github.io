@@ -405,8 +405,8 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
 - This is called a _Cursed Finesse_ because it requires the situation to be "cured". By performing a _Cure Blind-Play_, the move is transformed from a _Bluff_ into a real _Finesse_.
 - For example, in a 4-player game:
   - It is the first turn and nothing is played on the stacks.
-  - Bob's hand is as follows, from left to right: `red 1, blue 1, green 3, green 3`
-  - Donald's hand is as follows, from left to right: `blue 2, green 4, green 4, yellow 4`
+  - Bob's hand is, from newest to oldest: `red 1, blue 1, green 3, green 3`
+  - Donald's hand is, from newest to oldest: `blue 2, green 4, green 4, yellow 4`
   - Thus, Alice has a _Free Choice_ between cluing blue to Donald and number 2 to Donald. If Alice chooses blue, then it will cause a _Bluff_ (as a 2-for-1). If Alice chooses number 2, it will cause a _Clandestine Finesse_ (as a 3-for-1).
   - Alice clues blue to Donald, touching a single blue 2.
   - Bob tries to blind-play the blue 1 from his _Finesse Position_. Instead, it is a red 1 and it successfully plays. Bob now knows that he was _Bluffed_.
@@ -556,7 +556,7 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
 - However, if Cathy sees a clue that she can give that will turn the move into a _Clandestine Finesse_ on Bob, then she must always do that.
 - For example, in a 4-player game:
   - It is the first turn of the game and nothing is played on the stacks.
-  - Bob's hand is as follows, from newest to oldest: `red 1, blue 2, blue 1, blue 5`
+  - Bob's hand is, from newest to oldest: `red 1, blue 2, blue 1, blue 5`
   - Donald hand has a red 2 in it.
   - Alice clues number 2 to Bob, touching a blue 2 on slot 2.
   - Bob blind-plays the red 1.
