@@ -1,0 +1,52 @@
+---
+title: What's Hidden?
+---
+
+import ChallengeQuestionProgress from "@site/src/challengeQuestions.tsx";
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Question from "./level-5-what-s-hidden/question.yml";
+import AnswerPart1 from "./level-5-what-s-hidden/answer-part-1.yml";
+import AnswerPart2 from "./level-5-what-s-hidden/answer-part-2.yml";
+
+<ChallengeQuestionProgress level={5} id="level-5-what-s-hidden" />
+
+<Tabs
+  queryString="tab"
+  defaultValue="question"
+  values={[
+    {label: 'Question', value: 'question'},
+    {label: 'Solution', value: 'solution'},
+  ]}>
+<TabItem value="question">
+
+- The red 1 and blue 1 are played on the stacks.
+- Bob has a red 2 clued in his hand as just a 2, and an unclued blue 2 on slot 1.
+- Alice clues 3 to Cathy, touching a 3 on slot 3.
+- Which notes will be written?
+- What should Bob and Cathy do next?
+
+<Question />
+
+</TabItem>
+<TabItem value="solution">
+
+- Cathy's card _might_ be a red 3, in which case this is just a normal _Prompt_ on the red 2.
+- However, Cathy's card is actually a blue 3, and Alice intends a _Hidden Finesse_.
+- Cathy sees that both clues are legal, so she writes `r3, b3 if finesse` on her card.
+- Bob is unaware of the hidden part, and plays his clued 2, expecting it to be the blue 2.
+
+<AnswerPart1 />
+
+- It is _not_ the card he expected it to be, and he may believe that Cathy is going to misplay the blue 3.
+- But he trusts Alice, and must assume she has given a _Hidden Finesse_, so he goes back in history to find the finesse position when the clue was given, and writes `b2` on that card, which now has moved to slot 2.
+- Cathy still doesn't know which card she has, so she must discard (or find something else to clue).
+  - It is important that **she should not** clue the blue 2, or she might be stomping on a finesse.
+
+<AnswerPart2 />
+
+- The next round, Bob blind-plays the blue 2.
+- After this move, Cathy is certain that she has the blue 3, and she can play now, or find a good clue to give.
+
+</TabItem>
+</Tabs>

@@ -2,9 +2,8 @@ stacks:
   - r: 1
   - y: 0
   - g: 0
-  - b: 0
+  - b: 1
   - p: 0
-  - m: 2
 players:
   - clueGiver: true
     cards:
@@ -15,20 +14,22 @@ players:
       - type: x
   - cards:
       - type: x
+        above: Blue 2
+        below: Finesse?
+      - type: x
+      - type: x
+      - type: 2
         above: Red 2
-        below: Finesse
-      - type: x
-      - type: rm
-        above: Rainbow 3
-        below: Prompt
-      - type: x
+        middleNote: b2
+        below: Plays
       - type: x
   - cards:
       - type: x
       - type: x
-      - type: x
-      - type: r3
-        clue: r
-        middleNote: r3, m4
+      - type: 3
+        clue: 3
+        above: Blue 3
+        middleNote: r3, b3
         below: Play
+      - type: x
       - type: x

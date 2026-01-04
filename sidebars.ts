@@ -250,6 +250,13 @@ const sidebars: SidebarsConfig = {
           ],
         },
         {
+          "Level 5": [
+            "challenge-questions/level-5",
+            "challenge-questions/level-5-what-s-hidden",
+            "challenge-questions/level-5-the-onion",
+          ],
+        },
+        {
           "Level 6": [
             "challenge-questions/level-6",
             "challenge-questions/level-6-question-1",
