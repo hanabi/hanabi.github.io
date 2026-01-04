@@ -18,7 +18,7 @@ main();
 
 function main() {
   document.addEventListener("keydown", (event) => {
-    // Do not do anything if we have ctrl, alt or meta modifier keys pressed down.
+    // Do not do anything if we have Ctrl, Alt or Meta modifier keys pressed down.
     if (event.ctrlKey || event.altKey || event.metaKey) {
       return;
     }
