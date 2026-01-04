@@ -138,11 +138,11 @@ import ShoutDiscardOrderChopMove from "./level-14/shout-discard-order-chop-move.
 - Just like how it is possible to get non-connecting cards with a normal _Bluff_, it is also possible to get non-connecting cards with a _Trash Bluff_.
 - Both _Trash Finesses_ and _Trash Bluffs_ will _Chop Move_ all of the cards to the right of the trash card.
 - For example, in a 3-player game:
-  - All of the 2's are played on the stacks **except** for the red 2.
+  - All of the 2's are played on the stacks except for the red 2.
   - Cathy has no clued cards in her hand.
-  - Alice clues Cathy number 2, which touches her slot 2 and slot 4 cards. The card on slot 2 is a blue 2, but Cathy will assume that it is a red 2.
-  - Bob blind-plays his _Finesse Position_ card, and it is a playable blue 3.
-  - Cathy now knows that her 2 on slot 2 must not be red 2, or else Bob would not have blind-played anything. The 2 must be some other trash card.
+  - Alice clues Cathy number 2, which touches her slot 2 and slot 4 cards. This focuses slot 2 and looks like a _Play Clue_. Thus, Cathy will assume that her slot 2 card is a red 2. However, the card is really a blue 2.
+  - Bob sees that Cathy will go on to misplay the blue 2 as a red 2. Thus, Bob knows that he is promised to have the red 2. Bob blind-plays his _Finesse Position_ card, expecting to play a red 2. However, it is instead a blue 3, and successfully plays on the stacks.
+  - Cathy now knows that her 2 on slot 2 must not be a red 2, or else Bob would not have blind-played anything. Thus, it must be some other trash card.
   - Additionally, Cathy marks her slot 5 card as being _Chop Moved_.
 
 <TrashBluff />
