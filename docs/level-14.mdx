@@ -62,31 +62,30 @@ import ShoutDiscardOrderChopMove from "./level-14/shout-discard-order-chop-move.
 
 ### The Trash Finesse
 
-- Normally, when a trash card is clued, it signifies a _Trash Chop Move_ or a _Trash Push_. However, for both of these strategies to work, it is assumed that the recipient of the clue will know that the card that was touched is useless.
+- Normally, when a trash card is clued, it signifies a _Trash Chop Move_ or a _Trash Push_. However, for both of these strategies to work, it is assumed that the recipient of the clue will know that the card that was touched is trash.
 - What if the recipient of the clue does **not** know that the card that the clued card is trash? Then, they would go on to misplay that card, mistaking it for a "normal" _Play Clue_.
 - If players misrepresent the identity of a trash card in this way, it is a signal that a player has the originally-promised card on their _Finesse Position_.
 - After a _Trash Finesse_, the player who was clued should _Chop Move_ all of the cards to the right of the trash card. (In other words, you can think of a _Trash Finesse_ as both a _Finesse_ and a _Trash Chop Move_ at the same time.)
-  - If the clued card in a _Trash Finesse_ was already on chop, then nothing extra happens.
-    - For level 24 players, an [extra thing happens](level-24.mdx#unnecessary-moves-with-unknown-trash-on-chop----trash-push).
+  - At level 23 and below, if the clued card in a _Trash Finesse_ was already on chop, then nothing extra happens.
+  - At level 24 and above, if the clued card in a _Trash Finesse_ was already on chop, an [extra thing happens](level-24.mdx#unnecessary-moves-with-unknown-trash-on-chop----trash-push).
 - For example, in a 4-player game:
   - All the 1's are played on the stacks except for red 1 and yellow 1.
-  - Alice clues number 1 to Donald, which touches a blue 1. To Donald, this will look like it is a red 1 or yellow 1.
-  - Bob sees that Cathy has a red 1 on her _Finesse Position_ and, thus, discards.
-  - Cathy blind-plays her _Finesse Position_ card and it is red 1.
-  - Donald discards his known-trash 1. He also marks his slot 3 and slot 4 cards as being _Chop Moved_.
+  - Alice clues number 1 to Donald, which touches a blue 1. To Donald, this will look like it is a _Play Clue_ on a red 1 or a yellow 1.
+  - Bob sees that Cathy has a red 1 on her _Finesse Position_. Thus, Bob knows that Alice's clue is a _Trash Finesse_ calling for Cathy's red 1. Bob discards.
+  - Cathy knows that she is promised a red 1 or yellow 1 to match Alice's 1 clue. Cathy blind-plays her _Finesse Position_ card and it is a red 1.
+  - Donald originally had a note of "r1, y1" on his 1. However, after Cathy's blind play, he updates his note to "trash". Additionally, Donald also marks his slot 3 and slot 4 cards as being _Chop Moved_.
 
 <TrashFinesse />
 
 - In the case where multiple cards are clued as part of a _Trash Finesse_, **all** of the newly touched cards are considered to be trash.
 - _Double Trash Finesses_ are explicitly disallowed. Thus, it is possible to perform a _Trash Finesse_ in a situation like this:
   - All the 1's are played on the stacks except for red 1 and blue 1.
-  - Alice clues number 1 to Donald, which touches two green 1's on slot 1 and 2. To Donald, this will look like it is both the red 1 and the blue 1.
-  - Like in the previous example, Bob sees that Cathy has a red 1 on her _Finesse Position_.
+  - Alice clues number 1 to Donald, which touches two green 1's on slot 1 and 2. To Donald, this will look like it is both the red 1 and the blue 1 (in either order).
+  - Similar to the previous example, Bob sees that Cathy has a red 1 on her _Finesse Position_.
   - At first glance, Bob might think that Alice is promising both red 1 and blue 1, which would mean that he would need to blind-play the blue 1.
   - However, a _Trash Finesse_ only promises one matching card, and since he sees that Cathy has a matching card, then that is good enough. Thus, Bob discards.
-  - Cathy blind-plays her _Finesse Position_ card and it is red 1.
-  - Donald knows that the focus of the clue (slot 1) is certainly trash, since that caused Cathy to blind-play.
-  - Furthermore, Donald knows that his slot 2 card is also trash, because all newly touched cards in a _Trash Finesse_ are guaranteed to be trash.
+  - Cathy knows that she is promised a red 1 or blue 1 to match Alice's 1 clue. Cathy blind-plays her _Finesse Position_ card and it is a red 1.
+  - Donald knows that the focus of the clue (slot 1) is trash, since it caused Cathy to blind-play. Furthermore, Donald knows that his slot 2 card is also trash, because all newly touched cards in a _Trash Finesse_ are guaranteed to be trash.
 
 <TrashFinesseTwoCards />
 
@@ -101,9 +100,9 @@ import ShoutDiscardOrderChopMove from "./level-14/shout-discard-order-chop-move.
   - From Bob's perspective, this is probably just a _Play Clue_ on the red 2 (which happens to be the final 2 that needs to be played).
   - However, Bob sees that Cathy also has a red 2 on her _Finesse Position_. That means that this could be a _Reverse Trash Finesse_.
   - If it is a _Reverse Trash Finesse_, then his 2 is a trash 2 (e.g. green 2). By immediately discarding it, it will prove to Cathy that _she_ has a red 2.
-  - Alternatively, if Bob does indeed have the red 2, then he can discard it to perform a _Gentleman's Discard_ on Cathy.
+  - Alternatively, if Bob has a red 2, then he can discard it to perform a _Gentleman's Discard_ on Cathy.
   - Either way, discarding will cover both cases. Bob discards the 2 and it is revealed to be a green 2.
-  - Cathy comes next. She was highly surprised when Alice gave Bob a number 2 clue on the green 2. From Cathy's perspective of Bob's perspective, the green 2 would immediately misplay as red 2. However, when Bob discards the green 2 instead of playing it, Alice's plan becomes clear. Cathy had the red 2 all along. Cathy blind-plays her _Finesse Position_ card as red 2.
+  - Cathy comes next. She was surprised when Alice gave Bob a number 2 clue on the green 2. From Cathy's perspective of Bob's perspective, the green 2 would immediately misplay as a red 2. However, when Bob discards the green 2 instead of playing it, Alice's plan becomes clear. Cathy had a red 2 all along. Cathy blind-plays her _Finesse Position_ card as a red 2.
   - Because this was a _Trash Finesse_, Bob _Chop Moves_ slot 2, slot 3, slot 4, and slot 5.
 
 <ReverseTrashFinesse />
@@ -116,7 +115,7 @@ import ShoutDiscardOrderChopMove from "./level-14/shout-discard-order-chop-move.
   - Bob's first thought is that this is a _Play Clue_ on the red 2 (which is the final 2 that needs to be played).
   - However, Bob sees both copies of the red 2. One is in the discard pile and the other is in Cathy's hand. That means that Bob's 2 cannot possibly be the red 2. Thus, Bob knows that this his 2 is trash.
   - Bob discards his 2, understanding that Alice performed a [_Trash Chop Move_](level-4.mdx#the-trash-chop-move-tcm).
-  - Cathy was highly surprised when Alice gave Bob a number 2 clue on the green 2. From Cathy's perspective of Bob's perspective, the green 2 would immediately misplay as red 2. However, when Bob discards the green 2 instead of playing it, Cathy knows that something else is happening.
+  - Cathy was surprised when Alice gave Bob a number 2 clue on the green 2. From Cathy's perspective of Bob's perspective, the green 2 would immediately misplay as red 2. However, when Bob discards the green 2 instead of playing it, Cathy knows that something else is happening.
   - Cathy's first thought is that this is a _Reverse Trash Finesse_ (and that she should play the red 2 from her _Finesse Position_).
   - However, Cathy knows that _Reverse Trash Finesses_ must have a _Gentleman's Discard_ component, and it is not possible to _Gentleman's Discard_ a critical red 2. Thus, Cathy just assumes that she has a red 2 somewhere in her hand, and discards.
 
@@ -134,8 +133,8 @@ import ShoutDiscardOrderChopMove from "./level-14/shout-discard-order-chop-move.
 ### The Trash Bluff
 
 - First, see the section on the _[Trash Finesse](#the-trash-finesse)_.
-- In a regular _Bluff_, Alice fibs Bob by pretending he has the connecting card on his _Finesse Position_. According to _Bob's Truth Principle_, Bob must assume Alice is telling the truth and only knows it's a fib after he blind-plays.
-- Similarly, in a _Trash Bluff_, Alice clues a trash card, forcing Bob to blind-play his _Finesse Position_. Bob will assume it's the originally-promised card and only knows it's a fib after he blind-plays.
+- In a regular _Bluff_, Alice performs a _Fib_ Bob by pretending he has the connecting card on his _Finesse Position_. According to _Bob's Truth Principle_, Bob must assume Alice is telling the truth and only knows it's a _Fib_ after he blind-plays.
+- Similarly, in a _Trash Bluff_, Alice clues a trash card, forcing Bob to blind-play his _Finesse Position_. Bob will assume it's the originally-promised card and only knows it's a _Fib_ after he blind-plays.
 - Just like a _Trash Finesse_, a _Trash Bluff_ will also _Chop Move_ all of the cards to the right of the trash card.
 - For example, in a 3-player game:
   - All of the 2's are played on the stacks **except** for the red 2.

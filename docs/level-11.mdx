@@ -27,7 +27,7 @@ import BluffPromptsPromptBluffs from "./level-11/bluff-prompts-prompt-bluffs.yml
 ### The Bluff
 
 - _Finesses_ are quite efficient. So, when you see a playable card in someone's _Finesse Position_ slot, you will often want to "get" the card with a _Finesse_ (instead of cluing it directly). However, oftentimes, the proper "connecting" card is not on the table.
-- In this situation, players can perform an alternate strategy by fibbing to the next player. By cluing an unrelated, _one-away-from-playable_ card, the next player will think that it is a _Finesse_ and that they have the connecting card. Then, they will blind-play their _Finesse Position_ card. This is called a _Bluff_.
+- In this situation, players can perform an alternate strategy. By cluing an unrelated, _one-away-from-playable_ card, the next player will think that it is a _Finesse_ and that they have the connecting card. Then, they will blind-play their _Finesse Position_ card. This is called a _Bluff_.
 - After the card is blind-played, the player who received the clue will realize that something strange has happened - the type of clue **did not connect** to the card that was blind-played. Thus, the clued card is not currently playable and must be a _one-away-from-playable_ card.
 - For example, in a 3-player game:
   - All the 2's are played on the stacks.
@@ -51,7 +51,7 @@ import BluffPromptsPromptBluffs from "./level-11/bluff-prompts-prompt-bluffs.yml
 
 #### Lie Principle
 
-- **_Bluffing_ is only allowed if the very next player will blind-play on the very next turn.**
+- Importantly, **_Bluffs_ are only allowed if the very next player will blind-play on the very next turn.**
 - We formalize this concept as _Lie Principle_:
   - If a card is represented to be something different than what it really is, and the state of misinformation resolves immediately (i.e. the very next turn), then it is called a _Fib_. _Fibbing_ is okay.
   - If a card is represented to be something different than what it really is, and the state of misinformation does not resolve immediately, it is called a _Lie_. _Lies_ are **illegal**. Players should **never** assume that they are _Lied_ to.

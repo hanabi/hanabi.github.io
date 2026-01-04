@@ -100,21 +100,21 @@ This page is a summary of the most commonly used conventions in the "Basic Strat
 
 ## Bluffs
 
-- A [_Bluff_](level-11.mdx) is a special move in which one tells a "fib" to the next player, causing them to blind-play a card as if they were being _Finessed_, only for the fib to revealed as soon as Bob blind-plays.
-- The focused card of the clue that triggers a _Bluff_ is called a _Bluff Target_.
+- A [_Bluff_](level-11.mdx) is a special move in which one tells a [_Fib_](level-11.mdx#lie-principle) to the next player, causing them to blind-play a card as if they were being _Finessed_. The _Fib_ is revealed as soon as they blind-play.
 - Because _Bluffs_ involve not telling the truth, we impose several restrictions on them. Say Alice is giving the clue.
   - A _Bluff_ can **only** be done on Bob.
-  - A _Bluff_ is only legal if **Bob would blind-play on the very next turn**, even assuming a _Finesse_ over a _Bluff_. In other words, Bob must blind-play even if he did not know about the _Bluff_ convention. This is called [_Bob's Truth Principle_](level-11.mdx#bobs-truth-principle-part-1).
-  - The only cards which may be used as the _Bluff Target_ are:
-    - Any card which is one-away-from-playable.
-    - Any 3 which is two-away-from-playable. This is called a [_3 Bluff_](level-13.mdx#the-3-bluff).
-    - Any 4 which is critical, but only if a color clue is used. This is called a [_Critical Color Bluff_](level-13.mdx#the-critical-color-bluff-ccb).
-  - Finally, the _Bluff Target_ must **not "connect" to the blind-played card** from Bob, so the clue is not mistaken for a _Finesse_ after the blind play. This is called [_Cathy's Connecting Principle_](level-11.mdx#cathys-connecting-principle-part-2), and the cases for what "connects" means exactly are written in detail there.
+  - Bob will always assume a _Finesse_ over a _Bluff. This is called [\_Bob's Truth Principle_](level-11.mdx#bobs-truth-principle-part-1).
+  - A _Bluff_ is only legal if **Bob would blind-play on the very next turn**.
+  - The only cards which may be used as a _Bluff_ target are:
+    - a one-away-from-playable card (normal _Bluff_)
+    - a two-away-from-playable 3 ([_3 Bluff_](level-13.mdx#the-3-bluff))
+    - a critical 4, but only if a color clue is used ([_Critical Color Bluff_](level-13.mdx#the-critical-color-bluff-ccb))
+  - The _Bluff_ target must **not "connect" to the blind-played card** from Bob, so the clue is not mistaken for a _Finesse_ after the blind play. This is called [_Cathy's Connecting Principle_](level-11.mdx#cathys-connecting-principle-part-2) and the cases for what "connects" means exactly are written in detail there.
 
 ### Double Bluffs
 
 - A [_Double Bluff_](level-15.mdx) is similar to a _Bluff_, but it causes **both Bob and Cathy** to blind-play their _Finesse Position_.
-- The focused card must **not** be a valid _Bluff Target_, and it must be at least two-away-from-playable.
+- The focused card must **not** be a valid _Bluff_ target, and it must be at least two-away-from-playable.
   (There is an exception called the [_Pestilent Double Bluff_](level-15.mdx#the-pestilent-double-bluff-pdb).)
 - In practice, _Double Bluffs_ are almost always given to a 4 for which the corresponding 2 has not yet been played.
   (This is because the 5 case is overwritten by the _5 Color Ejection_ defined later.)
