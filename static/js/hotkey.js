@@ -98,15 +98,16 @@ function navigateToNextSection() {
       return;
     }
   }
+
   // If no next section found, scroll to pagination nav at bottom.
-  scrollToSection(document.querySelector(".pagination-nav"));
+  const paginationNav = document.querySelector(".pagination-nav");
+  if (paginationNav !== null) {
+    scrollToSection(paginationNav);
+  }
 }
 
-/** @param {Element | null} section */
+/** @param {Element} section */
 function scrollToSection(section) {
-  if (!section) {
-    return;
-  }
   section.scrollIntoView();
   globalThis.history.pushState(undefined, "", `#${section.id}`);
 }
