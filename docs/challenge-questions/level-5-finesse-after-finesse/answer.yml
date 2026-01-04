@@ -12,7 +12,7 @@ players:
       - type: x
   - cards:
       - type: x
-        middleNote: "r1?"
+        middleNote: r1?
         below: Finesse?
       - type: x
         middleNote: r1, b2
@@ -21,7 +21,7 @@ players:
             - Finesse,
             - Play first
       - type: x
-        middleNote: "b2?"
+        middleNote: b2?
         below: Finesse?
       - type: x
   - clueGiver: true

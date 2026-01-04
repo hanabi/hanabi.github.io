@@ -25,7 +25,7 @@ players:
       - type: 2
         middleNote: y2
       - type: x
-        above: "Yellow 1"
+        above: Yellow 1
         middleNote: 1
         below:
           text: Play
