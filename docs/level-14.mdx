@@ -66,7 +66,7 @@ import ShoutDiscardOrderChopMove from "./level-14/shout-discard-order-chop-move.
 - What if the recipient of the clue does **not** know that the card that the clued card is trash? Then, they would go on to misplay that card, mistaking it for a "normal" _Play Clue_.
 - If players misrepresent the identity of a trash card in this way, it is a signal that a player has the originally-promised card on their _Finesse Position_.
 - After a _Trash Finesse_, the player who was clued should _Chop Move_ all of the cards to the right of the trash card. (In other words, you can think of a _Trash Finesse_ as both a _Finesse_ and a _Trash Chop Move_ at the same time.)
-  - At level 23 and below, if the clued card in a _Trash Finesse_ was already on chop, then nothing extra happens.
+  - At level 23 and below, if the clued card in a _Trash Finesse_ was already on chop, nothing extra happens.
   - At level 24 and above, if the clued card in a _Trash Finesse_ was already on chop, an [extra thing happens](level-24.mdx#unnecessary-moves-with-unknown-trash-on-chop----trash-push).
 - For example, in a 4-player game:
   - All the 1's are played on the stacks except for red 1 and yellow 1.
@@ -132,10 +132,11 @@ import ShoutDiscardOrderChopMove from "./level-14/shout-discard-order-chop-move.
 
 ### The Trash Bluff
 
-- First, see the section on the _[Trash Finesse](#the-trash-finesse)_.
-- In a regular _Bluff_, Alice performs a _Fib_ Bob by pretending he has the connecting card on his _Finesse Position_. According to _Bob's Truth Principle_, Bob must assume Alice is telling the truth and only knows it's a _Fib_ after he blind-plays.
-- Similarly, in a _Trash Bluff_, Alice clues a trash card, forcing Bob to blind-play his _Finesse Position_. Bob will assume it's the originally-promised card and only knows it's a _Fib_ after he blind-plays.
-- Just like a _Trash Finesse_, a _Trash Bluff_ will also _Chop Move_ all of the cards to the right of the trash card.
+- First, see the sections on [_Cathy's Connecting Principle_](level-11.mdx#cathys-connecting-principle-part-2) the _[Trash Finesse](#the-trash-finesse)_.
+- In the case of a normal _Finesse_, a playable red 1 would "connect" to a _one-away-from-playable_ red 2.
+- In the case of a _Trash Finesse_, a playable red 1 would "connect" to a trash blue 1.
+- Just like how it is possible to get non-connecting cards with a normal _Bluff_, it is also possible to get non-connecting cards with a _Trash Bluff_.
+- Both _Trash Finesses_ and _Trash Bluffs_ will _Chop Move_ all of the cards to the right of the trash card.
 - For example, in a 3-player game:
   - All of the 2's are played on the stacks **except** for the red 2.
   - Cathy has no clued cards in her hand.
