@@ -32,5 +32,9 @@
     "plugins/hanabiDocusaurusPlugin/plugin",
   ],
 
+  "compilerOptions": {
+    "lib": ["ES2023", "DOM", "DOM.Iterable"],
+  },
+
   // @template-customization-end
 }
