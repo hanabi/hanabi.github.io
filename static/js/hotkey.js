@@ -4,17 +4,22 @@ const LAST_DOC_PAGE_TITLE = "Convention Attribution";
 const MAX_LEVEL = 25;
 
 const KEY_MAP = new Map([
-  ["ArrowLeft", navigateBackwards],
-  ["ArrowRight", navigateForwards],
+  ["ArrowLeft", navigateToPreviousPage],
+  ["ArrowRight", navigateToNextPage],
   ["l", goToSpecificLevel],
+]);
+
+const SHIFT_KEY_MAP = new Map([
+  ["ArrowLeft", navigateToPreviousSection],
+  ["ArrowRight", navigateToNextSection],
 ]);
 
 main();
 
 function main() {
   document.addEventListener("keydown", (event) => {
-    // Do not do anything if we have any modifier keys pressed down.
-    if (event.ctrlKey || event.shiftKey || event.altKey || event.metaKey) {
+    // Do not do anything if we have Ctrl, Alt or Meta modifier keys pressed down.
+    if (event.ctrlKey || event.altKey || event.metaKey) {
       return;
     }
 
@@ -23,7 +28,9 @@ function main() {
       return;
     }
 
-    const keyFunction = KEY_MAP.get(event.key);
+    const keyFunction = (event.shiftKey ? SHIFT_KEY_MAP : KEY_MAP).get(
+      event.key,
+    );
     if (keyFunction !== undefined) {
       keyFunction();
     }
@@ -36,7 +43,7 @@ function isInputFocused() {
   return document.activeElement instanceof HTMLInputElement;
 }
 
-function navigateBackwards() {
+function navigateToPreviousPage() {
   if (isOnLandingPage()) {
     return;
   }
@@ -49,7 +56,7 @@ function navigateBackwards() {
   clickFirstNavButton();
 }
 
-function navigateForwards() {
+function navigateToNextPage() {
   if (isOnLandingPage()) {
     clickOnFirstLandingPageButton();
     return;
@@ -65,6 +72,44 @@ function navigateForwards() {
   }
 
   clickSecondNavButton();
+}
+
+function navigateToPreviousSection() {
+  const sections = document.querySelectorAll("h2[id], h3[id]");
+  for (const section of [...sections].toReversed()) {
+    // Return first section above current position (iterating backwards), keeping in mind the top
+    // navigation bar and a small threshold.
+    if (section.getBoundingClientRect().top < 50) {
+      scrollToSection(section);
+      return;
+    }
+  }
+  // If no previous section found, scroll to top.
+  scrollToSection(document.documentElement);
+}
+
+function navigateToNextSection() {
+  const sections = document.querySelectorAll("h2[id], h3[id]");
+  for (const section of sections) {
+    // Return first section below current position, keeping in mind the top navigation bar and a
+    // small threshold.
+    if (section.getBoundingClientRect().top > 70) {
+      scrollToSection(section);
+      return;
+    }
+  }
+
+  // If no next section found, scroll to pagination nav at bottom.
+  const paginationNav = document.querySelector(".pagination-nav");
+  if (paginationNav !== null) {
+    scrollToSection(paginationNav);
+  }
+}
+
+/** @param {Element} section */
+function scrollToSection(section) {
+  section.scrollIntoView();
+  globalThis.history.pushState(undefined, "", `#${section.id}`);
 }
 
 function goToSpecificLevel() {

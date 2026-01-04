@@ -32,5 +32,13 @@
     "plugins/hanabiDocusaurusPlugin/plugin",
   ],
 
+  "compilerOptions": {
+    "lib": [
+      "ES2023", // Needed for "Array.toReversed"
+      "DOM", // Needed for "hotkey.js"
+      "DOM.Iterable", // Needed for "hotkey.js"
+    ],
+  },
+
   // @template-customization-end
 }
