@@ -1,0 +1,39 @@
+stacks:
+  - r: 0
+  - y: 0
+  - g: 0
+  - b: 1
+  - p: 0
+players:
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+        middleNote: "r1?"
+        below: Finesse?
+      - type: x
+        middleNote: r1, b2
+        below:
+          text:
+            - Finesse,
+            - Play first
+      - type: x
+        middleNote: "b2?"
+        below: Finesse?
+      - type: x
+  - clueGiver: true
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+      - type: b3
+      - type: r2
+        clue: r
+        below: Play
+      - type: x

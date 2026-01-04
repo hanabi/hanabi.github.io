@@ -254,6 +254,10 @@ const sidebars: SidebarsConfig = {
             "challenge-questions/level-5",
             "challenge-questions/level-5-what-s-hidden",
             "challenge-questions/level-5-the-onion",
+            "challenge-questions/level-5-finesse-after-finesse",
+            "challenge-questions/level-5-a-tricky-spot-i",
+            "challenge-questions/level-5-a-tricky-spot-ii",
+            "challenge-questions/level-5-bob-is-lazy",
           ],
         },
         {

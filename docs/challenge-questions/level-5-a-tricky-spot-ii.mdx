@@ -1,0 +1,51 @@
+---
+title: A Tricky Spot, II
+---
+
+import ChallengeQuestionProgress from "@site/src/challengeQuestions.tsx";
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Question from "./level-5-a-tricky-spot-ii/question.yml";
+import Answer from "./level-5-a-tricky-spot-ii/answer.yml";
+
+<ChallengeQuestionProgress level={5} id="level-5-a-tricky-spot-ii" />
+
+<Tabs
+  queryString="tab"
+  defaultValue="question"
+  values={[
+    {label: 'Question', value: 'question'},
+    {label: 'Solution', value: 'solution'},
+  ]}>
+<TabItem value="question">
+
+- The purple 1 is played on the stacks.
+- Cathy has a globally known green 1 in her hand.
+- Alice can see that
+  - Bob has a red 1 on his finesse position,
+  - Cathy has the following cards from newest to oldest: Red 2, yellow 4, green 1, blue 3.
+  - Donald has the following cards from newest to oldest: Red 2, purple 4, green 4, blue 2.
+- Which clues are available to Alice?
+- Which clue is the best to give?
+
+<Question />
+
+</TabItem>
+<TabItem value="solution">
+
+- Alice has the following clues available:
+  - She can _2 Save_ the blue 2. This is safe a 2-for-1, but doesn't get any cards to play.
+  - She can give a _Play_ clue to the red 1 (with either red or 1, depending on Bob's other cards). This is a 1-for-1.
+  - She can give a _Finesse_ clue to either red 2. This is a 2-for-1, and preferable to the other options.
+- But she is in a tricky situation, because both red 2's are on finesse positions, so if she gives a red clue, both Cathy and Donald will mark their red card as possibly the red 3, leading to an _Ambiguous_ situation, where the blue 2 might discard from the confusion.
+- Since Cathy already has a card to play, and Donald has an important card on chop, the best clue for Alice is to make Donald play the red 2.
+- Since all players know about the _Urgency Principle_, it is safe to clue red to Donald, and this is her best option.
+- This is a finesse on Bob, so Bob plays his red 1, and Donald will mark his 2 as the red 2 or the red 3.
+- Cathy doesn't known about her red 2, so she plays the green 1.
+- Donald knows that Cathy must follow the _Urgency Principle_ and should play the red 2 if his red card wasn't playable.
+- Donald therefore plays his red card, it successfully plays as the red 2.
+
+<Answer />
+
+</TabItem>
+</Tabs>
