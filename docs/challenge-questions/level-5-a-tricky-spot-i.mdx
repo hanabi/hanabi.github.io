@@ -20,10 +20,10 @@ import Answer from "./level-5-a-tricky-spot-i/answer.yml";
 <TabItem value="question">
 
 - The purple 1 is played on the stacks.
-- Cathy has a globally known green 1 in her hand.
 - Alice can see that
   - Bob has a red 1 on _Finesse Position_,
   - Cathy's hand is, from newest to oldest: `red 2, yellow 4, green 1, blue 3`
+  - Cathy's green 1 was clued earlier with a green clue and is thus globally known as green 1.
   - Donald's hand is, from newest to oldest: `red 2, purple 4, green 4, blue 5`
 - Which clues are available to Alice?
 - Which clue is the best to give?
@@ -34,7 +34,7 @@ import Answer from "./level-5-a-tricky-spot-i/answer.yml";
 <TabItem value="solution">
 
 - Alice has the following clues available:
-  - She can _5 Save_ the blue 5. This is safe, but doesn't get any cards to play.
+  - She can _5 Save_ the blue 5. This is safe, but does not get any cards to play.
   - She can give a _Play_ clue to the red 1 (with either red or 1, depending on Bob's other cards). This is a 1-for-1.
   - She can give a _Finesse_ clue to either red 2. This is a 2-for-1, and preferable to the other options.
 - However, since both red 2's are on _Finesse Position_, if Alice gives a red clue, both Cathy and Donald will mark their red card as possibly the red 3, leading to an [_Ambiguous Finesse_](../level-5.mdx#the-ambiguous-finesse). This might result in the blue 5 being discarded.
