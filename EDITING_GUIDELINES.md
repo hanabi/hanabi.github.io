@@ -1,4 +1,4 @@
-# Hanabi Documentation Editing Guidelines
+# H-Group Conventions Editing Guidelines
 
 ## Capitalization and Formatting of Game Terms
 
