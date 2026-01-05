@@ -33,6 +33,12 @@ These conventions apply to any variant with an orange (inverted) suit.
   - All the 1's are played on the stacks except for the orange 1.
   - Alice clues number 1 to Bob, touching a 1 on slot 1 as a _Play Clue_.
   - Bob assumes that it is the orange 1 and discards it. It is an orange 1 and successfully plays on the stacks.
+- Additionally, rank _Play Clues_ to orange cards are assumed over _Self-Finesses_, which should follow from _Occam's Razor_.
+- For example, in a 3-player game:
+  - Orange 1 is played on the stacks.
+  - Alice clues number 2 to Bob, touching a 2 on slot 1 as a _Play Clue_.
+  - Bob knows that this is either a direct _Play Clue_ on an orange 2, or a _Self-Finesse_ on e.g. red 1 into red 2. However, Bob knows that the _Non-Orange Rank Play Clue Assumption_ is turned off when orange is the only possibility.
+  - Bob discards his 2. It is an orange 2 and it successfully plays on the stacks.
 
 ### The Orange Color Play Clue Assumption
 
@@ -111,20 +117,21 @@ These conventions apply to any variant with an orange (inverted) suit.
   - Instead of blind-discarding a red 1, Bob blind-discards a red 3.
   - Like the previous example, Cathy knows that her orange card is orange 3. Furthermore, Cathy knows that someone must have the other copy of the red 3. Cathy does not see the red 3 in anyone else's hand, so she marks her non-orange cards as possible red 3's.
 
-### The Defiant 3 Bluff
+### The Defiant Bluff
 
-- Normally, if Alice clues an orange 3 with a number 3 _Play Clue_, then Bob would think he has the orange 1 and the orange 2 as a _Double Finesse_ (because of _Bob's Truth Principle_).
-- However, we agree that number 3 clues to an orange 3 always call for a _Known Bluff_ on a non-orange card. (In other words, we agree to turn off _Bob's Truth Principle_ for this specific type of clue.)
-- For example, in a 3-player game of "Orange (5 Suits)":
-  - All of the 1's are played on the stacks except for the red 1.
-  - Alice clues number 3 to Cathy, touching an orange 3 on slot 1 as a _Play Clue_.
-  - Normally, Bob would think that this is a _Finesse_ on orange 2 into orange 3. However, he also knows that because the _Defiant 3 Bluff_ convention exists, he should treat it as a _Known Bluff_ instead.
+- Normally, if Alice clues a _two-away-from-playable_ orange card with a _Play Clue_, it would promise a _Double Finesse_ (because of _Bob's Truth Principle_).
+- However, we agree that all _Play Clues_ to _two-or-more-away-from-playable_ orange cards call for a _Known Bluff_ (or a _Known Double Bluff_) on non-orange cards. (In other words, we agree to turn off _Bob's Truth Principle_ for this specific type of clue.)
+- For example, in a 3-player game:
+  - It is the first turn of the game and nothing is played on the stacks.
+  - Alice clues orange to Cathy, touching an orange 3 on slot 1 as a _Play Clue_.
+  - Normally, Bob would think that this is a _Double Finesse_ on orange 1 and orange 2 into orange 3. However, he also knows that because the _Defiant 3 Bluff_ convention exists, he should treat it as a _Known Bluff_ instead.
   - Bob blind-plays his _Finesse Position_. It is a red 1 was successfully plays on the stacks.
   - Cathy knows that:
-    - If Alice's clue was a normal _Bluff_, she would have the yellow 3, the green 3, the blue 3.
-    - If Alice's clue was a _3 Bluff_, she would have the red 3.
-    - If Alice's clue was a _Defiant 3 Bluff_, she would have the orange 3.
-  - Thus, Cathy knows that her 3 can be any suit.
+    - Cathy's orange card cannot be orange 1, because then Bob would not have done anything special.
+    - Cathy's orange card cannot be orange 2, because then Bob would have blind-discarded his _Finesse Position_.
+    - Cathy's orange card could be an orange 3 as a _Defiant Bluff_.
+    - Cathy's orange card cannot be an orange 4, because orange 4 is not a valid _Bluff_ target. (However, if orange 4 was critical, then it could be an orange 4 as a _Defiant Critical Color Bluff_.)
+  - Thus, Cathy knows that her orange card is exactly orange 3.
 
 ### Ejections & Discharges & Charms on Orange Cards
 
