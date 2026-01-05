@@ -1,0 +1,34 @@
+stacks:
+  - r: 0
+  - y: 1
+  - g: 2
+  - b: 0
+  - p: 1
+players:
+  - clueGiver: true
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+        above: Yellow 2
+        below: Bluff
+      - type: x
+      - type: x
+      - type: p5
+        clue: p
+        retouched: true
+        below: Play
+      - type: x
+  - cards:
+      - type: r1
+        border: false
+        below: Bluff
+      - type: y4
+        border: false
+      - type: x
+      - type: x
+      - type: x
