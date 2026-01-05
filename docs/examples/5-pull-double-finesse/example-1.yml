@@ -1,0 +1,47 @@
+suits:
+  k: black
+stacks:
+  - r: 0
+  - y: 0
+  - g: 0
+  - b: 1
+  - k: 0
+bigText:
+  text: Hard
+players:
+  - clueGiver: true
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+        above: Yellow 1
+        below: Finesse
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: y2
+        border: false
+        below: FInesse
+      - type: x
+      - type: x
+      - type: x
+  - space
+  - cards:
+      - type: b5
+        clue: 5
+      - type: k5
+        clue: 5
+        below: Pull
+      - type: y3
+        border: false
+        below: Pulled
+      - type: x
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
