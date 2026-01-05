@@ -4,6 +4,8 @@ Please visit the **[conventions website](https://hanabi.github.io/)**.
 
 This is the GitHub repository for the website. It is built with [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
+Before editing, please review the [editing guidelines](EDITING_GUIDELINES.md) to ensure consistency with the project's style.
+
 ## What is a Pull Request?
 
 If you're in the H-Group, then you might want to help edit the website. Maybe you want to fix some typos. Or maybe you want to add a new example. Or maybe you proposed a new convention, and it got voted in, and now you need to add a new section. Regardless of what you are doing, you will need to submit a _pull request_.

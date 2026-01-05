@@ -1,0 +1,101 @@
+# Hanabi Documentation Editing Guidelines
+
+## Capitalization and Formatting of Game Terms
+
+1. **Always capitalize and italicize these specific terms:**
+   - _Finesse Position_ (not "finesse position")
+   - _Play Clue_ (not "play clue")
+   - _Save Clue_ (not "save clue")
+   - Other convention names: _Prompt_, _Finesse_, _Bluff_, _Chop Move_, _Trash Chop Move_, _Gentleman's Discard_, etc.
+
+2. **Inflected forms should also be italicized:**
+   - _Finessed_ (not "finessed")
+   - _Finesseable_ (not "finesseable")
+   - _Chop Moved_ (not "chop moved")
+   - _Prompted_ (not "prompted")
+
+3. **Compound terms - only capitalize/italicize the convention part:**
+   - "_Bluff_ target" (not "_Bluff Target_")
+
+## Hand Descriptions
+
+4. **Use code formatting (backticks) for card lists, and use lowercase for card names in lists:**
+   - "Cathy's hand is, from newest to oldest: `red 2, yellow 4, green 1, blue 3`"
+
+## Card Notes
+
+5. **Use compact shorthand notation for card notes in written text:**
+   - Use lowercase letters for colors: r (red), g (green), b (blue), y (yellow), p (purple), m (multicolor/rainbow)
+   - ✓ Bob writes "r2" (not "red 2")
+   - ✓ Bob writes "b3, p3" (not "blue 3, purple 3")
+
+6. **When multiple cards are possible, use commas with spaces:**
+   - ✓ "r2, g2, b2" (not "rgb2")
+   - ✓ "b2, b3" (not "b23")
+   - In YAML `middleNote` fields, use the same format
+
+7. **Special card note abbreviations:**
+   - `cm` for _Chop Moved_ cards
+   - `kt` for known trash cards
+   - When using these in YAML, also set the corresponding attribute (`cm: true` or `trash: true`)
+
+8. **For conditional notes, use descriptive phrases:**
+   - "r2 or r3 if blue 2 f" (f = finesse)
+   - "b2, b3 if blue 2 f | b3" (using pipe to show note update after another action)
+
+## Writing Style
+
+9. **Be precise and explicit about player perspectives:**
+   - Show what each player knows vs. what they assume
+   - Use phrases like "From Bob's perspective" or "Bob sees that..."
+   - Example: "Bob sees that Cathy will go on to misplay the blue 2 as a red 2. Thus, Bob knows that he is promised to have the red 2."
+
+10. **Use clear, step-by-step explanations:**
+    - Break down complex scenarios into discrete steps
+    - Show the reasoning chain for each player
+    - Make implicit assumptions explicit
+
+## Cross-References
+
+11. **Reference other sections consistently:**
+    - ✓ "First, see the section on the _[Move Name]_"
+    - For forward references: "For level N players, see..."
+    - Always use italics for move names in references
+
+## Lists and Bullets
+
+12. **Use dashes for bullets** (not asterisks):
+    - Use `-` for main bullets
+    - Use `  -` (two-space indent) for sub-bullets
+
+13. **Introduce lists with colons:**
+    - "There is a 4-step process:"
+    - "You are allowed to give a _Save Clue_ on these specific cards:"
+
+14. **Punctuation in bullets:**
+    - No periods at end of bullets that are fragments
+    - Periods at end of bullets that are complete sentences
+
+## Section Organization
+
+15. **Standard section hierarchy when present:**
+    - ## Conventions
+    - ## Special Moves
+    - ## General Principles
+    - ## Common Mistakes
+    - ## Challenge Questions (always at end)
+
+16. **Move/convention naming in headers:**
+    - "### The [Move Name] ([ABBREVIATION])"
+
+## Emphasis Patterns
+
+17. **Use bold for modal verbs and negations:**
+    - **must**, **only**, **always**, **never**, **not**
+    - Example: "Players should **never** assume..."
+
+## Card Notation in Prose
+
+18. **Full card names use lowercase:**
+    - "a red 2" (color then number, no hyphen)
+    - In shorthand notes: "r2", "b3", "y5"
