@@ -393,7 +393,7 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
   - Instead of playing her red 1, Cathy clues red to Donald, touching a red 3 on slot 1 and a red 2 on slot 2. This must be a _Play Clue_, since these cards are not on Donald's chop.
   - Donald knows that since Cathy is not playing her red 1 and giving a clue, she must have a good reason.
   - Donald looks around the table and does not see the red 2 in anybody else's _Finesse Position_. Thus, this cannot be a _Selfish Finesse_.
-  - Donald also knows that this cannot be a _Self Finesse_. (Donald has a negative red clue on his _Finesse Position_ card.)
+  - Donald also knows that this cannot be a _Self-Finesse_. (Donald has a negative red clue on his _Finesse Position_ card.)
   - Thus, this must be a _Selfish Focus Inversion_, so Donald marks his rightmost card as red 2 for later. The other red card in his hand can be red 3, red 4, or red 5. Donald discards.
 - This convention was deleted since it was prone to misinterpretation and was too rare to be useful.
 
