@@ -1,0 +1,38 @@
+stacks:
+  - r: 3
+  - y: 1
+  - g: 1
+  - b: 0
+  - p: 0
+players:
+  - clueGiver: true
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+        above: Blue 2
+        middleNote: g3
+        below: Bluff
+      - type: x
+        above: Purple 1
+        below: Bluff
+      - type: 5
+      - type: 2
+        above: Green 2
+        middleNote: g2
+        below: Prompt
+      - type: 5
+  - cards:
+      - type: rybp
+        border: false
+      - type: rybp4
+      - type: g4
+        clue: g
+        retouched: true
+        below: Play
+      - type: rybp3
+      - type: rybp3
