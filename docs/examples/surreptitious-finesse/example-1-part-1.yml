@@ -1,0 +1,48 @@
+stacks:
+  - r: 0
+  - y: 0
+  - g: 0
+  - b: 0
+  - p: 0
+bigText:
+  text: First turn
+players:
+  - clueGiver: true
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: b2
+        border: false
+        below: Finesse?
+      - type: p1
+        border: false
+      - type: y5
+        border: false
+      - type: 3
+        clue: 3
+        below: Play
+  - cards:
+      - type: r1
+        border: false
+        below: Finesse?
+      - type: p1
+        border: false
+        below: Finesse?
+      - type: r2
+        border: false
+        below: Finesse?
+      - type: b1
+        border: false
+        below: Finesse?
+  - cards:
+      - type: y3
+        border: false
+      - type: p3
+        border: false
+      - type: g1
+        border: false
+      - type: b5
+        border: false
