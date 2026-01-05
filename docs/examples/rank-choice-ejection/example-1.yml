@@ -1,0 +1,49 @@
+stacks:
+  - r: 0
+  - y: 4
+  - g: 3
+  - b: 0
+  - m: 4
+players:
+  - clueGiver: true
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+      - type: x
+        above: Yellow 5
+        below: Ejection
+      - type: x
+      - type: x
+      - type: 3
+  - cards:
+      - type: g3
+        border: false
+      - type: y1
+        border: false
+      - type: y2
+        border: false
+      - type: m5
+        clue: 5
+        below: Save
+      - type: b5
+        clue: 5
+        retouched: true
+  - text: "After Bob ejects:"
+  - offset: -1
+    cards:
+      - type: g3
+        border: false
+      - type: y1
+        border: false
+      - type: y2
+        border: false
+      - type: m5
+        middleNote: y5, m5
+        below: Playable
+      - type: b5
+        retouched: true

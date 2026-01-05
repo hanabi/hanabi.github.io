@@ -2,19 +2,25 @@
 title: Examples of the Rank Choice Ejection
 ---
 
+import Example1 from "./rank-choice-ejection/example-1.yml";
+
 The _[Rank Choice Ejection](../extras/ejections.mdx#the-rank-choice-ejection-with-a-number-2-or-a-number-5-rce)_ is an advanced strategy.
 
 ### Example 1
 
-![Example Screenshot](/img/examples/rank-choice-ejection.png)
-
-- It is IAMJEFF's turn.
-- IAMJEFF wants to clue the rainbow 5. He could use either a blue clue or a number 5 clue to do so:
+In a 3-player rainbow game:
+- Yellow 4, green 3 and rainbow 4 are played on the stacks.
+- Bob has an unclued yellow 5 on his _Second Finesse Position_.
+- Cathy has an unclued rainbow 5 on her slot 4, and a blue 5 previously clued with number 5 on her slot 5.
+- Alice wants to clue the rainbow 5 in Cathy's hand. She could use either a color clue or a number 5 clue to do so:
   - A blue clue would be good because it would be a clear _Play Clue_ on the card (and would also "fill-in" the blue 5).
-  - A number 5 could would be bad because it would be a _Save Clue_. pianoblook would have to account for the fact that the 5 _could_ be the red 5, and pianoblook would not be able to play it quite yet.
-- IAMJEFF clues number 5 to pianoblook, touching the rainbow 5 on _Chop_.
-- Now, it's piper's turn. piper knows that IAMJEFF could have "cleanly" given a blue clue to pianoblook.
-- piper knows that IAMJEFF must be trying to send an additional message:
-  - If piper does nothing, pianoblook will treat it as a _5 Save_.
-  - If piper blind-plays his _Finesse Position_, pianoblook might think it is a _Finesse_ or _Bluff_ on a muddy rainbow card (which is not true).
-- Thus, piper blind-plays his _Second Finessed Position_ as a _Rank Choice Ejection_.
+  - A number 5 could would be bad because it would look like a _Save Clue_ on an unplayable 5.
+- Alice still chooses to clue number 5 to Cathy, touching the rainbow 5 on _Chop_.
+- Now, it's Bob's turn. Bob knows that Alice could have "cleanly" given a blue clue to Cathy.
+- Bob knows that Alice must be trying to send an additional message:
+  - If Bob does nothing, Cathy will treat it as a _5 Save_.
+  - If Bob blind-plays his _Finesse Position_, Cathy might think it is a _Finesse_ or _Bluff_ on a green 5 (which is not true).
+- Thus, Bob blind-plays his _Second Finessed Position_ as a _Rank Choice Ejection_.
+- This signals to Cathy that Alice's clue was not a _Save Clue_ after all, but a _Play Clue_ on the yellow or rainbow 5.
+
+<Example1 />
