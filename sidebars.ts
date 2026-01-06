@@ -258,6 +258,19 @@ const sidebars: SidebarsConfig = {
           ],
         },
         {
+          "Level 7": [
+            "challenge-questions/level-7",
+            "challenge-questions/level-7-alice-is-forgetful",
+            "challenge-questions/level-7-bob-is-forgetful",
+            "challenge-questions/level-7-screaming-into-the-void",
+            "challenge-questions/level-7-the-silent-scream",
+            "challenge-questions/level-7-alice-loves-garbage",
+            "challenge-questions/level-7-too-few-clues",
+            "challenge-questions/level-7-another-scream-discard",
+            "challenge-questions/level-7-should-this-blind-play",
+          ],
+        },
+        {
           "Level 8": [
             "challenge-questions/level-8",
             "challenge-questions/level-8-question-1",

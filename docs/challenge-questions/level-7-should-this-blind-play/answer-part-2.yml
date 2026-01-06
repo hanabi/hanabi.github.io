@@ -1,0 +1,32 @@
+stacks:
+  - r: 3
+  - y: 5
+  - g: 3
+  - b: 3
+  - p: 5
+bigText:
+  text: 0 strikes left
+  color: red
+players:
+  - clueGiver: true
+    cards:
+      - type: x
+      - type: x
+      - type: x
+        below: Discard
+      - type: 1234
+        cm: true
+        middleNote: cm
+        below:
+          text: Not play
+          color: Red
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x

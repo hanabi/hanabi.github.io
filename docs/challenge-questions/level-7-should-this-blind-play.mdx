@@ -1,0 +1,48 @@
+---
+title: Should this Blind-Play?
+---
+
+import ChallengeQuestionProgress from "@site/src/challengeQuestions.tsx";
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Question from "./level-7-should-this-blind-play/question.yml";
+import AnswerPart1 from "./level-7-should-this-blind-play/answer-part-1.yml";
+import AnswerPart2 from "./level-7-should-this-blind-play/answer-part-2.yml";
+
+<ChallengeQuestionProgress level={7} id="level-7-should-this-blind-play" />
+
+<Tabs
+  queryString="tab"
+  defaultValue="question"
+  values={[
+    {label: 'Question', value: 'question'},
+    {label: 'Solution', value: 'solution'},
+  ]}>
+<TabItem value="question">
+
+- Red 3, yellow 5, green 3, blue 3, and purple 5 have been played on the stacks.
+- Alice has a [_Chop Moved_](../level-4.mdx#the-5s-chop-move-5cm) card from several turns ago, with a negative 5 clue.
+- Should Alice blind-play this card? What are the considerations?
+
+<Question />
+
+</TabItem>
+<TabItem value="solution">
+
+- Alice must first figure out whether this card is safe to play:
+  - It cannot be a 5 (from negative clues), so it is not _Critical_.
+  - It _can_ be a red, green or blue 4, which would successfully play.
+  - It can also be any other card in the game, which would cause a strike to happen.
+  - Since the card has been chop moved, it is more likely to be a useful card than not.
+- According to the [_Blind-Playing Chop Moved Cards_](../level-7.mdx#blind-playing-chop-moved-cards) principle, players should blind-play their _Chop Moved_ cards if they have a pretty good chance of being playable, and if the team has one or more strikes to spare.
+- **If the team has a strike to spare**, Alice should risk playing the card, since it is more efficient than waiting for a teammate to clue the card.
+
+<AnswerPart1 />
+
+- However, if the team does **not** have a strike to spare, misplaying the card could lose the game, so Alice should **not** risk playing the card.
+- She should instead discard her chop (or find a useful clue to give), waiting for the other players to tell her whether to play this card or not.
+
+<AnswerPart2 />
+
+</TabItem>
+</Tabs>

@@ -1,0 +1,34 @@
+stacks:
+  - r: 2
+  - y: 2
+  - g: 2
+  - b: 2
+  - p: 2
+players:
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+      - type: r3
+        border: false
+        below:
+          text:
+            - "No"
+            - Finesse
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+        above: Red 3
+        middleNote: r3
+        below:
+          text:
+            - Finesse,
+            - Play
+      - type: x
+      - type: 4
+        middleNote: r4
+      - type: x

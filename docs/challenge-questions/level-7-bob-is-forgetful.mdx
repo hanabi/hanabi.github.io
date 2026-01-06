@@ -1,0 +1,40 @@
+---
+title: Bob is Forgetful
+---
+
+import ChallengeQuestionProgress from "@site/src/challengeQuestions.tsx";
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Question from "./level-7-bob-is-forgetful/question.yml";
+import Answer from "./level-7-bob-is-forgetful/answer.yml";
+
+<ChallengeQuestionProgress level={7} id="level-7-bob-is-forgetful" />
+
+<Tabs
+  queryString="tab"
+  defaultValue="question"
+  values={[
+    {label: 'Question', value: 'question'},
+    {label: 'Solution', value: 'solution'},
+  ]}>
+<TabItem value="question">
+
+- All the 2's have been played on the stacks.
+- Alice uses the last clue to clue number 4 to Cathy. This is a _Finesse_ on Bob's red 3.
+- Bob is now left with 0 clues, but forgets to play his red 3 and instead discards his chop.
+- What notes should Cathy write? What should Cathy do on her turn?
+
+<Question />
+
+</TabItem>
+<TabItem value="solution">
+
+- Bob is not forgetful, he deliberately discarded instead of blind-playing his _Finessed_ card.
+- From [_Urgency Principle_](../level-5.mdx#urgency-principle-playing-into-finesses-as-soon-as-possible), blind-plays should happen as soon as possible, and if Bob just had blind-played his red 3, Cathy could easily play her red 4.
+- So this is in fact **not** a [_Scream Discard_](../level-7.mdx#the-scream-discard-chop-move-sdcm), because Bob's known play was from a _Finesse_, and Cathy might actually also have a red 3 on her _Finesse Position_ (from an _Ambiguous Finesse_).
+- Therefore, Cathy should not _Chop Move_ anything, and instead blind-play her _Finesse Position_, expecting it to be the other red 3.
+
+<Answer />
+
+</TabItem>
+</Tabs>

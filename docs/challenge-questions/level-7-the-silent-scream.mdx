@@ -1,0 +1,44 @@
+---
+title: The Silent Scream
+---
+
+import ChallengeQuestionProgress from "@site/src/challengeQuestions.tsx";
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Question from "./level-7-the-silent-scream/question.yml";
+import Answer from "./level-7-the-silent-scream/answer.yml";
+
+<ChallengeQuestionProgress level={7} id="level-7-the-silent-scream" />
+
+<Tabs
+  queryString="tab"
+  defaultValue="question"
+  values={[
+    {label: 'Question', value: 'question'},
+    {label: 'Solution', value: 'solution'},
+  ]}>
+<TabItem value="question">
+
+- There are 2 clues available.
+- Yellow 1, green 2 and blue 2 have been played on the stacks. All other stacks are empty.
+- Alice has a globally known playable green 3 and a known-trash yellow 1.
+- Bob has a blue 4 on chop.
+- Alice discards the known-trash yellow 1 instead of playing the green 3.
+- Is this move legal? If so, what is this move called?
+- How should Bob react?
+
+<Question />
+
+</TabItem>
+<TabItem value="solution">
+
+- Alice discarded a known trash instead of playing her known playable card.
+- This is a legal move, even if the _Chop Moved_ card is not critical or playable and/or there are available clues
+- This move is called a [_Shout Discard Chop Move_](../level-7.mdx#the-shout-discard-chop-move).
+- Bob should permanently move his chop by one position, and write "cm" on his slot 4 to mark it as _Chop Moved_.
+- Bob is not allowed to discard on this turn. Instead, he **must** give a clue.
+
+<Answer />
+
+</TabItem>
+</Tabs>

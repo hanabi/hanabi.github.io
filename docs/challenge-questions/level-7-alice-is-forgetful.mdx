@@ -1,0 +1,42 @@
+---
+title: Alice is Forgetful
+---
+
+import ChallengeQuestionProgress from "@site/src/challengeQuestions.tsx";
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Question from "./level-7-alice-is-forgetful/question.yml";
+import Answer from "./level-7-alice-is-forgetful/answer.yml";
+
+<ChallengeQuestionProgress level={7} id="level-7-alice-is-forgetful" />
+
+<Tabs
+  queryString="tab"
+  defaultValue="question"
+  values={[
+    {label: 'Question', value: 'question'},
+    {label: 'Solution', value: 'solution'},
+  ]}>
+<TabItem value="question">
+
+- All the 2's have been played on the stacks.
+- There are 0 clues available.
+- Alice has a globally known red 3 in her hand.
+- Alice forgets to play her red 3 and instead discards her chop.
+- What notes should Bob write? What should Bob do on his turn?
+
+<Question />
+
+</TabItem>
+<TabItem value="solution">
+
+- Alice is not forgetful, she deliberately discarded instead of playing her known playable card.
+- Alice is performing a [_Scream Discard Chop Move_](../level-7.mdx#the-scream-discard-chop-move-sdcm).
+- By discarding instead of playing her known playable card, Alice is screaming at Bob that his chop is critical or playable.
+- Bob should permanently move his chop by one position, and write "cm" on his slot 4 to mark it as _Chop Moved_.
+- Bob is not allowed to discard on this turn. Instead, he **must** give a clue.
+
+<Answer />
+
+</TabItem>
+</Tabs>
