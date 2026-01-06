@@ -21,9 +21,9 @@ import Answer from "./level-5-finesse-after-finesse/answer.yml";
 
 - It is the first turn of the game.
 - Alice clues blue to Donald, touching a blue 3 on slot 2.
-- This is a _Double Finesse_ on Bob, so Bob plays his slot 1 as the blue 1.
-- Then Cathy clues red to Donald, touching a red 2 on slot 3.
-- Alice doesn't have any red cards in her hand.
+- This is a _Double Finesse_ on Bob, so Bob blind-plays his slot 1 as the blue 1.
+- Next, Cathy clues red to Donald, touching a red 2 on slot 3.
+- Alice does not have any red cards in her hand.
 - What notes should Bob write from this clue?
 - What should Bob do on his next turn?
 
@@ -33,13 +33,13 @@ import Answer from "./level-5-finesse-after-finesse/answer.yml";
 <TabItem value="solution">
 
 - Since Bob cannot see the missing red 1, he must have it.
-- He is therefore _Finessed_ again — a [_Queued Finesse_](../level-5.mdx#the-queued-finesse).
-- He does not know whether the original blue finesse was a [_Layered Finesse_](../level-5.mdx#the-layered-finesse) or not.
-- He must therefore mark his slot 2 as the red 1 _or_ the blue 2 (or possibly some other playable card).
-  - If slot 2 is the blue 2, then Alice's clue was a regular _Double Finesse_, and Cathy's clue was a normal _Finesse_, promising Bob's red 1 on slot 1.
-  - If slot 2 is the red 1, then Alice's clue was a _Layered Finesse_, and he should expect the blue 2 to be on slot 3.
-  - If slot 2 is another playable 1, then Alice's clue was a (doubly) _Layered Finesse_, and the hunt for the blue 2 and red 1 must continue in the same manner from slot 3.
-- In any case, he must play slot 2 first, and after seeing what it is, update his notes accordingly.
+- He is therefore _Finessed_ again as a [_Queued Finesse_](../level-5.mdx#the-queued-finesse).
+- He does not know whether the original blue _Finesse_ was a [_Layered Finesse_](../level-5.mdx#the-layered-finesse) or not.
+- Thus, he must mark his slot 2 card as the red 1 or the blue 2.
+  - If his slot 2 is a red 1, then Alice's clue was a _Layered Finesse_, and Cathy's clue was a "normal" _Play Clue_, meaning that Bob has a blue 2 on slot 3.
+  - If his slot 2 is a blue 2, then Alice's clue was a regular _Double Finesse_, and Cathy's clue was a _Queued Finesse_, meaning that Bob has a red 1 on his slot 1.
+- In any case, Bob must blind-play his slot 2 first, and after seeing what it is, update his notes accordingly.
+- Note that it is also possible that Bob's slot 2 is an unrelated playable card, like a yellow 1. This would be unlikely, but if that were the case, it would mean that he has another playable card on his slot 3. However, by default, Bob knows that he does not have to consider this kind of thing. (It it does happen, he would retroactively update his notes.)
 
 <Answer />
 
