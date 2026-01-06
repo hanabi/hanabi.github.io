@@ -25,7 +25,7 @@ players:
       - type: x
       - type: r
         clue: r
-        middleNote: r23
+        middleNote: r2, r3
         below: Play
       - type: x
       - type: x

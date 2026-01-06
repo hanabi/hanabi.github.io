@@ -75,7 +75,7 @@ import ChopMoveIgnitionTwoCards from "./level-21/chop-move-ignition-two-cards.ym
 - In this situation, they intend for an _Ignition_ on the next player. Since a _Chop Move_ causes a blind-play, the _Chop Moved_ player will know that the _Chop Moved_ card is playable.
 - For example, in a 4-player game:
   - It is the first turn and nothing is played on the stacks.
-  - Cathy's hand is, from newest to oldest: blue 4, blue 4, blue 5, red 1
+  - Cathy's hand is, from newest to oldest: `blue 4, blue 4, blue 5, red 1`
   - Alice clues number 5 to Cathy, touching a blue 5 on slot 3.
   - It is now Bob's turn. Bob sees that since there were other _Play Clues_ for Alice to give, Cathy will interpret this as an _Early 5's Chop Move_.
   - Bob also knows that it is nonsensical to _Chop Move_ a playable red 1 - Alice could have just give a red _Chop-Focus Play Clue_ to the red 1.
@@ -102,7 +102,7 @@ import ChopMoveIgnitionTwoCards from "./level-21/chop-move-ignition-two-cards.ym
 - For example, in a 3-player game:
   - It is the _Mid-Game_.
   - Red 3 is played on the stacks.
-  - Cathy's hand is, from newest to oldest: blue 4, green 3, blue 4, blue 5, blue 1
+  - Cathy's hand is, from newest to oldest: `blue 4, green 3, blue 4, blue 5, blue 1`
   - Alice clues number 5 to Cathy, touching the blue 5 on slot 4.
   - Bob expected Alice to clue number 1 to Cathy. Thus, this must be a _Chop Move Ignition_. Bob blind-plays his _Finesse Position_ card. It is red 4 and it successfully plays.
   - From Cathy's perspective, she first thought that Alice's clue was a _5's Chop Move_. However, if that were the case, Bob would not have blind-played anything.
@@ -123,7 +123,7 @@ import ChopMoveIgnitionTwoCards from "./level-21/chop-move-ignition-two-cards.ym
   2. The rightmost _Chop Moved_ card is trash or is a copy of an unclued card in the same hand.
 - For example, in a 4-player game:
   - All the 1's are played on the stacks.
-  - Cathy's hand is, from newest to oldest: blue 4, blue 1, red 2, blue 4
+  - Cathy's hand is, from newest to oldest: `blue 4, blue 1, red 2, blue 4`
   - Alice clues number 1 to Cathy, touching a blue 1 on slot 2.
   - It is now Bob's turn. Bob sees that Cathy will interpret this as a _Trash Chop Move_ on slot 3 and slot 4.
   - Bob also knows that it is nonsensical to _Chop Move_ a playable red 2 - Alice could have just give a direct red _Play Clue_ to the red 2.
