@@ -73,7 +73,7 @@ export function getSidebarParts(...path: readonly string[]): readonly string[] {
  * Creates a Progress component for a specific sidebar section.
  *
  * @param parts The array of page paths in the sidebar section.
- * @param pathPrefix The path prefix to match against (e.g., "beginner").
+ * @param pathPrefix The path prefix to match against (e.g. "beginner").
  * @returns A React component that displays progress through the section.
  */
 export function createProgressComponent(
